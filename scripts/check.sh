@@ -18,10 +18,13 @@ fi
 
 status=0
 
-if ! "$py" verify/battery.py; then
-  echo "verify/battery.py FAILED"
-  status=1
-fi
+for script in verify/battery.py verify/knot_numbers.py; do
+  if ! "$py" "$script"; then
+    echo "$script FAILED"
+    status=1
+  fi
+  echo
+done
 
 if [ "$status" -eq 0 ]; then
   echo "OK — all checks pass."
