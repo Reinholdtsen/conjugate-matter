@@ -45,11 +45,10 @@ Evidence used so far:
     ~10⁻¹⁰ at m ≈ 10¹⁶ GeV. For a hidden sector the rate runs through the
     dark plasma, so it has to be recomputed (acceptance criterion 3), not
     carried over.
-  - **Recommendation:** move the benchmark to M ≈ 3×10¹³, and keep 10¹⁶ with
-    its ~10¹⁰ dilution as a stated alternative. At 3×10¹³, the counterfactual
-    MACRO limit is ≤ 2.8×10⁻¹⁶ (m ≳ 10¹⁰ GeV row), not 1.4×10⁻¹⁶
-    (m ≳ 10¹⁶ GeV row).
-  - **Needs Paul's call.**
+  - **Decided (Paul, 2026-10-19):** move the benchmark to M ≈ 3×10¹³, and
+    keep 10¹⁶ with its ~10¹⁰ dilution as a stated alternative. At 3×10¹³, the
+    counterfactual MACRO limit is ≤ 2.8×10⁻¹⁶ (m ≳ 10¹⁰ GeV row), not
+    1.4×10⁻¹⁶ (m ≳ 10¹⁶ GeV row).
 - **F2 — which coupling sets the soliton mass** [D, numbers V]. v2 writes
   M ~ (4π/e_d²) Λ_c ~ 100 Λ_c. That factor is ~137 only if e_d²/4π ≈ 1/137.
   With e_d²/4π = α_d = 34 it is 0.029, so the solitons would not be heavy.
@@ -59,7 +58,9 @@ Evidence used so far:
     themselves are strongly coupled (α_m ≈ 1/(4α_e,d) or 1/α_e,d).
   - Then α_d ≈ 34 follows from α_e,d ≈ α, a mirror-coupling equality, and
     does not need S acting on our coupling.
-  - **Needs Paul's call**, because it changes §2's framing.
+  - **Decided (Paul, 2026-10-19):** adopt this reading. v3 §2 is reframed:
+    the load-bearing conjecture becomes α_e,d = α (or α_e,d free and weak),
+    and S-duality is no longer what fixes α_d.
 - **L1 — mixing does not give the monopoles a visible charge** (from the
   literature). With an unbroken dual U(1), i.e. a massless dark photon, which
   is v2's setup, kinetic mixing gives the dark monopole **no QED magnetic
@@ -93,6 +94,22 @@ Evidence used so far:
 - **O2 — dark radiation.** A massless dark photon (plus any light dark
   matter) contributes ΔN_eff. v2 mentions it qualitatively; quantify it
   against the dark sector's temperature.
+- **O3 — the dark sector in dual kinematics.** #14 describes the dark sector
+  entirely in our kinematics: GeV masses, 10⁻³ c drift, an ordinary massless
+  dark photon moving at c. #13 §4 labels conjugate quanta by an invariant
+  length λ instead of a mass, and a λ = 0 quantum would sit on the dual null
+  cone with |dp/dt| = c̃. The papers were never reconciled.
+  - #13 also has two different dual cones. §1 uses the 3+1 version (shared
+    time): the cone lives in (t, p) with slope c̃. §6 says "our massless
+    dispersion E = c|p| *is* the dual null cone", which belongs to the 4D
+    Born map (t ↔ E): a cone in (E, p) with slope c. Under the 4D map,
+    anything on our light cone is automatically dual-null.
+  - Whether the dark photon is m = 0, λ = 0, or both is part of #13's open
+    "dual dynamics" item.
+  - v3 decision: keep the dark sector in ordinary kinematics and say so
+    explicitly. L1 and O2 both rest on that.
+  - Before any paper claims more: fix #13's two cones and settle which
+    construction governs (raised by Paul, 2026-10-19).
 
 ## Verified references for v3
 
