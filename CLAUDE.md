@@ -28,6 +28,11 @@ below gives their paths.
 Read order for a fresh session: #11 → #14 → HANDOFF §6 → calc notes only as a
 task needs them.
 
+**Since the handoff:** #14 went to v3 and failed round-3 review (verdict C).
+HANDOFF §2's "current best DM candidate" (superheavy solitons) is superseded
+by [review/round3-adjudication.md](review/round3-adjudication.md). Read that
+before relying on §2 or on queue item 3 of §8.
+
 ## The gate
 
 [scripts/check.sh](scripts/check.sh) is the definition of done. It runs every
@@ -45,6 +50,12 @@ First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
 - Iron rule: no arithmetic by eyeball. Every asserted or disputed number gets
   executed code with printed output, kept in `verify/`.
 - Pre-register the expected verdict and weakest link before each review round.
+  Keep the prediction out of the commit subject: subagents see recent commit
+  subjects in their git-status context, and round 3's auditor saw it.
+- A verification check confirms arithmetic, not the model. An anchor must be
+  independent of the paper (a textbook identity, a published value). A check
+  that reproduces the paper's own number is circular. Round 3 caught a wrong
+  Kibble normalization that a circular anchor had passed.
 - Report negative results prominently. Claims listed as dead in HANDOFF §2 stay
   dead.
 

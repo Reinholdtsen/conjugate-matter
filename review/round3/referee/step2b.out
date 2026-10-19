@@ -1,0 +1,14 @@
+BPS analytic solution energy (units 4 pi v/g): 0.983333  (expect 1)
+lambda->inf (H=1): solve_bvp status=1, f_inf = E = 1.7741
+mu=0.0001  status=0 f = E = 1.0039
+mu=0.01    status=0 f = E = 1.0849
+mu=0.1     status=0 f = E = 1.2091
+mu=0.5     status=0 f = E = 1.3385
+mu=1       status=0 f = E = 1.4005
+mu=3       status=0 f = E = 1.4975
+mu=10      status=0 f = E = 1.5901
+mu=30      status=0 f = E = 1.6547
+mu=100     status=0 f = E = 1.7033
+mu=300     status=0 f = E = 1.7314
+mu=1000    status=0 f = E = 1.7500
+mu=3000    status=0 f = E = 1.7598

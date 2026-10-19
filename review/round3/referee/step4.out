@@ -1,0 +1,74 @@
+
+======== 1. Freeze-in of psi from SM via its visible millicharge eps*e (s-channel f fbar -> gamma* -> psi psibar) ========
+eps=1e-08: m=0.003GeV: Y_FI/Y_eq=4.94e-01; m=0.03GeV: Y_FI/Y_eq=4.48e-02; m=0.3GeV: Y_FI/Y_eq=9.96e-03; m=3GeV: Y_FI/Y_eq=1.16e-03; m=30GeV: Y_FI/Y_eq=1.12e-04
+eps=1e-07: m=0.003GeV: Y_FI/Y_eq=4.94e+01; m=0.03GeV: Y_FI/Y_eq=4.48e+00; m=0.3GeV: Y_FI/Y_eq=9.96e-01; m=3GeV: Y_FI/Y_eq=1.16e-01; m=30GeV: Y_FI/Y_eq=1.12e-02
+eps=1e-06: m=0.003GeV: Y_FI/Y_eq=4.94e+03; m=0.03GeV: Y_FI/Y_eq=4.48e+02; m=0.3GeV: Y_FI/Y_eq=9.96e+01; m=3GeV: Y_FI/Y_eq=1.16e+01; m=30GeV: Y_FI/Y_eq=1.12e+00
+eps=1e-07: Gamma/H at T=m (Gamma=gamma/n_eq,psi): m=0.003: 2.06e+01; m=0.03: 2.06e+00; m=0.3: 3.44e-01; m=3: 4.86e-02; m=30: 4.70e-03
+eps=1e-06: Gamma/H at T=m (Gamma=gamma/n_eq,psi): m=0.003: 2.06e+03; m=0.03: 2.06e+02; m=0.3: 3.44e+01; m=3: 4.86e+00; m=30: 4.70e-01
+
+======== 2. Delta N_eff if the hidden sector re-thermalises with the SM and gamma' decouples at T_d (Adshead et al. eq. 2.17) ========
+T_d=0.0005 GeV: g*s=10.75  DeltaN_eff(gamma' only)=1.143  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 8.49)
+T_d=0.005 GeV: g*s=10.75  DeltaN_eff(gamma' only)=1.143  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 8.49)
+T_d=0.05 GeV: g*s=17.25  DeltaN_eff(gamma' only)=0.609  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 4.52)
+T_d=0.1 GeV: g*s=17.25  DeltaN_eff(gamma' only)=0.609  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 4.52)
+T_d=0.2 GeV: g*s=61.75  DeltaN_eff(gamma' only)=0.111  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 0.83)
+T_d=0.3 GeV: g*s=61.75  DeltaN_eff(gamma' only)=0.111  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 0.83)
+T_d=1 GeV: g*s=75.75  DeltaN_eff(gamma' only)=0.085  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 0.63)
+T_d=3 GeV: g*s=86.25  DeltaN_eff(gamma' only)=0.071  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 0.53)
+T_d=10 GeV: g*s=86.25  DeltaN_eff(gamma' only)=0.071  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 0.53)
+T_d=30 GeV: g*s=92.25  DeltaN_eff(gamma' only)=0.065  (if psi entropy also dumped into gamma' after decoupling: x(9/2)^(4/3) -> 0.48)
+
+======== 3. Monopole relic: KZ production + diffusive/radiative capture (LMW 2607.20843 eqs. 13,16,18,28-30) with manuscript parameters ========
+h = g_m = 20.749, e_psi = 0.3028, b_psi = 0.1827, b_W' = 0.5481
+Y needed for Omega_DM at M=3e13: 1.458e-23
+v=8.09e+11 xi=0.76 Kibble(one per H^-3): Y_init=7.15e-20 Y_final=7.15e-20 -> Omega/Omega_DM=4.90e+03  (diffusive capture stops at T_hid=4.79e+10; T_c=8.09e+11, m_W'=4.90e+11)
+v=8.09e+11 xi=0.76 KZ lambda=0.1: Y_init=1.85e-09 Y_final=3.19e-11 -> Omega/Omega_DM=2.19e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=8.09e+11, m_W'=4.90e+11)
+v=8.09e+11 xi=0.76 KZ lambda=1.0: Y_init=1.85e-08 Y_final=3.24e-11 -> Omega/Omega_DM=2.22e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=8.09e+11, m_W'=4.90e+11)
+v=8.09e+11 xi=0.5 Kibble(one per H^-3): Y_init=2.51e-19 Y_final=2.51e-19 -> Omega/Omega_DM=1.72e+04  (diffusive capture stops at T_hid=4.79e+10; T_c=8.09e+11, m_W'=4.90e+11)
+v=8.09e+11 xi=0.5 KZ lambda=0.1: Y_init=1.21e-09 Y_final=2.10e-11 -> Omega/Omega_DM=1.44e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=8.09e+11, m_W'=4.90e+11)
+v=8.09e+11 xi=0.5 KZ lambda=1.0: Y_init=1.21e-08 Y_final=2.13e-11 -> Omega/Omega_DM=1.46e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=8.09e+11, m_W'=4.90e+11)
+v=1.45e+12 xi=0.76 Kibble(one per H^-3): Y_init=4.08e-19 Y_final=4.08e-19 -> Omega/Omega_DM=2.80e+04  (diffusive capture stops at T_hid=4.79e+10; T_c=1.45e+12, m_W'=8.76e+11)
+v=1.45e+12 xi=0.76 KZ lambda=0.1: Y_init=3.30e-09 Y_final=2.53e-11 -> Omega/Omega_DM=1.73e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=1.45e+12, m_W'=8.76e+11)
+v=1.45e+12 xi=0.76 KZ lambda=1.0: Y_init=3.30e-08 Y_final=2.55e-11 -> Omega/Omega_DM=1.75e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=1.45e+12, m_W'=8.76e+11)
+v=1.45e+12 xi=0.5 Kibble(one per H^-3): Y_init=1.43e-18 Y_final=1.43e-18 -> Omega/Omega_DM=9.82e+04  (diffusive capture stops at T_hid=4.79e+10; T_c=1.45e+12, m_W'=8.76e+11)
+v=1.45e+12 xi=0.5 KZ lambda=0.1: Y_init=2.17e-09 Y_final=1.66e-11 -> Omega/Omega_DM=1.14e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=1.45e+12, m_W'=8.76e+11)
+v=1.45e+12 xi=0.5 KZ lambda=1.0: Y_init=2.17e-08 Y_final=1.68e-11 -> Omega/Omega_DM=1.15e+12  (diffusive capture stops at T_hid=4.79e+10; T_c=1.45e+12, m_W'=8.76e+11)
+LMW eq.(25) at v=8.09e+11, B=xi^4 (xi=0.76), b=0.183, e=0.303: Omega_M = 6.77e+10
+LMW eq.(25) at v=8.09e+11, B=xi^4 (xi=0.76), b=0.731, e=0.303: Omega_M = 1.69e+10
+LMW eq.(25) at v=8.09e+11, B=xi^4 (xi=0.76), b=10.000, e=0.303: Omega_M = 1.24e+09
+LMW eq.(25) at v=1.45e+12, B=xi^4 (xi=0.76), b=0.183, e=0.303: Omega_M = 2.16e+11
+LMW eq.(25) at v=1.45e+12, B=xi^4 (xi=0.76), b=0.731, e=0.303: Omega_M = 5.40e+10
+LMW eq.(25) at v=1.45e+12, B=xi^4 (xi=0.76), b=10.000, e=0.303: Omega_M = 3.95e+09
+first-order with beta/H=1: p ~ 1.0e+02
+first-order with beta/H=10: p ~ 1.0e+05
+first-order with beta/H=100: p ~ 1.0e+08
+
+======== 4. psi - gamma' kinetic decoupling (dark Thomson scattering) ========
+DeltaN=0.286 (T_h0/T_g0=0.505) m_psi=0.03 GeV: psi kinetically decouples from gamma' at z = 2.69e+03; gamma' mean free path ~ Hubble (f=0.1) at z = 1.54e+03
+DeltaN=0.286 (T_h0/T_g0=0.505) m_psi=0.3 GeV: psi kinetically decouples from gamma' at z = 7.02e+04; gamma' mean free path ~ Hubble (f=0.1) at z = 8.61e+05
+DeltaN=0.286 (T_h0/T_g0=0.505) m_psi=3 GeV: psi kinetically decouples from gamma' at z = 2.19e+06; gamma' mean free path ~ Hubble (f=0.1) at z = 8.59e+08
+DeltaN=0.286 (T_h0/T_g0=0.505) m_psi=30 GeV: psi kinetically decouples from gamma' at z = 6.94e+07; gamma' mean free path ~ Hubble (f=0.1) at z = 8.59e+11
+DeltaN=0.1 (T_h0/T_g0=0.388) m_psi=0.03 GeV: psi kinetically decouples from gamma' at z = 4.29e+03; gamma' mean free path ~ Hubble (f=0.1) at z = 1.54e+03
+DeltaN=0.1 (T_h0/T_g0=0.388) m_psi=0.3 GeV: psi kinetically decouples from gamma' at z = 1.18e+05; gamma' mean free path ~ Hubble (f=0.1) at z = 8.61e+05
+DeltaN=0.1 (T_h0/T_g0=0.388) m_psi=3 GeV: psi kinetically decouples from gamma' at z = 3.71e+06; gamma' mean free path ~ Hubble (f=0.1) at z = 8.59e+08
+DeltaN=0.1 (T_h0/T_g0=0.388) m_psi=30 GeV: psi kinetically decouples from gamma' at z = 1.17e+08; gamma' mean free path ~ Hubble (f=0.1) at z = 8.59e+11
+DeltaN=0.05 (T_h0/T_g0=0.326) m_psi=0.03 GeV: psi kinetically decouples from gamma' at z = 5.88e+03; gamma' mean free path ~ Hubble (f=0.1) at z = 1.54e+03
+DeltaN=0.05 (T_h0/T_g0=0.326) m_psi=0.3 GeV: psi kinetically decouples from gamma' at z = 1.67e+05; gamma' mean free path ~ Hubble (f=0.1) at z = 8.61e+05
+DeltaN=0.05 (T_h0/T_g0=0.326) m_psi=3 GeV: psi kinetically decouples from gamma' at z = 5.25e+06; gamma' mean free path ~ Hubble (f=0.1) at z = 8.59e+08
+DeltaN=0.05 (T_h0/T_g0=0.326) m_psi=30 GeV: psi kinetically decouples from gamma' at z = 1.66e+08; gamma' mean free path ~ Hubble (f=0.1) at z = 8.59e+11
+
+======== 5. Monopole 'plasma' frequency (collective long-range effects, cf. Lasenby 2007.00667) ========
+local 0.4 GeV/cm3: omega_p = 1.84e-09 s^-1, 1/omega_p = 1.72e+01 yr
+cluster ~1e-2 GeV/cm3: omega_p = 2.91e-10 s^-1, 1/omega_p = 1.09e+02 yr
+cosmic mean: omega_p = 3.28e-12 s^-1, 1/omega_p = 9.67e+03 yr
+
+======== 6. Higgs portal (allowed by all stated symmetries) ========
+v=8.09e+11: lambda_p v^2 <= m_h^2 (125 GeV)^2 needs lambda_p <= 2.4e-20
+v=1.45e+12: lambda_p v^2 <= m_h^2 (125 GeV)^2 needs lambda_p <= 7.5e-21
+portal equilibrates sectors at T=1e+12 if lambda_p >~ 5.3e-02
+
+======== 7. psi annihilation epoch vs BBN (hidden x_f ~ 20-25, T_h/T from entropy, xi0=0.76) ========
+m_psi=1 MeV: hidden freeze-out T_h ~ m/20 = 0.05 MeV at T_vis ~ 0.0806 MeV (BBN D-formation ~0.07 MeV; n/p freeze-out ~0.8 MeV)
+m_psi=3 MeV: hidden freeze-out T_h ~ m/20 = 0.15 MeV at T_vis ~ 0.242 MeV (BBN D-formation ~0.07 MeV; n/p freeze-out ~0.8 MeV)
+m_psi=10 MeV: hidden freeze-out T_h ~ m/20 = 0.5 MeV at T_vis ~ 0.707 MeV (BBN D-formation ~0.07 MeV; n/p freeze-out ~0.8 MeV)
+m_psi=30 MeV: hidden freeze-out T_h ~ m/20 = 1.5 MeV at T_vis ~ 2.12 MeV (BBN D-formation ~0.07 MeV; n/p freeze-out ~0.8 MeV)

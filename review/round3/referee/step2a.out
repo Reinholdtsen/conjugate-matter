@@ -1,0 +1,76 @@
+
+======== COUPLINGS ========
+H: (gd/2)^2/4pi = alpha -> gd = 0.60564, alpha_W' = 0.029189 = 1/34.259, alpha_m = g_m^2/4pi = 34.259
+check alpha_m * alpha_W' = 1.000000 (should be 1)
+variant W'-charge matched: alpha_W'=alpha -> alpha_m = 1/alpha = 137.036
+variant psi charge matched to e/3 (smallest SM charge): alpha_m = 9/(4 alpha) = 308.3
+running (MSbar 127.930): alpha^-1(1e12 GeV) = 114.44 -> alpha_m = alpha^-1/4 = 28.61
+running (on-shell-ish 128.95): alpha^-1(1e12 GeV) = 115.46 -> alpha_m = alpha^-1/4 = 28.86
+
+======== MONOPOLE MASS RELATION M = 4 pi f v / g_d ========
+4 pi/g_d = 20.749;  4 pi f_inf/g_d = 37.072  -> M = (20.7 - 37.1) v
+
+======== BENCHMARK M = 3e13 GeV: v and m_W' ========
+v = 8.092e+11 - 1.446e+12 GeV ; m_W' = g_d v = 4.901e+11 - 8.757e+11 GeV
+
+======== DARK MATTER DENSITY ========
+rho_DM mean = 1.2644e-06 GeV/cm^3 = 1.264 keV/cm^3
+
+======== KIBBLE: n/s for one monopole per horizon volume ========
+g*=100.0: H = 16.602 sqrt-factor * T^2/MPl ; p(one per H^-3) = 104.31 ; p(one per (4pi/3)H^-3) = 24.90
+g*=106.75: H = 17.153 sqrt-factor * T^2/MPl ; p(one per H^-3) = 107.77 ; p(one per (4pi/3)H^-3) = 25.73
+manuscript p = 0.023 ; 45/(2 pi^2 * 100) = 0.0228  <- equals n=(T^2/MPl)^3 i.e. H without 1.66 sqrt(g*)
+missing factor (1.66 sqrt(100))^3 = 4575.6
+
+M* reproduction with manuscript inputs (p in [0.023,1], k in [21,37], MPl=1.22e19):
+   p=0.023  k= 20.75: M* = 2.358e+13 GeV
+   p=0.023  k= 37.07: M* = 3.644e+13 GeV
+   p=1.0    k= 20.75: M* = 9.182e+12 GeV
+   p=1.0    k= 37.07: M* = 1.419e+13 GeV
+M* with p from one-per-Hubble-volume (g*=100):
+   p= 104.31 (H^-3): M* = 2.873e+12 - 4.440e+12 GeV
+   p=  24.90 ((4pi/3)H^-3): M* = 4.110e+12 - 6.352e+12 GeV
+   overproduction at benchmark 3e13 (p=104.3, k=20.7): (M/M*)^4 = 1.188e+04
+   overproduction at benchmark 3e13 (p=104.3, k=37.1): (M/M*)^4 = 2.084e+03
+reduced-Planck 'convention' factor (MPl/MPl_red)^(3/4) = 3.350
+dilution needed at M=1e16 with M*=3e13: (1e16/3e13)^4 = 1.235e+10; with M*=0.9e13: 1.524e+12; with corrected M*=4.44e+12: 2.573e+13
+xi^(3/4) at xi=0.77: 0.822
+xi^(3/4) at xi=0.76: 0.814
+
+======== BENCHMARK DENSITIES (M = 3e13 GeV) ========
+mean n = 4.215e-20 /cm^3
+rho_loc=0.4: n = 1.333e-14/cm^3, volume per monopole = 0.0750 km^3, spacing n^-1/3 = 421.7 m
+rho_loc=0.3: n = 1.000e-14/cm^3, volume per monopole = 0.1000 km^3, spacing n^-1/3 = 464.2 m
+
+======== COUNTERFACTUAL FLUX (if magnetically charged under our U(1)) ========
+v=1e-3 c (1.000e-03 c): F = 3.181e-08 /cm^2/s/sr ; log10 excess: Parker 7.50, MACRO(2.8e-16) 8.06, ext.Parker 12.03 (PDG form 12.02)
+v=PDG eq.95.8 v_mag=1e-3c(1e17/M)^0.5 (5.774e-02 c): F = 1.836e-06 /cm^2/s/sr ; log10 excess: Parker 9.26, MACRO(2.8e-16) 9.82, ext.Parker 13.79 (PDG form 13.78)
+
+======== KINETIC MIXING eps ~ v/M_* ========
+v=8.09e+11, M_*=MPl: v/M_* = 6.63e-08
+v=8.09e+11, M_*=MPl_red: v/M_* = 3.32e-07
+v=1.45e+12, M_*=MPl: v/M_* = 1.18e-07
+v=1.45e+12, M_*=MPl_red: v/M_* = 5.94e-07
+one-loop UV-completion factor g_d g' y/(16 pi^2) with y=1, g'=0.357: 1.37e-03 -> eps range 9.1e-11 - 8.1e-10 (Lambda=MPl..MPl_red)
+psi visible charge = eps*cos(thetaW)*((g_d/2)/e) e; (g_d/2)/e = 1.000, cos thetaW=0.8815
+
+======== DARK RADIATION ========
+g_h(high)=16.0, g_h(late)=2.0, g_vis(high)=106.75: T_h/T_nu = 0.9305, DeltaN_eff = 0.8567
+   N_eff,SM=3.044: DeltaN_max(95%) = 0.286 -> xi_max = 0.7601
+   N_eff,SM=3.046: DeltaN_max(95%) = 0.284 -> xi_max = 0.7588
+   xi needed for DeltaN<0.30: 0.7693
+
+======== SIGMA_T / M ========
+lnL=10: manuscript formula sigma_T/M = 9.545e-27 cm^2/g ; standard 4pi a^2 lnL/(mu^2 v^4): 4.773e-27 cm^2/g
+lnL=30: manuscript formula sigma_T/M = 2.864e-26 cm^2/g ; standard 4pi a^2 lnL/(mu^2 v^4): 1.432e-26 cm^2/g
+orders below 1 cm^2/g: 25.7
+
+======== GW PEAK FREQUENCY  f0 = 1.65e-5 Hz (f*/H*) (T*/100 GeV) (g*/100)^(1/6) ========
+T*=8.09e+11 f*/H*=1   g*=106.75: f0 = 1.35e+05 Hz
+T*=8.09e+11 f*/H*=1   g*=122.75: f0 = 1.38e+05 Hz
+T*=8.09e+11 f*/H*=100 g*=106.75: f0 = 1.35e+07 Hz
+T*=8.09e+11 f*/H*=100 g*=122.75: f0 = 1.38e+07 Hz
+T*=1.45e+12 f*/H*=1   g*=106.75: f0 = 2.41e+05 Hz
+T*=1.45e+12 f*/H*=1   g*=122.75: f0 = 2.47e+05 Hz
+T*=1.45e+12 f*/H*=100 g*=106.75: f0 = 2.41e+07 Hz
+T*=1.45e+12 f*/H*=100 g*=122.75: f0 = 2.47e+07 Hz

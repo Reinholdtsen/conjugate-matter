@@ -1,0 +1,14 @@
+W' xi=1.0 m=4.901e+11: Omega/Omega_DM = 1.41e+16
+W' xi=1.0 m=8.757e+11: Omega/Omega_DM = 4.17e+16
+W' xi=0.76 m=4.901e+11: Omega/Omega_DM = 9.92e+15
+W' xi=0.76 m=8.757e+11: Omega/Omega_DM = 2.93e+16
+Kibble-minimum M* (p=104.3, k=20.75, xi=1.0) = 2.873e+12 GeV ; benchmark overproduction (3e13/M*)^4 = 1.19e+04
+Kibble-minimum M* (p=104.3, k=20.75, xi=0.76) = 2.339e+12 GeV ; benchmark overproduction (3e13/M*)^4 = 2.71e+04
+Kibble-minimum M* (p=104.3, k=37.07, xi=1.0) = 4.440e+12 GeV ; benchmark overproduction (3e13/M*)^4 = 2.08e+03
+Kibble-minimum M* (p=104.3, k=37.07, xi=0.76) = 3.614e+12 GeV ; benchmark overproduction (3e13/M*)^4 = 4.75e+03
+chi=1e-07, theta_d=0.10: monopole visible charge ~ 1.59e-09 e
+chi=1e-07, theta_d=1.00: monopole visible charge ~ 1.59e-08 e
+chi=1e-07, theta_d=3.14: monopole visible charge ~ 5.00e-08 e
+chi=1e-06, theta_d=0.10: monopole visible charge ~ 1.59e-08 e
+chi=1e-06, theta_d=1.00: monopole visible charge ~ 1.59e-07 e
+chi=1e-06, theta_d=3.14: monopole visible charge ~ 5.00e-07 e

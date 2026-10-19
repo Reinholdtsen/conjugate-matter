@@ -1,0 +1,10 @@
+normal form of c0 mod I: 0
+normal form of c1 mod I: 0
+normal form of c2 mod I: 0
+normal form of c3 mod I: 0
+normal form of (BA-1) entry a0*b0 + a1*b1 - 1: 0
+normal form of (BA-1) entry a1*b0 + a2*b1: 0
+normal form of (BA-1) entry a0*b1 + a1*b2: 0
+normal form of (BA-1) entry a1*b1 + a2*b2 - 1: 0
+Without invertibility: is c0 in the ideal? True | is c0^k for small k? [True, True, True]
+Is 1 in the ideal without invertibility (i.e. no solutions at all with singular... )? False

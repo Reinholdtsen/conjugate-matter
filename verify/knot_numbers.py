@@ -9,6 +9,15 @@ Exit code 1 if any check fails. Anchor checks come first: each formula is
 tested against a known case before its estimate is trusted. The v2 figures
 this file used to check are in git history (commit d15cd4a).
 
+Round 3 (review/round3-adjudication.md) found two physics inputs here wrong:
+the Kibble normalization p (one defect per Hubble volume is p = 104, not
+0.023; it is the causal minimum, not an upper end) and the psi relic count
+(psi-bar and both doublet members omitted; sigma v for psi psi-bar -> 2 gamma'
+is exact, so no kappa bracket). Both are corrected below, so the checks of
+v3's claims that rest on them FAIL. That is the intended state until v3 is
+revised or withdrawn. An earlier Kibble "anchor" that reproduced v2's own
+number was circular and has been replaced with independent ones.
+
 Model (v3): SU(2)_d -> U(1)_d by an adjoint Higgs with vev v, at least one
 Dirac doublet psi of dark charge g_d/2. Hypothesis H: the smallest dark
 charge equals ours, (g_d/2)^2/4pi = alpha. Monopole mass M = 4 pi f v / g_d,
@@ -43,7 +52,7 @@ ALPHA = 1/137.035999
 KM3_CM3 = 1e15
 MZ = 91.1876; ALPHA_EM_INV_MZ = 127.951; SIN2W_MZ = 0.23122
 GS_SM_HIGH = 106.75; GS_NU_DEC = 10.75
-DNEFF_BOUND = 0.3        # Planck 2018: N_eff = 2.99 +- 0.34 (95%), so Delta N_eff < ~0.3
+DNEFF_BOUND = 2.99 + 0.34 - 3.044   # Planck 2018 95% upper N_eff, minus the SM's 3.044
 # Manuscript inputs
 RHO_LOCAL = 0.4          # GeV cm^-3
 V_HALO = 1e-3            # c
@@ -51,7 +60,10 @@ PARKER = 1e-15           # cm^-2 s^-1 sr^-1, PDG 2024, M < 1e17 GeV
 MACRO_LOW_M = 2.8e-16    # MACRO, m > 1e10 GeV, beta > 1e-4
 M_BENCH = 3e13           # GeV
 F_RANGE = (1.0, 1.787)
-P_HORIZON = 45/(2*pi**2*100)   # one defect per horizon volume, g* = 100
+GSTAR = 100.0
+H_COEFF = sqrt(8*pi**3*GSTAR/90)       # H = H_COEFF T^2 / M_Pl in the radiation era
+P_HORIZON = H_COEFF**3*45/(2*pi**2*GSTAR)                       # one defect per H^-3: n/s = p (T/M_Pl)^3
+P_HORIZON_RED = sqrt(pi**2*GSTAR/90)**3*45/(2*pi**2*GSTAR)      # the same, in reduced-Planck units
 
 def omega_h2(m, sigma0, g, gstar):
     xf = 20.0
@@ -71,8 +83,9 @@ check("freeze-out: 100 GeV, sigma v = 2.2e-26 cm^3/s gives Omega h^2 ~ 0.12 (wit
       f"{omega_h2(100.0, 2.2e-26/CM3S_PER_GEV2, 2, 90):.3f}")
 check("Delta N_eff: one extra neutrino species at T_nu gives 1", abs(delta_neff(7/4, 1.0)-1) < 1e-12)
 check("running: alpha_em^-1(MZ) = 127.95 from alpha_Y and alpha_2", round(inv_em(MZ),2)==127.95)
-check("Kibble: v2 point M = 100 Lambda_c, p = 1 reproduces 3e13 GeV",
-      sig(100*(RHO_DM*M_PL**3/(100*S0))**0.25)==3e13)
+check("Friedmann: H = 1.66 sqrt(g*) T^2/M_Pl", round(sqrt(8*pi**3/90),2)==1.66)
+check("Kibble: one defect per Hubble volume gives n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)",
+      50 <= P_HORIZON <= 200, f"p = {P_HORIZON:.1f}")
 
 print("\n== Sec. 2: couplings")
 g_d = 2*sqrt(4*pi*ALPHA)
@@ -97,15 +110,18 @@ check("one defect per horizon volume: p ~ 0.023", round(P_HORIZON,3)==0.023, f"{
 def m_star(r, p, mpl=M_PL, xi=1.0):
     v = (RHO_DM*mpl**3*xi**3/(r*p*S0))**0.25
     return r*v
-stars = [m_star(r, p) for r in (r_lo, r_hi) for p in (1.0, P_HORIZON)]
+# One defect per Hubble volume is the causal minimum; Kibble-Zurek or bubble counting only adds.
+stars = [m_star(r, P_HORIZON) for r in (r_lo, r_hi)]
 lo, hi = min(stars), max(stars)
 check("Kibble-consistent M* ~ (0.9-3.7)e13 GeV over f and p", round(lo/1e12)==9 and round(hi/1e12,-0)==37,
-      f"{lo:.2e}-{hi:.2e}; p_horizon = {P_HORIZON:.4f}")
-check("benchmark 3e13 lies inside the band", lo <= M_BENCH <= hi)
+      f"{lo:.2e}-{hi:.2e} at minimum production, p = {P_HORIZON:.1f}")
+check("benchmark 3e13 lies inside the band", lo <= M_BENCH <= hi,
+      f"benchmark overproduced x{(M_BENCH/hi)**4:.1e}-{(M_BENCH/lo)**4:.1e} even at minimum production")
 check("the band spans a factor of four", round(hi/lo)==4, f"x{hi/lo:.2f}")
-check("reduced-Planck convention lowers M* by ~3", round(m_star(r_lo,1.0)/m_star(r_lo,1.0,M_PL_RED))==3,
-      f"x{m_star(r_lo,1.0)/m_star(r_lo,1.0,M_PL_RED):.2f}")
-D = (1e16/M_BENCH)**4
+ratio = m_star(r_lo, P_HORIZON)/m_star(r_lo, P_HORIZON_RED, M_PL_RED)
+check("conventions agree when p is normalized consistently", abs(ratio-1) < 0.01, f"x{ratio:.4f}")
+check("reduced-Planck convention lowers M* by ~3", round(ratio)==3, f"x{ratio:.2f}")
+D = (1e16/sqrt(lo*hi))**4
 check("M = 1e16 GeV needs entropy dilution ~1e10", round(log10(D))==10, f"{D:.2e}")
 
 print("\n== Sec. 3: the minimal (adjoint-only) model fails")
@@ -116,19 +132,17 @@ for f in F_RANGE:
         over.append(2*omega_h2(m_w, kappa*pi*alpha_w**2/m_w**2, 3, GS_SM_HIGH+9)/0.12)
 check("stable W'+- overclose by 1e16-1e17", round(log10(min(over)))==16 and round(log10(max(over)))==17,
       f"{min(over):.1e}-{max(over):.1e} x observed")
-def m_for_omega(target, kappa):
+def m_for_omega(target):
+    # psi and psi-bar for both doublet members (x4); sigma v = pi alpha^2/m^2 is exact s-wave
     lo_m, hi_m = 1.0, 1e9
     for _ in range(200):
         m = sqrt(lo_m*hi_m)
-        oh2 = omega_h2(m, kappa*pi*ALPHA**2/m**2, 4, GS_SM_HIGH+9)
+        oh2 = 4*omega_h2(m, pi*ALPHA**2/m**2, 2, GS_SM_HIGH)
         lo_m, hi_m = (m, hi_m) if oh2 < target else (lo_m, m)
     return m
-m10 = (m_for_omega(0.012, 1.0), m_for_omega(0.012, 10.0))
-m100 = (m_for_omega(0.12, 1.0), m_for_omega(0.12, 10.0))
-check("psi is <10% of the dark matter for m_psi < 0.1-0.3 TeV", round(m10[0]/100)==1 and round(m10[1]/100)==3,
-      f"{m10[0]:.0f}-{m10[1]:.0f} GeV")
-check("psi would be all of it at 0.3-1 TeV", round(m100[0]/100)==3 and round(m100[1]/1000)==1,
-      f"{m100[0]:.0f}-{m100[1]:.0f} GeV")
+m10, m100 = m_for_omega(0.012), m_for_omega(0.12)
+check("psi is <10% of the dark matter for m_psi < 0.1-0.3 TeV", 100 <= m10 <= 300, f"{m10:.0f} GeV")
+check("psi would be all of it at 0.3-1 TeV", 300 <= m100 <= 1000, f"{m100:.0f} GeV")
 
 print("\n== Sec. 3: benchmark densities (M = 3e13 GeV)")
 n_mean = RHO_DM/M_BENCH; n_loc = RHO_LOCAL/M_BENCH

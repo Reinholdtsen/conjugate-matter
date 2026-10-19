@@ -1,0 +1,31 @@
+
+===== d = 1 (symbolic) =====
+(2,1) block of (eta^-1 H)^2 - 1 == A C^T + C A : True
+(2,1) block of (omega^-1 H)^2 + 1 == C A - A C^T : True
+sum = 2 C A : True ; difference = 2 A C^T : True
+with C=0: (1,1) block of E1 == B A - 1 : True ; (2,2) block == A B - 1 : True ; E2 off-diag zero: True
+number of solution branches (no positivity imposed): 1
+  branch: C = [0] | A = [1/b0] | B = [b0]
+
+===== d = 2 (symbolic) =====
+(2,1) block of (eta^-1 H)^2 - 1 == A C^T + C A : True
+(2,1) block of (omega^-1 H)^2 + 1 == C A - A C^T : True
+sum = 2 C A : True ; difference = 2 A C^T : True
+with C=0: (1,1) block of E1 == B A - 1 : True ; (2,2) block == A B - 1 : True ; E2 off-diag zero: True
+number of solution branches (no positivity imposed): 0
+
+===== d = 3 (numerical, 2000 trials per family) =====
+(a) diag(g,g^-1): max residuals eta=4.71e-15, omega=4.71e-15; det H = 1 check: 2.2e-16
+(b) generic SPD H (C!=0): min over trials of max(eta,omega residual) = 21.032  -> every trial violates at least one
+(c) eta-only family (B-field): eta residual max 4.97e-14; omega residual min 0.282
+(d) omega-only family (Siegel X!=0): omega residual max 2.30e-14; eta residual min 0.524
+(e) diag + C of size 1e-02: residuals eta=9.23e-02, omega=6.15e-02
+(e) diag + C of size 1e-04: residuals eta=1.44e-03, omega=2.39e-04
+
+===== d = 4 (numerical, 2000 trials per family) =====
+(a) diag(g,g^-1): max residuals eta=8.37e-15, omega=8.37e-15; det H = 1 check: 2.2e-16
+(b) generic SPD H (C!=0): min over trials of max(eta,omega residual) = 83.515  -> every trial violates at least one
+(c) eta-only family (B-field): eta residual max 7.30e-14; omega residual min 1.483
+(d) omega-only family (Siegel X!=0): omega residual max 2.85e-14; eta residual min 1.873
+(e) diag + C of size 1e-02: residuals eta=4.56e-01, omega=3.72e-01
+(e) diag + C of size 1e-04: residuals eta=2.12e-03, omega=3.41e-03

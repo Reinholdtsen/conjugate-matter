@@ -1,0 +1,10 @@
+1.66 check: sqrt(8 pi^3/90) = 1.6602
+p, one defect per H^-3, non-reduced M_Pl: 104.31
+p, one defect per H^-3, reduced M_Pl:     0.828
+p used in v3 (45/(2 pi^2 g*)):             0.0228
+f=1.0: M* (Kibble minimum production) = 2.87e+12 GeV; v = 1.38e+11; 3e13 overproduced x1.2e+04
+f=1.787: M* (Kibble minimum production) = 4.44e+12 GeV; v = 1.20e+11; 3e13 overproduced x2.1e+03
+g*= 80.00 v3 counting                      : 100% at    297 GeV, 10% at    92 GeV
+g*= 80.00 psi+psibar, two doublet members  : 100% at    146 GeV, 10% at    45 GeV
+g*=106.75 v3 counting                      : 100% at    321 GeV, 10% at    99 GeV
+g*=106.75 psi+psibar, two doublet members  : 100% at    158 GeV, 10% at    49 GeV

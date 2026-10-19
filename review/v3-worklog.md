@@ -226,3 +226,12 @@ Hiramatsu et al., which was taken from its DOI. Round 3 should confirm both.
 [review/skeptic-review-console.html](skeptic-review-console.html) embeds v2
 verbatim. It is kept as the record of rounds 1–2. Round 3 runs as a subagent
 here, not through the console.
+
+## Round 3 outcome (2026-10-19)
+
+v3 failed blind review with **verdict C**. The Kibble normalization was
+wrong (p ≈ 104, not 0.023), so the mass band, "no dilution" and the ψ
+window fall with it. Full rulings, pre-registration scoring and the open
+decisions are in [round3-adjudication.md](round3-adjudication.md). This
+worklog is closed. The next step is Paul's decision on the soliton
+candidate.

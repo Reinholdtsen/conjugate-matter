@@ -1,0 +1,17 @@
+[check] scalar QED via detailed balance: sigma v(S+S- -> gg) = 2.0000 pi a^2/m^2 (textbook: 2)
+/tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/14437315-22f0-49be-ab4a-f2358ad806c3/scratchpad/round3/step2c.py:29: RuntimeWarning: overflow encountered in exp
+  E = np.sqrt(u*u + x*x); return u*u*E/(np.exp(E)+sgn)
+/tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/14437315-22f0-49be-ab4a-f2358ad806c3/scratchpad/round3/step2c.py:31: RuntimeWarning: overflow encountered in exp
+  E = np.sqrt(u*u + x*x); return u**4/(3*E)/(np.exp(E)+sgn)
+[g*] g*_rho at 1e3,10,1,0.1,0.001 GeV: 106.72, 86.22, 76.35, 16.37, 10.68
+W': m=4.901e+11 c= 1.000 <sv>=1.30e-43 cm^3/s  Omega h^2 = 8.129e+15  -> /0.12 = 6.77e+16
+W': m=4.901e+11 c= 6.667 <sv>=8.67e-43 cm^3/s  Omega h^2 = 1.610e+15  -> /0.12 = 1.34e+16
+W': m=4.901e+11 c=10.000 <sv>=1.30e-42 cm^3/s  Omega h^2 = 1.129e+15  -> /0.12 = 9.41e+15
+W': m=4.901e+11 c=20.000 <sv>=2.60e-42 cm^3/s  Omega h^2 = 6.127e+14  -> /0.12 = 5.11e+15
+W': m=8.757e+11 c= 1.000 <sv>=4.07e-44 cm^3/s  Omega h^2 = 2.344e+16  -> /0.12 = 1.95e+17
+W': m=8.757e+11 c= 6.667 <sv>=2.72e-43 cm^3/s  Omega h^2 = 4.755e+15  -> /0.12 = 3.96e+16
+W': m=8.757e+11 c=10.000 <sv>=4.07e-43 cm^3/s  Omega h^2 = 3.349e+15  -> /0.12 = 2.79e+16
+W': m=8.757e+11 c=20.000 <sv>=8.15e-43 cm^3/s  Omega h^2 = 1.827e+15  -> /0.12 = 1.52e+16
+psi (alpha_d=alpha, 2 Dirac species, xi0=1.0): m=10GeV: Om h2=1.703e+07 (14188706888.6% DM); m=30GeV: Om h2=5.108e+07 (42566120667.1% DM); m=100GeV: Om h2=1.703e+08 (141887068902.8% DM); m=200GeV: Om h2=3.405e+08 (283774137842.1% DM); m=300GeV: Om h2=5.108e+08 (425661206818.4% DM); m=600GeV: Om h2=1.022e+09 (851322413950.8% DM); m=1000GeV: Om h2=1.703e+09 (1418870690583.2% DM)
+psi (alpha_d=alpha, 2 Dirac species, xi0=0.76): m=10GeV: Om h2=7.474e+06 (6228501795.2% DM); m=30GeV: Om h2=2.242e+07 (18685505386.4% DM); m=100GeV: Om h2=7.474e+07 (62285017963.4% DM); m=200GeV: Om h2=1.495e+08 (124570035952.6% DM); m=300GeV: Om h2=2.242e+08 (186855053966.9% DM); m=600GeV: Om h2=4.485e+08 (373710108148.0% DM); m=1000GeV: Om h2=7.474e+08 (622850180714.1% DM)
+psi (alpha_d=alpha, 2 Dirac species, xi0=0.5): m=10GeV: Om h2=2.128e+06 (1773588361.1% DM); m=30GeV: Om h2=6.385e+06 (5320765083.9% DM); m=100GeV: Om h2=2.128e+07 (17735883618.6% DM); m=200GeV: Om h2=4.257e+07 (35471767253.4% DM); m=300GeV: Om h2=6.385e+07 (53207650903.0% DM); m=600GeV: Om h2=1.277e+08 (106415301939.6% DM); m=1000GeV: Om h2=2.128e+08 (177358836861.9% DM)
