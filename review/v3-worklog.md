@@ -88,7 +88,7 @@ Evidence used so far:
 ## New open items (to compute before v3 states anything about them)
 
 - **O1 — dark W′± fate: fatal to the minimal model, not to the candidate**
-  [NOTE-tier, [verify/dark_sector.py](../verify/dark_sector.py)]. The script
+  [computed in [verify/knot_numbers.py](../verify/knot_numbers.py); `dark_sector.py` was merged into it]. The script
   checks its freeze-out formula on a standard relic first: 100 GeV with
   σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108.
   - Minimal model: SU(2)_d → U(1)_d with only the adjoint Higgs.
@@ -178,7 +178,51 @@ New references for v3:
 1. ~~Paul's call on F1 and F2~~ — done 2026-10-19 (both accepted).
 2. ~~Script O1 and O2~~ — done: the minimal model is dead; the fix is a
    light dark doublet plus ξ ≲ 0.77.
-3. Draft v3. Then update `verify/knot_numbers.py` so every number v3 quotes
-   is a gated check, and retire the v2 checks.
+3. ~~Draft v3~~ — done 2026-10-19 (see "v3 as drafted" below).
+   `verify/knot_numbers.py` now checks every number v3 quotes, and the v2
+   checks are retired (still in history at d15cd4a).
 4. Pre-register the expected verdict and weakest link, then run the round-3
    audit on v3 (HANDOFF §8 item 2).
+
+## v3 as drafted (2026-10-19)
+
+[papers/knot-dark-matter-standalone.md](../papers/knot-dark-matter-standalone.md)
+now holds v3; v2 is in git history. Every number it quotes is a gated check
+in `verify/knot_numbers.py`. Two planned figures were corrected by that
+check before the text was written: the coupling matched at 10¹² GeV is
+≈ 29 (not 28), and the minimal model overcloses by 10¹⁶–10¹⁷ (not
+10¹⁵–10¹⁷).
+
+Where drafting refined the plan above:
+
+- **Which charge hypothesis H matches.** The light doublet (O1) makes ψ's
+  charge g_d/2 the smallest dark charge. H matches *that* charge to ours, so
+  α_W′ = 4α ≈ 1/34 and the monopoles' coupling is α_m = 1/α_W′ = 1/(4α) ≈ 34
+  exactly, by Dirac quantization relative to ψ. Matching the W′ charge
+  instead gives 137; matching at 10¹² GeV gives ≈ 29. This is F2 made
+  precise.
+- **The mass relation.** v2's "M ~ 100 Λ_c" is replaced by
+  M = 4π f v/g_d ≈ (21–37) v [f: Prasad–Sommerfield, Bogomolny, verified on
+  INSPIRE]. The Kibble-consistent band becomes M* ≈ (0.9–3.7)×10¹³ GeV over
+  f and p. The F1 benchmark of 3×10¹³ sits inside it, with
+  v ≈ (0.8–1.4)×10¹² and m_W′ ≈ (5–9)×10¹¹ GeV.
+- **Benchmark numbers** move with it. One soliton per 0.075 km³ locally;
+  σ_T/M ~ 10⁻²⁶ cm²/g; GW peak 10⁵–10⁷ Hz; the counterfactual flux exceeds
+  Parker by 7.5 orders, MACRO (2.8×10⁻¹⁶) by 8 and extended Parker by 12.
+- **The mirror-SM tension.** An exact mirror copy of the SM has no stable
+  monopoles (π₂(S³) = 0), so H relates couplings only, not gauge groups.
+  v3 says so in §2.
+- **Requirements section.** v3 §6 lists three conditions forced by
+  consistency: a light doublet (MeV to ~0.1 TeV), ξ < 0.77, and an unbroken
+  U(1)_d.
+- **Exclusion conditions.** v2's ε·g condition is replaced by the
+  millicharged ψ window (item 3). The bimetric instability at equal Planck
+  masses is added to item 7.
+
+Not live-checked in v3's reference list: Kolb & Turner, *The Early Universe*
+(a textbook, cited for the freeze-out formula); the JHEP reference for
+Hiramatsu et al., which was taken from its DOI. Round 3 should confirm both.
+
+[review/skeptic-review-console.html](skeptic-review-console.html) embeds v2
+verbatim. It is kept as the record of rounds 1–2. Round 3 runs as a subagent
+here, not through the console.

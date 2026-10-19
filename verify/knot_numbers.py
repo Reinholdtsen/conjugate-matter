@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
 knot_numbers.py — every number quoted in papers/knot-dark-matter-standalone.md
-(#14), recomputed, plus the numbers the round-2 review disputes.
+(#14, v3), recomputed and checked at the precision the manuscript quotes it.
 
     .venv/bin/python verify/knot_numbers.py
 
-Two kinds of output:
-  PASS/FAIL  a figure the manuscript quotes, checked at the precision it is
-             quoted. Exit code 1 if any fails.
-  NOTE       a figure the manuscript does not yet quote: round-2 adjudication
-             inputs for v3. Printed, not gated. When v3 quotes one, it moves
-             to a check.
+Exit code 1 if any check fails. Anchor checks come first: each formula is
+tested against a known case before its estimate is trusted. The v2 figures
+this file used to check are in git history (commit d15cd4a).
 
-Inputs are standard reference values (PDG, Planck 2018), from model memory and
-listed below; the flux limits are the manuscript's own and are being
-source-checked separately.
+Model (v3): SU(2)_d -> U(1)_d by an adjoint Higgs with vev v, at least one
+Dirac doublet psi of dark charge g_d/2. Hypothesis H: the smallest dark
+charge equals ours, (g_d/2)^2/4pi = alpha. Monopole mass M = 4 pi f v / g_d,
+f = 1 (BPS) to 1.787 (large Higgs self-coupling); W' mass g_d v; transition
+temperature T_c ~ v. Freeze-out: s-wave, Kolb & Turner eqs. 5.43-5.45, with
+the annihilation coefficient kappa in sigma v = kappa pi alpha^2/m^2
+bracketed, not computed. Reference constants (PDG, Planck 2018) are from
+model memory except the N_eff bound (Planck 2018 VI, live-checked).
 """
 import sys
-from math import pi, log, log10
+from math import pi, log, log10, sqrt
 
 failures = []
 def check(name, ok, detail=""):
@@ -25,8 +27,6 @@ def check(name, ok, detail=""):
     print(f"{'PASS' if ok else 'FAIL'}  {name}" + (f"  [{detail}]" if detail else ""))
     if not ok:
         failures.append(name)
-def note(name, detail):
-    print(f"NOTE  {name}  [{detail}]")
 def sig(x, n=1):
     return float(f"{x:.{n-1}e}")
 
@@ -34,101 +34,141 @@ def sig(x, n=1):
 M_PL = 1.22089e19        # GeV, Planck mass
 M_PL_RED = 2.43536e18    # GeV, reduced Planck mass
 S0 = 2891.2              # cm^-3, present entropy density
-RHO_CRIT_H2 = 1.05371e-5 # GeV cm^-3, critical density / h^2
-OMEGA_C_H2 = 0.120       # cold dark matter, Planck 2018
+RHO_DM = 0.120*1.05371e-5   # GeV cm^-3, mean cold dark matter density
 GEV_G = 1.78266e-24      # g per GeV/c^2
 GEV2_CM2 = 3.8938e-28    # cm^2 per GeV^-2
 C_CM = 2.99792458e10     # cm/s
+CM3S_PER_GEV2 = GEV2_CM2*C_CM
 ALPHA = 1/137.035999
 KM3_CM3 = 1e15
-MZ = 91.1876; ALPHA_EM_INV_MZ = 127.951; SIN2W_MZ = 0.23122; ALPHA_S_MZ = 0.1180
+MZ = 91.1876; ALPHA_EM_INV_MZ = 127.951; SIN2W_MZ = 0.23122
+GS_SM_HIGH = 106.75; GS_NU_DEC = 10.75
+DNEFF_BOUND = 0.3        # Planck 2018: N_eff = 2.99 +- 0.34 (95%), so Delta N_eff < ~0.3
 # Manuscript inputs
 RHO_LOCAL = 0.4          # GeV cm^-3
-V_HALO = 1e-3            # in units of c
-PARKER = 1e-15; MACRO = 1.4e-16   # cm^-2 s^-1 sr^-1
-ALPHA_D = 34
+V_HALO = 1e-3            # c
+PARKER = 1e-15           # cm^-2 s^-1 sr^-1, PDG 2024, M < 1e17 GeV
+MACRO_LOW_M = 2.8e-16    # MACRO, m > 1e10 GeV, beta > 1e-4
+M_BENCH = 3e13           # GeV
+F_RANGE = (1.0, 1.787)
+P_HORIZON = 45/(2*pi**2*100)   # one defect per horizon volume, g* = 100
 
-print("== Sec. 2: the coupling")
-check("alpha_d = 1/(4 alpha) ~ 34 (Dirac normalization)", round(1/(4*ALPHA))==34, f"{1/(4*ALPHA):.2f}")
-note("convention spread", f"1/(4a) = {1/(4*ALPHA):.2f} for eg = 2 pi n; 1/a = {1/ALPHA:.2f} for eg = 4 pi n "
-     "(the 't Hooft-Polyakov charge 4 pi/e)")
-
-print("\n== Sec. 3: abundance (Kibble, n/s = p (Lambda_c/M_Pl)^3, M = 100 Lambda_c)")
-rho_dm = OMEGA_C_H2*RHO_CRIT_H2
-check("mean rho_DM = 1.26 keV/cm^3", round(rho_dm*1e6,2)==1.26, f"{rho_dm*1e6:.4f} keV/cm^3")
-def kibble_lambda(mpl, p=1.0, ratio=100.0):
-    return (rho_dm*mpl**3/(ratio*p*S0))**0.25
-lam = kibble_lambda(M_PL); m_star = 100*lam
-check("Lambda_c ~ 3e11 GeV", sig(lam)==3e11, f"{lam:.3e}")
-check("M ~ 3e13 GeV", sig(m_star)==3e13, f"{m_star:.3e}")
-shift = lam/kibble_lambda(M_PL_RED)
-check("reduced-Planck convention shifts both down by ~3", round(shift)==3, f"x{shift:.2f}")
-p_horizon = 45/(2*pi**2*100)
-note("p sensitivity", f"one defect per horizon with g*=100 gives p = {p_horizon:.4f}; "
-     f"Lambda_c, M scale as p^(-1/4): M = {100*kibble_lambda(M_PL, p_horizon):.2e} GeV")
-for M in [1e13, m_star, 1e15, 1e16, 1e17]:
-    D = (M/m_star)**4
-    verdict = ("matches" if 2/3 < D < 1.5 else
-               "needs that much entropy dilution" if D > 1 else "under-produced")
-    note(f"window M = {M:.1e} GeV", f"Kibble p=1 abundance / observed = {D:.1e} ({verdict})")
-
-print("\n== Sec. 3: benchmark M = 1e16 GeV")
-M = 1e16
-n_mean = rho_dm/M; n_loc = RHO_LOCAL/M
-check("mean n ~ 1.3e-22 /cm^3", sig(n_mean,2)==1.3e-22, f"{n_mean:.3e}")
-check("local: one soliton per ~25 km^3", round(1/n_loc/KM3_CM3)==25, f"{1/n_loc/KM3_CM3:.2f} km^3")
-
-print("\n== Sec. 4: flux and exclusion (our U(1), counterfactual)")
-def flux(M):
-    return (RHO_LOCAL/M)*V_HALO*C_CM/(4*pi)
-F = flux(1e16)
-check("F = n v / 4 pi ~ 1e-10 /cm^2/s/sr", round(log10(F))==-10, f"{F:.3e}")
-check("exceeds Parker (~1e-15) by five orders", round(log10(F/PARKER))==5, f"{log10(F/PARKER):.2f}")
-check("exceeds MACRO (1.4e-16) by six", round(log10(F/MACRO))==6, f"{log10(F/MACRO):.2f}")
-eps = PARKER/F
-check("mixing threshold eps ~ 1e-5 (Parker, bound taken as 1/charge)", round(log10(eps))==-5, f"{eps:.2e}")
-note("dimension-5 mixing Phi F B / M, <Phi> ~ Lambda_c", f"eps ~ {lam/M_PL:.1e} (M = M_Pl), "
-     f"{lam/M_PL_RED:.1e} (M = reduced M_Pl); threshold {eps:.1e}")
-for M in [m_star, 1e16, 1e17]:
-    Fm = flux(M); Fext = 1e-16*(M/1e17)
-    note(f"extended Parker at M = {M:.1e}", f"F = {Fm:.2e}; 1e-16 (M/1e17 GeV) = {Fext:.1e}; "
-         f"excess {log10(Fm/Fext):.2f} orders (vs Parker {log10(Fm/PARKER):.2f})")
-
-print("\n== Sec. 4: self-interaction")
-def sigma_over_M(M, a, v, lnL):
-    sigma = 8*pi*a**2*lnL/((M/2)**2*v**4)          # GeV^-2
-    return sigma*GEV2_CM2/(M*GEV_G)                 # cm^2/g
-lnL_implied = 3e-34/sigma_over_M(1e16, ALPHA_D, V_HALO, 1.0)
-check("sigma_T/M ~ 3e-34 cm^2/g at v=1e-3 c (implied ln Lambda in 5..40)", 5 <= lnL_implied <= 40,
-      f"ln Lambda = {lnL_implied:.1f}; ln Lambda=10..30 gives {sigma_over_M(1e16,ALPHA_D,V_HALO,10):.1e}"
-      f"..{sigma_over_M(1e16,ALPHA_D,V_HALO,30):.1e}")
-check("some thirty orders below ~1 cm^2/g", 30 <= -log10(sigma_over_M(1e16,ALPHA_D,V_HALO,lnL_implied)) < 35)
-
-print("\n== Sec. 4: gravitational waves (f0 = 1.65e-5 Hz (f*/H*)(T/100 GeV)(g*/100)^(1/6))")
-def f_peak(T, fH=1.0, gstar=100.0):
-    return 1.65e-5*fH*(T/100)*(gstar/100)**(1/6)
-check("f ~ 1e4 Hz at Lambda_c = 1e11 GeV (f*/H* = 1)", round(log10(f_peak(1e11)))==4, f"{f_peak(1e11):.2e}")
-check("f ~ 1e7 Hz at Lambda_c = 1e14 GeV (f*/H* = 1)", round(log10(f_peak(1e14)))==7, f"{f_peak(1e14):.2e}")
-note("f*/H* spread", f"f*/H* = 10, 100 multiplies by 10, 100: up to {f_peak(1e14,100):.1e} Hz")
-
-print("\n== Round 2: does running drag alpha_d from 34 toward ~6-8? (one-loop SM, no thresholds)")
-inv0 = {"Y": ALPHA_EM_INV_MZ*(1-SIN2W_MZ), "2": ALPHA_EM_INV_MZ*SIN2W_MZ, "3": 1/ALPHA_S_MZ}
-b = {"Y": 41/6, "2": -19/6, "3": -7.0}
-def inv(i, mu):
-    return inv0[i] - b[i]/(2*pi)*log(mu/MZ)
+def omega_h2(m, sigma0, g, gstar):
+    xf = 20.0
+    for _ in range(100):
+        xf = log(0.038*g*M_PL*m*sigma0/sqrt(gstar)) - 0.5*log(xf)
+    return 1.07e9*xf/(sqrt(gstar)*M_PL*sigma0)
+def delta_neff(g_eff, r):
+    return (4/7)*g_eff*r**4
+b = {"Y": 41/6, "2": -19/6}
+inv0 = {"Y": ALPHA_EM_INV_MZ*(1-SIN2W_MZ), "2": ALPHA_EM_INV_MZ*SIN2W_MZ}
 def inv_em(mu):
-    return inv("Y",mu) + inv("2",mu)    # 1/e^2 = 1/g'^2 + 1/g^2
-check("running code reproduces alpha_em^-1(MZ) = 127.95", round(inv_em(MZ),2)==127.95, f"{inv_em(MZ):.3f}")
-for mu in [1e11, 3e11, 1e14, 1e16]:
-    a_em_inv = inv_em(mu)
-    note(f"mu = {mu:.0e} GeV", f"alpha_em^-1 = {a_em_inv:.1f} -> 1/(4a) = {a_em_inv/4:.1f}; "
-         f"alpha_2^-1 = {inv('2',mu):.1f} -> {inv('2',mu)/4:.1f}; alpha_3^-1 = {inv('3',mu):.1f} -> {inv('3',mu)/4:.1f}")
+    return sum(inv0[i] - b[i]/(2*pi)*log(mu/MZ) for i in "Y2")
 
-print("\n== Soliton mass vs which coupling (M ~ Lambda_c / alpha_e, alpha_m ~ 1/alpha_e)")
-note("alpha_e = 1/137", f"M/Lambda_c ~ {1/ALPHA:.0f} (the manuscript's ~100); monopole alpha_m ~ {1/ALPHA:.0f}")
-note("alpha_e = 34", f"M/Lambda_c ~ {1/ALPHA_D:.3f}; semiclassical soliton not heavy, formula unreliable")
+print("== Anchors")
+check("freeze-out: 100 GeV, sigma v = 2.2e-26 cm^3/s gives Omega h^2 ~ 0.12 (within x2)",
+      0.06 <= omega_h2(100.0, 2.2e-26/CM3S_PER_GEV2, 2, 90) <= 0.24,
+      f"{omega_h2(100.0, 2.2e-26/CM3S_PER_GEV2, 2, 90):.3f}")
+check("Delta N_eff: one extra neutrino species at T_nu gives 1", abs(delta_neff(7/4, 1.0)-1) < 1e-12)
+check("running: alpha_em^-1(MZ) = 127.95 from alpha_Y and alpha_2", round(inv_em(MZ),2)==127.95)
+check("Kibble: v2 point M = 100 Lambda_c, p = 1 reproduces 3e13 GeV",
+      sig(100*(RHO_DM*M_PL**3/(100*S0))**0.25)==3e13)
+
+print("\n== Sec. 2: couplings")
+g_d = 2*sqrt(4*pi*ALPHA)
+alpha_w = g_d**2/(4*pi)
+alpha_m = 1/alpha_w
+check("alpha_W' = 4 alpha ~ 1/34", round(1/alpha_w)==34, f"1/{1/alpha_w:.2f}")
+check("monopole coupling alpha_m = 1/(4 alpha) ~ 34", round(alpha_m)==34, f"{alpha_m:.2f}")
+check("matching the W' instead: alpha_m = 1/alpha ~ 137", round(1/ALPHA)==137)
+check("matching at mu = 1e12 GeV: 1/(4 alpha(mu)) ~ 29", round(inv_em(1e12)/4)==29,
+      f"alpha^-1 = {inv_em(1e12):.1f}")
+
+print("\n== Sec. 3: the soliton")
+r_lo, r_hi = (4*pi*f/g_d for f in F_RANGE)
+check("M/v = 4 pi f / g_d ~ 21-37", round(r_lo)==21 and round(r_hi)==37, f"{r_lo:.2f}-{r_hi:.2f}")
+v_lo, v_hi = M_BENCH/r_hi, M_BENCH/r_lo
+check("benchmark v ~ (0.8-1.4)e12 GeV", round(v_lo/1e11)==8 and round(v_hi/1e11)==14, f"{v_lo:.2e}-{v_hi:.2e}")
+mw_lo, mw_hi = alpha_w*M_BENCH/F_RANGE[1], alpha_w*M_BENCH/F_RANGE[0]
+check("benchmark m_W' ~ (5-9)e11 GeV", round(mw_lo/1e11)==5 and round(mw_hi/1e11)==9, f"{mw_lo:.2e}-{mw_hi:.2e}")
+
+check("mean rho_DM = 1.26 keV/cm^3", round(RHO_DM*1e6,2)==1.26, f"{RHO_DM*1e6:.4f}")
+check("one defect per horizon volume: p ~ 0.023", round(P_HORIZON,3)==0.023, f"{P_HORIZON:.4f}")
+def m_star(r, p, mpl=M_PL, xi=1.0):
+    v = (RHO_DM*mpl**3*xi**3/(r*p*S0))**0.25
+    return r*v
+stars = [m_star(r, p) for r in (r_lo, r_hi) for p in (1.0, P_HORIZON)]
+lo, hi = min(stars), max(stars)
+check("Kibble-consistent M* ~ (0.9-3.7)e13 GeV over f and p", round(lo/1e12)==9 and round(hi/1e12,-0)==37,
+      f"{lo:.2e}-{hi:.2e}; p_horizon = {P_HORIZON:.4f}")
+check("benchmark 3e13 lies inside the band", lo <= M_BENCH <= hi)
+check("the band spans a factor of four", round(hi/lo)==4, f"x{hi/lo:.2f}")
+check("reduced-Planck convention lowers M* by ~3", round(m_star(r_lo,1.0)/m_star(r_lo,1.0,M_PL_RED))==3,
+      f"x{m_star(r_lo,1.0)/m_star(r_lo,1.0,M_PL_RED):.2f}")
+D = (1e16/M_BENCH)**4
+check("M = 1e16 GeV needs entropy dilution ~1e10", round(log10(D))==10, f"{D:.2e}")
+
+print("\n== Sec. 3: the minimal (adjoint-only) model fails")
+over = []
+for f in F_RANGE:
+    m_w = alpha_w*M_BENCH/f
+    for kappa in (1.0, 10.0):
+        over.append(2*omega_h2(m_w, kappa*pi*alpha_w**2/m_w**2, 3, GS_SM_HIGH+9)/0.12)
+check("stable W'+- overclose by 1e16-1e17", round(log10(min(over)))==16 and round(log10(max(over)))==17,
+      f"{min(over):.1e}-{max(over):.1e} x observed")
+def m_for_omega(target, kappa):
+    lo_m, hi_m = 1.0, 1e9
+    for _ in range(200):
+        m = sqrt(lo_m*hi_m)
+        oh2 = omega_h2(m, kappa*pi*ALPHA**2/m**2, 4, GS_SM_HIGH+9)
+        lo_m, hi_m = (m, hi_m) if oh2 < target else (lo_m, m)
+    return m
+m10 = (m_for_omega(0.012, 1.0), m_for_omega(0.012, 10.0))
+m100 = (m_for_omega(0.12, 1.0), m_for_omega(0.12, 10.0))
+check("psi is <10% of the dark matter for m_psi < 0.1-0.3 TeV", round(m10[0]/100)==1 and round(m10[1]/100)==3,
+      f"{m10[0]:.0f}-{m10[1]:.0f} GeV")
+check("psi would be all of it at 0.3-1 TeV", round(m100[0]/100)==3 and round(m100[1]/1000)==1,
+      f"{m100[0]:.0f}-{m100[1]:.0f} GeV")
+
+print("\n== Sec. 3: benchmark densities (M = 3e13 GeV)")
+n_mean = RHO_DM/M_BENCH; n_loc = RHO_LOCAL/M_BENCH
+check("mean n ~ 4.2e-20 /cm^3", sig(n_mean,2)==4.2e-20, f"{n_mean:.3e}")
+vol = 1/n_loc/KM3_CM3; spacing_m = (1/n_loc)**(1/3)/100
+check("local: one per ~0.075 km^3, spacing ~420 m", round(vol,3)==0.075 and round(spacing_m,-1)==420,
+      f"{vol:.4f} km^3, {spacing_m:.0f} m")
+
+print("\n== Sec. 4: the counterfactual (if these were monopoles of our U(1))")
+F = n_loc*V_HALO*C_CM/(4*pi)
+check("F = n v / 4 pi ~ 3e-8 /cm^2/s/sr", sig(F)==3e-8, f"{F:.2e}")
+check("exceeds Parker by 7.5 orders", round(log10(F/PARKER),1)==7.5, f"{log10(F/PARKER):.2f}")
+check("exceeds MACRO (2.8e-16) by eight", round(log10(F/MACRO_LOW_M))==8, f"{log10(F/MACRO_LOW_M):.2f}")
+ext = (M_BENCH/1e17 + 3e-6)*1e-16
+check("exceeds extended Parker by twelve", round(log10(F/ext))==12, f"{log10(F/ext):.2f}")
+
+print("\n== Sec. 2/4: kinetic mixing, dark radiation")
+eps_lo, eps_hi = v_lo/M_PL, v_hi/M_PL_RED
+check("dimension-5 mixing eps ~ v/M ~ 1e-7 to 1e-6", round(log10(eps_lo))==-7 and round(log10(eps_hi))==-6,
+      f"{eps_lo:.1e}-{eps_hi:.1e}")
+r_late = (GS_NU_DEC/GS_SM_HIGH)**(1/3)*((9 + 7/8*8)/2)**(1/3)
+dn = delta_neff(2.0, r_late)
+xi_max = (DNEFF_BOUND/dn)**0.25
+check("one light doublet, equal temperatures: Delta N_eff ~ 0.86", round(dn,2)==0.86, f"{dn:.3f}")
+check("Planck bound needs xi < 0.77", round(xi_max,2)==0.77, f"{xi_max:.3f}")
+check("colder dark sector moves M* by xi^(3/4) ~ x0.8", round(xi_max**0.75,1)==0.8, f"x{xi_max**0.75:.2f}")
+
+print("\n== Sec. 4: self-interaction and gravitational waves")
+def sigma_over_M(M, a, v, lnL):
+    return 8*pi*a**2*lnL/((M/2)**2*v**4)*GEV2_CM2/(M*GEV_G)
+s_lo, s_hi = (sigma_over_M(M_BENCH, alpha_m, V_HALO, L) for L in (10, 30))
+check("sigma_T/M ~ 1e-26 cm^2/g for ln Lambda = 10-30", round(log10(s_lo))==-26 and round(log10(s_hi))==-26,
+      f"{s_lo:.1e}-{s_hi:.1e}")
+def f_peak(T, fH, gstar=GS_SM_HIGH):
+    return 1.65e-5*fH*(T/100)*(gstar/100)**(1/6)
+f_lo, f_hi = f_peak(v_lo, 1.0), f_peak(v_hi/xi_max, 100.0)
+check("GW peak ~1e5-1e7 Hz for f*/H* = 1-100", round(log10(f_lo))==5 and round(log10(f_hi))==7,
+      f"{f_lo:.1e}-{f_hi:.1e}")
 
 if failures:
     print(f"\nFAILED {len(failures)} check(s): " + "; ".join(failures))
     sys.exit(1)
-print("\nOK — every number #14 v2 quotes reproduces.")
+print("\nOK — every number #14 v3 quotes reproduces.")
