@@ -1,0 +1,70 @@
+# Dark Matter as Superheavy Magnetic Solitons of a Spontaneously Broken Phase-Space Duality
+
+*Anonymous working manuscript submitted for adversarial review. The manuscript may contain errors or confabulations; the reviewer is asked to find them.*
+
+## Abstract
+
+We propose that dark matter consists of superheavy topological solitons of a hidden gauge sector, where the hidden sector is the momentum-polarized half of a spontaneously broken Born reciprocity and is conjectured to be the S-dual image of the electric sector: one vacuum event fixes both the position/momentum asymmetry of observed physics and the electric/magnetic asymmetry of the observed spectrum, and fixes the dual sector's coupling to the modular image of ours. The candidate is stable by topology, dark by sector separation, effectively collisionless, and inaccessible to direct detection in principle. We state the assumptions, exhibit the short derivations, give the abundance arithmetic and consistency numbers, name the mechanisms (kinetic mixing, strong-coupling annihilation) most likely to invalidate the proposal, and list explicit acceptance criteria and exclusion conditions.
+
+## 1. Framework
+
+Quantum kinematics is invariant under the Born rotation rho: (x, p) -> (p, -x); the Fourier transform implements it unitarily [1]. We note at the outset a distinction the proposal must eventually discharge: as usually encountered, rho is a unitary equivalence between representations of the canonical commutation relations, not a Noether symmetry of a specified action. The framework's claim is that rho is a genuine symmetry of an underlying action, spontaneously broken; the emergent structure eta below is the proposed order parameter, and the exhibition of a toy action realizing this is stated in Sec. 6 as the proposal's first acceptance criterion. The breaking, if the symmetry exists, is compulsory in one respect: the uncertainty principle forbids states symmetric between the variables, so some polarization must be selected; which one is the spontaneous datum. Ours is position-polarized.
+
+Geometric setting. Let phase space carry a rigid symplectic form omega and a dynamical positive generalized metric H (rigidity of omega encodes the constancy of hbar). Compatibility theorem (pointwise, in a flat frame; both directions verified numerically by machine): if a neutral metric eta is also held rigid, the conditions (eta^-1 H)^2 = 1 and (omega^-1 H)^2 = -1 force H = diag(g, g^-1) with g positive symmetric. Proof: writing H in blocks (A, C; C^T, B), the (2,1) blocks of the two conditions give A C^T + C A = 0 and C A - A C^T = 0, hence A C^T = 0; positivity gives C = 0; the diagonal blocks give B = A^-1. QED. Consequently the baseline momentum-space geometry is slaved (g-tilde = g^-1, det H = 1), and any independent momentum-space geometry resides in the fluctuation X of the off-vacuum modular parameter Z = X + iY on Sp(2d,R)/U(d), with eta emergent as the order parameter.
+
+Mass of the second tensor. X is symmetric and its local shift symmetry delta X_mu-nu = partial_(mu lambda_nu) is a second copy of linearized diffeomorphisms; a massless X coupled to gravity is excluded by the multi-graviton no-go [2]. The polarization choice spontaneously breaks the dual diffeomorphisms; X absorbs the Goldstones and acquires mass M_X (gravitational Higgs), with the consistent nonlinear structure taken to be of ghost-free bimetric type [3]. This renders the second geometry short-ranged and unobserved. (That the symmetry-breaking sector lands on the ghost-free potential is argued from a first-order/vielbein formulation and is a structural claim, not a line-by-line derivation; cosmological-branch stability of the massive sector is a further check, listed in Sec. 6.)
+
+## 2. The polarization identification
+
+The Dirac-Schwinger-Zwanziger pairing <q, q'> = e1 g2 - e2 g1 in 2 pi Z equips the electric-magnetic charge lattice with an antisymmetric integer form: charge space is symplectic [4]. Mutual locality - the condition for a set of charges to admit a common Lagrangian description - is <q, q'> = 0: a Lagrangian sublattice. Choosing a duality frame (which states are "electric," fundamental and weakly coupled, versus "magnetic," solitonic and strongly coupled) is therefore choosing a Lagrangian polarization of charge space, formally the same operation as choosing a Lagrangian polarization of phase space; the S generator of duality, tau -> -1/tau, and the Born rotation are represented by the same matrix.
+
+Conjecture (the identification). The two polarization choices are made by the same vacuum event, and the momentum-polarized matter sector is the S-dual image of the electric sector: a distinct gauge structure whose complexified coupling is fixed by the reciprocity map, acting as the modular S transformation, to the image of ours - alpha_d = 1/(4 alpha) ~ 34, quoted in the Dirac normalization (the Schwinger convention shifts this by the standard factor of four). We state precisely what this does and does not assert. It does NOT assert that these objects carry magnetic charge under our photon; the DSZ condition of our sector is used only to identify the numerical action of S on the coupling. The dual sector's coupling is fixed by the symmetry, not by a quantization condition against our gauge field. "Magnetic" refers throughout to the sector's duality-frame character - solitonic, strongly coupled - not to a charge visible to our electromagnetism. This identification is the manuscript's load-bearing conjecture: if reciprocity does not act on gauge couplings as S, the value alpha_d ~ 34 loses its derivation and becomes a free parameter (the candidate survives, but loses predictivity).
+
+Sector separation. We postulate that no field carries charge under both sectors. This forbids tree-level cross-couplings, and - since kinetic mixing epsilon F F' is generated only by loops of bi-charged matter - forbids radiative mixing to all orders in field theory; gravitational loops require the same bi-charged matter and induce none. Whether this postulate is stable when the two sectors descend from a common ultraviolet completion (where bi-charged states may exist near the cutoff) is an open consistency question. It is not decorative: an irreducible mixing epsilon endows the solitons with an effective magnetic charge epsilon g under our photon, and the Sec. 4 flux excesses of five to six orders re-trigger for epsilon above roughly 1e-5 to 1e-3 (order-of-magnitude, from Parker-type scaling). The mixing bound is listed as acceptance criterion (2) in Sec. 6.
+
+Two consequences follow if the identification holds. (i) The dual sector is intrinsically strongly coupled; its stable states are solitonic and heavy. (ii) It may carry a full mirror spectrum (magnetic counterparts of charged species, in the sense of Montonen-Olive/Seiberg duality [5]); its cosmologically stable relics are the topological solitons.
+
+## 3. The candidate
+
+If the dual sector contains a gauge group G broken to a subgroup H with pi_2(G/H) nonzero, it supports 't Hooft-Polyakov-type solitons [6] - monopole-class defects classified by pi_2, not knot solitons in the pi_3/Hopfion sense - with mass M ~ (4 pi / e_d^2) Lambda_c ~ 100 Lambda_c for the transition scale Lambda_c, stable by topological charge. These are the proposed dark matter.
+
+Abundance. The Kibble mechanism [7] at a post-inflationary transition yields n/s ~ p (Lambda_c/M_Pl)^3 with p = O(1). Requiring Omega h^2 ~ 0.12 with M ~ 100 Lambda_c gives, from mean rho_DM = 1.26 keV/cm^3, s_0 ~ 2.9e3 /cm^3, and M_Pl = 1.22e19 GeV, a self-consistent Lambda_c ~ 3e11 GeV and M ~ 3e13 GeV (the reduced-Planck convention shifts both downward by a factor ~3). Two qualifications. First, the classic relic analysis [8] found soliton-antisoliton annihilation INEFFICIENT for superheavy masses - the historical overproduction problem - which is avoided here by placing Lambda_c far below the unification scale, not by annihilation. Second, at alpha_d ~ 34 annihilation is strongly Sommerfeld-enhanced and dual-Coulomb bound-state formation is rapid; whether a relic population of the required abundance survives, rather than annihilating below it, requires a dedicated strong-coupling freeze-out calculation not performed here (acceptance criterion (3), Sec. 6). Subject to that calculation, the window M ~ 1e13 to 1e17 GeV is the Kibble-only estimate. Benchmark M = 1e16 GeV: mean number density n ~ 1.3e-22 /cm^3; local halo density (0.4 GeV/cm^3) corresponds to one soliton per ~25 km^3, drifting at ~1e-3 c. Inflation must precede the dual transition, and Lambda_c must lie below the reheating temperature - constraints on, not failures of, the scenario.
+
+## 4. Observational consistency
+
+Not monopoles of our U(1) - a load-bearing distinction. If these objects carried magnetic charge under OUR electromagnetism, they would be classic GUT monopoles and excluded: the flux at dark-matter density, F = n v / 4 pi ~ 1e-10 /cm^2/s/sr (M = 1e16 GeV), exceeds the Parker bound (~1e-15) [9] by five orders and direct flux limits (MACRO, ~1.4e-16) [10] by six; Rubakov-Callan catalysis would add further constraints. The sector-separation postulate of Sec. 2 is therefore not optional; its failure at the epsilon >~ 1e-5 level is an exclusion condition.
+
+Self-interaction. Soliton-soliton scattering through the dual gauge field is Rutherford-like with alpha_d ~ 34 but suppressed by the mass: sigma_T/M ~ 8 pi alpha_d^2 ln(Lambda)/((M/2)^2 M v^4) ~ 3e-34 cm^2/g at v ~ 1e-3 c and M = 1e16 GeV - some thirty orders below astrophysical sensitivity. The candidate is effectively collisionless CDM; observed dwarf-galaxy cores must then be attributed to baryonic feedback, not dark-sector physics.
+
+Phase-transition signatures. If the dual transition is first order, it sources a stochastic gravitational-wave background with present-day peak frequency f ~ 1e4 to 1e7 Hz for Lambda_c = 1e11 to 1e14 GeV - above the LIGO band, in the ultra-high-frequency window currently unconstrained but targeted by proposed detectors; a crossover transition leaves no such signal. Relativistic dual-sector radiation from the transition contributes dark radiation, and a closed dual-curvature term contributes negatively: a Delta N_eff signature within reach of CMB-S4 for favorable parameters. The parent framework's cosmological sector additionally predicts thawing, never-phantom dark energy, currently consistent with DESI-era hints of weakening dark energy.
+
+Optics. Induced refraction, dispersion, or birefringence of light scales steeply downward with constituent mass and number density; at the benchmark such effects lie tens of orders below FRB dispersion-measure and CMB-birefringence sensitivities. With exact sector separation this is moot; it is retained as the relevant consistency check for small nonzero mixing.
+
+## 5. Exclusion conditions
+
+1. Any confirmed non-gravitational dark-matter-Standard-Model coupling.
+2. Any confirmed magnetic-monopole flux of our U(1) at dark-matter abundance.
+3. Demonstrated irreducible kinetic mixing epsilon >~ 1e-5 between the sectors (re-triggers Parker/MACRO through the induced charge).
+4. A strong-coupling relic calculation showing Sommerfeld-enhanced annihilation at alpha_d ~ 34 cannot leave the observed abundance.
+5. Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it).
+6. Robust dark-energy measurement of constant w = -1 or intrinsic w < -1 (kills the parent framework's cosmological sector).
+7. Internal: proof that no dual gauge group with pi_2(G/H) nonzero is consistent with the polarization structure, or that the ghost-free landing of Sec. 1 fails, or cosmological-branch instability of the massive bimetric sector.
+
+## 6. Status of claims and acceptance criteria
+
+Derived within the framework: the compatibility theorem (elementary; machine-verified numerically in both directions); the symplectic structure of the charge lattice and duality-frame-as-polarization (standard mathematics [4]); the abundance closure of Sec. 3 (Lambda_c ~ 3e11, M ~ 3e13 GeV at Kibble-only order); the exclusion flux numbers and cross-section of Sec. 4. Established results used: [1]-[10]. Conjectural: the central identification of Sec. 2 (reciprocity acting on gauge couplings as S - load-bearing for alpha_d); the sector-separation postulate and its ultraviolet stability; the existence and group theory of the dual gauge sector; the ghost-free landing of the mass mechanism; momentum-space localization of the solitons.
+
+Acceptance criteria, stated so that failure is checkable: (1) exhibition of an action - a toy model suffices - in which rho is a genuine Noether symmetry, spontaneously broken, with eta the order parameter selecting simultaneously the position polarization and the electric sublattice; (2) a quantitative demonstration that sector separation survives ultraviolet completion with epsilon below the Sec. 5 threshold; (3) the strong-coupling relic freeze-out calculation of Sec. 3. The manuscript's claim is not that the proposal is true, but that it is a self-consistent, maximally symmetric assignment of dark matter's identity whose failure modes are stated. The reviewer is asked to test that claim adversarially.
+
+## References
+
+[1] M. Born, Proc. R. Soc. Lond. A 165, 291 (1938); Rev. Mod. Phys. 21, 463 (1949).
+[2] N. Boulanger, T. Damour, L. Gualtieri, M. Henneaux, Nucl. Phys. B 597, 127 (2001).
+[3] S. F. Hassan, R. A. Rosen, Phys. Rev. Lett. 108, 041101 (2012); JHEP 1202, 126 (2012).
+[4] P. A. M. Dirac, Proc. R. Soc. Lond. A 133, 60 (1931); D. Zwanziger, Phys. Rev. 176, 1489 (1968).
+[5] C. Montonen, D. Olive, Phys. Lett. B 72, 117 (1977); N. Seiberg, Nucl. Phys. B 435, 129 (1995).
+[6] G. 't Hooft, Nucl. Phys. B 79, 276 (1974); A. M. Polyakov, JETP Lett. 20, 194 (1974).
+[7] T. W. B. Kibble, J. Phys. A 9, 1387 (1976).
+[8] J. Preskill, Phys. Rev. Lett. 43, 1365 (1979).
+[9] E. N. Parker, Astrophys. J. 160, 383 (1970).
+[10] MACRO Collaboration, Eur. Phys. J. C 25, 511 (2002).
