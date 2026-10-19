@@ -87,13 +87,51 @@ Evidence used so far:
 
 ## New open items (to compute before v3 states anything about them)
 
-- **O1 — dark W′± fate.** The lightest dark-charged state is stable by dark
-  charge, is millicharged under mixing (L1), and has mass of order Λ_c.
-  Needed: its relic abundance, and whether lighter dark-charged matter must
-  exist for it to annihilate or decay into. No number until it is scripted.
-- **O2 — dark radiation.** A massless dark photon (plus any light dark
-  matter) contributes ΔN_eff. v2 mentions it qualitatively; quantify it
-  against the dark sector's temperature.
+- **O1 — dark W′± fate: fatal to the minimal model, not to the candidate**
+  [NOTE-tier, [verify/dark_sector.py](../verify/dark_sector.py)]. The script
+  checks its freeze-out formula on a standard relic first: 100 GeV with
+  σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108.
+  - Minimal model: SU(2)_d → U(1)_d with only the adjoint Higgs.
+    - Under F1 and F2, m_W′ = α M*/f = 1.2–2.2×10¹¹ GeV.
+    - W′± is the lightest dark-charged state, so it is stable.
+    - Its thermal relic is **0.8–15×10¹⁶ × the observed density**, bracketing
+      the annihilation coefficient κ = 1–10 and f = 1–1.787.
+    - Kibble production needs a hot dark plasma at T ~ Λ_c, so the W′± were
+      thermal. The minimal model is excluded.
+  - The fix: at least one light dark-charged fermion (a dark doublet) for W′±
+    to decay into.
+    - That fermion is itself a thermal relic. With α_e,d = α it would be all
+      of the dark matter at 0.3–1.0 TeV, and 10% of it at 0.1–0.3 TeV.
+    - So it must be lighter than roughly 100–300 GeV to stay subdominant.
+      Otherwise the minimal consistent dark sector contains a second
+      dark-matter candidate besides the monopoles.
+  - Consequences for v3:
+    - R6 becomes "SU(2)_d → U(1)_d with at least one light dark doublet".
+    - The light dark fermions carry millicharge εe unless dark C is gauged
+      (R4, L1). Their constraint at ε ~ 10⁻⁸–10⁻⁷ is not yet checked [O].
+    - Their plasma is what runs Preskill-type monopole annihilation in the
+      dark sector, which feeds acceptance criterion 3.
+    - If they are lighter than ~MeV they add ΔN_eff at BBN as well (not yet
+      scripted).
+  - Computed at ξ = 1 only. The effect of a colder dark sector on the W′
+    freeze-out is not scripted.
+- **O2 — dark radiation: not fatal; it needs a cooler dark sector**
+  [NOTE-tier]. The script checks its formula first: one extra neutrino
+  species at T_ν gives ΔN_eff = 1.000.
+  - Setup: the two sectors at temperature ratio ξ at high T, then separately
+    entropy-conserving, ending with only the dark photon relativistic.
+  - Results:
+
+    | Dark sector content | ΔN_eff at ξ = 1 | ξ needed for ΔN_eff < 0.3 |
+    |---|---|---|
+    | Minimal | 0.40 | < 0.93 |
+    | One light doublet | 0.86 | < 0.77 |
+    | Two light doublets | 1.39 | < 0.68 |
+
+  - The 0.3 bound is an approximate Planck 2018 value, from memory †.
+  - v3 requirement: the dark sector reheated ~25–30% colder than ours. ξ is
+    a free parameter of the framework. A colder dark sector also moves the
+    Kibble point M* by ξ^(3/4) (×0.82 at ξ = 0.77), which is minor.
 - **O3 — the dark sector in dual kinematics.** #14 describes the dark sector
   entirely in our kinematics: GeV masses, 10⁻³ c drift, an ordinary massless
   dark photon moving at c. #13 §4 labels conjugate quanta by an invariant
@@ -137,9 +175,9 @@ New references for v3:
 
 ## Next chunks
 
-1. Paul's call on F1 (benchmark) and F2 (framing of §2). Paul should also
-   see L1 and the R7 tension before drafting starts.
-2. Script O1 and O2 far enough to say whether either is fatal.
+1. ~~Paul's call on F1 and F2~~ — done 2026-10-19 (both accepted).
+2. ~~Script O1 and O2~~ — done: the minimal model is dead; the fix is a
+   light dark doublet plus ξ ≲ 0.77.
 3. Draft v3. Then update `verify/knot_numbers.py` so every number v3 quotes
    is a gated check, and retire the v2 checks.
 4. Pre-register the expected verdict and weakest link, then run the round-3
