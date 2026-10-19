@@ -11,65 +11,118 @@ Evidence used so far:
 - [verify/knot_numbers.py](../verify/knot_numbers.py): every number v2 quotes,
   recomputed. All reproduce (gated in `scripts/check.sh`). NOTE lines are
   adjudication inputs not yet quoted by the manuscript.
-- Literature check of the cited and newly needed sources: dispatched
-  2026-10-19, result pending.
+- Literature report, 2026-10-19: a subagent with web access pulled each
+  record from INSPIRE, arXiv, the PDG 2024 monopole review and the scanned
+  Preskill 1979 paper, with no citations from memory. Summarized per item
+  below.
+  - I spot-checked the load-bearing claim (L1) against the Hiramatsu et al.
+    abstract myself.
+  - Not re-checked: Adams et al. 1993 full text (paywalled; abstract only);
+    Terning–Verhaaren body text.
 
 ## Round-2 pending list
 
 | # | Item | Status | Evidence / decision |
 |---|------|--------|---------------------|
-| R1 | SUSY-exactness burden for Montonen–Olive | waiting on literature | Exact S-duality is an N=4 (and finite N=2) property; v3 must say whether reciprocity supplies the rigidity or the dual sector is approximately SUSY. |
-| R2 | Coupling convention and running spread | **adjudicated** [V] | Convention: 1/(4α) = 34.26 (eg = 2πn) vs 1/α = 137.04 (eg = 4πn). Running: one-loop SM α_em gives 1/(4α_em) = 29.0 at 10¹¹, 28.8 at 3×10¹¹, 27.3 at 10¹⁶ GeV. The referee's "toward ~6–8" is **not reproduced** for the electromagnetic coupling; 6–8 appears only for 1/(4α₃) (7.9–8.2 at 10¹¹–3×10¹¹ GeV). The valid core stands: the number is convention-dependent by a factor of 4. v3: present α_d as free-but-strong, with the point-selecting hypothesis named as such. |
-| R3 | Extended Parker bound (Adams et al. 1993) | arithmetic done [V], citation waiting | With F ≲ 10⁻¹⁶ (M/10¹⁷ GeV): excess 6.98 orders at M = 10¹⁶ (Parker: 4.98); 12.0 orders at M = 3×10¹³ (Parker: 7.5). The referee's "~7 orders" is right at the benchmark. |
-| R4 | Gravity-induced kinetic mixing | waiting on literature | v2's "forbidden to all orders" is too strong either way. Candidate mechanism to check: for a non-abelian dual group, Φᵃ Fᵃ B / M is gauge invariant (dimension 5) and gives ε ~ ⟨Φ⟩/M. With ⟨Φ⟩ ~ Λ_c ≈ 3×10¹¹ GeV: ε ≈ 2.4×10⁻⁸ (M = M_Pl) to 1.2×10⁻⁷ (reduced M_Pl), against a threshold of 1.0×10⁻⁵ [V, NOTE line]. The operator's existence and genericness are [D], pending the literature. |
-| R5 | Entropy-dilution caveat | **adjudicated** [V], stronger than the referee said | See finding F1. |
-| R6 | Name an explicit candidate group | ready | SU(2) → U(1) by an adjoint Higgs; π₂(SU(2)/U(1)) = π₂(S²) = ℤ [T]. |
-| R7 | Bimetric cosmological-branch instability | waiting on literature | Question: do the instability analyses assume a light second metric (spin-2 mass ~ H)? Is the heavy-mass regime known to be safe? Is the early universe still open? |
+| R1 | SUSY-exactness burden for Montonen–Olive | **ready** | Exact S-duality has been tested only in N=4 SYM and special finite N=2 theories. For non-SUSY theories there is "no reason to think" it survives quantum corrections, and the bosonic spectrum mismatches (W spin 1, monopole spin 0). That is an expectation, not a no-go [Harvey hep-th/9603086; Osborn 1979]. v3 must state it. If F2 is adopted, S no longer carries α_d, and the burden shrinks to the §2 "full mirror spectrum" remark. |
+| R2 | Coupling convention and running spread | **adjudicated** [V] | Convention: 1/(4α) = 34.26 (eg = 2πn) vs 1/α = 137.04 (eg = 4πn). One-loop SM running of α_em gives 1/(4α_em) = 29.0 at 10¹¹, 28.8 at 3×10¹¹ and 27.3 at 10¹⁶ GeV. The referee's "toward ~6–8" is **not reproduced** for the electromagnetic coupling; 6–8 appears only for 1/(4α₃). The valid core stands: the number is convention-dependent by a factor of 4. v3: present α_d as free-but-strong. |
+| R3 | Extended Parker bound | **ready** (counterfactual only, see L1) | Adams, Fatuzzo, Freese, Tarlé, Watkins, Turner, PRL 70, 2511 (1993). Abstract: ℱ ≤ 10⁻¹⁶ (m/10¹⁷ GeV) cm⁻² s⁻¹ sr⁻¹. Others quote a 1.2×10⁻¹⁶ prefactor, and PDG 2024 Eq. 95.10 adds a low-mass floor. Excess at the 10¹⁶ benchmark: 6.98 orders [V]. Charge scaling: (g/g_D)⁻² at high mass, (g/g_D)⁻¹ at low mass [Kobayashi–Perri 2023, arXiv:2307.07553]. |
+| R4 | Gravity-induced kinetic mixing | **ready**; the question changes, see L1 | Pure gravity: ε = 0 if dark charge conjugation C is exact. Otherwise it needs at least 6 loops and gives ≲10⁻¹³ [Gherghetta–Kersten–Olive–Pospelov, PRD 100, 095001 (2019)]. The referee is right that it exists, and it is negligible. The dimension-5 adjoint operator is in the literature [Baumgart et al. 2009 fn.; Chen–Cline–Frey 2009; Brümmer–Jaeckel 2009, χ = v/M]. Our estimate: ε ≈ 2.4×10⁻⁸ at M = M_Pl [V]. Quantum gravity forbids an exact global C [Banks–Seiberg 2011; Harlow–Ooguri 2021]; a gauged C (O(2)/O(3)-type) remains a loophole [Obied–Parikh, preprint]. v3: replace "forbidden to all orders" with "absent if dark C is a gauged symmetry; otherwise ε ~ ⟨Φ⟩/M (≈ 10⁻⁸–10⁻⁷) from dimension 5 and ≲ 10⁻¹³ from pure gravity". |
+| R5 | Entropy-dilution caveat | **adjudicated** [V], stronger than the referee said | See F1. |
+| R6 | Name an explicit candidate group | **ready** | SU(2) → U(1) by an adjoint Higgs; π₂(SU(2)/U(1)) = ℤ ['t Hooft 1974; Polyakov 1974]. Hiramatsu et al. (JHEP 12 (2021) 122) study exactly this case with kinetic mixing. |
+| R7 | Bimetric cosmological-branch instability | **ready, with a tension** | The instability analyses assume a spin-2 mass m ~ H₀ and M_f ~ M_g [Comelli–Crisostomi–Pilo, JHEP 06 (2012) 085; Könnig et al., PRD 90, 124014 (2014); Lagos–Ferreira, JCAP 12 (2014) 026]. A heavy spin-2 is linearly stable at late times [Akrami–Hassan–Könnig–Schmidt-May–Solomon, PLB 748, 37 (2015)]. Three limits on that: their viable regime takes **M_f ≪ M_g**; it holds at linear order only, with tuned βₙ; and the strong-coupling era H > H⋆ is unresolved. Higuchi bound m² ≥ 2H² [Higuchi, NPB 282, 397 (1987)]: trivially satisfied by a heavy X. **Tension:** [notes/debt1a-iv §3](../notes/debt1a-iv-beta-coefficients.md) says reciprocity forces equal effective Planck masses (M_f = M_g), which rules out the M_f ≪ M_g escape. Whether a large mass alone is enough at M_f = M_g is open (De Felice et al. 2014, cited in Akrami et al.: "the instability becomes negligible for large values of m"; not yet read). v3: state this as an open consistency item, not as evaded. |
 
-## New findings from the recomputation (not raised by either referee)
+## Findings neither referee raised
 
 - **F1 — the mass window is not "Kibble-only"** [V]. Kibble with p = 1 closes
   at a single point, M* ≈ 3.0×10¹³ GeV. Below it, solitons are
   under-produced (×0.013 at 10¹³). Above it, the abundance scales as
   (M/M*)⁴, so the observed density needs entropy dilution of 1.3×10⁶ at
   10¹⁵, **1.3×10¹⁰ at the 10¹⁶ benchmark**, and 1.3×10¹⁴ at 10¹⁷.
-  - v2 §3 calls 10¹³–10¹⁷ "the Kibble-only estimate". That is wrong. Only the
-    lower end is Kibble-only; everything above needs dilution.
-  - The horizon-counting p is ≈ 0.023 (g* = 100), which moves M* to
-    ≈ 7.7×10¹³. Same conclusion.
-  - v3 options: (a) move the benchmark to M ≈ 3×10¹³, where the flux excess
-    over Parker grows to 7.5 orders and the spacing per soliton shrinks; or
-    (b) keep 10¹⁶ and state the 10¹⁰ dilution as a requirement on the dual
-    transition's history. Recommendation: (a), with (b) as a stated
-    alternative.
+  - The horizon-counting p is ≈ 0.023, which moves M* to ≈ 7.7×10¹³. Same
+    conclusion.
+  - Preskill (verified from the scan): annihilation cannot reduce n/T³ below
+    ~10⁻¹⁰ at m ≈ 10¹⁶ GeV. For a hidden sector the rate runs through the
+    dark plasma, so it has to be recomputed (acceptance criterion 3), not
+    carried over.
+  - **Recommendation:** move the benchmark to M ≈ 3×10¹³, and keep 10¹⁶ with
+    its ~10¹⁰ dilution as a stated alternative. At 3×10¹³, the counterfactual
+    MACRO limit is ≤ 2.8×10⁻¹⁶ (m ≳ 10¹⁰ GeV row), not 1.4×10⁻¹⁶
+    (m ≳ 10¹⁶ GeV row).
+  - **Needs Paul's call.**
 - **F2 — which coupling sets the soliton mass** [D, numbers V]. v2 writes
   M ~ (4π/e_d²) Λ_c ~ 100 Λ_c. That factor is ~137 only if e_d²/4π ≈ 1/137.
-  With e_d²/4π = α_d = 34 it is 0.029, so the solitons would not be heavy
-  and the semiclassical formula would not apply. v2 uses the weak value in
-  §3 and the strong value in §2 and §4.
-  - The self-consistent reading: the dual sector's elementary coupling is
-    weak (α_e,d), its solitons are heavy (M ≈ Λ_c/α_e,d), and the solitons
-    themselves are strongly coupled (α_m ≈ 1/(4α_e,d) or 1/α_e,d, by the
-    dual sector's own Dirac quantization).
-  - Then α_d ≈ 34 is the solitons' coupling. It follows from α_e,d ≈ α, a
-    mirror-coupling equality, with no need to act with S on our coupling.
-  - This removes the contradiction between §2 and §3. It also moves the
-    load-bearing conjecture from "reciprocity acts as S" to "α_e,d = α",
-    or to α_e,d free.
-  - New consequence to state: the dual sector's elementary charged states
-    and its dark photon need a cosmological fate (stable lightest dark
-    charge; dark radiation, i.e. ΔN_eff).
-  - **Needs Paul's call** (it changes §2's framing).
-- **F3 — self-interaction**: 3×10⁻³⁴ cm²/g corresponds to ln Λ ≈ 12. v3
-  should state the Coulomb log; ln Λ = 10–30 gives 2.5–7.6×10⁻³⁴.
-- **F4 — GW peak**: 10⁴–10⁷ Hz holds for f*/H* = 1. Fast transitions
-  (f*/H* ~ 10–100) push it to ~10⁹ Hz. v3 should state the assumption.
+  With e_d²/4π = α_d = 34 it is 0.029, so the solitons would not be heavy.
+  v2 uses the weak value in §3 and the strong value in §2 and §4.
+  - The self-consistent reading: the dual sector's elementary coupling α_e,d
+    is weak, its solitons are heavy (M ≈ Λ_c/α_e,d), and the solitons
+    themselves are strongly coupled (α_m ≈ 1/(4α_e,d) or 1/α_e,d).
+  - Then α_d ≈ 34 follows from α_e,d ≈ α, a mirror-coupling equality, and
+    does not need S acting on our coupling.
+  - **Needs Paul's call**, because it changes §2's framing.
+- **L1 — mixing does not give the monopoles a visible charge** (from the
+  literature). With an unbroken dual U(1), i.e. a massless dark photon, which
+  is v2's setup, kinetic mixing gives the dark monopole **no QED magnetic
+  flux**.
+  - Hiramatsu–Ibe–Suzuki–Yamaguchi, arXiv:2109.12771, abstract, checked:
+    "does not induce the QED magnetic flux in the U(1) symmetric phase, even
+    in the presence of the kinetic mixing". Also Brümmer–Jaeckel 2009.
+  - Minicharged, confined monopoles need a *massive* dark photon
+    [Terning–Verhaaren, JHEP 12 (2018) 123; Graesser et al., JHEP 03 (2022) 105].
+  - So v2's premise "mixing ε gives the solitons magnetic charge εg under our
+    photon" is wrong for its own setup. Four places rest on it: §2's "It is
+    not decorative" paragraph, §4's last sentence of the first paragraph,
+    §5 exclusion 3, and §6 acceptance criterion (2).
+  - The real leakage channels:
+    - dark *electric* states (W′±) pick up a millicharge εe [Brümmer–Jaeckel];
+    - CP violation gives the monopoles a small visible *electric* charge
+      ("magnetic mixing", Brümmer–Jaeckel–Khoze, JHEP 06 (2009) 037);
+    - a massive dark photon would make minicharged monopoles.
+  - Net effect: the candidate survives mixing more easily than v2 says, and
+    the constraint moves to the dark W′±, which ties into F2's open items.
+  - Parker and MACRO stay in v3 only as the reason sector separation is
+    needed: they show what would happen if these objects were monopoles of
+    our U(1).
+
+## New open items (to compute before v3 states anything about them)
+
+- **O1 — dark W′± fate.** The lightest dark-charged state is stable by dark
+  charge, is millicharged under mixing (L1), and has mass of order Λ_c.
+  Needed: its relic abundance, and whether lighter dark-charged matter must
+  exist for it to annihilate or decay into. No number until it is scripted.
+- **O2 — dark radiation.** A massless dark photon (plus any light dark
+  matter) contributes ΔN_eff. v2 mentions it qualitatively; quantify it
+  against the dark sector's temperature.
+
+## Verified references for v3
+
+All checked against INSPIRE/arXiv/PDG by the literature report unless noted.
+v2's [1]–[10] are all correct as cited. Corrections:
+
+- Kibble's title is "Topology of Cosmic Domains and Strings".
+- For the 10⁻¹⁵ Parker value, cite PDG 2024 or Turner–Parker–Bogdan, PRD 26,
+  1296 (1982), not Parker 1970 alone. That value holds for M ≲ 10¹⁷ GeV.
+- Harvey's lectures are conference proceedings, not a journal article.
+
+New references for v3:
+
+- Adams et al., PRL 70, 2511 (1993).
+- Kobayashi–Perri, PRD 108, 083005 (2023), arXiv:2307.07553.
+- Gherghetta–Kersten–Olive–Pospelov, PRD 100, 095001 (2019), arXiv:1909.00696.
+- Hiramatsu et al., arXiv:2109.12771.
+- Brümmer–Jaeckel, PLB 675, 360 (2009), arXiv:0902.3615.
+- Brümmer–Jaeckel–Khoze, arXiv:0905.0633.
+- Terning–Verhaaren, arXiv:1808.09459.
+- Harvey, hep-th/9603086.
+- Akrami et al., arXiv:1503.07521.
+- Higuchi, NPB 282, 397 (1987).
+- Banks–Seiberg, arXiv:1011.5120.
 
 ## Next chunks
 
-1. Fold in the literature report: R1, R3 citation, R4, R7, plus every v2
-   reference.
-2. Paul's call on F2 (framing of §2) and F1 (benchmark).
+1. Paul's call on F1 (benchmark) and F2 (framing of §2). Paul should also
+   see L1 and the R7 tension before drafting starts.
+2. Script O1 and O2 far enough to say whether either is fatal.
 3. Draft v3. Then update `verify/knot_numbers.py` so every number v3 quotes
    is a gated check, and retire the v2 checks.
 4. Pre-register the expected verdict and weakest link, then run the round-3
