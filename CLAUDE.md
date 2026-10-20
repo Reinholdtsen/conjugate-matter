@@ -36,11 +36,13 @@ only as a task needs them.
   proposal. The framework is merely compatible with known PeV-scale
   topological dark matter (prior art).
 - Strict sector separation (P4 at face value) is in force.
+- #11 is now v2.1: soliton obituary (§12); compatibility theorem re-tagged
+  [T] (Freidel–Leigh–Minic); P4 strict (§4); DESI DR2 favors a phantom
+  crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The
+  dark-energy sector is under real pressure ahead of DR3.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
-  1. Amend #11 with the soliton obituary, the Freidel–Leigh–Minic prior-art
-     check on the compatibility theorem, and the DESI DR2 phantom nuance.
-  2. The toy Lagrangian (HANDOFF §8 item 4).
-  3. HANDOFF §8 items 5–7, unchanged.
+  1. The toy Lagrangian (HANDOFF §8 item 4).
+  2. HANDOFF §8 items 5–7, unchanged.
 - Reasons are in the adjudication's "Decisions" section.
 
 ## The gate

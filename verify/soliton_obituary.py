@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-soliton_obituary.py — every number that review/round3-adjudication.md quotes
+soliton_obituary.py — every number that review/round3-adjudication.md and the
+§12 obituary of papers/broken-born-checkpoint-v2.md (v2.1) quote
 for the withdrawn soliton candidate (#14 v3), recomputed and checked.
 
     .venv/bin/python verify/soliton_obituary.py
