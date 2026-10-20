@@ -370,3 +370,31 @@ section-condition logic of double field theory, which ties locality to η.
 - To do first: an S0-style literature check on dynamical selection of the
   section in DFT and metastring work; then an explicit computation in the
   coset toy coupled to phase-space matter.
+
+## Chunk 4 (in progress, 2026-10-19): S5
+
+Computation: [verify/toy_s5.py](../verify/toy_s5.py), gated. Literature
+check on dynamical selection of the section: dispatched, pending. The
+conclusion is written after it returns.
+
+- **A [V]:** the null lines of η = ωK(φ) are exactly K's eigenlines L± for
+  every φ, and these are the only null lines. K → −K sends η → −η with the
+  same null lines. ρ maps K to −K and L+ onto L−.
+- **B [V]:** the section condition built from η is purely off-diagonal in
+  null coordinates (□ = c ∂_u∂_v).
+  - Fields on one null line pass: F(u), G(u), and likewise on v.
+  - Mixing the two lines fails: η(dF(u), dG(v)) = −F′G′. So does F(u) + G(v)
+    paired with itself.
+  - With −η the pairing only changes sign. **The section condition selects
+    the unordered pair {L+, L−} and cannot tell position from momentum.**
+- **C [V], the weak form of S5:**
+  - The ρ-covariant interaction I_K[W] = ∫_{L+}(∫_{L−} W)² of a state's
+    Wigner function W gives ∫|ψ(x)|⁴ dx (local in x) in the vacuum +K_ref,
+    and ∫|ψ̃(p)|⁴ dp (local in p) in −K_ref.
+  - For a non-self-dual test state the two vacua give different numbers
+    (0.4070 vs 0.3600).
+  - The combined map (ψ → Fψ, K → −K) leaves I unchanged.
+  - The K-blind interaction ∫W² (= 1/2π for pure states) shows no
+    asymmetry.
+- Two checks were vacuous on the first draft (an always-true term; a
+  condition multiplied by 0) and were replaced by real tests before commit.
