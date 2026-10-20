@@ -60,6 +60,8 @@ check("ordered: <|m|> stays above 0.8 at every size", min(A[L][0] for L in SIZES
 check("and is size-independent (changes < 2% from L = 16 to 64)",
       abs(A[64][0]/A[16][0] - 1) < 0.02, f"ratio {A[64][0]/A[16][0]:.4f}")
 check("Binder cumulant near 2/3 (an ordered Z2 phase)", min(A[L][1] for L in SIZES) > 0.6)
+check("quoted: <|m|> = 0.954 and Binder = 0.667 at L = 16, 32, 64",
+      all(round(A[L][0], 3) == 0.954 and round(A[L][1], 3) == 0.667 for L in SIZES))
 
 print("\n== Control: model A at high temperature, T = 3.0")
 C = {L: run(L, T_HIGH, H, seed=100 + L) for L in SIZES}
@@ -67,6 +69,7 @@ for L in SIZES:
     print(f"      L={L:3d}: <|m|> = {C[L][0]:.4f}, Binder = {C[L][1]:.4f}")
 check("disordered: <|m|> falls with size (L = 64 below half of L = 16)", C[64][0] < 0.5*C[16][0],
       f"{C[16][0]:.4f} -> {C[64][0]:.4f}")
+check("quoted: 0.078 -> 0.033 -> 0.014", [round(C[L][0], 3) for L in SIZES] == [0.078, 0.033, 0.014])
 
 print("\n== Model B: exactly self-dual (h = 0), T = 0.6")
 B = {L: run(L, T_LOW, 0.0, seed=200 + L) for L in SIZES}
@@ -76,6 +79,9 @@ eta = T_LOW/(2*np.pi)
 pred = (64/16)**(-eta/2)
 check("no true order: the U(1) magnetization falls with size (> 3% from L = 16 to 64)",
       B[64][2]/B[16][2] < 0.97, f"ratio {B[64][2]/B[16][2]:.4f}; spin-wave estimate {pred:.4f}")
+check("quoted: 0.838 -> 0.798 -> 0.776, ratio 0.925 vs spin-wave 0.936",
+      [round(B[L][2], 3) for L in SIZES] == [0.838, 0.798, 0.776] and round(B[64][2]/B[16][2], 3) == 0.925
+      and round(pred, 3) == 0.936)
 
 if failures:
     print(f"\nFAILED {len(failures)} check(s): " + "; ".join(failures))

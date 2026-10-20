@@ -102,6 +102,7 @@ check("vacuum -K_ref: I = int |psi~(p)|^4 dp (local in p)", abs(Ip - np.sum(np.a
       f"{Ip:.6f}")
 check("the two vacua give different physics for the same state", abs(Ix - Ip) > 0.05*max(Ix, Ip),
       f"{Ix:.4f} vs {Ip:.4f}")
+check("quoted: 0.4070 vs 0.3600", round(Ix, 4) == 0.4070 and round(Ip, 4) == 0.3600)
 # rho acts on states by the Fourier transform: psi -> psi~, and on K by K -> -K
 Wrho = W.T[:, ::-1]   # W_{F psi}(x, p) = W_psi(-p, x): rotation of the phase plane
 check("rho-covariance: I_{-K}[W_{F psi}] = I_{+K}[W_psi]", abs(I_marginal(Wrho, -1) - Ix) < 1e-8)

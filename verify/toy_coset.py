@@ -67,6 +67,20 @@ check("all three terms invariant under rho", all(sp.simplify(a - b_) == 0 for a,
 flipped = terms(H, dH, -K, -dK)
 check("all three terms invariant under K -> -K", all(sp.simplify(a - b_) == 0 for a, b_ in zip(base, flipped)))
 
+import numpy as np
+rng = np.random.default_rng(3)
+def num_H(Xv, Yv):
+    return np.array([[Yv + Xv**2/Yv, Xv/Yv], [Xv/Yv, 1/Yv]])
+pos = []
+for _ in range(200):
+    Hn = num_H(rng.normal(), np.exp(rng.normal())); dKn = rng.normal(size=(2, 2))
+    pos.append(np.trace(np.linalg.inv(Hn) @ dKn.T @ Hn @ dKn))
+check("the K kinetic term Tr(H^-1 dK^T H dK) is positive for random H and dK (no ghost)", min(pos) > 0)
+db, dc = sp.symbols("db dc", real=True)
+dK0 = sp.Matrix([[0, db], [dc, 0]])           # tangent to {a^2 + bc = 1} at K0 = diag(1, -1)
+check("the naive Tr(dK dK) is indefinite on K's target space (de Sitter): 2 db dc",
+      sp.expand((dK0*dK0).trace()) == 2*db*dc)
+
 print("\n== S2: vacua")
 a, b, c = sp.symbols("a b c", real=True)
 Kg = sp.Matrix([[a, b], [c, -a]])

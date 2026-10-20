@@ -245,7 +245,7 @@ condense): all pass [V].**
     condenses (μ²θ > 12 in GW units).
 - **S3:** the order parameter is the vacuum's x-versus-p polarization,
   Δ(β) = ⟨x²⟩_vacuum − ⟨x²⟩_dual = Δ(0) cos β.
-  - β = 0 is sharp in x, β = π is sharp in p, β = ±π/2 is balanced.
+  - β = 0 is broader in x than in p (Δ(0) = +10.88 > 0), β = π is its image (broader in p), β = ±π/2 is balanced. *Corrected 2026-10-19: the first version of this line had the sign reversed.*
   - It is odd under the duality: Δ(β + π) = −Δ(β).
 - This is, as far as the S0 search found, the first explicit statement that
   the self-dual Grosse–Wulkenhaar vacua break the Langmann–Szabo duality —

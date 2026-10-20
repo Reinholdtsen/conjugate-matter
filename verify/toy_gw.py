@@ -170,6 +170,7 @@ check("Delta(beta) = <x^2>_vacuum - <x^2>_dual is nonzero at beta = 0 and flips 
       abs(D0) > 1e-2 and abs(Delta[4] + D0) < 1e-8, f"Delta(0) = {D0:.4f}")
 check("Delta(beta) = Delta(0) cos(beta): the polarization is an angle on the Goldstone circle",
       np.max(np.abs(Delta - D0*np.cos(betas))) < 1e-8)
+check("Delta(0) > 0: the beta = 0 vacuum is broader in x than in p (quoted +10.88)", D0 > 0 and round(D0, 2) == 10.88)
 
 if failures:
     print(f"\nFAILED {len(failures)} check(s): " + "; ".join(failures))
