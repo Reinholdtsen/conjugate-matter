@@ -291,3 +291,82 @@ condense): all pass [V].**
    and in p.
 3. A short note on the explicit-breaking (τ-potential) reduction common to
    both toys.
+
+## Chunk 3 results (2026-10-19): S4, quantum stability
+
+**Grosse–Wulkenhaar route: S4 fails, by an exact argument [D].**
+
+- The polarization angle β is the orbit of an exact continuous symmetry
+  (S[UφV†] = S[φ], gated in `toy_gw.py`).
+- β has no stiffness. The condensate occupies finitely many oscillator
+  levels at fixed μ², so nothing couples β across space.
+- So the quantum measure is uniform in β for every truncation N, and
+  ⟨Δ⟩ = 0 exactly.
+- Raising N adds only massive levels; the condensate does not grow.
+- Even a potential on β cannot rescue it. The order-parameter sector stays
+  finite-dimensional, so the system tunnels between the two vacua. This
+  last step is argued, not proven: integrating out the massive tower is
+  assumed not to make the barrier grow with N.
+- **Net: chunk 2's classical breaking of the duality does not survive
+  quantization.** The route gives a polarized classical vacuum and no
+  quantum symmetry breaking.
+
+**Coset route: S4 passes only with the τ-type potential [V]**
+([verify/toy_s4.py](../verify/toy_s4.py), gated; fixed seeds; Metropolis
+on L = 16, 32, 64).
+
+- Reduction: at H = 1 the polarization field is the angle φ of K(φ), and ρ
+  acts as φ → φ + π. The kinetic term is an XY stiffness. The τ-type
+  potential −μ[Tr(K K_ref)]² = −2μ(1 + cos 2φ) keeps ρ.
+- Results:
+
+  | Model | Result |
+  |---|---|
+  | With the potential (h = 1), T = 0.6 | ⟨\|m\|⟩ = 0.954 at all three sizes (ratio 1.0000); Binder 0.6667 — an ordered Z₂ phase |
+  | Control, T = 3.0 | ⟨\|m\|⟩ 0.078 → 0.033 → 0.014 — disordered |
+  | Exactly self-dual (h = 0), T = 0.6 | the U(1) magnetization falls 0.838 → 0.798 → 0.776 (ratio 0.925, spin-wave estimate 0.936) — no true order, as Coleman–Mermin–Wagner requires |
+
+- The ordered start is a choice; the high-T control shows the sampler does
+  leave it when the phase is disordered.
+
+**What S4 says about the program.**
+
+- In 1+1, Born reciprocity is spontaneously broken only after the
+  continuous polarization rotation is explicitly broken down to a discrete
+  group containing ρ. Then ρ breaks as a Z₂ (Ising class), with vacua
+  ±K_ref: "x is position" and "p is position".
+- The price is a rigid, unordered pair of axes (K_ref up to sign). That is
+  more rigid structure than P2′'s "only ω is rigid", though less than a
+  rigid η.
+- **In 3+1, the program's actual dimension, Coleman–Mermin–Wagner does not
+  apply.** There the self-dual coset model can break the continuous U(1)
+  itself, with τ an exactly massless Goldstone. §10's τ has a potential, so
+  the explicit breaking is in the program anyway.
+- **Revised conclusion:** the toy supports "broken reciprocity" in the form
+  "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not
+  "only ω rigid, nothing else".
+
+**Scorecard**
+
+| Criterion | Status |
+|---|---|
+| S0 | Done |
+| S1–S3 | Pass (both toys) |
+| S4 | Pass for coset + τ potential; fail for both exactly self-dual versions in 1+1 / at fixed μ² |
+| S5 | Open |
+
+**Plan for S5 (chunk 4).** The most promising mechanism is the
+section-condition logic of double field theory, which ties locality to η.
+
+- In d = 1 the null lines of η = ωK are exactly the two Lagrangians L and
+  L̃. FLM write L = ker(η + ω) and L̃ = ker(η − ω).
+- A section condition η^{AB} ∂_A f ∂_B g = 0 on matter fields forces every
+  field to depend on one of them only. That is locality on a Lagrangian
+  section, with the other variable conjugate.
+- But η and −η have the same null lines, so the section condition is blind
+  to the sign of K: it selects the unordered pair {L, L̃}, the same
+  information as K_ref. Which one a given matter species uses (P4's x- vs
+  p-polarized matter) is then the spontaneously broken ρ.
+- To do first: an S0-style literature check on dynamical selection of the
+  section in DFT and metastring work; then an explicit computation in the
+  coset toy coupled to phase-space matter.
