@@ -81,3 +81,35 @@ is the referees' letter; the second is what would answer round 3.
 2. A baseline: the coset model on compatible (H, K), checked against S1–S3
    in sympy. It is cheap, and it fixes what the minimal construction gives.
 3. Choose the route for S4–S5 from what step 1 finds.
+
+## Chunk 1 results (2026-10-19)
+
+**Baseline coset model** ([verify/toy_coset.py](../verify/toy_coset.py),
+gated). d = 1; fields H (phase-space metric, in the upper half-plane Z) and
+K (real structure, K² = 1, Kᵀ ω K = −ω), with η = ωK.
+
+- Action:
+  L = (f_H²/8) Tr(H⁻¹∂H H⁻¹∂H) + (f_K²/4) Tr(H⁻¹ ∂Kᵀ H ∂K) + (λ/8)|{K, ω⁻¹H}|²_H.
+  - K's kinetic term is contracted with H. That makes it positive definite,
+    whereas K's own target space (de Sitter dS₂) has an indefinite metric,
+    which would give a ghost.
+- **S1 pass [V]:** all three terms are invariant under a generic symplectic
+  S (H → SᵀHS, K → S⁻¹KS), under ρ, and under K → −K.
+- **S2 pass [V]:**
+  - The vacua are the compatible pairs (H, K): the upper half-plane times a
+    circle of K's, a 3-dimensional space.
+  - ρ acts as Z → −1/Z on H and as K → −K at H = 1. No vacuum is
+    ρ-invariant.
+  - Only {±1} leaves a vacuum fixed, so Sp(2,R) → Z₂ = {1, ρ²}.
+- **S3 pass [V]:** O = K₁₁ is +1 in (1, K₀) and −1 in its ρ-image.
+- **Spectrum [V]:** the potential's Hessian has rank 1, giving three
+  Goldstone modes and one massive mode.
+  - The compact Goldstone is the rotation of K at fixed H: the Lagrangian
+    Grassmannian Λ(1), which is the checkpoint's Maslov circle (the τ field
+    of §10).
+  - The other two are the non-compact upper half-plane directions.
+- **As predicted, S1–S3 come almost by construction.** This is a coset
+  model of Sp(2,R) → Z₂.
+- **S4 is the open question.** The breaking is continuous, so in 1+1 the
+  compact circle mode should restore ⟨K⟩ (Coleman–Mermin–Wagner) unless the
+  non-amenable directions change that. Waiting on the S0 literature check.
