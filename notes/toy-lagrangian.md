@@ -199,3 +199,95 @@ Grosse–Wulkenhaar Ω = 1 route first; keep the coset model as the
     a cosine potential for τ.
   - Or the non-amenability route (Duncan–Niedermaier–Seiler), whose
     applicability to this target is unchecked.
+
+## Chunk 2 results (2026-10-19): the Grosse–Wulkenhaar route
+
+Script: [verify/toy_gw.py](../verify/toy_gw.py), gated. θ = 1.
+
+- Inputs come from the sources:
+  - the matrix base from de Goursac–Tanasa–Wallet App. A;
+  - the duality from Grosse–Wulkenhaar hep-th/0402093 eq. 1:
+    p = x̃ = 2θ⁻¹x, normalization π√|det θ|.
+- The explicit Laguerre form of f_mn is checked exactly against
+  H ⋆ f_mn = θ(m+½) f_mn and f_mn ⋆ H = θ(n+½) f_mn.
+
+**The convention question from chunk 1 is resolved.**
+
+- **The duality acts as D f_mn = (−1)^m f_mn [V]**, to 1.4×10⁻¹². This is
+  a direct numerical 2D Fourier integral with Grosse–Wulkenhaar's kernel,
+  not a recalled eigenvalue.
+  - It is left multiplication by parity, Π = e^{−iπN}.
+- Why it looked contradictory: Grosse–Wulkenhaar's duality alternates the
+  sign of the Fourier exponent around the ⋆-vertex. So:
+  - **Real model:** the duality is not a symmetry of the field space [V].
+    Πφ is not Hermitian, and Tr((Πφ)⁴) ≠ Tr φ⁴. The real action is only
+    covariant: its quartic is invariant in the alternating form
+    Tr((ψψ†)²) with ψ = Πφ.
+  - **Complex model:** the duality is a genuine field symmetry,
+    S[Πφ] = S[φ] [V].
+- **The Ω = 1 kinetic form is diagonal in the matrix base** and equals
+  8π(m+n+1)|φ_mn|² [V]. (A first check used finite-difference derivatives
+  and failed at the 0.3% level. The fix was exact derivatives, not a
+  looser tolerance.)
+
+**S1–S3 for the complex self-dual model (μ² = 4, so levels 0 and 1
+condense): all pass [V].**
+
+- **S1:** the duality Π is a symmetry. It is one element of a continuous
+  symmetry: S[UφV†] = S[φ] for any diagonal unitaries U, V.
+- **S2:**
+  - Every minimum found by descent from random starts is diagonal, with
+    |φ_mm|² = q_m = max(0, −(2m+1−μ²)/(2λ)).
+  - S_min matches its exact value.
+  - The relative phase β between levels 0 and 1 is a flat direction (a
+    Goldstone mode).
+  - The duality maps β to β + π, so no vacuum is invariant once level 1
+    condenses (μ²θ > 12 in GW units).
+- **S3:** the order parameter is the vacuum's x-versus-p polarization,
+  Δ(β) = ⟨x²⟩_vacuum − ⟨x²⟩_dual = Δ(0) cos β.
+  - β = 0 is sharp in x, β = π is sharp in p, β = ±π/2 is balanced.
+  - It is odd under the duality: Δ(β + π) = −Δ(β).
+- This is, as far as the S0 search found, the first explicit statement that
+  the self-dual Grosse–Wulkenhaar vacua break the Langmann–Szabo duality —
+  in the complex model, not the real one.
+
+**The structural finding, common to both toys.**
+
+- At the self-dual point, Born reciprocity is never the whole symmetry. It
+  is one element of a continuous U(1):
+  - the coset model: the U(1) stabilizer of H that rotates K;
+  - Grosse–Wulkenhaar: the left phase rotations e^{−iαN}, with the duality
+    at α = π.
+- So "which polarization" is an angle on a Goldstone circle, not a discrete
+  choice. The x-sharp and p-sharp vacua are joined by a flat direction.
+- **Consequences for the program:**
+  - (i) P5's "the vacuum selects a polarization; ours is x-tilted" needs
+    explicit breaking of that U(1) — a potential on the circle — to make the
+    selection definite.
+  - (ii) In the coset toy, the circle is the Lagrangian Grassmannian Λ(1),
+    the checkpoint's τ. So both toys support §10's identification of the
+    dark-energy field with the polarization angle, and say the polarization
+    is set by where τ sits on its potential.
+  - (iii) It also means the present-day thawing of τ would be a slow drift
+    of the polarization angle. That is a claim about the program, not
+    verified here.
+- This is model-level evidence from two toys, not a theorem.
+
+**Scorecard**
+
+| Criterion | Status |
+|---|---|
+| S0 | Done |
+| S1–S3 | Pass in both toys, as predicted |
+| S4 | Open: continuous breaking in 2D (Mermin–Wagner, unless the noncommutative model evades it), or a discrete reduction |
+| S5 | Open: Δ shows the vacuum is polarized, but locality of interactions is not yet addressed |
+
+**Next chunk (3), in order:**
+
+1. S4 for the complex matrix model: Monte Carlo at Ω = 1 measuring
+   ⟨|φ̄₀₀ φ₁₁|⟩ (odd under the duality) against the truncation size N.
+   Does the order survive as N grows, or does the Goldstone disorder it?
+2. S5: fluctuation correlators around a polarized vacuum, compared in x
+   and in p.
+3. A short note on the explicit-breaking (τ-potential) reduction common to
+   both toys.
