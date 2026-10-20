@@ -398,3 +398,103 @@ conclusion is written after it returns.
     asymmetry.
 - Two checks were vacuous on the first draft (an always-true term; a
   condition multiplied by 0) and were replaced by real tests before commit.
+
+**S5 literature (subagent, 2026-10-19; all citations retrieved [S]).**
+
+- **Known [T]:** consistency confines fields to a single Lagrangian section.
+  - Double field theory imposes the strong constraint for gauge closure:
+    Hull–Zwiebach 0904.4664; Hohm–Hull–Zwiebach 1003.5027; reviews
+    1305.1907, 1306.2643, 1309.2977.
+  - It has been derived from modular invariance plus amplitude poles
+    (Betz–Blumenhagen–Lüst–Rennecke 1402.1686) and from worldsheet locality
+    (FLM metastring 1502.08005 §6).
+  - **Every derivation selects only the pair {L, L̃}.** Betz et al.: "w = 0
+    for M = 1 and p = 0 for M = −1". All sections are O(D,D)-equivalent.
+- **Claimed only in words:** that the choice is dynamical.
+  - Freidel–Rudolph–Svoboda 1706.07089: "might be subject to a dynamical
+    selection rule".
+  - FLM 1502.08005: "a dynamical question".
+  - Bernardo–Brandenberger–Franzmann 1901.01209, whose support is a personal
+    communication.
+  - FLM 1405.3949's linearized □_η H = 0 is the weak constraint, and is
+    solved along either null line.
+- **Open:** a mechanism that picks L over L̃. Each candidate in the
+  literature either selects the pair only, or uses outside input: which
+  modes are light, distance-dependent interactions, or a curved position
+  space.
+- **Prior art for the program's own wording:** FLM 1502.08005: "if all
+  probes agree on what we mean by space-time, then we have broken Born
+  duality — there is a preferred choice of polarization". **#11 §3 must cite
+  FLM for the idea.** What is the program's own: the order-parameter
+  (spontaneous) formulation and its consequences.
+
+**S5 conclusion.**
+
+- **Weak form: passes [V].** A ρ-covariant coupling of matter to K makes
+  interactions local in L+ in one vacuum and in L− in the other. This works
+  as a Yukawa coupling does.
+- **Strong form (locality forced, not chosen): not achieved.** It is also
+  open in the literature. In the toy:
+  - (i) the pair {L+, L−} is the eigenline pair of K. It is spontaneously
+    selected only in the continuous version (3+1, angle φ a Goldstone);
+    with the τ-type potential it is fixed by K_ref.
+  - (ii) Which member is "position" is the spontaneously broken ρ, but
+    matter's section is locked to K's sign only through the K-covariant
+    coupling. Without that lock, matter's choice of section and K's sign
+    are independent orders.
+- **The lock is P4** (x-polarized matter, and its ρ-image, p-polarized
+  matter). So in the toy, the program's explanation of "forces fade with
+  distance" amounts to this: our matter is the x-polarized species. The
+  explanatory gain is that x-locality comes packaged with a p-local mirror
+  sector, the program's dark-matter claim. It does not derive x-locality
+  from nothing.
+
+## Assessment against the predictions (written before construction)
+
+| Prediction | Outcome | Score |
+|---|---|---|
+| S1–S3 pass easily | Pass in both toys, close to by construction | Hit |
+| S4 needs a discrete reduction or non-amenability | Coset passes only with a ρ-preserving τ-type potential (Ising class, MC). The GW route fails S4 outright: zero mode, no stiffness. Non-amenability not needed, not tested | Hit |
+| S5 not passed at first attempt; locality defined relative to K by hand | Weak form only; the strong form is open here and in the literature | Hit |
+| If S1–S4 pass and S5 fails, the referees' criterion 1 is too weak to answer "the framework does no work" | Criterion 1 as worded is now met (coset + τ potential). The round-3 critique is only partly answered | Hit |
+
+**Findings that were not predicted:**
+
+1. At every self-dual point, ρ sits inside a continuous U(1). The
+   polarization is therefore a Goldstone angle; in the coset toy it is
+   Λ(1), the checkpoint's τ. This is structural support for §10.
+2. The self-dual complex Grosse–Wulkenhaar vacua break the Langmann–Szabo
+   duality classically, as a cos β polarization (new as far as the S0
+   search found). The breaking does not survive quantization.
+3. In 1+1, "only ω rigid" is not enough for a definite polarization. A
+   ρ-preserving potential on the polarization circle is required. In 3+1
+   the continuous breaking is allowed, and §10's potential supplies the
+   explicit breaking anyway.
+
+**Verdict on acceptance criterion 1.** Met, in the referees' wording, by the
+coset toy plus a τ-type potential:
+
+- ρ is a genuine symmetry of an explicit action.
+- It is spontaneously broken (Ising class in 1+1, Monte Carlo verified).
+- η = ωK is the order parameter.
+- Prior art: FLM have the idea. The explicit realization appears new per S0.
+- The round-3 critique ("the framework does no work") is only partly
+  answered. The toy makes the program's structures cohere (η as order
+  parameter; τ as the polarization angle), but matter's x-locality still
+  enters through the P4-type coupling.
+
+## Next (Claude's call, under Paul's delegation)
+
+1. Write the toy up as a clean technical note in the house pattern,
+   pre-register, and send it through a round-4 blind review before any
+   external use. Its candidate novel content:
+   - finding 2 (GW classical breaking and its quantum restoration);
+   - the coset toy plus τ potential as an explicit Born-reciprocity order
+     parameter;
+   - finding 3.
+2. Amend #11 to v2.2:
+   - §3 cites FLM for "broken Born duality";
+   - §14 item 1's status;
+   - §10 records finding 1;
+   - P2′ is refined: the polarization circle needs a ρ-preserving potential.
+3. Then HANDOFF §8 items 5–7.
