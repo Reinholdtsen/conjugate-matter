@@ -113,3 +113,89 @@ K (real structure, K² = 1, Kᵀ ω K = −ω), with η = ωK.
 - **S4 is the open question.** The breaking is continuous, so in 1+1 the
   compact circle mode should restore ⟨K⟩ (Coleman–Mermin–Wagner) unless the
   non-amenable directions change that. Waiting on the S0 literature check.
+
+**S0 — prior art (literature subagent, 2026-10-19; every citation retrieved
+[S], nothing from memory).**
+
+- **Result: no existing action has Born reciprocity exactly symmetric and
+  spontaneously broken with η or K as order parameter.** Zero phrase hits on
+  INSPIRE full text and arXiv abstracts. INSPIRE's coverage is incomplete,
+  so this is evidence of absence, not proof.
+- The ingredients exist separately:
+  - **The idea:** Freidel–Leigh–Minic.
+    - 1307.7080 (PLB 730 (2014) 302): "both elements (η, J) of the chiral
+      structure are dynamical. The solutions are labelled by bi-Lagrangians
+      and spacetime is a derived dynamical concept".
+    - 1405.3949 (IJMPD 23 (2014) 1442006) ties fixed η to locality and finds
+      linearized solutions that depend "only on X or only on P".
+    - **They have priority on the idea and must be cited.** They write no
+      potential and do no symmetry-breaking analysis, and call Born's
+      breaking kinematical, not spontaneous.
+  - **An interacting action exactly invariant under x ↔ p:**
+    Grosse–Wulkenhaar at Ω = 1 (hep-th/0402093, EPJC 35 (2004) 277), with an
+    all-orders vanishing β-function there (Disertori–Gurau–Magnen–Rivasseau,
+    hep-th/0612251, PLB 649 (2007) 95). The duality is Langmann–Szabo's
+    (hep-th/0202039, PLB 533 (2002) 168).
+  - **Vacua of that model:** de Goursac–Tanasa–Wallet (0709.3950, EPJC 53
+    (2008) 459) find non-constant vacua at Ω = 1 for μ² ≥ 4/θ. **Nobody has
+    asked whether they break the duality.** Stripe phases in this literature
+    break translations, not x ↔ p.
+  - **Non-compact symmetries can break in low dimension:**
+    Niedermaier–Seiler (hep-th/0312293, AHP 6 (2005) 1025);
+    Duncan–Niedermaier–Seiler (hep-th/0405163, NPB 720 (2005) 235), SO(1,N)
+    broken in D ≥ 2, evading Mermin–Wagner.
+  - **Related, not the same:**
+    - Marotta–Szabo Born sigma models (1910.09997): polarization chosen by
+      gauging.
+    - Double field theory with spontaneously broken O(D,D) (Angus–Kim–Park
+      2111.07947): there H is the order parameter, with η fixed.
+    - Low; Govaerts–Jarvis–Morgan–Low (0706.3736): contraction, not breaking.
+- **Bearing on S5:** Langmann–Szabo (p. 6): at θ = 0 the position vertex is
+  "fully local" and the momentum vertex non-local; "for non-singular θ, both
+  vertex functions have the same non-local form". In that literature,
+  locality in x arises only at the singular θ → 0 limit, not from a vacuum.
+
+**Route decision for S4–S5 (Claude, under Paul's delegation): test the
+Grosse–Wulkenhaar Ω = 1 route first; keep the coset model as the
+η-implementation.**
+
+- Why the Grosse–Wulkenhaar route first:
+  - It is the one place where the toy could be both new and non-trivial: an
+    interacting, renormalizable field whose own vacuum might select x or p,
+    with no K put in by hand.
+  - The decisive question is cheap to settle.
+- The open technical question:
+  - At Ω = 1 the matrix-base action depends on φ only through φ² (the
+    kinetic term is 2 Tr(Eφ²) with E diagonal; checked against
+    de Goursac–Tanasa–Wallet eqs. 3.16, 3.26). With distinct level energies,
+    every minimum is then diagonal, φ = diag(±√q_m) over the condensed
+    levels.
+  - **If** the duality multiplies the diagonal functions f_mm by (−1)^m,
+    no ground state is duality-invariant once two levels condense
+    (μ²θ > 12). That would be spontaneous breaking of x ↔ p, with the
+    vacuum sharp in x for one sign pattern and sharp in p for its image.
+  - **If** it acts as a diagonal phase rotation (u_m ū_n), the diagonal
+    vacua are invariant, and this route gives no classical breaking.
+  - My recalled Fourier eigenvalues ((−i)^{m+n}, or (−1)^m with the B
+    rotation) are not of rotation type. But with them I cannot make the
+    quartic term invariant, which contradicts Grosse–Wulkenhaar's stated
+    invariance. So a recalled convention is wrong somewhere.
+  - **Unresolved, not a finding.**
+- **Next chunk (2):**
+  1. Compute numerically the Langmann–Szabo map on the f_mn functions
+     (2D Fourier transform plus rescaling, projected back onto f_kl).
+  2. Verify on random configurations that the Ω = 1 action is invariant
+     under it (S1 for this route).
+  3. Read off its action on the diagonal vacua (S2/S3).
+  4. If breaking occurs, compute the order parameter, the x-vs-p moment
+     asymmetry of the vacuum profile (start of S5), and plan a matrix-model
+     Monte Carlo for S4.
+- **Fallback for S4 in the coset route:**
+  - Discrete reduction by a τ-type potential −μ[Tr(K K_ref)]². It keeps ρ
+    and leaves two vacua (±K_ref) exchanged by ρ, which is Ising-like, so
+    the breaking survives in 1+1.
+  - The cost: a rigid, unordered pair of axes. That is weaker than a rigid
+    η, but it is still background structure. Checkpoint §10 already posits
+    a cosine potential for τ.
+  - Or the non-amenability route (Duncan–Niedermaier–Seiler), whose
+    applicability to this target is unchecked.
