@@ -1,0 +1,23 @@
+== F1: runaway along the boost family H = S^T S, K = S^-1 K0 S
+t=0.0: V_lam = 0.00e+00, V_mu = -4.0000e+00, V_bounded = -1.0000
+t=1.0: V_lam = 6.38e-30, V_mu = -5.6616e+01, V_bounded = -0.5183
+t=2.0: V_lam = 1.18e-24, V_mu = -2.9830e+03, V_bounded = -0.5003
+t=4.0: V_lam = 2.66e-14, V_mu = -8.8861e+06, V_bounded = -0.5000
+
+== F2: Hessian of V_lam + V_mu at (1, K0) in coords (x, y, u, t_) as in toy_coset
+lam=1.0: eigs of V_lam*lam + V_mu: [-6.4721  0.      2.4721  8.    ]
+lam=10.0: eigs of V_lam*lam + V_mu: [-4.3961 -0.      8.     36.3961]
+lam=100.0: eigs of V_lam*lam + V_mu: [ -4.04  -0.     8.   396.04]
+bounded variant (lam=1): eigs [-0.      0.7639  2.      5.2361]
+
+== F3: the twisted rho = rho o (K -> -K) fixes the vacuum (1, K0)?
+H -> [1. 0. 0. 1.]  K -> [ 1. -0. -0. -1.]  fixed: True
+
+== F5: I_K depends on the scale along the eigenlines (needs H)
+scale s=1.0: I = 0.406972
+scale s=2.0: I = 0.813944
+
+== F4: real GW model, Hessians at diag(a0, +a1) vs diag(a0, -a1), N = 8, mu2 = 4, lam = 1
+sign +1: S = -2.5000, lowest eigs [2. 4. 4. 4.], min 2.0000
+sign -1: S = -2.5000, lowest eigs [1.0718 1.0718 2.     4.    ], min 1.0718
+one-loop free-energy difference F(+) - F(-) = 2.634  (eigenvalue-normalization dependent constants cancel)

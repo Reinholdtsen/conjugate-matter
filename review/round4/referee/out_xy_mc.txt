@@ -1,0 +1,18 @@
+Run A: J=h=1, T=0.6 (with cos 2phi potential), hot and cold starts
+  L= 16 hot : <|m|>=0.9541+-0.0001  Binder U=0.6666  acc=0.39
+  L= 16 cold: <|m|>=0.9541+-0.0001  Binder U=0.6666  acc=0.39
+  L= 32 hot : <|m|>=0.9542+-0.0000  Binder U=0.6667  acc=0.39
+  L= 32 cold: <|m|>=0.9543+-0.0000  Binder U=0.6667  acc=0.39
+  L= 64 hot : <|m|>=0.0593+-0.0049  Binder U=0.5361  acc=0.39
+  L= 64 cold: <|m|>=0.9542+-0.0000  Binder U=0.6667  acc=0.39
+Run B: control T=3.0, J=h=1
+  L= 16: <|m|>=0.0630+-0.0004   sqrt-scaling check <|m|>*L = 1.007
+  L= 32: <|m|>=0.0318+-0.0004   sqrt-scaling check <|m|>*L = 1.018
+  L= 64: <|m|>=0.0156+-0.0002   sqrt-scaling check <|m|>*L = 0.997
+Run C: exactly symmetric h=0, T=0.6
+  L= 16: <|M|>=0.8371+-0.0009  acc=0.52
+  L= 32: <|M|>=0.8040+-0.0016  acc=0.52
+  L= 64: <|M|>=0.7673+-0.0028  acc=0.52
+  ratio M(64)/M(16) = 0.9166;  spin-wave (64/16)^(-T/4piJ) = 0.9360;  fitted exponent -0.0628 vs -T/(4 pi J) = -0.0477
+  manuscript's quoted ratio 0.776/0.838 = 0.9260
+elapsed 269s

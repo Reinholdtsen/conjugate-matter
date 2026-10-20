@@ -1,0 +1,63 @@
+== basics
+rho^T om rho == om: True
+rho^2: [-1, 0, 0, -1]
+H(Z) det: 1  symmetric: True
+I^2 == -1: True
+K^2 - (a^2+bc) 1: [0, 0, 0, 0]
+K^T om K + det(K)... : [0, 0, 0, 0]  det K = -a**2 - b*c
+
+== Sp(2,R) invariance of the three terms (generic S, H, dH, K, dK; algebraic identity)
+S symplectic: True
+  H kinetic: transformed - original = 0
+  K kinetic: transformed - original = 0
+  potential: transformed - original = 0
+  potential under K->-K: 0
+  K kinetic under K->-K: 0
+
+== positivity of K kinetic vs naive Tr(dK dK)
+  naive Tr(dK dK) at K0: 2*db*dc
+  H-contracted at H=1: db**2 + dc**2
+  random (H,dK): min of Tr(H^-1 dK^T H dK)/|dK|^2 = 0.05981447863184067
+
+== vacua at H=1
+  C at H=1: [b - c, 0, 0, b - c]  -> zero iff b=c
+  V(1,K(phi)) = 0
+  V(1,K) general = 2*(b - c)**2
+
+== rho action
+  rho^T H(Z) rho - H(-1/Z): Matrix([[0, 0], [0, 0]])
+  fixed point: H(i) = [1, 0, 0, 1]
+  rho^-1 K(phi) rho - K(phi+pi): Matrix([[0, 0], [0, 0]])
+  K(phi+pi) + K(phi): Matrix([[0, 0], [0, 0]])
+
+== stabilizer of (1,K0) in Sp(2,R)
+  R(t)^-1 K0 R(t) - K0 = [-2*sin(t)**2, -sin(2*t), -sin(2*t), 2*sin(t)**2]
+  solutions t in [0,2pi): {0, pi}
+  twisted rho on (1,K0): H -> [1, 0, 0, 1]  K -> -(rho^-1 K0 rho) = [1, 0, 0, -1]
+  O=K11: vacuum 1  rho-image -1
+
+== Hessian of V at (H=1, K0) on the 4 field directions (X, Y, b, c), a = sqrt(1-bc)
+  Hessian (lambda=1): [[2, 0, -1, 1], [0, 0, 0, 0], [-1, 0, 1/2, -1/2], [1, 0, -1/2, 1/2]]
+  rank: 1  eigenvalues: {3: 1, 0: 3}
+  V at vacuum: 0  gradient: [0, 0, 0, 0]
+
+== stiffness of phi at H=1: (f_K^2/4) Tr(dK^T dK) along K(phi)
+  (1/4) Tr(H^-1 dK^T H dK) at H=1 = 1/2 * (d phi)^2 * f_K^2
+
+== Sec. 4 rho-preserving potential  V_mu = -mu [Tr(K K_ref)]^2
+  at H=1, K(phi): 0 (=0 means -2mu(1+cos2phi))
+  rho-invariance (full model, any K): 0
+  S(t) symplectic: True
+  K(t) = [[cosh(2*t), 2*sinh(t)*cosh(t)], [-sinh(2*t), -cosh(2*t)]]  K(t)^2 = 1: True
+  lambda-term on family: 0
+  V_mu on family: -4*mu*cosh(2*t)**2
+    t=0: V_total/mu = -4.0000
+    t=0.5: V_total/mu = -9.5244
+    t=1: V_total/mu = -56.6165
+    t=2: V_total/mu = -2982.9583
+    t=4: V_total/mu = -8886112.5205
+  Hessian of V_lambda/8 + V_mu (lambda=mu=1) at (1,K0): [[2, 0, -1, 1], [0, 0, 0, 0], [-1, 0, 1/2, 7/2], [1, 0, 7/2, 1/2]]
+  eigenvalues: {4: 1, -sqrt(33)/2 - 1/2: 1, -1/2 + sqrt(33)/2: 1, 0: 1} -> [4.0, -3.3722813232690143, 2.3722813232690143, 0.0]
+  lambda=1, mu=1: Hessian eigenvalues [-3.3723, 0.0, 2.3723, 4.0]
+  lambda=10, mu=1: Hessian eigenvalues [-2.7797, 0.0, 4.0, 28.7797]
+  lambda=100, mu=1: Hessian eigenvalues [-2.6785, 0.0, 4.0, 298.6785]

@@ -1,0 +1,12 @@
+Gaussian spin-wave lattice <|M|>(L=16) = 0.8633
+Gaussian spin-wave lattice <|M|>(L=32) = 0.8352
+Gaussian spin-wave lattice <|M|>(L=64) = 0.8080
+Gaussian spin-wave lattice <|M|>(L=128) = 0.7817
+lattice Gaussian ratio M(64)/M(16) = 0.9359;  closed form (64/16)^(-T/4piJ) = 0.9360
+manuscript h=0 ratio 0.776/0.838 = 0.9260; referee MC ratio 0.7673/0.8371 = 0.9166
+control T=3: manuscript exponent d ln m / d ln L = -1.2390236484023223 ; referee = -1.0069028997625142 ; disordered-phase expectation -1
+control L=16: manuscript/referee = 1.2380952380952381
+S^-1 K_ref S = +1 K_ref, det S = 1: solutions [{a: 1/d, b: 0, c: 0}]
+S^-1 K_ref S = -1 K_ref, det S = 1: solutions [{a: 0, b: -1/c, d: 0}]
+SO(2) elements preserving {+-K_ref}: R^-1 K_ref R = [[cos(2*th), -sin(2*th)], [-sin(2*th), -cos(2*th)]] -> need sin(2th)=0: th in {0, pi/2, pi, 3pi/2} = {1, -rho?, -1, rho}
+R(pi/2) = [[0, -1], [1, 0]]  R(3pi/2) = [[0, 1], [-1, 0]]  rho = [[0, 1], [-1, 0]]  rho^4 = [[1, 0], [0, 1]]

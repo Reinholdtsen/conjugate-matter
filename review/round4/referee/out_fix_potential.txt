@@ -1,0 +1,2 @@
+samples: 141227  min V'/mu = -0.9999991311987698  max V'/mu = -1.261809536894983e-05  max |V'(rho K) - V'(K)| = 2.220446049250313e-16
+on the runaway family: V'(t)/mu = -1/2 - 1/(2*cosh(4*t)) ; t->oo limit: -1/2

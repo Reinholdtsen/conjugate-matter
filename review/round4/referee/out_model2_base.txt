@@ -1,0 +1,29 @@
+== anchor: [x1,x2]_* = I
+
+== exact H-eigenrelations (H quadratic -> Moyal series terminates at order 2)
+  H*f_mn = theta(m+1/2) f_mn and f_mn*H = theta(n+1/2) f_mn for all m,n<=3: True
+
+== fix the sign of the integral kernel against the differential series (theta=1/5, Gaussians off-centre)
+  sigma=+1: integral 0.803490371857-0.008829919958j   series(order 10) 0.803490371372-0.008829923265j   |diff| 3.34e-09
+  sigma=-1: integral 0.803490371857+0.008829919958j   series(order 10) 0.803490371372-0.008829923265j   |diff| 1.77e-02
+
+== f_mn * f_kl = delta_nk f_ml (integral kernel, sigma=+1, theta=1), all indices <= 1, plus a few with 2
+  max |f_mn*f_kl - delta_nk f_ml| over 20 index sets x 2 points: 2.97e-140
+  f00*f00 - f00 = 0
+
+== QM anchor: Weyl symbol of |m><n| from Hermite functions (theta=1, x1=q, x2=p)
+  max |WeylSymbol(|m><n|) - Laguerre f_mn| (m,n<=3, 3 points): 5.63e-14
+
+== orthogonality and integrals (exact)
+  max |int f_mn - 2 pi theta delta_mn| = 0.0e+00;  max |int conj(f_mn) f_kl - 2 pi theta delta delta| = 0.0e+00  (m,n,k,l<=2)
+
+== GW/LS duality on the matrix base, exact Gaussian integrals
+  theta=1: D_minus f_mn / f_mn == (-1)^m for all m,n<=3: True;  D_plus f_mn / f_mn == (-1)^n: True
+    sample ratios D_minus: [((0, 0), 1), ((0, 1), 1), ((0, 2), 1), ((0, 3), 1), ((1, 0), -1), ((1, 1), -1), ((1, 2), -1), ((1, 3), -1)]
+    sample ratios D_plus : [((0, 0), 1), ((0, 1), -1), ((0, 2), 1), ((0, 3), -1), ((1, 0), 1), ((1, 1), -1), ((1, 2), 1), ((1, 3), -1)]
+  theta=1/2: D_minus f_mn / f_mn == (-1)^m for all m,n<=3: True;  D_plus f_mn / f_mn == (-1)^n: True
+  theta=3: D_minus f_mn / f_mn == (-1)^m for all m,n<=3: True;  D_plus f_mn / f_mn == (-1)^n: True
+
+== Omega=1 quadratic form int |d phi|^2 + x~^2 |phi|^2 in the matrix base (theta=1, exact)
+  max |off-diagonal| = 0.0
+  diagonal / (8 pi): [((0, 0), 1), ((0, 1), 2), ((0, 2), 3), ((1, 0), 2), ((1, 1), 3), ((1, 2), 4), ((2, 0), 3), ((2, 1), 4), ((2, 2), 5)]   expected m+n+1

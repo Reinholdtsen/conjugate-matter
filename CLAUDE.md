@@ -68,6 +68,12 @@ First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
   independent of the paper (a textbook identity, a published value). A check
   that reproduces the paper's own number is circular. Round 3 caught a wrong
   Kibble normalization that a circular anchor had passed.
+- When numerics run on a reduced model (fields frozen), check the unreduced
+  model's stability — boundedness, and the Hessian with all fields dynamical —
+  and say in the text that it is a reduction. Round 4 found a potential that
+  was bounded only at frozen H.
+- Monte Carlo numbers need error bars from independent runs. A fixed seed makes
+  a number reproducible, not accurate.
 - Report negative results prominently. Claims listed as dead in HANDOFF §2 stay
   dead.
 

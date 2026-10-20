@@ -1,0 +1,33 @@
+== null lines
+  eta symmetric: True  det eta = -1
+  v(t)^T eta v(t) = sin(phi - 2*t)
+  q at t=phi/2: 0  at t=phi/2+pi/2: 0
+    phi=0.5381: sign changes of q on [0,pi) = 2
+    phi=1.4879: sign changes of q on [0,pi) = 2
+    phi=5.0346: sign changes of q on [0,pi) = 2
+  K e+ - e+ = Matrix([[0, 0]])   K e- + e- = Matrix([[0, 0]])
+  -> eigenline angles phi/2 and phi/2+pi/2; null set {phi/2, phi/2+pi/2} matches for all phi
+  (-eta) null lines: same quadratic form up to sign: True
+  rho^-1 e+ parallel to e-? cross = 0
+
+== section condition in null coordinates (phi=0: eta = [[0,-1],[-1,0]])
+  eta0 = [[0, -1], [-1, 0]]  eta0^-1 = [[0, -1], [-1, 0]]
+  F(u),G(u): pair = 0  box F = 0
+  F(w),G(w): pair = 0
+  F(u),G(w): pair = -Derivative(F(u), u)*Derivative(G(w), w)
+  F(u)+G(w) with itself: pair = -2*Derivative(F(u), u)*Derivative(G(w), w)  box = 0
+  with -eta: F(u),G(w) pair = Derivative(F(u), u)*Derivative(G(w), w)
+
+== I_K for psi ~ exp(-(x-1.3)^2/0.7) + 0.6 exp(-(x+1.3)^2/0.7), hbar = 1
+  norms: 0.9999999999999997 0.9999999999999998
+  I_(+K_ref) = int |psi(x)|^4 dx = 0.406972
+  I_(-K_ref) = int |psi~(p)|^4 dp = 0.360047
+  int W = 0.9999999999919396   int W^2 = 0.15915494309190203   1/2pi = 0.15915494309189535
+  from Wigner marginals: I_+ = 0.406972, I_- = 0.360047
+  I_(-K)[F psi] = int |F(F psi)|^4 = 23.273691  (should equal I_(+K)[psi] = 0.406972)
+
+== covariance under rotations R(a) in SO(2) (H = 1 kept fixed) vs a boost (needs a scale)
+  I_K0[W] (interp) = 0.4069719446427156
+  I_{R K0 R^-1}[W_R] = 0.4067328074293699
+  same K0, parametrisation e+ = 1.0 e1, e- = e2/1.0 (du dv area preserved): I = 0.406972
+  same K0, parametrisation e+ = 2.0 e1, e- = e2/2.0 (du dv area preserved): I = 0.813649

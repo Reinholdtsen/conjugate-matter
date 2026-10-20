@@ -1,0 +1,4 @@
+norm F psi: 0.9999999999999575   max|F^2 psi(x) - psi(-x)| = 3.6082248765060084e-14
+I_+K[psi] = 0.406972   I_-K[psi] = 0.360047
+combined map: I_-K[F psi] = int |F(F psi)|^4 = 0.406972   I_+K[F psi] = 0.360047
+K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925  (nonzero: K->-K alone is not a symmetry of I)

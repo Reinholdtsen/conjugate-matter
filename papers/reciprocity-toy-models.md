@@ -1,5 +1,7 @@
 # Spontaneous Breaking of Born Reciprocity in Two Toy Models: the Polarization as a Goldstone Angle
 
+
+> **Status (2026-10-20): round-4 review returned verdict B.** The §4 potential is unbounded below once H is dynamical, so the Monte Carlo is a frozen-H reduction; v2 with the accepted revisions is pending. See [review/round4-adjudication.md](../review/round4-adjudication.md).
 *Anonymous working manuscript submitted for adversarial review. The manuscript may contain errors or confabulations; the reviewer is asked to find them.*
 
 ## Abstract
