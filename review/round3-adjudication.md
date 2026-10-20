@@ -9,8 +9,8 @@
   - Every one of its 16 numerical findings rests on executed code.
 - **My arbitration:** [round3/adjudicator/round3_arb.py](round3/adjudicator/round3_arb.py)
   and its `.out`, plus direct checks of the sources named below.
-  `verify/knot_numbers.py` now carries the corrected inputs, so it fails
-  on the claims of v3 that were wrong.
+  The corrected inputs now live in `verify/soliton_obituary.py`, which checks
+  every number this record quotes.
 
 ## Verdict
 
@@ -27,7 +27,7 @@ written.**
 
 | # | Referee finding | Ruling | Evidence |
 |---|---|---|---|
-| 1 | Kibble normalization: one defect per Hubble volume is p ≈ 104, not 0.023 | **Upheld** | My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g*)³ ≈ 4575. My error came from misremembering the formula. |
+| 1 | Kibble normalization: one defect per Hubble volume is p ≈ 104, not 0.023 | **Upheld** | My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g*)³ ≈ 4.6×10³. My error came from misremembering the formula. |
 | 2 | The M* band and "no dilution" fail | **Upheld** | At minimum production M* = 2.9–4.4×10¹² GeV. The 3×10¹³ benchmark is overproduced 2.1×10³–1.2×10⁴ times. The "reduced-Planck factor of 3" was not a convention spread: consistently normalized, the two conventions agree. |
 | 3 | Kibble is a floor, not a ceiling; Kibble–Zurek or bubble counting add more | **Upheld** | Murayama–Shu, arXiv:0905.1720, abstract: Kibble "drastically underestimates the production of topological defects". Liveoak–Maharana–Wells, arXiv:2607.20843 (July 2026), abstract: hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination. I did not re-run the referee's Kibble–Zurek integration (1e9–1e12 overproduction). |
 | 4 | ψ relic window too high | **Upheld** | v3 omitted ψ̄ and the second doublet member (a factor of 4), and bracketed an exactly known s-wave σv up to ×10. My recount: 10% of the DM at 45–49 GeV, 100% at 146–158 GeV. The referee's Boltzmann integration gives 28–46 / 96–153 GeV. We agree to within ×1.6, and v3's 0.1–0.3 TeV was wrong. |
@@ -94,34 +94,63 @@ input passes a gate that tests only arithmetic.
 - The kinetic-mixing literature points (a) and (c).
 - The statement that the minimal adjoint-only sector is excluded.
 
-## Decisions for Paul
+## Decisions
 
-1. **Kinetic mixing.** Recommended whatever else is chosen: **strict
-   sector separation** (ε ≲ 10⁻¹³, gravity only). It removes the ψ
-   millicharge phenomenology, the monopoles' Witten-effect charge,
-   re-thermalization, and exclusion 3. Taking it means dropping the
-   dimension-5 Planck estimate.
-2. **The soliton candidate.** Three routes:
-   - **(a) Move to v ≲ 100 PeV**, where annihilation in the hidden plasma
-     sets the abundance. The candidate then becomes the existing
-     topological-dark-matter model (Murayama–Shu 2009; LMW 2026). The
-     program adds motivation only.
-   - **(b) Keep superheavy with a named dilution mechanism** (early matter
-     domination). At least ~10³–10⁴ is needed even at minimum production,
-     probably far more. The mass stops being a prediction.
-   - **(c) Retire the soliton row as a program-native candidate** and write
-     the obituary. Checkpoint §12's trilemma keeps it only as "compatible
-     with known topological DM".
-   - **Recommendation: (c), with (a) as its stated footnote.** The row's
-     selling points were stability for free and a mass fixed without free
-     dilution. The second is gone, and the version that works belongs to
-     someone else.
-3. **HANDOFF §8 queue item 3** (the "√N floor" freeze-out) assumed Kibble is
-   a ceiling. Round 3 shows it is a floor, so the item's premise is
-   inverted. Drop it, or reframe it only under route (a).
-4. **The framework does no work** in #14. Both the pre-registration and the
-   referee say so. The only route to changing that is HANDOFF §8 item 4, the
-   toy Lagrangian, which is also acceptance criterion 1.
+Paul delegated these on 2026-10-19 ("You make the decisions for me and give
+rational"). Claude made them. Paul keeps the veto.
 
-Until Paul decides, v3 carries a "failed review" banner and
-`scripts/check.sh` fails on it by design.
+1. **Kinetic mixing: strict sector separation.** ε ≲ 10⁻¹³ from gravity
+   alone, and zero if hidden charge conjugation is a gauged symmetry.
+   - It is the program's own postulate P4 ("gauge forces do not cross
+     polarizations") taken at face value.
+   - The alternative rested on an unsupported coefficient. The dimension-5
+     "O(1) at the Planck scale" estimate (ruling 7) has no source. The
+     sources generate that operator only from bi-charged states, which P4
+     forbids.
+   - It costs nothing and closes three failure channels at once: ψ
+     millicharge, the monopoles' Witten-effect charge (ruling 9), and
+     re-thermalization of the hidden sector.
+2. **The soliton candidate: retired as a program-native proposal (route c).**
+   The surviving version is noted as prior art (route a). Rejected route (b):
+   superheavy plus a named dilution.
+   - The row earned its place in the checkpoint's trilemma on two claims:
+     topology makes it stable for free, and the mass came out of the
+     abundance with no free dilution. Round 3 removed the second.
+   - Route (b) restores the mass only by adding a free dilution factor of
+     at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass
+     would then no longer be a prediction, and the program does not trade
+     falsifiability for survival.
+   - Route (a), v ≲ 100 PeV, works, but it is Murayama–Shu's and
+     Liveoak–Maharana–Wells's model. Nothing in it depends on Born
+     reciprocity (the referee and the pre-registration agree), so claiming
+     it would add no testable content and would misattribute it.
+   - The program's precedent is the Debt 3 obituary: a dead claim is
+     reported prominently and stays dead.
+   - Consequence: the trilemma becomes two program-native candidates (gated
+     χ particles; the X-condensate), plus the remark that the framework is
+     compatible with known PeV-scale topological dark matter.
+3. **HANDOFF §8 queue item 3 (the "√N floor"): dropped.**
+   - Its premise, Kibble as a ceiling, is inverted (ruling 3).
+   - Under decision 2 it has no candidate left to serve.
+4. **What comes next: the toy Lagrangian (HANDOFF §8 item 4), after one
+   short cleanup.**
+   - Every referee across three rounds converges on "the framework does no
+     work". The toy action is the only item that can change that, and it is
+     acceptance criterion 1 for anything the program proposes.
+   - Candidate-level work is downstream of it.
+   - The cleanup comes first so the current reference stops asserting what
+     round 3 killed: amend checkpoint #11 with the soliton obituary
+     (§11–§15), check the Freidel–Leigh–Minic prior art and re-tag the
+     compatibility theorem if confirmed, and give §10 the DESI DR2
+     phantom-crossing nuance (ruling 11).
+
+Executed the same day:
+
+- v3 moved to `notes/` with a withdrawal banner.
+- `verify/knot_numbers.py` (v3's claims) was replaced by
+  `verify/soliton_obituary.py`, which checks every number this record
+  quotes, with independent anchors. The v3 checks are in history at
+  96f58da.
+  - This retires the checks of a withdrawn paper. It does not loosen the
+    gate: the gate verifies what current documents claim, and v3 no longer
+    claims anything.

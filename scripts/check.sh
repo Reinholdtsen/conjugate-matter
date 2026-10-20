@@ -18,7 +18,7 @@ fi
 
 status=0
 
-for script in verify/battery.py verify/knot_numbers.py; do
+for script in verify/battery.py verify/soliton_obituary.py; do
   if ! "$py" "$script"; then
     echo "$script FAILED"
     status=1

@@ -1,6 +1,6 @@
 # v3 of #14 — worklog
 
-Cutting v3 of [papers/knot-dark-matter-standalone.md](../papers/knot-dark-matter-standalone.md)
+Cutting v3 of [notes/knot-dark-matter-standalone.md](../notes/knot-dark-matter-standalone.md) (withdrawn; was in `papers/`)
 from the round-2 pending list (HANDOFF §6). State is saved here after each
 chunk so any session can resume cold.
 
@@ -8,7 +8,7 @@ Evidence used so far:
 
 - HANDOFF §6 summary of round 2. The round-2 referee report itself is not in
   the repo. Paul holds it.
-- [verify/knot_numbers.py](../verify/knot_numbers.py): every number v2 quotes,
+- `verify/knot_numbers.py` (since replaced by `soliton_obituary.py`; last version at 96f58da): every number v2 quotes,
   recomputed. All reproduce (gated in `scripts/check.sh`). NOTE lines are
   adjudication inputs not yet quoted by the manuscript.
 - Literature report, 2026-10-19: a subagent with web access pulled each
@@ -88,7 +88,7 @@ Evidence used so far:
 ## New open items (to compute before v3 states anything about them)
 
 - **O1 — dark W′± fate: fatal to the minimal model, not to the candidate**
-  [computed in [verify/knot_numbers.py](../verify/knot_numbers.py); `dark_sector.py` was merged into it]. The script
+  [computed in `verify/knot_numbers.py` (since replaced by `soliton_obituary.py`; last version at 96f58da); `dark_sector.py` was merged into it]. The script
   checks its freeze-out formula on a standard relic first: 100 GeV with
   σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108.
   - Minimal model: SU(2)_d → U(1)_d with only the adjoint Higgs.
@@ -186,7 +186,7 @@ New references for v3:
 
 ## v3 as drafted (2026-10-19)
 
-[papers/knot-dark-matter-standalone.md](../papers/knot-dark-matter-standalone.md)
+[notes/knot-dark-matter-standalone.md](../notes/knot-dark-matter-standalone.md) (withdrawn; was in `papers/`)
 now holds v3; v2 is in git history. Every number it quotes is a gated check
 in `verify/knot_numbers.py`. Two planned figures were corrected by that
 check before the text was written: the coupling matched at 10¹² GeV is

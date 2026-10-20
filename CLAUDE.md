@@ -16,22 +16,32 @@ below gives their paths.
 - [papers/](papers/) — current references only.
   - #11 `broken-born-checkpoint-v2.md` — **the current reference for the full program.**
   - #13 `conjugate-special-relativity.md`
-  - #14 `knot-dark-matter-standalone.md` — **the current blind-review manuscript** (v2; v3 pending, see HANDOFF §6).
 - [popsci/](popsci/) — #10 `angle-of-the-mirror.md`, #12 `universes-other-half.md`.
 - [notes/](notes/) — the audit trail, superseded as reference but kept.
   - #1 `broken-born-theory.md` — the lab notebook, addenda v0.2–v0.6.
   - #2–#8 calc notes: `debt3a/b/c-*`, `debt1a-*`.
   - #9 `broken-born-program-v1.md` — superseded by #11.
+  - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
-- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); arbitration and audit scripts go here.
+- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); arbitration and audit scripts go here.
 
-Read order for a fresh session: #11 → #14 → HANDOFF §6 → calc notes only as a
-task needs them.
+Read order for a fresh session: #11 → HANDOFF §6 →
+[review/round3-adjudication.md](review/round3-adjudication.md) → calc notes
+only as a task needs them.
 
-**Since the handoff:** #14 went to v3 and failed round-3 review (verdict C).
-HANDOFF §2's "current best DM candidate" (superheavy solitons) is superseded
-by [review/round3-adjudication.md](review/round3-adjudication.md). Read that
-before relying on §2 or on queue item 3 of §8.
+**Since the handoff (2026-10-19):**
+
+- #14 went to v3, failed round-3 review (verdict C) and was withdrawn. The
+  superheavy soliton candidate in HANDOFF §2 is **dead** as a program-native
+  proposal. The framework is merely compatible with known PeV-scale
+  topological dark matter (prior art).
+- Strict sector separation (P4 at face value) is in force.
+- HANDOFF §8 queue item 3 is dropped. The current queue, in order:
+  1. Amend #11 with the soliton obituary, the Freidel–Leigh–Minic prior-art
+     check on the compatibility theorem, and the DESI DR2 phantom nuance.
+  2. The toy Lagrangian (HANDOFF §8 item 4).
+  3. HANDOFF §8 items 5–7, unchanged.
+- Reasons are in the adjudication's "Decisions" section.
 
 ## The gate
 

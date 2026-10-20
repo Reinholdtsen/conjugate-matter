@@ -1,6 +1,6 @@
 # Dark Matter as Superheavy Monopoles of a Hidden Gauge Sector Selected by a Spontaneously Broken Phase-Space Duality
 
-> **Status (2026-10-19): v3 failed round-3 review (verdict C). Not for circulation.** The Kibble normalization in Sec. 3 is wrong: one monopole per Hubble volume is p ≈ 104, not 0.023, and it is the minimum, not the upper end. So the mass band, the benchmark's "no dilution required" and the ψ relic window are wrong, and `scripts/check.sh` fails on them. See [review/round3-adjudication.md](../review/round3-adjudication.md). Remove this block if the paper is revised.
+> **Withdrawn (2026-10-19) after failing round-3 review (verdict C). Kept as the audit trail; not for circulation.** The Kibble normalization in Sec. 3 is wrong: one monopole per Hubble volume is p ≈ 104, not 0.023, and it is the minimum, not the upper end. So the mass band, the benchmark's "no dilution required" and the ψ relic window are wrong. The soliton candidate is retired as a program-native proposal. The corrected numbers are in [review/round3-adjudication.md](../review/round3-adjudication.md), checked by `verify/soliton_obituary.py`.
 
 *Anonymous working manuscript submitted for adversarial review. The manuscript may contain errors or confabulations; the reviewer is asked to find them.*
 
