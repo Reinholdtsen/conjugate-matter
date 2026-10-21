@@ -53,7 +53,7 @@ The properties that matter for a dark-matter candidate are in #11 §7.5 [D]:
 
 ## What "condensate" means here
 
-Calc note #6 states the idea in one sentence: "homogeneous oscillations of a massive spin-2 X are themselves a dark-matter candidate (cf. bigravity dark matter)" (#6 §4). A field that oscillates uniformly through space at a frequency set by its mass behaves, averaged over the oscillation, as pressureless matter, its energy diluting with the cube of the scale factor like cold dark matter [T]. For a light scalar field this is [the misalignment mechanism](/wiki/dark-matter/wave-dark-matter/misalignment-mechanism); the physics and its literature for spin-2 fields are on [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter). Such a state is coherent: the field moves in phase everywhere, like a single standing wave, rather than as a gas of independent quanta [T].
+Calc note #6 states the idea in one sentence: "homogeneous oscillations of a massive spin-2 X are themselves a dark-matter candidate (cf. bigravity dark matter)" (#6 §4). A scalar field that oscillates uniformly through space at a frequency set by its mass behaves, averaged over the oscillation, as pressureless matter, its energy diluting with the cube of the scale factor like cold dark matter [T]; for a light scalar this is [the misalignment mechanism](/wiki/dark-matter/wave-dark-matter/misalignment-mechanism). The uniform mode of a spin-2 field is a tensor and singles out directions in space; that case and its literature are on [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter). Such a state is coherent: the field moves in phase everywhere, like a single standing wave, rather than as a gas of independent quanta [T].
 
 The program's record does not go further. No document computes how the oscillation would be produced in the early universe, its amplitude, or its energy density.
 
@@ -61,8 +61,8 @@ The program's record does not go further. No document computes how the oscillati
 
 The last column of the table names three distinguishing features. #11 states them and does not derive them; what the record says about each:
 
-- **"unifies dark sector with geometry".** Calc note #6: "BBT may not need χ as a separate field — X-condensate dark matter would unify the geometric sector with the dark sector" (#6 §4; BBT is the Broken-Born theory). #9 phrased it as "potentially eliminating χ and unifying the dark sector with the geometry" (#9 §10 item 7). If the candidate holds, the dark matter is a state of the second metric, not a separate matter field.
-- **"coherent-field signatures".** Not specified further in any document. [Row 11](/wiki/predictions/dark-sector-microstructure) uses them, with rows 1–3, to separate particles from a condensate.
+- **"unifies dark sector with geometry".** Calc note #6: "BBT may not need χ as a separate field — X-condensate dark matter would unify the geometric sector with the dark sector" (#6 §4; BBT is the Broken-Born theory). #9 phrased it as "potentially eliminating χ and unifying the dark sector with the geometry" (#9 §10 item 7). If the candidate holds, the dark matter is a state of the geometric field X, not a separate matter field.
+- **"coherent-field signatures".** Not specified further in any document. [Row 11](/wiki/predictions/dark-sector-microstructure) relies on "coherence signatures", with rows 1–3, to separate particles from a condensate.
 - **"knee shape wave-like".** #11 gives no derivation for this entry. In the predictions table the wave-like tail of the self-interaction knee is "(v\*/σ)⁴", derived for wave χ on [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) (#11 §9; [row 3](/wiki/predictions/island-discriminant)). No document derives a knee for a condensate of X or relates it to wave χ.
 
 The stability entry, "m_X-protected", is likewise stated without an argument. No document computes a lifetime for the oscillation.
