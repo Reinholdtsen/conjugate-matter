@@ -189,7 +189,7 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — "dead as a program-native proposal"; "merely compatible"
-- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the v2.1 abstract and change note; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
+- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
 - `review/round3-adjudication.md` 'Verdict', 'Rulings' 1–13, 'Pre-registration scored', 'What survives v3', 'Decisions' 1–3 — the review record and the retirement
 - `review/round3-preregistration.md` 'Protocol (HANDOFF §6, round 3)', 'Predictions' — the referee's brief and the predicted outcome
 - `review/round3/referee/audit-notes.md` Step 5 — the referee's weakest links
