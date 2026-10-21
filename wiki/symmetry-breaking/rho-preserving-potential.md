@@ -156,7 +156,7 @@ The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–7
 
 ## Superseded: the rigid symplectic form as the source of the tilt
 
-The lab notebook (#1, v0.1) wrote τ's potential as V(τ) = V₀[1 + cos(τ/f)] and accounted for it in three parts:
+The lab notebook (#1, v0.1) wrote τ's potential as V(τ) = V₀[1 + cos(τ/f)] and explained it in three parts:
 
 > The potential's *periodicity* is forced by the Maslov topology **[D]**; its *existence* comes from the explicit breaking of Grassmannian rotations by the rigid ω (P2) — the rigidity is the "instanton" that tilts the circle. Its *magnitude* V₀ is a free parameter here. **[P/O]** (#1 §3)
 
