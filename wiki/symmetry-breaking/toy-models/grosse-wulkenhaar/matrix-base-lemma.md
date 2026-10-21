@@ -16,7 +16,7 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
 ---
 
-*The lemma states how the Langmann–Szabo duality acts on the matrix-base functions f_mn of [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar): it multiplies each one by (−1)^m, a sign fixed by its left index alone. The duality is a Fourier transform of the field, which exchanges its position profile with its momentum profile, and on this basis it reduces to parity, the reflection that leaves the even oscillator levels unchanged and reverses the sign of the odd ones, applied to the left index of the field's matrix. Because Grosse and Wulkenhaar alternate the sign of the Fourier exponent from one factor of the interaction to the next, parity acts on the left index of one factor and on the right index of the next. The result came from a direct numerical Fourier integration, which settled a clash between conventions recalled from memory. The round-4 referee confirmed it and judged it correct but not new, and the note's second version presents it as a lemma credited to the work it follows from. The rest of model II turns on it.*
+*The lemma states how the [Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory) acts on the matrix-base functions f_mn of [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar): it multiplies each one by (−1)^m, a sign fixed by its left index alone. The duality is a [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of the field, which exchanges its position profile with its momentum profile, and on this basis it reduces to parity, the reflection that leaves the even oscillator levels unchanged and reverses the sign of the odd ones, applied to the left index of the field's matrix. Because Grosse and Wulkenhaar alternate the sign of the Fourier exponent from one factor of the interaction to the next, parity acts on the left index of one factor and on the right index of the next. The result came from a direct numerical Fourier integration, which settled a clash between conventions recalled from memory. The round-4 referee confirmed it and judged it correct but not new, and the note's second version presents it as a lemma credited to the work it follows from. The rest of model II turns on it.*
 
 **Status:** Alive — [V]: `verify/toy_gw.py` checks "D f_mn = (-1)^m f_mn for all m, n < 4: the duality is left multiplication by parity" ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The referee of [review round 4](/wiki/method/review/round-4) confirmed it with exact integrals at θ = 1, 1/2 and 3 and called it "Correct, but not a new structural fact"; version 2 credits Grosse–Wulkenhaar, Royer and Langmann–Szabo.
 
@@ -29,7 +29,7 @@ D f_mn = (−1)^m f_mn        for m, n < 4, to ≲ 10⁻¹¹
 with the opposite sign of the exponent:   f_mn → (−1)^n f_mn
 ```
 
-The [toy-model note](/wiki/symmetry-breaking/toy-models), §3: "**Result:** D f_mn = (−1)^m f_mn for m, n < 4, to ≲ 10⁻¹¹. The opposite sign of the exponent gives (−1)^n." Here f_mn are the functions of [the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base) of the Moyal plane [x₁, x₂] = iθ, the Weyl symbols of the oscillator operators |m⟩⟨n|.
+The [toy-model note](/wiki/symmetry-breaking/toy-models), §3: "**Result:** D f_mn = (−1)^m f_mn for m, n < 4, to ≲ 10⁻¹¹. The opposite sign of the exponent gives (−1)^n." Here f_mn are the functions of [the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base) of the [Moyal plane](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory#the-moyal-plane) [x₁, x₂] = iθ, the [Weyl symbols](/wiki/phase-space/reciprocity/wigner-function) of the oscillator operators |m⟩⟨n|.
 
 ## The map
 
@@ -37,7 +37,7 @@ The note takes the duality from Grosse and Wulkenhaar: "With the two-dimensional
 
 In `verify/toy_gw.py`, with θ the antisymmetric matrix whose off-diagonal entry is θ₁₂ = θ = 1 (the code's comment: "xtilde = 2 theta^-1 x, theta_12 = theta"), the dual coordinate is x̃ = (−2x₂, 2x₁). The exponent is then −2i(x₁y₂ − x₂y₁): the kernel is built from the [symplectic product](/wiki/phase-space/reciprocity/symplectic-form) of the two points, x₁y₂ − x₂y₁, rather than from the ordinary dot product.
 
-The normalization is fixed by an anchor: D leaves the Gaussian f₀₀, the oscillator ground state, unchanged. The gate prints the check as "anchor: D f_00 = f_00 (the normalization pi sqrt|det theta|)".
+The normalization is fixed by an [anchor](/wiki/method/verification/independent-anchors): D leaves the Gaussian f₀₀, the oscillator ground state, unchanged. The gate prints the check as "anchor: D f_00 = f_00 (the normalization pi sqrt|det theta|)".
 
 ## Precision
 

@@ -24,13 +24,13 @@ sources:
   - "notes/toy-lagrangian.md 'Write-up and review'"
 ---
 
-*Quantum restoration is the result that the classical breaking found in the complex [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) does not survive quantization. The vacua form a circle labelled by the relative phase β of two condensed oscillator levels, and an exact symmetry turns the circle at no cost in action, so the quantum theory weights every value of β equally. A spontaneous choice can still survive in a system large enough that a vanishingly small bias, acting over its whole volume, pins it. This condensate occupies two oscillator levels and is a localized lump, so it supplies no such volume factor. The quantum average of the polarization is therefore zero, and criterion S4, survival of the breaking under quantum fluctuations, fails for this route. Round 4 confirmed the conclusion, asked for the argument to be restated on these two grounds, and added that the bare mass must be renormalized as the truncation grows. The comparison with an exactly solved related model, the natural independent check, has not been made.*
+*Quantum restoration is the result that the classical breaking found in the complex [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) does not survive quantization. The vacua form a circle labelled by the relative phase β of two condensed oscillator levels, and an exact symmetry turns the circle at no cost in action, so the quantum theory weights every value of β equally. A spontaneous choice can still survive in a system large enough that a vanishingly small bias, acting over its whole volume, pins it. This condensate occupies two oscillator levels and is a localized lump, so it supplies no such volume factor. The quantum average of the polarization is therefore zero, and criterion S4, survival of the breaking under quantum fluctuations ([success criteria](/wiki/symmetry-breaking/toy-models/success-criteria)), fails for this route. Round 4 confirmed the conclusion, asked for the argument to be restated on these two grounds, and added that the bare mass must be renormalized as the truncation grows. The comparison with an exactly solved related model, the natural independent check, has not been made.*
 
 **Status:** Alive, a negative result — tagged [D] in the worklog ("S4 fails, by an exact argument [D]"). Its premise, the exact phase symmetry, is gated in `verify/toy_gw.py`, as is the logarithmic tadpole ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The referee of [review round 4](/wiki/method/review/round-4) confirmed the conclusion "in substance" and found the phase decoupling "stronger than stated"; version 2 restates the argument. One step is "argued against, not proven", and the exact-solution comparison is open.
 
 ## The claim
 
-The toy-model note, version 2 (§4):
+The [toy-model note](/wiki/symmetry-breaking/toy-models), version 2 (§4):
 
 > **Model II, complex fields: restoration.**
 > - Every condensate phase is an exact flat direction, by the U(1)^N × U(1)^N symmetry.
@@ -47,7 +47,7 @@ Flatness here is exact, not an accident of the classical action. A symmetry of t
 
 ## Step 2: no volume factor
 
-That the average vanishes at any finite truncation is not yet an argument against breaking. In any finite system with a symmetry, the exact quantum average of an order parameter that the symmetry reverses is zero [T]. [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) is defined by an order of limits [T]: add a small field h that favours one vacuum, take the size of the system to infinity, and only then remove the field. In an extended order the field acts over the whole volume, its effect grows with the volume, and the chosen vacuum survives as h → 0. The referee stated the operative point in these terms:
+That the average vanishes at any finite truncation is not yet an argument against breaking. In any finite system with a symmetry, the exact quantum average of an [order parameter](/wiki/symmetry-breaking/order-parameter) that the symmetry reverses is zero [T]. [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) is defined by an order of limits [T]: add a small field h that favours one vacuum, take the size of the system to infinity, and only then remove the field. In an extended order the field acts over the whole volume, its effect grows with the volume, and the chosen vacuum survives as h → 0. The referee stated the operative point in these terms:
 
 ```text
 β is one compact collective coordinate with an action of order one (no volume factor), so
@@ -112,7 +112,7 @@ Model II was tried first because its own vacuum might select position or momentu
 
 "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Ref. [8] is Langmann, Szabo and Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces" (hep-th/0308043). The round-4 referee found it as omitted prior work: an "exact solution of the complex model at a special self-dual point (U(infty) degeneracies)", "Directly relevant to Sec. 4 restoration claim" (audit notes, Step 1). Revision 4 asked for the comparison; version 2 cites the paper and reports the comparison as not done. The item is tracked with the other open ends at [open problems](/wiki/status/open-problems).
 
-## Superseded: "increasing the truncation adds only massive levels"
+## Superseded: "Increasing the truncation adds only massive levels"
 
 **The earlier statement.** The first version of the note (§4): "Increasing the truncation adds only massive levels" (quoted in round-4 finding F6). The worklog's form: "Raising N adds only massive levels; the condensate does not grow." ('Chunk 3 results').
 
