@@ -17,7 +17,7 @@ sources:
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
-*The turnaround is a far-future event the program predicts: our universe stops expanding and begins to contract, which happens if the potential energy of the dark-energy field τ becomes negative. Because our scale factor and that of the conjugate universe are reciprocals, the moment our universe is largest is the moment its momentum-space description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum size and rebounding. The program states this as one event with two descriptions, not as two linked events. It is a long-horizon prediction whose near-term proxy is the dark-energy drift that survey data are testing now, and whether τ's potential, as the documents write it, can become negative at all is an unresolved conflict in the sources.*
+*The turnaround is a far-future event the program predicts: our universe stops expanding and begins to contract, which happens if the potential energy of the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) becomes negative. Because our scale factor and that of the [conjugate universe](/wiki/program/conjugate-universe) are reciprocals ([the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)), the moment our universe is largest is the moment its momentum-space description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum size and rebounding. The program states this as one event with two descriptions, not as two linked events. It is a long-horizon prediction whose near-term proxy is the [dark-energy drift](/wiki/predictions/dark-energy-drift) that survey data are testing now, and whether τ's potential, as the documents write it, can become negative at all is an unresolved conflict in the sources.*
 
 **Status:** Alive, long horizon — [D] for the bounce identity, [T] for the cited fits (#1 §7 item 3; #11 §10) — it follows from [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) by identity and is not machine-checked; tested only in the long run ([row 5](/wiki/predictions/fate-of-expansion)). Its premise, a negative V(τ), conflicts with the potential as written, and no document resolves the conflict ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
 
@@ -25,9 +25,9 @@ sources:
 
 #11 §10: "The turnaround is the conjugate bounce by constraint identity."
 
-The handoff gives the chain in one line: "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)" (`HANDOFF.md` §2).
+The [handoff](/wiki/history/documents/handoff) gives the chain in one line: "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)" (`HANDOFF.md` §2).
 
-The lab notebook's version, with its [D] tag (#1 §7 item 3): the same event, "read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, [two descriptions] — now as a constraint identity rather than a metaphor." (The notebook writes "two ledgers"; the brackets give the wiki's wording.)
+The [lab notebook](/wiki/history/documents/lab-notebook)'s version, with its [D] tag (#1 §7 item 3): the same event, "read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, [two descriptions] — now as a constraint identity rather than a metaphor." (The notebook writes "two ledgers"; the brackets give the wiki's wording.)
 
 ## How a turnaround happens [T]
 
@@ -44,7 +44,7 @@ The [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-
 - **Our maximum is their minimum.** ã is smallest exactly when a is largest.
 - **Our contraction is their re-expansion.** Before the turnaround a grows and ã shrinks: the conjugate description contracts. After it, a shrinks and ã grows: the conjugate description expands again. Read in momentum variables, the turnaround is a contracting universe reaching a minimum size and rebounding, which is a bounce.
 
-This is why #11 calls it an identity: the bounce is not a second event caused by the first, but the same event in the other description, in the way that a pulse whose duration first grows and then shrinks has its narrowest spectrum at the moment of its longest duration. The popular article #12 puts it the same way: "The eventual reversal, likewise, is one event with two readings: in the position description, an expanding universe turning around; in the momentum description, a contracting one reaching minimum and rebounding." The [conjugate universe](/wiki/program/conjugate-universe) page sets out the two-description reading in general.
+This is why #11 calls it an identity: the bounce is not a second event caused by the first, but the same event in the other description, in the way that a pulse whose duration first grows and then shrinks has its narrowest spectrum at the moment of its longest duration. The [popular article](/wiki/history/documents/popular-articles) #12 puts it the same way: "The eventual reversal, likewise, is one event with two readings: in the position description, an expanding universe turning around; in the momentum description, a contracting one reaching minimum and rebounding." The [conjugate universe](/wiki/program/conjugate-universe) page sets out the two-description reading in general.
 
 What the identity does not supply is the turnaround itself. That depends on the sign of τ's potential.
 
@@ -67,7 +67,7 @@ No document reconciles the two statements. The register of [conflicts between so
 
 ## The supporting fits [T]
 
-#11 §10 cites "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook quotes a figure from the first of these: quintessence fits to the 2025 data of the Dark Energy Spectroscopic Instrument (DESI) "with a potential possessing a negative minimum find a **93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse**" (Gialamas, Hütsi, Raidal, Urrutia, Vasar, Veermäe 2025, arXiv:2506.21542; #11's ref [19][S], "Quintessence and phantoms in light of DESI 2025").
+#11 §10 cites "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook quotes a figure from the first of these: quintessence fits to the 2025 data of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI) "with a potential possessing a negative minimum find a **93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse**" (Gialamas, Hütsi, Raidal, Urrutia, Vasar, Veermäe 2025, arXiv:2506.21542; #11's ref [19][S], "Quintessence and phantoms in light of DESI 2025").
 
 Three cautions go with the figure:
 

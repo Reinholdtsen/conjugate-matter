@@ -18,9 +18,9 @@ sources:
   - "notes/broken-born-program-v1.md §8"
 ---
 
-*The duality dictionary is the rule that translates energy in the conjugate, momentum-space description of the universe into the form in which it acts on our own expansion. Each kind of energy is labelled by its equation of state w, the ratio of its pressure to its energy density, and the rule is that conjugate-side energy with equation of state w̃ acts on us like energy with w = −w̃. Pure kinetic energy on the conjugate side therefore acts here like a cosmological constant, a conjugate cosmological constant acts like the stiffest possible fluid, and dust acts like dust. The rule is derived [D] from the cosmological constraint a·ã = 1, and it replaced an earlier heuristic that gave a different answer, a correction that #11 counts as one of the two that sharpened the program's hard core.*
+*The duality dictionary is the rule that translates energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) into the form in which it acts on our own expansion. Each kind of energy is labelled by its equation of state w, the ratio of its pressure to its energy density, and the rule is that conjugate-side energy with equation of state w̃ acts on us like energy with w = −w̃. Pure kinetic energy on the conjugate side therefore acts here like a cosmological constant, a conjugate cosmological constant acts like the stiffest possible fluid, and dust acts like dust. The rule is derived [D] from [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint), and it replaced an earlier heuristic that gave a different answer, a correction that #11 counts as one of the two that sharpened the program's [hard core](/wiki/program/hard-core).*
 
-**Status:** Alive — [D — corrected en route] (#11 §10) — derived in the lab notebook (#1 §6); no `verify/` script checks it. The earlier rule w_eff = −2 − w̃ is superseded (below).
+**Status:** Alive — [D — corrected en route] (#11 §10) — derived in the [lab notebook](/wiki/history/documents/lab-notebook) (#1 §6); no `verify/` script checks it. The earlier rule w_eff = −2 − w̃ is superseded (below).
 
 ## Statement
 
@@ -99,7 +99,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 ## Its place in the program
 
-- **A forced correction.** #11 §15: the hard core is "twice sharpened by forced corrections (P2′; the w-dictionary)". See [the hard core](/wiki/program/hard-core) and [assessment](/wiki/program/assessment).
+- **A forced correction.** #11 §15: the hard core is "twice sharpened by forced corrections (P2′; the w-dictionary)", the other correction being [P2′](/wiki/program/postulates/p2-prime). See [the hard core](/wiki/program/hard-core) and [assessment](/wiki/program/assessment).
 - **Synchronized, not causal.** Founding supposition 8, "Synchronized, not causal; Fourier/holography", is "**alive** (the dictionary)" (#11 App. A item 8). Because ã = 1/a holds at every moment, the dictionary is a translation between two descriptions of one state, not a force one universe exerts on the other. See [the conjugate universe](/wiki/program/conjugate-universe) and [founding suppositions and their fates](/wiki/program/founding-suppositions).
 - **A motivation for dark energy.** From the first row of the table the notebook concludes that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6). The program then identifies dark energy with the potential energy of the field τ ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)), and no document derives one from the other: [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link).
 
