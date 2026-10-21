@@ -51,7 +51,7 @@ The claim is that each structural test that could have killed the program's geom
 
 - The Debt-1 note that first made the point counted three: "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration" (`notes/debt1a-iii-tuning-test.md` §5).
 - The v1 assessment named four: "no-go → Higgs → HR class → palindrome" (#9 §11), HR being Hassan–Rosen.
-- #11's technical abstract lists "a chain of structural results (a compatibility theorem [T][V]; the multi-graviton no-go [8†]; a signature obstruction; an explicit tuning test [V])" that forces the momentum graviton X to be a massive spin-2 field (#11 §1).
+- #11's technical abstract lists a chain of structural results, "a compatibility theorem [T][V]; the multi-graviton no-go [8†]; a signature obstruction; an explicit tuning test [V]", that forces the momentum graviton X to be a massive spin-2 field (#11 §1).
 
 The count of four is #11's, as in `HANDOFF.md` §1, and #11 governs. The steps of the v1 chain, as #11 §7 records them:
 

@@ -21,11 +21,11 @@ sources:
 
 *The founding suppositions are the eleven ideas P.R. brought to the program at its start. Appendix A of the checkpoint (#11) lists each with the fate the later work gave it. One became the program's hard core. Others survived in changed form: the conjugate universe became a second description of one state, conjugate matter became a dark-matter candidate that clusters in space like any other, and the idea that momentum space has its own gravity became a heavy, hidden field. One was promoted to a theorem, one split into a dead half and a living half, one turned out to be established physics, and two died, including the founding image of dark matter clumping in velocity rather than in space. The audit is the record of which parts of the starting picture the calculations kept.*
 
-**Status:** Record — untagged. The audit is #11 Appendix A, added in v2.0 (`HANDOFF.md` §3 row 11), and each fate was decided in the part of #11 cited beside it. P.R. is Paul, who supplies the program's conjectures and direction ([the collaboration](/wiki/method/collaboration)).
+**Status:** Record — untagged. The audit is #11 Appendix A, added in v2.0 (`HANDOFF.md` §3 row 11); the fates were decided in the body of #11, whose sections the appendix cites for some of the items. P.R. is Paul, who supplies the program's conjectures and direction ([the collaboration](/wiki/method/collaboration)).
 
 ## The audit
 
-#11 Appendix A is headed "Audit of founding suppositions (P.R., with fates)". It lists eleven one-line suppositions, each followed by a verdict in bold and, for most, the section of #11 where the verdict was reached. The suppositions are P.R.'s; the derivations that decided their fates are the program's, under the attribution "conjecture and direction, P.R.; derivations, counterexamples, verification, drafting, Claude (Anthropic)". The handoff lists the appendix among the checkpoint's additions in v2.0: "Appendix A supposition audit (11 items with fates)" (`HANDOFF.md` §3 row 11).
+#11 Appendix A is headed "Audit of founding suppositions (P.R., with fates)". It lists eleven one-line suppositions, each followed by a verdict in bold and, for some, the section of #11 where the verdict was reached; this page gives the section for each. The suppositions are P.R.'s; the derivations that decided their fates are the program's, under the attribution "conjecture and direction, P.R.; derivations, counterexamples, verification, drafting, Claude (Anthropic)". The handoff lists the appendix among the checkpoint's additions in v2.0: "Appendix A supposition audit (11 items with fates)" (`HANDOFF.md` §3 row 11).
 
 The fates use a small vocabulary. "Alive" with a qualifier (transformed, modified, corrected) means the idea survives in an altered form; "promoted to theorem" and "vindicated" mean a derivation turned it into a result; "split" means one part died and another survived; "dead" means a calculation or the data killed it, and the program's rule is that dead claims stay dead ([negative results and dead claims](/wiki/method/negative-results)).
 
@@ -90,16 +90,16 @@ The correction is to read the two events as one: through a·ã = 1, our turnarou
 
 ### 8. Synchronized, not causal; Fourier/holography
 
-The two descriptions relate as a signal and its spectrum, not as cause and effect. The working content is the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), the derived rule w_eff = −w̃ for how energy on the momentum side acts on our expansion [D — corrected en route] (#11 §10). The holographic half is "loosened": it survives only in the fact that the dark-energy field τ lives on a boundary, the Shilov boundary of the Siegel domain (#11 §6; [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)).
+The two descriptions relate as a signal and its spectrum, not as cause and effect. The working content is the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), the derived rule w_eff = −w̃ for how energy on the momentum side acts on our expansion [D — corrected en route] (#11 §10). The holographic half is "loosened" and survives as an echo: the dark-energy field τ lives on a boundary, the Shilov boundary of the Siegel domain (#11 §6; [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)).
 
 ### 9. Their collapse is our acceleration
 
 The supposition had the conjugate universe's collapse drive our accelerating expansion. It died twice (`HANDOFF.md` §2: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)"):
 
 - **First, by data.** With the early heuristic translation rule, collapsing conjugate matter acted on our expansion as a fluid with w = −2, a value the data exclude.
-- **Second, by the mathematics.** With the derived dictionary, dust on the momentum side acts on our expansion as dust: "dust maps to dust — the w=−2 pathology is gone because it was an artifact" (#1 §6). There is no acceleration left to explain.
+- **Second, by the mathematics.** With the derived dictionary, dust on the momentum side acts on our expansion as dust: "dust maps to dust — the w=−2 pathology is gone because it was an artifact" (#1 §6), so collapsing conjugate matter decelerates our expansion rather than accelerating it.
 
-The popular article #10 says the data "already executed two of the founding ideas". The audit's record is more specific: this second death was partly mathematical, since the corrected dictionary, not a measurement, removed the mechanism ([Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
+The popular article #10 says the data "already executed two of the founding ideas". The audit's record is more specific about this supposition: one of its two deaths was mathematical, since the corrected dictionary, not a measurement, removed the mechanism ([Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 
 ### 10. Momentum space has its own gravity
 
