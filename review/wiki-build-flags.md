@@ -50,3 +50,7 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
       SO(2)-covariant.
     - The round-4 referee's audit notes use "boost" for two different families (the squeezes
       diag(a, 1/a) and the hyperbolic boosts).
+11. **Tadpole growth in model II: ln N or 2 ln N.** The toy note v2 §4 says the level-0
+    tadpole grows as "ln N" (a harmonic sum); the round-4 referee and the adjudication (F6,
+    revision 4) say 2 ln N; `verify/toy_gw.py` checks only one harmonic series. Recorded as
+    unresolved in the inventories' conflict list (C29).
