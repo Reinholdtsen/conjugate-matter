@@ -78,7 +78,7 @@ The idea that choosing a polarization breaks Born's symmetry is not the program'
 
 ### In 1+1 dimensions the angle cannot order by itself
 
-The [Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman) forbids the spontaneous breaking of a continuous compact symmetry in two dimensions [T]. The toy note applies it to the polarization angle: "In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ" (toy note §4). Its references are Mermin and Wagner (1966) and Coleman (1973). The rest of model I is different: "The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur [15]. Whether ρ's SO(2) stays unbroken in the full coupled model is open" (toy note §4).
+The [Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman) rules out the spontaneous breaking of a continuous compact symmetry in two dimensions [T]. The toy note applies it to the polarization angle: "In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ" (toy note §4). Its references are Mermin and Wagner (1966) and Coleman (1973). The rest of model I is different: "The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur [15]. Whether ρ's SO(2) stays unbroken in the full coupled model is open" (toy note §4).
 
 ### With a ρ-preserving potential: an ordered ℤ₂ phase
 

@@ -101,7 +101,7 @@ The third structure did not last. The notebook's [original P2](/wiki/program/pos
 
 ## How the other postulates use the arena
 
-- [P2′](/wiki/program/postulates/p2-prime) decides which of P1's structures is rigid: ω only.
+- [P2′](/wiki/program/postulates/p2-prime) states which of P1's structures is rigid: ω only.
 - [P3](/wiki/program/postulates/p3-reciprocity) takes its symmetry from I = ω⁻¹H.
 - [P4](/wiki/program/postulates/p4-polarized-matter) couples both kinds of matter universally to H.
 - [P5](/wiki/program/postulates/p5-spontaneous-selection) has the vacuum select a polarization of this phase space: a choice of Lagrangian subspace for ω ([Lagrangian polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations)).

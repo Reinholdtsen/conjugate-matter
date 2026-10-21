@@ -64,7 +64,7 @@ The Debt-1 note gives the repair in one sentence: "the fundamental pair is (ω, 
 
 1. The fundamental structures are ω, which is rigid, and the generalized metric H, which is dynamical.
 2. From them comes the complex structure I = ω⁻¹H, with I² = −1, a quarter-turn of phase space.
-3. The vacuum picks a real structure J: a linear map with J² = 1 (an involution [T]) that anticommutes with I.
+3. The vacuum selects a real structure J: a linear map with J² = 1 (an involution [T]) that anticommutes with I.
 4. The neutral metric is then defined from the vacuum's choice, η ≡ HJ.
 
 So η is no longer an input. It is built from the dynamical H and the vacuum's J, and it differs from one vacuum to another.
