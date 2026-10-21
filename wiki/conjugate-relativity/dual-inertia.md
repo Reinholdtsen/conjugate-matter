@@ -69,7 +69,7 @@ The register of conjectures lists the dual second law among the conjecture-tier 
 
 ## What follows
 
-The dual principle of relativity, the equivalence of all dual-inertial frames, is then a statement about freely falling frames. #13 §5 records it as the equivalence principle reached from kinematics [D — structural] ([the equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle)).
+The dual principle of relativity, in #13's words the "equivalence of all force-free frames", is then a statement about freely falling frames. #13 §5 records it as the equivalence principle reached from kinematics [D — structural] ([the equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle)).
 
 ## The popular version
 

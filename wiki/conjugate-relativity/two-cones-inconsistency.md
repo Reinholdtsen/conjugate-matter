@@ -61,13 +61,13 @@ Some approaches to quantum gravity allow the speed of light to depend on its ene
 
 ### Which quanta are dual-null
 
-Under the §1 cone, the worklog's item O3 notes, "a λ = 0 quantum would sit on the dual null cone with |dp/dt| = c̃", λ being the invariant length that #13 §4 assigns to conjugate quanta ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). Under the four-dimensional map, "anything on our light cone is automatically dual-null". A massless quantum and a quantum of zero invariant length are therefore candidates for dual-null in the two readings, and the worklog assigns the resulting question to the dual dynamics:
+The worklog's item O3 notes that "a λ = 0 quantum would sit on the dual null cone with |dp/dt| = c̃", which is the null condition of the §1 cone; λ is the invariant length that #13 §4 assigns to conjugate quanta ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). Under the four-dimensional map, "anything on our light cone is automatically dual-null", massless quanta included. The two readings thus make different quanta dual-null, and the worklog assigns the resulting question to the dual dynamics:
 
 > Whether the dark photon is m = 0, λ = 0, or both is part of #13's open "dual dynamics" item.
 
 ### The rest of #13
 
-#13's other kinematics use the shared time of §1: the force boosts of §2, the dual proper time of §3 ([force dilation](/wiki/conjugate-relativity/force-dilation)) and the dual-inertial condition dp/dt = 0 of §5 ([dual inertia](/wiki/conjugate-relativity/dual-inertia)). §6's plain-language passage describes that choice as "the tidiest version of this construction treats space and momentum as partners while leaving time alone". The invariant-length shell of §4 is written with four-vectors, and #13 does not say which construction it belongs to ([the invariant-length shell: what #13 leaves unspecified](/wiki/conjugate-relativity/invariant-length-shell#what-13-leaves-unspecified)). The worklog does not discuss §4 under this item.
+#13's other kinematics use the shared time of §1: the force boosts of §2, the dual proper time of §3 ([force dilation](/wiki/conjugate-relativity/force-dilation)) and the dual-inertial condition dp/dt = 0 of §5 ([dual inertia](/wiki/conjugate-relativity/dual-inertia)). §6's plain-language passage describes that choice as "the tidiest version of this construction treats space and momentum as partners while leaving time alone". The invariant-length shell of §4 is written with four-vectors, and #13 does not say which construction it belongs to ([the invariant-length shell: what #13 leaves unspecified](/wiki/conjugate-relativity/invariant-length-shell#what-13-leaves-unspecified)). The worklog cites §4 only for its labelling of conjugate quanta by a length.
 
 ## How it was found
 
