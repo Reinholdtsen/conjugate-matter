@@ -1,0 +1,31 @@
+---
+title: "The momentum graviton X"
+weight: 20
+status: hub
+description: "X = Re Z, a reciprocity-odd symmetric tensor that symmetry forces to be a second graviton and consistency forces to be massive: the chain of results, its spectrum and safety, what is open, and Born's answer."
+bookCollapseSection: true
+---
+
+*The momentum graviton X is the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY: a symmetric tensor field that sits beside the spacetime metric g = Im Z and describes the local wobble of the split between position and momentum. In this program it is the dynamical geometry of momentum space. Its symmetries make it a second graviton, a theorem excludes a second interacting massless graviton, and so it must be massive; it acquires its mass when the vacuum selects a polarization. Ordinary matter feels it only at gravitational strength and over a short range, which the program gives as the reason it has not been seen.*
+
+**Stands:** [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) · [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) · [the symplectic partner](/wiki/gravity/momentum-graviton/symplectic-partner) · [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) · [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) · [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) · [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) · [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety) · [Born's answer](/wiki/gravity/momentum-graviton/borns-answer) · **Died:** nothing yet · **Open:** [τ–Stückelberg mixing](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) · [stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)
+
+## Map
+
+Every page in this section is the program's own material, not established physics: the results of what the program calls Debt 1, most of them derived in the calc notes `notes/debt1a-ii-X-classification.md` and `notes/debt1a-iv-beta-coefficients.md` and restated in [checkpoint #11](/wiki/history/documents/checkpoint) §7. The established spin-2 physics they rely on, from general relativity to Hassan–Rosen bimetric gravity, is in [Spin-2 fields](/wiki/gravity/spin-2-fields). The pages follow the chain of #11 §7.1 and then its consequences.
+
+The chain comes first. [Shift symmetry: X is never auxiliary](/wiki/gravity/momentum-graviton/shift-symmetry) fixes what kind of field X can be: constant shifts of X are exact symmetries, so geometry gives it no potential and it either propagates or does not exist. [Dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) is the local version of the same shifts, which makes X a second graviton because it is symmetric. [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) sets this beside double field theory, whose partner field is a harmless 2-form; #11 §15 lists it as the observation that stands whatever happens to the program. [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) assembles the chain: the multi-graviton no-go and the signature obstruction close the massless and the ungauged options, leaving mass. It also records the earlier healthy, auxiliary or ghost question that the chain answered.
+
+The mass comes next. [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) says where it comes from: the polarization choice breaks the dual diffeomorphisms, and X absorbs the would-be Goldstone modes. [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) shows that the dark-energy field survives this mechanism as the light field, at leading order. [Open: τ–Stückelberg mixing](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) is the residual mixing between τ and the absorbed modes, which has not been computed (item 6 of #11 §14).
+
+The consequences follow. [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) counts what reciprocity leaves of the potential (five coefficients reduce to two) and sorts the two spin-2 fields: the ordinary graviton is reciprocity-even and exactly massless, X is odd and massive. [Safety by range: X and ordinary matter](/wiki/gravity/momentum-graviton/fifth-force-safety) explains why ordinary matter shows no sign of X: it feels X at gravitational strength, but only within the range 1/M_X. [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) is the cosmological-stability question that equal Planck masses leave open; it was raised in the review of the withdrawn soliton manuscript and is not among #11 §14's items.
+
+Two pages close the section. [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results) records conjectures from the original chat that no document derives; their status is conjecture, not a result. [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) is the program's summary of what the whole chain says about Born's 1938 question.
+
+## Boundaries
+
+- Whether the potential that gives X its mass is ghost-free is [The tuning test](/wiki/gravity/tuning-test); what reciprocity then does to that potential is [The palindromic branch](/wiki/gravity/palindromic-branch).
+- X's identification as Re Z inside the modular field, and reciprocity as Z → −Z⁻¹, are in [The modular field](/wiki/phase-space/modular-field). The caveat that the whole chain is proven for positive-definite rather than Lorentzian signature is [Open: Lorentzian dressing of the Euclidean skeleton](/wiki/phase-space/born-geometry/lorentzian-dressing).
+- The established theory of massless and massive spin-2 fields is [Spin-2 fields](/wiki/gravity/spin-2-fields).
+- X as a dark-matter candidate is [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate); the velocity gate that X exchange produces between conjugate particles is in [Conjugate matter and the velocity gate](/wiki/dark-matter/conjugate-matter).
+- The history of Debt 1 is in [The three debts](/wiki/history/debts).

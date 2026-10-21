@@ -1,0 +1,29 @@
+---
+title: "Spontaneous breaking of reciprocity"
+weight: 30
+status: hub
+description: "Why reciprocity must break, what plays the order parameter, why the polarization is a Goldstone angle that needs a potential, how matter is made local, and the toy models that realize the breaking."
+bookCollapseSection: true
+---
+
+*Spontaneous symmetry breaking is the situation in which the laws of a system have a symmetry that its lowest-energy state lacks: the laws governing a magnet treat all directions alike, yet a cooled magnet is magnetized along one of them. The Broken-Born program proposes that Born reciprocity, the exchange of position and momentum under which quantum kinematics is exactly symmetric, is broken in this way, so that the vacuum, not the laws, fixes which variable acts as position. This section holds the textbook theory of such breaking, the program's account of the mechanism, and the two toy field theories built to show the mechanism working.*
+
+**Stands:** [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking), [the order parameter](/wiki/symmetry-breaking/order-parameter), [the Goldstone angle](/wiki/symmetry-breaking/goldstone-angle), [the twisted element](/wiki/symmetry-breaking/twisted-element), [the section condition](/wiki/symmetry-breaking/section-condition), [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling), [acceptance criterion 1, met in the referees' wording](/wiki/symmetry-breaking/toy-models/acceptance-criterion) · **Died:** [the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) · **Open:** [the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), [forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality), [ρ's SO(2) in the coupled model](/wiki/symmetry-breaking/toy-models/coset-model/so2-question), [the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead)
+
+## Map
+
+The section opens with three pages of established physics, which the program's claims rely on. [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) defines the pattern itself: a symmetric law with an asymmetric ground state, its order parameter and vacuum manifold, and the difference between spontaneous and explicit breaking. [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs) covers the massless modes that a broken continuous symmetry leaves behind, and how a gauge field absorbs them and becomes massive; the program meets the first in its polarization angle and the second in the mass of its momentum graviton. [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman) states which symmetries can break in two dimensions, the limit that decided how the toy models were built.
+
+The program's own claims follow in the order of its argument. [Mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking) is the uncertainty-principle argument that some polarization must be selected in any world with local physics. [The order parameter](/wiki/symmetry-breaking/order-parameter) names the quantity that carries the selection, the neutral metric η, written in terms of J, η or K in different documents. [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) records the v2.2 finding from the toy models that the selection is a continuous angle rather than a discrete choice, and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) asks where the potential that pins that angle comes from.
+
+[The twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) shows that the breaking has no physical effect until matter can tell K from −K, which leads to the three pages on matter. [The section condition](/wiki/symmetry-breaking/section-condition) confines matter to one of the two lines that η singles out, without saying which. [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) makes matter local in the selected line, the weak form of the locality criterion. [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) records that nothing yet forces matter to couple that way.
+
+Last, [Toy models of broken reciprocity](/wiki/symmetry-breaking/toy-models) holds the two explicit field theories behind these results: [model I, a coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model), and [model II, the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), with the criteria fixed before they were built. The pages above draw the general lessons; the toy-model section holds the calculations.
+
+## Boundaries
+
+- The structures being broken (the symplectic form ω, the neutral metric η, the generalized metric H, the Lagrangian Grassmannian Λ(d)) are defined in [Phase-space geometry](/wiki/phase-space), with ρ itself at [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) and the earlier, kinematical reading of the breaking at [Broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
+- P2′ and P5 as axioms are in [Postulates P1–P5](/wiki/program/postulates); this section holds the mechanism they posit.
+- τ's cosmology, its potential and its comparison with data, is in [Dark energy](/wiki/cosmology/dark-energy).
+- The gravitational Higgs mechanism that makes the momentum graviton massive is in [The momentum graviton X](/wiki/gravity/momentum-graviton); this section holds only the general mechanism.
+- The blind review that graded the toy-model note is [Review round 4](/wiki/method/review/round-4), and the scripts that check it are described at [The toy-model scripts](/wiki/method/verification/toy-model-scripts).
