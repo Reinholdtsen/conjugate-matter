@@ -109,3 +109,11 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     in #1 §6 (inventory conflict C21).
 26. **Minor: DESI DR3 as "three-year data" (HANDOFF §2).** DR2 (arXiv:2503.14738) already covers
     three years of operations (live-searched by the cosmo-de writer). The wiki quotes HANDOFF.
+27. **The dark-energy potential cannot turn negative as written (#11 §10, #9, #1 §7).** The
+    turnaround ("eventually goes negative", "turnaround after V(τ) < 0") needs V < 0, but the
+    stated potential V = V₀[1 + cos(τ/f)] has minimum 0 for V₀ > 0. #1 §7 says "a cosine
+    potential is negative over half its range", which is true of V₀cos(τ/f) but not of
+    V₀[1 + cos(τ/f)]. Either the potential carries a negative offset not written down, or the
+    turnaround needs another mechanism. This bears on prediction row 5 (turnaround = conjugate
+    bounce) and on the dark-energy over-constraint (t_turn). Inventory conflict C20. Check:
+    `review/wiki-build-checks/v_sign_check.py`.

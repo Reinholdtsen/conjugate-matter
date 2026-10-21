@@ -1,0 +1,6 @@
+V0[1+cos]: min V/V0 = 0.0 at tau/f = 3.1415926535897927
+V0[1+cos]: fraction of period with V < 0 = 0.0
+V0 cos   : fraction of period with V < 0 = 0.49999750001249993
+sympy minimum of 1+cos t over reals: 0
+rho + p = td**2
+example rho<0 (td=1, V=-1): w = -3
