@@ -12,9 +12,9 @@ sources:
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*The dual superconductor is the leading picture of quark confinement, the observed fact that quarks are never found in isolation. In an ordinary superconductor a condensate of paired electrons expels magnetic field and squeezes whatever magnetic flux remains into thin tubes. In the dual picture, proposed by 't Hooft and Mandelstam, the vacuum of the strong interaction holds a condensate of magnetic monopoles, which squeezes the color-electric field between quarks into a string whose energy grows with its length, so that pulling two quarks apart never frees either of them. It is one of the three pieces of established physics that absorbed the program's founding supposition 11, a magnetic counterpart for every electric particle; the program adds no claim of its own here.*
+*The dual superconductor is the leading picture of quark confinement, the observed fact that quarks are never found in isolation. In an ordinary superconductor a condensate of paired electrons expels magnetic field and squeezes whatever magnetic flux remains into thin tubes. In the dual picture, proposed by 't Hooft and Mandelstam, the vacuum of the strong interaction holds a condensate of [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), which squeezes the color-electric field between quarks into a string whose energy grows with its length, so that pulling two quarks apart never frees either of them. It is one of the three pieces of established physics that absorbed the program's [founding supposition 11](/wiki/program/founding-suppositions), a magnetic counterpart for every electric particle; the program adds no claim of its own here.*
 
-**Status:** Established — [T] — the checkpoint tags the picture [T] and credits 't Hooft–Mandelstam†, a citation from model memory with no entry in its reference list, so it awaits [the † literature battery](/wiki/method/literature-battery). The explanations below are textbook physics [T], and the references they add are marked †. No program document computes anything about confinement.
+**Status:** Established — [T] — [the checkpoint](/wiki/history/documents/checkpoint) tags the picture [T] and credits 't Hooft–Mandelstam†, a citation from model memory with no entry in its reference list, so it awaits [the † literature battery](/wiki/method/literature-battery). The explanations below are textbook physics [T], and the references they add are marked †. No program document computes anything about confinement.
 
 ## What confinement is [T]
 
@@ -61,7 +61,7 @@ The program's own addition to the supposition is not about confinement. It is th
 
 [The popular article #12](/wiki/history/documents/popular-articles) calls the dual superconductor the mechanism "most widely credited" for confinement and draws a conclusion from it ('Dark matter as the other polarization'): "If that picture is correct, magnetic analogs of quarks are not hypothetical inhabitants of a hidden sector; their condensed form is at work inside every proton."
 
-The second sentence is conditional, and #12 is never a source for a claim's status. The same passage goes on to place the "free spectrum" of the magnetic family in the momentum-polarized sector, a claim found only in #12 and recorded as dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)). The handoff lists the "magnetic-quark/dual-superconductor section" among #12's contents (`HANDOFF.md` §3).
+The second sentence is conditional, and #12 is never a source for a claim's status. The same passage goes on to place the "free spectrum" of the magnetic family in the momentum-polarized sector, a claim found only in #12 and recorded as dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)). [The handoff](/wiki/history/documents/handoff) lists the "magnetic-quark/dual-superconductor section" among #12's contents (`HANDOFF.md` §3).
 
 ## Standard references
 

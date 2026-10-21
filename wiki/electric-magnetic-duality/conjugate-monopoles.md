@@ -22,13 +22,13 @@ sources:
   - "review/round3-adjudication.md 'Decisions' 2"
 ---
 
-*Conjugate monopoles are hypothetical magnetic monopoles, or other topological solitons, belonging to the program's momentum-polarized matter sector rather than to ours. The checkpoint keeps one statement about them: if they exist, they gravitate, because every kind of matter in the program couples to the same geometry, so their existence could not be without consequence. Their use as the dark matter itself, the superheavy soliton candidate, was retired on 2026-10-19 after its abundance arithmetic failed review. What remains is a statement about what such objects would do, not a claim that they exist.*
+*Conjugate monopoles are hypothetical [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), or other topological solitons, belonging to the program's momentum-polarized matter sector rather than to ours. [The checkpoint](/wiki/history/documents/checkpoint) keeps one statement about them: if they exist, they gravitate, because every kind of matter in the program couples to the same geometry, so their existence could not be without consequence. Their use as the dark matter itself, the superheavy [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), was retired on 2026-10-19 after its abundance arithmetic failed review. What remains is a statement about what such objects would do, not a claim that they exist.*
 
-**Status:** Alive — [D] — #11 §11.1 calls the ontology "alive and consequence-bearing". It is an argument from postulate P4, with no calculation or script behind it. The dark-matter candidacy it fed is retired (#11 §12).
+**Status:** Alive — [D] — #11 §11.1 calls the ontology "alive and consequence-bearing". It is an argument from postulate [P4](/wiki/program/postulates/p4-polarized-matter), with no calculation or script behind it. The dark-matter candidacy it fed is retired (#11 §12).
 
 ## The statement
 
-[#11](/wiki/history/documents/checkpoint) §11.1, "The monopole audit, revised [D]", after killing the explanatory half of founding supposition 5:
+[#11](/wiki/history/documents/checkpoint) §11.1, "The monopole audit, revised [D]", after killing the explanatory half of [founding supposition 5](/wiki/program/founding-suppositions):
 
 > As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; "true but irrelevant" is the empty set (a correction supplied by P.R.). Their candidacy as the dark matter itself is retired in v2.1 (§12).
 
@@ -38,7 +38,7 @@ The italic opening of §11 gives the same point in plain words: "if such objects
 
 A topological soliton is a particle-like configuration of fields that wraps the space of a theory's vacuum states and cannot be smoothly unwrapped, so it is stable without any conserved charge put in by hand [T]. A magnetic monopole of a gauge theory whose symmetry is broken to U(1) is the standard example ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)). "Conjugate-sector solitons" are such objects made of the p-polarized matter fields χ rather than of ours.
 
-The checkpoint does not specify the gauge structure of the p-polarized sector, so it does not say which solitons it has. The one concrete proposal was #14's hidden SU(2) broken to U(1), which is dead as a program claim ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). The ontology on this page is conditional: if the sector has such objects, the statement applies to them.
+The checkpoint does not specify the gauge structure of the p-polarized sector, so it does not say which solitons it has. The one concrete proposal was [#14](/wiki/dark-matter/candidates/soliton-candidate)'s hidden SU(2) broken to U(1), which is dead as a program claim ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). The ontology on this page is conditional: if the sector has such objects, the statement applies to them.
 
 ## Why they would gravitate
 
@@ -48,7 +48,7 @@ The argument is a single step from postulate P4 (#11 §4; [P4: polarized matter 
 
 H is the positive generalized metric on phase space (postulate P1). On the vacuum slice it has the form H = diag(g, g⁻¹), with g the spacetime metric ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem); #11 §5), so universal coupling to H includes coupling to the metric of ordinary gravity. #11 §8 says the same of the χ particles: "χ propagates on g (equivalence principle; Bullet-Cluster-safe)". An object built from p-polarized fields carries energy, and under P4 that energy sources the gravitational field and responds to it like any other.
 
-The last clause of P4 fixes what they would not do. Since v2.1, P4 is taken strictly: "no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S]" (#11 §4; round-3 Decision 1, [round-3 decisions](/wiki/method/review/round-3/decisions)). A conjugate monopole would carry no charge under our photon and would not interact with our matter through any gauge force. Gravity is the coupling the postulates guarantee.
+The last clause of P4 fixes what they would not do. Since v2.1, P4 is taken strictly: "no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S]" (#11 §4; round-3 Decision 1, [round-3 decisions](/wiki/method/review/round-3/decisions); [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)). A conjugate monopole would carry no charge under our photon and would not interact with our matter through any gauge force. Gravity is the coupling the postulates guarantee.
 
 ## "True but irrelevant" is empty
 
@@ -69,7 +69,7 @@ The ontology once had a specific candidate attached.
 - **Round 3** found the candidate's abundance misnormalized, and on 2026-10-19 it was retired as a program-native proposal (round-3 Decision 2; [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #11 §11.1 now reads: "Their candidacy as the dark matter itself is retired in v2.1 (§12)."
 - **What stands** is the root `CLAUDE.md`'s summary: "The framework is merely compatible with known PeV-scale topological dark matter (prior art)" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
 
-The handoff's coupling of the ontology to the candidate is resolved by precedence: the ontology is alive in #11 §11.1, and the candidacy is retired ([conflicts between sources](/wiki/history/documents/source-conflicts)). The two remaining dark-matter candidates are χ particles and a condensate of the momentum graviton (#11 §12).
+The handoff's coupling of the ontology to the candidate is resolved by precedence: the ontology is alive in #11 §11.1, and the candidacy is retired ([conflicts between sources](/wiki/history/documents/source-conflicts)). The two remaining dark-matter candidates are χ particles and a condensate of the [momentum graviton](/wiki/gravity/momentum-graviton) (#11 §12).
 
 ## The laboratory shadow [T]
 
