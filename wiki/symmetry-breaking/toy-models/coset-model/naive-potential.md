@@ -2,39 +2,137 @@
 title: "Obituary: the naive ρ-preserving potential"
 weight: 40
 status: dead
-description: "−μ[Tr(K K_ref)]² is unbounded below once H is dynamical (−8.9 × 10⁶ μ at boost parameter 4), so its intended vacuum is a saddle; round 4's findings F1–F2, kept as the counterexample."
+description: "−μ[Tr(K K_ref)]² pinned model I's polarization while H was frozen, but with H dynamical it falls to −8.9 × 10⁶ μ along a boost family and its intended vacuum is a saddle; round 4's findings F1–F2, kept as the counterexample."
 sources:
   - "papers/reciprocity-toy-models.md §4"
+  - "papers/reciprocity-toy-models.md v1 (commit d9a06ac) §4, §6"
+  - "review/round4-adjudication.md 'Verdict'"
   - "review/round4-adjudication.md 'Rulings' F1–F2"
+  - "review/round4-adjudication.md 'Pre-registration scored'"
   - "review/round4-adjudication.md 'Lessons'"
+  - "review/round4/adjudicator/arb.out"
   - "review/round4/referee/audit-notes.md Step 2(a)"
   - "review/round4/referee/audit-notes.md Step 2(c)"
   - "review/round4/referee/audit-notes.md Step 3"
+  - "review/round4/referee/audit-notes.md Step 4"
+  - "review/round4/referee/out_model1.txt"
+  - "review/round4/referee/out_sec4_extra.txt"
+  - "review/round4-preregistration.md 'Predictions'"
   - "verify/toy_coset.py"
   - "verify/toy_s4.py"
+  - "notes/toy-lagrangian.md 'Success criteria'"
+  - "notes/toy-lagrangian.md 'Predictions'"
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
+  - "notes/toy-lagrangian.md 'Assessment against the predictions'"
+  - "papers/broken-born-checkpoint-v2.md §10"
+  - "CLAUDE.md 'Method'"
 ---
 
-*The naive ρ-preserving potential was the term −μ[Tr(K K_ref)]², added to [model I](/wiki/symmetry-breaking/toy-models/coset-model) to reduce its continuous circle of vacua to two, so that the breaking of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) could survive in two dimensions. It is symmetric under ρ and gives two vacua when the metric H is held fixed, but once H is allowed to vary it is unbounded below: along a family of boosted configurations its energy falls without limit while the compatibility term stays zero, and the intended vacuum is a saddle. The worklog's first pass of criterion S4 rested on it. The round-4 referee found the defect, the adjudication upheld it, and the potential is kept only as the counterexample that the [bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) answers.*
+*The naive ρ-preserving potential was the term −μ[Tr(K K_ref)]², added to [model I](/wiki/symmetry-breaking/toy-models/coset-model) so that its circle of vacua would reduce to two and the breaking of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) could survive in two dimensions. It is symmetric under ρ and gives the two intended vacua while the metric H is held fixed. Once H is allowed to vary it is unbounded below: along a family of boosted configurations the compatibility term stays at zero while the potential falls without limit, and the intended vacuum is a saddle. The worklog's first pass of criterion S4 and the first version of the toy-model note rested on it. The round-4 referee found the defect, the adjudication upheld it, and the potential survives only as the counterexample that the [bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) answers.*
 
 **Status:** Dead as a stabilizing potential; kept as the counterexample — untagged in the sources — killed by round-4 findings F1 and F2, both upheld ([review round 4](/wiki/method/review/round-4)); the runaway and the saddle are checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Listed in [the graveyard](/wiki/status/graveyard).
 
-## Key facts
+## What was claimed
 
-- **What was claimed.** The worklog's fallback for criterion S4: "Discrete reduction by a τ-type potential −μ[Tr(K K_ref)]². It keeps ρ and leaves two vacua (±K_ref) exchanged by ρ, which is Ising-like, so the breaking survives in 1+1." At H = 1 it equals −2μ(1 + cos 2φ). Its cost was noted then: "a rigid, unordered pair of axes".
-- **How it was tested.** Only with H frozen at 1, in the lattice simulation of chunk 3. The adjudicator: "I should have caught F1 myself: I checked the potential only at frozen H."
-- **Why it failed: F1, unbounded below.** Along H = SᵀS, K = S⁻¹K₀S with S a boost, "the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4" (adjudication). The referee found V_μ = −4μ cosh²(2t) on this family: "Constant fields, so no kinetic cost."
-- **Why it failed: F2, a saddle.** "The point (1, K_ref) is a saddle (Hessian eigenvalue −6.47 at λ = μ = 1)" (version 2, in the coordinates of `verify/toy_coset.py`); the referee's coordinates give −3.3723, and the negative mode persists at λ = 10 and 100. The two values are coordinate-dependent and agree in sign. So the two vacua ±K_ref exist only with H frozen, and the simulation was "of the textbook XY + two-fold-field model with H frozen, not of model I" (referee).
-- **The residual symmetry.** With the potential added, the referee found (with sympy) that it leaves a non-compact subgroup diag(a, 1/a) of Sp(2, ℝ) unbroken, plus ℤ₄ = {±1, ±ρ} in SO(2): "in model I proper, the boost direction is where the potential runs away."
-- **What it brought down.** The worklog's S4 pass and its verdict on [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) used this potential. The docstring of `verify/toy_s4.py` still calls it "the tau-type potential", a wording lag only: the lattice energy −h cos 2φ equals the bounded form at H = 1 up to a constant and a factor. Round 4 turned the episode into a rule, now in the root `CLAUDE.md`: check the unreduced model's stability when numerics run on a reduced one ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability)).
-- **What survives.** The [bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), proposed by the referee and adopted in version 2, bounded by Cauchy–Schwarz and stable with H dynamical; and the [Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo), restated as a result about the [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction). #11 §10 now requires that the ρ-preserving potential "must be bounded with all fields dynamical". Where any such potential comes from is [open](/wiki/symmetry-breaking/rho-preserving-potential).
+### Why model I needed a potential
+
+Model I's vacua form a continuous family, and at H = 1 the polarization is an angle φ on a circle ([Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). Criterion S4 asks that the breaking survive quantum fluctuations, and the worklog knew the obstacle when it wrote the criterion: "In 1+1, a discrete symmetry can break (as in the 2D Ising model). A continuous compact one cannot (Coleman–Mermin–Wagner)" ('Success criteria'; [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)). It predicted: "S4 will pass only for a discrete reduction (the symmetry group cut down to the group generated by ρ) or via the non-amenability exception." ('Predictions').
+
+### The proposal
+
+The worklog's fallback for S4, recorded with the route decision of 2026-10-19 ('Chunk 1 results'):
+
+> Discrete reduction by a τ-type potential −μ[Tr(K K_ref)]². It keeps ρ and leaves two vacua (±K_ref) exchanged by ρ, which is Ising-like, so the breaking survives in 1+1.
+>
+> The cost: a rigid, unordered pair of axes. That is weaker than a rigid η, but it is still background structure. Checkpoint §10 already posits a cosine potential for τ.
+
+"τ-type" refers to that cosine: [checkpoint #11](/wiki/history/documents/checkpoint) §10 gives the dark-energy field τ the potential V = V₀[1 + cos(τ/f)] on its circle ([τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). K_ref is the fixed reference structure diag(1, −1), whose eigenlines are the x- and p-axes.
+
+At H = 1, on the circle K(φ), the potential is a cosine of twice the angle: "−μ[Tr(K K_ref)]² = −2μ(1 + cos 2φ)" (worklog, 'Chunk 3 results'; the referee confirmed it with sympy, "(difference 0)", `review/round4/referee/out_model1.txt`). It is lowest at φ = 0 and φ = π, that is at K = +K_ref and K = −K_ref, and it is unchanged by ρ, which shifts φ by π; the referee also found it "rho-invariant for all K". The first version of the toy-model note (commit d9a06ac) stated it this way (§4):
+
+> The potential −μ[Tr(K K_ref)]² = −2μ(1 + cos 2φ) is invariant under ρ (φ → φ + π). It reduces the U(1) to a discrete group, leaving two vacua K = ±K_ref exchanged by ρ. This is the two-fold anisotropic planar model, whose ordered phase is Ising-like [12].
+
+Its summary listed among the results "Ising-class breaking of ρ in model I in 1+1, once a ρ-preserving potential is added" (v1 §6).
+
+## How it was tested
+
+Only with H frozen at 1. The first version asserted "At H = 1 the polarization field is φ, with XY stiffness (f_K²/2)(∂φ)²" (v1 §4), and the worklog's S4 test was a lattice simulation of that angle alone: "Reduction: at H = 1 the polarization field is the angle φ of K(φ), and ρ acts as φ → φ + π. The kinetic term is an XY stiffness." ('Chunk 3 results'; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). The simulation found order at low temperature, and the worklog recorded "S4 passes only with the τ-type potential [V]". Nothing checked the potential with H free to move. The adjudicator: "I should have caught F1 myself: I checked the potential only at frozen H." (`review/round4-adjudication.md`, ruling F2).
+
+## Why it failed
+
+### F1: unbounded below once H moves
+
+Finding F1, upheld: "The §4 potential −μ[Tr(K K_ref)]² is unbounded below in model I". The referee's construction takes the vacuum (1, K₀), with K₀ = K_ref, and moves it by a boost of the phase plane (`review/round4/referee/audit-notes.md`, Step 2(a)):
+
+```text
+S(t) = [[cosh t, sinh t], [sinh t, cosh t]]          (symplectic)
+H = S(t)ᵀ S(t),    K = S(t)⁻¹ K₀ S(t)
+```
+
+Every member of this family is the vacuum carried by a symmetry of model I's own terms, so it stays compatible: the referee found "lambda-term on family: 0". The fields are constant, "so no kinetic cost". The added potential is not invariant under the boost. On the family the referee found K(t) = [[cosh(2t), 2 sinh t cosh t], [−sinh(2t), −cosh(2t)]], whose entries grow without limit while K² = 1 still holds, because K's target, the de Sitter hyperboloid, is non-compact [T]. With them the potential falls: "V_mu on family: -4*mu*cosh(2*t)**2" (`out_model1.txt`).
+
+| Boost parameter t | 0 | 0.5 | 1 | 2 | 4 |
+|---|---|---|---|---|---|
+| V_total/μ, referee (`out_model1.txt`) | −4.0000 | −9.5244 | −56.6165 | −2982.9583 | −8886112.5205 |
+| V_μ at μ = 1, adjudicator (`arb.out`) | −4.0000e+00 | — | −5.6616e+01 | −2.9830e+03 | −8.8861e+06 |
+| compatibility term, adjudicator (`arb.out`) | 0.00e+00 | — | 6.38e-30 | 1.18e-24 | 2.66e-14 |
+
+The adjudication's summary: "along H = SᵀS, K = S⁻¹K₀S (S a boost), the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4." Version 2 of the note: "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4." (§4). The gate repeats the endpoint, "quoted: unbounded below - at boost t = 4 the compatibility term is ~0 and -[Tr(K K_ref)]^2 = -8.9e6", and prints −8.8861e+06 (`verify/toy_coset.py`).
+
+Nothing in model I can stop this descent. Both kinetic terms vanish for constant fields and the compatibility term is zero along the whole family, so the added potential is the only term that changes, and it decreases without bound.
+
+### F2: the intended vacuum is a saddle
+
+Finding F2, upheld: "So (1, K_ref) is a saddle, and the Monte Carlo simulates a frozen-H reduction, not model I". The Hessian, the matrix of second derivatives of the potential at (1, K_ref) with H free, has a negative eigenvalue: a direction in which the energy goes down. Two independent computations, in different coordinates:
+
+| | λ = 1 | λ = 10 | λ = 100 |
+|---|---|---|---|
+| referee, coordinates (X, Y, b, c), V_λ/8 + V_μ | −3.3723, 0.0, 2.3723, 4.0 | −2.7797, 0.0, 4.0, 28.7797 | −2.6785, 0.0, 4.0, 298.6785 |
+| adjudicator, coordinates (x, y, u, t) of `verify/toy_coset.py` | −6.4721, 0, 2.4721, 8 | −4.3961, −0, 8, 36.3961 | −4.04, −0, 8, 396.04 |
+
+All entries are at μ = 1 (referee: `out_model1.txt`, where the negative eigenvalue at λ = 1 is exactly "-sqrt(33)/2 - 1/2"; adjudicator: `review/round4/adjudicator/arb.out`). Version 2 quotes "Hessian eigenvalue −6.47 at λ = μ = 1", and the gate prints [−6.472, 0, 2.472, 8] and passes "the unnormalized potential makes (1, K_ref) a saddle (negative Hessian eigenvalue)". The eigenvalues depend on the coordinates; the sign carries over between them [T], and the two sets agree that one direction goes down. Raising the compatibility coupling λ a hundredfold does not remove that direction, which fits a descent along configurations where the compatibility term is zero, as on the boost family.
+
+The consequence, in the referee's words: "The 'two vacua K=+-K_ref' exist only if H is frozen at 1, which the manuscript asserts ('At H = 1 the polarization field is phi') but does not justify; H is a dynamical hyperbolic sigma field." (Step 2(a)), and "The Monte Carlo is of the textbook XY + two-fold-field model with H frozen, not of model I." (Step 3, point C3).
+
+### The residual symmetry
+
+The referee also worked out, with sympy, which elements of Sp(2, ℝ) the potential leaves invariant: those that carry K_ref to ±K_ref (Step 2(c); `review/round4/referee/out_sec4_extra.txt`). S⁻¹K_ref S = +K_ref forces S = diag(a, 1/a), and S⁻¹K_ref S = −K_ref forces S = [[0, −1/c], [c, 0]]. "So the potential leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (Step 2(c); capitals lowered here). The referee's "boost subgroup" is the stretches diag(a, 1/a) of the x- and p-axes, which this wiki calls squeezes ([the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form)). Among the rotations only ±1 and ±ρ survive, so ρ is kept, as intended.
+
+The runaway boosts S(t) stretch along the diagonals x ± p. For t ≠ 0 they are neither squeezes of the x- and p-axes nor rotations, so the potential is not invariant along them, and that is where it falls. The referee drew the same connection: "Combined with F1/F2: in model I proper, the boost direction is where the potential runs away."
+
+## The ruling
+
+Round 4 graded the first version of the note B, "flawed but salvageable", and the adjudicator agreed: "The only claim of actual quantum symmetry breaking (§4, model I in 1+1) rests on a potential that is unbounded below once H is dynamical. It is repairable." (`review/round4-adjudication.md`, 'Verdict'). The referee named it the single weakest link: "Sec. 4's rho-preserving potential -mu[Tr(K K_ref)]^2. In model I it gives V = -4 mu cosh^2(2t) along the lambda-flat family, so (1, K_ref) is a saddle (Hessian eigenvalue -3.37). The Monte Carlo therefore tests a frozen-H XY model, not model I." (Step 4).
+
+The [pre-registration](/wiki/method/review/pre-registration) had pointed at the same place: "Weakest link: in 1+1, the 'spontaneous' breaking of ρ rests on an explicit, rigid background. The ρ-preserving potential needs a fixed unordered pair of axes K_ref." (`review/round4-preregistration.md`). It was scored "Partial: right location, missed severity", with the calibration note "Weakest-link location has improved. Severity is still underestimated." ('Pre-registration scored').
+
+## What it brought down
+
+- **The worklog's S4 pass and verdict.** "S4 passes only with the τ-type potential [V]"; "Then ρ breaks as a Z₂ (Ising class), with vacua ±K_ref" ('Chunk 3 results'); and the verdict on [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion): "Met, in the referees' wording, by the coset toy plus a τ-type potential", with ρ "spontaneously broken (Ising class in 1+1, Monte Carlo verified)" ('Assessment against the predictions'). Version 2 and #11 restate the result with the bounded potential, for the frozen-H reduction only.
+- **The first version's claim of Ising-class breaking in model I.** It was narrowed in two ways; see [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction#superseded-ising-class-breaking-in-model-i).
+
+The lattice numbers did not fall with it. At H = 1 the naive form and V_b differ only by a constant and a factor, so the simulated energy −h cos 2φ represents either. `verify/toy_s4.py` says so in its docstring, "the energy here is the frozen-H form, -h cos(2 phi), which equals the bounded V_b at H = 1 up to a constant and a factor (both depend on phi only through cos 2 phi)", while its opening lines still call the naive form "The tau-type potential". That is a wording lag; no number conflicts ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
+
+## What survives
+
+- **The repair.** The referee proposed a normalized form, version 2 adopted it, and it is bounded and stable with H dynamical: [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential). At H = 1 it keeps the naive form's shape, −(μ/2)(1 + cos 2φ) against −2μ(1 + cos 2φ).
+- **The simulation, restated.** The ordered ℤ₂ phase stands as a result about [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), not about model I with H dynamical.
+- **A requirement in #11.** Checkpoint #11 §10 now says of the ρ-preserving potential: "That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves".
+- **A rule.** The root `CLAUDE.md`, Method: "When numerics run on a reduced model (fields frozen), check the unreduced model's stability — boundedness, and the Hessian with all fields dynamical — and say in the text that it is a reduction. Round 4 found a potential that was bounded only at frozen H." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability); round-4 lesson 1).
+
+Where any ρ-preserving potential comes from is [open](/wiki/symmetry-breaking/rho-preserving-potential). The naive form is listed in [the graveyard](/wiki/status/graveyard).
 
 ## Sources
 
-- `papers/reciprocity-toy-models.md` §4 — the runaway at boost parameter 4 and the saddle eigenvalue −6.47, as version 2 states them
-- `review/round4-adjudication.md` 'Rulings' F1–F2, 'Lessons' — the upheld findings, the runaway values, the adjudicator's admission and the reduced-model lesson
+- `review/round4-adjudication.md` 'Verdict', 'Rulings' F1–F2, 'Pre-registration scored', 'Lessons' — the upheld findings, the runaway values, the adjudicator's admission, the scoring and the reduced-model lesson
+- `review/round4/adjudicator/arb.out` — the adjudicator's runaway values and Hessian eigenvalues
+- `review/round4/referee/audit-notes.md` Step 2(a), Step 2(c), Step 3, Step 4 — the referee's derivation of F1–F2, the residual symmetry, point C3 and the single weakest link
+- `review/round4/referee/out_model1.txt`, `review/round4/referee/out_sec4_extra.txt` — the referee's family, values, Hessians and residual-symmetry solutions
+- `review/round4-preregistration.md` 'Predictions' — the predicted weakest link
+- `papers/reciprocity-toy-models.md` §4 — the runaway at boost parameter 4 and the saddle eigenvalue −6.47, as version 2 states them; v1 (commit d9a06ac) §4, §6 — the potential as first proposed, and the claim it supported
 - `verify/toy_coset.py` — the gated runaway and saddle checks
-- `review/round4/referee/audit-notes.md` Step 2(a), Step 2(c), Step 3 — the referee's derivation of F1–F2, the residual symmetry, and the reading of the simulation as a frozen-H model
-- `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 3 results' — the original fallback and the S4 pass that used it
-- `verify/toy_s4.py` — the docstring's wording lag
+- `verify/toy_s4.py` — the docstring: the frozen-H energy and its wording lag
+- `notes/toy-lagrangian.md` 'Success criteria', 'Predictions', 'Chunk 1 results', 'Chunk 3 results', 'Assessment against the predictions' — criterion S4, the fallback, the S4 pass and the verdict that used it
+- `papers/broken-born-checkpoint-v2.md` §10 — the boundedness requirement
+- `CLAUDE.md` 'Method' — the reduced-model rule
