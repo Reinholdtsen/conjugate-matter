@@ -2,42 +2,139 @@
 title: "τ as the Maslov phase of the boundary"
 weight: 50
 status: alive
-description: "The dark-energy field τ ≡ f·arg det² is the phase of Z's boundary value on Λ(d); its 2πf periodicity is topology, and its lightness among the ten moduli is postulated."
+description: "The dark-energy field τ ≡ f·arg det² is the angle around the Maslov circle of Λ(d), the boundary of the Siegel domain: its 2πf periodicity is topology, the identification is derived, and its lightness among the ten moduli is postulated."
 provenance: [D, T, P]
 sources:
   - "papers/broken-born-checkpoint-v2.md §6"
   - "notes/broken-born-theory.md §2"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/broken-born-program-v1.md §4"
+  - "notes/broken-born-theory.md §3"
+  - "notes/broken-born-theory.md §4"
+  - "notes/broken-born-theory.md 'Addendum (v0.3, overnight): axiom correction and the modular core'"
   - "notes/debt1a-geometric-core.md §B"
-  - "papers/broken-born-checkpoint-v2.md §10"
+  - "notes/debt1a-geometric-core.md §C"
+  - "notes/debt1a-geometric-core.md §D"
+  - "notes/debt1a-geometric-core.md §F"
+  - "notes/broken-born-program-v1.md §4"
+  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/debt1a-iii-tuning-test.md §4"
+  - "notes/debt1a-iv-beta-coefficients.md §3"
   - "papers/broken-born-checkpoint-v2.md §7"
+  - "papers/broken-born-checkpoint-v2.md §10"
+  - "papers/broken-born-checkpoint-v2.md App. A item 8"
+  - "papers/reciprocity-toy-models.md §2"
+  - "papers/reciprocity-toy-models.md §4"
+  - "papers/reciprocity-toy-models.md §6"
+  - "notes/toy-lagrangian.md 'Chunk 2 results'"
+  - "HANDOFF.md §2"
 ---
 
-*The program's dark-energy field τ is an angle: the phase of a determinant built from the boundary value of [the modular field](/wiki/phase-space/modular-field/modular-field-z), measured around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), which forms the boundary of the Siegel domain. Because that circle cannot be shrunk to a point, τ is periodic, with period 2πf, as a matter of topology rather than of modeling choice. Of the ten directions of the Grassmannian at d = 4, τ is assumed to be the only light one. The identification is derived [D], the topology is literature [T], and the lightness is a postulate [P]; τ's behavior as dark energy is worked out in the cosmology section.*
+*The program's dark-energy field τ is an angle: the angle around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), the space of all position/momentum splittings, which forms the boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) where [the modular field](/wiki/phase-space/modular-field/modular-field-z) takes its values. Because that circle cannot be shrunk to a point, τ is periodic, with period 2πf, as a matter of topology rather than of modeling. Of the ten directions of the Grassmannian at d = 4, τ is assumed to be the only light one. The identification is derived [D], the topology is literature [T], and the lightness is a postulate [P]. How τ behaves as dark energy, and how current data bear on it, is worked out in the cosmology section.*
 
-**Status:** Alive — the identification is derived [D] (#11 §6); the Shilov boundary and π₁ = ℤ are literature [T]; the periodicity is [D] and τ's lightness [P] (#1 §2) — nothing here is machine-checked.
+**Status:** Alive — the identification is derived [D] (#11 §6); the Shilov boundary and π₁ = ℤ are literature [T]; the periodicity is [D] and τ's lightness [P] (#1 §2) — nothing here is machine-checked, and the toy model supports only the consistency of the structure.
 
-## Key facts
+## The claim
 
-- **Definition.** #1 §2:
+#11 §6: "**Λ(d) is the Shilov boundary** of the Siegel domain [T]; the dark-energy field τ is the Maslov phase of the boundary variable, its periodicity a fact of topology (π₁(U(d)/O(d)) = ℤ)." #9 §4 states the same and calls the 2πf periodicity "a fact of topology (π₁(U(d)/O(d)) = ℤ), not a modeling choice".
 
-  ```text
-  τ ≡ f · arg det²(·)
-  ```
+## The definition
 
-  "is a compact, 2πf-periodic modulus of the vacuum. This field is promoted below to the dark-energy field. Periodicity is topology [D]; that τ is the *lightest* modulus, with the other nine directions heavy, is assumed [P]."
-- **The identification.** #11 §6: "**Λ(d) is the Shilov boundary** of the Siegel domain [T]; the dark-energy field τ is the Maslov phase of the boundary variable, its periodicity a fact of topology (π₁(U(d)/O(d)) = ℤ)." #9 §4 adds: "not a modeling choice".
-- **Two wordings.** #5 §C describes τ as "arg det of the boundary variable" and "the phase of Z's boundary value", without the square or the scale f of #1's definition; the documents do not reconcile the two forms.
-- **Restored by P2′.** Under strict P2 there is "No Lagrangian Grassmannian, no Maslov circle, **no τ field**" (#5 §B); with only ω rigid, the Grassmannian, the Maslov circle and τ are restored. See [original P2](/wiki/program/postulates/original-p2) and [P2′](/wiki/program/postulates/p2-prime).
-- **Its dynamics, elsewhere.** #11 §10 makes τ "hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology" ([τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). The sign of that potential is unresolved across the documents ([the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)), and its origin is open ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). τ survives X's Higgs mechanism: "τ un-eaten (compact J-sector, not the Stückelberg sector)" (#11 §7.5; [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). Its test is [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift).
-- **Toy support, consistency only.** #11 §10 (v2.2): "In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." And: "None of this tests the cosmology; it only shows the structure is consistent." See [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle).
+The lab notebook defines τ on the Grassmannian (#1 §2): "Its fundamental group is π₁(Λ(d)) = ℤ, generated by the **Maslov circle** via the map det²: U(d)/O(d) → U(1). **[T]** The angular coordinate on this circle,
+
+```text
+τ ≡ f · arg det²(·)
+```
+
+is a compact, 2πf-periodic modulus of the vacuum. This field is promoted below to the dark-energy field. Periodicity is topology **[D]**; that τ is the *lightest* modulus, with the other nine directions heavy, is assumed **[P]**."
+
+The pieces, in order:
+
+- the argument (·) is a point of Λ(d) = U(d)/O(d), the vacuum's polarization at a given place, represented by a unitary matrix U;
+- det² U is a complex number of modulus 1, and unlike det U it depends only on the polarization, not on the representative ([the Maslov class](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-maslov-class));
+- arg turns that number into an angle, defined up to a multiple of 2π;
+- f is a constant scale that turns the angle into a field. τ and τ + 2πf describe the same vacuum, and the same f appears in τ's potential V = V₀[1 + cos(τ/f)] (#1 §3; #11 §10).
+
+A "modulus of the vacuum" is a direction in which the vacuum can be changed: here, a rotation of the polarization around the Maslov circle.
+
+## Why the period is topology
+
+The fundamental group π₁(Λ(d)) = ℤ says that a loop winding once around the Maslov circle cannot be shrunk to a point, and that along it arg det² increases by exactly 2π [T]. An angle on such a circle is periodic because of the shape of the space it lives in, before any dynamics is specified. In many scalar-field models of dark energy ([quintessence](/wiki/cosmology/dark-energy/quintessence)) a periodic potential is a modeling choice; here the field space fixes the period. This is the content of #9's "not a modeling choice" and of #11 §10's "periodicity by topology".
+
+The lab notebook separates what topology fixes from what it does not (#1 §3): "The potential's *periodicity* is forced by the Maslov topology **[D]**; its *existence* comes from the explicit breaking of Grassmannian rotations by the rigid ω (P2) — the rigidity is the 'instanton' that tilts the circle. Its *magnitude* V₀ is a free parameter here. **[P/O]**". The attribution of the potential to the rigid ω did not survive the postulate repair ([τ's potential, below](#τs-potential-and-its-tests)).
+
+## Where τ lives: the boundary of the Siegel domain
+
+### The boundary variable
+
+Calc note #5: "**Λ(d) is the Shilov boundary of the Siegel domain** [standard]. The τ field — arg det of the boundary variable — is the phase of Z's boundary value." (§C)
+
+The points of the Siegel domain are the phase-space metrics compatible with the symplectic form, labelled by Z. Its distinguished (Shilov) boundary is Λ(d), the space of polarizations ([the boundary of the Siegel domain](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). A boundary value of Z is therefore a polarization, and τ is the phase of that polarization around the Maslov circle. The program reads this geometry as placing dark energy on the edge of the space in which the metric and the momentum graviton live.
+
+### Two wordings
+
+Calc note #5 writes τ as "arg det of the boundary variable", with no square and no scale f; the lab notebook writes f · arg det². The standard description of the boundary accounts for the square [T]. A boundary point of the bounded form of the domain, the Siegel disk, is a symmetric unitary matrix W = UUᵀ, and det W = det² U. So arg det W, taken on the boundary point itself, equals arg det² U, taken on a unitary representative: the two wordings name the same angle up to the scale f. Neither document says which object its "boundary variable" or its "(·)" stands for, and neither compares the two forms.
+
+### Lost under strict P2, restored under P2′
+
+With η rigid as well as ω, calc note #5 found: "No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2." (§B; [original P2](/wiki/program/postulates/original-p2)). That loss is half of [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem). Under [P2′](/wiki/program/postulates/p2-prime) the Grassmannian returns, "π₁ = ℤ, Maslov circle intact, τ restored" (§B), and the v0.3 addendum relocates τ: "The Grassmannian, the Maslov circle, and τ are restored, now as the boundary phase of a single **modular field** Z = X + iY on the Siegel domain".
+
+## τ among the ten moduli
+
+### The lightness postulate [P]
+
+At d = 4 the Grassmannian has ten directions, τ's circle and nine others: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D). The lab notebook assumes τ is the lightest of them, "with the other nine directions heavy" [P] (#1 §2). Calc note #7 builds the same assumption into [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric): "the light direction of the compact space being τ (the dark-energy field)" (§4). Whether the nine survive at all is [an open question](/wiki/phase-space/modular-field/field-content).
+
+### Not eaten when X becomes massive
+
+When the polarization choice gives the momentum graviton X its mass, X absorbs other modes, and τ is not among them. Calc note #6: "The Λ(d) moduli, τ included, are not the eaten modes — they carry the compact phase directions, which constant shifts do not generate; verifying τ survives un-eaten is flagged [O]" (§3). Calc note #8 settles it at leading order: "**τ is not eaten** [D — leading order] … τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field. (Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness.)" (§3). #11 §7.5: "τ un-eaten (compact J-sector, not the Stückelberg sector)". See [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten); the residual mixing is open item 6 ([Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
+
+### Fifth forces
+
+Being the angle of a nearly flat direction, τ couples to matter only through its derivatives. The lab notebook: "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa" coupling to Standard Model matter, and therefore "safe from torsion-balance bounds despite being ultralight" [D] (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force); [Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs)).
+
+## τ's potential and its tests
+
+This page establishes where τ lives; its dynamics are on the cosmology pages.
+
+- **The potential.** The lab notebook's polarization sector is S_τ = ∫ √−g [½(∂τ)² − V(τ)] with V(τ) = V₀[1 + cos(τ/f)] (#1 §3). #11 §10: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1". See [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
+- **Its origin is open.** The lab notebook attributed the potential's existence to explicit breaking by the rigid ω of its original P2 [P/O]. After the repair that attribution no longer stands. Calc note #5 lists "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" as open item 3 (§F). The toy models sharpen the point: with only ω rigid the polarization is a Goldstone angle, and a definite polarization needs a ρ-preserving potential, "more structure than ω alone, though less than a rigid η" (#11 §4), whose derivation is open ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)).
+- **Its sign is unresolved.** V₀[1 + cos(τ/f)] is never negative for V₀ > 0, yet the same documents need V < 0 for the predicted turnaround; no document resolves the conflict ([Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)).
+- **Its test.** τ predicts thawing dark energy that never crosses w = −1. The second data release of the Dark Energy Spectroscopic Instrument (DESI) favors a crossing above z ≈ 0.4, and #11 records the sector as under pressure ahead of the third release ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift); [the DESI DR2 phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
+
+## Toy-model support: consistency only
+
+#11 §10 (v2.2): "**Toy-model support (v2.2) [D][V]:** in an explicit ρ-symmetric coset model of (H, K), and in the complex self-dual Grosse–Wulkenhaar model, ρ sits inside a continuous U(1), so the polarization is a Goldstone angle. In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." The paragraph ends: "None of this tests the cosmology; it only shows the structure is consistent."
+
+In the d = 1 coset model the compact Goldstone angle φ "parametrizes the Lagrangian Grassmannian Λ(1)" (toy-model note §2; [model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). In 1+1 dimensions that angle cannot order by itself (the Mermin–Wagner theorem; [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)), and the note adds a bounded ρ-preserving potential to obtain a definite polarization (§4; [the bounded potential](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
+
+The toy record is explicit about the limit:
+
+- the note: "**Motivation, not result.** In a parent framework the polarization angle is identified with a dark-energy field. The Goldstone structure here is consistent with that, but untested by it." (§6);
+- the worklog: "It also means the present-day thawing of τ would be a slow drift of the polarization angle. That is a claim about the program, not verified here." and "This is model-level evidence from two toys, not a theorem." ('Chunk 2 results').
+
+See [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle).
+
+## History
+
+- **v0.1** (#1 §2–§3): τ defined on Λ(d), with its potential's existence attributed to the rigid ω of the original P2.
+- **Calc note #5** (§B–§C): strict P2 removes τ; P2′ restores it as the boundary phase of Z. The v0.3 addendum records the change.
+- **#9 §4**: the periodicity is "not a modeling choice".
+- **#11 §6** is the current statement; v2.2 adds the toy-model support to §10.
+- **`HANDOFF.md` §2** lists "dark energy τ = Maslov phase of the Shilov boundary Λ(4) ✓ (parametrization identities)". The check mark covers the parametrization identities of the modular field, not τ.
+- **A founding supposition.** #11's audit of P.R.'s founding suppositions records for item 8, "Synchronized, not causal; Fourier/holography", that the holographic tie was "loosened, echoed in τ's boundary residence" (App. A item 8; [founding suppositions](/wiki/program/founding-suppositions)).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §6 — the identification and the topological periodicity.
-- `papers/broken-born-checkpoint-v2.md` §10 — τ as hilltop quintessence; the toy-model support and its limit.
-- `papers/broken-born-checkpoint-v2.md` §7 — τ un-eaten by the Higgs mechanism.
-- `notes/broken-born-theory.md` §2 — the definition τ ≡ f·arg det², with the [D] and [P] tags.
-- `notes/debt1a-geometric-core.md` §B, §C — τ lost under strict P2 and restored; τ as the phase of Z's boundary value.
+- `notes/broken-born-theory.md` §2 — the definition τ ≡ f·arg det², with the [T], [D] and [P] tags.
+- `notes/broken-born-theory.md` §3, §4 — S_τ and V(τ); periodicity versus existence of the potential; fifth-force safety.
+- `notes/debt1a-geometric-core.md` §B, §C — τ lost under strict P2 and restored; τ as the phase of Z's boundary value; the boundary fact "[standard]".
+- `notes/debt1a-geometric-core.md` §D, §F — the ten σ-modes; the origin of τ's potential, open item 3.
+- `notes/broken-born-theory.md` v0.3 addendum — τ restored as the boundary phase of the modular field.
 - `notes/broken-born-program-v1.md` §4 — "not a modeling choice".
+- `notes/debt1a-ii-X-classification.md` §3; `notes/debt1a-iv-beta-coefficients.md` §3 — the moduli are not eaten; τ survives at leading order.
+- `notes/debt1a-iii-tuning-test.md` §4 — τ as the light direction of the compact space.
+- `papers/broken-born-checkpoint-v2.md` §7, §10 — τ un-eaten; hilltop quintessence; the toy-model support and its limit.
+- `papers/broken-born-checkpoint-v2.md` App. A item 8 — "echoed in τ's boundary residence".
+- `papers/reciprocity-toy-models.md` §2, §4, §6 — Λ(1) as the compact Goldstone direction; the bounded potential; "Motivation, not result".
+- `notes/toy-lagrangian.md` 'Chunk 2 results' — the slow-drift remark, "not verified here".
+- `HANDOFF.md` §2 — the handoff's line on τ and its check mark.
