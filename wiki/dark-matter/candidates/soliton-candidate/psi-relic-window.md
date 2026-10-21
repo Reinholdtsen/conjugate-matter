@@ -47,9 +47,9 @@ Being the lightest hidden-charged particle, ψ is in turn stable, and it is a th
 > Under H, psi makes up less than 10% of the dark matter for m_psi below 0.1-0.3 TeV, and all of it at 0.3-1 TeV. We take m_psi below about 0.1 TeV, so that the monopoles dominate, and above the MeV scale, so that psi has annihilated before nucleosynthesis.
 
 - **The upper edge** keeps ψ a minor component, so that the monopoles remain the dark matter.
-- **The lower edge** has ψ finish annihilating before Big Bang nucleosynthesis, the formation of the light nuclei in the first minutes [T].
+- **The lower edge** has ψ finish annihilating before Big Bang nucleosynthesis (BBN), the formation of the light nuclei in the first minutes [T].
 
-The window became the first of v3's "Requirements forced by consistency (not optional)": "(i) at least one hidden doublet fermion with mass between the MeV scale and ~0.1 TeV" (§6), and §6 lists "the failure of the adjoint-only model and the psi relic window" among the results "Derived within the framework or by standard methods". It also set the test v3 called the most direct: exclusion condition 3, "Exclusion of the millicharged psi window: m_psi from the MeV scale to ~0.1 TeV at visible charge ~ (1e-7 to 1e-6) e" (§5), for a ψ that carries a small visible charge through kinetic mixing (§4).
+The window became the first of v3's "Requirements forced by consistency (not optional)": "(i) at least one hidden doublet fermion with mass between the MeV scale and ~0.1 TeV" (§6), and §6 lists "the failure of the adjoint-only model and the psi relic window" among the results "Derived within the framework or by standard methods". It also set the test v3 called the most direct: exclusion condition 3, "Exclusion of the millicharged psi window: m_psi from the MeV scale to ~0.1 TeV at visible charge ~ (1e-7 to 1e-6) e" (§5), for a ψ that carries a small visible charge through [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) (§4).
 
 The numbers came from the v3 worklog's item O1: "With α_e,d = α it would be all of the dark matter at 0.3–1.0 TeV, and 10% of it at 0.1–0.3 TeV. So it must be lighter than roughly 100–300 GeV to stay subdominant" (`review/v3-worklog.md`, 'New open items').
 
@@ -109,7 +109,7 @@ v3 required the hidden sector to be colder than ours, ξ < 0.77, because of dark
 xi0=0.76: m=30: 7.5%; m=100: 73.1%; m=200: 275.2%; m=300: 600.8%; m=600: 2314.0%; m=1000: 6302.9%
 ```
 
-So at the temperature ratio v3 required, its chosen masses did not make ψ a minor component: "the manuscript's "below about 0.1 TeV" would make psi ~70-100% of DM (step2c_psi.out: 73.1% at 100 GeV, xi0=0.76)" (Step 4(a) item 4).
+So at the temperature ratio v3 required, the upper part of its chosen range did not keep ψ a minor component: "the manuscript's "below about 0.1 TeV" would make psi ~70-100% of DM (step2c_psi.out: 73.1% at 100 GeV, xi0=0.76)" (Step 4(a) item 4).
 
 ### The lower edge: freeze-out during nucleosynthesis
 
@@ -122,7 +122,7 @@ m_psi=10 MeV: hidden freeze-out T_h ~ m/20 = 0.5 MeV at T_vis ~ 0.707 MeV (BBN D
 m_psi=30 MeV: hidden freeze-out T_h ~ m/20 = 1.5 MeV at T_vis ~ 2.12 MeV (BBN D-formation ~0.07 MeV; n/p freeze-out ~0.8 MeV)
 ```
 
-Nucleosynthesis runs between the freeze-out of the neutron-to-proton ratio and the formation of deuterium [T], which the script marks at about 0.8 MeV and 0.07 MeV of visible temperature. For ψ masses of 1, 3 and 10 MeV the hidden freeze-out falls inside that interval; at 30 MeV it falls before it. The referee (Step 4(a) item 8): "hidden freeze-out T_h ~ m/20 occurs at T_vis ~ 0.08 MeV for m_psi = 1 MeV, 0.24 MeV for 3 MeV, 0.71 MeV for 10 MeV (step4.out) - i.e. during BBN. Needs m_psi >~ 20-30 MeV. (Moot: excluded anyway, below.)" BBN is Big Bang nucleosynthesis. The "below" points, in the wiki's reading, to Step 4(c), where the supernova limit on a millicharged particle covers this mass range.
+Nucleosynthesis runs between the freeze-out of the neutron-to-proton ratio and the formation of deuterium [T], which the script marks at about 0.8 MeV and 0.07 MeV of visible temperature. For ψ masses of 1, 3 and 10 MeV the hidden freeze-out falls inside that interval; at 30 MeV it falls before it. The referee (Step 4(a) item 8): "hidden freeze-out T_h ~ m/20 occurs at T_vis ~ 0.08 MeV for m_psi = 1 MeV, 0.24 MeV for 3 MeV, 0.71 MeV for 10 MeV (step4.out) - i.e. during BBN. Needs m_psi >~ 20-30 MeV. (Moot: excluded anyway, below.)" The "below" points, in the wiki's reading, to Step 4(c), where the supernova limit on a millicharged particle covers this mass range.
 
 Ruling 6, "Accepted, not re-checked": "T_f ~ m/20, so the lower mass bound should be ≳ 20–30 MeV."
 
@@ -144,7 +144,7 @@ The window is dead. The withdrawal banner of #14 lists it among the casualties o
 
 v3 had stated that "All numerical statements in Secs. 2-4 were computed by executed code rather than by hand" (§6). The referee: "the p error (a dropped prefactor of 4576) and the psi window (factor 3-10 in mass) indicate otherwise or a coding error" (Step 4(a) item 9). Ruling 13 upheld the point in substance: "The code checked the arithmetic of a wrong model." The miscount of states passed a gate that tested only arithmetic ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
-What survives is the recount itself, as arithmetic of a retired model, gated [V], and the W′ result that made ψ necessary. Nothing of the window survives, and the candidate it served is dead ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+No source lists anything of the window among the survivors of v3. The recount stays in the gate as arithmetic of a retired model [V], and the W′ result that made ψ necessary survives on its own page. Nothing of the window survives, and the candidate it served is dead ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Sources
 

@@ -30,7 +30,7 @@ sources:
 
 ## A sector with its own temperature
 
-A hidden sector that exchanges no energy with ours after the universe is reheated evolves on its own [T]. Each sector conserves its own entropy as the universe expands, so each cools as the inverse of the scale factor, and their temperatures keep the ratio ξ = T_h/T that reheating left them with ([the radiation era](/wiki/cosmology/early-universe/radiation-era)). The ratio changes only when a species in one sector becomes non-relativistic and annihilates: its entropy passes to the lighter species of the same sector, which then cool more slowly than the other sector [T]. Our own sector does this many times, from the 106.75 relativistic degrees of freedom of the full Standard Model to the 10.75 left when the neutrinos decouple.
+A hidden sector that exchanges no energy with ours after the universe is reheated evolves on its own [T]. Each sector conserves its own entropy as the universe expands, so each cools as the inverse of the scale factor, and their temperatures keep the ratio ξ = T_h/T that reheating left them with ([the radiation era](/wiki/cosmology/early-universe/radiation-era)). The ratio changes only when a species in one sector becomes non-relativistic and annihilates: its entropy passes to the lighter species of the same sector, which then cool more slowly than the other sector [T]. Our own sector does this many times, from the 106.75 relativistic degrees of freedom of the full Standard Model to the 10.75 left when the neutrinos decouple (the values `verify/soliton_obituary.py` uses).
 
 The soliton candidate's hidden sector ([the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)) has the same structure. Above the breaking scale v its plasma holds the SU(2)_d gauge fields, the adjoint scalar and the fermion doublet ψ. Below v the W′± and the scalar become heavy and disappear, ψ freezes out at its own mass, and in the end only the hidden photon is left. The photon is massless because U(1)_d is unbroken, which v3 lists as requirement (iii), "an unbroken U(1)_d" (#14 §6), so it stays radiation forever.
 
@@ -44,7 +44,7 @@ Radiation in the early universe beyond the photons is measured as N_eff, the num
 ΔN_eff = (4/7) · g · (T_x/T_ν)⁴
 ```
 
-for bosons [T]; the 4/7 converts to neutrino units, since one neutrino species with its antineutrino counts as 7/4 bosonic states. `verify/soliton_obituary.py` codes this formula and anchors it on a textbook case before using it: "Delta N_eff: one extra neutrino species at T_nu gives 1". The measurement #14 cites is Planck 2018, eq. (67b): "N_eff = 2.99 +0.34 -0.33" at 95% confidence (audit notes, Step 1).
+for bosons [T]; the 4/7 converts to neutrino units, since one neutrino species with its antineutrino counts as 7/4 bosonic states. `verify/soliton_obituary.py` codes this formula and anchors it on a textbook case before using it: "Delta N_eff: one extra neutrino species at T_nu gives 1". The measurement #14 cites is Planck 2018. The referee located it as eq. (67b), "N_eff = 2.99 +0.34 -0.33" at 95% confidence (audit notes, Step 1); #14 writes it as "2.99 +- 0.34" (§4).
 
 ### #14's requirement
 
@@ -84,7 +84,7 @@ The referee's table (Step 2) gives the spread over conventions: "0.760 (N_SM=3.0
 
 v3 made the colder sector the second of its "Requirements forced by consistency (not optional)": "(ii) a hidden-to-visible temperature ratio xi < 0.77 after reheating", and listed "the colder reheating of the hidden sector" among its conjectural claims (#14 §6). The worklog had called it a choice of a free parameter: "v3 requirement: the dark sector reheated ~25–30% colder than ours. ξ is a free parameter of the framework."
 
-A colder hidden sector also changes the monopole count, since the hidden transition then happens when our plasma is hotter. #14 §4: "A colder hidden sector lowers M\* by xi^(3/4), a factor of 0.8 at the bound - smaller than the factor-of-four spread already in the band above." The referee confirmed the factor, "0.822 (xi=0.77), 0.814 (xi=0.76)" (Step 2). After the Kibble correction, the referee's minimum-production mass shifts accordingly: "M\* = 2.87e12-4.44e12 GeV (xi=1), 2.34e12-3.61e12 GeV (xi=0.76)" (Step 4(a) item 1; [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
+A colder hidden sector also changes the monopole count, since the hidden transition then happens when our plasma is hotter. #14 §4: "A colder hidden sector lowers M\* by xi^(3/4), a factor of 0.8 at the bound - smaller than the factor-of-four spread already in the band above." The referee confirmed the factor, "0.822 (xi=0.77), 0.814 (xi=0.76)" (Step 2). After [the Kibble correction](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization), the referee's minimum-production mass shifts accordingly: "M\* = 2.87e12-4.44e12 GeV (xi=1), 2.34e12-3.61e12 GeV (xi=0.76)" (Step 4(a) item 1; [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
 
 ## Applied inconsistently
 
@@ -131,7 +131,7 @@ The band was conditional twice over: on a first-order transition, and on the hid
 
 ## Scope: ordinary kinematics
 
-All of this treats the hidden sector with ordinary relativistic quantum field theory: "Throughout, the hidden sector is described by ordinary relativistic quantum field theory" (#14 §1). The worklog recorded that the dark-radiation calculation depends on that choice (O3): "v3 decision: keep the dark sector in ordinary kinematics and say so explicitly. L1 and O2 both rest on that." (L1 is the worklog's finding that mixing gives the monopoles no visible magnetic flux.) Whether the hidden photon is massless in the ordinary sense, or has zero invariant length in the sense of [conjugate special relativity](/wiki/conjugate-relativity) (#13), "is part of #13's open "dual dynamics" item" ([the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
+All of this treats the hidden sector with ordinary relativistic quantum field theory: "Throughout, the hidden sector is described by ordinary relativistic quantum field theory" (#14 §1). The worklog recorded that the dark-radiation calculation depends on that choice (O3): "v3 decision: keep the dark sector in ordinary kinematics and say so explicitly. L1 and O2 both rest on that." (L1 is the worklog's finding that mixing gives the monopoles no visible magnetic flux.) Whether the hidden photon is massless in the ordinary sense, has zero invariant length in the sense of [conjugate special relativity](/wiki/conjugate-relativity) (#13), or both "is part of #13's open "dual dynamics" item" ([the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
 
 ## Where the numbers stand
 

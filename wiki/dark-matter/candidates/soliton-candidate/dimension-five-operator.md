@@ -44,7 +44,7 @@ How the operator works [T]:
 
 ### The size v3 gave it
 
-The coefficient was the assumption: "an O(1) coefficient at the Planck or reduced Planck scale", that is, M_\* equal to the Planck mass with nothing smaller in front. At v3's breaking scale, v ~ (0.8–1.4)×10¹² GeV (§3), that gives "epsilon ~ 1e-7 to 1e-6".
+The coefficient was the assumption: "an O(1) coefficient at the Planck or reduced Planck scale", that is, M_\* equal to the Planck or reduced Planck mass with nothing smaller in front. At v3's breaking scale, v ~ (0.8–1.4)×10¹² GeV (§3), that gives "epsilon ~ 1e-7 to 1e-6".
 
 ### What rested on it
 

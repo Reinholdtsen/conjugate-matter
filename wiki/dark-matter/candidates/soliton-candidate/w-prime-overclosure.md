@@ -30,7 +30,7 @@ sources:
 
 > The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V].
 
-"Overclose" means that the W′± alone would carry more energy density than the universe is observed to contain in dark matter; here by sixteen to seventeen orders of magnitude. "On its own terms", as the wiki reads it, means that the sector fails through its own content and the hot plasma its monopole production requires, whether or not the monopoles are the dark matter. The numbers are evaluated at the benchmark mass that the candidate's abundance count produced, and that count was wrong ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)); the statement of exclusion is listed separately as surviving, and the round-3 referee confirmed the numbers.
+"Overclose" strictly means a relic density above the universe's critical density [T]; the sources measure the W′± relic against the observed dark-matter density instead, and here it exceeds that density 10¹⁶ to 10¹⁷ times. "On its own terms", as the wiki reads it, means that the sector fails through its own content and the hot plasma its monopole production requires, whether or not the monopoles are the dark matter. The numbers are evaluated at the benchmark mass that the candidate's abundance count produced, and that count was wrong ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)); the statement of exclusion is listed separately as surviving, and the round-3 referee confirmed the numbers.
 
 ## The minimal sector
 
@@ -95,7 +95,7 @@ The referee recomputed it at the required ratio (Step 4(a) item 4): "W' overclos
 #14 §3 states the repair directly after the negative result: "The fix is the Dirac doublet psi: W'+ can decay to a psi pair." The doublet ψ has U(1)_d charges ±g_d/2 (§2), and, being light, gives the W′± a decay channel into ψ pairs. It became the first of v3's three "Requirements forced by consistency (not optional)": "(i) at least one hidden doublet fermion with mass between the MeV scale and ~0.1 TeV" (§6). The worklog's item O1 lists what the addition brought with it:
 
 - the sector becomes "SU(2)_d → U(1)_d with at least one light dark doublet";
-- ψ is itself stable and a thermal relic, so its mass had to keep it a minor component; that mass window was later found wrong in both edges ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window));
+- ψ is itself stable and a thermal relic, so its mass had to keep it a minor component; that mass window was later found wrong at both edges ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window));
 - ψ carries a small visible charge if the two photons mix, unless hidden charge conjugation is gauged ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing));
 - its plasma is the medium for monopole–antimonopole annihilation, which fed acceptance criterion 3 ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor));
 - if lighter than about an MeV it would add radiation at nucleosynthesis ("not yet scripted").

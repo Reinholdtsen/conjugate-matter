@@ -30,7 +30,7 @@ sources:
 
 ## What the benchmark was
 
-The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) needed one mass at which to evaluate its candidate. The v3 worklog's finding F1 showed that a pure Kibble abundance closes at a single mass, and Paul decided: "move the benchmark to M ≈ 3×10¹³, and keep 10¹⁶ with its ~10¹⁰ dilution as a stated alternative" (`review/v3-worklog.md`, 'Findings neither referee raised'). #14 §3: "We adopt the benchmark M = 3e13 GeV, which corresponds to v ~ (0.8-1.4)e12 GeV."
+The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) needed one mass at which to evaluate its candidate. The v3 worklog's finding F1 showed that a pure [Kibble](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) abundance closes at a single mass, and Paul decided: "move the benchmark to M ≈ 3×10¹³, and keep 10¹⁶ with its ~10¹⁰ dilution as a stated alternative" (`review/v3-worklog.md`, 'Findings neither referee raised'). #14 §3: "We adopt the benchmark M = 3e13 GeV, which corresponds to v ~ (0.8-1.4)e12 GeV."
 
 Round 3 withdrew it. Counted correctly, the Kibble mechanism overproduces monopoles of that mass 2.1×10³–1.2×10⁴ times [V] ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)). The numbers on this page do not depend on the abundance calculation. Each follows from the mass, the observed dark-matter density, a typical galactic speed and the coupling, so each remains a correct statement of what monopoles of 3×10¹³ GeV would be like if they were the dark matter.
 
@@ -48,7 +48,7 @@ rho_loc=0.4: n = 1.333e-14/cm^3, volume per monopole = 0.0750 km^3, spacing n^-1
 rho_loc=0.3: n = 1.000e-14/cm^3, volume per monopole = 0.1000 km^3, spacing n^-1/3 = 464.2 m
 ```
 
-Both rows are "CONFIRMED". The second uses 0.3 GeV/cm³, which the referee notes is the canonical local density of the Particle Data Group, against #14's 0.4 (Step 2). The drift speed of ~10⁻³ c is the typical speed of matter bound in the Galaxy's halo [T].
+The audit table marks the mean density and the local volume and spacing "CONFIRMED". The last line uses 0.3 GeV/cm³, which the referee notes is the canonical local density of the Particle Data Group, against #14's 0.4 (Step 2). The drift speed of ~10⁻³ c is the typical speed of matter bound in the Galaxy's halo [T].
 
 ### The earlier benchmark
 
@@ -98,7 +98,7 @@ cosmic mean: omega_p = 3.28e-12 s^-1, 1/omega_p = 9.67e+03 yr
 
 These are "far shorter than dynamical times; Lasenby 2007.00667 shows such instabilities can matter "many orders of magnitude below" two-body bounds (he gives no constraint). "Effectively collisionless" rests on two-body sigma_T only. Unevaluated, not an indictment." The adjudication listed "Collective magnetic-plasma effects" among the omitted constraints accepted as a to-do and not re-checked.
 
-In round 1 the referee had made the opposite error: "σ_T/M misread as σ_T (off ~10⁴³)" (`HANDOFF.md` §6), among the referee errors of rounds 1–2 that machine arbitration overturned ([referee failure mode](/wiki/method/review/referee-failure-mode)).
+In round 1 the referee had misread this quantity: "σ_T/M misread as σ_T (off ~10⁴³)" (`HANDOFF.md` §6), among the referee errors of rounds 1–2 that machine arbitration overturned ([referee failure mode](/wiki/method/review/referee-failure-mode)).
 
 ## The counterfactual flux
 
@@ -108,7 +108,7 @@ The candidate's monopoles carry magnetic charge under the hidden U(1)_d only. #1
 
 > Not monopoles of our U(1). If these objects carried magnetic charge under our electromagnetism, they would be classic monopoles and excluded. The flux at dark-matter density would be F = n v/4 pi ~ 3e-8 /cm^2/s/sr. That exceeds the Parker bound (~1e-15 for M <~ 1e17 GeV) [20] by 7.5 orders of magnitude, the MACRO limit for m >~ 1e10 GeV (2.8e-16) [21] by eight, and the extended Parker bound 1e-16 (M/1e17 GeV) [22] by twelve. Sector separation is therefore mandatory. Sec. 2(c) shows it is not undone by kinetic mixing while U(1)_d is unbroken.
 
-For an isotropic population of number density n moving at speed v, the number crossing unit area per unit time per unit solid angle is F = n v/4π [T]. The three limits are explained on [monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches): the Parker bound requires that monopoles accelerated by the Galaxy's magnetic field not drain the field faster than it regenerates; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy and falls in proportion to the monopole mass; MACRO, the Monopole, Astrophysics and Cosmic Ray Observatory, searched for them directly [T]. The round-3 referee found each figure supported by its source: the Particle Data Group's 2024 review, eq. (95.9), for the Parker bound; MACRO's Table 2, "<= 2.8e-16 for m >~ 1e10 GeV, beta > 1e-4"; and the abstract of Adams et al. 1993, "F <= 1e-16 (m/1e17 GeV) cm^-2 s^-1 sr^-1" (Step 1).
+For an isotropic population of number density n moving at speed v, the number crossing unit area per unit time per unit solid angle is F = n v/4π [T]. The three limits are explained on [monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches): the Parker bound requires that monopoles accelerated by the Galaxy's magnetic field not drain the field faster than it regenerates; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy and is proportional to the monopole mass, so it tightens for lighter monopoles; MACRO, the Monopole, Astrophysics and Cosmic Ray Observatory, searched for them directly [T]. The round-3 referee found each figure supported by its source: the Particle Data Group's 2024 review, eq. (95.9), for the Parker bound; MACRO's Table 2, "<= 2.8e-16 for m >~ 1e10 GeV, beta > 1e-4"; and the abstract of Adams et al. 1993, "F <= 1e-16 (m/1e17 GeV) cm^-2 s^-1 sr^-1" (Step 1).
 
 ### The numbers
 
