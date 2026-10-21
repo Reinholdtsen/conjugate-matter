@@ -75,7 +75,7 @@ Hull and Townsend (1995)† proposed that in the type II superstrings on a torus
 
 ## The exactness burden
 
-Any argument that needs S-duality as an exact symmetry outside supersymmetric theories inherits the caution above. The program met the burden through the soliton manuscript #14, whose second version fixed the hidden sector's coupling by a conjectured action of reciprocity as the modular S map ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
+Any argument that needs S-duality as an exact symmetry outside supersymmetric theories inherits the caution above. The burden arose in the program through the soliton manuscript #14, whose second version fixed the hidden sector's coupling by a conjectured action of reciprocity as the modular S map ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
 
 - **Round 2 posed it.** Among the valid hits pending for v3: "SUSY-exactness burden for Montonen–Olive (either reciprocity supplies the rigidity or the dual sector is approximately SUSY)" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 - **The worklog answered it** as item R1, marked "ready": "Exact S-duality has been tested only in N=4 SYM and special finite N=2 theories. For non-SUSY theories there is "no reason to think" it survives quantum corrections, and the bosonic spectrum mismatches (W spin 1, monopole spin 0). That is an expectation, not a no-go [Harvey hep-th/9603086; Osborn 1979]. v3 must state it. If F2 is adopted, S no longer carries α_d, and the burden shrinks to the §2 "full mirror spectrum" remark." (`review/v3-worklog.md`, 'Round-2 pending list').

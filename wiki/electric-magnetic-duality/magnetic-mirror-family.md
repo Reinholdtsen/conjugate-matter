@@ -31,7 +31,7 @@ Founding supposition 11, as #11's audit of P.R.'s founding suppositions records 
 
 > A full magnetic mirror-family, quarks included — **alive as established physics** (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition.
 
-The supposition was a conjecture of the program's first weeks. The audit found that the physics literature already contains it, in three forms, and it moved from the program's claims to its background. Section 11 of the checkpoint, where it was absorbed, first appeared in v2.0; [the handoff](/wiki/history/documents/handoff) lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3).
+The supposition was one of P.R.'s founding conjectures. The audit found that the physics literature already contains it, in three forms, and it moved from the program's claims to its background. Section 11 of the checkpoint, where it was absorbed, first appeared in v2.0; [the handoff](/wiki/history/documents/handoff) lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3).
 
 ## The dual spectrum in the literature [T]
 
@@ -59,7 +59,7 @@ Dirac showed that quantum mechanics allows a magnetic charge g alongside an elec
 
 > Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.
 
-"Heavy" follows because a monopole that arises as a soliton of a broken gauge symmetry has a mass of the symmetry-breaking scale times the inverse of the electric coupling: the ['t Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) has M = 4πf v/g for gauge coupling g, scale v and an order-one factor f [T] ([#14](/wiki/dark-matter/candidates/soliton-candidate) §3 gives the formula for the hidden sector). "Bound" refers to the strength of the magnetic interaction: at a coupling far above one, opposite magnetic charges attract strongly and bind [T]. If magnetic counterparts exist, their absence from experiments follows from the structure of the theory itself, which is what #11 means by "structural".
+"Heavy" follows because a monopole that arises as a soliton of a broken gauge symmetry has a mass of the symmetry-breaking scale multiplied by 4π/g, which is large when the gauge coupling g is small: the ['t Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) has M = 4πf v/g for scale v and an order-one factor f [T] ([#14](/wiki/dark-matter/candidates/soliton-candidate) §3 gives the formula for the hidden sector). "Bound" refers to the strength of the magnetic interaction: at a coupling far above one, opposite magnetic charges attract strongly and bind [T]. If magnetic counterparts exist, their absence from experiments follows from the structure of the theory itself, which is what #11 means by "structural".
 
 ### The convention behind 34
 

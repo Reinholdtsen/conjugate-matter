@@ -50,7 +50,7 @@ The [Dirac–Schwinger–Zwanziger pairing](/wiki/electric-magnetic-duality/mono
 
 ### What the conjecture adds
 
-#11 §11.3 establishes, as a structural observation [D — structural; math T], that the two choices are the same kind of operation and share a generator. The conjecture goes further: that they are not two copies of one operation but two components of a single structure, so that one choice might constrain the other. The checkpoint does not name the enlarged structure or say how the components would combine.
+#11 §11.3 establishes, as a structural observation [D — structural; math T], that the two choices are the same kind of operation and share a generator. The conjecture goes further: that they are not two copies of one operation but two components of a single structure. The checkpoint does not name the enlarged structure or say how the components would combine.
 
 | | phase space | charge space |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ In string theory two dualities of different origin are parts of one symmetry gro
 - **S-duality** relates strong and weak string coupling, and contains the Montonen–Olive duality of gauge theories as a special case ([S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality)).
 - **U-duality**, proposed by Hull and Townsend (1995)†, is a larger discrete symmetry of the type II superstrings on a torus that contains both.
 
-The analogy offers the program's ρ, a position–momentum exchange like T-duality's momentum–winding exchange, and the charge-lattice S as the two parts, and asks for the program's counterpart of U. The comparison with T-duality has a further echo in the record: #11 §7.1 contrasts the partner field of its own doubled phase-space geometry, the symmetric [momentum graviton](/wiki/gravity/momentum-graviton), with the antisymmetric B-field of string theory's doubled geometry, [double field theory](/wiki/phase-space/born-geometry/double-field-theory) [T].
+On the natural reading of the analogy, the program's ρ, a position–momentum exchange like T-duality's momentum–winding exchange, and the charge-lattice S are the two parts, and the conjecture asks for the program's counterpart of U; #11 does not spell out the correspondence. The comparison with T-duality has a further echo in the record: #11 §7.1 contrasts the partner field of its own doubled phase-space geometry, the symmetric [momentum graviton](/wiki/gravity/momentum-graviton), with the antisymmetric B-field of string theory's doubled geometry, [double field theory](/wiki/phase-space/born-geometry/double-field-theory) [T].
 
 ## The earlier, stronger form
 

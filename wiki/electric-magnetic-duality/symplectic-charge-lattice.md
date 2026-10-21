@@ -48,7 +48,7 @@ The pairing is antisymmetric: exchanging the two charges reverses its sign, ⟨q
 ⟨q, q′⟩ = (e₁, g₁) [[0, 1], [−1, 0]] (e₂, g₂)ᵀ = e₁g₂ − e₂g₁
 ```
 
-The normalization differs between sources. [The round-3 referee](/wiki/method/review/round-3), checking [#14](/wiki/dark-matter/candidates/soliton-candidate)'s citation of Dirac and Zwanziger, found that "Zwanziger's abstract states e_m g_n - g_m e_n in 4 pi Z; manuscript writes 2 pi Z (Dirac normalization). The 't Hooft-Polyakov monopole with doublets realises 2 pi, so the physics is fine; but [7] as cited states 4 pi. "Charge space is symplectic" is interpretation." The referee also noted that Schwinger was named but not cited (`review/round3/referee/audit-notes.md`, Step 1). Ruling 12 accepted these as minor citation issues ([round-3 rulings](/wiki/method/review/round-3/rulings)); #11 now cites Schwinger 1966 in [17]†.
+The normalization differs between sources. [The round-3 referee](/wiki/method/review/round-3), checking [#14](/wiki/dark-matter/candidates/soliton-candidate)'s citation of Dirac and Zwanziger, found that "Zwanziger's abstract states e_m g_n - g_m e_n in 4 pi Z; manuscript writes 2 pi Z (Dirac normalization). The 't Hooft-Polyakov monopole with doublets realises 2 pi, so the physics is fine; but [7] as cited states 4 pi. "Charge space is symplectic" is interpretation." The referee also noted that Schwinger was named but not cited (`review/round3/referee/audit-notes.md`, Step 1). Ruling 12 accepted these as minor citation issues ([round-3 rulings](/wiki/method/review/round-3/rulings)); #11's reference [17]† includes Schwinger 1966.
 
 ## The same geometry as phase space
 
@@ -73,7 +73,7 @@ Two charges with a vanishing pairing can be coupled to one set of gauge potentia
 
 ## A duality frame is a polarization
 
-The step the program adds [D — structural], #11 §11.3:
+#11 §11.3 then states the identification, attributing its wording to the literature:
 
 > Choosing a duality frame — which particles are "electric" (fundamental) versus "magnetic" (solitonic) — is choosing a Lagrangian polarization of charge space, in the literature's own words.
 
@@ -115,9 +115,9 @@ The section first appeared in the checkpoint's v2.0; the handoff lists "charge-l
 
 The critiques on record come from the reviews of the soliton manuscript, which used the identification as motivation for its hidden sector.
 
-- **Round 2.** The soliton manuscript's v2 used the shared matrix to fix its hidden coupling, conjecturing that reciprocity acts on gauge couplings as S. The referee graded the round "B near B/C / medium" with "weakest link = the α_d derivation ("matrix coincidence ≠ physical identity" / "numerology")" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two); [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
-- **#14 v3** stepped back: "We use this only as motivation: it suggests that the vacuum event that polarizes phase space also fixes which description of a gauge sector is the electric one. No numerical result below depends on it." (#14 §2). Its [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) asked for an action with η "selecting both the position polarization and the hidden sector's electric description" (#14 §6).
-- **Round 3.** The pre-registration expected the weakest link to be that the framework does no work: "Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification" (`review/round3-preregistration.md`). The referee agreed. Its citation check called "Charge space is symplectic" "interpretation" (Step 1), and its conceptual audit concluded that the phase-space framework did no work in the proposal (Step 4(d); [the 'framework does no work' critique](/wiki/program/framework-does-no-work); [review round 3](/wiki/method/review/round-3)).
+- **Round 2.** The soliton manuscript's v2 used the shared matrix to fix its hidden coupling, conjecturing that reciprocity acts on gauge couplings as S. The round-2 referee graded v2 "B near B/C / medium" with "weakest link = the α_d derivation ("matrix coincidence ≠ physical identity" / "numerology")" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two); [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
+- **#14 v3** kept the identification as motivation only: "We use this only as motivation: it suggests that the vacuum event that polarizes phase space also fixes which description of a gauge sector is the electric one. No numerical result below depends on it." (#14 §2). Its [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) asked for an action with η "selecting both the position polarization and the hidden sector's electric description" (#14 §6).
+- **Round 3.** The pre-registration expected the weakest link to be that the framework does no work: "Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification" (`review/round3-preregistration.md`). The referee named it as its second finding, after the Kibble normalization. Its citation check called "Charge space is symplectic" "interpretation" (Step 1), and its conceptual audit concluded that the phase-space framework did no work in the proposal (Step 4(d); [the 'framework does no work' critique](/wiki/program/framework-does-no-work); [review round 3](/wiki/method/review/round-3)).
 
 The withdrawn manuscript is [#14](/wiki/dark-matter/candidates/soliton-candidate). The checkpoint, amended after round 3, keeps §11.3 as a structural observation and makes no numerical use of it.
 

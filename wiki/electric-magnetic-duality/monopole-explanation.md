@@ -48,7 +48,7 @@ By argument, not by calculation. The checkpoint's v2.0, which added the charge-l
 
 > As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T].
 
-The sentence gives two independent reasons. Either one alone would remove the explanation.
+The sentence gives two reasons, and they do not depend on each other.
 
 ### The wrong duality
 
@@ -57,7 +57,7 @@ Two different symmetries are in play.
 - **Electric–magnetic duality** acts on fields and charges: it exchanges the electric and magnetic fields, E ↔ B, and with them electric and magnetic charges. Because Dirac's condition fixes the product of the two kinds of charge, it also exchanges weak and strong coupling, the "g → 1/g" of #11's sentence ([S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality); [Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization)) [T].
 - **Born reciprocity**, the symmetry the program is built on, acts on phase space: ρ: (x, p) → (p, −x), implemented on quantum states by the Fourier transform (#11 §3; [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)).
 
-The supposition used the second symmetry to explain a fact about the first. Whether a particle carries magnetic charge is a question about where it sits among electric and magnetic charges; which polarization its matter belongs to is a question about position and momentum. The duality that relates magnetic charges to electric ones, and that bears on why one kind is seen and the other is not, is electric–magnetic duality. The same section of the checkpoint finds that this duality has its own account of why magnetic particles are not seen: Dirac's condition makes them strongly coupled and heavy ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)). The program's later observation that the two dualities share a matrix is a structural comparison, not a mechanism that moves monopoles between sectors ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
+The supposition used the second symmetry to explain a fact about the first. Whether a particle carries magnetic charge is a question about where it sits among electric and magnetic charges; which polarization its matter belongs to is a question about position and momentum. The duality that relates magnetic charges to electric ones, and that bears on why one kind is seen and the other is not, is electric–magnetic duality. The same section of the checkpoint finds that this duality has its own account of why magnetic particles are not seen: Dirac's condition makes them strongly coupled and heavy ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)). The observation of §11.3 that the two dualities share a matrix is a structural comparison, not a mechanism that moves monopoles between sectors ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
 
 ### Inflation suffices [T]
 
@@ -80,7 +80,7 @@ The other half, conjugate monopoles as objects that may exist, survives because 
 ## What survives
 
 - **The ontology** [D]: if conjugate-sector monopoles exist, they gravitate ([conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)).
-- **The prediction for our sector.** [Row 8](/wiki/predictions/monopole-null) of #11 §13 keeps a permanent null for "Magnetic monopoles (ours)", with "Berry-curvature monopoles in solids as the only shadow", and is killed by "Direct detection". The parenthesis "(p-polarized solitons)" is gone; #11 states no reason for the row beyond §11.1's account of the absence by inflationary dilution.
+- **The prediction for our sector.** [Row 8](/wiki/predictions/monopole-null) of #11 §13 keeps a permanent null for "Magnetic monopoles (ours)", with "Berry-curvature monopoles in solids as the only shadow", and is killed by "Direct detection". The parenthesis "(p-polarized solitons)" is gone. #11 gives the row no separate rationale; its account of the absence of monopoles, in §11.1, is inflationary dilution [T].
 - **The laboratory shadow**: "Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux" (#11 §11.1).
 - **The charge lattice.** The same section of #11 adds the observation that choosing which charges count as electric is itself a polarization [D — structural; math T] ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
 
@@ -93,7 +93,6 @@ The candidate the supposition fed is dead as well. Superheavy monopoles of a hid
 - **v2.0, the checkpoint** (#11 §11.1, App. A item 5): the audit splits the supposition and kills the explanation; the handoff lists it as dead, "Conjugate monopoles as the *explanation* of our monopole non-detection (wrong duality; inflation suffices)" (`HANDOFF.md` §2).
 - **v2.1** (2026-10-19): the knot candidate the supposition fed is retired (#11 §11.1, §12).
 - **Now**: the README's tagline still names the dead explanation.
-
 
 ## Sources
 
