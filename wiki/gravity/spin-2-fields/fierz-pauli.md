@@ -36,7 +36,7 @@ A mass term is a term quadratic in h with no derivatives. Lorentz invariance all
 
 ## The Fierz–Pauli weight [T]
 
-Fierz and Pauli (1939†) showed that one relative weight, and only one, gives a healthy massive spin-2 field:
+Fierz and Pauli (1939†) wrote down the Lagrangian of a free massive spin-2 field. Its mass term has one particular relative weight, and with any other weight the field carries a ghost (van Nieuwenhuizen 1973†):
 
 ```text
 L_FP = L_kin[h] + L_mass,        L_mass ∝ −m² (h_μν h^μν − h²) = −m² (Tr(h²) − (Tr h)²)
