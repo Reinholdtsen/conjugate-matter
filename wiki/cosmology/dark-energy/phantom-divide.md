@@ -14,7 +14,7 @@ sources:
 
 *The phantom divide is the value w = −1 of the dark-energy equation of state, the value a cosmological constant has, and it separates two kinds of behaviour: above it, dark energy thins out as space expands; below it, in the regime called phantom, dark energy becomes denser as space expands. An ordinary scalar field cannot reach the phantom side, because the quantity that would have to become negative is the square of the field's rate of change. That fact is a case of the null energy condition, a standard requirement on physically reasonable matter. A measured w below −1 would therefore point to something unusual, such as a field with negative kinetic energy, several interacting fields or a change to gravity. The program's dark-energy field is an ordinary scalar, so a robust intrinsic w < −1 would kill the program's framework outright.*
 
-**Status:** Established — [T] — textbook physics, written here from general knowledge, with the literature it names marked †; the program's use of it is [D] in #1 §7 item 1 and is stated in #11 §10.
+**Status:** Established — [T] — textbook physics, written here from general knowledge, with the literature it names marked †; the program's use of it is [D] in #1 §7 item 1 and is stated in [checkpoint #11](/wiki/history/documents/checkpoint) §10.
 
 ## Why w = −1 is a divide [T]
 
@@ -36,7 +36,7 @@ For constant w the solution is ρ ∝ a^{−3(1+w)}, and a phantom exponent is p
 
 ### The condition
 
-General relativity allows any stress-energy tensor T_μν as a source, so physicists impose energy conditions to separate reasonable matter from unreasonable (Hawking and Ellis †). The weakest of the standard set is the null energy condition (NEC): for every light-like vector k,
+[General relativity](/wiki/gravity/spin-2-fields/general-relativity) allows any stress-energy tensor T_μν as a source, so physicists impose energy conditions to separate reasonable matter from unreasonable (Hawking and Ellis †). The weakest of the standard set is the null energy condition (NEC): for every light-like vector k,
 
 ```text
 T_μν k^μ k^ν ≥ 0

@@ -17,7 +17,7 @@ sources:
 
 *The Dark Energy Spectroscopic Instrument (DESI) is a survey that measures the redshifts of galaxies and quasars in order to map how the universe has expanded over a long span of its history. Its main tool is baryon acoustic oscillations (BAO): sound waves in the hot plasma of the early universe left a preferred separation between concentrations of matter, a fixed length that serves as a ruler at every later epoch. In Fourier terms the imprint is a single bump in the correlation between galaxy positions and a series of wiggles in its transform, the power spectrum. Measuring the ruler's apparent size at different redshifts gives distances, and the dark-energy equation of state is inferred from those distances by fitting a model; it is not observed directly. DESI's data releases are the external clock for the program's dark-energy sector, and its second release already leans against the program's requirement.*
 
-**Status:** Established — [T] — survey physics, written here from general knowledge; the release the program cites is live-searched [21S] (#11 §10).
+**Status:** Established — [T] — survey physics, written here from general knowledge; the release the program cites is live-searched [21S] ([checkpoint #11](/wiki/history/documents/checkpoint) §10).
 
 ## The survey [T]
 
@@ -62,7 +62,7 @@ The result is a posterior distribution for the parameters of the chosen form. Di
 
 ## The data releases
 
-- **Data Release 1 (DR1).** The documents mention it only alongside the second: the [handoff](/wiki/history/documents/handoff) called the framework "Consistent with DESI DR1/DR2 drift hints" (`HANDOFF.md` §2), and the lab notebook says hilltop and axion potentials "have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2). No DR1 paper is in #11's reference list.
+- **Data Release 1 (DR1).** The documents mention it only alongside the second: the [handoff](/wiki/history/documents/handoff) called the framework "Consistent with DESI DR1/DR2 drift hints" (`HANDOFF.md` §2), and the [lab notebook](/wiki/history/documents/lab-notebook) says hilltop and axion potentials "have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2). No DR1 paper is in #11's reference list.
 - **Data Release 2 (DR2).** #11's reference [21][S]: DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025). It is the release that reports a crossing of w = −1, below −1 above z ≃ 0.4 (#11 §10). The lab notebook's citation "DESI 2025" [T] (#1 §7 item 2) carries no arXiv number; it is probably the same paper, an identification no document makes.
 - **Data Release 3 (DR3).** The handoff gives it as "DESI DR3 (three-year data, expected late 2026)" and calls it the "External clock" (`HANDOFF.md` §2). #11 §10: "DR3 is the decisive test (§13, row 4)."
 
@@ -70,7 +70,7 @@ The result is a posterior distribution for the parameters of the chosen form. Di
 
 The survey is the external test of the program's dark-energy sector. The sector's requirement, a thawing w(z) that never falls below −1, is [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) of #11 §13, and its kill conditions are stated in terms of DESI: "DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10)" (#11 §13 row 4). #11 §15 names the survey as the program's nearest trial: "Its nearest trial is DESI's next release, and the current release already leans against its dark-energy prediction (§10)."
 
-The reading of the survey has changed. Before the round-3 review the documents read DESI's results as support; since #11 v2.1 the second release is recorded as a phantom crossing that stands against the program's bound, and the root `CLAUDE.md` says "The dark-energy sector is under real pressure ahead of DR3" ('Since the handoff'). The earlier readings and the change are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing#superseded-the-earlier-readings-of-desi); the bound is [the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound).
+The reading of the survey has changed. Before the [round-3](/wiki/method/review/round-3) review the documents read DESI's results as support; since #11 v2.1 the second release is recorded as a phantom crossing that stands against the program's bound, and the root `CLAUDE.md` says "The dark-energy sector is under real pressure ahead of DR3" ('Since the handoff'). The earlier readings and the change are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing#superseded-the-earlier-readings-of-desi); the bound is [the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound).
 
 ## Used by
 
@@ -78,7 +78,7 @@ The reading of the survey has changed. Before the round-3 review the documents r
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — "w(z) is inferred from distances rather than observed".
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the fits that compare τ-type models with the data.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the test that Data Release 3 decides.
-- [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — founding supposition 7 is "live at DESI DR3" (#11 App. A item 7).
+- [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — [founding supposition 7](/wiki/program/founding-suppositions) is "live at DESI DR3" (#11 App. A item 7).
 
 ## Sources
 

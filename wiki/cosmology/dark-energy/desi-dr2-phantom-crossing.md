@@ -24,7 +24,7 @@ sources:
 
 *DESI DR2's phantom crossing is the finding, reported in 2025 from the second data release (Data Release 2, DR2) of the Dark Energy Spectroscopic Instrument (DESI), that the dark-energy equation of state favoured by the data lies above −1 at low redshift and crosses below −1, into the phantom regime, at redshifts above about 0.4, in every combination of datasets analysed. The program requires dark energy never to be phantom, so its requirement stands against the direct reading of these data, and its dark-energy sector is under real pressure. The sector survives on two stated points: fits without a phantom phase remain compatible at about two standard deviations, and the equation of state is inferred from distance measurements rather than observed. The third data release is the decisive test.*
 
-**Status:** Record — the measurement is cited [21S] in #11 §10, "Under pressure (v2.1)" — raised by the round-3 referee, accepted as ruling 11 and written into #11 v2.1; per the root `CLAUDE.md` the dark-energy sector is "under real pressure ahead of DR3", DESI's Data Release 3.
+**Status:** Record — the measurement is cited [21S] in [checkpoint #11](/wiki/history/documents/checkpoint) §10, "Under pressure (v2.1)" — raised by the round-3 referee, accepted as ruling 11 and written into #11 v2.1; per the root `CLAUDE.md` the dark-energy sector is "under real pressure ahead of DR3", DESI's Data Release 3.
 
 ## What DESI reported
 
@@ -46,7 +46,7 @@ Three terms in the quotation need a gloss.
 
 ## What it means for the program
 
-The program's dark-energy field τ is a canonical scalar, and the program requires "strictly w ≥ −1" (#11 §10; [the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound)). The phase that DR2 favours above z ≃ 0.4 is the phase the bound excludes. #11 §10 draws the consequence in its "Under pressure (v2.1)" paragraph:
+The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a canonical scalar, and the program requires "strictly w ≥ −1" (#11 §10; [the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound)). The phase that DR2 favours above z ≃ 0.4 is the phase the bound excludes. #11 §10 draws the consequence in its "Under pressure (v2.1)" paragraph:
 
 > The framework's strict w ≥ −1 therefore stands against the direct reading of the data. It survives on two points: non-phantom quintessence fits remain compatible [19S], and w(z) is inferred from distances rather than observed, as [21S] also notes. DR3 is the decisive test (§13, row 4).
 
@@ -61,7 +61,7 @@ In this wiki's reading, both points concern whether the data meet the kill condi
 
 The finding entered the program through the review of a different manuscript.
 
-- **The claim reviewed.** The soliton manuscript #14 v3, since withdrawn, said in passing: "The parent framework's cosmological sector separately predicts thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). Its exclusion condition 6 read: "Robust dark-energy measurement of constant w = -1 or intrinsic w < -1 (kills the parent framework's cosmological sector)" (§5).
+- **The claim reviewed.** The [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 v3, since withdrawn, said in passing: "The parent framework's cosmological sector separately predicts thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). Its exclusion condition 6 read: "Robust dark-energy measurement of constant w = -1 or intrinsic w < -1 (kills the parent framework's cosmological sector)" (§5).
 - **The referee.** The [round-3](/wiki/method/review/round-3) referee, a blind subagent with web access, listed the sentence as uncited (`review/round3/referee/audit-notes.md` Step 1) and added a "Dark-energy aside" (Step 4(c) item 11). It quoted DR2, "the favored w(z) shows a phase of w > -1 at low redshifts and a phantom crossing to w < -1 above redshifts z ~ 0.4", and concluded: "'Never-phantom ... consistent with hints' is at best partially true; the DESI-preferred solution is phantom-crossing, which exclusion condition 6 says would kill the framework."
 - **The ruling.** The adjudication's table records the finding as ruling 11, "DESI DR2's best fit crosses into phantom (w < −1) above z ≈ 0.4", rules it **Accepted**, and gives as evidence: "The parent framework's 'never phantom' needs the checkpoint's own nuance: non-phantom fits remain compatible at ~2σ." ([round-3 rulings](/wiki/method/review/round-3/rulings)).
 - **The decision.** Decision 4 scheduled a cleanup before further work, including: "give §10 the DESI DR2 phantom-crossing nuance (ruling 11)" ([round-3 decisions](/wiki/method/review/round-3/decisions)). Paul delegated the round-3 decisions to Claude on 2026-10-19 and keeps the veto (`review/round3-adjudication.md`, 'Decisions').

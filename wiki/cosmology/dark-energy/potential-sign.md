@@ -22,7 +22,7 @@ sources:
 
 *The sign problem is a conflict in the program's documents about the potential energy V(τ) of the dark-energy field τ. They write it as V = V₀[1 + cos(τ/f)], and since a cosine never goes below −1, this potential is never negative when V₀ is positive. Yet the program's far-future turnaround, in which our expansion halts and reverses, requires the potential to become negative, and the published fits the program cites for that event use potentials with a negative minimum. No document discusses the conflict, so the turnaround, its reading as the conjugate bounce, and the turnaround time in the over-constraint all rest on an unresolved point until an executed check settles it. This page records the conflict and does not choose a side.*
 
-**Status:** Open — untagged; not among #11 §14's open problems and not on the current queue — the conflict was found when the sources were read side by side for this wiki, no document resolves it, and it needs an executed check. It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence). Listed on [open problems and the queue](/wiki/status/open-problems) and [conflicts between sources](/wiki/history/documents/source-conflicts).
+**Status:** Open — untagged; not among [checkpoint #11](/wiki/history/documents/checkpoint) §14's open problems and not on the current queue — the conflict was found when the sources were read side by side for this wiki, no document resolves it, and it needs an executed check. It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence). Listed on [open problems and the queue](/wiki/status/open-problems) and [conflicts between sources](/wiki/history/documents/source-conflicts).
 
 ## The conflict in one line
 
@@ -51,7 +51,7 @@ A turnaround needs the total vacuum energy to become negative: only then does th
 | #1 §12 (v0.1) | τ is "destined to go negative (turnaround = the conjugate bounce, by constraint)" |
 | #9 §8, italic passage (v1) | dark energy "eventually goes negative — at which point our expansion halts and reverses" |
 | #9 §9 row 5 (v1) | "Turnaround after V(τ) < 0 = conjugate bounce" |
-| `HANDOFF.md` §2 | "eventual negative V ⇒ turnaround = conjugate bounce" |
+| `HANDOFF.md` §2 ([the handoff](/wiki/history/documents/handoff)) | "eventual negative V ⇒ turnaround = conjugate bounce" |
 | #11 §10, italic passage | dark energy "eventually goes negative — at which point our expansion halts and reverses" |
 
 #1 quotes are transcribed from its LaTeX. #11's technical text does not repeat the requirement in words; it states "The turnaround is the conjugate bounce by constraint identity" (§10) and sets row 5 as "Turnaround = conjugate bounce" (§13), both of which presuppose a turnaround.
@@ -66,9 +66,9 @@ A potential with a negative minimum lets the field settle where the vacuum energ
 
 ## What depends on it
 
-- **The turnaround as the conjugate bounce.** The identity that our turnaround is the conjugate universe's bounce, through the constraint a·ã = 1, presupposes a turnaround ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)).
+- **The turnaround as the conjugate bounce.** The identity that our turnaround is the [conjugate universe](/wiki/program/conjugate-universe)'s bounce, through [the constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint), presupposes a turnaround ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)).
 - **Row 5.** The prediction "Turnaround = conjugate bounce", with the standard expectation "Eternal de Sitter" (#11 §13; [row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion)).
-- **Founding supposition 7.** "Our expansion reverses at their bounce — **alive, corrected**", "live at DESI DR3" (#11 App. A item 7), DESI being the Dark Energy Spectroscopic Instrument and DR3 its Data Release 3 ([founding suppositions and their fates](/wiki/program/founding-suppositions)).
+- **Founding supposition 7.** "Our expansion reverses at their bounce — **alive, corrected**", "live at DESI DR3" (#11 App. A item 7), DESI being the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) and DR3 its Data Release 3 ([founding suppositions and their fates](/wiki/program/founding-suppositions)).
 - **The third leg of the over-constraint.** The turnaround time t_turn is one of the three observables counted against two parameters ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)).
 - **The popular accounts of the ending.** #12: "The orientation's energy landscape dips below zero, and once the stored energy goes negative, the cosmic push becomes a pull" ('Dark energy as the orientation of the split'); #10: "a weakening that eventually goes negative means our expansion one day stalls and reverses" ('The referee is already on the field'). See [the popular articles](/wiki/history/documents/popular-articles).
 

@@ -15,7 +15,7 @@ sources:
 
 *Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a cosmological constant's does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
 
-**Status:** Established — [T] — textbook cosmology, written here from general knowledge, with the literature it names marked †; the fits #11 cites are live-searched [S] (#11 refs [19]–[21]).
+**Status:** Established — [T] — textbook cosmology, written here from general knowledge, with the literature it names marked †; the fits that [checkpoint #11](/wiki/history/documents/checkpoint) cites are live-searched [S] (#11 refs [19]–[21]).
 
 ## Dark energy and the equation of state
 
@@ -95,7 +95,7 @@ with a period 2πf in φ. The shift symmetry keeps the field light, and its maxi
 
 ### The program's choice
 
-#11 §10: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology". In the program the period is not chosen: τ is an angle on a circle in the space of polarizations ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). The program's version is on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), and one of its fits in the literature is an axion-quintessence analysis of DESI data, Ureña-López et al. [20S].
+#11 §10: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology". In the program the period is not chosen: τ is an angle on a circle in the space of polarizations ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). The program's version is on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), and one of its fits in the literature is an axion-quintessence analysis of data from the Dark Energy Spectroscopic Instrument (DESI), Ureña-López et al. [20S] ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)).
 
 ## The w₀–wₐ parametrization [T]
 

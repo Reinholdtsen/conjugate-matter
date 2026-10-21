@@ -17,7 +17,7 @@ sources:
 
 *Fifth-force safety is the requirement that a new light field not produce a detectable extra force between ordinary bodies. The program's dark-energy field τ is extremely light, so if it coupled to ordinary matter through its value, as the gravitational potential does, it would add a long-range force of the kind that torsion-balance experiments search for. The lab notebook argues that τ is an approximate Goldstone field, one whose couplings are fixed by a symmetry under shifting its value, so it couples to matter only through its rate of change, which produces no such static force between ordinary bodies. The argument appears only in the lab notebook, in its first version; the current checkpoint does not restate it, and no script checks it.*
 
-**Status:** Alive — [D] (#1 §4) — argued in the lab notebook only; #11 does not restate it, it names no experiment and cites no bound, and no `verify/` script checks it.
+**Status:** Alive — [D] (#1 §4) — argued in the lab notebook only; [checkpoint #11](/wiki/history/documents/checkpoint) does not restate it, it names no experiment and cites no bound, and no `verify/` script checks it.
 
 ## The statement
 
@@ -25,7 +25,7 @@ The [lab notebook](/wiki/history/documents/lab-notebook)'s section "Consistency 
 
 > **Fifth forces.** τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa to SM matter, safe from torsion-balance bounds despite being ultralight. **[D]**
 
-τ is the program's dark-energy field, the angle around the Maslov circle of the space of polarizations ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)). The statement has three parts: τ is a pseudo-Goldstone field; therefore its couplings to ordinary matter are derivative, with no Yukawa coupling at tree level; therefore it does not produce the static force that torsion balances test, however light it is. The sections below take them in reverse order.
+τ is the program's dark-energy field, the angle around the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase) of the space of polarizations ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)). The statement has three parts: τ is a pseudo-Goldstone field; therefore its couplings to ordinary matter are derivative, with no Yukawa coupling at tree level; therefore it does not produce the static force that torsion balances test, however light it is. The sections below take them in reverse order.
 
 ## Fifth forces and how they are tested [T]
 
@@ -60,7 +60,7 @@ In neither case is there a static attraction between unpolarized masses proporti
 
 τ is not an exact Goldstone field, because it has a potential. Its potential, V(τ) = V₀[1 + cos(τ/f)] (#1 §3), is invariant only under shifts by whole periods, τ → τ + 2πf, not under arbitrary constant shifts. The continuous shift symmetry is therefore broken explicitly, by a small amount set by V₀, and τ is a pseudo-Goldstone field: light, with couplings that are derivative up to effects of that breaking ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). The notebook's claim is limited accordingly to "no tree-level Yukawa"; it does not estimate couplings induced at loop level through the potential.
 
-The later documents keep the pseudo-Goldstone picture and give it a firmer footing. Version 2.2 of the checkpoint finds from the toy models that the polarization is a Goldstone angle, and adds: "A definite polarization needs a ρ-preserving potential on that angle" (#11 §4, the P2′ refinement, [D][V]; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The toy-model worklog notes that in 3+1 dimensions the coset model "can break the continuous U(1) itself, with τ an exactly massless Goldstone", and that since τ has a potential, "the explicit breaking is in the program anyway"; it summarizes the result as "a pseudo-Goldstone polarization angle with a ρ-symmetric potential" (`notes/toy-lagrangian.md`, 'Chunk 3 results').
+The later documents keep the pseudo-Goldstone picture and give it a firmer footing. Version 2.2 of the checkpoint finds from the toy models that the polarization is a Goldstone angle, and adds: "A definite polarization needs a ρ-preserving potential on that angle" (#11 §4, the [P2′](/wiki/program/postulates/p2-prime) refinement, [D][V]; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The toy-model worklog notes that in 3+1 dimensions the coset model "can break the continuous U(1) itself, with τ an exactly massless Goldstone", and that since τ has a potential, "the explicit breaking is in the program anyway"; it summarizes the result as "a pseudo-Goldstone polarization angle with a ρ-symmetric potential" (`notes/toy-lagrangian.md`, 'Chunk 3 results').
 
 ## Scope
 
@@ -72,7 +72,7 @@ The later documents keep the pseudo-Goldstone picture and give it a firmer footi
 
 ## A related open problem
 
-τ's mixing with the modes that the momentum graviton X absorbs when it becomes massive has not been computed: "τ–Stückelberg mixing matrix [O]" (#11 §14 item 6). Calc note #8 logged it as "expected small by compactness" (`notes/debt1a-iv-beta-coefficients.md` §3), and #9 repeats the expectation (§10 item 5). See [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) and [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten).
+τ's mixing with the modes that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive has not been computed: "τ–Stückelberg mixing matrix [O]" (#11 §14 item 6). [Calc note #8](/wiki/history/documents/debt-1-notes) logged it as "expected small by compactness" (`notes/debt1a-iv-beta-coefficients.md` §3), and #9 repeats the expectation (§10 item 5). See [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) and [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten).
 
 ## Compare: X is safe by range
 

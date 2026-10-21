@@ -24,11 +24,11 @@ sources:
 
 *The no-phantom bound is the program's requirement that the dark-energy equation of state w never fall below −1, the value of a cosmological constant. It holds because the program's dark-energy field τ is an ordinary (canonical) scalar field, whose energy density can fall or hold steady as space expands but never rise, while w < −1, the phantom regime, would make it rise. The bound makes the dark-energy sector a sharp test: a robust measurement of an intrinsic w < −1 would kill the program's framework outright. The second data release of the Dark Energy Spectroscopic Instrument (DESI) favours exactly such a phase at redshifts above about 0.4, so the bound stands against the direct reading of current data and is under real pressure; it survives only because fits without a phantom phase remain compatible and because w is inferred rather than observed.*
 
-**Status:** Alive, under real pressure — [D] in #1 §7 item 1, and part of #11 §10's [D + T] paragraph — not machine-checked; its test is [row 4](/wiki/predictions/dark-energy-drift), and DESI's Data Release 2 (DR2) leans against it ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing); root `CLAUDE.md`: "under real pressure ahead of DR3").
+**Status:** Alive, under real pressure — [D] in #1 §7 item 1, and part of [checkpoint #11](/wiki/history/documents/checkpoint) §10's [D + T] paragraph — not machine-checked; its test is [row 4](/wiki/predictions/dark-energy-drift), and DESI's Data Release 2 (DR2) leans against it ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing); root `CLAUDE.md`: "under real pressure ahead of DR3").
 
 ## The statement
 
-#11 §10, in the paragraph tagged **Dark energy [D + T]**: τ is hilltop quintessence on the Maslov circle, with "strictly w ≥ −1". The [lab notebook](/wiki/history/documents/lab-notebook) states and tags the bound (#1 §7 item 1, transcribed from its LaTeX):
+#11 §10, in the paragraph tagged **Dark energy [D + T]**: τ is hilltop quintessence on the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase), with "strictly w ≥ −1". The [lab notebook](/wiki/history/documents/lab-notebook) states and tags the bound (#1 §7 item 1, transcribed from its LaTeX):
 
 > **w ≥ −1 always.** τ is a canonical scalar; the null energy condition holds; phantom crossing is impossible. **[D]** Any robust measurement of w < −1 (as an intrinsic equation of state, not an artifact of an assumed ΛCDM background) falsifies this sector outright.
 
@@ -97,7 +97,7 @@ Both popular articles explain the bound through the sign of kinetic energy ([the
 - **v0.2.** After Debt 3, the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
 - **v1 (#9 §8; §9 row 4).** "Strictly w ≥ −1", and the requirement "**never phantom**", with the kill "robust intrinsic w < −1 (kills outright)".
 - **#11 v2.0.** §10 "strictly w ≥ −1"; row 4 as in v1.
-- **Round 3.** The soliton manuscript #14 v3 described the parent framework as predicting "thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). The [round-3](/wiki/method/review/round-3) referee found the DESI-preferred solution phantom-crossing, and ruling 11 accepted it: "The parent framework's 'never phantom' needs the checkpoint's own nuance: non-phantom fits remain compatible at ~2σ." ([round-3 rulings](/wiki/method/review/round-3/rulings)).
+- **Round 3.** The [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 v3, since withdrawn, described the parent framework as predicting "thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). The [round-3](/wiki/method/review/round-3) referee found the DESI-preferred solution phantom-crossing, and ruling 11 accepted it: "The parent framework's 'never phantom' needs the checkpoint's own nuance: non-phantom fits remain compatible at ~2σ." ([round-3 rulings](/wiki/method/review/round-3/rulings)).
 - **#11 v2.1 (2026-10-19).** §10 gains the "Under pressure (v2.1)" paragraph, row 4 the clause "DR2 already favors a crossing above z ≈ 0.4 (§10)", and §15 the degeneration risk. The bound itself is unchanged.
 
 ## Sources
