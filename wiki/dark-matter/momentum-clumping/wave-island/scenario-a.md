@@ -138,7 +138,7 @@ Debt 3c checks the remaining freedom:
 
 > Robustness checks: shrinking v\* makes it worse (σ⁻⁶ leverage boosts R to ~10⁵); growing v\* leaves R unchanged; κ < 1 is by definition Scenario B. No parameter direction rescues it.
 
-- **A narrower gate** (smaller v\*) makes the verdict stronger. In the gate-narrow regime the rate falls as σ⁻⁶ instead of σ⁻² ([the rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate)), which the note calls "σ⁻⁶ leverage", and it raises R to about 10⁵.
+- **A narrower gate** (smaller v\*) makes the verdict stronger: the note attributes a rise of R to about 10⁵ to "σ⁻⁶ leverage". In the gate-narrow regime the rate falls as σ⁻⁶ rather than σ⁻² ([the rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate)).
 - **A wider gate** (larger v\*) changes nothing; R stays as computed.
 - **A smaller core normalization**, κ < 1, means that the gated channel does not make the cores. That is no longer Scenario A but [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b).
 
