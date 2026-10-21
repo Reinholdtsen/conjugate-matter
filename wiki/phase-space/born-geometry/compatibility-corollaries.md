@@ -25,7 +25,7 @@ sources:
   - "HANDOFF.md §5"
 ---
 
-*Three consequences follow from the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)'s answer H = diag(g, g⁻¹). The determinant of H is 1, so the phase-space volume that H measures cannot change, which the program reads as the constancy of Planck's constant built into the geometry. The off-diagonal block, where [double field theory](/wiki/phase-space/born-geometry/double-field-theory) keeps its antisymmetric B-field, must vanish. And the momentum metric is fixed as the inverse of the position metric, g̃ = g⁻¹, so momentum space has no geometry of its own. That last corollary contradicted the program as it then stood: the dark-energy field and the geometric origin of the dark-matter gate both disappeared. It forced the postulate change to P2′, under which the block form, and with it the slaved momentum metric, holds only on the vacuum slice of the modular field.*
+*Three consequences follow from the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)'s answer H = diag(g, g⁻¹). The determinant of H is 1, so the phase-space volume that H measures cannot change, which the program reads as the constancy of Planck's constant built into the geometry. The off-diagonal block, where [double field theory](/wiki/phase-space/born-geometry/double-field-theory) keeps its antisymmetric B-field, must vanish. And the momentum metric is fixed as the inverse of the position metric, g̃ = g⁻¹, so momentum space has no geometry of its own. That last corollary contradicted the program as it then stood: the dark-energy field and the geometric origin of [the dark-matter gate](/wiki/dark-matter/conjugate-matter/velocity-gate) both disappeared. It forced the postulate change to P2′, under which the block form, and with it the slaved momentum metric, holds only on the vacuum slice of the modular field.*
 
 **Status:** Established — derived in #5 as rigorous corollaries ("[D — rigorous]") of a theorem that #11 v2.1 credits to Freidel–Leigh–Minic [T]; the reading of det H = 1 as ℏ-rigidity is the program's — det H = 1 off the vacuum slice is machine-checked at one sampled point of the modular family (battery test T2, [the battery](/wiki/method/verification/battery)), so #11's statement that it persists across the whole family stays [D] here.
 
@@ -43,7 +43,7 @@ Checkpoint [#11](/wiki/history/documents/checkpoint) §5 lists them in one line:
 
 **The statement.** The determinant of a block-diagonal matrix is the product of the blocks' determinants, and det g⁻¹ = 1/det g, so det diag(g, g⁻¹) = 1 for every g [T]. The volume element that H defines on phase space is therefore the same everywhere, whatever g does: "phase-space volume is not a dynamical field" (#5 §A).
 
-**The reading.** In quantum mechanics ℏ sets the size of the phase-space cell occupied by one state, and the program reads the rigid symplectic form ω as the constancy of ℏ ([the symplectic form](/wiki/phase-space/reciprocity/symplectic-form); [the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)). It reads det H = 1 as the same rigidity seen in the metric: "ℏ-rigidity is manifest in the geometry, not imposed on it" (#5 §A), "unimodularity of H (det H = 1) as the geometric face of ℏ-rigidity" (#5 §F). The mathematics is elementary; the reading is the program's.
+**The reading.** In quantum mechanics ℏ sets the size of the phase-space cell occupied by one state [T], and the program reads the rigid symplectic form ω as the constancy of ℏ ([the symplectic form](/wiki/phase-space/reciprocity/symplectic-form); [the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)). It reads det H = 1 as the same rigidity seen in the metric: "ℏ-rigidity is manifest in the geometry, not imposed on it" (#5 §A), "unimodularity of H (det H = 1) as the geometric face of ℏ-rigidity" (#5 §F). The mathematics is elementary; the reading is the program's.
 
 **Across the modular family.** Under P2′ only ω is rigid, and H ranges over the Siegel family H_Z ([the Siegel domain](/wiki/phase-space/modular-field/siegel-domain)), with the parametrization of #5 §C:
 
@@ -111,13 +111,13 @@ The handoff lists among the results that exist only in the claude.ai conversatio
 
 ## Sources
 
+- `papers/broken-born-checkpoint-v2.md` §5, §2, §7.1 — the corollaries in the current reference; the family-wide det H = 1 claim; X against the antisymmetric B-field.
+- `review/round3/referee/audit-notes.md` Step 3, `review/round3/referee/step3.out` and `review/round3/referee/step3.py` family (a) — det H = 1 on the diag(g, g⁻¹) family, and the matrix the check uses; the B-field family.
+- `papers/conjugate-special-relativity.md` §1 — the block form as two metrics with two cones.
+- `HANDOFF.md` §2, §4, §5 — the ✓ on the theorem line; the chat-only remark on the slaved layer; T2 as "det H = 1 off-vacuum".
 - `notes/debt1a-geometric-core.md` §A — the three corollaries, "[D — rigorous]".
 - `notes/debt1a-geometric-core.md` §B — "Corollary 3 collides with the theory as documented"; Branch R; the repair.
 - `notes/debt1a-geometric-core.md` §C, §F — H_Z and the vacuum slice X = 0; unimodularity as "the geometric face of ℏ-rigidity".
-- `papers/broken-born-checkpoint-v2.md` §5, §2, §7.1 — the corollaries in the current reference; the family-wide det H = 1 claim; X against the antisymmetric B-field.
-- `verify/battery.py` T2 — det H_Z = 1 at one sampled Siegel point.
-- `review/round3/referee/audit-notes.md` Step 3, `review/round3/referee/step3.out` and `review/round3/referee/step3.py` family (a) — det H = 1 on the diag(g, g⁻¹) family, and the matrix the check uses; the B-field family.
 - `notes/broken-born-theory.md` §3, 'Addendum (v0.3, overnight)' — g and g̃ as the blocks of H; strict P2 as "GR plus one bespoke SIDM model".
 - `notes/knot-dark-matter-standalone.md` §1 — momentum-space geometry resides in X.
-- `papers/conjugate-special-relativity.md` §1 — the block form as two metrics with two cones.
-- `HANDOFF.md` §2, §4, §5 — the ✓ on the theorem line; the chat-only remark on the slaved layer; T2 as "det H = 1 off-vacuum".
+- `verify/battery.py` T2 — det H_Z = 1 at one sampled Siegel point.

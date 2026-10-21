@@ -35,7 +35,7 @@ sources:
   - "HANDOFF.md §6"
 ---
 
-*The compatibility theorem is a statement of linear algebra about metrics on phase space: if the symplectic form ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is Freidel, Leigh and Minic's; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in round 3 and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to general relativity plus one dark-matter model, so the program replaced its postulate P2 with P2′ and let η vary.*
+*The compatibility theorem is a statement of linear algebra about metrics on phase space: if [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is Freidel, Leigh and Minic's; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in round 3 and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one dark-matter model, so the program replaced its postulate [P2](/wiki/program/postulates/original-p2) with [P2′](/wiki/program/postulates/p2-prime) and let η vary.*
 
 **Status:** Established — literature [T] (Freidel–Leigh–Minic, #11 ref. [26S, §2.1]), with the program's block proof machine-checked [V] (battery test T1; [the battery](/wiki/method/verification/battery)) — re-derived independently in round 3 by symbolic algebra, a Gröbner basis and numerical families; re-attributed from "derived here" to the literature in #11 v2.1.
 
@@ -56,7 +56,7 @@ For a symmetric H with ω and η in standard form, each condition says that H pr
 - **(η⁻¹H)² = 1** says that H preserves η, so H is an element of O(d, d). Such matrices are the generalized metrics of [double field theory](/wiki/phase-space/born-geometry/double-field-theory), built from a metric g and an antisymmetric B-field.
 - **(ω⁻¹H)² = −1** says that H preserves ω. The positive symplectic matrices form [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain), parametrized by a complex symmetric matrix Z = X + iY with Y positive definite.
 
-Each condition alone admits a large family, and round 3 sampled both: the family with a B-field satisfies the η condition and fails the ω condition, and the Siegel family with X ≠ 0 does the reverse (families (c) and (d) in the table below). The theorem says the two families meet only in diag(g, g⁻¹), where the B-field and X both vanish. In double field theory's terms this is Freidel, Leigh and Minic's statement that H "is related to ω through a complex structure exactly when B vanishes" (#11 §5). In the modular field's terms it is the slice X = 0: "the η-compatible locus X = 0 is the vacuum slice of §5" (#11 §6).
+Each condition alone admits a large family, and round 3 sampled both: the family with a B-field satisfies the η condition and fails the ω condition, and the Siegel family with X ≠ 0 does the reverse (families (c) and (d) in the table below). The theorem says the two families meet only in diag(g, g⁻¹), where the B-field and X both vanish. In double field theory's terms this is Freidel, Leigh and Minic's statement that H "is related to ω through a complex structure exactly when B vanishes" (#11 §5). In the terms of [the modular field](/wiki/phase-space/modular-field/modular-field-z) it is the slice X = 0: "the η-compatible locus X = 0 is the vacuum slice of §5" (#11 §6).
 
 ## The proof
 
@@ -137,7 +137,7 @@ Setting both residuals to zero in these identities gives B·A = 1 from the diago
 
 ### Numerical families at d = 3 and d = 4
 
-The referee drew 2000 random members of each family and measured the residuals, the matrix norms of E1 and E2 (`step3.py`). From `step3.out`:
+The referee drew 2000 random members of each of families (a) to (d), and one perturbation of each size for family (e), and measured the residuals, the matrix norms of E1 and E2 (`step3.py`). From `step3.out`:
 
 | Family | d = 3 | d = 4 |
 | --- | --- | --- |
@@ -204,11 +204,11 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - `review/round3-adjudication.md` "Rulings", "What survives v3", "Decisions" — verified, identified as Freidel–Leigh–Minic's result, kept "as [T], pending the FLM comparison"; the cleanup decision.
 - `review/round3/referee/audit-notes.md` Step 1, Step 3, Step 4(d) — the prior art; the symbolic, Gröbner and numerical re-derivation and the verdict; never used after Sec. 1.
 - `review/round3/referee/step3.out`, `review/round3/referee/step3_diag.out`, `review/round3/referee/step3_groebner.out`, `review/round3/referee/step3.py` — the referee's outputs and the residual definitions.
+- `papers/conjugate-special-relativity.md` §1 — the block form as two metrics with two cones.
+- `HANDOFF.md` §2, §6 — the ✓ in the handoff; round 1's doubt, settled by the machine check.
 - `notes/debt1a-geometric-core.md` §A, §C — the original proof, tagged "[D — rigorous]"; the vacuum slice.
 - `notes/debt1a-ii-X-classification.md` §3 — proven for positive H only.
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)'; `notes/broken-born-program-v1.md` §3 — the theorem as derived here, before the re-attribution.
 - `notes/knot-dark-matter-standalone.md` §1, §6 — "pointwise, in a flat frame"; listed as derived.
-- `papers/conjugate-special-relativity.md` §1 — the block form as two metrics with two cones.
 - `verify/battery.py` T1 — both directions and the two proof-block identities.
 - `scripts/check.sh` — the gate runs `verify/`, not the referee's scripts.
-- `HANDOFF.md` §2, §6 — the ✓ in the handoff; round 1's doubt, settled by the machine check.

@@ -28,7 +28,7 @@ sources:
   - "HANDOFF.md §2"
 ---
 
-*The program's main geometric results, [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), the parametrization of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) and the chain of arguments that forces the momentum graviton X to be massive, were proven for a positive-definite phase-space metric, the Euclidean case. Physical spacetime has Lorentzian signature, in which time enters with the opposite sign to space, and carrying the results over to it is open problem 3 of the checkpoint #11. The change is not a formality: with a Lorentzian metric the group that leaves the vacuum fixed becomes non-compact, and the metric on the space of field values becomes indefinite, the situation in which some field components would carry kinetic energy of the wrong sign. The working notes expect the gauge symmetry and mass mechanism already in the chain to keep the theory healthy there, and list the extension as a check. Nothing has been computed, and the checkpoint counts it among the three items on which the word "theory" still waits.*
+*The Lorentzian dressing of the Euclidean skeleton is the open problem of carrying the program's main geometric results over from a positive-definite phase-space metric, the Euclidean case, to the Lorentzian signature of physical spacetime, in which time enters with the opposite sign to space. Those results, [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), the parametrization of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) and the chain of arguments that forces [the momentum graviton X](/wiki/gravity/momentum-graviton) to be massive, were proven in the Euclidean case. The extension is open problem 3 of the checkpoint #11. The change is not a formality: with a Lorentzian metric the group that leaves the vacuum fixed becomes non-compact, and the metric on the space of field values becomes indefinite, the situation in which some field components would carry kinetic energy of the wrong sign. The working notes expect the gauge symmetry and mass mechanism already in the chain to keep the theory healthy there, and list the extension as a check. Nothing has been computed, and the checkpoint counts it among the three items on which the word "theory" still waits.*
 
 **Status:** Open [O] — #11 §14 item 3 — nothing computed; first flagged in calc note #6 §3 ("[Flagged, not glossed.]") and carried by #7, #8, #9, #13 and the handoff's open list ([open problems and the queue](/wiki/status/open-problems)).
 
@@ -44,7 +44,7 @@ The same note names the geometric inputs that share the restriction: "the compat
 
 ## Euclidean and Lorentzian signature [T]
 
-The signature of a metric counts its positive and negative directions. A positive-definite metric, all of whose directions have positive length, is called Euclidean (or Riemannian). A spacetime metric is Lorentzian: the time direction has the opposite sign to the three space directions. Only an indefinite metric has nonzero vectors of zero length, so only a Lorentzian metric has light cones.
+The signature of a metric counts its positive and negative directions. A positive-definite metric, all of whose directions have positive length, is called Euclidean (or Riemannian). A spacetime metric is Lorentzian: the time direction has the opposite sign to the three space directions. Only an indefinite metric has nonzero vectors of zero length, so of the two only a Lorentzian metric has light cones.
 
 The program's results assume the Euclidean case at the start. The compatibility theorem is a statement about positive H with g ∈ Sym⁺(d), and the Siegel domain requires "Z = X + iY (symmetric; Y > 0)" (#11 §6), where Y = Im Z is identified with the metric g. A Lorentzian g lies outside both settings.
 
@@ -91,11 +91,11 @@ The two rankings are consistent as written: the notes do not expect the extensio
 - `papers/broken-born-checkpoint-v2.md` §14 item 3 — the open item; §15 — "theory" waits on items 1–3.
 - `papers/broken-born-checkpoint-v2.md` §7.1, §1 — the signature obstruction in the X chain; "a signature obstruction" in the abstract.
 - `papers/broken-born-checkpoint-v2.md` §6 — the Siegel domain's Y > 0.
+- `papers/conjugate-special-relativity.md` preamble, §1, §2 — #13 inherits the caveat; its null cones and dual interval.
+- `HANDOFF.md` §2 — open item 5.
 - `notes/debt1a-ii-X-classification.md` §1–§3, §5 — the chain, the caveat, U(1, d−1), the definition of the Euclidean-rigorous skeleton, "[Flagged, not glossed.]"; the item listed as open.
 - `notes/debt1a-geometric-core.md` §D — the positive-definite Siegel target metric.
 - `notes/debt1a-iii-tuning-test.md` §2, §5 — the Euclidean frame of the tuning test; the dressing as a check.
 - `notes/debt1a-iv-beta-coefficients.md` §5 — the residue, "none of it existential".
 - `notes/broken-born-theory.md` 'Addendum (v0.5)', 'Addendum (v0.6)' — the logged checks; "none existential".
 - `notes/broken-born-program-v1.md` §10 item 2, §11 — the stabilizer U(1,3) at d = 4; "theory" awaits items 1–2.
-- `papers/conjugate-special-relativity.md` preamble, §1, §2 — #13 inherits the caveat; its null cones and dual interval.
-- `HANDOFF.md` §2 — open item 5.
