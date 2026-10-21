@@ -19,9 +19,9 @@ sources:
   - "popsci/universes-other-half.md 'Two descriptions of one thing'"
 ---
 
-*The Fourier transform is the exact, reversible map that turns a quantum state's description in position into its description in momentum — the same operation that turns a sound's waveform into its spectrum. Neither description approximates the other; each contains the whole state. Applied once, the transform carries out [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn ρ: (x, p) → (p, −x) of phase space; applied twice, it reflects x → −x; applied four times, it returns every state unchanged. The program takes the analogy literally: position and momentum are two descriptions of one state, and its toy models use the transform to relate a vacuum in which a matter coupling is local in position to its mirror image, in which the coupling is local in momentum.*
+*The Fourier transform is the exact, reversible map that turns a quantum state's description in position into its description in momentum — the same operation that turns a sound's waveform into its spectrum. Neither description approximates the other; each contains the whole state. Applied once, the transform carries out [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn ρ: (x, p) → (p, −x) of phase space; applied twice, it reflects x → −x; applied four times, it returns every state unchanged. The program takes the analogy literally: position and momentum are two descriptions of one state, and its [toy models](/wiki/symmetry-breaking/toy-models) use the transform to relate a vacuum in which a matter coupling is local in position to its mirror image, in which the coupling is local in momentum.*
 
-**Status:** Established — standard mathematics [T]; #11 §3 cites Born for its role [1†, 2†] — the parity property F²ψ(x) = ψ(−x) was checked numerically by the round-4 referee, and the toy-model uses are machine-checked [V] in `verify/toy_s5.py` and `verify/toy_gw.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Established — standard mathematics [T]; #11 §3 cites Born for its role [1†, 2†] — the parity property F²ψ(x) = ψ(−x) was checked numerically by the referee of [review round 4](/wiki/method/review/round-4), and the toy-model uses are machine-checked [V] in `verify/toy_s5.py` and `verify/toy_gw.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## Definition
 
@@ -81,13 +81,13 @@ The Fourier pair sets a trade-off: a signal cannot be both short in time and nar
 
 ### Model I: the matter coupling
 
-The toy-model note couples matter to the vacuum through a functional of a state's Wigner function, I[W] = ∫_{L+} du (∫_{L−} dv W)², where L± are the two eigenlines of the real structure K. At H = 1 it is ∫|ψ(x)|⁴ dx in the vacuum +K_ref and ∫|ψ̃(p)|⁴ dp in −K_ref, where ψ̃ is the transform of ψ (§5). For the note's test state the two vacua give 0.4070 and 0.3600 (§5).
+The toy-model note couples matter to the vacuum of [model I](/wiki/symmetry-breaking/toy-models/coset-model) through a functional of a state's Wigner function, I[W] = ∫_{L+} du (∫_{L−} dv W)², where L± are the two eigenlines of the real structure K ([the order parameter](/wiki/symmetry-breaking/order-parameter)). At H = 1 it is ∫|ψ(x)|⁴ dx in the vacuum +K_ref and ∫|ψ̃(p)|⁴ dp in −K_ref, where ψ̃ is the transform of ψ (§5). For the note's test state the two vacua give 0.4070 and 0.3600 (§5).
 
 The transform and the vacuum flip act together: "The combined map (ψ → Fψ, K → −K) leaves I invariant" (§5). The gate checks it as "rho-covariance: I_{-K}[W_{F psi}] = I_{+K}[W_psi]", and the round-4 referee reproduced it independently: "combined map: I_-K[F psi] = int |F(F psi)|^4 = 0.406972" against I_{+K}[ψ] = 0.406972 (`review/round4/referee/out_sec5_fix.txt`). See [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling).
 
 ### Model II: the Langmann–Szabo duality
 
-In the self-dual Grosse–Wulkenhaar model, the position–momentum duality of Langmann and Szabo is itself a Fourier transform, taken on the noncommutative (Moyal) plane, whose two coordinates do not commute: [x₁, x₂] = iθ, with θ = 1 (toy-model note §3). The note implements
+In [the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), the position–momentum duality of Langmann and Szabo is itself a Fourier transform, taken on the noncommutative (Moyal) plane, whose two coordinates do not commute: [x₁, x₂] = iθ, with θ = 1 (toy-model note §3). The note implements
 
 ```text
 D f(x) = (πθ)⁻¹ ∫ d²y e^(−i x̃·y) f(y)          x̃ = 2θ⁻¹x

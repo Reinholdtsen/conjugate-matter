@@ -40,7 +40,7 @@ A symplectic form on phase space ℝ^{2d} is an antisymmetric, non-degenerate pa
 ω(u, v) = u_x · v_p − u_p · v_x
 ```
 
-where u = (u_x, u_p) splits a vector into its position and momentum parts. The lab notebook writes this form with d = 4 (#1 §2); the toy-model note uses d = 1, where the blocks are single numbers (§1).
+where u = (u_x, u_p) splits a vector into its position and momentum parts. The lab notebook writes this form with d = 4 (#1 §2); the [toy-model note](/wiki/symmetry-breaking/toy-models) uses d = 1, where the blocks are single numbers (§1).
 
 Three properties make ω the structure of mechanics [T]:
 
@@ -74,7 +74,7 @@ squeeze    diag(a, 1/a)                                  stretches x by a, compr
 boost      S(t) = [[cosh t, sinh t], [sinh t, cosh t]]   the same stretch along the diagonals x ± p
 ```
 
-The boost matrix is the one the round-4 referee used ("S(t)=[[cosh t, sinh t],[sinh t, cosh t]] (symplectic: True)", audit notes Step 2(a)). It stretches the direction (1, 1) by eᵗ and compresses (1, −1) by e⁻ᵗ [T], so a boost is a squeeze along the diagonals. The referee's notes call diag(a, 1/a) a boost as well; this page follows the toy note, which calls it a squeeze.
+The boost matrix is the one the referee of [review round 4](/wiki/method/review/round-4) used ("S(t)=[[cosh t, sinh t],[sinh t, cosh t]] (symplectic: True)", audit notes Step 2(a)). It stretches the direction (1, 1) by eᵗ and compresses (1, −1) by e⁻ᵗ [T], so a boost is a squeeze along the diagonals. The referee's notes call diag(a, 1/a) a boost as well; this page follows the toy note, which calls it a squeeze.
 
 The quarter-turn ρ = [[0, 1], [−1, 0]] is the rotation R(π/2). It "is symplectic and squares to −1" (toy-model note §1), and ρ² = −1 is the half-turn, the parity (x, p) → (−x, −p) (#1 §2). The rotations form the compact subgroup SO(2), a circle. Squeezes and boosts are non-compact: their parameter runs to infinity [T].
 
@@ -82,13 +82,13 @@ The quarter-turn ρ = [[0, 1], [−1, 0]] is the rotation R(π/2). It "is symple
 
 By the [Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), a continuous compact symmetry cannot break spontaneously in a two-dimensional system [T]. The toy-model note applies it to the rotations only: "In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ. The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur [15]. Whether ρ's SO(2) stays unbroken in the full coupled model is open." (§4). See [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)
 
-The non-compact directions are where model I's first ρ-preserving potential failed. "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4" (toy-model note §4). That naive potential is dead as a stabilizing potential ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). Its replacement, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), penalizes boosts: "the boost family rises from −1 to −0.5" (round-4 adjudication, F2). Along the squeezes it keeps a flat direction: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication had called this zero mode an exact symmetry; the toy note's v2, which ranks above the adjudication, says it is not symmetry-protected.
+The non-compact directions are where the first ρ-preserving potential of [model I](/wiki/symmetry-breaking/toy-models/coset-model), the toy note's coset sigma model, failed. "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4" (toy-model note §4). That naive potential is dead as a stabilizing potential ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). Its replacement, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), penalizes boosts: "the boost family rises from −1 to −0.5" (round-4 adjudication, F2). Along the squeezes it keeps a flat direction: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication had called this zero mode an exact symmetry; the toy note's v2, which ranks above the adjudication, says it is not symmetry-protected.
 
 The referee also worked out, with sympy, which maps of Sp(2, ℝ) the naive potential leaves unbroken. A conjugation S⁻¹K_ref S that returns +K_ref forces S = diag(a, 1/a); one that returns −K_ref forces S = [[0, −1/c], [c, 0]]. So the potential "leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (audit notes Step 2(c), capitals lowered here): among the rotations only ±1 and ±ρ survive.
 
 ## How the toy models use the group
 
-Model I, the coset sigma model of a phase-space metric H and a real structure K, takes Sp(2, ℝ) as its symmetry group. Its metric field is itself a symplectic matrix: H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] for Z = X + iY in the upper half-plane (toy-model note §2; gate: "H(Z) is symplectic and I = w^-1 H squares to -1"). The group acts on both fields:
+Model I, the coset sigma model of a phase-space metric H and a real structure K ([the order parameter](/wiki/symmetry-breaking/order-parameter)), takes Sp(2, ℝ) as its symmetry group. Its metric field is itself a symplectic matrix: H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] for Z = X + iY in the upper half-plane (toy-model note §2; gate: "H(Z) is symplectic and I = w^-1 H squares to -1"). The group acts on both fields:
 
 ```text
 H → Sᵀ H S        K → S⁻¹ K S
@@ -98,18 +98,18 @@ H → Sᵀ H S        K → S⁻¹ K S
 
 ## Rigidity: the one fixed structure
 
-In the program's postulates ω is the only structure that does not vary. "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime)). The calc note that forced the change put it as "Freeze ω only — that is genuinely ℏ" (#5 §B). The lab notebook's gloss on the original postulate was "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) froze the neutral metric η as well; the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then left the program no content of its own ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
+In the program's postulates ω is the only structure that does not vary. "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime); for η and the generalized metric H, see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). The calc note that forced the change put it as "Freeze ω only — that is genuinely ℏ" (#5 §B). The lab notebook's gloss on the original postulate was "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) froze the neutral metric η as well; the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then left the program no content of its own ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
 
 What a rigid ω leaves free:
 
 - **The Siegel domain.** The positive generalized metrics H compatible with ω alone form the Siegel domain Sp(2d, ℝ)/U(d), coordinatized by a complex symmetric matrix Z = X + iY with Y > 0 (#5 §C; [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain)). For d = 1 it is the upper half-plane of model I.
 - **Möbius maps.** Sp(2d, ℝ) acts on Z by fractional linear (Möbius) maps, and ρ acts as Z → −Z⁻¹ with fixed point Z = i (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
-- **Shifts.** "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric)" (#11 §7.1), the Möbius action of the block matrix [[1, B], [0, 1]] (#6 §1). It shifts the momentum graviton X = Re Z, so X "is shift-symmetric — axion-like, never auxiliary" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
+- **Shifts.** "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric)" (#11 §7.1), the Möbius action of the block matrix [[1, B], [0, 1]] (#6 §1). It shifts [the momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, so X "is shift-symmetric — axion-like, never auxiliary" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
 - **Unimodularity.** With η also rigid, det H = 1 follows (#5 §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)). #11 §5 adds that it "persists across the whole modular family", which battery test T2 checks ("det H_Z = 1"; [the verification battery](/wiki/method/verification/battery)).
 
 ## A second symplectic space: charges
 
-#11 §11.3 finds the same structure on electric and magnetic charges. The Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ "is an antisymmetric integer form: **the charge lattice is a symplectic space** [17†]" [D — structural; math T]. Duality frames are then Lagrangian polarizations of charge space, and S-duality is "generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program". See [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice).
+#11 §11.3 finds the same structure on electric and magnetic charges. The [Dirac–Schwinger–Zwanziger pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ "is an antisymmetric integer form: **the charge lattice is a symplectic space** [17†]" [D — structural; math T]. Duality frames are then [Lagrangian polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations) of charge space, and [S-duality](/wiki/electric-magnetic-duality/s-duality) is "generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program". See [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice).
 
 ## Standard references
 
