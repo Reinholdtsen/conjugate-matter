@@ -2,7 +2,7 @@
 title: "Dirac quantization and the DSZ pairing"
 weight: 10
 status: established
-description: "Dirac's condition e·g ~ 2π, the Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ and mutual locality, the 2π-versus-4π normalization, and why a weakly coupled sector has strongly coupled monopoles."
+description: "Dirac's condition e·g ∈ 2πℤ and its derivation, the Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ of dyons and mutual locality, the 2π-versus-4π normalization, and why a weakly coupled sector has strongly coupled monopoles."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.2"
@@ -10,48 +10,142 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md ref [17]"
   - "notes/knot-dark-matter-standalone.md §2"
+  - "notes/knot-dark-matter-standalone.md ref [7]"
   - "review/round3-adjudication.md 'Rulings' 12"
   - "review/round3/referee/audit-notes.md Step 1"
+  - "review/round3/referee/audit-notes.md Step 4(a)"
+  - "review/round3/referee/step2a.out 'COUPLINGS'"
   - "review/v3-worklog.md 'Round-2 pending list'"
+  - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "HANDOFF.md §2"
 ---
 
-*Dirac quantization is the rule, found by Paul Dirac in 1931, that a magnetic monopole can exist in quantum mechanics only if the product of its magnetic charge g with any electric charge e is a whole-number multiple of a fixed constant: e·g ~ 2π in the normalization the checkpoint uses. Schwinger and Zwanziger extended the rule to dyons, particles that carry both kinds of charge, as the Dirac–Schwinger–Zwanziger (DSZ) pairing of two charges. Because the product is fixed, a small electric charge forces a large magnetic one, so a weakly coupled force has strongly coupled monopoles. The program builds its charge-lattice argument on the pairing, and the weak-to-strong consequence is one of the results that survived the retired soliton candidate.*
+*Dirac quantization is the rule, found by Paul Dirac in 1931, that a magnetic monopole can exist in quantum mechanics only if the product of its magnetic charge g with every electric charge e is a whole-number multiple of a fixed constant: e·g ∈ 2πℤ in the normalization the checkpoint uses. Without the rule, the line along which the monopole's field enters its vector potential would shift the phase of a charge carried around it, and that line would be observable. Schwinger and Zwanziger extended the rule to dyons, particles that carry both kinds of charge, as the Dirac–Schwinger–Zwanziger (DSZ) pairing of two charges, an antisymmetric integer form. Because the product of the two charges is fixed, a small electric charge forces a large magnetic one, so a weakly coupled force has strongly coupled monopoles. The program builds its [charge-lattice argument](/wiki/electric-magnetic-duality/symplectic-charge-lattice) on the pairing, and the weak-to-strong consequence is one of the results that survived the retired soliton candidate.*
 
-**Status:** Established — [T] — literature. The checkpoint cites Dirac 1931, Schwinger 1966 and Zwanziger 1968 together as [17†], from model memory, so the citation awaits [the † literature battery](/wiki/method/literature-battery). [The round-3 audit](/wiki/method/review/round-3/rulings) checked Dirac and Zwanziger, which the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate) cited as its reference [7], and found that they support the antisymmetric pairing, with a normalization difference that ruling 12 accepted as minor.
+**Status:** Established — [T] — literature. The checkpoint cites Dirac 1931, Schwinger 1966 and Zwanziger 1968 together as [17†], from model memory, so the citation awaits [the † literature battery](/wiki/method/literature-battery). [The round-3 audit](/wiki/method/review/round-3/rulings) checked Dirac and Zwanziger, which the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate) cited as its reference [7], and found that they support the antisymmetric pairing, with a normalization difference that ruling 12 accepted as minor. The derivations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
-## Key facts
+## Magnetic charge in Maxwell's equations [T]
 
-- **Dirac's condition** ([#11](/wiki/history/documents/checkpoint) §11.2 [T]): "Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound" ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)). The figure depends on the normalization by a factor of 4: "1/(4α) = 34.26 (eg = 2πn) vs 1/α = 137.04 (eg = 4πn)" (`review/v3-worklog.md`, round-2 item R2, tagged [V]; no script in the current gate prints these two values).
-- **The pairing** (#11 §11.3): "The Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ is an antisymmetric integer form" [17†]. Each charge q = (e, g) lists a particle's electric and magnetic charge.
+Maxwell's equations without sources are symmetric between the electric field E and the magnetic field B: the rotation E → B, B → −E maps the vacuum equations into themselves. Ordinary matter breaks the symmetry, because it carries electric charge and current but no magnetic charge, so ∇·B = 0 holds everywhere. A magnetic monopole is a hypothetical particle that carries magnetic charge g and is a source of B, as an electric charge e is a source of E. With magnetic charge and current added, the equations regain the symmetry, now acting on the sources too:
+
+```text
+∇·E = ρ_e          ∇×B − ∂E/∂t = j_e
+∇·B = ρ_m          −∇×E − ∂B/∂t = j_m
+
+duality rotation:   (E, B) → (B, −E),   (ρ_e, ρ_m) → (ρ_m, −ρ_e)
+```
+
+The units are natural (ħ = c = 1) and rationalized, so that the fine-structure constant is α = e²/4π; #14 writes its hidden couplings the same way, α_W′ = g_d²/4π. A point monopole at rest has the field B = g r̂/(4πr²), the magnetic image of the Coulomb field. The duality rotation is generated by the matrix [[0, 1], [−1, 0]] acting on the pair of charges; [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) takes up what that matrix shares with Born's ρ, and [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality) its role as a strong–weak duality.
+
+Classically a monopole poses no problem. In quantum mechanics a charged particle couples to the vector potential A rather than to B, and B = ∇×A implies ∇·B = 0. The field of a monopole therefore has no vector potential that is smooth on the whole sphere surrounding it. One choice is smooth everywhere except on a line running from the monopole to infinity, the Dirac string, along which A is singular; in this description the string carries the monopole's entire flux g in from infinity, and the flux spreads out radially from the endpoint.
+
+## Dirac's argument [T]
+
+A charge e carried around a closed loop picks up the phase exp(ie∮A·dl) = exp(ieΦ), where Φ is the magnetic flux through the loop: the Aharonov–Bohm phase. A small loop around the Dirac string encloses the string's full flux g, so a charge carried around the string acquires the phase exp(ieg). The string is an artefact of the choice of potential, and it can be moved by a gauge transformation, so it must be undetectable; that holds exactly when the phase is 1:
+
+```text
+e g = 2π n,     n ∈ ℤ          (ħ = c = 1, α = e²/4π)
+```
+
+Two other routes give the same condition [T]:
+
+- **Two patches.** Wu and Yang (1975†) avoided the string by using two potentials, one smooth on the northern hemisphere and one on the southern. On the overlap they differ by a gauge transformation, under which a charged wavefunction is multiplied by exp(i e g φ/2π), with φ the azimuthal angle. The wavefunction is single-valued only if eg/2π is an integer. Topologically, n counts how often the transition function winds around the circle U(1) as φ goes once round the equator: an element of π₁(U(1)) = ℤ. The same group returns on [the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), where it classifies monopoles of a broken gauge symmetry.
+- **Angular momentum.** The combined field of a charge e and a monopole g carries angular momentum of magnitude eg/4π, directed along the line between them, independent of their separation (a result going back to J. J. Thomson†). Angular momentum is quantized in half-integer units, so eg/4π ∈ ℤ/2, which is again eg ∈ 2πℤ.
+
+The condition has two consequences:
+
+1. **Charge quantization.** If a single monopole of charge g exists anywhere, every electric charge in the theory is an integer multiple of 2π/g. This was Dirac's motivation: it would explain why all observed charges are multiples of one unit.
+2. **The minimal magnetic charge.** If e is the smallest electric charge, the smallest magnetic charge allowed is the Dirac charge g_D = 2π/e. Measured in units of e, it is large: g_D/e = 2π/e² = 1/(2α).
+
+## Which charge counts: 2π or 4π
+
+The condition appears in the literature with 2π or with 4π, and the difference matters for every coupling derived from it. Two things change the constant: the system of units, and which electric charge the condition is applied to.
+
+**The audit's finding.** The round-3 referee checked #14's reference [7] (Dirac 1931; Zwanziger 1968) and wrote (`review/round3/referee/audit-notes.md`, Step 1): "Zwanziger's abstract states e_m g_n - g_m e_n in 4 pi Z; manuscript writes 2 pi Z (Dirac normalization). The 't Hooft-Polyakov monopole with doublets realises 2 pi, so the physics is fine; but [7] as cited states 4 pi." It added that "the text says "Dirac-Schwinger-Zwanziger" but Schwinger is not cited". Ruling 12 accepted both points as minor ("Minor citation issues: [4] over-generalized; Zwanziger's 4π vs 2π; Schwinger uncited"), and #11's [17†] now lists Schwinger 1966.
+
+**What "realises 2 pi" means.** In the SU(2) → U(1) theory that #14 used, the monopole carries magnetic charge g_m = 4π/g_d, where g_d is the gauge coupling (#14 §2). The charged vector bosons W′± carry U(1) charge g_d, and the doublet fermion ψ carries ±g_d/2. Against the vector bosons the product is g_d · 4π/g_d = 4π; against the doublet it is (g_d/2) · 4π/g_d = 2π. Once the doublet exists, the monopole's charge is the Dirac minimum, and the condition with 2π is the binding one. #14 §2 says so: g_m = 4π/g_d is "the Dirac minimum relative to psi's charge g_d/2".
+
+**What it does to a coupling.** A factor of 2 in g is a factor of 4 in the magnetic coupling α_m = g²/4π. The v3 worklog's item R2 records the spread for a monopole quantized against the electron's charge: "Convention: 1/(4α) = 34.26 (eg = 2πn) vs 1/α = 137.04 (eg = 4πn)" (`review/v3-worklog.md`, 'Round-2 pending list', tagged [V]; no script in the current gate prints these two values). The round-3 referee reproduced the same pair inside #14's hypothesis, with "alpha_m = g_m^2/4pi = 34.259" for the doublet charge matched to the electron's and "variant W'-charge matched: alpha_W'=alpha -> alpha_m = 1/alpha = 137.036" (`review/round3/referee/step2a.out`). The worklog's verdict is that "the number is convention-dependent by a factor of 4", so a figure such as 34 means something only together with the normalization that produced it.
+
+## Dyons and the DSZ pairing [T]
+
+A dyon carries both charges, q = (e, g). For two dyons q₁ = (e₁, g₁) and q₂ = (e₂, g₂), the field angular momentum of the pair is proportional to e₁g₂ − e₂g₁, and the argument above quantizes that combination. Schwinger (1966) and Zwanziger (1968) gave the condition for dyons; in the normalization #11 and #14 use, it reads:
 
 ```text
 ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ        mutual locality: ⟨q, q′⟩ = 0
 ```
 
-- **Mutual locality** (#11 §11.3): "Mutual locality (which charges can share one Lagrangian) is ⟨q,q′⟩ = 0". The program reads these two facts as a symplectic structure on charge space with a Lagrangian sublattice ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)); the round-3 audit called that reading "interpretation".
-- **2π or 4π** (round-3 audit, Step 1, on #14's reference [7]): "Zwanziger's abstract states e_m g_n - g_m e_n in 4 pi Z; manuscript writes 2 pi Z (Dirac normalization). The 't Hooft-Polyakov monopole with doublets realises 2 pi, so the physics is fine; but [7] as cited states 4 pi." The audit also noted that the text named Schwinger without citing him. Ruling 12 accepted both points as minor ([round-3 rulings](/wiki/method/review/round-3/rulings)), and #11's [17†] now lists Schwinger 1966.
-- **A weak force has strong monopoles** (#14 §2): the monopoles of a hidden SU(2) sector "carry magnetic charge g_m = 4 pi/g_d, the Dirac minimum relative to psi's charge g_d/2, so their mutual coupling is alpha_m = g_m^2/4pi = 1/alpha_W' [7]. Any weakly coupled hidden sector therefore has strongly coupled monopoles: the strong magnetic coupling is generic, not a hypothesis." Here g_d is the hidden gauge coupling and ψ a hidden fermion of charge g_d/2 ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)).
+#11 §11.3 states it: "The Dirac–Schwinger–Zwanziger pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ is an antisymmetric integer form" [17†].
+
+**Why antisymmetric.** The angular momentum of the pair reverses when the two dyons are exchanged, so the pairing changes sign, and every charge pairs to zero with itself: ⟨q, q⟩ = 0, so any number of identical particles are mutually consistent. The combination e₁g₂ − e₂g₁ is the determinant of the two charge vectors, which the duality rotation, and every other linear map of determinant 1, leaves unchanged [T].
+
+**The charge lattice.** The charges allowed in a theory form a lattice in the (e, g) plane, and the pairing is an antisymmetric bilinear form on it with integer values in units of 2π. In mathematical terms that is a symplectic form on the lattice, the structure #11 §11.3 calls "a symplectic space" ([symplectic form and canonical structure](/wiki/phase-space/reciprocity/symplectic-form) gives the phase-space version). The linear maps of the lattice to itself that preserve the form are the integer matrices of determinant 1, the group SL(2, ℤ) [T]. It contains the electric–magnetic exchange S = [[0, 1], [−1, 0]] and the shift that adds one unit of g to e. In a theory with a vacuum angle θ that violates charge conjugation and parity (CP), a monopole acquires an electric charge proportional to θ/2π times the elementary charge (the Witten effect, Witten 1979†), and θ → θ + 2π maps the lattice to itself by that shift [T]. Round 3's ruling 9, accepted but not re-checked, applied the Witten effect to #14's monopoles ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)).
+
+**Mutual locality.** #11 §11.3: "Mutual locality (which charges can share one Lagrangian) is ⟨q,q′⟩ = 0". Two charge vectors in a plane pair to zero exactly when they are parallel. A set of mutually local charges therefore lies on one line through the origin, and an SL(2, ℤ) transformation can rotate that line onto the electric axis, where every member is an ordinary electric charge described by one local Lagrangian [T]. Two mutually nonlocal charges can never both be made electric: in any Lagrangian description one of them appears as a magnetic object, a soliton of the fields or a source attached to a Dirac string. A maximal set of mutually local charges is what symplectic geometry calls a Lagrangian sublattice, and choosing one is choosing which particles are electric, a duality frame ([Lagrangian polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations) gives the phase-space counterpart).
+
+The program reads these two facts as a symplectic structure on charge space with a Lagrangian sublattice, and identifies the choice of duality frame with the choice of polarization in phase space. The round-3 audit's comment on that reading: "Charge space is symplectic" is interpretation (Step 1). #11 tags §11.3 "[D — structural; math T]": the mathematics is literature, the identification is the program's ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice); [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure)).
+
+## A weak force has strong monopoles [T]
+
+Dirac's condition fixes the product of the two charges, so it ties the electric coupling α_e = e²/4π to the magnetic coupling α_m = g²/4π of the minimal monopole. In the Dirac normalization, g = 2π/e gives α_m = 1/(4α_e): the smaller the electric coupling, the larger the magnetic one. A theory whose charges interact weakly has monopoles whose mutual force is strong, so perturbation theory in the magnetic coupling fails.
+
+#14 §2 states the result for its hidden SU(2) sector, with g_d the hidden gauge coupling and ψ a hidden fermion of charge g_d/2 ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)):
+
+> Coupling. The hidden sector is weakly coupled in its electric description, with alpha_W' = g_d^2/4pi. Its monopoles carry magnetic charge g_m = 4 pi/g_d, the Dirac minimum relative to psi's charge g_d/2, so their mutual coupling is alpha_m = g_m^2/4pi = 1/alpha_W' [7]. Any weakly coupled hidden sector therefore has strongly coupled monopoles: the strong magnetic coupling is generic, not a hypothesis.
 
 ```text
 α_W′ = g_d²/4π,    g_m = 4π/g_d,    α_m = g_m²/4π = 1/α_W′
 ```
 
-- **What survives** (#11 §12): "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]" — listed among the survivors of [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary), though the round-3 adjudication's own survivor list omits it.
-- **Against which photon** (`HANDOFF.md` §2, under "Dead"): "α_d ≈ 34 via Dirac quantization against our photon (round-1 reviewer's valid kill: can't use our DSZ lattice and then deny coupling to our photon)." #14 v3 then applied the condition only within its hidden sector: "nothing is quantized against our gauge field" (#14 §2). See [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling). The checkpoint's figure for ordinary electromagnetism (§11.2) is a different statement and stands.
+The referee's script checks the product: "check alpha_m * alpha_W' = 1.000000 (should be 1)" (`review/round3/referee/step2a.out`). #14's coupling α_m = 1/α_W′ and the Dirac-normalization relation α_m = 1/(4α_e) agree, because α_W′ is the coupling of the charge g_d and the minimal electric charge is g_d/2.
+
+The same consequence explains why the annihilation of superheavy monopoles was already a strong-coupling problem in the classic analysis. The referee identified #14's "strong-coupling" regime as "exactly the Dirac-monopole case of Preskill 1979 (h = 2 pi/e)" (Step 4(a) item 3), where h is the magnetic charge in the notation of the paper the referee followed ([the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)).
+
+For ordinary electromagnetism, #11 §11.2 [T] states: "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound." The worklog's figures for the two normalizations are the ones given above, 1/(4α) = 34.26 for eg = 2πn and 1/α = 137.04 for eg = 4πn ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)).
+
+## How the program uses it
+
+### The charge lattice and the polarization conjecture
+
+#11 §11.3 builds on the pairing directly. If the charge lattice is a symplectic space and mutual locality picks out a Lagrangian sublattice, then "Choosing a duality frame — which particles are "electric" (fundamental) versus "magnetic" (solitonic) — is choosing a Lagrangian polarization of charge space, in the literature's own words." The checkpoint adds that S-duality is generated by "the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹", and conjectures [O] that the two polarizations belong to one structure. These are program claims, on [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) and [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure). #14 §2 used the same reading "only as motivation": "No numerical result below depends on it."
+
+### The soliton candidate's coupling
+
+The retired soliton candidate needed a value for the hidden coupling, and its history shows which uses of Dirac's condition are legitimate ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)):
+
+- **Against our photon: dead.** `HANDOFF.md` §2 lists among the dead claims "α_d ≈ 34 via Dirac quantization against our photon (round-1 reviewer's valid kill: can't use our DSZ lattice and then deny coupling to our photon)". A monopole quantized against our electric charge is a monopole of our electromagnetism, which the candidate's sector separation denied.
+- **Within the hidden sector: legitimate.** #14 v3 applied the condition only to the hidden sector's own charges: "The Dirac quantization used above is the hidden sector's own, applied to its own charges; nothing is quantized against our gauge field" (#14 §2). The value of the coupling then came from a separate assumption, hypothesis H, "the smallest hidden charge equals ours, (g_d/2)^2/4pi = alpha", which gives "alpha_W' = 4 alpha ~ 1/34 and alpha_m = 1/(4 alpha) ~ 34" (#14 §2). The v3 worklog records why H matches ψ's charge rather than the W′ charge: "H matches *that* charge to ours, so α_W′ = 4α ≈ 1/34 and the monopoles' coupling is α_m = 1/α_W′ = 1/(4α) ≈ 34 exactly, by Dirac quantization relative to ψ. Matching the W′ charge instead gives 137" ('v3 as drafted (2026-10-19)').
+
+### What survived
+
+The candidate was retired after round 3 ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The checkpoint lists the weak-to-strong result first among what survives (#11 §12): "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]." The round-3 adjudication's own list of what survives v3 does not include it; the checkpoint, which takes precedence over the adjudication, does.
+
+## References
+
+As the program's documents cite them:
+
+- P. A. M. Dirac, Proc. R. Soc. Lond. A 133, 60 (1931); J. Schwinger, Phys. Rev. 144, 1087 (1966); D. Zwanziger, Phys. Rev. 176, 1489 (1968) — #11 [17†]. #14 [7] lists Dirac and Zwanziger only, without a tag; the round-3 audit checked both against their records (Step 1).
+
+Added by the wiki from model memory (†):
+
+- T. T. Wu, C. N. Yang (1975)†: the monopole potential on two patches.
+- E. Witten (1979)†: the electric charge of a monopole in a theory with a vacuum angle θ.
 
 ## Used by
 
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — reads the DSZ pairing as a symplectic form on charge space.
 - [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family) — Dirac's condition as the reason the magnetic counterparts are strongly coupled and unseen.
+- [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) — its magnetic charge 4π/g_d is the Dirac minimum relative to a doublet.
+- [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) — Dirac monopoles are strongly coupled, which is why ruling 10 called #14's annihilation question a solved case.
 - [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the weak-to-strong result is among what survives.
-- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) — the dead attempt to quantize a hidden sector's charges against our photon.
+- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) — the dead attempt to quantize a hidden sector's charges against our photon, and hypothesis H.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.2, §11.3, §12, ref [17] — Dirac's condition, the pairing and mutual locality, the surviving weak-to-strong result, and the citation (†).
-- `review/round3/referee/audit-notes.md` Step 1 — the 2π-versus-4π normalization and the uncited Schwinger.
-- `review/round3-adjudication.md` 'Rulings' 12 — both accepted as minor.
-- `notes/knot-dark-matter-standalone.md` §2 — g_m = 4π/g_d and α_m = 1/α_W′, and "nothing is quantized against our gauge field" (withdrawn manuscript).
-- `review/v3-worklog.md` 'Round-2 pending list' — the factor-of-4 convention spread, item R2 [V].
+- `papers/broken-born-checkpoint-v2.md` §11.2, §11.3, §12, ref [17] — Dirac's condition and the figure for our electromagnetism, the pairing and mutual locality, the surviving weak-to-strong result, and the citation (†).
+- `review/round3-adjudication.md` 'Rulings' 12 — the normalization and the uncited Schwinger, accepted as minor.
+- `review/round3/referee/audit-notes.md` Step 1, Step 4(a) — the 2π-versus-4π normalization, "interpretation", and the Dirac-monopole case of Preskill.
+- `review/round3/referee/step2a.out` 'COUPLINGS' — α_m = 34.259, the W′-charge variant 137.036, and the product check.
+- `notes/knot-dark-matter-standalone.md` §2, ref [7] — g_m = 4π/g_d and α_m = 1/α_W′, hypothesis H, and "nothing is quantized against our gauge field" (withdrawn manuscript).
+- `review/v3-worklog.md` 'Round-2 pending list', 'v3 as drafted (2026-10-19)' — the factor-of-4 convention spread, item R2 [V]; which charge H matches.
 - `HANDOFF.md` §2 — the dead α_d ≈ 34 via our photon.
