@@ -15,7 +15,7 @@ sources:
 
 ## Statement
 
-The whole record of the relation is one bullet of `HANDOFF.md` §4, "Results that exist only in the chat (not in any artifact)":
+The whole record of the relation is one bullet of `HANDOFF.md` §4, "Results that exist only in the chat (not in any artifact)" (the heading's "only" is set in capitals in the source):
 
 > Phase-space diameter relation: D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem); the constant = the universe's photon count/entropy (~10⁹⁰, i.e. ~10³⁰ h per dimension); rectangle square (D_x = D_p in Planck units) exactly at the bounce; aspect ratio today ~10⁹² = a clock measuring distance from self-duality. Conjecture-tier; candidate for a future note.
 
@@ -38,15 +38,15 @@ Quantum mechanics carries the same structure, because the Fourier transform also
 
 The handoff's name for the relation, "cosmic time–bandwidth theorem", places it in this family: D_x plays the role of a duration, D_p of a bandwidth, and h·N^{1/3} the role of the bound, with N the universe's "photon count/entropy".
 
-One feature of the form can be read from the bullet itself (the wiki's reading; the handoff gives no derivation): if N counts cells of phase space, a count N shared among three dimensions is N^{1/3} cells along each one, which is what "per dimension" suggests. The stated numbers follow that pattern, ~10⁹⁰ in total and "~10³⁰ h per dimension".
+One feature of the form can be read from the bullet itself (the wiki's reading; the handoff gives no derivation): if N counts cells of phase space, a count N shared among three dimensions is N^{1/3} cells along each one, which is what "per dimension" suggests. The handoff itself joins its two figures with "i.e.": "~10⁹⁰, i.e. ~10³⁰ h per dimension".
 
 The program's derived relation between the two descriptions is [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint): position-space scales grow with a while momentum-space scales shrink with ã. The handoff does not relate the diameter relation to it.
 
 ## At the bounce and today
 
-**The square.** The handoff places the square rectangle "exactly at the bounce" but does not say which bounce. The only bounce elsewhere in the record is the [conjugate universe](/wiki/program/conjugate-universe)'s bounce at the far-future turnaround of our expansion ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)); the handoff's summary does not connect the two statements, and no document says how D_x and D_p evolve in time.
+**The square.** The handoff places the square rectangle "exactly at the bounce" but does not say which bounce. The only bounce elsewhere in the record is the [conjugate universe](/wiki/program/conjugate-universe)'s bounce at the far-future turnaround of our expansion ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)); the handoff's summary does not connect the two statements, and no document says how D_x and D_p evolve in time. The ambiguity is recorded for Paul's ruling in `review/wiki-build-flags.md` item 24.
 
-**The clock.** "Self-duality" in the program refers to the self-dual point of the [modular field](/wiki/phase-space/modular-field/modular-inversion), Z = i, and the self-dual locus |Z| = 1 with which the documents identify a·ã = 1 (#11 §6, §10). The handoff's phrase "a clock measuring distance from self-duality" appears to read today's aspect ratio of ~10⁹² as a measure of how far the universe is from the square, self-dual configuration (the wiki's reading); the handoff does not say how the clock runs.
+**The clock.** "Self-duality" in the program refers to the [self-dual point](/wiki/phase-space/modular-field/modular-inversion) of the [modular field](/wiki/phase-space/modular-field/modular-field-z), Z = i, and the self-dual locus |Z| = 1 with which the documents identify a·ã = 1 (#11 §6, §10). The handoff's phrase "a clock measuring distance from self-duality" appears to read today's aspect ratio of ~10⁹² as a measure of how far the universe is from the square, self-dual configuration (the wiki's reading); the handoff does not say how the clock runs.
 
 ## What is missing
 
@@ -56,7 +56,7 @@ The program's derived relation between the two descriptions is [the cosmological
 
 ## The queue
 
-The handoff lists the relation under "Optional write-ups: phase-space diameter relation note (§4)" (§8 item 7). The root `CLAUDE.md` ("Since the handoff") moves it into current queue item 1, "HANDOFF §8 items 5–7: the partially-massless comparison, the † literature battery, the phase-space-diameter note"; the second of the three is described on [the † literature battery](/wiki/method/literature-battery). Until that note exists the relation stays a chat-only conjecture with no status in the program. See [open problems and the queue](/wiki/status/open-problems).
+The handoff lists the relation under "Optional write-ups: phase-space diameter relation note (§4)" (§8 item 7). The root `CLAUDE.md` ("Since the handoff") moves it into current queue item 1, "HANDOFF §8 items 5–7: the partially-massless comparison, the † literature battery, the phase-space-diameter note"; the second of the three is described on [the † literature battery](/wiki/method/literature-battery). Until that note exists the relation stays a chat-only conjecture, with no derivation behind it. See [open problems and the queue](/wiki/status/open-problems).
 
 ## Sources
 

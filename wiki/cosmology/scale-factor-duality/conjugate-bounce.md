@@ -89,7 +89,7 @@ The turnaround time t_turn is the third of three observables, (w₀, wₐ, t_tur
 
 ## A chat-only echo
 
-The [phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) states that a position–momentum "rectangle" is square "exactly at the bounce" (`HANDOFF.md` §4). The handoff's summary does not say which bounce it means or connect the statement to this one, and no document develops it.
+The [phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) states that a position–momentum "rectangle" is square "exactly at the bounce" (`HANDOFF.md` §4). The handoff's summary does not say which bounce it means or connect the statement to this one, and no document develops it; the ambiguity is recorded for Paul's ruling in `review/wiki-build-flags.md` item 24.
 
 ## History
 
