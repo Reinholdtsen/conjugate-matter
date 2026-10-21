@@ -303,8 +303,10 @@ Delete it when the build is complete.
   verified. The usage limit cut the workflow off midway; the remaining verifiers ran as
   single background agents. Further source flags (15 in all) are collected in
   `review/wiki-build-flags.md`.
-- **Depth waves still to run** (as of wave 2):
-  - `dark-matter/`;
+- **2026-10-21, depth wave 3.** `dark-matter/` is at full depth and verified: 54 files,
+  including the retired soliton candidate. The flags file now holds 26 items, with executed
+  checks in `review/wiki-build-checks/`.
+- **Depth waves still to run** (as of wave 3):
   - `cosmology/` and `electric-magnetic-duality/`;
   - `conjugate-relativity/` and `predictions/`;
   - `method/` and `history/`;
