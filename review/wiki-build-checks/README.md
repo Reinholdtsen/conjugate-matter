@@ -16,4 +16,5 @@ Run one with `cd review/wiki-build-checks && ../../.venv/bin/python <script>.py`
 | `sqrt_eig_check.py` | 14 | p₄ of the eigenvalues of √(g⁻¹f) equals Tr(g⁻²); of √(f⁻¹g), Tr(g²) |
 | `squeeze_check.py` | 12 | V_b changes under the squeeze diag(a, 1/a) off the line K = K_ref (sympy) |
 | `jk_check.py` | — | η = HJ and η = ωK are the same matrix under #11 §5's algebra; the J/K clash (inventory conflict C27) is a naming one |
+| `gate_conventions.py` | 17 | the two gate forms differ by √2 in μ |
 | `debt3a_check.py` | — | recomputes Debt 3a's mean-field shortfall (ratios ~4e-28, ~3e-31) and the classicality bound; HANDOFF §2 marks the 10²⁸–10³¹ figure ✓, but no `verify/` script gates it |

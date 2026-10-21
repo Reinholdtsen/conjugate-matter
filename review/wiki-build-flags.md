@@ -73,3 +73,7 @@ the check there.*
     could be moved into `verify/`.
 
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs.
+17. **Two gate conventions, a √2 in μ.** #6 §4 writes the gate as e^{−(p₁−p₂)²/2μ²}, #1 §5.1 as
+    e^{−k²/μ²} with k the relative momentum. With p₁ − p₂ = 2k these differ by √2 in μ, so with
+    #6's fiber width the knee sits at v\* = μ/m_χ rather than #1's v\* ≡ √2μ/m_χ; #13 §4 mixes
+    the two. No stated number changes. Check: `review/wiki-build-checks/gate_conventions.py`.

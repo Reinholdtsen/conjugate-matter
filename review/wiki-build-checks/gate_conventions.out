@@ -1,0 +1,4 @@
+#6 gate in terms of k: exp(-2*k**2/mu_6**2)
+gate6/gate1 with mu6 = sqrt2*mu1: 1
+#1 v* = [sqrt(2)*mu_1/m_chi]
+#6 v* = [mu_6/m_chi]
