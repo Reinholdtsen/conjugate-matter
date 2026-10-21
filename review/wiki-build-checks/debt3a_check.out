@@ -1,0 +1,7 @@
+g = 2.48e+03 GeV^-2
+dwarf core: eps_gate = 2.7e-37 GeV, m min(sig,v*)^2 = 7e-10 GeV, ratio = 3.9e-28
+MW local: eps_gate = 3.2e-39 GeV, m min(sig,v*)^2 = 1.1e-08 GeV, ratio = 2.9e-31
+m_crit = 1.4e-13 GeV = 0.14 meV
+N_occ(m_crit) = 5.5e+19
+m_crit (narrow-gate form) = 4.2e-14 GeV; ratio to broad-gate form = 0.3
+N_occ at narrow-gate m_crit = 6.8e+21

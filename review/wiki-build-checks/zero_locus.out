@@ -1,0 +1,5 @@
+|X| = 1.2361  min eig Y = 0.545
+|{J0, I[Z]}| at this X != 0 point: 1.980592956070599e-15
+eta-compatibility of H_Z there, |(eta^-1 H_Z)^2 - 1|: 11.5643
+|{J0, I[Z]}| at X = 0, Y = 1: 0.0
+|{J0, I[Z]}| at X = 0, generic Y: 19.3425 ; eta-compatible there: True

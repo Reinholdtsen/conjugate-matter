@@ -12,7 +12,7 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
    Grassmannian families Gr(k, d). The conclusion survives: det² (Maslov phase) is constant
    (±1) on each family, so no Maslov circle and no τ; the x-polarization is isolated.
    Found by the wave-1 verifier (postulates batch); scratch evidence
-   `(session scratchpad) postulates/verifier_null_lagrangians.py` (d = 2, 3). Suggested wording:
+   `review/wiki-build-checks/verifier_null_lagrangians.py` (d = 2, 3). Suggested wording:
    "no continuous family through the x-polarization; det² is constant, so no Maslov circle".
 2. **"I is odd in K" (toy note §5, line 152).** I[W] = ∫(∫W)² ≥ 0 cannot be odd under
    K → −K; the gated values 0.4070 and 0.3600 show only that I is not invariant under it.
@@ -28,7 +28,7 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
    intended, and does it affect the vacuum structure claims?
 4. **Missing −h² in the expansion of S (#7 §2 item 2).** "S = 2h + x² + O(3)" should be
    S = 2h + x² − h² + O(3) (Y⁻¹ = 1 − h + h² − …). Executed checks by two agents:
-   `(session scratchpad) tuning/s_expansion.py`, `(session scratchpad) spin2a/check_S_expansion.py`. The
+   `review/wiki-build-checks/s_expansion.py`, `(session scratchpad) spin2a/check_S_expansion.py`. The
    quadratic-order Fierz–Pauli test (T4) is unaffected (it uses only S ≈ 2h).
 5. **M_X ∝ 2(β₁+β₂) should probably be M_X² (#11 §7.5, #9 §5 item 6).** Their source, #8 §3,
    writes "m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. M_X"; the β-combination fixes the squared
@@ -66,3 +66,9 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
 15. **Minor wording (#6 §2, `notes/debt1a-ii-X-classification.md` line 17): "η
     antisymmetric-pairing vs ω"** reads as calling η antisymmetric; η is the symmetric
     (neutral) metric and ω the antisymmetric form.
+16. **A ✓ without a script.** HANDOFF §2 marks the Debt-3 shortfall "fails by 10²⁸–10³¹" as
+    machine-verified, but no `verify/` script checks it (#11 §9 tags it [D]). The wiki
+    verifier's recomputation `review/wiki-build-checks/debt3a_check.py` reproduces it and
+    could be moved into `verify/`.
+
+The executed checks referred to above are in `review/wiki-build-checks/` with their outputs.

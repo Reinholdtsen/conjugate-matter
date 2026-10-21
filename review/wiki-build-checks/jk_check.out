@@ -1,0 +1,9 @@
+I^2 = -1: True
+J^2 = +1: True
+K^2 = +1: True
+IJ = K:   True
+HJ = eta: True
+wK = eta: True
+HJ = wK:  True
+d=1: #11 K = [[-1, 0], [0, 1]] ; toy K0 = [[1, 0], [0, -1]] ; K0 == -K11: True
+d=1: #11 J = [[0, 1], [1, 0]] (= toy K(phi) at phi = pi/2)
