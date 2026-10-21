@@ -74,7 +74,7 @@ A Fourier transform turns a gradient into multiplication by momentum, and multip
 
 The round-4 referee read the original paper (audit notes, Step 1). Langmann and Szabo formulate the duality "for a complex field in a magnetic field" (capitals lowered here), keep both quartic vertices of a complex field, the orderings Φ†ΦΦ†Φ and Φ†Φ†ΦΦ with separate couplings α and β (here † is the Hermitian adjoint, not the citation mark), and write the duality "as a single Fourier map" (their Prop. 1), under which the noncommutativity θ goes over to −B⁻¹θ⁻¹B⁻¹, with B the magnetic field. The referee's conclusion: "The complex-field framing is [Langmann and Szabo's] original".
 
-### The self-dual point Ω = 1
+### The self-dual point
 
 In the standard presentation the duality relates the model at oscillator frequency Ω to the model at 1/Ω, with rescaled mass and coupling [T] (general knowledge; the program's documents do not state it). This is why Grosse and Wulkenhaar call their theory "duality-covariant", in the title of [6a], "The β-function in duality-covariant noncommutative φ⁴-theory". At Ω = 1 the gradient and oscillator terms carry equal weight, and the model is carried into itself: "The Grosse–Wulkenhaar model is invariant under it at Ω = 1 [6]" (toy note §1). Two details of Grosse and Wulkenhaar's convention matter for the program, both confirmed in their paper by the round-4 referee (audit notes, Step 1):
 
