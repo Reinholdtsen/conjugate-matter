@@ -115,7 +115,7 @@ In model I the compact Goldstone direction is the program's own polarization cir
 
 #11 §10 states the connection and its limit together: "In the coset model that angle parametrizes Λ(1): it is τ's circle." and "None of this tests the cosmology; it only shows the structure is consistent." The note, written for blind review without naming the program, puts it as "Motivation, not result. In a parent framework the polarization angle is identified with a dark-energy field. The Goldstone structure here is consistent with that, but untested by it." (§6). Only the coset circle is Λ(1); the model-II angle β is the relative phase of two condensed levels. In the program τ has a potential of its own, "hilltop quintessence on the Maslov circle" (#11 §10; [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)), and the lab notebook calls τ "a (pseudo-)Goldstone" [D] (#1 §4).
 
-## Conjecture: the thawing of τ as a drift of the polarization angle
+## Conjecture: the thawing of dark energy as a drifting polarization angle
 
 The worklog drew two further consequences for the program, beyond what the note and #11 claim ('Chunk 2 results'):
 
