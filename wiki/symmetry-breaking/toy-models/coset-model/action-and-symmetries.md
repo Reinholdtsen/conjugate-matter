@@ -2,7 +2,7 @@
 title: "Model I: action and symmetries"
 weight: 20
 status: alive
-description: "The Euclidean Lagrangian of a phase-space metric H and a real structure K: an H-hyperbolic kinetic term, an H-contracted kinetic term for K that avoids a ghost, and a compatibility potential; invariant under Sp(2, ℝ) ∋ ρ and a separate ℤ₂ K → −K (criterion S1, verify/toy_coset.py)."
+description: "The Euclidean Lagrangian of a phase-space metric H and a real structure K: a hyperbolic kinetic term for H, an H-contracted kinetic term for K that avoids a ghost, and a compatibility potential; invariant under Sp(2, ℝ) ∋ ρ and a separate ℤ₂ K → −K (criterion S1, verify/toy_coset.py)."
 provenance: [V]
 sources:
   - "papers/reciprocity-toy-models.md §1"
