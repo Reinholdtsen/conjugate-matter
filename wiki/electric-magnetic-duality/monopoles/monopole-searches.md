@@ -75,7 +75,7 @@ MACRO final (Table 2):             F ≤ 2.8×10⁻¹⁶ cm⁻² s⁻¹ sr⁻¹ 
 
 ### A counterfactual for the soliton candidate
 
-The retired soliton candidate's monopoles were charged only under a hidden U(1): "These objects carry no charge under our photon" (#14 §2). The searches on this page could not have seen them. #14 §4 used the bounds to show why that had to be so:
+The retired soliton candidate's monopoles were charged only under a hidden U(1), by its postulated [sector separation](/wiki/program/postulates/p4-polarized-matter): "These objects carry no charge under our photon" (#14 §2). The searches on this page could not have seen them. #14 §4 used the bounds to show why that had to be so:
 
 > Not monopoles of our U(1). If these objects carried magnetic charge under our electromagnetism, they would be classic monopoles and excluded. The flux at dark-matter density would be F = n v/4 pi ~ 3e-8 /cm^2/s/sr. That exceeds the Parker bound (~1e-15 for M <~ 1e17 GeV) [20] by 7.5 orders of magnitude, the MACRO limit for m >~ 1e10 GeV (2.8e-16) [21] by eight, and the extended Parker bound 1e-16 (M/1e17 GeV) [22] by twelve. Sector separation is therefore mandatory.
 
