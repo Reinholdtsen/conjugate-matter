@@ -107,3 +107,5 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     elongated there, not square. The wiki states the ambiguity.
 25. **Minor pointer: #1 §1 P2 and §4 cite "§7" for the cosmological constraint**, which is derived
     in #1 §6 (inventory conflict C21).
+26. **Minor: DESI DR3 as "three-year data" (HANDOFF §2).** DR2 (arXiv:2503.14738) already covers
+    three years of operations (live-searched by the cosmo-de writer). The wiki quotes HANDOFF.
