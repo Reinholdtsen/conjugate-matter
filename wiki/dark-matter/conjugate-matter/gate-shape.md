@@ -10,6 +10,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §13 rows 1 and 3"
+  - "papers/broken-born-checkpoint-v2.md References [26]"
   - "notes/debt1a-geometric-core.md §E"
   - "notes/debt1a-geometric-core.md §D"
   - "notes/debt1a-ii-X-classification.md §4"
@@ -54,7 +55,7 @@ Both shapes occur in scattering off extended objects. The form factor of an obje
 The calc notes locate the shape in two places.
 
 - **The X propagator on the momentum fibers.** Calc note #5, which first identified the gate's carrier as X: "The gate *shape* is the X propagator's structure on the momentum fibers — open [O], and downstream of the §D classification (outcome 2 gives it most cheaply)" (`notes/debt1a-geometric-core.md` §E). The momentum fibers are the momentum directions of phase space attached to each point of spacetime. Outcome 2 was an auxiliary X with no derivatives, which would have given a contact, momentum-structured interaction directly; calc note #6 excluded it, because constant shifts of X are exact symmetries, so "X appears only through derivatives, so it propagates or it doesn't exist" (§1; [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). The cheap route is closed, and X is a propagating massive field whose propagator on the fibers no document writes down.
-- **The fiber profile and the vertex.** Calc note #6 gives the two candidates: "Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked. *However*: tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (`notes/debt1a-ii-X-classification.md` §4). EFT is effective field theory, here the lab notebook's v0.1 amplitude. The same note's ledger ties the Gaussian case to a structure of string theory: "gate-shape completion (Gaussian fiber profile — ties to the metastring's modular vertex structure)" (§5). It gives no reference for that structure ([references](/wiki/references)).
+- **The fiber profile and the vertex.** Calc note #6 gives the two candidates: "Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked. *However*: tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (`notes/debt1a-ii-X-classification.md` §4). EFT is effective field theory, here the lab notebook's v0.1 amplitude. The note's closing list of open items ties the Gaussian case to the metastring, the framework of Freidel, Leigh and Minic's "Metastring theory and modular space-time", which #11 cites as ref. [26][S] ([Born structures](/wiki/phase-space/born-geometry/born-structures)): "gate-shape completion (Gaussian fiber profile — ties to the metastring's modular vertex structure)" (§5). Calc note #6 gives no reference for the vertex structure ([references](/wiki/references)).
 
 A resolution would therefore need the χ–X vertex, the X propagator along the fibers and the χ quantum's profile there. #11 §8 and #6 §4 call the missing piece "the vertex completion".
 
@@ -94,7 +95,7 @@ The current queue, in the root `CLAUDE.md` ("Since the handoff"), holds the part
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §14 item 4 — the open item; §15 — the degeneration risk and the knee-shape discriminant; §8 — the tail as a vertex diagnostic; §12 — the candidates' handles; §13 rows 1 and 3 — the knee and the island discriminant
+- `papers/broken-born-checkpoint-v2.md` §14 item 4 — the open item; §15 — the degeneration risk and the knee-shape discriminant; §8 — the tail as a vertex diagnostic; §12 — the candidates' handles; §13 rows 1 and 3 — the knee and the island discriminant; References [26] — the metastring paper
 - `CLAUDE.md` 'Since the handoff' — the current queue
 - `HANDOFF.md` §2 — the item in the handoff's open list
 - `notes/broken-born-program-v1.md` §10 item 3 — v1's wording of the item
