@@ -2,7 +2,7 @@
 title: "The cosmological-constant problem"
 weight: 100
 status: established
-description: "Why quantum vacuum energy is predicted far above the observed value, why bimetric theory is no better placed than general relativity on it, and why the program's vacuum-energy identity, which concerns only the spin-2 potential, does not address it."
+description: "Why quantum vacuum energy is predicted far above the observed value, why bimetric theory is no better placed than general relativity on it, and why the program's vacuum-energy identity, which concerns only the spin-2 potential, does not by itself address it."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §7.3"
@@ -19,7 +19,7 @@ sources:
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
 ---
 
-*The cosmological-constant problem is the mismatch between the energy density of empty space that quantum field theory predicts, from the zero-point fluctuations and loops of matter fields, and the far smaller value that the accelerating expansion of the universe indicates. No accepted mechanism explains the gap, and bimetric gravity is no better placed than general relativity to explain it. For the program this page marks a boundary. The program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) sets to zero only the vacuum energy of the spin-2 interaction potential at the aligned point; it does not address the vacuum energy of matter loops. The program assigns the observed dark energy to a separate field, τ.*
+*The cosmological-constant problem is the mismatch between the energy density of empty space that quantum field theory predicts, from the zero-point fluctuations and loops of matter fields, and the far smaller value that the accelerating expansion of the universe indicates. No accepted mechanism explains the gap, and [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is no better placed than [general relativity](/wiki/gravity/spin-2-fields/general-relativity) to explain it. For the program this page marks a boundary. The program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) sets to zero only the vacuum energy of the spin-2 interaction potential at the aligned point; it does not by itself address the vacuum energy of matter loops. The program assigns the observed [dark energy](/wiki/cosmology/dark-energy) to a separate field, [τ](/wiki/cosmology/dark-energy/tau-quintessence).*
 
 **Status:** Established — [T] — an unsolved problem of physics, recorded here as literature. The [checkpoint](/wiki/history/documents/checkpoint) cites [22S], retrieved by live search, for the statement that bimetric theory is no better placed than general relativity on it (#11 §7.3).
 
@@ -39,7 +39,7 @@ The expansion of the universe is accelerating, consistent with a small positive 
 
 ### Why it is hard
 
-To match the observed value, the constant in the action must cancel the vacuum contributions to very high precision, and the cancellation would have to be redone at each order of perturbation theory and across each phase transition [T]. In the language of naturalness, a small parameter is stable against quantum corrections when setting it to zero enlarges the symmetry of the theory; a fermion mass, protected by chiral symmetry, is the standard example. No unbroken symmetry of the Standard Model coupled to general relativity forbids a vacuum energy, so nothing protects a small value [T].
+To match the observed value, the constant in the action must cancel the vacuum contributions to very high precision, and the cancellation would have to be redone at each order of perturbation theory and across each phase transition [T]. In the language of naturalness, a small parameter is stable against quantum corrections when setting it to zero enlarges the symmetry of the theory; a fermion mass, protected by chiral symmetry, is the standard example. No unbroken symmetry of the Standard Model coupled to general relativity requires the vacuum energy to vanish, so nothing protects a small value [T].
 
 In a common usage, the "old" problem asks why the vacuum energy is not enormous, and a newer one asks why it is small but not zero [T]. The checkpoint uses the word in the first sense: matter-loop vacuum energy is "the 'old' cosmological-constant problem" (#11 §7.3).
 
@@ -79,7 +79,7 @@ Calc note #8 draws the consequence for cosmology: "The massive-gravity sector co
 
 ### Reading the popular articles
 
-#12 gives the hundred-and-twenty-orders figure in the paragraph that describes the program's cancellation, and #10 introduces the cancellation by calling the energy of empty space "among the most notorious embarrassments in physics" (#10, 'What refused to die'). #12 says only that the new field, "which might have been expected to worsen the problem — contributes precisely zero", but setting the two side by side invites a reading that #11 §7.3 rules out: the cancellation does not bear on the hundred-and-twenty-orders gap. The popular articles are never a source for a claim's status.
+#12 gives the hundred-and-twenty-orders figure in the paragraph that describes the program's cancellation, and #10 introduces the cancellation by calling the energy of empty space "among the most notorious embarrassments in physics" (#10, 'What refused to die'). #12 says only that the new field, "which might have been expected to worsen the problem — contributes precisely zero", but setting the two side by side invites a reading that #11 §7.3 rules out: the cancellation does not by itself address the hundred-and-twenty-orders gap. The popular articles are never a source for a claim's status.
 
 ## Superseded: the cancellation framed as a cosmological-constant result
 
@@ -88,7 +88,7 @@ Earlier documents described the result more broadly than #11 does:
 - The v1 program paper, #9: "A cosmological-constant cancellation for free, from symmetry." (§5, plain-language passage); "*the massive sector's vacuum energy is zero by symmetry.*" (§5 item 5); and in its assessment, "the last one paid out a cosmological-constant cancellation nobody ordered", with "the palindrome theorem cancelling the symmetric-bimetric vacuum energy" among "two results that stand on their own" (§11).
 - The [lab notebook](/wiki/history/documents/lab-notebook), #1: "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning" ('Addendum (v0.6)').
 
-The checkpoint replaced these with a narrower statement. The cancellation concerns the wedge sector, the spin-2 interaction potential, at the aligned point; matter-loop vacuum energy is explicitly not addressed (#11 §7.3); and the identity's novelty is downgraded pending a literature comparison (#11 §7.4), leaving "one identity awaiting a novelty verdict" (#11 §15). #9 and #1 are superseded as reference by #11. The current statement lives on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
+The checkpoint replaced these with a narrower statement. The cancellation concerns the wedge sector, the spin-2 interaction potential, at the aligned point; the identity does not by itself address matter-loop vacuum energy (#11 §7.3); and the identity's novelty is downgraded pending a literature comparison (#11 §7.4), leaving "one identity awaiting a novelty verdict" (#11 §15). #9 and #1 are superseded as reference by #11. The current statement lives on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 
 ## Standard references
 
