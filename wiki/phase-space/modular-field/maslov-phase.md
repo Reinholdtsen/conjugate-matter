@@ -2,7 +2,7 @@
 title: "τ as the Maslov phase of the boundary"
 weight: 50
 status: alive
-description: "The dark-energy field τ ≡ f·arg det² is the angle around the Maslov circle of Λ(d), the boundary of the Siegel domain: its 2πf periodicity is topology, the identification is derived, and its lightness among the ten moduli is postulated."
+description: "The dark-energy field τ ≡ f·arg det² is the angle around the Maslov circle of Λ(d), the Shilov boundary of the Siegel domain: its 2πf periodicity is topology, the identification is derived, and its lightness among the ten moduli is postulated."
 provenance: [D, T, P]
 sources:
   - "papers/broken-born-checkpoint-v2.md §6"
@@ -26,9 +26,10 @@ sources:
   - "papers/reciprocity-toy-models.md §6"
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "HANDOFF.md §2"
+  - "papers/broken-born-checkpoint-v2.md §4"
 ---
 
-*The program's dark-energy field τ is an angle: the angle around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), the space of all position/momentum splittings, which forms the boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) where [the modular field](/wiki/phase-space/modular-field/modular-field-z) takes its values. Because that circle cannot be shrunk to a point, τ is periodic, with period 2πf, as a matter of topology rather than of modeling. Of the ten directions of the Grassmannian at d = 4, τ is assumed to be the only light one. The identification is derived [D], the topology is literature [T], and the lightness is a postulate [P]. How τ behaves as dark energy, and how current data bear on it, is worked out in the cosmology section.*
+*The program's dark-energy field τ is an angle: the angle around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), the space of all position/momentum splittings, which forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) where [the modular field](/wiki/phase-space/modular-field/modular-field-z) takes its values. Because that circle cannot be shrunk to a point, τ is periodic, with period 2πf, as a matter of topology rather than of modeling. Of the ten directions of the Grassmannian at d = 4, τ is assumed to be the only light one. The identification is derived [D], the topology is literature [T], and the lightness is a postulate [P]. How τ behaves as dark energy, and how current data bear on it, is worked out in the cosmology section.*
 
 **Status:** Alive — the identification is derived [D] (#11 §6); the Shilov boundary and π₁ = ℤ are literature [T]; the periodicity is [D] and τ's lightness [P] (#1 §2) — nothing here is machine-checked, and the toy model supports only the consistency of the structure.
 
@@ -67,11 +68,11 @@ The lab notebook separates what topology fixes from what it does not (#1 §3): "
 
 Calc note #5: "**Λ(d) is the Shilov boundary of the Siegel domain** [standard]. The τ field — arg det of the boundary variable — is the phase of Z's boundary value." (§C)
 
-The points of the Siegel domain are the phase-space metrics compatible with the symplectic form, labelled by Z. Its distinguished (Shilov) boundary is Λ(d), the space of polarizations ([the boundary of the Siegel domain](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). A boundary value of Z is therefore a polarization, and τ is the phase of that polarization around the Maslov circle. The program reads this geometry as placing dark energy on the edge of the space in which the metric and the momentum graviton live.
+The points of the Siegel domain are the phase-space metrics compatible with the symplectic form, labelled by Z. Its distinguished (Shilov) boundary is Λ(d), the space of polarizations ([the boundary of the Siegel domain](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). A boundary value of Z is therefore a polarization, and τ is the phase of that polarization around the Maslov circle. The program reads this geometry as placing dark energy on the edge of the space in which the metric and [the momentum graviton](/wiki/gravity/momentum-graviton) live.
 
 ### Two wordings
 
-Calc note #5 writes τ as "arg det of the boundary variable", with no square and no scale f; the lab notebook writes f · arg det². The standard description of the boundary accounts for the square [T]. A boundary point of the bounded form of the domain, the Siegel disk, is a symmetric unitary matrix W = UUᵀ, and det W = det² U. So arg det W, taken on the boundary point itself, equals arg det² U, taken on a unitary representative: the two wordings name the same angle up to the scale f. Neither document says which object its "boundary variable" or its "(·)" stands for, and neither compares the two forms.
+Calc note #5 writes τ as "arg det of the boundary variable", with no square and no scale f; the lab notebook writes f · arg det². The standard description of the boundary accounts for the square [T]. A boundary point of the bounded form of the domain, the Siegel disk, is a symmetric unitary matrix W = UUᵀ, and det W = det² U. So if #5's "boundary variable" is the boundary point W itself, its arg det equals arg det² U taken on a unitary representative, and the two wordings name the same angle up to the scale f. Neither document says which object its "boundary variable" or its "(·)" stands for, and neither compares the two forms.
 
 ### Lost under strict P2, restored under P2′
 
@@ -102,7 +103,7 @@ This page establishes where τ lives; its dynamics are on the cosmology pages.
 
 ## Toy-model support: consistency only
 
-#11 §10 (v2.2): "**Toy-model support (v2.2) [D][V]:** in an explicit ρ-symmetric coset model of (H, K), and in the complex self-dual Grosse–Wulkenhaar model, ρ sits inside a continuous U(1), so the polarization is a Goldstone angle. In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." The paragraph ends: "None of this tests the cosmology; it only shows the structure is consistent."
+#11 §10 (v2.2): "**Toy-model support (v2.2) [D][V]:** in an explicit ρ-symmetric coset model of (H, K), and in the complex self-dual Grosse–Wulkenhaar model, ρ sits inside a continuous U(1), so the polarization is a Goldstone angle. In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." The paragraph ends: "None of this tests the cosmology; it only shows the structure is consistent." The [V] covers the toy models' checks ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)), not τ.
 
 In the d = 1 coset model the compact Goldstone angle φ "parametrizes the Lagrangian Grassmannian Λ(1)" (toy-model note §2; [model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). In 1+1 dimensions that angle cannot order by itself (the Mermin–Wagner theorem; [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)), and the note adds a bounded ρ-preserving potential to obtain a definite polarization (§4; [the bounded potential](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
 
@@ -134,6 +135,7 @@ See [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-an
 - `notes/debt1a-ii-X-classification.md` §3; `notes/debt1a-iv-beta-coefficients.md` §3 — the moduli are not eaten; τ survives at leading order.
 - `notes/debt1a-iii-tuning-test.md` §4 — τ as the light direction of the compact space.
 - `papers/broken-born-checkpoint-v2.md` §7, §10 — τ un-eaten; hilltop quintessence; the toy-model support and its limit.
+- `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: a definite polarization needs "more structure than ω alone".
 - `papers/broken-born-checkpoint-v2.md` App. A item 8 — "echoed in τ's boundary residence".
 - `papers/reciprocity-toy-models.md` §2, §4, §6 — Λ(1) as the compact Goldstone direction; the bounded potential; "Motivation, not result".
 - `notes/toy-lagrangian.md` 'Chunk 2 results' — the slow-drift remark, "not verified here".

@@ -47,7 +47,7 @@ Born reciprocity is the map ρ: (x, p) → (p, −x), the matrix [[0, 1], [−1,
 
 Calc note #5: "**Born reciprocity acts as Z → −Z⁻¹** (Möbius action of the I-rotation; d = 1 check: matrix [[0,1],[−1,0]] gives Z → −1/Z). Fixed point Z = i: the self-dual vacuum of the earlier turns, now as modular geometry." (§C)
 
-The argument has two steps. ρ is the element [[0, 1], [−1, 0]] of the symplectic group, and the symplectic group acts on the domain by Möbius maps; so ρ acts by the Möbius map of that matrix, which is the inversion. The note works the d = 1 case explicitly. "The earlier turns" are earlier exchanges of the development conversation on claude.ai, where a self-dual vacuum had already appeared; that record exists only in the old chat.
+The argument has two steps. ρ is the element [[0, 1], [−1, 0]] of the symplectic group, and the symplectic group acts on the domain by Möbius maps; so ρ acts by the Möbius map of that matrix, which is the inversion. The note works the d = 1 case explicitly. It does not say which "earlier turns" it means; calc note #6 uses "turn" for an exchange of the development conversation on claude.ai (§3), and no earlier document uses the phrase "self-dual vacuum".
 
 ### The machine check (d = 1)
 
@@ -83,7 +83,7 @@ Calc note #5: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual ci
 
 The constraint itself comes from the rigidity of ω. #11 §10: "**Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus." The lab notebook derives it: each mode occupies "(aã)³ × (comoving cell) = ℏ³. Hence a ã = const ≡ 1" (#1 §6). See [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint).
 
-At d = 1 the unit semicircle is the set the inversion carries onto itself, each point reflected across the imaginary axis, with Z = i the one point left in place [T]. The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z; the identification is a structural reading ([D — structural] in #5 §C, [D] in #11 §10). #11's audit of founding suppositions records the outcome for supposition 6, "Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (App. A item 6; [founding suppositions](/wiki/program/founding-suppositions)).
+At d = 1 the inversion carries the unit semicircle onto itself, each point reflected across the imaginary axis, with Z = i the one point left in place [T]. The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z; the identification is a structural reading ([D — structural] in #5 §C, [D] in #11 §10). #11's audit of founding suppositions records the outcome for supposition 6, "Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (App. A item 6; [founding suppositions](/wiki/program/founding-suppositions)).
 
 ### The same matrix in charge space
 
@@ -100,7 +100,7 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 ## History
 
 - **Lab notebook, v0.3 addendum.** The modular field arrives with "Born reciprocity = Z → −Z⁻¹ with self-dual point Z = i, and the cosmological constraint a·ã = 1 as the |Z| = 1 locus" ([the lab notebook](/wiki/history/documents/lab-notebook)).
-- **Calc note #5** gives the derivation (§C) and books "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among the night's results (§F).
+- **Calc note #5** gives the derivation (§C) and lists "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among the night's results (§F).
 - **#9 §4**: "Reciprocity = Z → −Z⁻¹ (Möbius action; d = 1 matrix check), fixed point Z = i. At X = 0 it sends g → g⁻¹: scale-factor duality."
 - **#11 §6** is the current statement.
 - **The toy model** (2026-10-19) put the d = 1 case into the gate through `verify/toy_coset.py`.
@@ -114,7 +114,7 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 - `papers/broken-born-checkpoint-v2.md` App. A item 6 — supposition 6 "promoted to theorem".
 - `notes/broken-born-theory.md` §2, §6, v0.3 addendum — ρ on (ω, η, H) and the units; the derivation of a·ã = 1; the introduction of Z → −Z⁻¹.
 - `notes/broken-born-program-v1.md` §4 — the same statement in #9.
-- `notes/debt1a-ii-X-classification.md` §3 — the vacuum ⟨Z⟩ = i·g.
+- `notes/debt1a-ii-X-classification.md` §3 — the vacuum ⟨Z⟩ = i·g; "turn" for an exchange of the development conversation.
 - `papers/reciprocity-toy-models.md` §2 — ρ on Z and on K in model I; the twisted element.
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results' — no ρ-invariant vacuum; ρ inside the U(1) stabilizer at the self-dual point.
 - `verify/toy_coset.py` — the symbolic check of Z → −1/Z with fixed point Z = i, and of the absence of a ρ-invariant vacuum.

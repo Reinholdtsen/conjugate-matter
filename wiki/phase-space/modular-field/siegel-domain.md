@@ -21,6 +21,7 @@ sources:
   - "papers/reciprocity-toy-models.md §4"
   - "verify/toy_coset.py"
   - "review/round3/referee/audit-notes.md Step 3"
+  - "notes/broken-born-theory.md §2"
 ---
 
 *The Siegel domain is the space of complex symmetric d × d matrices Z = X + iY whose imaginary part Y is positive definite. For a single coordinate (d = 1) it is the upper half of the complex plane; for larger d it is the matrix version of that half-plane. Each point Z names exactly one positive phase-space metric H_Z that is compatible with a fixed [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, and every such metric has a point, so the domain is the space of all of them. The symplectic group moves its points by fractional-linear (Möbius) maps, the matrix versions of z → (αz + β)/(γz + δ). The program uses the domain as the arena of [the modular field](/wiki/phase-space/modular-field/modular-field-z) once only ω is held rigid. The space and its parametrization are standard mathematics, and battery test T2 checks the parametrization's identities at one sampled point.*
@@ -110,7 +111,7 @@ It is unchanged by every map of the Sp(2d, ℝ) action [T]. For d = 1 it is the 
 
 ### The toy model's H-sector (d = 1)
 
-Model I of the toy-model note takes "H, a positive symmetric symplectic matrix, H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] for Z = X + iY in the upper half-plane, with I ≡ ω⁻¹H, I² = −1" (§2): the d = 1 case of H_Z. `verify/toy_coset.py` checks the d = 1 parametrization symbolically, for symbolic X and Y: `PASS  H(Z) is symplectic and I = w^-1 H squares to -1`. The model's vacuum manifold is "the upper half-plane times this circle" of real structures, and the two half-plane directions are two of its three [Goldstone directions](/wiki/symmetry-breaking/goldstone-and-higgs) (§2). The half-plane sector is non-compact: "The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur" (§4; [coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)). The handoff's queue had proposed starting the toy "on the Siegel disk", the bounded form of the domain described next (`HANDOFF.md` §8 item 4).
+Model I of the toy-model note takes "H, a positive symmetric symplectic matrix, H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] for Z = X + iY in the upper half-plane, with I ≡ ω⁻¹H, I² = −1" (§2): the d = 1 case of H_Z. `verify/toy_coset.py` checks the d = 1 parametrization symbolically, for symbolic X and Y ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)): `PASS  H(Z) is symplectic and I = w^-1 H squares to -1`. The model's vacuum manifold is "the upper half-plane times this circle" of real structures, and the two half-plane directions are two of its three [Goldstone directions](/wiki/symmetry-breaking/goldstone-and-higgs) (§2). The half-plane sector is non-compact: "The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur" (§4; [coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)). The handoff's queue had proposed starting the toy "on the Siegel disk", the bounded form of the domain described next (`HANDOFF.md` §8 item 4).
 
 ## The boundary of the domain
 
@@ -170,3 +171,4 @@ The program's documents cite no reference for these facts: #5 marks them "[stand
 - `papers/reciprocity-toy-models.md` §2, §4 — the d = 1 case in model I; the hyperbolic half-plane sector.
 - `verify/toy_coset.py` — the symbolic d = 1 anchor "H(Z) is symplectic and I = w^-1 H squares to -1".
 - `review/round3/referee/audit-notes.md` Step 3 — the ω-only family, checked by independent code.
+- `notes/broken-born-theory.md` §2 — the (x, p) block basis in which ω is fixed.
