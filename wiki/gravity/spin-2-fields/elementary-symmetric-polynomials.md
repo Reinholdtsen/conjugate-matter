@@ -55,7 +55,7 @@ det(1 + tM) = Σₙ eₙ(M) tⁿ          e₁(M) = Tr M,    e_d(M) = det M
 
 So the eₙ(M) are, up to sign, the coefficients of the characteristic polynomial of M. They can be computed from the entries of M without finding its eigenvalues, and they do not change when M is replaced by a similar matrix S·M·S⁻¹ [T].
 
-The program works in four spacetime dimensions, so its matrices are 4 × 4 and there are five polynomials, e₀ to e₄, one for each of the five coefficients β₀ to β₄ of the bimetric potential ([#8](/wiki/history/documents/debt-1-notes) §1, §3). The function `en` in `verify/battery.py` computes eₙ of a list of eigenvalues as defined above: a sum over all n-element combinations, with e₀ = 1.
+The program works in four spacetime dimensions, so the matrix 𝕏 of the bimetric potential (below) is 4 × 4 and there are five polynomials, e₀ to e₄, one for each of the five coefficients β₀ to β₄ of the bimetric potential ([#8](/wiki/history/documents/debt-1-notes) §1, §3). The function `en` in `verify/battery.py` computes eₙ of a list of eigenvalues as defined above: a sum over all n-element combinations, with e₀ = 1.
 
 ### Binomial coefficients
 
