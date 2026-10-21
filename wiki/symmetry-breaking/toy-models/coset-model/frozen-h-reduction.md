@@ -49,7 +49,7 @@ In statistical mechanics this is the XY model, a lattice of planar spins, with a
 
 ### Symmetries of the reduced model
 
-The shift φ → φ + π, which is ρ, leaves both sums unchanged and reverses the sign of cos φ = K₁₁, the [order parameter](/wiki/symmetry-breaking/order-parameter). With h = 0 every shift φ → φ + α is a symmetry, the continuous U(1) of the XY model; with h ≠ 0 only the shift by π survives among the shifts [T]. So the potential reduces the continuous symmetry of the circle to a discrete ℤ₂, which [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman) does not forbid from breaking in two dimensions.
+The shift φ → φ + π, which is ρ, leaves both sums unchanged and reverses the sign of cos φ = K₁₁, the [order parameter](/wiki/symmetry-breaking/order-parameter). With h = 0 every shift φ → φ + α is a symmetry, the continuous U(1) of the XY model; with h ≠ 0 only the shift by π survives among the shifts [T]. So the potential reduces the continuous symmetry of the circle to a discrete ℤ₂. A discrete symmetry lies outside [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman) and can break in two dimensions, as the two-dimensional Ising model shows [T].
 
 ### Why a two-dimensional lattice tests 1+1 dimensions
 
