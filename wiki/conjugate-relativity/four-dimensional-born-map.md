@@ -75,7 +75,8 @@ The kinematics of #13's §1–§3 and §5 is written in that presentation. Each 
   > Whether the dark photon is m = 0, λ = 0, or both is part of #13's open "dual dynamics" item.
 
   In ordinary kinematics a massless photon has m = 0; in #13's dual kinematics a quantum is labelled by an invariant length λ, and the two readings make different quanta dual-null ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
-- **Merger-band corrections.** #13 §7's last open item, "whether merger-band gravitational-wave data can bound dual-kinematic corrections", needs a signature, and #13 §2 marks the merger arena "[O — flagged, not derived]" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)).
+
+#13 §7's open list has two further items, which it does not tie to the dual dynamics: "the factor 4" of the maximum force ([the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)) and "whether merger-band gravitational-wave data can bound dual-kinematic corrections" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)).
 
 ### What the program has instead
 
@@ -89,7 +90,7 @@ Neither item is among #11 §14's eleven open problems, which do not mention #13,
 
 ## Sources
 
-- `papers/conjugate-special-relativity.md` §6 — the open item, the 3+1 presentation, the shared time and the photon-dispersion argument; §7 for the open list; §1–§3 and §5 for the 3+1 kinematics; §4 for the four-vector shell; §5 for the dual second law that waits on it; §2 for the merger arena.
+- `papers/conjugate-special-relativity.md` §6 — the open item, the 3+1 presentation, the shared time and the photon-dispersion argument; §7 for the open list; §1–§3 and §5 for the 3+1 kinematics; §4 for the four-vector shell; §5 for the dual second law that waits on it.
 - `review/v3-worklog.md` 'New open items' — item O3: the §6 cone belongs to the four-dimensional map; the dark-photon question.
 - `papers/broken-born-checkpoint-v2.md` §7 — the dynamics of X; §8 for χ in ordinary kinematics; §14 for the open problems, which do not include it.
 - `HANDOFF.md` §4 — the chat-only comparison of field equations; §2 and §8 for the open list and the queue, which do not include it.
