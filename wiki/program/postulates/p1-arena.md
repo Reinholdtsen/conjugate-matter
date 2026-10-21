@@ -83,7 +83,7 @@ The answer depends on what else is held fixed.
 
 The machine check behind the [V] is the battery's test T2, which builds H_Z for a randomly sampled X and Y with d = 4 and confirms that I[Z]² = −1, that H_Z is symmetric and positive definite, and that det H_Z = 1 (`verify/battery.py`; gate output `T2 I[Z]^2 = -1`, passing).
 
-## Superseded: the v0.1 arena with η
+## Superseded: the v0.1 arena with three structures
 
 The lab notebook's first version of P1 (v0.1, September 2026) had three structures:
 
