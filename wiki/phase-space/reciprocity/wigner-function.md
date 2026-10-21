@@ -77,7 +77,7 @@ The inner integral, along L−, gives the marginal distribution of the coordinat
 
 - **In the two vacua.** "At H = 1, in the vacuum +K_ref it is ∫|ψ(x)|⁴ dx (local in x); in −K_ref it is ∫|ψ̃(p)|⁴ dp." (toy-model note §5). ∫|ψ(x)|⁴ dx has the form that a contact interaction, one acting only when two particles are at the same point, takes in a mean-field treatment [T], which is one way to read "local in x".
 - **The numbers.** "For ψ ∝ e^{−(x−1.3)²/0.7} + 0.6 e^{−(x+1.3)²/0.7}, the two vacua give 0.4070 and 0.3600." (§5). The referee reproduced them, from the wavefunction directly and from the Wigner marginals, as 0.406972 and 0.360047 (`review/round4/referee/out_sec5.txt`).
-- **Odd in K.** "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." Without such a coupling, "a twisted element ρ∘(K → −K) leaves the vacuum invariant" (#11 §4; [the twisted element](/wiki/symmetry-breaking/twisted-element)). Flipping K alone changes it: "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925" (`review/round4/referee/out_sec5_fix.txt`). The combined map (ψ → Fψ, K → −K) leaves it invariant (§5).
+- **Odd in K.** "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." Without such a coupling, "a twisted element ρ∘(K → −K) leaves the vacuum invariant" ([#11](/wiki/history/documents/checkpoint) §4; [the twisted element](/wiki/symmetry-breaking/twisted-element)). Flipping K alone changes it: "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925" (`review/round4/referee/out_sec5_fix.txt`). The combined map (ψ → Fψ, K → −K) leaves it invariant (§5).
 - **It needs H.** "I[W] = ∫_{L+} du (∫_{L−} dv W)² of a state's Wigner function needs H as well as K: rescaling the coordinate along L+ by 2 doubles it. It is covariant under the SO(2) fixing H = 1, not under Sp(2,ℝ)." (§5). The round-4 adjudication upheld this as finding F5 ("rescaling the eigenline coordinate by 2 doubles I (0.407 → 0.814)"); the gate prints "0.4070 -> 0.8139". Earlier wordings called the coupling "ρ-covariant" or "K-covariant"; v2 calls it (H, K)-built.
 - **What "locality" means here.** The referee's caveat: "'Locality' here is a quartic functional of a one-particle state, not an interacting field theory; the Yukawa analogy is heuristic." (audit notes, Step 2(d)).
 
@@ -99,7 +99,7 @@ The toy note uses the parity form to read its lemma on the matrix base. On the b
 
 ## Standard references
 
-Added by the wiki from model memory (†), except Royer, which the toy note cites as retrieved.
+Added by the wiki from model memory (†), except Royer, which the toy note cites as ref. [16] and the worklog records among the v2 references "all retrieved".
 
 - E. Wigner (1932)†: the Wigner function.
 - H. Weyl (1927)†: the Weyl correspondence between operators and phase-space functions.

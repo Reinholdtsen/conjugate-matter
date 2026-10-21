@@ -21,7 +21,7 @@ sources:
 
 *A Lagrangian subspace of phase space is a set of directions, half the dimension of phase space, on which the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) vanishes: no two of its directions form a position–momentum pair. Choosing one, a polarization, is choosing which coordinates count as "position". The ordinary position axis is one Lagrangian subspace, the momentum axis is another, and a continuous family of tilted ones lies in between. A quantum state can be written as a wavefunction over any of them, and the different descriptions are related by unitary transforms such as the Fourier transform. The program's postulates say that the vacuum carries one such choice, and that ours is tilted toward position.*
 
-**Status:** Established — standard symplectic geometry [T] — the d = 1 statements the toy models rely on are machine-checked [V] in `verify/toy_s5.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). What the program does with the choice is its own claim: the postulate P5 [P] and the argument of [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
+**Status:** Established — standard symplectic geometry [T] — the d = 1 statements the toy models rely on are machine-checked [V] in `verify/toy_s5.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). What the program does with the choice is its own claim: the postulate [P5](/wiki/program/postulates/p5-spontaneous-selection) [P] and the argument of [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
 
 ## Definition
 
@@ -41,9 +41,9 @@ The ordinary choice writes a state as ψ(x); the opposite choice writes it as ψ
 
 ## The program's use
 
-#11 §3 makes some choice compulsory: "[x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization." See [the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator) and [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
+[#11](/wiki/history/documents/checkpoint) §3 makes some choice compulsory: "[x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization." See [the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator) and [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
 
-The postulate P5 says which: "The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful." [P] (#11 §4; [P5](/wiki/program/postulates/p5-spontaneous-selection)). The lab notebook's version names the Lagrangian explicitly: "The vacuum selects a Lagrangian polarization of 𝒫; ours is x-tilted. The choice is spontaneous: the mirror vacuum is an equally good solution." (#1 §1).
+The postulate P5 says which: "The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful." [P] (#11 §4; [P5](/wiki/program/postulates/p5-spontaneous-selection)). The [lab notebook](/wiki/history/documents/lab-notebook)'s version names the Lagrangian explicitly: "The vacuum selects a Lagrangian polarization of 𝒫; ours is x-tilted. The choice is spontaneous: the mirror vacuum is an equally good solution." (#1 §1).
 
 Since v2.2 the choice is a continuous angle rather than a discrete pick. With only ω rigid, the reciprocity map ρ ([Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)) "sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
@@ -63,7 +63,7 @@ In [model I](/wiki/symmetry-breaking/toy-models/coset-model) the real structures
 
 For any d the same construction works [T]. If Ku = u and Kv = v, then ω(u, v) = ω(Ku, Kv) = −ω(u, v), so ω vanishes on each eigenspace of K. The two eigenspaces together span phase space, and each is isotropic, so each has dimension d: K splits phase space into a transverse pair of Lagrangian subspaces. Freidel, Leigh and Minic ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)) label the solutions of their theory by such pairs: "The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept" (arXiv:1307.7080, as the worklog quotes it, "Chunk 1 results").
 
-The documents name the real structure differently. #11's P2′ writes "η = HJ, with the real structure J chosen spontaneously"; the toy-model note writes η = ωK with K the real structure, and #11 §14 item 11 uses the same η = ωK. The sources do not reconcile the two notations; this page follows the toy note.
+The documents name the real structure differently. #11's [P2′](/wiki/program/postulates/p2-prime) writes "η = HJ, with the real structure J chosen spontaneously"; the toy-model note writes η = ωK with K the real structure, and #11 §14 item 11 uses the same η = ωK. The sources do not reconcile the two notations; this page follows the toy note.
 
 ## The space of all choices
 
@@ -71,7 +71,7 @@ The documents name the real structure differently. #11's P2′ writes "η = HJ, 
 
 ## When too much is frozen
 
-If the neutral metric η is held rigid as well as ω, a polarization must be Lagrangian for ω and null for η at once, and the continuous family collapses. The compatible polarizations are then "**discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**." (#5 §B). This is why the [original P2](/wiki/program/postulates/original-p2), which froze η, was replaced by [P2′](/wiki/program/postulates/p2-prime). Under P2′, η is emergent, "the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1, addendum v0.3).
+If the neutral metric η is held rigid as well as ω, a polarization must be Lagrangian for ω and null for η at once, and the continuous family collapses. The compatible polarizations are then "**discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**." ([#5](/wiki/history/documents/debt-1-notes) §B). The same note's second consequence is that the geometric action becomes a functional of the metric g alone, with no [momentum graviton](/wiki/gravity/momentum-graviton). The two together are why the [original P2](/wiki/program/postulates/original-p2), which froze η, was replaced by [P2′](/wiki/program/postulates/p2-prime). Under P2′, η is emergent, "the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1, addendum v0.3).
 
 ## Prior art and a second arena
 

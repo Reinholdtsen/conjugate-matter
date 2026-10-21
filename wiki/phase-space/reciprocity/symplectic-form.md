@@ -29,7 +29,7 @@ sources:
 
 *The symplectic form ω is the antisymmetric pairing of positions with momenta that underlies Hamiltonian mechanics and the quantum commutator; in the plane of one position and one momentum it measures signed area. The symplectic group Sp(2d, ℝ) is the set of linear maps of phase space (d positions, d momenta) that preserve it. The group contains rotations of phase space — the quarter-turn [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) is one — together with stretches that lengthen one direction and shorten another, called boosts and squeezes. In the program ω is the one structure held fixed: its corrected postulate reads the rigidity of ω as the constancy of Planck's constant, and every other piece of phase-space geometry is allowed to vary.*
 
-**Status:** Established — standard mathematics [T]; its rigidity in the program is a postulate [P] (P2′, #11 §4) — the toy model's invariance under a generic symplectic matrix is machine-checked [V] in `verify/toy_coset.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Established — standard mathematics [T]; its rigidity in the program is a postulate [P] ([P2′](/wiki/program/postulates/p2-prime), [#11](/wiki/history/documents/checkpoint) §4) — the toy model's invariance under a generic symplectic matrix is machine-checked [V] in `verify/toy_coset.py` (see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## Definition
 
@@ -40,7 +40,7 @@ A symplectic form on phase space ℝ^{2d} is an antisymmetric, non-degenerate pa
 ω(u, v) = u_x · v_p − u_p · v_x
 ```
 
-where u = (u_x, u_p) splits a vector into its position and momentum parts. The lab notebook writes this form with d = 4 (#1 §2); the [toy-model note](/wiki/symmetry-breaking/toy-models) uses d = 1, where the blocks are single numbers (§1).
+where u = (u_x, u_p) splits a vector into its position and momentum parts. The [lab notebook](/wiki/history/documents/lab-notebook) writes this form with d = 4 (#1 §2); the [toy-model note](/wiki/symmetry-breaking/toy-models) uses d = 1, where the blocks are single numbers (§1).
 
 Three properties make ω the structure of mechanics [T]:
 
@@ -60,9 +60,9 @@ Sᵀ ω S = ω
 
 These matrices form the group Sp(2d, ℝ) [T]. Three facts about it matter here [T]:
 
-- **Volume.** Every symplectic matrix has det S = 1, so symplectic maps preserve phase-space volume. Hamiltonian time evolution is symplectic, which is Liouville's theorem.
+- **Volume.** Every symplectic matrix has det S = 1, so symplectic maps preserve phase-space volume. Hamiltonian time evolution is symplectic, so it preserves phase-space volume too: Liouville's theorem.
 - **One degree of freedom.** For d = 1 the condition reduces to det S = 1, so Sp(2, ℝ) = SL(2, ℝ), the real 2 × 2 matrices of unit determinant. `verify/toy_coset.py` uses the generic element S = [[s₁, s₂], [s₃, (1 + s₂s₃)/s₁]], whose determinant is 1 by construction, and checks "generic S is symplectic".
-- **Quantum implementation.** In quantum mechanics each symplectic map is carried out by a unitary operator, unique up to a phase (the metaplectic representation). For ρ that operator is the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform). This is why linear symplectic maps leave the commutator unchanged, and why they count, ordinarily, as changes of description; see [unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence).
+- **Quantum implementation.** In quantum mechanics each symplectic map is carried out by a unitary operator, unique up to a phase (the metaplectic representation). For ρ that operator is the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform). Linear symplectic maps leave the commutator unchanged because they preserve ω, and the unitary operator that carries out each one is why they count, ordinarily, as changes of description; see [unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence).
 
 ## Rotations, boosts and squeezes
 
@@ -82,7 +82,7 @@ The quarter-turn ρ = [[0, 1], [−1, 0]] is the rotation R(π/2). It "is symple
 
 By the [Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), a continuous compact symmetry cannot break spontaneously in a two-dimensional system [T]. The toy-model note applies it to the rotations only: "In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ. The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur [15]. Whether ρ's SO(2) stays unbroken in the full coupled model is open." (§4). See [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)
 
-The non-compact directions are where the first ρ-preserving potential of [model I](/wiki/symmetry-breaking/toy-models/coset-model), the toy note's coset sigma model, failed. "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4" (toy-model note §4). That naive potential is dead as a stabilizing potential ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). Its replacement, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), penalizes boosts: "the boost family rises from −1 to −0.5" (round-4 adjudication, F2). Along the squeezes it keeps a flat direction: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication had called this zero mode an exact symmetry; the toy note's v2, which ranks above the adjudication, says it is not symmetry-protected.
+The boosts are where the [first ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) of [model I](/wiki/symmetry-breaking/toy-models/coset-model), the toy note's coset sigma model, failed. "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4" (toy-model note §4). That naive potential is dead as a stabilizing potential ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). Its replacement, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), penalizes boosts: "the boost family rises from −1 to −0.5" (round-4 adjudication, F2). Along the squeezes it keeps a flat direction: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication had called this zero mode an exact symmetry; the toy note's v2, which ranks above the adjudication, says it is not symmetry-protected.
 
 The referee also worked out, with sympy, which maps of Sp(2, ℝ) the naive potential leaves unbroken. A conjugation S⁻¹K_ref S that returns +K_ref forces S = diag(a, 1/a); one that returns −K_ref forces S = [[0, −1/c], [c, 0]]. So the potential "leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (audit notes Step 2(c), capitals lowered here): among the rotations only ±1 and ±ρ survive.
 
@@ -98,14 +98,14 @@ H → Sᵀ H S        K → S⁻¹ K S
 
 ## Rigidity: the one fixed structure
 
-In the program's postulates ω is the only structure that does not vary. "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime); for η and the generalized metric H, see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). The calc note that forced the change put it as "Freeze ω only — that is genuinely ℏ" (#5 §B). The lab notebook's gloss on the original postulate was "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) froze the neutral metric η as well; the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then left the program no content of its own ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
+In the program's postulates ω is the only structure that does not vary. "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime); for η and the generalized metric H, see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). [The calc note](/wiki/history/documents/debt-1-notes) that forced the change put it as "Freeze ω only — that is genuinely ℏ" (#5 §B). The lab notebook's gloss on the original postulate was "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) froze the neutral metric η as well; the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then left the program no content of its own ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
 
 What a rigid ω leaves free:
 
 - **The Siegel domain.** The positive generalized metrics H compatible with ω alone form the Siegel domain Sp(2d, ℝ)/U(d), coordinatized by a complex symmetric matrix Z = X + iY with Y > 0 (#5 §C; [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain)). For d = 1 it is the upper half-plane of model I.
 - **Möbius maps.** Sp(2d, ℝ) acts on Z by fractional linear (Möbius) maps, and ρ acts as Z → −Z⁻¹ with fixed point Z = i (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
 - **Shifts.** "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric)" (#11 §7.1), the Möbius action of the block matrix [[1, B], [0, 1]] (#6 §1). It shifts [the momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, so X "is shift-symmetric — axion-like, never auxiliary" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
-- **Unimodularity.** With η also rigid, det H = 1 follows (#5 §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)). #11 §5 adds that it "persists across the whole modular family", which battery test T2 checks ("det H_Z = 1"; [the verification battery](/wiki/method/verification/battery)).
+- **Unimodularity.** With η also rigid, det H = 1 follows (#5 §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)). #11 §5 adds, calling it machine-verified, that it "persists across the whole modular family". Battery test T2 checks "det H_Z = 1" at one randomly sampled member of the family (d = 4), so the statement for the whole family is derived [D], not machine-verified ([the verification battery](/wiki/method/verification/battery)).
 
 ## A second symplectic space: charges
 
@@ -144,4 +144,4 @@ The toy note's own references for the two-dimensional theorems are Mermin–Wagn
 - `notes/debt1a-ii-X-classification.md` §1 — the Möbius subgroup Z → Z + B of the rigid group.
 - `notes/broken-born-theory.md` §1, §2 — the original P2's gloss; the standard block form of ω; ρ² as parity.
 - `verify/toy_coset.py` — invariance of model I under a generic symplectic S and under ρ; the vacuum's stabilizer.
-- `verify/battery.py` T2 — det H_Z = 1 across the modular family.
+- `verify/battery.py` T2 — det H_Z = 1 at one sampled member of the modular family.

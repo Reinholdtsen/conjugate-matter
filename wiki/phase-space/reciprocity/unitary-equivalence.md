@@ -23,9 +23,9 @@ sources:
   - "verify/toy_gw.py"
 ---
 
-*A map like [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) can relate to a physical theory in two different ways. It can be a change of description — the same physics written in other variables, as a Fourier transform rewrites a waveform as a spectrum — or it can be a symmetry of the dynamics: an operation that leaves a specific action unchanged, and therefore constrains what the theory can do (a Noether symmetry). In ordinary quantum mechanics ρ is the first kind, because the Stone–von Neumann theorem makes all the standard ways of representing the position–momentum commutation rules equivalent. The program needs the second kind, since only a symmetry of an action can be spontaneously broken. Its referees made exhibiting such an action the first acceptance criterion for anything it proposes, and #11 records the criterion as met, in the referees' wording, by the [toy models](/wiki/symmetry-breaking/toy-models).*
+*Unitary equivalence and Noether symmetry are the two different ways a map like [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) can relate to a physical theory. It can be a change of description, a unitary equivalence — the same physics written in other variables, as a Fourier transform rewrites a waveform as a spectrum — or it can be a symmetry of the dynamics: an operation that leaves a specific action unchanged, and therefore constrains what the theory can do (a Noether symmetry). In ordinary quantum mechanics ρ is the first kind, because the Stone–von Neumann theorem makes all the standard ways of representing the position–momentum commutation rules equivalent. The program needs the second kind, since only a symmetry of an action can be [spontaneously broken](/wiki/symmetry-breaking/spontaneous-symmetry-breaking). Its referees made exhibiting such an action [the first acceptance criterion](/wiki/symmetry-breaking/toy-models/acceptance-criterion) for anything it proposes, and [#11](/wiki/history/documents/checkpoint) records the criterion as met, in the referees' wording, by the [toy models](/wiki/symmetry-breaking/toy-models).*
 
-**Status:** Established — the equivalence is textbook quantum mechanics [T], stated here from general knowledge; the program's claim that ρ is a symmetry of an underlying action is the postulate P3 [P]. The distinction was raised by the referees and conceded in #14 §1; #11 §14 item 11 records the criterion as met in the referees' wording by the toy models, whose invariance is machine-checked [V] ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Established — the equivalence is textbook quantum mechanics [T], stated here from general knowledge; the program's claim that ρ is a symmetry of an underlying action is the postulate [P3](/wiki/program/postulates/p3-reciprocity) [P]. The distinction was raised by the referees and conceded in [#14](/wiki/dark-matter/candidates/soliton-candidate) §1; #11 §14 item 11 records the criterion as met in the referees' wording by the toy models, whose invariance is machine-checked [V] ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## Two ways a map can be a symmetry
 
@@ -51,19 +51,19 @@ Applied to ρ, the theorem works as follows.
 
 So in quantum mechanics with finitely many degrees of freedom, ρ and every other linear symplectic map is a change of description.
 
-The theorem does not extend to infinitely many degrees of freedom. Quantum field theories admit unitarily inequivalent representations of the commutation relations, and distinct vacua of a spontaneously broken symmetry live in such inequivalent representations [T]. The toy models therefore work with fields. The worklog's criterion for quantum stability starts them in 1+1 dimensions, because "In 0+1 dimensions (quantum mechanics), tunnelling restores any symmetry" (`notes/toy-lagrangian.md`, "Success criteria", S4).
+The theorem does not extend to infinitely many degrees of freedom. Quantum field theories admit unitarily inequivalent representations of the commutation relations, and distinct vacua of a spontaneously broken symmetry live in such inequivalent representations [T]. The toy models are field theories: the worklog's criterion for quantum stability starts them in 1+1 dimensions, because "In 0+1 dimensions (quantum mechanics), tunnelling restores any symmetry" (`notes/toy-lagrangian.md`, "Success criteria", S4).
 
 ## Why ρ is ordinarily only a change of description
 
 #14 conceded the point at its outset: "We note at the outset a distinction the proposal must eventually discharge: as usually encountered, rho is a unitary equivalence between representations of the canonical commutation relations, not a Noether symmetry of a specified action. The framework's claim is that rho is a genuine symmetry of an underlying action, spontaneously broken; the emergent structure eta below is the proposed order parameter, and the exhibition of a toy action realizing this is stated in Sec. 6 as the proposal's first acceptance criterion." (#14 §1).
 
-The order parameter #14 names is the neutral metric η ([the order parameter](/wiki/symmetry-breaking/order-parameter)). The program postulates the second kind of symmetry: "**P3** The action is invariant under the Born rotation generated by I = ω⁻¹H. [P]" (#11 §4; [P3](/wiki/program/postulates/p3-reciprocity)).
+The order parameter #14 names is the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η ([the order parameter](/wiki/symmetry-breaking/order-parameter)). The program postulates the second kind of symmetry: "**P3** The action is invariant under the Born rotation generated by I = ω⁻¹H. [P]" (#11 §4; [P3](/wiki/program/postulates/p3-reciprocity)).
 
 ## The referees' demand
 
 The demand came out of the blind reviews of #14:
 
-- **Round 1.** The referee's "toy-Lagrangian demand" was "adopted as acceptance criterion #1" (`HANDOFF.md` §6). The handoff's first open item adds that "both reviewers independently named it" (§2). See [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
+- **Round 1.** The referee's "toy-Lagrangian demand" was "adopted as acceptance criterion #1" (`HANDOFF.md` §6). [The handoff](/wiki/history/documents/handoff)'s first open item adds that "both reviewers independently named it" (§2). See [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
 - **#14** states the criterion so that failure would be checkable: "(1) exhibition of an action - a toy model suffices - in which rho is a genuine Noether symmetry, spontaneously broken, with eta the order parameter selecting both the position polarization and the hidden sector's electric description; deriving hypothesis H from that action would make the coupling a prediction" (#14 §6).
 - **Round 3.** The referees' shared verdict became the program's main critique ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)), and the adjudication made the toy Lagrangian the next task, as the one item that could answer it: "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes." (`review/round3-adjudication.md`, decision 4; [round-3 decisions](/wiki/method/review/round-3/decisions)).
 
@@ -77,7 +77,7 @@ The worklog fixed its success criteria before building anything, and the first o
 - "the vacuum is stable with H dynamical;"
 - "there is an ordered ℤ₂ phase in 1+1 in the frozen-H reduction (Monte Carlo)."
 
-Still open there [O]: "a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4." See [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion).
+Still open there [O]: "a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4." See [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion). #11 does not qualify the second point; the toy note does. Its stable minimum keeps one flat direction, the squeeze line, and "It is not symmetry-protected" (§4; [the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form#rotations-boosts-and-squeezes)).
 
 The invariance is machine-checked. In [model I](/wiki/symmetry-breaking/toy-models/coset-model), the coset model of (H, K), "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, and the action is invariant (checked for generic symplectic S, so for ρ)" (toy-model note §2), and the gate prints "all three terms invariant under rho" [V] ([Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)).
 
@@ -88,7 +88,7 @@ Two parts of the referees' wording are not covered by "met":
 
 ## Symmetry, covariance and the twisted element
 
-Model II shows the same distinction inside a single theory. In [the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) the position–momentum duality of Langmann and Szabo acts on the field φ through a matrix Π (toy-model note §3):
+Model II shows the same distinction between its complex and real versions. In [the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) the position–momentum duality of [Langmann and Szabo](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory) acts on the field φ through a matrix Π (toy-model note §3):
 
 - **Complex fields: a symmetry.** The action satisfies S[Πφ] = S[φ], and "The duality Πφ is the α = π element of e^{−iαN}" (§3); the gate prints "complex model: S[Pi phi] = S[phi] (duality is a field symmetry)".
 - **Real fields: a covariance.** "Πφ is not Hermitian, so the duality maps the real field space out of itself. The real action is only covariant: its quartic term is invariant in the alternating form Tr((ψψ†)²), ψ = Πφ." (§3; here † is the Hermitian adjoint, not the citation mark). Grosse and Wulkenhaar themselves describe the real action at Ω = 1 as invariant under the duality; "covariant only" is the toy note's reading (the referee of [review round 4](/wiki/method/review/round-4), audit notes Step 1).
