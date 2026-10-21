@@ -83,7 +83,7 @@ Calc note #5 also calls Re Z the "gate mediator": exchange of X between two conj
 | the circle \|Z\| = 1 | scale-factor duality, the constraint a·ã = 1 | [modular inversion](/wiki/phase-space/modular-field/modular-inversion); [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) |
 | the phase of Z's boundary value | the dark-energy field τ | [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) |
 
-The note's closing ledger counts "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among that night's results (§F). The unification is tagged structural: it says where each part sits in one parametrization, and the dynamics of each part are worked out separately, on the pages the table links.
+The note's closing summary counts "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among that night's results (§F). The unification is tagged structural: it says where each part sits in one parametrization, and the dynamics of each part are worked out separately, on the pages the table links.
 
 ## What X became
 
@@ -118,7 +118,7 @@ Calc note #5 also defined the direct route (§D): "expand the generalized curvat
 
 - `papers/broken-born-checkpoint-v2.md` §6 — the identifications [D] and the [V] on I[Z]² = −1.
 - `notes/debt1a-geometric-core.md` §C — the Siegel domain under P2′, Im Z = g, Re Z = X, the modular unification, Born's debt restated.
-- `notes/debt1a-geometric-core.md` §B, §D, §F — Branch R; the unperformed curvature expansion and the field counts; the night's ledger and open item 5.
+- `notes/debt1a-geometric-core.md` §B, §D, §F — Branch R; the unperformed curvature expansion and the field counts; the night's closing summary and open item 5.
 - `notes/debt1a-ii-X-classification.md` §1, §3 — the shift symmetry; the vacuum ⟨Z⟩ = i·g at X = 0, the Higgs mechanism and the positive-H caveat.
 - `notes/debt1a-iii-tuning-test.md` §2 — {J₀, I[Z]} = [[S, A], [A, S]] and the compatible locus.
 - `notes/debt1a-iv-beta-coefficients.md` §4 — "X = Re Z, the reciprocity-odd partner of the metric".

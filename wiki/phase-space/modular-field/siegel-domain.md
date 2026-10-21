@@ -58,7 +58,7 @@ Together with the linear changes Z → AZAᵀ (A invertible), these two kinds ge
 
 ### The domain as a space of phase-space metrics
 
-The program meets the domain from the other side, as a space of metrics. Fix the symplectic form ω = [[0, 1], [−1, 0]] in d × d blocks, in the (x, p) basis of #1 §2. A positive symmetric matrix H on phase space is compatible with ω when I = ω⁻¹H squares to −1, so that I is a complex structure (see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). For a symmetric H this is the same as H itself being a symplectic matrix [T]; model I of the toy-model note takes H to be "a positive symmetric symplectic matrix" with I² = −1 (§2). Calc note #5: "positive H compatible with ω alone form the **Siegel domain** Sp(2d,ℝ)/U(d), coordinatized by a complex symmetric matrix" (§C):
+The program meets the domain from the other side, as a space of metrics. The symplectic form is fixed as ω = [[0, 1], [−1, 0]] in d × d blocks, in the (x, p) basis of #1 §2. A positive symmetric matrix H on phase space is compatible with ω when I = ω⁻¹H squares to −1, so that I is a complex structure (see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). For a symmetric H this is the same as H itself being a symplectic matrix [T]; model I of the toy-model note takes H to be "a positive symmetric symplectic matrix" with I² = −1 (§2). Calc note #5: "positive H compatible with ω alone form the **Siegel domain** Sp(2d,ℝ)/U(d), coordinatized by a complex symmetric matrix" (§C):
 
 ```text
 Z = X + iY,   Y > 0

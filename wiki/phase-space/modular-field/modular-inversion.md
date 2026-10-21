@@ -108,7 +108,7 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §6 — the claim, among the identifications tagged [D].
-- `notes/debt1a-geometric-core.md` §C, §F — the derivation, the d = 1 matrix check and the |Z| = 1 circle; the modular unification in the ledger.
+- `notes/debt1a-geometric-core.md` §C, §F — the derivation, the d = 1 matrix check and the |Z| = 1 circle; the modular unification in the closing summary.
 - `papers/broken-born-checkpoint-v2.md` §4, §10 — P3 and the P2′ refinement; a·ã = 1 as the |Z| = 1 locus [D].
 - `papers/broken-born-checkpoint-v2.md` §11 — the same matrix generating S-duality; the OP8 conjecture.
 - `papers/broken-born-checkpoint-v2.md` App. A item 6 — supposition 6 "promoted to theorem".
