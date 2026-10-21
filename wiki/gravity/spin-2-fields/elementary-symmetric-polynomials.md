@@ -19,7 +19,7 @@ sources:
   - "HANDOFF.md Appendix A"
 ---
 
-*The elementary symmetric polynomials of a list of numbers are the sums of all products of distinct entries taken n at a time: e₁ is the sum, e₂ the sum of all pairwise products, and so on up to the product of all the entries, with e₀ = 1. Applied to the eigenvalues of the matrix √(g⁻¹f), built from the two metrics of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), they are the building blocks of the ghost-free bimetric potential, which is a linear combination of them with constant coefficients. Power sums, such as p₄, the sum of fourth powers, can be written in terms of the eₙ by Newton's identities, but only as nonlinear polynomials, so they lie outside that family. The program's [verification battery](/wiki/method/verification/battery) checks two facts of this algebra: the linear coefficients of the eₙ near the identity matrix, which give the tadpole of the program's potential (test T6), and that p₄ is not a linear combination of the eₙ (test T7).*
+*The elementary symmetric polynomials of a list of numbers are the sums of all products of distinct entries taken n at a time: e₁ is the sum, e₂ the sum of all pairwise products, and so on up to the product of all the entries, with e₀ = 1. Applied to the eigenvalues of the matrix √(g⁻¹f), built from the two metrics of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), they are the building blocks of the ghost-free bimetric potential, which is a linear combination of them with constant coefficients. Power sums beyond the first, such as p₄, the sum of fourth powers, can be written in terms of the eₙ by Newton's identities, but only as nonlinear polynomials, so they lie outside that family. The program's [verification battery](/wiki/method/verification/battery) checks two facts of this algebra: the linear coefficients of the eₙ near the identity matrix, which give the tadpole of the program's potential (test T6), and that p₄ is not a linear combination of the eₙ (test T7).*
 
 **Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded gate run ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the metric-tier structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of calc note #7, not on the test.
 
@@ -41,7 +41,7 @@ One generating function holds all of them [T]:
 (1 + tλ₁)(1 + tλ₂) ⋯ (1 + tλ_d) = e₀ + e₁t + e₂t² + … + e_d t^d
 ```
 
-Multiplying out the left side, the coefficient of tⁿ collects one product for each way of picking n of the factors' λ terms, which is the definition of eₙ.
+When the left side is multiplied out, the coefficient of tⁿ collects one product for each choice of n factors whose tλ term is taken, which is the definition of eₙ.
 
 Each eₙ is unchanged by any reordering of the λᵢ, which is what "symmetric" means. The fundamental theorem of symmetric polynomials says more: every symmetric polynomial in λ₁, …, λ_d can be written as a polynomial in e₁, …, e_d, and in only one way, because the eₙ are algebraically independent [T]. The eₙ are the basic symmetric functions from which every other one is assembled.
 
@@ -105,7 +105,7 @@ Inverting the matrix reverses the order of the eₙ, up to one overall factor. I
 
 So the same potential, written with f's volume factor and the inverse square root √(f⁻¹g), has its coefficients in reverse order: the term with βₙ becomes the term with β₄₋ₙ [T]. Calc note #8 records an exchange identity, Sₙ(g, f) = S₄₋ₙ(f, g), without defining Sₙ (#8 §1); the wiki reads it as this identity.
 
-Calc note #8 then lets reciprocity act on the broken vacuum "as the frame exchange (𝕏 → 𝕏⁻¹ in the aligned frame …)" and concludes that invariance of the potential forces βₙ = β₄₋ₙ [D] (#8 §1). That is [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome).
+Calc note #8 then takes reciprocity to act on the broken vacuum "as the frame exchange (𝕏 → 𝕏⁻¹ in the aligned frame …)" and concludes that invariance of the potential forces βₙ = β₄₋ₙ [D] (#8 §1). That is [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome).
 
 ## Linearization at the identity (battery T6)
 

@@ -2,7 +2,7 @@
 title: "Partially massless gravity"
 weight: 80
 status: established
-description: "A massive spin-2 field on de Sitter space at the mass where a gauge symmetry removes its helicity-0 mode, and the bimetric parameter point with this property, which lies inside the program's palindromic branch at α = 1."
+description: "A massive spin-2 field on de Sitter space at the mass where a gauge symmetry removes its helicity-0 mode, and the bimetric parameter point studied as partially massless bimetric gravity, which lies inside the program's palindromic branch at α = 1."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §7.4"
@@ -90,7 +90,7 @@ The program's frame-tier potential is a Hassan–Rosen potential whose coefficie
 
 Setting α = 1 in the three conditions gives β₀ = β₄ = 3β₂ and β₁ = β₃ = 0, which satisfies βₙ = β₄₋ₙ. The checkpoint: "At α = 1 the PM point lies **inside** our palindromic branch", so partially massless gravity "is a special point of the reciprocity-symmetric family, raising the open question of whether reciprocity is the origin of the PM symmetry [O]" (#11 §7.4).
 
-On the literature's reading of α, α = 1 means equal Planck masses. Calc note #8 states that reciprocity forces "equal effective Planck masses" (#8 §3), so α = 1 is the case that applies to the program; #11 does not draw this link itself. The handoff states the finding without the condition: the partially massless bimetric point "is g↔f symmetric and sits inside the palindromic branch" (HANDOFF §2). The checkpoint, which ranks above the handoff, adds "At α = 1".
+On the literature's reading of α, α = 1 means equal Planck masses. Calc note #8 states that reciprocity forces "equal effective Planck masses" (#8 §3), so on this reading α = 1 is the case that applies to the program; #11 does not draw this link itself. The handoff states the finding without the condition: the partially massless bimetric point "is g↔f symmetric and sits inside the palindromic branch" (HANDOFF §2). The checkpoint, which ranks above the handoff, adds "At α = 1".
 
 ### A different point of the same branch
 

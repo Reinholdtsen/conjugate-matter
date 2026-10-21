@@ -71,7 +71,7 @@ The checkpoint states the limit directly:
 
 > Scope, stated carefully: this cancels the spin-2 interaction potential's vacuum contribution at the aligned point — it does **not** by itself address matter-loop vacuum energy, the "old" cosmological-constant problem, on which bimetric theory is otherwise no better placed than GR [22S]. (#11 §7.3)
 
-The identity is a relation among the potential's own coefficients. By #11's statement it does not by itself address the vacuum energy that matter loops contribute, which is the subject of this page.
+The identity relates combinations of the potential's own coefficients. By #11's statement it does not by itself address the vacuum energy that matter loops contribute, which is the subject of this page.
 
 ### Where the observed dark energy goes
 

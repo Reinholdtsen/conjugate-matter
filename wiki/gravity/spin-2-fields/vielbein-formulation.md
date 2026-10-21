@@ -62,7 +62,7 @@ If the frames satisfy the symmetry condition that e^a_μ η_ab f^b_ν is symmetr
 
 ### Wedge products
 
-With the frames written as one-forms, e^a = e^a_μ dx^μ, the potential becomes a sum of wedge products. In four dimensions the n-th term contracts 4 − n copies of e and n copies of f with the totally antisymmetric symbol ε_abcd [T]:
+With the frames written as one-forms, e^a = e^a_μ dx^μ, the potential can be written as a sum of wedge products. In four dimensions the n-th term contracts 4 − n copies of e and n copies of f with the totally antisymmetric symbol ε_abcd [T]:
 
 ```text
 ε_abcd e^a ∧ e^b ∧ e^c ∧ e^d,    ε_abcd e^a ∧ e^b ∧ e^c ∧ f^d,    …,    ε_abcd f^a ∧ f^b ∧ f^c ∧ f^d
@@ -100,7 +100,7 @@ Potentials built at the metric tier failed twice ([the metric tier fails twice](
 
 ### What the pass delivers
 
-A pass did not yet fix the potential's coefficients: "What a pass does **not** yet deliver: the βₙ coefficients" (#7 §3). Calc note #8 writes the frame-tier sector as a Hassan–Rosen potential for the two frames, "The Hinterbichler–Rosen sector for (e, f = E₀[J]) is V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏), 𝕏 = √(g⁻¹f), with the exchange identity Sₙ(g,f) = S₄₋ₙ(f,g)" (#8 §1), and lets reciprocity act on it as an exchange of the two frames, which forces [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome). Because J carries only compact moduli, the second frame cannot range over all metrics: the result is "**Hassan–Rosen bimetric gravity with the second frame constrained to a compact moduli space Λ(d)**" (#7 §4), which is [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric).
+A pass did not yet fix the potential's coefficients: "What a pass does **not** yet deliver: the βₙ coefficients" (#7 §3). Calc note #8 writes the frame-tier sector as a Hassan–Rosen potential for the two frames, "The Hinterbichler–Rosen sector for (e, f = E₀[J]) is V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏), 𝕏 = √(g⁻¹f), with the exchange identity Sₙ(g,f) = S₄₋ₙ(f,g)" (#8 §1), and takes reciprocity to act on it as an exchange of the two frames, which forces [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome). Because J carries only compact moduli, the second frame cannot range over all metrics: the result is "**Hassan–Rosen bimetric gravity with the second frame constrained to a compact moduli space Λ(d)**" (#7 §4), which is [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric).
 
 ### Status of the program's use
 
