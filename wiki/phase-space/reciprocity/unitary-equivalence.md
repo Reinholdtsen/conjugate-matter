@@ -64,8 +64,8 @@ The program postulates the second kind: "**P3** The action is invariant under th
 The demand came out of the blind reviews of #14:
 
 - **Round 1.** The referee's "toy-Lagrangian demand" was "adopted as acceptance criterion #1" (`HANDOFF.md` §6). The handoff's first open item adds that "both reviewers independently named it" (§2). See [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
-- **#14 v3** stated the criterion so that failure would be checkable: "(1) exhibition of an action - a toy model suffices - in which rho is a genuine Noether symmetry, spontaneously broken, with eta the order parameter selecting both the position polarization and the hidden sector's electric description; deriving hypothesis H from that action would make the coupling a prediction" (#14 §6).
-- **Round 3** sharpened it into the program's main critique ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)). The adjudication made the toy Lagrangian the next task: "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes." (`review/round3-adjudication.md`, decision 4; [round-3 decisions](/wiki/method/review/round-3/decisions)).
+- **#14** states the criterion so that failure would be checkable: "(1) exhibition of an action - a toy model suffices - in which rho is a genuine Noether symmetry, spontaneously broken, with eta the order parameter selecting both the position polarization and the hidden sector's electric description; deriving hypothesis H from that action would make the coupling a prediction" (#14 §6).
+- **Round 3.** The referees' shared verdict became the program's main critique ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)), and the adjudication made the toy Lagrangian the next task, as the one item that could answer it: "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes." (`review/round3-adjudication.md`, decision 4; [round-3 decisions](/wiki/method/review/round-3/decisions)).
 
 The worklog fixed its success criteria before building anything, and the first of them is this page's distinction: "**S1 — symmetry of an action.** An explicit action S[fields] on which ρ acts as a symmetry: S is invariant, not merely related to its image by a unitary equivalence. Invariance is verified symbolically." (`notes/toy-lagrangian.md`, "Success criteria"; [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)).
 
@@ -117,13 +117,13 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 
 ## Sources
 
+- `CLAUDE.md` "Since the handoff" — the toy Lagrangian "done to the referees' wording".
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the criterion met in the referees' wording, and what remains open.
 - `papers/broken-born-checkpoint-v2.md` §4 — P3, the postulated symmetry of the action.
 - `papers/reciprocity-toy-models.md` §1–§3 — the explicit ρ-invariant action, the twisted element, symmetry versus covariance.
-- `CLAUDE.md` "Since the handoff" — the toy Lagrangian "done to the referees' wording".
 - `review/round3-adjudication.md` "Decisions" — decision 4: the toy Lagrangian as the next task.
 - `review/round4/referee/audit-notes.md` Step 1 — Grosse–Wulkenhaar's own wording on the real action.
-- `notes/toy-lagrangian.md` "Success criteria", "Assessment against the predictions" — criterion S1; the 0+1 remark under S4; the partial answer to round 3.
 - `HANDOFF.md` §2, §6 — the open item with the electric-sublattice clause; round 1 and the adoption of acceptance criterion 1.
+- `notes/toy-lagrangian.md` "Success criteria", "Assessment against the predictions" — criterion S1; the 0+1 remark under S4; the partial answer to round 3.
 - `notes/knot-dark-matter-standalone.md` §1, §6 — the concession and the criterion as #14 stated them (withdrawn paper).
 - `verify/toy_coset.py`, `verify/toy_gw.py` — the invariance checks for model I and the complex model II.

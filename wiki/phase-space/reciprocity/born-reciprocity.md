@@ -79,7 +79,7 @@ x_μ x^μ = λ_χ²
 
 #13 calls it an invariant-length shell: "conjugate quanta are characterized by an irreducible extent λ_χ as ours are by mass [D — structural; this recovers Born's 1938–49 program of a self-dual physics with both m and λ fundamental [3†, 4†]]" (§4). #13 lists "Born's self-dual program [3†, 4†]" among its literature tethers (§7). See [the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell). Whether Born's papers state the hope in these terms awaits the source check above.
 
-The relativistic form of the map exchanges all four coordinates with all four momenta, time with energy included. #13 works in a "3+1 presentation" that leaves time alone and lists "the fully covariant construction with the four-dimensional Born map (t ↔ E)" as open [O] (§6); see [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map).
+In its relativistic form the map exchanges all four coordinates with all four momenta, time with energy included [T]. #13 works in a "3+1 presentation" that leaves time alone and lists "the fully covariant construction with the four-dimensional Born map (t ↔ E)" as open [O] (§6); see [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map).
 
 ## Names
 
@@ -117,11 +117,11 @@ In model II of the toy models the role of ρ is played by a field-theory duality
 - `papers/broken-born-checkpoint-v2.md` §3 — the symmetry of quantum kinematics; the program's reading of it.
 - `papers/broken-born-checkpoint-v2.md` refs [1]–[2] — Born 1938 and 1949, both †.
 - `papers/broken-born-checkpoint-v2.md` §4, §6, §10, §11 — P3 and the v2.2 refinement; ρ acting as Z → −Z⁻¹; ρ inside a continuous U(1) in the toys; the same matrix in S-duality.
-- `papers/conjugate-special-relativity.md` §4, §6, §7 — Born's hope for a fundamental mass and length; the four-dimensional Born map as open; the literature tether [3†, 4†].
 - `papers/reciprocity-toy-models.md` Abstract, §1–§3 — kinematics versus dynamics; ρ as a symplectic matrix squaring to −1; ρ in model I and the twisted element; the real model's discrete vacua.
+- `papers/conjugate-special-relativity.md` §4, §6, §7 — Born's hope for a fundamental mass and length; the four-dimensional Born map as open; the literature tether [3†, 4†].
+- `review/round3/referee/audit-notes.md` Step 1 — the citation check on Born 1938 and 1949.
+- `notes/debt1a-geometric-core.md` §B — the flip of η read as the broken symmetry moving the order parameter.
 - `notes/broken-born-program-v1.md` §1 — the commutator is blind to ρ; the dynamical asymmetries.
 - `notes/broken-born-theory.md` §1, §2 — P3's ℤ₄; ρ² as parity; ρ's action on (ω, η, H).
-- `notes/debt1a-geometric-core.md` §B — the flip of η read as the broken symmetry moving the order parameter.
 - `notes/knot-dark-matter-standalone.md` §1 — ρ as a unitary equivalence of representations (withdrawn paper).
-- `review/round3/referee/audit-notes.md` Step 1 — the citation check on Born 1938 and 1949.
 - `popsci/universes-other-half.md` "Two descriptions of one thing" — "one sign adjustment" (popular article; never a status source).

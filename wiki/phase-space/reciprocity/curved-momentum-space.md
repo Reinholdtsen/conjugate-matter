@@ -40,7 +40,7 @@ None of the three has been checked against its source; they are part of [the †
 
 ## The program's framing
 
-#11 §3 cites the lineage to make one point about [Born's question](/wiki/program/borns-question): that the asymmetry between position and momentum lives in the dynamics. Among its sources is "general relativity's flat momentum fibers — the last an architectural assumption, not a measurement, and false in the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†]; curved momentum space has an independent lineage from Snyder [4†] through relative locality [6†])." The v1 paper says the same, tagged [T]: general relativity "curves x-space while leaving momentum fibers flat — an assumption of the formalism, not a measurement, and one that is *false* in the one exactly solved quantum gravity (2+1 dimensions, where momentum space is a curved group manifold) [T]" (#9 §1).
+#11 §3 cites the lineage to make one point about [Born's question](/wiki/program/borns-question): that the asymmetry between position and momentum lives in the dynamics. Among the dynamical sources of the asymmetry it lists "general relativity's flat momentum fibers — the last an architectural assumption, not a measurement, and false in the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†]; curved momentum space has an independent lineage from Snyder [4†] through relative locality [6†])." The v1 paper says the same, tagged [T]: general relativity "curves x-space while leaving momentum fibers flat — an assumption of the formalism, not a measurement, and one that is *false* in the one exactly solved quantum gravity (2+1 dimensions, where momentum space is a curved group manifold) [T]" (#9 §1).
 
 The point is negative: flat momentum space is not forced by any measurement. It does not by itself say what geometry momentum space has.
 
@@ -80,7 +80,7 @@ The program's momentum geometry is thus a dynamical metric on momentum space, sh
 - `papers/broken-born-checkpoint-v2.md` §3 and refs [4]–[6] — the lineage Snyder → 2+1 gravity → relative locality, all †.
 - `papers/broken-born-checkpoint-v2.md` §7 — Born's answer: momentum-space geometry as a massive spin-2 field.
 - `papers/broken-born-checkpoint-v2.md` §14 — the current open-problem list, which does not carry extensivity.
+- `notes/debt1a-geometric-core.md` §A, §C — g̃ = g⁻¹ slaved; momentum-space geometry as the Re Z sector.
 - `notes/broken-born-program-v1.md` §1, §10 — the 2+1 statement tagged [T]; v1's open-problem list, without extensivity.
 - `notes/broken-born-theory.md` §3, §11 item 6 — H split into g and g̃; the soccer-ball problem as #1 stated it.
-- `notes/debt1a-geometric-core.md` §A, §C — g̃ = g⁻¹ slaved; momentum-space geometry as the Re Z sector.
 - `notes/knot-dark-matter-standalone.md` §1 — independent momentum-space geometry resides in X (withdrawn paper).

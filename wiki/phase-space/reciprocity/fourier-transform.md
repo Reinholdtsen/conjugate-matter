@@ -69,7 +69,7 @@ The round-4 referee checked the parity property numerically, on the toy note's t
 
 Signal analysis uses the same pair. A sound recorded as pressure against time and as amplitude against frequency gives two complete descriptions, related by the Fourier transform [T]. The popular article #12 opens on this: "Every sound admits two complete descriptions", and position and momentum descriptions "are two complete readings of one underlying state, related by the same Fourier transform that relates a waveform to its spectrum" (#12, "Two descriptions of one thing"; a popular article, never a status source).
 
-The program's version is [the conjugate universe](/wiki/program/conjugate-universe): founding supposition 2, "a coexisting conjugate universe", survives as one state with two descriptions (#11 Appendix A, supposition 2).
+The program's version is [the conjugate universe](/wiki/program/conjugate-universe): founding supposition 2, "A coexisting conjugate universe", is "alive, transformed" into one state with two descriptions (#11 Appendix A, supposition 2).
 
 ### The time–bandwidth product
 
@@ -115,10 +115,10 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `papers/broken-born-checkpoint-v2.md` §3 — the Fourier transform implements ρ unitarily [1†, 2†].
 - `papers/broken-born-checkpoint-v2.md` Appendix A — supposition 2, one state with two descriptions.
 - `papers/reciprocity-toy-models.md` §3, §5 — the Langmann–Szabo transform on the matrix base; the coupling I and the combined map (ψ → Fψ, K → −K).
-- `notes/broken-born-theory.md` §1, §2 — P3's ℤ₄; ρ² as the parity (x, p) → (−x, −p).
 - `verify/toy_s5.py` — the transform's convention, the Parseval check, the rotation of the Wigner function, the non-self-dual test state.
 - `verify/toy_gw.py` — D f_mn = (−1)^m f_mn and its tolerance.
 - `review/round4/referee/out_sec5_fix.txt` — the referee's numerical check of F²ψ(x) = ψ(−x) and of the combined map.
 - `review/round4/referee/audit-notes.md` Step 2(d) — the referee's normalization episode.
 - `HANDOFF.md` §4 — the chat-only "cosmic time–bandwidth theorem".
+- `notes/broken-born-theory.md` §1, §2 — P3's ℤ₄; ρ² as the parity (x, p) → (−x, −p).
 - `popsci/universes-other-half.md` "Two descriptions of one thing" — the waveform–spectrum framing (popular article; never a status source).

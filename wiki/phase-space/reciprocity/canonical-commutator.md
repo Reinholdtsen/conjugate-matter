@@ -73,7 +73,7 @@ Because the relation is unchanged, ρ carries one representation of the commutat
 
 ## First use: some polarization must be chosen
 
-#11 §3 makes the uncertainty principle the premise of its [hard core](/wiki/program/hard-core): "The breaking is *mandatory*: [x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization. The magnet must point." The sentence carries no tag in #11. "Joint locality" means being sharp in position and in momentum at once. Since no state is, a world whose physics is local must be local in one variable at the cost of the other. The choice of variable is a [Lagrangian polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), a choice of which phase-space directions count as position. The popular article #12 gives the plain-language version: "a universe containing definite structures — atoms, crystals, instruments — must be definite in one variable at the expense of the other" ("An asymmetry that cannot be avoided"; a popular article, never a status source).
+#11 §3 makes the uncertainty principle the premise of its [hard core](/wiki/program/hard-core): "The breaking is *mandatory*: [x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization. The magnet must point." The sentence carries no tag in #11. "Joint locality" is locality in both variables at once; the v1 paper's wording is "nothing can be local in both variables at once, so any universe with local physics must pick a polarization" (#9 §1). A world whose physics is local must therefore be local in one variable at the cost of the other. The choice of variable is a [Lagrangian polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), a choice of which phase-space directions count as position. The popular article #12 gives the plain-language version: "a universe containing definite structures — atoms, crystals, instruments — must be definite in one variable at the expense of the other" ("An asymmetry that cannot be avoided"; a popular article, never a status source).
 
 The argument's reach is limited in two ways, both recorded in #11:
 
@@ -115,10 +115,10 @@ These are added by the wiki from model memory (†); the program's documents cit
 - `papers/broken-born-checkpoint-v2.md` §4 — P2′ ("symplectic rigidity ≡ constancy of ℏ"), P5, and the v2.2 refinement.
 - `papers/broken-born-checkpoint-v2.md` §5 — det H = 1 as geometric ℏ-rigidity, across the modular family.
 - `papers/broken-born-checkpoint-v2.md` §10 — a·ã = 1 from ω-rigidity.
-- `notes/broken-born-program-v1.md` §1 — "the canonical commutator is blind to it" (v1, superseded as reference by #11).
 - `papers/reciprocity-toy-models.md` §1 — ρ is symplectic and squares to −1.
-- `notes/broken-born-theory.md` §1, §2 — the original P2's gloss on ℏ; coordinates (xᵃ, p_a) with d = 4.
 - `notes/debt1a-geometric-core.md` §A, §B — unimodularity read as ℏ-rigidity; "Freeze ω only".
+- `notes/broken-born-program-v1.md` §1 — "the canonical commutator is blind to it"; "nothing can be local in both variables at once" (v1, superseded as reference by #11).
+- `notes/broken-born-theory.md` §1, §2 — the original P2's gloss on ℏ; coordinates (xᵃ, p_a) with d = 4.
 - `notes/knot-dark-matter-standalone.md` §1 — ρ as a unitary equivalence of representations (withdrawn paper; the framing sentence is still the program's).
 - `verify/battery.py` T2 — det H_Z = 1 across the modular family.
 - `popsci/universes-other-half.md` "An asymmetry that cannot be avoided" — plain-language framing only (popular article; never a status source).

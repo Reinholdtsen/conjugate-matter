@@ -74,7 +74,7 @@ I[W] = ∫_{L+} du ( ∫_{L−} dv W )²
 
 The inner integral, along L−, gives the marginal distribution of the coordinate u along L+; the outer integral squares that distribution and adds it up.
 
-- **In the two vacua.** "At H = 1, in the vacuum +K_ref it is ∫|ψ(x)|⁴ dx (local in x); in −K_ref it is ∫|ψ̃(p)|⁴ dp." (toy-model note §5). ∫|ψ(x)|⁴ dx is the form a contact interaction, one that acts only when two particles are at the same point, takes in a mean-field treatment [T]; that is the sense of "local in x".
+- **In the two vacua.** "At H = 1, in the vacuum +K_ref it is ∫|ψ(x)|⁴ dx (local in x); in −K_ref it is ∫|ψ̃(p)|⁴ dp." (toy-model note §5). ∫|ψ(x)|⁴ dx has the form that a contact interaction, one acting only when two particles are at the same point, takes in a mean-field treatment [T], which is one way to read "local in x".
 - **The numbers.** "For ψ ∝ e^{−(x−1.3)²/0.7} + 0.6 e^{−(x+1.3)²/0.7}, the two vacua give 0.4070 and 0.3600." (§5). The referee reproduced them, from the wavefunction directly and from the Wigner marginals, as 0.406972 and 0.360047 (`review/round4/referee/out_sec5.txt`).
 - **Odd in K.** "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." Flipping K alone changes it: "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925" (`review/round4/referee/out_sec5_fix.txt`). The combined map (ψ → Fψ, K → −K) leaves it invariant (§5).
 - **It needs H.** "I[W] = ∫_{L+} du (∫_{L−} dv W)² of a state's Wigner function needs H as well as K: rescaling the coordinate along L+ by 2 doubles it. It is covariant under the SO(2) fixing H = 1, not under Sp(2,ℝ)." (§5). The round-4 adjudication upheld this as finding F5 ("rescaling the eigenline coordinate by 2 doubles I (0.407 → 0.814)"); the gate prints "0.4070 -> 0.8139". Earlier wordings called the coupling "ρ-covariant" or "K-covariant"; v2 calls it (H, K)-built.
@@ -88,9 +88,7 @@ The Weyl correspondence assigns to each operator Â a function A(x, p) on phase 
 
 ### The Moyal plane and model II
 
-Model II, the self-dual Grosse–Wulkenhaar model, lives on a noncommutative plane whose two coordinates obey [x₁, x₂] = iθ with θ = 1 (toy-model note §3). The plane is a phase space with θ in the role of ℏ, and its fields are functions multiplied with the star product [T]. The note's basis of functions, the matrix base f_mn, consists of the Weyl symbols of the oscillator operators |m⟩⟨n|: f₀₀ = 2e^{−x²/θ}, with f_mn ⋆ f_kl = δ_nk f_ml (§3).
-
-The round-4 referee checked the note's explicit Laguerre form of f_mn against "Weyl symbol of |m><n|" built independently from the quantum-mechanical oscillator states: "max error 5.63e-14 (m,n<=3)" (audit notes, Step 2(b)). See [model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base).
+Model II, the self-dual Grosse–Wulkenhaar model, lives on a noncommutative plane whose two coordinates obey [x₁, x₂] = iθ with θ = 1 (toy-model note §3). The plane is a phase space with θ in the role of ℏ, and its fields are functions multiplied with the star product [T]. The note's basis of functions is the matrix base f_mn, with f₀₀ = 2e^{−x²/θ} and f_mn ⋆ f_kl = δ_nk f_ml (§3). These functions are the Weyl symbols of the oscillator operators |m⟩⟨n| [T]. The round-4 referee checked the note's explicit Laguerre form of f_mn against the "Weyl symbol of |m><n|", built independently from the quantum-mechanical oscillator states: "max error 5.63e-14 (m,n<=3)" (audit notes, Step 2(b)). See [model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base).
 
 ## Royer's parity form
 
@@ -118,9 +116,9 @@ Added by the wiki from model memory (†), except Royer, which the toy note cite
 
 - `papers/reciprocity-toy-models.md` §5 — the coupling I[W], its values in the two vacua, its dependence on H, the K-blind control.
 - `papers/reciprocity-toy-models.md` §3 and ref. [16] — the matrix base; the parity-operator form of Weyl symbols (Royer).
+- `review/round4-adjudication.md` F5, "Revisions for v2 of the note" — the coupling needs H; the credit to Royer.
 - `verify/toy_s5.py` — the Wigner function as implemented, the marginal checks, ∫W² = 1/(2π), the rotation under ρ.
 - `verify/toy_gw.py` — the matrix-base functions and the duality as parity.
 - `review/round4/referee/audit-notes.md` Step 2(b), Step 2(d) — independent checks of the Weyl symbols, ∫W and ∫W², the coupling's values; the referee's caveat on "locality"; Royer's paper.
 - `review/round4/referee/out_sec5.txt`, `review/round4/referee/out_sec5_fix.txt` — the referee's printed values.
-- `review/round4-adjudication.md` F5, "Revisions for v2 of the note" — the coupling needs H; the credit to Royer.
 - `notes/toy-lagrangian.md` chunk 4, "Write-up and review" — ∫W² = 1/2π as the K-blind control; the v2 references "all retrieved".

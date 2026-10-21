@@ -18,6 +18,7 @@ sources:
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
   - "review/round4-adjudication.md F1–F2"
+  - "review/round4/referee/audit-notes.md Step 1"
   - "review/round4/referee/audit-notes.md Step 2(a)"
   - "review/round4/referee/audit-notes.md Step 2(c)"
   - "notes/broken-born-theory.md §1"
@@ -117,7 +118,7 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - V. I. Arnold, *Mathematical Methods of Classical Mechanics* (1978)†: symplectic forms, Hamiltonian flows, Liouville's theorem.
 - G. B. Folland, *Harmonic Analysis in Phase Space* (1989)†: the symplectic group and the metaplectic representation.
 
-The toy note's own references for the two-dimensional theorems are Mermin–Wagner [13] and Coleman [14], and for the hyperbolic exception Niedermaier–Seiler and Duncan–Niedermaier–Seiler [15], all retrieved.
+The toy note's own references for the two-dimensional theorems are Mermin–Wagner [13] and Coleman [14], and for the hyperbolic exception Niedermaier–Seiler and Duncan–Niedermaier–Seiler [15]; the round-4 referee found all of them on INSPIRE and supporting the statements they are cited for (audit notes, Step 1, under the note's earlier numbering).
 
 ## Used by
 
@@ -133,12 +134,12 @@ The toy note's own references for the two-dimensional theorems are Mermin–Wagn
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §4 — P2′: symplectic rigidity ≡ constancy of ℏ.
-- `papers/broken-born-checkpoint-v2.md` §5 — ω in standard form; the compatibility theorem; unimodularity across the modular family.
+- `papers/broken-born-checkpoint-v2.md` §5 — the compatibility theorem, with ω and η standard; unimodularity across the modular family.
 - `papers/broken-born-checkpoint-v2.md` §6, §7.1 — ρ as Z → −Z⁻¹; the rigid group contains Z → Z + B.
 - `papers/broken-born-checkpoint-v2.md` §11 — the charge lattice as a symplectic space.
 - `papers/reciprocity-toy-models.md` §1, §2, §4 — ρ symplectic; the Sp(2, ℝ) action of model I; boosts, squeezes and the compact SO(2).
 - `review/round4-adjudication.md` F1–F2 — the boost family and the bounded repair.
-- `review/round4/referee/audit-notes.md` Step 2(a), Step 2(c) — the boost matrix; the residual symmetry of the naive potential.
+- `review/round4/referee/audit-notes.md` Step 1, Step 2(a), Step 2(c) — the two-dimensional references checked; the boost matrix; the residual symmetry of the naive potential.
 - `notes/debt1a-geometric-core.md` §A–§C — det H = 1; "Freeze ω only"; the Siegel domain of ω-compatible metrics.
 - `notes/debt1a-ii-X-classification.md` §1 — the Möbius subgroup Z → Z + B of the rigid group.
 - `notes/broken-born-theory.md` §1, §2 — the original P2's gloss; the standard block form of ω; ρ² as parity.

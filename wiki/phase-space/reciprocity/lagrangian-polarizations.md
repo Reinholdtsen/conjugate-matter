@@ -63,7 +63,7 @@ In model I the real structures compatible with H = 1 form a circle, K(φ) = [[co
 
 For any d the same construction works [T]. If Ku = u and Kv = v, then ω(u, v) = ω(Ku, Kv) = −ω(u, v), so ω vanishes on each eigenspace of K. The two eigenspaces together span phase space, and each is isotropic, so each has dimension d: K splits phase space into a transverse pair of Lagrangian subspaces. Freidel, Leigh and Minic label the solutions of their theory by such pairs: "The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept" (arXiv:1307.7080, as the worklog quotes it, "Chunk 1 results").
 
-The documents name the real structure differently. #11's P2′ writes "η = HJ, with the real structure J chosen spontaneously"; the toy-model note and #11 §14 item 11 write η = ωK with K the real structure. The sources do not reconcile the two notations; this page follows the toy note.
+The documents name the real structure differently. #11's P2′ writes "η = HJ, with the real structure J chosen spontaneously"; the toy-model note writes η = ωK with K the real structure, and #11 §14 item 11 uses the same η = ωK. The sources do not reconcile the two notations; this page follows the toy note.
 
 ## The space of all choices
 
@@ -103,7 +103,7 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `papers/broken-born-checkpoint-v2.md` §4 — P5; the v2.2 refinement; P2′'s notation η = HJ.
 - `papers/broken-born-checkpoint-v2.md` §11 — Lagrangian sublattices and duality frames in charge space.
 - `papers/reciprocity-toy-models.md` §1, §2, §5 — K's eigenlines as η's Lagrangian null lines; the circle K(φ) and Λ(1); Freidel–Leigh–Minic's "choice of Lagrangian".
-- `notes/broken-born-theory.md` §1, §2, addendum v0.3 — P5; Λ(d) ≅ U(d)/O(d), its dimension and the Maslov circle; J chosen from Λ(d).
-- `notes/debt1a-geometric-core.md` §B — the discrete splittings under strict P2.
-- `notes/toy-lagrangian.md` "Chunk 1 results" — the bi-Lagrangian quotation from arXiv:1307.7080.
 - `verify/toy_s5.py` — the d = 1 Lagrangian-line checks (part A).
+- `notes/debt1a-geometric-core.md` §B — the discrete splittings under strict P2.
+- `notes/broken-born-theory.md` §1, §2, addendum v0.3 — P5; Λ(d) ≅ U(d)/O(d), its dimension and the Maslov circle; J chosen from Λ(d).
+- `notes/toy-lagrangian.md` "Chunk 1 results" — the bi-Lagrangian quotation from arXiv:1307.7080.

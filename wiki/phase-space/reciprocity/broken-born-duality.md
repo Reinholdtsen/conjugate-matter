@@ -56,7 +56,7 @@ The worklog's prior-art search, with every citation retrieved [S], concluded: "*
 
 - **Spontaneous breaking.** #11 §3: "This program's addition is to read it as *spontaneous* breaking, with η as the order parameter (§5; the toy models in `papers/reciprocity-toy-models.md`)." In [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) the laws keep a symmetry that their lowest-energy state lacks; the program applies this to Born duality, with the vacuum choosing the polarization ([the hard core](/wiki/program/hard-core)).
 - **η as the order parameter.** P2′: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." (#11 §4; [P2′](/wiki/program/postulates/p2-prime); [the order parameter](/wiki/symmetry-breaking/order-parameter)).
-- **An explicit model.** The toy-model note builds actions in which ρ is an exact symmetry and the vacuum breaks it, with η = ωK as order parameter ([toy models of broken reciprocity](/wiki/symmetry-breaking/toy-models)). Its abstract: "The idea has been stated before, but we found no explicit model of ρ itself being spontaneously broken."
+- **An explicit model.** The toy-model note builds actions in which ρ is an exact symmetry and the vacuum breaks it, with η = ωK as order parameter, under caveats it states itself: the twisted element, and order shown only in the frozen-H reduction ([toy models of broken reciprocity](/wiki/symmetry-breaking/toy-models); [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)). Its abstract: "The idea has been stated before, but we found no explicit model of ρ itself being spontaneously broken."
 
 ## Is there an earlier explicit model?
 
@@ -64,7 +64,7 @@ The worklog's search found none: "**no existing action has Born reciprocity exac
 
 The round-4 referee repeated the search independently. Full-text searches for "Langmann-Szabo duality" with "spontaneous" (6 hits) and for "Born reciprocity" with "spontaneously broken" (14 hits) turned up no prior explicit model in which vacua spontaneously break the Langmann–Szabo duality (audit notes, Step 1). Its conceptual audit adds that no prior model "with eta=omega K as a dynamical order parameter" turned up either (Step 3).
 
-One paper came close. Smolin's arXiv:2007.05957 has an explicit model in which a larger symmetry, a triality, is spontaneously broken; the referee said it "partially undercuts" the claim of no explicit model. The adjudication ruled that it does not contradict it: "Smolin breaks a triality *down to* Born duality, leaving it unbroken, so it does not contradict 'no model breaks ρ itself'. It still has to be cited." (round-4 adjudication, "Rulings"). The toy note's v2 cites it.
+The nearest case in the literature is Smolin's arXiv:2007.05957, an explicit model in which a larger symmetry, a triality, is spontaneously broken; the referee said it "partially undercuts" the claim of no explicit model. The adjudication ruled that it does not contradict it: "Smolin breaks a triality *down to* Born duality, leaving it unbroken, so it does not contradict 'no model breaks ρ itself'. It still has to be cited." (round-4 adjudication, "Rulings"). The toy note's v2 cites it.
 
 ## Neighbours in the literature
 
@@ -106,10 +106,10 @@ The program reached Freidel, Leigh and Minic twice, and the same way each time: 
 - `papers/broken-born-checkpoint-v2.md` §3 and ref. [26] — the quotation, the attribution, and what the program adds.
 - `papers/broken-born-checkpoint-v2.md` §4, §5 and ref. [3] — P2′ on metastring theory; the compatibility statement and its attribution; Born geometry.
 - `papers/reciprocity-toy-models.md` Abstract, §1 and ref. [1] — prior work: the idea, the selection rule, Born sigma models, Smolin; "no explicit model".
-- `notes/toy-lagrangian.md` "Success criteria", "Chunk 1 results", chunk 4 — S0 and its reason; the live-searched prior-art survey and the priority verdict; the section-selection literature and the instruction to credit the idea.
-- `review/round3/referee/audit-notes.md` Step 1 — the compatibility statement and "Born geometries" found in the metastring paper.
 - `review/round3-adjudication.md` "What survives v3", "Decisions" — the theorem kept as literature pending the comparison; the cleanup in decision 4.
-- `review/round4/referee/audit-notes.md` Step 1, Step 3 — the quotation verbatim; refs [1a]–[2] checked; the independent search for an earlier model.
 - `review/round4-adjudication.md` "Rulings" — Smolin does not contradict "no model breaks ρ itself"; the section "pair" holds only for d = 1.
+- `review/round3/referee/audit-notes.md` Step 1 — the compatibility statement and "Born geometries" found in the metastring paper.
+- `review/round4/referee/audit-notes.md` Step 1, Step 3 — the quotation verbatim; refs [1a]–[2] checked; the independent search for an earlier model.
+- `notes/toy-lagrangian.md` "Success criteria", "Chunk 1 results", chunk 4 — S0 and its reason; the live-searched prior-art survey and the priority verdict; the section-selection literature and the instruction to credit the idea.
 - `notes/broken-born-program-v1.md` §1 — the program's move, uncredited (v1).
 - `popsci/angle-of-the-mirror.md` opening — "eighty-eight years in a drawer" (popular article; never a status source).
