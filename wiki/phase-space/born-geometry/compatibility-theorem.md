@@ -60,7 +60,7 @@ Each condition alone admits a large family, and round 3 sampled both: the family
 
 ## The proof
 
-#11 §5 gives the proof in three lines; #5 §A adds the role of positivity. With H written in d × d blocks:
+#11 §5 gives the proof in three lines, and #5 §A says how positivity enters. With H written in d × d blocks:
 
 ```text
 H = [[A, C], [Cᵀ, B]]            A, B symmetric;  C a general d × d block

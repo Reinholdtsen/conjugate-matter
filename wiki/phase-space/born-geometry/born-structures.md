@@ -36,7 +36,7 @@ sources:
 
 ## Phase space and its three structures
 
-The arena is flat phase space 𝒫 ≅ ℝ^{2d} with coordinates (xᵃ, pₐ); the lab notebook ([#1](/wiki/history/documents/lab-notebook) §2) works at d = 4, "in units chosen so a reference length λ and momentum ε = ℏ/λ are scaled out". A bilinear form assigns a number to each pair of phase-space vectors. Three of them carry the geometry, and in the (x, p) block basis their standard forms are (#1 §2):
+The arena is flat phase space 𝒫 ≅ ℝ^{2d} with coordinates (xᵃ, pₐ); the lab notebook ([#1](/wiki/history/documents/lab-notebook) §2) works at d = 4, with "units chosen so a reference length λ and momentum ε = ℏ/λ are scaled out". A bilinear form assigns a number to each pair of phase-space vectors. Three of them carry the geometry, and in the (x, p) block basis their standard forms are (#1 §2):
 
 ```text
 ω = [[0, 1], [−1, 0]]      antisymmetric       the symplectic form
@@ -62,7 +62,7 @@ I = ω⁻¹H        J = η⁻¹H        K = η⁻¹ω
 I² = −1         J² = K² = +1        IJ = K
 ```
 
-"With ω, η standard", these satisfy the relations above, "a split-quaternion algebra (Born geometry [3†]; a unique compatible connection exists [7†])" (#11 §5). The lab notebook reaches the same relations by "direct matrix computation" with all three structures in standard form, and calls the result "a split-quaternion (para-quaternionic) algebra" (#1 §2).
+"With ω, η standard", these satisfy the relations above, "a split-quaternion algebra (Born geometry [3†]; a unique compatible connection exists [7†])" (#11 §5). The lab notebook obtains the same relations by direct matrix computation with all three structures in standard form, and calls the result "a split-quaternion (para-quaternionic) algebra" (#1 §2).
 
 What the relations mean [T]:
 
