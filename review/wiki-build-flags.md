@@ -79,3 +79,8 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     the two. No stated number changes. Check: `review/wiki-build-checks/gate_conventions.py`.
 18. **Minor date (#1 §8): baryogenesis reached "maturity … in 1966".** Sakharov's conditions are
     usually dated 1967 (model memory, †, unchecked). Inventory conflict C54.
+19. **Minor: the classicality corollary's regime (#2, Debt 3a).** The corollary evaluates the
+    broad-gate formula at Milky Way conditions, which 3a itself treats as the narrow-gate
+    regime. `review/wiki-build-checks/debt3a_check.py` prints m_crit ≈ 1.4e-13 GeV (broad
+    form) and 4.2e-14 GeV (narrow form, v\* fixed); N_occ ≫ 1 either way, so the conclusion
+    (collective behaviour needs wave dark matter) is unchanged.
