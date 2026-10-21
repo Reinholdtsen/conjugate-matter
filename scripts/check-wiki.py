@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the wiki in wiki/ against the rules in wiki/CLAUDE.md.
+r"""Verify the wiki in wiki/ against the rules in wiki/CLAUDE.md.
 
 Checks, in order of severity:
 
