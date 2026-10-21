@@ -23,7 +23,7 @@ sources:
 
 *V_b is the repaired ρ-preserving potential of [model I](/wiki/symmetry-breaking/toy-models/coset-model): the [naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) divided by a normalizing factor, 2 Tr KᵀK, which keeps it between −μ and 0 for every real structure K. Like the naive form it is unchanged by [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ and by the flip K → −K, and it reduces the circle of real structures to the pair ±K_ref. Unlike the naive form, it leaves the vacuum a stable minimum when the metric H is free to vary: the boosted configurations along which the naive form fell without limit now cost energy. The round-4 referee proposed it, version 2 of the toy-model note adopted it, and checkpoint #11 records [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) as met with it. One flat direction remains that no symmetry protects, and where such a potential comes from is not derived.*
 
-**Status:** Alive, not derived — [D][V] (#11 §10 tags its toy-model paragraph, which states the boundedness requirement, [D][V]) — boundedness, stability with H dynamical and the zero mode are checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)); upheld in [review round 4](/wiki/method/review/round-4) as "the repair". Its origin is [open](/wiki/symmetry-breaking/rho-preserving-potential).
+**Status:** Alive, not derived — [D][V] ([#11](/wiki/history/documents/checkpoint) §10 tags its toy-model paragraph, which states the boundedness requirement, [D][V]) — boundedness, stability with H dynamical and the zero mode are checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)); upheld in [review round 4](/wiki/method/review/round-4) as "the repair". Its origin is [open](/wiki/symmetry-breaking/rho-preserving-potential).
 
 ## Definition
 
@@ -59,19 +59,19 @@ What V_b does not keep matters as much. The naive form is invariant under a larg
 
 ## Stability with H dynamical
 
-The redone analysis, at λ = μ = 1 in the coordinates of `verify/toy_coset.py`: "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236." (§4). The Hessian is the matrix of second derivatives of the full potential, compatibility term included, at the vacuum, with all four field directions free. No eigenvalue is negative, so no direction leads downhill. The gate prints [−0., 0.7639, 2., 5.2361] and passes "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero"; the adjudicator's run gives the same list (`review/round4/adjudicator/arb.out`). At the same point and in the same coordinates the naive form has the eigenvalue −6.47 ([the obituary](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#f2-the-intended-vacuum-is-a-saddle)).
+The redone analysis, at λ = μ = 1 in the coordinates of `verify/toy_coset.py`: "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236." (§4). The Hessian is the matrix of second derivatives of the full potential, compatibility term included, at the vacuum, with all four field directions free. No eigenvalue is negative, so the energy does not decrease in any direction away from the vacuum. The gate prints [−0., 0.7639, 2., 5.2361] and passes "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero"; the adjudicator's run gives the same list (`review/round4/adjudicator/arb.out`). At the same point and in the same coordinates the naive form has the eigenvalue −6.47 ([the obituary](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#f2-the-intended-vacuum-is-a-saddle)).
 
-The boost family that sank the naive form now climbs. Along H = SᵀS, K = S⁻¹K₀S with S(t) = [[cosh t, sinh t], [sinh t, cosh t]]:
+Along the boost family on which the naive form fell without limit, V_b now rises. The family is H = SᵀS, K = S⁻¹K₀S with S(t) = [[cosh t, sinh t], [sinh t, cosh t]]:
 
 - the referee's closed form: "V'(t)/mu = -1/2 - 1/(2*cosh(4*t)) ; t->oo limit: -1/2" (`out_fix_potential.txt`);
 - the adjudicator: −1.0000, −0.5183, −0.5003 and −0.5000 at t = 0, 1, 2, 4 (`arb.out`);
 - the gate: [−1, −0.6329, −0.5183, −0.5] at t = 0, 0.5, 1, 3, passing "boosts are penalized: V_b rises from -1 toward -1/2 along the boost family".
 
-The adjudication's summary: "the boost family rises from −1 to −0.5" ('Rulings' F2). The normalization grows with K's entries as fast as the numerator does, so the ratio stays finite along the family, and the direction that was downhill for the naive form is uphill for V_b.
+The adjudication's summary: "the boost family rises from −1 to −0.5" ('Rulings' F2). The normalization grows with K's entries as fast as the numerator does, so the ratio stays finite along the family, and the direction in which the naive form decreased is one in which V_b increases.
 
 ## The vacuum manifold and the zero mode
 
-"Vacuum manifold: {diag(y, 1/y)} × {±K_ref}." (§4). The real structure is fixed up to sign, and the metric can still slide along the line of diagonal metrics diag(y, 1/y), y > 0.
+"Vacuum manifold: {diag(y, 1/y)} × {±K_ref}." (§4). The real structure is fixed up to sign, and the metric can still move along the line of diagonal metrics diag(y, 1/y), y > 0.
 
 That line is the direction of the Hessian's one zero eigenvalue. Version 2: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (§4). The gate passes "the zero mode is the squeeze line H = diag(y, 1/y), K = K_ref: V = -1 all along it".
 

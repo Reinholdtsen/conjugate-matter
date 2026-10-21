@@ -80,7 +80,7 @@ Every member of this family is the vacuum carried by a symmetry of model I's own
 
 The adjudication's summary: "along H = SᵀS, K = S⁻¹K₀S (S a boost), the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4." Version 2 of the note: "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4." (§4). The gate repeats the endpoint, "quoted: unbounded below - at boost t = 4 the compatibility term is ~0 and -[Tr(K K_ref)]^2 = -8.9e6", and prints −8.8861e+06 (`verify/toy_coset.py`).
 
-Nothing in model I can stop this descent. Both kinetic terms vanish for constant fields and the compatibility term is zero along the whole family, so the added potential is the only term that changes, and it decreases without bound.
+Nothing in model I bounds this decrease. Both kinetic terms vanish for constant fields and the compatibility term is zero along the whole family, so the added potential is the only term that changes, and it decreases without bound.
 
 ### F2: the intended vacuum is a saddle
 
@@ -88,10 +88,10 @@ Finding F2, upheld: "So (1, K_ref) is a saddle, and the Monte Carlo simulates a 
 
 | | λ = 1 | λ = 10 | λ = 100 |
 |---|---|---|---|
-| referee, coordinates (X, Y, b, c), V_λ/8 + V_μ | −3.3723, 0.0, 2.3723, 4.0 | −2.7797, 0.0, 4.0, 28.7797 | −2.6785, 0.0, 4.0, 298.6785 |
+| referee, coordinates (X, Y, b, c) | −3.3723, 0.0, 2.3723, 4.0 | −2.7797, 0.0, 4.0, 28.7797 | −2.6785, 0.0, 4.0, 298.6785 |
 | adjudicator, coordinates (x, y, u, t) of `verify/toy_coset.py` | −6.4721, 0, 2.4721, 8 | −4.3961, −0, 8, 36.3961 | −4.04, −0, 8, 396.04 |
 
-All entries are at μ = 1 (referee: `out_model1.txt`, where the negative eigenvalue at λ = 1 is exactly "-sqrt(33)/2 - 1/2"; adjudicator: `review/round4/adjudicator/arb.out`). Version 2 quotes "Hessian eigenvalue −6.47 at λ = μ = 1", and the gate prints [−6.472, 0, 2.472, 8] and passes "the unnormalized potential makes (1, K_ref) a saddle (negative Hessian eigenvalue)". The eigenvalues depend on the coordinates; the sign carries over between them [T], and the two sets agree that one direction goes down. Raising the compatibility coupling λ a hundredfold does not remove that direction, which fits a descent along configurations where the compatibility term is zero, as on the boost family.
+Both rows are Hessians of the compatibility term at coupling λ plus the naive potential at μ = 1; the referee writes the function "V_lambda/8 + V_mu", the adjudication "λV_λ + V_μ" (referee: `out_model1.txt`, where the negative eigenvalue at λ = 1 is exactly "-sqrt(33)/2 - 1/2"; adjudicator: `review/round4/adjudicator/arb.out`). Version 2 quotes "Hessian eigenvalue −6.47 at λ = μ = 1", and the gate prints [−6.472, 0, 2.472, 8] and passes "the unnormalized potential makes (1, K_ref) a saddle (negative Hessian eigenvalue)". The eigenvalues depend on the coordinates; the sign carries over between them [T], and the two sets agree that one direction goes down. Raising the compatibility coupling λ a hundredfold does not remove that direction, which fits a decrease of the energy along configurations where the compatibility term is zero, as on the boost family.
 
 The consequence, in the referee's words: "The 'two vacua K=+-K_ref' exist only if H is frozen at 1, which the manuscript asserts ('At H = 1 the polarization field is phi') but does not justify; H is a dynamical hyperbolic sigma field." (Step 2(a)), and "The Monte Carlo is of the textbook XY + two-fold-field model with H frozen, not of model I." (Step 3, point C3).
 
@@ -112,7 +112,7 @@ The [pre-registration](/wiki/method/review/pre-registration) had pointed at the 
 - **The worklog's S4 pass and verdict.** "S4 passes only with the τ-type potential [V]"; "Then ρ breaks as a Z₂ (Ising class), with vacua ±K_ref" ('Chunk 3 results'); and the verdict on [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion): "Met, in the referees' wording, by the coset toy plus a τ-type potential", with ρ "spontaneously broken (Ising class in 1+1, Monte Carlo verified)" ('Assessment against the predictions'). Version 2 and #11 restate the result with the bounded potential, for the frozen-H reduction only.
 - **The first version's claim of Ising-class breaking in model I.** It was narrowed in two ways; see [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction#superseded-ising-class-breaking-in-model-i).
 
-The lattice numbers did not fall with it. At H = 1 the naive form and V_b differ only by a constant and a factor, so the simulated energy −h cos 2φ represents either. `verify/toy_s4.py` says so in its docstring, "the energy here is the frozen-H form, -h cos(2 phi), which equals the bounded V_b at H = 1 up to a constant and a factor (both depend on phi only through cos 2 phi)", while its opening lines still call the naive form "The tau-type potential". That is a wording lag; no number conflicts ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
+The lattice numbers did not fall with it. At H = 1 the naive form and V_b differ only in their overall factor, and the simulated energy −h cos 2φ matches either up to a constant and a factor. `verify/toy_s4.py` says so in its docstring, "the energy here is the frozen-H form, -h cos(2 phi), which equals the bounded V_b at H = 1 up to a constant and a factor (both depend on phi only through cos 2 phi)", while its opening lines still call the naive form "The tau-type potential". That is a wording lag; no number conflicts ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
 
 ## What survives
 

@@ -28,7 +28,7 @@ sources:
 
 *The frozen-H reduction is [model I](/wiki/symmetry-breaking/toy-models/coset-model) with its metric field held fixed at H = 1, so that the only remaining field is the polarization angle φ of the real structure K(φ). In that form the model is a two-dimensional spin model of one angle, with a stiffness term and a ρ-preserving potential, and it can be simulated on a lattice. The ordered ℤ₂ phase the simulation finds is a result about this reduction; with H dynamical, ordering is not established. Round 4 required the text to say so, after showing that the first potential tried was stable only while H stayed frozen. It also replaced the claim of "Ising-class" breaking with "an ordered ℤ₂ phase", because data at one temperature establish order but not a universality class.*
 
-**Status:** Alive, as the stated scope of the lattice result — untagged — required by round-4 revision 1 ("Present the Monte Carlo as the frozen-H reduction, explicitly"), stated in version 2, §4 and §6, and in #11 §14 item 11; simulated in `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Alive, as the stated scope of the lattice result — untagged — required by round-4 revision 1 ("Present the Monte Carlo as the frozen-H reduction, explicitly"), stated in version 2, §4 and §6, and in [#11](/wiki/history/documents/checkpoint) §14 item 11; simulated in `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## What the reduction is
 
