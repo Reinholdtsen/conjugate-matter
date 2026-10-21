@@ -43,7 +43,7 @@ sources:
 
 **The method, in outline (from model memory †).** The proof uses the systematic method of consistent deformations of gauge theories. At first order the possible cubic couplings among the gravitons are described by an algebra on the space of graviton labels. Closure of the deformed gauge transformations at second order forces that algebra to be commutative and associative, and positivity of energy then forces it to split into independent pieces, one for each graviton, so no coupling connects two of them.
 
-## What the theorem leaves open [T]
+## What the theorem does not cover [T]
 
 The assumptions mark out what the theorem does not cover:
 
