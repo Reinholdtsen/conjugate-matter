@@ -7,6 +7,7 @@ provenance: [V]
 sources:
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §1"
+  - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §11"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §14"
@@ -35,7 +36,7 @@ sources:
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*Superheavy conjugate solitons were the third dark-matter candidate of version 2.0 of the checkpoint: magnetic monopoles of a hidden gauge force, with a benchmark mass of 3×10¹³ GeV in the final version, stable because their field configuration cannot unwind and dark because no force of ordinary matter acts on them. The proposal was written up as a standalone manuscript, #14, and reviewed blind three times. The third review re-ran every number in code and found that the count of monopoles formed in the early universe had been normalized far too low. Counted correctly, the benchmark mass is overproduced by a factor of 2.1×10³ to 1.2×10⁴, and the only version that survives is a much lighter one, which is an existing published scenario that does not depend on the program. The candidate was retired on 2026-10-19 and stays dead.*
+*Superheavy conjugate solitons were the third dark-matter candidate of version 2.0 of the checkpoint: magnetic monopoles of a hidden gauge force, with a benchmark mass of 3×10¹³ GeV in the final version, stable because their field configuration cannot unwind and dark because no gauge force of ordinary matter acts on them. The proposal was written up as a standalone manuscript, #14, and reviewed blind three times. The third review re-ran every number in code and found that the count of monopoles formed in the early universe had been normalized far too low. Counted correctly, the benchmark mass is overproduced by a factor of 2.1×10³ to 1.2×10⁴, and the only version that survives is a much lighter one, which is an existing published scenario that does not depend on the program. The candidate was retired on 2026-10-19 and stays dead.*
 
 **Status:** Dead — "Retired as a program-native candidate" on 2026-10-19 (#11 §12; round-3 Decision 2). The numbers that killed it are [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)); the literature on the surviving low-scale scenario is live-searched [28S, 29S]. Home: [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate) among [the dark-sector candidates](/wiki/dark-matter/candidates). The rulings are in [round-3 verdict and rulings](/wiki/method/review/round-3/rulings) and the retirement in [round-3 decisions](/wiki/method/review/round-3/decisions); listed in [the graveyard](/wiki/status/graveyard).
 
@@ -47,7 +48,7 @@ Version 2.0 of [the checkpoint](/wiki/history/documents/checkpoint), #11, offere
 
 > v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the Debt-3 loophole (§9), since topology, not collective dynamics, would localize them in momentum.
 
-A p-local gauge sector is a gauge force of the momentum-polarized matter, the mirror half of the program's matter content under postulate [P4](/wiki/program/postulates/p4-polarized-matter). A soliton is a localized, finite-energy configuration of a field. It is stable by topological charge when the field far from its core wraps the space of vacuum states a whole number of times, and no smooth change of the field can alter that integer [T] ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)). The second claim concerned [Debt 3](/wiki/history/debts), which had shown that collective dynamics cannot make dark matter clump in momentum space; a soliton localized in momentum by its own topology would have escaped that result ([the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+A p-local gauge sector is a gauge force of the momentum-polarized matter, the mirror half of the program's matter content under postulate [P4](/wiki/program/postulates/p4-polarized-matter). A soliton is a localized, finite-energy configuration of a field. It is stable by topological charge when the field far from its core wraps the space of vacuum states a whole number of times, and no smooth change of the field can alter that integer [T] ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)). The second claim concerned [Debt 3](/wiki/history/debts), which had shown that momentum-space clumping by collective dynamics is "nowhere mandatory": forbidden for particles, fatal where it would have been required of wave dark matter, and optional otherwise (#11 §9); a soliton localized in momentum by its own topology would have escaped that result ([the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
 When the candidate was retired, the adjudication named the two claims on which it had "earned its place in the checkpoint's trilemma": "topology makes it stable for free, and the mass came out of the abundance with no free dilution" (`review/round3-adjudication.md`, Decision 2). The review removed the second.
 
@@ -117,7 +118,7 @@ The low-scale scenario is [topological dark matter in the literature](/wiki/dark
 
 ### The other rulings
 
-The abundance finding was decisive, and most of the remaining rulings fell on parts of v3 that depended on it or on the hidden sector it required (`review/round3-adjudication.md`, 'Rulings'):
+The abundance finding was decisive, and most of the remaining rulings fell on the hidden sector v3 had built around the candidate (`review/round3-adjudication.md`, 'Rulings'):
 
 | Ruling | Finding | Outcome | Page |
 |---|---|---|---|
@@ -174,7 +175,7 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 
 **Three "Requirements forced by consistency (not optional)"**: "(i) at least one hidden doublet fermion with mass between the MeV scale and ~0.1 TeV"; "(ii) a hidden-to-visible temperature ratio xi < 0.77 after reheating"; "(iii) an unbroken U(1)_d". Rulings 4 and 6 moved both edges of (i), and ruling 5 tightened (ii) to ξ < 0.760.
 
-**Three acceptance criteria** (§6). (1), an action in which ρ is "a genuine Noether symmetry, spontaneously broken", is "Met in the referees' wording" by the toy models (#11 §14 item 11), which do not address its second half, η selecting "the hidden sector's electric description" ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)). (2), a gauged hidden charge conjugation or a surviving millicharged-ψ window, lost its object when Decision 1 took sector separation strictly. (3), "the strong-coupling relic freeze-out calculation", was ruled already done in the literature (ruling 10).
+**Three acceptance criteria** (§6). (1), an action in which ρ is "a genuine Noether symmetry, spontaneously broken", is "Met in the referees' wording" by the toy models (#11 §14 item 11), which do not address its second half, η selecting "the hidden sector's electric description" ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)). (2), a gauged hidden charge conjugation or a surviving millicharged-ψ window, concerned the ψ-millicharge channel, one of the three that Decision 1, strict sector separation, closes. (3), "the strong-coupling relic freeze-out calculation", was ruled already done in the literature (ruling 10, upheld at abstract level).
 
 **Its claim about its own numbers.** §6 opened: "All numerical statements in Secs. 2-4 were computed by executed code rather than by hand." Ruling 13 found this "Upheld in substance": "The code checked the arithmetic of a wrong model."
 
@@ -189,7 +190,7 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — "dead as a program-native proposal"; "merely compatible"
-- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
+- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §9 — Debt 3's net theorem; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
 - `review/round3-adjudication.md` 'Verdict', 'Rulings' 1–13, 'Pre-registration scored', 'What survives v3', 'Decisions' 1–3 — the review record and the retirement
 - `review/round3-preregistration.md` 'Protocol (HANDOFF §6, round 3)', 'Predictions' — the referee's brief and the predicted outcome
 - `review/round3/referee/audit-notes.md` Step 5 — the referee's weakest links

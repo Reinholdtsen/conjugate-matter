@@ -95,7 +95,7 @@ One defect per Hubble volume is the floor; ruling 3 (upheld): "Kibble is a floor
 
 - **Kibble–Zurek production with annihilation.** Production near a continuous transition, "n ~ lambda H T_c^2 (LMW 2607.20843 eq. 13)", followed by monopole–antimonopole capture in the hidden plasma, using the capture rates of Liveoak–Maharana–Wells (LMW). The referee's integration leaves "Omega/Omega_DM = 1.1e12 - 2.2e12" at the benchmark, and LMW's analytic estimate (their eq. 25) gives "1.2e9 - 2.2e11". "Either way the annihilation does not rescue it."
 - **The Kibble minimum with annihilation.** Starting from one defect per Hubble volume, the initial yield, "Kibble-minimum initial Y (7e-20 - 1.4e-18)", lies far below the level at which annihilation acts, so annihilation "is irrelevant in that case and overproduction 4.9e3 - 9.8e4 (xi=0.76..0.5) stands."
-- **A first-order transition.** Bubble counting gives "p ~ 104 (beta/H)^3 = 1e2-1e8", where β/H is the bubble nucleation rate in Hubble units.
+- **A first-order transition.** Bubble counting gives "p ~ 104 (beta/H)^3 = 1e2-1e8", where β/H is the inverse duration of the transition in units of the Hubble rate [T].
 
 The adjudicator "did not re-run the referee's Kibble–Zurek integration (1e9–1e12 overproduction)" (ruling 3). The literature agrees on the direction: Murayama and Shu, Kibble "drastically underestimates the production of topological defects" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
 
@@ -111,7 +111,7 @@ Before round 3, the v3 worklog had already found that the Kibble estimate fixes 
 
 F1 also recorded that annihilation would not help at the old benchmark: "Preskill (verified from the scan): annihilation cannot reduce n/T³ below ~10⁻¹⁰ at m ≈ 10¹⁶ GeV." Paul then decided, on 2026-10-19, to "move the benchmark to M ≈ 3×10¹³, and keep 10¹⁶ with its ~10¹⁰ dilution as a stated alternative". v3 kept the conclusion as "This is a point, not a window."
 
-The conclusion that heavier masses need dilution in proportion to (M/M\*)⁴ survives. The numbers do not: they rest on p = 1 (or, in the worklog's aside, p ≈ 0.023), and the worklog's stage values were never reconciled with v3's. Against the corrected M\*, the referee found the dilution needed at 10¹⁶ GeV to be "2.6e13 vs corrected M\*" rather than ~10¹⁰ (Step 2). The record cites only the gated values.
+The conclusion that heavier masses need dilution in proportion to (M/M\*)⁴ survives. The numbers do not: they rest on p = 1 (or, in the worklog's aside, p ≈ 0.023). Against the corrected M\*, the referee found the dilution needed at 10¹⁶ GeV to be "2.6e13 vs corrected M\*" rather than ~10¹⁰ (Step 2). The record cites only the gated values.
 
 ## What follows
 
