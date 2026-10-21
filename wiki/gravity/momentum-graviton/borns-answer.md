@@ -82,7 +82,7 @@ The answer is the end of the four Debt-1 calc notes, written in sequence:
 3. **Calc note #7** ran the tuning test: potentials built from the metric fail the Fierz–Pauli test, and frame-tier potentials pass. The result is "Hassan–Rosen bimetric gravity with the second frame constrained to a compact moduli space Λ(d)" (§4).
 4. **Calc note #8** applied reciprocity to that potential: the palindrome, the identity V(1) = 2T, the reduction to two parameters, the parities, and its §4, "Debt 1: the answer to Born".
 
-Calc note #7 §5 read the sequence as "Repeated forced convergence onto consistency islands", counting three structural tests; #11 §15 counts four and lists "forced convergence onto consistency islands" among the program's "Progressive signs" ([Assessment](/wiki/program/assessment)).
+Calc note #7 §5, written before the fourth note, described its three structural tests (the multi-graviton no-go, the signature obstruction and the tuning test) as "Repeated forced convergence onto consistency islands". #11 §15 counts four consecutive tests and lists "forced convergence onto consistency islands" among the program's "Progressive signs" ([Assessment](/wiki/program/assessment)).
 
 ## What the answer leaves open
 
@@ -95,7 +95,7 @@ Calc note #8 §5 lists the residue as "(i) first-principles reduction of the sym
 
 ## Superseded: earlier forms of the answer
 
-The answer's wording narrowed between its first statement and #11, in two places.
+The answer and its standing were stated more strongly before #11, in three respects.
 
 - **The vacuum energy.** The lab notebook's v0.6 addendum, headed "Debt 1 closed", had "its vacuum energy zero by theorem", and #8 §4 "vacuum energy exactly zero by the palindrome theorem". The v1 paper (#9 §5) dropped the clause from its statement of the answer, while its assessment counted "the palindrome theorem cancelling the symmetric-bimetric vacuum energy" among "two results that stand on their own regardless of its fate" (§11). #11 writes "its wedge vacuum energy zero by identity", in line with the scope it states in §7.3 and the novelty downgrade of §7.4, and its §15 counts "one identity awaiting a novelty verdict".
 - **How far Debt 1 is paid.** The v0.6 addendum says "Debt 1 closed", and the v1 paper heads its section "(Debt 1: paid)". Calc note #8 itself says "Debt 1: structurally paid", and the handoff records it as "closes Debt 1 (structural)" (`HANDOFF.md` §3). #11 heads §7 "(Debt 1)" and keeps the open items above.

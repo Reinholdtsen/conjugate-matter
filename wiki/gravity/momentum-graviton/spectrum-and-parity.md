@@ -27,7 +27,7 @@ sources:
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
 ---
 
-*The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once reciprocity has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have equal Planck masses. These are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction row 6.*
+*The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have equal Planck masses. These are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction row 6.*
 
 **Status:** Alive — [D] in #11 §7.5; [D + T] in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3) — derivations only: no battery test covers the parameter count, the m_FP² combination or the parities. The machine-checked inputs are the identity V(1) = 2T used in the second reduction step and the coefficients that define T (battery tests T5 and T6, [the verification battery](/wiki/method/verification/battery)). Tested observationally by [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton).
 
@@ -65,7 +65,7 @@ V(1) ∝ 2β₀ + 8β₁ + 6β₂,     T = β₀ + 4β₁ + 3β₂     ⟹     V
 flat aligned vacuum:  V(1) = T     ⟹     T = 0  and  V(1) = 0
 ```
 
-A flat aligned vacuum requires "the g-equation's potential contribution to vanish: V(1) = T" (#8 §2), and with the identity this forces T = 0. One condition removes one coefficient: it fixes β₀ = −4β₁ − 3β₂, which #11 §7.4 notes is "a *different* point of the same branch" from the partially massless one. The identity, its scope and its novelty status are on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
+A flat aligned vacuum requires "the g-equation's potential contribution to vanish: V(1) = T" (#8 §2), and with the identity this forces T = 0. One condition removes one coefficient: it fixes β₀ = −4β₁ − 3β₂, which #11 §7.4 notes is "a *different* point of the same branch" from the [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity) one. The identity, its scope and its novelty status are on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 
 ### What remains
 
@@ -83,7 +83,7 @@ No document fixes a number for M_X. Calc note #6 §3 identifies it as "the polar
 
 ### What is checked
 
-The reduction rests on one machine-checked identity: battery test T5 confirms V(1) − 2T = [0, 0, 0] in exact integers, printing `T5 V(1) - 2T = [0,0,0]  [V1=[2, 8, 6] T=[1, 4, 3]]`, and T6 confirms the linearization coefficients C(3, n−1) that define T. The palindrome derivation, the count of two, the m_FP² combination and the parity assignments below have no test; the wiki tags them [D], as #11 §7.5 does.
+Two machine checks enter the reduction. Battery test T5 confirms V(1) − 2T = [0, 0, 0] in exact integers, printing `T5 V(1) - 2T = [0,0,0]  [V1=[2, 8, 6] T=[1, 4, 3]]`, and T6 confirms the linearization coefficients C(3, n−1) that define T. The palindrome derivation, the count of two, the m_FP² combination and the parity assignments below have no test; the wiki tags them [D], as #11 §7.5 does.
 
 ## The two spin-2 fields and their parity
 
@@ -116,7 +116,7 @@ Two consequences are worked out elsewhere. Matter coupled to g "sees both eigens
 ## What follows
 
 - **Row 6.** Bounds on the graviton mass from gravitational-wave observations constrain the massless eigenstate. In #8 §3's words, these bounds "apply to the even eigenstate, which is exactly massless", and #11 §7.5 calls them satisfied identically. #11 §13 row 6: standard expectation "m_g = 0"; Broken-Born requirement "Massless eigenstate exactly massless (reciprocity-even)"; killed by "Nonzero mass attributed to the even eigenstate" ([Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton)).
-- **The predictive truncation, counted.** Calc note #7 §4 had called the program's gravity sector "a *predictive truncation* of bimetric theory" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). #8 §3 quantifies it: the five-coefficient freedom of Hassan–Rosen bimetric gravity "collapses to two numbers".
+- **The predictive truncation, counted.** Calc note #7 §4 had called the program's gravity sector "a *predictive truncation* of bimetric theory" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). #8 §3 quantifies it: the "five-function freedom" of Hassan–Rosen bimetric gravity, its five constant coefficients, "collapses to two numbers".
 - **Born's answer.** The "two free parameters" in the program's summary of its gravity results are these two ([Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer)).
 
 ## Superseded: the graviton-mass bound as a mixing-angle check
