@@ -110,7 +110,7 @@ After electrons and positrons annihilate, the radiation of the universe is photo
 ρ_rad = ρ_γ [1 + (7/8)(4/11)^{4/3} N_eff]
 ```
 
-so that N_eff measures the energy density of all light species other than photons, in units of one neutrino species at T_ν [T]. Three neutrinos that decoupled instantly would give exactly 3. They were still slightly coupled when electrons and positrons annihilated and received a little of that energy, and with that and smaller corrections the SM value is a little above 3. The round-3 record uses 3.044 (ruling 5); the referee also gave results for 3.046, the value Planck's analysis uses ("Planck uses N_eff,SM = 3.046", audit notes Step 1). The referee's script attributes 3.044 to "Bennett et al 2021" (`review/round3/referee/step2a.py`).
+so that N_eff measures the energy density of all light species other than photons, in units of one neutrino species at T_ν [T]. Three neutrinos that decoupled instantly would give exactly 3. They were still slightly coupled when electrons and positrons annihilated and received a little of that energy, and with that and smaller corrections the SM value is a little above 3. The round-3 record uses 3.044 ([ruling 5](/wiki/method/review/round-3/rulings)); the referee also gave results for 3.046, the value Planck's analysis uses ("Planck uses N_eff,SM = 3.046", audit notes Step 1). The referee's script attributes 3.044 to "Bennett et al 2021" (`review/round3/referee/step2a.py`).
 
 ### Extra species: ΔN_eff
 
@@ -128,17 +128,17 @@ PASS  Delta N_eff: one extra neutrino species at T_nu gives 1
 
 ### A sector at its own temperature
 
-A hidden sector that shares no interactions with ours keeps its own temperature, and the ratio fixes its ΔN_eff. The v3 worklog describes the setup it scripted: "the two sectors at temperature ratio ξ at high T, then separately entropy-conserving, ending with only the dark photon relativistic" (`review/v3-worklog.md`, item O2). Each sector conserves its own entropy, so when its heavy states annihilate, their entropy heats only the light states of that sector. The round-3 referee's script codes the result, for a hidden sector that starts with g_h(high) degrees of freedom and ends with g_h(late), as (`review/round3/referee/step2a.py`)
+A hidden sector that shares no interactions with ours keeps its own temperature, and the ratio fixes its ΔN_eff. The v3 worklog describes the setup it scripted: "the two sectors at temperature ratio ξ at high T, then separately entropy-conserving, ending with only the dark photon relativistic" (`review/v3-worklog.md`, item O2). Each sector conserves its own entropy, so when its heavy states annihilate, their entropy heats only the light states of that sector. For a hidden sector that starts with g_h(high) degrees of freedom and ends with g_h(late), the result is [T]
 
 ```text
 T_h/T_ν = ξ · [(g_h(high)/g_h(late)) / (g_vis(high)/g_ν,dec)]^{1/3}
 ```
 
-with g_vis(high) = 106.75 and g_ν,dec = 10.75 on the visible side. Once both the hidden photon and the neutrinos are free and relativistic, both temperatures fall as 1/a, and the ratio stays fixed.
+with g_vis(high) = 106.75 and g_ν,dec = 10.75 on the visible side. The round-3 referee's script codes the bracket, the shared-temperature case ξ = 1, and brings in ξ afterwards through ΔN_eff ∝ ξ⁴ (`review/round3/referee/step2a.py`). Once both the hidden photon and the neutrinos are free and relativistic, both temperatures fall as 1/a, and the ratio stays fixed.
 
 ## How N_eff is measured [T]
 
-**Nucleosynthesis.** In the first minutes, the ratio of neutrons to protons freezes when the weak interactions that convert them become slower than the expansion. A larger expansion rate, from more radiation and hence a larger N_eff, makes that happen earlier and at a higher temperature, which leaves more neutrons and so more helium. The primordial helium abundance therefore measures H during Big Bang nucleosynthesis (BBN), and through H = 1.66√g\* T²/M_Pl it measures the radiation content [T]. A change in G at that time would act on H in the same way, which is why a step in the effective strength of gravity is constrained by the same physics (the wiki's reading of why [row 10](/wiki/predictions/early-universe-step) places its step "before BBN").
+**Nucleosynthesis.** In the first minutes, the ratio of neutrons to protons freezes when the weak interactions that convert them become slower than the expansion. A larger expansion rate, from more radiation and hence a larger N_eff, makes that happen earlier and at a higher temperature, which leaves more neutrons and so more helium. The primordial helium abundance therefore measures H during Big Bang nucleosynthesis (BBN), and through H = 1.66√g\* T²/M_Pl it measures the radiation content [T]. A change in G at that time would act on H in the same way, which is why a step in the effective strength of gravity is constrained by the same physics (the wiki's reading of why [the lab notebook](/wiki/history/documents/lab-notebook) places the G_eff step of [row 10](/wiki/predictions/early-universe-step) "before BBN", #1 §6).
 
 **The cosmic microwave background (CMB).** Extra radiation changes the expansion history before recombination, which shifts the scale of the acoustic peaks relative to the damping of small-scale anisotropies, and free-streaming light particles leave a characteristic phase shift in the peaks [T]. The value the program's documents use is from Planck 2018: "excluded by Planck 2018 (N_eff = 2.99 +- 0.34 at 95%) [23]" (#14 §4). The referee checked the reference, Planck 2018 VI eq. (67b), and recorded the interval as "N_eff = 2.99 +0.34 -0.33" at 95%, from the combination of Planck data with baryon-acoustic-oscillation measurements (audit notes, Step 1).
 
@@ -149,7 +149,7 @@ with g_vis(high) = 106.75 and g_ν,dec = 10.75 on the visible side. Once both th
 PASS  95% bound Delta N_eff < 0.286  [0.286]
 ```
 
-**The next step.** CMB-S4, a planned ground-based CMB experiment [T], is the probe #11 names for the program's own N_eff prediction.
+**The next step.** CMB-S4, a proposed ground-based CMB experiment [T], is the probe #11 names for the program's own N_eff prediction.
 
 ## How the program uses it
 

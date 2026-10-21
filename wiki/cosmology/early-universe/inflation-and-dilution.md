@@ -7,6 +7,8 @@ provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.1"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md §13 row 8"
+  - "papers/broken-born-checkpoint-v2.md §14 item 7"
   - "papers/broken-born-checkpoint-v2.md App. A item 5"
   - "review/round3-adjudication.md 'Rulings' 2"
   - "review/round3-adjudication.md 'Rulings' 3"
@@ -28,7 +30,7 @@ sources:
 
 *Inflation is a proposed early period of extremely rapid, accelerating expansion, which thins any relics produced before it until essentially none remain in the observable universe; reheating is its end, when the energy that drove inflation turns into hot particles and sets the starting temperature of the [radiation era](/wiki/cosmology/early-universe/radiation-era). Relics made after reheating can still be thinned later if something releases a large amount of entropy into the plasma, for example the decay of heavy particles that dominated the universe for a time, a period called early matter domination. The program uses this physics in two places. Inflation is the standard reason no [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) of our own sector are seen, which is one of the two reasons the early claim that the conjugate sector explains their absence is [dead](/wiki/electric-magnetic-duality/monopole-explanation). And late dilution was the only way the [retired soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) could have kept its heavy mass, a route the program rejected because it removes the mass prediction.*
 
-**Status:** Established — [T] — textbook early-universe physics, written here from general knowledge; references the wiki adds are from model memory (†). How the program used it is recorded in [checkpoint #11](/wiki/history/documents/checkpoint) §11.1 and §12 and in [round-3 Decision 2](/wiki/method/review/round-3/decisions). The numbers on this page come from the retired soliton episode, and no script checks a dilution factor; the overproduction they rest on is [V] ([ruling 2](/wiki/method/review/round-3/rulings)).
+**Status:** Established — [T] — textbook early-universe physics, written here from general knowledge; references the wiki adds are from model memory (†). How the program used it is recorded in [checkpoint #11](/wiki/history/documents/checkpoint) §11.1 and §12 and in [round-3 Decision 2](/wiki/method/review/round-3/decisions). The numbers on this page come from the retired soliton episode, and no script in `verify/` checks a dilution factor; the overproduction they rest on is [V] ([ruling 2](/wiki/method/review/round-3/rulings)).
 
 ## Inflation [T]
 
@@ -61,7 +63,7 @@ The withdrawn soliton manuscript [#14](/wiki/dark-matter/candidates/soliton-cand
 
 ### A hidden sector reheated colder
 
-If the inflaton, or whatever reheats the universe, decays into two sectors that do not interact, each sector thermalizes separately, and they can start at different temperatures. Their ratio, the hidden-to-visible temperature ratio ξ, is then set by the decay, not by any later physics [T]. #14 needed ξ below 1 to keep the contribution of its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)'s massless photon to the radiation density within the measured bound: it required "the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix" (#14 §4), and its self-assessment listed "the colder reheating of the hidden sector" as conjectural (#14 §6). Round 3 corrected the bound to ξ < 0.760 [V] (ruling 5; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+If the inflaton, or whatever reheats the universe, decays into two sectors that do not interact, each sector thermalizes separately, and they can start at different temperatures. Their ratio, the hidden-to-visible temperature ratio ξ, is then set by the decay, and it persists only while the two sectors stay out of contact [T]. #14 needed ξ below 1 to keep the contribution of its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)'s massless photon to the radiation density within the measured bound: it required "the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix" (#14 §4), and its self-assessment listed "the colder reheating of the hidden sector" as conjectural (#14 §6). Round 3 corrected the bound to ξ < 0.760 [V] (ruling 5; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 
 These are requirements of the retired candidate, and the numbers below belong to the soliton episode. The round-3 referee listed what a colder start would demand of reheating (`review/round3/referee/audit-notes.md`, Step 4(c) item 9):
 
@@ -109,7 +111,7 @@ The program began with the supposition that monopoles live in conjugate space, w
 
 The soliton candidate was retired after round 3 ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Its manuscript had placed the monopole mass by the Kibble abundance "with no dilution required" (#14 abstract). Decision 2 of the round-3 adjudication explains why that mattered: "The row earned its place in the checkpoint's trilemma on two claims: topology makes it stable for free, and the mass came out of the abundance with no free dilution. Round 3 removed the second." The decision set out three routes ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)):
 
-- **(a)** Claim the low-scale model: "Route (a), v ≲ 100 PeV, works", but it was rejected, because it "is Murayama–Shu's and Liveoak–Maharana–Wells's model" and "claiming it would add no testable content and would misattribute it".
+- **(a)** Claim the low-scale model: "Route (a), v ≲ 100 PeV, works", but the program does not claim it; the surviving version is noted as prior art, because it "is Murayama–Shu's and Liveoak–Maharana–Wells's model" and "claiming it would add no testable content and would misattribute it".
 - **(b)** Keep a superheavy mass and name a dilution mechanism: rejected. "Route (b) restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction, and the program does not trade falsifiability for survival."
 - **(c)** Retire the candidate: chosen.
 
@@ -119,7 +121,7 @@ The superheavy alternative had been kept open before round 3. On 2026-10-19 Paul
 
 ### Reheating in polarization-genesis
 
-The lab notebook's sketch of [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis), the open question of what sets the ratio of dark to ordinary matter, also places the decisive event at reheating: "at reheating, the heavy Grassmannian moduli (the nine non-Maslov directions) decay", and their branching into x- and p-polarized quanta is set by an angle of the vacuum's polarization (#1 §8, tagged "[O, sketched]"). As with a colder hidden sector, the relative amounts of the two kinds of matter would be fixed by how a decay at reheating divides its energy, a parallel the documents do not draw. The sketch is not a calculation, and the question is open (OP7).
+[The lab notebook](/wiki/history/documents/lab-notebook)'s sketch of [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis), the open question of what sets the ratio of dark to ordinary matter, also places the decisive event at reheating: "at reheating, the heavy Grassmannian moduli (the nine non-Maslov directions) decay", and their branching into x- and p-polarized quanta is set by an angle of the vacuum's polarization (#1 §8, tagged "[O, sketched]"). As with a colder hidden sector, the relative amounts of the two kinds of matter would be fixed by how a decay at reheating divides its energy, a parallel the documents do not draw. The sketch is not a calculation, and the question is open (OP7).
 
 ## Standard references
 
@@ -144,7 +146,7 @@ The † entries are from model memory and unverified.
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §11.1 — inflationary dilution [T] and the dead monopole explanation; App. A item 5 — the split fate of the supposition
-- `papers/broken-born-checkpoint-v2.md` §12 — early matter domination [29S] and the free dilution factor in the soliton obituary
+- `papers/broken-born-checkpoint-v2.md` §12 — early matter domination [29S] and the free dilution factor in the soliton obituary; §13 row 8 — the permanent null for our monopoles; §14 item 7 — polarization-genesis open (OP7)
 - `review/round3-adjudication.md` 'Decisions' 1, 2 — strict sector separation; the three routes and the rejected dilution route; 'Rulings' 2, 3 — the overproduction and the literature; the omitted-constraints list
 - `review/round3/referee/audit-notes.md` Step 2 — the dilution at 10¹⁶ GeV; Step 4(a) item 5 — re-thermalization by ψ; Step 4(c) items 1, 7, 9 — the literature, the Higgs portal, the reheating requirement and isocurvature
 - `review/round3/referee/step2a.out` 'Kibble', `review/round3/referee/step4c.out` — the referee's printed dilution and reheating values
