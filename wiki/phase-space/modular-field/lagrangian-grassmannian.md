@@ -36,7 +36,7 @@ Choosing one Lagrangian subspace to call "position" is choosing a polarization: 
 
 Lagrangian subspaces form a manifold, the Lagrangian Grassmannian. #1 §2: "The space of Lagrangian polarizations of ℝ^{2d} is the Lagrangian Grassmannian Λ(d) ≅ U(d)/O(d), compact, of dimension d(d+1)/2 = 10 for d = 4. **[T]**"
 
-The form U(d)/O(d) comes from a symmetry argument [T]. Identify phase space with ℂ^d, positions as real parts and momenta as imaginary parts. The unitary group U(d) then acts by maps that preserve both ω and the unit metric, and it carries the position plane ℝ^d onto every Lagrangian subspace. The unitary maps that carry the position plane onto itself are the real orthogonal matrices, O(d). Each Lagrangian subspace is therefore a unitary matrix up to an orthogonal one: Λ(d) = U(d)/O(d). Its dimension is dim U(d) − dim O(d) = d² − d(d − 1)/2 = d(d + 1)/2, the number of independent entries of a symmetric d × d matrix, as the graph picture suggests. It is compact because U(d) is.
+The form U(d)/O(d) comes from a symmetry argument [T]. Identify phase space with ℂ^d, positions as real parts and momenta as imaginary parts. The unitary group U(d) then acts by maps that preserve both ω and the unit metric, and it carries the position plane ℝ^d onto every Lagrangian subspace. The unitary maps that carry the position plane onto itself are the real orthogonal matrices, O(d). Each Lagrangian subspace is therefore a unitary matrix taken up to an orthogonal factor on the right: Λ(d) = U(d)/O(d). Its dimension is dim U(d) − dim O(d) = d² − d(d − 1)/2 = d(d + 1)/2, the number of independent entries of a symmetric d × d matrix, as the graph picture suggests. It is compact because U(d) is.
 
 For d = 1, U(1)/O(1) is the circle of unit complex numbers e^{iθ} with e^{iθ} and −e^{iθ} identified: the lines through the origin of the plane, a line at angle θ being the same line as at θ + π [T].
 
@@ -50,7 +50,7 @@ What this says [T]. A unitary matrix U has a determinant det U of modulus 1. Mul
 
 For d = 1, the line at angle θ is U = e^{iθ} applied to the x-axis, and det² U = e^{2iθ}. Turning the line through a half-turn brings it back to itself and carries e^{2iθ} once around the circle: the half-turn of a line is the generating loop [T].
 
-The remaining directions of Λ(d) leave det² unchanged. The points with a given value of det² form a copy of SU(d)/SO(d) [T]; at d = 4 these are the nine directions that #1 calls "the nine non-Maslov directions" (§8), next to the one circle direction.
+The remaining directions of Λ(d) leave det² unchanged. The points with a given value of det² form a copy of SU(d)/SO(d) [T], and moving within such a set changes the polarization without moving around the circle. At d = 4 these are the directions that #1 calls "the nine non-Maslov directions" (§8), beside the one circle direction.
 
 An angle measured around the Maslov circle is periodic because of this topology, whatever dynamics act on it. The program uses exactly this for the dark-energy field: [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase). #1 §2 tags that periodicity "[D]": "Periodicity is topology".
 

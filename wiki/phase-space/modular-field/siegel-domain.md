@@ -114,7 +114,7 @@ Model I of the toy-model note takes "H, a positive symmetric symplectic matrix, 
 
 ## The boundary of the domain
 
-The domain is unbounded, but the Cayley transform W = (Z − i)(Z + i)⁻¹ maps it onto a bounded domain, the "Siegel disk" of complex symmetric matrices W with 1 − W̄W positive definite; the point Z = i goes to the centre W = 0 [T]. For d = 1 this is the familiar map of the upper half-plane onto the unit disk.
+The domain is unbounded, but the Cayley transform W = (Z − i)(Z + i)⁻¹ maps it onto a bounded domain, the "Siegel disk" of complex symmetric matrices W with 1 − W̄W positive definite; the point Z = i goes to the center W = 0 [T]. For d = 1 this is the familiar map of the upper half-plane onto the unit disk.
 
 A bounded domain has a distinguished part of its boundary, its Shilov boundary: the smallest closed part of the boundary on which every function that is holomorphic inside and continuous up to the edge reaches its largest absolute value [T]. For the Siegel disk it is the set of symmetric unitary matrices, which is the [Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) [T] (Hua 1963 †; the construction is on [that page](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). #11 §6: "**Λ(d) is the Shilov boundary** of the Siegel domain [T]". In the upper-half-space picture the real symmetric matrices, the limit Y → 0, make up a dense part of that boundary [T]. The program places the dark-energy field there ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)).
 

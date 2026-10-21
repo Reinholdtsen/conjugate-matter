@@ -6,9 +6,11 @@ description: "The graviton, the momentum graviton X, the ten moduli of Λ(d) and
 provenance: [O]
 sources:
   - "notes/debt1a-geometric-core.md §D"
+  - "notes/debt1a-geometric-core.md §E"
   - "notes/debt1a-geometric-core.md §F"
   - "notes/debt1a-ii-X-classification.md §1"
   - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/debt1a-ii-X-classification.md §4"
   - "notes/debt1a-ii-X-classification.md §5"
   - "notes/debt1a-iii-tuning-test.md §4"
   - "notes/debt1a-iv-beta-coefficients.md §3"
@@ -49,7 +51,7 @@ The tens count components, not propagating modes. A massive spin-2 field such as
 
 Calc note #6 resolved X by symmetry and consistency arguments. The translations Z → Z + B make it shift-symmetric, so it is never auxiliary (§1); its local shifts make it a second graviton, which the multi-graviton no-go forbids to be massless (§2); and the polarization choice breaks the local shifts, so that "the four would-be Goldstones π_μ of the broken λ-gauge are eaten; X becomes a **massive spin-2** with its five polarizations, mass M_X = the polarization-breaking scale" (§3). Its ledger: "**Resolved:** the three-way classification. Not healthy-by-default, not auxiliary, not necessarily ghost: *massive spin-2, conditionally healthy*" (§5). See [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) and [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs).
 
-After the tuning test and the β coefficients, the two tensors appear as one massless graviton, even under reciprocity, and one massive spin-2 field, X, odd under it (#8 §3; #11 §7.5; [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
+After the tuning test and the β coefficients, the spin-2 spectrum is one massless graviton, even under reciprocity, and one massive spin-2 field, X, odd under it (#8 §3; #11 §7.5; [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
 
 The documents describe the absorbed modes in two ways. Calc note #6 says "the four would-be Goldstones π_μ" are eaten (§3), and #11 §7.1 follows it ("X eats the four Goldstones"). Calc note #8 says the Higgsing "eats the vector π_μ and the *longitudinal scalar of the λ-gradient sector*" (§3). No document reconciles the two wordings ([source conflicts](/wiki/history/documents/source-conflicts)).
 
@@ -61,7 +63,7 @@ Calc note #5 had posed the X question as a calculation: "expand the generalized 
 2. "**auxiliary** (no derivatives at quadratic order) → integrate out → a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly";
 3. "**ghost** → fatal to the geometric sector."
 
-"Outcomes 1 and 2 both serve the program; only 3 kills." Calc note #6 replaced the question rather than answering it in these terms. Its shift symmetry rules out the second outcome: "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level" (§1; [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). Its no-go and Higgs arguments then give an answer the list did not offer in that form: "Not healthy-by-default, not auxiliary, not necessarily ghost: *massive spin-2, conditionally healthy*" (§5). The curvature expansion itself is not reported in any document. The direct route from the gate to an auxiliary X went with outcome 2; the gate mechanism now runs through exchange of the massive X ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
+"Outcomes 1 and 2 both serve the program; only 3 kills." Calc note #6 replaced the question rather than answering it in these terms. Its shift symmetry rules out the second outcome: "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level" (§1; [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). Its no-go and Higgs arguments then give an answer the list did not offer in that form: "Not healthy-by-default, not auxiliary, not necessarily ghost: *massive spin-2, conditionally healthy*" (§5). The curvature expansion itself is not reported in any document. Outcome 2 had been the cheapest route to the dark-matter gate ("outcome 2 gives it most cheaply", #5 §E); with it gone, the gate comes from integrating out the massive X between conjugate-matter bilinears (#6 §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
 
 ## Chat-only: massive X waves
 
@@ -91,15 +93,15 @@ The lab notebook's polarization-genesis sketch, tagged "[O, sketched]", needs th
 
 ## Signs of health
 
-Calc note #5 recorded two encouraging signs for the kinetic terms of this field content (§D). The first: "the Siegel target metric Tr(Y⁻¹dZ Y⁻¹dZ̄) is positive-definite", so the kinetic term of Z has the healthy sign in every direction ([the target metric](/wiki/phase-space/modular-field/siegel-domain#the-target-metric)). The second comes from double field theory (DFT), string theory's doubled geometry: "the DFT precedent (graviton + B-field + dilaton, ghost-free) shows doubled-geometry kinetic operators can be healthy [T]" ([double field theory](/wiki/phase-space/born-geometry/double-field-theory)).
+Calc note #5 recorded two encouraging signs for the kinetic terms of this field content (§D). The first: "the Siegel target metric Tr(Y⁻¹dZ Y⁻¹dZ̄) is positive-definite", so a kinetic term for Z built on it has the healthy sign in every direction ([the target metric](/wiki/phase-space/modular-field/siegel-domain#the-target-metric)). The second comes from double field theory (DFT), string theory's doubled geometry: "the DFT precedent (graviton + B-field + dilaton, ghost-free) shows doubled-geometry kinetic operators can be healthy [T]" ([double field theory](/wiki/phase-space/born-geometry/double-field-theory)).
 
 Both signs belong to positive (Euclidean) metrics. With a Lorentzian metric "the invariant target metric" becomes "indefinite" (#6 §3), and the extension to spacetime signature is open item 3 ([Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 
 ## Sources
 
 - `notes/debt1a-geometric-core.md` §D — the field content, the nine moduli, the three-way classification and the signs of health.
-- `notes/debt1a-geometric-core.md` §F — item 3, the origin of τ's potential; item 4, the inverse-Higgs accounting.
-- `notes/debt1a-ii-X-classification.md` §1, §3, §5 — the auxiliary outcome excluded; X a massive spin-2 field with five polarizations; the moduli not eaten; the Lorentzian caveat; the resolved classification.
+- `notes/debt1a-geometric-core.md` §E, §F — the gate's cheapest route through outcome 2; item 3, the origin of τ's potential; item 4, the inverse-Higgs accounting.
+- `notes/debt1a-ii-X-classification.md` §1, §3, §4, §5 — the auxiliary outcome excluded; X a massive spin-2 field with five polarizations; the moduli not eaten; the Lorentzian caveat; the gate from integrating out massive X; the resolved classification.
 - `notes/debt1a-iii-tuning-test.md` §4 — the ten compact moduli carried by J.
 - `notes/debt1a-iv-beta-coefficients.md` §3 — the eaten modes in #8's wording; τ survives; parity of the two tensors.
 - `notes/broken-born-theory.md` §2, §8 — τ the lightest modulus [P]; the polarization-genesis sketch.
