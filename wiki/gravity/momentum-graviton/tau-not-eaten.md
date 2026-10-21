@@ -57,15 +57,15 @@ Under the corrected postulate [P2′](/wiki/program/postulates/p2-prime) the vac
 
 #11 §6 places it on the boundary of the Siegel domain: "the dark-energy field τ is the Maslov phase of the boundary variable" ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). A coordinate on the space of J's is what #8 calls "a J-modulus", and the moduli of J together make up what #11 calls "the compact J-sector".
 
-The two kinds of mode therefore have different origins. The absorbed modes come from the gauge parameter of the shifts of X, which move X = Re Z through the non-compact [Siegel domain](/wiki/phase-space/modular-field/siegel-domain). τ comes from the choice of J and moves the polarization around the compact Λ(d).
+The two kinds of mode therefore have different origins. The absorbed modes come from the gauge parameter of the shifts of X, which move X = Re Z through the non-compact [Siegel domain](/wiki/phase-space/modular-field/siegel-domain). τ is a coordinate of the choice of J: changing it moves the polarization around the Maslov circle of the compact Λ(d).
 
 ## The argument
 
 Calc note #6 stated the expectation and left it as a check: "(The Λ(d) moduli, τ included, are not the eaten modes — they carry the compact phase directions, which constant shifts do not generate; verifying τ survives un-eaten is flagged [O].)" (§3).
 
-Calc note #8 settled it at leading order with the same distinction: the absorbed modes are those of "the λ-gradient sector", while "τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field" (§3). The argument rests on where each mode comes from. The modes a gauge field can absorb are the would-be Goldstone modes of the gauge symmetry it carries, here the dual diffeomorphisms, and a mode that belongs to a different sector is not among them [T].
+Calc note #8 settled it at leading order with the same distinction: the absorbed modes are those of "the λ-gradient sector", while "τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field" (§3). The argument rests on where each mode comes from. The modes a gauge field absorbs are the would-be Goldstone modes of its own broken gauge symmetry, here the dual diffeomorphisms [T]; a mode from another sector can enter only through mixing, and that is what "leading order" sets aside.
 
-What "leading order" leaves out is stated in the same sentence. Through the potential the two sectors can still mix, and #8 records that mixing only as "logged, expected small by compactness". No calculation backs the expectation: the τ–Stückelberg mixing matrix is open item 6 of #11 §14 ([Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
+#8 states what is set aside in the same passage. Through the potential the two sectors can still mix, and #8 records that mixing only as "logged, expected small by compactness". No calculation backs the expectation: the τ–Stückelberg mixing matrix is open item 6 of #11 §14 ([Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
 
 ## Why it matters
 
