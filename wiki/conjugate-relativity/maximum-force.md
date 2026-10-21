@@ -16,7 +16,7 @@ sources:
   - "popsci/universes-other-half.md 'A second speed of light'"
 ---
 
-*The maximum force is the invariant speed of the momentum-space light cone: since a rate of change of momentum is a force, the dual cone's speed limit is a largest possible force, c̃ = ℏc/λ², where λ is a length that the paper #13 calls the Born length. Setting the Born length equal to the Planck length gives c̃ = c⁴/G, about 1.2 × 10⁴⁴ newtons, which #13 describes as "the scale black holes reach when they collide". The general-relativity literature already contains a conjectured maximum force, c⁴/4G; #13's value is larger by a factor of 4, and the factor is open. The result is alive but unreviewed: no review round has examined it, no script checks the number, and the checkpoint #11 does not mention it.*
+*The maximum force is the invariant speed of the [momentum-space light cone](/wiki/conjugate-relativity/two-causal-cones): since a rate of change of momentum is a force, the dual cone's speed limit is a largest possible force, c̃ = ℏc/λ², where λ is a length that the paper [#13](/wiki/conjugate-relativity) calls the Born length. Setting the Born length equal to the Planck length gives c̃ = c⁴/G, about 1.2 × 10⁴⁴ newtons, which #13 describes as "the scale black holes reach when they collide". The general-relativity literature already contains a [conjectured maximum force](/wiki/conjugate-relativity/maximum-force-conjectures), c⁴/4G; #13's value is larger by a factor of 4, and the factor is open. The result is alive but unreviewed: no review round has examined it, no script checks the number, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
 
 **Status:** Alive, unreviewed — the boxed value carries no tag (#13 §7 lists it under "Numerical anchors"), the identification of the Born length with the Planck length carries none either, and the factor of 4 is [O] — listed alive in `HANDOFF.md` §2 without a machine-check mark; absent from #11 v2.2; never through a blind review round; no `verify/` script reproduces 1.2 × 10⁴⁴ N ([the iron rule](/wiki/method/verification/iron-rule)).
 
@@ -43,7 +43,7 @@ The formula c̃ = ℏc/λ² contains one free length. #13 §1: "λ is the Born l
 3. **The substitution.** Putting λ² = ℏG/c³ into ℏc/λ² cancels ℏ and leaves c⁴/G, the boxed form. The result contains only c and G. c⁴/G is the Planck energy divided by the Planck length, the quantity known as the Planck force [T].
 4. **The number.** #13 gives c⁴/G ≈ 1.2 × 10⁴⁴ N. No `verify/` script computes it; the iron rule asks for executed code with printed output for every asserted number, and this one is still owed (#13 §7 lists it among the "Numerical anchors").
 
-Because the Born length enters squared, the value of c̃ depends directly on the identification in step 2: a different length would give a different maximum force. #13 states no alternative.
+The value of c̃ therefore rests on the identification in step 2: a different length would give a different maximum force, and #13 considers no alternative.
 
 ## The reason offered
 
@@ -69,7 +69,7 @@ Both values are numbers times c⁴/G, the one force that c and G can form ([Maxi
 
 ## Where forces approach c̃
 
-#13's plain passage for §1 places the limit at "about 10⁴⁴ newtons, the scale black holes reach when they collide". §2 names comparable-mass black-hole mergers as the one natural process that "operates at F ~ c̃ by construction", and so the one arena where dual-kinematic corrections could be of order unity, flagged and not derived ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). Every other force in nature lies far below the limit, which #13 gives as the reason force looks exactly additive.
+#13's plain passage for §1 places the limit at "about 10⁴⁴ newtons, the scale black holes reach when they collide". §2 names comparable-mass black-hole mergers as the one natural process that "operates at F ~ c̃ by construction", and so the one arena where dual-kinematic corrections could be of order unity, flagged and not derived ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). In #13's account every other natural process stays far below the limit, which it gives as the reason force looks exactly additive.
 
 A conjecture from the original chat reads a black hole's horizon in the momentum description as a maximum-force surface: "hovering at horizon requires F → c⁴/G" (`HANDOFF.md` §4, conjecture tier; [Momentum-space black holes (chat-only)](/wiki/conjugate-relativity/momentum-space-black-holes)).
 
