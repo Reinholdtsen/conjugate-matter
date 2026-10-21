@@ -77,7 +77,7 @@ The note's requirement: "To get a definite polarization we add a potential that 
 - **Invariant under K → −K.** Model I has this flip as a second, separate symmetry (toy note §2; [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)), and the potential keeps it ([the twisted element](/wiki/symmetry-breaking/twisted-element)).
 - **Reduces the U(1) to a discrete group.** The potential breaks the continuous rotation of φ explicitly. A potential that repeats when φ advances by π is unchanged by ρ, which acts as φ → φ + π, and leaves isolated minima instead of a flat circle.
 
-An explicit term that breaks a continuous symmetry gives the would-be Goldstone direction a potential, and the mode is then called a pseudo-Goldstone mode [T]. The worklog's revised conclusion uses that language: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). The lab notebook had already called τ "a (pseudo-)Goldstone: derivatively coupled" (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
+An explicit term that breaks a continuous symmetry gives the would-be Goldstone direction a potential, and the mode is then called a pseudo-Goldstone mode [T]. The worklog's revised conclusion uses that language: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). [The lab notebook](/wiki/history/documents/lab-notebook) had already called τ "a (pseudo-)Goldstone: derivatively coupled" (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
 
 ## The potential the toy uses
 
@@ -118,7 +118,7 @@ The sources read this cost the same way:
 
 - the worklog, when it first proposed the potential: "The cost: a rigid, unordered pair of axes. That is weaker than a rigid η, but it is still background structure." ('Chunk 1 results');
 - the worklog, after the simulation: "That is more rigid structure than P2′'s 'only ω is rigid', though less than a rigid η." ('Chunk 3 results');
-- the round-4 pre-registration, predicting the review's weakest link: "in 1+1, the 'spontaneous' breaking of ρ rests on an explicit, rigid background. The ρ-preserving potential needs a fixed unordered pair of axes K_ref. A referee can reasonably call model I's 1+1 result an ordinary Z₂ breaking of an explicitly chosen axis pair." (`review/round4-preregistration.md`). The adjudication scored it "Partial: right location, missed severity", since the defect found at that spot was the unbounded potential;
+- the round-4 [pre-registration](/wiki/method/review/pre-registration), predicting the review's weakest link: "in 1+1, the 'spontaneous' breaking of ρ rests on an explicit, rigid background. The ρ-preserving potential needs a fixed unordered pair of axes K_ref. A referee can reasonably call model I's 1+1 result an ordinary Z₂ breaking of an explicitly chosen axis pair." (`review/round4-preregistration.md`). The adjudication scored it "Partial: right location, missed severity", since the defect found at that spot was the unbounded potential;
 - the round-4 referee: "But the potential fixes the unordered axis pair by hand, so the vacuum chooses only which of two pre-set axes is 'position'." (`review/round4/referee/audit-notes.md`, Step 3);
 - the worklog, on matter locality: the pair of lines that matter can live on "is spontaneously selected only in the continuous version (3+1, angle φ a Goldstone); with the τ-type potential it is fixed by K_ref" ('Chunk 4'; [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
 
@@ -136,14 +136,14 @@ The worklog adds a remark about the program's actual dimension:
 
 > In 3+1, the program's actual dimension, Coleman–Mermin–Wagner does not apply. There the self-dual coset model can break the continuous U(1) itself, with τ an exactly massless Goldstone. §10's τ has a potential, so the explicit breaking is in the program anyway. (worklog, 'Chunk 3 results')
 
-The toy-model note works in 1+1 with d = 1 and lists "anything beyond d = 1" as not shown (§6); the remark was not computed. It does not remove the question: on its own reading, the potential is present in 3+1 because §10 gives τ one, and that potential is no better derived there.
+The toy-model note works on a 1+1-dimensional base with phase space ℝ² (d = 1), says nothing about 3+1, and lists "anything beyond d = 1" as not shown (§2, §6); the remark was not computed. It does not remove the question: on its own reading, the potential is present in 3+1 because §10 gives τ one, and that potential is no better derived there.
 
 ## History of the origin question
 
 1. **v0.1 (September 2026).** The lab notebook gave the potential's existence to the rigid ω of its original postulate P2, [P/O] (#1 §3). That attribution is superseded; see the section below.
 2. **The postulate repair ([Debt 1](/wiki/history/debts)).** With η emergent the polarizations again form Λ(d), "π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B), and the source of τ's potential became an open item: "(3) the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F; [the Debt-1 notes](/wiki/history/documents/debt-1-notes)). No later document derives the potential from either candidate. The toy work's section condition does select an unordered pair of lines, "the same information as K_ref", but cannot tell which is position (worklog, 'Chunk 3 results', plan for S5; [the section condition](/wiki/symmetry-breaking/section-condition)).
-3. **The toy models (2026-10-19).** The polarization is a Goldstone angle, and in 1+1 a definite polarization needs a potential, first the naive form, with its cost stated from the start (worklog, chunks 1–3).
-4. **Round 4 and #11 v2.2 (2026-10-19/20).** The naive form fails with H dynamical and V_b replaces it ([review round 4](/wiki/method/review/round-4)); #11 adds the refinement of P2′, the boundedness condition of §10 and the open item in §14 item 11.
+3. **The toy models (2026-10-19).** The polarization is a Goldstone angle, and in 1+1 a definite polarization needs a potential, first [the naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), with its cost stated from the start (worklog, chunks 1–3).
+4. **Round 4 and #11 v2.2 (2026-10-19/20).** [The naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) fails with H dynamical and V_b replaces it ([review round 4](/wiki/method/review/round-4)); #11 adds the refinement of P2′, the boundedness condition of §10 and the open item in §14 item 11.
 
 The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–7, then an optional round-5 review of the toy note) does not schedule the derivation.
 

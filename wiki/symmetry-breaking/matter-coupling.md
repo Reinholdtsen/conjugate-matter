@@ -2,7 +2,7 @@
 title: "Locality from an (H, K)-built coupling"
 weight: 100
 status: alive
-description: "The coupling I_K is local in x in one vacuum and local in p in the other, odd in K and (H, K)-covariant; locality then follows from the vacuum as fermion masses follow from a Higgs vacuum value — the weak form of criterion S5."
+description: "The coupling I_K is local in x in one vacuum and local in p in the other, dependent on the sign of K and (H, K)-covariant; locality then follows from the vacuum as fermion masses follow from a Higgs vacuum value — the weak form of criterion S5."
 provenance: [V]
 sources:
   - "papers/reciprocity-toy-models.md §5"
@@ -26,13 +26,13 @@ sources:
   - "verify/toy_coset.py"
 ---
 
-*This page is about one particular interaction for matter in the coset toy model of broken reciprocity. It is built from the model's two fields, the metric H and the real structure K, and it is local in position in one vacuum and local in momentum in the mirror vacuum. Evaluated on a single quantum state, it reduces in the first vacuum to an integral over the state's position profile, its waveform, and in the second to the same integral over its momentum profile, the spectrum of that waveform, so one state can give different values in the two vacua. Because the interaction depends on the sign of K, it also gives the breaking of reciprocity a physical effect. The arrangement parallels the Higgs mechanism, in which particle masses follow from the Higgs field's vacuum value once the particles' couplings to it are given. Nothing in the toy requires matter to couple this way, which is why this is only the weak form of the locality criterion S5.*
+*The coupling I_K is a particular interaction for matter in the coset toy model of broken reciprocity. It is built from the model's two fields, the metric H and the real structure K, and it is local in position in one vacuum and local in momentum in the mirror vacuum. Evaluated on a single quantum state, it reduces in the first vacuum to an integral over the state's position profile, its waveform, and in the second to the same integral over its momentum profile, the spectrum of that waveform, so one state can give different values in the two vacua. Because the interaction depends on the sign of K, it also gives the breaking of reciprocity a physical effect. The arrangement parallels the Standard Model's fermion masses, which follow from the Higgs field's vacuum value once the fermions' Yukawa couplings to it are given. Nothing in the toy requires matter to couple this way, which is why this is only the weak form of the locality criterion S5.*
 
 **Status:** Alive — [V] (the worklog's "C [V], the weak form of S5" and "Weak form: passes [V].") — `verify/toy_s5.py` part C reproduces every number ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)), and the round-4 referee reproduced them independently; round-4 finding F5 narrowed the description to a coupling built from H as well as K. The strong form is [open](/wiki/symmetry-breaking/strong-locality).
 
 ## The criterion it answers
 
-Before building anything, the toy work fixed its pass/fail criteria ([success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). S1–S3 encode the referees' demand for an action in which ρ is a symmetry that the vacuum breaks; S5 asks that the vacuum's choice matter for matter:
+Before building anything, the toy work fixed its pass/fail criteria ([success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). S1–S3 encode the referees' demand for an action in which [ρ](/wiki/phase-space/reciprocity/born-reciprocity) is a symmetry that the vacuum breaks; S5 asks that the vacuum's choice matter for matter:
 
 > Matter coupled to the order parameter through ρ-symmetric couplings acquires, in the selected vacuum, interactions local in the selected Lagrangian (x) and nonlocal in its complement (p). In the ρ-image vacuum it is the other way round. (worklog, 'Success criteria')
 
@@ -50,7 +50,7 @@ The worklog (`notes/toy-lagrangian.md`) calls this "the analogue of a Yukawa cou
 I[W] = ∫_{L+} du ( ∫_{L−} dv W )²                               (toy note §5)
 ```
 
-Read from the inside out: integrating W along L− gives the probability density of the coordinate u, the state's profile along L+; the coupling squares that profile and integrates it along L+. The toy-model note (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) writes it I[W], or I; the worklog and the round-4 adjudication write I_K, a name that records its dependence on K.
+Read from the inside out: integrating W along L− gives the probability density of the coordinate u, the state's profile along L+; the coupling squares that profile and integrates it along L+. The [toy-model note](/wiki/symmetry-breaking/toy-models) (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) writes it I[W], or I; the worklog and the round-4 adjudication write I_K, a name that records its dependence on K.
 
 In the two vacua, at H = 1, it becomes (toy note §5):
 
@@ -114,7 +114,7 @@ The worklog's: "**Weak form: passes [V].** A ρ-covariant coupling of matter to 
 
 The analogy is the textbook one [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). In the Standard Model a fermion's mass is proportional to the product of its Yukawa coupling to the Higgs field and the Higgs field's vacuum value. The vacuum supplies the scale; the Yukawa couplings are free parameters, one for each fermion, and they are inputs to the theory, not consequences of the vacuum. In the toy the vacuum supplies the sign of K, which fixes which line is L+, and the coupling I makes matter's interaction follow that line. As with the Yukawa couplings, the coupling is chosen.
 
-The forecasts written before construction expected this outcome. The worklog's own prediction ("locality has to be defined relative to K by hand") was scored against the result "Weak form only; the strong form is open here and in the literature": "Hit" ('Assessment against the predictions'). The round-4 pre-registration named, among its runner-up weakest links, "The weak form of matter locality is close to true by construction." (`review/round4-preregistration.md`). The adjudication scored the runner-ups "Partial on all three", with "I_K needs H (F5)" as the finding at this one.
+The forecasts written before construction expected this outcome. The worklog's own prediction ("locality has to be defined relative to K by hand") was scored against the result "Weak form only; the strong form is open here and in the literature": "Hit" ('Assessment against the predictions'). The round-4 [pre-registration](/wiki/method/review/pre-registration) named, among its runner-up weakest links, "The weak form of matter locality is close to true by construction." (`review/round4-preregistration.md`). The adjudication scored the runner-ups "Partial on all three", with "I_K needs H (F5)" as the finding at this one.
 
 ## Limits
 

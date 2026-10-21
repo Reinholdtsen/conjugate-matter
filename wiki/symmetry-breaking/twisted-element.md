@@ -106,7 +106,7 @@ The coupling the note supplies is I_K, a functional of a matter state's [Wigner 
 - **Flipping K alone changes it.** For the note's test state the referee found "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925 (nonzero: K->-K alone is not a symmetry of I)" (`review/round4/referee/out_sec5_fix.txt`).
 - **ρ applied to K and to the state together leaves it unchanged.** ρ acts on states by the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) F and on K by K → −K (`verify/toy_s5.py`: "rho acts on states by the Fourier transform: psi -> psi~, and on K by K -> -K"), and "The combined map (ψ → Fψ, K → −K) leaves I invariant" (toy note §5).
 
-So I keeps ρ and breaks the flip. The adjudication's last sentence refers to criterion S5, the requirement that the vacuum's choice make matter's interactions local in position in one vacuum and in momentum in the other: the coupling that delivers S5 is the same one that gives the breaking of ρ its physical content.
+So I keeps ρ and breaks the flip. The adjudication's last sentence refers to criterion S5, the requirement that the vacuum's choice make matter's interactions local in position in one vacuum and in momentum in the other: the coupling that delivers the weak form of S5 is the same one that gives the breaking of ρ its physical content.
 
 ## Where the program puts the coupling: P4
 
@@ -122,7 +122,7 @@ The blind referee of [review round 4](/wiki/method/review/round-4) found the twi
 
 ## Sources
 
-- `papers/reciprocity-toy-models.md` §2 — model I's fields, action, symmetries, vacua, stabilizer and the twisted element; Abstract, §6 — the twisted-ρ caveat in the summary; §1 — the real structure K and η = ωK; §5 — the coupling I_K, odd in K and invariant under the combined map
+- `papers/reciprocity-toy-models.md` §2 — model I's fields, action, symmetries, vacua, stabilizer and the twisted element; Abstract, §6 — the twisted-ρ caveat in the summary; §1 — the real structure K and η = ωK; §5 — the coupling I_K ("odd in K" in the note's words) and its invariance under the combined map
 - `papers/broken-born-checkpoint-v2.md` §4 — the statement in the P2′ refinement; P4
 - `review/round4-adjudication.md` 'Rulings' F3, 'Revisions' 2 — the finding upheld, "This sharpens the S5 conclusion", and the revision
 - `review/round4/referee/audit-notes.md` Step 2(a) F3, Step 3 C1 — the referee's finding, the "labelling choice" reading, the full group Sp(2,R) × Z₂, and the stabilizer computed in Sp(2,R) only
