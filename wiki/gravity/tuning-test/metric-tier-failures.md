@@ -22,6 +22,7 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §5"
   - "popsci/angle-of-the-mirror.md 'The method is the message'"
+  - "review/wiki-build-flags.md item 4"
 ---
 
 *The metric tier is the naive way, in [calc note #7](/wiki/history/documents/debt-1-notes)'s word, of writing the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton): as a function of metric-level, second-order quantities, the blocks of the [misalignment potential](/wiki/gravity/tuning-test/misalignment-potential). It fails the ghost-freedom test in two independent ways. At quadratic order the natural potential gives the metric fluctuation h a mass term proportional to Tr(h²) without the −(Tr h)² term that the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) form requires. Beyond quadratic order it contains Tr(g²), which is not a linear combination of the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) from which every ghost-free [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential is built. Either failure lets the Boulware–Deser ghost, an extra mode with negative kinetic energy, propagate [T]. Calc note #7 calls the result a "theorem-grade negative", and tests T4 and T7 of [the verification battery](/wiki/method/verification/battery) check both failures by machine. The way out was a change of variables, to [the frame tier](/wiki/gravity/tuning-test/frame-tier).*
@@ -55,7 +56,7 @@ A candidate potential therefore has two checks to pass: its quadratic part must 
 
 > 2. **Linearized spectrum of the quadratic invariant.** With Y = 1 + h, X = x: S = 2h + x² + O(3), A = [h, x] + O(3). Any potential of the class Tr({J,I}²)-with-positive-norm gives, at quadratic order, m²Tr(h²) — a graviton mass **without** the −(Tr h)² companion. That violates Fierz–Pauli already at linear order: Boulware–Deser ghost, immediately.
 
-S begins at first order with 2h, so its square begins at second order with 4h², and Tr(S²) is 4Tr(h²) to that order. That is the limit #11 §2 records: "Tr(S²)/ε² → 4Tr(h²) to six digits, visibly ≠ the Fierz–Pauli form". The result has a Tr(h²) term and no (Tr h)² term, a ratio other than the Fierz–Pauli one. The mass is a mass for h, the fluctuation of the ordinary metric; a quadratic mass for X comes from the second invariant below.
+S begins at first order with 2h, so its square begins at second order with 4h², and Tr(S²) is 4Tr(h²) to that order. That is the limit #11 §2 records: "Tr(S²)/ε² → 4Tr(h²) to six digits, visibly ≠ the Fierz–Pauli form". The result has a Tr(h²) term and no (Tr h)² term, a ratio other than the Fierz–Pauli one. The mass is a mass for h, the fluctuation of the ordinary metric; a quadratic mass for X comes from the second invariant below. A suspected slip in #7's expansion of S is recorded for a ruling in `review/wiki-build-flags.md` item 4, which notes that the quadratic-order test is unaffected; this page quotes #7 as written.
 
 ### The machine check: battery test T4
 
@@ -128,7 +129,7 @@ Before the test, calc note #6 had set out what a failure would mean: "Fail ⇒ t
 - **The v1 program paper** (#9 §5 item 4, superseded by #11; [the checkpoint](/wiki/history/documents/checkpoint)): metric-tier implementations "fail twice over", with Tr(g²) + Tr(g⁻²) "provably outside the linear-in-eₙ Hassan–Rosen span", under the tag "[D — both branches computed]".
 - **#11 §2** lists both among the seven Tier-1 tests of its battery and records "All seven passed [V]" ([claim tiers and selection bias](/wiki/method/claim-tiers)).
 - **The handoff** marks both failures with its machine-check sign: "Metric-tier Higgs potentials fail Fierz–Pauli (m²Tr h², no −(Tr h)² ✓; Tr(g²)+Tr(g⁻²) outside HR span ✓)" (`HANDOFF.md` §2), HR being Hassan–Rosen. Its Appendix A gives the battery's code and the expected output, "T4 converges to 4Tr(h²) and visibly ≠ FP; … T7 rms ≈ 3.3" ([the handoff](/wiki/history/documents/handoff)).
-- **The popular article #10** describes T4 among the battery's "seven checks, seven passes, including the numerical fingerprint of a ghost that had to be there for the argument to hold" ([the popular articles](/wiki/history/documents/popular-articles)).
+- **The popular article #10** describes the battery as "seven checks, seven passes, including the numerical fingerprint of a ghost that had to be there for the argument to hold", without naming the test ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Sources
 
@@ -140,3 +141,4 @@ Before the test, calc note #6 had set out what a failure would mean: "Fail ⇒ t
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the notebook's account.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement.
 - `popsci/angle-of-the-mirror.md` 'The method is the message' — the popular description of the battery.
+- `review/wiki-build-flags.md` item 4 — the suspected slip in #7's expansion of S, awaiting a ruling.
