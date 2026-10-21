@@ -24,11 +24,12 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §5"
   - "HANDOFF.md §5"
+  - "review/wiki-build-flags.md item 3"
 ---
 
-*The misalignment potential is the energy cost that the program assigns to a mismatch between the polarization J, the split of phase space into position and momentum directions that the vacuum has chosen, and the local phase-space geometry, which the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z carries. The [momentum graviton X](/wiki/gravity/momentum-graviton), the real part of Z, gets no potential from the geometry alone, because constant shifts of X are a symmetry ([the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)), so its mass has to come from this term. The [calc notes](/wiki/history/documents/debt-1-notes) call it the η-selection, or Higgs, sector. The natural measure of the mismatch is the anticommutator {J, I[Z]} of the polarization with the complex structure built from Z, which is zero when the two are compatible; its block form is derived exactly and checked by machine. Calc note #7 reads off the blocks that the mismatch vanishes only at X = 0 with the metric pinned to a reference metric, so that the potential involves two tensors, as the potentials of massive gravity do. Whether such a potential avoids the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the question of [the tuning test](/wiki/gravity/tuning-test).*
+*The misalignment potential is the energy cost that the program assigns to a mismatch between the [polarization J](/wiki/symmetry-breaking/order-parameter), the split of phase space into position and momentum directions that the vacuum has chosen, and the local phase-space geometry, which the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z carries. The [momentum graviton X](/wiki/gravity/momentum-graviton), the real part of Z, gets no potential from the geometry alone, because constant shifts of X are a symmetry ([the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)), so its mass has to come from this term. The [calc notes](/wiki/history/documents/debt-1-notes) call it the η-selection, or Higgs, sector. The natural measure of the mismatch is the anticommutator {J, I[Z]} of the polarization with the [complex structure](/wiki/phase-space/born-geometry/born-structures) built from Z, which is zero when the two are compatible; its block form is derived exactly and checked by machine. Calc note #7 reads off the blocks that the mismatch vanishes only at X = 0 with the metric pinned to a reference metric, so that the potential involves two tensors, as the potentials of [massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) do. Whether such a potential avoids the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the question of [the tuning test](/wiki/gravity/tuning-test).*
 
-**Status:** Alive — [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2; the block computation is [D — rigorous] in calc note #7 §2 — the blocks are machine-checked by battery test T3 at one sampled point ([the verification battery](/wiki/method/verification/battery)); #7's reading of their zero set, the compatible locus, is derived [D] and has no test.
+**Status:** Alive — [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2; the block computation is [D — rigorous] in calc note #7 §2 — the blocks are machine-checked by battery test T3 at one sampled point ([the verification battery](/wiki/method/verification/battery)); #7's reading of their zero set, the compatible locus, sits under the same [D — rigorous] heading and has no test.
 
 ## Why X needs a potential of this kind
 
@@ -64,7 +65,7 @@ I[Z] = [[ −Y⁻¹X     ,  −Y⁻¹ ],
         [ Y + XY⁻¹X ,  XY⁻¹ ]]
 ```
 
-"Verified" refers to battery test T2, which checks I[Z]² = −1, together with the symmetry, positivity and unit determinant of H_Z, at one sampled point (`verify/battery.py` T2, where I[Z] is computed as ω⁻¹H_Z).
+#7 does not say how the parametrization was verified. Battery test T2 checks I[Z]² = −1, together with the symmetry, positivity and unit determinant of H_Z, at one sampled point (`verify/battery.py` T2, where I[Z] is computed as ω⁻¹H_Z).
 
 ### The polarization J and the vacuum polarization J₀
 
@@ -112,7 +113,7 @@ Adding the two gives Y + XY⁻¹X − Y⁻¹ = S in both diagonal blocks and XY�
 
 > 1. **The compatible locus is X = 0 *and* Y = Y⁻¹** (i.e. g pinned to the J-frame reference metric): the Higgs sector is inevitably a *two-tensor* potential V(g, X; reference) — a massive-gravity-type potential, confirming the structural landing point of Chunk A-ii from the opposite direction.
 
-At X = 0 the off-diagonal block A = [0, Y⁻¹] vanishes and the diagonal block reduces to S = Y − Y⁻¹, which is zero when Y = Y⁻¹. In the vacuum frame the reference metric is g₀ = 1. A potential of this kind compares the metric g with a fixed reference metric, which is how the potentials of massive gravity are built: from the dynamical metric and a second, reference metric [T] ([dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity)). "Chunk A-ii" is calc note #6, whose landing point was a massive spin-2 field in the Hassan–Rosen class.
+At X = 0 the off-diagonal block A = [0, Y⁻¹] vanishes and the diagonal block reduces to S = Y − Y⁻¹, which is zero when Y = Y⁻¹. In the vacuum frame the reference metric is g₀ = 1. A potential of this kind compares the metric g with a fixed reference metric, which is how the potentials of massive gravity are built: from the dynamical metric and a second, reference metric [T] ([dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity)). "Chunk A-ii" is calc note #6, whose landing point was a massive spin-2 field in the Hassan–Rosen class. A suspected error in this reading of the zero set is recorded for a ruling in `review/wiki-build-flags.md` item 3; this page quotes #7 as written.
 
 #7's compatible locus is a different object from what #11 §6 calls "the η-compatible locus X = 0", on which H takes the block form diag(g, g⁻¹) for any g ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)). #7's condition involves the fixed vacuum polarization J₀, and in #7's reading it also pins g.
 
@@ -132,7 +133,7 @@ The other two consequences test the potential against the ghost-free family, and
 
 ## Where it leads
 
-The blocks are the input to the rest of the test: [the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures), [the frame tier](/wiki/gravity/tuning-test/frame-tier) passes, and the combined outcome is [the verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass). The mass the potential produces is set by its coefficients βₙ, which the pass did not deliver (#7 §3). After reciprocity restricts them ([the palindromic branch](/wiki/gravity/palindromic-branch)), #11 §7.5 counts two free parameters, one setting M_X and one a cubic shape ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
+The blocks are the input to the rest of the test: [the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures), [the frame tier](/wiki/gravity/tuning-test/frame-tier) passes, and the combined outcome is [the verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass). The mass the potential produces is set by its coefficients βₙ, which the pass did not deliver (#7 §3). After reciprocity and the existence of a flat vacuum restrict them ([the palindromic branch](/wiki/gravity/palindromic-branch)), #11 §7.5 counts two free parameters, one setting M_X and one a cubic shape ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
 
 ## Sources
 
@@ -145,3 +146,4 @@ The blocks are the input to the rest of the test: [the metric tier fails twice](
 - `notes/broken-born-theory.md` §2 — η in the standard basis; 'Addendum (v0.5)' — the notebook's account.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement, "(computed exactly)".
 - `HANDOFF.md` §5 — the battery summary for T3.
+- `review/wiki-build-flags.md` item 3 — the suspected error in #7's zero set, awaiting a ruling.
