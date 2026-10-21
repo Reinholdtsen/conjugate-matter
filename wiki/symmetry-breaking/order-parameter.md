@@ -49,7 +49,7 @@ The order parameter is built from the structures of Born geometry ([the structur
 I = ω⁻¹H,   J = η⁻¹H,   K = η⁻¹ω;     I² = −1,   J² = K² = +1,   IJ = K        (#11 §5)
 ```
 
-I squares to −1, so it is a complex structure, acting on phase space as multiplication by i does on complex numbers. J and K square to +1. Each such involution splits phase space into its +1 and −1 eigenspaces, which makes it a real structure [T]. The documents have written the order parameter with each of these at different times:
+I squares to −1, so it is a complex structure, acting on phase space as multiplication by i does on complex numbers. J and K square to +1. Each splits phase space into its +1 and −1 eigenspaces, here of equal dimension, which makes it a real structure [T]. The documents have written the order parameter with each of these at different times:
 
 ```text
 J = η⁻¹H               the lab notebook v0.1 (#1 §2), with η rigid          superseded
@@ -111,7 +111,7 @@ O is odd under ρ, and it is odd under the sign flip K → −K as well, which m
 
 ### Model II: the vacuum's position-versus-momentum spread
 
-The worklog's second route looked for "a field theory on phase space whose own vacuum breaks x ↔ p, with no separate K field" ('Predictions'). In the complex Grosse–Wulkenhaar model ([model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar)) the order parameter is built from the vacuum's own profile: "the order parameter is the vacuum's x-versus-p polarization, Δ(β) = ⟨x²⟩_vacuum − ⟨x²⟩_dual = Δ(0) cos β", and "It is odd under the duality: Δ(β + π) = −Δ(β)." ('Chunk 2 results'; `verify/toy_gw.py`). Here β is the relative phase of the condensate. Classically every vacuum has a definite Δ; quantum mechanically the phase β is uniformly distributed and ⟨Δ⟩ = 0, so the order parameter vanishes ([quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
+The worklog's second route looked for "a field theory on phase space whose own vacuum breaks x ↔ p, with no separate K field" ('Predictions'). In the complex Grosse–Wulkenhaar model ([model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar)) the order parameter is built from the vacuum's own profile: "the order parameter is the vacuum's x-versus-p polarization, Δ(β) = ⟨x²⟩_vacuum − ⟨x²⟩_dual = Δ(0) cos β", and "It is odd under the duality: Δ(β + π) = −Δ(β)." ('Chunk 2 results'; `verify/toy_gw.py`). Here β is the relative phase of the two condensed levels, φ₀₀ and φ₁₁. Classically every vacuum has a definite Δ; quantum mechanically the phase β is uniformly distributed and ⟨Δ⟩ = 0, so the order parameter vanishes ([quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
 
 ### Where it stands
 

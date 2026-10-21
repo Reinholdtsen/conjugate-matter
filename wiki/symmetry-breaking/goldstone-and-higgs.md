@@ -33,7 +33,7 @@ sources:
 
 When a continuous global symmetry G is spontaneously broken to a subgroup G₀, the vacuum manifold G/G₀ has one flat direction for each broken generator ([spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking)). Goldstone's theorem says that in a Lorentz-invariant field theory each of these directions carries a massless spin-0 particle [T].
 
-The reason is clearest in terms of waves. A uniform shift of the whole system along the vacuum manifold costs no energy, because it only exchanges one vacuum for another. A shift that varies slowly in space, with wavelength λ, costs only gradient energy, which falls toward zero as λ grows. The frequency of such a wave therefore goes to zero with its wavenumber k, and with Lorentz invariance the relation is ω = c|k|, the dispersion of a massless particle [T]. Spin waves in a magnet and sound waves in a crystal are the condensed-matter counterparts; without Lorentz invariance their dispersion, and sometimes their number, can differ [T].
+The reason is clearest in terms of waves. A uniform shift of the whole system along the vacuum manifold costs no energy, because it only exchanges one vacuum for another. A shift that varies slowly in space, with wavelength λ, costs only gradient energy, which falls toward zero as λ grows. The frequency of such a wave therefore goes to zero with its wavenumber k, and with Lorentz invariance the frequency is c|k|, the dispersion of a massless particle [T]. Spin waves in a magnet and sound waves in a crystal are the condensed-matter counterparts; without Lorentz invariance their dispersion, and sometimes their number, can differ [T].
 
 ### Counting with the Hessian
 

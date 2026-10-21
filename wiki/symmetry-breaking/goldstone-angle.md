@@ -29,7 +29,7 @@ sources:
   - "verify/toy_s4.py"
 ---
 
-*Born reciprocity is a quarter turn of the position–momentum plane, the operation the Fourier transform performs when it turns a waveform into its spectrum. In the program's toy models this exchange is one member of a continuous family of symmetries, so the vacuum's polarization, which fixes the direction that counts as position, is an angle that can turn smoothly rather than a switch with two settings. Turning that angle costs no energy, which makes it a Goldstone direction: the position-sharp and momentum-sharp vacua lie on one continuous family. This finding, recorded in #11 v2.2, is why a definite polarization needs an added potential on the angle. In the coset model the angle is the same circle that the program identifies with its dark-energy field τ, which shows that the structures fit together but does not test the cosmology. It is evidence from two toy models, not a theorem.*
+*The polarization as a Goldstone angle is the toy models' finding that the vacuum's polarization, which fixes the direction in the position–momentum plane that counts as position, is an angle that can turn smoothly rather than a switch with two settings. Born reciprocity is a quarter turn of that plane, the operation the Fourier transform performs when it turns a waveform into its spectrum, and in the toy models it is one member of a continuous family of symmetries. Turning the angle costs no energy, which makes it a Goldstone direction: the position-sharp and momentum-sharp vacua lie on one continuous family. This finding, recorded in #11 v2.2, is why a definite polarization needs an added potential on the angle. In the coset model the angle is the same circle that the program identifies with its dark-energy field τ, which shows that the structures fit together but does not test the cosmology. It is evidence from two toy models, not a theorem.*
 
 **Status:** Alive — [D][V] (#11 §4, P2′ refinement; #11 §10, "Toy-model support (v2.2) [D][V]") — machine-checked in the toy models (`verify/toy_coset.py`, `verify/toy_gw.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)); the link to τ is consistency only, and two worklog remarks, the drift of τ as a turning angle and continuous breaking in 3+1, are uncomputed conjectures.
 
@@ -72,7 +72,7 @@ The rotations of the phase plane also have a familiar action on wavefunctions [T
 
 ## Model II: the left phase rotations
 
-The second toy is the self-dual Grosse–Wulkenhaar model with complex fields ([model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar)), a field theory on a noncommutative plane written in its matrix base. In units where the kinetic coefficient is 1 its action is (toy-model note §3)
+The second toy is the self-dual Grosse–Wulkenhaar model with complex fields ([model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar)), a field theory on a noncommutative plane written in its [matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base). In units where the kinetic coefficient is 1 its action is (toy-model note §3)
 
 ```text
 S[φ] = Σ_mn (m + n + 1 − μ²)|φ_mn|² + λ Tr((φ†φ)²)
