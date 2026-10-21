@@ -30,7 +30,7 @@ sources:
 
 > The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V].
 
-"Overclose" means that the W′± alone would carry more energy density than the universe is observed to contain in dark matter; here by sixteen to seventeen orders of magnitude. "On its own terms" means that the exclusion uses only the sector's own content and the hot plasma its monopole production requires. It does not depend on the mistaken Kibble normalization that killed the candidate ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)), and the round-3 referee confirmed it.
+"Overclose" means that the W′± alone would carry more energy density than the universe is observed to contain in dark matter; here by sixteen to seventeen orders of magnitude. "On its own terms", as the wiki reads it, means that the sector fails through its own content and the hot plasma its monopole production requires, whether or not the monopoles are the dark matter. The numbers are evaluated at the benchmark mass that the candidate's abundance count produced, and that count was wrong ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)); the statement of exclusion is listed separately as surviving, and the round-3 referee confirmed the numbers.
 
 ## The minimal sector
 
@@ -78,7 +78,7 @@ v3 did not compute the W′⁺W′⁻ annihilation cross-section; it bracketed t
 near threshold: sigma(gg->WW)/beta = 14.9998 pi a^2/M^2 ; sigma v_rel (W+W- -> gg) = 6.6666 pi a^2/M^2
 ```
 
-Here gg denotes a pair of hidden photons, a the coupling and β the velocity. In the audit table (Step 2) the row reads:
+Here gg denotes the pair of gauge bosons (hidden photons, in the application to W′), a the coupling and beta the velocity. In the audit table (Step 2) the row reads:
 
 > W' overclosure | 1e16-1e17 (coef x10 bracket) | c=1..10: 9.4e15-1.95e17; with c=6.67 (W+W- -> gg at threshold, own detailed balance of hep-ph/9405359 eq. 5.15; scalar check gives textbook 2.000): 1.3e16-4.0e16 | CONFIRMED (bracket reasonable)
 
