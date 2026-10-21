@@ -22,6 +22,7 @@ sources:
   - "review/round3-adjudication.md 'Verdict'"
   - "review/round4-adjudication.md 'Verdict'"
   - "verify/battery.py T4, T5, T7"
+  - "verify/soliton_obituary.py"
 ---
 
 *The assessment is the checkpoint's own judgement of where the program stands, written in the terms of Imre Lakatos's account of research programmes: a hard core that is kept fixed, auxiliary claims that may be revised, and the question of whether the program keeps producing new predictions (progressive) or only accommodates its failures (degenerating). Checkpoint #11 v2.2 finds the hard core intact and sharpened twice by corrections the program's own mathematics forced. It lists the signs of progress and the risks of degeneration side by side, it names three predictions that observations could falsify soon, and it notes that the current dark-energy data already lean against one of them. Its verdict is that this is a live research program, and that the word "theory" waits on three open problems.*
@@ -91,7 +92,7 @@ The dark-energy field τ has "two parameters (f, τᵢ) for three observables (w
 - **The gate tail.** The dark-matter self-interaction has a "robust knee at v\*", but its "tail (Gaussian vs rational) diagnoses the vertex completion" (#11 §8), and no derivation yet fixes it ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
 - **Three demotions.** In each, a result the program had claimed as its own was downgraded, withdrawn or credited to earlier work:
   - §7.4: a live literature search found the interchange-symmetric bimetric potentials charted, with the partially massless (PM) point inside the palindromic branch, so the novelty of the vacuum-energy identity was "downgraded from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" ([Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison));
-  - §12: the superheavy soliton candidate was retired after round 3 found its abundance misnormalized; the v3 benchmark of 3×10¹³ GeV "is overproduced by 2.1×10³–1.2×10⁴ [V]" ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary));
+  - §12: the superheavy soliton candidate was retired after round 3 found its abundance misnormalized; the v3 benchmark of 3×10¹³ GeV "is overproduced by 2.1×10³–1.2×10⁴ [V]" (checked in `verify/soliton_obituary.py`, see [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary));
   - §5: the compatibility theorem, presented in v2.0 as derived here, is the Born-geometry statement of Freidel, Leigh and Minic, and is now tagged [T][V] ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)).
 - **DESI DR2 against w ≥ −1.** The framework requires w ≥ −1 strictly, while DR2 reports that in every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4" [21S]. #11 §10 records that the framework survives on two points: non-phantom quintessence fits remain compatible [19S], and w(z) is inferred from distances rather than observed ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)). The root `CLAUDE.md`: "The dark-energy sector is under real pressure ahead of DR3", DESI's next data release, Data Release 3.
 
@@ -149,3 +150,4 @@ v1's verdict: "The word 'theory' awaits items 1–2 of §10; the phrase 'researc
 - `notes/broken-born-program-v1.md` §10–§11 — the v1 open problems and assessment, superseded by #11 §15
 - `review/round3-adjudication.md` 'Verdict' and `review/round4-adjudication.md` 'Verdict' — the review verdicts since the handoff
 - `verify/battery.py` T4, T5, T7 — the machine checks of the tuning test and the integer identity
+- `verify/soliton_obituary.py` — the [V] numbers of the soliton obituary

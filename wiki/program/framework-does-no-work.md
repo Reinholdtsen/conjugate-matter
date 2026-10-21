@@ -23,6 +23,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
   - "papers/reciprocity-toy-models.md §5"
   - "review/round4-adjudication.md 'Rulings' F3"
+  - "verify/toy_s5.py"
   - "CLAUDE.md 'Since the handoff'"
 ---
 
@@ -81,7 +82,7 @@ The toy worklog fixed its success criteria before building anything, and split t
 
 **What was met.** #11 §14 item 11 records the criterion as "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential": ρ is a symmetry of an explicit action, and η = ωK is the order parameter; the vacuum is stable with H dynamical; and there is an ordered ℤ₂ phase in 1+1 dimensions in the frozen-H reduction (Monte Carlo).
 
-**What S5 found.** The weak form passes [V]: an interaction of matter built from H and K is local in position in the vacuum +K_ref and local in momentum in −K_ref, and for the toy-model note's test state the two vacua give 0.4070 and 0.3600 (`verify/toy_s5.py`; [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). The strong form, locality forced rather than chosen, was not achieved. In the worklog's words: "The lock is P4 (x-polarized matter, and its ρ-image, p-polarized matter)", and "It does not derive x-locality from nothing" (toy worklog, 'Chunk 4'). The note: "Locality in the selected Lagrangian therefore follows from the vacuum once matter couples this way, as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given. Nothing here forces that coupling" (toy-model note §5). The round-4 review added the [twisted element](/wiki/symmetry-breaking/twisted-element): without a coupling odd in K, the vacuum keeps a symmetry that acts on H exactly as ρ does, so the coupling is what gives the breaking physical content; the adjudication says this "sharpens the S5 conclusion rather than contradicting it" (`review/round4-adjudication.md`, F3).
+**What S5 found.** The weak form passes [V]: an interaction of matter built from H and K is local in position in the vacuum +K_ref and local in momentum in −K_ref, and for the toy-model note's test state the two vacua give 0.4070 and 0.3600 (`verify/toy_s5.py`, see [the toy-model scripts](/wiki/method/verification/toy-model-scripts); [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). The strong form, locality forced rather than chosen, was not achieved. In the worklog's words: "The lock is P4 (x-polarized matter, and its ρ-image, p-polarized matter)", and "It does not derive x-locality from nothing" (toy worklog, 'Chunk 4'). The note: "Locality in the selected Lagrangian therefore follows from the vacuum once matter couples this way, as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given. Nothing here forces that coupling" (toy-model note §5). The round-4 review added the [twisted element](/wiki/symmetry-breaking/twisted-element): without a coupling odd in K, the vacuum keeps a symmetry that acts on H exactly as ρ does, so the coupling is what gives the breaking physical content; the adjudication says this "sharpens the S5 conclusion rather than contradicting it" (`review/round4-adjudication.md`, F3).
 
 **The verdict.** The worklog's assessment scored the forecast a hit: "Criterion 1 as worded is now met (coset + τ potential). The round-3 critique is only partly answered." Its verdict paragraph: "The round-3 critique ('the framework does no work') is only partly answered. The toy makes the program's structures cohere (η as order parameter; τ as the polarization angle), but matter's x-locality still enters through the P4-type coupling." The worklog wrote this before round 4, when its potential was the "τ-type" form later found unbounded below ([its obituary](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)); #11 §14 item 11 gives the current statement, with the bounded potential.
 
@@ -102,4 +103,5 @@ The toy worklog fixed its success criteria before building anything, and split t
 - `papers/broken-born-checkpoint-v2.md` §12 — the soliton verdict; §14 item 11 — what the toy models meet and what stays open
 - `papers/reciprocity-toy-models.md` §5 — "Nothing here forces that coupling"
 - `review/round4-adjudication.md` 'Rulings' F3 — the twisted element
+- `verify/toy_s5.py` — the machine check of the weak form of S5
 - `CLAUDE.md` 'Since the handoff' — "merely compatible", "done to the referees' wording", and the optional round 5

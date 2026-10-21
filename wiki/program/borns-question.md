@@ -13,6 +13,7 @@ sources:
   - "notes/toy-lagrangian.md 'Success criteria'"
   - "notes/toy-lagrangian.md 'Chunk 4'"
   - "review/round3/referee/audit-notes.md Step 1"
+  - "verify/toy_s5.py"
   - "popsci/universes-other-half.md 'Two descriptions of one thing'"
   - "popsci/angle-of-the-mirror.md opening paragraphs"
 ---
@@ -91,7 +92,7 @@ The lineage, and the soccer-ball problem it raises, are on [curved momentum spac
 
 The program's answer is its [hard core](/wiki/program/hard-core): "The program: ρ is exact and spontaneously broken" (#11 §3). The asymmetry would then belong to the vacuum, not to the laws, as a magnet's direction belongs to its state and not to the laws governing its atoms. Some breaking is claimed to be unavoidable, because "[x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization" (#11 §3; [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking)), and postulate [P5](/wiki/program/postulates/p5-spontaneous-selection) says our vacuum is the position-tilted one. On the flat fibers the program gives [Born's answer](/wiki/gravity/momentum-graviton/borns-answer): momentum-space geometry is dynamical, carried by a massive, reciprocity-odd spin-2 field.
 
-How far the answer reaches is recorded in the toy models. A coupling of matter to the order parameter makes interactions local in x in one vacuum and local in p in its mirror, which passes criterion S5 in its weak form [V] ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). Nothing in the models forces that coupling. The worklog's conclusion: "the program's explanation of 'forces fade with distance' amounts to this: our matter is the x-polarized species", and "It does not derive x-locality from nothing" (toy worklog, 'Chunk 4'). Deriving it is [open](/wiki/symmetry-breaking/strong-locality).
+How far the answer reaches is recorded in the toy models. A coupling of matter to the order parameter makes interactions local in x in one vacuum and local in p in its mirror, which passes criterion S5 in its weak form [V] ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling); checked in `verify/toy_s5.py`, see [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Nothing in the models forces that coupling. The worklog's conclusion: "the program's explanation of 'forces fade with distance' amounts to this: our matter is the x-polarized species", and "It does not derive x-locality from nothing" (toy worklog, 'Chunk 4'). Deriving it is [open](/wiki/symmetry-breaking/strong-locality).
 
 ## Used by
 
@@ -111,5 +112,6 @@ How far the answer reaches is recorded in the toy models. A coupling of matter t
 - `papers/reciprocity-toy-models.md` §1 — ρ as a symplectic matrix squaring to −1; the Langmann–Szabo duality and the Grosse–Wulkenhaar model
 - `notes/toy-lagrangian.md` 'Success criteria', 'Chunk 4' — criterion S5, which ties the locality asymmetry to the vacuum, and its outcome
 - `review/round3/referee/audit-notes.md` Step 1 — the check of the Born citations
+- `verify/toy_s5.py` — the machine check of the weak form of S5
 - `popsci/universes-other-half.md` 'Two descriptions of one thing' — the waveform–spectrum picture and the one-direction observation (popular article; not a status source)
 - `popsci/angle-of-the-mirror.md` opening paragraphs — Born's question as the program's starting point; "eighty-eight years in a drawer" (popular article)
