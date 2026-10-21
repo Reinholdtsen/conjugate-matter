@@ -20,7 +20,7 @@ sources:
   - "notes/debt1a-iv-beta-coefficients.md §3"
 ---
 
-*Partially massless gravity is a spin-2 field on de Sitter space, the spacetime of a universe expanding at a constant rate under a positive cosmological constant, whose mass takes the one value at which an extra gauge symmetry appears and removes the field's helicity-0 polarization [T]. That value is the edge of the Higuchi bound, below which a massive spin-2 field on de Sitter space carries a ghost. Bimetric gravity has a parameter point, studied as partially massless bimetric gravity, at which the theory has de Sitter solutions in which the two metrics are proportional, with a ratio that the equations leave undetermined, and its potential is symmetric under exchange of the two metrics. The point matters to the program because at α = 1, which in the literature's usual notation means equal Planck masses for the two metrics, it lies inside the [palindromic branch](/wiki/gravity/palindromic-branch) that reciprocity selects. That raises the open question whether reciprocity is the origin of the partially massless symmetry, and it means the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) must be compared with this literature before it can be called new.*
+*Partially massless gravity is a spin-2 field on de Sitter space, the spacetime of a universe expanding at a constant rate under a positive cosmological constant, whose mass takes the one value at which an extra gauge symmetry appears and removes the field's helicity-0 polarization [T]. That value is the edge of the [Higuchi bound](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound), below which a massive spin-2 field on de Sitter space carries a ghost. [Bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has a parameter point, studied as partially massless bimetric gravity, at which the theory has de Sitter solutions in which the two metrics are proportional, with a ratio that the equations leave undetermined, and its potential is symmetric under exchange of the two metrics. The point matters to the program because at α = 1, which in the literature's usual notation means equal Planck masses for the two metrics, it lies inside the [palindromic branch](/wiki/gravity/palindromic-branch) that reciprocity selects. That raises the open question whether reciprocity is the origin of the partially massless symmetry, and it means the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) must be compared with this literature before it can be called new.*
 
 **Status:** Established — [T] — the linear theory is standard, and the bimetric parameter point is cited in the [checkpoint](/wiki/history/documents/checkpoint) as [24S], retrieved by live search. Its relation to the program is open: whether reciprocity is the origin of the partially massless symmetry is [O], part of open problem 2 of #11 §14, [the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison).
 
@@ -28,11 +28,11 @@ sources:
 
 ### De Sitter space
 
-De Sitter space is the maximally symmetric spacetime with a positive cosmological constant Λ: an expanding universe whose Hubble rate H stays constant [T]. The two are related by Λ = 3H², the relation the round-3 audit uses to convert Higuchi's bound below (`review/round3/referee/audit-notes.md`, Step 1).
+De Sitter space is the maximally symmetric spacetime with a positive cosmological constant Λ: an expanding universe whose Hubble rate H stays constant [T]. The two are related by Λ = 3H², the relation [the round-3 audit](/wiki/method/review/round-3/rulings) uses to convert Higuchi's bound below (`review/round3/referee/audit-notes.md`, Step 1).
 
 ### Five polarizations
 
-A massive spin-2 field in four dimensions has five polarizations — calc note #6 counts "its five polarizations" for the momentum graviton X (#6 §3) — with helicities ±2, ±1 and 0 [T]. A massless graviton keeps only the helicity ±2 pair; its gauge symmetry, linearized diffeomorphisms, removes the others [T] ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity)).
+A massive spin-2 field in four dimensions has five polarizations — [calc note #6](/wiki/history/documents/debt-1-notes) counts "its five polarizations" for the [momentum graviton X](/wiki/gravity/momentum-graviton) (#6 §3) — with helicities ±2, ±1 and 0 [T]. A massless graviton keeps only the helicity ±2 pair; its gauge symmetry, linearized diffeomorphisms, removes the others [T] ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity)).
 
 ### The Higuchi bound
 
@@ -72,7 +72,7 @@ The checkpoint states the point from the partially massless bimetric literature 
 
 In its words, "the PM point β₀ = 3α⁻²β₂, β₁ = β₃ = 0, β₄ = 3α²β₂ makes the potential g↔f symmetric, with proportional de Sitter solutions of undetermined ratio [24S]" (#11 §7.4). PM stands for partially massless. The undetermined ratio is the constant c: at this point the field equations do not fix it.
 
-The checkpoint does not define α or c. In the bimetric literature's usual notation α is the ratio of the two Planck masses, M_f/M_g, and c is the constant in f = c²g [T]; the wiki reads #11 with that notation. The round-3 audit's quotation from a bimetric paper uses α in a way consistent with this reading: "the alpha->0 limit" holds "as long as ... M_f is sufficiently small" (audit notes, Step 1; see [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-heavy-spin-2-regime)). The program's documents do not discuss how far the extra gauge symmetry extends beyond the linear theory, a question studied in the partially massless literature [T].
+The checkpoint does not define α or c. In the bimetric literature's usual notation α is the ratio of the two Planck masses, M_f/M_g, and c is the constant in f = c²g [T]; the wiki reads #11 with that notation. The round-3 audit's quotation from a bimetric paper uses α in a way consistent with this reading: "the alpha->0 limit brings bimetric theory arbitrarily close to GR [general relativity]", and heavy spin-2 fields are "not excluded as long as ... M_f is sufficiently small" (audit notes, Step 1; see [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-heavy-spin-2-regime)). The program's documents do not discuss how far the extra gauge symmetry extends beyond the linear theory, a question studied in the partially massless literature [T].
 
 The reference, as the checkpoint lists it:
 
@@ -84,7 +84,7 @@ The checkpoint gives this descriptive title and no authors, and the [handoff](/w
 
 ### The branch
 
-The program's frame-tier potential is a Hassan–Rosen potential whose coefficients reciprocity restricts to βₙ = β₄₋ₙ: β₀ = β₄ and β₁ = β₃, with β₂ free ([#8](/wiki/history/documents/debt-1-notes) §1; [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)).
+The program's [frame-tier](/wiki/gravity/tuning-test/frame-tier) potential is a Hassan–Rosen potential whose coefficients reciprocity restricts to βₙ = β₄₋ₙ: β₀ = β₄ and β₁ = β₃, with β₂ free ([#8](/wiki/history/documents/debt-1-notes) §1; [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)).
 
 ### At α = 1
 
@@ -96,7 +96,7 @@ On the literature's reading of α, α = 1 means equal Planck masses. Calc note #
 
 The program's vacuum-energy identity selects its own point of the branch. "Note the PM point sits at Λ ≠ 0 with c undetermined; our flat-aligned-vacuum identity selects a *different* point of the same branch (β₁ ≠ 0 generically, β₀ = −4β₁ − 3β₂)" (#11 §7.4). The identity concerns a flat vacuum at the aligned point, where the two frames coincide; the partially massless point concerns de Sitter backgrounds with c left free. See [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 
-## The comparison the program owes
+## The open comparison
 
 The literature check that found this point downgraded the identity's novelty. The handoff's one-screen state records that the partially massless bimetric point "(arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still owed." (HANDOFF §2). The checkpoint downgraded the novelty claim "from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" (#11 §7.4). Hossenfelder's theory, reference [25S] of the checkpoint, cancels vacuum energy by a different mechanism, "where twin-sector source terms cancel identically"; the program's identity "is sector-internal (no twin matter required) and, to our current knowledge, distinct" (#11 §7.4).
 
@@ -111,7 +111,7 @@ The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed 
 
 ## Used by
 
-- [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the owed comparison with this point.
+- [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the comparison with this point, still to be made.
 - [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — the branch that contains this point at α = 1.
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — selects a different point of the same branch.
 - [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology) — the Higuchi bound, at whose edge this field sits.
@@ -122,7 +122,7 @@ The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed 
 - `papers/broken-born-checkpoint-v2.md` §14 item 2, refs [24], [25] — the open comparison; the citations, marked [S].
 - `HANDOFF.md` §2, §8 — the literature check that downgraded the identity's novelty; the three comparisons in queue item 5.
 - `CLAUDE.md` 'Since the handoff' — the comparison in item 1 of the current queue.
-- `notes/knot-dark-matter-standalone.md` §1, ref [6] — the Higuchi bound and its citation (manuscript withdrawn for unrelated arithmetic).
+- `notes/knot-dark-matter-standalone.md` §1, ref [6] — the Higuchi bound and its citation (manuscript withdrawn for an unrelated error: its Kibble estimate of the relic abundance had been normalized too low).
 - `review/round3/referee/audit-notes.md` Step 1 — Higuchi's abstract and the conversion with Λ = 3H².
 - `notes/debt1a-ii-X-classification.md` §3 — the five polarizations of a massive spin-2 field.
 - `notes/debt1a-iv-beta-coefficients.md` §1, §3 — the palindromic constraint; equal effective Planck masses forced by reciprocity.
