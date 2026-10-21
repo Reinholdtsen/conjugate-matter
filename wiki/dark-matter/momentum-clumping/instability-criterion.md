@@ -18,7 +18,7 @@ sources:
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
 ---
 
-*The mean-field criterion is the condition under which a gas of dark-matter particles with the gated attraction would break up into velocity streams on its own: the attraction energy among particles that share a velocity has to match the kinetic energy of their random motion. Debt 3 derived it in two limits of the [gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) and evaluated it at the scattering benchmark, where the coupling is already fixed by fitting the cores of dwarf galaxies. There the attraction falls short by a factor of about 10²⁸ in dwarf-galaxy cores and 10³¹ in the Milky Way's halo near the Sun. Collisions cannot make up the difference, because they only drive the gas toward a smooth thermal distribution. The result rules out [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image) for particle dark matter, and the result itself stands.*
+*The mean-field criterion is the condition under which a gas of dark-matter particles with the gated attraction would break up into velocity streams on its own: the attraction energy among particles that share a velocity has to match the kinetic energy of their random motion. Debt 3 derived it in two limits of the [gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) and evaluated it at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is already fixed by fitting the cores of dwarf galaxies. There the attraction falls short by a factor of about 10²⁸ in dwarf-galaxy cores and 10³¹ in the Milky Way's halo near the Sun. Collisions cannot make up the difference, because they only drive the gas toward a smooth thermal distribution. The result rules out [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image) for particle dark matter, and the result itself stands.*
 
 **Status:** Alive — [D] (#11 §9 (i)), derived in `notes/debt3a-stream-stability.md`. Mean-field only: the general eigenvalue problem is bracketed by two limits, not solved, and the threshold algebra is named but not printed. Not machine-checked: no `verify/` script covers any Debt-3 number, although the handoff marks the shortfall ✓ (see [the verification record](#verification-record)).
 
@@ -42,7 +42,7 @@ g n/(m σ²) ≥ 1,   i.e.   ε_int ≡ g n ≥ mσ²
 
 g n is the attraction energy per particle in a gas of number density n, and mσ² is the kinetic energy of the random motion per particle, up to a factor of order one. The note does not print the algebra. In the textbook treatment of a Maxwellian gas with a momentum-independent attraction, the stability boundary is the static mode ω = 0, at which the attraction energy per particle equals mσ²; for gravity this gives the Jeans criterion, and for a contact attraction it gives the form above [T] ([the static threshold](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)).
 
-Below threshold: "Landau-damped, stable." A ripple in the velocity distribution decays by phase mixing, without collisions. 3a adds: "There is no race with orbital stirring below threshold — the flocking never starts." That sentence retired the lab notebook's plan to compare the growth rate of streams with orbital phase mixing ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model#superseded-racing-stream-growth-against-orbital-stirring)).
+Below threshold: "Landau-damped, stable." A ripple in the velocity distribution decays by phase mixing, without collisions. 3a adds: "There is no race with orbital stirring below threshold — the flocking never starts." That sentence retired the [lab notebook](/wiki/history/documents/lab-notebook)'s plan to compare the growth rate of streams with orbital phase mixing ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model#superseded-racing-stream-growth-against-orbital-stirring)).
 
 ## The narrow-gate threshold
 
@@ -63,7 +63,7 @@ The co-mover density is a small fraction of n when v\* ≪ σ. As a reading, not
 
 ## The unified criterion
 
-3a merges the two limits: "Unified criterion: ε_gate ≳ m·min(σ, v\*)²". The smaller of σ and v\* sets the kinetic-energy scale. In a cold system (σ < v\*), the whole velocity distribution lies inside the gate and the broad-gate threshold applies. In a hot system (σ > v\*), only co-movers count and the narrow-gate threshold applies. #11 §9 writes the criterion with n_gate, g·n_gate ≥ m·min(σ,v\*)², and #9 §7 does the same.
+3a merges the two limits: "Unified criterion: ε_gate ≳ m·min(σ, v\*)²". The smaller of σ and v\* sets the kinetic-energy scale. When σ is well below v\*, the whole velocity distribution lies inside the gate, as in the broad-gate limit; when σ is well above v\*, only co-movers count, as in the narrow-gate limit. The minimum joins the two cases; the intermediate regime is not solved. #11 §9 writes the criterion with n_gate, g·n_gate ≥ m·min(σ,v\*)², and #9 §7 does the same.
 
 ## Numbers at the scattering benchmark
 

@@ -14,6 +14,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §2"
   - "review/round3-adjudication.md 'Decisions'"
   - "notes/broken-born-theory.md §5.2"
+  - "notes/broken-born-theory.md §5.1"
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md §10"
   - "notes/broken-born-theory.md §11 item 3"
@@ -28,15 +29,15 @@ sources:
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
 ---
 
-*Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The lab notebook described it as the Jeans problem, the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The program's own Debt-3 calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics and stays dead.*
+*Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The program's own Debt-3 calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics and stays dead.*
 
-**Status:** Dead — killed by Debt 3: [D] on the particle island and [D + T] on the wave island (#11 §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and the handoff lists it under "Dead (killed by own calculations — keep dead)". No `verify/` script checks any Debt-3 number. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — killed by [Debt 3](/wiki/history/debts): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) (#11 §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and the handoff lists it under "Dead (killed by own calculations — keep dead)". No `verify/` script checks any Debt-3 number. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
 ### The picture
 
-The program began from P.R.'s supposition that "Matter clumps in momentum space" (#11 App. A, item 3). In the program's terms, dark matter is [conjugate matter](/wiki/dark-matter/conjugate-matter), matter polarized toward momentum, and its own force "operates only between particles moving at nearly the same velocity — a gate in relative speed" (#11 §8, plain-language passage). If like attracts like in velocity, the expectation was that dark matter would gather in velocity rather than in position. The popular article #10 states the image as "dark matter as invisible flocks, clumping not in space but in *speed*" (`popsci/angle-of-the-mirror.md`, 'The wager').
+The program began from P.R.'s supposition that "Matter clumps in momentum space" (#11 App. A, item 3). In the program's terms, dark matter is [conjugate matter](/wiki/dark-matter/conjugate-matter), matter polarized toward momentum, and its own force "operates only between particles moving at nearly the same velocity — a gate in relative speed" (#11 §8, plain-language passage). With an attraction that acts only between particles of similar velocity, the expectation was that dark matter would gather in velocity rather than in position. The popular article #10 states the image as "dark matter as invisible flocks, clumping not in space but in *speed*" (`popsci/angle-of-the-mirror.md`, 'The wager').
 
 The lab notebook made this a mean-field claim in §5.2, titled "Collective behavior: clumping in momentum space" and tagged "[D at mean-field level; O beyond]". Its starting point is the energy of one particle in the gas:
 
@@ -52,7 +53,7 @@ The claim proper:
 
 > For attractive U with momentum range μ, the collisionless Boltzmann equation with this mean field is the Jeans problem *with the roles of x and v exchanged*: a smooth Maxwellian f(v) is unstable to fragmentation into **discrete velocity streams of width Δv ~ v\***, each spatially delocalized and internally coherent across kiloparsecs.
 
-In the ordinary Jeans problem, self-gravity acts between particles close in position, and a uniform gas longer than the Jeans length collapses into lumps in space ([the Jeans instability](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)) [T]. The notebook's exchanged problem has the attraction acting between particles close in velocity, within the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of width v\*, and expects lumps in velocity: streams spread through space, each with a narrow spread of velocities around its own mean.
+In the ordinary Jeans problem, self-gravity acts between particles close in position, and in a uniform gas, perturbations longer than the Jeans length grow into lumps in space ([the Jeans instability](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)) [T]. The notebook's exchanged problem has the attraction acting between particles close in velocity, within the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of width v\*, and expects lumps in velocity: streams spread through space, each with a narrow spread of velocities around its own mean.
 
 ### The analogy with superconductivity
 
@@ -60,9 +61,9 @@ The notebook continued: "The BCS analogy is exact in structure: a momentum-gated
 
 ### What it was meant to explain
 
-The notebook drew two consequences: "superfluid-like cores in dwarfs and **suppressed dynamical friction** inside them (the Fornax globular-cluster timing problem is a feature, not a bug)". In its prediction table (`notes/broken-born-theory.md` §9) these became two rows:
+The notebook drew two consequences: "superfluid-like cores in dwarfs and **suppressed dynamical friction** inside them (the Fornax globular-cluster timing problem is a feature, not a bug)". In its [prediction table](/wiki/predictions/table-history) (`notes/broken-born-theory.md` §9) these became two rows:
 
-- **Row 3**, velocity-space granularity: "Fragmentation into O(10) macro-streams of width ~v\*, coherent over kpc", visible in the perturbations of cold stellar streams ([old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity));
+- **Row 3**, velocity-space granularity: "Fragmentation into O(10) macro-streams of width ~v\*, coherent over kpc", visible in the perturbations of cold [stellar streams](/wiki/dark-matter/halo-astrophysics/halo-substructure) ([old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity));
 - **Row 4**, friction in dwarf cores: "Suppressed in condensed cores; Fornax GCs stay put", with GCs the globular clusters ([old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction)).
 
 Row 3 was one of the notebook's three "flagship discriminants". Its parameter count credited the two conjugate-matter parameters with "stream granularity scale, friction suppression" among the phenomena covered (§10). The checkpoint's abstract calls velocity clumping the program's "most cherished consequence" (#11 §1).
@@ -74,8 +75,8 @@ The notebook left one step undone and said so: "The growth rate γ versus orbita
 That calculation became Debt 3, one of the [three debts](/wiki/history/debts) the program owed, and three short calc notes paid it ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)):
 
 1. `notes/debt3a-stream-stability.md` built [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model), the notebook's mean-field picture made explicit with a Gaussian gate and a contact interaction, and computed its stability threshold with standard [Vlasov stability theory](/wiki/dark-matter/momentum-clumping/vlasov-stability). Result: "negative on the particle island, with a structural corollary."
-2. `notes/debt3b-wave-island.md` followed the corollary to very light, wave-like dark matter and computed the gated condensation rate there. Result: "rate derived, environments evaluated, verdict reached."
-3. `notes/debt3c-ufd-endpoint.md` followed the one case in which clumping was mandatory to its endpoint in the faintest galaxies. Result: "Scenario A falsified; Debt 3 closed."
+2. `notes/debt3b-wave-island.md` followed the corollary to very light, wave-like dark matter and computed the gated [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) there. Result: "rate derived, environments evaluated, verdict reached."
+3. `notes/debt3c-ufd-endpoint.md` followed the one case in which clumping was mandatory, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), to its endpoint in the faintest galaxies. Result: "Scenario A falsified; Debt 3 closed."
 
 ## Why it failed
 
@@ -87,13 +88,13 @@ The checkpoint's summary: "Mean-field criterion g·n_gate ≥ m·min(σ,v\*)² f
 
 ### The corollary: collective behaviour requires a wave [D]
 
-Meeting the criterion at fixed cross-section per mass "forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9 (i)): at such masses about 10²⁰ quanta share each quantum state, and dark matter is a classical wave, not a gas of particles. This is [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem). The notebook's picture was a picture of particles; for particles the instability does not exist.
+Meeting the criterion at fixed cross-section per mass "forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9 (i)): at such masses about 10²⁰ quanta share each quantum state, and dark matter is a classical wave, not a gas of particles. This is [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem). The notebook's χ was a classical particle, at a benchmark mass of about 70 MeV (`notes/broken-born-theory.md` §5.1); for classical particles the instability does not occur.
 
 ### Waves: fatal where mandatory [D + T]
 
 On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated attraction can condense the wave field into narrow ranges of momentum, at a rate [Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate). Whether that makes streams depends on what fixes the coupling (3b, 'What pins g? Two scenarios'):
 
-- **Scenario A**, the gated channel also makes the dwarf cores. Then the coupling is fixed, and condensation outruns orbital stirring only in ultra-faint dwarf galaxies, where it is mandatory. Because the attraction makes the condensate collapse above a critical mass, the endpoint is a cycle of collapses that ejects dark matter from the galaxy. #11 §9 (ii): the endpoint "drains the halo — **falsified** by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Segue 1, the test case, is dense and old ([Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
+- **Scenario A**, the gated channel also makes the dwarf cores. Then the coupling is fixed, and condensation outruns orbital stirring only in [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where it is mandatory. Because the attraction makes the condensate collapse above a critical mass, the endpoint is a cycle of collapses that ejects dark matter from the galaxy. #11 §9 (ii): the endpoint "drains the halo — **falsified** by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Segue 1, the test case, is dense and old ([Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
 - **Scenario B**, the cores come from elsewhere and the coupling is free. Then "streams are tunable across ~10 orders: optional, never required" (#11 §9 (ii); [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
 
 ### The verdict
@@ -104,11 +105,11 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 
 #11 §9: "Salvage: the **island discriminant** (knee shape: sharp cutoff ⇒ particle χ; (v\*/σ)⁴ ⇒ wave χ) and free relic abundance via misalignment on the wave island".
 
-- **[The island discriminant](/wiki/predictions/island-discriminant)**, now row 3 of the predictions table. The sharpness of the knee in the self-interaction cross-section would tell particle dark matter from wave dark matter. #11 §13 lists it as "(not previously posed)".
+- **[The island discriminant](/wiki/predictions/island-discriminant)**, now row 3 of the predictions table. The sharpness of the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) in the self-interaction cross-section would tell particle dark matter from wave dark matter. #11 §13 lists it as "(not previously posed)".
 - **[Relic abundance by misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)** on the wave island, which removes the notebook's relic-abundance problem there.
 - **The loophole.** Debt 3 tested collective dynamics only. #11 App. A item 3 records: "**loophole**: topological p-localization of individual solitons untested, and its candidate is retired (§12)". The candidate was the superheavy soliton, whose [obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) is in the candidates section; the loophole now "remains untested, but has no candidate" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
-The program kept the result prominent. The round-3 adjudication cites it as the precedent for retiring the soliton candidate: "The program's precedent is the Debt 3 obituary: a dead claim is reported prominently and stays dead." (`review/round3-adjudication.md`, 'Decisions'). The checkpoint ranks such results highest among its novel claims: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them" (#11 §2; [negative results](/wiki/method/negative-results)).
+The program kept the result prominent. The round-3 adjudication cites it as the precedent for retiring the soliton candidate: "The program's precedent is the Debt 3 obituary: a dead claim is reported prominently and stays dead." (`review/round3-adjudication.md`, 'Decisions'). The checkpoint counts such results as the most reliable of its novel, Tier-3 claims: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them" (#11 §2; [negative results](/wiki/method/negative-results)).
 
 ## Where the records differ
 
@@ -123,7 +124,7 @@ The program kept the result prominent. The round-3 adjudication cites it as the 
 - `notes/debt3a-stream-stability.md` 'Numbers at the scattering benchmark', 'Corollary (the classicality theorem)' — the particle-island test
 - `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — the wave-island scenarios
 - `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the falsification and the permanent withdrawal of rows 3–4
-- `notes/broken-born-theory.md` §5.2 — the original claim; §9 — rows 3–4 and the flagship discriminants; §10 — the parameter count; §11 item 3 — the open problem; 'Addendum (v0.2)' — the notebook's record of the death
+- `notes/broken-born-theory.md` §5.2 — the original claim; §5.1 — the benchmark mass; §9 — rows 3–4 and the flagship discriminants; §10 — the parameter count; §11 item 3 — the open problem; 'Addendum (v0.2)' — the notebook's record of the death
 - `notes/broken-born-program-v1.md` §7 — the first consolidation's obituary
 - `HANDOFF.md` §2 — "keep dead", and the unbacked ✓
 - `popsci/angle-of-the-mirror.md` 'The wager', 'The killing fields' — the popular image and retelling (not a status source)

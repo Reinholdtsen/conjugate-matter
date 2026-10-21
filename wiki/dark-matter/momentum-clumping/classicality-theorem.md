@@ -31,13 +31,13 @@ sources:
 
 > By the time the coupling is strong enough for collective behavior, the sector is deep in the wave regime. Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework. This is a theorem-grade statement at mean-field level, not a benchmark accident.
 
-#11 §9 (i), tagged [D]: "**Classicality theorem:** satisfying the criterion at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰ — collective momentum-space behavior and classical particles are mutually exclusive." The lab notebook's addendum puts it in one line: "collective momentum-space behavior requires N_occ ≫ 1 — it exists only for wave dark matter" (`notes/broken-born-theory.md`, 'Addendum (v0.2)').
+#11 §9 (i), tagged [D]: "**Classicality theorem:** satisfying the criterion at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰ — collective momentum-space behavior and classical particles are mutually exclusive." The [lab notebook](/wiki/history/documents/lab-notebook)'s addendum puts it in one line: "collective momentum-space behavior requires N_occ ≫ 1 — it exists only for wave dark matter" (`notes/broken-born-theory.md`, 'Addendum (v0.2)').
 
 "Theorem" and "theorem-grade" are the sources' words. The argument is a scaling argument at mean-field level, and its premises are listed under [Scope](#scope).
 
 ## The argument
 
-The argument has three steps: how the stream criterion depends on the particle mass when the scattering strength is held fixed; the mass at which the criterion is met; and the occupation number at that mass.
+The argument has three steps: how the stream criterion depends on the particle mass when the scattering strength is held fixed; the mass at which the criterion is met; and the [occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number) at that mass.
 
 ### Step 1: the criterion grows as the mass falls
 
@@ -64,7 +64,7 @@ At the benchmark mass m_χ = 70 MeV the criterion falls short by 10²⁸–10³�
 
 ### Step 3: the occupation number at that mass
 
-The [occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number) counts how many particles share one quantum state: the number of particles in a cube one de Broglie wavelength on a side. 3a: "At that mass the per-mode occupation is"
+The occupation number counts how many particles share one quantum state: the number of particles in a cube one de Broglie wavelength on a side. 3a: "At that mass the per-mode occupation is"
 
 ```text
 N_occ = n λ_dB³ = ρ/(m⁴σ³) ~ 10²⁰ ≫ 1
@@ -76,7 +76,7 @@ When N_occ ≫ 1, the particles are described as a classical wave field, in the 
 
 ### The conclusion
 
-The criterion can be met only by lowering m at fixed S, and lowering m drives N_occ up as m⁻⁴, faster than the criterion's m^{−5/2}. By the time the criterion reaches 1, the dark matter is a wave with about 10²⁰ quanta per state. The particle picture and collective velocity-space dynamics therefore never meet within the framework at mean-field level. This is why 3a calls the result "not a benchmark accident": the conclusion follows from how the two quantities scale with m, not from the particular numbers of the benchmark.
+The criterion can be met only by lowering m at fixed S, and lowering m drives N_occ up as m⁻⁴, faster than the criterion's m^{−5/2}. By the time the criterion reaches 1, the dark matter is a wave with about 10²⁰ quanta per state. The particle picture and collective velocity-space dynamics therefore never meet within the framework at mean-field level. This is the sense of 3a's "not a benchmark accident": the only route to the threshold at fixed S runs through lower masses, which raise N_occ faster than they raise the criterion. The size of the margin, N_occ ~ 10²⁰ at m_crit, is computed for Milky Way conditions at the benchmark value of S.
 
 ## The particle island
 
@@ -84,7 +84,7 @@ The theorem splits the mass range in two. The particle island is the classical s
 
 > **Particle island** (m_χ ~ MeV–GeV): Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional. Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them. On this island BBT is cliff-shaped SIDM plus Maslov quintessence.
 
-Here BBT is the Broken-Born framework and SIDM is [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). The rows are those of the lab notebook's prediction table. Rows 1 and 2, the velocity dependence of the scattering cross-section and the isotropy of scattering inside the gate, are about two-body collisions, which need no collective instability; that is the sense of "they are collisional". Rows 3 and 4 needed the instability and are withdrawn: [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), condensed cores and Fornax friction suppression. "Maslov quintessence" is the program's dark-energy field ([τ quintessence](/wiki/cosmology/dark-energy/tau-quintessence)).
+Here BBT is the Broken-Born framework and SIDM is [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). The rows are those of the lab notebook's [prediction table](/wiki/predictions/table-history). Rows 1 and 2, the velocity dependence of the scattering cross-section and the isotropy of scattering inside the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), are about two-body collisions, which need no collective instability; that is the sense of "they are collisional". Rows 3 and 4 needed the instability and are withdrawn: [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), condensed cores and Fornax friction suppression. "Maslov quintessence" is the program's dark-energy field ([τ quintessence](/wiki/cosmology/dark-energy/tau-quintessence)).
 
 3b's standing result after the first two notes: "Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional." (3b, 'Standing results after Chunks A+B'). 3c lists the same pair among the survivors: "the exponential cliff + in-gate isotropy (particle island)".
 
@@ -99,7 +99,7 @@ The island's upper edge is written differently in the three notes: "m_χ ≲ meV
 ## Scope
 
 - **Mean-field level.** The theorem rests on the mean-field criterion, which is itself bracketed by two limits rather than solved in general ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)).
-- **Fixed σ₀/m.** The scaling holds the cross-section per unit mass at its dwarf-core value; #11 §9 states the premise as "at fixed σ₀/m". On the wave island, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) leaves the coupling free instead, and the question there becomes a condensation rate, not this criterion.
+- **Fixed σ₀/m.** The scaling holds the cross-section per unit mass at its dwarf-core value; #11 §9 states the premise as "at fixed σ₀/m". On the wave island the question becomes a [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) instead of this criterion, and under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) the coupling is free instead of fixed.
 - **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV.
 - **Two normalizations of N_occ.** 3a writes N_occ = ρ/(m⁴σ³), and 3b's Setup does the same, but 3b's rate formula uses a "peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³)". The notes do not reconcile the two; at 10²⁰ ≫ 1 the factor does not affect the conclusion.
 

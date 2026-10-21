@@ -27,7 +27,7 @@ When each particle feels a force made up of small contributions from very many o
 
 For a gas held together by its own gravity, ε = p²/2m + mΦ(x), with Φ fixed by Poisson's equation ∇²Φ = 4πGρ, and the equation takes its familiar stellar-dynamics form ∂f/∂t + v·∇ₓf − m∇ₓΦ·∇ₚf = 0 [T]. The equation is nonlinear, because the mean field inside ε is itself computed from f.
 
-In the usual cases, gravity and electrostatics, the mean field depends only on position, so ∇ₚε = p/m is the ordinary velocity. Debt 3 works in the "Nonrelativistic mean-field (Vlasov) limit of the gated interaction" (`notes/debt3a-stream-stability.md`, Setup), where the mean field also depends on momentum: a particle is attracted only by neighbours moving at nearly its own velocity. Then ∇ₚε contains an extra term, the "anomalous velocity" of the lab notebook (`notes/broken-born-theory.md` §5.2). That model is on [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) page.
+In the usual cases, gravity and electrostatics, the mean field depends only on position, so ∇ₚε = p/m is the ordinary velocity. Debt 3 works in the "Nonrelativistic mean-field (Vlasov) limit of the gated interaction" (`notes/debt3a-stream-stability.md`, Setup), where the mean field also depends on momentum: a particle is attracted only by neighbours moving at nearly its own velocity. Then ∇ₚε contains an extra term, the "anomalous velocity" of the [lab notebook](/wiki/history/documents/lab-notebook) (`notes/broken-born-theory.md` §5.2). That model is on [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) page.
 
 ## Linear response about a homogeneous equilibrium
 
