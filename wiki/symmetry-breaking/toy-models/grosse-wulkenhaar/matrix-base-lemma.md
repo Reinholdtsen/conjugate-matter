@@ -41,7 +41,7 @@ The normalization is fixed by an [anchor](/wiki/method/verification/independent-
 
 ## Precision
 
-The deviation is quoted three ways, two measured values and the looser tolerance the gate asserts, and the three are consistent:
+The deviation is quoted three ways, two statements of the measured deviation and the looser tolerance the gate asserts, and the three are consistent:
 
 - version 2 of the note: "to ≲ 10⁻¹¹" (§3);
 - the worklog: "to 1.4×10⁻¹²" ('Chunk 2 results'), which is also what the gate prints, "max dev 1.4e-12";
