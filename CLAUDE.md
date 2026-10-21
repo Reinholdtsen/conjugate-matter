@@ -25,6 +25,7 @@ below gives their paths.
   - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
 - [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); arbitration and audit scripts go here.
+- [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`.
 
 Read order for a fresh session: #11 → HANDOFF §6 →
 [review/round3-adjudication.md](review/round3-adjudication.md) → calc notes
@@ -59,8 +60,8 @@ only as a task needs them.
 ## The gate
 
 [scripts/check.sh](scripts/check.sh) is the definition of done. It runs every
-script in `verify/` and exits non-zero on any failure. It must pass before work
-is called finished. Do not weaken a check to make it pass. New verification
+script in `verify/`, then `scripts/check-wiki.py` on the wiki, and exits non-zero
+on any failure. It must pass before work is called finished. Do not weaken a check to make it pass. New verification
 scripts get wired into it.
 
 First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
