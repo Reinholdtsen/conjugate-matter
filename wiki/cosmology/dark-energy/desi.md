@@ -63,8 +63,8 @@ The result is a posterior distribution for the parameters of the chosen form. Di
 ## The data releases
 
 - **Data Release 1 (DR1).** The documents mention it only alongside the second: the [handoff](/wiki/history/documents/handoff) called the framework "Consistent with DESI DR1/DR2 drift hints" (`HANDOFF.md` §2), and the [lab notebook](/wiki/history/documents/lab-notebook) says hilltop and axion potentials "have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2). No DR1 paper is in #11's reference list.
-- **Data Release 2 (DR2).** #11's reference [21][S]: DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025). It is the release that reports a crossing of w = −1, below −1 above z ≃ 0.4 (#11 §10). The lab notebook's citation "DESI 2025" [T] (#1 §7 item 2) carries no arXiv number; it is probably the same paper, an identification no document makes.
-- **Data Release 3 (DR3).** The handoff gives it as "DESI DR3 (three-year data, expected late 2026)" and calls it the "External clock" (`HANDOFF.md` §2). #11 §10: "DR3 is the decisive test (§13, row 4)."
+- **Data Release 2 (DR2).** #11's reference [21][S]: DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025). It is the release that reports a crossing of w = −1, below −1 above z ≃ 0.4 (#11 §10). The lab notebook's citation "DESI 2025" [T] (#1 §7 item 2) carries no arXiv number, and no document says whether it is the same paper.
+- **Data Release 3 (DR3).** The handoff gives it as "DESI DR3 (three-year data, expected late 2026)" and calls it the "External clock" (`HANDOFF.md` §2). The "three-year" label is listed as a suspected slip in the source (`review/wiki-build-flags.md` item 26); the wiki quotes it as written. #11 §10: "DR3 is the decisive test (§13, row 4)."
 
 ## How the program uses the survey
 
