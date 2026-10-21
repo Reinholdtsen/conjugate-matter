@@ -66,7 +66,7 @@ n/s = p (T_c/M_Pl)³,        p = (1.66 √g*)³ · 45/(2π² g*)        (one def
 
 The standard normalization in the literature is the one the round-3 referee took from Gangui (astro-ph/0110285): "about one monopole per Hubble volume ... n_monop/s ~ 100 (T_c/m_P)^3" (Step 1), with m_P the Planck mass, at g\* of order 100. Liveoak, Maharana and Wells describe the same count as the "minimal number density ... one per Hubble volume" (as the referee quotes them, Step 2).
 
-Two conventions move p and must be applied together with everything else in the calculation: which volume counts as one horizon (H⁻³, or the sphere (4π/3)H⁻³), and which Planck mass appears in H and in the yield (the Planck mass or the reduced Planck mass, which differ by a factor of √(8π)). Each changes the coefficient but not the physical count; mixing conventions between the yield and the formula for H does change it. The program's record contains an instance of each ([how the program uses it](#how-the-program-uses-it)).
+Two choices move p. Which volume counts as one horizon (H⁻³, or the sphere (4π/3)H⁻³) is an order-one ambiguity in the estimate itself, and it changes the count by the ratio of the two volumes. Which Planck mass appears in H and in the yield (the Planck mass or the reduced Planck mass, which differ by a factor of √(8π)) is a convention: it changes the coefficient but not the physical count, provided the same one is used in both, while mixing the two between the yield and the formula for H does change the count. The program's record contains an instance of each ([how the program uses it](#how-the-program-uses-it)).
 
 ## A floor, not a ceiling [T]
 
