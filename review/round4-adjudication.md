@@ -63,7 +63,7 @@ Calibration across rounds:
 2. Monte Carlo numbers need error bars from independent runs. A fixed seed
    makes a number reproducible, not accurate.
 
-## Revisions for v2 of the note (all accepted)
+## Revisions for v2 of the note (all accepted; applied 2026-10-20 in commit 6606734)
 
 1. **§4:**
    - Use the bounded potential. Show it is stable with H dynamical (local
