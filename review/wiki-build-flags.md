@@ -92,3 +92,6 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     gave "1e9–1e12 overproduction"; the integration itself gave 1.1e12–2.2e12
     (`review/round3/referee/step4.out`). The 1e9 lower end comes from the Liveoak–Maharana–Wells
     analytic estimate (1.2e9–2.2e11). The verdict is unaffected (overproduction either way).
+22. **Minor: Planck's N_eff interval (#14 §4).** #14 gives "2.99 +- 0.34"; the round-3 referee's
+    audit records Planck eq. 67b as +0.34/−0.33. The 0.286 bound uses only the +0.34 side, so
+    nothing changes.
