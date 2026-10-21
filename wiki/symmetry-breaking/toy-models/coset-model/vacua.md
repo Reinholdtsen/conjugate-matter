@@ -20,6 +20,7 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §10"
+  - "review/round4-adjudication.md 'Revisions' 2"
 ---
 
 *The vacua of [model I](/wiki/symmetry-breaking/toy-models/coset-model) are its lowest-energy configurations: constant fields H and K that are compatible, so that the potential vanishes. They form a three-dimensional family, the upper half-plane of metrics times a circle of real structures, and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ carries each vacuum to a different one, so no vacuum is symmetric (criterion S2). The entry K₁₁ of the real structure takes opposite signs in a vacuum and in its image, which makes it an order parameter (criterion S3). Three of the four directions in which the fields can vary are flat. One of them is the polarization angle: moving along it turns the line of the phase plane that counts as position, at no cost in energy. [Checkpoint #11](/wiki/history/documents/checkpoint) identifies that circle with the one on which its dark-energy field τ lives, as a matter of consistency, not as a test.*
