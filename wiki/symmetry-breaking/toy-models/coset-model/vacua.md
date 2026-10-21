@@ -28,7 +28,7 @@ sources:
 
 ## The vacua are the compatible pairs
 
-For constant fields both kinetic terms of [model I's Lagrangian](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) vanish, and what remains is the compatibility potential (λ/8) Tr(H⁻¹ Cᵀ H C), with C = KI + IK and I = ω⁻¹H. It is never negative and is zero exactly when K is compatible with H. So the worklog: "The vacua are the compatible pairs (H, K)" ('Chunk 1 results').
+For constant fields both kinetic terms of [model I's Lagrangian](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) vanish, and what remains is the compatibility potential (λ/8) Tr(H⁻¹ Cᵀ H C), with C = KI + IK and I = ω⁻¹H. It is never negative and is zero exactly when K is compatible with H. Hence the worklog's statement: "The vacua are the compatible pairs (H, K)" ('Chunk 1 results').
 
 ### At H = 1: a circle of real structures
 

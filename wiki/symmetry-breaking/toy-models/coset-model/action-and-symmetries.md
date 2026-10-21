@@ -36,7 +36,7 @@ Each object has a plain meaning [T]:
 
 - **ω** is the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form): it measures signed area in the (x, p) plane. The linear maps that preserve it form Sp(2, ℝ).
 - **ρ** is the quarter-turn (x, p) → (p, −x). As a matrix it equals ω, and ρ² = −1 is the half-turn (x, p) → (−x, −p).
-- **K** squares to 1, so its eigenvalues are +1 and −1 and it has two eigenlines, L+ and L−. The condition Kᵀ ω K = −ω says that K reverses the sign of areas. In d = 1 every line through the origin is Lagrangian, a line on which ω vanishes ([Lagrangian subspaces and polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations)).
+- **K** squares to 1 and, for d = 1, has determinant −1, so its eigenvalues are +1 and −1 and it has two eigenlines, L+ and L−. The condition Kᵀ ω K = −ω says that K reverses the sign of areas. In d = 1 every line through the origin is Lagrangian, a line on which ω vanishes ([Lagrangian subspaces and polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations)).
 - **η = ωK** is a symmetric metric with one positive and one negative direction, a neutral metric, whose null lines are L+ and L− ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). The program reads η, equivalently K, as [the order parameter](/wiki/symmetry-breaking/order-parameter) of broken reciprocity.
 
 For the reference structure K₀ = diag(1, −1), L+ is the x-axis and L− the p-axis. Its ρ-image −K₀ swaps them, because "ρ exchanges L+ and L−" (note §5). Choosing K therefore chooses which line plays the role of position, the choice the program calls a polarization.
@@ -63,7 +63,7 @@ L = (f_H²/8) Tr(H⁻¹∂H H⁻¹∂H) + (f_K²/4) Tr(H⁻¹ ∂Kᵀ H ∂K) + 
 C = KI + IK,   I = ω⁻¹H
 ```
 
-f_H and f_K are the stiffnesses of the two fields and λ the strength of the compatibility potential (note §2). ∂ stands for a derivative along the base, summed over its two directions. The Lagrangian is Euclidean, so a constant field has only its potential energy.
+The couplings f_H and f_K set the stiffness of the two fields, and λ the strength of the compatibility potential [T]. ∂ stands for a derivative along the base, summed over its two directions. The Lagrangian is Euclidean, so a constant field has only its potential energy.
 
 ### The H kinetic term
 
@@ -71,7 +71,7 @@ Tr(H⁻¹∂H H⁻¹∂H) is the standard invariant metric on positive matrices 
 
 ### The K kinetic term and the ghost
 
-The obvious kinetic term for K, Tr(∂K ∂K), would be a ghost. Version 2: "The K kinetic term is contracted with H and is positive definite. The naive Tr(∂K ∂K) is indefinite on the hyperboloid (2 db dc at K₀ = diag(1, −1))." (§2). The worklog gives the reason: "K's own target space (de Sitter dS₂) has an indefinite metric, which would give a ghost" ('Chunk 1 results'). A kinetic term of indefinite sign gives one direction of fluctuation negative energy ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models#positive-target-metrics-and-the-de-sitter-ghost)).
+The obvious kinetic term for K, Tr(∂K ∂K), would carry a ghost. Version 2: "The K kinetic term is contracted with H and is positive definite. The naive Tr(∂K ∂K) is indefinite on the hyperboloid (2 db dc at K₀ = diag(1, −1))." (§2). The worklog gives the reason: "K's own target space (de Sitter dS₂) has an indefinite metric, which would give a ghost" ('Chunk 1 results'). A kinetic term of indefinite sign gives one direction of fluctuation negative energy ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models#positive-target-metrics-and-the-de-sitter-ghost)).
 
 The contracted term Tr(H⁻¹ ∂Kᵀ H ∂K) is positive for every nonzero ∂K [T]: it equals the sum of the squares of the entries of H^{1/2} ∂K H^{−1/2}, since H is symmetric and positive. The sources state the positivity and check it numerically:
 
@@ -90,7 +90,7 @@ The third term is the squared size of C = KI + IK, measured with H, so it is nev
 
 "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, and the action is invariant (checked for generic symplectic S, so for ρ). There is a separate ℤ₂, K → −K." (note §2). The same S acts at every point of the base, so this is a global symmetry [T]. The referee wrote the full group as "Sp(2,R) x Z2(K->-K)" (Step 2(a), finding F3).
 
-The flip K → −K is a symmetry because every term is quadratic in K or in C, and C changes sign with K. ρ belongs to Sp(2, ℝ), so invariance under a generic symplectic S includes invariance under ρ; the gate also checks ρ by itself.
+The flip K → −K is a symmetry because the two terms that involve K are quadratic, one in ∂K and the other in C, and C changes sign with K. ρ belongs to Sp(2, ℝ), so invariance under a generic symplectic S includes invariance under ρ; the gate also checks ρ by itself.
 
 **The checks [V].** `verify/toy_coset.py` takes a symbolic S = [[s₁, s₂], [s₃, (1 + s₂s₃)/s₁]], whose determinant is 1 by construction, and symbolic H, ∂H, K, ∂K. Its S1 block passes these checks:
 
@@ -106,7 +106,7 @@ The worklog records the result as "S1 pass [V]: all three terms are invariant un
 ## What the symmetries imply
 
 - **The vacua break them.** The vacua are the compatible constant pairs, and ρ carries each one to a different one ([Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
-- **The flip qualifies the breaking.** Because K → −K is also a symmetry, the twisted element ρ∘(K → −K) maps the vacuum (1, K₀) to itself, and "Breaking ρ is physical only once a coupling odd in K is present" (note §2; [the twisted element](/wiki/symmetry-breaking/twisted-element); [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)).
+- **The flip qualifies the breaking.** K → −K is also a symmetry, so the composite ρ∘(K → −K), the twisted element, is one too, and it maps the vacuum (1, K₀) to itself. Hence the note's qualification: "Breaking ρ is physical only once a coupling odd in K is present" (note §2; [the twisted element](/wiki/symmetry-breaking/twisted-element); [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)).
 - **The action alone does not fix a polarization.** With only these three terms the vacua form a continuous family, and the polarization is a flat angle on it ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). A definite polarization needs an added ρ-preserving potential: first the [naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), now dead, then [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
 
 ## History
