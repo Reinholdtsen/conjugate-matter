@@ -5,8 +5,6 @@ every source faithfully and corrects none of these; each needs Paul's ruling. Wh
 arithmetic is involved, the verifier's executed check was in the session scratchpad and
 is not part of `verify/`; a ruling that accepts a flag should add the check there.*
 
-The wiki quotes these sources faithfully; each needs a ruling from Paul.
-
 1. **Null-Lagrangian polarizations are not discrete for d ≥ 2.** `notes/debt1a-geometric-core.md`
    §B (line 27), echoed in #11 §5 and #9 §3: the ω-Lagrangian, η-null polarizations are
    "discrete — the 2^d coordinate-type splittings, GL(d)-rigid". For any subspace V ⊂ ℝ^d,
