@@ -16,6 +16,7 @@ below gives their paths.
 - [papers/](papers/) — current references only.
   - #11 `broken-born-checkpoint-v2.md` — **the current reference for the full program.**
   - #13 `conjugate-special-relativity.md`
+  - `reciprocity-toy-models.md` — the toy-Lagrangian note: two models of spontaneously broken ρ. Blind-review format. Round 4: B; v2 applies the revisions. The worklog is `notes/toy-lagrangian.md`.
 - [popsci/](popsci/) — #10 `angle-of-the-mirror.md`, #12 `universes-other-half.md`.
 - [notes/](notes/) — the audit trail, superseded as reference but kept.
   - #1 `broken-born-theory.md` — the lab notebook, addenda v0.2–v0.6.
@@ -40,9 +41,19 @@ only as a task needs them.
   [T] (Freidel–Leigh–Minic); P4 strict (§4); DESI DR2 favors a phantom
   crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The
   dark-energy sector is under real pressure ahead of DR3.
+- The toy Lagrangian (HANDOFF §8 item 4) is done to the referees' wording;
+  see `papers/reciprocity-toy-models.md` and #11 v2.2 §14 item 11. Its open
+  ends:
+  - a Monte Carlo with H dynamical;
+  - a derivation of the ρ-preserving potential;
+  - the strong form of matter locality;
+  - the real Grosse–Wulkenhaar model's one-loop preference for the
+    position-sharp vacuum, a lead.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
-  1. The toy Lagrangian (HANDOFF §8 item 4).
-  2. HANDOFF §8 items 5–7, unchanged.
+  1. HANDOFF §8 items 5–7: the partially-massless comparison, the
+     † literature battery, the phase-space-diameter note.
+  2. Optional: a round-5 review of the toy note, but only before any
+     external use.
 - Reasons are in the adjudication's "Decisions" section.
 
 ## The gate

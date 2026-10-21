@@ -498,3 +498,28 @@ coset toy plus a τ-type potential:
    - §10 records finding 1;
    - P2′ is refined: the polarization circle needs a ρ-preserving potential.
 3. Then HANDOFF §8 items 5–7.
+
+## Write-up and review (2026-10-19/20)
+
+- The note: [papers/reciprocity-toy-models.md](../papers/reciprocity-toy-models.md).
+- Round-4 blind review: verdict B. Adjudication in
+  [review/round4-adjudication.md](../review/round4-adjudication.md).
+- **v2 applies every accepted revision:**
+  - a bounded ρ-preserving potential, stable with H dynamical (the naive one
+    was unbounded below);
+  - the Monte Carlo stated explicitly as the frozen-H reduction, with four
+    independent seeds, error bars and cold starts;
+  - the twisted-ρ caveat;
+  - Mermin–Wagner restricted to the compact SO(2);
+  - the matrix-base duality presented as a lemma, with credit to
+    Grosse–Wulkenhaar, Royer and Langmann–Szabo;
+  - the real model's discrete vacua, split at one loop (ΔF = 2.634 at
+    N = 6, 8, 10) in favour of the position-sharp one — a lead;
+  - the restoration argument restated, with the ln N tadpole;
+  - I_K stated as (H, K)-covariant;
+  - the d = 1 restriction on the "pair" of sections;
+  - five new references, all retrieved.
+- Two drafting errors were caught by gated checks along the way: a
+  hard-coded `True`, and citation regexes matching matrix entries.
+- No round 5 for now. v2 fixes and narrows claims rather than adding new
+  ones; the real-model lead is labelled as a lead.

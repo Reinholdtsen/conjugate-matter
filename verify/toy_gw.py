@@ -172,6 +172,43 @@ check("Delta(beta) = Delta(0) cos(beta): the polarization is an angle on the Gol
       np.max(np.abs(Delta - D0*np.cos(betas))) < 1e-8)
 check("Delta(0) > 0: the beta = 0 vacuum is broader in x than in p (quoted +10.88)", D0 > 0 and round(D0, 2) == 10.88)
 
+print("\n== Real model: the two sign-vacua are classically degenerate but split at one loop (round-4 F4)")
+def S_real(pvec, Nn):
+    M = np.zeros((Nn, Nn), dtype=complex); iu = np.triu_indices(Nn, 1); nn = len(iu[0])
+    M[np.diag_indices(Nn)] = pvec[:Nn]
+    M[iu] = pvec[Nn:Nn + nn] + 1j*pvec[Nn + nn:Nn + 2*nn]; M = M + np.triu(M, 1).conj().T
+    ix = np.add.outer(np.arange(Nn), np.arange(Nn)) + 1.0
+    return float(np.sum((ix - MU2)*np.abs(M)**2) + LAM*np.trace(np.linalg.matrix_power(M, 4)).real)
+def hess_real(p0, Nn, hh=1e-4):
+    n = len(p0); Hm = np.zeros((n, n)); e = np.eye(n)
+    for i in range(n):
+        for j in range(i, n):
+            Hm[i, j] = Hm[j, i] = (S_real(p0 + hh*e[i] + hh*e[j], Nn) - S_real(p0 + hh*e[i] - hh*e[j], Nn)
+                                   - S_real(p0 - hh*e[i] + hh*e[j], Nn) + S_real(p0 - hh*e[i] - hh*e[j], Nn))/(4*hh*hh)
+    return Hm
+dF = {}; Svals = []; mins = []
+for Nn in (6, 8, 10):
+    qn = np.array([max(0.0, -(2*m + 1 - MU2)/(2*LAM)) for m in range(Nn)])
+    ev = {}
+    for sgn in (+1, -1):
+        p0 = np.zeros(Nn*Nn); p0[0] = np.sqrt(qn[0]); p0[1] = sgn*np.sqrt(qn[1])
+        ev[sgn] = np.linalg.eigvalsh(hess_real(p0, Nn))
+        Svals.append(S_real(p0, Nn)); mins.append(ev[sgn].min())
+    dF[Nn] = 0.5*np.sum(np.log(ev[+1])) - 0.5*np.sum(np.log(ev[-1]))
+    print(f"      N={Nn:2d}: both S = {S_real(p0, Nn):.4f}; min eig (+) {ev[+1].min():.4f}, (-) {ev[-1].min():.4f}; F(+) - F(-) = {dF[Nn]:.3f}")
+check("both sign-vacua have the same classical action (-2.5) and positive-definite Hessians",
+      np.allclose(Svals, -2.5) and min(mins) > 0, f"min eig over all {min(mins):.4f}")
+check("F(+) - F(-) = 2.634 at N = 8 (matching the round-4 referee)", round(dF[8], 3) == 2.634)
+check("F(+) > F(-) at N = 6, 8, 10: the opposite-sign vacuum diag(a0, -a1) is preferred at one loop",
+      all(v > 0 for v in dF.values()), str({k: round(v, 3) for k, v in dF.items()}))
+check("diag(a0, -a1) is the beta = pi vacuum, i.e. the one sharper in x (Delta(pi) = -Delta(0) < 0)",
+      D0 > 0 and abs(Delta[4] + D0) < 1e-8)
+
+print("\n== Mass renormalization: the tadpole grows logarithmically with the truncation (round-4 F6)")
+Hn = [sum(1/(k + 1) for k in range(n)) - np.log(n) for n in (10, 1000, 100000)]
+check("sum_{k<N} 1/(k+1) - ln N -> Euler's gamma (the level-0 tadpole with G_0k = 1/(k+1) is ~ ln N)",
+      abs(Hn[-1] - 0.5772156649) < 1e-4, str(np.round(Hn, 5)))
+
 if failures:
     print(f"\nFAILED {len(failures)} check(s): " + "; ".join(failures))
     sys.exit(1)

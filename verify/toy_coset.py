@@ -129,6 +129,66 @@ hess = sp.simplify(hess)
 ev = [sp.nsimplify(e) for e in hess.eigenvals(multiple=True)]
 check("potential Hessian has rank 1: three flat directions (Goldstones), one massive", hess.rank() == 1, str(ev))
 
+print("\n== The bounded rho-preserving potential, with H dynamical (round-4 repair)")
+# V_b(K) = -mu [Tr(K K_ref)]^2 / (2 Tr(K^T K)); the unnormalized -mu [Tr(K K_ref)]^2 is unbounded below
+Kref = sp.Matrix([[1, 0], [0, -1]])
+def Vb(Km):
+    return -((Km*Kref).trace())**2/(2*(Km.T*Km).trace())
+Kg2 = sp.Matrix([[a, b], [c, -a]])
+check("V_b is rho-invariant", sp.simplify(Vb(rho.inv()*Kg2*rho) - Vb(Kg2)) == 0)
+check("V_b is invariant under K -> -K", sp.simplify(Vb(-Kg2) - Vb(Kg2)) == 0)
+# Cauchy-Schwarz: [Tr(K Kref)]^2 <= Tr(K^T K) Tr(Kref^T Kref) = 2 Tr(K^T K), so V_b >= -1 (mu = 1)
+check("Tr(Kref^T Kref) = 2, so Cauchy-Schwarz gives -1 <= V_b <= 0", (Kref.T*Kref).trace() == 2)
+check("at H = 1, V_b(K(phi)) = -(1 + cos 2 phi)/2", sp.simplify(Vb(Kphi) + (1 + sp.cos(2*phi))/2) == 0)
+samples = []
+for _ in range(20000):
+    av, bv = rng.normal(scale=5), rng.normal(scale=5)
+    cv = (1 - av**2)/bv
+    Kn = np.array([[av, bv], [cv, -av]])
+    samples.append(-np.trace(Kn @ np.diag([1., -1.]))**2/(2*np.trace(Kn.T @ Kn)))
+check("sampled V_b stays in [-1, 0] on the hyperboloid", -1 - 1e-12 <= min(samples) and max(samples) <= 1e-12,
+      f"min {min(samples):.4f}")
+wn = np.array([[0., 1.], [-1., 0.]]); K0n = np.diag([1., -1.])
+def V_lam_n(Hn, Kn):
+    In = np.linalg.inv(wn) @ Hn; Cn = Kn @ In + In @ Kn
+    return np.trace(np.linalg.inv(Hn) @ Cn.T @ Hn @ Cn)/8
+def V_b_n(Kn):
+    return -np.trace(Kn @ K0n)**2/(2*np.trace(Kn.T @ Kn))
+def V_unb_n(Kn):
+    return -np.trace(Kn @ K0n)**2
+def fields_n(cc):
+    xx, yy, uu, tt = cc
+    Yv = 1 + yy; Hn = np.array([[Yv + xx**2/Yv, xx/Yv], [xx/Yv, 1/Yv]])
+    av = np.sqrt(1 - uu**2 + tt**2)
+    return Hn, np.array([[av, uu + tt], [uu - tt, -av]])
+def hess_n(f, hh=1e-4):
+    e = np.eye(4); Hm = np.zeros((4, 4))
+    for i in range(4):
+        for j in range(4):
+            Hm[i, j] = (f(hh*e[i] + hh*e[j]) - f(hh*e[i] - hh*e[j]) - f(-hh*e[i] + hh*e[j]) + f(-hh*e[i] - hh*e[j]))/(4*hh*hh)
+    return Hm
+ev_unb = np.linalg.eigvalsh(hess_n(lambda cc: V_lam_n(*fields_n(cc)) + V_unb_n(fields_n(cc)[1])))
+check("the unnormalized potential makes (1, K_ref) a saddle (negative Hessian eigenvalue)", ev_unb.min() < -1,
+      str(np.round(ev_unb, 3)))
+ev_b = np.linalg.eigvalsh(hess_n(lambda cc: V_lam_n(*fields_n(cc)) + V_b_n(fields_n(cc)[1])))
+check("with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero",
+      ev_b.min() > -1e-6 and np.sum(np.abs(ev_b) < 1e-6) == 1, str(np.round(ev_b, 4)))
+check("quoted: saddle eigenvalue -6.47; bounded-variant eigenvalues 0, 0.764, 2, 5.236 (lambda = mu = 1, these coordinates)",
+      round(ev_unb.min(), 2) == -6.47 and list(np.round(ev_b, 3) + 0.0) == [0.0, 0.764, 2.0, 5.236])
+St = np.array([[np.cosh(4.0), np.sinh(4.0)], [np.sinh(4.0), np.cosh(4.0)]])
+Ht, Kt = St.T @ St, np.linalg.inv(St) @ K0n @ St
+check("quoted: unbounded below - at boost t = 4 the compatibility term is ~0 and -[Tr(K K_ref)]^2 = -8.9e6",
+      abs(V_lam_n(Ht, Kt)) < 1e-10 and round(V_unb_n(Kt)/1e6, 1) == -8.9, f"{V_unb_n(Kt):.4e}")
+flat = [V_lam_n(np.diag([np.exp(2*s), np.exp(-2*s)]), K0n) + V_b_n(K0n) for s in (-1.0, 0.0, 0.5, 2.0)]
+check("the zero mode is the squeeze line H = diag(y, 1/y), K = K_ref: V = -1 all along it", np.allclose(flat, -1.0))
+boost = [V_b_n(np.linalg.inv(np.array([[np.cosh(t), np.sinh(t)], [np.sinh(t), np.cosh(t)]])) @ K0n
+               @ np.array([[np.cosh(t), np.sinh(t)], [np.sinh(t), np.cosh(t)]])) for t in (0.0, 0.5, 1.0, 3.0)]
+check("boosts are penalized: V_b rises from -1 toward -1/2 along the boost family", boost[0] == -1.0 and
+      all(np.diff(boost) > 0) and abs(boost[-1] + 0.5) < 1e-3, str(np.round(boost, 4)))
+twH = (rho.T*sp.eye(2)*rho); twK = -(rho.inv()*Kref*rho)
+check("round-4 F3: the twisted rho (rho composed with K -> -K) fixes (1, K_ref)",
+      zero(twH - sp.eye(2)) and zero(twK - Kref))
+
 if failures:
     print(f"\nFAILED {len(failures)} check(s): " + "; ".join(failures))
     sys.exit(1)

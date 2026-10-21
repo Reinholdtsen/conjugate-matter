@@ -16,6 +16,11 @@ On a square lattice (Euclidean 2D):
     E = -J sum_<ij> cos(phi_i - phi_j) - h sum_i cos(2 phi_i).
 Model A: h > 0 (with the tau potential). Model B: h = 0 (exactly self-dual).
 Order parameter for rho: m = mean cos(phi) (odd under phi -> phi + pi).
+This is the FROZEN-H reduction of the coset toy (H = 1 held fixed); the unreduced
+model's stability with the bounded potential V_b is checked in toy_coset.py.
+Note: the energy here is the frozen-H form, -h cos(2 phi), which equals the bounded
+V_b at H = 1 up to a constant and a factor (both depend on phi only through cos 2 phi).
+All runs use a cold start (phi = 0). Error bars: standard error over 4 independent seeds.
 For model B the natural order parameter is the U(1) magnetization |mean exp(i phi)|.
 """
 import sys
@@ -50,40 +55,48 @@ def run(L, T, h, J=1.0, therm=1500, sweeps=4000, seed=0):
     return np.mean(np.abs(ms)), binder, np.mean(Ms)
 
 SIZES = (16, 32, 64)
+SEEDS = 4
 T_LOW, T_HIGH, H = 0.6, 3.0, 1.0
+def stats(L, T, h, base):
+    r = np.array([run(L, T, h, seed=base + 1000*k) for k in range(SEEDS)])
+    mean = r.mean(0); sem = r.std(0, ddof=1)/np.sqrt(SEEDS)
+    return mean, sem
 
-print("== Model A: with the tau-type potential (h = 1), T = 0.6")
-A = {L: run(L, T_LOW, H, seed=L) for L in SIZES}
+print("== Model A: with the rho-preserving potential (h = 1), T = 0.6")
+A = {L: stats(L, T_LOW, H, L) for L in SIZES}
 for L in SIZES:
-    print(f"      L={L:3d}: <|m|> = {A[L][0]:.4f}, Binder = {A[L][1]:.4f}")
-check("ordered: <|m|> stays above 0.8 at every size", min(A[L][0] for L in SIZES) > 0.8)
-check("and is size-independent (changes < 2% from L = 16 to 64)",
-      abs(A[64][0]/A[16][0] - 1) < 0.02, f"ratio {A[64][0]/A[16][0]:.4f}")
-check("Binder cumulant near 2/3 (an ordered Z2 phase)", min(A[L][1] for L in SIZES) > 0.6)
-check("quoted: <|m|> = 0.954 and Binder = 0.667 at L = 16, 32, 64",
-      all(round(A[L][0], 3) == 0.954 and round(A[L][1], 3) == 0.667 for L in SIZES))
+    print(f"      L={L:3d}: <|m|> = {A[L][0][0]:.4f} +- {A[L][1][0]:.4f}, Binder = {A[L][0][1]:.4f}")
+check("ordered: <|m|> > 0.8 at every size", min(A[L][0][0] for L in SIZES) > 0.8)
+sig = np.hypot(A[64][1][0], A[16][1][0])
+check("size-independent within errors (|m64 - m16| < 3 sigma + 0.002)",
+      abs(A[64][0][0] - A[16][0][0]) < 3*sig + 0.002, f"diff {A[64][0][0] - A[16][0][0]:.4f}, sigma {sig:.4f}")
+check("Binder cumulant near 2/3 (an ordered Z2 phase)", min(A[L][0][1] for L in SIZES) > 0.6)
+check("quoted: <|m|> = 0.954 +- 0.0001 at every size, Binder 0.667",
+      all(round(A[L][0][0], 3) == 0.954 and A[L][1][0] < 0.0002 and round(A[L][0][1], 3) == 0.667 for L in SIZES))
 
 print("\n== Control: model A at high temperature, T = 3.0")
-C = {L: run(L, T_HIGH, H, seed=100 + L) for L in SIZES}
+C = {L: stats(L, T_HIGH, H, 100 + L) for L in SIZES}
 for L in SIZES:
-    print(f"      L={L:3d}: <|m|> = {C[L][0]:.4f}, Binder = {C[L][1]:.4f}")
-check("disordered: <|m|> falls with size (L = 64 below half of L = 16)", C[64][0] < 0.5*C[16][0],
-      f"{C[16][0]:.4f} -> {C[64][0]:.4f}")
-check("quoted: 0.078 -> 0.033 -> 0.014", [round(C[L][0], 3) for L in SIZES] == [0.078, 0.033, 0.014])
+    print(f"      L={L:3d}: <|m|> = {C[L][0][0]:.4f} +- {C[L][1][0]:.4f}")
+ratio_c = C[16][0][0]/C[64][0][0]
+check("disordered: <|m|> scales as 1/L (m16/m64 within [3.3, 4.8], expected 4)", 3.3 < ratio_c < 4.8, f"{ratio_c:.3f}")
+check("quoted: 0.0653 +- 0.0043, 0.0338 +- 0.0013, 0.0155 +- 0.0004",
+      [(round(C[L][0][0], 4), round(C[L][1][0], 4)) for L in SIZES] == [(0.0653, 0.0043), (0.0338, 0.0013), (0.0155, 0.0004)])
 
-print("\n== Model B: exactly self-dual (h = 0), T = 0.6")
-B = {L: run(L, T_LOW, 0.0, seed=200 + L) for L in SIZES}
+print("\n== Model B: exactly symmetric (h = 0), T = 0.6")
+B = {L: stats(L, T_LOW, 0.0, 200 + L) for L in SIZES}
 for L in SIZES:
-    print(f"      L={L:3d}: <|M|> = {B[L][2]:.4f}, <|m|> = {B[L][0]:.4f}")
+    print(f"      L={L:3d}: <|M|> = {B[L][0][2]:.4f} +- {B[L][1][2]:.4f}")
 eta = T_LOW/(2*np.pi)
 pred = (64/16)**(-eta/2)
-check("no true order: the U(1) magnetization falls with size (> 3% from L = 16 to 64)",
-      B[64][2]/B[16][2] < 0.97, f"ratio {B[64][2]/B[16][2]:.4f}; spin-wave estimate {pred:.4f}")
-check("quoted: 0.838 -> 0.798 -> 0.776, ratio 0.925 vs spin-wave 0.936",
-      [round(B[L][2], 3) for L in SIZES] == [0.838, 0.798, 0.776] and round(B[64][2]/B[16][2], 3) == 0.925
-      and round(pred, 3) == 0.936)
+sigB = np.hypot(B[64][1][2], B[16][1][2])
+check("no true order: the U(1) magnetization falls with size by more than 3 sigma",
+      B[16][0][2] - B[64][0][2] > 3*sigB, f"ratio {B[64][0][2]/B[16][0][2]:.4f}; spin-wave estimate {pred:.4f}")
+check("quoted: 0.8369 +- 0.0007, 0.8025 +- 0.0039, 0.7736 +- 0.0038; ratio 0.924 vs spin-wave 0.936",
+      [(round(B[L][0][2], 4), round(B[L][1][2], 4)) for L in SIZES] == [(0.8369, 0.0007), (0.8025, 0.0039), (0.7736, 0.0038)]
+      and round(B[64][0][2]/B[16][0][2], 3) == 0.924 and round(pred, 3) == 0.936)
 
 if failures:
     print(f"\nFAILED {len(failures)} check(s): " + "; ".join(failures))
     sys.exit(1)
-print("\nOK — S4: rho is spontaneously broken in 1+1 only with the tau-type potential.")
+print("\nOK — S4: rho is spontaneously broken in 1+1 (frozen-H reduction) only with the rho-preserving potential.")

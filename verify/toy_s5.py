@@ -103,6 +103,11 @@ check("vacuum -K_ref: I = int |psi~(p)|^4 dp (local in p)", abs(Ip - np.sum(np.a
 check("the two vacua give different physics for the same state", abs(Ix - Ip) > 0.05*max(Ix, Ip),
       f"{Ix:.4f} vs {Ip:.4f}")
 check("quoted: 0.4070 vs 0.3600", round(Ix, 4) == 0.4070 and round(Ip, 4) == 0.3600)
+# round-4 F5: I_K needs a scale on L+ (from H); rescaling u -> u/s multiplies the density by s and I by s
+dens = np.abs(psi(xg))**2/norm**2
+I_s2 = float(np.sum((2*np.interp(2*xg, xg, dens, left=0, right=0))**2)*dx)
+check("I_K is not K-covariant alone: rescaling the L+ coordinate by 2 doubles it (it needs H)",
+      abs(I_s2/Ix - 2) < 1e-3, f"{Ix:.4f} -> {I_s2:.4f}")
 # rho acts on states by the Fourier transform: psi -> psi~, and on K by K -> -K
 Wrho = W.T[:, ::-1]   # W_{F psi}(x, p) = W_psi(-p, x): rotation of the phase plane
 check("rho-covariance: I_{-K}[W_{F psi}] = I_{+K}[W_psi]", abs(I_marginal(Wrho, -1) - Ix) < 1e-8)
