@@ -45,7 +45,7 @@ The dual superconductor exchanges the roles of electric and magnetic fields in t
 
 QCD has no Higgs field of the kind that produces ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), so the monopoles of the picture have to be identified another way. 't Hooft's proposal was to fix the gauge so that only the abelian, electromagnetism-like part of the color symmetry is left; the gauge-fixing then leaves point-like defects that behave as magnetic monopoles of the remaining abelian fields [T]. Lattice studies in such gauges have been used to test whether these monopoles condense in the confining phase. The picture remains a mechanism rather than a derivation, and other accounts of confinement exist [T].
 
-The cleanest realization is in a supersymmetric theory. In N = 2 super Yang–Mills theory with its supersymmetry partly broken, Seiberg and Witten found the exact low-energy description, in which magnetic monopoles become light, condense, and confine electric charge in just this way [T]. It is the same body of work in which electric–magnetic duality is under good control ([S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality)).
+The cleanest realization is in a supersymmetric theory. In N = 2 super Yang–Mills theory, Seiberg and Witten found the exact low-energy description: magnetic monopoles become massless at special points of the space of vacua, and when a perturbation breaks the supersymmetry to N = 1 they condense and confine electric charge in just this way [T]. It is the same body of work in which electric–magnetic duality is under good control ([S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality)).
 
 ## Where it enters the program
 

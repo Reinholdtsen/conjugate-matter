@@ -21,6 +21,7 @@ sources:
   - "review/round3-preregistration.md 'Predictions'"
   - "review/round3/referee/audit-notes.md Step 1"
   - "review/round3/referee/audit-notes.md Step 4(d)"
+  - "review/round3/referee/audit-notes.md Step 5"
   - "review/round3-adjudication.md 'Rulings' 12"
   - "verify/toy_coset.py 'Anchors', 'S2: vacua'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
@@ -36,7 +37,7 @@ In a theory with one unbroken U(1) gauge field, such as electromagnetism, each p
 
 ## The DSZ pairing [T]
 
-Dirac showed that a magnetic charge g and an electric charge e can coexist only if e·g is a whole multiple of a fixed constant ([Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization)). The reason is angular momentum: the combined field of an electric charge and a monopole carries angular momentum proportional to the product of their charges, and angular momentum is quantized [T]. Schwinger and Zwanziger extended the argument to two dyons, for which the field angular momentum depends on e₁g₂ − e₂g₁, and the condition becomes a condition on that combination [T].
+Dirac showed that a magnetic charge g and an electric charge e can coexist only if e·g is a whole multiple of a fixed constant ([Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization)). One way to see the reason is angular momentum: the combined field of an electric charge and a monopole carries angular momentum proportional to the product of their charges, and angular momentum is quantized [T]. Schwinger and Zwanziger extended the argument to two dyons, for which the field angular momentum depends on e₁g₂ − e₂g₁, and the condition becomes a condition on that combination [T].
 
 [#11](/wiki/history/documents/checkpoint) §11.3:
 
@@ -79,7 +80,7 @@ Two charges with a vanishing pairing can be coupled to one set of gauge potentia
 
 In any one Lagrangian description of a gauge theory, the charges carried by the elementary quanta of its fields are the electric ones, and the charges that appear only on solitons, such as ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), are the magnetic ones [T]. A duality transformation gives an equivalent description in which a different Lagrangian sublattice plays the electric role; S-duality exchanges the electric and magnetic sublattices ([S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality)). Choosing a frame is choosing a Lagrangian sublattice, in the same sense that the program's postulate [P5](/wiki/program/postulates/p5-spontaneous-selection) has the vacuum choose a Lagrangian subspace of phase space as "position".
 
-The phrase "in the literature's own words" carries no citation. It is flagged for the † literature battery ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+The phrase "in the literature's own words" carries no citation. It is listed as an unreferenced phrase on the page of [the † literature battery](/wiki/method/literature-battery).
 
 ## One matrix, three appearances
 
@@ -96,7 +97,7 @@ the matrix [[0, 1], [−1, 0]] generates
 - **The modular inversion** is ρ acting on the modular field Z = X + iY, the program's packaging of the phase-space metric; its fixed point Z = i is the vacuum (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)). The d = 1 form is the gated check quoted in the status line.
 - **S-duality** acts on τ_c, the complexified gauge coupling, not the dark-energy field τ ([notation](/wiki/notation)).
 
-The matrix squares to −1 in each setting [T]. On phase space ρ² sends (x, p) to (−x, −p), and on charges S² sends (e, g) to (−e, −g), charge conjugation. Both leave the modular variable unchanged, since −1/(−1/τ) = τ.
+The matrix squares to −1 in each setting [T]. On phase space ρ² sends (x, p) to (−x, −p), and on charges S² sends (e, g) to (−e, −g), charge conjugation. Both leave the modular variable unchanged, since −1/(−1/τ_c) = τ_c, and likewise for Z.
 
 ## What kind of claim it is
 
@@ -109,7 +110,7 @@ The checkpoint counts the identification in several places:
 - [founding supposition 11](/wiki/program/founding-suppositions): "the polarization identification as the program-native addition" to the established [magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family) (#11 App. A item 11);
 - [the handoff](/wiki/history/documents/handoff), under "Alive": "Charge-lattice identification: DSZ pairing is symplectic; duality frame choice = Lagrangian polarization, same [[0,1],[−1,0]] generator as Born rotation and S-duality" (`HANDOFF.md` §2).
 
-The section first appeared in the checkpoint's v2.0; the handoff lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3). The v2.1 and v2.2 change lists do not touch it.
+The section first appeared in the checkpoint's v2.0; the handoff lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3). The v2.1 and v2.2 change lists do not mention §11, although §11.1 records the v2.1 retirement of the soliton candidacy.
 
 ## The critiques
 
@@ -117,7 +118,7 @@ The critiques on record come from the reviews of the soliton manuscript, which u
 
 - **Round 2.** The soliton manuscript's v2 used the shared matrix to fix its hidden coupling, conjecturing that reciprocity acts on gauge couplings as S. The round-2 referee graded v2 "B near B/C / medium" with "weakest link = the α_d derivation ("matrix coincidence ≠ physical identity" / "numerology")" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two); [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
 - **#14 v3** kept the identification as motivation only: "We use this only as motivation: it suggests that the vacuum event that polarizes phase space also fixes which description of a gauge sector is the electric one. No numerical result below depends on it." (#14 §2). Its [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) asked for an action with η "selecting both the position polarization and the hidden sector's electric description" (#14 §6).
-- **Round 3.** The pre-registration expected the weakest link to be that the framework does no work: "Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification" (`review/round3-preregistration.md`). The referee named it as its second finding, after the Kibble normalization. Its citation check called "Charge space is symplectic" "interpretation" (Step 1), and its conceptual audit concluded that the phase-space framework did no work in the proposal (Step 4(d); [the 'framework does no work' critique](/wiki/program/framework-does-no-work); [review round 3](/wiki/method/review/round-3)).
+- **Round 3.** The pre-registration expected the weakest link to be that the framework does no work: "Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification" (`review/round3-preregistration.md`). The referee named it as the second weakest link, after "the Kibble abundance / mass determination" (Step 5). Its citation check called "Charge space is symplectic" "interpretation" (Step 1), and its conceptual audit concluded that the phase-space framework did no work in the proposal (Step 4(d); [the 'framework does no work' critique](/wiki/program/framework-does-no-work); [review round 3](/wiki/method/review/round-3)).
 
 The withdrawn manuscript is [#14](/wiki/dark-matter/candidates/soliton-candidate). The checkpoint, amended after round 3, keeps §11.3 as a structural observation and makes no numerical use of it.
 
@@ -135,6 +136,6 @@ Whether the phase-space and charge-space polarizations are components of one enl
 - `HANDOFF.md` §2 — the identification listed as alive; §3 — §11 added in v2.0; §6 — round 2's "matrix coincidence ≠ physical identity".
 - `notes/knot-dark-matter-standalone.md` §2, §6 — the identification used "only as motivation"; acceptance criterion 1 with the electric description (withdrawn manuscript).
 - `review/round3-preregistration.md` 'Predictions' — the forecast that nothing numerical depends on the identification.
-- `review/round3/referee/audit-notes.md` Step 1, Step 4(d) — the 2π versus 4π normalization and "interpretation"; the framework doing no work in #14.
+- `review/round3/referee/audit-notes.md` Step 1, Step 4(d), Step 5 — the 2π versus 4π normalization and "interpretation"; the framework doing no work in #14; the order of the weakest links.
 - `review/round3-adjudication.md` 'Rulings' 12 — the normalization and Schwinger, accepted as minor.
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the unification as "The framework's proposal" (not a status source).

@@ -2,7 +2,7 @@
 title: "The magnetic mirror-family"
 weight: 40
 status: established
-description: "Founding supposition 11 absorbed as established physics: Dirac's condition pins the magnetic coupling near 4π/e² ≈ 34 (a figure that depends on the charge convention by a factor of 4), so the magnetic world is our strong-coupling mirror, hidden by its own structure."
+description: "Founding supposition 11 absorbed as established physics: Dirac's condition pins our magnetic coupling near 34 (#11 writes 4π/e² ≈ 34, a formula flagged as flag 28; the figure depends on the charge convention by a factor of 4), so the magnetic world is our strong-coupling mirror, hidden by its own structure."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.2"
@@ -59,7 +59,7 @@ Dirac showed that quantum mechanics allows a magnetic charge g alongside an elec
 
 > Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound.
 
-"Heavy" follows because a monopole that arises as a soliton of a broken gauge symmetry has a mass of the symmetry-breaking scale multiplied by 4π/g, which is large when the gauge coupling g is small: the ['t Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) has M = 4πf v/g for scale v and an order-one factor f [T] ([#14](/wiki/dark-matter/candidates/soliton-candidate) §3 gives the formula for the hidden sector). "Bound" refers to the strength of the magnetic interaction: at a coupling far above one, opposite magnetic charges attract strongly and bind [T]. If magnetic counterparts exist, their absence from experiments follows from the structure of the theory itself, which is what #11 means by "structural".
+The wiki reads #11's words "heavy" and "bound" as follows. "Heavy" follows because a monopole that arises as a soliton of a broken gauge symmetry has a mass of the symmetry-breaking scale multiplied by 4π/g, which is large when the gauge coupling g is small: the ['t Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) has M = 4πf v/g for scale v and an order-one factor f [T] ([#14](/wiki/dark-matter/candidates/soliton-candidate) §3 gives the formula for the hidden sector). "Bound" refers to the strength of the magnetic interaction: at a coupling far above one, opposite magnetic charges attract strongly and bind [T]. If magnetic counterparts exist, their absence from experiments follows from the structure of the theory itself, which is what #11 means by "structural".
 
 ### The convention behind 34
 
@@ -67,9 +67,9 @@ The figure 34 depends on how Dirac's condition is normalized. Round 2 of the sol
 
 > Convention: 1/(4α) = 34.26 (eg = 2πn) vs 1/α = 137.04 (eg = 4πn). One-loop SM running of α_em gives 1/(4α_em) = 29.0 at 10¹¹, 28.8 at 3×10¹¹ and 27.3 at 10¹⁶ GeV. The referee's "toward ~6–8" is **not reproduced** for the electromagnetic coupling; 6–8 appears only for 1/(4α₃). The valid core stands: the number is convention-dependent by a factor of 4.
 
-SM is the Standard Model, and α₃ the strong-force coupling. The item was written for the hidden sector of the soliton manuscript, but its arithmetic concerns α itself: writing Dirac's condition with 2πn or with 4πn changes the smallest magnetic charge by a factor of two and the magnetic coupling by four [T], and the coupling also changes slowly with the energy at which α is evaluated. The round-3 referee's script prints the same two values, "alpha_m = g_m^2/4pi = 34.259" and "alpha_m = 1/alpha = 137.036" (`review/round3/referee/step2a.out`). Ruling 12 of round 3 accepted the related point that Zwanziger's paper states the pairing in 4πℤ where the manuscripts write 2πℤ ([round-3 rulings](/wiki/method/review/round-3/rulings)). The figure should not be quoted without its normalization.
+SM is the Standard Model, and α₃ the strong-force coupling. The item was written for the hidden sector of the soliton manuscript, but its arithmetic concerns α itself: writing Dirac's condition with 2πn or with 4πn changes the smallest magnetic charge by a factor of two and the magnetic coupling by four [T], and the coupling also changes slowly with the energy at which α is evaluated. The round-3 referee's script prints the same two values, "alpha_m = g_m^2/4pi = 34.259" and "alpha_m = 1/alpha = 137.036" (`review/round3/referee/step2a.out`). Ruling 12 of round 3 accepted the related point that Zwanziger's abstract states the pairing in 4πℤ where #14 writes 2πℤ, as #11 does ([round-3 rulings](/wiki/method/review/round-3/rulings)). The figure should not be quoted without its normalization.
 
-Quoted as #11 writes it, the expression 4π/e² stands beside the condition e·g ~ 2π. With α = e²/4π [T], 4π/e² is 1/α, which R2 pairs with eg = 4πn and the value 137.04, while R2 pairs the value 34.26 with 1/(4α) and eg = 2πn. Whether #11's e means the smallest charge, as here, or twice it, as for the gauge coupling g_d of #14 (whose smallest charge is g_d/2, so that its monopoles have g_m = 4π/g_d, #14 §2), is queried in this wiki's list of suspected source errors (`review/wiki-build-flags.md`); the statement above is #11's, unchanged.
+Quoted as #11 writes it, the expression 4π/e² stands beside the condition e·g ~ 2π. With α = e²/4π [T], 4π/e² is 1/α, which R2 pairs with eg = 4πn and the value 137.04, while R2 pairs the value 34.26 with 1/(4α) and eg = 2πn. Whether #11's e means the smallest charge, as here, or twice it, as for the gauge coupling g_d of #14 (whose smallest charge is g_d/2, so that its monopoles have g_m = 4π/g_d, #14 §2), is not stated in #11. The expression is flagged as a suspected source error: the number 34 is R2's 2πn value, and the formula written beside it is not (see flag 28 in `review/wiki-build-flags.md`). The statement above is #11's, unchanged.
 
 ### Not the dead α_d ≈ 34
 
