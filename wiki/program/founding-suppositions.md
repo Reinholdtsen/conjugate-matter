@@ -7,17 +7,29 @@ sources:
   - "papers/broken-born-checkpoint-v2.md App. A"
   - "HANDOFF.md §3 row 11"
   - "HANDOFF.md §2"
+  - "papers/broken-born-checkpoint-v2.md §7"
+  - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §10"
-  - "papers/broken-born-checkpoint-v2.md §11.1"
+  - "papers/broken-born-checkpoint-v2.md §11"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14 item 8"
+  - "notes/broken-born-theory.md §6"
+  - "verify/soliton_obituary.py"
+  - "popsci/angle-of-the-mirror.md 'The method is the message'"
 ---
 
-*The founding suppositions are the eleven ideas P.R. brought to the program at its start, and Appendix A of the checkpoint (#11) lists each with the fate the later work gave it. One became the program's hard core. Others survived in changed form: the conjugate universe became a second description of one state, and the idea that momentum space has its own gravity became a heavy, hidden field. One was promoted to a theorem, one split into a dead half and a living half, and two died, including the founding image of dark matter clumping in velocity rather than in space. The audit is the record of which parts of the starting picture the calculations kept.*
+*The founding suppositions are the eleven ideas P.R. brought to the program at its start. Appendix A of the checkpoint (#11) lists each with the fate the later work gave it. One became the program's hard core. Others survived in changed form: the conjugate universe became a second description of one state, conjugate matter became a dark-matter candidate that clusters in space like any other, and the idea that momentum space has its own gravity became a heavy, hidden field. One was promoted to a theorem, one split into a dead half and a living half, one turned out to be established physics, and two died, including the founding image of dark matter clumping in velocity rather than in space. The audit is the record of which parts of the starting picture the calculations kept.*
 
-**Status:** Record — untagged — the audit is #11 Appendix A, added in v2.0 (HANDOFF §3 row 11); each fate was decided in the part of #11 cited beside it. P.R. is Paul, who supplies the program's conjectures and direction ([the collaboration](/wiki/method/collaboration)).
+**Status:** Record — untagged. The audit is #11 Appendix A, added in v2.0 (`HANDOFF.md` §3 row 11), and each fate was decided in the part of #11 cited beside it. P.R. is Paul, who supplies the program's conjectures and direction ([the collaboration](/wiki/method/collaboration)).
 
-## Key facts
+## The audit
+
+#11 Appendix A is headed "Audit of founding suppositions (P.R., with fates)". It lists eleven one-line suppositions, each followed by a verdict in bold and, for most, the section of #11 where the verdict was reached. The suppositions are P.R.'s; the derivations that decided their fates are the program's, under the attribution "conjecture and direction, P.R.; derivations, counterexamples, verification, drafting, Claude (Anthropic)". The handoff lists the appendix among the checkpoint's additions in v2.0: "Appendix A supposition audit (11 items with fates)" (`HANDOFF.md` §3 row 11).
+
+The fates use a small vocabulary. "Alive" with a qualifier (transformed, modified, corrected) means the idea survives in an altered form; "promoted to theorem" and "vindicated" mean a derivation turned it into a result; "split" means one part died and another survived; "dead" means a calculation or the data killed it, and the program's rule is that dead claims stay dead ([negative results and dead claims](/wiki/method/negative-results)).
+
+## The eleven at a glance
 
 | # | Supposition (P.R.) | Fate (#11 App. A) | Wiki pages |
 | --- | --- | --- | --- |
@@ -33,12 +45,85 @@ sources:
 | 10 | Momentum space has its own gravity | **vindicated, transformed**: dynamical, massive, reciprocity-odd (§7) | [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) |
 | 11 | A full magnetic mirror-family, quarks included | **alive as established physics** (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition | [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) |
 
-- Wording. Item 1's QM is quantum mechanics. In items 2 and 7, "two descriptions" is the wiki's wording for #11's bookkeeping metaphor ("two ledgers"), per the house register. Item 7's DESI DR3 is Data Release 3 of the Dark Energy Spectroscopic Instrument, which #11 §10 calls "the decisive test" of the dark-energy sector.
-- Item 5, unresolved wording: #11 §11.1 calls "true but irrelevant" "the empty set"; Appendix A calls it "measure zero". The verdict is the same either way: as an explanation of the missing monopoles the idea is dead.
-- Item 3's loophole: #11 §12 says topological momentum-space localization "remains untested, but has no candidate"; #11 §14 item 8 says the p-localization items "are closed by the §12 obituary". The two statements are not reconciled. Read together, the logical loophole is untested, and it has no candidate and no work item.
-- The dead items (3 as dynamics, 5 as explanation, 9) are also on HANDOFF §2's list of claims killed by the program's own calculations, and they stay dead. See [the graveyard](/wiki/status/graveyard).
+In items 2 and 7 the table writes "two descriptions" where #11 writes "two ledgers"; the handoff uses the same wording ("one event, two descriptions", `HANDOFF.md` §2). Item 1's QM is quantum mechanics, and item 7's DESI DR3 is Data Release 3 of the Dark Energy Spectroscopic Instrument.
+
+## How each fate was decided
+
+### 1. Symmetrize QM around conjugate variables
+
+P.R.'s starting idea was to treat position and momentum, the conjugate variables of quantum mechanics, symmetrically at the foundation. It survived as the program's [hard core](/wiki/program/hard-core) in a sharper form: the quarter-turn ρ: (x, p) → (p, −x) is an exact symmetry of the laws, the vacuum breaks it, and only the symplectic form ω is rigid (#11 §3–§4). How it reached that form, through the repair of the second postulate forced by the [nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), the credit to Freidel, Leigh and Minic, and the toy models' Goldstone-angle refinement, is told on the hard-core page.
+
+### 2. A coexisting conjugate universe
+
+The second universe became a second description of the same state: the universe described in momentum variables, with a momentum-space scale factor ã that is tied to ours by a·ã = 1 (#11 §10). The transformation is set out on [the conjugate universe](/wiki/program/conjugate-universe).
+
+### 3. Matter clumps in momentum space
+
+This was the program's founding image: dark matter clustering in velocity rather than in space. Debt 3 tested it on both sides of the particle–wave divide (#11 §9; [momentum clumping](/wiki/dark-matter/momentum-clumping)):
+
+- **Particles [D].** The mean-field criterion for collective growth, g·n_gate ≥ m·min(σ, v\*)², "fails by 10²⁸–10³¹ at the scattering benchmark". Satisfying it at fixed σ₀/m "forces m ≲ 0.1 meV, where N_occ ~ 10²⁰", so collective momentum-space behaviour and classical particles exclude each other (the [classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)).
+- **Waves [D + T].** If the same coupling also makes the cores of dwarf galaxies, condensation is mandatory only in ultra-faint dwarfs ("Segue 1: rate ratio ~660; condensation ~10⁴ yr"), where the collapsing condensate would drain the halo. That is "falsified by observed UFD density and longevity" ([Obituary: Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
+- **Free coupling.** Left free, velocity streams are "tunable across ~10 orders: optional, never required".
+
+The net theorem: velocity-space clumping is "nowhere mandatory — forbidden (particles), fatal (committed wave), decorative (free wave)" ([the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). The salvage was a new observable, [the island discriminant](/wiki/predictions/island-discriminant). The audit's loophole, localization of individual topological objects in momentum space, is discussed under the unresolved points below.
+
+### 4. Dark matter is conjugate matter
+
+The modification is stated in the fate: "x-clumping, gated self-force". Conjugate matter χ clusters in position like any dark matter; it "propagates on g (equivalence principle; Bullet-Cluster-safe)", and its self-interaction passes through a gate in relative momentum. Two χ quanta interact by exchanging the massive momentum graviton X, which they can do only where their momentum-space wavepackets overlap [D — mechanism; shape [O]] (#11 §8; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). The observable is a knee in the self-interaction cross-section σ_T(v) at a velocity v\* ([row 1](/wiki/predictions/self-interaction-knee)). Since v2.1 it is one of two dark-sector candidates, with the X-condensate (#11 §12; [dark-sector candidates](/wiki/dark-matter/candidates)).
+
+### 5. Monopoles live in conjugate space, explaining non-detection
+
+#11 §11.1 gives the two halves of the split [D]:
+
+- **As an explanation, dead.** Magnetic monopoles have never been detected, and the supposition explained this by placing them in conjugate space. The objection: "the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T]" ([Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
+- **As ontology, alive.** If conjugate-sector monopoles exist they have consequences, because "by P4, conjugate-sector solitons gravitate" ([conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)). P.R. supplied the correction that existence without consequences is not an option; the wording is discussed below.
+
+The "knot candidate it fed" was superheavy soliton dark matter, developed into the standalone manuscript #14 and retired in v2.1. The round-3 review found its abundance misnormalized: "One defect per Hubble volume gives p ≈ 104 [V]", and "the v3 benchmark of 3×10¹³ GeV is overproduced by 2.1×10³–1.2×10⁴ [V]" (#11 §12; checked in `verify/soliton_obituary.py`; [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+
+### 6. Conjugate universe shrinks as ours expands
+
+The rigidity of ω fixes the volume of a comoving cell of phase space, so the position-space scale factor a and the momentum-space scale factor ã satisfy a·ã = 1: "ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus" [D] (#11 §10; derived in #1 §6). A supposition became a derived relation ([the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)).
+
+### 7. Our expansion reverses at their bounce
+
+The correction is to read the two events as one: through a·ã = 1, our turnaround and the conjugate universe's bounce are the same event in two descriptions, "by constraint identity" (#11 §10; [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). The turnaround needs the dark-energy potential V(τ) to become negative, a point the documents leave unresolved ([Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)). It is a long-horizon prediction ([row 5](/wiki/predictions/fate-of-expansion)); "live at DESI DR3" refers to the near-term proxy, the dark-energy drift of [row 4](/wiki/predictions/dark-energy-drift), for which #11 §10 calls DR3 "the decisive test".
+
+### 8. Synchronized, not causal; Fourier/holography
+
+The two descriptions relate as a signal and its spectrum, not as cause and effect. The working content is the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), the derived rule w_eff = −w̃ for how energy on the momentum side acts on our expansion [D — corrected en route] (#11 §10). The holographic half is "loosened": it survives only in the fact that the dark-energy field τ lives on a boundary, the Shilov boundary of the Siegel domain (#11 §6; [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)).
+
+### 9. Their collapse is our acceleration
+
+The supposition had the conjugate universe's collapse drive our accelerating expansion. It died twice (`HANDOFF.md` §2: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)"):
+
+- **First, by data.** With the early heuristic translation rule, collapsing conjugate matter acted on our expansion as a fluid with w = −2, a value the data exclude.
+- **Second, by the mathematics.** With the derived dictionary, dust on the momentum side acts on our expansion as dust: "dust maps to dust — the w=−2 pathology is gone because it was an artifact" (#1 §6). There is no acceleration left to explain.
+
+The popular article #10 says the data "already executed two of the founding ideas". The audit's record is more specific: this second death was partly mathematical, since the corrected dictionary, not a measurement, removed the mechanism ([Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
+
+### 10. Momentum space has its own gravity
+
+The supposition survived in transformed form. The momentum-space partner of the metric, the field X of the modular field, is a second graviton; two interacting massless gravitons are inconsistent ([the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go)), and X acquires a mass when the vacuum selects its polarization ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). #11 §7 states the outcome as Born's answer: "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice, its dynamics the reciprocity-symmetric branch of bimetric gravity with the second frame confined to compact Λ(4), its wedge vacuum energy zero by identity" ([Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer)).
+
+### 11. A full magnetic mirror-family, quarks included
+
+The idea already existed in the literature [T] (#11 §11.2). That every electrically charged particle has a magnetic counterpart is Montonen–Olive duality [17†-adjacent; 18†], exact in maximally supersymmetric Yang–Mills theory; "magnetic quarks" is standard vocabulary through Seiberg duality [18†]; and the dual-superconductor picture, in which condensed magnetic charge confines quarks, is "the leading mechanism for why free quarks are never seen [T, 't Hooft–Mandelstam†]" ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality); [the dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor)).
+
+The program's own addition is the polarization identification [D — structural; math T] (#11 §11.3): the Dirac–Schwinger–Zwanziger pairing of electric and magnetic charges makes the charge lattice a symplectic space, choosing which charges count as electric is choosing a Lagrangian polarization of it, and the duality is generated by the same matrix [[0,1],[−1,0]] as ρ ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). The popular article #12 went further and identified the momentum-polarized sector with the magnetic side of electromagnetism. That identification is popsci-only and is treated as dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)).
+
+## Points the record leaves unresolved
+
+- **Item 3's loophole.** #11 §12 says topological momentum-space localization of individual objects "remains untested, but has no candidate"; #11 §14 item 8 says the p-localization items "are closed by the §12 obituary". #11 does not reconcile the two. Read together, the logical loophole is untested, and it has no candidate and no work item ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+- **Item 5's wording.** #11 §11.1 calls "true but irrelevant" "the empty set (a correction supplied by P.R.)"; Appendix A quotes P.R. as saying it is "measure zero". The verdict is the same either way: as an explanation of the missing monopoles the idea is dead.
+- **Item 5 in the handoff.** `HANDOFF.md` §2 ties the surviving ontology to the soliton candidate ("As ontology they're alive (the soliton candidate)"). Since v2.1 the ontology stands while the candidacy is retired (#11 §11.1, §12).
+
+The dead items, 3 as dynamics, 5 as an explanation and 9, are also on the handoff's list of claims "killed by own calculations — keep dead" (`HANDOFF.md` §2). They stay dead, and [the graveyard](/wiki/status/graveyard) lists them.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` App. A — the eleven suppositions and their fates; §9, §10, §11.1, §12 and §14 item 8 — where the fates were decided
-- `HANDOFF.md` §3 row 11 — the audit's addition in v2.0; §2 — the dead list
+- `papers/broken-born-checkpoint-v2.md` App. A — the eleven suppositions and their fates
+- `papers/broken-born-checkpoint-v2.md` §7, §8, §9, §10, §11, §12, §14 item 8 — where the fates were decided: Born's answer, conjugate matter and the gate, the clumping obituary, the cosmology, the monopole audit and the dual spectrum, the soliton obituary, the closed p-localization items
+- `HANDOFF.md` §3 row 11 — the audit's addition in v2.0; §2 — the dead list and the deaths of the collapse mechanism
+- `notes/broken-born-theory.md` §6 — "dust maps to dust" under the corrected dictionary (lab notebook, superseded as reference)
+- `verify/soliton_obituary.py` — the [V] numbers of the soliton obituary
+- `popsci/angle-of-the-mirror.md` 'The method is the message' — "already executed two of the founding ideas" (popular article; not a status source)
