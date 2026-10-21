@@ -6,26 +6,100 @@ description: "Local shifts δX_μν = ∂₍μλ_ν₎ form a second copy of lin
 provenance: [D, T]
 sources:
   - "notes/debt1a-ii-X-classification.md §2"
+  - "notes/debt1a-ii-X-classification.md §1"
   - "notes/debt1a-ii-X-classification.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.1"
+  - "notes/debt1a-geometric-core.md §C"
+  - "notes/debt1a-geometric-core.md §D"
+  - "notes/broken-born-theory.md §1"
+  - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
+  - "notes/broken-born-program-v1.md §5"
+  - "notes/knot-dark-matter-standalone.md §1"
+  - "HANDOFF.md §2"
 ---
 
-*Dual diffeomorphisms are the local form of the momentum graviton's [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry): X may be shifted by the symmetrized derivative of an arbitrary vector field λ_μ(x), δX_μν = ∂₍μλ_ν₎. The metric fluctuation of linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity) has exactly this gauge redundancy, so X, a symmetric tensor with the same redundancy, is a second graviton-like gauge field. That identification drives the rest of the chain in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1: a second interacting massless graviton is excluded by a theorem, so X has to become massive. The result is derived and rests on standard linearized gravity [D + T].*
+*Dual diffeomorphisms are the local form of the momentum graviton's [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry): instead of adding the same constant matrix to X everywhere, X may be shifted by the symmetrized derivative of a vector field λ_μ(x) that varies from point to point, δX_μν = ∂₍μλ_ν₎. In linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity), the small ripple of the metric has exactly this kind of redundancy under small changes of coordinates, and that redundancy is what makes it a massless spin-2 field, the graviton. X is a symmetric tensor with the same redundancy, so it is a second graviton-like gauge field. A theorem excludes a second massless graviton that interacts with the first, and this identification is what forces X to become massive. The step is derived from the structure of the doubled geometry and rests on standard linearized gravity [D + T]; no document writes an action for X in which the symmetry can be checked, and no script checks it.*
 
-**Status:** Alive — [D + T] in calc note #6 (`notes/debt1a-ii-X-classification.md` §2) and in #11 §7.1 — a structural argument, not machine-checked.
+**Status:** Alive — [D + T] in calc note #6 (`notes/debt1a-ii-X-classification.md` §2) and in step (ii) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 — a structural argument, not machine-checked.
 
-## Key facts
+## The statement
 
-- Calc note #6 §2 [D + T] (see [The Debt-1 calc notes](/wiki/history/documents/debt-1-notes)): "The local version of these shifts sits inside the ω-generalized diffeomorphisms: dual-diffeomorphism parameters λ_μ(x) act as δX_μν = ∂_(μ λ_ν) — because X is symmetric, this is a second copy of linearized diffeomorphisms, making X a second graviton-like gauge field."
-- #11 §7.1, step (ii): "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is symmetric".
-- The contrast case is [double field theory](/wiki/phase-space/born-geometry/double-field-theory), where, in #6 §2's words, "the doubled partner is the antisymmetric B-field, δB = dλ, a 2-form gauge theory — spin-wise harmless." The program's reading of this contrast is [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner).
-- Two facts then close the massless option (#6 §2). With the gauge invariance, X is a second massless spin-2 field, and the [multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go) excludes interacting massless gravitons [T]. Without it, the signature obstruction leaves a Lorentz-covariant symmetric tensor no ghost-free two-derivative kinetic term ([The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli)) [T — standard]. The assembled argument is [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain).
-- The vacuum breaks these gauge symmetries (#6 §3): "The vacuum ⟨Z⟩ = i·g sits at X = 0 and is moved by the shifts: the polarization selection (η-emergence) spontaneously breaks the local dual diffeomorphisms." This is [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs).
-- The lab notebook's v0.4 addendum records the same step: "Its local gauge structure δX_μν = ∂_(μλ_ν) makes it a second graviton".
+Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its section headed "The gauge structure and the no-go [D + T]":
+
+> The local version of these shifts sits inside the ω-generalized diffeomorphisms: dual-diffeomorphism parameters λ_μ(x) act as δX_μν = ∂_(μ λ_ν) — because X is **symmetric**, this is a *second copy of linearized diffeomorphisms*, making X a second graviton-like gauge field.
+
+The checkpoint, step (ii) of its chain (#11 §7.1): "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric*". Its parenthesis contrasts the antisymmetric partner field of double field theory, which is the subject of [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner).
+
+Here X = Re Z is the real part of [the modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, a symmetric tensor field beside the metric g = Im Z, and the parentheses on the indices mean the symmetrized combination of ∂_μλ_ν and ∂_νλ_μ.
+
+## Background: linearized diffeomorphisms and the graviton [T]
+
+Write the spacetime metric as a fixed flat background plus a small ripple h_μν. An infinitesimal change of coordinates, generated by a vector field ξ_μ(x), changes h by the symmetrized derivative of ξ [T]:
+
+```text
+δh_μν = ∂₍μξ_ν₎
+```
+
+The two fields h and h + ∂₍μξ_ν₎ describe the same physical geometry in different coordinates; the linearized curvature, which is what matter can feel, is the same for both [T]. This redundancy is the gauge symmetry of linearized gravity, the linearized diffeomorphisms. It does physical work. A symmetric tensor in four dimensions has ten components, the count calc note #5 lists for the graviton (§D), but not all of them can be allowed to propagate. If they did, the components with one time index and one space index would carry kinetic energy of the wrong sign, since such components "enter with the wrong sign under any invariant contraction" (#6 §2, tagged [T — standard]). The gauge symmetry removes them, together with the other unphysical components, and what remains is a massless spin-2 field, the graviton [T].
+
+Field theory turns this around. A symmetric tensor field whose action has this gauge symmetry is a massless spin-2 field, and a single massless spin-2 field that interacts consistently reproduces general relativity [T] ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity)). Two such fields cannot interact with each other consistently ([the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go)).
+
+## The program's version
+
+### From constant shifts to local shifts
+
+The rigid symplectic group contains the translations Z → Z + B, with B a constant symmetric matrix, which shift X and leave the metric alone (#6 §1; [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). The local version replaces the constant B by ∂₍μλ_ν₎ with λ_μ(x) arbitrary. A constant shift is the special case of a λ_μ that grows linearly with position, whose symmetrized derivative is constant [T].
+
+#6 places the local shifts "inside the ω-generalized diffeomorphisms", the gauge symmetry calc note #5 named for its planned expansion of the curvature of (ω, H_Z) (§D). Neither note spells out that group. In [double field theory](/wiki/phase-space/born-geometry/double-field-theory), the analogous generalized diffeomorphisms combine ordinary changes of coordinates with the gauge transformations of the B-field, whose parameters are the components of the transformation along the dual coordinates [T]. In the program the dual-diffeomorphism parameters λ_μ(x) play that part for X.
+
+### Why the symmetry type of X decides
+
+The identification rests on one property: X is symmetric. The local shift of a symmetric tensor by a vector parameter is the symmetrized derivative, which has the same form as δh_μν = ∂₍μξ_ν₎:
+
+| Field | Symmetry type | Local transformation | What the transformation makes it |
+| --- | --- | --- | --- |
+| h_μν, the metric ripple | symmetric | δh_μν = ∂₍μξ_ν₎ | the graviton [T] |
+| X_μν = Re Z | symmetric | δX_μν = ∂₍μλ_ν₎ | "a second graviton-like gauge field" (#6 §2) |
+| B_μν, double field theory's partner | antisymmetric | δB = dλ | "a 2-form gauge theory — spin-wise harmless" (#6 §2) |
+
+So X carries "a *second copy of linearized diffeomorphisms*" (#6 §2): the same gauge structure as the graviton, with an independent parameter λ_μ in place of ξ_μ. With this symmetry intact, X would be a second massless spin-2 field. Had X been antisymmetric, the local shift would have been the antisymmetrized derivative, the gauge transformation of a 2-form field, which is the case of double field theory's B-field. Why the program's partner field is symmetric while string theory's is antisymmetric is [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner).
+
+## What follows
+
+### Both ways out are closed
+
+Calc note #6 §2 continues: "Two consistency facts then close the door on the massless option":
+
+- "Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]"
+- "With the gauge invariance, X is a second **massless** spin-2 — and massless multi-graviton cross-interactions are inconsistent (Boulanger–Damour–Gualtieri–Henneaux). X must couple (to g through the Siegel structure, to χ through the gate), so decoupling is not available. [T]"
+
+"**Therefore X must be massive.**" The first fact is the signature obstruction ([the Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli)), the second the multi-graviton no-go theorem. The assembled argument, with what each fact assumes, is [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain).
+
+### The vacuum breaks the gauge symmetry
+
+The mass comes from the vacuum. #6 §3: "The vacuum ⟨Z⟩ = i·g sits at X = 0 and is *moved* by the shifts: the polarization selection (η-emergence) **spontaneously breaks the local dual diffeomorphisms**." Because the broken symmetry is a gauge symmetry, its breaking leaves no massless Goldstone particles: the would-be Goldstone modes become extra polarizations of X, which becomes massive ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs) [T]). In #6's words, "the four would-be Goldstones π_μ of the broken λ-gauge are eaten; X becomes a **massive spin-2** with its five polarizations". That is [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs).
+
+## Scope and caveats
+
+- **Structural, not computed.** The local symmetry is read from the structure of the doubled geometry. No document writes an action for X in which it can be checked: the expansion calc note #5 defined, of the generalized curvature scalar of (ω, H_Z) "to quadratic order in X about X = 0 on the section, with ω-generalized diffeomorphisms as the gauge symmetry" (§D), is reported in no later document ([the superseded three-way classification](/wiki/gravity/momentum-graviton/forcing-chain#superseded-the-three-way-classification-of-x)).
+- **The [T] part.** What the gauge structure implies, a massless spin-2 field and the consequences of two of them, is standard field theory; the program's contribution is the identification of X's local shifts [D].
+- **Not machine-checked.** No test of [the verification battery](/wiki/method/verification/battery) covers the step, and `HANDOFF.md` §2 lists the chain among the results that stand without the check mark it gives machine-verified items.
+- **Positive metrics.** #6 calls its §1–§3 "the Euclidean-rigorous skeleton" (§3); the extension to Lorentzian signature is open item 3 ([Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
+
+## History
+
+- **Before: no second graviton.** The lab notebook's [original P2](/wiki/program/postulates/original-p2), which froze the neutral metric η as well as ω, was given a "triple duty", the first being that "it kills the would-be second graviton" (#1 §1), and its ghost accounting held that "There is no second independent metric" (#1 §4). With η emergent under [P2′](/wiki/program/postulates/p2-prime), X appeared as the fluctuation that breaks η-compatibility (#5 §C), and the claim was reversed ([the superseded no-second-graviton claim](/wiki/gravity/momentum-graviton/forcing-chain#superseded-no-second-graviton-under-the-original-p2)).
+- **The reversal.** Calc note #6 §2, quoted above. The notebook's v0.4 addendum: "Its local gauge structure δX_μν = ∂_(μλ_ν) makes it a *second graviton*" ([the lab notebook](/wiki/history/documents/lab-notebook)).
+- **The papers.** #9 §5 item 2: "**Gauge structure and no-go [D+T].** Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second copy of linearized diffs, because X is symmetric." #11 §7.1 (ii) is the current statement. The handoff summarizes it as "δX = ∂λ ⇒ second graviton" (`HANDOFF.md` §2).
+- **The withdrawn soliton manuscript.** #14 §1 states the step in compressed form: "X is symmetric and its local shift symmetry delta X_mu-nu = partial_(mu lambda_nu) is a second copy of linearized diffeomorphisms; a massless X coupled to gravity is excluded by the multi-graviton no-go [2]." The manuscript was withdrawn for its abundance arithmetic ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)), not for this statement.
 
 ## Sources
 
-- `notes/debt1a-ii-X-classification.md` §2 — the derivation [D + T]; §3 for the breaking by the vacuum
-- `papers/broken-born-checkpoint-v2.md` §7.1 — the current statement, step (ii) of the chain
-- `notes/broken-born-theory.md` 'Addendum (v0.4)' — the lab notebook's record
+- `notes/debt1a-ii-X-classification.md` §2 — the local shifts and the no-go [D + T]; §1 — the constant shifts; §3 — the breaking by the vacuum, the eaten modes and the Euclidean-rigorous skeleton.
+- `papers/broken-born-checkpoint-v2.md` §7.1 — the current statement, step (ii) of the chain.
+- `notes/debt1a-geometric-core.md` §C — X as the fluctuation that breaks η-compatibility; §D — the field counts and the unperformed expansion with "ω-generalized diffeomorphisms as the gauge symmetry".
+- `notes/broken-born-theory.md` §1, §4 — the v0.1 claim of no second graviton; 'Addendum (v0.4)' — the reversal.
+- `notes/broken-born-program-v1.md` §5 — the v1 statement.
+- `notes/knot-dark-matter-standalone.md` §1 — the withdrawn manuscript's compressed version.
+- `HANDOFF.md` §2 — the handoff's summary.
