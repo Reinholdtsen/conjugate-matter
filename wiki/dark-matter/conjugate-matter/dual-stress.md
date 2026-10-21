@@ -29,8 +29,8 @@ The dual stress enters in calc note #5, the first of [the Debt-1 calc notes](/wi
 
 The sentence has three parts.
 
-- **"Couples to H universally (P4)."** H is the generalized metric on phase space. Postulate [P4](/wiki/program/postulates/p4-polarized-matter) says matter comes in "x-polarized (Standard Model) and p-polarized (χ) representations; both couple universally to H" (#11 §4). χ is [conjugate matter](/wiki/dark-matter/conjugate-matter), the representation polarized toward momentum; the Standard Model (SM) is ordinary matter, polarized toward position.
-- **"The X-block."** Calc note #5 writes H through the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, with Y = g the spacetime metric and X the momentum graviton (§C):
+- **"couples to H universally (P4)"**. H is the [generalized metric](/wiki/phase-space/born-geometry/born-structures) on phase space. Postulate [P4](/wiki/program/postulates/p4-polarized-matter) says matter comes in "x-polarized (Standard Model) and p-polarized (χ) representations; both couple universally to H" (#11 §4). χ is [conjugate matter](/wiki/dark-matter/conjugate-matter), the representation polarized toward momentum; the Standard Model (SM) is ordinary matter, polarized toward position.
+- **"the X-block"**. Calc note #5 writes H through the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, with Y = g the spacetime metric and X the momentum graviton (§C):
 
   ```text
   H_Z = [ Y + X Y⁻¹ X    X Y⁻¹ ]
@@ -38,7 +38,7 @@ The sentence has three parts.
   ```
 
   At X = 0 the off-diagonal blocks vanish and H reduces to diag(g, g⁻¹). The "X-block" is the part of H that X carries, and the dual stress is what χ couples to there. The note does not say which entries of H_Z it has in mind.
-- **"Moments involving momentum-derivatives of the χ bilinear."** A bilinear is a product of the field with its conjugate, such as χ\*χ for a complex scalar [T]; ordinary stress-energy is such a bilinear with two spacetime derivatives (below). The dual stress is built instead from derivatives with respect to momentum, along the momentum fiber, the momentum directions of phase space attached to each point of spacetime. The note uses the word "moments" and specifies neither which moments nor their weights. No later document writes T̃ out.
+- **"moments involving momentum-derivatives of the χ bilinear"**. A bilinear is a product of the field with its conjugate, such as χ\*χ for a complex scalar [T]; ordinary stress-energy is such a bilinear with two spacetime derivatives (below). The dual stress is built instead from derivatives with respect to momentum, along the momentum fiber, the momentum directions of phase space attached to each point of spacetime. The note uses the word "moments" and specifies neither which moments nor their weights. No later document writes T̃ out.
 
 ## Background: stress-energy as the charge of gravity [T]
 

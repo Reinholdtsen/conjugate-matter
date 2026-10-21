@@ -20,11 +20,13 @@ sources:
   - "notes/debt3b-wave-island.md 'The rate'"
   - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
   - "popsci/universes-other-half.md"
+  - "papers/conjugate-special-relativity.md §4"
+  - "review/wiki-build-flags.md item 17"
 ---
 
 *The gated scattering law gives the momentum-transfer cross-section σ_T of [conjugate matter](/wiki/dark-matter/conjugate-matter), the measure of how strongly its particles scatter off one another, as a function of the relative velocity v of a colliding pair. Because [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) turns the interaction off at large relative velocity, self-scattering is strong in dwarf galaxies, where dark matter moves at tens of kilometres per second, and absent in galaxy clusters, where it moves at thousands; between the two, σ_T bends down at a knee near the gate velocity v\*. Below the knee the scattering goes equally in all directions, unlike the forward-peaked scattering of the usual models with a light force carrier. The lab notebook first derived a sharp exponential cliff at v\*; once the gate's mechanism was found, the program kept only the knee, and the shape of its tail became an open question that observations could answer.*
 
-**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4; not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of the predictions table and read by [row 3](/wiki/predictions/island-discriminant).
+**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of the predictions table and read by [row 3](/wiki/predictions/island-discriminant).
 
 ## The law
 
@@ -38,7 +40,7 @@ sources:
 
 - **σ₀** is the cross-section at low velocity, below the gate. Its value is fixed by the cores of dwarf galaxies at [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
 - **F** is the gate function of the amplitude M(k, q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²), now written in the relative velocity. Its shape is open ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)).
-- **v\*** is the gate velocity, where the knee sits. [The lab notebook](/wiki/history/documents/lab-notebook) defines it as v\* ≡ √2μ/m_χ, with μ the gate's momentum scale and m_χ the mass of a χ particle (#1 §5.1). #11 does not restate the definition; the paper on conjugate special relativity uses it (#13 §4; [the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)).
+- **v\*** is the gate velocity, where the knee sits. [The lab notebook](/wiki/history/documents/lab-notebook) defines it as v\* ≡ √2μ/m_χ, with μ the gate's momentum scale and m_χ the mass of a χ particle (#1 §5.1). #11 does not restate the definition; the paper on conjugate special relativity uses it (#13 §4; [the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). The definition belongs to v0.1's gate e^{−k²/μ²}; a suspected factor of √2 in μ between that gate and calc note #6's overlap form, which matters once μ is read as the fiber width, is recorded for a ruling in `review/wiki-build-flags.md` item 17 ([two conventions](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)). The flag notes that no stated number changes; this page quotes the sources as written.
 
 Three claims are packed into the sentence: a knee whose existence and location are robust; a tail whose shape is open and diagnostic; and isotropy below the gate.
 
@@ -111,7 +113,7 @@ In #11's comparison of the two remaining dark-matter candidates, [χ particles](
 
 The law above is a two-body cross-section for classical particles. The Debt-3 calculations found that collective effects of the gated attraction can exist only if χ is light enough to behave as a classical wave, on what the notes call the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)). There the velocity dependence takes a different form.
 
-- **Calc note #2** (Debt 3a): on the particle island, "Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional"; on the wave island, "a cliff-analog survives as (v\*/σ)³ suppression rather than an exponential. Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/debt3a-stream-stability.md`). Here σ is the velocity dispersion of the halo.
+- **Calc note #2** (Debt 3a, the first of [the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)): on the particle island, "Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional"; on the wave island, "a cliff-analog survives as (v\*/σ)³ suppression rather than an exponential. Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/debt3a-stream-stability.md`). Here σ is the velocity dispersion of the halo.
 - **Calc note #3** (Debt 3b): the [gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), when the gate is narrow, is "suppressed by (v\*/σ)⁴ — **a power law, not an exponential**", and "The velocity suppression of self-interaction effects is e^{−v²/v\*²} on the particle island but (v\*/σ)⁴ on the wave island. The cliff's *sharpness* distinguishes the islands observationally" (`notes/debt3b-wave-island.md`, 'The rate').
 - **Calc note #4** (Debt 3c) lists among what remains "distinctively BBT's own" "the exponential cliff + in-gate isotropy (particle island)" and "the cliff-sharpness **island discriminant** (exponential vs (v\*/σ)⁴)" (`notes/debt3c-ufd-endpoint.md`).
 
@@ -131,7 +133,7 @@ In v0.1 the law was σ_T(v) = σ₀e^{−v²/v\*²}, "An exponential cliff, not 
 - "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). Row 3 of that table, velocity-space granularity, has since died ([Obituary: velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity));
 - the benchmark numbers above the gate, "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" and "Cluster self-interaction is *identically zero at any future sensitivity*" (#1 §5.1), on [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
 
-The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the exponential hold only if the gate's tail turns out to be Gaussian, and none of them has been machine-checked. The cliff's formulas, v\* ≡ √2μ/m_χ and σ₀ = 16πα̃²m_χ²/m_φ⁴, appear only in the lab notebook.
+The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the exponential hold only if the gate's tail is Gaussian, and none of them has been machine-checked. The cliff's formulas, v\* ≡ √2μ/m_χ and σ₀ = 16πα̃²m_χ²/m_φ⁴, come from the lab notebook and are not restated in #11; #13 §4 uses the definition of v\*.
 
 ## Sources
 
@@ -142,4 +144,6 @@ The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the e
 - `notes/debt3b-wave-island.md` 'The rate' — the (v\*/σ)⁴ suppression and the island discriminant
 - `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — what remains distinctive after Debt 3
 - `notes/broken-born-theory.md` §5.1 — the v0.1 law, σ₀, v\*, the two signatures, the Born caveat, the cluster numbers; §9 — the v0.1 row 1 and the flagship discriminants; §3 — the v0.1 amplitude and k = m_χv_rel/2
+- `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ with μ read as the fiber width
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling
 - `popsci/universes-other-half.md` — the knee and core smoothing in the present tense

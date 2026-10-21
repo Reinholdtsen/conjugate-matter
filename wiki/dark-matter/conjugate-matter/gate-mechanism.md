@@ -7,6 +7,7 @@ provenance: [D]
 sources:
   - "notes/debt1a-ii-X-classification.md §4"
   - "notes/debt1a-ii-X-classification.md §1"
+  - "notes/debt1a-ii-X-classification.md §2"
   - "notes/debt1a-ii-X-classification.md §3"
   - "notes/debt1a-geometric-core.md §E"
   - "notes/debt1a-geometric-core.md §D"
@@ -21,6 +22,7 @@ sources:
   - "papers/conjugate-special-relativity.md §4"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
+  - "review/wiki-build-flags.md item 17"
 ---
 
 *The gate mechanism is the program's derivation of [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): two particles of [conjugate matter](/wiki/dark-matter/conjugate-matter) interact by exchanging the massive [momentum graviton X](/wiki/gravity/momentum-graviton), and they can do so only where their wavepackets overlap in momentum space. A conjugate quantum has a finite width μ along the momentum directions, as an atomic nucleus has a finite radius in space. A nucleus's size cuts off its scattering at large momentum transfer; the χ quantum's momentum width cuts off its interaction at large relative momentum, which is the same construction with position and momentum exchanged. Because X is heavy, its exchange acts as a contact interaction, and the overlap of the two wavepackets supplies the gate. The derivation is structural: it fixes what the interaction depends on, but the exact shape of the cutoff depends on a propagator and a profile that no document has computed.*
@@ -53,9 +55,9 @@ A quantum state with a definite profile in momentum, of width μ, is a wavepacke
 
 ## The derivation as the sources give it
 
-1. **The coupling.** Conjugate matter couples universally to the generalized metric H (postulate [P4](/wiki/program/postulates/p4-polarized-matter)), and to the part of H that X carries through the [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress), "moments involving momentum-derivatives of the χ bilinear" (#5 §E).
+1. **The coupling.** Conjugate matter couples universally to the [generalized metric](/wiki/phase-space/born-geometry/born-structures) H (postulate [P4](/wiki/program/postulates/p4-polarized-matter)), and to the part of H that X carries through the [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress), "moments involving momentum-derivatives of the χ bilinear" (#5 §E).
 2. **The exchange.** "Exchange of X between two such bilinears yields a four-point amplitude that depends on the **incoming relative momenta** of the pair — the variable no x-local mediator can produce, and exactly the variable the gate was postulated in" (#5 §E). Here "x-local" means local in position.
-3. **X is massive.** Calc note #6 shows that X cannot be massless ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)) and acquires its mass when the vacuum selects a polarization, "mass M_X = the polarization-breaking scale" (§3; [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
+3. **X is massive.** Calc note #6 shows that X cannot be massless ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)) and acquires its mass when the vacuum selects a polarization, "mass M_X = the polarization-breaking scale" (§2–§3; [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
 4. **Integrating it out.** Because X is massive, "Integrating out massive X between χ bilinears gives the contact four-χ operator" (#6 §4): a contact interaction among four χ fields, as in the background above.
 5. **Where the momentum dependence enters.** A contact interaction alone carries no dependence on k. #6 locates it in the χ quanta themselves: "p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap". The coupling acts only where the two quanta's momentum profiles overlap, so it falls off when their momenta differ by much more than μ.
 6. **The Gaussian case.** If the profiles are Gaussian, the overlap "gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate", which identifies μ with "the χ quantum's own p-width" (#6 §4). The note states this result without showing the overlap integral.
@@ -80,7 +82,7 @@ A nucleus is extended in the variable conjugate to q, and its form factor depend
 
 Since the v0.4 addendum, μ is a property of a single χ quantum: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" ([the lab notebook](/wiki/history/documents/lab-notebook), #1 'Addendum (v0.4)'). Before it, μ was a free scale of the momentum-space sector (#1 §3).
 
-The lab notebook converts μ into the gate velocity, v\* ≡ √2μ/m_χ (#1 §5.1), the location of the knee in [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law). #11 does not restate this definition. At [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) the notebook gives "μ = m_χv\*/√2 ≈ 20 keV (α̃ ≈ 1)" (#1 §5.1), a number found only in the lab notebook and not machine-checked.
+The lab notebook converts μ into the gate velocity, v\* ≡ √2μ/m_χ (#1 §5.1), the location of the knee in [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law). #11 does not restate this definition. At [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) the notebook gives "μ = m_χv\*/√2 ≈ 20 keV (α̃ ≈ 1)" (#1 §5.1), a number found only in the lab notebook and not machine-checked. The definition of v\* was written for v0.1's e^{−k²/μ²}; a suspected factor of √2 in μ between that form and #6's overlap form, which matters once μ is read as the fiber width, is recorded for a ruling in `review/wiki-build-flags.md` item 17. The flag notes that no stated number changes; this page quotes the sources as written.
 
 ## What it paid
 
@@ -105,7 +107,7 @@ The paper on [conjugate special relativity](/wiki/conjugate-relativity), #13, gi
 
 > "The conjugate quantum's invariant extent fixes its intrinsic momentum-space width μ ~ ℏ/λ_χ — which is precisely the gate scale of the dark-matter sector, v\* = √2 μ/m_χ. The knee in the dark-matter self-interaction curve is, in this reading, a *dual-relativistic invariant of the dark sector* made visible in galactic dynamics [D — structural]." (#13 §4)
 
-The relation μ ~ ℏ/λ_χ is a reciprocal relation between a width in momentum and an extent in position, the relation between the widths of a waveform and its spectrum. #13 has not been through review, and it uses both λ_χ and m_χ for the conjugate quantum, while the checkpoint gives χ ordinary kinematics with mass m_χ; the two are not reconciled ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)).
+The relation μ ~ ℏ/λ_χ is a reciprocal relation between a width in momentum and an extent in position, the relation between the widths of a waveform and its spectrum. #13 combines #6's fiber width with the lab notebook's v\*, the mix that `review/wiki-build-flags.md` item 17 records. #13 has not been through review, and it uses both λ_χ and m_χ for the conjugate quantum, while the checkpoint gives χ ordinary kinematics with mass m_χ; the two are not reconciled ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)).
 
 ## Superseded: earlier forms of the mechanism
 
@@ -119,7 +121,7 @@ The mechanism reached its present form in three steps.
   ```
 
   (`notes/debt1a-geometric-core.md` §E). M_B is the mass scale of the lab notebook's geometric action, S_H = ½M_B²∫_Σ √|H| R_B[H], an integral over the section Σ, from which the Planck mass follows (#1 §3). Calc note #6 replaced the relation with μ = the χ quantum's own width, a property of the matter field rather than of the geometry, and no later document returns to M_X and M_B as the source of μ.
-- **Calc note #5: an auxiliary X.** #5 §D listed three possible outcomes for X at quadratic order. The second, an auxiliary X with no derivatives, would have been integrated out to "a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly", and #5 §E notes that "outcome 2 gives it most cheaply". Calc note #6 §1 closed that route: constant shifts of X are exact symmetries, so "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level: X appears only through derivatives, so it propagates or it doesn't exist" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). The contact operator of the current mechanism comes from integrating out a massive, propagating X instead.
+- **Calc note #5: an auxiliary X.** #5 §D listed three possible outcomes for X at quadratic order. The second, an auxiliary X with no derivatives, would have been integrated out to "a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly", and #5 §E places the gate shape "downstream of the §D classification (outcome 2 gives it most cheaply)". Calc note #6 §1 closed that route: constant shifts of X are exact symmetries, so "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level: X appears only through derivatives, so it propagates or it doesn't exist" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). The contact operator of the current mechanism comes from integrating out a massive, propagating X instead.
 
 ## Chat-only: the gate as a dual Newtonian limit
 
@@ -129,9 +131,10 @@ The mechanism reached its present form in three steps.
 
 - `papers/broken-born-checkpoint-v2.md` §8 — the checkpoint's statement and tags; §14 item 3 — Lorentzian dressing open
 - `notes/broken-born-program-v1.md` §6 — v1's statement, the same as #11's
-- `notes/debt1a-ii-X-classification.md` §4 — integrating out X, fiber overlap, the Gaussian case, the rational-tail downgrade, the cliff weakened to a knee; §3 — X massive, M_X the polarization-breaking scale, the Euclidean-rigorous skeleton; §1 — auxiliary X excluded by the shift symmetry
+- `notes/debt1a-ii-X-classification.md` §4 — integrating out X, fiber overlap, the Gaussian case, the rational-tail downgrade, the cliff weakened to a knee; §2 — the massless option excluded; §3 — M_X the polarization-breaking scale, the Euclidean-rigorous skeleton; §1 — auxiliary X excluded by the shift symmetry
 - `notes/debt1a-geometric-core.md` §E — the four-point amplitude; the superseded μ ↔ (M_X, M_B) identification; §D — the auxiliary outcome
 - `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2's mechanism paid, shape open
 - `HANDOFF.md` §2 — the mechanism among the live results; §4 — the chat-only dual Newtonian limit
 - `papers/conjugate-special-relativity.md` §4 — μ ~ ℏ/λ_χ as the gate scale
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)', 'Addendum (v0.4)' — the mechanism and the fiber width in the lab notebook; §3 — the v0.1 carrier and M_B in S_H; §5.1 — v\* ≡ √2μ/m_χ, μ ≈ 20 keV, m_φ ~ m_χ
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling

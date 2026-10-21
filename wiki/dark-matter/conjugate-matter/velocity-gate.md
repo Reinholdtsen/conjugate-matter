@@ -19,6 +19,8 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "papers/broken-born-checkpoint-v2.md Appendix A item 4"
   - "HANDOFF.md §2"
+  - "papers/conjugate-special-relativity.md §4"
+  - "review/wiki-build-flags.md item 17"
 ---
 
 *The velocity gate is a factor in the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) χ that turns the interaction off between two particles that approach each other with a large relative velocity. For an ordinary force carried through position space, the scattering amplitude depends on how much momentum the two particles exchange; the gate makes it depend also on the momentum with which they approach, a variable that, according to [the checkpoint](/wiki/history/documents/checkpoint), no carrier local in position produces. In signal terms, an ordinary contact force acts where two waveforms overlap, and the gate acts only where their spectra overlap as well. The program first postulated the gate as a Gaussian, then derived its mechanism from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) between conjugate particles. The mechanism stands as a structural derivation; the exact shape of the cutoff is open. The gate is what lets conjugate matter scatter off itself in dwarf galaxies, where dark matter moves slowly, and not in galaxy clusters, where it moves fast.*
@@ -42,7 +44,7 @@ Here "x-local" means local in position. The first factor is an ordinary scatteri
 - **k** is the incoming relative momentum. The lab notebook fixes it as "k = m_χv_rel/2", with v_rel the relative velocity of the pair (#1 §3).
 - **α̃** is the coupling constant and **m_φ** the mass of the carrier of the momentum transfer. Both enter the lab notebook's boxed amplitude without further definition; its scattering law then assumes "a heavy transfer mediator (m_φ ≳ m_χ, contact-like in x)" (#1 §5.1).
 - **μ** is the momentum scale of the gate. In v0.1 it was "a scale μ of the g̃ sector" (#1 §3), g̃ being the momentum-space metric; since the v0.4 addendum it is the χ quantum's own width in momentum (below).
-- **F** is the gate function. The lab notebook's Gaussian, e^{−k²/μ²}, tends to 1 as μ grows, and the notebook states the limit: "An x-local Yukawa is the limit μ → ∞" (#1 §3). Without the gate, the amplitude is that of ordinary [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) with a Yukawa mediator.
+- **F** is the gate function. The lab notebook's Gaussian, e^{−k²/μ²}, tends to 1 as μ grows, and the notebook states the limit: "An x-local Yukawa is the limit μ → ∞" (#1 §3). Without the gate, the amplitude is that of ordinary [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM) with a Yukawa mediator.
 
 The checkpoint's other clause, that χ propagates on the metric g, is [postulate P4](/wiki/program/postulates/p4-polarized-matter): conjugate matter falls, orbits and bends light exactly as ordinary matter does. That side of χ is on [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles). The gate concerns only its self-interaction.
 
@@ -62,7 +64,7 @@ Calc note #5 found the gate's origin in the [modular field](/wiki/phase-space/mo
 
 Calc note #6 completed it: integrating out the massive X leaves a contact interaction, and the dependence on relative momentum enters because a χ quantum has a finite width μ along the momentum directions, so two quanta exchange X only where their momentum-space wavepackets overlap (`notes/debt1a-ii-X-classification.md` §4). The coupling is on [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress) and the derivation step by step on [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism). Calc note #8 records the outcome for the program's debts: "**Debt 2:** mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5).
 
-The mechanism needs X. Under the original postulate that both the symplectic form ω and the neutral metric η are rigid ([original P2](/wiki/program/postulates/original-p2)), the generalized metric reduces to H = diag(g, g⁻¹) and calc note #5 finds "No momentum graviton, hence no geometric origin for the χ gate either"; in that branch the program "reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (`notes/debt1a-geometric-core.md` §B), GR being general relativity and SIDM self-interacting dark matter. This is part of what [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) records, and it is why the gate's derivation depends on [P2′](/wiki/program/postulates/p2-prime), under which η is emergent.
+The mechanism needs X. Under the original postulate that both the symplectic form ω and the neutral metric η are rigid ([original P2](/wiki/program/postulates/original-p2)), the [generalized metric](/wiki/phase-space/born-geometry/born-structures) reduces to H = diag(g, g⁻¹) and calc note #5 finds "No momentum graviton, hence no geometric origin for the χ gate either"; in that branch the program "reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (`notes/debt1a-geometric-core.md` §B), GR being general relativity. This is part of what [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) records, and it is why the gate's derivation depends on [P2′](/wiki/program/postulates/p2-prime), under which η is emergent.
 
 ## Two conventions, not reconciled
 
@@ -73,7 +75,9 @@ The sources write the Gaussian gate in two ways:
 #6 §4:          e^{−(p₁−p₂)²/2μ²}
 ```
 
-The first is a postulate in the incoming relative momentum. The second is the result of the overlap calculation, written in the momenta p₁ and p₂ of the two quanta. No source relates the two exponents, and μ meant a scale of the momentum-space metric in the first and the χ quantum's own momentum width in the second. #11 §8 writes the general F(k²/μ²) and fixes neither. The conflict is recorded as unreconciled on [conflicts between sources](/wiki/history/documents/source-conflicts).
+The first is a postulate in the incoming relative momentum. The second is the result of the overlap calculation, written in the momenta p₁ and p₂ of the two quanta. In v0.1, μ was a scale of the momentum-space metric; in #6 it is the χ quantum's own momentum width. #6 §4 calls its form "the postulated gate", and the v0.4 addendum carries the fiber-width reading of μ back into the lab notebook, but no source converts one exponent into the other. #11 §8 writes the general F(k²/μ²) and fixes neither. The conflict is recorded as unreconciled on [conflicts between sources](/wiki/history/documents/source-conflicts).
+
+A suspected factor of √2 in μ between the two forms is recorded for a ruling in `review/wiki-build-flags.md` item 17, with an executed check (`review/wiki-build-checks/gate_conventions.py`). It bears on the lab notebook's definition of the gate velocity, v\* ≡ √2μ/m_χ ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)), when μ is read as the fiber width, as #13 §4 reads it ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)); the flag notes that no stated number changes. This page quotes both forms as written.
 
 ## What the gate does
 
@@ -100,7 +104,7 @@ Three steps replaced the postulate:
 2. **v0.4 addendum.** "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'). The Gaussian became one possibility among others, and the scattering law's exponential cliff weakened to a knee ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)).
 3. **v1 and the checkpoint.** v1 (#9 §6) and #11 §8 replace e^{−k²/μ²} by the unspecified F(k²/μ²) and tag the claim [D — mechanism; shape [O]].
 
-The lab notebook's numbers that assume a Gaussian tail, such as "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" (#1 §5.1), hold only if the tail turns out Gaussian; they are on [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
+The lab notebook's numbers that assume a Gaussian tail, such as "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" (#1 §5.1), hold only if the tail is Gaussian; they are on [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
 
 ## What is open
 
@@ -126,3 +130,5 @@ Neither is on the current work queue (root `CLAUDE.md`, "Since the handoff"). Bo
 - `notes/broken-born-theory.md` §3 — the v0.1 Gaussian gate, k = m_χv_rel/2, the μ → ∞ Yukawa limit, the [P] and [O] tags; §5.1 — the heavy transfer mediator, the Born approximation, the Yukawa v⁻⁴ tail; §5.2 — the gated attraction in the founding image; §11 item 2 — the gate-shape derivation listed as open
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' — strict P2 removes the gate's geometric origin; the mechanism identified as X exchange
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — μ as the fiber width; Gaussian iff the fiber profile is Gaussian
+- `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ with μ read as the fiber width
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two conventions, awaiting a ruling; check in `review/wiki-build-checks/gate_conventions.py`

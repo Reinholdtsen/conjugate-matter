@@ -16,11 +16,12 @@ sources:
   - "notes/debt3a-stream-stability.md 'Setup'"
   - "notes/debt3a-stream-stability.md 'Numbers at the scattering benchmark'"
   - "notes/debt3a-stream-stability.md 'Corollary (the classicality theorem)'"
+  - "papers/conjugate-special-relativity.md §4"
 ---
 
-*The scattering benchmark is the set of numbers obtained by requiring the self-scattering of [conjugate matter](/wiki/dark-matter/conjugate-matter) to produce the flat central cores observed in dwarf galaxies. Fitting the cores fixes the cross-section per unit mass at low velocity; with an assumed mass for the carrier of the momentum transfer, that fixes the mass of a χ particle at about 70 MeV for a coupling of order one. [The checkpoint](/wiki/history/documents/checkpoint) keeps only this mass relation. The other benchmark numbers, among them the prediction that galaxy clusters show no self-interaction at any sensitivity, appear only in [the lab notebook](/wiki/history/documents/lab-notebook), rest on a Gaussian gate tail that is now an open question, and have never been checked by machine. The benchmark also fixes the coupling that the program's Debt-3 calculation used to rule out collective clumping of χ particles.*
+*The scattering benchmark is the set of numbers obtained by requiring the self-scattering of [conjugate matter](/wiki/dark-matter/conjugate-matter) to produce the flat central cores observed in dwarf galaxies. Fitting the cores fixes the cross-section per unit mass at low velocity; with an assumed mass for the carrier of the momentum transfer, that fixes the mass of a χ particle at about 70 MeV for a coupling of order one. [The checkpoint](/wiki/history/documents/checkpoint) keeps only this mass relation. The other benchmark numbers, among them the prediction that galaxy clusters show no self-interaction at any sensitivity, appear only in [the lab notebook](/wiki/history/documents/lab-notebook), rest on a Gaussian gate tail that is now an open question, and have never been checked by machine. The benchmark also fixes the coupling that the program's Debt-3 calculation used to rule out [collective clumping of χ particles](/wiki/dark-matter/momentum-clumping/founding-image).*
 
-**Status:** Alive — [D] (`notes/broken-born-theory.md` §5.1) — the mass relation is carried by #11 §8 for χ particles; no benchmark number has a `verify/` script, and for the numbers found only in the lab notebook [the iron rule](/wiki/method/verification/iron-rule) is still owed. The lab notebook's predictions above the gate are superseded.
+**Status:** Alive — [D] (`notes/broken-born-theory.md` §5.1) — the mass relation is carried by #11 §8, and v1 (#9 §6) states it for particle χ; no benchmark number has a `verify/` script, and for the numbers found only in the lab notebook [the iron rule](/wiki/method/verification/iron-rule) is still owed. The lab notebook's predictions above the gate are superseded.
 
 ## The relation
 
@@ -60,7 +61,7 @@ The notebook attaches a caveat to the coupling: "At α̃ ~ 1 the Born approximat
 
 ## The coupling is spent
 
-The benchmark leaves no free strength in the χ-particle sector, and the Debt-3 calculation used that. Calc note #2 writes the self-interaction strength as a single coupling,
+The benchmark leaves no free strength in the χ-particle sector, and the Debt-3 calculation used that. Calc note #2, the first of [the Debt-3 calc notes](/wiki/history/documents/debt-3-notes), writes the self-interaction strength as a single coupling,
 
 ```text
 g ≡ 4πα̃/m_φ² = √(πσ₀/m²)
@@ -79,7 +80,7 @@ The benchmark is therefore the particle-island benchmark. On the wave island, wh
 - **An assumption from before the mechanism.** The choice m_φ ~ m_χ was made in v0.1, when the gate was a postulate. The v0.3 addendum later identified the carrier as exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) (#1 'Addendum (v0.3, overnight)'; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). No later document revisits m_φ or relates it to the mass M_X of X ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 - **An uncited input.** The 30 cm²/g that fixes the scale is stated without a reference (#1 §5.1).
 - **The Born approximation** is marginal at α̃ ~ 1, as the notebook says.
-- **Numbers found only in the lab notebook.** μ ≈ 20 keV, the formulas for v\* and σ₀, and the predictions above the gate (below) appear only in #1. The project's rule is that every asserted number gets executed code; for these, no `verify/` script exists ([the iron rule](/wiki/method/verification/iron-rule)).
+- **Numbers found only in the lab notebook.** μ ≈ 20 keV and the predictions above the gate (below) appear only in #1. The formulas for v\* and σ₀ come from #1 and are not restated in #11; #13 §4 uses the definition of v\* ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). The project's rule is that every asserted number gets executed code; for these, no `verify/` script exists ([the iron rule](/wiki/method/verification/iron-rule)).
 
 ## Why the strength needs explaining
 
@@ -102,3 +103,4 @@ The cross-section numbers come from the exponential cliff e^{−v²/v\*²}, whic
 - `notes/debt3a-stream-stability.md` 'Setup' — the coupling g; 'Numbers at the scattering benchmark' — "spent" at the benchmark, the 28–31 orders; 'Corollary (the classicality theorem)'
 - `notes/broken-born-theory.md` §5.1 — the core-fit input, σ₀ and v\*, m_φ ~ m_χ, μ ≈ 20 keV, the Born caveat, the 300 and 1500 km/s numbers, the cluster statement; §10 — the v0.1 parameter count; §3 — the v0.1 amplitude
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' — the gate's carrier identified as X exchange
+- `papers/conjugate-special-relativity.md` §4 — the definition of v\* reused
