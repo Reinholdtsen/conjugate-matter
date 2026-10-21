@@ -7,6 +7,7 @@ provenance: [V]
 sources:
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
+  - "papers/reciprocity-toy-models.md §5"
   - "papers/reciprocity-toy-models.md §6"
   - "verify/toy_coset.py S2"
   - "verify/toy_coset.py S3"
@@ -23,9 +24,9 @@ sources:
   - "review/round4-adjudication.md 'Revisions' 2"
 ---
 
-*The vacua of [model I](/wiki/symmetry-breaking/toy-models/coset-model) are its lowest-energy configurations: constant fields H and K that are compatible, so that the potential vanishes. They form a three-dimensional family, the upper half-plane of metrics times a circle of real structures, and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ carries each vacuum to a different one, so no vacuum is symmetric (criterion S2). The entry K₁₁ of the real structure takes opposite signs in a vacuum and in its image, which makes it an order parameter (criterion S3). Three of the four directions in which the fields can vary are flat. One of them is the polarization angle: moving along it turns the line of the phase plane that counts as position, at no cost in energy. [Checkpoint #11](/wiki/history/documents/checkpoint) identifies that circle with the one on which its dark-energy field τ lives, as a matter of consistency, not as a test.*
+*The vacua of [model I](/wiki/symmetry-breaking/toy-models/coset-model) are its lowest-energy configurations: constant fields H and K that are compatible, so that the potential vanishes. They form a three-dimensional family, the [upper half-plane](/wiki/phase-space/modular-field/siegel-domain) of metrics times a circle of real structures, and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ carries each vacuum to a different one, so no vacuum is symmetric (criterion S2). The entry K₁₁ of the real structure takes opposite signs in a vacuum and in its image, which makes it an order parameter (criterion S3). Three of the four directions in which the fields can vary are flat. One of them is the polarization angle: moving along it turns the line of the phase plane that counts as position, at no cost in energy. [Checkpoint #11](/wiki/history/documents/checkpoint) identifies that circle with the one on which its dark-energy field τ lives, as a matter of consistency, not as a test.*
 
-**Status:** Alive — [V] (the worklog records "S2 pass [V]", "S3 pass [V]" and "Spectrum [V]"; checked in `verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) — confirmed by the round-4 referee; what the breaking means physically is qualified by [the twisted element](/wiki/symmetry-breaking/twisted-element).
+**Status:** Alive — [V] (the worklog records "S2 pass [V]", "S3 pass [V]" and "Spectrum [V]"; checked in `verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) — confirmed by the [round-4](/wiki/method/review/round-4) referee; what the breaking means physically is qualified by [the twisted element](/wiki/symmetry-breaking/twisted-element).
 
 ## The vacua are the compatible pairs
 
@@ -45,7 +46,7 @@ As φ goes once around its circle, L+ makes a half-turn and passes through every
 
 ### The whole vacuum manifold
 
-"The vacuum manifold is the upper half-plane times this circle." (note §2); the worklog calls it "a 3-dimensional space" ('Chunk 1 results'). Every metric H has its own circle of compatible real structures. Because the action is Sp(2, ℝ)-invariant, a symplectic map that carries the metric 1 to H carries the circle at H = 1 onto the circle at H [T].
+"The vacuum manifold is the upper half-plane times this circle." (note §2); the worklog calls it "a 3-dimensional space" ('Chunk 1 results'). Every metric H has its own circle of compatible real structures. Because the action is Sp(2, ℝ)-invariant, a [symplectic map](/wiki/phase-space/reciprocity/symplectic-form) that carries the metric 1 to H carries the circle at H = 1 onto the circle at H [T].
 
 ## How ρ acts (criterion S2)
 
@@ -98,7 +99,7 @@ The vacuum is not fixed by ρ, but it is fixed by ρ combined with the flip: "Bu
 
 ### The bridge to τ: consistency only
 
-Checkpoint #11 uses the compact direction in its cosmology: "In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." It adds: "None of this tests the cosmology; it only shows the structure is consistent." (§10, "Toy-model support (v2.2) [D][V]"; [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase); [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). The note says the same: "Motivation, not result. In a parent framework the polarization angle is identified with a dark-energy field. The Goldstone structure here is consistent with that, but untested by it." (§6). The worklog's further remark that "both toys support §10's identification" goes beyond this: only the coset model's circle is Λ(1) ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
+Checkpoint #11 uses the compact direction in its cosmology: "In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." It adds: "None of this tests the cosmology; it only shows the structure is consistent." (§10, "Toy-model support (v2.2) [D][V]"; [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase); [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). The note says the same: "Motivation, not result. In a parent framework the polarization angle is identified with a dark-energy field. The Goldstone structure here is consistent with that, but untested by it." (§6). The worklog's further remark that "both toys support §10's identification" is broader than #11's wording, which ties Λ(1) to the coset model's angle (§10) ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
 ## History
 

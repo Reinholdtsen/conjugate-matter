@@ -23,7 +23,7 @@ sources:
 
 *A sigma model is a field theory whose field takes values, at each point of spacetime, in a curved space called the target, such as a circle, a sphere or a hyperbolic plane; the action charges a cost whenever neighbouring points take distant values in the target. In a coset sigma model the target is a group divided by a subgroup, so the group acts on the target as a symmetry and every constant field is a lowest-energy state. Two results from this literature shape [model I](/wiki/symmetry-breaking/toy-models/coset-model), the program's coset model of phase-space structures. The target's metric must be positive, or the kinetic term carries a ghost, a mode of negative energy. And in two dimensions a compact continuous symmetry cannot break spontaneously, while the non-compact symmetry of a hyperbolic target can.*
 
-**Status:** Established — literature [T]; the hyperbolic-model citations were retrieved [S] in the worklog's prior-art survey and checked against the sources in round 4, which corrected an author's initial (A. Duncan) and added an erratum.
+**Status:** Established — literature [T]; the hyperbolic-model citations were retrieved [S] in the worklog's prior-art survey and checked against the sources in [round 4](/wiki/method/review/round-4), which corrected an author's initial (A. Duncan) and added an erratum.
 
 ## What a sigma model is
 
@@ -67,13 +67,13 @@ Model I avoids the ghost by contracting K's kinetic term with H, Tr(H⁻¹ ∂K�
 
 "Continuous compact symmetries cannot break spontaneously in two dimensions [13, 14]" (toy-model note §1). The references are Mermin and Wagner (1966) and Coleman (1973): [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman) [T]. In two dimensions the long-wavelength fluctuations of a would-be Goldstone mode grow without limit, because the integral ∫ d²k/k² over their wavenumbers diverges logarithmically at small k, and they wash out any order in a compact direction [T]. For the circle model this shows up as an order parameter that decays slowly, as a power of the system size, instead of approaching a constant. The [Monte Carlo of model I's frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) sees that decay in its run without a potential.
 
-Discrete symmetries are not covered: "In 1+1, a discrete symmetry can break (as in the 2D Ising model). A continuous compact one cannot (Coleman–Mermin–Wagner)" (worklog, 'Success criteria', criterion S4). Model I's lattice result uses exactly this: a potential reduces the compact angle's symmetry to a discrete one, which then orders.
+Discrete symmetries are not covered: "In 1+1, a discrete symmetry can break (as in the 2D Ising model). A continuous compact one cannot (Coleman–Mermin–Wagner)" (worklog, 'Success criteria', [criterion S4](/wiki/symmetry-breaking/toy-models/success-criteria)). Model I's lattice result uses exactly this: a potential reduces the compact angle's symmetry to a discrete one, which then orders.
 
 ## Hyperbolic sigma models: the non-compact exception
 
 "Non-compact hyperbolic models are an exception [15]" (toy-model note §1). A hyperbolic sigma model takes as target the hyperbolic space SO(1, N)/SO(N), which is one sheet of a two-sheeted hyperboloid with the positive metric described above, and whose symmetry group SO(1, N) is non-compact [T]. Reference [15] is two papers: M. Niedermaier and E. Seiler, Ann. Henri Poincaré 6, 1025 (2005), hep-th/0312293; and A. Duncan, M. Niedermaier and E. Seiler, "Vacuum orbit and spontaneous symmetry breaking in hyperbolic sigma models", Nucl. Phys. B 720, 235 (2005), with an erratum in Nucl. Phys. B 758, 330 (2006), hep-th/0405163.
 
-The second paper's abstract, as the round-4 referee retrieved it: "(ii) the SO(1,N) symmetry is spontaneously broken. For D=2 this shows that the systems evade the Mermin-Wagner theorem." (`review/round4/referee/audit-notes.md`, Step 1). The worklog's summary of the same pair: "SO(1,N) broken in D ≥ 2, evading Mermin–Wagner" ('Chunk 1 results', citations retrieved [S]).
+The second paper's abstract, as the round-4 referee retrieved it: "(ii) the SO(1,N) symmetry is spontaneously broken. For D=2 this shows that the systems evade the Mermin-Wagner theorem." (`review/round4/referee/audit-notes.md`, Step 1). The worklog's summary of the second paper: "SO(1,N) broken in D ≥ 2, evading Mermin–Wagner" ('Chunk 1 results', citations retrieved [S]).
 
 The program's documents give the result by citation only, not its mechanism. The worklog first framed the exception as one for "non-amenable groups" ('Success criteria'). A group is amenable when an invariant average over it exists [T]. Compact groups and abelian groups are amenable; Sp(2, ℝ) and SO(1, N) with N ≥ 2 are not [T]. The referee kept that framing for model I ("Model I's group Sp(2,R) is non-amenable", Step 3), while version 2 of the note states the exception for hyperbolic models.
 

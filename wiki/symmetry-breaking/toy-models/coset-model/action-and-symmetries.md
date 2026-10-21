@@ -19,12 +19,13 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
 ---
 
 *Model I's action is the integral, over a flat two-dimensional base, of a Lagrangian with three terms: two kinetic terms, which cost action when the fields vary from point to point, and a potential that vanishes exactly when the two fields are compatible. The fields are geometric structures on the phase plane of one particle moving in one dimension: a metric H, parametrized by a point of the upper half-plane, and a real structure K, whose two eigenlines are the candidate position and momentum axes. The action is unchanged by every symplectic (area-preserving) linear map of the phase plane, which includes [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ, and by the separate flip K → −K. That invariance is criterion S1, checked symbolically, and it supplies the "genuine Noether symmetry" that [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) asks for.*
 
-**Status:** Alive — [V] (the worklog records "S1 pass [V]"; criterion S1 in `verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) — confirmed independently with sympy by the round-4 referee ("all three terms Sp(2,R)-invariant").
+**Status:** Alive — [V] (the worklog records "S1 pass [V]"; criterion S1 in `verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) — confirmed independently with sympy by the [round-4](/wiki/method/review/round-4) referee ("all three terms Sp(2,R)-invariant").
 
 ## The setting: one position and one momentum
 
@@ -117,7 +118,7 @@ The prior-art survey found that "no existing action has Born reciprocity exactly
 
 ## Notation
 
-These pages follow the toy-model note: K is the real structure and η = ωK, as in #11 §14 item 11. Checkpoint #11's postulate P2′ writes the real structure as J and the order parameter as η = HJ (§4). The sources do not reconcile the two namings ([notation](/wiki/notation); [P2′](/wiki/program/postulates/p2-prime)).
+These pages follow the toy-model note: K is the real structure and η = ωK, as in #11 §14 item 11. Checkpoint #11's postulate P2′ writes the real structure as J and the order parameter as η = HJ (§4). These are not two names for one operator: #11 §5 defines both, J = η⁻¹H and K = η⁻¹ω, and the documents differ in which one they call the structure chosen spontaneously. The sources do not reconcile the two ([the order parameter](/wiki/symmetry-breaking/order-parameter); [notation](/wiki/notation); [P2′](/wiki/program/postulates/p2-prime)).
 
 ## Sources
 
@@ -128,4 +129,4 @@ These pages follow the toy-model note: K is the real structure and η = ωK, as 
 - `review/round4/referee/out_model1.txt` — the referee's printed identities and kinetic-term checks
 - `review/round4-adjudication.md` 'Verdict' — the algebra reproduced
 - `notes/toy-lagrangian.md` 'Success criteria', 'Predictions', 'Chunk 1 results', 'Assessment against the predictions' — criterion S1, the prediction, the S1 pass [V], the reason for the H-contracted kinetic term, the prior-art survey
-- `papers/broken-born-checkpoint-v2.md` §4, §14 item 11 — P2′'s J notation; the criterion as met
+- `papers/broken-born-checkpoint-v2.md` §4, §5, §14 item 11 — P2′'s J notation; the definitions J = η⁻¹H and K = η⁻¹ω; the criterion as met
