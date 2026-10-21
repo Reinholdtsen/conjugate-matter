@@ -21,7 +21,7 @@ sources:
 
 *The elementary symmetric polynomials of a list of numbers are the sums of all products of distinct entries taken n at a time: e₁ is the sum, e₂ the sum of all pairwise products, and so on up to the product of all the entries, with e₀ = 1. Applied to the eigenvalues of the matrix √(g⁻¹f), built from the two metrics of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), they are the building blocks of the ghost-free bimetric potential, which is a linear combination of them with constant coefficients. Power sums beyond the first, such as p₄, the sum of fourth powers, can be written in terms of the eₙ by Newton's identities, but only as nonlinear polynomials, so they lie outside that family. The program's [verification battery](/wiki/method/verification/battery) checks two facts of this algebra: the linear coefficients of the eₙ near the identity matrix, which give the tadpole of the program's potential (test T6), and that p₄ is not a linear combination of the eₙ (test T7).*
 
-**Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded gate run ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the metric-tier structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of calc note #7, not on the test.
+**Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded gate run ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the [metric-tier](/wiki/gravity/tuning-test/metric-tier-failures) structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of [calc note #7](/wiki/history/documents/debt-1-notes), not on the test.
 
 ## Definition
 
@@ -77,7 +77,7 @@ This is the algebra behind a statement of [calc note #7](/wiki/history/documents
 
 ### The matrix √(g⁻¹f)
 
-[Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has two dynamical metrics, g and f. Its potential is built from the matrix 𝕏 = √(g⁻¹f), a square root of g⁻¹f, so that 𝕏² = g⁻¹f [T]. When g and f are positive definite, g⁻¹f has positive eigenvalues and exactly one square root with positive eigenvalues [T]; its eigenvalues are what #7 §2 calls "the square-root eigenvalues". Calc note #7 works in this Euclidean setting ("in the vacuum frame (g₀ = 1), Euclidean skeleton", §2). The extension of the program's results to Lorentzian signature is [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing).
+[Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has two dynamical metrics, g and f. Its potential is built from the matrix 𝕏 = √(g⁻¹f), a square root of g⁻¹f, so that 𝕏² = g⁻¹f [T]. When g and f are positive definite, g⁻¹f has positive eigenvalues and exactly one square root with positive eigenvalues [T]. #7 §2 speaks of "the square-root eigenvalues" without saying which of the two metrics is held fixed, so it leaves open whether the root is √(g⁻¹f) or its inverse, √(f⁻¹g) (see below). Calc note #7 works in this Euclidean setting ("in the vacuum frame (g₀ = 1), Euclidean skeleton", §2). The extension of the program's results to Lorentzian signature is [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing).
 
 ### The potential
 
@@ -134,7 +134,7 @@ T6 checks the coefficients numerically [V]. It draws one random symmetric 4 × 4
 PASS  T6 e_n(1+delta) linear coefficients = C(3,n-1) = [0,1,3,3,1]  [[0.0, 1.0, 3.0, 3.0, 1.0]]
 ```
 
-The test evaluates one random matrix, so it confirms the formula on one instance; the general statement rests on the counting argument above. It is one of the seven tests the checkpoint counts as Tier 1, "the binomial linearization coefficients" (#11 §2). `HANDOFF.md` §5 lists it as "T6 eₙ(1+δ) linear coefficients = C(3,n−1)", and the handoff's Appendix A, from which the script was copied, expects "T6 = [0,1,3,3,1]".
+The test evaluates one random matrix, so it confirms the formula on one instance; the general statement rests on the counting argument above. It is one of the seven tests the checkpoint counts as Tier 1, "the binomial linearization coefficients" (#11 §2). `HANDOFF.md` §5 lists it as "T6 eₙ(1+δ) linear coefficients = C(3,n−1)", and [the handoff](/wiki/history/documents/handoff)'s Appendix A, from which the script was copied, expects "T6 = [0,1,3,3,1]".
 
 ## The span test (battery T7)
 
