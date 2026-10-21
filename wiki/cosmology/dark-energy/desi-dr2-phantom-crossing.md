@@ -22,9 +22,9 @@ sources:
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
-*DESI DR2's phantom crossing is the finding, reported in 2025 from the second data release (Data Release 2, DR2) of the Dark Energy Spectroscopic Instrument (DESI), that the dark-energy equation of state favoured by the data lies above −1 at low redshift and crosses below −1, into the phantom regime, at redshifts above about 0.4, in every combination of datasets analysed. The program requires dark energy never to be phantom, so its requirement stands against the direct reading of these data, and its dark-energy sector is under real pressure. The sector survives on two stated points: fits without a phantom phase remain compatible at about two standard deviations, and the equation of state is inferred from distance measurements rather than observed. The third data release is the decisive test.*
+*DESI DR2's phantom crossing is the finding, reported in 2025 from the second data release (Data Release 2, DR2) of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI), that the dark-energy equation of state favoured by the data lies above −1 at low redshift and crosses below −1, into the [phantom regime](/wiki/cosmology/dark-energy/phantom-divide), at redshifts above about 0.4, in every combination of datasets analysed. The program [requires dark energy never to be phantom](/wiki/cosmology/dark-energy/no-phantom-bound), so its requirement stands against the direct reading of these data, and its dark-energy sector is under real pressure. The sector survives on two stated points: fits without a phantom phase remain compatible at about two standard deviations, and the equation of state is inferred from distance measurements rather than observed. The third data release is the decisive test.*
 
-**Status:** Record — the measurement is cited [21S] in [checkpoint #11](/wiki/history/documents/checkpoint) §10, "Under pressure (v2.1)" — raised by the round-3 referee, accepted as ruling 11 and written into #11 v2.1; per the root `CLAUDE.md` the dark-energy sector is "under real pressure ahead of DR3", DESI's Data Release 3.
+**Status:** Record — the measurement is cited [21S] in [checkpoint #11](/wiki/history/documents/checkpoint) §10, "Under pressure (v2.1)" — raised by the [round-3](/wiki/method/review/round-3) referee, accepted as ruling 11 and written into #11 v2.1; per the root `CLAUDE.md` the dark-energy sector is "under real pressure ahead of DR3", DESI's Data Release 3.
 
 ## What DESI reported
 
@@ -42,7 +42,7 @@ Three terms in the quotation need a gloss.
 
 - **w(z)** is the dark-energy equation of state, pressure over energy density, as a function of redshift z ([quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence)). A cosmological constant has w = −1 at every z.
 - **A phantom crossing** is a passage of w(z) through −1. Below −1 the dark-energy density grows as space expands, which an ordinary scalar field cannot do ([the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)). In the reported shape, w was below −1 at earlier times, above z ≃ 0.4, and is above −1 at later times.
-- **The favoured w(z)** is the best-fitting curve of a fitted model. The survey measures distances with the baryon-acoustic-oscillation ruler, and w(z) follows only after a form for it is chosen and fitted together with other data ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). "Every dataset combination" and "independent of parametrization choices" are the paper's statements that the shape does not depend on one particular choice of data or of form.
+- **The favoured w(z)** is the best-fitting curve of a fitted model. The survey measures distances with the baryon-acoustic-oscillation ruler, and w(z) follows only after a form for it is chosen and fitted together with other data ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). #11's "in every dataset combination" and the paper's "rather independent of parametrization choices" say that the shape does not hinge on one particular choice of data or of form.
 
 ## What it means for the program
 
@@ -52,8 +52,8 @@ The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessenc
 
 The two points are these.
 
-1. **Non-phantom fits remain compatible.** Fits of quintessence models that never cross −1 are still acceptable: #11 §10 gives the current state as "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ)", citing [19S], Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542.
-2. **w(z) is inferred.** A fitted phantom phase can arise without any component that is intrinsically phantom ([the phantom divide](/wiki/cosmology/dark-energy/phantom-divide)). The program's kill condition counts only "robust intrinsic w < −1" (#11 §13 row 4), and the lab notebook spelled out the distinction: w < −1 "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background" (#1 §7 item 1), ΛCDM being the standard model of a cosmological constant plus cold dark matter.
+1. **Non-phantom fits remain compatible.** Fits of quintessence models that never cross −1 are still acceptable: #11 §10 gives the current state as "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ)" [19S, 20S, 21S], and cites the survival point to [19S], Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542.
+2. **w(z) is inferred.** A fitted phantom phase can arise without any component that is intrinsically phantom ([the phantom divide](/wiki/cosmology/dark-energy/phantom-divide)). The program's kill condition counts only "robust intrinsic w < −1" (#11 §13 row 4), and the [lab notebook](/wiki/history/documents/lab-notebook) spelled out the distinction: w < −1 "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background" (#1 §7 item 1), ΛCDM being the standard model of a cosmological constant plus cold dark matter.
 
 In this wiki's reading, both points concern whether the data meet the kill condition; neither is evidence for the bound. The weakening at low redshift, "a phase of w > −1", is the behaviour the program requires; the phantom phase at higher redshift is the behaviour it excludes; and the favoured w(z) contains both.
 
@@ -82,9 +82,9 @@ Within #11 the two passages disagree: the italic one reads the data as the requi
 
 ## Data Release 3: three outcomes
 
-The [handoff](/wiki/history/documents/handoff) names the next release as the program's external clock: "DESI DR3 (three-year data, expected late 2026). Kill conditions: robust constant w = −1 kills the τ sector; robust intrinsic w < −1 kills the framework outright; continued thawing drift keeps it alive (shared with other dynamical-DE models)" (`HANDOFF.md` §2), DE being dark energy. #11's row 4 states the same kill conditions ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift)).
+The [handoff](/wiki/history/documents/handoff) names the next release as the program's external clock: "DESI DR3 (three-year data, expected late 2026). Kill conditions: robust constant w = −1 kills the τ sector; robust intrinsic w < −1 kills the framework outright; continued thawing drift keeps it alive (shared with other dynamical-DE models)" (`HANDOFF.md` §2), DE being dark energy. The "three-year" label is listed as a suspected slip in the source (`review/wiki-build-flags.md` item 26); the wiki quotes it as written. #11's row 4 states the first two kill conditions as "kills τ-sector" and "kills outright" ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift)).
 
-| Outcome of Data Release 3 | Consequence (HANDOFF §2; #11 §13 row 4) |
+| Outcome of Data Release 3 | Consequence (HANDOFF §2) |
 | --- | --- |
 | Robust constant w = −1 | kills the τ sector |
 | Robust intrinsic w < −1 | kills the framework outright |
@@ -92,7 +92,7 @@ The [handoff](/wiki/history/documents/handoff) names the next release as the pro
 
 The journey article #10 calls these "Three doors": "Constant kills the theory's heart. Phantom kills it outright. Continued weakening keeps it alive — shared credit with other dynamical-dark-energy models, but alive" ('The referee is already on the field'; [the popular articles](/wiki/history/documents/popular-articles)). The other popular article, #12, says instead that the framework "survives only the first outcome" (a strengthening of the weakening trend), so that a constant would also be fatal; the row-4 page records that popsci-only reading against #11's.
 
-The withdrawn #14 gave a third reading: both robust outcomes kill "the parent framework's cosmological sector" (§5, exclusion condition 6). #11 ranks above it, and #11 makes the phantom outcome fatal to the whole framework.
+The withdrawn #14 gave a third reading: both robust outcomes kill "the parent framework's cosmological sector" (§5, exclusion condition 6). #11 ranks above it; its row 4 has the phantom outcome kill "outright", against "kills τ-sector" for a constant, and the handoff reads that as the whole framework.
 
 ## Superseded: the earlier readings of DESI
 
