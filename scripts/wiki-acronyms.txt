@@ -1,0 +1,98 @@
+# Acronyms used in wiki/, one per line: ACRONYM<TAB>expansion, or ACRONYM<TAB>-
+# for names and common knowledge that need no expansion.
+#
+# scripts/check-wiki.py fails on an acronym that is not listed here, and on a
+# page that uses a listed acronym without spelling out its expansion within
+# about 180 characters of one use, or making the acronym itself a link label.
+# Per page, not per wiki: a reader arriving from a search engine has read no
+# other page.
+#
+# An acronym with two meanings gets the one this wiki uses; spell the other out.
+# GW is Grosse–Wulkenhaar here, so gravitational waves are always written out.
+
+# The program and its documents
+BBT	Broken-Born
+FLM	Freidel–Leigh–Minic
+
+# Physics, general
+GR	general relativity
+SR	special relativity
+QM	quantum mechanics
+QFT	quantum field theory
+QCD	quantum chromodynamics
+QED	quantum electrodynamics
+SM	Standard Model
+EP	equivalence principle
+DSR	doubly special relativity
+SSB	spontaneous symmetry breaking
+VEV	vacuum expectation value
+EFT	effective field theory
+RG	renormalization group
+SUSY	supersymmetry
+SYM	super Yang–Mills
+CP	charge conjugation and parity
+CPT	charge conjugation, parity and time reversal
+UV	-
+IR	-
+SU	-
+SO	-
+SL	-
+GL	-
+
+# Gravity
+FP	Fierz–Pauli
+BD	Boulware–Deser
+HR	Hassan–Rosen
+PM	partially massless
+DFT	double field theory
+ADM	Arnowitt–Deser–Misner
+TT	transverse-traceless
+
+# Dark matter and astrophysics
+DM	dark matter
+CDM	cold dark matter
+SIDM	self-interacting dark matter
+FDM	fuzzy dark matter
+BEC	Bose–Einstein condensate
+LPT	Levkov–Panin–Tkachev
+UFD	ultra-faint dwarf
+MW	Milky Way
+WIMP	weakly interacting massive particle
+
+# Cosmology
+DE	dark energy
+DESI	Dark Energy Spectroscopic Instrument
+DR1	Data Release 1
+DR2	Data Release 2
+DR3	Data Release 3
+BAO	baryon acoustic oscillations
+CMB	cosmic microwave background
+CPL	Chevallier–Polarski–Linder
+FRW	Friedmann–Robertson–Walker
+FLRW	Friedmann–Lemaître–Robertson–Walker
+LSS	large-scale structure
+SN	supernova
+SNe	supernovae
+
+# Gauge theory and monopoles
+DSZ	Dirac–Schwinger–Zwanziger
+
+# Field-theory tools
+GW	Grosse–Wulkenhaar
+MC	Monte Carlo
+BKT	Berezinskii–Kosterlitz–Thouless
+XY	-
+
+# Method, tooling and names
+AI	-
+LLM	large language model
+API	-
+HTML	-
+JHEP	-
+OK	-
+CLAUDE	-
+README	-
+II	-
+III	-
+IV	-
+VI	-

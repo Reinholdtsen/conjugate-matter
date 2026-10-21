@@ -26,6 +26,14 @@ for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py v
   echo
 done
 
+# The wiki: internal links, anchors, section maps, source paths, frontmatter,
+# page shape and acronyms. Hugo would render a dead link without complaint.
+if ! "$py" scripts/check-wiki.py; then
+  echo "scripts/check-wiki.py FAILED"
+  status=1
+fi
+echo
+
 if [ "$status" -eq 0 ]; then
   echo "OK — all checks pass."
 fi
