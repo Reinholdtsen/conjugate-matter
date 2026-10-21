@@ -47,7 +47,7 @@ When the vacuum selects a polarization, it breaks the local shifts of X, δX_μ�
 
 ### What τ is
 
-Under the corrected postulate [P2′](/wiki/program/postulates/p2-prime) the vacuum chooses a real structure J, which fixes which directions of phase space count as position, and the possible choices form the Lagrangian Grassmannian: "the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ. The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d)" (#5 §B). Λ(d) is compact, of dimension "d(d+1)/2 = 10 for d = 4" (#1 §2).
+Under the corrected postulate [P2′](/wiki/program/postulates/p2-prime) the vacuum chooses a real structure J, which fixes which directions of phase space count as position, and the possible choices form the Lagrangian Grassmannian: "the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ. The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d)" (#5 §B). Λ(d) is compact, of dimension "d(d+1)/2 = 10 for d=4" (#1 §2).
 
 τ is one coordinate on that space, the angle around its Maslov circle (#1 §2):
 

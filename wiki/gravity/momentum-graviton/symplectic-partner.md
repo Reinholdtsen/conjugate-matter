@@ -75,7 +75,7 @@ Lᵀ η L = [[ M + Mᵀ , 1 ],            Lᵀ ω L = [[ M − Mᵀ ,  1 ],
           [ 1      , 0 ]]                      [ −1     ,  0 ]]
 ```
 
-with η = [[0, 1], [1, 0]] and ω = [[0, 1], [−1, 0]] in d × d blocks. L preserves η exactly when M is antisymmetric, and preserves ω exactly when M is symmetric, and a metric obtained from a compatible one by a map that preserves the pairing is again compatible [T]. So the off-diagonal field that a fixed symmetric pairing admits is antisymmetric, and the one a fixed antisymmetric pairing admits is symmetric: "The symmetry type of the rigid structure ... dictates the symmetry type of the partner field" (#6 §2).
+with η = [[0, 1], [1, 0]] and ω = [[0, 1], [−1, 0]] in d × d blocks. L preserves η exactly when M is antisymmetric, and preserves ω exactly when M is symmetric, and a metric obtained from a compatible one by a map that preserves the pairing is again compatible [T]. So the off-diagonal field that a fixed symmetric pairing admits is antisymmetric, and the one a fixed antisymmetric pairing admits is symmetric: "The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field" (#6 §2).
 
 The round-3 blind audit checked both families numerically with its own code, 2000 random trials per family at d = 3 and d = 4 (`review/round3/referee/audit-notes.md` Step 3):
 

@@ -91,7 +91,7 @@ Calc note #5 had posed the question of what X is as a choice among three outcome
 2. "**auxiliary** (no derivatives at quadratic order) → integrate out → a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly";
 3. "**ghost** → fatal to the geometric sector."
 
-An auxiliary field, in the standard sense [T], is one that enters the action without derivatives. Its field equation is then algebraic rather than a wave equation: it can be solved for the field and substituted back ("integrated out"), which leaves contact interactions among the fields it couples to and no particle of its own. Outcome 2 would have made X such a field, with the four-χ contact operator acting between particles χ of [conjugate matter](/wiki/dark-matter/conjugate-matter), the program's dark-matter sector.
+An auxiliary field, in the standard sense [T], is one that enters the action without derivatives. Its field equation is then algebraic rather than a wave equation: it can be solved for the field and substituted back, which is what integrating the field out means, and this leaves contact interactions among the fields it couples to and no particle of its own. Outcome 2 would have made X such a field, with the four-χ contact operator acting between particles χ of [conjugate matter](/wiki/dark-matter/conjugate-matter), the program's dark-matter sector.
 
 ### Why the shift excludes it
 
