@@ -88,3 +88,7 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     and journal of "Bigravitational origin of dark matter" (Phys. Rev. D 94, 084055, which is
     arXiv:1604.08564) with arXiv:1607.03497, the companion paper "Heavy spin-2 Dark Matter".
     Found by the dm-candidates verifier by live search. For the † battery (OP10).
+21. **Minor attribution (round-3 ruling 3).** The ruling says the referee's Kibble–Zurek integration
+    gave "1e9–1e12 overproduction"; the integration itself gave 1.1e12–2.2e12
+    (`review/round3/referee/step4.out`). The 1e9 lower end comes from the Liveoak–Maharana–Wells
+    analytic estimate (1.2e9–2.2e11). The verdict is unaffected (overproduction either way).
