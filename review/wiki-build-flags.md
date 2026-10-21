@@ -60,3 +60,6 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
     is the accurate statement (inventory conflict C28); the wiki follows v2.
 13. **Minor: ⟨|m|⟩ = 0.954 ± 0.0001 "at every size" (toy note §4).** `verify/toy_s4.py` prints
     ± 0.0000 at L = 64; the note's figure is a conservative bound, not the printed value.
+14. **Minor notation (#7 §2): "Tr(g²) = p₄ of the square-root eigenvalues".** This holds for the
+    eigenvalues of √(f⁻¹g); for √(g⁻¹f), the matrix bimetric potentials use, it gives Tr(g⁻²)
+    (spin2-b verifier's executed check). The conclusion (outside the eₙ span, battery T7) stands.
