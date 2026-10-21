@@ -117,3 +117,8 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     turnaround needs another mechanism. This bears on prediction row 5 (turnaround = conjugate
     bounce) and on the dark-energy over-constraint (t_turn). Inventory conflict C20. Check:
     `review/wiki-build-checks/v_sign_check.py`.
+28. **The formula for our magnetic coupling (#11 §11.2).** #11 says Dirac's e·g ~ 2π "pins the
+    magnetic coupling near 4π/e² ≈ 34". With α = e²/4π, 4π/e² = 1/α ≈ 137; e·g = 2π gives
+    g²/4π = π/e² = 1/(4α) ≈ 34.26. The number 34 is right; the formula written beside it is
+    not. (This 34 is our own magnetic coupling, distinct from the dead α_d ≈ 34 of the
+    soliton episode.) Check: `review/wiki-build-checks/dirac_coupling_check.py`.
