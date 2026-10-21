@@ -45,7 +45,7 @@ The lab notebook made this a mean-field claim in §5.2, titled "Collective behav
 ε(p; f) = p²/2m_χ + ∫d³p′ U(p − p′) f̄(p′),     ẋ ⊃ ∇ₚε
 ```
 
-"The genuinely p-local part of the interaction shifts a particle's energy by the phase-space density of *co-moving* neighbors". Here U is an interaction that depends on the momentum difference p − p′ and f̄ the averaged phase-space density. Because the energy depends on momentum through the neighbours, the velocity ẋ = ∇ₚε acquires a term beyond p/m_χ: "an anomalous velocity, the same structure as Berry-curvature transport in solids". In a crystal, the Berry curvature of an electron band adds an anomalous term of this kind to the electron's velocity [T].
+"The genuinely p-local part of the interaction shifts a particle's energy by the phase-space density of *co-moving* neighbors". Here U is an interaction that depends on the momentum difference p − p′ and f̄ the averaged phase-space density. Because the energy depends on momentum through the neighbours, the velocity ẋ = ∇ₚε acquires a term beyond p/m_χ: "an anomalous velocity, the same structure as Berry-curvature transport in solids". In a crystal, the Berry curvature of an electron band adds an anomalous term to the electron's velocity, proportional to the applied force crossed with the curvature [T]; the notebook asserts the structural analogy without working out the correspondence.
 
 ### The instability
 
@@ -53,7 +53,7 @@ The claim proper:
 
 > For attractive U with momentum range μ, the collisionless Boltzmann equation with this mean field is the Jeans problem *with the roles of x and v exchanged*: a smooth Maxwellian f(v) is unstable to fragmentation into **discrete velocity streams of width Δv ~ v\***, each spatially delocalized and internally coherent across kiloparsecs.
 
-In the ordinary Jeans problem, self-gravity acts between particles close in position, and in a uniform gas, perturbations longer than the Jeans length grow into lumps in space ([the Jeans instability](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)) [T]. The notebook's exchanged problem has the attraction acting between particles close in velocity, within the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of width v\*, and expects lumps in velocity: streams spread through space, each with a narrow spread of velocities around its own mean.
+In the ordinary Jeans problem, self-gravity depends on the particles' separation in position, and in a uniform gas, perturbations longer than the Jeans length grow into lumps in space ([the Jeans instability](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)) [T]. The notebook's exchanged problem has the attraction acting between particles close in velocity, within the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of width v\*, and expects lumps in velocity: streams spread through space, each with a narrow spread of velocities around its own mean.
 
 ### The analogy with superconductivity
 
@@ -94,7 +94,7 @@ Meeting the criterion at fixed cross-section per mass "forces m ≲ 0.1 meV, whe
 
 On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated attraction can condense the wave field into narrow ranges of momentum, at a rate [Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate). Whether that makes streams depends on what fixes the coupling (3b, 'What pins g? Two scenarios'):
 
-- **Scenario A**, the gated channel also makes the dwarf cores. Then the coupling is fixed, and condensation outruns orbital stirring only in [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where it is mandatory. Because the attraction makes the condensate collapse above a critical mass, the endpoint is a cycle of collapses that ejects dark matter from the galaxy. #11 §9 (ii): the endpoint "drains the halo — **falsified** by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Segue 1, the test case, is dense and old ([Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
+- **Scenario A**, the gated channel also makes the dwarf cores. Then the coupling is fixed, and condensation outruns orbital stirring only in [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where it is mandatory. Because the attraction makes the condensate collapse above a [critical mass](/wiki/dark-matter/wave-dark-matter/attractive-condensates), the endpoint is a cycle of collapses that ejects dark matter from the galaxy. #11 §9 (ii): the endpoint "drains the halo — **falsified** by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Segue 1, the test case, is dense and old ([Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
 - **Scenario B**, the cores come from elsewhere and the coupling is free. Then "streams are tunable across ~10 orders: optional, never required" (#11 §9 (ii); [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
 
 ### The verdict

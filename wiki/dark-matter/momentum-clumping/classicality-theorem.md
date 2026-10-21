@@ -23,7 +23,7 @@ sources:
 
 *The classicality theorem says that dark matter coupled strongly enough to clump in velocity must be so light that it behaves as a wave, not as a collection of separate particles. It follows from the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion): at the scattering strength that fits dwarf-galaxy cores, the criterion can be met only for masses below about 0.1 meV, and at such masses about 10²⁰ quanta share each quantum state, which is the regime of a classical wave. The program therefore splits dark matter into two regimes: a particle island, with χ masses of MeV to GeV, where dark matter scatters but cannot clump, and a [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of far lighter masses. The theorem is derived at mean-field level and stands.*
 
-**Status:** Alive — [D] (#11 §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script covers any Debt-3 number.
+**Status:** Alive — [D] (#11 §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script covers any [Debt-3](/wiki/history/debts) number.
 
 ## Statement
 
@@ -43,7 +43,7 @@ The argument has three steps: how the stream criterion depends on the particle m
 
 Write S ≡ σ₀/m for the cross-section per unit mass, the quantity that dwarf-core fits constrain ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)). 3a: "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS) ρ/(m^{5/2}σ²)."
 
-The note states the scaling without the intermediate line. It follows from the broad-gate form of the criterion, g n/(mσ²), with the model's definition g = √(πσ₀/m²) ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), by writing σ₀ = Sm and n = ρ/m:
+The note states the scaling without the intermediate line. The substitution below is the wiki's reading, not printed in the note. It starts from the broad-gate form of the criterion, g n/(mσ²), takes the model's definition g = √(πσ₀/m²) ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), and writes σ₀ = Sm and n = ρ/m:
 
 ```text
 g = √(πS m)/m = √(πS) m^{−1/2},    n = ρ/m
@@ -70,13 +70,13 @@ The occupation number counts how many particles share one quantum state: the num
 N_occ = n λ_dB³ = ρ/(m⁴σ³) ~ 10²⁰ ≫ 1
 ```
 
-In the natural units of the notes (ħ = 1), the de Broglie wavelength of a particle moving at speed σ is λ_dB = 1/(mσ), and the number density is n = ρ/m, which gives the second form [T]. The occupation grows as m⁻⁴: a lighter particle means both more particles in a given mass density and a longer wavelength for each.
+In the natural units of the notes (ħ = 1), the notes take λ_dB = 1/(mσ), the de Broglie wavelength ħ/(mσ) of a particle moving at speed σ up to factors of 2π, and the number density is n = ρ/m, which gives the second form [T]. The occupation grows as m⁻⁴: a lighter particle means both more particles in a given mass density and a longer wavelength for each.
 
 When N_occ ≫ 1, the particles are described as a classical wave field, in the way that a radio wave is a classical field although it consists of photons: the field's amplitude and phase are well defined, and individual quanta play no role [T]. A classical phase-space gas, the description in which the criterion was derived, does not apply.
 
 ### The conclusion
 
-The criterion can be met only by lowering m at fixed S, and lowering m drives N_occ up as m⁻⁴, faster than the criterion's m^{−5/2}. By the time the criterion reaches 1, the dark matter is a wave with about 10²⁰ quanta per state. The particle picture and collective velocity-space dynamics therefore never meet within the framework at mean-field level. This is the sense of 3a's "not a benchmark accident": the only route to the threshold at fixed S runs through lower masses, which raise N_occ faster than they raise the criterion. The size of the margin, N_occ ~ 10²⁰ at m_crit, is computed for Milky Way conditions at the benchmark value of S.
+At fixed S and in a given halo, the criterion can be met only by lowering m, and lowering m drives N_occ up as m⁻⁴, faster than the criterion's m^{−5/2}. By the time the criterion reaches 1, the dark matter is a wave with about 10²⁰ quanta per state (3a). The particle picture and collective velocity-space dynamics therefore never meet within the framework at mean-field level. The note does not spell out "not a benchmark accident". On the wiki's reading, it refers to m_crit depending on S and on the halo's ρ and σ but not on the benchmark mass of 70 MeV, so the conclusion does not hinge on the choice of χ mass. The faster growth of N_occ does not by itself guarantee N_occ ≫ 1 at m_crit; the margin, N_occ ~ 10²⁰, is computed for Milky Way conditions at the benchmark value of S.
 
 ## The particle island
 
@@ -92,7 +92,7 @@ Here BBT is the Broken-Born framework and SIDM is [self-interacting dark matter]
 
 ## The wave island
 
-The other side of the theorem is the range of very light masses, where N_occ ≫ 1 and dark matter is a wave. 3a: "**Wave island** (m_χ ≲ meV, N_occ ≫ 1): the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams". Its treatment needs wave kinetics rather than the Vlasov equation, and it has its own section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island).
+The other side of the theorem is the range of very light masses, where N_occ ≫ 1 and dark matter is a wave. 3a: "**Wave island** (m_χ ≲ meV, N_occ ≫ 1): the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams". Its treatment needs [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics) rather than the Vlasov equation, and it has its own section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island).
 
 The island's upper edge is written differently in the three notes: "m_χ ≲ meV" (3a), "m ≲ 0.1 meV" (3b, Setup), and 10⁻⁴ eV in 3c's final range, "roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings". 3c's range closed Debt 3 and is the one this wiki uses.
 
@@ -100,7 +100,7 @@ The island's upper edge is written differently in the three notes: "m_χ ≲ meV
 
 - **Mean-field level.** The theorem rests on the mean-field criterion, which is itself bracketed by two limits rather than solved in general ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)).
 - **Fixed σ₀/m.** The scaling holds the cross-section per unit mass at its dwarf-core value; #11 §9 states the premise as "at fixed σ₀/m". On the wave island the question becomes a [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) instead of this criterion, and under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) the coupling is free instead of fixed.
-- **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV.
+- **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV. The scaling has the broad-gate form, with σ² in the denominator, while 3a's Limit 2 places the Milky Way in the narrow-gate regime and its benchmark table evaluates the Milky Way row with v\*; the note does not discuss the difference.
 - **Two normalizations of N_occ.** 3a writes N_occ = ρ/(m⁴σ³), and 3b's Setup does the same, but 3b's rate formula uses a "peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³)". The notes do not reconcile the two; at 10²⁰ ≫ 1 the factor does not affect the conclusion.
 
 ## What stays open
