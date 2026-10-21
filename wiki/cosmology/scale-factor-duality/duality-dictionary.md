@@ -53,7 +53,7 @@ Each line has a plain reading:
 3. Our Hamiltonian constraint takes energy per our comoving volume, a³, so the effective density on our side is E/a³: "Entering our Hamiltonian constraint as ρ_eff = E/a³" (#1 §6).
 4. Matching a^{−3(1−w̃)} to the standard form a^{−3(1+w_eff)} gives w_eff = −w̃.
 
-The factor ã³ in step 2 is the volume Jacobian of the constraint: it converts a density measured in the dual frame's volume into an energy before that energy is spread over ours. Leaving it out gives the superseded rule (below). The derivation is algebraic and does not use any field equation of the conjugate side.
+Steps 2 and 3 together multiply the dual density by (ã/a)³, the ratio of the dual comoving volume to ours: a density measured in the dual frame's volume is turned into an energy and then spread over our volume. That ratio of volumes is what #1 calls the constraint's volume Jacobian (the wiki's reading of the term). Leaving it out gives the superseded rule (below). The derivation is algebraic and does not use any field equation of the conjugate side.
 
 ## The table
 
@@ -85,13 +85,13 @@ The last clause of #11's statement, "the dual Einstein term is an a⁻⁶ step i
 
 The dual term multiplies H² alongside M_P², so it changes the effective Planck mass and with it the effective strength of gravity G_eff, and it scales as a⁻⁶, like the stiff fluid of the table's second row. In #1 §6's words, it is "**not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times". The steps are on [Friedmann cosmology and minisuperspace](/wiki/cosmology/scale-factor-duality/friedmann-cosmology#the-programs-extension-a-second-scale-factor).
 
-The test of this term, together with the negative ΔN_eff of closed dual curvature, is [row 10](/wiki/predictions/early-universe-step): "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", "(Knob-bounded; CMB-S4 probes)" (#11 §13), where CMB-S4 is a planned fourth-stage survey of the cosmic microwave background. The equation appears only in the lab notebook and has not been machine-checked. The notebook's row also predicted, "conditionally on its one knob", a spectral step in the primordial gravitational-wave background and a CMB-S4 sensitivity to N_eff at "±0.03" (#1 §6, §9 row 10); #11 drops both.
+The test of this term, together with the negative ΔN_eff of closed dual curvature, is [row 10](/wiki/predictions/early-universe-step): "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", "(Knob-bounded; CMB-S4 probes)" (#11 §13), where CMB-S4 is the cosmic microwave background (CMB) experiment #11 names as the probe. The equation appears only in the lab notebook and has not been machine-checked. The notebook's row also predicted, "conditionally on its one knob", a spectral step in the primordial gravitational-wave background and a CMB-S4 sensitivity to N_eff at "±0.03" (#1 §6, §9 row 10); #11 drops both.
 
 ## Superseded: the earlier heuristic rule
 
 The development discussion on claude.ai used a different rule, w_eff = −2 − w̃. The lab notebook announces the replacement at its head: "the duality dictionary for cosmological fluids is w_eff = −w̃, not w_eff = −2 − w̃. The correction is what makes the dark-energy sector work. Rigor changed an answer; that is the point of rigor." (#1 §0). In §6 it gives the reason: the derived rule "**supersedes** the heuristic w_eff = −2 − w̃ used earlier in the development (which identified densities across frames without the constraint's volume Jacobian)".
 
-**How the heuristic arises** (the wiki's reading; no document writes the step out). Identifying densities across frames means setting ρ_eff = ρ̃, skipping step 2 of the derivation. Then ρ_eff ∝ ã^{−3(1+w̃)} = a^{3(1+w̃)}, and matching this to a^{−3(1+w_eff)} gives w_eff = −2 − w̃. For dual dust, w̃ = 0, the heuristic gives w = −2.
+**How the heuristic arises** (the wiki's reading; no document writes the step out). Identifying densities across frames means setting ρ_eff = ρ̃, omitting the factor (ã/a)³ of steps 2 and 3. Then ρ_eff ∝ ã^{−3(1+w̃)} = a^{3(1+w̃)}, and matching this to a^{−3(1+w_eff)} gives w_eff = −2 − w̃. For dual dust, w̃ = 0, the heuristic gives w = −2.
 
 **What it cost.** Collapsing conjugate matter, read through the heuristic, acted on our expansion like dark energy with w = −2. That was the basis of the founding idea that the conjugate universe's collapse drives our acceleration. The idea died twice: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2). See [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion).
 

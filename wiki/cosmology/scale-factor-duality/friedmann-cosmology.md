@@ -34,7 +34,7 @@ A spatially curved universe replaces dx² by the metric of a sphere (closed, cur
 
 ## Minisuperspace: gravity reduced to a(t) and N(t) [T]
 
-Superspace is the space of all spatial geometries, the configuration space of general relativity in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the reduced Planck mass (M_P² = 1/8πG), a gravitational Lagrangian of the form
+Superspace is the space of all spatial geometries, the configuration space of general relativity in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the reduced Planck mass (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
 
 ```text
 L = −3 M_P² a ȧ² / N  −  N a³ ρ(a)
