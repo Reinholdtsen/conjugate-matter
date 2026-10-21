@@ -7,35 +7,142 @@ provenance: [P]
 sources:
   - "papers/broken-born-checkpoint-v2.md §3"
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §5"
+  - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md App. A item 1"
   - "HANDOFF.md §1"
-  - "notes/broken-born-program-v1.md §0–§1"
-  - "notes/broken-born-program-v1.md §11"
+  - "papers/reciprocity-toy-models.md §1"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
+  - "papers/reciprocity-toy-models.md §5"
+  - "papers/reciprocity-toy-models.md §6"
+  - "notes/debt1a-geometric-core.md §B"
+  - "notes/broken-born-theory.md §0–§3"
+  - "notes/broken-born-program-v1.md §0–§1"
+  - "notes/broken-born-program-v1.md §11"
+  - "notes/toy-lagrangian.md 'Chunk 1 results'"
+  - "notes/toy-lagrangian.md 'Chunk 2 results'"
+  - "notes/toy-lagrangian.md 'Chunk 4'"
+  - "review/round4-adjudication.md 'Rulings' F3"
+  - "verify/toy_coset.py"
+  - "verify/toy_s4.py"
+  - "verify/toy_s5.py"
   - "popsci/universes-other-half.md 'What one assumption purchases'"
 ---
 
-*The hard core is the assumption the Broken-Born program keeps fixed while its other claims are tested and revised: Born reciprocity, the quarter-turn (x, p) → (p, −x) of quantum phase space, is an exact symmetry of the laws, and the vacuum breaks it spontaneously. Only one structure is fixed in advance, the symplectic form ω, which encodes the constancy of Planck's constant. The neutral metric η, the structure that marks which directions count as position, belongs to the vacuum state rather than to the laws, and it is the order parameter that distinguishes our vacuum from its mirror image. A magnet is the standard picture: its laws single out no direction, but a magnetized state points in one. The checkpoint (#11 v2.2) records the hard core as intact and sharpened twice by corrections the program's own mathematics forced.*
+*The hard core is the assumption the Broken-Born program keeps fixed while its other claims are tested and revised: Born reciprocity, the quarter-turn (x, p) → (p, −x) of quantum phase space, is an exact symmetry of the laws, and the vacuum breaks it spontaneously. Only one structure of phase space is fixed in advance, the symplectic form ω, which encodes the constancy of Planck's constant. The neutral metric η, the structure that marks which directions count as position, belongs to the vacuum state rather than to the laws, and it is the order parameter that distinguishes our vacuum from its mirror image. A cooled magnet is the standard picture: the laws governing its atoms single out no direction, but its magnetized state points in one. Checkpoint #11 v2.2 records the hard core as intact and sharpened twice by corrections that the program's own mathematics forced. The toy models added two qualifications: a definite polarization needs an extra potential, and the breaking has physical effect only once matter couples to the sign of the order parameter.*
 
-**Status:** Alive — [P] (it is the content of postulates P1–P5) — "intact, twice sharpened by forced corrections (P2′; the w-dictionary)" (#11 §15); the v2.2 refinement from the toy models is [D][V], checked by the [toy-model scripts](/wiki/method/verification/toy-model-scripts).
+**Status:** Alive — [P]: it is the content of postulates P1–P5 (#11 §4). #11 §15 finds it "intact, twice sharpened by forced corrections (P2′; the w-dictionary)". The v2.2 refinement from the toy models is [D][V], checked in `verify/toy_coset.py`, `verify/toy_s4.py` and `verify/toy_s5.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
-## Key facts
+## Statement
 
-- "Hard core" is Lakatos's term for the part of a research program that is not given up when a prediction fails ([Lakatos's methodology](/wiki/method/lakatosian-methodology)). HANDOFF §1 states this program's: "Born reciprocity — the (x,p) → (p,−x) symmetry of quantum kinematics — taken as exact and spontaneously broken, with only the symplectic form ω rigid (ℏ-rigidity) and the neutral metric η emergent as the order parameter." See [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) and [the order parameter](/wiki/symmetry-breaking/order-parameter).
-- The breaking is claimed to be unavoidable (#11 §3): "[x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization. The magnet must point." See [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking) and [Lagrangian polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations).
-- Credit (#11 §3, since v2.2): "the idea that a preferred polarization breaks Born duality is Freidel, Leigh and Minic's". They "treat the breaking as kinematical"; "This program's addition is to read it as *spontaneous* breaking, with η as the order parameter". See [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality) and [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking).
-- The formal content is the five [postulates](/wiki/program/postulates), each [P]. "ω-only rigidity" is [P2′](/wiki/program/postulates/p2-prime), forced by the [nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), which "shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (#11 §4), that is, beyond general relativity plus self-interacting dark matter.
-- The two sharpenings named in #11 §15 are P2′, which replaced the [original P2](/wiki/program/postulates/original-p2), and the w-dictionary, the [duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary), which corrected an earlier −2 − w̃ (#11 §10).
-- The v2.2 qualification from the toy models (#11 §4): "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]". A definite polarization then needs a [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), whose origin is open, and the breaking "is physical only once matter couples to the sign of K" ([the twisted element](/wiki/symmetry-breaking/twisted-element)). See [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle).
-- The hard core is founding supposition 1, "Symmetrize QM around conjugate variables" (QM: quantum mechanics), whose fate is "**alive; the hard core** (Born reciprocity, spontaneously broken, ω-only rigid)" (#11 App. A). See [founding suppositions](/wiki/program/founding-suppositions).
-- The popular article #12 calls the framework's basis "a single assumption". #11 states it as five postulates, and #11 governs: the popular articles are never a source for a claim's status.
+The handoff states the hard core in one sentence: "Born reciprocity — the (x,p) → (p,−x) symmetry of quantum kinematics — taken as exact and spontaneously broken, with only the symplectic form ω rigid (ℏ-rigidity) and the neutral metric η emergent as the order parameter" (`HANDOFF.md` §1). #11 §15 abbreviates it as "spontaneously broken reciprocity, ω-only rigidity".
+
+"Hard core" is Imre Lakatos's term for the part of a research programme that is not given up when a prediction fails; the auxiliary claims around it are revised instead ([Lakatos's methodology](/wiki/method/lakatosian-methodology)). The sentence makes three claims:
+
+1. [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), ρ: (x, p) → (p, −x), is an exact symmetry of the laws, not only of the kinematics, where it holds in ordinary quantum mechanics ([Born's question](/wiki/program/borns-question)).
+2. The vacuum breaks it: the laws are symmetric and the ground state is not ([spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking)).
+3. Of the structures on phase space only ω is fixed by the laws; η is a property of the vacuum, its [order parameter](/wiki/symmetry-breaking/order-parameter).
+
+The formal content is the five [postulates](/wiki/program/postulates) of #11 §4, each tagged [P]:
+
+| Postulate | Content (#11 §4) | Role in the hard core |
+| --- | --- | --- |
+| [P1](/wiki/program/postulates/p1-arena) | Physics on phase space with symplectic form ω and positive generalized metric H | the arena |
+| [P2′](/wiki/program/postulates/p2-prime) | Only ω is rigid; η is emergent, the order parameter | claim 3 |
+| [P3](/wiki/program/postulates/p3-reciprocity) | The action is invariant under the Born rotation generated by I = ω⁻¹H | claim 1 |
+| [P4](/wiki/program/postulates/p4-polarized-matter) | Matter comes in x-polarized (Standard Model) and p-polarized (χ) representations; both couple universally to H; gauge forces do not cross polarizations | how matter sits in the broken vacuum |
+| [P5](/wiki/program/postulates/p5-spontaneous-selection) | The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful | claim 2 |
+
+## The structures ω, η and H
+
+Phase space for d degrees of freedom carries three structures (#11 §5; the lab notebook's §2 gives their standard form, with blocks of size d and units scaled out):
+
+```text
+ω = [[0, 1], [−1, 0]]        η = [[0, 1], [1, 0]]        H = [[1, 0], [0, 1]]
+
+I = ω⁻¹H      J = η⁻¹H      K = η⁻¹ω          I² = −1,   J² = K² = +1,   IJ = K
+```
+
+- **ω**, the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form), is antisymmetric. It pairs each position with its momentum and is the classical form of the commutator [x, p] = iℏ; P2′ reads its rigidity as the constancy of Planck's constant: "symplectic rigidity ≡ constancy of ℏ".
+- **η**, the neutral metric, is symmetric with as many negative as positive directions, so it has null directions. For one degree of freedom (d = 1) its two null lines are the eigenlines L± of K, and both are Lagrangian, that is, possible choices of "position" axis: "Choosing K is choosing which line is 'position'" (toy-model note §1; [Lagrangian polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations)).
+- **H**, the positive generalized metric, carries the geometry: in the vacuum it has the form diag(g, g⁻¹), with g the space-time metric ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)).
+- **I, J, K** satisfy "a split-quaternion algebra (Born geometry [3†]; a unique compatible connection exists [7†])" (#11 §5; [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)).
+
+How ρ acts on them is what makes η the order parameter. The lab notebook computed it at the standard point: ρ "preserves ω (it is symplectic), preserves H (it is orthogonal), and flips the sign of η, hence flips J and K while preserving I" [D] (#1 §2). A vacuum that carries a definite η is therefore carried by ρ to a different vacuum, the one with −η. After the repair described below, the Debt-1 note put it as "the observation that reciprocity flips η now reads correctly as the broken symmetry moving the order parameter" (`notes/debt1a-geometric-core.md` §B).
+
+The documents name the order parameter in two ways. #11 P2′ writes "η = HJ, with the real structure J chosen spontaneously"; the toy-model note writes η = ωK, "K a real structure, K² = 1". The two agree, since J = η⁻¹H and K = η⁻¹ω, but the documents differ on which of J and K they call "the real structure"; [the order parameter](/wiki/symmetry-breaking/order-parameter) records both conventions.
+
+## Why only ω is rigid: the first sharpening
+
+The lab notebook's first rigidity postulate, the [original P2](/wiki/program/postulates/original-p2), fixed both structures: "ω and η are non-dynamical; only H carries degrees of freedom" (#1 §1). The [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) [T][V] shows what that allows:
+
+```text
+H > 0,   (η⁻¹H)² = +1   and   (ω⁻¹H)² = −1     ⇔     H = diag(g, g⁻¹),   g ∈ Sym⁺(d)
+```
+
+The statement is Freidel, Leigh and Minic's Born-geometry result; the block proof and the machine check (battery test T1, [the verification battery](/wiki/method/verification/battery)) are the program's (#11 §5). With both structures rigid, the Debt-1 note found the program empty (`notes/debt1a-geometric-core.md` §B, "[D — structural]"):
+
+- the polarizations compatible with both structures are discrete, "the 2^d coordinate-type splittings", so there is "No Lagrangian Grassmannian, no Maslov circle, no τ field", and no dark-energy sector;
+- with H = diag(g, g⁻¹) the geometric action "is a functional of g alone: a pure metric theory. No momentum graviton, hence no geometric origin for the χ gate either";
+- the note's verdict on this branch: it "reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained", that is, general relativity (GR) plus one model of self-interacting dark matter (SIDM).
+
+The repair was to "Freeze ω only — that is genuinely ℏ — and let η be emergent: the order parameter itself". The space of real structures compatible with a given H is then the [Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), "{J} ≅ U(d)/O(d) = Λ(d) … π₁ = ℤ, Maslov circle intact, τ restored" (same note). #11 records the result as the [nontriviality theorem](/wiki/program/postulates/nontriviality-theorem): the theory has content beyond general relativity plus self-interacting dark matter if and only if η is emergent [D] (#11 §4–§5). That η should be dynamical "was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's" (#11 P2′).
+
+## Why some breaking is said to be unavoidable
+
+#11 §3 argues that the symmetry cannot stay unbroken in a world like ours: "[x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization. The magnet must point." A Lagrangian polarization is a choice of half of the phase-space directions as the variables wavefunctions depend on; locality means interactions confined in those variables, and the uncertainty principle rules out confinement in both halves at once. The argument is qualitative and untagged in #11 §3. It requires some polarization, not a particular one; [P5](/wiki/program/postulates/p5-spontaneous-selection) adds that ours is tilted toward position and that the mirror vacuum is equally lawful. The argument and its later qualifications are on [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
+
+## What is the program's own
+
+Since v2.2, #11 §3 credits the central idea to Freidel, Leigh and Minic: "the idea that a preferred polarization breaks Born duality is Freidel, Leigh and Minic's", quoting "if all probes agree on what we mean by space-time, then we have broken Born duality — there is a preferred choice of polarization, the space-time one" [26S, p. 3]. They "treat the breaking as kinematical and call the choice 'a dynamical question'. This program's addition is to read it as spontaneous breaking, with η as the order parameter" ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
+
+Before building its toy models, the program searched the literature for that addition. The search, with every citation retrieved rather than recalled, found "no existing action has Born reciprocity exactly symmetric and spontaneously broken with η or K as order parameter", and called the result "evidence of absence, not proof" because the coverage of the database searched, INSPIRE, is incomplete (toy worklog, 'Chunk 1 results').
+
+## The v2.2 refinement: a Goldstone angle and a twisted element
+
+The toy models gave the hard core its first explicit realization, and with it two qualifications, which #11 now carries in P2′: "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]. Two things follow. A definite polarization needs a ρ-preserving potential on that angle — a rigid, unordered pair of axes, so more structure than ω alone, though less than a rigid η. And the breaking of ρ is physical only once matter couples to the sign of K (P4): without such a coupling, a twisted element ρ∘(K → −K) leaves the vacuum invariant" (#11 §4). The steps, as the toy-model note gives them for its [model I](/wiki/symmetry-breaking/toy-models/coset-model), a coset sigma model of the fields H and K on a 1+1-dimensional base:
+
+1. **The symmetric action.** The action is invariant under the whole group Sp(2,ℝ), acting as H → SᵀHS and K → S⁻¹KS, so in particular under ρ, and separately under K → −K (toy-model note §2; checked symbolically in `verify/toy_coset.py`).
+2. **The vacua form a circle.** At H = 1 the vacua are K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]], and ρ maps K(φ) to K(φ + π) = −K(φ). No vacuum is ρ-invariant, and the operator O = K₁₁ changes sign under ρ, so it serves as the order parameter. The rotations of phase space that leave H = 1 unchanged move K around the circle, and ρ, the quarter turn, is one of them: in the worklog's words, ρ "is one element of a continuous U(1)", "the U(1) stabilizer of H that rotates K". The angle φ costs no energy to change, so it is a Goldstone direction, and it parametrizes Λ(1), "the checkpoint's Maslov circle (the τ field of §10)" (toy worklog, 'Chunk 1 results' and 'Chunk 2 results'; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The complex Grosse–Wulkenhaar model shows the same structure, and the worklog calls the finding "model-level evidence from two toys, not a theorem".
+3. **A potential is needed.** In 1+1 dimensions a compact continuous symmetry cannot break spontaneously ([the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)), so the note adds a potential that keeps ρ and K → −K and reduces the circle to two points. Its first form was unbounded below once H was allowed to move ([its obituary](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). The bounded form V_b equals −(μ/2)(1 + cos 2φ) at H = 1, with minima at K = ±K_ref, which ρ exchanges; with H dynamical, (1, K_ref) is a stable minimum with Hessian eigenvalues "0, 0.764, 2, 5.236" (toy-model note §4; [the bounded potential](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)). With H held at 1, a lattice Monte Carlo at temperature T = 0.6 finds an ordered ℤ₂ phase: "⟨|m|⟩ = 0.954 ± 0.0001 at every size; Binder cumulant 0.667" at L = 16, 32 and 64 (toy-model note §4, `verify/toy_s4.py`; [the Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)). That is a statement about the frozen-H reduction, not about model I with H dynamical ([the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). Where the potential would come from is [open](/wiki/symmetry-breaking/rho-preserving-potential).
+4. **The twisted element.** Because the action is also invariant under K → −K, the combination of ρ with that flip "maps (1, K₀) to itself. So within the full symmetry group, the vacuum keeps an element that acts on H exactly as ρ does. Breaking ρ is physical only once a coupling odd in K is present" (toy-model note §2). The round-4 referee raised the point, and the adjudication upheld it as sharpening the matter-coupling result "rather than contradicting it" (`review/round4-adjudication.md`, F3; [the twisted element](/wiki/symmetry-breaking/twisted-element)).
+5. **Matter supplies the sign.** A matter interaction built from H and K, I[W] = ∫_{L+} du (∫_{L−} dv W)² of a state's Wigner function W, is odd in K. At H = 1 it equals ∫|ψ(x)|⁴ dx, local in position, in the vacuum +K_ref, and ∫|ψ̃(p)|⁴ dp, local in momentum, in −K_ref; for the note's test state the two vacua give 0.4070 and 0.3600 (toy-model note §5, `verify/toy_s5.py`). "Nothing here forces that coupling" (§5). The worklog names the coupling's role: "The lock is P4", so that in the toy, "our matter is the x-polarized species" ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)).
+
+#11 §10 limits what the toy models show for the rest of the program: "None of this tests the cosmology; it only shows the structure is consistent." The note's own list of what it did not show includes "anything beyond d = 1" (toy-model note §6).
+
+## History of the statement
+
+- **Lab notebook, v0.1 (#1).** Five postulates with both ω and η rigid, and a discrete breaking pattern ℤ₄ → ℤ₂ with J as the order parameter [D] (#1 §2). The rigid ω was also to supply the dark-energy potential by tilting the Maslov circle, an item the notebook tagged [P/O] (#1 §3). The discrete picture is on [the order parameter](/wiki/symmetry-breaking/order-parameter).
+- **The P2 → P2′ repair** (Debt-1 note #5; notebook addendum v0.3), forced by the nontriviality theorem as described above.
+- **v1 paper (#9).** "hard core — spontaneously broken reciprocity with ω-only rigidity — intact and sharpened by the P2 → P2′ correction" (#9 §11): one sharpening.
+- **Checkpoint v2.0 to v2.2 (#11).** "intact, twice sharpened by forced corrections (P2′; the w-dictionary)" (#11 §15). The second correction replaced an early heuristic translation rule for the conjugate cosmology, w_eff = −2 − w̃, by the derived [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) w_eff = −w̃ (#11 §10); the lab notebook had recorded that "The correction is what makes the dark-energy sector work" (#1 §0). In v2.1 the compatibility theorem, presented in v2.0 as derived here, was re-attributed to Freidel, Leigh and Minic (#11 §5). In v2.2 they were also credited with the idea of broken Born duality, and P2′ gained the Goldstone-angle refinement above.
+- **Round 3.** The referees' objection that the framework did no work in the withdrawn soliton manuscript (#14) set the toy models as the next task; by the worklog's assessment the toy models make the hard core's structures "cohere (η as order parameter; τ as the polarization angle), but matter's x-locality still enters through the P4-type coupling" ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)).
+
+The founding supposition behind all of this, P.R.'s "Symmetrize QM around conjugate variables" (QM: quantum mechanics), is recorded in #11 Appendix A as "alive; the hard core (Born reciprocity, spontaneously broken, ω-only rigid)" ([founding suppositions](/wiki/program/founding-suppositions)).
+
+## What remains open
+
+- **The potential.** A derivation of the ρ-preserving potential, which "introduces a rigid, unordered pair of axes" (toy-model note §6; [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)).
+- **The coupled model.** "whether ρ's SO(2) breaks in the coupled model without a potential" (toy-model note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)), and a Monte Carlo with H dynamical (#11 §14 item 11).
+- **Forced locality.** A mechanism that forces matter's coupling to the sign of K, rather than postulating it through P4 ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)). The worklog's literature search found the same gap in the field: "a mechanism that picks L over L̃" is open there too (toy worklog, 'Chunk 4').
+- **Field-theory selection.** In the real Grosse–Wulkenhaar model the position-sharp vacuum is preferred at one loop, recorded as a lead, not a result ([Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead)).
+- **Lorentzian signature.** The geometric construction is a Euclidean skeleton; its Lorentzian dressing is #11 §14 item 3 ([Open: Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing)).
+
+## Popsci-only: "a single assumption"
+
+The popular article #12 says that "The framework rests on a single assumption — the position–momentum symmetry is exact and spontaneously broken". #11 formalizes the hard core as five postulates, and since v2.2 it adds that a definite polarization needs a ρ-preserving potential and that the breaking has physical content only through a coupling odd in K. #12 has not been amended since it was imported into the repository, before #11's v2.1 and v2.2 amendments, and it presents the framework "as if it were confirmed"; it is never a source for a claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §3, §4, §15, App. A item 1 — the question, the postulates and the v2.2 refinement, the self-assessment, the founding supposition
-- `HANDOFF.md` §1 — the one-line statement of the hard core
-- `papers/reciprocity-toy-models.md` §2, §4 — the Goldstone angle, the twisted element and the potential, in the toy models
-- `notes/broken-born-program-v1.md` §0–§1, §11 — the v1 statement ("intact and sharpened by the P2 → P2′ correction"), superseded by #11
+- `papers/broken-born-checkpoint-v2.md` §3 — the program, the mandatory-breaking argument and the Freidel–Leigh–Minic credit; §4 — P1–P5 and the v2.2 refinement of P2′; §5 — the structures, the compatibility theorem and the nontriviality theorem; §10 — the scope of the toy-model support; §15 — "intact, twice sharpened"; App. A item 1 — the founding supposition
+- `HANDOFF.md` §1 — the one-sentence statement of the hard core
+- `papers/reciprocity-toy-models.md` §1, §2, §4, §5, §6 — η = ωK, model I, its vacua and the twisted element, the bounded potential and the Monte Carlo, the K-odd coupling, and what is not shown
+- `notes/debt1a-geometric-core.md` §B — the strict-P2 branch, the repair and the nontriviality theorem as first derived
+- `notes/broken-born-theory.md` §0–§3 — the original postulates, ρ's action on (ω, η, H), the discrete breaking pattern, the [P/O] origin of τ's potential, and the dictionary correction (superseded as reference)
+- `notes/broken-born-program-v1.md` §0–§1, §11 — the v1 statement, "sharpened by the P2 → P2′ correction" (superseded by #11)
+- `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results', 'Chunk 4' — the prior-art search, the Goldstone spectrum, the U(1) containing ρ, and the P4 lock
+- `review/round4-adjudication.md` 'Rulings' F3 — the twisted element upheld
+- `verify/toy_coset.py`, `verify/toy_s4.py`, `verify/toy_s5.py` — the machine checks of the refinement
 - `popsci/universes-other-half.md` 'What one assumption purchases' — the "single assumption" framing (popular article; not a status source)
