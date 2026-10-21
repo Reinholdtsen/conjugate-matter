@@ -95,7 +95,7 @@ Calc note #5 left open whether X propagates healthily, is auxiliary, or is a gho
 4. **Mass from the polarization.** "The vacuum ⟨Z⟩ = i·g sits at X = 0 and is *moved* by the shifts: the polarization selection (η-emergence) **spontaneously breaks the local dual diffeomorphisms**", and X becomes "a **massive spin-2** with its five polarizations" (#6 §3; [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
 5. **Its dynamics.** The ghost-free completion is Hassan–Rosen bimetric gravity with the second frame confined to the compact Λ(d) ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)), and reciprocity makes X odd: "Momentum-space geometry is carried by X = Re Z, the reciprocity-odd partner of the metric. It is a **massive spin-2 field**" (#8 §4; [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity); [Born's answer](/wiki/gravity/momentum-graviton/borns-answer)).
 
-## Open: the Re Z sector of S_H (OP1)
+## Open: the Re Z sector of the geometric action (OP1)
 
 Calc note #5 restated the program's oldest debt in terms of Z: "Born's debt, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (§C). The debt is the lab notebook's first open problem, "The field equation for H beyond minisuperspace — Born's 88-year debt" (#1 §11; [the three debts](/wiki/history/debts)). S_H is the notebook's geometric action, written with ω and η both frozen ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action), superseded).
 
