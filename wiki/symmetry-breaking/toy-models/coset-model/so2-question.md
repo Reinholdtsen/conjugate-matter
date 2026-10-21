@@ -35,7 +35,7 @@ Version 2 of the [toy-model note](/wiki/symmetry-breaking/toy-models): "Whether 
 
 ### The compact angle by itself cannot order
 
-"In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ." (§4). In two dimensions the long-wavelength fluctuations of a compact angle grow without limit and wash out any preferred value [T]. The lattice simulation of the angle with H frozen shows this: without the potential the order decays with lattice size, "⟨|M|⟩ = |⟨e^{iφ}⟩| = 0.8369 ± 0.0007, 0.8025 ± 0.0039, 0.7736 ± 0.0038" at L = 16, 32, 64, read as "No true order" (§4; `verify/toy_s4.py`; [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo#without-the-potential-no-true-order)).
+"In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ." (§4). In two dimensions the long-wavelength fluctuations of a compact angle grow without limit and wash out any preferred value [T]. The lattice simulation of the angle with H frozen shows this: without the potential the order decays with lattice size, "⟨|M|⟩ = |⟨e^{iφ}⟩| = 0.8369 ± 0.0007, 0.8025 ± 0.0039, 0.7736 ± 0.0038" at L = 16, 32, 64, read as "No true order" (§4; `verify/toy_s4.py`, see [the toy-model scripts](/wiki/method/verification/toy-model-scripts); [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo#without-the-potential-no-true-order)).
 
 ### The metric sector can break
 
