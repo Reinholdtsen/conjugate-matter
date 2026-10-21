@@ -306,17 +306,18 @@ Delete it when the build is complete.
 - **2026-10-21, depth wave 3.** `dark-matter/` is at full depth and verified: 54 files,
   including the retired soliton candidate. The flags file now holds 26 items, with executed
   checks in `review/wiki-build-checks/`.
-- **Depth waves still to run** (as of wave 3):
-  - `cosmology/` and `electric-magnetic-duality/`;
-  - `conjugate-relativity/` and `predictions/`;
-  - `method/` and `history/`;
-  - then the registers (home, `status/`, glossary, notation, references), link density,
-    and a completeness check against the inventories.
-- **Plan.**
-  1. Breadth pass: every page at gist level (italic gist, Status line, Key facts,
-     Sources), in one commit.
-  2. Depth pass, section by section, with one commit per section. Each page gets its full
-     technical record and a fresh-context fidelity review.
-  3. Registers, linking density and a completeness check.
-- **To resume after a lost session.** The committed tree is the plan. A page still at gist
-  level has a `## Key facts` section and no other technical sections; deepen those first.
+- **2026-10-21/22, depth wave 4.** `cosmology/` is at full depth and verified.
+  `electric-magnetic-duality/` and `conjugate-relativity/` are written and under
+  verification. A reboot cleared the session scratchpad, so the inventories and the
+  taxonomy file are gone; the committed tree now carries the plan.
+- **Still to do** (as of the reboot):
+  - deepen and verify `predictions/`, `method/` and `history/`. A page still at gist level
+    has a `## Key facts` section (`grep -rl '^## Key facts' wiki`);
+  - the registers: the home page, `status/` (deep-link every folded section; find them
+    with `grep -rn '^## \(Open\|Superseded\|Chat-only\|Popsci-only\|Conjecture\):' wiki`),
+    the glossary, the notation page (including the Planck-mass collision: the Debt-3 notes
+    use G^{−1/2}, while #1 §6 uses the reduced mass) and the references;
+  - a sweep that adds a pointer to `review/wiki-build-flags.md` wherever a page quotes a
+    flagged statement without one;
+  - link density (`scripts/check-wiki.py --stats`) and a completeness check against the
+    sources.
