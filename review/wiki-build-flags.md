@@ -122,3 +122,10 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     g²/4π = π/e² = 1/(4α) ≈ 34.26. The number 34 is right; the formula written beside it is
     not. (This 34 is our own magnetic coupling, distinct from the dead α_d ≈ 34 of the
     soliton episode.) Check: `review/wiki-build-checks/dirac_coupling_check.py`.
+29. **#13 cites #11 §7 for a claim #11 does not make.** #13 §1 and §6 tag X's effect being "in
+    momentum" as "[D — checkpoint §7]". #11 §7 never mentions a dual cone, and §7.5 says
+    "Yukawa-cut at 1/M_X", a range in position. The momentum reading appears only among the
+    chat-only results (HANDOFF §4).
+30. **Minor: #13 §1 tags its two causal cones "[D — compatibility theorem]".** That theorem's g is
+    positive-definite and has no null cone; the cones need the Lorentzian dressing, which is
+    open (OP3).
