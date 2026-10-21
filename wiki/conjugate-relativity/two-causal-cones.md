@@ -2,7 +2,7 @@
 title: "Two causal cones"
 weight: 30
 status: alive
-description: "With H = diag(g, g⁻¹) each block defines a null cone: ours bounds |dx/dt| by c and the dual bounds |dp/dt| by c̃ — motion through momentum space is force; the dual cone belongs to the slaved geometry, modified by X at short range."
+description: "With H = diag(g, g⁻¹) each block defines a null cone: ours bounds |dx/dt| by c and the dual bounds |dp/dt| by c̃ — motion through momentum space is force; the dual cone belongs to the slaved geometry, modified by X at short range in momentum."
 provenance: [D]
 sources:
   - "papers/conjugate-special-relativity.md §1"
@@ -12,6 +12,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §7.5"
+  - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 3"
   - "notes/broken-born-theory.md §2"
   - "review/v3-worklog.md 'New open items'"
@@ -65,7 +66,7 @@ From this starting point #13 builds the dual interval, the force boosts and the 
 
 The cone of g⁻¹ is fixed by g and has no dynamics of its own. What can vary independently in momentum-space geometry is X = Re Z, the departure from the vacuum slice, which is [the momentum graviton](/wiki/gravity/momentum-graviton). X is a massive spin-2 field ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)), so its influence is cut off beyond a range set by its mass.
 
-**What #11 §7 says.** #13 cites "§7 of the checkpoint" for the claim, and #11 §7 does not discuss a dual cone. It states X's couplings to Standard Model matter as "gravitational-strength and Yukawa-cut at 1/M_X" (§7.5), a cut-off in the distance between ordinary bodies ([Safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). #13 reads the cut-off as acting "at short range in momentum" here and as "Yukawa-cut in momentum [D — checkpoint §7]" in §6. The reading in momentum appears otherwise only among the results that exist in the original chat: "dual Newtonian limit = Yukawa in momentum = the gate" (`HANDOFF.md` §4; [two gravitational charges and the conjugate field equations](/wiki/gravity/momentum-graviton/chat-only-results)). The wiki takes #11 §7.5's wording as the derived statement ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+**What #11 §7 says.** #13 cites "§7 of the checkpoint" for the claim, and #11 §7 does not discuss a dual cone. It states X's couplings to Standard Model matter as "gravitational-strength and Yukawa-cut at 1/M_X" (§7.5), a cut-off in the distance between ordinary bodies ([Safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). #13 reads the cut-off as acting "at short range in momentum" here and as "Yukawa-cut in momentum [D — checkpoint §7]" in §6. The reading in momentum appears otherwise only among the results that exist in the original chat: "dual Newtonian limit = Yukawa in momentum = the gate" (`HANDOFF.md` §4; [two gravitational charges and the conjugate field equations](/wiki/gravity/momentum-graviton/chat-only-results#the-dual-newtonian-limit-and-the-gate)). #11 §8 says the dark-matter gate, a factor in the incoming relative momentum, is "delivered by X-exchange between dual-stress bilinears"; it states that mechanism, not a Yukawa form in momentum, and does not mention a dual cone. The wiki takes #11 §7.5's wording as the derived statement.
 
 ## Scope and caveats
 
@@ -80,7 +81,7 @@ The cone of g⁻¹ is fixed by g and has no dynamics of its own. What can vary i
 ## Sources
 
 - `papers/conjugate-special-relativity.md` §1 — the block form, the two cones, force as motion through momentum space, the slaved dual cone; Abstract for the two causal structures; preamble for the inherited caveat; §6 for the second cone and "Yukawa-cut in momentum".
-- `papers/broken-born-checkpoint-v2.md` §5 — the compatibility theorem as [T][V] and its attribution; §6 for the vacuum slice X = 0 and Re Z = X; §7.5 for the range of X; §14 item 3 for the Lorentzian dressing.
+- `papers/broken-born-checkpoint-v2.md` §5 — the compatibility theorem as [T][V] and its attribution; §6 for the vacuum slice X = 0 and Re Z = X; §7.5 for the range of X; §8 for the gate's mechanism; §14 item 3 for the Lorentzian dressing.
 - `notes/broken-born-theory.md` §2 — the reference length λ and momentum ε = ℏ/λ.
 - `review/v3-worklog.md` 'New open items' — item O3, the two dual cones.
 - `HANDOFF.md` §2 — the alive listing; §4 for the chat-only "Yukawa in momentum".

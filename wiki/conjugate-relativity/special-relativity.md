@@ -14,7 +14,7 @@ sources:
   - "papers/conjugate-special-relativity.md §7"
 ---
 
-*Special relativity is Einstein's 1905 theory of how measurements of length and time compare between observers moving at constant velocity relative to one another, built on one speed that all of them measure alike, the speed of light c. Its machinery (boosts, the light cone, the relativity of simultaneity, time dilation, length contraction and the mass shell) is textbook physics. The program uses it as a template: the paper [#13](/wiki/conjugate-relativity) copies each piece into the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the role of position, with force in place of velocity and a [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in place of c. This page states the template and lists the copies; #13 tags its copies as derived, but no review round or script has checked them, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them.*
+*Special relativity is Einstein's 1905 theory of how measurements of length and time compare between observers moving at constant velocity relative to one another, built on one speed that all of them measure alike, the speed of light c. Its machinery (boosts, the light cone, the relativity of simultaneity, time dilation, length contraction and the mass shell) is textbook physics. The program uses it as a template: the paper [#13](/wiki/conjugate-relativity) copies each piece into the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the role of position, with force in place of velocity and a [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in place of c. This page states the template and lists the copies; #13 tags most of its copies as derived, but no review round or script has checked them, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them.*
 
 **Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a blind review round, no `verify/` script checks any of its formulas or numbers, and #11 v2.2 does not mention it.
 
@@ -66,7 +66,7 @@ The quantity
 ds² = c²dt² − dx²
 ```
 
-where dx² is the squared length of the spatial displacement, takes the same value in every inertial frame. The boosts, together with the rotations of space, are the linear transformations that preserve it, and they form the Lorentz group. The sign of ds² sorts the separations between events:
+where dx² is the squared length of the spatial displacement, takes the same value in every inertial frame. The linear transformations that preserve it form the Lorentz group; the boosts and the rotations of space generate its connected part, and the reflections of space and time make up the rest. The sign of ds² sorts the separations between events:
 
 - **timelike** (ds² > 0): a body moving slower than light can be present at both events;
 - **spacelike** (ds² < 0): no signal can connect them;
