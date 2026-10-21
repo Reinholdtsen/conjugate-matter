@@ -20,7 +20,7 @@ sources:
   - "review/round3/referee/audit-notes.md Step 2"
 ---
 
-*Dwarf galaxies are small, faint galaxies, many of them satellites of the Milky Way, whose mass is mostly dark matter. In many of the brighter, classical dwarfs the dark matter's central density is flatter than collisionless cold dark matter (CDM) predicts — the cusp–core problem — which a self-interaction of the dark matter, the wave nature of very light dark matter, or the gravitational stirring caused by gas that supernovae blow out of the center can explain. The ultra-faint dwarfs (UFDs) are fainter still, and they are the densest, oldest and most dark-matter-dominated systems known. In the Broken-Born program, the classical dwarfs fix the strength of conjugate matter's self-scattering, and the ultra-faint dwarfs, Segue 1 among them, falsified [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), one branch of the momentum-clumping test.*
+*Dwarf galaxies are small, faint galaxies, many of them satellites of the Milky Way, whose mass is mostly dark matter. In many of the brighter, classical dwarfs the dark matter's central density is flatter than collisionless cold dark matter (CDM) predicts — the cusp–core problem — which a self-interaction of the dark matter, the wave nature of very light dark matter, or the gravitational stirring caused by gas that supernovae blow out of the center can explain. The ultra-faint dwarfs (UFDs) are fainter still, and they are the densest, oldest and most dark-matter-dominated systems known. In the Broken-Born program, the classical dwarfs fix the strength of [conjugate matter](/wiki/dark-matter/conjugate-matter)'s self-scattering, and the ultra-faint dwarfs, Segue 1 among them, falsified [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), one branch of the momentum-clumping test.*
 
 **Status:** Established observational background — [T] — the Segue 1 numbers below are the program's own inputs, stated without a citation in any source and not checked by a `verify/` script; they are to be source-checked before external use.
 
@@ -47,7 +47,7 @@ The program fixes the strength of conjugate matter's self-scattering with the cl
 
 ### A dwarf core as a test environment
 
-The [Debt-3 notes](/wiki/history/documents/debt-3-notes) use a classical dwarf core as one of their test environments. Debt 3a's "Dwarf core (ρ ∼ 1 GeV/cm³, σ∼30 km/s)" is where the mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) falls short by "∼10⁻²⁸". Debt 3b's environment table has the row "Classical dwarf core (1, 30)", with ρ in GeV/cm³ and σ in km/s, t_dyn = 0.1 Gyr and stream-to-stirring ratio R_X ~ 10⁻² (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). Under Scenario A, the same cores fix the coupling: "Fitting classical-dwarf cores means Γ_self(dwarf) · t_age = κ ∼ 1".
+The [Debt-3 notes](/wiki/history/documents/debt-3-notes) use a classical dwarf core as one of their test environments. Debt 3a's "Dwarf core (ρ ∼ 1 GeV/cm³, σ∼30 km/s)" is where the ratio of the two sides of the mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) is "∼10⁻²⁸". Debt 3b's environment table has the row "Classical dwarf core (1, 30)", with ρ in GeV/cm³ and σ in km/s, t_dyn = 0.1 Gyr and stream-to-stirring ratio R_X ~ 10⁻² (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). Under Scenario A, the same cores fix the coupling: "Fitting classical-dwarf cores means Γ_self(dwarf) · t_age = κ ∼ 1".
 
 ### Where each branch gets its cores
 
@@ -60,7 +60,7 @@ Each of the program's dark-matter options needs the dwarf cores to come from som
 | Wave χ, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) | alive, quarantined | "fuzzy-end quantum pressure at m ∼ 10⁻²² eV, or baryonic feedback" (Debt 3b) |
 | Superheavy solitons ([retired](/wiki/dark-matter/candidates/soliton-candidate/obituary)) | dead | baryonic feedback, since the candidate was "effectively collisionless cold dark matter" (#14 §4) |
 
-Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the wave island that Debt 3c later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the monopoles' self-interaction at σ_T/M ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The round-3 referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). The candidate was retired for other reasons ([the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that Debt 3c later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the monopoles' self-interaction at σ_T/M ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The round-3 referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). The candidate was retired for other reasons ([the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Ultra-faint dwarfs [T]
 
@@ -76,7 +76,7 @@ Debt 3c chose Segue 1 as the test system and gave its inputs ('Sharpened input n
 
 and its character ('The data'): "Segue 1 has M/L ~ 10³ and a ~13 Gyr stellar population sitting in an intact, *dense* halo". No source cites a measurement for any of these numbers, and no `verify/` script checks them.
 
-With these inputs, Debt 3c reruns Debt 3b's ratio of condensation rate to orbital stirring, normalized to the dwarf cores (κ = 1):
+With these inputs, Debt 3c reruns Debt 3b's ratio of [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) to orbital stirring, normalized to the dwarf cores (κ = 1):
 
 ```text
 R_Segue1 = κ (t_dyn/t_age)(ρ/ρ_d)²(σ_d/σ)² ≈ 10⁻³ · 10⁴ · 66 ≈ 660
