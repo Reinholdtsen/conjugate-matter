@@ -31,7 +31,7 @@ sources:
   - "verify/toy_coset.py"
 ---
 
-*This open problem asks where the potential that fixes the polarization angle comes from. In the program's toy models the vacuum's polarization, the choice of which direction in the position–momentum plane counts as position, is an angle that can take any value at no cost in energy. In wave terms the angle runs continuously from describing a state by its waveform to describing it by its spectrum, through the intermediate descriptions that fractional Fourier transforms give. A definite polarization appears only after a potential is added that keeps Born reciprocity as a symmetry but pins the angle to one of two opposite settings. The program gives its dark-energy field τ a potential of the same kind. Such a potential brings in a fixed, unordered pair of axes, which is more fixed structure than the program's postulate P2′ ("only ω is rigid") provides, and nothing in the program derives it. Its first proposed origin, the rigid background of the original postulate P2, disappeared when P2 was replaced.*
+*This open problem asks where the potential that fixes the polarization angle comes from. In the program's coset toy model the vacuum's polarization, the choice of which direction in the position–momentum plane counts as position, is an angle that can take any value at no cost in energy. In wave terms the angle runs continuously from describing a state by its waveform to describing it by its spectrum, through the intermediate descriptions that fractional Fourier transforms give. A definite polarization appears only after a potential is added that keeps Born reciprocity as a symmetry but pins the angle to one of two opposite settings. The program gives its dark-energy field τ a potential of the same kind. Such a potential brings in a fixed, unordered pair of axes, which is more fixed structure than the program's postulate P2′ ("only ω is rigid") provides, and nothing in the program derives it. Its first proposed origin, explicit breaking by the rigid background of the original postulate P2, did not survive the replacement of P2.*
 
 **Status:** Open — [O] (#11 §14 item 11, "a derivation of the potential") — the bounded form the toy uses is checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)), but where any such potential comes from is not derived. Listed at [Open problems and the queue](/wiki/status/open-problems).
 
@@ -41,13 +41,13 @@ Checkpoint #11 states the requirement in the v2.2 refinement of its postulate [P
 
 > with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]. Two things follow. A definite polarization needs a ρ-preserving potential on that angle — a rigid, unordered pair of axes, so more structure than ω alone, though less than a rigid η. (#11 §4)
 
-The open problem is where that potential comes from. Three documents list it:
+The open problem is where that potential comes from. Three current documents list it:
 
-- #11 §14 item 11 keeps "a derivation of the potential" open [O], next to "a Monte Carlo with H dynamical" and the strong form of matter locality ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion));
-- the toy-model note (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) lists under "Not shown" "a derivation of the ρ-preserving potential, which introduces a rigid, unordered pair of axes" (§6);
+- #11 §14 item 11 ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)) keeps "a derivation of the potential" open [O], next to "a Monte Carlo with H dynamical" and [the strong form of matter locality](/wiki/symmetry-breaking/strong-locality);
+- the [toy-model note](/wiki/symmetry-breaking/toy-models) (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) lists under "Not shown" "a derivation of the ρ-preserving potential, which introduces a rigid, unordered pair of axes" (§6);
 - the root `CLAUDE.md` names "a derivation of the ρ-preserving potential" among the open ends of the toy work.
 
-In the toy models the potential is put in by hand. The problem qualifies [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and the postulate P2′.
+In the coset toy model the potential is put in by hand. The problem qualifies [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and the postulate P2′.
 
 ## Why a potential is needed
 
@@ -59,7 +59,7 @@ In the toy models the potential is put in by hand. The problem qualifies [the po
 K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]]                        (toy note §2)
 ```
 
-and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ acts on it as "K(φ) → K(φ + π) = −K(φ)" (toy note §2). So ρ is one element of a continuous group of rotations of the angle φ, "the U(1) stabilizer of H that rotates K" (worklog, 'Chunk 2 results'; the worklog is `notes/toy-lagrangian.md`). Moving along the circle costs no energy: the compact angle φ is one of model I's three Goldstone directions, and it "parametrizes the Lagrangian Grassmannian Λ(1)" (toy note §2; [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua); [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). The worklog's reading: "'which polarization' is an angle on a Goldstone circle, not a discrete choice. The x-sharp and p-sharp vacua are joined by a flat direction." ('Chunk 2 results').
+and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ acts on it as "K(φ) → K(φ + π) = −K(φ)" (toy note §2). So ρ is one element of a continuous group of rotations of the angle φ, "the U(1) stabilizer of H that rotates K" (worklog, 'Chunk 2 results'; the worklog is `notes/toy-lagrangian.md`). Moving along the circle costs no energy: the compact angle φ is one of model I's three Goldstone directions, and it "parametrizes the Lagrangian Grassmannian Λ(1)" (toy note §2; [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua); [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs); [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian)). The worklog's reading: "'which polarization' is an angle on a Goldstone circle, not a discrete choice. The x-sharp and p-sharp vacua are joined by a flat direction." ('Chunk 2 results').
 
 In wave terms the circle is literal [T]. Each point of it takes a different line through the origin of the (x, p) plane as "position" ([Lagrangian subspaces and polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations)). Describing a quantum state along a rotated line amounts to applying a fractional Fourier transform to its wavefunction, and the two familiar descriptions, the waveform ψ(x) and its spectrum ψ̃(p), sit a quarter turn of phase space apart on this circle ([the Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform)). A Goldstone angle leaves the choice among all of these descriptions open.
 
@@ -74,7 +74,7 @@ The worklog's summary of the 1+1 result: "In 1+1, Born reciprocity is spontaneou
 The note's requirement: "To get a definite polarization we add a potential that is invariant under ρ and under K → −K, and reduces the U(1) to a discrete group." (toy note §4). Its three clauses:
 
 - **Invariant under ρ.** The laws stay reciprocity-symmetric, so that whatever distinguishes position from momentum is the vacuum, not the potential: the breaking of ρ stays spontaneous ([spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking)).
-- **Invariant under K → −K.** Model I has this flip as a second, separate symmetry (toy note §2), and the potential keeps it ([the twisted element](/wiki/symmetry-breaking/twisted-element)).
+- **Invariant under K → −K.** Model I has this flip as a second, separate symmetry (toy note §2; [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)), and the potential keeps it ([the twisted element](/wiki/symmetry-breaking/twisted-element)).
 - **Reduces the U(1) to a discrete group.** The potential breaks the continuous rotation of φ explicitly. A potential that repeats when φ advances by π is unchanged by ρ, which acts as φ → φ + π, and leaves isolated minima instead of a flat circle.
 
 An explicit term that breaks a continuous symmetry gives the would-be Goldstone direction a potential, and the mode is then called a pseudo-Goldstone mode [T]. The worklog's revised conclusion uses that language: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). The lab notebook had already called τ "a (pseudo-)Goldstone: derivatively coupled" (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
@@ -89,7 +89,7 @@ The toy has used two forms; their full records are on their own pages. Both are 
 V = −μ [Tr(K K_ref)]²,        at H = 1:  −2μ(1 + cos 2φ)        (worklog, 'Chunk 3 results')
 ```
 
-It keeps ρ and the flip, and at H = 1 its minima are the two vacua ±K_ref, which ρ exchanges. But "The naive choice −μ[Tr(K K_ref)]² is unbounded below once H is dynamical": along a family of boosts "the potential reaches −8.9 × 10⁶ μ at boost parameter 4", and "The point (1, K_ref) is a saddle (Hessian eigenvalue −6.47 at λ = μ = 1)" (toy note §4). Round 4 upheld both points as findings F1 and F2 (`review/round4-adjudication.md`). See [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential).
+It keeps ρ and the flip, and at H = 1 its minima are the two vacua ±K_ref, which ρ exchanges. But "The naive choice −μ[Tr(K K_ref)]² is unbounded below once H is dynamical": along a family of boosts "the potential reaches −8.9 × 10⁶ μ at boost parameter 4", and "The point (1, K_ref) is a saddle (Hessian eigenvalue −6.47 at λ = μ = 1)" (toy note §4). [Round 4](/wiki/method/review/round-4) upheld both points as findings F1 and F2 (`review/round4-adjudication.md`). See [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential).
 
 ### The bounded form V_b
 
@@ -112,7 +112,7 @@ The three levels of fixed structure that the sources compare:
 |---|---|---|---|
 | ω alone (P2′) | no axes | a Goldstone angle, any value | #11 §4 |
 | ω and a ρ-preserving potential | an unordered pair of axes | one of two settings, exchanged by ρ | #11 §4; worklog 'Chunk 3 results' |
-| ω and η (the original P2) | the pair of axes, ordered | discrete: "no Grassmannian, no Maslov circle, no dark-energy field" | #11 §5; #5 §B |
+| ω and η ([the original P2](/wiki/program/postulates/original-p2)) | the pair of axes, ordered | discrete: "no Grassmannian, no Maslov circle, no dark-energy field" | #11 §5; #5 §B |
 
 The sources read this cost the same way:
 
@@ -141,7 +141,7 @@ The toy-model note works in 1+1 with d = 1 and lists "anything beyond d = 1" as 
 ## History of the origin question
 
 1. **v0.1 (September 2026).** The lab notebook gave the potential's existence to the rigid ω of its original postulate P2, [P/O] (#1 §3). That attribution is superseded; see the section below.
-2. **The postulate repair (Debt 1).** With η emergent the polarizations again form Λ(d), "π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B), and the source of τ's potential became an open item: "(3) the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F; [the Debt-1 notes](/wiki/history/documents/debt-1-notes)). No later document derives the potential from either candidate. The toy work's section condition does select an unordered pair of lines, "the same information as K_ref", but cannot tell which is position (worklog, 'Chunk 3 results', plan for S5; [the section condition](/wiki/symmetry-breaking/section-condition)).
+2. **The postulate repair ([Debt 1](/wiki/history/debts)).** With η emergent the polarizations again form Λ(d), "π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B), and the source of τ's potential became an open item: "(3) the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F; [the Debt-1 notes](/wiki/history/documents/debt-1-notes)). No later document derives the potential from either candidate. The toy work's section condition does select an unordered pair of lines, "the same information as K_ref", but cannot tell which is position (worklog, 'Chunk 3 results', plan for S5; [the section condition](/wiki/symmetry-breaking/section-condition)).
 3. **The toy models (2026-10-19).** The polarization is a Goldstone angle, and in 1+1 a definite polarization needs a potential, first the naive form, with its cost stated from the start (worklog, chunks 1–3).
 4. **Round 4 and #11 v2.2 (2026-10-19/20).** The naive form fails with H dynamical and V_b replaces it ([review round 4](/wiki/method/review/round-4)); #11 adds the refinement of P2′, the boundedness condition of §10 and the open item in §14 item 11.
 
