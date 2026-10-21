@@ -45,7 +45,7 @@ The relation was first written down in 1925, by Born and Jordan and independentl
 
 ### The classical counterpart
 
-Classical mechanics has the same pairing in the Poisson bracket, {x, p} = 1: positions pair with their own momenta, antisymmetrically, and with nothing else [T]. Geometrically this pairing is the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω of phase space. Dirac's rule of quantization replaces a Poisson bracket {A, B} by the commutator [Â, B̂]/(iℏ) [T], so [x, p] = iℏ is the quantum form of ω. This is why the program can treat ω and ℏ as one structure (below).
+Classical mechanics has the same pairing in the Poisson bracket, {x, p} = 1: positions pair with their own momenta, antisymmetrically, and with nothing else [T]. Geometrically this pairing is the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω of phase space. Dirac's rule of quantization replaces a Poisson bracket {A, B} by the commutator [Â, B̂]/(iℏ) [T], so [x, p] = iℏ is the quantum form of ω. This is the motivation for the program's postulate that treats ω and ℏ as one structure (below).
 
 ## The uncertainty principle
 
@@ -73,7 +73,7 @@ Because the relation is unchanged, ρ carries one representation of the commutat
 
 ## First use: some polarization must be chosen
 
-#11 §3 makes the uncertainty principle the premise of its [hard core](/wiki/program/hard-core): "The breaking is *mandatory*: [x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization. The magnet must point." The sentence carries no tag in #11. "Joint locality" is locality in both variables at once; the v1 paper's wording is "nothing can be local in both variables at once, so any universe with local physics must pick a polarization" (#9 §1). A world whose physics is local must therefore be local in one variable at the cost of the other. The choice of variable is a [Lagrangian polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), a choice of which phase-space directions count as position. The [popular article](/wiki/history/documents/popular-articles) #12 gives the plain-language version: "a universe containing definite structures — atoms, crystals, instruments — must be definite in one variable at the expense of the other" ("An asymmetry that cannot be avoided"; a popular article, never a status source).
+#11 §3 makes the uncertainty principle the premise of its claim that the breaking in its [hard core](/wiki/program/hard-core) is unavoidable: "The breaking is *mandatory*: [x,p] = iℏ forbids joint locality, so any world with local physics must select a Lagrangian polarization. The magnet must point." The sentence carries no tag in #11. "Joint locality" is locality in both variables at once; the v1 paper's wording is "nothing can be local in both variables at once, so any universe with local physics must pick a polarization" (#9 §1). A world whose physics is local must therefore be local in one variable at the cost of the other. The choice of variable is a [Lagrangian polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), a choice of which phase-space directions count as position. The [popular article](/wiki/history/documents/popular-articles) #12 gives the plain-language version: "a universe containing definite structures — atoms, crystals, instruments — must be definite in one variable at the expense of the other" ("An asymmetry that cannot be avoided"; a popular article, never a status source).
 
 The argument's reach is limited in two ways, both recorded in #11:
 
@@ -84,7 +84,7 @@ The argument and its current status are on [mandatory breaking](/wiki/symmetry-b
 
 ## Second use: ℏ as the one rigid structure
 
-The program's corrected postulate reads: "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime)). The identification rests on the relations above. The commutator is the quantum form of ω, and ℏ is its only scale, so a symplectic form fixed once and for all amounts to a Planck constant that does not vary.
+The program's corrected postulate reads: "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime)). The relations above motivate the identification, which remains a postulate. The commutator is the quantum form of ω, and ℏ is its only scale, so a symplectic form fixed once and for all amounts to a Planck constant that does not vary.
 
 The lab notebook glossed it this way under the original P2: "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) also froze the [neutral metric η](/wiki/phase-space/born-geometry/born-structures) and was superseded; [the calc note](/wiki/history/documents/debt-1-notes) that forced the change kept the ω half: "Freeze ω only — that is genuinely ℏ" (#5 §B).
 

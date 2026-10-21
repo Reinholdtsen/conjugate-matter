@@ -81,7 +81,7 @@ Still open there [O]: "a Monte Carlo with H dynamical; a derivation of the poten
 
 The invariance is machine-checked. In [model I](/wiki/symmetry-breaking/toy-models/coset-model), the coset model of (H, K), "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, and the action is invariant (checked for generic symplectic S, so for ρ)" (toy-model note §2), and the gate prints "all three terms invariant under rho" [V] ([Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)).
 
-Two parts of the referees' wording are not covered by "met":
+"Met" leaves two things uncovered, one clause of the referees' wording and the round-3 critique:
 
 - **The electric sublattice.** #14's criterion and the handoff's open item required η to select "the hidden sector's electric description" (or "the electric sublattice") as well. The worklog's criteria and #11 §14 item 11 omit that clause. The root `CLAUDE.md` calls the toy Lagrangian "done to the referees' wording", and the clause remains unaddressed.
 - **The round-3 critique.** The worklog's own assessment: "The round-3 critique ('the framework does no work') is only partly answered. The toy makes the program's structures cohere (η as order parameter; τ as the polarization angle), but matter's x-locality still enters through the P4-type coupling." (`notes/toy-lagrangian.md`, "Assessment against the predictions"; [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).

@@ -103,8 +103,8 @@ In the program's postulates ω is the only structure that does not vary. "**P2�
 What a rigid ω leaves free:
 
 - **The Siegel domain.** The positive generalized metrics H compatible with ω alone form the Siegel domain Sp(2d, ℝ)/U(d), coordinatized by a complex symmetric matrix Z = X + iY with Y > 0 (#5 §C; [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain)). For d = 1 it is the upper half-plane of model I.
-- **Möbius maps.** Sp(2d, ℝ) acts on Z by fractional linear (Möbius) maps, and ρ acts as Z → −Z⁻¹ with fixed point Z = i (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
-- **Shifts.** "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric)" (#11 §7.1), the Möbius action of the block matrix [[1, B], [0, 1]] (#6 §1). It shifts [the momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, so X "is shift-symmetric — axion-like, never auxiliary" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
+- **Möbius maps.** Sp(2d, ℝ) acts on Z by fractional linear (Möbius) maps, and ρ acts as Z → −Z⁻¹ with fixed point Z = i [D] (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
+- **Shifts.** "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric)" (#11 §7.1, tagged [D + T]), the Möbius action of the block matrix [[1, B], [0, 1]] (#6 §1). It shifts [the momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, so X "is shift-symmetric — axion-like, never auxiliary" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
 - **Unimodularity.** With η also rigid, det H = 1 follows (#5 §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)). #11 §5 adds, calling it machine-verified, that it "persists across the whole modular family". Battery test T2 checks "det H_Z = 1" at one randomly sampled member of the family (d = 4), so the statement for the whole family is derived [D], not machine-verified ([the verification battery](/wiki/method/verification/battery)).
 
 ## A second symplectic space: charges
