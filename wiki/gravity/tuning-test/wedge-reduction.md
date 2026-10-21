@@ -20,6 +20,7 @@ sources:
   - "notes/debt1a-geometric-core.md §C"
   - "notes/debt1a-geometric-core.md §D"
   - "notes/debt1a-geometric-core.md §F"
+  - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §10"
   - "notes/broken-born-program-v1.md §11"
@@ -29,15 +30,15 @@ sources:
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*This open problem asks for the ghost-free potential of the [momentum graviton X](/wiki/gravity/momentum-graviton) to be derived from the program's geometric action instead of being chosen. The tuning test found that wedge polynomials of the symplectic vielbein E and the polarization frame E₀[J] form a ghost-free class ([the frame tier](/wiki/gravity/tuning-test/frame-tier)), and argued that this is the minimal way to couple the polarization to the geometry. That argument selects the class; it does not obtain it line by line from an action. The only geometric action written out, the lab notebook's [S_H](/wiki/gravity/tuning-test/geometric-action), predates the change of postulate that brought X into the theory. The problem is item 1 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O], and one of the three items, with the partially-massless comparison and the Lorentzian dressing, on which #11 makes the word "theory" wait. Nothing has been computed toward it, and it is not on the current work queue.*
+*This open problem asks for the ghost-free potential of the [momentum graviton X](/wiki/gravity/momentum-graviton) to be derived from the program's geometric action instead of being chosen. [The tuning test](/wiki/gravity/tuning-test) found that wedge polynomials of the symplectic vielbein E and the polarization frame E₀[J] form a ghost-free class ([the frame tier](/wiki/gravity/tuning-test/frame-tier)), and argued that this is the minimal way to couple the polarization to the geometry. That argument selects the class; it does not obtain it line by line from an action. The only geometric action written out, the [lab notebook](/wiki/history/documents/lab-notebook)'s [S_H](/wiki/gravity/tuning-test/geometric-action), predates the change of postulate that brought X into the theory. The problem is item 1 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O], and one of the three items, with [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing), on which #11 makes the word "theory" wait. Nothing has been computed toward it, and it is not on the current work queue.*
 
-**Status:** Open — [O] — item 1 of #11 §14; also item (i) of the open residue in calc note #8 §5 and the first half of open item 5 in `HANDOFF.md` §2; no derivation exists. Listed in [open problems and the queue](/wiki/status/open-problems).
+**Status:** Open — [O] — item 1 of #11 §14; also item (i) of the open residue in [calc note #8](/wiki/history/documents/debt-1-notes) §5 and the first half of open item 5 in `HANDOFF.md` §2; no derivation exists. Listed in [open problems and the queue](/wiki/status/open-problems).
 
 ## The open problem
 
 #11 §14 item 1, in full: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]."
 
-The item was first stated by calc note #8 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its close-out of Debt 1: "**Debt 1: structurally paid.** Open residue, none of it existential: (i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line)" (#8 §5). The four other items of that residue became #11 §14 items 3, 6, 5 and 2.
+The item was first stated by calc note #8 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its close-out of [Debt 1](/wiki/history/debts): "**Debt 1: structurally paid.** Open residue, none of it existential: (i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line)" (#8 §5). The four other items of that residue became #11 §14 items 3, 6, 5 and 2.
 
 "The frame-tier wedge sector" is the potential that gives X its mass, written as wedge polynomials of the two frames, (E, E₀[J]) ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). "S_H" is the program's geometric action ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)). A first-principles reduction would start from the action and arrive at that potential, instead of selecting it.
 
@@ -48,19 +49,19 @@ Calc note #7 reached the frame tier in two steps of different kinds (#7 §3):
 - **The literature step [T].** "In vielbein variables the ghost-free potentials are polynomial — wedge products ε(e ∧ … ∧ f ∧ …) of two frames (Hinterbichler–Rosen) [T]". This is a result about which potentials are healthy ([the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)).
 - **The program's step, by minimality.** "**J and E live on the same geometric tier** (first-order structures on the tangent, like the Born connection), while H = EᵀE is second-order. The geometrically minimal coupling of the polarization to the modular sector is therefore E-linear — wedge polynomials of (E, E₀[J])". This is a reason to expect the program's coupling to take that form, not a derivation that it does.
 
-"Consistency" is the other half of #8's phrase. The coupling had to lie in the one known consistent structure for a massive spin-2 field, "Fierz–Pauli/dRGT/Hassan–Rosen" (#11 §7.1), dRGT being de Rham–Gabadadze–Tolley, and the coupling built from metrics does not ([the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures)). Minimality picked the frame-level coupling, and consistency required a ghost-free one; the frame tier satisfies both. OP1 asks for a derivation from the action in place of that choice.
+"Consistency" is the other half of #8's phrase. The coupling had to lie in the one known consistent structure for a massive spin-2 field, "Fierz–Pauli/dRGT/Hassan–Rosen" (#11 §7.1), dRGT being de Rham–Gabadadze–Tolley ([the Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli); [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity); [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)), and the coupling built from metrics does not ([the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures)). Minimality picked the frame-level coupling, and consistency required a ghost-free one; the frame tier satisfies both. OP1 asks for a derivation from the action in place of that choice.
 
 ## What a derivation would start from
 
-- **The only action written out is superseded.** The lab notebook's S_H = ½M_B² ∫_Σ √|H| R_B[H] was written "with ω, η frozen (P2)" (#1 §3). Under that postulate, "S_H is a functional of g alone: a pure metric theory. No momentum graviton" (#5 §B; #11 §5), so that form contains no X to give a potential to.
-- **After P2′ the symbol stays, the action is not written.** The notes use S_H for an action built from ω and H: "Constant shifts of X are **exact symmetries** of any S_H built from (ω, H)" (#6 §1), and "the field equation for momentum-space geometry is the Re Z sector of S_H" (#5 §C). No document writes this action out.
-- **Where X's potential must come from.** The same sentence of #6 §1 continues: "X has no potential and no non-derivative couplings from the geometric sector alone". X's mass comes from "the η-selection (Higgs) sector", in which the polarization J enters (#7 §1; [the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)), and the wedge sector involves J through E₀[J]. The documents do not say how the action from which the wedge sector is to be derived includes J.
+- **The only action written out is superseded.** [The lab notebook](/wiki/history/documents/lab-notebook)'s S_H = ½M_B² ∫_Σ √|H| R_B[H] was written "with ω, η frozen (P2)" (#1 §3). Under that postulate, "S_H is a functional of g alone: a pure metric theory. No momentum graviton" (#5 §B; #11 §5), so that form contains no X to give a potential to.
+- **After [P2′](/wiki/program/postulates/p2-prime) the symbol stays, the action is not written.** The notes use S_H for an action built from ω and H: "Constant shifts of X are **exact symmetries** of any S_H built from (ω, H)" (#6 §1), and "the field equation for momentum-space geometry is the Re Z sector of S_H" (#5 §C). No document writes this action out.
+- **Where X's potential must come from.** The same paragraph of #6 §1 continues: "X has no potential and no non-derivative couplings from the geometric sector alone". X's mass comes from "the η-selection (Higgs) sector", in which the polarization J enters (#7 §1; [the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)), and the wedge sector involves J through E₀[J]. The documents do not say how the action from which the wedge sector is to be derived includes J.
 - **The direct expansion was posed and not done.** Calc note #5 defined the decisive computation as "expand the generalized curvature scalar of (ω, H_Z) to quadratic order in X about X = 0 on the section, with ω-generalized diffeomorphisms as the gauge symmetry" (#5 §D). It was "Not completed tonight", and no later document reports it; calc notes #6 to #8 settled the character of X by symmetry and consistency arguments instead.
 - **The connection under P2′.** The v0.1 action is built on the curvature of [the Born connection](/wiki/phase-space/born-geometry/born-connection), which is unique for the full triple (ω, η, H). Whether ω and H alone fix a unique connection is open: "(5) connection uniqueness for the (ω, H)-only structure" (#5 §F). That item is not among #11's numbered open problems.
 
 ## Why it matters
 
-**Selection against derivation.** #11 §2 warns of "the selection-versus-derivation bias", acknowledged "explicitly where it operates (§7.4)". §7.4 applies it to the novelty of the vacuum-energy identity: "This is the selection-versus-derivation bias check of §2 operating as intended." The parenthesis of §14 item 1, "(class selected, not derived)", records the same distinction for the frame-tier class ([claim tiers and selection bias](/wiki/method/claim-tiers)).
+**Selection against derivation.** #11 §2 warns of "the selection-versus-derivation bias", acknowledged "explicitly where it operates (§7.4)". §7.4 applies it to the novelty of [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "This is the selection-versus-derivation bias check of §2 operating as intended." The parenthesis of §14 item 1, "(class selected, not derived)", records the same distinction for the frame-tier class ([claim tiers and selection bias](/wiki/method/claim-tiers)).
 
 **What rests on the selected class.** The positive half of the tuning test, [the frame tier](/wiki/gravity/tuning-test/frame-tier), and with it [the verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass). The potential that reciprocity then restricts, [the palindromic branch](/wiki/gravity/palindromic-branch), including [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) and [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity). The picture of [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), and the program's statement of [Born's answer](/wiki/gravity/momentum-graviton/borns-answer). All of these take the selected class as their starting point.
 
@@ -80,7 +81,7 @@ No document reports work toward a derivation.
 
 ## The queue
 
-The handoff's ranked queue of next actions did not include the item (`HANDOFF.md` §8). The current queue, in `CLAUDE.md` ('Since the handoff'), is the handoff's §8 items 5 to 7, namely the partially-massless comparison, the † literature battery and the phase-space-diameter note, followed by an optional round-5 review of the toy-model note "but only before any external use". This item is not on it ([open problems and the queue](/wiki/status/open-problems)).
+The handoff's ranked queue of next actions did not include the item (`HANDOFF.md` §8). The current queue, in `CLAUDE.md` ('Since the handoff'), is the handoff's §8 items 5 to 7, namely the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery) and [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), followed by an optional round-5 review of the toy-model note "but only before any external use". This item is not on it ([open problems and the queue](/wiki/status/open-problems)).
 
 ## Sources
 
@@ -89,7 +90,7 @@ The handoff's ranked queue of next actions did not include the item (`HANDOFF.md
 - `notes/debt1a-iii-tuning-test.md` §1, §3 — the η-selection sector; the frame-tier argument by minimality.
 - `notes/debt1a-ii-X-classification.md` §1, §3 — S_H built from (ω, H) gives X no potential; the health criterion.
 - `notes/debt1a-geometric-core.md` §B, §C, §D, §F — S_H under strict P2; the Re Z sector of S_H; the expansion posed and not completed; connection uniqueness for (ω, H).
-- `notes/broken-born-theory.md` 'Addendum (v0.6)' — the residual open items.
+- `notes/broken-born-theory.md` §3 — S_H written with ω and η frozen; 'Addendum (v0.6)' — the residual open items.
 - `notes/broken-born-program-v1.md` §10, §11 — the v1 listing and "theory" awaiting items 1–2.
 - `notes/knot-dark-matter-standalone.md` §1 — the caveat as stated in the withdrawn manuscript.
 - `HANDOFF.md` §2 — open item 5; §8 — the ranked queue at the handoff.
