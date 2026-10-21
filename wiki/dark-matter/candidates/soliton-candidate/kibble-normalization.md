@@ -22,8 +22,8 @@ sources:
 
 ## Key facts
 
-- **What v3 wrote** (#14 §3): "The Kibble mechanism [18] at a post-inflationary transition with T_c ~ v yields n/s ~ p (v/M_Pl)^3. One monopole per horizon volume with g* = 100 gives p ~ 0.023; we take p = 1 as the upper end." #11 §12 records the history: the estimate "had been normalized at p = 1 (#14 v2) and p ≈ 0.023 (#14 v3)." The v3 worklog's F1 had used the same value: "The horizon-counting p is ≈ 0.023".
-- **The dropped factor.** The referee: "0.0228 = 45/(2pi^2 100) i.e. H^3 without (1.66 sqrt g*)^3 = 4576", verdict "DISCREPANT (factor ~1e3-5e3)" (audit notes, Step 2). Ruling 1, upheld: "My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g*)³ ≈ 4.6×10³." In the notation of the arbitration run:
+- **What v3 wrote** (#14 §3): "The Kibble mechanism [18] at a post-inflationary transition with T_c ~ v yields n/s ~ p (v/M_Pl)^3. One monopole per horizon volume with g\* = 100 gives p ~ 0.023; we take p = 1 as the upper end." #11 §12 records the history: the estimate "had been normalized at p = 1 (#14 v2) and p ≈ 0.023 (#14 v3)." The v3 worklog's F1 had used the same value: "The horizon-counting p is ≈ 0.023".
+- **The dropped factor.** The referee: "0.0228 = 45/(2pi^2 100) i.e. H^3 without (1.66 sqrt g\*)^3 = 4576", verdict "DISCREPANT (factor ~1e3-5e3)" (audit notes, Step 2). Ruling 1, upheld: "My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g\*)³ ≈ 4.6×10³." In the notation of the arbitration run:
 
   ```text
   n/s = p (T_c/M_Pl)³          H = 1.66 √g* T²/M_Pl

@@ -15,6 +15,8 @@ Checks, in order of severity:
   section      a folder under wiki/ has no _index.md, or a file is named claude.md
   gist         the body does not open with an italic plain-language passage
   statusline   a page that is not a section index has no **Status:** line
+  star         an unescaped starred symbol such as v* or M*, whose asterisk can
+               close an emphasis span (an italic opening ends early); write v\*
   h1           the body contains an `# H1` (hugo-book renders the title as h1)
   fence        a fenced code block declares no language
   acronym      an acronym is unregistered, or a page uses it without spelling it
@@ -57,6 +59,10 @@ INLINE_CODE_RE = re.compile(r"`([^`]*)`")
 # letters, optionally pluralized ("UFDs" -> UFD). Version tags and the
 # provenance tags ([D], [T], ...) have one letter and are skipped.
 ACRONYM_RE = re.compile(r"\b([A-Z][A-Z0-9]{1,5})(?:es|s)?\b")
+# A one-letter symbol followed by an unescaped asterisk (v*, M*, g*). In
+# Markdown that asterisk can close an emphasis span, so inside an italic
+# passage it ends the italics early.
+STARRED_RE = re.compile(r"(?<![\\*\w])([A-Za-zα-ωΑ-Ω])\*(?!\*)")
 # Inline code that names a file in this repository.
 REPO_PATH_RE = re.compile(
     r"^(?:(?:papers|notes|popsci|review|verify|scripts|wiki)/[^\s*?]+"
@@ -331,6 +337,10 @@ def main(argv):
             if m and len(m.group(1)) == 1:
                 err("h1", f, lineno, "body H1 — hugo-book renders the frontmatter title as h1; start at ##")
 
+            for sm in STARRED_RE.finditer(INLINE_CODE_RE.sub(" ", line)):
+                err("star", f, lineno,
+                    f"unescaped starred symbol {sm.group(0)!r} can close an emphasis span; write {sm.group(1)}\\*")
+
             for code in INLINE_CODE_RE.findall(line):
                 code = code.strip()
                 if REPO_PATH_RE.match(code) and not (ROOT / code).exists():
@@ -379,7 +389,7 @@ def main(argv):
                 f"{acro!r} is never spelled out beside a use on this page (expected {expansion!r}) or linked")
 
     order = ["link", "anchor", "map", "source", "frontmatter", "weight", "section",
-             "gist", "statusline", "h1", "fence", "acronym"]
+             "gist", "statusline", "star", "h1", "fence", "acronym"]
     errors.sort(key=lambda e: (order.index(e[0]), str(e[1]), e[2]))
     for kind, path, lineno, msg in errors:
         print(f"{path}:{lineno}: {kind}: {msg}")

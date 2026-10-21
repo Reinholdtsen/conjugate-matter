@@ -93,15 +93,15 @@ sources:
 - [The velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) — the amplitude depends on the incoming relative momentum through F(k²/μ²) [D — mechanism; shape [O]] (#11 §8).
 - [Dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress) — "moments involving momentum-derivatives of the χ bilinear", through which conjugate matter couples to X (calc note #5 §E; #11 §8).
 - [The gate mechanism: X exchange over fiber overlap](/wiki/dark-matter/conjugate-matter/gate-mechanism) — X-exchange between dual-stress bilinears, μ the χ quantum's momentum-fiber width (#11 §8).
-- [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) — σ_T(v) = σ₀F(v²/v*²), a robust knee at v*, isotropic below the gate (#11 §8).
+- [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) — σ_T(v) = σ₀F(v²/v\*²), a robust knee at v\*, isotropic below the gate (#11 §8).
 - [The scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) — m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} (#11 §8).
-- [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) — g·n_gate ≥ m·min(σ, v*)² fails at the scattering benchmark [D] (#11 §9).
+- [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) — g·n_gate ≥ m·min(σ, v\*)² fails at the scattering benchmark [D] (#11 §9).
 - [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) — meeting the criterion forces m ≲ 0.1 meV, where N_occ ~ 10²⁰ [D] (#11 §9).
-- [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — Γ ≈ c·g²ρ²min(σ, v*)⁴/(m³σ⁶) [D + T], coefficients [O] (#11 §9).
+- [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — Γ ≈ c·g²ρ²min(σ, v\*)⁴/(m³σ⁶) [D + T], coefficients [O] (#11 §9).
 - [Scenario B: tunable streams (quarantined)](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) — with the coupling free, streams are tunable across ~10 orders: "optional, never required" (#11 §9); a degeneration risk (#11 §15).
 - [Relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic) — free relic abundance via misalignment, on the wave island only (#11 §9).
 - [The net theorem: clumping is nowhere mandatory](/wiki/dark-matter/momentum-clumping/net-theorem) — "forbidden (particles), fatal (committed wave), decorative (free wave)" (#11 §9).
-- [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — mirror-polarized particles of assumed stability; knee at v* with a sharp tail (#11 §12, [D — framework; each candidate O]).
+- [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — mirror-polarized particles of assumed stability; knee at v\* with a sharp tail (#11 §12, [D — framework; each candidate O]).
 - [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — an oscillating massive spin-2, protected by its mass (#11 §12).
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — at minimum production the abundance closes at M ≈ 2.9–4.4×10¹² GeV, and the benchmark is overproduced 2.1×10³–1.2×10⁴ times [V] (#11 §12; `verify/soliton_obituary.py`).
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V] (#11 §12).
@@ -133,9 +133,9 @@ sources:
 
 ### Predictions
 
-- [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee) — a knee at v* ~ 10² km/s and zero cluster signal for particle χ (#11 §13).
+- [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee) — a knee at v\* ~ 10² km/s and zero cluster signal for particle χ (#11 §13).
 - [Row 2: isotropic scattering below the gate](/wiki/predictions/scattering-isotropy) — killed by halo morphology demanding forward peaking (#11 §13).
-- [Row 3: the island discriminant](/wiki/predictions/island-discriminant) — knee tail sharp for particles, (v*/σ)⁴ for waves; a diagnostic not previously posed (#11 §13).
+- [Row 3: the island discriminant](/wiki/predictions/island-discriminant) — knee tail sharp for particles, (v\*/σ)⁴ for waves; a diagnostic not previously posed (#11 §13).
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — w₀ > −1, wₐ < 0, never phantom; DR2 already favors a crossing above z ≈ 0.4 (#11 §13); under pressure.
 - [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — turnaround = conjugate bounce; long horizon, with row 4 as the near-term test (#11 §13).
 - [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton) — the reciprocity-even eigenstate is exactly massless (#11 §13).

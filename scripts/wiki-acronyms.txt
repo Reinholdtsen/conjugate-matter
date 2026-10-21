@@ -96,3 +96,50 @@ II	-
 III	-
 IV	-
 VI	-
+
+# Added after the breadth pass (2026-10-21)
+# Program labels and matrix products that appear in formulas
+OP1	-
+OP2	-
+OP3	-
+OP4	-
+OP5	-
+OP6	-
+OP7	-
+OP8	-
+OP9	-
+OP10	-
+OP11	-
+HJ	-
+IJ	-
+IK	-
+KI	-
+AB	-
+GD	-
+# Physics and astrophysics
+BBN	Big Bang nucleosynthesis
+BCS	Bardeen–Cooper–Schrieffer
+BDGH	Boulanger–Damour–Gualtieri–Henneaux
+BPS	Prasad–Sommerfield
+CFT	conformal field theory
+DAO	dark acoustic oscillations
+DR4	Data Release 4
+GC	globular cluster
+KZ	Kibble–Zurek
+LAT	Large Area Telescope
+LIGO	Laser Interferometer Gravitational-Wave Observatory
+LMW	Liveoak–Maharana–Wells
+LSB	low surface brightness
+MACRO	Monopole, Astrophysics and Cosmic Ray Observatory
+MCP	millicharged particle
+NEC	null energy condition
+PDG	Particle Data Group
+QG	quantum gravity
+# Names, journals and identifiers
+CODATA	-
+DOI	-
+JCAP	-
+JETP	-
+PRB	-
+PRD	-
+PRL	-

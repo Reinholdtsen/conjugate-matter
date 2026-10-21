@@ -84,9 +84,23 @@ them.
 **Section indexes** run in this order:
 
 1. the italic definition;
-2. a status strip ("Stands: … Died: … Open: …", each item linked);
+2. a status strip ("Stands: … · Died: … · Open: …", each item linked). Add "Superseded:"
+   and "Conjectures:" slots when the section holds such pages. A section holding only
+   literature, method or record pages replaces the strip with one line that says so and
+   links the status registers;
 3. the `## Map`, in weight order;
 4. `## Boundaries`.
+
+The home page adds its brief, attribution, reading guide and reading paths between the
+strip and the Map.
+
+**Folded items.** A page sometimes holds a minor item of another status, such as an open
+sub-question on an established page or a superseded earlier form of an alive claim. Such
+an item gets its own status-headed section ("## Open: …", "## Superseded: …",
+"## Chat-only: …", "## Popsci-only: …"), and the registers deep-link that heading.
+
+**OPn** means item n of #11 §14 (the checkpoint's open problems). It is registered and
+may be used in body text.
 
 **Registers.** The registers (status pages, glossary, notation, references, timeline,
 documents) have status `record`.
@@ -218,6 +232,10 @@ w ≥ −1. Display equations go in fenced `text` blocks, because the gate requi
 language on every fence. Do not use LaTeX: without site configuration it renders nowhere.
 Use the symbols on the notation page.
 
+Escape the asterisk of a starred symbol in prose: write v\*, M\*, g\*. An unescaped
+`v*` can close an emphasis span, which ends an italic opening in the wrong place. The
+gate checks for this. Code spans and `text` fences need no escaping.
+
 ## Links
 
 - Use absolute `/wiki/...` links only. Repo files are not linked; cite them as inline
@@ -238,6 +256,11 @@ Spell out every acronym on first use on each page, or make the acronym a link. T
 registry is `scripts/wiki-acronyms.txt`, and an unregistered acronym fails the gate.
 While several agents are writing at once, none of them edits the registry. Each one
 spells out new acronyms, or reports them to be added.
+
+- GW means Grosse–Wulkenhaar in this wiki. Always write "gravitational waves" in full,
+  and paraphrase any quotation that uses GW in that sense.
+- All-caps words in quotations ("NOT", "ONLY") fail the gate. Paraphrase them, or set
+  them in lower case inside the quotation and say so.
 
 ## The gate
 
@@ -267,6 +290,8 @@ Delete it when the build is complete.
   topic list (371 topics, 115 background concepts, 151 resolved source conflicts) and
   taxonomy proposals B and C were produced in the session scratchpad. B was adopted:
   278 entries.
+- **2026-10-21.** Breadth pass committed (`7b9438b`): all 278 pages, averaging about 800
+  words each. Starred symbols escaped; the gate now checks them.
 - **Plan.**
   1. Breadth pass: every page at gist level (italic gist, Status line, Key facts,
      Sources), in one commit.

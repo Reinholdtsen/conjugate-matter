@@ -79,8 +79,8 @@ sources:
 ### Dark matter
 
 - The Gaussian gate e^{−k²/μ²}, postulated with "support set by a scale μ of the g̃ sector" (#1 §3) → a gate F(k²/μ²) delivered by X-exchange, with μ the χ quantum's momentum-fiber width and the shape open [D — mechanism; shape [O]] (#11 §8). On the way, calc note #5 had "μ ↔ (M_X, M_B) parametrically" (§E); calc note #6 replaced it with the fiber width (§4). See [The velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) and [The gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism).
-- The exponential cliff σ_T(v) = σ₀e^{−v²/v*²}, "exactly zero in clusters forever" (#1 §5.1, §9 row 1) → a knee at v* whose tail shape is open (#1 addendum v0.4; #11 §8, §13 row 1). See [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) and [Row 1](/wiki/predictions/self-interaction-knee).
-- The wave-side suppression (v*/σ)³ (calc note #2) → (v*/σ)⁴ (calc notes #3 and #4; #11 §9). See [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
+- The exponential cliff σ_T(v) = σ₀e^{−v²/v\*²}, "exactly zero in clusters forever" (#1 §5.1, §9 row 1) → a knee at v\* whose tail shape is open (#1 addendum v0.4; #11 §8, §13 row 1). See [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) and [Row 1](/wiki/predictions/self-interaction-knee).
+- The wave-side suppression (v\*/σ)³ (calc note #2) → (v\*/σ)⁴ (calc notes #3 and #4; #11 §9). See [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
 - The X-condensate as dark matter, "[O — direction, deliberately unopened]" (#9 §10 item 7) → one of the two remaining candidates (#11 §12). See [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate).
 - Reciprocity acting as modular S on the hidden coupling, the "load-bearing conjecture" behind α_d ≈ 34 in #14 v2 (`HANDOFF.md` §2) → Paul's decision of 2026-10-19 that "S-duality is no longer what fixes α_d" (`review/v3-worklog.md`); the candidate that needed the coupling is dead. See [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling).
 - Superheavy solitons as the handoff's "current best" dark-matter candidate (`HANDOFF.md` §2) → dead as a program-native proposal (root `CLAUDE.md`; #11 §12). See [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary).
@@ -122,6 +122,6 @@ sources:
 - `notes/broken-born-theory.md` §0–§10 and addenda v0.3–v0.6 — the version-0.1 forms and their corrections.
 - `notes/broken-born-program-v1.md` §8–§11 — v1.0's forms.
 - `notes/debt1a-geometric-core.md` §D–§E, `notes/debt1a-ii-X-classification.md` §1, §4, §5 — the classification of X and the gate scale.
-- `notes/debt3a-stream-stability.md` — the original (v*/σ)³ suppression.
+- `notes/debt3a-stream-stability.md` — the original (v\*/σ)³ suppression.
 - `review/v3-worklog.md` "Findings neither referee raised" — the decision that S-duality no longer fixes α_d.
 - `README.md` — the tagline.
