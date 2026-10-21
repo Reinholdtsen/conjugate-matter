@@ -19,7 +19,7 @@ sources:
   - "HANDOFF.md §2"
 ---
 
-*Scenario B is the alternative to [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island). In it, the smooth cores of dwarf galaxies are made by something other than conjugate matter's gated attraction, such as the quantum pressure of extremely light wave dark matter or the feedback of ordinary matter, so nothing fixes the strength of that attraction. With the coupling free, it can be set anywhere in a window about ten orders of magnitude wide in which velocity streams form, or outside the window, where they do not. Streams are then possible but never required. That makes them an option the program can accommodate rather than a prediction it is committed to, which in [Lakatos's terms](/wiki/method/lakatosian-methodology) is a sign of a degenerating research programme. The checkpoint keeps the scenario alive but quarantined, among the program's listed degeneration risks.*
+*Scenario B is the alternative to [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island). In it, the smooth cores of dwarf galaxies are made by something other than [conjugate matter](/wiki/dark-matter/conjugate-matter)'s gated attraction, such as the quantum pressure of extremely light wave dark matter or the feedback of ordinary matter, so nothing fixes the strength of that attraction. With the coupling free, it can be set anywhere in a window about ten orders of magnitude wide in which velocity streams form, or outside the window, where they do not. Streams are then possible but never required. That makes them an option the program can accommodate rather than a prediction it is committed to, which in [Lakatos's terms](/wiki/method/lakatosian-methodology) is a sign of a degenerating research programme. The checkpoint keeps the scenario alive but quarantined, among the program's listed degeneration risks.*
 
 **Status:** Alive but quarantined. [Checkpoint #11](/wiki/history/documents/checkpoint) §15 lists the "tunable wave-island collective sector (quarantined)" among its degeneration risks. The statement belongs to #11 §9 (ii), which is tagged [D + T] as a whole; the window is computed in `notes/debt3b-wave-island.md` (calc note #3) at a single mass. Not machine-checked; no `verify/` script covers any Debt-3 number.
 
@@ -39,7 +39,7 @@ Debt 3b expresses the free coupling through a dimensionless parameter:
 
 > Writing X ≡ gn/(mσ²) (the Chunk-A mean-field parameter, with X < 1 required so halos aren't modulationally unstable), the stream condition Γ_self ≥ Ω becomes X ≥ √(Ωσ²/(c m v\*⁴)).
 
-Here n is the number density of χ, m its mass and σ the halo's velocity dispersion; X is unrelated to [the momentum graviton](/wiki/gravity/momentum-graviton) of the same letter. The numerator gn is the mean-field interaction energy of a particle, Chunk A's ε_int, the attraction exerted on it by its neighbors; the denominator mσ² is its kinetic energy; X compares the two. It is the quantity in Chunk A's broad-gate threshold, "g n/(m σ²) ≥ 1" (`notes/debt3a-stream-stability.md`, 'Limit 1 (broad gate)'; [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)). Above that threshold the uniform halo itself is unstable.
+Here n is the number density of χ, m its mass and σ the halo's velocity dispersion; X is unrelated to [the momentum graviton](/wiki/gravity/momentum-graviton) of the same letter. The numerator gn is the mean-field interaction energy of a particle, the ε_int of Chunk A ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), the attraction exerted on it by its neighbors; the denominator mσ² is its kinetic energy; X compares the two. It is the quantity in Chunk A's broad-gate threshold, "g n/(m σ²) ≥ 1" (`notes/debt3a-stream-stability.md`, 'Limit 1 (broad gate)'; [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)). Above that threshold the uniform halo itself is unstable.
 
 ### Why X stays below 1
 
@@ -47,7 +47,7 @@ A medium is modulationally unstable when small modulations of a uniform wave gro
 
 ### The lower edge
 
-Ω = 1/t_dyn is the orbital stirring rate, with t_dyn the dynamical time, and Γ_self ≥ Ω is the condition that condensation outruns the stirring. The note gives the result without the step. The rate formula Γ_self ≈ c g²ρ² min(σ, v\*)⁴/(m³σ⁶), with g = X mσ²/n and ρ = mn, becomes c X² m min(σ, v\*)⁴/σ², and setting it at least equal to Ω gives the bound on X. The note writes it with v\*⁴, the gate-narrow case, in which the halo's dispersion exceeds the gate width.
+Ω = 1/t_dyn is the orbital stirring rate, with t_dyn the dynamical time, and Γ_self ≥ Ω is the condition that condensation outruns the stirring. The note gives the result without the step. On the wiki's reading, the rate formula Γ_self ≈ c g²ρ² min(σ, v\*)⁴/(m³σ⁶), with g = X mσ²/n and ρ = mn, becomes c X² m min(σ, v\*)⁴/σ², and setting it at least equal to Ω gives the bound on X. The note writes it with v\*⁴, the gate-narrow case, in which the halo's dispersion exceeds the width of [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate).
 
 ## The window
 
@@ -75,7 +75,7 @@ Neither document defines "quarantined". In practice the scenario stays in the pr
 
 ## Its place in the verdict on Debt 3
 
-Debt 3c, after falsifying Scenario A, closed Debt 3 with Scenario B as the only surviving form of collective behavior ('Verdict and closure of Debt 3'):
+Debt 3c, after falsifying Scenario A, closed [Debt 3](/wiki/history/debts) with Scenario B as the only surviving form of collective behavior ('Verdict and closure of Debt 3'):
 
 > Nowhere in the viable parameter space of BBT is velocity-space clumping a mandatory phenomenon. It is forbidden for classical-particle χ, fatal where it would have been mandatory (Scenario A), and merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction).
 

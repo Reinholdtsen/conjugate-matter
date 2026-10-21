@@ -26,19 +26,19 @@ sources:
 
 *Scenario A was the assumption that, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated attraction that condenses wave-like dark matter is also what gives ordinary dwarf galaxies their smooth, constant-density cores. Fitting those cores fixes the strength of the coupling, and with the coupling fixed, condensation is forced to happen, across the whole halo, in the ultra-faint dwarf galaxies, the faintest, densest and oldest galaxies known. Because the attraction makes a condensate collapse whenever it passes a critical mass, throwing off fast waves that escape the galaxy, these galaxies would by now have lost much of their dark matter. Instead they are among the most dark-matter-dominated systems observed: Segue 1 holds a dense, intact halo around stars about 13 billion years old. A much lighter mass, which would avoid the collapse, is excluded by other observations, and no other change of parameters rescues the scenario. Scenario A is dead.*
 
-**Status:** Dead. "Scenario A is falsified by the existence of ultra-faint dwarfs" (`notes/debt3c-ufd-endpoint.md`, calc note #4); [checkpoint #11](/wiki/history/documents/checkpoint) §9 (ii), tagged [D + T], records its endpoint as "falsified by observed UFD density and longevity". Not machine-checked: no `verify/` script covers any Debt-3 number, and the Segue 1 inputs carry no reference in any source document. Listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead. "Scenario A is falsified by the existence of ultra-faint dwarfs" (`notes/debt3c-ufd-endpoint.md`, [calc note #4](/wiki/history/documents/debt-3-notes)); [checkpoint #11](/wiki/history/documents/checkpoint) §9 (ii), tagged [D + T], records its endpoint as "falsified by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Not machine-checked: no `verify/` script covers any Debt-3 number, and the Segue 1 inputs carry no reference in any source document. Listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
 ### The gated channel as the core-maker
 
-Dwarf galaxies show cores, regions of nearly constant dark-matter density at their centers, where collisionless cold dark matter predicts a density that keeps rising inward [T] ([dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies)). [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM) explains them by scattering: collisions carry heat from the outer halo into the cold inner region and flatten it, and a core forms when a typical particle scatters about once over the age of the halo [T]. On the particle side of the program the same reasoning fixes conjugate matter's cross-section ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)).
+Dwarf galaxies show cores, regions of nearly constant dark-matter density at their centers, where collisionless cold dark matter predicts a density that keeps rising inward [T] ([dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies)). [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM) explains them by scattering: collisions carry heat from the outer halo into the cold inner region and flatten it, and a core forms when a typical particle scatters about once over the age of the halo [T]. On the particle side of the program the same reasoning fixes [conjugate matter](/wiki/dark-matter/conjugate-matter)'s cross-section ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)).
 
 On the wave island the relaxation is wave-kinetic, at [the gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate). Scenario A assumes that this rate is what makes the cores. `notes/debt3b-wave-island.md` (calc note #3), 'What pins g? Two scenarios':
 
 > Scenario A — the gated channel is the core-maker. On the wave island, Γ_self is the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo). Fitting classical-dwarf cores means Γ_self(dwarf) · t_age = κ ~ 1, which spends g²/m³. Streams need the much harder Γ_self ≳ Ω = 1/t_dyn.
 
-Here t_age is the age of the halo, κ the normalization of the core fit, and Ω = 1/t_dyn the rate at which orbits stir the halo, with t_dyn the dynamical time. The rate Γ_self ≈ c g²ρ² min(σ, v\*)⁴/(m³σ⁶) depends on the coupling g and the mass m only through g²/m³, so fitting the cores fixes that combination: the coupling is "spent", and the rate in every other environment follows from it.
+Here t_age is the age of the halo, κ the normalization of the core fit, and Ω = 1/t_dyn the rate at which orbits stir the halo, with t_dyn the dynamical time. The rate Γ_self ≈ c g²ρ² min(σ, v\*)⁴/(m³σ⁶), with v\* the width of [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), depends on the coupling g and the mass m only through g²/m³, so fitting the cores fixes that combination: the coupling is "spent", and the rate in every other environment follows from it.
 
 ### The environment table
 
@@ -48,7 +48,7 @@ Debt 3b then compares the stream condition with the core condition in each envir
 R_X ≡ Γ_self(X)/Ω_X = κ (t_dyn,X/t_age) (ρ_X/ρ_d)² (σ_d/σ_X)² (min(σ_X, v*)/σ_X)⁴
 ```
 
-with ρ_d and σ_d the density and dispersion of the classical dwarf core used for the fit. The note does not write the step out. Dividing Γ_self in environment X by Γ_self in the dwarf removes c, g and m, and multiplying by t_dyn,X and using Γ_self(dwarf) = κ/t_age gives the formula; the absence of a gate factor for the dwarf means the dwarf is taken to be gate-open (σ_d ≲ v\*). Streams form where R_X ≳ 1. Debt 3b's table, at κ = 1:
+with ρ_d and σ_d the density and dispersion of the classical dwarf core used for the fit. The note does not write the step out. On the wiki's reading, dividing Γ_self in environment X by Γ_self in the dwarf removes c, g and m, and multiplying by t_dyn,X and using Γ_self(dwarf) = κ/t_age gives the formula; the absence of a gate factor for the dwarf means the dwarf is taken to be gate-open (σ_d ≲ v\*). Streams form where R_X ≳ 1. Debt 3b's table, at κ = 1:
 
 | Environment (ρ in GeV/cm³, σ in km/s) | t_dyn | R_X (κ = 1) |
 |---|---|---|
@@ -62,7 +62,7 @@ The inputs are not cited, and the ultra-faint-dwarf row was later replaced by Se
 
 > Verdict A: streams lose everywhere by 10²–10⁴ — except ultra-faint dwarfs, where ρ²/σ² leverage wins by ~40. In UFDs, condensation is then mandatory and halo-wide: power drains into the lowest relative momenta on sub-dynamical timescales.
 
-The leverage is the factor (ρ_X/ρ_d)²(σ_d/σ_X)²: ultra-faint dwarfs are denser than the classical dwarf and colder, and both differences raise the rate. The Milky Way streams of the program's founding image do not form; condensation is forced only in the smallest galaxies.
+The leverage is the factor (ρ_X/ρ_d)²(σ_d/σ_X)²: ultra-faint dwarfs are denser than the classical dwarf and colder, and both differences raise the rate. The Milky Way streams of [the program's founding image](/wiki/dark-matter/momentum-clumping/founding-image) do not form; condensation is forced only in the smallest galaxies.
 
 ### The first endpoint: a localized signature
 
@@ -88,7 +88,7 @@ Here M(< 38 pc) is the mass within 38 parsecs of the center and M_⊙ the mass o
 R_Segue1 = κ (t_dyn/t_age) (ρ/ρ_d)² (σ_d/σ)² ≈ 10⁻³ · 10⁴ · 66 ≈ 660
 ```
 
-The three numerical factors stand, in order, for the time ratio, the squared density ratio and the squared dispersion ratio, with Debt 3b's classical dwarf core as the reference. Debt 3c's version omits 3b's gate factor (min(σ, v\*)/σ)⁴, which equals 1 when the gate is open, σ ≲ v\*.
+The note does not name the three numerical factors; on the wiki's reading they are, in order, the time ratio, the squared density ratio and the squared dispersion ratio, with Debt 3b's classical dwarf core as the reference. Debt 3c's version omits 3b's gate factor (min(σ, v\*)/σ)⁴, which equals 1 when the gate is open, σ ≲ v\*.
 
 The condensation time follows: "Condensation time τ_cond = t_dyn/R ≈ 1.5×10⁴ yr. Over a 10 Gyr lifetime the system has ~6×10⁵ condensation times." (τ_cond is unrelated to the dark-energy field τ.) Bose-star growth in wave kinetics slows with time ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)), and Debt 3c allows for it: "Even granting the soliton-growth slowdown seen in LPT-type kinetics (t^{1/2} growth, factor ~10²–10³ in effective rate), the core is processed through the condensate many times over. There is no timescale refuge." LPT is Levkov–Panin–Tkachev, the checkpoint's [13]†, and "soliton" here means a Bose-star core. #11 §9 rounds the result to "Segue 1: rate ratio ~660; condensation ~10⁴ yr".
 
@@ -112,7 +112,7 @@ The 2017 paper is the second item of the checkpoint's [13]†, on relativistic a
 
 > The UFD converts its cold dark matter into escaping radiation at a rate bounded below by the self-regulated relaxation rate. Even if heating and expansion throttle Γ down to ~1/t_age (the gravothermal self-limit), an O(1) fraction of the core mass is processed and removed within the lifetime — unlike SIDM, where relaxation is elastic and mass stays.
 
-The contrast with SIDM carries the argument. In SIDM the collisions are elastic: they move energy around and the halo's evolution is gravothermal, a slow redistribution of heat under gravity, but every particle stays bound [T]. In Scenario A the relaxation feeds a condensate that converts bound dark matter into unbound waves. "Prediction of Branch (i): UFDs today should be low-density, inflated, or gone."
+The contrast with SIDM carries the argument. In SIDM the collisions are elastic: they move energy around and the halo's evolution is gravothermal, a slow redistribution of heat under gravity, but the mass stays in the halo [T]. In Scenario A the relaxation feeds a condensate that converts bound dark matter into unbound waves. "Prediction of Branch (i): UFDs today should be low-density, inflated, or gone."
 
 ### Branch (ii): excluded in advance
 
@@ -158,7 +158,7 @@ The calculation that killed it is the third of [the Debt-3 calc notes](/wiki/his
 ## What it took with it
 
 - **Old rows 3 and 4.** Debt 3c: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." Debt 3b's "surviving descendant" of those rows, the localized ultra-faint-dwarf signature, died with Scenario A. #11 §13 lists the rows as "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9)" ([velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity), [Fornax friction](/wiki/dark-matter/momentum-clumping/fornax-friction)).
-- **The last mandatory form of clumping.** With Scenario A dead, velocity-space clumping is nowhere a required phenomenon. Scenario A is the "fatal (committed wave)" case of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), and its death completes the obituary of [the founding image](/wiki/dark-matter/momentum-clumping/founding-image).
+- **The last mandatory form of clumping.** With Scenario A dead, [velocity-space clumping](/wiki/dark-matter/momentum-clumping) is nowhere a required phenomenon. Scenario A is the "fatal (committed wave)" case of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), and its death completes the obituary of [the founding image](/wiki/dark-matter/momentum-clumping/founding-image).
 
 ## What survives
 
@@ -170,7 +170,7 @@ The calculation that killed it is the third of [the Debt-3 calc notes](/wiki/his
 
 - No `verify/` script covers the environment table, the Segue 1 ratio, the condensation time or the critical-mass normalization ([the iron rule](/wiki/method/verification/iron-rule)).
 - The Segue 1 inputs and the environment table's inputs carry no reference in any source document; they need a source check before any external use.
-- The coefficient 3.6 and the convention for g in M_crit have not been checked against the cited paper.
+- The coefficient 3.6 and the convention for g in M_crit have not been checked against the cited paper. The normalization 2.9×10⁻³⁰ also rests on the core fit, which runs through the rate's coefficient c ([the open calibration](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-calibration-of-the-coefficient-c)); Debt 3c does not state the value of c it used.
 - The references [13]†, [14]† and [15]† are cited from model memory and await [the † literature battery](/wiki/method/literature-battery) (#11 §14 item 10, OP10). Program v1 lists the "Dalal–Kravtsov exact bound" among its open literature verifications (#9 §10 item 8), and #11 dropped the figure ≈ 3×10⁻¹⁹ eV that the notes and v1 quote.
 
 ## Sources

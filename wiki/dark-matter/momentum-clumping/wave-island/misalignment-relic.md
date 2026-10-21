@@ -20,13 +20,13 @@ sources:
   - "HANDOFF.md §3"
 ---
 
-*Misalignment is a way for a very light field to acquire its relic density in the early universe: the field starts away from the minimum of its potential, stays there while the universe expands quickly, and later oscillates coherently about the minimum; the oscillation then behaves as cold dark matter. It is the standard production route for axions. [Debt 3](/wiki/history/debts) noted that conjugate matter χ on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), a field this light, coupled only through gravity and its own self-interaction, would be produced the same way. That removes a difficulty [the lab notebook](/wiki/history/documents/lab-notebook) had recorded, that a light sector coupled to ordinary matter only through gravity cannot get its density by ordinary thermal freeze-out, but only on the wave island. It does not explain why dark matter outweighs ordinary matter by 5.4 to 1, a question that stays open for both remaining dark-matter candidates.*
+*[Misalignment](/wiki/dark-matter/wave-dark-matter/misalignment-mechanism) is a way for a very light field to acquire its relic density in the early universe: the field starts away from the minimum of its potential, stays there while the universe expands quickly, and later oscillates coherently about the minimum; the oscillation then behaves as cold dark matter. It is the standard production route for axions. [Debt 3](/wiki/history/debts) noted that [conjugate matter](/wiki/dark-matter/conjugate-matter) χ on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), a field this light, coupled only through gravity and its own self-interaction, would be produced the same way. On the wave island only, that removes a difficulty [the lab notebook](/wiki/history/documents/lab-notebook) had recorded: a light, strongly self-coupled sector connected to ordinary matter only through gravity cannot get its density by ordinary [thermal freeze-out](/wiki/dark-matter/candidates/relic-abundance). It does not explain why dark matter outweighs ordinary matter by 5.4 to 1, a question that stays open for both remaining dark-matter candidates.*
 
 **Status:** Alive, on the wave island only. It is part of Debt 3's salvage in [checkpoint #11](/wiki/history/documents/checkpoint) §9 ("free relic abundance via misalignment on the wave island"), with no tag of its own. Not machine-checked; the claim contains no number. The 5.4 : 1 question "applies to both" candidates (#11 §12) and is item 7 of #11 §14, OP7 ([Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis)).
 
 ## The statement
 
-`notes/debt3b-wave-island.md` (calc note #3), in a closing section titled 'Bonus: the relic debt closes itself':
+`notes/debt3b-wave-island.md` ([calc note #3](/wiki/history/documents/debt-3-notes)), in a closing section titled 'Bonus: the relic debt closes itself':
 
 > A field this light with only gravitational + self couplings is produced by misalignment, like an axion. Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism, and Ω_χ trades against (m, χ_i) in the standard way. The 5.4:1 question remains (polarization-genesis), but the production channel is no longer exotic.
 
@@ -60,12 +60,12 @@ Misalignment bypasses the issue on the wave island. A field that is never in the
 
 ## On the wave island only
 
-The argument uses two properties of the field: it is light, and its only couplings are gravity and self-interaction. The second is what the notebook already assumed for the particle branch, a "gravitationally-only-connected sector" (#1 §5.3); the first holds only on the wave island, which Debt 3c left at "roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings" ('Verdict and closure of Debt 3'). The salvage is stated for that branch alone:
+The argument uses two properties of the field: it is light, and its only couplings are gravity and self-interaction. The second is what the notebook already assumed for its sub-GeV sector, a "gravitationally-only-connected sector" (#1 §5.3); the first holds only on the wave island, which Debt 3c left at "roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings" ('Verdict and closure of Debt 3'). The salvage is stated for that branch alone:
 
 - Debt 3b: the problem "is moot on the wave island".
 - #11 §9, listing what Debt 3 left standing: "free relic abundance via misalignment on the wave island".
 
-For particle χ, the MeV–GeV branch of [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) and the first of the [two remaining candidates](/wiki/dark-matter/candidates/chi-particles), the sources offer only the notebook's own answer, an asymmetry set by polarization-genesis, which is still a sketch; the problem stands there.
+For particle χ, the MeV–GeV branch of [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) and the first of the two remaining candidates ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)), the sources offer only the notebook's own answer, an asymmetry set by polarization-genesis, which is still a sketch; the problem stands there.
 
 The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, after [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) was falsified. #11 §9 lists the misalignment salvage after recording that falsification.
 
