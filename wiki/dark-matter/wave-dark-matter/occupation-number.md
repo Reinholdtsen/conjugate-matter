@@ -22,7 +22,7 @@ sources:
 
 Quantum statistics counts the states of a gas in phase space, the six-dimensional space of positions and momenta: one mode occupies a cell of volume (2πℏ)³. The occupation number is the number of particles per cell.
 
-For dark matter in a halo, write m for the particle mass, ρ for the mass density, n = ρ/m for the number density and σ for the velocity dispersion. The particles' momenta are spread over a range of order mσ, and the de Broglie wavelength that belongs to that spread is λ_dB ~ ℏ/(mσ). The relation is the Fourier one between a waveform and its spectrum: a wave whose spectrum has width mσ stays coherent over a length of order ℏ/(mσ), and no further. A cube of side λ_dB is therefore one cell of phase space, and the occupation number is the number of particles it holds. In units with ℏ = c = 1, the units implicit in the Debt-3 notes' formulas (`notes/debt3a-stream-stability.md`, 'Corollary'):
+For dark matter in a halo, write m for the particle mass, ρ for the mass density, n = ρ/m for the number density and σ for the velocity dispersion. The particles' momenta are spread over a range of order mσ, and the de Broglie wavelength that belongs to that spread is λ_dB ~ ℏ/(mσ). The relation is the Fourier one between a waveform and its spectrum: a wave whose spectrum has width mσ stays coherent over a length of order ℏ/(mσ), and no further. A cube of side λ_dB therefore spans about one cell of phase space, up to factors of 2π, and the occupation number is, to that accuracy, the number of particles it holds. In units with ℏ = c = 1, the units implicit in the Debt-3 notes' formulas (`notes/debt3a-stream-stability.md`, 'Corollary'):
 
 ```text
 N_occ = n λ_dB³ = ρ/(m⁴σ³)
@@ -52,7 +52,7 @@ Debt 3b writes the occupation twice. Its 'Setup' uses the "per-mode occupation" 
 
 ### The classicality theorem
 
-The program's [Debt 3](/wiki/history/debts) asked whether conjugate matter χ could clump by velocity rather than by position (the [founding image](/wiki/dark-matter/momentum-clumping/founding-image), now dead). Its first chunk found a mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for such clumping and then asked at what mass the criterion can be met. Debt 3a holds the self-scattering strength fixed at S ≡ σ₀/m, the cross-section per unit mass that fits dwarf-galaxy cores ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)): "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS)ρ/(m^{5/2}σ²)". Setting it to 1 gives
+The program's [Debt 3](/wiki/history/debts) asked whether [conjugate matter](/wiki/dark-matter/conjugate-matter) χ could clump by velocity rather than by position (the [founding image](/wiki/dark-matter/momentum-clumping/founding-image), now dead). Its first chunk found a mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for such clumping and then asked at what mass the criterion can be met. Debt 3a holds the self-scattering strength fixed at S ≡ σ₀/m, the cross-section per unit mass that fits dwarf-galaxy cores ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)): "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS)ρ/(m^{5/2}σ²)". Setting it to 1 gives
 
 ```text
 m_crit = [√(πS)ρ/σ²]^{2/5} ≈ 10⁻¹³ GeV ~ 0.1 meV        (Milky Way conditions)

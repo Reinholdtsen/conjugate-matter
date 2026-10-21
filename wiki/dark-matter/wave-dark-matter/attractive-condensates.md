@@ -14,13 +14,13 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3): resolution of open problem 3'"
 ---
 
-*An attractive condensate is a Bose star — a self-gravitating clump of a light boson field, all in one coherent state — whose particles also attract one another through a self-interaction. Gravity and the self-attraction both pull inward against the outward pressure that comes from the field's wave nature, and the self-attraction grows faster with density, so such a condensate has a maximum stable mass. Above it the condensate collapses, throws off part of its mass as fast waves in a burst called a bosenova, and the remnant grows again. In the Broken-Born program this cycle is the endpoint that, in [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) of the wave island, would have drained the dark matter out of the ultra-faint dwarf galaxies; Scenario A is dead.*
+*An attractive condensate is a [Bose star](/wiki/dark-matter/wave-dark-matter/wave-kinetics) — a self-gravitating clump of a light boson field, all in one coherent state — whose particles also attract one another through a self-interaction. Gravity and the self-attraction both pull inward against the outward pressure that comes from the field's wave nature, and the self-attraction grows faster with density, so such a condensate has a maximum stable mass. Above it the condensate collapses, throws off part of its mass as fast waves in a burst called a bosenova, and the remnant grows again. In the Broken-Born program this cycle is the endpoint that, in [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) of [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), would have drained the dark matter out of the [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies); Scenario A is dead.*
 
-**Status:** Established — [T] — the critical mass is a "dilute-boson-star bound, Chavanis-type" (Debt 3b; [the checkpoint](/wiki/history/documents/checkpoint)'s [14]†) and the collapse cycle an "LPT 2017-type result" (Debt 3c; [13]†), where LPT is Levkov–Panin–Tkachev — not machine-checked; the coefficient 3.6, the convention for the coupling g and both citations are unchecked.
+**Status:** Established — [T] — the critical mass is a "dilute-boson-star bound, Chavanis-type" (Debt 3b; [the checkpoint](/wiki/history/documents/checkpoint)'s [14]†) and the collapse cycle an "LPT 2017-type result" (Debt 3c; [13]†), where LPT is Levkov–Panin–Tkachev — not machine-checked; the coefficient 3.6, the conventions for the coupling g and for M_P, and both citations are unchecked.
 
 ## Why there is a maximum mass [T]
 
-A Bose star is the ground state of a self-gravitating boson field ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)). Its size is set by a balance of energies, which a rough estimate for a star of mass M and radius R, made of bosons of mass m, shows (units with ℏ = c = 1):
+A Bose star is the ground state of a self-gravitating boson field ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)). Its size is set by a balance of energies. A rough estimate shows the balance for a star of mass M and radius R, made of bosons of mass m; it is a standard order-of-magnitude argument [T], given here as explanation, and the Debt-3 notes do not make it (units with ℏ = c = 1):
 
 ```text
 E(R) ≈ + (gradient energy)       ∝ M/(m² R²)
@@ -63,7 +63,7 @@ Debt 3c's comparison with the data ('The data'): "Branch (i) predicts the opposi
 
 ## What is unchecked
 
-No `verify/` script covers any number on this page; no script covers any Debt-3 number. The coefficient 3.6 and the convention for g in the critical mass have not been checked against the cited paper, and both references are cited from model memory (†). The checkpoint requires every † reference to be source-checked before external use (#11 §14 item 10, OP10), the task of [the † literature battery](/wiki/method/literature-battery).
+No `verify/` script covers any number on this page; no script covers any Debt-3 number. The coefficient 3.6 and the conventions for g and M_P in the critical mass have not been checked against the cited paper, and both references are cited from model memory (†). The Debt-3 notes do not define M_P; M_P = G^{−1/2} in the estimate above is the wiki's choice of symbol. The checkpoint requires every † reference to be source-checked before external use (#11 §14 item 10, OP10), the task of [the † literature battery](/wiki/method/literature-battery).
 
 ## References
 

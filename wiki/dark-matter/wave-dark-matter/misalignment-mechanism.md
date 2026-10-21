@@ -17,7 +17,7 @@ sources:
   - "notes/broken-born-program-v1.md §7"
 ---
 
-*The misalignment mechanism is a way of producing dark matter as a coherent field rather than as a thermal gas of particles. In the early universe a very light scalar field starts at some value away from the minimum of its potential and stays frozen there while the universe expands faster than the field can oscillate; once the expansion rate falls below the field's mass, the field oscillates about its minimum, and the energy of the oscillation then thins out with the expansion as cold matter does. It is the standard production route for axions. The Broken-Born program borrows it as the production channel for [the wave branch](/wiki/dark-matter/momentum-clumping/wave-island) of conjugate matter, a channel the particle branch still lacks; the ratio of dark to ordinary matter stays unexplained on both.*
+*The misalignment mechanism is a way of producing dark matter as a coherent field rather than as a thermal gas of particles. In the early universe a very light scalar field starts at some value away from the minimum of its potential and stays frozen there while the universe expands faster than the field can oscillate; once the expansion rate falls below the field's mass, the field oscillates about its minimum, and the energy of the oscillation then thins out with the expansion as cold matter does. It is the standard production route for axions. The Broken-Born program borrows it as the production channel for [the wave branch](/wiki/dark-matter/momentum-clumping/wave-island) of [conjugate matter](/wiki/dark-matter/conjugate-matter), a channel the particle branch still lacks; [the ratio of dark to ordinary matter](/wiki/dark-matter/candidates/polarization-genesis) stays unexplained on both.*
 
 **Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/debt3b-wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for both dark-sector candidates (`papers/broken-born-checkpoint-v2.md` §12).
 
@@ -29,7 +29,7 @@ Consider a scalar field φ of mass m that is the same everywhere in the observab
 φ̈ + 3Hφ̇ + m²φ = 0
 ```
 
-The expansion supplies the friction term. Early on, when H ≫ m, the friction dominates and the field cannot move: it stays at its initial value φ_i, and its potential energy acts as a cosmological constant. As the universe expands, H falls. When H drops to about m, the field begins to oscillate about the minimum of its potential, at frequency m. From then on the oscillation's pressure averages to zero over a cycle, and its energy density falls in proportion to the volume of the universe, as the density of cold, pressureless matter does. Equivalently, the number of quanta per comoving volume stays fixed.
+The expansion supplies the friction term. Early on, when H ≫ m, the friction dominates and the field cannot move: it stays at its initial value φ_i, and its potential energy acts as a cosmological constant. As the universe expands, H falls. When H drops to about m, the field begins to oscillate about the minimum of its potential, at frequency m. From then on the oscillation's pressure averages to zero over a cycle, and its energy density falls in inverse proportion to the volume of the universe, as the density of cold, pressureless matter does. Equivalently, the number of quanta per comoving volume stays fixed.
 
 Two quantities set the relic density: the mass, which fixes when the oscillation starts, and the initial displacement φ_i, which fixes its amplitude. At a given mass, a larger displacement gives more dark matter.
 
@@ -41,7 +41,7 @@ The name comes from the axion. There the field is an angle, and its initial valu
 
 ### The wave island's production channel
 
-Debt 3b found that the light branch of conjugate matter, the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), is such a field, and drew the consequence ('Bonus: the relic debt closes itself'):
+[Debt 3b](/wiki/history/documents/debt-3-notes) found that the light branch of conjugate matter, the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), is such a field, and drew the consequence ('Bonus: the relic debt closes itself'):
 
 > A field this light with only gravitational + self couplings is produced by misalignment, like an axion. Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism, and Ω_χ trades against (m, χ_i) in the standard way.
 
@@ -51,11 +51,11 @@ The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentu
 
 ### The particle side, still open
 
-For particle χ, on the MeV–GeV [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem), the mechanism does not apply, and [the lab notebook](/wiki/history/documents/lab-notebook)'s problem stands: "A sub-GeV, strongly self-coupled, gravitationally-only-connected sector cannot freeze out thermally without cannibalism problems; the abundance must be set asymmetrically" (#1 §5.3). A sector that interacts with ordinary matter only through gravity cannot annihilate into Standard Model particles, so a thermal relic of it must be settled within the sector itself; in a strongly self-coupled sector, number-changing self-interactions then convert rest mass into heat, the behavior called cannibalism [T]. The notebook's remedy is an asymmetric mechanism, polarization-genesis. The mechanisms are explained on [relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance).
+For particle χ, on the MeV–GeV [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem), the record does not apply the mechanism, and [the lab notebook](/wiki/history/documents/lab-notebook)'s problem stands: "A sub-GeV, strongly self-coupled, gravitationally-only-connected sector cannot freeze out thermally without cannibalism problems; the abundance must be set asymmetrically" (#1 §5.3). A sector that interacts with ordinary matter only through gravity cannot annihilate into Standard Model particles, so a thermal relic of it must be settled within the sector itself; in a strongly self-coupled sector, number-changing self-interactions then convert rest mass into heat, the behavior called cannibalism [T]. The notebook's remedy is an asymmetric mechanism, polarization-genesis. The mechanisms are explained on [relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance).
 
 ### What it leaves open
 
-Misalignment supplies a production channel; it does not explain the amount. Debt 3b: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, χ particles and the X-condensate: "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its open problems, "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
+Misalignment supplies a production channel; it does not explain the amount. Debt 3b: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, χ particles and the X-condensate: "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
 
 ### A numbering note
 
