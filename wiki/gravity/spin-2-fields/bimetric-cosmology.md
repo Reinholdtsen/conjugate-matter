@@ -2,7 +2,7 @@
 title: "Bimetric cosmology and its instabilities"
 weight: 90
 status: established
-description: "Known instabilities of bimetric cosmological branches, the heavy-spin-2 regime that is linearly stable only with a much smaller second Planck mass, and the Higuchi bound in de Sitter: the literature behind the open question of X's stability at equal Planck masses."
+description: "Known instabilities of bimetric cosmological branches, the heavy-spin-2 regime shown to be linearly stable when the second Planck mass is much smaller, and the Higuchi bound in de Sitter: the literature behind the open question of X's stability at equal Planck masses."
 provenance: [T]
 sources:
   - "notes/knot-dark-matter-standalone.md §1"
@@ -76,7 +76,7 @@ The worklog's item R7 names the tension: calc note #8 §3 "says reciprocity forc
 
 The question assumes that X is heavy, as #14 and the worklog do. The [checkpoint](/wiki/history/documents/checkpoint) fixes no value for X's mass; it gives only M_X ∝ 2(β₁+β₂) (#11 §7.5).
 
-The item appears only in #14 and the worklog; #11 §14 does not list it. The wiki keeps it as an open item on its own page, [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability). #14 itself was withdrawn after round 3 for its abundance arithmetic ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)), which does not bear on this item: the question concerns X, which stands.
+The item appears only in #14 and the worklog; #11 §14 does not list it. The wiki keeps it as an open item on its own page, [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability). #14 itself was withdrawn after round 3 because its Kibble estimate of the monopole relic abundance had been normalized too low ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). That error does not bear on this item: the question concerns X, which stands.
 
 ## How the item entered the record
 
@@ -97,7 +97,7 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 
 ## Sources
 
-- `notes/knot-dark-matter-standalone.md` §1, §5, §6, refs [4]–[6] — the literature summary, the open consistency condition, the exclusion condition and the conjectural status; the citations (manuscript withdrawn for unrelated arithmetic).
+- `notes/knot-dark-matter-standalone.md` §1, §5, §6, refs [4]–[6] — the literature summary, the open consistency condition, the exclusion condition and the conjectural status; the citations (manuscript withdrawn for an unrelated error: its Kibble estimate of the relic abundance had been normalized too low).
 - `review/v3-worklog.md` 'Round-2 pending list', item R7 — the three limits on the heavy-spin-2 result, the tension with equal Planck masses, De Felice et al.
 - `review/v3-worklog.md` 'Verified references for v3', 'v3 as drafted (2026-10-19)' — the new references; the addition to exclusion item 7.
 - `review/round3/referee/audit-notes.md` Step 1 — the checks of #14's references [4], [5] and [6].
