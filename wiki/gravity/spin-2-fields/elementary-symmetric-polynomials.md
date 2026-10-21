@@ -81,7 +81,7 @@ This is the algebra behind a statement of [calc note #7](/wiki/history/documents
 
 ### The potential
 
-Calc note #8 writes the potential for the program's two frames, e and f = E₀[J] (#8 §1; see [the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)):
+Calc note #8 writes the potential for the program's two frames, e and f = E₀[J] (#8 §1; see [the frame tier](/wiki/gravity/tuning-test/frame-tier) and [the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)):
 
 ```text
 V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏),        𝕏 = √(g⁻¹f)
@@ -105,7 +105,7 @@ Inverting the matrix reverses the order of the eₙ, up to one overall factor. I
 
 So the same potential, written with f's volume factor and the inverse square root √(f⁻¹g), has its coefficients in reverse order: the term with βₙ becomes the term with β₄₋ₙ [T]. Calc note #8 records an exchange identity, Sₙ(g, f) = S₄₋ₙ(f, g), without defining Sₙ (#8 §1); the wiki reads it as this identity.
 
-Calc note #8 then takes reciprocity to act on the broken vacuum "as the frame exchange (𝕏 → 𝕏⁻¹ in the aligned frame …)" and concludes that invariance of the potential forces βₙ = β₄₋ₙ [D] (#8 §1). That is [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome).
+Calc note #8 then takes [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) to act on the broken vacuum "as the frame exchange (𝕏 → 𝕏⁻¹ in the aligned frame …)" and concludes that invariance of the potential forces βₙ = β₄₋ₙ [D] (#8 §1). That is [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome).
 
 ## Linearization at the identity (battery T6)
 
@@ -134,7 +134,7 @@ T6 checks the coefficients numerically [V]. It draws one random symmetric 4 × 4
 PASS  T6 e_n(1+delta) linear coefficients = C(3,n-1) = [0,1,3,3,1]  [[0.0, 1.0, 3.0, 3.0, 1.0]]
 ```
 
-The test evaluates one random matrix, so it confirms the formula on one instance; the general statement rests on the counting argument above. It is one of the seven tests the checkpoint counts as Tier 1, "the binomial linearization coefficients" (#11 §2). `HANDOFF.md` §5 lists it as "T6 eₙ(1+δ) linear coefficients = C(3,n−1)", and [the handoff](/wiki/history/documents/handoff)'s Appendix A, from which the script was copied, expects "T6 = [0,1,3,3,1]".
+The test evaluates one random matrix, so it confirms the formula on one instance; the general statement rests on the counting argument above. It is one of the seven battery tests with which the checkpoint verifies its [Tier-1](/wiki/method/claim-tiers) (explicit-algebra) claims, "the binomial linearization coefficients" (#11 §2). `HANDOFF.md` §5 lists it as "T6 eₙ(1+δ) linear coefficients = C(3,n−1)", and [the handoff](/wiki/history/documents/handoff)'s Appendix A, from which the script was copied, expects "T6 = [0,1,3,3,1]".
 
 ## The span test (battery T7)
 
