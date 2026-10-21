@@ -24,10 +24,11 @@ sources:
   - "notes/broken-born-program-v1.md §5"
   - "notes/broken-born-program-v1.md §9"
   - "notes/broken-born-program-v1.md §11"
+  - "review/v3-worklog.md 'Round-2 pending list'"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
 ---
 
-*The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have equal Planck masses. These are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton).*
+*The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have equal Planck masses, a statement of calc note #8 §3 that #11 does not repeat. The count and the parities are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton).*
 
 **Status:** Alive — [D] in #11 §7.5; [D + T] in [calc note #8](/wiki/history/documents/debt-1-notes) (`notes/debt1a-iv-beta-coefficients.md` §3) — derivations only: no battery test covers the parameter count, the m_FP² combination or the parities. The machine-checked inputs are [the identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) used in the second reduction step and the coefficients that define T (battery tests T5 and T6, [the verification battery](/wiki/method/verification/battery)). Tested observationally by [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton).
 
@@ -105,9 +106,9 @@ e − f   →   −(e − f)       odd     X, mass M_X
 
 ### Equal Planck masses
 
-In bimetric gravity each metric has its own Einstein–Hilbert term, and the coefficient of that term, the metric's Planck mass, sets how strongly the metric responds to sources [T]; the v3 worklog writes the two as M_g and M_f. An exchange of the two metrics is a symmetry of the whole action only if it maps the two kinetic terms onto each other, which requires the two Planck masses to be equal [T]. Calc note #8 §3 states the result for the program's frames as "With equal effective Planck masses (forced by the same symmetry)", with no separate derivation.
+In bimetric gravity each metric has its own [Einstein–Hilbert term](/wiki/gravity/spin-2-fields/general-relativity), and the coefficient of that term, the metric's Planck mass, sets how strongly the metric responds to sources [T]; the v3 worklog (`review/v3-worklog.md`, item R7) writes the two as M_g and M_f. An exchange of the two metrics is a symmetry of the whole action only if it maps the two kinetic terms onto each other, which requires the two Planck masses to be equal [T]. Calc note #8 §3 states the result for the program's frames as "With equal effective Planck masses (forced by the same symmetry)", with no separate derivation.
 
-Two consequences are worked out elsewhere. Matter coupled to g "sees both eigenstates with comparable strength" (#8 §3), so ordinary matter feels X at gravitational strength, and its safety rests on X's short range ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). And equal Planck masses rule out the regime in which a heavy spin-2 field is known to be stable in an expanding universe ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
+Two consequences are worked out elsewhere. Matter coupled to g "sees both eigenstates with comparable strength" (#8 §3), so ordinary matter feels X at gravitational strength, and its safety rests on X's short range ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). And equal Planck masses rule out the regime in which a heavy spin-2 field has been shown to be linearly stable at late times in an expanding universe ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
 
 ### A selection rule on vertices
 
@@ -129,7 +130,7 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 
 - **Calc note #7 §3** expected the coefficients to settle three things: "they determine M_X, the X–h mixing, and a vacuum-energy contribution". Calc note #8 answered with the mass combination, the parity eigenstates and a vanishing vacuum energy of the wedge sector.
 - **The lab notebook's v0.6 addendum** summarized: "Parameter count: five → two (M_X and one cubic-shape parameter). Spectrum: massless graviton = reciprocity-even, X = reciprocity-odd" ([the lab notebook](/wiki/history/documents/lab-notebook)).
-- **The v1 paper (#9)** §5 item 6 has the same wording as #11 §7.5. Its row 6 (§9) also required "massive X short-range", and its assessment (§11) counted "even-eigenstate masslessness as a bimetric-parity statement" among "novel predictions not previously posed". #11 §15 names only rows 3 and 11 as predictions not previously posed ([history of the predictions table](/wiki/predictions/table-history)).
+- **The v1 paper (#9)** §5 item 6 has nearly the same wording as #11 §7.5. Its row 6 (§9) also required "massive X short-range", and its assessment (§11) counted "even-eigenstate masslessness as a bimetric-parity statement" among "novel predictions not previously posed". #11 §15 names only rows 3 and 11 as predictions not previously posed ([history of the predictions table](/wiki/predictions/table-history)).
 - **#11 §7.5** is the current statement [D].
 
 ## Sources
@@ -141,4 +142,5 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 - `notes/debt1a-ii-X-classification.md` §3 — M_X as the polarization-breaking scale
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the logged checks; 'Addendum (v0.6)' — the lab notebook's summary of the spectrum
 - `notes/broken-born-program-v1.md` §5, §9, §11 — the superseded v1 statement, its row 6 and its assessment
+- `review/v3-worklog.md` 'Round-2 pending list' — item R7: the Planck masses written M_g and M_f, and the stable heavy-spin-2 regime at M_f ≪ M_g
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — "acquired a large mass" (popular article; not a status source)
