@@ -23,7 +23,7 @@ sources:
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*This open problem asks how strongly the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) mixes with the [Stückelberg modes](/wiki/symmetry-breaking/goldstone-and-higgs), the would-be Goldstone fields that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive. Two fields mix when the quadratic part of a theory contains a term coupling them, so that neither has a definite mass on its own. The program's leading-order result is that τ is not among the absorbed modes and stays light ([τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). Calc note #8 logged a residual mixing through the potential and expected it to be small because τ lives on a compact space; no document computes it. It is item 6 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O].*
+*This open problem asks how strongly the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) mixes with the [Stückelberg modes](/wiki/symmetry-breaking/goldstone-and-higgs), the would-be Goldstone fields that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive. Two fields mix when the quadratic part of a theory contains a term coupling them, so that neither has a definite mass on its own. The program's leading-order result is that τ is not among the absorbed modes and stays light ([τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). [Calc note #8](/wiki/history/documents/debt-1-notes) logged a residual mixing through the potential and expected it to be small because τ lives on a compact space; no document computes it. It is item 6 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O].*
 
 **Status:** Open — [O] — item 6 of #11 §14; logged in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3 and §5) with an expectation but no calculation; no `verify/` script; not on the current work queue. Listed in [Open problems and the queue](/wiki/status/open-problems).
 
@@ -70,7 +70,7 @@ The leading-order argument separates τ from the absorbed modes by where each co
 ## History of the item
 
 - **Calc note #6 §3** first raised τ's survival as a question: "verifying τ survives un-eaten is flagged [O]."
-- **Calc note #7 §5** listed "(ii) τ-not-eaten verification" among the remaining items of Debt 1, with the note that "Items (ii)–(iv) are checks; item (i) is the substance."
+- **Calc note #7 §5** listed "(ii) τ-not-eaten verification" among the remaining items of [Debt 1](/wiki/history/debts), with the note that "Items (ii)–(iv) are checks; item (i) is the substance."
 - **Calc note #8 §3** derived "τ is not eaten [D — leading order]" and logged the residual mixing. Its close-out (§5) lists "(iii) τ–Stückelberg mixing matrix" among the "Open residue, none of it existential" of Debt 1 ([The three debts](/wiki/history/debts)).
 - **The lab notebook's v0.6 addendum** carries the same list of "Residual open items (none existential)", including "τ–Stückelberg mixing" ([the lab notebook](/wiki/history/documents/lab-notebook)).
 - **The v1 paper (#9) §10, item 5**: "τ–Stückelberg mixing matrix; expected small by compactness [O]."
@@ -79,7 +79,7 @@ The leading-order argument separates τ from the absorbed modes by where each co
 
 ## Priority
 
-#11 §15 says "the word 'theory' still waits on items 1–3" of §14: [deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction), [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing). Item 6 is not among them. The current queue in the root `CLAUDE.md` ("Since the handoff") is `HANDOFF.md` §8 items 5–7 (the partially-massless comparison, the † literature battery and the phase-space-diameter note), then an optional round-5 review of the toy-model note; the mixing matrix is not on it.
+#11 §15 says "the word 'theory' still waits on items 1–3" of §14: [deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction), [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing). Item 6 is not among them. The current queue in the root `CLAUDE.md` ("Since the handoff") is `HANDOFF.md` §8 items 5–7 (the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery) and the phase-space-diameter note), then an optional round-5 review of the toy-model note; the mixing matrix is not on it.
 
 ## Sources
 
