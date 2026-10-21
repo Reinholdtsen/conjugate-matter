@@ -84,3 +84,7 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     regime. `review/wiki-build-checks/debt3a_check.py` prints m_crit ≈ 1.4e-13 GeV (broad
     form) and 4.2e-14 GeV (narrow form, v\* fixed); N_occ ≫ 1 either way, so the conclusion
     (collective behaviour needs wave dark matter) is unchanged.
+20. **#11 reference [23]† pairs one paper's title with another's arXiv number.** It gives the title
+    and journal of "Bigravitational origin of dark matter" (Phys. Rev. D 94, 084055, which is
+    arXiv:1604.08564) with arXiv:1607.03497, the companion paper "Heavy spin-2 Dark Matter".
+    Found by the dm-candidates verifier by live search. For the † battery (OP10).
