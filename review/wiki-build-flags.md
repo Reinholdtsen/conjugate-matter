@@ -54,3 +54,9 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
     tadpole grows as "ln N" (a harmonic sum); the round-4 referee and the adjudication (F6,
     revision 4) say 2 ln N; `verify/toy_gw.py` checks only one harmonic series. Recorded as
     unresolved in the inventories' conflict list (C29).
+12. **V_b's zero mode is not an exact squeeze symmetry.** `review/round4-adjudication.md` F2 and
+    revision 1 call it an "exact" squeeze symmetry; a sympy check by the toy-coset verifier
+    finds V_b not squeeze-invariant off K = ±K_ref. The toy note v2's "not symmetry-protected"
+    is the accurate statement (inventory conflict C28); the wiki follows v2.
+13. **Minor: ⟨|m|⟩ = 0.954 ± 0.0001 "at every size" (toy note §4).** `verify/toy_s4.py` prints
+    ± 0.0000 at L = 64; the note's figure is a conservative bound, not the printed value.
