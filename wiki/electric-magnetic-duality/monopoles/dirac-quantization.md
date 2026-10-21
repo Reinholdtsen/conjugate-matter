@@ -101,7 +101,7 @@ The referee's script checks the product: "check alpha_m * alpha_W' = 1.000000 (s
 
 The same consequence explains why the annihilation of superheavy monopoles was already a strong-coupling problem in the classic analysis. The referee identified #14's "strong-coupling" regime as "exactly the Dirac-monopole case of Preskill 1979 (h = 2 pi/e)" (Step 4(a) item 3), where h is the magnetic charge in the notation of the paper the referee followed ([the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)).
 
-For ordinary electromagnetism, #11 §11.2 [T] states: "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound." The worklog's figures for the two normalizations are the ones given above, 1/(4α) = 34.26 for eg = 2πn and 1/α = 137.04 for eg = 4πn ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)).
+For ordinary electromagnetism, #11 §11.2 [T] states: "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound." The worklog's figures for the two normalizations are the ones given above, 1/(4α) = 34.26 for eg = 2πn and 1/α = 137.04 for eg = 4πn ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)). The pairing of the expression 4π/e² with the condition e·g ~ 2π is queried in this wiki's list of suspected source errors (`review/wiki-build-flags.md`); the sentence is quoted here as #11 writes it.
 
 ## How the program uses it
 
