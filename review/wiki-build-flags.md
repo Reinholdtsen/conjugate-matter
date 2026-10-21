@@ -63,3 +63,6 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
 14. **Minor notation (#7 §2): "Tr(g²) = p₄ of the square-root eigenvalues".** This holds for the
     eigenvalues of √(f⁻¹g); for √(g⁻¹f), the matrix bimetric potentials use, it gives Tr(g⁻²)
     (spin2-b verifier's executed check). The conclusion (outside the eₙ span, battery T7) stands.
+15. **Minor wording (#6 §2, `notes/debt1a-ii-X-classification.md` line 17): "η
+    antisymmetric-pairing vs ω"** reads as calling η antisymmetric; η is the symmetric
+    (neutral) metric and ω the antisymmetric form.

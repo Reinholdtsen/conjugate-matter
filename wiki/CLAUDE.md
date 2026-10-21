@@ -299,8 +299,11 @@ Delete it when the build is complete.
   - #5 §B and #11 §5 call the η-null Lagrangian polarizations "discrete"; for d ≥ 2 they
     form Grassmannian families, though the conclusion (no Maslov circle) survives;
   - toy note §5 calls I "odd in K", but I ≥ 0, so it is only not invariant under K → −K.
-- **Depth waves still to run** (as of wave 1):
-  - `symmetry-breaking/` and `gravity/`;
+- **2026-10-21, depth wave 2.** `symmetry-breaking/` and `gravity/` are at full depth and
+  verified. The usage limit cut the workflow off midway; the remaining verifiers ran as
+  single background agents. Further source flags (15 in all) are collected in
+  `review/wiki-build-flags.md`.
+- **Depth waves still to run** (as of wave 2):
   - `dark-matter/`;
   - `cosmology/` and `electric-magnetic-duality/`;
   - `conjugate-relativity/` and `predictions/`;
