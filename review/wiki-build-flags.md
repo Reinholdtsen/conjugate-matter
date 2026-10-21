@@ -2,8 +2,9 @@
 
 *Found by the fresh-context verifiers of the wiki depth pass (2026-10-21). The wiki quotes
 every source faithfully and corrects none of these; each needs Paul's ruling. Where
-arithmetic is involved, the verifier's executed check was in the session scratchpad and
-is not part of `verify/`; a ruling that accepts a flag should add the check there.*
+arithmetic is involved, the verifier's executed check is in `review/wiki-build-checks/`
+with its output; it is not part of `verify/`, and a ruling that accepts a flag should add
+the check there.*
 
 1. **Null-Lagrangian polarizations are not discrete for d ≥ 2.** `notes/debt1a-geometric-core.md`
    §B (line 27), echoed in #11 §5 and #9 §3: the ω-Lagrangian, η-null polarizations are
@@ -28,7 +29,7 @@ is not part of `verify/`; a ruling that accepts a flag should add the check ther
    intended, and does it affect the vacuum structure claims?
 4. **Missing −h² in the expansion of S (#7 §2 item 2).** "S = 2h + x² + O(3)" should be
    S = 2h + x² − h² + O(3) (Y⁻¹ = 1 − h + h² − …). Executed checks by two agents:
-   `review/wiki-build-checks/s_expansion.py`, `(session scratchpad) spin2a/check_S_expansion.py`. The
+   `review/wiki-build-checks/s_expansion.py` (a second agent's independent check agreed). The
    quadratic-order Fierz–Pauli test (T4) is unaffected (it uses only S ≈ 2h).
 5. **M_X ∝ 2(β₁+β₂) should probably be M_X² (#11 §7.5, #9 §5 item 6).** Their source, #8 §3,
    writes "m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. M_X"; the β-combination fixes the squared
