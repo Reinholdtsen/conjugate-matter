@@ -22,7 +22,7 @@ sources:
 
 Quantum statistics counts the states of a gas in phase space, the six-dimensional space of positions and momenta: one mode occupies a cell of volume (2πℏ)³. The occupation number is the number of particles per cell.
 
-For dark matter in a halo, write m for the particle mass, ρ for the mass density, n = ρ/m for the number density and σ for the velocity dispersion. The particles' momenta are spread over a range of order mσ, and the de Broglie wavelength that belongs to that spread is λ_dB ~ ℏ/(mσ). The relation is the Fourier one between a waveform and its spectrum: a wave whose spectrum has width mσ stays coherent over a length of order ℏ/(mσ), and no further. A cube of side λ_dB is therefore one cell of phase space, and the occupation number is the number of particles it holds. In units with ℏ = c = 1, which the Debt-3 notes use throughout (`notes/debt3a-stream-stability.md`, 'Corollary'):
+For dark matter in a halo, write m for the particle mass, ρ for the mass density, n = ρ/m for the number density and σ for the velocity dispersion. The particles' momenta are spread over a range of order mσ, and the de Broglie wavelength that belongs to that spread is λ_dB ~ ℏ/(mσ). The relation is the Fourier one between a waveform and its spectrum: a wave whose spectrum has width mσ stays coherent over a length of order ℏ/(mσ), and no further. A cube of side λ_dB is therefore one cell of phase space, and the occupation number is the number of particles it holds. In units with ℏ = c = 1, the units implicit in the Debt-3 notes' formulas (`notes/debt3a-stream-stability.md`, 'Corollary'):
 
 ```text
 N_occ = n λ_dB³ = ρ/(m⁴σ³)
