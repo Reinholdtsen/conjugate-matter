@@ -16,6 +16,7 @@ sources:
   - "review/round4/referee/audit-notes.md Step 2(b)"
   - "review/round4/referee/audit-notes.md Step 3"
   - "review/round4/referee/out_model2_vac.txt"
+  - "review/round4/referee/ref_model2_vac.py (the moment)"
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
   - "notes/toy-lagrangian.md chunk 2 as first committed (4923112)"
@@ -87,7 +88,7 @@ An [order parameter](/wiki/symmetry-breaking/order-parameter) is a quantity that
 
 The referee computed the dual "by direct 2D Fourier quadrature (not via Pi)", an independent route to the same quantity, and found "Delta/Delta(0) = cos(beta) to 6 decimals at 9 angles; Delta(0) = +0.866025 = sqrt(3)/2 > 0 (beta=0 broader in position: <x^2>_vac=1.183 vs 0.317); zero at pi/2; Delta[D phi] = -Delta[phi] (0.66237 vs -0.66237). Sign convention CONFIRMED." (audit notes, Step 2(b)).
 
-**Two magnitudes, one sign.** The gate's Δ(0) is 10.8828 and the referee's is 0.866025. The two computations normalize ⟨x²⟩ differently: the gate's moment is the unnormalized integral of x²|φ|² over the plane (`verify/toy_gw.py`). No document reconciles the magnitudes, and the difference of normalization is the wiki's reading. The claim rests on the sign, which agrees.
+**Two magnitudes, one sign.** The gate's Δ(0) is 10.8828 and the referee's is 0.866025. The two scripts define ⟨x²⟩ differently. The gate's moment is the plain integral of x²|φ|² over the plane (`verify/toy_gw.py`). The referee's divides by the norm ∫|φ|², as its script's comment says: "normalised by int|phi|^2 = 2 pi (1.5+0.5)" (`review/round4/referee/ref_model2_vac.py`). No document compares the two magnitudes. The claim rests on the sign and on the cos β shape, and both agree.
 
 ## What the breaking amounts to
 
@@ -119,6 +120,7 @@ The sign matters downstream. The real model's one-loop preference is for the β 
 - `verify/toy_gw.py` S2, 'S3/S5 start' — the gated vacuum, phase and polarization checks, including Δ(0), and the moment as computed
 - `review/round4/referee/audit-notes.md` Step 1, Step 2(b), Step 3 — the prior work checked for duality breaking; the independent reproduction, the extra restarts, the referee's Δ(0) and sign confirmation; "weak language"
 - `review/round4/referee/out_model2_vac.txt` — the referee's printed vacua, phases and Δ(β), including the cross-term evaluation
+- `review/round4/referee/ref_model2_vac.py` — the referee's moment, divided by the norm
 - `review/round4-adjudication.md` 'Revisions' 3, 'Pre-registration scored' — the restriction to the complex model; the confirmed sign
 - `review/round4-preregistration.md` 'Predictions' — the sign convention as a predicted error site
 - `notes/toy-lagrangian.md` 'Chunk 2 results', 'Assessment against the predictions' — the occupation formula, the corrected sign line, the novelty statement, the unpredicted finding

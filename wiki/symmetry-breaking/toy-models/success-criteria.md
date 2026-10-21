@@ -13,6 +13,8 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 4: S5'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
   - "papers/reciprocity-toy-models.md §1"
+  - "papers/reciprocity-toy-models.md Abstract"
+  - "papers/reciprocity-toy-models.md §5"
   - "papers/reciprocity-toy-models.md §6"
   - "review/round4-adjudication.md 'Rulings'"
   - "review/round4-adjudication.md 'Revisions'"
@@ -44,7 +46,7 @@ The demand being answered was [acceptance criterion 1](/wiki/symmetry-breaking/t
 - "In 1+1, a discrete symmetry can break (as in the 2D Ising model). A continuous compact one cannot (Coleman–Mermin–Wagner), though there is a claimed exception for non-amenable groups, to be checked."
 - "Pass requires a citation-backed argument, and preferably a lattice simulation showing the order parameter stays nonzero."
 
-The criterion separates classical breaking, a property of the minima of an action, from breaking in the quantum theory, where fluctuations can restore the symmetry. In quantum mechanics a particle in a double well tunnels between the minima, and the ground state is symmetric [T]. In two dimensions the theorem of Mermin, Wagner and Coleman forbids ordering of a compact continuous symmetry, while a discrete one can order ([the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)). The "non-amenable" exception concerns non-compact symmetry groups; the prior-art survey found it in hyperbolic sigma models, whose non-compact symmetry breaks even in two dimensions ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models)).
+The criterion separates classical breaking, a property of the minima of an action, from breaking in the quantum theory, where fluctuations can restore the symmetry. In quantum mechanics a particle in a double well tunnels between the minima, and the ground state is symmetric [T]. In two dimensions the theorem of Mermin, Wagner and Coleman rules out ordering of a compact continuous symmetry, while a discrete one can order ([the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)). The "non-amenable" exception concerns non-compact symmetry groups; the prior-art survey found it in hyperbolic sigma models, whose non-compact symmetry breaks even in two dimensions ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models)).
 
 **S5 — the vacuum choice has a consequence for matter.**
 
@@ -98,7 +100,7 @@ What each line rests on now, after round 4:
 
 - **S1–S3.** In [model I](/wiki/symmetry-breaking/toy-models/coset-model), an action invariant under Sp(2, ℝ), vacua that ρ maps to one another, and O = K₁₁ as order parameter ([action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries); [vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). In model II, the duality as a symmetry of the complex field, a circle of vacua it moves, and the polarization Δ(β) ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)). Round 4 added that model I's vacuum keeps a twisted element ρ∘(K → −K), so its breaking of ρ is physical only once a coupling odd in K is present ([the twisted element](/wiki/symmetry-breaking/twisted-element)).
 - **S4.** The "τ potential" of the chunk-3 pass is the [naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), unbounded below once H is dynamical and now dead. Version 2 restates the pass with [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), as an ordered ℤ₂ phase in [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) only ([the Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)). Model II fails S4 ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)). The non-amenability route was "not needed, not tested".
-- **S5.** The weak form passes with a coupling that version 2 calls (H, K)-built rather than ρ-covariant, since it needs H as well as K ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)); the strong form is open ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
+- **S5.** The weak form passes with the coupling the worklog called "a ρ-covariant coupling of matter to K". Round 4 found that it needs H as well as K (finding F5), and version 2 calls it "a coupling built from (H, K)", which "is covariant under the SO(2) fixing H = 1, not under Sp(2,ℝ)" (§5; [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). The strong form is open ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
 
 ## Scoring the forecasts
 
@@ -134,6 +136,6 @@ The assessment lists three ('Assessment against the predictions'):
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — the S0 prior-art survey [S]
 - `notes/toy-lagrangian.md` 'Chunk 2 results', 'Chunk 3 results', 'Chunk 4: S5' — the scorecards and the S5 conclusion
 - `notes/toy-lagrangian.md` 'Assessment against the predictions' — the scoring and the unpredicted findings
-- `papers/reciprocity-toy-models.md` §1, §6, Abstract — the prior work and the scope as version 2 states them
+- `papers/reciprocity-toy-models.md` §1, §5, §6, Abstract — the prior work, the (H, K)-built coupling and the scope as version 2 states them
 - `review/round4-adjudication.md` 'Rulings', 'Revisions' — the omitted prior work added in round 4; "ordered ℤ₂ phase"
 - `CLAUDE.md` 'Method (HANDOFF §5)' — the pre-registration rule

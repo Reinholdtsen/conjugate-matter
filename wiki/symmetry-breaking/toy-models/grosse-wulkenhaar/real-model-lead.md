@@ -34,7 +34,7 @@ The toy-model note, version 2 (§3):
 
 ## The real model's vacua
 
-A field that is real on the noncommutative plane is a Hermitian matrix on the matrix base, with quartic term Tr φ⁴ ([the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base)). The worklog explained in chunk 1 why its minima are diagonal: "At Ω = 1 the matrix-base action depends on φ only through φ² ... With distinct level energies, every minimum is then diagonal, φ = diag(±√q_m) over the condensed levels." ('Chunk 1 results'). The occupations are those of the complex model, q₀ = 1.5 and q₁ = 0.5 at μ² = 4 and λ = 1 ([complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)), with a₀ = √q₀ and a₁ = √q₁.
+A field that is real on the noncommutative plane is a Hermitian matrix on the matrix base, with quartic term Tr φ⁴ ([the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base)). The worklog explained in chunk 1 why its minima are diagonal: "At Ω = 1 the matrix-base action depends on φ only through φ² … With distinct level energies, every minimum is then diagonal, φ = diag(±√q_m) over the condensed levels." ('Chunk 1 results'). The occupations are those of the complex model, q₀ = 1.5 and q₁ = 0.5 at μ² = 4 and λ = 1 ([complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)), with a₀ = √q₀ and a₁ = √q₁.
 
 A real entry has no phase, only a sign. The action is even in φ, so flipping both signs changes nothing, and two vacua remain:
 
@@ -63,7 +63,7 @@ The values in the record:
 
 - the referee, at N = 8: "one-loop free energies differ by 2.633916" (`review/round4/referee/out_model2_vac.txt`);
 - the adjudicator, at N = 8: "F(+) − F(−) = 2.634, exactly the referee's number" ('Rulings' F4; `arb.out`);
-- the gate, at each truncation: "N= 6: ... F(+) - F(-) = 2.634", and the same at N = 8 and N = 10. It asserts the value at N = 8 ("F(+) - F(-) = 2.634 at N = 8 (matching the round-4 referee)") and the sign at all three ("F(+) > F(-) at N = 6, 8, 10: the opposite-sign vacuum diag(a0, -a1) is preferred at one loop").
+- the gate, at each truncation: "N= 6: … F(+) - F(-) = 2.634", and the same at N = 8 and N = 10. It asserts the value at N = 8 ("F(+) - F(-) = 2.634 at N = 8 (matching the round-4 referee)") and the sign at all three ("F(+) > F(-) at N = 6, 8, 10: the opposite-sign vacuum diag(a0, -a1) is preferred at one loop").
 
 The difference is positive, so v− has the lower free energy. The note explains why the value does not move with the truncation: "the sign-dependent term involves only the modes coupling levels 0 and 1" (§3).
 
