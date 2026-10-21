@@ -11,6 +11,7 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-program-v1.md §8"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
 *Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a cosmological constant's does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
@@ -35,7 +36,7 @@ The second Friedmann equation gives the acceleration, ä/a = −(ρ + 3p)/(6M_P�
 
 ### The cosmological constant [T]
 
-The simplest dark energy is a cosmological constant, an energy density of empty space that is the same everywhere and at all times. Its pressure is minus its energy density, w = −1 exactly, and ρ stays constant as space expands. The cosmological constant is the standard expectation in the program's prediction table: "w ≡ −1" (#11 §13 row 4). Why quantum vacuum energy does not produce a far larger value is a separate, unsolved question ([the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)).
+The simplest dark energy is a cosmological constant, an energy density of empty space that is the same everywhere and at all times. Its pressure is minus its energy density, w = −1 exactly, and ρ stays constant as space expands. The cosmological constant is the standard expectation in the program's prediction table: "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Why quantum vacuum energy does not produce a far larger value is a separate, unsolved question ([the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)).
 
 ## A scalar field as dark energy
 
@@ -81,7 +82,7 @@ The lab notebook places the program's field in the first class: "Hilltop initial
 
 ### Hilltop quintessence
 
-In a hilltop model the field begins near a maximum of its potential, where V′ ≈ 0 and V″ < 0 (Dutta and Scherrer †). Near the maximum the restoring force points away from it, so a small displacement grows once the expansion damping weakens. Starting close to the top keeps w near −1 for a long time; how fast w then rises depends on how sharply curved the maximum is compared with the expansion rate. Hilltop models are thawing models.
+In a hilltop model the field begins near a maximum of its potential, where V′ ≈ 0 and V″ < 0 (Dutta and Scherrer †). Near the maximum the force −V′ points away from it, so a small displacement grows once the expansion damping weakens. Starting close to the top keeps w near −1 for a long time; how fast w then rises depends on how sharply curved the maximum is compared with the expansion rate. Hilltop models are thawing models.
 
 ### Axion-like fields
 
@@ -95,7 +96,7 @@ with a period 2πf in φ. The shift symmetry keeps the field light, and its maxi
 
 ### The program's choice
 
-#11 §10: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology". In the program the period is not chosen: τ is an angle on a circle in the space of polarizations ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). The program's version is on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), and one of its fits in the literature is an axion-quintessence analysis of data from the Dark Energy Spectroscopic Instrument (DESI), Ureña-López et al. [20S] ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)).
+#11 §10: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology". In the program the period is not chosen: τ is an angle on a circle in the space of polarizations ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). The program's version is on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), and among the fits of this class of potential to data is an axion-quintessence analysis of data from the Dark Energy Spectroscopic Instrument (DESI), Ureña-López et al. [20S] ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)).
 
 ## The w₀–wₐ parametrization [T]
 
@@ -109,7 +110,7 @@ with a = 1 today. Here w₀ is the present value and wₐ measures the change: s
 
 A thawing field starts near −1 and rises, so it has w₀ > −1 and wₐ < 0 (#1 §7 item 2; #11 §13 row 4). Thawing models do not fill that quadrant: their trajectories lie close to a line, which the program calls the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10) and #1 §7 item 2 "the standard thawing corridor". Neither document gives a reference for the corridor.
 
-A CPL fit can also describe a w(z) that crosses −1. If w₀ > −1 while w₀ + wₐ < −1, the fitted w lies below −1 at early times and above it today. That is the shape of the crossing reported in the second data release of the Dark Energy Spectroscopic Instrument (DESI) ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
+A CPL fit can also describe a w(z) that crosses −1. If w₀ > −1 while w₀ + wₐ < −1, the fitted w lies below −1 at early times and above it today. That is the shape of the crossing reported in the second data release of DESI ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)), the finding that puts the program's dark-energy sector under real pressure (root `CLAUDE.md`, 'Since the handoff').
 
 ## Recollapse [T]
 
@@ -146,3 +147,4 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - `notes/broken-born-theory.md` §3 — the action S_τ with a canonical kinetic term
 - `notes/broken-born-theory.md` §7 items 2–3 — hilltop initial conditions, "the standard thawing corridor", the fits with a negative minimum and the 93.8% figure (#1 only)
 - `notes/broken-born-program-v1.md` §8 — the same fits, marked "[T — refresh citations before publication]"
+- `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure"
