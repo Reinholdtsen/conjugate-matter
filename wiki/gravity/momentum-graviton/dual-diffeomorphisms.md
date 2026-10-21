@@ -29,7 +29,7 @@ Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in
 
 > The local version of these shifts sits inside the ω-generalized diffeomorphisms: dual-diffeomorphism parameters λ_μ(x) act as δX_μν = ∂_(μ λ_ν) — because X is **symmetric**, this is a *second copy of linearized diffeomorphisms*, making X a second graviton-like gauge field.
 
-The checkpoint, step (ii) of its chain (#11 §7.1): "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric*". Its parenthesis contrasts the antisymmetric partner field of double field theory, which is the subject of [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner).
+The checkpoint, step (ii) of its chain (#11 §7.1): "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric*". Its parenthesis contrasts the antisymmetric partner field of [double field theory](/wiki/phase-space/born-geometry/double-field-theory), which is the subject of [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner).
 
 Here X = Re Z is the real part of [the modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, a symmetric tensor field beside the metric g = Im Z, and the parentheses on the indices mean the symmetrized combination of ∂_μλ_ν and ∂_νλ_μ.
 
@@ -91,7 +91,7 @@ The mass comes from the vacuum. #6 §3: "The vacuum ⟨Z⟩ = i·g sits at X = 0
 
 - **Before: no second graviton.** The lab notebook's [original P2](/wiki/program/postulates/original-p2), which froze the neutral metric η as well as ω, was given a "triple duty", the first being that "it kills the would-be second graviton" (#1 §1), and its ghost accounting held that "There is no second independent metric" (#1 §4). With η emergent under [P2′](/wiki/program/postulates/p2-prime), X appeared as the fluctuation that breaks η-compatibility (#5 §C), and the claim was reversed ([the superseded no-second-graviton claim](/wiki/gravity/momentum-graviton/forcing-chain#superseded-no-second-graviton-under-the-original-p2)).
 - **The reversal.** Calc note #6 §2, quoted above. The notebook's v0.4 addendum: "Its local gauge structure δX_μν = ∂_(μλ_ν) makes it a *second graviton*" ([the lab notebook](/wiki/history/documents/lab-notebook)).
-- **The papers.** #9 §5 item 2: "**Gauge structure and no-go [D+T].** Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second copy of linearized diffs, because X is symmetric." #11 §7.1 (ii) is the current statement. The handoff summarizes it as "δX = ∂λ ⇒ second graviton" (`HANDOFF.md` §2).
+- **The papers.** #9 §5 item 2: "**Gauge structure and no-go [D+T].** Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second copy of linearized diffs, because X is symmetric." #11 §7.1 (ii) is the current statement. [The handoff](/wiki/history/documents/handoff) summarizes it as "δX = ∂λ ⇒ second graviton" (`HANDOFF.md` §2).
 - **The withdrawn soliton manuscript.** #14 §1 states the step in compressed form: "X is symmetric and its local shift symmetry delta X_mu-nu = partial_(mu lambda_nu) is a second copy of linearized diffeomorphisms; a massless X coupled to gravity is excluded by the multi-graviton no-go [2]." The manuscript was withdrawn for its abundance arithmetic ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)), not for this statement.
 
 ## Sources

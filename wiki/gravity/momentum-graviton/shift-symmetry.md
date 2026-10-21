@@ -26,7 +26,7 @@ sources:
   - "verify/battery.py T2"
 ---
 
-*The shift symmetry is the statement that adding a constant symmetric matrix B to the momentum graviton X leaves the program's geometry unchanged. X is the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, and the shift Z → Z + B is one of the maps of the group Sp(2d, ℝ) that preserves the rigid [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω. Any geometric action built from ω and the phase-space metric H therefore takes the same value before and after the shift. Such an action cannot give X a potential energy, a mass, or any coupling without derivatives: X is axion-like, a field that enters only through how it varies from place to place. That rules out one of the three outcomes the program had defined for X, an auxiliary field with no motion of its own: X either propagates or does not exist. The calc note that found the result rates it rigorous; it is the first step of the argument that X must be a massive spin-2 field, and no script checks it.*
+*The shift symmetry is the statement that adding a constant symmetric matrix B to the momentum graviton X leaves every geometric action of the program unchanged. X is the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, and the shift Z → Z + B is one of the maps of the group Sp(2d, ℝ) that preserves the rigid [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω. Any geometric action built from ω and the phase-space metric H therefore takes the same value before and after the shift. Such an action cannot give X a potential energy, a mass, or any coupling without derivatives: X is axion-like, a field that enters only through how it varies from place to place. That rules out one of the three outcomes the program had defined for X, an auxiliary field with no motion of its own: X either propagates or does not exist. The calc note that found the result rates it rigorous; it is the first step of the argument that X must be a massive spin-2 field, and no script checks it.*
 
 **Status:** Alive — [D — rigorous] in calc note #6 (`notes/debt1a-ii-X-classification.md` §1); step (i) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1's chain, which is tagged [D + T] as a whole — a symmetry argument, not machine-checked: none of the seven tests of [the verification battery](/wiki/method/verification/battery) covers it.
 
@@ -73,7 +73,7 @@ With A = D = 1 and C = 0 the map is Z → Z + B, and a matrix [[1, B], [0, 1]] i
 
 "Rigid" means that ω is the same fixed structure in every configuration of the fields. An action built from ω and H alone takes the same value on a configuration and on its image under a map that preserves ω [T], and the shift is such a map. #6 states this step in one line: constant shifts are "exact symmetries of any S_H built from (ω, H)".
 
-S_H is the program's geometric action, the dynamics of the metric H ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)). The lab notebook wrote it as an Einstein-like curvature action, "S_H = ½M_B² ∫_Σ √|H| R_B[H] over the section Σ, with ω, η frozen (P2)" (#1 §3), under the original postulate that froze the neutral metric η as well. No document writes S_H out with ω alone rigid, and its first-principles relation to the potential that gives X its mass is open item 1 of #11 §14 ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)). The symmetry argument does not need an explicit form: it constrains every action built from ω and H at once.
+S_H is the program's geometric action, the dynamics of the metric H ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)). The [lab notebook](/wiki/history/documents/lab-notebook) wrote it as an Einstein-like curvature action, "S_H = ½M_B² ∫_Σ √|H| R_B[H] over the section Σ, with ω, η frozen (P2)" (#1 §3), under [the original postulate](/wiki/program/postulates/original-p2) that froze the neutral metric η as well. No document writes S_H out with ω alone rigid, and its first-principles relation to the potential that gives X its mass is open item 1 of #11 §14 ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)). The symmetry argument does not need an explicit form: it constrains every action built from ω and H at once.
 
 ### What a shift symmetry forbids [T]
 
@@ -91,7 +91,7 @@ Calc note #5 had posed the question of what X is as a choice among three outcome
 2. "**auxiliary** (no derivatives at quadratic order) → integrate out → a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly";
 3. "**ghost** → fatal to the geometric sector."
 
-An auxiliary field, in the standard sense [T], is one that enters the action without derivatives. Its field equation is then algebraic rather than a wave equation: it can be solved for the field and substituted back, which is what integrating the field out means, and this leaves contact interactions among the fields it couples to and no particle of its own. Outcome 2 would have made X such a field, with the four-χ contact operator acting between particles χ of [conjugate matter](/wiki/dark-matter/conjugate-matter), the program's dark-matter sector.
+An auxiliary field, in the standard sense [T], is one that enters the action without derivatives. Its field equation is then algebraic rather than a wave equation: it can be solved for the field and substituted back, which is what integrating the field out means, and this leaves contact interactions among the fields it couples to and no particle of its own. Outcome 2 would have made X such a field, with the four-χ contact operator acting between particles χ of [conjugate matter](/wiki/dark-matter/conjugate-matter), one of the program's two dark-matter candidates.
 
 ### Why the shift excludes it
 
@@ -109,7 +109,7 @@ The qualifier "from the geometric sector alone" matters here. The tuning-test no
 
 ## The local version
 
-The constant shift is a global symmetry: the same B everywhere. Calc note #6 §2 next replaces B by the symmetrized derivative of a vector field λ_μ(x) that varies from point to point, δX_μν = ∂₍μλ_ν₎. A constant shift is the special case of a λ_μ that grows linearly with position, whose symmetrized derivative is constant [T]. Because X is symmetric, the local shifts have the same form as the linearized coordinate changes of general relativity, and X becomes a second graviton-like gauge field: [dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms).
+The constant shift is a global symmetry: the same B everywhere. Calc note #6 §2 next replaces B by the symmetrized derivative of a vector field λ_μ(x) that varies from point to point, δX_μν = ∂₍μλ_ν₎. A constant shift is the special case of a λ_μ that grows linearly with position, whose symmetrized derivative is constant [T]. Because X is symmetric, the local shifts have the same form as the linearized coordinate changes of [general relativity](/wiki/gravity/spin-2-fields/general-relativity), and X becomes a second graviton-like gauge field: [dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms).
 
 ## Scope and caveats
 
@@ -122,7 +122,7 @@ The constant shift is a global symmetry: the same B everywhere. Calc note #6 §2
 
 - **The question.** Calc note #5 defined the three outcomes and called the curvature expansion "the single most important remaining calculation" (§D), the first item "Now precisely open" (§F). The lab notebook's v0.3 addendum restated it as "the quadratic-order classification of X (healthy / auxiliary / ghost), where the first two outcomes serve the program and only the third kills the geometric sector" ([the lab notebook](/wiki/history/documents/lab-notebook)).
 - **The answer.** Calc note #6 §1 removed the auxiliary outcome by symmetry; the curvature expansion itself is reported in no document. The notebook's v0.4 addendum: "The rigid Sp(2d,ℝ) shift symmetry Z → Z + B makes X axion-like (no potential from geometry; "auxiliary" is off the table)."
-- **The papers.** #9 §5 item 1: "**Shift symmetry [D].** The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is axion-like — no potential from geometry, "auxiliary" excluded." #11 §7.1 (i) is the current statement, and the handoff's summary reads "shift symmetry ⇒ never auxiliary" (`HANDOFF.md` §2).
+- **The papers.** #9 §5 item 1: "**Shift symmetry [D].** The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is axion-like — no potential from geometry, "auxiliary" excluded." #11 §7.1 (i) is the current statement, and [the handoff](/wiki/history/documents/handoff)'s summary reads "shift symmetry ⇒ never auxiliary" (`HANDOFF.md` §2).
 
 ## Sources
 

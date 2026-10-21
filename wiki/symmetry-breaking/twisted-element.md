@@ -29,7 +29,7 @@ sources:
 
 ## Statement
 
-The toy-model note (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) states the result in its section on model I:
+The [toy-model note](/wiki/symmetry-breaking/toy-models) (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) states the result in its section on model I:
 
 > But the twisted element ρ∘(K → −K) maps (1, K₀) to itself. So within the full symmetry group, the vacuum keeps an element that acts on H exactly as ρ does. Breaking ρ is physical only once a coupling odd in K is present (§5). (toy note §2)
 
@@ -56,7 +56,7 @@ The note lists two symmetries: "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, 
 - Sp(2,ℝ) is the group of linear maps of the plane that preserve ω. The quarter turn ρ = [[0, 1], [−1, 0]] is one of its elements.
 - The flip K → −K is a symmetry because the first term of L does not contain K and the other two contain it, or its derivative, exactly twice: the potential through C, which is linear in K.
 
-The gate checks both: "all three terms invariant under rho" and "all three terms invariant under K -> -K" (`verify/toy_coset.py`). The round-4 referee states the consequence: "The model's full symmetry group is Sp(2,R) x Z2(K->-K) (both stated in Sec. 2)" (`review/round4/referee/audit-notes.md`, Step 2(a); "audit notes" below).
+The gate checks both: "all three terms invariant under rho" and "all three terms invariant under K -> -K" (`verify/toy_coset.py`). The [round-4](/wiki/method/review/round-4) referee states the consequence: "The model's full symmetry group is Sp(2,R) x Z2(K->-K) (both stated in Sec. 2)" (`review/round4/referee/audit-notes.md`, Step 2(a); "audit notes" below).
 
 ## What ρ does to the vacuum
 

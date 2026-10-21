@@ -26,13 +26,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14"
 ---
 
-*A section condition is a rule, taken from double field theory, that makes every field depend on only half of a doubled set of coordinates, so that physics lives on one "section" of the doubled space. In the program's coset toy model the neutral metric η, the order parameter of broken reciprocity, singles out exactly two lines in the position–momentum plane: its null lines, which are the two eigenlines of the real structure K. A section condition built from η forces each matter field to depend on the coordinate along one of those lines only. It cannot say which of the two is position, because the same fields pass whether the condition is built from η or from −η. So η fixes the pair of candidate directions, and the choice within the pair has to come from somewhere else. The clean two-way choice holds only when phase space is a plane (one position and one momentum coordinate); with more dimensions the literature finds a continuous family of sections.*
+*A section condition is a rule, taken from double field theory, that makes every field depend on only half of a doubled set of coordinates, so that physics lives on one "section" of the doubled space. In the program's coset toy model the neutral metric η, the order parameter of broken reciprocity, singles out exactly two lines in the position–momentum plane: its null lines, which are the two eigenlines of the real structure K. A section condition built from η forces each matter field to depend on the coordinate along one of those lines only. It cannot say which of the two is position, because the same fields pass whether the condition is built from η or from −η. So the condition fixes the pair of candidate directions, and matter's choice within the pair has to come from somewhere else. The clean two-way choice holds only when phase space is a plane (one position and one momentum coordinate); with more dimensions the literature finds a continuous family of sections.*
 
 **Status:** Alive, for d = 1 — [V] (the worklog's parts A and B; `verify/toy_s5.py`, [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) — the section condition itself is literature [T] and is imposed, not derived, in the toy; the lab notebook's question about curved backgrounds stays open [O] and is not tracked in #11 §14.
 
 ## What a section condition is
 
-[Double field theory](/wiki/phase-space/born-geometry/double-field-theory) writes the low-energy fields of closed string theory on a doubled space, in which each coordinate has a dual partner, and equips that space with a neutral metric η, a symmetric pairing with as many positive as negative directions [T]. Consistency does not allow fields to depend on all the doubled coordinates. The toy-model note (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) summarizes the literature:
+[Double field theory](/wiki/phase-space/born-geometry/double-field-theory) writes the low-energy fields of closed string theory on a doubled space, in which each coordinate has a dual partner, and equips that space with a neutral metric η, a symmetric pairing with as many positive as negative directions [T]. Consistency does not allow fields to depend on all the doubled coordinates. The [toy-model note](/wiki/symmetry-breaking/toy-models) (`papers/reciprocity-toy-models.md`, version 2; "toy note" below) summarizes the literature:
 
 > The section condition confines fields to a maximally isotropic subspace. It is imposed for closure of the gauge algebra [11], or derived from string consistency [12]. Those derivations leave the section undetermined within a family — a pair for d = 1, a continuous family for d > 1. (toy note §1)
 
@@ -40,7 +40,7 @@ A maximally isotropic subspace is one of the largest dimension on which η vanis
 
 ## The toy setting
 
-The program applies the device to phase space, with η the vacuum's order parameter. In the toy (toy note §1):
+The program applies the device to phase space, with η the vacuum's [order parameter](/wiki/symmetry-breaking/order-parameter). In the toy (toy note §1):
 
 > Phase space ℝ² with symplectic form ω = [[0, 1], [−1, 0]]. … A real structure K with K² = 1 and Kᵀ ω K = −ω defines a neutral metric η = ωK. Its null lines are the two eigenlines L± of K, which are Lagrangian. Choosing K is choosing which line is "position".
 
@@ -53,7 +53,7 @@ The note's statement (toy note §5; worklog part A [V]):
 > - The null lines of η = ωK(φ) are exactly K's eigenlines L±, and the only ones.
 > - K → −K sends η → −η with the same null lines. ρ exchanges L+ and L−.
 
-The gate checks it in steps (`verify/toy_s5.py`, part A), and the round-4 referee checked it independently (`review/round4/referee/audit-notes.md`, Step 2(d); "audit notes" below):
+The gate checks it in steps (`verify/toy_s5.py`, part A), and the [round-4](/wiki/method/review/round-4) referee checked it independently (`review/round4/referee/audit-notes.md`, Step 2(d); "audit notes" below):
 
 1. **η is a neutral metric.** "eta = w K is a symmetric neutral metric (det = -1)": a symmetric pairing with one positive and one negative direction.
 2. **K's eigenvectors are null.** The script takes e+ = (cos φ/2, sin φ/2) and e− = (−sin φ/2, cos φ/2), with K e+ = e+ and K e− = −e−, and checks "e+ and e- are null for eta, for every phi". The reason is one line of algebra [T]: for an eigenvector, eᵀηe = eᵀωKe = ±eᵀωe, which vanishes because ω is antisymmetric.
@@ -62,7 +62,7 @@ The gate checks it in steps (`verify/toy_s5.py`, part A), and the round-4 refere
 5. **K → −K keeps the lines.** "K -> -K sends eta -> -eta, with the same null lines" (gate): a vector is null for −η exactly when it is null for η.
 6. **ρ exchanges them.** "rho maps K to -K, and maps L+ onto L- (rho^-1 e+ is a K-eigenvector with eigenvalue -1)" (gate); the referee: "rho^-1 e+ is parallel to e-".
 
-So η, a symmetric pairing, fixes the unordered pair of lines {L+, L−} and nothing more. Which line is L+, the eigenvalue +1 line that counts as position, is carried by the sign of K. Reversing that sign leaves η's null lines where they are and exchanges the labels; [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ has the same effect, since it sends K to −K.
+So the null lines of η fix the unordered pair {L+, L−} and nothing more. Which line is L+, the eigenvalue +1 line that counts as position, is carried by the sign of K. Reversing that sign leaves η's null lines where they are and exchanges the labels; [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ has the same effect, since it sends K to −K.
 
 ## The condition built from η [V]
 
@@ -72,7 +72,7 @@ For d = 1 the toy imposes on matter fields f and g the conditions (toy note §5)
 η^{AB} ∂_A f ∂_B g = 0,        η^{AB} ∂_A ∂_B f = 0
 ```
 
-Here A and B run over the two phase-space coordinates and η^{AB} is the inverse of η. The first condition applies to every pair of fields, a field paired with itself included; the second to every field. They are the toy's form of double field theory's strong constraint, which asks that the wave operator η^{AB}∂_A∂_B annihilate products of fields as well as the fields themselves ([double field theory](/wiki/phase-space/born-geometry/double-field-theory)).
+Here A and B run over the two phase-space coordinates and η^{AB} is the inverse of η. The first condition applies to every pair of fields, a field paired with itself included; the second to every field. They are the toy's form of double field theory's strong constraint, which asks that the wave operator η^{AB}∂_A∂_B annihilate products of fields as well as the fields themselves [T] ([double field theory](/wiki/phase-space/born-geometry/double-field-theory)).
 
 **Null coordinates.** The computation becomes transparent in coordinates along the two null lines. Write a phase-space point as ξ = u e+ + v e− (the script's "xi = u e+ + v e-"), so u runs along L+ and v along L−. Because e+ and e− are null, η has no diagonal entries in this basis, and neither does its inverse: "in null coordinates eta^-1 is purely off-diagonal (box = c d_u d_v)" (gate), where c is a nonzero constant. The pairing of two gradients therefore always combines a u-derivative of one field with a v-derivative of the other. Then (worklog part B [V]; gate; audit notes, Step 2(d)):
 
@@ -109,7 +109,7 @@ The section condition fixes the pair of lines, not the member. In the toy, which
 
 ## Open: the section condition on curved backgrounds
 
-The lab notebook (#1, v0.1) had already borrowed the device for the program's geometric action. Its kinematic core: "Field dependence is restricted to a Lagrangian leaf by a section condition, as in double field theory; consistency of the section condition on general backgrounds is open there and open here. **[O]**" (#1 §2). The action it served is S_H = ½M_B² ∫_Σ √|H| R_B[H], built from the curvature of [the Born connection](/wiki/phase-space/born-geometry/born-connection) and integrated "over the section Σ, with ω,η frozen (P2)" (#1 §3; [the v0.1 action, superseded](/wiki/gravity/tuning-test/geometric-action)). The notebook's list of open problems kept the question under its first item, the field equation for H: "The action exists (Born connection **[T]**), but solutions, the section condition on curved backgrounds, and the full ghost analysis do not. **[O]**" (#1 §11, item 1).
+[The lab notebook](/wiki/history/documents/lab-notebook) (#1, v0.1) had already borrowed the device for the program's geometric action. Its kinematic core: "Field dependence is restricted to a Lagrangian leaf by a section condition, as in double field theory; consistency of the section condition on general backgrounds is open there and open here. **[O]**" (#1 §2). The action it served is S_H = ½M_B² ∫_Σ √|H| R_B[H], built from the curvature of [the Born connection](/wiki/phase-space/born-geometry/born-connection) and integrated "over the section Σ, with ω,η frozen (P2)" (#1 §3; [the v0.1 action, superseded](/wiki/gravity/tuning-test/geometric-action)). The notebook's list of open problems kept the question under its first item, the field equation for H: "The action exists (Born connection **[T]**), but solutions, the section condition on curved backgrounds, and the full ghost analysis do not. **[O]**" (#1 §11, item 1).
 
 The question has not been settled. It is not among the open problems of #11 §14, and no later document takes it up: it left the program's list of open problems without being resolved. The toy work, which uses flat phase space ℝ², does not reach it. It is registered at [Open problems and the queue](/wiki/status/open-problems); the notebook's record is at [the lab notebook](/wiki/history/documents/lab-notebook).
 
