@@ -29,7 +29,7 @@ sources:
 
 ## Too many monopoles [T]
 
-A grand unified theory embeds the strong, weak and electromagnetic forces in one simple gauge group, broken at a very high scale v to the Standard Model's groups. The breaking leaves the U(1) of electromagnetism unbroken inside a simply connected group, so the theory has ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), with mass of order v divided by the unified fine-structure constant: superheavy.
+A grand unified theory embeds the strong, weak and electromagnetic forces in one simple gauge group, broken at a very high scale v to the Standard Model's groups. The breaking leaves the U(1) of electromagnetism unbroken inside a simply connected group, so the theory has ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), with mass of order the heavy vector bosons' mass divided by the unified fine-structure constant: superheavy.
 
 When the universe cooled through the unification transition at T_c ~ v, [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) produced at least about one monopole per horizon volume, a yield n/s ≳ p (T_c/M_Pl)³ with p of order 100. The yield stays fixed as the universe expands, so the present mass density of the monopoles is their mass times the yield times today's entropy density s₀:
 
@@ -53,14 +53,14 @@ Inflation, a period of accelerated expansion in the very early universe, removes
 
 With inflation the expected monopole flux today is negligible, consistent with searches that have found none ([the monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches)). #11 §11.1 states it for our sector: "inflationary dilution already accounts for absence [T]".
 
-The same condition, read the other way, is a requirement on any scenario that wants monopoles as a relic: the transition must come after inflation, below the reheating temperature, or the monopoles are diluted away. #14 §3 required exactly that for its hidden sector: "Inflation must precede the hidden transition, and v must lie below the reheating temperature."
+The same condition, read the other way, is a requirement on any scenario in which monopoles survive as a relic: the transition must come after inflation, below the reheating temperature, or the monopoles are diluted away. #14 §3 required exactly that for its hidden sector: "Inflation must precede the hidden transition, and v must lie below the reheating temperature."
 
 ## Hidden sectors [T]
 
 A hidden gauge sector with its own symmetry breaking and its own plasma has the same problem, and the same literature applies. Two works the checkpoint cites, both live-searched:
 
 - **Murayama and Shu** [28S] proposed hidden-sector monopoles as dark matter; the audit quotes their abstract: "Kibble mechanism drastically underestimates the production of topological defects ... dark matter of mass 1-10 PeV" (Step 4(c) item 1).
-- **Liveoak–Maharana–Wells** (LMW) [29S] bound the scale: "for symmetry-breaking scales >~ 100 PeV, the monopole abundance is unacceptably high" (Step 4(c) item 1). Ruling 3 quotes their abstract: "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination".
+- **Liveoak–Maharana–Wells** (LMW) [29S] bound the scale: "for symmetry-breaking scales >~ 100 PeV, the monopole abundance is unacceptably high" (Step 4(c) item 1). Ruling 3 summarizes their abstract, without quotation marks, as "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination".
 
 #11 §12 states the result in its own words: "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S]", and "Below that scale, annihilation in the hidden plasma sets the abundance. That is the established topological-dark-matter scenario [28S, 29S], and nothing in it depends on Born reciprocity." See [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art).
 
