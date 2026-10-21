@@ -50,7 +50,8 @@ L+ is the eigenline of K with eigenvalue +1 and L− the one with eigenvalue −
 
 The note's statement (toy note §5; worklog part A [V]):
 
-> The null lines of η = ωK(φ) are exactly K's eigenlines L±, and the only ones. K → −K sends η → −η with the same null lines. ρ exchanges L+ and L−.
+> - The null lines of η = ωK(φ) are exactly K's eigenlines L±, and the only ones.
+> - K → −K sends η → −η with the same null lines. ρ exchanges L+ and L−.
 
 The gate checks it in steps (`verify/toy_s5.py`, part A), and the round-4 referee checked it independently (`review/round4/referee/audit-notes.md`, Step 2(d); "audit notes" below):
 
