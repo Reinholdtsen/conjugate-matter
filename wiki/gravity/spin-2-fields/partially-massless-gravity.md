@@ -60,7 +60,7 @@ Here h_μν is the spin-2 field, g_μν the de Sitter metric and ∇ its covaria
 
 ### Proportional de Sitter backgrounds
 
-[Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has two dynamical metrics, g and f, each with its own Einstein–Hilbert term and Planck mass, M_g and M_f, and a potential whose five coefficients β₀ to β₄ multiply the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) of √(g⁻¹f) [T]. Among its solutions are proportional backgrounds, f = c²g with c a constant, in which both metrics are de Sitter. Around such a background the fluctuations separate into a massless spin-2 mode and a massive one [T].
+[Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has two dynamical metrics, g and f, each with its own Einstein–Hilbert term and Planck mass, M_g and M_f, and a potential whose five coefficients β₀ to β₄ multiply the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) of √(g⁻¹f) [T]. Among its solutions are proportional backgrounds, f = c²g with c a constant, in which each metric solves Einstein's equations with an effective cosmological constant [T]; the case that concerns this page is the one in which both are de Sitter. Around such a background the fluctuations separate into a massless spin-2 mode and a massive one [T].
 
 ### The parameter point
 
