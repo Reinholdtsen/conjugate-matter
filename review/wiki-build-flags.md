@@ -95,3 +95,15 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
 22. **Minor: Planck's N_eff interval (#14 §4).** #14 gives "2.99 +- 0.34"; the round-3 referee's
     audit records Planck eq. 67b as +0.34/−0.33. The 0.286 bound uses only the +0.34 side, so
     nothing changes.
+23. **a·ã = 1 and the |Z| = 1 locus (#11 §6, §10).** #11 identifies the cosmological constraint
+    a·ã = 1 with the |Z| = 1 locus. At X = 0, H_Z = diag(Y, Y⁻¹); with g = a² = Y and the
+    momentum block ã² = Y⁻¹, a·ã = 1 holds along the whole imaginary axis (it is det H = 1),
+    while |Z| = 1 meets that axis only at Z = i. Either the identification needs a different
+    reading of a and ã, or it is a slip. The same check reproduces the corrected dictionary
+    w_eff = −w̃ and the falsified heuristic −2 − w̃. Check:
+    `review/wiki-build-checks/self_dual_locus.py`.
+24. **Minor: "square exactly at the bounce" (HANDOFF §4, chat-only).** The phase-space diameter
+    relation does not say which bounce. If it is the turnaround, the rectangle would be most
+    elongated there, not square. The wiki states the ambiguity.
+25. **Minor pointer: #1 §1 P2 and §4 cite "§7" for the cosmological constraint**, which is derived
+    in #1 §6 (inventory conflict C21).
