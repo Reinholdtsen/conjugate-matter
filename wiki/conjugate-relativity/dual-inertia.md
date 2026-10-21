@@ -2,7 +2,7 @@
 title: "Dual inertia: free fall as rest"
 weight: 80
 status: alive
-description: "Trajectories of constant dp/dt are dual-inertial: free fall is rest and uniform force is uniform dual motion; the dual Newton's laws are conjecture-tier."
+description: "Trajectories of constant dp/dt are dual-inertial: free fall is rest and uniform force is uniform dual motion; the dual second law is conjecture-tier."
 provenance: [D]
 sources:
   - "papers/conjugate-special-relativity.md §5"
@@ -15,9 +15,9 @@ sources:
   - "popsci/universes-other-half.md 'A second speed of light'"
 ---
 
-*Dual inertia is #13's account of rest and uniform motion in the momentum polarization, the mirror description in which momentum plays the part that position plays for ordinary matter. An ordinary inertial body keeps its velocity constant. In #13's dual kinematics the rate of motion through momentum space, dp/dt, is a force, and it takes the place of velocity, so the dual-inertial motions are those of constant force: zero force, which in general relativity is free fall, and a constant nonzero force, which is a uniformly accelerated (Rindler) frame. In #13's words, "An astronaut coasting in orbit is, to the momentum polarization, at rest." The identification of dual-inertial frames with free fall is on #13's list of fixed results; the dual laws of motion built on it are marked conjecture-tier, and their formalization waits on dynamics that have not been written. Like the rest of #13, the material is unreviewed and unchecked by script, and the checkpoint #11 does not mention it.*
+*Dual inertia is [#13](/wiki/conjugate-relativity)'s account of rest and uniform motion in the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the mirror description in which momentum plays the part that position plays for ordinary matter. An ordinary inertial body keeps its velocity constant. In #13's dual kinematics the rate of motion through momentum space, dp/dt, is a force, and it takes the place of velocity, so the dual-inertial motions are those of constant force: zero force, which in [general relativity](/wiki/gravity/spin-2-fields/general-relativity) is free fall, and a constant nonzero force, which is a uniformly accelerated (Rindler) frame. In #13's words, "An astronaut coasting in orbit is, to the momentum polarization, at rest." The identification of dual-inertial frames with free fall is on #13's list of fixed results; the dual second law built on it is marked conjecture-tier, the dual first law carries no tag, and their formalization waits on dynamics that have not been written. Like the rest of #13, the material is unreviewed and unchecked by script, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
 
-**Status:** Alive, unreviewed — the dual-inertial = free-fall identification is in #13 §7's fixed [D] list (it is untagged in §5); the dual Newton's laws are "conjecture-tier", #13's own label and not one of the house tags. The [D] is #13's own: no review round has covered #13, no `verify/` script checks it, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
+**Status:** Alive, unreviewed — the dual-inertial = free-fall identification is in #13 §7's fixed [D] list (it is untagged in §5); the dual second law is "conjecture-tier", #13's own label and not one of the house tags, and the dual first law is untagged. The [D] is #13's own: no review round has covered #13, no `verify/` script checks it, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
 
 ## Background: inertia, free fall and Rindler frames [T]
 
@@ -63,7 +63,7 @@ The rate dp/dt is taken with respect to a time t that both polarizations share. 
 
 - **The first law.** Newton's first law says that an undisturbed body keeps its state of motion. The dual law says that an undisturbed system keeps its state of force: it stays in the dual-inertial class.
 - **The second law.** In Newton's second law mass measures resistance to a change of velocity. The dual law gives that role to λ_χ, the invariant extent that #13 §4 assigns to conjugate quanta ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)), as the resistance to a change of force. #13 writes no equation for it.
-- **The tier.** "Conjecture-tier" is not one of the program's tags ([provenance tags and citation marks](/wiki/method/provenance-tags)); the tag text says why the laws are not derived: "the full dual dynamics awaits the formalization of §6". §6's open item is the four-dimensional Born map, "a required step before the dual dynamics (their Maxwell, their field theory) can be written". The dual laws are not on §7's fixed list.
+- **The tier.** "Conjecture-tier" is not one of the program's tags ([provenance tags and citation marks](/wiki/method/provenance-tags)); the tag is attached to the second law, and its text says why the law is not derived: "the full dual dynamics awaits the formalization of §6". The first law carries no tag. §6's open item is the four-dimensional Born map, "a required step before the dual dynamics (their Maxwell, their field theory) can be written". The dual laws are not on §7's fixed list.
 
 The register of conjectures lists the dual second law among the conjecture-tier statements inside the record ([conjectures: chat-only and popsci-only claims](/wiki/status/conjectures)).
 

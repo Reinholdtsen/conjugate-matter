@@ -29,7 +29,7 @@ sources:
   - "popsci/universes-other-half.md 'A second speed of light'"
 ---
 
-*The invariant-length shell is the momentum polarization's counterpart of the mass shell. Every observer assigns an ordinary particle the same mass; #13, the paper on conjugate special relativity, proposes that every observer of the mirror polarization assigns a conjugate particle the same size, an irreducible length λ_χ, and obtains this by applying Born's exchange of position and momentum to the mass shell. Two consequences are drawn. A length times the maximum force is an energy, and at the Planck length it equals the Planck energy exactly, a result #13 calls closure at the self-dual point. And a fixed size in position fixes a width in momentum, as a short pulse fixes a broad spectrum; #13 identifies that width with the momentum scale of the dark-matter velocity gate, which makes the knee in dark-matter self-interaction a dual-relativistic invariant. The shell is alive but unreviewed: #13 tags it as derived, but no review round or script has checked it, and the checkpoint #11 does not mention it. Its description of dark-matter quanta by a length has not been reconciled with the checkpoint's ordinary treatment of them, which governs.*
+*The invariant-length shell is the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations)'s counterpart of the [mass shell](/wiki/conjugate-relativity/special-relativity). Every observer assigns an ordinary particle the same mass; [#13](/wiki/conjugate-relativity), the paper on conjugate special relativity, proposes that every observer of the mirror polarization assigns a conjugate particle the same size, an irreducible length λ_χ, and obtains this by applying [Born's exchange of position and momentum](/wiki/phase-space/reciprocity/born-reciprocity) to the mass shell. Two consequences are drawn. A length times the [maximum force](/wiki/conjugate-relativity/maximum-force) is an energy, and at the Planck length it equals the Planck energy exactly, a result #13 calls closure at the self-dual point. And a fixed size in position fixes a width in momentum, as a short pulse fixes a broad spectrum; #13 identifies that width with the momentum scale of the dark-matter [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), which makes the [knee in dark-matter self-interaction](/wiki/predictions/self-interaction-knee) a dual-relativistic invariant. The shell is alive but unreviewed: #13 tags it as derived, but no review round or script has checked it, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it. Its description of dark-matter quanta by a length has not been reconciled with the checkpoint's ordinary treatment of them, which governs by the wiki's order of precedence.*
 
 **Status:** Alive, unreviewed — the shell [D — structural], citing Born [3†, 4†]; Planck closure [D]; the gate-scale reading [D — structural] (all #13 §4). The tags are #13's own: no review round has covered #13, no `verify/` script checks the closure, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention any of it. The λ_χ description of conjugate quanta is unreconciled with #11 §8, which governs for the χ candidate.
 
@@ -101,7 +101,7 @@ The chain has four links:
 1. λ_χ is the conjugate quantum's invariant extent (the shell above).
 2. Its intrinsic momentum width is μ ~ ℏ/λ_χ, the reciprocal relation between widths.
 3. μ is the momentum scale of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). In #11 §8 the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) carries a gate F(k²/μ²) in the incoming relative momentum k, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]"; calc note #6 §4 identifies μ as "the χ quantum's own p-width" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
-4. The knee in the cross-section sits at the gate velocity v\* = √2 μ/m_χ, so it inherits the invariance of λ_χ ([Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee)).
+4. The knee in the cross-section sits at the gate velocity v\* = √2 μ/m_χ, so it inherits the invariance of λ_χ ([Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee)). The √2 depends on the gate convention; see flag 17 in `review/wiki-build-flags.md`, described below.
 
 The relation μ ~ ℏ/λ_χ appears only in #13, and #13 gives no value for λ_χ.
 
@@ -139,7 +139,7 @@ The popular article #12 ("A second speed of light") states the shell and the clo
 ## Basis of the status
 
 - `HANDOFF.md` §2 lists "invariant length λ, Planck closure E = l_P·c⁴/G = E_Planck" among the alive results, without the ✓ it uses for machine-verified items, and the root `CLAUDE.md` lists #13 as a current reference.
-- #13 has a single commit, the import of 2026-10-19, and no review round has covered it ([conjugate special relativity](/wiki/conjugate-relativity)).
+- #13 has not been revised since its import on 2026-10-19, and no review round has covered it ([conjugate special relativity](/wiki/conjugate-relativity)).
 - #11 v2.2 mentions neither the shell nor the closure.
 
 ## Sources

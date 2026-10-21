@@ -14,13 +14,13 @@ sources:
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*Momentum-space black holes are a conjecture from the program's original claude.ai conversation. Read in the momentum description, the program's mirror description in which momentum plays the part of position, a black hole's horizon would be the surface at which hovering in place requires the maximum force of conjugate special relativity; and there may be mirror objects, regions trapped in momentum rather than in space, which the handoff document calls velocity traps. The handoff records the idea among the results that exist only in the chat, at conjecture tier, together with "dual Hawking quanta" that would be huge in position space. The popular article #12 repeats part of it and adds that such a mirror object would look like compact dark matter. No document derives any of it, it appears in neither the checkpoint #11 nor the paper on conjugate special relativity #13, and it is not one of the program's dark-matter candidates. Its status is conjecture (chat-only).*
+*Momentum-space black holes are a conjecture from the program's original claude.ai conversation. Read in the momentum description, the program's mirror description in which momentum plays the part of position, a black hole's horizon would be the surface at which hovering in place requires the [maximum force](/wiki/conjugate-relativity/maximum-force) of conjugate special relativity; and there may be mirror objects, regions trapped in momentum rather than in space, which the [handoff document](/wiki/history/documents/handoff) calls velocity traps. The handoff records the idea among the results that exist only in the chat, at conjecture tier, together with "dual Hawking quanta" that would be huge in position space. The [popular article #12](/wiki/history/documents/popular-articles) repeats part of it and adds that such a mirror object would look like compact dark matter. No document derives any of it, it appears in neither the [checkpoint #11](/wiki/history/documents/checkpoint) nor the paper on conjugate special relativity [#13](/wiki/conjugate-relativity), and it is not one of the program's [dark-matter candidates](/wiki/dark-matter/candidates). Its status is conjecture (chat-only).*
 
 **Status:** Conjecture (chat-only), partly repeated in the popular article #12 — "Conjecture tier" in `HANDOFF.md` §4, which is not a house tag — no derivation in any artifact, no `verify/` script, not on the work queue. Listed in [Conjectures: chat-only and popsci-only claims](/wiki/status/conjectures).
 
 ## What the handoff records
 
-The [handoff document](/wiki/history/documents/handoff) was written to make the project self-sufficient outside the original conversation. Its §4, "Results that exist only in the chat (not in any artifact)" (the handoff sets "only" in capitals), gives this item one line. Its parts, verbatim:
+The [handoff document](/wiki/history/documents/handoff) was written to make the project self-sufficient outside the original conversation. Its §4, "Results that exist only in the chat (not in any artifact)" (the handoff sets "only" in capitals), gives this item one line. Its parts, with the quoted words verbatim and the handoff's "dual ledger" rendered as the momentum description:
 
 - "**Momentum-space black holes:** velocity traps";
 - our horizon, read in the momentum description, is a "max-force surface (hovering at horizon requires F → c⁴/G)";
@@ -36,11 +36,11 @@ In general relativity a black hole's event horizon bounds a region from which no
 
 ### Hawking radiation
 
-Quantum theory assigns a black hole a temperature, inversely proportional to its mass, and the thermal emission at that temperature is Hawking radiation (S. W. Hawking, 1974–75†). The typical wavelength of the emitted quanta is comparable to the size of the horizon [T]. The handoff gives no reasoning for its statement that the dual quanta are "position-space-huge".
+Quantum theory assigns a black hole a temperature, inversely proportional to its mass, and the thermal emission at that temperature is Hawking radiation (S. W. Hawking, 1974–75†). The typical wavelength of the emitted quanta is set by the size of the horizon, which it exceeds by a numerical factor [T]. The handoff gives no reasoning for its statement that the dual quanta are "position-space-huge".
 
 ## The force in the conjecture
 
-The force c⁴/G is the maximum force of [conjugate special relativity](/wiki/conjugate-relativity), #13's c̃, the bound on |dp/dt| set by the momentum-space light cone, evaluated with the Born length equal to the Planck length ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); [the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)). The conjecture in the general-relativity literature is c⁴/4G, and #13 records the difference: "The factor of 4 is not fixed here [O]" (§1; [maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures)). The handoff's line uses #13's value.
+The force c⁴/G is the maximum force of [conjugate special relativity](/wiki/conjugate-relativity), #13's c̃, the bound on |dp/dt| set by the momentum-space light cone, evaluated with the Born length equal to the Planck length ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); [the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)). The conjecture in the general-relativity literature is c⁴/4G (#13's reference [1]†), and #13 records the difference: "The factor of 4 is not fixed here [O]" (§1; [maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures)). The handoff's line uses #13's value.
 
 #13 itself mentions black holes only as the arena where forces approach c̃. Its §1 plain-language passage puts the maximum force at "about 10⁴⁴ newtons, the scale black holes reach when they collide"; its technical text cites "a companion maximum luminosity c⁵/4G approached by binary black-hole mergers" [1†]; and its §2 says a comparable-mass merger "operates at F ~ c̃ by construction", where any dual-kinematic corrections "would be order unity [O — flagged, not derived]" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). #13 says nothing about horizons, trapped regions in momentum or Hawking radiation.
 
@@ -50,7 +50,7 @@ The popular article #12 ("A second speed of light") restates the horizon reading
 
 > "Black holes then take on a second role. In the position description, a horizon bounds a region from which there is no spatial exit. In the momentum description, the same horizon is the surface where remaining stationary would require force beyond the limit. The framework also permits, though it has not yet constructed, the mirror-image object: a trapped region in momentum rather than position, from which no attainable force can extract a captive."
 
-The mirror object corresponds to the handoff's "velocity traps": a region bounded in momentum, as a black hole's interior is bounded in position. #12 says the framework "has not yet constructed" it. #12 does not mention the dual Hawking quanta. It presents the framework as if confirmed and is never a source for status ([the popular articles](/wiki/history/documents/popular-articles)).
+In the wiki's reading, the mirror object corresponds to the handoff's "velocity traps": a region bounded in momentum, as a black hole's interior is bounded in position. #12 says the framework "has not yet constructed" it. #12 does not mention the dual Hawking quanta. It presents the framework as if confirmed and is never a source for status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Popsci-only: the mirror object as compact dark matter
 
