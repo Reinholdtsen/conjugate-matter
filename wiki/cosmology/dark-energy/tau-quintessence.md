@@ -67,7 +67,7 @@ Under the program's postulates the vacuum selects a polarization, a division of 
 
 ### Why τ needs the corrected postulate
 
-The field exists only because the program's postulate on rigid structures was corrected. Under the original P2, with both the symplectic form ω and the neutral metric η rigid, the notebook's v0.3 addendum records that "strict P2 makes the polarization choice discrete, eliminating the Lagrangian Grassmannian, the Maslov circle, and hence the entire τ/dark-energy sector". (The word "discrete" is flagged as a suspected error in the source: for d ≥ 2 the doubly compatible polarizations form continuous families, though the conclusion that there is no Maslov circle survives; `review/wiki-build-flags.md` item 1.) Calc note #5 named the rigid branch: "BBT reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (§B), BBT being the Broken-Born theory, GR general relativity and SIDM self-interacting dark matter. Under [P2′](/wiki/program/postulates/p2-prime), only ω is rigid, and "The Grassmannian, the Maslov circle, and τ are restored" (#1 'Addendum (v0.3)'). The argument is on [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem).
+The field exists only because the program's postulate on rigid structures was corrected. Under the original P2, with both the symplectic form ω and the neutral metric η rigid, the notebook's v0.3 addendum records that "strict P2 makes the polarization choice discrete, eliminating the Lagrangian Grassmannian, the Maslov circle, and hence the entire τ/dark-energy sector". (The word "discrete" is flagged as a suspected error in the source: for d ≥ 2 the doubly compatible polarizations form continuous families, though the conclusion that there is no Maslov circle survives; `review/wiki-build-flags.md` item 1.) [Calc note #5](/wiki/history/documents/debt-1-notes) named the rigid branch: "BBT reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (§B), BBT being the Broken-Born theory, GR general relativity and SIDM self-interacting dark matter. Under [P2′](/wiki/program/postulates/p2-prime), only ω is rigid, and "The Grassmannian, the Maslov circle, and τ are restored" (#1 'Addendum (v0.3)'). The argument is on [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem).
 
 ## The action and its potential
 
@@ -86,7 +86,7 @@ The kinetic term is the standard one, which is why τ obeys the null energy cond
 
 ### Why a cosine
 
-The topology fixes only the period: V must be unchanged under τ → τ + 2πf. In this wiki's reading, any such function can be written as a Fourier series in τ/f, and V₀[1 + cos(τ/f)] keeps the constant term and the first harmonic, the standard form for an axion-like field [T]. The documents do not discuss higher harmonics or the size of the constant term. The constant term matters, because it decides whether V can be negative: as written, V ≥ 0 whenever V₀ > 0, which conflicts with the program's turnaround ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+The topology fixes only the period: V must be unchanged under τ → τ + 2πf. In this wiki's reading, any such function can be written as a Fourier series in τ/f, and V₀[1 + cos(τ/f)] keeps the constant term and the first harmonic, the standard form for an axion-like field [T]. The documents do not discuss higher harmonics or the size of the constant term. As written, V ≥ 0 whenever V₀ > 0, while the program's turnaround needs V < 0; the documents do not reconcile the two ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
 
 ### Its magnitude
 
@@ -116,7 +116,7 @@ The scope is limited. The identity "does **not** by itself address matter-loop v
 
 ## The fits [S]
 
-#11 §10 summarizes the state of the data before DR2's crossing was taken into account: "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ) and high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The two fits are Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542 [19S], and Ureña-López et al. (DESI), an axion-quintessence analysis of DESI data, arXiv:2503.20178 [20S]. The lab notebook says that "Hilltop/axion potentials of exactly this class have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2), DR1 being Data Release 1. The fits concern the class of models, not the program's identification of the field.
+#11 §10 summarizes the fits in a sentence written for v2.0 and kept unchanged since: "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ) and high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The two fits are Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542 [19S], and Ureña-López et al. (DESI), an axion-quintessence analysis of DESI data, arXiv:2503.20178 [20S]. The lab notebook says that "Hilltop/axion potentials of exactly this class have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2), DR1 being Data Release 1. The fits concern the class of models, not the program's identification of the field.
 
 ## Under pressure from DESI DR2
 
@@ -162,7 +162,7 @@ The worklog's chunk 3 states what this means for the program: "In 3+1, the progr
 ## History
 
 - **v0.1, the lab notebook (September 2026).** #1 §3 writes the action and potential; §4 argues fifth-force safety; §7 identifies dark energy with τ (thawing, w ≥ −1, the turnaround, the over-constraint); §9 row 5 sets the test against DESI DR3; the §12 summary calls τ "a dark energy field that is literally the Maslov angle of the vacuum, forced by topology to a periodic potential, hence thawing, never phantom, and destined to go negative".
-- **v0.2.** After Debt 3, the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
+- **v0.2.** After [Debt 3](/wiki/history/debts), the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
 - **v0.3.** Strict P2 is found to erase τ, and P2′ restores it (above).
 - **Debt 1.** Calc note #8 shows that the momentum graviton's sector adds no vacuum energy, "leaving dark energy entirely to τ as the cosmology chapter had assumed" (#1 'Addendum (v0.6)'), and that τ is not absorbed by X at leading order (§3).
 - **v1 (#9 §8).** The sector as a numbered section, with "V₀ fixed by Ω_DE" and the fits marked "[T — refresh citations before publication]".
