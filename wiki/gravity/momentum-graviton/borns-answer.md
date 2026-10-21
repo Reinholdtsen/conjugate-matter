@@ -80,7 +80,7 @@ The answer is the end of the four Debt-1 calc notes, written in sequence:
 1. **Calc note #5** proved the compatibility theorem, found that freezing both ω and η leaves no independent momentum-space geometry, repaired the postulates to [P2′](/wiki/program/postulates/p2-prime), and identified Re Z = X as "the momentum graviton" (§A–§C).
 2. **Calc note #6** classified X: shift-symmetric and so never auxiliary, a second graviton under dual diffeomorphisms, excluded as massless by the [multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go), and made massive by the polarization choice. Its verdict: "*massive spin-2, conditionally healthy*" (§5).
 3. **Calc note #7** ran the tuning test: potentials built from the metric fail the Fierz–Pauli test, and frame-tier potentials pass. The result is "Hassan–Rosen bimetric gravity with the second frame constrained to a compact moduli space Λ(d)" (§4).
-4. **Calc note #8** applied reciprocity to that potential: the palindrome, the identity V(1) = 2T, the reduction to two parameters, the parities, and "§4. Debt 1: the answer to Born".
+4. **Calc note #8** applied reciprocity to that potential: the palindrome, the identity V(1) = 2T, the reduction to two parameters, the parities, and its §4, "Debt 1: the answer to Born".
 
 Calc note #7 §5 read the sequence as "Repeated forced convergence onto consistency islands", counting three structural tests; #11 §15 counts four and lists "forced convergence onto consistency islands" among the program's "Progressive signs" ([Assessment](/wiki/program/assessment)).
 
