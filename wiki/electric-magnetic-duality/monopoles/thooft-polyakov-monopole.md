@@ -16,13 +16,14 @@ sources:
   - "review/round3/referee/step2b.out"
   - "review/round3/referee/step2b_inf.out (L = 30, 40, 60)"
   - "review/round3/referee/step2a.out 'MONOPOLE MASS RELATION'"
+  - "review/round3/referee/step2a.py (f_inf)"
   - "review/v3-worklog.md 'Round-2 pending list'"
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "verify/soliton_obituary.py (docstring)"
   - "papers/broken-born-checkpoint-v2.md §12"
 ---
 
-*The 't Hooft–Polyakov monopole is a stable, particle-like configuration of fields in a gauge theory whose SU(2) symmetry is broken to U(1) by a Higgs field in the adjoint representation; far from its core it looks like a magnetic monopole of the surviving U(1). It cannot decay, because its Higgs field winds once around the space of possible vacua, a sphere, and no smooth change of the fields can undo the winding. Its mass is the symmetry-breaking scale v times 4π/g_d, with g_d the gauge coupling, times a factor f between 1 and about 1.79 set by the strength of the Higgs field's self-interaction. In the program it was the object of the withdrawn manuscript #14, which proposed superheavy monopoles of this kind as dark matter; that proposal is retired, and the physics on this page is textbook.*
+*The 't Hooft–Polyakov monopole is a stable, particle-like configuration of fields in a gauge theory whose SU(2) symmetry is broken to U(1) by a Higgs field in the adjoint representation; far from its core it looks like a magnetic monopole of the surviving U(1). It cannot decay, because its Higgs field winds once around the space of possible vacua, a sphere, and no smooth change of the fields can undo the winding. Its mass is the symmetry-breaking scale v times 4π/g_d, with g_d the gauge coupling, times a factor f between 1 and about 1.79 set by the strength of the Higgs field's self-interaction relative to the gauge coupling. In the program it was the object of the withdrawn manuscript #14, which proposed superheavy monopoles of this kind as dark matter; that proposal is retired, and the physics on this page is textbook.*
 
 **Status:** Established — [T] — textbook physics, cited in the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate) without provenance tags as [15] ('t Hooft 1974; Polyakov 1974) and [16] (Prasad–Sommerfield 1975; Bogomolny 1976). [The round-3 audit](/wiki/method/review/round-3/rulings) found that both references resolve and support their use, except that the value f ≈ 1.79 is not in [16]; the referee confirmed that value by solving the field equations itself (`review/round3/referee/step2b_inf.out`). The use of this monopole as dark matter is dead ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
@@ -112,7 +113,7 @@ L= 40.0 ... E(0..L)=1.77316  +tail 1/(2L)=0.01250 -> f_inf=1.7857
 L= 60.0 ... E(0..L)=1.77734  +tail 1/(2L)=0.00833 -> f_inf=1.7857
 ```
 
-(The middle of each line, the solver's status message, is elided.) The referee's next script adds 10⁻³ for the innermost interval, which the run starts at ξ = 10⁻³: "f_inf = 1.7867   # step2b_inf.py: 1.7857 on [1e-3,L] + 1e-3 from [0,1e-3] (K~1-a xi^2)" (`review/round3/referee/step2a.py`). The audit's table lists 1.7867 as the referee's value, from its own boundary-value solver, and marks #14's value of about 1.79 as confirmed. It judges the range "f in [1, 1.79] - correct physical range (BPS to lambda->inf)" (Step 2).
+(The middle of each line, the solver's status message, is elided.) The run starts at ξ = 10⁻³, and the referee's `step2a.py` adds 10⁻³ for the interval from 0 to 10⁻³ that it omits: "f_inf = 1.7867   # step2b_inf.py: 1.7857 on [1e-3,L] + 1e-3 from [0,1e-3] (K~1-a xi^2)" (`review/round3/referee/step2a.py`). The audit's table lists 1.7867 as the referee's value, from its own boundary-value solver, and marks #14's value of about 1.79 as confirmed. It judges the range "f in [1, 1.79] - correct physical range (BPS to lambda->inf)" (Step 2).
 
 ### The order of magnitude
 
