@@ -35,7 +35,7 @@ sources:
 
 ## The finding
 
-The toy-model worklog states the result in its second chunk, after both models had been built:
+The worklog of the [toy models](/wiki/symmetry-breaking/toy-models) states the result in its second chunk, after both models had been built; ρ is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), (x, p) → (p, −x):
 
 > **The structural finding, common to both toys.**
 > - At the self-dual point, Born reciprocity is never the whole symmetry. It is one element of a continuous U(1):
@@ -54,7 +54,7 @@ A Goldstone direction is a direction along the family of equivalent vacua, along
 
 ## Model I: the rotations that keep H fixed
 
-The coset sigma model ([model I](/wiki/symmetry-breaking/toy-models/coset-model)) has two fields on a 1+1-dimensional base, a phase-space metric H and a real structure K, and its action is invariant under the whole symplectic group Sp(2, ℝ) (toy-model note §2). On H, ρ acts as the inversion Z → −1/Z of the upper half-plane, whose fixed point Z = i is H = 1 (`verify/toy_coset.py`). The symplectic maps that keep H = 1 fixed are the rotations of the phase plane, the group SO(2) ≅ U(1) [T]; in the gate's stabilizer computation, keeping H = 1 fixed is the condition SᵀS = 1, together with det S = 1. ρ = [[0, 1], [−1, 0]] is the quarter turn in this group. This is the worklog's "U(1) stabilizer of H that rotates K".
+The coset sigma model ([model I](/wiki/symmetry-breaking/toy-models/coset-model)) has two fields on a 1+1-dimensional base, a phase-space metric H and a real structure K, and its action is invariant under the whole symplectic group Sp(2, ℝ) (toy-model note §2). On H, ρ acts as the inversion Z → −1/Z of the upper half-plane ([reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)), whose fixed point Z = i is H = 1 (`verify/toy_coset.py`). The symplectic maps that keep H = 1 fixed are the rotations of the phase plane, the group SO(2) ≅ U(1) [T]; in the gate's stabilizer computation, keeping H = 1 fixed is the condition SᵀS = 1, together with det S = 1. ρ = [[0, 1], [−1, 0]] is the quarter turn in this group. This is the worklog's "U(1) stabilizer of H that rotates K".
 
 The vacua at H = 1 form a circle on which the potential vanishes:
 

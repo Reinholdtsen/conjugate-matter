@@ -145,7 +145,7 @@ The documents give the name to different operators, and none reconciles them:
 - The toy-model note names K: "η = ωK (K a real structure, K² = 1)" (Abstract), with Kᵀ ω K = −ω (§1); #11 §14 item 11 follows it with "η = ωK is the order parameter".
 - The notebook's v0.1 calls J = η⁻¹H the order parameter (#1 §2).
 
-In #11 §5's algebra both J and K square to +1, so each is a real structure in the sense above; the documents differ in which one they name as the structure the vacuum chooses. This page uses the toy-model note's K; [Born structures](/wiki/phase-space/born-geometry/born-structures) uses #11 §5's definitions. The conflict is listed among the unresolved ones on [conflicts between sources](/wiki/history/documents/source-conflicts), and both conventions are on [notation](/wiki/notation).
+In #11 §5's algebra both J and K square to +1, so each is a real structure in the sense above; the documents differ in which one they name as the structure chosen spontaneously. This page uses the toy-model note's K; [Born structures](/wiki/phase-space/born-geometry/born-structures) uses #11 §5's definitions. The conflict is listed among the unresolved ones on [conflicts between sources](/wiki/history/documents/source-conflicts), and both conventions are on [notation](/wiki/notation).
 
 ## Sources
 
