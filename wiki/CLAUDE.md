@@ -292,6 +292,21 @@ Delete it when the build is complete.
   278 entries.
 - **2026-10-21.** Breadth pass committed (`7b9438b`): all 278 pages, averaging about 800
   words each. Starred symbols escaped; the gate now checks them.
+- **2026-10-21, depth wave 1.** `program/` and `phase-space/` are at full depth: 52 files,
+  committed page by page. The verifiers checked 1,882 claims and fixed 104 of 107 findings.
+  Two suspected errors in the source documents themselves are quoted faithfully and await
+  Paul's ruling:
+  - #5 §B and #11 §5 call the η-null Lagrangian polarizations "discrete"; for d ≥ 2 they
+    form Grassmannian families, though the conclusion (no Maslov circle) survives;
+  - toy note §5 calls I "odd in K", but I ≥ 0, so it is only not invariant under K → −K.
+- **Depth waves still to run** (as of wave 1):
+  - `symmetry-breaking/` and `gravity/`;
+  - `dark-matter/`;
+  - `cosmology/` and `electric-magnetic-duality/`;
+  - `conjugate-relativity/` and `predictions/`;
+  - `method/` and `history/`;
+  - then the registers (home, `status/`, glossary, notation, references), link density,
+    and a completeness check against the inventories.
 - **Plan.**
   1. Breadth pass: every page at gist level (italic gist, Status line, Key facts,
      Sources), in one commit.
