@@ -66,7 +66,7 @@ The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) puts 
 
 > (a) Pure gravity. Kinetic mixing vanishes to all perturbative orders if hidden charge conjugation is an exact symmetry. If it is broken, gravity can induce mixing, but only at six loops or more, giving epsilon <~ 1e-13 [9].
 
-Charge conjugation C reverses the sign of a U(1) gauge field [T]. The mixing term contains one field strength from each sector, so it changes sign under charge conjugation of either sector alone. If the visible and hidden sectors are each separately invariant under their own C, no process can generate the term. The paper (#11's [27S], #14's [9]), as the round-3 referee quotes it (Step 1):
+Charge conjugation C reverses the sign of a U(1) gauge field [T]. The mixing term contains one field strength from each sector, so it changes sign under charge conjugation of the hidden sector alone; if that operation is an exact symmetry, no process can generate the term [T]. This is the condition #14 and #11 state, "if hidden charge conjugation is exact". The paper (#11's [27S], #14's [9]), as the round-3 referee quotes it (Step 1):
 
 - p. 5: "If C_A and C_X are separately good symmetries ..., then kinetic mixing cannot be induced at any perturbative order";
 - abstract: "kinetic mixing through gravity alone, requires at least six loops and could be as large as ~1e-13", conditional, in the referee's reading, "on C_X breaking and O(1) hidden Yukawa".
