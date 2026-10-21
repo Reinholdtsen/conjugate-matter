@@ -77,3 +77,5 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     e^{−k²/μ²} with k the relative momentum. With p₁ − p₂ = 2k these differ by √2 in μ, so with
     #6's fiber width the knee sits at v\* = μ/m_χ rather than #1's v\* ≡ √2μ/m_χ; #13 §4 mixes
     the two. No stated number changes. Check: `review/wiki-build-checks/gate_conventions.py`.
+18. **Minor date (#1 §8): baryogenesis reached "maturity … in 1966".** Sakharov's conditions are
+    usually dated 1967 (model memory, †, unchecked). Inventory conflict C54.
