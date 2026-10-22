@@ -107,7 +107,7 @@ The note presents the step as forced, under the name "Program-nontriviality theo
 
 ## Sources
 
-- `notes/broken-born-theory.md` §1 — the statement and its "triple duty"; §2 — the ℤ₄ → ℤ₂ breaking pattern; §3 — the potential attributed to the rigid ω, and the action with ω, η frozen; §4 — ghost accounting; §6 — the constraint from the rigidity of ω; §11 — Debt 1 as open problem 1
+- `notes/broken-born-theory.md` §1 — the statement and its "triple duty"; §2 — the ℤ₄ → ℤ₂ breaking pattern; §3 — the potential attributed to the rigid ω, and the action with ω, η frozen; §4 — 'Ghost accounting'; §6 — the constraint from the rigidity of ω; §11 — Debt 1 as open problem 1
 - `notes/broken-born-theory.md` 'Addendum (v0.3)' — the replacement; 'Addendum (v0.4)' — X as a second graviton, made massive
 - `notes/debt1a-geometric-core.md` §A — the compatibility theorem and its corollaries; §B — the inconsistency, Branch R, the repair and the nontriviality theorem; §E — the gate as X exchange; §F — the potential's origin under P2′ as an open item
 - `papers/broken-born-checkpoint-v2.md` §4–§5 — the current record of the forced correction and the theorem's attribution; §7.2 — frame-tier ghost freedom; §10 — the constraint from ω-rigidity and DESI's second data release; §13 row 9 — the remaining reliance on ρ²

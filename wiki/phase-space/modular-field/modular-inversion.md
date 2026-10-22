@@ -99,8 +99,8 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 
 ## History
 
-- **Lab notebook, v0.3 addendum.** The modular field arrives with "Born reciprocity = Z → −Z⁻¹ with self-dual point Z = i, and the cosmological constraint a·ã = 1 as the |Z| = 1 locus" ([the lab notebook](/wiki/history/documents/lab-notebook)).
-- **Calc note #5** gives the derivation (§C) and lists "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among the night's results (§F).
+- **Lab notebook, v0.3 addendum.** The modular field arrives with "Born reciprocity = Z → −Z⁻¹ with self-dual point Z = i, and the cosmological constraint a·ã = 1 as the |Z| = 1 locus" ([the lab notebook](/wiki/history/documents/lab-notebook); see flag 23 in `review/wiki-build-flags.md`).
+- **Calc note #5** gives the derivation (§C) and lists "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among the night's results (§F; see flag 23 in `review/wiki-build-flags.md`).
 - **#9 §4**: "Reciprocity = Z → −Z⁻¹ (Möbius action; d = 1 matrix check), fixed point Z = i. At X = 0 it sends g → g⁻¹: scale-factor duality."
 - **#11 §6** is the current statement.
 - **The toy model** (2026-10-19) put the d = 1 case into the gate through `verify/toy_coset.py`.
