@@ -120,6 +120,7 @@ Added by the wiki from model memory (†):
 - [The frame tier: the symplectic vielbein](/wiki/gravity/tuning-test/frame-tier) — the passing potential, in frame form.
 - [The verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass) — the frame-tier potential lands in the ghost-free family.
 - [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric) — the program's truncation of the theory.
+- [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction) — the potential to be derived must lie in the Hassan–Rosen class.
 - [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — reciprocity acting through the exchange identity.
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — the potential evaluated at the aligned point.
 - [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the interchange-symmetric literature.
@@ -130,6 +131,7 @@ Added by the wiki from model memory (†):
 - [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton) — the even eigenstate.
 - [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) — X's dynamics as the reciprocity-symmetric branch.
 - [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — X's dynamics are this theory with the second frame confined.
+- [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the dressing rests on the same Fierz–Pauli and Hassan–Rosen structure as the chain (#6 §3).
 - [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — the candidate field is governed by this theory on the palindromic branch.
 
 ## Sources

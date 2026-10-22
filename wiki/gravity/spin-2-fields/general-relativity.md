@@ -150,6 +150,7 @@ The program's documents cite no source for general relativity itself. Added by t
 - [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) — a mass breaks the graviton's linearized diffeomorphisms, which the Stückelberg fields restore.
 - [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) — the massless graviton is the reciprocity-even combination.
 - [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton) — the observational test of that statement.
+- [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion) — general relativity's expectation, no dispersion, is the row's standard.
 - [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — both matter sectors couple universally to H.
 - [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — Im Z is the spacetime metric.
 - [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — with η rigid the program reduces to general relativity plus one dark-matter model.

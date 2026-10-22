@@ -118,6 +118,7 @@ A pass did not yet fix the potential's coefficients: "What a pass does **not** y
 - [The verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass) — the theory passes iff written in first-order variables.
 - [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction) — the class was selected, not derived.
 - [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric) — the second frame confined to the compact space Λ(d).
+- [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — the mixing would arise through the wedge potential of the two frames.
 - [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — reciprocity acting on the wedge sector as frame exchange.
 
 ## Sources

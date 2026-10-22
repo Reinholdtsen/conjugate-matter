@@ -166,6 +166,7 @@ The checkpoint states the metric-tier failure as "nonlinear structure Tr(g²) + 
 
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — eₙ(1) = C(4, n) and the tadpole coefficients (T6).
 - [The metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures) — p₄ lies outside the span of the eₙ (T7).
+- [The verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass) — T7 is one of the three checks of the metric half.
 - [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — inversion reverses the order of the eₙ.
 - [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) — eₙ(1) = C(4, n) and the linear coefficients in the parameter count.
 - [The frame tier: the symplectic vielbein](/wiki/gravity/tuning-test/frame-tier) — the wedge polynomials reproduce the eₙ terms of the metric potential.
