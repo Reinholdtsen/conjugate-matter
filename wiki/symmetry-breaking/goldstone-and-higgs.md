@@ -27,7 +27,7 @@ sources:
 
 *A Goldstone mode is a massless excitation that appears when a continuous symmetry of the laws is broken by the ground state. Moving along the family of equally good ground states costs no energy, so a slow, long-wavelength wave of that motion costs arbitrarily little, and the particle it describes has no mass. If a small explicit term tilts the family, the mode acquires a small mass and is called a pseudo-Goldstone mode. When the broken symmetry is a gauge symmetry, the Higgs mechanism applies instead: the gauge field absorbs the would-be Goldstone modes as extra polarizations and becomes massive. The program uses all three ideas. In its coset toy model the polarization angle is a Goldstone direction, which an added potential turns into a pseudo-Goldstone mode, and its momentum graviton X gets its mass from a gravitational version of the Higgs mechanism.*
 
-**Status:** Established — [T] — textbook field theory, explained here from general knowledge; the program's applications are the Hessian count of the coset toy model [V] (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) and the Debt-1 derivation of X's mass, tagged [D + T] in #11 §7.1 and "[D — structural]" in its calc note.
+**Status:** Established — [T] — textbook field theory, explained here from general knowledge; the program's applications are the Hessian count of the coset toy model [V] (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) and the [Debt-1](/wiki/history/debts) derivation of X's mass, tagged [D + T] in [#11](/wiki/history/documents/checkpoint) §7.1 and "[D — structural]" in its calc note.
 
 ## Goldstone's theorem
 
@@ -47,7 +47,7 @@ flat directions      = number of fields − rank of M²
 Goldstone directions = dim G − dim G₀  (each one flat)
 ```
 
-Every broken generator moves the vacuum along the vacuum manifold, so each gives a null direction of the Hessian [T]. The converse fails. A null direction that does not come from a broken symmetry is accidental, and nothing guarantees that it survives higher-order terms or quantum corrections [T]. The individual eigenvalues also depend on how the fields are parametrized; at a critical point the rank and the number of negative eigenvalues do not (Sylvester's law of inertia) [T]. The toy-model record shows both facts. For the same saddle of model I with its first, unbounded potential, the round-4 referee reports the negative eigenvalue −3.3723 (`review/round4/referee/audit-notes.md`, Step 2(a)) and the adjudication −6.47, "in my coordinates" (`review/round4-adjudication.md`, F2); the values differ, and both are negative.
+Every broken generator moves the vacuum along the vacuum manifold, so each gives a null direction of the Hessian [T]. The converse fails. A null direction that does not come from a broken symmetry is accidental, and nothing guarantees that it survives higher-order terms or quantum corrections [T]. The individual eigenvalues also depend on how the fields are parametrized; at a critical point the rank and the number of negative eigenvalues do not (Sylvester's law of inertia) [T]. The toy-model record shows both facts. For the same saddle of model I with its first, unbounded potential ([the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), now dead), the [round-4](/wiki/method/review/round-4) referee reports the negative eigenvalue −3.3723 (`review/round4/referee/audit-notes.md`, Step 2(a)) and the adjudication −6.47, "in my coordinates" (`review/round4-adjudication.md`, F2); the values differ, and both are negative.
 
 ## The count in model I
 
@@ -57,7 +57,7 @@ The program's coset toy model ([model I](/wiki/symmetry-breaking/toy-models/cose
 L = (f_H²/8) Tr(H⁻¹∂H H⁻¹∂H) + (f_K²/4) Tr(H⁻¹ ∂Kᵀ H ∂K) + (λ/8) Tr(H⁻¹ Cᵀ H C),   C = KI + IK
 ```
 
-where I ≡ ω⁻¹H. "The potential vanishes exactly when K is compatible with H" (toy-model note §2), and at H = 1 the gate checks that it is a sum of squares (`verify/toy_coset.py`). The compatible pairs, the vacua, form "the upper half-plane times a circle of K's, a 3-dimensional space" (worklog, 'Chunk 1 results'). The fields span four directions, two for H and two for K, whose target is "two-dimensional de Sitter space" (toy-model note §2). So at a vacuum the potential is flat along three directions and curves upward in one. The gate's spectrum section is headed "4 fields, 3-dim vacuum manifold", and its check reads:
+where I ≡ ω⁻¹H. "The potential vanishes exactly when K is compatible with H" (toy-model note §2), and at H = 1 [the gate](/wiki/method/verification/the-gate) checks that it is a sum of squares (`verify/toy_coset.py`). The compatible pairs, the vacua, form "the upper half-plane times a circle of K's, a 3-dimensional space" (worklog, 'Chunk 1 results'). The fields span four directions, two for H and two for K, whose target is "two-dimensional de Sitter space" (toy-model note §2). So at a vacuum the potential is flat along three directions and curves upward in one. The gate's spectrum section is headed "4 fields, 3-dim vacuum manifold", and its check reads:
 
 ```text
 PASS  potential Hessian has rank 1: three flat directions (Goldstones), one massive  [[0, 4, 0, 0]]
@@ -65,7 +65,7 @@ PASS  potential Hessian has rank 1: three flat directions (Goldstones), one mass
 
 The note states the result: "The potential's Hessian has rank 1 at the vacuum. That leaves three Goldstone directions: the two non-compact half-plane directions, and the compact angle φ, which parametrizes the Lagrangian Grassmannian Λ(1)." (toy-model note §2). [The Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) is the space of possible position subspaces, a circle when d = 1. The worklog marks the result "Spectrum [V]" and identifies the compact direction: "The compact Goldstone is the rotation of K at fixed H: the Lagrangian Grassmannian Λ(1), which is the checkpoint's Maslov circle (the τ field of §10)." ('Chunk 1 results'). The round-4 referee, in other coordinates, found "rank 1, eigenvalues {3:1, 0:3} -> 3 flat directions" (audit notes, Step 2(a)): a different nonzero eigenvalue, the same rank.
 
-Here every flat direction is a Goldstone direction. The stabilizer of a vacuum in Sp(2, ℝ) is the discrete group {±1} (toy-model note §2), so the number of broken directions equals the dimension of the vacuum manifold. Their characters differ:
+Here every flat direction is a Goldstone direction. The stabilizer of a vacuum in [Sp(2, ℝ)](/wiki/phase-space/reciprocity/symplectic-form) is the discrete group {±1} (toy-model note §2), so the number of broken directions equals the dimension of the vacuum manifold. Their characters differ:
 
 - **The compact angle φ** is the program's [polarization angle](/wiki/symmetry-breaking/goldstone-angle). At H = 1 its kinetic term is "(f_K²/4) Tr(dKᵀ dK) = (f_K²/2)(dφ)²", "an XY stiffness" (`verify/toy_s4.py`, docstring). In 1+1 dimensions this compact mode cannot order ([the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)).
 - **The two half-plane directions** belong to the H-sector, which round 4 identified as "a hyperbolic SO(1,2) model" that can break even in two dimensions (`review/round4-adjudication.md`, "Mermin–Wagner vs [11]"; [coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models)).
@@ -79,11 +79,11 @@ A small explicit breaking of the symmetry tilts the vacuum manifold [T]. The wou
 The program meets the idea twice:
 
 - **The polarization angle with a ρ-preserving potential.** To make the polarization definite, model I adds a potential that keeps ρ and reduces the continuous rotation of K to a discrete group. In its bounded form, at H = 1, "V_b = −(μ/2)(1 + cos 2φ)" (toy-model note §4), with its minima at the two vacua ±K_ref. The worklog draws the conclusion: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). See [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
-- **The dark-energy field τ.** The lab notebook: "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa to SM matter, safe from torsion-balance bounds despite being ultralight. [D]" (#1 §4), where SM is the Standard Model. See [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
+- **The dark-energy field τ.** [The lab notebook](/wiki/history/documents/lab-notebook): "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa to SM matter, safe from torsion-balance bounds despite being ultralight. [D]" (#1 §4), where SM is the Standard Model. See [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
 
 ### A zero mode that no symmetry protects
 
-With V_b and H dynamical, the reference vacuum is "a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236" (toy-model note §4; `verify/toy_coset.py`). The zero is the accidental kind described above: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication worded it differently, as "the residual diagonal squeeze, which is an exact symmetry" (F2). The note v2 outranks the adjudication, and the wiki follows the note ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential); [conflicts between sources](/wiki/history/documents/source-conflicts)).
+With V_b and H dynamical, the reference vacuum is "a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236" (toy-model note §4; `verify/toy_coset.py`). The zero is the accidental kind described above: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication worded it differently, as "the residual diagonal squeeze, which is an exact symmetry" (F2). The note v2 outranks the adjudication, and the wiki follows the note ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential); [conflicts between sources](/wiki/history/documents/source-conflicts#postulates-and-the-toy-models); see flag 12 in `review/wiki-build-flags.md`).
 
 ## The Higgs mechanism
 
@@ -109,7 +109,7 @@ In the Standard Model a fermion gets its mass from a Yukawa coupling to the Higg
 
 The program's [momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z), gets its mass by this mechanism, with linearized diffeomorphisms in place of an internal gauge symmetry. #11 §7.1 gives the chain [D + T]:
 
-1. "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary." Constant shifts of X are exact symmetries, so "X has no potential and no non-derivative couplings from the geometric sector alone" (calc note #6 §1), and "The mass cannot be written by hand (shift symmetry) — but it doesn't need to be." (#6 §3; [the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
+1. "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary." Constant shifts of X are exact symmetries, so "X has no potential and no non-derivative couplings from the geometric sector alone" (calc note [#6](/wiki/history/documents/debt-1-notes) §1), and "The mass cannot be written by hand (shift symmetry) — but it doesn't need to be." (#6 §3; [the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
 2. "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric*". Massless, X would be a second graviton, which "is excluded by the multi-graviton no-go [8†]" ([the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go)); without the gauge symmetry, it is excluded "by Lorentz signature" (#11 §7.1; [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms); [the forcing chain](/wiki/gravity/momentum-graviton/forcing-chain)).
 3. "The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale."
 
@@ -117,7 +117,7 @@ The calc note gives the step in Higgs-mechanism terms, tagged "[D — structural
 
 Two consequences in the record:
 
-- **What is eaten.** The later calc note words it differently: "the Higgsing of the dual diffeomorphisms eats the vector π_μ and the *longitudinal scalar of the λ-gradient sector*" (#8 §3). The sources do not reconcile the two wordings, and #11 §7.1 follows the first ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+- **What is eaten.** The later calc note words it differently: "the Higgsing of the dual diffeomorphisms eats the vector π_μ and the *longitudinal scalar of the λ-gradient sector*" (#8 §3). The sources do not reconcile the two wordings, and #11 §7.1 follows the first ([conflicts between sources](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)).
 - **τ is not eaten.** #6 already set the dark-energy field apart: "The Λ(d) moduli, τ included, are not the eaten modes — they carry the compact phase directions, which constant shifts do not generate; verifying τ survives un-eaten is flagged [O]." (#6 §3). #8 settled it to leading order: "τ is not eaten [D — leading order]: … τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field. (Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness.)" (#8 §3). #11 §7.5: "τ un-eaten (compact J-sector, not the Stückelberg sector)". The residual mixing is open problem 6, "τ–Stückelberg mixing matrix [O]" (#11 §14). See [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) and [Open: τ–Stückelberg mixing](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).
 
 A massive X also has a finite range. #11 §7.5 gives its couplings to ordinary matter as of gravitational strength and "Yukawa-cut at 1/M_X", the range of a massive mediator ([fifth-force safety of X](/wiki/gravity/momentum-graviton/fifth-force-safety)).
@@ -140,14 +140,24 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 
 ## Used by
 
+- [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — the v2.2 refinement: the polarization is a Goldstone angle.
 - [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) — the vacuum's polarization as a flat direction.
+- [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the potential that turns the angle into a pseudo-Goldstone mode.
 - [Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua) — three Goldstone directions from a rank-1 Hessian.
 - [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) — the pseudo-Goldstone angle and the unprotected zero mode.
+- [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua) — the relative phase β as a flat direction.
 - [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) — the Yukawa analogy: masses from a Higgs vacuum value.
+- [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — the weak form of locality as the Yukawa analogy, the strong form open.
+- [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — locality beyond the weak (Yukawa-like) form as an open part.
+- [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria) — criterion S5 written as the analogue of Yukawa-generated masses.
+- [Dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) — the would-be Goldstones become extra polarizations of X.
+- [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) — the last link of the chain: X absorbs the would-be Goldstone modes.
+- [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — mass, from the broken dual diffeomorphisms, as the only exit.
 - [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) — X becomes massive by absorbing the Goldstones of the broken dual diffeomorphisms.
 - [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) — τ survives as the light field.
 - [Open: τ–Stückelberg mixing](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — residual mixing with the eaten modes.
-- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the inverse-Higgs accounting of the nine heavy moduli.
+- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the nine heavy moduli, of which inverse-Higgs constraints "likely eliminate most".
+- [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) — the Maslov phase as a (pseudo-)Goldstone mode of the vacuum.
 - [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force) — τ as a derivatively coupled (pseudo-)Goldstone.
 
 ## Sources
@@ -156,7 +166,7 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 - `papers/reciprocity-toy-models.md` §2 — model I's Lagrangian, rank-1 Hessian and three Goldstone directions; §4 — V_b at H = 1, its Hessian with H dynamical and its unprotected zero mode; §5 — the Yukawa analogy
 - `notes/debt1a-ii-X-classification.md` §1 — X has no potential from geometry; §3 — the gravitational Higgs mechanism, mass M_X, τ not among the eaten modes [D — structural]
 - `notes/debt1a-iv-beta-coefficients.md` §3 — what is eaten; τ not eaten at leading order
-- `notes/debt1a-geometric-core.md` §D — the Λ(d) σ-modes and inverse-Higgs constraints [O]; §F — the inverse-Higgs accounting as open
+- `notes/debt1a-geometric-core.md` §D — the Λ(d) σ-modes and inverse-Higgs constraints [O]; §F — "inverse-Higgs accounting of the nine heavy moduli" as open
 - `notes/broken-born-theory.md` §4 — τ as a (pseudo-)Goldstone [D]
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — "Spectrum [V]" and the compact Goldstone as Λ(1); 'Chunk 3 results' — "a pseudo-Goldstone polarization angle with a ρ-symmetric potential"
 - `review/round4-adjudication.md` 'Rulings' F2 — the zero mode called an exact symmetry; eigenvalues "in my coordinates"; "Mermin–Wagner vs [11]" — the hyperbolic H-sector

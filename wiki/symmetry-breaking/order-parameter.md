@@ -33,7 +33,7 @@ sources:
 
 *An order parameter is the quantity that tells a broken-symmetry state from a symmetric one, as a magnet's magnetization does: it is zero while the symmetry is intact, and once the symmetry is broken it takes a definite value that the symmetry would change. In the Broken-Born program that role belongs to the neutral metric η, the structure on phase space that marks which directions count as position and which as momentum. Born reciprocity reverses the sign of η, so a vacuum that carries a definite η is not reciprocity-symmetric, and its mirror image carries −η. The program has written this order parameter in three notations over its history, using J, η and K, and the documents do not agree on which of J and K to call "the real structure". An early description of the breaking as a discrete pattern has been replaced by the Goldstone-angle picture.*
 
-**Status:** Alive — [P] (P2′, #11 §4, where "the reading of η as the order parameter of broken reciprocity is this program's") — in the coset toy model the order parameter O = K₁₁ is checked to flip sign under ρ [V] (`verify/toy_coset.py`, S3; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)); the J/K naming is unresolved between #11 and the toy-model note.
+**Status:** Alive — [P] (P2′, [#11](/wiki/history/documents/checkpoint) §4, where "the reading of η as the order parameter of broken reciprocity is this program's") — in the coset toy model the order parameter O = K₁₁ is checked to flip sign under ρ [V] (`verify/toy_coset.py`, S3; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)); the J/K naming is unresolved between #11 and the toy-model note.
 
 ## What an order parameter is
 
@@ -43,7 +43,7 @@ The toy-model work wrote the requirement as a pass/fail test: "S3 — η as orde
 
 ## Three notations for one order parameter
 
-The order parameter is built from the structures of Born geometry ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)): the symplectic form ω, behind the commutator [x, p] = iℏ; the neutral metric η, a symmetric pairing with as many positive as negative directions; and the positive generalized metric H. #11 §5 combines them into three linear maps:
+The order parameter is built from the structures of Born geometry ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)): [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, behind the commutator [x, p] = iℏ; the neutral metric η, a symmetric pairing with as many positive as negative directions; and the positive generalized metric H. #11 §5 combines them into three linear maps:
 
 ```text
 I = ω⁻¹H,   J = η⁻¹H,   K = η⁻¹ω;     I² = −1,   J² = K² = +1,   IJ = K        (#11 §5)
@@ -67,13 +67,13 @@ The current postulate makes η the order parameter [P]:
 
 > **P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter, η = HJ, with the real structure J chosen spontaneously. (#11 §4)
 
-#11 adds that the correction from [the original P2](/wiki/program/postulates/original-p2), which had fixed η too, is "forced: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR is general relativity, SIDM self-interacting dark matter; [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). On credit: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." (#11 §4; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)). The lab notebook's v0.3 addendum, which recorded the change in the axiom list, puts it as "η is emergent — the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1). See [P2′](/wiki/program/postulates/p2-prime).
+#11 adds that the correction from [the original P2](/wiki/program/postulates/original-p2), which had fixed η too, is "forced: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity), SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter); [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). On credit: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." (#11 §4; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)). The lab notebook's v0.3 addendum, which recorded the change in the axiom list, puts it as "η is emergent — the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1). See [P2′](/wiki/program/postulates/p2-prime).
 
-The Debt-1 note gives the construction step by step: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ." (#5 §B). It also gives the reason for the assignment: "η is the structure that says which directions are position — of course that is what the vacuum decides, not the background."
+[The Debt-1 note](/wiki/history/documents/debt-1-notes) gives the construction step by step: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ." (#5 §B). It also gives the reason for the assignment: "η is the structure that says which directions are position — of course that is what the vacuum decides, not the background."
 
 ### Why η qualifies: reciprocity reverses it
 
-The lab notebook found how the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity) ρ: (x, p) → (p, −x) acts on the three structures in their standard forms. ρ acts on vectors by R = [[0, 1], [−1, 0]], and "R preserves ω (it is symplectic), preserves H (it is orthogonal), and flips the sign of η, hence flips J and K while preserving I. [D]" (#1 §2). A quarter turn preserves oriented area and length, so it keeps ω and H = 1. It exchanges the position and momentum axes and reverses one of them, which reverses the sign of the symmetric pairing η [T].
+[The lab notebook](/wiki/history/documents/lab-notebook) found how the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity) ρ: (x, p) → (p, −x) acts on the three structures in their standard forms. ρ acts on vectors by R = [[0, 1], [−1, 0]], and "R preserves ω (it is symplectic), preserves H (it is orthogonal), and flips the sign of η, hence flips J and K while preserving I. [D]" (#1 §2). A quarter turn preserves oriented area and length, so it keeps ω and H = 1. It exchanges the position and momentum axes and reverses one of them, which reverses the sign of the symmetric pairing η [T].
 
 So η satisfies the definition. A vacuum with a definite η is carried by ρ to a different vacuum, with −η. Under P2′ the Debt-1 note reads the old observation in exactly these terms: "the earlier observation that reciprocity flips η now reads correctly as *the broken symmetry moving the order parameter*" (#5 §B).
 
@@ -85,7 +85,7 @@ In the language of waves: the position line and the momentum line carry the two 
 
 ## The vacuum manifold of the order parameter
 
-The values the order parameter can take form a manifold. Under P2′, "The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian — π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B). [The Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) is the space of all Lagrangian subspaces of phase space, all possible choices of position. It is compact, of dimension d(d+1)/2, which is 10 for d = 4 (#1 §2 [T]). Its non-contractible loop, the Maslov circle, carries the program's dark-energy field τ ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)).
+The values the order parameter can take form a manifold. Under P2′, "The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian — π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B). [The Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) is the space of all Lagrangian subspaces of phase space, all possible choices of position. It is compact, of dimension d(d+1)/2, which is 10 for d = 4 (#1 §2 [T]). Its non-contractible loop, the Maslov circle, carries the program's [dark-energy](/wiki/cosmology/dark-energy) field τ ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)).
 
 In the toy models, with d = 1, the space is a circle. The coset model's vacua at H = 1 are
 
@@ -99,15 +99,15 @@ with "The vacuum manifold is the upper half-plane times this circle" once H is a
 
 ### Model I: O = K₁₁
 
-In the coset sigma model of H and K ([model I](/wiki/symmetry-breaking/toy-models/coset-model)), "O = K₁₁ flips sign under ρ" (toy-model note §2). The worklog records "S3 pass [V]: O = K₁₁ is +1 in (1, K₀) and −1 in its ρ-image" ('Chunk 1 results'), and the gate runs the check:
+In the [coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models) of H and K ([model I](/wiki/symmetry-breaking/toy-models/coset-model)), "O = K₁₁ flips sign under ρ" (toy-model note §2). The worklog records "S3 pass [V]: O = K₁₁ is +1 in (1, K₀) and −1 in its ρ-image" ('Chunk 1 results'), and [the gate](/wiki/method/verification/the-gate) runs the check:
 
 ```text
 PASS  O = K_11 takes +1 in (1, K0) and -1 in its rho-image (1, -K0)
 ```
 
-(`verify/toy_coset.py`; [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). On the vacuum circle the (1,1) entry of K(φ) is cos φ, and the lattice simulation of the polarization angle uses the same quantity: "Order parameter for ρ: m = ⟨cos φ⟩" (toy-model note §4). With the ρ-preserving potential, at T = 0.6, it takes "⟨|m|⟩ = 0.954 ± 0.0001 at every size", an ordered ℤ₂ phase of the frozen-H reduction ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
+(`verify/toy_coset.py`; [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). On the vacuum circle the (1,1) entry of K(φ) is cos φ, and the lattice simulation of the polarization angle uses the same quantity: "Order parameter for ρ: m = ⟨cos φ⟩" (toy-model note §4). With the ρ-preserving potential, at T = 0.6, it takes "⟨|m|⟩ = 0.954 ± 0.0001 at every size" (on that figure, see flag 13 in `review/wiki-build-flags.md`), an ordered ℤ₂ phase of [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
 
-O is odd under ρ, and it is odd under the sign flip K → −K as well, which model I also has as a symmetry. The round-4 referee: "On the H=1 circle rho and K->-K act identically (K(phi) -> K(phi+pi) = -K(phi))" (audit notes, Step 3). A nonzero ⟨O⟩ shows that the vacuum is invariant under neither operation, but it is invariant under their combination, the twisted element ρ∘(K → −K) (toy-model note §2). Without a coupling that is odd in K, whether one calls ρ or the flip the broken symmetry is "a labelling choice" (audit notes, Step 2(a), F3). This is [the twisted element](/wiki/symmetry-breaking/twisted-element), and the reason #11 §4 says the breaking of ρ "is physical only once matter couples to the sign of K".
+O is odd under ρ, and it is odd under the sign flip K → −K as well, which model I also has as a symmetry. The [round-4](/wiki/method/review/round-4) referee: "On the H=1 circle rho and K->-K act identically (K(phi) -> K(phi+pi) = -K(phi))" (audit notes, Step 3). A nonzero ⟨O⟩ shows that the vacuum is invariant under neither operation, but it is invariant under their combination, the twisted element ρ∘(K → −K) (toy-model note §2). Without a coupling that is odd in K, whether one calls ρ or the flip the broken symmetry is "a labelling choice" (audit notes, Step 2(a), F3). This is [the twisted element](/wiki/symmetry-breaking/twisted-element), and the reason #11 §4 says the breaking of ρ "is physical only once matter couples to the sign of K".
 
 ### Model II: the vacuum's position-versus-momentum spread
 
@@ -119,7 +119,7 @@ The worklog's second route looked for "a field theory on phase space whose own v
 
 ## Superseded: the discrete breaking pattern
 
-The lab notebook's first version described the breaking as a pattern of finite groups. Its postulate P3 called ρ "the ℤ₄ generated by the complex structure I" (#1 §1). With η rigid, the order parameter was "J = η⁻¹H — equivalently, the choice of which Lagrangian splitting H aligns with. Reciprocity is broken iff ⟨J⟩ ≠ 0 in the vacuum." (#1 §2). Then:
+The lab notebook's first version described the breaking as a pattern of finite groups. Its postulate [P3](/wiki/program/postulates/p3-reciprocity) called ρ "the ℤ₄ generated by the complex structure I" (#1 §1). With η rigid, the order parameter was "J = η⁻¹H — equivalently, the choice of which Lagrangian splitting H aligns with. Reciprocity is broken iff ⟨J⟩ ≠ 0 in the vacuum." (#1 §2). Then:
 
 ```text
 ρ²: (x,p) → (−x,−p) preserves all three structures. The breaking pattern is ℤ₄ → ℤ₂:
@@ -146,7 +146,7 @@ The documents give the name to different operators, and none reconciles them:
 - The toy-model note names K: "η = ωK (K a real structure, K² = 1)" (Abstract), with Kᵀ ω K = −ω (§1); #11 §14 item 11 follows it with "η = ωK is the order parameter".
 - The notebook's v0.1 calls J = η⁻¹H the order parameter (#1 §2).
 
-In #11 §5's algebra both J and K square to +1, so each is a real structure in the sense above; the documents differ in which one they name as the structure chosen spontaneously. This page uses the toy-model note's K; [Born structures](/wiki/phase-space/born-geometry/born-structures) uses #11 §5's definitions. The conflict is listed among the unresolved ones on [conflicts between sources](/wiki/history/documents/source-conflicts), and both conventions are on [notation](/wiki/notation).
+In #11 §5's algebra both J and K square to +1, so each is a real structure in the sense above; the documents differ in which one they name as the structure chosen spontaneously. This page uses the toy-model note's K; [Born structures](/wiki/phase-space/born-geometry/born-structures) uses #11 §5's definitions. The conflict is listed among the unresolved ones on [conflicts between sources](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking), and both conventions are on [notation](/wiki/notation).
 
 ## Sources
 

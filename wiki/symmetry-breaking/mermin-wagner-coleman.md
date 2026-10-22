@@ -25,7 +25,7 @@ sources:
 
 *The Mermin–Wagner–Coleman theorem says that in two dimensions a continuous symmetry of the compact kind, such as rotation through an angle, cannot be spontaneously broken. The two dimensions can be two of space at nonzero temperature, or one of space and one of time in a quantum field theory. Slow, long-wavelength wobbles of the would-be ordered direction cost so little energy that they grow without limit as the system gets larger, and they wash the order out. Discrete symmetries escape the theorem, as the two-dimensional Ising magnet shows, and so do some non-compact symmetries. With only a few degrees of freedom, as in ordinary quantum mechanics (0+1 dimensions), not even a discrete symmetry breaks, because tunnelling mixes the would-be ground states. These limits determined how the program's toy models were built: they start in 1+1 dimensions, and their compact polarization angle can order only after a potential reduces its symmetry to a discrete one.*
 
-**Status:** Established — [T] — Mermin and Wagner (1966) and Coleman (1973), the toy-model note's references [13] and [14], which the round-4 referee found and checked against their statements; their reach in the toy models was fixed by the round-4 ruling that restricts the theorem to the compact SO(2) containing ρ (`review/round4-adjudication.md`); the lattice illustration is `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Established — [T] — Mermin and Wagner (1966) and Coleman (1973), the toy-model note's references [13] and [14], which the [round-4](/wiki/method/review/round-4) referee found and checked against their statements; their reach in the toy models was fixed by the round-4 ruling that restricts the theorem to the compact SO(2) containing ρ (`review/round4-adjudication.md`); the lattice illustration is `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## The theorem
 
@@ -70,7 +70,7 @@ The absence of true order does not mean disorder. At low temperature the two-dim
 
 Ordinary quantum mechanics, a field theory in 0+1 dimensions with finitely many degrees of freedom, cannot break even a discrete symmetry [T]. In a symmetric double-well potential the states localized in either well are not stationary, because tunnelling connects them. The ground state is their symmetric combination, unique and invariant, separated from the antisymmetric one by a small but nonzero splitting. A symmetry breaks only when the number of degrees of freedom is infinite and the tunnelling amplitude between the candidate vacua vanishes ([spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking)).
 
-The worklog applies this directly: "In 0+1 dimensions (quantum mechanics), tunnelling restores any symmetry, so the toy starts in 1+1." (criterion S4). The same consideration returns in the complex Grosse–Wulkenhaar model ([model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar)), whose condensate occupies finitely many levels. There the polarization angle β "has no stiffness", and "Even a potential on β cannot rescue it. The order-parameter sector stays finite-dimensional, so the system tunnels between the two vacua. This last step is argued, not proven: integrating out the massive tower is assumed not to make the barrier grow with N." (worklog, 'Chunk 3 results'). The round-4 referee added that without a potential no tunnelling argument is needed: an exact symmetry makes every condensate phase a flat direction, so the vanishing of the order parameter "at any truncation follows from symmetry alone", and "The 'tunnelling' caveat is only needed for the add-a-potential variant." (audit notes, Step 2(c)). See [quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration).
+The worklog applies this directly: "In 0+1 dimensions (quantum mechanics), tunnelling restores any symmetry, so the toy starts in 1+1." (criterion S4). The same consideration returns in the complex Grosse–Wulkenhaar model ([model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar)), whose condensate occupies finitely many levels. There the polarization angle β "has no stiffness", and "Even a potential on β cannot rescue it. The order-parameter sector stays finite-dimensional, so the system tunnels between the two vacua. This last step is argued, not proven: integrating out the massive tower is assumed not to make the barrier grow with N." (worklog, 'Chunk 3 results'). The round-4 referee added that without a potential no tunnelling argument is needed: an exact symmetry makes every condensate phase a flat direction, so the vanishing of the [order parameter](/wiki/symmetry-breaking/order-parameter) "at any truncation follows from symmetry alone", and "The 'tunnelling' caveat is only needed for the add-a-potential variant." (audit notes, Step 2(c)). See [quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration).
 
 ## How the theorem shaped the toy models
 
@@ -80,7 +80,7 @@ The worklog fixed its quantum-stability test before building anything: "S4 — q
 
 ### Model I: the restriction to the compact SO(2)
 
-Model I's symmetry group Sp(2, ℝ) contains two kinds of directions. The rotations of the phase plane that leave H = 1 fixed form the compact group SO(2), and [ρ](/wiki/phase-space/reciprocity/born-reciprocity), a quarter turn, is one of them; they turn the vacuum K(φ) around its circle ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The remaining directions move H through the upper half-plane and are non-compact.
+Model I's symmetry group [Sp(2, ℝ)](/wiki/phase-space/reciprocity/symplectic-form) contains two kinds of directions. The rotations of the phase plane that leave H = 1 fixed form the compact group SO(2), and [ρ](/wiki/phase-space/reciprocity/born-reciprocity), a quarter turn, is one of them; they turn the vacuum K(φ) around its circle ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The remaining directions move H through the [upper half-plane](/wiki/phase-space/modular-field/siegel-domain) and are non-compact.
 
 The worklog first applied the theorem to the whole continuous breaking: "The breaking is continuous, so in 1+1 the compact circle mode should restore ⟨K⟩ (Coleman–Mermin–Wagner) unless the non-amenable directions change that." ('Chunk 1 results'). The note's first version stated that in the exactly symmetric model "the continuous breaking is forbidden" (as quoted in the referee's audit notes, Step 3). The round-4 referee objected that model I's H-sector is the hyperbolic sigma model for which Duncan, Niedermaier and Seiler report breaking in two dimensions, and the adjudication upheld the point as a literature ruling: "The model I H-sector is a hyperbolic SO(1,2) model, which by Duncan–Niedermaier–Seiler can break in 2D" — "The Mermin–Wagner statement must be restricted to the compact SO(2) containing ρ. Whether that SO(2) is broken in the coupled model is open." (`review/round4-adjudication.md`, "Mermin–Wagner vs [11]"; [11] is the hyperbolic-model reference in the note's first numbering, [15] in version 2). Revision 1 required the restriction, the citation for the hyperbolic H-sector and a note of the open question.
 
@@ -102,11 +102,11 @@ E = −J Σ cos(φ_i − φ_j) − h Σ cos 2φ_i                        (toy-mo
 | Control, T = 3.0 | ⟨\|m\|⟩ = 0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004 | Scales as 1/L: disordered |
 | No potential (h = 0), T = 0.6 | ⟨\|M\|⟩ = \|⟨e^{iφ}⟩\| = 0.8369 ± 0.0007, 0.8025 ± 0.0039, 0.7736 ± 0.0038; ratio 0.924 vs spin-wave (64/16)^{−T/4πJ} = 0.936 | No true order |
 
-(toy-model note §4; reproduced by `verify/toy_s4.py`; [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo).)
+(toy-model note §4; reproduced by `verify/toy_s4.py`; [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo). On "± 0.0001 at every size", see flag 13 in `review/wiki-build-flags.md`.)
 
 The three rows are the theorem and its exception seen on the lattice:
 
-- **With the potential**, the symmetry left is discrete, and it breaks: the order parameter does not fall with size, and the Binder cumulant sits at the ordered-phase value (the gate's check reads "Binder cumulant near 2/3 (an ordered Z2 phase)").
+- **With the potential**, the symmetry left is discrete, and it breaks: the order parameter does not fall with size, and the Binder cumulant sits at the ordered-phase value ([the gate](/wiki/method/verification/the-gate)'s check reads "Binder cumulant near 2/3 (an ordered Z2 phase)").
 - **The control** tests the method. Every run starts ordered, and at high temperature "the sampler does leave it when the phase is disordered" (worklog, 'Chunk 3 results'); a finite disordered lattice still shows a small |m|, which falls as 1/L [T].
 - **Without the potential**, the U(1) magnetization falls with every doubling of L, as the spin-wave law requires, and the ratio between L = 64 and L = 16 is a little below the bare spin-wave value. The round-4 referee, whose own runs gave a ratio of 0.917, read such a shortfall as "as expected from stiffness renormalisation" (audit notes, Step 2(c)): at nonzero temperature the effective stiffness is smaller than J, so the decay is faster [T].
 
@@ -133,13 +133,22 @@ Added by the wiki from model memory (†):
 
 ## Used by
 
+- [The hard core](/wiki/program/hard-core) — in the toy, a definite polarization in 1+1 needs a potential.
+- [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — the compact polarization angle cannot order in 1+1.
+- [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — in the toy, the selected angle cannot order by itself in 1+1.
+- [Mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking) — "the magnet must point" only with a potential in 1+1.
 - [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria) — why criterion S4 is posed in 1+1.
+- [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — the ordered ℤ₂ phase that meets it.
 - [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) — why a definite polarization needs a potential in 1+1, and the 3+1 remark.
 - [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the potential that reduces the symmetry to a discrete group.
+- [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — a spontaneous selection of the pair of lines placed in 3+1, where the theorem does not apply.
+- [Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua) — the compact angle cannot order by itself.
+- [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) — why model I needed a potential at all.
 - [The frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) — what the 1+1 result establishes.
 - [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) — the h = 0 run as the theorem's lattice check.
 - [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — the theorem's reach in model I.
 - [Quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration) — a finite-dimensional order-parameter sector, as in 0+1.
+- [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) and [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence) — the toy's polarization angle, τ's circle, cannot order in 1+1 without a potential.
 
 ## Sources
 

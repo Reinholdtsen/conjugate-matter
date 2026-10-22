@@ -23,9 +23,9 @@ sources:
   - "notes/toy-lagrangian.md 'Assessment against the predictions (written before construction)'"
 ---
 
-*The twisted element is a combined operation in the coset toy model of broken reciprocity: apply Born reciprocity, the exchange of position and momentum, and at the same time reverse the sign of the real structure K, the field whose value marks which of two lines in the position–momentum plane counts as position. Reciprocity alone carries every vacuum of the model to a different one, which is the sense in which the vacuum breaks it. The combination carries the reference vacuum back to itself, and it acts on the model's metric H exactly as reciprocity does. So as long as nothing in the theory depends on the sign of K, the vacuum keeps a symmetry that cannot be told apart from reciprocity, and calling reciprocity broken is a choice of labels. The statement gains physical content once matter couples to the sign of K, which in the program is the role of postulate P4. The round-4 referee found the point, the adjudication upheld it, and checkpoint #11 now states it in its postulate P2′.*
+*The twisted element is a combined operation in the coset toy model of broken reciprocity: apply Born reciprocity, the exchange of position and momentum, and at the same time reverse the sign of the real structure K, the field whose value marks which of two lines in the position–momentum plane counts as position. Reciprocity alone carries every vacuum of the model to a different one, which is the sense in which the vacuum breaks it. The combination carries the reference vacuum back to itself, and it acts on the model's metric H exactly as reciprocity does. So as long as nothing in the theory depends on the sign of K, the vacuum keeps a symmetry that cannot be told apart from reciprocity, and calling reciprocity broken is a choice of labels. The statement gains physical content once matter couples to the sign of K, which in the program is the role of postulate P4. The round-4 referee found the point, the adjudication upheld it, and [checkpoint #11](/wiki/history/documents/checkpoint) now states it in its postulate P2′.*
 
-**Status:** Alive — no tag of its own: #11 states it in the v2.2 refinement of P2′, whose Goldstone-angle sentence is tagged [D][V] — upheld as round-4 finding F3 (`review/round4-adjudication.md`) and checked in the gate (`verify/toy_coset.py`, "round-4 F3"; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Alive — no tag of its own: #11 states it in the v2.2 refinement of P2′, whose Goldstone-angle sentence is tagged [D][V] — upheld as round-4 finding F3 (`review/round4-adjudication.md`) and checked in [the gate](/wiki/method/verification/the-gate) (`verify/toy_coset.py`, "round-4 F3"; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## Statement
 
@@ -35,14 +35,14 @@ The [toy-model note](/wiki/symmetry-breaking/toy-models) (`papers/reciprocity-to
 
 Checkpoint #11 carries it into the program's postulates, in the v2.2 refinement of [P2′](/wiki/program/postulates/p2-prime): "the breaking of ρ is physical only once matter couples to the sign of K (P4): without such a coupling, a twisted element ρ∘(K → −K) leaves the vacuum invariant" (#11 §4).
 
-The result belongs to [model I](/wiki/symmetry-breaking/toy-models/coset-model), the coset sigma model built to show [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), ρ: (x, p) → (p, −x), broken by a vacuum.
+The result belongs to [model I](/wiki/symmetry-breaking/toy-models/coset-model), the [coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models) built to show [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), ρ: (x, p) → (p, −x), broken by a vacuum.
 
 ## Model I and its two symmetries
 
 Model I has a 1+1-dimensional base and a two-dimensional phase space ℝ², with the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω = [[0, 1], [−1, 0]] (toy note §1). Its two fields are:
 
-- **H**, a positive symmetric symplectic matrix, the phase-space metric. It is written H(Z) for a point Z = X + iY of the upper half-plane, and I ≡ ω⁻¹H squares to −1 (toy note §2).
-- **K**, a real structure: K² = 1 and Kᵀ ω K = −ω, which for 2 × 2 matrices means "traceless with det K = −1" (toy note §1, §2). Its two eigenlines L+ (eigenvalue +1) and L− (eigenvalue −1) are the candidate position and momentum directions, and "Choosing K is choosing which line is 'position'" (toy note §1). K determines the neutral metric η = ωK, the program's [order parameter](/wiki/symmetry-breaking/order-parameter).
+- **H**, a positive symmetric symplectic matrix, the phase-space metric. It is written H(Z) for a point Z = X + iY of the [upper half-plane](/wiki/phase-space/modular-field/siegel-domain), and I ≡ ω⁻¹H squares to −1 (toy note §2).
+- **K**, a real structure: K² = 1 and Kᵀ ω K = −ω, which for 2 × 2 matrices means "traceless with det K = −1" (toy note §1, §2). Its two eigenlines L+ (eigenvalue +1) and L− (eigenvalue −1) are the candidate position and momentum directions, and "Choosing K is choosing which line is 'position'" (toy note §1). K determines the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η = ωK, the program's [order parameter](/wiki/symmetry-breaking/order-parameter).
 
 The Euclidean Lagrangian (toy note §2; [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)):
 
@@ -101,7 +101,7 @@ The ambiguity goes away when the theory contains a term that depends on the sign
 
 > `arb.py`: (1, K₀) is mapped to itself. Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K. This sharpens the S5 conclusion rather than contradicting it. (`review/round4-adjudication.md`, F3)
 
-The coupling the note supplies is I_K, a functional of a matter state's [Wigner function](/wiki/phase-space/reciprocity/wigner-function) built from H and K ([Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)): "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." (toy note §5). It has the two properties the argument needs:
+The coupling the note supplies is I_K, a functional of a matter state's [Wigner function](/wiki/phase-space/reciprocity/wigner-function) built from H and K ([Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)): "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." (toy note §5; see flag 2 in `review/wiki-build-flags.md`). It has the two properties the argument needs:
 
 - **Flipping K alone changes it.** For the note's test state the referee found "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925 (nonzero: K->-K alone is not a symmetry of I)" (`review/round4/referee/out_sec5_fix.txt`).
 - **ρ applied to K and to the state together leaves it unchanged.** ρ acts on states by the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) F and on K by K → −K (`verify/toy_s5.py`: "rho acts on states by the Fourier transform: psi -> psi~, and on K by K -> -K"), and "The combined map (ψ → Fψ, K → −K) leaves I invariant" (toy note §5).

@@ -33,7 +33,7 @@ sources:
 
 *This open problem asks where the potential that fixes the polarization angle comes from. In the program's coset toy model the vacuum's polarization, the choice of which direction in the position–momentum plane counts as position, is an angle that can take any value at no cost in energy. In wave terms the angle runs continuously from describing a state by its waveform to describing it by its spectrum, through the intermediate descriptions that fractional Fourier transforms give. A definite polarization appears only after a potential is added that keeps Born reciprocity as a symmetry but pins the angle to one of two opposite settings. The program gives its dark-energy field τ a potential of the same kind. Such a potential brings in a fixed, unordered pair of axes, which is more fixed structure than the program's postulate P2′ ("only ω is rigid") provides, and nothing in the program derives it. Its first proposed origin, explicit breaking by the rigid background of the original postulate P2, did not survive the replacement of P2.*
 
-**Status:** Open — [O] (#11 §14 item 11, "a derivation of the potential") — the bounded form the toy uses is checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)), but where any such potential comes from is not derived. Listed at [Open problems and the queue](/wiki/status/open-problems).
+**Status:** Open — [O] ([#11](/wiki/history/documents/checkpoint) §14 item 11, "a derivation of the potential") — the bounded form the toy uses is checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)), but where any such potential comes from is not derived. Listed at [Open problems and the queue](/wiki/status/open-problems).
 
 ## The question
 
@@ -98,7 +98,7 @@ V_b = −μ [Tr(K K_ref)]² / (2 Tr KᵀK),      −μ ≤ V_b ≤ 0         (to
 at H = 1:  V_b = −(μ/2)(1 + cos 2φ)
 ```
 
-The note records that it is "bounded, −μ ≤ V_b ≤ 0 by Cauchy–Schwarz, since Tr K_refᵀK_ref = 2", that "It is ρ- and flip-invariant", and that "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236", with "Vacuum manifold: {diag(y, 1/y)} × {±K_ref}" (toy note §4). The round-4 referee proposed it, and the gate checks each property, from "V_b is rho-invariant" to "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero" (`verify/toy_coset.py`). The frozen-H lattice simulation uses it, "with V_b up to a constant and normalization", and finds an ordered ℤ₂ phase in 1+1 (toy note §4; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). See [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
+The note records that it is "bounded, −μ ≤ V_b ≤ 0 by Cauchy–Schwarz, since Tr K_refᵀK_ref = 2", that "It is ρ- and flip-invariant", and that "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236", with "Vacuum manifold: {diag(y, 1/y)} × {±K_ref}" (toy note §4). The round-4 referee proposed it, and [the gate](/wiki/method/verification/the-gate) checks each property, from "V_b is rho-invariant" to "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero" (`verify/toy_coset.py`). The frozen-H lattice simulation uses it, "with V_b up to a constant and normalization", and finds an ordered ℤ₂ phase in 1+1 (toy note §4; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). See [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
 
 Since round 4, #11 sets boundedness as a condition on any such potential: "That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves" (#11 §10). V_b meets the condition in the toy. It does not answer the open problem: it is chosen to be bounded, not derived.
 
@@ -112,7 +112,7 @@ The three levels of fixed structure that the sources compare:
 |---|---|---|---|
 | ω alone (P2′) | no axes | a Goldstone angle, any value | #11 §4 |
 | ω and a ρ-preserving potential | an unordered pair of axes | one of two settings, exchanged by ρ | #11 §4; worklog 'Chunk 3 results' |
-| ω and η ([the original P2](/wiki/program/postulates/original-p2)) | the pair of axes, ordered | discrete: "no Grassmannian, no Maslov circle, no dark-energy field" | #11 §5; #5 §B |
+| ω and η ([the original P2](/wiki/program/postulates/original-p2)) | the pair of axes, ordered | discrete: "no Grassmannian, no Maslov circle, no dark-energy field" | #11 §5; #5 §B; see flag 1 in `review/wiki-build-flags.md` |
 
 The sources read this cost the same way:
 
@@ -128,7 +128,7 @@ The program's dark-energy field τ lives on the same circle. In the lab notebook
 
 #11 §10's toy-model paragraph [D][V] ties the two: "In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits. That potential must be bounded with all fields dynamical", and it ends: "None of this tests the cosmology; it only shows the structure is consistent." The potential on the polarization angle and the potential §10 posits for τ are therefore one object in the program, and the open problem is the same for both. The worklog's first consequence of the Goldstone angle says the same for postulate [P5](/wiki/program/postulates/p5-spontaneous-selection): "(i) P5's 'the vacuum selects a polarization; ours is x-tilted' needs explicit breaking of that U(1) — a potential on the circle — to make the selection definite." ('Chunk 2 results').
 
-What topology fixes and what it leaves open are separate. The periodicity of τ's potential "is forced by the Maslov topology **[D]**"; its existence and its magnitude are not: "Its *magnitude* V₀ is a free parameter here. **[P/O]**" (#1 §3). Whether V(τ) can become negative, as the program's predicted turnaround of the expansion requires, is a further unresolved question ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+What topology fixes and what it leaves open are separate. The periodicity of τ's potential "is forced by the Maslov topology **[D]**"; its existence and its magnitude are not: "Its *magnitude* V₀ is a free parameter here. **[P/O]**" (#1 §3). Whether V(τ) can become negative, as the program's predicted turnaround of the expansion requires, is a further unresolved question ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
 
 ### The 3+1 remark (worklog only, not computed)
 
@@ -162,7 +162,7 @@ The lab notebook (#1, v0.1) wrote τ's potential as V(τ) = V₀[1 + cos(τ/f)] 
 
 Its one-paragraph summary describes the program as built on "a single spontaneously broken symmetry ... with a rigid symplectic form as its explicit tilt" (#1 §12). The picture is that of explicit breaking by a fixed background: a non-dynamical structure that is not invariant under the rotations of the circle tilts it, as a background field does in the standard treatment [T] ([spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking)).
 
-The attribution did not survive the repair of the postulates. Under the original P2 both ω and η were rigid, and with both rigid the compatible polarizations are discrete: "No Lagrangian Grassmannian, no Maslov circle, **no τ field**" (#5 §B), so there was no circle to tilt ([Original P2](/wiki/program/postulates/original-p2); [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). Under P2′ only ω is rigid, and the toy models find that ω alone leaves the polarization a Goldstone angle, so that a definite polarization needs "more structure than ω alone" (#11 §4). The register of [superseded statements](/wiki/status/superseded) lists the attribution with P2's "triple duty".
+The attribution did not survive the repair of the postulates. Under the original P2 both ω and η were rigid, and with both rigid the compatible polarizations are discrete: "No Lagrangian Grassmannian, no Maslov circle, **no τ field**" (#5 §B; see flag 1 in `review/wiki-build-flags.md`), so there was no circle to tilt ([Original P2](/wiki/program/postulates/original-p2); [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). Under P2′ only ω is rigid, and the toy models find that ω alone leaves the polarization a Goldstone angle, so that a definite polarization needs "more structure than ω alone" (#11 §4). The register of [superseded statements](/wiki/status/superseded) lists the attribution with P2's "triple duty".
 
 ## Sources
 
