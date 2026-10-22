@@ -97,7 +97,8 @@ strip and the Map.
 **Folded items.** A page sometimes holds a minor item of another status, such as an open
 sub-question on an established page or a superseded earlier form of an alive claim. Such
 an item gets its own status-headed section ("## Open: …", "## Superseded: …",
-"## Chat-only: …", "## Popsci-only: …"), and the registers deep-link that heading.
+"## Chat-only: …", "## Popsci-only: …", "## Conjecture: …"; "###" when it sits inside a
+larger section), and the registers deep-link that heading.
 
 **OPn** means item n of #11 §14 (the checkpoint's open problems). It is registered and
 may be used in body text.
@@ -280,42 +281,9 @@ make it pass.
   graveyard register, and fix every page that relied on it.
 - **A new topic.** Place it by the taxonomy rules, link it from its parent's map and from
   every page that mentions it, and run the gate.
+- **A flag is ruled on.** `review/wiki-build-flags.md` lists suspected errors in the source
+  documents found while the wiki was built, each with its audit verdict; pages quoting a
+  flagged statement point to its number (`grep -rn 'flag N' wiki/`). When Paul rules, correct
+  the source if the ruling accepts the flag, then update those pages and the flag's entry.
 
-## Build state
-
-This section records the progress of the initial build so that a cold session can resume.
-Delete it when the build is complete.
-
-- **2026-10-20.** Gate committed (`scripts/check-wiki.py`). Thirteen inventories, a master
-  topic list (371 topics, 115 background concepts, 151 resolved source conflicts) and
-  taxonomy proposals B and C were produced in the session scratchpad. B was adopted:
-  278 entries.
-- **2026-10-21.** Breadth pass committed (`7b9438b`): all 278 pages, averaging about 800
-  words each. Starred symbols escaped; the gate now checks them.
-- **2026-10-21, depth wave 1.** `program/` and `phase-space/` are at full depth: 52 files,
-  committed page by page. The verifiers checked 1,882 claims and fixed 104 of 107 findings.
-  Two suspected errors in the source documents themselves are quoted faithfully and await
-  Paul's ruling:
-  - #5 §B and #11 §5 call the η-null Lagrangian polarizations "discrete"; for d ≥ 2 they
-    form Grassmannian families, though the conclusion (no Maslov circle) survives;
-  - toy note §5 calls I "odd in K", but I ≥ 0, so it is only not invariant under K → −K.
-- **2026-10-21, depth wave 2.** `symmetry-breaking/` and `gravity/` are at full depth and
-  verified. The usage limit cut the workflow off midway; the remaining verifiers ran as
-  single background agents. Further source flags (15 in all) are collected in
-  `review/wiki-build-flags.md`.
-- **2026-10-21, depth wave 3.** `dark-matter/` is at full depth and verified: 54 files,
-  including the retired soliton candidate. The flags file now holds 26 items, with executed
-  checks in `review/wiki-build-checks/`.
-- **2026-10-21/22, depth waves 4–6.** `cosmology/`, `electric-magnetic-duality/`,
-  `conjugate-relativity/`, `predictions/`, `method/` and `history/` are at full depth and
-  verified. Two reboots interrupted agents; every interrupted batch was resumed or re-run from
-  its committed state. The first reboot cleared the session scratchpad (inventories, taxonomy
-  file), so the committed tree carries the plan. The flags file holds 38 items.
-- **Final pass** (running as of 2026-10-22). It verifies the last four batches, then does
-  three things in parallel: sweeps each partition (flag pointers, known cross-page fixes,
-  "Used by" lists, first-mention links), runs six read-only critics (four for source
-  coverage, a casual reader, a navigation check), and then applies their fixes. After that it
-  rebuilds the registers (home, `status/`, glossary, notation, references) from the finished
-  pages and runs the full gate.
-- **If the final pass is interrupted**, check `grep -rl '^## Key facts' wiki` (registers still
-  at gist level) and `git log`; re-run what is missing. Then delete this section.
+The initial build (2026-10-20 to 2026-10-22) is recorded on `/wiki/history/timeline`.
