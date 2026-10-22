@@ -20,7 +20,7 @@ sources:
 
 ## What was claimed
 
-Founding supposition 9 of P.R.'s eleven, as #11's audit records it: "Their collapse is our acceleration" (#11 App. A item 9). The [handoff](/wiki/history/documents/handoff) lists it among the claims "killed by own calculations — keep dead" as "Conjugate collapse powers our expansion" (`HANDOFF.md` §2). See [founding suppositions and their fates](/wiki/program/founding-suppositions).
+Founding supposition 9 of P.R.'s eleven, as #11's audit records it: "Their collapse is our acceleration" (#11 App. A item 9). The [handoff](/wiki/history/documents/handoff) lists it under "Dead" as "Conjugate collapse powers our expansion" (`HANDOFF.md` §2). See [founding suppositions and their fates](/wiki/program/founding-suppositions).
 
 The picture behind it: the program describes the universe twice, once in position variables and once in momentum variables, the second description being the [conjugate universe](/wiki/program/conjugate-universe). The supposition proposed that the conjugate universe's gravitational collapse is the source of the acceleration of our expansion, which standard cosmology attributes to dark energy; the [popular article](/wiki/history/documents/popular-articles) #10 words it as "the conjugate universe's gravitational collapse is what powers our accelerating expansion". No document states the claim in more detail than this; it belongs to the development discussion that preceded the [lab notebook](/wiki/history/documents/lab-notebook).
 
@@ -40,7 +40,7 @@ Deriving the dictionary with the constraint's volume Jacobian replaced the heuri
 dual dust:   w̃ = 0   ⇒   w_eff = 0
 ```
 
-Collapsing conjugate matter acts on our expansion as ordinary dust. Dust has positive energy density and no pressure, so in the acceleration equation of [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology) it decelerates the expansion [T]. The conjugate side's collapse therefore cannot be the source of our acceleration: "corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2). The lab notebook: "dual *matter* no longer masquerades as exotic energy (dust maps to dust — the w=−2 pathology is gone because it was an artifact)" (#1 §6), and, at its head, "Rigor changed an answer; that is the point of rigor" (#1 §0).
+Collapsing conjugate matter acts on our expansion as ordinary dust. Dust has positive energy density and no pressure, so in the acceleration equation of [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology) it decelerates the expansion [T]. The conjugate side's collapse therefore cannot be the source of our acceleration: "corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2). The lab notebook: "dual *matter* no longer masquerades as exotic energy (dust maps to dust — the w=−2 pathology is gone because it was an artifact)" (#1 §6), and the notebook announces the correction at its head (#1 §0).
 
 The first death was observational: a definite prediction, w = −2, contradicted by data. The second was mathematical: once the rule was derived correctly, there was no prediction to test.
 
@@ -48,7 +48,7 @@ The first death was observational: a definite prediction, w = −2, contradicted
 
 #11's audit: "**dead twice** (w = −2 falsified; corrected dictionary removed the mechanism)" (App. A item 9).
 
-The popular article #10 compresses the record: in 'The method is the message' it says that data "already executed two of the founding ideas", and in 'The killing fields' that the idea "turned out, when written down, to demand a dark-energy strength the data ruled out decades ago; and when the bookkeeping between the two universes was done honestly, the mechanism didn't just fail, it evaporated." #11 App. A item 9 is the record: the second death came from the corrected dictionary, not from data. The popular articles are never a source for a claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
+The popular article #10 compresses the record: in 'The method is the message' it says that data killed two of the founding ideas, and in 'The killing fields' that this idea demanded a dark-energy strength the data had excluded and then lost its mechanism once the translation between the two universes was done correctly. #11 App. A item 9 is the record: the second death came from the corrected dictionary, not from data. The popular articles are never a source for a claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## What survives
 
@@ -80,4 +80,4 @@ The popular article #10 compresses the record: in 'The method is the message' it
 - `papers/broken-born-checkpoint-v2.md` §10 — the corrected dictionary that superseded the heuristic
 - `notes/broken-born-theory.md` §6 — the heuristic, why it was wrong, and the corrected rule
 - `notes/broken-born-theory.md` §0 — the correction announced at the head of the notebook
-- `popsci/angle-of-the-mirror.md` 'The killing fields', 'The method is the message' — the popular account and its "executed" (popular article; not a status source)
+- `popsci/angle-of-the-mirror.md` 'The killing fields', 'The method is the message' — the popular account (popular article; not a status source)
