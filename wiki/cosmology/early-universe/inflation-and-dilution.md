@@ -15,12 +15,9 @@ sources:
   - "review/round3-adjudication.md 'Rulings' (omitted constraints)"
   - "review/round3-adjudication.md 'Decisions' 1"
   - "review/round3-adjudication.md 'Decisions' 2"
-  - "review/round3/referee/audit-notes.md Step 2"
   - "review/round3/referee/audit-notes.md Step 4(a) item 5"
   - "review/round3/referee/audit-notes.md Step 4(c) items 1, 7, 9"
-  - "review/round3/referee/step2a.out 'Kibble'"
   - "review/round3/referee/step4c.out"
-  - "review/v3-worklog.md 'Findings neither referee raised'"
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/knot-dark-matter-standalone.md §6"
@@ -81,25 +78,15 @@ Cosmological perturbations come in two kinds [T]. In adiabatic perturbations eve
 
 ### Early matter domination
 
-A heavy, long-lived species, or a field oscillating about its minimum, behaves as matter: its energy density falls as a⁻³ while that of radiation falls as a⁻⁴. If it lives long enough, it overtakes the radiation and the universe passes through a period of early matter domination. When it finally decays, its energy becomes radiation and the entropy in a comoving volume grows by some factor D [T]. Every yield Y = n/s fixed before the decays is divided by D; relics made afterwards are not affected. The dilution is indiscriminate: it also dilutes any baryon asymmetry made earlier ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance)), and the decays must be over before [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#light-particles-decays-and-entropy-release), which needs the standard radiation-dominated expansion [T].
+A heavy, long-lived species, or a field oscillating about its minimum, behaves as matter, and if it lives long enough it dominates the universe for a time, a period of early matter domination. When it decays, its energy becomes radiation and the entropy in a comoving volume grows by some factor D [T]. Every yield Y = n/s fixed before the decays is divided by D, any baryon asymmetry made earlier included, while relics made afterwards are not affected; the decays must be over before [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#light-particles-decays-and-entropy-release) [T]. The mechanism, the size of D and its conditions are on [the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t).
 
 ### How much a relic needs
 
-The dilution a relic needs is its overproduction factor: the ratio of the density it would have to the density observed. For monopoles counted by the Kibble mechanism the factor grows steeply with mass. #14 §3: "Heavier monopoles are over-produced as (M/M\*)^4 and need that much entropy dilution - about 1e10 at M = 1e16 GeV", where M\* is the mass at which the undiluted abundance matches the [dark matter](/wiki/dark-matter). The fourth power comes from the yield growing as the cube of the transition temperature, which scales with M, times one more power of M in the mass density ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
-
-These figures belong to the retired soliton episode, and they moved when round 3 corrected the count ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)):
-
-| Case | Dilution needed | Source |
-|---|---|---|
-| M = 10¹⁶ GeV against M\* = 3×10¹³ GeV, as v3 took it | "1.24e10" | audit notes Step 2; `step2a.out` |
-| M = 10¹⁶ GeV against the corrected M\* | "2.6e13" | audit notes Step 2 ("input M\* wrong") |
-| v3's benchmark, 3×10¹³ GeV, at minimum production | 2.1×10³–1.2×10⁴ [V] | ruling 2; #11 §12 |
-
-The last row is gated in `verify/soliton_obituary.py` as an overproduction factor ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)); the dilution it implies is the adjudication's reading of it ("at least 10³–10⁴", Decision 2). Realistic production makes more monopoles than the minimum, so the required dilution is larger again: "probably far more (ruling 3)".
+The dilution a relic needs is its overproduction factor. For monopoles counted by the Kibble mechanism it grows as (M/M\*)⁴, where M\* is the mass at which the undiluted abundance matches the [dark matter](/wiki/dark-matter) (#14 §3). At v3's benchmark of 3×10¹³ GeV the overproduction at minimum production is 2.1×10³–1.2×10⁴ [V] (ruling 2), which the adjudication reads as a dilution of "at least 10³–10⁴" (Decision 2). These figures belong to the retired soliton episode; the table of them, with the superseded figures for 10¹⁶ GeV, is on [how much dilution a relic needs](/wiki/cosmology/early-universe/relic-yield-and-dilution#how-much-dilution-a-relic-needs).
 
 ### The literature's version
 
-The published analysis of hidden-sector monopoles reaches the same structure. Ruling 3 reads the 2026 paper of Liveoak–Maharana–Wells (LMW) as finding that "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination", and #11 §12 states it as "Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S]" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
+Ruling 3 reads the 2026 paper of Liveoak, Maharana and Wells as finding that "hidden monopoles overclose for breaking scales ≳ 100 PeV unless diluted, e.g. by early matter domination", which #11 §12 cites as [29S] ([the literature's version](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-literatures-version); [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
 
 ## How the program uses it
 
@@ -115,9 +102,7 @@ The soliton candidate was retired after round 3 ([Obituary: superheavy conjugate
 - **(b)** Keep a superheavy mass and name a dilution mechanism: rejected. "Route (b) restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction".
 - **(c)** Retire the candidate: chosen.
 
-Why a free dilution factor removes the prediction follows from the scaling above. Without dilution, the requirement that the monopoles make up exactly the observed dark matter fixes one mass, M\*. With a dilution factor D left free, any heavier mass fits by choosing D in proportion to (M/M\*)⁴, so the abundance no longer selects a mass. #11 §12: "Superheavy masses survive only with a free dilution factor. That removes the mass prediction, which was the candidate's reason to exist."
-
-The superheavy alternative had been kept open before round 3. On 2026-10-19 Paul decided to "move the benchmark to M ≈ 3×10¹³, and keep 10¹⁶ with its ~10¹⁰ dilution as a stated alternative" (`review/v3-worklog.md`, finding F1). That dilution figure rested on the uncorrected count and is superseded ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)); the alternative itself became route (b).
+With a dilution factor D left free, any mass above M\* fits the observed density by the choice of D, so the abundance no longer selects a mass. #11 §12: "Superheavy masses survive only with a free dilution factor. That removes the mass prediction, which was the candidate's reason to exist." The argument, and the superheavy alternative kept before round 3 that became route (b), are on [the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-benchmark-overproduced-and-the-dilution-route-rejected).
 
 ### Reheating in polarization-genesis
 
@@ -150,9 +135,8 @@ The † entries are from model memory and unverified.
 - `papers/broken-born-checkpoint-v2.md` §11.1 — inflationary dilution [T] and the dead monopole explanation; App. A item 5 — the split fate of the supposition
 - `papers/broken-born-checkpoint-v2.md` §12 — early matter domination [29S] and the free dilution factor in the soliton obituary; §13 row 8 — the permanent null for our monopoles; §14 item 7 — polarization-genesis open (OP7)
 - `review/round3-adjudication.md` 'Decisions' 1, 2 — strict sector separation; the three routes and the rejected dilution route; 'Rulings' 2, 3 — the overproduction and the literature; the omitted-constraints list
-- `review/round3/referee/audit-notes.md` Step 2 — the dilution at 10¹⁶ GeV; Step 4(a) item 5 — re-thermalization by ψ; Step 4(c) items 1, 7, 9 — the literature, the Higgs portal, the reheating requirement and isocurvature
-- `review/round3/referee/step2a.out` 'Kibble', `review/round3/referee/step4c.out` — the referee's printed dilution and reheating values
-- `review/v3-worklog.md` 'Findings neither referee raised' (F1) — the superheavy alternative kept before round 3 (superseded)
+- `review/round3/referee/audit-notes.md` Step 4(a) item 5 — re-thermalization by ψ; Step 4(c) items 1, 7, 9 — the literature, the Higgs portal, the reheating requirement and isocurvature
+- `review/round3/referee/step4c.out` — the referee's printed reheating values
 - `notes/knot-dark-matter-standalone.md` §3, §4, §6 — the withdrawn candidate's ordering requirement, its colder hidden sector and the dilution scaling (withdrawn)
 - `notes/broken-born-theory.md` §8 — polarization-genesis at reheating [O, sketched]
 - `HANDOFF.md` §2 — "wrong duality; inflation suffices"

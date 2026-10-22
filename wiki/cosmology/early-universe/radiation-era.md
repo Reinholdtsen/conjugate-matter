@@ -81,25 +81,11 @@ While the plasma stays in equilibrium, the entropy in a comoving volume is conse
 s = (2π²/45) g*s T³
 ```
 
-with g\*s counted like g\* but with a third power of each species' temperature ratio; the two counts agree while all species share one temperature [T]. Conservation of s·a³ means that T falls as 1/a except when g\*s drops: when a species annihilates, its entropy passes to the particles that remain, and the temperature falls more slowly for a while [T].
-
-Because s and a number density n both scale as a⁻³ when nothing is created or destroyed, their ratio, the yield
-
-```text
-Y = n/s
-```
-
-is constant once a relic has stopped interacting. The yield is how relic abundances are carried from the early universe to today: the present density of a relic of mass m is m·Y·s₀, with s₀ the entropy density today [T] ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance)). `verify/soliton_obituary.py` takes s₀ = 2891.2 cm⁻³, the value the round-3 referee took from the PDG's 2024 astrophysical constants (`review/round3/referee/audit-notes.md` Step 2), and builds the dark-matter density from Ωh² = 0.120. The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) used "s_0 ~ 2.9e3 /cm^3" and "mean rho_DM = 1.26 keV/cm^3" (#14 §3), which the referee checked as "OK".
+with g\*s counted like g\* but with a third power of each species' temperature ratio; the two counts agree while all species share one temperature [T]. Conservation of s·a³ means that T falls as 1/a except when g\*s drops: when a species annihilates, its entropy passes to the particles that remain, and the temperature falls more slowly for a while [T]. A relic's number density n also scales as a⁻³ once nothing creates or destroys it, so its yield Y = n/s is constant, and its present density is m·Y·s₀ for a mass m, with s₀ the entropy density today [T]. `verify/soliton_obituary.py` takes s₀ = 2891.2 cm⁻³, the value the round-3 referee took from the PDG's 2024 astrophysical constants (`review/round3/referee/audit-notes.md` Step 2). Why the yield is the conserved measure, its conversion to a density today, what fixes it, and how a later release of entropy divides it are on [the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution).
 
 ### The Kibble yield as a radiation-era formula
 
-The count of [monopoles](/wiki/electric-magnetic-duality/monopoles) a cooling universe forms is a yield, and computing it uses both formulas above. [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) gives at least about one defect per Hubble volume, n ≈ H³ at the transition temperature T_c. Dividing by s gives the form [checkpoint #11](/wiki/history/documents/checkpoint) writes in §12, "n/s = p (T_c/M_Pl)³", with [T]
-
-```text
-p = (1.66 √g*)³ · 45/(2π² g*)
-```
-
-These numbers belong to the retired soliton episode. At g\* = 100 the script prints `p = 104.31 with M_Pl` and, with M̄_Pl in place of M_Pl, `p = 0.828 with reduced M_Pl`. Version 3 of #14 had used p ≈ 0.023, which is the same formula with the Friedmann prefactor 1.66√g\* set to one. Ruling 1 of round 3: "v3's 0.0228 drops (1.66√g\*)³ ≈ 4.6×10³. My error came from misremembering the formula." The script prints the dropped factor as `[4575.6]`. This was the central error of the candidate ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The second anchor of the script is the same normalization taken from the literature, "one defect per Hubble volume gives n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)".
+The count of [monopoles](/wiki/electric-magnetic-duality/monopoles) a cooling universe forms is a yield that uses both formulas above. [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) gives at least about one defect per Hubble volume, n ≈ H³ at the transition temperature T_c, and dividing by s gives the form [checkpoint #11](/wiki/history/documents/checkpoint) writes in §12, "n/s = p (T_c/M_Pl)³", with p = (1.66√g\*)³ · 45/(2π² g\*) [T]. At g\* = 100 the script prints `p = 104.31 with M_Pl` and `p = 0.828 with reduced M_Pl`; its second anchor is the published normalization, "one defect per Hubble volume gives n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)". Version 3 of #14 had used p ≈ 0.023 (#14 §3), the same formula with the Friedmann prefactor 1.66√g\* set to one; ruling 1 of round 3 found that it "drops (1.66√g\*)³ ≈ 4.6×10³". This was the central error of the retired soliton candidate ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The yield's conventions, the gate's output and the dilution a heavier monopole would need are on [the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t).
 
 ## N_eff: counting light species [T]
 
@@ -200,5 +186,5 @@ The review that retired the soliton candidate turned on radiation-era physics in
 - `papers/broken-born-checkpoint-v2.md` §10, §12, §13 row 10 — the dictionary entry; the Kibble yield in the soliton obituary; the program's ΔN_eff prediction
 - `notes/broken-born-theory.md` §6, §9 row 10, §10 — the dictionary table [D]; the dropped ±0.03 target; the optional geometric knobs
 - `notes/broken-born-program-v1.md` §9 row 10 — the row without the figure
-- `notes/knot-dark-matter-standalone.md` §3, §4 — the withdrawn candidate's yield inputs and dark radiation (withdrawn; its body numbers are superseded)
+- `notes/knot-dark-matter-standalone.md` §3, §4 — the withdrawn candidate's p ≈ 0.023 and dark radiation (withdrawn; its body numbers are superseded)
 - `review/wiki-build-flags.md` item 22 — #14's symmetric N_eff interval against the source's asymmetric one; item 32 — CMB-S4's status, unchecked
