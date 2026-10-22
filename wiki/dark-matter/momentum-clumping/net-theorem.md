@@ -25,9 +25,9 @@ sources:
   - "review/wiki-build-flags.md items 19, 27"
 ---
 
-*The net theorem is the summary result of [Debt 3](/wiki/history/debts): in every part of the program's parameter space that survives, dark matter clumping by velocity is never a required phenomenon. For particle dark matter it cannot happen. For wave dark matter it was required only under one assumption about the coupling, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which observation rules out; with the coupling left free, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), it is merely optional. The theorem closes the test of the program's [founding image](/wiki/dark-matter/momentum-clumping/founding-image) with a [negative result](/wiki/method/negative-results), the kind of result [the checkpoint](/wiki/history/documents/checkpoint) counts among its most reliable. It covers collective dynamics only, so whether a single topological object could be localized in momentum is a separate, untested question.*
+*The net theorem is the summary result of [Debt 3](/wiki/history/debts): in every part of the program's parameter space that survives, dark matter clumping by velocity is never a required phenomenon. For particle dark matter it cannot happen. For wave dark matter it was required only under one assumption about the coupling, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which observation rules out; with the coupling left free, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), it is merely optional. The theorem closes the test of the program's [founding image](/wiki/dark-matter/momentum-clumping/founding-image) with a [negative result](/wiki/method/negative-results). It covers collective dynamics only, so whether a single topological object could be localized in momentum is a separate, untested question.*
 
-**Status:** Alive — [D] in #9 §7 ("Three results [D]"); #11 §9 states it as result (iii) without a separate tag, resting on (i) [D] and (ii) [D + T]. Collective dynamics only, at the level of the calc notes' mean-field and wave-kinetic estimates. Not machine-checked: no `verify/` script covers Debt 3.
+**Status:** Alive — [D] in #9 §7 ("Three results [D]"); [#11](/wiki/history/documents/checkpoint) §9 states it as result (iii) without a separate tag, resting on (i) [D] and (ii) [D + T]. Collective dynamics only, at the level of the calc notes' mean-field and wave-kinetic estimates. Not machine-checked: no `verify/` script covers Debt 3.
 
 ## Statement
 
@@ -80,7 +80,7 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 
 ## Weight as evidence
 
-#11 §2: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." Tier 3 is the checkpoint's class of "novel structural physics", held at "plausibility-tier reasoning" ([claim tiers](/wiki/method/claim-tiers); [negative results](/wiki/method/negative-results)). [The round-3 adjudication](/wiki/method/review/round-3/decisions) used the Debt-3 obituary as the precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate): "a dead claim is reported prominently and stays dead" (`review/round3-adjudication.md`, 'Decisions').
+#11 §2 counts §9 among the program's [negative results](/wiki/method/negative-results), which it ranks as the most reliable of its Tier-3 items. Tier 3 is the checkpoint's class of "novel structural physics", held at "plausibility-tier reasoning" ([claim tiers](/wiki/method/claim-tiers)). [The round-3 adjudication](/wiki/method/review/round-3/decisions) cited the Debt-3 obituary as a precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate) (`review/round3-adjudication.md`, 'Decisions').
 
 ## Record
 

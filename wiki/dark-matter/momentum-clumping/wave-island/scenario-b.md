@@ -62,7 +62,7 @@ Any coupling with X between about 5×10⁻¹¹ and 1 satisfies the stream condit
 
 ## Why it is a degeneration flag
 
-In Imre Lakatos's account of research programmes ([Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology)), a programme is progressive while its changes predict new facts, some of which are then observed, and degenerating when its changes only accommodate facts already known [T]. A consequence that the program can switch on or off with a free parameter predicts nothing: it is consistent both with streams and with their absence. Debt 3b drew the conclusion itself:
+In Imre Lakatos's account of research programmes ([Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology)), a programme is progressive while its changes predict new facts, some of which are then observed, and degenerating when its changes only accommodate facts already known [T]. A consequence that the program can switch on or off with a free parameter predicts nothing: it is consistent both with streams and with their absence. Debt 3b states the conclusion:
 
 > In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel requirement of the program, only an option — a degeneration flag.
 

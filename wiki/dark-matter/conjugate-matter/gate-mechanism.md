@@ -27,7 +27,7 @@ sources:
 
 *The gate mechanism is the program's derivation of [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): two particles of [conjugate matter](/wiki/dark-matter/conjugate-matter) interact by exchanging the massive [momentum graviton X](/wiki/gravity/momentum-graviton), and they can do so only where their wavepackets overlap in momentum space. A conjugate quantum has a finite width μ along the momentum directions, as an atomic nucleus has a finite radius in space. A nucleus's size cuts off its scattering at large momentum transfer; the χ quantum's momentum width cuts off its interaction at large relative momentum, which is the same construction with position and momentum exchanged. Because X is heavy, its exchange acts as a contact interaction, and the overlap of the two wavepackets supplies the gate. The derivation is structural: it fixes what the interaction depends on, but the exact shape of the cutoff depends on a propagator and a profile that no document has computed.*
 
-**Status:** Alive — [D — structural, with one honest downgrade] in calc note #6 (`notes/debt1a-ii-X-classification.md` §4), [D — structural] in calc note #5 (`notes/debt1a-geometric-core.md` §E), and [D — mechanism; shape [O]] in the checkpoint (#11 §8) — no explicit X propagator, vertex or overlap integral exists in any source, and no `verify/` script covers it.
+**Status:** Alive — [D — structural] in calc note #6 (`notes/debt1a-ii-X-classification.md` §4), whose tag also records one downgrade (step 7 below), [D — structural] in calc note #5 (`notes/debt1a-geometric-core.md` §E), and [D — mechanism; shape [O]] in the checkpoint (#11 §8) — no explicit X propagator, vertex or overlap integral exists in any source, and no `verify/` script covers it.
 
 ## The statement
 
@@ -63,7 +63,7 @@ A quantum state with a definite profile in momentum, of width μ, is a wavepacke
 6. **The Gaussian case.** If the profiles are Gaussian, the overlap "gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate", which identifies μ with "the χ quantum's own p-width" (#6 §4). The note states this result without showing the overlap integral.
 7. **The downgrade.** "*However*: tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (#6 §4). Tree-level amplitudes are built from propagators and polynomial vertices, which are rational functions of the momenta [T]; a Gaussian can enter only through the external profiles. Which case holds is [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape).
 
-The tag on #6's section is "[D — structural, with one honest downgrade]". The steps are stated, not computed: no source writes the χ–X vertex, the X propagator on the momentum fibers, the χ quantum's profile or the overlap integral. Step 3 rests on a chain that calc note #6 calls "the Euclidean-rigorous skeleton" (§3), derived for a positive-definite metric; its extension to the Lorentzian signature of spacetime is open, item 3 of #11 §14 ([Open: Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing)).
+#6 tags the section [D — structural] and records one downgrade, step 7. The steps are stated, not computed: no source writes the χ–X vertex, the X propagator on the momentum fibers, the χ quantum's profile or the overlap integral. Step 3 rests on a chain that calc note #6 calls "the Euclidean-rigorous skeleton" (§3), derived for a positive-definite metric; its extension to the Lorentzian signature of spacetime is open, item 3 of #11 §14 ([Open: Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 
 ## Position and momentum exchanged
 
@@ -88,9 +88,9 @@ The lab notebook converts μ into the gate velocity, v\* ≡ √2μ/m_χ (#1 §5
 
 The mechanism answers the question Debt 2 posed, where the gate comes from ([the three debts](/wiki/history/debts)). Calc note #8's close-out: "**Debt 2:** mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5). [The handoff](/wiki/history/documents/handoff) lists "gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2).
 
-It also gave up the lab notebook's sharpest prediction. #6 §4 continues:
+It also gave up the lab notebook's sharpest prediction. #6 §4 records it as a downgrade of the flagship row:
 
-> "Honest downgrade to the flagship: **row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential."
+> "**row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential."
 
 (The note writes v_\* for v\*.) The knee is tested in [row 1](/wiki/predictions/self-interaction-knee) of [the predictions table](/wiki/predictions).
 

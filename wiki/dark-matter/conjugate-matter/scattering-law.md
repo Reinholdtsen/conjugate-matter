@@ -84,9 +84,9 @@ The first signature was weakened when the gate's mechanism was derived (below); 
 
 ## The downgrade to a knee
 
-Calc note #6 derived the gate from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) over the overlap of the χ quanta's momentum-space wavepackets ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). A Gaussian gate then requires a Gaussian profile, and generic vertices give rational, power-law-tailed gates. The note draws the consequence for the scattering law:
+Calc note #6 derived the gate from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) over the overlap of the χ quanta's momentum-space wavepackets ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). A Gaussian gate then requires a Gaussian profile, and generic vertices give rational, power-law-tailed gates. The note draws the consequence for the scattering law, a downgrade of the flagship row:
 
-> "Honest downgrade to the flagship: **row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential." (`notes/debt1a-ii-X-classification.md` §4; the note writes v_\* for v\*)
+> "**row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential." (`notes/debt1a-ii-X-classification.md` §4; the note writes v_\* for v\*)
 
 The lab notebook's v0.4 addendum records the amendment: "the exponential cliff weakens to a *sharp knee at v_\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). The knee's existence follows from the gate depending on k, whatever F is; the location is set by μ. What changed is that the steepness, which v0.1 took from the assumed Gaussian, is no longer a prediction.
 
@@ -103,7 +103,7 @@ v1 (#9 §9) already reads "Knee at v\* ~ 10² km/s; tail shape = vertex diagnost
 
 The checkpoint's predictions table (#11 §13) has three rows on this law:
 
-- **Row 1, the knee.** "σ_T(v) across halo masses": requirement "Knee at v\* ~ 10² km/s; zero cluster signal (particle χ)"; killed by "Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band". #11 §15 lists row 1 among the rows of "genuine and near-term" falsification exposure. See [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee).
+- **Row 1, the knee.** "σ_T(v) across halo masses": requirement "Knee at v\* ~ 10² km/s; zero cluster signal (particle χ)"; killed by "Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band". #11 §15 lists row 1, with rows 4 and 7, as the program's near-term falsification exposure. See [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee).
 - **Row 2, isotropy [D].** "Scattering anisotropy": standard expectation "Forward-peaked (light mediators)"; requirement "Isotropic below the gate"; killed by "Morphology demanding forward peaking". See [Row 2: isotropic scattering below the gate](/wiki/predictions/scattering-isotropy).
 - **Row 3, the island discriminant.** "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave", a diagnostic that selects between particle and wave χ rather than a kill condition. See [Row 3: the island discriminant](/wiki/predictions/island-discriminant).
 

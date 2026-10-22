@@ -151,7 +151,7 @@ The kill is carried in every later summary:
 - [The lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.2 (#1): "If the gated channel also makes dwarf cores, condensation is mandatory only in ultra-faint dwarfs, where the attractive endpoint (bosenova cycling above M_crit≈3.6M_P/(m√g)) drains their dark matter — falsified by the observed density and longevity of Segue 1-class systems."
 - [Program v1](/wiki/history/documents/checkpoint) (#9 §7 item 2): "Observed UFDs are the densest, oldest, most DM-dominated systems known: falsified. The light-mass escape is independently excluded (UFD heating bounds ≈ 3×10⁻¹⁹ eV, Dalal & Kravtsov 2022 [T — verify figure]; Lyman-α)."
 - Checkpoint #11 §9 (ii), [D + T]: condensation is mandatory only in ultra-faint dwarfs, "whose attractive endpoint cycles above M_crit ≈ 2.9×10⁻³⁰(m/eV)^{−7/4} M_⊙ [14†] and drains the halo — falsified by observed UFD density and longevity".
-- [The handoff](/wiki/history/documents/handoff) (`HANDOFF.md` §2), under "Dead (killed by own calculations — keep dead)": clumping was "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact)". Its inventory (§3, row 4) summarizes Debt 3c as "Segue 1 endpoint; bosenova drain; Scenario A falsified".
+- [The handoff](/wiki/history/documents/handoff) (`HANDOFF.md` §2), among its dead claims: clumping was "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact)". Its inventory (§3, row 4) summarizes Debt 3c as "Segue 1 endpoint; bosenova drain; Scenario A falsified".
 
 The calculation that killed it is the third of [the Debt-3 calc notes](/wiki/history/documents/debt-3-notes).
 
