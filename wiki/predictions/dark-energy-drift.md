@@ -21,13 +21,14 @@ sources:
   - "notes/broken-born-program-v1.md §9"
   - "review/wiki-build-flags.md item 26"
   - "review/wiki-build-flags.md item 27"
+  - "review/wiki-build-flags.md item 6"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
-*Row 4 is the program's prediction for how dark energy, the cause of the accelerating cosmic expansion, changes over time. The program identifies dark energy with [τ](/wiki/cosmology/dark-energy/tau-quintessence), the angle that locates the vacuum's choice of polarization on a circle; τ has a periodic potential and starts near its maximum, a setup called hilltop quintessence. Such a field makes dark energy weaken slowly ("thaw") and keeps its equation of state w at or above −1, the value of a cosmological constant, so it can never enter the "phantom" regime w < −1. The test is the Dark Energy Spectroscopic Instrument (DESI). Its Data Release 3 (DR3), expected in late 2026, is the decisive one. Its Data Release 2 (DR2) already favours a phantom phase in the past, so the sector is under real pressure. Row 4 is one of the three rows the checkpoint names as the program's near-term falsification exposure.*
+*Row 4 is the program's prediction for how dark energy, the cause of the accelerating cosmic expansion, changes over time. The program identifies dark energy with [τ](/wiki/cosmology/dark-energy/tau-quintessence), the angle that locates the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) on a circle; τ has a periodic potential and starts near its maximum, a setup called hilltop [quintessence](/wiki/cosmology/dark-energy/quintessence). Such a field makes dark energy weaken slowly ("thaw") and keeps its equation of state w at or above −1, the value of a cosmological constant, so it can never enter the "[phantom](/wiki/cosmology/dark-energy/phantom-divide)" regime w < −1. The test is the [Dark Energy Spectroscopic Instrument (DESI)](/wiki/cosmology/dark-energy/desi). Its Data Release 3 (DR3), expected in late 2026, is the decisive one. Its Data Release 2 (DR2) already favours a phantom phase in the past, so the sector is under real pressure. Row 4 is one of the three rows [the checkpoint](/wiki/history/documents/checkpoint) names as the program's near-term falsification exposure.*
 
-**Status:** Alive, under real pressure — [D + T] (#11 §10), with w ≥ −1 [D] and the thawing shape [T] in the lab notebook (#1 §7) — DESI DR2's phantom crossing stands against the strict w ≥ −1 (#11 §10, accepted as round-3 ruling 11; root `CLAUDE.md`: "under real pressure ahead of DR3"); not machine-checked.
+**Status:** Alive, under real pressure — [D + T] (#11 §10), with w ≥ −1 [D] and the thawing shape [T] in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §7) — DESI DR2's phantom crossing stands against the strict w ≥ −1 (#11 §10, accepted as [round-3 ruling 11](/wiki/method/review/round-3/rulings); root `CLAUDE.md`: "under real pressure ahead of DR3"); not machine-checked.
 
 ## The row
 
@@ -67,7 +68,7 @@ A field that starts near the top of its potential is held almost still while the
 
 > "**Thawing shape.** Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)." **[T]**
 
-The tag is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie; neither #1 nor #11 cites a source for it.
+[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie; neither #1 nor #11 cites a source for it.
 
 ### Never phantom
 
@@ -75,7 +76,7 @@ The lab notebook's argument, tagged [D] (#1 §7 item 1, transcribed from its LaT
 
 > "**w ≥ −1 always.** τ is a canonical scalar; the null energy condition holds; phantom crossing is impossible. **[D]** Any robust measurement of w < −1 (as an intrinsic equation of state, not an artifact of an assumed ΛCDM background) falsifies this sector outright."
 
-The steps are short. τ has a kinetic term of the standard sign, so for a uniform field the energy density is ρ = ½τ̇² + V and the pressure p = ½τ̇² − V. Then ρ + p = τ̇² ≥ 0, which is the null energy condition, and with ρ > 0 it gives w ≥ −1 [T]. The potential cancels from ρ + p, so no choice of V breaks the null energy condition; the step from it to w ≥ −1 uses ρ > 0, which holds for the positive dark-energy density observed today [T]. Below −1, dark energy would grow as space expands, which τ cannot do ([the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound#the-derivation); [the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)). The bound applies to τ as the whole of dark energy, a premise #11 supports with its [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10).
+The steps are short. τ has a kinetic term of the standard sign, so for a uniform field the energy density is ρ = ½τ̇² + V and the pressure p = ½τ̇² − V. Then ρ + p = τ̇² ≥ 0, which is the null energy condition, and with ρ > 0 it gives w ≥ −1 [T]. The potential cancels from ρ + p, so no choice of V breaks the null energy condition; the step from it to w ≥ −1 uses ρ > 0, which holds for the positive dark-energy density observed today [T]. Below −1, dark energy would grow as space expands, which τ cannot do ([the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound#the-derivation); [the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)). The bound applies to τ as the whole of dark energy, a premise #11 supports with its [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10). Flag 6 in `review/wiki-build-flags.md` notes that the identity holds for a flat aligned vacuum, which is itself one condition on the gravity sector's coefficients, so it is not a consequence of symmetry alone.
 
 ### The drift persists
 
@@ -123,7 +124,7 @@ The full record, including an italic passage of #11 §10 that still reads DESI's
 ## What the row does not depend on
 
 - **The sign of the potential.** The far-future turnaround of [row 5](/wiki/predictions/fate-of-expansion) needs V(τ) to become negative, which the potential as written never does for V₀ > 0 (`review/wiki-build-flags.md` item 27; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). In this wiki's reading that conflict does not touch row 4: thawing concerns the field near the potential's maximum, and the null energy condition behind w ≥ −1 holds for any V (the bound itself also needs a positive energy density, which today's dark energy has).
-- **The potential's origin.** Where τ's potential comes from is open ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The toy models show the structure is consistent, and #11 §10 adds: "None of this tests the cosmology".
+- **The potential's origin.** Where τ's potential comes from is open ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). [The toy models](/wiki/symmetry-breaking/toy-models) show the structure is consistent, and #11 §10 adds: "None of this tests the cosmology".
 
 ## Superseded: DESI read as support
 
@@ -141,7 +142,7 @@ The destination article #12 states the requirement more strongly than the record
 | v1 (#9 §9) | 4 | "Thawing drift, w₀ > −1, wₐ < 0, on the thawing corridor; **never phantom**; drift persists in DESI DR3" | "DR3+ converging on constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright)" |
 | #11 §13 | 4 | "Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3" | as above, with "— DR2 already favors a crossing above z ≈ 0.4 (§10)" since v2.1 |
 
-The row moved from 5 to 4 when the two clumping rows were withdrawn after Debt 3 ([the history of the predictions table](/wiki/predictions/table-history)); the lab notebook's v0.2 addendum lists it as "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content. The only change of substance is v2.1's clause on DR2.
+The row moved from 5 to 4 when the two clumping rows were withdrawn after [Debt 3](/wiki/history/debts) ([the history of the predictions table](/wiki/predictions/table-history)); the lab notebook's v0.2 addendum lists it as "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content. The only change of substance is v2.1's clause on DR2.
 
 ## Sources
 
@@ -151,5 +152,5 @@ The row moved from 5 to 4 when the two clumping rows were withdrawn after Debt 3
 - `HANDOFF.md` §2 — the external clock and the three outcomes; its "consistent" reading is superseded
 - `notes/broken-born-theory.md` §7 items 1–2 — the no-phantom argument [D] and the thawing shape [T]; §3 — τ's action; §9 — the v0.1 row 5; 'Addendum (v0.2, post Debt-3)' — the row among the live content
 - `notes/broken-born-program-v1.md` §8, §9 — v1's reading of DESI (superseded) and its row 4
-- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn
+- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn; item 6 — the vacuum-energy identity's dependence on the flatness condition
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field' and `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — "three doors" and the popsci-only "constant is impossible"; not status sources

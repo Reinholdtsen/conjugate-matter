@@ -22,7 +22,7 @@ sources:
   - "verify/soliton_obituary.py dark radiation"
 ---
 
-*Row 10 describes two possible imprints of the program's dual, momentum-side gravitational sector on the early universe. The first is a step in the effective strength of gravity, G_eff: the dual sector adds to the square of the effective Planck mass a term that grows toward the past as the sixth inverse power of the cosmic scale factor, a⁻⁶, so it matters only at early times, before the light elements formed in Big Bang nucleosynthesis. The second is negative dark radiation: if the dual space is closed, its curvature acts on our expansion like radiation of negative energy, which lowers the effective number of neutrino species, N_eff. Both follow from the lab notebook's calculation with the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1. The step is optional and the dark radiation conditional on a closed dual space, and their sizes are free parameters (knobs), so a null result bounds the knobs rather than killing the program; #11 names the cosmic microwave background experiment CMB-S4 as the probe.*
+*Row 10 describes two possible imprints of the program's dual, momentum-side gravitational sector on the early universe. The first is a step in the effective strength of gravity, G_eff: the dual sector adds to the square of the effective Planck mass a term that grows toward the past as the sixth inverse power of the cosmic scale factor, a⁻⁶, so it matters only at early times, before the light elements formed in Big Bang nucleosynthesis. The second is negative dark radiation: if the dual space is closed, its curvature acts on our expansion like radiation of negative energy, which lowers the effective number of neutrino species, N_eff. Both follow from [the lab notebook](/wiki/history/documents/lab-notebook)'s calculation with the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1. The step is optional and the dark radiation conditional on a closed dual space, and their sizes are free parameters (knobs), so a null result bounds the knobs rather than killing the program; #11 names the cosmic microwave background experiment CMB-S4 as the probe.*
 
 **Status:** Alive, optional and knob-bounded — [D] (the lab notebook's minisuperspace calculation and dictionary, #1 §6; #11 §10's dictionary is [D — corrected en route]) — not machine-checked; no document compares either imprint with data.
 
@@ -45,7 +45,7 @@ Two measurements of the early universe bear on the row ([the radiation era: ther
 
 ## The standard expectation
 
-"Standard G, N_eff" (#11 §13): Newton's constant has the same value in the early universe as now, and N_eff takes the value of the Standard Model's three neutrinos, a little above 3. The round-3 record uses 3.044 for it (ruling 5) [T].
+"Standard G, N_eff" (#11 §13): Newton's constant has the same value in the early universe as now, and N_eff takes the value of the Standard Model's three neutrinos, a little above 3. The round-3 record uses 3.044 for it ([ruling 5](/wiki/method/review/round-3/rulings)) [T].
 
 ## The Broken-Born requirement
 
@@ -53,7 +53,7 @@ Both imprints come from the lab notebook's cosmology, which rests on two results
 
 ### The constraint a·ã = 1
 
-The program describes the universe with two scale factors, a for position space and ã for momentum space. Rigidity of the symplectic form fixes the volume of a comoving cell of phase space, so (#1 §6, [D]): "each mode occupies (aã)³ × (comoving cell) = ℏ³", and a·ã = const ≡ 1, "the statement that ℏ does not run" ([the derivation](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-derivation)). ã is therefore not an independent variable: wherever it appears, it can be replaced by 1/a. Quotations from #1 on this page are transcribed from its LaTeX.
+The program describes the universe with two scale factors, a for position space and ã for momentum space. Rigidity of [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) fixes the volume of a comoving cell of [phase space](/wiki/phase-space), so (#1 §6, [D]): "each mode occupies (aã)³ × (comoving cell) = ℏ³", and a·ã = const ≡ 1, "the statement that ℏ does not run" ([the derivation](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-derivation)). ã is therefore not an independent variable: wherever it appears, it can be replaced by 1/a. Quotations from #1 on this page are transcribed from its LaTeX.
 
 ### The a⁻⁶ step in G_eff
 
@@ -69,7 +69,7 @@ What the term means, in the notebook's words: "The dual gravitational sector is 
 
 The wiki's reading of the equation: the bracket is an effective Planck mass squared, and the effective strength of gravity is inversely proportional to it. The dual term grows toward the past as a⁻⁶, so at early enough times it dominates the bracket and gravity is weaker than today; as a grows, M_P² takes over and the ordinary Friedmann equation returns. The passage between the two regimes is the "step". The notebook gives neither the step's size nor its time, beyond "before BBN"; M̃ is free. #11 §10 keeps the result in one clause, "the dual Einstein term is an a⁻⁶ step in G_eff" ([the dual gravity term](/wiki/cosmology/scale-factor-duality/duality-dictionary#the-dual-gravity-term)).
 
-"Not a ghost" is a minisuperspace statement. The notebook records that "no Boulware–Deser sector arises in minisuperspace" [D] and that "The statement for full inhomogeneous H is open" [O] (#1 §4). That accounting predates the notebook's v0.4 addendum, after which the momentum-space partner of the metric is a massive spin-2 field ([the momentum graviton X](/wiki/gravity/momentum-graviton)).
+"Not a ghost" is a minisuperspace statement. The notebook records that "no Boulware–Deser sector arises in minisuperspace" [D] and that "The statement for full inhomogeneous H is open" [O] (#1 §4). That analysis predates the notebook's v0.4 addendum, after which the momentum-space partner of the metric is a massive spin-2 field ([the momentum graviton X](/wiki/gravity/momentum-graviton)).
 
 ### Negative dark radiation from a closed dual space
 
@@ -101,7 +101,7 @@ Nothing in the row: "(Knob-bounded; CMB-S4 probes)". A measurement of standard G
 
 No program document compares either imprint with a measurement, and none computes the size of the step or of the negative ΔN_eff for any value of the knobs.
 
-Apart from the notebook's ±0.03 for CMB-S4 (below), the N_eff figures in the record belong to the retired soliton candidate, whose hidden photon would have added positive dark radiation ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The round-3 referee checked the Planck 2018 interval against its source, Planck's combination of its own data with baryon-acoustic-oscillation measurements at 95% confidence: "N_eff = 2.99 +0.34 -0.33" (`review/round3/referee/audit-notes.md`, Step 1, citation [23]; #14 had written "2.99 +- 0.34", `review/wiki-build-flags.md` item 22). With the Standard Model value 3.044, ruling 5 put the 95% bound on extra radiation at ΔN_eff < 0.286, which the gate checks:
+Apart from the notebook's ±0.03 for CMB-S4 (below), the N_eff figures in the record belong to the retired soliton candidate, whose hidden photon would have added positive dark radiation ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The round-3 referee checked the Planck 2018 interval against its source, Planck's combination of its own data with baryon-acoustic-oscillation measurements at 95% confidence: "N_eff = 2.99 +0.34 -0.33" (`review/round3/referee/audit-notes.md`, Step 1, citation [23]; #14 had written "2.99 +- 0.34", `review/wiki-build-flags.md` item 22). With the Standard Model value 3.044, ruling 5 put the 95% bound on extra radiation at ΔN_eff < 0.286, which [the gate](/wiki/method/verification/the-gate) checks ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)):
 
 ```text
 PASS  95% bound Delta N_eff < 0.286  [0.286]
@@ -126,7 +126,7 @@ v1 (#9 §9) changed the row in three ways, and #11 kept v1's form:
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 10 — the row; §10 — the dictionary [D — corrected en route] and "the dual Einstein term is an a⁻⁶ step in G_eff"; §15 — the near-term rows
-- `notes/broken-born-theory.md` §6 — the constraint, the minisuperspace equation, the a⁻⁶ step and the dictionary table [D]; §4 — the minisuperspace ghost accounting; §9 — v0.1's row 10; §10 — the knobs M̃ and k̃. Quotations are transcribed from its LaTeX.
+- `notes/broken-born-theory.md` §6 — the constraint, the minisuperspace equation, the a⁻⁶ step and the dictionary table [D]; §4 — the minisuperspace ghost analysis; §9 — v0.1's row 10; §10 — the knobs M̃ and k̃. Quotations are transcribed from its LaTeX.
 - `notes/broken-born-program-v1.md` §8, §9 — the step as "an optional early-universe fingerprint" and v1's row 10
 - `review/round3/referee/audit-notes.md` Step 1, citation [23] — the Planck 2018 interval, checked against its source
 - `review/round3-adjudication.md` 'Rulings', ruling 5 — the Standard Model value 3.044 and the bound ΔN_eff < 0.286

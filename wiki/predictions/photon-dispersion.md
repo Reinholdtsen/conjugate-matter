@@ -26,7 +26,7 @@ sources:
   - "review/wiki-build-flags.md item 31"
 ---
 
-*Row 9 predicts that the speed of light in vacuum has no correction proportional to a photon's energy. Some approaches to quantum gravity predict such a linear correction, suppressed only by the Planck energy; it would make high-energy photons from a distant gamma-ray burst arrive measurably earlier or later than low-energy photons emitted with them, and burst observations with the Fermi Large Area Telescope exclude it [T]. In the program the linear term is exactly zero, protected by the residual symmetry ρ², the half-turn (x, p) → (−x, −p) of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), and the leading allowed correction is quadratic in the energy and strongly suppressed. The protection argument is a schematic one, made only in the lab notebook before the polarization became a Goldstone angle; no later document restates it. A confirmed linear dispersion would kill the row.*
+*Row 9 predicts that the speed of light in vacuum has no correction proportional to a photon's energy. Some approaches to quantum gravity predict such a linear correction, suppressed only by the Planck energy; it would make high-energy photons from a distant gamma-ray burst arrive measurably earlier or later than low-energy photons emitted with them, and burst observations with the Fermi Large Area Telescope exclude it [T]. In the program the linear term is exactly zero, protected by the residual symmetry ρ², the half-turn (x, p) → (−x, −p) of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), and the leading allowed correction is quadratic in the energy and strongly suppressed. The protection argument is a schematic one, made only in [the lab notebook](/wiki/history/documents/lab-notebook) before the polarization became [a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle); no later document restates it. A confirmed linear dispersion would kill the row.*
 
 **Status:** Alive — the protection argument [D, schematic] and the observational statement [T] both come from the lab notebook (#1 §4), and #11's row cites the ρ² protection without restating the argument — not machine-checked; no program document gives a reference for the bound.
 
@@ -38,7 +38,7 @@ sources:
 | --- | --- | --- | --- |
 | Photon dispersion | GR none; some QG linear | Linear exactly zero (ρ²-protected); quadratic suppressed | Confirmed linear-in-E dispersion |
 
-GR is general relativity and QG quantum gravity; E is the photon energy.
+GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity) and QG quantum gravity; E is the photon energy.
 
 ## The observable [T]
 
@@ -54,7 +54,7 @@ The test is a race over cosmological distances. A gamma-ray burst emits photons 
 
 ## The standard expectation
 
-"GR none; some QG linear" (#11 §13). General relativity, like special relativity, has exact local Lorentz invariance, and photons in vacuum do not disperse [T]. Some approaches to quantum gravity predict an energy-dependent speed of light with a linear term, and the proposal to test this with gamma-ray bursts is G. Amelino-Camelia, J. Ellis, N. E. Mavromatos, D. V. Nanopoulos and S. Sarkar, "Tests of quantum gravity from observations of γ-ray bursts," Nature 393, 763 (1998) (†, cited from memory; no program document cites it). The lab notebook's version of the column: "None (GR); linear in some QG" (#1 §9).
+"GR none; some QG linear" (#11 §13). General relativity, like [special relativity](/wiki/conjugate-relativity/special-relativity), has exact local Lorentz invariance, and photons in vacuum do not disperse [T]. Some approaches to quantum gravity predict an energy-dependent speed of light with a linear term, and the proposal to test this with gamma-ray bursts is G. Amelino-Camelia, J. Ellis, N. E. Mavromatos, D. V. Nanopoulos and S. Sarkar, "Tests of quantum gravity from observations of γ-ray bursts," Nature 393, 763 (1998) (†, cited from memory; no program document cites it). The lab notebook's version of the column: "None (GR); linear in some QG" (#1 §9).
 
 ## The Broken-Born requirement
 
@@ -78,19 +78,19 @@ The notebook does not show how an operator linear in energy transforms under ρ�
 
 ## The argument after P2′
 
-The argument was made under the [original P2](/wiki/program/postulates/original-p2), in which the symplectic form ω and the neutral metric η are both rigid; under it, as #11 §5 states, "the compatible polarizations are discrete" (a statement queried for d ≥ 2 in flag 1 of `review/wiki-build-flags.md`). The program replaced it with [P2′](/wiki/program/postulates/p2-prime), in which only ω is rigid and η is the order parameter. Since v2.2, from the toy models: "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The Goldstone picture governs, and the breaking pattern ℤ₄ → ℤ₂ is superseded ([Superseded: the discrete breaking pattern](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)).
+The argument was made under the [original P2](/wiki/program/postulates/original-p2), in which [the symplectic form ω](/wiki/phase-space/reciprocity/symplectic-form) and the neutral metric η are both rigid; under it, as #11 §5 states, "the compatible polarizations are discrete" (a statement queried for d ≥ 2 in flag 1 of `review/wiki-build-flags.md`). The program replaced it with [P2′](/wiki/program/postulates/p2-prime), in which only ω is rigid and η is the order parameter. Since v2.2, from [the toy models](/wiki/symmetry-breaking/toy-models): "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The Goldstone picture governs, and the breaking pattern ℤ₄ → ℤ₂ is superseded ([Superseded: the discrete breaking pattern](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)).
 
 ρ² itself survives in the toy models, for d = 1:
 
-- ρ "is symplectic and squares to −1" (toy note §1), so ρ² = −1, the phase-space parity (x, p) → (−x, −p). "The stabilizer of (1, K₀) in Sp(2,ℝ) is {±1}" (toy note §2): the vacuum of the coset model keeps exactly {1, ρ²}.
-- The gate checks both statements ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)):
+- ρ "is symplectic and squares to −1" (toy note §1), so ρ² = −1, the phase-space parity (x, p) → (−x, −p). "The stabilizer of (1, K₀) in Sp(2,ℝ) is {±1}" (toy note §2): the vacuum of [the coset model](/wiki/symmetry-breaking/toy-models/coset-model) keeps exactly {1, ρ²}.
+- [The gate](/wiki/method/verification/the-gate) checks both statements ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)):
 
 ```text
 PASS  rho is symplectic and is the quarter turn: rho^2 = -1
 PASS  the stabilizer of the vacuum (1, K0) in Sp(2,R) is {+1, -1} (so the orbit is 3-dimensional)
 ```
 
-- With the ρ-preserving potential in the frozen-H reduction, the round-4 referee found the residual group inside the rotations to be {±1, ±ρ}, which contains ρ² (`review/round4/referee/audit-notes.md`, Step 2(c) and Step 3; [what remains of it](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)).
+- With the ρ-preserving potential in the [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), the [round-4](/wiki/method/review/round-4) referee found the residual group inside the rotations to be {±1, ±ρ}, which contains ρ² (`review/round4/referee/audit-notes.md`, Step 2(c) and Step 3; [what remains of it](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)). The potential examined was the note's first form, which the same review found unbounded once H moves ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#the-residual-symmetry)).
 
 No document applies these statements to row 9, restates the protection argument in the Goldstone picture, or extends it from the toy's d = 1 to phase space over 3+1 dimensions. The row's rationale exists only in #1.
 
@@ -100,7 +100,7 @@ No document applies these statements to row 9, restates the protection argument 
 
 > "One free consistency dividend already available: since our massless dispersion E = c|p| *is* the dual null cone, the Fermi-LAT bounds excluding linear photon-dispersion violations [T] constrain both cones at once — every test of our light cone's rigidity has been, unknowingly, a test of theirs."
 
-The dual null cone is the light cone of momentum space ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). The reading is unsettled. #13 §1 builds its dual cone in time and momentum, with slope the maximum force c̃, while §6's statement, in the v3 worklog's words, "belongs to the 4D Born map (t ↔ E): a cone in (E, p) with slope c". The worklog's instruction: "Before any paper claims more: fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" (`review/v3-worklog.md`, item O3; [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency#the-photon-dispersion-argument)). The four-dimensional map itself is open ([Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map)). #11's row makes no reference to #13.
+The dual null cone is the light cone of momentum space ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). The reading is unsettled. #13 §1 builds its dual cone in time and momentum, with slope the [maximum force c̃](/wiki/conjugate-relativity/maximum-force), while §6's statement, in the v3 worklog's words, "belongs to the 4D Born map (t ↔ E): a cone in (E, p) with slope c". The worklog's instruction: "Before any paper claims more: fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" (`review/v3-worklog.md`, item O3; [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency#the-photon-dispersion-argument)). The four-dimensional map itself is open ([Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map)). #11's row makes no reference to #13.
 
 ## What kills it
 
@@ -124,7 +124,7 @@ The data are consistent with the row: no linear dispersion has been found, and b
 | v1 (#9 §9) | "Linear term exactly zero (protected by ρ²); quadratic allowed, suppressed" | "Confirmed linear-in-E dispersion" |
 | #11 §13 | "Linear exactly zero (ρ²-protected); quadratic suppressed" | "Confirmed linear-in-E dispersion" |
 
-The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1 and v2.2 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after Debt 3, groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, post Debt-3)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
+The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1 and v2.2 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [Debt 3](/wiki/history/debts), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, post Debt-3)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Sources
 
