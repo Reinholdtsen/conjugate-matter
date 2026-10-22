@@ -34,7 +34,7 @@ sources:
 
 ## The potential and its five coefficients
 
-After [the tuning test](/wiki/gravity/tuning-test), the program's spin-2 sector is a [Hassan–Rosen bimetric](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential written in frame variables. Its two frames are e and f = E₀[J], the second built from the vacuum's polarization J ([the frame tier](/wiki/gravity/tuning-test/frame-tier)); g and f in the formula below are the corresponding metrics. Calc note #8 §1 writes it as
+After [the tuning test](/wiki/gravity/tuning-test), the program's spin-2 sector is a [Hassan–Rosen bimetric](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential written in frame variables. Its two frames are e and f = E₀[J], the second built from the vacuum's [polarization J](/wiki/symmetry-breaking/order-parameter) ([the frame tier](/wiki/gravity/tuning-test/frame-tier)); g and f in the formula below are the corresponding metrics. Calc note #8 §1 writes it as
 
 ```text
 V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏),        𝕏 = √(g⁻¹f)
@@ -76,7 +76,7 @@ After both steps β₁ and β₂ are free, and the other three follow: β₃ = �
 
 The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass term is the only ghost-free quadratic mass term of a spin-2 field. Expanded to second order about the aligned point, a bimetric potential produces it with a coefficient proportional to β₁ + 2β₂ + β₃ [T]. With the palindrome's β₃ = β₁ this combination is 2(β₁ + β₂). Neither β₀ nor β₄ enters it, so the vacuum condition of step 2 fixes them without fixing the mass. #8 says nothing further about the second parameter beyond its role in the cubic interactions.
 
-#11 §7.5 [D] restates the count as "Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape)." #8 states the proportionality for the squared mass m_FP², and #11 writes it for M_X.
+#11 §7.5 [D] restates the count as "Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape)." #8 states the proportionality for the squared mass m_FP², and #11 writes it for M_X (see flag 5 in `review/wiki-build-flags.md`).
 
 ### No value for M_X
 
@@ -117,7 +117,7 @@ Two consequences are worked out elsewhere. Matter coupled to g "sees both eigens
 ## What follows
 
 - **Row 6.** Bounds on the graviton mass from gravitational-wave observations constrain the massless eigenstate. In #8 §3's words, these bounds "apply to the even eigenstate, which is exactly massless", and #11 §7.5 calls them satisfied identically. #11 §13 row 6: standard expectation "m_g = 0"; Broken-Born requirement "Massless eigenstate exactly massless (reciprocity-even)"; killed by "Nonzero mass attributed to the even eigenstate" ([Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton)).
-- **The predictive truncation, counted.** Calc note #7 §4 had called the program's gravity sector "a *predictive truncation* of bimetric theory" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). #8 §3 quantifies it: the "five-function freedom" of Hassan–Rosen bimetric gravity, its five constant coefficients, "collapses to two numbers".
+- **The predictive truncation, counted.** Calc note #7 §4 had called the program's gravity sector "a *predictive truncation* of bimetric theory" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). #8 §3 quantifies it: the "five-function freedom" of Hassan–Rosen bimetric gravity, its five constant coefficients, "collapses to two numbers" (on "five-function", see flag 8 in `review/wiki-build-flags.md`).
 - **Born's answer.** The "two free parameters" in the program's summary of its gravity results are these two ([Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer)).
 
 ## Superseded: the graviton-mass bound as a mixing-angle check

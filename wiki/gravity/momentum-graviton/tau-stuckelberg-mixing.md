@@ -55,13 +55,13 @@ X becomes massive through [the gravitational Higgs mechanism](/wiki/gravity/mome
 
 ### τ
 
-τ is the dark-energy field. It is a coordinate on [the Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian), the compact space of possible [polarizations J](/wiki/symmetry-breaking/order-parameter), and specifically its [Maslov phase](/wiki/phase-space/modular-field/maslov-phase): "the dark-energy field τ is the Maslov phase of the boundary variable, its periodicity a fact of topology (π₁(U(d)/O(d)) = ℤ)" (#11 §6). Its dynamics as dark energy are on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
+τ is the dark-energy field. It is a coordinate on [the Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian), the compact space of possible [polarizations J](/wiki/symmetry-breaking/order-parameter), and specifically its [Maslov phase](/wiki/phase-space/modular-field/maslov-phase): "the dark-energy field τ is the Maslov phase of the boundary variable, its periodicity a fact of topology (π₁(U(d)/O(d)) = ℤ)" (#11 §6). Its dynamics as [dark energy](/wiki/cosmology/dark-energy) are on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
 
 The leading-order argument separates τ from the absorbed modes by where each comes from. Calc note #6 §3: "The Λ(d) moduli, τ included, are not the eaten modes — they carry the compact phase directions, which constant shifts do not generate". Calc note #8 §3: "τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field." #11 §7.5 [D]: "τ un-eaten (compact J-sector, not the Stückelberg sector)."
 
 ### Where the sectors meet
 
-#8 says the residual mixing arises "through the potential". The potential that gives X its mass is, in the Debt-1 notes, a wedge polynomial of two frames: the symplectic vielbein E and the polarization frame E₀[J] (#7 §3; [the frame tier](/wiki/gravity/tuning-test/frame-tier)), written for the frames e and f = E₀[J] as V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏) (#8 §1; [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)). The second frame depends on J, and τ is one of J's moduli, so the potential involves both sectors. The notes write no formula for the mixing.
+#8 says the residual mixing arises "through the potential". The potential that gives X its mass is, in the Debt-1 notes, a [wedge polynomial](/wiki/gravity/spin-2-fields/vielbein-formulation) of two frames: the symplectic vielbein E and the polarization frame E₀[J] (#7 §3; [the frame tier](/wiki/gravity/tuning-test/frame-tier)), written for the frames e and f = E₀[J] as V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏) (#8 §1; [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)). The second frame depends on J, and τ is one of J's moduli, so the potential involves both sectors. The notes write no formula for the mixing.
 
 ## What the leading-order result leaves open
 
@@ -79,7 +79,7 @@ The leading-order argument separates τ from the absorbed modes by where each co
 
 ## Priority
 
-#11 §15 says "the word 'theory' still waits on items 1–3" of §14: [deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction), [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing). Item 6 is not among them. The current queue in the root `CLAUDE.md` ("Since the handoff") is `HANDOFF.md` §8 items 5–7 (the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery) and the phase-space-diameter note), then an optional round-5 review of the [toy-model note](/wiki/symmetry-breaking/toy-models); the mixing matrix is not on it.
+#11 §15 says "the word 'theory' still waits on items 1–3" of §14: [deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction), [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing). Item 6 is not among them. The current queue in the root `CLAUDE.md` ("Since the handoff") is `HANDOFF.md` §8 items 5–7 (the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery) and [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter)), then an optional round-5 review of the [toy-model note](/wiki/symmetry-breaking/toy-models); the mixing matrix is not on it.
 
 ## Sources
 

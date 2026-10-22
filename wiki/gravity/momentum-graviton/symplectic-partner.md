@@ -84,7 +84,7 @@ eta-only family (O(d,d) generalized metric with B-field): eta residual <= 7e-14 
 omega-only family (Siegel, X != 0): omega residual <= 3e-14 but eta residual >= 0.52 (d=3), 1.87 (d=4).
 ```
 
-Every B-field metric sampled is compatible with η to rounding error and misses compatibility with ω by a finite margin; every X metric is compatible with ω and misses η. The audit's scripts sit in `review/round3/referee/` and are not part of the gate.
+Every B-field metric sampled is compatible with η to rounding error and misses compatibility with ω by a finite margin; every X metric is compatible with ω and misses η. The audit's scripts sit in `review/round3/referee/` and are not part of [the gate](/wiki/method/verification/the-gate).
 
 ## From symmetry type to spin
 
@@ -99,7 +99,7 @@ Hence the observation as #6 words it: the symplectic partner of the graviton is 
 
 The documents use the observation to explain a difference between two lines of work: "This is the structural reason string theory's η-doubling exists and naive ω-doubling is hard" (#6 §2), and "why string theory's doubling works and Born's stalled" (#11 §15). Doubling with η gives a partner that causes no difficulty; doubling with ω gives a second graviton, which a consistent theory can carry only if it is massive.
 
-The program does not stop at the difficulty. #11 §7 continues that mass is the only exit, and that the vacuum's choice of polarization provides it: X absorbs the [would-be Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs) of the broken dual diffeomorphisms and becomes a massive spin-2 field ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). Whether that massive field is healthy was [the tuning test](/wiki/gravity/tuning-test).
+The program does not stop at the difficulty. #11 §7 continues that mass is the only exit, and that the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) provides it: X absorbs the [would-be Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs) of the broken dual diffeomorphisms and becomes a massive spin-2 field ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). Whether that massive field is healthy was [the tuning test](/wiki/gravity/tuning-test).
 
 The v1 paper's plain-language passage called the observation "the deep reason string theory's version of doubled geometry works" (#9 §5); #11's passage says "the structural reason".
 
@@ -113,7 +113,7 @@ If η and ω are both held fixed, neither partner survives. This is corollary 2 
 
 ## Superseded: the v1 count of two standalone results
 
-The v1 paper counted two results that would outlast the program: "This one has produced at least two results that stand on their own regardless of its fate — the observation that the symplectic partner of the graviton is another graviton (explaining why string theory's doubling works and Born's stalled), and the palindrome theorem cancelling the symmetric-bimetric vacuum energy" (#9 §11). #11 §15 keeps only the first. The second, now [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity), was downgraded by #11 §7.4 after a literature search found the partially-massless parameter point inside the same branch: the novelty claim went from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature", PM being partially massless ([the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison)). It is "one identity awaiting a novelty verdict" (#11 §15).
+The v1 paper counted two results that would outlast the program: "This one has produced at least two results that stand on their own regardless of its fate — the observation that the symplectic partner of the graviton is another graviton (explaining why string theory's doubling works and Born's stalled), and the palindrome theorem cancelling the symmetric-bimetric vacuum energy" (#9 §11). #11 §15 keeps only the first. The second, now [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity), was downgraded by #11 §7.4 after a literature search found the [partially-massless parameter point](/wiki/gravity/spin-2-fields/partially-massless-gravity) inside the same branch: the novelty claim went from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature", PM being partially massless ([the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison)). It is "one identity awaiting a novelty verdict" (#11 §15).
 
 ## Popsci-only: a forty-year asymmetry
 
@@ -121,7 +121,7 @@ The first popular article puts a date on the asymmetry: "(As a side effect, this
 
 ## Scope and caveats
 
-- **A quoted ambiguity.** #6's phrase "η antisymmetric-pairing vs ω" is quoted unchanged and not paraphrased. η itself is a symmetric pairing, "a neutral (split-signature) metric" ([lab notebook](/wiki/history/documents/lab-notebook) #1 §1, postulate P1), so the phrase is ambiguous as written. #11 §7.1's restatement, "the symmetry type of the rigid pairing dictates the partner's spin", does not use it.
+- **A quoted ambiguity.** #6's phrase "η antisymmetric-pairing vs ω" is quoted unchanged and not paraphrased. η itself is a symmetric pairing, "a neutral (split-signature) metric" ([lab notebook](/wiki/history/documents/lab-notebook) #1 §1, postulate [P1](/wiki/program/postulates/p1-arena)), so the phrase is ambiguous as written (see flag 15 in `review/wiki-build-flags.md`). #11 §7.1's restatement, "the symmetry type of the rigid pairing dictates the partner's spin", does not use it.
 - **Structural, not computed.** The program's part [D] is the identification of X as the partner and of its local gauge structure; the facts it is set against, double field theory's B-field and the no-go theorem, are literature [T]. No document writes an action for X, and no script checks the argument; the round-3 numbers above check only that the two families of metrics are compatible with different pairings.
 - **Positive metrics.** The Siegel parametrization assumes a positive-definite H, and #6 calls the chain of its §1–§3 "the Euclidean-rigorous skeleton" (§3); the extension to spacetime signature is open item 3 ([Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 
