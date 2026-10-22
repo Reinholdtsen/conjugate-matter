@@ -78,7 +78,7 @@ Every member of this family is the vacuum carried by a symmetry of model I's own
 | V_μ at μ = 1, adjudicator (`arb.out`) | −4.0000e+00 | — | −5.6616e+01 | −2.9830e+03 | −8.8861e+06 |
 | compatibility term, adjudicator (`arb.out`) | 0.00e+00 | — | 6.38e-30 | 1.18e-24 | 2.66e-14 |
 
-The adjudication's summary: "along H = SᵀS, K = S⁻¹K₀S (S a boost), the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4." Version 2 of the note: "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4." (§4). The gate repeats the endpoint, "quoted: unbounded below - at boost t = 4 the compatibility term is ~0 and -[Tr(K K_ref)]^2 = -8.9e6", and prints −8.8861e+06 (`verify/toy_coset.py`).
+The adjudication's summary: "along H = SᵀS, K = S⁻¹K₀S (S a boost), the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4." Version 2 of the note: "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4." (§4). [The gate](/wiki/method/verification/the-gate) repeats the endpoint, "quoted: unbounded below - at boost t = 4 the compatibility term is ~0 and -[Tr(K K_ref)]^2 = -8.9e6", and prints −8.8861e+06 (`verify/toy_coset.py`).
 
 Nothing in model I bounds this decrease. Both kinetic terms vanish for constant fields and the compatibility term is zero along the whole family, so the added potential is the only term that changes, and it decreases without bound.
 
@@ -97,7 +97,7 @@ The consequence, in the referee's words: "The 'two vacua K=+-K_ref' exist only i
 
 ### The residual symmetry
 
-The referee also worked out, with sympy, which elements of Sp(2, ℝ) the potential leaves invariant: those that carry K_ref to ±K_ref (Step 2(c); `review/round4/referee/out_sec4_extra.txt`). S⁻¹K_ref S = +K_ref forces S = diag(a, 1/a), and S⁻¹K_ref S = −K_ref forces S = [[0, −1/c], [c, 0]]. "So the potential leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (Step 2(c); capitals lowered here). The referee's "boost subgroup" is the stretches diag(a, 1/a) of the x- and p-axes, which this wiki calls squeezes ([the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form)). Among the rotations only ±1 and ±ρ survive, so ρ is kept, as intended.
+The referee also worked out, with sympy, which elements of Sp(2, ℝ) the potential leaves invariant: those that carry K_ref to ±K_ref (Step 2(c); `review/round4/referee/out_sec4_extra.txt`). S⁻¹K_ref S = +K_ref forces S = diag(a, 1/a), and S⁻¹K_ref S = −K_ref forces S = [[0, −1/c], [c, 0]]. "So the potential leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (Step 2(c); capitals lowered here). The referee's "boost subgroup" is the stretches diag(a, 1/a) of the x- and p-axes, which this wiki calls squeezes ([the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form); on the referee's two uses of the word boost, see flag 10 in `review/wiki-build-flags.md`). Among the rotations only ±1 and ±ρ survive, so ρ is kept, as intended.
 
 The runaway boosts S(t) stretch along the diagonals x ± p. For t ≠ 0 they are neither squeezes of the x- and p-axes nor rotations, so the potential is not invariant along them, and that is where it falls. The referee drew the same connection: "Combined with F1/F2: in model I proper, the boost direction is where the potential runs away."
 

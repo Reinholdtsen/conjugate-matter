@@ -40,7 +40,7 @@ At the metric H = 1 the potential is zero exactly when K is symmetric ("|C|^2 = 
 K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]]
 ```
 
-The gate checks that "K(phi) is a compatible real structure for every phi" and that "V vanishes on the circle K(phi) at H = 1". K(φ) leaves the line at angle φ/2 in place and reverses the perpendicular line [T], so its eigenlines are L+ at angle φ/2 and L− at φ/2 + π/2. These are the null lines of η = ωK(φ) that the referee found: for v(t) = (cos t, sin t), "v(t)^T eta v(t) = sin(phi - 2t): zeros exactly at t = phi/2, phi/2+pi/2" (`review/round4/referee/audit-notes.md`, Step 2(d)). At φ = 0, K(0) = K₀ = diag(1, −1), and L+ is the x-axis.
+[The gate](/wiki/method/verification/the-gate) checks that "K(phi) is a compatible real structure for every phi" and that "V vanishes on the circle K(phi) at H = 1". K(φ) leaves the line at angle φ/2 in place and reverses the perpendicular line [T], so its eigenlines are L+ at angle φ/2 and L− at φ/2 + π/2. These are the null lines of η = ωK(φ) that the referee found: for v(t) = (cos t, sin t), "v(t)^T eta v(t) = sin(phi - 2t): zeros exactly at t = phi/2, phi/2+pi/2" (`review/round4/referee/audit-notes.md`, Step 2(d)). At φ = 0, K(0) = K₀ = diag(1, −1), and L+ is the x-axis.
 
 As φ goes once around its circle, L+ makes a half-turn and passes through every line through the origin exactly once. The circle of vacua at H = 1 is therefore the set of all possible position axes [T].
 
@@ -99,7 +99,7 @@ The vacuum is not fixed by ρ, but it is fixed by ρ combined with the flip: "Bu
 
 ### The bridge to τ: consistency only
 
-Checkpoint #11 uses the compact direction in its cosmology: "In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." It adds: "None of this tests the cosmology; it only shows the structure is consistent." (§10, "Toy-model support (v2.2) [D][V]"; [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase); [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). The note says the same: "Motivation, not result. In a parent framework the polarization angle is identified with a dark-energy field. The Goldstone structure here is consistent with that, but untested by it." (§6). The worklog's further remark that "both toys support §10's identification" is broader than #11's wording, which ties Λ(1) to the coset model's angle (§10) ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
+Checkpoint #11 uses the compact direction in its [cosmology](/wiki/cosmology): "In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits." It adds: "None of this tests the cosmology; it only shows the structure is consistent." (§10, "Toy-model support (v2.2) [D][V]"; [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase); [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). The note says the same: "Motivation, not result. In a parent framework the polarization angle is identified with a dark-energy field. The Goldstone structure here is consistent with that, but untested by it." (§6). The worklog's further remark that "both toys support §10's identification" is broader than #11's wording, which ties Λ(1) to the coset model's angle (§10) ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
 ## History
 

@@ -26,7 +26,7 @@ sources:
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
 ---
 
-*The frozen-H reduction is [model I](/wiki/symmetry-breaking/toy-models/coset-model) with its metric field held fixed at H = 1, so that the only remaining field is the polarization angle φ of the real structure K(φ). In that form the model is a two-dimensional spin model of one angle, with a stiffness term and a ρ-preserving potential, and it can be simulated on a lattice. The ordered ℤ₂ phase the simulation finds is a result about this reduction; with H dynamical, ordering is not established. [Round 4](/wiki/method/review/round-4) required the text to say so, after showing that the first potential tried was stable only while H stayed frozen. It also replaced the claim of "Ising-class" breaking with "an ordered ℤ₂ phase", because data at one temperature establish order but not a universality class.*
+*The frozen-H reduction is [model I](/wiki/symmetry-breaking/toy-models/coset-model) with its metric field held fixed at H = 1, so that the only remaining field is the polarization angle φ of the real structure K(φ). In that form the model is a two-dimensional spin model of one angle, with a stiffness term and a [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), and it can be simulated on a lattice. The ordered ℤ₂ phase the simulation finds is a result about this reduction; with H dynamical, ordering is not established. [Round 4](/wiki/method/review/round-4) required the text to say so, after showing that [the first potential tried](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) was stable only while H stayed frozen. It also replaced the claim of "Ising-class" breaking with "an ordered ℤ₂ phase", because data at one temperature establish order but not a universality class.*
 
 **Status:** Alive, as the stated scope of the lattice result — untagged — required by round-4 revision 1 ("Present the Monte Carlo as the frozen-H reduction, explicitly"), stated in version 2, §4 and §6, and in [#11](/wiki/history/documents/checkpoint) §14 item 11; simulated in `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
@@ -67,7 +67,7 @@ Version 2, §6, under "Shown": "Model I: an ordered ℤ₂ phase in the frozen-H
 
 ## How spontaneous the breaking is
 
-The referee asked whether "spontaneous breaking" is a fair description of model I in 1+1, and answered (Step 3; its notes abbreviate spontaneous symmetry breaking as SSB):
+The referee asked whether "spontaneous breaking" is a fair description of model I in 1+1, and answered (Step 3; its notes abbreviate [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) as SSB):
 
 > With H frozen: yes, standard Ising-type SSB of the residual Z2 = <rho>/<rho^2> (the potential's SO(2) residue is {+-1, +-rho}, sympy). But the potential fixes the unordered axis pair by hand, so the vacuum chooses only which of two pre-set axes is "position". The manuscript says this in Sec. 6 ("rigid unordered pair of axes"); the abstract's "rho is spontaneously broken" should carry the qualifier and the frozen-H caveat. With H dynamical as written: not established (C3).
 
@@ -75,7 +75,7 @@ So in the reduction one thing is put in and one is chosen. The potential fixes t
 
 The [pre-registration](/wiki/method/review/pre-registration) had predicted this as round 4's weakest link: "in 1+1, the 'spontaneous' breaking of ρ rests on an explicit, rigid background. The ρ-preserving potential needs a fixed unordered pair of axes K_ref. A referee can reasonably call model I's 1+1 result an ordinary Z₂ breaking of an explicitly chosen axis pair. Model I without it is a coset construction by definition." (`review/round4-preregistration.md`). The adjudication scored it "Partial: right location, missed severity": the referee found a worse defect at the same spot, the unbounded potential.
 
-The worklog's revised conclusion describes what the toy supports: "'broken reciprocity' in the form 'a pseudo-Goldstone polarization angle with a ρ-symmetric potential', not 'only ω rigid, nothing else'." ('Chunk 3 results'). A pseudo-Goldstone mode is a flat direction given a small energy cost by a small explicit breaking of the symmetry [T] ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
+The worklog's revised conclusion describes what the toy supports: "'broken reciprocity' in the form 'a pseudo-Goldstone polarization angle with a ρ-symmetric potential', not 'only ω rigid, nothing else'." ('Chunk 3 results'). A [pseudo-Goldstone mode](/wiki/symmetry-breaking/goldstone-and-higgs#pseudo-goldstone-modes) is a flat direction given a small energy cost by a small explicit breaking of the symmetry [T] ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
 ## Superseded: Ising-class breaking in model I
 

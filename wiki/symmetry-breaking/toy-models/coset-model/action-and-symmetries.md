@@ -77,7 +77,7 @@ The obvious kinetic term for K, Tr(∂K ∂K), would carry a ghost. Version 2: "
 The contracted term Tr(H⁻¹ ∂Kᵀ H ∂K) is positive for every nonzero ∂K [T]: it equals the sum of the squares of the entries of H^{1/2} ∂K H^{−1/2}, since H is symmetric and positive. The sources state the positivity and check it numerically:
 
 - the referee, with sympy: "naive Tr(dK dK) at K0 = '2*db*dc' (indefinite); H-contracted at H=1 = 'db**2 + dc**2'"; and over random samples of H and ∂K, the smallest ratio of the term to the sum of the squared entries of ∂K was 0.0598 (`out_model1.txt`; audit notes Step 2(a));
-- the gate: "the K kinetic term Tr(H^-1 dK^T H dK) is positive for random H and dK (no ghost)" and "the naive Tr(dK dK) is indefinite on K's target space (de Sitter): 2 db dc" (`verify/toy_coset.py`).
+- [the gate](/wiki/method/verification/the-gate): "the K kinetic term Tr(H^-1 dK^T H dK) is positive for random H and dK (no ghost)" and "the naive Tr(dK dK) is indefinite on K's target space (de Sitter): 2 db dc" (`verify/toy_coset.py`).
 
 The contraction keeps the symmetry. Under S, ∂K → S⁻¹∂K S and H → SᵀHS, so H⁻¹ ∂Kᵀ H ∂K becomes S⁻¹(H⁻¹ ∂Kᵀ H ∂K)S and its trace is unchanged [T]. It also couples the two sectors: K's kinetic energy now depends on H.
 
@@ -102,13 +102,13 @@ The flip K → −K is a symmetry because the two terms that involve K are quadr
 
 The worklog records the result as "S1 pass [V]: all three terms are invariant under a generic symplectic S (H → SᵀHS, K → S⁻¹KS), under ρ, and under K → −K." ('Chunk 1 results'). The round-4 referee repeated the computation in its own conventions and found "transformed - original = 0" for each term, and invariance under K → −K (`out_model1.txt`; audit notes Step 2(a)).
 
-**What S1 asks for.** Criterion S1 demands "An explicit action S[fields] on which ρ acts as a symmetry: S is invariant, not merely related to its image by a unitary equivalence. Invariance is verified symbolically." (worklog, 'Success criteria'; [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). In quantum mechanics ρ is carried out by the Fourier transform, a unitary change of description that any theory admits; that does not make ρ a symmetry of the dynamics ([unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence)). In model I, ρ acts on the fields H and K, and the action is unchanged. [Checkpoint #11](/wiki/history/documents/checkpoint) §14 item 11 counts this as the first part of acceptance criterion 1: "ρ is a symmetry of an explicit action, and η = ωK is the order parameter".
+**What S1 asks for.** Criterion S1 demands "An explicit action S[fields] on which ρ acts as a symmetry: S is invariant, not merely related to its image by a unitary equivalence. Invariance is verified symbolically." (worklog, 'Success criteria'; [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). In quantum mechanics ρ is carried out by the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform), a unitary change of description that any theory admits; that does not make ρ a symmetry of the dynamics ([unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence)). In model I, ρ acts on the fields H and K, and the action is unchanged. [Checkpoint #11](/wiki/history/documents/checkpoint) §14 item 11 counts this as the first part of acceptance criterion 1: "ρ is a symmetry of an explicit action, and η = ωK is the order parameter".
 
 ## What the symmetries imply
 
 - **The vacua break them.** The vacua are the compatible constant pairs, and ρ carries each one to a different one ([Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
 - **The flip qualifies the breaking.** K → −K is also a symmetry, so the composite ρ∘(K → −K), the twisted element, is one too, and it maps the vacuum (1, K₀) to itself. Hence the note's qualification: "Breaking ρ is physical only once a coupling odd in K is present" (note §2; [the twisted element](/wiki/symmetry-breaking/twisted-element); [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)).
-- **The action alone does not fix a polarization.** With only these three terms the vacua form a continuous family, and the polarization is a flat angle on it ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). A definite polarization needs an added ρ-preserving potential: first the [naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), now dead, then [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
+- **The action alone does not fix a polarization.** With only these three terms the vacua form a continuous family, and the polarization is a flat angle on it ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). A definite polarization needs an added [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential): first the [naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), now dead, then [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
 
 ## History
 
@@ -118,7 +118,7 @@ The prior-art survey found that "no existing action has Born reciprocity exactly
 
 ## Notation
 
-These pages follow the toy-model note: K is the real structure and η = ωK, as in #11 §14 item 11. Checkpoint #11's postulate P2′ writes the real structure as J and the order parameter as η = HJ (§4). These are not two names for one operator: #11 §5 defines both, J = η⁻¹H and K = η⁻¹ω, and the documents differ in which one they call the structure chosen spontaneously. The sources do not reconcile the two ([the order parameter](/wiki/symmetry-breaking/order-parameter); [notation](/wiki/notation); [P2′](/wiki/program/postulates/p2-prime)).
+These pages follow the toy-model note: K is the real structure and η = ωK, as in #11 §14 item 11. Checkpoint #11's postulate P2′ writes the real structure as J and the order parameter as η = HJ (§4). These are not two names for one operator: #11 §5 defines both, J = η⁻¹H and K = η⁻¹ω, and the documents differ in which one they call the structure chosen spontaneously. The sources do not reconcile the two ([the order parameter](/wiki/symmetry-breaking/order-parameter); [notation](/wiki/notation); [P2′](/wiki/program/postulates/p2-prime); [conflicts between sources](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)).
 
 ## Sources
 

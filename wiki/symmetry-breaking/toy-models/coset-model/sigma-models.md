@@ -59,9 +59,9 @@ Two-dimensional de Sitter space, dS₂, is a target of this second kind [T]. As 
 
 Model I meets this through K. Version 2 of the toy-model note: "K, traceless with det K = −1. Its target is the one-sheeted hyperboloid a² + bc = 1, which is two-dimensional de Sitter space" (§2). The worklog: "K's own target space (de Sitter dS₂) has an indefinite metric, which would give a ghost" ('Chunk 1 results'). The naive kinetic term Tr(∂K ∂K) is that indefinite metric. At K₀ = diag(1, −1) it is "2 db dc" (note §2; confirmed by the referee's sympy run, `review/round4/referee/out_model1.txt`), which is positive when db and dc have the same sign and negative when they differ.
 
-A picture shows why the metric field is healthy where K is not [T]. Sp(2, ℝ) acts on both fields by conjugation (on K directly, and on H through I = ω⁻¹H), and both K and I are traceless 2 × 2 matrices. On that three-dimensional space the trace form Tr(XY) is an invariant inner product with two positive directions and one negative. The condition I² = −1 cuts out a two-sheeted hyperboloid, on which the form is positive: each sheet is a hyperbolic plane. The condition K² = 1 cuts out the one-sheeted hyperboloid, on which the form is indefinite: de Sitter space. So one group and one invariant form give the metric a target on which the kinetic term is positive, and the real structure one on which it is indefinite.
+A picture shows why the metric field is healthy where K is not [T]. [Sp(2, ℝ)](/wiki/phase-space/reciprocity/symplectic-form) acts on both fields by conjugation (on K directly, and on H through I = ω⁻¹H), and both K and I are traceless 2 × 2 matrices. On that three-dimensional space the trace form Tr(XY) is an invariant inner product with two positive directions and one negative. The condition I² = −1 cuts out a two-sheeted hyperboloid, on which the form is positive: each sheet is a hyperbolic plane. The condition K² = 1 cuts out the one-sheeted hyperboloid, on which the form is indefinite: de Sitter space. So one group and one invariant form give the metric a target on which the kinetic term is positive, and the real structure one on which it is indefinite.
 
-Model I avoids the ghost by contracting K's kinetic term with H, Tr(H⁻¹ ∂Kᵀ H ∂K), which "is positive definite" (note §2). The referee found it equal to "db**2 + dc**2" at H = 1, and positive on random samples (`out_model1.txt`); the gate checks the same positivity on random H and ∂K (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The price is that K's kinetic term now depends on H, so the two sectors of the model are coupled ([Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries#the-k-kinetic-term-and-the-ghost)).
+Model I avoids the ghost by contracting K's kinetic term with H, Tr(H⁻¹ ∂Kᵀ H ∂K), which "is positive definite" (note §2). The referee found it equal to "db**2 + dc**2" at H = 1, and positive on random samples (`out_model1.txt`); [the gate](/wiki/method/verification/the-gate) checks the same positivity on random H and ∂K (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The price is that K's kinetic term now depends on H, so the two sectors of the model are coupled ([Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries#the-k-kinetic-term-and-the-ghost)).
 
 ## Two dimensions: compact symmetries do not break
 
@@ -94,7 +94,7 @@ The worklog had listed the hyperbolic route as one way to pass criterion S4, "Or
 The worklog's prior-art survey, with every citation retrieved [S], found related models but "no existing action has Born reciprocity exactly symmetric and spontaneously broken with η or K as order parameter" ('Chunk 1 results'). The two closest:
 
 - **Born sigma models.** "Born sigma models choose the polarization by gauging [3]" (note §1; V. E. Marotta and R. J. Szabo, Rev. Math. Phys. 33, 2150031 (2021), arXiv:1910.09997). The referee: they "treat Born geometry as target structure, not as dynamical (H,K) fields", and an INSPIRE search for "Born geometry", coset and "order parameter" "returned 0" (Step 3).
-- **Broken O(D,D) in [double field theory](/wiki/phase-space/born-geometry/double-field-theory).** Angus, Kim and Park (arXiv:2111.07947): "there H is the order parameter, with η fixed" (worklog, 'Chunk 1 results'). In model I, by contrast, the neutral metric η = ωK is the order parameter ([the order parameter](/wiki/symmetry-breaking/order-parameter)).
+- **Broken O(D,D) in [double field theory](/wiki/phase-space/born-geometry/double-field-theory).** Angus, Kim and Park (arXiv:2111.07947): "there H is the order parameter, with η fixed" (worklog, 'Chunk 1 results'). In model I, by contrast, the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η = ωK is the order parameter ([the order parameter](/wiki/symmetry-breaking/order-parameter)).
 
 ## Standard references
 
@@ -118,6 +118,8 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) — the lattice XY model with a two-fold field, and the slow decay of order without it.
 - [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — the hyperbolic H-sector keeps the compact-symmetry theorem from settling the full model.
 - [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) — the compact flat direction of the coset model.
+- [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria) — criterion S4's exception for non-amenable groups, found in hyperbolic sigma models.
+- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the Λ(d) σ-modes as the fluctuations of a sigma model with target Λ(d).
 
 ## Sources
 
