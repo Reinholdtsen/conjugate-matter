@@ -31,7 +31,7 @@ sources:
   - "verify/toy_s5.py"
   - "verify/soliton_obituary.py"
   - "scripts/check.sh"
-  - "review/wiki-build-flags.md items 16, 19, 20, 23, 27, 29, 30, 39"
+  - "review/wiki-build-flags.md items 16, 19, 20, 23, 27, 29, 30, 39, 43"
 ---
 
 *This register lists the Broken-Born program's claims that currently stand: postulates, derived results and predictions that no calculation, review or observation has killed. Each line gives the claim, the tags its sources attach and what verifies it, grouped by the sections of the wiki. Standing is not the same as confirmed: most of these claims are untested by experiment, a machine check confirms the algebra but not whether the algebra describes nature, and the dark-energy sector is under pressure from current data.*
@@ -189,7 +189,7 @@ sources:
 
 | Claim | Tags | What verifies it |
 | --- | --- | --- |
-| [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence): V = V₀[1 + cos(τ/f)], thawing along the corridor wₐ ≈ −1.5(1 + w₀); under real pressure | [D + T] (#11 §10); the cited fits [S]; the toy-model support [D][V], consistency only | no script tests the cosmology; the phantom crossing leans against it |
+| [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence): V = V₀[1 + cos(τ/f)], thawing along the corridor wₐ ≈ −1.5(1 + w₀); under real pressure | [D + T] (#11 §10); the cited fits [S]; the toy-model support [D][V], consistency only | no script tests the cosmology; the phantom crossing leans against it; the corridor lies in the w₀–wₐ region of the second data release's fits and is separated from them by its slope (flag 43) |
 | [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force): as a pseudo-Goldstone field, τ couples derivatively, with no tree-level Yukawa coupling to Standard Model matter | [D] (#1 §4) | argued in the lab notebook only; #11 does not restate it; no script |
 | [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound): τ is a canonical scalar, so w ≥ −1 strictly; under real pressure | [D] (#1 §7 item 1), within #11 §10's [D + T] | not machine-checked; its test is row 4 |
 | [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint): two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) | [D] (#1 §7 item 4), within #11 §10's [D + T] | a counting result, not machine-checked; its third leg is long-horizon (flag 27) |
@@ -247,4 +247,4 @@ Rows 1–10 of #11 §13 stand. Row 11, particles or condensate, is a diagnostic 
 - `notes/broken-born-theory.md` §2, §4, §5.1, §6, §7 — τ's assumed lightness, its fifth-force safety, the benchmark, the dictionary and the dark-energy items.
 - `notes/broken-born-program-v1.md` §7 — the net theorem's tag.
 - `verify/battery.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py`, `verify/soliton_obituary.py`, run by `scripts/check.sh` — the machine checks.
-- `review/wiki-build-flags.md` items 16, 19, 20, 23, 27, 29, 30, 39 — the suspected source errors named in the tables; the flags' audit (2026-10-22) found items 19, 30 and 39 to depend on a convention or a reading and confirmed the others.
+- `review/wiki-build-flags.md` items 16, 19, 20, 23, 27, 29, 30, 39, 43 — the suspected source errors named in the tables; the flags' audit (2026-10-22) found items 19, 30 and 39 to depend on a convention or a reading and confirmed the others.

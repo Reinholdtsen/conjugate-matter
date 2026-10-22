@@ -11,6 +11,7 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-program-v1.md §8"
+  - "review/wiki-build-flags.md items 27, 43"
 ---
 
 *Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant)'s does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
@@ -99,7 +100,7 @@ with a period 2πf in φ. The shift symmetry keeps the field light, and its maxi
 
 ## The w₀–wₐ parametrization [T]
 
-Surveys summarize a changing w by the two-parameter Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a = 1 today: w₀ is the present value, and a negative wₐ means that w has been rising as the universe expands (Chevallier and Polarski †; Linder †). A thawing field has w₀ > −1 and wₐ < 0, and thawing models lie near a line that the program calls the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10); no document gives a reference for it. Where the form comes from, its pivot version, what two numbers cannot represent, and how a CPL fit expresses the phantom crossing reported in DESI's second data release ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)) are on [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization).
+Surveys summarize a changing w by the two-parameter Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a = 1 today: w₀ is the present value, and a negative wₐ means that w has been rising as the universe expands (Chevallier and Polarski †; Linder †). A thawing field has w₀ > −1 and wₐ < 0, and thawing models lie near a line that the program calls the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10); no document gives a reference for it. Where the form comes from, its pivot version, what two numbers cannot represent, and how a CPL fit expresses the phantom crossing reported in DESI's second data release ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)) are on [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization). That page also reports flag 43 in `review/wiki-build-flags.md`: the corridor itself lies in the region of the w₀–wₐ plane in which a CPL line passes below −1 in the past, the region of the release's fits, and what separates it from the release's crossing is the slope, not the region ([the corridor and DR2's crossing](/wiki/cosmology/dark-energy/cpl-parametrization#the-corridor-and-dr2s-crossing)).
 
 ## Recollapse [T]
 
@@ -140,3 +141,4 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - `notes/broken-born-theory.md` §3 — the action S_τ with a canonical kinetic term
 - `notes/broken-born-theory.md` §7 items 2–3 — hilltop initial conditions, "the standard thawing corridor", the fits with a negative minimum and the 93.8% figure (#1 only)
 - `notes/broken-born-program-v1.md` §8 — the same fits, marked "[T — refresh citations before publication]"
+- `review/wiki-build-flags.md` item 27 — the potential as written cannot turn negative; item 43 — the corridor in the region of the release's fits, separated from its crossing by the slope

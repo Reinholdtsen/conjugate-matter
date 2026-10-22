@@ -31,6 +31,7 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
+  - "review/wiki-build-flags.md items 1, 10, 27, 43"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
@@ -124,6 +125,8 @@ The second DESI data release reports, in every combination of datasets, "a phase
 
 The root `CLAUDE.md` states the position: "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3." #11 §15 lists the crossing among the program's degeneration risks. The measurement, its route into the program through the [round-3](/wiki/method/review/round-3) review, and the three outcomes of DR3 are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing); the italic passage of #11 §10, which still calls DESI's hints "exactly the required drift", is recorded there as [an unreconciled sentence](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing#an-unreconciled-sentence-in-11-10).
 
+#11 §10 states the corridor quoted above and DR2's crossing in one paragraph without relating them. Flag 43 in `review/wiki-build-flags.md` relates them: every point of the corridor has w₀ > −1 and w₀ + wₐ < −1, the region of the CPL plane in which DR2's fits lie and in which, in the flag's audit, fields with τ's potential that never fall below −1 also give fits. In the flag's account, what separates the corridor from DR2's crossing is the slope (a crossing at z = 2 against z ≈ 0.4), not the region; the pressure stands, and it rests on the crossing redshift. The audit confirmed the flag by two independent checks ([the corridor and DR2's crossing](/wiki/cosmology/dark-energy/cpl-parametrization#the-corridor-and-dr2s-crossing)).
+
 ## Toy-model support: consistency only
 
 ### What the toy models show
@@ -196,4 +199,5 @@ So rigidity of ω alone does not tilt the circle; the potential's periodicity [D
 - `notes/debt1a-geometric-core.md` §B — the rigid branch without τ; §F — the origin of τ's potential under P2′, open
 - `notes/debt1a-iv-beta-coefficients.md` §2 — dark energy left entirely to the τ sector
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results', 'Chunk 3 results' — the Goldstone angle as τ's circle, the thawing reading, the pseudo-Goldstone conclusion
+- `review/wiki-build-flags.md` item 43 — the corridor in the region of DR2's fits, and the slope that separates it from DR2's crossing; items 1, 10 and 27 — the suspected source errors quoted on this page
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field', `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — the popular framing

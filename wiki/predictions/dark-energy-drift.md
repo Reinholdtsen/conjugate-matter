@@ -22,6 +22,7 @@ sources:
   - "review/wiki-build-flags.md item 26"
   - "review/wiki-build-flags.md item 27"
   - "review/wiki-build-flags.md item 6"
+  - "review/wiki-build-flags.md item 43"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
@@ -68,7 +69,7 @@ A field that starts near the top of its potential is held almost still while the
 
 > "**Thawing shape.** Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)." **[T]**
 
-[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie ([thawing models in the w₀–wₐ plane](/wiki/cosmology/dark-energy/cpl-parametrization#thawing-models-in-the-w₀wₐ-plane)); neither #1 nor #11 cites a source for it.
+[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie ([thawing models in the w₀–wₐ plane](/wiki/cosmology/dark-energy/cpl-parametrization#thawing-models-in-the-w₀wₐ-plane)); neither #1 nor #11 cites a source for it. Flag 43 in `review/wiki-build-flags.md` records that every point of the corridor has w₀ > −1 and w₀ + wₐ < −1, the region in which a CPL line passes below −1 in the past and in which DR2's fits lie, and that no document says so ([below](#the-data-situation-under-real-pressure)).
 
 ### Never phantom
 
@@ -119,6 +120,8 @@ The first point rests on fits without a phantom phase, "non-phantom compatible a
 
 The finding reached the program through the [round-3](/wiki/method/review/round-3) review, which accepted it as ruling 11 ([round-3 rulings](/wiki/method/review/round-3/rulings)), and #11 v2.1 (2026-10-19) added the "Under pressure" paragraph to §10 and the DR2 clause to this row. #11 §15 lists "DESI DR2's phantom crossing against §10's strict w ≥ −1" among the program's degeneration risks. The root `CLAUDE.md`, which ranks first among the sources, states the position: "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3."
 
+Flag 43 in `review/wiki-build-flags.md` bears, in the flags file's words, "on how row 4's pressure is stated, not on whether it exists". In CPL terms DR2's fits have w₀ > −1 and w₀ + wₐ < −1, and so does every point of the corridor quoted above; in the flag's audit, fields with τ's potential that never fall below −1 also gave fits in that region under every fitting convention tried. In the flag's account, what separates the corridor from DR2's fits is the slope, which sets where the line crosses −1: at z = 2 for every point of the corridor, at z ≈ 0.35–0.50 for DR2's fits. The flag concludes that the pressure stands: "It rests on the crossing redshift (DR2 calls the preference 'rather independent of parametrization choices'), not on the quadrant", the region of the plane both share. Its audit confirmed it by two independent checks ([the corridor and DR2's crossing](/wiki/cosmology/dark-energy/cpl-parametrization#the-corridor-and-dr2s-crossing)).
+
 The full record, including an italic passage of #11 §10 that still reads DESI's hints as "exactly the required drift" and is unreconciled with the paragraph above, is on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing#an-unreconciled-sentence-in-11-10).
 
 ## What the row does not depend on
@@ -152,5 +155,5 @@ The row moved from 5 to 4 when the two clumping rows were withdrawn after [Debt 
 - `HANDOFF.md` §2 — the external clock and the three outcomes; its "consistent" reading is superseded
 - `notes/broken-born-theory.md` §7 items 1–2 — the no-phantom argument [D] and the thawing shape [T]; §3 — τ's action; §9 — the v0.1 row 5; 'Addendum (v0.2, post Debt-3)' — the row among the live content
 - `notes/broken-born-program-v1.md` §8, §9 — v1's reading of DESI (superseded) and its row 4
-- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn; item 6 — the vacuum-energy identity's dependence on the flatness condition
+- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn; item 6 — the vacuum-energy identity's dependence on the flatness condition; item 43 — the corridor in the region of DR2's fits, the slope that separates them, and the crossing redshift on which the pressure rests
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field' and `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — "three doors" and the popsci-only "constant is impossible"; not status sources

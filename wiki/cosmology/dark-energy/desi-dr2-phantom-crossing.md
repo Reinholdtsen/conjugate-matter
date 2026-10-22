@@ -18,6 +18,7 @@ sources:
   - "notes/broken-born-theory.md §7"
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/knot-dark-matter-standalone.md §5"
+  - "review/wiki-build-flags.md items 26, 43"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
@@ -42,7 +43,7 @@ Three terms in the quotation need a gloss.
 
 - **w(z)** is the dark-energy equation of state, pressure over energy density, as a function of redshift z ([quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence)). A [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant) has w = −1 at every z.
 - **A phantom crossing** is a passage of w(z) through −1. Below −1 the dark-energy density grows as space expands, which an ordinary scalar field cannot do ([the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)). In the reported shape, w was below −1 at earlier times, above z ≃ 0.4, and is above −1 at later times.
-- **The favoured w(z)** is the best-fitting curve of a fitted model. The survey measures distances with the baryon-acoustic-oscillation ruler, and w(z) follows only after a form for it is chosen and fitted together with other data ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). #11's "in every dataset combination" and the paper's "rather independent of parametrization choices" say that the shape does not hinge on one particular choice of data or of form; the most common two-parameter form, and how a crossing appears in it, are described on [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization#a-phantom-crossing-in-the-w₀wₐ-plane-t).
+- **The favoured w(z)** is the best-fitting curve of a fitted model. The survey measures distances with the baryon-acoustic-oscillation ruler, and w(z) follows only after a form for it is chosen and fitted together with other data ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). #11's "in every dataset combination" and the paper's "rather independent of parametrization choices" say that the shape does not hinge on one particular choice of data or of form; the most common two-parameter form, and how a crossing appears in it, are described on [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization#a-phantom-crossing-in-the-w₀wₐ-plane-t). In that form the crossing shape has w₀ > −1 with w₀ + wₐ < −1. Flag 43 in `review/wiki-build-flags.md` records that the same region holds the program's thawing corridor wₐ ≈ −1.5(1 + w₀) and the fits of fields with τ's potential that never fall below −1, and finds that the pressure on the program rests on the crossing redshift, not on the region ([the corridor and DR2's crossing](/wiki/cosmology/dark-energy/cpl-parametrization#the-corridor-and-dr2s-crossing)).
 
 ## What it means for the program
 
@@ -122,4 +123,5 @@ What the earlier readings described, weakening dark energy at low redshift, is s
 - `HANDOFF.md` §2 — the superseded reading and the external clock with its three outcomes
 - `notes/broken-born-program-v1.md` §8, `notes/broken-born-theory.md` §7 — earlier readings, superseded
 - `notes/knot-dark-matter-standalone.md` §4, §5 — the reviewed sentence and exclusion condition 6 (withdrawn manuscript)
+- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 43 — the corridor in the region of the release's fits, and the crossing redshift on which the pressure rests
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field', `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — "Three doors" and the popular readings (popular articles)
