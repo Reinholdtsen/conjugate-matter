@@ -2,7 +2,7 @@
 title: "Quintessence and the equation of state"
 weight: 10
 status: established
-description: "Dynamical dark energy from a slowly evolving scalar field: the equation of state w, thawing versus freezing, hilltop and axion-like potentials, a summary of the CPL w₀–wₐ parametrization, and recollapse when the vacuum energy turns negative."
+description: "Dynamical dark energy from a slowly evolving scalar field: the equation of state w and the field equation, short summaries of thawing versus freezing, hilltop and axion-like potentials and the CPL w₀–wₐ parametrization, the program's choice of potential, and recollapse when the vacuum energy turns negative."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §10"
@@ -14,7 +14,7 @@ sources:
   - "review/wiki-build-flags.md items 27, 43"
 ---
 
-*Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant)'s does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
+*Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant)'s does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a [thawing model](/wiki/cosmology/dark-energy/thawing-and-freezing) the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an [axion-like field](/wiki/cosmology/dark-energy/axion-like-fields), sitting near the potential's maximum.*
 
 **Status:** Established — [T] — textbook cosmology, written here from general knowledge, with the literature it names marked †; the fits that [checkpoint #11](/wiki/history/documents/checkpoint) cites are live-searched [S] (#11 refs [19]–[21]).
 
@@ -71,28 +71,17 @@ This is the equation of an oscillator whose restoring force is −V′ and whose
 
 ## Thawing and freezing [T]
 
-The two regimes of the field equation give the standard classification of quintessence models (Caldwell and Linder †):
-
-- **Thawing.** The field is frozen at early times, with w ≈ −1, and departs from it late, once H has fallen far enough. The equation of state rises away from −1 toward the present.
-- **Freezing.** The field is already evolving at early times, with w > −1, and slows down as it approaches the asymptotic form of its potential, so w falls toward −1.
-
-The lab notebook places the program's field in the first class: "Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)" (#1 §7 item 2; the [lab notebook](/wiki/history/documents/lab-notebook)). The quantities w₀ and wₐ are the two parameters of [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization), summarized below.
+The two regimes of the field equation divide quintessence models into two classes (Caldwell and Linder †). A thawing field is frozen at early times, with w ≈ −1, and departs from −1 late, once H has fallen far enough, so w rises toward the present. A freezing field is already evolving at early times, with w > −1, and slows down, so w falls toward −1. The [lab notebook](/wiki/history/documents/lab-notebook) places the program's field in the first class: "Hilltop initial conditions give w ≈ −1 in the past, rising now" (#1 §7 item 2). The classes are set out on [thawing and freezing quintessence](/wiki/cosmology/dark-energy/thawing-and-freezing): why a thawing field's initial velocity drops out, hilltop models, where each class lies in the plane of the two numbers w₀ and wₐ [summarized below](#the-w₀wₐ-parametrization-t), the program's thawing corridor, and how the second data release of the Dark Energy Spectroscopic Instrument bears on the class.
 
 ## Hilltop and axion-like potentials [T]
 
 ### Hilltop quintessence
 
-In a hilltop model the field begins near a maximum of its potential, where V′ ≈ 0 and V″ < 0 (Dutta and Scherrer †). Near the maximum the force −V′ points away from it, so a small displacement grows once the expansion damping weakens. Starting close to the top keeps w near −1 for a long time; how fast w then rises depends on how sharply curved the maximum is compared with the expansion rate. Hilltop models are thawing models.
+In a hilltop model the field begins near a maximum of its potential, where V′ ≈ 0 and V″ < 0 (Dutta and Scherrer †), and a small displacement from the top grows once the expansion damping weakens. Hilltop models are thawing models; how fast w rises depends on the curvature of the maximum compared with the expansion rate ([hilltop models](/wiki/cosmology/dark-energy/thawing-and-freezing#hilltop-models)).
 
 ### Axion-like fields
 
-An axion-like field, or pseudo-Nambu–Goldstone field, is an angle: a field whose couplings are invariant under the shift φ → φ + constant, up to a small explicit breaking that leaves a periodic potential (Frieman, Hill, Stebbins and Waga †). The standard form is
-
-```text
-V(φ) = V₀[1 + cos(φ/f)]
-```
-
-with a period 2πf in φ. The shift symmetry keeps the field light, and its maximum at cos(φ/f) = 1 makes it a natural hilltop model. The general mechanism is on [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs).
+An axion-like field, or pseudo-Nambu–Goldstone field, is an angle: its couplings are invariant under the shift φ → φ + constant, up to a small explicit breaking that leaves the periodic potential V(φ) = V₀[1 + cos(φ/f)], with period 2πf in φ (Frieman, Hill, Stebbins and Waga †). The shift symmetry keeps the field light, and the maximum at cos(φ/f) = 1 makes it a natural hilltop model. The mechanism, the axion itself, axion-like dark matter and dark energy, and the program's uses of the idea are on [axion-like fields and pseudo-Goldstone bosons](/wiki/cosmology/dark-energy/axion-like-fields).
 
 ### The program's choice
 
@@ -139,6 +128,6 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - `papers/broken-born-checkpoint-v2.md` §10 — the program's potential, the thawing corridor, the state of the fits and the negative-minimum fits; §13 row 4 for the standard expectation w ≡ −1
 - `papers/broken-born-checkpoint-v2.md` refs [19]–[21] — the cited fits and the DESI release (live-searched)
 - `notes/broken-born-theory.md` §3 — the action S_τ with a canonical kinetic term
-- `notes/broken-born-theory.md` §7 items 2–3 — hilltop initial conditions, "the standard thawing corridor", the fits with a negative minimum and the 93.8% figure (#1 only)
+- `notes/broken-born-theory.md` §7 items 2–3 — hilltop initial conditions and τ's thawing shape, the fits with a negative minimum and the 93.8% figure (#1 only)
 - `notes/broken-born-program-v1.md` §8 — the same fits, marked "[T — refresh citations before publication]"
 - `review/wiki-build-flags.md` item 27 — the potential as written cannot turn negative; item 43 — the corridor in the region of the release's fits, separated from its crossing by the slope
