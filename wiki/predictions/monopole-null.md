@@ -60,7 +60,7 @@ The checkpoint's monopole audit (#11 §11.1, "The monopole audit, revised [D]"):
 
 > As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T]. As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; "true but irrelevant" is the empty set (a correction supplied by P.R.).
 
-The first sentence gives the row its footing. #11 gives the null no rationale of its own: its account of the absence of our monopoles is inflationary dilution, which is established physics [T] and owes nothing to Born reciprocity. The row's content is the commitment itself: a permanent null, with a direct detection as its kill condition.
+The first sentence gives the row its footing. #11 gives the null no rationale of its own: its account of the absence of our monopoles is inflationary dilution, which is established physics [T] and does not depend on Born reciprocity. The row's content is the commitment itself: a permanent null, with a direct detection as its kill condition.
 
 ### The rationale that died
 
