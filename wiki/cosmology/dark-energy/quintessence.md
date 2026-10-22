@@ -13,7 +13,7 @@ sources:
   - "notes/broken-born-program-v1.md §8"
 ---
 
-*Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a cosmological constant's does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
+*Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant)'s does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
 
 **Status:** Established — [T] — textbook cosmology, written here from general knowledge, with the literature it names marked †; the fits that [checkpoint #11](/wiki/history/documents/checkpoint) cites are live-searched [S] (#11 refs [19]–[21]).
 
@@ -35,7 +35,7 @@ The second Friedmann equation gives the acceleration, ä/a = −(ρ + 3p)/(6M_P�
 
 ### The cosmological constant [T]
 
-The simplest dark energy is a cosmological constant, an energy density of empty space that is the same everywhere and at all times. Its pressure is minus its energy density, w = −1 exactly, and ρ stays constant as space expands. The cosmological constant is the standard expectation in the program's [prediction table](/wiki/predictions): "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Why quantum vacuum energy does not produce a far larger value is a separate, unsolved question ([the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)).
+The simplest dark energy is a cosmological constant Λ, an energy density of empty space that is the same everywhere and at all times: its pressure is minus its density, so w = −1 exactly and ρ stays constant as space expands. It is the standard expectation of the program's [prediction table](/wiki/predictions), "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Its own page, [the cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant), covers the rest, from the de Sitter future to [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem).
 
 ## A scalar field as dark energy
 
@@ -103,7 +103,7 @@ Surveys summarize a changing w by the two-parameter Chevallier–Polarski–Lind
 
 ## Recollapse [T]
 
-If the total energy density of a flat universe reaches zero, the Friedmann equation gives H = 0: the expansion halts. A negative potential energy can bring this about, because the potential term does not dilute while the matter density falls as a⁻³. Since the acceleration is negative at that moment, the universe then contracts. A field that settles into a negative minimum of its potential acts as a negative cosmological constant, an anti-de Sitter phase, and the contraction ends in collapse [T].
+If the total energy density of a flat universe reaches zero, the Friedmann equation gives H = 0: the expansion halts. A negative potential energy can bring this about, because the potential term does not dilute while the matter density falls as a⁻³. Since the acceleration is negative at that moment, the universe then contracts. A field that settles into a negative minimum of its potential acts as a [negative cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#a-negative-λ-turnaround-and-collapse-t), an anti-de Sitter phase, and the contraction ends in collapse [T].
 
 #11 §10 cites "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook gives a figure for one of those fits, a "93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse" (Gialamas et al., arXiv:2506.21542; #1 §7 item 3). That figure appears only in #1, and no `verify/` script or later document checks it.
 
