@@ -1,0 +1,6 @@
+d=1: -Z^-1 at Z=i is i: True; first-order term is -(x + i h): True
+d=1: linear part of delta(Y) + delta(Y^-1) vanishes: True
+d=2: -Z^-1 at Z=i is i: True; first-order term is -(x + i h): True
+d=2: linear part of delta(Y) + delta(Y^-1) vanishes: True
+d=3: -Z^-1 at Z=i is i: True; first-order term is -(x + i h): True
+d=3: linear part of delta(Y) + delta(Y^-1) vanishes: True

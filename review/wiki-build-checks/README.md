@@ -21,4 +21,6 @@ Run one with `cd review/wiki-build-checks && ../../.venv/bin/python <script>.py`
 | `v_sign_check.py` | 27 | V₀[1 + cos(τ/f)] has minimum 0; a turnaround needs V < 0 |
 | `dirac_coupling_check.py` | 28 | 4π/e² = 1/α ≈ 137; g²/4π = 1/(4α) ≈ 34.26 |
 | `quadratic_gap.py` | 31 | a lead: with a † Fermi-LAT bound, ~8 orders in scale, ~16 in effect size |
+| `rho_parity.py` | 39 | the linearization of −Z⁻¹ at Z = i is −(x + ih) for d = 1, 2, 3 |
+| `frozen_h_naive.py` | 40 | at λ = μ = 1, H = 1 the frozen-H Hessian has eigenvalue −6; V(t = 100) = −30004 |
 | `debt3a_check.py` | — | recomputes Debt 3a's mean-field shortfall (ratios ~4e-28, ~3e-31) and the classicality bound; HANDOFF §2 marks the 10²⁸–10³¹ figure ✓, but no `verify/` script gates it |

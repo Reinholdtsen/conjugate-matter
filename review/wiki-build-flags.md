@@ -37,10 +37,11 @@ the check there.*
 6. **"By symmetry rather than tuning" overstates the vacuum-energy identity (#1 v0.6, #10).**
    The flatness condition V(1) = T is itself one condition on the βₙ, and #8 §3 counts T = 0 as
    removing a parameter. #8 §2's wording is the accurate one. #11 §7.3 says "by symmetry";
-   worth checking it against this.
+   worth checking it against this. The phrase also appears in #11's plain-language passages
+   (§1, §7), #9 §5 and #8 §2's closing sentence, so a ruling should cover those too.
 7. **"The unique consistent structure" (#11 §7.1)** drops #6 §3's qualifier "exactly one *known*
-   consistent structure" for massive spin-2. Mild overstatement. #6 §5 and #9 §5 item 3 also
-   drop "known"; #6 §3 and #7 §5 keep it.
+   consistent structure" for massive spin-2. Mild overstatement. #6 §5, #9 §5 item 3, #11 §15
+   and HANDOFF §1 also drop "known"; #6 §3 and #7 §5 keep it.
 8. **#8 §3 "five-function freedom"**: the βₙ are constants (#7 §2), so "five-parameter".
 9. **#11 ref [24][S] (arXiv:1609.09515)** has no authors and its title may be a description
    rather than the paper's title. Being [S], it falls outside the † battery (OP10).
@@ -74,7 +75,7 @@ the check there.*
     could be moved into `verify/`.
 
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs.
-17. **Two gate conventions, a √2 in μ.** #6 §4 writes the gate as e^{−(p₁−p₂)²/2μ²}, #1 §5.1 as
+17. **Two gate conventions, a √2 in μ.** #6 §4 writes the gate as e^{−(p₁−p₂)²/2μ²}, #1 §3 as
     e^{−k²/μ²} with k the relative momentum. With p₁ − p₂ = 2k these differ by √2 in μ, so with
     #6's fiber width the knee sits at v\* = μ/m_χ rather than #1's v\* ≡ √2μ/m_χ; #13 §4 mixes
     the two. No stated number changes. Check: `review/wiki-build-checks/gate_conventions.py`.
@@ -158,4 +159,23 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     dead (wrong duality; inflation suffices).
 38. **Root `CLAUDE.md`: two stale details.** "Since the handoff" says "#11 is now v2.1" (the file
     is v2.2, as a later bullet says), and its Layout names two of the six scripts
-    `scripts/check.sh` runs (the four toy scripts are missing).
+    `scripts/check.sh` runs (the four toy scripts are missing). Its Layout and the
+    `scripts/check.sh` header also say arbitration scripts go in `verify/` and the gate; the
+    round-3 and round-4 arbitration scripts are in `review/` and are not run.
+39. **Lead: reciprocity parity of the metric fluctuation.** #8 §3 and #11 §7.5 say the massless
+    graviton is reciprocity-even and X reciprocity-odd. Under #11 §6's ρ: Z → −Z⁻¹, the
+    linearization at the fixed point Z = i is −(x + ih) for every d: the metric fluctuation h
+    flips sign together with X's x. The parities hold only if ρ acts on the spin-2 sector as the
+    frame exchange of the bimetric reading, not as the Möbius map; the documents do not say
+    which. Check: `review/wiki-build-checks/rho_parity.py`.
+40. **The naive toy potential is unbounded even at frozen H (root `CLAUDE.md`, round-4 lesson).**
+    CLAUDE.md says round 4 "found a potential that was bounded only at frozen H". At the gated
+    couplings λ = μ = 1 with H = 1 fixed, V = −4μ + 4μu² + (λ − 4μ)t², whose frozen-H Hessian
+    has the eigenvalue −6; V falls to −30004 at t = 100. It is bounded at frozen H only on the
+    circle K(φ) or for λ ≥ 4μ. Check: `review/wiki-build-checks/frozen_h_naive.py`.
+41. **Minor overclaim (toy note §6).** It lists the complex model's "restoration under
+    quantization" as "Shown (each by executed code)". The result rests on §4's analytic
+    argument; `verify/toy_gw.py` checks only its premise.
+42. **A revision recorded as applied that was not (round-4 adjudication, toy worklog).** Both say
+    every accepted revision was applied, but toy note v2 §4 says the Langmann–Szabo–Zarembo
+    comparison (revision 4) was "not carried out".
