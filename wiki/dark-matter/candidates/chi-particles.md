@@ -114,7 +114,7 @@ The two regimes give different knees. For particle χ the tail is the gate's own
 
 - `papers/broken-born-checkpoint-v2.md` §12 — the candidate profile and its tag; §8 — the amplitude, the gate, the knee, the benchmark and the open enhancement; §4 — P4, strict since v2.1; §9 — the particle and wave islands, the net theorem; §13 — rows 1, 2, 3, 7 and 11; §14 items 4, 5, 7, 9; §15 — quarantine and falsification exposure; App. A item 4 — the fate of founding supposition 4
 - `notes/broken-born-theory.md` §1 — P4 in the notebook's form; §3 — the χ field and the original gate; §4 — the equivalence principle and lensing [D]; §5.1 — the cliff; §5.3 — why particle χ cannot freeze out [O]; §9 — the flagship rows; 'Addendum (v0.2)' — the wave island; 'Addendum (v0.4)' — cliff to knee
-- `notes/debt1a-ii-X-classification.md` §4 — exchange over the fiber overlap, and the honest downgrade
+- `notes/debt1a-ii-X-classification.md` §4 — exchange over the fiber overlap, and the downgrade from cliff to knee
 - `notes/broken-born-program-v1.md` §9 — row 7 in #9
 - `review/round3-adjudication.md` 'Decisions' 1 — strict sector separation; 'Decisions' 2 — three candidates become two
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions; item 19 — the regime of the classicality bound

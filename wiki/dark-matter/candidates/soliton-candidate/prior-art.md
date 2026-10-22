@@ -39,7 +39,7 @@ The density such monopoles leave is a relic abundance, as for any stable species
 
 ### Formation
 
-[The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) gives the least number that can form. Regions farther apart than the horizon cannot coordinate their choice of vacuum, so at least about one defect forms per horizon volume. Realistic transitions form more. Near a continuous transition, the slow response of the field near the critical point (Kibble–Zurek dynamics) freezes in a correlation length shorter than the horizon; in a first-order transition, defects form where bubbles of the new phase meet. The program's own error lay here: its soliton manuscript treated the one-per-horizon count as an upper end and normalized it too low ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
+[The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) gives the least number that can form. Regions farther apart than the horizon cannot coordinate their choice of vacuum, so at least about one defect forms per horizon volume. Realistic transitions form more. Near a continuous transition, the slow response of the field near the critical point (Kibble–Zurek dynamics) freezes in a correlation length shorter than the horizon; in a first-order transition, defects form where bubbles of the new phase meet. The soliton manuscript's error lay here: it treated the one-per-horizon count as an upper end and normalized it too low ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
 
 ### Annihilation
 

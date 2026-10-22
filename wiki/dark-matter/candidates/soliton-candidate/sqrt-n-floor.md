@@ -98,7 +98,7 @@ Decision 2 retired the soliton candidate as a program-native proposal ([Obituary
 
 ## What survives
 
-Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's own record the question lapsed with the candidate. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–7 ([open problems](/wiki/status/open-problems)).
+Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with the candidate. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–7 ([open problems](/wiki/status/open-problems)).
 
 The other results of the handoff's chat-only list (§4) have their own pages: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the two gravitational charges and the equation comparison on [the momentum graviton's chat-only results](/wiki/gravity/momentum-graviton/chat-only-results). All are registered in [conjectures](/wiki/status/conjectures).
 
