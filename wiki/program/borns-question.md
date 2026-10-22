@@ -69,7 +69,7 @@ The energy and momentum of a free relativistic particle satisfy p_μp^μ = m²c�
 
 ### Flat momentum fibers
 
-In general relativity the momenta available to a particle at a given point form a flat vector space, however strongly space-time is curved there [T]. Geometers call the momentum space attached to each point a fiber, so the statement is that the fibers are flat: [general relativity](/wiki/gravity/spin-2-fields/general-relativity) curves the space of positions and leaves the space of momenta alone. #11 §3 calls this "an architectural assumption, not a measurement".
+The momenta available to a particle at one point of space-time form a fiber, and in [general relativity](/wiki/gravity/spin-2-fields/general-relativity) every fiber is flat, however strongly space-time is curved there [T]: general relativity curves the space of positions and leaves the space of momenta at each point flat. #11 §3 calls this "an architectural assumption, not a measurement". The fibers, their geometry in general relativity and in the program, and the dark-matter gate that acts along them are on [momentum fibers and the cotangent bundle](/wiki/phase-space/reciprocity/momentum-fibers).
 
 ## Flat momentum space is an assumption
 
