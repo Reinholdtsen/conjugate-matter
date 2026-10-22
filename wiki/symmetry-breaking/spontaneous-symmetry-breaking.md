@@ -18,7 +18,6 @@ sources:
   - "notes/broken-born-theory.md §4"
   - "notes/debt1a-geometric-core.md §F"
   - "review/round4/referee/audit-notes.md 'Step 2(c)'"
-  - "review/round4/referee/audit-notes.md 'Step 3'"
   - "verify/toy_coset.py S2–S3"
 ---
 
@@ -42,31 +41,17 @@ The program's instance is stated in #11 §3: "Quantum kinematics is exactly inva
 
 ## The vacuum manifold and the stabilizer
 
-The elements of G that leave a chosen vacuum fixed form a subgroup, its stabilizer (also called the unbroken or isotropy subgroup) [T]:
+The vacua of a theory with a broken symmetry form a family, the vacuum manifold. The elements of G that leave a chosen vacuum Φ₀ fixed form a subgroup, its stabilizer (also called the unbroken or isotropy subgroup), and when every vacuum lies on the orbit of Φ₀ the vacuum manifold is the coset space G/G₀ [T]:
 
 ```text
-G₀ = {g in G : g·Φ₀ = Φ₀}
+G₀ = {g in G : g·Φ₀ = Φ₀}          vacuum manifold ≅ G/G₀
 ```
 
-Applying all of G to Φ₀ gives its orbit. When every vacuum lies on that one orbit, the set of vacua, the vacuum manifold, is the coset space [T]
-
-```text
-vacuum manifold = {g·Φ₀ : g in G} ≅ G/G₀
-```
-
-Two elements of G produce the same vacuum exactly when they differ by an element of G₀, which is why the quotient appears. For a continuous group, each generator outside G₀ moves the vacuum along a direction that costs no energy, so the vacuum manifold has dimension dim G − dim G₀ [T]. Those flat directions carry the massless modes of [Goldstone's theorem](/wiki/symmetry-breaking/goldstone-and-higgs). For the magnet, G is the rotation group, G₀ the rotations about the magnetization axis, and the vacuum manifold the sphere of possible directions [T].
+For a continuous group, each generator outside G₀ moves the vacuum along a direction that costs no energy, so the vacuum manifold has dimension dim G − dim G₀ [T]. Those flat directions carry the massless modes of [Goldstone's theorem](/wiki/symmetry-breaking/goldstone-and-higgs). For the magnet, G is the rotation group, G₀ the rotations about the magnetization axis, and the vacuum manifold the sphere of possible directions [T]. The construction, how the shape of the vacuum manifold decides which defects a transition can leave, and the program's own vacuum manifolds are on [topological defects and the vacuum manifold](/wiki/symmetry-breaking/topological-defects).
 
 ### A worked case: model I
 
-The program's coset toy model ([model I](/wiki/symmetry-breaking/toy-models/coset-model)) shows every one of these objects explicitly (toy-model note §2). It has two fields on a 1+1-dimensional base: H, "a positive symmetric symplectic matrix" on the phase plane, parametrized by a point Z = X + iY of the [upper half-plane](/wiki/phase-space/modular-field/siegel-domain); and K, a real structure with K² = 1, which marks which line of the phase plane counts as position ([the order parameter](/wiki/symmetry-breaking/order-parameter)). The symmetry group is the symplectic group Sp(2, ℝ) of area-preserving linear maps of the phase plane ([the symplectic form](/wiki/phase-space/reciprocity/symplectic-form)): "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, and the action is invariant (checked for generic symplectic S, so for ρ)". The vacua at H = 1 are
-
-```text
-K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]]                      (toy-model note §2)
-```
-
-and "The vacuum manifold is the upper half-plane times this circle". For the reference vacuum (1, K₀), with K₀ = diag(1, −1), "The stabilizer of (1, K₀) in Sp(2,ℝ) is {±1}" (toy-model note §2, whose model-I results are "All checked symbolically"). The worklog describes the vacua as "the upper half-plane times a circle of K's, a 3-dimensional space" ('Chunk 1 results'), and [the gate](/wiki/method/verification/the-gate)'s stabilizer check ends "(so the orbit is 3-dimensional)" (`verify/toy_coset.py`). The stabilizer is discrete, and the orbit of one vacuum is the whole vacuum manifold: the [round-4](/wiki/method/review/round-4) referee summarizes model I as "a simple coset" whose vacuum manifold is the group Sp(2, ℝ)/{±1} itself (`review/round4/referee/audit-notes.md`, Step 3).
-
-The Born rotation is one element of Sp(2, ℝ) outside the stabilizer: "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = −K(φ)" (toy-model note §2), so it carries each vacuum to a different one. One qualification belongs here. The model has a second symmetry, the sign flip K → −K, and "the twisted element ρ∘(K → −K) maps (1, K₀) to itself" (toy-model note §2). Within the full symmetry group, then, the vacuum keeps an element that acts on H exactly as ρ does, and the breaking of ρ has physical consequences only once something couples to the sign of K; see [the twisted element](/wiki/symmetry-breaking/twisted-element). The full calculation is on [Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua).
+The program's coset toy model ([model I](/wiki/symmetry-breaking/toy-models/coset-model)) shows these objects explicitly (toy-model note §2). Its two fields, on a 1+1-dimensional base, are H, a metric on the phase plane given by a point Z of the [upper half-plane](/wiki/phase-space/modular-field/siegel-domain), and K, a real structure with K² = 1 that marks which line of the phase plane counts as position ([the order parameter](/wiki/symmetry-breaking/order-parameter)). The symplectic group Sp(2, ℝ) of area-preserving linear maps of the phase plane ([the symplectic form](/wiki/phase-space/reciprocity/symplectic-form)) acts on both and leaves the action invariant. At H = 1 the vacua are a circle of real structures K(φ), and "The vacuum manifold is the upper half-plane times this circle"; "The stabilizer of (1, K₀) in Sp(2,ℝ) is {±1}" (toy-model note §2, whose model-I results are "All checked symbolically"). Every other element of the group moves the vacuum, ρ among them: "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = −K(φ)" (§2). Within the model's full symmetry group, which adds the sign flip K → −K, the vacuum keeps the twisted element ρ∘(K → −K), so the breaking of ρ has physical consequences only once something couples to the sign of K ([the twisted element](/wiki/symmetry-breaking/twisted-element)). The full calculation is on [Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua), and the vacuum manifold's topology and its other descriptions on [topological defects and the vacuum manifold](/wiki/symmetry-breaking/topological-defects#model-i-the-upper-half-plane-times-a-circle).
 
 ## The order parameter
 
@@ -144,8 +129,8 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 - `papers/broken-born-checkpoint-v2.md` §4 — P2′ (η the order parameter) and P5; the v2.2 refinement ("a rigid, unordered pair of axes")
 - `papers/reciprocity-toy-models.md` §2 — model I's symmetry group, vacua, stabilizer, order parameter and twisted element; §3 — explicit selection in the real model II; §4 — the ρ-preserving potential and the complex model's missing volume factor; §1 — the setting
 - `notes/toy-lagrangian.md` 'Success criteria' — the referees' wording; S1–S3; tunnelling in 0+1
-- `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results' — S1–S3 passed in model I ("a 3-dimensional space"; "a coset model of Sp(2,R) → Z₂") and in the complex model II
-- `review/round4/referee/audit-notes.md` Step 2(c), Step 3 — the order-of-limits statement for model II; model I as "a simple coset"
+- `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results' — S1–S3 passed in model I ("a coset model of Sp(2,R) → Z₂") and in the complex model II
+- `review/round4/referee/audit-notes.md` Step 2(c) — the order-of-limits statement for model II
 - `notes/broken-born-theory.md` §3 — v0.1's explicit-breaking origin of V(τ) (superseded); §4 — the spurion ⟨J⟩ and the ρ² argument
 - `notes/debt1a-geometric-core.md` §F — the origin of τ's potential under P2′, listed as open
 - `verify/toy_coset.py` — the S2 and S3 checks for model I, including the stabilizer {±1}
