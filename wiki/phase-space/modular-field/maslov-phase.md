@@ -68,7 +68,7 @@ The lab notebook separates what topology fixes from what it does not (#1 §3): "
 
 [Calc note #5](/wiki/history/documents/debt-1-notes): "**Λ(d) is the Shilov boundary of the Siegel domain** [standard]. The τ field — arg det of the boundary variable — is the phase of Z's boundary value." (§C)
 
-The points of the Siegel domain are the phase-space metrics compatible with the symplectic form, labelled by Z. Its distinguished (Shilov) boundary is Λ(d), the space of polarizations ([the boundary of the Siegel domain](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). A boundary value of Z is therefore a polarization, and τ is the phase of that polarization around the Maslov circle. The program reads this geometry as placing [dark energy](/wiki/cosmology/dark-energy) on the edge of the space in which the metric and [the momentum graviton](/wiki/gravity/momentum-graviton) live.
+The points of the Siegel domain are the phase-space metrics compatible with the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form), labelled by Z. Its distinguished (Shilov) boundary is Λ(d), the space of polarizations ([the boundary of the Siegel domain](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). A boundary value of Z is therefore a polarization, and τ is the phase of that polarization around the Maslov circle. The program reads this geometry as placing [dark energy](/wiki/cosmology/dark-energy) on the edge of the space in which the metric and [the momentum graviton](/wiki/gravity/momentum-graviton) live.
 
 ### Two wordings
 
