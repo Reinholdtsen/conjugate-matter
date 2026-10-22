@@ -2,7 +2,7 @@
 title: "Negative results and dead claims"
 weight: 60
 status: method
-description: "Report negative results prominently, write honest obituaries, and keep dead claims dead: why #11 counts negative results as its most reliable Tier-3 items, the deaths in the record, how a death is reported, the rescue the program declined, and what a death leaves standing."
+description: "The program's rule on negative results and dead claims: why #11 counts negative results as its most reliable Tier-3 items, the deaths in the record, how a death is reported, the rescue the program declined, and what a death leaves standing."
 sources:
   - "CLAUDE.md 'Method'"
   - "CLAUDE.md 'Since the handoff'"
@@ -24,7 +24,7 @@ sources:
   - "wiki/CLAUDE.md 'The wiki is derivative'"
 ---
 
-*The program's rule on negative results is that a claim killed by its own calculations or by review is reported prominently, in an obituary of its own, and is not revived. [Checkpoint #11](/wiki/history/documents/checkpoint) rates such failures as its most reliable new results, because the program's incentives ran against finding them. [The founding image](/wiki/dark-matter/momentum-clumping/founding-image) of the program, dark matter clumping in velocity rather than in space, died this way, and so did a later dark-matter candidate, [superheavy solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) of a hidden gauge sector. The wiki gives every dead claim its own obituary page and lists them all in [the graveyard](/wiki/status/graveyard).*
+*The program's rule on negative results is that a claim killed by calculation or by review is reported in an obituary of its own and is not revived. [Checkpoint #11](/wiki/history/documents/checkpoint) ranks such negative results as the most reliable of its new structural results. [The founding image](/wiki/dark-matter/momentum-clumping/founding-image) of the program, dark matter clumping in velocity rather than in space, is one of the dead claims, and so is a later dark-matter candidate, [superheavy solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) of a hidden gauge sector. The wiki gives every dead claim its own obituary page and lists them all in [the graveyard](/wiki/status/graveyard).*
 
 **Status:** Method, in force — untagged — root `CLAUDE.md` ('Method') and `HANDOFF.md` §7; applied in #11 §9 and §12 and in round-3 Decision 2 (`review/round3-adjudication.md`).
 
@@ -34,13 +34,11 @@ The root `CLAUDE.md`: "Report negative results prominently. Claims listed as dea
 
 ## Why negative results count as the most reliable
 
-#11's methodological preface ranks them first among the program's new structural results (Tier 3): "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2; see [Claim tiers and selection bias](/wiki/method/claim-tiers)). A calculation that kills one of the program's own ideas was carried through against the direction in which an author's errors tend to lean, so it is less likely to be an artefact of wanting the idea to work (the wiki's reading). The three named are [the death of momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), the exclusions in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12).
-
-For the same reason the deaths count as evidence about the method. #11 §9: "The founding intuition died by its own mathematics, which is the machinery working: a theory that cannot lose bets cannot win them." #11 §15 opens its assessment with the point: "The founding image is dead, killed by this program's own calculations" ([Assessment: a live research program](/wiki/program/assessment)).
+#11's methodological preface ranks them first among the program's new structural results (Tier 3): "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). The three named are [the death of momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), the exclusions in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12). The tiers, and what "incentive gradient" means, are on [Claim tiers and selection bias](/wiki/method/claim-tiers#negative-results-the-most-reliable-tier-3-items).
 
 ## The deaths in the record
 
-### Killed by the program's own calculations
+### Dead at the handoff
 
 `HANDOFF.md` §2 lists them under "Dead (killed by own calculations — keep dead)":
 
@@ -57,6 +55,7 @@ For the same reason the deaths count as evidence about the method. #11 §9: "The
 ## How a death is reported
 
 - **In the abstract.** #11's plain-language abstract reports both deaths: following the idea "killed its most cherished consequence — dark matter clumping in velocity instead of space", and the third candidate "was worked out, failed its own abundance arithmetic, and is retired" (#11 §1).
+- **In the assessment.** #11 §15 opens its assessment with the death of the founding image ([Assessment: a live research program](/wiki/program/assessment)).
 - **In a section of its own.** #11 §9 is titled "Obituary: the death of momentum clumping (Debt 3)". The §12 obituary is laid out as "What was claimed", "What was built and how it was tested", "Why it failed", "Verdict", "What survives" and "Checks", the last pointing to the script that gates its numbers.
 - **In the predictions table.** #11 §13 ends: "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); superheavy-soliton dark matter (obituary §12)." See [Obituary: velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity), [Obituary: Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction) and [History of the predictions table](/wiki/predictions/table-history).
 - **Against the founding suppositions.** #11's Appendix A gives each of Paul's eleven founding suppositions its fate, including "dead as dynamics" (item 3) and "dead twice" (item 9) ([Founding suppositions and their fates](/wiki/program/founding-suppositions)).
@@ -64,7 +63,7 @@ For the same reason the deaths count as evidence about the method. #11 §9: "The
 
 ## Dead stays dead: the rescue that was declined
 
-After round 3, the soliton candidate could have been kept by adding a free dilution factor. Decision 2 rejected that route: it would restore the mass "only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction, and the program does not trade falsifiability for survival." It cited the earlier case as precedent: "The program's precedent is the Debt 3 obituary: a dead claim is reported prominently and stays dead." (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). In the terms of [Lakatos's methodology](/wiki/method/lakatosian-methodology), a free parameter added to save a claim is an ad hoc adjustment (the wiki's reading). Decision 3 followed: the queued "√N floor" calculation was dropped, because its premise was inverted and "it has no candidate left to serve" ([Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
+After round 3, the soliton candidate could have been kept by adding a free dilution factor. Decision 2 rejected that route: it would restore the mass "only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3)", and the mass "would then no longer be a prediction". It cited the Debt 3 obituary as the precedent for keeping a dead claim dead (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). In the terms of [Lakatos's methodology](/wiki/method/lakatosian-methodology), a free parameter added to save a claim is an ad hoc adjustment (the wiki's reading). Decision 3 followed: the queued "√N floor" calculation was dropped, because its premise was inverted and "it has no candidate left to serve" ([Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
 The Debt-3 rows were withdrawn on the same terms: "Rows withdrawn permanently." (`HANDOFF.md` §2); "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands." (`notes/debt3c-ufd-endpoint.md`).
 
@@ -78,7 +77,7 @@ An obituary states its scope, so that the parts that survive are not lost with t
 
 ## Negative results about the method
 
-The same rule applies to the program's own process. The round-3 adjudication scored its pre-registration as a miss on the verdict, "the first after 2 for 2", and wrote: "Calibration: my confidence in v3 was too high." It upheld the referee's finding that v3's statement "all numbers computed by executed code" overstated what the code showed: "The code checked the arithmetic of a wrong model" (ruling 13). In round 4 the adjudicator wrote of the unbounded potential: "I should have caught F1 myself: I checked the potential only at frozen H." The calibration record is kept on [pre-registration](/wiki/method/review/pre-registration), and the other two misses became rules: [Verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model) and [the reduced-model stability rule](/wiki/method/verification/reduced-model-stability).
+The adjudications also record the author's misses. The round-3 adjudication scored its pre-registration as a miss on the verdict, "the first after 2 for 2", and wrote: "Calibration: my confidence in v3 was too high." It upheld the referee's finding that v3's statement "all numbers computed by executed code" overstated what the code showed: "The code checked the arithmetic of a wrong model" (ruling 13). In round 4 the adjudicator wrote of the unbounded potential: "I should have caught F1 myself: I checked the potential only at frozen H." The calibration record is kept on [pre-registration](/wiki/method/review/pre-registration), and the other two misses became rules: [Verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model) and [the reduced-model stability rule](/wiki/method/verification/reduced-model-stability).
 
 ## In the wiki
 
@@ -87,7 +86,7 @@ The same rule applies to the program's own process. The round-3 adjudication sco
 ## Sources
 
 - Root `CLAUDE.md` 'Method' — the rule; 'Since the handoff' — the soliton candidate declared dead
-- `HANDOFF.md` §7 — "Honest obituaries are part of the deliverable"; §2 — the dead list at the handoff and the withdrawn rows
+- `HANDOFF.md` §7 — the rule in Paul's calibration request; §2 — the dead list at the handoff and the withdrawn rows
 - `papers/broken-born-checkpoint-v2.md` §1 — the deaths in the abstract; §2 — negative results as the most reliable Tier-3 items; §9 and §12 — the two obituaries, their numbers and survivors; §13 — "Withdrawn with cause"; §15 — the assessment's opening; Appendix A — the fates of the founding suppositions
 - `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the net theorem and the permanent withdrawal
 - `review/round3-adjudication.md` 'Rulings' 13, 'Pre-registration scored', 'Decisions' — the overstated verification, the calibration miss, Decisions 2 and 3, the withdrawal of v3

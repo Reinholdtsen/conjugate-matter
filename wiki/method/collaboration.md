@@ -54,10 +54,10 @@ Among the current documents, #11 is the one that carries the line. #13 ([conjuga
 
 Each element of the calibration has its page and its record:
 
-- **Tags.** Every claim says where it came from ([provenance tags](/wiki/method/provenance-tags)), and #11 ranks its claims in [tiers](/wiki/method/claim-tiers), with an "honest prior per claim ~50–80%" for its new structural physics (#11 §2).
+- **Tags.** Every claim says where it came from ([provenance tags](/wiki/method/provenance-tags)), and #11 ranks its claims in [tiers](/wiki/method/claim-tiers), with a stated prior of ~50–80% per claim for its new structural physics (#11 §2).
 - **Machine checks.** Asserted numbers are computed by scripts in `verify/`, which [the gate](/wiki/method/verification/the-gate) runs before any work counts as finished ([the iron rule](/wiki/method/verification/iron-rule)).
 - **Pre-registration.** Before each blind review the expected verdict is committed in advance. The record across four rounds: "Verdicts: 2/2 (rounds 1–2), miss (round 3), hit (round 4)" (`review/round4-adjudication.md`; [pre-registration](/wiki/method/review/pre-registration)).
-- **Negative results.** Failures are reported prominently and stay dead ([negative results and dead claims](/wiki/method/negative-results)).
+- **Negative results.** A dead claim gets an obituary of its own and stays dead ([negative results and dead claims](/wiki/method/negative-results)).
 
 ## Decisions and the veto
 

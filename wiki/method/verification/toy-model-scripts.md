@@ -272,7 +272,7 @@ The worklog records three episodes in which a check was wrong before it was righ
 
 - "Two checks were vacuous on the first draft (an always-true term; a condition multiplied by 0) and were replaced by real tests before commit." (chunk 4, `toy_s5.py`).
 - "Two drafting errors were caught by gated checks along the way: a hard-coded `True`, and citation regexes matching matrix entries." ('Write-up and review').
-- On the model II kinetic form: "A first check used finite-difference derivatives and failed at the 0.3% level. The fix was exact derivatives, not a looser tolerance." (chunk 2). The gate's rule against weakening a check applied to the script's own author.
+- On the model II kinetic form: "A first check used finite-difference derivatives and failed at the 0.3% level. The fix was exact derivatives, not a looser tolerance." (chunk 2).
 
 ## Tolerances against quoted precision
 

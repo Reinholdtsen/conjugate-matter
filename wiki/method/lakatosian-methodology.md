@@ -75,7 +75,7 @@ In Lakatos's terms (the wiki's reading [T]), every item #11 lists as progressive
 
 ### Novelty and its demotion
 
-Novelty carries the weight in Lakatos's grading, and the program's record shows two claims losing it. A literature search placed the vacuum-energy identity of §7.3 next to known work, and #11 downgraded it "from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature,"" (#11 §7.4, PM being [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity); [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). [Review round 3](/wiki/method/review/round-3) identified the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) as a result of Freidel, Leigh and Minic, and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks rather than discounting them.
+Novelty carries the weight in Lakatos's grading, and the program's record shows two claims losing it. A literature search placed the vacuum-energy identity of §7.3 next to known work, and #11 downgraded it "from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature,"" (#11 §7.4, PM being [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity); [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). [Review round 3](/wiki/method/review/round-3) identified the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) as a result of Freidel, Leigh and Minic, and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks.
 
 ### Degeneration flags in the calc notes
 
@@ -87,9 +87,9 @@ The calc notes used the vocabulary while the work was under way:
 
 A coupling that can be set to make an effect appear or vanish across ten orders of magnitude lets the program accommodate either outcome, which in Lakatos's sense is the mark of an ad hoc adjustment (the wiki's reading [T]).
 
-### Falsifiability over survival
+### The declined rescue of the soliton candidate
 
-After review round 3 found the [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)'s abundance misnormalized, one way to keep the candidate was a free dilution factor "of at least 10³–10⁴ (ruling 2), probably far more (ruling 3)". Decision 2 rejected it: "The mass would then no longer be a prediction, and the program does not trade falsifiability for survival." The other route, a symmetry-breaking scale v ≲ 100 PeV, works but was noted as prior art and not claimed: "claiming it would add no testable content and would misattribute it" (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). In Lakatos's vocabulary (the wiki's reading), the first route was an ad hoc belt adjustment and the second would have counted borrowed content as the program's own; both were declined.
+After review round 3 found the [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)'s abundance misnormalized, one way to keep the candidate was a free dilution factor "of at least 10³–10⁴ (ruling 2), probably far more (ruling 3)". Decision 2 rejected it, because the mass "would then no longer be a prediction". The other route, a symmetry-breaking scale v ≲ 100 PeV, works but was noted as prior art and not claimed: "claiming it would add no testable content and would misattribute it" (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). In Lakatos's vocabulary (the wiki's reading), the first route was an ad hoc belt adjustment and the second would have counted borrowed content as the program's own; both were declined.
 
 The referees' recurring objection that ["the framework does no work"](/wiki/program/framework-does-no-work) asks, in the same vocabulary, whether the hard core does heuristic work: whether the program's results follow from it or are imported from established physics (the wiki's reading). Round-3 Decision 4 made the [toy Lagrangian](/wiki/symmetry-breaking/toy-models) the next task because "The toy action is the only item that can change that".
 
@@ -124,7 +124,7 @@ Added by the wiki from model memory (†); no program document cites them.
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §15 — the current assessment in Lakatos's terms; §14 items 1–3 — what the word "theory" waits on; §7.4 — the novelty downgrade
-- `review/round3-adjudication.md` 'Decisions' — Decision 2 (falsifiability over survival, misattribution) and Decision 4
+- `review/round3-adjudication.md` 'Decisions' — Decision 2 (the free dilution factor, misattribution) and Decision 4
 - `notes/debt1a-iii-tuning-test.md` §5 — forced convergence as "the opposite of degeneration"
 - `notes/debt3b-wave-island.md` 'What pins g?' and `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the degeneration flag on the wave island
 - `notes/broken-born-program-v1.md` §11 — the v1 assessment (superseded by #11 §15)
