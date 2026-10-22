@@ -18,7 +18,7 @@ sources:
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round3-preregistration.md"
   - "review/round4-adjudication.md 'Pre-registration scored'"
-  - "review/v3-worklog.md 'Round-2 pending list'"
+  - "review/v3-worklog.md 'Findings neither referee raised', 'New open items', 'Next chunks'"
   - "notes/toy-lagrangian.md 'Next (Claude's call, under Paul's delegation)'"
   - "review/wiki-build-flags.md preamble"
 ---
@@ -46,7 +46,7 @@ Among the current documents, #11 is the one that carries the line. #13 ([conjuga
 
 ## Paul
 
-"Paul is an independent developer (Stanford Ginzton Lab background in scanning acoustic microscopy, which is where the Fourier-domain intuition comes from). Never describe Paul as retired." (root `CLAUDE.md`). `HANDOFF.md` §7 records that he corrected this explicitly, and the handoff's inventory carries the same register note for the first [popular article](/wiki/history/documents/popular-articles), #10 (§3). The Fourier-domain intuition is the source of the analogy the program uses most: position and momentum relate as a waveform and its spectrum, and the Fourier transform implements the Born rotation ρ exactly ([the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform)).
+"Paul is an independent developer (Stanford Ginzton Lab background in scanning acoustic microscopy, which is where the Fourier-domain intuition comes from). Never describe Paul as retired." (root `CLAUDE.md`). `HANDOFF.md` §7 records that he corrected this explicitly, and the handoff's inventory carries the same register note for the first [popular article](/wiki/history/documents/popular-articles), #10 (§3). The Fourier-domain intuition is the source of the analogy the program prefers: position and momentum relate as a waveform and its spectrum, and the Fourier transform implements the Born rotation ρ exactly ([the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform)).
 
 ## The calibration
 
@@ -92,6 +92,6 @@ The program "was developed with Claude on claude.ai in September–October 2026 
 - `review/round3-adjudication.md` 'Decisions' — the delegation and the veto
 - `review/round3-preregistration.md` — the same-model-family limitation
 - `review/round4-adjudication.md` 'Pre-registration scored' — the verdict record across four rounds
-- `review/v3-worklog.md` 'Round-2 pending list', 'Next chunks' — Paul's decisions of 2026-10-19
+- `review/v3-worklog.md` 'Findings neither referee raised' (F1, F2), 'New open items', 'Next chunks' — Paul's decisions of 2026-10-19 and the problem he raised
 - `notes/toy-lagrangian.md` — route decisions under delegation
 - `review/wiki-build-flags.md` preamble — flags awaiting Paul's ruling
