@@ -53,7 +53,7 @@ Five postulates, each tagged [P]:
 - **P4 (Polarized matter, universal gravity)**: x-polarized Standard Model fields and p-polarized χ fields, both coupled to H; "Gauge interactions do not connect the two representations" ([P4](/wiki/program/postulates/p4-polarized-matter)).
 - **P5 (Spontaneous breaking)**: "The vacuum selects a Lagrangian polarization of 𝒫; ours is x-tilted" ([P5](/wiki/program/postulates/p5-spontaneous-selection)).
 
-Two of the section pointers in P2 are off: the potential is in §3, not §5, and the cosmological constraint is derived in §6, not §7 (`review/wiki-build-flags.md` items 10 and 25). The wiki therefore cites the notebook by heading.
+Some of the section pointers in P2 are off: the potential is in §3, not §5, and the cosmological constraint is derived in §6, not §7 (`review/wiki-build-flags.md` items 10 and 25). The wiki therefore cites the notebook by heading.
 
 ### §2, the kinematic core
 
