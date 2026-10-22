@@ -19,6 +19,7 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 4 (in progress, 2026-10-19): S5'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions (written before construction)'"
   - "review/round4-adjudication.md 'Rulings' F3"
+  - "verify/toy_s5.py"
 ---
 
 *This open problem asks whether anything forces matter to be local in position, rather than leaving that as an input. In the coset toy model the vacuum's order parameter fixes a pair of candidate directions in the position–momentum plane and marks one of them as position, and a suitable coupling makes matter local in whichever direction is marked; but nothing in the model requires matter to use that coupling. Without such a link, the line a matter field lives on and the sign of the order parameter are two independent choices. In the toy the link is supplied by postulate P4, which places ordinary matter in the position-polarized representation and its mirror image in the momentum-polarized one. The toy therefore explains locality in position only as part of a package that includes a momentum-local mirror sector, the program's dark-matter candidate, and does not derive it. The toy-model worklog notes that the question is also open in the literature.*
@@ -31,7 +32,7 @@ The toy work's criterion S5 asks that matter coupled to the [order parameter](/w
 
 The criterion has two strengths:
 
-- **The weak form** holds [V]: once matter couples through a coupling built from the metric H and the real structure K, its interactions are local in x in one vacuum and in p in the mirror vacuum, "as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given" (toy note §5; [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). See [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling).
+- **The weak form** holds [V] (checked in `verify/toy_s5.py`, part C; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)): once matter couples through a coupling built from the metric H and the real structure K, its interactions are local in x in one vacuum and in p in the mirror vacuum, "as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given" (toy note §5; [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). See [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling).
 - **The strong form**, "locality forced, not chosen", is the open problem. The worklog: "Strong form (locality forced, not chosen): not achieved. It is also open in the literature." ('Chunk 4', S5 conclusion).
 
 Three documents list it:
@@ -60,7 +61,7 @@ The real structure K of [model I](/wiki/symmetry-breaking/toy-models/coset-model
 Two things are chosen in the toy, and nothing ties them together:
 
 1. **The sign of K.** In the vacuum +K the line L+ is position, and ρ sends K to −K (toy note §2), which exchanges the roles of the two lines. Which sign the vacuum has is the [spontaneously broken](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) ρ.
-2. **Each matter field's section**, the line its dependence is confined to. The section condition built from η allows either line, and it is the same condition whether built from η or from −η, so it carries no information about the sign of K: it "selects the unordered pair {L+, L−} and cannot tell position from momentum" (worklog, part B [V]).
+2. **Each matter field's section**, the line its dependence is confined to. The section condition built from η allows either line, and it is the same condition whether built from η or from −η, so it carries no information about the sign of K: it "selects the unordered pair {L+, L−} and cannot tell position from momentum" (worklog, part B [V]; checked in `verify/toy_s5.py`, part B, [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 The phrase "independent orders" means that each choice can take either value whatever the other one is: in a vacuum with K = +K_ref, a matter field could depend on the coordinate along L+ or on the coordinate along L−, and the section condition allows both. What ties the two choices is a coupling that depends on the sign of K. The toy's coupling I, built from H and K, does this: it is local along whichever line is L+ in the current vacuum ([Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling); the worklog calls it "K-covariant"; the round-4 adjudication's revision 5 renamed it "(H, K)-covariant"). But "Nothing here forces that coupling" (toy note §5), and nothing in the toy excludes a K-blind coupling such as ∫W², the integral of the square of the state's [Wigner function](/wiki/phase-space/reciprocity/wigner-function), which "shows no asymmetry" between the vacua (§5).
 
@@ -107,3 +108,4 @@ The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–7
 - `papers/reciprocity-toy-models.md` §5 — the coupling, "Nothing here forces that coupling", the d > 1 family; §6 — "Not shown": a mechanism forcing the coupling, anything beyond d = 1; §2 — ρ sends K to −K; Abstract — the complex model's restoration
 - `notes/toy-lagrangian.md` 'Chunk 4' — parts B and C, the S5 conclusion (i)–(ii), the P4 lock and the section-selection literature [S]; 'Success criteria', 'Predictions', 'Assessment against the predictions' — the wording of S5, the forecasts and their scores, the round-3 critique "only partly answered"; 'Chunk 1 results' — Langmann–Szabo on locality; 'Chunk 3 results' — the plan for S5
 - `review/round4-adjudication.md` 'Rulings' F3 — the K-odd coupling that makes the breaking physical, "for example P4-type matter through I_K"
+- `verify/toy_s5.py` parts B and C — the gated checks of the section condition and of the weak form

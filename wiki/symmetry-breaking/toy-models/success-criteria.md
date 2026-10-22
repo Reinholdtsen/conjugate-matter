@@ -19,6 +19,10 @@ sources:
   - "review/round4-adjudication.md 'Rulings'"
   - "review/round4-adjudication.md 'Revisions'"
   - "CLAUDE.md 'Method (HANDOFF §5)'"
+  - "verify/toy_coset.py"
+  - "verify/toy_gw.py"
+  - "verify/toy_s4.py"
+  - "verify/toy_s5.py"
 ---
 
 *The success criteria are six pass-or-fail tests, S0 to S5, written down on 19 October 2026 before either toy model was built, together with a forecast of how each would come out. Four of them encode the referees' literal demand: prior work is cited, the action is symmetric, the symmetry permutes the vacua, and an [order parameter](/wiki/symmetry-breaking/order-parameter) distinguishes them. Two encode the deeper objection that [the framework does no work](/wiki/program/framework-does-no-work): the breaking must survive quantum fluctuations, and it must make matter's interactions local in position. Fixing the tests first means the results are judged by standards chosen before the results were known, as the program's pre-registered forecasts do for its review rounds. The worklog scored all four forecasts as hits, before the round-4 review narrowed several of the results that the scoring relied on.*
@@ -98,9 +102,9 @@ The "τ potential" in the S4 row is the [naive ρ-preserving potential](/wiki/sy
 
 What each line rests on now, after round 4:
 
-- **S1–S3.** In [model I](/wiki/symmetry-breaking/toy-models/coset-model), an action invariant under [Sp(2, ℝ)](/wiki/phase-space/reciprocity/symplectic-form), vacua that ρ maps to one another, and O = K₁₁ as order parameter ([action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries); [vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). In model II, the duality as a symmetry of the complex field, a circle of vacua it moves, and the polarization Δ(β) ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)). Round 4 added that model I's vacuum keeps a twisted element ρ∘(K → −K), so its breaking of ρ is physical only once a coupling odd in K is present ([the twisted element](/wiki/symmetry-breaking/twisted-element)).
-- **S4.** The "τ potential" of the chunk-3 pass is the [naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), unbounded below once H is dynamical and now dead. Version 2 restates the pass with [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), as an ordered ℤ₂ phase in [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) only ([the Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)). Model II fails S4 ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)). The non-amenability route was "not needed, not tested".
-- **S5.** The weak form passes with the coupling the worklog called "a ρ-covariant coupling of matter to K". Round 4 found that it needs H as well as K (finding F5), and version 2 calls it "a coupling built from (H, K)", which "is covariant under the SO(2) fixing H = 1, not under Sp(2,ℝ)" (§5; [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). The strong form is open ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
+- **S1–S3.** In [model I](/wiki/symmetry-breaking/toy-models/coset-model), an action invariant under [Sp(2, ℝ)](/wiki/phase-space/reciprocity/symplectic-form), vacua that ρ maps to one another, and O = K₁₁ as order parameter ([action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries); [vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). In model II, the duality as a symmetry of the complex field, a circle of vacua it moves, and the polarization Δ(β) ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)). Round 4 added that model I's vacuum keeps a twisted element ρ∘(K → −K), so its breaking of ρ is physical only once a coupling odd in K is present ([the twisted element](/wiki/symmetry-breaking/twisted-element)). The S1–S3 checks are gated in `verify/toy_coset.py` for model I and `verify/toy_gw.py` for model II ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+- **S4.** The "τ potential" of the chunk-3 pass is the [naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), unbounded below once H is dynamical and now dead. Version 2 restates the pass with [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), as an ordered ℤ₂ phase in [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) only ([the Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)). The lattice simulation is gated in `verify/toy_s4.py`, and V_b's stability with H dynamical in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Model II fails S4 ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)). The non-amenability route was "not needed, not tested".
+- **S5.** The weak form passes with the coupling the worklog called "a ρ-covariant coupling of matter to K"; the worklog's [V] for it rests on `verify/toy_s5.py`, which the gate runs ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Round 4 found that the coupling needs H as well as K (finding F5), and version 2 calls it "a coupling built from (H, K)", which "is covariant under the SO(2) fixing H = 1, not under Sp(2,ℝ)" (§5; [locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). The strong form is open ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
 
 ## Scoring the forecasts
 
@@ -128,6 +132,7 @@ The assessment lists three ('Assessment against the predictions'; on the first, 
 - [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion): the demand the criteria encode, and #11's verdict on it.
 - [Model I: the coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model) and [Model II: the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar): each page cites the criterion it tests.
 - [Review round 4](/wiki/method/review/round-4): the blind review that graded the results and narrowed the scoring.
+- [The toy-model scripts](/wiki/method/verification/toy-model-scripts): the gated checks of criteria S1–S5.
 
 ## Sources
 
@@ -139,3 +144,4 @@ The assessment lists three ('Assessment against the predictions'; on the first, 
 - `papers/reciprocity-toy-models.md` §1, §5, §6, Abstract — the prior work, the (H, K)-built coupling and the scope as version 2 states them
 - `review/round4-adjudication.md` 'Rulings', 'Revisions' — the omitted prior work added in round 4; "ordered ℤ₂ phase"
 - `CLAUDE.md` 'Method (HANDOFF §5)' — the pre-registration rule
+- `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py` — the gated checks behind the S1–S5 outcomes
