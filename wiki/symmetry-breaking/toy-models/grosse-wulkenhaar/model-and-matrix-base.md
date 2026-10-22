@@ -52,7 +52,7 @@ The note works with the explicit form
 f_mn = 2(−1)^m √(m!/n!) (√(2/θ))^{n−m} (x₁ + i x₂)^{n−m} L_m^{n−m}(2r²/θ) e^{−r²/θ}        (n ≥ m)
 ```
 
-where r² = x₁² + x₂² and L_m^{n−m} is a generalized Laguerre polynomial (§3). For n < m the function is the complex conjugate of f_nm; the gate script's docstring writes the rule as "f_mn^dagger = f_nm". On the diagonal, n = m, the form reduces to 2(−1)^m L_m(2r²/θ) e^{−r²/θ}: a real function of the radius alone. Diagonal matrices are therefore rotationally symmetric profiles on the plane, which is the form the vacua of model II take ([complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
+where r² = x₁² + x₂² and L_m^{n−m} is a generalized Laguerre polynomial (§3). For n < m the function is the complex conjugate of f_nm; [the gate](/wiki/method/verification/the-gate) script's docstring writes the rule as "f_mn^dagger = f_nm". On the diagonal, n = m, the form reduces to 2(−1)^m L_m(2r²/θ) e^{−r²/θ}: a real function of the radius alone. Diagonal matrices are therefore rotationally symmetric profiles on the plane, which is the form the vacua of model II take ([complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
 
 ## The anchors
 
@@ -86,7 +86,7 @@ The two grid checks assert deviations below 1e-8.
 
 **The check [V].** The gate's section "The Omega = 1 kinetic form in the matrix base" builds the quadratic form for m, n < 4 from symbolic derivatives evaluated on the grid and prints "max off-diag 1.7e-14" and "ratio 25.1327 (8 pi = 25.1327)". The referee's exact computation: "off-diagonal max 0.0; diagonal/(8 pi) = m+n+1 for all m,n<=2 (exact)" (audit notes, Step 2(b)).
 
-**The finite-difference episode.** The worklog: "A first check used finite-difference derivatives and failed at the 0.3% level. The fix was exact derivatives, not a looser tolerance." ('Chunk 2 results'). The check that failed was not loosened; the method was replaced, as the program's rule for its gate requires ([the gate](/wiki/method/verification/the-gate)).
+**The finite-difference episode.** The worklog: "A first check used finite-difference derivatives and failed at the 0.3% level. The fix was exact derivatives, not a looser tolerance." ('Chunk 2 results').
 
 **A predicted error site.** The round-4 pre-registration listed "the 8π(m+n+1) coefficient" among the likeliest places for a surviving numerical error ([pre-registration](/wiki/method/review/pre-registration); `review/round4-preregistration.md`). The adjudication scored the outcome: "Every normalization and sign I listed was confirmed" ('Pre-registration scored').
 

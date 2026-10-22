@@ -59,7 +59,7 @@ Its summary listed among the results "Ising-class breaking of ρ in model I in 1
 
 ## How it was tested
 
-Only with H frozen at 1. The first version asserted "At H = 1 the polarization field is φ, with XY stiffness (f_K²/2)(∂φ)²" (v1 §4), and the worklog's S4 test was a lattice simulation of that angle alone: "Reduction: at H = 1 the polarization field is the angle φ of K(φ), and ρ acts as φ → φ + π. The kinetic term is an XY stiffness." ('Chunk 3 results'; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). The simulation found order at low temperature, and the worklog recorded "S4 passes only with the τ-type potential [V]". Nothing checked the potential with H free to move. The adjudicator: "I should have caught F1 myself: I checked the potential only at frozen H." (`review/round4-adjudication.md`, ruling F2).
+Only with H frozen at 1. The first version asserted "At H = 1 the polarization field is φ, with XY stiffness (f_K²/2)(∂φ)²" (v1 §4), and the worklog's S4 test was a lattice simulation of that angle alone: "Reduction: at H = 1 the polarization field is the angle φ of K(φ), and ρ acts as φ → φ + π. The kinetic term is an XY stiffness." ('Chunk 3 results'; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). The simulation found order at low temperature, and the worklog recorded "S4 passes only with the τ-type potential [V]". Nothing checked the potential with H free to move; the adjudicator had also checked it only at frozen H (`review/round4-adjudication.md`, ruling F2).
 
 The reduction also kept K on its circle K(φ). Flag 40 in `review/wiki-build-flags.md` records what happens when only H is held at 1 and K is free on its hyperboloid: at the couplings [the gate](/wiki/method/verification/the-gate) uses, λ = μ = 1, the potential is unbounded below and K_ref is a saddle, with the Hessian eigenvalue −6; it is bounded at H = 1 only on the circle K(φ) or for λ ≥ 4μ (`review/wiki-build-checks/frozen_h_naive.py`).
 
@@ -129,7 +129,7 @@ Where any ρ-preserving potential comes from is [open](/wiki/symmetry-breaking/r
 
 ## Sources
 
-- `review/round4-adjudication.md` 'Verdict', 'Rulings' F1–F2, 'Pre-registration scored', 'Lessons' — the upheld findings, the runaway values, the adjudicator's admission, the scoring and the reduced-model lesson
+- `review/round4-adjudication.md` 'Verdict', 'Rulings' F1–F2, 'Pre-registration scored', 'Lessons' — the upheld findings, the runaway values, the adjudicator's frozen-H check, the scoring and the reduced-model lesson
 - `review/round4/adjudicator/arb.out` — the adjudicator's runaway values and Hessian eigenvalues
 - `review/round4/referee/audit-notes.md` Step 2(a), Step 2(c), Step 3, Step 4 — the referee's derivation of F1–F2, the residual symmetry, point C3 and the single weakest link
 - `review/round4/referee/out_model1.txt`, `review/round4/referee/out_sec4_extra.txt` — the referee's family, values, Hessians and residual-symmetry solutions
