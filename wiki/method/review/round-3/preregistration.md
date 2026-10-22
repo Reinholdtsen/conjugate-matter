@@ -68,7 +68,7 @@ On the program's scale, from the console's referee prompt, B is "flawed but cont
 > - Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification. Hypothesis H's motivation ("the minimal action is to equate the elementary charges") is one sentence.
 > - Expect the auditor to say the dark-matter proposal stands or falls independently of the phase-space framework.
 
-The objection is that a proposal made under the program's name owes nothing to the program's [hard core](/wiki/program/hard-core), spontaneously broken [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)). #14 v3 conceded part of it in its own text: the charge-lattice motivation is used "only as motivation ... No numerical result below depends on it" (§2). Hypothesis H was its single coupling assumption, that the smallest hidden charge equals the electron's ([hypothesis H](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#attempt-3-hypothesis-h)).
+The objection is that a proposal made under the program's name does not depend on the program's [hard core](/wiki/program/hard-core), spontaneously broken [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)). #14 v3 conceded part of it in its own text: the charge-lattice motivation is used "only as motivation ... No numerical result below depends on it" (§2). Hypothesis H was its single coupling assumption, that the smallest hidden charge equals the electron's ([hypothesis H](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#attempt-3-hypothesis-h)).
 
 ### Runner-up weakest links
 

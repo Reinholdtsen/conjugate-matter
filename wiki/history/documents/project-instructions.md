@@ -18,9 +18,10 @@ sources:
   - "HANDOFF.md §5"
   - "HANDOFF.md §9"
   - "papers/broken-born-checkpoint-v2.md §14"
+  - "review/wiki-build-flags.md items 37, 38"
 ---
 
-*The root `CLAUDE.md` is the repository's file of standing instructions for Claude Code sessions. It says what the program is, maps the documents to their folders, records what has changed since the program moved from claude.ai, defines the gate that must pass before work is called finished, and sets the method and the working arrangement with Paul. Its section "Since the handoff" is the most current statement of the program's status, and it ranks first when the documents disagree. The README is the repository's one-line description from its first commit, and what it says about the project is out of date.*
+*The root `CLAUDE.md` is the repository's file of standing instructions for Claude Code sessions. It says what the program is, maps the documents to their folders, records what has changed since the program moved from claude.ai, defines [the gate](/wiki/method/verification/the-gate) that must pass before work is called finished, and sets the method and the working arrangement with Paul. Its section "Since the handoff" is the most current statement of the program's status, and it ranks first when the documents disagree. The README is the repository's one-line description from its first commit, and what it says about the project is out of date.*
 
 **Status:** Record — untagged (the file defines the provenance tags but applies none) — its section "Since the handoff" is rank 1 in the wiki's precedence order (`wiki/CLAUDE.md`). The file was created at the move in commit 008c3ee (2026-10-19) and revised after each decision since, most recently in 3243cdc (2026-10-21); the README has not changed since the initial commit, 6b8f599 (2026-10-18).
 
@@ -59,7 +60,7 @@ The section "Since the handoff (2026-10-19)" lists what changed after `HANDOFF.m
 
 - **The soliton candidate.** "#14 went to v3, failed round-3 review (verdict C) and was withdrawn. The superheavy soliton candidate in HANDOFF §2 is **dead** as a program-native proposal. The framework is merely compatible with known PeV-scale topological dark matter (prior art)." See [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) and [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art).
 - **Sector separation.** "Strict sector separation (P4 at face value) is in force." See [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter).
-- **#11 v2.1.** "#11 is now v2.1: soliton obituary (§12); compatibility theorem re-tagged [T] (Freidel–Leigh–Minic); P4 strict (§4); DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3." DESI is the Dark Energy Spectroscopic Instrument, and DR2 and DR3 are its Data Release 2 and Data Release 3. See [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) and [row 4](/wiki/predictions/dark-energy-drift).
+- **#11 v2.1.** "#11 is now v2.1: soliton obituary (§12); compatibility theorem re-tagged [T] (Freidel–Leigh–Minic); P4 strict (§4); DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3." DESI is the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi), and DR2 and DR3 are its Data Release 2 and Data Release 3. See [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) and [row 4](/wiki/predictions/dark-energy-drift). The version the bullet names is out of date ([below](#where-the-file-and-the-repository-disagree); flag 38 in `review/wiki-build-flags.md`).
 - **The toy Lagrangian.** "The toy Lagrangian (HANDOFF §8 item 4) is done to the referees' wording; see `papers/reciprocity-toy-models.md` and #11 v2.2 §14 item 11." Its open ends are listed as "a Monte Carlo with H dynamical", "a derivation of the ρ-preserving potential", "the strong form of matter locality" and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead". See [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion), [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) and [Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead). #11 §14 item 11 lists all but the last as open and does not mention the real-model lead.
 - **The queue**, below.
 - **The reasons.** "Reasons are in the adjudication's 'Decisions' section" ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)).
@@ -87,7 +88,7 @@ The wording "then `scripts/check-wiki.py` on the wiki" dates from commit 3243cdc
 
 ## The method
 
-The section is headed "Method (HANDOFF §5)" and began as a condensed copy of the handoff's verification protocol. Its bullets now read, with the commit that added each:
+The section is headed "Method (HANDOFF §5)" and began as a condensed copy of the handoff's verification protocol ([Method](/wiki/method) in this wiki). Its bullets now read, with the commit that added each:
 
 - **Tags and marks** (commit 008c3ee): "Tag every claim: **[D]** derived here, **[T]** literature, **[P]** postulate, **[O]** open, **[V]** machine-verified. Citations: **†** from model memory (verify against the source before any external use), **[S]** live-searched." See [provenance tags and citation marks](/wiki/method/provenance-tags).
 - **The iron rule** (008c3ee): "no arithmetic by eyeball. Every asserted or disputed number gets executed code with printed output, kept in `verify/`." See [the iron rule](/wiki/method/verification/iron-rule).
@@ -107,8 +108,8 @@ The wiki's voice rules are taken from this section. The roles, the calibration a
 
 ## Where the file and the repository disagree
 
-- **The version of #11.** The bullet on #11 in "Since the handoff" still says "#11 is now v2.1", while the bullet on the toy Lagrangian refers to "#11 v2.2 §14 item 11", and the checkpoint's header reads "Version 2.2 (checkpoint), amended 2026-10-20". Commit 6606734 made #11 v2.2 and added the toy-Lagrangian bullet without editing the other. The changes the bullet on #11 lists are the v2.1 changes and remain in v2.2; the version is 2.2 ([the checkpoint](/wiki/history/documents/checkpoint)).
-- **The scripts in `verify/`.** The layout names `battery.py` and `soliton_obituary.py`. `scripts/check.sh` also runs the toy-model scripts `toy_coset.py`, `toy_gw.py`, `toy_s4.py` and `toy_s5.py`, which the layout does not list.
+- **The version of #11.** The bullet on #11 in "Since the handoff" still says "#11 is now v2.1", while the bullet on the toy Lagrangian refers to "#11 v2.2 §14 item 11", and the checkpoint's header reads "Version 2.2 (checkpoint), amended 2026-10-20". Commit 6606734 made #11 v2.2 and added the toy-Lagrangian bullet without editing the other. The changes the bullet on #11 lists are the v2.1 changes and remain in v2.2; the version is 2.2 ([the checkpoint](/wiki/history/documents/checkpoint); flag 38 in `review/wiki-build-flags.md`).
+- **The scripts in `verify/`.** The layout names `battery.py` and `soliton_obituary.py`. `scripts/check.sh` also runs the toy-model scripts `toy_coset.py`, `toy_gw.py`, `toy_s4.py` and `toy_s5.py`, which the layout does not list (flag 38).
 - **Where arbitration scripts go.** The layout says "arbitration and audit scripts go here", in `verify/`. The arbitration scripts of rounds 3 and 4 sit in `review/round3/adjudicator/` and `review/round4/adjudicator/`, and the gate does not run them; the numbers they arbitrated are gated through `verify/soliton_obituary.py` and the toy-model scripts. No document says whether the instruction or the practice governs, and the wiki lists the point as unresolved ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records)).
 
 ## The README
@@ -117,7 +118,7 @@ The wiki's voice rules are taken from this section. The roles, the calibration a
 
 > Physics hypothesis explaining dark matter and missing magnetic monopoles
 
-Against the current record, the line is out of date in each part:
+Against the current record, the line is out of date in each part (its monopole clause is flag 37 in `review/wiki-build-flags.md`):
 
 - **The missing monopoles.** The program's explanation of our failure to find magnetic monopoles is dead: the relevant duality is electric–magnetic, not position–momentum, and [inflation](/wiki/cosmology/early-universe/inflation-and-dilution) already accounts for the absence (#11 §11.1; `HANDOFF.md` §2; [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
 - **Dark matter.** The program offers two candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [an X-condensate](/wiki/dark-matter/candidates/x-condensate), and discriminating between them is open (#11 §12 and §14 item 9 [O]; [dark-sector candidates](/wiki/dark-matter/candidates)).
@@ -138,3 +139,4 @@ The wiki's conventions file, `wiki/CLAUDE.md`, places "the root `CLAUDE.md`, sec
 - `HANDOFF.md` §5 — the method the file condenses; §8 — the queue it replaced; §9 — the suggested layout
 - `papers/broken-born-checkpoint-v2.md` header — the version the file's bullet lags; §11.1, §12, §14 and §15 — the points on which the README is out of date
 - `README.md` — the one-line description
+- `review/wiki-build-flags.md` items 37 and 38 — the README's monopole clause; the root `CLAUDE.md`'s stale version of #11 and its two-script layout
