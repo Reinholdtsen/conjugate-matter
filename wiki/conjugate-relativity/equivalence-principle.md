@@ -18,11 +18,12 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 6"
   - "notes/broken-born-theory.md §1"
   - "popsci/universes-other-half.md 'A second speed of light'"
+  - "review/wiki-build-flags.md item 29"
 ---
 
 *This is [#13](/wiki/conjugate-relativity)'s claim that the [equivalence principle of general relativity](/wiki/gravity/spin-2-fields/general-relativity#the-equivalence-principle-and-rindler-frames-t), which puts all freely falling frames on an equal footing, is the principle of relativity of the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the part of position. In #13's dual kinematics, rest means feeling no force, which is free fall; so the dual statement that physics is the same in all force-free frames is the equivalence principle, reached from kinematics rather than from gravitation, and #13 reads Einstein's two relativity principles as the two polarizations of one statement. The same paper lists what the two polarizations share, the time coordinate and the massless graviton, so that both fall alike, and what the breaking of the symmetry makes different: our light cone is held in place by massless gravity, the dual cone's dynamical part by the [massive field X](/wiki/gravity/momentum-graviton), so dual effects are short-ranged. The claim is alive but unreviewed: it is tagged as a structural derivation by #13 itself, no review round or script has checked it, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it. The [popular article #12](/wiki/history/documents/popular-articles) states it as settled, which is not its status.*
 
-**Status:** Alive, unreviewed — [D — structural] (#13 §5); the long-range/short-range asymmetry [D — checkpoint §7] (#13 §6), whose derived form is #11 §7.5's. The tags are #13's own: no review round has covered #13, no `verify/` script checks the claim, it is not on #13 §7's fixed list, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
+**Status:** Alive, unreviewed — [D — structural] (#13 §5); the long-range/short-range asymmetry [D — checkpoint §7] (#13 §6), whose derived form is #11 §7.5's (flag 29 in `review/wiki-build-flags.md`). [The tags](/wiki/method/provenance-tags) are #13's own: no review round has covered #13, no `verify/` script checks the claim, it is not on #13 §7's fixed list, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
 
 ## Background: two relativity principles [T]
 
@@ -33,7 +34,7 @@ The two principles have different subjects: the first relates frames in uniform 
 
 ## The claim
 
-#13 §5, after defining the dual-inertial frames:
+#13 §5, after defining the [dual-inertial frames](/wiki/conjugate-relativity/dual-inertia):
 
 > "The handshake worth recording [D — structural]: *the dual principle of relativity — equivalence of all force-free frames — is the equivalence principle*, arrived at from kinematics rather than gravitation. In this framework Einstein's two relativity principles are the two polarizations of one statement."
 
@@ -57,7 +58,7 @@ What kind of result this is:
 
 - **The time coordinate.** #13 works in a 3+1 presentation, in which space and momentum trade places and time is left alone; the construction that also exchanges time and energy is open ([Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map)). The shared time is the t in the dual-inertial condition dp/dt = 0.
 - **The massless graviton.** In the checkpoint the massless graviton is even under reciprocity and the massive field X is odd: "Massless graviton = reciprocity-even", "X = reciprocity-odd" (#11 §7.5; [spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity); [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton)).
-- **Falling alike.** In the checkpoint, that both kinds of matter fall alike is a postulate. [P4](/wiki/program/postulates/p4-polarized-matter) [P] says that x-polarized matter (the Standard Model) and p-polarized matter (χ) "both couple universally to H" (#11 §4), and #11 §8 has conjugate matter χ propagate "on g (equivalence principle; Bullet-Cluster-safe)" ([conjugate matter and the velocity gate](/wiki/dark-matter/conjugate-matter)). The lab notebook's version of P4 said it outright: "the equivalence principle holds across polarizations" (#1 §1, superseded as a reference). #13 §6's "so both polarizations fall identically" is untagged and states the same consequence.
+- **Falling alike.** In the checkpoint, that both kinds of matter fall alike is a postulate. [P4](/wiki/program/postulates/p4-polarized-matter) [P] says that x-polarized matter (the Standard Model) and p-polarized matter (χ) "both couple universally to H" (#11 §4), and #11 §8 has conjugate matter χ propagate "on g (equivalence principle; Bullet-Cluster-safe)" ([conjugate matter and the velocity gate](/wiki/dark-matter/conjugate-matter)). [The lab notebook](/wiki/history/documents/lab-notebook)'s version of P4 said it outright: "the equivalence principle holds across polarizations" (#1 §1, superseded as a reference). #13 §6's "so both polarizations fall identically" is untagged and states the same consequence.
 
 So the program contains two statements about the equivalence principle: the postulated universal coupling of P4, which makes both polarizations fall alike in our description, and #13's structural reading of the equivalence principle as the momentum polarization's relativity principle.
 
@@ -79,7 +80,7 @@ A force carried by a massless field, like gravity or electromagnetism, falls off
 
 #13 §1 had already described the dual cone as "the causal structure of the *slaved* geometry g⁻¹", with the massive field X as "the independently dynamical part of momentum-space geometry", which "modifies the dual cone only at short range in momentum [D — §7 of the checkpoint]" ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); [the momentum graviton X](/wiki/gravity/momentum-graviton)). Both citations point to #11 §7, the section on X. What #11 §7.5 states there [D] is a range in position for X's couplings to ordinary matter: "SM couplings gravitational-strength and Yukawa-cut at 1/M_X" (SM: Standard Model; [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)).
 
-The reading "in momentum" has a counterpart only in the original chat, where the handoff records "dual Newtonian limit = Yukawa in momentum = the gate" (`HANDOFF.md` §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); [two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results)). By the wiki's order of precedence #11's wording is the derived statement ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+The reading "in momentum" has a counterpart only in the original chat, where [the handoff](/wiki/history/documents/handoff) records "dual Newtonian limit = Yukawa in momentum = the gate" (`HANDOFF.md` §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); [two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results)). By the wiki's order of precedence #11's wording is the derived statement ([conflicts between sources](/wiki/history/documents/source-conflicts)). #13's citation of §7 for a claim §7 does not make is flag 29 in `review/wiki-build-flags.md`.
 
 ## A different question: the dual equivalence principle
 
@@ -105,4 +106,5 @@ The popular article #12 ("A second speed of light"): "The momentum description's
 - `papers/broken-born-checkpoint-v2.md` §7.5 — the massless graviton as reciprocity-even and "Yukawa-cut at 1/M_X"; §4 for P4; §8 for conjugate matter on g; §13 row 6 for the massless graviton's test.
 - `HANDOFF.md` §2 — the alive listing; §4 for the chat-only "dual equivalence principle" and "Yukawa in momentum".
 - `notes/broken-born-theory.md` §1 — the notebook's P4, "the equivalence principle holds across polarizations" (superseded as a reference).
+- `review/wiki-build-flags.md` item 29 — #13's "[D — checkpoint §7]" for a reading in momentum that #11 §7 does not state; awaits Paul's ruling.
 - `popsci/universes-other-half.md` 'A second speed of light' — the popular statement (not a status source).

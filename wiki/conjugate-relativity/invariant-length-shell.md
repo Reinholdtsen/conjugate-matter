@@ -64,7 +64,7 @@ The mass shell constrains momentum; its image constrains position. A conjugate q
 
 #13 §4's plain-language passage: "This was Born's original hope in 1938: a physics with a fundamental mass and a fundamental length on equal footing." The references are [3]† M. Born, "A suggestion for unifying quantum theory and relativity," Proc. R. Soc. Lond. A 165, 291 (1938), and [4]† M. Born, "Reciprocity theory of elementary particles," Rev. Mod. Phys. 21, 463 (1949), both cited from model memory; they are #11's references [1]† and [2]† ([Born's question](/wiki/program/borns-question)). #13 §7 counts "Born's self-dual program [3†, 4†]" among its literature tethers.
 
-The round-3 referee checked the same two papers in another manuscript's reference list and found the metadata correct, but "1938 abstract does not state the rule; primary text paywalled" (`review/round3/referee/audit-notes.md`, Step 1). Whether Born's papers express the hope in these terms is part of [the † literature battery](/wiki/method/literature-battery), #11's open problem 10 (OP10) and item 1 of the current queue.
+The [round-3](/wiki/method/review/round-3) referee checked the same two papers in another manuscript's reference list and found the metadata correct, but "1938 abstract does not state the rule; primary text paywalled" (`review/round3/referee/audit-notes.md`, Step 1). Whether Born's papers express the hope in these terms is part of [the † literature battery](/wiki/method/literature-battery), #11's open problem 10 (OP10) and item 1 of the current queue.
 
 ## Planck closure
 
@@ -88,7 +88,7 @@ The bullet is headed "Closure at the self-dual point". #13 does not define the s
 
 ### Width in position, width in momentum [T]
 
-A waveform confined to a short interval has a broad spectrum, and the product of the two widths has a lower bound: the time–bandwidth relation of Fourier analysis. In quantum mechanics momentum is ℏ times the wavenumber, so a state confined to a region of size L has a momentum spread of order ℏ/L, the uncertainty relation [T] ([the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform)).
+A waveform confined to a short interval has a broad spectrum, and the product of the two widths has a lower bound: the time–bandwidth relation of Fourier analysis. In quantum mechanics momentum is ℏ times the wavenumber, so a state confined to a region of size L has a momentum spread of order ℏ/L, [the uncertainty relation](/wiki/phase-space/reciprocity/canonical-commutator) [T] ([the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform)).
 
 ### The reading
 
@@ -100,14 +100,14 @@ The chain has four links:
 
 1. λ_χ is the conjugate quantum's invariant extent (the shell above).
 2. Its intrinsic momentum width is μ ~ ℏ/λ_χ, the reciprocal relation between widths.
-3. μ is the momentum scale of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). In #11 §8 the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) carries a gate F(k²/μ²) in the incoming relative momentum k, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]"; calc note #6 §4 identifies μ as "the χ quantum's own p-width" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
+3. μ is the momentum scale of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). In #11 §8 the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) carries a gate F(k²/μ²) in the incoming relative momentum k, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]"; [calc note #6](/wiki/history/documents/debt-1-notes) §4 identifies μ as "the χ quantum's own p-width" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
 4. The knee in the cross-section sits at the gate velocity v\* = √2 μ/m_χ, so it inherits the invariance of λ_χ ([Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee)). The √2 depends on the gate convention; see flag 17 in `review/wiki-build-flags.md`, described below.
 
 The relation μ ~ ℏ/λ_χ appears only in #13, and #13 gives no value for λ_χ.
 
 ### Where v\* comes from
 
-The formula v\* ≡ √2 μ/m_χ is the definition in the lab notebook #1 (§5.1), written for its Gaussian gate ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)); #1 is superseded as a reference. #11 v2.2 keeps a "robust knee at v\*" with the shape of the gate open ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)), and its prediction row 1 requires a "Knee at v\* ~ 10² km/s", but it does not restate the formula.
+The formula v\* ≡ √2 μ/m_χ is the definition in [the lab notebook](/wiki/history/documents/lab-notebook) #1 (§5.1), written for its Gaussian gate ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)); #1 is superseded as a reference. #11 v2.2 keeps a "robust knee at v\*" with the shape of the gate open ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)), and its prediction row 1 requires a "Knee at v\* ~ 10² km/s", but it does not restate the formula.
 
 The two sources of the chain use different gate conventions. #1 writes its gate as e^{−k²/μ²} in the relative momentum k (§3) and defines v\* from it (§5.1); calc note #6 §4 writes the overlap form e^{−(p₁−p₂)²/2μ²} in the momenta p₁ and p₂ of the two quanta and reads μ as the fiber width. `review/wiki-build-flags.md` item 17 records a suspected factor of √2 in μ between them: #13 §4 takes μ as #6's fiber width but uses #1's v\*, and in #6's convention the knee would sit at v\* = μ/m_χ. The flag notes that no stated number changes, and it awaits Paul's ruling, with an executed check in `review/wiki-build-checks/gate_conventions.py`. This page quotes #13 as written.
 
@@ -117,7 +117,7 @@ The formula for v\* needs a mass. #13 labels the conjugate quantum by λ_χ "as 
 
 ## Open: the invariant length against the checkpoint's kinematics
 
-The checkpoint describes conjugate matter in ordinary kinematics. In #11 §8, "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" and has a mass m_χ, and #11 §12 lists [χ particles](/wiki/dark-matter/candidates/chi-particles) as one of two dark-matter candidates on those terms. The withdrawn soliton manuscript #14 did the same. The v3 worklog, comparing the two papers while #14 was being revised, recorded the mismatch as item O3:
+The checkpoint describes conjugate matter in ordinary kinematics. In #11 §8, "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" and has a mass m_χ, and #11 §12 lists [χ particles](/wiki/dark-matter/candidates/chi-particles) as one of two dark-matter candidates on those terms. The [withdrawn soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 did the same. The v3 worklog, comparing the two papers while #14 was being revised, recorded the mismatch as item O3:
 
 > "#14 describes the dark sector entirely in our kinematics: GeV masses, 10⁻³ c drift, an ordinary massless dark photon moving at c. #13 §4 labels conjugate quanta by an invariant length λ instead of a mass, and a λ = 0 quantum would sit on the dual null cone with |dp/dt| = c̃. The papers were never reconciled."
 
@@ -129,7 +129,7 @@ No document has reconciled the two descriptions since. By the wiki's order of pr
 
 ## λ_χ in the dual dynamics
 
-- **The dual second law.** #13 §5: "The dual second law, structurally, makes λ_χ the measure of resistance to force-*change* [conjecture-tier; the full dual dynamics awaits the formalization of §6]." This would give λ_χ the role mass plays in Newton's second law ([dual inertia: the dual laws of motion](/wiki/conjugate-relativity/dual-inertia#conjecture-the-dual-laws-of-motion)).
+- **The dual second law.** #13 §5: "The dual second law, structurally, makes λ_χ the measure of resistance to force-*change* [conjecture-tier; the full dual dynamics awaits the formalization of §6]." This would give λ_χ the role mass plays in Newton's second law ([dual inertia: the dual second law](/wiki/conjugate-relativity/dual-inertia#conjecture-the-dual-second-law)).
 - **A chat-only question.** `HANDOFF.md` §4, among the results that exist only in the original chat, ends its entry on two gravitational charges with "whether invariant length λ and dual charge lock together = 'dual equivalence principle' open question" ([two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results)).
 
 ## The popular version

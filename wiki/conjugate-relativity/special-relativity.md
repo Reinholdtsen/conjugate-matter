@@ -12,11 +12,12 @@ sources:
   - "papers/conjugate-special-relativity.md §5"
   - "papers/conjugate-special-relativity.md §6"
   - "papers/conjugate-special-relativity.md §7"
+  - "review/wiki-build-flags.md item 30"
 ---
 
 *Special relativity is Einstein's 1905 theory of how measurements of length and time compare between observers moving at constant velocity relative to one another, built on one speed that all of them measure alike, the speed of light c. Its machinery (boosts, the light cone, the relativity of simultaneity, time dilation, length contraction and the mass shell) is textbook physics. The program uses it as a template: the paper [#13](/wiki/conjugate-relativity) copies each piece into the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the role of position, with force in place of velocity and a [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in place of c. This page states the template and lists the copies; #13 tags most of its copies as derived, but no review round or script has checked them, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them.*
 
-**Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a blind review round, no `verify/` script checks any of its formulas or numbers, and #11 v2.2 does not mention it.
+**Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a [blind review](/wiki/method/review) round, no `verify/` script checks any of its formulas or numbers, and #11 v2.2 does not mention it.
 
 ## Two postulates [T]
 
@@ -108,7 +109,7 @@ The value is the same in every frame. The four-momenta it allows form a hyperbol
 
 For v much smaller than c, γ − 1 ≈ ½(v/c)², and the boost reduces to the Galilean transformation x′ = x − vt, t′ = t. Time is then common to all frames and velocities add. These are the kinematics of Newton's mechanics, and they described every velocity measurement until the speeds involved approached c.
 
-Newton's first law, that a body on which no force acts keeps its velocity, picks out the inertial frames. In a frame accelerating uniformly at a relative to an inertial one, x′ = x − ½at², and a body of mass m on which no force acts appears to feel a pseudo-force −ma: its momentum in the accelerated frame changes as p′ = p − mat. A frame accelerating uniformly in special relativity, with constant acceleration as measured in its own instantaneous rest frame, is a Rindler frame.
+Newton's first law, that a body on which no force acts keeps its velocity, picks out the inertial frames. In a frame accelerating uniformly at a relative to an inertial one, x′ = x − ½at², and a body of mass m on which no force acts appears to feel a pseudo-force −ma: its momentum in the accelerated frame changes as p′ = p − mat. A frame accelerating uniformly in special relativity, with constant acceleration as measured in its own instantaneous rest frame, is a Rindler frame ([the equivalence principle and Rindler frames](/wiki/gravity/spin-2-fields/general-relativity#the-equivalence-principle-and-rindler-frames-t)).
 
 #13 §2 transcribes the limit: "For F ≪ c̃ the transformation reduces to the ordinary passage to an accelerated frame, with its familiar pseudo-forces, and composition reduces to addition", and "Force *looks* exactly additive for the same reason velocity looked exactly additive before 1905". #13 §5 transcribes the first law, "The dual first law: an undisturbed system maintains its state of force", and reads uniform dual motion as "constant force — our Rindler frames" ([Dual inertia: free fall as rest](/wiki/conjugate-relativity/dual-inertia)).
 
@@ -124,7 +125,7 @@ Writing spacetime as one time direction and three space directions is the 3+1 sp
 
 | Special relativity [T] | #13's transcription | Where | Tag in #13 |
 | --- | --- | --- | --- |
-| light cone, \|dx/dt\| ≤ c | dual cone, \|dp/dt\| ≤ c̃ | §1 | [D — compatibility theorem], on the block form H = diag(g, g⁻¹) it starts from |
+| light cone, \|dx/dt\| ≤ c | dual cone, \|dp/dt\| ≤ c̃ | §1 | [D — compatibility theorem], on the block form H = diag(g, g⁻¹) it starts from; queried in flag 30 of `review/wiki-build-flags.md` |
 | the speed c | the maximum force c̃ = c⁴/G | §1 | none on the boxed value; a "numerical anchor" in §7 |
 | interval c²dt² − dx², Lorentz group | dual interval c̃²dt² − dp², dual Lorentz group | §2 | [D — structural] |
 | Lorentz boost and γ | force boost and γ̃ | §2 | on §7's fixed [D] list |
@@ -134,9 +135,9 @@ Writing spacetime as one time direction and three space directions is the 3+1 sp
 | time dilation | force dilation | §3 | [D — structural; which physical clocks respond is polarization-dependent, O] |
 | length contraction | contraction of momentum spread | §3 | none |
 | mass shell, invariant mass m | invariant-length shell, invariant length λ_χ | §4 | [D — structural] |
-| E = mc² | E = λc̃, the Planck energy at λ = l_P | §4 | [D] |
+| E = mc² | E = λc̃, [the Planck energy](/wiki/conjugate-relativity/maximum-force-conjectures#planck-units-t) at λ = l_P | §4 | [D] |
 | inertial frames | dual-inertial frames: free fall and Rindler frames | §5 | on §7's fixed [D] list |
-| the principle of relativity | the equivalence principle | §5 | [D — structural] |
+| the principle of relativity | [the equivalence principle](/wiki/conjugate-relativity/equivalence-principle) | §5 | [D — structural] |
 
 The template is established; the transcriptions are not. #13 states each one without intermediate steps beyond the substitution, and §7 lists the kinematic structure as "fixed [D]". No blind review round has examined #13, no `verify/` script reproduces any of its formulas or numbers ([the iron rule](/wiki/method/verification/iron-rule)), and #11 v2.2 does not mention the maximum force or the dual kinematics. The section's status, alive and unreviewed, rests on `HANDOFF.md` §2 and on `CLAUDE.md`'s listing of #13 as a current reference ([Conjugate special relativity](/wiki/conjugate-relativity)).
 
@@ -159,8 +160,11 @@ The template is established; the transcriptions are not. #13 states each one wit
 - [The equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) — the principle of relativity.
 - [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency) — the massless shell E = c|p|, which #13 §6 calls the dual null cone.
 - [Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map) — the 3+1 split it would replace.
+- [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton) — the energy–momentum relation of a massive particle, behind the graviton-mass bounds.
+- [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion) — exact Lorentz invariance and the vacuum relation E = c|p|, behind the row's standard expectation.
 
 ## Sources
 
 - `papers/conjugate-special-relativity.md` §1–§6 — the transcriptions named above: the two cones (§1); boosts, composition, simultaneity and the Galilean limit (§2); force dilation and momentum-spread contraction (§3); the mass shell and E = λc̃ (§4); the dual first law and Rindler frames (§5); the 3+1 presentation and the dual null cone E = c|p| (§6).
 - `papers/conjugate-special-relativity.md` §7 — the fixed [D] list, the numerical anchors and the open items.
+- `review/wiki-build-flags.md` item 30 — the tag [D — compatibility theorem] on cones that the theorem's positive-definite g cannot have.

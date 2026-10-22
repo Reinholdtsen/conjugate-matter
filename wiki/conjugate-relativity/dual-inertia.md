@@ -23,11 +23,11 @@ sources:
 
 - **Inertial frames.** Newton's first law says that a body on which no force acts keeps a constant velocity; the frames in which this holds are the inertial frames. Special relativity keeps them and states its principle of relativity for them: the laws of physics take the same form in every inertial frame, and the frames are related by Lorentz boosts ([special relativity: the template](/wiki/conjugate-relativity/special-relativity)).
 - **Two readings of free fall.** In Newtonian mechanics gravity is a force: a body falling near the Earth's surface has momentum changing at the rate mg. In [general relativity](/wiki/gravity/spin-2-fields/general-relativity) gravity is the curvature of spacetime, and a freely falling body follows a geodesic, the straightest path available, with no force acting on it; an accelerometer it carries reads zero. An astronaut in orbit is in free fall in this sense.
-- **Rindler frames.** A frame accelerating uniformly through flat spacetime is a Rindler frame. An observer at rest in it carries a constant proper acceleration, so a constant force has to act on it, and by the equivalence principle it is locally indistinguishable from an observer held at rest in a uniform gravitational field.
+- **Rindler frames.** A frame accelerating uniformly through flat spacetime is a Rindler frame. An observer at rest in it carries a constant proper acceleration, so a constant force has to act on it, and by [the equivalence principle](/wiki/gravity/spin-2-fields/general-relativity#the-equivalence-principle-and-rindler-frames-t) it is locally indistinguishable from an observer held at rest in a uniform gravitational field.
 
 ## The dual-inertial class
 
-#13 §1 gives momentum space its own light cone, which bounds the rate dp/dt of a trajectory p(t) by the maximum force c̃ ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). In that kinematics dp/dt plays the role that velocity dx/dt plays in ours. #13 §5 draws the consequence for inertia:
+#13 §1 gives momentum space its own light cone, which bounds the rate dp/dt of a trajectory p(t) by the [maximum force c̃](/wiki/conjugate-relativity/maximum-force) ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). In that kinematics dp/dt plays the role that velocity dx/dt plays in ours. #13 §5 draws the consequence for inertia:
 
 > "The dual-inertial class consists of trajectories with dp/dt constant: rest (dp/dt = 0, i.e., force-free motion — our free fall) and uniform dual motion (constant force — our Rindler frames)."
 
@@ -55,15 +55,18 @@ The identification "force-free motion — our free fall" uses the general-relati
 
 The rate dp/dt is taken with respect to a time t that both polarizations share. That is #13's 3+1 presentation, in which space and momentum trade places and time is left alone (§6). The fully four-dimensional version, in which time and energy also trade places, is open ([Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map)), and #13 uses two different dual cones in different sections ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
 
-## Conjecture: the dual laws of motion
+## The dual laws of motion
 
 #13 §5 continues the transcription to Newton's first two laws:
 
 > "The dual first law: an undisturbed system maintains its state of force. The dual second law, structurally, makes λ_χ the measure of resistance to force-*change* [conjecture-tier; the full dual dynamics awaits the formalization of §6]."
 
-- **The first law.** Newton's first law says that an undisturbed body keeps its state of motion. The dual law says that an undisturbed system keeps its state of force: it stays in the dual-inertial class.
+- **The first law.** Newton's first law says that an undisturbed body keeps its state of motion. The dual law says that an undisturbed system keeps its state of force: it stays in the dual-inertial class. It carries no tag.
+
+### Conjecture: the dual second law
+
 - **The second law.** In Newton's second law mass measures resistance to a change of velocity. The dual law gives that role to λ_χ, the invariant extent that #13 §4 assigns to conjugate quanta ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)), as the resistance to a change of force. #13 writes no equation for it.
-- **The tier.** "Conjecture-tier" is not one of the program's tags ([provenance tags and citation marks](/wiki/method/provenance-tags)); the tag is attached to the second law, and its text says why the law is not derived: "the full dual dynamics awaits the formalization of §6". The first law carries no tag. §6's open item is the four-dimensional Born map, "a required step before the dual dynamics (their Maxwell, their field theory) can be written". The dual laws are not on §7's fixed list.
+- **The tier.** "Conjecture-tier" is not one of the program's tags ([provenance tags and citation marks](/wiki/method/provenance-tags)); the tag is attached to the second law, and its text says why the law is not derived: "the full dual dynamics awaits the formalization of §6". §6's open item is the four-dimensional Born map, "a required step before the dual dynamics (their Maxwell, their field theory) can be written". The dual laws are not on §7's fixed list.
 
 The register of conjectures lists the dual second law among the conjecture-tier statements inside the record ([conjectures: chat-only and popsci-only claims](/wiki/status/conjectures)).
 
