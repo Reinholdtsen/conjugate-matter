@@ -64,7 +64,7 @@ The section "Since the handoff (2026-10-19)" lists what changed after `HANDOFF.m
 - **The queue**, below.
 - **The reasons.** "Reasons are in the adjudication's 'Decisions' section" ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)).
 
-The section grew step by step. Commit 96f58da (2026-10-19), the round-3 adjudication, added a first paragraph: "#14 went to v3 and failed round-3 review (verdict C). HANDOFF §2's 'current best DM candidate' (superheavy solitons) is superseded by `review/round3-adjudication.md`. Read that before relying on §2 or on queue item 3 of §8", with the adjudication linked and DM being dark matter. Commit 5b6efaa, the round-3 decisions, replaced it with the dated list and its first two bullets. Commit e1c1f67 added the bullet on #11 v2.1, and 6606734 (2026-10-20) the bullet on the toy Lagrangian.
+The section grew step by step. Commit 96f58da (2026-10-19), the round-3 adjudication, added a first paragraph: "#14 went to v3 and failed round-3 review (verdict C). HANDOFF §2's 'current best DM candidate' (superheavy solitons) is superseded by `review/round3-adjudication.md`. Read that before relying on §2 or on queue item 3 of §8", with the adjudication linked and DM being dark matter. Commit 5b6efaa, the round-3 decisions, replaced it with the dated list: the bullets on the soliton candidate and on sector separation, the queue and the reasons. Commit e1c1f67 added the bullet on #11 v2.1, and 6606734 (2026-10-20) the bullet on the toy Lagrangian.
 
 ## The queue and how it changed
 
@@ -109,7 +109,7 @@ The wiki's voice rules are taken from this section. The roles, the calibration a
 
 - **The version of #11.** The bullet on #11 in "Since the handoff" still says "#11 is now v2.1", while the bullet on the toy Lagrangian refers to "#11 v2.2 §14 item 11", and the checkpoint's header reads "Version 2.2 (checkpoint), amended 2026-10-20". Commit 6606734 made #11 v2.2 and added the toy-Lagrangian bullet without editing the other. The changes the bullet on #11 lists are the v2.1 changes and remain in v2.2; the version is 2.2 ([the checkpoint](/wiki/history/documents/checkpoint)).
 - **The scripts in `verify/`.** The layout names `battery.py` and `soliton_obituary.py`. `scripts/check.sh` also runs the toy-model scripts `toy_coset.py`, `toy_gw.py`, `toy_s4.py` and `toy_s5.py`, which the layout does not list.
-- **Where arbitration scripts go.** The layout says "arbitration and audit scripts go here", in `verify/`. The arbitration scripts of rounds 3 and 4 sit in `review/round3/adjudicator/` and `review/round4/adjudicator/`, and the gate does not run them; the numbers they arbitrated are gated through `verify/soliton_obituary.py` and the toy-model scripts. No document says whether the instruction or the practice governs, and the wiki lists the point as unresolved ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+- **Where arbitration scripts go.** The layout says "arbitration and audit scripts go here", in `verify/`. The arbitration scripts of rounds 3 and 4 sit in `review/round3/adjudicator/` and `review/round4/adjudicator/`, and the gate does not run them; the numbers they arbitrated are gated through `verify/soliton_obituary.py` and the toy-model scripts. No document says whether the instruction or the practice governs, and the wiki lists the point as unresolved ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records)).
 
 ## The README
 

@@ -43,7 +43,7 @@ Its assessment counted "at least two results that stand on their own regardless 
 
 - the preface is §2, with Tier 1 checked by [the verification battery](/wiki/method/verification/battery) and the tiers on [claim tiers and selection bias](/wiki/method/claim-tiers);
 - §11 is [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) and the rest of [electric–magnetic duality](/wiki/electric-magnetic-duality);
-- the trilemma offered three dark-matter candidates, χ particles, an X-condensate and "Conjugate knots", topological solitons of a hidden gauge sector ([dark-sector candidates](/wiki/dark-matter/candidates));
+- the trilemma offered three dark-matter candidates, χ particles, an X-condensate and "Conjugate knots", topological solitons of a p-local gauge sector ([dark-sector candidates](/wiki/dark-matter/candidates));
 - the reference list ran [1]–[25] ([References](/wiki/references));
 - the novelty downgrade is §7.4, "Literature position (updated by this session's search — honesty upgrade)" ([Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison));
 - the audit is Appendix A ([founding suppositions and their fates](/wiki/program/founding-suppositions)).
@@ -52,7 +52,7 @@ In v2.0 the compatibility theorem was tagged "[D][V]", as derived in the program
 
 ## v2.1: after round 3
 
-v2.1 was committed on 2026-10-19 at 17:29 (e1c1f67), the same afternoon as the round-3 decisions ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). Its header: "the soliton candidate is retired (§12); the compatibility theorem is re-attributed to the Born-geometry literature (§5); P4 is taken strictly (§4); §10 records DESI DR2's phantom crossing", DESI DR2 being Data Release 2 of the Dark Energy Spectroscopic Instrument. The footer adds: "v2.1 amendments: decisions delegated by P. R. to Claude; record in `review/round3-adjudication.md`."
+v2.1 was committed on 2026-10-19 at 17:29 (e1c1f67), the same afternoon as the round-3 decisions ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). The current header lists its changes: "the soliton candidate is retired (§12); the compatibility theorem is re-attributed to the Born-geometry literature (§5); P4 is taken strictly (§4); §10 records DESI DR2's phantom crossing", DESI DR2 being Data Release 2 of the Dark Energy Spectroscopic Instrument. The footer adds: "v2.1 amendments: decisions delegated by P. R. to Claude; record in `review/round3-adjudication.md`."
 
 The changes in detail:
 

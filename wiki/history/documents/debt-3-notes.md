@@ -20,7 +20,7 @@ sources:
 
 *The Debt-3 calc notes are three short working notes, artifacts #2 to #4, that tested the program's founding image: dark matter clumping by velocity rather than in space. The first showed that dark matter made of particles cannot clump this way. The second found that dark matter light enough to behave as a wave can, but only as an option, except in one scenario where clumping becomes compulsory in the smallest galaxies. The third showed that this scenario would have drained those galaxies of their dark matter, which observation rules out. Together they closed Debt 3 with a negative result, which checkpoint #11 now reports as an obituary. The notes are final for their own scope; no script in the gate checks their numbers.*
 
-**Status:** Record, final for its scope — the notes carry few tags of their own (3b's rate is "[D, heuristic coefficients]", and 3c cites its literature as [T]); #11 §9 tags the particle-island result [D] and the wave-island result [D + T] — no `verify/` script covers any Debt-3 number. The files are unchanged since their import on 2026-10-19 (commit 8d588f6; moved to `notes/` in 008c3ee).
+**Status:** Record, final for its scope — the notes carry few tags of their own (3b's rate is "[D, heuristic coefficients]", and 3b and 3c cite their literature as [T]); #11 §9 tags the particle-island result [D] and the wave-island result [D + T] — no `verify/` script covers any Debt-3 number. The files are unchanged since their import on 2026-10-19 (commit 8d588f6; moved to `notes/` in 008c3ee).
 
 ## What the notes are
 

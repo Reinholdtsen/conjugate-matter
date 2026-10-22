@@ -84,7 +84,7 @@ These cases are also listed on [conflicts between sources](/wiki/history/documen
 | "The quietness of empty space, at least as concerns that field: the palindromic cancellation" | [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity), novelty awaiting comparison |
 | "Dark matter: the other polarization of matter" with a measurable knee | [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles), one of two candidates |
 | "Dark energy: the vacuum orientation's displacement, obligated to decrease" | [τ as hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence) and [the no-phantom bound](/wiki/cosmology/dark-energy/no-phantom-bound), under pressure from the data |
-| "A candidate origin for the conjectured maximum force" | #13, tagged [D], with "The factor of 4 is not fixed here [O]" ([the maximum force](/wiki/conjugate-relativity/maximum-force)) |
+| "A candidate origin for the conjectured maximum force" | #13, where the value c̃ = c⁴/G carries no tag (§7 lists it among the "Numerical anchors") and "The factor of 4 is not fixed here [O]" ([the maximum force](/wiki/conjugate-relativity/maximum-force)) |
 | "A candidate identity for dark matter's charge: the magnetic half of electromagnetism's own duality" | popsci-only and dead ([obituary](/wiki/electric-magnetic-duality/magnetic-identification)) |
 | "a revised ending for the universe" | [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), a long-horizon prediction whose premise, a negative V(τ), is unresolved |
 
