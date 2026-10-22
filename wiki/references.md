@@ -2,430 +2,660 @@
 title: "References"
 weight: 150
 status: record
-description: "Every work the program's documents cite — the reference lists of checkpoint #11, #13, the withdrawn #14 and the toy-model note, and the literature the worklogs and referees retrieved — grouped by subject, with each document's † or [S] mark and the wiki pages on the subject it is cited for."
+description: "Every work cited in the program's documents or on the wiki's pages, grouped by subject: the † or [S] mark each document gives it and where the documents disagree, what it is cited for, the checks made of it (including the wiki build's flags 9 and 20), and the wiki pages that cite it."
 sources:
-  - "papers/broken-born-checkpoint-v2.md References, §3–§12"
-  - "papers/conjugate-special-relativity.md References, §1, §4, §6"
+  - "papers/broken-born-checkpoint-v2.md header, References, §3–§15"
+  - "papers/conjugate-special-relativity.md References, §1, §4, §6, §7"
   - "notes/knot-dark-matter-standalone.md References, §1–§4"
-  - "papers/reciprocity-toy-models.md References, §1–§5"
-  - "notes/toy-lagrangian.md S0 prior art, S5 literature, v2"
-  - "review/v3-worklog.md round-2 pending list, F1, L1, O2, Verified references for v3"
-  - "review/round3/referee/audit-notes.md Step 1, Step 2, Step 4(c)"
-  - "review/round3-adjudication.md Rulings, Lessons"
-  - "review/round4/referee/audit-notes.md Step 1"
-  - "review/round4-adjudication.md Citations, Omitted prior work, Revisions"
-  - "review/round4-preregistration.md predictions"
+  - "papers/reciprocity-toy-models.md References, §1, §3–§5"
+  - "notes/toy-lagrangian.md Predictions, S0 prior art, S5 literature, Write-up and review"
+  - "review/v3-worklog.md preamble, round-2 pending list, F1, L1, O2, Verified references for v3, v3 as drafted"
+  - "review/round3/referee/audit-notes.md Steps 1, 2, 3, 4(a), 4(c), 4(d)"
   - "review/round3/referee/step2a.py constants"
-  - "HANDOFF.md §2, §3, §6, §8"
-  - "notes/broken-born-theory.md §2, §4, §7, §8, §11"
-  - "notes/broken-born-program-v1.md §1, §3, §5, §7, §8"
-  - "notes/debt3b-wave-island.md The rate, Scenario A"
-  - "notes/debt3c-ufd-endpoint.md Branch (i), Branch (ii)"
-  - "notes/debt1a-ii-X-classification.md §2–§4"
+  - "review/round3/referee/ggww.py docstring"
+  - "review/round3-adjudication.md Rulings, Lessons, Decisions"
+  - "review/round3-preregistration.md Predictions"
+  - "review/round4/referee/audit-notes.md Steps 1, 2(b)"
+  - "review/round4-adjudication.md Rulings, Revisions for v2 of the note"
+  - "review/round4-preregistration.md Predictions"
+  - "review/wiki-build-flags.md items 7, 9, 18, 20, 21, 22, 26, 31, 32, 34"
+  - "review/wiki-build-checks/quadratic_gap.py inputs"
+  - "HANDOFF.md §1, §2, §3, §6, §8"
+  - "CLAUDE.md opening"
+  - "notes/broken-born-theory.md §2, §4, §7, §8, §9, §11, addenda v0.4–v0.6"
+  - "notes/broken-born-program-v1.md §1, §3, §5–§11"
+  - "notes/debt3a-stream-stability.md next chunk"
+  - "notes/debt3b-wave-island.md header, setup, Verdicts A and B"
+  - "notes/debt3c-ufd-endpoint.md Branches (i) and (ii), next steps"
+  - "notes/debt1a-geometric-core.md §A, §D, §F"
+  - "notes/debt1a-ii-X-classification.md §2–§5"
+  - "notes/debt1a-iii-tuning-test.md §3, §4"
+  - "notes/debt1a-iv-beta-coefficients.md §1, §2, §5"
+  - "popsci/angle-of-the-mirror.md opening"
+  - "popsci/universes-other-half.md opening, the second graviton, the dark sector"
   - "verify/soliton_obituary.py docstring, anchors"
-  - "verify/toy_gw.py docstring"
+  - "verify/toy_gw.py docstring, anchors"
 ---
 
-*This page is the bibliography of the Broken-Born program: every work its documents cite, grouped by subject. Each entry gives the bibliographic reference, the mark the citing document attaches to it, and what the work is cited for. A † marks a reference cited from model memory and not yet checked against the source; [S] marks one retrieved by live search. Where two documents mark, date or describe the same work differently, the entry says so, and each entry links the wiki pages on the subject the work is cited for.*
+*This page is the bibliography of the Broken-Born program and of this wiki: every work that the program's documents or the wiki's pages cite, grouped by subject. An entry gives the reference as the citing document writes it and the mark that document attaches to it: † for a reference recalled from model memory and not yet checked against the source, [S] for one retrieved by a live search during the project. It then says what the work is cited for, what checks have been made of it, and which wiki pages cite it. Works that the wiki itself added to explain established physics follow the documents' references in each subject, all marked †. A mark records where a citation came from, not whether the cited work says what it is used for.*
 
-**Status:** Record. A register of citations; it adds no results. A † reference must be checked against its source before any external use, which is the open [† literature battery](/wiki/method/literature-battery).
+**Status:** Record — a register of citations; it adds no results and changes no mark. Every † reference must be checked against its source before any external use (#11 header); that check is the open [† literature battery](/wiki/method/literature-battery) (OP10).
 
-## Key facts
+## How to read this register
 
-- **The marks.** #11's header defines both: [S] "retrieved by live search during this project" and † "cited from model memory — verify against the source before external use". #13 marks all four of its references †. The other reference lists carry no marks. See [Provenance tags and citation marks](/wiki/method/provenance-tags).
-- **#11** (`papers/broken-born-checkpoint-v2.md`) lists [1]–[29]. `HANDOFF.md` §3 describes v2.0 as having 25 references flagged † or [S].
-- **#14** (`notes/knot-dark-matter-standalone.md`, withdrawn) lists [1]–[23] without marks. Its v3 worklog says each was checked against INSPIRE, arXiv and the Particle Data Group's 2024 review unless noted. The round-3 referee found all 23 references, 37 individual items, resolving with matching metadata, and no fabricated or mis-numbered reference.
-- **The toy note** (`papers/reciprocity-toy-models.md`, v2) lists [1]–[17] without marks. Its worklog records the literature searches as "every citation retrieved [S], nothing from memory", and the five references added in v2 as retrieved. The round-4 referee's audit numbers the references as v1 did, when there were twelve; this page uses v2's numbers and gives the audit's where it quotes the audit.
-- **Inline and retrieved citations.** The lab notebook (#1) and #9 have no reference lists; they tag cited literature [T] inline, and in #1 [T] means "theorem — established in the literature, cited". The worklogs and the round-3 referee retrieved further works that appear in no reference list; they are listed under their subjects and marked "retrieved".
-- **Form.** References follow the citing document. Where a document abbreviates a journal to its initials, this page writes the journal's standard abbreviated title instead (J. Cosmol. Astropart. Phys., Phys. Rev. D).
-- **A resolving reference can still be over-cited.** Round 3 judged #14's [10] "cited for more than it says" and its [4] over-generalized. A mark records where a citation came from, not whether the work supports the use made of it.
-- Terms are explained on the [Glossary](/wiki/glossary), and symbols on [Notation](/wiki/notation).
+- **What is listed.** The reference lists of [checkpoint #11](/wiki/history/documents/checkpoint) ([1]–[29]), of [conjugate special relativity](/wiki/conjugate-relativity), #13 ([1]–[4]), of the withdrawn soliton manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) ([1]–[23]) and of the [toy-model note](/wiki/symmetry-breaking/toy-models) ([1]–[17]); works cited only in the text of a document, in the v3 and toy-model worklogs, in the referees' audit notes and scripts, or in `review/wiki-build-flags.md`; and the works the wiki's own pages add. Literature the documents name without citing any work is collected under [named without a reference](#named-without-a-reference).
+- **The marks.** #11's header defines [S] as "retrieved by live search during this project" and † as "cited from model memory — verify against the source before external use". #11 marks [1]–[18] and [23] with † and [19]–[22] and [24]–[29] with [S]; `HANDOFF.md` §3 describes version 2.0 as having "25 references flagged † (memory — verify) vs [S] (live-searched)". #13 marks all four of its references †. #14 and the toy-model note carry no marks; their worklogs say how the references were obtained: #14 v3's literature report pulled each record "with no citations from memory", and the toy-model worklog records its searches as "every citation retrieved [S], nothing from memory". The lab notebook (#1) and the v1 paper (#9) have no reference lists and tag cited literature [T], which in #1 means "theorem — established in the literature, cited". See [provenance tags and citation marks](/wiki/method/provenance-tags).
+- **An entry** gives the reference as the citing document writes it, then labelled lines. *Marks* gives each document's mark and number, and says where the documents differ. *Cited for* says what each document uses the work for. *Checks* reports what the referees, the worklogs or the wiki build found. *Cited on* lists the wiki pages that cite the work.
+- **The Cited on lists** were built mechanically. The finished pages were searched for each work's authors, identifiers and reference numbers, and every hit was read by hand to drop pages that only name a concept after its discoverers, such as the Higuchi bound, without citing the paper. The home page, the status registers, the glossary and the notation page are left out of the lists.
+- **Added by the wiki.** Works that the wiki's pages cite from model memory to explain established physics are listed at the end of their subject. No program document cites them; each is marked †, and each line names the pages that cite it.
+- **Numbering.** The toy-model note is cited in its version-2 numbering. The [round-4](/wiki/method/review/round-4) referee audited version 1, which had twelve references, and its numbers are given in parentheses where the audit is quoted.
+- **The audits.** Round 3 audited #14's list and found all 23 references, "37 individual items", resolving on INSPIRE with matching metadata: "No fabricated or mis-numbered reference found". Round 4 found all of the toy-model note's first-version references resolving. Neither round audited #11's or #13's list ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). `HANDOFF.md` §1 summarizes the record at the handoff as "Zero fabricated citations across all checks".
+- **A mark is not a verdict.** A reference that exists can still be cited for more than it says: [round 3](/wiki/method/review/round-3/rulings) judged #14's [10] "cited for more than it says" and its [4] over-generalized. A check made outside the † battery, by a referee or during the wiki build, does not change a mark, and #11's † entries stay † until the battery records them.
 
-## Born reciprocity and phase-space geometry
+## Born reciprocity and curved momentum space
 
-- **Born 1938.** M. Born, "A suggestion for unifying quantum theory and relativity," Proc. R. Soc. Lond. A 165, 291 (1938).
-  - Marks: #11 [1]†; #13 [3]†; #14 [1], unmarked, which combines it with the 1949 paper. The round-3 referee confirmed the metadata but rated the claim only partially verified, because the primary text was paywalled and not read.
-  - Cited for: Born reciprocity (x, p) → (p, −x) as an exact symmetry of quantum kinematics, implemented by the Fourier transform (#11 §3); Born's program of a physics with both a fundamental mass and a fundamental length (#13 §4).
-  - Wiki: [Born reciprocity ρ](/wiki/phase-space/reciprocity/born-reciprocity), [Born's question](/wiki/program/borns-question), [The invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell).
-- **Born 1949.** M. Born, "Reciprocity theory of elementary particles," Rev. Mod. Phys. 21, 463 (1949).
-  - Marks: #11 [2]†; #13 [4]†; #14 [1], unmarked.
-  - Cited for: as the 1938 paper.
-  - Wiki: [Born reciprocity ρ](/wiki/phase-space/reciprocity/born-reciprocity), [Born's question](/wiki/program/borns-question), [The invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell).
-- **Freidel, Leigh and Minic 2014 (two papers).** L. Freidel, R. G. Leigh, D. Minic, "Born reciprocity in string theory and the nature of spacetime," Phys. Lett. B 730, 302 (2014), arXiv:1307.7080; "Quantum gravity, dynamical phase space and string theory," Int. J. Mod. Phys. D 23, 1442006 (2014), arXiv:1405.3949.
-  - Marks: #11 [3]†, without the arXiv numbers; the toy note's [1], parts (a) and (b), unmarked and retrieved. The lab notebook (#1 §2) and #9 §3 cite "Born geometry in the sense of Freidel, Leigh & Minic" as [T] with no reference.
-  - Cited for: Born geometry and its split-quaternion algebra (#11 §5); η and J both dynamical, with spacetime as a choice of Lagrangian (toy note §1). The worklog quotes the first paper: "both elements (η, J) of the chiral structure are dynamical".
-  - Wiki: [The structures ω, η, H](/wiki/phase-space/born-geometry/born-structures), [Broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
-- **Freidel, Leigh and Minic 2015 (metastring).** L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005.
-  - Marks: #11 [26][S]; the toy note's [1], part (c), unmarked and retrieved. The round-3 referee found it uncited in #14, although #14's compatibility theorem is its result.
-  - Cited for: the phrase "broken Born duality" and the preferred space-time polarization (p. 3; #11 §3); the argument that η should be dynamical (#11 §4); the compatibility statement (§2.1), to which #11 now credits its compatibility theorem (#11 §5); "Born geometries" (p. 11, quoted by the round-3 referee); the section condition from worldsheet locality (§6) and the choice of polarization as "a dynamical question" (worklog, S5). The round-4 referee confirmed the "broken Born duality" quotation verbatim and found no symmetry-breaking analysis in the three Freidel–Leigh–Minic papers.
-  - Wiki: [Broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality), [The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime), [The section condition](/wiki/symmetry-breaking/section-condition).
-- **Freidel, Rudolph and Svoboda (unique connection).** L. Freidel, F. J. Rudolph, D. Svoboda, "A unique connection for Born geometry," Commun. Math. Phys. (2019), arXiv:1806.05992.
-  - Marks: #11 [7]†. The lab notebook (#1 §2) and #9 §3 cite the theorem as [T] and date it 2018; #11 dates it 2019. No document reconciles the years. #5 §F cites the result by the authors' initials.
-  - Cited for: the existence and uniqueness of a connection compatible with the full triple (ω, η, H) (#11 §5; #1 §2).
-  - Not the same paper as the toy note's [2].
-  - Wiki: [The Born connection](/wiki/phase-space/born-geometry/born-connection).
-- **Freidel, Rudolph and Svoboda 2017 (generalised kinematics).** L. Freidel, F. J. Rudolph, D. Svoboda, "Generalised kinematics for double field theory," JHEP 11 (2017) 175, arXiv:1706.07089.
-  - Marks: the toy note's [2], unmarked and retrieved.
-  - Cited for: the suggestion that the choice of polarization "might be subject to a dynamical selection rule" (toy note §1). The round-4 referee found the quotation verbatim, with "the kinematical structure of spacetime itself" as its subject, and judged the paraphrase acceptable.
-  - Wiki: [Broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality), [Double field theory](/wiki/phase-space/born-geometry/double-field-theory).
-- **Marotta and Szabo 2021.** V. E. Marotta, R. J. Szabo, "Born sigma-models for para-Hermitian manifolds and generalized T-duality," Rev. Math. Phys. 33, 2150031 (2021), arXiv:1910.09997.
-  - Marks: the toy note's [3], added in v2 at round 4's request and retrieved. #5 §F names Marotta–Szabo as the nearest neighbour in the para-Hermitian literature, without a reference.
-  - Cited for: Born sigma models, which choose the polarization by gauging (toy note §1).
-  - Wiki: [The Born connection](/wiki/phase-space/born-geometry/born-connection), [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria).
-- **Smolin (arXiv:2007.05957).** L. Smolin, "Quantum reference frames and triality," arXiv:2007.05957.
-  - Marks: the toy note's [4], added in v2 and retrieved.
-  - Cited for: a model that breaks a triality down to Born duality, which stays unbroken (toy note §1). The round-4 adjudication: it does not contradict the claim that no model breaks ρ itself, but it has to be cited.
-  - Wiki: [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria), [Broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
+- **Born 1938 and 1949.** M. Born, "A suggestion for unifying quantum theory and relativity," Proc. R. Soc. Lond. A 165, 291 (1938); "Reciprocity theory of elementary particles," Rev. Mod. Phys. 21, 463 (1949).
+  - Marks: #11 [1]† and [2]†; #13 [3]† and [4]†; #14 [1], unmarked, one entry for both papers.
+  - Cited for: The exchange (x, p) → (p, −x) as an exact symmetry of quantum kinematics, implemented by the Fourier transform (#11 abstract and §3; #14 §1); Born's program of a physics with both a fundamental mass and a fundamental length (#13 §4, §7). The popular articles #10 and #12 date Born's observation to 1938 without a reference.
+  - Checks: The round-3 referee, auditing #14, confirmed the metadata of both papers, found that the 1938 abstract does not state the rule and that the primary text was paywalled, confirmed the rule from secondary sources (it names the Wikipedia article "Born reciprocity"), and graded the citation "partially verified (primary text not read)", capitals lowered here (`review/round3/referee/audit-notes.md`, Step 1). No document records a reading of Born's own text.
+  - Cited on: [Born's question](/wiki/program/borns-question), [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity), [Born reciprocity](/wiki/phase-space/reciprocity), [Born reciprocity ρ: (x, p) → (p, −x)](/wiki/phase-space/reciprocity/born-reciprocity), [The canonical commutator and the uncertainty principle](/wiki/phase-space/reciprocity/canonical-commutator), [The Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform), [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking), [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking), [The momentum graviton X](/wiki/gravity/momentum-graviton), [Conjugate special relativity](/wiki/conjugate-relativity), [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell), [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force), [Maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [History](/wiki/history), [The three debts](/wiki/history/debts), [The popular articles (#10, #12)](/wiki/history/documents/popular-articles), [Timeline](/wiki/history/timeline).
 - **Snyder 1947.** H. S. Snyder, "Quantized space-time," Phys. Rev. 71, 38 (1947).
   - Marks: #11 [4]†.
-  - Cited for: the start of the lineage in which momentum space is curved (#11 §3).
-  - Wiki: [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
+  - Cited for: The start of the lineage in which momentum space is curved, "from Snyder [4†] through relative locality [6†]" (#11 §3).
+  - Cited on: [Born's question](/wiki/program/borns-question), [Born reciprocity](/wiki/phase-space/reciprocity), [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Timeline](/wiki/history/timeline).
 - **Matschull and Welling 1998.** H.-J. Matschull, M. Welling, "Quantum mechanics of a point particle in 2+1 dimensional gravity," Class. Quantum Grav. 15, 2981 (1998), gr-qc/9708054.
   - Marks: #11 [5]†. #9 §1 states the same fact as [T] without a reference.
-  - Cited for: momenta on a curved group manifold in 2+1-dimensional gravity, the one exactly solved quantum gravity (#11 §3).
-  - Wiki: [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space), [Born's question](/wiki/program/borns-question).
+  - Cited for: Momenta on "a curved group manifold" in 2+1-dimensional gravity, "the one exactly solved quantum gravity" (#11 §3).
+  - Cited on: [Born's question](/wiki/program/borns-question), [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space), [General relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity).
 - **Amelino-Camelia, Freidel, Kowalski-Glikman and Smolin 2011.** G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "The principle of relative locality," Phys. Rev. D 84, 084010 (2011), arXiv:1101.0931.
   - Marks: #11 [6]†.
-  - Cited for: relative locality, in the curved-momentum-space lineage (#11 §3).
-  - Wiki: [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
+  - Cited for: Relative locality, the latest step of the curved-momentum-space lineage (#11 §3).
+  - Cited on: [Born's question](/wiki/program/borns-question), [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
 
-## Double field theory and the section condition
+Added by the wiki from model memory (†), cited by no program document:
 
+- G. Amelino-Camelia, L. Freidel, J. Kowalski-Glikman, L. Smolin, "Relative locality and the soccer ball problem" (2011)†: the problem the lab notebook lists as its sixth open problem without a reference (#1 §11 item 6). Cited on: [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
+
+## Quantum kinematics and phase-space mathematics
+
+The program's documents cite no source for the textbook quantum mechanics and symplectic geometry on which the phase-space pages rest; #5 marks such facts "[standard]" and #11 tags them [T]. Every work in this section was added by the wiki from model memory.
+
+- M. Born and P. Jordan (1925)†; P. A. M. Dirac (1925)†: the commutation relation and the rule that turns Poisson brackets into commutators. Cited on: [The canonical commutator and the uncertainty principle](/wiki/phase-space/reciprocity/canonical-commutator).
+- W. Heisenberg (1927)†: the uncertainty principle; E. H. Kennard (1927)†: the inequality Δx · Δp ≥ ℏ/2; H. P. Robertson (1929)†: the inequality for any pair of observables. Cited on: [The canonical commutator and the uncertainty principle](/wiki/phase-space/reciprocity/canonical-commutator).
+- M. H. Stone (1930)† and J. von Neumann (1931)†: uniqueness of the representation of the canonical commutation relations. Cited on: [Unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence).
+- E. Noether (1918)†: symmetries of an action and conserved quantities. Cited on: [Unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence).
+- G. B. Folland, *Harmonic Analysis in Phase Space* (1989)†: the symplectic group and the metaplectic representation. Cited on: [The symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form), [Unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence).
+- V. I. Arnold, *Mathematical Methods of Classical Mechanics* (1978)†: symplectic forms, Hamiltonian flows, Liouville's theorem. Cited on: [The symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form).
+- V. P. Maslov, *Theory of Perturbations and Asymptotic Methods* (1965)†; V. I. Arnold, "Characteristic class entering in quantization conditions" (1967)†: the Maslov index, the Lagrangian Grassmannian as U(d)/O(d), its fundamental group ℤ and the det² description of the Maslov class. Cited on: [The Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian), [Lagrangian subspaces and polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations).
+- V. Guillemin and S. Sternberg, *Symplectic Techniques in Physics* (1984)†: Lagrangian subspaces; N. M. J. Woodhouse, *Geometric Quantization* (1980)†: polarizations in quantization. Cited on: [Lagrangian subspaces and polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations).
+- C. L. Siegel, "Symplectic geometry" (1943)†: the upper half-space, the symplectic group's action on it and its invariant metric; L. K. Hua, *Harmonic Analysis of Functions of Several Complex Variables in the Classical Domains* (English translation 1963)†: the bounded realizations of these domains and their Shilov boundaries. Cited on: [The Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian), [The Siegel domain Sp(2d, ℝ)/U(d)](/wiki/phase-space/modular-field/siegel-domain), [Shift symmetry: X is never auxiliary](/wiki/gravity/momentum-graviton/shift-symmetry).
+- E. Wigner (1932)†: the Wigner function; H. Weyl (1927)†: the correspondence between operators and phase-space functions. Cited on: [The Wigner function and Weyl symbols](/wiki/phase-space/reciprocity/wigner-function).
+- H. J. Groenewold (1946)† and J. E. Moyal (1949)†: the star product and phase-space quantum mechanics. Cited on: [The Wigner function and Weyl symbols](/wiki/phase-space/reciprocity/wigner-function), [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory).
+- D. Gabor (1946)†: the time–frequency uncertainty relation of signal analysis; V. Namias (1980)†: the fractional Fourier transform. Cited on: [The Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform), [The phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter).
+
+## Born geometry, metastring theory and double field theory
+
+- **Freidel, Leigh and Minic 2014 (two papers).** L. Freidel, R. G. Leigh, D. Minic, "Born reciprocity in string theory and the nature of spacetime," Phys. Lett. B 730, 302 (2014), arXiv:1307.7080; "Quantum gravity, dynamical phase space and string theory," Int. J. Mod. Phys. D 23, 1442006 (2014), arXiv:1405.3949.
+  - Marks: #11 [3]†, listed without the arXiv numbers; the toy note's [1], parts (a) and (b), unmarked, which its worklog retrieved by live search ("every citation retrieved [S], nothing from memory", S0). The lab notebook (#1 §2) and #9 §3 name "Born geometry in the sense of Freidel, Leigh & Minic" as [T] with no reference.
+  - Cited for: Born geometry and its split-quaternion algebra (#11 §5); η and J both dynamical, with "spacetime is a derived dynamical concept", and fixed η tied to locality (toy note §1; worklog S0).
+  - Checks: The round-4 referee found both papers on INSPIRE and quoted the statements the toy note attributes to them (`review/round4/referee/audit-notes.md`, Step 1, refs [1a] and [1b]). That check covers the toy note's use; whether the papers support #11's use is left to the † battery, where #11 still marks them †.
+  - Cited on: [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core), [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), [P1: the phase-space arena](/wiki/program/postulates/p1-arena), [The structures ω, η, H and the split-quaternion algebra](/wiki/phase-space/born-geometry/born-structures), [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Lagrangian subspaces and polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Timeline](/wiki/history/timeline).
+- **Freidel, Leigh and Minic 2015 (metastring).** L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005.
+  - Marks: #11 [26][S]; the toy note's [1], part (c), unmarked; [S] in the worklog. The v2.1 commit records references [26]–[29] as "all INSPIRE-checked" (repository history, commit e1c1f67).
+  - Cited for: "if all probes agree on what we mean by space-time, then we have broken Born duality — there is a preferred choice of polarization, the space-time one" (p. 3; #11 §3, credited among #11's v2.2 changes); η dynamical (#11 §4); the compatibility statement of §2.1, to which #11 has attributed its compatibility theorem since v2.1 (#11 §5); the section condition derived from worldsheet locality (§6) and the choice of polarization as "a dynamical question" (worklog, S5).
+  - Checks: The round-3 referee located the term "Born geometries" on p. 11 and listed the paper as prior art that #14 had not cited (`review/round3/referee/audit-notes.md`, Steps 1 and 3). The round-4 referee found the toy note's quotation verbatim and no symmetry-breaking analysis in parts (a)–(c) (Step 1). The commit that added the §3 credit records the quotation as "verified on p. 3" (repository history, commit 6ee74d0).
+  - Cited on: [Born's question](/wiki/program/borns-question), [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core), [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), [Original P2: both structures rigid (superseded)](/wiki/program/postulates/original-p2), [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime), [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection), [The structures ω, η, H and the split-quaternion algebra](/wiki/phase-space/born-geometry/born-structures), [Corollaries: unimodularity, no B-field, slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries), [The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking), [The order parameter: J, η and K](/wiki/symmetry-breaking/order-parameter), [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner), [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Provenance tags and citation marks](/wiki/method/provenance-tags), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The checkpoint: #9 to #11 v2.2](/wiki/history/documents/checkpoint), [Timeline](/wiki/history/timeline).
+- **Freidel, Rudolph and Svoboda (the Born connection).** L. Freidel, F. J. Rudolph, D. Svoboda, "A unique connection for Born geometry," Commun. Math. Phys. (2019), arXiv:1806.05992.
+  - Marks: #11 [7]†. The lab notebook (#1 §2) and #9 §3 cite the theorem as [T] and date it 2018; #11 dates it 2019. No document reconciles the years, and the conflicts register leaves the check to the † battery. Calc note #5 §F credits the result to the same authors, for the full triple.
+  - Cited for: The existence and uniqueness of a connection compatible with the full triple (ω, η, H) (#11 §5; #1 §2). It is a different paper from the toy note's [2], by the same authors.
+  - Cited on: [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core), [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), [Born geometry](/wiki/phase-space/born-geometry), [The Born connection](/wiki/phase-space/born-geometry/born-connection), [The structures ω, η, H and the split-quaternion algebra](/wiki/phase-space/born-geometry/born-structures), [The geometric action S_H and the v0.1 action (superseded)](/wiki/gravity/tuning-test/geometric-action), [The lab notebook (#1) and its addenda](/wiki/history/documents/lab-notebook), [Conflicts between sources](/wiki/history/documents/source-conflicts).
+- **Freidel, Rudolph and Svoboda 2017 (generalised kinematics).** L. Freidel, F. J. Rudolph, D. Svoboda, "Generalised kinematics for double field theory," JHEP 11 (2017) 175, arXiv:1706.07089.
+  - Marks: The toy note's [2], unmarked; [S] in the worklog's S5 literature.
+  - Cited for: The suggestion that the choice of polarization "might be subject to a dynamical selection rule" (toy note §1), a claim the worklog files under "Claimed only in words" (S5).
+  - Checks: The round-4 referee found the quotation verbatim, with "the kinematical structure of spacetime itself" as its subject rather than the choice, and judged the paraphrase acceptable (Step 1, ref [2]).
+  - Cited on: [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection), [The Born connection](/wiki/phase-space/born-geometry/born-connection), [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking), [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality).
+- **Marotta and Szabo 2021.** V. E. Marotta, R. J. Szabo, "Born sigma-models for para-Hermitian manifolds and generalized T-duality," Rev. Math. Phys. 33, 2150031 (2021), arXiv:1910.09997.
+  - Marks: The toy note's [3], one of the five references added in v2 ("all retrieved", worklog); the worklog's S0 survey had found it. Calc note #5 §F names "Svoboda, Marotta–Szabo" as the nearest neighbour in the para-Hermitian literature, without a reference.
+  - Cited for: Born sigma models, which "choose the polarization by gauging" (toy note §1).
+  - Checks: The round-4 referee listed it as omitted prior work: "sigma models of Born geometry (polarization as target structure, not a field)" (Step 1); the adjudication accepted the addition.
+  - Cited on: [The Born connection](/wiki/phase-space/born-geometry/born-connection), [The structures ω, η, H and the split-quaternion algebra](/wiki/phase-space/born-geometry/born-structures), [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria), [Review round 4](/wiki/method/review/round-4).
+- **Smolin (arXiv:2007.05957).** L. Smolin, "Quantum reference frames and triality," arXiv:2007.05957.
+  - Marks: The toy note's [4], added in v2 and retrieved.
+  - Cited for: A model that breaks a triality down to Born duality, which stays unbroken (toy note §1).
+  - Checks: The round-4 referee found it as omitted prior work. The adjudication: Smolin "breaks a triality *down to* Born duality, leaving it unbroken, so it does not contradict 'no model breaks ρ itself'. It still has to be cited."
+  - Cited on: [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria), [The blind-review protocol and verdict scale](/wiki/method/review/review-protocol), [Review round 4](/wiki/method/review/round-4).
 - **Hull and Zwiebach 2009; Hohm, Hull and Zwiebach 2010.** C. Hull, B. Zwiebach, "Double field theory," JHEP 09 (2009) 099, arXiv:0904.4664; O. Hohm, C. Hull, B. Zwiebach, "Background independent action for double field theory," JHEP 07 (2010) 016, arXiv:1003.5027.
-  - Marks: the toy note's [11], unmarked; [S] in the worklog.
-  - Cited for: the section condition, imposed for closure of the gauge algebra (toy note §1). The round-4 referee confirmed the strong constraint as a restriction to a maximally isotropic subspace, and noted that the 2009 paper uses the weak constraint.
-  - Wiki: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [The section condition](/wiki/symmetry-breaking/section-condition).
-- **Betz, Blumenhagen, Lüst and Rennecke 2014.** A. Betz, R. Blumenhagen, D. Lüst, F. Rennecke, "A note on the [conformal field theory] origin of the strong constraint of [double field theory]," JHEP 05 (2014) 044, arXiv:1402.1686.
-  - Marks: the toy note's [12], unmarked; [S] in the worklog.
-  - Cited for: the strong constraint derived from string consistency, which leaves the section undetermined within a family (toy note §1, §5). The round-4 review found that the derivation picks out a pair of sections only for d = 1 and a continuous family for d > 1; v2 restricts the "pair" to d = 1.
-  - Wiki: [Double field theory](/wiki/phase-space/born-geometry/double-field-theory), [The section condition](/wiki/symmetry-breaking/section-condition).
-- **Double field theory reviews.** arXiv:1305.1907, arXiv:1306.2643 and arXiv:1309.2977.
+  - Marks: The toy note's [11] (the round-4 audit's [7]), unmarked; [S] in the worklog's S5 literature.
+  - Cited for: The section condition of double field theory, imposed for closure of the gauge algebra (toy note §1).
+  - Checks: The round-4 referee confirmed the strong constraint as a restriction to a maximally isotropic subspace, and noted that the 2009 paper uses the weak constraint (Step 1).
+  - Cited on: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [The section condition: what η fixes](/wiki/symmetry-breaking/section-condition).
+- **Betz, Blumenhagen, Lüst and Rennecke 2014.** A. Betz, R. Blumenhagen, D. Lüst, F. Rennecke, "A note on the CFT origin of the strong constraint of DFT," JHEP 05 (2014) 044, arXiv:1402.1686, CFT being conformal field theory and DFT double field theory.
+  - Marks: The toy note's [12] (the round-4 audit's [8]), unmarked; [S] in the worklog.
+  - Cited for: The strong constraint derived from string consistency, which leaves the section undetermined within a family: a pair for d = 1, a continuous family for d > 1 (toy note §1, §5).
+  - Checks: The round-4 referee found that the derivation selects a pair of sections only for d = 1 and a continuous family for d ≥ 2; the adjudication upheld the point, and v2 restricts the "pair" to d = 1.
+  - Cited on: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [The section condition: what η fixes](/wiki/symmetry-breaking/section-condition), [Review round 4](/wiki/method/review/round-4).
+- **Double field theory reviews.** arXiv:1305.1907, arXiv:1306.2643 and arXiv:1309.2977, given by number only.
   - Marks: [S] in the worklog's S5 literature only; not in the toy note's list.
-  - Cited for: the strong constraint, imposed for gauge closure.
-  - Wiki: [Double field theory](/wiki/phase-space/born-geometry/double-field-theory).
-- **Angus, Kim and Park (arXiv:2111.07947).**
-  - Marks: [S] in the worklog's S0 prior-art survey only.
-  - Cited for: double field theory with spontaneously broken O(D, D), in which H is the order parameter and η is fixed: related to the program's idea, but not the same.
-  - Wiki: [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria), [Double field theory](/wiki/phase-space/born-geometry/double-field-theory).
-- **Low; Govaerts, Jarvis, Morgan and Low (arXiv:0706.3736).**
+  - Cited for: The strong constraint, imposed for closure of the gauge algebra.
+  - Cited on: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory).
+- **Angus, Kim and Park (arXiv:2111.07947).** Angus, Kim and Park, arXiv:2111.07947, given by surname and number only.
   - Marks: [S] in the worklog's S0 survey only.
-  - Cited for: a contraction of the symmetry, not a breaking.
-  - Wiki: [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria).
-- **Bernardo, Brandenberger and Franzmann (arXiv:1901.01209).**
+  - Cited for: Double field theory with spontaneously broken O(D, D), where "H is the order parameter, with η fixed": related to the program's idea, but not the same.
+  - Cited on: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria).
+- **Low; Govaerts, Jarvis, Morgan and Low (arXiv:0706.3736).** Low; Govaerts–Jarvis–Morgan–Low, arXiv:0706.3736, as the worklog gives them.
+  - Marks: [S] in the worklog's S0 survey only.
+  - Cited for: A contraction of the symmetry, "contraction, not breaking".
+  - Cited on: [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria).
+- **Bernardo, Brandenberger and Franzmann (arXiv:1901.01209).** Bernardo–Brandenberger–Franzmann, arXiv:1901.01209, as the worklog gives it.
   - Marks: [S] in the worklog's S5 literature only.
-  - Cited for: a statement in words that the choice of section is dynamical; the worklog notes that its support is a personal communication.
-  - Wiki: [The section condition](/wiki/symmetry-breaking/section-condition).
+  - Cited for: A statement in words that the choice of section is dynamical, "whose support is a personal communication".
+  - Cited on: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [Broken Born duality: the Freidel–Leigh–Minic precedent](/wiki/phase-space/reciprocity/broken-born-duality).
 
 ## Noncommutative field theory and the Grosse–Wulkenhaar model
 
-- **Langmann and Szabo 2002.** E. Langmann, R. J. Szabo, "Duality in scalar field theory on noncommutative phase spaces," Phys. Lett. B 533, 168 (2002), hep-th/0202039.
-  - Marks: the toy note's [5] (the round-4 audit's [3]), retrieved.
-  - Cited for: a duality of noncommutative scalar field theory that exchanges positions and momenta, formulated for complex fields (toy note §1). The round-4 referee confirmed that the complex-field framing is Langmann and Szabo's own, and v2 credits them for it in the matrix-base lemma.
-  - Wiki: [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields), [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma).
-- **Grosse and Wulkenhaar 2004, 2005.** H. Grosse, R. Wulkenhaar: (a) "The β-function in duality-covariant noncommutative φ⁴-theory," Eur. Phys. J. C 35, 277 (2004), hep-th/0402093; (b) "Renormalisation of φ⁴-theory on noncommutative ℝ⁴ in the matrix base," Commun. Math. Phys. 256, 305 (2005), hep-th/0401128.
-  - Marks: the toy note's [6] (the round-4 audit's [4]), retrieved. `verify/toy_gw.py` takes the duality from (a), eq. 1.
-  - Cited for: the model's invariance under the duality at Ω = 1 (toy note §1), and the duality's being "manifest" in the matrix base, (b) (toy note §3). Equation 1 of (a) is the four-dimensional form, with π²; the toy note adapts it to two dimensions, which the round-4 review asked it to state.
-  - Wiki: [Noncommutative field theory](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base), [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma), [The toy-model scripts](/wiki/method/verification/toy-model-scripts).
-- **Disertori, Gurau, Magnen and Rivasseau 2007.** M. Disertori, R. Gurau, J. Magnen, V. Rivasseau, "Vanishing of beta function of non-commutative φ⁴₄ theory to all orders," Phys. Lett. B 649, 95 (2007), hep-th/0612251.
-  - Marks: the toy note's [7] (the round-4 audit's [5]), retrieved.
-  - Cited for: the vanishing of the β-function to all orders at Ω = 1 in four dimensions (toy note §1). The round-4 review noted that this is the four-dimensional model, while model II is two-dimensional.
-  - Wiki: [Noncommutative field theory](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory).
-- **Langmann, Szabo and Zarembo 2004.** E. Langmann, R. J. Szabo, K. Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces," JHEP 01 (2004) 017, hep-th/0308043.
-  - Marks: the toy note's [8], added in v2 at round 4's request and retrieved.
-  - Cited for: the exact solution of a closely related model, the natural independent check of the restoration argument, which the toy note has not carried out (§4).
-  - Wiki: [Quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration).
-- **de Goursac, Tanasa and Wallet 2008.** A. de Goursac, A. Tanasa, J.-C. Wallet, "Vacuum configurations for renormalizable non-commutative scalar models," Eur. Phys. J. C 53, 459 (2008), arXiv:0709.3950.
-  - Marks: the toy note's [9] (the round-4 audit's [6]), retrieved. `verify/toy_gw.py` anchors the matrix base to its Appendix A, eq. A.2.
-  - Cited for: non-constant vacua at Ω = 1, whose behavior under the duality it does not examine (toy note §1; confirmed by the round-4 referee), and the matrix-base conventions (toy note §3).
-  - Wiki: [Model II: the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base), [Complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua), [The toy-model scripts](/wiki/method/verification/toy-model-scripts).
-- **Fosco and Moreno 2007.** C. D. Fosco, G. A. Moreno, "One-loop effects in a self-dual planar noncommutative theory," JHEP 11 (2007) 046, arXiv:0710.0818.
-  - Marks: the toy note's [10], added in v2 and retrieved.
-  - Cited for: the minima of the complex self-dual planar model, studied without asking how they behave under the duality (toy note §1).
-  - Wiki: [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua).
-- **Royer 1977.** A. Royer, "Wigner function as the expectation value of a parity operator," Phys. Rev. A 15, 449 (1977).
-  - Marks: the toy note's [16], added in v2 and retrieved; the round-4 referee confirmed through Crossref that it exists.
-  - Cited for: the parity-operator form of Weyl symbols, with which the matrix-base lemma is consistent (toy note §3).
-  - Wiki: [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma), [The Wigner function and Weyl symbols](/wiki/phase-space/reciprocity/wigner-function).
+The toy note's references are unmarked. Its worklog's prior-art survey retrieved [5], [6a], [7] and [9] by live search, and version 2 added [8], [10] and [16] among five references "all retrieved". The round-4 referee audited the first version, whose twelve references it numbers differently; the numbers below are version 2's, with the audit's in parentheses.
 
-## Symmetry breaking in two dimensions
+- **Langmann and Szabo 2002.** E. Langmann, R. J. Szabo, "Duality in scalar field theory on noncommutative phase spaces," Phys. Lett. B 533, 168 (2002), hep-th/0202039.
+  - Marks: The toy note's [5] (the audit's [3]).
+  - Cited for: A duality of noncommutative scalar field theory that exchanges positions and momenta, formulated for complex fields (toy note §1); the worklog also quotes its p. 6 on the locality of the two vertex functions and reads it as locality in x arising only in the singular limit θ → 0.
+  - Checks: The round-4 referee confirmed that the complex-field framing is Langmann and Szabo's own (their Prop. 1); v2 credits them for it in the matrix-base lemma (revision 3).
+  - Cited on: [Born's question](/wiki/program/borns-question), [Born reciprocity ρ: (x, p) → (p, −x)](/wiki/phase-space/reciprocity/born-reciprocity), [The Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform), [Unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence), [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality), [Complex versus real fields: symmetry versus covariance](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields), [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria).
+- **Grosse and Wulkenhaar 2004, 2005.** H. Grosse, R. Wulkenhaar: (a) "The β-function in duality-covariant noncommutative φ⁴-theory," Eur. Phys. J. C 35, 277 (2004), hep-th/0402093; (b) "Renormalisation of φ⁴-theory on noncommutative ℝ⁴ in the matrix base," Commun. Math. Phys. 256, 305 (2005), hep-th/0401128.
+  - Marks: The toy note's [6] (the audit's [4]). `verify/toy_gw.py` takes the duality from (a), eq. 1.
+  - Cited for: The model's invariance under the duality at Ω = 1 (toy note §1); the duality "manifest" in the matrix base, (b) (toy note §3).
+  - Checks: The round-4 referee found that eq. 1 of (a) is the four-dimensional form, with π², which the toy note adapts to two dimensions; v2 says so. The adjudication listed (b)'s "manifest" statement among the omitted prior work, and v2 credits it.
+  - Cited on: [The Wigner function and Weyl symbols](/wiki/phase-space/reciprocity/wigner-function), [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma), [Model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base), [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Review round 4](/wiki/method/review/round-4), [Independent anchors](/wiki/method/verification/independent-anchors), [The toy-model scripts](/wiki/method/verification/toy-model-scripts).
+- **Disertori, Gurau, Magnen and Rivasseau 2007.** M. Disertori, R. Gurau, J. Magnen, V. Rivasseau, "Vanishing of beta function of non-commutative φ⁴₄ theory to all orders," Phys. Lett. B 649, 95 (2007), hep-th/0612251.
+  - Marks: The toy note's [7] (the audit's [5]).
+  - Cited for: The vanishing of the β-function to all orders at Ω = 1 in four dimensions (toy note §1).
+  - Checks: The round-4 referee confirmed the statement and noted that it concerns the four-dimensional model, while model II is two-dimensional.
+  - Cited on: [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory).
+- **Langmann, Szabo and Zarembo 2004.** E. Langmann, R. J. Szabo, K. Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces," JHEP 01 (2004) 017, hep-th/0308043.
+  - Marks: The toy note's [8], added in v2.
+  - Cited for: The exact solution of a closely related model, "the natural independent check" of the restoration argument, which the toy note has not carried out (§4).
+  - Checks: The round-4 referee found it as omitted prior work, "Directly relevant to Sec. 4 restoration claim".
+  - Cited on: [Complex versus real fields: symmetry versus covariance](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields), [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria), [Pre-registration and its calibration record](/wiki/method/review/pre-registration), [The blind-review protocol and verdict scale](/wiki/method/review/review-protocol), [Review round 4](/wiki/method/review/round-4).
+- **de Goursac, Tanasa and Wallet 2008.** A. de Goursac, A. Tanasa, J.-C. Wallet, "Vacuum configurations for renormalizable non-commutative scalar models," Eur. Phys. J. C 53, 459 (2008), arXiv:0709.3950.
+  - Marks: The toy note's [9] (the audit's [6]). `verify/toy_gw.py` anchors the matrix base to its Appendix A, eq. (A.2).
+  - Cited for: Non-constant vacua at Ω = 1, whose behaviour under the duality it does not examine (toy note §1), and the matrix-base conventions (toy note §3).
+  - Checks: The round-4 referee confirmed the vacua and the conventions, and that the duality "appears only in the set-up ... breaking not examined" (Step 1).
+  - Cited on: [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua), [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma), [Model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base), [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration), [Independent anchors](/wiki/method/verification/independent-anchors), [The toy-model scripts](/wiki/method/verification/toy-model-scripts).
+- **Fosco and Moreno 2007.** C. D. Fosco, G. A. Moreno, "One-loop effects in a self-dual planar noncommutative theory," JHEP 11 (2007) 046, arXiv:0710.0818.
+  - Marks: The toy note's [10], added in v2.
+  - Cited for: The minima of the complex self-dual planar model, studied without asking how they behave under the duality (toy note §1).
+  - Checks: The round-4 referee found it as omitted prior work.
+  - Cited on: [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua), [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria), [Review round 4](/wiki/method/review/round-4).
+- **Royer 1977.** A. Royer, "Wigner function as the expectation value of a parity operator," Phys. Rev. A 15, 449 (1977).
+  - Marks: The toy note's [16], added in v2.
+  - Cited for: The parity-operator form of Weyl symbols, with which the matrix-base lemma is consistent (toy note §3).
+  - Checks: The round-4 referee named it in its novelty note and recorded it as "Crossref-verified to exist" (Step 2(b)).
+  - Cited on: [Born reciprocity](/wiki/phase-space/reciprocity), [The Wigner function and Weyl symbols](/wiki/phase-space/reciprocity/wigner-function), [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria), [Review round 4](/wiki/method/review/round-4).
+
+Added by the wiki from model memory (†), cited by no program document:
+
+- S. Minwalla, M. Van Raamsdonk, N. Seiberg (2000)†: UV/IR mixing in noncommutative field theory. Cited on: [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory).
+- M. R. Douglas, N. A. Nekrasov (2001)† and R. J. Szabo (2003)†: reviews of noncommutative field theory. Cited on: [Noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory).
+
+## Spontaneous symmetry breaking and two-dimensional theorems
 
 - **Mermin and Wagner 1966; Coleman 1973.** N. D. Mermin, H. Wagner, Phys. Rev. Lett. 17, 1133 (1966); S. Coleman, "There are no Goldstone bosons in two dimensions," Commun. Math. Phys. 31, 259 (1973).
-  - Marks: the toy note's [13] and [14] (the round-4 audit's [9] and [10]), retrieved.
-  - Cited for: continuous compact symmetries cannot break spontaneously in two dimensions (toy note §1). After round 4, v2 applies this only to the compact SO(2) that contains ρ (§4).
-  - Wiki: [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question).
+  - Marks: The toy note's [13] and [14] (the audit's [9] and [10]).
+  - Cited for: Continuous compact symmetries cannot break spontaneously in two dimensions (toy note §1). Since round 4, v2 applies this only to "the compact SO(2) containing ρ" (§4).
+  - Checks: The round-4 referee found both and confirmed the statement (Step 1).
+  - Cited on: [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime), [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection), [The symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form), [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle), [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), [Coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models), [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question), [Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua).
 - **Niedermaier and Seiler 2005; Duncan, Niedermaier and Seiler 2005.** M. Niedermaier, E. Seiler, Ann. Henri Poincaré 6, 1025 (2005), hep-th/0312293; A. Duncan, M. Niedermaier, E. Seiler, "Vacuum orbit and spontaneous symmetry breaking in hyperbolic sigma models," Nucl. Phys. B 720, 235 (2005), erratum Nucl. Phys. B 758, 330 (2006), hep-th/0405163.
-  - Marks: the toy note's [15] (the round-4 audit's [11]), retrieved. The round-4 review corrected the second paper's first author to A. Duncan and added the erratum.
-  - Cited for: non-compact hyperbolic models, which can break symmetry in two dimensions (toy note §1, §4). The round-4 review pointed out that model I's H-sector is such a model, which leaves open whether ρ's SO(2) breaks in the coupled model.
-  - Wiki: [Coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models), [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question).
+  - Marks: The toy note's [15] (the audit's [11]); [S] in the worklog's S0 survey.
+  - Cited for: Non-compact hyperbolic models, which can break symmetry in two dimensions (toy note §1, §4).
+  - Checks: The round-4 referee found that the first version gave the second paper's first author as "N. Duncan" (it is A. Duncan) and omitted the erratum, and that model I's own H-sector is such a hyperbolic model, which the first version had not applied. The adjudication accepted both; whether ρ's SO(2) breaks in the coupled model is open.
+  - Cited on: [The symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form), [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), [Coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models), [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question), [Success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Review round 4](/wiki/method/review/round-4).
 - **José, Kadanoff, Kirkpatrick and Nelson 1977.** J. V. José, L. P. Kadanoff, S. Kirkpatrick, D. R. Nelson, "Renormalization, vortices, and symmetry-breaking perturbations in the two-dimensional planar model," Phys. Rev. B 16, 1217 (1977).
-  - Marks: the toy note's [17] (the round-4 audit's [12]), retrieved. The round-4 referee found an erratum (Phys. Rev. B 17, 1477) and could not verify the specific claim v1 cited it for, the full text being paywalled; the round-4 pre-registration had named it the likeliest over-cited reference.
-  - Cited for: background on symmetry-breaking fields in the planar model only. The toy note adds that "the ordered phase used here is established by our own Monte Carlo, not by appeal to this reference."
-  - Wiki: [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo).
+  - Marks: The toy note's [17] (the audit's [12]).
+  - Cited for: Background on symmetry-breaking fields in the planar model only; v2 adds that "the ordered phase used here is established by our own Monte Carlo, not by appeal to this reference."
+  - Checks: The round-4 pre-registration named it the likeliest over-cited reference. The referee found it, with an erratum (Phys. Rev. B 17, 1477), but could not check the specific claim the first version cited it for, the full text being paywalled; the adjudication accepted that the claim "cannot be checked".
+  - Cited on: [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo), [Pre-registration and its calibration record](/wiki/method/review/pre-registration), [Review round 4](/wiki/method/review/round-4).
+
+Added by the wiki from model memory (†), cited by no program document:
+
+- Y. Nambu and G. Jona-Lasinio (1961)†: spontaneous breaking of a continuous symmetry in a relativistic field theory, by analogy with superconductivity. Cited on: [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking).
+- J. Goldstone (1961)†; J. Goldstone, A. Salam and S. Weinberg (1962)†: the massless modes of a broken continuous symmetry. Cited on: [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs), [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking).
+- P. W. Anderson (1963)†: the photon mass in a superconductor; F. Englert and R. Brout (1964)†; P. W. Higgs (1964)†; G. S. Guralnik, C. R. Hagen and T. W. B. Kibble (1964)†: the mechanism in relativistic gauge theory. Cited on: [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs).
+- E. C. G. Stueckelberg (1938)†: the field that bears his name. Cited on: [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs).
+- E. A. Ivanov and V. I. Ogievetsky (1975)†: the inverse Higgs phenomenon; I. Low and A. V. Manohar (2002)†: Goldstone counting when spacetime symmetries break. Cited on: [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content), [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs).
+- S. Coleman, *Aspects of Symmetry* (1985)†; S. Weinberg, *The Quantum Theory of Fields*, vol. II (1996)†: lectures on spontaneous breaking, instantons and tunnelling; the general theory of broken symmetries. Cited on: [Spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking).
+- P. C. Hohenberg (1967)†: the two-dimensional theorem for superfluid and superconducting order. Cited on: [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman).
+- R. Peierls (1936)† and L. Onsager (1944)†: order in the two-dimensional Ising model, which Onsager solved exactly. Cited on: [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), [The frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction).
+- V. L. Berezinskii (1971)†; J. M. Kosterlitz and D. J. Thouless (1973)†: quasi-long-range order and the vortex-unbinding transition. Cited on: [The Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman).
+- M. Gell-Mann, M. Lévy, "The axial vector current in beta decay," Nuovo Cimento 16, 705 (1960)†: the σ field that named the sigma model; A. M. Polyakov, *Gauge Fields and Strings* (1987)†: sigma models in two dimensions. Cited on: [Coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models).
+
+## Relativity and gravitation
+
+No program document cites a source for special or general relativity, or for the observations that test them; every work in this section was added by the wiki from model memory.
+
+- A. Einstein (1905)†: the two postulates of special relativity, the boost, time dilation and length contraction; H. Minkowski†: the interval and spacetime as a four-dimensional geometry. Cited on: [Special relativity: the template](/wiki/conjugate-relativity/special-relativity).
+- E. F. Taylor and J. A. Wheeler, *Spacetime Physics*†; W. Rindler, *Relativity: Special, General, and Cosmological*†: textbooks covering rapidity, the light cone and uniformly accelerated frames. Cited on: [Special relativity: the template](/wiki/conjugate-relativity/special-relativity).
+- A. Einstein (1915)†; D. Hilbert (1915)†: the field equations of general relativity and their action. Cited on: [General relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity).
+- S. N. Gupta (1954)†; S. Weinberg (1964, 1965)†; S. Deser (1970)†: a massless spin-2 field coupled consistently to matter and to itself is general relativity, and its coupling to matter is universal. Cited on: [General relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity).
+- W. Rindler (1966)†: the uniformly accelerated frame. Cited on: [General relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity).
+- C. W. Misner, K. S. Thorne, J. A. Wheeler, *Gravitation* (1973)†; R. M. Wald, *General Relativity* (1984)†; S. M. Carroll, *Spacetime and Geometry* (2004)†: textbooks; the first also for orthonormal frames (tetrads). Cited on: [General relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity), [Vielbein formulation and wedge potentials](/wiki/gravity/spin-2-fields/vielbein-formulation).
+- S. W. Hawking (1974–75)†: the temperature and thermal emission of a black hole. Cited on: [Momentum-space black holes (chat-only)](/wiki/conjugate-relativity/momentum-space-black-holes).
+- C. M. Will, "Bounding the mass of the graviton using gravitational-wave observations of inspiralling compact binaries," Phys. Rev. D 57, 2061 (1998)†; B. P. Abbott et al. (the LIGO Scientific and Virgo Collaborations, LIGO being the Laser Interferometer Gravitational-Wave Observatory), "Tests of general relativity with GW150914," Phys. Rev. Lett. 116, 221101 (2016)†: bounds on the graviton mass from gravitational-wave observations, which calc note #7 §4 quotes as "m_g ≲ 10⁻²³ eV territory" without a reference. Cited on: [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton).
 
 ## Massive and bimetric gravity
 
 - **Boulanger, Damour, Gualtieri and Henneaux 2001.** N. Boulanger, T. Damour, L. Gualtieri, M. Henneaux, "Inconsistency of interacting, multi-graviton theories," Nucl. Phys. B 597, 127 (2001), hep-th/0007220.
-  - Marks: #11 [8]†; #14 [2], unmarked. #6 §2, #9 §5 and the lab notebook's v0.4 addendum name it without a reference. #12 says the theorem was "proved in 2000". The round-3 referee found that it supports the exclusion of a massless X coupled to gravity, within its assumptions: at most two derivatives, locality, no ghosts.
-  - Cited for: the multi-graviton no-go that excludes a massless X (#11 §7.1).
-  - Wiki: [The multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go), [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain), [The symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner).
+  - Marks: #11 [8]†; #14 [2], unmarked. Calc note #6 §2, #9 §5 and the lab notebook's v0.4 addendum name the theorem without a reference. The popular article #12 says it was "proved in 2000"; the conflicts register reads the two years as the preprint's and the journal's.
+  - Cited for: The multi-graviton no-go, which excludes a massless X (#11 abstract and §7.1; #14 §1).
+  - Checks: The round-3 referee found that it supports the exclusion of a massless X coupled to gravity, within its assumptions: at most two derivatives, locality, no ghosts (`review/round3/referee/audit-notes.md`, Step 1).
+  - Cited on: [Assessment: a live research program](/wiki/program/assessment), [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing), [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z), [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs), [Dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms), [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain), [The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli), [The multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go), [The verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass), [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Provenance tags and citation marks](/wiki/method/provenance-tags), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The Debt-1 calc notes (#5–#8)](/wiki/history/documents/debt-1-notes), [The popular articles (#10, #12)](/wiki/history/documents/popular-articles), [Conflicts between sources](/wiki/history/documents/source-conflicts), [Timeline](/wiki/history/timeline).
 - **de Rham, Gabadadze and Tolley 2011.** C. de Rham, G. Gabadadze, A. J. Tolley, "Resummation of massive gravity," Phys. Rev. Lett. 106, 231101 (2011), arXiv:1011.1232.
-  - Marks: #11 [9]†. #6 §3, #9 §5 and the lab notebook's v0.5 addendum name the theory without a reference.
-  - Cited for: ghost-free massive gravity, the class X's potential has to land in (#11 §7.1).
-  - Wiki: [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity).
+  - Marks: #11 [9]†. Calc note #6 §3, #9 §5 and the lab notebook's v0.5 addendum name the theory (dRGT) without a reference.
+  - Cited for: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). Flag 7 in `review/wiki-build-flags.md` notes that #11 drops the qualifier of calc note #6 §3, "exactly one known consistent structure".
+  - Cited on: [Assessment: a live research program](/wiki/program/assessment), [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain), [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs), [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity), [Elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials), [The multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go), [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter).
 - **Hassan and Rosen 2012 (two papers).** S. F. Hassan, R. A. Rosen, "Resolving the ghost problem in non-linear massive gravity," Phys. Rev. Lett. 108, 041101 (2012), arXiv:1106.3344; "Bimetric gravity from ghost-free massive gravity," JHEP 1202, 126 (2012), arXiv:1109.3515.
-  - Marks: #11 [10]† and [11]†. #14 [3] cites both, unmarked, writing the second as JHEP 02 (2012) 126. #6 §3 cites "[T: HR 2011]", HR standing for Hassan–Rosen. The round-3 referee found that the pair supports the ghost-free bimetric structure.
-  - Cited for: ghost-free massive and bimetric gravity, the structure X lands in (#11 §1, §7.1).
-  - Wiki: [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity).
+  - Marks: #11 [10]† and [11]†; #14 [3], unmarked, which writes the second as JHEP 02 (2012) 126. Calc note #6 §3 cites "[T: HR 2011]", HR standing for Hassan–Rosen; #11 and #14 date both papers 2012.
+  - Cited for: Ghost-free massive and bimetric gravity, the structure X lands in: "the interchange-symmetric branch of Hassan–Rosen bimetric gravity [10†, 11†]" (#11 abstract; §7.1; #14 §1).
+  - Checks: The round-3 referee found that the pair supports the ghost-free bimetric structure (Step 1).
+  - Cited on: [Assessment: a live research program](/wiki/program/assessment), [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain), [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs), [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome), [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity), [Elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials), [The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli), [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), [The multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go), [Vielbein formulation and wedge potentials](/wiki/gravity/spin-2-fields/vielbein-formulation), [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Hinterbichler and Rosen 2012.** K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), arXiv:1203.5783.
-  - Marks: #11 [12]†. #7 §3 and #9 §5 cite the class as [T] without a reference.
-  - Cited for: interacting spin-2 potentials built as wedge products of frames, ghost-free by construction: the frame tier (#11 §7.2).
-  - Wiki: [The frame tier](/wiki/gravity/tuning-test/frame-tier), [Vielbein formulation and wedge potentials](/wiki/gravity/spin-2-fields/vielbein-formulation).
+  - Marks: #11 [12]†. Calc note #7 §3, #8 §1, #9 §5 and the lab notebook's v0.5 addendum name the class without a reference.
+  - Cited for: The frame tier: couplings built as wedge products of frames, "the Hinterbichler–Rosen class [12†], ghost-free by construction" (#11 §7.2).
+  - Cited on: [Original P2: both structures rigid (superseded)](/wiki/program/postulates/original-p2), [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome), [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity), [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), [The multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go), [Vielbein formulation and wedge potentials](/wiki/gravity/spin-2-fields/vielbein-formulation), [The frame tier: the symplectic vielbein](/wiki/gravity/tuning-test/frame-tier), [The geometric action S_H and the v0.1 action (superseded)](/wiki/gravity/tuning-test/geometric-action).
 - **Schmidt-May and von Strauss 2016.** A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021.
-  - Marks: #11 [22][S]. `HANDOFF.md` §8 refers to "the Schmidt-May–von Strauss review's no-protecting-symmetry statement".
-  - Cited for: on the matter-loop ("old") cosmological-constant problem, bimetric theory is no better placed than general relativity (#11 §7.3).
-  - Wiki: [The cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), [The vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity), [Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison).
-- **arXiv:1609.09515.** #11 gives no authors and the descriptive title "Partially massless bimetric gravity and its exchange-symmetric parameter point".
-  - Marks: #11 [24][S]; `HANDOFF.md` §2 and §8 cite the arXiv number unmarked.
-  - Cited for: the partially-massless point β₀ = 3α⁻²β₂, β₁ = β₃ = 0, β₄ = 3α²β₂, symmetric under exchange of the two metrics and with proportional de Sitter solutions of undetermined ratio; at α = 1 it lies inside the palindromic branch (#11 §7.4). The convention-careful comparison is item 2 of #11 §14.
-  - Wiki: [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity), [Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison).
+  - Marks: #11 [22][S]. `HANDOFF.md` §8 item 5 names "the Schmidt-May–von Strauss review's no-protecting-symmetry statement" without quoting it, and no document quotes it.
+  - Cited for: On matter-loop vacuum energy, the "old" cosmological-constant problem, "bimetric theory is otherwise no better placed than GR [22S]" (#11 §7.3), GR being general relativity.
+  - Cited on: [The palindromic branch](/wiki/gravity/palindromic-branch), [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison), [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [The cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity), [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter).
+- **arXiv:1609.09515 (the partially massless point).** "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515", as #11 gives it, with no authors.
+  - Marks: #11 [24][S]; `HANDOFF.md` §2 and §8 cite the arXiv number alone.
+  - Cited for: The partially massless (PM) point β₀ = 3α⁻²β₂, β₁ = β₃ = 0, β₄ = 3α²β₂, symmetric under exchange of the two metrics, with proportional de Sitter solutions of undetermined ratio; at α = 1 it lies inside the palindromic branch (#11 §7.4). The convention-careful comparison is open problem 2 (#11 §14).
+  - Checks: Flag 9 in `review/wiki-build-flags.md`: the entry "has no authors and its title may be a description rather than the paper's title. Being [S], it falls outside the † battery (OP10)." The record identifies the paper only by its number.
+  - Cited on: [The palindromic branch](/wiki/gravity/palindromic-branch), [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome), [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison), [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity), [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Provenance tags and citation marks](/wiki/method/provenance-tags), [The checkpoint: #9 to #11 v2.2](/wiki/history/documents/checkpoint).
 - **Hossenfelder 2008.** S. Hossenfelder, "A bi-metric theory with exchange symmetry," Phys. Rev. D 78, 044015 (2008), arXiv:0807.2838.
   - Marks: #11 [25][S]; `HANDOFF.md` §2 and §8 cite the arXiv number.
-  - Cited for: an exchange-symmetric bimetric theory in which twin-sector source terms cancel, a different mechanism from the program's sector-internal identity (#11 §7.4).
-  - Wiki: [Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), [The vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
+  - Cited for: "Hossenfelder's exchange-symmetric bimetric, where twin-sector source terms cancel identically [25S]", a different mechanism from the program's sector-internal identity (#11 §7.4); open problem 2.
+  - Cited on: [The palindromic branch](/wiki/gravity/palindromic-branch), [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison), [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity), [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity), [The checkpoint: #9 to #11 v2.2](/wiki/history/documents/checkpoint).
 - **Babichev et al. 2016.** E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), arXiv:1607.03497.
-  - Marks: #11 [23]†. #6 §4, the lab notebook's v0.4 addendum and #9 §10 name bigravity dark matter without a reference.
-  - Cited for: the bigravity-dark-matter lineage of the X-condensate candidate (#11 §12).
-  - Wiki: [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter), [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate).
-- **Comelli, Crisostomi and Pilo 2012; Könnig et al. 2014; Lagos and Ferreira 2014.** D. Comelli, M. Crisostomi, L. Pilo, JHEP 06 (2012) 085, arXiv:1202.1986; F. Könnig, Y. Akrami, L. Amendola, M. Motta, A. R. Solomon, Phys. Rev. D 90, 124014 (2014), arXiv:1407.4331; M. Lagos, P. G. Ferreira, J. Cosmol. Astropart. Phys. 12 (2014) 026, arXiv:1410.0207.
-  - Marks: #14 [4], unmarked. The round-3 referee judged the citation a slight over-generalization: Könnig et al. identify a stable model, and Lagos and Ferreira find stable scalar perturbations for one parameter choice. Ruling 12 accepted "[4] over-generalized".
-  - Cited for: gradient or ghost instabilities of bimetric cosmological branches, in analyses that assume a spin-2 mass of order the present Hubble rate and comparable Planck masses (#14 §1; the v3 worklog, R7).
-  - Wiki: [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability).
+  - Marks: #11 [23]†. Calc note #6 §4, the lab notebook's v0.4 addendum and #9 §10 name bigravity dark matter without a reference.
+  - Cited for: "oscillating massive spin-2 (bigravity-DM lineage [23†])", the lineage of the X-condensate candidate (#11 §12).
+  - Checks: A verifier of the wiki build checked this entry by live search and found that it pairs two papers: the title and journal reference belong together and are arXiv:1604.08564, while arXiv:1607.03497 is the companion paper "Heavy spin-2 Dark Matter" (flag 20 in `review/wiki-build-flags.md`, "For the † battery (OP10)"). The flag awaits Paul's ruling, and the mark stays † until the battery checks the entry.
+  - Cited on: [Dark-sector candidates](/wiki/dark-matter/candidates), [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter), [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate), [Row 11: particles or condensate (OP9)](/wiki/predictions/dark-sector-microstructure), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [The checkpoint: #9 to #11 v2.2](/wiki/history/documents/checkpoint), [Timeline](/wiki/history/timeline).
+- **Comelli, Crisostomi and Pilo 2012; Könnig et al. 2014; Lagos and Ferreira 2014.** D. Comelli, M. Crisostomi, L. Pilo, JHEP 06 (2012) 085, arXiv:1202.1986; F. Könnig, Y. Akrami, L. Amendola, M. Motta, A. R. Solomon, Phys. Rev. D 90, 124014 (2014), arXiv:1407.4331; M. Lagos, P. G. Ferreira, JCAP 12 (2014) 026, arXiv:1410.0207.
+  - Marks: #14 [4], unmarked; the v3 worklog's item R7 cites the three by journal.
+  - Cited for: Gradient or ghost instabilities of bimetric cosmologies, in analyses that "assume a spin-2 mass of order the present Hubble rate and comparable Planck masses for the two metrics" (#14 §1).
+  - Checks: The round-3 referee judged the citation a slight over-generalization: Könnig et al. identify a stable model, and Lagos and Ferreira find stable scalar perturbations for one parameter choice. Ruling 12 accepted "[4] over-generalized".
+  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Akrami, Hassan, Könnig, Schmidt-May and Solomon 2015.** Y. Akrami, S. F. Hassan, F. Könnig, A. Schmidt-May, A. R. Solomon, Phys. Lett. B 748, 37 (2015), arXiv:1503.07521.
-  - Marks: #14 [5], unmarked; the round-3 referee found that it supports the claim.
-  - Cited for: a heavy spin-2 field that is linearly stable at late times when the second metric's Planck mass is much smaller than the first, M_f ≪ M_g, an escape that the equal Planck masses forced by reciprocity close (#14 §1; the v3 worklog, R7).
-  - Wiki: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [Bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology).
+  - Marks: #14 [5], unmarked; worklog item R7.
+  - Cited for: A heavy spin-2 field that is linearly stable at late times when the second metric's Planck mass is much smaller than the first, M_f ≪ M_g (#14 §1). The worklog adds that reciprocity forces equal Planck masses, which rules out this escape.
+  - Checks: The round-3 referee found that it supports the claim and quoted its p. 7 (Step 1).
+  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Higuchi 1987.** A. Higuchi, Nucl. Phys. B 282, 397 (1987).
-  - Marks: #14 [6], unmarked. The round-3 referee found that the bound in the abstract becomes m² ≥ 2H² with Λ = 3H².
-  - Cited for: the Higuchi bound m² ≥ 2H², which a heavy spin-2 field satisfies trivially (#14 §1).
-  - Wiki: [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology).
+  - Marks: #14 [6], unmarked; worklog item R7.
+  - Cited for: The Higuchi bound m² ≥ 2H², which a heavy spin-2 field satisfies trivially (#14 §1).
+  - Checks: The round-3 referee found that the abstract's bound becomes m² ≥ 2H² with Λ = 3H², and that it supports the claim (Step 1).
+  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **De Felice et al. 2014.** No reference details in any document.
-  - Marks: named in the v3 worklog (R7) as cited in Akrami et al., "not yet read".
-  - Cited for: "the instability becomes negligible for large values of m", the open question at equal Planck masses.
-  - Wiki: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability).
+  - Marks: Named in the v3 worklog (item R7) as cited in Akrami et al., "not yet read".
+  - Cited for: "the instability becomes negligible for large values of m", the open question of stability at equal Planck masses.
+  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology).
 
-## Wave dark matter and dwarf galaxies
+Added by the wiki from model memory (†), cited by no program document:
+
+- M. Fierz, W. Pauli (1939)†: the mass term for free fields of spin 2 and higher; D. G. Boulware, S. Deser (1972)†: the ghost of generic nonlinear massive gravity; P. van Nieuwenhuizen (1973)†: ghost-free quadratic Lagrangians for a symmetric tensor. The documents name Fierz–Pauli and Boulware–Deser throughout without a reference. Cited on: [The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli).
+- C. de Rham, G. Gabadadze (2010)†: the potential constructed order by order in the helicity-0 limit. Cited on: [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity).
+- K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. 84, 671 (2012), arXiv:1105.3735†; C. de Rham, "Massive gravity," Living Rev. Relativ. (2014)†: reviews of massive gravity. Cited on: [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs), [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing), [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity), [The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli).
+- N. Arkani-Hamed, H. Georgi, M. D. Schwartz, "Effective field theory for massive gravitons and gravity in theory space," Annals of Physics 305, 96 (2003), hep-th/0210184†: Stückelberg fields for massive gravity. Cited on: [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs), [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs), [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).
+- C. J. Isham, A. Salam, J. Strathdee (1971)†: an early theory of two interacting dynamical metrics. Cited on: [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric).
+- S. Deser and R. I. Nepomechie (1984)†, on gauge invariance and masslessness of fields on de Sitter space; S. Deser and A. Waldron (2001)†, on partial masslessness of higher-spin fields; S. F. Hassan, A. Schmidt-May and M. von Strauss (2012)†, on partially massless bimetric gravity. Cited on: [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity).
+- E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Heavy spin-2 Dark Matter" (2016)†: the companion paper on the heavy spin-2 particle as dark matter, which flag 20 identifies as arXiv:1607.03497, the number #11 attaches to [23]. Cited on: [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter), [Open: the † literature battery (OP10)](/wiki/method/literature-battery).
+- L. Marzola, M. Raidal, F. R. Urban, "Oscillating spin-2 dark matter" (2018)†: homogeneous oscillations of a massive spin-2 field. Cited on: [Bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter).
+- I. G. Macdonald, *Symmetric Functions and Hall Polynomials* (1979; second edition 1995)†: elementary symmetric polynomials, power sums and Newton's identities. Cited on: [Elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials).
+- S. Weinberg, "The cosmological constant problem," Rev. Mod. Phys. 61, 1 (1989)†, the classic review; J. Martin (2012)†, a more recent review. Cited on: [The cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem).
+
+## Maximum force and maximal acceleration
+
+#13 marks all four of its references †; its [3] and [4] are Born's papers, listed in [the first section](#born-reciprocity-and-curved-momentum-space).
+
+- **Gibbons 2002; Schiller 2005.** G. W. Gibbons, "The maximum tension principle in general relativity," Found. Phys. 32, 1891 (2002), hep-th/0210109; C. Schiller, "General relativity and cosmology derived from principle of maximum force," Int. J. Theor. Phys. 44, 1629 (2005).
+  - Marks: #13 [1]†. `HANDOFF.md` §2 names the "Gibbons–Schiller maximum-force conjecture" without a reference.
+  - Cited for: A maximum force c⁴/4G conjectured within general relativity as the "maximum tension principle", with a companion maximum luminosity c⁵/4G approached by binary black-hole mergers (#13 §1, §7). #13 notes the conjecture's contested status [T] without citing the dispute, and leaves its own factor of 4 open [O].
+  - Cited on: [Conjugate special relativity](/wiki/conjugate-relativity), [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force), [Maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [The handoff document](/wiki/history/documents/handoff).
+- **Caianiello 1981.** E. R. Caianiello, "Is there a maximal acceleration?" Lett. Nuovo Cim. 32, 65 (1981).
+  - Marks: #13 [2]†.
+  - Cited for: A maximal acceleration from a phase-space metric (#13 §1, §7).
+  - Cited on: [Conjugate special relativity](/wiki/conjugate-relativity), [Maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures), [Open: the † literature battery (OP10)](/wiki/method/literature-battery).
+
+## Wave dark matter
 
 - **Levkov, Panin and Tkachev 2018, 2017.** D. G. Levkov, A. G. Panin, I. I. Tkachev, "Gravitational Bose–Einstein condensation in the kinetic regime," Phys. Rev. Lett. 121, 151301 (2018); "Relativistic axions from collapsing Bose stars," Phys. Rev. Lett. 118, 011301 (2017).
-  - Marks: #11 [13]†. #3 cites the gravitational rate as "[T: LPT]", the initials of Levkov–Panin–Tkachev; #4 cites the collapse as an "LPT 2017-type result [T]"; #9 §7 writes "LPT-style [T]".
-  - Cited for: Bose-enhanced kinetic condensation, the model for the gated rate (#11 §9; #3); the gravitational condensation rate Γ_gr (#3); the t^{1/2} slowdown of condensate growth and the bosenova (#4). Calibrating the gated rate's coefficients against their numerics is an open to-do (#3).
-  - Wiki: [Wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics), [Attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates), [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
+  - Marks: #11 [13]†. Calc note #3 cites the gravitational rate as "[T: LPT]", LPT being Levkov–Panin–Tkachev; #4 cites the collapse as an "LPT 2017-type result [T]"; #9 §7 writes "LPT-style [T]", and #9 §10 item 8 lists "LPT coefficient calibration" among the literature checks still to do.
+  - Cited for: Bose-enhanced kinetic condensation, the model for the gated rate, "LPT-style [13†]; coefficients [O]" (#11 §9 (ii); #3); the gravitational condensation rate (#3); the growth of the condensate and the bosenova collapse cycle (#4). Calibrating the gated rate's coefficients against their numerics is "a flagged to-do" (#3).
+  - Cited on: [Dark matter](/wiki/dark-matter), [The net theorem: clumping is nowhere mandatory](/wiki/dark-matter/momentum-clumping/net-theorem), [The wave island](/wiki/dark-matter/momentum-clumping/wave-island), [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), [Wave dark matter](/wiki/dark-matter/wave-dark-matter), [Attractive condensates: critical mass and the bosenova](/wiki/dark-matter/wave-dark-matter/attractive-condensates), [Wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics), [Row 3: the island discriminant](/wiki/predictions/island-discriminant), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [The three debts](/wiki/history/debts), [The Debt-3 calc notes (#2–#4)](/wiki/history/documents/debt-3-notes).
 - **Chavanis 2011.** P.-H. Chavanis, "Mass–radius relation of self-gravitating Bose–Einstein condensates with attractive self-interaction," Phys. Rev. D 84, 043531 (2011), arXiv:1103.2050.
-  - Marks: #11 [14]†; #3 cites "[T: dilute-boson-star bound, Chavanis-type]".
-  - Cited for: the critical mass M_crit above which an attractive condensate collapses (#11 §9).
-  - Wiki: [Attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates), [Obituary: Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a).
+  - Marks: #11 [14]†; calc note #3 cites "[T: dilute-boson-star bound, Chavanis-type]".
+  - Cited for: The critical mass of an attractive condensate, above which it collapses: the endpoint "cycles above M_crit ≈ 2.9×10⁻³⁰(m/eV)^{−7/4} M_⊙ [14†]" (#11 §9 (ii)).
+  - Cited on: [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), [Attractive condensates: critical mass and the bosenova](/wiki/dark-matter/wave-dark-matter/attractive-condensates).
 - **Dalal and Kravtsov 2022.** N. Dalal, A. Kravtsov, "Excluding fuzzy dark matter with sizes and stellar kinematics of ultrafaint dwarf galaxies," Phys. Rev. D 106, 063517 (2022), arXiv:2203.05750.
-  - Marks: #11 [15]†. #4 cites it as "[T — bound ≈ 3×10⁻¹⁹ eV; verify exact figure before publication]" and #9 §7 as "[T — verify figure]". #11 does not quote the figure.
-  - Cited for: the lower bound on the mass of wave dark matter from ultra-faint dwarfs, which closes the wave island's light-mass escape (#11 §9; #4).
-  - Wiki: [Bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds), [Obituary: Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a).
+  - Marks: #11 [15]†. Calc note #4 cites it as "[T — bound ≈ 3×10⁻¹⁹ eV; verify exact figure before publication]", and #9 §7 as "[T — verify figure]"; #9 §10 item 8 lists the "Dalal–Kravtsov exact bound [O]". #11 does not quote the figure.
+  - Cited for: The lower bound on the mass of wave dark matter from ultra-faint dwarf galaxies, which closes the light-mass escape of the wave island: "the light-mass escape is closed independently [15†, Lyman-α]" (#11 §9 (ii); #4).
+  - Cited on: [The net theorem: clumping is nowhere mandatory](/wiki/dark-matter/momentum-clumping/net-theorem), [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), [Wave dark matter](/wiki/dark-matter/wave-dark-matter), [Bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [The Debt-3 calc notes (#2–#4)](/wiki/history/documents/debt-3-notes).
+
+Added by the wiki from model memory (†), cited by no program document:
+
+- W. Hu, R. Barkana, A. Gruzinov, "Fuzzy cold dark matter," Phys. Rev. Lett. (2000)†: dark matter as an ultralight wave field. Cited on: [Bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds), [Occupation number: particles or waves](/wiki/dark-matter/wave-dark-matter/occupation-number).
+- L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, "Ultralight scalars as cosmological dark matter," Phys. Rev. D (2017)†: the wave regime, granules and their dynamical effects; L. Hui, "Wave dark matter," Annu. Rev. Astron. Astrophys. (2021)†: a review. Cited on: [Occupation number: particles or waves](/wiki/dark-matter/wave-dark-matter/occupation-number).
+- V. Iršič, M. Viel, M. G. Haehnelt, J. S. Bolton, G. D. Becker, "First constraints on fuzzy dark matter from Lyman-α forest data and hydrodynamical simulations," Phys. Rev. Lett. (2017)†; E. Armengaud et al., Mon. Not. R. Astron. Soc. (2017)†: Lyman-α forest bounds on the mass of light bosonic dark matter, a limit the documents name without a reference. Cited on: [Bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds).
+- V. E. Zakharov, V. S. L'vov, G. Falkovich, *Kolmogorov Spectra of Turbulence I: Wave Turbulence* (1992)†: kinetic equations for interacting waves. Cited on: [Wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics).
+- H.-Y. Schive, T. Chiueh, T. Broadhurst, "Cosmic structure as the quantum interference of a coherent dark wave," Nature Physics (2014)†: solitonic cores in simulations of fuzzy dark matter. Cited on: [Wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics).
+- E. A. Donley et al., "Dynamics of collapsing and exploding Bose–Einstein condensates," Nature (2001)†: the laboratory bosenova. Cited on: [Attractive condensates: critical mass and the bosenova](/wiki/dark-matter/wave-dark-matter/attractive-condensates).
+- J. Preskill, M. B. Wise, F. Wilczek, "Cosmology of the invisible axion," Phys. Lett. B (1983)†; L. F. Abbott, P. Sikivie, "A cosmological bound on the invisible axion," Phys. Lett. B (1983)†; M. Dine, W. Fischler, "The not-so-harmless axion," Phys. Lett. B (1983)†: the misalignment mechanism; D. J. E. Marsh, "Axion cosmology," Phys. Rep. (2016)†: a review, including ultralight axion-like fields. Cited on: [The misalignment mechanism](/wiki/dark-matter/wave-dark-matter/misalignment-mechanism).
+
+## Halos, dwarf galaxies and collisionless dynamics
+
+The program's documents cite no source for the halo astrophysics and kinetic theory they use; the observations they name are listed under [named without a reference](#named-without-a-reference). Every work in this section was added by the wiki from model memory.
+
+- B. Moore, Nature (1994)†; R. A. Flores, J. R. Primack, Astrophys. J. Lett. (1994)†: the cusp–core problem in dwarf rotation curves; J. F. Navarro, C. S. Frenk, S. D. M. White, "A universal density profile from hierarchical clustering," Astrophys. J. (1997)†: the cuspy profile of simulated halos. Cited on: [Dwarf galaxies: cores and ultra-faint dwarfs](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
+- A. Pontzen, F. Governato, "How supernova feedback turns dark matter cusps into cores," Mon. Not. R. Astron. Soc. (2012)†; J. S. Bullock, M. Boylan-Kolchin, "Small-scale challenges to the ΛCDM paradigm," Annu. Rev. Astron. Astrophys. (2017)†, a review. Cited on: [Dwarf galaxies: cores and ultra-faint dwarfs](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
+- V. Belokurov et al., Astrophys. J. (2007)†: the discovery of Segue 1; J. D. Simon et al., "A complete spectroscopic survey of the Milky Way satellite Segue 1: the darkest galaxy," Astrophys. J. (2011)†; J. D. Simon, "The faintest galaxies," Annu. Rev. Astron. Astrophys. (2019)†: a review of the ultra-faint dwarfs. Cited on: [Dwarf galaxies: cores and ultra-faint dwarfs](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
+- S. Chandrasekhar, "Dynamical friction," Astrophys. J. (1943)†: the dynamical-friction formula; S. D. Tremaine, Astrophys. J. (1976)†: globular clusters sinking in dwarf galaxies, the origin of the Fornax timing problem; T. Goerdt, B. Moore, J. I. Read, J. Stadel, M. Zemp, "Does the Fornax dwarf spheroidal have a central cusp or core?," Mon. Not. R. Astron. Soc. (2006)†; J. I. Read et al., "Dynamical friction in constant density cores," Mon. Not. R. Astron. Soc. (2006)†: core stalling. Cited on: [Halo-substructure probes: streams and dynamical friction](/wiki/dark-matter/halo-astrophysics/halo-substructure), [Obituary: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction).
+- M. Odenkirchen et al., Astrophys. J. Lett. (2001)†: the tidal tails of Palomar 5; C. J. Grillmair, O. Dionatos, Astrophys. J. Lett. (2006)†: the discovery of GD-1; R. G. Carlberg, Astrophys. J. (2012)†; D. Erkal, V. Belokurov, Mon. Not. R. Astron. Soc. (2015)†: gaps in streams from subhalo encounters. Cited on: [Halo-substructure probes: streams and dynamical friction](/wiki/dark-matter/halo-astrophysics/halo-substructure).
+- D. N. Spergel, P. J. Steinhardt, "Observational evidence for self-interacting cold dark matter," Phys. Rev. Lett. (2000)†: the proposal; S. Tulin, H.-B. Yu, K. M. Zurek, "Beyond collisionless dark matter: particle physics dynamics for dark matter halo structure," Phys. Rev. D (2013)†; S. Tulin, H.-B. Yu, "Dark matter self-interactions and small scale structure," Phys. Rep. (2018)†, a review. Cited on: [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter).
+- M. Markevitch et al., Astrophys. J. (2004)†; D. Clowe et al., "A direct empirical proof of the existence of dark matter," Astrophys. J. Lett. (2006)†: the Bullet Cluster. Cited on: [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter).
+- D. Lynden-Bell, R. Wood (1968)†: the gravothermal catastrophe; S. Balberg, S. L. Shapiro, S. Inagaki, "Self-interacting dark matter halos and the gravothermal catastrophe," Astrophys. J. (2002)†. Cited on: [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter).
+- A. A. Vlasov (1938)†: the collisionless kinetic equation; L. D. Landau (1946)†: collisionless damping; J. H. Jeans (1902)†: the gravitational instability of a uniform medium; L. Boltzmann (1872)†: the kinetic equation with collisions and the H-theorem; B. D. Fried and S. D. Conte, *The Plasma Dispersion Function* (1961)†; J. Binney and S. Tremaine, *Galactic Dynamics*†. Cited on: [Vlasov stability and Landau damping](/wiki/dark-matter/momentum-clumping/vlasov-stability).
+
+## Early-universe cosmology and relic abundance
+
+- **Kolb and Turner 1990.** E. W. Kolb, M. S. Turner, The Early Universe (Addison-Wesley, 1990).
+  - Marks: #14 [17], unmarked. The v3 worklog lists it as not live-checked, "a textbook, cited for the freeze-out formula", and the round-3 pre-registration named it one of the two likeliest citation problems.
+  - Cited for: Standard thermal freeze-out, applied to the hidden W′ bosons (#14 §3). `verify/soliton_obituary.py` codes its freeze-out formula as "Kolb & Turner eqs. 5.43-5.45".
+  - Checks: The round-3 referee resolved it as "Front. Phys. 69 (1990), Addison-Wesley" and recorded it as "standard; not checked page-level" (Step 1).
+  - Cited on: [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance), [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure), [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution), [Gravitational waves from phase transitions](/wiki/cosmology/early-universe/phase-transition-gravitational-waves), [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era), [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration), [Round-3 pre-registration](/wiki/method/review/round-3/preregistration), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
+- **Planck 2018.** Planck Collaboration, Astron. Astrophys. 641, A6 (2020), arXiv:1807.06209.
+  - Marks: #14 [23], unmarked. The v3 worklog's first estimate used a bound of 0.3, "an approximate Planck 2018 value, from memory †". `verify/soliton_obituary.py` takes "PDG and Planck 2018 values" for its constants, PDG being the Particle Data Group.
+  - Cited for: The bound on extra relativistic species, written in #14 §4 as N_eff = 2.99 +- 0.34 at 95%.
+  - Checks: The round-3 referee found that eq. (67b) gives "N_eff = 2.99 +0.34 -0.33" at 95% and that Planck uses N_eff,SM = 3.046 for the Standard Model value (Step 1). Flag 22 records the asymmetric interval and that nothing changes; flag 34 records that the gate's constants are typed in, not retrieved.
+  - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era), [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step), [The blind-review protocol and verdict scale](/wiki/method/review/review-protocol), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
+- **Gangui (astro-ph/0110285).** A. Gangui, astro-ph/0110285, p. 14, as the round-3 referee cites it.
+  - Marks: Retrieved by the round-3 referee; one of the independent anchors of `verify/soliton_obituary.py`; not cited in #11.
+  - Cited for: "about one monopole per Hubble volume ... n_monop/s ~ 100 (T_c/m_P)^3", the normalization against which the referee found #14's Kibble count too low (Steps 1–2). The adjudication adopted the relation as a replacement anchor without naming its source (lesson 2).
+  - Cited on: [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization), [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era), [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration), [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [Independent anchors](/wiki/method/verification/independent-anchors), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
+
+Added by the wiki from model memory (†), cited by no program document:
+
+- P. Gondolo and G. Gelmini (1991)†: the thermal average and the freeze-out calculation done carefully; E. D. Carlson, M. E. Machacek and L. J. Hall (1992)†: the cannibal scenario, an abundance set by number-changing self-interactions. Cited on: [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance).
+- A. D. Sakharov (1967)†: the conditions for generating a baryon asymmetry. The lab notebook dates the maturity of baryogenesis to 1966 without a reference; flag 18 in `review/wiki-build-flags.md` notes the usual dating of 1967, itself from model memory. Cited on: [Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis), [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance).
+- D. E. Kaplan, M. A. Luty and K. M. Zurek (2009)†: asymmetric dark matter; L. J. Hall, K. Jedamzik, J. March-Russell and S. M. West (2010)†: freeze-in. Cited on: [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance).
+- A. H. Guth, Phys. Rev. D 23, 347 (1981)†; A. D. Linde, Phys. Lett. B 108, 389 (1982)†; A. Albrecht, P. J. Steinhardt, Phys. Rev. Lett. 48, 1220 (1982)†: inflation and its slow-roll form; Guth also for the monopole problem as one of inflation's motivations. Cited on: [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution), [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem).
+- R. J. Scherrer, M. S. Turner, Phys. Rev. D 31, 681 (1985)†: entropy production by decaying particles. Cited on: [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution).
+- M. Kamionkowski, A. Kosowsky, M. S. Turner, Phys. Rev. D 49, 2837 (1994)†: gravitational radiation from first-order transitions and its redshifted peak frequency; M. Hindmarsh, S. J. Huber, K. Rummukainen, D. J. Weir, Phys. Rev. Lett. 112, 041301 (2014)†: sound waves as the dominant source; C. Caprini et al., JCAP 04 (2016) 001†: a review of the signal and its detectability; A. A. Starobinsky, JETP Lett. 30, 682 (1979)†: the primordial gravitational-wave background. Cited on: [Gravitational waves from phase transitions](/wiki/cosmology/early-universe/phase-transition-gravitational-waves).
+- G. Mangano et al. (2005)†: the earlier calculation behind 3.046, the Standard Model value of N_eff that Planck uses; the referee's 3.044 is listed with [its constants](#literature-the-round-3-referee-added). Cited on: [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era).
+- A. Friedmann (1922)†; G. Lemaître (1927)†; H. P. Robertson (1935)†; A. G. Walker (1937)†: the homogeneous, isotropic solutions and their metric; B. S. DeWitt, "Quantum theory of gravity. I. The canonical theory" (1967)†; C. W. Misner, "Quantum cosmology. I" (1969)†: superspace and minisuperspace; S. Weinberg, *Cosmology* (Oxford University Press, 2008)†: a textbook treatment. Cited on: [Friedmann cosmology and minisuperspace](/wiki/cosmology/scale-factor-duality/friedmann-cosmology).
+- Veneziano (1991)†; Tseytlin (1991)†: scale-factor duality, which maps a solution with scale factor a(t) to one with 1/a(t), together with a shift of the dilaton field. Cited on: [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint).
 
 ## Dark energy and the DESI data
 
 - **Gialamas et al. (arXiv:2506.21542).** I. D. Gialamas, G. Hütsi, M. Raidal, J. Urrutia, M. Vasar, H. Veermäe, "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542.
   - Marks: #11 [19][S]. The lab notebook (#1 §7) cites it as [T] with the year 2025, and #9 §8 as "[T — refresh citations before publication]".
-  - Cited for: non-phantom quintessence fits that remain compatible with the data, and the high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum fits (#11 §10). #1 §7 gives that preference as 93.8%, a figure found only in the lab notebook.
-  - Wiki: [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing), [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion).
-- **Ureña-López et al. (arXiv:2503.20178).** L. A. Ureña-López et al. (DESI), an axion-quintessence analysis of the survey's data, arXiv:2503.20178; #11 gives a descriptive title.
+  - Cited for: Non-phantom quintessence fits that remain compatible with the data, the point on which the framework survives (#11 §10), and the "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]" (#11 §10). #1 §7 gives that preference as 93.8%, a figure found only in the lab notebook.
+  - Cited on: [Assessment: a live research program](/wiki/program/assessment), [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing), [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound), [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign), [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence), [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), [Provenance tags and citation marks](/wiki/method/provenance-tags).
+- **Ureña-López et al. (arXiv:2503.20178).** L. A. Ureña-López et al. (DESI), axion-quintessence analysis of DESI data, arXiv:2503.20178; #11 describes the paper instead of giving its title.
   - Marks: #11 [20][S]; #1 §7 cites it as [T], dated 2025; #9 §8 as "[T — refresh citations before publication]".
-  - Cited for: fits of hilltop and axion-like quintessence, the class τ belongs to, to the survey's data (#11 §10; #1 §7).
-  - Wiki: [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence), [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence).
-- **The DESI collaboration 2025 (Data Release 2).** DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025). DESI is the Dark Energy Spectroscopic Instrument, and DR2 its Data Release 2.
-  - Marks: #11 [21][S]. `HANDOFF.md` §2 refers to "DESI DR1/DR2 drift hints" (Data Release 1 and Data Release 2), and #1 §7 to "DESI DR1/DR2" and "DESI 2025" [T], without saying which papers.
-  - Cited for: in every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4", a preference "rather independent of parametrization choices"; and w(z) is inferred from distances rather than observed (#11 §10). The round-3 referee quoted the same result against #14's dark-energy remark (ruling 11).
-  - Wiki: [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing), [DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi), [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift).
+  - Cited for: Fits of hilltop and axion-like quintessence, the class τ belongs to, to the survey's data (#1 §7; #11 §10).
+  - Cited on: [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing), [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign), [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence), [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion).
+- **DESI Data Release 2 (2025).** DESI Collaboration (M. Abdul-Karim et al.), "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints," arXiv:2503.14738 (2025). DESI is the Dark Energy Spectroscopic Instrument, and DR2 its Data Release 2.
+  - Marks: #11 [21][S] since v2.1. Version 2.0 listed it as "[21]† DESI Collaboration, DR2 BAO cosmology results (2025), arXiv:2503.14738", BAO being baryon acoustic oscillations; the v2.1 commit records "References [21] upgraded to [S]" (repository history, commits 008c3ee and e1c1f67). `HANDOFF.md` §2 refers to "DESI DR1/DR2 drift hints", DR1 and DR2 being Data Release 1 and Data Release 2, and #1 §7 to "DESI DR1/DR2" and "DESI 2025" [T], without naming papers.
+  - Cited for: In every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4", a preference "rather independent of parametrization choices made in the analysis"; and w(z) is inferred from distances rather than observed (#11 §10).
+  - Checks: The v2.1 commit records the quotations as "verified in the paper". The round-3 referee quoted the same result against #14's dark-energy remark (Step 4(c) item 11), which ruling 11 accepted. During the wiki build a live search found that DR2 already covers three years of operations, against the handoff's "three-year data" for the next release (flag 26); the mark is unaffected.
+  - Cited on: [Assessment: a live research program](/wiki/program/assessment), [DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi), [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing), [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound), [The phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide), [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign), [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence), [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Provenance tags and citation marks](/wiki/method/provenance-tags), [Timeline](/wiki/history/timeline).
 
-## Monopoles, duality and the charge lattice
+Added by the wiki from model memory (†), cited by no program document:
+
+- Ratra and Peebles†; Wetterich†: quintessence, a scalar field in place of the cosmological constant. Cited on: [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence).
+- Caldwell and Linder†: the thawing and freezing classes of quintessence; Dutta and Scherrer†: hilltop quintessence; Frieman, Hill, Stebbins and Waga†: the periodic potential of an axion-like field. Cited on: [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence).
+- Chevallier and Polarski†; Linder†: the two-parameter form w(a) = w₀ + wₐ(1 − a). Cited on: [Quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence).
+- Caldwell†: the phantom regime w < −1 and a scalar with a wrong-sign kinetic term; Hawking and Ellis†: the energy conditions; Carroll, Hoffman and Trodden†; Cline, Jeon and Moore†: the low cutoff a ghost field needs. Cited on: [The phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide).
+- Vikman†: no single field crosses w = −1 smoothly; Feng, Wang and Zhang†: quintom models; Boisseau, Esposito-Farèse, Polarski and Starobinsky†: an apparent w < −1 from modified gravity; Das, Corasaniti and Khoury†: an apparent w < −1 from interacting dark energy; Caldwell, Kamionkowski and Weinberg†: the big rip. Cited on: [The phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide).
+- Eisenstein and Hu†; Peebles and Yu†; Sunyaev and Zeldovich†: the sound horizon, the ruler of baryon acoustic oscillations; Eisenstein et al.† and Cole et al.†: its first detections in galaxy surveys. Cited on: [DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi).
+- Adelberger, Heckel and Nelson†: a review of tests for a fifth force; Carroll†: couplings between quintessence and ordinary matter; Moody and Wilczek†: spin-dependent forces from a pseudoscalar. Cited on: [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
+
+## Monopoles, electric–magnetic duality and the charge lattice
 
 - **Dirac 1931; Schwinger 1966; Zwanziger 1968.** P. A. M. Dirac, Proc. R. Soc. Lond. A 133, 60 (1931); J. Schwinger, Phys. Rev. 144, 1087 (1966); D. Zwanziger, Phys. Rev. 176, 1489 (1968).
-  - Marks: #11 [17]†; #11 §11.2 also cites "[17†-adjacent; 18†]" for Montonen–Olive duality. #14 [7] lists Dirac and Zwanziger only, unmarked. The round-3 referee found that #14's citation supports the antisymmetric pairing, with a normalization mismatch (Zwanziger's abstract states the pairing in 4πℤ; the manuscript writes 2πℤ, Dirac's normalization). It added that "charge space is symplectic" is interpretation and that Schwinger is named in the text but not cited; ruling 12 accepted these minor issues.
-  - Cited for: the Dirac–Schwinger–Zwanziger (DSZ) pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ and the symplectic charge lattice (#11 §11.3); Dirac's condition (#11 §11.2).
-  - Wiki: [Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization), [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice), [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family).
+  - Marks: #11 [17]†; #14 [7], unmarked, which lists Dirac and Zwanziger only. The popular article #12 dates Dirac's condition to 1931.
+  - Cited for: The Dirac–Schwinger–Zwanziger (DSZ) pairing ⟨q, q′⟩ = e₁g₂ − e₂g₁ ∈ 2πℤ, "an antisymmetric integer form: **the charge lattice is a symplectic space** [17†]" (#11 §11.3 and abstract); beside Montonen–Olive duality in #11 §11.2, as "[17†-adjacent; 18†]", a qualifier #11 does not explain; in #14 §2, the pairing and the monopoles' coupling by Dirac quantization.
+  - Checks: The round-3 referee, auditing #14's [7], found that it supports the antisymmetric pairing, with a normalization mismatch: Zwanziger's abstract states the pairing in 4πℤ, where #14 writes 2πℤ, Dirac's normalization. It added that "charge space is symplectic" is interpretation, and that Schwinger is named in #14's text but not cited. Ruling 12 accepted these as minor citation issues.
+  - Cited on: [Founding suppositions and their fates](/wiki/program/founding-suppositions), [The symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form), [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification), [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family), [Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization), [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Montonen and Olive 1977; Seiberg 1995.** C. Montonen, D. Olive, "Magnetic monopoles as gauge particles?" Phys. Lett. B 72, 117 (1977); N. Seiberg, "Electric–magnetic duality in supersymmetric non-abelian gauge theories," Nucl. Phys. B 435, 129 (1995), hep-th/9411149.
   - Marks: #11 [18]†.
-  - Cited for: Montonen–Olive duality, exact in maximally supersymmetric Yang–Mills theory, and "magnetic quarks" as standard vocabulary via Seiberg duality (#11 §11.2).
-  - Wiki: [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality), [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family).
+  - Cited for: Montonen–Olive duality, "exact in maximally supersymmetric Yang–Mills", and "magnetic quarks" as "standard vocabulary via Seiberg duality [18†]" (#11 §11.2).
+  - Checks: The Montonen–Olive paper is also #14's [8], below, which the round-3 referee checked; no document records a check of Seiberg's paper.
+  - Cited on: [Founding suppositions and their fates](/wiki/program/founding-suppositions), [The dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor), [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family), [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality).
 - **Montonen and Olive 1977; Osborn 1979; Harvey.** C. Montonen, D. Olive, Phys. Lett. B 72, 117 (1977); H. Osborn, Phys. Lett. B 83, 321 (1979); J. A. Harvey, "Magnetic monopoles, duality and supersymmetry," hep-th/9603086.
-  - Marks: #14 [8], unmarked. The v3 worklog notes that Harvey's lectures are conference proceedings, not a journal article. The round-3 referee found the references support the claim: exact duality has been tested non-trivially only in N = 4 super-Yang–Mills and special finite N = 2 theories, and Harvey sees no reason for the duality of the spectrum to survive quantum corrections without supersymmetry.
-  - Cited for: the burden of exactness on any use of electric–magnetic duality outside supersymmetry (#14 §2; the v3 worklog, R1).
-  - Wiki: [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality).
-- **'t Hooft and Mandelstam.** No list entry.
-  - Marks: † in #11 §11.2's text, "[T, 't Hooft–Mandelstam†]".
-  - Cited for: the dual-superconductor picture of confinement.
-  - Wiki: [The dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor).
+  - Marks: #14 [8], unmarked. The v3 worklog notes that Harvey's lectures are conference proceedings, not a journal article.
+  - Cited for: The burden of exactness on any use of electric–magnetic duality outside supersymmetry: exact duality has been tested only in N = 4 super-Yang–Mills and certain finite N = 2 theories, with no reason to expect it to survive quantum corrections without supersymmetry (#14 §2; worklog item R1).
+  - Checks: The round-3 referee found that the references support the claim and quoted Harvey: "there is no reason to think that the duality of the spectrum should be maintained by quantum corrections" (Step 1).
+  - Cited on: [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **'t Hooft and Mandelstam (no list entry).** No entry in any reference list.
+  - Marks: † in #11 §11.2's text: "[T, 't Hooft–Mandelstam†]".
+  - Cited for: The dual-superconductor picture of confinement, "the leading mechanism for why free quarks are never seen" (#11 §11.2). The papers meant must be identified before the † battery can check them.
+  - Cited on: [Founding suppositions and their fates](/wiki/program/founding-suppositions), [The dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor), [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family), [Open: the † literature battery (OP10)](/wiki/method/literature-battery).
 - **Xu et al. 2015; Lv et al. 2015.** S.-Y. Xu et al., "Discovery of a Weyl fermion semimetal," Science 349, 613 (2015); B. Q. Lv et al., Phys. Rev. X 5, 031013 (2015).
   - Marks: #11 [16]†.
-  - Cited for: Weyl semimetals, which host catalogued families of momentum-space Berry-curvature monopoles (#11 §11.1).
-  - Wiki: [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null), [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles).
-- **'t Hooft 1974; Polyakov 1974.** G. 't Hooft, Nucl. Phys. B 79, 276 (1974); A. M. Polyakov, J. Exp. Theor. Phys. Lett. 20, 194 (1974).
-  - Marks: #14 [15], unmarked; the round-3 referee found that it supports the claim. The v3 worklog cites the pair for π₂(SU(2)/U(1)) = ℤ.
-  - Cited for: the topologically stable monopoles of SU(2) broken to U(1) (#14 §3).
-  - Wiki: [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole).
+  - Cited for: "Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux" (#11 §11.1).
+  - Cited on: [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles), [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation), [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null).
+- **'t Hooft 1974; Polyakov 1974.** G. 't Hooft, Nucl. Phys. B 79, 276 (1974); A. M. Polyakov, JETP Lett. 20, 194 (1974).
+  - Marks: #14 [15], unmarked; the v3 worklog cites the pair for π₂(SU(2)/U(1)) = ℤ (item R6).
+  - Cited for: The topologically stable monopoles of SU(2) broken to U(1) (#14 §3).
+  - Checks: The round-3 referee found that the pair supports the claim (Step 1).
+  - Cited on: [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Prasad and Sommerfield 1975; Bogomolny 1976.** M. K. Prasad, C. M. Sommerfield, Phys. Rev. Lett. 35, 760 (1975); E. B. Bogomolny, Sov. J. Nucl. Phys. 24, 449 (1976).
-  - Marks: #14 [16], unmarked. The round-3 referee found that it supports f = 1 in the Bogomolny–Prasad–Sommerfield limit, but that the value f ~ 1.79 at large self-coupling is not in it and is uncited; the referee checked that value numerically instead.
-  - Cited for: the monopole mass factor f in M = 4πf v/g_d (#14 §3).
-  - Wiki: [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole).
-- **Kibble 1976.** T. W. B. Kibble, J. Phys. A 9, 1387 (1976); its title, per the v3 worklog, is "Topology of Cosmic Domains and Strings".
-  - Marks: #14 [18], unmarked; the round-3 referee found that it supports the claim.
-  - Cited for: the Kibble mechanism (#14 §3).
-  - Wiki: [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization).
+  - Marks: #14 [16], unmarked; the v3 worklog records the pair as "verified on INSPIRE".
+  - Cited for: The factor f = 1 in the monopole mass M = 4πf v/g_d, in the Bogomolny–Prasad–Sommerfield (BPS) limit (#14 §3).
+  - Checks: The round-3 referee found that the pair supports f = 1, but that the value f ~ 1.79 at large self-coupling, which #14 also gives, is not in [16] and is uncited; it checked that value numerically instead (Steps 1–2).
+  - Cited on: [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **Kibble 1976.** T. W. B. Kibble, J. Phys. A 9, 1387 (1976); the v3 worklog gives its title as "Topology of Cosmic Domains and Strings".
+  - Marks: #14 [18], unmarked; the title is the worklog's correction.
+  - Cited for: The Kibble mechanism, by which defects form at a symmetry-breaking transition (#14 §3).
+  - Checks: The round-3 referee found that the abstract supports the claim (Step 1). Ruling 1 found #14's normalization of the count wrong and traced it to a misremembered formula ("My error came from misremembering the formula"), not to this reference.
+  - Cited on: [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Preskill 1979.** J. Preskill, Phys. Rev. Lett. 43, 1365 (1979).
-  - Marks: #14 [19], unmarked. `HANDOFF.md` §6 records that #14 v1 cited it inverted, which round 1 found and v2 fixed. The v3 worklog verified from a scan that annihilation cannot reduce n/T³ below ~10⁻¹⁰ at m ≈ 10¹⁶ GeV. The round-3 referee found that it supports the claim at the level of the abstract.
-  - Cited for: inefficient monopole–antimonopole annihilation for superheavy monopoles (#14 §3).
-  - Wiki: [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction).
+  - Marks: #14 [19], unmarked. `HANDOFF.md` §6 records that round 1 found the citation "inverted" in #14's first version, fixed in v2. The v3 worklog read the paper from a scan: annihilation "cannot reduce n/T³ below ~10⁻¹⁰ at m ≈ 10¹⁶ GeV".
+  - Cited for: Inefficient monopole–antimonopole annihilation for superheavy monopoles (#14 §3).
+  - Checks: The round-3 referee found support at the level of the abstract, and identified #14's strongly coupled regime as "exactly the Dirac-monopole case of Preskill 1979" (Step 4(a) item 3; ruling 10).
+  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [The soliton candidate (retired)](/wiki/dark-matter/candidates/soliton-candidate), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution), [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation), [Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization), [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [The measured referee failure mode](/wiki/method/review/referee-failure-mode), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [Review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
 - **Particle Data Group 2024; Turner, Parker and Bogdan 1982; Parker 1970.** Particle Data Group, Review of Particle Physics (2024), "Magnetic Monopoles" review (D. Milstead, E. J. Weinberg); M. S. Turner, E. N. Parker, T. J. Bogdan, Phys. Rev. D 26, 1296 (1982); E. N. Parker, Astrophys. J. 160, 383 (1970).
-  - Marks: #14 [20], unmarked. The v3 worklog: for the 10⁻¹⁵ value, cite the Particle Data Group review or Turner–Parker–Bogdan, not Parker 1970 alone; that value holds for M ≲ 10¹⁷ GeV. The round-3 referee found that the review's eq. (95.9) gives F < 10⁻¹⁵ cm⁻² sr⁻¹ s⁻¹ for M ≲ 10¹⁷ GeV, and that Turner–Parker–Bogdan's abstract quotes F ≲ 10⁻¹⁶ as the Parker limit; the manuscript follows the review.
-  - Cited for: the Parker bound on the monopole flux (#14 §4).
-  - Wiki: [Monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches), [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic).
-- **The Monopole, Astrophysics and Cosmic Ray Observatory 2002.** The collaboration (M. Ambrosio et al.), Eur. Phys. J. C 25, 511 (2002), hep-ex/0207020.
-  - Marks: #14 [21], unmarked. The round-3 referee found that it supports the figure exactly: a limit of 2.8×10⁻¹⁶ for m ≳ 10¹⁰ GeV and β > 10⁻⁴, with a global limit of 1.4×10⁻¹⁶. The v3 worklog chose the m ≳ 10¹⁰ GeV row for the 3×10¹³ GeV benchmark.
-  - Cited for: the direct search limit on the monopole flux (#14 §4).
-  - Wiki: [Monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches).
+  - Marks: #14 [20], unmarked. The v3 worklog: "For the 10⁻¹⁵ Parker value, cite PDG 2024 or Turner–Parker–Bogdan, PRD 26, 1296 (1982), not Parker 1970 alone. That value holds for M ≲ 10¹⁷ GeV."
+  - Cited for: The Parker bound on the monopole flux (#14 §4).
+  - Checks: The round-3 referee confirmed the review on the Particle Data Group's site and found that its eq. (95.9) supports the bound #14 uses; the abstract of Turner, Parker and Bogdan quotes "F <~ 1e-16" as the Parker limit instead, and #14 follows the review (Step 1).
+  - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [Monopole flux bounds: Parker and MACRO](/wiki/electric-magnetic-duality/monopoles/monopole-searches), [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **MACRO 2002.** MACRO Collaboration (M. Ambrosio et al.), Eur. Phys. J. C 25, 511 (2002), hep-ex/0207020. MACRO is the Monopole, Astrophysics and Cosmic Ray Observatory.
+  - Marks: #14 [21], unmarked. The v3 worklog chose the limit of the m ≳ 10¹⁰ GeV row, ≤ 2.8×10⁻¹⁶, for the 3×10¹³ GeV benchmark.
+  - Cited for: The direct-search limit on the monopole flux (#14 §4).
+  - Checks: The round-3 referee found that the paper's Table 2 supports "the 2.8e-16 figure exactly" (Step 1).
+  - Cited on: [Monopole flux bounds: Parker and MACRO](/wiki/electric-magnetic-duality/monopoles/monopole-searches), [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Adams et al. 1993.** F. C. Adams, M. Fatuzzo, K. Freese, G. Tarlé, R. Watkins, M. S. Turner, Phys. Rev. Lett. 70, 2511 (1993).
-  - Marks: #14 [22], unmarked. The v3 worklog checked the abstract only, the paper being paywalled; the round-3 referee found that the abstract gives F ≤ 10⁻¹⁶ (m/10¹⁷ GeV) cm⁻² s⁻¹ sr⁻¹ exactly.
-  - Cited for: the extended Parker bound (#14 §4).
-  - Wiki: [Monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches).
-- **Kobayashi and Perri 2023.** Phys. Rev. D 108, 083005 (2023), arXiv:2307.07553.
-  - Marks: retrieved for the v3 worklog (R3), which lists it among the new references for v3.
-  - Cited for: how the flux bounds scale with the monopole's charge, (g/g_D)⁻² at high mass and (g/g_D)⁻¹ at low mass.
-  - Wiki: [Monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches).
+  - Marks: #14 [22], unmarked. The v3 worklog checked only the abstract, the full text being paywalled.
+  - Cited for: The extended Parker bound (#14 §4; worklog item R3).
+  - Checks: The round-3 referee found that the abstract supports the bound exactly (Step 1).
+  - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [Monopole flux bounds: Parker and MACRO](/wiki/electric-magnetic-duality/monopoles/monopole-searches), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [Review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
+- **Kobayashi and Perri 2023.** Kobayashi–Perri, Phys. Rev. D 108, 083005 (2023), arXiv:2307.07553, as the v3 worklog gives it.
+  - Marks: Among the v3 worklog's new references for v3, retrieved by its literature report; not in #14's list.
+  - Cited for: How the flux bounds scale with the monopole's charge, "(g/g_D)⁻² at high mass, (g/g_D)⁻¹ at low mass" (worklog item R3).
+  - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [Monopole flux bounds: Parker and MACRO](/wiki/electric-magnetic-duality/monopoles/monopole-searches).
+
+Added by the wiki from model memory (†), cited by no program document:
+
+- T. T. Wu, C. N. Yang (1975)†: the monopole potential on two patches; J. J. Thomson†: the angular momentum of the field of a charge and a monopole. Cited on: [Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization).
+- E. Witten, "Dyons of charge eθ/2π," Phys. Lett. B 86, 283 (1979)†: the Witten effect, the electric charge a monopole acquires in a theory with a vacuum angle θ. Cited on: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization).
+- H. Georgi, S. L. Glashow (1972)†: the SU(2) model with an adjoint scalar; B. Julia, A. Zee (1975)†: dyons in the same model; E. J. Weinberg, *Classical Solutions in Quantum Field Theory*†: monopoles, the Bogomolny bound and the homotopy classification. Cited on: [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole).
+- W. H. Zurek (1985)†: the freeze-out of the correlation length at a continuous transition; A. Vilenkin, E. P. S. Shellard, *Cosmic Strings and Other Topological Defects*†: defect formation. Cited on: [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism).
+- Ya. B. Zel'dovich, M. Yu. Khlopov (1978)†: the overabundance of grand-unified monopoles; Guth (1981)† is under [early-universe cosmology](#early-universe-cosmology-and-relic-abundance). Cited on: [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem).
+- A. Sen (1994)†: evidence for S-duality in N = 4 theory from bound states of monopoles; N. Seiberg and E. Witten (1994)†: the exact low-energy solution of N = 2 Yang–Mills theory, with monopole condensation and confinement after a breaking to N = 1; C. M. Hull and P. K. Townsend (1995)†: U-duality. Cited on: [The dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor), [S-duality and Montonen–Olive](/wiki/electric-magnetic-duality/s-duality), [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure).
+- Y. Nambu (1974)†; S. Mandelstam (1976)†; G. 't Hooft (1976, 1981)†: confinement as a dual Meissner effect, and 't Hooft's abelian gauge-fixing. The page lists them beside #11's "'t Hooft–Mandelstam†", which names no paper. Cited on: [The dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor).
+- J. Bardeen, L. N. Cooper and J. R. Schrieffer (1957)†: the theory of superconductivity; A. A. Abrikosov (1957)†: flux tubes in type II superconductors. Cited on: [The dual superconductor](/wiki/electric-magnetic-duality/dual-superconductor).
 
 ## Hidden sectors and kinetic mixing
 
 - **Gherghetta, Kersten, Olive and Pospelov 2019.** T. Gherghetta, J. Kersten, K. Olive, M. Pospelov, "Evaluating the price of tiny kinetic mixing," Phys. Rev. D 100, 095001 (2019), arXiv:1909.00696.
-  - Marks: #11 [27][S]; #14 [9], unmarked. The round-3 referee found that it supports both parts of the claim, and noted that the paper presents ~10⁻¹³ as a floor ("could be as large as"), consistent with "≲" only in the sense "up to". #11's wording stands; the reading is flagged as unresolved.
-  - Cited for: kinetic mixing induced by gravity alone, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ (#11 §4, postulate P4; #14 §2(a); round-3 Decision 1).
-  - Wiki: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter).
+  - Marks: #11 [27][S]; #14 [9], unmarked; v3 worklog item R4.
+  - Cited for: Kinetic mixing induced by gravity alone, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ (#11 §4, postulate P4 taken strictly; #14 §2(a); round-3 Decision 1).
+  - Checks: The round-3 referee found that it supports both parts of the claim, and noted that the paper presents ~10⁻¹³ as a floor ("could be as large as"), consistent with "≲" only in the sense "up to". #11's wording stands; the reading is recorded as [unresolved](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing#an-unresolved-reading-ceiling-or-floor).
+  - Cited on: [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter), [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles), [Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator), [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles), [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification), [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null), [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The checkpoint: #9 to #11 v2.2](/wiki/history/documents/checkpoint), [Conflicts between sources](/wiki/history/documents/source-conflicts).
 - **Baumgart et al. 2009; Chen, Cline and Frey 2009; Brümmer and Jaeckel 2009.** M. Baumgart, C. Cheung, J. T. Ruderman, L.-T. Wang, I. Yavin, JHEP 04 (2009) 014, arXiv:0901.0283; F. Chen, J. M. Cline, A. R. Frey, Phys. Rev. D 80, 083516 (2009), arXiv:0907.4746; F. Brümmer, J. Jaeckel, Phys. Lett. B 675, 360 (2009), arXiv:0902.3615.
-  - Marks: #14 [10], unmarked. The round-3 referee judged that Baumgart et al. does not contain the adjoint operator; ruling 8 overturned this, quoting footnote 5 of arXiv:0901.0283v2. The referee also found the reference "cited for more than it says": every source that derives the operator obtains it at one loop from fields charged under both groups, not with an order-one coefficient at the Planck scale (ruling 7).
-  - Cited for: the dimension-five operator Φ^a F^a B/M_\* and the mixing ε ~ v/M_\* it gives once Φ condenses (#14 §2(b)).
-  - Wiki: [Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator).
+  - Marks: #14 [10], unmarked; v3 worklog item R4.
+  - Cited for: The dimension-five operator Φ^a F^a B/M_\* and the mixing ε ~ v/M_\* it gives once Φ condenses (#14 §2(b)); with [12], the absence of visible magnetic flux (#14 §2(c)).
+  - Checks: The round-3 referee judged that Baumgart et al. do not contain the adjoint operator; ruling 8 overturned this, quoting footnote 5 of arXiv:0901.0283v2. The referee also found the reference "cited for more than it says": every source that derives the operator obtains it at one loop from fields charged under both groups, not with an order-one coefficient at the Planck scale; ruling 7 upheld this.
+  - Cited on: [Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator), [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary), [Open: the † literature battery (OP10)](/wiki/method/literature-battery), [Pre-registration and its calibration record](/wiki/method/review/pre-registration), [The blind-review protocol and verdict scale](/wiki/method/review/review-protocol), [Round-3 pre-registration](/wiki/method/review/round-3/preregistration), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Banks and Seiberg 2011; Harlow and Ooguri 2021.** T. Banks, N. Seiberg, Phys. Rev. D 83, 084019 (2011), arXiv:1011.5120; D. Harlow, H. Ooguri, Commun. Math. Phys. 383, 1669 (2021), arXiv:1810.05338.
-  - Marks: #14 [11], unmarked; the round-3 referee found that it supports the claim.
-  - Cited for: quantum gravity admits no exact global symmetries, so a hidden charge conjugation must be gauged to forbid the operator (#14 §2(b)).
-  - Wiki: [Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator), [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+  - Marks: #14 [11], unmarked; v3 worklog item R4.
+  - Cited for: Quantum gravity admits no exact global symmetries, so a hidden charge conjugation must be gauged to forbid the operator (#14 §2(b)).
+  - Checks: The round-3 referee found that the pair supports the claim (Step 1).
+  - Cited on: [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter), [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Hiramatsu, Ibe, Suzuki and Yamaguchi 2021.** T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, JHEP 12 (2021) 122, arXiv:2109.12771.
-  - Marks: #14 [12], unmarked. The v3 worklog took the journal reference from the paper's digital object identifier without live-checking it, and its author spot-checked the abstract; the round-3 referee found that it supports the claim.
-  - Cited for: a hidden monopole induces no visible magnetic flux while the hidden U(1) is unbroken, even with kinetic mixing (#14 §2(c)).
-  - Wiki: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+  - Marks: #14 [12], unmarked. The v3 worklog took the journal reference from the paper's DOI without live-checking it, and its author spot-checked the abstract (item L1); the round-3 pre-registration named the journal reference one of the two likeliest citation problems.
+  - Cited for: A hidden monopole induces no visible magnetic flux while the hidden U(1) is unbroken, even with kinetic mixing (#14 §2(c)).
+  - Checks: The round-3 referee found that the reference resolves and that its abstract supports the claim (Step 1).
+  - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [Round-3 pre-registration](/wiki/method/review/round-3/preregistration), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Terning and Verhaaren 2018.** J. Terning, C. B. Verhaaren, JHEP 12 (2018) 123, arXiv:1808.09459.
-  - Marks: #14 [13], unmarked. The v3 worklog did not re-check its body text; the round-3 referee found that it supports the claim (its p. 11).
-  - Cited for: minicharged monopoles require a massive hidden photon (#14 §2(c)).
-  - Wiki: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+  - Marks: #14 [13], unmarked. The v3 worklog did not re-check its body text.
+  - Cited for: Minicharged monopoles require a massive hidden photon (#14 §2(c)).
+  - Checks: The round-3 referee found support on its p. 11 (Step 1).
+  - Cited on: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Brümmer, Jaeckel and Khoze 2009.** F. Brümmer, J. Jaeckel, V. V. Khoze, JHEP 06 (2009) 037, arXiv:0905.0633.
-  - Marks: #14 [14], unmarked; the round-3 referee found that it supports the claim.
-  - Cited for: with charge conjugation and parity (CP) violated, hidden monopoles acquire small visible electric charges ("magnetic mixing"); its eq. 3.19 gives the Witten-effect charge of ruling 9 (#14 §2(c)).
-  - Wiki: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+  - Marks: #14 [14], unmarked; v3 worklog item L1.
+  - Cited for: With charge conjugation and parity (CP) violated, hidden monopoles acquire small visible electric charges, "magnetic mixing" (#14 §2(c)).
+  - Checks: The round-3 referee found support in the abstract, and took from its eq. 3.19 the Witten-effect charge of the dark matter that ruling 9 accepted without re-checking.
+  - Cited on: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Obied and Parikh (preprint).** No identifier is given.
-  - Marks: named in the v3 worklog (R4), from the retrieved literature report.
-  - Cited for: a gauged charge conjugation of O(2) or O(3) type as the loophole that could still forbid the dimension-five operator.
-  - Wiki: [Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator).
-- **Graesser et al. 2022.** JHEP 03 (2022) 105.
-  - Marks: named in the v3 worklog (L1), from the retrieved literature report.
-  - Cited for: minicharged, confined monopoles need a massive hidden photon.
-  - Wiki: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+  - Marks: Named in the v3 worklog (item R4), from its literature report.
+  - Cited for: A gauged charge conjugation "(O(2)/O(3)-type)" as the loophole that could still forbid the dimension-five operator.
+  - Cited on: [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter), [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null).
+- **Graesser et al. 2022.** Graesser et al., JHEP 03 (2022) 105, as the v3 worklog gives it.
+  - Marks: Named in the v3 worklog (item L1), from its literature report.
+  - Cited for: Minicharged, confined monopoles need a massive hidden photon.
+  - Cited on: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
 
-## Topological dark matter and hidden-sector cosmology
+Added by the wiki from model memory (†), cited by no program document:
+
+- B. Holdom, "Two U(1)'s and ε charge shifts," Phys. Lett. B 166, 196 (1986)†: the kinetic-mixing term. Cited on: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing).
+
+## Topological dark matter
 
 - **Murayama and Shu 2010.** H. Murayama, J. Shu, "Topological dark matter," Phys. Lett. B 686, 162 (2010), arXiv:0905.1720.
-  - Marks: #11 [28][S]; retrieved by the round-3 referee.
-  - Cited for: the Kibble estimate "drastically underestimates the production of topological defects" (ruling 3), and topological dark matter of mass 1–10 PeV, the established scenario the framework is merely compatible with (#11 §12; the round-3 audit).
-  - Wiki: [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary), [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism).
+  - Marks: #11 [28][S]; retrieved by the round-3 referee (Step 4(c) items 1 and 10), whose Step 4(d) writes "Murayama-Shu 2009".
+  - Cited for: "Kibble–Zurek and bubble-nucleation production only add to" the one-per-horizon count (#11 §12), since the Kibble estimate "drastically underestimates the production of topological defects" (ruling 3); and "the established topological-dark-matter scenario" (#11 §12), with dark matter of mass 1–10 PeV in the abstract the referee quotes (Step 4(c) item 1).
+  - Checks: Ruling 3 rests on the abstract; no document records a full-text reading.
+  - Cited on: [The 'framework does no work' critique](/wiki/program/framework-does-no-work), [The soliton candidate (retired)](/wiki/dark-matter/candidates/soliton-candidate), [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution), [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem), [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 - **Liveoak, Maharana and Wells 2026.** D. Liveoak, A. Maharana, J. D. Wells, "Dark monopoles, bounds on hidden sectors, and cosmological implications," arXiv:2607.20843 (2026).
-  - Marks: #11 [29][S]; retrieved by the round-3 referee.
-  - Cited for: hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination (#11 §12; ruling 3). The round-3 referee's estimates of Kibble–Zurek production and capture use its equations 13, 16, 18, 25 and 28.
-  - Wiki: [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary).
-- **Baek, Ko and Park 2014; Khoze and Ro 2014.** Baek, Ko and Park, J. Cosmol. Astropart. Phys. 10 (2014) 067, arXiv:1311.1035; Khoze and Ro, JHEP 10 (2014) 061, arXiv:1406.2291.
-  - Marks: retrieved by the round-3 referee as uncited prior art; #11 does not cite them.
-  - Cited for: hidden SU(2) → U(1) monopoles with W′ bosons and a hidden photon, the model #14 proposed.
-  - Wiki: [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art).
-- **Gangui (astro-ph/0110285).** Gangui, astro-ph/0110285, p. 14.
-  - Marks: retrieved by the round-3 referee; one of the independent anchors of `verify/soliton_obituary.py`; not cited in #11.
-  - Cited for: about one monopole per Hubble volume, n/s ~ 100 (T_c/m_P)³ (round-3 audit, Steps 1–2). The round-3 adjudication adopted the relation as a replacement anchor (lesson 2) without naming the source.
-  - Wiki: [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
-- **Kolb and Turner 1990.** E. W. Kolb, M. S. Turner, The Early Universe (Addison-Wesley, 1990).
-  - Marks: #14 [17], unmarked. The v3 worklog did not live-check it; the round-3 referee resolved it as Front. Phys. 69 (1990) and did not check it page by page. `verify/soliton_obituary.py` takes its freeze-out formula from eqs. 5.43–5.45.
-  - Cited for: standard thermal freeze-out (#14 §3).
-  - Wiki: [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance), [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
-- **Planck 2018.** Planck Collaboration, Astron. Astrophys. 641, A6 (2020), arXiv:1807.06209.
-  - Marks: #14 [23], unmarked. #14 §4 writes N_eff = 2.99 ± 0.34 at 95%; the round-3 referee found that eq. (67b) gives N_eff = 2.99 +0.34 −0.33 at 95%, and that Planck uses 3.046 for the Standard Model value N_eff,SM. The v3 worklog's first estimate used an approximate bound of 0.3, "from memory †". `verify/soliton_obituary.py` uses Planck 2018 values.
-  - Cited for: the bound on extra relativistic species (#14 §4).
-  - Wiki: [The radiation era](/wiki/cosmology/early-universe/radiation-era), [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
+  - Marks: #11 [29][S]; retrieved by the round-3 referee; ruling 3 dates it July 2026.
+  - Cited for: Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination (#11 §12; ruling 3). The referee's estimates of Kibble–Zurek production and capture use its eqs. 13, 16, 18, 25 and 28 (Step 4(a) item 3).
+  - Checks: Flag 21 in `review/wiki-build-flags.md`: ruling 3's "1e9–1e12 overproduction" joins this paper's analytic estimate, 1.2e9–2.2e11, to the referee's integration, 1.1e12–2.2e12; the verdict is unaffected.
+  - Cited on: [The 'framework does no work' critique](/wiki/program/framework-does-no-work), [The soliton candidate (retired)](/wiki/dark-matter/candidates/soliton-candidate), [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution), [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem), [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration), [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script), [Timeline](/wiki/history/timeline).
+- **Baek, Ko and Park; Khoze and Ro.** Baek, Ko and Park, JCAP 10 (2014) 067, arXiv:1311.1035; Khoze and Ro, JHEP 10 (2014) 061, arXiv:1406.2291, given by surname.
+  - Marks: Retrieved by the round-3 referee as prior art #14 had not cited (Step 4(c) item 10), and dated 2013 and 2014 in its Step 4(d); #11 does not cite them. The adjudication lists them with Murayama–Shu and Liveoak–Maharana–Wells as "Uncited prior art".
+  - Cited for: Hidden SU(2) → U(1) monopoles with W′ bosons and a hidden photon, the model #14 proposed.
+  - Cited on: [The 'framework does no work' critique](/wiki/program/framework-does-no-work), [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art), [The 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
 
 ## Literature the round-3 referee added
 
-The round-3 referee listed constraints #14 had omitted, with literature it retrieved. The adjudication accepted the list as a to-do without re-checking each item, and the candidate's retirement made the constraints moot. The items are numbered as in the referee's notes, section 4(c).
+The round-3 referee listed constraints #14 had omitted, with literature it verified on INSPIRE and arXiv (Step 4(c)); the adjudication accepted the list as a to-do without re-checking each item, and Decision 2 then retired the candidate. The items are numbered as in the referee's notes.
 
-- **Vogel and Redondo 2014; Adshead, Ralegankar and Shelton.** Vogel and Redondo, J. Cosmol. Astropart. Phys. 02 (2014) 029, arXiv:1311.2600; Adshead, Ralegankar and Shelton, arXiv:2206.13530.
-  - Cited for: re-thermalization of the hidden sector through ψ's millicharge, and the dark radiation that follows (item 2).
-  - Wiki: [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
-- **Chang, Essig and McDermott (arXiv:1803.00993).**
-  - Cited for: supernova 1987A limits on millicharged particles (item 3).
-  - Wiki: [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
-- **Stebbins and Krnjaic 2019; McDermott, Yu and Zurek 2011; Chuzhoy and Kolb 2009; Dunsky, Hall and Harigaya 2019; Boddy et al.** J. Cosmol. Astropart. Phys. 12 (2019) 003; Phys. Rev. D 83 (2011) 063509; J. Cosmol. Astropart. Phys. 07 (2009) 014; J. Cosmol. Astropart. Phys. 07 (2019) 015; arXiv:1808.00001.
-  - Cited for: bounds on a charged dark-matter subcomponent, the competition between disk evacuation and supernova-shock acceleration, and cosmic-microwave-background limits on interactions between dark matter and baryons (item 4).
-  - Wiki: [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
-- **Cyr-Racine et al. (arXiv:1310.3278).**
-  - Cited for: at most about 5% of the dark matter can interact very strongly with dark radiation (item 5).
-  - Wiki: [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
-- **Lasenby (arXiv:2007.00667).**
-  - Cited for: collective plasma effects of dark monopoles, which can matter far below two-body bounds (item 6).
-  - Wiki: [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
-- **Baillargeon, Bélanger and Boudjema (hep-ph/9405359).**
-  - Cited for: the referee's own threshold annihilation coefficient for the W′ bosons, obtained by detailed balance from its eq. 5.15 (Step 2).
-  - Wiki: [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration).
-- **The referee's constants.** The Particle Data Group's 2024 physical and astrophysical constants and electroweak review; the 2018 values of the Committee on Data for Science and Technology; Bennett et al. 2021 for N_eff,SM = 3.044 (`review/round3/referee/step2a.py`).
-  - Cited for: every physical constant in the referee's independent recomputation.
-  - Wiki: [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration).
+- **Vogel and Redondo 2014; Adshead, Ralegankar and Shelton.** Vogel and Redondo, JCAP 02 (2014) 029, arXiv:1311.2600; Adshead, Ralegankar and Shelton, arXiv:2206.13530.
+  - Marks: Retrieved by the round-3 referee.
+  - Cited for: Re-thermalization of the hidden sector through ψ's millicharge, and the dark radiation that follows (item 2).
+  - Cited on: [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **Chang, Essig and McDermott (arXiv:1803.00993).** Chang, Essig and McDermott, arXiv:1803.00993.
+  - Marks: Retrieved by the round-3 referee.
+  - Cited for: Supernova 1987A limits on millicharged particles (item 3).
+  - Cited on: [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **Stebbins and Krnjaic 2019; McDermott, Yu and Zurek 2011; Chuzhoy and Kolb 2009; Dunsky, Hall and Harigaya 2019; Boddy et al.** Stebbins and Krnjaic, JCAP 12 (2019) 003; McDermott, Yu and Zurek, PRD 83 (2011) 063509; Chuzhoy and Kolb, JCAP 07 (2009) 014; Dunsky, Hall and Harigaya, JCAP 07 (2019) 015; Boddy et al., arXiv:1808.00001.
+  - Marks: Retrieved by the round-3 referee.
+  - Cited for: Bounds on a charged dark-matter subcomponent, the competition between evacuation from the galactic disk and acceleration by supernova shocks, and cosmic-microwave-background limits on interactions between dark matter and baryons (item 4).
+  - Cited on: [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **Cyr-Racine et al. (arXiv:1310.3278).** Cyr-Racine et al., arXiv:1310.3278.
+  - Marks: Retrieved by the round-3 referee.
+  - Cited for: At most about 5% of the dark matter can interact very strongly with dark radiation (item 5).
+  - Cited on: [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **Lasenby (arXiv:2007.00667).** Lasenby, arXiv:2007.00667.
+  - Marks: Retrieved by the round-3 referee.
+  - Cited for: Collective plasma effects of dark monopoles, which can matter "many orders of magnitude below" two-body bounds (item 6).
+  - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings).
+- **Baillargeon, Belanger and Boudjema (hep-ph/9405359).** hep-ph/9405359, eqs. 5.15 and 5.16, named Baillargeon–Belanger–Boudjema in `review/round3/referee/ggww.py`.
+  - Marks: Retrieved by the round-3 referee.
+  - Cited for: The tree-level cross-section for γγ → W⁺W⁻, from which the referee obtained its own threshold annihilation coefficient for the W′ bosons by detailed balance (Step 2).
+  - Cited on: [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure).
+- **The referee's constants.** The Particle Data Group's 2024 physical and astrophysical constants and its "Electroweak model" review; CODATA 2018; the Planck 2018 abstract for Ω_c h² = 0.120; and "Bennett et al 2021" for N_eff,SM = 3.044 (`review/round3/referee/step2a.py`).
+  - Marks: Sourced in the referee's script; the wiki's radiation-era page adds details of the Bennett et al. paper from model memory (†).
+  - Cited for: Every physical constant in the referee's independent recomputation (Step 2).
+  - Cited on: [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration).
 
-## Maximum force and maximal acceleration
+## Photon dispersion
 
-- **Gibbons 2002; Schiller 2005.** G. W. Gibbons, "The maximum tension principle in general relativity," Found. Phys. 32, 1891 (2002), hep-th/0210109; C. Schiller, "General relativity and cosmology derived from principle of maximum force," Int. J. Theor. Phys. 44, 1629 (2005).
-  - Marks: #13 [1]†. `HANDOFF.md` §2 names the "Gibbons–Schiller maximum-force conjecture" without a reference.
-  - Cited for: a maximum force c⁴/4G conjectured within general relativity as the "maximum tension principle", with a companion maximum luminosity c⁵/4G approached by binary black-hole mergers (#13 §1). #13 notes the conjecture's contested status [T] and leaves its own factor of 4 open [O].
-  - Wiki: [Maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures), [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force).
-- **Caianiello 1981.** E. R. Caianiello, "Is there a maximal acceleration?" Lett. Nuovo Cim. 32, 65 (1981).
-  - Marks: #13 [2]†.
-  - Cited for: a maximal acceleration derived from a phase-space metric (#13 §1).
-  - Wiki: [Maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures).
-- **Born 1938, 1949.** #13 [3]† and [4]†; see the first section.
+The lab notebook and #13 cite the gamma-ray-burst bounds of the Fermi Large Area Telescope as [T] with no reference ([named without a reference](#named-without-a-reference)).
+
+- **Vasileiou et al. 2013.** "Vasileiou et al. 2013", named with the gamma-ray burst its bound comes from in `review/wiki-build-checks/quadratic_gap.py`; no other details are given.
+  - Marks: † in the flags file (item 31) and in the check's inputs, "from model memory (†), not from any program source".
+  - Cited for: A quadratic-dispersion lower limit from the Fermi Large Area Telescope (LAT), behind flag 31's lead that #1 §4's "~10 orders" may be off; the flag says to verify the bound before acting.
+  - Cited on: no wiki page; `review/wiki-build-flags.md` item 31 and `review/wiki-build-checks/quadratic_gap.py` only.
+
+Added by the wiki from model memory (†), cited by no program document:
+
+- G. Amelino-Camelia, J. Ellis, N. E. Mavromatos, D. V. Nanopoulos and S. Sarkar, "Tests of quantum gravity from observations of γ-ray bursts," Nature 393, 763 (1998)†: the proposal to test an energy-dependent speed of light with gamma-ray bursts. Cited on: [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion).
+- A. A. Abdo et al., "A limit on the variation of the speed of light arising from quantum gravity effects," Nature 462, 331 (2009)†: the Fermi bound from a single burst. Cited on: [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion).
+
+## Philosophy of science
+
+The documents use Lakatos's terms without citing him ([named without a reference](#named-without-a-reference)). Every work here was added by the wiki from model memory.
+
+- I. Lakatos, "Falsification and the Methodology of Scientific Research Programmes," in I. Lakatos and A. Musgrave (eds.), *Criticism and the Growth of Knowledge*, Cambridge University Press (1970)†; I. Lakatos, *The Methodology of Scientific Research Programmes: Philosophical Papers*, vol. 1, ed. J. Worrall and G. Currie, Cambridge University Press (1978)†. Cited on: [Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology).
+- K. R. Popper, *The Logic of Scientific Discovery*, Hutchinson (1959)†: falsifiability, the view Lakatos answered. Cited on: [Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology).
+- E. Zahar, "Why did Einstein's programme supersede Lorentz's?", *British Journal for the Philosophy of Science* 24 (1973)†: novel facts. Cited on: [Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology).
 
 ## Named without a reference
 
-- **Fermi Large Area Telescope gamma-ray-burst bounds.** Tagged [T] without a reference in #1 §4 and #13 §6. Cited for: the exclusion of linear Planck-scale photon dispersion (row 9), which #13 reads as a test of both light cones. Wiki: [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion), [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency).
-- **Lyman-α forest limits.** Named in #11 §9 ("[15†, Lyman-α]"), #4 and #9 §7, with no reference anywhere. Cited for: closing the wave island's light-mass escape. Wiki: [Bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds).
-- **Fierz and Pauli; Boulware and Deser.** Named throughout, never cited; #6 §2 tags the related signature argument "[T — standard]". Wiki: [The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli).
-- **Double field theory and the Kalb–Ramond field.** Named in #5, #6, #9 and #11 without a reference, until the toy note cited Hull and Zwiebach. #4 imports the linearized spectrum as "[T: graviton + two-form + dilaton]". Wiki: [Double field theory](/wiki/phase-space/born-geometry/double-field-theory).
-- **Svoboda; para-Hermitian geometry.** Named in #5 §F with no details. Wiki: [The Born connection](/wiki/phase-space/born-geometry/born-connection).
-- **The bimetric literature.** #7 §4 says "Standard bimetric facts then slot in [T]" and cites graviton-mass bounds from gravitational-wave observations ("m_g ≲ 10⁻²³ eV territory"); #6 §5 points to "the metastring's modular vertex structure" for the gate's shape; #8 §2 flags a literature check on the vanishing vacuum energy of interchange-symmetric bimetric gravity. None gives a reference. Wiki: [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton), [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), [Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape).
-- **"In the literature's own words".** #11 §11.3 says the identification of a duality frame with a Lagrangian polarization of charge space is made "in the literature's own words", but cites no source for the wording; it is a candidate for the † battery. Wiki: [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice).
-- **Lakatos.** Named in #9 §11 and #3, never cited. Wiki: [Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology).
-- **Baryogenesis (Sakharov).** #1 §8 compares polarization-genesis with "the same maturity baryogenesis had in 1966"; no document names the work or checks the date. Sakharov's conditions are usually dated 1967 [T]†. Wiki: [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance), [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
-- **Coproduct rescaling.** #1 §11 item 6 names it as the standard, ad hoc patch for the soccer-ball (extensivity) problem, with no reference. Wiki: [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
-- **Observational inputs used without citation.** Segue 1's mass, density and velocity dispersion (#4); the Bullet Cluster (#1 §4; #11 §8); cold stellar streams and the Gaia and Rubin surveys of them (#1 §9); the planned cosmic-microwave-background experiment CMB-S4 (#1 §9; #11 §13); torsion-balance bounds (#1 §4). Wiki: [Dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), [Halo-substructure probes](/wiki/dark-matter/halo-astrophysics/halo-substructure), [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter), [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
+The documents name the following literature, or observations, without citing any work for them.
+
+- **Gamma-ray-burst bounds of the Fermi Large Area Telescope (Fermi-LAT).** #1 §4: "Fermi-LAT gamma-ray-burst bounds exclude linear Planck-scale dispersion", tagged [T]; #13 §6 cites the same bounds, also [T]. The wiki's row-9 page adds two papers, and flag 31's lead uses a third ([photon dispersion](#photon-dispersion)). Wiki: [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion), [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency).
+- **Lyman-α forest limits.** Named in #11 §9 ("[15†, Lyman-α]"), calc note #4 and #9 §7, with no reference in any document; the wiki adds two papers ([wave dark matter](#wave-dark-matter)). Wiki: [Bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds), [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), [Open: the † literature battery (OP10)](/wiki/method/literature-battery).
+- **Fierz and Pauli; Boulware and Deser.** Named throughout the gravity documents, never cited; calc note #6 §2 tags the related signature argument "[T — standard]". The wiki adds the papers ([massive and bimetric gravity](#massive-and-bimetric-gravity)). Wiki: [The Fierz–Pauli mass term and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli).
+- **Double field theory and the Kalb–Ramond field.** Named without a reference in #1 §2, calc notes #5 (§A, §D) and #6 (§2), #9 §3 and §5, and #11 §5 and §7.1. Calc notes #3 and #4 lean on "the known linearized-DFT spectrum", DFT being double field theory, which #4 tags "[T: graviton + two-form + dilaton]". Hull and Zwiebach first appear in the toy-model note's list. Wiki: [Double field theory and the generalized metric](/wiki/phase-space/born-geometry/double-field-theory), [Corollaries: unimodularity, no B-field, slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries).
+- **Svoboda; para-Hermitian geometry.** Calc note #5 §F: "the para-Hermitian literature — Svoboda, Marotta–Szabo — is the nearest neighbor", with no details. The toy-model note later cited Marotta and Szabo as [3]. Wiki: [The Born connection](/wiki/phase-space/born-geometry/born-connection), [The structures ω, η, H and the split-quaternion algebra](/wiki/phase-space/born-geometry/born-structures).
+- **The bimetric literature.** Calc note #7 §4: "Standard bimetric facts then slot in [T]", with graviton-mass bounds from gravitational-wave observations in the "m_g ≲ 10⁻²³ eV territory". Calc note #6 §5 points to "the metastring's modular vertex structure" for the gate's shape. Calc note #8 §2 asks whether the vanishing vacuum energy of interchange-symmetric bimetric gravity "was previously noticed in the literature: flagged to verify", and #8 §5 and #1's v0.6 addendum list the check. None gives a reference. The literature check that `HANDOFF.md` §2 and #11 §15 report produced #11's [24][S] and [25][S]. Wiki: [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton), [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape), [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison).
+- **"In the literature's own words".** #11 §11.3 says that choosing a duality frame "is choosing a Lagrangian polarization of charge space, in the literature's own words", and cites no source for the words. Wiki: [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice), [Open: the † literature battery (OP10)](/wiki/method/literature-battery).
+- **Lakatos.** The program describes itself in Lakatos's terms: "a Lakatosian research program, not a theory" (`HANDOFF.md` §1; root `CLAUDE.md`), the "Lakatos ledger" of #9 §11 and #11 §15, and "Lakatos terms" in calc note #3. No document cites Lakatos; the wiki adds his works ([philosophy of science](#philosophy-of-science)). Wiki: [Lakatos's methodology of research programmes](/wiki/method/lakatosian-methodology), [Assessment: a live research program](/wiki/program/assessment).
+- **Baryogenesis in 1966.** #1 §8 compares polarization-genesis with "the same maturity baryogenesis had in 1966", naming no work. Flag 18 in `review/wiki-build-flags.md` notes that Sakharov's conditions are usually dated 1967, itself from model memory (†, unchecked). Wiki: [Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis), [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance), [The lab notebook (#1) and its addenda](/wiki/history/documents/lab-notebook).
+- **Coproduct rescaling.** #1 §11 item 6 calls the soccer-ball problem "patched by standard coproduct rescaling, which is ad hoc here as everywhere", with no reference. Wiki: [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space#open-extensivity-the-soccer-ball-problem).
+- **Observational inputs.** Segue 1's mass, density and velocity dispersion (calc note #4; #9 §7; #11 §9); the Bullet Cluster (#1 §4; #9 §6; #11 §8); the cold stellar streams GD-1 and Pal 5 and the Gaia and Rubin surveys of them (#1 §9; calc note #3); the planned cosmic-microwave-background (CMB) experiment CMB-S4 (#1 §9; #9 §9; #11 §13), whose status flag 32 questions from model memory as an item for the † battery; torsion-balance bounds (#1 §4). The wiki's halo pages add references for the first three ([halos, dwarf galaxies and collisionless dynamics](#halos-dwarf-galaxies-and-collisionless-dynamics)). Wiki: [Dwarf galaxies: cores and ultra-faint dwarfs](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), [Self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter), [Halo-substructure probes: streams and dynamical friction](/wiki/dark-matter/halo-astrophysics/halo-substructure), [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step), [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
+
+## Citation checks during the wiki build
+
+The verifiers of the wiki build compared every page with its sources and recorded suspected errors in the source documents in `review/wiki-build-flags.md`, each awaiting Paul's ruling; no page corrects a source. These items concern citations; each is also noted at its entry above.
+
+- **Flag 20: #11's [23]†, checked by live search.** A verifier searched for the entry and found that it pairs two papers. The title and journal reference, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055, belong together and are arXiv:1604.08564; the arXiv number #11 gives, arXiv:1607.03497, is the companion paper "Heavy spin-2 Dark Matter". The flag is filed "For the † battery (OP10)", and the entry keeps its †. It is the only † reference that the flags file records as checked by live search during the build. See [Babichev et al.](#massive-and-bimetric-gravity) and [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter#the-reference).
+- **Flag 9: #11's [24][S].** The entry has no authors, and its title "may be a description rather than the paper's title". Being [S], it falls outside the † battery.
+- **Flag 26: #11's [21][S].** A live search by one of the build's writers found that Data Release 2 already covers three years of operations, which bears on the handoff's "three-year data" for Data Release 3, not on the citation.
+- **Flags 18, 31 and 32: leads from model memory.** The usual dating of Sakharov's conditions (flag 18), a Fermi-LAT quadratic bound attributed to Vasileiou et al. 2013 (flag 31) and the funding status of CMB-S4 (flag 32) are themselves † and unchecked.
+- **Flags 21, 22 and 34: numbers taken from the literature.** Ruling 3's overproduction range joins Liveoak–Maharana–Wells's analytic estimate to the referee's integration (flag 21); Planck's N_eff interval is asymmetric where #14 writes ± 0.34 (flag 22); and the constants of `verify/soliton_obituary.py`, described as "PDG and Planck 2018 values", are typed in, not retrieved (flag 34).
+- **Flag 7: a claim cited to [9†, 10†, 11†].** #11 §7.1's "The unique consistent structure for massive spin-2" drops the word "known" from calc note #6 §3; the flag concerns the wording, not the references.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` References [1]–[29] and §3–§12 — #11's marked list and what each reference is cited for
-- `papers/conjugate-special-relativity.md` References [1]–[4], §1, §4, §6 — #13's list, all †
-- `papers/reciprocity-toy-models.md` References [1]–[17], §1–§5 — the toy note's list (v2 numbering)
+- `papers/broken-born-checkpoint-v2.md` header, References [1]–[29] and §3–§15 — #11's marks, its reference list and what each reference is cited for
+- `papers/conjugate-special-relativity.md` References [1]–[4], §1, §4, §6, §7 — #13's list, all †
 - `notes/knot-dark-matter-standalone.md` References [1]–[23], §1–§4 — #14's unmarked list
-- `review/round3/referee/audit-notes.md` Steps 1, 2 and 4(c) — the round-3 citation audit, the omitted-constraint literature and the referee's constants
-- `review/round3-adjudication.md` rulings 1, 3, 7, 8, 11, 12 and lesson 2 — which citation findings were upheld or overturned
-- `review/round4/referee/audit-notes.md` Step 1 and `review/round4-adjudication.md` (Citations, Omitted prior work) — the round-4 citation audit, in v1 numbering
-- `review/round4-preregistration.md` — the predicted over-cited reference
-- `review/v3-worklog.md` — the literature report for #14 v3: corrections, new references and the unread or unchecked items
-- `notes/toy-lagrangian.md` S0 and S5 — the retrieved prior art, including the worklog-only sources
-- `review/round3/referee/step2a.py` — the round-3 referee's constants and their sources
-- `HANDOFF.md` §2, §3, §6, §8 — the unmarked mentions and the v2.0 reference count
-- `notes/broken-born-theory.md` §2, §4, §7, §8, §11 and `notes/broken-born-program-v1.md` — the [T]-tagged inline citations
-- `notes/debt3b-wave-island.md`, `notes/debt3c-ufd-endpoint.md`, `notes/debt1a-ii-X-classification.md` — the calc notes' inline citations
-- `verify/soliton_obituary.py`, `verify/toy_gw.py` — the literature anchors used in the gate
+- `papers/reciprocity-toy-models.md` References [1]–[17], §1, §3–§5 — the toy-model note's list in version-2 numbering
+- `notes/toy-lagrangian.md` 'Predictions', 'S0 — prior art', 'S5 literature', 'Write-up and review' — the retrieved prior art, including works cited nowhere else, and the five references added in version 2
+- `review/v3-worklog.md` preamble, items R1–R7, F1, L1, O2, 'Verified references for v3', 'v3 as drafted' — the literature report for #14 v3, its corrections and the items not live-checked
+- `review/round3/referee/audit-notes.md` Steps 1–4 — the round-3 citation audit of #14, the omitted literature and the referee's dating of it
+- `review/round3/referee/step2a.py` and `review/round3/referee/ggww.py` — the referee's constants and its cross-section source
+- `review/round3-adjudication.md` rulings 1, 3, 7–12, lesson 2, Decisions — which citation findings were upheld or overturned
+- `review/round3-preregistration.md` and `review/round4-preregistration.md` 'Predictions' — the forecast citation problems
+- `review/round4/referee/audit-notes.md` Steps 1 and 2(b), and `review/round4-adjudication.md` 'Rulings' and 'Revisions for v2 of the note' — the round-4 citation audit, in version-1 numbering, and the references added in response
+- `review/wiki-build-flags.md` items 7, 9, 18, 20, 21, 22, 26, 31, 32, 34, and `review/wiki-build-checks/quadratic_gap.py` — the wiki build's citation findings and leads
+- `HANDOFF.md` §1, §2, §3, §6, §8 and the root `CLAUDE.md` — the references named without marks, the count for version 2.0, the inverted Preskill citation, the queue item on the partially massless comparison, the program's Lakatosian self-description
+- `notes/broken-born-theory.md` and `notes/broken-born-program-v1.md` — the [T]-tagged inline citations of #1 and #9
+- `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md`, `notes/debt3c-ufd-endpoint.md`, `notes/debt1a-geometric-core.md`, `notes/debt1a-ii-X-classification.md`, `notes/debt1a-iii-tuning-test.md`, `notes/debt1a-iv-beta-coefficients.md` — the calc notes' inline citations and named literature
+- `popsci/angle-of-the-mirror.md` and `popsci/universes-other-half.md` — the popular articles' dates for Born, Dirac and the multi-graviton theorem
+- `verify/soliton_obituary.py`, `verify/toy_gw.py` — the literature the gate's anchors take their values from
+- Repository history, commits 008c3ee, e1c1f67 and 6ee74d0 — #11 version 2.0's reference [21], the version-2.1 upgrade of [21] and the added [26]–[29], and the verified quotation of [26]
+- The wiki pages linked in each "Added by the wiki" line — the works they cite from model memory
