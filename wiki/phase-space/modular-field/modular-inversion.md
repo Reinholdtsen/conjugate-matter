@@ -21,8 +21,11 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "notes/debt1a-ii-X-classification.md §3"
   - "verify/toy_coset.py"
-  - "review/wiki-build-flags.md item 23"
+  - "review/wiki-build-flags.md items 23, 39"
   - "review/wiki-build-checks/self_dual_locus.py"
+  - "review/wiki-build-checks/rho_parity.py"
+  - "notes/debt1a-iv-beta-coefficients.md §1"
+  - "papers/broken-born-checkpoint-v2.md §7.3"
 ---
 
 *Modular inversion is the map Z → −Z⁻¹, "take minus the reciprocal", applied to [the modular field Z](/wiki/phase-space/modular-field/modular-field-z). The program shows that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn of the position–momentum plane that the Fourier transform performs on a wavefunction, acts on Z in exactly this way. The map leaves the point Z = i unchanged, and that point is the program's self-dual vacuum. On the vacuum slice the map sends the metric g to its inverse, which for a uniformly scaled metric turns the scale factor a into 1/a; the circle |Z| = 1 is identified with the program's relation a·ã = 1 between our scale factor and that of the [conjugate description](/wiki/program/conjugate-universe), an identification queried in flag 23 of `review/wiki-build-flags.md`. The same quarter-turn matrix generates the S-duality of electric and magnetic charges. The claim is derived; for one coordinate (d = 1) a script checks it symbolically, and no script checks the general case.*
@@ -97,6 +100,7 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 
 - **Explicit only at d = 1.** The physical case is d = 4; there the map follows from the general Möbius action, which no script checks.
 - **Positive metrics only.** Like the Siegel parametrization itself, the statement concerns positive (Euclidean) H; Lorentzian signature is open item 3 ([Open: Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing)).
+- **A second action on the spin-2 sector.** For the program's two spin-2 [frames](/wiki/gravity/spin-2-fields/vielbein-formulation), [calc note #8](/wiki/history/documents/debt-1-notes) §1 and #11 §7.3 state reciprocity as their exchange, e ↔ f, the form [the palindrome](/wiki/gravity/palindromic-branch/palindrome#how-reciprocity-acts-the-frame-exchange) uses. Linearized at the fixed point Z = i, the inversion sends a fluctuation x + ih of Z to −(x + ih), so the metric's fluctuation h changes sign together with X's, while the frame exchange leaves the massless combination of the frames unchanged. The documents state both actions and do not show how one becomes the other for the massless mode (flag 39 in `review/wiki-build-flags.md`; `review/wiki-build-checks/rho_parity.py`). The flag's audit found the graviton's parity right under the frame exchange and rated the flag as depending on which action is meant ([two actions of reciprocity](/wiki/gravity/momentum-graviton/spectrum-and-parity#two-actions-of-reciprocity)).
 - **A structural cosmology.** The |Z| = 1 reading of a·ã = 1 is stated, not derived through an explicit map from the scale factors to Z. Read with g = a² = Y and ã² = Y⁻¹ on the slice X = 0, the two loci differ: flag 23 in `review/wiki-build-flags.md` finds a·ã = 1 on the whole imaginary axis and |Z| = 1 only at Z = i (`review/wiki-build-checks/self_dual_locus.py`). The flag awaits Paul's ruling.
 
 ## History
@@ -121,3 +125,4 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results' — no ρ-invariant vacuum; ρ inside the U(1) stabilizer at the self-dual point.
 - `verify/toy_coset.py` — the symbolic check of Z → −1/Z with fixed point Z = i, and of the absence of a ρ-invariant vacuum.
 - `review/wiki-build-flags.md` item 23 and `review/wiki-build-checks/self_dual_locus.py` — the query on the identification of a·ã = 1 with |Z| = 1, with its executed check; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 39 and `review/wiki-build-checks/rho_parity.py` — the inversion against the frame exchange on the spin-2 sector (`notes/debt1a-iv-beta-coefficients.md` §1; #11 §7.3), with its executed check and audit verdict; awaiting Paul's ruling.

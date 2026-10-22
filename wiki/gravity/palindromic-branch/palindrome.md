@@ -25,6 +25,7 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §5"
   - "notes/broken-born-program-v1.md §11"
+  - "review/wiki-build-flags.md item 39"
 ---
 
 *The palindrome is the constraint βₙ = β₄₋ₙ on the five coefficients β₀ to β₄ of the potential that gives [the program's second spin-2 field](/wiki/gravity/momentum-graviton) its mass: β₀ = β₄ and β₁ = β₃, with β₂ free, so the list of coefficients reads the same forwards and backwards. The potential couples two [frames](/wiki/gravity/spin-2-fields/vielbein-formulation), one built from the dynamical geometry and one determined by the [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) that the vacuum selects, and exchanging the two frames reverses the order of its five terms. The program's claim is that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), on the [broken vacuum](/wiki/symmetry-breaking), acts as exactly this exchange, so a potential invariant under reciprocity must be a palindrome. The constraint places the program's gravity sector in the interchange-symmetric branch of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) and reads that branch's two-element exchange symmetry as Born reciprocity. It is a derivation of the program [D] with no machine check, and the branch itself is known in the literature, where it contains the [partially massless point](/wiki/gravity/spin-2-fields/partially-massless-gravity).*
@@ -87,6 +88,8 @@ The argument has two parts.
 
 The physics is in part 1. How part 1 relates to the action of reciprocity on the [modular field Z](/wiki/phase-space/modular-field/modular-field-z) is not written out. On Z reciprocity acts as "**ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹" (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion); [scale-factor duality](/wiki/cosmology/scale-factor-duality)). Neither #8 nor #11 derives the frame exchange from that inversion, so the identification in part 1 rests on the note's one-sentence argument.
 
+The two actions also differ on the spin-2 fields. Linearized at Z = i, the inversion changes the sign of the metric's fluctuation together with that of X, while the frame exchange leaves the sum of the two frames unchanged. Flag 39 in `review/wiki-build-flags.md` records the difference, which decides the parity of the massless graviton; its audit found the parity the documents give right under the frame exchange that the palindrome uses, and rated the flag as depending on which action is meant ([two actions of reciprocity](/wiki/gravity/momentum-graviton/spectrum-and-parity#two-actions-of-reciprocity)).
+
 ## What follows
 
 ### The gravity sector is the interchange-symmetric branch
@@ -103,7 +106,7 @@ At the aligned point the palindrome makes the value of the potential exactly twi
 
 ### Parity and equal Planck masses
 
-The same exchange sorts the two spin-2 fields. #8 §3: "the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices." For the exchange to be a symmetry of the whole action, the two metrics' kinetic terms must be exchanged as well, which requires equal Planck masses [T]; #8 §3 records "equal effective Planck masses (forced by the same symmetry)". The masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton). Equal Planck masses also close one route to cosmological stability for a heavy spin-2 field. The worklog of manuscript #14, whose soliton candidate has since died ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)), notes that #8 §3's condition, M_f = M_g for the Planck masses of the two metrics, "rules out the M_f ≪ M_g escape", the regime in which the late-time stability result it cites holds, and records whether a large mass alone suffices at M_f = M_g as open (`review/v3-worklog.md`, item R7; [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
+The same exchange sorts the two spin-2 fields. #8 §3: "the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices." (On the parities under #11 §6's Z → −Z⁻¹, see flag 39, above.) For the exchange to be a symmetry of the whole action, the two metrics' kinetic terms must be exchanged as well, which requires equal Planck masses [T]; #8 §3 records "equal effective Planck masses (forced by the same symmetry)". The masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton). Equal Planck masses also close one route to cosmological stability for a heavy spin-2 field. The worklog of manuscript #14, whose soliton candidate has since died ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)), notes that #8 §3's condition, M_f = M_g for the Planck masses of the two metrics, "rules out the M_f ≪ M_g escape", the regime in which the late-time stability result it cites holds, and records whether a large mass alone suffices at M_f = M_g as open (`review/v3-worklog.md`, item R7; [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
 
 ### The last link in a chain
 
@@ -144,3 +147,4 @@ The early documents presented the palindrome as the first motivation for a corne
 - `review/v3-worklog.md` item R7 — equal Planck masses and the open stability question for a heavy spin-2 field.
 - `notes/broken-born-theory.md` 'Addendum (v0.6)' — the result as first recorded, with the "previously ad hoc branch" wording that #11 §7.4 withdrew.
 - `notes/broken-born-program-v1.md` §5, §11 — v1's "raison d'être" and its "[D — rigorous]" tag; the chain of forced convergence (superseded by #11).
+- `review/wiki-build-flags.md` item 39 — the frame exchange against §6's Z → −Z⁻¹, and the parity of the massless graviton; awaiting Paul's ruling.

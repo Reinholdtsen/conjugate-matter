@@ -28,7 +28,7 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
-  - "review/wiki-build-flags.md item 6"
+  - "review/wiki-build-flags.md items 6, 39"
 ---
 
 *The vacuum-energy identity is a short algebraic result about the program's [spin-2 interaction potential](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) once its coefficients obey [the palindrome](/wiki/gravity/palindromic-branch/palindrome) βₙ = β₄₋ₙ. At the aligned point, where the potential's two frames coincide, the value of the potential, V(1), is exactly twice its tadpole T, the coefficient of the term linear in a small departure from that point. A flat aligned vacuum separately requires V(1) = T, and the two equations together force T = 0 and V(1) = 0, so the spin-2 interaction sector adds no vacuum energy there. Once the palindrome holds, that single flatness condition does the work of the two tunings that generic bimetric gravity needs. The integer arithmetic is machine-checked. The identity says nothing about the vacuum energy of matter loops, the "old" [cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), and whether it is new is the subject of an open [literature comparison](/wiki/gravity/palindromic-branch/pm-comparison).*
@@ -129,7 +129,7 @@ PASS  T6 e_n(1+delta) linear coefficients = C(3,n-1) = [0,1,3,3,1]  [[0.0, 1.0, 
 - **T5 [V]** computes the coefficient vectors of V(1) and T from `math.comb` in exact integers and checks that V(1) − 2T is the zero vector. #11 §2 lists it in [Tier 1](/wiki/method/claim-tiers) as "the palindrome identity as exact integers"; the [handoff](/wiki/history/documents/handoff) as "T5 palindrome V(1) = 2T as exact integers" (HANDOFF §5).
 - **T6 [V]** draws one random small symmetric δ (`randsym(1e-6)` in `verify/battery.py`), computes the eₙ of 1 + δ from its eigenvalues, and checks that the linear coefficients match C(3, n − 1) = [0, 1, 3, 3, 1] with absolute tolerance `atol=1e-3`. #11 §2 lists it as "the binomial linearization coefficients".
 
-What the tests do not check: T5 takes the palindrome as input, with β₄ = β₀ and β₃ = β₁ built into its vectors, and neither test touches the flatness condition V(1) = T or the claim that [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts as the frame exchange. Those steps are derivations [D]. #11 §2's caution applies: "a verification script confirms arithmetic, not the model it encodes" ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
+What the tests do not check: T5 takes the palindrome as input, with β₄ = β₀ and β₃ = β₁ built into its vectors, and neither test touches the flatness condition V(1) = T or the claim that [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts as the frame exchange. Those steps are derivations [D]. #11 §6 also states reciprocity as the inversion Z → −Z⁻¹ of the modular field; on how the two actions differ for the spin-2 fields, see flag 39 in `review/wiki-build-flags.md` ([two actions of reciprocity](/wiki/gravity/momentum-graviton/spectrum-and-parity#two-actions-of-reciprocity)). #11 §2's caution applies: "a verification script confirms arithmetic, not the model it encodes" ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
 ## Names and history
 
@@ -160,4 +160,4 @@ The two popular articles ([#10 and #12](/wiki/history/documents/popular-articles
 - `notes/broken-born-theory.md` 'Addendum (v0.6)', §7 — the result as first recorded, "vacuum energy = twice the tadpole"; the cosmology chapter that assigns dark energy to τ.
 - `notes/broken-born-program-v1.md` §0, §5, §8, §11 — v1's "four-line theorem", "Λ theorem" and "standalone" claim (superseded by #11).
 - `popsci/angle-of-the-mirror.md` 'What refused to die'; `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the popular accounts (never a status source).
-- `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, #8 §2's wording named as the accurate one, and #11 §7.3's "by symmetry" marked for checking; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, #8 §2's wording named as the accurate one, and #11 §7.3's "by symmetry" marked for checking; item 39 — the frame exchange against §6's Z → −Z⁻¹ on the spin-2 sector; both awaiting Paul's ruling.

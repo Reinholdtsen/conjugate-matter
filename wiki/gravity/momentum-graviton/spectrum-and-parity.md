@@ -10,6 +10,7 @@ sources:
   - "notes/debt1a-iv-beta-coefficients.md §2"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §7.3"
+  - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §7.4"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §15"
@@ -26,7 +27,8 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "review/v3-worklog.md 'Round-2 pending list'"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
-  - "review/wiki-build-flags.md items 5, 8"
+  - "review/wiki-build-flags.md items 5, 8, 39"
+  - "review/wiki-build-checks/rho_parity.py"
 ---
 
 *The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have equal Planck masses, a statement of calc note #8 §3 that #11 does not repeat. The count and the parities are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton).*
@@ -105,6 +107,10 @@ e − f   →   −(e − f)       odd     X, mass M_X
 
 #11 §7.5 [D] carries the result as "Massless graviton = reciprocity-even" and "X = reciprocity-odd".
 
+### Two actions of reciprocity
+
+The assignment uses reciprocity in the form the documents give for the spin-2 sector, the exchange of the two frames, e ↔ f (#8 §1; #11 §7.3), which [the palindrome](/wiki/gravity/palindromic-branch/palindrome#how-reciprocity-acts-the-frame-exchange) also needs. #11 §6 gives a second action, on the modular field: ρ: Z → −Z⁻¹, with fixed point Z = i ([reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)). Flag 39 in `review/wiki-build-flags.md` notes that the two give the massless graviton opposite parities. Linearized at Z = i, the inversion sends a small fluctuation x + ih, with x the fluctuation of X and h that of the metric, to −(x + ih) for every d, so h changes sign together with X (the flag's check prints this for d = 1, 2 and 3, `review/wiki-build-checks/rho_parity.py`). The documents state both actions and do not show how one becomes the other for the massless mode. The flag's audit (2026-10-22) found the parities right under the frame exchange and wrong under §6's map if the graviton is read as the fluctuation of Im Z; X is odd under either. It rated the flag as depending on which action is meant, and the flag awaits Paul's ruling.
+
 ### Equal Planck masses
 
 In bimetric gravity each metric has its own [Einstein–Hilbert term](/wiki/gravity/spin-2-fields/general-relativity), and the coefficient of that term, the metric's Planck mass, sets how strongly the metric responds to sources [T]; the v3 worklog (`review/v3-worklog.md`, item R7) writes the two as M_g and M_f. An exchange of the two metrics is a symmetry of the whole action only if it maps the two kinetic terms onto each other, which requires the two Planck masses to be equal [T]. Calc note #8 §3 states the result for the program's frames as "With equal effective Planck masses (forced by the same symmetry)", with no separate derivation.
@@ -137,7 +143,7 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 ## Sources
 
 - `notes/debt1a-iv-beta-coefficients.md` §3 — the count, the parities, the equal Planck masses and the selection rule [D + T]; §1 — the potential, the frames e and f and the palindrome; §2 — the tadpole and the identity V(1) = 2T
-- `papers/broken-born-checkpoint-v2.md` §7.5 — the current statement [D]; §7.3 — the palindrome and the identity; §7.4 — the point β₀ = −4β₁ − 3β₂; §13 — row 6; §15 — the predictions counted as not previously posed
+- `papers/broken-born-checkpoint-v2.md` §7.5 — the current statement [D]; §7.3 — the palindrome and the identity; §6 — reciprocity as Z → −Z⁻¹; §7.4 — the point β₀ = −4β₁ − 3β₂; §13 — row 6; §15 — the predictions counted as not previously posed
 - `verify/battery.py` T5 — the identity V(1) = 2T in exact integers; T6 — the linearization coefficients C(3, n−1)
 - `notes/debt1a-iii-tuning-test.md` §3 — the coefficients left open by the tuning test; §4 — the standard bimetric facts and the mixing-angle reading; §5 — the graviton-mass parametrics as a remaining check
 - `notes/debt1a-ii-X-classification.md` §3 — M_X as the polarization-breaking scale
@@ -145,4 +151,5 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 - `notes/broken-born-program-v1.md` §5, §9, §11 — the superseded v1 statement, its row 6 and its assessment
 - `review/v3-worklog.md` 'Round-2 pending list' — item R7: the Planck masses written M_g and M_f, and the stable heavy-spin-2 regime at M_f ≪ M_g
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — "acquired a large mass" (popular article; not a status source)
-- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5 and #9 §5; item 8 — "five-function" for five constant coefficients; both await Paul's ruling
+- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5 and #9 §5; item 8 — "five-function" for five constant coefficients; item 39 — the two actions of reciprocity on the spin-2 sector and the parities they give, with its audit verdict; all await Paul's ruling
+- `review/wiki-build-checks/rho_parity.py` — the linearization of Z → −Z⁻¹ at Z = i, for flag 39

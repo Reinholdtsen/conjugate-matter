@@ -20,7 +20,8 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "papers/conjugate-special-relativity.md §6"
   - "review/v3-worklog.md 'Round-2 pending list' R7"
-  - "review/wiki-build-flags.md item 5"
+  - "review/wiki-build-flags.md items 5, 39"
+  - "papers/broken-born-checkpoint-v2.md §6"
   - "verify/battery.py T5"
 ---
 
@@ -76,6 +77,8 @@ e + f   →    e + f        even    the massless graviton
 e − f   →  −(e − f)       odd     X, mass M_X
 ```
 
+The assignment holds for reciprocity acting as the frame exchange, the action #11 §7.3 states for the spin-2 sector. #11 §6 also states an action on the modular field, ρ: Z → −Z⁻¹, under which the metric fluctuation changes sign together with X at the fixed point Z = i. The documents do not show how one action becomes the other for the massless mode; flag 39 in `review/wiki-build-flags.md` records this, and its audit rated it as depending on which action is meant ([two actions of reciprocity](/wiki/gravity/momentum-graviton/spectrum-and-parity#two-actions-of-reciprocity)).
+
 ### What the parity does to the bounds
 
 The graviton-mass bounds from gravitational waves "apply to the even eigenstate, which is exactly massless" (#8 §3), and #11 §7.5 calls them "satisfied identically". The bound is met for every value of the program's two remaining parameters, because the even combination has no mass term for a bound to constrain. The odd combination carries the whole mass M_X, and no document gives M_X a value ([no value for M_X](/wiki/gravity/momentum-graviton/spectrum-and-parity#no-value-for-m_x)). The requirement is a structural statement, not a fit to data.
@@ -115,7 +118,7 @@ v1's assessment counted "even-eigenstate masslessness as a bimetric-parity state
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 row 6 — the row; §7.5 — the spectrum, the parities and "satisfied identically" [D]; §7.3 — the frame exchange and the palindrome; §7.1 — why X is massive [D + T]; §15 — the near-term rows and the rows not previously posed
+- `papers/broken-born-checkpoint-v2.md` §13 row 6 — the row; §7.5 — the spectrum, the parities and "satisfied identically" [D]; §7.3 — the frame exchange and the palindrome; §6 — reciprocity as Z → −Z⁻¹; §7.1 — why X is massive [D + T]; §15 — the near-term rows and the rows not previously posed
 - `notes/debt1a-iv-beta-coefficients.md` §3 — the parities, the equal Planck masses, safety by range and the bounds on the even eigenstate [D + T]
 - `notes/debt1a-iii-tuning-test.md` §4 — "Standard bimetric facts" and the earlier mixing-angle reading of the bound
 - `verify/battery.py` T5 — the identity V(1) = 2T in exact integers [V]
@@ -123,4 +126,4 @@ v1's assessment counted "even-eigenstate masslessness as a bimetric-parity state
 - `notes/broken-born-program-v1.md` §5, §9, §11 — v1's spectrum, its row 6 and its novelty claim
 - `papers/conjugate-special-relativity.md` §6 — the massless graviton shared by both polarizations
 - `review/v3-worklog.md` 'Round-2 pending list', item R7 — the equal Planck masses and the open stability question
-- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in the parameter count
+- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in the parameter count; item 39 — the two actions of reciprocity on the spin-2 sector, frame exchange (§7.3) and Z → −Z⁻¹ (§6), and the parities they give

@@ -31,7 +31,7 @@ sources:
   - "verify/toy_s5.py"
   - "verify/soliton_obituary.py"
   - "scripts/check.sh"
-  - "review/wiki-build-flags.md items 16, 19, 20, 23, 27, 29, 30"
+  - "review/wiki-build-flags.md items 16, 19, 20, 23, 27, 29, 30, 39"
 ---
 
 *This register lists the Broken-Born program's claims that currently stand: postulates, derived results and predictions that no calculation, review or observation has killed. Each line gives the claim, the tags its sources attach and what verifies it, grouped by the sections of the wiki. Standing is not the same as confirmed: most of these claims are untested by experiment, a machine check confirms the algebra but not whether the algebra describes nature, and the dark-energy sector is under pressure from current data.*
@@ -122,7 +122,7 @@ sources:
 | [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain): a massless X is excluded by the multi-graviton no-go, an ungauged X by Lorentz signature | [D + T] (#11 §7.1; calc note #6 §2) | a chain of symmetry and no-go arguments, not machine-checked |
 | [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs): the polarization choice breaks the dual diffeomorphisms, and X eats the would-be Goldstones | [D — structural] (calc note #6 §3); step (iii) of #11 §7.1, [D + T] | not machine-checked; M_X has no value in any source |
 | [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten): τ lives in the compact sector, not the Stückelberg sector | [D — leading order] (calc note #8 §3), carried in #11 §7.5, [D] | an argument from where each mode comes from, not machine-checked; the residual mixing is [OP6](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) |
-| [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity): five βₙ reduce to two parameters; the massless graviton is reciprocity-even and X odd | [D] (#11 §7.5); [D + T] (calc note #8 §3) | no battery test covers the count or the parities; its machine-checked inputs are V(1) = 2T and the coefficients of T (battery tests T5 and T6) |
+| [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity): five βₙ reduce to two parameters; the massless graviton is reciprocity-even and X odd, with reciprocity as the frame exchange (flag 39) | [D] (#11 §7.5); [D + T] (calc note #8 §3) | no battery test covers the count or the parities; its machine-checked inputs are V(1) = 2T and the coefficients of T (battery tests T5 and T6) |
 | [Safety by range: X and ordinary matter](/wiki/gravity/momentum-graviton/fifth-force-safety): Standard Model couplings to X have gravitational strength but are cut off by the Yukawa range 1/M_X | [D + T] (calc note #8 §3); [D] (#11 §7.5) | not machine-checked; no force measurement is cited |
 | [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer): momentum-space geometry is a reciprocity-odd massive spin-2 field | no tag of its own: a summary of results tagged [D + T], [D — structural], [D] and [D][V] | as for the results it assembles |
 
@@ -226,7 +226,7 @@ Rows 1–10 of #11 §13 stand. Row 11, particles or condensate, is a diagnostic 
 | [Row 3: the island discriminant](/wiki/predictions/island-discriminant): the knee's tail is sharp for particles and falls as (v\*/σ)⁴ for waves; a diagnostic | [D]; the tail's shape on the particle side [O] (#11 §14 item 4) | not machine-checked |
 | [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift): w₀ > −1, wₐ < 0, never phantom; under real pressure | [D + T] (#11 §10) | not machine-checked; the second data release "already favors a crossing above z ≈ 0.4" (#11 §13; round-3 ruling 11) |
 | [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion): the turnaround is the conjugate bounce | the bounce identity [D]; the supporting fits [T] | not machine-checked; long horizon (flag 27) |
-| [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton): the reciprocity-even spin-2 eigenstate is exactly massless | [D] (#11 §7.5); [D + T] (calc note #8 §3) | no check covers the parity assignment; V(1) = 2T is [V] (battery test T5) |
+| [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton): the reciprocity-even spin-2 eigenstate is exactly massless (on the parity, flag 39) | [D] (#11 §7.5); [D + T] (calc note #8 §3) | no check covers the parity assignment; V(1) = 2T is [V] (battery test T5) |
 | [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null): both candidates are decoupled from the Standard Model, with P4 strict | [P] (#11 §4), strict by round-3 Decision 1 | a postulate and a decision, not a derivation; not machine-checked |
 | [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null): a permanent null, with Berry-curvature monopoles in solids as the only shadow | the row untagged; the audit behind it [D], the dilution [T], the analog [16†] (#11 §11.1) | not machine-checked |
 | [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion): the linear term is exactly zero, protected by ρ², and the quadratic term is suppressed | [D, schematic] for the protection, [T] for the observational statement (#1 §4) | not machine-checked; no program document cites the bound |
@@ -247,4 +247,4 @@ Rows 1–10 of #11 §13 stand. Row 11, particles or condensate, is a diagnostic 
 - `notes/broken-born-theory.md` §2, §4, §5.1, §6, §7 — τ's assumed lightness, its fifth-force safety, the benchmark, the dictionary and the dark-energy items.
 - `notes/broken-born-program-v1.md` §7 — the net theorem's tag.
 - `verify/battery.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py`, `verify/soliton_obituary.py`, run by `scripts/check.sh` — the machine checks.
-- `review/wiki-build-flags.md` items 16, 19, 20, 23, 27, 29, 30 — the suspected source errors named in the tables.
+- `review/wiki-build-flags.md` items 16, 19, 20, 23, 27, 29, 30, 39 — the suspected source errors named in the tables; the flags' audit (2026-10-22) found items 19, 30 and 39 to depend on a convention or a reading and confirmed the others.
