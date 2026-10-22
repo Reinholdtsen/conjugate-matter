@@ -2,129 +2,206 @@
 title: "Open problems and the queue"
 weight: 30
 status: record
-description: "The checkpoint's open items OP1–OP11, the open questions the notes raise outside that list, the toy-model open ends, the history of the register, and the current work queue."
+description: "The checkpoint's open problems OP1–OP11, the current work queue, the toy-model open ends, every other open page and folded open section, the pending rulings on suspected source errors, and the history of the register."
 sources:
   - "CLAUDE.md 'Since the handoff'"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/reciprocity-toy-models.md §3"
+  - "papers/reciprocity-toy-models.md §4"
   - "papers/reciprocity-toy-models.md §6"
   - "review/round3-adjudication.md 'Decisions'"
+  - "review/round4-adjudication.md 'Rulings'"
+  - "papers/conjugate-special-relativity.md §3"
   - "papers/conjugate-special-relativity.md §7"
   - "HANDOFF.md §2"
   - "HANDOFF.md §8"
+  - "review/wiki-build-flags.md"
   - "notes/debt1a-iv-beta-coefficients.md §5"
   - "notes/debt1a-geometric-core.md §F"
   - "notes/broken-born-theory.md §11"
   - "notes/broken-born-program-v1.md §10"
+  - "notes/toy-lagrangian.md 'Chunk 4'"
   - "review/v3-worklog.md 'New open items'"
+  - "review/v3-worklog.md 'Round-2 pending list'"
 ---
 
-*This register lists what the program has not yet worked out: the eleven numbered open items of the checkpoint, the further open questions raised in the notes, the toy-model work and the reviews, and the order in which work is queued. Three of the numbered items stand between the program and the word "theory": deriving the interaction potential of its second graviton from the geometric action, comparing a vacuum-energy identity with the partially-massless literature, and extending proofs made for positive-definite metrics to the signature of spacetime. In the checkpoint's words, none of the open items is any longer about whether the structure can exist.*
+*This register lists the problems the Broken-Born program has not yet solved and the order in which work on them is queued. Its core is the eleven numbered open problems of [checkpoint #11](/wiki/history/documents/checkpoint), the program's current reference, which says that none of them is any longer about whether the structure can exist. Around that list it collects the current work queue, the open ends of the [toy models](/wiki/symmetry-breaking/toy-models), the open problems raised in the notes, the reviews and the other papers, and the open sub-questions recorded on pages about other subjects. #11 says the word "theory" still waits on three of the numbered problems: deriving the interaction potential of the program's second graviton from its geometric action, comparing a vacuum-energy identity with the literature on partially massless gravity, and extending proofs made for positive-definite metrics to the signature of spacetime. The register ends with the suspected errors in the source documents that were found while this wiki was built and that await Paul's ruling.*
 
-**Status:** Record, a register current to 2026-10-20 — the numbered items carry [O] in #11 §14 — the list is checkpoint #11's (`papers/broken-born-checkpoint-v2.md` §14), and the queue is the root `CLAUDE.md`'s, which supersedes `HANDOFF.md` §8.
+**Status:** Record, a register current to 2026-10-21 — no tags of its own; each item keeps its source's tag, and the numbered items carry [O] in #11 §14 — the numbered list is #11's (`papers/broken-born-checkpoint-v2.md` §14), the queue is the root `CLAUDE.md`'s, which supersedes `HANDOFF.md` §8, and the pending rulings are the items of `review/wiki-build-flags.md`.
 
-## Key facts
-
-- #11 §14 lists eleven open problems, each tagged [O]. Item 11, the toy Lagrangian, is "Met in the referees' wording" and keeps open ends.
-- In #11 §15 the word "theory" "still waits on items 1–3": the wedge reduction, the partially-massless comparison and the Lorentzian dressing.
-- The current queue, in order (root `CLAUDE.md`): first, `HANDOFF.md` §8 items 5–7, "the partially-massless comparison, the † literature battery, the phase-space-diameter note"; second, optionally, "a round-5 review of the toy note, but only before any external use".
-- The literature battery gates any submission. #11's footer: "Working checkpoint — not for submission until the † audit (open item 10) completes."
-- Debt 1 closed structurally with an open residue, "none of it existential" (calc note #8 §5): the wedge reduction, Lorentzian dressing, τ–Stückelberg mixing, the dual-stress enhancement and a literature check on Λ = 0. These are now #11 items 1, 3, 6, 5 and 2.
-- Several open questions sit outside #11 §14, raised in the calc notes, the toy-model work, the soliton episode, the lab notebook and #13; they are listed below by section.
-- The register grew from six items in the lab notebook (#1 §11) to eight in v1.0 (#9 §10) and eleven in #11 §14; "theory" waited on #9's items 1–2 and now waits on #11's items 1–3.
+An open problem with a page of its own is titled "Open: …", with its #11 number (OPn) when it has one. A smaller open question recorded on a page about another subject sits under a heading of the form "Open: …" on that page, and this register links that heading. Items tagged [O] carry the open tag in their source; the others are open because no document resolves them.
 
 ## The checkpoint's open items (#11 §14)
 
-1. [Deriving the wedge sector from the geometric action](/wiki/gravity/tuning-test/wedge-reduction) — first-principles reduction of the frame-tier wedge sector from S_H; the class was "selected, not derived" [O].
-2. [The partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) — a detailed comparison of the palindromic branch with partially-massless bimetric gravity [24S], and a convention-careful check of the vacuum-energy identity against [24S, 25S]: "is reciprocity the origin of the PM symmetry?" (PM: partially massless) [O]. First in the current queue.
-3. [Lorentzian dressing of the Euclidean skeleton](/wiki/phase-space/born-geometry/lorentzian-dressing) — the compatibility theorem, the Siegel parametrization and the chain that makes X massive were derived for positive H; extending them to spacetime signature is open [O] (calc note #6 §3).
-4. [The gate shape](/wiki/dark-matter/conjugate-matter/gate-shape) — the X propagator on the momentum fibers, Gaussian versus rational tail, "now observable" [O].
-5. [The dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — why σ₀ can be nuclear-scale while Standard Model couplings stay gravitational, the "main open quantitative item" of #11 §8 [O].
-6. [τ–Stückelberg mixing](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — the residual mixing of τ with the eaten modes through the potential, logged in calc note #8 as "expected small by compactness" [O].
-7. [Polarization-genesis and the 5.4 : 1 ratio](/wiki/dark-matter/candidates/polarization-genesis) — Ω_χ : Ω_b = 5.4 : 1, which applies to both remaining candidates (#11 §12) [O].
-8. [One modular structure for both polarizations](/wiki/electric-magnetic-duality/unified-modular-structure) — formalize §11.3's unification of phase-space and charge-lattice polarization [O]. The same item records: "The soliton-spectrum and p-localization items are closed by the §12 obituary."
-9. [Particles or condensate](/wiki/predictions/dark-sector-microstructure) — discriminating the two remaining dark-sector candidates, also prediction row 11 [O].
-10. [The † literature battery](/wiki/method/literature-battery) — every † reference source-checked [O]; in the current queue, and a precondition for any submission.
-11. [Acceptance criterion 1: the toy Lagrangian](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — met in the referees' wording by the coset model with a bounded potential. "Still open [O]: a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4."
+#11 §14 introduces its list as "What is honestly unfinished — none of it, any longer, about whether the structure can exist", and #11 §15 says that the word "theory" "still waits on items 1–3". Two of the eleven, items 2 and 10, are on the current queue; the others are unscheduled.
 
-## Open questions outside the checkpoint's list
-
-### Phase-space geometry
-
-- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — whether inverse-Higgs constraints eliminate most of the nine heavy moduli of Λ(d) [O] (calc note #5 §D, §F).
-- Connection uniqueness for the (ω, H)-only structure — proved for the full triple by Freidel, Rudolph and Svoboda, unproven once only ω and H are fundamental (calc note #5 §F); recorded on [The Born connection](/wiki/phase-space/born-geometry/born-connection).
-- Extensivity, the "soccer ball" problem — why macroscopic momenta do not probe momentum-space curvature [O] (#1 §11 item 6); absent from #9 §10 and #11 §14; recorded on [Curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
-
-### Spontaneous breaking of reciprocity
-
-- [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — a definite polarization needs a potential on the Goldstone angle, which introduces "a rigid, unordered pair of axes"; no derivation exists (toy-model note §6; root `CLAUDE.md`).
-- [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — "the strong form of matter locality" (root `CLAUDE.md`): no mechanism forces matter to couple through (H, K) (toy-model note §6).
-- [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — Mermin–Wagner applies to the compact SO(2), while the hyperbolic H-sector can break in two dimensions; whether ρ's SO(2) breaks without a potential is open (toy-model note §4, §6).
-- [Open: the real model's one-loop preference (a lead)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead) — the real model's two sign-vacua split at one loop, F(+) − F(−) = 2.634, in favour of the position-sharp one; explicit, not spontaneous, and its large-N renormalized fate is unknown (round-4 finding F4; toy-model note §3, §6).
-- The section condition on curved backgrounds — "consistency of the section condition on general backgrounds is open there and open here" (#1 §2); recorded on [The section condition](/wiki/symmetry-breaking/section-condition).
-
-### Gravity
-
-- [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the viable regime of the heavy-spin-2 cosmology literature takes M_f ≪ M_g, while reciprocity forces equal effective Planck masses (calc note #8 §3); "Whether a large mass alone is enough at M_f = M_g is open" (`review/v3-worklog.md`, round-2 item R7). Not itemized in #11 §14.
-
-### Dark matter
-
-- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — single topological objects might still localize in momentum. #11 says both that the loophole "remains untested, but has no candidate" (§12) and that the p-localization item is "closed by the §12 obituary" (§14 item 8); the two statements are not reconciled.
-- Calibration of the gated condensation rate — its coefficient is heuristic at the O(1)–O(10) level, and calibration against Levkov–Panin–Tkachev numerics is "a flagged to-do" (calc note #3; #9 §10 item 8), not itemized in #11 §14; recorded on [The gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
-- Prediction rows 1–2 in wave language — "Rows 1–2 must be re-derived in wave language" for wave dark matter (calc note #2); recorded on the same page.
-- Relic abundance of particle χ — a sub-GeV, strongly self-coupled sector connected only by gravity "cannot freeze out thermally without cannibalism problems" (#1 §5.3); folded into item 7, [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
-
-### Cosmology
-
-- [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — the lab notebook motivates near-constant dark energy as kinetic energy in the dual frame (#1 §6) and implements it as τ's potential energy (#1 §7); no document derives the link.
-- [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — #11 §10, #9 and #1 write V = V₀[1 + cos(τ/f)] and also need V < 0 for the turnaround; no document reconciles the two or settles the sign with an executed check.
-
-### Conjugate special relativity
-
-- [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency) — #13 §1 uses a 3+1 cone in (t, p) with slope c̃, while §6 calls E = c|p| the dual null cone, which belongs to the four-dimensional map; raised by Paul on 2026-10-19 as worklog item O3, and in neither #11 §14 nor the current queue.
-- [Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map) — the covariant construction that also exchanges time and energy, and the dual field equations it would allow (#13 §6–§7) [O].
-- #13 §7's further open items [O]: the factor 4 between its maximum force and the literature's c⁴/4G (on [The maximum force](/wiki/conjugate-relativity/maximum-force)), and "whether merger-band gravitational-wave data can bound dual-kinematic corrections" (on [Force boosts and force composition](/wiki/conjugate-relativity/force-boosts)).
-
-## The toy-model open ends
-
-The root `CLAUDE.md` lists four: a Monte Carlo with H dynamical ([item 11](/wiki/symmetry-breaking/toy-models/acceptance-criterion)); a derivation of the [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); [the strong form of matter locality](/wiki/symmetry-breaking/strong-locality); and the real Grosse–Wulkenhaar model's [one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead) for the position-sharp vacuum, "a lead". The note's own "Not shown" list (`papers/reciprocity-toy-models.md` §6) adds whether [ρ's SO(2) breaks](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) in the coupled model without a potential, and "anything beyond d = 1". Its §4 also leaves undone the comparison with the exact solution of a related model: "We have not carried it out."
+1. [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction) — the ghost-free interaction potential of the [momentum graviton X](/wiki/gravity/momentum-graviton), the frame-tier wedge class, was chosen by minimality and consistency rather than derived from the geometric action S_H: "class selected, not derived" [O]. The same gap in the language of the [modular field](/wiki/phase-space/modular-field) is [Open: the Re Z sector of the geometric action (OP1)](/wiki/phase-space/modular-field/modular-field-z#open-the-re-z-sector-of-the-geometric-action-op1), where calc note #5 restates the field equation for momentum-space geometry as the Re Z sector of S_H. One of the three items "theory" waits on.
+2. [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — a detailed comparison of the palindromic branch with partially massless (PM) bimetric gravity, asking "is reciprocity the origin of the PM symmetry?", and a "Convention-careful check of the vacuum-energy identity against [24S, 25S]" [O]. Until it is done the identity is presented as adjacent to known results, not as new. Current queue item 1, and one of the three items "theory" waits on. The reference [24S] is the subject of flag 9 below.
+3. [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the compatibility theorem, the Siegel parametrization and the chain that forces X to be massive are proven for a positive-definite phase-space metric; extending them to the signature of spacetime, where the group that leaves the vacuum fixed becomes non-compact, is open [O]. First flagged in calc note #6 §3, and one of the three items "theory" waits on. Flag 30 notes that #13's two causal cones depend on it.
+4. [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape) — whether the gate that switches off [conjugate matter](/wiki/dark-matter/conjugate-matter)'s self-interaction at large relative velocity falls off as a Gaussian or with a power-law (rational) tail, which depends on the X propagator along the momentum directions; "now observable" in the tail of the self-interaction knee [O]. #11 §15 counts "gate tail not yet forced" among the program's degeneration risks.
+5. [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — why conjugate matter can scatter off itself with a nuclear-scale cross-section while ordinary matter couples to X only at gravitational strength; #11 §8 calls it the "Main open quantitative item" [O].
+6. [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — how strongly the dark-energy field τ mixes, through the potential, with the modes that X absorbs when it becomes massive; calc note #8 §3 logged the mixing as "expected small by compactness", and no document computes it [O].
+7. [Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis) — no mechanism yet sets the observed ratio of dark to ordinary matter, Ω_χ : Ω_b = 5.4 : 1, the program's counterpart of baryogenesis [O]; #11 §12: "The 5.4 : 1 abundance question (polarization-genesis) applies to both" remaining candidates.
+8. [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — whether the vacuum's choice of which directions count as position and the choice of which charges count as electric are components of "one enlarged modular structure", the conjecture of #11 §11.3 [O]. The item adds: "The soliton-spectrum and p-localization items are closed by the §12 obituary." An older related clause is listed under electric–magnetic duality below.
+9. [Row 11: particles or condensate (OP9)](/wiki/predictions/dark-sector-microstructure) — telling the two remaining dark-matter candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and an [X-condensate](/wiki/dark-matter/candidates/x-condensate), apart through rows 1–3 of the predictions table and signatures of a coherent field [O]; a diagnostic row with no kill condition.
+10. [Open: the † literature battery (OP10)](/wiki/method/literature-battery) — checking every reference cited from model memory (†) against its source [O]. #11's footer reads "not for submission until the † audit (open item 10) completes". Current queue item 1. Flags 20 and 32 below are items for it; flag 9 concerns a live-searched reference and falls outside it.
+11. [Acceptance criterion 1: the toy Lagrangian (OP11)](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — "Met in the referees' wording" by the coset model of (H, K) with a bounded ρ-preserving potential. "Still open [O]: a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4" ([Open: the parts not yet met](/wiki/symmetry-breaking/toy-models/acceptance-criterion#open-the-parts-not-yet-met)). The open ends have their own section below.
 
 ## The work queue
 
 ### Current (root `CLAUDE.md`)
 
-1. `HANDOFF.md` §8 items 5–7: [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), [the † literature battery](/wiki/method/literature-battery), and [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), a write-up of a chat-only conjecture.
-2. Optional: a round-5 review of the toy-model note, "but only before any external use" (round 4 is on [Review round 4](/wiki/method/review/round-4)).
+1. `HANDOFF.md` §8 items 5–7: [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) (OP2), [the † literature battery](/wiki/method/literature-battery) (OP10), and [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), a write-up of a chat-only conjecture listed among the [conjectures](/wiki/status/conjectures).
+2. Optional: a round-5 review of the toy-model note, "but only before any external use". The last review of the note was [round 4](/wiki/method/review/round-4).
+
+The root `CLAUDE.md` drops `HANDOFF.md` §8 item 3 and gives its reasons in the "Decisions" section of `review/round3-adjudication.md`. No other open item is queued, including the open ends of the toy Lagrangian.
 
 ### The handoff's queue and what became of it (`HANDOFF.md` §8, superseded)
 
 1. Cut v3 of #14 — done; v3 failed the round-3 review with verdict C and was withdrawn ([Review round 3](/wiki/method/review/round-3)).
 2. Re-run the execution-verified blind audit — done, as round 3.
-3. The √N-floor freeze-out estimate — dropped: its premise is inverted and it has no candidate left to serve (round-3 Decision 3; [obituary](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
-4. The toy Lagrangian — "done to the referees' wording" (root `CLAUDE.md`).
+3. The √N-floor freeze-out estimate — dropped: its premise is inverted, and it has no candidate left to serve (round-3 Decision 3; [Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
+4. The toy Lagrangian — "done to the referees' wording" (root `CLAUDE.md`); its open ends are listed below.
 5. The partially-massless comparison — current queue item 1.
-6. The literature battery — current queue item 1. The same item's other task, resolving the gravity-induced kinetic-mixing question, was overtaken by strict sector separation (round-3 Decision 1).
-7. Optional write-ups: the phase-space-diameter note is current queue item 1; LaTeX and arXiv shaping were to wait until items 1–5 were done.
+6. The literature battery — current queue item 1. The same item's other task, resolving the gravity-induced kinetic-mixing question, was overtaken by strict sector separation (round-3 Decision 1; [P4](/wiki/program/postulates/p4-polarized-matter)).
+7. Optional write-ups — the phase-space-diameter note is current queue item 1; LaTeX and arXiv shaping were to wait until items 1–5 were done.
+
+## The toy-model open ends
+
+The root `CLAUDE.md` lists four open ends of the toy Lagrangian: a Monte Carlo with H dynamical; a derivation of the ρ-preserving potential; the strong form of matter locality; and the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, "a lead". The first three are the parts of acceptance criterion 1 that #11 §14 item 11 still lists as open. The toy-model note's own "Not shown" list (`papers/reciprocity-toy-models.md` §6) covers the same four and adds two, and its §4 leaves one comparison undone.
+
+1. **A Monte Carlo with H dynamical.** [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction#open-a-monte-carlo-with-h-dynamical) — the ordered ℤ₂ phase has been simulated only with the metric field H frozen; for the full model there is only a classical check that the vacuum is a minimum with all four field directions free.
+2. **A derivation of the ρ-preserving potential.** [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — a definite polarization needs a potential that keeps reciprocity as a symmetry but pins the polarization angle; it brings in "a rigid, unordered pair of axes", more fixed structure than postulate [P2′](/wiki/program/postulates/p2-prime) provides, and nothing derives it.
+   - [Open: where the potential comes from](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential#open-where-the-potential-comes-from) — the bounded potential V_b that the toy uses is put in by hand and fixes the pair of axes up to sign.
+3. **The strong form of matter locality.** [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — no mechanism forces matter to interact through a coupling built from H and the order parameter K, so in the toy, locality in position comes from postulate P4, packaged with a momentum-local mirror sector, rather than being derived; the worklog adds that the question is "also open in the literature".
+   - [Open: locality is assumed, not derived](/wiki/symmetry-breaking/mandatory-breaking#open-locality-is-assumed-not-derived) — the argument that the breaking is mandatory runs from locality to a selected polarization; the toy models test the converse and find only its weak form.
+4. **The real model's one-loop preference, "a lead".** [Open: the real model's one-loop preference (a lead)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead) — in the real-field Grosse–Wulkenhaar model the first quantum correction gives the vacuum sharper in position the lower free energy, F(+) − F(−) = 2.634 at truncations N = 6, 8 and 10. The selection is explicit, not spontaneous, it holds at fixed bare μ², and "the large-N, renormalized fate of the real model's one-loop selection" is not shown (note §3, §6; round-4 finding F4).
+   - [Open: why position rather than momentum](/wiki/program/postulates/p5-spontaneous-selection#open-why-position-rather-than-momentum) — the same lead as it bears on postulate P5, which takes our position-tilted vacuum as given.
+5. **Whether ρ's SO(2) breaks in the coupled model.** [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — in two dimensions the compact polarization angle cannot order by itself ([the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)), but model I's metric sector is a hyperbolic sigma model, which can; whether the coupled model breaks ρ's SO(2) without a potential is open (round-4 point C2; note §6).
+6. **Anything beyond d = 1.** Both toy models take a phase space with one position and one momentum direction, d = 1, and "anything beyond d = 1" is not shown (note §6). The worklog's untested remark on 3+1 dimensions is listed among the [conjectures](/wiki/status/conjectures).
+7. **The comparison with the exact solution.** [Open: the comparison with the exact solution](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#open-the-comparison-with-the-exact-solution) — the note names Langmann, Szabo and Zarembo's exact solution of a related model as the check on quantum restoration in the complex model: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4).
+
+Four pages collect several of these open ends as they bear on their own subject:
+
+- [Open: the parts not yet met](/wiki/symmetry-breaking/toy-models/acceptance-criterion#open-the-parts-not-yet-met) — acceptance criterion 1: #11's three remaining parts and the real-model lead.
+- [Open: what the toy models leave undecided](/wiki/symmetry-breaking/goldstone-angle#open-what-the-toy-models-leave-undecided) — [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle): the coupled model without a potential, H dynamical, the potential's origin and more dimensions.
+- [Open: the extra structure the refinement needs](/wiki/program/postulates/p2-prime#open-the-extra-structure-the-refinement-needs) — postulate P2′: the potential's origin, the unreduced model and the step beyond d = 1.
+- [Open: what a derived selection still lacks](/wiki/program/postulates/p5-spontaneous-selection#open-what-a-derived-selection-still-lacks) — postulate [P5](/wiki/program/postulates/p5-spontaneous-selection): the same three, with the worklog's remark on 3+1 dimensions.
+
+## Open problems outside the checkpoint's list
+
+These items are open in the record but are not among #11 §14's eleven, and none is on the current queue. Most were raised in the calc notes, the lab notebook, the reviews or #13 and are not in #11's current list; two were found when the sources were read side by side for this wiki.
+
+### Phase-space geometry
+
+- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — once the vacuum has chosen a polarization, the geometry leaves the ordinary metric, X, the dark-energy field τ, nine further moduli and matter; whether inverse-Higgs constraints remove the nine was never worked out (calc note #5 §D, §F item 4).
+- [Open: connection uniqueness under P2′](/wiki/phase-space/born-geometry/born-connection#open-connection-uniqueness-under-p2) — Freidel, Rudolph and Svoboda proved the Born connection unique for the full triple (ω, η, H); whether ω and H alone fix it is item 5 of calc note #5 §F, and it was not carried into #11 §14.
+- [Open: a mechanism that selects one section](/wiki/phase-space/born-geometry/double-field-theory#open-a-mechanism-that-selects-one-section) — the double-field-theory literature either selects the pair of null sections or uses outside input, and nothing picks one of the two; the toy's section condition "confines matter to one null line without telling the two apart" (toy-model note §5; worklog chunk 4).
+- [Open: extensivity (the soccer-ball problem)](/wiki/phase-space/reciprocity/curved-momentum-space#open-extensivity-the-soccer-ball-problem) — why the large total momenta of everyday bodies do not probe the curvature of momentum space; the lab notebook's sixth open problem [O] (#1 §11), dropped from later lists without a resolution.
+
+### Spontaneous breaking of reciprocity
+
+- [Open: the section condition on curved backgrounds](/wiki/symmetry-breaking/section-condition#open-the-section-condition-on-curved-backgrounds) — "consistency of the section condition on general backgrounds is open there and open here" (#1 §2) [O]; no later document takes it up, and the toy models, set in flat phase space, do not reach it.
+
+The open problems of the toy models are listed in their own section above.
+
+### Gravity
+
+- [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the analysis that finds a heavy spin-2 field linearly stable at late times assumes that the second metric's Planck mass is much smaller than the first, while reciprocity forces the two to be equal: "Whether a large mass alone is enough at M_f = M_g is open" (`review/v3-worklog.md`, round-2 item R7).
+
+### Dark matter
+
+- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — a single topological object might localize in momentum, a case that the collective calculations of Debt 3 do not test. #11 says both that the loophole "remains untested, but has no candidate" (§12) and that the "p-localization items are closed by the §12 obituary" (§14 item 8), and does not reconcile the two.
+- [Open: calibration of the coefficient c](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-calibration-of-the-coefficient-c) — the coefficient of the wave-island condensation rate is heuristic, and its calibration against Levkov–Panin–Tkachev numerics is "a flagged to-do" (calc note #3; #9 §10 item 8); #11 §9 marks the coefficients [O] but does not itemize the task.
+- [Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language) — "Rows 1–2 must be re-derived in wave language" (calc note #2); calc note #3 supplies a wave form of the knee's tail, and no document restates the isotropy of row 2 for a wave halo.
+- The relic abundance of particle χ — a light, strongly self-coupled sector connected to ordinary matter only by gravity "cannot freeze out thermally without cannibalism problems" (#1 §5.3), so its abundance needs an asymmetry. It is part of OP7, [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
+
+### Electric–magnetic duality
+
+- [Open: the electric-sublattice clause](/wiki/electric-magnetic-duality/unified-modular-structure#open-the-electric-sublattice-clause) — the handoff's and #14's wordings of acceptance criterion 1 asked the [order parameter](/wiki/symmetry-breaking/order-parameter) also to select the electric sublattice; the toy models that met the criterion contain no gauge field and no charge lattice, and nothing in the repository addresses the clause.
+
+### Cosmology
+
+- [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — the lab notebook motivates a near-constant dark energy as kinetic energy in the momentum-space description of the universe (#1 §6) and implements it as the potential energy of τ (#1 §7); no document derives one from the other.
+- [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — the documents write V = V₀[1 + cos(τ/f)], which is never negative for V₀ > 0, yet the far-future turnaround needs V < 0; no document reconciles the two (flag 27).
+
+### Conjugate special relativity
+
+- [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency) — #13 §1 builds the momentum-space light cone in time and momentum with slope c̃, while §6 calls E = c|p| the dual null cone, which by the worklog's analysis belongs to the unbuilt four-dimensional map; raised by Paul on 2026-10-19 as worklog item O3, with the instruction to settle which construction governs before any paper claims more.
+- [Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map) — the construction that also exchanges time and energy, and the field equations of the momentum polarization that it would allow (#13 §6–§7) [O].
+- [Open: the factor of 4](/wiki/conjugate-relativity/maximum-force#open-the-factor-of-4) — between #13's [maximum force](/wiki/conjugate-relativity/maximum-force) c⁴/G and the literature's c⁴/4G; first among #13 §7's open items [O], and nothing is computed on it.
+- [Open: merger-band corrections](/wiki/conjugate-relativity/force-boosts#open-merger-band-corrections) — "whether merger-band gravitational-wave data can bound dual-kinematic corrections" (#13 §7); the arena is "flagged, not derived" (#13 §2) [O].
+- [Open: which clocks respond](/wiki/conjugate-relativity/force-dilation#open-which-clocks-respond) — #13 §3 restricts [force dilation](/wiki/conjugate-relativity/force-dilation) to conjugate-polarized systems and leaves the rest open: "which physical clocks respond is polarization-dependent, O". The question is missing from #13 §7's own open list, from #11 §14 and from the queue.
+- [Open: the invariant length against the checkpoint's kinematics](/wiki/conjugate-relativity/invariant-length-shell#open-the-invariant-length-against-the-checkpoints-kinematics) — #13 §4 labels conjugate quanta by an invariant length λ instead of a mass, while #11 §8 describes χ in ordinary kinematics; worklog item O3: "The papers were never reconciled." #11 governs for the χ candidate, and the item is unscheduled.
+
+## Pending rulings
+
+`review/wiki-build-flags.md` lists the suspected errors in the source documents that the verifiers found while this wiki was built. The wiki quotes each source as written and corrects none of them; every item needs Paul's ruling. Where arithmetic is involved, the verifier's executed check is kept in `review/wiki-build-checks/`, outside [the gate](/wiki/method/verification/the-gate), and a ruling that accepts a flag should add the check to `verify/`. One line per flag, with the page that discusses the statement:
+
+1. Calc note #5 §B, echoed in #11 §5 and #9 §3, calls the polarizations that are Lagrangian for ω and null for η "discrete"; for d ≥ 2 they form continuous families, though the conclusion, no Maslov circle and so no τ, survives ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
+2. The toy-model note §5 calls the coupling I "odd in K", but I ≥ 0, so it is only not invariant under K → −K ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)).
+3. Calc note #7 gives the zero set of the misalignment potential as "X = 0 and Y = Y⁻¹"; the verifier's check finds it larger (at d = 1 the whole self-dual circle |Z| = 1, not only Z = i), which leaves a flat direction at quadratic order; a ruling is needed on whether this is intended and whether it affects the vacuum structure ([the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)).
+4. Calc note #7 §2 expands S as "S = 2h + x² + O(3)", omitting a term −h²; the quadratic Fierz–Pauli test, which uses only S ≈ 2h, is unaffected ([the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures)).
+5. #11 §7.5 and #9 write M_X ∝ 2(β₁+β₂), though the β combination fixes the squared Fierz–Pauli mass, as their source, calc note #8 §3, writes it; notation only ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
+6. "By symmetry rather than tuning" (#1 addendum v0.6, #10) overstates the vacuum-energy identity, since the flatness condition V(1) = T is itself one condition on the βₙ; #11 §7.3's "by symmetry" is to be checked against it ([the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)).
+7. #11 §7.1's "the unique consistent structure" drops calc note #6 §3's qualifier, "exactly one *known* consistent structure"; #6 §5 and #9 also drop it ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)).
+8. Calc note #8 §3 says "five-function freedom" for five constant coefficients βₙ, which would be "five-parameter" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)).
+9. #11's reference [24S] (arXiv:1609.09515) has no authors, and its title may be a description; being live-searched, it falls outside the † battery ([the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison)).
+10. Smaller pointers and wordings: #1 §1 points to §5 for the dark-energy potential, which is in §3 ([the lab notebook](/wiki/history/documents/lab-notebook)); the toy-model worklog lists "ρ sits inside a continuous U(1)" as unpredicted although its predictions anticipated the restored U(1) ([success criteria](/wiki/symmetry-breaking/toy-models/success-criteria)); `verify/toy_s5.py` part C still says "built from K" ([the (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)); and the round-4 referee's audit notes use "boost" for two different families ([review round 4](/wiki/method/review/round-4)).
+11. The model-II tadpole grows as "ln N" in the toy-model note v2 §4 and as 2 ln N in the round-4 referee's notes and the adjudication; `verify/toy_gw.py` checks only one harmonic series; recorded as conflict C29 ([quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)).
+12. `review/round4-adjudication.md` calls the zero mode of V_b an "exact" squeeze symmetry; a symbolic check finds V_b not squeeze-invariant away from K = ±K_ref, and the wiki follows the note v2's "not symmetry-protected" ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
+13. The toy-model note's ⟨|m|⟩ = 0.954 ± 0.0001 "at every size" is a conservative bound; `verify/toy_s4.py` prints ± 0.0000 at L = 64 ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
+14. Calc note #7 §2's "Tr(g²) = p₄ of the square-root eigenvalues" holds for the eigenvalues of √(f⁻¹g), not for the √(g⁻¹f) that the bimetric potentials use; the conclusion, outside the eₙ span (battery T7), stands ([elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials)).
+15. Calc note #6 §2's phrase "η antisymmetric-pairing vs ω" reads as calling η antisymmetric; η is the symmetric neutral metric and ω the antisymmetric form ([the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner)).
+16. `HANDOFF.md` §2 marks the Debt-3 shortfall "fails by 10²⁸–10³¹" as machine-verified, but no script in `verify/` checks it, and #11 §9 tags it [D]; the verifier's recomputation reproduces it and could be moved into `verify/` ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
+17. Calc note #6 §4 writes the gate as e^{−(p₁−p₂)²/2μ²} and #1 §5.1 as e^{−k²/μ²}, which differ by √2 in μ; #13 §4 mixes the two, and no stated number changes ([the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate)).
+18. #1 §8 dates the "maturity" of baryogenesis to 1966, while Sakharov's conditions are usually dated 1967 (model memory, †, unchecked) ([polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis)).
+19. Calc note #2's classicality corollary evaluates the broad-gate formula at Milky Way conditions, which #2 itself treats as the narrow-gate regime; the occupation number is much greater than 1 either way, so the conclusion is unchanged ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)).
+20. #11's reference [23]† gives the title and journal of "Bigravitational origin of dark matter" with the arXiv number of its companion paper, "Heavy spin-2 Dark Matter"; found by live search, and an item for the † battery ([bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter)).
+21. Round-3 ruling 3 credits the referee's Kibble–Zurek integration with "1e9–1e12 overproduction", but the integration gave 1.1e12–2.2e12, and the lower end comes from the Liveoak–Maharana–Wells analytic estimate; the verdict is unaffected ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)).
+22. #14 gives Planck's N_eff interval as "2.99 +- 0.34", where the round-3 referee's audit records +0.34/−0.33; the bound uses only the upper side, so nothing changes ([the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+23. #11 §6 and §10 identify the cosmological constraint a·ã = 1 with the |Z| = 1 locus; the check finds a·ã = 1 along the whole imaginary axis at X = 0, which meets |Z| = 1 only at Z = i. The identification also appears in calc note #5 §C, #1 addendum v0.3 and `HANDOFF.md` §2 ([the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint)).
+24. The chat-only diameter relation is "square exactly at the bounce" without saying which bounce; if the turnaround is meant, the rectangle would be most elongated there ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)).
+25. #1 §1 (P2) and §4 cite "§7" for the cosmological constraint, which #1 derives in §6 ([the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint)).
+26. `HANDOFF.md` §2 calls the third data release of the Dark Energy Spectroscopic Instrument "three-year data", but the second release already covers three years of operations, as a live search found ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)).
+27. The turnaround needs V(τ) < 0, but the stated potential V₀[1 + cos(τ/f)] has minimum 0 for V₀ > 0 (#11 §10, #9, #1 §7); either an offset is missing or the turnaround needs another mechanism, which bears on row 5 and on the dark-energy over-constraint ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+28. #11 §11.2 writes our magnetic coupling as 4π/e² ≈ 34; with α = e²/4π that expression is 1/α ≈ 137, while e·g = 2π gives 1/(4α) ≈ 34.26, so the number is right and the formula beside it is not ([the convention behind 34](/wiki/electric-magnetic-duality/magnetic-mirror-family#the-convention-behind-34)).
+29. #13 §1 and §6 cite #11 §7 for X's effect being "in momentum", which #11 §7 does not say; its "Yukawa-cut at 1/M_X" is a range in position, and the momentum reading appears only among the chat-only results ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)).
+30. #13 §1 tags its two causal cones "[D — compatibility theorem]", but that theorem's metric is positive-definite and has no null cone; the cones need the Lorentzian dressing, which is OP3 ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)).
+31. A lead, not a confirmed error: #1 §4 puts quadratic photon dispersion "~10 orders below current sensitivity" with no script behind it; with a bound from the Fermi Large Area Telescope taken from model memory (†), the gap is about 8 orders in the energy scale, and the bound must be verified before acting ([row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion)).
+32. A lead from model memory (†): CMB-S4, the cosmic microwave background experiment that #11 names as the probe for row 10, may have lost its United States funding in 2025; unchecked, and an item for the † battery ([row 10: an early step in G_eff](/wiki/predictions/early-universe-step)).
+33. `verify/soliton_obituary.py` says it recomputes every number the round-3 record quotes, but it does not check the referee's numbers in rulings 3 and 4, ruling 6's figure, or the surviving benchmark arithmetic ([what it does not check](/wiki/method/verification/soliton-obituary-script#what-it-does-not-check)).
+34. The same script calls its constants "PDG and Planck 2018 values", PDG being the Particle Data Group, without its predecessor's caveat that they come from model memory; the values are typed in, not retrieved ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)).
+35. `review/round3-preregistration.md` line 5 cites `HANDOFF.md` §6 for the 2-for-2 pre-registration record, which is in §5 ([pre-registration and its calibration record](/wiki/method/review/pre-registration)).
+36. `verify/battery.py`'s docstring and #11 §7.2 place the figures "66.58 vs 63.72" in #11 §2, which does not print them; they are in `HANDOFF.md` §5 ([the verification battery](/wiki/method/verification/battery)).
+37. `README.md` still describes the program as explaining "missing magnetic monopoles", an explanation that `HANDOFF.md` §2 and #11 §11.1 list as dead ([CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
+38. The root `CLAUDE.md` says "#11 is now v2.1" where the file is v2.2, and its Layout names two of the six scripts that `scripts/check.sh` runs ([CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
 
 ## History of the register
 
-- **The lab notebook** (#1 §11, version 0.1) listed six open problems "in order of severity". The field equation for H became Debt 1 and was closed structurally by calc note #8; for the gate, the mechanism was found (X-exchange, addendum v0.3) while the shape stays open as item 4; the stream-instability growth rate was answered negatively by Debt 3 (addendum v0.2); polarization-genesis is now item 7; relic abundance closed only on the wave island, by misalignment (addendum v0.2); extensivity dropped out of later lists.
-- **The program v1.0** (#9 §10) listed eight, including the X-condensate as the dark matter itself, tagged "[O — direction, deliberately unopened]", and literature verifications; "theory" waited on its items 1–2.
-- **The handoff** (`HANDOFF.md` §2, "Open (the real frontier)") listed eight. The toy Lagrangian is now met in the referees' wording, though its wording there also asked η to select "the electric sublattice", which neither the toy-model note nor its worklog addresses. The strong-coupling freeze-out and the √N floor went with the soliton candidate; kinetic mixing was addressed by taking P4 strictly (round-3 Decision 1); the partially-massless comparison, the wedge reduction, Lorentzian dressing, the gate shape, the dual-stress enhancement and polarization-genesis carried over; the three-way candidate question became item 9 with two candidates.
-- **The checkpoint** (#11 §14) lists eleven. Version 2.1 closed the soliton-spectrum and p-localization items with the §12 obituary, and version 2.2 recorded item 11 as met.
+- **The lab notebook** (#1 §11, version 0.1) listed six open problems "in order of severity". The field equation for H became Debt 1, closed structurally by calc note #8; for the gate, the mechanism was found (X exchange, addendum v0.3) while the shape stays open as OP4; the stream-instability growth rate was answered negatively by Debt 3 (addendum v0.2); polarization-genesis is now OP7; the relic abundance closed only on the wave island, by misalignment production (addendum v0.2); extensivity dropped out of later lists and is listed above.
+- **The program v1.0** (#9 §10) listed eight, including the X-condensate as the dark matter itself, tagged "[O — direction, deliberately unopened]", and a set of literature verifications; "theory" waited on its items 1–2.
+- **The calc notes' residue.** Calc note #8 §5 closed Debt 1 structurally with an open residue, "none of it existential": the wedge reduction, the Lorentzian dressing, τ–Stückelberg mixing, the dual-stress enhancement and a literature check on Λ = 0. These are now OP1, OP3, OP6, OP5 and OP2.
+- **The handoff** (`HANDOFF.md` §2, "Open (the real frontier)") listed eight. The toy Lagrangian is now met in the referees' wording, though its wording there also asked η to select "the electric sublattice", which nothing addresses (see the electric-sublattice clause above). The strong-coupling freeze-out and the √N floor went with the soliton candidate; kinetic mixing was addressed by taking P4 strictly (round-3 Decision 1); the partially-massless comparison, the wedge reduction, the Lorentzian dressing, the gate shape, the dual-stress enhancement and polarization-genesis carried over; the three-way candidate question became OP9 with two candidates.
+- **The checkpoint** (#11 §14) lists eleven. Version 2.1 closed the soliton-spectrum and p-localization items with the §12 obituary, and version 2.2 recorded item 11 as met in the referees' wording.
 
 ## Sources
 
 - `CLAUDE.md` "Since the handoff" — the current queue; the toy-model open ends; the dropped queue item 3.
-- `papers/broken-born-checkpoint-v2.md` §14, §15, §12, footer — the eleven items; "theory" waits on items 1–3; the loophole statement; the submission gate.
-- `papers/reciprocity-toy-models.md` §3, §4, §6 — the "Not shown" list and the unperformed comparison.
+- `papers/broken-born-checkpoint-v2.md` §14, §15, §12, §8, footer — the eleven items; "theory" waits on items 1–3; the loophole statement; the main open quantitative item; the submission gate.
+- `papers/reciprocity-toy-models.md` §3, §4, §6 — the real-model lead, the unperformed comparison and the "Not shown" list.
 - `review/round3-adjudication.md` "Decisions" — strict P4, the candidate retired, the √N floor dropped, the toy Lagrangian next.
-- `papers/conjugate-special-relativity.md` §6, §7 — #13's open construction items.
+- `review/round4-adjudication.md` "Rulings" — finding F4 and the SO(2) point.
+- `papers/conjugate-special-relativity.md` §2, §3, §6, §7 — #13's open items.
 - `HANDOFF.md` §2, §8 — the handoff's open list and ranked queue.
-- `notes/debt1a-iv-beta-coefficients.md` §3, §5 — equal Planck masses; the Debt-1 residue.
+- `review/wiki-build-flags.md` — the pending rulings, items 1–38.
+- `notes/debt1a-iv-beta-coefficients.md` §3, §5 — τ–Stückelberg mixing logged; the Debt-1 residue.
 - `notes/debt1a-geometric-core.md` §D, §F — the inverse-Higgs question; connection uniqueness.
 - `notes/broken-born-theory.md` §2, §5.3, §6, §7, §11 and addendum v0.2 — the original six items and their fates.
-- `notes/broken-born-program-v1.md` §10, §11 — the v1.0 list of eight.
+- `notes/broken-born-program-v1.md` §10 — the v1.0 list of eight.
 - `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md` — rows 1–2 in wave language; the calibration to-do.
+- `notes/toy-lagrangian.md` "Chunk 4" — strong locality "also open in the literature"; the section-selection verdict.
 - `review/v3-worklog.md` "Round-2 pending list", "New open items" — items R7 and O3.
