@@ -23,7 +23,7 @@ sources:
 
 *The Lagrangian Grassmannian Λ(d) is the space of all ways to split a 2d-dimensional phase space into a "position" half and a "momentum" half. Each [Lagrangian subspace](/wiki/phase-space/reciprocity/lagrangian-polarizations), a d-dimensional plane on which the symplectic form vanishes, is one point of it. For d = 1 it is the set of lines through the origin of the (x, p) plane, which is a circle; in general it is the compact manifold U(d)/O(d), of dimension 10 when d = 4. It contains a loop that cannot be shrunk to a point, the Maslov circle, so any angle measured around that loop is periodic. It also forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain). In the program it is the space of possible vacuum polarizations, and its circle direction carries the dark-energy field. The mathematics is standard.*
 
-**Status:** Established — standard mathematics [T] (#1 §2 tags the definition, the dimension and π₁ = ℤ [T]; #11 §6 tags the Shilov-boundary statement [T]; calc note #5 marks it "[standard]") — not machine-checked as such; its d = 1 case, Λ(1), is the compact Goldstone direction of the toy model checked in `verify/toy_coset.py`.
+**Status:** Established — standard mathematics [T] ([#1](/wiki/history/documents/lab-notebook) §2 tags the definition, the dimension and π₁ = ℤ [T]; [#11](/wiki/history/documents/checkpoint) §6 tags the Shilov-boundary statement [T]; [calc note #5](/wiki/history/documents/debt-1-notes) marks it "[standard]") — not machine-checked as such; its d = 1 case, Λ(1), is the compact [Goldstone direction](/wiki/symmetry-breaking/goldstone-and-higgs) of the [toy model](/wiki/symmetry-breaking/toy-models/coset-model) checked in `verify/toy_coset.py`.
 
 ## What it is
 
@@ -67,7 +67,7 @@ The program's statements are brief. Calc note #5: "**Λ(d) is the Shilov boundar
 
 ### Lost under strict P2, restored under P2′
 
-Under the [original P2](/wiki/program/postulates/original-p2), which froze both ω and the neutral metric η, calc note #5 found: "The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is **discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**" (§B). This is part of the [nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) that forced the repair.
+Under the [original P2](/wiki/program/postulates/original-p2), which froze both ω and the neutral metric η, calc note #5 found: "The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is **discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**" (§B; on "discrete", see flag 1 in `review/wiki-build-flags.md`). This is part of the [nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) that forced the repair.
 
 Under [P2′](/wiki/program/postulates/p2-prime), only ω is rigid, and "the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ. The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian — π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B; #11 §4 writes P2′ with the same η = HJ). Here I = ω⁻¹H is the complex structure of [Born geometry](/wiki/phase-space/born-geometry/born-structures). The identification is standard [T]: such a J is fixed by its +1 eigenspace, which is a Lagrangian subspace, and every Lagrangian subspace arises this way. Choosing J is choosing which directions count as position, and the possible choices are the points of Λ(d). In the language of [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking), Λ(d) is the vacuum manifold of the polarization.
 
@@ -81,17 +81,6 @@ At d = 4 the polarization has ten directions in which to vary. Calc note #7 make
 
 In the d = 1 coset model of the toy-model note, the vacua at H = 1 are the real structures K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]], a circle of them (§2). "The potential's Hessian has rank 1 at the vacuum. That leaves three Goldstone directions: the two non-compact half-plane directions, and the compact angle φ, which parametrizes the Lagrangian Grassmannian Λ(1)" (§2). The gate prints `PASS  potential Hessian has rank 1: three flat directions (Goldstones), one massive  [[0, 4, 0, 0]]` (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The worklog: "The compact Goldstone is the rotation of K at fixed H: the Lagrangian Grassmannian Λ(1), which is the checkpoint's Maslov circle (the τ field of §10)" ('Chunk 1 results'). #11 §10: "In the coset model that angle parametrizes Λ(1): it is τ's circle." See [model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua) and [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle). Because Λ(1) is a single circle, the toy has no counterpart of the nine other directions.
 
-## Used by
-
-- [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — the dark-energy field is the angle around the Maslov circle.
-- [The Siegel domain](/wiki/phase-space/modular-field/siegel-domain) — Λ(d) is its Shilov boundary.
-- [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) and [original P2](/wiki/program/postulates/original-p2) — the vacuum's real structure ranges over Λ(d) under P2′ and over a discrete set under P2.
-- [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric) — the second frame confined to the ten compact moduli.
-- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the fate of the nine non-Maslov directions.
-- [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) — τ as a compact modulus, not a Stückelberg mode.
-- [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua) and [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) — Λ(1) as the toy's compact Goldstone direction.
-- [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis) — the lab notebook's sketch, in which the nine heavy directions decay at reheating.
-
 ## Standard references
 
 - V. P. Maslov, *Theory of Perturbations and Asymptotic Methods* (1965) † — the index that bears his name.
@@ -99,6 +88,22 @@ In the d = 1 coset model of the toy-model note, the vacua at H = 1 are the real 
 - L. K. Hua, *Harmonic Analysis of Functions of Several Complex Variables in the Classical Domains* (English translation 1963) † — the Shilov boundaries of the classical domains.
 
 The program's documents cite none of these; they tag the facts [T] or "[standard]".
+
+## Used by
+
+- [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) and [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the dark-energy field is the angle around the Maslov circle.
+- [The Siegel domain](/wiki/phase-space/modular-field/siegel-domain) — Λ(d) is its Shilov boundary.
+- [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — no Grassmannian in the rigid version, τ on its boundary in the free one.
+- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) and [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — the vacuum's real structure ranges over Λ(d) once only ω is rigid.
+- [Original P2](/wiki/program/postulates/original-p2) and [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — under strict P2 the polarizations form what #5 calls a discrete set (see flag 1 in `review/wiki-build-flags.md`), with no Grassmannian and no τ.
+- [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — the possible choices of polarization.
+- [The order parameter: J, η and K](/wiki/symmetry-breaking/order-parameter) — the manifold of values the order parameter can take.
+- [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua), [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — Λ(1) as the toy's compact Goldstone direction.
+- [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), [Born's answer](/wiki/gravity/momentum-graviton/borns-answer) and [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — the second frame confined to the compact Λ(4).
+- [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) and [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — τ as a compact modulus, not a Stückelberg mode.
+- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the fate of the nine non-Maslov directions.
+- [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis) — the lab notebook's sketch, in which the nine heavy directions decay at reheating.
+- [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the space of phase-space polarizations in the conjectured structure.
 
 ## Sources
 

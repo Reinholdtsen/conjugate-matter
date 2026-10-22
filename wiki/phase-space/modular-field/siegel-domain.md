@@ -26,7 +26,7 @@ sources:
 
 *The Siegel domain is the space of complex symmetric d × d matrices Z = X + iY whose imaginary part Y is positive definite. For a single coordinate (d = 1) it is the upper half of the complex plane; for larger d it is the matrix version of that half-plane. Each point Z names exactly one positive phase-space metric H_Z that is compatible with a fixed [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, and every such metric has a point, so the domain is the space of all of them. The symplectic group moves its points by fractional-linear (Möbius) maps, the matrix versions of z → (αz + β)/(γz + δ). The program uses the domain as the arena of [the modular field](/wiki/phase-space/modular-field/modular-field-z) once only ω is held rigid. The space and its parametrization are standard mathematics, and battery test T2 checks the parametrization's identities at one sampled point.*
 
-**Status:** Established — standard mathematics (calc note #5 heads its section "[D — structural; math facts standard]"); the parametrization identities are machine-checked [V] at one sampled point at d = 4 (battery test T2; [the verification battery](/wiki/method/verification/battery)) and symbolically at d = 1 (`verify/toy_coset.py`).
+**Status:** Established — standard mathematics ([calc note #5](/wiki/history/documents/debt-1-notes) heads its section "[D — structural; math facts standard]"); the parametrization identities are machine-checked [V] at one sampled point at d = 4 (battery test T2; [the verification battery](/wiki/method/verification/battery)) and symbolically at d = 1 (`verify/toy_coset.py`).
 
 ## What the domain is
 
@@ -53,13 +53,13 @@ Sp(2d, ℝ) reaches every point, and the elements that fix the base point Z = i�
 Two kinds of map recur in the program's documents:
 
 - the translations [[1, B], [0, 1]], with B real symmetric, act as Z → Z + B: they shift X and leave Y alone (#6 §1);
-- the quarter-turn [[0, 1], [−1, 0]] acts as Z → −Z⁻¹, which is how [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts on the modular field (#5 §C; #11 §6; [modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
+- the quarter-turn [[0, 1], [−1, 0]] acts as Z → −Z⁻¹, which is how [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts on the modular field (#5 §C; [#11](/wiki/history/documents/checkpoint) §6; [modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
 
-Together with the linear changes Z → AZAᵀ (A invertible), these two kinds generate the whole action [T]. One convention needs care [T]: the toy-model note lets a symplectic S act on a metric by congruence, H → SᵀHS (§2), and in that convention the map induced on Z is the fractional-linear map of Sᵀ, so Z → Z + B comes from [[1, 0], [B, 1]]. For ρ the two readings agree, because ρᵀ = −ρ and S and −S induce the same map.
+Together with the linear changes Z → AZAᵀ (A invertible), these two kinds generate the whole action [T]. One convention needs care [T]: the [toy-model note](/wiki/symmetry-breaking/toy-models) lets a symplectic S act on a metric by congruence, H → SᵀHS (§2), and in that convention the map induced on Z is the fractional-linear map of Sᵀ, so Z → Z + B comes from [[1, 0], [B, 1]]. For ρ the two readings agree, because ρᵀ = −ρ and S and −S induce the same map.
 
 ### The domain as a space of phase-space metrics
 
-The program meets the domain from the other side, as a space of metrics. The symplectic form is fixed as ω = [[0, 1], [−1, 0]] in d × d blocks, in the (x, p) basis of #1 §2. A positive symmetric matrix H on phase space is compatible with ω when I = ω⁻¹H squares to −1, so that I is a complex structure (see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). For a symmetric H this is the same as H itself being a symplectic matrix [T]; model I of the toy-model note takes H to be "a positive symmetric symplectic matrix" with I² = −1 (§2). Calc note #5: "positive H compatible with ω alone form the **Siegel domain** Sp(2d,ℝ)/U(d), coordinatized by a complex symmetric matrix" (§C):
+The program meets the domain from the other side, as a space of metrics. The symplectic form is fixed as ω = [[0, 1], [−1, 0]] in d × d blocks, in the (x, p) basis of the [lab notebook](/wiki/history/documents/lab-notebook), #1 §2. A positive symmetric matrix H on phase space is compatible with ω when I = ω⁻¹H squares to −1, so that I is a complex structure (see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). For a symmetric H this is the same as H itself being a symplectic matrix [T]; [model I](/wiki/symmetry-breaking/toy-models/coset-model) of the toy-model note takes H to be "a positive symmetric symplectic matrix" with I² = −1 (§2). Calc note #5: "positive H compatible with ω alone form the **Siegel domain** Sp(2d,ℝ)/U(d), coordinatized by a complex symmetric matrix" (§C):
 
 ```text
 Z = X + iY,   Y > 0
@@ -92,7 +92,7 @@ Both L and diag(Y, Y⁻¹) are symplectic, so H_Z is symplectic and I[Z]² = −
 
 ### The arena of the modular field
 
-Under the corrected postulate [P2′](/wiki/program/postulates/p2-prime), only ω is rigid. The metric H may then be any ω-compatible positive metric, that is, any point of the Siegel domain, and its coordinates X and Y become fields on spacetime. #11 §6: "With only ω rigid, H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0), H_Z the standard generalized metric (I[Z]² = −1 machine-verified [V])." The physical readings, Im Z = g the metric and Re Z = X the momentum graviton, are the program's claims and are set out on [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z). Under the [original P2](/wiki/program/postulates/original-p2), with η rigid too, only the slice X = 0 would remain.
+Under the corrected postulate [P2′](/wiki/program/postulates/p2-prime), only ω is rigid. The metric H may then be any ω-compatible positive metric, that is, any point of the Siegel domain, and its coordinates X and Y become fields on spacetime. #11 §6: "With only ω rigid, H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0), H_Z the standard generalized metric (I[Z]² = −1 machine-verified [V])." The physical readings, Im Z = g the metric and Re Z = X the [momentum graviton](/wiki/gravity/momentum-graviton), are the program's claims and are set out on [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z). Under the [original P2](/wiki/program/postulates/original-p2), with η rigid too, only the slice X = 0 would remain.
 
 ### Its symmetries as field symmetries
 
@@ -111,7 +111,7 @@ It is unchanged by every map of the Sp(2d, ℝ) action [T]. For d = 1 it is the 
 
 ### The toy model's H-sector (d = 1)
 
-Model I of the toy-model note takes "H, a positive symmetric symplectic matrix, H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] for Z = X + iY in the upper half-plane, with I ≡ ω⁻¹H, I² = −1" (§2): the d = 1 case of H_Z. `verify/toy_coset.py` checks the d = 1 parametrization symbolically, for symbolic X and Y ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)): `PASS  H(Z) is symplectic and I = w^-1 H squares to -1`. The model's vacuum manifold is "the upper half-plane times this circle" of real structures, and the two half-plane directions are two of its three [Goldstone directions](/wiki/symmetry-breaking/goldstone-and-higgs) (§2). The half-plane sector is non-compact: "The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur" (§4; [coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)). The handoff's queue had proposed starting the toy "on the Siegel disk", the bounded form of the domain described next (`HANDOFF.md` §8 item 4).
+Model I of the toy-model note takes "H, a positive symmetric symplectic matrix, H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] for Z = X + iY in the upper half-plane, with I ≡ ω⁻¹H, I² = −1" (§2): the d = 1 case of H_Z. `verify/toy_coset.py` checks the d = 1 parametrization symbolically, for symbolic X and Y ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)): `PASS  H(Z) is symplectic and I = w^-1 H squares to -1`. The model's vacuum manifold is "the upper half-plane times this circle" of real structures, and the two half-plane directions are two of its three [Goldstone directions](/wiki/symmetry-breaking/goldstone-and-higgs) (§2). The half-plane sector is non-compact: "The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur" (§4; [coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)). [The handoff](/wiki/history/documents/handoff)'s queue had proposed starting the toy "on the Siegel disk", the bounded form of the domain described next (`HANDOFF.md` §8 item 4).
 
 ## The boundary of the domain
 
@@ -137,19 +137,7 @@ PASS  T2 H_Z positive definite
 - It checks one sampled member of the family. #11 §2 describes the battery as covering "the Siegel parametrization (I[Z]² = −1, H > 0, det H = 1 across the whole family)", and #11 §5 says det H = 1 "machine-verified — persists across the whole modular family of §6". That the identities hold for every Z is the algebra above ([T]; [D] in the program's tagging), not a machine result. The symbolic check in `verify/toy_coset.py` holds for all X and Y at once, but only at d = 1.
 - It confirms a matrix identity, not the program's reading of Y as the spacetime metric ([verification confirms arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
-**Round 3's independent check.** The round-3 blind audit re-derived the compatibility theorem with its own code and tested an "omega-only family (Siegel, X != 0)" in 2000 random trials at each of d = 3 and d = 4: "omega residual <= 3e-14 but eta residual >= 0.52 (d=3), 1.87 (d=4)" (`review/round3/referee/audit-notes.md` Step 3). Every sampled member is compatible with ω to rounding error, and every one misses compatibility with η by a finite margin. The Siegel family is strictly larger than the compatibility theorem's solution set, which is its X = 0 slice (#5 §C). The audit's scripts sit in `review/round3/referee/` and are not part of the gate.
-
-## Used by
-
-- [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — the program's field takes values in this space.
-- [Reciprocity as modular inversion Z → −Z⁻¹](/wiki/phase-space/modular-field/modular-inversion) — ρ as a Möbius map.
-- [The Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) and [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — the domain's Shilov boundary and the field placed on it.
-- [Shift symmetry: X is never auxiliary](/wiki/gravity/momentum-graviton/shift-symmetry) — the translations Z → Z + B.
-- [The misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) — built from I[Z] (battery test T3).
-- [The frame tier](/wiki/gravity/tuning-test/frame-tier) — the symplectic vielbein E with H = EᵀE.
-- [Corollaries: unimodularity, no B-field, slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) — det H = 1 and its persistence across the family.
-- [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — the d = 1 domain as the toy's H-sector.
-- [Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the indefinite target metric at Lorentzian signature.
+**Round 3's independent check.** The [round-3](/wiki/method/review/round-3) blind audit re-derived the compatibility theorem with its own code and tested an "omega-only family (Siegel, X != 0)" in 2000 random trials at each of d = 3 and d = 4: "omega residual <= 3e-14 but eta residual >= 0.52 (d=3), 1.87 (d=4)" (`review/round3/referee/audit-notes.md` Step 3). Every sampled member is compatible with ω to rounding error, and every one misses compatibility with η by a finite margin. The Siegel family is strictly larger than the compatibility theorem's solution set, which is its X = 0 slice (#5 §C). The audit's scripts sit in `review/round3/referee/` and are not part of [the gate](/wiki/method/verification/the-gate).
 
 ## Standard references
 
@@ -157,6 +145,28 @@ PASS  T2 H_Z positive definite
 - L. K. Hua, *Harmonic Analysis of Functions of Several Complex Variables in the Classical Domains* (English translation 1963) † — the bounded realizations of these domains and their Shilov boundaries.
 
 The program's documents cite no reference for these facts: #5 marks them "[standard]", and #11 tags the boundary statement [T].
+
+## Used by
+
+- [P1: the phase-space arena](/wiki/program/postulates/p1-arena) and [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — with only ω fixed, H ranges over the Siegel domain.
+- [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — ρ acts on the domain by modular inversion.
+- [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — under P2′ the metric opens up into the domain.
+- [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — the program's field takes values in this space.
+- [Reciprocity as modular inversion Z → −Z⁻¹](/wiki/phase-space/modular-field/modular-inversion) — ρ as a Möbius map.
+- [The Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) and [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — the domain's Shilov boundary and the field placed on it.
+- [Corollaries: unimodularity, no B-field, slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) — det H = 1 and its persistence across the family.
+- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the positive target metric as a sign of health.
+- [Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the indefinite target metric at Lorentzian signature.
+- [Shift symmetry: X is never auxiliary](/wiki/gravity/momentum-graviton/shift-symmetry) — the translations Z → Z + B.
+- [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) and [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — X and g as the two halves of H_Z.
+- [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten) — the absorbed modes move X through the non-compact domain, τ through the compact Λ(d).
+- [The misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) — built from I[Z] (battery test T3).
+- [The frame tier](/wiki/gravity/tuning-test/frame-tier) — the symplectic vielbein E with H = EᵀE.
+- [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric) — couplings dictated by modular (Siegel-domain) symmetry.
+- [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — the |Z| = 1 locus in the domain, identified with a·ã = 1 (see flag 23 in `review/wiki-build-flags.md`).
+- [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — the d = 1 domain as the toy's H-sector.
+- [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua), [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) and [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — the upper half-plane as the toy's space of metrics, with Z = i fixed by ρ.
+- [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the phase-space side of the conjectured structure.
 
 ## Sources
 

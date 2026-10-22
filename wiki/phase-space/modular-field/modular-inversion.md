@@ -23,13 +23,13 @@ sources:
   - "verify/toy_coset.py"
 ---
 
-*Modular inversion is the map Z → −Z⁻¹, "take minus the reciprocal", applied to [the modular field Z](/wiki/phase-space/modular-field/modular-field-z). The program shows that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn of the position–momentum plane that the Fourier transform performs on a wavefunction, acts on Z in exactly this way. The map leaves the point Z = i unchanged, and that point is the program's self-dual vacuum. On the vacuum slice the map sends the metric g to its inverse, which for a uniformly scaled metric turns the scale factor a into 1/a; the circle |Z| = 1 is identified with the program's relation a·ã = 1 between our scale factor and that of the conjugate description. The same quarter-turn matrix generates the S-duality of electric and magnetic charges. The claim is derived; for one coordinate (d = 1) a script checks it symbolically, and no script checks the general case.*
+*Modular inversion is the map Z → −Z⁻¹, "take minus the reciprocal", applied to [the modular field Z](/wiki/phase-space/modular-field/modular-field-z). The program shows that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn of the position–momentum plane that the Fourier transform performs on a wavefunction, acts on Z in exactly this way. The map leaves the point Z = i unchanged, and that point is the program's self-dual vacuum. On the vacuum slice the map sends the metric g to its inverse, which for a uniformly scaled metric turns the scale factor a into 1/a; the circle |Z| = 1 is identified with the program's relation a·ã = 1 between our scale factor and that of the [conjugate description](/wiki/program/conjugate-universe), an identification queried in flag 23 of `review/wiki-build-flags.md`. The same quarter-turn matrix generates the S-duality of electric and magnetic charges. The claim is derived; for one coordinate (d = 1) a script checks it symbolically, and no script checks the general case.*
 
-**Status:** Alive — derived [D] (#11 §6; calc note #5 §C, "[D — structural]") — the d = 1 case is machine-checked symbolically in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)); general d rests on the argument alone, and the cosmological reading is structural.
+**Status:** Alive — derived [D] ([#11](/wiki/history/documents/checkpoint) §6; [calc note #5](/wiki/history/documents/debt-1-notes) §C, "[D — structural]") — the d = 1 case is machine-checked symbolically in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)); general d rests on the argument alone, and the cosmological reading is structural.
 
 ## The claim
 
-#11 §6: "**ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹, and the cosmological constraint a·ã = 1 (§10) is the |Z| = 1 locus."
+#11 §6: "**ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹, and the cosmological constraint a·ã = 1 (§10) is the |Z| = 1 locus." (On the |Z| = 1 locus, see flag 23 in `review/wiki-build-flags.md`.)
 
 ## Background: inversion of the half-plane [T]
 
@@ -47,17 +47,17 @@ Born reciprocity is the map ρ: (x, p) → (p, −x), the matrix [[0, 1], [−1,
 
 Calc note #5: "**Born reciprocity acts as Z → −Z⁻¹** (Möbius action of the I-rotation; d = 1 check: matrix [[0,1],[−1,0]] gives Z → −1/Z). Fixed point Z = i: the self-dual vacuum of the earlier turns, now as modular geometry." (§C)
 
-The argument has two steps. ρ is the element [[0, 1], [−1, 0]] of the symplectic group, and the symplectic group acts on the domain by Möbius maps; so ρ acts by the Möbius map of that matrix, which is the inversion. The note works the d = 1 case explicitly. It does not say which "earlier turns" it means; calc note #6 uses "turn" for an exchange of the development conversation on claude.ai (§3), and no earlier document uses the phrase "self-dual vacuum".
+The argument has two steps. ρ is the element [[0, 1], [−1, 0]] of the [symplectic group](/wiki/phase-space/reciprocity/symplectic-form), and the symplectic group acts on the domain by Möbius maps; so ρ acts by the Möbius map of that matrix, which is the inversion. The note works the d = 1 case explicitly. It does not say which "earlier turns" it means; calc note #6 uses "turn" for an exchange of the development conversation on claude.ai (§3), and no earlier document uses the phrase "self-dual vacuum".
 
 ### The machine check (d = 1)
 
-`verify/toy_coset.py` takes the d = 1 parametrization H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] and checks symbolically, for symbolic X and Y, that ρᵀH(Z)ρ equals H(Z′), where Z′ = −1/Z is written out in components, X′ = −X/(X² + Y²) and Y′ = Y/(X² + Y²). The gate prints:
+`verify/toy_coset.py` takes the d = 1 parametrization H(Z) = [[Y + X²/Y, X/Y], [X/Y, 1/Y]] and checks symbolically, for symbolic X and Y, that ρᵀH(Z)ρ equals H(Z′), where Z′ = −1/Z is written out in components, X′ = −X/(X² + Y²) and Y′ = Y/(X² + Y²). [The gate](/wiki/method/verification/the-gate) prints:
 
 ```text
 PASS  rho acts on Z as Z -> -1/Z with fixed point Z = i
 ```
 
-The script's comment adds that "A rho-fixed vacuum needs rho^T H rho = H (only Z = i, i.e. H = 1)". The toy-model note states the result as "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = −K(φ)" (§2), and the worklog as "ρ acts as Z → −1/Z on H and as K → −K at H = 1" ('Chunk 1 results'). See [model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua).
+The script's comment adds that "A rho-fixed vacuum needs rho^T H rho = H (only Z = i, i.e. H = 1)". The [toy-model note](/wiki/symmetry-breaking/toy-models) states the result as "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = −K(φ)" (§2), and the worklog as "ρ acts as Z → −1/Z on H and as K → −K at H = 1" ('Chunk 1 results'). See [model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua).
 
 For d > 1 no document writes the map out and no script checks it. Battery test T2 checks the parametrization H_Z at d = 4 but not the action of ρ ([the verification battery](/wiki/method/verification/battery)). The general statement rests on the Möbius-action argument [D].
 
@@ -69,7 +69,7 @@ At Z = i the metric is H = 1, the unit metric of the lab notebook's units, in wh
 
 The metric is not the whole vacuum, though. In the toy model the vacuum also carries a real structure K, the order parameter, and ρ sends K to −K: "No vacuum is ρ-invariant" (worklog, 'Chunk 1 results'), and the gate prints `PASS  no vacuum is rho-invariant: at H = 1 a compatible K with rho^-1 K rho = K must vanish`. In the toy model, then, reciprocity is broken at the self-dual point of the metric by [the order parameter](/wiki/symmetry-breaking/order-parameter), not by the metric. Even that breaking has physical content only once matter couples to the sign of K, because the twisted element ρ∘(K → −K) maps the reference vacuum to itself (toy-model note §2; [the twisted element](/wiki/symmetry-breaking/twisted-element)).
 
-At the self-dual point ρ is also one element of a continuous symmetry. In the Siegel domain the maps fixing Z = i form U(d), U(1) at d = 1, and ρ is the quarter-turn among them [T]. The worklog found the same in its models: "At the self-dual point, Born reciprocity is never the whole symmetry. It is one element of a continuous U(1): the coset model: the U(1) stabilizer of H that rotates K" ('Chunk 2 results'). #11 draws the consequence in its P2′ refinement: "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (§4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
+At the self-dual point ρ is also one element of a continuous symmetry. In the Siegel domain the maps fixing Z = i form U(d), U(1) at d = 1, and ρ is the quarter-turn among them [T]. The worklog found the same in its models: "At the self-dual point, Born reciprocity is never the whole symmetry. It is one element of a continuous U(1): the coset model: the U(1) stabilizer of H that rotates K" ('Chunk 2 results'). #11 draws the consequence in its [P2′](/wiki/program/postulates/p2-prime) refinement: "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (§4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
 ### On the vacuum slice: g → g⁻¹
 
@@ -83,11 +83,11 @@ Calc note #5: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual ci
 
 The constraint itself comes from the rigidity of ω. #11 §10: "**Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus." The lab notebook derives it: each mode occupies "(aã)³ × (comoving cell) = ℏ³. Hence a ã = const ≡ 1" (#1 §6). See [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint).
 
-At d = 1 the inversion carries the unit semicircle onto itself, each point reflected across the imaginary axis, with Z = i the one point left in place [T]. The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z; the identification is a structural reading ([D — structural] in #5 §C, [D] in #11 §10). #11's audit of founding suppositions records the outcome for supposition 6, "Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (App. A item 6; [founding suppositions](/wiki/program/founding-suppositions)).
+At d = 1 the inversion carries the unit semicircle onto itself, each point reflected across the imaginary axis, with Z = i the one point left in place [T]. The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z; the identification is a structural reading ([D — structural] in #5 §C, [D] in #11 §10). #11's audit of founding suppositions records the outcome for supposition 6, "Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (App. A item 6; [founding suppositions](/wiki/program/founding-suppositions)). Flag 23 in `review/wiki-build-flags.md` queries the identification of a·ã = 1 with the |Z| = 1 locus; it covers #11 §6 and §10, calc note #5 §C, the lab notebook's v0.3 addendum and `HANDOFF.md` §2.
 
 ### The same matrix in charge space
 
-#11 §11.3, a section tagged "[D — structural; math T]": "S-duality acts on the complexified coupling by τ_c → −1/τ_c, generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program." The charge lattice of electric and magnetic charges is itself a symplectic space, and choosing which charges count as electric is choosing a Lagrangian polarization of it ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice); [S-duality](/wiki/electric-magnetic-duality/s-duality)).
+#11 §11.3, a section tagged "[D — structural; math T]": "S-duality acts on the complexified coupling by τ_c → −1/τ_c, generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program." The charge lattice of electric and magnetic charges is itself a symplectic space, and choosing which charges count as electric is choosing a [Lagrangian polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) of it ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice); [S-duality](/wiki/electric-magnetic-duality/s-duality)).
 
 Whether the two polarizations belong together is a conjecture [O], open item 8: #11 asks whether the phase-space polarization and the charge-lattice polarization "are components of one enlarged modular structure", the program's analogue of T- and S-duality sitting together inside U-duality in string theory ([Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure)).
 
@@ -95,7 +95,7 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 
 - **Explicit only at d = 1.** The physical case is d = 4; there the map follows from the general Möbius action, which no script checks.
 - **Positive metrics only.** Like the Siegel parametrization itself, the statement concerns positive (Euclidean) H; Lorentzian signature is open item 3 ([Open: Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing)).
-- **A structural cosmology.** The |Z| = 1 reading of a·ã = 1 is stated, not derived through an explicit map from the scale factors to Z.
+- **A structural cosmology.** The |Z| = 1 reading of a·ã = 1 is stated, not derived through an explicit map from the scale factors to Z (see flag 23 in `review/wiki-build-flags.md`).
 
 ## History
 
