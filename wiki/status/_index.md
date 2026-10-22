@@ -24,7 +24,7 @@ The registers run from the dead claims to the superseded ones.
 
 - **One status per page.** The registers track the program's claims, whose pages have status `dead`, `alive`, `open`, `conjecture` or `superseded`. Pages of established physics (`established`), of method (`method`), of record (`record`) and section indexes (`hub`) are not registered.
 - **Status shows in titles.** A dead claim's page is titled "Obituary: …", an open problem's "Open: …", with its number OPn when #11 §14 gives it one, and a superseded statement's "… (superseded)"; chat-only and popsci-only claims carry "(chat-only)" and "(popsci-only)", and prediction pages are titled "Row n: …". Alive and established pages carry no marker.
-- **Folded items.** A page sometimes holds a minor item of another status, such as an open sub-question on an established page or a superseded earlier form of an alive claim, in a section of its own headed "Open:", "Superseded:", "Chat-only:" or "Popsci-only:". The registers link those sections directly. The graveyard lists the dead items told inside other pages in the same way.
+- **Folded items.** A page sometimes holds a minor item of another status, such as an open sub-question on an established page or a superseded earlier form of an alive claim, in a section of its own headed "Open:", "Superseded:", "Chat-only:", "Popsci-only:" or "Conjecture:". The registers link those sections directly. The graveyard lists the dead items told inside other pages in the same way.
 - **Precedence, most current first** (`wiki/CLAUDE.md`):
   1. the root `CLAUDE.md`, section "Since the handoff";
   2. checkpoint #11 v2.2 (`papers/broken-born-checkpoint-v2.md`) and the toy-model note v2 (`papers/reciprocity-toy-models.md`);
