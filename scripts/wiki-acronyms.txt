@@ -143,3 +143,7 @@ JETP	-
 PRB	-
 PRD	-
 PRL	-
+# Added during the depth pass
+LSZ	Langmann–Szabo–Zarembo
+DNS	Duncan–Niedermaier–Seiler
+PSL	-
