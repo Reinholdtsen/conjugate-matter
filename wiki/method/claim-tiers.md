@@ -5,6 +5,7 @@ status: method
 description: "Tier 1 machine-checked algebra, Tier 2 literature, Tier 3 novel structural physics at an honest prior of ~50–80% per claim; negative results as the most reliable Tier-3 items; and the selection-versus-derivation bias, acknowledged where it operates."
 sources:
   - "papers/broken-born-checkpoint-v2.md §2"
+  - "papers/broken-born-checkpoint-v2.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.1–§7.4"
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
   - "papers/broken-born-checkpoint-v2.md §15"
@@ -19,7 +20,7 @@ sources:
   - "verify/battery.py"
 ---
 
-*The claim tiers are checkpoint #11's ranking of its own statements by how much trust each deserves. Tier 1 is explicit algebra checked by machine; Tier 2 is established literature, correct at the level of well-worn results; Tier 3 is the program's new structural physics, which #11 rates as plausible, with an "honest prior per claim ~50–80% pending expert review". Within Tier 3, #11 counts its negative results as the most reliable items. Alongside the tiers it names one specific risk, the selection-versus-derivation bias: presenting a structure that was chosen from the known consistent options as though the program's premises had forced it. The tiers and the bias check are part of #11's methodological preface, §2.*
+*The claim tiers are [checkpoint #11](/wiki/history/documents/checkpoint)'s ranking of its own statements by how much trust each deserves. Tier 1 is explicit algebra checked by machine; Tier 2 is established literature, correct at the level of well-worn results; Tier 3 is the program's new structural physics, which #11 rates as plausible, with an "honest prior per claim ~50–80% pending expert review". Within Tier 3, #11 counts its negative results as the most reliable items. Alongside the tiers it names one specific risk, the selection-versus-derivation bias, which the wiki reads as presenting a structure that was chosen from the known consistent options as though the program's premises had forced it. The tiers and the bias check are part of #11's methodological preface, §2.*
 
 **Status:** Method — Tier 1 is the [V] tier; the tiers themselves carry no tag — #11 §2 ("Methodological preface: provenance and verification"); Tier 1's tests run in the gate (`verify/battery.py`; [the verification battery](/wiki/method/verification/battery)).
 
@@ -33,7 +34,7 @@ sources:
 
 The seven tests are T1–T7 of `verify/battery.py`, which [the gate](/wiki/method/verification/the-gate) runs before any work counts as finished. Its current output includes "T4 parity: 66.58 vs 63.72 as quoted", the linearized potential's limit against the Fierz–Pauli form for the test matrix, "T5 V(1) - 2T = [0,0,0]", and "T7 p4 outside span of e_n (rms residual nonzero)  [rms=3.2853]". The tests and what each establishes are on [The verification battery T1–T7](/wiki/method/verification/battery).
 
-#11 §2 defines Tier 1 by this battery. Later machine-checked items, the numbers of the soliton obituary (§12, `verify/soliton_obituary.py`) and the toy-model results (§4, the [toy-model scripts](/wiki/method/verification/toy-model-scripts)), carry [V] but are not assigned a tier in §2.
+#11 §2 defines Tier 1 by this battery. Later machine-checked items, the numbers of the soliton obituary (§12, `verify/soliton_obituary.py`) and the toy-model results (§4, the [toy-model scripts](/wiki/method/verification/toy-model-scripts)), carry [V], but §2 does not place them in Tier 1; it counts the §12 obituary among the most reliable Tier-3 items (below).
 
 ### What Tier 1 does not cover
 
@@ -43,7 +44,7 @@ The plain-language passage of #11 §2 draws the line: "What no machine can check
 
 "Tier 2 (literature): correct at the level of well-worn results; exact numbers, conventions, and attributions are flagged † pending source checks." (#11 §2). The † mark means a reference was recalled from model memory; checking every such reference against its source is the open [literature battery](/wiki/method/literature-battery), #11 §14 item 10.
 
-The qualification has bitten in the program's record at the level it names, attributions and conventions. The compatibility theorem, presented as derived in v2.0, was found to be a literature result and re-tagged in v2.1 ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)). v2.2 credited Freidel, Leigh and Minic with the idea that a preferred polarization breaks Born duality (#11 §3; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
+In the wiki's reading, the qualification has bitten in the program's record at one of the levels it names, attribution. The compatibility theorem, presented as derived in v2.0, was found to be a literature result and re-tagged in v2.1 ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)). v2.2 credited Freidel, Leigh and Minic with the idea that a preferred polarization breaks Born duality (#11 §3; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
 
 ## Tier 3: novel structural physics
 
@@ -70,7 +71,7 @@ After the palindrome identity of #11 §7.3 was derived, a literature search foun
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
+- `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §3 — the v2.2 credit to Freidel, Leigh and Minic; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
 - `verify/battery.py` (output in the gate) — Tier 1's seven tests
 - `review/round3-adjudication.md` 'Pre-registration scored' and `review/round4-adjudication.md` 'Rulings' F2 — the two ways a checked script missed the physics
 - `notes/debt1a-iii-tuning-test.md` §3, §5 and `notes/debt1a-ii-X-classification.md` §3 — the frame tier as a selected class; "unique known"
