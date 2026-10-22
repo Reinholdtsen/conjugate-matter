@@ -33,7 +33,7 @@ sources:
 
 ## How the decisions were made
 
-The round left one question for Paul. The v3 worklog closed with it: "This worklog is closed. The next step is Paul's decision on the soliton candidate." The adjudication records how it was settled: "Paul delegated these on 2026-10-19 ("You make the decisions for me and give rational"). Claude made them. Paul keeps the veto."
+The round left decisions open for Paul. The v3 worklog closed by naming the main one: "This worklog is closed. The next step is Paul's decision on the soliton candidate." The adjudication records how it was settled: "Paul delegated these on 2026-10-19 ("You make the decisions for me and give rational"). Claude made them. Paul keeps the veto."
 
 The delegation crosses the program's usual division of labour. The root `CLAUDE.md` gives the roles as "Paul — conjecture, direction, veto. Claude — derivations, counterexamples, drafting, verification", so direction is normally Paul's ([the collaboration](/wiki/method/collaboration#decisions-and-the-veto)). Paul's request asked for the reasoning with the decisions, and each decision states its reasons, which he can read before using the veto. The root `CLAUDE.md`'s working instruction points the same way: "Make the call and recommend; don't ask questions Paul can't answer." #11's footer marks the amendments that followed as "decisions delegated by P. R. to Claude; record in `review/round3-adjudication.md`", and the root `CLAUDE.md` points to the same place: "Reasons are in the adjudication's "Decisions" section."
 
@@ -59,7 +59,7 @@ The root `CLAUDE.md`: "Strict sector separation (P4 at face value) is in force."
 
 ### A reading left unresolved: ceiling or floor
 
-The round-3 referee's reading of the gravity-only figure differs from the decision's. It notes that Gherghetta et al. present 10⁻¹³ as a floor, the "minimum kinetic mixing in any theory with hidden gauge interactions and charge symmetry breaking", "consistent with "<~" only in the sense "up to"" (audit notes, Step 1). #11 and the decision write ε ≲ 10⁻¹³. No document reconciles the two readings, and #11's wording stands as the current statement ([an unresolved reading](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing#an-unresolved-reading-ceiling-or-floor); [conflicts between sources](/wiki/history/documents/source-conflicts#unresolved)).
+The round-3 referee's reading of the gravity-only figure differs from the decision's. It notes that Gherghetta et al. present 10⁻¹³ as a floor, the "minimum kinetic mixing in any theory with hidden gauge interactions and charge symmetry breaking", "consistent with "<~" only in the sense "up to"" (audit notes, Step 1). #11 and the decision write ε ≲ 10⁻¹³. No document reconciles the two readings, and #11's wording stands as the current statement ([an unresolved reading](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing#an-unresolved-reading-ceiling-or-floor); [conflicts between sources](/wiki/history/documents/source-conflicts#kinetic-mixing)).
 
 ## Decision 2: the soliton candidate retired
 

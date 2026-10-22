@@ -31,7 +31,7 @@ sources:
 
 *The round-3 pre-registration is the forecast of the third blind review of the soliton dark-matter manuscript #14, written into `review/round3-preregistration.md` and committed on 2026-10-19 before the referee was dispatched, so that the forecast could not be fitted to the outcome. It predicted that the referee would grade version 3 B ("flawed but salvageable") with medium confidence, that the weakest link it named would be "the framework does no work", that no numerical indictment would survive, and that all 23 citations would resolve. The referee graded the manuscript C. The adjudication scored the verdict a miss, the first after two hits; the weakest link a miss on the referee's first choice and a hit on its second; the arithmetic a miss; and the citations a hit. The commit that recorded the forecast also stated it in its subject line, which the referee's environment displayed, so the round was less blind than intended, and forecasts have been kept out of commit subjects since.*
 
-**Status:** Record — untagged. The forecast is `review/round3-preregistration.md` as committed (cc05705); its scoring is the adjudication's 'Pre-registration scored' ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). The lesson about the commit subject is part of the pre-registration rule in the root `CLAUDE.md`, 'Method' ([pre-registration and its calibration record](/wiki/method/review/pre-registration)).
+**Status:** Record — untagged. The forecast is `review/round3-preregistration.md` as committed (cc05705); its scoring is the adjudication's 'Pre-registration scored', reproduced below against the referee's grade ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). The lesson about the commit subject is part of the pre-registration rule in the root `CLAUDE.md`, 'Method' ([pre-registration and its calibration record](/wiki/method/review/pre-registration)).
 
 ## What was pre-registered, and why
 
@@ -110,7 +110,7 @@ The referee named "the Kibble abundance / mass determination (p=0.023 instead of
 
 ### The arithmetic
 
-Three numbers survived as indictments, plus the coefficient of ε: the Kibble normalization p (ruling 1), the ψ relic window (ruling 4), the bound on ξ (ruling 5) and the Planck-scale coefficient of the mixing operator (ruling 7) ([the rulings](/wiki/method/review/round-3/rulings#the-rulings)). The adjudication's comment: "All are wrong inputs or model choices in my scripts, not arithmetic slips". In the wiki's reading, two of the three fell where the forecast had said one most likely would, in a freeze-out estimate (the ψ window) and a ΔN_eff estimate (ξ); the one that decided the verdict, p, did not. The adjudication scored the row as a whole, a miss.
+Three numbers survived as indictments, plus the coefficient of ε: the Kibble normalization p (ruling 1), [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) (ruling 4), the bound on ξ (ruling 5) and [the Planck-scale coefficient of the mixing operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) (ruling 7) ([the rulings](/wiki/method/review/round-3/rulings#the-rulings)). The adjudication's comment: "All are wrong inputs or model choices in my scripts, not arithmetic slips". In the wiki's reading, two of the three fell where the forecast had said one most likely would, in a freeze-out estimate (the ψ window) and a ΔN_eff estimate (ξ); the one that decided the verdict, p, did not. The adjudication scored the row as a whole, a miss.
 
 ### The citations
 
