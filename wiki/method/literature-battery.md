@@ -7,6 +7,7 @@ provenance: [O]
 sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 10"
   - "papers/broken-born-checkpoint-v2.md footer"
+  - "papers/broken-born-checkpoint-v2.md header"
   - "papers/broken-born-checkpoint-v2.md 'References'"
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §11.3"
@@ -35,13 +36,13 @@ sources:
   - "notes/broken-born-program-v1.md §8, §10, §11"
 ---
 
-*The literature battery is the planned check of every reference that the program's papers cite from model memory, marked †, against the published source. A † citation was recalled by Claude rather than retrieved, so its authors, title, journal reference, or the statement it is cited for may be wrong. Checkpoint #11 lists the battery as open problem 10 of its §14 and calls itself "not for submission until the † audit (open item 10) completes". Some of the works involved have been checked in other contexts, and one suspected error in #11's list has been flagged, but no complete battery is on record. It is part of the first item of the current work queue.*
+*The literature battery is the planned check of every reference that the program's papers cite from model memory, marked †, against the published source. A † citation was recalled by Claude rather than retrieved, so its authors, title, journal reference, or the statement it is cited for may be wrong. [Checkpoint #11](/wiki/history/documents/checkpoint) lists the battery as open problem 10 of its §14 and calls itself "not for submission until the † audit (open item 10) completes". Some of the works involved have been checked in other contexts, and one suspected error in #11's list has been flagged, but no complete battery is on record. It is part of the first item of the current work queue.*
 
 **Status:** Open — [O] (#11 §14 item 10) — no completed battery is recorded in the repository; it gates any submission (#11 footer) and sits in item 1 of the current queue (root `CLAUDE.md`). It qualifies the † mark defined on [Provenance tags and citation marks](/wiki/method/provenance-tags) and is listed in [Open problems and the queue](/wiki/status/open-problems).
 
 ## The open item
 
-"Literature battery completion; every † reference source-checked [O]." (#11 §14 item 10). In #11's legend, [S] marks a reference "retrieved by live search during this project" and † one "cited from model memory — verify against the source before external use" (#11, 'References'). The battery turns each † into a checked reference, or finds what is wrong with it.
+"Literature battery completion; every † reference source-checked [O]." (#11 §14 item 10). In #11's header, [S] marks a reference "retrieved by live search during this project" and † one "cited from model memory — verify against the source before external use" (#11, header; the legend of its reference list says the same more briefly). The battery turns each † into a checked reference, or finds what is wrong with it.
 
 It matters for Tier 2 of #11's [claim tiers](/wiki/method/claim-tiers): literature results are "correct at the level of well-worn results; exact numbers, conventions, and attributions are flagged † pending source checks" (#11 §2). A memory citation can be right about the physics and wrong about where it was published, who proved it, or what exactly the paper says.
 
@@ -53,7 +54,7 @@ It matters for Tier 2 of #11's [claim tiers](/wiki/method/claim-tiers): literatu
 
 - **#11.** Entries [1]–[18] and [23] carry †; [19]–[22] and [24]–[29] carry [S]. By subject, the † entries are: Born's two reciprocity papers ([1], [2]); Freidel–Leigh–Minic on Born reciprocity in string theory ([3]); curved momentum space, from Snyder to relative locality ([4]–[6]); the Born connection ([7]); spin-2 theory, from the multi-graviton no-go to Hinterbichler–Rosen ([8]–[12]); wave dark matter ([13]–[15]); Weyl semimetals ([16]); the Dirac–Schwinger–Zwanziger (DSZ) quantization and the electric–magnetic dualities ([17], [18]); and bigravity dark matter ([23]). The entries are collected on [References](/wiki/references); the document is [the checkpoint](/wiki/history/documents/checkpoint).
 - **#13.** All four references of [conjugate special relativity](/wiki/conjugate-relativity) carry †: Gibbons and Schiller on maximum force, Caianiello on maximal acceleration, and Born's two papers, which are #11's [1] and [2] ([maximum-force conjectures](/wiki/conjugate-relativity/maximum-force-conjectures)).
-- **An unreferenced phrase.** #11 §11.3 says that choosing a duality frame "is choosing a Lagrangian polarization of charge space, in the literature's own words", without naming the source of the words ([The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
+- **An unreferenced phrase (not a † entry; the wiki lists it here).** #11 §11.3 says that choosing a duality frame "is choosing a Lagrangian polarization of charge space, in the literature's own words", without naming the source of the words ([The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
 
 ## What a check involves
 
@@ -64,8 +65,8 @@ The blind referees of rounds 3 and 4 used a protocol that shows what a source ch
 The program's reviews and audits have found errors of each kind the battery targets. All but the last were in other manuscripts; no review has audited #11's list.
 
 - **A citation inverted.** Round 1, on [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate): "Preskill citation inverted (fixed)" (`HANDOFF.md` §6).
-- **Cited for more than it says.** Round 3 found #14's reference [4] "over-generalized", Zwanziger's quantization stated with 4π where the manuscript wrote 2π, and Schwinger named but uncited (ruling 12). The referee also claimed that Baumgart et al. do not contain an operator #14 cited them for; the adjudicator overturned this from a footnote, quoted verbatim, that the referee had missed (ruling 8). A check has to read the paper, not only its abstract ([Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings)).
-- **Wrong details.** Round 4, on the [toy-model note](/wiki/symmetry-breaking/toy-models): "A. Duncan, not N."; a missing erratum; one reference's specific claim "cannot be checked (paywalled)" (`review/round4-adjudication.md`, 'Rulings', Citations; [Review round 4](/wiki/method/review/round-4)).
+- **Cited for more than it says.** Round 3 found #14's reference [4] "over-generalized", Zwanziger's quantization stated with 4π where the manuscript wrote 2π, and Schwinger named but uncited (ruling 12). The referee also claimed that Baumgart et al. do not contain an operator #14 cited them for; the adjudicator overturned this from a footnote, quoted verbatim, that the referee had missed (ruling 8). The referee had searched the full text by keyword and quoted the same page (`review/round3/referee/audit-notes.md`, Step 1); in the wiki's reading, a check has to read the cited passage, not only search it for terms ([Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings)).
+- **Wrong details.** Round 4, on the [toy-model note](/wiki/symmetry-breaking/toy-models): "A. Duncan, not N."; a missing erratum; and, short of an error, one reference's specific claim that "cannot be checked (paywalled)" (`review/round4-adjudication.md`, 'Rulings', Citations; [Review round 4](/wiki/method/review/round-4)).
 - **One entry pairing two papers.** #11's [23]† gives the title and journal of "Bigravitational origin of dark matter" (Phys. Rev. D 94, 084055, which is arXiv:1604.08564) with arXiv:1607.03497, the number of the companion paper "Heavy spin-2 Dark Matter". A verifier of the wiki build found this by live search; it is flag 20 in `review/wiki-build-flags.md`, a suspected error awaiting Paul's ruling, recorded "For the † battery (OP10)" ([bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter)).
 
 A related case concerned a convention rather than a citation. Working on the toy models, Claude found that its recalled Fourier eigenvalues contradicted Grosse–Wulkenhaar's stated invariance: "So a recalled convention is wrong somewhere." A direct numerical integral settled it, "not a recalled eigenvalue" (`notes/toy-lagrangian.md`, 'Chunk 1 results', 'Chunk 2 results').
@@ -94,7 +95,7 @@ The root `CLAUDE.md` places the rest in the first item of the current queue: "1.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §14 item 10, footer, 'References', §2, §11.3 — the open item, the submission gate, the † and [S] entries, Tier 2, the unreferenced phrase
+- `papers/broken-born-checkpoint-v2.md` §14 item 10, footer, header, 'References', §2, §11.3 — the open item, the submission gate, the definitions of † and [S], the † and [S] entries, Tier 2, the unreferenced phrase
 - `papers/conjugate-special-relativity.md` 'References' — #13's † entries
 - Root `CLAUDE.md` 'Since the handoff', 'Method' — the current queue; the meaning of †
 - `HANDOFF.md` §7, §8 item 6 — the rule for external use; the battery's original scope; §1 — the record at the handoff; §3 — v2.0's marks; §6 — the inverted Preskill citation
