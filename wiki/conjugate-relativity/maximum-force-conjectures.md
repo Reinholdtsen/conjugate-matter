@@ -15,7 +15,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 10"
 ---
 
-*The maximum-force conjecture is a proposal within [general relativity](/wiki/gravity/spin-2-fields/general-relativity) that no force can exceed c⁴/4G, a combination of the speed of light c and Newton's constant G; Gibbons named it the maximum tension principle, and Schiller took a principle of maximum force as the starting point for deriving general relativity. An older and separate proposal, Caianiello's, is a maximal acceleration obtained from a metric on [phase space](/wiki/phase-space). Both are proposals rather than settled results, and #13, the program's paper on [conjugate special relativity](/wiki/conjugate-relativity), notes that the maximum-force conjecture is contested. They matter to the program because #13's maximum force, c̃ = c⁴/G, has the same form up to a factor of 4, and #13 offers a reason for such a limit. This page covers the literature and the Planck units it is written in; #13's own claim is on [the maximum force page](/wiki/conjugate-relativity/maximum-force).*
+*The maximum-force conjecture is a proposal within [general relativity](/wiki/gravity/spin-2-fields/general-relativity) that no force can exceed c⁴/4G, a combination of the speed of light c and Newton's constant G; Gibbons named it the maximum tension principle, and Schiller took a principle of maximum force as the starting point for deriving general relativity. An older and separate proposal, Caianiello's, is a maximal acceleration obtained from a metric on [phase space](/wiki/phase-space). Both are proposals rather than settled results, and #13, the program's paper on [conjugate special relativity](/wiki/conjugate-relativity), notes that the maximum-force conjecture is contested. They matter to the program because #13's maximum force, c̃ = c⁴/G, has the same form up to a factor of 4, and #13 offers a reason for such a limit. This page covers the literature; the Planck units it is written in are on [their own page](/wiki/gravity/spin-2-fields/planck-units), and #13's own claim is on [the maximum force page](/wiki/conjugate-relativity/maximum-force).*
 
 **Status:** Established as literature: the proposals are published, not settled, and the maximum-force conjecture is contested — [T], with both citations marked † (from model memory, not yet checked against the papers) — #13 notes the maximum-force conjecture's contested status [T] without citing the dispute; the † references wait on [the literature battery](/wiki/method/literature-battery). #13's use of the conjecture is its own, unreviewed and not machine-checked, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
 
@@ -42,16 +42,7 @@ As usually summarized (†, from model memory; #13 states none of it), Caianiell
 
 ## Planck units [T]
 
-From ℏ, c and G one length, one energy and one mass can be formed, up to numerical factors [T]:
-
-```text
-l_P = √(ℏG/c³)          the Planck length
-E_Planck = √(ℏc⁵/G)      the Planck energy
-```
-
-together with the Planck mass √(ℏc/G), whose rest energy is E_Planck. Their ratio E_Planck/l_P is c⁴/G, which is therefore also called the Planck force [T]; it contains no ℏ, as the section above requires of any force built from c and G.
-
-#13 uses the first two. It writes the Planck length as λ² = ℏG/c³ (§1) and sets its Born length λ equal to it, which turns c̃ = ℏc/λ² into c⁴/G ([The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)). It obtains the Planck energy as "E = l_P · c⁴/G = √(ℏc⁵/G)" (§4; [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell)).
+The Planck length l_P = √(ℏG/c³) and the Planck energy E_Planck = √(ℏc⁵/G) are built from ℏ, c and G; their ratio is c⁴/G, the Planck force, which contains no ℏ, as the section above requires of any force built from c and G [T]. #13 sets its Born length equal to the Planck length, written λ² = ℏG/c³, which turns c̃ = ℏc/λ² into c⁴/G (§1; [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)), and obtains the Planck energy as "E = l_P · c⁴/G = √(ℏc⁵/G)" (§4; [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell)). The units, the Planck mass and its two conventions are on [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units).
 
 ## What #13 takes from this literature
 
