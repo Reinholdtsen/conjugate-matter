@@ -249,6 +249,11 @@ gate checks for this. Code spans and `text` fences need no escaping.
 
 - Use absolute `/wiki/...` links only. Repo files are not linked; cite them as inline
   code paths (`papers/broken-born-checkpoint-v2.md` §5), which the gate checks exist.
+  The prefix is a settled choice (Paul, 2026-10-22), matching `bitsy-services/wiki`; do not
+  switch forms. The trade-off: these links do not resolve when the raw Markdown is browsed
+  (on GitHub, for example). In a Hugo site they work as written at the domain root. Under a
+  subpath they work once `[markup.goldmark.renderHooks.link] enableDefault = true` is set in
+  `hugo.toml` (tested on Hugo 0.159).
 - Link every wiki concept on its first mention on each page. When the concept is a
   section of a larger page, deep-link the section (`/wiki/a/b#heading-slug`). Slugs are
   GitHub-style: lowercase, punctuation dropped, each space a hyphen.
