@@ -69,7 +69,7 @@ In Imre Lakatos's account of research programmes ([Lakatos's methodology of rese
 "The granularity prediction" is [the lab notebook](/wiki/history/documents/lab-notebook)'s old row 3, [velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity), since withdrawn; the "earlier discussion" is not identified in the note. The checkpoints carry the flag into their self-assessments:
 
 - [Program v1](/wiki/history/documents/checkpoint) (#9 §11): "Degeneration risks — the wave-island collective sector is tunable (flagged, quarantined); the gate's tail shape is not yet forced."
-- Checkpoint #11 §15: "Degeneration risks: tunable wave-island collective sector (quarantined); gate tail not yet forced", followed by the novelty demotion of §7.4, the soliton obituary, the re-attribution of the compatibility theorem and the phantom crossing in the second data release of the Dark Energy Spectroscopic Instrument, against §10's w ≥ −1.
+- Checkpoint #11 §15: "Degeneration risks: tunable wave-island collective sector (quarantined); gate tail not yet forced", followed by the novelty demotion of §7.4, [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary), the re-attribution of [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) and [the phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) in the second data release of the Dark Energy Spectroscopic Instrument, against §10's [w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound).
 
 Neither document defines "quarantined". In practice the scenario stays in the program, but it appears among the risks in §15 and not among the predictions of #11 §13 ([the assessment](/wiki/program/assessment)).
 
@@ -86,7 +86,7 @@ The later summaries state the verdict in the same terms:
 - The lab notebook's addendum v0.2 (#1): "With the coupling left free, streams are tunable across ~10 orders — optional, never required."
 - Program v1 (#9 §7 item 2): "With the coupling left free instead, streams are merely tunable across ~10 orders — optional, never required."
 - Checkpoint #11 §9 (ii): "With coupling free, streams are tunable across ~10 orders: optional, never required."
-- [The handoff](/wiki/history/documents/handoff) (`HANDOFF.md` §2) lists momentum clumping as dead: "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact), tunable elsewhere."
+- [The handoff](/wiki/history/documents/handoff) (`HANDOFF.md` §2) lists [momentum clumping](/wiki/dark-matter/momentum-clumping/founding-image) as dead: "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact), tunable elsewhere."
 
 ## An unresolved conflict: the fuzzy-end option
 

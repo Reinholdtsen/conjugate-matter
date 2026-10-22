@@ -162,7 +162,7 @@ The calculation that killed it is the third of [the Debt-3 calc notes](/wiki/his
 
 ## What survives
 
-- **The wave island, with a free coupling.** Debt 3c: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings." Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) streams are possible but never required, and #11 §15 lists that sector as a degeneration risk.
+- **The wave island, with a free coupling.** Debt 3c: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings." Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) streams are possible but never required, and #11 §15 lists that sector as a [degeneration risk](/wiki/program/assessment).
 - **The rate and its corollary.** [The gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) stands, and its power-law suppression is the wave side of [the island discriminant](/wiki/predictions/island-discriminant), the diagnostic that #11 §9 lists as salvage from Debt 3.
 - **Relic production.** #11 §9 lists "free relic abundance via misalignment on the wave island" among the salvage, after recording the falsification ([misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)).
 
