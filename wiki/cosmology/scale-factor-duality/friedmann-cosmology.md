@@ -12,9 +12,9 @@ sources:
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
-*Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a cosmological constant, thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its cosmology in this reduced form and adds a second scale factor for the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of the same state.*
+*Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a cosmological constant, thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its [cosmology](/wiki/cosmology) in this reduced form and adds a second scale factor for the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of the same state.*
 
-**Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in `notes/broken-born-theory.md` §6 [D], summarized in #11 §10, and not machine-checked.
+**Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in `notes/broken-born-theory.md` §6 [D], summarized in [#11](/wiki/history/documents/checkpoint) §10, and not machine-checked.
 
 ## The homogeneous universe [T]
 
@@ -34,7 +34,7 @@ A spatially curved universe replaces dx² by the metric of a sphere (closed, cur
 
 ## Minisuperspace: gravity reduced to a(t) and N(t) [T]
 
-Superspace is the space of all spatial geometries, the configuration space of general relativity in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the reduced Planck mass (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
+Superspace is the space of all spatial geometries, the configuration space of [general relativity](/wiki/gravity/spin-2-fields/general-relativity) in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the reduced Planck mass (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
 
 ```text
 L = −3 M_P² a ȧ² / N  −  N a³ ρ(a)
@@ -101,11 +101,11 @@ The notebook gives the substitution and the result, not the steps between. Writt
 
 What the term means, in #1 §6's words: "The dual gravitational sector is **not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times." The extra term multiplies H² alongside M_P², so it acts as an addition to the effective Planck mass, and with it a change in the effective strength of gravity G_eff. Because it grows as a⁻⁶ toward the past, it matters only when a was small; today the ordinary Friedmann equation is recovered. #11 §10 keeps the result in one clause, "the dual Einstein term is an a⁻⁶ step in G_eff", and its test is [row 10](/wiki/predictions/early-universe-step), which #11 calls optional.
 
-**Caveats.** The equation appears only in the lab notebook and has not been machine-checked. Its claim that there is no ghost is a minisuperspace statement: #1 §4 records that "no Boulware–Deser sector arises in minisuperspace" [D] (the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the negative-energy sixth mode that a generic massive-gravity or two-metric theory carries [T]) and that "The statement for full inhomogeneous H is open" [O]. That accounting predates the v0.4 addendum, after which the momentum-space partner of the metric is a [massive spin-2 field](/wiki/gravity/momentum-graviton) and, from the v0.5 addendum on, ghost freedom rests on [the frame-tier potential](/wiki/gravity/tuning-test/frame-tier). The cosmological solutions of the full two-metric theory are [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology).
+**Caveats.** The equation appears only in the lab notebook and has not been machine-checked. Its claim that there is no ghost is a minisuperspace statement: #1 §4 records that "no Boulware–Deser sector arises in minisuperspace" [D] (the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the negative-energy sixth mode that a generic massive-gravity or two-metric theory carries [T]) and that "The statement for full inhomogeneous H is open" [O]. That analysis predates the v0.4 addendum, after which the momentum-space partner of the metric is a [massive spin-2 field](/wiki/gravity/momentum-graviton) and, from the v0.5 addendum on, ghost freedom rests on [the frame-tier potential](/wiki/gravity/tuning-test/frame-tier). The cosmological solutions of the full two-metric theory are [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology).
 
 ## The radiation era, briefly
 
-Early on, radiation dominates and the Friedmann equation fixes the expansion rate as a function of temperature. That form, H = 1.66√g\* T²/M_Pl with M_Pl the non-reduced Planck mass, is one of the textbook anchors of `verify/soliton_obituary.py`, which prints `PASS  Friedmann: H = 1.66 sqrt(g*) T^2/M_Pl` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Its derivation and uses are on [the radiation era](/wiki/cosmology/early-universe/radiation-era).
+Early on, radiation dominates and the Friedmann equation fixes the expansion rate as a function of temperature. That form, H = 1.66√g\* T²/M_Pl with M_Pl the non-reduced Planck mass, is one of the [textbook anchors](/wiki/method/verification/independent-anchors) of `verify/soliton_obituary.py`, which prints `PASS  Friedmann: H = 1.66 sqrt(g*) T^2/M_Pl` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Its derivation and uses are on [the radiation era](/wiki/cosmology/early-universe/radiation-era).
 
 ## Standard references
 
@@ -123,6 +123,8 @@ None of these is cited in the program's documents; they are given here from memo
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — a halt and reversal of a(t), read through a·ã = 1.
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — kinetic versus potential energy of a scalar field.
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the a⁻⁶ term in the Friedmann equation.
+- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — the expansion halts when the total energy density reaches zero.
+- [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — ρ ∝ a^{−3(1+w)} applied to a fluid in the momentum-space description.
 
 ## Sources
 

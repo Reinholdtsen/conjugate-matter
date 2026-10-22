@@ -63,7 +63,7 @@ The withdrawn soliton manuscript [#14](/wiki/dark-matter/candidates/soliton-cand
 
 ### A hidden sector reheated colder
 
-If the inflaton, or whatever reheats the universe, decays into two sectors that do not interact, each sector thermalizes separately, and they can start at different temperatures. Their ratio, the hidden-to-visible temperature ratio ξ, is then set by the decay, and it persists only while the two sectors stay out of contact [T]. #14 needed ξ below 1 to keep the contribution of its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)'s massless photon to the radiation density within the measured bound: it required "the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix" (#14 §4), and its self-assessment listed "the colder reheating of the hidden sector" as conjectural (#14 §6). Round 3 corrected the bound to ξ < 0.760 [V] (ruling 5; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+If the inflaton, or whatever reheats the universe, decays into two sectors that do not interact, each sector thermalizes separately, and they can start at different temperatures. Their ratio, the hidden-to-visible temperature ratio ξ, is then set by the decay, and it persists only while the two sectors stay out of contact [T]. #14 needed ξ below 1 to keep the contribution of its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)'s massless photon to the radiation density within the measured bound: it required "the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix" (#14 §4), and its self-assessment listed "the colder reheating of the hidden sector" as conjectural (#14 §6). [Round 3](/wiki/method/review/round-3) corrected the bound to ξ < 0.760 [V] (ruling 5; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 
 These are requirements of the retired candidate, and the numbers below belong to the soliton episode. The round-3 referee listed what a colder start would demand of reheating (`review/round3/referee/audit-notes.md`, Step 4(c) item 9):
 
@@ -85,7 +85,7 @@ A heavy, long-lived species, or a field oscillating about its minimum, behaves a
 
 ### How much a relic needs
 
-The dilution a relic needs is its overproduction factor: the ratio of the density it would have to the density observed. For monopoles counted by the Kibble mechanism the factor grows steeply with mass. #14 §3: "Heavier monopoles are over-produced as (M/M\*)^4 and need that much entropy dilution - about 1e10 at M = 1e16 GeV", where M\* is the mass at which the undiluted abundance matches the dark matter. The fourth power comes from the yield growing as the cube of the transition temperature, which scales with M, times one more power of M in the mass density ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
+The dilution a relic needs is its overproduction factor: the ratio of the density it would have to the density observed. For monopoles counted by the Kibble mechanism the factor grows steeply with mass. #14 §3: "Heavier monopoles are over-produced as (M/M\*)^4 and need that much entropy dilution - about 1e10 at M = 1e16 GeV", where M\* is the mass at which the undiluted abundance matches the [dark matter](/wiki/dark-matter). The fourth power comes from the yield growing as the cube of the transition temperature, which scales with M, times one more power of M in the mass density ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
 
 These figures belong to the retired soliton episode, and they moved when round 3 corrected the count ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)):
 
@@ -140,6 +140,8 @@ The † entries are from model memory and unverified.
 - [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art) — early matter domination as the escape above about 100 PeV.
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — a colder reheated hidden sector and the reheating it needs.
 - [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — "inflationary dilution already accounts for absence".
+- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the permanent null for our sector, whose absence #11 §11.1 attributes to inflationary dilution.
+- [Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis) — the lab notebook's sketch sets its decisive event at reheating.
 - [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) — inflation as the standard resolution.
 - [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 2 and its three routes.
 

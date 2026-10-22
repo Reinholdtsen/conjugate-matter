@@ -2,7 +2,7 @@
 title: "The phase-space diameter relation (chat-only)"
 weight: 70
 status: conjecture
-description: "D_x·D_p = h·N^{1/3} per dimension, a 'cosmic time–bandwidth theorem' whose rectangle is square at the bounce; chat-only, and queued for a note."
+description: "D_x·D_p = h·N^{1/3} per dimension, a 'cosmic time–bandwidth theorem' whose rectangle is square at the bounce (which bounce is unstated, flag 24); chat-only, and queued for a note."
 sources:
   - "HANDOFF.md §4"
   - "HANDOFF.md §8"
@@ -11,7 +11,7 @@ sources:
 
 *The phase-space diameter relation is a conjecture from the program's original chat sessions: the diameter of the universe in position space, multiplied by its diameter in momentum space, equals Planck's constant times a large number fixed by how many photons the universe contains. It is a cosmological counterpart of the time–bandwidth product of signal analysis, which says that a pulse cannot be both very short and very narrow in frequency. The relation exists only in the chat, as summarized by the [handoff document](/wiki/history/documents/handoff): no paper or note derives it and no script checks its numbers. A short note on it is in the current work queue.*
 
-**Status:** Conjecture (chat-only) — untagged; the handoff calls it "Conjecture-tier" — no derivation in any document, no `verify/` script, absent from #11; queued as a note (root `CLAUDE.md`, current queue item 1). Listed on [conjectures](/wiki/status/conjectures).
+**Status:** Conjecture (chat-only) — untagged; the handoff calls it "Conjecture-tier" — no derivation in any document, no `verify/` script, absent from [#11](/wiki/history/documents/checkpoint); queued as a note (root `CLAUDE.md`, current queue item 1). Listed on [conjectures](/wiki/status/conjectures).
 
 ## Statement
 
@@ -46,7 +46,7 @@ The program's derived relation between the two descriptions is [the cosmological
 
 **The square.** The handoff places the square rectangle "exactly at the bounce" but does not say which bounce. The only bounce elsewhere in the record is the [conjugate universe](/wiki/program/conjugate-universe)'s bounce at the far-future turnaround of our expansion ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)); the handoff's summary does not connect the two statements, and no document says how D_x and D_p evolve in time. The ambiguity is recorded for Paul's ruling in `review/wiki-build-flags.md` item 24.
 
-**The clock.** "Self-duality" in the program refers to the [self-dual point](/wiki/phase-space/modular-field/modular-inversion) of the [modular field](/wiki/phase-space/modular-field/modular-field-z), Z = i, and the self-dual locus |Z| = 1 with which the documents identify a·ã = 1 (#11 §6, §10). The handoff's phrase "a clock measuring distance from self-duality" appears to read today's aspect ratio of ~10⁹² as a measure of how far the universe is from the square, self-dual configuration (the wiki's reading); the handoff does not say how the clock runs.
+**The clock.** "Self-duality" in the program refers to the [self-dual point](/wiki/phase-space/modular-field/modular-inversion) of the [modular field](/wiki/phase-space/modular-field/modular-field-z), Z = i, and the self-dual locus |Z| = 1 with which the documents identify a·ã = 1 (#11 §6, §10; an identification queried in flag 23 of `review/wiki-build-flags.md`). The handoff's phrase "a clock measuring distance from self-duality" appears to read today's aspect ratio of ~10⁹² as a measure of how far the universe is from the square, self-dual configuration (the wiki's reading); the handoff does not say how the clock runs.
 
 ## What is missing
 
@@ -56,7 +56,7 @@ The program's derived relation between the two descriptions is [the cosmological
 
 ## The queue
 
-The handoff lists the relation under "Optional write-ups: phase-space diameter relation note (§4)" (§8 item 7). The root `CLAUDE.md` ("Since the handoff") moves it into current queue item 1, "HANDOFF §8 items 5–7: the partially-massless comparison, the † literature battery, the phase-space-diameter note"; the second of the three is described on [the † literature battery](/wiki/method/literature-battery). Until that note exists the relation stays a chat-only conjecture, with no derivation behind it. See [open problems and the queue](/wiki/status/open-problems).
+The handoff lists the relation under "Optional write-ups: phase-space diameter relation note (§4)" (§8 item 7). The root `CLAUDE.md` ("Since the handoff") moves it into current queue item 1, "HANDOFF §8 items 5–7: the partially-massless comparison, the † literature battery, the phase-space-diameter note"; the first of the three is [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), and the second is described on [the † literature battery](/wiki/method/literature-battery). Until that note exists the relation stays a chat-only conjecture, with no derivation behind it. See [open problems and the queue](/wiki/status/open-problems).
 
 ## Sources
 

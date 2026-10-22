@@ -29,13 +29,13 @@ The map is used to measure distances by a standard ruler, the baryon acoustic os
 
 ### Sound in the early plasma
 
-Before the universe was cool enough for neutral atoms to form, photons and baryons (ordinary matter) were held together by scattering as a single plasma with a high sound speed. A small excess of matter at one point drove a spherical sound wave outward through the plasma, while the dark matter, which does not feel the photon pressure, stayed behind at the centre. When the photons decoupled from the baryons, the wave stopped: the baryons were left in a thin shell at the distance the sound had travelled, the sound horizon r_d (Eisenstein and Hu †; Peebles and Yu †; Sunyaev and Zeldovich †).
+Before the universe was cool enough for neutral atoms to form, photons and baryons (ordinary matter) were held together by scattering as a single plasma with a high sound speed. A small excess of matter at one point drove a spherical sound wave outward through the plasma, while the [dark matter](/wiki/dark-matter), which does not feel the photon pressure, stayed behind at the centre. When the photons decoupled from the baryons, the wave stopped: the baryons were left in a thin shell at the distance the sound had travelled, the sound horizon r_d (Eisenstein and Hu †; Peebles and Yu †; Sunyaev and Zeldovich †).
 
 Matter later fell into both the central excess and the shell. Summed over countless such sources, the result is a small excess in the number of galaxy pairs separated by r_d (Eisenstein et al. † and Cole et al. †, the first detections).
 
 ### The ruler in Fourier space
 
-The imprint has a simple Fourier description. In the two-point correlation function of galaxy positions, the probability of finding two galaxies at separation r, it is a single bump at r = r_d. The power spectrum P(k) is the Fourier transform of the correlation function, and the transform of a thin spherical shell of radius r_d is an oscillation in k of the form sin(k r_d)/(k r_d). The same length therefore appears as a bump in position space and as a series of wiggles in wavenumber, as an echo, a delayed copy of a signal, appears as a ripple in the signal's spectrum. Surveys fit either form.
+The imprint has a simple Fourier description. In the two-point correlation function of galaxy positions, the probability of finding two galaxies at separation r, it is a single bump at r = r_d. The power spectrum P(k) is the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of the correlation function, and the transform of a thin spherical shell of radius r_d is an oscillation in k of the form sin(k r_d)/(k r_d). The same length therefore appears as a bump in position space and as a series of wiggles in wavenumber, as an echo, a delayed copy of a signal, appears as a ripple in the signal's spectrum. Surveys fit either form.
 
 ### Calibration
 
@@ -76,6 +76,7 @@ The reading of the survey has changed. Before the [round-3](/wiki/method/review/
 
 - [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the release that put the dark-energy sector under pressure.
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — "w(z) is inferred from distances rather than observed".
+- [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — w₀ and wₐ, two of its three observables, measured from survey distances.
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the fits that compare τ-type models with the data.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the test that Data Release 3 decides.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — [founding supposition 7](/wiki/program/founding-suppositions) is "live at DESI DR3" (#11 App. A item 7).

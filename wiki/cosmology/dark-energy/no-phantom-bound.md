@@ -42,19 +42,19 @@ The notebook's argument has three steps, each one sentence.
 2. **The null energy condition holds.** For such a field, uniform in space, the energy density is ρ = ½τ̇² + V and the pressure p = ½τ̇² − V, so ρ + p = τ̇², which cannot be negative. More generally, for any light-like vector k the stress-energy contracts to a square, T_μν k^μ k^ν = (k^μ ∂_μτ)² ≥ 0, which is the null energy condition [T] ([the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)).
 3. **No phantom phase, no crossing.** With ρ > 0, ρ + p ≥ 0 means w = p/ρ ≥ −1. Equivalently, from the continuity equation ρ̇ = −3H(ρ + p), τ's energy density never grows while the universe expands. A w(z) that dips below −1 at any epoch is therefore impossible for τ, and so is a crossing of −1 in either direction.
 
-Step 2 is textbook physics [T]; the program's contribution is the premise, that dark energy is the canonical scalar τ, and #1 tags the result [D]. The derivation is short and does not depend on the shape of the potential: no choice of V can make τ phantom, because V cancels from ρ + p. It does rely on τ being the whole of dark energy. #11 supports that premise with the [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10).
+Step 2 is textbook physics [T]; the program's contribution is the premise, that dark energy is the canonical scalar τ, and #1 tags the result [D]. The derivation is short, and its key step does not depend on the shape of the potential: no choice of V can make τ violate the null energy condition, because V cancels from ρ + p. Turning that into w ≥ −1 needs ρ > 0, as step 3 states. It does rely on τ being the whole of dark energy. #11 supports that premise with the [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10).
 
 ## What counts as a violation
 
 The bound concerns the equation of state of τ itself. A survey does not measure that directly; it measures distances and fits a model of w(z) to them ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). A fitted w below −1 can arise without any intrinsically phantom component, for example when the assumed background model is wrong ([the phantom divide](/wiki/cosmology/dark-energy/phantom-divide#intrinsic-against-inferred)). The documents draw the line accordingly.
 
-- #1 §7 item 1 counts only a w < −1 "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background", ΛCDM being the standard model of a cosmological constant plus cold dark matter.
+- #1 §7 item 1 counts only a w < −1 "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background", ΛCDM being the standard model of a cosmological constant plus cold [dark matter](/wiki/dark-matter).
 - #11's kill condition is a "robust intrinsic w < −1" (§13 row 4).
 - #11 §10 adds, of the current data, that "w(z) is inferred from distances rather than observed".
 
 ## The kill condition
 
-Row 4 of #11's prediction table ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift)):
+Row 4 of #11's [prediction table](/wiki/predictions) ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift)):
 
 | Observable | Standard expectation | Broken-Born requirement | Killed by |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ The documents differ on the scope of the second kill.
 | #14 §5, exclusion condition 6 (withdrawn) | "kills the parent framework's cosmological sector" |
 | #11 §13 row 4 (current) | "robust intrinsic w < −1 (kills outright)" |
 
-#11 ranks above the others. Its row 4 sets "kills outright" against "kills τ-sector" for a constant −1, which reads as more than the sector, and the handoff spells it out as the whole framework; #1 §7 item 1 and the withdrawn #14 confine the kill to the sector. No document states why the scope is wider than the sector.
+#11 ranks above the others. Its row 4 sets "kills outright" against "kills τ-sector" for a constant −1, which reads as more than the sector, and the handoff spells it out as the whole framework; #1 §7 item 1 and the withdrawn #14 confine the kill to the sector. No document states why the scope is wider than the sector. The register of [conflicts between sources](/wiki/history/documents/source-conflicts#dark-energy) lists the disagreement as settled by precedence in #11's favour.
 
 ## Under pressure
 

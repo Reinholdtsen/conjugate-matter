@@ -13,7 +13,7 @@ sources:
 
 *This open problem is a gap between two explanations of dark energy that stand side by side in the program's [lab notebook](/wiki/history/documents/lab-notebook). The first comes from the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary): kinetic energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) acts on our expansion like a cosmological constant, so the notebook names it the natural source of a near-constant dark energy. The second is the explanation the program uses: dark energy is the potential energy of the field τ ([hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)), held near the top of its potential. No document derives the second from the first, so the step from the motivation to the identification of dark energy with τ is asserted rather than derived.*
 
-**Status:** Open — untagged; not among #11 §14's open problems — the gap was found by reading #1 §6 and §7 side by side when the sources were inventoried for this wiki, and no document addresses it. Listed on [open problems](/wiki/status/open-problems). It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
+**Status:** Open — untagged; not among [#11](/wiki/history/documents/checkpoint) §14's open problems — the gap was found by reading #1 §6 and §7 side by side when the sources were inventoried for this wiki, and no document addresses it. Listed on [open problems](/wiki/status/open-problems). It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
 
 ## The question
 
@@ -63,7 +63,7 @@ On the wiki's reading of the documents, none of the program's derived results de
 ## Related open problems
 
 - Where τ's potential comes from: [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
-- Whether τ's potential can become negative, as the far-future turnaround needs: [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign).
+- Whether τ's potential can become negative, as the [far-future turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce) needs: [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign).
 
 ## Sources
 

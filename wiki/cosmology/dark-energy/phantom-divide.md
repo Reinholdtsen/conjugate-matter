@@ -77,7 +77,7 @@ Since a single canonical scalar cannot cross w = −1, a measured phantom phase 
 - **A ghost.** A scalar with the wrong sign of kinetic term has ρ + p = −φ̇² < 0 and is phantom (Caldwell †). Its quanta carry negative energy, and in an interacting theory the vacuum can decay into ghosts and ordinary particles; avoiding that needs the theory to be cut off at a low scale (Carroll, Hoffman and Trodden †; Cline, Jeon and Moore †).
 - **Several fields.** A single field, canonical or ghost, cannot pass smoothly through w = −1 (Vikman †). Models with one field of each kind can, and are called quintom models (Feng, Wang and Zhang †).
 - **Non-minimal couplings or modified gravity.** If the field couples to curvature, or gravity itself is modified, the effective w inferred from the expansion can fall below −1 without any component violating the null energy condition (Boisseau, Esposito-Farèse, Polarski and Starobinsky †).
-- **Interactions in the dark sector.** If dark energy exchanges energy with dark matter, a fit that treats them as separate, non-interacting fluids can return an apparent w < −1 (Das, Corasaniti and Khoury †).
+- **Interactions in the dark sector.** If dark energy exchanges energy with [dark matter](/wiki/dark-matter), a fit that treats them as separate, non-interacting fluids can return an apparent w < −1 (Das, Corasaniti and Khoury †).
 
 A constant w < −1 would make the energy density grow without limit, and the scale factor would diverge in finite time, the "big rip" (Caldwell, Kamionkowski and Weinberg †). A crossing that lasts only part of cosmic history does not need that outcome.
 

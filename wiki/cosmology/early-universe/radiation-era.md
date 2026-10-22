@@ -28,6 +28,7 @@ sources:
   - "notes/broken-born-program-v1.md §9"
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md §4"
+  - "review/wiki-build-flags.md items 22, 32"
 ---
 
 *The radiation era is the early period in which the universe's energy was dominated by radiation and by particles moving at nearly the speed of light, so that the temperature alone set how fast the universe expanded. Three standard quantities describe it. The first is the expansion rate as a function of temperature, H = 1.66√g\* T²/M_Pl. The second is the entropy density: it falls as the volume grows, so the ratio of a relic's number density to it, the yield, stays fixed once the relic is no longer made or destroyed. The third is N_eff, the effective number of light neutrino-like species, which nucleosynthesis and the cosmic microwave background both measure. The program uses these quantities twice: in its [optional prediction](/wiki/predictions/early-universe-step) of fewer effective species from the [conjugate universe](/wiki/program/conjugate-universe), and in the [review](/wiki/method/review/round-3) that retired its [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), whose central error was a dropped factor of the radiation-era expansion rate.*
@@ -140,7 +141,7 @@ with g_vis(high) = 106.75 and g_ν,dec = 10.75 on the visible side. The round-3 
 
 **Nucleosynthesis.** In the first minutes, the ratio of neutrons to protons freezes when the weak interactions that convert them become slower than the expansion. A larger expansion rate, from more radiation and hence a larger N_eff, makes that happen earlier and at a higher temperature, which leaves more neutrons and so more helium. The primordial helium abundance therefore measures H during Big Bang nucleosynthesis (BBN), and through H = 1.66√g\* T²/M_Pl it measures the radiation content [T]. A change in G at that time would act on H in the same way, which is why a step in the effective strength of gravity is constrained by the same physics (the wiki's reading of why [the lab notebook](/wiki/history/documents/lab-notebook) places the G_eff step of [row 10](/wiki/predictions/early-universe-step) "before BBN", #1 §6).
 
-**The cosmic microwave background (CMB).** Extra radiation changes the expansion history before recombination, which shifts the scale of the acoustic peaks relative to the damping of small-scale anisotropies, and free-streaming light particles leave a characteristic phase shift in the peaks [T]. The value the program's documents use is from Planck 2018: "excluded by Planck 2018 (N_eff = 2.99 +- 0.34 at 95%) [23]" (#14 §4). The referee checked the reference, Planck 2018 VI eq. (67b), and recorded the interval as "N_eff = 2.99 +0.34 -0.33" at 95%, from the combination of Planck data with baryon-acoustic-oscillation measurements (audit notes, Step 1).
+**The cosmic microwave background (CMB).** Extra radiation changes the expansion history before recombination, which shifts the scale of the acoustic peaks relative to the damping of small-scale anisotropies, and free-streaming light particles leave a characteristic phase shift in the peaks [T]. The value the program's documents use is from Planck 2018: "excluded by Planck 2018 (N_eff = 2.99 +- 0.34 at 95%) [23]" (#14 §4). The referee checked the reference, Planck 2018 VI eq. (67b), and recorded the interval as "N_eff = 2.99 +0.34 -0.33" at 95%, from the combination of Planck data with baryon-acoustic-oscillation measurements (audit notes, Step 1). #14's symmetric interval against the source's asymmetric one is flag 22 in `review/wiki-build-flags.md`; the bound below uses only the +0.34 side.
 
 **The bound used in round 3.** For the retired soliton candidate (below), the script takes the upper end of that interval, 2.99 + 0.34, and subtracts the SM value 3.044 (`bound = 2.99 + 0.34 - 3.044`):
 
@@ -149,7 +150,7 @@ with g_vis(high) = 106.75 and g_ν,dec = 10.75 on the visible side. The round-3 
 PASS  95% bound Delta N_eff < 0.286  [0.286]
 ```
 
-**The next step.** CMB-S4, a proposed ground-based CMB experiment [T], is the probe #11 names for the program's own N_eff prediction.
+**The next step.** CMB-S4, a proposed ground-based CMB experiment [T], is the probe #11 names for the program's own N_eff prediction; whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`).
 
 ## How the program uses it
 
@@ -163,7 +164,7 @@ The program's [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-
 
 The review that retired the soliton candidate turned on radiation-era physics in three places. The candidate is dead, and the numbers below are kept as its record ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
-- **The Kibble yield.** The dropped factor (1.66√g\*)³ above, ruling 1 ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)). Corrected, the yield fixes the mass at which the monopoles would be all of the dark matter, and the benchmark of v3 is overproduced ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)). v3 also reported a "factor of about 3" spread from the choice of Planck mass; ruling 2 found that "consistently normalized, the two conventions agree", which is the point made under the two Planck masses above.
+- **The Kibble yield.** The dropped factor (1.66√g\*)³ above, ruling 1 ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)). Corrected, the yield fixes the mass at which the monopoles would be all of the [dark matter](/wiki/dark-matter), and the benchmark of v3 is overproduced ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)). v3 also reported a "factor of about 3" spread from the choice of Planck mass; ruling 2 found that "consistently normalized, the two conventions agree", which is the point made under the two Planck masses above.
 - **Dark radiation and the hidden temperature.** The massless hidden photon of #14's [hidden SU(2) → U(1) sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) is radiation. "Suppose the two sectors shared a temperature above v. The hidden sector - the SU(2)_d gauge fields, the adjoint scalar and one psi doublet - then contributes Delta N_eff ~ 0.86 after its heavy states disappear" (#14 §4), where v is the hidden symmetry-breaking scale. The referee's script counts that sector as "SU(2) gauge (3x2) + real adjoint (3) + Dirac doublet (2x4 x 7/8)" (`step2a.py`) and prints "g_h(high)=16.0, g_h(late)=2.0, g_vis(high)=106.75: T_h/T_nu = 0.9305, DeltaN_eff = 0.8567" (`step2a.out`). Since ΔN_eff scales as ξ⁴, the bound 0.286 caps ξ, the ratio of hidden to visible temperature, and the script checks `xi < 0.760  [0.7601]`. #14 had required "xi < 0.77". The v3 worklog had tabulated that figure for the bound ΔN_eff < 0.3 and noted "The 0.3 bound is an approximate Planck 2018 value, from memory †" (item O2); the referee's script gives "xi needed for DeltaN<0.30: 0.7693". Ruling 5 upheld the correction as minor: "ξ bound 0.760, not 0.77". The referee's value with N_eff,SM = 3.046 is 0.759. The full record is [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history).
 - **Freeze-out during nucleosynthesis.** A hidden particle freezes out at hidden temperature T_h ~ m/20, which corresponds to a different visible temperature from the one at which the same mass would freeze out in our plasma. The referee converted the hidden freeze-out of #14's fermion ψ to visible temperatures, found that at MeV masses it falls "during BBN", and concluded that ψ "Needs m_psi >~ 20-30 MeV" (Step 4(a) item 8); ruling 6 accepted this without re-checking it ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)).
 
@@ -178,6 +179,9 @@ The review that retired the soliton candidate turned on radiation-era physics in
 ## Used by
 
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — negative ΔN_eff from closed dual curvature.
+- [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — dual curvature acts as dark radiation, measured by ΔN_eff.
+- [Independent anchors](/wiki/method/verification/independent-anchors) — the Friedmann coefficient 1.66 as a textbook anchor.
+- [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script) — the anchors, the yield normalization and the dark-radiation bound, executed.
 - [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — the dropped (1.66√g\*)³.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — the yield at minimum production.
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the dark-radiation bound and ξ < 0.760.
@@ -197,3 +201,4 @@ The review that retired the soliton candidate turned on radiation-era physics in
 - `notes/broken-born-theory.md` §6, §9 row 10, §10 — the dictionary table [D]; the dropped ±0.03 target; the optional geometric knobs
 - `notes/broken-born-program-v1.md` §9 row 10 — the row without the figure
 - `notes/knot-dark-matter-standalone.md` §3, §4 — the withdrawn candidate's yield inputs and dark radiation (withdrawn; its body numbers are superseded)
+- `review/wiki-build-flags.md` item 22 — #14's symmetric N_eff interval against the source's asymmetric one; item 32 — CMB-S4's status, unchecked

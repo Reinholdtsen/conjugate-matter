@@ -33,7 +33,7 @@ A scalar field φ of mass m that couples to ordinary matter through its value, b
 
 Torsion balances measure such forces: a suspended pendulum with test masses of different shapes or compositions responds to a force that does not follow Newton's law or that depends on composition, and the experiments constrain the strength of a Yukawa term over ranges from below a millimetre to astronomical scales (Adelberger, Heckel and Nelson †, a review). #1 names no experiment and cites no bound.
 
-A field that is still evolving on cosmological time scales today must be extremely light, with a range at least comparable to the size of the observable universe [T]; #1 calls τ "ultralight". For a field that light, a coupling to mass density of gravitational strength would act as an additional component of gravity at every scale tested, and the tests leave room only for a very weak one. This is the general problem of couplings between quintessence and ordinary matter (Carroll †).
+A field that is still evolving on cosmological time scales today must be extremely light, with a range at least comparable to the size of the observable universe [T]; #1 calls τ "ultralight". For a field that light, a coupling to mass density of gravitational strength would act as an additional component of gravity at every scale tested, and the tests leave room only for a very weak one. This is the general problem of couplings between [quintessence](/wiki/cosmology/dark-energy/quintessence) and ordinary matter (Carroll †).
 
 ## Why a shift symmetry removes the force [T]
 

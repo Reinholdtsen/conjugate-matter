@@ -36,7 +36,7 @@ The second Friedmann equation gives the acceleration, ä/a = −(ρ + 3p)/(6M_P�
 
 ### The cosmological constant [T]
 
-The simplest dark energy is a cosmological constant, an energy density of empty space that is the same everywhere and at all times. Its pressure is minus its energy density, w = −1 exactly, and ρ stays constant as space expands. The cosmological constant is the standard expectation in the program's prediction table: "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Why quantum vacuum energy does not produce a far larger value is a separate, unsolved question ([the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)).
+The simplest dark energy is a cosmological constant, an energy density of empty space that is the same everywhere and at all times. Its pressure is minus its energy density, w = −1 exactly, and ρ stays constant as space expands. The cosmological constant is the standard expectation in the program's [prediction table](/wiki/predictions): "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Why quantum vacuum energy does not produce a far larger value is a separate, unsolved question ([the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)).
 
 ## A scalar field as dark energy
 
@@ -55,7 +55,7 @@ with V the field's potential energy density, so that
 w = (½φ̇² − V) / (½φ̇² + V)
 ```
 
-When V ≥ 0, w lies between −1 (all potential energy, φ̇ = 0) and +1 (all kinetic energy, the stiff fluid of [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology)). A field whose kinetic energy is small compared with its potential energy has w close to −1 and behaves almost like a cosmological constant. The combination ρ + p = φ̇² is never negative, which is why such a field never reaches w < −1 ([the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)).
+When V ≥ 0, w lies between −1 (all potential energy, φ̇ = 0) and +1 (all kinetic energy, the stiff fluid of [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology)). A field whose kinetic energy is small compared with its potential energy has w close to −1 and behaves almost like a cosmological constant. The combination ρ + p = φ̇² is never negative, which is why such a field never reaches w < −1 while its energy density is positive ([the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)).
 
 The program writes the same structure for its field τ, S_τ = ∫√−g[½(∂τ)² − V(τ)] (#1 §3, transcribed from its LaTeX): a canonical kinetic term plus a potential.
 
@@ -118,7 +118,7 @@ If the total energy density of a flat universe reaches zero, the Friedmann equat
 
 #11 §10 cites "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook gives a figure for one of those fits, a "93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse" (Gialamas et al., arXiv:2506.21542; #1 §7 item 3). That figure appears only in #1, and no `verify/` script or later document checks it.
 
-The program uses recollapse for its far-future turnaround ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). Whether its own potential can go negative is unresolved: V₀[1 + cos(τ/f)] is never negative when V₀ > 0 ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+The program uses recollapse for its far-future turnaround ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). Whether its own potential can go negative is unresolved: V₀[1 + cos(τ/f)] is never negative when V₀ > 0 ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
 
 ## Fits to current data [S]
 
@@ -138,7 +138,11 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — w₀, wₐ and the turnaround time as functions of the model's free numbers.
 - [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — recollapse needs negative vacuum energy.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — recollapse once the vacuum energy is negative.
+- [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — hilltop quintessence as the explanation the program implements.
+- [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the fitted w(z) and the shape of a crossing in the w₀–wₐ form.
+- [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — τ's periodic potential, compared with quintessence in general.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the w₀–wₐ test.
+- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — recollapse when the vacuum energy turns negative.
 
 ## Sources
 

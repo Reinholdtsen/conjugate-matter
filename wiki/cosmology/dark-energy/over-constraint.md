@@ -18,7 +18,7 @@ sources:
 
 *The dark-energy over-constraint is a counting argument: the program's dark-energy model has fewer free numbers than the quantities it predicts, so the data can test the model against itself. The model has three free numbers, the height V₀ and scale f of the potential of the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) and τ's initial value τᵢ, and the height is fixed by the measured amount of dark energy, which leaves two. Those two must account for three observables: today's equation of state w₀, its rate of change wₐ, and the time of the future [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce), t_turn. One relation among the three is therefore a prediction, which the checkpoint counts among the program's progressive signs. The third observable lies in the far future, and the turnaround it times needs the potential to go negative, which the potential as written never does.*
 
-**Status:** Alive — [D] (#1 §7 item 4), within [checkpoint #11](/wiki/history/documents/checkpoint) §10's [D + T] paragraph — a counting result, not a computation and not machine-checked; no document writes the predicted relation explicitly. Its third leg is long-horizon (#11 §13 [row 5](/wiki/predictions/fate-of-expansion)) and depends on [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign).
+**Status:** Alive — [D] (#1 §7 item 4), within [checkpoint #11](/wiki/history/documents/checkpoint) §10's [D + T] paragraph — a counting result, not a computation and not machine-checked; no document writes the predicted relation explicitly. Its third leg is long-horizon (#11 §13 [row 5](/wiki/predictions/fate-of-expansion)) and depends on [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) (flag 27 in `review/wiki-build-flags.md`).
 
 ## The statement
 
@@ -47,7 +47,7 @@ The notebook's §10 tabulates parameters against phenomena for each sector ([the
 | --- | --- | --- |
 | Dark energy | f, τᵢ (2; V₀ fixed by Ω_DE) | w₀, wₐ, t_turn (3) |
 
-The same table gives the conjugate-matter sector two parameters for five or more phenomena; that row predates the death of momentum clumping and is not carried into #11, which has no full parameter table. Only the dark-energy row survives as a stated over-constraint.
+The same table gives the conjugate-matter sector two parameters for five or more phenomena; that row predates the death of [momentum clumping](/wiki/dark-matter/momentum-clumping) and is not carried into #11, which has no full parameter table. Only the dark-energy row survives as a stated over-constraint.
 
 ## In the assessment
 
@@ -60,7 +60,7 @@ The three observables are not equally accessible.
 - **w₀ and wₐ** are the near-term observables of [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), measured from distances by surveys such as the Dark Energy Spectroscopic Instrument (DESI) ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). On the count above, those two measurements fix f and τᵢ.
 - **t_turn** belongs to [row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), whose kill column reads "(Long horizon; near-term test is row 4)" (#11 §13). The over-constraint therefore has no near-term test of its own.
 
-The third leg also rests on a point the sources leave unresolved. A turnaround needs the vacuum energy to become negative: "Once τ rolls past V = 0, the effective vacuum energy is negative, expansion halts, and slow contraction begins" (#1 §7 item 3). But V₀[1 + cos(τ/f)] is never negative when V₀ > 0, and no document reconciles the two statements ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). Until that conflict is settled, t_turn is not defined for the potential as written.
+The third leg also rests on a point the sources leave unresolved. A turnaround needs the vacuum energy to become negative: "Once τ rolls past V = 0, the effective vacuum energy is negative, expansion halts, and slow contraction begins" (#1 §7 item 3). But V₀[1 + cos(τ/f)] is never negative when V₀ > 0, and no document reconciles the two statements ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). Until that conflict is settled, t_turn is not defined for the potential as written.
 
 The near-term legs are also under pressure. The second DESI data release favours a w(z) that crosses below −1 at redshifts above about 0.4, which τ cannot produce ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)); per the root `CLAUDE.md`, "The dark-energy sector is under real pressure ahead of DR3", DR3 being DESI's Data Release 3.
 

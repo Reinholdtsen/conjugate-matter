@@ -16,7 +16,7 @@ sources:
 
 *This page records a dead claim: that the gravitational collapse of the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of our own, is what drives the accelerating expansion of our universe. It was one of the program's [founding suppositions](/wiki/program/founding-suppositions). Written down with the heuristic translation rule of the early discussion, it required dark energy with equation of state w = −2, a value the data exclude. With the translation rule derived properly, the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), collapsing conjugate matter acts on our expansion as ordinary matter does, slowing it rather than accelerating it, so the mechanism disappeared. The claim died twice and stays dead.*
 
-**Status:** Dead, twice — untagged — killed first by data (w = −2 is falsified) and then by the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) (`HANDOFF.md` §2; #11 App. A item 9); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead, twice — untagged — killed first by data (w = −2 is falsified) and then by the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) (`HANDOFF.md` §2; [#11](/wiki/history/documents/checkpoint) App. A item 9); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 

@@ -2,7 +2,7 @@
 title: "The cosmological constraint a·ã = 1"
 weight: 20
 status: alive
-description: "ω-rigidity fixes the comoving phase-space cell, so our scale factor and the conjugate's are reciprocals: the |Z| = 1 locus of the modular field, and the program's version of scale-factor duality."
+description: "ω-rigidity fixes the comoving phase-space cell, so our scale factor and the conjugate's are reciprocals: identified in the documents with the |Z| = 1 locus of the modular field (queried, flag 23), and the program's version of scale-factor duality."
 provenance: [D]
 sources:
   - "papers/broken-born-checkpoint-v2.md §10"
@@ -24,7 +24,7 @@ sources:
 
 *The cosmological constraint is the relation a·ã = 1 between the scale factor a of our universe and the scale factor ã of its momentum-space description, the [conjugate universe](/wiki/program/conjugate-universe): as our universe expands, its momentum-space description contracts by exactly the same factor. It follows from the program's postulate that the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, the structure that fixes the size of a cell of phase space and with it the value of Planck's constant, is rigid. A comoving cell therefore keeps its phase-space volume while position-space distances grow, which forces momentum-space distances to shrink; in signal terms, stretching a waveform compresses its spectrum. The relation is derived [D], and it turned one of the program's [founding suppositions](/wiki/program/founding-suppositions), that the conjugate universe shrinks as ours expands, into a theorem.*
 
-**Status:** Alive — [D] (#11 §10) — derived in the [lab notebook](/wiki/history/documents/lab-notebook) (#1 §6) and stated from ω-rigidity in #11; not machine-checked. The modular parametrization it belongs to, including det H_Z = 1, is checked numerically at one sampled point ([the verification battery](/wiki/method/verification/battery), test T2); the constraint itself is not, and its identification with the |Z| = 1 locus is structural and awaits a ruling (`review/wiki-build-flags.md` item 23).
+**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §10) — derived in the [lab notebook](/wiki/history/documents/lab-notebook) (#1 §6) and stated from ω-rigidity in #11; not machine-checked. The modular parametrization it belongs to, including det H_Z = 1, is checked numerically at one sampled point ([the verification battery](/wiki/method/verification/battery), test T2); the constraint itself is not, and its identification with the |Z| = 1 locus is structural and awaits a ruling (`review/wiki-build-flags.md` item 23).
 
 ## Statement
 
@@ -65,13 +65,13 @@ The derivation is short because the content sits in the postulate. It needs no f
 
 The notebook derived the constraint under the [original P2](/wiki/program/postulates/original-p2), which froze both ω and the [neutral metric η](/wiki/phase-space/born-geometry/born-structures). That postulate was given "triple duty", one of which was that "it enforces the cosmological constraint a ã = const" (#1 §1, which points to §7; the derivation is in §6, a pointer slip recorded in `review/wiki-build-flags.md` item 25).
 
-The v0.3 addendum found that strict P2 makes the theory trivial and replaced it by P2′, under which only ω is rigid ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). The constraint survives the replacement, because its derivation uses only the rigidity of ω: η plays no role in fixing the cell volume. #11 states it on that basis: "ω-rigidity fixes the comoving phase-space cell". The same addendum lists, among the identifications of the [modular field](/wiki/phase-space/modular-field/modular-field-z) that P2′ introduces, "the cosmological constraint a·ã = 1 as the |Z| = 1 locus" (#1, v0.3 addendum).
+The v0.3 addendum found that strict P2 makes the theory trivial and replaced it by P2′, under which only ω is rigid ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). The constraint survives the replacement, because its derivation uses only the rigidity of ω: η plays no role in fixing the cell volume. #11 states it on that basis: "ω-rigidity fixes the comoving phase-space cell". The same addendum lists, among the identifications of the [modular field](/wiki/phase-space/modular-field/modular-field-z) that P2′ introduces, "the cosmological constraint a·ã = 1 as the |Z| = 1 locus" (#1, v0.3 addendum), a reading queried in `review/wiki-build-flags.md` item 23 (below).
 
 ## The geometry: the |Z| = 1 locus
 
 With only ω rigid, the generalized metric H ranges over the [Siegel domain](/wiki/phase-space/modular-field/siegel-domain), coordinatized by the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY with Im Z = Y the spacetime metric g. [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts on Z by inversion: #11 §6, "**ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹, and the cosmological constraint a·ã = 1 (§10) is the |Z| = 1 locus." See [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion).
 
-Calc note #5 puts the relation between the two pictures this way: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle — the minisuperspace duality was the shadow of this modular action" (§C). In the half-plane picture (d = 1), inversion Z → −1/Z carries the unit semicircle |Z| = 1 onto itself and fixes only the point Z = i [T].
+[Calc note #5](/wiki/history/documents/debt-1-notes) puts the relation between the two pictures this way: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle — the minisuperspace duality was the shadow of this modular action" (§C). In the half-plane picture (d = 1), inversion Z → −1/Z carries the unit semicircle |Z| = 1 onto itself and fixes only the point Z = i [T].
 
 The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z. The identification is a structural reading: calc note #5 tags its section "[D — structural; math facts standard]", and #11 §10 tags the constraint [D].
 
@@ -90,7 +90,7 @@ In string cosmology, scale-factor duality is a symmetry of the low-energy string
 - **The duality dictionary.** Because ã = 1/a at every moment, energy described in the conjugate frame can be translated into its effect on our expansion. The result is w_eff = −w̃: [the duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary).
 - **The early-universe term.** Substituting ã = 1/a into a dual gravitational term gives the a⁻⁶ correction to the Friedmann equation behind [row 10](/wiki/predictions/early-universe-step) (#1 §6).
 - **The bounce.** A maximum of a is a minimum of ã, so a far-future turnaround of our expansion is the conjugate universe's bounce: [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), tested on [row 5](/wiki/predictions/fate-of-expansion).
-- **A founding supposition promoted.** Founding supposition 6, "Conjugate universe shrinks as ours expands", is "**promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (#11 App. A item 6). See [founding suppositions and their fates](/wiki/program/founding-suppositions).
+- **A founding supposition promoted.** Founding supposition 6, "Conjugate universe shrinks as ours expands", is "**promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (#11 App. A item 6); the |Z| = 1 reading is queried in flag 23 (above). See [founding suppositions and their fates](/wiki/program/founding-suppositions).
 - **A chat-only use.** The [phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) speaks of "distance from self-duality"; it is a conjecture with no document behind it.
 
 ## Scope and caveats
@@ -103,7 +103,7 @@ In string cosmology, scale-factor duality is a symmetry of the low-energy string
 ## History
 
 - **Lab notebook, v0.1.** Derived in #1 §6 under strict P2, which #1 §1 credits with enforcing it.
-- **Lab notebook, v0.3 addendum.** P2 replaced by P2′; the constraint appears "as the |Z| = 1 locus" of the modular field.
+- **Lab notebook, v0.3 addendum.** P2 replaced by P2′; the constraint appears "as the |Z| = 1 locus" of the modular field, a reading queried in flag 23 of `review/wiki-build-flags.md`.
 - **Calc note #5** (§C, §F): "the minisuperspace duality was the shadow of this modular action"; det H = 1 as "the geometric face of ℏ-rigidity".
 - **#9 §8**: "ω-rigidity fixes the comoving phase-space cell: a·ã = 1. Not an assumption — the statement that ℏ does not run; geometrically, the |Z| = 1 self-dual locus."
 - **#11 §10** is the current statement, and App. A item 6 records the founding supposition's promotion.

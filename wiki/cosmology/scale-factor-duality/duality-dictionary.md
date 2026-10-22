@@ -16,9 +16,11 @@ sources:
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-program-v1.md §8"
+  - "notes/broken-born-program-v1.md §9"
+  - "review/wiki-build-flags.md item 32"
 ---
 
-*The duality dictionary is the rule that translates energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) into the form in which it acts on our own expansion. Each kind of energy is labelled by its equation of state w, the ratio of its pressure to its energy density, and the rule is that conjugate-side energy with equation of state w̃ acts on us like energy with w = −w̃. Pure kinetic energy on the conjugate side therefore acts here like a cosmological constant, a conjugate cosmological constant acts like the stiffest possible fluid, and dust acts like dust. The rule is derived [D] from [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint), and it replaced an earlier heuristic that gave a different answer, a correction that #11 counts as one of the two that sharpened the program's [hard core](/wiki/program/hard-core).*
+*The duality dictionary is the rule that translates energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) into the form in which it acts on our own expansion. Each kind of energy is labelled by its equation of state w, the ratio of its pressure to its energy density, and the rule is that conjugate-side energy with equation of state w̃ acts on us like energy with w = −w̃. Pure kinetic energy on the conjugate side therefore acts here like a cosmological constant, a conjugate cosmological constant acts like the stiffest possible fluid, and dust acts like dust. The rule is derived [D] from [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint), and it replaced an earlier heuristic that gave a different answer, a correction that [#11](/wiki/history/documents/checkpoint) counts as one of the two that sharpened the program's [hard core](/wiki/program/hard-core).*
 
 **Status:** Alive — [D — corrected en route] (#11 §10) — derived in the [lab notebook](/wiki/history/documents/lab-notebook) (#1 §6); no `verify/` script checks it. The earlier rule w_eff = −2 − w̃ is superseded (below).
 
@@ -85,7 +87,7 @@ The last clause of #11's statement, "the dual Einstein term is an a⁻⁶ step i
 
 The dual term multiplies H² alongside M_P², so it changes the effective Planck mass and with it the effective strength of gravity G_eff, and it scales as a⁻⁶, like the stiff fluid of the table's second row. In #1 §6's words, it is "**not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times". The steps are on [Friedmann cosmology and minisuperspace](/wiki/cosmology/scale-factor-duality/friedmann-cosmology#the-programs-extension-a-second-scale-factor).
 
-The test of this term, together with the negative ΔN_eff of closed dual curvature, is [row 10](/wiki/predictions/early-universe-step): "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", "(Knob-bounded; CMB-S4 probes)" (#11 §13), where CMB-S4 is the cosmic microwave background (CMB) experiment #11 names as the probe. The equation appears only in the lab notebook and has not been machine-checked. The notebook also predicted, "conditionally on its one knob", a spectral step in the primordial gravitational-wave background (#1 §6), and its row 10 put CMB-S4's sensitivity to N_eff at "±0.03" (#1 §9 row 10; a figure found only in #1 and not checked); #11 drops both.
+The test of this term, together with the negative ΔN_eff of closed dual curvature, is [row 10](/wiki/predictions/early-universe-step): "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", "(Knob-bounded; CMB-S4 probes)" (#11 §13), where CMB-S4 is the cosmic microwave background (CMB) experiment #11 names as the probe; whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`). The equation appears only in the lab notebook and has not been machine-checked. The notebook also predicted, "conditionally on its one knob", a spectral step in the [primordial gravitational-wave background](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#primordial-backgrounds-t) (#1 §6), and its row 10 put CMB-S4's sensitivity to N_eff at "±0.03" (#1 §9 row 10; a figure found only in #1 and not checked). Version 1 of the checkpoint dropped both (#9 §8–§9), and #11 keeps v1's form of the row ([history of the predictions table](/wiki/predictions/table-history)).
 
 ## Superseded: the earlier heuristic rule
 
@@ -93,7 +95,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 **How the heuristic arises** (the wiki's reading; no document writes the step out). Identifying densities across frames means setting ρ_eff = ρ̃, omitting the factor (ã/a)³ of steps 2 and 3. Then ρ_eff ∝ ã^{−3(1+w̃)} = a^{3(1+w̃)}, and matching this to a^{−3(1+w_eff)} gives w_eff = −2 − w̃. For dual dust, w̃ = 0, the heuristic gives w = −2.
 
-**What it cost.** Collapsing conjugate matter, read through the heuristic, acted on our expansion like dark energy with w = −2. That was the basis of the founding idea that the conjugate universe's collapse drives our acceleration. The idea died twice: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2). See [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion).
+**What it led to.** Collapsing conjugate matter, read through the heuristic, acted on our expansion like dark energy with w = −2. That was the basis of the founding idea that the conjugate universe's collapse drives our acceleration. The idea died twice: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2). See [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion).
 
 **What the documents call the cause.** #1 §6 names the "volume Jacobian"; #9 §8 attributes the change to the handling of the Lagrange multiplier (the lapse); #11 §10 names "the constraint's Jacobian". The result is the same in all three, and #11's wording is the current one.
 
@@ -105,7 +107,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 ## Scope and caveats
 
-- **Minisuperspace.** The dictionary is derived for homogeneous fluids in a homogeneous universe. #1 §4's ghost accounting is likewise a minisuperspace statement, and it records that "The statement for full inhomogeneous H is open" [O].
+- **Minisuperspace.** The dictionary is derived for homogeneous fluids in a homogeneous universe. #1 §4's treatment of ghosts is likewise a minisuperspace statement, and it records that "The statement for full inhomogeneous H is open" [O].
 - **Not machine-checked.** The derivation and the a⁻⁶ equation appear only in the lab notebook. #11 §10 and #9 §8 restate the result without the derivation, and no `verify/` script checks it.
 
 ## History
@@ -125,4 +127,5 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 - `notes/broken-born-theory.md` §6 — the derivation, the table, the superseded heuristic, the dual gravity term and the kinetic-energy remark
 - `notes/broken-born-theory.md` §0 — the correction announced at the head of the notebook
 - `notes/broken-born-theory.md` §4, §9 row 10 — the minisuperspace scope of the ghost accounting; the v0.1 form of row 10
-- `notes/broken-born-program-v1.md` §8 — v1's statement of the dictionary
+- `notes/broken-born-program-v1.md` §8 — v1's statement of the dictionary, without the spectral step; §9 row 10 — the row without the ±0.03 figure
+- `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked

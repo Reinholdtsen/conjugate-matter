@@ -21,6 +21,7 @@ sources:
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §9"
   - "papers/broken-born-checkpoint-v2.md §13 row 10"
+  - "review/wiki-build-flags.md item 32"
 ---
 
 *A first-order phase transition in the early universe proceeds by bubbles of the new phase forming, growing and colliding, much as water boils, and the collisions and the sound waves they leave in the plasma produce gravitational waves that arrive today from every direction as a random background. The waves' characteristic frequency is set at the transition by its temperature and duration and has been stretched by the expansion ever since, so a transition at a higher temperature leaves a higher frequency today. A related background, the primordial one, comes from [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), and its spectrum records how fast the universe expanded at each early epoch. The program met this physics in two places: the hidden-sector transition of its [retired soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), whose signal would have lain far above the frequencies of current detectors, and an early idea, since [dropped](/wiki/predictions/early-universe-step), that its conjugate gravity sector would leave a step in the primordial gravitational-wave background.*
@@ -119,7 +120,7 @@ The lab notebook's minisuperspace calculation adds the program's dual gravitatio
 
 The notebook states the step without deriving its size or position. The mechanism it implies is the one above (the wiki's reading): waves that re-entered the Hubble length while the a⁻⁶ term changed the expansion rate would have re-entered under a different relation between the expansion rate and the energy density from those that re-entered later, and the spectrum today would change level between the two ranges of frequency.
 
-Version 1 of the [checkpoint](/wiki/history/documents/checkpoint) dropped the spectral step. Its dictionary calls the a⁻⁶ step "an optional early-universe fingerprint" (#9 §8), and its row 10 lists only the G_eff step and the negative ΔN_eff (#9 §9). #11 keeps that form: "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", with "(Knob-bounded; CMB-S4 probes)" (#11 §13 row 10), where CMB-S4 is a proposed experiment on the cosmic microwave background (CMB). The documents give no reason for the drop. See [row 10: an early step in G_eff](/wiki/predictions/early-universe-step) and [the history of the predictions table](/wiki/predictions/table-history).
+Version 1 of the [checkpoint](/wiki/history/documents/checkpoint) dropped the spectral step. Its dictionary calls the a⁻⁶ step "an optional early-universe fingerprint" (#9 §8), and its row 10 lists only the G_eff step and the negative ΔN_eff (#9 §9). #11 keeps that form: "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", with "(Knob-bounded; CMB-S4 probes)" (#11 §13 row 10), where CMB-S4 is a proposed experiment on the cosmic microwave background (CMB); whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`). The documents give no reason for the drop. See [row 10: an early step in G_eff](/wiki/predictions/early-universe-step) and [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Standard references
 
@@ -135,6 +136,8 @@ The † entries are from model memory and unverified; none is cited in the progr
 
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the band a first-order hidden transition would leave, and its corrected upper end.
 - [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — bubble counting in a first-order transition.
+- [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — a first-order hidden transition would raise the monopole yield further.
+- [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — the lab notebook's spectral step in the primordial background, dropped in v1.
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the lab notebook's form of the row included the dropped spectral step.
 - [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution) — the primordial background from inflation.
 
@@ -149,3 +152,4 @@ The † entries are from model memory and unverified; none is cited in the progr
 - `notes/broken-born-theory.md` §6, §9 row 10, §10 — the spectral step [D], the lab notebook's row 10 and its parameter table
 - `notes/broken-born-program-v1.md` §8, §9 row 10 — the step dropped in v1
 - `papers/broken-born-checkpoint-v2.md` §13 row 10 — the current row, without it
+- `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked

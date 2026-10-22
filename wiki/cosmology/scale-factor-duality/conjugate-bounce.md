@@ -15,11 +15,12 @@ sources:
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §9"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
+  - "review/wiki-build-flags.md items 24, 27"
 ---
 
 *The turnaround is a far-future event the program predicts: our universe stops expanding and begins to contract, which happens if the potential energy of the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) becomes negative. Because our scale factor and that of the [conjugate universe](/wiki/program/conjugate-universe) are reciprocals ([the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)), the moment our universe is largest is the moment its momentum-space description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum size and rebounding. The program states this as one event with two descriptions, not as two linked events. It is a long-horizon prediction whose near-term proxy is the [dark-energy drift](/wiki/predictions/dark-energy-drift) that survey data are testing now, and whether τ's potential, as the documents write it, can become negative at all is an unresolved conflict in the sources.*
 
-**Status:** Alive, long horizon — [D] for the bounce identity, [T] for the cited fits (#1 §7 item 3; #11 §10) — it follows from [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) by identity and is not machine-checked; tested only in the long run ([row 5](/wiki/predictions/fate-of-expansion)). Its premise, a negative V(τ), conflicts with the potential as written, and no document resolves the conflict ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+**Status:** Alive, long horizon — [D] for the bounce identity, [T] for the cited fits (#1 §7 item 3; [#11](/wiki/history/documents/checkpoint) §10) — it follows from [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) by identity and is not machine-checked; tested only in the long run ([row 5](/wiki/predictions/fate-of-expansion)). Its premise, a negative V(τ), conflicts with the potential as written, and no document resolves the conflict ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
 
 ## Statement
 
@@ -63,7 +64,7 @@ V(τ) = V₀[1 + cos(τ/f)]
 - #9 §9 row 5: "Turnaround after V(τ) < 0 = conjugate bounce"; #1 §9 row 6 has the same requirement.
 - The fits the documents cite use potentials "possessing a negative minimum" (#1 §7 item 3).
 
-No document reconciles the two statements. The register of [conflicts between sources](/wiki/history/documents/source-conflicts) lists it as unresolved, with the note that settling it needs an executed check. This page states the conflict and does not resolve it; the open problem has its own page, [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign). Everything on this page that depends on the turnaround happening, including the timing below, rests on that unresolved point.
+No document reconciles the two statements. The register of [conflicts between sources](/wiki/history/documents/source-conflicts#cosmology) lists it as unresolved, and `review/wiki-build-flags.md` item 27 records it with an executed check, `review/wiki-build-checks/v_sign_check.py`, which prints the potential's minimum as 0; which statement the documents should carry awaits Paul's ruling. This page states the conflict and does not resolve it; the open problem has its own page, [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign). Everything on this page that depends on the turnaround happening, including the timing below, rests on that unresolved point.
 
 ## The supporting fits [T]
 
@@ -79,7 +80,7 @@ Three cautions go with the figure:
 
 #11 §13 row 5: observable "Fate of expansion"; standard expectation "Eternal de Sitter"; requirement "Turnaround = conjugate bounce"; killed by "(Long horizon; near-term test is row 4)". See [row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion).
 
-The near-term proxy is [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), the drift of dark energy's equation of state that DESI measures. #11 §13 adds to row 4 that "DR2 already favors a crossing above z ≈ 0.4", against the framework's strict w ≥ −1 ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
+The near-term proxy is [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), the drift of dark energy's equation of state that DESI measures. #11 §13 adds to row 4 that "DR2 already favors a crossing above z ≈ 0.4", against the framework's [strict w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
 
 **Founding supposition 7.** "Our expansion reverses at their bounce" is "**alive, corrected**: one event, [two descriptions]; live at DESI DR3" (#11 App. A item 7, with the wiki's wording in brackets), where DESI DR3 is the survey's third data release (Data Release 3). The correction is the one this page describes: the two events became one. See [founding suppositions and their fates](/wiki/program/founding-suppositions).
 
@@ -109,3 +110,4 @@ The [phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-dua
 - `notes/broken-born-theory.md` §9 row 6 — the v0.1 form of the prediction
 - `notes/broken-born-program-v1.md` §8, §9 row 5 — "Turnaround after V(τ) < 0 = conjugate bounce"
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — "one event with two readings" (popular article; explanation only)
+- `review/wiki-build-flags.md` items 24 and 27 — the bounce the chat-only relation means, and the sign of V(τ), with the executed check `review/wiki-build-checks/v_sign_check.py`; both await Paul's ruling
