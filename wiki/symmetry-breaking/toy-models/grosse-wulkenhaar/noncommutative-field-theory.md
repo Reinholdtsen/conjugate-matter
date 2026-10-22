@@ -40,7 +40,7 @@ Functions on the plane are multiplied with the Moyal star product ⋆ (Groenewol
 f ⋆ g = f g + (iθ/2)(∂₁f ∂₂g − ∂₂f ∂₁g) + (terms with more derivatives, each with a further power of θ)
 ```
 
-The full series is an exponential of the derivative operator in the second term [T]. It is associative but not commutative, and its antisymmetric part gives back the commutator, x₁ ⋆ x₂ − x₂ ⋆ x₁ = iθ [T]. For a quadratic function the series ends after the second-order term. The gate script `verify/toy_gw.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)) uses the exact product of the oscillator function H = ½x² with any g, "exact (the series stops at second order)":
+The full series is an exponential of the derivative operator in the second term [T]. It is associative but not commutative, and its antisymmetric part gives back the commutator, x₁ ⋆ x₂ − x₂ ⋆ x₁ = iθ [T]. For a quadratic function the series ends after the second-order term. [The gate](/wiki/method/verification/the-gate) script `verify/toy_gw.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)) uses the exact product of the oscillator function H = ½x² with any g, "exact (the series stops at second order)":
 
 ```text
 H ⋆ g = ½x² g + (iθ/2)(x₁∂₂g − x₂∂₁g) − (θ²/8)(∂₁² + ∂₂²) g
@@ -135,6 +135,8 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua) — the condensed vacua and their cos β polarization.
 - [Quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration) — why the classical breaking does not survive; the exact solution not yet compared.
 - [Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead) — the real model's one-loop split.
+- [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — Langmann and Szabo on where locality in x comes from.
+- [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria) — the route forecast for S5 and the prior-art survey that found this literature.
 
 ## Sources
 

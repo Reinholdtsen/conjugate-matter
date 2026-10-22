@@ -37,7 +37,7 @@ The note takes the duality from Grosse and Wulkenhaar: "With the two-dimensional
 
 In `verify/toy_gw.py`, with θ the antisymmetric matrix whose off-diagonal entry is θ₁₂ = θ = 1 (the code's comment: "xtilde = 2 theta^-1 x, theta_12 = theta"), the dual coordinate is x̃ = (−2x₂, 2x₁). The exponent is then −2i(x₁y₂ − x₂y₁): the kernel is built from the [symplectic product](/wiki/phase-space/reciprocity/symplectic-form) of the two points, x₁y₂ − x₂y₁, rather than from the ordinary dot product.
 
-The normalization is fixed by an [anchor](/wiki/method/verification/independent-anchors): D leaves the Gaussian f₀₀, the oscillator ground state, unchanged. The gate prints the check as "anchor: D f_00 = f_00 (the normalization pi sqrt|det theta|)".
+The normalization is fixed by an [anchor](/wiki/method/verification/independent-anchors): D leaves the Gaussian f₀₀, the oscillator ground state, unchanged. [The gate](/wiki/method/verification/the-gate) prints the check as "anchor: D f_00 = f_00 (the normalization pi sqrt|det theta|)".
 
 ## Precision
 

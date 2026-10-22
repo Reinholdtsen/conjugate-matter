@@ -38,7 +38,7 @@ with † the Hermitian adjoint, not the citation mark.
 
 **They are diagonal.** The note: "Gradient descent from random starts always reaches a diagonal φ with |φ_mm|² = (1.5, 0.5, 0, …) and S_min = −2.5." (§3). For the real model the worklog gave the reason in chunk 1: the action depends on φ only through φ², and "With distinct level energies, every minimum is then diagonal". For the complex model the evidence is numerical.
 
-**What a diagonal vacuum looks like.** For a diagonal φ with entries of magnitude q_m = |φ_mm|², the action separates into one term per level, Σ_m [(2m + 1 − μ²) q_m + λ q_m²]: a diagonal entry has n = m, so its quadratic coefficient m + n + 1 − μ² is 2m + 1 − μ², and Tr((φ†φ)²) = Σ_m q_m². Each term is a parabola in q_m. A level whose coefficient 2m + 1 − μ² is positive stays empty; a level whose coefficient is negative fills to the bottom of its parabola. That is the formula the gate checks:
+**What a diagonal vacuum looks like.** For a diagonal φ with entries of magnitude q_m = |φ_mm|², the action separates into one term per level, Σ_m [(2m + 1 − μ²) q_m + λ q_m²]: a diagonal entry has n = m, so its quadratic coefficient m + n + 1 − μ² is 2m + 1 − μ², and Tr((φ†φ)²) = Σ_m q_m². Each term is a parabola in q_m. A level whose coefficient 2m + 1 − μ² is positive stays empty; a level whose coefficient is negative fills to the bottom of its parabola. That is the formula [the gate](/wiki/method/verification/the-gate) checks:
 
 ```text
 q_m = max(0, −(2m + 1 − μ²)/(2λ))            S_min = −Σ (2m + 1 − μ²)²/(4λ)   over the filled levels

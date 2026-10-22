@@ -41,7 +41,7 @@ Here β is the relative phase of the condensed entries φ₀₀ and φ₁₁, an
 
 ## Step 1: every condensate phase is an exact flat direction
 
-The complex action is unchanged when the rows and columns of the field's matrix are multiplied by arbitrary phases: "S[UφV†] = S[φ] for all diagonal unitaries U, V" (§3; † is the Hermitian adjoint here, not the citation mark). On a diagonal vacuum this rotates the phase of each condensed entry independently at no cost, so each phase is a flat direction, and β is one of them ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields)). The gate checks the premise: "complex model: S[U phi V^dag] = S[phi] for any diagonal unitaries U, V (a continuous U(1)^N x U(1)^N)".
+The complex action is unchanged when the rows and columns of the field's matrix are multiplied by arbitrary phases: "S[UφV†] = S[φ] for all diagonal unitaries U, V" (§3; † is the Hermitian adjoint here, not the citation mark). On a diagonal vacuum this rotates the phase of each condensed entry independently at no cost, so each phase is a flat direction, and β is one of them ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields)). [The gate](/wiki/method/verification/the-gate) checks the premise: "complex model: S[U phi V^dag] = S[phi] for any diagonal unitaries U, V (a continuous U(1)^N x U(1)^N)".
 
 Flatness here is exact, not an accident of the classical action. A symmetry of the action, with an integration measure that the symmetry also leaves unchanged, is a symmetry of the quantum theory, so no quantum correction can produce a potential for β [T]. The round-4 referee: "Exact phase decoupling CONFIRMED and stronger than stated: S is invariant under independent diagonal U, V (N=10: S = 7638.11944458 at 5 random (U,V)); every condensed level's phase is an independent exact flat direction. So <Delta>=0 at any truncation follows from symmetry alone, and no beta-dependence can be generated at any loop order." (audit notes, Step 2(c)).
 
@@ -96,7 +96,7 @@ The sources disagree on the coefficient, and no document reconciles them:
 - **ln N**: version 2 of the note ("grows as ln N (it is a harmonic sum)"), the worklog ("the restoration argument restated, with the ln N tadpole", 'Write-up and review') and the gate, which sums one series, Σ_{k<N} 1/(k+1), with G₀ₖ = 1/(k+1).
 - **2 ln N**: the referee and the adjudication (F6, "the 2 ln N mass renormalization"; revision 4), from T₀(N) = Σ_k (G₀ₖ + Gₖ₀), a sum of two series.
 
-The two use different definitions of the level-0 tadpole. Version 2 is the higher-ranked statement, and both agree that the growth is logarithmic and that the conclusion stands ([source conflicts](/wiki/history/documents/source-conflicts)).
+Version 2 is the higher-ranked statement, and both readings agree that the growth is logarithmic and that the conclusion stands (flag 11 in `review/wiki-build-flags.md`; [source conflicts](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)).
 
 ## Caveat 2: a potential on β is argued against, not proven
 
@@ -110,7 +110,7 @@ Model II was tried first because its own vacuum might select position or momentu
 
 ## Open: the comparison with the exact solution
 
-"The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Ref. [8] is Langmann, Szabo and Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces" (hep-th/0308043). The round-4 referee found it as omitted prior work: an "exact solution of the complex model at a special self-dual point (U(infty) degeneracies)", "Directly relevant to Sec. 4 restoration claim" (audit notes, Step 1). Revision 4 asked for the comparison; version 2 cites the paper and reports the comparison as not done. The item is tracked with the other open ends at [open problems](/wiki/status/open-problems).
+"The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Ref. [8] is Langmann, Szabo and Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces" (hep-th/0308043; [what the literature had studied](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory#what-the-literature-had-studied)). The round-4 referee found it as omitted prior work: an "exact solution of the complex model at a special self-dual point (U(infty) degeneracies)", "Directly relevant to Sec. 4 restoration claim" (audit notes, Step 1). Revision 4 asked for the comparison; version 2 cites the paper and reports the comparison as not done. The item is tracked with the other open ends at [open problems](/wiki/status/open-problems).
 
 ## Superseded: "Increasing the truncation adds only massive levels"
 
