@@ -71,7 +71,7 @@ All four of #13's references are marked †: cited from model memory and to be c
 - [Force boosts and force composition](/wiki/conjugate-relativity/force-boosts) — black-hole mergers, which approach the companion luminosity, as the one arena near the limit.
 - [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) — the Planck energy as the Planck length times c⁴/G.
 - [Momentum-space black holes (chat-only)](/wiki/conjugate-relativity/momentum-space-black-holes) — a horizon read as a maximum-force surface.
-- [Open: the † literature battery (OP10)](/wiki/method/literature-battery) — the source check still owed on references [1]† and [2]†.
+- [Open: the † literature battery (OP10)](/wiki/method/literature-battery) — the source check of references [1]† and [2]†, not yet done.
 
 ## Sources
 
