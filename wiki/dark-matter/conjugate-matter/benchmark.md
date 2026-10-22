@@ -17,11 +17,12 @@ sources:
   - "notes/debt3a-stream-stability.md 'Numbers at the scattering benchmark'"
   - "notes/debt3a-stream-stability.md 'Corollary (the classicality theorem)'"
   - "papers/conjugate-special-relativity.md §4"
+  - "review/wiki-build-flags.md items 17, 19"
 ---
 
 *The scattering benchmark is the set of numbers obtained by requiring the self-scattering of [conjugate matter](/wiki/dark-matter/conjugate-matter) to produce the flat central cores observed in dwarf galaxies. Fitting the cores fixes the cross-section per unit mass at low velocity; with an assumed mass for the carrier of the momentum transfer, that fixes the mass of a χ particle at about 70 MeV for a coupling of order one. [The checkpoint](/wiki/history/documents/checkpoint) keeps only this mass relation. The other benchmark numbers, among them the prediction that galaxy clusters show no self-interaction at any sensitivity, appear only in [the lab notebook](/wiki/history/documents/lab-notebook), rest on a Gaussian gate tail that is now an open question, and have never been checked by machine. The benchmark also fixes the coupling that the program's Debt-3 calculation used to rule out [collective clumping of χ particles](/wiki/dark-matter/momentum-clumping/founding-image).*
 
-**Status:** Alive — [D] (`notes/broken-born-theory.md` §5.1) — the mass relation is carried by #11 §8, and v1 (#9 §6) states it for particle χ; no benchmark number has a `verify/` script, and for the numbers found only in the lab notebook [the iron rule](/wiki/method/verification/iron-rule) is still owed. The lab notebook's predictions above the gate are superseded.
+**Status:** Alive — [D] (`notes/broken-born-theory.md` §5.1) — the mass relation is carried by #11 §8, and v1 (#9 §6) states it for particle χ; no benchmark number has a `verify/` script, and the numbers found only in the lab notebook still lack the executed check that [the iron rule](/wiki/method/verification/iron-rule) requires. The lab notebook's predictions above the gate are superseded.
 
 ## The relation
 
@@ -59,9 +60,9 @@ Here m_φ is the mass of the carrier of the momentum transfer and μ the gate's 
 
 The notebook attaches a caveat to the coupling: "At α̃ ~ 1 the Born approximation is marginal (expect O(1) corrections); the *shape* claims above survive because they follow from the k- vs q-dependence, not from the coupling strength" (#1 §5.1). The Born approximation is the first-order treatment of scattering, reliable when the interaction is weak [T]; at α̃ ~ 1 the absolute cross-section can be off by a factor of order one, and the notebook's argument is that the velocity dependence set by the gate survives because it does not depend on the coupling's size.
 
-## The coupling is spent
+## The coupling is "spent"
 
-The benchmark leaves no free strength in the χ-particle sector, and the Debt-3 calculation used that. Calc note #2, the first of [the Debt-3 calc notes](/wiki/history/documents/debt-3-notes), writes the self-interaction strength as a single coupling,
+The benchmark leaves no free strength in the [χ-particle](/wiki/dark-matter/candidates/chi-particles) sector, and the Debt-3 calculation used that. Calc note #2, the first of [the Debt-3 calc notes](/wiki/history/documents/debt-3-notes), writes the self-interaction strength as a single coupling,
 
 ```text
 g ≡ 4πα̃/m_φ² = √(πσ₀/m²)
@@ -71,16 +72,16 @@ g ≡ 4πα̃/m_φ² = √(πσ₀/m²)
 
 > "The dwarf-core fit fixes σ₀/m = 30 cm²/g, hence g is *spent* — no freedom remains. With m_χ = 70 MeV, v\* = 120 km/s:" (`notes/debt3a-stream-stability.md`, 'Numbers at the scattering benchmark')
 
-The ratio of interaction energy to the threshold comes out "∼ 10⁻²⁸" in a dwarf core and "∼ 10⁻³¹" in the local halo of the Milky Way: "**Fails by 28–31 orders of magnitude.**" #11 §9 carries it as "fails by 10²⁸–10³¹ at the scattering benchmark". See [the mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion). The same calculation, run the other way, gives [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem): "satisfying the criterion at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9): "collective momentum-space behavior and classical particles are mutually exclusive".
+The ratio of interaction energy to the threshold comes out "∼ 10⁻²⁸" in a dwarf core and "∼ 10⁻³¹" in the local halo of the Milky Way: "**Fails by 28–31 orders of magnitude.**" #11 §9 carries it as "fails by 10²⁸–10³¹ at the scattering benchmark". See [the mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion). The same calculation, run the other way, gives [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem): "satisfying the criterion at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9): "collective momentum-space behavior and classical particles are mutually exclusive". On the regime in which Debt 3a evaluates that mass, see flag 19 in `review/wiki-build-flags.md`.
 
-The benchmark is therefore the particle-island benchmark. On the wave island, where χ is light enough to act as a classical wave, the dwarf-core fit is imposed on a different quantity, the gated condensation rate, and the coupling it spends is g²/m³ ([Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
+The benchmark is therefore the particle-island benchmark. On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ is light enough to act as a classical wave, the dwarf-core fit is imposed on a different quantity, [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), and the combination it fixes is g²/m³ ([Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
 
 ## Assumptions and caveats
 
 - **An assumption from before the mechanism.** The choice m_φ ~ m_χ was made in v0.1, when the gate was a postulate. The v0.3 addendum later identified the carrier as exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) (#1 'Addendum (v0.3, overnight)'; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). No later document revisits m_φ or relates it to the mass M_X of X ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 - **An uncited input.** The 30 cm²/g that fixes the scale is stated without a reference (#1 §5.1).
 - **The Born approximation** is marginal at α̃ ~ 1, as the notebook says.
-- **Numbers found only in the lab notebook.** μ ≈ 20 keV and the predictions above the gate (below) appear only in #1. The formulas for v\* and σ₀ come from #1 and are not restated in #11; #13 §4 uses the definition of v\* ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). The project's rule is that every asserted number gets executed code; for these, no `verify/` script exists ([the iron rule](/wiki/method/verification/iron-rule)).
+- **Numbers found only in the lab notebook.** μ ≈ 20 keV and the predictions above the gate (below) appear only in #1. The formulas for v\* and σ₀ come from #1 and are not restated in #11; #13 §4 uses the definition of v\* with μ read as the χ quantum's fiber width ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)), and a suspected factor of √2 in μ between the two gate conventions is recorded for a ruling in `review/wiki-build-flags.md` item 17 ([two conventions](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)). The project's rule is that every asserted number gets executed code; for these, no `verify/` script exists ([the iron rule](/wiki/method/verification/iron-rule)).
 
 ## Why the strength needs explaining
 
@@ -94,7 +95,7 @@ In v0.1 the benchmark fed predictions that the checkpoint no longer makes.
 - **Clusters.** "Cluster self-interaction is *identically zero at any future sensitivity* — a sharper statement than any Yukawa model can make, and a standing kill condition." (#1 §5.1)
 - **What two parameters covered.** The notebook's parameter count gave the conjugate sector two parameters, "σ₀/m, v\* (2)", covering "Dwarf cores, LSB/group knee, cluster nulls, stream granularity scale, friction suppression (≥5)" (#1 §10), LSB meaning low surface brightness galaxies.
 
-The cross-section numbers come from the exponential cliff e^{−v²/v\*²}, which the v0.4 addendum weakened to a knee whose tail may be Gaussian or rational ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)). They hold only if the tail is Gaussian, which is now [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape), and none is machine-checked. The checkpoint keeps the qualitative statement, "zero cluster signal (particle χ)", in [row 1](/wiki/predictions/self-interaction-knee) (#11 §13), with no number attached. Of the five phenomena, two have died: velocity-space granularity ([obituary](/wiki/dark-matter/momentum-clumping/velocity-granularity)) and the suppression of dynamical friction in dwarf cores ([obituary](/wiki/dark-matter/momentum-clumping/fornax-friction)).
+The cross-section numbers come from the exponential cliff e^{−v²/v\*²}, which the v0.4 addendum weakened to a knee whose tail may be Gaussian or rational ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)). They hold only if the tail is Gaussian, which is now [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape), and none is machine-checked. The checkpoint keeps the qualitative statement, "zero cluster signal (particle χ)", in [row 1](/wiki/predictions/self-interaction-knee) (#11 §13), with no number attached. Of the five phenomena, two have died: velocity-space granularity ([obituary](/wiki/dark-matter/momentum-clumping/velocity-granularity)) and the suppression of [dynamical friction](/wiki/dark-matter/halo-astrophysics/halo-substructure) in dwarf cores ([obituary](/wiki/dark-matter/momentum-clumping/fornax-friction)).
 
 ## Sources
 
@@ -104,3 +105,4 @@ The cross-section numbers come from the exponential cliff e^{−v²/v\*²}, whic
 - `notes/broken-born-theory.md` §5.1 — the core-fit input, σ₀ and v\*, m_φ ~ m_χ, μ ≈ 20 keV, the Born caveat, the 300 and 1500 km/s numbers, the cluster statement; §10 — the v0.1 parameter count; §3 — the v0.1 amplitude
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' — the gate's carrier identified as X exchange
 - `papers/conjugate-special-relativity.md` §4 — the definition of v\* reused
+- `review/wiki-build-flags.md` items 17, 19 — the suspected √2 in μ between the two gate conventions; the regime of the classicality corollary; both awaiting a ruling

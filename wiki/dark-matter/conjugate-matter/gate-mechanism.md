@@ -47,7 +47,7 @@ A force carried by a field of mass M has a propagator proportional to 1/(q² + M
 
 ### Form factors
 
-An object of finite size scatters as a point particle multiplied by a form factor F(q), the Fourier transform of its charge distribution [T]. For an object of radius R, F(q) is close to 1 when the transfer is small, qR ≪ 1, and falls off once q exceeds about 1/R, because the scattered waves from different parts of the object then interfere destructively [T]. The shape of the falloff follows the shape of the distribution: a Gaussian distribution has a Gaussian form factor, while a distribution with an exponential edge has a rational form factor that falls off as a power of q [T]. Electron scattering measures the sizes of nuclei and of the proton in this way [T]. Calc note #6 calls such objects "x-extended composites": extended in position, with form factors in the transfer q.
+An object of finite size scatters as a point particle multiplied by a form factor F(q), the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of its charge distribution [T]. For an object of radius R, F(q) is close to 1 when the transfer is small, qR ≪ 1, and falls off once q exceeds about 1/R, because the scattered waves from different parts of the object then interfere destructively [T]. The shape of the falloff follows the shape of the distribution: a Gaussian distribution has a Gaussian form factor, while a distribution with an exponential edge has a rational form factor that falls off as a power of q [T]. Electron scattering measures the sizes of nuclei and of the proton in this way [T]. Calc note #6 calls such objects "x-extended composites": extended in position, with form factors in the transfer q.
 
 ### Wavepacket overlap
 
@@ -84,15 +84,15 @@ Since the v0.4 addendum, μ is a property of a single χ quantum: "μ is identif
 
 The lab notebook converts μ into the gate velocity, v\* ≡ √2μ/m_χ (#1 §5.1), the location of the knee in [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law). #11 does not restate this definition. At [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) the notebook gives "μ = m_χv\*/√2 ≈ 20 keV (α̃ ≈ 1)" (#1 §5.1), a number found only in the lab notebook and not machine-checked. The definition of v\* was written for v0.1's e^{−k²/μ²}; a suspected factor of √2 in μ between that form and #6's overlap form, which matters once μ is read as the fiber width, is recorded for a ruling in `review/wiki-build-flags.md` item 17. The flag notes that no stated number changes; this page quotes the sources as written.
 
-## What it paid
+## What it closed and what it gave up
 
-The mechanism is the payment on Debt 2 ([the three debts](/wiki/history/debts)). Calc note #8's close-out: "**Debt 2:** mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5). [The handoff](/wiki/history/documents/handoff) lists "gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2).
+The mechanism answers the question Debt 2 posed, where the gate comes from ([the three debts](/wiki/history/debts)). Calc note #8's close-out: "**Debt 2:** mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5). [The handoff](/wiki/history/documents/handoff) lists "gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2).
 
-It also cost the lab notebook's sharpest prediction. #6 §4 continues:
+It also gave up the lab notebook's sharpest prediction. #6 §4 continues:
 
 > "Honest downgrade to the flagship: **row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential."
 
-(The note writes v_\* for v\*.) The knee is tested in [row 1](/wiki/predictions/self-interaction-knee) of the predictions table.
+(The note writes v_\* for v\*.) The knee is tested in [row 1](/wiki/predictions/self-interaction-knee) of [the predictions table](/wiki/predictions).
 
 ## Scope and caveats
 
@@ -125,7 +125,7 @@ The mechanism reached its present form in three steps.
 
 ## Chat-only: the gate as a dual Newtonian limit
 
-[The handoff](/wiki/history/documents/handoff) records, among results that exist only in the original conversation, a comparison of the program's field equations with general relativity that ends in the gate: "dual Newtonian limit = Yukawa in momentum = the gate" (`HANDOFF.md` §4). No document derives a Yukawa form in momentum or describes the gate as a Newtonian limit; the documented counterpart is the mechanism on this page. Its status is conjecture; see [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results).
+[The handoff](/wiki/history/documents/handoff) records, among results that exist only in the original conversation, a comparison of the program's field equations with [general relativity](/wiki/gravity/spin-2-fields/general-relativity) that ends in the gate: "dual Newtonian limit = Yukawa in momentum = the gate" (`HANDOFF.md` §4). No document derives a Yukawa form in momentum or describes the gate as a Newtonian limit; the documented counterpart is the mechanism on this page. Its status is conjecture; see [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results).
 
 ## Sources
 
@@ -133,7 +133,7 @@ The mechanism reached its present form in three steps.
 - `notes/broken-born-program-v1.md` §6 — v1's statement, the same as #11's
 - `notes/debt1a-ii-X-classification.md` §4 — integrating out X, fiber overlap, the Gaussian case, the rational-tail downgrade, the cliff weakened to a knee; §2 — the massless option excluded; §3 — M_X the polarization-breaking scale, the Euclidean-rigorous skeleton; §1 — auxiliary X excluded by the shift symmetry
 - `notes/debt1a-geometric-core.md` §E — the four-point amplitude; the superseded μ ↔ (M_X, M_B) identification; §D — the auxiliary outcome
-- `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2's mechanism paid, shape open
+- `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2's close-out: mechanism "paid", shape open
 - `HANDOFF.md` §2 — the mechanism among the live results; §4 — the chat-only dual Newtonian limit
 - `papers/conjugate-special-relativity.md` §4 — μ ~ ℏ/λ_χ as the gate scale
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)', 'Addendum (v0.4)' — the mechanism and the fiber width in the lab notebook; §3 — the v0.1 carrier and M_B in S_H; §5.1 — v\* ≡ √2μ/m_χ, μ ≈ 20 keV, m_φ ~ m_χ

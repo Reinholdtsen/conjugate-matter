@@ -24,9 +24,9 @@ sources:
   - "review/wiki-build-flags.md item 17"
 ---
 
-*The gated scattering law gives the momentum-transfer cross-section σ_T of [conjugate matter](/wiki/dark-matter/conjugate-matter), the measure of how strongly its particles scatter off one another, as a function of the relative velocity v of a colliding pair. Because [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) turns the interaction off at large relative velocity, self-scattering is strong in dwarf galaxies, where dark matter moves at tens of kilometres per second, and absent in galaxy clusters, where it moves at thousands; between the two, σ_T bends down at a knee near the gate velocity v\*. Below the knee the scattering goes equally in all directions, unlike the forward-peaked scattering of the usual models with a light force carrier. The lab notebook first derived a sharp exponential cliff at v\*; once the gate's mechanism was found, the program kept only the knee, and the shape of its tail became an open question that observations could answer.*
+*The gated scattering law gives the momentum-transfer cross-section σ_T of [conjugate matter](/wiki/dark-matter/conjugate-matter), the measure of how strongly its particles scatter off one another, as a function of the relative velocity v of a colliding pair. Because [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) turns the interaction off at large relative velocity, self-scattering is strong in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where dark matter moves at tens of kilometres per second, and absent in galaxy clusters, where it moves at thousands; between the two, σ_T bends down at a knee near the gate velocity v\*. Below the knee the scattering goes equally in all directions, unlike the forward-peaked scattering of the usual models with a light force carrier. The lab notebook first derived a sharp exponential cliff at v\*; once the gate's mechanism was found, the program kept only the knee, and the shape of its tail became an open question that observations could answer.*
 
-**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of the predictions table and read by [row 3](/wiki/predictions/island-discriminant).
+**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) and read by [row 3](/wiki/predictions/island-discriminant).
 
 ## The law
 
@@ -40,7 +40,7 @@ sources:
 
 - **σ₀** is the cross-section at low velocity, below the gate. Its value is fixed by the cores of dwarf galaxies at [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
 - **F** is the gate function of the amplitude M(k, q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²), now written in the relative velocity. Its shape is open ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)).
-- **v\*** is the gate velocity, where the knee sits. [The lab notebook](/wiki/history/documents/lab-notebook) defines it as v\* ≡ √2μ/m_χ, with μ the gate's momentum scale and m_χ the mass of a χ particle (#1 §5.1). #11 does not restate the definition; the paper on conjugate special relativity uses it (#13 §4; [the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). The definition belongs to v0.1's gate e^{−k²/μ²}; a suspected factor of √2 in μ between that gate and calc note #6's overlap form, which matters once μ is read as the fiber width, is recorded for a ruling in `review/wiki-build-flags.md` item 17 ([two conventions](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)). The flag notes that no stated number changes; this page quotes the sources as written.
+- **v\*** is the gate velocity, where the knee sits. [The lab notebook](/wiki/history/documents/lab-notebook) defines it as v\* ≡ √2μ/m_χ, with μ the gate's momentum scale and m_χ the mass of a χ particle (#1 §5.1). #11 does not restate the definition; the paper on [conjugate special relativity](/wiki/conjugate-relativity) uses it (#13 §4; [the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). The definition belongs to v0.1's gate e^{−k²/μ²}; a suspected factor of √2 in μ between that gate and calc note #6's overlap form, which matters once μ is read as the fiber width, is recorded for a ruling in `review/wiki-build-flags.md` item 17 ([two conventions](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)). The flag notes that no stated number changes; this page quotes the sources as written.
 
 Three claims are packed into the sentence: a knee whose existence and location are robust; a tail whose shape is open and diagnostic; and isotropy below the gate.
 
@@ -84,7 +84,7 @@ The first signature was weakened when the gate's mechanism was derived (below); 
 
 ## The downgrade to a knee
 
-Calc note #6 derived the gate from exchange of the momentum graviton X over the overlap of the χ quanta's momentum-space wavepackets ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). A Gaussian gate then requires a Gaussian profile, and generic vertices give rational, power-law-tailed gates. The note draws the consequence for the scattering law:
+Calc note #6 derived the gate from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) over the overlap of the χ quanta's momentum-space wavepackets ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). A Gaussian gate then requires a Gaussian profile, and generic vertices give rational, power-law-tailed gates. The note draws the consequence for the scattering law:
 
 > "Honest downgrade to the flagship: **row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential." (`notes/debt1a-ii-X-classification.md` §4; the note writes v_\* for v\*)
 
@@ -121,7 +121,7 @@ The Debt-3 notes were written before the Debt-1 notes and so still speak of an e
 
 ## What is open
 
-- **The tail.** Whether F is Gaussian or rational is item 4 of #11 §14; #11 §15 counts "gate tail not yet forced" among the program's degeneration risks. See [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape).
+- **The tail.** Whether F is Gaussian or rational is item 4 of #11 §14; #11 §15 counts "gate tail not yet forced" among the program's [degeneration risks](/wiki/program/assessment). See [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape).
 - **The particle side of the discriminant.** Row 3 reads a sharp tail as particle χ. Calc note #6 calls the rational gates power-law-tailed, and the wave-island suppression is also a power law; no source compares the two or says whether the discriminant survives a rational tail for particles.
 - **The strength.** Why σ₀ is as large as dwarf cores require while ordinary matter couples to X only at gravitational strength is [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
 
@@ -133,7 +133,7 @@ In v0.1 the law was σ_T(v) = σ₀e^{−v²/v\*²}, "An exponential cliff, not 
 - "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). Row 3 of that table, velocity-space granularity, has since died ([Obituary: velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity));
 - the benchmark numbers above the gate, "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" and "Cluster self-interaction is *identically zero at any future sensitivity*" (#1 §5.1), on [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
 
-The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the exponential hold only if the gate's tail is Gaussian, and none of them has been machine-checked. The cliff's formulas, v\* ≡ √2μ/m_χ and σ₀ = 16πα̃²m_χ²/m_φ⁴, come from the lab notebook and are not restated in #11; #13 §4 uses the definition of v\*.
+The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the exponential hold only if the gate's tail is Gaussian, and none of them has been machine-checked. The cliff's formulas, v\* ≡ √2μ/m_χ and σ₀ = 16πα̃²m_χ²/m_φ⁴, come from the lab notebook and are not restated in #11; #13 §4 uses the definition of v\*, with μ read as the fiber width (flag 17 in `review/wiki-build-flags.md`).
 
 ## Sources
 

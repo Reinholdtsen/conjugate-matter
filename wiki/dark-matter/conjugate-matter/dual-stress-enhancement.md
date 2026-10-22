@@ -21,7 +21,7 @@ sources:
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*The dual-stress enhancement is the unexplained gap between how strongly [conjugate matter](/wiki/dark-matter/conjugate-matter) scatters off itself and how weakly ordinary matter couples to the same carrier. In the program both kinds of matter couple to the [momentum graviton X](/wiki/gravity/momentum-graviton): conjugate matter through its [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), ordinary matter through the spacetime metric. Fitting the flat cores of dwarf galaxies needs a self-scattering cross-section that [the checkpoint](/wiki/history/documents/checkpoint) calls nuclear-scale, while ordinary matter must feel X only at gravitational strength. Something must make conjugate matter's coupling far more effective than ordinary matter's; what it is, and by how much, has not been worked out. The checkpoint calls it the main open quantitative item of the conjugate sector.*
+*The dual-stress enhancement is the unexplained gap between how strongly [conjugate matter](/wiki/dark-matter/conjugate-matter) scatters off itself and how weakly ordinary matter couples to the same carrier. In the program both kinds of matter couple to the [momentum graviton X](/wiki/gravity/momentum-graviton): conjugate matter through its [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), ordinary matter through the spacetime metric. Fitting the flat cores of [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) needs a self-scattering cross-section that [the checkpoint](/wiki/history/documents/checkpoint) calls nuclear-scale, while ordinary matter must feel X only at gravitational strength. Something must make conjugate matter's coupling far more effective than ordinary matter's; what it is, and by how much, has not been worked out. The checkpoint calls it the main open quantitative item of the conjugate sector.*
 
 **Status:** Open — [O] (`papers/broken-born-checkpoint-v2.md` §14 item 5) — the checkpoint calls it the "Main open quantitative item" (§8); no calculation exists and no source states the size of the gap. It qualifies [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism), which explains the gate's dependence on relative momentum but not its strength. It is listed in [open problems](/wiki/status/open-problems) and is not on the current work queue.
 
@@ -49,7 +49,7 @@ Conjugate matter's self-interaction is the gated amplitude M(k, q) = 4πα̃m_χ
 
 ## The weak side: ordinary matter
 
-Ordinary matter couples to the metric g, and once reciprocity forces the two spin-2 frames to have equal Planck masses, the metric contains the massless graviton and X in comparable proportions. Calc note #8 draws the consequence:
+Ordinary matter couples to the metric g, and once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the two spin-2 frames to have equal Planck masses, the metric contains the massless graviton and X in comparable proportions. Calc note #8 draws the consequence:
 
 > "With equal effective Planck masses (forced by the same symmetry), SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X." (`notes/debt1a-iv-beta-coefficients.md` §3)
 
@@ -67,14 +67,14 @@ The word "enhancement" comes from the earlier calc notes, which attributed ordin
 - **The parameters.** No source names the parameters the enhancement depends on. The amplitude's α̃ and m_φ are not related to M_X, the mass of X, in any document; the benchmark's choice m_φ ~ m_χ was made in v0.1, before X was identified as the carrier (#1 §5.1; [conflicts between sources](/wiki/history/documents/source-conflicts)).
 - **A mechanism.** No source proposes one. The explicit form of the dual stress, which a mechanism would need, is itself not written down (`notes/debt1a-geometric-core.md` §E; [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress)).
 
-Until the item is resolved, the strength of the gate is an input fitted to dwarf cores rather than an output of the X-exchange mechanism. The mechanism accounts for the gate's dependence on relative momentum, which is what [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of the predictions table test; the strength enters row 1 only as the fitted σ₀.
+Until the item is resolved, the strength of the gate is an input fitted to dwarf cores rather than an output of the X-exchange mechanism. The mechanism accounts for the gate's dependence on relative momentum, which is what [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) test; the strength enters row 1 only as the fitted σ₀.
 
 ## History
 
 1. **Calc note #8** logged it in §3 and listed it as residue (iv) of Debt 1 in §5 ([the three debts](/wiki/history/debts)).
 2. **The lab notebook's v0.6 addendum** lists "dual-stress enhancement parametrics" among the "Residual open items (none existential)" (#1 'Addendum (v0.6)').
 3. **v1** called it "The main open quantitative item" in its section on the gate (#9 §6) and listed it as item 4 of its open problems: "Dual-stress enhancement parametrics: σ₀ nuclear-scale with gravitational SM couplings [O]" (#9 §10).
-4. **The handoff** lists it with the gate shape among the open items: "Gate shape (X propagator on momentum fibers); dual-stress enhancement parametrics" (`HANDOFF.md` §2, Open 6).
+4. **[The handoff](/wiki/history/documents/handoff)** lists it with [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape) among the open items: "Gate shape (X propagator on momentum fibers); dual-stress enhancement parametrics" (`HANDOFF.md` §2, Open 6).
 5. **The checkpoint** keeps it as the "Main open quantitative item" (§8) and item 5 of its open problems (§14).
 
 The current queue, in the root `CLAUDE.md` ("Since the handoff"), does not include it.
