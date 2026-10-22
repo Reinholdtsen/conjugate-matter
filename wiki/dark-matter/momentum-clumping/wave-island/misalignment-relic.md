@@ -65,7 +65,7 @@ The argument uses two properties of the field: it is light, and its only couplin
 - Debt 3b: the problem "is moot on the wave island".
 - #11 §9, listing what Debt 3 left standing: "free relic abundance via misalignment on the wave island".
 
-For particle χ, the MeV–GeV branch of [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) and the first of the two remaining candidates ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)), the sources offer only the notebook's own answer, an asymmetry set by polarization-genesis, which is still a sketch; the problem stands there.
+For particle χ, the MeV–GeV branch of [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) and the first of the two [remaining candidates](/wiki/dark-matter/candidates) ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)), the sources offer only the notebook's own answer, an asymmetry set by polarization-genesis, which is still a sketch; the problem stands there.
 
 The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, after [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) was falsified. #11 §9 lists the misalignment salvage after recording that falsification.
 

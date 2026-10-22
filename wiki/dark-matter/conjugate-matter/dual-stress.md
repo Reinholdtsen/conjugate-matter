@@ -42,7 +42,7 @@ The sentence has three parts.
 
 ## Background: stress-energy as the charge of gravity [T]
 
-The stress-energy tensor T_μν of a matter field collects its energy density, its momentum density and its internal stresses. For a free complex scalar field it is a bilinear in first derivatives of the field, of the form ∂_μχ\*∂_νχ plus terms fixed by the metric [T]. It is the source in Einstein's equation, and at linear order the graviton h_μν couples to matter through the product h_μν T^μν, with a strength set by the Planck mass [T]. Every form of energy enters T_μν in the same way, which is the universality of gravity, the equivalence principle [T].
+The stress-energy tensor T_μν of a matter field collects its energy density, its momentum density and its internal stresses. For a free complex scalar field it is a bilinear in first derivatives of the field, of the form ∂_μχ\*∂_νχ plus terms fixed by the metric [T]. It is the source in Einstein's equation, and at linear order the graviton h_μν couples to matter through the product h_μν T^μν, with a strength set by the Planck mass [T]. Every form of energy enters T_μν in the same way, which is the universality of gravity, [the equivalence principle](/wiki/gravity/spin-2-fields/general-relativity#the-equivalence-principle-and-rindler-frames-t) [T].
 
 The name "dual stress" places T̃ in the same role for X: the quantity of matter that X couples to. Where T_μν records how a field's energy is arranged in position, T̃ is built from its structure across momentum, as a signal's spectrum describes it across frequency rather than time. The calc notes go no further than this analogy and the words quoted above; they give T̃ no index structure, no normalization and no conservation law.
 
