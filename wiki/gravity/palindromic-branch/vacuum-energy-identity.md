@@ -28,9 +28,10 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
+  - "review/wiki-build-flags.md item 6"
 ---
 
-*The vacuum-energy identity is a short algebraic result about the program's [spin-2 interaction potential](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) once its coefficients obey [the palindrome](/wiki/gravity/palindromic-branch/palindrome) βₙ = β₄₋ₙ. At the aligned point, where the potential's two frames coincide, the value of the potential, V(1), is exactly twice its tadpole T, the coefficient of the term linear in a small departure from that point. A flat aligned vacuum separately requires V(1) = T, and the two equations together force T = 0 and V(1) = 0: the spin-2 interaction sector adds no vacuum energy there, by symmetry (see flag 6 in `review/wiki-build-flags.md`), with the one flatness condition doing the work of the two tunings that generic bimetric gravity needs. The integer arithmetic is machine-checked. The identity says nothing about the vacuum energy of matter loops, the "old" [cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), and whether it is new is the subject of an open [literature comparison](/wiki/gravity/palindromic-branch/pm-comparison).*
+*The vacuum-energy identity is a short algebraic result about the program's [spin-2 interaction potential](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) once its coefficients obey [the palindrome](/wiki/gravity/palindromic-branch/palindrome) βₙ = β₄₋ₙ. At the aligned point, where the potential's two frames coincide, the value of the potential, V(1), is exactly twice its tadpole T, the coefficient of the term linear in a small departure from that point. A flat aligned vacuum separately requires V(1) = T, and the two equations together force T = 0 and V(1) = 0, so the spin-2 interaction sector adds no vacuum energy there. Once the palindrome holds, that single flatness condition does the work of the two tunings that generic bimetric gravity needs. The integer arithmetic is machine-checked. The identity says nothing about the vacuum energy of matter loops, the "old" [cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), and whether it is new is the subject of an open [literature comparison](/wiki/gravity/palindromic-branch/pm-comparison).*
 
 **Status:** Alive — [D][V] (#11 §7.3); calc note #8 §2 tags the derivation "[D — rigorous, four lines]" — battery test T5 checks the integer identity in exact integers and T6 the linearization coefficients it uses, and both pass ([the verification battery](/wiki/method/verification/battery)). The palindrome it starts from and the flatness condition are derived, not machine-checked. The novelty claim was downgraded in #11 §7.4 and waits on [the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison); the scope is the wedge sector at the aligned point (#11 §7.3).
 
@@ -39,6 +40,8 @@ sources:
 [Checkpoint #11](/wiki/history/documents/checkpoint) §7.3, after the palindrome: "Then V(1) = 2T exactly (integer identity: [2,8,6] = 2·[1,4,3]), so a flat aligned vacuum (V(1) = T) forces **T = 0 and V(1) = 0**: *the wedge sector contributes zero cosmological constant, by symmetry.*"
 
 [Calc note #8](/wiki/history/documents/debt-1-notes) §2, where the result was first derived, states it as "**In the reciprocity-symmetric theory, the existence of a flat aligned vacuum forces the wedge sector's vacuum energy to be exactly zero** — one condition does the work that takes two tunings in generic bimetric gravity."
+
+The two wordings differ. Flag 6 in `review/wiki-build-flags.md` names #8 §2's as the accurate one and marks #11 §7.3's "by symmetry" for checking against it; the flag's reason is given under [one condition instead of two](#one-condition-instead-of-two). The wiki quotes both documents as written.
 
 The "wedge sector" is the frame-tier potential of [the tuning test](/wiki/gravity/tuning-test): the [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential of two frames that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). #11 uses the symbol T without defining it; the definition is #8's.
 
@@ -94,7 +97,7 @@ Written out under the palindrome, T = 0 is the condition β₀ = −4β₁ − 3
 
 ### One condition instead of two
 
-In generic bimetric gravity the potential contributes a vacuum-energy term to each of the two metrics' field equations, so a vacuum in which the aligned metrics are flat needs both terms set to zero [T]. #8 §2: "one condition does the work that takes two tunings in generic bimetric gravity." The lab notebook's v0.6 addendum puts it as "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning" (see flag 6 in `review/wiki-build-flags.md`).
+In generic bimetric gravity the potential contributes a vacuum-energy term to each of the two metrics' field equations, so a vacuum in which the aligned metrics are flat needs both terms set to zero [T]. #8 §2: "one condition does the work that takes two tunings in generic bimetric gravity." The lab notebook's v0.6 addendum puts it as "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning". Flag 6 in `review/wiki-build-flags.md` records that phrase as an overstatement: the flatness condition V(1) = T is itself one condition on the βₙ, and #8 §3 counts T = 0 as removing a parameter ([one parameter fewer](#one-parameter-fewer)), so #8 §2's wording, quoted above, is the accurate one.
 
 ### Dark energy is left to τ
 
@@ -157,3 +160,4 @@ The two popular articles ([#10 and #12](/wiki/history/documents/popular-articles
 - `notes/broken-born-theory.md` 'Addendum (v0.6)', §7 — the result as first recorded, "vacuum energy = twice the tadpole"; the cosmology chapter that assigns dark energy to τ.
 - `notes/broken-born-program-v1.md` §0, §5, §8, §11 — v1's "four-line theorem", "Λ theorem" and "standalone" claim (superseded by #11).
 - `popsci/angle-of-the-mirror.md` 'What refused to die'; `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the popular accounts (never a status source).
+- `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, #8 §2's wording named as the accurate one, and #11 §7.3's "by symmetry" marked for checking; awaiting Paul's ruling.

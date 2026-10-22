@@ -23,6 +23,7 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "HANDOFF.md §3"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
+  - "review/wiki-build-flags.md item 15"
 ---
 
 *The observation that the symplectic partner of the graviton is another graviton compares two ways of extending the geometry of spacetime to a doubled space, in which each coordinate has a partner. Each way holds one pairing of the doubled coordinates fixed, and the field that partners the metric is whatever that fixed pairing allows. [Double field theory](/wiki/phase-space/born-geometry/double-field-theory), the doubled geometry of string theory, fixes a symmetric pairing η, and the metric's partner is the antisymmetric B-field, a 2-form gauge field that is harmless as far as spin goes. The program's phase space fixes the antisymmetric [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, and the metric's partner is the [momentum graviton X](/wiki/gravity/momentum-graviton), which is symmetric and has its own [linearized diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms): a second graviton, and two interacting massless gravitons are inconsistent. [Checkpoint #11](/wiki/history/documents/checkpoint) offers this as the structural reason string theory's doubling works while Born's stalled, and its assessment lists it as the one observation that stands regardless of the program's fate. It is derived and rests on literature [D + T]; it is a structural argument, and no script checks it.*
@@ -142,3 +143,4 @@ The first popular article puts a date on the asymmetry: "(As a side effect, this
 - `notes/broken-born-program-v1.md` §5, §11 — the v1 statement and its "two results" count.
 - `HANDOFF.md` §3 — the inventory entry for calc note #6.
 - `popsci/angle-of-the-mirror.md` 'What refused to die' — the popular article's "forty-year asymmetry".
+- `review/wiki-build-flags.md` item 15 — #6 §2's "η antisymmetric-pairing vs ω", which reads as calling η antisymmetric; awaiting Paul's ruling.

@@ -17,6 +17,7 @@ sources:
   - "notes/debt1a-ii-X-classification.md §3"
   - "HANDOFF.md §5"
   - "HANDOFF.md Appendix A"
+  - "review/wiki-build-flags.md item 14"
 ---
 
 *The elementary symmetric polynomials of a list of numbers are the sums of all products of distinct entries taken n at a time: e₁ is the sum, e₂ the sum of all pairwise products, and so on up to the product of all the entries, with e₀ = 1. Applied to the eigenvalues of the matrix √(g⁻¹f), built from the two metrics of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), they are the building blocks of the ghost-free bimetric potential, which is a linear combination of them with constant coefficients. Power sums beyond the first, such as p₄, the sum of fourth powers, can be written in terms of the eₙ by Newton's identities, but only as nonlinear polynomials, so they lie outside that family. The program's [verification battery](/wiki/method/verification/battery) checks two facts of this algebra: the linear coefficients of the eₙ near the identity matrix, which give the tadpole of the program's potential (test T6), and that p₄ is not a linear combination of the eₙ (test T7).*
@@ -182,3 +183,4 @@ The checkpoint states the metric-tier failure as "nonlinear structure Tr(g²) + 
 - `notes/debt1a-iii-tuning-test.md` §2 — linearity of the ghost-free family; p₄ as a nonlinear polynomial in the eₙ; the Euclidean skeleton.
 - `notes/debt1a-ii-X-classification.md` §3 — a generic potential reintroduces the Boulware–Deser ghost.
 - `HANDOFF.md` §5, Appendix A — the descriptions of T6 and T7 and their expected output.
+- `review/wiki-build-flags.md` item 14 — which square root's eigenvalues give Tr(g²); awaiting Paul's ruling.

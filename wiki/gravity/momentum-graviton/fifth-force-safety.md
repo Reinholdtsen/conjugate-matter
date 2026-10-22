@@ -23,6 +23,7 @@ sources:
   - "papers/conjugate-special-relativity.md §6"
   - "HANDOFF.md §4"
   - "review/v3-worklog.md 'Round-2 pending list'"
+  - "review/wiki-build-flags.md item 29"
 ---
 
 *This result explains why ordinary matter shows no sign of the [momentum graviton X](/wiki/gravity/momentum-graviton). Standard Model matter couples to the metric g. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the program's two spin-2 frames to have [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses), so the metric g contains the massless graviton and X in comparable proportions, and ordinary matter feels both at gravitational strength. X is massive, so the force it carries is a Yukawa force, which dies away beyond a range of order 1/M_X [T]; gravitational-strength forces of such short range are not constrained by experiment. X is safe because of its range, not because ordinary matter is decoupled from it. The argument changed across [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes); the current form is calc note #8's [D + T], carried by [checkpoint #11](/wiki/history/documents/checkpoint) §7.5 [D]. It cites no experimental bound and no value of M_X.*
@@ -99,3 +100,4 @@ The lab notebook's v0.6 addendum records the change as "SM safety by Yukawa rang
 - `papers/conjugate-special-relativity.md` §1, §6 — the "short range in momentum" and "Yukawa-cut in momentum" readings
 - `HANDOFF.md` §4 — the chat-only results, where the momentum reading appears
 - `review/v3-worklog.md` 'Round-2 pending list' — item R7: the stable heavy-spin-2 regime takes M_f ≪ M_g
+- `review/wiki-build-flags.md` item 29 — #13's citation of #11 §7 for X's effect being in momentum, which #11 does not state; awaiting Paul's ruling

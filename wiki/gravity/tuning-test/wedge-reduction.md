@@ -28,6 +28,7 @@ sources:
   - "HANDOFF.md §2"
   - "HANDOFF.md §8"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/wiki-build-flags.md item 7"
 ---
 
 *This open problem asks for the ghost-free potential of the [momentum graviton X](/wiki/gravity/momentum-graviton) to be derived from the program's geometric action instead of being chosen. [The tuning test](/wiki/gravity/tuning-test) found that wedge polynomials of the symplectic vielbein E and the polarization frame E₀[J] form a ghost-free class ([the frame tier](/wiki/gravity/tuning-test/frame-tier)), and argued that this is the minimal way to couple the polarization to the geometry. That argument selects the class; it does not obtain it line by line from an action. The only geometric action written out, the [lab notebook](/wiki/history/documents/lab-notebook)'s [S_H](/wiki/gravity/tuning-test/geometric-action), predates the change of postulate that brought X into the theory. The problem is item 1 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O], and one of the three items, with [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing), on which #11 makes the word "theory" wait. Nothing has been computed toward it, and it is not on the current work queue.*
@@ -95,3 +96,4 @@ The handoff's ranked queue of next actions did not include the item (`HANDOFF.md
 - `notes/knot-dark-matter-standalone.md` §1 — the caveat as stated in the withdrawn manuscript.
 - `HANDOFF.md` §2 — open item 5; §8 — the ranked queue at the handoff.
 - `CLAUDE.md` 'Since the handoff' — the current queue.
+- `review/wiki-build-flags.md` item 7 — "the unique consistent structure" without the "known" of #6 §3; awaiting Paul's ruling.

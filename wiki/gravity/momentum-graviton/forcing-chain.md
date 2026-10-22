@@ -28,6 +28,7 @@ sources:
   - "notes/broken-born-program-v1.md §5"
   - "notes/knot-dark-matter-standalone.md §1"
   - "HANDOFF.md §2"
+  - "review/wiki-build-flags.md items 7, 25"
 ---
 
 *The forcing chain is the sequence of arguments in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 that leaves the [momentum graviton X](/wiki/gravity/momentum-graviton) one consistent option: to be a massive spin-2 field. [Shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) rules out an auxiliary X, a field with no motion of its own. The [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) make X a second graviton-like gauge field. If that gauge symmetry stays unbroken, X is a second massless graviton, and a theorem excludes two massless gravitons that interact; X has to interact, with the metric and with [dark matter](/wiki/dark-matter). If the gauge symmetry is dropped from the kinetic term, the time–space components of a symmetric tensor carry kinetic energy of the wrong sign in spacetime's signature, a ghost. Mass is the exit that remains, and it comes from the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations). The chain replaced an earlier three-way question about X (healthy, auxiliary, or a ghost that would have killed the program's geometric sector) with the answer "massive spin-2, conditionally healthy", the condition being [the tuning test](/wiki/gravity/tuning-test). It is derived and rests on literature theorems [D + T]; no script checks it.*
@@ -161,3 +162,4 @@ The P2 constraint, [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological
 - `notes/broken-born-program-v1.md` §5 — the v1 statement of the chain.
 - `notes/knot-dark-matter-standalone.md` §1 — the withdrawn manuscript's compressed version.
 - `HANDOFF.md` §2 — the handoff's summary.
+- `review/wiki-build-flags.md` item 7 — the qualifier "known" that #6 §3 has and #11 §7.1 and #6 §5 drop; item 25 — the lab notebook's pointer to its §7 for the cosmological constraint. Both await Paul's ruling.

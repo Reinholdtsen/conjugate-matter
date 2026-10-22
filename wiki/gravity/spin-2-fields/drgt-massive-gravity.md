@@ -19,6 +19,7 @@ sources:
   - "notes/debt1a-iv-beta-coefficients.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
+  - "review/wiki-build-flags.md items 7, 14"
 ---
 
 *dRGT massive gravity, after de Rham, Gabadadze and Tolley, is a theory of a single massive graviton whose nonlinear potential is built so that the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t) never appears; it completes the [Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli) to all orders. Its potential is a linear combination, with constant coefficients, of the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) of the matrix square root √(g⁻¹f), where g is the dynamical metric and f a fixed reference metric. With its [two-metric extension by Hassan and Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), it is the one known consistent structure for a massive spin-2 field coupled to gravity. The program adopted this class as the health test for its [momentum graviton X](/wiki/gravity/momentum-graviton): X's sector is healthy if and only if the potential that gives X its mass lands in it. Built from metrics, X's potential misses the class; built from frames, it lands in it.*
@@ -115,3 +116,4 @@ Added by the wiki from model memory (†):
 - `notes/debt1a-iii-tuning-test.md` §1, §2, §3 — the test; linearity in the eₙ and the metric-tier failures; the frame tier, "dRGT structure inherited rather than tuned"; what a pass does not deliver.
 - `notes/debt1a-iv-beta-coefficients.md` §1, §5 — the potential in the program's notation; the class selected, not derived.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)', 'Addendum (v0.5)' — the reduction to one tuning computation; the verdict as first recorded.
+- `review/wiki-build-flags.md` items 7, 14 — item 7: "the unique consistent structure" without the "known" of #6 §3; item 14: which square root's eigenvalues give Tr(g²); awaiting Paul's ruling.

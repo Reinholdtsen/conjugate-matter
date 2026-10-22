@@ -17,6 +17,7 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
+  - "review/wiki-build-flags.md item 6"
 ---
 
 *The cosmological-constant problem is the mismatch between the energy density of empty space that quantum field theory predicts, from the zero-point fluctuations and loops of matter fields, and the far smaller value that the accelerating expansion of the universe indicates. No accepted mechanism explains the gap, and [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is no better placed than [general relativity](/wiki/gravity/spin-2-fields/general-relativity) to explain it. For the program this page marks a boundary. The program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) sets to zero only the vacuum energy of the spin-2 interaction potential at the aligned point; it does not by itself address the vacuum energy of matter loops. The program assigns the observed [dark energy](/wiki/cosmology/dark-energy) to a separate field, [τ](/wiki/cosmology/dark-energy/tau-quintessence).*
@@ -112,3 +113,4 @@ The checkpoint replaced these with a narrower statement. The cancellation concer
 - `notes/broken-born-program-v1.md` §5, §11 — v1's "cosmological-constant cancellation for free" (superseded by #11).
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the hundred-and-twenty-orders figure (a popular article, never a status source).
 - `popsci/angle-of-the-mirror.md` 'What refused to die' — the cancellation framed through the cosmological constant (a popular article).
+- `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, and #11 §7.3's "by symmetry" marked for checking; awaiting Paul's ruling.

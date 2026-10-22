@@ -18,6 +18,7 @@ sources:
   - "notes/debt1a-iv-beta-coefficients.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §14"
+  - "review/wiki-build-flags.md item 5"
 ---
 
 *Bimetric cosmology studies expanding-universe solutions of [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), in which both metrics take the homogeneous and isotropic form of standard cosmology. Published analyses of its solution branches find gradient or ghost instabilities in the perturbations when the massive spin-2 field is about as light as today's Hubble rate and the two metrics have comparable Planck masses, though not in every model. A heavy spin-2 field has been shown to be linearly stable at late times when the second metric's Planck mass is much smaller than the first. Separately, a massive spin-2 field on de Sitter space must satisfy the Higuchi bound m² ≥ 2H², which a heavy field meets trivially. For the program the known stable regime is out of reach: [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) sets the two Planck masses equal, so the cosmological stability of a heavy [momentum graviton X](/wiki/gravity/momentum-graviton) is an open question.*
@@ -106,3 +107,4 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 - `HANDOFF.md` §6 — the round-2 finding.
 - `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity.
 - `papers/broken-born-checkpoint-v2.md` §7.5, §14 — no value for X's mass; the open problems, which do not list this item.
+- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5; awaiting Paul's ruling.

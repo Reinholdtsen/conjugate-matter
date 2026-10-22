@@ -27,6 +27,7 @@ sources:
   - "notes/debt1a-ii-X-classification.md §1"
   - "notes/debt3b-wave-island.md 'Next'"
   - "notes/debt3c-ufd-endpoint.md 'Next: Debt 1, Chunk 1a'"
+  - "review/wiki-build-flags.md items 1, 25, 27"
 ---
 
 *The v0.1 action is the complete action written in the program's [lab notebook](/wiki/history/documents/lab-notebook) in September 2026: a sum of five terms, for the phase-space geometry, the [dark-energy angle τ](/wiki/phase-space/modular-field/maslov-phase), the Standard Model, [conjugate matter](/wiki/dark-matter/conjugate-matter), and an unspecified mixing term. Its geometric term S_H is an Einstein-like action for the phase-space metric H, built from the curvature of [the Born connection](/wiki/phase-space/born-geometry/born-connection) and written with both the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the [neutral metric η](/wiki/phase-space/born-geometry/born-structures) frozen, as [the original P2](/wiki/program/postulates/original-p2) required. From that rigidity the notebook argued that no second independent metric, and so no [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli), could arise. Both points were later overturned: [postulate P2′](/wiki/program/postulates/p2-prime) made η emergent, the [momentum graviton X](/wiki/gravity/momentum-graviton) was found to be a [second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms), and ghost freedom now comes from [the frame tier](/wiki/gravity/tuning-test/frame-tier). This form of the action is therefore superseded, and [checkpoint #11](/wiki/history/documents/checkpoint) writes no full action. The name S_H survives as the action from which [open problem 1](/wiki/gravity/tuning-test/wedge-reduction) asks for the ghost-free potential to be derived.*
@@ -113,3 +114,4 @@ At the end of Debt 3 the next step was to be a linearization of S_H. Calc note #
 - `notes/debt1a-ii-X-classification.md` §1 — S_H built from (ω, H) and the shift symmetry.
 - `notes/debt3b-wave-island.md` 'Next' — the planned Chunk 1a.
 - `notes/debt3c-ufd-endpoint.md` 'Next: Debt 1, Chunk 1a' — its sub-plan with ω and η frozen.
+- `review/wiki-build-flags.md` items 1, 25, 27 — item 1: the η-null polarizations called "discrete"; item 25: #1's pointer to its §7 for the cosmological constraint; item 27: the sign of V(τ) that the turnaround needs; awaiting Paul's ruling.

@@ -22,7 +22,8 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §5"
   - "popsci/angle-of-the-mirror.md 'The method is the message'"
-  - "review/wiki-build-flags.md item 4"
+  - "review/wiki-build-flags.md items 4, 14, 36"
+  - "review/wiki-build-checks/sqrt_eig_check.out"
 ---
 
 *The metric tier is the naive way, in [calc note #7](/wiki/history/documents/debt-1-notes)'s word, of writing the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton): as a function of metric-level, second-order quantities, the blocks of the [misalignment potential](/wiki/gravity/tuning-test/misalignment-potential). It fails the ghost-freedom test in two independent ways. At quadratic order the natural potential gives the metric fluctuation h a mass term proportional to Tr(h²) without the −(Tr h)² term that the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) form requires. Beyond quadratic order it contains Tr(g²), which is not a linear combination of the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) from which every ghost-free [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential is built. Either failure lets the Boulware–Deser ghost, an extra mode with negative kinetic energy, propagate [T]. Calc note #7 calls the result a "theorem-grade negative", and tests T4 and T7 of [the verification battery](/wiki/method/verification/battery) check both failures by machine. The way out was a change of variables, to [the frame tier](/wiki/gravity/tuning-test/frame-tier).*
@@ -96,7 +97,11 @@ On the slice X = 0 the block S reduces to Y − Y⁻¹, and Y is the metric g (#
 
 ### Why Tr(g²) lies outside the family
 
-The power sum p₄ is the sum of the fourth powers of a set of numbers. Taking the numbers to be the eigenvalues of the square root of g, their fourth powers are the squares of g's eigenvalues and their sum is Tr(g²): this is #7's "p₄ of the square-root eigenvalues" (on which square root is meant, see flag 14 in `review/wiki-build-flags.md`). Newton's identities express each power sum through the elementary symmetric polynomials of the same numbers, and the expression for p₄ contains products of them [T]. It is therefore not a linear combination of e₀ to e₄ with constant coefficients, which is the form of every Hassan–Rosen potential. The argument does not use the linearized check, which is why #7 counts it as a second, independent failure.
+The power sum p₄ of a set of numbers is the sum of their fourth powers. Newton's identities express each power sum through the elementary symmetric polynomials of the same numbers, and the expression for p₄ contains products of them [T], so p₄ is not a linear combination of e₀ to e₄ with constant coefficients. #7's argument applies this to Tr(g²), which it calls "p₄ of the square-root eigenvalues": as a nonlinear polynomial in the eₙ, it lies outside the Hassan–Rosen family, whose potentials are all linear in them.
+
+The argument needs p₄ and the eₙ to be taken over the same numbers, so it matters which square root supplies them. In #7's vacuum frame the reference metric f is the identity, so √(f⁻¹g) is √g and √(g⁻¹f) is √(g⁻¹). Tr(g²) is p₄ of the eigenvalues of √(f⁻¹g). The Hassan–Rosen eₙ are those of √(g⁻¹f), and for that matrix p₄ is Tr(g⁻²). Flag 14 in `review/wiki-build-flags.md` records the difference as a minor point of notation, with an executed check that prints both identities (`review/wiki-build-checks/sqrt_eig_check.out`), and finds that the conclusion stands (battery T7). On the wiki's reading, the slice's Tr(S²) = Tr(g²) + Tr(g⁻²) − 2d contains both traces, so it contains p₄ of the eigenvalues of √(g⁻¹f), the numbers whose eₙ the Hassan–Rosen potential uses.
+
+The argument does not use the linearized check, which is why #7 counts it as a second, independent failure.
 
 ### The machine check: battery test T7
 
@@ -141,4 +146,5 @@ Before the test, calc note #6 had set out what a failure would mean: "Fail ⇒ t
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the notebook's account.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement.
 - `popsci/angle-of-the-mirror.md` 'The method is the message' — the popular description of the battery.
-- `review/wiki-build-flags.md` item 4 — the suspected slip in #7's expansion of S, awaiting a ruling.
+- `review/wiki-build-flags.md` item 4 — the suspected slip in #7's expansion of S; item 14 — which square root's eigenvalues give Tr(g²); item 36 — where the figures 66.58 and 63.72 are printed. All await Paul's ruling.
+- `review/wiki-build-checks/sqrt_eig_check.py` and `review/wiki-build-checks/sqrt_eig_check.out` — p₄ of the eigenvalues of √(g⁻¹f) and of √(f⁻¹g) against Tr(g⁻²) and Tr(g²) in the vacuum frame.

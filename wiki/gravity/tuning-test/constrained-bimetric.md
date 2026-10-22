@@ -27,6 +27,7 @@ sources:
   - "notes/broken-born-program-v1.md §5"
   - "notes/knot-dark-matter-standalone.md §1"
   - "HANDOFF.md §2"
+  - "review/wiki-build-flags.md item 8"
 ---
 
 *Constrained bimetric gravity is the picture of the program's gravity that [the tuning test](/wiki/gravity/tuning-test) leaves. [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is a ghost-free theory of two interacting metrics, each with its own dynamics. In the program's version the second frame is not a free field: it is the polarization frame, built from the [polarization J](/wiki/symmetry-breaking/order-parameter), and J ranges only over the compact space [Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) of splittings of phase space into position and momentum, which is ten-dimensional at d = 4. [Calc note #7](/wiki/history/documents/debt-1-notes) calls the result a predictive truncation of bimetric theory, with fewer free functions. In it the massless combination of the two spin-2 fields is the ordinary graviton, the massive one is the [momentum graviton X](/wiki/gravity/momentum-graviton), and the light direction of the compact space is the [dark-energy field τ](/wiki/phase-space/modular-field/maslov-phase). [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) then restricts the potential to its [palindromic branch](/wiki/gravity/palindromic-branch), and with the condition for a flat vacuum two free parameters remain. The picture is a structural derivation; the standard bimetric facts it uses come from the literature, and nothing in it is machine-checked.*
@@ -115,3 +116,4 @@ dRGT is de Rham–Gabadadze–Tolley ([dRGT massive gravity](/wiki/gravity/spin-
 - `notes/broken-born-program-v1.md` §5 — the v1 statement with Λ(4).
 - `notes/knot-dark-matter-standalone.md` §1 — stability at equal Planck masses as an open condition.
 - `HANDOFF.md` §2 — the handoff's one-screen statement.
+- `review/wiki-build-flags.md` item 8 — "five-function" for five constant coefficients; awaiting Paul's ruling.

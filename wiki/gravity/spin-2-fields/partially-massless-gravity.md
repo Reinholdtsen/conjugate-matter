@@ -18,6 +18,7 @@ sources:
   - "notes/debt1a-ii-X-classification.md §3"
   - "notes/debt1a-iv-beta-coefficients.md §1"
   - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "review/wiki-build-flags.md item 9"
 ---
 
 *Partially massless gravity is a spin-2 field on de Sitter space, the spacetime of a universe expanding at a constant rate under a positive cosmological constant, whose mass takes the one value at which an extra gauge symmetry appears and removes the field's helicity-0 polarization [T]. That value is the edge of the [Higuchi bound](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound), below which a massive spin-2 field on de Sitter space carries a ghost. [Bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has a parameter point, studied as partially massless bimetric gravity, at which the theory has de Sitter solutions in which the two metrics are proportional, with a ratio that the equations leave undetermined, and its potential is symmetric under exchange of the two metrics. The point matters to the program because at α = 1, which in the literature's usual notation means equal Planck masses for the two metrics, it lies inside the [palindromic branch](/wiki/gravity/palindromic-branch) that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) selects. That raises the open question whether reciprocity is the origin of the partially massless symmetry, and it means the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) must be compared with this literature before it can be called new.*
@@ -96,7 +97,7 @@ On the literature's reading of α, α = 1 means equal Planck masses. Calc note #
 
 The program's vacuum-energy identity selects its own point of the branch. "Note the PM point sits at Λ ≠ 0 with c undetermined; our flat-aligned-vacuum identity selects a *different* point of the same branch (β₁ ≠ 0 generically, β₀ = −4β₁ − 3β₂)" (#11 §7.4). The identity concerns a flat vacuum at the aligned point, where the two frames coincide; the partially massless point concerns de Sitter backgrounds with c left free. See [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 
-## Open: the partially-massless comparison (OP2)
+## The comparison still to be made
 
 The literature check that found this point downgraded the identity's novelty. The handoff's one-screen state records that the partially massless bimetric point "(arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still owed." (HANDOFF §2). The checkpoint downgraded the novelty claim "from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" (#11 §7.4). Hossenfelder's theory, reference [25S] of the checkpoint, cancels vacuum energy by a different mechanism, "where twin-sector source terms cancel identically"; the program's identity "is sector-internal (no twin matter required) and, to our current knowledge, distinct" (#11 §7.4).
 
@@ -126,3 +127,4 @@ The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed 
 - `review/round3/referee/audit-notes.md` Step 1 — Higuchi's abstract and the conversion with Λ = 3H².
 - `notes/debt1a-ii-X-classification.md` §3 — the five polarizations of a massive spin-2 field.
 - `notes/debt1a-iv-beta-coefficients.md` §1, §3 — the palindromic constraint; equal effective Planck masses forced by reciprocity.
+- `review/wiki-build-flags.md` item 9 — reference [24][S], with no authors and a title that may be descriptive; awaiting Paul's ruling.

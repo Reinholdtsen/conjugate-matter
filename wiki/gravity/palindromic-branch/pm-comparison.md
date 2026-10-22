@@ -24,6 +24,7 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
+  - "review/wiki-build-flags.md item 9"
 ---
 
 *The partially-massless comparison is a pending literature check on the two results of this section, [the palindrome](/wiki/gravity/palindromic-branch/palindrome) and [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity). A live literature search found that the palindromic branch contains the [partially massless point](/wiki/gravity/spin-2-fields/partially-massless-gravity) of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), a parameter point with an extra gauge symmetry, and that Hossenfelder's exchange-symmetric bimetric theory already cancels vacuum energy by a different mechanism. The comparison asks whether the identity is new, whether it holds up against that literature once conventions are aligned, and whether [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) is the origin of the partially massless symmetry. Until it is done, the identity is presented as adjacent to known results rather than as new. It is open problem 2 of [the checkpoint](/wiki/history/documents/checkpoint) and part of the first item of [the current work queue](/wiki/status/open-problems), and no calculation for it exists yet.*
@@ -68,7 +69,7 @@ The point lies in the branch because β₁ = β₃ = 0 already satisfies β₁ =
 
 It is not the program's point. #11 §7.4 continues: "Note the PM point sits at Λ ≠ 0 with c undetermined; our flat-aligned-vacuum identity selects a *different* point of the same branch (β₁ ≠ 0 generically, β₀ = −4β₁ − 3β₂)." The two points share the branch but not the vacuum: the partially massless point has a nonzero cosmological constant Λ, and the identity's point is the flat aligned vacuum.
 
-Reference [24][S] in #11: "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515". #11 gives no authors (see flag 9 in `review/wiki-build-flags.md`); the handoff cites the same arXiv number (HANDOFF §2, §8).
+Reference [24][S] in #11: "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515". #11 gives no authors, and the handoff cites the same arXiv number without a title (HANDOFF §2, §8). Flag 9 in `review/wiki-build-flags.md` adds that the title may be a description rather than the paper's own title, and that, being marked [S], the entry falls outside the [† literature battery](/wiki/method/literature-battery) (open problem 10), which checks the citations made from model memory. The record therefore identifies the partially massless paper this comparison is against only by its arXiv number and a possibly descriptive title.
 
 ### (b) Hossenfelder's exchange-symmetric bimetric theory [25S]
 
@@ -123,3 +124,4 @@ Before the literature search, the program expected the identity to be new:
 - `notes/broken-born-theory.md` 'Addendum (v0.6)' — the residual literature check as first recorded.
 - `notes/broken-born-program-v1.md` §5, §10, §11 — v1's "standalone result", its open literature check and its "two results that stand on their own" (superseded by #11).
 - `popsci/angle-of-the-mirror.md` 'What refused to die'; `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the popular accounts of the open question (never a status source).
+- `review/wiki-build-flags.md` item 9 — reference [24][S]: no authors, a title that may be descriptive, and outside the † battery; awaiting Paul's ruling.

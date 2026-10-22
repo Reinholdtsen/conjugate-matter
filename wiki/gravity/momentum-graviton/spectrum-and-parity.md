@@ -26,6 +26,7 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "review/v3-worklog.md 'Round-2 pending list'"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
+  - "review/wiki-build-flags.md items 5, 8"
 ---
 
 *The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have equal Planck masses, a statement of calc note #8 §3 that #11 does not repeat. The count and the parities are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton).*
@@ -76,7 +77,7 @@ After both steps β₁ and β₂ are free, and the other three follow: β₃ = �
 
 The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass term is the only ghost-free quadratic mass term of a spin-2 field. Expanded to second order about the aligned point, a bimetric potential produces it with a coefficient proportional to β₁ + 2β₂ + β₃ [T]. With the palindrome's β₃ = β₁ this combination is 2(β₁ + β₂). Neither β₀ nor β₄ enters it, so the vacuum condition of step 2 fixes them without fixing the mass. #8 says nothing further about the second parameter beyond its role in the cubic interactions.
 
-#11 §7.5 [D] restates the count as "Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape)." #8 states the proportionality for the squared mass m_FP², and #11 writes it for M_X (see flag 5 in `review/wiki-build-flags.md`).
+#11 §7.5 [D] restates the count as "Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape)." #8 states the proportionality for the squared mass m_FP², and #11 writes it for M_X. Flag 5 in `review/wiki-build-flags.md`, raised independently by three agents, notes that the β-combination fixes the squared Fierz–Pauli mass [T] and suspects that #11 §7.5 and #9 §5 item 6 mean M_X². It is a question of notation only and awaits Paul's ruling; this page quotes both documents as written.
 
 ### No value for M_X
 
@@ -117,7 +118,7 @@ Two consequences are worked out elsewhere. Matter coupled to g "sees both eigens
 ## What follows
 
 - **Row 6.** Bounds on the graviton mass from gravitational-wave observations constrain the massless eigenstate. In #8 §3's words, these bounds "apply to the even eigenstate, which is exactly massless", and #11 §7.5 calls them satisfied identically. #11 §13 row 6: standard expectation "m_g = 0"; Broken-Born requirement "Massless eigenstate exactly massless (reciprocity-even)"; killed by "Nonzero mass attributed to the even eigenstate" ([Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton)).
-- **The predictive truncation, counted.** Calc note #7 §4 had called the program's gravity sector "a *predictive truncation* of bimetric theory" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). #8 §3 quantifies it: the "five-function freedom" of Hassan–Rosen bimetric gravity, its five constant coefficients, "collapses to two numbers" (on "five-function", see flag 8 in `review/wiki-build-flags.md`).
+- **The predictive truncation, counted.** Calc note #7 §4 had called the program's gravity sector "a *predictive truncation* of bimetric theory" ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). #8 §3 quantifies it: the "five-function freedom" of Hassan–Rosen bimetric gravity, its five constant coefficients, "collapses to two numbers". Flag 8 in `review/wiki-build-flags.md` notes that the βₙ are constants (#7 §2), so the freedom is five parameters rather than five functions.
 - **Born's answer.** The "two free parameters" in the program's summary of its gravity results are these two ([Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer)).
 
 ## Superseded: the graviton-mass bound as a mixing-angle check
@@ -144,3 +145,4 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 - `notes/broken-born-program-v1.md` §5, §9, §11 — the superseded v1 statement, its row 6 and its assessment
 - `review/v3-worklog.md` 'Round-2 pending list' — item R7: the Planck masses written M_g and M_f, and the stable heavy-spin-2 regime at M_f ≪ M_g
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — "acquired a large mass" (popular article; not a status source)
+- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5 and #9 §5; item 8 — "five-function" for five constant coefficients; both await Paul's ruling

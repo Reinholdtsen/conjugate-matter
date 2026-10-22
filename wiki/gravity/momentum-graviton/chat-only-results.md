@@ -26,6 +26,7 @@ sources:
   - "papers/conjugate-special-relativity.md §6"
   - "verify/battery.py T1"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/wiki-build-flags.md item 29"
 ---
 
 *Two results from the program's original claude.ai conversation are derived in no project document: a claim that gravity has two charges, and a comparison of the program's field equations with those of [general relativity](/wiki/gravity/spin-2-fields/general-relativity). The [handoff document](/wiki/history/documents/handoff) lists them in its §4, among the results that exist only in the chat, so that they are not lost. The first says gravity has two independent charges: ordinary stress-energy is the source of the massless graviton, and [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), which measures how energy is structured across momentum, is the source of the [momentum graviton X](/wiki/gravity/momentum-graviton). Whether a "dual equivalence principle" ties the second charge to the [invariant length](/wiki/conjugate-relativity/invariant-length-shell) of [conjugate quanta](/wiki/dark-matter/conjugate-matter) is left as a question. The second compares the program's field equations with those of general relativity: the [slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) is fixed algebraically, the momentum-side counterpart of the Newtonian limit is a Yukawa form in momentum that is [the dark-matter gate](/wiki/dark-matter/conjugate-matter/velocity-gate), and X waves are massive, with five polarizations and a lowest frequency. Parts of both have counterparts in [the calc notes](/wiki/history/documents/debt-1-notes) and the papers; the rest has none. Both are conjectures: no artifact derives them and no script checks them.*
@@ -120,3 +121,4 @@ Both items are conjectures in the wiki's sense: claims that no artifact derives.
 - `papers/conjugate-special-relativity.md` §1, §6 — the slaved dual cone and the reading "in momentum"; §4 — the invariant length λ_χ; §5 — λ_χ as resistance to force-change and the equivalence principle as dual relativity
 - `verify/battery.py` T1 — the machine check of the compatibility theorem
 - `CLAUDE.md` 'Since the handoff' — the current queue
+- `review/wiki-build-flags.md` item 29 — #13's citation of #11 §7 for X's effect being in momentum, which #11 does not state; awaiting Paul's ruling

@@ -20,6 +20,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md ref [3]"
   - "HANDOFF.md §2"
+  - "review/wiki-build-flags.md items 8, 9"
 ---
 
 *Hassan–Rosen bimetric gravity is a theory of two dynamical metrics, g and f, each with its own Einstein–Hilbert term, coupled through a potential that keeps the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t) out. The potential is a sum of five terms with constant coefficients β₀ to β₄, the n-th term built from the [elementary symmetric polynomial](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) eₙ of the matrix √(g⁻¹f). An identity of these polynomials makes the exchange of the two metrics reverse the order of the terms, so the list of coefficients is read backwards. About proportional backgrounds the theory has one massless and one massive spin-2 field. The program's geometric sector, the home of its [momentum graviton X](/wiki/gravity/momentum-graviton), lands in this theory with the second frame confined to a compact space, and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), acting as the exchange of the two frames, then forces the list of coefficients to read the same in both directions, [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome).*
@@ -142,3 +143,4 @@ Added by the wiki from model memory (†):
 - `notes/debt1a-iii-tuning-test.md` §2, §4 — linearity in the eₙ; the standard bimetric facts; the constrained picture.
 - `notes/knot-dark-matter-standalone.md` §1, ref [3] — the instabilities of bimetric cosmological branches and the equal-Planck-mass condition; #14's citation of the two papers (manuscript withdrawn for unrelated arithmetic).
 - `HANDOFF.md` §2 — the geometric sector as interchange-symmetric Hassan–Rosen bimetric gravity with the second frame confined to Λ(4).
+- `review/wiki-build-flags.md` items 8, 9 — item 8: "five-function" for five constant coefficients; item 9: reference [24][S], with no authors and a title that may be descriptive; awaiting Paul's ruling.

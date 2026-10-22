@@ -30,6 +30,7 @@ sources:
   - "verify/battery.py T3"
   - "verify/battery.py T4"
   - "verify/battery.py T7"
+  - "review/wiki-build-flags.md item 7"
 ---
 
 *The verdict of [the tuning test](/wiki/gravity/tuning-test) is a conditional pass. The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass carries the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) when it is written in metric, or second-order, variables, and it is ghost-free when it is written in frame, or first-order, variables. The condition is the choice of variables, and the [calc notes](/wiki/history/documents/debt-1-notes) argue that the first-order formulation is the natural one anyway, because the [polarization J](/wiki/symmetry-breaking/order-parameter) and the [symplectic vielbein E](/wiki/gravity/tuning-test/frame-tier) are both first-order objects. Before the test, calc note #6 had spelled out what a failure would leave: only a phenomenological shell of [gated](/wiki/dark-matter/conjugate-matter/velocity-gate) [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) and [a dark-energy field on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), with the geometric story demoted to heuristics. [Checkpoint #11](/wiki/history/documents/checkpoint) tags the tuning test [D][V]. The machine checks cover the [metric-tier failures](/wiki/gravity/tuning-test/metric-tier-failures); the frame-tier pass is a structural argument with no test, and its potential was selected rather than derived.*
@@ -120,3 +121,4 @@ Before the test, #6 §5 made the pass the threshold: "Pass ⇒ the geometric cor
 - `notes/broken-born-program-v1.md` §5, §10, §11 — "[D — both branches computed]"; the v1 open items; "theory" awaiting items 1–2 and the four-step list.
 - `HANDOFF.md` §1, §2 — four consecutive tests; the handoff's summary of the verdict.
 - `verify/battery.py` T3, T4, T7 — the machine checks of the metric half.
+- `review/wiki-build-flags.md` item 7 — "the unique consistent structure" without the "known" that #6 §3 and #7 §5 keep; awaiting Paul's ruling.
