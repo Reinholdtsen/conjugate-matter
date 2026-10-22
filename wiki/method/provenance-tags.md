@@ -40,13 +40,13 @@ sources:
 
 | Mark | Meaning | Example in #11 |
 | --- | --- | --- |
-| [D] | derived in this program | the corrected duality dictionary, "[D — corrected en route]" (§10) |
+| [D] | derived in this program | the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), "[D — corrected en route]" (§10) |
 | [T] | established literature | strongly coupled monopoles in a weakly coupled hidden sector, "by Dirac quantization [T]" (§12) |
-| [P] | postulate | the postulates P1–P5 (§4) |
-| [O] | open | the eleven items of §14 |
-| [V] | machine-verified | the soliton obituary's numbers, "gated in `verify/soliton_obituary.py`" (§12) |
-| [S] | reference retrieved by live search | [26S], Freidel–Leigh–Minic's metastring paper |
-| † | reference cited from model memory | [8†], the multi-graviton no-go |
+| [P] | postulate | the [postulates P1–P5](/wiki/program/postulates) (§4) |
+| [O] | open | the eleven items of §14 ([open problems](/wiki/status/open-problems)) |
+| [V] | machine-verified | the [soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)'s numbers, "gated in `verify/soliton_obituary.py`" (§12) |
+| [S] | reference retrieved by live search | [26S], Freidel–Leigh–Minic's [metastring paper](/wiki/phase-space/reciprocity/broken-born-duality) |
+| † | reference cited from model memory | [8†], [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) |
 
 The first five are claim tags; [S] and † are marks on citations. In #11's text a citation appears as "[24S]" or "[8†]"; the reference list writes "[24][S]" and "[8]†" (see [References](/wiki/references)).
 
@@ -54,7 +54,7 @@ The first five are claim tags; [S] and † are marks on citations. In #11's text
 
 Tags combine when a claim has more than one kind of support, and a dash adds a qualifier:
 
-- **Combined.** "[T][V]" on [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) marks a literature result that the program has also checked by machine. "[D][V]" on the toy-model refinement of P2′ (§4) marks a derivation of the program's own with a machine check. "[D + T]" (three times in #11) marks an argument that joins the program's own steps to literature results.
+- **Combined.** "[T][V]" on [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) marks a literature result that the program has also checked by machine. "[D][V]" on the toy-model refinement of [P2′](/wiki/program/postulates/p2-prime) (§4) marks a derivation of the program's own with a machine check. "[D + T]" (three times in #11) marks an argument that joins the program's own steps to literature results.
 - **Qualified.** "[D — corrected en route]" (§10), "[D — framework; each candidate O]" (§12), "[D — structural; math T]" (§11.3): the qualifier says how far the derivation goes or which part rests on what.
 - **[V] and its scope.** #11's "[V] machine-verified this session" was written during the claude.ai phase. In the repository the machine checks are the scripts in `verify/`, run by [the gate](/wiki/method/verification/the-gate). A [V] confirms the arithmetic of the model the script encodes, not that the model is the right physics: #11 §2 added in v2.1 that "a verification script confirms arithmetic, not the model it encodes" ([Verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
@@ -64,14 +64,14 @@ Tags record where a claim comes from; how far it can be trusted is a separate gr
 
 A tag changes when the support for a claim changes, and the record shows three kinds of change.
 
-- **[D] to [T][V]: a derivation found in the literature.** #11 v2.0 presented the compatibility theorem as derived. Review round 3 identified it as essentially a Born-geometry result of Freidel, Leigh and Minic, and the adjudication concluded: "Unless a comparison shows otherwise, the checkpoint's "[D] derived here" tag on it should become [T] with that citation." (`review/round3-adjudication.md`). v2.1 re-tagged it [T][V]: "The block proof and the machine check are this program's." (#11 §5). Nothing in the mathematics changed. The toy-model worklog drew the lesson for later work, making a prior-art search its first success criterion: "Each element of the toy is either new or cited. (Lesson of the compatibility theorem, which turned out to be Freidel–Leigh–Minic's.)" (`notes/toy-lagrangian.md`, 'Success criteria', S0).
+- **[D] to [T][V]: a derivation found in the literature.** #11 v2.0 presented the compatibility theorem as derived. Review round 3 identified it as essentially a [Born-geometry](/wiki/phase-space/born-geometry) result of Freidel, Leigh and Minic, and the adjudication concluded: "Unless a comparison shows otherwise, the checkpoint's "[D] derived here" tag on it should become [T] with that citation." (`review/round3-adjudication.md`). v2.1 re-tagged it [T][V]: "The block proof and the machine check are this program's." (#11 §5). Nothing in the mathematics changed. The toy-model worklog drew the lesson for later work, making a prior-art search its first success criterion: "Each element of the toy is either new or cited. (Lesson of the compatibility theorem, which turned out to be Freidel–Leigh–Minic's.)" (`notes/toy-lagrangian.md`, 'Success criteria', S0).
 - **† to [S]: a memory citation checked.** In #11 v2.0 reference [21], the second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI), was marked †. v2.1 retrieved it and changed the mark: "References [21] upgraded to [S]; [26]-[29] added, all INSPIRE-checked" (repository history, commit e1c1f67). The remaining † references are the [literature battery](/wiki/method/literature-battery).
-- **A flag to a mark.** The v1 paper tagged the quintessence fits it cited "[T — refresh citations before publication]" (#9 §8); #11 cites the same works as [19][S] and [20][S].
+- **A flag to a mark.** The v1 paper tagged the [quintessence](/wiki/cosmology/dark-energy/quintessence) fits it cited "[T — refresh citations before publication]" (#9 §8); #11 cites the same works as [19][S] and [20][S].
 
 ## Variants in other documents
 
 - **The handoff's ✓.** `HANDOFF.md` §2 marks machine checks with ✓: "Alive (derived, machine-verified where marked ✓)". One ✓, on the [Debt-3 shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) "criterion fails by 10²⁸–10³¹ ✓", has no `verify/` script behind it, and #11 §9 tags the same result [D]; see flag 16 in `review/wiki-build-flags.md`.
-- **#13.** [Conjugate special relativity](/wiki/conjugate-relativity) uses [D] [T] [P] [O] with †, "[D — structural]", "[O — flagged, not derived]" and "[conjecture-tier; the full dual dynamics awaits the formalization of §6]", and three that name their basis: "[D — §7 of the checkpoint]" (§1), "[D — checkpoint §7]" (§6) and "[D — compatibility theorem]" (§1). The wiki build flagged all three as pointing to results that do not carry the claim: #11 §7 never mentions a dual cone and gives the momentum graviton's range in position, "Yukawa-cut at 1/M_X" (flag 29), and the compatibility theorem's metric is positive-definite, with no null cone, so it cannot ground #13's two causal cones (flag 30) (`review/wiki-build-flags.md`). The flags await Paul's ruling, and the wiki quotes the tags as written.
+- **#13.** [Conjugate special relativity](/wiki/conjugate-relativity) uses [D] [T] [P] [O] with †, "[D — structural]", "[O — flagged, not derived]" and "[conjecture-tier; the full dual dynamics awaits the formalization of §6]", and three that name their basis: "[D — §7 of the checkpoint]" (§1), "[D — checkpoint §7]" (§6) and "[D — compatibility theorem]" (§1). The wiki build flagged all three as pointing to results that do not carry the claim: #11 §7 never mentions a dual cone and gives the [momentum graviton](/wiki/gravity/momentum-graviton)'s range in position, "Yukawa-cut at 1/M_X" (flag 29), and the compatibility theorem's metric is positive-definite, with no null cone, so it cannot ground #13's [two causal cones](/wiki/conjugate-relativity/two-causal-cones) (flag 30) (`review/wiki-build-flags.md`). The flags await Paul's ruling, and the wiki quotes the tags as written.
 - **The toy-model note.** Written as an anonymous manuscript for blind review, it carries no tags, and its † is the Hermitian adjoint (φ†φ), not a citation mark ([the toy models](/wiki/symmetry-breaking/toy-models)).
 - **The `verify/` scripts** carry no tags; the checks they print as passed are what a [V] refers to.
 

@@ -97,8 +97,18 @@ The referees' recurring objection that ["the framework does no work"](/wiki/prog
 
 - [Assessment: a live research program](/wiki/program/assessment) — #11 §15's self-assessment, written in these terms.
 - [The hard core](/wiki/program/hard-core) — the program's protected assumptions.
-- [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) and [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — the branch flagged as degenerating.
-- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — retired rather than rescued by a free parameter.
+- [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — forced P2′, the first of the two sharpenings of the hard core.
+- [The verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass) — forced convergence read as "the opposite of degeneration".
+- [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — forced convergence counted among the progressive signs.
+- [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the novelty demotion kept as a standing caution.
+- [Row 3: the island discriminant](/wiki/predictions/island-discriminant) and [Row 11: particles or condensate (OP9)](/wiki/predictions/dark-sector-microstructure) — the predictions "not previously posed", the candidates for novel content.
+- [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — counted among the progressive signs.
+- [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the §11.3 unification counted as a progressive sign.
+- [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — listed among the degeneration risks.
+- [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape) — "gate tail not yet forced", a degeneration risk.
+- [The wave island](/wiki/dark-matter/momentum-clumping/wave-island), [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) and [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — the branch flagged as degenerating.
+- [Obituary: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) — what remains of it counted as a degeneration risk, not a prediction.
+- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) and [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — retired rather than rescued by a free parameter.
 - [The 'framework does no work' critique](/wiki/program/framework-does-no-work) — the referees' objection.
 - [Negative results and dead claims](/wiki/method/negative-results) — the rule that failures are reported and stay dead.
 
