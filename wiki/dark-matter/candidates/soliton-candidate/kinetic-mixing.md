@@ -17,7 +17,6 @@ sources:
   - "review/round3/referee/audit-notes.md Step 4(b)"
   - "review/round3/referee/audit-notes.md Step 4(c)"
   - "review/round3/referee/step2a.out"
-  - "review/round3/referee/step4b.out"
   - "notes/knot-dark-matter-standalone.md §2"
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/knot-dark-matter-standalone.md §5"
@@ -28,7 +27,7 @@ sources:
   - "HANDOFF.md §6"
 ---
 
-*Kinetic mixing is a coupling between the field strengths of two U(1) gauge forces, such as our photon and a hidden photon, through a term proportional to ε times the product of the two field strengths. When ε is not zero, particles charged under the hidden force acquire a small electric charge under ours, so kinetic mixing is the standard route by which a hidden sector can leak into the visible one. Three literature results framed the soliton candidate's hidden sector: gravity alone produces mixing only at six loops or more, and none if hidden charge conjugation is an exact symmetry; while the hidden photon stays massless, mixing does not make hidden [monopoles](/wiki/electric-magnetic-duality/monopoles) magnetic under our electromagnetism; and what leakage remains would give the hidden fermion ψ, and through the Witten effect the monopoles, a small visible electric charge. The program closed these channels by taking its postulate [P4](/wiki/program/postulates/p4-polarized-matter) strictly.*
+*Kinetic mixing is a coupling between the field strengths of two U(1) gauge forces, such as our photon and a hidden photon, through a term proportional to ε times the product of the two field strengths. When ε is not zero, particles charged under the hidden force acquire a small electric charge under ours, so kinetic mixing is the standard route by which a hidden sector can leak into the visible one. Three literature results framed the soliton candidate's hidden sector: gravity alone produces mixing only at six loops or more, and none if hidden charge conjugation is an exact symmetry; while the hidden photon stays massless, mixing does not make hidden [monopoles](/wiki/electric-magnetic-duality/monopoles) magnetic under our electromagnetism; and what leakage remains would give the hidden fermion ψ, and through the [Witten effect](/wiki/electric-magnetic-duality/monopoles/witten-effect) the monopoles, a small visible electric charge. The program closed these channels by taking its postulate [P4](/wiki/program/postulates/p4-polarized-matter) strictly.*
 
 **Status:** Established — literature [T]: Gherghetta–Kersten–Olive–Pospelov [27S] on gravity-induced mixing, and Hiramatsu et al. (massless hidden photon) and Terning–Verhaaren (massive hidden photon) on visible magnetic flux, as read in the v3 worklog and checked by the [round-3](/wiki/method/review/round-3) referee. "The kinetic-mixing literature points (a) and (c)" survive v3 (round-3 adjudication). The Witten-effect finding was "Accepted, not re-checked" ([ruling 9](/wiki/method/review/round-3/rulings#ruling-9-the-witten-effect)). The general explanations below are from standard physics [T]; references the wiki adds are marked †.
 
@@ -123,9 +122,7 @@ Before ψ existed, the worklog had placed the millicharge on the hidden W′± i
 
 ### (ii) The Witten effect
 
-In a gauge theory with a θ term, a term proportional to θ times the product of the electric and magnetic fields, a magnetic monopole acquires an electric charge proportional to θ: it becomes a dyon (Witten 1979 †) [T]. The angle θ has physical effects only if it cannot be removed by redefining fermion fields, which a massive charged fermion prevents [T]. The referee (Step 4(a) item 7): "Hidden theta is physical (psi massive) and generically O(1): q_vis ~ chi theta_d/(2 pi)", by eq. 3.19 of Brümmer–Jaeckel–Khoze (#14's [14]), which gives "1.6e-8 e (chi=1e-7, theta=1) to 1.6e-7 e (chi=1e-6)". Here χ is ε and θ_d the hidden θ. The referee quotes the paper's abstract (Step 1): with CP violation, hidden monopoles acquire a hidden electric charge, and "quite generally they also acquire (small) electric charges under the visible electromagnetic gauge group"; also, "Both kinetic and magnetic mixing are naturally induced radiatively". Over χ from 1e-7 to 1e-6 and θ_d from 0.10 to 3.14, the referee's script gives charges from 1.59e-09 e to 5.00e-07 e (`step4b.out`).
-
-Ruling 9, "Accepted, not re-checked": "With mixing and a physical hidden θ, the monopoles carry visible electric charge ~ εθ/2π · e (Witten effect)", which "contradicts v3's "constraints act on ψ, not the dark matter" whenever ε ≠ 0." The referee called the charge "Phenomenologically tiny at M=3e13 GeV, but it makes exclusion condition 1 self-triggering in the eps != 0 branch": #14's exclusion condition 1 counted "Any confirmed non-gravitational coupling between the dominant dark-matter component and the Standard Model" as fatal (§5).
+In a gauge theory with a vacuum angle θ, a magnetic monopole carries an electric charge proportional to θ/2π, which makes it a dyon: the [Witten effect](/wiki/electric-magnetic-duality/monopoles/witten-effect) (Witten 1979 †) [T]. A physical hidden angle θ_d makes #14's monopoles hidden dyons, and with ε ≠ 0 they carry a visible electric charge as well, "q_vis ~ chi theta_d/(2 pi)" in the referee's notation, χ being ε (Step 4(a) item 7, from eq. 3.19 of Brümmer–Jaeckel–Khoze, #14's [14]). The referee called the charge "Phenomenologically tiny at M=3e13 GeV, but it makes exclusion condition 1 self-triggering in the eps != 0 branch", that condition being "Any confirmed non-gravitational coupling between the dominant dark-matter component and the Standard Model" (§5). Ruling 9, "Accepted, not re-checked": "With mixing and a physical hidden θ, the monopoles carry visible electric charge ~ εθ/2π · e (Witten effect)", which "contradicts v3's "constraints act on ψ, not the dark matter" whenever ε ≠ 0." The mechanism, the referee's charges and where the ruling stands are on [the Witten effect](/wiki/electric-magnetic-duality/monopoles/witten-effect#the-soliton-candidates-monopoles).
 
 ## Strict sector separation
 
@@ -183,7 +180,7 @@ The [project instructions](/wiki/history/documents/project-instructions) record 
 - `CLAUDE.md` 'Since the handoff' — strict sector separation in force
 - `review/round3-adjudication.md` 'Decisions' 1 — strict sector separation; 'Rulings' 9 — the Witten effect; the omitted-constraints list; 'What survives v3' — points (a) and (c)
 - `review/round3/referee/audit-notes.md` Step 1 — the literature checked, the floor reading; Step 4(a) items 5 and 7 — re-thermalization and the monopoles' visible charge; Step 4(b) — the kinetic-mixing claims against the literature; Step 4(c) — the omitted millicharge constraints
-- `review/round3/referee/step2a.out` — ψ's visible charge with cos θ_W; `review/round3/referee/step4b.out` — the Witten-effect charges
+- `review/round3/referee/step2a.out` — ψ's visible charge with cos θ_W
 - `review/v3-worklog.md` 'Round-2 pending list' (R4) and 'Findings neither referee raised' (L1) — the literature as read for v3
 - `notes/knot-dark-matter-standalone.md` §2 — sector separation and points (a), (b) and (c); §4 — the unevaluated millicharge bounds; §5 — exclusion condition 1; refs [9]–[14]
 - `HANDOFF.md` §2 — open item 3; §6 — rounds 1 and 2 on kinetic mixing
