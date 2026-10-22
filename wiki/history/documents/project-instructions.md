@@ -119,8 +119,8 @@ The wiki's voice rules are taken from this section. The roles, the calibration a
 
 Against the current record, the line is out of date in each part:
 
-- **The missing monopoles.** The program's explanation of our failure to find magnetic monopoles is dead: the relevant duality is electric–magnetic, not position–momentum, and inflation already accounts for the absence (#11 §11.1; `HANDOFF.md` §2; [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
-- **Dark matter.** The program offers two candidates, χ particles and an X-condensate, and discriminating between them is open (#11 §12 and §14 item 9 [O]; [dark-sector candidates](/wiki/dark-matter/candidates)).
+- **The missing monopoles.** The program's explanation of our failure to find magnetic monopoles is dead: the relevant duality is electric–magnetic, not position–momentum, and [inflation](/wiki/cosmology/early-universe/inflation-and-dilution) already accounts for the absence (#11 §11.1; `HANDOFF.md` §2; [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
+- **Dark matter.** The program offers two candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [an X-condensate](/wiki/dark-matter/candidates/x-condensate), and discriminating between them is open (#11 §12 and §14 item 9 [O]; [dark-sector candidates](/wiki/dark-matter/candidates)).
 - **"Hypothesis".** The root `CLAUDE.md` calls the work "a Lakatosian research program, not a theory", and #11 §15 says the word "theory" "still waits on items 1–3" of its open problems ([assessment](/wiki/program/assessment)).
 
 The wiki does not use the README as a source for anything but its own text.

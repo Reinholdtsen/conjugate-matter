@@ -39,11 +39,11 @@ Its assessment counted "at least two results that stand on their own regardless 
 
 ## #11 v2.0: what it added
 
-#11 v2.0 arrived in the repository with the import of 2026-10-19 (commit 8d588f6), subtitled "Spontaneously broken reciprocity, a massive momentum-space graviton, polarized charge lattices, and the dark-sector trilemma". The handoff lists what it added to v1.0: "Supersedes #1 and #9. Adds: methodological preface + 7-test machine-verification battery; charge-lattice §11; dark-sector trilemma §12; 25 references flagged † (memory — verify) vs [S] (live-searched); PM/Hossenfelder novelty downgrade; Appendix A supposition audit (11 items with fates)" (`HANDOFF.md` §3), PM being partially massless. In the wiki:
+#11 v2.0 arrived in the repository with the import of 2026-10-19 (commit 8d588f6), subtitled "Spontaneously broken reciprocity, a massive momentum-space graviton, polarized charge lattices, and the dark-sector trilemma". The handoff lists what it added to v1.0: "Supersedes #1 and #9. Adds: methodological preface + 7-test machine-verification battery; charge-lattice §11; dark-sector trilemma §12; 25 references flagged † (memory — verify) vs [S] (live-searched); PM/Hossenfelder novelty downgrade; Appendix A supposition audit (11 items with fates)" (`HANDOFF.md` §3), PM being [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity). In the wiki:
 
 - the preface is §2, with Tier 1 checked by [the verification battery](/wiki/method/verification/battery) and the tiers on [claim tiers and selection bias](/wiki/method/claim-tiers);
 - §11 is [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) and the rest of [electric–magnetic duality](/wiki/electric-magnetic-duality);
-- the trilemma offered three dark-matter candidates, χ particles, an X-condensate and "Conjugate knots", topological solitons of a p-local gauge sector ([dark-sector candidates](/wiki/dark-matter/candidates));
+- the trilemma offered three dark-matter candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles), [an X-condensate](/wiki/dark-matter/candidates/x-condensate) and "Conjugate knots", topological solitons of a p-local gauge sector ([dark-sector candidates](/wiki/dark-matter/candidates));
 - the reference list ran [1]–[25] ([References](/wiki/references));
 - the novelty downgrade is §7.4, "Literature position (updated by this session's search — honesty upgrade)" ([Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison));
 - the audit is Appendix A ([founding suppositions and their fates](/wiki/program/founding-suppositions)).
