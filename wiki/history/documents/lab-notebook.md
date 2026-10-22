@@ -14,7 +14,7 @@ sources:
   - "CLAUDE.md 'Layout'"
   - "wiki/CLAUDE.md 'The wiki is derivative'"
   - "papers/broken-born-checkpoint-v2.md header"
-  - "review/wiki-build-flags.md items 1, 6, 10, 17, 18, 23, 25, 27"
+  - "review/wiki-build-flags.md items 1, 6, 10, 17, 18, 23, 25, 27, 31"
 ---
 
 *The lab notebook, artifact #1, is the program's first formal write-up: version 0.1, dated September 2026, with five postulates, an action, checks against established physics, a predictions table with kill conditions, and a ranked list of open problems. As the first calculations came in, their results were appended as addenda v0.2 to v0.6 rather than edited into the text, so the notebook preserves the order in which the program changed. Because the body was never revised, claims that later died, momentum-space clumping among them, still read there as live, and the original form of postulate P2, which the first Debt-1 calculation overturned, still stands among its postulates. The notebook was superseded as a reference by the program v1.0 (#9) and then by checkpoint #11, and it is kept as the audit trail.*
@@ -70,7 +70,7 @@ The action is S = S_H + S_τ + S_x[SM; g] + S_p[χ; g, g̃] + S_mix, SM being th
 
 ### §4, consistency with everything already measured
 
-"GR and the SM. Exact at tree level in the x-sector by construction (P4, P5). [D]", GR being general relativity. The section adds: no linear Lorentz violation, because operators linear in energy are odd under the residual ρ² [D, schematic], with gamma-ray-burst bounds from the Fermi Large Area Telescope (LAT) cited [T] ([row 9](/wiki/predictions/photon-dispersion)); fifth-force safety of τ as a derivatively coupled pseudo-Goldstone field [D] ([fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)); the equivalence principle and lensing for χ [D]; and "Ghost accounting", whose "There is no second independent metric" the v0.4 addendum reversed ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain#superseded-no-second-graviton-under-the-original-p2)). #11 has no counterpart section.
+"GR and the SM. Exact at tree level in the x-sector by construction (P4, P5). [D]", GR being general relativity. The section adds: no linear Lorentz violation, because operators linear in energy are odd under the residual ρ² [D, schematic], with gamma-ray-burst bounds from the Fermi Large Area Telescope (LAT) cited [T] and quadratic effects said to "sit ∼10 orders below current sensitivity" ([row 9](/wiki/predictions/photon-dispersion)); fifth-force safety of τ as a derivatively coupled pseudo-Goldstone field [D] ([fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)); the equivalence principle and lensing for χ [D]; and "Ghost accounting", whose "There is no second independent metric" the v0.4 addendum reversed ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain#superseded-no-second-graviton-under-the-original-p2)). #11 has no counterpart section.
 
 ### §5, the conjugate sector
 
@@ -128,7 +128,7 @@ The replacements are collected on [superseded statements](/wiki/status/supersede
 
 ## What the wiki flags
 
-- **Suspected errors inside the notebook**, quoted as written and listed in `review/wiki-build-flags.md`: item 10 and item 25, the section pointers of §1; item 18, "1966"; item 27, the sign of the potential; item 6, v0.6's "by symmetry rather than tuning"; item 17, the gate's exponent and the √2 in v\* ≡ √2μ/m_χ, compared with calc note #6.
+- **Suspected errors inside the notebook**, quoted as written and listed in `review/wiki-build-flags.md`: item 10 and item 25, the section pointers of §1; item 18, "1966"; item 27, the sign of the potential; item 6, v0.6's "by symmetry rather than tuning"; item 17, the gate's exponent and the √2 in v\* ≡ √2μ/m_χ, compared with calc note #6; and item 31, a lead rather than a confirmed error, on the "∼10 orders" of §4, which no script backs.
 - **Conflicts with other documents**, on [conflicts between sources](/wiki/history/documents/source-conflicts): the year of the Freidel–Rudolph–Svoboda theorem (2018 here, 2019 in #11); the two forms of the gate; dual kinetic energy against τ's potential; the sign of V(τ); the reach of the closure of the notebook's open problem 5, relic abundance; and the row numbers, which the Debt-3 notes share with §9 but #9 and #11 do not.
 - **Numbers found only here.** μ ≈ 20 keV and the two predicted cross-sections of §5.1, and the "93.8%" of §7, appear in no later document and in no `verify/` output. The wiki cites them as the notebook's and unverified ([the iron rule](/wiki/method/verification/iron-rule)).
 
@@ -139,4 +139,4 @@ The replacements are collected on [superseded statements](/wiki/status/supersede
 - `CLAUDE.md` 'Layout' — "the audit trail, superseded as reference but kept"
 - `wiki/CLAUDE.md` 'The wiki is derivative' — its rank in the precedence order
 - `papers/broken-born-checkpoint-v2.md` header — "Supersedes v2.1, v2.0 and v1.0"
-- `review/wiki-build-flags.md` items 1, 6, 10, 17, 18, 23, 25 and 27 — suspected errors in statements the notebook makes or shares
+- `review/wiki-build-flags.md` items 1, 6, 10, 17, 18, 23, 25, 27 and 31 — suspected errors in statements the notebook makes or shares, and one lead

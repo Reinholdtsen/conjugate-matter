@@ -16,7 +16,7 @@ sources:
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round4-adjudication.md 'Revisions for v2 of the note'"
   - "verify/battery.py"
-  - "review/wiki-build-flags.md items 1, 5, 6, 7, 9, 20, 23, 27, 28"
+  - "review/wiki-build-flags.md items 1, 5, 6, 7, 9, 20, 23, 27, 28, 32"
 ---
 
 *The checkpoint is the program's paper-length statement of everything it has derived, predicted, retracted and left open, with every claim tagged by where it came from. Its first version, #9 ("The Broken-Born Program" v1.0), consolidated the lab notebook and the calc notes into one document with a plain-language passage opening every section. Its successor, #11, is the current reference for the full program. Version 2.0 added a methodological preface with a machine-verification battery, sections on charge lattices and on the dark-sector candidates, a reference list and an audit of the founding ideas; version 2.1 recorded the outcome of review round 3, retiring the soliton candidate and putting the dark-energy prediction under pressure; version 2.2 recorded the toy-model results. #11 is a working checkpoint, not to be submitted until its citations from memory have been checked against their sources.*
@@ -114,7 +114,7 @@ Some statements in #11 disagree with others in the same document or overstate wh
 
 ## What the wiki flags
 
-`review/wiki-build-flags.md` lists suspected errors in #11 or #9, quoted on the wiki's pages as written: item 1, the "discrete" polarizations of §5 (and #9 §3); item 5, "M_X ∝ 2(β₁+β₂)" in §7.5 (and #9 §5 item 6), where the source note has the squared mass; item 6, §7.3's "by symmetry"; item 7, "The unique consistent structure" in §7.1; item 9, reference [24][S], which has no authors; item 20, reference [23]†, whose title and arXiv number belong to different papers; item 23, the identification of a·ã = 1 with the |Z| = 1 locus in §6 and §10; item 27, the sign of τ's potential V = V₀[1 + cos(τ/f)] in §10 (and #9 §8), against the turnaround it needs ([Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)); and item 28, the formula 4π/e² beside the magnetic coupling ≈ 34 in §11.2.
+`review/wiki-build-flags.md` lists suspected errors in #11 or #9, quoted on the wiki's pages as written: item 1, the "discrete" polarizations of §5 (and #9 §3); item 5, "M_X ∝ 2(β₁+β₂)" in §7.5 (and #9 §5 item 6), where the source note has the squared mass; item 6, §7.3's "by symmetry"; item 7, "The unique consistent structure" in §7.1; item 9, reference [24][S], which has no authors; item 20, reference [23]†, whose title and arXiv number belong to different papers; item 23, the identification of a·ã = 1 with the |Z| = 1 locus in §6 and §10; item 27, the sign of τ's potential V = V₀[1 + cos(τ/f)] in §10 (and #9 §8), against the turnaround it needs ([Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)); and item 28, the formula 4π/e² beside the magnetic coupling ≈ 34 in §11.2. Item 32 is a lead, not a source error: the status of CMB-S4, the cosmic microwave background experiment row 10 names as a probe, is unchecked and belongs to the † battery.
 
 ## What the wiki does not copy
 
@@ -128,4 +128,4 @@ Some of #11's plain-language passages use phrasing the wiki's register excludes 
 - `CLAUDE.md` 'Layout' — #11 as "the current reference for the full program" and #9 "superseded by #11"; 'Since the handoff' — the v2.1 changes
 - `review/round3-adjudication.md` 'Decisions' — the decisions v2.1 records; `review/round4-adjudication.md` 'Revisions for v2 of the note' — the round behind v2.2
 - `verify/battery.py` — the Tier-1 checks of §2
-- `review/wiki-build-flags.md` items 1, 5, 6, 7, 9, 20, 23, 27 and 28 — suspected errors in #11 and #9
+- `review/wiki-build-flags.md` items 1, 5, 6, 7, 9, 20, 23, 27 and 28 — suspected errors in #11 and #9; item 32 — a lead on row 10
