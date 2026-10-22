@@ -24,9 +24,9 @@ sources:
   - "HANDOFF.md §2"
 ---
 
-*The Kibble mechanism, proposed by Tom Kibble in 1976, is the standard account of how topological defects such as monopoles, strings and domain walls form when the early universe cools through a symmetry-breaking transition. Regions farther apart than the horizon, the distance light has travelled since the Big Bang, have had no contact, so the field settles into unrelated vacuum states in different regions, and defects are left where those regions meet. This gives at least about one defect per horizon volume, and that count is a minimum: slow transitions (Kibble–Zurek dynamics) and first-order transitions, which proceed by bubbles, make more. In the program the count decided the fate of the soliton dark-matter candidate, whose manuscript had normalized it too low and treated it as an upper end; that error and its correction are recorded with the candidate.*
+*The Kibble mechanism, proposed by Tom Kibble in 1976, is the standard account of how topological defects such as [monopoles](/wiki/electric-magnetic-duality/monopoles), strings and domain walls form when the early universe cools through a symmetry-breaking transition. Regions farther apart than the horizon, the distance light has travelled since the Big Bang, have had no contact, so the field settles into unrelated vacuum states in different regions, and defects are left where those regions meet. This gives at least about one defect per horizon volume, and that count is a minimum: slow transitions (Kibble–Zurek dynamics) and first-order transitions, which proceed by bubbles, make more. In the program the count decided the fate of the soliton dark-matter candidate, whose manuscript had normalized it too low and treated it as an upper end; that error and its correction are recorded with the candidate.*
 
-**Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, astro-ph/0110285, which the round-3 referee cited and the gate uses as an anchor), and the floor, which the checkpoint supports with Murayama–Shu [28S]. Round 3 upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
+**Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, astro-ph/0110285, which the round-3 referee cited and [the gate](/wiki/method/verification/the-gate) uses as an anchor), and the floor, which the [checkpoint](/wiki/history/documents/checkpoint) supports with Murayama–Shu [28S]. [Round 3](/wiki/method/review/round-3) upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
 ## Defects from a cooling field [T]
 
@@ -86,7 +86,7 @@ A first-order transition proceeds by supercooling: the universe stays in the old
 
 The checkpoint cites the floor to Murayama and Shu [28S], whose abstract, as ruling 3 quotes it, says that Kibble "drastically underestimates the production of topological defects" (`review/round3-adjudication.md`, 'Rulings' 3). Murayama and Shu, and Liveoak, Maharana and Wells [29S], use this production in hidden-sector models of topological dark matter ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
 
-What happens after formation is a separate question. Monopoles and antimonopoles can annihilate, which matters only if the initial yield is high enough, and inflation after the transition can dilute them; both belong to [the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem).
+What happens after formation is a separate question. Monopoles and antimonopoles can annihilate, which matters only if the initial yield is high enough, and [inflation](/wiki/cosmology/early-universe/inflation-and-dilution) after the transition can dilute them; both belong to [the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem).
 
 ## How the program uses it
 
@@ -134,7 +134,7 @@ PASS  v3's 0.0228 drops (1.66 sqrt(g*))^3 ~ 4.6e3  [4575.6]
 
 ### The √N floor
 
-The handoff had framed the candidate's relic question between a "Kibble ceiling" and a "√N floor" (`HANDOFF.md` §2, open item 2). Round-3 Decision 3 dropped it: "Its premise, Kibble as a ceiling, is inverted (ruling 3)" ([Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
+The [handoff](/wiki/history/documents/handoff) had framed the candidate's relic question between a "Kibble ceiling" and a "√N floor" (`HANDOFF.md` §2, open item 2). [Round-3 Decision 3](/wiki/method/review/round-3/decisions) dropped it: "Its premise, Kibble as a ceiling, is inverted (ruling 3)" ([Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
 ## References
 
@@ -155,6 +155,13 @@ Added by the wiki from model memory (†):
 - [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) — the production side of the monopole abundance.
 - [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — dropped because its premise, Kibble as a ceiling, is inverted.
 - [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script) — the one-per-Hubble-volume anchor.
+- [Independent anchors](/wiki/method/verification/independent-anchors) — v3's circular Kibble anchor and its replacement.
+- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the abundance estimate whose error decided the candidate's fate.
+- [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic) — a pure Kibble abundance closes at a single mass.
+- [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the transition at which the monopoles were to be made.
+- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — the retired candidate's abundance followed from the Kibble estimate.
+- [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — at least about one monopole per causally connected region.
+- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the production of superheavy monopoles that inflation must dilute.
 
 ## Sources
 

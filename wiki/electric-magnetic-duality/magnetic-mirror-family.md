@@ -23,7 +23,7 @@ sources:
 
 *The magnetic mirror-family is the idea that every electrically charged particle, quarks included, has a magnetic counterpart. It entered the program as P.R.'s [founding supposition 11](/wiki/program/founding-suppositions), and [the checkpoint](/wiki/history/documents/checkpoint) records it as established physics: [Montonen–Olive duality](/wiki/electric-magnetic-duality/s-duality), Seiberg's magnetic quarks and the [dual-superconductor](/wiki/electric-magnetic-duality/dual-superconductor) picture of quark confinement already contain it. [Dirac's condition](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) accounts for why the counterparts are not seen: a weak electric coupling forces a strong magnetic one, so magnetic particles are heavy and tightly bound. The checkpoint's figure for the magnetic coupling of our electromagnetism, about 34, is not the hidden-sector coupling [α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) that died with the soliton candidate. The program's own addition is the observation that choosing which particles count as electric is a choice of polarization, which has its own page.*
 
-**Status:** Established — [T] — "alive as established physics" (#11 App. A item 11). The physics is #11 §11.2, tagged [T] and cited as [17†-adjacent; 18†] and 't Hooft–Mandelstam†, all from model memory and due [the † literature battery](/wiki/method/literature-battery). The factor-of-four convention spread is marked [V] in the v3 worklog (item R2); the round-3 referee's script prints the two values for the hidden sector (`review/round3/referee/step2a.out`), and no script in the current gate checks them.
+**Status:** Established — [T] — "alive as established physics" (#11 App. A item 11). The physics is #11 §11.2, tagged [T] and cited as [17†-adjacent; 18†] and 't Hooft–Mandelstam†, all from model memory and due [the † literature battery](/wiki/method/literature-battery). The factor-of-four convention spread is marked [V] in the v3 worklog (item R2); the [round-3](/wiki/method/review/round-3) referee's script prints the two values for the [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) (`review/round3/referee/step2a.out`), and no script in the current gate checks them.
 
 ## The supposition and its fate
 
@@ -84,7 +84,7 @@ What carries over from the general mechanism is #11 §12's surviving statement: 
 
 #11 §11.2 ends with a comparison: "*Same explanatory shape as §7: the duality is genuine, and its structure hides its second half.*"
 
-In §7 the duality is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), and its second half is the second metric of phase space, the [momentum graviton X](/wiki/gravity/momentum-graviton). When the vacuum selects a polarization, X absorbs the [Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs) of the broken dual diffeomorphisms and becomes massive, with "M_X = the polarization-breaking scale" (#11 §7.1). #11 states the result: "Momentum space gravitates, massively and invisibly to everything not polarized its way — which is simultaneously why the symmetry is real and why its second metric was never seen" (§7).
+In §7 the duality is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), and its second half is the second metric of phase space, the [momentum graviton X](/wiki/gravity/momentum-graviton). When the vacuum selects a polarization, X absorbs the [Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs) of the broken [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) and becomes massive, with "M_X = the polarization-breaking scale" (#11 §7.1). #11 states the result: "Momentum space gravitates, massively and invisibly to everything not polarized its way — which is simultaneously why the symmetry is real and why its second metric was never seen" (§7).
 
 The parallel is structural, and #11 does not develop it further:
 
@@ -116,13 +116,16 @@ As #11 cites them, all from model memory (†):
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — the "polarization identification", the program-native addition to founding supposition 11.
 - [Founding suppositions and their fates](/wiki/program/founding-suppositions) — item 11.
 - [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — the established family of our own electromagnetism, against #12's relocation of it.
+- [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — electric–magnetic duality's own account of why magnetic particles are not seen.
+- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) — the 34 of our own electromagnetism, kept apart from the dead hidden-sector coupling.
+- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the strong magnetic coupling that Dirac's condition forces on monopoles of our U(1).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §11.2 — the dual spectrum and Dirac's condition [T]; §11 italic opening — "proposed in 1977, named in 1994"; App. A item 11 — the fate of the supposition; §7 — the hidden second metric; §12 — "A weakly coupled hidden sector always has strongly coupled monopoles"; refs [17]–[18].
 - `review/v3-worklog.md` 'Round-2 pending list' (R2) — the factor-of-4 convention spread and the running [V].
 - `review/round3/referee/step2a.out` — the referee's printed 34.259 and 137.036.
-- `review/round3-adjudication.md` 'Rulings' 12 — Zwanziger's 4π against the manuscripts' 2π, accepted as minor.
+- `review/round3-adjudication.md` 'Rulings' 12 — Zwanziger's 4π against #14's 2π, accepted as minor.
 - `notes/knot-dark-matter-standalone.md` §2, §3 — g_m = 4π/g_d against the charge g_d/2; the monopole mass (withdrawn manuscript).
 - `HANDOFF.md` §2 — the dead α_d ≈ 34, a different claim; §3 — §11 added in v2.0.
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular extension (not a status source).

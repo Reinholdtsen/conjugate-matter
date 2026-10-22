@@ -81,7 +81,7 @@ In this wiki's reading, the near-term test does not depend on it. [Row 4](/wiki/
 - No document notices the conflict. None of #1, #9 and #11 states the sign of V₀, adds a constant to the potential, or replaces the cosine form.
 - The [toy models](/wiki/symmetry-breaking/toy-models) do not bear on it. Their [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) at H = 1, "V_b = −(μ/2)(1 + cos 2φ)" (toy note §4; [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)), is a cosine on the same circle, but it belongs to a model without gravity, where adding a constant to the potential changes nothing [T]. No document relates it to the sign of V(τ).
 - #11 §14 does not list it, and the current queue in the root `CLAUDE.md` does not include it.
-- No `verify/` script evaluates V(τ) or the turnaround; the check made for this wiki sits outside the gate (below).
+- No `verify/` script evaluates V(τ) or the turnaround; the check made for this wiki sits outside [the gate](/wiki/method/verification/the-gate) (below).
 
 ## What would settle it
 

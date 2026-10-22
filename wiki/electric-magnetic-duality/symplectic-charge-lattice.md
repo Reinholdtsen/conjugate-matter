@@ -93,8 +93,8 @@ the matrix [[0, 1], [−1, 0]] generates
   S-duality            τ_c → −1/τ_c                 on the complexified coupling
 ```
 
-- **Born reciprocity** is the symmetry of quantum kinematics that the program takes as exact and spontaneously broken; the Fourier transform implements it ([Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)).
-- **The modular inversion** is ρ acting on the modular field Z = X + iY, the program's packaging of the phase-space metric; its fixed point Z = i is the vacuum (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)). The d = 1 form is the gated check quoted in the status line.
+- **Born reciprocity** is the symmetry of quantum kinematics that the program takes as exact and [spontaneously broken](/wiki/symmetry-breaking/spontaneous-symmetry-breaking); the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) implements it ([Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)).
+- **The modular inversion** is ρ acting on the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, the program's packaging of the phase-space metric; its fixed point Z = i is the vacuum (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)). The d = 1 form is the gated check quoted in the status line.
 - **S-duality** acts on τ_c, the complexified gauge coupling, not the dark-energy field τ ([notation](/wiki/notation)).
 
 The matrix squares to −1 in each setting [T]. On phase space ρ² sends (x, p) to (−x, −p), and on charges S² sends (e, g) to (−e, −g), charge conjugation. Both leave the modular variable unchanged, since −1/(−1/τ_c) = τ_c, and likewise for Z.
@@ -114,17 +114,17 @@ The section first appeared in the checkpoint's v2.0; the handoff lists "charge-l
 
 ## The critiques
 
-The critiques on record come from the reviews of the soliton manuscript, which used the identification as motivation for its hidden sector.
+The critiques on record come from the reviews of the soliton manuscript, which used the identification as motivation for its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector).
 
 - **Round 2.** The soliton manuscript's v2 used the shared matrix to fix its hidden coupling, conjecturing that reciprocity acts on gauge couplings as S. The round-2 referee graded v2 "B near B/C / medium" with "weakest link = the α_d derivation ("matrix coincidence ≠ physical identity" / "numerology")" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two); [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
 - **#14 v3** kept the identification as motivation only: "We use this only as motivation: it suggests that the vacuum event that polarizes phase space also fixes which description of a gauge sector is the electric one. No numerical result below depends on it." (#14 §2). Its [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) asked for an action with η "selecting both the position polarization and the hidden sector's electric description" (#14 §6).
-- **Round 3.** The pre-registration expected the weakest link to be that the framework does no work: "Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification" (`review/round3-preregistration.md`). The referee named it as the second weakest link, after "the Kibble abundance / mass determination" (Step 5). Its citation check called "Charge space is symplectic" "interpretation" (Step 1), and its conceptual audit concluded that the phase-space framework did no work in the proposal (Step 4(d); [the 'framework does no work' critique](/wiki/program/framework-does-no-work); [review round 3](/wiki/method/review/round-3)).
+- **Round 3.** The [pre-registration](/wiki/method/review/round-3/preregistration) expected the weakest link to be that the framework does no work: "Nothing numerical depends on Born reciprocity, the compatibility theorem or the polarization identification" (`review/round3-preregistration.md`). The referee named it as the second weakest link, after "the Kibble abundance / mass determination" (Step 5). Its citation check called "Charge space is symplectic" "interpretation" (Step 1), and its conceptual audit concluded that the phase-space framework did no work in the proposal (Step 4(d); [the 'framework does no work' critique](/wiki/program/framework-does-no-work); [review round 3](/wiki/method/review/round-3)).
 
 The withdrawn manuscript is [#14](/wiki/dark-matter/candidates/soliton-candidate). The checkpoint, amended after round 3, keeps §11.3 as a structural observation and makes no numerical use of it.
 
 ## What is open
 
-Whether the phase-space and charge-space polarizations are components of one enlarged structure is a conjecture [O], #11's open problem 8 ([Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure)). The demand that the order parameter also select the electric charges, part of the handoff's and #14's wording of the toy-model criterion, has not been addressed ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)).
+Whether the phase-space and charge-space polarizations are components of one enlarged structure is a conjecture [O], #11's open problem 8 ([Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure)). The demand that the [order parameter](/wiki/symmetry-breaking/order-parameter) also select the electric charges, part of the handoff's and #14's wording of the toy-model criterion, has not been addressed ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)).
 
 [The popular article #12](/wiki/history/documents/popular-articles) presents the unification without its open status, as "The framework's proposal is that the two divisions are one", and goes on to identify the momentum-polarized sector with the magnetic side of electromagnetism. That claim is found only in #12 and is dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)).
 
