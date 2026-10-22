@@ -76,7 +76,7 @@ The relations J² = 1 and I² = −1 are conditions on H, since ω and η are he
 
 The name is Freidel, Leigh and Minic's. The lab notebook: "A compatible triple (ω, η, H) realizing this algebra is precisely a Born geometry in the sense of Freidel, Leigh & Minic. [T]" (#1 §2). The v1 program paper repeats the attribution as "Born geometry in the sense of Freidel–Leigh–Minic [T]" (#9 §3), and #11 §5 cites it as ref. [3]†.
 
-The round-3 referee located the term in the metastring paper, arXiv:1502.08005, p. 11, and quoted it (audit notes, Step 1):
+The [round-3](/wiki/method/review/round-3) referee located the term in the metastring paper, arXiv:1502.08005, p. 11, and quoted it (audit notes, Step 1):
 
 ```text
 "If, in addition, we assume that B vanishes we have that I is a complex
@@ -86,11 +86,11 @@ satisfying these conditions were referred to as Born geometries"
 
 The condition "B vanishes" is the content of the compatibility theorem: the referee summarizes the theorem as "B-field vanishes <=> I = H^-1 omega compatible" (audit notes, Step 3). The referee writes FLM's complex structure as I = H⁻¹ω (FLM is Freidel–Leigh–Minic); this wiki follows #11's I = ω⁻¹H ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
-In Freidel, Leigh and Minic's own work η is dynamical rather than fixed. The round-4 referee found "we have to make eta dynamical" in arXiv:1405.3949, and the toy-model worklog quotes arXiv:1307.7080: "both elements (η, J) of the chiral structure are dynamical. The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept" [S] (worklog, 'Chunk 1 results'). #11 §4 credits that literature for the point: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." The history of the idea is on [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
+In Freidel, Leigh and Minic's own work η is dynamical rather than fixed. The [round-4](/wiki/method/review/round-4) referee found "we have to make eta dynamical" in arXiv:1405.3949, and the toy-model worklog quotes arXiv:1307.7080: "both elements (η, J) of the chiral structure are dynamical. The solutions are labelled by bi-Lagrangians and spacetime is a derived dynamical concept" [S] (worklog, 'Chunk 1 results'). #11 §4 credits that literature for the point: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." The history of the idea is on [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
 
 References, with the marks the documents give them:
 
-- #11 [3]† L. Freidel, R. G. Leigh, D. Minic, "Born reciprocity in string theory and the nature of spacetime," Phys. Lett. B 730, 302 (2014); "Quantum gravity, dynamical phase space and string theory," Int. J. Mod. Phys. D 23, 1442006 (2014). The toy-model note lists the same two papers as its ref. [1], parts (a), arXiv:1307.7080, and (b), arXiv:1405.3949, retrieved during the project.
+- #11 [3]† L. Freidel, R. G. Leigh, D. Minic, "Born reciprocity in string theory and the nature of spacetime," Phys. Lett. B 730, 302 (2014); "Quantum gravity, dynamical phase space and string theory," Int. J. Mod. Phys. D 23, 1442006 (2014). The [toy-model note](/wiki/symmetry-breaking/toy-models) lists the same two papers as its ref. [1], parts (a), arXiv:1307.7080, and (b), arXiv:1405.3949, retrieved during the project.
 - #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory and modular space-time," JHEP 06 (2015) 006, arXiv:1502.08005 (the toy-model note's ref. [1], part (c)).
 
 **Para-Hermitian geometry.** A real structure whose two eigenspaces are null for a neutral metric is the setting of para-Hermitian geometry, the mathematics of a doubled space split into two halves [T]. Calc note #5 points to this literature for an open question about the structure P2′ keeps, ω and H without a fixed η: whether a compatible connection is still unique there, for which "the para-Hermitian literature — Svoboda, Marotta–Szabo — is the nearest neighbor" (#5 §F; [the Born connection](/wiki/phase-space/born-geometry/born-connection)). The toy-model note cites V. E. Marotta, R. J. Szabo, "Born sigma-models for para-Hermitian manifolds and generalized T-duality," Rev. Math. Phys. 33, 2150031 (2021), arXiv:1910.09997 (ref. [3]), in which "Born sigma models choose the polarization by gauging" (toy-model note §1). The round-4 referee describes them as "sigma models of Born geometry (polarization as target structure, not a field)".
@@ -101,7 +101,7 @@ The Born rotation ρ: (x, p) → (p, −x) acts on phase-space vectors by the ma
 
 The reason is visible in the standard forms. R turns each (xᵃ, pₐ) plane by a quarter turn. A rotation preserves oriented area, so it preserves ω, and it preserves lengths measured by H = 1. It exchanges the position and momentum axes and reverses the direction of one of them. The exchange alone reverses the sign of the antisymmetric ω and leaves the symmetric pairing η of position with momentum unchanged; the reversal alone reverses the sign of both. Together they leave ω unchanged and reverse the sign of η. J and K each contain η once, so both change sign; I = ω⁻¹H contains no η and is unchanged.
 
-The statement "preserves H" refers to the standard H = 1. On a general ω-compatible metric H_Z, ρ acts as the modular inversion Z → −Z⁻¹, which at X = 0 is the scale-factor duality g → g⁻¹ (#11 §6, an identification tagged [D] with a d = 1 check; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
+The statement "preserves H" refers to the standard H = 1. On a general ω-compatible metric H_Z, ρ acts as the modular inversion Z → −Z⁻¹, which at X = 0 is the [scale-factor duality](/wiki/cosmology/scale-factor-duality) g → g⁻¹ (#11 §6, an identification tagged [D] with a d = 1 check; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
 
 What the result was taken to mean changed with the postulates:
 
@@ -138,18 +138,26 @@ toy-model note §1; #11 §14 item 11:  η = ωK    K the real structure, K² = 1
 - **The arena.** P1: "Physics on phase space with symplectic form ω and positive generalized metric H. [P]" (#11 §4). The notebook's P1 listed all three structures, "a symplectic form ω, a neutral (split-signature) metric η, and a positive generalized metric H, mutually compatible" (#1 §1). See [P1: the phase-space arena](/wiki/program/postulates/p1-arena).
 - **Which structures are rigid.** The original P2 fixed both ω and η ([original P2](/wiki/program/postulates/original-p2)); the compatibility theorem and its corollaries showed that this leaves the program no content of its own (#5 §B), and P2′ keeps only ω rigid, with η = HJ emergent (#11 §4; [P2′](/wiki/program/postulates/p2-prime)). Calc note #5 §B: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ."
 - **The symmetry.** P3: "The action is invariant under the Born rotation generated by I = ω⁻¹H. [P]" (#11 §4; [P3](/wiki/program/postulates/p3-reciprocity)).
-- **The misalignment measure.** The tuning test penalizes a mismatch between the vacuum's J and the modular field's complex structure I[Z]: "The natural incompatibility measure is the anticommutator {J, I[Z]} (zero exactly on the compatible locus)" (#7 §1; [the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)).
+- **The misalignment measure.** The tuning test penalizes a mismatch between the vacuum's J and the [modular field](/wiki/phase-space/modular-field/modular-field-z)'s complex structure I[Z]: "The natural incompatibility measure is the anticommutator {J, I[Z]} (zero exactly on the compatible locus)" (#7 §1; on what that locus contains, see flag 3 in `review/wiki-build-flags.md`; [the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)).
 - **Differentiation.** A unique connection compatible with all three structures exists ([the Born connection](/wiki/phase-space/born-geometry/born-connection)).
 
 ## Used by
 
+- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) — ω rigid, η emergent.
 - [P1: the phase-space arena](/wiki/program/postulates/p1-arena) — physics on phase space with ω and a positive generalized metric H.
 - [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — η = HJ emergent, J chosen by the vacuum.
 - [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — the Born rotation generated by I = ω⁻¹H.
+- [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — the three structures and their algebra are its starting point.
+- [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) and [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion) — the triple with only ω kept rigid, and ρ's action on it.
 - [The order parameter: J, η and K](/wiki/symmetry-breaking/order-parameter) — η, J and K as the quantities ρ moves.
 - [The section condition: what η fixes](/wiki/symmetry-breaking/section-condition) — η's null lines as the candidate sections.
-- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) — ω rigid, η emergent.
+- [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — η = ωK as a neutral metric whose null lines are L±.
 - [The misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) — the anticommutator of J with I[Z] measures misalignment.
+- [The metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures) — an invariant built from K = η⁻¹ω gives X a mass without the trace term.
+- [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — the two pairings η and ω and the partners they give the metric.
+- [The velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) and [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress) — conjugate matter couples universally to the generalized metric H.
+- [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — first derived under the postulate that froze ω and η.
+- [Two causal cones](/wiki/conjugate-relativity/two-causal-cones) — #13 reads its cones off the block form of H (see flag 30 in `review/wiki-build-flags.md`).
 
 ## Sources
 

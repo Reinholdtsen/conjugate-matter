@@ -35,7 +35,7 @@ sources:
   - "HANDOFF.md §6"
 ---
 
-*The compatibility theorem is a statement of linear algebra about metrics on phase space: if [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is Freidel, Leigh and Minic's; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in round 3 and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one dark-matter model, so the program replaced its postulate [P2](/wiki/program/postulates/original-p2) with [P2′](/wiki/program/postulates/p2-prime) and let η vary.*
+*The compatibility theorem is a statement of linear algebra about metrics on phase space: if [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality)'s; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in [round 3](/wiki/method/review/round-3) and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one dark-matter model, so the program replaced its postulate [P2](/wiki/program/postulates/original-p2) with [P2′](/wiki/program/postulates/p2-prime) and let η vary.*
 
 **Status:** Established — literature [T] (Freidel–Leigh–Minic, #11 ref. [26S, §2.1]), with the program's block proof machine-checked [V] (battery test T1; [the battery](/wiki/method/verification/battery)) — re-derived independently in round 3 by symbolic algebra, a Gröbner basis and numerical families; re-attributed from "derived here" to the literature in #11 v2.1.
 
@@ -160,11 +160,11 @@ The adjudication agreed: "**The compatibility theorem is verified** (sympy, incl
 
 Until round 3 the program treated the theorem as its own result:
 
-- calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the notebook's v0.3 addendum reports that the Debt-1 groundwork "produced a rigorous compatibility theorem";
+- calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the [notebook](/wiki/history/documents/lab-notebook)'s v0.3 addendum reports that the [Debt-1](/wiki/history/debts) groundwork "produced a rigorous compatibility theorem";
 - the v1 program paper tags it "Compatibility theorem [D]" (#9 §3);
-- [#13](/wiki/conjugate-relativity) builds on it with the tag "[D — compatibility theorem]" (#13 §1);
+- [#13](/wiki/conjugate-relativity) builds on it with the tag "[D — compatibility theorem]" (#13 §1; see flag 30 in `review/wiki-build-flags.md`);
 - the withdrawn #14 lists it under "Derived within the framework or by standard methods" as "the compatibility theorem (elementary; machine-verified numerically in both directions)" (#14 §6);
-- the handoff lists it among the alive results, "derived, machine-verified where marked ✓", with the ✓ (`HANDOFF.md` §2).
+- [the handoff](/wiki/history/documents/handoff) lists it among the alive results, "derived, machine-verified where marked ✓", with the ✓ (`HANDOFF.md` §2).
 
 Round 1's referee "insinuated the compatibility theorem might be false (it is machine-verified)", one of the reviewer errors that the machine check settled (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 
@@ -185,17 +185,28 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 ## What follows
 
 - **Three corollaries:** det H = 1, no analog of the Kalb–Ramond B-field, and a momentum metric slaved to the position metric, g̃ = g⁻¹ ([the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
-- **The postulate change.** Under the original P2, with ω and η both rigid, "the compatible polarizations are discrete, so no Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent. Hence P2 → P2′." (#11 §5; [original P2](/wiki/program/postulates/original-p2), [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), [P2′](/wiki/program/postulates/p2-prime).)
+- **The postulate change.** Under the original P2, with ω and η both rigid, "the compatible polarizations are discrete, so no Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent. Hence P2 → P2′." (#11 §5; on "discrete", see flag 1 in `review/wiki-build-flags.md`; [original P2](/wiki/program/postulates/original-p2), [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), [P2′](/wiki/program/postulates/p2-prime).)
 - **The vacuum slice.** Under P2′ only ω is rigid, H ranges over the Siegel domain, and the theorem's solutions become the slice X = 0 of [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z): "At X = 0, H = diag(g, g⁻¹): the η-compatible locus of Theorem A is precisely the vacuum slice" (#5 §C).
-- **Two light cones.** #13 reads the block form as two metrics, "position space carries the metric g and momentum space its inverse", each with its own null cone ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)).
+- **Two light cones.** #13 reads the block form as two metrics, "position space carries the metric g and momentum space its inverse", each with its own null cone ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); see flag 30 in `review/wiki-build-flags.md`).
 
 ## Used by
 
+- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) — the theorem behind the first sharpening, P2 → P2′.
+- [P1: the phase-space arena](/wiki/program/postulates/p1-arena) — what H can be with η fixed as well as ω.
 - [Original P2: both structures rigid (superseded)](/wiki/program/postulates/original-p2) — the postulate the theorem showed to be too rigid.
 - [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — content beyond general relativity requires η to be emergent.
 - [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — the repair the theorem forced.
 - [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — the theorem's solutions are the vacuum slice X = 0.
-- [Two causal cones](/wiki/conjugate-relativity/two-causal-cones) — #13 builds its two light cones on H = diag(g, g⁻¹).
+- [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the theorem is proven for positive-definite H only.
+- [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) and [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) — with both structures frozen, g̃ = g⁻¹ has no freedom of its own.
+- [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — with both pairings rigid, no partner field survives.
+- [The geometric action S_H and the v0.1 action (superseded)](/wiki/gravity/tuning-test/geometric-action) — strict P2 leaves S_H a functional of g alone.
+- [The misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) — #11's η-compatible locus X = 0, distinct from #7's compatible locus.
+- [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — the first corollary, det H = 1, as the same ℏ-rigidity.
+- [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — on the vacuum slice, universal coupling to H includes coupling to g.
+- [Two causal cones](/wiki/conjugate-relativity/two-causal-cones) — #13 builds its two light cones on H = diag(g, g⁻¹) (see flag 30 in `review/wiki-build-flags.md`).
+- [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results) — corollary 3 as the documented counterpart of the slaved layer.
+- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the one framework result the withdrawn manuscript cited, re-derived by the round-3 referee.
 
 ## Sources
 
