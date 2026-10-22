@@ -69,7 +69,7 @@ v2 closed with three acceptance criteria, the first being "exhibition of an acti
 
 ## Its limitation
 
-The referee had web search but no code execution. The handoff's measured result: fresh referees of this kind are "strong on structure, literature and logic; **unreliable on unaided arithmetic**" (`HANDOFF.md` §6). The round-3 pre-registration describes "the arithmetic failure mode of rounds 1–2, which had no code execution", and the protocol that replaced the console gives the referee shell and Python ([the measured failure mode](/wiki/method/review/referee-failure-mode)).
+The referee had web search but no code execution. The handoff's measured result: fresh referees of this kind are "strong on structure, literature and logic; **unreliable on unaided arithmetic**" (`HANDOFF.md` §6). The [round-3 pre-registration](/wiki/method/review/round-3/preregistration) describes "the arithmetic failure mode of rounds 1–2, which had no code execution", and the protocol that replaced the console gives the referee shell and Python ([the measured failure mode](/wiki/method/review/referee-failure-mode)).
 
 ## Why it is a record
 

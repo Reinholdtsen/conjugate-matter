@@ -62,7 +62,7 @@ Two kinds of check need distinguishing:
 | --- | --- | --- | --- |
 | `verify/battery.py` | tests T1–T7 and two parity checks | #11 §2's [Tier 1](/wiki/method/claim-tiers#tier-1-explicit-algebra): §5, §6, §7.2, §7.3 | [the battery](/wiki/method/verification/battery) |
 | `verify/soliton_obituary.py` | four anchors; round-3 rulings 1, 2, 4, 5; the [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) | every number #11 §12 tags [V] | [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script) |
-| `verify/toy_coset.py` | [model I](/wiki/symmetry-breaking/toy-models/coset-model)'s action, vacua, order parameter, spectrum; the [bounded potential](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) with H dynamical | toy note §2; §4's potential | [the toy-model scripts](/wiki/method/verification/toy-model-scripts) |
+| `verify/toy_coset.py` | [model I](/wiki/symmetry-breaking/toy-models/coset-model)'s action, vacua, [order parameter](/wiki/symmetry-breaking/order-parameter), spectrum; the [bounded potential](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) with H dynamical | toy note §2; §4's potential | [the toy-model scripts](/wiki/method/verification/toy-model-scripts) |
 | `verify/toy_gw.py` | the [matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base); the [duality lemma](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma); complex and real [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar); the [one-loop split](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead); the tadpole series | toy note §3; §4's restoration premise | same |
 | `verify/toy_s4.py` | the frozen-H [Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo), four seeds with error bars | toy note §4's table | same |
 | `verify/toy_s5.py` | η's null lines; the [section condition](/wiki/symmetry-breaking/section-condition); the [(H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) | toy note §5 | same |
@@ -127,7 +127,7 @@ The output of each script is quoted on its page, in full except for parts A and 
 
 ## A name shared
 
-"The gate" in the physics pages is a different thing: [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) that switches conjugate matter's self-interaction off at high relative velocity.
+"The gate" in the physics pages is a different thing: [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) that switches [conjugate matter](/wiki/dark-matter/conjugate-matter)'s self-interaction off at high relative velocity.
 
 ## Sources
 

@@ -128,7 +128,7 @@ The wiki does not use the README as a source for anything but its own text.
 
 ## How the wiki uses the file
 
-The wiki's conventions file, `wiki/CLAUDE.md`, places "the root `CLAUDE.md`, section 'Since the handoff'" first in its order of precedence, above checkpoint #11 v2.2 and the toy-model note, the adjudications, #13, the handoff, the notes and the popular articles ([Documents](/wiki/history/documents#the-order-of-precedence)). The other sections of the root file are instructions rather than statements about the physics, and the wiki follows them as working rules: its gate is part of `scripts/check.sh`, and its register follows "Working with Paul". The wiki mounts into a Hugo site configured to ignore files named `CLAUDE.md` (`ignoreFiles = ['CLAUDE\.md$']`, `wiki/CLAUDE.md`), so its conventions file never renders as a page.
+The wiki's conventions file, `wiki/CLAUDE.md`, places "the root `CLAUDE.md`, section 'Since the handoff'" first in its order of precedence, above checkpoint #11 v2.2 and the [toy-model note](/wiki/symmetry-breaking/toy-models), the adjudications, #13, the handoff, the notes and the popular articles ([Documents](/wiki/history/documents#the-order-of-precedence)). The other sections of the root file are instructions rather than statements about the physics, and the wiki follows them as working rules: its gate is part of `scripts/check.sh`, and its register follows "Working with Paul". The wiki mounts into a Hugo site configured to ignore files named `CLAUDE.md` (`ignoreFiles = ['CLAUDE\.md$']`, `wiki/CLAUDE.md`), so its conventions file never renders as a page.
 
 ## Sources
 

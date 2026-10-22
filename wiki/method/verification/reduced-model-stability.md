@@ -21,9 +21,9 @@ sources:
   - "review/wiki-build-checks/squeeze_check.py"
 ---
 
-*The reduced-model stability rule says that when a calculation simplifies a model by holding some of its fields fixed, the full model's stability must still be checked with every field free to move, and the text must say that the calculation used a reduction. Review round 4 supplied the reason: the potential first used in the program's coset toy model had been checked only with the phase-space metric H held fixed, and it is unbounded below once H is allowed to vary, so the model's intended vacuum was a saddle. The repaired potential was checked with all fields dynamical, and the toy-model note and its lattice script now name the simulation as a frozen-H reduction.*
+*The reduced-model stability rule says that when a calculation simplifies a model by holding some of its fields fixed, the full model's stability must still be checked with every field free to move, and the text must say that the calculation used a reduction. Review round 4 supplied the reason: the potential first used in the program's [coset toy model](/wiki/symmetry-breaking/toy-models/coset-model) had been checked only with the phase-space metric H held fixed, and it is unbounded below once H is allowed to vary, so the model's intended vacuum was a saddle. The repaired potential was checked with all fields dynamical, and the toy-model note and its lattice script now name the simulation as a frozen-H reduction.*
 
-**Status:** Method, in force (round-4 lesson 1, now in root `CLAUDE.md`) — untagged — applied in `verify/toy_coset.py`, which checks the bounded potential with H dynamical, and stated in `verify/toy_s4.py` and the toy-model note §4.
+**Status:** Method, in force (round-4 lesson 1, now in root `CLAUDE.md`) — untagged — applied in `verify/toy_coset.py`, which checks the bounded potential with H dynamical, and stated in `verify/toy_s4.py` and the [toy-model note](/wiki/symmetry-breaking/toy-models) §4.
 
 ## The rule
 
