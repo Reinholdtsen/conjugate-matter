@@ -19,7 +19,7 @@ sources:
 
 *The Chevallier–Polarski–Linder (CPL) parametrization is the standard way to describe, with two numbers, how the equation of state w of dark energy, its pressure divided by its energy density, changes as the universe expands: w(a) = w₀ + wₐ(1 − a), where a is the scale factor, the size of the universe relative to its size today. w₀ is the value of w today and wₐ measures how it has drifted; a cosmological constant is the point w₀ = −1, wₐ = 0. Cosmological surveys commonly report their dark-energy results in this form, and the program states its dark-energy requirement in it: a thawing field, with w₀ > −1 and wₐ < 0, that is never phantom, meaning that w never falls below −1. The form is a straight line in the scale factor, an approximation to the true history rather than a physical model. The second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI) favours a w that lay below −1 in the past and lies above it today, which in these terms is w₀ > −1 with w₀ + wₐ < −1. That stands against the program's requirement and puts its dark-energy sector under real pressure.*
 
-**Status:** Established — [T] — textbook cosmology, written here from general knowledge, with the literature it names marked † (Chevallier and Polarski 2001 †; Linder 2003 †); no `verify/` script checks it. The program's uses of the form are stated in [checkpoint #11](/wiki/history/documents/checkpoint) §10, in a paragraph tagged [D + T], and in §13 row 4; the DESI release they are read against is live-searched [21S].
+**Status:** Established — [T] — textbook cosmology, written here from general knowledge, with the literature it names marked † (Chevallier and Polarski 2001 †; Linder 2003 †; Albrecht et al. 2006 †); no `verify/` script checks it. The program's uses of the form are stated in [checkpoint #11](/wiki/history/documents/checkpoint) §10, in a paragraph tagged [D + T], and in §13 row 4; the DESI release they are read against is live-searched [21S].
 
 ## The form [T]
 
@@ -39,7 +39,7 @@ w₀ = w(1)        wₐ = −w′(1)
 w(a) = w₀ + wₐ(1 − a)
 ```
 
-The CPL form takes the truncated expansion as the definition of w at every a (Chevallier and Polarski 2001 †; Linder 2003 †). An earlier two-parameter form, linear in redshift, w = w₀ + w₁z with w₁ a constant, grows without bound at high redshift; the form linear in a stays finite at every epoch, which Linder (2003 †) gave as a reason to prefer it.
+The CPL form takes the truncated expansion as the definition of w at every a (Chevallier and Polarski 2001 †; Linder 2003 †). An earlier two-parameter form, linear in redshift, w = w₀ + w₁z with w₁ a constant, grows without bound at high redshift; the form linear in a stays bounded at high redshift, which Linder (2003 †) gave as a reason to prefer it.
 
 ### In redshift
 
@@ -59,7 +59,7 @@ Near today w ≈ w₀ + wₐz, so wₐ is also the slope dw/dz at z = 0. In the 
 
 ### The density it implies
 
-Each component of the universe obeys the continuity equation ρ̇ = −3H(ρ + p), with H the expansion rate ([quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence#expansion-and-the-friedmann-equation-t)). For the CPL w it integrates in closed form:
+Each component of the universe that exchanges no energy with the others obeys the continuity equation ρ̇ = −3H(ρ + p), with H the expansion rate ([quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence#expansion-and-the-friedmann-equation-t)). For the CPL w it integrates in closed form:
 
 ```text
 ρ_DE(a) = ρ_DE,0 · a^{−3(1 + w₀ + wₐ)} · exp[−3wₐ(1 − a)]
@@ -104,11 +104,11 @@ The form is a straight line in a, and that fixes what it can describe.
 
 A thawing field is held near w = −1 by the expansion at early times and starts to change late, so w rises toward the present ([thawing and freezing](/wiki/cosmology/dark-energy/quintessence#thawing-and-freezing-t)). With w₀ on the horizontal axis and wₐ on the vertical, its CPL point has w₀ > −1 and wₐ < 0: it lies to the right of the cosmological-constant point and below it, in what this page calls the thawing quadrant. A freezing field, whose w falls toward −1, has w₀ > −1 and wₐ > 0 and lies to the right of that point and above it [T].
 
-Thawing models do not fill their quadrant. When w stays close to −1, the late rise of w has a similar shape for many potentials, so thawing models fall in a narrow band through the point (−1, 0) [T]. The program writes that band as a line, the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10). The [lab notebook](/wiki/history/documents/lab-notebook) calls it "the standard thawing corridor" (#1 §7 item 2, transcribed from its LaTeX), and the v1 paper gives the same form (#9 §8). No document gives a reference for the corridor or its slope, and the wiki has not checked the slope against the literature.
+Thawing models do not fill their quadrant. When w stays close to −1, the late rise of w has a similar shape for many potentials, so thawing models fall in a narrow band through the point (−1, 0) [T]. The program writes that band as a line, the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10). The [lab notebook](/wiki/history/documents/lab-notebook) calls it "the standard thawing corridor" (#1 §7 item 2, transcribed from its LaTeX), and [the v1 paper](/wiki/history/documents/checkpoint) gives the same form (#9 §8). No document gives a reference for the corridor or its slope, and the wiki has not checked the slope against the literature.
 
 The predictions tables of #1 and #9 place the requirement "on the thawing corridor" (#1 §9 row 5; #9 §9 row 4). #11's row 4 keeps only the signs, w₀ > −1 and wₐ < 0 (#11 §13 row 4; [history of the predictions table](/wiki/predictions/table-history)).
 
-The corridor is stated in CPL parameters, so it describes fitted points, and the limits of the previous section apply to it: the line fitted to a thawing field approximates a curve that itself stays at or above −1.
+The corridor is stated in CPL parameters; in this wiki's reading it therefore describes fitted points, and the limits of the previous section apply to it: the line fitted to a thawing field approximates a curve that itself stays at or above −1.
 
 ## A phantom crossing in the w₀–wₐ plane [T]
 
@@ -128,26 +128,26 @@ A single canonical scalar field, the kind quintessence uses, cannot cross −1 i
 
 #11 §10 quotes the paper of DESI's second data release (Data Release 2, DR2): in every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4", and this preference "is thus rather independent of parametrization choices made in the analysis" [21S]. The shape is the one the CPL plane assigns to w₀ > −1 with w₀ + wₐ < −1. The [round-3](/wiki/method/review/round-3) referee, quoting the release, notes that models respecting the null energy condition "can somewhat outperform" the cosmological-constant model but are disfavoured relative to the w₀–wₐ fit (`review/round3/referee/audit-notes.md` Step 4(c) item 11). The measurement and its route into the program are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing).
 
-#11 §10 draws the consequence for the program:
+#11 §10 draws the consequence for the program (DR3 is DESI's Data Release 3):
 
 > The framework's strict w ≥ −1 therefore stands against the direct reading of the data. It survives on two points: non-phantom quintessence fits remain compatible [19S], and w(z) is inferred from distances rather than observed, as [21S] also notes. DR3 is the decisive test (§13, row 4).
 
 The same paragraph summarizes the fits as "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ)" [19S, 20S, 21S] (#11 §10).
 
-The two parameters bear on this reading in two ways.
+How w is fitted bears on this reading in two ways.
 
 - **The form.** A CPL point in the crossing region does not by itself show that dark energy crossed −1, since a line fitted to a model that never crosses can fall there. The DR2 paper's statement that the preference "is thus rather independent of parametrization choices made in the analysis" says that the crossing shape does not rest on the CPL form alone.
 - **Inference.** #11's second point is broader: whatever form is chosen, w(z) is fitted to distances, not observed ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). The program's kill condition counts only a "robust intrinsic w < −1" (#11 §13 row 4).
 
-In this wiki's reading, both points concern whether the data meet the kill condition; neither is evidence for the program's bound. The root `CLAUDE.md` states the position: "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3" ('Since the handoff'), DR3 being Data Release 3.
+In this wiki's reading, both points concern whether the data meet the kill condition; neither is evidence for the program's bound. The root `CLAUDE.md` states the position: "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (§10). The dark-energy sector is under real pressure ahead of DR3" ('Since the handoff').
 
 Before the round-3 review the lab notebook read DESI's results by their signs: w₀ > −1, wₐ < 0 "is the *sign pattern DESI reports*" (#1 §7 item 2, transcribed from its LaTeX). That reading is superseded ([the earlier readings of DESI](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing#superseded-the-earlier-readings-of-desi)).
 
 ## How the program uses the form
 
-- **Row 4's requirement.** [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) states the requirement in CPL parameters: "Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3", with the kill conditions "DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10)" (#11 §13 row 4). In the plane, the requirement is the thawing quadrant, and the first kill condition is data that converge on the cosmological-constant point (−1, 0). "Never phantom" concerns the field's own w, which a CPL line approximates; the [lab notebook](/wiki/history/documents/lab-notebook)'s version of the kill condition counts a w < −1 only "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background" (#1 §7 item 1), ΛCDM being the standard model of a cosmological constant plus cold dark matter ([the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound)).
-- **The field.** The program's dark energy is [τ](/wiki/cosmology/dark-energy/tau-quintessence), a hilltop quintessence field with potential V₀[1 + cos(τ/f)], which #11 §10 places on the thawing corridor.
-- **The over-constraint.** #11 §10 counts "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint", with V₀ "fixed by Ω_DE" (#1 §7 item 4). Two of the three observables are CPL parameters. The third, the turnaround time t_turn, is not: a turnaround of a flat universe needs a negative dark-energy density, which the CPL form cannot describe, and V₀[1 + cos(τ/f)] is never negative for V₀ > 0, a conflict that remains unresolved ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). No program document computes (w₀, wₐ) from (f, τᵢ) ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)).
+- **Row 4's requirement.** [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) states the requirement in CPL parameters: "Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3", with the kill conditions "DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10)" (#11 §13 row 4). In the plane, the requirement's signs, w₀ > −1 and wₐ < 0, are the thawing quadrant, and the first kill condition is data that converge on the cosmological-constant point (−1, 0). In this wiki's reading, "never phantom" concerns the field's own w, which a CPL line approximates; the [lab notebook](/wiki/history/documents/lab-notebook)'s version of the kill condition counts a w < −1 only "as an intrinsic equation of state, not an artifact of an assumed ΛCDM background" (#1 §7 item 1), ΛCDM being the standard model of a cosmological constant plus cold dark matter ([the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound)).
+- **The field.** The program's dark energy is [τ](/wiki/cosmology/dark-energy/tau-quintessence), a [hilltop quintessence](/wiki/cosmology/dark-energy/quintessence#hilltop-quintessence) field, one that starts near the maximum of its potential V₀[1 + cos(τ/f)], where V₀ sets the potential's height and f its angular scale. #11 §10 places τ on the thawing corridor.
+- **The over-constraint.** #11 §10 counts "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint", τᵢ being the field's initial value, with V₀ "fixed by Ω_DE", the fraction of the universe's energy density in dark energy today (#1 §7 item 4). Two of the three observables are CPL parameters. The third, t_turn, the time at which the expansion halts and reverses, is not: a turnaround of a flat universe needs a negative dark-energy density, which the CPL form cannot describe, and V₀[1 + cos(τ/f)] is never negative for V₀ > 0, a conflict that remains unresolved ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). No program document computes (w₀, wₐ) from (f, τᵢ) ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)).
 
 ## Used by
 
