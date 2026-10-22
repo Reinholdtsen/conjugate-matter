@@ -306,18 +306,16 @@ Delete it when the build is complete.
 - **2026-10-21, depth wave 3.** `dark-matter/` is at full depth and verified: 54 files,
   including the retired soliton candidate. The flags file now holds 26 items, with executed
   checks in `review/wiki-build-checks/`.
-- **2026-10-21/22, depth wave 4.** `cosmology/` is at full depth and verified.
-  `electric-magnetic-duality/` and `conjugate-relativity/` are written and under
-  verification. A reboot cleared the session scratchpad, so the inventories and the
-  taxonomy file are gone; the committed tree now carries the plan.
-- **Still to do** (as of the reboot):
-  - deepen and verify `predictions/`, `method/` and `history/`. A page still at gist level
-    has a `## Key facts` section (`grep -rl '^## Key facts' wiki`);
-  - the registers: the home page, `status/` (deep-link every folded section; find them
-    with `grep -rn '^## \(Open\|Superseded\|Chat-only\|Popsci-only\|Conjecture\):' wiki`),
-    the glossary, the notation page (including the Planck-mass collision: the Debt-3 notes
-    use G^{−1/2}, while #1 §6 uses the reduced mass) and the references;
-  - a sweep that adds a pointer to `review/wiki-build-flags.md` wherever a page quotes a
-    flagged statement without one;
-  - link density (`scripts/check-wiki.py --stats`) and a completeness check against the
-    sources.
+- **2026-10-21/22, depth waves 4–6.** `cosmology/`, `electric-magnetic-duality/`,
+  `conjugate-relativity/`, `predictions/`, `method/` and `history/` are at full depth and
+  verified. Two reboots interrupted agents; every interrupted batch was resumed or re-run from
+  its committed state. The first reboot cleared the session scratchpad (inventories, taxonomy
+  file), so the committed tree carries the plan. The flags file holds 38 items.
+- **Final pass** (running as of 2026-10-22). It verifies the last four batches, then does
+  three things in parallel: sweeps each partition (flag pointers, known cross-page fixes,
+  "Used by" lists, first-mention links), runs six read-only critics (four for source
+  coverage, a casual reader, a navigation check), and then applies their fixes. After that it
+  rebuilds the registers (home, `status/`, glossary, notation, references) from the finished
+  pages and runs the full gate.
+- **If the final pass is interrupted**, check `grep -rl '^## Key facts' wiki` (registers still
+  at gist level) and `git log`; re-run what is missing. Then delete this section.
