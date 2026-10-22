@@ -60,7 +60,7 @@ Each of the program's dark-matter options needs the dwarf cores to come from som
 | Wave χ, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) | alive, quarantined | "fuzzy-end quantum pressure at m ∼ 10⁻²² eV, or baryonic feedback" (Debt 3b) |
 | Superheavy solitons ([retired](/wiki/dark-matter/candidates/soliton-candidate/obituary)) | dead | baryonic feedback, since the candidate was "effectively collisionless cold dark matter" (#14 §4) |
 
-Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that Debt 3c later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the monopoles' self-interaction at σ_T/M ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The round-3 referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). The candidate was retired for other reasons ([the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that Debt 3c later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the [monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)' self-interaction at σ_T/M ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The [round-3](/wiki/method/review/round-3) referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). The candidate was retired for other reasons ([the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Ultra-faint dwarfs [T]
 
@@ -106,6 +106,9 @@ The program's documents cite no source for the cusp–core problem, baryonic fee
 ## Used by
 
 - [The scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) — the dwarf-core fit fixes σ₀/m.
+- [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — its dwarf cores come from gated self-scattering at the core-fitting value.
+- [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) — the coupling fixed by the dwarf-core fit, and a classical dwarf core as one of its two test environments.
+- [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — the cross-section the dwarf cores require is the one it must explain.
 - [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — Segue 1's survival falsifies Scenario A.
 - [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) — cores attributed to fuzzy quantum pressure or baryonic feedback.
 - [The net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — "fatal where it would have been mandatory" rests on the ultra-faint dwarfs.
@@ -116,7 +119,7 @@ The program's documents cite no source for the cusp–core problem, baryonic fee
 - `papers/broken-born-checkpoint-v2.md` §8, §9 — the benchmark mass; Segue 1's rate ratio and condensation time; the checkpoint's statement of the falsification
 - `notes/debt3c-ufd-endpoint.md` 'Sharpened input numbers', 'The data', 'The attractive endpoint: criticality and the drain', 'Verdict and closure of Debt 3' — Segue 1's inputs and ratio, the ultra-faint dwarfs' escape velocity and core mass, the falsification
 - `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — the classical-dwarf and superseded ultra-faint environment rows; Scenario A's normalization; Scenario B's other origins of cores
-- `notes/debt3a-stream-stability.md` 'Numbers at the scattering benchmark' — the spent coupling; the dwarf core as a test environment
+- `notes/debt3a-stream-stability.md` 'Numbers at the scattering benchmark' — the "spent" coupling; the dwarf core as a test environment
 - `notes/broken-born-theory.md` §5.1, 'Addendum (v0.2, post Debt-3): resolution of open problem 3' — the dwarf-core value of σ₀/m; the falsification as the lab notebook records it
 - `notes/knot-dark-matter-standalone.md` §4, §5 — the withdrawn soliton manuscript: cores from baryonic feedback; exclusion condition 5
 - `review/round3/referee/audit-notes.md` Step 2 — the self-interaction estimate reproduced up to a factor-2 convention

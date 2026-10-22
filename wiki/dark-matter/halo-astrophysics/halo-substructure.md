@@ -21,7 +21,7 @@ sources:
 
 *Halo substructure is the small-scale lumpiness of a galaxy's dark-matter halo, and two kinds of observation probe it. Cold stellar streams — long, thin trails of stars pulled off globular clusters or small galaxies by the Milky Way's tides — are disturbed by any lump of dark matter that passes through them, which leaves gaps and kinks along the stream. Dynamical friction — the drag a massive body feels from the gravitational wake it raises in a sea of lighter particles — makes globular clusters sink toward the center of a dwarf galaxy, at a rate set by the dark matter's distribution. The Broken-Born program's [lab notebook](/wiki/history/documents/lab-notebook) used both as tests of its [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of dark matter clumping by velocity; both tests are withdrawn, because the program's own calculations showed that velocity clumping is nowhere a required consequence of the program.*
 
-**Status:** Established — [T], explained here from general knowledge — the program used these probes for old rows 3 and 4 of the lab notebook's predictions table, which are "permanently withdrawn, on both islands" (`notes/debt3c-ufd-endpoint.md`).
+**Status:** Established — [T], explained here from general knowledge — the program used these probes for old rows 3 and 4 of the lab notebook's [predictions table](/wiki/predictions/table-history), which are "permanently withdrawn, on both islands" (`notes/debt3c-ufd-endpoint.md`).
 
 ## Substructure in cold dark matter [T]
 
@@ -61,7 +61,7 @@ The lab notebook's predictions table (#1 §9; columns: observable, standard expe
   | Demonstrated normal friction in cored dwarfs
 ```
 
-Here DM is dark matter, DR4 is Gaia's Data Release 4, and ΛCDM is the standard cosmological model with cold dark matter.
+Here DM is dark matter, DR4 is Gaia's Data Release 4, and ΛCDM is the [standard cosmological model](/wiki/cosmology) with cold dark matter.
 
 **Row 3** reads the founding image through the stream probe. A halo whose dark matter moved in a few broad velocity streams, each coherent across kiloparsecs, would pull on a stellar stream along its whole length, and the stream's density fluctuations would be correlated over long wavelengths, unlike the localized gaps of point-like subhalos. A stream power spectrum consistent with a smooth halo plus point subhalos would have killed the row. The notebook ranked it with its strongest tests: "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9).
 

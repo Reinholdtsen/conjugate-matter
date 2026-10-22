@@ -23,7 +23,7 @@ sources:
 
 ## What self-scattering does to a halo [T]
 
-In the standard cosmological model, dark matter is cold and collisionless: its particles feel only gravity. Simulations of such dark matter give halos whose density keeps rising toward the center, a cusp. In a cuspy halo the velocity dispersion is lowest near the center and rises outward, so the inner halo is dynamically colder than the region around it.
+In the [standard cosmological model](/wiki/cosmology), dark matter is cold and collisionless: its particles feel only gravity. Simulations of such dark matter give halos whose density keeps rising toward the center, a cusp. In a cuspy halo the velocity dispersion is lowest near the center and rises outward, so the inner halo is dynamically colder than the region around it.
 
 If the particles scatter off one another, collisions conduct heat down that temperature gradient, into the center. The heated central particles move onto wider orbits, the central density falls, and the cusp becomes a core of nearly constant density. The effect needs only a modest rate: about one scattering per particle over the age of the halo. [Debt 3a](/wiki/history/documents/debt-3-notes) of the program contrasts this with collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/debt3a-stream-stability.md`, 'Numbers at the scattering benchmark'; see [the instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
 
@@ -124,6 +124,10 @@ The program's documents cite no source for SIDM, the transfer cross-section or t
 - [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) — replaces the Yukawa power-law tail with a knee at v\*, isotropic below it.
 - [The scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) — takes σ₀/m from the dwarf-core fit.
 - [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — on the particle island the program's dark sector is gated self-interacting dark matter.
+- [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) — on the particle island the program is "cliff-shaped SIDM plus Maslov quintessence" (Debt 3a).
+- [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) — evaluated at the coupling fixed by the core fit above.
+- [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — the nuclear-scale σ₀ it must explain is the core-fitting value.
+- [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — without an emergent η the program has no content beyond general relativity plus one SIDM model.
 - [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — on the wave island, Γ_self is the analog of SIDM heat transport.
 - [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — the drain that SIDM's elastic relaxation does not produce.
 - [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee) and [Row 2: isotropic scattering](/wiki/predictions/scattering-isotropy) — measured against the standard expectations above.
@@ -131,7 +135,7 @@ The program's documents cite no source for SIDM, the transfer cross-section or t
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §8, §13 rows 1–2 — the gated amplitude; χ as Bullet-Cluster-safe; the knee; the standard expectations for rows 1 and 2
-- `notes/debt3a-stream-stability.md` 'Numbers at the scattering benchmark', 'Consequences for the predictions table' — scattering fits need Γt ∼ 1; the spent coupling; cliff-shaped SIDM on the particle island
+- `notes/debt3a-stream-stability.md` 'Numbers at the scattering benchmark', 'Consequences for the predictions table' — scattering fits need Γt ∼ 1; the "spent" coupling; cliff-shaped SIDM on the particle island
 - `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — the wave-island rate as the analog of SIDM heat transport; the environment dispersions
 - `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — elastic relaxation keeps the mass; the gravothermal self-limit
 - `notes/broken-born-theory.md` §3, §4, §5.1, §9 — the x-local Yukawa as the μ → ∞ limit; Bullet Cluster lensing centroids; the v0.1 scattering law, Yukawa SIDM's v⁻⁴ fall with a Coulomb log, forward peaking, the discriminating band, the dwarf-core value, the Born-approximation caveat; v0.1 row 1
