@@ -125,7 +125,7 @@ The decision for #14's v3 was to "keep the dark sector in ordinary kinematics an
 
 > Whether the dark photon is m = 0, λ = 0, or both is part of #13's open "dual dynamics" item.
 
-No document has reconciled the two descriptions since. By the wiki's order of precedence #11 governs for the χ candidate, and #13's reading stays an alternative ([conflicts between sources](/wiki/history/documents/source-conflicts)). The item is not among #11 §14's open problems or on the current queue; the worklog's instruction to settle #13's cones first is on [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency).
+No document has reconciled the two descriptions since. By the wiki's order of precedence #11 governs for the χ candidate, and #13's reading stays an alternative ([conflicts between sources](/wiki/history/documents/source-conflicts)). The item is not among #11 §14's open problems or on the current queue; the worklog's instruction to settle #13's cones first is on [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency). The program's other open items are collected in [open problems and the queue](/wiki/status/open-problems).
 
 ## λ_χ in the dual dynamics
 

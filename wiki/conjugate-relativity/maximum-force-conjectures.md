@@ -61,7 +61,7 @@ together with the Planck mass √(ℏc/G), whose rest energy is E_Planck. Their 
 
 These uses are #13's claims, not results of the literature. #13 was never put through a [blind review](/wiki/method/review) round, no `verify/` script checks its numbers, and #11 v2.2 mentions neither the maximum force nor the conjecture.
 
-## Verification owed
+## Verification still to do
 
 All four of #13's references are marked †: cited from model memory and to be checked against the sources before any external use. `HANDOFF.md` §8 item 6 asks for "every † reference in #11 and #13 source-checked"; in `CLAUDE.md`'s current queue the † literature battery is part of item 1. #11 §14 item 10 (OP10) carries the same task for #11's own references, "Literature battery completion; every † reference source-checked [O]" ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). #13's [3]† and [4]† (Born, 1938 and 1949) are #11's [1]† and [2]†; [1] and [2], the two references on this page, appear in no other document's reference list; `HANDOFF.md` §2 names the "Gibbons–Schiller maximum-force conjecture" without a citation.
 
