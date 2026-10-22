@@ -78,7 +78,7 @@ The reference, as the checkpoint lists it:
 
 - [24][S] Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515.
 
-The checkpoint gives this descriptive title and no authors, and the [handoff](/wiki/history/documents/handoff) cites the arXiv number without a mark (HANDOFF §2, §8). The wiki does not supply the authors.
+The checkpoint gives this descriptive title and no authors (see flag 9 in `review/wiki-build-flags.md`), and the [handoff](/wiki/history/documents/handoff) cites the arXiv number without a mark (HANDOFF §2, §8). The wiki does not supply the authors.
 
 ## Inside the palindromic branch
 

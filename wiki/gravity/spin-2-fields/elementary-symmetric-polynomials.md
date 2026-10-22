@@ -21,7 +21,7 @@ sources:
 
 *The elementary symmetric polynomials of a list of numbers are the sums of all products of distinct entries taken n at a time: e₁ is the sum, e₂ the sum of all pairwise products, and so on up to the product of all the entries, with e₀ = 1. Applied to the eigenvalues of the matrix √(g⁻¹f), built from the two metrics of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), they are the building blocks of the ghost-free bimetric potential, which is a linear combination of them with constant coefficients. Power sums beyond the first, such as p₄, the sum of fourth powers, can be written in terms of the eₙ by Newton's identities, but only as nonlinear polynomials, so they lie outside that family. The program's [verification battery](/wiki/method/verification/battery) checks two facts of this algebra: the linear coefficients of the eₙ near the identity matrix, which give the tadpole of the program's potential (test T6), and that p₄ is not a linear combination of the eₙ (test T7).*
 
-**Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded gate run ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the [metric-tier](/wiki/gravity/tuning-test/metric-tier-failures) structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of [calc note #7](/wiki/history/documents/debt-1-notes), not on the test.
+**Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded [gate run](/wiki/method/verification/the-gate) ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the [metric-tier](/wiki/gravity/tuning-test/metric-tier-failures) structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of [calc note #7](/wiki/history/documents/debt-1-notes), not on the test.
 
 ## Definition
 
@@ -71,7 +71,7 @@ pₖ − e₁pₖ₋₁ + e₂pₖ₋₂ − … + (−1)^(k−1) eₖ₋₁p₁
 
 The first identity gives p₁ = e₁. Each later one gives pₖ in terms of e₁, …, eₖ and the lower power sums, and substituting the lower ones back in writes pₖ as a polynomial in the eₙ alone. From k = 2 on, that polynomial contains the power e₁ᵏ, a product of eₙ. Because the representation is unique, pₖ for k ≥ 2 has no other form that is a linear combination of the eₙ with constant coefficients [T].
 
-This is the algebra behind a statement of [calc note #7](/wiki/history/documents/debt-1-notes): "Tr(g²) = p₄ of the square-root eigenvalues is a *nonlinear* polynomial in the eₙ, hence outside the family" (#7 §2).
+This is the algebra behind a statement of [calc note #7](/wiki/history/documents/debt-1-notes): "Tr(g²) = p₄ of the square-root eigenvalues is a *nonlinear* polynomial in the eₙ, hence outside the family" (#7 §2; on which square root is meant, see flag 14 in `review/wiki-build-flags.md`).
 
 ## The ghost-free bimetric potential is linear in the eₙ
 
@@ -167,6 +167,8 @@ The checkpoint states the metric-tier failure as "nonlinear structure Tr(g²) + 
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — eₙ(1) = C(4, n) and the tadpole coefficients (T6).
 - [The metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures) — p₄ lies outside the span of the eₙ (T7).
 - [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — inversion reverses the order of the eₙ.
+- [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) — eₙ(1) = C(4, n) and the linear coefficients in the parameter count.
+- [The frame tier: the symplectic vielbein](/wiki/gravity/tuning-test/frame-tier) — the wedge polynomials reproduce the eₙ terms of the metric potential.
 - [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) — the potential is linear in the eₙ.
 - [The verification battery T1–T7](/wiki/method/verification/battery) — tests T6 and T7.
 

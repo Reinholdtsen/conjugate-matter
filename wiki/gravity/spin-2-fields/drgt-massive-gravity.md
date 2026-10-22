@@ -52,7 +52,7 @@ Here m sets the graviton's mass scale and the βₙ are constant coefficients. C
 
 In dRGT massive gravity the reference metric f is fixed in advance and has no field equation. Hassan and Rosen showed that f can be given its own Einstein–Hilbert term without bringing the ghost back. The result, [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) ([11†]), has two dynamical metrics coupled through the same potential, and its spectrum about proportional backgrounds holds one massless and one massive spin-2 field. In frame variables the same potentials are the wedge polynomials of Hinterbichler and Rosen ([12†]; [the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)).
 
-The program treats these as one class. Calc note #6 §3: "Massive spin-2 coupled to gravity has exactly one known consistent structure: the Fierz–Pauli tuning at quadratic order completed by a dRGT/Hassan–Rosen-class potential [T: HR 2011]." The checkpoint: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). #6 states the uniqueness as a fact about what is known; #11 states it without the qualifier. In the program's vocabulary the "tuning" is this coefficient structure: the relative weights that keep the ghost out.
+The program treats these as one class. Calc note #6 §3: "Massive spin-2 coupled to gravity has exactly one known consistent structure: the Fierz–Pauli tuning at quadratic order completed by a dRGT/Hassan–Rosen-class potential [T: HR 2011]." The checkpoint: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). #6 states the uniqueness as a fact about what is known; #11 states it without the qualifier (see flag 7 in `review/wiki-build-flags.md`). In the program's vocabulary the "tuning" is this coefficient structure: the relative weights that keep the ghost out.
 
 ## The program's health criterion
 
@@ -66,24 +66,24 @@ The η-selection sector is the coupling through which the vacuum selects its pol
 
 ### What depended on it
 
-#6 §5 named the computation that would decide it: "derive the X-potential from the η-selection (J–Z) sector and test it against the dRGT coefficient family." It set out both outcomes. "Pass ⇒ the geometric core stands and 'theory' becomes the defensible word. Fail ⇒ the Boulware–Deser ghost kills the geometric sector", and the program "survives only as its phenomenological shell": gated self-interacting dark matter ([conjugate matter](/wiki/dark-matter/conjugate-matter)) plus Maslov quintessence ([τ](/wiki/cosmology/dark-energy/tau-quintessence)), "with the geometric story demoted to heuristics".
+#6 §5 named the computation that would decide it: "derive the X-potential from the η-selection (J–Z) sector and test it against the dRGT coefficient family." It set out both outcomes. "Pass ⇒ the geometric core stands and 'theory' becomes the defensible word. Fail ⇒ the Boulware–Deser ghost kills the geometric sector", and the program "survives only as its phenomenological shell": gated [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) ([conjugate matter](/wiki/dark-matter/conjugate-matter)) plus Maslov quintessence ([τ](/wiki/cosmology/dark-energy/tau-quintessence)), "with the geometric story demoted to heuristics".
 
 ### The test and its outcome
 
 Calc note #7 §1 poses the test: "does the resulting potential land in the ghost-free (Fierz–Pauli / dRGT / Hassan–Rosen) family, or in the generic Boulware–Deser-ghost family?" The lab notebook calls it "The dRGT tuning test" (#1 'Addendum (v0.5)').
 
-- **Metric tier: fails twice** [D — rigorous] (#7 §2). Built from the metric H, the potential gives a graviton mass "**without** the −(Tr h)² companion", which misses the Fierz–Pauli weight (battery test T4), and its nonlinear structure Tr(g²), which is "p₄ of the square-root eigenvalues", is "a *nonlinear* polynomial in the eₙ, hence outside the family" (battery test T7 checks p₄ numerically). See [the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures).
+- **Metric tier: fails twice** [D — rigorous] (#7 §2). Built from the metric H, the potential gives a graviton mass "**without** the −(Tr h)² companion", which misses the Fierz–Pauli weight (battery test T4), and its nonlinear structure Tr(g²), which is "p₄ of the square-root eigenvalues", is "a *nonlinear* polynomial in the eₙ, hence outside the family" (battery test T7 checks p₄ numerically; on which square root is meant, see flag 14 in `review/wiki-build-flags.md`). See [the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures).
 - **Frame tier: passes** [D — structural, resting on T] (#7 §3). Built from the symplectic vielbein E (H = EᵀE) and the polarization frame E₀[J], the potential is a wedge polynomial, "*precisely* the Hinterbichler–Rosen class: ghost-free by construction, Fierz–Pauli automatic, dRGT structure inherited rather than tuned". This half has no machine check ([the frame tier](/wiki/gravity/tuning-test/frame-tier)).
 
 The verdict, in the notebook's words: "the theory passes iff formulated in first-order variables, which is the formulation the geometry prefers anyway" (#1 'Addendum (v0.5)'). #7 §3 calls it "a conditional pass with the condition being the formulation the geometry already prefers", and the checkpoint tags the test [D][V] (#11 §7.2). See [the verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass).
 
 ### What the pass does not settle
 
-A pass does not fix the coefficients. #7 §3: "What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution." Calc note #8 then found that reciprocity constrains them to βₙ = β₄₋ₙ ([the palindrome](/wiki/gravity/palindromic-branch/palindrome)).
+A pass does not fix the coefficients. #7 §3: "What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution." Calc note #8 then found that [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) constrains them to βₙ = β₄₋ₙ ([the palindrome](/wiki/gravity/palindromic-branch/palindrome)).
 
 The passing class was chosen rather than derived. #8 §5: "the class was selected by minimality + consistency, not derived line-by-line". Deriving it from the geometric action is open, item 1 of #11 §14: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]" ([Open: deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction)).
 
-#6 §5 expected a pass to make "theory" the defensible word. The checkpoint, which outranks it, says instead that "the word 'theory' still waits on items 1–3" of its open problems (#11 §15; [the assessment](/wiki/program/assessment)).
+#6 §5 expected a pass to make "theory" the defensible word. The checkpoint, which outranks it, says instead that "the word 'theory' still waits on items 1–3" of its [open problems](/wiki/status/open-problems) (#11 §15; [the assessment](/wiki/program/assessment)).
 
 ## References
 

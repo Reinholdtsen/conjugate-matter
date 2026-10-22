@@ -22,7 +22,7 @@ sources:
 
 *Bimetric cosmology studies expanding-universe solutions of [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), in which both metrics take the homogeneous and isotropic form of standard cosmology. Published analyses of its solution branches find gradient or ghost instabilities in the perturbations when the massive spin-2 field is about as light as today's Hubble rate and the two metrics have comparable Planck masses, though not in every model. A heavy spin-2 field has been shown to be linearly stable at late times when the second metric's Planck mass is much smaller than the first. Separately, a massive spin-2 field on de Sitter space must satisfy the Higuchi bound m² ≥ 2H², which a heavy field meets trivially. For the program the known stable regime is out of reach: [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) sets the two Planck masses equal, so the cosmological stability of a heavy [momentum graviton X](/wiki/gravity/momentum-graviton) is an open question.*
 
-**Status:** Established — [T] — literature as summarized in the withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) (§1) and in item R7 of the [round-2](/wiki/method/review/rounds-one-and-two) pending list in `review/v3-worklog.md`. The round-3 audit confirmed that the cited papers exist and support the statements, and ruling 12 accepted its finding that #14's reference [4] is over-generalized ([round-3 rulings](/wiki/method/review/round-3/rulings)). The consequence for X is [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability).
+**Status:** Established — [T] — literature as summarized in the withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) (§1) and in item R7 of the [round-2](/wiki/method/review/rounds-one-and-two) pending list in `review/v3-worklog.md`. The [round-3](/wiki/method/review/round-3) audit confirmed that the cited papers exist and support the statements, and ruling 12 accepted its finding that #14's reference [4] is over-generalized ([round-3 rulings](/wiki/method/review/round-3/rulings)). The consequence for X is [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability).
 
 ## Cosmological solutions of bimetric gravity
 
@@ -74,7 +74,7 @@ The program's X is the massive spin-2 field of a Hassan–Rosen theory whose sec
 
 The worklog's item R7 names the tension: calc note #8 §3 "says reciprocity forces equal effective Planck masses (M_f = M_g), which rules out the M_f ≪ M_g escape". Its instruction for the manuscript was "v3: state this as an open consistency item, not as evaded." Version 3 of #14 did so: "The framework's reciprocity, acting as exchange of the two metrics, instead sets the two Planck masses equal, so the stability of a heavy spin-2 field at equal Planck masses is an open consistency condition (Sec. 5, item 7)" (#14 §1). Its §5 item 7 lists "instability of a heavy spin-2 field at equal Planck masses" among the internal exclusion conditions, and its §6 lists "the ghost-free landing of the mass mechanism and its cosmological stability at equal Planck masses" as conjectural.
 
-The question assumes that X is heavy, as #14 and the worklog do. The [checkpoint](/wiki/history/documents/checkpoint) fixes no value for X's mass; it gives only M_X ∝ 2(β₁+β₂) (#11 §7.5).
+The question assumes that X is heavy, as #14 and the worklog do. The [checkpoint](/wiki/history/documents/checkpoint) fixes no value for X's mass; it gives only M_X ∝ 2(β₁+β₂) (#11 §7.5; see flag 5 in `review/wiki-build-flags.md`).
 
 The item appears only in #14 and the worklog; #11 §14 does not list it. The wiki keeps it as an open item on its own page, [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability). #14 itself was withdrawn after round 3 because its Kibble estimate of the monopole relic abundance had been normalized too low ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). That error does not bear on this item: the question concerns X, which stands.
 
@@ -94,6 +94,7 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 
 - [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the open consistency condition for X.
 - [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity) — the field at the edge of the Higuchi bound.
+- [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — the open cosmological stability of a heavy X at equal Planck masses.
 
 ## Sources
 

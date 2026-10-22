@@ -27,7 +27,7 @@ sources:
 
 ### Vacuum energy in quantum field theory
 
-In quantum field theory every mode of every field keeps a zero-point energy proportional to its frequency, even in the vacuum [T]. Summed over modes up to the highest energy at which the theory is trusted, these give a vacuum energy density set by that cutoff. Loops of massive particles add contributions set by their masses, and each phase transition in the early universe, such as electroweak symmetry breaking, shifts the vacuum energy by an amount set by its own energy scale [T].
+In quantum field theory every mode of every field keeps a zero-point energy proportional to its frequency, even in the vacuum [T]. Summed over modes up to the highest energy at which the theory is trusted, these give a vacuum energy density set by that cutoff. Loops of massive particles add contributions set by their masses, and each phase transition in the [early universe](/wiki/cosmology/early-universe), such as electroweak symmetry breaking, shifts the vacuum energy by an amount set by its own energy scale [T].
 
 ### Vacuum energy gravitates
 
@@ -63,7 +63,7 @@ The [handoff](/wiki/history/documents/handoff)'s queue asked whether the program
 
 ### What the identity cancels
 
-The program's gravity sector has a Hassan–Rosen potential whose coefficients [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) restricts to βₙ = β₄₋ₙ ([the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)). At the aligned point, where the two frames coincide, the potential's value V(1) and its tadpole T then satisfy V(1) = 2T, and a flat aligned vacuum forces T = 0 and V(1) = 0 ([#8](/wiki/history/documents/debt-1-notes) §2; #11 §7.3). Battery test T5 checks the integer identity behind it ([the verification battery](/wiki/method/verification/battery)). In the checkpoint's words, "the wedge sector contributes zero cosmological constant, by symmetry" (#11 §7.3, italic in the original). The derivation is on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
+The program's gravity sector has a Hassan–Rosen potential whose coefficients [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) restricts to βₙ = β₄₋ₙ ([the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)). At the aligned point, where the two frames coincide, the potential's value V(1) and its tadpole T then satisfy V(1) = 2T, and a flat aligned vacuum forces T = 0 and V(1) = 0 ([#8](/wiki/history/documents/debt-1-notes) §2; #11 §7.3). Battery test T5 checks the integer identity behind it ([the verification battery](/wiki/method/verification/battery)). In the checkpoint's words, "the wedge sector contributes zero cosmological constant, by symmetry" (#11 §7.3, italic in the original; on "by symmetry", see flag 6 in `review/wiki-build-flags.md`). The derivation is on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 
 ### What it does not cancel
 
@@ -86,7 +86,7 @@ Calc note #8 draws the consequence for cosmology: "The massive-gravity sector co
 Earlier documents described the result more broadly than #11 does:
 
 - The v1 program paper, #9 ([the checkpoint's versions](/wiki/history/documents/checkpoint)): "A cosmological-constant cancellation for free, from symmetry." (§5, plain-language passage); "*the massive sector's vacuum energy is zero by symmetry.*" (§5 item 5); and in its assessment, "the last one paid out a cosmological-constant cancellation nobody ordered", with "the palindrome theorem cancelling the symmetric-bimetric vacuum energy" among "two results that stand on their own" (§11).
-- The [lab notebook](/wiki/history/documents/lab-notebook), #1: "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning" ('Addendum (v0.6)').
+- The [lab notebook](/wiki/history/documents/lab-notebook), #1: "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning" ('Addendum (v0.6)'; see flag 6 in `review/wiki-build-flags.md`).
 
 The checkpoint replaced these with a narrower statement. The cancellation concerns the [wedge sector](/wiki/gravity/spin-2-fields/vielbein-formulation), the spin-2 interaction potential, at the aligned point; the identity does not by itself address matter-loop vacuum energy (#11 §7.3); and the identity's novelty is downgraded pending a literature comparison (#11 §7.4), leaving "one identity awaiting a novelty verdict" (#11 §15). #9 and #1 are superseded as reference by #11. The current statement lives on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 

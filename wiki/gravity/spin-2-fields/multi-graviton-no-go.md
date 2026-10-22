@@ -70,7 +70,7 @@ The gravitons that the theorem allows are decoupled ones, and X cannot be decoup
 
 ### The forcing chain
 
-The checkpoint states the step inside its chain [D + T] (#11 §7.1): "Massless X is excluded by the multi-graviton no-go [8†]; ungauged X by Lorentz signature." Its technical abstract lists the theorem among the structural results that force X's form: "A chain of structural results (a compatibility theorem [T][V]; the multi-graviton no-go [8†]; a signature obstruction; an explicit tuning test [V]) forces X to be a **massive spin-2** field" (#11 §1; [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), [the tuning test](/wiki/gravity/tuning-test)). The mass then comes from the polarization choice ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
+The checkpoint states the step inside its chain [D + T] (#11 §7.1): "Massless X is excluded by the multi-graviton no-go [8†]; ungauged X by Lorentz signature." Its technical abstract lists the theorem among the structural results that force X's form: "A chain of structural results (a compatibility theorem [T][V]; the multi-graviton no-go [8†]; a signature obstruction; an explicit tuning test [V]) forces X to be a **massive spin-2** field" (#11 §1; [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), [the tuning test](/wiki/gravity/tuning-test)). The mass then comes from the [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) choice ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
 
 The same step appears in every document of the chain:
 
@@ -110,7 +110,11 @@ As the documents give them:
 - [Dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) — the gauge symmetry that would make X a second massless graviton.
 - [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — the partner is a graviton, so the theorem applies.
 - [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) — the massless option excluded in the program's answer.
+- [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — the candidate is a massive X, the massless option being excluded.
+- [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton) — the chain behind the row's massless and massive eigenstates includes the no-go.
 - [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — the coupling of X to g that rules out decoupling.
+- [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the no-go settles X's place in the field list as a massive field.
+- [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the no-go is a step of the chain whose Lorentzian extension is open.
 - [Original P2: both structures rigid (superseded)](/wiki/program/postulates/original-p2) — the v0.4 reversal of P2's claim that it "kills the would-be second graviton" (#1 §1).
 - [Founding suppositions and their fates](/wiki/program/founding-suppositions) — supposition 10, momentum space has its own gravity.
 

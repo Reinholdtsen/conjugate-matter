@@ -90,11 +90,11 @@ Expanding-universe solutions of bimetric gravity have known instabilities. The w
 
 ## The program's version: constrained bimetric gravity [D — structural]
 
-The program's geometric sector passed [the tuning test](/wiki/gravity/tuning-test) in frame variables, with the second frame E₀[J] built from the polarization J. Calc note #7 §4 observes that "J carries only the 10 compact moduli of U(d)/O(d) — not a full second metric", so the "second vielbein" E₀[J] "is confined to a compact 10-dimensional moduli space". Its conclusion:
+The program's geometric sector passed [the tuning test](/wiki/gravity/tuning-test) in frame variables, with the second frame E₀[J] built from the [polarization J](/wiki/symmetry-breaking/order-parameter). Calc note #7 §4 observes that "J carries only the 10 compact moduli of U(d)/O(d) — not a full second metric", so the "second vielbein" E₀[J] "is confined to a compact 10-dimensional moduli space". Its conclusion:
 
 > **Hassan–Rosen bimetric gravity with the second frame constrained to a compact moduli space Λ(d)** — a *predictive truncation* of bimetric theory: fewer free functions, with the light direction of the compact space being τ (the dark-energy field) and the massive spin-2 being X.
 
-After the palindrome, #8 §3 quantifies the truncation: "HR bimetric's five-function freedom collapses to two numbers". The checkpoint's technical abstract places X "in the interchange-symmetric branch of Hassan–Rosen bimetric gravity [10†, 11†] with the second frame confined to Λ(4)" (#11 §1), and the [handoff](/wiki/history/documents/handoff) records the same identification (HANDOFF §2). The notes write Λ(d), #11 writes Λ(4); the two agree for four dimensions. #8 §1 calls the sector "The Hinterbichler–Rosen sector for (e, f = E₀[J])", the frame form of the same potential ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). See [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), [the Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) and [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
+After the palindrome, #8 §3 quantifies the truncation: "HR bimetric's five-function freedom collapses to two numbers" (HR being Hassan–Rosen; on "five-function", see flag 8 in `review/wiki-build-flags.md`). The checkpoint's technical abstract places X "in the interchange-symmetric branch of Hassan–Rosen bimetric gravity [10†, 11†] with the second frame confined to Λ(4)" (#11 §1), and the [handoff](/wiki/history/documents/handoff) records the same identification (HANDOFF §2). The notes write Λ(d); #11 writes Λ(4) for the confined second frame (§1, §7). The two agree for four dimensions. #8 §1 calls the sector "The Hinterbichler–Rosen sector for (e, f = E₀[J])", the frame form of the same potential ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). See [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), [the Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) and [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
 
 ## References
 
@@ -104,7 +104,7 @@ As the documents give them:
 - [11]† S. F. Hassan, R. A. Rosen, "Bimetric gravity from ghost-free massive gravity," JHEP 1202, 126 (2012), arXiv:1109.3515 (#11). #14 lists both papers, unmarked, as its [3].
 - [12]† K. Hinterbichler, R. A. Rosen, "Interacting spin-2 fields," JHEP 1207, 047 (2012), arXiv:1203.5783 (#11).
 - [22][S] A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021 (#11): a review of the theory, which #11 cites for its §7.3 statement on the cosmological-constant problem.
-- [24][S] "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515" (#11, which gives no authors).
+- [24][S] "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515" (#11, which gives no authors; see flag 9 in `review/wiki-build-flags.md`).
 - [25][S] S. Hossenfelder, "A bi-metric theory with exchange symmetry," Phys. Rev. D 78, 044015 (2008), arXiv:0807.2838 (#11).
 
 Added by the wiki from model memory (†):
@@ -113,17 +113,24 @@ Added by the wiki from model memory (†):
 
 ## Used by
 
-- [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric) — the program's truncation of the theory.
-- [The frame tier: the symplectic vielbein](/wiki/gravity/tuning-test/frame-tier) — the passing potential, in frame form.
+- [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) — names the Hassan–Rosen class as the consistent structure for a massive X.
+- [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) — the βₙ that set M_X are this potential's coefficients.
+- [The misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) — the potential must land in the Hassan–Rosen class.
 - [The metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures) — battery T7 checks that p₄ lies outside the span of the eₙ; #7's derivation places the metric-built potential outside the family.
+- [The frame tier: the symplectic vielbein](/wiki/gravity/tuning-test/frame-tier) — the passing potential, in frame form.
+- [The verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass) — the frame-tier potential lands in the ghost-free family.
+- [Constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric) — the program's truncation of the theory.
 - [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — reciprocity acting through the exchange identity.
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — the potential evaluated at the aligned point.
 - [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the interchange-symmetric literature.
 - [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) — the five βₙ reduced to two; the even and odd eigenstates.
+- [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — the mixing would arise through this potential.
 - [Safety by range: X and ordinary matter](/wiki/gravity/momentum-graviton/fifth-force-safety) — matter coupled to g feels both eigenstates.
 - [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the cosmological branches at equal Planck masses.
 - [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton) — the even eigenstate.
 - [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) — X's dynamics as the reciprocity-symmetric branch.
+- [The modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — X's dynamics are this theory with the second frame confined.
+- [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — the candidate field is governed by this theory on the palindromic branch.
 
 ## Sources
 
