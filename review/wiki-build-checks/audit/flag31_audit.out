@@ -1,0 +1,17 @@
+reduced Planck mass = 2.434e+18 GeV
+anchor: kappa_1 = 1.028 (paper 1.03), kappa_2 = 1.503 (paper 1.50)
+anchor: E_QG,2 from tau_2 < 0.85e-3 s/GeV^2 = 3.33e+10 GeV (paper Table IV SMM 99.5%: 3.3e10)
+group velocity from #1: 1 + 3*p**2*xi/(2*M**2);  match to eq.(2) gives xi = [-M**2*s/E_QG**2]  (so |xi| = (M_B/E_QG,2)^2)
+
+  bound                                               E_QG,2 [GeV]   scale gap (E_Pl / reduced)   effect gap (E_Pl / reduced)
+  Fermi-LAT 2013, 090510, s=+1, 95% (abstract)          1.3e+11       7.97 /  7.27                 15.94 / 14.54
+  Fermi-LAT 2013, 090510, s=-1, 95% best (ML)           9.4e+10       8.11 /  7.41                 16.23 / 14.83
+  Fermi-LAT 2013, Table V with intrinsic lags, s=+1       4e+10       8.48 /  7.78                 16.97 / 15.57
+  Fermi-LAT 2013, Table V with intrinsic lags, s=-1       3e+10       8.61 /  7.91                 17.22 / 15.82
+  LHAASO 2024 GRB 221009A time of flight, 95%          7.32e+11       7.22 /  6.52                 14.44 / 13.04
+  LHAASO photon decay, superluminal only               1.22e+16       3.00 /  2.30                  6.00 /  4.60
+Planck-scale quadratic delay at 31 GeV, M_B = E_Pl: 6.09e-18 s; delay at the 95% bound 1.3e11 GeV: 0.0536 s; ratio 10^15.94
+Planck-scale quadratic delay at 31 GeV, M_B = reduced M_P: 1.53e-16 s; delay at the 95% bound 1.3e11 GeV: 0.0536 s; ratio 10^14.54
+linear delay at 31 GeV for E_QG,1 = E_Pl: 1.09 s
+'10 orders' needs a bound of 1.22e+09 GeV (scale reading) or 1.22e+14 GeV (effect reading), M_B = E_Pl
+'10 orders' needs a bound of 2.43e+08 GeV (scale reading) or 2.43e+13 GeV (effect reading), M_B = reduced M_P

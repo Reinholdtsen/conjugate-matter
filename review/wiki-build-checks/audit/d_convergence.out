@@ -1,0 +1,4 @@
+HFAC = 0.003: V0 cos  V0 = 2.166912, t_turn - t0 = 3.24214/H0, a_turn = 9.15457, V_turn = -1.32089
+HFAC = 0.003: doc form V0 = 1.063182, after 50/H0: min H = 1.48594e-02, min rho_tot = 6.63432e-04, |3H^2-rho| = 1.0e-06
+HFAC = 0.0015: V0 cos  V0 = 2.166912, t_turn - t0 = 3.24214/H0, a_turn = 9.15458, V_turn = -1.32089
+HFAC = 0.0015: doc form V0 = 1.063182, after 50/H0: min H = 1.48670e-02, min rho_tot = 6.63129e-04, |3H^2-rho| = 4.6e-08

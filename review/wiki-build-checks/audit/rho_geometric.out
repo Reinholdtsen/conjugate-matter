@@ -1,0 +1,32 @@
+== A. rho acting on H by congruence induces Z -> -Z^-1 (no Moebius formula assumed)
+d=1: max|Z' - (-Z^-1)| over 5 exact random Z = 0.0; R^T H R == R H R^T: True; H' is again of Siegel form H_Z': True
+d=2: max|Z' - (-Z^-1)| over 5 exact random Z = 0.0; R^T H R == R H R^T: True; H' is again of Siegel form H_Z': True
+d=3: max|Z' - (-Z^-1)| over 5 exact random Z = 0.0; R^T H R == R H R^T: True; H' is again of Siegel form H_Z': True
+d=4: max|Z' - (-Z^-1)| over 5 exact random Z = 0.0; R^T H R == R H R^T: True; H' is again of Siegel form H_Z': True
+
+== B. Exact Jacobian of the induced map at the fixed point Z = i*1 (real coords: entries of x, h)
+d=1: tangent dim 2; Jacobian == -identity: True; eigenvalues {-1: 2}
+d=2: tangent dim 6; Jacobian == -identity: True; eigenvalues {-1: 6}
+d=3: tangent dim 12; Jacobian == -identity: True; eigenvalues {-1: 12}
+d=4: tangent dim 20; Jacobian == -identity: True; eigenvalues {-1: 20}
+
+== C. On the slice X = 0 the induced map is Y -> Y^-1 (scale-factor duality); linear part
+d=1: X' = 0: True; Y' = Y^-1: True; linear part of Y' is -h: True
+d=2: X' = 0: True; Y' = Y^-1: True; linear part of Y' is -h: True
+d=3: X' = 0: True; Y' = Y^-1: True; linear part of Y' is -h: True
+
+== D. rho does not fix the vacuum polarization: J0 -> -J0, K0 -> -K0
+d=1: J0^2=1 True; J0 antisymplectic True; {J0,I0}=0 True; R^-1 J0 R = -J0: True; R^-1 K0 R = -K0: True; R fixes I0: True
+d=2: J0^2=1 True; J0 antisymplectic True; {J0,I0}=0 True; R^-1 J0 R = -J0: True; R^-1 K0 R = -K0: True; R fixes I0: True
+d=3: J0^2=1 True; J0 antisymplectic True; {J0,I0}=0 True; R^-1 J0 R = -J0: True; R^-1 K0 R = -K0: True; R fixes I0: True
+d=4: J0^2=1 True; J0 antisymplectic True; {J0,I0}=0 True; R^-1 J0 R = -J0: True; R^-1 K0 R = -K0: True; R fixes I0: True
+
+== E. Twisted element rho~ = (J -> -J) o rho fixes (Z=i, J0). Its action on the J tangent space
+d=1: anti-symplectic involutions: tangent dim 2 (expect d(d+1)=2), twisted-rho eigenvalues {-1: 1, 1: 1} (subspace closed: True)
+      compatible with I (Lambda(d) moduli): dim 1 (expect d(d+1)/2=1), twisted-rho eigenvalues {1: 1} (closed: True)
+d=2: anti-symplectic involutions: tangent dim 6 (expect d(d+1)=6), twisted-rho eigenvalues {-1: 3, 1: 3} (subspace closed: True)
+      compatible with I (Lambda(d) moduli): dim 3 (expect d(d+1)/2=3), twisted-rho eigenvalues {1: 3} (closed: True)
+d=3: anti-symplectic involutions: tangent dim 12 (expect d(d+1)=12), twisted-rho eigenvalues {-1: 6, 1: 6} (subspace closed: True)
+      compatible with I (Lambda(d) moduli): dim 6 (expect d(d+1)/2=6), twisted-rho eigenvalues {1: 6} (closed: True)
+d=4: anti-symplectic involutions: tangent dim 20 (expect d(d+1)=20), twisted-rho eigenvalues {-1: 10, 1: 10} (subspace closed: True)
+      compatible with I (Lambda(d) moduli): dim 10 (expect d(d+1)/2=10), twisted-rho eigenvalues {1: 10} (closed: True)

@@ -1,0 +1,44 @@
+=== 1. Tr(S^2) on the X = 0 slice, from the full anticommutator {J0, I[Z]} ===
+d=3: Tr(S^2) = 7.922245798405   Tr(g^2)+Tr(g^-2)-2d = 7.922245798405   match=True
+d=4: Tr(S^2) = 11.934657354301   Tr(g^2)+Tr(g^-2)-2d = 11.934657354301   match=True
+d=5: Tr(S^2) = 13.989631083748   Tr(g^2)+Tr(g^-2)-2d = 13.989631083748   match=True
+
+=== 2. Which trace is p4 of which square-root eigenvalues (vacuum frame f = 1) ===
+d=3: p4(eig sqrt(g^-1 f)) = 2.0859755935  Tr(g^-2) = 2.0859755935  Tr(g^2) = 4.3632971560
+      p4(eig sqrt(f^-1 g)) = 4.3632971560  (= Tr(g^2): True);  eig sqrt(f^-1 g) == sqrt(eig g): True
+d=4: p4(eig sqrt(g^-1 f)) = 2.0786760668  Tr(g^-2) = 2.0786760668  Tr(g^2) = 12.9268408718
+      p4(eig sqrt(f^-1 g)) = 12.9268408718  (= Tr(g^2): True);  eig sqrt(f^-1 g) == sqrt(eig g): True
+d=5: p4(eig sqrt(g^-1 f)) = 4.2967437330  Tr(g^-2) = 4.2967437330  Tr(g^2) = 19.9696924249
+      p4(eig sqrt(f^-1 g)) = 19.9696924249  (= Tr(g^2): True);  eig sqrt(f^-1 g) == sqrt(eig g): True
+
+=== 3. Covariant form with a general reference f (not 1) ===
+p4(eig sqrt(g^-1 f)) = 76.9627457671   Tr[(g^-1 f)^2] = 76.9627457671
+p4(eig sqrt(f^-1 g)) = 3.1411038138   Tr[(f^-1 g)^2] = 3.1411038138
+exchange identity sqrt|g| e_n(sqrt(g^-1 f)) = sqrt|f| e_{4-n}(sqrt(f^-1 g)), n=0..4:
+  lhs = [np.float64(1.37728927), np.float64(9.24021927), np.float64(21.58983111), np.float64(20.61812307), np.float64(6.85292429)]
+  rhs = [np.float64(1.37728927), np.float64(9.24021927), np.float64(21.58983111), np.float64(20.61812307), np.float64(6.85292429)]
+  all close: True
+
+=== 4. Exact (sympy): Newton, reciprocal e_n, and Tr(g^2) as a function of e_n(mu) ===
+Newton p4 = e1^4 - 4 e1^2 e2 + 2 e2^2 + 4 e1 e3 - 4 e4 (exact): True
+e_n(1/mu) = e_{4-n}(mu)/e_4(mu), n=0..4 (exact): True
+Tr(g^2) = p4(1/mu) = Newton(e3/e4, e2/e4, e1/e4, 1/e4) of mu (exact): True
+Tr(g^2) written over mu has denominator: m1**4*m2**4*m3**4*m4**4  -> not a polynomial in mu, hence not in the e_n(mu)
+density at f=1: sqrt(det g) e_n(mu) = e_{4-n}(s), s = 1/mu (exact): True
+
+=== 5. Tr(g^2) is not a polynomial in e_n(mu): e_n(mu) stay bounded while Tr(g^2) diverges ===
+mu=(0.1,1,1,1): e_1..e_4(mu) = [3.1, 3.3, 1.3, 0.1], Tr(g^2)=p4(1/mu) = 10003, Tr(g^-2)=p4(mu) = 3.0001
+mu=(0.01,1,1,1): e_1..e_4(mu) = [3.01, 3.03, 1.03, 0.01], Tr(g^2)=p4(1/mu) = 1e+08, Tr(g^-2)=p4(mu) = 3
+mu=(0.001,1,1,1): e_1..e_4(mu) = [3.001, 3.003, 1.003, 0.001], Tr(g^2)=p4(1/mu) = 1e+12, Tr(g^-2)=p4(mu) = 3
+
+=== 6. Least-squares membership tests over 400 random g (f = 1, sqrt-eigs in [0.5, 2]) ===
+Convention A (bare potential function vs sum beta_n e_n(mu); same sqrt|g| on both sides):
+  Tr(g^2)                                    rms vs span{e_n(mu)} = 5.854e+00   rms vs Newton-degree-4 monomials in e_n(mu) = 1.614e+01
+  Tr(g^-2)                                   rms vs span{e_n(mu)} = 2.643e+00   rms vs Newton-degree-4 monomials in e_n(mu) = 2.555e-13  coeffs=[1.0, -4.0, 2.0, 4.0, -4.0]
+  Tr(S^2) at X=0                             rms vs span{e_n(mu)} = 7.974e+00   rms vs Newton-degree-4 monomials in e_n(mu) = 1.169e+01
+  control: an HR member sum beta_n e_n(mu)   rms vs span{e_n(mu)} = 4.245e-14   rms vs Newton-degree-4 monomials in e_n(mu) = 1.777e+00
+Convention B (fixed measure, e.g. sqrt|f| = 1 or sqrt|H| = 1; HR density sqrt|g| sum beta_n e_n(mu) = sum beta_n e_{4-n}(s)):
+  Tr(g^2)                                    rms vs span{e_n(s)}  = 3.386e+00   rms vs Newton-degree-4 monomials in e_n(s)  = 3.630e-13  coeffs=[1.0, -4.0, 2.0, 4.0, -4.0]
+  Tr(g^-2)                                   rms vs span{e_n(s)}  = 4.421e+00   rms vs Newton-degree-4 monomials in e_n(s)  = 6.319e+00
+  Tr(S^2) at X=0                             rms vs span{e_n(s)}  = 7.262e+00   rms vs Newton-degree-4 monomials in e_n(s)  = 4.171e+00
+  control: an HR density sqrt|g| sum beta_n e_n(mu) rms vs span{e_n(s)}  = 1.433e-13   rms vs Newton-degree-4 monomials in e_n(s)  = 5.829e-01

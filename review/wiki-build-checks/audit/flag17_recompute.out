@@ -1,0 +1,44 @@
+=== 1. Kinematics: p1 - p2 versus k = m v_rel/2 (equal masses) ===
+reduced mass m1 m2/(m1+m2) = m/2  -> k = m v_rel/2 as #1 states: True
+p1 - p2 - 2k = Matrix([[0, 0, 0]]) (zero vector => |p1-p2| = 2k in every frame)
+CM-frame p1 equals k: True
+
+=== 2. The two written gates as functions of k ===
+#6 gate in terms of k: exp(-2*k**2/mu6**2)
+G6 == G1 for all k requires mu6 = [sqrt(2)*mu1]
+same mu: G6/G1 = exp(-k**2/mu**2) (not 1 => the formulas differ)
+same mu: G6 - G1^2 = 0 (zero => #6's displayed Gaussian is exactly the SQUARE of #1's gate)
+
+=== 3. Knee position: Born sigma_T with the full Yukawa propagator kept ===
+no-gate sigma_T(k) = pi*A**2*(m_phi**2 - (4*k**2 + m_phi**2)*(2*log(m_phi) + 1) + (4*k**2 + m_phi**2)*log(4*k**2 + m_phi**2))/(2*k**4*(4*k**2 + m_phi**2))
+  heavy-mediator limit k -> 0 of sigma_T*m_phi^4/A^2: 4*pi
+  series of sigma_T*m_phi^4/A^2 in k: 96*pi*k**4/m_phi**4 - 64*pi*k**2/(3*m_phi**2) + 4*pi
+  relative change of the no-gate sigma_T at the benchmark k = m v*/2 (m_phi = m_chi = 70 MeV): 2.13628772255849e-7 (negligible: the v-dependence of sigma_T is the gate's alone)
+    k/m_phi=0.1: closed form 11.9250881718529  series 11.9263234710678
+    k/m_phi=0.001: closed form 12.5663035940175  series 12.5663035940175
+#1 gate exp(-k^2/mu^2), amplitude level: sigma_T/sigma_T(no gate) = exp(-2*k**2/mu**2);  exponent in v = -m**2*v**2/(2*mu**2);  v* = sqrt(2)*mu/m
+#6 gate exp(-(p1-p2)^2/2mu^2), amplitude level: sigma_T/sigma_T(no gate) = exp(-4*k**2/mu**2);  exponent in v = -m**2*v**2/mu**2;  v* = mu/m
+#6 Gaussian read as the rate-level (sigma_T) factor: exponent = -m**2*v**2/(2*mu**2) ; v* = sqrt(2)*mu/m
+#1's own sigma_T factor exp(-v^2/v*^2), v* = sqrt2 mu/m, equals exp(-(p1-p2)^2/2mu^2) with p1-p2 = m v: True
+
+=== 4. What Gaussian overlap gives, by width convention (symbolic; the 3D transverse integrals cancel in the ratio) ===
+c=1: profile exp(-p^2/mu^2): mu = 1/e half-width of the overlapped profile
+      overlap = exp(-Delta**2/(2*mu**2)) ;  in k: exp(-2*k**2/mu**2) ;  equals #6's exp(-D^2/2mu^2)? True ;  equals #1's exp(-k^2/mu^2)? False
+c=2: profile exp(-p^2/2mu^2): mu = std of the overlapped profile (density), or 'oscillator width' of an amplitude
+      overlap = exp(-Delta**2/(4*mu**2)) ;  in k: exp(-k**2/mu**2) ;  equals #6's exp(-D^2/2mu^2)? False ;  equals #1's exp(-k^2/mu^2)? True
+c=4: amplitude exp(-p^2/4mu^2): mu = std of |psi|^2 (usual QM uncertainty), amplitude overlap <psi1|psi2>
+      overlap = exp(-Delta**2/(8*mu**2)) ;  in k: exp(-k**2/(2*mu**2)) ;  equals #6's exp(-D^2/2mu^2)? False ;  equals #1's exp(-k^2/mu^2)? False
+|<psi1|psi2>|^2 with psi ~ exp(-p^2/2mu^2): exp(-Delta**2/(2*mu**2)) ; equals #6's displayed form? True
+
+=== 4b. Numerical cross-check of the Gaussian product identity (1D quadrature, anchor) ===
+c=1: quadrature 0.271244750364  vs exp(-D^2/(2 c mu^2)) = 0.271244750364
+c=2: quadrature 0.520811626564  vs exp(-D^2/(2 c mu^2)) = 0.520811626564
+c=4: quadrature 0.721672797439  vs exp(-D^2/(2 c mu^2)) = 0.721672797439
+
+=== 5. Numbers that depend on the mu normalization ===
+v*/c = 4.002769e-04
+#1 normalization (v* = sqrt2 mu/m): mu = m v*/sqrt2 = 19.81 keV  (#1 §5.1 states ~20 keV)
+#6 normalization, amplitude reading (v* = mu/m): mu = m v* = 28.02 keV  (stated nowhere)
+ratio = 1.414214 (sqrt2 = 1.414214)
+#1 sigma_T/m at 300 km/s = 30*exp(-(v/v*)^2) = 30*exp(-6.25) = 5.791e-02 cm^2/g (uses v* only; independent of the mu convention)
+#1 sigma_T/m at 1500 km/s = 30*exp(-(v/v*)^2) = 30*exp(-156.25) = 4.155e-67 cm^2/g (uses v* only; independent of the mu convention)

@@ -1,0 +1,48 @@
+== Part A: toy note section 6
+heading (line 159): '**Shown** (each by executed code):'
+  Shown item 1: Model I: an explicit Sp(2,ℝ) ∋ ρ symmetric action with η = ωK as order parameter, including the twisted-ρ caveat.
+  Shown item 2: Model I: the instability of the naive ρ-preserving potential, and a bounded, stable replacement.
+  Shown item 3: Model I: an ordered ℤ₂ phase in the frozen-H reduction in 1+1.
+  Shown item 4: Model II: the explicit matrix-base form of the duality.
+  Shown item 5: Model II: complex fields — classical breaking along a flat polarization angle, and restoration under quantization.
+  Shown item 6: Model II: real fields — discrete vacua whose classical degeneracy is lifted at one loop in favour of the position-sharp one.
+  Shown item 7: In model I and complex model II, ρ sits inside a continuous U(1), so the polarization is a Goldstone angle.
+number of Shown items: 7
+items mentioning restoration: [5]
+section 4 restoration subsection lines 95-104: script pointer present? False
+  contains 'not proven': True; contains 'We have not carried it out': True
+
+== Part A: checks in the gated toy scripts
+toy_coset.py: 30 checks
+toy_gw.py: 31 checks
+toy_s4.py: 8 checks
+toy_s5.py: 23 checks
+
+toy_gw.py checks on the complex model (by name, or in its S2 vacua block):
+  line 116: complex model: S[Pi phi] = S[phi] (duality is a field symmetry)
+  line 120: complex model: S[U phi V^dag] = S[phi] for any diagonal unitaries U, V (a continuous U(1)^N x U(1)^N)
+  line 140: every minimum found is diagonal
+  line 141: with |phi_mm|^2 = q_m = max(0, -(2m+1-mu2)/(2 lam))
+  line 143: and S_min = -sum (2m+1-mu2)^2/(4 lam)
+  line 145: the relative phase beta of levels 0 and 1 varies across minima (a flat direction)
+  line 149: S is constant around the vacuum circle beta (Goldstone direction)
+  line 151: the duality maps vacuum beta to vacuum beta + pi
+  line 152: no vacuum is duality-invariant once level 1 condenses (|phi_11| > 0)
+  line 153: the duality is the beta -> beta + pi element of the left phase rotations exp(-i alpha N)
+
+functions in toy_gw.py that build a Hessian / one-loop free energy, and the action they call:
+  hess_real calls ['S_real']
+  lines computing 0.5*sum(log(eigenvalues)) (one-loop free energies): [197]
+  toy_gw.py: Metropolis acceptance lines (sampling a Boltzmann/quantum weight): []
+  toy_coset.py: Metropolis acceptance lines (sampling a Boltzmann/quantum weight): []
+  toy_s4.py: Metropolis acceptance lines (sampling a Boltzmann/quantum weight): [48]
+  toy_s5.py: Metropolis acceptance lines (sampling a Boltzmann/quantum weight): []
+  toy_gw.py lines calling S_complex: [112, 117, 121, 143, 150]
+  (S_complex is only evaluated at given configurations: symmetry checks, descent, flatness.)
+
+== Part B: Metropolis sample of exp(-S), complex model, mu2 = 4, lam = 1
+classical vacuum: Re(conj(phi00) phi11) = 0.8660 cos(beta); odd under the duality (beta -> beta + pi)
+  N=2: <Re(conj(phi00) phi11)> = -0.0001 +- 0.0009   <|conj(phi00) phi11|> = 0.5665 +- 0.0008   (4 seeds x 16 chains; acceptance 0.47)
+  N=3: <Re(conj(phi00) phi11)> = +0.0005 +- 0.0006   <|conj(phi00) phi11|> = 0.4171 +- 0.0003   (4 seeds x 16 chains; acceptance 0.40)
+Reading: the duality-odd bilinear averages to zero within errors while its modulus does not;
+this is the exact-by-symmetry finite-truncation statement. It does not test the no-volume-factor step.

@@ -1,0 +1,14 @@
+test: 2-sphere R = 2/a**2
+order-eps part of sqrt(-g) R, averaged: 0
+order-eps^2 part of sqrt(-g) R, averaged: -k**2/4 + omega**2/4
+eigenvalues of g^{-1} eta (with multiplicity): {-1/(epsilon*cos(k*z - omega*t) - 1): 1, 1/(epsilon*cos(k*z - omega*t) + 1): 1, 1: 2}
+order-eps part of sqrt(-g) V, averaged: 0
+order-eps^2 part of sqrt(-g) V, averaged: -(2*b0 + 5*b1 + 4*b2 + b3)/8
+averaged quadratic Lagrangian / (M^2 eps^2), flat background: -(b1*m**2 + 2*b2*m**2 + b3*m**2 + k**2 - omega**2)/4
+dispersion: omega^2 = [b1*m**2 + 2*b2*m**2 + b3*m**2 + k**2]  -> pole mass^2 M_X^2 = omega^2 - k^2 = [m**2*(b1 + 2*b2 + b3)]
+   without imposing flatness, omega^2 - k^2 = [-m**2*(2*b0 + 5*b1 + 4*b2 + b3)]
+bimetric: averaged potential at eps^2 (both tadpoles zero): (p - q)**2*(b1 + 2*b2 + b3)/8
+bimetric helicity-2 masses^2: [0, M_V**2*m**2*(M_f**2 + M_g**2)*(b1 + 2*b2 + b3)/(M_f**2*M_g**2)]
+   mass^2 = 0  eigenvector (p, q) ~ [1, 1]
+   mass^2 = M_V**2*m**2*(M_f**2 + M_g**2)*(b1 + 2*b2 + b3)/(M_f**2*M_g**2)  eigenvector (p, q) ~ [-M_f**2/M_g**2, 1]
+   at equal Planck masses Mg = Mf = MV: [0, 2*m**2*(b1 + 2*b2 + b3)]

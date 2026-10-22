@@ -1,0 +1,30 @@
+beta set A = ['-1.9', '0.7', '-0.3', '0.7', '-1.9']: V(1) = 2.2959e-41, T = 0.0
+beta set B = ['3.05', '-1.1', '0.45', '-1.1', '3.05']: V(1) = 0.0, T = 0.0
+
+== G1. Exchange (swap) symmetry of the potential density
+palindromic: |V(g,f) - V(f,g)| = 1.7851e-39
+non-palindromic control: |V(g,f) - V(f,g)| = 0.86556
+
+== G2. The documents' aligned-frame map g -> g^-1 with f frozen at 1 (= #11 s6 at X = 0)
+V(g^-1, 1)/V(g, 1) = 0.186225694395 ; det(g)^(-1/2) = 0.186225694395  -> not a symmetry of the potential density by itself
+
+== G3. Mass structure about g = f = 1:  g = 1 + a S + b U,  f = 1 + a S - b U
+   (a = even direction s = (dg+df)/2, b = odd direction t = (dg-df)/2)
+beta A: V0=2.3e-41  dV/ds=4.13e-42  dV/dt=-6.96e-29  d2V/ds2=-8.22e-41  d2V/dsdt=1.21e-16  d2V/dt2=0.67888841
+          V(g, g) at a random g (exact even direction, all orders) = 1.16e-40
+beta B: V0=0.0  dV/ds=0.0  dV/dt=7.94e-29  d2V/ds2=0.0  d2V/dsdt=1.15e-17  d2V/dt2=-5.4576082
+          V(g, g) at a random g (exact even direction, all orders) = 0.0
+
+== G4. Anchor: the odd-mode quadratic term has Fierz-Pauli structure, coefficient prop. to beta1+2beta2+beta3
+beta A: (d2V/dt2)/[Tr(u^2)-(Tr u)^2] over 4 random u = ['0.8', '0.8', '0.8', '0.8']; divided by (beta1+2beta2+beta3) = 1.0
+beta B: (d2V/dt2)/[Tr(u^2)-(Tr u)^2] over 4 random u = ['-1.3', '-1.3', '-1.3', '-1.3']; divided by (beta1+2beta2+beta3) = 1.0
+
+== G5. What the documents' bridge 'X -> X^-1' fixes: linear part of sqrt(g^-1 f)
+max |(sqrt(g^-1 f) - 1)/eps - (df - dg)/2| = 8.65e-19  (non-commuting dg, df) -> X's linear part sees only the odd mode; the even mode dg+df drops out
+
+== G6. Which linear involutions of (dg, df) give dg+df even and dg-df odd?
+solutions: [{p: 0, q: 1, r: 1, u: 0}]  (unique: the swap)
+adding 'dg -> -dg' (scale-factor duality on the metric, #11 s6): []  (no solution)
+
+== G7. Equal Planck masses: kinetic cross terms cancel in the (s, t) basis (identity)
+Q(s+t) + Q(s-t) - 2Q(s) - 2Q(t) = 0

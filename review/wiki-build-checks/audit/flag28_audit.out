@@ -1,0 +1,36 @@
+== A. Anchors (independent of the paper) ==
+HL      : flux of a unit monopole through a sphere = 1.000000  (1 expected)
+Gaussian: flux of a unit monopole through a sphere = 12.566368  (4π = 12.566371 expected)
+n=1: HL α_m = g²/4π = 34.259;  Gaussian α_m = g² = 34.259;  α·α_m = 0.250000 (n²/4 = 0.25)
+n=2: HL α_m = g²/4π = 137.036;  Gaussian α_m = g² = 137.036;  α·α_m = 1.000000 (n²/4 = 1.0)
+textbook Dirac charge g_D/e = 1/(2α) = 68.52  († '68.5 e')
+
+== B. Readings of 'e·g ~ 2π ... magnetic coupling near 4π/e² ≈ 34' ==
+reading                                                                4π/e²       α_m   e·g/π  C1 C2 C3 C4 C4'
+C1: 4π/e² ≈ 34   C2: α_m ≈ 34   C3: 4π/e² = α_m   C4: e·g = 2π   C4': e·g ∈ 2πZ
+R1 HL, e = our elementary charge, Dirac minimum (n=1)                137.036    34.259   2.000  n  Y  n  Y  Y
+R2 HL, e = our charge, n=2 (Zwanziger 4πZ / S-dual g_D = 4π/e)       137.036   137.036   4.000  n  n  Y  n  Y
+R3 HL, e = 2 x our charge (#14 v3's g_d; our charge = e/2)            34.259    34.259   4.000  Y  Y  Y  n  Y
+R4 HL, e = our charge, minimum vs quark charge e/3, no color flux    137.036   308.331   6.000  n  n  n  n  Y
+G1 Gaussian, e = our charge (e² = α), Dirac minimum (eg = 1/2)      1722.045    34.259   0.159  n  Y  n  n  n
+G2 Gaussian, e = our charge, n=2 (eg = 1)                           1722.045   137.036   0.318  n  n  n  n  n
+R1 ratio (4π/e²)/α_m = 4.000000
+all claims hold, strict 'e·g = 2π': none
+all claims hold, lenient 'e·g ∈ 2πZ': ['R3']
+
+== C. Is 'e·g = 2π' compatible with 'magnetic coupling = 4π/e²' for ANY e? ==
+HL      (α_m = g²/4π, e·g = 2π): []
+Gaussian(α_m = g²,    e·g = 1/2): []
+Gaussian(α_m = g²,    e·g = 2π literal): []
+HL: g implied by α_m = 4π/e² : [4*pi/e] -> e·g = 4*pi
+HL: e that makes 4π/e² = 1/(4α): [4*sqrt(pi)*sqrt(alpha)]  = 2·sqrt(4πα)? True
+
+== D. Can running bring 4π/e² = 1/α_em(μ) down to 34? (one loop, SM) ==
+cross-check vs referee step2a (127.930 at M_Z): 1/α(1e12) = 114.44  (printed 114.44)
+cross-check vs v3-worklog R2: 1/(4α(1e+11)) = 28.95
+cross-check vs v3-worklog R2: 1/(4α(1e+16)) = 27.27
+μ =  1.00e+03 GeV: 4π/e² = 1/α =  126.55;  π/e² = 1/(4α) =  31.64
+μ =  1.00e+12 GeV: 4π/e² = 1/α =  114.46;  π/e² = 1/(4α) =  28.61
+μ =  1.00e+16 GeV: 4π/e² = 1/α =  109.08;  π/e² = 1/(4α) =  27.27
+μ =  1.22e+19 GeV: 4π/e² = 1/α =  104.94;  π/e² = 1/(4α) =  26.23
+below M_Z 1/α rises to 137.036; minimum of 4π/e² up to M_Pl = 104.94 (never ≈ 34)

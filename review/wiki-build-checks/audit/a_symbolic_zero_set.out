@@ -1,0 +1,19 @@
+=== d = 1 ===
+omega^-1 H_Z equals #7's printed I[Z]: True
+I^2 = -1: True
+{J0, I[Z]} = [[(x**2 + y**2 - 1)/y, 0], [0, (x**2 + y**2 - 1)/y]]
+solutions of {J0,I}=0 over reals (y>0 to be imposed): [{x: -sqrt(1 - y**2)}, {x: sqrt(1 - y**2)}]
+=> zero set at d=1 is x^2 + y^2 = 1, y > 0 (upper unit semicircle), e.g. Z = 3/5 + 4i/5: True
+
+=== d = 2, general symmetric X, Y ===
+blocks = [[S,A],[A,S]] (T3, exact): True
+identity A = Y^-1 [Y,X] Y^-1: True
+identity S*Y - (X^2 + Y^2 - 1) = X Y^-1 [X,Y]: True
+=> {J0,I}=0  <=>  [X,Y]=0 and X^2+Y^2=1 (Y invertible)
+
+=== d = 2, explicit exact family with X != 0 ===
+X = [[-3129/18785, 1536/3757], [1536/3757, 1435/3757]]
+Y = [[16828/18785, -192/3757], [-192/3757, 3108/3757]]  eigenvalues of Y: [4/5, 12/13]
+{J0, I[Z]} at this point (exact): [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+is zero: True ; X is nonzero: True ; Y == Y^-1: False
+Z Zbar = 1 there (matrix |Z| = 1): True

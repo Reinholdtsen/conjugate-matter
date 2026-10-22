@@ -1,0 +1,12 @@
+d=2 k=0: det^2 mean -1.000000+0.000000j, max spread |det^2 - mean| 1.9e-15, predicted i^(2k-d) = -1.000-0.000j
+d=2 k=1: det^2 mean +1.000000+0.000000j, max spread |det^2 - mean| 1.4e-15, predicted i^(2k-d) = +1.000+0.000j
+d=2 k=2: det^2 mean -1.000000+0.000000j, max spread |det^2 - mean| 1.5e-15, predicted i^(2k-d) = -1.000+0.000j
+d=3 k=0: det^2 mean +0.000000+1.000000j, max spread |det^2 - mean| 2.0e-15, predicted i^(2k-d) = -0.000+1.000j
+d=3 k=1: det^2 mean -0.000000-1.000000j, max spread |det^2 - mean| 1.6e-15, predicted i^(2k-d) = +0.000-1.000j
+d=3 k=2: det^2 mean -0.000000+1.000000j, max spread |det^2 - mean| 1.8e-15, predicted i^(2k-d) = +0.000+1.000j
+d=3 k=3: det^2 mean -0.000000-1.000000j, max spread |det^2 - mean| 2.1e-15, predicted i^(2k-d) = -0.000-1.000j
+d=4 k=0: det^2 mean +1.000000-0.000000j, max spread |det^2 - mean| 2.3e-15, predicted i^(2k-d) = +1.000+0.000j
+d=4 k=1: det^2 mean -1.000000-0.000000j, max spread |det^2 - mean| 2.8e-15, predicted i^(2k-d) = -1.000-0.000j
+d=4 k=2: det^2 mean +1.000000-0.000000j, max spread |det^2 - mean| 2.0e-15, predicted i^(2k-d) = +1.000+0.000j
+d=4 k=3: det^2 mean -1.000000-0.000000j, max spread |det^2 - mean| 2.6e-15, predicted i^(2k-d) = -1.000+0.000j
+d=4 k=4: det^2 mean +1.000000+0.000000j, max spread |det^2 - mean| 2.9e-15, predicted i^(2k-d) = +1.000+0.000j

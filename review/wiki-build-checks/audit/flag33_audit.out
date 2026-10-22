@@ -1,0 +1,184 @@
+#11 §12 spans file lines 123-157
+
+== 1. check() calls in verify/soliton_obituary.py: 16
+   1. Friedmann: H = 1.66 sqrt(g*) T^2/M_Pl
+   2. one defect per Hubble volume gives n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)
+   3. freeze-out: 100 GeV, sigma v = 2.2e-26 cm^3/s gives Omega h^2 ~ 0.12 (within x2)
+   4. Delta N_eff: one extra neutrino species at T_nu gives 1
+   5. p = 104.31 with M_Pl
+   6. p = 0.828 with reduced M_Pl
+   7. v3's 0.0228 drops (1.66 sqrt(g*))^3 ~ 4.6e3
+   8. M* at minimum production = 2.9-4.4e12 GeV
+   9. the two Planck conventions agree when p is normalized consistently
+  10. the 3e13 benchmark is overproduced 2.1e3-1.2e4 times
+  11. 10% of the dark matter at 45-49 GeV
+  12. 100% at 146-158 GeV
+  13. 95% bound Delta N_eff < 0.286
+  14. xi < 0.760
+  15. knock-on: GW upper end 3.2e7 Hz at the withdrawn benchmark
+  16. stable W'+- overclose by 1e16-1e17
+  fresh run: exit 0, 16 PASS, 0 FAIL
+  closing line: 'OK — every number the round-3 record quotes reproduces.'
+  docstring lines 1-3 and 'corrected record' line:
+    | soliton_obituary.py — every number that review/round3-adjudication.md and the
+    | §12 obituary of papers/broken-born-checkpoint-v2.md (v2.1) quote
+    | for the withdrawn soliton candidate (#14 v3), recomputed and checked.
+    | history (last at 96f58da). What is checked here is the corrected record.
+
+== 2a. numeric tokens in review/round3-adjudication.md (line: tokens)
+    1: ['3']
+    3: ['5']
+    8: ['5']
+    9: ['16']
+   20: ['1e13–4e13']
+   23: ['100']
+   30: ['1', '104', '0.023', '104.31', '0.828', '0.0228', '1.66', '4.6×10³']
+   31: ['2', '2.9–4.4×10¹²', '3×10¹³', '2.1×10³', '1.2×10⁴', '3']
+   32: ['3', '0905.1720', '2607.20843', '2026', '100', '1e9–1e12']
+   33: ['4', '4', '10', '10', '45–49', '100', '146–158', '28–46', '96–153', '1.6', '0.1–0.3']
+   34: ['5', '0.760', '0.77', '3.044', '95', '0.286', '3.2×10⁷']
+   35: ['6', '20', '20–30']
+   36: ['7', '1', '5', '2', '2', '2']
+   37: ['8', '0901.0283', '5', '5']
+   38: ['9', '2', '3.19', '0']
+   39: ['10', '34', '2026', '3']
+   40: ['11', '1', '0.4', '2']
+   41: ['12', '4', '4', '2']
+   42: ['13', '6', '2']
+   47: ['1e-7–1e-6']
+   57: ['2', '3', '4']
+   59: ['1502.08005']
+   67: ['2', '2']
+   68: ['2', '1', '1', '2']
+   70: ['23']
+   71: ['5', '11', '4']
+   74: ['1–2', '3']
+   80: ['1']
+   84: ['2']
+   86: ['1.66', '100']
+   99: ['2026-10', '19']
+  102: ['1', '10']
+  106: ['5']
+  107: ['1', '7']
+  111: ['9']
+  113: ['2']
+  118: ['3']
+  120: ['10', '10', '2', '3']
+  123: ['100']
+  127: ['3']
+  132: ['3', '8', '3']
+  133: ['3']
+  134: ['2']
+  135: ['4', '8', '4']
+  139: ['1']
+  142: ['3', '11']
+  143: ['11', '15']
+  144: ['10']
+  145: ['11']
+  153: ['96']
+
+== 2b. numeric tokens in #11 §12 (line: tokens)
+  123: ['12']
+  125: ['2.0']
+  131: ['8']
+  132: ['2', '23']
+  134: ['5.4', '1']
+  136: ['2026-10', '19']
+  138: ['11', '3', '9']
+  140: ['14', '2', '1']
+  141: ['3']
+  143: ['1', '14', '0.023', '14']
+  144: ['104', '28']
+  145: ['2.9–4.4×10¹²', '3×10¹³', '2.1×10³', '1.2×10⁴']
+  146: ['100', '29']
+  147: ['28', '29']
+  152: ['2', '1', '10', '10']
+  153: ['3']
+
+== 3. inventory: numbers quoted for the soliton candidate
+  doc  line  covered  voice  |  quoted text
+  adj    30  CHECKED  adjudicator, 'My code' (r1)  |  'p = 104.31 with M_Pl'
+  adj    30  CHECKED  adjudicator, 'My code' (r1)  |  '0.828 with the reduced M_Pl'
+  adj    30  CHECKED  adjudicator (r1)  |  '(1.66√g*)³ ≈ 4.6×10³'
+  adj    31  CHECKED  adjudicator (r2)  |  'M* = 2.9–4.4×10¹² GeV'
+  adj    31  CHECKED  adjudicator (r2)  |  'overproduced 2.1×10³–1.2×10⁴ times'
+  adj    31  CHECKED  adjudicator (r2)  |  'consistently normalized, the two conventions agree'
+  adj    32  no       literature: LMW abstract (r3)  |  '≳ 100 PeV unless diluted'
+  adj    32  no       REFEREE; 'I did not re-run' (r3)  |  'Kibble–Zurek integration (1e9–1e12 overproduction)'
+  adj    33  LABEL?!  adjudicator; model input (r4)  |  '(a factor of 4)'
+  adj    33  no       v3's bracket, quoted as wrong (r4)  |  'up to ×10'
+  adj    33  CHECKED  adjudicator, 'My recount' (r4)  |  '10% of the DM at 45–49 GeV'
+  adj    33  CHECKED  adjudicator, 'My recount' (r4)  |  '100% at 146–158 GeV'
+  adj    33  no       REFEREE's Boltzmann integration (r4)  |  'gives 28–46 / 96–153 GeV'
+  adj    33  no       ADJUDICATOR's own comparison (r4)  |  'We agree to within ×1.6'
+  adj    33  no       v3, quoted as wrong (r4)  |  "v3's 0.1–0.3 TeV was wrong"
+  adj    34  CHECKED  referee finding, upheld (r5)  |  'ξ bound 0.760, not 0.77'
+  adj    34  CHECKED  adjudicator (r5)  |  'ΔN_eff < 0.286'
+  adj    34  CHECKED  adjudicator (r5)  |  '3.2×10⁷ Hz'
+  adj    35  no       accepted, 'not re-checked' (r6)  |  'lower mass bound should be ≳ 20–30 MeV'
+  adj    38  no       literature formula, 'not re-checked' (r9)  |  'εθ/2π · e'
+  adj    39  no       referee finding column, upheld at abstract level (r10)  |  'α_m ≈ 34'
+  adj    47  no       referee's omitted-constraint list (v3's estimate)  |  'ε ~ 1e-7–1e-6'
+  adj    86  CHECKED  lesson 2 anchor  |  'n/s ≈ 100 (T_c/M_Pl)³'
+  adj    85  CHECKED  lesson 2 anchor  |  'The replacement anchors\n   are the Friedmann coefficient 1.66'
+  adj   102  no       decision 1 (literature value; about P4)  |  'ε ≲ 10⁻¹³ from gravity'
+  adj   120  CHECKED  decision 2, rounding of r2  |  'at least 10³–10⁴ (ruling 2)'
+  adj    20  no       v3's headline, quoted as wrong (verdict)  |  '1e13–4e13 GeV, no dilution required'
+  §12   144  CHECKED  [V]  |  'p ≈ 104 [V]'
+  §12   143  CHECKED  v3's value, diagnosed  |  'p ≈ 0.023 (#14 v3)'
+  §12   145  CHECKED  [V]  |  'M ≈ 2.9–4.4×10¹² GeV [V]'
+  §12   145  CHECKED  [V]  |  '2.1×10³–1.2×10⁴ [V]'
+  §12   146  no       [29S] literature  |  '≲ 100 PeV'
+  §12   152  CHECKED  [V]  |  '10¹⁶–10¹⁷ at the v3 benchmark [V]'
+  §12   125  CHECKED  plain-language; p/1 and p/0.0228  |  'a factor of a hundred to several thousand'
+  inventory entries: 34; not found in source text: none
+  coverage labels not found in the script: ['both doublet members']
+
+  Uncovered, split by kind:
+   (a) computed figures for the candidate, quoted and NOT recomputed by the script:
+       adj line 32: 'Kibble–Zurek integration (1e9–1e12 overproduction)'  <- REFEREE; 'I did not re-run' (r3)
+       adj line 33: 'gives 28–46 / 96–153 GeV'  <- REFEREE's Boltzmann integration (r4)
+       adj line 33: 'We agree to within ×1.6'  <- ADJUDICATOR's own comparison (r4)
+       adj line 35: 'lower mass bound should be ≳ 20–30 MeV'  <- accepted, 'not re-checked' (r6)
+       adj line 39: 'α_m ≈ 34'  <- referee finding column, upheld at abstract level (r10)
+       adj line 47: 'ε ~ 1e-7–1e-6'  <- referee's omitted-constraint list (v3's estimate)
+       §12 line 146: '≲ 100 PeV'  <- [29S] literature
+   (b) literature inputs, or v3 values quoted as wrong (no reading expects these to 'reproduce'):
+       adj line 32: '≳ 100 PeV unless diluted'  <- literature: LMW abstract (r3)
+       adj line 33: 'up to ×10'  <- v3's bracket, quoted as wrong (r4)
+       adj line 33: "v3's 0.1–0.3 TeV was wrong"  <- v3, quoted as wrong (r4)
+       adj line 38: 'εθ/2π · e'  <- literature formula, 'not re-checked' (r9)
+       adj line 102: 'ε ≲ 10⁻¹³ from gravity'  <- decision 1 (literature value; about P4)
+       adj line 20: '1e13–4e13 GeV, no dilution required'  <- v3's headline, quoted as wrong (verdict)
+   counts: (a) 7, (b) 6
+   §12 entries uncovered: [('≲ 100 PeV', '[29S] literature')]
+
+== 3b. 'What survives v3' (adj lines 89-96): numeric tokens = []
+  'flux': adjudication lines [92]; §12 lines []; script lines []
+  'densit': adjudication lines [92]; §12 lines []; script lines []
+  'σ_T': adjudication lines [92]; §12 lines []; script lines []
+  'sigma_T': adjudication lines []; §12 lines []; script lines []
+  script lines containing 'Zurek': []
+  script lines containing 'MeV': []
+  script lines containing 'alpha_m': []
+  script lines containing '28': [33, 36, 55, 63, 64, 65, 98]
+  script lines containing 'Boltzmann': []
+  script lines containing 'eps': []
+  script lines containing '1.6': [52, 64, 101]
+
+== 3c. the adjudication's own coverage claims and its 'not re-checked' labels
+   13: every number this record quotes.
+   14: 
+   32: | 3 | Kibble is a floor, not a ceiling; Kibble–Zurek or bubble counting add more | **Upheld** | Murayama–Shu, arXiv:0905.1720, abstract: Kibble "drast
+   35: | 6 | MeV-scale ψ freezes out during BBN | **Accepted, not re-checked** | T_f ~ m/20, so the lower mass bound should be ≳ 20–30 MeV. |
+   38: | 9 | With mixing and a physical hidden θ, the monopoles carry visible electric charge ~ εθ/2π · e (Witten effect) | **Accepted, not re-checked** | Br
+  151: `verify/soliton_obituary.py`, which checks every number this record
+  152: quotes, with independent anchors. The v3 checks are in history at
+
+== 4. derived quantities
+  recount/referee, 10% lower ends : 45.2/28  = 1.614;  45.2/28.3 = 1.597
+  recount/referee, 10% upper ends : 48.8/46  = 1.061
+  recount/referee, 100% lower ends: 146.4/96 = 1.525
+  recount/referee, 100% upper ends: 158.0/153 = 1.033
+  alpha_m = 1/(4 alpha) = 34.259  (ruling 10 quotes 'α_m ≈ 34'; not in the script)
+  p ratios behind §12's 'a hundred to several thousand': 104.3106/1 = 104.3; 104.3106/0.0228 = 4575

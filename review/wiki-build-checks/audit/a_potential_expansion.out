@@ -1,0 +1,12 @@
+[massive gravity (l = 0)] V(1) = b0 + 4*b1 + 6*b2 + 4*b3 + b4 ; order-eps matches tadpoles: True ; Tr(D^2)-(TrD)^2 = 48 ; eps^2 term / [(b1+2b2+b3)(Tr D^2-(Tr D)^2)] = 1/8
+[bimetric, draw 1] V(1) = b0 + 4*b1 + 6*b2 + 4*b3 + b4 ; order-eps matches tadpoles: True ; Tr(D^2)-(TrD)^2 = 198 ; eps^2 term / [(b1+2b2+b3)(Tr D^2-(Tr D)^2)] = 1/8
+[bimetric, draw 2] V(1) = b0 + 4*b1 + 6*b2 + 4*b3 + b4 ; order-eps matches tadpoles: True ; Tr(D^2)-(TrD)^2 = 222 ; eps^2 term / [(b1+2b2+b3)(Tr D^2-(Tr D)^2)] = 1/8
+[bimetric, draw 3] V(1) = b0 + 4*b1 + 6*b2 + 4*b3 + b4 ; order-eps matches tadpoles: True ; Tr(D^2)-(TrD)^2 = 164 ; eps^2 term / [(b1+2b2+b3)(Tr D^2-(Tr D)^2)] = 1/8
+[bimetric, draw 4] V(1) = b0 + 4*b1 + 6*b2 + 4*b3 + b4 ; order-eps matches tadpoles: True ; Tr(D^2)-(TrD)^2 = 66 ; eps^2 term / [(b1+2b2+b3)(Tr D^2-(Tr D)^2)] = 1/8
+[bimetric, draw 5] V(1) = b0 + 4*b1 + 6*b2 + 4*b3 + b4 ; order-eps matches tadpoles: True ; Tr(D^2)-(TrD)^2 = 148 ; eps^2 term / [(b1+2b2+b3)(Tr D^2-(Tr D)^2)] = 1/8
+universal constant c (same on every draw): {1/8}
+massive gravity, general betas, eps^2 term = x (Tr h)^2 + y Tr h^2 with
+   x = (b0 + 2*b1 + b2)/8  ;  y = -(2*b0 + 5*b1 + 4*b2 + b3)/8
+   x + y = -(b0 + 3*b1 + 3*b2 + b3)/8   (FP structure needs x = -y; the defect is proportional to the g-tadpole)
+palindrome: b1 + 2b2 + b3 -> 2*(b1 + b2)
+palindrome: g-tadpole -> b0 + 4*b1 + 3*b2  ; f-tadpole -> b0 + 4*b1 + 3*b2

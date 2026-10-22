@@ -1,0 +1,3 @@
+Y^2 - 1 entries: [[a**2 + b**2 - 1, a*b + b*c], [a*b + b*c, b**2 + c**2 - 1]]
+b = 0 solutions: [{a: -1, c: -1}, {a: -1, c: 1}, {a: 1, c: -1}, {a: 1, c: 1}] -> positive definite: [{a: 1, c: 1}]
+off-diagonal entry factored: b*(a + c) ; with c = -a, trace = 0

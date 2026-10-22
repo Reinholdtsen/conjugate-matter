@@ -1,0 +1,75 @@
+=== Part 1: block algebra, symbolic (d = 1, 2) and exact random rational (d = 3) ===
+d=1: omega^-1 H_Z equals #7's printed I[Z]: True
+d=1: I[Z]^2 = -1: True
+d=1: blocks [[S,A],[A,S]]: True True True True
+d=1: identity S == (X^2 + Y^2 - 1) Y^-1 - X A : True
+d=1: identity A == Y^-1 (Y X - X Y) Y^-1      : True
+d=2: omega^-1 H_Z equals #7's printed I[Z]: True
+d=2: I[Z]^2 = -1: True
+d=2: blocks [[S,A],[A,S]]: True True True True
+d=2: identity S == (X^2 + Y^2 - 1) Y^-1 - X A : True
+d=2: identity A == Y^-1 (Y X - X Y) Y^-1      : True
+d=3 exact random: blocks match: True True | S identity: True | A identity: True
+
+  -> by the two identities (valid for any symmetric X and invertible Y):
+     A = 0 <=> [X,Y] = 0 ; and given A = 0, S = 0 <=> X^2 + Y^2 = 1.
+     So zero set = {[X,Y]=0, X^2+Y^2=1, Y>0}, not {X=0, Y=1}.
+dimension-free MatrixSymbol check, residuals: 0 | 0
+
+=== Part 2: exact zeros with X != 0 ===
+d=1: S = (x**2 + y**2 - 1)/y ; solve S=0 for y>0: [-sqrt(1 - x**2), sqrt(1 - x**2)]
+d=1: Z = 3/5 + 4/5 i, |Z|^2 = 1: {J0, I[Z]} = [[0, 0], [0, 0]]
+d=1: Z = -5/13 + 12/13 i, |Z|^2 = 1: {J0, I[Z]} = [[0, 0], [0, 0]]
+d=1: Z = 8/17 + 15/17 i, |Z|^2 = 1: {J0, I[Z]} = [[0, 0], [0, 0]]
+d=2: X = [[-49/1625, 768/1625], [768/1625, 399/1625]]  Y = [[1428/1625, -96/1625], [-96/1625, 1372/1625]]
+     Y pos.def: True  [X,Y]=0: True  X^2+Y^2=1: True
+     {J0, I[Z]} exactly zero: True   X != 0: True   Y != 1: True
+d=3: Cayley O orthogonal: True
+     {J0, I[Z]} exactly zero: True   X != 0: True   Y eigenvalues: [4/5, 15/17, 12/13]
+check Z = i (X=0,Y=1) is a zero, d=2: True
+X = 0 slice, d=1: S = yv - 1/yv -> zero only at yv = [1]
+contrast: Z = 3/5 + (1/2) i (|Z| != 1) gives nonzero: [[-39/50, 0], [0, -39/50]]
+
+=== Part 3: local dimension of the zero set (kernel of the linearized map) ===
+d=1 at Z=i: params=2, rank=1, kernel dim=1, d(d+1)/2=1
+d=2 at Z=i: params=6, rank=3, kernel dim=3, d(d+1)/2=3
+d=3 at Z=i: params=12, rank=6, kernel dim=6, d(d+1)/2=6
+d=2 at the X!=0 zero above: params=6, rank=3, kernel dim=3
+d=3 at the X!=0 zero above: params=12, rank=6, kernel dim=6
+
+=== Part 4: group-theory anchor (independent of the block formulas) ===
+d=1: dim centralizer(J0) in sp(2d) = 1 (d^2=1); stabilizer of Z=i inside it = 0; orbit dim = 1 (d(d+1)/2=1)
+d=2: dim centralizer(J0) in sp(2d) = 4 (d^2=4); stabilizer of Z=i inside it = 1; orbit dim = 3 (d(d+1)/2=3)
+d=3: dim centralizer(J0) in sp(2d) = 9 (d^2=9); stabilizer of Z=i inside it = 3; orbit dim = 6 (d(d+1)/2=6)
+d=4: dim centralizer(J0) in sp(2d) = 16 (d^2=16); stabilizer of Z=i inside it = 6; orbit dim = 10 (d(d+1)/2=10)
+d=1: g symplectic err 8.9e-16, [g,J0] err 0.0e+00; |{J0,I[g.i]}|max = 0.0e+00; |X|max = 0.998; [X,Y] err 0.0e+00; X^2+Y^2-1 err 0.0e+00
+      pure-b orbit: X = tanh(2b) err 1.1e-16, Y = sech(2b) err 2.1e-17
+d=2: g symplectic err 1.5e-15, [g,J0] err 1.8e-15; |{J0,I[g.i]}|max = 2.8e-14; |X|max = 0.985; [X,Y] err 8.7e-18; X^2+Y^2-1 err 4.4e-16
+      pure-b orbit: X = tanh(2b) err 4.4e-16, Y = sech(2b) err 2.8e-17
+d=3: g symplectic err 2.7e-15, [g,J0] err 2.2e-16; |{J0,I[g.i]}|max = 8.9e-16; |X|max = 0.675; [X,Y] err 3.3e-16; X^2+Y^2-1 err 1.6e-15
+      pure-b orbit: X = tanh(2b) err 6.9e-16, Y = sech(2b) err 4.4e-16
+d=4: g symplectic err 2.4e-15, [g,J0] err 1.6e-15; |{J0,I[g.i]}|max = 8.9e-15; |X|max = 0.898; [X,Y] err 9.4e-16; X^2+Y^2-1 err 2.2e-15
+      pure-b orbit: X = tanh(2b) err 1.2e-15, Y = sech(2b) err 2.3e-15
+d=1, t=-1.30: Z = -0.9890 + 0.1477 i, |Z| = 1.000000000000
+d=1, t=-0.40: Z = -0.6640 + 0.7477 i, |Z| = 1.000000000000
+d=1, t=+0.25: Z = +0.4621 + 0.8868 i, |Z| = 1.000000000000
+d=1, t=+0.90: Z = +0.9468 + 0.3218 i, |Z| = 1.000000000000
+d=1, t=+2.00: Z = +0.9993 + 0.0366 i, |Z| = 1.000000000000
+
+=== Part 5: the potential along and across the zero set; quadratic order ===
+d=1, Z = cos(phi) + i sin(phi): ||{J0,I}||_F^2 = 0
+d=1: eps^2 coeff - 8Tr(h^2) = 0 | eps^2 coeff depends on x: False | eps^4 coeff depends on x: True
+      T4 analogue: [Tr(S^2)]_eps^2 - 4Tr(h^2) = 0
+d=2: eps^2 coeff - 8Tr(h^2) = 0 | eps^2 coeff depends on x: False | eps^4 coeff depends on x: True
+      T4 analogue: [Tr(S^2)]_eps^2 - 4Tr(h^2) = 0
+d=1 straight line y=1: ||{J0,I}||^2 = 2*xs**4
+d=1 curved valley y=sqrt(1-x^2): ||{J0,I}||^2 = 0
+
+=== Part 6: conventions ===
+Z = 3/5 + 4/5 i, I = omega^-1 H: I^2 = -1: True; {J0,I} = [[0, 0], [0, 0]]
+Z = 3/5 + 4/5 i, I = -omega^-1 H (flipped omega): I^2 = -1: True; {J0,I} = [[0, 0], [0, 0]]
+Z = 3/5 + 4/5 i, I = H^-1 omega: I^2 = -1: True; {J0,I} = [[0, 0], [0, 0]]
+Z = 3/5 + 4/5 i, I = H omega: I^2 = -1: True; {J0,I} = [[0, 0], [0, 0]]
+other natural polarization K0 = diag(1,-1): {K0, I[Z]} = [[-2*xg/yg, 0], [0, -2*xg/yg]] -> zero set X = 0, any Y
+d=2: generic U(d)-rotated polarization J: {J,I0} = 0: True, J^2 = 1: True; kernel dim of linearized map at Z = i = 3
+d=3: generic U(d)-rotated polarization J: {J,I0} = 0: True, J^2 = 1: True; kernel dim of linearized map at Z = i = 6

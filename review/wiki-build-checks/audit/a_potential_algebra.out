@@ -1,0 +1,32 @@
+== 1. Sign of the potential as written, V/V0 = 1 + cos x ==
+  set where 1 + cos x < 0 in one period: EmptySet
+  set where 1 + cos x = 0 in one period: {pi} (isolated point: the minimum)
+  minimum of 1 + cos x over the period: 0
+  identity 1 + cos x = 2 cos^2(x/2) >= 0: True
+== 2. '#1 s7: a cosine potential is negative over half its range' ==
+  set where cos x < 0 in one period: Interval.open(pi/2, 3*pi/2)  fraction of period: 1/2
+  fraction where 1 + cos x < 0: 0
+== 3. Can either sign of V0 give a positive hilltop AND a negative region? ==
+  V0 > 0: hilltop value max V = 2*V0, min V = 0; (max>0 and min<0) = False
+  V0 < 0: hilltop value max V = 0, min V = -2*W; (max>0 and min<0) = False
+  -> V0 > 0: positive hilltop (dark energy today) but never negative; V0 < 0: hilltop at V = 0 (no dark energy today).
+== 4. Flat FRW: what a turnaround (H = 0) requires ==
+  GR: 3 M_P^2 H^2 = rho: H = 0  <=>  V = -rho_m - rho_r - taudot**2/2;  V < 0 forced: True
+  #1 s6 minisuperspace: 3 H^2 (M_P^2 + Mt^2 a^-6) = rho: H = 0  <=>  V = -rho_m - rho_r - taudot**2/2;  V < 0 forced: True
+  (rho_m > 0 makes the turnaround value of V strictly negative; with V >= 0, H^2 > 0 for all time)
+== 5. #1 s6 dictionary: can dual-frame content supply late-time negative energy? ==
+  rho_eff = rho_tilde/a**6 -> sign(rho_eff) = sign(rho_tilde)
+  rho_eff scaling for dual w_tilde: a**(3*w_tilde - 3) = a^(-3(1 - w_tilde)): True
+  dual dust                                        w_tilde = 0     -> rho_eff ~ a^-3;  ratio to our dust a^-3: a^0
+  dual curvature (negative if dual space closed)   w_tilde = -1/3  -> rho_eff ~ a^-4;  ratio to our dust a^-3: a^-1
+  dual Lambda (negative if dual Lambda < 0)        w_tilde = -1    -> rho_eff ~ a^-6;  ratio to our dust a^-3: a^-3
+  dual stiff (kinetic, >= 0)                       w_tilde = 1     -> rho_eff ~ a^0;  ratio to our dust a^-3: a^3
+  -> the only components that can be negative decay faster than dust (a^-1, a^-3 relative): none can stop a late-time expansion.
+== 6. 'Turnaround = conjugate bounce by constraint identity' (kinematics only) ==
+  d(a_tilde)/dt = -Derivative(a(t), t)/a(t)**2
+  d2(a_tilde)/dt2 = (-addot*a(t) + 2*adot**2)/a(t)**3 ; at adot = 0: -addot/a(t)**2 (> 0 when addot < 0: our maximum is their minimum)
+  -> holds IF a turnaround (adot = 0, addot < 0) exists; it does not supply one.
+== 7. Side consequence of a fix that lets rho_tau < 0: what 'w >= -1 always' (#1 s7 item 1) becomes ==
+  rho + p = 2K = 2*K (>= 0 for any V: the NEC holds)
+  for rho_tau = K + V < 0: w < -1  <=>  (K - V) + (K + V) > 0  <=> 2*K > 0  -> always, when taudot != 0
+  example K = 1, V = -3: -2 ; K = 1, V = -1.01: -201

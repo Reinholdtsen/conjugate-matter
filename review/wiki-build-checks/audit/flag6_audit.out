@@ -1,0 +1,42 @@
+== A. Textbook anchor: G_{mu nu}(c^2 g) = G_{mu nu}(g) (Bianchi-I metric, sympy)
+   G(c^2 g) - G(g) is the zero matrix: True
+
+== B. Exchange anchor: sqrt(det f) e_n(sqrt(f^-1 g)) = sqrt(det g) e_{4-n}(sqrt(g^-1 f))
+   max relative error over n = 0..4: 8.82e-16 -> exchange g<->f acts as beta_n -> beta_{4-n}; invariance = palindrome
+
+== C. Field-equation coefficients of P at g = f = 1 (finite differences, random beta, dg, df)
+   dP = 1/2 (V(1) - T) Tr dg + 1/2 T Tr df ; worst relative mismatch over 5 trials: 4.94e-10
+   -> g-equation's potential term vanishes iff V(1) = T (#8 sec. 2's flatness condition);
+      f-equation's potential term vanishes iff T = 0.
+
+   Z2 decomposition at the aligned point (palindromic beta with T != 0):
+   beta = [1.0, 0.7, -0.4, 0.7, 1.0]: V(1) = 5.2000, T = 2.6000, V(1) - 2T = 0.00e+00
+   even mode (dg = df):  dP/eps = -1.787205  vs  1/2 V(1) Tr d = -1.787205  (rel. diff 1.7e-10)
+   odd  mode (dg = -df): dP/eps = 2.66e-10  vs  1/2 (V(1) - 2T) Tr d = -0.00e+00
+   -> the palindrome kills the odd (massive-mode) tadpole; the even-mode term V(1) = 2T is left free.
+
+== D. Exact algebra (sympy)
+   generic: lambda_g(1) = beta0 + 3*beta1 + 3*beta2 + beta3 ; lambda_f(1) = beta1 + 3*beta2 + 3*beta3 + beta4
+   generic flat aligned vacuum: rank of conditions = 2 -> free betas: 3
+   palindrome: V(1) - 2T = 0 ; lambda_g(1) = beta0 + 4*beta1 + 3*beta2 ; lambda_f(1) = beta0 + 4*beta1 + 3*beta2
+   palindromic flat aligned vacuum: rank of conditions on (beta0,beta1,beta2) = 1 -> free betas: 2 (total conditions on the 5 betas: 3 )
+   T = 0 under the palindrome  <=>  beta0 = -4*beta1 - 3*beta2
+   T is not identically zero on the palindromic family: T(1,0,0) = 1 ; T(0,1,0) = 4 ; T(0,0,1) = 3
+
+== E. Proportional backgrounds f = c^2 g (scaling of P + anchor A), alpha = M_f/M_g
+   lambda_g(c) = beta0 + 3*beta1*c + 3*beta2*c**2 + beta3*c**3
+   lambda_f(c) = beta1/c**3 + 3*beta2/c**2 + 3*beta3/c + beta4
+   proportional-background condition (times c): alpha**2*beta3*c**4 - beta1 + c**3*(3*alpha**2*beta2 - beta4) + c**2*(3*alpha**2*beta1 - 3*beta3) + c*(alpha**2*beta0 - 3*beta2)
+   generic, alpha = 1, at c = 1: beta0 + 2*beta1 - 2*beta3 - beta4  (a condition: c = 1 is not automatic)
+   palindrome, alpha = 1, at c = 1: 0  (c = 1 is always a solution)
+   palindrome, alpha = 1: Lambda of the aligned vacuum (units m^4/M^2) = beta0 + 4*beta1 + 3*beta2 = T
+   example palindromic beta = (1,0,0,0,1): condition at c=1 -> 0 ; Lambda_g(1) = 1 ; T = 1 ; V(1) = 2
+   #11 sec. 7.4 PM point at alpha = 1: condition -> 0 (any c); Lambda_g(c) = 3*beta2*(c**2 + 1) ; T = 6*beta2
+
+== F. Generic HR (no palindrome): is the second condition at c = 1 a tuning or a normalization?
+   random beta1..4 = [0.167, 0.9366, 0.7628, -0.4512], positive root c* = 6.102518, beta0 fixed to -281.036899
+   at c*: lambda_g = 0.00e+00, lambda_f = 0.00e+00  (flat proportional vacuum, one condition)
+   after f -> f/c*^2, beta_n -> beta_n c*^n: lambda_g(1) = 0.00e+00, lambda_f(1) = 0.00e+00
+   same potential: P(g, f; beta) - P(g, f/c*^2; beta') = 0.00e+00
+   -> in generic HR both c = 1 conditions hold after a change of units for f: one physical tuning.
+   discrimination (k = 1.9687): right rescaling rel. diff 0.0e+00; wrong rescaling rel. diff 0.97

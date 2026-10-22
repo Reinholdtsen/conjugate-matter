@@ -1,0 +1,13 @@
+Re(Z Zbar - 1) == X^2 + Y^2 - 1: True
+Im(Z Zbar - 1) == Y X - X Y   : True
+Z symmetric => Z^dagger = Zbar, so Z Zbar = 1 is unitarity: True
+Traceback (most recent call last):
+  File "/tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/f914ff8b-9e54-489b-92fe-c443048774ac/scratchpad/audit/flag3_unitary.py", line 18, in <module>
+    sol = sp.solve(list(Yp*Yp - sp.eye(2)), list(Yp.free_symbols), dict=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/paul/git/reinholdtsen/conjugate-matter/.venv/lib/python3.12/site-packages/sympy/solvers/solvers.py", line 1170, in solve
+    linear, solution = _solve_system(f, symbols, **flags)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/paul/git/reinholdtsen/conjugate-matter/.venv/lib/python3.12/site-packages/sympy/solvers/solvers.py", line 1994, in _solve_system
+    raise NotImplementedError('could not solve %s' % eq2)
+NotImplementedError: could not solve -y11*sqrt(1 - y11**2) + sqrt(1 - y11**2)*Abs(y11)

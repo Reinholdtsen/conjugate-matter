@@ -1,0 +1,60 @@
+========================================================================
+A. Potential's contribution to both field equations at f = c^2 g (sympy, exact)
+========================================================================
+isotropic (all four components equal): True True
+2 dU/dg_ii at (1, c^2) = beta0 + 3*beta1*c + 3*beta2*c**2 + beta3*c**3
+2 dU/df_ii at (1, c^2) = beta1/c + 3*beta2 + 3*beta3*c + beta4*c**2
+matches beta0+3c beta1+3c^2 beta2+c^3 beta3 : True
+matches (c b1+3c^2 b2+3c^3 b3+c^4 b4)/c^2   : True
+
+At the aligned point c = 1:
+  g-eq flatness form  L_g = beta0 + 3*beta1 + 3*beta2 + beta3
+  f-eq flatness form  L_f = beta1 + 3*beta2 + 3*beta3 + beta4
+  U(1,1) = V(1)           = beta0 + 4*beta1 + 6*beta2 + 4*beta3 + beta4
+  L_g == V(1) - T(#8) : True   (#8 sec.2: 'V(1) = T' is the g-eq)
+  L_f == T(#8)        : True
+  V(1) == L_g + L_f   : True   (Pascal: C(4,n) = C(3,n) + C(3,n-1))
+
+Even/odd tadpoles under the exchange g <-> f (massless = even, X = odd, #8 sec.3):
+  even (sources the massless graviton's Lambda): beta0 + 4*beta1 + 6*beta2 + 4*beta3 + beta4
+  odd  (relative mode):                           beta0 + 2*beta1 - 2*beta3 - beta4
+  palindrome beta_n = beta_{4-n}:  odd -> 0    even -> 2*beta0 + 8*beta1 + 6*beta2
+  palindrome: L_g -> beta0 + 4*beta1 + 3*beta2   L_f -> beta0 + 4*beta1 + 3*beta2   V(1) -> 2*beta0 + 8*beta1 + 6*beta2
+
+========================================================================
+B. Counting conditions on (beta0..beta4) (exact linear algebra)
+========================================================================
+generic bimetric, flat aligned vacuum: rank 2 -> free betas 3
+palindrome alone:                       rank 2 -> free betas 3
+palindrome + flat aligned vacuum:       rank 3 -> free betas 2
+  conditions added by flatness beyond the palindrome: 1
+flatness forms restricted to the palindromic subspace: [1, 4, 3, 1, 4, 3]  rank 1
+is V(1) zero on the generic flat-aligned locus (no palindrome)? True
+
+========================================================================
+C. A palindromic theory whose aligned vacuum is not flat: the PM point (#11 sec.7.4)
+========================================================================
+Lambda_g(c) - Lambda_f(c) at the PM point: 0  (zero for every c = 'undetermined ratio', the published PM hallmark)
+Lambda(c) [units m^4] = 3*beta_2*(alpha**2*c**2 + 1)/(M_g**2*alpha**2)
+alpha = 1 betas: [3*beta_2, 0, beta_2, 0, 3*beta_2] palindromic: True
+  aligned (c=1) Lambda = 6*beta_2/M_g**2   T_pal = beta0+4beta1+3beta2 = 6*beta_2
+  real zeros of Lambda(c) at alpha=1: []
+
+========================================================================
+D. Numerical cross-check with full symmetric perturbations (numpy, no diagonal shortcut)
+========================================================================
+  generic beta, Euclidean: dU/dg.d = +4.24390735  vs (V1-T)/2 Tr = +4.24390735; dU/df.d = +2.07191114 vs T/2 Tr = +2.07191114; |Im| < 0e+00
+  palindromic beta, Euclidean: dU/dg.d = -5.21488611  vs (V1-T)/2 Tr = -5.21488611; dU/df.d = -5.21488611 vs T/2 Tr = -5.21488611; |Im| < 0e+00
+  generic beta, Lorentzian: dU/dg.d = +3.14190528  vs (V1-T)/2 Tr = +3.14190528; dU/df.d = +1.53390449 vs T/2 Tr = +1.53390449; |Im| < 0e+00
+  palindromic beta, Lorentzian: dU/dg.d = +10.56804747  vs (V1-T)/2 Tr = +10.56804746; dU/df.d = +10.56804746 vs T/2 Tr = +10.56804746; |Im| < 0e+00
+  U(g,f) - U(f,g): palindromic 0.0e+00 | generic 4.7e+01
+  palindromic sample: T_pal = -4.528712 -> aligned Lambda = m^4 T/M^2, not zero unless tuned
+
+========================================================================
+E. Generic bimetric with the ratio c free: how many tunings for a flat proportional vacuum?
+========================================================================
+resultant(P_g, P_f; c) is a single polynomial condition on the betas; nonzero: True | total degree 6
+random beta1..4 = [ 0.1417  2.8084 -0.6171 -0.1909], positive root c* = 3.388958, tuned beta0 = -74.184317
+  P_g(c*) = -3.6e-15, P_f(c*) = 2.2e-14, V(c*) = 7.8e-14
+  after rescaling f by 1/c*^2: beta' = [-74.1843   0.4802  32.2543 -24.0194 -25.1849]; L_g = -3.6e-15, L_f = 7.8e-14 (flat, aligned); palindromic? False
+  R(s^2 f)/R(f) = s**(-2) ; sqrt|det(s^2 f)|/sqrt|det f| = s**4

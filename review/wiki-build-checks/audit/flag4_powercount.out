@@ -1,0 +1,9 @@
+power counting h ~ e^2, x ~ e:
+  lowest order of S - (2h + x^2): 4
+  lowest order of A - [h, x]    : 5
+  lowest order of [h, x] itself : 3
+  lowest order of Tr(S^2)       : 4
+uniform counting h ~ x ~ e:
+  lowest order of S - (2h + x^2): 2
+  lowest order of Tr(S^2)       : 2
+item 3 at X = 0: Tr(S^2) = 212.1535042083, Tr(g^2)+Tr(g^-2)-2d = 212.1535042083, diff = -5.68e-14

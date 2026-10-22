@@ -1,0 +1,3 @@
+trial 0: exchange: eigs inverted True, V ratio 1.000000; double inversion: eigs inverted True, V ratio 0.002084; exchange+inversion: eigs inverted False, V ratio 0.002084
+trial 1: exchange: eigs inverted True, V ratio 1.000000; double inversion: eigs inverted True, V ratio 0.002694; exchange+inversion: eigs inverted False, V ratio 0.002694
+trial 2: exchange: eigs inverted True, V ratio 1.000000; double inversion: eigs inverted True, V ratio 0.001215; exchange+inversion: eigs inverted False, V ratio 0.001215

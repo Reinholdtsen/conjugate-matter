@@ -1,0 +1,6 @@
+Ok = -0.05: V0 = 1.1395; at t-t0 = 60/H0: a = 1491, D = (rho_m + rho_tau) a^3 = 1.4575e+06
+   validation at t-t0 = 1500/H0: full a = 13407 (D = 1.4382e+06, H = 0.0004457 > 0, V(tau) = +2.58e-08), cycloid a = 13465, ratio 0.99564; max rel. constraint violation 2.1e-10
+   extrapolated turnaround (curvature-driven, V(tau) ~ 0+ there, never < 0): a = 9.717e+06, t - t0 = 6.826e+07/H0 = 9.9e+08 Gyr
+Ok = -0.002: V0 = 1.0662; at t-t0 = 60/H0: a = 1559, D = (rho_m + rho_tau) a^3 = 1.662e+06
+   validation at t-t0 = 1500/H0: full a = 14053 (D = 1.6539e+06, H = 0.0004457 > 0, V(tau) = +3.19e-07), cycloid a = 14072, ratio 0.99865; max rel. constraint violation 1.9e-10
+   extrapolated turnaround (curvature-driven, V(tau) ~ 0+ there, never < 0): a = 2.77e+08, t - t0 = 9.729e+09/H0 = 1.41e+11 Gyr

@@ -1,0 +1,11 @@
+Units 8piG = 1, H0 = 1, Omega_m = 0.3; 1/H0 = 14.51 Gyr; start a = 0.01
+
+== 2. V0 cos(tau/f) (c = 1): same shape, minimum -V0 ==
+V0 cos                 f=1.0  tau_i/f=0.2  c=1.0   Ok=0.0    V0=2.1669 minV=-2.1669 w0=-0.991 (-dw/da)=-0.020 | TURNAROUND t-t0 = 3.242/H0 = 47.0 Gyr, a = 9.155, V = -1.3209, rho_m = 0.0012, kin = 1.3197, 3k/a^2 = -0.0000, tau/f = 2.226 | max rel. constraint violation 1.8e-06
+V0 cos                 f=0.5  tau_i/f=0.1  c=1.0   Ok=0.0    V0=2.1546 minV=-2.1546 w0=-0.974 (-dw/da)=-0.108 | TURNAROUND t-t0 = 1.350/H0 = 19.6 Gyr, a = 2.519, V = -2.0805, rho_m = 0.0563, kin = 2.0242, 3k/a^2 = -0.0000, tau/f = 2.879 | max rel. constraint violation 1.1e-06
+V0 cos                 f=2.0  tau_i/f=0.5  c=1.0   Ok=0.0    V0=2.4358 minV=-2.4358 w0=-0.987 (-dw/da)=-0.022 | TURNAROUND t-t0 = 5.575/H0 = 80.9 Gyr, a = 35.803, V = -0.7911, rho_m = 0.0000, kin = 0.7911, 3k/a^2 = -0.0000, tau/f = 1.902 | max rel. constraint violation 3.1e-06
+V0 cos                 f=1.0  tau_i/f=0.1  c=1.0   Ok=0.0    V0=2.1163 minV=-2.1163 w0=-0.998 (-dw/da)=-0.005 | TURNAROUND t-t0 = 4.329/H0 = 62.8 Gyr, a = 21.980, V = -1.2896, rho_m = 0.0001, kin = 1.2895, 3k/a^2 = -0.0000, tau/f = 2.226 | max rel. constraint violation 1.9e-06
+V0 cos                 f=1.0  tau_i/f=0.4  c=1.0   Ok=0.0    V0=2.4010 minV=-2.4010 w0=-0.956 (-dw/da)=-0.102 | TURNAROUND t-t0 = 2.077/H0 = 30.1 Gyr, a = 3.798, V = -1.4700, rho_m = 0.0164, kin = 1.4536, 3k/a^2 = -0.0000, tau/f = 2.230 | max rel. constraint violation 1.7e-06
+V0 cos                 f=0.3  tau_i/f=0.1  c=1.0   Ok=0.0    | no V0 reproduces Omega_DE = 0.7 (field rolls through before today)
+   cross-check with the constraint re-imposed away from the turnaround:
+V0 cos, projected      f=1.0  tau_i/f=0.2  c=1.0   Ok=0.0    V0=2.1669 minV=-2.1669 w0=-0.991 (-dw/da)=-0.020 | TURNAROUND t-t0 = 3.242/H0 = 47.0 Gyr, a = 9.155, V = -1.3209, rho_m = 0.0012, kin = 1.3197, 3k/a^2 = -0.0000, tau/f = 2.226 | max rel. constraint violation 3.2e-14

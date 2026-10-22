@@ -1,0 +1,65 @@
+current script: 16 checks; predecessor knot_numbers.py @96f58da: 35 checks
+inventory: 34 quoted numbers, every one located in its source text
+
+doc  line kind    gated old  quoted
+adj    30 own     yes        p = 104.31 with M_Pl
+adj    30 own     yes        0.828 with the reduced M_Pl
+adj    30 own     yes        (1.66√g*)³ ≈ 4.6×10³
+adj    31 own     yes        M* = 2.9–4.4×10¹² GeV
+adj    31 own     yes        overproduced 2.1×10³–1.2×10⁴ times
+adj    31 own     yes        consistently normalized, the two conventions agree
+adj    33 own     yes        10% of the DM at 45–49 GeV
+adj    33 own     yes        100% at 146–158 GeV
+adj    34 own     yes        ξ bound 0.760, not 0.77
+adj    34 own     yes        ΔN_eff < 0.286
+adj    34 own     yes        3.2×10⁷ Hz
+adj   120 own     yes        at least 10³–10⁴ (ruling 2)
+adj    33 input   yes        (a factor of 4)
+adj    86 anchor  yes        n/s ≈ 100 (T_c/M_Pl)³
+adj    86 anchor  yes        Friedmann coefficient 1.66
+adj    32 ref     NO         Kibble–Zurek integration (1e9–1e12 overproduction)
+adj    33 ref     NO         gives 28–46 / 96–153 GeV
+adj    35 ref     NO         lower mass bound should be ≳ 20–30 MeV
+adj    39 ref     NO    yes  α_m ≈ 34
+adj    47 ref     NO    yes  ε ~ 1e-7–1e-6
+adj    33 ownnc   NO         We agree to within ×1.6
+adj    32 lit     NO         ≳ 100 PeV unless diluted
+adj    38 lit     NO         εθ/2π · e
+adj   102 lit     NO         ε ≲ 10⁻¹³ from gravity
+adj    33 v3wrong NO         up to ×10
+adj    33 v3wrong NO         v3's 0.1–0.3 TeV was wrong
+adj    20 v3wrong NO         1e13–4e13 GeV, no dilution required
+§12   144 own     yes        p ≈ 104 [V]
+§12   143 own     yes        p ≈ 0.023 (#14 v3)
+§12   145 own     yes        M ≈ 2.9–4.4×10¹² GeV [V]
+§12   145 own     yes        2.1×10³–1.2×10⁴ [V]
+§12   152 own     yes        10¹⁶–10¹⁷ at the v3 benchmark [V]
+§12   125 own     yes        a factor of a hundred to several thousand
+§12   146 lit     NO         ≲ 100 PeV
+
+R1 plain: every number quoted except v3 values quoted as wrong
+   in scope 31, gated 21, NOT gated 10:  adj l.32 'Kibble–Zurek integration (1e9–1e12 overproduction)'; adj l.33 'gives 28–46 / 96–153 GeV'; adj l.35 'lower mass bound should be ≳ 20–30 MeV'; adj l.39 'α_m ≈ 34'; adj l.47 'ε ~ 1e-7–1e-6'; adj l.33 'We agree to within ×1.6'; adj l.32 '≳ 100 PeV unless diluted'; adj l.38 'εθ/2π · e'; adj l.102 'ε ≲ 10⁻¹³ from gravity'; §12 l.146 '≲ 100 PeV'
+R2 knot_numbers convention: computed figures only (inputs/literature excluded)
+   in scope 27, gated 21, NOT gated 6:  adj l.32 'Kibble–Zurek integration (1e9–1e12 overproduction)'; adj l.33 'gives 28–46 / 96–153 GeV'; adj l.35 'lower mass bound should be ≳ 20–30 MeV'; adj l.39 'α_m ≈ 34'; adj l.47 'ε ~ 1e-7–1e-6'; adj l.33 'We agree to within ×1.6'
+R3 own voice: the record's own figures (referee figures excluded)
+   in scope 22, gated 21, NOT gated 1:  adj l.33 'We agree to within ×1.6'
+R4 'corrected record' = adjudicator's recomputed figures + §12 [V]
+   in scope 21, gated 21, NOT gated 0
+
+§12's claim 'The [V] numbers here are gated': [V] numbers 4, gated 4
+
+script's psi window: 10% at 45.2-48.8 GeV, 100% at 146.4-158.0 GeV
+referee's quoted window 28-46 / 96-153 GeV reproduces? 10%: False, 100%: False
+largest endpoint ratio recount/referee: 1.614
+
+adjudication sentences claiming coverage:
+  line 12: and its `.out`, plus direct checks of the sources named below. The corrected inputs now live in `verify/soliton_obituary.py`, which checks every number this record quotes.
+  line 151: - `verify/knot_numbers.py` (v3's claims) was replaced by `verify/soliton_obituary.py`, which checks every number this record quotes, with independent anchors.
+  line 32: contains 'did not re-run'
+  line 35: contains 'Accepted, not re-checked'
+  line 38: contains 'Accepted, not re-checked'
+
+'What survives v3' numbers quoted: ['3']  (flux, densities, σ_T/M are named, with no value)
+  flux      : current script gates it: False; predecessor @96f58da did: True
+  densities : current script gates it: False; predecessor @96f58da did: True
+  sigma_T/M : current script gates it: False; predecessor @96f58da did: True

@@ -1,0 +1,5 @@
+V = -U <= 0: w - 1 = 2*U/(K - U) -> with rho = K - U > 0 this is >= 0, so w >= +1 (stiff side), never near -1
+  K=1, U=0.5: rho=0.5, w=3.0000
+  K=2, U=0.1: rho=1.9, w=1.1053
+  K=1, U=0.9: rho=0.09999999999999998, w=19.0000
+rho + p = td**2 ; example td=1, V=-1: rho = -1/2 , w = -3

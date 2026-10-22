@@ -1,0 +1,36 @@
+== 1. Kinematics (equal masses): p1 - p2 vs #1's k = m v_rel/2
+  (p1-p2)^2 - 4 k^2 = 0
+== 2. The flag's literal comparison (both read as the amplitude-level gate, same mu)
+  #6 in k: exp(-2*k**2/mu**2)   #1: exp(-k**2/mu**2)
+  log(#6)/log(#1) = 2
+  #6 with mu6 = sqrt2*mu, divided by #1: 1
+== 3. Rate-level identity: #1 §5.1's sigma_T factor, written in p1-p2, with #1's own mu
+  |#1 gate|^2 / #1 rate factor = 1
+  #6 expression / #1 rate factor = 1
+== 4. Overlap of two Gaussian fiber profiles, centres a separation Delta apart
+     result written exp(-c Delta^2/mu^2); #6 form is c = 1/2; #1 amplitude gate is c = 1/4 (k = Delta/2)
+  W1 amplitude exp(-x^2/2mu^2)  [mu = Gaussian std-parameter of psi; density std mu/sqrt2]
+      O1 <psi1|psi2>: c=1/4 = #1 gate
+      O2 |<psi1|psi2>|^2: c=1/2 = #6 form
+      O3 density overlap: c=1/2 = #6 form
+  W2 amplitude exp(-x^2/4mu^2)  [density std = mu, i.e. Delta p = mu]                  
+      O1 <psi1|psi2>: c=1/8 
+      O2 |<psi1|psi2>|^2: c=1/4 = #1 gate
+      O3 density overlap: c=1/4 = #1 gate
+  W3 amplitude exp(-x^2/mu^2)   [mu = 1/e half-width of psi; density std mu/2]         
+      O1 <psi1|psi2>: c=1/2 = #6 form
+      O2 |<psi1|psi2>|^2: c=1 
+      O3 density overlap: c=1 
+== 5. 3-D numerical check (W1, O1): exponent uses |Delta|^2 with c = 1/4
+  numeric overlap = 0.7594597688; exp(-|D|^2/(4 mu^2)) = 0.7594597688
+== 6. v* implied by each reading (sigma_T ~ amplitude^2; v* = 1/e point of sigma_T)
+  #6 form as AMPLITUDE gate: v* = mu/m
+  #6 form as RATE factor:    v* = sqrt(2)*mu/m
+  #1 gate as amplitude:      v* = sqrt(2)*mu/m
+== 7. #11 §8 notation: M ~ F(k^2/mu^2) and sigma_T = sigma0 F(v^2/v*^2), same F, Gaussian F(x)=exp(-a x)
+  solve |F(k^2/mu^2)|^2 = F(v^2/v*^2) for v*: [sqrt(2)*mu/m]  (independent of a)
+== 8. Same physical profile, two names for its width
+  W1(mu1 = m v*/sqrt2) / W3(mu6 = m v*) = 1
+== 9. Benchmark (#1 §5.1): m_chi = 70 MeV, v* = 120 km/s
+  #1 convention mu = m v*/sqrt2 = 19.81 keV (source states ~20 keV)
+  #6-amplitude convention mu = m v* = 28.02 keV (stated nowhere)

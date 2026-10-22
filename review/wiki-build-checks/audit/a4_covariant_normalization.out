@@ -1,0 +1,6 @@
+boost family: t, V_frobenius (documents' V_b), V_covariant
+  t = 0.0: -1.0000  -1.000000e+00
+  t = 1.0: -0.5183  -1.415412e+01
+  t = 2.0: -0.5003  -7.457396e+02
+  t = 4.0: -0.5000  -2.221528e+06
+V_cov squeeze-invariant (H -> S^T H S, K -> S^-1 K S): True

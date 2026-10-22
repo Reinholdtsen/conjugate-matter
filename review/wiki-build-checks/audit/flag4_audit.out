@@ -1,0 +1,26 @@
+Part 1: d = 1, Y = 1 + h (linear, as #7 writes it)
+  order e^1: 2*h
+  order e^2: (-h + x)*(h + x)
+  order e^3: -h*(-h + x)*(h + x)
+Part 1b: d = 1, family Y = 1 + h + c h^2 (second-order field redefinition)
+  order e^2 of S: 2*c*h**2 - h**2 + x**2
+  coefficient of h^2 at order e^2: 2*c - 1; zero iff c = [1/2]
+Part 1c: d = 1, exponential parametrization Y = exp(h)
+  order e^1: 2*h
+  order e^2: x**2
+  order e^3: -h*(-h**2 + 3*x**2)/3
+Part 2: d = 2, generic symmetric h, x (non-commuting), Y = 1 + h
+  S - (2h + x^2) through e^2 == -e^2 h^2 ? True
+  S - (2h + x^2 - h^2) through e^2 == 0 ? True
+  A - [h, x] through e^2 == 0 ?  (source's A expansion) True
+  order-e^3 remainder equals h^3 - x h x ? True
+Part 3: Tr(S^2) by order (d = 2, exact)
+  e^2 coefficient - 4Tr(h^2) = 0
+  e^3 coefficient - [4Tr(h x^2) - 4Tr(h^3)] = 0
+Part 4: numerics (seed 2026, d = 3 and 6)
+  d=3 eps=0.01: |S-(2h+x^2)|/eps^2 = 3.738948 (|h^2| = 3.686460); |S-(2h+x^2-h^2)|/eps^3 = 6.594735
+  d=3 eps=0.001: |S-(2h+x^2)|/eps^2 = 3.691587 (|h^2| = 3.686460); |S-(2h+x^2-h^2)|/eps^3 = 6.497234
+  d=3 eps=0.0001: |S-(2h+x^2)|/eps^2 = 3.686972 (|h^2| = 3.686460); |S-(2h+x^2-h^2)|/eps^3 = 6.487715
+  d=6 eps=0.01: |S-(2h+x^2)|/eps^2 = 15.987310 (|h^2| = 16.442707); |S-(2h+x^2-h^2)|/eps^3 = 55.500795
+  d=6 eps=0.001: |S-(2h+x^2)|/eps^2 = 16.395447 (|h^2| = 16.442707); |S-(2h+x^2-h^2)|/eps^3 = 57.060447
+  d=6 eps=0.0001: |S-(2h+x^2)|/eps^2 = 16.437963 (|h^2| = 16.442707); |S-(2h+x^2-h^2)|/eps^3 = 57.222991

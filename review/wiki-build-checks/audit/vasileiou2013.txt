@@ -1,0 +1,3417 @@
+
+===== PAGE 1 =====
+arXiv:1305.3463v1  [astro-ph.HE]  15 May 2013
+Constraints on Lorentz Invariance Violation from Fermi-Large Area Telescope
+Observations of Gamma-Ray Bursts
+V. Vasileiou, 1, ∗ A. Jacholkowska, 2, † F. Piron, 1 J. Bolmont, 2 C. Couturier, 2
+J. Granot, 3 F. W. Stecker, 4, 5 J. Cohen-Tanugi, 1 and F. Longo 6, 7
+1Laboratoire Univers et Particules de Montpellier,
+Universit´ e Montpellier 2, CNRS/IN2P3, CC 72,
+Place Eug` ene Bataillon, F-34095 Montpellier Cedex 5, Fran ce
+2LPNHE, Universit´ e Pierre et Marie Curie Paris 6,
+Universit´ e Denis Diderot Paris 7, CNRS/IN2P3,
+4 Place Jussieu, F-75252, Paris Cedex 5, France
+3Department of Natural Sciences, The Open University of Isra el,
+1 University Road, POB 808, Ra’anana 43537, Israel
+4Astrophysics Science Division, NASA/Goddard Space Flight Center, Greenbelt, MD 20771, U.S.A.
+5Department of Physics and Astronomy, University of Califor nia, Los Angeles, CA 90095-1547, U.S.A.
+6Istituto Nazionale di Fisica Nucleare, Sezione di Trieste, I-34127 Trieste, Italy
+7Dipartimento di Fisica, Universit` a di Trieste, I-34127 Tr ieste, Italy
+We analyze the MeV/GeV emission from four bright Gamma-Ray B ursts (GRBs) observed by the
+Fermi-Large Area Telescope to produce robust, stringent constra ints on a dependence of the speed of
+light in vacuo on the photon energy (vacuum dispersion), a form of Lorentz i nvariance violation (LIV)
+allowed by some Quantum Gravity (QG) theories. First, we use three diﬀerent and complementary
+techniques to constrain the total degree of dispersion obse rved in the data. Additionally, using a
+maximally conservative set of assumptions on possible sour ce-intrinsic spectral-evolution eﬀects, we
+constrain any vacuum dispersion solely attributed to LIV. W e then derive limits on the “QG energy
+scale” (the energy scale that LIV-inducing QG eﬀects become important, EQG) and the coeﬃcients of
+the Standard Model Extension. For the subluminal case (wher e high energy photons propagate more
+slowly than lower energy photons) and without taking into ac count any source-intrinsic dispersion,
+our most stringent limits (at 95% CL) are obtained from GRB 09 0510 and are EQG,1 > 7. 6 times the
+Planck energy ( EPl) and EQG,2 > 1. 3×1011 GeV for linear and quadratic leading order LIV-induced
+vacuum dispersion, respectively. These limits improve the latest constraints by Fermi and H.E.S.S.
+by a factor of ∼ 2. Our results disfavor any class of models requiring EQG,1 ≲ EPl.
+PACS numbers: 11.30.Cp, 04.60.-m, 98.70.Rz
+I. INTRODUCTION
+While general relativity and Quantum Field Theory
+have each enjoyed impressive success so far, their for-
+mulations are currently inconsistent, hence motivating
+searches for uniﬁcation schemes that can collectively be
+subsumed under the name of Quantum Gravity (QG)
+theories. These theories generally predict the existence
+of a natural scale at which the physics of space-time,
+as predicted by relativity theory, is expected to break
+down, hence requiring modiﬁcations or the creation of a
+new paradigm to avoid singularity problems. This scale,
+referred to as the “Quantum Gravity energy scale” EQG,
+is in general expected to be of the order of the Planck
+scale [1], EPl ≡
+√
+(ℏc5)/G ≃ 1. 22 × 1019 GeV, or in some
+cases lower (e.g., for some QG scenarios such as loop
+quantum gravity).
+Since relativity precludes an invariant length, the in-
+troduction of such a constant scale violates Lorentz In-
+variance (LI). Thus, tests of LI are strongly motivated
+∗ vlasisva@gmail.com
+† agnieszka.jacholkowska@cern.ch
+by the search for a theory of QG. Additional motivations
+for testing LI are the need to cut oﬀ high-energy (ultra-
+violet) divergences in quantum ﬁeld theory and the need
+for a consistent theory of black holes [2, 3].
+The idea that LI may be only approximate has been
+explored within the context of a wide variety of sug-
+gested Planck-scale physics scenarios. These include the
+concepts of deformed relativity, loop quantum gravity,
+non-commutative geometry, spin foam models, and some
+string theory (M theory) models (for reviews see, e.g.,
+Refs. [4–6]). These theoretical explorations and their pos-
+sible consequences, such as observable modiﬁcations in
+the energy-momentum dispersion relations for free parti-
+cles and photons, have been discussed under the general
+heading of “Planck scale phenomenology” .
+There is also the motivation of testing LI in order to
+extent or limit its domain of applicability to the highest
+observable energies. Since the group of pure LI transfor-
+mations is unbounded at high energies, one should look
+for its breakdown at high energy scales, possibly through
+eﬀects of Planck scale physics but perhaps through the
+eﬀects of other unknown phenomena. To accomplish such
+a program, tests of the kinematics of LI violation (LIV)
+within the context of physical interaction dynamics such
+as quantum electrodynamics or standard model physics
+===== PAGE 2 =====
+2
+(e.g., [7–11]) have been proposed. Fruitful frameworks for
+this kind of analysis, useful for testing the eﬀects of LIV
+at energies well below the Planck scale, are the Taylor
+series expansion originally proposed in the seminal paper
+by Amelino-Camelia et al. [12] and the more compre-
+hensive Standard Model Extension (SME) parametriza-
+tion of Kosteleck´ y and collaborators [13, 14]. These
+phenomenological parameterizations can be viewed as
+low-energy eﬀective ﬁeld theories, holding at energies
+E ≪ EPl and providing an eﬀective framework to search
+for LIV at energies far below the Planck scale.
+One manifestation of LIV is the existence of an energy-
+dependent “maximum attainable velocity” of a particle
+and its eﬀect on the thresholds for various particle inter-
+actions, particle decays, and neutrino oscillations [7]. As-
+suming that the mass of the photon is zero, its maximum
+attainable velocity can be determined by measuring its
+velocity at the highest possible observable energy. This
+energy is, of necessity, in the gamma-ray range. Since
+we know that LI is accurate at accelerator energies, and
+even at cosmic-ray energies [15], any deviation of the ve-
+locity of a photon from its low energy value, c, must be
+very small at these energies. Thus, a sensitive test of LI
+requires high-energy photons (i.e., gamma rays) and en-
+tails searching for dependencies of the speed of light in
+vacuo on the photon energy. The method used in this
+study to search for such an energy dependence consists
+in comparing the time of ﬂight between photons of diﬀer-
+ent energies emitted together by a distant astrophysical
+source. As will be shown in the next section, the mag-
+nitude of a LIV-induced diﬀerence on the time of ﬂight
+is predicted to be an increasing function of the photon
+energy and the distance of source. Thus, because of the
+high-energy extend of their emission (up to tens of GeV),
+their large distances (redshifts up to a value of ∼ 8), and
+their rapid (down to ms scale) variabilities, Gamma-Ray
+Bursts (GRBs) are very eﬀective probes for searching for
+such LIV-induced spectral dispersions [12].
+There have been several searches for LIV applying
+a variety of analysis techniques on GRB observations.
+Some of the pre- Fermi studies are those by Lamon et
+al. [16] using INTEGRAL GRBs; by Bolmont et al. [17]
+using HETE-2 GRBs; by Ellis et al. [18] using HETE,
+BATSE, and Swift GRBs; and by Rodr ´ ıguez-Mart ´ ınez
+et al. using Swift and Konus-Wind observations of
+GRB 051221A [19]. The most stringent constraints, how-
+ever, have been placed using Fermi observations, mainly
+thanks to the unprecedented sensitivity for detecting the
+prompt MeV/GeV GRB emission by the Fermi Large
+Area Telescope (LAT) [20, 21]. These constraints include
+those by the Fermi LAT and Gamma-Ray Burst Moni-
+tor (GBM) collaborations using GRBs 080916C [22] and
+090510 [23], and by Shao et al. [24] and Nemiroﬀ et al. [25]
+using multiple Fermi GRBs. In addition to these GRB-
+based studies, there have been some results using TeV ob-
+servations of bright Active Galactic Nuclei ﬂares, includ-
+ing the MAGIC analysis of the ﬂares of Mrk 501 [26, 27]
+and the H.E.S.S. analysis on the exceptional ﬂare of
+PKS 2155-304 [28, 29]. It should be noted that the stud-
+ies above did not assume any dependence of LIV on the
+polarization of the photons, manifesting as birefringence.
+In the case that such a dependence exists, constraints on
+LIV eﬀects can be produced [10, 30, 31] that are 13 or-
+ders of magnitude stronger than the dispersion-only con-
+straints placed with time-of-ﬂight considerations (as in
+this work). It should be added that there is a class of
+theories that allow for photon dispersion without bire-
+fringence that can be directly constrained by our results
+(e.g., [32]).
+The aim of this study is to produce a robust and com-
+petitive constraint on the dependence of the velocity of
+light in vacuo on its energy. Our analysis is performed
+on a selection of Fermi-LAT [21] GRBs with measured
+redshifts and bright GeV emission. We ﬁrst apply three
+diﬀerent analysis techniques to constrain the total degree
+of spectral dispersion observed in the data. Then, using
+a set of maximally conservative assumptions on the pos-
+sible source-intrinsic spectral evolution (which can mas-
+querade as LIV dispersion), we produce constraints on
+the degree of LIV-induced spectral dispersion. The lat-
+ter constraints are weaker than those on the total degree
+of dispersion, yet considerably more robust with respect
+to the presence of a source-intrinsic eﬀects. Finally, we
+convert our constraints to limits on LIV-model-speciﬁc
+quantities, such as EQG and the coeﬃcients of the SME.
+The ﬁrst method used to constrain the degree of dis-
+persion in the data, named “PairView”(PV), is created as
+part of this study, and performs a statistical analysis on
+all the pairs of photons in the data to ﬁnd a common
+spectral lag. The second method, named “Sharpness-
+Maximization Method” (SMM), is a modiﬁcation of ex-
+isting techniques (e.g., DisCan [33]) and is based on the
+fact that any spectral dispersion will smear the struc-
+ture of the light curve, reducing its sharpness. SMM’s
+best estimate is equal to the negative of a trial degree of
+dispersion that, when applied to the actual light curve,
+restores its assumed-as-initially-maximal sharpness. Fi-
+nally, the third method employs an unbinned maximum
+likelihood (ML) analysis to compare the data as observed
+at energies low enough for the LIV delays to be negligible
+to the data at higher energies. The three methods were
+tested using an extensive set of simulations and cross-
+checks, described in several appendices.
+Our constraints apply only to classes of LIV models
+that possess the following properties. First, the magni-
+tude of the LIV-induced time delay depends either lin-
+early or quadratically on the photon energy. Second,
+this dependence is deterministic, i.e., the degree of LIV-
+induced increase or decrease in the photon propagation
+speed does not have a stochastic (or “fuzzy” ) nature as
+postulated by some of the LI models (see Ref. [34] and
+references therein). Finally, the sign of the eﬀect does
+not depend on the photon polarization – the velocities
+of all photons of the same energy are either increased or
+decreased due to LIV by the same exact amount.
+In Sec. II we describe the LIV formalism and nota-
+===== PAGE 3 =====
+3
+tion used in the paper, in Sec. III we describe the data
+sets used for the analysis, in Sec. IV we describe the
+three analysis methods and the procedure we used to take
+into account possible intrinsic spectral-evolution eﬀects,
+in Sec. V we present the results, in Sec. VI we report
+and discuss their associated systematic uncertainties and
+caveats, and ﬁnally in Sec. VII we compare our results to
+previous measurements and discuss their physical impli-
+cations. We present our Monte Carlo simulations used for
+verifying PV and SMM in Appendix A, the calibrations
+and veriﬁcation tests of the ML method in Appendix B,
+a direct one-to-one comparison of the results of the three
+methods after their application on a common set of simu-
+lated data in Appendix C, and cross-checks of the results
+in Appendix D.
+II. FORMALISM
+In QG scenarios, the LIV-induced modiﬁcations to the
+photon dispersion relation can be described using a series
+expansion in the form
+E2 ≃ p2c2 ×
+[
+1 −
+∞∑
+n=1
+s±
+( E
+EQG
+) n]
+, (1)
+where c is the constant speed of light (at the limit of
+zero photon energy), s± is the “sign of LIV” , a theory-
+dependent factor equal to +1 ( − 1) for a decrease (in-
+crease) in photon speed with an increasing photon energy
+(also referred to as the “subluminal” and “superluminal”
+cases). For E ≪ EQG, the lowest order term in the se-
+ries not suppressed by theory is expected to dominate
+the sum. In case the n = 1 term is suppressed, some-
+thing that can happen if a symmetry law is involved, the
+next term n = 2 will dominate. We note that in eﬀective
+ﬁeld theory n = d − 4, where d is the mass dimension of
+the dominant operator. Therefore, the n = 1 term arises
+from a dimension 5 operator [35]. It has been shown that
+odd mass-dimension terms violate CPT [13, 36]. Thus,
+if CPT is preserved, then the n = 2 term is expected to
+dominate. In this study, we only consider the n = 1 and
+n = 2 cases, since the Fermi results are not sensitive to
+higher order terms.
+Using Eq. 1 and keeping only the lowest-order domi-
+nant term, it can be found that the photon propagation
+speed uph, given by its group velocity, is
+uph(E) = ∂E
+∂p ≃ c ×
+[
+1 − s±
+n + 1
+2
+( E
+EQG
+) n]
+, (2)
+where c ≡ lim
+E→ 0
+uph(E). Because of the energy dependence
+of uph(E), two photons of diﬀerent energies Eh > E l
+emitted by a distant source at the same time and from
+the same location will arrive on Earth with a time delay
+∆t which depends on their energies. We deﬁne the “LIV
+parameter” τn as the ratio of this delay over En
+h − En
+l [37]:
+τn ≡ ∆t
+En
+h − En
+l
+≃ s±
+(1 + n)
+2H0
+1
+En
+QG
+× κ n, (3)
+where
+κ n ≡
+z∫
+0
+(1 + z′)n
+√
+ΩΛ + ΩM(1 + z′)3 dz′ (4)
+is a comoving distance that also depends on the order of
+LIV ( n), z is redshift, H0 is the Hubble constant, and
+ΩΛ and Ω M are the cosmological constant and the total
+matter density (parameters of the ΛCDM model).
+In the SME framework [14], the slight modiﬁcations in-
+duced by LIV eﬀects are also described by a series expan-
+sion with respect to powers of the photon energy. In this
+framework, LIV can also be dependent on the direction
+of the source. Including only the single term assumed to
+dominate the sum, τn is given by:
+τn ≃ 1
+H0
+
+ ∑
+jm
+0Yjm( ˆn)c(n+4)
+(I)jm
+
+ × κ n, (5)
+where ˆn is the direction of the source, 0Yjm( ˆn) are spin-
+weighted spherical harmonics, and c(n+4)
+(I)jm are coeﬃcients
+of the framework that describe the strength of LIV. In the
+SME case of a direction-dependent LIV, we constrain the
+sum (enclosed in parentheses) as a whole. For the alter-
+native possibility of direction independence, all the terms
+in the sum become zero except 0Y00 = Y00 =
+√
+1/ (4π ).
+In that case, we constrain a single c(n+4)
+(I)00 coeﬃcient.
+The coordinates of ˆn are in a Sun-centered celestial
+equatorial frame described in Section V of Ref. [14], di-
+rectly related to the equatorial coordinates of the source
+such that its ﬁrst coordinate is equal to 90 ◦ − Declination
+and the second being equal to the Right Ascension. Fi-
+nally, the coeﬃcients c(n+4)
+(I)jm can be either positive or neg-
+ative depending on whether LIV-induced dispersion cor-
+responds to a decrease or increase in photon speed with
+an increasing energy respectively (i.e., the sign of the
+SME coeﬃcients plays the role of the s± factor of the
+series-expansion framework).
+In the important case of a d = 5 modiﬁcation of the
+free photon Lagrangian in eﬀective ﬁeld theory, Myers
+and Pospelov have shown that the only d = 5 ( n = 1)
+operator that preserves both gauge invariance and rota-
+tional symmetry implies vacuum birefringence [35]. In
+such a case, and as was mentioned in the Introduction,
+signiﬁcantly stronger constraints can be placed using the
+existence of birefringence than with just dispersion (as in
+this work). For this reason, in this paper and when work-
+ing within the given assumptions of the SME framework,
+we proceed assuming that the d = 5 terms are either zero
+or dominated by the higher-order terms, and proceed to
+constrain the d = 6 terms, which are not expected to
+come with birefringence.
+===== PAGE 4 =====
+4
+Our aim is to constrain the LIV-related parameters in-
+volved in the above two parametrizations: the quantum
+gravity energy EQG (for n = {1, 2} and s± = ± 1) and
+the coeﬃcients of the SME framework (for d = 6 for
+both the direction dependent and independent cases) .
+To accomplish this, we ﬁrst constrain the total degree of
+spectral dispersion in the data, τn, and then using the
+measured distance of the GRB and the cosmological con-
+stants, we calculate lower limits on EQG through Eq. 3
+and conﬁdence intervals for the SME coeﬃcients using
+Eq. 5. We also produce an additional set of constraints
+after accounting for GRB-intrinsic spectral evolution ef-
+fects (which can masquerade as LIV). In that case, we
+ﬁrst treat τn as being the sum of the GRB-intrinsic dis-
+persions τint and the LIV-induced dispersion τLIV, then
+we constrain τLIV assuming a model for τint, and ﬁnally
+constrain EQG and the SME coeﬃcients using the con-
+straints on τLIV.
+We employ the cosmological parameters determined
+using WMAP 7-year data Ω M = 0 . 272 and Ω Λ =
+0. 728 [38], and a value of H0 = 73. 8 ± 2. 4 km s − 1 Mpc− 1
+as measured by the Hubble Space Telescope [39].
+III. THE DATA
+We analyze the data from the four Fermi-LAT
+GRBs having bright GeV prompt emission and
+measured redshifts, namely GRBs 080916C, 090510,
+090902B, and 090926A. We analyze events passing the
+P7
+TRANSIENT V6 selection, optimized to provide in-
+creased statistics for signal-limited analyses [40]. Its
+main diﬀerence from the earlier P6
+V3 TRANSIENT se-
+lection used to produce previous Fermi constraints on
+LIV [22, 23] consists in improvements in the classiﬁcation
+algorithms, which brought an increase in the instrument’s
+acceptance mostly below ∼ 300 MeV 1.
+We reject events with reconstructed energies less than
+30 MeV because of their limited energy and angular re-
+construction accuracy. We do not apply a maximum-
+energy cut. In the case of GRB 080916C, however, we
+removed an 106 GeV event detected during the prompt
+emission, since detailed analyses by the LAT collabora-
+tion2 showed that it was actually a cosmic-ray event mis-
+classiﬁed as a photon.
+We keep events reconstructed within a circular region
+of interest (ROI) centered on the GRB direction and of a
+radius large enough to accept 95% of the GRB events ac-
+cording to the LAT instrument response functions, i.e., a
+radius equal to the 95% containment radius of the LAT
+point spread function (PSF). Because the LAT PSF is
+a function of the true photon energy and oﬀ-axis angle
+(the angle between the photon true incoming direction
+1 For a detailed list of diﬀerences see http://fermi.gsfc.na sa.gov/
+ssc/data/analysis/documentation/Pass7 usage.html
+2 not published
+TABLE I. Distances of Analyzed GRBs
+GRB Redshift κ 1 κ 2
+080916C 4.35 ± 0.15 [41] 4.44 13.50
+090510 0.903 ± 0.003 [42] 1.03 1.50
+090902B 1.822 [43] a 2.07 3.96
+090926A 2.1071 ±0.0001 [44] 2.37 4.85
+a This GRB had a spectroscopically-measured redshift, which
+implies an error at the 10 − 3 level.
+and the LAT boresight), the PSF containment radius is
+calculated on a per-photon basis. In this calculation, we
+approximate the (unknown) true oﬀ-axis angles and en-
+ergies with their reconstructed values, something that in-
+duces a slight error at low energies. Below ∼ 100 MeV, the
+LAT angular reconstruction accuracy deteriorates and
+the 95% containment radius becomes very large. To limit
+the inclusion of background events due to a very large
+ROI radius and also reject some of the least accurately
+reconstructed events, we limit the ROI radius to be less
+than 12 ◦ . The GRB direction used for the ROI’s center
+is obtained by follow-up ground-based observations (see
+citations in Tab. I) and can be practically assumed to
+coincide with the true direction of the GRB.
+The above data set are further split and cut depending
+on the requirements of each of the three analysis methods
+(as described below). Figure 1 shows the light curves and
+the event time versus energy scatter plots of the GRBs
+in our sample, and Tab. I shows the GRB redshifts and
+κ 1 and κ 2 distances (deﬁned in Eq. 4).
+Time Interval Selection
+The analyzed time intervals are chosen to correspond
+to the period with the highest temporal variability, fo-
+cusing on the brightest pulse of each GRB. This choice
+is dictated by the fact that GRB emission typically ex-
+hibits spectral variability, which can potentially manifest
+as a LIV-dispersion eﬀect (see discussion in Sec. VI for
+details on GRB spectral variability). By focusing on a
+narrow snapshot of the burst’s emission, we aim to ob-
+tain constraints that are aﬀected as little as possible by
+such GRB-intrinsic eﬀects. Starting from this require-
+ment, we select the time intervals to analyze, hereafter
+referred to as the “default” time intervals, using a pro-
+cedure we devised a priori and applied identically on all
+four GRBs.
+We start by characterizing the brightest pulse in each
+GRB by ﬁtting its time proﬁle with the ﬂexible model
+used by Norris et al. [45] to successfully ﬁt more than
+400 pulses of bright BATSE bursts:
+I(t) =
+{
+A exp[− (|t − tmax|/σ r)v] t < t max
+A exp[− (|t − tmax|/σ d)v] t ≥ tmax, ‘ (6)
+where tmax is the time of the pulse’s maximum intensity
+A, v is a parameter that controls the shape of the pulse,
+===== PAGE 5 =====
+5
+Energy (MeV)
+2
+10
+3
+10
+4
+10
+5
+10
+Energy (MeV)
+2
+10
+3
+10
+4
+10
+5
+10
+Energy (MeV)
+2
+10
+3
+10
+4
+10
+5
+10
+Energy (MeV)
+2
+10
+3
+10
+4
+10
+5
+10
+Time after trigger (sec)
+-5 0 5 10 15 20 25 30
+Events per 0.30 sec
+0
+2
+4
+6
+8
+10
+12
+14
+16
+GRB080916C
+Time after trigger (sec)
+-2 0 2 4 6 8 10 12 14
+Events per 0.05 sec
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+GRB090510
+Time after trigger (sec)
+0 20 40 60 80
+Events per 0.30 sec
+0
+2
+4
+6
+8
+10
+12
+14 GRB090902B
+Time after trigger (sec)
+0 5 10 15 20
+Events per 0.30 sec
+0
+5
+10
+15
+20
+25
+GRB090926A
+FIG. 1. Time and energy proﬁles of the detected events from th e four GRBs in our sample. Each column shows an event energy
+versus event time scatter plot (top) and a light curve (botto m). The vertical lines denote the time intervals analyzed (s olid line
+for n = 1 and dashed line for n = 2), the choice of which is described in Sec. IV. If a dashed li ne is not visible, it approximately
+coincides with the solid one.
+and σr and σd are the rise and decay time constants.
+For v = {1, 2} the equation describes a two-sided expo-
+nential or Gaussian function respectively. We use the
+best ﬁt parameters (as obtained from a maximum likeli-
+hood analysis) to deﬁne a “pulse interval” extending from
+the time instant that the pulse height rises to 5% of its
+amplitude to the time instant that it fells to 15% of its
+amplitude. We choose such an asymmetric cut because
+of the long falling-side tails of GRB pulses.
+We then expand this initial “pulse interval” until no
+photons that were generated outside of it (at the source)
+could have been detected inside of it (at the Earth) due
+to LIV dispersion, and also until no photons that were
+generated inside of it (at the source) could have been
+detected outside of it (at the Earth) due to LIV disper-
+sion. We use conservative values of EQG, 1 = 0 . 5 × EPl
+and EQG, 2 = 1 . 5 × 1010 GeV for the maximum degree
+of LIV dispersion considered in extending the time inter-
+val, values which correspond to roughly one half of the
+stringent and robust limits obtained by Fermi [23] and
+H.E.S.S. [28, 29]. The interval resulting from this expan-
+sion is the one chosen for the analysis (hereafter referred
+to as the “default” interval). The main reason for ex-
+tending the interval is to avoid constraining the possible
+emission time of the highest-energy photons in the initial
+“pulse interval” to a degree that would imply an artiﬁ-
+cially small level of dispersion.
+The choice of time interval for GRB 090510 and n = 1
+is demonstrated in Fig. 2. The (default) time intervals
+for all GRBs are shown in Fig. 1 with the vertical solid
+(n = 1) and dashed lines ( n = 2), and are also reported
+in Tab. II.
+===== PAGE 6 =====
+6
+Time after trigger (sec)
+-1 -0.5 0 0.5 1 1.5 2 2.5 3 3.5 4
+Events per 0.06 sec
+0
+5
+10
+15
+20
+25
+30
+35
+FIG. 2. Demonstration of the calculation of the default time
+interval for GRB 090510 and linear LIV. The data points show
+the event rate for energies greater than 30 MeV focusing on it s
+main pulse, the thick curve shows the ﬁt on the pulse using
+Eq. 6, the dashed vertical lines denote the “pulse interval” ,
+and the solid vertical lines denote the extended time interv al
+(the default interval) chosen for the analysis.
+IV. DATA ANALYSIS
+A. PairView and Sharpness-Maximization Methods
+Because the way we calculate conﬁdence intervals is
+identical between PV and SMM, we ﬁrst describe how
+the best estimate of the LIV parameter is calculated by
+each of these two methods, and then proceed to describe
+their common conﬁdence-interval calculation procedure.
+Best-Estimate Calculation: PairView
+The PV method calculates the spectral lags li,j be-
+tween all pairs of photons in a data set and uses the dis-
+tribution of their values to estimate the LIV parameter.
+Speciﬁcally, for a data set consisting of N photons with
+detection times t1...N and energies E1...N , the method
+starts by calculating the N × (N − 1)/ 2 photon-pair spec-
+tral lags li,j for each i > j :
+li,j ≡ ti − tj
+En
+i − En
+j
+(7)
+(where n is the order of LIV), and creates a distribution
+of their values.
+Let us examine how the distribution of li,j values de-
+pends on the properties of the data and LIV disper-
+sion. For a light curve comprising at emission a single
+δ-function pulse and for a dispersion τn, the li,j distri-
+bution will consist of a single δ-function peak at a value
+of exactly τn. For a light curve comprising (at emission)
+a ﬁnite-width pulse, the now non-zero time diﬀerences
+between the emission times of the events behave as noise
+inducing a non-zero width to the distribution of li,j . Sim-
+ilarly to the previous ideal case however, the li,j distribu-
+tion will be peaked at approximately τn. For a realistic
+light curve consisting of one or more peaks superimposed
+on a smoothly varying emission, the distribution of li,j
+will be composed of a signal peak centered at ∼ τn (con-
+sisting of li,j values created primarily by events i, j emit-
+ted temporally close and with not too similar energies)
+and a smoother underlying wide background (consisting
+of the rest of the li,j values).
+Following the above picture, the estimator ˆ τn of τn is
+taken as the location of the most prominent peak in the
+li,j distribution. This peak becomes taller and narrower,
+thus more easily detectable, as the variability time scale
+decreases and as the width of the energy range increases.
+Searching for the peak using a histogram of the li,j
+values would require us to ﬁrst bin the data, a procedure
+that would include choosing a bin width ﬁne enough to
+allow for identifying the peak with good sensitivity but
+also wide enough to allow for good statistical accuracy
+in the bin contents. We decided not to use a histogram
+to avoid the subjective choice of bin width. Instead, we
+use a kernel density estimate (KDE), as it provides a way
+to perform peak ﬁnding on unbinned data, and as it is
+readily implemented in easy to use tools with the ROOT
+TKDE method 3. We use a Gaussian kernel for the KDE
+and a bandwidth chosen such as to minimize the Mean
+Integrated Squared Error calculated between the KDE
+and a very ﬁnely binned histogram of the photon-pair
+lags.
+Best-Estimate Calculation: Sharpness-Maximization Meth od
+SMM is based on the fact that the application of any
+form of spectral dispersion to the data (e.g., by LIV) will
+smear the light curve decreasing its sharpness. Based
+on this, SMM tries to identify the degree of dispersion
+that when removed from the data (i.e., when the negative
+value of it is applied to the data) maximizes its sharp-
+ness. This approach is similar to the “Dispersion Cancel-
+lation”(DisCan) technique [33], the “Minimal Dispersion”
+method [46], and the “Energy Cost Function” method
+[26, 46]. The most important diﬀerence between these
+approaches is the way the sharpness of the light curve is
+measured.
+We start the application of SMM by analyzing a data
+set consisting of photons with detection times ti and en-
+ergies Ei to produce a collection of “inversely smeared”
+data sets, each corresponding to a trial LIV parameter
+τn, by subtracting En
+i × τn from the detection times ti.
+For each of the resulting data sets, the modiﬁed pho-
+ton detection times are ﬁrst sorted to create a new set
+t′
+i, and then the sharpness of its light curve is measured
+3 http://root.cern.ch/root/html/TKDE.html
+===== PAGE 7 =====
+7
+using t′
+i and Ei. After this procedure has been applied
+on a range of trial LIV parameters, we ﬁnd the inversely
+smeared data set with the sharpest light curve, and select
+the trial τn value used to produce it as the best estimate
+of ˆτn.
+In their analysis of the data from a ﬂare of the blazar
+Mrk 501, the MAGIC collaboration [26] quantiﬁed the
+sharpness of the light curve using an “Energy Cost Func-
+tion” , which was essentially the sum of the photon ener-
+gies detected in some predeﬁned time interval chosen to
+correspond to the most active part of the ﬂare. Scargle et
+al. [33] explored a range of diﬀerent cost functions to mea-
+sure the sharpness of the light curve, including Shannon,
+Renyi, and Fisher information, variance, total variation,
+and self-entropy, ﬁnding that the Shannon information
+is the most sensitive. In this study, we use a function S
+that is similar to the Shannon information and is deﬁned
+as:
+S(τn) =
+N − ρ∑
+i=1
+log
+(
+ρ
+t′
+i+ρ − t′
+i
+)
+, (8)
+where ρ is a conﬁgurable parameter of the method.
+Diﬀerent values of ρ will tune the algorithm to evaluate
+the sharpness of the light curve focusing on intervals con-
+sisting of diﬀerent numbers of events (i.e., of ρ events) or
+equivalently focusing on diﬀerent time scales. As a result,
+the choice of ρ aﬀects the performance of the algorithm in
+two ways. For a small value of ρ (up to ∼ 3), some of the
+durations in the denominator of S(τn) can become rela-
+tively very small, making some of the 1 / (t′
+i+ρ − t′
+i) terms
+very large. In this case, S(τn) can ﬂuctuate signiﬁcantly
+as a function of the trial lag, decreasing the accuracy with
+which the best LIV parameter can be measured. For too
+large values of ρ the algorithm essentially tries to mini-
+mize the total duration of the analyzed data, focusing on
+time scales larger than the variability time scale, ending
+up with a diminished sensitivity (in practice the peak of
+S becomes ﬂatter). These eﬀects are demonstrated in
+Fig. 3.
+To choose the value of ρ we ﬁrst generate a large num-
+ber of simulated data sets inspired by the GRB under
+study, we then apply the method using a series of dif-
+ferent ρ values, and ﬁnally we choose the ρ value that
+produces the most constraining median upper limit on τn
+(for s± = +1). These simulated data sets are constructed
+similarly to the procedure described in Appendix A us-
+ing a light-curve template produced by a KDE of the
+actual light curve, with the same statistics as the data,
+a spectrum similar to that in the data, and without any
+spectral dispersion applied.
+Finally, it should be noted that the method’s descrip-
+tion above was for the case of zero source-intrinsic spec-
+tral evolution eﬀects since the light curve of the GRB
+mission at the source was treated as being maximally
+sharp. This picture is equivalent to assuming that there
+is an initial (imaginary) maximally-sharp signal that is
+ﬁrst distorted by GRB-intrinsic eﬀects and then by LIV.
+In that case, the constraints provided by SMM will be on
+the aggregate eﬀect.
+(s/GeV)1τ
+-0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1
+Sharpness Measure S (arb. norm.)
+=1ρ
+=2ρ
+=5ρ
+=10ρ
+=20ρ
+=40ρ
+=60ρ
+FIG. 3. Curves of SMM’s sharpness measure S(τn) versus
+the trial value of the LIV parameter τ1, each produced using
+a diﬀerent ρ value. These curves were generated using the
+GRB 090510-inspired data set described in Appendix A after
+the application of a dispersion equal to +0.04 s/GeV (value
+denoted with the vertical line). The circles denote the maxi ma
+of the curves, the positions of which are used to produce ˆ τ1.
+As can be seen, too small or too large values of ρ correspond
+to a reduced accuracy for measuring the position of the peak.
+Conﬁdence-Interval Calculation
+The PV and SMM methods produce a conﬁdence in-
+terval on the best LIV parameter by means of a random-
+ization analysis.
+We start by producing one hundred thousand random-
+ized data sets by shuﬄing the association between ener-
+gies and times of the detected events. Because the total
+number of events and the distributions of energies and
+times are identical between the actually detected and the
+randomized data sets, their statistical power (i.e., their
+ability to constrain the dispersion) is similar. However,
+because of the randomization, any dispersion potentially
+present in the actual data is lost. After the set of ran-
+domized data sets is constructed, the best LIV parameter
+is measured on each one of them and the measurements
+are used to create a (normalized to unity) distribution
+fr.
+We then deﬁne the measurement error on τn (for the
+general case of any τn) as E = ˆτn − τn and the probability
+distribution function (PDF) of E as PE (ǫ), where ǫ is a
+random realization of E. We assume that PE has a negli-
+gible dependence on τn (at least for the range of values of
+τn expected to be present in the data) and approximate:
+PE (ǫ) ≃ PE (ǫ|τn = 0). (9)
+The PDF PE for the case of a zero τn, PE (ǫ|τn = 0), can
+be identiﬁed as the normalized distribution fr produced
+===== PAGE 8 =====
+8
+using our randomization simulations. Thus,
+PE (ǫ) ≃ fr(ǫ). (10)
+Since E is a quantity with a known PDF and since it
+depends on the unknown parameter τn, it can be used as
+a pivotal quantity to construct a two-sided Conﬁdence
+Interval (CI) of Conﬁdence Level (CL) for τn as:
+CL = P r(q(1− CL)/ 2 < E < q (1+CL)/ 2) (11)
+= P r(q(1− CL)/ 2 < ˆτn − τn < q (1+CL)/ 2)
+= P r(ˆτn − q(1+CL)/ 2 < τn < ˆτn − q(1− CL)/ 2)
+= P r(LL < τ n < U L),
+where LL = ˆτn − q(1+CL)/ 2 and U L = ˆτn − q(1− CL)/ 2 are
+the lower and upper limits deﬁning the CI, and q(1− CL)/ 2
+and q(1+CL)/ 2 are the (1− CL)/ 2 and (1+CL)/ 2 quantiles
+of fr.
+To produce a lower limit on EQG for the subluminal
+or the superluminal case, we use eq. 3 substituting τn
+with its lower or upper limit, respectively, and solve for
+EQG.
+B. Likelihood Method
+The ML ﬁt procedure used in this work has been de-
+veloped and applied by Martinez and Errando [27] to
+MAGIC data for the 2005 ﬂare of Mkn 501 and by
+Abramowski et al. [29] to H.E.S.S. data for the gigantic
+ﬂare of PKS 2155 − 304 in 2006. This section describes its
+key aspects, its underlying assumptions, and the details
+of its application to GRB data.
+The ML method consists in comparing the arrival time
+of each detected photon with a template light curve which
+is shifted in time by an amount depending linearly or
+quadratically on the event’s energy. For a ﬁxed num-
+ber of independent events Nﬁt with energies and times
+{Ei, t i}i=1,N fit observed in the energy and time intervals
+[Ecut, E max] and [ t1, t 2], the unbinned likelihood function
+is:
+L =
+Nfit∏
+i=1
+P (Ei, t i|τn), (12)
+where P is the PDF of observing one event at en-
+ergy E and time t, given τn. For an astrophysi-
+cal source observed by a gamma-ray telescope, it is
+P (Ei, t i|τn) = R(Ei, t i|τn)/N pred, where R is the ex-
+pected diﬀerential count rate at energy E and time t and
+Npred =
+∫ Emax
+Ecut
+∫ t2
+t1
+R(E, t |τn) dE dt is the total number
+of events predicted by the model. For a point-like source
+observed by the Fermi-LAT:
+R(E, t |τn) =
+∫ ∞
+0
+F (Et, t |τn) Aeﬀ (Et) D(Et, E ) dEt,
+(13)
+where F (Et, t |τn) is the model for the photon ﬂux which
+is incident on the LAT at the photon (true) energy Et
+and time t, whereas Aeﬀ (Et)4 and D(Et, E ) are the LAT
+eﬀective area and energy redistribution functions, respec-
+tively. As the energy resolution with the LAT is better
+than 15% above 100 MeV [40] we can neglect any energy
+mis-reconstruction eﬀects. Assuming no spectral vari-
+ability and that the ﬂux spectrum follows a power law
+with possible attenuation at the highest energies, then:
+F (E, t |τn) = φ 0 E− Γ e− E/E f f (t − τnEn), (14)
+where Γ is the time-independent spectral index, Ef is the
+cutoﬀ energy, and the function f (t) is the time proﬁle
+of the emission that would be received by the LAT in
+case of a null LIV-induced lag τnEn. We explain further
+below how the function f (t) is derived from the data in
+practice. Finally, deﬁning the observed spectral proﬁle
+as Λ( E) = φ 0 E− Γ e− E/E f Aeﬀ (E), we obtain:
+P (E, t |τn) = Λ( E) f (t − τnEn)/N pred (15)
+. Thus, the ML estimator ˆ τn of the LIV parameter τn
+satisﬁes:
+[ N∑
+i=1
+∂ log f (ti − τnEn
+i )
+∂τn
+− Nﬁt
+Npred
+∂N pred
+∂τn
+]
+τn=ˆτn
+= 0.
+(16)
+For the brightest LAT-detected GRBs, Nﬁt ≳ 50 typi-
+cally (see Tab. II) thus a good estimate of the sensitivity
+oﬀered by the estimator ˆ τn can be obtained by consid-
+ering the ideal case of the large sample limit. In this
+regime, ˆτn is unbiased and eﬃcient like any ML estima-
+tor. Namely, its variance reaches the Cram´ er-Rao bound,
+e.g., given by Eq. (9.34) page 217 of [47]:
+V [ˆτn] =
+[
+Nﬁt
+∫ Emax
+Ecut
+∫ t2
+t1
+1
+P
+( ∂P
+∂τn
+) 2
+dE dt
+] − 1
+. (17)
+As the time proﬁle can be measured up to very large times
+in case of large photon statistics, one can show that the
+standard deviation of ˆτn is simply given by:
+σ [ˆτn] = 1
+√
+Nﬁt⟨g2⟩⟨E2n⟩h
+, (18)
+where ⟨g2⟩ =
+∫ +∞
+−∞
+f ′(t)2/f (t) dt (= 1 /σ 2 for a Gaus-
+sian time proﬁle of standard deviation σ ), ⟨Em× n⟩h =∫ Emax
+Ecut
+Em× n Λ(E) dE / Λh and Λ h =
+∫ Emax
+Ecut
+Λ(E) dE.
+4 The eﬀective area also depends on the direction of the source in
+instrument coordinates, a typically continuously varying quan-
+tity. W e can drop the time dependence by approximating
+Aeﬀ (Et, t) with its averaged over the observation value Aeﬀ (Et).
+===== PAGE 9 =====
+9
+The above expression for σ [ˆτn] is a good approximation
+(within a factor 2 to 3) of the actual standard deviation
+of ˆτn, and it gives a useful estimate of the expected sen-
+sitivity. However, our ﬁnal results are based on a proper
+derivation of conﬁdence intervals as described further be-
+low in this section.
+The spectral proﬁle Λ( E) is constant with time since
+Γ is assumed to be constant during the considered time
+interval (see further discussions on possible spectral evo-
+lution eﬀects in Sec. VI). The spectral proﬁle is also in-
+dependent of the LIV parameter, and is only used as
+a weighting function in the PDF normalization Npred.
+For these reasons, we approximate the spectral proﬁle
+by a power-law function (with a ﬁxed attenuation when
+needed):
+Λ(E) ∝ E− γ e− E/E f . (19)
+The spectral index γ is obtained from the ﬁt of the above
+function to the time-integrated spectrum S(E) observed
+by the LAT:
+S(E) =
+∫ t2
+t1
+F (E, t |τn) Aeﬀ (E) dt. (20)
+In practice, we deﬁne a Ecut ∈ [100, 150] MeV and we
+ﬁt the spectrum S(E) above Ecut (see Fig. 7 for an ex-
+ample) in order to obtain a fairly good estimate of the
+spectral index, namely γ ≃ Γ within errors (see discus-
+sion in Sec. VI regarding this approximation). For the
+case of GRB 090926A, we use a power-law function that
+has an exponential break, in accordance with the ﬁndings
+of Ackermann et al. [48].
+Knowledge of the time proﬁle f (t) is crucial for the ML
+analysis. Typically, Ecut divides the LAT data set in two
+samples of roughly equal statistics. The ML analysis is
+performed using events with energies above Ecut, whereas
+the ﬁt of the light curve C(t) observed by the LAT below
+Ecut is used to derive the time proﬁle:
+C(t) =
+∫ Ecut
+Emin
+Λ(E) f (t − τnEn) dE ≃ Λl f [t − τn⟨En⟩l],
+(21)
+where Emin = 30 MeV, Λ l =
+∫ Ecut
+Emin
+Λ(E) dE and ⟨En⟩l =
+∫ Ecut
+Emin
+En Λ(E) dE / Λl. The Taylor expansion used in
+Eq. (21) is justiﬁed as LIV-induced lags are eﬀectively
+negligible for low-energy events, and it yields the time
+proﬁle:
+f (t) = C[t + τn⟨En⟩l] / Λl ≃ C (t) / Λl. (22)
+In practice, we ﬁt the light curve C(t) with a function
+comprising up to three Gaussian functions (see for ex-
+ample Fig. 6). The ﬁt is performed on events detected
+in a time interval somewhat wider than the default time
+intervals (deﬁned in the beginning of Sec. IV) to allow
+for better statistics and because the calculations need an
+estimate of the GRB ﬂux at times that are also external
+to the default time intervals.
+We then proceed with calculating the likeli-
+hood function L for a series of trial values of
+the LIV parameter τn, and plotting the curve of
+− 2∆ln(L) = − 2 ln [L(τn)/ L(ˆτn)] as a function of τn. We
+ﬁrst produce a best estimate of τn, ˆτn, equal to the
+location of the minimum of the − 2∆ln(L) curve. We
+also produce a CI on τn for an approximately two-sided
+CL (90%, 99%) using the two values of τn around the
+global minimum at ˆ τn for which the curve reaches a
+values of 2.71 and 6.63, respectively 5. Hereafter we
+refer to these CIs as being obtained “directly from the
+data” . In addition, we produce a set of “calibrated” CIs
+on τn using Monte Carlo simulations and as described
+in Appendix B. The calibrated CIs take into account
+intrinsic uncertainties arising from the ML technique
+(e.g., due to biases from the ﬁnite size of the event sam-
+ple or from an imperfect characterization of the GRB’s
+light curve), and are, most importantly, constructed to
+have proper coverage. Our ﬁnal constraints on the LIV
+parameter and the LIV energy scale are produced using
+the calibrated CIs.
+As a ﬁnal note, we would like to stress that the time
+shift τn⟨En⟩l in Eq. (22) has been set to zero following
+Refs. [27, 29]. This implies that the time correction of any
+event entering the likelihood function is overestimated by
+a factor 1 /η n, with ηn = 1 − ⟨ En⟩l/E n ∈ [0. 5, 1. 0] for
+E ∈ [0. 1, 30] GeV, n = 1 and, e.g., ⟨E⟩l = 50 MeV. In
+principle, ignoring this time shift would thus produce an
+additional uncertainty ˆτn − τn which is negative on aver-
+age. This would also slightly distort the likelihood func-
+tion since ηn varies with photon energy, possibly causing
+a reduction in sensitivity. In the large sample limit, one
+can show that the bias of the estimator takes the form
+bn ≃ − τn⟨En⟩l⟨En⟩h/ ⟨E2n⟩h, namely the fractional bias
+bn/τ n is negative and decreases with increasing hardness
+of the spectrum. In practice, it ranges from ∼ 0.5% to
+∼ 8% for spectral hardnesses similar to the ones of bursts
+we analyzed. In addition, due to the limited photon
+statistics available in our analysis and to the relatively
+small values of τn likely to be present in the data, the
+ratio bn/σ [ˆτn] is also negligible (a few percent at most).
+One should, however, keep this eﬀect in mind for future
+analyses of much brighter sources and/or in case of sig-
+niﬁcant detections of LIV eﬀects.
+C. Estimating the Systematic Uncertainty due to
+Intrinsic Spectral Evolution
+So far we have concentrated on characterizing the sta-
+tistical uncertainties of our measurements. However, sys-
+5 These two values correspond to the (90%, 99%) CL quantile of
+a χ2
+1 distribution.
+===== PAGE 10 =====
+10
+tematic uncertainties can also be very important and
+should be taken into account, if possible. Here, we de-
+scribe how we model the dominant systematic uncer-
+tainty in our data, namely the intrinsic spectral evolu-
+tion observed in GRB prompt-emission light curves. A
+detailed discussion of this phenomenon is given in Sec. VI.
+For simplicity, in our introduction of LIV formalism
+(Sec. II), we implicitly ignored the presence of GRB-
+intrinsic eﬀects (which can in general masquerade as a
+LIV-induced dispersion), and instead just used the quan-
+tity τn to describe the degree of dispersion in the data.
+However, τn describes the total degree of dispersion and
+is, in general, the sum of the LIV-induced degree of dis-
+persion, described by a parameter τLIV, and the GRB-
+intrinsic degree of dispersion, described by a parameter
+τint, i.e.,
+τn = τint + τLIV.
+Our methods do not diﬀerentiate between the diﬀerent
+sources of dispersion. Instead, they directly measure and
+constraint their sum τn. We can either ignore any intrin-
+sic eﬀects (i.e., assume τint ≃ 0) and proceed directly to
+constrain LIV using the obtained CI on τn or we can ﬁrst
+assume a model for τint, proceed to constrain τLIV, and
+ﬁnally constrain LIV using the CI on τLIV. The second
+approach is more appropriate for constraining LIV, since
+its results are more robust with respect to the presence
+of GRB-intrinsic eﬀects 6.
+In principle, one could try to model τint using some
+knowledge of the physical processes generating the de-
+tected GRB emission or possibly using phenomenological
+models constructed from large sets of MeV/GeV observa-
+tions of GRBs. Unfortunately, because of the scarcity of
+GRB observations at LAT energies, neither approach has
+reached a mature enough stage to produce trustworthy
+and robust predictions of GRB spectral lags (at such en-
+ergies). Thus, any attempts to model τint would, at this
+point, likely end up producing unreliable constraints on
+LIV. However, a more robust and conservative approach
+can be adopted, as follows.
+Since we do not have a model for τint that reliably
+predicts GRB-intrinsic lags, we instead choose to model it
+in a way that produces the most reasonably conservative
+constraints on τLIV.
+One of the main considerations behind modeling τint
+is the reasonable assumption that our measurements of
+τn are dominated by GRB intrinsic eﬀects or in other
+words that our constraints on τn also apply to τint. We
+start with the fact that we already have obtained a coarse
+measurement of the possible magnitude of τint, provided
+by our constraints on τn. Speciﬁcally, we know that the
+6 Since the majority of previously published LIV constraints have
+not taken into account GRB-intrinsic eﬀects, limits of the ﬁ rst
+approach are still useful for comparing experimental resul ts
+across diﬀerent studies.
+value of τint (for a particular observation) is not likely
+larger than the width of the allowed range of τn, as de-
+scribed by its CIs 7. Thus, we start with the working
+assumption that the width of the possible range of τint is
+equal to the possible range of τn (as inferred by our CIs
+on it).
+Second, we assume that the τint has a zero value on
+average. This is a reasonable assumption given that we
+analyze in this study only cases where there is no clear
+detection of a spectral lag signal (i.e., τn is consistent
+with zero within the uncertainty of its measured value).
+Moreover, this also avoids the need for introducing by
+hand a preferred sign for ⟨τint⟩.
+In principle, there are inﬁnite choices for a particular
+shape of τint given our constraint for its width and (zero)
+mean value. We choose the one that produces the least
+stringent (the most conservative) overall constraints on
+τLIV, by modeling τint so that it reproduces the allowed
+range of possibilities of τn. For example, if our mea-
+surements imply that the data are compatible with (i.e.,
+they cannot exclude) a positive τn, then we appropri-
+ately adjust τint to match (explain) this possibility. This
+approach leads to conﬁdence intervals on τLIV that have
+the largest possible width. Other choices for modeling
+τint can produce intervals more stringent either at their
+lower or their upper edge, but they cannot produce more
+stringent overall (i.e., when considering both their edges)
+constraints. The implementation of our model for τint,
+deﬁned as Pτint(˜τint) with ˜τint being a random realiza-
+tion of τint, depends on the particular method PV/SMM
+versus ML, and is described separately below.
+For constructing CIs on τLIV with PV and SMM, we
+use a similar approach as in Eq. 11. However, instead of
+using as a pivotal quantity E = ˆτn − τn, we now use
+E ′ = ˆτn − τLIV
+= ˆτn − τn + τint
+= E + τint. (23)
+If we deﬁne the PDF of E ′ as PE ′(ǫ′), where ǫ′ is a random
+realization of E ′, and if q′
+(1− CL)/ 2 and q′
+(1+CL)/ 2 are its
+(1 − CL)/ 2 and (1 + CL)/ 2 quantiles, then starting from
+CL = P r(q′
+(1− CL)/ 2 < E ′ < q ′
+(1+CL)/ 2), we derive a CI on
+τLIV of conﬁdence level CL:
+CL = P r(LL′ < τLIV < U L′) (24)
+= P r(ˆτn − q′
+(1+CL)/ 2 < τLIV < ˆτn − q′
+(1− CL)/ 2).
+Similarly to the CI on τn which depends on the quan-
+tiles of PE (approximated by fr), the CI on τLIV depends
+7 The alternative case of a large τint being approximately canceled
+by an oppositely large τLIV seems extremely unlikely since it
+would require the improbable coincidence of LIV actually ex ist-
+ing, that the sign of the dispersion due to LIV being opposite of
+the sign of the dispersion due to intrinsic eﬀects, and that t he
+magnitudes of the two eﬀects be comparable for each of the fou r
+GRBs (a “conspiracy of Nature” ).
+===== PAGE 11 =====
+11
+on the quantiles of PE ′. Assuming that the two compo-
+nents of E ′ (E and τint) are independent, PE ′ is given by
+the convolution of their PDFs:
+PE ′(ǫ′) =
+∫ ∞
+−∞
+fr(ǫ′ − ˜τint)Pτint(˜τint)d˜τint. (25)
+Up to now, we have described a general way to pro-
+duce CIs on τLIV, independent of the particular choice of
+Pτint. We mentioned above that we would like to choose
+a model for τint such that it matches any part of the pa-
+rameter space for τn not excluded by the data. From the
+expression of the lower and upper limits for τn (Eq. 11)
+we observe that a large (say) positive tail in the fr distri-
+bution implies that our observations are compatible with
+(they cannot exclude) a symmetrically negative part of
+the parameter space of τn, and vice versa. Based on this
+observation, we choose to model Pτint(˜τint) as fr(− ˜τint).
+With this choice, Eq. 25 becomes:
+PE ′(ǫ′) =
+∫ ∞
+−∞
+fr(ǫ′ − ˜τint)fr(− ˜τint)d˜τint = PAC(ǫ′),
+(26)
+where PAC(ǫ′) is deﬁned as the autocorrelation func-
+tion of fr with argument ǫ′. As an autocorrelation
+function, PE ′(ǫ′) is an even function with maximum at
+zero. Because of this symmetry, its (1 + CL)/ 2 and
+(1 − CL)/ 2 quantiles, q′
+(1+CL)/ 2 and q′
+(1− CL)/ 2, respec-
+tively, are equal. Thus, the conﬁdence interval in Eq. 24
+is symmetric around the observed value ˆτn. Finally, since
+⟨τint⟩ was chosen to be zero, in addition to ˆ τn being our
+best estimate for τn, it is also our best estimate for τLIV.
+A demonstration of the application of this method for
+GRB 090510, PairView, and n = 1 is shown in Sec. V, in
+Fig. 12.
+The conﬁdence interval on τLIV is wider than the one
+calculated on τn by a degree that depends on the width
+and shape of the possible variations in τint (and thus of
+fr). In the simple case of fr following a Gaussian dis-
+tribution, then the width would increase by a factor of
+√
+2. In our case, the function fr does not always follow
+a Gaussian, hence the increase is not in general equal to
+√
+2.
+For the case of the ML method, we follow the same
+main idea (i.e., assume a Pτint following our observational
+uncertainty on τn and produce conﬁdence intervals on
+τLIV) but apply it a diﬀerent way. In this case, we run a
+second set of calibration simulations, in which the likeli-
+hood function is modiﬁed to include a not-necessarily-
+zero delay due to GRB-intrinsic eﬀects. Speciﬁcally,
+Eq. 14 becomes:
+F ′(E, t |τLIV; ˜τint) =
+φ 0 E− Γ e− E/E f f (t − τLIVEn − ˜τintEn). (27)
+In each iteration of the simulation, we sample a diﬀer-
+ent random value ˜τint from the assumed Pτint PDF and
+proceed normally to produce a distribution of lower and
+upper limits on τLIV, the means of which will deﬁne our
+conﬁdence interval on τLIV. The Pτint distribution is cho-
+sen in a similar way to the PV/SMM case using the distri-
+butions of ˆτn produced during the ﬁrst set of calibration
+simulations. The properties of the generated conﬁdence
+intervals produced with this approach are the same as
+those constructed by the PV/SMM methods.
+We would like to add a point on the meaning of the
+distribution Pτint. In general, the properties of the emis-
+sion from a given GRB depend on two factors: the ini-
+tial properties describing the GRB’s generating system
+(e.g., mass, rotation speed, environment, redshift, etc.)
+and the randomness involved in the physical processes
+involved in producing the emission. We can imagine the
+τint quantity as a constant unknown parameter (a “true
+parameter” ) that describes the range of possibilities for
+both factors mentioned above, thus Pτint can be consid-
+ered as its Bayesian prior. We can alternatively imagine
+the existence of some true parameter τint, 0 = ⟨τint⟩ (cho-
+sen to be zero) that depends solely on the progenitor
+properties, and that, during a GRB explosion, a random
+realization ˜τint is produced depending on the τint, 0 of that
+particular GRB system. In this case, we can imagine Pτint
+as a frequentist description of the range of possible ˜ τint
+values occurring among an inﬁnite number of GRBs, all
+initiated by the same initial conditions (i.e., having the
+same τint, 0). Based on the above, Pτint can be consid-
+ered as a Bayesian prior or alternatively as a frequentist
+statement of the possible values of ˜τint across inﬁnite rep-
+etitions of a GRB – the particular choice, however, does
+not matter.
+As a ﬁnal note we should mention that our approach
+assumes that the experimental results allow the possibil-
+ity of τn being zero. With some additional assumptions,
+however, this approach can be generalized to include the
+case of a detection of a non-zero τn. For example, we
+could make the assumption that a detected non-zero to-
+tal dispersion is merely result of GRB-intrinsic eﬀects,
+allow for ⟨τint⟩ to take a non-zero value (with ˆ τn being
+the most conservative choice), and produce a ﬁnal con-
+ﬁdence interval on a residual τLIV (that would still be
+consistent with a zero τLIV).8. It can be said that this
+method allows us to quantify the degree to which GRB-
+intrinsic eﬀects reduce our ability to detect a residual
+LIV-induced dispersion.
+V. RESULTS
+The conﬁguration of our methods is shown in Tab. II,
+in which we report the range (relative to the GBM trigger
+8 If a non-zero dispersion is detected, it would also be intere sting to
+test the alternative possibility that this dispersion migh t indicate
+a non-zero value of τLIV, rather than be fully attributed to τint
+as assumed in our method. Since most GRB properties vary
+weakly throughout the burst prompt emission, we may expect
+τint to also do so. In such a case, varying the time interval could
+change the measured value of τint , while not aﬀecting τLIV.
+===== PAGE 12 =====
+12
+time) of the analyzed data samples (common to all the
+methods), the value of SMM’s smoothing parameter ρ,
+the numbers of events used with PV and SMM N100, and
+some quantities relevant to the ML method, namely the
+ﬁtted index γ of the observed spectrum S(E), the number
+of events in the two parts of the data used for ﬁtting
+the light-curve template Ntemplate and for calculating the
+likelihood Nﬁt, and the energy separating these two parts
+of the data Ecut.
+It is known that the spectra of LAT-detected GRBs
+typically comprise two spectral components: a Band (two
+smoothly connected power laws [49]) plus a power law
+function. These components do not necessarily have the
+exact same light curves and their spectra do not evolve
+in an identical fashion. As a result, an analysis of a data
+set consisting of events from both of these components
+might exhibit GRB-intrinsic spectral evolution that may
+be erroneously interpreted as LIV. This can be an im-
+portant systematic uncertainty, and is discussed further
+in Sec. VI. To reduce the inﬂuence of this eﬀect, we per-
+formed the PV and SMM analyses on a data set starting
+from 100 MeV (instead of 30 MeV), a choice made a
+priori to reduce the contamination from the Band spec-
+tral component 910. Because of the greater demand for
+statistics of the ML method, we did not apply such a
+minimum-energy cut for this method, and instead we
+used the events from Ecut down to 30 MeV for the light-
+curve template construction. As a result, any diﬀerences
+in the temporal properties of the two spectral compo-
+nents might have aﬀected the ML method more than the
+other two methods. However, the magnitudes of any such
+uncertainties are limited by the typically small contribu-
+tion of the Band component to the analyzed data and are
+likely smaller than the statistical errors.
+We produce constraints for two conﬁdence levels: a
+90% two-sided (or equivalently 95% one-sided) CL and a
+99% two-sided (or equivalently 99.5% one-sided) CL. In
+the following, the “one-sided” or “two-sided” designations
+of the CLs may be omitted for brevity.
+An example plot used for choosing SMM’s ρ parame-
+ter, here for the case of GRB 090510 and n = 1, is shown
+in Fig. 4. For this case, we chose the value of ρ=50, cor-
+responding to the minimum of the curve. The ﬂatness
+of the curve around the minimum implies a weak depen-
+dence of the method’s sensitivity on ρ (in the vicinity of
+the minimum).
+Figure 5 demonstrates the application of the PV and
+SMM methods on GRB 090510 for n = 1. The top pan-
+els show how the best estimate of the LIV parameter is
+9 The spectrum of GRB 080916C comprises just one spectral com-
+ponent (Band). Thus, even though we did not need to reject the
+30–100 MeV events for that GRB, we still applied this cut for
+consistency between the four analyzed data sets.
+10 The particular value of 100 MeV is also the minimum energy typ -
+ically used in LAT science analyses, since the LAT reconstru ction
+accuracy starts to deteriorate below this energy.
+ρ
+0 10 20 30 40 50 60 70 80 90
+ (s/GeV)1τMedian UL on  
+0.025
+0.03
+0.035
+0.04
+0.045
+0.05
+0.055
+FIG. 4. The median of the distribution of 99% CL upper
+limits (generated from simulated data sets inspired by the
+detected light curve) versus ρ. The error bars show the 1 σ
+statistical uncertainty (arising from the ﬁnite number of s im-
+ulated data sets). This distribution is used for choosing th e
+value of SMM’s ρ parameter for the GRB 090510 n = 1 ap-
+plication.
+measured, speciﬁcally from the location of the maximum
+of the KDE of the photon-pair lag distribution for PV
+(left column) and from the location of the maximum of
+the sharpness measure S for SMM (right column). The
+bottom panels show the distributions fr of the best LIV
+parameters in the randomized data sets, used for con-
+structing the CIs. Their asymmetry and features (in-
+versely) follow the shape of the analyzed light curves.
+The mean value of fr can be used as an estimate of the
+bias of ˆτn. Except for GRB 090510, the magnitude of the
+bias is considerably smaller than the variance of fr (i.e.,
+up to ∼ 10% of the variance); for GRB 090510, it in-
+creases up to 50% of the variance. The absolute value of
+the median of fr is for all cases smaller than ∼ 10% of the
+variance. We correct ˆ τn for biases by subtracting from
+it the mean value of the fr distribution. The veriﬁca-
+tion simulations of PV/SMM (described in Appendix A)
+show that the coverage of the produced CIs is approxi-
+mately proper even for asymmetric or non-zero-mean fr
+distributions, such as the ones shown.
+The light-curve template for GRB 090510 used by the
+ML method is shown in Fig. 6. Any statistical errors
+involved in the generation of the light-curve templates
+are properly included in the calibrated CIs of the ML
+method, as described in Appendix B.
+We show the spectral ﬁt of the observed events from
+GRB 080916C in Fig. 7, which is used to calculate the
+spectral index γ used by the ML method. The drop in
+the spectrum at low energies is caused by the sharp de-
+crease of the LAT eﬀective area at those energies. In all
+cases, we choose Ecut to be larger than the energy that
+this instrumental cutoﬀ becomes important. This ensures
+that the spectral index γ of the observed events is a good
+approximation of the index Γ of the incoming GRB ﬂux
+===== PAGE 13 =====
+13
+TABLE II. Conﬁguration Details
+GRB Time Range (s) ρ N 100 γ N template Nﬁt Ecut (MeV)
+All Methods SMM PV & SMM Likelihood
+n = 1 n = 2 n = 1 n = 2 n = 1 n = 2 n = {1, 2} n = {1, 2} n = 1 n = 2 n = {1, 2}
+080916C 3.53–7.89 3.53–7.80 50 30 59 59 2.2 82 59 59 100
+090510 -0.01–3.11 -0.01–4.82 50 70 157 168 1.5 148 118 125 150
+090902B 5.79–14.22 5.79–14.21 80 80 111 111 1.9 57 87 87 150
+090926A 8.92–10.77 9.3–10.76 25 30 60 58 2.2 a 53 48 47 120
+a The spectral model for this GRB also includes an exponential cutoﬀ with pre-set e-folding energy Ef =0.4 GeV in accordance with
+Ackermann et al. [48].
+Photon-pair lags (s/GeV)
+-0.3 -0.2 -0.1 0 0.1 0.2 0.3
+Entries per bin (arb. norm.)
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+LIV parameter (s/GeV)
+-0.1 -0.05 0 0.05 0.1
+Sharpness Measure S
+484
+486
+488
+490
+492
+τ^
+1(s/GeV)
+-0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1
+Simulations per bin
+0
+2000
+4000
+6000
+8000
+10000
+12000
+14000
+16000
+τ^
+1(s/GeV)
+-0.04 -0.02 0 0.02 0.04 0.06 0.08
+Simulations per bin
+0
+2000
+4000
+6000
+8000
+10000
+12000
+FIG. 5. Plots demonstrating the application of PV (left colu mn) and SMM (right column) on GRB 090510 for n = 1. Top left:
+distribution of photon-pair lags (histogram), KDE of the di stribution (thick curve), location of the KDE’s maximum use d as
+ˆτn by PV (vertical dashed line). Top right: sharpness measure S versus trial LIV parameter τn (histogram), location of the
+curve’s maximum used as ˆ τn by SMM (vertical dashed line). Bottom row: distributions fr of the best estimates of the LIV
+parameter of the randomized data sets (histograms), 5% and 9 5% quantiles (dashed lines), 0.5% and 99.5% quantiles (dott ed
+lines), and average value (central solid line).
+(within statistical errors). It allows us to considerably
+simplify the ML analysis by not having to deconvolve the
+instrument’s acceptance from the observed data or hav-
+ing to include the instrument’s response in the likelihood
+function.
+Finally, Fig. 8 demonstrates the application of the ML
+method, showing all the -2∆ln( L) curves. We use the
+locations of the minima and the shapes of these curves
+to produce the best estimates and the (obtained directly
+from the data) CIs on τn, respectively. These curves
+are not exactly parabolic (and/or a transformation to a
+parabolic shape is not always possible). Therefore, any
+CIs produced based solely on their shape do not have
+an exactly proper coverage. The calibrated ML CIs (de-
+scribed in Appendix B) have by construction proper cov-
+erage, and are the ones used to constrain the quantities
+of the LIV models.
+===== PAGE 14 =====
+14
+Time (s)
+0.5 1 1.5 2 2.5 3 3.5
+Events per 0.1 sec
+0
+5
+10
+15
+20
+25
+30
+GRB 090510
+FIG. 6. Template light-curve ﬁt for GRB 090510 used by
+the ML method. Actual data (histogram), ﬁt template (thick
+curve), ±1σ error ranges of the ﬁt (external thin curves).
+(Energy/MeV)
+10
+log1.5 2 2.5 3 3.5
+Events/bin
+1
+10
+FIG. 7. Fit of the spectrum of detected events from
+GRB 080916C used to produce the index γ of the S(E) func-
+tion used by the ML method.
+Constraints on the Total Degree of Dispersion, τn
+Table III reports our constraints on the total degree of
+dispersion, τn, and Fig. 9 shows our CIs on τn plotted
+versus the distance κ n. According to LIV models (i.e.,
+Eq. 3), the magnitude of the observed dispersion due to
+LIV is proportional to κ n. Thus, a positive correlation
+of τn and κ n may imply a non-zero LIV eﬀect. In our
+case and as can be seen from Fig. 9, no such correlation
+is evident. Additionally, all of our 99% CIs are compati-
+ble with a zero τn. Both features show that a LIV eﬀect,
+if any, is dominated in this analysis by statistical and
+systematic (likely arising from GRB-intrinsic eﬀects) un-
+certainties. Finally, we note that the results of the three
+methods (for the same GRB) are in good agreement to
+ (s/GeV)τ
+-0.04 -0.03 -0.02 -0.01 0 0.01 0.02 0.03 0.04
+ log(L)∆-2
+0
+2
+4
+6
+8
+10
+12
+14
+ (s/GeV)τ
+-1.5 -1 -0.5 0 0.5 1 1.5
+ log(L)∆-2
+0
+2
+4
+6
+8
+10
+12
+14
+)2 (s/GeVτ
+-0.004 -0.003 -0.002 -0.001 0 0.001 0.002 0.003
+ log(L)∆-2
+0
+2
+4
+6
+8
+10
+12
+14
+)2 (s/GeVτ
+-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1
+ log(L)∆-2
+0
+2
+4
+6
+8
+10
+12
+FIG. 8. -2∆ln( L) curves for linear (top row) and quadratic
+(bottom row) dependence of the speed of light on energy. Left
+column: GRB 090510. Right column: GRBs 080916C (full
+line), 090902B (dotted line) and 090926A (dashed double-
+dotted line).
+each other (i.e., they have considerable overlap), evidence
+in support of the validity of each method.
+Table IV presents lower limits on EQG calculated using
+our constraints on τn. The 95% lower limits are also
+plotted versus the redshift in Fig. 10. These limits do not
+take into account any GRB-intrinsic spectral evolution.
+Thus, while they are maximally constraining, they may
+not be as robust with regards to the presence of such
+intrinsic systematic uncertainties.
+Indeed, as we observed from, e.g., Fig. 10, some of our
+90% CL CIs are oﬀset to a degree that their edges (i.e.,
+limits) are very close to zero (e.g., GRB 090926A). For
+those CIs, the corresponding limits on EQG are constrain-
+ing to a suspicious degree, given the considerably larger
+width of their CIs. It would be more acceptable if any
+very constraining limits were associated with correspond-
+ingly narrow CIs, contrary to what happens with some
+of the GRBs in our study. This feature required further
+===== PAGE 15 =====
+15
+TABLE III. Our measurements on the LIV parameter τn describing the total degree of dispersion in the data. The li mits are
+for a two-sided 99% CL.
+GRB Name PairView SMM Likelihood (from actual data) Likelih ood (Calibrated) a
+(Lower Limit, Best Value, Upper Limit) (s GeV − 1) n = 1
+080916C -0.46 0.69 1.9 -0.49 0.79 2.3 -0.75 0.1 0.72 -0.85 – 0.77
+090510 ( ×103) -73 -14 27 -74 -12 30 -25 1 6 -9.8 – 8.6
+090902B -0.36 0.17 0.53 -0.25 0.21 0.62 -0.25 0.25 0.55 -0.63 – 0.96
+090926A -0.45 -0.17 0.15 -0.66 -0.2 0.23 -0.45 -0.18 0.02 -0.56 – 0.18
+(Lower Limit, Best Value, Upper Limit) (s GeV − 2) n = 2
+080916C -0.18 0.45 1.1 -0.0031 0.88 2 -0.9 0.12 1.1 -0.83 – 0.8
+090510 ( ×103) -3.9 -0.63 0.88 -4.1 -0.68 0.85 -2.5 -0.1 0.3 -0.32 – 0.23
+090902B ( ×103) -26 17 48 -18 24 60 -60 10 45 -120 – 110
+090926A -0.18 -0.021 0.13 -0.12 -0.06 0.012 -0.38 -0.06 0.11 -0.44 – 0.14
+a These are the ML CIs used for subsequently constraining LIV.
+TABLE IV. Lower Limits on EQG for linear ( n=1) and quadratic ( n=2) LIV for the subluminal ( s± =+1) and superluminal
+(s± =-1) cases. The CL values are one-sided. These limits were pr oduced using the total degree of dispersion in the data, τn.
+GRB Name PairView SMM Likelihood a
+n=1, s± =+1 (E P l units)
+95% 99.5% 95% 99.5% 95% 99.5%
+080916C 0.11 0.081 0.09 0.067 0.22 0.2
+090510 7.6 1.3 5.9 1.2 5.2 4.2
+090902B 0.17 0.13 0.15 0.11 0.12 0.074
+090926A – 0.55 8 0.35 1.2 0.45
+n=1, s± =-1 (E P l units)
+95% 99.5% 95% 99.5% 95% 99.5%
+080916C 18 0.33 5.4 0.31 0.2 0.18
+090510 0.56 0.48 0.57 0.48 11 3.6
+090902B 0.38 0.2 0.86 0.28 0.37 0.11
+090926A 0.24 0.18 0.2 0.12 0.17 0.15
+n=2, s± =+1 (10 10 GeV units)
+95% 99.5% 95% 99.5% 95% 99.5%
+080916C 0.31 0.28 0.24 0.21 0.35 0.33
+090510 6.7 3.3 13 3.3 8.6 6.4
+090902B 0.8 0.72 0.73 0.64 0.64 0.49
+090926A 0.67 0.48 9.1 1.6 0.48 0.47
+n=2, s± =-1 (10 10 GeV units)
+95% 99.5% 95% 99.5% 95% 99.5%
+080916C – 0.69 – 5.2 0.34 0.32
+090510 1.9 1.5 1.9 1.5 9.4 5.4
+090902B 1.6 0.97 3.5 1.2 0.64 0.46
+090926A 0.51 0.42 0.51 0.5 0.31 0.26
+a Calculated using the calibrated limits.
+scrutiny, hence, we examined our data and results in de-
+tail, and concluded that the CIs are oﬀset likely because
+of GRB-intrinsic spectral evolution eﬀects.
+For the case of GRB 090926A, the 90% CL CIs
+on τ1 from our three methods, and the CIs on τ2
+from SMM for both CLs are either not consistent
+with zero or considerably oﬀset towards negative val-
+ues (something which produces spuriously stringent up-
+per limits on τn). For example, the n = 1 CIs (not
+shown in the tables) are (-0.33, -0.17, -0.0010) s/GeV 11
+for PV, (-0.41, -0.20, 0.010) s/GeV for SMM, and
+(-0.25, -0.18, -0.13) s/GeV for ML (from data). As a re-
+sult, the 95% CL lower limits on EQG, 1 for the sublumi-
+nal case ( s± =+1) are either suspiciously strong (SMM)
+or they could not be calculated at all (PV). The top
+left panel of Fig. 11 shows the E >100 MeV events from
+GRB 090926A processed by PV and SMM. As can be
+seen, the highest-energy photon in the data has an energy
+11 (lower limit, best estimate, upper limit)
+===== PAGE 16 =====
+16
+1k
+1 1.5 2 2.5 3 3.5 4 4.5
+)-1 (s GeV1τ
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+080916C090510 090902B090926A 080916C090510 090902B
+1k
+0.96 0.98 1 1.02 1.04 1.06 1.08 1.1
+)-1 (ms GeV1τ
+-80
+-60
+-40
+-20
+0
+20
+40
+2k
+2 4 6 8 10 12 14
+)-2 (s GeV2τ
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+080916C090510 090902B090926A 080916C090510 090902B
+2k
+1 1.2 1.4 1.6 1.8 2
+)-2 (ms GeV2τ
+-4
+-3
+-2
+-1
+0
+1
+FIG. 9. Our CIs on the total degree of dispersion in the data τn, obtained without taking into account any source-intrinsi c
+eﬀects, for linear (left panel) and quadratic (right panel) LIV. Each triplet of intervals corresponds to one GRB and sho ws, left
+to right, the results of PV, SMM, and ML (calibrated). The PV a nd ML points are drawn oﬀset for visualization purposes. We
+present results for two CLs: a 90% (two-sided) CL denoted by t he lines, and a 99% (two-sided) CL denoted by the external
+pairs of points.
+of ∼ 3 GeV and is detected ∼ 0.5 s before the main pulse.
+Our three methods predict that this event was most likely
+initially emitted in coincidence with the main pulse, and
+that it had been subsequently advanced by LIV to be de-
+tected before it. This case, shown in the top right panel
+of Fig. 11, implies a ˆ τ1 ≃ -0.5 s/3 GeV=-0.17 s/GeV, in
+accordance with the measured values. In the simulations
+performed for PV and SMM, such relatively small values
+were rare. Speciﬁcally, they occurred in a fraction of the
+iterations approximately equal to the ratio of the number
+of photons detected at least as early as the 3 GeV pho-
+ton (4) over the total number of photons (58 for n = 1),
+i.e. only 5-6%. This resulted in our 95% (one-sided) CL
+upper limits on τ1 being negative or too small.
+The physical reason for these too negative CIs and
+ˆτ1 values may be GRB-intrinsic spectral evolution ef-
+fects, likely associated with the presence of spectral cut-
+oﬀ Ef ≃ 0.4 GeV during the main bright pulse [48]. If
+this cutoﬀ did not exist, more GeV photons might have
+been detected during this bright pulse, while if the cutoﬀ
+also existed right before this pulse, the 3 GeV photon
+might have not been detected. Both cases would corre-
+spond to a ˆ τ1 closer to zero, and weaker, though, less
+spurious constraints. We conclude that our results from
+GRB 090926A are likely aﬀected by a GRB-intrinsic spec-
+tral evolution, artiﬁcially strengthening (weakening) our
+limits on EQG produced using τn for the subluminal (su-
+perluminal) case.
+Contrary to the case of GRB 090926A, for which the
+results hint towards negative τ1 values, the results from
+GRB 080916C hint towards positive values. This either
+does not allow us to calculate lower limits on EQG for the
+superluminal case (PV and SMM for n = 2; 95% CL) or
+produces spuriously constraining results (PV and SMM
+for n = 1 at 95% CL, and SMM n = 2 at 99.5% CL).
+A likely physical explanation for this positive lag is
+the progressive hardening of the prompt-emission spec-
+trum of GRB 080916C at LAT energies. According to
+broadband time-resolved spectroscopic studies [22], that
+spectrum can be adequately described by a Band func-
+tion, the high-energy component of which, β , is initially
+very soft at a value of − 2. 63 ± 0. 12 during [0.004–3.58] s,
+hardens considerably to a value of − 2. 21 ± 0. 03 during
+[3.58–7.68] s, after which it stays constant (within statis-
+tics) to a value of − 2. 16 ± 0. 03 up to at least 15.87 s.
+Based on this pattern, some soft-to-hard spectral evolu-
+tion is expected at least for the beginning of our analyzed
+intervals ([3.53–7.89] s for n = 1 and [3.53–7.80] s for
+n = 2). Similarly to the GRB 090926A case, we conclude
+that our GRB 080916C constraints on EQG (produced
+using τn) might also be aﬀected by GRB spectral evolu-
+tion, artiﬁcially strengthening our superluminal-case lim-
+its and weakening our subluminal-case limits for PV and
+SMM.
+Finally, we notice that both of the calibrated ML lower
+limits on τn for GRB 090510 are considerably more con-
+straining by about an order of magnitude than those from
+PV/SMM. We feel that this diﬀerence can be explained
+by the reduced sensitivity of the PV/SMM methods for
+constraining lower limits of the LIV parameter in the
+presence of long tails of the emission after the main peak,
+a feature of our chosen data set from GRB 090510. This
+eﬀect was demonstrated in the one-to-one comparisons
+of the three methods described in Appendix C and illus-
+trated in the left panel of Fig. 20. Therefore, we attribute
+it to diﬀerences between the methods’ sensitivities.
+===== PAGE 17 =====
+17
+Redshift
+1 1.5 2 2.5 3 3.5 4 4.5
+=+1)± (n=1, sPl/EQGLower Limit on E
+-110
+1
+10
+080916C090510 090902B090926A
+PV
+SMM
+ML
+GRB09051095%
+Redshift
+0.5 1 1.5 2 2.5 3 3.5 4 4.5
+=+1)± GeV) (n=2, s10 (10QGLower Limit on E
+-110
+1
+10
+080916C090510 090902B090926A
+PV
+SMM
+ML
+PKS2155-30495%
+GRB090510High confidence
+Redshift
+1 1.5 2 2.5 3 3.5 4 4.5
+=-1)± (n=1, sPl/EQGLower Limit on E
+-110
+1
+10
+080916C090510 090902B090926A
+PV
+SMM
+ML
+GRB09051095%
+Redshift
+0.5 1 1.5 2 2.5 3 3.5 4 4.5
+=-1)± GeV) (n=2, s10 (10QGLower Limit on E-110
+1
+10
+080916C090510 090902B090926A
+PV
+SMM
+ML
+FIG. 10. Our 95% (one-sided) CL lower limits on EQG,1 (left) and EQG,2 (right) LIV versus the redshift for s± = +1 (top;
+subluminal case) and s± = −1 (bottom; superluminal case). Similarly to Fig. 9, each tri plet of markers corresponds to one
+GRB and shows limits calculated using the constraints on τn (i.e., without taking into account any source-intrinsic eﬀ ects).
+The horizontal bars correspond to the averaged over the thre e methods lower limits on EQG produced using the constraints
+on τLIV (i.e., after accounting for GRB-intrinsic eﬀects). On the l eft-hand plots we denote with the horizontal line the limit
+obtained by Fermi on GRB 090510 (DisCan; 95% limit obtained from paper’s Suppl ementary Information) [23]. On the top
+right plot we also denote the “high conﬁdence” and “very high conﬁdence” limits obtained by Fermi on GRB 090510 [23] and
+the 95% CL limit from H.E.S.S. study on PKS 2155-304 [29].
+Constraints Using the LIV-Induced Degree of
+Dispersion, τLIV
+The spuriously strong limits mentioned above imply
+that our sensitivity actually reaches the level of GRB-
+intrinsic eﬀects. This motivated us to produce an addi-
+tional set of constraints, this time on τLIV, taking into
+account intrinsic eﬀects and according to the methodol-
+ogy in Sec. IV C. As an illustration of this method, Fig. 12
+shows the intermediate plots involved the calculation of
+the CI on τLIV for GRB 090510, PairView, and n = 1.
+For simplicity we do not report our CIs on τLIV. In-
+stead, we just report the ﬁnal limits on the LIV-model
+quantities, after averaging over the three methods. Ta-
+bles V and VI show our new 95% CL limits on EQG
+and on the SME coeﬃcients, respectively. Our lower lim-
+its on EQG are also illustrated with the horizontal bars
+in Fig. 10, along with those produced without correct-
+ing for intrinsic eﬀects (from τn; shown with the mark-
+ers). As can be seen, the limits produced using τLIV are
+considerably weaker than those produced using τn. The
+biggest diﬀerence is for the cases of GRBs 090926A and
+080916C, which had some spuriously strong limits that
+we attributed above to source-intrinsic eﬀects.
+VI. SYSTEMATIC UNCER TAINTIES
+In this section, we discuss several systematic eﬀects po-
+tentially inﬂuencing our results, namely those originating
+from the source and those having instrumental origins.
+Any dispersion induced by non-GRB standard physical
+===== PAGE 18 =====
+18
+TABLE V. Our 95% CL lower limits on EQG, averaged over the three methods and calculated using the CI s on τLIV (i.e., taking
+into account GRB-intrinsic eﬀects).
+GRB Name n = 1 ( EP l) n = 2 (10 10 GeV)
+s± = +1 s± = −1 s± = +1 s± = −1
+080916C 0.11 0.32 0.28 0.56
+090510 1.8 3.2 4.0 3.0
+090902B 0.11 0.32 0.58 1.1
+090926A 0.72 0.15 0.78 0.41
+TABLE VI. Our 95% CL limits on the SME coeﬃcients, averaged ov er the three methods and calculated using the CIs on τLIV
+(i.e., taking into account GRB-intrinsic eﬀects).
+Model Source Quantity Lower Limit (10 − 20 GeV− 2) Upper Limit (10 − 20 GeV− 2)
+Vacuum 080916C ∑
+jm 0Yjm(145◦ , 120◦ )c(6)
+(I)jm
+-8.7 20
+090510 ∑
+jm 0Yjm(117◦ , 334◦ )c(6)
+(I)jm
+-0.31 0.16
+090902B ∑
+jm 0Yjm(63◦ , 265◦ )c(6)
+(I)jm
+-3.4 5.2
+090926A ∑
+jm 0Yjm(156◦ , 353◦ )c(6)
+(I)jm
+-11 5.2
+Vacuum isotropic 080916C c(6)
+(I)00
+-31 70
+090510 c(6)
+(I)00
+-1.1 0.57
+090902B c(6)
+(I)00
+-12 18
+090926A c(6)
+(I)00
+-37 19
+processes is expected to be negligible compared to the
+dispersion produced by LIV [50].
+Systematic Uncertainties from GRB-Intrinsic Eﬀects
+GRB-intrinsic eﬀects that can cause systematic uncer-
+tainties in our results fall into two main categories:
+• the presence of multiple spectral components in the
+data not evolving with temporal coincidence, and
+• spectral evolution during the course of the burst or
+during each individual pulse.
+A full physical modeling of the emission processes occur-
+ring in the GRBs considered here is beyond the scope of
+this paper. Instead, we utilize published time-resolved
+spectral analyses to estimate the inﬂuence of any ob-
+served spectral evolution on our results. In the ini-
+tial Fermi papers on the GRBs analyzed in this study
+[22, 48, 51, 52], the prompt-emission spectra were ﬁtted
+in relatively coarse time bins from keV to GeV energies
+with the combination of the empirical Band function with
+a high-energy power law. It was found that typically the
+Band component peaks at ≲MeV energies whereas the
+power-law component becomes dominant at LAT ener-
+gies (i.e., above ∼ 100 MeV).
+In the case of GRB 080916C, the spectrum was well
+ﬁtted by a Band function only, while the signiﬁcance of
+the existence of an additional power-law component was
+found to be small. Some soft-to-hard spectral evolution
+could be present in the beginning of our analyzed in-
+tervals, as was discussed in the previous section. The
+broadband keV–GeV spectrum of the other three bursts
+is best represented by a combination of both spectral
+components:
+• in GRB 090510, the high-energy power law starts
+from the onset of the main emission in the LAT (at
+∼ 0.5 s post-trigger) and dominates the Band com-
+ponent at energies above ∼ 100 MeV after ∼ 0.7 s
+post-trigger.
+• In GRB 090902B, the high-energy power law is de-
+tected from the trigger time, and completely dom-
+inates the Band component in the LAT energy
+range. The spectral hardness of the emission in
+the LAT energy range is relatively constant during
+the time interval analyzed in this study.
+• In GRB 090926A, the high-energy power-law starts
+at the time of the bright pulse observed at ∼ 10 s
+post-trigger and persists until ∼ 22 s. Our analyzed
+time interval corresponds to the main bright pulse,
+during which the power law component dominates
+the emission in the LAT energy range, while ex-
+hibiting a high-energy spectral break with a cutoﬀ
+energy Ef ∼ 0.4 GeV.
+Since the two spectral components may be possibly
+originating from diﬀerent physical regions of the burst
+and/or may be generated by physical processes evolving
+in diﬀerent time scales, one might not necessarily expect
+them to be detected with exact temporal coincidence.
+===== PAGE 19 =====
+19
+Time after trigger (sec)
+9 9.2 9.4 9.6 9.8 10 10.2 10.4 10.6 10.8
+Energy (GeV)
+-110
+1
+Time after trigger (sec)
+9 9.5 10 10.5 11
+Energy (GeV)
+-110
+1
+ (s/GeV)1τ
+-1 -0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1
+Sharpness Measure S
+132
+134
+136
+138
+140
+142
+ (s/GeV)1τLIV parameter 
+-0.8 -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1
+Simulations per bin
+0
+2000
+4000
+6000
+8000
+10000
+12000
+FIG. 11. SMM’s results for GRB 090926A and n = 1.
+Top left: photons detected in the default time interval, top
+right: SMM’s maximally-sharp version of these events. The
+curves/lines in the top row act as guides to the eye for the
+eﬀects of a dispersion equal to the best measured value of ˆτ1=-
+0.17 s/GeV (left ﬁgure) and zero (right ﬁgure). The bottom
+ﬁgures are of the same type as the ﬁgures in the right column
+of Fig. 5.
+This might lead to spurious signals originating from in-
+trinsic eﬀects rather than LIV. There is only one case
+(GRB 090510) for which the LAT data during the ana-
+lyzed time intervals cannot be suﬃciently approximated
+to contain a single spectral component, discussed in de-
+tail below.
+Using the spectral ﬁts published in Ref. [51], we esti-
+mate that about half of the LAT-detected events from
+GRB 090510 below ∼ 100-200 MeV can be attributed to
+the Band component during the main episode observed
+around ∼ 0.8 s post-trigger (comprising the bulk of the
+events in our analyzed time interval). This non-negligible
+fraction can potentially aﬀect the ML method, which
+essentially compares the time proﬁles between the low
+(below ∼ 100–150 MeV) and high energy emissions in
+the LAT. On the other hand, its eﬀect on the PV and
+SMM methods is weaker because these methods ana-
+lyze a subset of the data produced with a higher-energy
+cut (E >100 MeV), for which only ≲15% of the events
+are estimated to be associated with the Band compo-
+Degree of dispersion (s/GeV)
+-0.1 -0.05 0 0.05 0.1 0.15
+Probability per bin
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+FIG. 12. Demonstration of the generation of CIs on τLIV for
+GRB 090510, PairView, and n = 1. The thin curve shows the
+normalized distribution fr used to approximate PE (ǫ) (the
+same distribution is also shown with diﬀerent binning in the
+bottom left panel of Fig. 5), the thick curve shows the auto-
+correlation function PE′(ǫ′) calculated using Eq. 26, and the
+dashed lines show its 5% and 95% quantiles used for con-
+structing the 90% CL CI on τLIV.
+nent. Fortunately, evidence from cross checks performed
+in this work and from previously published results show
+that this eﬀect has likely a negligible inﬂuence on our
+results. Speciﬁcally, a cross-correlation analysis between
+the time proﬁles of the keV–MeV emission (dominated
+by the Band component) and of the >100 MeV emission
+(dominated by the power-law component) of GRB 090510
+from 0.6 to 0.9 s [51] did not show any evidence of a time
+lag between the two spectral components. Furthermore,
+as shown in Appendix D, the PV and SMM CIs pro-
+duced using the data above 30 MeV are in good agree-
+ment with the results produced with the default cut of
+E > 100 MeV. We conclude that the inclusion of events
+related to the Band component for GRB 090510 did not
+cause any signiﬁcant distortions in any of our analyses.
+Another potential source of systematic uncertainties
+is the spectral evolution detected with high signiﬁcance
+in most LAT GRBs. One of its manifestations is the
+E>100 MeV emission detected by the LAT having a sys-
+tematically delayed onset with respect to the keV/MeV
+emission detected by the GBM [20]. Even though this
+spectral evolution can manifest as LIV, it happens so
+rapidly that typically only a very small fraction of the
+emission is detected during this transition. Furthermore,
+after the emission in the LAT is established, it usu-
+ally continues with a relatively stable degree of spectral
+hardness, at least according to the coarsely binned time-
+resolved spectral analyses mentioned above.
+For example, for the case of GRB 090510, cross-
+correlation analyses between the GBM-detected
+keV/MeV and LAT-detected E >100 MeV emissions re-
+vealed that the onset of the E >100 MeV emission trailed
+the onset of the keV/MeV emission by ∼ 0.2–0.3 s [51].
+===== PAGE 20 =====
+20
+This oﬀset implies the existence of a delay between
+the LAT data below and above 100 MeV, something
+that can potentially aﬀect our results. However, the
+number of events detected during the onset of the LAT
+emission ( ∼ 0.5–0.75 s) is negligible. Speciﬁcally, only
+∼ 8% of the events above 30 MeV and within the default
+n = 1 interval were detected during the onset of the
+LAT emission. Furthermore, and as mentioned above,
+once the GRB 090510 emission is establishes in the LAT
+energy range, its spectral hardness remains relatively
+stable. We conclude that spectral evolution during the
+course of the emission of GRB 090510 aﬀects only a very
+small fraction of the analyzed events. Thus, it is not
+expected to have a considerable inﬂuence on our results.
+GRB 090926A is a peculiar case, as a strong spectral
+variability has been observed even after the onset of the
+high-energy emission in the LAT [48]. From the trigger
+time and until ∼ 10 s, the high-energy power-law compo-
+nent is not detectable and the emission is well described
+by a single Band component. At ∼ 10 s, a bright pulse
+appears (comprising the bulk of the events in our ana-
+lyzed time interval), during which the power-law compo-
+nent becomes very bright dominating the emission and
+exhibiting a spectral cutoﬀ at high energies. After the
+bright pulse, the two components become comparable in
+ﬂux, while the cutoﬀ of the power-law component ap-
+pears to be increasing in energy. Clearly, the results of
+a LIV analysis on an interval wide enough to include
+all these spectral-evolution eﬀects would be strongly af-
+fected by them. By focusing only on a narrow snapshot
+of the GRB 090926A’s emission (i.e., the main bright
+pulse), during which the GRB spectrum is assumed not
+to vary too much 12, we considerably reduced our expo-
+sure to such eﬀects.
+At shorter time scales, the spectral hardness of GRB
+pulses is known to be correlated to their intensity and ﬂu-
+ence at keV–MeV energies [55]. Due to the diﬃculty of
+measuring the GRB spectrum on a pulse-per-pulse basis
+with the limited photon statistics available to the LAT,
+there has been no evidence that this correlation extends
+to higher energies. However, the light curves of the GRBs
+analyzed in this study exhibit sharp peaks and fast vari-
+ability, thus the presence of any spectro-temporal cor-
+relations at high energies might, in principle, aﬀect our
+results. This incomplete knowledge of GRB properties
+at high energies constitutes an intrinsic limitation of our
+model (e.g., it is unclear if the factorization in Eq. (14)
+holds at LAT energies at short time scales) and repre-
+sents a major source of systematic uncertainty in any
+GRB-based study of LIV.
+12 It should, however, be noted that even though an increase of
+the cutoﬀ energy within the pulse could not be signiﬁcantly d e-
+tected due to the limited LAT statistics at GeV energies, an
+interpretation of this cutoﬀ as arising from internal-opac ity ef-
+fects does predict an associated evolution during the cours e of
+the spike [53, 54].
+Systematic Uncertainties from Instrumental Eﬀects
+The probability of the LAT detecting an event of some
+energy depends on many factors, including the oﬀ-axis
+angle of the photon, with the probability being approx-
+imately inversely dependent on the oﬀ-axis angle. As a
+result, a constant-spectrum source observed at progres-
+sively larger (smaller) oﬀ-axis angles will correspond to
+a data set of a progressively harder (softer) average re-
+constructed energy. Such a data set may erroneously
+appear as containing a non-zero degree of spectral evolu-
+tion. Fortunately, this eﬀect is negligible for our obser-
+vations since for the time scales under consideration the
+oﬀ-axis angles of the GRBs were almost constant.
+The energy-reconstruction accuracy of the LAT de-
+pends primarily on the true energies of the events. For
+the analyzed data set, about 90% of photons with energy
+greater than 1 GeV are predicted to have a reconstructed
+energy within ± ∼ 20% of their true energy [40], which
+can be used to produce a rough estimate of the error
+on the produced limits on EQG of up to 20% (90% CL).
+To verify this rough estimate we generated a collection
+of data sets derived from GRB 090510 by smearing the
+detected energies according to the energy dispersion func-
+tion of the instrument. For simplicity, during the produc-
+tion of the data sets we assumed that the detected energy
+was the true one. The 90% and 99% CL upper and lower
+limits varied by a factor of ∼ 10% ( n = 1) and ∼ 15%
+(n = 2) (1 σ ), in agreement with the rough estimate.
+The eﬀective area of the LAT, corresponding to the
+P7
+TRANSIENT V6 selection used in this work, is typ-
+ically an increasing function of the energy up to ∼
+100 GeV. It starts from a zero value at few MeV and
+increases with increasing energy at a rate that is initially
+rapid but then gradually ﬂattens above ∼ 100 MeV. In
+the ML analysis, we have ignored the dependence of the
+eﬀective area on the energy and approximated the spec-
+trum of incoming events with the spectrum of detected
+events (i.e., γ ≃ Γ). Because of this dependence, the
+spectrum of detected events appears slightly harder (less
+steep) than the spectrum of incoming events. This could
+aﬀect the results of the ML analysis, depending on how
+sensitive it is on using an exactly correct spectral index.
+However, we have veriﬁed that the diﬀerence between the
+two spectral indices is always smaller than the statistical
+error of our measured spectral index, i.e., |γ − Γ| < σ Γ.
+Thus, any systematic uncertainties by this approximation
+are dominated by the statistical uncertainty of determin-
+ing the true source spectrum.
+The eﬀects from background contamination are ex-
+pected to be negligible, since the background rate for our
+data selection is very low, of the order of 0.1 (10 − 3) Hz
+above 0.1 (1) GeV.
+The errors on the redshifts have a negligible eﬀect on
+the lower limits on EQG. A 1 σ change in the redshift of
+GRB 080916C causes a relative change of about 10 − 2 on
+the ﬁnal limits. For the other GRBs in our sample, the
+relative change is also negligible, at the level of 10 − 3 or
+===== PAGE 21 =====
+21
+smaller. The errors on the cosmological parameters give
+an error of ∼ 3%.
+VII. DISCUSSION/CONCLUSION
+We derive strong upper limits on the total degree of
+dispersion, τn, in the data of four LAT-detected GRBs.
+We use three statistical methods, one of which (PV) was
+developed as part of this study. The previously pub-
+lished most stringent limits on τn (at 95% CL; sub-
+luminal case) have been obtained for n = 1 by the
+Fermi GBM and LAT collaborations using GRB 090510
+(EQG, 1 >3.5 EPl; DisCan; Supplementary Information of
+Ref. [23]) 13 and for n = 2 by H.E.S.S. using the bright
+ﬂares of PKS 2155-304 ( EQG, 2 >6.4× 1010 GeV; ML [29]).
+Our results from GRB 090510, namely EQG, 1 >7.6 EPl
+(PV) and EQG, 2 >1.3× 1011 GeV (SMM), improve these
+constraints by a factor of ∼ 2. 14
+In the above comparisons we do not consider other
+more constraining limits that were either produced in a
+very model-dependent manner or are of a moderate sta-
+tistical signiﬁcance. Speciﬁcally, Chang et al. [56] tried to
+take into account intrinsic GRB time delays by estimat-
+ing them using the magnetic-jet GRB-emission model.
+However, our knowledge of GRB physics is not complete
+enough to be able to predict such intrinsic lags with suf-
+ﬁcient certainty. Thus, even though such an approach
+proceeds in the right direction, it is highly sensitive to
+the particular choice and conﬁguration of the employed
+model. Nemiroﬀ et al. [25] took an innovative approach
+with which they zoomed in on the micro-structure of the
+burst’s emission above 1 GeV to produce very stringent
+constraints that were based, however, on observables of
+low statistical signiﬁcance. 15
+To investigate why our GRB 090510 results are more
+constraining than the previous Fermi analysis of the
+same GRB, we applied the PV method to the same ex-
+act data used in the original Fermi publication. We used
+identical energy, time, and event selection cuts (as re-
+ported for the DisCan method), and obtained again more
+13 That work also reported lower limits on EQG,1 as high as 10 EPl.
+These limits, however, were not associated with a well quant iﬁed
+conﬁdence level, but rather with a degree of conﬁdence ( “ver y
+high” to “medium” ). Thus, they cannot be directly compared t o
+the exact-CL limits produced in this work.
+14 At the 99% level, we improve on the Fermi limits EQG,1 >1.2 EPl
+(DisCan) by a factor of ∼ 4.
+15 They identiﬁed two pairs and one triplet of E >1 GeV photons in
+a 0.17 s interval of GRB 090510, with each photon being detect ed
+within ∼1 ms of each other. The triplet, which contained the
+31 GeV photon, was used to place a stringent constraint. They
+calculated a probability of ∼3 σ for such a bunching of photons
+to arise by chance from a uniform emission in time. However,
+this signiﬁcance is overestimated since it doesn’t account for the
+number of trials taken. Moreover, it does not reﬂect the con-
+ﬁdence of their limit, since it strongly relies on associati ng the
+emission time of the 31 GeV photon with a tentative ms “pulse” .
+constraining results than the original Fermi publication
+by a factor of ∼ 2–4 (depending on the CL). Addition-
+ally, we repeated our PV and SMM analyses using the
+conﬁguration determined in this paper (i.e., time inter-
+val, energy range, ρ) but using the P6
+V3 TRANSIENT
+event selection of the previous Fermi work. The result-
+ing constraints were again of equal or higher strength (see
+Appendix D). These results show that the methods em-
+ployed in this work are more sensitive than the previous
+Fermi analyses.
+Our measurements are compatible with a zero degree
+of total dispersion in all the analyzed GRBs (at 99% CL).
+However, among these results, there are some spuriously
+strong limits on the total degree of dispersion, which we
+interpret as a product of GRB-intrinsic spectral-evolution
+eﬀects.
+Using a maximally conservative set of assumptions
+to account for GRB-intrinsic eﬀects, we constrain any
+residual dispersion in the data attributed solely to LIV,
+τLIV. The resulting CIs on τLIV are less stringent than
+those on τn, albeit more robust with respect to the pres-
+ence of GRB-intrinsic eﬀects, and thus, more appro-
+priate for constraining LIV. Our assumptions describe
+the worst-case scenario for GRB-intrinsic eﬀects, and, as
+such, correspond to a maximum overall decrease in sen-
+sitivity. Our best constraints in the linear/subluminal
+case at 95% CL are EQG, 1 ≳2 EPl for GRB 090510 and
+EQG, 1 ≳0.1 EPl for the other three GRBs. We obtain re-
+sults of similar strength in the linear/superluminal case.
+As a ﬁnal note we would like to mention that we con-
+sidered combining the results from the four GRBs to
+produce a single result that would be more constrain-
+ing and/or less aﬀected by any GRB-intrinsic spectral-
+evolution eﬀects (hoping that they might average out).
+However, we noticed that our GRB 090510 measurement
+is overall considerably more constraining than the other
+three cases. Thus, a combined result would not be very
+diﬀerent from that of GRB 090510. Additionally, we do
+not expect that the intrinsic spectral-evolution eﬀects for
+short GRBs (i.e., GRB 090510) are similar to those in
+long GRBs (other three cases). Thus, a combined analy-
+sis aimed at producing more robust results would have to
+be performed on short and long GRBs separately. Also,
+because our sample contains only a small number of long
+GRBs, we do not expect the average of their intrinsic
+eﬀects to be an accurate representation of the typical
+long-GRB intrinsic evolution. Therefore, a combined re-
+sult obtained using the three long GRBs, would still be
+considerably less robust compared to each of the maxi-
+mally conservative CIs on τLIV we produced here. e con-
+clude that there are no suﬃcient sensitivity or robustness
+beneﬁts that a combined analysis of this limited data set
+can bring.
+There are many theoretical indications that Lorentz
+invariance may well break down at energies approaching
+the Planck scale. They come from the need to cut oﬀ
+the UV divergences in quantum ﬁeld theory and black
+hole entropy calculations [57], from various quantum
+===== PAGE 22 =====
+22
+gravity scenarios such as in loop quantum gravity [58],
+some string theory and M-theory scenarios, and non-
+commutative geometry models. There is one way to pre-
+scribe Lorentz invariance; there are many ways to violate
+Lorentz invariance. Kinematic tests of Lorentz invari-
+ance violation in QED depend on the possibility that
+the Lorentz violating terms can be diﬀerent for electrons
+and photons [8]. It becomes even more complicated when
+hadronic interactions are considered. Many of these other
+tests, while quite sensitive, depend on the diﬀerences be-
+tween the individual maximum attainable velocities of
+various particle species [7]. In the context of eﬀective
+ﬁeld theories [35], birefringence tests have already pro-
+duced very strong constraints on LIV [10, 31]. Photo-
+hadronic interactions have also provided some powerful
+constraints [9].
+One particular model inspired by string theory con-
+cepts presents the prospect that only photons would ex-
+hibit an energy-dependent velocity [32]. This model en-
+visions a universe ﬁlled with a gas of point-like D-branes
+that only interact with photons. It predicts that vacuum
+has an energy-dependent index of refraction that causes
+only a retardation. Since all photons are retarded, there
+is no associated vacuum birefringence eﬀect, even though
+the degree of retardation has a ﬁrst order dependence on
+the photon energy. The absence of an associated bire-
+fringence and the low-order ( n = 1) dependence of the
+predicted delay on the photon energy, render our results
+particularly unique for testing such a model 16. Indeed,
+our constraints obtained using the total degree of disper-
+sion, τn, reiterate and support the previously-published
+results from Fermi [23], strongly disfavoring by almost
+an order of magnitude this model, and, in general, any
+class of models requiring EQG, 1 ≲ EPl. Our maximally-
+conservative set of constraints obtained using τLIV also
+support the above statement.
+More GRB observations at high energies will allow
+us to improve GRB models and produce robust predic-
+tions on GRB-intrinsic delays (i.e., on Pτint), which will
+lead to more constraining CIs on τLIV. Additionally,
+a larger collection of CIs on τn can be used for disen-
+tangling LIV-induced delays, which have a predicted de-
+pendence on the redshift, from the source-frame value 17
+of GRB-intrinsic delays, which can be assumed to not
+16 It has been argued that the D-brane model in Ref. [32] would
+suppress pair production interactions of ultrahigh energy (UHE)
+photons with cosmic microwave background photons, resulti ng
+in a ﬂux of UHE photons in conﬂict with observations [59]. Thi s
+would appear to be an independent argument against it. How-
+ever, in Ref. [60], it was argued that because electrons are n ot
+aﬀected by the D-brane medium and because the pair produc-
+tion interaction involves an internal electron at the tree l evel, the
+resulting LIV eﬀect in pair production is suppressed. Thus, this
+model is not ruled out by constraints on the UHE photon ﬂux.
+17 The degree of intrinsic dispersion at the source is smaller t han the
+observed degree of (intrinsic) dispersion at the Earth by a f actor
+of (1 + z)n+1 due to the relativistic expansion of the universe
+causing time dilation and redshift.
+have a redshift dependence or at least to have a diﬀer-
+ent dependence than τLIV (see for example the approach
+in Refs. [16–18]). Future simultaneous observations of
+GRBs at MeV/GeV energies with Fermi-LAT and at
+GeV energies with HA WC [61] will have considerably in-
+creased statistics at GeV energies and a lever arm that
+extends to an even higher energy than this work, prop-
+erties that can provide uniquely constraining results.
+ACKNOWLEDGMENTS
+The Fermi LAT Collaboration acknowledges generous
+ongoing support from a number of agencies and insti-
+tutes that have supported both the development and the
+operation of the LAT as well as scientiﬁc data analysis.
+These include the National Aeronautics and Space Ad-
+ministration and the Department of Energy in the United
+States, the Commissariat ` a l’Energie Atomique and the
+Centre National de la Recherche Scientiﬁque / Institut
+National de Physique Nucl´ eaire et de Physique des Par-
+ticules in France, the Agenzia Spaziale Italiana and the
+Istituto Nazionale di Fisica Nucleare in Italy, the Min-
+istry of Education, Culture, Sports, Science and Technol-
+ogy (MEXT), High Energy Accelerator Research Organi-
+zation (KEK) and Japan Aerospace Exploration Agency
+(JAXA) in Japan, and the K. A. Wallenberg Founda-
+tion, the Swedish Research Council and the Swedish Na-
+tional Space Board in Sweden. We also would like to
+thank French ” GDR PCHE” (Groupement de Recherche
+- Ph´ enom` enes Cosmiques de Hautes Energies) for their
+support during the preparation of this paper.This re-
+search has made use of NASA’s Astrophysics Data Sys-
+tem. J.G thanks R. J. Nemiroﬀ for useful conversations
+about his recent work on this topic. The authors would
+also like to thank Jan Conrad for reading the manuscript
+and giving suggestions.
+Appendix A: PV and SMM Veriﬁcation Tests
+We thoroughly tested the PV and SMM methods using
+a large number of simulated data sets to check for biases
+on the best estimates of the LIV parameter, to verify the
+proper coverage of the produced CIs, and to examine the
+robustness of the techniques (e.g., to ﬁnd which proper-
+ties of the data could alter the validity and accuracy of
+the results).
+We performed the veriﬁcation tests on a variety of col-
+lections of data sets, with each collection corresponding
+to a diﬀerent light-curve and spectrum template, and to a
+diﬀerent LIV parameter. The data sets of some collection
+represented the possible outcomes of the observation of
+the same exact source by a large number of identical de-
+tectors. By comparing the fraction of produced CIs that
+included the true value of the LIV parameter to their
+CL, we veriﬁed the coverage of these CIs. By repeating
+===== PAGE 23 =====
+23
+this exercise on a diverse collection of data sets (pro-
+duced with, e.g., diﬀerent statistics, number of pulses,
+light-curve asymmetry, pulse shape, spectral properties,
+degree of dispersion), we veriﬁed the robustness of the
+techniques.
+Our veriﬁcation tests were performed on collections
+comprising ten thousand simulated data sets, with each
+of these sets being constructed in two steps: ﬁrst its pho-
+ton energy–time pairs were randomly sampled from the
+light-curve and spectral template of the particular col-
+lection, and then a common degree of dispersion was ap-
+plied.
+We used two kinds of functional templates for the
+light curve. We started with simple synthetic templates
+composed of superpositions of Gaussian pulses of diﬀer-
+ent widths, amplitudes, and means, and continued with
+templates inspired from the actually-observed GRB light
+curves. As an example, we show in Fig. 13 two of the
+light-curve templates used in our simulation. Both were
+inspired by actual detections, namely GRBs 090902B
+(top panel) and 090510 (bottom panel), representative
+cases of a long and short GRB, respectively. We obtained
+the light-curve templates using kernel density estimation
+(shown with the curve) of the actual light curves (his-
+tograms).
+Time (sec)
+6 7 8 9 10 11 12 13 14
+Event Rate (arb. norm.)
+0.05
+0.1
+0.15
+0.2
+0.25
+Time (sec)
+0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2
+Event Rate (arb. norm.)
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+2
+2.2
+FIG. 13. Two of the light-curve templates used in our ver-
+iﬁcation tests, one inspired by GRB 090902B (top) and one
+by GRB 090510 (bottom). The histograms are the GRB light
+curves (as actually detected), and the thick curves are our
+templates (produced by a KDE of the histograms).
+In all tested conﬁgurations, the energy spectrum of the
+non-dispersed data sets followed a power law, and ex-
+tended from 100 MeV to 40 GeV. For the GRB-based
+data sets we used an identical number of events as in the
+actual observations, and for the synthetic ones we simu-
+lated a range that was similar to that typically observed.
+We chose the maximum range of tested LIV parameters
+so that the simulated degree of dispersion did not distort
+the tested data too much. This way, we avoided the un-
+realistic possibility of having the highest-energy photons
+be disjoint and external from the bulk of the emission.
+To accomplish this, the magnitude of the tested LIV pa-
+rameter was not considerably larger than about the light-
+curve half-width divided by the highest simulated energy
+raised to the n power.
+We did not include any energy and temporal re-
+construction instrumental eﬀects (i.e., it was assumed
+that all photons were detected with the same energy-
+independent and constant-in-time eﬃciency). A full sim-
+ulation including the LAT response to the GRB signal
+would also model any eﬀects from a time-dependent eﬀec-
+tive area and of any inaccuracies in the event-energy re-
+construction. The dependence of the results on both fac-
+tors is expected to be very small, as discussed in Sec. VI.
+As a demonstration of the veriﬁcation process we
+present some of the diagnostic plots produced using the
+GRB 090510 light-curve template shown in the bottom
+panel of Fig. 13 and a zero LIV parameter.
+ (s/GeV)1τLIV parameter 
+-1 -0.5 0 0.5 1
+Iteration Number
+0
+2000
+4000
+6000
+8000
+10000
+12000
+ (s/GeV)1τLIV parameter 
+-1 -0.5 0 0.5 1
+Frequency
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+FIG. 14. Top: 99% CL CIs produced by the application
+of PV on the GRB 090510-inspired simulated data set for
+τ1=0 s/GeV. The black dots denote the best estimates of the
+LIV parameter. Bottom: distributions of the lower (left) an d
+upper limits (right) of these conﬁdence intervals. The two
+external vertical lines denote the medians of the two distri -
+butions, and the middle vertical line denotes the mean of the
+best estimates.
+One of the ﬁrst steps after a collection of data sets was
+constructed was to examine its distribution of associated
+conﬁdence intervals. The top panel of Fig. 14 shows a
+stack of the conﬁdence intervals produced by PV, and the
+bottom panel shows the distributions of lower and upper
+limits corresponding to these conﬁdence intervals. The
+two external vertical lines in the latter ﬁgure denote the
+===== PAGE 24 =====
+24
+distribution medians, and the middle vertical line shows
+the mean of the best estimates. By comparing the mean
+of the best estimates to the actual LIV parameter we
+checked for the presence of biases in the best estimates.
+Figure 15 shows two calibration plots produced by our
+simulations. These plots show the average best estimate
+and upper/lower limits on the LIV parameter for diﬀer-
+ent injected values of τn. As can be seen, the methods
+properly measure the injected value with negligible bias.
+Furthermore, their sensitivity does not have a consider-
+able dependence on the injected degree of dispersion.
+(s/GeV)1τInjected 
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.2 0.3 0.4
+(s/GeV)1τReconstructed -1.5
+-1
+-0.5
+0
+0.5
+1
+(s/GeV)1τInjected 
+-0.05 -0.04 -0.03 -0.02 -0.01 0 0.01 0.02 0.03 0.04 0.05
+(s/GeV)1τReconstructed 
+-0.25
+-0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+FIG. 15. Calibration plots demonstrating some of the simu-
+lation results from the GRB 090902B- and 0900510-inspired
+data sets, top and bottom respectively. Each pair of interva ls
+corresponds to a diﬀerent value of the true (injected) LIV pa -
+rameter τ1, and shows the results from PV (left interval) and
+SMM (right interval). The markers show the means of the
+best estimates, and the edges of the intervals correspond to
+the means of the upper and lower 99% CL limits on τ1.
+As mentioned in Sec. IV A, the distribution fr is used
+as an approximation of the PDF of the measurement er-
+ror of E, PE . Since E is a random variable (taking diﬀer-
+ent values ǫ across the simulated data sets), the quantity
+C(ǫ) =
+∫ ǫ
+0 PE (˜ǫ)d˜ǫ is also a random variable. C(ǫ) be-
+haves similarly to a p-value, hence, C ∼ U (0, 1). We use
+the theoretical expectation of the uniformity of the PDF
+of C, to verify whether the distribution fr (produced us-
+ing our randomization simulations described in Sec. IV A)
+is a good approximation of PE , an approximation that is
+a cornerstone of our CI-construction procedure. If this is
+indeed valid, then the empirical distribution, PCemp, of
+the quantity Cemp(ǫi) =
+∫ ǫi
+0 fr,i (˜ǫ)d˜ǫ, where ǫi and fr,i
+are the realizations of E and fr in the i-th simulated data
+set, should also be distributed as a U (0, 1).
+Figure 16 shows a normalized version of PCemp pro-
+duced using the GRB 090510 inspired simulated data
+sets, PV, and τ1 = 0 s/GeV. As can be seen, the empiri-
+cal distribution is indeed uniform, supporting the validity
+of our approximation fr ∼ PE .
+PCemp is also used for verifying the coverage of the
+Cemp
+0 0.2 0.4 0.6 0.8 1
+Normalized frequency
+0.038
+0.04
+0.042
+0.044
+0.046
+0.048
+0.05
+0.052
+0.054
+0.056
+0.058
+FIG. 16. Normalized empirical distribution PCemp (his-
+togram) obtained from the application of PV on the
+GRB 090510-inspired data set for tau1 = 0 s/GeV super-
+imposed on its theoretical expectation (uniform distribut ion,
+shown with the horizontal line). The fact that the empiri-
+cal distribution follows a uniform distribution supports t he
+validity of the assumptions behind our CI construction.
+produced CIs, for any CL. 18. Since the quantiles of the
+fr distribution are used for constructing our CIs, any
+erroneous distortions of fr (and equivalently any devia-
+tions of PCemp from uniformity) will be associated with
+an improper coverage of the CIs. For example, if the
+CIs were erroneously under-covering, then PCemp would
+acquire a V shape. On the other hand, if the CIs were
+erroneously wide (over covering), then PCemp would ac-
+quire a Λ shape. By verifying the uniformity of PCemp
+across its full range of values, we eﬀectively tested the
+proper coverage of the CIs across the whole range of CLs
+(to the degree that the available statistics permitted).
+Using the veriﬁcation tests mentioned above, we also
+found that
+• the sensitivities of both methods depend on the
+asymmetry on the light curve. Speciﬁcally, the
+longer the tail in the rising or falling side of the light
+curve is, the smaller the sensitivity of setting an up-
+per or lower limit on τn, respectively, becomes. The
+coverage, however, remains proper even for highly
+asymmetric light curves (e.g., like the one shown in
+the bottom panel of Fig. 13).
+• Miscoverage and bias can increase and sensitivity
+can decrease if the light curve includes separated
+bright pulses, due most likely to some form of in-
+terference between the individual pulses. This sys-
+tematic uncertainty becomes more prominent with
+the SMM method and when using large values of
+the ρ parameter. Our default data selection always
+includes a single bright pulse, so this problem does
+not aﬀect our results.
+• Bias and miscoverage is larger for strongly spec-
+trally distorted light curves, i.e., those produced
+18 W e also performed the simple test of counting the fraction of
+CIs of a collection of data sets that included the true (injec ted)
+value of the LIV parameter to verify that the fraction was, as
+expected, equal to their CL, for two diﬀerent values of CL: 90 %
+and 99%
+===== PAGE 25 =====
+25
+with a LIV parameter large enough that the
+highest-energy component is temporally disjoint
+from the bulk of the emission. The actual data did
+not appear to be spectrally distorted to the degree
+required for this systematic uncertainty to appear.
+• Tests performed on synthetic light curves compris-
+ing several pulses of a diﬀerent spectral index (so as
+to simulate a GRB-intrinsic spectral evolution) re-
+vealed that this evolution is typically picked up by
+our methods as a non-zero LIV parameter. some-
+thing that reﬂects perhaps the most important ir-
+reducible uncertainty in our results. It is, however,
+fortunate that the additional GRB-intrinsic spec-
+tral evolution did not always dominate the simu-
+lation results, and that while there may be some
+non-zero bias, the miscoverage of the CIs was typ-
+ically not severe.
+Appendix B: Maximum Likelihood Method Tests
+and Calibrations
+Veriﬁcation Tests
+We veriﬁed the ML method using Monte Carlo simu-
+lations, in a similar fashion to the PV/SMM methods,
+as described in the previous appendix. We performed
+tests on simple synthetic data sets as well as on data sets
+closely resembling the four GRBs in our sample. One of
+the main tests was the construction of calibration curves,
+in which we veriﬁed whether an injected LIV parameter
+was properly measured by the method with a reasonable
+degree of statistical accuracy.
+As an illustration of these tests, we show in Fig. 17
+a calibration plot demonstrating the simulation results
+from a GRB 0900510-inspired data set. The markers and
+the intervals show the average best estimates and 99% CL
+CIs on τ1, respectively. These averages were calculated
+across the diﬀerent simulated realizations of the GRB
+emission. Our tests did not reveal any signiﬁcant biases
+or other systematics.
+(s/GeV)1
+Injected 
+-0.05 -0.04 -0.03 -0.02 -0.01 0 0.01 0.02 0.03 0.04 0.05
+(s/GeV)1
+ Reconstructed -0.06
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+FIG. 17. A calibration plot obtained by the ML method on an
+GRB 090510-inspired data set. The markers show the means
+of the best estimates of τ1 and the intervals correspond to the
+mean upper and lower 99% CL limits on τ1.
+Calibrated Conﬁdence Intervals
+We construct calibrated CIs on τn by ﬁrst generating
+several thousand simulated data sets having the same
+exact statistics as the actual data but with event energies
+and times randomly sampled from the ﬁtted spectral and
+light-curve templates (e.g., such as from the templates
+shown in Figs. 7 and 6, respectively). We then apply
+the ML method to each one of them, using the same
+conﬁguration as its application on the actual data, and
+calculate a CI and a best estimate on τn for each one
+of them. After all of the data sets have been processed,
+we calculate the average of the produced low and upper
+limits. Since we do not apply any spectral dispersion
+to the simulated data sets, we shift the mean low and
+upper limit values by the value of ˆ τn as measured from
+the actually detected data set, to ﬁnally produce a single
+calibrated CI. 19
+The CIs are constructed using a pair of thresholds on
+− 2∆ln(L) common to all the simulated data sets, and
+chosen to ensure the proper coverage of the produced CIs.
+Speciﬁcally, these thresholds are chosen so that exactly
+a fraction (1 − CL)/ 2 of the simulated lower limits and
+a fraction (1 + CL)/ 2 of the simulated upper limits are
+greater or smaller, respectively, than the value of τn in
+the simulated data sets (equal by construction to zero).
+The calibration procedure includes the re-ﬁtting of a
+light-curve template for each simulated sample. Thus,
+the produced CIs properly include the systematic uncer-
+tainties arising from the light-curve template generation
+procedure. On the other hand, for computational sim-
+plicity, we do not reﬁt a spectral template, and instead
+use the one obtained from the actual data. Thus, the cal-
+ibrated CIs do not include uncertainties from the spectral
+ﬁt. These are, however, negligible, since, as we have seen
+from toy Monte Carlo simulations and from the calcu-
+lations described in Sec. IV B, the ﬁnal results depend
+weakly on the spectral index, contrary to their stronger
+dependence on the light-curve template.
+To illustrate the method, we show some intermediate
+results from its GRB 090510 application. Figure 18 shows
+the distributions of low and upper limits obtained from
+the simulated data sets. The mean values of these distri-
+butions are oﬀset by ˆτn to produce our single calibrated
+upper and lower limits (i.e., those shown in the last col-
+umn of Tab. III). From the mean of the simulated best
+estimates of the LIV parameter (see, e.g., Fig. 19) we esti-
+mated the bias of ˆτn. In all cases, the bias was negligible
+19 In this last step and for simplicity, we make the assumption t hat
+the sensitivity of the method has a small dependence on τn, at
+least for the small possible values τn is expected to have (given
+past observations). Thus, we eﬀectively assume that our sim -
+ulating a zero-LIV-parameter data set and then oﬀsetting th e
+mean upper and lower limits is equivalent to simulating a ˆ τn
+LIV-parameter data set and constructing a calibrated CI dir ectly
+from the mean lower and upper limits.
+===== PAGE 26 =====
+26
+with respect to the root mean square of the simulated
+best estimates.
+ (s/GeV)1τLIV parameter 
+-0.05 -0.04 -0.03 -0.02 -0.01 0 0.01 0.02 0.03 0.04 0.05Frequency
+0
+10
+20
+30
+40
+50
+60
+)2 (s/GeV2τLIV parameter 
+-0.0015 -0.001 -0.0005 0 0.0005 0.001 0.0015Frequency
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+FIG. 18. Distributions of the lower and upper 99% CL limits
+for n = 1 (left pad) and n = 2 (right pad) for GRB 090510.
+The vertical lines denote the means of the distributions, us ed
+for constructing the calibrated CIs.
+-0.015 -0.01 -0.005 0 0.005 0.01 0.015 
+0
+20 
+40 
+60 
+80 
+100
+120
+140
+160
+180
+GRB 090510 
+τ (s/GeV) 
+-0.6 -0.4 -0.2 0 0.2 0.4 0.6 
+-3 
+10 ×0
+50 
+100
+150
+200
+250
+GRB 090510 
+)2 (s/GeVτ
+FIG. 19. Distributions of the best LIV parameters obtained
+from each simulated data set for n = 1 (left) and n = 2 (right)
+for GRB 090510. Since there was no spectral dispersion ap-
+plied to the simulated data, these curves should peak near
+zero.
+Appendix C: Comparison of the Methods
+We compared the three methods by applying them to
+the same collection of simulated data sets to verify their
+validity and to help us explain any discrepancies observed
+in their application on the actual data. The simulated
+data of this test were produced using the GRB 090510-
+inspired light-curve template shown in Fig. 13 of Ap-
+pendix A and no extra applied dispersion ( τn was zero
+by construction).
+For the ML method we used CIs calculated directly
+from the data (instead of from calibration simulations).
+However, we adjusted the two threshold values of -
+2∆ln(L) used to produce its lower and upper limits, to
+ensure a proper coverage (evaluated across the simulated
+data set).
+The ﬁrst and third panel of Fig. 20 show the obtained
+distributions of lower and upper limits, respectively. As
+can be seen, the sensitivities of the three methods are
+very similar. In the ﬁrst panel, we also see that the ML
+method is slightly more sensitive when producing lower
+limits. We used this ﬁnding to explain in Sec. V why the
+ML method produced more constraining limits than the
+other two methods on τ1 and GRB 090510.
+The histograms of the best estimates of the LIV param-
+eter (middle panel of Fig. 20) peak, as expected, near the
+true value of the LIV parameter, set equal to zero. The
+PV and SMM best-lag distributions peak at slightly more
+negative values than the approximately zero position of
+the ML method’s distribution. This can be attributed
+to the increased asymmetry of the PV and SMM distri-
+butions (skewness ∼ 0.75) compared to the asymmetry
+of the likelihood distribution (skewness ∼ 0.39), which
+moves the mode to lower values than the mean or the
+median. However, for considerations regarding the bias
+of the best estimates, the important fact is that both
+the median and the mean of these distributions are neg-
+ligible compared to their root mean square. Thus, the
+eﬀect of any biases on the coverage of the produced CIs
+is expected to be negligible (as has been veriﬁed by the
+dedicated simulation tests).
+The 2D histograms in Fig. 21 provide a deeper view of
+how our methods compare. For the majority of the sim-
+ulated data sets, there is a close correspondence between
+their results. The PV and SMM results are the most
+similar, implying that these two methods probe the data
+in a similar fashion. The existence of diﬀerences between
+the methods’ results highlights their complementarity.
+Finally, we note that more than 99% of the exam-
+ined triplets of 90% CL CIs (one per simulated data set)
+are overlapping. This fraction is even larger (more than
+99.9%), if CIs of a higher CL (99%) are examined (not
+shown here). This large fraction of overlapping CIs shows
+that the troubling possibility of the three methods not
+allowing a common part of the parameter space is ex-
+tremely unlikely.
+Appendix D: Analysis Cross-Checks
+We examined how the 99% CIs on τn vary with respect
+to changes in the conﬁguration of our methods and the
+data selection, to cross-check the validity and robustness
+of the results, and to gain insight on the behavior of our
+methods. Speciﬁcally:
+• we repeated the analysis excluding the highest-
+energy photon in the data, since it is expected to
+provide the most information about LIV dispersion.
+===== PAGE 27 =====
+27
+ (s/GeV)1τLower Limit on 
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.20
+0.01
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+ (s/GeV)1τBest estimates of 
+-0.2 -0.15 -0.1 -0.05 0 0.05 0.1 0.15 0.20
+0.02
+0.04
+0.06
+0.08
+0.1
+ (s/GeV)1τUpper Limit on 
+-0.2 -0.1 0 0.1 0.2 0.3 0.40
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+FIG. 20. Histograms of the 95% (one-sided) CL lower limits (l eft panel), best estimates (middle panel), and upper limits (right
+panel) of the LIV parameter τ1 produced by PV (black), SMM (red), and ML (blue) on simulated data sets.
+ (s/GeV) [SMM]1τLower Limit on 
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.2
+ (s/GeV) [Likelihood]1τLower Limit on 
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0
+20
+40
+60
+80
+100
+ (s/GeV) [SMM]1τBest estimate on 
+-0.2 -0.15 -0.1 -0.05 0 0.05 0.1 0.15 0.2
+ (s/GeV) [Likelihood]1τBest estimate on -0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0
+50
+100
+150
+200
+250
+ (s/GeV) [SMM]1τUpper Limit on 
+-0.2 -0.1 0 0.1 0.2 0.3 0.4
+ (s/GeV) [Likelihood]1τUpper Limit on 
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0
+100
+200
+300
+400
+500
+600
+ (s/GeV) [PulseView]1τLower Limit on 
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.2
+ (s/GeV) [Likelihood]1τLower Limit on 
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0
+20
+40
+60
+80
+100
+ (s/GeV) [PulseView]1τBest estimate on 
+-0.2 -0.15 -0.1 -0.05 0 0.05 0.1 0.15 0.2
+ (s/GeV) [Likelihood]1τBest estimate on -0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0
+20
+40
+60
+80
+100
+120
+140
+ (s/GeV) [PulseView]1τUpper Limit on 
+-0.2 -0.1 0 0.1 0.2 0.3 0.4
+ (s/GeV) [Likelihood]1τUpper Limit on 
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0
+50
+100
+150
+200
+250
+ (s/GeV) [PulseView]1τLower Limit on 
+-0.4 -0.3 -0.2 -0.1 0 0.1 0.2
+ (s/GeV) [SMM]1τLower Limit on 
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+ (s/GeV) [PulseView]1τBest estimate on 
+-0.2 -0.15 -0.1 -0.05 0 0.05 0.1 0.15 0.2
+ (s/GeV) [SMM]1τBest estimate on 
+-0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0.15
+0.2
+0
+20
+40
+60
+80
+100
+120
+ (s/GeV) [PulseView]1τUpper Limit on 
+-0.2 -0.1 0 0.1 0.2 0.3 0.4
+ (s/GeV) [SMM]1τUpper Limit on 
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+FIG. 21. One to one comparisons of the 95% (one-sided) CL lowe r and upper limits (left and right columns respectively) and
+of the best estimates (middle column) on the LIV parameter τ1 produced by our three methods on simulated data sets: ML vs
+SMM (top row), ML vs PV (middle row), SMM vs PV (bottom row).
+• We applied our methods on an extended time in-
+terval extending from the GRB trigger up to the
+time that the temporal variability has considerably
+subsided. The time intervals, selected with visual
+inspection, are 0–20 s for GRB 080916C, -0.01–10 s
+for GRB 090510, 0–60 s for GRB 090902B, and 0–
+40 s for GRB 090926A. The extended time intervals
+allow for maximal statistics, but at the same time
+potentially include a large degree of GRB-intrinsic
+spectral evolution that can, however, masquerade
+as LIV dispersion.
+===== PAGE 28 =====
+28
+• we repeated the PV and SMM analyses using data
+produced using an earlier version of LAT’s event
+selection, P6
+V3 TRANSIENT [21], also used by
+Fermi to constrain LIV [22, 23].
+• Finally, we repeated the PV and SMM analy-
+ses starting from 30 MeV instead of their default
+100 MeV. While this change corresponds to in-
+creased statistics, it comes, however, with a larger
+contamination from the Band spectral component,
+which can increase the GRB-intrinsic systematic
+uncertainties.
+For the case of ML, we do not expect the calibrated
+CIs to vary in a considerably diﬀerent way than the CIs
+obtained directly from the data, during the tests men-
+tioned above. Thus, for simplicity, we only present ML
+results obtained directly from the data.
+The test results are shown in Fig. 22. In all cases,
+the CIs produced by diﬀerent methods (and for the same
+test) are in agreement with each other (i.e., they have
+some overlap). Their widths and centers do change some-
+what across tests, something expected considering the
+diﬀerent statistics and degrees of GRB-intrinsic spectral
+evolution in the diﬀerent data sets.
+The removal of the highest-energy event, as expected,
+widened the produced CIs. The magnitude of the in-
+crease in their widths is a probe for the degree with which
+our methods draw information from the single highest-
+energy event and also for the systematic uncertainty as-
+sociated with the possibility of that event being back-
+ground. Because of the very low background contami-
+nation in our data sets, the highest-energy photons are
+typically securely associated to the GRB (see, e.g., the
+Supplementary Information of Ref. [23] regarding the as-
+sociation of the 31 GeV photon to GRB 090510). Thus,
+we do not consider the option of removing the highest-
+energy photon to increase the robustness of the results
+warranted.
+The changes brought by the use of the extended time
+interval did not correspond to a speciﬁc pattern. They
+were likely caused by the inclusion of emission of en-
+ergy considerably higher than that included in the de-
+fault time interval or the inclusion of signiﬁcantly more
+GRB-intrinsic spectral evolution (likely in the case of
+GRB 090926A). Perhaps the most signiﬁcant change hap-
+pened with GRB 080916C and n = 2 on the PV and
+SMM results. For this case, the extended interval in-
+cluded at 13 GeV photon detected ∼ 16.54 s post-trigger,
+which had an almost a decade in energy higher than that
+of the rest of the photons. As such, it dominated the
+PV/SMM estimation procedures with the edges of the
+conﬁdence intervals on τ2 roughly corresponding to the
+time diﬀerence between its detection time and the edge of
+the analyzed interval divided by the square of its energy.
+The case of GRB 090926A is likely aﬀected by both the
+inclusion of a very energetic event ( ∼ 7 times higher en-
+ergy than the rest of the events) and the strong spectral
+evolution observed throughout this burst’s emission. We
+observe that the choice of time interval can signiﬁcantly
+aﬀect the ﬁnal results, and conclude that an a priori and
+carefully chosen selection for the time interval, as in this
+work, is important for the validity of the results.
+Repeating the analysis with the P6
+V3 TRANSIENT
+data set did not bring any considerable changes to the
+produced CIs, supporting the case that the improved lim-
+its produced in this work, when compared to past Fermi
+analyses of GRB 090510 [23], are a result of more sensi-
+tive analysis techniques rather than of a more constrain-
+ing data set.
+Finally, repeating the PV/SMM analyses starting from
+a lower minimum energy (30 MeV) did change the results
+signiﬁcantly, implying that the systematic eﬀects induced
+by the presence of two spectral components in the data
+are limited.
+We also repeated the ML analysis for GRBs 080916C
+and 090510 after performing some conﬁgurational
+changes aﬀecting the light curve parametrization, such
+as using asymmetric (instead of symmetric) Gaussian
+pulses, a larger number of Gaussian pulses, diﬀerent bin
+widths for the histogram used in producing the template
+(e.g., such as the one shown in Fig. 6), or diﬀerent Ecut
+values to split the data. The CIs varied up to a factor of
+∼ 2 with respect to CIs obtained with the default conﬁg-
+uration.
+===== PAGE 29 =====
+29
+0 0.5 1 1.5 2 2.5 3
+)-1 (s GeV1τ
+-2
+-1
+0
+1
+2
+3
+4
+GRB080916C (n=1)
+0 0.5 1 1.5 2 2.5 3
+)-2 (s GeV2τ
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+GRB080916C (n=2)
+W/out H.E. Event
+Extended Interval
+P6_TRANSIENT_V3
+30 MeV Min. Energy
+0 0.5 1 1.5 2 2.5 3
+)-1 (s GeV1τ
+-0.3
+-0.25
+-0.2
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+GRB090510 (n=1)
+0 0.5 1 1.5 2 2.5 3
+)-2 (s GeV2τ
+-0.1
+-0.08
+-0.06
+-0.04
+-0.02
+0
+0.02 GRB090510 (n=2)
+0 0.5 1 1.5 2 2.5 3
+)-1 (s GeV1τ
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+GRB090902B (n=1)
+0 0.5 1 1.5 2 2.5 3
+)-2 (s GeV2τ
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3 GRB090902B (n=2)
+0 0.5 1 1.5 2 2.5 3
+)-1 (s GeV1τ
+-1.5
+-1
+-0.5
+0
+0.5
+1
+GRB090926 (n=1)
+0 0.5 1 1.5 2 2.5 3
+)-2 (s GeV2τ
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1 GRB090926 (n=2)
+FIG. 22. Comparison between the 99% CL CIs on τn ob-
+tained with the default conﬁguration (horizontal dashed li nes)
+to those obtained with modiﬁed conﬁgurations or data sets
+(vertical error bars). There are three groups of results in
+each ﬁgure, each corresponding to a diﬀerent method: PV,
+SMM, ML (from left to right). The ML method CIs shown
+were produced directly from the data, instead using calibra -
+tion simulations.
+===== PAGE 30 =====
+30
+[1] M. Planck, Mitt. Thermodyn. Folg. 5 (1899).
+[2] S. N. Solodukhin, Liv. Rev. in Relativ. 14, 8 (2011),
+arXiv:1104.3712 [hep-th].
+[3] C. Rovelli, Liv. Rev. in Relativ. 11, 5 (2008).
+[4] L. Smolin, Three Roads to Quantum Gravity (Basic
+Books, New York, 2001).
+[5] D. Mattingly, Liv. Rev. in Relativ. 8, 5 (2005),
+arXiv:gr-qc/0502097.
+[6] T. Jacobson, S. Liberati, and D. Mattingly,
+Ann. Phys. 321, 150 (2006), arXiv:astro-ph/0505267.
+[7] S. Coleman and S. L. Glashow,
+Phys. Rev. D 59, 116008 (1999), arXiv:hep-ph/9812418.
+[8] T. Jacobson, S. Liberati, D. Mattingly, and
+F. W. Stecker, Phys. Rev. Lett. 93, 021101 (2004),
+arXiv:astro-ph/0309681.
+[9] F. W. Stecker and S. T. Scully,
+New J. Phys. 11, 085003 (2009),
+arXiv:0906.1735 [astro-ph.HE].
+[10] F. W. Stecker, Astroparticle Phys. 35, 95 (2011),
+arXiv:1102.2784 [astro-ph.HE].
+[11] B. Altschul, Phys. Rev. D 83, 056012 (2011),
+arXiv:1010.2779 [hep-ph].
+[12] G. Amelino-Camelia, J. Ellis, N. E. Mavromatos, D. V.
+Nanopoulos, and S. Sarkar, Nature (London) 393, 763
+(1998).
+[13] D. Colladay and V. A. Kosteleck´ y,
+Phys. Rev. D 55, 6760 (1997), arXiv:hep-ph/9703464.
+[14] V. A. Kosteleck´ y and M. Mewes,
+Phys. Rev. D 80, 015020 (2009),
+arXiv:0905.0031 [hep-ph].
+[15] F. W. Stecker and S. L. Glashow,
+Astroparticle Phys. 16, 97 (2001),
+arXiv:astro-ph/0102226.
+[16] R. Lamon, N. Produit, and F. Steiner,
+Gen. Relativ. Gravitation 40, 1731 (2008),
+10.1007/s10714-007-0580-6.
+[17] J. Bolmont, A. Jacholkowska, J.-L. Atteia, F. Piron,
+and G. Pizzichini, Astrophys. J. 676, 532 (2008),
+arXiv:astro-ph/0603725.
+[18] J. Ellis, N. E. Mavromatos, D. V. Nanopou-
+los, A. S. Sakharov, and E. K. G. Sark-
+isyan, Astroparticle Phys. 25, 402 (2006),
+arXiv:astro-ph/0510172.
+[19] M. Rodr ´ ıguez Mart ´ ınez, T. Piran, and
+Y. Oren, J. Cosm. Astr. Phys. 5, 017 (2006),
+arXiv:astro-ph/0601556.
+[20] F. Piron, Fermi LAT Collaboration, and GBM Collab-
+oration, in γ-Ray Bursts 2012 Conference (GRB 2012)
+(2012).
+[21] W. B. Atwood, A. A. Abdo, M. Ackermann, W. Alt-
+house, Anderson, et al. , Astrophys. J. 697, 1071 (2009),
+arXiv:0902.1089 [astro-ph.IM].
+[22] A. A. Abdo, M. Ackermann, M. Arimoto, K. Asano, At-
+wood, et al. , Science 323, 1688 (2009).
+[23] A. A. Abdo, M. Ackermann, M. Ajello, K. Asano,
+W. B. Atwood, et al. , Nature (London) 462, 331 (2009),
+arXiv:0908.1832 [astro-ph.HE].
+[24] L. Shao, Z. Xiao, and B.-Q.
+Ma, Astroparticle Phys. 33, 312 (2010),
+arXiv:0911.2276 [hep-ph].
+[25] R. J. Nemiroﬀ, R. Connolly, J. Holmes, and
+A. B. Kostinski, Phys. Rev. Lett. 108, 231103 (2012),
+arXiv:1109.5191 [astro-ph.CO].
+[26] MAGIC Collaboration, J. Ellis, N. E. Mavromatos, D. V.
+Nanopoulos, A. S. Sakharov, and E. K. G. Sarkisyan,
+Phys. Lett. B 668, 253 (2008), arXiv:0708.2889.
+[27] M. Mart ´ ınez and M. Errando,
+Astroparticle Physics 31, 226 (2009), arXiv:0803.2120.
+[28] F. Aharonian, A. G. Akhperjanian, U. Barres de
+Almeida, A. R. Bazer-Bachi, Becherini, et al. ,
+Phys. Rev. Lett. 101, 170402 (2008), arXiv:0810.3475.
+[29] A. Abramowski, F. Acero, F. Aharo-
+nian, A. G. Akhperjanian, G. Anton,
+et al. , Astroparticle Phys. 34, 738 (2011),
+arXiv:1101.3650 [astro-ph.HE].
+[30] K. Toma, S. Mukohyama, D. Yonetoku, T. Murakami,
+S. Gunji, T. Mihara, Y. Morihara, T. Sakashita, T. Taka-
+hashi, Y. Wakashima, H. Yonemochi, and N. Toukairin,
+Physical Review Letters 109, 241104 (2012),
+arXiv:1208.5288 [astro-ph.HE].
+[31] P. Laurent, D. G ¨otz, P. Bin´ etruy, S. Covino,
+and A. Fernandez-Soto, Phys. Rev. D 83, 121301 (2011),
+arXiv:1106.1068 [astro-ph.HE].
+[32] J. Ellis, N. E. Mavromatos, and D. V.
+Nanopoulos, Phys. Lett. B 665, 412 (2008),
+arXiv:0804.3566 [hep-th].
+[33] J. D. Scargle, J. P. Norris, and J. T. Bonnell,
+Astrophys. J. 673, 972 (2008).
+[34] G. Amelino-Camelia and L. Smolin,
+Phys. Rev. D 80, 084017 (2009),
+arXiv:0906.3731 [astro-ph.HE].
+[35] R. C. Myers and M. Pospelov,
+Phys. Rev. Lett. 90, 211601 (2003),
+arXiv:hep-ph/0301124.
+[36] D. Colladay and V. A. Kosteleck´ y,
+Phys. Rev. D 58, 116002 (1998), arXiv:hep-ph/9809521.
+[37] U. Jacob and T. Piran,
+J. Cosm. Astr. Phys. 1, 31 (2008), arXiv:0712.2170.
+[38] E. Komatsu, K. M. Smith, J. Dunk-
+ley, C. L. Bennett, B. Gold, et al. ,
+Astrophys. J., Suppl. Ser. 192, 18 (2011),
+arXiv:1001.4538 [astro-ph.CO].
+[39] A. G. Riess, L. Macri, S. Casertano, H. Lam-
+peitl, H. C. Ferguson, A. V. Filippenko, S. W. Jha,
+W. Li, and R. Chornock, Astrophys. J. 730, 119 (2011),
+arXiv:1103.2976 [astro-ph.CO].
+[40] M. Ackermann, M. Ajello, A. Albert, A. Allafort, W. B.
+Atwood, et al. , Astrophys. J., Suppl. Ser. 203, 4 (2012),
+arXiv:1206.1896 [astro-ph.IM].
+[41] J. Greiner, C. Clemens, T. Kr ¨uhler, A. von Kien-
+lin, A. Rau, et al. , Astron. Astrophys. 498, 89 (2009),
+arXiv:0902.0761.
+[42] F. Olivares, S. Klose, T. Kruehler, and J. Greiner, GRB
+Coordinates Network 9352, 1 (2009).
+[43] A. Cucchiara, D. B. Fox, N. Tanvir, and E. Berger, GRB
+Coordinates Network 9873, 1 (2009).
+[44] V. D’Elia, J. P. U. Fynbo, S. Covino,
+P. Goldoni, P. Jakobsson, F. Matteucci,
+et al. , Astron. Astrophys. 523, A36 (2010),
+arXiv:1007.5357 [astro-ph.HE].
+===== PAGE 31 =====
+31
+[45] J. P. Norris, R. J. Nemiroﬀ, J. T. Bonnell, J. D. Scargle,
+C. Kouveliotou, W. S. Paciesas, C. A. Meegan, and G. J.
+Fishman, Astrophys. J. 459, 393 (1996).
+[46] J. Ellis, N. Harries, A. Meregaglia, A. Rubbia,
+and A. S. Sakharov, Phys. Rev. D 78, 033013 (2008),
+arXiv:0805.0253 [hep-ph].
+[47] A. G. Frodesen, O. Skjeggestad, and H. Tøfte, Probability
+and Statistics in Particle Physics (Universitetsforlaget,
+ISBN 82-00-01906-3, Bergen, 1979).
+[48] M. Ackermann, M. Ajello, K. Asano, M. Axelsson, L. Bal-
+dini, J. Ballet, et al. , Astrophys. J. 729, 114 (2011),
+arXiv:1101.2082 [astro-ph.HE].
+[49] D. Band, J. Matteson, L. Ford, B. Schaefer, D. Palmer,
+et al. , Astrophys. J. 413, 281 (1993).
+[50] L. Bombelli and O. Winkler,
+Class. and Quant. Grav. 21, L89 (2004).
+[51] M. Ackermann, K. Asano, W. B. Atwood, M. Axels-
+son, L. Baldini, et al. , Astrophys. J. 716, 1178 (2010),
+arXiv:1005.2141 [astro-ph.HE].
+[52] A. A. Abdo, M. Ackermann, M. Ajello, K. Asano, W. B.
+Atwood, et al. , Astrophys. J., Lett. 706, L138 (2009).
+[53] J. Granot, J. Cohen-Tanugi, and E. do Couto e Silva,
+Astrophys. J. 677, 92 (2008), arXiv:0708.4228.
+[54] R. Hasco ¨et, F. Daigne, R. Mochkovitch, and
+V. Vennin, Mon. Not. R. Astron. Soc. 421, 525 (2012),
+arXiv:1107.5737 [astro-ph.HE].
+[55] F. Ryde and R. Svensson, Astrophys. J. 566, 210 (2002),
+arXiv:astro-ph/0110196.
+[56] Z. Chang, Y. Jiang, and H.-N.
+Lin, Astroparticle Phys. 36, 47 (2012),
+arXiv:1201.3413 [astro-ph.HE].
+[57] C. Rovelli, Phys. Rev. Lett. 77, 3288 (1996),
+arXiv:gr-qc/9603063.
+[58] A. Ashtekar, C. Rovelli, and L. Smolin,
+Phys. Rev. D 44, 1740 (1991), arXiv:hep-th/9202054.
+[59] L. Maccione, S. Liberati, and G. Sigl,
+Phys. Rev. Lett. 105, 021101 (2010),
+arXiv:1003.5468 [astro-ph.HE].
+[60] J. Ellis, N. E. Mavromatos, and D. V.
+Nanopoulos, Phys. Lett. B 694, 61 (2010),
+arXiv:1004.4167 [astro-ph.HE].
+[61] A. U. Abeysekara, J. A. Aguilar, S. Aguilar, R. Alfaro,
+E. Almaraz, et al. , Astroparticle Phys. 35, 641 (2012),
+arXiv:1108.6034 [astro-ph.HE].

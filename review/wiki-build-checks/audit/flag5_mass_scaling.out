@@ -1,0 +1,26 @@
+A1  (b1+2b2+b3) - 2(b1+b2) under palindrome: 0
+A2  T = 0 under palindrome gives b0 = -4*b1 - 3*b2
+A3  V(1) - 2T under palindrome: 0
+
+B   aligned-point expansion of U on the family (palindrome + T = 0)
+    b1=1     b2=0     b1+b2=1      a=0.25             b+a=-6.86e-21  a/((b1+2b2+b3)/8)=1.0            U(1,1)=0.0      |1st order|=1.45e-40 generic-(h,l) residual=6.57e-21
+    b1=0     b2=1     b1+b2=1      a=0.25             b+a=-2.46e-22  a/((b1+2b2+b3)/8)=1.0            U(1,1)=0.0      |1st order|=1.32e-40 generic-(h,l) residual=7.57e-21
+    b1=0.25  b2=0.75  b1+b2=1.0    a=0.25             b+a=1.04e-21   a/((b1+2b2+b3)/8)=1.0            U(1,1)=0.0      |1st order|=1.23e-41 generic-(h,l) residual=-2.84e-22
+    b1=2     b2=-1    b1+b2=1      a=0.25             b+a=3.61e-20   a/((b1+2b2+b3)/8)=1.0            U(1,1)=0.0      |1st order|=1.35e-41 generic-(h,l) residual=-7.73e-20
+    b1=2     b2=0     b1+b2=2      a=0.5              b+a=5.91e-22   a/((b1+2b2+b3)/8)=1.0            U(1,1)=0.0      |1st order|=2.14e-40 generic-(h,l) residual=1.43e-20
+    b1=0.6   b2=1.4   b1+b2=2.0    a=0.5              b+a=1.27e-21   a/((b1+2b2+b3)/8)=1.0            U(1,1)=0.0      |1st order|=3.64e-41 generic-(h,l) residual=7.3e-21
+
+B'  linearity: a(2,0)/a(1,0) = 2.0 ; a(0.6,1.4)/a(0.25,0.75) = 2.0   (b1+b2 doubled in both)
+    same b1+b2, different split: a(1,0), a(0,1), a(0.25,0.75), a(2,-1) = ['0.25', '0.25', '0.25', '0.25']
+
+C   m_FP^2 / m^2 = 16 a  (alpha = 1, standard EH normalization)  vs  2(b1 + 2b2 + b3) [dagger]:
+    b1=1, b2=0:  16a = 4.0,  2(b1+2b2+b3) = 4.0
+    b1=2, b2=0:  16a = 8.0,  2(b1+2b2+b3) = 8.0
+    b1=0.6, b2=1.4:  16a = 8.0,  2(b1+2b2+b3) = 8.0
+    doubling b1+b2 multiplies M_X^2 by 2.0 and M_X by 1.41421356237 (a literal M_X ∝ 2(b1+b2) would need 2)
+
+D   textbook anchor: G_k(r) = 1/(2 pi^2 r) * Int_0^inf q sin(q r)/(q^2 + k) dq, decay rate of r*G
+    k=1   fitted decay rate = 1.0            sqrt(k) = 1.0    range = 1.0
+    k=4   fitted decay rate = 2.0            sqrt(k) = 2.0    range = 0.5
+    k=16  fitted decay rate = 4.0            sqrt(k) = 4.0    range = 0.25
+    quadrupling the quadratic coefficient k halves the Yukawa range: the mass is sqrt(k).

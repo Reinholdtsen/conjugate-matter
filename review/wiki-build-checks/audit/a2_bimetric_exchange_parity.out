@@ -1,0 +1,12 @@
+1. exchange identity sqrt(det g) e_n(sqrt(g^-1 f)) = sqrt(det f) e_{4-n}(sqrt(f^-1 g)): True max rel dev 9.2e-16
+2. beta = [-1.9, 0.7, -0.3, 0.7, -1.9]: T = -2.22e-16, V(1) = +0.00e+00
+   V(g,f) = +6.0977138708, V(f,g) = +6.0977138708  (palindromic)
+   V(g,f) = +32.7780915523, V(f,g) = +23.6629601663  (non-palindromic [0.3, 0.7, -0.3, 0.1, -0.2])
+3. V(g, g) for three random g: ['+0.0e+00', '-6.3e-15', '-4.8e-15']
+4. Hessian: max|PMP - M| = 4.2e-08; scale max|M| = 0.400
+   max|M (h, h)| over the 10 basis directions h: 6.6e-08
+   non-null eigenvalues: 10; each eigenvector has form (u, -u): max|u_g + u_f| = 1.1e-07
+   quadratic part vs ((b1+b2)/4)[Tr u^2 - (Tr u)^2], u = h_f - h_g: max rel dev 1.2e-06 (5 random pairs; c = 0.1000)
+5. massless (null) directions of M: 10; all 10 even directions (h, h) are null (rank of M on them = 0); massive directions: 10, all exchange-odd
+6. double inversion: eigenvalues of sqrt(g^-1 f) inverted: True; V(g,f) = +8.225297, V(g^-1,f^-1) = +0.008116, V(g,f)/sqrt(det g det f) = +0.008116
+   linear action of g -> g^-1 at g = 1: max|d(g^-1) + h|/|h| = 1.5e-06  (so dg -> -dg, df -> -df: both h_g + h_f and h_g - h_f odd)

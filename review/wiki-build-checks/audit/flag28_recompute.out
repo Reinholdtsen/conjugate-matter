@@ -1,0 +1,41 @@
+=== A. Dirac's condition from Wu-Yang patches ===
+[HL (hbar=c=1)] B_r = g/(4*pi*r**2)  (south patch gives g/(4*pi*r**2)); B_theta = 0
+[HL (hbar=c=1)] total flux through a sphere = g
+[HL (hbar=c=1)] A_N - A_S = grad(chi) with chi = (g/(2*pi)) * phi
+[HL (hbar=c=1)] single-valued exp(i e chi): e*g/(2pi) = n  ->  g = 2*pi*n/e  ->  e*g = 2*pi*n
+[Gaussian] B_r = g/r**2  (south patch gives g/r**2); B_theta = 0
+[Gaussian] total flux through a sphere = 4*pi*g
+[Gaussian] A_N - A_S = grad(chi) with chi = (2*g) * phi
+[Gaussian] single-valued exp(i e chi/(hbar c)): 2 e g/(hbar c) = n  ->  g = c*hbar*n/(2*e)  ->  e*g = c*hbar*n/2
+
+=== B. Physical couplings (Coulomb force between like charges, F r^2/(hbar c)) ===
+HL:       alpha = e**2/(4*pi),  minimal g = 2*pi/e,  alpha_m = g^2/(4pi) = pi/e**2
+HL:       alpha * alpha_m = 1/4
+Gaussian: alpha = e**2/(c*hbar),  minimal g = c*hbar/(2*e),  alpha_m = g^2/(hbar c) = c*hbar/(4*e**2)
+Gaussian: alpha * alpha_m = 1/4
+
+=== numbers (alpha^-1 = 137.035999, CODATA, model memory; insensitive at shown digits) ===
+alpha_m at Dirac minimum = 1/(4 alpha) = 34.259000
+
+=== C. The source's expression 4*pi/e^2, evaluated as written ===
+HL       (alpha = e^2/4pi): e = 0.302822,  4pi/e^2 = 137.03600,  pi/e^2 = 34.259000
+Gaussian (alpha = e^2)    : e = 0.0854245,  4pi/e^2 = 1722.0452,  1/(4e^2) = 34.259000
+Gaussian Dirac condition is e*g = 1/2 (hbar=c=1), so 'e*g ~ 2pi' is itself the HL form.
+
+=== D. When is 4pi/e^2 the magnetic coupling g^2/4pi (HL)? ===
+g^2/(4pi) = 4pi/e^2  <=>  g = [4*pi/e]  i.e. e*g = [4*pi]  (Dirac n = 2, the Schwinger/'t Hooft-Polyakov normalization)
+Other candidate meanings of 'magnetic coupling' at the Dirac minimum g = 2pi/e (HL, e = electron):
+   g                            = 20.7488
+   g^2                          = 430.511
+   g^2/4pi                      = 34.2590
+   g/e (g_D in units of e)      = 68.5180
+   g^2/4pi at e*g = 4pi         = 137.036
+
+=== E. Rescue reading: e := gauge coupling = 2 x smallest charge (SU(2) doublets at e/2) ===
+e_min*g_m = 6.28319 (= 2pi: True),  e_gauge*g_m = 12.5664 (= 4pi: True)
+4pi/e_gauge^2 = 34.259000  = g_m^2/4pi = 34.259000
+-> the sentence holds only if its 'e' in e*g ~ 2pi is e_min and its 'e' in 4pi/e^2 is 2 e_min.
+
+=== F. Montonen-Olive S-duality: tau = theta/2pi + 4 pi i/e^2, S: tau -> -1/tau, theta = 0 ===
+-1/tau = I*e**2/(4*pi);  dual coupling e_D = [4*pi/e];  alpha_D = e_D^2/4pi = 4*pi/e**2
+with e = electron (HL): alpha_D = 137.03600

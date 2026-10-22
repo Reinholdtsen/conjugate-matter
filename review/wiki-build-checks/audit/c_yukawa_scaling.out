@@ -1,0 +1,8 @@
+set        b1    b2    b1+2b2+b3   M_X=m*sqrt(.)   fitted decay const   G(1)*4pi*e^M (should be 1)
+           0.30  0.20        1.0             1.0               1.0         1.0
+           0.60  0.40        2.0     1.414213562       1.414213562         1.0
+           1.20  0.80        4.0             2.0               2.0         1.0
+ratio M_X(set2)/M_X(set1) = 1.414213562  (claim "M_X ∝ 2(b1+b2)" predicts 2.0 )
+ratio M_X(set3)/M_X(set1) = 2.0  (claim predicts 4.0 )
+d ln M_X / d ln(b1+b2) = 0.5 (M_X ∝ (b1+b2)^p with p = this)
+d ln M_X^2 / d ln(b1+b2) = 1.0

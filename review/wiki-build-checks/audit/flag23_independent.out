@@ -1,0 +1,73 @@
+------------------------------------------------------------------------------
+PART 0. Consistency of the sources' parametrization with the textbook Siegel action (A1, A2)
+ d=1: max|M^T w M - w| = 3.3e-16;  max|det H_Z - 1| = 4.4e-16;  max rel|H_(M.Z) - M H_Z M^T| = 5.0e-16;  R.Z == -Z^-1: True
+ d=2: max|M^T w M - w| = 8.1e-15;  max|det H_Z - 1| = 6.7e-16;  max rel|H_(M.Z) - M H_Z M^T| = 3.3e-15;  R.Z == -Z^-1: True
+ d=3: max|M^T w M - w| = 1.6e-14;  max|det H_Z - 1| = 8.9e-16;  max rel|H_(M.Z) - M H_Z M^T| = 1.9e-13;  R.Z == -Z^-1: True
+ => H_Z is covariant (H_(M.Z) = M H_Z M^T), det H_Z = 1 everywhere, rho = R acts as Z -> -Z^-1.
+------------------------------------------------------------------------------
+PART 1. d = 1, symbolic. Z = X + iY.
+ det H_Z = 1
+ rho(Z) = -1/Z :  Re = -X/(X**2 + Y**2) ,  Im = Y/(X**2 + Y**2)
+ |rho(Z)|^2 * |Z|^2 = 1
+ on the axis X = 0: H_Z = [[Y, 0], [0, 1/Y]] ; rho(iY) = i * 1/Y  (scale-factor duality g -> 1/g)
+
+ 1a. The constraint on the vacuum slice X = 0 (source definitions: a^2 = g = Y, a~^2 = g~ = H_pp = 1/Y)
+     a*a~ = 1  for every Y > 0;  det H at X=0 = 1
+       Y = 1/1000:  a =    0.0316   a~ =   31.6228   a*a~ = 1.000000000000   |Z| =    0.0010
+       Y =    1/4:  a =    0.5000   a~ =    2.0000   a*a~ = 1.000000000000   |Z| =    0.2500
+       Y =      1:  a =    1.0000   a~ =    1.0000   a*a~ = 1.000000000000   |Z| =    1.0000
+       Y =      4:  a =    2.0000   a~ =    0.5000   a*a~ = 1.000000000000   |Z| =    4.0000
+       Y =   1000:  a =   31.6228   a~ =    0.0316   a*a~ = 1.000000000000   |Z| = 1000.0000
+     solutions of {X = 0, |Z| = 1, Y > 0}: Y = [1]  -> the circle meets the axis only at Z = i
+
+ 1b. Every reading of (a, a~) off the axis that the sources' objects allow
+     (i)   a^2 = Im Z,     a~^2 = H_pp        : (a a~)^2 = 1                       a a~ = 1  <=>  X in identically 1 (all Z)
+     (ii)  a^2 = H_xx,     a~^2 = H_pp        : (a a~)^2 = X**2/Y**2 + 1           a a~ = 1  <=>  X in [0]
+     (iii) a^2 = Im Z,     a~^2 = Im rho(Z)   : (a a~)^2 = Y**2/(X**2 + Y**2)      a a~ = 1  <=>  X in [0]
+     (iv)  a^2 = |Z|,      a~^2 = |rho(Z)|    : (a a~)^2 = 1                       a a~ = 1  <=>  X in identically 1 (all Z)
+     (det reading: (a a~)^2 = det H = 1 on the whole domain, by A2)
+     => in no reading is {a a~ = 1} the circle |Z| = 1; it is either the axis X = 0 or the whole domain.
+
+ 1c. What |Z| = 1 is, in the sources' objects
+     H_xx - H_pp              = (X**2 + Y**2 - 1)/Y   (zero iff |Z| = 1: a = a~ in reading (ii))
+     Im rho(Z) - Im Z         = -Y*(X**2 + Y**2 - 1)/(X**2 + Y**2)   (zero iff |Z| = 1: a = a~ in reading (iii))
+     rho(Z) - (-conj Z)       = (X**2 + Y**2 - 1)/(X + I*Y)  (zero iff |Z| = 1: there rho acts as X -> -X)
+     (reflection o inversion)(Z) - rho(Z) = 0   (anchor A3)
+     inversion fixed set: 1/conj(Z) - Z = -(X**2 + Y**2 - 1)/(X - I*Y)  -> zero iff |Z| = 1
+     => |Z| = 1 is the mirror of the inversion that rho performs on the axis (a <-> 1/a):
+        the self-dual locus a = a~, separating |Z| > 1 (a > a~) from |Z| < 1 (a < a~).
+------------------------------------------------------------------------------
+PART 2. The one reading in which |Z| = 1 is a family with a a~ = 1: a 45-degree-rotated polarization
+ on Z = e^{i theta}: H = [[1/sin(theta), 1/tan(theta)], [1/tan(theta), 1/sin(theta)]]
+ eigenvalues: [(1 - Abs(cos(theta)))/sin(theta), (Abs(cos(theta)) + 1)/sin(theta)] ; product = 1
+ charpoly(cot(theta/2)) = 0 ; charpoly(tan(theta/2)) = 0  -> eigenvalues are cot(theta/2), tan(theta/2)
+ eigenvectors: [[[1, -Abs(cos(theta))/cos(theta)]], [[1, Abs(cos(theta))/cos(theta)]]]  (directions x+p and x-p)
+ the U(1) rotation by pi/4 (stabilizer of i) maps iY to w with |w|^2 = 1
+ => |Z| = 1 is the image of the vacuum slice X = 0 under a 45-degree rotation of the (x, p) split.
+    There Im Z = sin(theta) <= 1 and X = cos(theta) != 0 (except at Z = i), so this reading
+    contradicts the sources' 'Im Z = g' and 'X = 0 is the vacuum slice'.
+    theta = 0.300: Im Z = 0.2955, X = +0.9553, eigenvalues = 6.6166, 0.1511
+    theta = 1.000: Im Z = 0.8415, X = +0.5403, eigenvalues = 1.8305, 0.5463
+    theta = 1.571: Im Z = 1.0000, X = +0.0000, eigenvalues = 1.0000, 1.0000
+    theta = 2.500: Im Z = 0.5985, X = -0.8011, eigenvalues = 0.3323, 3.0096
+------------------------------------------------------------------------------
+PART 3. d = 3 (isotropic FRW spatial block) and anisotropic Y, on the axis X = 0
+ a =    0.001: a~ =      1000, a*a~ = 1.000000000000, (a a~)^6 = det H = 1.000000;  |Z Zbar - 1| =         1, ||Z||op =     1e-06, |det Z| =     1e-18
+ a =      0.5: a~ =         2, a*a~ = 1.000000000000, (a a~)^6 = det H = 1.000000;  |Z Zbar - 1| =     0.938, ||Z||op =      0.25, |det Z| =    0.0156
+ a =        1: a~ =         1, a*a~ = 1.000000000000, (a a~)^6 = det H = 1.000000;  |Z Zbar - 1| =         0, ||Z||op =         1, |det Z| =         1
+ a =        2: a~ =       0.5, a*a~ = 1.000000000000, (a a~)^6 = det H = 1.000000;  |Z Zbar - 1| =        15, ||Z||op =         4, |det Z| =        64
+ a =    1e+03: a~ =     0.001, a*a~ = 1.000000000000, (a a~)^6 = det H = 1.000000;  |Z Zbar - 1| =     1e+12, ||Z||op =     1e+06, |det Z| =     1e+18
+ anisotropic Y = diag(4, 1/4, 1): per-direction a_k a~_k = [1. 1. 1.] ; |Z Zbar - 1| = 15.0
+ => on the vacuum slice the constraint holds for every scale factor; any matrix reading of
+    '|Z| = 1' (Z Zbar = 1, operator norm 1, |det Z| = 1) holds only at a = 1 in the isotropic case.
+
+ Anchor A4 (FRW, textbook): p_phys = p_comoving / a, so cell volume a^3 * (1/a)^3 = 1 at every a: the constraint is satisfied along the whole history, not at one point.
+------------------------------------------------------------------------------
+PART 4. Matrix |Z| = 1 (Z Zbar = 1) <=> [X, Y] = 0 and X^2 + Y^2 = 1  (d = 2, numeric)
+ commuting X, Y with X^2+Y^2 = 1: |Z Zbar - 1| = 5.6e-16 ; |rho(Z) + Zbar| = 6.3e-16 ; |H_xx - H_pp| = 8.9e-16 ; X != 0: True
+ generic X, Y: |[X,Y]| = 0.238 ; Im(Z Zbar) = YX - XY = True
+------------------------------------------------------------------------------
+PART 5. The dictionary (side claim of the flag): w_eff from a dual-frame fluid, a~ = 1/a
+ with Jacobian:    rho_eff ~ a^( 3*w_tilde - 3 )  =>  w_eff = -w_tilde
+ densities equated (no Jacobian): rho_eff ~ a^( 3*w_tilde + 3 )  =>  w_eff = -w_tilde - 2
+------------------------------------------------------------------------------

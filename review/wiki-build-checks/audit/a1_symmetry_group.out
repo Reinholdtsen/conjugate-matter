@@ -1,0 +1,22 @@
+== 1. Positive control: the naive potential under the squeeze S = diag(a, 1/a)
+   V_mu(S^-1 K S) - V_mu(K) = 0
+
+== 2. The lambda-term under the squeeze, generic positive H (not only on the flat line)
+   V_lam(S^T H S, S^-1 K S) - V_lam(H, K) = 0
+
+== 3. The bounded variant V_b under the squeeze
+   V_b(S^-1 K S) - V_b(K) = 2*A**2*(a - 1)*(a + 1)*(a**2 + 1)*(a**2*c - b)*(a**2*c + b)/((2*A**2 + b**2 + c**2)*(2*A**2*a**4 + a**8*c**2 + b**2))
+   hyperboloid check A^2 + bc = 1
+   a = 1/2: V_b before = -8/33, after = -128/4233
+   a = 2: V_b before = -8/33, after = -8/153
+   a = 3: V_b before = -8/33, after = -648/59713
+   K with V_b invariant for every a (all coefficients in a vanish): [{A: 0}, {b: 0, c: 0}]
+
+== 4. Lie-algebra test: does V_b (or V_mu) keep ANY one-parameter subgroup of Sp(2,R)?
+   V_mu (naive): singular values of the 40x3 derivative matrix [213.244  88.676   0.   ]
+      null direction (an exact continuous symmetry) = [1. 0. 0.] in (squeeze, rotation, boost)
+   V_b (bounded): singular values of the 40x3 derivative matrix [6.804 3.723 2.673]
+      no null direction: no one-parameter subgroup of Sp(2,R) leaves this potential invariant
+   V_b, generator squeeze diag(1,-1): max |dV_b/d eps| over the 40 K = 0.9979
+   V_b, generator rotation [[0,1],[-1,0]]: max |dV_b/d eps| over the 40 K = 1.9486
+   V_b, generator sym. boost [[0,1],[1,0]]: max |dV_b/d eps| over the 40 K = 0.9765

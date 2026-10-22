@@ -1,0 +1,3 @@
+Y = 1 + h         order-e^2 term of S: -h**2 + x**2
+Y = (1 + h/2)^2   order-e^2 term of S: -h**2/2 + x**2
+Y = exp(h)        order-e^2 term of S: x**2

@@ -1,0 +1,66 @@
+== 0. Anchors (textbook identities, independent of the paper)
+  2x2 identity M^T w M = det(M) w: True
+  Cayley-Hamilton: traceless K has K^2 = -det(K) * 1: True -> det K = -1 gives K^2 = 1 and K^T w K = -w
+  chart: trace 0 | det -1 | K^2 - 1 = [[0, 0], [0, 0]] | K^T w K + w = [[0, 0], [0, 0]]
+  chart covers the hyperboloid: max reconstruction error over 2000 random points = 1.09e-11
+
+== 1. Identify K_ref from §4: V_b(H=1, K(phi)) = -(mu/2)(1 + cos 2 phi)
+  K_ref = diag(1,-1)    : V_b - [-(mu/2)(1+cos2phi)] = 0
+  K_ref = diag(-1,1)    : V_b - [-(mu/2)(1+cos2phi)] = 0
+  K_ref = [[0,1],[1,0]] : V_b - [-(mu/2)(1+cos2phi)] = mu*cos(2*phi)
+
+== 2. Frozen H = 1 (Z = i), K free on its whole target (the model as defined in §2)
+  H(Z=i) = [[1.00000000000000, 0.0], [0.0, 1.00000000000000]]
+  V(s, f) - [lam sinh^2 s - 4 mu cosh^2 s cos^2 f] = 0
+  along f = 0:  V + 4 mu - (lam - 4 mu) sinh^2 s = 0
+  lam = mu = 1, f = 0 (K stays off the circle along s):
+    s =  0.00000  (sinh s =    0.0000):  V = -4.000000
+    s =  1.00000  (sinh s =    1.1752):  V = -8.143294
+    s =  2.00000  (sinh s =    3.6269):  V = -43.462349
+    s =  5.00000  (sinh s =   74.2032):  V = -16522.349380
+    s =  5.29834  (sinh s =  100.0000):  V = -30004.000000
+  restricted to the circle (s = 0): V(0, f) + 2mu(1 + cos 2f) = 0
+    numeric range on the circle at lam = mu = 1: [-4.000000, -0.000000]
+
+== 3. Frozen H = 1: boundedness against lam/mu (mu = 1)
+  lam =    0.5: min V on |s| <= 12 grid = -2.317798e+10 at s = -12.000, f = -3.142;  V(s=12, f=0) = -2.3178e+10
+  lam =    1.0: min V on |s| <= 12 grid = -1.986684e+10 at s = -12.000, f = -3.142;  V(s=12, f=0) = -1.9867e+10
+  lam =    2.0: min V on |s| <= 12 grid = -1.324456e+10 at s = -12.000, f = -3.142;  V(s=12, f=0) = -1.3245e+10
+  lam =    3.0: min V on |s| <= 12 grid = -6.622281e+09 at s = -12.000, f = -3.142;  V(s=12, f=0) = -6.6223e+09
+  lam =    3.9: min V on |s| <= 12 grid = -6.622281e+08 at s = -12.000, f = -3.142;  V(s=12, f=0) = -6.6223e+08
+  lam =    4.0: min V on |s| <= 12 grid = -4.000011e+00 at s = -11.810, f = -3.142;  V(s=12, f=0) = -4.0000e+00
+  lam =    4.1: min V on |s| <= 12 grid = -4.000000e+00 at s =  0.000, f = -3.142;  V(s=12, f=0) =  6.6223e+08
+  lam =    5.0: min V on |s| <= 12 grid = -4.000000e+00 at s =  0.000, f = -3.142;  V(s=12, f=0) =  6.6223e+09
+  lam =   10.0: min V on |s| <= 12 grid = -4.000000e+00 at s =  0.000, f = -3.142;  V(s=12, f=0) =  3.9734e+10
+  lam =  100.0: min V on |s| <= 12 grid = -4.000000e+00 at s =  0.000, f = -3.142;  V(s=12, f=0) =  6.3574e+11
+  bound: lam sinh^2 s - 4mu cosh^2 s - [-4mu + (lam-4mu) sinh^2 s] = 0 -> V >= -4 mu for every K iff lam >= 4 mu (equality line at lam = 4 mu)
+
+== 4. Frozen-H Hessian and mass^2 at K_ref = (s, f) = (0, 0)
+  Hessian in (s, f): [[2*lambda - 8*mu, 0], [0, 8*mu]]
+  gradient at K_ref: [0, 0] (critical point)
+  kinetic metric G at K_ref: [[f_K**2, 0], [0, f_K**2]]
+  mass^2 matrix G^-1 Hess: [[2*(lambda - 4*mu)/f_K**2, 0], [0, 8*mu/f_K**2]]
+  at lam = mu = 1, f_K = 1: mass^2 = [-6, 8]
+
+== 5. The same frozen-H potential in verify/toy_coset.py's chart (u, t), to compare with the flag
+  V(u, t) = 1.0*lambda*t**2 - 4*mu*t**2 + 4*mu*u**2 - 4*mu | minus flag's form: 0
+  Hessian at (0,0), lam = mu = 1: [[8, 0], [0, -6.00000000000000]] eigenvalues {8.00000000000000: 1, -6.00000000000000: 1}
+  V(u=0, t=100), lam = mu = 1: -30004.0000000000
+
+== 6. H dynamical: the boost family of §4 (H = S^T S, K = S^-1 K0 S)
+  S symplectic: True
+  V_lam on family = 0 | V_mu on family = -4*mu*cosh(2*tb)**2
+  V_mu (mu = 1) at tb = 0, 1, 2, 4: ['-4', '-56.6165', '-2982.96', '-8.88611e+06'] -> unbounded for every lam (V_lam = 0 on the family)
+
+== 7. Full 4x4 Hessian at (1, K_ref), toy_coset chart (x, y, u, t), H = H(x, 1 + y)
+  symbolic Hessian: [[2*lambda, 0, 0, -2*lambda], [0, 0, 0, 0], [0, 0, 8*mu, 0], [-2*lambda, 0, 0, 2*lambda - 8*mu]]
+  lam =   1, mu = 1: eigenvalues [-6.4721  0.      2.4721  8.    ]; lowest mode weights (x, y, u, t)^2 = [0.053 0.    0.    0.947]; frozen-H (u,t) block eigenvalues [-6.  8.]
+  lam =   4, mu = 1: eigenvalues [-4.9443  0.      8.     12.9443]; lowest mode weights (x, y, u, t)^2 = [0.276 0.    0.    0.724]; frozen-H (u,t) block eigenvalues [0. 8.]
+  lam =  10, mu = 1: eigenvalues [-4.3961  0.      8.     36.3961]; lowest mode weights (x, y, u, t)^2 = [0.402 0.    0.    0.598]; frozen-H (u,t) block eigenvalues [ 8. 12.]
+  lam = 100, mu = 1: eigenvalues [ -4.04   0.     8.   396.04]; lowest mode weights (x, y, u, t)^2 = [0.49 0.   0.   0.51]; frozen-H (u,t) block eigenvalues [  8. 192.]
+  Tr(dH dH) metric in (x, y): [[2, 0], [0, 2]] | Tr(dK^T dK) metric in (u, t): [[2, 0], [0, 2]]
+  lam =   1: mass^2 (f_H = f_K = 1) = [-6.7446  0.      4.7446  8.    ]
+  lam =  10: mass^2 (f_H = f_K = 1) = [-5.5595  0.      8.     57.5595]
+
+== 8. Round-4 referee's chart (X, Y, b, c) with a = sqrt(1 - bc), H = H(X, Y) at Y = 1
+  full Hessian eigenvalues, lam = mu = 1: [-3.3723 -0.      2.3723  4.    ] | frozen-H (b, c) block: [-3.  4.]

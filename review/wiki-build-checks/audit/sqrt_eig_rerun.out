@@ -1,0 +1,9 @@
+p4(eig sqrt(g^-1 f)) = 0.17716138923004782
+Tr(g^-2)             = 0.177161389230048
+Tr(g^2)              = 145.3564388817495
+p4(eig sqrt(f^-1 g)) = 145.35643888175002
+X^2 == g^-1 f: True
+e_n(X^-1) == e_{4-n}(X)/e_4(X): True
+sqrt|g| e_n(sqrt(g^-1 f)) == sqrt|f| e_{4-n}(sqrt(f^-1 g)): True
+Newton p4 identity: True
+e_n(1+delta) linear coeffs: [np.float64(-0.0), np.float64(1.0), np.float64(3.0), np.float64(3.0), np.float64(1.0)]

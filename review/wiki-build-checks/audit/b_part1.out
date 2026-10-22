@@ -1,0 +1,34 @@
+Units 8piG = 1, H0 = 1, Omega_m = 0.3; 1/H0 = 14.51 Gyr; start a = 0.01
+
+== 1. The documents' potential V0[1 + cos(tau/f)] (c = 0) ==
+doc form V0[1+cos]     f=1.0  tau_i/f=0.2  c=0.0   Ok=0.0    V0=1.0632 minV=+0.0000 w0=-0.998 (-dw/da)=-0.003 | NO turnaround in 200/H0 (2901 Gyr) after today: min H = 3.387e-03, min rho_tot = 3.544e-05, a_end = 3.612e+03, H*t at end = 0.6806 | max rel. constraint violation 3.0e-02, absolute |3H^2 - rho| at end 1.0e-06 (projected: False)
+      t-t0 =    25.0: a = 7.993e+02, rho_tau*a^3 = 1642113.3346, H*t = 0.8500
+      t-t0 =    50.0: a = 1.367e+03, rho_tau*a^3 = 1693986.2053, H*t = 0.7573
+      t-t0 =   100.0: a = 2.244e+03, rho_tau*a^3 = 1658335.3917, H*t = 0.7037
+      t-t0 =   200.0: a = 3.612e+03, rho_tau*a^3 = 1670153.1203, H*t = 0.6806
+doc form V0[1+cos]     f=0.5  tau_i/f=0.1  c=0.0   Ok=0.0    V0=1.0561 minV=+0.0000 w0=-0.997 (-dw/da)=-0.009 | NO turnaround in 200/H0 (2901 Gyr) after today: min H = 3.318e-03, min rho_tot = 3.406e-05, a_end = 1.823e+02, H*t at end = 0.6668 | max rel. constraint violation 3.1e-02, absolute |3H^2 - rho| at end 1.0e-06 (projected: False)
+      t-t0 =    25.0: a = 4.472e+01, rho_tau*a^3 = 202.0627, H*t = 0.7140
+      t-t0 =    50.0: a = 7.190e+01, rho_tau*a^3 = 207.0884, H*t = 0.6954
+      t-t0 =   100.0: a = 1.148e+02, rho_tau*a^3 = 204.6651, H*t = 0.6770
+      t-t0 =   200.0: a = 1.823e+02, rho_tau*a^3 = 205.4741, H*t = 0.6668
+doc form V0[1+cos]     f=2.0  tau_i/f=0.5  c=0.0   Ok=0.0    V0=1.1226 minV=+0.0000 w0=-0.997 (-dw/da)=-0.004 | NO turnaround in 200/H0 (2901 Gyr) after today: min H = 3.537e-03, min rho_tot = 3.859e-05, a_end = 1.706e+06, H*t at end = 0.7109 | max rel. constraint violation 2.8e-02, absolute |3H^2 - rho| at end 1.1e-06 (projected: False)
+      t-t0 =    25.0: a = 2.559e+05, rho_tau*a^3 = 230085212377944.8750, H*t = 1.7561
+      t-t0 =    50.0: a = 5.710e+05, rho_tau*a^3 = 199234164546751.5000, H*t = 0.9621
+      t-t0 =   100.0: a = 1.021e+06, rho_tau*a^3 = 189616039971526.2188, H*t = 0.7752
+      t-t0 =   200.0: a = 1.706e+06, rho_tau*a^3 = 191463115745531.4375, H*t = 0.7109
+doc form V0[1+cos]     f=0.3  tau_i/f=0.1  c=0.0   Ok=0.0    V0=1.0734 minV=+0.0000 w0=-0.971 (-dw/da)=-0.142 | NO turnaround in 200/H0 (2901 Gyr) after today: min H = 3.295e-03, min rho_tot = 3.359e-05, a_end = 6.199e+01, H*t at end = 0.6621 | max rel. constraint violation 3.2e-02, absolute |3H^2 - rho| at end 1.0e-06 (projected: False)
+      t-t0 =    25.0: a = 1.566e+01, rho_tau*a^3 = 7.0197, H*t = 0.6802
+      t-t0 =    50.0: a = 2.476e+01, rho_tau*a^3 = 7.1322, H*t = 0.6763
+      t-t0 =   100.0: a = 3.919e+01, rho_tau*a^3 = 7.1115, H*t = 0.6699
+      t-t0 =   200.0: a = 6.199e+01, rho_tau*a^3 = 7.1001, H*t = 0.6621
+   same, with the constraint re-imposed (cross-check of a_end and H*t):
+doc form, projected    f=1.0  tau_i/f=0.2  c=0.0   Ok=0.0    V0=1.0632 minV=+0.0000 w0=-0.998 (-dw/da)=-0.003 | NO turnaround in 200/H0 (2901 Gyr) after today: min H = 3.420e-03, min rho_tot = 3.510e-05, a_end = 3.624e+03, H*t at end = 0.6874 | max rel. constraint violation 3.2e-12, absolute |3H^2 - rho| at end 2.2e-17 (projected: True)
+      t-t0 =    25.0: a = 7.993e+02, rho_tau*a^3 = 1642122.7404, H*t = 0.8501
+      t-t0 =    50.0: a = 1.367e+03, rho_tau*a^3 = 1694014.6025, H*t = 0.7577
+      t-t0 =   100.0: a = 2.246e+03, rho_tau*a^3 = 1658332.5934, H*t = 0.7054
+      t-t0 =   200.0: a = 3.624e+03, rho_tau*a^3 = 1670219.7557, H*t = 0.6874
+doc form, projected    f=0.5  tau_i/f=0.1  c=0.0   Ok=0.0    V0=1.0561 minV=+0.0000 w0=-0.997 (-dw/da)=-0.009 | NO turnaround in 200/H0 (2901 Gyr) after today: min H = 3.352e-03, min rho_tot = 3.371e-05, a_end = 1.829e+02, H*t at end = 0.6737 | max rel. constraint violation 3.4e-12, absolute |3H^2 - rho| at end 8.6e-17 (projected: True)
+      t-t0 =    25.0: a = 4.472e+01, rho_tau*a^3 = 202.0626, H*t = 0.7141
+      t-t0 =    50.0: a = 7.191e+01, rho_tau*a^3 = 207.0901, H*t = 0.6959
+      t-t0 =   100.0: a = 1.149e+02, rho_tau*a^3 = 204.6646, H*t = 0.6788
+      t-t0 =   200.0: a = 1.829e+02, rho_tau*a^3 = 205.4785, H*t = 0.6737

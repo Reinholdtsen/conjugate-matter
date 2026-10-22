@@ -1,0 +1,4 @@
+lam =   1.0: lowest eigenvalue  -6.4721; eigenvector (x, y, u, t) = [0.2298 0.     0.     0.9732]; weight in K's t-direction 0.947, in H's x-direction 0.053
+lam =   4.0: lowest eigenvalue  -4.9443; eigenvector (x, y, u, t) = [-0.5257  0.     -0.     -0.8507]; weight in K's t-direction 0.724, in H's x-direction 0.276
+lam =  10.0: lowest eigenvalue  -4.3961; eigenvector (x, y, u, t) = [-0.634   0.     -0.     -0.7733]; weight in K's t-direction 0.598, in H's x-direction 0.402
+lam = 100.0: lowest eigenvalue  -4.0400; eigenvector (x, y, u, t) = [-0.7     0.     -0.     -0.7141]; weight in K's t-direction 0.510, in H's x-direction 0.490

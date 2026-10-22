@@ -1,0 +1,7 @@
+1. R(theta)^-1 K0 R(theta) = +K0 at theta = [0, pi] ; = -K0 at theta = [pi/2, 3*pi/2]
+2. vacuum-preserving elements and their linear actions:
+   S = R(0)                    : (dX, dY) -> (dx, dy);  (db, dc) -> (db, dc);  dK diagonal stays 0: True
+   S = R(pi)                   : (dX, dY) -> (dx, dy);  (db, dc) -> (db, dc);  dK diagonal stays 0: True
+   S = R(pi/2) with K -> -K    : (dX, dY) -> (-dx, -dy);  (db, dc) -> (dc, db);  dK diagonal stays 0: True
+   S = R(3*pi/2) with K -> -K  : (dX, dY) -> (-dx, -dy);  (db, dc) -> (dc, db);  dK diagonal stays 0: True
+3. rho = R(pi/2): True

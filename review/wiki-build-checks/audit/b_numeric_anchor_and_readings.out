@@ -1,0 +1,24 @@
+0. g symplectic (g^T omega g = omega): True
+   H_{g.Z} = g^-T H_Z g^-1 : False | H_{g.Z} = g H_Z g^T : True
+1. dim of sp(2d) ∩ commutant(J0) = 16 (d^2 = 16 )
+   orbit Stab(J0).i has dimension 10 (d(d+1)/2 = 10 ); stabilizer of i inside it: 6 (dim O(d) = 6 )
+   tangent of the orbit at Z = i is purely along X: max|dY| = 4.7126519243744564e-14  max|dX| = 1.0515
+2. random finite elements of Stab(J0) acting on Z = i:
+   |X| = 1.7619, min eig Y = 0.0785, |Y - Y^-1| = 15.7284, |{J0,I[Z]}| = 2.72e-13, |[X,Y]| = 5.63e-15, |X^2+Y^2-1| = 8.72e-15, |Z Zbar - 1| = 1.04e-14
+   |X| = 1.6826, min eig Y = 0.0656, |Y - Y^-1| = 16.3756, |{J0,I[Z]}| = 5.84e-13, |[X,Y]| = 1.51e-14, |X^2+Y^2-1| = 2.26e-14, |Z Zbar - 1| = 2.72e-14
+   |X| = 1.6186, min eig Y = 0.0778, |Y - Y^-1| = 13.1205, |{J0,I[Z]}| = 3.41e-13, |[X,Y]| = 7.13e-15, |X^2+Y^2-1| = 1.53e-14, |Z Zbar - 1| = 1.69e-14
+3. linearized map at Z = i: rank 10 of 20 ; kernel dimension 10 ; columns for x-directions max norm: 0.0
+4. V = ||{J0,I[Z]}||_F^2:
+   t = 0.1: valley X = t X1, Y = sqrt(1 - X^2): V = 5.49e-30 | straight line X = t X1, Y = 1: V = 2.0342e-04, V/t^4 = 2.0342
+   t = 0.5: valley X = t X1, Y = sqrt(1 - X^2): V = 8.90e-30 | straight line X = t X1, Y = 1: V = 1.2714e-01, V/t^4 = 2.0342
+   t = 0.9: valley X = t X1, Y = sqrt(1 - X^2): V = 1.39e-29 | straight line X = t X1, Y = 1: V = 1.3346e+00, V/t^4 = 2.0342
+   Hessian of V at Z = i: number of ~zero eigenvalues = 10 of 20 ; x-x block max |entry| = 3.2e-07 ; smallest nonzero eigenvalue = 16.0
+5. P2' definition on the zero set vs off it:
+   on zero set (X != 0): |{J0,I}| = 4.16e-15, eta = H J0 symmetric: True, signature (+4, -4), I^2=-1: True, J^2=1: True, K^2=1: True, IJ=K: True, eta == eta_0: False
+   off zero set: |{J0,I}| = 1.28e-01, eta = H J0 symmetric: False
+6. alternative readings of 'compatible locus':
+   (b) eta_0-compatible slice (#5 C, #11 6): (eta0^-1 H_Z)^2 = 1 at X = 0, generic Y: True ; at the X != 0 zero-set point: False
+   (c) on X = 0 the anticommutator is [[Y - Y^-1, 0],[0, Y - Y^-1]]: True ; eigenvalues lam - 1/lam vanish only at lam = 1 for lam > 0; for this Y: [ 0.0178  1.5595  9.487  13.2156]
+   (e) {J[Z], I[Z]} with J[Z] = eta0^-1 H_Z, at X = 0, generic Y: 0.00e+00
+   (e) {J[Z], I[Z]} with J[Z] = eta0^-1 H_Z, at X != 0 zero-set point: 6.18e+00
+   (d) J0 = eta0^-1 H_Z forces H_Z = eta0 J0 = identity -> Z = i only

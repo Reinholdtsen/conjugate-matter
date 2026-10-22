@@ -1,0 +1,19 @@
+d = 2: 300 random starts, 300 converged to f < 1e-20, 0 did not; converged zeros violating L = (L cap x) + (L cap p): 0
+   k = dim(L cap x) = 0:  71 zeros | max err of W = V^perp: 4.4e-16 | distance to nearest coordinate splitting: min 0.000 median 0.000 max 0.000 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 1.0e-14, (-1)^(d-k) = +1 | max|Im W_sh| 7.5e-15
+   k = dim(L cap x) = 1: 170 zeros | max err of W = V^perp: 9.5e-15 | distance to nearest coordinate splitting: min 0.001 median 0.845 max 1.411 | det^2 in [-1.000000000, -1.000000000], max|Im det^2| 6.7e-16, (-1)^(d-k) = -1 | max|Im W_sh| 4.9e-16
+   k = dim(L cap x) = 2:  59 zeros | max err of W = V^perp: 4.4e-16 | distance to nearest coordinate splitting: min 0.000 median 0.000 max 0.000 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 9.1e-15, (-1)^(d-k) = +1 | max|Im W_sh| 7.4e-15
+d = 3: 300 random starts, 300 converged to f < 1e-20, 0 did not; converged zeros violating L = (L cap x) + (L cap p): 0
+   k = dim(L cap x) = 0:  16 zeros | max err of W = V^perp: 2.2e-16 | distance to nearest coordinate splitting: min 0.000 median 0.000 max 0.000 | det^2 in [-1.000000000, -1.000000000], max|Im det^2| 9.8e-15, (-1)^(d-k) = -1 | max|Im W_sh| 6.8e-15
+   k = dim(L cap x) = 1: 128 zeros | max err of W = V^perp: 8.2e-15 | distance to nearest coordinate splitting: min 0.069 median 1.089 max 1.414 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 7.8e-16, (-1)^(d-k) = +1 | max|Im W_sh| 5.2e-16
+   k = dim(L cap x) = 2: 134 zeros | max err of W = V^perp: 8.3e-15 | distance to nearest coordinate splitting: min 0.043 median 1.126 max 1.414 | det^2 in [-1.000000000, -1.000000000], max|Im det^2| 7.4e-16, (-1)^(d-k) = -1 | max|Im W_sh| 4.8e-16
+   k = dim(L cap x) = 3:  22 zeros | max err of W = V^perp: 6.7e-16 | distance to nearest coordinate splitting: min 0.000 median 0.000 max 0.000 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 8.1e-15, (-1)^(d-k) = +1 | max|Im W_sh| 5.3e-15
+d = 4: 300 random starts, 300 converged to f < 1e-20, 0 did not; converged zeros violating L = (L cap x) + (L cap p): 0
+   k = dim(L cap x) = 0:   6 zeros | max err of W = V^perp: 4.4e-16 | distance to nearest coordinate splitting: min 0.000 median 0.000 max 0.000 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 3.6e-15, (-1)^(d-k) = +1 | max|Im W_sh| 2.1e-15
+   k = dim(L cap x) = 1:  71 zeros | max err of W = V^perp: 7.2e-15 | distance to nearest coordinate splitting: min 0.328 median 1.329 max 1.414 | det^2 in [-1.000000000, -1.000000000], max|Im det^2| 7.6e-16, (-1)^(d-k) = -1 | max|Im W_sh| 6.1e-16
+   k = dim(L cap x) = 2: 159 zeros | max err of W = V^perp: 8.7e-15 | distance to nearest coordinate splitting: min 0.601 median 1.441 max 1.889 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 1.0e-15, (-1)^(d-k) = +1 | max|Im W_sh| 5.5e-16
+   k = dim(L cap x) = 3:  58 zeros | max err of W = V^perp: 7.8e-15 | distance to nearest coordinate splitting: min 0.624 median 1.240 max 1.414 | det^2 in [-1.000000000, -1.000000000], max|Im det^2| 5.6e-16, (-1)^(d-k) = -1 | max|Im W_sh| 4.5e-16
+   k = dim(L cap x) = 4:   6 zeros | max err of W = V^perp: 4.4e-16 | distance to nearest coordinate splitting: min 0.000 median 0.000 max 0.000 | det^2 in [+1.000000000, +1.000000000], max|Im det^2| 7.1e-15, (-1)^(d-k) = +1 | max|Im W_sh| 5.7e-15
+contrast: random Lagrangians L = U R^d, U Haar-random unitary
+   d = 2: max|omega_L| < 1e-12 for all; max|eta_L| over samples: min 0.122; max|Im W_sh|: min 0.115
+   d = 3: max|omega_L| < 1e-12 for all; max|eta_L| over samples: min 0.228; max|Im W_sh|: min 0.222
+   d = 4: max|omega_L| < 1e-12 for all; max|eta_L| over samples: min 0.332; max|Im W_sh|: min 0.300

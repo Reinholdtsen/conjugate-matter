@@ -1,0 +1,3 @@
+d=2 k=1: max|omega on L|=2.7e-17  max|eta on L|=2.7e-17  projector distance from t=0 up to 1.084  det^2 values [np.complex128(-1+0j)]
+d=3 k=1: max|omega on L|=1.3e-16  max|eta on L|=1.3e-16  projector distance from t=0 up to 1.998  det^2 values [np.complex128(1-0j)]
+d=3 k=2: max|omega on L|=1.3e-16  max|eta on L|=1.3e-16  projector distance from t=0 up to 1.464  det^2 values [np.complex128(-1+0j)]

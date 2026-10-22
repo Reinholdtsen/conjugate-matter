@@ -1,0 +1,27 @@
+gradient at the vacuum: [0, 0, 0, 0]
+Hessian at the vacuum (coords x, h, b, c):
+⎡2   0   -1    1  ⎤
+⎢                 ⎥
+⎢0   0   0     0  ⎥
+⎢                 ⎥
+⎢-1  0  3/2   -1/2⎥
+⎢                 ⎥
+⎣1   0  -1/2  3/2 ⎦
+Hessian eigenvalues: [1, sqrt(2) + 2, 2 - sqrt(2), 0] numeric: [0.0, 0.585786437626905, 1.0, 3.414213562373095]
+kernel (zero modes): [[0, 1, 0, 0]]
+
+twisted rho fixes the vacuum: True ; image stays on the hyperboloid branch a > 0: True
+Jacobian L of the twisted element at the vacuum (coords x, h, b, c):
+⎡-1  0   0  0⎤
+⎢            ⎥
+⎢0   -1  0  0⎥
+⎢            ⎥
+⎢0   0   0  1⎥
+⎢            ⎥
+⎣0   0   1  0⎦
+L^2 = 1: True ; L^T Hess L == Hess (symmetry of the potential): True
+eigenvalues of L: {-1: 3, 1: 1}
+zero mode [0, 1, 0, 0] -> L v = [0, -1, 0, 0] ; parity [-1]
+
+flat line H = diag(y, 1/y) maps to [1/y, 0, 0, y] = diag(1/y, y): y -> 1/y, so dy -> -dy at y = 1
+U along the flat line: -1

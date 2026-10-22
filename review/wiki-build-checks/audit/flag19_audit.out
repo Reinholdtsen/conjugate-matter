@@ -1,0 +1,23 @@
+[units] hbar*c = 1.9732698046e-14 GeV cm; 1 cm = 5.067731e+13 GeV^-1; 1 g = 5.609589e+23 GeV
+[A] g at benchmark = 2483 GeV^-2
+[B] dwarf core: unified criterion at benchmark = 3.89e-28  (regime: broad; broad form would give 3.89e-28)
+[B] MW local: unified criterion at benchmark = 2.86e-31  (regime: narrow; broad form would give 5.83e-30)
+[C] m_crit broad  = 1.42e-13 GeV = 0.142 meV; N_occ = 5.52e+19; criterion check = 1.000000
+[C] m_crit narrow = 4.24e-14 GeV = 0.0424 meV; N_occ = 6.85e+21; criterion check = 1.000000
+[C] narrow/broad criterion ratio at MW = 0.0492; m_crit ratio = 0.2997
+[C] log10 distance of each m_crit from 1e-13 GeV: broad +0.15 dex, narrow -0.37 dex
+[C] MW sits near the crossover: sigma/v* = 1.292; mu/(m sigma) = 0.547 (v*=sqrt2 mu/m) or 0.774 (v*=mu/m)
+[D] max over sigma in [5, 3000] km/s of unified/broad = 1.000000 (attained in the broad regime); max in narrow regime = 0.0635
+[E] Classical dwarf core   R_X with v*=120 km/s gate: 0.01   without gate factor: 0.01   (3b states 1e-2)
+[E] Ultra-faint dwarf      R_X with v*=120 km/s gate: 40   without gate factor: 40   (3b states 40)
+[E] MW inner 1 kpc         R_X with v*=120 km/s gate: 0.013   without gate factor: 0.013   (3b states 1e-2)
+[E] MW solar circle        R_X with v*=120 km/s gate: 4.3e-05   without gate factor: 0.00012   (3b states 4e-5)
+[E] Cluster                R_X with v*=120 km/s gate: 1.7e-11   without gate factor: 8.1e-08   (3b states ~0)
+[F] benchmark mu = 19.8 keV; if mu were held fixed, v* at m_crit = 1.98e+08 c (gate broad everywhere)
+[G] v*/sigma =  0.100: lambda_max/n (3D) numeric = 0.0009, closed form = 0.0009, 3a narrow form/broad = 0.0063
+[G] v*/sigma =  0.500: lambda_max/n (3D) numeric = 0.0595, closed form = 0.0595, 3a narrow form/broad = 0.0317
+[G] v*/sigma =  0.774: lambda_max/n (3D) numeric = 0.1493, closed form = 0.1493, 3a narrow form/broad = 0.0492
+[G] v*/sigma =  1.000: lambda_max/n (3D) numeric = 0.2361, closed form = 0.2361, 3a narrow form/broad = 0.0635
+[G] v*/sigma =  3.000: lambda_max/n (3D) numeric = 0.7494, closed form = 0.7494, 3a narrow form/broad = 0.1905
+[G] v*/sigma = 30.000: lambda_max/n (3D) numeric = 0.9967, closed form = 0.9967, 3a narrow form/broad = 1.9048
+[G] MW: exact static criterion = 0.1493 x broad; m_crit(static) = 6.62e-14 GeV; N_occ = 1.16e+21

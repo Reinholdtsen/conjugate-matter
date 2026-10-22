@@ -1,0 +1,6 @@
+O3 orthogonal: True  O3 = [[-1/17, -12/85, 84/85], [12/17, 59/85, 12/85], [-12/17, 12/17, 1/17]]
+exact analytic Jacobian (S,A blocks) rank: 6  kernel dim: 6
+finite-difference singular values: [5.301e+00 4.844e+00 4.471e+00 4.210e+00 3.588e+00 3.230e+00 6.707e-11
+ 2.529e-11 1.688e-11 8.939e-12 5.782e-12 1.254e-12]
+FD numerical rank (sv > 1e-6): 6  kernel dim: 6
+rank of the 6 exact tangent vectors: 6 ; Jacobian x tangents == 0: True

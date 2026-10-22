@@ -1,0 +1,46 @@
+== A. Anchors (textbook identities, independent of the paper)
+  Cayley-Hamilton, traceless 2x2: K^2 + det(K) 1 = [0, 0, 0, 0]
+  K^T w K - det(K) w = [0, 0, 0, 0]
+  K_hyp(s, th) on the target (K^2 = 1, K^T w K = -w, traceless) at 200 random points: True
+
+== B. Reading R3: H = 1 fixed, K free, lam = mu = 1 (the couplings of the gated -6.47)
+  (b-c)/2 =    0.0: on target True, lam*V_lam =       0.00, V_mu =      -4.00, total =      -4.00
+  (b-c)/2 =   10.0: on target True, lam*V_lam =     100.00, V_mu =    -404.00, total =    -304.00
+  (b-c)/2 =  100.0: on target True, lam*V_lam =   10000.00, V_mu =  -40004.00, total =  -30004.00
+
+== C. Closed form at H = 1 in (b, c), a^2 = 1 - bc (sympy, from the matrix definitions)
+  V(H = 1) = b**2*lam/4 - b*c*lam/2 + 4*b*c*mu + c**2*lam/4 - 4*mu
+  along b = -c = tau (the incompatible, non-compact direction): lam*tau**2 - 4*mu*tau**2 - 4*mu
+  on the compatible circle b = c (K symmetric): 4*mu*(b - 1)*(b + 1)
+
+== D. Boundedness at H = 1 with K free, by grid search over the hyperboloid (mu = 1)
+  lam =   1.0: min V over s <= 8 =  -6.6646e+06 at s = 8.00, th = 0.000; min over s <= 4 = -2.2382e+03
+  lam =   3.9: min V over s <= 8 =  -2.2216e+05 at s = 8.00, th = 0.000; min over s <= 4 = -7.8474e+01
+  lam =   4.0: min V over s <= 8 =  -4.0000e+00 at s = 7.66, th = 0.000; min over s <= 4 = -4.0000e+00
+  lam =   4.1: min V over s <= 8 =  -4.0000e+00 at s = 0.00, th = 0.000; min over s <= 4 = -4.0000e+00
+  lam =  10.0: min V over s <= 8 =  -4.0000e+00 at s = 0.00, th = 0.000; min over s <= 4 = -4.0000e+00
+  lam = 100.0: min V over s <= 8 =  -4.0000e+00 at s = 0.00, th = 0.000; min over s <= 4 = -4.0000e+00
+
+== E. Frozen-H Hessian at (1, K_ref), two coordinate systems (finite differences on the numeric V)
+  lam =   1.0: (b, c) eigenvalues [-3.  4.]; (u, t) eigenvalues [-6.  8.]; negative count 1 / 1
+  lam =  10.0: (b, c) eigenvalues [4. 6.]; (u, t) eigenvalues [ 8. 12.]; negative count 0 / 0
+  lam = 100.0: (b, c) eigenvalues [ 4. 96.]; (u, t) eigenvalues [  8. 192.]; negative count 0 / 0
+
+== F. Reading R1: the documents' frozen-H reduction, H = 1 and K = K(phi)
+  max |V_mu(K(phi)) + 2 mu (1 + cos 2 phi)| = 8.88e-16
+  max V_lam on the circle = 0.00e+00
+  range of V on the circle: [-4.0000, -0.0000]  (bounded, for every lam)
+
+== G. The 'only' half: H dynamical, along the compatible boost family H = S^T S, K = S^-1 K_ref S
+  lam =   1.0: t = 0.0: lam*V_lam = 0.0e+00, total = -4.0000e+00; t = 2.0: lam*V_lam = 1.2e-24, total = -2.9830e+03; t = 4.0: lam*V_lam = 2.7e-14, total = -8.8861e+06
+  lam = 100.0: t = 0.0: lam*V_lam = 0.0e+00, total = -4.0000e+00; t = 2.0: lam*V_lam = 1.2e-22, total = -2.9830e+03; t = 4.0: lam*V_lam = 2.7e-12, total = -8.8861e+06
+
+== H. The naive term by itself does not involve H: on the whole K-target it is unbounded at ANY H
+  s = 0.0: V_mu(K_hyp(s, 0)) = -4.0000e+00  (= -4 cosh^2 s = -4.0000e+00)
+  s = 3.0: V_mu(K_hyp(s, 0)) = -4.0543e+02  (= -4 cosh^2 s = -4.0543e+02)
+  s = 6.0: V_mu(K_hyp(s, 0)) = -1.6276e+05  (= -4 cosh^2 s = -1.6276e+05)
+
+== I. Full 4x4 Hessian (H dynamical) vs the frozen-H K-block, toy_coset coordinates (x, y, u, t)
+  lam =   1.0: full min eigenvalue  -6.4721; K-block (u, t) eigenvalues [-6.  8.]
+  lam =  10.0: full min eigenvalue  -4.3961; K-block (u, t) eigenvalues [ 8. 12.]
+  lam = 100.0: full min eigenvalue  -4.0400; K-block (u, t) eigenvalues [  8. 192.]
