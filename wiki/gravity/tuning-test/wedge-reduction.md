@@ -62,13 +62,13 @@ Calc note #7 reached the frame tier in two steps of different kinds (#7 §3):
 
 ## Why it matters
 
-**Selection against derivation.** #11 §2 warns of "the selection-versus-derivation bias", acknowledged "explicitly where it operates (§7.4)". §7.4 applies it to the novelty of [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "This is the selection-versus-derivation bias check of §2 operating as intended." The parenthesis of §14 item 1, "(class selected, not derived)", records the same distinction for the frame-tier class ([claim tiers and selection bias](/wiki/method/claim-tiers)).
+**Selection against derivation.** #11 §2 warns of "the selection-versus-derivation bias", acknowledged "explicitly where it operates (§7.4)". §7.4 applies it to the novelty of [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity), which it downgrades pending a literature comparison. The parenthesis of §14 item 1, "(class selected, not derived)", records the same distinction for the frame-tier class ([claim tiers and selection bias](/wiki/method/claim-tiers)).
 
 **What rests on the selected class.** The positive half of the tuning test, [the frame tier](/wiki/gravity/tuning-test/frame-tier), and with it [the verdict: a conditional pass](/wiki/gravity/tuning-test/conditional-pass). The potential that [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) then restricts, [the palindromic branch](/wiki/gravity/palindromic-branch), including [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) and [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity). The picture of [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric), and the program's statement of [Born's answer](/wiki/gravity/momentum-graviton/borns-answer). All of these take the selected class as their starting point.
 
 **The word "theory".** #11 §15 ends: "That is a live research program; the word 'theory' still waits on items 1–3 above." Items 2 and 3 are [the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) ([the assessment](/wiki/program/assessment)).
 
-**How the notes ranked it.** Calc note #8 called the whole residue "none of it existential" (#8 §5), and #11 opens its list of open problems with "What is honestly unfinished — none of it, any longer, about whether the structure can exist" (#11 §14). The item is ranked as unfinished work on a structure the notes consider settled, and at the same time as one of the three conditions for calling the program a theory.
+**How the notes ranked it.** Calc note #8 called the whole residue "none of it existential" (#8 §5), and #11 opens its list of open problems by saying that none of them is "any longer, about whether the structure can exist" (#11 §14). The item is ranked as unfinished work on a structure the notes consider settled, and at the same time as one of the three conditions for calling the program a theory.
 
 ## History of the item
 

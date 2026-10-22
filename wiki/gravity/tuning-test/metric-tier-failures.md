@@ -134,7 +134,7 @@ Before the test, calc note #6 had set out what a failure would mean: "Fail ⇒ t
 - **The v1 program paper** (#9 §5 item 4, superseded by #11; [the checkpoint](/wiki/history/documents/checkpoint)): metric-tier implementations "fail twice over", with Tr(g²) + Tr(g⁻²) "provably outside the linear-in-eₙ Hassan–Rosen span", under the tag "[D — both branches computed]".
 - **#11 §2** lists both among the seven Tier-1 tests of its battery and records "All seven passed [V]" ([claim tiers and selection bias](/wiki/method/claim-tiers)).
 - **The handoff** marks both failures with its machine-check sign: "Metric-tier Higgs potentials fail Fierz–Pauli (m²Tr h², no −(Tr h)² ✓; Tr(g²)+Tr(g⁻²) outside HR span ✓)" (`HANDOFF.md` §2), HR being Hassan–Rosen. Its Appendix A gives the battery's code and the expected output, "T4 converges to 4Tr(h²) and visibly ≠ FP; … T7 rms ≈ 3.3" ([the handoff](/wiki/history/documents/handoff)).
-- **The popular article #10** describes the battery as "seven checks, seven passes, including the numerical fingerprint of a ghost that had to be there for the argument to hold", without naming the test ([the popular articles](/wiki/history/documents/popular-articles)).
+- **The popular article #10** counts the numerical signature of a ghost that the argument required among the battery's seven checks, all of which passed, without naming the test ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Sources
 
