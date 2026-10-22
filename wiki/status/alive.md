@@ -55,7 +55,7 @@ sources:
 
 - **The dark-energy sector.** The second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1 (#11 §10; root `CLAUDE.md`; [the phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)). It bears on τ's quintessence, the no-phantom bound and row 4.
 - **Degeneration risks**, #11 §15: "tunable wave-island collective sector (quarantined); gate tail not yet forced; the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem", and the phantom crossing.
-- **Falsification exposure**, #11 §15: "genuine and near-term (rows 1, 4, 7)".
+- **Falsification exposure**: #11 §15 names rows 1, 4 and 7 as exposed to falsification in the near term.
 - **Conjugate special relativity** rests on #13 alone. No review round has examined #13, no `verify/` script covers it, and #11 v2.2 does not mention it; its standing comes from `HANDOFF.md` §2 and from the root `CLAUDE.md`, which lists #13 among the current papers.
 
 ## Standing claims by section
@@ -64,7 +64,7 @@ sources:
 
 | Claim | Tags | What verifies it |
 | --- | --- | --- |
-| [The hard core](/wiki/program/hard-core): Born reciprocity is an exact symmetry of the laws, spontaneously broken by the vacuum; only ω is rigid, and η is the emergent order parameter | [P]: the content of postulates P1–P5 (#11 §4) | a postulate; #11 §15 finds it "intact, twice sharpened by forced corrections (P2′; the w-dictionary)"; the v2.2 refinement from the toy models is [D][V], gated in `verify/toy_coset.py`, `verify/toy_s4.py` and `verify/toy_s5.py` |
+| [The hard core](/wiki/program/hard-core): Born reciprocity is an exact symmetry of the laws, spontaneously broken by the vacuum; only ω is rigid, and η is the emergent order parameter | [P]: the content of postulates P1–P5 (#11 §4) | a postulate; #11 §15 records it as intact after two forced corrections (P2′; the w-dictionary); the v2.2 refinement from the toy models is [D][V], gated in `verify/toy_coset.py`, `verify/toy_s4.py` and `verify/toy_s5.py` |
 | [P1: the phase-space arena](/wiki/program/postulates/p1-arena): physics lives on phase space with a symplectic form ω and a positive generalized metric H | [P] | assumed, not derived; the algebra built on its two structures is checked, I[Z]² = −1 [V] (battery test T2) |
 | [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem): the program has content beyond general relativity plus self-interacting dark matter if and only if η is emergent | [D] (#11 §4); "[D — structural]" in the note that derived it | not machine-checked as a whole; its input, the compatibility theorem, is [T][V] (battery test T1) |
 | [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime): ω is fixed and η = HJ is chosen by the vacuum; v2.2 adds that the polarization is a Goldstone angle | [P]; the correction from the original P2 forced [D]; the Goldstone-angle sentence [D][V] | the correction is forced by the nontriviality theorem; the toy-model scripts check the v2.2 sentence, which shows the structure is consistent and does not test the postulate |
