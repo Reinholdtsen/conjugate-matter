@@ -43,7 +43,7 @@ Freezing fields restricts the potential to a slice of field space. A point can b
 
 ### The naive potential
 
-[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields, a phase-space metric H and a real structure K. Its polarization is a Goldstone angle that cannot order in 1+1 dimensions, so the note added a potential that keeps ρ and reduces the continuous symmetry to a discrete group ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The first choice was −μ[Tr(K K_ref)]². The worklog studied it at H = 1 on the circle of vacua K(φ), where it becomes "−2μ(1 + cos 2φ)", and the lattice simulation ran at H = 1 ('Chunk 3 results').
+[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields, a phase-space metric H and a real structure K. Its polarization is a Goldstone angle that cannot order in 1+1 dimensions, so the note added a potential that keeps ρ and reduces the continuous symmetry to a discrete group ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The first choice, [the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), was −μ[Tr(K K_ref)]². The worklog studied it at H = 1 on the circle of vacua K(φ), where it becomes "−2μ(1 + cos 2φ)", and the lattice simulation ran at H = 1 ('Chunk 3 results').
 
 ### What the referee found
 

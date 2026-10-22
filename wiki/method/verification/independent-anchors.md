@@ -45,7 +45,7 @@ Two consequences follow from this:
 
 ## The circular anchor of round 3
 
-The soliton manuscript (#14 v3) was checked by knot_numbers.py, a script that recomputed every number the manuscript quoted ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). At v3 (commit 5dbaa82) its anchor section held four checks: a standard freeze-out relic, one extra neutrino species, the running of the electromagnetic coupling, and this one:
+The [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) (#14 v3) was checked by knot_numbers.py, a script that recomputed every number the manuscript quoted ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). At v3 (commit 5dbaa82) its anchor section held four checks: a standard freeze-out relic, one extra neutrino species, the running of the electromagnetic coupling, and this one:
 
 ```text
 check("Kibble: v2 point M = 100 Lambda_c, p = 1 reproduces 3e13 GeV",
