@@ -23,7 +23,7 @@ sources:
 
 ## The problem it answers
 
-Karl Popper proposed that what makes a theory scientific is that it can be refuted: it forbids some observable outcomes, and a theory whose prediction fails should be given up [T]. Two difficulties with the simple form of this rule motivated Lakatos [T]:
+Karl Popper proposed that what makes a theory scientific is that it can be refuted: it rules out some observable outcomes, and a theory whose prediction fails should be given up [T]. Two difficulties with the simple form of this rule motivated Lakatos [T]:
 
 - **A prediction never follows from one hypothesis alone.** It follows from the hypothesis together with auxiliary assumptions, initial conditions and a theory of the instruments (the point is usually credited to Pierre Duhem). A failed prediction shows that something in that whole set is false, not which member. Scientists therefore have a choice about where to place the blame, and they exercise it.
 - **Every live theory has anomalies.** Taken literally, the simple rule would have discarded most successful theories early in their development.
@@ -68,24 +68,24 @@ The program's status line comes from this framework. The root `CLAUDE.md` and `H
 The v1 paper stated the criterion in one line: "Programs that keep predicting novel facts are progressive; programs that only redescribe are degenerating" (#9 §11, superseded as reference by #11 §15). #11 §15 sorts the record under headings that follow Lakatos's grades (the full lists and their evidence are on [Assessment: a live research program](/wiki/program/assessment)):
 
 - **Progressive signs:** "forced convergence onto consistency islands; predictions not previously posed (rows 3, 11); an unsolicited identity (§7.3); one over-constraint (DE sector); the §11.3 unification generating new questions", DE being dark energy. Rows 3 and 11 of the predictions table, the [island discriminant](/wiki/predictions/island-discriminant) and [dark-sector microstructure](/wiki/predictions/dark-sector-microstructure), are the program's candidates for novel content in Lakatos's sense.
-- **Degeneration risks:** "tunable wave-island collective sector (quarantined); gate tail not yet forced; the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem; DESI DR2's phantom crossing against §10's strict w ≥ −1", DESI DR2 being Data Release 2 of the Dark Energy Spectroscopic Instrument.
+- **Degeneration risks:** "tunable wave-island collective sector (quarantined); gate tail not yet forced; the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem; DESI DR2's phantom crossing against §10's strict w ≥ −1", DESI DR2 being Data Release 2 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi).
 - **Falsification exposure:** "genuine and near-term (rows 1, 4, 7)".
 
 In Lakatos's terms (the wiki's reading [T]), every item #11 lists as progressive is a structural result or a prediction not yet tested, so the progress it claims is theoretical. Empirical progress would need one of the exposed rows to be confirmed, and for row 4, the [dark-energy drift](/wiki/predictions/dark-energy-drift), the current data lean the other way (#11 §10, §15).
 
 ### Novelty and its demotion
 
-Novelty carries the weight in Lakatos's grading, and the program's record shows two claims losing it. A literature search placed the vacuum-energy identity of §7.3 next to known work, and #11 downgraded it "from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature,"" (#11 §7.4, PM being partially massless; [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). Round 3 identified the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) as a result of Freidel, Leigh and Minic, and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks rather than discounting them.
+Novelty carries the weight in Lakatos's grading, and the program's record shows two claims losing it. A literature search placed the vacuum-energy identity of §7.3 next to known work, and #11 downgraded it "from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature,"" (#11 §7.4, PM being partially massless; [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). [Review round 3](/wiki/method/review/round-3) identified the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) as a result of Freidel, Leigh and Minic, and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks rather than discounting them.
 
 ### Degeneration flags in the calc notes
 
 The calc notes used the vocabulary while the work was under way:
 
 - After the tuning test, `notes/debt1a-iii-tuning-test.md` §5: "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration."
-- On the wave island of Debt 3, where the coupling g of the gated self-interaction is left free (Scenario B): "In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag." (`notes/debt3b-wave-island.md`, 'What pins g?'; [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
+- On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of [Debt 3](/wiki/history/debts), where the coupling g of the gated self-interaction is left free (Scenario B): "In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag." (`notes/debt3b-wave-island.md`, 'What pins g?'; [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
 - The closing note of Debt 3 calls velocity-space clumping "merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction)" (`notes/debt3c-ufd-endpoint.md`; [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). #11 §15 still carries it as the "tunable wave-island collective sector (quarantined)".
 
-A coupling that can be set to make an effect appear or vanish across ten orders of magnitude lets the program accommodate any outcome, which is the mark of an ad hoc adjustment in Lakatos's sense [T].
+A coupling that can be set to make an effect appear or vanish across ten orders of magnitude lets the program accommodate either outcome, which in Lakatos's sense is the mark of an ad hoc adjustment (the wiki's reading [T]).
 
 ### Falsifiability over survival
 
