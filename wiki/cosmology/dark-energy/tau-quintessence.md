@@ -148,7 +148,7 @@ The worklog's chunk 3 states what this means for the program: "In 3+1, the progr
 
 - **Free numbers.** V₀, fixed by Ω_DE; f; and τᵢ, the initial value. Two remain for three observables, w₀, wₐ and the turnaround time t_turn ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)).
 - **Near-term test.** [Row 4](/wiki/predictions/dark-energy-drift): "DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10)" (#11 §13).
-- **Long-horizon consequence.** [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), "Turnaround = conjugate bounce" (#11 §13), which needs V(τ) < 0 ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)).
+- **Long-horizon consequence.** [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), "Turnaround = conjugate bounce" (#11 §13), which needs V(τ) < 0 ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce); see flag 27 in `review/wiki-build-flags.md`).
 - **Safety.** τ is extremely light; the lab notebook argues that as a [pseudo-Goldstone field](/wiki/symmetry-breaking/goldstone-and-higgs) it produces no detectable fifth force ([fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
 
 ## What is open
