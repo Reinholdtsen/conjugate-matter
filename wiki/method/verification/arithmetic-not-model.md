@@ -10,11 +10,12 @@ sources:
   - "review/round3-adjudication.md 'Pre-registration scored'"
   - "review/round3-adjudication.md 'Lessons (now in CLAUDE.md)'"
   - "review/round3/referee/audit-notes.md Step 4(a)"
+  - "review/round3-preregistration.md 'Protocol (HANDOFF §6, round 3)'"
   - "review/round3-preregistration.md 'Predictions'"
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "notes/knot-dark-matter-standalone.md §6"
   - "review/round4-adjudication.md 'Rulings'"
-  - "review/wiki-build-flags.md items 3, 4, 11, 14"
+  - "review/wiki-build-flags.md items 3, 4, 11, 14, 33"
 ---
 
 *A verification script confirms that a calculation was carried out correctly for the inputs and formulas written into it; it cannot tell whether those inputs and formulas are the right physics. The program learned this from its soliton dark-matter manuscript: every number in it was computed and checked by a gated script, yet one formula, the normalization of how many monopoles the early universe forms, was wrong, and only an independent review caught it. Checkpoint #11 has carried the caution since version 2.1, the rule on independent anchors is the repair, and every script page in this section states what its checks leave to the derivation.*
@@ -31,13 +32,13 @@ A script encodes a model: its inputs, its formulas, the approximations chosen. W
 
 ### A manuscript computed throughout
 
-The soliton manuscript, #14 v3, stated its own standard: "All numerical statements in Secs. 2-4 were computed by executed code rather than by hand." (§6). The worklog confirms it: "Every number it quotes is a gated check" in knot_numbers.py, the script then in the gate (`review/v3-worklog.md`, 'v3 as drafted'). The [iron rule](/wiki/method/verification/iron-rule) had been followed to the letter.
+The [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary), #14 v3, stated its own standard: "All numerical statements in Secs. 2-4 were computed by executed code rather than by hand." (§6). The worklog confirms it: "Every number it quotes is a gated check" in knot_numbers.py, the script then in the gate (`review/v3-worklog.md`, 'v3 as drafted'). The [iron rule](/wiki/method/verification/iron-rule) had been followed to the letter.
 
 The round-3 pre-registration predicted "zero surviving numerical indictments", on the ground that every number had been computed by that script ([round 3's pre-registration](/wiki/method/review/round-3/preregistration)).
 
 ### What the referee found
 
-The referee, a fresh agent with code execution, recomputed the numbers "from independently chosen constants" and found the Kibble normalization wrong: "p = 0.023 is the H^3 abundance with the 1.66 sqrt(g\*) factor dropped". Its conceptual audit added: "Sec. 6 says all numbers were computed by executed code; the p error (a dropped prefactor of 4576) and the psi window (factor 3-10 in mass) indicate otherwise or a coding error." (`review/round3/referee/audit-notes.md`, Step 4(a), items 1 and 9).
+The referee, a fresh agent with code execution, recomputed the numbers "from independently chosen constants", as the round-3 protocol asked (`review/round3-preregistration.md`), and found the Kibble normalization wrong: "p = 0.023 is the H^3 abundance with the 1.66 sqrt(g\*) factor dropped". Its conceptual audit added: "Sec. 6 says all numbers were computed by executed code; the p error (a dropped prefactor of 4576) and the psi window (factor 3-10 in mass) indicate otherwise or a coding error." (`review/round3/referee/audit-notes.md`, Step 4(a), items 1 and 9).
 
 The adjudication showed it was neither: the code had computed the formula it was given. Ruling 1: "Kibble normalization: one defect per Hubble volume is p ≈ 104, not 0.023", upheld, with "My error came from misremembering the formula." Ruling 13: "v3 §6 "all numbers computed by executed code" overstates", "Upheld in substance": "The code checked the arithmetic of a wrong model. See lesson 2." ([Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings); [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
 
@@ -61,7 +62,7 @@ The adjudication's calibration note: "The failure mode has moved. In rounds 1–
 - **The caution in #11.** Version 2.1 of #11 added the §2 sentence quoted above.
 - **Independent anchors.** Lesson 2: "An anchor must be independent of the paper. v3's Kibble anchor reproduced v2's own number and so tested nothing." A script now tests its formulas on cases known from outside the paper before it computes the paper's numbers ([Independent anchors](/wiki/method/verification/independent-anchors)).
 - **A new script.** knot_numbers.py was replaced by `verify/soliton_obituary.py`, which checks the corrected record after four such anchors ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)).
-- **The same limit in other forms.** Round 4 found two relatives of it. A stability check had covered only part of the model: "I should have caught F1 myself: I checked the potential only at frozen H." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability)). And a simulation number computed without error was a fluctuation ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars)). In each case the code did what it was written to do.
+- **The same limit in other forms.** Round 4 found two relatives of it. A stability check had covered only part of the model: "I should have caught F1 myself: I checked the potential only at frozen H." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability)). And a simulation number, computed correctly, was a short-run fluctuation ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars)). In each case the code did what it was written to do.
 
 ## The limit in the current scripts
 
@@ -69,7 +70,7 @@ The pages for the scripts in [the gate](/wiki/method/verification/the-gate) each
 
 - **The battery.** Tests T3, T4 and T7 check algebra on random samples. During the wiki build, verifiers found suspected errors in statements written next to that algebra in calc note #7: a zero set larger than stated (flag 3), a second-order term missing from an expansion (flag 4), and a notational slip about which trace a power sum gives (flag 14). The tests pass, because they test the algebra as written and not those statements ([the verification battery](/wiki/method/verification/battery)).
 - **The toy-model scripts.** The check labelled with round-4 finding F6 tests a harmonic series against Euler's constant. It does not settle whether the tadpole grows as ln N or 2 ln N, on which the toy note and the adjudication differ (flag 11; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
-- **The soliton-obituary script.** Its docstring says it checks "every number" of the round-3 record; its checks cover the obituary's [V] numbers and the adjudicator's own figures, not the referee's or the literature's.
+- **The soliton-obituary script.** Its docstring says it checks "every number" of the round-3 record; its checks cover the obituary's [V] numbers and the adjudicator's own figures, not the referee's or the literature's (flag 33 in `review/wiki-build-flags.md`).
 
 These flags are suspected errors in the source documents, quoted faithfully on the pages that carry the statements and awaiting Paul's ruling (`review/wiki-build-flags.md`).
 
@@ -79,7 +80,7 @@ These flags are suspected errors in the source documents, quoted faithfully on t
 - Root `CLAUDE.md` 'Method' — the rule as now stated
 - `review/round3-adjudication.md` 'Rulings' (1, 4, 5, 7, 13), 'Pre-registration scored', 'Lessons (now in CLAUDE.md)' — the ruling, the missed prediction, the moved failure mode, the anchor lesson
 - `review/round3/referee/audit-notes.md` Step 4(a) items 1 and 9 — the referee's finding and its reading of §6
-- `review/round3-preregistration.md` 'Predictions' — zero surviving numerical indictments
+- `review/round3-preregistration.md` 'Protocol' — independently chosen constants; 'Predictions' — zero surviving numerical indictments
 - `review/v3-worklog.md` 'v3 as drafted (2026-10-19)' and `notes/knot-dark-matter-standalone.md` §6 — the manuscript computed throughout
 - `review/round4-adjudication.md` 'Rulings' (F1, F2, and the Monte Carlo control, "MC control") — the round-4 relatives
-- `review/wiki-build-flags.md` items 3, 4, 11, 14 — suspected source errors beside passing checks
+- `review/wiki-build-flags.md` items 3, 4, 11, 14 — suspected source errors beside passing checks; item 33 — the soliton script's claimed coverage

@@ -114,7 +114,7 @@ OK — the coset baseline meets S1-S3 classically.
 What it checks, in order:
 
 - **Anchors on the matrix base.** The explicit Laguerre form of the basis functions f_mn satisfies the two defining eigen-relations with H = ½x² exactly for m, n ≤ 2; f₀₀ = 2e^{−x²/θ} "as in 0709.3950 (A.2)"; and orthogonality and ∫f_mn = 2πθ δ_mn hold on a grid ([the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base)).
-- **The duality lemma.** The transform D is computed by direct numerical integration with the Grosse–Wulkenhaar kernel. An anchor fixes its normalization, D f₀₀ = f₀₀; then D f_mn = (−1)^m f_mn is checked for all m, n < 4 at twelve random points, with a tolerance of 10⁻⁷ ([the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma)).
+- **The duality lemma.** The transform D is computed by direct numerical integration with the Grosse–Wulkenhaar kernel. An anchor checks its normalization, D f₀₀ = f₀₀; then D f_mn = (−1)^m f_mn is checked for all m, n < 4 at twelve random points, with a tolerance of 10⁻⁷ ([the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma)).
 - **The kinetic form.** With exact derivatives, ∫|∂φ|² + x̃²|φ|² is diagonal in the matrix base and proportional to (m + n + 1). The script prints the ratio beside 8π; it asserts the proportionality, not the value.
 - **S1, symmetry against covariance.** For the complex field the duality Π and every pair of diagonal unitaries leave the action unchanged, a continuous U(1)^N × U(1)^N; for the real field Πφ is not Hermitian and the quartic term is invariant only in the alternating form ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields)).
 - **S2, the complex vacua.** At μ² = 4, λ = 1 and truncation N = 8, gradient descent from six random starts ends at diagonal minima with the stated occupations and S_min = −2.5; the relative phase β of levels 0 and 1 varies between minima and the action is constant around the β circle; the duality maps β to β + π ([complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
@@ -188,7 +188,7 @@ OK — Grosse-Wulkenhaar route checks pass.
 
 ## `verify/toy_s4.py`: criterion S4
 
-S4 asks whether the breaking survives thermal and quantum fluctuations in 1+1 dimensions. The script simulates model I's polarization angle φ on a square lattice with H held at 1:
+S4 asks whether the breaking survives fluctuations in 1+1 dimensions. The script simulates model I's polarization angle φ on a square lattice with H held at 1:
 
 ```text
 E = −J Σ⟨ij⟩ cos(φ_i − φ_j) − h Σ_i cos 2φ_i
@@ -203,7 +203,7 @@ The checks and their thresholds:
 - **Model A at T = 0.6.** Ordered, ⟨|m|⟩ > 0.8 at every size; size-independent, |m₆₄ − m₁₆| < 3σ + 0.002, with σ the two error bars combined; Binder cumulant above 0.6 (an ordered ℤ₂ phase has 2/3) ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo)).
 - **The control, model A at T = 3.** Disordered: m₁₆/m₆₄ within [3.3, 4.8], where 1/L scaling gives 4.
 - **Model B at T = 0.6.** No true order: the U(1) magnetization falls from L = 16 to L = 64 by more than 3σ, as the Mermin–Wagner–Coleman theorem requires for a continuous symmetry in two dimensions ([Mermin–Wagner–Coleman](/wiki/symmetry-breaking/mermin-wagner-coleman)). The spin-wave estimate is printed beside the measured ratio; agreement between the two is not asserted.
-- **Quoted values.** Three "quoted:" checks require the printed means and error bars to match the note's table to the stated decimals. Because the seeds are fixed, these are reproductions ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars)).
+- **Quoted values.** Three "quoted:" checks require the printed means and error bars to match the note's table to the stated decimals; model A's error bar is checked only as a bound, below 0.0002. Because the seeds are fixed, these are reproductions ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars)).
 
 Its output:
 

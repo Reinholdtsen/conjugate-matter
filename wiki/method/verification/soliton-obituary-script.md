@@ -2,7 +2,7 @@
 title: "The soliton-obituary script"
 weight: 80
 status: method
-description: "verify/soliton_obituary.py recomputes the numbers of the round-3 rulings and every [V] number of the #11 §12 obituary, after four anchors independent of the manuscript; it replaced knot_numbers.py, which checked the withdrawn paper's own claims."
+description: "verify/soliton_obituary.py recomputes the adjudicator's figures for round-3 rulings 1, 2, 4 and 5 and every [V] number of the #11 §12 obituary, after four anchors independent of the manuscript; it replaced knot_numbers.py, which checked the withdrawn paper's own claims."
 provenance: [V]
 sources:
   - "verify/soliton_obituary.py"
@@ -14,7 +14,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md header"
   - "review/v3-worklog.md 'New open items (to compute before v3 states anything about them)'"
   - "CLAUDE.md 'Layout'"
-  - "review/wiki-build-flags.md items 21, 22"
+  - "review/wiki-build-flags.md items 21, 22, 33, 34"
 ---
 
 *The soliton-obituary script, `verify/soliton_obituary.py`, recomputes the numbers in the record of why the program's superheavy-soliton dark-matter candidate failed: the corrected count of monopoles formed in the early universe, the mass at which their abundance would match the observed dark matter, the overproduction at the withdrawn manuscript's benchmark mass, the corrected relic window of the hidden sector's light fermion, the dark-radiation bound, and the exclusion of the minimal hidden sector. Before computing any of these it reproduces standard cosmology results that do not depend on the manuscript. It replaced an earlier script, knot_numbers.py, which had checked the manuscript's own claims and had passed a wrong normalization. The candidate it documents is dead; the script keeps the arithmetic of that death reproducible.*
@@ -25,7 +25,7 @@ sources:
 
 The docstring: "every number that review/round3-adjudication.md and the §12 obituary of papers/broken-born-checkpoint-v2.md (v2.1) quote for the withdrawn soliton candidate (#14 v3), recomputed and checked." Root `CLAUDE.md` lists it as "the round-3 record". It cites #11 v2.1; #11 is now v2.2, whose changes do not touch §12 (#11 header).
 
-The candidate was a superheavy 't Hooft–Polyakov monopole of a hidden gauge sector, proposed as dark matter in manuscript #14 ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)). [Review round 3](/wiki/method/review/round-3) found its abundance estimate misnormalized, and the program retired it on 2026-10-19 ([round-3 decisions](/wiki/method/review/round-3/decisions)). The script is the machine check behind the obituary: it does not test whether the candidate could be revived, only that the numbers the obituary and the rulings state follow from their inputs.
+The candidate was a superheavy ['t Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) of a hidden gauge sector, proposed as dark matter in manuscript #14 ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)). [Review round 3](/wiki/method/review/round-3) found its abundance estimate misnormalized, and the program retired it on 2026-10-19 ([round-3 decisions](/wiki/method/review/round-3/decisions)). The script is the machine check behind the obituary: it does not test whether the candidate could be revived, only that the numbers the obituary and the rulings state follow from their inputs.
 
 ## The model and the constants
 
@@ -39,7 +39,7 @@ Hubble volume, the causal minimum. Freeze-out: s-wave, Kolb & Turner eqs.
 5.43-5.45. Reference constants: PDG and Planck 2018 values.
 ```
 
-That is a hidden SU(2) broken to U(1) by a Higgs field in the adjoint representation ([the hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)); a light fermion doublet ψ whose charge equals ours (hypothesis H); a monopole mass set by the vacuum value v, with f between 1 at the Bogomolny–Prasad–Sommerfield (BPS) limit and 1.787; a transition temperature of order v; and monopoles formed by [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) at its minimum rate. The constants in the code include the Planck mass `M_PL = 1.22089e19` and the reduced Planck mass `M_PL_RED = 2.43536e18` (GeV), the present entropy density `S0 = 2891.2` (cm⁻³), the dark-matter density built from Ωh² = 0.120, the fine-structure constant `1/137.035999`, `GSTAR = 100.0` at the transition, and the withdrawn benchmark `M_BENCH = 3e13` (GeV). The docstring names their origin as Particle Data Group (PDG) and Planck 2018 values; the predecessor script's docstring had added that they were "from model memory except the N_eff bound (Planck 2018 VI, live-checked)" (knot_numbers.py at commit 96f58da).
+That is a hidden SU(2) broken to U(1) by a Higgs field in the adjoint representation ([the hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)); a light fermion doublet ψ whose charge equals ours (hypothesis H); a monopole mass set by the vacuum value v, with f between 1 at the Bogomolny–Prasad–Sommerfield (BPS) limit and 1.787; a transition temperature of order v; and monopoles formed by [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) at its minimum rate. The constants in the code include the Planck mass `M_PL = 1.22089e19` and the reduced Planck mass `M_PL_RED = 2.43536e18` (GeV), the present entropy density `S0 = 2891.2` (cm⁻³), the dark-matter density built from Ωh² = 0.120, the fine-structure constant `1/137.035999`, `GSTAR = 100.0` at the transition, and the withdrawn benchmark `M_BENCH = 3e13` (GeV). The docstring names their origin as Particle Data Group (PDG) and Planck 2018 values; the predecessor script's docstring had added that they were "from model memory except the N_eff bound (Planck 2018 VI, live-checked)" (knot_numbers.py at commit 96f58da). Flag 34 in `review/wiki-build-flags.md` notes that the current docstring drops that caveat, although the values are still typed in rather than retrieved.
 
 Two helper functions carry most of the physics. The relic density after freeze-out of an s-wave annihilator of mass m, cross-section σ₀, g internal states and g\* relativistic species is computed by iterating the freeze-out point x_f, and the extra radiation of a species with g_eff effective states at temperature ratio r:
 
@@ -53,7 +53,7 @@ Both are textbook formulas [T], and both are tested by the anchors before they a
 
 ## The anchors
 
-"Anchors come first and are independent of the manuscript (a textbook identity; a published value)." There are four, and each tests a piece of code that the later checks reuse:
+"Anchors come first and are independent of the manuscript (a textbook identity; a published value)." There are four, and each tests a formula that the later checks reuse:
 
 - **The Friedmann coefficient.** The check passes when √(8π³/90), rounded to two decimals, equals 1.66, the coefficient of the radiation-era expansion rate H = 1.66 √g\* T²/M_Pl [T]. The script's Hubble coefficient, from which the Kibble normalization p is built, is this number times √g\*.
 - **One defect per Hubble volume.** The check passes when the computed p lies between 50 and 200, against the published estimate "n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)"; it prints `[p = 104.31]`. This is the anchor that replaced the circular one ([independent anchors](/wiki/method/verification/independent-anchors)).
@@ -117,7 +117,7 @@ In the minimal sector with only the adjoint Higgs, the charged gauge bosons W′
 
 ## What it does not check
 
-The docstring says "every number" the adjudication and the obituary quote, and the closing line says "every number the round-3 record quotes reproduces". The checks cover every number #11 §12 tags [V], and the figures the adjudicator computed for rulings 1, 2, 4 and 5. Numbers the record quotes from other sources have no check:
+The docstring says "every number" the adjudication and the obituary quote, and the closing line says "every number the round-3 record quotes reproduces"; the adjudication's header and its 'Decisions' make the same claim. The checks cover every number #11 §12 tags [V], and the figures the adjudicator computed for rulings 1, 2, 4 and 5. Flag 33 in `review/wiki-build-flags.md` records the difference. Numbers the record quotes from other sources have no check:
 
 - **Referee figures and literature.** Ruling 3's Kibble–Zurek overproduction is the referee's; the adjudicator "did not re-run the referee's Kibble–Zurek integration" (and flag 21 records that the ruling's "1e9" lower end is the Liveoak–Maharana–Wells (LMW) analytic estimate, not the integration). Ruling 4's referee range and the literature bounds of §12 ("≲ 100 PeV" [29S]) are quoted, not computed.
 - **Rulings accepted without re-checking.** Rulings 6 and 9 were "Accepted, not re-checked"; rulings 7, 8 and 10–13 rest on literature and reading.
@@ -126,7 +126,7 @@ The docstring says "every number" the adjudication and the obituary quote, and t
 
 ## Where it came from
 
-knot_numbers.py was written to recompute every number of #14 v2, then of v3; at v3 its anchor list included a Kibble check that reproduced v2's own benchmark, and its p was 0.023 ([independent anchors](/wiki/method/verification/independent-anchors#the-circular-anchor-of-round-3)). After round 3 its inputs were corrected, which made the gate fail on v3's claims until v3 was withdrawn ([the gate](/wiki/method/verification/the-gate#how-the-script-list-grew)). The same day it was replaced. The adjudication's 'Decisions' records that knot_numbers.py, which checked v3's claims, "was replaced by `verify/soliton_obituary.py`, which checks every number this record quotes, with independent anchors. The v3 checks are in history at 96f58da." And: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything."
+knot_numbers.py was written to recompute every number of #14 v2, then of v3; at v3 its anchor list included a Kibble check that reproduced v2's own number, and its p was 0.023 ([independent anchors](/wiki/method/verification/independent-anchors#the-circular-anchor-of-round-3)). After round 3 its inputs were corrected, which made the gate fail on v3's claims until v3 was withdrawn ([the gate](/wiki/method/verification/the-gate#how-the-script-list-grew)). The same day it was replaced. The adjudication's 'Decisions' records that knot_numbers.py, which checked v3's claims, "was replaced by `verify/soliton_obituary.py`, which checks every number this record quotes, with independent anchors. The v3 checks are in history at 96f58da." And: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything."
 
 Two of the four anchors were already in knot_numbers.py before round 3. The worklog records that it "checks its freeze-out formula on a standard relic first: 100 GeV with σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108", and that for dark radiation "one extra neutrino species at T_ν gives ΔN_eff = 1.000" (`review/v3-worklog.md`, items O1 and O2). The value 0.108 belongs to that script's run; the current script prints no value for this anchor. The other two, the Friedmann coefficient and Gangui's estimate, are round-3 lesson 2's replacement anchors.
 
@@ -173,5 +173,5 @@ OK — every number the round-3 record quotes reproduces.
 - `papers/broken-born-checkpoint-v2.md` §12 — the obituary, its [V] numbers and its 'Checks.' line; header — the v2.2 change list
 - `review/v3-worklog.md` 'New open items (to compute before v3 states anything about them)' (O1, O2) — the predecessor's freeze-out and ΔN_eff self-checks, κ, the entropy-conserving setup
 - Root `CLAUDE.md` 'Layout' — "the round-3 record"
-- `review/wiki-build-flags.md` items 21, 22 — ruling 3's attribution; the Planck interval
+- `review/wiki-build-flags.md` items 21, 22, 33, 34 — ruling 3's attribution; the Planck interval; the claimed coverage; the constants' origin
 - Git history: knot_numbers.py at commits 5dbaa82 and 96f58da — the predecessor and its docstring

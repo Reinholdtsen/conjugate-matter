@@ -105,12 +105,12 @@ Four sets of control values exist: the worklog's fixed-seed "0.078 → 0.033 →
 
 ## What the error bars do not cover
 
-- **Systematic effects.** Every run starts cold, so incomplete equilibration from that start would be common to all four seeds and absent from the error bar. The note's guard is the control: "The ordered start is a choice; the high-T control shows the sampler does leave it when the phase is disordered" (worklog), and the hot-start runs at L = 64, which "coarsen slowly through metastable domains" (note §4).
+- **Systematic effects.** Every run starts cold, so incomplete equilibration from that start would be common to all four seeds and absent from the error bar. The guard is the control, in the worklog's words: "The ordered start is a choice; the high-T control shows the sampler does leave it when the phase is disordered". The note adds that hot-start runs at L = 64 "coarsen slowly through metastable domains" (§4).
 - **The model.** The error bars measure the simulation of the frozen-H reduction. The Monte Carlo of model I with H dynamical has not been done ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability)).
 
 ## Applied since
 
-The rule has had one application, the rerun of `verify/toy_s4.py` for the note v2. The program has run no other Monte Carlo. None of the wiki build's executed checks in `review/wiki-build-checks/` is a simulation; its one Monte Carlo item, flag 13, compares the note's quoted error bar with the script's printed output.
+The rule has had one application, the rerun of `verify/toy_s4.py` for the note v2. The program has run no other Monte Carlo since. None of the wiki build's executed checks in `review/wiki-build-checks/` is a simulation; its one Monte Carlo item, flag 13, compares the note's quoted error bar with the script's printed output.
 
 ## Sources
 

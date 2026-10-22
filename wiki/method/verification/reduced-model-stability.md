@@ -2,7 +2,7 @@
 title: "The reduced-model stability rule"
 weight: 40
 status: method
-description: "When numerics run on a model with fields frozen, check the full model's boundedness and Hessian with all fields dynamical, and say in the text that it is a reduction — round 4's first lesson, from a potential bounded only at frozen H."
+description: "When numerics run on a model with fields frozen, check the full model's boundedness and Hessian with all fields dynamical, and say in the text that it is a reduction — round 4's first lesson, from a potential checked only at frozen H and unbounded once H moves."
 sources:
   - "CLAUDE.md 'Method'"
   - "review/round4-adjudication.md 'Lessons (into CLAUDE.md)'"
@@ -21,7 +21,7 @@ sources:
   - "review/wiki-build-checks/squeeze_check.py"
 ---
 
-*The reduced-model stability rule says that when a calculation simplifies a model by holding some of its fields fixed, the full model's stability must still be checked with every field free to move, and the text must say that the calculation used a reduction. Review round 4 supplied the reason: the potential first used in the program's coset toy model was bounded below while the phase-space metric H was held fixed, and unbounded below once H was allowed to vary, so the model's intended vacuum was a saddle. The repaired potential was checked with all fields dynamical, and the toy-model note and its lattice script now name the simulation as a frozen-H reduction.*
+*The reduced-model stability rule says that when a calculation simplifies a model by holding some of its fields fixed, the full model's stability must still be checked with every field free to move, and the text must say that the calculation used a reduction. Review round 4 supplied the reason: the potential first used in the program's coset toy model had been checked only with the phase-space metric H held fixed, and it is unbounded below once H is allowed to vary, so the model's intended vacuum was a saddle. The repaired potential was checked with all fields dynamical, and the toy-model note and its lattice script now name the simulation as a frozen-H reduction.*
 
 **Status:** Method, in force (round-4 lesson 1, now in root `CLAUDE.md`) — untagged — applied in `verify/toy_coset.py`, which checks the bounded potential with H dynamical, and stated in `verify/toy_s4.py` and the toy-model note §4.
 
@@ -43,7 +43,7 @@ Freezing fields restricts the potential to a slice of field space. A point can b
 
 ### The naive potential
 
-[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields, a phase-space metric H and a real structure K. Its polarization is a Goldstone angle that cannot order in 1+1 dimensions, so the note added a potential that keeps ρ and reduces the continuous symmetry to a discrete group ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The first choice was −μ[Tr(K K_ref)]². The worklog studied it at H = 1, where it becomes "−2μ(1 + cos 2φ)", and the lattice simulation ran at H = 1 ('Chunk 3 results').
+[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields, a phase-space metric H and a real structure K. Its polarization is a Goldstone angle that cannot order in 1+1 dimensions, so the note added a potential that keeps ρ and reduces the continuous symmetry to a discrete group ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The first choice was −μ[Tr(K K_ref)]². The worklog studied it at H = 1 on the circle of vacua K(φ), where it becomes "−2μ(1 + cos 2φ)", and the lattice simulation ran at H = 1 ('Chunk 3 results').
 
 ### What the referee found
 
@@ -90,7 +90,7 @@ See [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/froz
 
 The stable minimum keeps one zero eigenvalue, along the line H = diag(y, 1/y), K = K_ref. The adjudication called it "the residual diagonal squeeze, which is an exact symmetry" (F2), and revision 1 speaks of "the exact residual squeeze". The note v2 says instead: "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref." The gate checks only that the line is flat (`V = -1 all along it`), which both statements agree on.
 
-The wiki build applied the rule's question, whether a property seen on a slice holds off it, to this disagreement. Its executed check, `review/wiki-build-checks/squeeze_check.py`, applies the squeeze to a general K and prints:
+The wiki build applied the rule's question, whether a property seen on a slice holds off it, to this disagreement. Its executed check, `review/wiki-build-checks/squeeze_check.py`, applies the squeeze to a general K and prints, besides the general formula for the change:
 
 ```text
 lambda-term invariant under squeeze: True

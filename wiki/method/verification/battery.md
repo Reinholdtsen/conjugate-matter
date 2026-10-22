@@ -14,7 +14,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.2"
   - "papers/broken-born-checkpoint-v2.md §7.3"
   - "review/round3-adjudication.md 'Rulings'"
-  - "review/wiki-build-flags.md items 3, 4, 14"
+  - "review/wiki-build-flags.md items 3, 4, 14, 36"
 ---
 
 *The verification battery is a set of seven numerical and exact-integer tests, T1 to T7, of the matrix algebra at the core of the program: the compatibility theorem, the parametrization of the modular field, and the algebra behind the mass of the momentum graviton and the zero vacuum energy of its potential. It was written and run on claude.ai, carried into the repository as Appendix A of the handoff document, and now runs as `verify/battery.py` in the gate, with the same computations and random seeds. Checkpoint #11 calls the results it confirms Tier 1 and tags them [V]. Six of the tests evaluate an identity at randomly drawn sample points and one is exact integer arithmetic, so the battery confirms the algebra at sample points rather than proving it, and none of the tests asks whether the algebra describes nature.*
@@ -31,7 +31,7 @@ The [handoff](/wiki/history/documents/handoff) carried the battery as a code lis
 
 ### Setup
 
-The tests work in dimension d = 4, with the symplectic form ω = [[0, 1], [−1, 0]] and the neutral metric η = [[0, 1], [1, 0]], where 0 and 1 stand for the d × d zero and identity blocks. T1 to T6 draw their random matrices from numpy's legacy generator after `np.random.seed(0)`; T7 uses a separate generator, `np.random.default_rng(1)`. Two helpers draw the matrices: a random symmetric matrix, and a random positive-definite one built as a aᵀ plus d times the identity. Because the order of the draws is fixed, every run in the same environment draws the same matrices, which is what makes the quoted figures reproducible.
+The tests work in dimension d = 4, with the symplectic form ω = [[0, 1], [−1, 0]] and the neutral metric η = [[0, 1], [1, 0]], where 0 and 1 stand for the d × d zero and identity blocks. T1, T2, T4 and T6 draw their random matrices from numpy's legacy generator after `np.random.seed(0)` (T3 reuses T2's draw, and T5 draws nothing); T7 uses a separate generator, `np.random.default_rng(1)`. Two helpers draw the matrices: a random symmetric matrix, and a random positive-definite one built as a aᵀ plus d times the identity. Because the order of the draws is fixed, every run in the same environment draws the same matrices, which is what makes the quoted figures reproducible.
 
 Each test calls a helper `check(name, ok, detail)` that prints `PASS` or `FAIL`, the check's name and, where given, a measured value in brackets. The script exits with status 1 if any check fails ([the check line](/wiki/method/verification/the-gate#the-check-line)).
 
@@ -100,7 +100,7 @@ PASS  T4 parity: 66.58 vs 63.72 as quoted  [66.58 vs 63.72]
 PASS  T7 parity: rms 3.29 as quoted  [rms=3.2853]
 ```
 
-The docstring: "a parity failure means this environment no longer reproduces the numbers the papers cite." A parity check detects a change of environment, such as a numpy version that draws different random numbers. It is a reproduction of the documents' own figures, not an [independent anchor](/wiki/method/verification/independent-anchors), and it does not claim to be one. The docstring places both figures in #11 §2, but §2 gives only "rms residual 3.29"; "66.58 vs 63.72 at seed 0" is in `HANDOFF.md` §5, and #11 §7.2 refers to "the 66.58-vs-63.72 test of §2" (recorded on [conflicts between the documents](/wiki/history/documents/source-conflicts)).
+The docstring: "a parity failure means this environment no longer reproduces the numbers the papers cite." A parity check detects a change of environment, such as a numpy version that draws different random numbers. It is a reproduction of the documents' own figures, not an [independent anchor](/wiki/method/verification/independent-anchors), and it does not claim to be one. The docstring places both figures in #11 §2, but §2 gives only "rms residual 3.29"; "66.58 vs 63.72 at seed 0" is in `HANDOFF.md` §5, and #11 §7.2 refers to "the 66.58-vs-63.72 test of §2" (flag 36 in `review/wiki-build-flags.md`; recorded on [conflicts between the documents](/wiki/history/documents/source-conflicts#tags-attribution-and-what-the-checks-cover)).
 
 ## What the battery does not show
 
@@ -142,4 +142,4 @@ OK — all battery checks pass (numpy 2.5.4).
 - `HANDOFF.md` Appendix A — the original listing and its expected output; §5 — the battery summary, "66.58 vs 63.72 at seed 0", "re-run it first"
 - `papers/broken-born-checkpoint-v2.md` §2 — Tier 1 and "All seven passed [V]"; §5 — the compatibility theorem and its proof; §6 — I[Z]² = −1; §7.2 — the blocks, the non-Fierz–Pauli mass and the span test; §7.3 — the integer identity
 - `review/round3-adjudication.md` 'Rulings' — the review's own re-derivation of the compatibility theorem
-- `review/wiki-build-flags.md` items 3, 4, 14, with `review/wiki-build-checks/zero_locus.out`, `s_expansion.out` and `sqrt_eig_check.out` — suspected source errors next to the tested algebra
+- `review/wiki-build-flags.md` items 3, 4, 14, with `review/wiki-build-checks/zero_locus.out`, `s_expansion.out` and `sqrt_eig_check.out` — suspected source errors next to the tested algebra; item 36 — where the parity figures are printed

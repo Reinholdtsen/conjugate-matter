@@ -23,7 +23,7 @@ sources:
   - "review/round3-adjudication.md 'What survives v3'"
   - "review/round4-adjudication.md header"
   - "review/wiki-build-checks/README.md"
-  - "review/wiki-build-flags.md item 16"
+  - "review/wiki-build-flags.md items 16, 33, 38"
   - "wiki/CLAUDE.md 'The gate'"
   - "HANDOFF.md §2"
 ---
@@ -36,12 +36,12 @@ sources:
 
 Root `CLAUDE.md`, 'The gate': "`scripts/check.sh` is the definition of done. It runs every script in `verify/`, then `scripts/check-wiki.py` on the wiki, and exits non-zero on any failure. It must pass before work is called finished. Do not weaken a check to make it pass. New verification scripts get wired into it." The script's own header: "The definition of done for this repo. Exits non-zero if any verification script fails. New arbitration and audit scripts in verify/ get added here."
 
-The gate is where [the iron rule](/wiki/method/verification/iron-rule) becomes enforceable. A number that a current document asserts gets a check in a script, and the script runs every time the gate runs, so a later edit that changes the number, or a change of environment that changes the arithmetic, shows up as a failure.
+The gate is where [the iron rule](/wiki/method/verification/iron-rule) becomes enforceable. A number that a current document asserts gets a check in a script, and the script runs every time the gate runs, so a later edit to a script that changes a computed number, or a change of environment that changes the arithmetic, shows up as a failure. The scripts hold their own copies of the figures they compare against and do not read the documents, so an edit to a document's figure does not trip them.
 
 ## How it runs
 
 - **Environment.** The scripts run in a Python virtual environment, `.venv`, built from `requirements.txt`, which pins numpy==2.5.4 and sympy==1.14.0. Without it the gate prints `check FAILED: no .venv. Create it with:` and the command to create it, and exits with status 1.
-- **An explicit list.** The script runs `verify/battery.py`, `verify/soliton_obituary.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py` and `verify/toy_s5.py`, in that order, named one by one rather than matched by a pattern. "Runs every script in `verify/`" therefore holds as long as the list matches the folder, as it does now; a new script counts only once it is added to the list. Root `CLAUDE.md`'s 'Layout' names only `battery.py` and `soliton_obituary.py`; the list in the script is the fact.
+- **An explicit list.** The script runs `verify/battery.py`, `verify/soliton_obituary.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py` and `verify/toy_s5.py`, in that order, named one by one rather than matched by a pattern. "Runs every script in `verify/`" therefore holds as long as the list matches the folder, as it does now; a new script counts only once it is added to the list. Root `CLAUDE.md`'s 'Layout' names only `battery.py` and `soliton_obituary.py` (flag 38 in `review/wiki-build-flags.md`); the list in the script is the fact.
 - **Every script runs.** The shell options are `set -uo pipefail`, without `-e`. A failing script prints its name followed by `FAILED` and sets a status variable; the loop continues, so one run reports every failure rather than the first.
 - **Then the wiki.** After the six scripts it runs `scripts/check-wiki.py` on the whole wiki, with the same failure handling.
 - **The verdict.** If nothing failed it prints "OK — all checks pass." and exits 0; otherwise it exits 1.
@@ -74,8 +74,8 @@ Two kinds of check need distinguishing:
 
 The gate covers less than the record contains. These are outside it:
 
-- **Round-3 numbers the adjudicator did not compute.** Rulings 3 and 6–13 have no checks: the adjudicator "did not re-run the referee's Kibble–Zurek integration", and rulings 6 and 9 were "Accepted, not re-checked" (`review/round3-adjudication.md`; [Review round 3](/wiki/method/review/round-3)). The withdrawn manuscript's benchmark arithmetic ("flux, densities, σ_T/M"), which 'What survives v3' keeps, lost its checks when they were retired with the paper; of that list only the W′ overclosure is gated ([benchmark arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic)).
-- **Round-4 numbers outside the toy note.** The adjudicator's F1 sequence and F2's eigenvalues at λ = 10 and 100 come from `review/round4/adjudicator/arb.py`; the gate checks the boost at t = 4 and the eigenvalues at λ = μ = 1.
+- **Round-3 numbers the adjudicator did not compute.** Rulings 3 and 6–13 have no checks, and neither has ruling 4's referee range: the adjudicator "did not re-run the referee's Kibble–Zurek integration", and rulings 6 and 9 were "Accepted, not re-checked" (`review/round3-adjudication.md`; [Review round 3](/wiki/method/review/round-3)). The soliton script's docstring nonetheless claims every number of that record (flag 33 in `review/wiki-build-flags.md`). The withdrawn manuscript's benchmark arithmetic ("flux, densities, σ_T/M"), which 'What survives v3' keeps, lost its checks when they were retired with the paper; of that list only the W′ overclosure is gated ([benchmark arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic)).
+- **Round-4 numbers outside the toy note.** The adjudicator's F1 sequence and F2's eigenvalues at λ = 10 and 100 come from `review/round4/adjudicator/arb.py`, and its control re-runs from `review/round4/adjudicator/ctrl.py`; the gate checks the boost at t = 4 and the eigenvalues at λ = μ = 1.
 - **Analytic arguments.** The toy note's argument that the complex model's breaking does not survive quantization is analytic (§4). The gate checks its premise, the exact continuous symmetry, not its conclusion ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)).
 - **A check mark without a script.** `HANDOFF.md` §2 marks the Debt-3 figure "criterion fails by 10²⁸–10³¹" ✓, but no script in `verify/` computes it, and #11 §9 tags it [D] (flag 16 in `review/wiki-build-flags.md`; [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)). A wiki-build recomputation, `review/wiki-build-checks/debt3a_check.py`, reproduces it and "could be moved into `verify/`" (flag 16).
 - **Whole documents.** `verify/` holds no script for the numbers of the Debt-3 calc notes or of #13 ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes); [conjugate special relativity](/wiki/conjugate-relativity)).
@@ -90,11 +90,12 @@ The gate covers less than the record contains. These are outside it:
 - **map** — a page is not linked from its parent section's index;
 - **source** — a frontmatter source, or a repository path in inline code, names a missing file;
 - **frontmatter**, **weight**, **section** — missing or invalid fields, siblings sharing a weight, a folder without an index or a file named claude.md;
-- **gist**, **statusline**, **h1**, **fence** — the page shape: the italic opening, the status line, no top-level heading, a language on every code fence;
+- **gist**, **statusline** — the page's opening: the italic passage and the status line;
 - **star** — an unescaped starred symbol such as v\*, whose asterisk can end an italic passage early;
+- **h1**, **fence** — no top-level heading, and a language on every code fence;
 - **acronym** — an acronym that is unregistered, or used without its expansion nearby or a link (registry: `scripts/wiki-acronyms.txt`).
 
-Its reason for existing, from the docstring: "Hugo does not validate internal links: it renders /wiki/does-not-exist without complaint. This script is the only thing standing between a renamed page and a silent 404." Given file names, it reports only on those files while resolving links across the whole wiki; with `--stats` it also prints status counts and the pages with fewer than three inbound links.
+Its reason for existing, from the docstring: "Hugo does not validate internal links: it renders /wiki/does-not-exist without complaint. This script is the only thing standing between a renamed page and a silent 404." Given file names, it reports only on those files while resolving links across the whole wiki; with `--stats` it also prints status counts and the pages with fewer than three inbound links from outside their parent's map.
 
 It checks form, not content. It does not compare a page's numbers, quotations, tags or statuses with the source documents; that comparison was the work of the wiki build's verifiers, whose suspected source errors are in `review/wiki-build-flags.md` with executed checks in `review/wiki-build-checks/`.
 
@@ -104,6 +105,7 @@ The commit history records each change:
 
 - **2026-10-19, commit 008c3ee.** The first gate ran `verify/battery.py` alone ("add battery gate").
 - **2026-10-19, commit 678e48a.** knot_numbers.py was added ("Recompute every number in #14 v2"); it later checked every number of the soliton manuscript's third version.
+- **2026-10-19, commits d15cd4a and 5dbaa82.** dark_sector.py joined the list for the worklog's items O1 and O2 ("Script O1/O2: minimal dark sector overcloses; needs a light doublet"); when v3 was cut it was "merged into" knot_numbers.py and left the list again.
 - **2026-10-19, commit 96f58da.** After round 3, knot_numbers.py was given the corrected inputs and independent anchors, and the commit message records the consequence: "scripts/check.sh fails on v3's affected claims, by design, until v3 is revised or withdrawn."
 - **2026-10-19, commit 5b6efaa.** The manuscript was withdrawn and knot_numbers.py replaced by `verify/soliton_obituary.py`. The adjudication's 'Decisions' explains why this is not a weakened check: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything." The commit message: "the gate is green again because the withdrawn paper no longer claims anything."
 - **2026-10-19, commits 0e0f51e to 56485d3.** The four toy-model scripts were added chunk by chunk as the models were built.
@@ -121,7 +123,7 @@ wiki OK — 278 pages, no problems
 OK — all checks pass.
 ```
 
-The full output of each script is quoted on its page: [the battery](/wiki/method/verification/battery#the-recorded-output), [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script#the-recorded-output) and [the toy-model scripts](/wiki/method/verification/toy-model-scripts).
+The output of each script is quoted on its page, in full except for parts A and B of `verify/toy_s5.py`: [the battery](/wiki/method/verification/battery#the-recorded-output), [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script#the-recorded-output) and [the toy-model scripts](/wiki/method/verification/toy-model-scripts).
 
 ## A name shared
 
@@ -137,7 +139,7 @@ The full output of each script is quoted on its page: [the battery](/wiki/method
 - `papers/broken-born-checkpoint-v2.md` §12, §14 item 11, and `papers/reciprocity-toy-models.md` §2–§5 — the claims the scripts gate
 - `review/round3-adjudication.md` 'Rulings', 'What survives v3', 'Decisions' — the unchecked rulings; the retired benchmark checks; the script replacement
 - `review/round4-adjudication.md` header — the arbitration scripts in `review/`
-- `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` item 16 — the wiki build's checks, outside the gate; the Debt-3 check mark
+- `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` items 16, 33, 38 — the wiki build's checks, outside the gate; the Debt-3 check mark; the soliton script's claimed coverage; the Layout's two scripts
 - `HANDOFF.md` §2 — the ✓ on the Debt-3 figure
 - `wiki/CLAUDE.md` 'The gate', 'Build state' — how the wiki check is run; when it was extended
-- Git history: commits 008c3ee, 678e48a, 96f58da, 5b6efaa, 0e0f51e, 56485d3 and 17e1338 — the growth of the script list
+- Git history: commits 008c3ee, 678e48a, d15cd4a, 5dbaa82, 96f58da, 5b6efaa, 0e0f51e, 56485d3 and 17e1338 — the growth of the script list

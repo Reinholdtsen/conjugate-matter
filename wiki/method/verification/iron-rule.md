@@ -38,7 +38,7 @@ Three parts of the wording matter:
 
 ### Rounds 1 and 2
 
-The first two [blind reviews](/wiki/method/review) were of manuscript #14, the soliton dark-matter proposal, by fresh large language model (LLM) referees with web search and no code execution ("Round 1 (fresh Sonnet, web search, blind)", `HANDOFF.md` §6; the round-3 pre-registration describes the "arithmetic failure mode of rounds 1–2, which had no code execution"). The referees' own errors, each settled by executed code ("machine-arbitrated"):
+The first two [blind reviews](/wiki/method/review) were of manuscript #14, the [soliton dark-matter proposal](/wiki/dark-matter/candidates/soliton-candidate/obituary), by fresh large language model (LLM) referees with web search and no code execution ("Round 1 (fresh Sonnet, web search, blind)", `HANDOFF.md` §6; the round-3 pre-registration describes the "arithmetic failure mode of rounds 1–2, which had no code execution"). The referees' own errors, each settled by executed code ("machine-arbitrated"):
 
 - round 1: a "GeV→gram conversion off 10³"; "σ_T/M misread as σ_T (off ~10⁴³)"; and the referee "insinuated the compatibility theorem might be false (it is machine-verified)";
 - round 2: the referee "fed ρ_DM = 1.26×10⁻³ GeV/cm³ instead of 1.26×10⁻⁶ (the manuscript's own number) — with the right input the closure lands within 3%", and "conflated mean vs local density labels".
@@ -55,7 +55,7 @@ The same section gives the rule's practical consequence for the project: "Claude
 
 ### The scripts and the gate
 
-Every number a current document asserts is meant to have a check in a script in `verify/`: the Tier-1 algebra of #11 in [the battery](/wiki/method/verification/battery), the soliton obituary's numbers in [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script), and the toy-model note's results in [the toy-model scripts](/wiki/method/verification/toy-model-scripts). `scripts/check.sh` runs them all and fails if any check fails. Each check prints its measured value, which is the "printed output" the rule asks for.
+Every number a current document asserts is meant to have a check in a script in `verify/`: the Tier-1 algebra of [#11](/wiki/history/documents/checkpoint) in [the battery](/wiki/method/verification/battery), the soliton obituary's numbers in [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script), and the toy-model note's results in [the toy-model scripts](/wiki/method/verification/toy-model-scripts). `scripts/check.sh` runs them all and fails if any check fails. Each check prints its measured value, which is the "printed output" the rule asks for.
 
 ### Referees and adjudicators
 
@@ -69,7 +69,7 @@ The rule also corrects the author before a reviewer sees the text. When v3 of #1
 
 The wiki applies the rule to itself: "Every number on a page is copied from a source document or a `verify/` output, and the page names that source. Nothing is computed, rounded or converted by eye (the iron rule). A number the sources do not contain does not appear." (`wiki/CLAUDE.md`).
 
-The wiki build is the rule's latest application. When its verifiers suspected an arithmetic error in a source document, they did not correct the page by inspection; they wrote a script, ran it, and kept it with its output in `review/wiki-build-checks/`, "so that every flag that rests on arithmetic has executed code beside it" (README). For example, #11 §11.2 says Dirac's condition "pins the magnetic coupling near 4π/e² ≈ 34"; `dirac_coupling_check.py` prints
+The wiki build is the rule's latest application. When its verifiers suspected an arithmetic error in a source document, they did not correct the page by inspection; they wrote a script, ran it, and kept it with its output in `review/wiki-build-checks/`, "so that every flag that rests on arithmetic has executed code beside it" (README). For example, #11 §11.2 says [Dirac's condition](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) "pins the magnetic coupling near 4π/e² ≈ 34"; the last two lines that `dirac_coupling_check.py` prints are
 
 ```text
 4π/e² = 137.036   (= 1/alpha)
