@@ -17,9 +17,9 @@ sources:
   - "notes/broken-born-program-v1.md §7"
 ---
 
-*The misalignment mechanism is a way of producing dark matter as a coherent field rather than as a thermal gas of particles. In the early universe a very light scalar field starts at some value away from the minimum of its potential and stays frozen there while the universe expands faster than the field can oscillate; once the expansion rate falls below the field's mass, the field oscillates about its minimum, and the energy of the oscillation then thins out with the expansion as cold matter does. It is the standard production route for axions. The Broken-Born program borrows it as the production channel for [the wave branch](/wiki/dark-matter/momentum-clumping/wave-island) of [conjugate matter](/wiki/dark-matter/conjugate-matter), a channel the particle branch still lacks; [the ratio of dark to ordinary matter](/wiki/dark-matter/candidates/polarization-genesis) stays unexplained on both.*
+*The misalignment mechanism is a way of producing dark matter as a coherent field rather than as a thermal gas of particles. In the [early universe](/wiki/cosmology/early-universe) a very light scalar field starts at some value away from the minimum of its potential and stays frozen there while the universe expands faster than the field can oscillate; once the expansion rate falls below the field's mass, the field oscillates about its minimum, and the energy of the oscillation then thins out with the expansion as cold matter does. It is the standard production route for axions. The Broken-Born program borrows it as the production channel for [the wave branch](/wiki/dark-matter/momentum-clumping/wave-island) of [conjugate matter](/wiki/dark-matter/conjugate-matter), a channel the particle branch still lacks; [the ratio of dark to ordinary matter](/wiki/dark-matter/candidates/polarization-genesis) stays unexplained on both.*
 
-**Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/debt3b-wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for both dark-sector candidates (`papers/broken-born-checkpoint-v2.md` §12).
+**Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/debt3b-wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for both [dark-sector candidates](/wiki/dark-matter/candidates) (`papers/broken-born-checkpoint-v2.md` §12).
 
 ## The mechanism [T]
 
@@ -47,7 +47,7 @@ The name comes from the axion. There the field is an angle, and its initial valu
 
 The note does not define χ_i; in the standard treatment the relic density depends on the field's initial value [T], which is the natural reading of χ_i. Debt 3b's summary: "relic debt resolved by misalignment" ('Standing results after Chunks A+B'). [Program v1](/wiki/history/documents/checkpoint) states the same as salvage from Debt 3: "the wave island gets its relic abundance from misalignment for free, closing a separate open problem" (#9 §7). [The checkpoint](/wiki/history/documents/checkpoint) lists among the Debt-3 salvage "free relic abundance via misalignment on the wave island" (#11 §9). The program's page for the application is [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic).
 
-The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, and the checkpoint counts its tunable collective sector among the program's degeneration risks: "tunable wave-island collective sector (quarantined)" (#11 §15).
+The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, and the checkpoint counts its tunable collective sector among the program's [degeneration risks](/wiki/program/assessment): "tunable wave-island collective sector (quarantined)" (#11 §15).
 
 ### The particle side, still open
 
@@ -55,7 +55,7 @@ For particle χ, on the MeV–GeV [particle island](/wiki/dark-matter/momentum-c
 
 ### What it leaves open
 
-Misalignment supplies a production channel; it does not explain the amount. Debt 3b: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, χ particles and the X-condensate: "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
+Misalignment supplies a production channel; it does not explain the amount. Debt 3b: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [the X-condensate](/wiki/dark-matter/candidates/x-condensate): "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
 
 ### A numbering note
 
@@ -75,6 +75,7 @@ The program's documents cite no source for the misalignment mechanism. Added by 
 - [Relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic) — the program's application of the mechanism.
 - [The wave island](/wiki/dark-matter/momentum-clumping/wave-island) — its relic abundance.
 - [Open: polarization-genesis and the 5.4 : 1 ratio](/wiki/dark-matter/candidates/polarization-genesis) — the ratio that misalignment does not explain.
+- [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — a uniform oscillation behaves as cold matter, which for a light scalar is this mechanism; the spin-2 case is on [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter).
 
 ## Sources
 

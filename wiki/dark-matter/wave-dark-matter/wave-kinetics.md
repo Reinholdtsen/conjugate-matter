@@ -84,6 +84,8 @@ Added by the wiki from model memory (†):
 - [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — the gated channel added to this mechanism, and the gravitational floor it races.
 - [The wave island](/wiki/dark-matter/momentum-clumping/wave-island) — on the island, relaxation is wave-kinetic.
 - [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — even with the t^{1/2} slowdown, "There is no timescale refuge."
+- [The net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — its wave legs rest on the gated rate, whose coefficients await calibration against Levkov–Panin–Tkachev numerics.
+- [Row 3: the island discriminant](/wiki/predictions/island-discriminant) — its wave side, the (v\*/σ)⁴ law, is the narrow-gate suppression of the wave-kinetic rate.
 
 ## Sources
 

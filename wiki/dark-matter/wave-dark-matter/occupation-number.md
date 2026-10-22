@@ -12,6 +12,7 @@ sources:
   - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3): resolution of open problem 3'"
+  - "review/wiki-build-flags.md item 19"
 ---
 
 *The occupation number is the average number of particles that share one quantum state, or mode, of a gas. When it is much smaller than one, the particles behave as separate particles; when it is much larger than one, so many quanta share each mode that the gas behaves as a classical wave, in the way that the enormous number of photons per mode in a radio broadcast behaves as an electromagnetic wave. For dark matter it is set by the particle mass, the halo's density and the spread of its velocities, and it equals the number of particles inside a cube whose side is the de Broglie wavelength. In the Broken-Born program it is the quantity that divides the dark-matter question into a [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) and a [wave island](/wiki/dark-matter/momentum-clumping/wave-island).*
@@ -58,7 +59,7 @@ The program's [Debt 3](/wiki/history/debts) asked whether [conjugate matter](/wi
 m_crit = [√(πS)ρ/σ²]^{2/5} ≈ 10⁻¹³ GeV ~ 0.1 meV        (Milky Way conditions)
 ```
 
-and at that mass "the per-mode occupation is N_occ = n λ_dB³ = ρ/(m⁴σ³) ~ 10²⁰ ≫ 1" (Debt 3a, 'Corollary'). The note's conclusion: "By the time the coupling is strong enough for collective behavior, the sector is deep in the wave regime." Collective velocity-space dynamics and classical-particle dark matter exclude each other, which Debt 3a calls "a theorem-grade statement at mean-field level, not a benchmark accident". [The checkpoint](/wiki/history/documents/checkpoint) states it as the classicality theorem, tagged [D]: "satisfying the criterion at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9). [The lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.2 puts it in terms of this page: "collective momentum-space behavior requires N_occ≫1 — it exists only for wave dark matter". The derivation and its scope are on [the classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem).
+and at that mass "the per-mode occupation is N_occ = n λ_dB³ = ρ/(m⁴σ³) ~ 10²⁰ ≫ 1" (Debt 3a, 'Corollary'). The scaling is the broad-gate form of the criterion, evaluated at Milky Way conditions, which Debt 3a itself places in the narrow-gate regime; flag 19 in `review/wiki-build-flags.md` records this, with N_occ ≫ 1 either way. The note's conclusion: "By the time the coupling is strong enough for collective behavior, the sector is deep in the wave regime." Collective velocity-space dynamics and classical-particle dark matter exclude each other, which Debt 3a calls "a theorem-grade statement at mean-field level, not a benchmark accident". [The checkpoint](/wiki/history/documents/checkpoint) states it as the classicality theorem, tagged [D]: "satisfying the criterion at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9). [The lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.2 puts it in terms of this page: "collective momentum-space behavior requires N_occ≫1 — it exists only for wave dark matter". The derivation and its scope are on [the classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem).
 
 The symbol m_crit, a mass, is the threshold of this theorem. It is a different quantity from M_crit, the largest stable mass of an attractive condensate ([attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates)).
 
@@ -66,7 +67,7 @@ The symbol m_crit, a mass, is the threshold of this theorem. It is a different q
 
 Debt 3a splits the mass range of χ into a "**Particle island** (m_χ ~ MeV–GeV)", where χ is a gas of classical particles that scatters but cannot clump, and a "**Wave island** (m_χ ≲ meV, N_occ≫1)", where "the collective sector is reborn in field language" ('Consequences for the predictions table'). The wave island's upper edge is stated three ways in the record: ≲ meV in Debt 3a, "m ≲ 0.1 meV" in Debt 3b ('Setup'), and 10⁻⁴ eV in Debt 3c and the lab notebook's addendum v0.2. Debt 3c's final range is the one the wiki follows: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings" ('Verdict and closure of Debt 3'). Its lower edge comes from the [bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds); the coupling condition is [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b).
 
-On the wave island the program's two-body scattering law is no longer the right observable: Debt 3a notes that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)". That to-do is recorded on [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
+On the wave island the program's two-body [scattering law](/wiki/dark-matter/conjugate-matter/scattering-law) is no longer the right observable: Debt 3a notes that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)". That to-do is recorded on [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
 
 ## References
 
@@ -81,6 +82,8 @@ The Debt-3 notes cite no source for the occupation number. Added by the wiki fro
 - [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) — collective behavior requires N_occ ≫ 1, so it exists only for wave dark matter.
 - [The wave island](/wiki/dark-matter/momentum-clumping/wave-island) — defined by N_occ ≫ 1.
 - [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — Bose enhancement by N_occ sets the rate.
+- [Relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic) — misalignment produces dark matter with a huge occupation number, a classical wave from the start.
+- [Row 3: the island discriminant](/wiki/predictions/island-discriminant) — its wave side is the regime N_occ ≫ 1.
 
 ## Sources
 
@@ -89,3 +92,4 @@ The Debt-3 notes cite no source for the occupation number. Added by the wiki fro
 - `notes/debt3b-wave-island.md` 'Setup', 'The rate' — Bose-enhanced wave kinetics; the per-mode and peak normalizations
 - `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the final range of the wave island
 - `notes/broken-born-theory.md` 'Addendum (v0.2, post Debt-3): resolution of open problem 3' — the theorem in terms of N_occ; the island range
+- `review/wiki-build-flags.md` item 19 — the regime in which Debt 3a evaluates the corollary, awaiting a ruling

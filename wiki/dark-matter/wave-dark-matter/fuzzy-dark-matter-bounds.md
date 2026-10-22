@@ -25,7 +25,7 @@ sources:
 
 When dark matter is light enough, its de Broglie wavelength in a galaxy reaches the scale of the galaxy's own structure, and the halo must be described as a wave ([occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number)). At the light extreme, near the m ~ 10⁻²² eV that the Debt-3 notes associate with "fuzzy-end quantum pressure" (`notes/debt3b-wave-island.md`), the wavelength is comparable to the cores of dwarf galaxies. Three features follow from the wave nature:
 
-- **Quantum pressure.** A wave cannot be confined to a region smaller than its wavelength without an energy cost, the Fourier relation between a waveform's extent and its spectrum's width. This opposes gravitational collapse below a Jeans-like scale and suppresses small structures.
+- **Quantum pressure.** A wave cannot be confined to a region smaller than its wavelength without an energy cost, the Fourier relation between a waveform's extent and its spectrum's width. This opposes gravitational collapse below a [Jeans](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)-like scale and suppresses small structures.
 - **Solitonic cores.** The center of each halo holds a coherent ground-state core, a Bose star ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)), whose size grows as the particle mass falls.
 - **Granules.** Outside the core, waves of different momenta interfere, and the density is a pattern of granules of about one de Broglie wavelength that reshuffle continually.
 
@@ -82,6 +82,7 @@ The program cites nothing for the Lyman-α limit or for fuzzy dark matter in gen
 - [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — these bounds close Scenario A's light-mass escape.
 - [The wave island](/wiki/dark-matter/momentum-clumping/wave-island) — its lower edge.
 - [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) — its fuzzy-core option lies below the bound.
+- [The net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — "viable" excludes Scenario A's light-mass branch, which these bounds rule out.
 
 ## Sources
 
