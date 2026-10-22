@@ -66,7 +66,7 @@ Each case has a simple physical reading:
 | Content | w | ρ ∝ | Why |
 | --- | --- | --- | --- |
 | dust (cold matter) | 0 | a⁻³ | a fixed number of particles spread over a volume growing as a³ |
-| radiation | +1/3 | a⁻⁴ | the dilution of dust, times one more factor 1/a from the redshift of each quantum's energy |
+| radiation | +1/3 | a⁻⁴ | the dilution of dust, times one more factor 1/a from the [redshift](/wiki/cosmology/scale-factor-duality/redshift) of each quantum's energy |
 | spatial curvature | −1/3 | a⁻² | the k/a² term of the Friedmann equation, written as if it were a fluid |
 | cosmological constant | −1 | a⁰ | an energy density of empty space, which does not thin at all |
 | stiff fluid | +1 | a⁻⁶ | the fastest dilution compatible with causality; see below |
@@ -85,9 +85,7 @@ If the field's energy is all kinetic (V negligible), w = +1: a stiff fluid. Its 
 
 ## Redshift and momentum [T]
 
-Light emitted when the scale factor was a_e arrives when it is a₀ with every wavelength stretched by the same factor, 1 + z = a₀/a_e, where z is the redshift. The same holds for the momentum of any freely moving particle: its physical momentum falls as 1/a. A cloud of free particles therefore keeps its phase-space volume, since its spread in position grows as a while its spread in momentum shrinks as 1/a (Liouville's theorem applied to the expansion).
-
-The [popular article](/wiki/history/documents/popular-articles) #12 reads the redshift in these terms: "every momentum in the universe is shrinking: the spectrum of the cosmos has been contracting since the beginning". #12 does not name a constraint there; the wiki reads the passage as its plain-language gloss on [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint), as explanation and not as a source for status.
+Light emitted when the scale factor was a_e arrives when it is a₀ with every wavelength stretched by the same factor, 1 + z = a₀/a_e, where z is the redshift; the energy of each quantum and the physical momentum of any freely moving particle fall as 1/a. [Redshift](/wiki/cosmology/scale-factor-duality/redshift) derives the relation and its consequences and records the program's uses of z, among them the [popular article](/wiki/history/documents/popular-articles) #12's reading of the redshift as a contracting momentum spectrum, which the wiki takes as a gloss on [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) (explanation, not a source for status).
 
 ## The program's extension: a second scale factor
 
