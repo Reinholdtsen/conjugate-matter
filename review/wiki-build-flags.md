@@ -137,3 +137,13 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
 32. **Lead, from model memory (†): CMB-S4's status.** #11 names CMB-S4 as the probe for row 10;
     the project may have lost its US funding in 2025. Unchecked; an item for the † battery
     (OP10), not a source error.
+33. **`verify/soliton_obituary.py` claims more coverage than it has.** Its docstring says it
+    recomputes "every number that review/round3-adjudication.md and the §12 obituary … quote",
+    and its closing line prints "every number the round-3 record quotes reproduces". The
+    method-verification writer found it does not check the referee's numbers in rulings 3 and
+    4, ruling 6's figure, or the surviving benchmark arithmetic (flux, densities, σ_T/M). The
+    wiki describes what the script checks, not what it claims. A gate's self-description is
+    part of the calibration Paul relies on.
+34. **Minor: the same script calls its constants "PDG and Planck 2018 values"** without the
+    caveat its predecessor `knot_numbers.py` carried (constants from model memory, except the
+    N_eff bound). The values are typed in, not retrieved.
