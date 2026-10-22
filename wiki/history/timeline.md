@@ -2,7 +2,7 @@
 title: "Timeline"
 weight: 10
 status: record
-description: "Dated events from Born's 1938 paper to the pending DESI DR3 release: the claude.ai era in creation order, the move to the repository, rounds 3 and 4, the checkpoint's versions, and the wiki's build with its flags file."
+description: "Dated events from Born's 1938 paper to the pending DESI DR3 release: the claude.ai era in creation order, the move to the repository, rounds 3 and 4, the checkpoint's versions, and the wiki's build with its flags file and the flags' audit."
 sources:
   - "CLAUDE.md 'Since the handoff'"
   - "papers/broken-born-checkpoint-v2.md header"
@@ -34,13 +34,16 @@ sources:
   - "notes/broken-born-program-v1.md header"
   - "popsci/angle-of-the-mirror.md subtitle"
   - "README.md"
-  - "wiki/CLAUDE.md 'Build state'"
+  - "wiki/CLAUDE.md 'Build state' (retired at b03903c)"
+  - "wiki/CLAUDE.md 'Keeping it current'"
   - "review/wiki-build-flags.md"
+  - "review/wiki-build-checks/flag-audit.json"
+  - "review/wiki-build-checks/README.md"
 ---
 
-*The timeline lists the program's events in date order, from Max Born's paper of 1938 to the third data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI), which the handoff names the program's external clock, since its data can kill the [dark-energy sector](/wiki/cosmology/dark-energy) or the whole framework. The work done on claude.ai in September and October 2026 is almost entirely undated, so those events follow the creation order of the artifacts in `HANDOFF.md` §3. From the move to this repository on 2026-10-19, the commit history dates each step to the minute: review round 3 and the retirement of the [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), the [toy models](/wiki/symmetry-breaking/toy-models) and review round 4, the checkpoint's versions 2.1 and 2.2, and the building of this wiki, with the file of suspected source errors its verifiers keep.*
+*The timeline lists the program's events in date order, from Max Born's paper of 1938 to the third data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI), which the handoff names the program's external clock, since its data can kill the [dark-energy sector](/wiki/cosmology/dark-energy) or the whole framework. The work done on claude.ai in September and October 2026 is almost entirely undated, so those events follow the creation order of the artifacts in `HANDOFF.md` §3. From the move to this repository on 2026-10-19, the commit history dates each step to the minute: review round 3 and the retirement of the [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), the [toy models](/wiki/symmetry-breaking/toy-models) and review round 4, the checkpoint's versions 2.1 and 2.2, and the building of this wiki, with the file of suspected source errors its verifiers kept and the audit that re-checked every item.*
 
-**Status:** Record, current to the afternoon of 2026-10-21 — untagged — dates come from the documents' own headers and dated entries and from `git log` (commit times are local, −0700). Before the handoff the record gives two dates, "September 2026" for #1 v0.1 and 2026-10-17 for the first attempt at round 3; the other claude.ai events follow `HANDOFF.md` §3's creation order, and where review rounds 1 and 2 fall in that order is inferred, not recorded.
+**Status:** Record, current to the end of the wiki's initial build, the post-audit commits of the night of 2026-10-21 — untagged — dates come from the documents' own headers and dated entries and from `git log` (commit times are local, −0700). Before the handoff the record gives two dates, "September 2026" for #1 v0.1 and 2026-10-17 for the first attempt at round 3; the other claude.ai events follow `HANDOFF.md` §3's creation order, and where review rounds 1 and 2 fall in that order is inferred, not recorded.
 
 ## How the record is dated
 
@@ -137,7 +140,7 @@ The handoff's queue began with cutting v3 of #14 and re-running the blind audit 
 
 ## The wiki and its flags file: 2026-10-20 and 21
 
-The build is recorded in the section 'Build state' of `wiki/CLAUDE.md` and in the commits. The build state labels the fourth depth wave "2026-10-21/22"; its commits carry the date 2026-10-21.
+The build was recorded in the commits and in the section 'Build state' of `wiki/CLAUDE.md`, from the breadth pass (7b9438b) until b03903c retired it; its last version is at 51ede3e. From then on it is recorded on this page. The build state labels depth waves 4–6 "2026-10-21/22" and the final pass "running as of 2026-10-22", and the flags file dates its audit 2026-10-22; all their commits carry the date 2026-10-21.
 
 | Time | Commit | Event |
 | --- | --- | --- |
@@ -160,10 +163,22 @@ The build is recorded in the section 'Build state' of `wiki/CLAUDE.md` and in th
 | 16:31 | d34dbf5 | Build state "after the reboot": "A reboot cleared the session scratchpad, so the inventories and the taxonomy file are gone; the committed tree now carries the plan" |
 | 17:10 | fe96131 | The depth pass reaches the method section, with [Lakatos's methodology](/wiki/method/lakatosian-methodology) |
 | 17:25 | 9a5b7c1 | The depth pass reaches this section, with the document pages; then [the three debts](/wiki/history/debts) (45b782e, 17:44), this page and the section index |
+| 18:15 | 51ede3e | Build state at the final pass: depth waves 4–6 "at full depth and verified"; "Two reboots interrupted agents"; "The flags file holds 38 items". The plan for the final pass: verify the last four batches; sweep each partition (flag pointers, known cross-page fixes, "Used by" lists, first-mention links); run six read-only critics, "four for source coverage, a casual reader, a navigation check", and apply their fixes; rebuild the registers from the finished pages; run the full gate |
+| 18:28 | 91bd36f | The final pass's verification: verifier fixes for the last batches of the depth pass, the method pages, rows 6–11 of the predictions, the blind-review pages and the verification pages, committed page by page to 3a195c2 (18:35) |
+| 18:49 | 6874af7 | The sweeps, committed by section as "Wiki sweep" to d01f133 (19:11): flag pointers where flagged statements are quoted, "Used by" lists completed from inbound links, first-mention links, and payment and bookkeeping wording taken out of the wiki's own prose |
+| 19:23 | 791b455 | The critics' fixes, committed by section as "Wiki final pass" to 795e5f5 (19:33): among them section strips completed with their folded open, superseded, chat-only and popsci-only items, plain-language openings added or glossed, and the executed checks of flags 16 and 19 placed beside the statements they concern |
+| 19:51 | 7d19a4b | The registers rebuilt from the finished pages: the home page; the graveyard and alive registers (d4334ca, 20:01); [open problems](/wiki/status/open-problems), conjectures and superseded (aa03f99, 20:03), with pending rulings 1–38; the [glossary](/wiki/glossary), "372 entries" (4c1ea08, 20:11); the [notation](/wiki/notation) (d60e623, 20:12); the [references](/wiki/references) (c1ed53c, 20:12) |
+| 20:20 | e56651e | The final check, committed as one fix: [the status index](/wiki/status) lists the "Conjecture:" folded heading beside "Open:", "Superseded:", "Chat-only:" and "Popsci-only:" |
+| 20:22 | 2c6f857 | [The gate](/wiki/method/verification/the-gate) keeps in-word underscores in heading anchors, as the Hugo site generator does. It had dropped every underscore, so a link to `#no-value-for-mx` passed while Hugo serves the heading as `#no-value-for-m_x`; "Eight links that the old rule let through are corrected" |
+| 20:23 | 6d714e9 | Flags 39–42 from the final pass, with executed checks for flags 39 and 40; flags 6, 7 and 38 extended ([the flags file](#the-flags-file)) |
+| 20:24 | b03903c | `wiki/CLAUDE.md` retires its build-state section, which was to be deleted "when the build is complete"; from then on the build is recorded on this page. The same commit adds "Conjecture:" to the folded headings and says how to act on a flag ruling |
+| 21:28 | d89b457 | The flags audited by independent agents told to refute them ([the flags file](#the-flags-file)) |
+| 21:44 | 239becd | Post-audit pointers: flag 39 where the graviton's reciprocity parity is stated, with [two actions of reciprocity](/wiki/gravity/momentum-graviton/spectrum-and-parity#two-actions-of-reciprocity) set out on the spectrum page and pointers on row 6, the palindrome, modular inversion, the vacuum-energy identity and other pages; then (5ff7b17, 21:53) pointers for flags 35, 36, 38, 40, 41 and 42, and the pages citing flags 11, 14, 17, 18, 19, 30, 31 and 32 state the audit's verdict instead of a confirmed error; then (670a71d, 23:24) the flag-42 pointer on the review protocol and the [pending rulings](/wiki/status/open-problems#pending-rulings) rewritten to list all 42 flags with their verdicts |
+| 23:29 | fc073bb | The post-audit work completed: the open-problems register made consistent with its pending rulings, and the home page's reading guide gives the 42 flags and the audit's result. The rows of this table from 18:15 on, and the later rows under the flags file, follow in the next commit |
 
 ### The flags file
 
-`review/wiki-build-flags.md` lists the suspected errors in the source documents that the wiki's verifiers found. The wiki quotes the sources as written and corrects none of them; each item awaits Paul's ruling, and a topic page that quotes a flagged statement is to point to its item (the build state lists a sweep that adds the pointers still missing). Items were added as they were found; the table runs to item 34, and later items are in the file itself:
+`review/wiki-build-flags.md` lists the suspected errors in the source documents that the wiki's verifiers found. The wiki quotes the sources as written and corrects none of them; each item awaits Paul's ruling, and a topic page that quotes a flagged statement points to its item: the final pass's sweeps added the pointers then missing, and the post-audit commits added those for the later flags. Items were added as they were found, and the audit then gave each item a verdict:
 
 | Time | Commit | Items | Subject |
 | --- | --- | --- | --- |
@@ -186,11 +201,17 @@ The build is recorded in the section 'Build state' of `wiki/CLAUDE.md` and in th
 | 16:47 | aca97b2 | 29–30 | two items in #13 |
 | 17:26 | 36bdacb | 31–32 | two leads from the prediction pages |
 | 17:28 | 9dbcf3a | 33–34 | the coverage and constants of `verify/soliton_obituary.py` |
+| 18:15 | ce26397 | 35–38 | a section pointer in the round-3 pre-registration; where #11 places the figures "66.58 vs 63.72"; the README's monopole clause; stale details of the root `CLAUDE.md`. Flags 7 and 23 extended |
+| 20:23 | 6d714e9 | 39–42 | from the final pass: two actions of ρ on the spin-2 sector; the naive toy potential at frozen H; a toy-note result listed as shown by executed code; a round-4 revision recorded as applied that was not. Flags 6, 7 and 38 extended |
+| 21:28 | d89b457 | 1–42 | the audit: every flag re-checked by independent agents told to refute it, two for each of the eleven mathematical flags (one defending the source, one recomputing from scratch) and one for each of the rest. Result: 32 confirmed, 8 depend on a convention or a reading the documents support, 2 unclear because they rest on model memory, none refuted. Flag 39 reworded: the documents state two actions of ρ on the spin-2 sector, not none |
+
+The flags file dates the audit 2026-10-22, and its commit carries 2026-10-21. The verdicts are in `review/wiki-build-checks/flag-audit.json`, and the auditors' scripts and outputs in `review/wiki-build-checks/audit/`. Each flag is listed with its verdict and the page that discusses it under [pending rulings](/wiki/status/open-problems#pending-rulings).
 
 ## Pending
 
 - **The queue.** Since 2026-10-20 (commit 6606734) the root `CLAUDE.md` gives it as "HANDOFF §8 items 5–7: the partially-massless comparison, the † literature battery, the phase-space-diameter note", then an optional round-5 review of the toy note, "but only before any external use" ([the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison); [the † literature battery](/wiki/method/literature-battery); [the phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter)). How the queue changed since the handoff is set out on [CLAUDE.md and the README](/wiki/history/documents/project-instructions) and [open problems and the queue](/wiki/status/open-problems).
 - **Submission.** #11 is "not for submission until the † audit (open item 10) completes" (#11, closing provenance note).
+- **Rulings on the flags.** All 42 items of `review/wiki-build-flags.md` await Paul's rulings, each with the audit's verdict beside it ([pending rulings](/wiki/status/open-problems#pending-rulings)).
 - **DESI Data Release 3 (DR3)**, "expected late 2026" (`HANDOFF.md` §2). The handoff's kill conditions: a robust constant w = −1 kills the [τ sector](/wiki/cosmology/dark-energy/tau-quintessence), a robust intrinsic w < −1 kills the framework outright, and continued thawing keeps it alive ([row 4](/wiki/predictions/dark-energy-drift)).
 
 ## What the record does not date
@@ -199,6 +220,7 @@ The build is recorded in the section 'Build state' of `wiki/CLAUDE.md` and in th
 - Review rounds 1 and 2 and their pre-registrations.
 - The runs of the round-3 and round-4 referees, beyond the commits that bracket them and the round-4 notes' "Started 2026-10-19".
 - The wiki's design round, recorded only as 2026-10-20, and the reboot recorded in the build state of 16:31.
+- The runs of the flags' auditors, beyond the commit that records them (d89b457); the flags file dates the audit 2026-10-22, and the commit carries 2026-10-21.
 
 ## Sources
 
@@ -216,6 +238,7 @@ The build is recorded in the section 'Build state' of `wiki/CLAUDE.md` and in th
 - `notes/broken-born-program-v1.md` header — v1.0
 - `popsci/angle-of-the-mirror.md` subtitle — "a week"
 - `README.md` — the initial commit's description
-- `wiki/CLAUDE.md` 'Build state' — the wiki's design round, breadth pass and depth waves
-- `review/wiki-build-flags.md` — the flags file, items 1–34
-- `git log` — commit hashes, subjects and times (local, −0700); the messages of 96f58da and 5b6efaa — the gate failing by design after round 3 and passing again
+- `wiki/CLAUDE.md` 'Build state', retired at b03903c (its last version is at 51ede3e) — the wiki's design round, breadth pass, depth waves and the plan of the final pass; 'Keeping it current' — the build recorded on this page
+- `review/wiki-build-flags.md` — the flags file, items 1–42, and the audit's date, method and result
+- `review/wiki-build-checks/flag-audit.json` — the audit's verdicts; `review/wiki-build-checks/README.md` — the executed checks and the auditors' folder
+- `git log` — commit hashes, subjects and times (local, −0700); the messages of 96f58da and 5b6efaa — the gate failing by design after round 3 and passing again; of 2c6f857 — the underscore rule and the eight corrected links; of d89b457 — the audit's result and the rewording of flag 39
