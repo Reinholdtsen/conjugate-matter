@@ -148,7 +148,8 @@ Added by the wiki from model memory (†):
 - [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) — the h = 0 run as the theorem's lattice check.
 - [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — the theorem's reach in model I.
 - [Quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration) — a finite-dimensional order-parameter sector, as in 0+1.
-- [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) and [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence) — the toy's polarization angle, τ's circle, cannot order in 1+1 without a potential.
+- [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) — in the toy, τ's circle cannot order in 1+1 without a potential.
+- [τ: hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence) — why the toy adds a ρ-preserving potential on τ's circle.
 
 ## Sources
 
