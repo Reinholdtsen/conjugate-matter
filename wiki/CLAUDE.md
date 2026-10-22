@@ -216,6 +216,14 @@ Rules on wording:
 - **No moralizing, no hype, no detective-story reveals.** Words like "remarkably",
   "crucially", "the culprit" and "it turns out" do not belong. Show significance as a
   consequence: the number, the failure it causes, what it makes possible.
+- **Negative results are stated, not celebrated.** Report a dead or rejected claim as a
+  fact: what was claimed, what killed it, what survives. Do not draw lessons from it about
+  the program's honesty, rigor or skepticism, and do not present a death as a credit to the
+  method. Phrases such as "the machinery working", "a theory that cannot lose bets cannot
+  win them", "killed by its own mathematics" used as praise, and "genuine science" do not
+  belong in the wiki's voice. Where a source says such things (#11 §9 and §15, #10), quote it
+  only on the page that reports that document's self-assessment, attributed and without
+  endorsement.
 - **Analogies.** Wave and Fourier analogies work. Position and momentum relate as a
   waveform and its spectrum, and this is literal, since the Fourier transform implements
   ρ. Ball-rolling metaphors do not work, and neither do ledger or bookkeeping metaphors.
