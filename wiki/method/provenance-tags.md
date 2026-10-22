@@ -18,6 +18,7 @@ sources:
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §11"
   - "papers/conjugate-special-relativity.md header"
+  - "papers/conjugate-special-relativity.md §1, §2, §5, §6"
   - "papers/reciprocity-toy-models.md header"
   - "notes/toy-lagrangian.md 'Success criteria'"
   - "review/round3-adjudication.md 'Rulings'"
@@ -31,7 +32,7 @@ sources:
 
 ## Why the program tags its claims
 
-Checkpoint #11 gives the reason in its methodological preface: "AI-generated physics has a known failure mode — fluent confabulation — so every claim here carries a tag saying where it came from" (§2). A derivation drafted by an AI reads with the same fluency whether it is correct, borrowed from the literature without credit, or wrong. A tag does not make a claim true; it says what kind of support the claim has, so that a reader knows which statements rest on the program's own reasoning, which on published work, which on assumption, and which on executed code. Paul, who cannot check most of the physics himself, relies on the tags for exactly this ([the collaboration](/wiki/method/collaboration)). The rule in the root `CLAUDE.md` and `HANDOFF.md` §5 is "Tag every claim".
+[Checkpoint #11](/wiki/history/documents/checkpoint) gives the reason in its methodological preface: "AI-generated physics has a known failure mode — fluent confabulation — so every claim here carries a tag saying where it came from" (§2). A derivation drafted by an AI reads with the same fluency whether it is correct, borrowed from the literature without credit, or wrong. A tag does not make a claim true; it says what kind of support the claim has, so that a reader knows which statements rest on the program's own reasoning, which on published work, which on assumption, and which on executed code. Paul, who cannot check most of the physics himself, relies on the tags for exactly this ([the collaboration](/wiki/method/collaboration)). The rule in the root `CLAUDE.md` and `HANDOFF.md` §5 is "Tag every claim".
 
 ## The tags and the marks
 
@@ -94,7 +95,7 @@ Each page copies its sources' tags exactly and never upgrades one; an explanatio
 - `review/wiki-build-flags.md` items 16, 29, 30 — the unscripted ✓ and two of #13's tags
 - `notes/broken-born-theory.md` §0 — the v0.1 tags and scope statement
 - `notes/broken-born-program-v1.md` header, §8 and §11 — the v1 tags, a citation flag, the [T — verify] note
-- `papers/conjugate-special-relativity.md` header — #13's tag set and qualified forms
+- `papers/conjugate-special-relativity.md` header — #13's tag set; §1, §2, §5, §6 — its qualified forms and the three tags that name their basis
 - `papers/reciprocity-toy-models.md` header — an untagged manuscript for blind review
 - `notes/toy-lagrangian.md` 'Success criteria' — S0, the prior-art lesson
 - `wiki/CLAUDE.md` 'The wiki is derivative' — how the wiki carries tags
