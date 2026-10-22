@@ -38,7 +38,7 @@ sources:
 
 ## The observable [T]
 
-A magnetic monopole is a particle that carries magnetic charge alone ([magnetic monopoles](/wiki/electric-magnetic-duality/monopoles)). Dirac showed that a single monopole anywhere would require every electric charge to be a multiple of a basic unit, and that the magnetic charge is then large, inversely proportional to the electric one ([Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization), DSZ being Dirac–Schwinger–Zwanziger). Grand unified theories, in which the forces of the Standard Model merge at high energy, contain monopoles as solitons of the gauge and Higgs fields, with masses near the unification scale ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)).
+A magnetic monopole is a particle that carries magnetic charge alone ([magnetic monopoles](/wiki/electric-magnetic-duality/monopoles)). Dirac showed that a single monopole anywhere would require every electric charge to be a multiple of a basic unit, and that the magnetic charge is then large, inversely proportional to the electric one ([Dirac quantization and the DSZ pairing](/wiki/electric-magnetic-duality/monopoles/dirac-quantization), DSZ being Dirac–Schwinger–Zwanziger). Grand unified theories, in which the forces of the Standard Model merge at high energy, contain monopoles as solitons of the gauge and Higgs fields, with masses set by the unification scale ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)).
 
 Two kinds of observation bear on them ([monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches)):
 
