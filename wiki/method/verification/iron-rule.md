@@ -83,7 +83,7 @@ Flag 28 in `review/wiki-build-flags.md` reads it as: "The number 34 is right; th
 - **Arithmetic, not physics.** Round 3 found a wrong physical input in a manuscript every number of which had been computed by a gated script: "The failure mode has moved. In rounds 1–2 it was the referee's unaided arithmetic. In round 3 it is that **the author's verification checks the author's model**: a wrong physics input passes a gate that tests only arithmetic." (`review/round3-adjudication.md`, 'Pre-registration scored'). See [Verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model) and [Independent anchors](/wiki/method/verification/independent-anchors).
 - **Statistics.** A simulation's number can be computed exactly and still be a fluctuation; round 4 added the [error-bar rule](/wiki/method/verification/monte-carlo-error-bars).
 - **Numbers without a script.** Not every number in the record has one. `HANDOFF.md` §2 marks the Debt-3 figure "criterion fails by 10²⁸–10³¹" with ✓, yet no script in `verify/` computes it (flag 16); the gate page lists the other gaps ([what is not gated](/wiki/method/verification/the-gate#what-is-not-gated)).
-- **"Kept in `verify/`."** The adjudicators' arbitration scripts are kept in `review/`, beside the rulings, and the gate does not run them; their corrected results are carried into `verify/` instead.
+- **"Kept in `verify/`."** The adjudicators' arbitration scripts are kept in `review/`, beside the rulings, and the gate does not run them; their corrected results are carried into `verify/` instead. The root `CLAUDE.md`'s layout and the header of `scripts/check.sh` say that arbitration scripts go in `verify/` (flag 38 in `review/wiki-build-flags.md`).
 
 ## Sources
 

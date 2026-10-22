@@ -2,7 +2,7 @@
 title: "Obituary: the naive ρ-preserving potential"
 weight: 40
 status: dead
-description: "−μ[Tr(K K_ref)]² pinned model I's polarization while H was frozen, but with H dynamical it falls to −8.9 × 10⁶ μ along a boost family and its intended vacuum is a saddle; round 4's findings F1–F2, kept as the counterexample."
+description: "−μ[Tr(K K_ref)]² pinned model I's polarization in the frozen-H reduction, but with H dynamical it falls to −8.9 × 10⁶ μ along a boost family and its intended vacuum is a saddle; round 4's findings F1–F2, kept as the counterexample."
 sources:
   - "papers/reciprocity-toy-models.md §4"
   - "papers/reciprocity-toy-models.md v1 (commit d9a06ac) §4, §6"
@@ -27,9 +27,11 @@ sources:
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
   - "papers/broken-born-checkpoint-v2.md §10"
   - "CLAUDE.md 'Method'"
+  - "review/wiki-build-flags.md item 40"
+  - "review/wiki-build-checks/frozen_h_naive.py"
 ---
 
-*The naive ρ-preserving potential was the term −μ[Tr(K K_ref)]², added to [model I](/wiki/symmetry-breaking/toy-models/coset-model) so that its circle of vacua would reduce to two and the breaking of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) could survive in two dimensions. It is symmetric under ρ and gives the two intended vacua while the metric H is held fixed. Once H is allowed to vary it is unbounded below: along a family of boosted configurations the compatibility term stays at zero while the potential falls without limit, and the intended vacuum is a saddle. The worklog's first pass of [criterion S4](/wiki/symmetry-breaking/toy-models/success-criteria) and the first version of the toy-model note rested on it. The round-4 referee found the defect, the adjudication upheld it, and the potential survives only as the counterexample that the [bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) answers.*
+*The naive ρ-preserving potential was the term −μ[Tr(K K_ref)]², added to [model I](/wiki/symmetry-breaking/toy-models/coset-model) so that its circle of vacua would reduce to two and the breaking of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) could survive in two dimensions. It is symmetric under ρ and gives the two intended vacua in the frozen-H reduction, where the metric H is held at 1 and K stays on its circle of angles. Once H is allowed to vary it is unbounded below: along a family of boosted configurations the compatibility term stays at zero while the potential falls without limit, and the intended vacuum is a saddle. The worklog's first pass of [criterion S4](/wiki/symmetry-breaking/toy-models/success-criteria) and the first version of the toy-model note rested on it. The round-4 referee found the defect, the adjudication upheld it, and the potential survives only as the counterexample that the [bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) answers.*
 
 **Status:** Dead as a stabilizing potential; kept as the counterexample — untagged in the sources — killed by round-4 findings F1 and F2, both upheld ([review round 4](/wiki/method/review/round-4)); the runaway and the saddle are checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Listed in [the graveyard](/wiki/status/graveyard).
 
@@ -58,6 +60,8 @@ Its summary listed among the results "Ising-class breaking of ρ in model I in 1
 ## How it was tested
 
 Only with H frozen at 1. The first version asserted "At H = 1 the polarization field is φ, with XY stiffness (f_K²/2)(∂φ)²" (v1 §4), and the worklog's S4 test was a lattice simulation of that angle alone: "Reduction: at H = 1 the polarization field is the angle φ of K(φ), and ρ acts as φ → φ + π. The kinetic term is an XY stiffness." ('Chunk 3 results'; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). The simulation found order at low temperature, and the worklog recorded "S4 passes only with the τ-type potential [V]". Nothing checked the potential with H free to move. The adjudicator: "I should have caught F1 myself: I checked the potential only at frozen H." (`review/round4-adjudication.md`, ruling F2).
+
+The reduction also kept K on its circle K(φ). Flag 40 in `review/wiki-build-flags.md` records what happens when only H is held at 1 and K is free on its hyperboloid: at the couplings [the gate](/wiki/method/verification/the-gate) uses, λ = μ = 1, the potential is unbounded below and K_ref is a saddle, with the Hessian eigenvalue −6; it is bounded at H = 1 only on the circle K(φ) or for λ ≥ 4μ (`review/wiki-build-checks/frozen_h_naive.py`).
 
 ## Why it failed
 
@@ -119,7 +123,7 @@ The lattice numbers did not fall with it. At H = 1 the naive form and V_b differ
 - **The repair.** The referee proposed a normalized form, version 2 adopted it, and it is bounded and stable with H dynamical: [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential). At H = 1 it keeps the naive form's shape, −(μ/2)(1 + cos 2φ) against −2μ(1 + cos 2φ).
 - **The simulation, restated.** The ordered ℤ₂ phase stands as a result about [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), not about model I with H dynamical.
 - **A requirement in #11.** Checkpoint #11 §10 now says of the ρ-preserving potential: "That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves".
-- **A rule.** The root `CLAUDE.md`, Method: "When numerics run on a reduced model (fields frozen), check the unreduced model's stability — boundedness, and the Hessian with all fields dynamical — and say in the text that it is a reduction. Round 4 found a potential that was bounded only at frozen H." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability); round-4 lesson 1).
+- **A rule.** The root `CLAUDE.md`, Method: "When numerics run on a reduced model (fields frozen), check the unreduced model's stability — boundedness, and the Hessian with all fields dynamical — and say in the text that it is a reduction. Round 4 found a potential that was bounded only at frozen H." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability); round-4 lesson 1). The last sentence holds for the frozen-H reduction, in which K also stays on its circle, and not if only H is held fixed; flag 40 in `review/wiki-build-flags.md` records the point, and its audit rated it as depending on that reading.
 
 Where any ρ-preserving potential comes from is [open](/wiki/symmetry-breaking/rho-preserving-potential). The naive form is listed in [the graveyard](/wiki/status/graveyard).
 
@@ -136,3 +140,4 @@ Where any ρ-preserving potential comes from is [open](/wiki/symmetry-breaking/r
 - `notes/toy-lagrangian.md` 'Success criteria', 'Predictions', 'Chunk 1 results', 'Chunk 3 results', 'Assessment against the predictions' — criterion S4, the fallback, the S4 pass and the verdict that used it
 - `papers/broken-born-checkpoint-v2.md` §10 — the boundedness requirement
 - `CLAUDE.md` 'Method' — the reduced-model rule
+- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — the naive potential with only H held at 1, and the reading of "bounded only at frozen H"; the audit's verdict; awaiting Paul's ruling

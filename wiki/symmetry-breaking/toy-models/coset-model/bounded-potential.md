@@ -19,6 +19,8 @@ sources:
   - "review/round4/referee/out_fix_potential.txt"
   - "review/round4/referee/ref_fix_potential.py"
   - "CLAUDE.md 'Since the handoff'"
+  - "CLAUDE.md 'Method'"
+  - "review/wiki-build-flags.md item 40"
 ---
 
 *V_b is the repaired ρ-preserving potential of [model I](/wiki/symmetry-breaking/toy-models/coset-model): the [naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) divided by a normalizing factor, 2 Tr KᵀK, which keeps it between −μ and 0 for every real structure K. Like the naive form it is unchanged by [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ and by the flip K → −K, and it reduces the circle of real structures to the pair ±K_ref. Unlike the naive form, it leaves the vacuum a stable minimum when the metric H is free to vary: the boosted configurations along which the naive form fell without limit now cost energy. The round-4 referee proposed it, version 2 of the toy-model note adopted it, and checkpoint #11 records [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) as met with it, in the referees' wording. One flat direction remains that no symmetry protects, and where such a potential comes from is not derived.*
@@ -59,7 +61,7 @@ What V_b does not keep matters as much. The naive form is invariant under a larg
 
 ## Stability with H dynamical
 
-The redone analysis, at λ = μ = 1 in the coordinates of `verify/toy_coset.py`: "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236." (§4). The Hessian is the matrix of second derivatives of the full potential, compatibility term included, at the vacuum, with all four field directions free. No eigenvalue is negative, so the energy does not decrease in any direction away from the vacuum. The gate prints [−0., 0.7639, 2., 5.2361] and passes "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero"; the adjudicator's run gives the same list (`review/round4/adjudicator/arb.out`). At the same point and in the same coordinates the naive form has the eigenvalue −6.47 ([the obituary](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#f2-the-intended-vacuum-is-a-saddle)).
+The redone analysis, at λ = μ = 1 in the coordinates of `verify/toy_coset.py`: "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236." (§4). The Hessian is the matrix of second derivatives of the full potential, compatibility term included, at the vacuum, with all four field directions free. No eigenvalue is negative, so the energy does not decrease in any direction away from the vacuum. The gate prints [−0., 0.7639, 2., 5.2361] and passes "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero"; the adjudicator's run gives the same list (`review/round4/adjudicator/arb.out`). At the same point and in the same coordinates the naive form has the eigenvalue −6.47 ([the obituary](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#f2-the-intended-vacuum-is-a-saddle)). Flag 40 in `review/wiki-build-flags.md` adds that the naive form fails even with H held at 1 if K is free on its hyperboloid: at λ = μ = 1 it is then unbounded below, with a frozen-H Hessian eigenvalue of −6, and it is bounded at H = 1 only on the circle K(φ) or for λ ≥ 4μ. The root `CLAUDE.md`'s "bounded only at frozen H" therefore holds for the frozen-H reduction, which keeps K on its circle, and the flag's audit rated it as depending on that reading. V_b's bound, −μ ≤ V_b ≤ 0, holds for every K.
 
 Along the boost family on which the naive form fell without limit, V_b now rises. The family is H = SᵀS, K = S⁻¹K₀S with S(t) = [[cosh t, sinh t], [sinh t, cosh t]]:
 
@@ -110,4 +112,5 @@ What it puts in by hand is K_ref up to sign: an unordered pair of axes. The refe
 - `review/round4/adjudicator/arb.out` — the adjudicator's Hessian and boost-family values
 - `review/round4/referee/audit-notes.md` Step 3 — the referee's proposal and its caveat about the residual boosts; the axis pair fixed by hand
 - `review/round4/referee/out_fix_potential.txt`, `review/round4/referee/ref_fix_potential.py` — the referee's sampled bounds, invariance and closed form on the runaway family
-- `CLAUDE.md` 'Since the handoff' — the derivation listed as an open end
+- `CLAUDE.md` 'Since the handoff' — the derivation listed as an open end; 'Method' — "bounded only at frozen H"
+- `review/wiki-build-flags.md` item 40 — the naive form with only H held at 1, and the audit's verdict on "bounded only at frozen H"; awaiting Paul's ruling

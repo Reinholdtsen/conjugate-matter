@@ -22,11 +22,12 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
   - "notes/toy-lagrangian.md 'Write-up and review'"
+  - "review/wiki-build-flags.md items 11, 41, 42"
 ---
 
 *Quantum restoration is the result that the classical breaking found in the complex [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) does not survive quantization. The vacua form a circle labelled by the relative phase β of two condensed oscillator levels, and an exact symmetry turns the circle at no cost in action, so the quantum theory weights every value of β equally. A spontaneous choice can still survive in a system large enough that a vanishingly small bias, acting over its whole volume, pins it. This condensate occupies two oscillator levels and is a localized lump, so it supplies no such volume factor. The quantum average of the polarization is therefore zero, and criterion S4, survival of the breaking under quantum fluctuations ([success criteria](/wiki/symmetry-breaking/toy-models/success-criteria)), fails for this route. Round 4 confirmed the conclusion, asked for the argument to be restated on these two grounds, and added that the bare mass must be renormalized as the truncation grows. The comparison with an exactly solved related model, the natural independent check, has not been made.*
 
-**Status:** Alive, a negative result — tagged [D] in the worklog ("S4 fails, by an exact argument [D]"). Its premise, the exact phase symmetry, is gated in `verify/toy_gw.py`, as is the logarithmic tadpole ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). The referee of [review round 4](/wiki/method/review/round-4) confirmed the conclusion "in substance" and found the phase decoupling "stronger than stated"; version 2 restates the argument. One step is "argued against, not proven", and the exact-solution comparison is open.
+**Status:** Alive, a negative result — tagged [D] in the worklog ("S4 fails, by an exact argument [D]"). Its premise, the exact phase symmetry, is gated in `verify/toy_gw.py`, as is the logarithmic tadpole ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)); no script computes the restoration itself, although the note's §6 lists it under "Shown (each by executed code)" (flag 41 in `review/wiki-build-flags.md`). The referee of [review round 4](/wiki/method/review/round-4) confirmed the conclusion "in substance" and found the phase decoupling "stronger than stated"; version 2 restates the argument. One step is "argued against, not proven", and the exact-solution comparison is open.
 
 ## The claim
 
@@ -75,7 +76,7 @@ The worklog's verdict on the route: "**Net: chunk 2's classical breaking of the 
 
 The first version of the note (commit d9a06ac, §4) argued that β "is the orbit of an exact continuous symmetry", that "nothing couples β across space", and that therefore "⟨Δ⟩ = 0 exactly" at every truncation. The referee confirmed the conclusion and moved its weight onto the two steps above: "Correct conclusion (no [spontaneous symmetry breaking]), but the strongest reason is the exact U(1)^N x U(1)^N invariance (every condensate phase decoupled) plus the absence of a volume factor (the condensate is a localised Schwartz-class lump)." (audit notes, Step 3). "Conclusion CONFIRMED in substance; argument should be restated." (Step 2(c)).
 
-The adjudication's revision 4: "restate the restoration argument (exact independence of the condensate phases, no volume factor), add the 2 ln N mass renormalization, and compare with Langmann–Szabo–Zarembo." Version 2 restated the argument and added the mass renormalization, with the coefficient written ln N (caveat 1); it did not make the comparison (the open section below).
+The adjudication's revision 4: "restate the restoration argument (exact independence of the condensate phases, no volume factor), add the 2 ln N mass renormalization, and compare with Langmann–Szabo–Zarembo." Version 2 restated the argument and added the mass renormalization, with the coefficient written ln N (caveat 1); it did not make the comparison (the open section below). The adjudication and the toy worklog nevertheless record every accepted revision as applied (flag 42 in `review/wiki-build-flags.md`).
 
 The pre-registration had named this argument the first runner-up weakest link: "Model II's quantum-restoration argument. The tunnelling step is argued, not proven, and a referee may raise large-N matrix-model transitions or noncommutative nonlocality as ways around 'nothing couples β across space'." (`review/round4-preregistration.md`; [pre-registration](/wiki/method/review/pre-registration)). The adjudication scored the outcome "Restoration conclusion confirmed but must be restated (F6, [Langmann–Szabo–Zarembo])", one of three runner-ups scored "Partial on all three" ('Pre-registration scored').
 
@@ -96,7 +97,7 @@ The sources disagree on the coefficient, and no document reconciles them:
 - **ln N**: version 2 of the note ("grows as ln N (it is a harmonic sum)"), the worklog ("the restoration argument restated, with the ln N tadpole", 'Write-up and review') and the gate, which sums one series, Σ_{k<N} 1/(k+1), with G₀ₖ = 1/(k+1).
 - **2 ln N**: the referee and the adjudication (F6, "the 2 ln N mass renormalization"; revision 4), from T₀(N) = Σ_k (G₀ₖ + Gₖ₀), a sum of two series.
 
-Version 2 is the higher-ranked statement, and both readings agree that the growth is logarithmic and that the conclusion stands (flag 11 in `review/wiki-build-flags.md`; [source conflicts](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)).
+Version 2 is the higher-ranked statement, and both readings agree that the growth is logarithmic and that the conclusion stands (flag 11 in `review/wiki-build-flags.md`; [source conflicts](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)). The flag's audit found the difference to be one of normalization: the level-0 tadpole holds two equal harmonic sums, Σ_k G₀ₖ and Σ_k Gₖ₀, so their total grows as 2 ln N and either one as ln N. It rated the flag as depending on a convention, not as an error.
 
 ## Caveat 2: a potential on β is argued against, not proven
 
@@ -110,7 +111,7 @@ Model II was tried first because its own vacuum might select position or momentu
 
 ## Open: the comparison with the exact solution
 
-"The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Ref. [8] is Langmann, Szabo and Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces" (hep-th/0308043; [what the literature had studied](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory#what-the-literature-had-studied)). The round-4 referee found it as omitted prior work: an "exact solution of the complex model at a special self-dual point (U(infty) degeneracies)", "Directly relevant to Sec. 4 restoration claim" (audit notes, Step 1). Revision 4 asked for the comparison; version 2 cites the paper and reports the comparison as not done. The item is tracked with the other open ends at [open problems](/wiki/status/open-problems).
+"The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Ref. [8] is Langmann, Szabo and Zarembo, "Exact solution of quantum field theory on noncommutative phase spaces" (hep-th/0308043; [what the literature had studied](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory#what-the-literature-had-studied)). The round-4 referee found it as omitted prior work: an "exact solution of the complex model at a special self-dual point (U(infty) degeneracies)", "Directly relevant to Sec. 4 restoration claim" (audit notes, Step 1). Revision 4 asked for the comparison; version 2 cites the paper and reports the comparison as not done, while the adjudication and the worklog record every accepted revision as applied (flag 42 in `review/wiki-build-flags.md`). The item is tracked with the other open ends at [open problems](/wiki/status/open-problems).
 
 ## Superseded: "Increasing the truncation adds only massive levels"
 
@@ -130,3 +131,4 @@ Model II was tried first because its own vacuum might select position or momentu
 - `review/round4/referee/audit-notes.md` Step 1, Step 2(c), Step 3 — the Langmann–Szabo–Zarembo paper; "stronger than stated", the logical gap, the 2 ln N tadpole; the strongest reasons for the conclusion
 - `review/round4/referee/out_model2_quantum.txt` — the referee's tadpole sums and the N = 10 phase-invariance check
 - `notes/toy-lagrangian.md` 'Chunk 3 results', 'Assessment against the predictions', 'Write-up and review' — the original argument [D], its superseded "only massive levels" step and the argued tunnelling step; the S4 scorecard; the ln N restatement
+- `review/wiki-build-flags.md` item 11 — the tadpole's coefficient, a matter of normalization in the audit's finding; item 41 — the restoration listed as shown by executed code; item 42 — the revision recorded as applied that v2 did not carry out; all await Paul's ruling

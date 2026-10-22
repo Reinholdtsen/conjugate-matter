@@ -34,7 +34,7 @@ sources:
 | --- | --- | --- | --- |
 | Early universe | Standard G, N_eff | Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff | (Knob-bounded; CMB-S4 probes) |
 
-G is Newton's constant and G_eff the effective gravitational coupling in the expansion equation. N_eff is the effective number of neutrino species and ΔN_eff its departure from the standard value. CMB-S4 is a proposed ground-based experiment on the cosmic microwave background (CMB) [T]; whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`). The kill column is a parenthesis: the row names no result that would end a claim.
+G is Newton's constant and G_eff the effective gravitational coupling in the expansion equation. N_eff is the effective number of neutrino species and ΔN_eff its departure from the standard value. CMB-S4 is a proposed ground-based experiment on the cosmic microwave background (CMB) [T]; whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`, a lead from model memory that the flags' audit left unclear). The kill column is a parenthesis: the row names no result that would end a claim.
 
 ## The observables [T]
 

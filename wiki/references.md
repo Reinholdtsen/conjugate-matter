@@ -20,6 +20,8 @@ sources:
   - "review/round4-preregistration.md Predictions"
   - "review/wiki-build-flags.md items 7, 9, 18, 20, 21, 22, 26, 31, 32, 34"
   - "review/wiki-build-checks/quadratic_gap.py inputs"
+  - "review/wiki-build-checks/flag-audit.json flag 31"
+  - "review/wiki-build-checks/audit/vasileiou2013.txt"
   - "HANDOFF.md §1, §2, §3, §6, §8"
   - "CLAUDE.md opening"
   - "notes/broken-born-theory.md §2, §4, §7, §8, §9, §11, addenda v0.4–v0.6"
@@ -593,10 +595,10 @@ The round-3 referee listed constraints #14 had omitted, with literature it verif
 
 The lab notebook and #13 cite the gamma-ray-burst bounds of the Fermi Large Area Telescope as [T] with no reference ([named without a reference](#named-without-a-reference)).
 
-- **Vasileiou et al. 2013.** "Vasileiou et al. 2013", named with the gamma-ray burst its bound comes from in `review/wiki-build-checks/quadratic_gap.py`; no other details are given.
-  - Marks: † in the flags file (item 31) and in the check's inputs, "from model memory (†), not from any program source".
-  - Cited for: A quadratic-dispersion lower limit from the Fermi Large Area Telescope (LAT), behind flag 31's lead that #1 §4's "~10 orders" may be off; the flag says to verify the bound before acting.
-  - Cited on: no wiki page; `review/wiki-build-flags.md` item 31 and `review/wiki-build-checks/quadratic_gap.py` only.
+- **Vasileiou et al. 2013.** V. Vasileiou et al., "Constraints on Lorentz Invariance Violation from Fermi-Large Area Telescope Observations of Gamma-Ray Bursts," Phys. Rev. D 87, 122001 (2013), arXiv:1305.3463, as the flags' audit retrieved it (`review/wiki-build-checks/flag-audit.json`, flag 31; the text is kept as `review/wiki-build-checks/audit/vasileiou2013.txt`). `review/wiki-build-checks/quadratic_gap.py` names it only as "Vasileiou et al. 2013", with the gamma-ray burst its bound comes from.
+  - Marks: † in the flags file's item 31 and in the check's inputs, "from model memory (†), not from any program source"; [S] in the audit, which retrieved the paper and verified the bound, E_QG,2 > 1.3×10¹¹ GeV.
+  - Cited for: A quadratic-dispersion lower limit from the Fermi Large Area Telescope (LAT), behind flag 31's lead that #1 §4's "~10 orders" may be off.
+  - Cited on: [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion); `review/wiki-build-flags.md` item 31 and `review/wiki-build-checks/quadratic_gap.py`.
 
 Added by the wiki from model memory (†), cited by no program document:
 
@@ -631,10 +633,10 @@ The documents name the following literature, or observations, without citing any
 
 The verifiers of the wiki build compared every page with its sources and recorded suspected errors in the source documents in `review/wiki-build-flags.md`, each awaiting Paul's ruling; no page corrects a source. These items concern citations; each is also noted at its entry above.
 
-- **Flag 20: #11's [23]†, checked by live search.** A verifier searched for the entry and found that it pairs two papers. The title and journal reference, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055, belong together and are arXiv:1604.08564; the arXiv number #11 gives, arXiv:1607.03497, is the companion paper "Heavy spin-2 Dark Matter". The flag is filed "For the † battery (OP10)", and the entry keeps its †. It is the only † reference that the flags file records as checked by live search during the build. See [Babichev et al.](#massive-and-bimetric-gravity) and [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter#the-reference).
+- **Flag 20: #11's [23]†, checked by live search.** A verifier searched for the entry and found that it pairs two papers. The title and journal reference, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055, belong together and are arXiv:1604.08564; the arXiv number #11 gives, arXiv:1607.03497, is the companion paper "Heavy spin-2 Dark Matter". The flag is filed "For the † battery (OP10)", and the entry keeps its †. It was the only † reference that the flags file recorded as checked by live search during the build; the flags' audit later retrieved a second, the Fermi Large Area Telescope paper behind flag 31. See [Babichev et al.](#massive-and-bimetric-gravity) and [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter#the-reference).
 - **Flag 9: #11's [24][S].** The entry has no authors, and its title "may be a description rather than the paper's title". Being [S], it falls outside the † battery.
 - **Flag 26: #11's [21][S].** A live search by one of the build's writers found that Data Release 2 already covers three years of operations, which bears on the handoff's "three-year data" for Data Release 3, not on the citation.
-- **Flags 18, 31 and 32: leads from model memory.** The usual dating of Sakharov's conditions (flag 18), a Fermi-LAT quadratic bound attributed to Vasileiou et al. 2013 (flag 31) and the funding status of CMB-S4 (flag 32) are themselves † and unchecked.
+- **Flags 18, 31 and 32: leads from model memory.** The usual dating of Sakharov's conditions (flag 18) and the funding status of CMB-S4 (flag 32) are themselves † and unchecked; the flags' audit made no live check of either and rated both unclear. The Fermi-LAT quadratic bound attributed to Vasileiou et al. 2013 (flag 31) was † when flagged; the audit retrieved the paper by live search and verified the bound [S], and it rated the flag itself as depending on how the "~10 orders" are counted.
 - **Flags 21, 22 and 34: numbers taken from the literature.** Ruling 3's overproduction range joins Liveoak–Maharana–Wells's analytic estimate to the referee's integration (flag 21); Planck's N_eff interval is asymmetric where #14 writes ± 0.34 (flag 22); and the constants of `verify/soliton_obituary.py`, described as "PDG and Planck 2018 values", are typed in, not retrieved (flag 34).
 - **Flag 7: a claim cited to [9†, 10†, 11†].** #11 §7.1's "The unique consistent structure for massive spin-2" drops the word "known" from calc note #6 §3; the flag concerns the wording, not the references.
 
@@ -652,6 +654,7 @@ The verifiers of the wiki build compared every page with its sources and recorde
 - `review/round3-preregistration.md` and `review/round4-preregistration.md` 'Predictions' — the forecast citation problems
 - `review/round4/referee/audit-notes.md` Steps 1 and 2(b), and `review/round4-adjudication.md` 'Rulings' and 'Revisions for v2 of the note' — the round-4 citation audit, in version-1 numbering, and the references added in response
 - `review/wiki-build-flags.md` items 7, 9, 18, 20, 21, 22, 26, 31, 32, 34, and `review/wiki-build-checks/quadratic_gap.py` — the wiki build's citation findings and leads
+- `review/wiki-build-checks/flag-audit.json` (flag 31) and `review/wiki-build-checks/audit/vasileiou2013.txt` — the audit's live retrieval of the Fermi Large Area Telescope paper and its bound
 - `HANDOFF.md` §1, §2, §3, §6, §8 and the root `CLAUDE.md` — the references named without marks, the count for version 2.0, the inverted Preskill citation, the queue item on the partially massless comparison, the program's Lakatosian self-description
 - `notes/broken-born-theory.md` and `notes/broken-born-program-v1.md` — the [T]-tagged inline citations of #1 and #9
 - `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md`, `notes/debt3c-ufd-endpoint.md`, `notes/debt1a-geometric-core.md`, `notes/debt1a-ii-X-classification.md`, `notes/debt1a-iii-tuning-test.md`, `notes/debt1a-iv-beta-coefficients.md` — the calc notes' inline citations and named literature

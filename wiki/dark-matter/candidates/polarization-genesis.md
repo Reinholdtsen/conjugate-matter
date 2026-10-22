@@ -90,7 +90,7 @@ The sketch needs the nine heavy moduli to exist as fields and to decay. [Calc no
 
 ## A date to check
 
-The notebook's "the same maturity baryogenesis had in 1966" is not checked against a source. Sakharov's conditions are usually dated 1967 (from model memory, †); the register entry is on [references](/wiki/references), and the discrepancy awaits a ruling as `review/wiki-build-flags.md` item 18.
+The notebook's "the same maturity baryogenesis had in 1966" is not checked against a source. Sakharov's conditions are usually dated 1967 (from model memory, †); the register entry is on [references](/wiki/references), and the discrepancy awaits a ruling as `review/wiki-build-flags.md` item 18. The flags' audit rated the item unclear: no repository file dates Sakharov's conditions independently, so under the † rule the usual date stays unverified.
 
 ## Sources
 

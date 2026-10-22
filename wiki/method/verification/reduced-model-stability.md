@@ -17,8 +17,9 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 3 results (2026-10-19): S4, quantum stability'"
   - "verify/toy_coset.py"
   - "verify/toy_s4.py"
-  - "review/wiki-build-flags.md item 12"
+  - "review/wiki-build-flags.md items 12, 40"
   - "review/wiki-build-checks/squeeze_check.py"
+  - "review/wiki-build-checks/frozen_h_naive.py"
 ---
 
 *The reduced-model stability rule says that when a calculation simplifies a model by holding some of its fields fixed, the full model's stability must still be checked with every field free to move, and the text must say that the calculation used a reduction. Review round 4 supplied the reason: the potential first used in the program's [coset toy model](/wiki/symmetry-breaking/toy-models/coset-model) had been checked only with the phase-space metric H held fixed, and it is unbounded below once H is allowed to vary, so the model's intended vacuum was a saddle. The repaired potential was checked with all fields dynamical, and the toy-model note and its lattice script now name the simulation as a frozen-H reduction.*
@@ -28,6 +29,8 @@ sources:
 ## The rule
 
 Root `CLAUDE.md`, 'Method': "When numerics run on a reduced model (fields frozen), check the unreduced model's stability — boundedness, and the Hessian with all fields dynamical — and say in the text that it is a reduction. Round 4 found a potential that was bounded only at frozen H."
+
+The last sentence is right for the documents' frozen-H reduction, which holds H at 1 and also keeps the real structure K on its circle of compatible values K(φ). Read as holding H fixed alone, with K free, it is not: at the couplings λ = μ = 1 that `verify/toy_coset.py` uses, [the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) is then unbounded below and its intended vacuum is a saddle, with the frozen-H Hessian eigenvalue −6 (flag 40 in `review/wiki-build-flags.md`, check `review/wiki-build-checks/frozen_h_naive.py`). The flag's audit rated it as depending on that reading.
 
 Round-4 lesson 1, from which it comes: "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." (`review/round4-adjudication.md`).
 
@@ -114,3 +117,4 @@ The rule was satisfied for the classical vacuum, not for the simulation: the Mon
 - `notes/toy-lagrangian.md` 'Chunk 3 results (2026-10-19): S4, quantum stability' — the potential as first studied at H = 1
 - `verify/toy_coset.py` — the gated saddle, the stable minimum, the flat line; `verify/toy_s4.py` — the reduction stated in the script
 - `review/wiki-build-flags.md` item 12 and `review/wiki-build-checks/squeeze_check.py` with its `.out` — the zero mode is not a symmetry
+- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — the rule's last sentence read with only H held fixed, and the audit's verdict; awaiting Paul's ruling

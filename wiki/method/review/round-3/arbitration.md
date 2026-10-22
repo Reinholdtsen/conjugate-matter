@@ -196,7 +196,7 @@ PASS  100% at 146-158 GeV  [146.4-158.0]
 
 #11 §12 tags p ≈ 104, the closing mass and the overproduction [V] on the strength of these checks. Two flags in `review/wiki-build-flags.md` qualify the script's description of itself. Flag 33: it does not check every number the record quotes; the referee's numbers in rulings 3 and 4, ruling 6's figure and the surviving benchmark arithmetic are not among its checks. Flag 34: its docstring calls its constants "PDG and Planck 2018 values", but they are typed into the script, not retrieved ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)).
 
-The arbitration script itself stays in `review/round3/adjudicator/`. The gate, `scripts/check.sh`, runs a fixed list of `verify/` scripts and then the wiki check, and its header says "New arbitration and audit scripts in verify/ get added here"; the root `CLAUDE.md` 'Layout' says the same of `verify/`: "arbitration and audit scripts go here". Round 4's arbitration scripts also stayed in `review/`. No document reconciles the stated layout with where the scripts are ([the gate](/wiki/method/verification/the-gate)).
+The arbitration script itself stays in `review/round3/adjudicator/`. The gate, `scripts/check.sh`, runs a fixed list of `verify/` scripts and then the wiki check, and its header says "New arbitration and audit scripts in verify/ get added here"; the root `CLAUDE.md` 'Layout' says the same of `verify/`: "arbitration and audit scripts go here". Round 4's arbitration scripts also stayed in `review/`. No document reconciles the stated layout with where the scripts are ([the gate](/wiki/method/verification/the-gate); flag 38 in `review/wiki-build-flags.md`).
 
 ## Sources
 

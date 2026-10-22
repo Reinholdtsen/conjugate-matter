@@ -23,12 +23,12 @@ sources:
   - "CLAUDE.md 'Since the handoff (2026-10-19)'"
   - "review/round3-adjudication.md 'Decisions'"
   - "HANDOFF.md §8"
-  - "review/wiki-build-flags.md items 2, 10, 11, 12, 13"
+  - "review/wiki-build-flags.md items 2, 10, 11, 12, 13, 38, 42"
 ---
 
 *Review round 4 was the blind review of the toy-model note, `papers/reciprocity-toy-models.md`, which builds two explicit field theories in which Born reciprocity is a symmetry of the action and asks whether the lowest-energy state breaks it. A fresh referee that could execute code reproduced the note's algebra and most of its numerics, but found that the note's one claim of quantum symmetry breaking rested on a potential that is unbounded below once the field H is allowed to vary. It graded the note B, flawed but salvageable, and the author agreed; the pre-registered forecast had also been B, though it had placed the weakest link correctly and underestimated how serious it was. Every revision was accepted; version 2 of the note applied them on 2026-10-20, with three departures, and the round added two rules to the project's method.*
 
-**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (toy note v2 and #11 v2.2). A round-5 review is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
+**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (toy note v2 and #11 v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A round-5 review is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
 
 ## The manuscript under review
 
@@ -211,11 +211,13 @@ Version 2 departs from the list in three places:
 - the tadpole, ln N where the adjudication said 2 ln N (flag 11);
 - the Langmann–Szabo–Zarembo comparison, of which v2 says: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4).
 
+In the third, a requested step was not taken: revision 4 asked for the comparison, and v2 did not make it. The adjudication's heading nevertheless reads "all accepted; applied", and the worklog lists "v2 applies every accepted revision" (flag 42 in `review/wiki-build-flags.md`, confirmed by the flags' audit).
+
 The toy worklog records the outcome and the decision on a further round: "No round 5 for now. v2 fixes and narrows claims rather than adding new ones; the real-model lead is labelled as a lead." (`notes/toy-lagrangian.md`, 'Write-up and review'). #11 v2.2 §14 item 11 records the criterion as "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential", ending "Round-4 blind review: verdict B; v2 applies the accepted revisions."
 
 ## The round's files and the gate
 
-The record of the round is `review/round4-preregistration.md`, `review/round4-adjudication.md`, the referee's notes, scripts and outputs in `review/round4/referee/`, and the adjudicator's scripts and outputs in `review/round4/adjudicator/`. The arbitration scripts sit in `review/` and are not run by the gate; whether they belong in `verify/` is a conflict between the sources that no document resolves ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records)). Findings F1–F6 and the control run each have a check in the gate's toy scripts ([the toy-model scripts](/wiki/method/verification/toy-model-scripts); [the gate](/wiki/method/verification/the-gate)):
+The record of the round is `review/round4-preregistration.md`, `review/round4-adjudication.md`, the referee's notes, scripts and outputs in `review/round4/referee/`, and the adjudicator's scripts and outputs in `review/round4/adjudicator/`. The arbitration scripts sit in `review/` and are not run by the gate; whether they belong in `verify/` is a conflict between the sources that no document resolves ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records); flag 38 in `review/wiki-build-flags.md`). Findings F1–F6 and the control run each have a check in the gate's toy scripts ([the toy-model scripts](/wiki/method/verification/toy-model-scripts); [the gate](/wiki/method/verification/the-gate)):
 
 | Finding | Check | Script |
 | --- | --- | --- |
@@ -230,7 +232,7 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 
 - **The open ends of the toy work**, listed in root `CLAUDE.md`: a Monte Carlo with H dynamical; a derivation of the ρ-preserving potential; the strong form of matter locality; and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead." ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); [strong locality](/wiki/symmetry-breaking/strong-locality); [open problems and the queue](/wiki/status/open-problems)).
 - **Whether ρ's SO(2) breaks** in the coupled model, raised by the Mermin–Wagner ruling.
-- **The Langmann–Szabo–Zarembo comparison**, asked for by revision 4 and not carried out.
+- **The Langmann–Szabo–Zarembo comparison**, asked for by revision 4 and not carried out (flag 42).
 - **A round-5 review**, optional, "but only before any external use" (root `CLAUDE.md`).
 
 ## Sources
@@ -246,4 +248,4 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 - `CLAUDE.md` 'Since the handoff (2026-10-19)', 'Method (HANDOFF §5)' — the open ends, round 5 optional, the two lessons
 - `review/round3-adjudication.md` 'Decisions' (4) — why the toy Lagrangian came next
 - `HANDOFF.md` §8 item 4 — the toy Lagrangian as the gate to verdict A
-- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13 — suspected source errors bearing on this round
+- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13, 38, 42 — suspected source errors bearing on this round, among them where the arbitration scripts belong (38) and the revision recorded as applied that v2 did not carry out (42)

@@ -27,6 +27,7 @@ sources:
   - "review/round4-preregistration.md"
   - "review/round4-adjudication.md 'Pre-registration scored'"
   - "review/skeptic-review-console.html SYSTEM"
+  - "review/wiki-build-flags.md item 35"
 ---
 
 *The round-3 pre-registration is the forecast of the third blind review of the [soliton dark-matter manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14, written into `review/round3-preregistration.md` and committed on 2026-10-19 before the referee was dispatched, so that the forecast could not be fitted to the outcome. It predicted that the referee would grade version 3 B ("flawed but salvageable") with medium confidence, that the weakest link it named would be "the framework does no work", that no numerical indictment would survive, and that all 23 citations would resolve. The referee graded the manuscript C. The adjudication scored the verdict a miss, the first after two hits; the weakest link a miss on the referee's first choice and a hit on its second; the arithmetic a miss; and the citations a hit. The commit that recorded the forecast also stated it in its subject line, which the referee's environment displayed, so the round was less blind than intended, and forecasts have been kept out of commit subjects since.*
@@ -37,7 +38,7 @@ sources:
 
 A pre-registration, in this program, is a forecast of a review's outcome, written down and committed before the referee starts, and scored against the outcome afterwards ([pre-registration](/wiki/method/review/pre-registration)). The root `CLAUDE.md` makes it a rule: "Pre-register the expected verdict and weakest link before each review round." The round-3 file states its purpose in its first sentence: "Written and committed **before** the round-3 audit was dispatched, so the prediction cannot be fitted to the outcome."
 
-The purpose is calibration. Paul "cannot independently verify most of the technical physics and relies on the tags, the machine checks and pre-registration to tell sound results from confabulation" (root `CLAUDE.md`, 'Working with Paul'). A forecast scored afterwards measures how well the author judges its own work before an outside reader has seen it ([the calibration](/wiki/method/collaboration#the-calibration)). The handoff's record for the earlier rounds: "before each review round, the expected verdict and weakest link were written down in advance (scored 2-for-2 on verdicts)" (`HANDOFF.md` §5); the round-3 file repeats it, "Rounds 1 and 2 were pre-registered the same way and scored 2 for 2 on verdicts" ([review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
+The purpose is calibration. Paul "cannot independently verify most of the technical physics and relies on the tags, the machine checks and pre-registration to tell sound results from confabulation" (root `CLAUDE.md`, 'Working with Paul'). A forecast scored afterwards measures how well the author judges its own work before an outside reader has seen it ([the calibration](/wiki/method/collaboration#the-calibration)). The handoff's record for the earlier rounds: "before each review round, the expected verdict and weakest link were written down in advance (scored 2-for-2 on verdicts)" (`HANDOFF.md` §5); the round-3 file repeats it, "Rounds 1 and 2 were pre-registered the same way and scored 2 for 2 on verdicts (HANDOFF §6)" ([review rounds 1 and 2](/wiki/method/review/rounds-one-and-two); on that section pointer, see flag 35 in `review/wiki-build-flags.md`).
 
 The forecast was the step the v3 worklog had planned after cutting the new version: "Pre-register the expected verdict and weakest link, then run the round-3 audit on v3 (HANDOFF §8 item 2)" ('Next chunks'). The adjudication records it as "commit cc05705, made before dispatch".
 
@@ -155,3 +156,4 @@ The rule in the root `CLAUDE.md` now carries the lesson: "Keep the prediction ou
 - `CLAUDE.md` 'Method (HANDOFF §5)' — the rule as it now stands; 'Working with Paul' — what pre-registration is for
 - `review/round4-preregistration.md`, `review/round4-adjudication.md` 'Pre-registration scored' — the lesson applied, and the record across rounds
 - `review/skeptic-review-console.html` — the A/B/C scale in the referee prompt
+- `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, which is in §5; awaiting a ruling

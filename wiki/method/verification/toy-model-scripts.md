@@ -18,7 +18,7 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 4 (in progress, 2026-10-19): S5'"
   - "notes/toy-lagrangian.md 'Write-up and review (2026-10-19/20)'"
   - "review/round4-adjudication.md 'Rulings'"
-  - "review/wiki-build-flags.md items 2, 10, 11, 12, 13"
+  - "review/wiki-build-flags.md items 2, 10, 11, 12, 13, 41"
 ---
 
 *The toy-model scripts are four programs in `verify/` that recompute the results of the toy-model note, which studies two explicit field theories in which the exchange of position and momentum is an exact symmetry that the vacuum breaks. `toy_coset.py` checks the coset sigma model (model I), `toy_gw.py` the self-dual Grosse–Wulkenhaar model (model II), `toy_s4.py` runs a lattice Monte Carlo of model I with the phase-space metric held fixed, and `toy_s5.py` checks how the vacuum's choice can make matter interactions local in position. They were written with the models on 2026-10-19, extended with the corrections of the round-4 review, and run in the gate. Their checks are exact symbolic identities, numerical tests against anchors taken from the cited literature, and seeded simulations with error bars; each confirms the arithmetic of the model as written, and several of the note's conclusions rest on arguments that no script checks.*
@@ -29,7 +29,7 @@ sources:
 
 The toy-model note, `papers/reciprocity-toy-models.md`, answers [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion): an action in which ρ, the exchange (x, p) → (p, −x), is a symmetry that the vacuum breaks, with η as order parameter ([the toy models](/wiki/symmetry-breaking/toy-models)). Before any construction the worklog fixed six [success criteria](/wiki/symmetry-breaking/toy-models/success-criteria): S0, a prior-art survey; S1, invariance of an explicit action, "verified symbolically"; S2, degenerate vacua that ρ permutes with no fixed point; S3, an order parameter built from η that is odd under ρ; S4, survival of the breaking under fluctuations in 1+1 dimensions, preferably shown by "a lattice simulation"; and S5, interactions local in the selected polarization, shown by "an explicit computation". The scripts check S1 to S5; S0 is literature work.
 
-The note's §6 lists its results as "Shown (each by executed code)"; for one of them, the complex model's restoration under quantization, the code checks the premise and the conclusion is the analytic argument of §4 (see `verify/toy_gw.py` below). #11 records them in §14 item 11 and tags them [D][V] in §4 and §10.
+The note's §6 lists its results as "Shown (each by executed code)"; for one of them, the complex model's restoration under quantization, the code checks the premise and the conclusion is the analytic argument of §4 (see `verify/toy_gw.py` below; flag 41 in `review/wiki-build-flags.md`). #11 records them in §14 item 11 and tags them [D][V] in §4 and §10.
 
 ## `verify/toy_coset.py`: model I
 
@@ -124,10 +124,10 @@ What it checks, in order:
 
 What it does not check:
 
-- **The restoration argument.** The note's conclusion that the complex model's breaking does not survive quantization is analytic (§4). The script checks its premise, `complex model: S[U phi V^dag] = S[phi] for any diagonal unitaries U, V (a continuous U(1)^N x U(1)^N)`, not its conclusion ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)).
+- **The restoration argument.** The note's conclusion that the complex model's breaking does not survive quantization is analytic (§4). The script checks its premise, `complex model: S[U phi V^dag] = S[phi] for any diagonal unitaries U, V (a continuous U(1)^N x U(1)^N)`, not its conclusion ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)). The note's §6 nevertheless lists the restoration among the results "Shown (each by executed code)"; flag 41 in `review/wiki-build-flags.md` records the overclaim, and its audit confirmed that no script computes any quantum quantity of the complex model.
 - **One check is a premise.** "No vacuum is duality-invariant once level 1 condenses" asserts that level 1 condenses (|φ₁₁| > 0.1); the conclusion follows from the preceding check that the duality shifts β by π.
 - **The vacuum identification in F4** ("diag(a0, -a1) is the beta = pi vacuum") checks the sign of Δ(π); that diag(a₀, −a₁) is the β = π configuration holds by construction.
-- **The tadpole's coefficient.** The F6 check tests one harmonic series against Euler's constant. It does not compute the propagator, and it does not settle whether the tadpole grows as ln N (the note) or 2 ln N (the referee and the adjudication); flag 11 records the conflict.
+- **The tadpole's coefficient.** The F6 check tests one harmonic series against Euler's constant. It does not compute the propagator, and it does not settle whether the tadpole grows as ln N (the note) or 2 ln N (the referee and the adjudication); flag 11 records the conflict, which the flag's audit found to be one of normalization (two equal harmonic sums, counted once or twice).
 - **Large N and renormalization.** The note lists "the large-N, renormalized fate of the real model's one-loop selection" as not shown (§6).
 
 Its output:
@@ -289,4 +289,4 @@ The note's §6 lists as not shown: "a Monte Carlo of model I with H dynamical"; 
 - `papers/broken-born-checkpoint-v2.md` §4, §10 — the [D][V] tags on the toy results; §14 item 11 — the record and what stays open
 - `notes/toy-lagrangian.md` 'Success criteria (fixed 2026-10-19, before any construction)' — S0–S5; 'Chunk 2 results' — the tolerance fix; 'Chunk 4 (in progress, 2026-10-19): S5' — the vacuous checks; 'Write-up and review (2026-10-19/20)' — the drafting errors
 - `review/round4-adjudication.md` 'Rulings' — the round-4 findings (F3–F6, the control) that the scripts now carry
-- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13 — the wording and coefficient issues beside the scripts
+- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13 — the wording and coefficient issues beside the scripts; item 41 — the restoration listed as "Shown (each by executed code)"

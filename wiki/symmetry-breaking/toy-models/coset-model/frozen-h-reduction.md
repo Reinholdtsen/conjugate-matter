@@ -24,9 +24,11 @@ sources:
   - "notes/toy-lagrangian.md 'Success criteria'"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
+  - "review/wiki-build-flags.md item 40"
+  - "review/wiki-build-checks/frozen_h_naive.py"
 ---
 
-*The frozen-H reduction is [model I](/wiki/symmetry-breaking/toy-models/coset-model) with its metric field held fixed at H = 1, so that the only remaining field is the polarization angle φ of the real structure K(φ). In that form the model is a two-dimensional spin model of one angle, with a stiffness term and a [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), and it can be simulated on a lattice. The ordered ℤ₂ phase the simulation finds is a result about this reduction; with H dynamical, ordering is not established. [Round 4](/wiki/method/review/round-4) required the text to say so, after showing that [the first potential tried](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) was stable only while H stayed frozen. It also replaced the claim of "Ising-class" breaking with "an ordered ℤ₂ phase", because data at one temperature establish order but not a universality class.*
+*The frozen-H reduction is [model I](/wiki/symmetry-breaking/toy-models/coset-model) with its metric field held fixed at H = 1, so that the only remaining field is the polarization angle φ of the real structure K(φ). In that form the model is a two-dimensional spin model of one angle, with a stiffness term and a [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential), and it can be simulated on a lattice. The ordered ℤ₂ phase the simulation finds is a result about this reduction; with H dynamical, ordering is not established. [Round 4](/wiki/method/review/round-4) required the text to say so, after showing that [the first potential tried](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) was stable only in this reduction. It also replaced the claim of "Ising-class" breaking with "an ordered ℤ₂ phase", because data at one temperature establish order but not a universality class.*
 
 **Status:** Alive, as the stated scope of the lattice result — untagged — required by round-4 revision 1 ("Present the Monte Carlo as the frozen-H reduction, explicitly"), stated in version 2, §4 and §6, and in [#11](/wiki/history/documents/checkpoint) §14 item 11; simulated in `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
@@ -96,7 +98,7 @@ What exists instead is a classical check at one point: with V_b the vacuum (1, K
 
 ## The rule it produced
 
-Round-4 lesson 1: "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." (`review/round4-adjudication.md`, 'Lessons'). The root `CLAUDE.md` carries it in its Method section, adding "Round 4 found a potential that was bounded only at frozen H." The episode that produced it is the adjudicator's: "I should have caught F1 myself: I checked the potential only at frozen H." See [the reduced-model stability rule](/wiki/method/verification/reduced-model-stability).
+Round-4 lesson 1: "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." (`review/round4-adjudication.md`, 'Lessons'). The root `CLAUDE.md` carries it in its Method section, adding "Round 4 found a potential that was bounded only at frozen H." That sentence holds for the reduction as this page defines it, with K kept on its circle K(φ). With H held at 1 and K free on its hyperboloid, the naive potential is unbounded below at λ = μ = 1, the couplings of `verify/toy_coset.py`, and bounded only for λ ≥ 4μ (flag 40 in `review/wiki-build-flags.md`, with the check `review/wiki-build-checks/frozen_h_naive.py`); the flag's audit rated it as depending on how "frozen H" is read. The episode that produced the rule is the adjudicator's: "I should have caught F1 myself: I checked the potential only at frozen H." See [the reduced-model stability rule](/wiki/method/verification/reduced-model-stability).
 
 ## Sources
 
@@ -110,3 +112,4 @@ Round-4 lesson 1: "When numerics run on a reduced model (some fields frozen), ch
 - `verify/toy_coset.py` — the unreduced model's stability with V_b
 - `notes/toy-lagrangian.md` 'Success criteria', 'Chunk 3 results', 'Assessment against the predictions' — criterion S4; the reduction as first made; the Ising-class wording and the price of the potential
 - `CLAUDE.md` 'Method', 'Since the handoff' — the reduced-model rule; the open simulation
+- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — "bounded only at frozen H" with only H held fixed, and the audit's verdict; awaiting Paul's ruling

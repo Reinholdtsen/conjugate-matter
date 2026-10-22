@@ -126,7 +126,7 @@ The threshold has moved twice. The Debt-1 note on the classification of X made "
 
 - **The handoff's status line predates the last two reviews.** `HANDOFF.md` §1's "Honest status" says "Three blind AI reviews returned verdict B ('flawed but salvageable')". Its own §6 records two completed rounds, with verdicts B and "B near B/C", and a third that was incomplete at the handoff; the handoff does not reconcile the two.
 - **Round 3** returned verdict C on the soliton manuscript #14 v3, which was withdrawn (`review/round3-adjudication.md`, 'Verdict').
-- **[Round 4](/wiki/method/review/round-4)** returned verdict B on the [toy-model note](/wiki/symmetry-breaking/toy-models), whose version 2 applies the accepted revisions (`review/round4-adjudication.md`, 'Verdict'). See [blind review](/wiki/method/review).
+- **[Round 4](/wiki/method/review/round-4)** returned verdict B on the [toy-model note](/wiki/symmetry-breaking/toy-models), whose version 2 applies the accepted revisions (`review/round4-adjudication.md`, 'Verdict'), except revision 4's comparison with an exactly solved related model, which it has not carried out (flag 42 in `review/wiki-build-flags.md`). See [blind review](/wiki/method/review).
 - **#11 §15 itself** was amended in v2.1 (commit e1c1f67): the soliton obituary, the re-attribution of the compatibility theorem and DESI DR2 joined the degeneration risks; the plain-language count's "three-way question about dark matter's nature" became the two-way question with the third option retired; and the sentence that the current DESI release "already leans against its dark-energy prediction" was added.
 
 ## Superseded: the v1 assessment

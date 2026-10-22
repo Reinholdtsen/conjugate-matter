@@ -84,7 +84,7 @@ The problem was found while the soliton manuscript #14 was being revised to its 
 
 The instruction names two tasks: fix the two cones, and settle which construction governs. #13 itself frames the alternatives. Its §1–§3 and §5 are written in the 3+1 presentation, and §6 calls the four-dimensional map "the natural home of this paper's kinematics and a required step before the dual dynamics (their Maxwell, their field theory) can be written". The map is unbuilt, so a choice for it depends on [the open construction](/wiki/conjugate-relativity/four-dimensional-born-map); a choice for the 3+1 cone leaves §6's joint-test claim without the cone it uses. No document has attempted either.
 
-Both cones are Lorentzian objects, and #13's preamble inherits the checkpoint's open signature caveat: "The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout" ([Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)). Flag 30 in `review/wiki-build-flags.md` records the same point against §1's tag [D — compatibility theorem]: the theorem's g is positive-definite and has no null cone.
+Both cones are Lorentzian objects, and #13's preamble inherits the checkpoint's open signature caveat: "The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout" ([Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)). Flag 30 in `review/wiki-build-flags.md` records the same point against §1's tag [D — compatibility theorem]: the theorem's g is positive-definite and has no null cone. The flags' audit found the tag on the block form H = diag(g, g⁻¹) rather than on the cones, and rated the flag as a question of tagging convention.
 
 ## Where it stands
 
@@ -99,4 +99,4 @@ The item appears only in the worklog. It is not among #11 §14's eleven open pro
 - `notes/knot-dark-matter-standalone.md` §1 — #14's ordinary kinematics (withdrawn).
 - `CLAUDE.md` 'Since the handoff' — the current queue.
 - `review/round3-adjudication.md` 'Decisions' — the round-3 decisions, which do not include it.
-- `review/wiki-build-flags.md` item 30 — §1's tag [D — compatibility theorem] on cones that the theorem's positive-definite g cannot have; awaits Paul's ruling.
+- `review/wiki-build-flags.md` item 30 — §1's tag [D — compatibility theorem] on the block form from which #13 reads cones that the theorem's positive-definite g cannot have; a question of tagging convention in the flags' audit; awaits Paul's ruling.

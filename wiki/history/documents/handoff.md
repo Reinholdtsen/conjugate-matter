@@ -24,7 +24,7 @@ sources:
   - "review/round3-adjudication.md 'Pre-registration scored'"
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round4-adjudication.md 'Pre-registration scored'"
-  - "review/wiki-build-flags.md items 7, 16, 23, 24, 26, 27, 29"
+  - "review/wiki-build-flags.md items 7, 16, 23, 24, 26, 27, 29, 35, 36"
   - "verify/battery.py"
 ---
 
@@ -125,6 +125,8 @@ The section heading, with its capitals set in lower case here, is "Results that 
 
 §5, "the method — keep using it", sets out the tags [D], [T], [P], [O] and [V] with the citation marks † and [S] ([provenance tags](/wiki/method/provenance-tags)); the iron rule, "no arithmetic by eyeball. Any disputed or asserted number gets executed code with printed output. This is load-bearing — see §6" ([the iron rule](/wiki/method/verification/iron-rule)); pre-registration of the expected verdict and weakest link, "(scored 2-for-2 on verdicts)" ([pre-registration](/wiki/method/review/pre-registration)); and the seven-test battery, "(all passed ✓)", with its expected outputs, among them "66.58 vs 63.72 at seed 0" for T4 and "lstsq rms ≈ 3.29" for T7 ([the verification battery](/wiki/method/verification/battery)).
 
+Two later documents cite other sections for these records: the round-3 pre-registration cites §6 for the 2-for-2 record (flag 35 in `review/wiki-build-flags.md`), and the docstring of `verify/battery.py` and #11 §7.2 place the T4 figures in #11 §2, which does not print them (flag 36).
+
 The root `CLAUDE.md` carries the section forward under the heading "Method (HANDOFF §5)" and has added the lessons of rounds 3 and 4. The pre-registration record did not stay at 2-for-2: round 3 scored "**Miss**: the first after 2 for 2" on the verdict, and round 4 a "**Hit**" (`review/round3-adjudication.md`, `review/round4-adjudication.md`, 'Pre-registration scored').
 
 ## §6: review history and the measured failure mode
@@ -179,5 +181,5 @@ Flagged in `review/wiki-build-flags.md`, quoted here as written: item 7, "unique
 - `wiki/CLAUDE.md` 'The wiki is derivative' — the handoff's rank, its superseded parts and the dead-stays-dead rule
 - `papers/broken-born-checkpoint-v2.md` §5 — the re-tagged compatibility theorem; §10 — "Under pressure (v2.1)"; §12 — the soliton obituary and the two remaining candidates; §14 — the open items the handoff's list became
 - `review/round3-adjudication.md` 'Pre-registration scored' and 'Decisions' — round 3's completion, the moved failure mode and the queue decisions; `review/round4-adjudication.md` 'Pre-registration scored' — the round-4 hit
-- `review/wiki-build-flags.md` items 7, 16, 23, 24, 26, 27 and 29 — the flags that concern statements in the handoff
+- `review/wiki-build-flags.md` items 7, 16, 23, 24, 26, 27 and 29 — the flags that concern statements in the handoff; items 35 and 36 — two later documents' pointers to sections that do not hold the records the handoff's §5 holds
 - `verify/battery.py` — Appendix A as assertions

@@ -167,4 +167,4 @@ The template is established; the transcriptions are not. #13 states each one wit
 
 - `papers/conjugate-special-relativity.md` §1–§6 — the transcriptions named above: the two cones (§1); boosts, composition, simultaneity and the Galilean limit (§2); force dilation and momentum-spread contraction (§3); the mass shell and E = λc̃ (§4); the dual first law and Rindler frames (§5); the 3+1 presentation and the dual null cone E = c|p| (§6).
 - `papers/conjugate-special-relativity.md` §7 — the fixed [D] list, the numerical anchors and the open items.
-- `review/wiki-build-flags.md` item 30 — the tag [D — compatibility theorem] on cones that the theorem's positive-definite g cannot have.
+- `review/wiki-build-flags.md` item 30 — #13 §1's tag [D — compatibility theorem] on the block form from which it reads cones that the theorem's positive-definite g cannot have; a question of tagging convention in the flags' audit.

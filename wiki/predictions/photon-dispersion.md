@@ -24,6 +24,7 @@ sources:
   - "review/round4/referee/audit-notes.md Step 2(c), Step 3"
   - "review/wiki-build-flags.md item 1"
   - "review/wiki-build-flags.md item 31"
+  - "review/wiki-build-checks/audit/vasileiou2013.txt"
 ---
 
 *Row 9 predicts that the speed of light in vacuum has no correction proportional to a photon's energy. Some approaches to quantum gravity predict such a linear correction, suppressed only by the Planck energy; it would make high-energy photons from a distant gamma-ray burst arrive measurably earlier or later than low-energy photons emitted with them, and burst observations with the Fermi Large Area Telescope exclude it [T]. In the program the linear term is exactly zero, protected by the residual symmetry ρ², the half-turn (x, p) → (−x, −p) of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), and the leading allowed correction is quadratic in the energy and strongly suppressed. The protection argument is a schematic one, made only in [the lab notebook](/wiki/history/documents/lab-notebook) before the polarization became [a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle); no later document restates it. A confirmed linear dispersion would kill the row.*
@@ -112,7 +113,7 @@ The record's statement of the data is the lab notebook's (#1 §4, [T]):
 
 > Fermi-LAT gamma-ray-burst bounds exclude linear Planck-scale dispersion; quadratic effects at M_B ~ M_P sit ~10 orders below current sensitivity. Consistent.
 
-No program document cites a paper for this statement, and no `verify/` script checks the "~10 orders"; the wiki repeats it as written. Flag 31 in `review/wiki-build-flags.md` records an unverified lead that the figure may be off. #13 §6 cites the same bounds, also without a reference. The standard reference for the Fermi bound from a single burst is A. A. Abdo et al., "A limit on the variation of the speed of light arising from quantum gravity effects," Nature 462, 331 (2009) (†, cited from memory; no program document cites it). The program's references register lists the bounds as cited without a reference ([references](/wiki/references)).
+No program document cites a paper for this statement, and no `verify/` script checks the "~10 orders"; the wiki repeats it as written. Flag 31 in `review/wiki-build-flags.md` records a lead that the figure may be off. The flags' audit retrieved the bound by live search [S], E_QG,2 > 1.3×10¹¹ GeV from the Fermi Large Area Telescope (Vasileiou et al. 2013; `review/wiki-build-checks/audit/vasileiou2013.txt`), and found that the "~10 orders" hold only loosely, as a count of orders in the energy scale, the way such limits are quoted: 8.0–8.6, or 7.3–7.9 with #1's reduced Planck mass. Counted instead in the size of the effect, the reading the audit takes the notebook's "quadratic effects" to suggest, the gap is 14.5–17 orders. The audit rated the flag as depending on that reading; the notebook's "Consistent" survives either way. #13 §6 cites the same bounds, also without a reference. The standard reference for the Fermi bound from a single burst is A. A. Abdo et al., "A limit on the variation of the speed of light arising from quantum gravity effects," Nature 462, 331 (2009) (†, cited from memory; no program document cites it). The program's references register lists the bounds as cited without a reference ([references](/wiki/references)).
 
 The data are consistent with the row: no linear dispersion has been found, and by the notebook's estimate the quadratic term it expects lies far below what current observations reach. #11 §15 names rows 1, 4 and 7 as the program's near-term falsification exposure; row 9 is not among them.
 
@@ -135,4 +136,5 @@ The substance has not changed since the notebook. v1 dropped "gravitationally" a
 - `review/round4/referee/audit-notes.md` Step 2(c), Step 3 — the residual group {±1, ±ρ} with the potential at frozen H
 - `papers/conjugate-special-relativity.md` §6 — the joint test of both cones; §1 — the dual cone in time and momentum
 - `review/v3-worklog.md` 'New open items', item O3 — the two dual cones, unsettled
-- `review/wiki-build-flags.md` item 1 — discreteness of the polarizations under strict P2; item 31 — the "~10 orders" for the quadratic term
+- `review/wiki-build-flags.md` item 1 — discreteness of the polarizations under strict P2; item 31 — the "~10 orders" for the quadratic term, with the audit's live-searched bound and its two readings
+- `review/wiki-build-checks/audit/vasileiou2013.txt` — the text of the Fermi Large Area Telescope paper the audit retrieved [S]
