@@ -15,6 +15,7 @@ sources:
   - "review/round3/referee/audit-notes.md Step 1, citations [20], [21]"
   - "review/v3-worklog.md 'Verified references for v3'"
   - "review/wiki-build-flags.md item 28"
+  - "review/wiki-build-flags.md item 37"
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-program-v1.md §9"
@@ -34,7 +35,7 @@ sources:
 | --- | --- | --- | --- |
 | Magnetic monopoles (ours) | Model-dependent | Permanent null; Berry-curvature monopoles in solids as the only shadow | Direct detection |
 
-"Ours" restricts the row to monopoles that carry magnetic charge under our own electromagnetism, the U(1) gauge field of the Standard Model. Monopoles of a hidden or conjugate gauge sector are not covered by it.
+"Ours" restricts the row to monopoles that carry magnetic charge under our own electromagnetism, the electromagnetic U(1) of the Standard Model. Monopoles of a hidden or conjugate gauge sector are not covered by it.
 
 ## The observable [T]
 
@@ -80,7 +81,7 @@ Their candidacy as the dark matter is dead. Superheavy monopoles of a hidden SU(
 
 #11 §11.1 ends the audit with an analog in condensed matter: "Their laboratory shadow is real: Weyl semimetals host catalogued families of momentum-space Berry-curvature monopoles [16†] — right geometry, different flux."
 
-In a crystal, an electron's quantum state in each energy band depends on its crystal momentum, and the way the state's phase turns as the momentum changes defines a field over momentum space, the Berry curvature [T]. In a Weyl semimetal two bands touch at isolated points of momentum space, and each touching point is a source or a sink of Berry curvature with a quantized total flux: a monopole in momentum space [T]. "Right geometry" refers to the location, momentum space, the space toward which the program's conjugate sector is polarized. "Different flux" says what the monopole is a source of: Berry curvature, a property of electron states, not a magnetic field ([the laboratory shadow](/wiki/electric-magnetic-duality/conjugate-monopoles#the-laboratory-shadow-t)).
+In a crystal, an electron's quantum state in each energy band depends on its crystal momentum, and the way the state's phase turns as the momentum changes defines a field over momentum space, the Berry curvature [T]. In a Weyl semimetal two bands touch at isolated points of momentum space, and each touching point is a source or a sink of Berry curvature with a quantized total flux: a monopole in momentum space [T]. In the wiki's reading, "right geometry" refers to the location, momentum space, the space toward which the program's conjugate sector is polarized. "Different flux" says what the monopole is a source of: Berry curvature, a property of electron states, not a magnetic field ([the laboratory shadow](/wiki/electric-magnetic-duality/conjugate-monopoles#the-laboratory-shadow-t)).
 
 Reference [16]† is S.-Y. Xu et al., "Discovery of a Weyl fermion semimetal," Science 349, 613 (2015), and B. Q. Lv et al., Phys. Rev. X 5, 031013 (2015). Both are cited from model memory and await [the † literature battery](/wiki/method/literature-battery).
 
@@ -115,14 +116,14 @@ These limits are consistent with the row and cannot confirm it. #11 §15 names r
 
 The parenthesis "(p-polarized solitons)" was the dead explanation. v1 dropped it and carried the row without any section on monopoles. #11 v2.0 added the charge-lattice section 11 with the audit, and changed the observable from "Magnetic monopoles" to "Magnetic monopoles (ours)"; the same version proposed conjugate monopoles as a dark-matter candidate, which the qualifier leaves outside the row ([the history of the predictions table](/wiki/predictions/table-history)).
 
-The handoff listed the explanation among the dead claims: "Conjugate monopoles as the *explanation* of our monopole non-detection (wrong duality; inflation suffices). As ontology they're alive (the soliton candidate)." (`HANDOFF.md` §2). Since 2026-10-19 the soliton candidate is retired as well. The repository's one-line description, "Physics hypothesis explaining dark matter and missing magnetic monopoles" (`README.md`), still states the dead explanation and is stale on the monopole point ([CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
+The handoff listed the explanation among the dead claims: "Conjugate monopoles as the *explanation* of our monopole non-detection (wrong duality; inflation suffices). As ontology they're alive (the soliton candidate)." (`HANDOFF.md` §2). Since 2026-10-19 the soliton candidate is retired as well. The repository's one-line description, "Physics hypothesis explaining dark matter and missing magnetic monopoles" (`README.md`), still states the dead explanation and is stale on the monopole point; see flag 37 in `review/wiki-build-flags.md` ([CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 8 — the row; §11.1 — the audit [D], inflationary dilution [T] and the Weyl-semimetal shadow; §11.2 — non-observation of magnetic states [T]; §4 — P4; §12 — the soliton obituary; §15 — the near-term rows; ref [16†]; App. A item 5 — the split founding supposition
 - `review/round3/referee/audit-notes.md` Step 1, citations [20] and [21] — the Parker and MACRO limits, checked against their sources
 - `review/v3-worklog.md` 'Verified references for v3' — how to cite the Parker value
-- `review/wiki-build-flags.md` item 28 — the formula beside "≈ 34" in §11.2
+- `review/wiki-build-flags.md` item 28 — the formula beside "≈ 34" in §11.2; item 37 — the stale README
 - `notes/knot-dark-matter-standalone.md` §4 — the counterfactual use of the bounds (withdrawn manuscript)
 - `notes/broken-born-theory.md` §9 — v0.1's row 8 and its dead rationale
 - `notes/broken-born-program-v1.md` §9 — v1's row 8

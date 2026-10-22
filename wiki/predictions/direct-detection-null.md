@@ -29,7 +29,7 @@ sources:
 
 *Row 7 predicts that experiments searching for dark matter through any interaction other than gravity will never see it. Direct-detection experiments look for dark-matter particles striking atomic nuclei in shielded underground detectors, and collider experiments look for dark matter produced in particle collisions; both need dark matter to couple to ordinary matter, the particles of the Standard Model, through some interaction besides gravity [T]. In the program, the two remaining dark-matter candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [an X-condensate](/wiki/dark-matter/candidates/x-condensate), have no such coupling: postulate [P4](/wiki/program/postulates/p4-polarized-matter) lets no gauge force act across the two sectors of matter, and since 2026-10-19 it is read strictly, excluding even the small kinetic mixing that could otherwise link them. The expected signal is zero, permanently. One confirmed non-gravitational coupling would kill the row, which is one of the three that #11 lists as the program's near-term falsification exposure.*
 
-**Status:** Alive — it rests on postulate P4 [P] (#11 §4), taken strictly since v2.1 by round-3 Decision 1: a postulate adopted by decision, not a derivation — not machine-checked; no experiment has reported a confirmed signal.
+**Status:** Alive — it rests on postulate P4 [P] (#11 §4), taken strictly since v2.1 by round-3 Decision 1: a postulate, and a reading of it adopted by decision, not a derivation — not machine-checked; no experiment has reported a confirmed signal.
 
 ## The row
 
@@ -70,7 +70,7 @@ P4  Matter comes in x-polarized (Standard Model) and p-polarized (χ)
     six loops, ε ≲ 10⁻¹³ [27S].]
 ```
 
-The first two clauses make dark matter gravitate like ordinary matter. H is the generalized metric of phase space, which contains the spacetime metric g, and both kinds of matter couple to it in the same way. The lab notebook draws the consequence: "χ couples to g universally: it falls, orbits, and lenses like ordinary dark matter. Bullet Cluster lensing-centroid behavior is automatic" [D] (#1 §4); #11 §8 keeps it as "χ propagates on g (equivalence principle; Bullet-Cluster-safe)". The third clause removes every other link: no particle carries the charges of both sectors ([two polarizations of matter](/wiki/program/postulates/p4-polarized-matter#two-polarizations-of-matter)).
+The first two clauses make dark matter gravitate like ordinary matter. H is the generalized metric of phase space, which contains the spacetime metric g, and both kinds of matter couple to it in the same way. The lab notebook draws the consequence: "χ couples to g universally: it falls, orbits, and lenses like ordinary dark matter. Bullet Cluster lensing-centroid behavior is automatic" [D] (#1 §4); #11 §8 keeps it as "χ propagates on g (equivalence principle; Bullet-Cluster-safe)". The third clause rules out shared gauge forces: no particle carries the charges of both sectors ([two polarizations of matter](/wiki/program/postulates/p4-polarized-matter#two-polarizations-of-matter)).
 
 ### No gauge force across: kinetic mixing and the strict reading
 
@@ -98,11 +98,11 @@ The requirement's parenthesis, "both dark-sector candidates SM-decoupled", cover
 
 ### A postulate, not a derivation
 
-The row derives nothing beyond P4. Its tag is P4's, [P], and "permanent" restates the postulate: if P4 holds as read, no non-gravitational signal exists to be found. #11 §15 counts the row among the three that expose the program to near-term falsification: "**Falsification exposure:** genuine and near-term (rows 1, 4, 7)." In the wiki's reading, the exposure is near-term because the searches are running now and one confirmed signal would end the claim, while no number of null results can confirm a permanent null.
+The row derives nothing beyond P4. It carries no tag of its own; it rests on P4 [P], and "permanent" restates the postulate: if P4 holds as read, no non-gravitational signal exists to be found. #11 §15 counts the row among the three that expose the program to near-term falsification: "**Falsification exposure:** genuine and near-term (rows 1, 4, 7)." In the wiki's reading, the exposure is near-term because the searches are running now and one confirmed signal would end the claim, while no number of null results can confirm a permanent null.
 
 ## What kills it
 
-"Any confirmed non-gravitational DM–SM coupling" (#11 §13): a confirmed signal in a direct-detection experiment or at a collider, or any other demonstrated interaction between dark matter and ordinary matter besides gravity. The wording has not changed since the lab notebook, which wrote "Any confirmed DM–SM non-gravitational coupling" (#1 §9).
+"Any confirmed non-gravitational DM–SM coupling" (#11 §13): a confirmed signal in a direct-detection experiment or at a collider, or any other demonstrated interaction between dark matter and ordinary matter besides gravity. The condition has not changed since the lab notebook, which worded it "Any confirmed DM–SM non-gravitational coupling" (#1 §9), as did v1 (#9 §9); #11's word order dates from v2.0.
 
 ## The data situation
 

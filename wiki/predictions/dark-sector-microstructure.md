@@ -8,13 +8,18 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 11"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14 item 9"
+  - "papers/broken-born-checkpoint-v2.md §14 items 4, 5"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §7.5"
+  - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "review/round3-adjudication.md 'Decisions' item 2"
+  - "CLAUDE.md 'Since the handoff'"
   - "HANDOFF.md §2"
   - "notes/debt1a-ii-X-classification.md §4"
+  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
+  - "notes/broken-born-program-v1.md §9"
   - "notes/broken-born-program-v1.md §10"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
   - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
@@ -63,8 +68,8 @@ DM is dark matter. "The 5.4 : 1 abundance question (polarization-genesis) applie
 Read against the table, the three rows separate the candidates through the knee: a sharp tail with isotropic scattering is the χ-particle signature, a wave-like tail the X-condensate's. Several links in that reading are missing from the record:
 
 - **The condensate's knee is not derived.** The (v\*/σ)⁴ law belongs to wave χ, a regime of the matter field χ. No document derives a knee for a condensate of X, or relates the condensate to wave χ ([caveats and open questions](/wiki/predictions/island-discriminant#caveats-and-open-questions)). A wave-like tail would therefore point away from particle χ without, on the record, separating the X-condensate from wave χ.
-- **The particle tail may not be sharp.** Whether the gate's tail is Gaussian or rational is open problem 4 of #11 §14. If it is rational, both branches have power-law tails, and no source compares them ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)).
-- **Rows 1 and 2 have no wave form.** Calc note #2 asked for rows 1–2 to be "re-derived in wave language"; the (v\*/σ)⁴ law answers this for the knee's tail only ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
+- **The particle tail may not be sharp.** Whether the gate's tail is Gaussian or rational is open problem 4 of #11 §14. Calc note #6 calls rational gates "power-law-tailed" (`notes/debt1a-ii-X-classification.md` §4), so if the gate is rational, both branches have power-law tails, and no source compares them ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)).
+- **Rows 1 and 2 have no wave form.** Calc note #2 asked for rows 1–2 to be "re-derived in wave language" (`notes/debt3a-stream-stability.md`, 'Consequences for the predictions table'); the (v\*/σ)⁴ law answers this for the knee's tail only ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 
 ### Coherence signatures
 
@@ -104,10 +109,12 @@ Both popular articles predate the retirement and still describe three answers: #
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 row 11 — the row; §12 — the candidates and their handles [D — framework; each candidate O]; §14 item 9 — the open problem; §15 — "not previously posed" and the italic summary; §7.5 — X's couplings; §9 — the island discriminant's laws
+- `papers/broken-born-checkpoint-v2.md` §13 row 11 — the row; §12 — the candidates and their handles [D — framework; each candidate O]; §14 item 9 — the open problem; §14 items 4, 5 — the gate shape and the dual-stress enhancement; §15 — "not previously posed" and the italic summary; §7.5 — X's couplings; §8 — the gate; §9 — the island discriminant's laws
 - `review/round3-adjudication.md` 'Decisions' item 2 — the soliton option retired, two candidates left
+- `CLAUDE.md` 'Since the handoff' — the current queue, which does not include the row
 - `HANDOFF.md` §2 — the three-way question as open item 8 (superseded). #11 v2.0's row 11 and open problem 9 are quoted from the repository's history (commit 8d588f6; commit e1c1f67 for v2.1).
-- `notes/debt1a-ii-X-classification.md` §4 — the X-condensate's first appearance
+- `notes/debt1a-ii-X-classification.md` §4 — the X-condensate's first appearance; rational, power-law-tailed gates
+- `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "massive-X condensate as the dark matter itself"
-- `notes/broken-born-program-v1.md` §10 — v1's open problem 7
+- `notes/broken-born-program-v1.md` §9 — v1's table, with the X-condensate in row 7 and no row 11; §10 — v1's open problem 7
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' and `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' — the three-way question in the popular articles; not status sources

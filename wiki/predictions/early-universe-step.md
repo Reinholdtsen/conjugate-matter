@@ -16,11 +16,13 @@ sources:
   - "notes/broken-born-program-v1.md §9"
   - "review/round3-adjudication.md 'Rulings' ruling 5"
   - "review/round3/referee/audit-notes.md Step 1, citation [23]"
+  - "notes/knot-dark-matter-standalone.md §4"
   - "review/wiki-build-flags.md item 22"
+  - "review/wiki-build-flags.md item 32"
   - "verify/soliton_obituary.py dark radiation"
 ---
 
-*Row 10 describes two possible imprints of the program's dual, momentum-side gravitational sector on the early universe. The first is a step in the effective strength of gravity, G_eff: the dual sector adds to the effective Planck mass a term that grows toward the past as the sixth inverse power of the cosmic scale factor, a⁻⁶, so it matters only at early times, before the light elements formed in Big Bang nucleosynthesis. The second is negative dark radiation: if the dual space is closed, its curvature acts on our expansion like radiation of negative energy, which lowers the effective number of neutrino species, N_eff. Both follow from the lab notebook's calculation with the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1. The step is optional and the dark radiation conditional on a closed dual space, and their sizes are free parameters (knobs), so a null result bounds the knobs rather than killing the program; #11 names the cosmic microwave background experiment CMB-S4 as the probe.*
+*Row 10 describes two possible imprints of the program's dual, momentum-side gravitational sector on the early universe. The first is a step in the effective strength of gravity, G_eff: the dual sector adds to the square of the effective Planck mass a term that grows toward the past as the sixth inverse power of the cosmic scale factor, a⁻⁶, so it matters only at early times, before the light elements formed in Big Bang nucleosynthesis. The second is negative dark radiation: if the dual space is closed, its curvature acts on our expansion like radiation of negative energy, which lowers the effective number of neutrino species, N_eff. Both follow from the lab notebook's calculation with the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1. The step is optional and the dark radiation conditional on a closed dual space, and their sizes are free parameters (knobs), so a null result bounds the knobs rather than killing the program; #11 names the cosmic microwave background experiment CMB-S4 as the probe.*
 
 **Status:** Alive, optional and knob-bounded — [D] (the lab notebook's minisuperspace calculation and dictionary, #1 §6; #11 §10's dictionary is [D — corrected en route]) — not machine-checked; no document compares either imprint with data.
 
@@ -32,7 +34,7 @@ sources:
 | --- | --- | --- | --- |
 | Early universe | Standard G, N_eff | Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff | (Knob-bounded; CMB-S4 probes) |
 
-G is Newton's constant and G_eff the effective gravitational coupling in the expansion equation. N_eff is the effective number of neutrino species and ΔN_eff its departure from the standard value. CMB-S4 is a proposed ground-based experiment on the cosmic microwave background (CMB) [T]. The kill column is a parenthesis: the row names no result that would end a claim.
+G is Newton's constant and G_eff the effective gravitational coupling in the expansion equation. N_eff is the effective number of neutrino species and ΔN_eff its departure from the standard value. CMB-S4 is a proposed ground-based experiment on the cosmic microwave background (CMB) [T]; whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`). The kill column is a parenthesis: the row names no result that would end a claim.
 
 ## The observables [T]
 
@@ -77,7 +79,7 @@ The second imprint comes from the [duality dictionary](/wiki/cosmology/scale-fac
 w_eff = −w̃
 ```
 
-Spatial curvature behaves like a fluid with w̃ = −1/3 [T], so curvature of the dual space acts on our side as w = +1/3, the equation of state of radiation. The notebook's table: "Spatial curvature (w̃ = −1/3)" appears as "Dark radiation (w = +1/3; closed dual space ⇒ *negative* ΔN_eff)" ([the table](/wiki/cosmology/scale-factor-duality/duality-dictionary#the-table)). The sign comes from the curvature: in the Friedmann equation the curvature of a closed space enters with the opposite sign to an energy density, so read as a fluid it has negative energy density [T], and the dictionary carries that sign across. Extra radiation raises or lowers N_eff according to its sign, so a closed dual space gives ΔN_eff < 0. By the same rule an open dual space would give positive dark radiation (the wiki's reading [T]); the table singles out the closed case, and no document discusses the open one ([row 10 on the radiation-era page](/wiki/cosmology/early-universe/radiation-era#row-10-negative-δneff-from-a-closed-dual-space)).
+Spatial curvature behaves like a fluid with w̃ = −1/3 [T], so curvature of the dual space acts on our side as w = +1/3, the equation of state of radiation. The notebook's table: "Spatial curvature (w̃ = −1/3)" appears as "Dark radiation (w = +1/3; closed dual space ⇒ *negative* ΔN_eff)" ([the table](/wiki/cosmology/scale-factor-duality/duality-dictionary#the-table)). The sign comes from the curvature: in the Friedmann equation the curvature of a closed space enters with the opposite sign to an energy density, so read as a fluid it has negative energy density [T], and the dictionary carries that sign across. Extra radiation raises or lowers N_eff according to its sign, so a closed dual space gives ΔN_eff < 0. The table singles out the closed case, and no document discusses an open dual space ([row 10 on the radiation-era page](/wiki/cosmology/early-universe/radiation-era#row-10-negative-δneff-from-a-closed-dual-space)).
 
 #11 §10 keeps it as "dual curvature ↦ negative dark radiation", with the dictionary tagged "[D — corrected en route]": the rule w_eff = −w̃ superseded an earlier heuristic, −2 − w̃, which identified densities across the two frames without the constraint's volume factor ([Superseded: the earlier heuristic rule](/wiki/cosmology/scale-factor-duality/duality-dictionary#superseded-the-earlier-heuristic-rule)).
 
@@ -99,7 +101,7 @@ Nothing in the row: "(Knob-bounded; CMB-S4 probes)". A measurement of standard G
 
 No program document compares either imprint with a measurement, and none computes the size of the step or of the negative ΔN_eff for any value of the knobs.
 
-The only N_eff figures in the record belong to the retired soliton candidate, whose hidden photon would have added positive dark radiation ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The round-3 referee checked the Planck 2018 interval against its source, Planck's combination of its own data with baryon-acoustic-oscillation measurements at 95% confidence: "N_eff = 2.99 +0.34 -0.33" (`review/round3/referee/audit-notes.md`, Step 1, citation [23]; #14 had written "2.99 +- 0.34", `review/wiki-build-flags.md` item 22). With the Standard Model value 3.044, ruling 5 put the 95% bound on extra radiation at ΔN_eff < 0.286, which the gate checks:
+Apart from the notebook's ±0.03 for CMB-S4 (below), the N_eff figures in the record belong to the retired soliton candidate, whose hidden photon would have added positive dark radiation ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). The round-3 referee checked the Planck 2018 interval against its source, Planck's combination of its own data with baryon-acoustic-oscillation measurements at 95% confidence: "N_eff = 2.99 +0.34 -0.33" (`review/round3/referee/audit-notes.md`, Step 1, citation [23]; #14 had written "2.99 +- 0.34", `review/wiki-build-flags.md` item 22). With the Standard Model value 3.044, ruling 5 put the 95% bound on extra radiation at ΔN_eff < 0.286, which the gate checks:
 
 ```text
 PASS  95% bound Delta N_eff < 0.286  [0.286]
@@ -129,4 +131,5 @@ v1 (#9 §9) changed the row in three ways, and #11 kept v1's form:
 - `review/round3/referee/audit-notes.md` Step 1, citation [23] — the Planck 2018 interval, checked against its source
 - `review/round3-adjudication.md` 'Rulings', ruling 5 — the Standard Model value 3.044 and the bound ΔN_eff < 0.286
 - `verify/soliton_obituary.py`, dark radiation — the gate's check of that bound
-- `review/wiki-build-flags.md` item 22 — #14's symmetric interval against the source's asymmetric one
+- `notes/knot-dark-matter-standalone.md` §4 — #14's dark radiation and its Planck interval (withdrawn manuscript)
+- `review/wiki-build-flags.md` item 22 — #14's symmetric interval against the source's asymmetric one; item 32 — CMB-S4's status, unchecked

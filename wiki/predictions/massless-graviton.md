@@ -12,6 +12,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "notes/debt1a-iv-beta-coefficients.md §3"
   - "notes/debt1a-iii-tuning-test.md §4"
+  - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §5"
@@ -25,7 +26,7 @@ sources:
 
 *Row 6 is the program's prediction that the graviton, the quantum of gravitational waves, has exactly zero mass. The program's geometry carries two spin-2 fields, the ordinary metric and a partner describing momentum space, and Born reciprocity exchanges them. The combinations of definite mass are their sum, which the exchange leaves unchanged (reciprocity-even), and their difference, which changes sign (reciprocity-odd). The even combination is the ordinary graviton and is exactly massless; the odd one is the [momentum graviton X](/wiki/gravity/momentum-graviton), which is massive, so the force it carries has a finite range. Observations of gravitational waves set upper bounds on the graviton's mass, and in the program those bounds apply to the even combination, which meets them identically. A nonzero mass attributed to the even combination would kill the row; #11 does not count it among the program's near-term exposures.*
 
-**Status:** Alive — [D] (#11 §7.5); [D + T] in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3) — the parity follows from reciprocity acting on the two spin-2 frames as an exchange (#11 §7.3). No machine check covers the parity assignment; the identity V(1) = 2T used in reducing the gravity sector's parameters is machine-checked [V] (battery test T5).
+**Status:** Alive — [D] (#11 §7.5); [D + T] in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3) — the parity rests on reciprocity acting on the two spin-2 frames as an exchange (#11 §7.3), a step #8 states without showing. No machine check covers the parity assignment; the identity V(1) = 2T used in reducing the gravity sector's parameters is machine-checked [V] (battery test T5).
 
 ## The row
 
@@ -93,7 +94,7 @@ The row rests on the same step as [the palindrome](/wiki/gravity/palindromic-bra
 
 ## The data situation
 
-No observation has found a graviton mass, and the published limits are upper bounds [T]. The program's documents cite them only through calc note #7 §4's "m_g ≲ 10⁻²³ eV territory" and treat every such bound as met: "satisfied identically" (#11 §7.5). A tighter upper bound leaves the row where it is. #11 §15 names rows 1, 4 and 7 as the program's "genuine and near-term" falsification exposure; row 6 is not among them.
+No observation has found a graviton mass, and the published limits are upper bounds [T]. The program's documents give a value for them only in calc note #7 §4, "m_g ≲ 10⁻²³ eV territory", and treat every such bound as met: "satisfied identically" (#11 §7.5). A tighter upper bound leaves the row where it is. #11 §15 names rows 1, 4 and 7 as the program's "genuine and near-term" falsification exposure; row 6 is not among them.
 
 ## Related open questions
 
@@ -118,7 +119,7 @@ v1's assessment counted "even-eigenstate masslessness as a bimetric-parity state
 - `notes/debt1a-iv-beta-coefficients.md` §3 — the parities, the equal Planck masses, safety by range and the bounds on the even eigenstate [D + T]
 - `notes/debt1a-iii-tuning-test.md` §4 — "Standard bimetric facts" and the earlier mixing-angle reading of the bound
 - `verify/battery.py` T5 — the identity V(1) = 2T in exact integers [V]
-- `notes/broken-born-theory.md` 'Addendum (v0.5)', 'Addendum (v0.6)' — the logged check and the summary of the parities
+- `notes/broken-born-theory.md` §9 — v0.1's table, with no graviton row; 'Addendum (v0.5)', 'Addendum (v0.6)' — the logged check and the summary of the parities
 - `notes/broken-born-program-v1.md` §5, §9, §11 — v1's spectrum, its row 6 and its novelty claim
 - `papers/conjugate-special-relativity.md` §6 — the massless graviton shared by both polarizations
 - `review/v3-worklog.md` 'Round-2 pending list', item R7 — the equal Planck masses and the open stability question
