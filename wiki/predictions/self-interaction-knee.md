@@ -16,6 +16,7 @@ sources:
   - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
   - "notes/broken-born-theory.md §5.1"
   - "notes/broken-born-theory.md §9"
+  - "papers/conjugate-special-relativity.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "review/wiki-build-flags.md item 17"
 ---
@@ -36,7 +37,7 @@ CDM is cold dark matter and SIDM self-interacting dark matter. #11 §15 lists th
 
 ## The observable
 
-σ_T is the momentum-transfer cross-section, the measure of self-scattering that weights each collision by the fraction of forward momentum it removes, so that grazing collisions count for little and head-on rebounds fully. It is quoted per unit mass, σ_T/m, in cm²/g [T] ([the transfer cross-section](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-transfer-cross-section-t)). v is the relative velocity of a colliding pair.
+σ_T is the momentum-transfer cross-section, the measure of self-scattering that weights each collision by the fraction of forward momentum it removes, so that grazing collisions count for little and head-on rebounds most. It is quoted per unit mass, σ_T/m, in cm²/g [T] ([the transfer cross-section](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-transfer-cross-section-t)). v is the relative velocity of a colliding pair.
 
 "Across halo masses" names how the velocity dependence is reached. Heavier halos have faster internal motions, so a set of halos of different masses samples σ_T at different speeds: dwarf galaxies at tens of km/s, galaxy clusters at thousands, with large spirals and small groups between [T]. A cross-section that falls with speed separates the two ends, and the shape of the fall is the observable ([why velocity dependence matters](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#why-velocity-dependence-matters-t)).
 
@@ -74,11 +75,11 @@ The knee exists because the gate depends on k, whatever the function F: below v\
 
 The location comes from the core fit. The lab notebook: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (#1 §5.1), a value it gives without a citation ([where the input comes from](/wiki/dark-matter/conjugate-matter/benchmark#where-the-input-comes-from)). #11's row states the location less precisely, as "v\* ~ 10² km/s". The checkpoint's benchmark mass for particle χ follows from the same input: m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} (#11 §8).
 
-The gate velocity is defined only in the lab notebook, as v\* ≡ √2μ/m_χ (#1 §5.1), a definition #11 does not restate. It belongs to the notebook's postulated gate e^{−k²/μ²} with k = m_χv_rel/2. Calc note #6's overlap form is written e^{−(p₁−p₂)²/2μ²}, and the two are not reconciled in any source ([two conventions, not reconciled](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)). `review/wiki-build-flags.md` item 17 records a suspected factor of √2 in μ between them: with #6's fiber width the knee would sit at v\* = μ/m_χ rather than at #1's √2μ/m_χ. The flag notes that no stated number changes, and it awaits Paul's ruling; this page quotes the sources as written.
+The gate velocity is defined in the lab notebook as v\* ≡ √2μ/m_χ (#1 §5.1), and [conjugate special relativity](/wiki/conjugate-relativity) (#13 §4) repeats it as v\* = √2 μ/m_χ; #11 does not restate it. It belongs to the notebook's postulated gate e^{−k²/μ²} with k = m_χv_rel/2. Calc note #6's overlap form is written e^{−(p₁−p₂)²/2μ²}, and the two are not reconciled in any source ([two conventions, not reconciled](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)). `review/wiki-build-flags.md` item 17 records a suspected factor of √2 in μ between them: with #6's fiber width the knee would sit at v\* = μ/m_χ rather than at #1's √2μ/m_χ. The flag notes that no stated number changes, and it awaits Paul's ruling; this page quotes the sources as written.
 
 ### Zero cluster signal, for particles
 
-In clusters the collision speeds are far above v\*, so the gate is closed and the requirement is no measurable self-scattering. #11 attaches the qualifier "(particle χ)". For the wave branch of χ, the Debt-3 notes give a power-law suppression above the gate, (v\*/σ)⁴ with σ the halo's velocity dispersion, instead of a closed gate; telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). The gravitational side of cluster collisions is separate: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), so its mass moves with the galaxies as ordinary dark matter does ([the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-bullet-cluster-t)).
+In clusters the collision speeds are far above v\*, so the gate is closed and the requirement is no measurable self-scattering. #11 attaches the qualifier "(particle χ)". For the wave branch of χ, calc note #3 gives a power-law suppression above the gate, (v\*/σ)⁴ with σ the halo's velocity dispersion, instead of a closed gate; telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). The gravitational side of cluster collisions is separate: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), so its mass moves with the galaxies as ordinary dark matter does ([the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-bullet-cluster-t)).
 
 ## What kills it
 
@@ -125,5 +126,6 @@ Calc note #6 derived the gate from X exchange and found that "tree-level exchang
 - `notes/broken-born-program-v1.md` §6, §9 — v1's law and its row 1, already a knee
 - `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
 - `notes/broken-born-theory.md` §5.1 — the core-fit input, v\* ≡ √2μ/m_χ, the Yukawa v⁻⁴ tail, the 150–400 km/s band and the v0.1 numbers; §9 — the v0.1 row 1 and standard expectation
+- `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ restated
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the knee and core smoothing in the present tense (popular article)
