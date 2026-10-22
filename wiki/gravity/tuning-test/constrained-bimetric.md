@@ -57,13 +57,13 @@ The argument has three steps, each in the notes.
 2. **J lives on the Lagrangian Grassmannian.** Calc note #5: "The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian" (#5 §B). The lab notebook gives its size: "compact, of dimension d(d+1)/2 = 10 for d=4" (#1 §2). A compact space is closed and bounded, like a circle or a sphere [T].
 3. **So the second sector is truncated.** A free second metric is replaced by a frame that moves only over this compact space: "not a full second metric" (#7 §4). #7 calls this "a *predictive truncation* of bimetric theory: fewer free functions".
 
-The notes write Λ(d) and #11 writes Λ(4). They agree at d = 4, the physical case ([the Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian)).
+The notes write Λ(d). #11 writes Λ(4) where it confines the second frame (§1, §7) and Λ(d) for the Grassmannian in general (§1, §6). They agree at d = 4, the physical case ([the Lagrangian Grassmannian Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian)).
 
 ## What fills the picture
 
 - **The massless combination: the graviton.** It couples to the stress of Standard Model matter (#7 §4). Reciprocity later identifies it as the reciprocity-even combination, which is exactly massless (#8 §3; [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton)).
 - **The massive combination: X.** The momentum graviton, the real part of [the modular field](/wiki/phase-space/modular-field/modular-field-z) Z, acquires its mass when the vacuum's choice of polarization breaks its gauge symmetry, with "M_X = the polarization-breaking scale" (#11 §7.1; [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
-- **The light direction: τ.** τ is [the Maslov phase](/wiki/phase-space/modular-field/maslov-phase), the angle along the one circle direction of Λ(d). It is not among the modes that X absorbs in acquiring its mass: "τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field" (#8 §3, [D — leading order]; [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). Calc note #6 had flagged this as a check still owed (#6 §3).
+- **The light direction: τ.** τ is [the Maslov phase](/wiki/phase-space/modular-field/maslov-phase), the angle along the one circle direction of Λ(d). It is not among the modes that X absorbs in acquiring its mass: "τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field" (#8 §3, [D — leading order]; [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). Calc note #6 had flagged this as a check still to be made (#6 §3).
 - **The other nine directions.** That τ is the lightest modulus, "with the other nine directions heavy, is assumed [P]" (#1 §2). Calc note #5 expected constraints of the inverse-Higgs type to "likely eliminate most" of the nine [O] (#5 §D); no later document works this out ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
 
 ## How far the truncation goes
@@ -72,7 +72,7 @@ Calc note #8 quantifies the truncation once reciprocity has acted (#8 §3, tagge
 
 > **Parameter count:** five βₙ → palindrome (−2) → T = 0 (−1) → **two**: the Fierz–Pauli mass combination m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. **M_X**, and one orthogonal shape parameter controlling cubic interactions. The "predictive truncation" of Chunk A-iii is now quantified: HR bimetric's five-function freedom collapses to two numbers.
 
-HR is Hassan–Rosen, and Chunk A-iii is calc note #7. The palindrome βₙ = β₄₋ₙ removes two coefficients, and the condition T = 0 from a flat aligned vacuum removes one more ([the palindrome](/wiki/gravity/palindromic-branch/palindrome); [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). #11 §7.5 carries the count, "Five βₙ → two parameters", tagged [D] ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
+HR is Hassan–Rosen, and Chunk A-iii is calc note #7; on "five-function freedom", see flag 8 in `review/wiki-build-flags.md`. The palindrome βₙ = β₄₋ₙ removes two coefficients, and the condition T = 0 from a flat aligned vacuum removes one more ([the palindrome](/wiki/gravity/palindromic-branch/palindrome); [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). #11 §7.5 carries the count, "Five βₙ → two parameters", tagged [D] ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
 
 ## Superseded: safety through a dominant massless combination
 
@@ -90,7 +90,7 @@ dRGT is de Rham–Gabadadze–Tolley ([dRGT massive gravity](/wiki/gravity/spin-
 
 ## Scope and what is open
 
-- **Structural, not computed.** The picture is [D — structural] and the bimetric facts [T]; no battery test covers it. #11 cites the bimetric literature from model memory, pending the literature check ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)).
+- **Structural, not computed.** The picture is [D — structural] and the bimetric facts [T]; no [battery](/wiki/method/verification/battery) test covers it. #11 cites the bimetric literature from model memory, pending the literature check ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)).
 - **The second frame is selected.** The frame-tier potential that defines the coupling was selected by minimality and consistency, not derived from the geometric action ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)). No document writes E₀[J] out explicitly.
 - **Euclidean skeleton.** The Debt-1 results are derived for a positive-definite metric ([Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 - **τ and the eaten modes.** Residual mixing of τ with the modes X absorbs is open problem 6, "τ–Stückelberg mixing matrix [O]" (#11 §14; [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).

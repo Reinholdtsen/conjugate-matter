@@ -30,7 +30,7 @@ sources:
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
 ---
 
-*The vacuum-energy identity is a short algebraic result about the program's [spin-2 interaction potential](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) once its coefficients obey [the palindrome](/wiki/gravity/palindromic-branch/palindrome) βₙ = β₄₋ₙ. At the aligned point, where the potential's two frames coincide, the value of the potential, V(1), is exactly twice its tadpole T, the coefficient of the term linear in a small departure from that point. A flat aligned vacuum separately requires V(1) = T, and the two equations together force T = 0 and V(1) = 0: the spin-2 interaction sector adds no vacuum energy there, by symmetry, with the one flatness condition doing the work of the two tunings that generic bimetric gravity needs. The integer arithmetic is machine-checked. The identity says nothing about the vacuum energy of matter loops, the "old" [cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), and whether it is new is the subject of an open [literature comparison](/wiki/gravity/palindromic-branch/pm-comparison).*
+*The vacuum-energy identity is a short algebraic result about the program's [spin-2 interaction potential](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) once its coefficients obey [the palindrome](/wiki/gravity/palindromic-branch/palindrome) βₙ = β₄₋ₙ. At the aligned point, where the potential's two frames coincide, the value of the potential, V(1), is exactly twice its tadpole T, the coefficient of the term linear in a small departure from that point. A flat aligned vacuum separately requires V(1) = T, and the two equations together force T = 0 and V(1) = 0: the spin-2 interaction sector adds no vacuum energy there, by symmetry (see flag 6 in `review/wiki-build-flags.md`), with the one flatness condition doing the work of the two tunings that generic bimetric gravity needs. The integer arithmetic is machine-checked. The identity says nothing about the vacuum energy of matter loops, the "old" [cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), and whether it is new is the subject of an open [literature comparison](/wiki/gravity/palindromic-branch/pm-comparison).*
 
 **Status:** Alive — [D][V] (#11 §7.3); calc note #8 §2 tags the derivation "[D — rigorous, four lines]" — battery test T5 checks the integer identity in exact integers and T6 the linearization coefficients it uses, and both pass ([the verification battery](/wiki/method/verification/battery)). The palindrome it starts from and the flatness condition are derived, not machine-checked. The novelty claim was downgraded in #11 §7.4 and waits on [the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison); the scope is the wedge sector at the aligned point (#11 §7.3).
 
@@ -94,7 +94,7 @@ Written out under the palindrome, T = 0 is the condition β₀ = −4β₁ − 3
 
 ### One condition instead of two
 
-In generic bimetric gravity the potential contributes a vacuum-energy term to each of the two metrics' field equations, so a vacuum in which the aligned metrics are flat needs both terms set to zero [T]. #8 §2: "one condition does the work that takes two tunings in generic bimetric gravity." The lab notebook's v0.6 addendum puts it as "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning".
+In generic bimetric gravity the potential contributes a vacuum-energy term to each of the two metrics' field equations, so a vacuum in which the aligned metrics are flat needs both terms set to zero [T]. #8 §2: "one condition does the work that takes two tunings in generic bimetric gravity." The lab notebook's v0.6 addendum puts it as "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning" (see flag 6 in `review/wiki-build-flags.md`).
 
 ### Dark energy is left to τ
 
@@ -116,17 +116,17 @@ The statement carries three limits:
 
 ## Verification
 
-Two battery tests cover the arithmetic ([the verification battery](/wiki/method/verification/battery)). The recorded gate run prints:
+Two battery tests cover the arithmetic ([the verification battery](/wiki/method/verification/battery)). The recorded [gate run](/wiki/method/verification/the-gate) prints:
 
 ```text
 PASS  T5 V(1) - 2T = [0,0,0]  [V1=[2, 8, 6] T=[1, 4, 3]]
 PASS  T6 e_n(1+delta) linear coefficients = C(3,n-1) = [0,1,3,3,1]  [[0.0, 1.0, 3.0, 3.0, 1.0]]
 ```
 
-- **T5 [V]** computes the coefficient vectors of V(1) and T from `math.comb` in exact integers and checks that V(1) − 2T is the zero vector. #11 §2 lists it in Tier 1 as "the palindrome identity as exact integers"; the [handoff](/wiki/history/documents/handoff) as "T5 palindrome V(1) = 2T as exact integers" (HANDOFF §5).
+- **T5 [V]** computes the coefficient vectors of V(1) and T from `math.comb` in exact integers and checks that V(1) − 2T is the zero vector. #11 §2 lists it in [Tier 1](/wiki/method/claim-tiers) as "the palindrome identity as exact integers"; the [handoff](/wiki/history/documents/handoff) as "T5 palindrome V(1) = 2T as exact integers" (HANDOFF §5).
 - **T6 [V]** draws one random small symmetric δ (`randsym(1e-6)` in `verify/battery.py`), computes the eₙ of 1 + δ from its eigenvalues, and checks that the linear coefficients match C(3, n − 1) = [0, 1, 3, 3, 1] with absolute tolerance `atol=1e-3`. #11 §2 lists it as "the binomial linearization coefficients".
 
-What the tests do not check: T5 takes the palindrome as input, with β₄ = β₀ and β₃ = β₁ built into its vectors, and neither test touches the flatness condition V(1) = T or the claim that reciprocity acts as the frame exchange. Those steps are derivations [D]. #11 §2's caution applies: "a verification script confirms arithmetic, not the model it encodes" ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
+What the tests do not check: T5 takes the palindrome as input, with β₄ = β₀ and β₃ = β₁ built into its vectors, and neither test touches the flatness condition V(1) = T or the claim that [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts as the frame exchange. Those steps are derivations [D]. #11 §2's caution applies: "a verification script confirms arithmetic, not the model it encodes" ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
 ## Names and history
 

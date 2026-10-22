@@ -2,7 +2,7 @@
 title: "Open: the partially-massless comparison (OP2)"
 weight: 30
 status: open
-description: "The palindromic branch contains the partially-massless point, and Hossenfelder's exchange-symmetric cancellation is a different mechanism; a convention-careful comparison is owed (queue item 1), and the novelty claim stays downgraded."
+description: "The palindromic branch contains the partially-massless point, and Hossenfelder's exchange-symmetric cancellation is a different mechanism; a convention-careful comparison is still to be made (queue item 1), and the novelty claim stays downgraded."
 provenance: [O]
 sources:
   - "CLAUDE.md 'Since the handoff'"
@@ -68,7 +68,7 @@ The point lies in the branch because β₁ = β₃ = 0 already satisfies β₁ =
 
 It is not the program's point. #11 §7.4 continues: "Note the PM point sits at Λ ≠ 0 with c undetermined; our flat-aligned-vacuum identity selects a *different* point of the same branch (β₁ ≠ 0 generically, β₀ = −4β₁ − 3β₂)." The two points share the branch but not the vacuum: the partially massless point has a nonzero cosmological constant Λ, and the identity's point is the flat aligned vacuum.
 
-Reference [24][S] in #11: "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515". #11 gives no authors; the handoff cites the same arXiv number (HANDOFF §2, §8).
+Reference [24][S] in #11: "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515". #11 gives no authors (see flag 9 in `review/wiki-build-flags.md`); the handoff cites the same arXiv number (HANDOFF §2, §8).
 
 ### (b) Hossenfelder's exchange-symmetric bimetric theory [25S]
 

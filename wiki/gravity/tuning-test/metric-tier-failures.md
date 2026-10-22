@@ -27,7 +27,7 @@ sources:
 
 *The metric tier is the naive way, in [calc note #7](/wiki/history/documents/debt-1-notes)'s word, of writing the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton): as a function of metric-level, second-order quantities, the blocks of the [misalignment potential](/wiki/gravity/tuning-test/misalignment-potential). It fails the ghost-freedom test in two independent ways. At quadratic order the natural potential gives the metric fluctuation h a mass term proportional to Tr(h²) without the −(Tr h)² term that the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) form requires. Beyond quadratic order it contains Tr(g²), which is not a linear combination of the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) from which every ghost-free [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential is built. Either failure lets the Boulware–Deser ghost, an extra mode with negative kinetic energy, propagate [T]. Calc note #7 calls the result a "theorem-grade negative", and tests T4 and T7 of [the verification battery](/wiki/method/verification/battery) check both failures by machine. The way out was a change of variables, to [the frame tier](/wiki/gravity/tuning-test/frame-tier).*
 
-**Status:** Alive, as a negative result — [D — rigorous] in calc note #7 §2, which calls it "theorem-grade"; [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2 — battery tests T4 and T7 pass ([the verification battery](/wiki/method/verification/battery)); the second invariant, and #11's "provably" for the full structure Tr(g²) + Tr(g⁻²), rest on the derivation [D] alone.
+**Status:** Alive, as a [negative result](/wiki/method/negative-results) — [D — rigorous] in calc note #7 §2, which calls it "theorem-grade"; [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2 — battery tests T4 and T7 pass ([the verification battery](/wiki/method/verification/battery)); the second invariant, and #11's "provably" for the full structure Tr(g²) + Tr(g⁻²), rest on the derivation [D] alone.
 
 ## The claim
 
@@ -37,7 +37,7 @@ Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) hea
 
 Checkpoint #11 states both failures in one sentence [D][V] (#11 §7.2): "*Metric-tier* implementations fail twice: quadratic mass m²Tr(h²) with no −(Tr h)² (non-FP at linear order — the 66.58-vs-63.72 test of §2), and nonlinear structure Tr(g²) + Tr(g⁻²) provably outside the linear-in-eₙ span (T7). Boulware–Deser ghost." FP stands for Fierz–Pauli.
 
-"Metric tier" names the variables. The potential is built from H, the phase-space metric, through the anticommutator {J₀, I[Z]} = [[S, A], [A, S]], with S = Y + XY⁻¹X − Y⁻¹ and A = [X, Y⁻¹] ([the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)). #7 §3 calls H = EᵀE, which is quadratic in the frame E, "second-order", and calls E and the polarization J "first-order structures on the tangent" ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). "The tuning" is the special set of coefficients that makes a spin-2 mass term ghost-free.
+"Metric tier" names the variables. The potential is built from H, the phase-space metric, through the anticommutator {J₀, I[Z]} = [[S, A], [A, S]], with S = Y + XY⁻¹X − Y⁻¹ and A = [X, Y⁻¹] ([the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)). #7 §3 calls H = EᵀE, which is quadratic in the frame E, "second-order", and calls E and the [polarization J](/wiki/symmetry-breaking/order-parameter) "first-order structures on the tangent" ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). "The tuning" is the special set of coefficients that makes a spin-2 mass term ghost-free.
 
 ## What a ghost-free mass term needs [T]
 
@@ -60,7 +60,7 @@ S begins at first order with 2h, so its square begins at second order with 4h²,
 
 ### The machine check: battery test T4
 
-Test T4 of `verify/battery.py` draws a random symmetric h and x at d = 4 from the seeded generator (seed 0), sets Y = 1 + εh and X = εx, and evaluates Tr(S²)/ε² at two small values of ε (`1e-4` and `1e-5` in the script). It compares the result with 4Tr(h²) and with the Fierz–Pauli form, which the script computes as 4(Tr(h²) − (Tr h)²). The current gate run prints:
+Test T4 of `verify/battery.py` draws a random symmetric h and x at d = 4 from the seeded generator (seed 0), sets Y = 1 + εh and X = εx, and evaluates Tr(S²)/ε² at two small values of ε (`1e-4` and `1e-5` in the script). It compares the result with 4Tr(h²) and with the Fierz–Pauli form, which the script computes as 4(Tr(h²) − (Tr h)²). The current [gate run](/wiki/method/verification/the-gate) prints:
 
 ```text
       T4 eps=0.0001: 66.5772 vs 4Tr(h^2)=66.5770 vs FP=63.7221
@@ -74,7 +74,7 @@ The first check passes when, at ε = `1e-5`, the value agrees with 4Tr(h²) to a
 
 ### Where the figures are quoted
 
-#11 §7.2 refers to "the 66.58-vs-63.72 test of §2", and the docstring of `verify/battery.py` also places the figures in #11 §2. #11 §2 describes the test in words without printing the two numbers, which appear in `HANDOFF.md` §5 and in the script's output. The wiki cites #11 §7.2 and battery test T4 for them ([conflicts between the documents](/wiki/history/documents/source-conflicts)).
+#11 §7.2 refers to "the 66.58-vs-63.72 test of §2", and the docstring of `verify/battery.py` also places the figures in #11 §2. #11 §2 describes the test in words without printing the two numbers, which appear in `HANDOFF.md` §5 and in the script's output. The wiki cites #11 §7.2 and battery test T4 for them ([conflicts between the documents](/wiki/history/documents/source-conflicts); see flag 36 in `review/wiki-build-flags.md`).
 
 ## A second invariant, the same defect
 
@@ -96,7 +96,7 @@ On the slice X = 0 the block S reduces to Y − Y⁻¹, and Y is the metric g (#
 
 ### Why Tr(g²) lies outside the family
 
-The power sum p₄ is the sum of the fourth powers of a set of numbers. Taking the numbers to be the eigenvalues of the square root of g, their fourth powers are the squares of g's eigenvalues and their sum is Tr(g²): this is #7's "p₄ of the square-root eigenvalues". Newton's identities express each power sum through the elementary symmetric polynomials of the same numbers, and the expression for p₄ contains products of them [T]. It is therefore not a linear combination of e₀ to e₄ with constant coefficients, which is the form of every Hassan–Rosen potential. The argument does not use the linearized check, which is why #7 counts it as a second, independent failure.
+The power sum p₄ is the sum of the fourth powers of a set of numbers. Taking the numbers to be the eigenvalues of the square root of g, their fourth powers are the squares of g's eigenvalues and their sum is Tr(g²): this is #7's "p₄ of the square-root eigenvalues" (on which square root is meant, see flag 14 in `review/wiki-build-flags.md`). Newton's identities express each power sum through the elementary symmetric polynomials of the same numbers, and the expression for p₄ contains products of them [T]. It is therefore not a linear combination of e₀ to e₄ with constant coefficients, which is the form of every Hassan–Rosen potential. The argument does not use the linearized check, which is why #7 counts it as a second, independent failure.
 
 ### The machine check: battery test T7
 
