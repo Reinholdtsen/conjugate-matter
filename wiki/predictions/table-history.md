@@ -8,6 +8,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md header"
+  - "papers/broken-born-checkpoint-v2.md §7.5"
   - "notes/broken-born-program-v1.md §9"
   - "notes/broken-born-program-v1.md §11"
   - "notes/broken-born-program-v1.md §0"
@@ -25,7 +26,7 @@ sources:
   - "HANDOFF.md §2"
 ---
 
-*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Broken-Born program requires, and the result that would end the claim. The table has had three versions: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the program's own Debt-3 calculation killed velocity clumping, a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and the retired soliton candidate joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
+*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Broken-Born program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the program's own Debt-3 calculation killed velocity clumping, a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and the retired soliton candidate joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
 
 **Status:** Record — the tables themselves carry no provenance tags — #11 §13 is the current table; the tables of #1 §9 and #9 §9 are superseded and kept as the audit trail, and #11's own v2.0 table survives only in the repository's history.
 
@@ -141,11 +142,11 @@ The lab notebook paired its table with a count of two parameters per sector agai
 | Dark energy | f, τᵢ (2; V₀ fixed by Ω_DE) | w₀, wₐ, t_turn (3) |
 | Geometry | M̃, k̃ (2, optional) | early-G step, ΔN_eff, gravitational-wave step |
 
-#1 §12 sums this up as "Two parameters per sector, kill conditions in every row of §9", and v1's plain-language abstract as "two free parameters per sector, kill conditions on every claim" (#9 §0). Two of the five conjugate-matter phenomena, stream granularity and friction suppression, belonged to the withdrawn rows. The count also predates the momentum graviton X, whose five βₙ coefficients reduce to two (calc note #8 §3; [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)). #11 keeps only the dark-energy row of the count, as the [dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint), two parameters for three observables (§10), and has no full parameter table.
+#1 §12 sums this up as "Two parameters per sector, kill conditions in every row of §9", and v1's plain-language abstract as "two free parameters per sector, kill conditions on every claim" (#9 §0). Two of the five conjugate-matter phenomena, stream granularity and friction suppression, belonged to the withdrawn rows. The count also predates the momentum graviton X, whose five βₙ coefficients reduce to two (calc note #8 §3; #11 §7.5; [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)). #11 keeps only the dark-energy row of the count, as the [dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint), two parameters for three observables (§10), and has no full parameter table.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the two remaining candidates; header — the v2.1 and v2.2 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
+- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the two remaining candidates; §7.5 — five βₙ to two parameters; header — the v2.1 and v2.2 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
 - `notes/broken-born-program-v1.md` §9 — v1's ten rows and its withdrawn list; §11 — its exposure rows and novel predictions; §0 — "two free parameters per sector"
 - `notes/broken-born-theory.md` §9, §10, §12 — v0.1's ten rows, its flagships, its parameter table and summary
 - `notes/broken-born-theory.md` 'Addendum (v0.2, post Debt-3)', 'Addendum (v0.4)', 'Addendum (v0.6)' — the withdrawal of rows 3–4 and the island-discriminant row; the cliff-to-knee amendment; the spectrum behind the graviton row
