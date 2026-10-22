@@ -17,11 +17,13 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
   - "review/wiki-build-flags.md item 16"
+  - "review/wiki-build-checks/debt3a_check.py"
+  - "review/wiki-build-checks/debt3a_check.out"
 ---
 
 *The mean-field criterion is the condition under which a gas of dark-matter particles with the gated attraction would break up into velocity streams on its own: the attraction energy among particles that share a velocity has to match the kinetic energy of their random motion. [Debt 3](/wiki/history/debts) derived it in two limits of the [gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) and evaluated it at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is already fixed by fitting the cores of [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies). There the attraction falls short by a factor of about 10²⁸ in dwarf-galaxy cores and 10³¹ in the Milky Way's halo near the Sun. Collisions cannot make up the difference, because they only drive the gas toward a smooth thermal distribution. The result rules out [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image) for particle dark matter, and the result itself stands.*
 
-**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md`. Mean-field only: the general eigenvalue problem is bracketed by two limits, not solved, and the threshold algebra is named but not printed. Not machine-checked: no `verify/` script covers any Debt-3 number, although [the handoff](/wiki/history/documents/handoff) marks the shortfall ✓ (see [the verification record](#verification-record) and flag 16 in `review/wiki-build-flags.md`).
+**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md`. Mean-field only: the general eigenvalue problem is bracketed by two limits, not solved, and the threshold algebra is named but not printed. Not machine-checked: no `verify/` script covers any Debt-3 number, although [the handoff](/wiki/history/documents/handoff) marks the shortfall ✓. A recomputation made while building the wiki reproduces the shortfall but is not run by [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh` (see [the verification record](#verification-record) and flag 16 in `review/wiki-build-flags.md`).
 
 ## Statement
 
@@ -112,7 +114,9 @@ If the mean field cannot make streams, collisions might. 3a closes this in one s
 
 ## Verification record
 
-The handoff lists the result under "Dead (killed by own calculations — keep dead)" with a check mark: "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs: the result is derived, not machine-verified, and any check behind the ✓ exists only in the old chat. Under [the iron rule](/wiki/method/verification/iron-rule) these numbers still lack an executed check in `verify/`. The unbacked mark is flag 16 in `review/wiki-build-flags.md`, which points to a recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`; it is not part of the gate.
+The handoff lists the result under "Dead (killed by own calculations — keep dead)" with a check mark: "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs: the result is derived, not machine-verified, and any check behind the ✓ exists only in the old chat. Under [the iron rule](/wiki/method/verification/iron-rule) these numbers still lack an executed check in `verify/`. The unbacked mark is flag 16 in `review/wiki-build-flags.md`.
+
+A recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`, reproduces the shortfall. It takes 3a's inputs and formulas as the note states them and prints `ratio = 3.9e-28` for the dwarf core and `ratio = 2.9e-31` for the Milky Way halo near the Sun (`review/wiki-build-checks/debt3a_check.out`), against the table's ~10⁻²⁸ and ~10⁻³¹. It checks 3a's arithmetic, not the model. The script is evidence for a ruling and is not wired into `scripts/check.sh`, so the result stays [D]. Flag 16 notes that it "could be moved into `verify/`"; that awaits Paul's ruling.
 
 The plain-language passages round the shortfall: #11 §9's italic passage says "thirty orders of magnitude", #9 §7's says "a factor of a million trillion trillion", and [the popular article](/wiki/history/documents/popular-articles) #10 says "a factor of ten to the thirtieth" (`popsci/angle-of-the-mirror.md`, 'The killing fields'). The notebook's addendum records "fails by 28–31 orders of magnitude at the scattering benchmark" (`notes/broken-born-theory.md`, 'Addendum (v0.2)'). The calc note's table is the record.
 
@@ -126,4 +130,5 @@ The plain-language passages round the shortfall: #11 §9's italic passage says "
 - `notes/broken-born-program-v1.md` §7 — the same result in the first consolidation
 - `HANDOFF.md` §2 — the ✓ with no script behind it
 - `popsci/angle-of-the-mirror.md` 'The killing fields' — the popular rounding (not a status source)
-- `review/wiki-build-flags.md` item 16 — the ✓ without a script, awaiting a ruling; the recomputation in `review/wiki-build-checks/debt3a_check.py`
+- `review/wiki-build-flags.md` item 16 — the ✓ without a script, awaiting a ruling
+- `review/wiki-build-checks/debt3a_check.py` and `review/wiki-build-checks/debt3a_check.out` — the wiki build's recomputation of the shortfall and its printed ratios (outside `verify/`)

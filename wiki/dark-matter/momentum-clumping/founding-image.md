@@ -28,6 +28,7 @@ sources:
   - "popsci/angle-of-the-mirror.md 'The wager'"
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
   - "review/wiki-build-flags.md items 16, 19"
+  - "review/wiki-build-checks/debt3a_check.out"
 ---
 
 *Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The program's own Debt-3 calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics and stays dead.*
@@ -114,7 +115,7 @@ The program kept the result prominent. [The round-3 adjudication](/wiki/method/r
 
 ## Where the records differ
 
-- **The handoff's check mark.** The handoff writes "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion#verification-record)); the unbacked mark is flag 16 in `review/wiki-build-flags.md`.
+- **The handoff's check mark.** The handoff writes "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion#verification-record)); the unbacked mark is flag 16 in `review/wiki-build-flags.md`. A recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`, reproduces the shortfall from 3a's inputs, printing `ratio = 3.9e-28` for the dwarf core and `ratio = 2.9e-31` for the Milky Way halo near the Sun (`review/wiki-build-checks/debt3a_check.out`). It is evidence for a ruling, not part of [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh`, so the result stays [D]; the flag notes that it "could be moved into `verify/`".
 - **The notebook's body.** The lab notebook's §5.2 and its prediction table were never edited and still read the instability and rows 3–4 as live; the addendum v0.2 records their death ([the lab notebook](/wiki/history/documents/lab-notebook)). The tag "[D at mean-field level; O beyond]" on §5.2 asserted the instability; 3a found its threshold missed by 28–31 orders of magnitude.
 - **The plain-language passages** of #9 §7 and #11 §9 describe the image as "dark matter flocking by velocity" and round the shortfall to "a factor of a million trillion trillion" (#9) and "thirty orders of magnitude" (#11). The popular article #10 retells the death in 'The killing fields', rounding the shortfall to "a factor of ten to the thirtieth"; it is never a status source ([the popular articles](/wiki/history/documents/popular-articles)).
 
@@ -130,3 +131,4 @@ The program kept the result prominent. [The round-3 adjudication](/wiki/method/r
 - `HANDOFF.md` §2 — "keep dead", and the unbacked ✓
 - `popsci/angle-of-the-mirror.md` 'The wager', 'The killing fields' — the popular image and retelling (not a status source)
 - `review/wiki-build-flags.md` items 16, 19 — the ✓ without a script; the regime of the classicality corollary; both awaiting a ruling
+- `review/wiki-build-checks/debt3a_check.py` and `review/wiki-build-checks/debt3a_check.out` — the wiki build's recomputation of the shortfall (outside `verify/`)
