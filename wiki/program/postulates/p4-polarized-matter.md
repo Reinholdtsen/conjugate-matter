@@ -127,7 +127,7 @@ The note draws the analogy and the limit in two sentences: "Locality in the sele
 
 The worklog states the role of P4 more directly. The section condition built from η confines matter to one null line but "cannot tell position from momentum", so "Without that lock, matter's choice of section and K's sign are independent orders", and "**The lock is P4** (x-polarized matter, and its ρ-image, p-polarized matter)" ('Chunk 4'; [the section condition](/wiki/symmetry-breaking/section-condition)). In the toy, then, the program's account of why forces fade with distance "amounts to this: our matter is the x-polarized species. The explanatory gain is that x-locality comes packaged with a p-local mirror sector, the program's dark-matter claim. It does not derive x-locality from nothing." The worklog calls the coupling "ρ-covariant"; v2 of the note restates it as built from (H, K) and covariant under SO(2) only, after round-4 ruling F5.
 
-## Open: forced locality and the P4 lock
+## The strong form of locality
 
 What the toy models leave open is the strong form of the locality claim: that the vacuum forces matter to be local in the selected polarization, rather than matter being postulated to couple that way.
 

@@ -26,6 +26,7 @@ sources:
   - "notes/debt1a-geometric-core.md §E"
   - "notes/debt1a-ii-X-classification.md §2"
   - "notes/broken-born-theory.md §2"
+  - "review/wiki-build-flags.md items 3, 23"
 ---
 
 *The modular field Z = X + iY is a complex symmetric matrix field that, in the program, carries the whole geometry of phase space at each point of spacetime once only the symplectic form is held rigid. Each value of Z is a point of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) and names one phase-space metric compatible with that form. The program reads the imaginary part Y as the spacetime metric g, and the real part X as a new symmetric tensor field, [the momentum graviton](/wiki/gravity/momentum-graviton), which records how far the split between position and momentum tilts from place to place. In the vacuum X = 0 and Z = i·g. These readings are the program's derived claims, tagged structural in the note that introduced them; the algebra of the parametrization is machine-checked, and later notes show that X must be a massive spin-2 field.*
@@ -83,7 +84,7 @@ Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [con
 | --- | --- | --- |
 | Im Z = Y | the spacetime metric g | this page |
 | Re Z = X | [momentum-space geometry](/wiki/phase-space/reciprocity/curved-momentum-space); the mediator of the dark-matter gate | this page; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) |
-| the circle \|Z\| = 1 | [scale-factor duality](/wiki/cosmology/scale-factor-duality), the constraint a·ã = 1 | [modular inversion](/wiki/phase-space/modular-field/modular-inversion); [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) |
+| the circle \|Z\| = 1 | [scale-factor duality](/wiki/cosmology/scale-factor-duality), the constraint a·ã = 1 (queried in flag 23 of `review/wiki-build-flags.md`) | [modular inversion](/wiki/phase-space/modular-field/modular-inversion); [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) |
 | the phase of Z's boundary value | the dark-energy field τ | [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) |
 
 The note's closing summary counts "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among that night's results (§F). The identification of the |Z| = 1 circle with a·ã = 1 is queried in flag 23 of `review/wiki-build-flags.md`. The unification is tagged structural: it says where each part sits in one parametrization, and the dynamics of each part are worked out separately, on the pages the table links.
@@ -131,3 +132,4 @@ Calc note #5 also defined the direct route (§D): "expand the generalized curvat
 - `verify/battery.py` T2 — the parametrization identities at one sampled point.
 - `review/round3/referee/audit-notes.md` Step 3 — X ≠ 0 breaks η-compatibility numerically; the auditor's caution.
 - `HANDOFF.md` §2 — the handoff's one-screen state, with the check mark on the parametrization identities.
+- `review/wiki-build-flags.md` items 3, 23 — the query on #7's compatible locus; the query on the identification of |Z| = 1 with a·ã = 1, with its executed check `review/wiki-build-checks/self_dual_locus.py`.

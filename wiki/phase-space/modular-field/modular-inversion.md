@@ -21,6 +21,8 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "notes/debt1a-ii-X-classification.md §3"
   - "verify/toy_coset.py"
+  - "review/wiki-build-flags.md item 23"
+  - "review/wiki-build-checks/self_dual_locus.py"
 ---
 
 *Modular inversion is the map Z → −Z⁻¹, "take minus the reciprocal", applied to [the modular field Z](/wiki/phase-space/modular-field/modular-field-z). The program shows that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn of the position–momentum plane that the Fourier transform performs on a wavefunction, acts on Z in exactly this way. The map leaves the point Z = i unchanged, and that point is the program's self-dual vacuum. On the vacuum slice the map sends the metric g to its inverse, which for a uniformly scaled metric turns the scale factor a into 1/a; the circle |Z| = 1 is identified with the program's relation a·ã = 1 between our scale factor and that of the [conjugate description](/wiki/program/conjugate-universe), an identification queried in flag 23 of `review/wiki-build-flags.md`. The same quarter-turn matrix generates the S-duality of electric and magnetic charges. The claim is derived; for one coordinate (d = 1) a script checks it symbolically, and no script checks the general case.*
@@ -83,7 +85,7 @@ Calc note #5: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual ci
 
 The constraint itself comes from the rigidity of ω. #11 §10: "**Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus." The lab notebook derives it: each mode occupies "(aã)³ × (comoving cell) = ℏ³. Hence a ã = const ≡ 1" (#1 §6). See [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint).
 
-At d = 1 the inversion carries the unit semicircle onto itself, each point reflected across the imaginary axis, with Z = i the one point left in place [T]. The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z; the identification is a structural reading ([D — structural] in #5 §C, [D] in #11 §10). #11's audit of founding suppositions records the outcome for supposition 6, "Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (App. A item 6; [founding suppositions](/wiki/program/founding-suppositions)). Flag 23 in `review/wiki-build-flags.md` queries the identification of a·ã = 1 with the |Z| = 1 locus; it covers #11 §6 and §10, calc note #5 §C, the lab notebook's v0.3 addendum and `HANDOFF.md` §2.
+At d = 1 the inversion carries the unit semicircle onto itself, each point reflected across the imaginary axis, with Z = i the one point left in place [T]. The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z; the identification is a structural reading ([D — structural] in #5 §C, [D] in #11 §10). #11's audit of founding suppositions records the outcome for supposition 6, "Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (App. A item 6; [founding suppositions](/wiki/program/founding-suppositions)). Flag 23 in `review/wiki-build-flags.md` queries the identification of a·ã = 1 with the |Z| = 1 locus. On the slice X = 0 the metric is H_Z = diag(Y, Y⁻¹). The flag reads the position block as g = a² = Y and the momentum block as ã² = Y⁻¹; with that reading a·ã = 1 is the statement det H = 1 and holds along the whole imaginary axis, while the circle |Z| = 1 meets that axis only at Z = i. The flag's executed check prints `a*a~ = 1 for every Y > 0; |Z| = 1 only at Y = 1` (`review/wiki-build-checks/self_dual_locus.py`). Either the identification needs a different reading of a and ã, or it is a slip. The flag asks for one ruling covering #11 §6 and §10, calc note #5 §C, the lab notebook's v0.3 addendum and `HANDOFF.md` §2, and it awaits Paul's ruling.
 
 ### The same matrix in charge space
 
@@ -95,7 +97,7 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 
 - **Explicit only at d = 1.** The physical case is d = 4; there the map follows from the general Möbius action, which no script checks.
 - **Positive metrics only.** Like the Siegel parametrization itself, the statement concerns positive (Euclidean) H; Lorentzian signature is open item 3 ([Open: Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing)).
-- **A structural cosmology.** The |Z| = 1 reading of a·ã = 1 is stated, not derived through an explicit map from the scale factors to Z (see flag 23 in `review/wiki-build-flags.md`).
+- **A structural cosmology.** The |Z| = 1 reading of a·ã = 1 is stated, not derived through an explicit map from the scale factors to Z. Read with g = a² = Y and ã² = Y⁻¹ on the slice X = 0, the two loci differ: flag 23 in `review/wiki-build-flags.md` finds a·ã = 1 on the whole imaginary axis and |Z| = 1 only at Z = i (`review/wiki-build-checks/self_dual_locus.py`). The flag awaits Paul's ruling.
 
 ## History
 
@@ -118,3 +120,4 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 - `papers/reciprocity-toy-models.md` §2 — ρ on Z and on K in model I; the twisted element.
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results' — no ρ-invariant vacuum; ρ inside the U(1) stabilizer at the self-dual point.
 - `verify/toy_coset.py` — the symbolic check of Z → −1/Z with fixed point Z = i, and of the absence of a ρ-invariant vacuum.
+- `review/wiki-build-flags.md` item 23 and `review/wiki-build-checks/self_dual_locus.py` — the query on the identification of a·ã = 1 with |Z| = 1, with its executed check; awaiting Paul's ruling.

@@ -33,6 +33,7 @@ sources:
   - "scripts/check.sh verify loop"
   - "HANDOFF.md §2"
   - "HANDOFF.md §6"
+  - "review/wiki-build-flags.md items 1, 30"
 ---
 
 *The compatibility theorem is a statement of linear algebra about metrics on phase space: if [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality)'s; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in [round 3](/wiki/method/review/round-3) and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one dark-matter model, so the program replaced its postulate [P2](/wiki/program/postulates/original-p2) with [P2′](/wiki/program/postulates/p2-prime) and let η vary.*
@@ -187,7 +188,7 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - **Three corollaries:** det H = 1, no analog of the Kalb–Ramond B-field, and a momentum metric slaved to the position metric, g̃ = g⁻¹ ([the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
 - **The postulate change.** Under the original P2, with ω and η both rigid, "the compatible polarizations are discrete, so no Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent. Hence P2 → P2′." (#11 §5; on "discrete", see flag 1 in `review/wiki-build-flags.md`; [original P2](/wiki/program/postulates/original-p2), [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem), [P2′](/wiki/program/postulates/p2-prime).)
 - **The vacuum slice.** Under P2′ only ω is rigid, H ranges over the Siegel domain, and the theorem's solutions become the slice X = 0 of [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z): "At X = 0, H = diag(g, g⁻¹): the η-compatible locus of Theorem A is precisely the vacuum slice" (#5 §C).
-- **Two light cones.** #13 reads the block form as two metrics, "position space carries the metric g and momentum space its inverse", each with its own null cone ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); see flag 30 in `review/wiki-build-flags.md`).
+- **Two light cones.** #13 reads the block form as two metrics, "position space carries the metric g and momentum space its inverse", each with its own null cone ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). Flag 30 in `review/wiki-build-flags.md` notes that the theorem's g is positive-definite and has no null cone, so the cones need the Lorentzian dressing, which is open ([OP3](/wiki/phase-space/born-geometry/lorentzian-dressing)); #13 tags them "[D — compatibility theorem]".
 
 ## Used by
 
@@ -223,3 +224,4 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - `notes/knot-dark-matter-standalone.md` §1, §6 — "pointwise, in a flat frame"; listed as derived.
 - `verify/battery.py` T1 — both directions and the two proof-block identities.
 - `scripts/check.sh` — the gate runs `verify/`, not the referee's scripts.
+- `review/wiki-build-flags.md` items 1, 30 — the query on "discrete" in #11 §5's statement of the nontriviality theorem; #13's tag on its two cones.

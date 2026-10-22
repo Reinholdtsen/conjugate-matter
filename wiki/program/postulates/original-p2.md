@@ -2,7 +2,7 @@
 title: "Original P2: both structures rigid (superseded)"
 weight: 20
 status: superseded
-description: "The first rigidity postulate froze both ω and η: only discrete polarizations, no Maslov circle, no τ, and a theory collapsed to Branch R (general relativity plus one self-interacting dark-matter model)."
+description: "The first rigidity postulate froze both ω and η: no Maslov circle, no τ, and a theory collapsed to Branch R (general relativity plus one self-interacting dark-matter model)."
 provenance: [P]
 sources:
   - "notes/broken-born-theory.md §1"
@@ -24,9 +24,11 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "CLAUDE.md 'Since the handoff'"
   - "verify/battery.py T1"
+  - "review/wiki-build-flags.md items 1, 10, 23, 25"
+  - "review/wiki-build-checks/verifier_null_lagrangians.py"
 ---
 
-*The original P2 was the lab notebook's second axiom: of the three structures on phase space, the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η are fixed background, and only the generalized metric H carries degrees of freedom. It was meant to express the constancy of Planck's constant, and the notebook gave it three further jobs: removing a would-be second graviton, fixing the relation between the two cosmological scale factors, and supplying the dark-energy field's potential. The program's own geometry showed that it fixed too much. With both structures fixed, H is forced into a rigid block form, the position–momentum splittings compatible with both form a discrete set (a statement queried in flag 1 of `review/wiki-build-flags.md`), there is no circle of [polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations) for the dark-energy field to live on, and the theory reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one bespoke model of self-interacting dark matter. It was replaced by [P2′](/wiki/program/postulates/p2-prime), which fixes ω alone. Of its three jobs, one was reversed, one survives from ω alone, and one became an open problem.*
+*The original P2 was the lab notebook's second axiom: of the three structures on phase space, the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η are fixed background, and only the generalized metric H carries degrees of freedom. It was meant to express the constancy of Planck's constant, and the notebook gave it three further jobs: removing a would-be second graviton, fixing the relation between the two cosmological scale factors, and supplying the dark-energy field's potential. The program's own geometry showed that it fixed too much. With both structures fixed, H is forced into a rigid block form, the [polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations) (position–momentum splittings) compatible with both include no circle for the dark-energy field to live on, and the theory reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one bespoke model of self-interacting dark matter. It was replaced by [P2′](/wiki/program/postulates/p2-prime), which fixes ω alone. Of its three jobs, one was reversed, one survives from ω alone, and one became an open problem.*
 
 **Status:** Superseded by P2′ — [P] as stated; its reduction to "Branch R" is [D — structural] (`notes/debt1a-geometric-core.md` §B) — the replacement was forced by [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) ([#11](/wiki/history/documents/checkpoint) §4–§5; lab notebook addendum v0.3). Listed in [superseded statements](/wiki/status/superseded).
 
@@ -79,7 +81,7 @@ Its corollaries (#5 §A; [the corollaries](/wiki/phase-space/born-geometry/compa
 
 "Corollary 3 collides with the theory as documented" (#5 §B). The v0.1 notebook had a dark-energy field and a momentum-space gate for dark matter; under strict P2 the first cannot exist and the second has no geometric origin. #5 §B finds:
 
-- "The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is **discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2." (On "discrete", see flag 1 in `review/wiki-build-flags.md`.) The program's dark-energy field τ is the angle around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), the continuous space of all polarizations ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)). A discrete set of polarizations has no such circle.
+- "The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is **discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2." (On "discrete", see flag 1 in `review/wiki-build-flags.md`.) The program's dark-energy field τ is the angle around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), the continuous space of all polarizations ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)). In #5's reading the compatible polarizations form a discrete set, which has no such circle. Flag 1 finds that for d ≥ 2 they form continuous families V ⊕ V^⊥ instead (V a subspace of the position directions, V^⊥ its orthogonal complement placed in the momentum directions), but the Maslov phase det² is constant on each family, so none of them winds around the Maslov circle and the conclusion stands (check: `review/wiki-build-checks/verifier_null_lagrangians.py`; awaiting Paul's ruling).
 - "With H = diag(g, g⁻¹), S_H is a functional of g alone: a pure metric theory. No momentum graviton, hence no geometric origin for the χ gate either." S_H is the geometric action of H. If g is the only free field in H, there is no second tensor to act as the [momentum graviton](/wiki/gravity/momentum-graviton), and the mechanism the same note finds for the dark-matter [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), exchange of that graviton (#5 §E), has nothing to exchange.
 
 The note names the result:
@@ -113,3 +115,4 @@ The note presents the step as forced, under the name "Program-nontriviality theo
 - `papers/broken-born-checkpoint-v2.md` §4–§5 — the current record of the forced correction and the theorem's attribution; §7.2 — frame-tier ghost freedom; §10 — the constraint from ω-rigidity and DESI's second data release; §13 row 9 — the remaining reliance on ρ²
 - `CLAUDE.md` 'Since the handoff' — the derivation of the ρ-preserving potential as an open end
 - `verify/battery.py` T1 — the compatibility-theorem checks
+- `review/wiki-build-flags.md` items 1, 10, 23, 25 — the query on "discrete" (check: `review/wiki-build-checks/verifier_null_lagrangians.py`); the notebook's section pointers for the potential and the constraint; the identification of a·ã = 1 with the |Z| = 1 locus

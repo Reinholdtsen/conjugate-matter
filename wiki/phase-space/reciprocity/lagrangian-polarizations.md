@@ -17,6 +17,8 @@ sources:
   - "notes/debt1a-geometric-core.md §B"
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "verify/toy_s5.py"
+  - "review/wiki-build-flags.md item 1"
+  - "review/wiki-build-checks/verifier_null_lagrangians.py"
 ---
 
 *A Lagrangian subspace of phase space is a set of directions, half the dimension of phase space, on which the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) vanishes: no two of its directions form a position–momentum pair. Choosing one, a polarization, is choosing which coordinates count as "position". The ordinary position axis is one Lagrangian subspace, the momentum axis is another, and a continuous family of tilted ones lies in between. A quantum state can be written as a wavefunction over any of them, and the different descriptions are related by unitary transforms such as the Fourier transform. The program's postulates say that the vacuum carries one such choice, and that ours is tilted toward position.*
@@ -71,7 +73,7 @@ The documents name the real structure differently. #11's [P2′](/wiki/program/p
 
 ## When too much is frozen
 
-If the neutral metric η is held rigid as well as ω, a polarization must be Lagrangian for ω and null for η at once, and the continuous family collapses. The compatible polarizations are then "**discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**." ([#5](/wiki/history/documents/debt-1-notes) §B; on "discrete", see flag 1 in `review/wiki-build-flags.md`). The same note's second consequence is that the [geometric action](/wiki/gravity/tuning-test/geometric-action) becomes a functional of the metric g alone, with no [momentum graviton](/wiki/gravity/momentum-graviton). The two together are why the [original P2](/wiki/program/postulates/original-p2), which froze η, was replaced by [P2′](/wiki/program/postulates/p2-prime). Under P2′, η is emergent, "the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1, addendum v0.3).
+If the neutral metric η is held rigid as well as ω, a polarization must be Lagrangian for ω and null for η at once. Calc note [#5](/wiki/history/documents/debt-1-notes) finds the compatible polarizations "**discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**." (§B). Flag 1 in `review/wiki-build-flags.md` queries the word "discrete". For d ≥ 2, any subspace V of the position directions, taken together with its orthogonal complement V^⊥ placed in the momentum directions, gives a polarization V ⊕ V^⊥ that is Lagrangian for ω and null for η, so the compatible polarizations form continuous Grassmannian families Gr(k, d). The Maslov phase det² is constant (±1) on each family, so no family winds around the Maslov circle, and the conclusion, no Maslov circle and no τ, stands. The flag's executed check, at d = 2 and 3, is `review/wiki-build-checks/verifier_null_lagrangians.py`; the flag awaits Paul's ruling. The same note's second consequence is that the [geometric action](/wiki/gravity/tuning-test/geometric-action) becomes a functional of the metric g alone, with no [momentum graviton](/wiki/gravity/momentum-graviton). The two together are why the [original P2](/wiki/program/postulates/original-p2), which froze η, was replaced by [P2′](/wiki/program/postulates/p2-prime). Under P2′, η is emergent, "the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1, addendum v0.3).
 
 ## Prior art and a second arena
 
@@ -95,7 +97,7 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — the vacuum's real structure ranges over all Lagrangian subspaces.
 - [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — x-polarized and p-polarized matter.
 - [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — ours is x-tilted, the mirror vacuum equally lawful.
-- [Original P2 (superseded)](/wiki/program/postulates/original-p2) and [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — rigid η leaves only the splittings #5 calls discrete (see flag 1 in `review/wiki-build-flags.md`).
+- [Original P2 (superseded)](/wiki/program/postulates/original-p2) and [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — with η rigid as well, the compatible polarizations include no Maslov circle (on #5's word "discrete" for them, see flag 1 in `review/wiki-build-flags.md`).
 - [The order parameter: J, η and K](/wiki/symmetry-breaking/order-parameter) — choosing K is choosing which line is "position".
 - [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the choice as an angle on Λ(1).
 - [The section condition: what η fixes](/wiki/symmetry-breaking/section-condition) — matter confined to one Lagrangian null line.
@@ -114,6 +116,7 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `papers/broken-born-checkpoint-v2.md` §11 — Lagrangian sublattices and duality frames in charge space.
 - `papers/reciprocity-toy-models.md` §1, §2, §5 — K's eigenlines as η's Lagrangian null lines; the circle K(φ) and Λ(1); Freidel–Leigh–Minic's "choice of Lagrangian".
 - `verify/toy_s5.py` — the d = 1 Lagrangian-line checks (part A).
-- `notes/debt1a-geometric-core.md` §B — the discrete splittings under strict P2.
+- `notes/debt1a-geometric-core.md` §B — the splittings compatible with a rigid η, which the note calls discrete.
+- `review/wiki-build-flags.md` item 1 and `review/wiki-build-checks/verifier_null_lagrangians.py` — the query on "discrete": continuous families V ⊕ V^⊥ for d ≥ 2, with det² constant on each; awaiting Paul's ruling.
 - `notes/broken-born-theory.md` §1, §2, addendum v0.3 — P5; Λ(d) ≅ U(d)/O(d), its dimension and the Maslov circle; J chosen from Λ(d).
 - `notes/toy-lagrangian.md` "Chunk 1 results" — the bi-Lagrangian quotation from arXiv:1307.7080.
