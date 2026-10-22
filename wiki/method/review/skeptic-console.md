@@ -14,7 +14,7 @@ sources:
 
 *The skeptic review console is a single HTML page, artifact #15 (`review/skeptic-review-console.html`), that sends a manuscript to a fresh Claude model with no conversation context, an adversarial referee prompt and web search turned on, and prints the review it gets back. It was the tool of review rounds 1 and 2, both on #14, the standalone manuscript proposing superheavy hidden-sector solitons as dark matter. Its prompt defines the A/B/C verdict scale that the later rounds kept. The referee it calls can search the web but cannot execute code, the limitation behind the referees' arithmetic errors in those rounds. The page embeds #14 version 2 verbatim and is kept as the record of rounds 1 and 2; the proposal in it has since been [retired](/wiki/dark-matter/candidates/soliton-candidate/obituary).*
 
-**Status:** Record — untagged. A tool of rounds 1–2, not used since: rounds 3 and 4 ran as subagents that could execute code (`review/v3-worklog.md`). The handoff's status for it, "tool, current" (`HANDOFF.md` §3), is out of date, since the page embeds a draft of the withdrawn #14.
+**Status:** Record — untagged. A tool of rounds 1–2, not used since: round 3 ran "as a subagent here, not through the console" (`review/v3-worklog.md`), and so did round 4, both with referees that could execute code ([the blind-review protocol](/wiki/method/review/review-protocol)). The handoff's status for it, "tool, current" (`HANDOFF.md` §3), predates the worklog's decision to keep it as the record of rounds 1–2.
 
 ## What the page is
 
