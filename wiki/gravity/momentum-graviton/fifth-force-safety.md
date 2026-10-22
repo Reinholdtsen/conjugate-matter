@@ -26,7 +26,7 @@ sources:
   - "review/wiki-build-flags.md item 29"
 ---
 
-*This result explains why ordinary matter shows no sign of the [momentum graviton X](/wiki/gravity/momentum-graviton). Standard Model matter couples to the metric g. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the program's two spin-2 frames to have [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses), so the metric g contains the massless graviton and X in comparable proportions, and ordinary matter feels both at gravitational strength. X is massive, so the force it carries is a Yukawa force, which dies away beyond a range of order 1/M_X [T]; gravitational-strength forces of such short range are not constrained by experiment. X is safe because of its range, not because ordinary matter is decoupled from it. The argument changed across [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes); the current form is calc note #8's [D + T], carried by [checkpoint #11](/wiki/history/documents/checkpoint) §7.5 [D]. It cites no experimental bound and no value of M_X.*
+*This result explains why ordinary matter shows no sign of the [momentum graviton X](/wiki/gravity/momentum-graviton). Standard Model matter couples to the metric g. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the program's two spin-2 frames to have [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses), so the metric g contains the massless graviton and X in comparable proportions, and ordinary matter feels both at gravitational strength. X is massive, so the force it carries is a [Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces), which dies away beyond a range of order 1/M_X [T]; gravitational-strength forces of such short range are not constrained by experiment. X is safe because of its range, not because ordinary matter is decoupled from it. The argument changed across [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes); the current form is calc note #8's [D + T], carried by [checkpoint #11](/wiki/history/documents/checkpoint) §7.5 [D]. It cites no experimental bound and no value of M_X.*
 
 **Status:** Alive — [D + T] in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3); [D] in #11 §7.5 — not machine-checked, and no force measurement is cited. Its gravitational-wave side is [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton); the open quantitative item beside it is [Open: the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) (OP5).
 
@@ -40,15 +40,7 @@ Calc note #8 §3 [D + T] (see [The Debt-1 calc notes](/wiki/history/documents/de
 
 ## Background: Yukawa forces and their range [T]
 
-A force carried by a massless field, such as gravity or electromagnetism, falls off as 1/r² at every distance. A force carried by a field of mass M is cut off: the static potential between two sources falls as e^(−Mr)/r in units where ℏ = c = 1, so beyond the range 1/M, the mediator's reduced Compton wavelength ℏ/(Mc) in ordinary units, the force is exponentially small. This is the Yukawa form, named after Yukawa's theory of the nuclear force, and "Yukawa-cut at 1/M_X" means this cut-off at the range set by X's mass [T].
-
-Searches for new forces between ordinary bodies, among them torsion-balance tests of gravity at short distance, describe a possible extra force by adding a Yukawa term to Newton's potential [T]:
-
-```text
-V(r) = −(G m₁ m₂ / r) · (1 + α e^(−r/λ))
-```
-
-Here α measures the extra force's strength relative to gravity and λ its range. A force of "gravitational strength" has α of order one. Such experiments compare the force between test masses at their separation, so their sensitivity falls off once λ is much shorter than that separation, where the Yukawa factor has already removed the force [T]. The sources quote no bound of this kind.
+A force carried by a field of mass M is a Yukawa force: its static potential falls as e^(−Mr)/r in units where ℏ = c = 1, so beyond the range 1/M, ℏ/(Mc) in ordinary units, the force is exponentially small. "Yukawa-cut at 1/M_X" means this cut-off at the range set by X's mass [T]. Searches for new forces between ordinary bodies write a possible extra force as a Yukawa term beside Newton's potential, V(r) = −(G m₁ m₂ / r)(1 + α e^(−r/λ)), with α its strength relative to gravity and λ its range; a force of "gravitational strength" has α of order one. An experiment loses sensitivity once λ is much shorter than the separation of its test masses, where the Yukawa factor has already removed the force [T]. The sources quote no bound of this kind. The derivation, the experiments and scattering through a Yukawa mediator are on [Yukawa forces and their range](/wiki/gravity/spin-2-fields/yukawa-forces).
 
 ## The argument, step by step
 
