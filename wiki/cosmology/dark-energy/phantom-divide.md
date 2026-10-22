@@ -97,7 +97,7 @@ The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessenc
 
 The second data release (DR2) of the Dark Energy Spectroscopic Instrument (DESI) reports, in #11's quotation, "a phantom crossing to w < −1 above redshifts z ≃ 0.4" [21S] (#11 §10). At those redshifts the data favour the side of the divide that the program excludes, and the program's dark-energy sector is under real pressure (root `CLAUDE.md`, 'Since the handoff'). The finding and the program's response are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing).
 
-The [round-3](/wiki/method/review/round-3) referee, who raised the point, also notes, quoting the release, that models respecting the null energy condition "can somewhat outperform" the cosmological-constant model, and adds that they are disfavoured relative to the w₀–wₐ fit, the fit of [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization) (`review/round3/referee/audit-notes.md` Step 4(c) item 11).
+The [round-3](/wiki/method/review/round-3) referee, who raised the point, also notes, quoting the release, that models respecting the null energy condition "can somewhat outperform" the cosmological-constant model, and adds that they are disfavoured relative to the w₀–wₐ fit ([the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization)) (`review/round3/referee/audit-notes.md` Step 4(c) item 11).
 
 ## Used by
 
