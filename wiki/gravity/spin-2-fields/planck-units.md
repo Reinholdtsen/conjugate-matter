@@ -30,14 +30,14 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3)'"
   - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
   - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
-  - "review/wiki-build-flags.md items 31, 34"
+  - "review/wiki-build-flags.md items 24, 31, 34"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
 ---
 
-*Planck units are the units of length, time, mass and energy built from three constants of nature: Planck's constant ℏ, the speed of light c and Newton's constant G. The Planck length √(ℏG/c³) and the Planck energy √(ℏc⁵/G) mark the scale at which the quantum behaviour of gravity is expected to matter, and their ratio, c⁴/G, is a force that contains no ℏ. The Planck mass √(ℏc/G) also measures the strength of gravity: a [spin-2 field](/wiki/gravity/spin-2-fields) such as the graviton couples to matter with a strength inversely proportional to it, so the Planck mass appears wherever the coupling of gravity or the expansion rate of the universe enters a formula. It is written in two conventions, M_Pl = G^{−1/2} in units with ℏ = c = 1 and the reduced M̄_Pl = M_Pl/√(8π), which describe the same physics provided that each formula keeps one of them throughout. The program's [conjugate special relativity](/wiki/conjugate-relativity) sets its Born length equal to the Planck length, which makes its maximum force c⁴/G. The review that retired the program's [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) found that the candidate's reported factor of about 3 between the two conventions [came from mixing them](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization#the-reduced-planck-factor-of-3-was-an-artefact).*
+*Planck units are the units of length, time, mass and energy built from three constants of nature: Planck's constant ℏ, the speed of light c and Newton's constant G. The Planck length √(ℏG/c³) and the Planck energy √(ℏc⁵/G) mark the scale at which the quantum behaviour of gravity is expected to matter, and their ratio, c⁴/G, is a force that contains no ℏ. The Planck mass √(ℏc/G) also measures the strength of gravity: a [spin-2 field](/wiki/gravity/spin-2-fields) such as the graviton couples to matter with a strength inversely proportional to it, so the Planck mass appears wherever the coupling of gravity or the expansion rate of the universe enters a formula. It is written in two conventions, M_Pl = G^{−1/2} in units with ℏ = c = 1 and the reduced M̄_Pl = M_Pl/√(8π), which describe the same physics provided that each formula keeps one of them throughout. The program's [conjugate special relativity](/wiki/conjugate-relativity) sets its [Born length](/wiki/conjugate-relativity/maximum-force#the-born-length) equal to the Planck length, which makes its [maximum force](/wiki/conjugate-relativity/maximum-force) c⁴/G. The review that retired the program's [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) found that the candidate's reported factor of about 3 between the two conventions [came from mixing them](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization#the-reduced-planck-factor-of-3-was-an-artefact).*
 
-**Status:** Established — [T] — textbook physics, written here from general knowledge, with the references it adds marked †. The numerical values of the two Planck masses are constants typed into `verify/soliton_obituary.py`, not retrieved (flag 34 in `review/wiki-build-flags.md`); the script's check that the two conventions give the same result once the Kibble normalization is converted consistently passes [V] ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The program's uses carry their own tags: [#13](/wiki/conjugate-relativity)'s identification of the Born length with the Planck length is untagged and its Planck closure is [D] (#13 §1, §4). Where a document states no convention, the convention given here is the wiki's reading.
+**Status:** Established — [T] — textbook physics, written here from general knowledge, with the references it adds marked †. The numerical values of the two Planck masses are constants typed into `verify/soliton_obituary.py`, not retrieved (flag 34 in `review/wiki-build-flags.md`); the script's check that the two conventions give the same result once the [Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) is converted consistently passes [V] ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The program's uses carry their own tags: [#13](/wiki/conjugate-relativity)'s identification of the Born length with the Planck length is untagged and its Planck closure is [D] (#13 §1, §4). Where a document states no convention, the convention given here is the wiki's reading.
 
 ## Units from ℏ, c and G [T]
 
@@ -51,7 +51,7 @@ E_Planck  = M_Pl c²  = √(ℏc⁵/G)               the Planck energy
 M_Pl c    = ℏ/l_P    = √(ℏc³/G)               the Planck momentum
 ```
 
-**Natural units.** Particle physics and cosmology commonly set ℏ = c = 1 [T]. Lengths and times then become inverse energies, masses are quoted as energies, usually in GeV, and, with Boltzmann's constant also set to one, so are temperatures. Newton's constant becomes G = 1/M_Pl², so that M_Pl = G^{−1/2}, and every Planck unit reduces to the one number M_Pl: E_Planck = M_Pl and l_P = t_P = 1/M_Pl. The program's cosmology and its review records write the Planck mass in this form.
+**Natural units.** Particle physics and cosmology commonly set ℏ = c = 1 [T]. Lengths and times then become inverse energies, masses are quoted as energies, usually in GeV, and, with Boltzmann's constant also set to one, so are temperatures. Newton's constant becomes G = 1/M_Pl², so that M_Pl = G^{−1/2}, and every Planck unit reduces to the one number M_Pl: E_Planck = M_Pl and l_P = t_P = 1/M_Pl. The program's cosmology and its review records work in these units.
 
 ### The Planck force c⁴/G
 
@@ -85,7 +85,7 @@ Coulomb's law for two elementary charges has the same form, F = α ℏc/r², wit
 
 ### The coefficient of the curvature term
 
-In [general relativity](/wiki/gravity/spin-2-fields/general-relativity) the Planck mass is the coefficient of the Einstein–Hilbert action, and it fixes how strongly a given stress-energy curves spacetime. With ℏ = c = 1 [T]:
+In [general relativity](/wiki/gravity/spin-2-fields/general-relativity) the square of the Planck mass sets the coefficient of the Einstein–Hilbert action, and so fixes how strongly a given stress-energy curves spacetime. With ℏ = c = 1 [T]:
 
 ```text
 S_EH = (1/16πG) ∫ d⁴x √−g R  =  (M̄_Pl²/2) ∫ d⁴x √−g R
@@ -103,7 +103,7 @@ g_μν = η_μν + κ h_μν,        κ ∝ 1/M̄_Pl
 coupling to matter  ∝  κ h_μν T^μν  ∝  h_μν T^μν / M̄_Pl
 ```
 
-with the constant of proportionality in κ a matter of convention. Each further power of h, in the graviton's interactions with itself, brings a further factor of κ [T]. In this sense the Planck mass is the strength with which a spin-2 field couples to matter: the larger it is, the weaker the coupling. A single massless spin-2 field coupled in this way to all stress-energy, its own included, rebuilds general relativity ([one massless graviton is general relativity](/wiki/gravity/spin-2-fields/general-relativity#one-massless-graviton-is-general-relativity-t)).
+with the constant of proportionality in κ a matter of convention. Each further power of h, in the graviton's interactions with itself, brings a further factor of κ [T]. In this sense the Planck mass sets the strength with which a spin-2 field couples to matter: the larger it is, the weaker the coupling. A single massless spin-2 field coupled in this way to all stress-energy, its own included, rebuilds general relativity ([one massless graviton is general relativity](/wiki/gravity/spin-2-fields/general-relativity#one-massless-graviton-is-general-relativity-t)).
 
 ### Two metrics, two Planck masses
 
@@ -122,7 +122,7 @@ M_Pl  = √(ℏc/G)        = G^{−1/2}        with ℏ = c = 1      the Planck 
 M̄_Pl  = M_Pl/√(8π)     = (8πG)^{−1/2}    with ℏ = c = 1      the reduced Planck mass
 ```
 
-The reduced mass absorbs the 8π of Einstein's equations, so the action, the field equations and the Friedmann equation carry no 8π when they are written with it. Work on the thermal history of the early universe commonly quotes M_Pl; work that starts from an action, in inflation, quintessence or supergravity, commonly uses M̄_Pl and often calls it simply the Planck mass [T]. A formula has to be read in the convention its source states, and some sources state none.
+The reduced mass absorbs the 8π of Einstein's equations, so the action, the field equations and the [Friedmann equation](/wiki/cosmology/scale-factor-duality/friedmann-cosmology) carry no 8π when they are written with it. Work on the thermal history of the early universe commonly quotes M_Pl; work that starts from an action, in inflation, quintessence or supergravity, commonly uses M̄_Pl and often calls it simply the Planck mass [T]. A formula has to be read in the convention its source states, and some sources state none.
 
 In the record the values appear in scripts. `verify/soliton_obituary.py` takes M_Pl = 1.22089×10¹⁹ GeV and M̄_Pl = 2.43536×10¹⁸ GeV (`M_PL`, `M_PL_RED`). The round-3 referee used the same unreduced value and names its source, the Particle Data Group's 2024 astrophysical constants: "MPl=1.220890e19 (PDG 2024 astro)" (`review/round3/referee/audit-notes.md` Step 2). The referee's scripts derive the reduced mass from it, `MPl_red = MPl/sqrt(8*pi)` (`review/round3/referee/step4.py`), whereas the program's script and the adjudicator's arbitration script type both values in. Flag 34 in `review/wiki-build-flags.md` records that the program script's constants are typed in rather than retrieved, and that its docstring's "PDG and Planck 2018 values" drops the caveat of its predecessor that they came from model memory. Planck 2018 there is a data release of the Planck satellite, which mapped the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background); it is not a Planck unit. The withdrawn manuscript #14 used "M_Pl = 1.22e19 GeV" (§3), which the referee checked as "OK" (Step 2).
 
@@ -177,7 +177,7 @@ PASS  the two Planck conventions agree when p is normalized consistently
 
 The candidate was retired for a separate error in the same formula: v3's p ≈ 0.023 had dropped the Friedmann prefactor (1.66√g\*)³ ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
-**An order of magnitude bracketed.** Where a formula is an estimate with an unknown coefficient of order one, the two masses bracket that coefficient rather than express one quantity two ways (the wiki's reading). v3 estimated the kinetic mixing ε of its hidden photon with ours as ε ~ v/M_\*, from a dimension-five operator suppressed by a heavy scale M_\*: "For an O(1) coefficient at the Planck or reduced Planck scale, epsilon ~ 1e-7 to 1e-6" (#14 §2(b)). The referee reproduced the range with M_\* set to each mass in turn (`review/round3/referee/step2a.out`). The estimate is dead on other grounds. [Ruling 7](/wiki/method/review/round-3/rulings#rulings-7-and-8-the-mixing-operator) found the "O(1) coefficient at the Planck scale" unsupported, since "the literature generates it at one loop from bi-charged states, which sector separation forbids" ([Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
+**An order of magnitude bracketed.** Where a formula is an estimate with an unknown coefficient of order one, the two masses bracket that coefficient rather than express one quantity two ways (the wiki's reading). v3 estimated the [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) ε of its hidden photon with ours as ε ~ v/M_\*, from a dimension-five operator suppressed by a heavy scale M_\*: "For an O(1) coefficient at the Planck or reduced Planck scale, epsilon ~ 1e-7 to 1e-6" (#14 §2(b)). The referee reproduced the range with M_\* set to each mass in turn (`review/round3/referee/step2a.out`). The estimate is dead on other grounds. [Ruling 7](/wiki/method/review/round-3/rulings#rulings-7-and-8-the-mixing-operator) found the "O(1) coefficient at the Planck scale" unsupported, since "the literature generates it at one loop from bi-charged states, which sector separation forbids" ([Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
 
 ### Where a document states no convention
 
@@ -188,12 +188,12 @@ The candidate was retired for a separate error in the same formula: v3's p ≈ 0
 
 ### Planck units in a chat-only conjecture
 
-The phase-space diameter relation, a result that exists only in the original chat, places the "rectangle square (D_x = D_p in Planck units) exactly at the bounce" (`HANDOFF.md` §4). A length D_x and a momentum D_p can be equal only once each is expressed in a unit of its own kind; in the wiki's reading those units are the Planck length and the Planck momentum, whose product is ℏ. The relation is a conjecture ([the phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter)).
+The phase-space diameter relation, a result that exists only in the original chat, places the "rectangle square (D_x = D_p in Planck units) exactly at the bounce" (`HANDOFF.md` §4), without saying which bounce (flag 24 in `review/wiki-build-flags.md`). A length D_x and a momentum D_p can be equal only once each is expressed in a unit of its own kind; in the wiki's reading those units are the Planck length and the Planck momentum, whose product is ℏ. The relation is a conjecture ([the phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter)).
 
 ## Symbols in the documents
 
 - **M_Pl** — #11 §12, #14 and the round-3 record, for the unreduced mass; in the scripts `M_PL` and `M_PL_RED`, in the referee's output `MPl` and `MPl_red`. **M̄_Pl** is this wiki's symbol for the reduced mass.
-- **M_P** — #1 and the Debt-3 notes, which leave the convention unstated; the wiki's [general-relativity page](/wiki/gravity/spin-2-fields/general-relativity), which writes the action with ∝; and the wiki's minisuperspace and quintessence formulas, where it is the reduced mass. **m_P** is Gangui's symbol, in "n_monop/s ~ 100 (T_c/m_P)^3" as the referee quotes it (`review/round3/referee/audit-notes.md` Step 1).
+- **M_P** — #1 and the Debt-3 notes, which leave the convention unstated; the wiki's [general-relativity page](/wiki/gravity/spin-2-fields/general-relativity), which writes the action with ∝; and the wiki's minisuperspace and quintessence formulas, where it is the reduced mass. **m_P** is the symbol of Gangui (astro-ph/0110285), the referee's source for the Kibble normalization, in "n_monop/s ~ 100 (T_c/m_P)^3" as the referee quotes it (`review/round3/referee/audit-notes.md` Step 1).
 - **l_P; E_Planck** — #13 §4; #13 §1 writes the Planck length through λ² = ℏG/c³.
 - **M_g, M_f; M̃; M_B** — the Planck masses of the two bimetric metrics; #1 §6's dual Planck mass; #1 §3's Born mass scale.
 
@@ -234,5 +234,5 @@ The collision entry is under [one quantity, two conventions](/wiki/notation#one-
 - `review/v3-worklog.md` 'Round-2 pending list' item R7 — M_f = M_g and the excluded M_f ≪ M_g regime
 - `notes/broken-born-theory.md` §3, §4, §6, 'Addendum (v0.2, post Debt-3)' — M_P fixed by M_B; M_B ~ M_P in photon dispersion; 3H²(M_P² + M̃²a⁻⁶) = ρ; the critical mass (superseded as a reference; quotations transcribed from its LaTeX)
 - `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' and `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — M_crit ≈ 3.6 M_P/(m√g), M_P undefined
-- `review/wiki-build-flags.md` items 31, 34 — the photon-dispersion gap counted in both conventions; the typed-in constants
+- `review/wiki-build-flags.md` items 24, 31, 34 — which bounce is meant; the photon-dispersion gap counted in both conventions; the typed-in constants
 - `HANDOFF.md` §2 — the maximum force and Planck closure listed alive without a machine-check mark; §4 — "D_x = D_p in Planck units" (chat-only)
