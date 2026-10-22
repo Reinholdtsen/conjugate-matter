@@ -47,7 +47,7 @@ The result is computed in #14 v3's own model, as the gate script states ("Model 
 
 **The transition temperature.** The hidden transition happens at T_c ~ v (#14 §3).
 
-**The yield.** The number of monopoles per unit entropy ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set)) is n/s = p (T_c/M_Pl)³, with p = 104.31 for one defect per Hubble volume and M_Pl the (non-reduced) Planck mass ([the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
+**The yield.** The number of monopoles per unit entropy ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set)) is n/s = p (T_c/M_Pl)³, with p = 104.31 for one defect per Hubble volume and M_Pl the (non-reduced) [Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-conventions-for-the-planck-mass-t) ([the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
 
 The observational inputs are the mean dark-matter density, the present entropy density s₀ and M_Pl. #14 §3 quotes "mean rho_DM = 1.26 keV/cm^3, s_0 ~ 2.9e3 /cm^3 and M_Pl = 1.22e19 GeV"; the script's constants are `RHO_DM = 0.120*1.05371e-5` (GeV cm⁻³), `S0 = 2891.2` (cm⁻³) and `M_PL = 1.22089e19` (GeV), "PDG and Planck 2018 values" (Particle Data Group). Flag 34 in `review/wiki-build-flags.md` notes that the values are typed in, without the caveat of the predecessor script that they came from model memory.
 

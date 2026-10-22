@@ -76,7 +76,7 @@ If τ had been among the modes X absorbs, it would have become part of the massi
 ## What remains open
 
 - **The residual mixing.** The τ–Stückelberg mixing matrix, open item 6 of #11 §14 ([OP6](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
-- **The other nine moduli.** At d = 4, Λ(d) has ten directions: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D). #6 places all the Λ(d) moduli outside the absorbed modes; what happens to the nine is "(4) inverse-Higgs accounting of the nine heavy moduli" in calc note #5's open list (§F), a question no later document takes up ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
+- **The other nine moduli.** At d = 4, Λ(d) has ten directions: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D; [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints)). #6 places all the Λ(d) moduli outside the absorbed modes; what happens to the nine is "(4) inverse-Higgs accounting of the nine heavy moduli" in calc note #5's open list (§F), a question no later document takes up ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
 - **Lorentzian signature.** The mass mechanism belongs to what calc note #6 calls "the Euclidean-rigorous skeleton" (§3); the extension to spacetime signature is open item 3 ([Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 
 The calc notes write Λ(d), counting its dimension at d = 4; #11 writes Λ(d) in §6 and Λ(4) in §7. At d = 4 these are the same space.

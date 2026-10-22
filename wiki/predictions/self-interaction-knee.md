@@ -37,7 +37,7 @@ CDM is cold dark matter and SIDM self-interacting dark matter. #11 §15 lists th
 
 ## The observable
 
-σ_T is the momentum-transfer cross-section, the measure of self-scattering that weights each collision by the fraction of forward momentum it removes, so that grazing collisions count for little and head-on rebounds most. It is quoted per unit mass, σ_T/m, in cm²/g [T] ([the transfer cross-section](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-transfer-cross-section-t)). v is the relative velocity of a colliding pair.
+σ_T is the momentum-transfer cross-section, the measure of self-scattering that weights each collision by the fraction of forward momentum it removes, so that grazing collisions count for little and head-on rebounds most. It is quoted per unit mass, σ_T/m, in cm²/g [T] ([the transfer cross-section σ_T](/wiki/dark-matter/halo-astrophysics/transfer-cross-section)). v is the relative velocity of a colliding pair.
 
 "Across halo masses" names how the velocity dependence is reached. Heavier halos have faster internal motions, so a set of halos of different masses samples σ_T at different speeds: dwarf galaxies at tens of km/s, galaxy clusters at thousands, with large spirals and small groups between [T]. A cross-section that falls with speed separates the two ends, and the shape of the fall is the observable ([why velocity dependence matters](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#why-velocity-dependence-matters-t)).
 
@@ -46,7 +46,7 @@ CDM is cold dark matter and SIDM self-interacting dark matter. #11 §15 lists th
 The row sets two standard models against the program.
 
 - **Cold dark matter: none.** CDM does not scatter off itself, so σ_T = 0 at every speed.
-- **Yukawa SIDM: a power law with a Coulomb logarithm.** When a light mediator of mass m_φ carries the force, the Born amplitude goes as 1/(q² + m_φ²), with q the momentum transfer; small-angle collisions dominate, and the transfer cross-section falls smoothly as speed rises. The [lab notebook](/wiki/history/documents/lab-notebook) states it: "Yukawa SIDM falls as v⁻⁴ with a Coulomb-log correction" (#1 §5.1). The logarithm comes from the small-angle cutoff that the mediator mass supplies [T] ([contact and Yukawa forces](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#contact-and-yukawa-forces)).
+- **Yukawa SIDM: a power law with a Coulomb logarithm.** When a [light mediator](/wiki/gravity/spin-2-fields/yukawa-forces#the-light-mediator-limit-forward-peaking-and-the-coulomb-logarithm) of mass m_φ carries the force, the Born amplitude goes as 1/(q² + m_φ²), with q the momentum transfer; small-angle collisions dominate, and the transfer cross-section falls smoothly as speed rises. The [lab notebook](/wiki/history/documents/lab-notebook) states it: "Yukawa SIDM falls as v⁻⁴ with a Coulomb-log correction" (#1 §5.1). The logarithm comes from the small-angle cutoff that the mediator mass supplies [T] ([contact and Yukawa forces](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#contact-and-yukawa-forces)).
 
 The lab notebook's version of the column read "Constant (CDM: 0) or power-law v⁻⁴ln tail (Yukawa SIDM)" (#1 §9).
 
@@ -79,7 +79,7 @@ The gate velocity is defined in the lab notebook as v\* ≡ √2μ/m_χ (#1 §5.
 
 ### Zero cluster signal, for particles
 
-In clusters the collision speeds are far above v\*, so the gate is closed and the requirement is no measurable self-scattering. #11 attaches the qualifier "(particle χ)". For the wave branch of χ, [calc note #3](/wiki/history/documents/debt-3-notes) gives a power-law suppression above the gate, (v\*/σ)⁴ with σ the halo's velocity dispersion, instead of a closed gate; telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). The gravitational side of cluster collisions is separate: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), so its mass moves with the galaxies as ordinary dark matter does ([the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-bullet-cluster-t)).
+In clusters the collision speeds are far above v\*, so the gate is closed and the requirement is no measurable self-scattering. #11 attaches the qualifier "(particle χ)". For the wave branch of χ, [calc note #3](/wiki/history/documents/debt-3-notes) gives a power-law suppression above the gate, (v\*/σ)⁴ with σ the halo's velocity dispersion, instead of a closed gate; telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). The gravitational side of cluster collisions is separate: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), so its mass moves with the galaxies as ordinary dark matter does ([the equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle); [the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/bullet-cluster#lensing-one-gravity-for-both-kinds-of-matter)).
 
 ## What kills it
 

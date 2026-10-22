@@ -39,7 +39,7 @@ The imprint has a simple Fourier description. In the two-point correlation funct
 
 ### Calibration
 
-The length r_d is fixed by early-universe physics: the sound speed of the plasma and the time at which it ended, which depend on the densities of baryons and of matter. Measurements of the cosmic microwave background (CMB), the light released at that time, determine those densities and so calibrate the ruler. A BAO survey can also be analysed without that calibration, in which case it measures distances in units of r_d [T].
+The length r_d is fixed by early-universe physics: the sound speed of the plasma and the time at which it ended, which depend on the densities of baryons and of matter. Measurements of the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#densities-and-the-ruler) (CMB), the light released at that time, determine those densities and so calibrate the ruler. A BAO survey can also be analysed without that calibration, in which case it measures distances in units of r_d [T].
 
 ## From the ruler to distances [T]
 

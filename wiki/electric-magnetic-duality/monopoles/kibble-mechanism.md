@@ -58,7 +58,7 @@ The count is converted to a yield, the number per unit entropy n/s, because the 
 H = 1.66 √g* T²/M_Pl,        s = (2π²/45) g* T³
 ```
 
-with g\* the number of relativistic degrees of freedom and M_Pl the Planck mass. One defect per H⁻³ at T_c then gives a yield proportional to the cube of T_c/M_Pl:
+with g\* the number of relativistic degrees of freedom and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#one-convention-per-formula). One defect per H⁻³ at T_c then gives a yield proportional to the cube of T_c/M_Pl:
 
 ```text
 n/s = p (T_c/M_Pl)³,        p = (1.66 √g*)³ · 45/(2π² g*)        (one defect per H⁻³)

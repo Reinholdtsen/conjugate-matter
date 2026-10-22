@@ -32,7 +32,7 @@ The [lab notebook](/wiki/history/documents/lab-notebook)'s version, with its [D]
 
 ## How a turnaround happens [T]
 
-In [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology) the square of the expansion rate is proportional to the total energy density, H² ∝ ρ. Matter and radiation thin as the universe grows. If the vacuum energy, the part that does not thin, is positive, it eventually dominates and the expansion continues forever, approaching an empty, exponentially expanding de Sitter universe. That is the standard expectation with a cosmological constant.
+In [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology) the square of the expansion rate is proportional to the total energy density, H² ∝ ρ. Matter and radiation thin as the universe grows. If the vacuum energy, the part that does not thin, is positive, it eventually dominates and the expansion continues forever, approaching an empty, exponentially expanding [de Sitter](/wiki/cosmology/dark-energy/de-sitter-space) universe. That is the standard expectation with a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#toward-de-sitter-space).
 
 If the vacuum energy is negative, the total density falls as matter thins until it reaches zero. At that moment H = 0: the scale factor a has reached its maximum. The acceleration is then negative, so the universe begins to contract. A spacetime whose vacuum energy is negative is anti-de Sitter, so this sequence is described as a transition to anti-de Sitter space followed by collapse. The general physics of a field-driven recollapse is on [quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence).
 

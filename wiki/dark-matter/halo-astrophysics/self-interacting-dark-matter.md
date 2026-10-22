@@ -41,7 +41,7 @@ Not every collision moves heat equally. The momentum-transfer cross-section, σ_
 
 ### Contact and Yukawa forces
 
-A dark force carried by a mediator of mass m_φ has a Yukawa potential, an attraction or repulsion that dies off beyond the range 1/m_φ. In the Born approximation (first order in the coupling) the scattering amplitude is proportional to 1/(q² + m_φ²), where q is the momentum transfer. Two limits bracket the behavior:
+A dark force carried by a mediator of mass m_φ has a [Yukawa potential](/wiki/gravity/spin-2-fields/yukawa-forces), an attraction or repulsion that dies off beyond the range 1/m_φ. In the Born approximation (first order in the coupling) the scattering amplitude is proportional to 1/(q² + m_φ²), where q is the momentum transfer. Two limits bracket the behavior:
 
 - **Heavy mediator, contact interaction** (m_φ much larger than the momentum transfer). The amplitude does not depend on q, the scattering is isotropic, and σ_T does not depend on speed.
 - **Light mediator** (m_φ much smaller than the momentum transfer). The amplitude goes as 1/q², the Rutherford form, and the scattering is concentrated at small angles: it is forward-peaked. The transfer cross-section then falls steeply with speed, as v⁻⁴, multiplied by a logarithm that comes from the small-angle cutoff the mediator mass supplies, the Coulomb logarithm familiar from plasma physics.

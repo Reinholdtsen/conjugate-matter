@@ -69,7 +69,7 @@ The qualifications narrow the claim; none of them removes it. In model I with [t
 
 ## Open: locality is assumed, not derived
 
-The argument runs from locality to a selected polarization. The toy models test the converse direction, from a selected polarization to local matter, and find only a weak form of it. A matter coupling built from H and K makes interactions local in x in one vacuum and in p in the other, "the analogue of Yukawa-generated masses. A mechanism forcing such a coupling is not given." (toy-model note, Abstract). The worklog's conclusion on that test:
+The argument runs from locality to a selected polarization. The toy models test the converse direction, from a selected polarization to local matter, and find only a weak form of it. A matter coupling built from H and K makes interactions local in x in one vacuum and in p in the other, "the analogue of Yukawa-generated masses. A mechanism forcing such a coupling is not given." (toy-model note, Abstract; [Yukawa-generated masses](/wiki/gravity/spin-2-fields/yukawa-forces#a-name-collision-the-yukawa-coupling)). The worklog's conclusion on that test:
 
 - "**Strong form (locality forced, not chosen): not achieved.** It is also open in the literature."
 - "So in the toy, the program's explanation of 'forces fade with distance' amounts to this: our matter is the x-polarized species. The explanatory gain is that x-locality comes packaged with a p-local mirror sector, the program's dark-matter claim. It does not derive x-locality from nothing." ('Chunk 4')

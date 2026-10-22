@@ -109,7 +109,7 @@ The value is the same in every frame. The four-momenta it allows form a hyperbol
 
 For v much smaller than c, γ − 1 ≈ ½(v/c)², and the boost reduces to the Galilean transformation x′ = x − vt, t′ = t. Time is then common to all frames and velocities add. These are the kinematics of Newton's mechanics, and they described every velocity measurement until the speeds involved approached c.
 
-Newton's first law, that a body on which no force acts keeps its velocity, picks out the inertial frames. In a frame accelerating uniformly at a relative to an inertial one, x′ = x − ½at², and a body of mass m on which no force acts appears to feel a pseudo-force −ma: its momentum in the accelerated frame changes as p′ = p − mat. A frame accelerating uniformly in special relativity, with constant acceleration as measured in its own instantaneous rest frame, is a Rindler frame ([the equivalence principle and Rindler frames](/wiki/gravity/spin-2-fields/general-relativity#the-equivalence-principle-and-rindler-frames-t)).
+Newton's first law, that a body on which no force acts keeps its velocity, picks out the inertial frames. In a frame accelerating uniformly at a relative to an inertial one, x′ = x − ½at², and a body of mass m on which no force acts appears to feel a pseudo-force −ma: its momentum in the accelerated frame changes as p′ = p − mat. A frame accelerating uniformly in special relativity, with constant acceleration as measured in its own instantaneous rest frame, is a Rindler frame ([Rindler frames](/wiki/gravity/spin-2-fields/equivalence-principle#rindler-frames)).
 
 #13 §2 transcribes the limit: "For F ≪ c̃ the transformation reduces to the ordinary passage to an accelerated frame, with its familiar pseudo-forces, and composition reduces to addition", and "Force *looks* exactly additive for the same reason velocity looked exactly additive before 1905". #13 §5 transcribes the first law, "The dual first law: an undisturbed system maintains its state of force", and reads uniform dual motion as "constant force — our Rindler frames" ([Dual inertia: free fall as rest](/wiki/conjugate-relativity/dual-inertia)).
 
@@ -135,7 +135,7 @@ Writing spacetime as one time direction and three space directions is the 3+1 sp
 | time dilation | force dilation | §3 | [D — structural; which physical clocks respond is polarization-dependent, O] |
 | length contraction | contraction of momentum spread | §3 | none |
 | mass shell, invariant mass m | invariant-length shell, invariant length λ_χ | §4 | [D — structural] |
-| E = mc² | E = λc̃, [the Planck energy](/wiki/conjugate-relativity/maximum-force-conjectures#planck-units-t) at λ = l_P | §4 | [D] |
+| E = mc² | E = λc̃, [the Planck energy](/wiki/gravity/spin-2-fields/planck-units) at λ = l_P | §4 | [D] |
 | inertial frames | dual-inertial frames: free fall and Rindler frames | §5 | on §7's fixed [D] list |
 | the principle of relativity | [the equivalence principle](/wiki/conjugate-relativity/equivalence-principle) | §5 | [D — structural] |
 

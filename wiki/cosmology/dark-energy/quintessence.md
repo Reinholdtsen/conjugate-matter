@@ -21,7 +21,7 @@ sources:
 
 ### Expansion and the Friedmann equation [T]
 
-A spatially flat, homogeneous universe is described by a scale factor a(t), the factor by which distances between distant galaxies have grown. Its expansion rate H = ȧ/a is set by the total energy density ρ through the Friedmann equation, H² = ρ/(3M_P²), where M_P is the reduced Planck mass. Each component of the cosmic fluid obeys the continuity equation
+A spatially flat, homogeneous universe is described by a scale factor a(t), the factor by which distances between distant galaxies have grown. Its expansion rate H = ȧ/a is set by the total energy density ρ through the Friedmann equation, H² = ρ/(3M_P²), where M_P is the [reduced Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-conventions-for-the-planck-mass-t). Each component of the cosmic fluid obeys the continuity equation
 
 ```text
 ρ̇ = −3H(ρ + p)
@@ -35,7 +35,7 @@ The second Friedmann equation gives the acceleration, ä/a = −(ρ + 3p)/(6M_P�
 
 ### The cosmological constant [T]
 
-The simplest dark energy is a cosmological constant Λ, an energy density of empty space that is the same everywhere and at all times: its pressure is minus its density, so w = −1 exactly and ρ stays constant as space expands. It is the standard expectation of the program's [prediction table](/wiki/predictions), "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Its own page, [the cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant), covers the rest, from the de Sitter future to [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem).
+The simplest dark energy is a cosmological constant Λ, an energy density of empty space that is the same everywhere and at all times: its pressure is minus its density, so w = −1 exactly and ρ stays constant as space expands. It is the standard expectation of the program's [prediction table](/wiki/predictions), "w ≡ −1" (#11 §13 [row 4](/wiki/predictions/dark-energy-drift)). Its own page, [the cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant), covers the rest, from the [de Sitter](/wiki/cosmology/dark-energy/de-sitter-space) future to [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem).
 
 ## A scalar field as dark energy
 

@@ -74,7 +74,7 @@ S(t) = [[cosh t, sinh t], [sinh t, cosh t]]          (symplectic)
 H = S(t)ᵀ S(t),    K = S(t)⁻¹ K₀ S(t)
 ```
 
-Every member of this family is the vacuum carried by a symmetry of model I's own terms, so it stays compatible: the referee found "lambda-term on family: 0". The fields are constant, "so no kinetic cost". The added potential is not invariant under the boost. On the family the referee found K(t) = [[cosh(2t), 2 sinh t cosh t], [−sinh(2t), −cosh(2t)]], whose entries grow without limit while K² = 1 still holds, because K's target, the de Sitter hyperboloid, is non-compact [T]. With them the potential falls: "V_mu on family: -4*mu*cosh(2*t)**2" (`out_model1.txt`).
+Every member of this family is the vacuum carried by a symmetry of model I's own terms, so it stays compatible: the referee found "lambda-term on family: 0". The fields are constant, "so no kinetic cost". The added potential is not invariant under the boost. On the family the referee found K(t) = [[cosh(2t), 2 sinh t cosh t], [−sinh(2t), −cosh(2t)]], whose entries grow without limit while K² = 1 still holds, because K's target, the [de Sitter hyperboloid](/wiki/cosmology/dark-energy/de-sitter-space#two-dimensional-de-sitter-space-as-the-target-of-k), is non-compact [T]. With them the potential falls: "V_mu on family: -4*mu*cosh(2*t)**2" (`out_model1.txt`).
 
 | Boost parameter t | 0 | 0.5 | 1 | 2 | 4 |
 |---|---|---|---|---|---|

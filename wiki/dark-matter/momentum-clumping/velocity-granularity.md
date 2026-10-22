@@ -37,7 +37,7 @@ Row 3 of the lab notebook's prediction table (`notes/broken-born-theory.md` §9)
 | Requirement of the framework | "Fragmentation into O(10) macro-streams of width ~v\*, coherent over kpc; long-wavelength correlated perturbations of cold stellar streams (GD-1, Pal 5) vs. ΛCDM's localized subhalo gaps" |
 | Kill condition | "Gaia DR4/Rubin stream power spectra consistent with smooth-halo + point-subhalo model only" |
 
-DM is dark matter, ΛCDM the [standard cosmology](/wiki/cosmology) with a cosmological constant and cold dark matter, and v\* the width of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), about 120 km/s in the notebook. Gaia DR4 is the fourth data release (Data Release 4) of the Gaia astrometry mission, and Rubin is the Vera C. Rubin Observatory's survey [T].
+DM is dark matter, ΛCDM the [standard cosmology](/wiki/cosmology) with a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant) and cold dark matter, and v\* the width of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), about 120 km/s in the notebook. Gaia DR4 is the fourth data release (Data Release 4) of the Gaia astrometry mission, and Rubin is the Vera C. Rubin Observatory's survey [T].
 
 ### What it would have meant for observations
 

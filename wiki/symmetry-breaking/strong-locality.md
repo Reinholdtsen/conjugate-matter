@@ -32,7 +32,7 @@ The toy work's criterion S5 asks that matter coupled to the [order parameter](/w
 
 The criterion has two strengths:
 
-- **The weak form** holds [V] (checked in `verify/toy_s5.py`, part C; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)): once matter couples through a coupling built from the metric H and the real structure K, its interactions are local in x in one vacuum and in p in the mirror vacuum, "as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given" (toy note §5; [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). See [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling).
+- **The weak form** holds [V] (checked in `verify/toy_s5.py`, part C; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)): once matter couples through a coupling built from the metric H and the real structure K, its interactions are local in x in one vacuum and in p in the mirror vacuum, "as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given" (toy note §5; [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs); [Yukawa couplings](/wiki/gravity/spin-2-fields/yukawa-forces#a-name-collision-the-yukawa-coupling)). See [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling).
 - **The strong form**, "locality forced, not chosen", is the open problem. The worklog: "Strong form (locality forced, not chosen): not achieved. It is also open in the literature." ('Chunk 4', S5 conclusion).
 
 Three documents list it:

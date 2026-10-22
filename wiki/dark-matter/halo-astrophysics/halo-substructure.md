@@ -61,7 +61,7 @@ The lab notebook's predictions table (#1 §9; columns: observable, standard expe
   | Demonstrated normal friction in cored dwarfs
 ```
 
-Here DM is dark matter, DR4 is Gaia's Data Release 4, and ΛCDM is the [standard cosmological model](/wiki/cosmology) with cold dark matter.
+Here DM is dark matter, DR4 is Gaia's Data Release 4, and ΛCDM is the [standard cosmological model](/wiki/cosmology), with a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant) and cold dark matter.
 
 **Row 3** reads the founding image through the stream probe. A halo whose dark matter moved in a few broad velocity streams, each coherent across kiloparsecs, would pull on a stellar stream along its whole length, and the stream's density fluctuations would be correlated over long wavelengths, unlike the localized gaps of point-like subhalos. A stream power spectrum consistent with a smooth halo plus point subhalos would have killed the row. The notebook ranked it with its strongest tests: "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9).
 

@@ -100,7 +100,7 @@ For a condensate held together by gravity alone, a larger mass gives a smaller a
 M_crit = 3.6 M_P/(m√g) ≈ 2.9×10⁻³⁰ (m/eV)^(−7/4) M_⊙
 ```
 
-M_P is the Planck mass. The exponent follows from the fixed combination, a step the note does not write: with g²/m³ fixed, g grows as m^{3/2}, so m√g grows as m^{7/4}. The −7/4 form therefore holds only under Scenario A. "This crosses the UFD core mass (~10⁶ M_⊙) at m ≈ 5×10⁻²¹ eV", and the wave island splits into two branches.
+M_P is the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#where-a-document-states-no-convention). The exponent follows from the fixed combination, a step the note does not write: with g²/m³ fixed, g grows as m^{3/2}, so m√g grows as m^{7/4}. The −7/4 form therefore holds only under Scenario A. "This crosses the UFD core mass (~10⁶ M_⊙) at m ≈ 5×10⁻²¹ eV", and the wave island splits into two branches.
 
 ### Branch (i): the condensate as a mass drain
 

@@ -111,7 +111,7 @@ with the constant of proportionality in κ a matter of convention. Each further 
 
 ### An effective Planck mass
 
-When the coefficient of the curvature term varies, the strength of gravity varies with it: an effective Planck mass M_eff gives an effective Newton's constant G_eff ∝ 1/M_eff² [T]. A different G at the time of nucleosynthesis changes the expansion rate then, and the abundances of the light elements bound it ([how N_eff is measured](/wiki/cosmology/early-universe/radiation-era#how-n_eff-is-measured-t)).
+When the coefficient of the curvature term varies, the strength of gravity varies with it: an effective Planck mass M_eff gives an effective Newton's constant G_eff ∝ 1/M_eff² [T]. A different G at the time of nucleosynthesis changes the expansion rate then, and the abundances of the light elements bound it ([Big Bang nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#the-expansion-rate-radiation-and-gravity-together)).
 
 ## Two conventions for the Planck mass [T]
 
@@ -124,7 +124,7 @@ M̄_Pl  = M_Pl/√(8π)     = (8πG)^{−1/2}    with ℏ = c = 1      the reduc
 
 The reduced mass absorbs the 8π of Einstein's equations, so the action, the field equations and the Friedmann equation carry no 8π when they are written with it. Work on the thermal history of the early universe commonly quotes M_Pl; work that starts from an action, in inflation, quintessence or supergravity, commonly uses M̄_Pl and often calls it simply the Planck mass [T]. A formula has to be read in the convention its source states, and some sources state none.
 
-In the record the values appear in scripts. `verify/soliton_obituary.py` takes M_Pl = 1.22089×10¹⁹ GeV and M̄_Pl = 2.43536×10¹⁸ GeV (`M_PL`, `M_PL_RED`). The round-3 referee used the same unreduced value and names its source, the Particle Data Group's 2024 astrophysical constants: "MPl=1.220890e19 (PDG 2024 astro)" (`review/round3/referee/audit-notes.md` Step 2). The referee's scripts derive the reduced mass from it, `MPl_red = MPl/sqrt(8*pi)` (`review/round3/referee/step4.py`), whereas the program's script and the adjudicator's arbitration script type both values in. Flag 34 in `review/wiki-build-flags.md` records that the program script's constants are typed in rather than retrieved, and that its docstring's "PDG and Planck 2018 values" drops the caveat of its predecessor that they came from model memory. Planck 2018 there is a data release of the Planck satellite, which mapped the cosmic microwave background; it is not a Planck unit. The withdrawn manuscript #14 used "M_Pl = 1.22e19 GeV" (§3), which the referee checked as "OK" (Step 2).
+In the record the values appear in scripts. `verify/soliton_obituary.py` takes M_Pl = 1.22089×10¹⁹ GeV and M̄_Pl = 2.43536×10¹⁸ GeV (`M_PL`, `M_PL_RED`). The round-3 referee used the same unreduced value and names its source, the Particle Data Group's 2024 astrophysical constants: "MPl=1.220890e19 (PDG 2024 astro)" (`review/round3/referee/audit-notes.md` Step 2). The referee's scripts derive the reduced mass from it, `MPl_red = MPl/sqrt(8*pi)` (`review/round3/referee/step4.py`), whereas the program's script and the adjudicator's arbitration script type both values in. Flag 34 in `review/wiki-build-flags.md` records that the program script's constants are typed in rather than retrieved, and that its docstring's "PDG and Planck 2018 values" drops the caveat of its predecessor that they came from model memory. Planck 2018 there is a data release of the Planck satellite, which mapped the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background); it is not a Planck unit. The withdrawn manuscript #14 used "M_Pl = 1.22e19 GeV" (§3), which the referee checked as "OK" (Step 2).
 
 ### The same equations in both conventions
 
@@ -162,7 +162,7 @@ one per Hubble volume in reduced-Planck convention: n/s = 0.828 (T/MPl_red)^3 ; 
 
 [Calc note #8](/wiki/history/documents/debt-1-notes) §3 [D + T] finds that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), acting as the exchange of the program's two spin-2 frames, gives the two metrics "equal effective Planck masses (forced by the same symmetry)", M_f = M_g in the notation of the v3 worklog (`review/v3-worklog.md` item R7; [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). Two consequences follow, each on its own page:
 
-- Ordinary matter, coupled to g, feels the massive field, the [momentum graviton X](/wiki/gravity/momentum-graviton), at gravitational strength. [Checkpoint #11](/wiki/history/documents/checkpoint) §7.5 gives X's couplings to it as "gravitational-strength and Yukawa-cut at 1/M_X" [D], and #8 §3 places their safety in X's short range: "safety is by **range**, not decoupling" ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)).
+- Ordinary matter, coupled to g, feels the massive field, the [momentum graviton X](/wiki/gravity/momentum-graviton), at gravitational strength. [Checkpoint #11](/wiki/history/documents/checkpoint) §7.5 gives X's couplings to it as "gravitational-strength and Yukawa-cut at 1/M_X" [D] ([Yukawa forces](/wiki/gravity/spin-2-fields/yukawa-forces#the-momentum-graviton-x)), and #8 §3 places their safety in X's short range: "safety is by **range**, not decoupling" ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)).
 - The regime in which a heavy spin-2 field has been shown to be linearly stable at late times, M_f ≪ M_g, is excluded, and X's stability in an expanding universe is open ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
 
 ### The retired soliton candidate
@@ -204,7 +204,7 @@ The collision entry is under [one quantity, two conventions](/wiki/notation#one-
 - M. Planck, "Über irreversible Strahlungsvorgänge," Sitzungsberichte der Preußischen Akademie der Wissenschaften (1899) †: the units.
 - Particle Data Group, *Review of Particle Physics* (2024), astrophysical constants: the source the round-3 referee names for M_Pl (audit notes Step 2). `verify/soliton_obituary.py` types the same value in.
 - K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. (2012) †: the normalization of a spin-2 field and its coupling to matter, with the bimetric theories.
-- E. W. Kolb, M. S. Turner, *The Early Universe* (Addison-Wesley, 1990): #14's reference [17]; `verify/soliton_obituary.py` takes from "Kolb & Turner eqs. 5.43-5.45" the freeze-out formulas, which it codes with M_Pl ([the radiation era](/wiki/cosmology/early-universe/radiation-era#standard-references)).
+- E. W. Kolb, M. S. Turner, *The Early Universe* (Addison-Wesley, 1990): #14's reference [17]; `verify/soliton_obituary.py` takes from "Kolb & Turner eqs. 5.43-5.45" the [freeze-out formulas](/wiki/dark-matter/candidates/thermal-freeze-out#the-s-wave-formula-as-the-program-codes-it), which it codes with M_Pl ([the radiation era](/wiki/cosmology/early-universe/radiation-era#standard-references)).
 
 ## Used by
 

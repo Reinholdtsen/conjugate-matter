@@ -108,7 +108,7 @@ The island's upper edge is written differently in the three notes: "m_χ ≲ meV
 
 ## What stays open
 
-- **The [relic abundance](/wiki/dark-matter/candidates/relic-abundance)** on the particle island. The wave island obtains its abundance from [misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic). The particle island has no such route: the lab notebook states that this sector "cannot freeze out thermally without cannibalism problems" and assigns the abundance to [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis) [O] (`notes/broken-born-theory.md` §5.3). The ratio of dark to ordinary matter stays open for both candidates: "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12).
+- **The [relic abundance](/wiki/dark-matter/candidates/relic-abundance)** on the particle island. The wave island obtains its abundance from [misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic). The particle island has no such route: the lab notebook states that this sector "cannot freeze out thermally without cannibalism problems" ([thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out#particle-χ-the-route-the-notebook-closes)) and assigns the abundance to [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis) [O] (`notes/broken-born-theory.md` §5.3). The ratio of dark to ordinary matter stays open for both candidates: "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12).
 - **Which island is realized** is an observational question, posed by [the island discriminant](/wiki/predictions/island-discriminant).
 
 ## Record

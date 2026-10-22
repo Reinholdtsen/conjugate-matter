@@ -67,7 +67,7 @@ Debt 3b obtains the rate from the generic estimate by three choices ('The rate')
 
 ### Word collisions
 
-Several symbols on this page mean something else elsewhere in the program. c is a numerical coefficient, not the speed of light. g is the gated coupling (in GeV⁻²), not the metric. ρ is a mass density, not the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity). σ is a velocity dispersion, distinct from the cross-sections σ₀ and σ_scat. G is Newton's constant here but the gate function in Debt 3a. Λ in the gravitational rate is undefined in the note and is not the cosmological constant. Ω is the orbital stirring rate, not a density parameter Ω_χ. The [glossary](/wiki/glossary) and [notation](/wiki/notation) pages list the collisions.
+Several symbols on this page mean something else elsewhere in the program. c is a numerical coefficient, not the speed of light. g is the gated coupling (in GeV⁻²), not the metric. ρ is a mass density, not the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity). σ is a velocity dispersion, distinct from the cross-sections σ₀ and σ_scat. G is Newton's constant here but the gate function in Debt 3a. Λ in the gravitational rate is undefined in the note and is not [the cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#the-letter-λ). Ω is the orbital stirring rate, not a density parameter Ω_χ. The [glossary](/wiki/glossary) and [notation](/wiki/notation) pages list the collisions.
 
 ## The rate
 

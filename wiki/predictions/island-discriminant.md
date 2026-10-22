@@ -58,7 +58,7 @@ Calc note #3 states the discriminant as the first of two corollaries of its cond
 
 ### The particle side
 
-On the particle island the suppression is the gate's own tail. The amplitude M(k,q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²) carries a gate factor F in the incoming relative momentum k (#11 §8; [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate#the-amplitude)), and the cross-section follows as σ_T(v) = σ₀F(v²/v\*²). Every collision faster than v\* is cut off by F itself. With the lab notebook's Gaussian gate the cutoff is e^{−v²/v\*²}, the form calc note #3 quotes; the [lab notebook](/wiki/history/documents/lab-notebook) called it "An exponential cliff, not a power-law tail" (#1 §5.1, transcribed from its LaTeX).
+On the particle island the suppression is the gate's own tail. The amplitude M(k,q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²) carries a gate factor F in the incoming relative momentum k (#11 §8; [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate#the-amplitude)), and the [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) follows as σ_T(v) = σ₀F(v²/v\*²). Every collision faster than v\* is cut off by F itself. With the lab notebook's Gaussian gate the cutoff is e^{−v²/v\*²}, the form calc note #3 quotes; the [lab notebook](/wiki/history/documents/lab-notebook) called it "An exponential cliff, not a power-law tail" (#1 §5.1, transcribed from its LaTeX).
 
 ### The wave side
 

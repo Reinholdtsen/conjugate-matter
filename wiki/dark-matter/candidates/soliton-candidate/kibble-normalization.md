@@ -25,7 +25,7 @@ sources:
   - "review/round3-adjudication.md 'Rulings' 13"
 ---
 
-*The Kibble normalization is the number p in the estimate of how many [monopoles](/wiki/electric-magnetic-duality/monopoles) a symmetry-breaking phase transition in the early universe leaves behind: the yield n/s = p (T_c/M_Pl)³, the number of monopoles per unit entropy, where T_c is the transition temperature and M_Pl the Planck mass. Version 3 of the soliton manuscript #14 used p ≈ 0.023 and treated p = 1 as an upper end. The [round-3](/wiki/method/review/round-3) referee showed that 0.023 is what the formula gives when the expansion rate of the universe is written without its numerical prefactor; with the prefactor, one monopole per Hubble volume gives p ≈ 104. Because causality requires at least about that many, the value is a minimum, not a maximum. The correction moved the mass at which the monopoles would make up all the [dark matter](/wiki/dark-matter) from v3's (0.9–3.7)×10¹³ GeV down to 2.9–4.4×10¹² GeV, and the candidate was retired.*
+*The Kibble normalization is the number p in the estimate of how many [monopoles](/wiki/electric-magnetic-duality/monopoles) a symmetry-breaking phase transition in the early universe leaves behind: the yield n/s = p (T_c/M_Pl)³, the number of monopoles per unit entropy, where T_c is the transition temperature and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#one-convention-per-formula). Version 3 of the soliton manuscript #14 used p ≈ 0.023 and treated p = 1 as an upper end. The [round-3](/wiki/method/review/round-3) referee showed that 0.023 is what the formula gives when the expansion rate of the universe is written without its numerical prefactor; with the prefactor, one monopole per Hubble volume gives p ≈ 104. Because causality requires at least about that many, the value is a minimum, not a maximum. The correction moved the mass at which the monopoles would make up all the [dark matter](/wiki/dark-matter) from v3's (0.9–3.7)×10¹³ GeV down to 2.9–4.4×10¹² GeV, and the candidate was retired.*
 
 **Status:** Dead — v3's value. The corrected p = 104.31 is [V] ([#11](/wiki/history/documents/checkpoint) §12, "p ≈ 104 [V]") and gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Round-3 ruling 1 upheld the finding, and the adjudicator's evidence ends "My error came from misremembering the formula" ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). Home: [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate); listed in [the graveyard](/wiki/status/graveyard).
 
@@ -100,7 +100,7 @@ Every number in v3 was gated in a script, `knot_numbers.py`, and v3 §6 claimed 
 
 ## The corrected value in the gate
 
-`verify/soliton_obituary.py` replaced the old script on 2026-10-19. It checks its anchors first, each a textbook identity or a published value, and only then the ruling's numbers. The lines of its current output that bear on the normalization (an excerpt; the other two anchors test the freeze-out formula and ΔN_eff):
+`verify/soliton_obituary.py` replaced the old script on 2026-10-19. It checks its anchors first, each a textbook identity or a published value, and only then the ruling's numbers. The lines of its current output that bear on the normalization (an excerpt; the other two anchors test the [freeze-out formula](/wiki/dark-matter/candidates/thermal-freeze-out#the-anchor) and ΔN_eff):
 
 ```text
 == Anchors

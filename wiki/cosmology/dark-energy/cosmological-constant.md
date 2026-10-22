@@ -39,7 +39,7 @@ sources:
 G_μν + Λ g_μν = T_μν / M_P²
 ```
 
-Here g_μν is the metric, G_μν the Einstein tensor built from its curvature, T_μν the stress-energy tensor of matter and radiation, and M_P the reduced Planck mass, M_P² = 1/(8πG) with G Newton's constant. The Einstein tensor has zero divergence identically (the contracted Bianchi identity), and so does the metric, whose covariant derivative vanishes; the added term therefore keeps the equations consistent with the conservation of T_μν. In four dimensions, combinations of these two are the only divergence-free symmetric tensors built from the metric and its first two derivatives (Lovelock 1971 †), so Λ is the one constant besides G that equations of this kind can contain. It has the dimensions of a curvature, an inverse length squared.
+Here g_μν is the metric, G_μν the Einstein tensor built from its curvature, T_μν the stress-energy tensor of matter and radiation, and M_P the [reduced Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-conventions-for-the-planck-mass-t), M_P² = 1/(8πG) with G Newton's constant. The Einstein tensor has zero divergence identically (the contracted Bianchi identity), and so does the metric, whose covariant derivative vanishes; the added term therefore keeps the equations consistent with the conservation of T_μν. In four dimensions, combinations of these two are the only divergence-free symmetric tensors built from the metric and its first two derivatives (Lovelock 1971 †), so Λ is the one constant besides G that equations of this kind can contain. It has the dimensions of a curvature, an inverse length squared.
 
 In the action the term is a constant energy per unit volume of spacetime:
 

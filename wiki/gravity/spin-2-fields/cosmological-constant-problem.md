@@ -32,7 +32,7 @@ In quantum field theory every mode of every field keeps a zero-point energy prop
 
 ### Vacuum energy gravitates
 
-General relativity couples gravity to every form of energy [T]. The vacuum looks the same to every observer, so its stress-energy tensor is proportional to the metric, T_μν = −ρ_vac g_μν (mostly-plus sign convention), which is exactly the form of a cosmological constant. A vacuum energy density ρ_vac therefore adds to the cosmological constant Λ, and only the total, the constant in the gravitational action plus all vacuum contributions, is observable [T].
+General relativity couples gravity to every form of energy [T]. The vacuum looks the same to every observer, so its stress-energy tensor is proportional to the metric, T_μν = −ρ_vac g_μν (mostly-plus sign convention), which is exactly the form of a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#λ-as-vacuum-energy-t). A vacuum energy density ρ_vac therefore adds to the cosmological constant Λ, and only the total, the constant in the gravitational action plus all vacuum contributions, is observable [T].
 
 ### The size of the mismatch
 

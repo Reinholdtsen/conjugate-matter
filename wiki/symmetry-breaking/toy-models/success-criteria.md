@@ -58,7 +58,7 @@ The criterion separates classical breaking, a property of the minima of an actio
 - "This is the analogue of a Yukawa coupling giving masses through a vacuum expectation value. It is the content of the program's claim that 'forces fade with distance, never with velocity difference' because the vacuum is polarized."
 - "Pass requires an explicit computation, e.g. of a two-point function or an effective interaction, showing the anisotropy."
 
-S5 is the answer to [round 3](/wiki/method/review/round-3): a vacuum choice that changes nothing in matter's interactions does no work. In the standard model the Higgs field's vacuum value gives fermions their masses, but only because Yukawa couplings link the fermions to the Higgs field [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)); S5 asks for the analogous link between the polarization and locality.
+S5 is the answer to [round 3](/wiki/method/review/round-3): a vacuum choice that changes nothing in matter's interactions does no work. In the standard model the Higgs field's vacuum value gives fermions their masses, but only because [Yukawa couplings](/wiki/gravity/spin-2-fields/yukawa-forces#a-name-collision-the-yukawa-coupling) link the fermions to the Higgs field [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)); S5 asks for the analogous link between the polarization and locality.
 
 ## The forecasts
 

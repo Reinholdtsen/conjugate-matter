@@ -99,7 +99,7 @@ The three corollaries fare differently there:
 
 ## Chat-only: the slaved layer is algebraic
 
-The handoff lists among the results that exist only in the claude.ai conversation, not in any document: "**GR-vs-conjugate equation comparison:** slaved layer g̃ = g⁻¹ is algebraic (Einstein's equation does double duty); dual Newtonian limit = Yukawa in momentum = the gate; X-waves massive, 5 polarizations, frequency floor." (`HANDOFF.md` §4; GR is general relativity.) An algebraic relation gives g̃ no field equation of its own, so the equation that determines g determines g̃ as well. No document derives the comparison, and its status is conjecture ([two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results); [conjectures](/wiki/status/conjectures)).
+The handoff lists among the results that exist only in the claude.ai conversation, not in any document: "**GR-vs-conjugate equation comparison:** slaved layer g̃ = g⁻¹ is algebraic (Einstein's equation does double duty); dual Newtonian limit = Yukawa in momentum = the gate; X-waves massive, 5 polarizations, frequency floor." (`HANDOFF.md` §4; GR is general relativity; [a range in momentum](/wiki/gravity/spin-2-fields/yukawa-forces#conjugate-special-relativity-a-range-in-momentum).) An algebraic relation gives g̃ no field equation of its own, so the equation that determines g determines g̃ as well. No document derives the comparison, and its status is conjecture ([two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results); [conjectures](/wiki/status/conjectures)).
 
 ## Used by
 

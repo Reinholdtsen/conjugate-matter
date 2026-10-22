@@ -82,7 +82,7 @@ With η rigid as well as ω, calc note #5 found: "No Lagrangian Grassmannian, no
 
 ### The lightness postulate [P]
 
-At d = 4 the Grassmannian has ten directions, τ's circle and nine others: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D). The lab notebook assumes τ is the lightest of them, "with the other nine directions heavy" [P] (#1 §2). Calc note #7 builds the same assumption into [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric): "the light direction of the compact space being τ (the dark-energy field)" (§4). Whether the nine survive at all is [an open question](/wiki/phase-space/modular-field/field-content).
+At d = 4 the Grassmannian has ten directions, τ's circle and nine others: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D; [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints)). The lab notebook assumes τ is the lightest of them, "with the other nine directions heavy" [P] (#1 §2). Calc note #7 builds the same assumption into [constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric): "the light direction of the compact space being τ (the dark-energy field)" (§4). Whether the nine survive at all is [an open question](/wiki/phase-space/modular-field/field-content).
 
 ### Not eaten when X becomes massive
 
@@ -90,7 +90,7 @@ When the polarization choice gives the momentum graviton X its mass, X absorbs o
 
 ### Fifth forces
 
-Being the angle of a nearly flat direction, τ couples to matter only through its derivatives. The lab notebook: "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa" coupling to Standard Model matter, and therefore "safe from torsion-balance bounds despite being ultralight" [D] (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force); [Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs)).
+Being the angle of a nearly flat direction, τ couples to matter only through its derivatives. The lab notebook: "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa" coupling to Standard Model matter, and therefore "safe from torsion-balance bounds despite being ultralight" [D] (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force); [Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs); [no coupling, so no Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces#the-field-τ-no-coupling-so-no-yukawa-force)).
 
 ## τ's potential and its tests
 

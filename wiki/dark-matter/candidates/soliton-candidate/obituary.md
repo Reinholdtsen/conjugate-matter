@@ -89,7 +89,7 @@ The adjudication records the outcome: "**Referee: C (fundamentally flawed), medi
 
 ### The count of monopoles was normalized too low
 
-A symmetry-breaking transition in the early universe leaves topological defects behind. The standard estimate of how many is [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism): regions farther apart than the horizon cannot coordinate their choice of vacuum, so at least about one defect forms per horizon volume [T]. The manuscript wrote the [yield](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set), the number of monopoles per unit entropy, as n/s = p (T_c/M_Pl)³, with T_c the transition temperature and M_Pl the Planck mass. #11 §12:
+A symmetry-breaking transition in the early universe leaves topological defects behind. The standard estimate of how many is [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism): regions farther apart than the horizon cannot coordinate their choice of vacuum, so at least about one defect forms per horizon volume [T]. The manuscript wrote the [yield](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set), the number of monopoles per unit entropy, as n/s = p (T_c/M_Pl)³, with T_c the transition temperature and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units). #11 §12:
 
 > The Kibble estimate n/s = p (T_c/M_Pl)³ had been normalized at p = 1 (#14 v2) and p ≈ 0.023 (#14 v3).
 >
@@ -125,7 +125,7 @@ The abundance finding was decisive, and most of the remaining rulings fell on th
 |---|---|---|---|
 | 4 | the ψ relic window is too high | upheld | [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) |
 | 5 | the hidden temperature bound is ξ < 0.760, not 0.77 | upheld (minor) | [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) |
-| 6 | MeV-scale ψ freezes out during nucleosynthesis | accepted, not re-checked | [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) |
+| 6 | MeV-scale ψ [freezes out](/wiki/dark-matter/candidates/thermal-freeze-out#the-retired-candidates-hidden-sector) during [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#the-ψ-relic-windows-lower-edge) | accepted, not re-checked | [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) |
 | 7 | the "O(1) coefficient at the Planck scale" of the dimension-5 mixing operator is unsupported | upheld | [Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) |
 | 8 | Baumgart et al. lack the adjoint operator | overturned | [Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) |
 | 9 | with mixing and a hidden θ, the monopoles carry a small visible electric charge | accepted, not re-checked | [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) |

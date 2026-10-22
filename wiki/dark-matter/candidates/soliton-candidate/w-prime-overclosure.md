@@ -52,7 +52,7 @@ The monopoles were to be made by the [Kibble mechanism](/wiki/electric-magnetic-
 
 ## Freeze-out and the size of the overclosure
 
-In standard s-wave freeze-out the relic density is inversely proportional to the annihilation cross-section [T]. For annihilation through a gauge coupling α, σv scales as α²/m², so a heavier species annihilates more weakly and leaves more behind; at masses near 10¹² GeV the relic is enormous. The script ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) computes it with the Kolb–Turner freeze-out formula described on [the relic-abundance page](/wiki/dark-matter/candidates/relic-abundance#the-s-wave-formula-as-the-program-codes-it), with these inputs:
+In standard s-wave freeze-out the relic density is inversely proportional to the annihilation cross-section [T]. For annihilation through a gauge coupling α, σv scales as α²/m², so a heavier species annihilates more weakly and leaves more behind; at masses near 10¹² GeV the relic is enormous. The script ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) computes it with the Kolb–Turner freeze-out formula described on [thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out#the-s-wave-formula-as-the-program-codes-it), with these inputs:
 
 ```text
 σv     = κ π α_W′² / m_W′²        κ = 1 and 10
@@ -98,7 +98,7 @@ The referee recomputed it at the required ratio (Step 4(a) item 4): "W' overclos
 - ψ is itself stable and a thermal relic, so its mass had to keep it a minor component; that mass window was later found wrong at both edges ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window));
 - ψ carries a small visible charge if the two photons mix, unless hidden charge conjugation is gauged ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing));
 - its plasma is the medium for monopole–antimonopole annihilation, which fed acceptance criterion 3 ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor));
-- if lighter than about an MeV it would add radiation at nucleosynthesis ("not yet scripted").
+- if lighter than about an MeV it would add radiation at [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#radiation-from-a-light-hidden-fermion) ("not yet scripted").
 
 It also changed which charge the coupling hypothesis H refers to. The worklog's 'v3 as drafted' section: "The light doublet (O1) makes ψ's charge g_d/2 the smallest dark charge. H matches *that* charge to ours, so α_W′ = 4α ≈ 1/34 and the monopoles' coupling is α_m = 1/α_W′ = 1/(4α) ≈ 34 exactly, by Dirac quantization relative to ψ" ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
 

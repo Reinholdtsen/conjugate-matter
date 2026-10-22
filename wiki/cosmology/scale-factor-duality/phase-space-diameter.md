@@ -23,7 +23,7 @@ The bullet makes four claims:
 
 1. **The product.** The universe's extent in position, D_x, times its extent in momentum, D_p, equals Planck's constant h times N^{1/3}, along each of the three dimensions.
 2. **The constant.** N is "the universe's photon count/entropy", given as ~10⁹⁰, so that the product is "~10³⁰ h per dimension".
-3. **The square.** In Planck units the "rectangle" D_x × D_p is square, D_x = D_p, "exactly at the bounce".
+3. **The square.** In [Planck units](/wiki/gravity/spin-2-fields/planck-units#planck-units-in-a-chat-only-conjecture) the "rectangle" D_x × D_p is square, D_x = D_p, "exactly at the bounce".
 4. **The clock.** Its "aspect ratio today ~10⁹²" is "a clock measuring distance from self-duality".
 
 The handoff does not define D_x and D_p beyond their names, does not say what N counts beyond "photon count/entropy", and gives no derivation.

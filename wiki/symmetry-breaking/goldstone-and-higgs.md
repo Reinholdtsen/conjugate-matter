@@ -57,7 +57,7 @@ The program's coset toy model ([model I](/wiki/symmetry-breaking/toy-models/cose
 L = (f_H²/8) Tr(H⁻¹∂H H⁻¹∂H) + (f_K²/4) Tr(H⁻¹ ∂Kᵀ H ∂K) + (λ/8) Tr(H⁻¹ Cᵀ H C),   C = KI + IK
 ```
 
-where I ≡ ω⁻¹H. "The potential vanishes exactly when K is compatible with H" (toy-model note §2), and at H = 1 [the gate](/wiki/method/verification/the-gate) checks that it is a sum of squares (`verify/toy_coset.py`). The compatible pairs, the vacua, form "the upper half-plane times a circle of K's, a 3-dimensional space" (worklog, 'Chunk 1 results'). The fields span four directions, two for H and two for K, whose target is "two-dimensional de Sitter space" (toy-model note §2). So at a vacuum the potential is flat along three directions and curves upward in one. The gate's spectrum section is headed "4 fields, 3-dim vacuum manifold", and its check reads:
+where I ≡ ω⁻¹H. "The potential vanishes exactly when K is compatible with H" (toy-model note §2), and at H = 1 [the gate](/wiki/method/verification/the-gate) checks that it is a sum of squares (`verify/toy_coset.py`). The compatible pairs, the vacua, form "the upper half-plane times a circle of K's, a 3-dimensional space" (worklog, 'Chunk 1 results'). The fields span four directions, two for H and two for K, whose target is "two-dimensional de Sitter space" (toy-model note §2; [de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space#two-dimensional-de-sitter-space-as-the-target-of-k)). So at a vacuum the potential is flat along three directions and curves upward in one. The gate's spectrum section is headed "4 fields, 3-dim vacuum manifold", and its check reads:
 
 ```text
 PASS  potential Hessian has rank 1: three flat directions (Goldstones), one massive  [[0, 4, 0, 0]]
@@ -79,7 +79,7 @@ A small explicit breaking of the symmetry tilts the vacuum manifold [T]. The wou
 The program meets the idea twice:
 
 - **The polarization angle with a ρ-preserving potential.** To make the polarization definite, model I adds a potential that keeps ρ and reduces the continuous rotation of K to a discrete group. In its bounded form, at H = 1, "V_b = −(μ/2)(1 + cos 2φ)" (toy-model note §4), with its minima at the two vacua ±K_ref. The worklog draws the conclusion: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). See [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
-- **The dark-energy field τ.** [The lab notebook](/wiki/history/documents/lab-notebook): "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa to SM matter, safe from torsion-balance bounds despite being ultralight. [D]" (#1 §4), where SM is the Standard Model. See [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
+- **The dark-energy field τ.** [The lab notebook](/wiki/history/documents/lab-notebook): "τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa to SM matter, safe from torsion-balance bounds despite being ultralight. [D]" (#1 §4; [no coupling, so no Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces#the-field-τ-no-coupling-so-no-yukawa-force)), where SM is the Standard Model. See [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force).
 
 ### A zero mode that no symmetry protects
 

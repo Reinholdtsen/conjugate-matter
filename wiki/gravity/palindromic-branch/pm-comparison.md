@@ -61,13 +61,13 @@ The handoff records the same finding: "the partially-massless (PM) bimetric poin
 
 ### (a) Partially massless bimetric gravity [24S]
 
-Partially massless gravity is a massive spin-2 field on de Sitter space at the one special mass at which an extra gauge symmetry appears and removes its helicity-0 polarization [T]; bimetric gravity has a parameter point with that property ([partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity)). #11 §7.4 (a):
+Partially massless gravity is a massive spin-2 field on [de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space) at the one special mass at which an extra gauge symmetry appears and removes its helicity-0 polarization [T]; bimetric gravity has a parameter point with that property ([partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity)). #11 §7.4 (a):
 
 > The interchange-symmetric parameter choice appears in the partially-massless (PM) bimetric literature: the PM point β₀ = 3α⁻²β₂, β₁ = β₃ = 0, β₄ = 3α²β₂ makes the potential g↔f symmetric, with proportional de Sitter solutions of undetermined ratio [24S]. At α = 1 the PM point lies **inside** our palindromic branch — so partially massless gravity, with its celebrated extra gauge symmetry, is a special point of the reciprocity-symmetric family, raising the open question of whether reciprocity is the origin of the PM symmetry [O].
 
 The point lies in the branch because β₁ = β₃ = 0 already satisfies β₁ = β₃, and at α = 1 the expressions for β₀ and β₄ coincide, so the coefficient list reads the same in both directions.
 
-It is not the program's point. #11 §7.4 continues: "Note the PM point sits at Λ ≠ 0 with c undetermined; our flat-aligned-vacuum identity selects a *different* point of the same branch (β₁ ≠ 0 generically, β₀ = −4β₁ − 3β₂)." The two points share the branch but not the vacuum: the partially massless point has a nonzero cosmological constant Λ, and the identity's point is the flat aligned vacuum.
+It is not the program's point. #11 §7.4 continues: "Note the PM point sits at Λ ≠ 0 with c undetermined; our flat-aligned-vacuum identity selects a *different* point of the same branch (β₁ ≠ 0 generically, β₀ = −4β₁ − 3β₂)." The two points share the branch but not the vacuum: the partially massless point has a nonzero [cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant), and the identity's point is the flat aligned vacuum.
 
 Reference [24][S] in #11: "Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515". #11 gives no authors, and the handoff cites the same arXiv number without a title (HANDOFF §2, §8). Flag 9 in `review/wiki-build-flags.md` adds that the title may be a description rather than the paper's own title, and that, being marked [S], the entry falls outside the [† literature battery](/wiki/method/literature-battery) (open problem 10), which checks the citations made from model memory. The record therefore identifies the partially massless paper this comparison is against only by its arXiv number and a possibly descriptive title.
 
@@ -89,7 +89,7 @@ The sources ask for a "convention-careful" check (#11 §14 item 2) without listi
 
 - #11 writes the partially massless point with α and c and defines neither; [partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity) gives their usual meanings in the bimetric literature [T].
 - #8 writes the program's potential with the prefactor 2m²M² and its exchange identity with the symbol Sₙ, and defines none of m, M and Sₙ (#8 §1; [the palindrome](/wiki/gravity/palindromic-branch/palindrome)).
-- Reciprocity forces "equal effective Planck masses (forced by the same symmetry)" (#8 §3; [spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)); no document relates that normalization to the α of [24S].
+- Reciprocity forces "equal effective Planck masses (forced by the same symmetry)" (#8 §3; [spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity); [equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector)); no document relates that normalization to the α of [24S].
 
 The [S] marks mean that all three works were retrieved by live search during the project. They therefore lie outside the [† literature battery](/wiki/method/literature-battery), open problem 10, which source-checks the references cited from model memory; that battery is the second task of the same queue item.
 

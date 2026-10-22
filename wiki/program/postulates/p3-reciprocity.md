@@ -102,7 +102,7 @@ After [round 3](/wiki/method/review/round-3) the toy became the program's next t
 [Model I](/wiki/symmetry-breaking/toy-models/coset-model) of the [toy-model note](/wiki/symmetry-breaking/toy-models) works on phase space ℝ² (d = 1), with ω = [[0, 1], [−1, 0]] rigid, and fields on a 1+1-dimensional base (toy note §1–§2):
 
 - H, a positive symmetric symplectic matrix, parametrized by a point Z = X + iY of the upper half-plane, with I ≡ ω⁻¹H and I² = −1;
-- K, a real structure with K² = 1 and Kᵀ ω K = −ω, which defines the neutral metric η = ωK. Its target is "the one-sheeted hyperboloid a² + bc = 1, which is two-dimensional de Sitter space".
+- K, a real structure with K² = 1 and Kᵀ ω K = −ω, which defines the neutral metric η = ωK. Its target is "the one-sheeted hyperboloid a² + bc = 1, which is two-dimensional de Sitter space" ([de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space#two-dimensional-de-sitter-space-as-the-target-of-k)).
 
 The Euclidean Lagrangian is
 

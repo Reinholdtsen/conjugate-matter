@@ -126,7 +126,7 @@ In the Born approximation, first order in the potential, the amplitude for two p
 dσ/dΩ ∝ (m_r Q₁Q₂)² / (q² + M²)²
 ```
 
-The momentum-transfer cross-section σ_T weights each direction by the fraction of forward momentum the collision removes, 1 − cos θ ([the transfer cross-section](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#the-transfer-cross-section-t)). Written as an integral over the transfer, with 1 − cos θ = q²/(2k²) and dΩ = 2πq dq/k²,
+The momentum-transfer cross-section σ_T weights each direction by the fraction of forward momentum the collision removes, 1 − cos θ ([the transfer cross-section σ_T](/wiki/dark-matter/halo-astrophysics/transfer-cross-section)). Written as an integral over the transfer, with 1 − cos θ = q²/(2k²) and dΩ = 2πq dq/k²,
 
 ```text
 σ_T ∝ ((m_r Q₁Q₂)² / k⁴) · ∫₀^{2k} q³ dq / (q² + M²)²

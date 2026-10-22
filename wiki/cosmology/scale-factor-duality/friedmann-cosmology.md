@@ -12,7 +12,7 @@ sources:
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
-*Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a cosmological constant, thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its [cosmology](/wiki/cosmology) in this reduced form and adds a second scale factor for the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of the same state.*
+*Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant), thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its [cosmology](/wiki/cosmology) in this reduced form and adds a second scale factor for the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of the same state.*
 
 **Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in `notes/broken-born-theory.md` §6 [D], summarized in [#11](/wiki/history/documents/checkpoint) §10, and not machine-checked.
 
@@ -34,7 +34,7 @@ A spatially curved universe replaces dx² by the metric of a sphere (closed, cur
 
 ## Minisuperspace: gravity reduced to a(t) and N(t) [T]
 
-Superspace is the space of all spatial geometries, the configuration space of [general relativity](/wiki/gravity/spin-2-fields/general-relativity) in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the reduced Planck mass (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
+Superspace is the space of all spatial geometries, the configuration space of [general relativity](/wiki/gravity/spin-2-fields/general-relativity) in its Hamiltonian form. Restricting it to the FLRW family leaves one geometric variable, a(t), plus the lapse; that drastic reduction is called minisuperspace (DeWitt 1967 †; Misner 1969 †). Substituting the FLRW metric into the Einstein–Hilbert action and integrating the second time derivative by parts gives, per unit comoving volume and with M_P the [reduced Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-conventions-for-the-planck-mass-t) (M_P² = 1/(8πG)), a gravitational Lagrangian of the form
 
 ```text
 L = −3 M_P² a ȧ² / N  −  N a³ ρ(a)

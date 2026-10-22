@@ -70,7 +70,7 @@ where Y_eq = n_eq/s and Γ is the rate at which one particle annihilates. The se
 
 ## Why freeze-out happens near T ~ m/20 [T]
 
-Freeze-out is where Γ/H falls to about x. Take a cross-section σ₀ that does not depend on velocity, so that Γ = n_eq σ₀ just before freeze-out, with n_eq as above, and the radiation-era expansion rate H = 1.66 √g\* T²/M_Pl, where g\* counts the relativistic species and M_Pl is the Planck mass ([the expansion rate](/wiki/cosmology/early-universe/radiation-era#the-expansion-rate-t)). The condition Γ = xH at T = m/x then takes the form [T]
+Freeze-out is where Γ/H falls to about x. Take a cross-section σ₀ that does not depend on velocity, so that Γ = n_eq σ₀ just before freeze-out, with n_eq as above, and the radiation-era expansion rate H = 1.66 √g\* T²/M_Pl, where g\* counts the relativistic species and M_Pl is the [Planck mass](/wiki/gravity/spin-2-fields/planck-units) ([the expansion rate](/wiki/cosmology/early-universe/radiation-era#the-expansion-rate-t)). The condition Γ = xH at T = m/x then takes the form [T]
 
 ```text
 x_f = ln(C · g M_Pl m σ₀ / √g*) − ½ ln x_f
@@ -136,7 +136,7 @@ A hidden sector that has decoupled from the visible plasma keeps its own tempera
 
 - **The clock.** A hidden species is held at equilibrium by its own plasma, so n_eq is set by T_h, and the freeze-out point refers to it: T_h ~ m/20 in the rule of thumb.
 - **The expansion rate.** H is set by the total energy density of both sectors, mostly the visible plasma's when the hidden sector is colder. At a given T_h the universe therefore expands faster than it would if everything were at T_h, which changes both x_f and the final yield. The formula above, written for one plasma, does not include this.
-- **The visible clock.** The same freeze-out falls at a hotter visible temperature, T_h divided by the temperature ratio at that moment. This matters when something in the visible plasma is under way at that time, such as nucleosynthesis.
+- **The visible clock.** The same freeze-out falls at a hotter visible temperature, T_h divided by the temperature ratio at that moment. This matters when something in the visible plasma is under way at that time, such as [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis).
 
 The script's function has no temperature ratio. The round-3 referee's own relic integration, which follows the hidden temperature from a starting ratio ξ₀, is described on [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window#the-referees-numbers); its results for the program's cases are below.
 
@@ -144,7 +144,7 @@ The script's function has no temperature ratio. The round-3 referee's own relic 
 
 The comparison of a reaction rate with the expansion rate appears in the record in two other settings, and the word "freeze-out" in one different sense.
 
-- **The neutron-to-proton ratio.** At the start of nucleosynthesis, the weak reactions that turn neutrons into protons and back become slower than the expansion, and the ratio of the two stops changing [T] ([how N_eff is measured](/wiki/cosmology/early-universe/radiation-era#how-n_eff-is-measured-t)). The round-3 referee's script marks it at "n/p freeze-out ~0.8 MeV" of visible temperature (`review/round3/referee/step4.out`).
+- **The neutron-to-proton ratio.** At the start of nucleosynthesis, the weak reactions that turn neutrons into protons and back become slower than the expansion, and the ratio of the two stops changing [T] ([neutron–proton freeze-out](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#neutronproton-freeze-out)). The round-3 referee's script marks it at "n/p freeze-out ~0.8 MeV" of visible temperature (`review/round3/referee/step4.out`).
 - **Monopole annihilation.** A monopole and an antimonopole annihilate when they meet, and #14 asked for "the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma" (§6). Defects differ from a thermal relic in one respect [T]. They form at a phase transition by the [Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) and are far too heavy to be remade from the plasma, so their equation has no n_eq² term. Annihilation can only lower a number set at formation, and it stops once the rate per monopole falls below H ([annihilation is not enough](/wiki/electric-magnetic-duality/monopoles/monopole-problem#annihilation-is-not-enough-t)).
 - **Kibble–Zurek dynamics.** Near a continuous phase transition the field's relaxation time grows, and its correlation length freezes at the value it had when the field could no longer follow the cooling [T] ([continuous transitions](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism#continuous-transitions-kibblezurek)). The word is the same, but what freezes is a length set by the dynamics of the transition, not the abundance of a relic.
 

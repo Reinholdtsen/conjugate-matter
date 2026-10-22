@@ -26,7 +26,7 @@ sources:
 
 In ordinary physics momentum space is flat [T]. A particle's momentum is a vector, the momenta of independent particles add as vectors, and the total momentum of a body is the sum of its parts. The relativistic energy–momentum relation, the mass shell, is a hyperboloid drawn in this flat space.
 
-In a curved momentum space the set of possible momenta is a curved manifold [T]. Two consequences follow. The mass shell becomes a statement about distance in a curved geometry, and the momenta of two particles no longer combine by simple addition but by a nonlinear composition rule, as displacements on a sphere do not simply add [T]. The size of the departure is set by a curvature scale, a momentum or mass that the literature usually places near the Planck scale [T]. For momenta far below that scale the geometry looks flat and the ordinary rules return.
+In a curved momentum space the set of possible momenta is a curved manifold [T]. Two consequences follow. The mass shell becomes a statement about distance in a curved geometry, and the momenta of two particles no longer combine by simple addition but by a nonlinear composition rule, as displacements on a sphere do not simply add [T]. The size of the departure is set by a curvature scale, a momentum or mass that the literature usually places near the [Planck scale](/wiki/gravity/spin-2-fields/planck-units#the-scale-of-quantum-gravity-t) [T]. For momenta far below that scale the geometry looks flat and the ordinary rules return.
 
 ## The lineage #11 cites
 

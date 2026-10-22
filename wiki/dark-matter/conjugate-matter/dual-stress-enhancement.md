@@ -33,7 +33,7 @@ The checkpoint, #11, states it twice:
 
 > "Dual-stress enhancement parametrics [O]." (#11 §14 item 5)
 
-SM is the Standard Model, ordinary matter. σ₀ is the low-velocity cross-section of [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), σ_T(v) = σ₀F(v²/v\*²). "Parametrics" means how the size of the effect depends on the parameters of the theory; no source names which parameters.
+SM is the Standard Model, ordinary matter. σ₀ is the low-velocity [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) of [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), σ_T(v) = σ₀F(v²/v\*²). "Parametrics" means how the size of the effect depends on the parameters of the theory; no source names which parameters.
 
 The item was first logged in calc note #8, the last of [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes), at the end of its argument that ordinary matter is safe from X:
 
@@ -49,11 +49,11 @@ Conjugate matter's self-interaction is the gated amplitude M(k, q) = 4πα̃m_χ
 
 ## The weak side: ordinary matter
 
-Ordinary matter couples to the metric g, and once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the two spin-2 frames to have equal Planck masses, the metric contains the massless graviton and X in comparable proportions. Calc note #8 draws the consequence:
+Ordinary matter couples to the metric g, and once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the two spin-2 frames to have [equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector), the metric contains the massless graviton and X in comparable proportions. Calc note #8 draws the consequence:
 
 > "With equal effective Planck masses (forced by the same symmetry), SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X." (`notes/debt1a-iv-beta-coefficients.md` §3)
 
-#11 §7.5 carries it as "SM couplings gravitational-strength and Yukawa-cut at 1/M_X". A gravitational-strength coupling is suppressed by the Planck mass, which makes it extremely weak for elementary particles [T]. The full argument is on [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety). Calc note #8's summary has X coupled "to conjugate matter through the dual stress (the gate) and to ordinary matter only at gravitational strength and short range" (§4).
+#11 §7.5 carries it as "SM couplings gravitational-strength and Yukawa-cut at 1/M_X" ([Yukawa forces](/wiki/gravity/spin-2-fields/yukawa-forces#the-momentum-graviton-x)). A gravitational-strength coupling is suppressed by the Planck mass, which makes it extremely weak for elementary particles [T]. The full argument is on [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety). Calc note #8's summary has X coupled "to conjugate matter through the dual stress (the gate) and to ordinary matter only at gravitational strength and short range" (§4).
 
 ## Why the two must be reconciled
 

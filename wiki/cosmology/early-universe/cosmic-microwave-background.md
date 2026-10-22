@@ -83,7 +83,7 @@ The Planck data combination behind the program's N_eff interval is labelled `TT,
 
 ### Densities and the ruler
 
-The peak pattern fixes the parameters of the standard cosmological model, ΛCDM, a cosmological constant plus cold dark matter [T]:
+The peak pattern fixes the parameters of the standard cosmological model, ΛCDM, a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant) plus cold dark matter [T]:
 
 - **The baryon density Ω_b h².** Baryons add inertia to the oscillating fluid, which deepens the compressions relative to the rarefactions, so the odd-numbered peaks rise relative to the even-numbered ones [T].
 - **The dark-matter density Ω_c h².** Dark matter does not oscillate with the plasma, but it sets when matter began to dominate over radiation. While radiation dominates, the gravitational potentials decay as the plasma oscillates, which drives the oscillations harder, so the heights of the first peaks measure the matter density [T]. Here Ω_c is the density of cold dark matter as a fraction of the critical density, and h is the present Hubble rate in a conventional unit ([what is being set](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set)).
@@ -130,7 +130,7 @@ With Planck's 3.046 instead, the referee's code gives "N_eff,SM=3.046: DeltaN_ma
 
 ### The dark-matter density
 
-The round-3 record takes the mean density of [dark matter](/wiki/dark-matter) from Planck. Among the referee's independently sourced constants is Ω_c h² = 0.120, attributed to the "Planck 2018 VI abstract" (`review/round3/referee/step2a.py`), from which its code gives "rho_DM mean = 1.2644e-06 GeV/cm^3 = 1.264 keV/cm^3" (`step2a.out`); #14 had used "Omega h^2 ~ 0.12, with mean rho_DM = 1.26 keV/cm^3" (§3). `verify/soliton_obituary.py` codes the same density, `RHO_DM = 0.120*1.05371e-5` in GeV cm⁻³, and describes its constants as "PDG and Planck 2018 values", PDG being the Particle Data Group; flag 34 in `review/wiki-build-flags.md` records that they are typed in, not retrieved. The density is the target of the review's abundance calculations: the monopole yield at which the monopoles would be all of the dark matter ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)), and the freeze-out of ψ and of the W′ bosons ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance)).
+The round-3 record takes the mean density of [dark matter](/wiki/dark-matter) from Planck. Among the referee's independently sourced constants is Ω_c h² = 0.120, attributed to the "Planck 2018 VI abstract" (`review/round3/referee/step2a.py`), from which its code gives "rho_DM mean = 1.2644e-06 GeV/cm^3 = 1.264 keV/cm^3" (`step2a.out`); #14 had used "Omega h^2 ~ 0.12, with mean rho_DM = 1.26 keV/cm^3" (§3). `verify/soliton_obituary.py` codes the same density, `RHO_DM = 0.120*1.05371e-5` in GeV cm⁻³, and describes its constants as "PDG and Planck 2018 values", PDG being the Particle Data Group; flag 34 in `review/wiki-build-flags.md` records that they are typed in, not retrieved. The density is the target of the review's abundance calculations: the monopole yield at which the monopoles would be all of the dark matter ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)), and the freeze-out of ψ and of the W′ bosons ([thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out#the-retired-candidates-hidden-sector)).
 
 ### Row 10's probe: CMB-S4
 

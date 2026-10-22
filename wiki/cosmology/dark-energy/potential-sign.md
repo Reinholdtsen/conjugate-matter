@@ -50,7 +50,7 @@ A turnaround needs the total vacuum energy to become negative: only then does th
 | Document | Statement |
 | --- | --- |
 | #1 §7 item 3 (v0.1) | "A cosine potential is negative over half its range. Once τ rolls past V = 0, the effective vacuum energy is negative, expansion halts, and slow contraction begins." |
-| #1 §9 row 6 (v0.1) | "Turnaround after V(τ)<0; AdS transition preferred by current quintessence fits" (AdS: anti-de Sitter) |
+| #1 §9 row 6 (v0.1) | "Turnaround after V(τ)<0; AdS transition preferred by current quintessence fits" (AdS: [anti-de Sitter](/wiki/cosmology/dark-energy/de-sitter-space#anti-de-sitter-space-t)) |
 | #1 §12 (v0.1) | τ is "destined to go negative (turnaround = the conjugate bounce, by constraint)" |
 | #9 §8, italic passage (v1) | dark energy "eventually goes negative — at which point our expansion halts and reverses" |
 | #9 §9 row 5 (v1) | "Turnaround after V(τ) < 0 = conjugate bounce" |

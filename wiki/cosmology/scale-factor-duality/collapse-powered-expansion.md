@@ -52,7 +52,7 @@ The popular article #10 compresses the record: in 'The method is the message' it
 
 ## What survives
 
-- **The corrected dictionary**, w_eff = −w̃ [D — corrected en route], including its entry "Dual stiff ↦ Λ" (#11 §10), which turns conjugate-side kinetic energy into something that acts like a cosmological constant. In the lab notebook the same entry motivates a different source for dark energy ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)).
+- **The corrected dictionary**, w_eff = −w̃ [D — corrected en route], including its entry "Dual stiff ↦ Λ" (#11 §10), which turns conjugate-side kinetic energy into something that acts like a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#dual-kinetic-energy-acts-as-a-λ). In the lab notebook the same entry motivates a different source for dark energy ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)).
 - **Founding supposition 6**, "Conjugate universe shrinks as ours expands", "**promoted to theorem**" as [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) (#11 App. A item 6). The conjugate universe does contract as ours expands; that contraction is not a cause of our acceleration.
 - **Founding supposition 7**, "Our expansion reverses at their bounce", "**alive, corrected**" as [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) (#11 App. A item 7).
 - **Founding supposition 8**, "Synchronized, not causal; Fourier/holography", "**alive** (the dictionary)" (#11 App. A item 8): the two descriptions are linked by translation, not by one acting on the other.

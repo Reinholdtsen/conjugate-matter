@@ -29,7 +29,7 @@ sources:
 
 ## From one dynamical metric to two [T]
 
-In [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) the second metric f is fixed in advance. Hassan and Rosen showed that f can be made dynamical, with its own Einstein–Hilbert term and its own Planck mass, without bringing back the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) (the paper the checkpoint cites as [11†], "Bimetric gravity from ghost-free massive gravity"). Theories with two interacting dynamical metrics are older (Isham, Salam and Strathdee 1971†). What is new in Hassan and Rosen's theory is that the interaction is the ghost-free potential of massive gravity, and that giving f its own dynamics keeps it ghost-free. The action has the form
+In [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) the second metric f is fixed in advance. Hassan and Rosen showed that f can be made dynamical, with its own Einstein–Hilbert term and its own [Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), without bringing back the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) (the paper the checkpoint cites as [11†], "Bimetric gravity from ghost-free massive gravity"). Theories with two interacting dynamical metrics are older (Isham, Salam and Strathdee 1971†). What is new in Hassan and Rosen's theory is that the interaction is the ghost-free potential of massive gravity, and that giving f its own dynamics keeps it ghost-free. The action has the form
 
 ```text
 S = S_EH[g; M_g] + S_EH[f; M_f] − ∫ d⁴x √−g V(g, f) + S_matter[ψ; g]
@@ -38,7 +38,7 @@ V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏),        𝕏 = √(g⁻¹f)
 
 M_g and M_f are the Planck masses of the two metrics, and in the standard theory matter couples to g alone [T]. The second line is the potential as calc note #8 §1 writes it for the program's two frames (e, f = E₀[J]). #8 defines neither m nor M; the same prefactor appears in Hassan and Rosen's papers, where m sets the mass scale and M is a Planck-mass scale built from M_g and M_f (from model memory †). The eₙ are the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) of the eigenvalues of 𝕏.
 
-**What each term does** [T]. Since e₀ = 1, the β₀ term is β₀√−g, a cosmological constant for g. Since e₄ = det 𝕏 and √−g det 𝕏 = √−f, the β₄ term is β₄√−f, a cosmological constant for f. The terms β₁, β₂ and β₃ are the interactions between the two metrics.
+**What each term does** [T]. Since e₀ = 1, the β₀ term is β₀√−g, a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#cosmological-constants-in-the-bimetric-potential) for g. Since e₄ = det 𝕏 and √−g det 𝕏 = √−f, the β₄ term is β₄√−f, a cosmological constant for f. The terms β₁, β₂ and β₃ are the interactions between the two metrics.
 
 **Linear in the eₙ.** The coefficients are constants and the potential is linear in the eₙ. Calc note #7 §2: "The Hassan–Rosen ghost-free family is *linear* combinations Σβₙeₙ(√(g⁻¹f)) (constants βₙ)". A potential that is a nonlinear function of the eₙ lies outside the family, which is the second failure of the program's metric-built potential ([the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures)).
 

@@ -62,7 +62,7 @@ E = ρ̃ ã³ ∝ ã^(−3w̃) = a^(3w̃)            its energy, using ã = 1/a
 
 | Dual-frame content | Equation of state w̃ | Acts on our expansion as | w_eff |
 | --- | --- | --- | --- |
-| kinetic or stiff energy | +1 | a cosmological constant | −1 |
+| kinetic or stiff energy | +1 | a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#dual-kinetic-energy-acts-as-a-λ) | −1 |
 | a cosmological constant | −1 | a stiff fluid, dying as a⁻⁶ | +1 |
 | spatial curvature | −1/3 | dark radiation, negative for a closed dual space | +1/3 |
 | dust | 0 | dust | 0 |
