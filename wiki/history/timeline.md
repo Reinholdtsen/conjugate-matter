@@ -107,7 +107,7 @@ The handoff's queue began with cutting v3 of #14 and re-running the blind audit 
 | Time | Commit | Event |
 | --- | --- | --- |
 | 2026-10-19 10:41 | 678e48a | Every number of #14 v2 recomputed by a new script, `knot_numbers.py` in `verify/` (since replaced); the v3 worklog begun |
-| 10:59 | 2b72da0 | The literature check of the worklog, done by a subagent with web access "with no citations from memory" |
+| 10:59 | 2b72da0 | The literature report, dated 2026-10-19, folded into the worklog: a subagent with web access pulled each record "with no citations from memory" |
 | 13:23 | 2eb58de | Paul's decisions on F1 and F2, "Decided (Paul, 2026-10-19)": the benchmark mass moves to M ≈ 3×10¹³ GeV, and the hidden sector's elementary coupling is read as weak, its solitons as strongly coupled ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass)). The same commit logs item O3: #13's two dual cones are to be fixed before any paper claims more, "raised by Paul, 2026-10-19" ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)) |
 | 13:25 | d15cd4a | The minimal hidden sector scripted: its stable W′ bosons overclose the universe, so v3 needs a light dark doublet ([W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure)) |
 | 14:42 | 5dbaa82 | #14 v3 cut from the round-2 pending list and the two decisions |
