@@ -20,6 +20,7 @@ sources:
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §9"
   - "review/wiki-build-flags.md item 26"
+  - "review/wiki-build-flags.md item 27"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
@@ -58,7 +59,7 @@ No survey observes w directly. DESI measures distances with the baryon-acoustic-
 
 > "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1 + w₀); two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint."
 
-τ is the angle that locates the vacuum's polarization on the Maslov circle, a circle in the space of ways to split phase space into position and momentum halves ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). Because τ lives on a circle, its potential is periodic; the cosine form, with height V₀ and angular scale f, is the standard potential of an axion-like field [T]. τᵢ is the field's initial value. The field and its action are on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence). The requirement has three parts, each with its own derivation.
+τ is the angle that locates the vacuum's polarization on the Maslov circle, a circle in the space of ways to split phase space into position and momentum halves ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)). Because τ lives on a circle, its potential is periodic; the cosine form, with amplitude V₀ and angular scale f, is the standard potential of an axion-like field [T]. τᵢ is the field's initial value. The field and its action are on [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence). The requirement has three parts, each with its own derivation.
 
 ### Thawing
 
@@ -74,11 +75,11 @@ The lab notebook's argument, tagged [D] (#1 §7 item 1, transcribed from its LaT
 
 > "**w ≥ −1 always.** τ is a canonical scalar; the null energy condition holds; phantom crossing is impossible. **[D]** Any robust measurement of w < −1 (as an intrinsic equation of state, not an artifact of an assumed ΛCDM background) falsifies this sector outright."
 
-The steps are short. τ has a kinetic term of the standard sign, so for a uniform field the energy density is ρ = ½τ̇² + V and the pressure p = ½τ̇² − V. Then ρ + p = τ̇² ≥ 0, which is the null energy condition, and with ρ > 0 it gives w ≥ −1 [T]. The potential cancels from ρ + p, so no choice of V changes the conclusion. Below −1, dark energy would grow as space expands, which τ cannot do ([the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound#the-derivation); [the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)). The bound applies to τ as the whole of dark energy, a premise #11 supports with its [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10).
+The steps are short. τ has a kinetic term of the standard sign, so for a uniform field the energy density is ρ = ½τ̇² + V and the pressure p = ½τ̇² − V. Then ρ + p = τ̇² ≥ 0, which is the null energy condition, and with ρ > 0 it gives w ≥ −1 [T]. The potential cancels from ρ + p, so no choice of V breaks the null energy condition; the step from it to w ≥ −1 uses ρ > 0, which holds for the positive dark-energy density observed today [T]. Below −1, dark energy would grow as space expands, which τ cannot do ([the no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound#the-derivation); [the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)). The bound applies to τ as the whole of dark energy, a premise #11 supports with its [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10).
 
 ### The drift persists
 
-"Drift persists in DESI DR3" asks that the next release keep seeing w above −1 and rising, rather than settling on a constant. The sector's two remaining parameters connect the row to the next one. With V₀ fixed by the measured dark-energy density, w₀ and wₐ fix f and τᵢ, and the turnaround time t_turn of [row 5](/wiki/predictions/fate-of-expansion) is then determined: "one over-constraint" ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)). No document computes that relation.
+"Drift persists in DESI DR3" asks that the next release keep seeing w above −1 and rising, rather than settling on a constant. The sector's two remaining parameters connect the row to the next one. With V₀ fixed by the measured dark-energy density, w₀ and wₐ fix f and τᵢ, and the turnaround time t_turn of [row 5](/wiki/predictions/fate-of-expansion) is then determined: "one over-constraint" ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)). No document computes that relation, and whether t_turn exists at all for the potential as written is unresolved (`review/wiki-build-flags.md` item 27; [the over-constraint's reach](/wiki/cosmology/dark-energy/over-constraint#its-reach)).
 
 ## What kills it
 
@@ -121,7 +122,7 @@ The full record, including an italic passage of #11 §10 that still reads DESI's
 
 ## What the row does not depend on
 
-- **The sign of the potential.** The far-future turnaround of [row 5](/wiki/predictions/fate-of-expansion) needs V(τ) to become negative, which the potential as written never does for V₀ > 0 (`review/wiki-build-flags.md` item 27; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). In this wiki's reading that conflict does not touch row 4: thawing concerns the field near the potential's maximum, and the bound w ≥ −1 holds for any V.
+- **The sign of the potential.** The far-future turnaround of [row 5](/wiki/predictions/fate-of-expansion) needs V(τ) to become negative, which the potential as written never does for V₀ > 0 (`review/wiki-build-flags.md` item 27; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). In this wiki's reading that conflict does not touch row 4: thawing concerns the field near the potential's maximum, and the null energy condition behind w ≥ −1 holds for any V (the bound itself also needs a positive energy density, which today's dark energy has).
 - **The potential's origin.** Where τ's potential comes from is open ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The toy models show the structure is consistent, and #11 §10 adds: "None of this tests the cosmology".
 
 ## Superseded: DESI read as support
@@ -150,5 +151,5 @@ The row moved from 5 to 4 when the two clumping rows were withdrawn after Debt 3
 - `HANDOFF.md` §2 — the external clock and the three outcomes; its "consistent" reading is superseded
 - `notes/broken-born-theory.md` §7 items 1–2 — the no-phantom argument [D] and the thawing shape [T]; §3 — τ's action; §9 — the v0.1 row 5; 'Addendum (v0.2, post Debt-3)' — the row among the live content
 - `notes/broken-born-program-v1.md` §8, §9 — v1's reading of DESI (superseded) and its row 4
-- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5
+- `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field' and `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — "three doors" and the popsci-only "constant is impossible"; not status sources
