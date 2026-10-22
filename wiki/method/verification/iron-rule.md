@@ -55,7 +55,7 @@ The same section gives the rule's practical consequence for the project: "Claude
 
 ### The scripts and the gate
 
-Every number a current document asserts is meant to have a check in a script in `verify/`: the Tier-1 algebra of [#11](/wiki/history/documents/checkpoint) in [the battery](/wiki/method/verification/battery), the soliton obituary's numbers in [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script), and the toy-model note's results in [the toy-model scripts](/wiki/method/verification/toy-model-scripts). `scripts/check.sh` runs them all and fails if any check fails. Each check prints its measured value, which is the "printed output" the rule asks for.
+Every number a current document asserts is meant to have a check in a script in `verify/`: the [Tier-1](/wiki/method/claim-tiers#tier-1-explicit-algebra) algebra of [#11](/wiki/history/documents/checkpoint) in [the battery](/wiki/method/verification/battery), the soliton obituary's numbers in [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script), and the toy-model note's results in [the toy-model scripts](/wiki/method/verification/toy-model-scripts). `scripts/check.sh` runs them all and fails if any check fails. Each check prints its measured value, which is the "printed output" the rule asks for.
 
 ### Referees and adjudicators
 

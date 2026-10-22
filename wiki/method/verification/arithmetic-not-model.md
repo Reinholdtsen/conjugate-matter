@@ -48,8 +48,8 @@ The pre-registration was scored a miss: "Three survive (p; the ψ window; ξ), p
 
 - **p**, a misremembered formula: the yield of one defect per Hubble volume without the factor (1.66 √g\*)³ (ruling 1).
 - **The ψ window**, a counting choice: "v3 omitted ψ̄ and the second doublet member (a factor of 4), and bracketed an exactly known s-wave σv up to ×10" (ruling 4; [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)).
-- **ξ**, an input value: "Using N_eff,SM = 3.044, the 95% bound is ΔN_eff < 0.286" (ruling 5; SM is the Standard Model).
-- **The ε coefficient**, an assumed coupling: the "O(1) coefficient at the Planck scale" for the kinetic-mixing operator "is unsupported" (ruling 7; [the dimension-5 operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
+- **ξ**, an input value: "Using N_eff,SM = 3.044, the 95% bound is ΔN_eff < 0.286" (ruling 5; SM is the Standard Model; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+- **The ε coefficient**, an assumed coupling: the "O(1) coefficient at the Planck scale" for the [kinetic-mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) operator "is unsupported" (ruling 7; [the dimension-5 operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
 
 No arithmetic slip survived. The consequence was still fatal to the candidate ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
@@ -68,8 +68,8 @@ The adjudication's calibration note: "The failure mode has moved. In rounds 1–
 
 The pages for the scripts in [the gate](/wiki/method/verification/the-gate) each end with what the script does not check, because a passing check is easily read as covering more than it does. Examples:
 
-- **The battery.** Tests T3, T4 and T7 check algebra on random samples. During the wiki build, verifiers found suspected errors in statements written next to that algebra in calc note #7: a zero set larger than stated (flag 3), a second-order term missing from an expansion (flag 4), and a notational slip about which trace a power sum gives (flag 14). The tests pass, because they test the algebra as written and not those statements ([the verification battery](/wiki/method/verification/battery)).
-- **The toy-model scripts.** The check labelled with round-4 finding F6 tests a harmonic series against Euler's constant. It does not settle whether the tadpole grows as ln N or 2 ln N, on which the toy note and the adjudication differ (flag 11; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+- **The battery.** Tests T3, T4 and T7 check algebra on random samples. During the wiki build, verifiers found suspected errors in statements written next to that algebra in [calc note #7](/wiki/history/documents/debt-1-notes): a zero set of [the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) larger than stated (flag 3), a second-order term missing from an expansion (flag 4), and a notational slip about which trace a power sum gives (flag 14). The tests pass, because they test the algebra as written and not those statements ([the verification battery](/wiki/method/verification/battery)).
+- **The toy-model scripts.** The check labelled with round-4 finding F6 tests a harmonic series against Euler's constant. It does not settle whether [the tadpole](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#the-coefficient-ln-n-or-2-ln-n) grows as ln N or 2 ln N, on which the toy note and the adjudication differ (flag 11; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 - **The soliton-obituary script.** Its docstring says it checks "every number" of the round-3 record; its checks cover the obituary's [V] numbers and the adjudicator's own figures, not the referee's or the literature's (flag 33 in `review/wiki-build-flags.md`).
 
 These flags are suspected errors in the source documents, quoted faithfully on the pages that carry the statements and awaiting Paul's ruling (`review/wiki-build-flags.md`).

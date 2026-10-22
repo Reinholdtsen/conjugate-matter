@@ -35,7 +35,7 @@ Round-4 lesson 1, from which it comes: "When numerics run on a reduced model (so
 
 This section is the wiki's reading of standard material [T].
 
-A reduction fixes some fields of a model at chosen values and studies the rest. It is often the only way to simulate a model, and it is legitimate as long as the result is stated for the reduced model. The danger is in stability. A vacuum of a field theory is stable at the classical level when the potential is bounded below and the vacuum is a minimum: the Hessian, the matrix of second derivatives of the potential with respect to all the fields, has no negative eigenvalue there. Zero eigenvalues are flat directions, such as Goldstone modes.
+A reduction fixes some fields of a model at chosen values and studies the rest. It is often the only way to simulate a model, and it is legitimate as long as the result is stated for the reduced model. The danger is in stability. A vacuum of a field theory is stable at the classical level when the potential is bounded below and the vacuum is a minimum: the Hessian, the matrix of second derivatives of the potential with respect to all the fields, has no negative eigenvalue there. Zero eigenvalues are flat directions, such as [Goldstone modes](/wiki/symmetry-breaking/goldstone-and-higgs).
 
 Freezing fields restricts the potential to a slice of field space. A point can be a minimum on every slice the calculation looks at and still be a saddle of the whole, if the descending direction moves the frozen and the free fields together. A potential can likewise be bounded on the slice and unbounded off it. Only the Hessian over all fields, and a bound that holds for all field values, settles it.
 
@@ -43,7 +43,7 @@ Freezing fields restricts the potential to a slice of field space. A point can b
 
 ### The naive potential
 
-[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields, a phase-space metric H and a real structure K. Its polarization is a Goldstone angle that cannot order in 1+1 dimensions, so the note added a potential that keeps ρ and reduces the continuous symmetry to a discrete group ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The first choice, [the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), was −μ[Tr(K K_ref)]². The worklog studied it at H = 1 on the circle of vacua K(φ), where it becomes "−2μ(1 + cos 2φ)", and the lattice simulation ran at H = 1 ('Chunk 3 results').
+[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields, a phase-space metric H and a real structure K. Its polarization is a [Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) that [cannot order in 1+1 dimensions](/wiki/symmetry-breaking/mermin-wagner-coleman), so the note added a potential that keeps ρ and reduces the continuous symmetry to a discrete group ([the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)). The first choice, [the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), was −μ[Tr(K K_ref)]². The worklog studied it at H = 1 on the circle of vacua K(φ), where it becomes "−2μ(1 + cos 2φ)", and the lattice simulation ran at H = 1 ('Chunk 3 results').
 
 ### What the referee found
 

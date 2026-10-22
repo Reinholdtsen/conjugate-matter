@@ -17,7 +17,7 @@ sources:
   - "review/wiki-build-flags.md items 3, 4, 14, 36"
 ---
 
-*The verification battery is a set of seven numerical and exact-integer tests, T1 to T7, of the matrix algebra at the core of the program: the compatibility theorem, the parametrization of the modular field, and the algebra behind the mass of the momentum graviton and the zero vacuum energy of its potential. It was written and run on claude.ai, carried into the repository as Appendix A of the handoff document, and now runs as `verify/battery.py` in the gate, with the same computations and random seeds. Checkpoint #11 calls the results it confirms Tier 1 and tags them [V]. Six of the tests evaluate an identity at randomly drawn sample points and one is exact integer arithmetic, so the battery confirms the algebra at sample points rather than proving it, and none of the tests asks whether the algebra describes nature.*
+*The verification battery is a set of seven numerical and exact-integer tests, T1 to T7, of the matrix algebra at the core of the program: the compatibility theorem, the parametrization of the modular field, and the algebra behind the mass of the [momentum graviton](/wiki/gravity/momentum-graviton) and the zero vacuum energy of its potential. It was written and run on claude.ai, carried into the repository as Appendix A of the handoff document, and now runs as `verify/battery.py` in the gate, with the same computations and random seeds. Checkpoint #11 calls the results it confirms Tier 1 and tags them [V]. Six of the tests evaluate an identity at randomly drawn sample points and one is exact integer arithmetic, so the battery confirms the algebra at sample points rather than proving it, and none of the tests asks whether the algebra describes nature.*
 
 **Status:** Method, in force — the results it confirms carry [V] in #11 §2 ("All seven passed **[V]**") — runs first in [the gate](/wiki/method/verification/the-gate); in the run of 2026-10-21 every check passed and the script ended "OK — all battery checks pass (numpy 2.5.4)."
 
@@ -31,7 +31,7 @@ The [handoff](/wiki/history/documents/handoff) carried the battery as a code lis
 
 ### Setup
 
-The tests work in dimension d = 4, with the symplectic form ω = [[0, 1], [−1, 0]] and the neutral metric η = [[0, 1], [1, 0]], where 0 and 1 stand for the d × d zero and identity blocks. T1, T2, T4 and T6 draw their random matrices from numpy's legacy generator after `np.random.seed(0)` (T3 reuses T2's draw, and T5 draws nothing); T7 uses a separate generator, `np.random.default_rng(1)`. Two helpers draw the matrices: a random symmetric matrix, and a random positive-definite one built as a aᵀ plus d times the identity. Because the order of the draws is fixed, every run in the same environment draws the same matrices, which is what makes the quoted figures reproducible.
+The tests work in dimension d = 4, with the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω = [[0, 1], [−1, 0]] and the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η = [[0, 1], [1, 0]], where 0 and 1 stand for the d × d zero and identity blocks. T1, T2, T4 and T6 draw their random matrices from numpy's legacy generator after `np.random.seed(0)` (T3 reuses T2's draw, and T5 draws nothing); T7 uses a separate generator, `np.random.default_rng(1)`. Two helpers draw the matrices: a random symmetric matrix, and a random positive-definite one built as a aᵀ plus d times the identity. Because the order of the draws is fixed, every run in the same environment draws the same matrices, which is what makes the quoted figures reproducible.
 
 Each test calls a helper `check(name, ok, detail)` that prints `PASS` or `FAIL`, the check's name and, where given, a measured value in brackets. The script exits with status 1 if any check fails ([the check line](/wiki/method/verification/the-gate#the-check-line)).
 
@@ -39,7 +39,7 @@ Each test calls a helper `check(name, ok, detail)` that prints `PASS` or `FAIL`,
 
 ### T1: the compatibility theorem
 
-[The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) says that a positive generalized metric H satisfies both (η⁻¹H)² = 1 and (ω⁻¹H)² = −1 exactly when H = diag(g, g⁻¹) (#11 §5, tagged [T][V]). T1 has three parts:
+[The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) says that a positive [generalized metric](/wiki/phase-space/born-geometry/double-field-theory) H satisfies both (η⁻¹H)² = 1 and (ω⁻¹H)² = −1 exactly when H = diag(g, g⁻¹) (#11 §5, tagged [T][V]). T1 has three parts:
 
 - **T1a** draws a random positive-definite g, forms H = diag(g, g⁻¹), and checks that J = η⁻¹H squares to the identity and I = ω⁻¹H squares to minus the identity. This is the "if" direction at one point.
 - **T1b** draws a generic H = [[A, C], [Cᵀ, B]], with A and B positive definite and C a random block scaled by 0.3, and checks that it violates at least one of the two conditions.
@@ -66,7 +66,7 @@ T3 checks the block form of the anticommutator on which [the misalignment potent
 S = Y + X Y⁻¹ X − Y⁻¹,        A = X Y⁻¹ − Y⁻¹ X = [X, Y⁻¹]
 ```
 
-#11 §7.2: "S = Y + XY⁻¹X − Y⁻¹, A = [X, Y⁻¹] (blocks machine-verified)". T3 checks the block form only. A statement in calc note #7 about where those blocks vanish is a suspected source error, and its executed check prints a vanishing anticommutator at a point with X ≠ 0 (see flag 3 in `review/wiki-build-flags.md`; `review/wiki-build-checks/zero_locus.out`). T3 neither supports nor contradicts that statement, because it evaluates the blocks at one random point.
+#11 §7.2: "S = Y + XY⁻¹X − Y⁻¹, A = [X, Y⁻¹] (blocks machine-verified)". T3 checks the block form only. A statement in [calc note #7](/wiki/history/documents/debt-1-notes) about where those blocks vanish is a suspected source error, and its executed check prints a vanishing anticommutator at a point with X ≠ 0 (see flag 3 in `review/wiki-build-flags.md`; `review/wiki-build-checks/zero_locus.out`). T3 neither supports nor contradicts that statement, because it evaluates the blocks at one random point.
 
 ### T4: the linearized potential is not of Fierz–Pauli form
 

@@ -18,7 +18,7 @@ sources:
   - "review/wiki-build-flags.md item 13"
 ---
 
-*The Monte Carlo error-bar rule says that a number produced by a random simulation must come with an error bar estimated from several independent runs. A simulation started from a fixed random seed gives the same output every time it is run, which makes the number reproducible but says nothing about how far it lies from the average the simulation is estimating. Review round 4 found the case that prompted the rule: the high-temperature control values in the toy-model note came from single fixed-seed runs without error bars, and the smallest lattice's value was a short-run fluctuation. The lattice script now reports means and standard errors over four independent seeds, and its checks use those error bars.*
+*The Monte Carlo error-bar rule says that a number produced by a random simulation must come with an error bar estimated from several independent runs. A simulation started from a fixed random seed gives the same output every time it is run, which makes the number reproducible but says nothing about how far it lies from the average the simulation is estimating. Review round 4 found the case that prompted the rule: the high-temperature control values in the [toy-model note](/wiki/symmetry-breaking/toy-models) came from single fixed-seed runs without error bars, and the smallest lattice's value was a short-run fluctuation. The lattice script now reports means and standard errors over four independent seeds, and its checks use those error bars.*
 
 **Status:** Method, in force (round-4 lesson 2, now in root `CLAUDE.md`) — untagged — applied in `verify/toy_s4.py`, the program's only Monte Carlo.
 
@@ -38,7 +38,7 @@ Runs started from different seeds are independent, and each gives an independent
 
 ### The values as first written
 
-The worklog's first lattice results for the coset toy's frozen-H reduction gave the high-temperature control as "⟨|m|⟩ 0.078 → 0.033 → 0.014 — disordered" at L = 16, 32 and 64, and the run without the potential as "0.838 → 0.798 → 0.776 (ratio 0.925, spin-wave estimate 0.936)" ('Chunk 3 results'), from "fixed seeds" and without error bars. The first version of the note quoted them the same way ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo#superseded-the-first-versions-control-values)).
+The worklog's first lattice results for the [coset toy](/wiki/symmetry-breaking/toy-models/coset-model)'s [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) gave the high-temperature control as "⟨|m|⟩ 0.078 → 0.033 → 0.014 — disordered" at L = 16, 32 and 64, and the run without the potential as "0.838 → 0.798 → 0.776 (ratio 0.925, spin-wave estimate 0.936)" ('Chunk 3 results'), from "fixed seeds" and without error bars. The first version of the note quoted them the same way ([Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo#superseded-the-first-versions-control-values)).
 
 ### What the referee found
 

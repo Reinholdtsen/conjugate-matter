@@ -60,15 +60,15 @@ Two kinds of check need distinguishing:
 
 | Script | What it checks | Claims it gates | Page |
 | --- | --- | --- | --- |
-| `verify/battery.py` | tests T1–T7 and two parity checks | #11 §2's Tier 1: §5, §6, §7.2, §7.3 | [the battery](/wiki/method/verification/battery) |
-| `verify/soliton_obituary.py` | four anchors; round-3 rulings 1, 2, 4, 5; the W′ overclosure | every number #11 §12 tags [V] | [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script) |
-| `verify/toy_coset.py` | model I's action, vacua, order parameter, spectrum; the bounded potential with H dynamical | toy note §2; §4's potential | [the toy-model scripts](/wiki/method/verification/toy-model-scripts) |
-| `verify/toy_gw.py` | the matrix base; the duality lemma; complex and real model II; the one-loop split; the tadpole series | toy note §3; §4's restoration premise | same |
-| `verify/toy_s4.py` | the frozen-H Monte Carlo, four seeds with error bars | toy note §4's table | same |
-| `verify/toy_s5.py` | η's null lines; the section condition; the (H, K)-built coupling | toy note §5 | same |
+| `verify/battery.py` | tests T1–T7 and two parity checks | #11 §2's [Tier 1](/wiki/method/claim-tiers#tier-1-explicit-algebra): §5, §6, §7.2, §7.3 | [the battery](/wiki/method/verification/battery) |
+| `verify/soliton_obituary.py` | four anchors; round-3 rulings 1, 2, 4, 5; the [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) | every number #11 §12 tags [V] | [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script) |
+| `verify/toy_coset.py` | [model I](/wiki/symmetry-breaking/toy-models/coset-model)'s action, vacua, order parameter, spectrum; the [bounded potential](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) with H dynamical | toy note §2; §4's potential | [the toy-model scripts](/wiki/method/verification/toy-model-scripts) |
+| `verify/toy_gw.py` | the [matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base); the [duality lemma](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma); complex and real [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar); the [one-loop split](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead); the tadpole series | toy note §3; §4's restoration premise | same |
+| `verify/toy_s4.py` | the frozen-H [Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo), four seeds with error bars | toy note §4's table | same |
+| `verify/toy_s5.py` | η's null lines; the [section condition](/wiki/symmetry-breaking/section-condition); the [(H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) | toy note §5 | same |
 | `scripts/check-wiki.py` | the wiki's links, anchors, maps, sources and page shape | `wiki/CLAUDE.md`'s conventions | [below](#the-wiki-check) |
 
-#11 tags the toy results [D][V] (§4, the P2′ refinement; §10, "Toy-model support") and records them in §14 item 11. #11 §12 ends: "The [V] numbers here are gated in `verify/soliton_obituary.py`."
+#11 tags the toy results [D][V] (§4, the [P2′](/wiki/program/postulates/p2-prime) refinement; §10, "Toy-model support") and records them in §14 item 11. #11 §12 ends: "The [V] numbers here are gated in `verify/soliton_obituary.py`."
 
 ## What is not gated
 

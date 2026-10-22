@@ -23,7 +23,7 @@ sources:
 
 *The toy-model scripts are four programs in `verify/` that recompute the results of the toy-model note, which studies two explicit field theories in which the exchange of position and momentum is an exact symmetry that the vacuum breaks. `toy_coset.py` checks the coset sigma model (model I), `toy_gw.py` the self-dual Grosse–Wulkenhaar model (model II), `toy_s4.py` runs a lattice Monte Carlo of model I with the phase-space metric held fixed, and `toy_s5.py` checks how the vacuum's choice can make matter interactions local in position. They were written with the models on 2026-10-19, extended with the corrections of the round-4 review, and run in the gate. Their checks are exact symbolic identities, numerical tests against anchors taken from the cited literature, and seeded simulations with error bars; each confirms the arithmetic of the model as written, and several of the note's conclusions rest on arguments that no script checks.*
 
-**Status:** Method, in force — #11 tags the toy results these scripts gate [D][V] (§4, the P2′ refinement; §10, "Toy-model support") — run in [the gate](/wiki/method/verification/the-gate); in the run of 2026-10-21 every check in all four passed.
+**Status:** Method, in force — #11 tags the toy results these scripts gate [D][V] (§4, the [P2′](/wiki/program/postulates/p2-prime) refinement; §10, "Toy-model support") — run in [the gate](/wiki/method/verification/the-gate); in the run of 2026-10-21 every check in all four passed.
 
 ## What they check, and for what
 
@@ -33,7 +33,7 @@ The note's §6 lists its results as "Shown (each by executed code)"; for one of 
 
 ## `verify/toy_coset.py`: model I
 
-[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields on a 1+1-dimensional base: a phase-space metric H, written through Z = X + iY in the upper half-plane, and a real structure K with K² = 1. The docstring gives its Euclidean Lagrangian:
+[Model I](/wiki/symmetry-breaking/toy-models/coset-model) has two fields on a 1+1-dimensional base: a phase-space metric H, written through [Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) in the upper half-plane, and a real structure K with K² = 1. The docstring gives its Euclidean Lagrangian:
 
 ```text
 L = (f_H^2/8) Tr(H^-1 dH H^-1 dH) + (f_K^2/4) Tr(H^-1 dK^T H dK) + V,
@@ -46,8 +46,8 @@ What it checks, in order:
 
 - **Anchors.** H(Z) is symplectic with I = ω⁻¹H squaring to −1, and ρ is symplectic with ρ² = −1; both exact in sympy.
 - **S1, symmetry.** Each of the three terms is invariant under a generic symplectic S with three symbolic parameters, hence under ρ, and under K → −K, all exactly. The K kinetic term is positive on 200 random samples of H and ∂K (no ghost), while the naive Tr(∂K ∂K) is indefinite on K's target space, equal to 2 db dc at K₀ ([action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)).
-- **S2, vacua.** At H = 1 the potential is a sum of squares, |C|² = 2(b − c)², vanishing on the circle K(φ); ρ maps K(φ) to K(φ + π); within that circle no vacuum is ρ-invariant (sympy finds no solution); ρ acts on Z as Z → −1/Z; and the stabilizer of the vacuum (1, K₀) in Sp(2,ℝ) is {+1, −1} ([vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
-- **S3 and the spectrum.** O = K₁₁ takes +1 in (1, K₀) and −1 in its ρ-image; the potential's Hessian at the vacuum has rank 1, leaving three flat (Goldstone) directions.
+- **S2, vacua.** At H = 1 the potential is a sum of squares, |C|² = 2(b − c)², vanishing on the circle K(φ); ρ maps K(φ) to K(φ + π); within that circle no vacuum is ρ-invariant (sympy finds no solution); ρ acts on Z as [Z → −1/Z](/wiki/phase-space/modular-field/modular-inversion); and the stabilizer of the vacuum (1, K₀) in Sp(2,ℝ) is {+1, −1} ([vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
+- **S3 and the spectrum.** O = K₁₁, the [order parameter](/wiki/symmetry-breaking/order-parameter), takes +1 in (1, K₀) and −1 in its ρ-image; the potential's Hessian at the vacuum has rank 1, leaving three flat ([Goldstone](/wiki/symmetry-breaking/goldstone-and-higgs)) directions.
 - **The round-4 repair, with H dynamical.** [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) is invariant under ρ and under K → −K (exact); Tr(K_refᵀK_ref) = 2, the input to the Cauchy–Schwarz bound −1 ≤ V_b ≤ 0; V_b(K(φ)) = −(1 + cos 2φ)/2 at H = 1 (exact); and 20000 random points on the hyperboloid stay inside [−1, 0]. The Hessian of the full potential at (1, K_ref), over all four field coordinates, is computed by finite differences: with [the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) it has a negative eigenvalue (a saddle), with V_b it has non-negative eigenvalues and exactly one zero. The script also checks the note's quoted figures, the unboundedness along a boost at t = 4, the flat squeeze line, the rise of V_b along the boost family, and round-4 finding F3, that the [twisted element](/wiki/symmetry-breaking/twisted-element) ρ∘(K → −K) fixes (1, K_ref).
 
 What it does not check:
@@ -194,7 +194,7 @@ S4 asks whether the breaking survives fluctuations in 1+1 dimensions. The script
 E = −J Σ⟨ij⟩ cos(φ_i − φ_j) − h Σ_i cos 2φ_i
 ```
 
-The first term is the angle's kinetic term, an XY-model stiffness; the second is the ρ-preserving potential at H = 1, under which ρ acts as φ → φ + π. Model A has h = 1, model B has h = 0 (exactly self-dual). The docstring: `This is the FROZEN-H reduction of the coset toy (H = 1 held fixed); the unreduced model's stability with the bounded potential V_b is checked in toy_coset.py.` See [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction).
+The first term is the angle's kinetic term, an XY-model stiffness; the second is the [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) at H = 1, under which ρ acts as φ → φ + π. Model A has h = 1, model B has h = 0 (exactly self-dual). The docstring: `This is the FROZEN-H reduction of the coset toy (H = 1 held fixed); the unreduced model's stability with the bounded potential V_b is checked in toy_coset.py.` See [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction).
 
 The algorithm is checkerboard Metropolis: each sweep updates the two sublattices in turn, proposing a uniform shift of up to ±1 in φ at each site. Every run starts cold (φ = 0), discards 1500 sweeps and measures over 4000. Each value is the mean over four runs with different seeds, and its error bar the standard error, the sample standard deviation over √4. "All runs use a cold start (phi = 0). Error bars: standard error over 4 independent seeds." The order parameter for ρ is m = ⟨cos φ⟩; for model B the script also measures the U(1) magnetization |⟨e^{iφ}⟩|.
 
@@ -240,9 +240,9 @@ What it does not check: the full model I with H dynamical, which the note lists 
 
 S5 asks whether the vacuum's choice of K makes matter interactions local in one polarization and nonlocal in the other. The script has three parts:
 
-- **A, what the vacuum's η fixes** (exact, sympy). η = ωK is a symmetric neutral metric; K's eigenvectors e₊ and e₋ are null for η at every φ and are its only null lines; the two lines are Lagrangian and transverse; K → −K sends η to −η with the same null lines; and ρ maps K to −K and L₊ onto L₋ ([the section condition](/wiki/symmetry-breaking/section-condition)).
+- **A, what the vacuum's η fixes** (exact, sympy). η = ωK is a symmetric [neutral metric](/wiki/phase-space/born-geometry/born-structures); K's eigenvectors e₊ and e₋ are null for η at every φ and are its only null lines; the two lines are [Lagrangian](/wiki/phase-space/reciprocity/lagrangian-polarizations) and transverse; K → −K sends η to −η with the same null lines; and ρ maps K to −K and L₊ onto L₋ ([the section condition](/wiki/symmetry-breaking/section-condition)).
 - **B, the section condition built from η** (exact). In null coordinates η⁻¹ is purely off-diagonal; fields on one null line pass, fields mixing the two fail, and the condition built from −η passes and fails the same fields, so "it cannot tell L+ from L-".
-- **C, an interaction built from the vacuum** (numerical, ħ = 1). For a test state made of two displaced Gaussians, the script computes the Wigner function on a grid and checks Parseval's theorem and both marginals first. The interaction I[W] = ∫_{L₊} du (∫_{L₋} dv W)² equals ∫|ψ(x)|⁴ dx in the vacuum +K_ref and ∫|ψ̃(p)|⁴ dp in −K_ref, and the two values differ by more than 5% of the larger ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). Two further checks carry round-4 finding F5 and the covariance: rescaling the coordinate along L₊ by 2 doubles I, so I needs H as well as K; and the combined map (ψ → Fψ, K → −K) leaves I unchanged, while ∫W², which does not use K, shows no asymmetry.
+- **C, an interaction built from the vacuum** (numerical, ħ = 1). For a test state made of two displaced Gaussians, the script computes the [Wigner function](/wiki/phase-space/reciprocity/wigner-function) on a grid and checks Parseval's theorem and both marginals first. The interaction I[W] = ∫_{L₊} du (∫_{L₋} dv W)² equals ∫|ψ(x)|⁴ dx in the vacuum +K_ref and ∫|ψ̃(p)|⁴ dp in −K_ref, and the two values differ by more than 5% of the larger ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). Two further checks carry round-4 finding F5 and the covariance: rescaling the coordinate along L₊ by 2 doubles I, so I needs H as well as K; and the combined map (ψ → Fψ, K → −K) leaves I unchanged, while ∫W², which does not use K, shows no asymmetry.
 
 Part C's output:
 
