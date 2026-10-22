@@ -1,0 +1,173 @@
+Model: flat; Omega_m = 0.30, Omega_r = 9e-05; V = V0[1 + cos(tau/f)], V0 shot to Omega_DE = 0.69991;
+tau frozen (dtau/dt = 0) at a = 1e-04; units 8 pi G = 1, H0 = 1. CPL fit range 0 < z < 2.5.
+s = -wa/(1 + w0): the fit is in the crossing region (w0 + wa < -1) iff s > 1; corridor s = 1.5; z_c = 1/(s - 1) is where the CPL line crosses -1.
+
+== Per case: true history, then each CPL fit as (w0, wa | s, w0+wa+1) ==
+
+f = 0.3, tau_i/f = 8.364e-02, V0 = 1.06604: true w(1) = -0.9800, true w(z=2.5) = -0.99983, tau0/f = 0.318, Omega_DE(z=2) = 0.080
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.079e+00
+   T  tangent at a = 1                          w0 = -0.9800  wa = -0.0979 | s = 4.889  w0+wa+1 = -0.0779  z_c =  0.26
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9865  wa = -0.0235 | s = 1.749  w0+wa+1 = -0.0101  z_c =  1.34
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9888  wa = -0.0178 | s = 1.589  w0+wa+1 = -0.0066  z_c =  1.70
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9853  wa = -0.0293 | s = 1.995  w0+wa+1 = -0.0146  z_c =  1.01  max|resid| = 2.5e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9842  wa = -0.0429 | s = 2.717  w0+wa+1 = -0.0271  z_c =  0.58  Om_fit = 0.3005  max|resid| = 1.4e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9884  wa = -0.0206 | s = 1.772  w0+wa+1 = -0.0090  z_c =  1.30  h_fit/h = 1.00048  max|resid| = 2.9e-04
+
+f = 0.3, tau_i/f = 1.121e-01, V0 = 1.07955: true w(1) = -0.9633, true w(z=2.5) = -0.99970, tau0/f = 0.429, Omega_DE(z=2) = 0.081
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.061e+00
+   T  tangent at a = 1                          w0 = -0.9633  wa = -0.1797 | s = 4.901  w0+wa+1 = -0.1431  z_c =  0.26
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9754  wa = -0.0431 | s = 1.749  w0+wa+1 = -0.0185  z_c =  1.33
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9795  wa = -0.0326 | s = 1.589  w0+wa+1 = -0.0121  z_c =  1.70
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9731  wa = -0.0536 | s = 1.995  w0+wa+1 = -0.0267  z_c =  1.01  max|resid| = 4.5e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9711  wa = -0.0783 | s = 2.712  w0+wa+1 = -0.0495  z_c =  0.58  Om_fit = 0.3008  max|resid| = 2.5e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9787  wa = -0.0377 | s = 1.772  w0+wa+1 = -0.0164  z_c =  1.30  h_fit/h = 1.00088  max|resid| = 5.3e-04
+
+f = 0.3, tau_i/f = 1.502e-01, V0 = 1.10545: true w(1) = -0.9316, true w(z=2.5) = -0.99944, tau0/f = 0.584, Omega_DE(z=2) = 0.083
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.028e+00
+   T  tangent at a = 1                          w0 = -0.9316  wa = -0.3365 | s = 4.922  w0+wa+1 = -0.2681  z_c =  0.25
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9542  wa = -0.0802 | s = 1.751  w0+wa+1 = -0.0344  z_c =  1.33
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9618  wa = -0.0607 | s = 1.590  w0+wa+1 = -0.0225  z_c =  1.70
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9500  wa = -0.0997 | s = 1.995  w0+wa+1 = -0.0497  z_c =  1.00  max|resid| = 8.5e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9462  wa = -0.1454 | s = 2.704  w0+wa+1 = -0.0917  z_c =  0.59  Om_fit = 0.3015  max|resid| = 4.8e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9605  wa = -0.0700 | s = 1.772  w0+wa+1 = -0.0305  z_c =  1.29  h_fit/h = 1.00166  max|resid| = 1.0e-03
+
+f = 0.3, tau_i/f = 2.012e-01, V0 = 1.15836: true w(1) = -0.8677, true w(z=2.5) = -0.99895, tau0/f = 0.805, Omega_DE(z=2) = 0.086
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 1.961e+00
+   T  tangent at a = 1                          w0 = -0.8677  wa = -0.6566 | s = 4.963  w0+wa+1 = -0.5243  z_c =  0.25
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9117  wa = -0.1549 | s = 1.753  w0+wa+1 = -0.0665  z_c =  1.33
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9265  wa = -0.1169 | s = 1.592  w0+wa+1 = -0.0435  z_c =  1.69
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9038  wa = -0.1920 | s = 1.996  w0+wa+1 = -0.0958  z_c =  1.00  max|resid| = 1.7e-03
+   F4 H(z), D_M(z); Om free                     w0 = -0.8962  wa = -0.2792 | s = 2.690  w0+wa+1 = -0.1754  z_c =  0.59  Om_fit = 0.3029  max|resid| = 9.5e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9243  wa = -0.1341 | s = 1.772  w0+wa+1 = -0.0585  z_c =  1.29  h_fit/h = 1.00327  max|resid| = 2.0e-03
+
+f = 0.3, tau_i/f = 2.696e-01, V0 = 1.28578: true w(1) = -0.7185, true w(z=2.5) = -0.99791, tau0/f = 1.156, Omega_DE(z=2) = 0.094
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 1.804e+00
+   T  tangent at a = 1                          w0 = -0.7185  wa = -1.4208 | s = 5.048  w0+wa+1 = -1.1393  z_c =  0.25
+   F1 w(a) LSQ, uniform in a                    w0 = -0.8136  wa = -0.3278 | s = 1.759  w0+wa+1 = -0.1415  z_c =  1.32
+   F2 w(a) LSQ, uniform in z                    w0 = -0.8454  wa = -0.2465 | s = 1.595  w0+wa+1 = -0.0920  z_c =  1.68
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.7977  wa = -0.4042 | s = 1.998  w0+wa+1 = -0.2019  z_c =  1.00  max|resid| = 3.8e-03
+   F4 H(z), D_M(z); Om free                     w0 = -0.7802  wa = -0.5848 | s = 2.660  w0+wa+1 = -0.3650  z_c =  0.60  Om_fit = 0.3062  max|resid| = 2.2e-03
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.8423  wa = -0.2795 | s = 1.772  w0+wa+1 = -0.1218  z_c =  1.29  h_fit/h = 1.00726  max|resid| = 4.4e-03
+
+f = 0.5, tau_i/f = 2.696e-01, V0 = 1.09604: true w(1) = -0.9760, true w(z=2.5) = -0.99940, tau0/f = 0.467, Omega_DE(z=2) = 0.081
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.075e+00
+   T  tangent at a = 1                          w0 = -0.9760  wa = -0.0689 | s = 2.866  w0+wa+1 = -0.0448  z_c =  0.54
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9800  wa = -0.0318 | s = 1.596  w0+wa+1 = -0.0119  z_c =  1.68
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9820  wa = -0.0269 | s = 1.495  w0+wa+1 = -0.0089  z_c =  2.02
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9790  wa = -0.0367 | s = 1.748  w0+wa+1 = -0.0157  z_c =  1.34  max|resid| = 1.6e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9782  wa = -0.0471 | s = 2.156  w0+wa+1 = -0.0252  z_c =  0.87  Om_fit = 0.3004  max|resid| = 7.3e-05
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9812  wa = -0.0302 | s = 1.607  w0+wa+1 = -0.0114  z_c =  1.65  h_fit/h = 1.00034  max|resid| = 2.2e-04
+
+f = 0.5, tau_i/f = 3.612e-01, V0 = 1.13598: true w(1) = -0.9553, true w(z=2.5) = -0.99888, tau0/f = 0.632, Omega_DE(z=2) = 0.083
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.053e+00
+   T  tangent at a = 1                          w0 = -0.9553  wa = -0.1292 | s = 2.889  w0+wa+1 = -0.0845  z_c =  0.53
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9629  wa = -0.0592 | s = 1.597  w0+wa+1 = -0.0221  z_c =  1.67
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9665  wa = -0.0500 | s = 1.495  w0+wa+1 = -0.0166  z_c =  2.02
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9610  wa = -0.0682 | s = 1.748  w0+wa+1 = -0.0292  z_c =  1.34  max|resid| = 3.0e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9594  wa = -0.0875 | s = 2.156  w0+wa+1 = -0.0469  z_c =  0.87  Om_fit = 0.3007  max|resid| = 1.4e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9651  wa = -0.0561 | s = 1.606  w0+wa+1 = -0.0212  z_c =  1.65  h_fit/h = 1.00064  max|resid| = 4.1e-04
+
+f = 0.5, tau_i/f = 4.839e-01, V0 = 1.21638: true w(1) = -0.9139, true w(z=2.5) = -0.99787, tau0/f = 0.861, Omega_DE(z=2) = 0.086
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.009e+00
+   T  tangent at a = 1                          w0 = -0.9139  wa = -0.2528 | s = 2.934  w0+wa+1 = -0.1666  z_c =  0.52
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9289  wa = -0.1137 | s = 1.599  w0+wa+1 = -0.0426  z_c =  1.67
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9359  wa = -0.0959 | s = 1.496  w0+wa+1 = -0.0318  z_c =  2.01
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9252  wa = -0.1309 | s = 1.750  w0+wa+1 = -0.0561  z_c =  1.33  max|resid| = 5.9e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9221  wa = -0.1680 | s = 2.157  w0+wa+1 = -0.0901  z_c =  0.86  Om_fit = 0.3013  max|resid| = 2.8e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9333  wa = -0.1071 | s = 1.606  w0+wa+1 = -0.0404  z_c =  1.65  h_fit/h = 1.00127  max|resid| = 8.2e-04
+
+f = 0.5, tau_i/f = 6.484e-01, V0 = 1.39996: true w(1) = -0.8207, true w(z=2.5) = -0.99566, tau0/f = 1.197, Omega_DE(z=2) = 0.093
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 1.912e+00
+   T  tangent at a = 1                          w0 = -0.8207  wa = -0.5439 | s = 3.033  w0+wa+1 = -0.3646  z_c =  0.49
+   F1 w(a) LSQ, uniform in a                    w0 = -0.8533  wa = -0.2353 | s = 1.604  w0+wa+1 = -0.0886  z_c =  1.66
+   F2 w(a) LSQ, uniform in z                    w0 = -0.8680  wa = -0.1978 | s = 1.499  w0+wa+1 = -0.0658  z_c =  2.01
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.8459  wa = -0.2701 | s = 1.752  w0+wa+1 = -0.1159  z_c =  1.33  max|resid| = 1.3e-03
+   F4 H(z), D_M(z); Om free                     w0 = -0.8390  wa = -0.3475 | s = 2.158  w0+wa+1 = -0.1865  z_c =  0.86  Om_fit = 0.3028  max|resid| = 6.4e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.8634  wa = -0.2193 | s = 1.606  w0+wa+1 = -0.0827  z_c =  1.65  h_fit/h = 1.00282  max|resid| = 1.8e-03
+
+f = 0.5, tau_i/f = 8.688e-01, V0 = 2.05519: true w(1) = -0.5056, true w(z=2.5) = -0.98888, tau0/f = 1.804, Omega_DE(z=2) = 0.120
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 1.581e+00
+   T  tangent at a = 1                          w0 = -0.5056  wa = -1.6481 | s = 3.334  w0+wa+1 = -1.1537  z_c =  0.43
+   F1 w(a) LSQ, uniform in a                    w0 = -0.6062  wa = -0.6372 | s = 1.618  w0+wa+1 = -0.2434  z_c =  1.62
+   F2 w(a) LSQ, uniform in z                    w0 = -0.6485  wa = -0.5295 | s = 1.506  w0+wa+1 = -0.1779  z_c =  1.98
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.5885  wa = -0.7238 | s = 1.759  w0+wa+1 = -0.3123  z_c =  1.32  max|resid| = 4.5e-03
+   F4 H(z), D_M(z); Om free                     w0 = -0.5652  wa = -0.9395 | s = 2.161  w0+wa+1 = -0.5047  z_c =  0.86  Om_fit = 0.3092  max|resid| = 2.3e-03
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.6432  wa = -0.5715 | s = 1.602  w0+wa+1 = -0.2147  z_c =  1.66  h_fit/h = 1.00932  max|resid| = 6.1e-03
+
+f = 1.0, tau_i/f = 6.484e-01, V0 = 1.20191: true w(1) = -0.9785, true w(z=2.5) = -0.99909, tau0/f = 0.755, Omega_DE(z=2) = 0.081
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.077e+00
+   T  tangent at a = 1                          w0 = -0.9785  wa = -0.0392 | s = 1.827  w0+wa+1 = -0.0177  z_c =  1.21
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9800  wa = -0.0298 | s = 1.491  w0+wa+1 = -0.0098  z_c =  2.04
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9811  wa = -0.0270 | s = 1.431  w0+wa+1 = -0.0081  z_c =  2.32
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9794  wa = -0.0324 | s = 1.577  w0+wa+1 = -0.0119  z_c =  1.73  max|resid| = 6.4e-05
+   F4 H(z), D_M(z); Om free                     w0 = -0.9791  wa = -0.0372 | s = 1.779  w0+wa+1 = -0.0163  z_c =  1.28  Om_fit = 0.3002  max|resid| = 2.2e-05
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9804  wa = -0.0293 | s = 1.498  w0+wa+1 = -0.0098  z_c =  2.01  h_fit/h = 1.00015  max|resid| = 1.0e-04
+
+f = 1.0, tau_i/f = 8.688e-01, V0 = 1.34827: true w(1) = -0.9580, true w(z=2.5) = -0.99822, tau0/f = 1.019, Omega_DE(z=2) = 0.083
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.056e+00
+   T  tangent at a = 1                          w0 = -0.9580  wa = -0.0779 | s = 1.852  w0+wa+1 = -0.0358  z_c =  1.17
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9610  wa = -0.0582 | s = 1.491  w0+wa+1 = -0.0192  z_c =  2.04
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9631  wa = -0.0528 | s = 1.431  w0+wa+1 = -0.0159  z_c =  2.32
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9598  wa = -0.0634 | s = 1.577  w0+wa+1 = -0.0232  z_c =  1.73  max|resid| = 1.3e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9590  wa = -0.0730 | s = 1.782  w0+wa+1 = -0.0320  z_c =  1.28  Om_fit = 0.3003  max|resid| = 4.5e-05
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9617  wa = -0.0573 | s = 1.498  w0+wa+1 = -0.0190  z_c =  2.01  h_fit/h = 1.00030  max|resid| = 2.0e-04
+
+f = 1.0, tau_i/f = 1.164e+00, V0 = 1.69256: true w(1) = -0.9097, true w(z=2.5) = -0.99618, tau0/f = 1.385, Omega_DE(z=2) = 0.088
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.005e+00
+   T  tangent at a = 1                          w0 = -0.9097  wa = -0.1726 | s = 1.912  w0+wa+1 = -0.0824  z_c =  1.10
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9166  wa = -0.1245 | s = 1.493  w0+wa+1 = -0.0411  z_c =  2.03
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9212  wa = -0.1128 | s = 1.431  w0+wa+1 = -0.0340  z_c =  2.32
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9142  wa = -0.1355 | s = 1.579  w0+wa+1 = -0.0497  z_c =  1.73  max|resid| = 2.9e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.9124  wa = -0.1567 | s = 1.789  w0+wa+1 = -0.0691  z_c =  1.27  Om_fit = 0.3008  max|resid| = 1.1e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9186  wa = -0.1219 | s = 1.496  w0+wa+1 = -0.0404  z_c =  2.01  h_fit/h = 1.00068  max|resid| = 4.7e-04
+
+f = 1.0, tau_i/f = 1.560e+00, V0 = 2.86284: true w(1) = -0.7484, true w(z=2.5) = -0.98949, tau0/f = 1.938, Omega_DE(z=2) = 0.105
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 1.836e+00
+   T  tangent at a = 1                          w0 = -0.7484  wa = -0.5303 | s = 2.108  w0+wa+1 = -0.2788  z_c =  0.90
+   F1 w(a) LSQ, uniform in a                    w0 = -0.7716  wa = -0.3422 | s = 1.498  w0+wa+1 = -0.1137  z_c =  2.01
+   F2 w(a) LSQ, uniform in z                    w0 = -0.7851  wa = -0.3078 | s = 1.432  w0+wa+1 = -0.0929  z_c =  2.31
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.7652  wa = -0.3718 | s = 1.583  w0+wa+1 = -0.1370  z_c =  1.71  max|resid| = 1.0e-03
+   F4 H(z), D_M(z); Om free                     w0 = -0.7594  wa = -0.4355 | s = 1.810  w0+wa+1 = -0.1949  z_c =  1.23  Om_fit = 0.3026  max|resid| = 4.0e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.7796  wa = -0.3289 | s = 1.492  w0+wa+1 = -0.1085  z_c =  2.03  h_fit/h = 1.00235  max|resid| = 1.6e-03
+
+f = 2.0, tau_i/f = 1.164e+00, V0 = 1.54271: true w(1) = -0.9822, true w(z=2.5) = -0.99913, tau0/f = 1.214, Omega_DE(z=2) = 0.081
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.081e+00
+   T  tangent at a = 1                          w0 = -0.9822  wa = -0.0273 | s = 1.539  w0+wa+1 = -0.0096  z_c =  1.86
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9829  wa = -0.0249 | s = 1.458  w0+wa+1 = -0.0078  z_c =  2.18
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9836  wa = -0.0231 | s = 1.412  w0+wa+1 = -0.0067  z_c =  2.43
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9825  wa = -0.0266 | s = 1.524  w0+wa+1 = -0.0091  z_c =  1.91  max|resid| = 4.1e-05
+   F4 H(z), D_M(z); Om free                     w0 = -0.9823  wa = -0.0294 | s = 1.663  w0+wa+1 = -0.0117  z_c =  1.51  Om_fit = 0.3001  max|resid| = 8.9e-06
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9831  wa = -0.0248 | s = 1.465  w0+wa+1 = -0.0079  z_c =  2.15  h_fit/h = 1.00008  max|resid| = 5.8e-05
+
+f = 2.0, tau_i/f = 1.560e+00, V0 = 2.20141: true w(1) = -0.9585, true w(z=2.5) = -0.99798, tau0/f = 1.637, Omega_DE(z=2) = 0.084
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 4.44e-16, min w_eff from d ln rho/dN = -1.000000, min V = 2.056e+00
+   T  tangent at a = 1                          w0 = -0.9585  wa = -0.0650 | s = 1.569  w0+wa+1 = -0.0236  z_c =  1.76
+   F1 w(a) LSQ, uniform in a                    w0 = -0.9603  wa = -0.0580 | s = 1.458  w0+wa+1 = -0.0182  z_c =  2.18
+   F2 w(a) LSQ, uniform in z                    w0 = -0.9619  wa = -0.0538 | s = 1.411  w0+wa+1 = -0.0157  z_c =  2.43
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.9594  wa = -0.0620 | s = 1.524  w0+wa+1 = -0.0213  z_c =  1.91  max|resid| = 9.8e-05
+   F4 H(z), D_M(z); Om free                     w0 = -0.9588  wa = -0.0687 | s = 1.667  w0+wa+1 = -0.0275  z_c =  1.50  Om_fit = 0.3002  max|resid| = 2.3e-05
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.9607  wa = -0.0576 | s = 1.465  w0+wa+1 = -0.0183  z_c =  2.15  h_fit/h = 1.00020  max|resid| = 1.4e-04
+
+f = 2.0, tau_i/f = 2.090e+00, V0 = 5.09431: true w(1) = -0.8552, true w(z=2.5) = -0.99295, tau0/f = 2.237, Omega_DE(z=2) = 0.095
+   part 3: min(1+w) = 0.000e+00, max step change of rho_tau = 8.88e-16, min w_eff from d ln rho/dN = -1.000000, min V = 1.948e+00
+   T  tangent at a = 1                          w0 = -0.8552  wa = -0.2461 | s = 1.699  w0+wa+1 = -0.1013  z_c =  1.43
+   F1 w(a) LSQ, uniform in a                    w0 = -0.8627  wa = -0.2005 | s = 1.461  w0+wa+1 = -0.0632  z_c =  2.17
+   F2 w(a) LSQ, uniform in z                    w0 = -0.8688  wa = -0.1851 | s = 1.411  w0+wa+1 = -0.0539  z_c =  2.43
+   F3 H(z), D_M(z); Om, H0 fixed                w0 = -0.8597  wa = -0.2144 | s = 1.527  w0+wa+1 = -0.0740  z_c =  1.90  max|resid| = 4.0e-04
+   F4 H(z), D_M(z); Om free                     w0 = -0.8575  wa = -0.2401 | s = 1.685  w0+wa+1 = -0.0976  z_c =  1.46  Om_fit = 0.3010  max|resid| = 1.1e-04
+   F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      w0 = -0.8651  wa = -0.1972 | s = 1.462  w0+wa+1 = -0.0623  z_c =  2.17  h_fit/h = 1.00084  max|resid| = 6.0e-04
+
+== Summary over all 17 thawing cases (true w(1) in [-0.985, -0.5]) ==
+T  tangent at a = 1                          fitted w0 > -1 in 17/17; w0+wa < -1 in 17/17; s in [1.539, 5.048], median 2.889
+F1 w(a) LSQ, uniform in a                    fitted w0 > -1 in 17/17; w0+wa < -1 in 17/17; s in [1.458, 1.759], median 1.597
+F2 w(a) LSQ, uniform in z                    fitted w0 > -1 in 17/17; w0+wa < -1 in 17/17; s in [1.411, 1.595], median 1.495
+F3 H(z), D_M(z); Om, H0 fixed                fitted w0 > -1 in 17/17; w0+wa < -1 in 17/17; s in [1.524, 1.998], median 1.748
+F4 H(z), D_M(z); Om free                     fitted w0 > -1 in 17/17; w0+wa < -1 in 17/17; s in [1.663, 2.717], median 2.156
+F5 H(z), D_M(z) + D_M(z*); om h^2 fixed      fitted w0 > -1 in 17/17; w0+wa < -1 in 17/17; s in [1.462, 1.772], median 1.606
+part 3: min over all cases of min(1+w) = 0.000e+00; max step change of rho_tau = 8.88e-16; min w_eff = -1.000000; min V = 1.581e+00
+
+== Fit-range sensitivity (F1 and F3), s = -wa/(1+w0) by z_max ==
+z_max = 1.0: F1 s in [1.577, 2.243] (all > 1: True);  F3 s in [1.594, 2.429] (all > 1: True)
+z_max = 1.5: F1 s in [1.530, 1.992] (all > 1: True);  F3 s in [1.565, 2.194] (all > 1: True)
+z_max = 2.5: F1 s in [1.458, 1.759] (all > 1: True);  F3 s in [1.524, 1.998] (all > 1: True)
+z_max = 4.0: F1 s in [1.394, 1.613] (all > 1: True);  F3 s in [1.494, 1.904] (all > 1: True)

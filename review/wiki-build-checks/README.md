@@ -32,3 +32,10 @@ eleven mathematical flags (one steelmanning the source, one recomputing from scr
 for each of the rest. `flag-audit.json` holds every verdict with its summary and evidence;
 `audit/` holds the auditors' scripts and printed outputs (named by flag, e.g. `flag1_recompute.py`).
 The verdicts are summarized under each flag in `review/wiki-build-flags.md`.
+
+## Flag 43: the thawing corridor and the CPL crossing quadrant
+
+`corridor/` holds the two auditors' scripts and outputs. One steelmanned the documents:
+`corridor_algebra.py`, `hilltop_cpl.py`, `dr2_comparison.py` and `dr2_asym_check.py`. The other
+recomputed from scratch: `c1_symbolic.py`–`c5_convexity.py`, using `cosmo.py`, with its anchors
+in `c2_anchors.py`. Run them from that folder with `../../../.venv/bin/python <script>.py`.

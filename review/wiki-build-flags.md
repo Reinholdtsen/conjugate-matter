@@ -8,7 +8,7 @@ the check there.*
 
 **Audit (2026-10-22).** Every flag below was re-checked by independent agents told to refute it:
 two for each of the eleven mathematical flags (one steelmanning the source, one recomputing from
-scratch), one for each of the rest. Result: 32 confirmed, 8 depend on a convention or a reading
+scratch), one for each of the rest. Result for flags 1–42: 32 confirmed, 8 depend on a convention or a reading
 (the source is defensible under one the documents support), 2 unclear (they rest on model memory),
 none refuted. Each flag carries its verdict; the full verdicts are in
 `review/wiki-build-checks/flag-audit.json` and the auditors' scripts and outputs in
@@ -18,6 +18,9 @@ none refuted. Each flag carries its verdict; the full verdicts are in
 
 - **27**: the dark-energy potential as written cannot go negative, so the turnaround (prediction
   row 5, and t_turn in the over-constraint) needs an unwritten offset or another mechanism.
+- **43**: the program's thawing corridor itself lies in the CPL quadrant that reads as a crossing;
+  what separates it from DR2's crossing is the slope (z = 2 against z ≈ 0.4), not the quadrant.
+  This bears on how row 4's pressure is stated, not on whether it exists.
 - **23**: a·ã = 1 holds on the whole vacuum slice X = 0; the |Z| = 1 identification needs a ruling
   (#11 §6, §10; #5 §C; #1 v0.3; HANDOFF §2).
 - **39**: #11 states two different actions of ρ on the spin-2 sector, and they give the graviton
@@ -249,5 +252,28 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     every accepted revision was applied, but toy note v2 §4 says the Langmann–Szabo–Zarembo
     comparison (revision 4) was "not carried out".
    **Audit (2026-10-22): confirmed by 1 independent check.** Revision 4 asks v2 to 'compare with Langmann–Szabo–Zarembo'. v2 §4 calls their exact solution 'the natural independent check' and says 'We have not carried it out.' Yet the adjudication heading and the worklog record every revision as applied. A looser reading (LSZ 'Accepted, as citations and reframing') fails: revision 6 covers the citation separately, and v2 reports no comparison.
+
+43. **The thawing corridor lies in the CPL quadrant that reads as a phantom crossing, and no document
+    says so (#11 §10; #1 §7 item 2; #9 §8).** On the corridor wₐ = −1.5(1 + w₀),
+    w₀ + wₐ + 1 = −(1 + w₀)/2, which is negative for every w₀ > −1. Every corridor point therefore
+    has w₀ > −1 and w₀ + wₐ < −1, the quadrant in which a CPL fit w(a) = w₀ + wₐ(1 − a) passes
+    below −1 in the past. That is the quadrant of DESI DR2's fits ([21S]). #11 §10 states the
+    corridor and DR2's crossing in one paragraph without relating them. #1 §7 item 2 compares
+    signs only ("the sign pattern DESI reports").
+    The quadrant comes from the straight line, not from the field. Numerically integrated
+    V₀[1 + cos(τ/f)] fields that never fall below −1 (36 histories in one audit, 88 in the other)
+    give CPL fits in the same quadrant under every fitting convention tried, with
+    −wₐ/(1 + w₀) from about 1.4 to 2.4, and up to 3.9 when Ω_m is fitted without a CMB anchor.
+    What separates the corridor from DR2 is the slope, which sets where the line crosses −1.
+    The corridor's line crosses at z = 2 for every w₀; DR2's fits cross at z ≈ 0.35–0.50,
+    with −wₐ/(1 + w₀) ≈ 3.0–3.8 (DR2 Table 5, fetched [S] by one auditor). A rough Gaussian
+    approximation built from DR2's quoted pivot values puts the corridor line outside DR2's 95%
+    region for DESI+CMB and for DESI+CMB+DESY5. The pressure #11 §10 and the root `CLAUDE.md`
+    describe therefore stands. It rests on the crossing redshift (DR2 calls the preference
+    "rather independent of parametrization choices"), not on the quadrant, which a field
+    that never crosses can also occupy. Checks: `review/wiki-build-checks/corridor/`
+    (`corridor_algebra.py`, `hilltop_cpl.py`, `dr2_comparison.py`, `dr2_asym_check.py`; and
+    `c1_symbolic.py`–`c5_convexity.py` with `cosmo.py`).
+   **Audit (2026-10-22): confirmed by 2 independent checks (one steelmanning the documents, one recomputing from scratch).** Both found the algebra right and the observation absent from every document. Both found the quadrant shared with the never-phantom field's own fits. The steelman adds that the corridor's slope, not its quadrant, keeps it away from DR2's crossing; #11 §10's defence is consistent with this.
 
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs.

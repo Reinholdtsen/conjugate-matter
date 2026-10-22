@@ -1,0 +1,14 @@
+== toy shapes 1 + w = eps a^p, LSQ uniform in a: s = -wa/(1 + w0) ==
+p = 1.0: fit on [0.286, 1]: s = 1.0000   fit on [0, 1]: s = 1.0000
+p = 1.5: fit on [0.286, 1]: s = 1.2406   fit on [0, 1]: s = 1.1250
+p = 2.0: fit on [0.286, 1]: s = 1.4052   fit on [0, 1]: s = 1.1999
+p = 3.0: fit on [0.286, 1]: s = 1.6096   fit on [0, 1]: s = 1.2856
+p = 4.0: fit on [0.286, 1]: s = 1.7269   fit on [0, 1]: s = 1.3333
+
+== convexity of the true w(a) on the fit range, and the two crossings of the F1 line ==
+f = 0.1, tau_i/f = 0.0006: true w(1) = -0.8987; F1 line meets w(a) at a = 0.503, 0.918; w convex on [0.001, a2 = 0.918]: True; inflection(s) of w(a) at a = none below 1; line at a = 0: -1.0281 (true w there: -1)
+f = 0.3, tau_i/f = 0.2012: true w(1) = -0.8677; F1 line meets w(a) at a = 0.463, 0.873; w convex on [0.001, a2 = 0.873]: True; inflection(s) of w(a) at a = none below 1; line at a = 0: -1.0665 (true w there: -1)
+f = 0.5, tau_i/f = 0.6484: true w(1) = -0.8207; F1 line meets w(a) at a = 0.446, 0.858; w convex on [0.001, a2 = 0.858]: True; inflection(s) of w(a) at a = none below 1; line at a = 0: -1.0886 (true w there: -1)
+f = 1.0, tau_i/f = 1.164: true w(1) = -0.9097; F1 line meets w(a) at a = 0.426, 0.834; w convex on [0.001, a2 = 0.834]: True; inflection(s) of w(a) at a = none below 1; line at a = 0: -1.0411 (true w there: -1)
+f = 2.0, tau_i/f = 2.09: true w(1) = -0.8551; F1 line meets w(a) at a = 0.418, 0.823; w convex on [0.001, a2 = 0.823]: True; inflection(s) of w(a) at a = none below 1; line at a = 0: -1.0633 (true w there: -1)
+f = 5.0, tau_i/f = 2.584: true w(1) = -0.9156; F1 line meets w(a) at a = 0.413, 0.807; w convex on [0.001, a2 = 0.807]: True; inflection(s) of w(a) at a = 0.814; line at a = 0: -1.0365 (true w there: -1)

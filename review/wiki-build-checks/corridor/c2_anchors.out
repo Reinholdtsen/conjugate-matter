@@ -1,0 +1,22 @@
+[PASS] A1a V0 shoot at tau_i = 0: V0 = 1.049865000000000, expected 3 Omega_L / 2 = 1.049865000000000
+[PASS] A1b H(z) vs analytic LCDM, 0 < z < 1e4: max |H/H_LCDM - 1| = 3.33e-16
+[PASS] A1c D_M(z = 0.5): trapezoid 0.4409626417 vs Gauss 0.4409627358 (rel -2.1e-07)
+[PASS] A1c D_M(z = 1): trapezoid 0.7713522016 vs Gauss 0.7713525309 (rel -4.3e-07)
+[PASS] A1c D_M(z = 2.5): trapezoid 1.3604230391 vs Gauss 1.3604235571 (rel -3.8e-07)
+[PASS] A1c D_M(z = 1090): trapezoid 3.1784771575 vs Gauss 3.1784773538 (rel -6.2e-08)
+[PASS] A2 CPL rho closed form (trapezoid convergence): max rel diff at 10001/20001/40001 points = 5.96e-08, 1.49e-08, 3.72e-09; ratios 4.00, 4.00
+[PASS] A3a w(a) line fit on exact CPL: (w0, wa) = (-0.80000000000000, -0.50000000000000)
+[PASS] A3b distance fit F3 H(z), D_M(z); Om, H0 fixed on exact CPL: (w0, wa) = (-0.800000000, -0.500000000)
+[PASS] A3b distance fit F4 H(z), D_M(z); Om free on exact CPL: (w0, wa) = (-0.800000000, -0.500000000), extra = 0.300000000
+[PASS] A3b distance fit F5 H(z), D_M(z) + D_M(z*); om h^2 fixed on exact CPL: (w0, wa) = (-0.800000000, -0.500000000), extra = 1.000000000
+[PASS] A4 step convergence (f = 0.3, tau_i/f = 0.03): w(1): -0.9974775266 vs -0.9974775266; V0: 1.0518980306 vs 1.0518980306; F1 (w0, wa) diff 1.8e-08
+[PASS] A4 step convergence (f = 1.0, tau_i/f = 0.5): w(1): -0.9877724253 vs -0.9877724253; V0: 1.1364934968 vs 1.1364934968; F1 (w0, wa) diff 7.3e-09
+[PASS] A4 step convergence (f = 2.0, tau_i/f = 1.5): w(1): -0.9634538733 vs -0.9634538733; V0: 2.0645575186 vs 2.0645575186; F1 (w0, wa) diff 1.3e-08
+[PASS] A5i  f = 0.5: linear(cosmic time) vs Dutta-Scherrer shape: (1+w)/(1+w0) at a = 0.2, 0.35, 0.5, 0.7, 0.85: lin 0.00871 0.04646 0.13397 0.35908 0.62889 | DS 0.00871 0.04646 0.13397 0.35908 0.62889
+[PASS] A5ii f = 0.5: nonlinear code vs linear, 1 + w0 = 5.07e-06: nonlinear 0.00871 0.04646 0.13397 0.35908 0.62889 (max rel diff 1.4e-06)
+[PASS] A5i  f = 1.0: linear(cosmic time) vs Dutta-Scherrer shape: (1+w)/(1+w0) at a = 0.2, 0.35, 0.5, 0.7, 0.85: lin 0.01486 0.07681 0.20720 0.48053 0.73245 | DS 0.01486 0.07681 0.20720 0.48053 0.73245
+[PASS] A5ii f = 1.0: nonlinear code vs linear, 1 + w0 = 1.84e-05: nonlinear 0.01486 0.07681 0.20720 0.48053 0.73245 (max rel diff 2.9e-06)
+[PASS] A5i  f = 2.0: linear(cosmic time) vs Dutta-Scherrer shape: (1+w)/(1+w0) at a = 0.2, 0.35, 0.5, 0.7, 0.85: lin 0.01709 0.08765 0.23248 0.51941 0.76322 | DS 0.01709 0.08765 0.23248 0.51941 0.76322
+[PASS] A5ii f = 2.0: nonlinear code vs linear, 1 + w0 = 2.50e-05: nonlinear 0.01709 0.08765 0.23248 0.51940 0.76322 (max rel diff 4.4e-06)
+
+ALL ANCHORS PASS

@@ -1,0 +1,30 @@
+== CPL crossing boundary, independent check of the condition ==
+w(a_c) = -1  =>  a_c = (w0 + w_a + 1)/w_a
+  with w0 = -1 + x, w_a = -y (x, y > 0): a_c = (-x + y)/y  (always < 1)
+  a_c > 0  <=>  y > x  <=>  -w_a > 1 + w0  <=>  w0 + w_a < -1 : -x + y > 0 over denominator y
+
+== The corridor, general slope s: w_a = -s (1 + w0) ==
+w0 + w_a + 1 on the corridor = -(s - 1)*(w0 + 1)
+at s = 3/2:                  = -(w0 + 1)/2
+  with w0 = -1 + x (x > 0):  = -x/2 -> sign: -1
+  so for every w0 > -1 the corridor point has w0 + w_a < -1 (strictly); at w0 = -1 it is the
+  Lambda point itself, on the boundary.
+
+Crossing scale factor of the corridor's CPL line: a_c = (s - 1)/s
+  at s = 3/2: a_c = 1/3 , z_c = 1/a_c - 1 = 2 (independent of w0)
+  general slope: z_c = 1/(s - 1) ; the line is in the crossing region iff s > 1
+
+== Margin: how wrong could the slope 1.5 be before the conclusion changes? ==
+  boundary slope s = 1 (w_a = -(1 + w0) is the line w0 + w_a = -1 itself)
+  1.5 must be overestimated by a factor 1.5 (to s <= 1) for the corridor to leave the region
+
+== Comparison: the crossing redshift DR2 reports, z ~ 0.4 (#11 s10 quoting [21S]) ==
+  a CPL line with w0 > -1 crossing at z_c = 0.4 has s = -w_a/(1 + w0) = 7/2 = 3.5
+  the corridor's lines all cross at z_c = 2 : same region (w0 > -1, w0 + w_a < -1), different direction within it
+
+== Numeric spot checks (exact rationals) ==
+  w0 = -99/100  w_a =   -3/200  w0 + w_a = -201/200  (+1 =  -1/200)  a_c =  1/3  w(a=0) < -1: True
+  w0 =   -9/10  w_a =    -3/20  w0 + w_a =   -21/20  (+1 =   -1/20)  a_c =  1/3  w(a=0) < -1: True
+  w0 =    -3/4  w_a =     -3/8  w0 + w_a =     -9/8  (+1 =    -1/8)  a_c =  1/3  w(a=0) < -1: True
+  w0 =    -1/2  w_a =     -3/4  w0 + w_a =     -5/4  (+1 =    -1/4)  a_c =  1/3  w(a=0) < -1: True
+  w0 =       0  w_a =     -3/2  w0 + w_a =     -3/2  (+1 =    -1/2)  a_c =  1/3  w(a=0) < -1: True
