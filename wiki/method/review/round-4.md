@@ -72,7 +72,7 @@ Full-text searches on INSPIRE "found no prior explicit model with" the Langmann�
 
 The referee rebuilt both models in its own code (Step 2(a)–(d)). Most of the note reproduced:
 
-- **Model I:** ρ is symplectic with ρ² = −1; all three terms of the action are Sp(2,ℝ)-invariant and invariant under K → −K; the vacua at H = 1 form a circle K(φ); the stabilizer of a vacuum in the rotations is {±1}; the potential's Hessian at the vacuum has rank 1, leaving 3 flat directions ([model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
+- **Model I:** ρ is symplectic with ρ² = −1; all three terms of the action are Sp(2,ℝ)-invariant and invariant under K → −K; the vacua at H = 1 form a circle K(φ); the stabilizer of a vacuum in the rotations is {±1}; the Hessian of the action's potential at the vacuum has rank 1, leaving 3 flat directions ([model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
 - **Model II:** the matrix-base functions f_mn multiply as f_mn ∗ f_kl = δ_nk f_ml, match the Weyl symbols of |m⟩⟨n| built independently from Hermite functions, and carry the duality as D f_mn = (−1)^m f_mn for the note's stated sign; the quadratic form is diagonal with entries 8π(m + n + 1); the vacua have S_min = −2.5; and the polarization obeys Δ(β)/Δ(0) = cos β "to 6 decimals at 9 angles", with the sign convention confirmed ([the duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma); [complex-model vacua](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua)).
 - **Matter coupling (§5):** I = 0.406972 and 0.360047 in the two vacua, matching the quoted 0.4070 and 0.3600. A first attempt with a fast Fourier transform gave 23.27, which the referee traced to its own normalization and corrected with a direct discrete transform: "not a manuscript error".
 - **Monte Carlo (§4):** with its own lattice code and seeds, the referee reproduced the ordered phase with the potential (⟨|m|⟩ = 0.9541, 0.9543, 0.9542 at L = 16, 32, 64, Binder cumulant 2/3), the slow decay without it, and the spin-wave formula (0.9359 against the closed form's 0.9360).
@@ -81,7 +81,7 @@ The new findings it reported are taken up one by one under [the rulings](#the-ru
 
 ### Conceptual audit
 
-The audit (Step 3) asked whether "spontaneous breaking" was a fair description of model I in 1+1. With H frozen, yes: an Ising-type breaking of the residual ℤ₂, though "the potential fixes the unordered axis pair by hand, so the vacuum chooses only which of two pre-set axes is 'position'." With H dynamical, as the action is written, "not established". It found the strongest reason for the note's model II conclusion to be one the note had not led with: "the exact U(1)^N x U(1)^N invariance (every condensate phase decoupled) plus the absence of a volume factor". On matter locality it found the text "Mostly hedged correctly", with three over-reaches, the last that "the section condition is imposed, not derived, in this paper."
+The audit (Step 3) asked whether "spontaneous breaking" was a fair description of model I in 1+1. With H frozen, yes: an Ising-type breaking of the residual ℤ₂, though "the potential fixes the unordered axis pair by hand, so the vacuum chooses only which of two pre-set axes is 'position'." With H dynamical, as the action is written, "not established". It found the note's model II conclusion correct, and named as "the strongest reason" for it "the exact U(1)^N x U(1)^N invariance (every condensate phase decoupled) plus the absence of a volume factor". On matter locality it found the text "Mostly hedged correctly", with three over-reaches, the last that "the section condition is imposed, not derived, in this paper."
 
 ### Verdict
 
@@ -103,9 +103,9 @@ t = 0, 1, 2, 4:   V_mu = −4, −56.6, −2983, −8.9×10⁶      (λ-term ~0 
 
 The referee's closed form along the family is −4μ cosh²(2t). Constant fields cost no kinetic energy, so the potential is unbounded below: ruling F1, "**Upheld**".
 
-It follows that (1, K_ref), the note's vacuum, is a saddle point (F2, "**Upheld**"). The Hessian of the full potential at (1, K₀) has a negative eigenvalue at every compatibility coupling tried: −6.47, −4.40 and −4.04 at λ = 1, 10 and 100 "in my coordinates" (the adjudicator's, which are those of `verify/toy_coset.py`); the referee, with a different normalization, found −3.3723, −2.7797 and −2.6785. The note's two vacua K = ±K_ref exist only if H is held at 1. The Monte Carlo had therefore simulated a frozen-H reduction of model I, not model I ([the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)).
+It follows that (1, K_ref), the note's vacuum, is a saddle point (F2, "**Upheld**"). The Hessian of the full potential at (1, K₀) has a negative eigenvalue at every compatibility coupling tried: −6.47, −4.40 and −4.04 at λ = 1, 10 and 100 "in my coordinates" (the adjudicator's, which are those of `verify/toy_coset.py`); the referee, in its own coordinates and normalization, found −3.3723, −2.7797 and −2.6785. The note's two vacua K = ±K_ref exist only if H is held at 1. The Monte Carlo had therefore simulated a frozen-H reduction of model I, not model I ([the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)).
 
-The repair came from the referee. Dividing by the size of K bounds the potential:
+The repair came from the referee. Dividing by 2 Tr KᵀK, a measure of the size of K, bounds the potential:
 
 ```text
 V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK)
@@ -113,7 +113,7 @@ V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK)
 
 The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." ([obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), listed in [the graveyard](/wiki/status/graveyard); [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
 
-**The zero mode: a conflict between the sources.** The adjudication's F2 ruling calls the zero eigenvalue "the residual diagonal squeeze, which is an exact symmetry". Version 2 of the note says "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref" (§4). Version 2 ranks higher, and the wiki follows it; a later check found V_b not squeeze-invariant off K = ±K_ref (flag 12 in `review/wiki-build-flags.md`).
+**The zero mode: a conflict between the sources.** The adjudication's F2 ruling calls the zero eigenvalue "the residual diagonal squeeze, which is an exact symmetry". Version 2 of the note says "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref" (§4). Version 2 ranks higher, and the wiki follows it; a symbolic check made during the wiki build found V_b not squeeze-invariant off K = ±K_ref (flag 12 in `review/wiki-build-flags.md`).
 
 **Two families called "boost".** The runaway family above uses the hyperbolic matrices [[cosh t, sinh t], [sinh t, cosh t]]. The referee's notes also call the diagonal squeezes diag(a, 1/a), which leave K_ref fixed, a "non-compact boost subgroup" (Step 2(c), capitals lowered). Version 2 calls the first family boosts and the second the squeeze; the double usage in the referee's notes is flag 10 in `review/wiki-build-flags.md`.
 
@@ -121,7 +121,7 @@ The referee sampled it at 141227 points of the hyperboloid and found it between 
 
 The action of model I is invariant under Sp(2,ℝ) and, separately, under the flip K → −K. The referee showed that the combination ρ∘(K → −K) leaves the vacuum (1, K₀) unchanged; the adjudicator's script confirms it ("fixed: True"). Without matter, saying that ρ is broken or that K → −K is broken is then "a labelling choice", in the referee's words. The ruling, "**Upheld**": "Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K. This sharpens the S5 conclusion rather than contradicting it." ([the twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element); [P4](/wiki/program/postulates/p4-polarized-matter)).
 
-Version 2 states the caveat in its abstract and §2. Its §5 then calls the matter coupling I "odd in K". Since I ≥ 0, I is not invariant under K → −K rather than odd; the requirement as the adjudication words it is unaffected (flag 2 in `review/wiki-build-flags.md`).
+Version 2 states the caveat in its abstract and §2. Its §5 then says "**I is odd in K**, so it breaks the K → −K symmetry". Flag 2 in `review/wiki-build-flags.md` notes that I ≥ 0, so the two values show only that I is not invariant under K → −K; the requirement as the adjudication words it is unaffected.
 
 ### F4: the real model's one-loop preference
 
@@ -192,7 +192,7 @@ Both went into root `CLAUDE.md` ('Method'):
 1. "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability))
 2. "Monte Carlo numbers need error bars from independent runs. A fixed seed makes a number reproducible, not accurate." ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars))
 
-Both were defects of the author's own checks, which the gate had passed: the potential was tested only on the reduced model, and the control values were reproducible but not accurate ([the measured failure mode](/wiki/method/review/referee-failure-mode)).
+Both were defects in the author's own checks: the potential had been checked only on the reduced model, and the control values were reproducible but not accurate ([the measured failure mode](/wiki/method/review/referee-failure-mode)).
 
 ## The revisions and version 2
 

@@ -58,7 +58,7 @@ INSPIRE is the literature database of high-energy physics [T]. The step tests tw
 
 Round 3's referee queried INSPIRE for each reference, read the arXiv abstracts, and searched the full texts "for the specific claim each reference is cited for" (`review/round3/referee/audit-notes.md`, Step 1). All 23 references (37 individual items) resolved "with matching authors / journal / volume / page / year / arXiv id. No fabricated or mis-numbered reference found." Round 4's referee downloaded each paper's arXiv source and searched it for the attributed statement; its table records, reference by reference, whether the paper exists as cited and whether it supports the claim.
 
-The same step looks for prior work the manuscript should have cited. Round 4's full-text searches turned up the Langmann–Szabo–Zarembo exact solution and Smolin's triality model, among others ([round 4](/wiki/method/review/round-4)); round 3's referee named four uncited papers on "the standard hidden 't Hooft-Polyakov-monopole scenario", which it judged #14 v3's proposal to be (Step 4(d)).
+The same step looks for prior work the manuscript should have cited. Round 4's referee found the Langmann–Szabo–Zarembo exact solution and Smolin's triality model, among others, and its full-text searches on INSPIRE found no earlier explicit model of the duality broken by vacua ([round 4](/wiki/method/review/round-4)); round 3's referee named four uncited papers on "the standard hidden 't Hooft-Polyakov-monopole scenario", which it judged #14 v3's proposal to be (Step 4(d)).
 
 ### Step 2: every number in code
 
