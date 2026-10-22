@@ -6,6 +6,7 @@ description: "'The Angle of the Mirror', a narrative of the first week, and 'The
 sources:
   - "popsci/angle-of-the-mirror.md"
   - "popsci/universes-other-half.md"
+  - "HANDOFF.md §2"
   - "HANDOFF.md §3"
   - "HANDOFF.md §7"
   - "wiki/CLAUDE.md 'The wiki is derivative'"

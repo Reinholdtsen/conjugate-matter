@@ -14,7 +14,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
+  - "notes/broken-born-program-v1.md §3–§6"
   - "HANDOFF.md §3"
+  - "CLAUDE.md 'Layout'"
+  - "wiki/CLAUDE.md 'The wiki is derivative'"
   - "verify/battery.py"
   - "review/wiki-build-flags.md items 1, 3, 4, 5, 6, 7, 8, 14, 15, 17, 23"
 ---
@@ -115,6 +118,8 @@ The notebook's addenda v0.3 to v0.6 summarized each note as it was written. The 
 - `notes/debt1a-iii-tuning-test.md` — §1–§5: the metric tier, the frame tier, constrained bimetric gravity
 - `notes/debt1a-iv-beta-coefficients.md` — §1–§5: the palindrome, the vacuum-energy theorem, the parameter count and spectrum, the answer to Born, the residue
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' to 'Addendum (v0.6)' — the notebook's summaries
+- `notes/broken-born-program-v1.md` §3–§6 — the v1.0 consolidation
 - `HANDOFF.md` §3 rows 5–8 — the notes' standing and descriptions
+- `CLAUDE.md` 'Layout' and `wiki/CLAUDE.md` 'The wiki is derivative' — their place among the documents
 - `verify/battery.py` — tests T1–T7 and their current output
 - `review/wiki-build-flags.md` items 1, 3, 4, 5, 6, 7, 8, 14, 15, 17 and 23 — suspected errors in statements of the notes or their later restatements
