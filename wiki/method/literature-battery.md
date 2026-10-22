@@ -10,7 +10,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md header"
   - "papers/broken-born-checkpoint-v2.md 'References'"
   - "papers/broken-born-checkpoint-v2.md §2"
+  - "papers/broken-born-checkpoint-v2.md §9"
+  - "papers/broken-born-checkpoint-v2.md §11.2"
   - "papers/broken-born-checkpoint-v2.md §11.3"
+  - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
   - "papers/conjugate-special-relativity.md 'References'"
   - "CLAUDE.md 'Since the handoff'"
   - "CLAUDE.md 'Method'"
@@ -33,7 +36,7 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 1 results', 'Chunk 2 results', 'Write-up and review'"
   - "notes/knot-dark-matter-standalone.md 'References'"
   - "papers/reciprocity-toy-models.md 'References'"
-  - "notes/broken-born-program-v1.md §8, §10, §11"
+  - "notes/broken-born-program-v1.md §7, §8, §10, §11"
 ---
 
 *The literature battery is the planned check of every reference that the program's papers cite from model memory, marked †, against the published source. A † citation was recalled by Claude rather than retrieved, so its authors, title, journal reference, or the statement it is cited for may be wrong. [Checkpoint #11](/wiki/history/documents/checkpoint) lists the battery as open problem 10 of its §14 and calls itself "not for submission until the † audit (open item 10) completes". Some of the works involved have been checked in other contexts, and one suspected error in #11's list has been flagged, but no complete battery is on record. It is part of the first item of the current work queue.*
@@ -53,8 +56,10 @@ It matters for Tier 2 of #11's [claim tiers](/wiki/method/claim-tiers): literatu
 ## What is to be checked
 
 - **#11.** Entries [1]–[18] and [23] carry †; [19]–[22] and [24]–[29] carry [S]. By subject, the † entries are: Born's two [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) papers ([1], [2]); Freidel–Leigh–Minic on [Born reciprocity in string theory](/wiki/phase-space/reciprocity/broken-born-duality) ([3]); [curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space), from Snyder to relative locality ([4]–[6]); [the Born connection](/wiki/phase-space/born-geometry/born-connection) ([7]); spin-2 theory, from [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) to [Hinterbichler–Rosen](/wiki/gravity/spin-2-fields/vielbein-formulation) ([8]–[12]); [wave dark matter](/wiki/dark-matter/wave-dark-matter) ([13]–[15]); Weyl semimetals ([16]); the Dirac–Schwinger–Zwanziger (DSZ) [quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) and the electric–magnetic [dualities](/wiki/electric-magnetic-duality/s-duality) ([17], [18]); and [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter) ([23]). The entries are collected on [References](/wiki/references); the document is [the checkpoint](/wiki/history/documents/checkpoint).
+- **#11's † citation without a list entry.** #11 §11.2 credits the [dual-superconductor](/wiki/electric-magnetic-duality/dual-superconductor) picture of confinement, in which a condensate of magnetic monopoles squeezes the field between quarks into strings, to 't Hooft and Mandelstam: "[T, 't Hooft–Mandelstam†]". The reference list has no entry for it, so the papers meant have to be identified before they can be checked.
 - **#13.** All four references of [conjugate special relativity](/wiki/conjugate-relativity) carry †: Gibbons and Schiller on maximum force, Caianiello on maximal acceleration, and Born's two papers, which are #11's [1] and [2] ([maximum-force conjectures](/wiki/conjugate-relativity/maximum-force-conjectures)).
 - **An unreferenced phrase (not a † entry; the wiki lists it here).** #11 §11.3 says that choosing a duality frame "is choosing a Lagrangian polarization of charge space, in the literature's own words", without naming the source of the words ([The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
+- **An unreferenced limit (not a † entry; the wiki lists it here).** #11 §9 excludes the lightest masses of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) by observation: "the light-mass escape is closed independently [15†, Lyman-α]". [15] is Dalal and Kravtsov's paper on ultra-faint dwarf galaxies, among the † entries above. The Lyman-α forest limit cited beside it, a bound from the absorption lines of intergalactic hydrogen in quasar spectra, has no reference in #11 or in the earlier statements of the same closure, calc note #4 (`notes/debt3c-ufd-endpoint.md`) and the v1 paper (#9 §7) ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)).
 
 ## What a check involves
 
@@ -95,7 +100,7 @@ The root `CLAUDE.md` places the rest in the first item of the current queue: "1.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §14 item 10, footer, header, 'References', §2, §11.3 — the open item, the submission gate, the definitions of † and [S], the † and [S] entries, Tier 2, the unreferenced phrase
+- `papers/broken-born-checkpoint-v2.md` §14 item 10, footer, header, 'References', §2, §11.2, §11.3, §9 — the open item, the submission gate, the definitions of † and [S], the † and [S] entries, Tier 2, the † citation without a list entry, the unreferenced phrase, the unreferenced Lyman-α limit
 - `papers/conjugate-special-relativity.md` 'References' — #13's † entries
 - Root `CLAUDE.md` 'Since the handoff', 'Method' — the current queue; the meaning of †
 - `HANDOFF.md` §7, §8 item 6 — the rule for external use; the battery's original scope; §1 — the record at the handoff; §3 — v2.0's marks; §6 — the inverted Preskill citation
@@ -107,4 +112,5 @@ The root `CLAUDE.md` places the rest in the first item of the current queue: "1.
 - Repository history, commit e1c1f67 — reference [21] upgraded to [S]
 - `review/wiki-build-flags.md` items 9, 20, 26 — the wiki build's citation findings
 - `review/v3-worklog.md` preamble and `notes/toy-lagrangian.md` — retrieval since the move; the recalled convention
-- `notes/broken-born-program-v1.md` §8, §10 item 8, §11 — the v1 form of the item
+- `notes/broken-born-program-v1.md` §8, §10 item 8, §11 — the v1 form of the item; §7 — the Lyman-α limit named without a reference
+- `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — the Lyman-α limit's first statement, without a reference

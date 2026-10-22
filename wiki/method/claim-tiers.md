@@ -34,7 +34,7 @@ sources:
 
 The seven tests are T1–T7 of `verify/battery.py`, which [the gate](/wiki/method/verification/the-gate) runs before any work counts as finished. Its current output includes "T4 parity: 66.58 vs 63.72 as quoted" (on where these two figures are printed, see flag 36 in `review/wiki-build-flags.md`), the linearized potential's limit against the Fierz–Pauli form for the test matrix, "T5 V(1) - 2T = [0,0,0]", and "T7 p4 outside span of e_n (rms residual nonzero)  [rms=3.2853]". The tests and what each establishes are on [The verification battery T1–T7](/wiki/method/verification/battery).
 
-#11 §2 defines Tier 1 by this battery. Later machine-checked items, the numbers of the soliton obituary (§12, `verify/soliton_obituary.py`) and the toy-model results (§4, the [toy-model scripts](/wiki/method/verification/toy-model-scripts)), carry [V], but §2 does not place them in Tier 1; it counts the §12 obituary among the most reliable Tier-3 items (below).
+#11 §2 defines Tier 1 by this battery. Later machine-checked items, the numbers of the soliton obituary (§12, `verify/soliton_obituary.py`; [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) and the toy-model results (§4, the [toy-model scripts](/wiki/method/verification/toy-model-scripts)), carry [V], but §2 does not place them in Tier 1; it counts the §12 obituary among the most reliable Tier-3 items (below).
 
 ### What Tier 1 does not cover
 
