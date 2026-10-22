@@ -2,7 +2,7 @@
 title: "Relic abundance mechanisms"
 weight: 10
 status: established
-description: "How a dark-matter density is set, mechanism by mechanism: the yield, a summary of thermal freeze-out, freeze-out in a hidden sector, cannibal and asymmetric dark matter, freeze-in, and the Sakharov conditions for baryogenesis."
+description: "How a dark-matter density is set, mechanism by mechanism: the yield, summaries of thermal freeze-out and of freeze-out in a hidden sector at its own temperature, cannibal and asymmetric dark matter, freeze-in, and the Sakharov conditions for baryogenesis."
 provenance: [T]
 sources:
   - "verify/soliton_obituary.py"
@@ -39,7 +39,7 @@ A species in equilibrium with the hot plasma is made and annihilated in pairs. O
 
 ## A sector at its own temperature [T]
 
-A hidden sector that has decoupled from the visible plasma keeps its own temperature T_h, which can differ from the visible temperature T. Its species freeze out at T_h ~ m/20, which corresponds to a different visible temperature from the one at which the same mass would freeze out in our plasma. The round-3 referee found that the withdrawn manuscript's hidden fermion ψ, at MeV-scale masses, freezes out during [Big Bang nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#the-ψ-relic-windows-lower-edge) (BBN): "hidden freeze-out T_h ~ m/20 occurs at T_vis ~ 0.08 MeV for m_psi = 1 MeV, 0.24 MeV for 3 MeV, 0.71 MeV for 10 MeV (step4.out) - i.e. during BBN. Needs m_psi >~ 20-30 MeV" (audit notes, Step 4(a) item 8). The adjudication accepted the point without re-checking it: "T_f ~ m/20, so the lower mass bound should be ≳ 20–30 MeV" (ruling 6). The ψ case is on [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), and the hidden sector's temperature ratio on [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history). How freeze-out changes in such a sector is on [thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out#freeze-out-in-a-sector-at-its-own-temperature-t).
+A hidden sector that has decoupled from the visible plasma keeps its own temperature T_h, and its species freeze out at T_h ~ m/20, which falls at a different visible temperature from the one at which the same mass would freeze out in our plasma. How the temperature ratio is set, changed and lost, and what it does to dark radiation and to the timing of freeze-out, is on [a hidden sector at its own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature); how freeze-out itself changes in such a sector is on [thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out#freeze-out-in-a-sector-at-its-own-temperature-t). The case in the record is the withdrawn manuscript's hidden fermion ψ, which at MeV-scale masses would freeze out during [Big Bang nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#the-ψ-relic-windows-lower-edge) (BBN) (audit notes, Step 4(a) item 8); the adjudication accepted without re-checking that "the lower mass bound should be ≳ 20–30 MeV" ([ruling 6](/wiki/method/review/round-3/rulings#rulings-5-and-6-the-colder-hidden-sector-and-nucleosynthesis); [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)).
 
 ## Cannibal dark matter [T]
 
