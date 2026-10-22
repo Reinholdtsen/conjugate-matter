@@ -39,7 +39,7 @@ The note studies two models ([toy models of broken reciprocity](/wiki/symmetry-b
 - **Model I**, [a coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model) of a phase-space metric H and a real structure K (K² = 1), with η = ωK. Its vacua break Sp(2,ℝ), the group containing ρ, and K is the order parameter.
 - **Model II**, [the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), a noncommutative scalar field theory with an exact position–momentum duality (the Langmann–Szabo duality).
 
-The reviewed text was the note "as of commit d9a06ac", committed with the pre-registration. Its title then was "Spontaneous Breaking of Born Reciprocity in Two Toy Models". Two of its claims matter below. Its §6 claimed an "Ising-class breaking of rho in model I in 1+1", from a Monte Carlo simulation in 1+1 dimensions with a ρ-preserving potential added. Its abstract generalized: "in both models rho is one element of a continuous U(1), so the polarization is a Goldstone angle rather than a discrete choice" (both quoted in the referee's notes, Step 3).
+The reviewed text was the note "as of commit d9a06ac", committed with the pre-registration. Its title then was "Spontaneous Breaking of Born Reciprocity in Two Toy Models: the Polarization as a Goldstone Angle" (the file at that commit; the referee's notes give the part before the colon). Two of its claims matter below. Its §6 claimed an "Ising-class breaking of rho in model I in 1+1", from a Monte Carlo simulation in 1+1 dimensions with a ρ-preserving potential added. Its abstract generalized: "in both models rho is one element of a continuous U(1), so the polarization is a Goldstone angle rather than a discrete choice" (quoted in the referee's notes, Steps 2(b) and 3).
 
 ## The forecast
 
@@ -57,7 +57,7 @@ The referee was "a blind subagent with Python and web", working under the same f
 
 ### Citations
 
-The referee pulled metadata for every reference from the INSPIRE database and downloaded each paper's arXiv source to search it for the attributed statement (Step 1). All 12 references resolve. Its table flags five problems: the double-field-theory reference [8] supports a pair of sections only for d = 1; the second Duncan–Niedermaier–Seiler paper has first author A. Duncan, not N. Duncan, and an erratum; Grosse–Wulkenhaar's eq. (1) is the four-dimensional form with prefactor π², which the note adapted to two dimensions without saying so; [5] concerns the four-dimensional model; and [12]'s specific claim is unverifiable, the full text being paywalled.
+The referee pulled metadata for every reference from the INSPIRE database and downloaded each paper's arXiv source to search it for the attributed statement (Step 1). All 12 references resolve. Among the problems its table flags: the double-field-theory reference [8] supports a pair of sections only for d = 1; the second Duncan–Niedermaier–Seiler paper has first author A. Duncan, not N. Duncan, and an erratum; Grosse–Wulkenhaar's eq. (1) is the four-dimensional form with prefactor π², which the note adapted to two dimensions without saying so; [5] concerns the four-dimensional model; and [12]'s specific claim is unverifiable, the full text being paywalled.
 
 It also found prior work the note did not cite:
 
@@ -125,7 +125,7 @@ Version 2 states the caveat in its abstract and §2. Its §5 then says "**I is o
 
 ### F4: the real model's one-loop preference
 
-The note distinguishes complex fields, for which the Langmann–Szabo duality is a symmetry of model II, from real fields, for which it is only a covariance ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields)). The referee looked at the real model, the one the duality literature studies. Its vacua are diagonal, diag(±a₀, ±a₁), and the duality maps diag(a₀, a₁) to diag(a₀, −a₁). The two have equal classical action (−2.5) but different fluctuation spectra, so their one-loop free energies differ. The polarization in the real model is therefore a discrete choice lifted at one loop, not a Goldstone angle, and the abstract's generalization is true "of the two models chosen, not of the GW model the duality literature is about" (Step 3; GW is Grosse–Wulkenhaar).
+The note distinguishes complex fields, for which the Langmann–Szabo duality is a symmetry of model II, from real fields, for which it is only a covariance ([complex versus real fields](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields)). The referee looked at the real model, the one the duality literature studies. Its vacua are diagonal, diag(±a₀, ±a₁), and the duality maps diag(a₀, a₁) to diag(a₀, −a₁). The two have equal classical action (−2.5) but different fluctuation spectra, so their one-loop free energies differ. The polarization in the real model is therefore a discrete choice lifted at one loop, not a Goldstone angle, and the abstract's generalization is true "of the two models chosen, not of the GW model the duality literature is about" (Step 2(b); GW is Grosse–Wulkenhaar).
 
 The ruling, "**Upheld, with a consequence the referee did not draw**". At N = 8 the lowest Hessian eigenvalues are [2, 4, 4, 4] for diag(a₀, +a₁) and [1.07, 1.07, 2, 4] for diag(a₀, −a₁) ("the referee's normalization is half of mine"), and "F(+) − F(−) = 2.634, exactly the referee's number." The consequence: "**The lower free energy belongs to diag(a₀, −a₁), the β = π vacuum, which is the one sharper in position** (Δ(π) = −Δ(0) < 0)." The selection is "explicit, not spontaneous: the real model is not duality-symmetric, because the field is real in x", and "It is recorded as a lead, not a result: truncation dependence and its interpretation are unchecked."
 
@@ -167,7 +167,7 @@ Version 2 states the method: "Checkerboard Metropolis, cold start (φ = 0), L = 
 ### Scope: the section pair and Mermin–Wagner
 
 - **The double-field-theory "pair"** ("**Upheld**"). The note said every derivation of the section condition "selects the pair" of null lines. That holds only for d = 1: "For d > 1, Betz–Blumenhagen–Lüst–Rennecke's M ∈ O(d) gives a continuous family of sections." ([the section condition](/wiki/symmetry-breaking/section-condition)).
-- **Mermin–Wagner** ("**Upheld (literature)**"). The note invoked the theorem that continuous compact symmetries cannot break in two dimensions ([Mermin–Wagner–Coleman](/wiki/symmetry-breaking/mermin-wagner-coleman)). But model I's H-sector "is a hyperbolic SO(1,2) model, which by Duncan–Niedermaier–Seiler can break in 2D". The statement "must be restricted to the compact SO(2) containing ρ", and "Whether that SO(2) is broken in the coupled model is open." ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
+- **Mermin–Wagner** ("**Upheld (literature)**"). The note's §4 said "In the exactly symmetric model the continuous breaking is forbidden", citing the Mermin–Wagner and Coleman theorems ([Mermin–Wagner–Coleman](/wiki/symmetry-breaking/mermin-wagner-coleman); Step 3). But model I's H-sector "is a hyperbolic SO(1,2) model, which by Duncan–Niedermaier–Seiler can break in 2D". The statement "must be restricted to the compact SO(2) containing ρ", and "Whether that SO(2) is broken in the coupled model is open." ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models); [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
 
 ### Citations and prior work
 
@@ -187,7 +187,7 @@ Across the rounds: "Verdicts: 2/2 (rounds 1–2), miss (round 3), hit (round 4).
 
 ## The lessons
 
-Both went into root `CLAUDE.md` ('Method'):
+Both went into root `CLAUDE.md` ('Method'); the adjudication words them:
 
 1. "When numerics run on a reduced model (some fields frozen), check the stability of the unreduced model — boundedness, and the Hessian with all fields dynamical — and state the reduction in the text." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability))
 2. "Monte Carlo numbers need error bars from independent runs. A fixed seed makes a number reproducible, not accurate." ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars))
@@ -215,7 +215,7 @@ The toy worklog records the outcome and the decision on a further round: "No rou
 
 ## The round's files and the gate
 
-The record of the round is `review/round4-preregistration.md`, `review/round4-adjudication.md`, the referee's notes, scripts and outputs in `review/round4/referee/`, and the adjudicator's scripts and outputs in `review/round4/adjudicator/`. The arbitration scripts stay in `review/` and are not run by the gate. Each finding has a check in the gate's toy scripts ([the toy-model scripts](/wiki/method/verification/toy-model-scripts); [the gate](/wiki/method/verification/the-gate)):
+The record of the round is `review/round4-preregistration.md`, `review/round4-adjudication.md`, the referee's notes, scripts and outputs in `review/round4/referee/`, and the adjudicator's scripts and outputs in `review/round4/adjudicator/`. The arbitration scripts sit in `review/` and are not run by the gate; whether they belong in `verify/` is a conflict between the sources that no document resolves ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records)). Findings F1–F6 and the control run each have a check in the gate's toy scripts ([the toy-model scripts](/wiki/method/verification/toy-model-scripts); [the gate](/wiki/method/verification/the-gate)):
 
 | Finding | Check | Script |
 | --- | --- | --- |
@@ -223,7 +223,7 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 | F3 | "round-4 F3: the twisted rho (rho composed with K -> -K) fixes (1, K_ref)" | `verify/toy_coset.py` |
 | F4 | F(+) − F(−) = 2.634 at N = 6, 8, 10 | `verify/toy_gw.py` |
 | F5 | I_K doubles under the rescaling | `verify/toy_s5.py` |
-| F6 | the harmonic sum against Euler's γ | `verify/toy_gw.py` |
+| F6 | a single harmonic sum against Euler's γ, the ln N form (flag 11) | `verify/toy_gw.py` |
 | control | 0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004 | `verify/toy_s4.py` |
 
 ## What remains open
