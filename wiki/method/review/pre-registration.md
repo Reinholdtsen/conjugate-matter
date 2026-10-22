@@ -16,6 +16,7 @@ sources:
   - "review/round4-adjudication.md 'Pre-registration scored'"
   - "review/round3/referee/audit-notes.md Step 5"
   - "notes/toy-lagrangian.md 'Success criteria', 'Predictions', 'Assessment against the predictions'"
+  - "review/wiki-build-flags.md item 35"
 ---
 
 *Pre-registration is the practice of writing down, and committing to the repository, the verdict a blind review is expected to return and the weakest point the referee is expected to find, before the referee is dispatched. Because the forecast is fixed in advance it cannot be adjusted to the outcome, and scoring it afterwards measures how well the author judges the author's own work. The record so far: the verdict was forecast correctly in rounds 1 and 2, missed in round 3 and forecast correctly in round 4; the location of the weakest link is now forecast better, and its severity is still underestimated. Since round 3 the forecast is kept out of the commit subject, because a referee subagent sees recent commit subjects.*
@@ -54,7 +55,7 @@ The toy-model work used the same discipline for a calculation rather than a revi
 
 ### Rounds 1 and 2
 
-Both rounds of the [skeptic review console](/wiki/method/review/skeptic-console) on #14 were pre-registered. The round-3 pre-registration: "Rounds 1 and 2 were pre-registered the same way and scored 2 for 2 on verdicts (HANDOFF §6)." The referees returned "B / medium" and "B near B/C / medium" (`HANDOFF.md` §6). The forecasts themselves are not in the repository, and no document records how their weakest-link forecasts scored ([review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
+Both rounds of the [skeptic review console](/wiki/method/review/skeptic-console) on #14 were pre-registered. The round-3 pre-registration: "Rounds 1 and 2 were pre-registered the same way and scored 2 for 2 on verdicts (HANDOFF §6)." (On that pointer, see flag 35 in `review/wiki-build-flags.md`.) The referees returned "B / medium" and "B near B/C / medium" (`HANDOFF.md` §6). The forecasts themselves are not in the repository, and no document records how their weakest-link forecasts scored ([review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 
 ### Round 3
 
@@ -70,7 +71,7 @@ The adjudication scored it (`review/round3-adjudication.md`, 'Pre-registration s
 | All 23 citations resolve | All exist | **Hit** |
 | A misattribution most likely in [5] or [11] | The referee's one misattribution claim (Baumgart) was itself wrong; [4] was flagged as over-generalized | Miss |
 
-The arithmetic row is the instructive one. Every number in v3 had passed a script, and three still fell, together with the coefficient in the estimate of the kinetic-mixing parameter ε, because the scripts encoded wrong inputs or model choices: the Kibble normalization p, the ψ relic window and the bound on the temperature ratio ξ ([round-3 rulings](/wiki/method/review/round-3/rulings)). The adjudication's conclusion: "Calibration: my confidence in v3 was too high. The failure mode has moved." ([the measured failure mode](/wiki/method/review/referee-failure-mode)). The adjudication does not score the list of runners-up.
+In the arithmetic row, every number in v3 had passed a script, and three still fell, together with the coefficient in the estimate of the kinetic-mixing parameter ε, because the scripts encoded wrong inputs or model choices: the Kibble normalization p, the ψ relic window and the bound on the temperature ratio ξ ([round-3 rulings](/wiki/method/review/round-3/rulings)). The adjudication's conclusion: "Calibration: my confidence in v3 was too high. The failure mode has moved." ([the measured failure mode](/wiki/method/review/referee-failure-mode)). The adjudication does not score the list of runners-up.
 
 ### Round 4
 
@@ -125,3 +126,4 @@ The adjudication's first lesson weighs it: "The auditor says it did not use it, 
 - `review/round3/referee/audit-notes.md` Step 5 — the referee's reproducibility note on the leak
 - `HANDOFF.md` §5, §6, §7 — the rule as handed over, with the superseded "2-for-2"; the round-1 and round-2 verdicts; the request for explicit calibration
 - `notes/toy-lagrangian.md` 'Success criteria (fixed 2026-10-19, before any construction)', 'Predictions (written before construction)' — the same discipline applied to the toy-model calculation
+- `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, awaiting a ruling

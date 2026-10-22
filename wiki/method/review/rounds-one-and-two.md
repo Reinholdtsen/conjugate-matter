@@ -14,6 +14,7 @@ sources:
   - "review/skeptic-review-console.html"
   - "review/round3-preregistration.md"
   - "review/round3-adjudication.md 'Decisions'"
+  - "review/wiki-build-flags.md item 35"
 ---
 
 *Review rounds 1 and 2 were the program's first two blind reviews, both of #14, the standalone manuscript proposing superheavy hidden-sector solitons as dark matter. Both ran through the [skeptic review console](/wiki/method/review/skeptic-console): a fresh referee with web search and no code execution. Round 1 graded version 1 B, flawed but salvageable, with medium confidence, and every valid finding was folded into version 2; round 2 graded version 2 "B near B/C" and called the derivation of the hidden coupling numerology. Round 2's findings became the pending list R1–R7, from which version 3 was cut for [round 3](/wiki/method/review/round-3). The rounds are known only from the handoff's summary: the referees' reports and the full adjudications were never brought into the repository.*
@@ -22,7 +23,7 @@ sources:
 
 ## What survives of the record
 
-Only a summary survives. Everything on this page comes from the handoff, which the author wrote when the project moved from claude.ai to Claude Code, and from the worklog that later used it. None of it can be checked against the reports from inside the repository. What exists and what does not:
+Only a summary survives. The account of the rounds on this page comes from the handoff, which the author wrote when the project moved from claude.ai to Claude Code, and from the worklog that later used it. None of it can be checked against the reports from inside the repository. What exists and what does not:
 
 | Item | Where it is |
 | --- | --- |
@@ -69,7 +70,7 @@ The manuscript was #14, the proposal that dark matter consists of superheavy top
 | R4 | gravity-induced kinetic mixing: the referee's mechanism had a formula that was "uncited and unverified", and v2's "forbidden to all orders" was "too strong either way" | ready; the question changes | "The referee is right that it exists, and it is negligible": ε = 0 if hidden charge conjugation is exact, otherwise ≲10⁻¹³ from pure gravity ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)) |
 | R5 | the entropy-dilution caveat | adjudicated [V], "stronger than the referee said" | the mass window was not "Kibble-only" (finding F1 below) |
 | R6 | name an explicit candidate group: "dual SU(2)→U(1) suffices" | ready | "SU(2) → U(1) by an adjoint Higgs", later extended to need "at least one light dark doublet" ([the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)) |
-| R7 | the bimetric cosmological-branch instability: "mass hierarchy may evade" | ready, with a tension | the escape needs unequal Planck masses, while reciprocity forces equal ones; "v3: state this as an open consistency item, not as evaded" ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)) |
+| R7 | the bimetric cosmological-branch instability: "mass hierarchy may evade" | ready, with a tension | the published escape assumes unequal Planck masses, while reciprocity forces equal ones; "v3: state this as an open consistency item, not as evaded" ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)) |
 
 **The referee's own errors**, "machine-arbitrated": it "fed ρ_DM = 1.26×10⁻³ GeV/cm³ instead of 1.26×10⁻⁶ (the manuscript's own number) — with the right input the closure lands within 3%", and it "conflated mean vs local density labels (manuscript's 1.3×10⁻²² mean and one-per-25-km³ local are both exactly right)". With round 1's errors these make up the evidence for [the measured failure mode](/wiki/method/review/referee-failure-mode).
 
@@ -88,11 +89,11 @@ v3 was drafted on 2026-10-19, with every number it quoted gated in a script. It 
 - **A measured failure mode.** Referees without code were "strong on structure, literature and logic; **unreliable on unaided arithmetic**" (`HANDOFF.md` §6). This made [the iron rule](/wiki/method/verification/iron-rule) "load-bearing" and was "the main reason the project is moving" to Claude Code.
 - **The gate to verdict A.** The handoff's open item 1, the toy Lagrangian, is the one "both reviewers independently named", and its queue calls it "the item both independent reviewers named as the gate to verdict A" (`HANDOFF.md` §2, §8). The [toy models](/wiki/symmetry-breaking/toy-models) were built to meet it and reviewed in [round 4](/wiki/method/review/round-4).
 - **The common objection.** Round 3's adjudication: "Every referee across three rounds converges on 'the framework does no work'" ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)).
-- **Pre-registration.** Both rounds were pre-registered and "scored 2 for 2 on verdicts" (`review/round3-preregistration.md`, citing `HANDOFF.md` §6; [pre-registration](/wiki/method/review/pre-registration)).
+- **Pre-registration.** Both rounds were pre-registered and "scored 2 for 2 on verdicts" (`review/round3-preregistration.md`, citing `HANDOFF.md` §6; on that pointer, see flag 35 in `review/wiki-build-flags.md`; [pre-registration](/wiki/method/review/pre-registration)).
 
 ## Unresolved: how many reviews returned B
 
-`HANDOFF.md` §1 says "Three blind AI reviews returned verdict B ("flawed but salvageable")". Its §6 records two completed rounds with verdict B, and a third, "Round 3 (incomplete)", that "died partway on a rate limit" before giving a verdict. No document reconciles the count ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+`HANDOFF.md` §1 says "Three blind AI reviews returned verdict B ("flawed but salvageable")". Its §6 records two completed rounds with verdict B, and a third, "Round 3 (incomplete)", that "died partway on a rate limit" before giving a verdict. No document reconciles the count ([conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records)).
 
 ## Sources
 
@@ -105,3 +106,4 @@ v3 was drafted on 2026-10-19, with every number it quoted gated in a script. It 
 - `review/skeptic-review-console.html` — the referee set-up and #14 v2 as embedded
 - `review/round3-preregistration.md` — "scored 2 for 2 on verdicts"
 - `review/round3-adjudication.md` 'Decisions' (4) — the referees' convergence on "the framework does no work"
+- `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, awaiting a ruling
