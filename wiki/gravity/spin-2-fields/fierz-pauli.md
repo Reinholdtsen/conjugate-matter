@@ -2,7 +2,7 @@
 title: "The Fierz–Pauli mass term and the Boulware–Deser ghost"
 weight: 20
 status: established
-description: "The unique healthy linear mass term for spin-2, the ghost that generic nonlinear completions revive, and why no ungauged symmetric tensor has a ghost-free kinetic term (the signature obstruction)."
+description: "The unique healthy linear mass term for spin-2, why its weight is special, the ghost that generic nonlinear completions revive, and how the program's metric-built potential misses the Fierz–Pauli weight (battery test T4); the signature obstruction, which keeps its kinetic term gauge-invariant, in summary."
 provenance: [T]
 sources:
   - "notes/debt1a-ii-X-classification.md §2"
@@ -21,12 +21,11 @@ sources:
   - "HANDOFF.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
-  - "notes/broken-born-program-v1.md §5"
   - "review/wiki-build-flags.md items 4, 5, 36"
   - "review/wiki-build-checks/s_expansion.out"
 ---
 
-*The Fierz–Pauli mass term is the only mass term that gives a free spin-2 field a mass without a ghost, a mode whose energy has the wrong sign. In matrix notation it is proportional to Tr(h²) − (Tr h)², where h is the field; any other relative weight of the two terms lets an extra mode propagate, and that mode is a ghost. When the theory is made nonlinear, a generic completion brings the extra mode back, the Boulware–Deser ghost, and keeping it out takes the special [de Rham–Gabadadze–Tolley (dRGT)](/wiki/gravity/spin-2-fields/drgt-massive-gravity) and [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potentials. A related standard fact, the signature obstruction, says that a ghost-free two-derivative kinetic term for a symmetric tensor field must have the gauge symmetry of the massless graviton; the Fierz–Pauli theory keeps that kinetic term and breaks the symmetry only through its mass term. The program uses all three facts to decide what its second field, the [momentum graviton X](/wiki/gravity/momentum-graviton), can be. Its [tuning test](/wiki/gravity/tuning-test) checks X's mass term against the Fierz–Pauli form, and the version built from metrics fails that check.*
+*The Fierz–Pauli mass term is the only mass term that gives a free spin-2 field a mass without a ghost, a mode whose energy has the wrong sign. In matrix notation it is proportional to Tr(h²) − (Tr h)², where h is the field; any other relative weight of the two terms lets an extra mode propagate, and that mode is a ghost. When the theory is made nonlinear, a generic completion brings the extra mode back, the Boulware–Deser ghost, and keeping it out takes the special [de Rham–Gabadadze–Tolley (dRGT)](/wiki/gravity/spin-2-fields/drgt-massive-gravity) and [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potentials. A related standard fact, [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction), says that a ghost-free two-derivative kinetic term for a symmetric tensor field must have the gauge symmetry of the massless graviton; the Fierz–Pauli theory keeps that kinetic term and breaks the symmetry only through its mass term. The program uses all three facts to decide what its second field, the [momentum graviton X](/wiki/gravity/momentum-graviton), can be. Its [tuning test](/wiki/gravity/tuning-test) checks X's mass term against the Fierz–Pauli form, and the version built from metrics fails that check.*
 
 **Status:** Established — [T] — textbook massive-gravity theory, with the signature obstruction tagged "[T — standard]" in [#6](/wiki/history/documents/debt-1-notes) §2. The program's documents cite no source for the Fierz–Pauli term or the Boulware–Deser ghost; the references below are added from model memory (†). The program's comparison of its own mass term with the Fierz–Pauli form is machine-checked as battery test T4 [V], which passes in the current [gate run](/wiki/method/verification/the-gate) ([the verification battery](/wiki/method/verification/battery)).
 
@@ -52,15 +51,7 @@ L_FP = L_kin[h] + L_mass,        L_mass ∝ −m² (h_μν h^μν − h²) = −
 
 ## The signature obstruction
 
-The Fierz–Pauli construction keeps the gauge-invariant kinetic term L_kin even though its mass term breaks the gauge symmetry. Calc note #6 §2 states why no other kinetic term would do, and tags the statement as standard literature:
-
-> Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]
-
-The reason is the sign structure of spacetime [T]. In Lorentzian signature, raising a time index changes a sign, so in a contraction such as h_μν h^μν the mixed components h₀ᵢ enter with the opposite sign to h₀₀ and hᵢⱼ. In a two-derivative kinetic term built from such contractions, that sign is the sign of the time-derivative terms of h₀ᵢ: if the spatial components hᵢⱼ carry positive kinetic energy, the mixed ones carry negative kinetic energy. A healthy theory therefore cannot let every component of a symmetric tensor propagate. The gauge-invariant kinetic term avoids the problem because it contains no time derivatives of h₀₀ and h₀ᵢ, which are constrained rather than propagated. The Fierz–Pauli theory inherits that property from L_kin and, through its special weight, keeps h₀₀ a Lagrange multiplier ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity#linearized-gravity-and-the-graviton-t)).
-
-The name "signature obstruction" is calc note #7's (§5). The [checkpoint](/wiki/history/documents/checkpoint) (#11 §7.1) states its use in one clause, "ungauged X by Lorentz signature", and the superseded [program v1](/wiki/history/documents/checkpoint) (#9 §5) as "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)". The standard reference for the classification of ghost-free quadratic Lagrangians of a symmetric tensor is van Nieuwenhuizen (1973†).
-
-Calc note #6 §3 records a caveat on the setting of the program's own chain: [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) and the [Siegel](/wiki/phase-space/modular-field/siegel-domain) parametrization "were derived for positive H. Lorentzian g makes the stabilizer U(1, d−1) and the invariant target metric indefinite — which is precisely the regime where the gauge+mass structure above is not a luxury but the only path to health." It calls the chain "the Euclidean-rigorous skeleton". The extension to spacetime signature is open ([Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
+The Fierz–Pauli construction keeps the gauge-invariant kinetic term L_kin even though its mass term breaks the gauge symmetry. The reason is [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction), tagged "[T — standard]" in calc note #6 §2 and named in calc note #7 §5: without the gauge invariance, no two-derivative kinetic term for a Lorentz-covariant symmetric tensor is free of ghosts, because in Lorentzian signature the mixed time–space components h₀ᵢ enter with the wrong sign. L_kin contains no time derivatives of h₀₀ and h₀ᵢ, which are constrained rather than propagated ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity#linearized-gravity-and-the-graviton-t)), and the Fierz–Pauli weight keeps h₀₀ a Lagrange multiplier when the mass term is added. The [checkpoint](/wiki/history/documents/checkpoint) states the program's use as "ungauged X by Lorentz signature" (#11 §7.1). Calc note #6 §3 adds that the chain beneath that use was derived for positive-definite metrics; its extension to spacetime signature is open ([Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 
 ## Beyond quadratic order: the Boulware–Deser ghost [T]
 
@@ -78,7 +69,7 @@ In the vielbein, or frame, formulation the ghost-free potentials are polynomials
 
 ### The ungauged option is closed
 
-X = Re Z is a symmetric tensor with its own gauge symmetry, the [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) δX_μν = ∂₍μλ_ν₎ (#6 §2). Two routes would avoid giving it a mass, and both are closed (#11 §7.1, [D + T]): "Massless X is excluded by the multi-graviton no-go [8†]; ungauged X by Lorentz signature." The second exclusion is the signature obstruction; the first is [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go). What remains is a mass that respects the Fierz–Pauli structure, generated when the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) breaks the dual diffeomorphisms ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). The [lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.4 states the same pair: massless X "excluded by the multi-graviton no-go", and "the ghost-free no-gauge option is excluded by Lorentz signature".
+X = Re Z is a symmetric tensor with its own gauge symmetry, the [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) δX_μν = ∂₍μλ_ν₎ (#6 §2). Two routes would avoid giving it a mass, and both are closed (#11 §7.1, [D + T]): "Massless X is excluded by the multi-graviton no-go [8†]; ungauged X by Lorentz signature." The second exclusion is [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction); the first is [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go). What remains is a mass that respects the Fierz–Pauli structure, generated when the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) breaks the dual diffeomorphisms ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). The [lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.4 states the same pair: massless X "excluded by the multi-graviton no-go", and "the ghost-free no-gauge option is excluded by Lorentz signature".
 
 ### The metric tier misses the Fierz–Pauli weight
 
@@ -121,8 +112,7 @@ The program's documents cite no source for the Fierz–Pauli term, the Boulware�
 
 ## Used by
 
-- [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) — the signature obstruction excludes an ungauged X.
-- [Dual diffeomorphisms: a second graviton](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) — the signature obstruction closes the ungauged way out.
+- [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) — the Fierz–Pauli structure is what the exclusions of a massless and an ungauged X leave; a generic potential reintroduces the Boulware–Deser ghost.
 - [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) — the mass X acquires must have the Fierz–Pauli structure.
 - [The misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) — the potential tested against the Fierz–Pauli form.
 - [The metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures) — the missing Fierz–Pauli trace term (T4).
@@ -144,6 +134,5 @@ The program's documents cite no source for the Fierz–Pauli term, the Boulware�
 - `HANDOFF.md` §2, §5 — the failure marked ✓; "66.58 vs 63.72 at seed 0".
 - `notes/debt1a-iv-beta-coefficients.md` §3 — the Fierz–Pauli mass combination after the palindrome.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)', 'Addendum (v0.5)' — the two exclusions; the tuning test's verdict as first recorded.
-- `notes/broken-born-program-v1.md` §5 — "wrong-sign mixed components" (superseded as reference).
 - `review/wiki-build-flags.md` item 4 — the suspected missing −h² in #7's expansion of S; item 5 — M_X versus M_X²; item 36 — where the figures 66.58 and 63.72 are printed. All await Paul's ruling.
 - `review/wiki-build-checks/s_expansion.py` and `review/wiki-build-checks/s_expansion.out` — the expansion of S checked to second order.
