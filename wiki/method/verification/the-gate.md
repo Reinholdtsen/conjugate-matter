@@ -109,7 +109,7 @@ The commit history records each change:
 - **2026-10-19, commit 96f58da.** After round 3, knot_numbers.py was given the corrected inputs and independent anchors, and the commit message records the consequence: "scripts/check.sh fails on v3's affected claims, by design, until v3 is revised or withdrawn."
 - **2026-10-19, commit 5b6efaa.** The manuscript was withdrawn and knot_numbers.py replaced by `verify/soliton_obituary.py`. The adjudication's 'Decisions' explains why this is not a weakened check: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything." The commit message: "the gate is green again because the withdrawn paper no longer claims anything."
 - **2026-10-19, commits 0e0f51e to 56485d3.** The four toy-model scripts were added chunk by chunk as the models were built.
-- **2026-10-20, commit 17e1338.** `scripts/check-wiki.py` was added ("Add the wiki gate: links, anchors, section maps, sources, page shape"); on 2026-10-21 it began checking starred symbols (`wiki/CLAUDE.md`, 'Build state').
+- **2026-10-20, commit 17e1338.** `scripts/check-wiki.py` was added ("Add the wiki gate: links, anchors, section maps, sources, page shape"); on 2026-10-21 it began checking starred symbols (commit b970e9d; [timeline](/wiki/history/timeline)).
 
 ## A recorded run
 
@@ -141,5 +141,5 @@ The output of each script is quoted on its page, in full except for parts A and 
 - `review/round4-adjudication.md` header — the arbitration scripts in `review/`
 - `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` items 16, 33, 38 — the wiki build's checks, outside the gate; the Debt-3 check mark; the soliton script's claimed coverage; the Layout's two scripts
 - `HANDOFF.md` §2 — the ✓ on the Debt-3 figure
-- `wiki/CLAUDE.md` 'The gate', 'Build state' — how the wiki check is run; when it was extended
+- `wiki/CLAUDE.md` 'The gate' — how the wiki check is run
 - Git history: commits 008c3ee, 678e48a, d15cd4a, 5dbaa82, 96f58da, 5b6efaa, 0e0f51e, 56485d3 and 17e1338 — the growth of the script list

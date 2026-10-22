@@ -65,7 +65,7 @@ Rules that go with the order:
 
 `review/wiki-build-flags.md` lists suspected errors inside single statements of the source documents, found while the wiki was built: arithmetic, formulas, section pointers and citations, each quoted faithfully on the wiki's pages and awaiting Paul's ruling, with executed checks in `review/wiki-build-checks/`. A flagged statement can recur in several documents that agree with one another, such as the reading of [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) as the |Z| = 1 locus (item 23), and is then an error, not a conflict. Where an entry below concerns a flagged statement, it names the item.
 
-The flags file and `review/wiki-build-checks/README.md` cite conflict numbers from the inventory compiled for the wiki's build, which a reboot later cleared (`wiki/CLAUDE.md`, 'Build state'). The numbers that survive in the repository are C20, C21, C27, C28, C29 and C54. The entries below give C20, C21, C27, C28 and C29; C54, a date in #1 (item 18), concerns a single statement and is left to the flags file.
+The flags file and `review/wiki-build-checks/README.md` cite conflict numbers from the inventory compiled for the wiki's build, which a reboot later cleared (recorded on [the timeline](/wiki/history/timeline)). The numbers that survive in the repository are C20, C21, C27, C28, C29 and C54. The entries below give C20, C21, C27, C28 and C29; C54, a date in #1 (item 18), concerns a single statement and is left to the flags file.
 
 ## Unresolved
 
@@ -197,7 +197,7 @@ These concern #14 and its review record. The manuscript is withdrawn, so each is
 
 ## Sources
 
-- `wiki/CLAUDE.md` 'The wiki is derivative' — the order of precedence and the dead-stays-dead rule; 'Build state' — the inventory and its loss
+- `wiki/CLAUDE.md` 'The wiki is derivative' — the order of precedence and the dead-stays-dead rule
 - `CLAUDE.md` 'Since the handoff' and 'Layout' — the top-ranked rulings and the instruction on arbitration scripts
 - `papers/broken-born-checkpoint-v2.md` and `papers/reciprocity-toy-models.md` — the rank-2 statements, including the inconsistencies inside #11
 - `review/round4-adjudication.md` and `review/round3-adjudication.md` — rulings, decisions and revisions; `review/round3/referee/audit-notes.md` and `review/round4/referee/audit-notes.md` — the referees' readings
