@@ -14,24 +14,27 @@ sources:
   - "papers/reciprocity-toy-models.md §6"
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round4-adjudication.md 'Rulings'"
+  - "review/round4-adjudication.md 'Revisions for v2 of the note'"
   - "papers/conjugate-special-relativity.md §3"
   - "papers/conjugate-special-relativity.md §7"
   - "HANDOFF.md §2"
   - "HANDOFF.md §8"
   - "review/wiki-build-flags.md"
   - "review/wiki-build-checks/flag-audit.json"
+  - "review/wiki-build-checks/README.md"
   - "notes/debt1a-iv-beta-coefficients.md §5"
   - "notes/debt1a-geometric-core.md §F"
   - "notes/broken-born-theory.md §11"
   - "notes/broken-born-program-v1.md §10"
   - "notes/toy-lagrangian.md 'Chunk 4'"
+  - "notes/toy-lagrangian.md 'Write-up and review'"
   - "review/v3-worklog.md 'New open items'"
   - "review/v3-worklog.md 'Round-2 pending list'"
 ---
 
-*This register lists the problems the Broken-Born program has not yet solved and the order in which work on them is queued. Its core is the eleven numbered open problems of [checkpoint #11](/wiki/history/documents/checkpoint), the program's current reference, which says that none of them is any longer about whether the structure can exist. Around that list it collects the current work queue, the open ends of the [toy models](/wiki/symmetry-breaking/toy-models), the open problems raised in the notes, the reviews and the other papers, and the open sub-questions recorded on pages about other subjects. #11 says the word "theory" still waits on three of the numbered problems: deriving the interaction potential of the program's second graviton from its geometric action, comparing a vacuum-energy identity with the literature on partially massless gravity, and extending proofs made for positive-definite metrics to the signature of spacetime. The register ends with the 42 suspected errors in the source documents that were found while this wiki was built; each was re-checked by independent agents, and each awaits Paul's ruling.*
+*This register lists the problems the Broken-Born program has not yet solved and the order in which work on them is queued. Its core is the eleven numbered open problems of [checkpoint #11](/wiki/history/documents/checkpoint), the program's current reference, which says that none of them is any longer about whether the structure can exist. Around that list it collects the current work queue, the open ends of the [toy models](/wiki/symmetry-breaking/toy-models), the open problems raised in the notes, the reviews and the other papers, and the open sub-questions recorded on pages about other subjects. #11 says the word "theory" still waits on three of the numbered problems: deriving the interaction potential of the program's second graviton from its geometric action, comparing a vacuum-energy identity with the literature on partially massless gravity, and extending proofs made for positive-definite metrics to the signature of spacetime. The register ends with the 42 suspected errors in the source documents that were found while this wiki was built. Independent agents, each told to refute a flag, then re-checked all of them: 32 were confirmed, 8 depend on a convention or a reading the documents support, 2 are unclear because they rest on model memory, and none was refuted. Each still awaits Paul's ruling.*
 
-**Status:** Record, a register current to 2026-10-21 — no tags of its own; each item keeps its source's tag, and the numbered items carry [O] in #11 §14 — the numbered list is #11's (`papers/broken-born-checkpoint-v2.md` §14), the queue is the root `CLAUDE.md`'s, which supersedes `HANDOFF.md` §8, and the pending rulings are the 42 items of `review/wiki-build-flags.md`, each with the verdict of the flags' audit.
+**Status:** Record, a register current to the flags' audit, which `review/wiki-build-flags.md` dates 2026-10-22 — no tags of its own; each item keeps its source's tag, and the numbered items carry [O] in #11 §14 — the numbered list is #11's (`papers/broken-born-checkpoint-v2.md` §14), the queue is the root `CLAUDE.md`'s, which supersedes `HANDOFF.md` §8, and the pending rulings are the 42 items of `review/wiki-build-flags.md`, each with the verdict of the flags' audit.
 
 An open problem with a page of its own is titled "Open: …", with its #11 number (OPn) when it has one. A smaller open question recorded on a page about another subject sits under a heading of the form "Open: …" on that page, and this register links that heading. Items tagged [O] carry the open tag in their source; the others are open because no document resolves them.
 
@@ -41,7 +44,7 @@ An open problem with a page of its own is titled "Open: …", with its #11 numbe
 
 1. [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction) — the ghost-free interaction potential of the [momentum graviton X](/wiki/gravity/momentum-graviton), the frame-tier wedge class, was chosen by minimality and consistency rather than derived from the geometric action S_H: "class selected, not derived" [O]. The same gap in the language of the [modular field](/wiki/phase-space/modular-field) is [Open: the Re Z sector of the geometric action (OP1)](/wiki/phase-space/modular-field/modular-field-z#open-the-re-z-sector-of-the-geometric-action-op1), where calc note #5 restates the field equation for momentum-space geometry as the Re Z sector of S_H. One of the three items "theory" waits on.
 2. [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — a detailed comparison of the palindromic branch with partially massless (PM) bimetric gravity, asking "is reciprocity the origin of the PM symmetry?", and a "Convention-careful check of the vacuum-energy identity against [24S, 25S]" [O]. Until it is done the identity is presented as adjacent to known results, not as new. Current queue item 1, and one of the three items "theory" waits on. The reference [24S] is the subject of flag 9 below.
-3. [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the compatibility theorem, the Siegel parametrization and the chain that forces X to be massive are proven for a positive-definite phase-space metric; extending them to the signature of spacetime, where the group that leaves the vacuum fixed becomes non-compact, is open [O]. First flagged in calc note #6 §3, and one of the three items "theory" waits on. Flag 30 notes that #13's two causal cones depend on it.
+3. [Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing) — the compatibility theorem, the Siegel parametrization and the chain that forces X to be massive are proven for a positive-definite phase-space metric; extending them to the signature of spacetime, where the group that leaves the vacuum fixed becomes non-compact, is open [O]. First flagged in calc note #6 §3, and one of the three items "theory" waits on. Flag 30 notes that #13's two causal cones depend on it; the audit rates that flag as depending on a tagging convention.
 4. [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape) — whether the gate that switches off [conjugate matter](/wiki/dark-matter/conjugate-matter)'s self-interaction at large relative velocity falls off as a Gaussian or with a power-law (rational) tail, which depends on the X propagator along the momentum directions; "now observable" in the tail of the self-interaction knee [O]. #11 §15 counts "gate tail not yet forced" among the program's degeneration risks.
 5. [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — why conjugate matter can scatter off itself with a nuclear-scale cross-section while ordinary matter couples to X only at gravitational strength; #11 §8 calls it the "Main open quantitative item" [O].
 6. [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) — how strongly the dark-energy field τ mixes, through the potential, with the modes that X absorbs when it becomes massive; calc note #8 §3 logged the mixing as "expected small by compactness", and no document computes it [O].
@@ -83,7 +86,7 @@ The root `CLAUDE.md` lists four open ends of the toy Lagrangian: a Monte Carlo w
    - [Open: why position rather than momentum](/wiki/program/postulates/p5-spontaneous-selection#open-why-position-rather-than-momentum) — the same lead as it bears on postulate P5, which takes our position-tilted vacuum as given.
 5. **Whether ρ's SO(2) breaks in the coupled model.** [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — in two dimensions the compact polarization angle cannot order by itself ([the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)), but model I's metric sector is a hyperbolic sigma model, which can; whether the coupled model breaks ρ's SO(2) without a potential is open (round-4 point C2; note §6).
 6. **Anything beyond d = 1.** Both toy models take a phase space with one position and one momentum direction, d = 1, and "anything beyond d = 1" is not shown (note §6). The worklog's untested remark on 3+1 dimensions is listed among the [conjectures](/wiki/status/conjectures).
-7. **The comparison with the exact solution.** [Open: the comparison with the exact solution](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#open-the-comparison-with-the-exact-solution) — the note names Langmann, Szabo and Zarembo's exact solution of a related model as the check on quantum restoration in the complex model: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Round 4's revision 4 had asked for the comparison, and the adjudication and the worklog record every accepted revision as applied (flag 42, below).
+7. **The comparison with the exact solution.** [Open: the comparison with the exact solution](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#open-the-comparison-with-the-exact-solution) — the note names Langmann, Szabo and Zarembo's exact solution of a related model as the check on quantum restoration in the complex model: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4). Round 4's revision 4 had asked for the comparison, yet the adjudication and the worklog record every accepted revision as applied (flag 42, confirmed by the audit). The note's §6 also lists the restoration itself under "Shown (each by executed code)", though it rests on §4's analytic argument and `verify/toy_gw.py` checks only its premise (flag 41, confirmed by the audit). Both flags are listed under the pending rulings below.
 
 Four pages collect several of these open ends as they bear on their own subject:
 
@@ -127,7 +130,7 @@ The open problems of the toy models are listed in their own section above.
 ### Cosmology
 
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — the lab notebook motivates a near-constant dark energy as kinetic energy in the momentum-space description of the universe (#1 §6) and implements it as the potential energy of τ (#1 §7); no document derives one from the other.
-- [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — the documents write V = V₀[1 + cos(τ/f)], which is never negative for V₀ > 0, yet the far-future turnaround needs V < 0; no document reconciles the two (flag 27).
+- [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — the documents write V = V₀[1 + cos(τ/f)], which is never negative for V₀ > 0, yet the far-future turnaround needs V < 0; no document reconciles the two (flag 27, confirmed by the audit, which found no reading of the documents that removes the conflict).
 
 ### Conjugate special relativity
 
@@ -197,22 +200,24 @@ The open problems of the toy models are listed in their own section above.
 - **The calc notes' residue.** Calc note #8 §5 closed Debt 1 structurally with an open residue, "none of it existential": the wedge reduction, the Lorentzian dressing, τ–Stückelberg mixing, the dual-stress enhancement and a literature check on Λ = 0. These are now OP1, OP3, OP6, OP5 and OP2.
 - **The handoff** (`HANDOFF.md` §2, "Open (the real frontier)") listed eight. The toy Lagrangian is now met in the referees' wording, though its wording there also asked η to select "the electric sublattice", which nothing addresses (see the electric-sublattice clause above). The strong-coupling freeze-out and the √N floor went with the soliton candidate; kinetic mixing was addressed by taking P4 strictly (round-3 Decision 1); the partially-massless comparison, the wedge reduction, the Lorentzian dressing, the gate shape, the dual-stress enhancement and polarization-genesis carried over; the three-way candidate question became OP9 with two candidates.
 - **The checkpoint** (#11 §14) lists eleven. Version 2.1 closed the soliton-spectrum and p-localization items with the §12 obituary, and version 2.2 recorded item 11 as met in the referees' wording.
+- **The wiki's build** added the pending rulings. `review/wiki-build-flags.md`, begun on 2026-10-21, grew to 42 items, and the audit, which the file dates 2026-10-22, gave each item its verdict ([the flags file on the timeline](/wiki/history/timeline#the-flags-file)).
 
 ## Sources
 
 - `CLAUDE.md` "Since the handoff" — the current queue; the toy-model open ends; the dropped queue item 3.
 - `papers/broken-born-checkpoint-v2.md` §14, §15, §12, §8, footer — the eleven items; "theory" waits on items 1–3; the loophole statement; the main open quantitative item; the submission gate.
-- `papers/reciprocity-toy-models.md` §3, §4, §6 — the real-model lead, the unperformed comparison and the "Not shown" list.
+- `papers/reciprocity-toy-models.md` §3, §4, §6 — the real-model lead, the unperformed comparison, the "Shown" list's label on the restoration (flag 41) and the "Not shown" list.
 - `review/round3-adjudication.md` "Decisions" — strict P4, the candidate retired, the √N floor dropped, the toy Lagrangian next.
-- `review/round4-adjudication.md` "Rulings" — finding F4 and the SO(2) point.
+- `review/round4-adjudication.md` "Rulings", "Revisions for v2 of the note" — finding F4 and the SO(2) point; revision 4 and the heading that records every revision as applied (flag 42).
 - `papers/conjugate-special-relativity.md` §2, §3, §6, §7 — #13's open items.
 - `HANDOFF.md` §2, §8 — the handoff's open list and ranked queue.
 - `review/wiki-build-flags.md` — the pending rulings, items 1–42, with the audit's verdicts and its "Where to start" order.
 - `review/wiki-build-checks/flag-audit.json` — the audit's verdict on every flag, with its summary and evidence.
+- `review/wiki-build-checks/README.md` — the verifiers' executed checks and, in `review/wiki-build-checks/audit/`, the auditors' scripts and outputs.
 - `notes/debt1a-iv-beta-coefficients.md` §3, §5 — τ–Stückelberg mixing logged; the Debt-1 residue.
 - `notes/debt1a-geometric-core.md` §D, §F — the inverse-Higgs question; connection uniqueness.
 - `notes/broken-born-theory.md` §2, §5.3, §6, §7, §11 and addendum v0.2 — the original six items and their fates.
 - `notes/broken-born-program-v1.md` §10 — the v1.0 list of eight.
 - `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md` — rows 1–2 in wave language; the calibration to-do.
-- `notes/toy-lagrangian.md` "Chunk 4" — strong locality "also open in the literature"; the section-selection verdict.
+- `notes/toy-lagrangian.md` "Chunk 4", "Write-up and review" — strong locality "also open in the literature"; the section-selection verdict; "v2 applies every accepted revision" (flag 42).
 - `review/v3-worklog.md` "Round-2 pending list", "New open items" — items R7 and O3.
