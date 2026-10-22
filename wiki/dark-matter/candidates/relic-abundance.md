@@ -25,7 +25,7 @@ sources:
   - "review/wiki-build-flags.md item 18"
 ---
 
-*A relic abundance is the amount of a particle species left over from the hot early universe, and a relic-abundance mechanism is the process that sets that amount. In thermal freeze-out, particles annihilate in equilibrium with the hot plasma until the expansion of the universe outruns their annihilation, after which their number per unit volume only dilutes; the weaker the annihilation, the more survive. Other mechanisms set the amount differently: by an excess of particles over antiparticles, as for the baryons of ordinary matter; by slow production that never reaches equilibrium (freeze-in); or, in a sector whose particles can only annihilate among themselves, by number-changing self-interactions that turn rest mass into heat (cannibal dark matter). The program uses this standard physics to argue that [conjugate matter χ](/wiki/dark-matter/conjugate-matter) cannot get its abundance from freeze-out, and [the round-3 review](/wiki/method/review/round-3) used it to compute the relics of [the retired soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)'s hidden sector.*
+*A relic abundance is the amount of a particle species left over from the hot [early universe](/wiki/cosmology/early-universe), and a relic-abundance mechanism is the process that sets that amount. In thermal freeze-out, particles annihilate in equilibrium with the hot plasma until the expansion of the universe outruns their annihilation, after which their number per unit volume only dilutes; the weaker the annihilation, the more survive. Other mechanisms set the amount differently: by an excess of particles over antiparticles, as for the baryons of ordinary matter; by slow production that never reaches equilibrium (freeze-in); or, in a sector whose particles can only annihilate among themselves, by number-changing self-interactions that turn rest mass into heat (cannibal dark matter). The program uses this standard physics to argue that [conjugate matter χ](/wiki/dark-matter/conjugate-matter) cannot get its abundance from freeze-out, and [the round-3 review](/wiki/method/review/round-3) used it to compute the relics of [the retired soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)'s [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector).*
 
 **Status:** Established — standard early-universe physics [T], explained here from general knowledge; references the wiki adds are from model memory (†). The program's applications carry their own tags. `verify/soliton_obituary.py` checks its freeze-out code against a standard relic before using it ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)).
 
@@ -51,7 +51,7 @@ In [the radiation era](/wiki/cosmology/early-universe/radiation-era) the expansi
 
 ### Why freeze-out happens near T ~ m/20
 
-Write x = m/T. Freeze-out happens where n_eq⟨σv⟩ = H. Because n_eq contains the factor e^{−x}, the solution for x is a logarithm of a large ratio, roughly the Planck mass times m⟨σv⟩, and a logarithm changes little when its argument changes by orders of magnitude [T]. So the freeze-out point x_f = m/T_f varies only slowly across species. The round-3 adjudication uses "T_f ~ m/20" (ruling 6), and the script starts its iteration for x_f at 20.
+Write x = m/T. Freeze-out happens where n_eq⟨σv⟩ = H. Because n_eq contains the factor e^{−x}, the solution for x is a logarithm of a large ratio, roughly the Planck mass times m⟨σv⟩, and a logarithm changes little when its argument changes by orders of magnitude [T]. So the freeze-out point x_f = m/T_f varies only slowly across species. The round-3 adjudication uses "T_f ~ m/20" ([ruling 6](/wiki/method/review/round-3/rulings#rulings-5-and-6-the-colder-hidden-sector-and-nucleosynthesis)), and the script starts its iteration for x_f at 20.
 
 ### The s-wave formula as the program codes it
 
@@ -92,7 +92,7 @@ The program takes baryogenesis as its template. The notebook writes "The observe
 
 ## Freeze-in [T]
 
-A species coupled too weakly to reach equilibrium is produced slowly by rare decays or scatterings in the plasma, and its abundance grows with the coupling, the reverse of freeze-out [T]. A coupling that is small but not small enough can instead bring the species into equilibrium. That is what the round-3 referee found for the soliton manuscript's ψ, if it carried a small electric charge through kinetic mixing: "with eps = 1e-6 the SM freeze-in of psi reaches equilibrium for all m_psi <= 30 GeV" (audit notes, Step 4(a) item 5; SM is the Standard Model; [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)). Round-3 Decision 1 closed this channel by taking [P4](/wiki/program/postulates/p4-polarized-matter) strictly: kinetic mixing is "ε ≲ 10⁻¹³ from gravity alone, and zero if hidden charge conjugation is a gauged symmetry", which "closes three failure channels at once", the ψ millicharge among them.
+A species coupled too weakly to reach equilibrium is produced slowly by rare decays or scatterings in the plasma, and its abundance grows with the coupling, the reverse of freeze-out [T]. A coupling that is small but not small enough can instead bring the species into equilibrium. That is what the round-3 referee found for the soliton manuscript's ψ, if it carried a small electric charge through kinetic mixing: "with eps = 1e-6 the SM freeze-in of psi reaches equilibrium for all m_psi <= 30 GeV" (audit notes, Step 4(a) item 5; SM is the Standard Model; [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)). [Round-3 Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation) closed this channel by taking [P4](/wiki/program/postulates/p4-polarized-matter) strictly: kinetic mixing is "ε ≲ 10⁻¹³ from gravity alone, and zero if hidden charge conjugation is a gauged symmetry", which "closes three failure channels at once", the ψ millicharge among them.
 
 ## Coherent fields and defects
 
@@ -100,7 +100,7 @@ Two further routes set the abundance of things that are not thermal particles. A
 
 ## How the program uses these
 
-- **Particle χ and freeze-out.** The notebook's argument above [O], which makes the abundance an asymmetry problem and the ratio 5.4 : 1 an open problem for both remaining candidates (#11 §12, §14 item 7).
+- **Particle χ and freeze-out.** The notebook's argument above [O], which makes the abundance an asymmetry problem and the ratio 5.4 : 1 an open problem for both remaining candidates ([#11](/wiki/history/documents/checkpoint) §12, §14 item 7).
 - **Wave χ by misalignment.** On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), very light χ is produced like an axion: "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism" (`notes/debt3b-wave-island.md`, 'Bonus'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)).
 - **The hidden W′±.** In the minimal hidden sector of the soliton manuscript, the charged gauge bosons are stable and freeze out: "Standard freeze-out [17] then leaves them at 1e16 to 1e17 times the observed dark-matter density" (#14 §3). The result survives the candidate's retirement and is gated [V] (#11 §12; [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure)).
 - **The hidden fermion ψ.** Its freeze-out window was recounted in round 3: "v3 omitted ψ̄ and the second doublet member (a factor of 4)", and the corrected count is "10% of the DM at 45–49 GeV, 100% at 146–158 GeV" (ruling 4; DM is dark matter), checked in the script with σv = πα²/m² ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The BBN timing and the freeze-in route are the two items above.
@@ -124,9 +124,16 @@ Added by the wiki from model memory (†):
 - [Open: polarization-genesis and the 5.4 : 1 ratio](/wiki/dark-matter/candidates/polarization-genesis) — freeze-out fails for particle χ, so its abundance needs an asymmetric mechanism.
 - [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) and [the X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — both leave their abundance open.
 - [Relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic) — the route that sets the abundance of wave χ.
+- [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) — the particle island has no misalignment route, and the notebook rules out thermal freeze-out for it.
+- [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null) — the standard expectation, a thermal relic coupled to ordinary matter, against which the row is set.
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — thermal freeze-out of the hidden W′±.
 - [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — freeze-out of the hidden fermion ψ, and its timing against nucleosynthesis.
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — relics computed at the hidden temperature.
+- [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — the monopole yield n/s.
+- [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — the closing mass, from the yield and the present entropy density.
+- [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — monopole annihilation as a relic calculation.
+- [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration) — the s-wave formula in the adjudicator's ψ recount.
+- [Independent anchors](/wiki/method/verification/independent-anchors) — a standard freeze-out relic as the anchor of the freeze-out code.
 - [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script) — the freeze-out anchor.
 
 ## Sources

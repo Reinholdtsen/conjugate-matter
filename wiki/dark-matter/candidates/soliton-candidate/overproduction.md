@@ -21,11 +21,13 @@ sources:
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "notes/knot-dark-matter-standalone.md Abstract"
   - "notes/knot-dark-matter-standalone.md §3"
+  - "review/wiki-build-flags.md item 21"
+  - "review/wiki-build-flags.md item 34"
 ---
 
-*Overproduction at the benchmark is the corrected abundance result that retired the soliton candidate. If one monopole forms per Hubble volume when the hidden symmetry breaks, the least that causality allows, the monopoles match the observed dark-matter density only for a mass M\* of 2.9–4.4×10¹² GeV. Heavier monopoles are overproduced in proportion to the fourth power of their mass, because a heavier monopole forms at a higher temperature, where more of them form per unit entropy. At the benchmark of #14 v3, 3×10¹³ GeV, they would exceed the observed density 2.1×10³ to 1.2×10⁴ times, and realistic production at the transition makes the excess larger still. The result stands and is checked by the program's verification gate. It is why a superheavy monopole could survive only with an arbitrary dilution factor, which would remove its mass prediction.*
+*Overproduction at the benchmark is the corrected abundance result that retired the soliton candidate. If one monopole forms per Hubble volume when the hidden symmetry breaks, the least that causality allows, the monopoles match the observed dark-matter density only for a mass M\* of 2.9–4.4×10¹² GeV. Heavier monopoles are overproduced in proportion to the fourth power of their mass, because a heavier monopole forms at a higher temperature, where more of them form per unit entropy. At the benchmark of #14 v3, 3×10¹³ GeV, they would exceed the observed density 2.1×10³ to 1.2×10⁴ times, and realistic production at the transition makes the excess larger still. The result stands and is checked by the program's [verification gate](/wiki/method/verification/the-gate). It is why a superheavy monopole could survive only with an arbitrary dilution factor, which would remove its mass prediction.*
 
-**Status:** Alive — a standing result of round 3 (ruling 2, upheld), tagged [V] in #11 §12 and gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). It is a result about #14 v3's model and benchmark, which are withdrawn. The Kibble–Zurek figures are the referee's; ruling 3 upheld the point they support, but the adjudicator "did not re-run the referee's Kibble–Zurek integration", so they are accepted, not verified.
+**Status:** Alive — a standing result of [round 3](/wiki/method/review/round-3) ([ruling 2](/wiki/method/review/round-3/rulings#rulings-1-to-3-how-many-monopoles-form), upheld), tagged [V] in [#11](/wiki/history/documents/checkpoint) §12 and gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). It is a result about #14 v3's model and benchmark, which are withdrawn. The Kibble–Zurek figures are the referee's; ruling 3 upheld the point they support, but the adjudicator "did not re-run the referee's Kibble–Zurek integration", so they are accepted, not verified.
 
 ## Statement
 
@@ -45,9 +47,9 @@ The result is computed in #14 v3's own model, as the gate script states ("Model 
 
 **The transition temperature.** The hidden transition happens at T_c ~ v (#14 §3).
 
-**The yield.** The number of monopoles per unit entropy is n/s = p (T_c/M_Pl)³, with p = 104.31 for one defect per Hubble volume and M_Pl the (non-reduced) Planck mass ([the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
+**The yield.** The number of monopoles per unit entropy ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set)) is n/s = p (T_c/M_Pl)³, with p = 104.31 for one defect per Hubble volume and M_Pl the (non-reduced) Planck mass ([the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
 
-The observational inputs are the mean dark-matter density, the present entropy density s₀ and M_Pl. #14 §3 quotes "mean rho_DM = 1.26 keV/cm^3, s_0 ~ 2.9e3 /cm^3 and M_Pl = 1.22e19 GeV"; the script's constants are `RHO_DM = 0.120*1.05371e-5` (GeV cm⁻³), `S0 = 2891.2` (cm⁻³) and `M_PL = 1.22089e19` (GeV), "PDG and Planck 2018 values" (Particle Data Group).
+The observational inputs are the mean dark-matter density, the present entropy density s₀ and M_Pl. #14 §3 quotes "mean rho_DM = 1.26 keV/cm^3, s_0 ~ 2.9e3 /cm^3 and M_Pl = 1.22e19 GeV"; the script's constants are `RHO_DM = 0.120*1.05371e-5` (GeV cm⁻³), `S0 = 2891.2` (cm⁻³) and `M_PL = 1.22089e19` (GeV), "PDG and Planck 2018 values" (Particle Data Group). Flag 34 in `review/wiki-build-flags.md` notes that the values are typed in, without the caveat of the predecessor script that they came from model memory.
 
 ## The relation
 
@@ -70,7 +72,7 @@ PASS  the two Planck conventions agree when p is normalized consistently
 PASS  the 3e13 benchmark is overproduced 2.1e3-1.2e4 times  [2.08e+03-1.19e+04]
 ```
 
-The adjudicator's arbitration run gives the two ends separately (`review/round3/adjudicator/round3_arb.out`):
+The adjudicator's [arbitration](/wiki/method/review/round-3/arbitration) run gives the two ends separately (`review/round3/adjudicator/round3_arb.out`):
 
 ```text
 f=1.0: M* (Kibble minimum production) = 2.87e+12 GeV; v = 1.38e+11; 3e13 overproduced x1.2e+04
@@ -97,7 +99,7 @@ One defect per Hubble volume is the floor; ruling 3 (upheld): "Kibble is a floor
 - **The Kibble minimum with annihilation.** Starting from one defect per Hubble volume, the initial yield, "Kibble-minimum initial Y (7e-20 - 1.4e-18)", lies far below the level at which annihilation acts, so annihilation "is irrelevant in that case and overproduction 4.9e3 - 9.8e4 (xi=0.76..0.5) stands."
 - **A first-order transition.** Bubble counting gives "p ~ 104 (beta/H)^3 = 1e2-1e8", where β/H is the inverse duration of the transition in units of the Hubble rate [T].
 
-The adjudicator "did not re-run the referee's Kibble–Zurek integration (1e9–1e12 overproduction)" (ruling 3). The literature agrees on the direction: Murayama and Shu, Kibble "drastically underestimates the production of topological defects" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
+The adjudicator "did not re-run the referee's Kibble–Zurek integration (1e9–1e12 overproduction)" (ruling 3). The lower end of that range comes from the analytic estimate above, not from the integration (flag 21 in `review/wiki-build-flags.md`). The literature agrees on the direction: Murayama and Shu, Kibble "drastically underestimates the production of topological defects" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
 
 ## The count per Hubble volume: a convention
 
@@ -115,7 +117,7 @@ The conclusion that heavier masses need dilution in proportion to (M/M\*)⁴ sur
 
 ## What follows
 
-A monopole heavier than M\* can still be the dark matter if a late epoch dilutes the monopoles after they form, as reheating after a period of early matter domination would ([inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution)). Round 3's Decision 2 rejected that route for the program: it "restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction, and the program does not trade falsifiability for survival." #11 §12: "Superheavy masses survive only with a free dilution factor. That removes the mass prediction, which was the candidate's reason to exist." The lighter version, at symmetry-breaking scales up to about 100 PeV, is published prior art ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)), and the candidate was retired ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+A monopole heavier than M\* can still be the dark matter if a late epoch dilutes the monopoles after they form, as reheating after a period of early matter domination would ([inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution)). Round 3's [Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired) rejected that route for the program: it "restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction, and the program does not trade falsifiability for survival." #11 §12: "Superheavy masses survive only with a free dilution factor. That removes the mass prediction, which was the candidate's reason to exist." The lighter version, at symmetry-breaking scales up to about 100 PeV, is published prior art ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)), and the candidate was retired ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Sources
 
@@ -127,3 +129,4 @@ A monopole heavier than M\* can still be the dark matter if a late epoch dilutes
 - `review/round3/referee/step2a.out`, `review/round3/referee/step4.out`, `review/round3/referee/step4b.out` — the referee's printed values
 - `review/v3-worklog.md` 'Findings neither referee raised' — F1 and Paul's decision; 'v3 as drafted (2026-10-19)' — the mass relation and benchmark
 - `notes/knot-dark-matter-standalone.md` Abstract, §3 — v3's band, benchmark and (M/M\*)⁴ scaling
+- `review/wiki-build-flags.md` item 21 — the source of the lower end of ruling 3's range; item 34 — how the script describes its constants

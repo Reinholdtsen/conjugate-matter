@@ -28,9 +28,9 @@ sources:
   - "HANDOFF.md §6"
 ---
 
-*Kinetic mixing is a coupling between the field strengths of two U(1) gauge forces, such as our photon and a hidden photon, through a term proportional to ε times the product of the two field strengths. When ε is not zero, particles charged under the hidden force acquire a small electric charge under ours, so kinetic mixing is the standard route by which a hidden sector can leak into the visible one. Three literature results framed the soliton candidate's hidden sector: gravity alone produces mixing only at six loops or more, and none if hidden charge conjugation is an exact symmetry; while the hidden photon stays massless, mixing does not make hidden monopoles magnetic under our electromagnetism; and what leakage remains would give the hidden fermion ψ, and through the Witten effect the monopoles, a small visible electric charge. The program closed these channels by taking its postulate P4 strictly.*
+*Kinetic mixing is a coupling between the field strengths of two U(1) gauge forces, such as our photon and a hidden photon, through a term proportional to ε times the product of the two field strengths. When ε is not zero, particles charged under the hidden force acquire a small electric charge under ours, so kinetic mixing is the standard route by which a hidden sector can leak into the visible one. Three literature results framed the soliton candidate's hidden sector: gravity alone produces mixing only at six loops or more, and none if hidden charge conjugation is an exact symmetry; while the hidden photon stays massless, mixing does not make hidden [monopoles](/wiki/electric-magnetic-duality/monopoles) magnetic under our electromagnetism; and what leakage remains would give the hidden fermion ψ, and through the Witten effect the monopoles, a small visible electric charge. The program closed these channels by taking its postulate [P4](/wiki/program/postulates/p4-polarized-matter) strictly.*
 
-**Status:** Established — literature [T]: Gherghetta–Kersten–Olive–Pospelov [27S] on gravity-induced mixing, and Hiramatsu et al. (massless hidden photon) and Terning–Verhaaren (massive hidden photon) on visible magnetic flux, as read in the v3 worklog and checked by the round-3 referee. "The kinetic-mixing literature points (a) and (c)" survive v3 (round-3 adjudication). The Witten-effect finding was "Accepted, not re-checked" (ruling 9). The general explanations below are from standard physics [T]; references the wiki adds are marked †.
+**Status:** Established — literature [T]: Gherghetta–Kersten–Olive–Pospelov [27S] on gravity-induced mixing, and Hiramatsu et al. (massless hidden photon) and Terning–Verhaaren (massive hidden photon) on visible magnetic flux, as read in the v3 worklog and checked by the [round-3](/wiki/method/review/round-3) referee. "The kinetic-mixing literature points (a) and (c)" survive v3 (round-3 adjudication). The Witten-effect finding was "Accepted, not re-checked" ([ruling 9](/wiki/method/review/round-3/rulings#ruling-9-the-witten-effect)). The general explanations below are from standard physics [T]; references the wiki adds are marked †.
 
 ## What kinetic mixing is
 
@@ -56,7 +56,7 @@ A non-abelian field strength F^a_μν changes under its gauge transformations, s
 
 ### Why it matters to the program
 
-The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) puts the Standard Model and the conjugate matter in separate polarizations and says that "gauge forces do not cross polarizations" ([checkpoint #11](/wiki/history/documents/checkpoint) §4). Kinetic mixing is the standard way two otherwise separate gauge forces could cross. For the soliton candidate it decided whether the hidden sector stayed dark: #14 postulated "No field carries charge under both U(1)_d and our hypercharge" and then set out what mixing remains (§2).
+The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) puts the Standard Model and the [conjugate matter](/wiki/dark-matter/conjugate-matter) in separate [polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations) and says that "gauge forces do not cross polarizations" ([checkpoint #11](/wiki/history/documents/checkpoint) §4). Kinetic mixing is the standard way two otherwise separate gauge forces could cross. For the soliton candidate it decided whether the hidden sector stayed dark: #14 postulated "No field carries charge under both U(1)_d and our hypercharge" and then set out what mixing remains (§2).
 
 ## (a) Mixing from gravity alone
 
@@ -89,7 +89,7 @@ An exact hidden charge conjugation would remove even gravity's contribution, but
 
 A global symmetry acts the same way everywhere and is not tied to a gauge field; a gauged symmetry is part of the gauge structure [T]. The expectation that quantum gravity breaks every global symmetry is argued in Banks–Seiberg 2011 and Harlow–Ooguri 2021 (#14's [11]); one standard argument is that a black hole can absorb a global charge and evaporate without returning it [T]. A gauged discrete symmetry is not affected. For a U(1) gauge group, the reflections of the group O(2) act on its rotations, SO(2) ≅ U(1), as charge conjugation, so gauging O(2) instead of SO(2) makes C part of the gauge group [T]. The v3 worklog (R4): "Quantum gravity forbids an exact global C [Banks–Seiberg 2011; Harlow–Ooguri 2021]; a gauged C (O(2)/O(3)-type) remains a loophole [Obied–Parikh, preprint]." The referee found the statement "consistent with [11]" (Step 4(b)).
 
-This is the basis of the strict reading's second clause: mixing is "zero if hidden charge conjugation is a gauged symmetry" (round-3 Decision 1).
+This is the basis of the strict reading's second clause: mixing is "zero if hidden charge conjugation is a gauged symmetry" ([round-3 Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)).
 
 ## (c) No visible magnetic flux while U(1)_d is unbroken
 
@@ -136,7 +136,7 @@ Round-3 Decision 1 (2026-10-19), in full:
 >    - The alternative rested on an unsupported coefficient. The dimension-5 "O(1) at the Planck scale" estimate (ruling 7) has no source. The sources generate that operator only from bi-charged states, which P4 forbids.
 >    - It costs nothing and closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector.
 
-The project instructions record it among the changes since the handoff: "Strict sector separation (P4 at face value) is in force." It is a decision about the postulate, not a derivation: whether sector separation is stable against quantum corrections was never computed, and the handoff's open item 3, "UV stability of sector separation / kinetic mixing (incl. the disputed gravity-induced mixing channel — see §6)" (§2), was settled by taking P4 strictly ([round-3 decisions](/wiki/method/review/round-3/decisions)). Under strict P4 neither dark-matter candidate couples to the Standard Model, which is [row 7, a permanent null in direct detection](/wiki/predictions/direct-detection-null).
+The [project instructions](/wiki/history/documents/project-instructions) record it among the changes since the handoff: "Strict sector separation (P4 at face value) is in force." It is a decision about the postulate, not a derivation: whether sector separation is stable against quantum corrections was never computed, and [the handoff](/wiki/history/documents/handoff)'s open item 3, "UV stability of sector separation / kinetic mixing (incl. the disputed gravity-induced mixing channel — see §6)" (§2), was settled by taking P4 strictly ([round-3 decisions](/wiki/method/review/round-3/decisions)). Under strict P4 neither dark-matter candidate couples to the Standard Model, which is [row 7, a permanent null in direct detection](/wiki/predictions/direct-detection-null).
 
 ## History
 
@@ -170,6 +170,12 @@ The project instructions record it among the changes since the handoff: "Strict 
 - [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — ψ's millicharge channels, closed by Decision 1.
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — re-thermalization through a millicharge.
 - [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic) — why the counterfactual monopole flux does not arise.
+- [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) — how weakly the hidden photon mixes with ours, and points (a) and (c) among the survivors.
+- [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the visible charge ψ would carry if the photons mix.
+- [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — under strict P4 a conjugate monopole carries no charge under our photon.
+- [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — strict sector separation, which the identification contradicts.
+- [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 1 rests on points (a) and (b).
+- [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — ruling 9 and the surviving points (a) and (c).
 
 ## Sources
 

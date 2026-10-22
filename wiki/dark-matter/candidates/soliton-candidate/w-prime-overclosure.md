@@ -20,9 +20,9 @@ sources:
   - "notes/knot-dark-matter-standalone.md §6"
 ---
 
-*W′ overclosure is the result that the simplest version of the soliton candidate's hidden sector — SU(2)_d broken to U(1)_d by an adjoint Higgs field and nothing else — is excluded by its own heavy charged gauge bosons, the W′±. With no lighter particle carrying hidden charge, the W′± cannot decay. The hot hidden plasma in which the monopoles form also fills the universe with W′±, and after they stop annihilating, their density would exceed the observed dark matter 10¹⁶ to 10¹⁷ times. #14 v3 therefore added a light hidden fermion ψ for the W′± to decay into. The calculation was done at the withdrawn benchmark mass, but the statement that the minimal sector is excluded survived the candidate's retirement and is machine-checked.*
+*W′ overclosure is the result that the simplest version of the soliton candidate's hidden sector — SU(2)_d broken to U(1)_d by an adjoint Higgs field and nothing else — is excluded by its own heavy charged gauge bosons, the W′±. With no lighter particle carrying hidden charge, the W′± cannot decay. The hot hidden plasma in which the monopoles form also fills the universe with W′±, and after they stop annihilating, their density would exceed the observed [dark matter](/wiki/dark-matter) 10¹⁶ to 10¹⁷ times. #14 v3 therefore added a light hidden fermion ψ for the W′± to decay into. The calculation was done at the withdrawn benchmark mass, but the statement that the minimal sector is excluded survived the candidate's retirement and is machine-checked.*
 
-**Status:** Alive — it survives the candidate; the number is conditional on the withdrawn benchmark. [Checkpoint #11](/wiki/history/documents/checkpoint) §12 lists it under "What survives" with [V]. The round-3 adjudication lists both "The statement that the minimal adjoint-only sector is excluded" and, among "The benchmark-conditional arithmetic", the "W′ overclosure". Gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)).
+**Status:** Alive — it survives the candidate; the number is conditional on the withdrawn benchmark. [Checkpoint #11](/wiki/history/documents/checkpoint) §12 lists it under "What survives" with [V]. The [round-3](/wiki/method/review/round-3) adjudication lists both "The statement that the minimal adjoint-only sector is excluded" and, among "The benchmark-conditional arithmetic", the "W′ overclosure". Gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)).
 
 ## Statement
 
@@ -52,7 +52,7 @@ The monopoles were to be made by the [Kibble mechanism](/wiki/electric-magnetic-
 
 ## Freeze-out and the size of the overclosure
 
-In standard s-wave freeze-out the relic density is inversely proportional to the annihilation cross-section [T]. For annihilation through a gauge coupling α, σv scales as α²/m², so a heavier species annihilates more weakly and leaves more behind; at masses near 10¹² GeV the relic is enormous. The script ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) computes it with the Kolb–Turner freeze-out formula described on the relic-abundance page, with these inputs:
+In standard s-wave freeze-out the relic density is inversely proportional to the annihilation cross-section [T]. For annihilation through a gauge coupling α, σv scales as α²/m², so a heavier species annihilates more weakly and leaves more behind; at masses near 10¹² GeV the relic is enormous. The script ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) computes it with the Kolb–Turner freeze-out formula described on [the relic-abundance page](/wiki/dark-matter/candidates/relic-abundance#the-s-wave-formula-as-the-program-codes-it), with these inputs:
 
 ```text
 σv     = κ π α_W′² / m_W′²        κ = 1 and 10

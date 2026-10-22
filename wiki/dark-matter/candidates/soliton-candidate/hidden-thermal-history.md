@@ -22,11 +22,12 @@ sources:
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/knot-dark-matter-standalone.md §6"
+  - "review/wiki-build-flags.md item 22"
 ---
 
-*The hidden sector's thermal history is the record of how the soliton candidate's hidden sector would have evolved as the universe cooled, and of the constraints that evolution had to meet. Its massless hidden photon, together with any light hidden fermion ψ, is extra radiation, which measurements of the cosmic microwave background limit through the effective number of neutrino species, N_eff. A hidden sector as hot as ours would add about 0.86 to N_eff, which is excluded, so #14 required the hidden sector to start colder, by a temperature ratio ξ below 0.77 — corrected in round 3 to 0.760 — yet computed its relic abundances as if ξ were 1. A first-order hidden phase transition would also have left gravitational waves at about 10⁵–10⁷ Hz. These are requirements and predictions of a retired candidate, kept as record.*
+*The hidden sector's thermal history is the record of how the soliton candidate's hidden sector would have evolved as the universe cooled, and of the constraints that evolution had to meet. Its massless hidden photon, together with any light hidden fermion ψ, is extra radiation, which measurements of the cosmic microwave background limit through the effective number of neutrino species, N_eff. A hidden sector as hot as ours would add about 0.86 to N_eff, which is excluded, so #14 required the hidden sector to start colder, by a temperature ratio ξ below 0.77 — corrected in [round 3](/wiki/method/review/round-3) to 0.760 — yet computed its [relic abundances](/wiki/dark-matter/candidates/relic-abundance) as if ξ were 1. A first-order hidden phase transition would also have left gravitational waves at about 10⁵–10⁷ Hz. These are requirements and predictions of a retired candidate, kept as record.*
 
-**Status:** Record — requirements and predictions of a dead candidate. The corrected dark-radiation numbers (ruling 5, "Upheld (minor)") are [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)), as is the corrected upper end of the gravitational-wave band. The v3 worklog's earlier table is tagged `[NOTE-tier]`, with its 0.3 bound "from memory †". The gravitational-wave band died with the candidate ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+**Status:** Record — requirements and predictions of a dead candidate. The corrected dark-radiation numbers ([ruling 5](/wiki/method/review/round-3/rulings#rulings-5-and-6-the-colder-hidden-sector-and-nucleosynthesis), "Upheld (minor)") are [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)), as is the corrected upper end of the gravitational-wave band. The v3 worklog's earlier table is tagged `[NOTE-tier]`, with its 0.3 bound "from memory †". The gravitational-wave band died with the candidate ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## A sector with its own temperature
 
@@ -44,7 +45,7 @@ Radiation in the early universe beyond the photons is measured as N_eff, the num
 ΔN_eff = (4/7) · g · (T_x/T_ν)⁴
 ```
 
-for bosons [T]; the 4/7 converts to neutrino units, since one neutrino species with its antineutrino counts as 7/4 bosonic states. `verify/soliton_obituary.py` codes this formula and anchors it on a textbook case before using it: "Delta N_eff: one extra neutrino species at T_nu gives 1". The measurement #14 cites is Planck 2018. The referee located it as eq. (67b), "N_eff = 2.99 +0.34 -0.33" at 95% confidence (audit notes, Step 1); #14 writes it as "2.99 +- 0.34" (§4).
+for bosons [T]; the 4/7 converts to neutrino units, since one neutrino species with its antineutrino counts as 7/4 bosonic states. `verify/soliton_obituary.py` codes this formula and [anchors](/wiki/method/verification/independent-anchors) it on a textbook case before using it: "Delta N_eff: one extra neutrino species at T_nu gives 1". The measurement #14 cites is Planck 2018. The referee located it as eq. (67b), "N_eff = 2.99 +0.34 -0.33" at 95% confidence (audit notes, Step 1); #14 writes it as "2.99 +- 0.34" (§4). The difference is flag 22 in `review/wiki-build-flags.md`; the bound below uses only the upper side.
 
 ### #14's requirement
 
@@ -109,9 +110,9 @@ At the end of inflation the energy of the inflaton field is converted into hot p
 Any coupling that lets the two plasmas exchange energy pulls ξ back toward 1. The referee named two (Step 4(c) item 7 and Step 4(a) item 5).
 
 - **The Higgs portal.** The operator λ_p |H|² Tr Φ², which couples the hidden scalar to our Higgs field H, is "allowed by every stated symmetry". Keeping the electroweak scale natural "needs lambda_p <= 2.4e-20 - 7.5e-21", while "equilibration at T~v for lambda_p >~ 5e-2 (rough 2->2 estimate) would set xi=1 -> Delta N = 0.86 (excluded). Technically natural to set small, but unstated."
-- **A millicharged ψ.** If the photons mix kinetically, ψ carries a small visible charge and the Standard Model plasma produces it directly: "with eps = 1e-6 the SM freeze-in of psi reaches equilibrium for all m_psi <= 30 GeV", where SM is the Standard Model; then "The hidden sector is re-thermalised below v and the reheating ratio xi is no longer the operative variable." ΔN_eff is then set by when the hidden photon decouples: "T_d < 0.2 GeV -> Delta N >= 0.61 (excluded); T_d = 0.2-30 GeV -> 0.065-0.11 (gamma' only) up to 0.48-0.83 if the psi entropy is dumped after decoupling (step4.out)." Decision 1, strict sector separation, closed this channel ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)).
+- **A millicharged ψ.** If the photons mix kinetically, ψ carries a small visible charge and the Standard Model plasma produces it directly: "with eps = 1e-6 the SM freeze-in of psi reaches equilibrium for all m_psi <= 30 GeV", where SM is the Standard Model; then "The hidden sector is re-thermalised below v and the reheating ratio xi is no longer the operative variable." ΔN_eff is then set by when the hidden photon decouples: "T_d < 0.2 GeV -> Delta N >= 0.61 (excluded); T_d = 0.2-30 GeV -> 0.065-0.11 (gamma' only) up to 0.48-0.83 if the psi entropy is dumped after decoupling (step4.out)." [Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation), [strict sector separation](/wiki/program/postulates/p4-polarized-matter), closed this channel ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)).
 
-The adjudication accepted "The reheating mechanism for ξ", "The Higgs portal" and "Re-thermalization by ψ at ε ~ 1e-7–1e-6" as items for a to-do list, "not individually re-checked" ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)).
+The adjudication accepted "The reheating mechanism for ξ", "The Higgs portal" and "Re-thermalization by ψ at ε ~ 1e-7–1e-6" as items for a to-do list, "not individually re-checked" ([omitted constraints](/wiki/method/review/round-3/rulings#omitted-constraints)).
 
 ## The gravitational-wave band (died with the candidate)
 
@@ -154,3 +155,4 @@ All of this treats the hidden sector with ordinary relativistic quantum field th
 - `review/round3-preregistration.md` 'Predictions' — the anticipated weakness
 - `review/v3-worklog.md` 'New open items' — O2's setup and table, O1's "Computed at ξ = 1 only", O3 on kinematics
 - `notes/knot-dark-matter-standalone.md` §1 — ordinary kinematics; §3 — the reheating condition; §4 — dark radiation and the gravitational-wave band; §6 — requirements (ii) and (iii)
+- `review/wiki-build-flags.md` item 22 — #14's symmetric interval against Planck's +0.34/−0.33

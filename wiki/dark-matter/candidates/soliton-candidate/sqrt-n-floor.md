@@ -20,6 +20,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md §5"
   - "notes/knot-dark-matter-standalone.md §6"
+  - "review/wiki-build-flags.md item 21"
 ---
 
 *The √N topological floor was an argument, made only in the claude.ai chat that preceded this repository, about how many of the soliton candidate's monopoles could survive annihilation in the early universe. A monopole and an antimonopole that meet can annihilate, and at the hidden sector's strong magnetic coupling, about 34, that annihilation might have been fast enough to deplete them. The floor argument held that the Kibble mechanism leaves a net topological charge that annihilation cannot remove, so the surviving abundance would lie between a Kibble "ceiling" and that floor. It was never written into any document. In round 3 the referee showed that Kibble's count is a minimum, not a ceiling, and that annihilation at this coupling has already been worked out for hidden sectors; with the soliton candidate retired, the planned calculation was dropped.*
@@ -85,7 +86,7 @@ With Kibble's count a minimum, the window had no upper edge. The candidate's pro
 
 ### The annihilation case was already worked out
 
-Ruling 10, "**Upheld** (abstract level)": "Annihilation at α_m ≈ 34 is Preskill's Dirac case, already done for hidden sectors", with the evidence "LMW 2026 as in #3". The adjudicator checked the Liveoak–Maharana–Wells result at the level of its abstract and did not re-run the referee's integration (ruling 3: "I did not re-run the referee's Kibble–Zurek integration (1e9–1e12 overproduction)"). The published scenario is on [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art).
+Ruling 10, "**Upheld** (abstract level)": "Annihilation at α_m ≈ 34 is Preskill's Dirac case, already done for hidden sectors", with the evidence "LMW 2026 as in #3". The adjudicator checked the Liveoak–Maharana–Wells result at the level of its abstract and did not re-run the referee's integration (ruling 3: "I did not re-run the referee's Kibble–Zurek integration (1e9–1e12 overproduction)"; flag 21 in `review/wiki-build-flags.md` notes that the lower end of that range is the analytic estimate quoted above, not the integration). The published scenario is on [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art).
 
 ### No candidate left
 
@@ -118,3 +119,4 @@ The other results of the handoff's chat-only list (§4) have their own pages: [t
 - `review/round3/referee/audit-notes.md` Step 2 — the bracket of p judged; Step 4(a) items 2 and 3 — bubble counting, the relic integration, and "Acceptance criterion 3 is not open"
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1) — Preskill's bound, to be recomputed for a hidden sector
 - `notes/knot-dark-matter-standalone.md` §2 — α_m = 1/α_W′ and hypothesis H; §3 — the strong-coupling question and "p = 1 as the upper end"; §5 — exclusion condition 4; §6 — acceptance criterion 3
+- `review/wiki-build-flags.md` item 21 — the source of the lower end of ruling 3's range
