@@ -50,7 +50,7 @@ The citation, as #11 gives it:
 
 - [23]† E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), arXiv:1607.03497.
 
-Flag 20 in `review/wiki-build-flags.md` records a suspected error in this entry: its title and journal belong to one paper and its arXiv number to the companion paper listed below among the wiki's additions. The wiki quotes #11 as written.
+Flag 20 in `review/wiki-build-flags.md` records a suspected error in this entry, which a verifier of the wiki build found by live search: the title and journal, "Bigravitational origin of dark matter" in Phys. Rev. D 94, 084055, belong to arXiv:1604.08564, while arXiv:1607.03497 is the companion paper "Heavy spin-2 Dark Matter", listed below among the wiki's additions. The flag awaits Paul's ruling and is recorded for the † battery (OP10). The wiki quotes #11 as written.
 
 #11's legend for the mark: "† = cited from model memory — verify before external use". Checking every † reference against its source is #11 §14 item 10, "Literature battery completion; every † reference source-checked [O]" ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). No document reports what the paper contains beyond its title, so this page does not summarize its production mechanism, its mass range or its parameter choices. Earlier documents name the idea without a reference (#6 §4, [the lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.4, #9 §10); the register entry is on [references](/wiki/references).
 
@@ -79,7 +79,7 @@ As #11 gives them:
 
 Added by the wiki from model memory (†), not cited by any program document:
 
-- E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Heavy spin-2 dark matter" (2016)†: a companion paper on the heavy spin-2 particle as dark matter.
+- E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Heavy spin-2 Dark Matter" (2016)†: a companion paper on the heavy spin-2 particle as dark matter. Flag 20 identifies it as arXiv:1607.03497, the number #11 attaches to [23].
 - L. Marzola, M. Raidal, F. R. Urban, "Oscillating spin-2 dark matter" (2018)†: homogeneous oscillations of a massive spin-2 field.
 
 ## Used by
