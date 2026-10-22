@@ -43,7 +43,7 @@ Integrating out either variable leaves the probability distribution of the other
 ∫ W(x, p) dp = |ψ(x)|²          ∫ W(x, p) dx = |ψ̃(p)|²
 ```
 
-where ψ̃ is the momentum wavefunction, the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of ψ. Both pass in the gate: "Wigner marginal over p is |psi(x)|^2" and "Wigner marginal over x is |psi~(p)|^2" (`verify/toy_s5.py`). More generally, integrating W along all the lines parallel to a chosen direction gives the probability distribution of the coordinate measured across those lines, a rotated position [T]. The position and momentum descriptions are two of these projections of one function.
+where ψ̃ is the momentum wavefunction, the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of ψ. Both pass in [the gate](/wiki/method/verification/the-gate): "Wigner marginal over p is |psi(x)|^2" and "Wigner marginal over x is |psi~(p)|^2" (`verify/toy_s5.py`). More generally, integrating W along all the lines parallel to a chosen direction gives the probability distribution of the coordinate measured across those lines, a rotated position [T]. The position and momentum descriptions are two of these projections of one function.
 
 ### Not a probability
 
@@ -77,7 +77,7 @@ The inner integral, along L−, gives the marginal distribution of the coordinat
 
 - **In the two vacua.** "At H = 1, in the vacuum +K_ref it is ∫|ψ(x)|⁴ dx (local in x); in −K_ref it is ∫|ψ̃(p)|⁴ dp." (toy-model note §5). ∫|ψ(x)|⁴ dx has the form that a contact interaction, one acting only when two particles are at the same point, takes in a mean-field treatment [T], which is one way to read "local in x".
 - **The numbers.** "For ψ ∝ e^{−(x−1.3)²/0.7} + 0.6 e^{−(x+1.3)²/0.7}, the two vacua give 0.4070 and 0.3600." (§5). The referee reproduced them, from the wavefunction directly and from the Wigner marginals, as 0.406972 and 0.360047 (`review/round4/referee/out_sec5.txt`).
-- **Odd in K.** "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." Without such a coupling, "a twisted element ρ∘(K → −K) leaves the vacuum invariant" ([#11](/wiki/history/documents/checkpoint) §4; [the twisted element](/wiki/symmetry-breaking/twisted-element)). Flipping K alone changes it: "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925" (`review/round4/referee/out_sec5_fix.txt`). The combined map (ψ → Fψ, K → −K) leaves it invariant (§5).
+- **Odd in K.** "**I is odd in K**, so it breaks the K → −K symmetry and makes the breaking of ρ physical (§2)." (Toy-model note §5; on "odd in K", see flag 2 in `review/wiki-build-flags.md`.) Without such a coupling, "a twisted element ρ∘(K → −K) leaves the vacuum invariant" ([#11](/wiki/history/documents/checkpoint) §4; [the twisted element](/wiki/symmetry-breaking/twisted-element)). Flipping K alone changes it: "K->-K alone: I_-K[psi] - I_+K[psi] = -0.046925" (`review/round4/referee/out_sec5_fix.txt`). The combined map (ψ → Fψ, K → −K) leaves it invariant (§5).
 - **It needs H.** "I[W] = ∫_{L+} du (∫_{L−} dv W)² of a state's Wigner function needs H as well as K: rescaling the coordinate along L+ by 2 doubles it. It is covariant under the SO(2) fixing H = 1, not under Sp(2,ℝ)." (§5). The round-4 adjudication upheld this as finding F5 ("rescaling the eigenline coordinate by 2 doubles I (0.407 → 0.814)"); the gate prints "0.4070 -> 0.8139". Earlier wordings called the coupling "ρ-covariant" or "K-covariant"; v2 calls it (H, K)-built.
 - **What "locality" means here.** The referee's caveat: "'Locality' here is a quartic functional of a one-particle state, not an interacting field theory; the Yukawa analogy is heuristic." (audit notes, Step 2(d)).
 
@@ -109,9 +109,11 @@ Added by the wiki from model memory (†), except Royer, which the toy note cite
 ## Used by
 
 - [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) — the coupling I is a functional of the Wigner function.
+- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) and [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — the matter coupling that gives the breaking of ρ physical content.
+- [The twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) — the K-odd coupling that makes breaking ρ physical.
+- [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — nothing in the toy excludes the K-blind coupling ∫W².
 - [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — parity on Weyl symbols, credited to Royer.
 - [Model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base) — the matrix base of Weyl symbols.
-- [The twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) — the K-odd coupling that makes breaking ρ physical.
 
 ## Sources
 

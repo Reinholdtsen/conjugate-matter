@@ -100,6 +100,7 @@ The program reached Freidel, Leigh and Minic twice, and the same way each time: 
 - [The order parameter: J, η and K](/wiki/symmetry-breaking/order-parameter) — η as the order parameter, the program's own step.
 - [The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) — the same authors' statement, credited since #11 v2.1.
 - [Acceptance criterion 1: the toy Lagrangian](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — the explicit model the literature lacked.
+- [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — the prior-art survey that credits the idea and finds no earlier action.
 
 ## Sources
 

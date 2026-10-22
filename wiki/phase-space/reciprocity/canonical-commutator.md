@@ -105,9 +105,13 @@ These are added by the wiki from model memory (†); the program's documents cit
 
 - [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking) — no state is local in both variables, so a polarization must be chosen.
 - [The hard core](/wiki/program/hard-core) — the commutator is the premise of the claim that the breaking is mandatory.
+- [P1: the phase-space arena](/wiki/program/postulates/p1-arena) — a quantum state cannot sit at a point of phase space.
 - [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — reads the rigid ω as the constancy of ℏ.
+- [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — ρ leaves the commutator unchanged, so it is ordinarily a change of description.
+- [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — nothing is sharp in both variables, so the vacuum selects one.
 - [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — a fixed comoving phase-space cell, because ℏ does not run.
 - [Corollaries: unimodularity, no B-field, slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) — det H = 1 as ℏ-rigidity built into the geometry.
+- [The phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the phase-space area of order h that one quantum state occupies, applied at cosmic scale.
 
 ## Sources
 

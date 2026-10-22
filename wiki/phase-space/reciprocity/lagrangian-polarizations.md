@@ -71,7 +71,7 @@ The documents name the real structure differently. #11's [P2′](/wiki/program/p
 
 ## When too much is frozen
 
-If the neutral metric η is held rigid as well as ω, a polarization must be Lagrangian for ω and null for η at once, and the continuous family collapses. The compatible polarizations are then "**discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**." ([#5](/wiki/history/documents/debt-1-notes) §B). The same note's second consequence is that the geometric action becomes a functional of the metric g alone, with no [momentum graviton](/wiki/gravity/momentum-graviton). The two together are why the [original P2](/wiki/program/postulates/original-p2), which froze η, was replaced by [P2′](/wiki/program/postulates/p2-prime). Under P2′, η is emergent, "the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1, addendum v0.3).
+If the neutral metric η is held rigid as well as ω, a polarization must be Lagrangian for ω and null for η at once, and the continuous family collapses. The compatible polarizations are then "**discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**." ([#5](/wiki/history/documents/debt-1-notes) §B; on "discrete", see flag 1 in `review/wiki-build-flags.md`). The same note's second consequence is that the [geometric action](/wiki/gravity/tuning-test/geometric-action) becomes a functional of the metric g alone, with no [momentum graviton](/wiki/gravity/momentum-graviton). The two together are why the [original P2](/wiki/program/postulates/original-p2), which froze η, was replaced by [P2′](/wiki/program/postulates/p2-prime). Under P2′, η is emergent, "the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1, addendum v0.3).
 
 ## Prior art and a second arena
 
@@ -90,12 +90,22 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 ## Used by
 
 - [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking) — any world with local physics must select a polarization.
+- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) — η's null lines as the possible "position" axes.
+- [P1: the phase-space arena](/wiki/program/postulates/p1-arena) — P5's choice is a Lagrangian subspace of P1's phase space.
+- [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — the vacuum's real structure ranges over all Lagrangian subspaces.
+- [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — x-polarized and p-polarized matter.
 - [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — ours is x-tilted, the mirror vacuum equally lawful.
+- [Original P2 (superseded)](/wiki/program/postulates/original-p2) and [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — rigid η leaves only the splittings #5 calls discrete (see flag 1 in `review/wiki-build-flags.md`).
 - [The order parameter: J, η and K](/wiki/symmetry-breaking/order-parameter) — choosing K is choosing which line is "position".
-- [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) — the choice as an angle on Λ(1).
+- [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the choice as an angle on Λ(1).
 - [The section condition: what η fixes](/wiki/symmetry-breaking/section-condition) — matter confined to one Lagrangian null line.
-- [Original P2 (superseded)](/wiki/program/postulates/original-p2) — rigid η leaves only discrete polarizations.
-- [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — a duality frame as a Lagrangian polarization of charge space.
+- [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) and [model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — η fixes which Lagrangian line of the toy counts as position.
+- [Why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain), [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) and [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) — the vacuum's choice of polarization breaks the dual diffeomorphisms.
+- [The palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) — one of the potential's two frames is set by the polarization.
+- [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — χ is matter of the momentum polarization.
+- [Two causal cones](/wiki/conjugate-relativity/two-causal-cones), [dual inertia](/wiki/conjugate-relativity/dual-inertia), [force dilation](/wiki/conjugate-relativity/force-dilation), [the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell) and [the equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) — #13's kinematics of the momentum polarization.
+- [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) and [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — a duality frame as a Lagrangian polarization of charge space.
+- [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — the popular article joined the charge-space polarization to the phase-space one, which the record keeps apart.
 
 ## Sources
 

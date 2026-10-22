@@ -69,7 +69,7 @@ The round-4 referee checked the parity property numerically, on the toy note's t
 
 Signal analysis uses the same pair. A sound recorded as pressure against time and as amplitude against frequency gives two complete descriptions, related by the Fourier transform [T]. The [popular article](/wiki/history/documents/popular-articles) #12 opens on this: "Every sound admits two complete descriptions", and position and momentum descriptions "are two complete readings of one underlying state, related by the same Fourier transform that relates a waveform to its spectrum" (#12, "Two descriptions of one thing"; a popular article, never a status source).
 
-The program's version is [the conjugate universe](/wiki/program/conjugate-universe): founding supposition 2, "A coexisting conjugate universe", is "alive, transformed" into one state with two descriptions (#11 Appendix A, supposition 2).
+The program's version is [the conjugate universe](/wiki/program/conjugate-universe): [founding supposition](/wiki/program/founding-suppositions) 2, "A coexisting conjugate universe", is "alive, transformed" into one state with two descriptions (#11 Appendix A, supposition 2).
 
 ### The time–bandwidth product
 
@@ -104,10 +104,17 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 
 ## Used by
 
-- [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) — the two vacua are related by ψ → Fψ together with K → −K.
-- [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — the Langmann–Szabo transform computed by direct Fourier integration.
-- [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — the momentum description of the one physical state.
 - [Born's question](/wiki/program/borns-question) and [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking) — both start from #11 §3's statement that the transform implements ρ.
+- [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — the momentum description of the one physical state.
+- [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — the transform implements ρ, and applying it twice gives ρ².
+- [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) and [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — the x- and p-polarized descriptions of one state, as waveform and spectrum.
+- [Reciprocity as modular inversion Z → −Z⁻¹](/wiki/phase-space/modular-field/modular-inversion) — the quarter-turn the transform performs on wavefunctions.
+- [The polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the fractional Fourier transforms as the continuous family that contains ρ.
+- [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — in ordinary quantum mechanics ρ is only the change of description the transform carries out.
+- [Locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) and [the twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) — the two vacua are related by ψ → Fψ together with K → −K.
+- [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — the Langmann–Szabo transform computed by direct Fourier integration.
+- [Complex-model vacua and the polarization Δ(β)](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-vacua) — the dual profile is the transform of the vacuum.
+- [Two causal cones](/wiki/conjugate-relativity/two-causal-cones), [the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) and [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) — the Fourier pairs used in conjugate special relativity.
 - [The phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the time–bandwidth analogy at cosmic scale.
 
 ## Sources

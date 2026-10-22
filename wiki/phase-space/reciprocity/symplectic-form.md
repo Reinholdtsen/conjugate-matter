@@ -74,7 +74,7 @@ squeeze    diag(a, 1/a)                                  stretches x by a, compr
 boost      S(t) = [[cosh t, sinh t], [sinh t, cosh t]]   the same stretch along the diagonals x ± p
 ```
 
-The boost matrix is the one the referee of [review round 4](/wiki/method/review/round-4) used ("S(t)=[[cosh t, sinh t],[sinh t, cosh t]] (symplectic: True)", audit notes Step 2(a)). It stretches the direction (1, 1) by eᵗ and compresses (1, −1) by e⁻ᵗ [T], so a boost is a squeeze along the diagonals. The referee's notes call diag(a, 1/a) a boost as well; this page follows the toy note, which calls it a squeeze.
+The boost matrix is the one the referee of [review round 4](/wiki/method/review/round-4) used ("S(t)=[[cosh t, sinh t],[sinh t, cosh t]] (symplectic: True)", audit notes Step 2(a)). It stretches the direction (1, 1) by eᵗ and compresses (1, −1) by e⁻ᵗ [T], so a boost is a squeeze along the diagonals. The referee's notes call diag(a, 1/a) a boost as well (see flag 10 in `review/wiki-build-flags.md`); this page follows the toy note, which calls it a squeeze.
 
 The quarter-turn ρ = [[0, 1], [−1, 0]] is the rotation R(π/2). It "is symplectic and squares to −1" (toy-model note §1), and ρ² = −1 is the half-turn, the parity (x, p) → (−x, −p) (#1 §2). The rotations form the compact subgroup SO(2), a circle. Squeezes and boosts are non-compact: their parameter runs to infinity [T].
 
@@ -82,9 +82,9 @@ The quarter-turn ρ = [[0, 1], [−1, 0]] is the rotation R(π/2). It "is symple
 
 By the [Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman), a continuous compact symmetry cannot break spontaneously in a two-dimensional system [T]. The toy-model note applies it to the rotations only: "In 1+1 the compact angle φ cannot order: Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ. The non-compact half-plane sector is a hyperbolic model, where symmetry breaking in 2D does occur [15]. Whether ρ's SO(2) stays unbroken in the full coupled model is open." (§4). See [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)
 
-The boosts are where the [first ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) of [model I](/wiki/symmetry-breaking/toy-models/coset-model), the toy note's coset sigma model, failed. "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4" (toy-model note §4). That naive potential is dead as a stabilizing potential ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). Its replacement, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), penalizes boosts: "the boost family rises from −1 to −0.5" (round-4 adjudication, F2). Along the squeezes it keeps a flat direction: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication had called this zero mode an exact symmetry; the toy note's v2, which ranks above the adjudication, says it is not symmetry-protected.
+The boosts are where the [first ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) of [model I](/wiki/symmetry-breaking/toy-models/coset-model), the toy note's [coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models), failed. "Along H = SᵀS, K = S⁻¹K_ref S with S a boost, the compatibility term stays zero while the potential reaches −8.9 × 10⁶ μ at boost parameter 4" (toy-model note §4). That naive potential is dead as a stabilizing potential ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). Its replacement, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), penalizes boosts: "the boost family rises from −1 to −0.5" (round-4 adjudication, F2). Along the squeezes it keeps a flat direction: "The zero mode is the classical flat line H = diag(y, 1/y), K = K_ref. It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref. Boosts are penalized." (toy-model note §4). The round-4 adjudication had called this zero mode an exact symmetry; the toy note's v2, which ranks above the adjudication, says it is not symmetry-protected (see flag 12 in `review/wiki-build-flags.md`; [conflicts between sources](/wiki/history/documents/source-conflicts#postulates-and-the-toy-models), entry C28).
 
-The referee also worked out, with sympy, which maps of Sp(2, ℝ) the naive potential leaves unbroken. A conjugation S⁻¹K_ref S that returns +K_ref forces S = diag(a, 1/a); one that returns −K_ref forces S = [[0, −1/c], [c, 0]]. So the potential "leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (audit notes Step 2(c), capitals lowered here): among the rotations only ±1 and ±ρ survive.
+The referee also worked out, with sympy, which maps of Sp(2, ℝ) the naive potential leaves unbroken. A conjugation S⁻¹K_ref S that returns +K_ref forces S = diag(a, 1/a); one that returns −K_ref forces S = [[0, −1/c], [c, 0]]. So the potential "leaves a non-compact boost subgroup unbroken plus {+-1, +-rho} (Z4) in SO(2)" (audit notes Step 2(c), capitals lowered here; its "boost subgroup" is the squeeze family diag(a, 1/a), see flag 10 in `review/wiki-build-flags.md`): among the rotations only ±1 and ±ρ survive.
 
 ## How the toy models use the group
 
@@ -122,14 +122,25 @@ The toy note's own references for the two-dimensional theorems are Mermin–Wagn
 
 ## Used by
 
+- [The hard core: spontaneously broken Born reciprocity](/wiki/program/hard-core) — ω is the one structure the laws fix.
+- [P1: the phase-space arena](/wiki/program/postulates/p1-arena) — physics on phase space with a symplectic form ω.
 - [P2′: only the symplectic form is rigid](/wiki/program/postulates/p2-prime) — ω is the program's one rigid structure.
-- [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — Sp(2, ℝ) is the toy's symmetry group.
+- [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — the Born rotation generated by I = ω⁻¹H.
+- [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) and [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — a polarization is a Lagrangian subspace for ω.
+- [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — the program has content only with ω alone rigid.
+- [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) and [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — ω-rigidity fixes the comoving phase-space cell.
+- [The Siegel domain Sp(2d, ℝ)/U(d)](/wiki/phase-space/modular-field/siegel-domain) and [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) — the metrics a rigid ω leaves free.
+- [Shift symmetry: X is never auxiliary](/wiki/gravity/momentum-graviton/shift-symmetry) — the rigid group contains Z → Z + B.
+- [The symplectic partner of the graviton is another graviton](/wiki/gravity/momentum-graviton/symplectic-partner) — the antisymmetric pairing ω gives the metric a symmetric partner.
+- [The geometric action S_H and the v0.1 action (superseded)](/wiki/gravity/tuning-test/geometric-action) — written with ω and η frozen.
+- [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — τ exists only once ω alone is rigid.
+- [Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion) and [model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — Sp(2, ℝ) is the toy's symmetry group.
+- [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua) — a symplectic map carries the circle of vacua at H = 1 onto the circle at any H.
 - [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) and [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) — boosts and squeezes as the test directions.
 - [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — the compact rotations and the non-compact rest.
-- [The Siegel domain Sp(2d, ℝ)/U(d)](/wiki/phase-space/modular-field/siegel-domain) — the metrics a rigid ω leaves free.
-- [Shift symmetry: X is never auxiliary](/wiki/gravity/momentum-graviton/shift-symmetry) — the rigid group contains Z → Z + B.
-- [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — ω-rigidity fixes the comoving phase-space cell.
-- [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — the same structure on electric and magnetic charges.
+- [The twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) — model I on the phase plane with the standard ω.
+- [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — the Langmann–Szabo kernel is built from the symplectic product.
+- [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) and [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the same structure on electric and magnetic charges.
 
 ## Sources
 

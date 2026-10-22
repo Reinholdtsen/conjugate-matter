@@ -61,11 +61,11 @@ The order parameter #14 names is the [neutral metric](/wiki/phase-space/born-geo
 
 ## The referees' demand
 
-The demand came out of the blind reviews of #14:
+The demand came out of the [blind reviews](/wiki/method/review) of #14:
 
 - **Round 1.** The referee's "toy-Lagrangian demand" was "adopted as acceptance criterion #1" (`HANDOFF.md` §6). [The handoff](/wiki/history/documents/handoff)'s first open item adds that "both reviewers independently named it" (§2). See [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
 - **#14** states the criterion so that failure would be checkable: "(1) exhibition of an action - a toy model suffices - in which rho is a genuine Noether symmetry, spontaneously broken, with eta the order parameter selecting both the position polarization and the hidden sector's electric description; deriving hypothesis H from that action would make the coupling a prediction" (#14 §6).
-- **Round 3.** The referees' shared verdict became the program's main critique ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)), and the adjudication made the toy Lagrangian the next task, as the one item that could answer it: "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes." (`review/round3-adjudication.md`, decision 4; [round-3 decisions](/wiki/method/review/round-3/decisions)).
+- **[Round 3](/wiki/method/review/round-3).** The referees' shared verdict became the program's main critique ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)), and the adjudication made the toy Lagrangian the next task, as the one item that could answer it: "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes." (`review/round3-adjudication.md`, decision 4; [round-3 decisions](/wiki/method/review/round-3/decisions)).
 
 The worklog fixed its success criteria before building anything, and the first of them is this page's distinction: "**S1 — symmetry of an action.** An explicit action S[fields] on which ρ acts as a symmetry: S is invariant, not merely related to its image by a unitary equivalence. Invariance is verified symbolically." (`notes/toy-lagrangian.md`, "Success criteria"; [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)).
 
@@ -79,7 +79,7 @@ The worklog fixed its success criteria before building anything, and the first o
 
 Still open there [O]: "a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4." See [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion). #11 does not qualify the second point; the toy note does. Its stable minimum keeps one flat direction, the squeeze line, and "It is not symmetry-protected" (§4; [the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form#rotations-boosts-and-squeezes)).
 
-The invariance is machine-checked. In [model I](/wiki/symmetry-breaking/toy-models/coset-model), the coset model of (H, K), "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, and the action is invariant (checked for generic symplectic S, so for ρ)" (toy-model note §2), and the gate prints "all three terms invariant under rho" [V] ([Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)).
+The invariance is machine-checked. In [model I](/wiki/symmetry-breaking/toy-models/coset-model), the coset model of (H, K), "Sp(2,ℝ) acts by H → SᵀHS, K → S⁻¹KS, and the action is invariant (checked for generic symplectic S, so for ρ)" (toy-model note §2), and [the gate](/wiki/method/verification/the-gate) prints "all three terms invariant under rho" [V] ([Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)).
 
 "Met" leaves two things uncovered, one clause of the referees' wording and the round-3 critique:
 
@@ -110,6 +110,7 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - [Acceptance criterion 1: the toy Lagrangian](/wiki/symmetry-breaking/toy-models/acceptance-criterion) — the demand this distinction produced.
 - [Success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria) — criterion S1 is the distinction itself.
 - [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — the program postulates a symmetry of the action, not a change of description.
+- [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking) — a vacuum can break only a symmetry of an action, not a change of description.
 - [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — an explicit action invariant under ρ.
 - [Complex versus real fields: symmetry versus covariance](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/complex-and-real-fields) — the distinction realized in model II.
 - [The twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element) — what a symmetry of the action still leaves open.
