@@ -2,7 +2,7 @@
 title: "Open: the sign of V(τ) and the turnaround"
 weight: 90
 status: open
-description: "V₀[1 + cos(τ/f)] is never negative for V₀ > 0, yet the turnaround needs V < 0 and the cited fits use a negative minimum; no document discusses or resolves the conflict, and an executed check made for this wiki awaits Paul's ruling (flag 27)."
+description: "V₀[1 + cos(τ/f)] is never negative for V₀ > 0, yet the turnaround needs V < 0 and the cited fits use a negative minimum; none of #1, #9 and #11 discusses the conflict, which awaits Paul's ruling as flag 27, with an executed check kept outside the gate."
 sources:
   - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md §13 row 5"
@@ -20,11 +20,12 @@ sources:
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "review/wiki-build-flags.md item 27"
   - "review/wiki-build-checks/v_sign_check.py"
+  - "review/wiki-build-checks/README.md"
 ---
 
-*The sign problem is a conflict in the program's documents about the potential energy V(τ) of the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence). They write it as V = V₀[1 + cos(τ/f)], and since a cosine never goes below −1, this potential is never negative when V₀ is positive. Yet the program's far-future [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce), in which our expansion halts and reverses, requires the potential to become negative, and the published fits the program cites for that event use potentials with a negative minimum. No document discusses the conflict, so the turnaround, its reading as the conjugate bounce, and the turnaround time in the [over-constraint](/wiki/cosmology/dark-energy/over-constraint) all rest on an unresolved point until Paul rules on it. This page records the conflict and does not choose a side.*
+*The sign problem is a conflict in the program's documents about the potential energy V(τ) of the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence). They write it as V = V₀[1 + cos(τ/f)], and since a cosine never goes below −1, this potential is never negative when V₀ is positive. Yet the program's far-future [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce), in which our expansion halts and reverses, requires the potential to become negative, and the published fits the program cites for that event use potentials with a negative minimum. None of the three documents that write the potential discusses the conflict. It was found while this wiki was being built and is recorded, for Paul's ruling, as flag 27 in the build's list of suspected errors in the sources. Until he rules, the turnaround, its reading as the conjugate bounce, and the turnaround time in the [over-constraint](/wiki/cosmology/dark-energy/over-constraint) all rest on an unresolved point. This page records the conflict and does not choose a side.*
 
-**Status:** Open — untagged; not among [checkpoint #11](/wiki/history/documents/checkpoint) §14's open problems and not on the current queue — the conflict was found when the sources were read side by side for this wiki, and no document resolves it; an executed check made for this wiki, `review/wiki-build-checks/v_sign_check.py`, prints the potential's minimum as 0, and the point awaits Paul's ruling (flag 27 in `review/wiki-build-flags.md`). It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence). Listed on [open problems and the queue](/wiki/status/open-problems) and [conflicts between sources](/wiki/history/documents/source-conflicts).
+**Status:** Open — untagged; not among [checkpoint #11](/wiki/history/documents/checkpoint) §14's open problems and not on the current queue — the conflict was found when the sources were read side by side for this wiki, and no document resolves it; an executed check made for this wiki and kept outside [the gate](/wiki/method/verification/the-gate), `review/wiki-build-checks/v_sign_check.py`, prints the potential's minimum as 0, and the point awaits Paul's ruling (flag 27 in `review/wiki-build-flags.md`). It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence). Listed on [open problems and the queue](/wiki/status/open-problems) and [conflicts between sources](/wiki/history/documents/source-conflicts#cosmology) (entry C20).
 
 ## The conflict in one line
 
@@ -78,7 +79,7 @@ In this wiki's reading, the near-term test does not depend on it. [Row 4](/wiki/
 
 ## What the sources do not say
 
-- No document notices the conflict. None of #1, #9 and #11 states the sign of V₀, adds a constant to the potential, or replaces the cosine form.
+- None of #1, #9 and #11 notices the conflict, and the handoff repeats the requirement without comment ("eventual negative V ⇒ turnaround", `HANDOFF.md` §2). None of the three states the sign of V₀, adds a constant to the potential, or replaces the cosine form. The conflict was first written down during this wiki's build, as flag 27 in `review/wiki-build-flags.md`.
 - The [toy models](/wiki/symmetry-breaking/toy-models) do not bear on it. Their [ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) at H = 1, "V_b = −(μ/2)(1 + cos 2φ)" (toy note §4; [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)), is a cosine on the same circle, but it belongs to a model without gravity, where adding a constant to the potential changes nothing [T]. No document relates it to the sign of V(τ).
 - #11 §14 does not list it, and the current queue in the root `CLAUDE.md` does not include it.
 - No `verify/` script evaluates V(τ) or the turnaround; the check made for this wiki sits outside [the gate](/wiki/method/verification/the-gate) (below).
@@ -93,7 +94,7 @@ V0[1+cos]: fraction of period with V < 0 = 0.0
 V0 cos   : fraction of period with V < 0 = 0.49999750001249993
 ```
 
-The point is item 27 of `review/wiki-build-flags.md`. The check is not part of `verify/`; the flags file notes that a ruling that accepts a flag should add its check there. What remains is a ruling by Paul on which statement the documents should carry. Until then the turnaround, its identification with the conjugate bounce and the t_turn leg of the over-constraint rest on an unresolved point. This page records the conflict and does not choose a side.
+The point is item 27 of `review/wiki-build-flags.md`, which names two ways out: "Either the potential carries a negative offset not written down, or the turnaround needs another mechanism." Which statement the documents should carry awaits Paul's ruling, and the check is evidence for that ruling, not part of the gate. The README beside it says the scripts there are "evidence for a ruling, not part of the gate: none is wired into `scripts/check.sh`", and that "A ruling that accepts a flag should move the relevant check into `verify/`, with an anchor independent of the paper" (`review/wiki-build-checks/README.md`). Until Paul rules, no `verify/` script evaluates V(τ), and the turnaround, its identification with the conjugate bounce and the t_turn leg of the over-constraint rest on an unresolved point. This page records the conflict and does not choose a side.
 
 ## The claim it qualifies
 
@@ -109,5 +110,5 @@ The potential belongs to [τ: hilltop quintessence on the Maslov circle](/wiki/c
 - `HANDOFF.md` §2 — "eventual negative V ⇒ turnaround"
 - `papers/reciprocity-toy-models.md` §4 — the toy models' bounded potential at H = 1
 - `CLAUDE.md` 'Since the handoff' — the current queue, which does not include the point
-- `review/wiki-build-flags.md` item 27 — the conflict, recorded for Paul's ruling; `review/wiki-build-checks/v_sign_check.py` and `review/wiki-build-checks/v_sign_check.out` — the executed check and its output (outside `verify/`)
+- `review/wiki-build-flags.md` item 27 — the conflict, recorded for Paul's ruling; `review/wiki-build-checks/v_sign_check.py` and `review/wiki-build-checks/v_sign_check.out` — the executed check and its output (outside `verify/`); `review/wiki-build-checks/README.md` — the checks are evidence for a ruling, not part of the gate
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split', `popsci/angle-of-the-mirror.md` 'The referee is already on the field' — the popular accounts of the reversal
