@@ -129,3 +129,11 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
 30. **Minor: #13 §1 tags its two causal cones "[D — compatibility theorem]".** That theorem's g is
     positive-definite and has no null cone; the cones need the Lorentzian dressing, which is
     open (OP3).
+31. **Lead, not a confirmed error: "~10 orders" for quadratic photon dispersion (#1 §4).** #1 says
+    quadratic effects at M_B ~ M_P sit "~10 orders below current sensitivity"; no script backs it.
+    With a Fermi-LAT quadratic bound E_QG,2 ~ 1.3×10¹¹ GeV taken from model memory (†, Vasileiou
+    et al. 2013), the gap is about 8 orders in the energy scale and about 16 in the size of the
+    effect. Verify the bound before acting. Check: `review/wiki-build-checks/quadratic_gap.py`.
+32. **Lead, from model memory (†): CMB-S4's status.** #11 names CMB-S4 as the probe for row 10;
+    the project may have lost its US funding in 2025. Unchecked; an item for the † battery
+    (OP10), not a source error.
