@@ -58,7 +58,7 @@ E = ρ̃ ã³ ∝ ã^(−3w̃) = a^(3w̃)            its energy, using ã = 1/a
 ⇒   w_eff = −w̃
 ```
 
-#11 §10 tags the result "[D — corrected en route]": "with one shared lapse, a dual-frame fluid contributes w_eff = −w̃ (superseding an earlier −2 − w̃; the constraint's Jacobian changed the answer — rigor's job)". The lab notebook describes the error in the earlier heuristic as having "identified densities across frames without the constraint's volume Jacobian" (#1 §6). The translations, with the equations of state from the notebook's table:
+#11 §10 tags the result "[D — corrected en route]": "with one shared lapse, a dual-frame fluid contributes w_eff = −w̃", superseding an earlier −2 − w̃ because "the constraint's Jacobian changed the answer". The lab notebook describes the error in the earlier heuristic as having "identified densities across frames without the constraint's volume Jacobian" (#1 §6). The translations, with the equations of state from the notebook's table:
 
 | Dual-frame content | Equation of state w̃ | Acts on our expansion as | w_eff |
 | --- | --- | --- | --- |

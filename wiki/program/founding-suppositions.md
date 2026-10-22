@@ -117,7 +117,7 @@ The program's own addition is the polarization identification [D — structural;
 - **Item 5's wording.** #11 §11.1 calls "true but irrelevant" "the empty set (a correction supplied by P.R.)"; Appendix A quotes P.R. as saying it is "measure zero". The verdict is the same either way: as an explanation of the missing monopoles the idea is dead.
 - **Item 5 in the handoff.** `HANDOFF.md` §2 ties the surviving ontology to the soliton candidate ("As ontology they're alive (the soliton candidate)"). Since v2.1 the ontology stands while the candidacy is retired (#11 §11.1, §12).
 
-The dead items, 3 as dynamics, 5 as an explanation and 9, are also on the handoff's list of claims "killed by own calculations — keep dead" (`HANDOFF.md` §2). They stay dead, and [the graveyard](/wiki/status/graveyard) lists them.
+The dead items, 3 as dynamics, 5 as an explanation and 9, are also on the handoff's list of dead claims ("keep dead", `HANDOFF.md` §2). They stay dead, and [the graveyard](/wiki/status/graveyard) lists them.
 
 ## Sources
 

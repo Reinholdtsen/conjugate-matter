@@ -30,7 +30,7 @@ sources:
 
 *The Lorentzian dressing of the Euclidean skeleton is the open problem of carrying the program's main geometric results over from a positive-definite phase-space metric, the Euclidean case, to the Lorentzian signature of physical spacetime, in which time enters with the opposite sign to space. Those results, [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), the parametrization of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) and the chain of arguments that forces [the momentum graviton X](/wiki/gravity/momentum-graviton) to be massive, were proven in the Euclidean case. The extension is open problem 3 of the checkpoint #11. The change is not a formality: with a Lorentzian metric the group that leaves the vacuum fixed becomes non-compact, and the metric on the space of field values becomes indefinite, the situation in which some field components would carry kinetic energy of the wrong sign. The working notes expect the gauge symmetry and mass mechanism already in the chain to keep the theory healthy there, and list the extension as a check. Nothing has been computed, and the checkpoint counts it among the three items on which the word "theory" still waits.*
 
-**Status:** Open [O] — #11 §14 item 3 — nothing computed; first flagged in calc note #6 §3 ("[Flagged, not glossed.]") and carried by #7, #8, #9, #13 and [the handoff](/wiki/history/documents/handoff)'s open list ([open problems and the queue](/wiki/status/open-problems)).
+**Status:** Open [O] — #11 §14 item 3 — nothing computed; first flagged in calc note #6 §3 and carried by #7, #8, #9, #13 and [the handoff](/wiki/history/documents/handoff)'s open list ([open problems and the queue](/wiki/status/open-problems)).
 
 ## The open item
 
@@ -52,7 +52,7 @@ The program's results assume the Euclidean case at the start. The compatibility 
 
 #6 §3 states the caveat as first recorded:
 
-> A signature caveat recorded honestly: the compatibility theorem and Siegel parametrization were derived for positive H. Lorentzian g makes the stabilizer U(1, d−1) and the invariant target metric indefinite — which is precisely the regime where the gauge+mass structure above is not a luxury but the only path to health. The chain of §1–§3 is the Euclidean-rigorous skeleton; the Lorentzian dressing rides on the same FP/HR machinery it lands on. [Flagged, not glossed.]
+> … the compatibility theorem and Siegel parametrization were derived for positive H. Lorentzian g makes the stabilizer U(1, d−1) and the invariant target metric indefinite — which is precisely the regime where the gauge+mass structure above is not a luxury but the only path to health. The chain of §1–§3 is the Euclidean-rigorous skeleton; the Lorentzian dressing rides on the same FP/HR machinery it lands on.
 
 **The stabilizer.** The symplectic group Sp(2d, ℝ) acts on the Siegel domain, and the subgroup that leaves one point fixed is its stabilizer. For positive H that subgroup is a copy of the compact unitary group U(d), which is why the domain is the quotient Sp(2d, ℝ)/U(d) [T]. With a Lorentzian g, #6 records the stabilizer as U(1, d−1), the group that preserves a Hermitian form with one sign opposite to the rest, which is non-compact [T]. At d = 4 it is U(1,3) (#9 §10 item 2).
 
@@ -84,7 +84,7 @@ The item was first flagged in #6 §3 and listed again in that note's §5 ("Loren
 - **The open lists.** #9 §10 item 2; the handoff's open item 5, "First-principles wedge reduction from S_H; Lorentzian dressing of the Euclidean skeleton" (`HANDOFF.md` §2); #11 §14 item 3.
 - **What "theory" waits on.** #9 §11: "The word 'theory' awaits items 1–2 of §10", where item 2 is this one. #11 §15: "That is a live research program; the word 'theory' still waits on items 1–3 above", the other two being [the wedge-sector derivation (OP1)](/wiki/gravity/tuning-test/wedge-reduction) and [the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) ([the assessment](/wiki/program/assessment)).
 
-The two rankings are consistent as written: the notes do not expect the extension to threaten the structure, and #11 still withholds the word "theory" until it is done. The plain-language opening of #11 §14 puts the whole list this way: "What is honestly unfinished — none of it, any longer, about whether the structure can exist."
+The two rankings are consistent as written: the notes do not expect the extension to threaten the structure, and #11 still withholds the word "theory" until it is done. The plain-language opening of #11 §14 says that none of the unfinished list is "any longer, about whether the structure can exist."
 
 ## Sources
 
@@ -93,7 +93,7 @@ The two rankings are consistent as written: the notes do not expect the extensio
 - `papers/broken-born-checkpoint-v2.md` §6 — the Siegel domain's Y > 0.
 - `papers/conjugate-special-relativity.md` preamble, §1, §2 — #13 inherits the caveat; its null cones and dual interval.
 - `HANDOFF.md` §2 — open item 5.
-- `notes/debt1a-ii-X-classification.md` §1–§3, §5 — the chain, the caveat, U(1, d−1), the definition of the Euclidean-rigorous skeleton, "[Flagged, not glossed.]"; the item listed as open.
+- `notes/debt1a-ii-X-classification.md` §1–§3, §5 — the chain, the caveat, U(1, d−1), the definition of the Euclidean-rigorous skeleton; the item listed as open.
 - `notes/debt1a-geometric-core.md` §D — the positive-definite Siegel target metric.
 - `notes/debt1a-iii-tuning-test.md` §2, §5 — the Euclidean frame of the tuning test; the dressing as a check.
 - `notes/debt1a-iv-beta-coefficients.md` §5 — the residue, "none of it existential".
