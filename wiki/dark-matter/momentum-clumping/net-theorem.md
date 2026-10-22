@@ -11,7 +11,6 @@ sources:
   - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint'"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §1"
-  - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §8"
@@ -78,9 +77,9 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 - **The level of the estimates.** The particle leg rests on a mean-field criterion bracketed by two limits. The wave legs rest on a condensation rate whose coefficients are "heuristic at O(1)–O(10) level" and await calibration against Levkov–Panin–Tkachev numerics (3b, header; [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics)); #11 §9 tags them "coefficients [O]". The notes argue that the verdicts survive these uncertainties: the particle side is "Robust to every dropped O(1)" (3a), and in Segue 1 "There is no timescale refuge" even after allowing for the slower growth seen in Levkov–Panin–Tkachev-type kinetics (3c, 'Sharpened input numbers').
 - **Not machine-checked.** No `verify/` script covers a Debt-3 number ([the iron rule](/wiki/method/verification/iron-rule)).
 
-## Weight as evidence
+## Later use
 
-#11 §2 counts §9 among the program's [negative results](/wiki/method/negative-results), which it ranks as the most reliable of its Tier-3 items. Tier 3 is the checkpoint's class of "novel structural physics", held at "plausibility-tier reasoning" ([claim tiers](/wiki/method/claim-tiers)). [The round-3 adjudication](/wiki/method/review/round-3/decisions) cited the Debt-3 obituary as a precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate) (`review/round3-adjudication.md`, 'Decisions').
+[The round-3 adjudication](/wiki/method/review/round-3/decisions) cited the Debt-3 obituary as a precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate) (`review/round3-adjudication.md`, 'Decisions').
 
 ## Record
 
@@ -92,7 +91,7 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 ## Sources
 
 - `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the theorem as first stated, the withdrawals, the salvage list and the final wave-island range; 'The data' — the robustness checks; 'The attractive endpoint' — the light-mass branch; 'Sharpened input numbers' — no timescale refuge
-- `papers/broken-born-checkpoint-v2.md` §9 — the three results and the salvage; §8 — the open tail; §1 — the abstract's summary; §2 — negative results as the most reliable items; §12 — the loophole; §15 — the quarantined wave-island sector
+- `papers/broken-born-checkpoint-v2.md` §9 — the three results and the salvage; §8 — the open tail; §1 — the abstract's summary; §12 — the loophole; §15 — the quarantined wave-island sector
 - `notes/debt3a-stream-stability.md` 'Corollary (the classicality theorem)' — the particle leg
 - `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — Scenarios A and B and the degeneration flag; 'Standing results after Chunks A+B' — the interim standing
 - `notes/broken-born-program-v1.md` §7 — the [D] tag on the three Debt-3 results

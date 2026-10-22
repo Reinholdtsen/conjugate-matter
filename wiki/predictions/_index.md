@@ -2,7 +2,7 @@
 title: "Predictions and kill conditions"
 weight: 90
 status: hub
-description: "The program's list of ways to die (#11 §13): eleven observables, each with the standard expectation, the framework's requirement and its kill condition or diagnostic role; near-term exposure is rows 1, 4 and 7."
+description: "The program's predictions table (#11 §13): eleven observables, each with the standard expectation, the framework's requirement and its kill condition or diagnostic role; near-term exposure is rows 1, 4 and 7."
 bookCollapseSection: true
 ---
 

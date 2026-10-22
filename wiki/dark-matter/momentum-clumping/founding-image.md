@@ -11,7 +11,6 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §1"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §13"
-  - "papers/broken-born-checkpoint-v2.md §2"
   - "review/round3-adjudication.md 'Decisions'"
   - "notes/broken-born-theory.md §5.2"
   - "notes/broken-born-theory.md §5.1"
@@ -111,7 +110,7 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 - **[Relic abundance by misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)** on the wave island, which removes the notebook's relic-abundance problem there.
 - **The loophole.** Debt 3 tested collective dynamics only. #11 App. A item 3 records: "**loophole**: topological p-localization of individual solitons untested, and its candidate is retired (§12)". The candidate was the superheavy soliton, whose [obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) is in the candidates section; the loophole now "remains untested, but has no candidate" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
-[The round-3 adjudication](/wiki/method/review/round-3/decisions) cites this obituary as a precedent for retiring the soliton candidate (`review/round3-adjudication.md`, 'Decisions'). #11 §2 counts §9 among the program's [negative results](/wiki/method/negative-results), which it ranks as the most reliable of its novel, [Tier-3](/wiki/method/claim-tiers) claims.
+[The round-3 adjudication](/wiki/method/review/round-3/decisions) cites this obituary as a precedent for retiring the soliton candidate (`review/round3-adjudication.md`, 'Decisions').
 
 ## Where the records differ
 

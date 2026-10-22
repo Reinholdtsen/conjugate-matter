@@ -114,7 +114,7 @@ The computation is [the tuning test](/wiki/gravity/tuning-test), tagged [D][V] i
 
 ## How many tests
 
-Calc note #7, after the tuning test, counted "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test)" that "could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction" (§5). #11 §15, which governs, counts "four consecutive consistency tests each forced the theory onto the unique consistent structure available", without naming them and without #7's "known" (see flag 7 in `review/wiki-build-flags.md`). The versions of the list in the documents are set out on [Assessment: a live research program](/wiki/program/assessment).
+Calc note #7 §5, written after the tuning test, lists three structural tests met in a row: the multi-graviton no-go, the signature obstruction and the tuning test. At each, the geometric sector was restricted to "the unique known consistent structure at that junction". #11 §15, which governs, counts four such tests without naming them and without #7's "known" (see flag 7 in `review/wiki-build-flags.md`). The versions of the list in the documents are set out on [Assessment: a live research program](/wiki/program/assessment).
 
 ## Superseded: the three-way classification of X
 

@@ -71,7 +71,7 @@ The working instruction behind the delegation is "Make the call and recommend; d
 
 ## Working pattern
 
-"Work in chunks and save state after each one, so a cold session can resume. Paul continues with "go"." (root `CLAUDE.md`). `HANDOFF.md` §7 gives the reason: "he may be away — save progress so any session can resume cold." The worklogs follow it; each opens with "State is saved here after each chunk so any session can resume cold" (`review/v3-worklog.md`; `notes/toy-lagrangian.md`), and the wiki keeps a build-state section for the same purpose (`wiki/CLAUDE.md`). Working communication is in "simple bullets" (root `CLAUDE.md`).
+"Work in chunks and save state after each one, so a cold session can resume. Paul continues with "go"." (root `CLAUDE.md`). `HANDOFF.md` §7 gives the reason: "he may be away — save progress so any session can resume cold." The worklogs follow it; each opens with "State is saved here after each chunk so any session can resume cold" (`review/v3-worklog.md`; `notes/toy-lagrangian.md`), and the wiki's build kept a build-state section in `wiki/CLAUDE.md` for the same purpose until the build was complete ([timeline](/wiki/history/timeline)). Working communication is in "simple bullets" (root `CLAUDE.md`).
 
 ## The prose register
 
