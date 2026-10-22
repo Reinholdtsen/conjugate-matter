@@ -27,7 +27,7 @@ In the [standard cosmological model](/wiki/cosmology), dark matter is cold and c
 
 If the particles scatter off one another, collisions conduct heat down that temperature gradient, into the center. The heated central particles move onto wider orbits, the central density falls, and the cusp becomes a core of nearly constant density. The effect needs only a modest rate: about one scattering per particle over the age of the halo. [Debt 3a](/wiki/history/documents/debt-3-notes) of the program contrasts this with collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/debt3a-stream-stability.md`, 'Numbers at the scattering benchmark'; see [the instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
 
-The rate at which one particle scatters is Γ = n σ_T v, with n the number density, σ_T the cross-section and v the relative speed. Since n = ρ/m for mass density ρ and particle mass m:
+The rate at which one particle scatters is Γ = n σ_T v, with n the number density, σ_T the [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) and v the relative speed. Since n = ρ/m for mass density ρ and particle mass m:
 
 ```text
 Γ = ρ (σ_T/m) v
@@ -37,13 +37,7 @@ Gravitational dynamics measures ρ and v, not m, so what observations constrain 
 
 ## The transfer cross-section [T]
 
-Not every collision moves heat equally. A grazing collision barely changes either particle's momentum, while a head-on one reverses it. The momentum-transfer cross-section weights each scattering angle θ by the fraction of forward momentum it removes:
-
-```text
-σ_T = ∫ dΩ (1 − cos θ) dσ/dΩ
-```
-
-so grazing collisions (θ near 0) count for little.
+Not every collision moves heat equally. The momentum-transfer cross-section, σ_T = ∫ dΩ (1 − cos θ) dσ/dΩ, weights each scattering angle θ by the forward momentum the collision removes, so grazing collisions (θ near 0) count for little and head-on rebounds most. Its definition, its relation to the total cross-section, its quotation per unit mass and its dependence on speed and angle are on [the transfer cross-section σ_T](/wiki/dark-matter/halo-astrophysics/transfer-cross-section). How it depends on speed is set by the force that carries the scattering, as the next two subsections describe.
 
 ### Contact and Yukawa forces
 
@@ -78,9 +72,7 @@ The program uses that last property as a contrast. On the [wave island](/wiki/da
 
 ## The Bullet Cluster [T]
 
-The Bullet Cluster is a collision of two galaxy clusters seen shortly after they passed through each other. Most of the ordinary mass is in hot gas, which X-ray observations show was slowed and left between the two clusters. Gravitational lensing maps the total mass, and its two concentrations moved on with the galaxies, ahead of the gas. The dark matter therefore passed through the collision with little scattering, which limits σ_T/m at cluster collision speeds.
-
-The program addresses the two sides of the limit separately. On the gravitational side, [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §4): χ "couples to g universally: it falls, orbits, and lenses like ordinary dark matter. Bullet Cluster lensing-centroid behavior is automatic (and see Prediction 1 for the scattering side)". [The checkpoint](/wiki/history/documents/checkpoint) states it in a clause: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8). On the scattering side, the gate closes at high relative speed, and the checkpoint's row 1 requires "zero cluster signal (particle χ)" (#11 §13). The lab notebook's v0.1 put a number on it, "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" (#1 §5.1), a figure that holds only if the gate's tail is Gaussian, which is now open ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark); [Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
+[The Bullet Cluster](/wiki/dark-matter/halo-astrophysics/bullet-cluster) is a pair of galaxy clusters seen after one passed through the other. The hot gas, most of the ordinary mass, was slowed and left between them, while the mass mapped by gravitational lensing moved on with the galaxies. The dark matter therefore passed through with little scattering, which limits σ_T/m at cluster collision speeds; a cross-section large enough to make dwarf cores can meet the limit by falling with speed. The program's χ is "Bullet-Cluster-safe" (#11 §8) on two counts: it lenses like ordinary dark matter ([the lab notebook](/wiki/history/documents/lab-notebook), #1 §4), and its gate is closed at cluster speeds, so row 1 requires "zero cluster signal (particle χ)" (#11 §13). How little scattering remains above the knee depends on the gate's tail, which is open ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
 
 ## How the program uses it
 
