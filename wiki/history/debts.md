@@ -184,7 +184,7 @@ Documents written after the move to this repository use the names only for this 
 
 ## Statements awaiting a ruling
 
-The wiki's verifiers flagged suspected errors in the documents of all three debts; the topic pages quote the documents as written and point to `review/wiki-build-flags.md`, where each awaits Paul's ruling:
+The wiki's verifiers flagged suspected errors in the documents of all three debts; the wiki quotes the documents as written, and each item of `review/wiki-build-flags.md` awaits Paul's ruling:
 
 - **Debt 1.** Item 1, the η-null polarizations that #5 §B calls discrete (the conclusion survives, per the flag); items 3, 4 and 14, the zero set of the misalignment potential, a term missing from the expansion of S and a notational point (#7 §2); item 15, a wording about η (#6 §2); item 5, "M_X ∝ 2(β₁+β₂)" (#11 §7.5 and #9, from #8 §3); item 7, #11 §7.1's "The unique consistent structure", which drops #6 §3's "known"; item 8, #8 §3's "five-function freedom"; item 6, "by symmetry rather than tuning" (#1 v0.6, #10); item 23, the identification of the constraint a·ã = 1 with the |Z| = 1 locus, flagged in #11 §6 and §10 and also made in #5 §C.
 - **Debt 2.** Item 17, the √2 in μ between the two gate conventions.
