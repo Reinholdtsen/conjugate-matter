@@ -44,7 +44,7 @@ sources:
 
 The equation of state w of a component of the universe is the ratio of its pressure to its energy density, p = wρ. Through the continuity equation ρ̇ = −3H(ρ + p), with H the expansion rate, it fixes how the component's density changes as space expands [T] ([quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence)). w(z) is that ratio for dark energy as a function of redshift z, which labels cosmic time by how much the universe has expanded since.
 
-A drifting w is usually summarized by two numbers in the Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a the scale factor, equal to 1 today [T]. w₀ is the present value, and a negative wₐ means that w has been rising toward the present ([the w₀–wₐ parametrization](/wiki/cosmology/dark-energy/quintessence)).
+A drifting w is usually summarized by two numbers in the Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a the scale factor, equal to 1 today [T]. w₀ is the present value, and a negative wₐ means that w has been rising toward the present ([the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization)).
 
 No survey observes w directly. DESI measures distances with the baryon-acoustic-oscillation ruler, the imprint of sound waves in the early plasma on the clustering of galaxies, and w(z) follows only after a form for it is chosen and fitted together with other data ([from distances to w(z)](/wiki/cosmology/dark-energy/desi#from-distances-to-wz-t)). That step matters for the kill condition below.
 
@@ -68,7 +68,7 @@ A field that starts near the top of its potential is held almost still while the
 
 > "**Thawing shape.** Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)." **[T]**
 
-[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie; neither #1 nor #11 cites a source for it.
+[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie ([thawing models in the w₀–wₐ plane](/wiki/cosmology/dark-energy/cpl-parametrization#thawing-models-in-the-w₀wₐ-plane)); neither #1 nor #11 cites a source for it.
 
 ### Never phantom
 

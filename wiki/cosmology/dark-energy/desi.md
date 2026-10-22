@@ -54,7 +54,7 @@ When the two directions cannot be separated, an average of them is quoted. Each 
 
 In a spatially flat universe the distances are integrals of the expansion history, D_M(z) = c∫dz′/H(z′) from 0 to z, and H(z) depends on the densities of matter and of dark energy. The dark-energy density in turn depends on its equation of state w(z) through the continuity equation ([quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence)). A measurement of distances therefore constrains w(z) only through a model:
 
-1. choose a form for w(z), such as the w₀–wₐ form w(a) = w₀ + wₐ(1 − a);
+1. choose a form for w(z), such as the w₀–wₐ form w(a) = w₀ + wₐ(1 − a) ([the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization));
 2. compute the distances it predicts, together with the other parameters (the matter density, r_d);
 3. fit to the BAO ratios, usually combined with the CMB, which fixes the early universe and r_d, and with supernova distances, which fix the shape of the expansion at low redshift.
 

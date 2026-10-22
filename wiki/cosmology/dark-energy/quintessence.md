@@ -2,7 +2,7 @@
 title: "Quintessence and the equation of state"
 weight: 10
 status: established
-description: "Dynamical dark energy from a slowly evolving scalar field: the equation of state w, thawing versus freezing, hilltop and axion-like potentials, the CPL w₀–wₐ parametrization, and recollapse when the vacuum energy turns negative."
+description: "Dynamical dark energy from a slowly evolving scalar field: the equation of state w, thawing versus freezing, hilltop and axion-like potentials, a summary of the CPL w₀–wₐ parametrization, and recollapse when the vacuum energy turns negative."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §10"
@@ -11,7 +11,6 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-program-v1.md §8"
-  - "CLAUDE.md 'Since the handoff'"
 ---
 
 *Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a cosmological constant's does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a thawing model the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an axion-like field, sitting near the potential's maximum.*
@@ -76,7 +75,7 @@ The two regimes of the field equation give the standard classification of quinte
 - **Thawing.** The field is frozen at early times, with w ≈ −1, and departs from it late, once H has fallen far enough. The equation of state rises away from −1 toward the present.
 - **Freezing.** The field is already evolving at early times, with w > −1, and slows down as it approaches the asymptotic form of its potential, so w falls toward −1.
 
-The lab notebook places the program's field in the first class: "Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)" (#1 §7 item 2; the [lab notebook](/wiki/history/documents/lab-notebook)). The quantities w₀ and wₐ are defined below, under the w₀–wₐ parametrization.
+The lab notebook places the program's field in the first class: "Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)" (#1 §7 item 2; the [lab notebook](/wiki/history/documents/lab-notebook)). The quantities w₀ and wₐ are the two parameters of [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization), summarized below.
 
 ## Hilltop and axion-like potentials [T]
 
@@ -100,17 +99,7 @@ with a period 2πf in φ. The shift symmetry keeps the field light, and its maxi
 
 ## The w₀–wₐ parametrization [T]
 
-Surveys cannot measure w at every redshift, so a drifting w is summarized by a two-parameter form, the Chevallier–Polarski–Linder (CPL) parametrization (Chevallier and Polarski †; Linder †):
-
-```text
-w(a) = w₀ + wₐ(1 − a)
-```
-
-with a = 1 today. Here w₀ is the present value and wₐ measures the change: since dw/da = −wₐ, w increases as the universe expands when wₐ < 0. Written in redshift z, with a = 1/(1 + z), the form is w(z) = w₀ + wₐ z/(1 + z), and at early times it tends to w₀ + wₐ.
-
-A thawing field starts near −1 and rises, so it has w₀ > −1 and wₐ < 0 (#1 §7 item 2; #11 §13 row 4). Thawing models do not fill that quadrant: their trajectories lie close to a line, which the program calls the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10) and #1 §7 item 2 "the standard thawing corridor". Neither document gives a reference for the corridor.
-
-A CPL fit can also describe a w(z) that crosses −1. If w₀ > −1 while w₀ + wₐ < −1, the fitted w lies below −1 at early times and above it today. That is the shape of the crossing reported in the second data release of DESI ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)), the finding that puts the program's dark-energy sector under real pressure (root `CLAUDE.md`, 'Since the handoff').
+Surveys summarize a changing w by the two-parameter Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a = 1 today: w₀ is the present value, and a negative wₐ means that w has been rising as the universe expands (Chevallier and Polarski †; Linder †). A thawing field has w₀ > −1 and wₐ < 0, and thawing models lie near a line that the program calls the "thawing corridor wₐ ≈ −1.5(1 + w₀)" (#11 §10); no document gives a reference for it. Where the form comes from, its pivot version, what two numbers cannot represent, and how a CPL fit expresses the phantom crossing reported in DESI's second data release ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)) are on [the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization).
 
 ## Recollapse [T]
 
@@ -135,13 +124,13 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — τ is a thawing hilltop field with an axion-like potential.
 - [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force) — the shift symmetry of an axion-like field.
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — ρ + p = φ̇² ≥ 0 for a canonical scalar.
-- [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — w₀, wₐ and the turnaround time as functions of the model's free numbers.
+- [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — in a thawing model the field's initial velocity is not a separate parameter.
 - [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — recollapse needs negative vacuum energy.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — recollapse once the vacuum energy is negative.
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — hilltop quintessence as the explanation the program implements.
-- [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the fitted w(z) and the shape of a crossing in the w₀–wₐ form.
+- [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the equation of state w(z) that the release fits.
 - [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — τ's periodic potential, compared with quintessence in general.
-- [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the w₀–wₐ test.
+- [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the equation of state and the thawing class that row 4 tests.
 - [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — recollapse when the vacuum energy turns negative.
 
 ## Sources
@@ -151,4 +140,3 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - `notes/broken-born-theory.md` §3 — the action S_τ with a canonical kinetic term
 - `notes/broken-born-theory.md` §7 items 2–3 — hilltop initial conditions, "the standard thawing corridor", the fits with a negative minimum and the 93.8% figure (#1 only)
 - `notes/broken-born-program-v1.md` §8 — the same fits, marked "[T — refresh citations before publication]"
-- `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure"
