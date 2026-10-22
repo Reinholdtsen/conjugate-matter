@@ -39,7 +39,8 @@ the check there.*
    removing a parameter. #8 §2's wording is the accurate one. #11 §7.3 says "by symmetry";
    worth checking it against this.
 7. **"The unique consistent structure" (#11 §7.1)** drops #6 §3's qualifier "exactly one *known*
-   consistent structure" for massive spin-2. Mild overstatement.
+   consistent structure" for massive spin-2. Mild overstatement. #6 §5 and #9 §5 item 3 also
+   drop "known"; #6 §3 and #7 §5 keep it.
 8. **#8 §3 "five-function freedom"**: the βₙ are constants (#7 §2), so "five-parameter".
 9. **#11 ref [24][S] (arXiv:1609.09515)** has no authors and its title may be a description
    rather than the paper's title. Being [S], it falls outside the † battery (OP10).
@@ -54,11 +55,11 @@ the check there.*
 11. **Tadpole growth in model II: ln N or 2 ln N.** The toy note v2 §4 says the level-0
     tadpole grows as "ln N" (a harmonic sum); the round-4 referee and the adjudication (F6,
     revision 4) say 2 ln N; `verify/toy_gw.py` checks only one harmonic series. Recorded as
-    unresolved in the inventories' conflict list (C29).
+    unresolved in the wiki's register of conflicts between sources (`wiki/history/documents/source-conflicts.md`, entry C29).
 12. **V_b's zero mode is not an exact squeeze symmetry.** `review/round4-adjudication.md` F2 and
     revision 1 call it an "exact" squeeze symmetry; a sympy check by the toy-coset verifier
     finds V_b not squeeze-invariant off K = ±K_ref. The toy note v2's "not symmetry-protected"
-    is the accurate statement (inventory conflict C28); the wiki follows v2.
+    is the accurate statement (conflicts register, entry C28); the wiki follows v2.
 13. **Minor: ⟨|m|⟩ = 0.954 ± 0.0001 "at every size" (toy note §4).** `verify/toy_s4.py` prints
     ± 0.0000 at L = 64; the note's figure is a conservative bound, not the printed value.
 14. **Minor notation (#7 §2): "Tr(g²) = p₄ of the square-root eigenvalues".** This holds for the
@@ -78,7 +79,7 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     #6's fiber width the knee sits at v\* = μ/m_χ rather than #1's v\* ≡ √2μ/m_χ; #13 §4 mixes
     the two. No stated number changes. Check: `review/wiki-build-checks/gate_conventions.py`.
 18. **Minor date (#1 §8): baryogenesis reached "maturity … in 1966".** Sakharov's conditions are
-    usually dated 1967 (model memory, †, unchecked). Inventory conflict C54.
+    usually dated 1967 (model memory, †, unchecked). Conflicts register, entry C54.
 19. **Minor: the classicality corollary's regime (#2, Debt 3a).** The corollary evaluates the
     broad-gate formula at Milky Way conditions, which 3a itself treats as the narrow-gate
     regime. `review/wiki-build-checks/debt3a_check.py` prints m_crit ≈ 1.4e-13 GeV (broad
@@ -99,14 +100,15 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     a·ã = 1 with the |Z| = 1 locus. At X = 0, H_Z = diag(Y, Y⁻¹); with g = a² = Y and the
     momentum block ã² = Y⁻¹, a·ã = 1 holds along the whole imaginary axis (it is det H = 1),
     while |Z| = 1 meets that axis only at Z = i. Either the identification needs a different
-    reading of a and ã, or it is a slip. The same check reproduces the corrected dictionary
+    reading of a and ã, or it is a slip. The identification also appears in #5 §C, #1 addendum
+    v0.3 and HANDOFF §2, so a ruling should cover all four. The same check reproduces the corrected dictionary
     w_eff = −w̃ and the falsified heuristic −2 − w̃. Check:
     `review/wiki-build-checks/self_dual_locus.py`.
 24. **Minor: "square exactly at the bounce" (HANDOFF §4, chat-only).** The phase-space diameter
     relation does not say which bounce. If it is the turnaround, the rectangle would be most
     elongated there, not square. The wiki states the ambiguity.
 25. **Minor pointer: #1 §1 P2 and §4 cite "§7" for the cosmological constraint**, which is derived
-    in #1 §6 (inventory conflict C21).
+    in #1 §6 (conflicts register, entry C21).
 26. **Minor: DESI DR3 as "three-year data" (HANDOFF §2).** DR2 (arXiv:2503.14738) already covers
     three years of operations (live-searched by the cosmo-de writer). The wiki quotes HANDOFF.
 27. **The dark-energy potential cannot turn negative as written (#11 §10, #9, #1 §7).** The
@@ -115,7 +117,7 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
     potential is negative over half its range", which is true of V₀cos(τ/f) but not of
     V₀[1 + cos(τ/f)]. Either the potential carries a negative offset not written down, or the
     turnaround needs another mechanism. This bears on prediction row 5 (turnaround = conjugate
-    bounce) and on the dark-energy over-constraint (t_turn). Inventory conflict C20. Check:
+    bounce) and on the dark-energy over-constraint (t_turn). Conflicts register, entry C20. Check:
     `review/wiki-build-checks/v_sign_check.py`.
 28. **The formula for our magnetic coupling (#11 §11.2).** #11 says Dirac's e·g ~ 2π "pins the
     magnetic coupling near 4π/e² ≈ 34". With α = e²/4π, 4π/e² = 1/α ≈ 137; e·g = 2π gives
@@ -147,3 +149,13 @@ The executed checks referred to above are in `review/wiki-build-checks/` with th
 34. **Minor: the same script calls its constants "PDG and Planck 2018 values"** without the
     caveat its predecessor `knot_numbers.py` carried (constants from model memory, except the
     N_eff bound). The values are typed in, not retrieved.
+35. **Minor pointer: `review/round3-preregistration.md` line 5** cites HANDOFF §6 for the 2-for-2
+    pre-registration record; it is in HANDOFF §5.
+36. **Minor pointer: "66.58 vs 63.72" placed in #11 §2.** `verify/battery.py`'s docstring and
+    #11 §7.2 say the figures are in #11 §2, which does not print them; they are in HANDOFF §5.
+37. **`README.md` still describes the program as explaining "missing magnetic monopoles".**
+    HANDOFF §2 and #11 §11.1 list conjugate monopoles as the explanation of non-detection as
+    dead (wrong duality; inflation suffices).
+38. **Root `CLAUDE.md`: two stale details.** "Since the handoff" says "#11 is now v2.1" (the file
+    is v2.2, as a later bullet says), and its Layout names two of the six scripts
+    `scripts/check.sh` runs (the four toy scripts are missing).
