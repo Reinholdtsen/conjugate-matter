@@ -2,7 +2,7 @@
 title: "Goldstone modes and the Higgs mechanism"
 weight: 20
 status: established
-description: "Massless modes of broken continuous symmetries and their count from the Hessian, pseudo-Goldstone modes and flat directions no symmetry protects; gauge fields that absorb Goldstones and become massive, Stückelberg fields, and a summary of inverse-Higgs constraints — with the program's uses in model I and in the momentum graviton X."
+description: "Massless modes of broken continuous symmetries and their count from the Hessian, pseudo-Goldstone modes and flat directions no symmetry protects; gauge fields that absorb Goldstones and become massive, with summaries of Stückelberg fields and inverse-Higgs constraints — with the program's uses in model I and in the momentum graviton X."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §7.1"
@@ -91,15 +91,7 @@ When the broken symmetry is a local, gauge symmetry, the would-be Goldstone fiel
 
 ### Stückelberg fields
 
-The massive theory can be written with the absorbed mode kept in view, as a Stückelberg field [T]. For a vector field:
-
-```text
-mass term                 m² A_μ A^μ                          not gauge invariant
-Stückelberg form          m² (A_μ + ∂_μπ)(A^μ + ∂^μπ)          invariant under A_μ → A_μ + ∂_μα,  π → π − α
-unitary gauge             π = 0 returns the massive vector
-```
-
-The mass term looks as if it breaks the gauge symmetry; written with π it keeps it, and π is the Goldstone field the gauge field absorbs [T]. The same device works for a massive spin-2 field h_μν, whose mass term breaks the linearized diffeomorphisms δh_μν = ∂_μξ_ν + ∂_νξ_μ. Restoring them introduces a vector Stückelberg field π_μ through h_μν → h_μν + ∂_μπ_ν + ∂_νπ_μ, and π_μ can be split further into a transverse vector and the gradient of a scalar, the scalar carrying the longitudinal (helicity-zero) mode [T].
+The absorbed mode can be kept in view as an explicit field, a [Stückelberg field](/wiki/symmetry-breaking/stuckelberg-fields) [T]. For a vector field the mass term is written with A_μ + ∂_μπ, which is unchanged under A_μ → A_μ + ∂_μα, π → π − α; the gauge π = 0, the unitary gauge, gives back the massive vector, and π is the Goldstone field the vector absorbs. For a massive spin-2 field h_μν the same device restores the linearized diffeomorphisms δh_μν = ∂_μξ_ν + ∂_νξ_μ through h_μν → h_μν + ∂_μπ_ν + ∂_νπ_μ, and the vector π_μ splits into a transverse vector and the gradient of a scalar, which carries the longitudinal (helicity-zero) mode [T]. The construction, the count of polarizations and the program's use for the momentum graviton X are on [Stückelberg fields](/wiki/symmetry-breaking/stuckelberg-fields).
 
 ### Masses from a vacuum value
 
@@ -113,7 +105,7 @@ The program's [momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, the
 2. "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric*". Massless, X would be a second graviton, which "is excluded by the multi-graviton no-go [8†]" ([the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go)); without the gauge symmetry, it is excluded "by Lorentz signature" (#11 §7.1; [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms); [the forcing chain](/wiki/gravity/momentum-graviton/forcing-chain)).
 3. "The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale."
 
-The calc note gives the step in Higgs-mechanism terms, tagged "[D — structural]": "The vacuum ⟨Z⟩ = i·g sits at X = 0 and is *moved* by the shifts: the polarization selection (η-emergence) spontaneously breaks the local dual diffeomorphisms. Gravitational Higgs mechanism: the four would-be Goldstones π_μ of the broken λ-gauge are eaten; X becomes a massive spin-2 with its five polarizations, mass M_X = the polarization-breaking scale." (#6 §3). The roles map onto the textbook case: X is the gauge field, λ_μ the gauge parameter, the vacuum's choice of polarization the symmetry-breaking vacuum value, and π_μ the absorbed Goldstone fields. See [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs).
+The calc note gives the step in Higgs-mechanism terms, tagged "[D — structural]": "The vacuum ⟨Z⟩ = i·g sits at X = 0 and is *moved* by the shifts: the polarization selection (η-emergence) spontaneously breaks the local dual diffeomorphisms. Gravitational Higgs mechanism: the four would-be Goldstones π_μ of the broken λ-gauge are eaten; X becomes a massive spin-2 with its five polarizations, mass M_X = the polarization-breaking scale." (#6 §3). The roles map onto the textbook case: X is the gauge field, λ_μ the gauge parameter, the vacuum's choice of polarization the symmetry-breaking vacuum value, and π_μ the absorbed Goldstone fields, the vector [Stückelberg field](/wiki/symmetry-breaking/stuckelberg-fields#the-stückelberg-vector) of the spin-2 case. See [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs).
 
 Two consequences in the record:
 
