@@ -33,7 +33,7 @@ sources:
 | --- | --- | --- | --- |
 | σ_T(v) across halo masses | CDM none; Yukawa SIDM power-law + Coulomb log | Knee at v\* ~ 10² km/s; zero cluster signal (particle χ) | Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band |
 
-CDM is cold dark matter and SIDM self-interacting dark matter. #11 §15 lists the row among those of "genuine and near-term" falsification exposure, with rows 4 and 7.
+CDM is cold dark matter and SIDM self-interacting dark matter. #11 §15 lists the row, with rows 4 and 7, as near-term falsification exposure.
 
 ## The observable
 
@@ -92,7 +92,7 @@ A dwarf-galaxy core is not itself a test. It is the input that fixes σ₀; the 
 
 ## The data situation
 
-No source records a measurement that tests the knee, either in the 150–400 km/s band or as a bound on cluster self-scattering set against the program's gate. #11 §15 calls the exposure "genuine and near-term" without naming the observations that will decide it. The documents use the data only at the input end: the dwarf-core value σ₀/m_χ ≈ 30 cm²/g, stated without a citation (#1 §5.1), and the standard observation that many dwarfs show flat cores where CDM predicts cusps [T] ([the cusp–core problem](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies#the-cuspcore-problem-t)).
+No source records a measurement that tests the knee, either in the 150–400 km/s band or as a bound on cluster self-scattering set against the program's gate. #11 §15 calls the exposure near-term without naming the observations that will decide it. The documents use the data only at the input end: the dwarf-core value σ₀/m_χ ≈ 30 cm²/g, stated without a citation (#1 §5.1), and the standard observation that many dwarfs show flat cores where CDM predicts cusps [T] ([the cusp–core problem](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies#the-cuspcore-problem-t)).
 
 The popular article #12 describes the smoothing of dwarf cusps and the shut-off in cluster collisions in the present tense, as if observed ('Dark matter as the other polarization'). In the program's documents the core fit is the input and the knee is a prediction ([the popular articles](/wiki/history/documents/popular-articles)).
 

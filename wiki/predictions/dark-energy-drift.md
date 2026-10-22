@@ -38,7 +38,7 @@ sources:
 | --- | --- | --- | --- |
 | Dark energy w(z) | w ≡ −1 | Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3 | DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10) |
 
-"DR3+" means DR3 or a later release. #11 §15 lists the row among those of "genuine and near-term" falsification exposure, with rows 1 and 7, and calls DESI's next release the program's "nearest trial".
+"DR3+" means DR3 or a later release. #11 §15 lists the row, with rows 1 and 7, as near-term falsification exposure, and calls DESI's next release the program's "nearest trial".
 
 ## The observable
 

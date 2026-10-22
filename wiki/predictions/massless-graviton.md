@@ -97,7 +97,7 @@ The row rests on the same step as [the palindrome](/wiki/gravity/palindromic-bra
 
 ## The data situation
 
-No observation has found a graviton mass, and the published limits are upper bounds [T]. The program's documents give a value for them only in calc note #7 §4, "m_g ≲ 10⁻²³ eV territory", and treat every such bound as met: "satisfied identically" (#11 §7.5). A tighter upper bound leaves the row where it is. #11 §15 names rows 1, 4 and 7 as the program's "genuine and near-term" falsification exposure; row 6 is not among them.
+No observation has found a graviton mass, and the published limits are upper bounds [T]. The program's documents give a value for them only in calc note #7 §4, "m_g ≲ 10⁻²³ eV territory", and treat every such bound as met: "satisfied identically" (#11 §7.5). A tighter upper bound leaves the row where it is. #11 §15 names rows 1, 4 and 7 as the program's near-term falsification exposure; row 6 is not among them.
 
 ## Related open questions
 

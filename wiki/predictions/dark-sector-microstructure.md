@@ -106,7 +106,7 @@ Both popular articles predate the retirement and still describe three answers: #
 
 - **The second candidate.** Calc note #6 opened the X-condensate as "A new door, deliberately left closed today: homogeneous oscillations of a massive spin-2 X are themselves a dark-matter candidate (cf. bigravity dark matter)", logged "as an open direction, not pursued. [O]" (`notes/debt1a-ii-X-classification.md` §4). [The lab notebook](/wiki/history/documents/lab-notebook)'s v0.4 addendum records it as "A new open direction: massive-X condensate as the dark matter itself". v1 listed it as open problem 7, "X-condensate as the dark matter itself (bigravity-DM-style), potentially eliminating χ and unifying the dark sector with the geometry [O — direction, deliberately unopened]" (#9 §10), and named it beside χ in row 7.
 - **The row.** v1's table has no row 11. #11 v2.0 added it with three candidates; v2.1 reduced it to two; v2.2 left it unchanged ([the history of the predictions table](/wiki/predictions/table-history#the-checkpoint-v21-after-round-3)).
-- **The assessment.** #11 §15's italic summary lists among the program's products "a two-way question about dark matter's nature with named discriminators; a third option, superheavy knots, was tested and retired".
+- **The assessment.** #11 §15's italic summary lists "a two-way question about dark matter's nature with named discriminators" among the program's products and adds that "a third option, superheavy knots, was tested and retired".
 
 ## Sources
 

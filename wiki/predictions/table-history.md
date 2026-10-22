@@ -27,7 +27,7 @@ sources:
   - "review/wiki-build-flags.md items 27, 32"
 ---
 
-*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Broken-Born program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the program's own Debt-3 calculation [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and the retired [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
+*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Broken-Born program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the Debt-3 calculation [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and the retired [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
 
 **Status:** Record — the tables themselves carry no [provenance tags](/wiki/method/provenance-tags) — #11 §13 is the current table; the tables of #1 §9 and #9 §9 are superseded and kept as the audit trail, and #11's own v2.0 table survives only in the repository's history.
 
@@ -61,7 +61,7 @@ The two withdrawn rows have obituaries beside the claims they tested: [Obituary:
 
 Two results of [Debt 1](/wiki/history/debts) changed the table.
 
-- **Row 1 softened.** [Calc note #6](/wiki/history/documents/debt-1-notes) [derived the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism) from exchange of [the momentum graviton X](/wiki/gravity/momentum-graviton) and found that generic vertices give power-law-tailed gates; its "Honest downgrade to the flagship" turned the cliff into a knee (`notes/debt1a-ii-X-classification.md` §4). Addendum v0.4 amends row 1: "the exponential cliff weakens to a *sharp knee at v\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). The requirement "cliff at v\* ~ 120 km/s" became "Knee at v\* ~ 10² km/s", and the kill condition "v > 3v\*" became "v ≫ v\*" ([row 1](/wiki/predictions/self-interaction-knee#superseded-the-exponential-cliff-of-v01)).
+- **Row 1 softened.** [Calc note #6](/wiki/history/documents/debt-1-notes) [derived the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism) from exchange of [the momentum graviton X](/wiki/gravity/momentum-graviton) and found that generic vertices give power-law-tailed gates, which turned the cliff into a knee (`notes/debt1a-ii-X-classification.md` §4). Addendum v0.4 amends row 1: "the exponential cliff weakens to a *sharp knee at v\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). The requirement "cliff at v\* ~ 120 km/s" became "Knee at v\* ~ 10² km/s", and the kill condition "v > 3v\*" became "v ≫ v\*" ([row 1](/wiki/predictions/self-interaction-knee#superseded-the-exponential-cliff-of-v01)).
 - **A graviton row.** Calc note #8 fixed the spectrum of the geometric sector. Addendum v0.6 gives the spectrum as "massless graviton = reciprocity-even, X = reciprocity-odd", with the Standard Model safe by the Yukawa range of X and the bounds from gravitational waves "satisfied identically by the massless eigenstate" (#1 'Addendum (v0.6)'; on the parities under #11 §6's Z → −Z⁻¹, see flag 39 in `review/wiki-build-flags.md`). v1 made this its new row 6 ([row 6, the exactly massless graviton](/wiki/predictions/massless-graviton); [spectrum and parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
 
 ## v1: ten rows again
@@ -106,8 +106,8 @@ The rows the documents single out have changed with the table.
 | Document | Rows singled out | As |
 | --- | --- | --- |
 | #1 §9 (v0.1) | 1, 3, 7 | "the flagship discriminants" |
-| #9 §11 (v1) | 1, 4, 7 | "Falsification exposure — genuine and near-term" |
-| #11 §15 | 1, 4, 7 | "Falsification exposure: genuine and near-term" |
+| #9 §11 (v1) | 1, 4, 7 | near-term falsification exposure |
+| #11 §15 | 1, 4, 7 | near-term falsification exposure |
 | #11 §15 | 3, 11 | "predictions not previously posed" |
 
 The v0.1 flagship row 3 is dead, and the cliff of flagship row 1 is now a knee. v1 lists among its progressive signs "novel predictions not previously posed (island discriminant; knee shape; even-eigenstate masslessness as a bimetric-parity statement)" (#9 §11). The program's overall standing is on [Assessment: a live research program](/wiki/program/assessment).

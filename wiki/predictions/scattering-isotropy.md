@@ -84,7 +84,7 @@ The sources stop at that sentence. None computes how isotropic and forward-peake
 
 ## The data situation
 
-No source records a measurement or a fit that tests the row. #11 §15 names rows 1, 4 and 7 as the program's "genuine and near-term" falsification exposure; row 2 is not among them. Neither popular article (#10, #12) mentions the angular pattern; #12's account of dark matter's self-interaction covers only the knee ([the popular articles](/wiki/history/documents/popular-articles)).
+No source records a measurement or a fit that tests the row. #11 §15 names rows 1, 4 and 7 as the program's near-term falsification exposure; row 2 is not among them. Neither popular article (#10, #12) mentions the angular pattern; #12's account of dark matter's self-interaction covers only the knee ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Particles only
 
