@@ -29,7 +29,7 @@ sources:
 
 The toy-model note, `papers/reciprocity-toy-models.md`, answers [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion): an action in which ρ, the exchange (x, p) → (p, −x), is a symmetry that the vacuum breaks, with η as order parameter ([the toy models](/wiki/symmetry-breaking/toy-models)). Before any construction the worklog fixed six [success criteria](/wiki/symmetry-breaking/toy-models/success-criteria): S0, a prior-art survey; S1, invariance of an explicit action, "verified symbolically"; S2, degenerate vacua that ρ permutes with no fixed point; S3, an order parameter built from η that is odd under ρ; S4, survival of the breaking under fluctuations in 1+1 dimensions, preferably shown by "a lattice simulation"; and S5, interactions local in the selected polarization, shown by "an explicit computation". The scripts check S1 to S5; S0 is literature work.
 
-The note's §6 lists its results as "Shown (each by executed code)". #11 records them in §14 item 11 and tags them [D][V] in §4 and §10.
+The note's §6 lists its results as "Shown (each by executed code)"; for one of them, the complex model's restoration under quantization, the code checks the premise and the conclusion is the analytic argument of §4 (see `verify/toy_gw.py` below). #11 records them in §14 item 11 and tags them [D][V] in §4 and §10.
 
 ## `verify/toy_coset.py`: model I
 
