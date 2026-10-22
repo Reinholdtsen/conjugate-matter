@@ -174,7 +174,10 @@ def slugify(text):
     """Approximate Hugo's default (GitHub-style) heading IDs."""
     text = re.sub(r"`([^`]*)`", r"\1", text)
     text = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", text)
-    text = re.sub(r"[*_~]", "", text)
+    text = re.sub(r"[*~]", "", text)
+    # An underscore that opens or closes emphasis (_word_) is markup and is dropped;
+    # one inside a word (M_X, S_H) is text, and Hugo keeps it in the ID.
+    text = re.sub(r"(?<!\w)_+(?=\w)|(?<=\w)_+(?!\w)", "", text)
     text = text.strip().lower()
     text = re.sub(r"[^\w\s-]", "", text)
     # Each whitespace character becomes its own dash; Hugo does not collapse runs.

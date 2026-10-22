@@ -78,7 +78,7 @@ e − f   →  −(e − f)       odd     X, mass M_X
 
 ### What the parity does to the bounds
 
-The graviton-mass bounds from gravitational waves "apply to the even eigenstate, which is exactly massless" (#8 §3), and #11 §7.5 calls them "satisfied identically". The bound is met for every value of the program's two remaining parameters, because the even combination has no mass term for a bound to constrain. The odd combination carries the whole mass M_X, and no document gives M_X a value ([no value for M_X](/wiki/gravity/momentum-graviton/spectrum-and-parity#no-value-for-mx)). The requirement is a structural statement, not a fit to data.
+The graviton-mass bounds from gravitational waves "apply to the even eigenstate, which is exactly massless" (#8 §3), and #11 §7.5 calls them "satisfied identically". The bound is met for every value of the program's two remaining parameters, because the even combination has no mass term for a bound to constrain. The odd combination carries the whole mass M_X, and no document gives M_X a value ([no value for M_X](/wiki/gravity/momentum-graviton/spectrum-and-parity#no-value-for-m_x)). The requirement is a structural statement, not a fit to data.
 
 ### X: massive, short-range, felt by matter
 
