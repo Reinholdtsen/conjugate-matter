@@ -29,7 +29,7 @@ sources:
 
 ## The two roles
 
-The root `CLAUDE.md` states the division: "Paul — conjecture, direction, veto. Claude — derivations, counterexamples, drafting, verification." `HANDOFF.md` §1 gives the same list and adds: "Attribution in all papers follows this split." Checkpoint #11 describes itself as "produced in dialogue between a human (intuition, direction, veto power) and an AI (derivation, counterexamples, drafting)" (§2).
+The root `CLAUDE.md` states the division: "Paul — conjecture, direction, veto. Claude — derivations, counterexamples, drafting, verification." `HANDOFF.md` §1 gives the same list and adds: "Attribution in all papers follows this split." [Checkpoint #11](/wiki/history/documents/checkpoint) describes itself as "produced in dialogue between a human (intuition, direction, veto power) and an AI (derivation, counterexamples, drafting)" (§2).
 
 **Conjecture and direction.** The program began from Paul's suppositions, and #11 keeps them on record with what became of each: Appendix A, "Audit of founding suppositions (P.R., with fates)", lists eleven, from "Symmetrize QM around conjugate variables" (QM being quantum mechanics), now the hard core, to "Matter clumps in momentum space", now "dead as dynamics" ([Founding suppositions and their fates](/wiki/program/founding-suppositions)). One fate quotes him directly: monopoles in the conjugate space survive as ontology, "alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero")" (Appendix A item 5).
 
@@ -42,11 +42,11 @@ The root `CLAUDE.md` and `HANDOFF.md` §7 give the line papers carry: "conjectur
 - #11's footer: "Provenance: conjecture and direction, P. R.; derivations, counterexamples, verification battery, and drafting, Claude (Anthropic)."
 - The v1 paper's provenance note, which names no verification role: "conjecture and direction by P. R.; derivations, counterexamples, and drafting by Claude (Anthropic)" (#9 §11). The verification battery entered with #11 ([The verification battery T1–T7](/wiki/method/verification/battery)).
 
-Among the current documents, #11 is the one that carries the line. #13 (`papers/conjugate-special-relativity.md`) has none, and the toy-model note is an "Anonymous working manuscript submitted for adversarial review", without names by design ([the blind-review protocol](/wiki/method/review/review-protocol)).
+Among the current documents, #11 is the one that carries the line. #13 ([conjugate special relativity](/wiki/conjugate-relativity)) has none, and the [toy-model note](/wiki/symmetry-breaking/toy-models) is an "Anonymous working manuscript submitted for adversarial review", without names by design ([the blind-review protocol](/wiki/method/review/review-protocol)).
 
 ## Paul
 
-"Paul is an independent developer (Stanford Ginzton Lab background in scanning acoustic microscopy, which is where the Fourier-domain intuition comes from). Never describe Paul as retired." (root `CLAUDE.md`). `HANDOFF.md` §7 records that he corrected this explicitly, and the handoff's inventory carries the same register note for the first popular article, #10 (§3). The Fourier-domain intuition is the source of the analogy the program uses most: position and momentum relate as a waveform and its spectrum, and the Fourier transform implements the Born rotation ρ exactly ([the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform)).
+"Paul is an independent developer (Stanford Ginzton Lab background in scanning acoustic microscopy, which is where the Fourier-domain intuition comes from). Never describe Paul as retired." (root `CLAUDE.md`). `HANDOFF.md` §7 records that he corrected this explicitly, and the handoff's inventory carries the same register note for the first [popular article](/wiki/history/documents/popular-articles), #10 (§3). The Fourier-domain intuition is the source of the analogy the program uses most: position and momentum relate as a waveform and its spectrum, and the Fourier transform implements the Born rotation ρ exactly ([the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform)).
 
 ## The calibration
 
@@ -63,7 +63,7 @@ Each element of the calibration has its page and its record:
 
 The record shows three ways a decision is taken.
 
-- **Paul decides.** During the revision of the soliton manuscript #14 the worklog records "**Decided (Paul, 2026-10-19):**" twice: moving the monopole benchmark to M ≈ 3×10¹³ GeV, and adopting a reading of which coupling sets the soliton mass (`review/v3-worklog.md`, items F1 and F2). It also records a problem he raised: "fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
+- **Paul decides.** During the revision of [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate) the worklog records "Decided (Paul, 2026-10-19):" twice: moving the monopole benchmark to M ≈ 3×10¹³ GeV, and adopting a reading of which coupling sets the soliton mass (`review/v3-worklog.md`, items F1 and F2). It also records a problem he raised: "fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
 - **Paul delegates.** After review round 3: "Paul delegated these on 2026-10-19 ("You make the decisions for me and give rational"). Claude made them. Paul keeps the veto." (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). #11's footer records the v2.1 amendments as "decisions delegated by P. R. to Claude". The toy-model worklog marks its route choices the same way, "Route decision for S4–S5 (Claude, under Paul's delegation)" and "Next (Claude's call, under Paul's delegation)" (`notes/toy-lagrangian.md`).
 - **Paul rules.** Suspected errors in the source documents found while building this wiki are quoted faithfully, not corrected; "each needs Paul's ruling" (`review/wiki-build-flags.md`).
 
