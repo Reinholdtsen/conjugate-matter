@@ -2,7 +2,7 @@
 title: "Goldstone modes and the Higgs mechanism"
 weight: 20
 status: established
-description: "Massless modes of broken continuous symmetries and their count from the Hessian, pseudo-Goldstone modes and flat directions no symmetry protects; gauge fields that absorb Goldstones and become massive, Stückelberg fields, and inverse-Higgs constraints — with the program's uses in model I and in the momentum graviton X."
+description: "Massless modes of broken continuous symmetries and their count from the Hessian, pseudo-Goldstone modes and flat directions no symmetry protects; gauge fields that absorb Goldstones and become massive, Stückelberg fields, and a summary of inverse-Higgs constraints — with the program's uses in model I and in the momentum graviton X."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §7.1"
@@ -124,9 +124,7 @@ A massive X also has a finite range. #11 §7.5 gives its couplings to ordinary m
 
 ## Inverse-Higgs constraints
 
-When spacetime symmetries such as translations and rotations are broken, the count of one Goldstone mode per broken generator can fail [T]. Some of the would-be Goldstone fields are not independent: a constraint, the inverse-Higgs constraint, expresses them as derivatives of the others, and they drop out. The standard example is a flat membrane. It breaks the translation perpendicular to itself and the rotations that would tilt it; but a tilt is just the slope of the displacement, so the rotations' would-be Goldstones are derivatives of the translation's, and only the displacement remains as an independent mode [T].
-
-The Debt-1 note expects this for the vacuum moduli of the broken geometry: "Field content on the broken vacuum: h_μν (10, graviton) ⊕ X_μν (10, momentum graviton) ⊕ Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O]) ⊕ matter." (#5 §D). Its closing list of open items includes "inverse-Higgs accounting of the nine heavy moduli" (#5 §F). #11 §14 does not carry the item; the wiki keeps it open. The nine heavy moduli also appear in the sketch of [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis). See [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content).
+When the broken symmetries act on spacetime, as translations and rotations do, an inverse-Higgs constraint can fix some would-be Goldstone fields as derivatives of others, so that there are fewer Goldstone modes than broken generators [T]. A flat membrane breaks the translation perpendicular to itself and the rotations that would tilt it, but its tilt is set by the slope of its displacement, and the displacement is its only independent mode. [Calc note #5](/wiki/history/documents/debt-1-notes) expects such constraints to act on the moduli of the broken vacuum, "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D), and lists the "inverse-Higgs accounting of the nine heavy moduli" as open (§F); no document works it out, and #11 §14 does not carry the item ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)). The count, the commutator criterion, the membrane and the dilaton, and the program's expectation are on [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints).
 
 ## Standard references
 
