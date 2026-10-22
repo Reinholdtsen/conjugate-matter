@@ -57,7 +57,7 @@ In the wiki's reading, Tier 3 is the program's own structural argument wherever 
 
 ## The selection-versus-derivation bias
 
-The bias, as #11 uses the term, is the gap between finding a structure and choosing it. Where the program needs a consistent structure at some step and the literature offers one, the program may adopt it and then describe the result as forced, when its own premises have only selected it from the known options. The check is to say which steps are selections. #11 states that the bias "is acknowledged explicitly where it operates (§7.4)".
+#11 does not define the term; in the wiki's reading, the bias is the gap between finding a structure and choosing it. Where the program needs a consistent structure at some step and the literature offers one, the program may adopt it and then describe the result as forced, when its own premises have only selected it from the known options. The check is to say which steps are selections. #11 states that the bias "is acknowledged explicitly where it operates (§7.4)".
 
 ### Where it operates
 
