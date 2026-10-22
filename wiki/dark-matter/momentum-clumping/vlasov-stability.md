@@ -41,13 +41,13 @@ For each plane wave the linearized Vlasov equation gives the response of the dis
 
 The loop then closes. The perturbation δf changes the mean field, which changes δε, which acts back on the particles. A self-sustaining mode exists at (k, ω) when the loop reproduces the δε it started from.
 
-When the pair interaction does not depend on momentum, as for gravity, the Coulomb force or a plain contact force, δε is the same for every particle at a given point: δε = Ũ(k) δn, where Ũ(k) is the Fourier transform of the pair interaction energy and δn = ∫d³p δf. The loop then reduces to one scalar condition, the dispersion relation [T]:
+When the pair interaction does not depend on momentum, as for gravity, the Coulomb force or a plain contact force, δε is the same for every particle at a given point: δε = Ũ(k) δn, where Ũ(k) is the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of the pair interaction energy and δn = ∫d³p δf. The loop then reduces to one scalar condition, the dispersion relation [T]:
 
 ```text
 1 + Ũ(k) ∫d³p (k·∇ₚf₀)/(ω − k·v) = 0
 ```
 
-For a Maxwellian f₀ the integral is written with the plasma dispersion function of Fried and Conte (1961)†, a tabulated function of the wave's phase velocity ω/k measured in units of the thermal speed [T]. The Debt-3 note debt3a reaches its broad-gate threshold by what it calls "standard plasma-function algebra" (3a, Limit 1) and does not show the steps.
+For a Maxwellian f₀ the integral is written with the plasma dispersion function of Fried and Conte (1961)†, a tabulated function of the wave's phase velocity ω/k measured in units of the thermal speed [T]. [The Debt-3 note](/wiki/history/documents/debt-3-notes) debt3a reaches its broad-gate threshold by what it calls "standard plasma-function algebra" (3a, Limit 1) and does not show the steps.
 
 The integral has a singularity where ω = k·v, at the particles that move with the wave's phase velocity. These resonant particles are where Landau damping comes from.
 
@@ -88,7 +88,7 @@ Debt 3 applies this to the gated collisions: "The H-theorem closes the collision
 
 ## Notation
 
-In Debt 3, ω and k are a frequency and a wavevector. They are not the symplectic form ω of the phase-space pages, and k is not the gate variable of [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), the incoming relative momentum. G denotes the gate in the Debt-3 notes, not Newton's constant, except where gravity is meant ([notation](/wiki/notation)).
+In Debt 3, ω and k are a frequency and a wavevector. They are not the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω of the phase-space pages, and k is not the gate variable of [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), the incoming relative momentum. G denotes the gate in the Debt-3 notes, not Newton's constant, except where gravity is meant ([notation](/wiki/notation)).
 
 ## References
 

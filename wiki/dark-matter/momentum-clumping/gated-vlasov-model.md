@@ -15,15 +15,16 @@ sources:
   - "notes/broken-born-theory.md §11 item 3"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 4"
+  - "review/wiki-build-flags.md item 17"
 ---
 
 *The gated Vlasov model is the simplified description of dark matter that [Debt 3](/wiki/history/debts) used to test [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image). Dark matter is treated as a smooth gas in position and momentum. Besides gravity, each particle feels an attraction only from neighbours whose momentum lies within a narrow window around its own, the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), and the attraction's range in space is shrunk to a point. Whether a small ripple in this gas grows then becomes an eigenvalue problem on momentum space, which the calculation brackets between a broad-gate limit and a narrow-gate limit instead of solving in general. The model also retired the earlier plan to race the growth of streams against orbital stirring, because below the threshold there is no growth to race.*
 
-**Status:** Method — the setup of `notes/debt3a-stream-stability.md`, which carries no tag of its own; it rests on standard [Vlasov stability theory](/wiki/dark-matter/momentum-clumping/vlasov-stability) [T]. Its Gaussian gate is an assumption, since [the gate's shape](/wiki/dark-matter/conjugate-matter/gate-shape) is open (#11 §14 item 4). The earlier "γ vs Ω" framing that it retired is superseded; see [the folded section below](#superseded-racing-stream-growth-against-orbital-stirring).
+**Status:** Method — the setup of `notes/debt3a-stream-stability.md`, which carries no tag of its own; it rests on standard [Vlasov stability theory](/wiki/dark-matter/momentum-clumping/vlasov-stability) [T]. Its Gaussian gate is an assumption, since [the gate's shape](/wiki/dark-matter/conjugate-matter/gate-shape) is open ([#11](/wiki/history/documents/checkpoint) §14 item 4). The earlier "γ vs Ω" framing that it retired is superseded; see [the folded section below](#superseded-racing-stream-growth-against-orbital-stirring).
 
 ## What the model is
 
-Debt 3's first note, 3a, opens: "Nonrelativistic mean-field (Vlasov) limit of the gated interaction." The dark-matter particles χ, of mass m, are described by a phase-space distribution f(x, p), which evolves by the Vlasov equation. Every particle moves with the single-particle energy (3a, Setup)
+Debt 3's first note, [3a](/wiki/history/documents/debt-3-notes), opens: "Nonrelativistic mean-field (Vlasov) limit of the gated interaction." The dark-matter particles χ, of mass m, are described by a phase-space distribution f(x, p), which evolves by the Vlasov equation. Every particle moves with the single-particle energy (3a, Setup)
 
 ```text
 ε(x, p) = p²/2m + mΦ_grav(x) − g ∫d³p′ G((p − p′)/μ) f(x, p′),
@@ -36,7 +37,7 @@ with "G the Gaussian gate, G(0)=1, attractive sign, and the x-range collapsed to
 - **mΦ_grav(x)** is ordinary gravity. The program's dark matter falls like everything else: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), where g in that quotation is the spacetime metric.
 - **The gated term** is the new physics. At the point x it adds up the particles present there, weighted by G((p − p′)/μ), which equals 1 when their momentum p′ matches the particle's own momentum p and falls off once the two differ by more than about μ. The minus sign makes the force attractive. Because the interaction's range 1/m_φ is microscopic, on the scale of a galaxy it acts only between particles at the same place: a contact interaction in position, with a window in momentum.
 
-The window is the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). Its width is μ in momentum; 3b restates it as "gate width v\* in relative velocity" (3b, Setup). The [lab notebook](/wiki/history/documents/lab-notebook) relates the two as v\* ≡ √2μ/m_χ (`notes/broken-born-theory.md` §5.1), a relation that #11 does not restate.
+The window is the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). Its width is μ in momentum; 3b restates it as "gate width v\* in relative velocity" (3b, Setup). The [lab notebook](/wiki/history/documents/lab-notebook) relates the two as v\* ≡ √2μ/m_χ (`notes/broken-born-theory.md` §5.1), a relation that #11 does not restate. The notebook wrote it for its own gate, e^{−k²/μ²}; a suspected factor of √2 in μ between the sources' gate conventions is recorded for a ruling in `review/wiki-build-flags.md` item 17 ([two conventions](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)).
 
 **The coupling g.** Its first form uses the coupling α̃ and the mediator mass m_φ of the gated scattering amplitude (#11 §8; [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)). Its second form expresses it through σ₀, the momentum-transfer cross-section at low velocity, which is what observations of dwarf-galaxy cores constrain. 3b restates the same relation as "σ₀ ≡ g²m²/π" (3b, Setup). Because the strength of a contact interaction is an energy times a volume, g carries the units GeV⁻² in the natural units of the notes, as in 3b's "g ≳ … ~ 10⁻³¹ GeV⁻²" (3b, 'The rate'). At the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), the fit to dwarf cores fixes σ₀/m and with it g; 3a says g is then "spent".
 
@@ -97,7 +98,7 @@ The second note, 3b, keeps the conventions: "Same conventions as Chunk A: σ₀ 
 
 - g is the gated coupling, in GeV⁻²; elsewhere in the wiki g is the spacetime metric.
 - G is the gate here; in 3b's gravity formulas it is Newton's constant.
-- ω and k are a frequency and a wavevector; elsewhere ω is the symplectic form and k the gate variable of the scattering law, the incoming relative momentum.
+- ω and k are a frequency and a wavevector; elsewhere ω is the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) and k the gate variable of the scattering law, the incoming relative momentum.
 - σ is a velocity dispersion; σ₀ is a cross-section.
 - X ≡ gn/(mσ²) in 3b is unrelated to the momentum graviton X, and Ω = 1/t_dyn is unrelated to a density parameter Ω_χ.
 - See [notation](/wiki/notation).
@@ -110,3 +111,4 @@ The second note, 3b, keeps the conventions: "Same conventions as Chunk A: σ₀ 
 - `notes/debt3b-wave-island.md` 'Setup' — the conventions carried to the wave island; 'What pins g? Two scenarios' — Γ_self ≳ Ω and the parameter X
 - `papers/broken-born-checkpoint-v2.md` §8 — the gate's mechanism and the equivalence principle; §14 item 4 — the open gate shape
 - `notes/broken-born-theory.md` §5.1 — v\* ≡ √2μ/m_χ; §5.2 — the anomalous velocity and the γ-versus-phase-mixing problem; §11 item 3 — the original open problem
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the gate conventions, awaiting a ruling

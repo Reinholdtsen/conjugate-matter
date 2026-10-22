@@ -22,15 +22,16 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "review/round3-adjudication.md 'Decisions'"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/wiki-build-flags.md items 19, 27"
 ---
 
-*The net theorem is the summary result of [Debt 3](/wiki/history/debts): in every part of the program's parameter space that survives, dark matter clumping by velocity is never a required phenomenon. For particle dark matter it cannot happen. For wave dark matter it was required only under one assumption about the coupling, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which observation rules out; with the coupling left free, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), it is merely optional. The theorem closes the test of the program's [founding image](/wiki/dark-matter/momentum-clumping/founding-image) with a [negative result](/wiki/method/negative-results), the kind of result the checkpoint counts among its most reliable. It covers collective dynamics only, so whether a single topological object could be localized in momentum is a separate, untested question.*
+*The net theorem is the summary result of [Debt 3](/wiki/history/debts): in every part of the program's parameter space that survives, dark matter clumping by velocity is never a required phenomenon. For particle dark matter it cannot happen. For wave dark matter it was required only under one assumption about the coupling, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which observation rules out; with the coupling left free, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), it is merely optional. The theorem closes the test of the program's [founding image](/wiki/dark-matter/momentum-clumping/founding-image) with a [negative result](/wiki/method/negative-results), the kind of result [the checkpoint](/wiki/history/documents/checkpoint) counts among its most reliable. It covers collective dynamics only, so whether a single topological object could be localized in momentum is a separate, untested question.*
 
 **Status:** Alive — [D] in #9 §7 ("Three results [D]"); #11 §9 states it as result (iii) without a separate tag, resting on (i) [D] and (ii) [D + T]. Collective dynamics only, at the level of the calc notes' mean-field and wave-kinetic estimates. Not machine-checked: no `verify/` script covers Debt 3.
 
 ## Statement
 
-As first stated, in the note that closed Debt 3, where BBT is the Broken-Born framework (`notes/debt3c-ufd-endpoint.md`, 'Verdict and closure of Debt 3'):
+As first stated, in [the note that closed Debt 3](/wiki/history/documents/debt-3-notes), where BBT is the Broken-Born framework (`notes/debt3c-ufd-endpoint.md`, 'Verdict and closure of Debt 3'):
 
 > **Nowhere in the viable parameter space of BBT is velocity-space clumping a mandatory phenomenon.** It is forbidden for classical-particle χ, fatal where it would have been mandatory (Scenario A), and merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction).
 
@@ -44,7 +45,7 @@ The parameter space divides first by mass, through [the classicality theorem](/w
 
 ### Forbidden: classical particles [D]
 
-On the particle island, dark-matter particles with masses of MeV to GeV, the stream instability needs the attraction energy of co-moving particles to reach their kinetic energy. At the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is fixed by dwarf-galaxy cores, [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹. Below threshold there is no growth, and collisions only drive the gas toward a Maxwellian. Meeting the criterion at fixed cross-section per mass would need m ≲ 0.1 meV, where about 10²⁰ quanta share each state and dark matter is a wave (#11 §9 (i)). 3a's summary: "Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework."
+On the particle island, dark-matter particles with masses of MeV to GeV, the stream instability needs the attraction energy of co-moving particles to reach their kinetic energy. At the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is fixed by dwarf-galaxy cores, [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹. Below threshold there is no growth, and collisions only drive the gas toward a Maxwellian. Meeting the criterion at fixed cross-section per mass would need m ≲ 0.1 meV, where about 10²⁰ quanta share each state and dark matter is a wave (#11 §9 (i); on the regime in which Debt 3a evaluates that mass, see flag 19 in `review/wiki-build-flags.md`). 3a's summary: "Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework."
 
 ### Fatal: the committed wave [D + T]
 
@@ -52,7 +53,7 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 
 ### Decorative: the free wave
 
-Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), dwarf cores come from something else, "fuzzy-end quantum pressure at m ~ 10⁻²² eV, or baryonic feedback", and the coupling is free (3b). The first option lies below the wave island's lower edge of 3×10⁻¹⁹ eV, which 3c draws from the fuzzy-dark-matter bounds; neither note addresses this, and the question is unresolved. The stream condition then holds over a window of the mean-field parameter X ≡ gn/(mσ²): "MW numbers, m = 0.1 meV: window X ∈ [5×10⁻¹¹, 1] — ten orders of magnitude. **Verdict B: streams are *tunable*, not mandatory.**" (3b, where MW is the Milky Way). Streams can be switched on or off by choosing the coupling, so their presence or absence tests nothing. 3b: "on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag." #11 §15 lists the "tunable wave-island collective sector (quarantined)" among the program's degeneration risks ([Lakatosian methodology](/wiki/method/lakatosian-methodology)).
+Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), dwarf cores come from something else, "fuzzy-end quantum pressure at m ~ 10⁻²² eV, or baryonic feedback", and the coupling is free (3b). The first option lies below the wave island's lower edge of 3×10⁻¹⁹ eV, which 3c draws from the fuzzy-dark-matter bounds; neither note addresses this, and the question is unresolved. The stream condition then holds over a window of the mean-field parameter X ≡ gn/(mσ²): "MW numbers, m = 0.1 meV: window X ∈ [5×10⁻¹¹, 1] — ten orders of magnitude. **Verdict B: streams are *tunable*, not mandatory.**" (3b, where MW is the Milky Way). Streams can be switched on or off by choosing the coupling, so their presence or absence tests nothing. 3b: "on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag." #11 §15 lists the "tunable wave-island collective sector (quarantined)" among the program's [degeneration risks](/wiki/program/assessment) ([Lakatosian methodology](/wiki/method/lakatosian-methodology)).
 
 ### Why the legs cover the viable space
 
@@ -60,16 +61,16 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 
 ## What it withdrew
 
-3c: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." These are the [lab notebook](/wiki/history/documents/lab-notebook)'s rows, [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity in halos, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), suppressed dynamical friction in condensed dwarf cores. 3b had kept a "surviving descendant of old rows 3–4", a signature in ultra-faint dwarfs; it died with Scenario A. #11 §13 lists both rows under "Withdrawn with cause" ([history of the predictions table](/wiki/predictions/table-history)).
+3c: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." These are the [lab notebook](/wiki/history/documents/lab-notebook)'s rows, [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity in halos, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), suppressed [dynamical friction](/wiki/dark-matter/halo-astrophysics/halo-substructure) in condensed dwarf cores. 3b had kept a "surviving descendant of old rows 3–4", a signature in ultra-faint dwarfs; it died with Scenario A. #11 §13 lists both rows under "Withdrawn with cause" ([history of the predictions table](/wiki/predictions/table-history)).
 
 ## What survives
 
 #11 §9: "Salvage: the **island discriminant** (knee shape: sharp cutoff ⇒ particle χ; (v\*/σ)⁴ ⇒ wave χ) and free relic abundance via misalignment on the wave island".
 
-- [The island discriminant](/wiki/predictions/island-discriminant), row 3 of the current predictions table. The self-interaction of particle dark matter switches off sharply above v\*, while on the wave island the condensation rate falls as (v\*/σ)⁴, a power law. The shape of the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) would therefore tell the two islands apart. The particle side assumes the Gaussian tail of the notes, which #11 §8 now leaves open.
+- [The island discriminant](/wiki/predictions/island-discriminant), row 3 of the current [predictions table](/wiki/predictions). The self-interaction of particle dark matter switches off sharply above v\*, while on the wave island the condensation rate falls as (v\*/σ)⁴, a power law. The shape of the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) would therefore tell the two islands apart. The particle side assumes the Gaussian tail of the notes, which #11 §8 now leaves open.
 - [Relic abundance by misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic) on the wave island.
 
-3c's longer list of what "remains distinctively BBT's own" adds "the exponential cliff + in-gate isotropy (particle island)", which #11 §8 has since turned into a knee with an open tail ([row 1](/wiki/predictions/self-interaction-knee), [row 2](/wiki/predictions/scattering-isotropy)); "the dark-energy sector (thawing, no-phantom, turnaround — live at DESI DR3)", with [DESI](/wiki/cosmology/dark-energy/desi) the Dark Energy Spectroscopic Instrument and DR3 its Data Release 3; and "the permanent nulls (direct detection, monopoles, linear dispersion)". The dark-energy item has since come under pressure from DESI's Data Release 2 (DR2): the root `CLAUDE.md` records that "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1" and that "The dark-energy sector is under real pressure ahead of DR3" ([the phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
+3c's longer list of what "remains distinctively BBT's own" adds "the exponential cliff + in-gate isotropy (particle island)", which #11 §8 has since turned into a knee with an open tail ([row 1](/wiki/predictions/self-interaction-knee), [row 2](/wiki/predictions/scattering-isotropy)); "the dark-energy sector (thawing, no-phantom, turnaround — live at DESI DR3)", with [DESI](/wiki/cosmology/dark-energy/desi) the Dark Energy Spectroscopic Instrument and DR3 its Data Release 3 (whether the stated potential can turn negative, as [the turnaround](/wiki/cosmology/dark-energy/potential-sign) needs, is flag 27 in `review/wiki-build-flags.md`); and "the permanent nulls (direct detection, monopoles, linear dispersion)". The dark-energy item has since come under pressure from DESI's Data Release 2 (DR2): the root `CLAUDE.md` records that "DESI DR2 favors a phantom crossing above z ≈ 0.4, against the framework's strict w ≥ −1" and that "The dark-energy sector is under real pressure ahead of DR3" ([the phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
 
 ## Scope
 
@@ -79,7 +80,7 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 
 ## Weight as evidence
 
-#11 §2: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." Tier 3 is the checkpoint's class of "novel structural physics", held at "plausibility-tier reasoning" ([claim tiers](/wiki/method/claim-tiers); [negative results](/wiki/method/negative-results)). The round-3 adjudication used the Debt-3 obituary as the precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate): "a dead claim is reported prominently and stays dead" (`review/round3-adjudication.md`, 'Decisions').
+#11 §2: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." Tier 3 is the checkpoint's class of "novel structural physics", held at "plausibility-tier reasoning" ([claim tiers](/wiki/method/claim-tiers); [negative results](/wiki/method/negative-results)). [The round-3 adjudication](/wiki/method/review/round-3/decisions) used the Debt-3 obituary as the precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate): "a dead claim is reported prominently and stays dead" (`review/round3-adjudication.md`, 'Decisions').
 
 ## Record
 
@@ -98,3 +99,4 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's "Net" summary
 - `review/round3-adjudication.md` 'Decisions' — the Debt-3 obituary as precedent
 - `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure" since the second data release
+- `review/wiki-build-flags.md` items 19, 27 — the regime of the classicality corollary; the sign of the dark-energy potential; both awaiting a ruling

@@ -22,7 +22,7 @@ sources:
 
 *Velocity-space granularity was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that the dark matter of a relaxed galaxy halo, such as the Milky Way's, is split into of order ten broad streams, each with its own velocity and coherent over kiloparsec distances, and that their gravity leaves correlated ripples along thin streams of stars. It was row 3 of the notebook's [prediction table](/wiki/predictions/table-history) and one of its three flagship discriminants. It rested on the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping, so when [Debt 3](/wiki/history/debts) showed that clumping is impossible for particle dark matter and never mandatory for wave dark matter, the row was withdrawn permanently, on both islands. The current table's row 3 is a different prediction, [the island discriminant](/wiki/predictions/island-discriminant).*
 
-**Status:** Dead — "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands" (`notes/debt3c-ufd-endpoint.md`); #11 §13 lists "velocity-space granularity in halos" under "Withdrawn with cause". Untagged in the sources. Killed with the founding image by Debt 3, whose summary is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands" (`notes/debt3c-ufd-endpoint.md`); [#11](/wiki/history/documents/checkpoint) §13 lists "velocity-space granularity in halos" under "Withdrawn with cause". Untagged in the sources. Killed with the founding image by Debt 3, whose summary is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -37,7 +37,7 @@ Row 3 of the lab notebook's prediction table (`notes/broken-born-theory.md` §9)
 | Requirement of the framework | "Fragmentation into O(10) macro-streams of width ~v\*, coherent over kpc; long-wavelength correlated perturbations of cold stellar streams (GD-1, Pal 5) vs. ΛCDM's localized subhalo gaps" |
 | Kill condition | "Gaia DR4/Rubin stream power spectra consistent with smooth-halo + point-subhalo model only" |
 
-DM is dark matter, ΛCDM the standard cosmology with a cosmological constant and cold dark matter, and v\* the width of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), about 120 km/s in the notebook. Gaia DR4 is the fourth data release (Data Release 4) of the Gaia astrometry mission, and Rubin is the Vera C. Rubin Observatory's survey [T].
+DM is dark matter, ΛCDM the [standard cosmology](/wiki/cosmology) with a cosmological constant and cold dark matter, and v\* the width of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), about 120 km/s in the notebook. Gaia DR4 is the fourth data release (Data Release 4) of the Gaia astrometry mission, and Rubin is the Vera C. Rubin Observatory's survey [T].
 
 ### What it would have meant for observations
 
@@ -64,7 +64,7 @@ The notebook named the missing step and tied it to this row. Open problem 3: "St
 
 ### Particle island: no streams form
 
-For dark-matter particles of MeV to GeV mass, [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for streams fails at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) by a ratio of about 10⁻³¹ in the Milky Way's halo near the Sun and 10⁻²⁸ in dwarf cores (3a). Below threshold the velocity distribution is stable, and collisions only drive it toward a Maxwellian. 3a withdrew the row on this island: "Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them." (3a, 'Consequences for the predictions table').
+For dark-matter particles of MeV to GeV mass, [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for streams fails at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) by a ratio of about 10⁻³¹ in the Milky Way's halo near the Sun and 10⁻²⁸ in dwarf cores ([3a](/wiki/history/documents/debt-3-notes)). Below threshold the velocity distribution is stable, and collisions only drive it toward a Maxwellian. 3a withdrew the row on this island: "Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them." (3a, 'Consequences for the predictions table').
 
 ### Wave island: never mandatory
 

@@ -27,11 +27,12 @@ sources:
   - "HANDOFF.md §2"
   - "popsci/angle-of-the-mirror.md 'The wager'"
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
+  - "review/wiki-build-flags.md items 16, 19"
 ---
 
 *Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The program's own Debt-3 calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics and stays dead.*
 
-**Status:** Dead — killed by [Debt 3](/wiki/history/debts): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) (#11 §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and the handoff lists it under "Dead (killed by own calculations — keep dead)". No `verify/` script checks any Debt-3 number. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — killed by [Debt 3](/wiki/history/debts): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([#11](/wiki/history/documents/checkpoint) §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and [the handoff](/wiki/history/documents/handoff) lists it under "Dead (killed by own calculations — keep dead)". No `verify/` script checks any Debt-3 number. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -72,7 +73,7 @@ Row 3 was one of the notebook's three "flagship discriminants". Its parameter co
 
 The notebook left one step undone and said so: "The growth rate γ versus orbital phase-mixing remains to be computed; it is the theory's most important undone calculation on the astrophysics side. **[O]**" (§5.2). Its open-problem list carries it as item 3, the stream-instability growth rate, which "determines whether Prediction 3's granularity survives in Milky-Way-like halos" (§11).
 
-That calculation became Debt 3, one of the [three debts](/wiki/history/debts) the program owed, and three short calc notes paid it ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)):
+That calculation became Debt 3, one of the program's [three debts](/wiki/history/debts), and three short calc notes carried it out ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)):
 
 1. `notes/debt3a-stream-stability.md` built [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model), the notebook's mean-field picture made explicit with a Gaussian gate and a contact interaction, and computed its stability threshold with standard [Vlasov stability theory](/wiki/dark-matter/momentum-clumping/vlasov-stability). Result: "negative on the particle island, with a structural corollary."
 2. `notes/debt3b-wave-island.md` followed the corollary to very light, wave-like dark matter and computed the gated [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) there. Result: "rate derived, environments evaluated, verdict reached."
@@ -88,7 +89,7 @@ The checkpoint's summary: "Mean-field criterion g·n_gate ≥ m·min(σ,v\*)² f
 
 ### The corollary: collective behaviour requires a wave [D]
 
-Meeting the criterion at fixed cross-section per mass "forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9 (i)): at such masses about 10²⁰ quanta share each quantum state, and dark matter is a classical wave, not a gas of particles. This is [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem). The notebook's χ was a classical particle, at a benchmark mass of about 70 MeV (`notes/broken-born-theory.md` §5.1); for classical particles the instability does not occur.
+Meeting the criterion at fixed cross-section per mass "forces m ≲ 0.1 meV, where N_occ ~ 10²⁰" (#11 §9 (i); on the regime in which Debt 3a evaluates that mass, see flag 19 in `review/wiki-build-flags.md`): at such masses about 10²⁰ quanta share each quantum state, and dark matter is a classical wave, not a gas of particles. This is [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem). The notebook's χ was a classical particle, at a benchmark mass of about 70 MeV (`notes/broken-born-theory.md` §5.1); for classical particles the instability does not occur.
 
 ### Waves: fatal where mandatory [D + T]
 
@@ -105,15 +106,15 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 
 #11 §9: "Salvage: the **island discriminant** (knee shape: sharp cutoff ⇒ particle χ; (v\*/σ)⁴ ⇒ wave χ) and free relic abundance via misalignment on the wave island".
 
-- **[The island discriminant](/wiki/predictions/island-discriminant)**, now row 3 of the predictions table. The sharpness of the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) in the self-interaction cross-section would tell particle dark matter from wave dark matter. #11 §13 lists it as "(not previously posed)".
+- **[The island discriminant](/wiki/predictions/island-discriminant)**, now row 3 of [the predictions table](/wiki/predictions). The sharpness of the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) in the self-interaction cross-section would tell particle dark matter from wave dark matter. #11 §13 lists it as "(not previously posed)".
 - **[Relic abundance by misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)** on the wave island, which removes the notebook's relic-abundance problem there.
 - **The loophole.** Debt 3 tested collective dynamics only. #11 App. A item 3 records: "**loophole**: topological p-localization of individual solitons untested, and its candidate is retired (§12)". The candidate was the superheavy soliton, whose [obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) is in the candidates section; the loophole now "remains untested, but has no candidate" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
-The program kept the result prominent. The round-3 adjudication cites it as the precedent for retiring the soliton candidate: "The program's precedent is the Debt 3 obituary: a dead claim is reported prominently and stays dead." (`review/round3-adjudication.md`, 'Decisions'). The checkpoint counts such results as the most reliable of its novel, Tier-3 claims: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them" (#11 §2; [negative results](/wiki/method/negative-results)).
+The program kept the result prominent. [The round-3 adjudication](/wiki/method/review/round-3/decisions) cites it as the precedent for retiring the soliton candidate: "The program's precedent is the Debt 3 obituary: a dead claim is reported prominently and stays dead." (`review/round3-adjudication.md`, 'Decisions'). The checkpoint counts such results as the most reliable of its novel, [Tier-3](/wiki/method/claim-tiers) claims: "Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them" (#11 §2; [negative results](/wiki/method/negative-results)).
 
 ## Where the records differ
 
-- **The handoff's check mark.** The handoff writes "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion#verification-record)).
+- **The handoff's check mark.** The handoff writes "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion#verification-record)); the unbacked mark is flag 16 in `review/wiki-build-flags.md`.
 - **The notebook's body.** The lab notebook's §5.2 and its prediction table were never edited and still read the instability and rows 3–4 as live; the addendum v0.2 records their death ([the lab notebook](/wiki/history/documents/lab-notebook)). The tag "[D at mean-field level; O beyond]" on §5.2 asserted the instability; 3a found its threshold missed by 28–31 orders of magnitude.
 - **The plain-language passages** of #9 §7 and #11 §9 describe the image as "dark matter flocking by velocity" and round the shortfall to "a factor of a million trillion trillion" (#9) and "thirty orders of magnitude" (#11). The popular article #10 retells the death in 'The killing fields', rounding the shortfall to "a factor of ten to the thirtieth"; it is never a status source ([the popular articles](/wiki/history/documents/popular-articles)).
 
@@ -128,3 +129,4 @@ The program kept the result prominent. The round-3 adjudication cites it as the 
 - `notes/broken-born-program-v1.md` §7 — the first consolidation's obituary
 - `HANDOFF.md` §2 — "keep dead", and the unbacked ✓
 - `popsci/angle-of-the-mirror.md` 'The wager', 'The killing fields' — the popular image and retelling (not a status source)
+- `review/wiki-build-flags.md` items 16, 19 — the ✓ without a script; the regime of the classicality corollary; both awaiting a ruling

@@ -19,15 +19,16 @@ sources:
   - "HANDOFF.md §3 row 2"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "notes/broken-born-theory.md §5.3"
+  - "review/wiki-build-flags.md item 19"
 ---
 
 *The classicality theorem says that dark matter coupled strongly enough to clump in velocity must be so light that it behaves as a wave, not as a collection of separate particles. It follows from the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion): at the scattering strength that fits dwarf-galaxy cores, the criterion can be met only for masses below about 0.1 meV, and at such masses about 10²⁰ quanta share each quantum state, which is the regime of a classical wave. The program therefore splits dark matter into two regimes: a particle island, with χ masses of MeV to GeV, where dark matter scatters but cannot clump, and a [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of far lighter masses. The theorem is derived at mean-field level and stands.*
 
-**Status:** Alive — [D] (#11 §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script covers any [Debt-3](/wiki/history/debts) number.
+**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script covers any [Debt-3](/wiki/history/debts) number.
 
 ## Statement
 
-3a, 'Corollary (the classicality theorem)':
+[3a](/wiki/history/documents/debt-3-notes), 'Corollary (the classicality theorem)':
 
 > By the time the coupling is strong enough for collective behavior, the sector is deep in the wave regime. Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework. This is a theorem-grade statement at mean-field level, not a benchmark accident.
 
@@ -60,7 +61,7 @@ Setting the criterion equal to 1 gives the mass below which streams could form (
 m_crit = [√(πS) ρ/σ²]^{2/5} ≈ 10⁻¹³ GeV ~ 0.1 meV      (Milky Way conditions)
 ```
 
-At the benchmark mass m_χ = 70 MeV the criterion falls short by 10²⁸–10³¹ ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)); lowering the mass at fixed S closes the gap only at m_crit.
+The scaling is the broad-gate form of the criterion, evaluated at Milky Way conditions; see [Scope](#scope) and flag 19 in `review/wiki-build-flags.md`. At the benchmark mass m_χ = 70 MeV the criterion falls short by 10²⁸–10³¹ ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)); lowering the mass at fixed S closes the gap only at m_crit.
 
 ### Step 3: the occupation number at that mass
 
@@ -92,7 +93,7 @@ Here BBT is the Broken-Born framework and SIDM is [self-interacting dark matter]
 
 ## The wave island
 
-The other side of the theorem is the range of very light masses, where N_occ ≫ 1 and dark matter is a wave. 3a: "**Wave island** (m_χ ≲ meV, N_occ ≫ 1): the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams". Its treatment needs [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics) rather than the Vlasov equation, and it has its own section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island).
+The other side of the theorem is the range of very light masses, where N_occ ≫ 1 and dark matter is a wave. 3a: "**Wave island** (m_χ ≲ meV, N_occ ≫ 1): the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams". Its treatment needs [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics) rather than [the Vlasov equation](/wiki/dark-matter/momentum-clumping/vlasov-stability), and it has its own section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island).
 
 The island's upper edge is written differently in the three notes: "m_χ ≲ meV" (3a), "m ≲ 0.1 meV" (3b, Setup), and 10⁻⁴ eV in 3c's final range, "roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings". 3c's range closed Debt 3 and is the one this wiki uses.
 
@@ -100,7 +101,7 @@ The island's upper edge is written differently in the three notes: "m_χ ≲ meV
 
 - **Mean-field level.** The theorem rests on the mean-field criterion, which is itself bracketed by two limits rather than solved in general ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)).
 - **Fixed σ₀/m.** The scaling holds the cross-section per unit mass at its dwarf-core value; #11 §9 states the premise as "at fixed σ₀/m". On the wave island the question becomes a [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) instead of this criterion, and under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) the coupling is free instead of fixed.
-- **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV. The scaling has the broad-gate form, with σ² in the denominator, while 3a's Limit 2 places the Milky Way in the narrow-gate regime and its benchmark table evaluates the Milky Way row with v\*; the note does not discuss the difference.
+- **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV. The scaling has the broad-gate form, with σ² in the denominator, while 3a's Limit 2 places the Milky Way in the narrow-gate regime and its benchmark table evaluates the Milky Way row with v\*; the note does not discuss the difference. Flag 19 in `review/wiki-build-flags.md` records it and notes that N_occ ≫ 1 either way, so the conclusion is unchanged.
 - **Two normalizations of N_occ.** 3a writes N_occ = ρ/(m⁴σ³), and 3b's Setup does the same, but 3b's rate formula uses a "peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³)". The notes do not reconcile the two; at 10²⁰ ≫ 1 the factor does not affect the conclusion.
 
 ## What stays open
@@ -110,7 +111,7 @@ The island's upper edge is written differently in the three notes: "m_χ ≲ meV
 
 ## Record
 
-The theorem appears in every later summary in the same form: #9 §7 item 1 ("collective momentum-space behavior and classical-particle dark matter are mutually exclusive"), #11 §9 (i), and the handoff's artifact table, which describes 3a as giving the "classicality theorem (collective behavior ⇒ wave DM, m ≲ 0.1 meV)" (`HANDOFF.md` §3, row 2), where DM is dark matter.
+The theorem appears in every later summary in the same form: #9 §7 item 1 ("collective momentum-space behavior and classical-particle dark matter are mutually exclusive"), #11 §9 (i), and [the handoff](/wiki/history/documents/handoff)'s artifact table, which describes 3a as giving the "classicality theorem (collective behavior ⇒ wave DM, m ≲ 0.1 meV)" (`HANDOFF.md` §3, row 2), where DM is dark matter.
 
 **A word collision.** "Island" here names a mass regime of Debt 3. It is unrelated to the "consistency islands" of the gravity sector ([glossary](/wiki/glossary)).
 
@@ -123,3 +124,4 @@ The theorem appears in every later summary in the same form: #9 §7 item 1 ("col
 - `notes/broken-born-program-v1.md` §7 — the theorem in the first consolidation
 - `HANDOFF.md` §3 row 2 — the artifact summary of 3a
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's summary; §5.3 — the particle-side relic problem
+- `review/wiki-build-flags.md` item 19 — the regime in which 3a evaluates the corollary, awaiting a ruling
