@@ -1,0 +1,7 @@
+{{- /*
+  Override of the theme's partial, which prints "page title | site title". The
+  wiki's own home page, /wiki/, is titled with the site's name (wiki/_index.md),
+  so its browser title read "X | X". A page titled like the site now gets the
+  site title once.
+*/ -}}
+{{ with partial "docs/title" . }}{{ if ne . $.Site.Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title -}}
