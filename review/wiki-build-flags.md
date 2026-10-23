@@ -276,4 +276,16 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     `c1_symbolic.py`–`c5_convexity.py` with `cosmo.py`).
    **Audit (2026-10-22): confirmed by 2 independent checks (one steelmanning the documents, one recomputing from scratch).** Both found the algebra right and the observation absent from every document. Both found the quadrant shared with the never-phantom field's own fits. The steelman adds that the corridor's slope, not its quadrant, keeps it away from DR2's crossing; #11 §10's defence is consistent with this.
 
+44. **Minor, not yet audited: "Without the gauge invariance" (#6 §2).** `notes/debt1a-ii-X-classification.md`
+    line 21: "Without the gauge invariance, no ghost-free two-derivative kinetic term for a
+    Lorentz-covariant symmetric tensor exists … [T — standard]". Read literally, the full
+    linearized diffeomorphism invariance is not needed: a kinetic term invariant only under the
+    transverse diffeomorphisms (∂^μξ_μ = 0) plus Weyl rescalings, as in linearized unimodular
+    gravity, is ghost-free (van der Bij, van Dam and Ng 1982 †; Álvarez, Blas, Garriga and
+    Verdaguer 2006 †). That is still a gauge symmetry, so the program's conclusion, that X must be
+    gauged, is unaffected; only "the gauge invariance" overstates. Raised by the verifier of
+    `wiki/gravity/spin-2-fields/signature-obstruction.md`, which states the exception; the
+    references are from model memory.
+   **Audit (2026-10-22): not yet audited.** Raised after the flag audit; it has had one check (the page verifier's sympy check that the transverse-diffeomorphism-plus-Weyl term is not invariant under the full linearized diffeomorphisms), not two independent refuters.
+
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs.

@@ -1,6 +1,6 @@
 # Wiki build — rulings worksheet
 
-*One entry for each of the 43 flags in [wiki-build-flags.md](wiki-build-flags.md): the text as it
+*One entry for each of the 44 flags in [wiki-build-flags.md](wiki-build-flags.md): the text as it
 stands, a proposed correction, and what would follow from accepting it. The proposals come from
 each flag and its audit; where these leave a choice, the entry sets out the options. Prepared
 2026-10-22. Line numbers refer to the files at commit 0990cc3.*
@@ -2744,3 +2744,27 @@ Neither auditor proposes wording, so the audit **states no preference between A 
   - Outside this flag, one auditor noticed related wording elsewhere. The toy note (abstract, §4), #11 §10 and adjudication F2 attribute the naive potential's instability to H being dynamical. At λ = μ = 1 the −6.47 saddle is mostly a K direction (94.7%), so that attribution holds only for λ ≥ 4μ. The statements are still true as written, since with H dynamical the potential is unbounded for every λ. No change is proposed.
 
 **Ruling:** ☐ accept ☐ reject ☐ modify — notes:
+
+### Flag 44: "Without the gauge invariance" (#6 §2)
+
+**Audit:** not yet audited (raised after the audit by one page verifier)
+
+**Where it appears:** `notes/debt1a-ii-X-classification.md` line 21 (§2)
+
+**Now reads:**
+> Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]
+
+**Proposed:**
+> Without a gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (…). [T — standard]
+
+Option A: the one-word change above ("the" → "a"), which keeps the conclusion and admits the
+smaller transverse-diffeomorphism-plus-Weyl symmetry of linearized unimodular gravity. Option B: no
+change. Before ruling, the two † references should be checked (they are from model memory).
+
+**If accepted, also:**
+- Wiki pages (1): `wiki/gravity/spin-2-fields/signature-obstruction.md` (its "full gauge symmetry against none" bullet).
+- Executed check: none (wording only).
+- Also: add the two references to the † literature battery (OP10).
+
+**Ruling:** ☐ accept ☐ reject ☐ modify — notes:
+
