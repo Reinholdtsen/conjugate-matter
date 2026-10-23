@@ -26,7 +26,7 @@ below gives their paths.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
 - [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`.
-- [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand; no domain is chosen yet. Building, checking, previewing and deploying are in `site/CLAUDE.md`.
+- [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. No domain is chosen yet. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
 Read order for a fresh session: #11 → HANDOFF §6 →
 [review/round3-adjudication.md](review/round3-adjudication.md) → calc notes
@@ -67,9 +67,10 @@ scripts get wired into it.
 
 The site's own pre-deploy gate is `npm run check` in `site/`: `scripts/check.sh`,
 then the Hugo build, which fails on a link to a missing page, then
-`scripts/check-site.py`, which checks every link and `#fragment` in the built
-HTML. `check-site.py` needs a built site, so it runs there and not in
-`scripts/check.sh`. Nothing is deployed with a red check.
+`scripts/check-site.py`, which checks every link, asset and `#fragment` in the
+built HTML, that every wiki page was built, and that each heading has the ID
+`scripts/check-wiki.py` computes. `check-site.py` needs a built site, so it runs
+there and not in `scripts/check.sh`. Nothing is deployed with a red check.
 
 First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
 

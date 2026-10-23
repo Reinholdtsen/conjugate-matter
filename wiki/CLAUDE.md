@@ -259,7 +259,9 @@ gate checks for this. Code spans and `text` fences need no escaping.
   Hugo's GitHub-style IDs: lowercase, punctuation dropped, each space a hyphen. Letters of
   any script and `_` stay, but subscript and superscript digits are dropped: the heading
   "What w₀ and wₐ mean" has the slug `what-w-and-wₐ-mean`. The gate computes slugs the
-  way Hugo does.
+  way Hugo does. Headings are plain text, and code spans in them are fine. A link,
+  emphasis or a `{#id}` block in a heading fails the gate: Hugo builds such a heading's ID
+  from only part of its text, or takes the `{#id}`, and the gate does not reproduce that.
 - Every page is linked from its parent section's map, which the gate checks. Aim for at
   least 3 inbound links from other pages; `scripts/check-wiki.py --stats` lists the
   pages short of that.
@@ -281,9 +283,9 @@ spells out new acronyms, or reports them to be added.
 
 ## The gate
 
-`scripts/check-wiki.py` runs inside `scripts/check.sh` and checks links, anchors,
-section maps, source paths, frontmatter, the italic opening, the status line, fences and
-acronyms. Run it on the files you touched with
+`scripts/check-wiki.py` runs inside `scripts/check.sh` and checks links, anchors, markup
+in headings, section maps, source paths, frontmatter, the italic opening, the status line,
+fences and acronyms. Run it on the files you touched with
 `.venv/bin/python scripts/check-wiki.py wiki/x/y.md`; links still resolve wiki-wide.
 `scripts/check.sh` must pass before work is called finished. Do not weaken a check to
 make it pass.
@@ -292,8 +294,10 @@ make it pass.
 
 `site/` builds this folder into a static site: Hugo mounts `wiki/` as `content/wiki`, so
 pages are written here and never copied into `site/`. Building, checking, previewing and
-deploying are in `site/CLAUDE.md`. The site's gate, `npm run check` in `site/`, runs
-`scripts/check.sh` first, then checks every link and anchor in the built HTML.
+deploying are in `site/CLAUDE.md`. Paul publishes by hand: `npx wrangler login` once per
+machine, then `npm run deploy` in `site/`. Its gate, `npm run check`, runs
+`scripts/check.sh` first, then builds the site and checks every link and anchor in the
+HTML, that every page was built, and that every heading got the ID this gate computes.
 
 ## Keeping it current
 

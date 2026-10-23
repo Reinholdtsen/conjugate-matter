@@ -25,6 +25,8 @@ sources:
   - "review/wiki-build-checks/README.md"
   - "review/wiki-build-flags.md items 16, 33, 38"
   - "wiki/CLAUDE.md 'The gate'"
+  - "site/CLAUDE.md 'The gate'"
+  - "scripts/check-site.py"
   - "HANDOFF.md §2"
 ---
 
@@ -86,16 +88,17 @@ The gate covers less than the record contains. These are outside it:
 `scripts/check-wiki.py` applies the conventions of `wiki/CLAUDE.md` to every page. Its docstring lists the checks in order of severity:
 
 - **link** — an internal link points at a page that does not exist, or is not an absolute /wiki/ link;
-- **anchor** — a link points at a heading that does not exist;
+- **anchor** — a link points at a heading that does not exist, with each heading's anchor computed the way Hugo computes it;
+- **heading** — a heading holds a link, an image, a bare web address, emphasis or an attribute block such as `{#id}`, for which Hugo builds the anchor from only part of the heading's text or takes it from the block, so the script cannot compute it;
 - **map** — a page is not linked from its parent section's index;
 - **source** — a frontmatter source, or a repository path in inline code, names a missing file;
-- **frontmatter**, **weight**, **section** — missing or invalid fields, siblings sharing a weight, a folder without an index or a file named claude.md;
+- **frontmatter**, **weight**, **section** — missing or invalid fields, siblings sharing a weight, a folder without an index, a file named claude.md, or two files that serve at one address;
 - **gist**, **statusline** — the page's opening: the italic passage and the status line;
 - **star** — an unescaped starred symbol such as v\*, whose asterisk can end an italic passage early;
 - **h1**, **fence** — no top-level heading, and a language on every code fence;
 - **acronym** — an acronym that is unregistered, or used without its expansion nearby or a link (registry: `scripts/wiki-acronyms.txt`).
 
-Its reason for existing, from the docstring: "Hugo does not validate internal links: it renders /wiki/does-not-exist without complaint. This script is the only thing standing between a renamed page and a silent 404." Given file names, it reports only on those files while resolving links across the whole wiki; with `--stats` it also prints status counts and the pages with fewer than three inbound links from outside their parent's map.
+Its reason for existing, from the docstring: "Hugo does not validate internal links: it renders /wiki/does-not-exist without complaint. This script catches a dead link in the Markdown, before any build." Two later checks belong to the gate of the site that publishes the wiki, `npm run check` in `site/` (`site/CLAUDE.md`): the build fails on a link to a missing page, and `scripts/check-site.py` checks the built pages, among other things that every heading got the anchor this script computes. Given file names, it reports only on those files while resolving links across the whole wiki; with `--stats` it also prints status counts and the pages with fewer than three inbound links from outside their parent's map.
 
 It checks form, not content. It does not compare a page's numbers, quotations, tags or statuses with the source documents; that comparison was the work of the wiki build's verifiers, whose suspected source errors are in `review/wiki-build-flags.md` with executed checks in `review/wiki-build-checks/`.
 
@@ -109,7 +112,7 @@ The commit history records each change:
 - **2026-10-19, commit 96f58da.** After round 3, knot_numbers.py was given the corrected inputs and independent anchors, and the commit message records the consequence: "scripts/check.sh fails on v3's affected claims, by design, until v3 is revised or withdrawn."
 - **2026-10-19, commit 5b6efaa.** The manuscript was withdrawn and knot_numbers.py replaced by `verify/soliton_obituary.py`. The adjudication's 'Decisions' explains why this is not a weakened check: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything." The commit message: "the gate is green again because the withdrawn paper no longer claims anything."
 - **2026-10-19, commits 0e0f51e to 56485d3.** The four toy-model scripts were added chunk by chunk as the models were built.
-- **2026-10-20, commit 17e1338.** `scripts/check-wiki.py` was added ("Add the wiki gate: links, anchors, section maps, sources, page shape"); on 2026-10-21 it began checking starred symbols (commit b970e9d; [timeline](/wiki/history/timeline)).
+- **2026-10-20, commit 17e1338.** `scripts/check-wiki.py` was added ("Add the wiki gate: links, anchors, section maps, sources, page shape"); on 2026-10-21 it began checking starred symbols (commit b970e9d; [timeline](/wiki/history/timeline)). On 2026-10-22 it began computing heading anchors as Hugo does (commit b41f199), then rejecting headings whose anchors it cannot compute (commit 503d34d) and two files that serve at one address (commit 5540adc).
 
 ## A recorded run
 
@@ -142,4 +145,5 @@ The output of each script is quoted on its page, in full except for parts A and 
 - `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` items 16, 33, 38 — the wiki build's checks, outside the gate; the Debt-3 check mark; the soliton script's claimed coverage; the Layout's two scripts
 - `HANDOFF.md` §2 — the ✓ on the Debt-3 figure
 - `wiki/CLAUDE.md` 'The gate' — how the wiki check is run
-- Git history: commits 008c3ee, 678e48a, d15cd4a, 5dbaa82, 96f58da, 5b6efaa, 0e0f51e, 56485d3 and 17e1338 — the growth of the script list
+- `site/CLAUDE.md` 'The gate' and `scripts/check-site.py` — the site's later checks
+- Git history: commits 008c3ee, 678e48a, d15cd4a, 5dbaa82, 96f58da, 5b6efaa, 0e0f51e, 56485d3, 17e1338, b970e9d, b41f199, 503d34d and 5540adc — the growth of the script list and of the wiki check

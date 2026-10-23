@@ -26,8 +26,9 @@ mounts.
   the hugo-book params (`BookSection = 'wiki'`, `BookPortableLinks = 'error'`).
 - `content/_index.md` — the home page.
 - `layouts/` — `single.html`, `list.html` and `home.html` render the page title
-  as the h1, which hugo-book does not do. A file here shadows the theme's file of
-  the same name.
+  as the h1, which hugo-book does not do; `_partials/docs/html-head-title.html`
+  keeps a page titled like the site (`/wiki/`) from reading "X | X" in the
+  browser title. A file here shadows the theme's file of the same name.
 - `themes/hugo-book` — the theme, a git submodule pinned to v13
   (`cec082b8dd9b31d0c52b2de95d86ced9909cc7ec`, the commit
   `bitsy-services/wiki` uses). Do not edit it.
@@ -74,37 +75,49 @@ Hugo itself validates no Markdown links, so links are checked in three layers:
 1. **`scripts/check-wiki.py`, on the Markdown.** Every `/wiki/...` link must name
    a page and every `#fragment` a heading. It computes heading IDs the way Hugo
    does: subscript and superscript digits are dropped, so the heading
-   "What w₀ and wₐ mean" has the ID `what-w-and-wₐ-mean`.
+   "What w₀ and wₐ mean" has the ID `what-w-and-wₐ-mean`. A heading must be
+   plain text (code spans are fine): Hugo builds the ID of a heading with a link
+   or emphasis from only part of its text, and a `{#id}` block replaces it, so
+   the check rejects those.
 2. **`BookPortableLinks = 'error'`, in the build.** hugo-book's link render hook
    resolves every internal Markdown link through `.Page.GetPage` to the page's
    URL, so the `/wiki/...` links also work under a baseURL with a subpath, and a
    link to a page that does not exist fails the build. Its message reads
    "Image reference '…' not found" even for a page link. It does not check
    `#fragments`.
-3. **`scripts/check-site.py`, on the HTML.** Every internal `<a href>` in the
-   built site must resolve to a built file and every `#fragment` to an id on the
-   target page. It also covers the links the theme generates (menu, table of
-   contents), and it is the authority where layer 1's ID emulation and Hugo
-   disagree.
+3. **`scripts/check-site.py`, on the HTML.** Every internal `href` and `src` in
+   the built site must resolve to a built file and every `#fragment` to an id on
+   the target page, which covers the links the theme generates (menu, table of
+   contents) and its assets. Every page must have one h1, every page of `wiki/`
+   must be built and no CLAUDE.md may be, and every wiki heading must have the
+   ID that layer 1 computes, so a difference between layer 1's emulation and
+   Hugo (after a Hugo upgrade, say) fails here even before a link targets that
+   heading. A run that finds no pages or no links fails.
 
 Do not weaken any layer to make a build pass. Fix the link.
 
 ## Deploying (manual)
 
 ```sh
-npx wrangler login     # once per machine
+npx wrangler login     # once per machine: authorizes wrangler in the browser
 npm run deploy         # from site/: the gate, then wrangler deploy
 ```
 
-Without routes, the Worker serves on its `workers.dev` subdomain. Nothing
-deploys automatically.
+`npx wrangler whoami` shows the account wrangler is logged in to. Without
+routes, the Worker serves at `https://conjugate-matter-wiki.<subdomain>.workers.dev`;
+if the account has no `workers.dev` subdomain yet, the first deploy offers to
+register one. Nothing deploys automatically.
 
 ## Adding a domain
 
 1. In `wrangler.jsonc`, add after the `assets` block (the comment there shows
    it): `"routes": [{ "pattern": "<domain>", "custom_domain": true }]`. The
-   domain's zone must be on the same Cloudflare account; the deploy creates the
-   DNS record.
+   domain's zone must be active on the same Cloudflare account, and the
+   hostname must not already have a CNAME record; the deploy creates the DNS
+   record and the certificate. A custom domain matches one hostname exactly, so
+   `www.<domain>` needs an entry of its own to serve too. Once routes are set,
+   a deploy turns the `workers.dev` URL off, unless `"workers_dev": true` is
+   added.
 2. In `hugo.toml`, set `baseURL = 'https://<domain>/'`.
 3. `npm run deploy`.
 
