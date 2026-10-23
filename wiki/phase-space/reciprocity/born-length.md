@@ -7,6 +7,7 @@ sources:
   - "papers/conjugate-special-relativity.md §1"
   - "papers/conjugate-special-relativity.md Abstract"
   - "papers/conjugate-special-relativity.md §4"
+  - "papers/conjugate-special-relativity.md §6"
   - "papers/conjugate-special-relativity.md §7"
   - "papers/conjugate-special-relativity.md References [3]–[4]"
   - "notes/broken-born-theory.md §2"
@@ -66,7 +67,7 @@ Three facts follow [T]:
 
 - **The choice ε = ℏ/λ absorbs ℏ.** In the scaled coordinates the commutator is [ξ, π] = i, so ℏ disappears into the units and one free scale remains, λ ([the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)).
 - **Kinematics singles out no λ.** The commutator [x, p] = iℏ is unchanged by the map above for every value of λ, because the two conversion factors cancel. Quantum kinematics is invariant under each of these quarter-turns, and the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform), written in the scaled coordinates of a given λ, implements the corresponding one.
-- **A law of motion can single one out.** A law of motion that is unchanged by one of these maps must contain that map's length, either as a constant of its own or built from its constants. The harmonic oscillator is the standard example: its mass and frequency, with ℏ, give a length that sets the width of its ground state, and in units of that length and of ℏ divided by it the oscillator's evolution is a rigid rotation of phase space, a quarter-period of which is the Fourier transform. That length belongs to one oscillator, and a different oscillator has a different one.
+- **A law of motion can single one out.** A law of motion that is unchanged by one of these maps and not by the others must contain that map's length, either as a constant of its own or built from its constants. The harmonic oscillator is the standard example: its mass and frequency, with ℏ, give a length that sets the width of its ground state, and in units of that length and of ℏ divided by it the oscillator's evolution is a rigid rotation of phase space, a quarter-period of which is the Fourier transform. That length belongs to one oscillator, and a different oscillator has a different one.
 
 In ordinary quantum mechanics the reference length is therefore a convenience, chosen to suit the system at hand.
 
@@ -90,7 +91,7 @@ In #13 the length's first job is to give the momentum-space light cone a slope (
 |dp/dt| ≤ c̃ = ε/(λ/c) = ℏc/λ²        (#13 §1)
 ```
 
-c̃ = ε/(λ/c) reads as one unit of momentum ε per light-crossing time λ/c, the time light takes to cross one Born length. Counted in units of λ and ε, the two bounds are the same: in the time λ/c a light signal crosses one unit of length, and the momentum of a body moving at the dual bound changes by one unit of momentum (the wiki's reading of the formula). #13 gives the bound without deriving it from the phase-space metric. The formula contains no free quantity other than λ, so the value of the maximum force is a statement about λ.
+c̃ = ε/(λ/c) reads as one unit of momentum ε per light-crossing time λ/c, the time light takes to cross one Born length. Counted in units of λ and ε, the two bounds are the same: in the time λ/c a light signal crosses one unit of length, and the momentum of a body moving at the dual bound changes by one unit of momentum (the wiki's reading of the formula). #13 gives the bound without further derivation from the phase-space metric. The formula contains no free quantity other than λ, so the value of the maximum force is a statement about λ.
 
 ### The Planck identification
 
@@ -115,13 +116,14 @@ The step carries no tag. #13 gives no argument for it beyond the sentence quoted
 
 - **λ_χ, the invariant length of a conjugate quantum.** #13 §4 states that "conjugate quanta are characterized by an irreducible extent λ_χ as ours are by mass", and reads μ ~ ℏ/λ_χ as the gate scale of the dark-matter sector, in a sentence whose combination of two gate conventions is flag 17 in `review/wiki-build-flags.md` ([the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell)). λ_χ labels a particle, as a mass does; the Born length enters c̃, one bound for every trajectory. `HANDOFF.md` §2 writes "invariant length λ", §4 asks "whether invariant length λ and dual charge lock together", and the v3 worklog's item O3 says that "#13 §4 labels conjugate quanta by an invariant length λ instead of a mass": in all three, "invariant length" is #13's term for λ_χ. #13 gives no value for λ_χ.
 - **M_B, the lab notebook's mass scale.** #1 §3 writes its geometric action as S_H = ½M_B² ∫ √|H| R_B[H], whose metric block "reproduces the Einstein–Hilbert action with M_P fixed by M_B and the section volume" [D, schematic] ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)); #1 is superseded as a reference. #1 contains both λ and M_B and relates them nowhere, and no other document relates them.
-- **Other uses of the letter.** The documents also write λ for couplings, gauge parameters and a Yukawa range ([notation](/wiki/notation)).
+- **Other uses of the letter.** The documents also write λ for couplings and gauge parameters, and the wiki writes it for the range of a fifth force ([notation](/wiki/notation)).
 
 ## What is open
 
 - **The factor of 4.** With λ at the Planck length, c̃ = c⁴/G is four times the conjectured maximum force c⁴/4G of the general-relativity literature ([maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures)). #13 §1: "The factor of 4 is not fixed here [O]"; §7 lists "the factor 4" first among its open items. #13 does not say what would fix it ([Open: the factor of 4](/wiki/conjugate-relativity/maximum-force#open-the-factor-of-4)).
+- **The two dual cones.** λ sets the slope c̃ of #13 §1's dual cone, which lies in time and momentum. #13 §6 instead calls E = c|p| "the dual null cone", a cone in energy and momentum with slope c, which the v3 worklog's item O3 assigns to the unbuilt four-dimensional Born map; the item asks to "fix #13's two cones and settle which construction governs" before any paper claims more ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
 - **The value of λ.** No document derives λ from the program's action or tests the identification with the Planck length. The identification is not among #13 §7's open items, #11 §14's open problems or the current queue in the root `CLAUDE.md`; it stands as an untagged step in an unreviewed paper.
-- **Born's papers.** Whether Born's 1938 and 1949 papers state the hope for a fundamental length as #13 quotes it awaits the source check of [the † literature battery](/wiki/method/literature-battery) (OP10).
+- **Born's papers.** Whether Born's 1938 and 1949 papers state the hope for a fundamental length as #13 describes it awaits the source check of [the † literature battery](/wiki/method/literature-battery) (OP10).
 
 The program's open items are collected in [open problems and the queue](/wiki/status/open-problems).
 
@@ -131,10 +133,10 @@ The program's open items are collected in [open problems and the queue](/wiki/st
 
 ## Sources
 
-- `papers/conjugate-special-relativity.md` §1 — the Born length, ε = ℏ/λ, the bound c̃ = ε/(λ/c) = ℏc/λ², the Planck identification and the boxed value, the open factor of 4; Abstract — "at the Planck value of the Born length"; §4 — Born's hope, λ_χ and the Planck closure [D]; §7 — the numerical anchors and the open list; References [3]†, [4]† — Born 1938 and 1949
+- `papers/conjugate-special-relativity.md` §1 — the Born length, ε = ℏ/λ, the bound c̃ = ε/(λ/c) = ℏc/λ², the Planck identification and the boxed value, the open factor of 4; Abstract — "at the Planck value of the Born length"; §4 — Born's hope, λ_χ and the Planck closure [D]; §6 — E = c|p| as "the dual null cone"; §7 — the numerical anchors and the open list; References [3]†, [4]† — Born 1938 and 1949
 - `notes/broken-born-theory.md` §2 — the reference length λ and momentum ε = ℏ/λ scaled out of the standard forms; §3 — the mass scale M_B (superseded as a reference)
 - `HANDOFF.md` §2 — the alive listing and "invariant length λ"; §4 — "D_x = D_p in Planck units" and the invariant length and dual charge (chat-only)
-- `review/v3-worklog.md` 'New open items', item O3 — the invariant length written λ
+- `review/v3-worklog.md` 'New open items', item O3 — the invariant length written λ, and #13's two dual cones
 - `review/round3/referee/audit-notes.md` Step 1 — the partial check of Born's papers
 - `papers/broken-born-checkpoint-v2.md` §14 — the open problems, none of which concerns λ
 - `CLAUDE.md` 'Layout' — #13 as a current reference; 'Since the handoff' — the current queue
