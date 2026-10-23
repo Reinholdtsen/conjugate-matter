@@ -121,7 +121,7 @@ The standard cosmological model, ΛCDM, describes a spatially flat universe cont
 
 ### Testing for a departure from w = −1
 
-A survey tests Λ by fitting a dark energy whose w may differ from −1 and asking whether the data prefer w = −1. A constant w is the simplest alternative. A changing w is usually summarized by the two-parameter Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a = 1 today, in which Λ is the single point (w₀, wₐ) = (−1, 0) ([what w₀ and wₐ mean](/wiki/cosmology/dark-energy/cpl-parametrization#what-w₀-and-wₐ-mean)).
+A survey tests Λ by fitting a dark energy whose w may differ from −1 and asking whether the data prefer w = −1. A constant w is the simplest alternative. A changing w is usually summarized by the two-parameter Chevallier–Polarski–Linder (CPL) form w(a) = w₀ + wₐ(1 − a), with a = 1 today, in which Λ is the single point (w₀, wₐ) = (−1, 0) ([what w₀ and wₐ mean](/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean)).
 
 w is not observed directly. It enters distances and expansion rates through integrals over the expansion history, and it is inferred by fitting a model to them together with the model's other parameters ([from distances to w(z)](/wiki/cosmology/dark-energy/desi#from-distances-to-wz-t)). A w below −1 can therefore appear in a fit because the assumed background model is wrong rather than because the dark energy itself is phantom, with a density that grows as space expands, which is the distinction the program's kill condition draws ([intrinsic against inferred](/wiki/cosmology/dark-energy/phantom-divide#intrinsic-against-inferred)).
 

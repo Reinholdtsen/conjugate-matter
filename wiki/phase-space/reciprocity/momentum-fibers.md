@@ -71,7 +71,7 @@ In general relativity the fiber over an event x holds the four-momenta of partic
 g^μν(x) p_μ p_ν = m²c²
 ```
 
-a hyperboloid inside the fiber over x ([the mass shell](/wiki/program/borns-question#the-mass-shell); [special relativity](/wiki/conjugate-relativity/special-relativity#four-momentum-the-mass-shell-and-e--mc²-t)) [T]. Free fall uses the same inverse metric. With the function ½ g^μν(x) p_μ p_ν as the Hamiltonian, Hamilton's equations are
+a hyperboloid inside the fiber over x ([the mass shell](/wiki/program/borns-question#the-mass-shell); [special relativity](/wiki/conjugate-relativity/special-relativity#four-momentum-the-mass-shell-and-e--mc-t)) [T]. Free fall uses the same inverse metric. With the function ½ g^μν(x) p_μ p_ν as the Hamiltonian, Hamilton's equations are
 
 ```text
 dx^μ/ds = g^μν p_ν          dp_μ/ds = −½ (∂_μ g^αβ) p_α p_β

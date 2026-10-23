@@ -61,7 +61,7 @@ Dividing the Planck energy by the Planck length cancels ℏ, and so does dividin
 E_Planck / l_P  =  M_Pl c / t_P  =  c⁴/G
 ```
 
-Up to a pure number, c⁴/G is the only force that can be built from c and G alone, and it is called the Planck force [T]. Because it contains no ℏ, a limit on force of this form is a statement about classical gravity. The maximum-force conjecture of the general-relativity literature, c⁴/4G, is a pure number times it ([maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures#why-c⁴g-is-a-force-t)).
+Up to a pure number, c⁴/G is the only force that can be built from c and G alone, and it is called the Planck force [T]. Because it contains no ℏ, a limit on force of this form is a statement about classical gravity. The maximum-force conjecture of the general-relativity literature, c⁴/4G, is a pure number times it ([maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures#why-cg-is-a-force-t)).
 
 ### A length and a momentum whose product is ℏ
 

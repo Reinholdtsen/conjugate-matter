@@ -69,7 +69,7 @@ A field that starts near the top of its potential is held almost still while the
 
 > "**Thawing shape.** Hilltop initial conditions give w ≈ −1 in the past, rising now: w₀ > −1, wₐ < 0, on the standard thawing corridor wₐ ≈ −1.5(1 + w₀)." **[T]**
 
-[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie ([thawing models in the w₀–wₐ plane](/wiki/cosmology/dark-energy/cpl-parametrization#thawing-models-in-the-w₀wₐ-plane)); neither #1 nor #11 cites a source for it. Flag 43 in `review/wiki-build-flags.md` records that every point of the corridor has w₀ > −1 and w₀ + wₐ < −1, the region in which a CPL line passes below −1 in the past and in which DR2's fits lie, and that no document says so ([below](#the-data-situation-under-real-pressure)).
+[The tag](/wiki/method/provenance-tags) is [T]: thawing is a property of hilltop fields in general, not a result of the program ([how τ behaves](/wiki/cosmology/dark-energy/tau-quintessence#how-τ-behaves-thawing-from-the-hilltop)). The corridor is a line in the (w₀, wₐ) plane near which thawing models lie ([thawing models in the w₀–wₐ plane](/wiki/cosmology/dark-energy/cpl-parametrization#thawing-models-in-the-wwₐ-plane)); neither #1 nor #11 cites a source for it. Flag 43 in `review/wiki-build-flags.md` records that every point of the corridor has w₀ > −1 and w₀ + wₐ < −1, the region in which a CPL line passes below −1 in the past and in which DR2's fits lie, and that no document says so ([below](#the-data-situation-under-real-pressure)).
 
 ### Never phantom
 
