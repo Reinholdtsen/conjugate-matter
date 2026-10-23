@@ -89,6 +89,7 @@ entries below keep this order.
 | 37 | The README's "missing magnetic monopoles" | Confirmed (1 check) | `README.md` |
 | 38 | Stale details in the root CLAUDE.md and the gate's header | Confirmed (1 check) | Root `CLAUDE.md`, `scripts/check.sh` |
 | 40 | "Bounded only at frozen H" in the root CLAUDE.md | Convention or reading (2 checks) | Root `CLAUDE.md` (Option A) |
+| 44 | "Without the gauge invariance" in #6 §2 | Not yet audited | #6 |
 
 ## Entries
 
