@@ -80,7 +80,7 @@ A massless X would therefore be a second massless graviton that interacts, which
 
 > Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]
 
-(#6 §2.) #11 states it as "ungauged X by Lorentz signature" (§7.1), and its abstract counts "a signature obstruction" among the structural results that force X to be massive (§1); calc note #7 uses the same name (§5). The result, what it assumes and its literature are on [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction).
+(#6 §2; on "the gauge invariance", read literally, see flag 44 in `review/wiki-build-flags.md`, not yet audited: a smaller gauge symmetry also suffices, and the conclusion that X must be gauged is unaffected.) #11 states it as "ungauged X by Lorentz signature" (§7.1), and its abstract counts "a signature obstruction" among the structural results that force X to be massive (§1); calc note #7 uses the same name (§5). The result, what it assumes and its literature are on [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction).
 
 ### What it says [T]
 

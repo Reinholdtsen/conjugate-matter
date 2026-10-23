@@ -71,7 +71,7 @@ So X carries "a *second copy of linearized diffeomorphisms*" (#6 §2): the same 
 
 Calc note #6 §2 continues: "Two consistency facts then close the door on the massless option":
 
-- "Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]"
+- "Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]" Read literally, "the gauge invariance" overstates: a smaller gauge symmetry also suffices (flag 44 in `review/wiki-build-flags.md`, not yet audited).
 - "With the gauge invariance, X is a second **massless** spin-2 — and massless multi-graviton cross-interactions are inconsistent (Boulanger–Damour–Gualtieri–Henneaux). X must couple (to g through the Siegel structure, to χ through the gate), so decoupling is not available. [T]"
 
 "**Therefore X must be massive.**" The first fact is [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction), the second the multi-graviton no-go theorem. The assembled argument, with what each fact assumes, is [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain).

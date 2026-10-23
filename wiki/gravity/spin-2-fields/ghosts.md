@@ -136,6 +136,8 @@ Calc note #5 posed the nature of the momentum graviton as a classification with 
 
 > Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]
 
+Read literally, "the gauge invariance" overstates: a smaller gauge symmetry also gives a ghost-free term ([the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction); flag 44 in `review/wiki-build-flags.md`, not yet audited).
+
 In this page's terms, without its gauge symmetry the kinetic matrix of a symmetric tensor has negative directions, the mixed components, and only the constraints that come with the gauge symmetry keep them from propagating ([the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction)). The checkpoint states the exclusion in one clause, "ungauged X by Lorentz signature" (#11 §7.1, [D + T]). With [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go), which excludes a second massless graviton that interacts, it leaves X a mass as its one option ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)).
 
 **The health criterion.** #6 §3, in a section tagged [D — structural]:
