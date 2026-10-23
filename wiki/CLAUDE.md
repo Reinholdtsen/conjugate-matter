@@ -252,11 +252,14 @@ gate checks for this. Code spans and `text` fences need no escaping.
   The prefix is a settled choice (Paul, 2026-10-22), matching `bitsy-services/wiki`; do not
   switch forms. The trade-off: these links do not resolve when the raw Markdown is browsed
   (on GitHub, for example). In a Hugo site they work as written at the domain root. Under a
-  subpath they work once `[markup.goldmark.renderHooks.link] enableDefault = true` is set in
-  `hugo.toml` (tested on Hugo 0.159).
+  subpath they work in `site/`, whose `BookPortableLinks = 'error'` resolves each link to its
+  page's URL (`site/CLAUDE.md`).
 - Link every wiki concept on its first mention on each page. When the concept is a
   section of a larger page, deep-link the section (`/wiki/a/b#heading-slug`). Slugs are
-  GitHub-style: lowercase, punctuation dropped, each space a hyphen.
+  Hugo's GitHub-style IDs: lowercase, punctuation dropped, each space a hyphen. Letters of
+  any script and `_` stay, but subscript and superscript digits are dropped: the heading
+  "What w₀ and wₐ mean" has the slug `what-w-and-wₐ-mean`. The gate computes slugs the
+  way Hugo does.
 - Every page is linked from its parent section's map, which the gate checks. Aim for at
   least 3 inbound links from other pages; `scripts/check-wiki.py --stats` lists the
   pages short of that.
@@ -284,6 +287,13 @@ acronyms. Run it on the files you touched with
 `.venv/bin/python scripts/check-wiki.py wiki/x/y.md`; links still resolve wiki-wide.
 `scripts/check.sh` must pass before work is called finished. Do not weaken a check to
 make it pass.
+
+## Publishing
+
+`site/` builds this folder into a static site: Hugo mounts `wiki/` as `content/wiki`, so
+pages are written here and never copied into `site/`. Building, checking, previewing and
+deploying are in `site/CLAUDE.md`. The site's gate, `npm run check` in `site/`, runs
+`scripts/check.sh` first, then checks every link and anchor in the built HTML.
 
 ## Keeping it current
 
