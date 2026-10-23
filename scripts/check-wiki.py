@@ -6,6 +6,9 @@ Checks, in order of severity:
   link         an internal link points at a wiki page that does not exist, or
                is not an absolute /wiki/ link
   anchor       a link points at a heading that does not exist
+  heading      a heading holds a link, an image, a bare URL, emphasis or an
+               attribute block, whose ID the gate does not compute (Hugo uses
+               only part of the marked-up text, or the {#id})
   map          a page is not linked from its parent section's _index.md
   source       a frontmatter `sources` entry, or an inline-code repo path in the
                body, names a file that does not exist
@@ -29,8 +32,8 @@ the build on a link to a missing page, and scripts/check-site.py checks every li
 and #fragment in the built HTML (see site/CLAUDE.md).
 
 Anchors are checked against heading IDs computed the way Hugo computes them (see
-slugify). That is an emulation; the built-site check is the authority on the IDs
-Hugo actually writes.
+slugify), for every heading the `heading` check lets through. That is an
+emulation; the built-site check is the authority on the IDs Hugo actually writes.
 
 Exit status is 1 if any error is found, 0 otherwise.
 
@@ -42,10 +45,11 @@ Usage:
 """
 
 import csv
-import html
 import re
+import string
 import sys
 import unicodedata
+from html.entities import html5
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -58,7 +62,10 @@ STATUSES = {
 }
 
 FENCE_RE = re.compile(r"^(\s*)(`{3,}|~{3,})(.*)$")
-HEADING_RE = re.compile(r"^(#{1,6})\s+(.*?)\s*#*\s*$")
+# An ATX heading, as CommonMark reads it: up to three spaces, one to six #, then a
+# space or tab or the end of the line. Group 2 is the text; a closing run of #
+# counts only after a space or tab, so "C#" keeps its #.
+HEADING_RE = re.compile(r"^ {0,3}(#{1,6})(?:[ \t]+|$)(.*?)[ \t]*(?:(?<=[ \t])#+[ \t]*)?$")
 # Markdown inline links: [text](target). Image links (![...]) are skipped. The
 # text may hold one level of brackets, as in [The polarization frame E₀[J]](...);
 # a pattern that stopped at the first ']' would never see such a link.
@@ -84,16 +91,38 @@ REPO_PATH_RE = re.compile(
 # narrow for the expansion to be in another paragraph.
 BIND_WINDOW = 180
 
-# Heading markup, as slugify strips it. A code span is `code` or ``co`de``.
-CODE_SPAN_RE = re.compile(r"(`+)(.+?)(?<!`)\1(?!`)")
-HTML_TAG_RE = re.compile(r"<!--.*?-->|</?[A-Za-z][A-Za-z0-9-]*(?:\s[^<>]*)?/?>")
+# Heading markup, as slugify strips it (code spans: code_spans()). A backslash
+# before markup makes it plain text. Raw HTML as goldmark recognizes it (an open
+# or closing tag, a comment, a processing instruction, a declaration, CDATA) and
+# the typographer's << and >> are matched in one left-to-right pass: whichever
+# starts first wins, as in goldmark, so <b>>> is a tag and then ».
+HTML_OR_GUILLEMET_RE = re.compile(
+    r"(?<!\\)(?:<[A-Za-z][A-Za-z0-9-]*(?:[ \t]+[A-Za-z_:][A-Za-z0-9:._-]*"
+    r"(?:[ \t]*=[ \t]*(?:[^\"'=<>`\x00-\x20]+|'[^']*'|\"[^\"]*\"))?)*[ \t]*/?>"
+    r"|</[A-Za-z][A-Za-z0-9-]*[ \t]*>|<!-->|<!--->|<!--.*?-->|<\?.*?\?>|<![A-Z].*?>"
+    r"|<!\[CDATA\[.*?\]\]>|<<|>>)"
+)
 NAMED_ENTITY_RE = re.compile(r"&[A-Za-z][A-Za-z0-9]*;")
-LINK_OR_IMAGE_RE = re.compile(r"!?\[(" + LINK_LABEL + r")\]\([^)]*\)")
+LINK_OR_IMAGE_RE = re.compile(r"(?<!\\)!?\[(" + LINK_LABEL + r")(?<!\\)\]\([^)]*\)")
 # An emphasis pair of underscores, _text_ or __text__. CommonMark opens one only
 # where the underscore does not follow a letter or digit and closes it only where
 # it is not followed by one, so G_eff, and an unpaired U(1)_d, stay text.
 UNDERSCORE_PAIR_RE = re.compile(r"(?<![^\W_])(_+)(?=\S)(.+?)(?<=\S)\1(?![^\W_])")
-ESCAPED_UNDERSCORE = "\x00"  # stands in for \_ while emphasis pairs are removed
+# Stand-ins while markup is removed; the slug drops all four.
+ESCAPED_UNDERSCORE = "\x00"  # \_, which no emphasis pair takes
+ESCAPED_HYPHEN = "\x01"  # \-, which no typographer dash takes
+RAW_HTML = "\x02"  # a tag, which slugs to nothing but keeps -<b>-- from reading as ---
+ESCAPED_BACKSLASH = "\x03"  # \\, so that its second backslash escapes nothing
+# Markup that heading_markup keeps out of headings: an inline link or image, a
+# footnote reference, an autolink, and a URL or email address that the linkify
+# extension turns into a link.
+HEADING_LINK_RE = re.compile(
+    r"\]\(|\[\^|<[A-Za-z][A-Za-z0-9+.-]{1,31}:|<[^\s<>]*@|://|www\.|\w@\w"
+)
+# A trailing attribute block, {#id}, {.class} or {name=value}, which goldmark
+# takes as the heading's attributes, not its text.
+HEADING_ATTRS_RE = re.compile(r"\{[ \t]*(?:\}|(?:[#.]|[A-Za-z_:][\w.:-]*[ \t]*=).*\})[ \t]*$")
+ESCAPED_PUNCT_RE = re.compile(r"\\[!-/:-@\[-`{-~]")
 
 
 def load_acronyms():
@@ -192,57 +221,151 @@ def strip_code(body_lines, offset):
     return out, fences
 
 
+def code_spans(text):
+    """The code spans in a line of Markdown as [(start, end, code)].
+
+    A backtick run opens a code span unless a backslash escapes its first
+    backtick, and the next run of the same length closes it (backslashes inside
+    escape nothing); a run with no such closer is plain text."""
+    spans, i = [], 0
+    while i < len(text):
+        if text[i] == "\\" and i + 1 < len(text) and text[i + 1] in string.punctuation:
+            i += 2
+            continue
+        if text[i] != "`":
+            i += 1
+            continue
+        j = i
+        while j < len(text) and text[j] == "`":
+            j += 1
+        k = j
+        while k < len(text):
+            if text[k] != "`":
+                k += 1
+                continue
+            e = k
+            while e < len(text) and text[e] == "`":
+                e += 1
+            if e - k == j - i:
+                spans.append((i, e, text[j:k]))
+                break
+            k = e
+        i = spans[-1][1] if spans and spans[-1][0] == i else j
+    return spans
+
+
 def _heading_text(text):
     """Markdown outside code spans, reduced to the text Hugo slugs."""
-    text = text.replace("\\_", ESCAPED_UNDERSCORE)
-    # Goldmark's typographer turns << >> into guillemets before raw HTML is parsed.
-    text = text.replace("<<", "«").replace(">>", "»")
-    text = HTML_TAG_RE.sub("", text)
-    # Named entities are resolved (&amp; is '&'); numeric ones stay as typed.
-    text = NAMED_ENTITY_RE.sub(lambda m: html.unescape(m.group(0)), text)
+    text = text.replace("\\\\", ESCAPED_BACKSLASH)
+    text = text.replace("\\_", ESCAPED_UNDERSCORE).replace("\\-", ESCAPED_HYPHEN)
+    # Raw HTML is stripped; the typographer turns << and >> into guillemets.
+    text = HTML_OR_GUILLEMET_RE.sub(
+        lambda m: {"<<": "«", ">>": "»"}.get(m.group(0), RAW_HTML), text)
     text = LINK_OR_IMAGE_RE.sub(r"\1", text)
     text = UNDERSCORE_PAIR_RE.sub(r"\2", text)
-    # The typographer turns --- into an em dash and -- into an en dash, which are
-    # then dropped; a single - stays.
-    text = re.sub(r"---|--", "", text)
-    return text.replace(ESCAPED_UNDERSCORE, "_")
+    # The typographer turns --- into an em dash and -- into an en dash, which the
+    # slug then drops; a single - stays. A heading of only a dash is not empty.
+    text = text.replace("---", "—").replace("--", "–")
+    return text.replace(ESCAPED_UNDERSCORE, "_").replace(ESCAPED_HYPHEN, "-")
 
 
 def slugify(text):
-    """Hugo's default heading ID (autoHeadingIDType "github") for a heading's Markdown.
+    """Hugo's default heading ID (autoHeadingIDType "github") for a heading's
+    Markdown, or None where Hugo gives the heading no ID.
 
-    Hugo slugs the heading's rendered text: markup is gone, code-span content and
-    link text stay. Each character is then kept if it is a letter of any script
-    (str.isalpha(): ₐ, ℤ and Greek stay), a decimal digit (category Nd only, so
-    subscript and superscript digits such as ₀ ² ⁴ and the superscript minus are
-    dropped), '-' or '_', and lowercased one character at a time; each space
-    (U+0020 only, not a tab or a no-break space) becomes '-', runs not collapsed;
-    everything else is dropped. Underscores are dropped only where they pair up as
-    emphasis (_text_); U(1)_d gives u1_d. '*' and '~' markup falls to the filter.
+    Hugo slugs the heading's plain text (its render.TextPlain): markup is gone,
+    code-span content stays, raw HTML is stripped, and named entities are resolved
+    last, inside code spans too (&amp; is '&'; numeric references stay as typed).
+    A heading whose plain text is empty, such as one of raw HTML only, gets no ID.
+    Each character is then kept if it is a letter of any script (str.isalpha(): ₐ,
+    ℤ and Greek stay), a decimal digit (category Nd only, so subscript and
+    superscript digits such as ₀ ² ⁴ and the superscript minus are dropped), '-'
+    or '_', and lowercased one character at a time by Go's simple case mapping
+    (İ gives i); each space (U+0020 only, not a tab or a no-break space) becomes
+    '-', runs not collapsed; everything else is dropped. Underscores are dropped
+    only where they pair up as emphasis (_text_); U(1)_d gives u1_d. '*' and '~'
+    markup falls to the filter.
 
-    Checked against Hugo 0.159 and 0.168 (2026-10-22): every wiki heading's ID,
-    and a set of edge cases (entities, raw HTML, padded code, duplicates). One
-    known divergence: inside emphasis or link text, Hugo loses the text after a
-    typographer dash or a literal underscore ([a--b](...) gives 'a'). No wiki
-    heading has emphasis or a link; scripts/check-site.py would catch one.
+    Of a link, an image or an emphasis span, Hugo slugs only the first inline node
+    of the content, so its ID depends on where goldmark splits that text; the
+    `heading` check (heading_markup) keeps such markup out of headings, and this
+    function does not emulate it.
+
+    Checked against the IDs Hugo 0.168 wrote (2026-10-22) for every wiki heading,
+    149 edge cases (entities in and out of code spans, escapes, raw HTML with a
+    quoted '>', padded code, typographer dashes and quotes, duplicates, empty and
+    symbol-only headings) and about 100,000 random headings built from markup
+    fragments: every heading heading_markup lets through got Hugo's ID.
     """
     parts, pos = [], 0
-    for m in CODE_SPAN_RE.finditer(text):
-        parts.append(_heading_text(text[pos : m.start()]))
-        code = m.group(2)
+    for start, end, code in code_spans(text):
+        parts.append(_heading_text(text[pos:start]))
         # CommonMark strips one space from each end of padded code: `` `a` ``.
         if code.startswith(" ") and code.endswith(" ") and code.strip(" "):
             code = code[1:-1]
         parts.append(code)
-        pos = m.end()
+        pos = end
     parts.append(_heading_text(text[pos:]))
+    plain = "".join(parts).replace(RAW_HTML, "")
+    plain = NAMED_ENTITY_RE.sub(lambda m: html5.get(m.group(0)[1:], m.group(0)), plain)
+    if not plain:
+        return None
     slug = []
-    for ch in "".join(parts).strip():
+    for ch in plain.strip():
         if ch in " -":
             slug.append("-")
         elif ch == "_" or ch.isalpha() or unicodedata.category(ch) == "Nd":
-            slug.append(ch.lower())
+            # str.lower() maps U+0130 (I with a dot) to i and a combining dot; Go's
+            # unicode.ToLower, which Hugo uses, maps it to i.
+            slug.append("i" if ch == "\u0130" else ch.lower())
     return "".join(slug)
+
+
+def _flanking(text, start, end):
+    """(can open, can close) for the delimiter run text[start:end], by CommonMark's
+    flanking rules as goldmark applies them."""
+    before = text[start - 1] if start else " "
+    after = text[end] if end < len(text) else " "
+    b_space, a_space = before.isspace(), after.isspace()
+    b_punct = unicodedata.category(before)[0] in "PS"
+    a_punct = unicodedata.category(after)[0] in "PS"
+    left = not a_space and (not a_punct or b_space or b_punct)
+    right = not b_space and (not b_punct or a_space or a_punct)
+    if text[start] == "_":
+        return left and (not right or b_punct), right and (not left or a_punct)
+    return left, right
+
+
+def heading_markup(text):
+    """'link', 'emphasis' or 'attributes' if a heading's Markdown holds markup
+    whose ID the gate does not compute, else None.
+
+    Hugo slugs a link, an image or an emphasis or strikethrough span by the first
+    inline node of its content only, and goldmark splits that content at an
+    apostrophe, a quote, '--', '_', a code span and other markup: a heading
+    [Born's question](...) gets the ID 'born'. An autolink, and a URL or email
+    address that the linkify extension turns into a link, add nothing. A trailing
+    attribute block ({#id}) sets or changes the ID. A link is any '](', footnote
+    reference, autolink, URL or email address; emphasis is a run of *, _ or ~
+    that can open followed by one that can close. The tests err toward reporting.
+    """
+    for start, end, _ in reversed(code_spans(text)):
+        text = text[:start] + "`" + text[end:]  # a code span slugs whole
+    text = ESCAPED_PUNCT_RE.sub("!", text)  # an escaped character is plain text
+    if HEADING_LINK_RE.search(text):
+        return "link"
+    if HEADING_ATTRS_RE.search(text):
+        return "attributes"
+    for ch in "*_~":
+        opened = False
+        for m in re.finditer(re.escape(ch) + "+", text):
+            if ch == "~" and len(m.group()) > 2:
+                continue  # a longer run of tildes is text, not strikethrough
+            can_open, can_close = _flanking(text, m.start(), m.end())
+            if opened and can_close:
+                return "emphasis"
+            opened = opened or can_open
+    return "emphasis" if UNDERSCORE_PAIR_RE.search(text) else None
 
 
 def heading_id(slug, used):
@@ -313,7 +436,9 @@ def main(argv):
         for _, line in clean:
             m = HEADING_RE.match(line)
             if m and m.group(2).strip():
-                heading_id(slugify(m.group(2)), anchors)
+                slug = slugify(m.group(2))
+                if slug is not None:
+                    heading_id(slug, anchors)
         url = page_url(f)
         pages[url] = {"anchors": anchors, "path": f}
         parsed[f] = (fm, fm_lines, fm_errors, clean, fences)
@@ -407,6 +532,16 @@ def main(argv):
             m = HEADING_RE.match(line)
             if m and len(m.group(1)) == 1:
                 err("h1", f, lineno, "body H1 — hugo-book renders the frontmatter title as h1; start at ##")
+            markup = heading_markup(m.group(2)) if m else None
+            if markup:
+                why = {
+                    "link": "a link in a heading: Hugo's ID for it keeps only part of the link text",
+                    "emphasis": "emphasis in a heading: Hugo's ID for it keeps only part of the emphasized text",
+                    "attributes": "an attribute block in a heading: {#id} or {.class} sets or changes the ID",
+                }[markup]
+                err("heading", f, lineno,
+                    f"{why}, which the gate does not compute; make the heading plain text "
+                    f"(code spans are fine; escape a literal *, _, ~ or {{)")
 
             for sm in STARRED_RE.finditer(INLINE_CODE_RE.sub(" ", line)):
                 err("star", f, lineno,
@@ -459,7 +594,7 @@ def main(argv):
             err("acronym", f, lineno,
                 f"{acro!r} is never spelled out beside a use on this page (expected {expansion!r}) or linked")
 
-    order = ["link", "anchor", "map", "source", "frontmatter", "weight", "section",
+    order = ["link", "anchor", "heading", "map", "source", "frontmatter", "weight", "section",
              "gist", "statusline", "star", "h1", "fence", "acronym"]
     errors.sort(key=lambda e: (order.index(e[0]), str(e[1]), e[2]))
     for kind, path, lineno, msg in errors:
