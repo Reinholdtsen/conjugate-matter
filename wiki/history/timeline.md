@@ -244,8 +244,8 @@ The day after the initial build brought a rule on how the wiki states negative r
 | 18:50 | 140dac5 | Flag 44 in the wiki: the [pending rulings](/wiki/status/open-problems#pending-rulings), the home page's reading guide and the notation's flag range, and a pointer where [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction#what-it-assumes-t) states the exception |
 | 18:52 | ee8a001 | The [references](/wiki/references) completed for both rounds of promoted pages: the works their pages cite from model memory that the register lacked, among them the two behind flag 44, and the pages missing from the lists of where a work is cited. This page's rows from 17:43 on follow in the next commit |
 | 18:58 | ed0ca68 | Timeline rows from 17:43 to 18:52, and flag 44 under the flags file. |
-| 19:49 | 503d34d | The wiki gate learns the heading-ID rules Hugo applies that it had missed; links, emphasis and `{#id}` are no longer allowed inside a heading ([the gate](/wiki/method/verification/the-gate)). |
-| 19:50 | 5540adc | The site gate checks every href and src in the built pages, that each wiki page is built once and no `CLAUDE.md` is, and that Hugo's heading IDs equal the ones the wiki gate computes. |
+| 19:49 | 503d34d | The wiki gate learns the heading-identifier rules Hugo applies that it had missed; links, emphasis and `{#id}` are no longer allowed inside a heading ([the gate](/wiki/method/verification/the-gate)). |
+| 19:50 | 5540adc | The site gate checks every href and src in the built pages, that each wiki page is built once and no `CLAUDE.md` is, and that Hugo's heading identifiers equal the ones the wiki gate computes. |
 | 19:50 | aa046dc | The site's `/wiki/` page gets a browser title without the repeated site name. |
 | 19:53 | b636936 | Docs: the heading rule, the site gate's checks, how to publish by hand and how to add a domain (`site/CLAUDE.md`, the root and wiki `CLAUDE.md`). |
 
