@@ -8,11 +8,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md §13 row 4"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/round3-adjudication.md 'Rulings' 5"
   - "review/wiki-build-flags.md item 43"
   - "review/round3/referee/audit-notes.md Step 4(c) item 5"
   - "review/round3/referee/step4.py section 4"
-  - "review/round3/referee/step2a.py"
+  - "review/round3/referee/step2a.py 'peak frequency'"
   - "verify/soliton_obituary.py 'Dark radiation (ruling 5)'"
+  - "notes/knot-dark-matter-standalone.md §4"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
@@ -78,11 +80,11 @@ Two consequences follow. A slow particle's peculiar velocity, its velocity relat
 
 ### Phase space and temperature
 
-[Phase space](/wiki/phase-space) is the space of positions and momenta taken together. For a gas of free particles the momentum spread falls as 1/a in each direction while the physical size of a comoving region grows as a in each direction, so the gas keeps its phase-space volume and the number of particles per phase-space cell is carried along unchanged: Liouville's theorem applied to the expansion [T].
+[Phase space](/wiki/phase-space) is the space of positions and momenta taken together. For a gas of free particles the momentum spread falls as 1/a in each direction while the physical size of a comoving region grows as a in each direction, so the gas keeps its phase-space volume and the number of particles per phase-space cell is carried along unchanged: [Liouville's theorem](/wiki/phase-space/reciprocity/symplectic-form#the-symplectic-group) applied to the expansion [T].
 
 A thermal spectrum of massless particles therefore keeps its shape. Every momentum falls by the same factor, so a blackbody spectrum at temperature T_e, when the scale factor is a_e, is still a blackbody spectrum when the scale factor is a, at the lower temperature T_e·a_e/a. Radiation that travels freely stays thermal with T ∝ 1/a, which with a₀ = 1 reads T = T₀(1 + z), T₀ being the temperature today [T]. This is why the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#a-blackbody-spectrum) is still a blackbody. Radiation that stays in equilibrium with the plasma also cools as 1/a, except while a species is annihilating and passing its entropy to the particles that remain ([the radiation era](/wiki/cosmology/early-universe/radiation-era#entropy-and-the-yield-y--ns-t)).
 
-For the energy density, the redshift supplies the factor that separates radiation from matter. The number of quanta in a comoving volume is diluted as a⁻³ and each quantum's energy falls as 1/a, so radiation thins as a⁻⁴ while cold matter thins as a⁻³ ([fluids and how they thin](/wiki/cosmology/scale-factor-duality/friedmann-cosmology#fluids-and-how-they-thin-t)).
+For the energy density, the redshift supplies the factor that separates radiation from matter. The number of quanta per unit volume falls as a⁻³ and each quantum's energy falls as 1/a, so radiation thins as a⁻⁴ while cold matter thins as a⁻³ ([fluids and how they thin](/wiki/cosmology/scale-factor-duality/friedmann-cosmology#fluids-and-how-they-thin-t)).
 
 ### Waveform and spectrum
 
@@ -115,7 +117,7 @@ The expansion rate comes from the [Friedmann equation](/wiki/cosmology/scale-fac
 The redshift observed for a single object combines the cosmological factor with two others, each multiplying 1 + z:
 
 - **Doppler shifts** from peculiar motion, the velocities of the source and the observer relative to the comoving observers: 1 + z_obs = (1 + z_cos)(1 + z_pec), with z_cos the cosmological part and z_pec the Doppler part [T].
-- **Gravitational redshift** from a difference in gravitational potential. Light that climbs out of a potential well loses frequency, by the fraction −ΔΦ/c² in a weak static field, with ΔΦ the rise in potential ([the equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle#rindler-frames)). In the cosmic microwave background the same effect, for photons leaving the potential wells present at last scattering, is part of the temperature pattern ([where the anisotropies come from](/wiki/cosmology/early-universe/cosmic-microwave-background#where-they-come-from)).
+- **Gravitational redshift** from a difference in gravitational potential. Light that climbs out of a potential well loses frequency: in a weak static field the fractional shift is −ΔΦ/c², with ΔΦ the rise in potential ([the equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle#rindler-frames)). In the cosmic microwave background the same effect, for photons leaving the potential wells present at last scattering, is part of the temperature pattern ([where the anisotropies come from](/wiki/cosmology/early-universe/cosmic-microwave-background#where-they-come-from)).
 
 These corrections differ from object to object. The cosmological factor is the same for all light emitted at one epoch and received today.
 
@@ -140,7 +142,7 @@ The technical documents state no result about redshift itself. They use z as a c
 f₀ = 1.65×10⁻⁵ Hz × (f*/H*) × (T*/100 GeV) × (g*/100)^{1/6}
 ```
 
-Here f\*/H\* is the emitted peak frequency in units of the Hubble rate at the transition, and g\* is the number of relativistic degrees of freedom. The retired [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) predicted a band of such waves. [The gate](/wiki/method/verification/the-gate) checks the band's upper end, 3.2×10⁷ Hz after round-3 ruling 5, which `verify/soliton_obituary.py` reproduces as `3.17e+07`. The band died with the candidate ([the gravitational-wave band](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history#the-gravitational-wave-band-died-with-the-candidate)).
+Here f\*/H\* is the emitted peak frequency in units of the Hubble rate at the transition, and g\* is the number of relativistic degrees of freedom. The retired [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) predicted a band of such waves if its hidden transition was first order (`notes/knot-dark-matter-standalone.md` §4). [The gate](/wiki/method/verification/the-gate) checks the band's upper end, 3.2×10⁷ Hz after round-3 ruling 5, which `verify/soliton_obituary.py` reproduces as `3.17e+07`. The band died with the candidate ([the gravitational-wave band](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history#the-gravitational-wave-band-died-with-the-candidate)).
 
 **Decoupling dates in round 3.** The round-3 referee dated by redshift the end of the coupling between the withdrawn manuscript's hidden fermion ψ and its hidden photons: "psi kinetically coupled to the gamma' bath until z = 2.7e3 (30 MeV), 7.0e4 (0.3 GeV), 2.2e6 (3 GeV), 6.9e7 (30 GeV) for Delta N = 0.286 (step4.out)", the masses in parentheses being ψ's, and "For sub-GeV psi this approaches recombination" (`review/round3/referee/audit-notes.md` Step 4(c) item 5; [dark acoustic oscillations](/wiki/method/review/round-3/rulings#dark-acoustic-oscillations)). Recombination is the epoch at which electrons and nuclei formed neutral atoms and the cosmic microwave background was released, at the redshift z\* of [last scattering](/wiki/cosmology/early-universe/cosmic-microwave-background#last-scattering). The script takes the hidden photons' temperature at redshift z as today's value times 1 + z, and the expansion rate as the H(z) above (`review/round3/referee/step4.py`, section 4).
 
@@ -187,9 +189,11 @@ None of these is cited in the program's documents; they are given here from memo
 - `papers/broken-born-checkpoint-v2.md` §10 — DR2's crossing "above redshifts z ≃ 0.4" [21S], w(z) "inferred from distances rather than observed", the thawing corridor, and the constraint a·ã = 1 [D]
 - `papers/broken-born-checkpoint-v2.md` §13 row 4 — the observable w(z) and "DR2 already favors a crossing above z ≈ 0.4"
 - `CLAUDE.md` 'Since the handoff' — the crossing above z ≈ 0.4 and the dark-energy sector "under real pressure ahead of DR3"
+- `review/round3-adjudication.md` 'Rulings' 5 — the knock-on that moves the upper end of the gravitational-wave band to 3.2×10⁷ Hz
 - `review/wiki-build-flags.md` item 43 — the crossing redshifts of the corridor's line and of DR2's fits, and where the pressure rests (pending ruling), with the checks in `review/wiki-build-checks/corridor/`
 - `review/round3/referee/audit-notes.md` Step 4(c) item 5 — the decoupling redshifts of the hidden fermion
 - `review/round3/referee/step4.py` section 4 — H(z) and the hidden temperature written in redshift
-- `review/round3/referee/step2a.py` — the redshifted peak frequency of gravitational waves, as coded by the referee
+- `review/round3/referee/step2a.py` 'peak frequency' — the redshifted peak frequency of gravitational waves, as coded by the referee
 - `verify/soliton_obituary.py` 'Dark radiation (ruling 5)' — the same formula in the gate's check of the band's upper end
+- `notes/knot-dark-matter-standalone.md` §4 — the withdrawn candidate's band, conditional on a first-order hidden transition (withdrawn)
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — the redshift read as a contracting momentum spectrum (popular article; explanation only)
