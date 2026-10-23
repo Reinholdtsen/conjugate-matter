@@ -15,6 +15,7 @@ sources:
   - "review/round3-adjudication.md 'Rulings' 6"
   - "review/round3-adjudication.md 'Rulings' (omitted constraints)"
   - "review/round3-adjudication.md 'Decisions' 1"
+  - "verify/soliton_obituary.py 'Anchors'"
   - "verify/soliton_obituary.py 'Dark radiation (ruling 5)'"
   - "review/round3/referee/audit-notes.md Step 1"
   - "review/round3/referee/audit-notes.md Step 2"
@@ -80,7 +81,7 @@ The referee's relic code for #14's hidden fermion ψ uses this relation directly
 
 ### The ratio at late times
 
-N_eff, the measure of extra radiation, is defined relative to the neutrinos ([N_eff: counting light species](/wiki/cosmology/early-universe/radiation-era#n_eff-counting-light-species-t)), so the visible end point of the calculation is the neutrino temperature T_ν. The neutrinos decouple while the visible plasma still holds photons, electrons and positrons; after that their temperature falls as 1/a, and the later annihilation of electrons and positrons heats only the photons [T]. Following each sector at constant entropy from the reference time until the hidden sector holds only its light species gives [T]
+N_eff counts the radiation other than photons in units of one neutrino species ([N_eff: counting light species](/wiki/cosmology/early-universe/radiation-era#n_eff-counting-light-species-t)), so the visible end point of the calculation is the neutrino temperature T_ν. The neutrinos decouple while the visible plasma still holds photons, electrons and positrons; after that their temperature falls as 1/a, and the later annihilation of electrons and positrons heats only the photons [T]. Following each sector at constant entropy from the reference time until the hidden sector holds only its light species gives [T]
 
 ```text
 T_h/T_ν = ξ · [ (g_h(high)/g_h(late)) / (g_vis(high)/g_ν,dec) ]^{1/3}
@@ -98,7 +99,7 @@ The round-3 referee's script evaluates the formula for #14's hidden sector at ξ
 
 ### The expansion rate
 
-The expansion rate depends on the energy density of both sectors together. In the count g\* that sets the radiation-era expansion rate, H ∝ √g\* T² with H the Hubble rate, a species at its own temperature is weighted by the fourth power of its temperature relative to T ([what the radiation era is](/wiki/cosmology/early-universe/radiation-era#what-the-radiation-era-is-t)), so the hidden sector contributes g_h·(T_h/T)⁴ [T]. At ξ = 1 a hidden sector adds its full count: in the gravitational-wave estimate for #14's hidden transition, the referee evaluated the frequency at g\* = 106.75 and at 122.75 (`review/round3/referee/step2a.out`), the second being, in the wiki's reading, the visible count plus the hidden sector's 16. A colder hidden sector adds less, by the fourth power of the ratio, and when ξ is well below 1 our plasma sets the expansion almost alone [T].
+The expansion rate depends on the energy density of both sectors together. In the count g\* that sets the radiation-era expansion rate, H ∝ √g\* T² with H the Hubble rate, a species at its own temperature is weighted by the fourth power of its temperature relative to T ([what the radiation era is](/wiki/cosmology/early-universe/radiation-era#what-the-radiation-era-is-t)), so the hidden sector contributes g_h·(T_h/T)⁴ [T]. At ξ = 1 a hidden sector adds its full count: in the gravitational-wave estimate for #14's hidden transition, the referee evaluated the frequency at g\* = 106.75 and at 122.75 (`review/round3/referee/step2a.out`), the second being the visible count plus the hidden sector's 16, written `106.75 + 16` in `review/round3/referee/step2a.py`. A colder hidden sector adds less, by the fourth power of the ratio, and when ξ is well below 1 our plasma sets the expansion almost alone [T].
 
 ## Dark radiation [T]
 
@@ -122,7 +123,7 @@ Since T_h/T_ν is proportional to ξ, ΔN_eff is proportional to ξ⁴, and an u
 ξ_max = ( ΔN_eff,max / ΔN_eff(ξ = 1) )^{1/4}
 ```
 
-This is the form the referee's script codes, `xi_max = (dNmax/dN)**0.25` (`review/round3/referee/step2a.py`). The fourth root damps the effect of the radiation bound on ξ: a change in ΔN_eff,max by some factor moves ξ_max by only the fourth root of that factor [T]. Replacing a remembered bound with the measured one therefore moved #14's requirement only in its second decimal place (below).
+This is the form the referee's script codes, `(dNmax/dN)**0.25`, printed as `xi_max` (`review/round3/referee/step2a.py`). The fourth root damps the effect of the radiation bound on ξ: a change in ΔN_eff,max by some factor moves ξ_max by only the fourth root of that factor [T]. Replacing a remembered bound with the measured one therefore moved #14's requirement only in its second decimal place (below).
 
 N_eff is measured at two epochs ([how N_eff is measured](/wiki/cosmology/early-universe/radiation-era#how-n_eff-is-measured-t)): by Big Bang nucleosynthesis (BBN), through the expansion rate in the first minutes, and by the cosmic microwave background (CMB), through the damping of its small-scale anisotropies and the phase of its acoustic peaks ([N_eff in the microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#n_eff)) [T]. The bound in the program's record is Planck 2018's 95% interval, which #14 §4 writes as "N_eff = 2.99 +- 0.34 at 95%". The referee recorded the source's interval as asymmetric; the difference is flag 22 in `review/wiki-build-flags.md`, and it changes nothing, because only the upper side enters. `verify/soliton_obituary.py` subtracts the SM value from the upper end, `bound = 2.99 + 0.34 - 3.044`, and gates the result [V] ([Planck 2018 and the dark-radiation bound](/wiki/cosmology/early-universe/cosmic-microwave-background#planck-2018-and-the-dark-radiation-bound)):
 
@@ -185,9 +186,9 @@ The candidate is dead ([Obituary: superheavy conjugate solitons](/wiki/dark-matt
 
 ### The conjugate sector
 
-Outside the withdrawn #14 and its review, no program document gives the conjugate sector a temperature or computes its contribution to N_eff (the wiki's search of the papers and notes). The N_eff entry of the predictions tables comes from the geometry of the dual frame, not from a hidden plasma: in [row 10](/wiki/predictions/early-universe-step), the curvature of a closed dual space acts on our expansion as negative dark radiation ([row 10's negative ΔN_eff](/wiki/cosmology/early-universe/radiation-era#row-10-negative-δn_eff-from-a-closed-dual-space)).
+Outside the withdrawn #14 and its review, no program document gives the conjugate sector a temperature or computes its contribution to N_eff (the wiki's search of the papers and notes). The lab notebook's argument against thermal freeze-out for this sector [O] is qualitative and names no temperature: a "sub-GeV, strongly self-coupled, gravitationally-only-connected sector cannot freeze out thermally without cannibalism problems" (#1 §5.3; [particle χ: the route the notebook closes](/wiki/dark-matter/candidates/thermal-freeze-out#particle-χ-the-route-the-notebook-closes)). The N_eff entry of the predictions tables comes from the geometry of the dual frame, not from a hidden plasma: in [row 10](/wiki/predictions/early-universe-step), the curvature of a closed dual space acts on our expansion as negative dark radiation ([row 10's negative ΔN_eff](/wiki/cosmology/early-universe/radiation-era#row-10-negative-δn_eff-from-a-closed-dual-space)).
 
-The lab notebook's sketch of polarization-genesis, tagged [O, sketched], sets the division between the two kinds of matter at reheating: "at reheating, the heavy Grassmannian moduli (the nine non-Maslov directions) decay; their branching into x- versus p-polarized quanta is set by the vacuum tilt angle" (#1 §8, transcribed from its LaTeX). As for a hidden sector reheated separately, the outcome would be fixed by how a decay at reheating divides its energy between the two kinds of matter, a parallel the documents do not draw ([Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis); [reheating in polarization-genesis](/wiki/cosmology/early-universe/inflation-and-dilution#reheating-in-polarization-genesis)).
+The lab notebook's sketch of polarization-genesis, tagged [O, sketched], sets the division between the two kinds of matter at reheating: "at reheating, the heavy Grassmannian moduli (the nine non-Maslov directions) decay; their branching into x- versus p-polarized quanta is set by the vacuum tilt angle" (#1 §8, transcribed from its LaTeX). As with a hidden sector reheated separately, the outcome would be fixed by how a decay at reheating divides its energy between the two kinds of matter, a parallel the documents do not draw ([Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis); [reheating in polarization-genesis](/wiki/cosmology/early-universe/inflation-and-dilution#reheating-in-polarization-genesis)).
 
 ## What is open
 
@@ -235,11 +236,11 @@ The † entries are unverified.
 - `review/v3-worklog.md` 'New open items' (O2) — the two-sector setup, the table of three hidden contents, the 0.3 bound from memory †, ξ as a free parameter
 - `review/round3-preregistration.md` 'Predictions' — the thermal-history consistency link
 - `review/round3-adjudication.md` 'Rulings' 5, 6 — ξ < 0.760 and ΔN_eff < 0.286 with N_eff,SM = 3.044; ψ's freeze-out during nucleosynthesis, accepted, not re-checked; the omitted-constraints list — reheating, the Higgs portal and re-thermalization as unchecked to-dos; 'Decisions' 1 — strict sector separation
-- `verify/soliton_obituary.py` 'Dark radiation (ruling 5)' — the ΔN_eff function and its anchor, the bound, ξ and the gravitational-wave knock-on, executed
+- `verify/soliton_obituary.py` 'Anchors' and 'Dark radiation (ruling 5)' — the ΔN_eff function and its anchor, the bound, ξ and the gravitational-wave knock-on, executed
 - `review/round3/referee/audit-notes.md` Step 1 — the Kolb–Turner and Planck references; Step 2 — the shared-temperature ΔN_eff, the spread of the ξ bound, the factor ξ^(3/4); Step 4(a) items 1, 4, 5, 8 — the closing mass at ξ = 0.76, the recomputation at the required ratio, re-thermalization by a millicharged ψ, freeze-out during nucleosynthesis; Step 4(c) items 2, 7, 9 — the decoupling reference, the Higgs portal, reheating and isocurvature
 - `review/round3/referee/step2a.py` 'Delta N_eff' and `review/round3/referee/step2a.out` 'dark radiation' — the degrees-of-freedom count, the late ratio, ΔN_eff at ξ = 1 and the bound on ξ; the frequency table at g\* = 106.75 and 122.75
 - `review/round3/referee/step2c_psi.py` — the entropy ratio R that fixes the hidden temperature in the relic integration
 - `review/round3/referee/step4.out` item 7 — ψ's hidden freeze-out in visible temperatures; `review/round3/referee/step4c.out` — the visible reheating temperatures
 - `papers/broken-born-checkpoint-v2.md` §4 — P4, taken strictly since v2.1
-- `notes/broken-born-theory.md` §5.3 — the conjugate sector as "gravitationally-only-connected"; §8 — polarization-genesis at reheating [O, sketched]
+- `notes/broken-born-theory.md` §5.3 — the conjugate sector as "gravitationally-only-connected", and the argument against its thermal freeze-out; §8 — polarization-genesis at reheating [O, sketched]
 - `review/wiki-build-flags.md` item 22 — #14's symmetric N_eff interval; item 33 — ruling 6's figure outside the gate
