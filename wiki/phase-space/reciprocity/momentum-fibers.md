@@ -2,7 +2,7 @@
 title: "Momentum fibers and the cotangent bundle"
 weight: 75
 status: established
-description: "The momenta available at one point of space-time form a fiber, and phase space is the cotangent bundle of these fibers; general relativity measures each fiber with the inverse metric g⁻¹ and leaves it flat, which #11 §3 calls an architectural assumption; in the program the compatibility theorem slaves the momentum metric to g⁻¹ on the vacuum, independent momentum-space geometry is assigned to X, and the gate acts through χ quanta of width μ along the fibers."
+description: "The momenta available at one point of space-time form a fiber, and phase space, made of these fibers, is the cotangent bundle of space-time; general relativity measures each fiber with the inverse metric g⁻¹ and leaves it flat, which #11 §3 calls an architectural assumption; in the program the compatibility theorem slaves the momentum metric to g⁻¹ on the vacuum, independent momentum-space geometry is assigned to X, and the gate acts through χ quanta of width μ along the fibers."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §3"
@@ -29,6 +29,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "papers/conjugate-special-relativity.md §1"
   - "papers/conjugate-special-relativity.md §4"
+  - "papers/conjugate-special-relativity.md §6"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
   - "review/wiki-build-flags.md items 17, 29, 30"
@@ -86,7 +87,7 @@ The fiber metric is not a field of its own. It is fixed algebraically by g_μν,
 
 ### Curved fibers in the literature
 
-A momentum space whose geometry changes from one momentum to another within the fiber is a curved momentum space. #11 §3 cites a line of quantum-gravity work in which momentum space is curved: Snyder's quantized space-time [4†], the momenta of a point particle in gravity with two space dimensions, which "live on a curved group manifold" [5†], and relative locality [6†]. The curvature has a scale, which the literature usually places near the Planck scale, and for momenta far below it such a space looks flat [T]. The lineage, and the soccer-ball problem it raises for the momenta of macroscopic bodies, are on [curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
+If no choice of coordinates makes a fiber's metric constant, the fiber has curvature of its own, and the momentum space is curved. #11 §3 cites a line of quantum-gravity work in which momentum space is curved: Snyder's quantized space-time [4†], the momenta of a point particle in gravity with two space dimensions, which "live on a curved group manifold" [5†], and relative locality [6†]. The curvature has a scale, which the literature usually places near the Planck scale, and for momenta far below it such a space looks flat [T]. The lineage, and the soccer-ball problem it raises for the momenta of macroscopic bodies, are on [curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space).
 
 ## Flat fibers as an assumption
 
@@ -102,7 +103,7 @@ In this wiki's reading, on the bundle picture the assumption is the choice of fi
 
 ### Flat phase space and the momentum metric g̃
 
-The program works on flat phase space. The [lab notebook](/wiki/history/documents/lab-notebook) sets up its kinematics "first on flat 𝒫 ≅ ℝ²ᵈ with coordinates (xᵃ, pₐ), d = 4" (#1 §2; the notebook's words on this page are transcribed from its LaTeX), so each fiber is a copy of ℝᵈ ([P1: the phase-space arena](/wiki/program/postulates/p1-arena)). Its [generalized metric](/wiki/phase-space/born-geometry/born-structures) H, a positive metric on the whole of phase space, splits along the two kinds of direction: "On the x-tilted vacuum, H decomposes into a spacetime metric g_μν(x) and a momentum-space metric g̃^μν" [D, schematic] (#1 §3). The split belongs to the vacuum, the x-tilted one that postulate [P5](/wiki/program/postulates/p5-spontaneous-selection) selects. In this wiki's terms g̃ is the metric of the fibers.
+The program's kinematic core works on flat phase space. The [lab notebook](/wiki/history/documents/lab-notebook) sets up its kinematics "first on flat 𝒫 ≅ ℝ²ᵈ with coordinates (xᵃ, pₐ), d = 4" (#1 §2; the notebook's words on this page are transcribed from its LaTeX), so each fiber is a copy of ℝᵈ ([P1: the phase-space arena](/wiki/program/postulates/p1-arena)). Its [generalized metric](/wiki/phase-space/born-geometry/born-structures) H, a positive metric on the whole of phase space, splits along the two kinds of direction: "On the x-tilted vacuum, H decomposes into a spacetime metric g_μν(x) and a momentum-space metric g̃^μν" [D, schematic] (#1 §3). The split belongs to the vacuum, the x-tilted one that postulate [P5](/wiki/program/postulates/p5-spontaneous-selection) selects. In this wiki's terms g̃ is the metric of the fibers.
 
 In the notebook's first version g̃ carried the dark-matter gate. The self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) was "routed through the g̃ block", and the gate's support was "set by a scale μ of the g̃ sector" [P] (#1 §3), a form since superseded ([the Gaussian gate of v0.1](/wiki/dark-matter/conjugate-matter/velocity-gate#superseded-the-gaussian-gate-of-v01)). The notebook's sixth open problem asked "why macroscopic momenta don't probe g̃ curvature" (#1 §11 item 6). That is the soccer-ball problem, which no later document takes up ([extensivity](/wiki/phase-space/reciprocity/curved-momentum-space#open-extensivity-the-soccer-ball-problem)).
 
@@ -122,7 +123,7 @@ Under P2′ the generalized metric ranges over the values of the [modular field]
 
 Calc note #5 restates the lab notebook's first open problem in these terms: "Born's debt, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (§C). #11 §7 gives the program's answer, [Born's answer](/wiki/gravity/momentum-graviton/borns-answer): "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice". The [founding supposition](/wiki/program/founding-suppositions#10-momentum-space-has-its-own-gravity) "Momentum space has its own gravity" is recorded as "vindicated, transformed: dynamical, massive, reciprocity-odd (§7)" (#11 App. A item 10; bold dropped).
 
-#13 adds that X "modifies the dual cone only at short range in momentum [D — §7 of the checkpoint]" (§1). #11 §7 does not make that statement; flag 29 in `review/wiki-build-flags.md`, confirmed by the flags' audit, records that the momentum reading appears only among the chat-only results. Beyond that sentence no document describes how X changes the geometry within one fiber, and none compares the program's momentum-space geometry in detail with Snyder's construction or with relative locality ([the program's own momentum-space geometry](/wiki/phase-space/reciprocity/curved-momentum-space#the-programs-own-momentum-space-geometry)).
+#13 adds that X "modifies the dual cone only at short range in momentum [D — §7 of the checkpoint]" (§1), and §6 that "dual-geometric effects are Yukawa-cut in momentum [D — checkpoint §7]". #11 §7 makes neither statement; flag 29 in `review/wiki-build-flags.md`, confirmed by the flags' audit, records that the momentum reading appears only among the chat-only results (`HANDOFF.md` §4). Beyond these one-line statements no document describes how X changes the geometry within one fiber, and none compares the program's momentum-space geometry in detail with Snyder's construction or with relative locality ([the program's own momentum-space geometry](/wiki/phase-space/reciprocity/curved-momentum-space#the-programs-own-momentum-space-geometry)).
 
 ### A second light cone
 
@@ -140,7 +141,7 @@ Calc note #6 derives the [velocity gate](/wiki/dark-matter/conjugate-matter/velo
 
 Integrating out the heavy X leaves a contact interaction, one that acts only where the particles meet, so the two quanta interact at one point of space-time. In this wiki's reading their overlap is then taken in the fiber over that point: a contact force acts where two waveforms overlap, and the gate acts only where their spectra overlap as well ([position and momentum exchanged](/wiki/dark-matter/conjugate-matter/gate-mechanism#position-and-momentum-exchanged)).
 
-The width became a property of the χ quantum itself in the lab notebook's v0.4 addendum: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'). #11 §8 writes the gate as F(k²/μ²), with k the incoming relative momentum of the pair, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]". The handoff lists "μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2), and calc note #8 closes Debt 2 as "mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5).
+In the lab notebook the width became a property of the χ quantum itself with the v0.4 addendum, which records #6: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'). #11 §8 writes the gate as F(k²/μ²), with k the incoming relative momentum of the pair, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]". The handoff lists "μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2), and calc note #8's close-out lists Debt 2 as "mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5).
 
 The profile along the fiber decides the form of the gate. "Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate", but "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (#6 §4). The overlap form and the lab notebook's postulated e^{−k²/μ²} are written in different variables, and no source converts one into the other. Flag 17 in `review/wiki-build-flags.md` records a factor of √2 in μ between them, which its audit found to depend on how #6's form is read, and notes that no stated number changes ([two conventions, not reconciled](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)).
 
@@ -157,7 +158,7 @@ X couples to χ through the [dual stress T̃](/wiki/dark-matter/conjugate-matter
 ## What is open
 
 - **The propagator and the profile.** X's propagator on the fibers, the χ–X vertex and a χ quantum's profile along the fiber decide the gate's shape, and none of them is computed (OP4).
-- **Geometry within a fiber.** No document describes how X changes the geometry of a single fiber or compares the program's momentum-space geometry with the curved momentum spaces of the literature.
+- **Geometry within a fiber.** No document works out how X changes the geometry of a single fiber or compares the program's momentum-space geometry with the curved momentum spaces of the literature.
 - **Lorentzian signature.** The slaved metric g̃ = g⁻¹ is derived for a positive-definite g (OP3).
 - **Extensivity.** The soccer-ball problem stays open on the lab notebook's authority and is absent from #11's list ([curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space#open-extensivity-the-soccer-ball-problem)).
 - **The citations.** #11 §3's references [4]–[6], including the 2+1-dimensional result behind "false in the one exactly solved quantum gravity", are from model memory and await the † literature battery (OP10).
@@ -191,10 +192,10 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `papers/broken-born-checkpoint-v2.md` §3 and refs [4]–[6] — the flat fibers as "an architectural assumption, not a measurement" and the curved-momentum lineage (all †); §5 — the compatibility theorem [T][V] and g̃ = g⁻¹ slaved; §6 — Im Z = g; §7 — Born's answer; §8 — μ as the fiber width; §14 item 4 — the X propagator on the fibers; App. A item 10 — "vindicated, transformed"
 - `notes/debt1a-geometric-core.md` §A — corollary 3, the slaved momentum metric; §B — the collision with the documented theory; §C — the vacuum slice, X as momentum geometry, Born's debt as the Re Z sector; §E — the dual stress, the gate shape as the X propagator on the fibers
 - `notes/debt1a-ii-X-classification.md` §4 — quanta extended on the fiber, exchange over the fiber overlap, Gaussian and rational gates; §5 — the Gaussian fiber profile and the metastring
-- `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2 closed as "μ = fiber width", shape open
+- `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2's mechanism paid with "μ = fiber width", shape open
 - `notes/broken-born-theory.md` §2 — flat phase space ℝ²ᵈ; §3 — H split into g and g̃, the v0.1 gate through g̃; §11 item 6 — "g̃ curvature"; 'Addendum (v0.4)' — μ as the fiber width; §5.1 — v\* ≡ √2μ/m_χ
 - `notes/broken-born-program-v1.md` §1 — the flat fibers, tagged [T]
 - `notes/knot-dark-matter-standalone.md` §1 — independent momentum-space geometry resides in X (withdrawn manuscript)
-- `papers/conjugate-special-relativity.md` §1 — the block form, the dual cone of g⁻¹, X "at short range in momentum"; §4 — μ ~ ℏ/λ_χ
+- `papers/conjugate-special-relativity.md` §1 — the block form, the dual cone of g⁻¹, X "at short range in momentum"; §4 — μ ~ ℏ/λ_χ; §6 — "Yukawa-cut in momentum"
 - `HANDOFF.md` §2 — "μ = χ's momentum-fiber width"; §4 — the chat-only "slaved layer g̃ = g⁻¹ is algebraic"
 - `review/wiki-build-flags.md` items 17, 29, 30 — the two gate conventions and the √2 in μ; #13's citation of #11 §7; #13's tag on its cones
