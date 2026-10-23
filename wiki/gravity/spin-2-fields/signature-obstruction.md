@@ -16,12 +16,13 @@ sources:
   - "HANDOFF.md §2"
   - "HANDOFF.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
+  - "notes/broken-born-program-v1.md §0"
   - "notes/broken-born-program-v1.md §5"
   - "notes/broken-born-program-v1.md §11"
   - "notes/knot-dark-matter-standalone.md §1"
 ---
 
-*The signature obstruction is the standard result that a symmetric tensor field in spacetime, such as the perturbation h_μν of the metric, has no [ghost-free](/wiki/gravity/spin-2-fields/ghosts) kinetic term with two derivatives unless that kinetic term has the gauge symmetry of the massless graviton. A ghost is a mode whose energy has the wrong sign. The obstruction comes from the signature of spacetime, in which time enters with the opposite sign to space: in a contraction such as h_μν h^μν the components h₀ᵢ, with one time index and one space index, enter with the opposite sign to the others, and in a kinetic term built from such contractions that sign becomes the sign of their kinetic energy. The gauge symmetry avoids the problem by keeping those components from propagating: the kinetic term of linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity) contains no time derivatives of h₀₀ and h₀ᵢ, which are constrained rather than propagated. The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) theory of a massive spin-2 field keeps that kinetic term and breaks the symmetry only through its mass term. The program uses the result to close one option for its second symmetric tensor, the [momentum graviton X](/wiki/gravity/momentum-graviton): without its gauge symmetry X would carry a ghost, and with the symmetry unbroken X would be a second massless graviton interacting with the metric, which [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go) excludes, so X must have a mass. [Calc note #6](/wiki/history/documents/debt-1-notes) tags the statement as standard literature without citing a source, and no script checks it.*
+*The signature obstruction is the standard result that a symmetric tensor field in spacetime, such as the perturbation h_μν of the metric, has no [ghost-free](/wiki/gravity/spin-2-fields/ghosts) kinetic term with two derivatives unless that kinetic term has the gauge symmetry of the massless graviton. A ghost is a mode whose energy has the wrong sign. The obstruction comes from the signature of spacetime, in which time enters with the opposite sign to space: in a contraction such as h_μν h^μν the components h₀ᵢ, with one time index and one space index, enter with the opposite sign to the others, and in the simplest kinetic term built from such contractions that sign becomes the sign of their kinetic energy. The gauge symmetry avoids the problem by keeping those components from propagating: the kinetic term of linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity) contains no time derivatives of h₀₀ and h₀ᵢ, which are constrained rather than propagated. The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) theory of a massive spin-2 field keeps that kinetic term and breaks the symmetry only through its mass term. The program uses the result to close one option for its second symmetric tensor, the [momentum graviton X](/wiki/gravity/momentum-graviton): without its gauge symmetry X would carry a ghost, and with the symmetry unbroken X would be a second massless graviton interacting with the metric, which [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go) excludes, so X must have a mass. [Calc note #6](/wiki/history/documents/debt-1-notes) tags the statement as standard literature without citing a source, and no script checks it.*
 
 **Status:** Established — [T — standard], the tag of calc note #6 §2, which cites no source. The explanation on this page is written from general knowledge [T], and the references it adds are from model memory (†). No `verify/` script checks the statement. The program applies it to X in a chain tagged [D + T] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1, and no test of [the verification battery](/wiki/method/verification/battery) covers that chain.
 
@@ -34,7 +35,7 @@ Calc note #6 §2 states it and tags it as standard literature:
 Its terms [T]:
 
 - **A Lorentz-covariant symmetric tensor** is a field h_μν = h_νμ whose components mix under Lorentz transformations as the components of the metric do. Its components are h₀₀, whose indices are both time indices; the mixed components h₀ᵢ, with one time index and one space index; and the spatial components hᵢⱼ.
-- **A two-derivative kinetic term** is a part of the Lagrangian that is quadratic in the field and built from its first derivatives. It is the standard form of the energy of a field that propagates as a wave, and its terms in time derivatives are the field's kinetic energy.
+- **A two-derivative kinetic term** is a part of the Lagrangian that is quadratic in the field and built from its first derivatives. It is the standard form for a field that propagates as a wave, and its terms in time derivatives are the field's kinetic energy.
 - **Ghost-free** means that no propagating mode has negative kinetic energy. A ghost coupled to ordinary fields leaves the energy unbounded below; the consequences are set out with [the Fierz–Pauli weight](/wiki/gravity/spin-2-fields/fierz-pauli#the-fierzpauli-weight-t).
 - **The gauge invariance** is the symmetry of the massless graviton, the linearized diffeomorphisms δh_μν = ∂_μξ_ν + ∂_νξ_μ, with ξ_μ an arbitrary vector field ([linearized gravity and the graviton](/wiki/gravity/spin-2-fields/general-relativity#linearized-gravity-and-the-graviton-t)).
 
@@ -72,11 +73,11 @@ where h = h^μ_μ is the trace and c₁ to c₄ are constants. The terms built f
 
 ## What it leaves: the Fierz–Pauli structure [T]
 
-The obstruction concerns the kinetic term. A symmetric tensor that propagates without a ghost must keep the gauge-invariant kinetic term, so a mass, which breaks the gauge symmetry, has to enter through a term without derivatives. The Fierz–Pauli theory does this. Its Lagrangian is the gauge-invariant kinetic term plus a mass term proportional to h_μν h^μν − h² (Fierz and Pauli 1939†). The mass term contains no time derivatives, so h₀₀ and h₀ᵢ still do not propagate. The h₀ᵢ appear in it squared and without derivatives, and their own equations fix them. With the Fierz–Pauli weight the terms quadratic in h₀₀ cancel between h_μν h^μν and h², so h₀₀ still appears only linearly, and its constraint removes the extra mode that a massive symmetric tensor would otherwise carry, a ghost ([the Fierz–Pauli weight](/wiki/gravity/spin-2-fields/fierz-pauli#the-fierzpauli-weight-t)). What propagates is a massive spin-2 particle with five polarizations, the count calc note #6 §3 gives for X.
+The obstruction concerns the kinetic term. By the obstruction, a symmetric tensor that propagates without a ghost keeps the gauge-invariant kinetic term, so a mass, which breaks the gauge symmetry, has to enter through a term without derivatives. The Fierz–Pauli theory does this. Its Lagrangian is the gauge-invariant kinetic term plus a mass term proportional to h_μν h^μν − h² (Fierz and Pauli 1939†). The mass term contains no time derivatives, so h₀₀ and h₀ᵢ still do not propagate. The h₀ᵢ appear in it squared and without derivatives, and their own equations fix them. With the Fierz–Pauli weight the terms quadratic in h₀₀ cancel between h_μν h^μν and h², so h₀₀ still appears only linearly, and its constraint removes the extra mode that a massive symmetric tensor would otherwise carry, a ghost ([the Fierz–Pauli weight](/wiki/gravity/spin-2-fields/fierz-pauli#the-fierzpauli-weight-t)). What propagates is a massive spin-2 particle with five polarizations, the count calc note #6 §3 gives for X.
 
-#6 reads the obstruction this way in its parenthesis: "this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all". The gauge symmetry in the Fierz–Pauli theory is that of its kinetic term; the mass term breaks it.
+#6 reads the obstruction this way in its parenthesis: "this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all". In this wiki's reading, the gauge symmetry meant is that of the Fierz–Pauli kinetic term, which the mass term breaks.
 
-Beyond quadratic order a further question arises. A generic nonlinear completion of the Fierz–Pauli term brings the extra mode back, the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t), and keeping it out takes the potentials of [de Rham–Gabadadze–Tolley massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) and [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric).
+Beyond quadratic order a further question arises. A generic nonlinear completion of the Fierz–Pauli term brings the extra mode back, the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t), and the known potentials that keep it out are those of [de Rham–Gabadadze–Tolley massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) and [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric).
 
 ## What it assumes [T]
 
@@ -86,6 +87,7 @@ The statement has the scope its wording gives it:
 - **Lorentz covariance.** The kinetic term is built from contractions with the spacetime metric, which is where the signs come from.
 - **Two derivatives.** Kinetic terms with more derivatives lie outside the statement.
 - **Lorentzian signature.** The sign that causes the obstruction is that of time relative to space, which gives the obstruction its name; #11 §7.1 words the exclusion as "by Lorentz signature".
+- **The full gauge symmetry against none.** The statement contrasts a kinetic term with the gauge symmetry and one without it. A kinetic term with part of the symmetry is a separate case in the literature: one invariant only under the transverse diffeomorphisms, those with ∂^μξ_μ = 0, and under the Weyl rescalings δh_μν = φη_μν, with φ an arbitrary function, is also free of ghosts and propagates the same two helicity states as linearized general relativity. It is the linearized form of unimodular gravity, the version of general relativity in which the determinant of the spacetime metric is held fixed (van der Bij, van Dam and Ng 1982†; Álvarez, Blas, Garriga and Verdaguer 2006†). No program document discusses this case.
 
 ## How the program uses it
 
@@ -110,14 +112,14 @@ In this wiki's reading, an ungauged X is an X whose kinetic term lacks the dual-
 - **Calc note #6 §2**: the statement, tagged [T — standard], quoted above.
 - **The lab notebook, addendum v0.4**: "the ghost-free no-gauge option is excluded by Lorentz signature".
 - **Calc note #7 §5**: the name, in its list of "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test)".
-- **The v1 paper, #9 §5 item 2** (superseded as reference; [the checkpoint](/wiki/history/documents/checkpoint) covers #9 to #11): "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)".
+- **The v1 paper, #9** (superseded as reference; [the checkpoint](/wiki/history/documents/checkpoint) covers #9 to #11): "a signature obstruction" in its technical abstract's "chain of structural theorems" (§0), and "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)" (§5 item 2).
 - **Checkpoint #11**: "a signature obstruction" in the technical abstract's "chain of structural results" (§1), and "ungauged X by Lorentz signature" (§7.1).
 - **The handoff**: its inventory describes #6 with "massless/ungauged excluded" (`HANDOFF.md` §3, artifact 6); its summary of the scientific state names the massless exclusion and not this one (§2).
 - **The withdrawn soliton manuscript, #14 §1**: gives the no-go step and the Higgs step, not this one ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)).
 
 ### The count of structural tests
 
-Calc note #7 §5, written after [the tuning test](/wiki/gravity/tuning-test), lists the obstruction second of its "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test)". #11 §15 counts "four consecutive consistency tests" without naming them, and #11's technical abstract includes "a signature obstruction" in its chain (§1). The v1 paper's four, "no-go → Higgs → HR class → palindrome" (#9 §11), HR being Hassan–Rosen, do not include it. #11 governs the count. The versions are compared on [Assessment: a live research program](/wiki/program/assessment#forced-convergence-onto-consistency-islands) and [conflicts between sources](/wiki/history/documents/source-conflicts).
+Calc note #7 §5, written after [the tuning test](/wiki/gravity/tuning-test), lists the obstruction second of its "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test)". #11 §15 counts "four consecutive consistency tests" without naming them, and #11's technical abstract includes "a signature obstruction" in its chain (§1). The v1 paper's technical abstract has it in its "chain of structural theorems" (#9 §0), but the v1 assessment's four, "no-go → Higgs → HR class → palindrome" (#9 §11), HR being Hassan–Rosen, do not include it. #11 governs the count. The versions are compared on [Assessment: a live research program](/wiki/program/assessment#forced-convergence-onto-consistency-islands) and [conflicts between sources](/wiki/history/documents/source-conflicts).
 
 ## What is open
 
@@ -135,6 +137,7 @@ The program's documents cite no source for the statement. Added by the wiki from
 
 - P. van Nieuwenhuizen, "On ghost-free tensor Lagrangians and linearized gravitation" (1973)†: the ghost-free quadratic Lagrangians of a symmetric tensor.
 - M. Fierz, W. Pauli (1939)†: the free massive spin-2 field, whose kinetic term is the gauge-invariant one.
+- J. J. van der Bij, H. van Dam, Y. J. Ng, "The exchange of massless spin-two particles," Physica A (1982)†; E. Álvarez, D. Blas, J. Garriga, E. Verdaguer, "Transverse Fierz–Pauli symmetry," Nucl. Phys. B (2006)†: kinetic terms invariant only under the transverse diffeomorphisms, among them the Weyl-invariant one of linearized unimodular gravity.
 - K. Hinterbichler, "Theoretical aspects of massive gravity," Rev. Mod. Phys. (2012)†; C. de Rham, "Massive gravity," Living Rev. Relativ. (2014)†: reviews of massive gravity.
 
 ## Used by
@@ -154,5 +157,5 @@ The program's documents cite no source for the statement. Added by the wiki from
 - `notes/debt1a-iii-tuning-test.md` §5 — the name, in the three structural tests.
 - `HANDOFF.md` §2 — "X is forced massive", without a ✓ and without this step; §3 — "massless/ungauged excluded" in the inventory entry for #6.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "the ghost-free no-gauge option is excluded by Lorentz signature".
-- `notes/broken-born-program-v1.md` §5 — "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)"; §11 — the four tests of v1, without this one (superseded as reference).
+- `notes/broken-born-program-v1.md` §0 — "a signature obstruction" in the abstract's chain of structural theorems; §5 — "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)"; §11 — the four tests of v1, without this one (superseded as reference).
 - `notes/knot-dark-matter-standalone.md` §1 — the withdrawn manuscript's chain, without this step.
