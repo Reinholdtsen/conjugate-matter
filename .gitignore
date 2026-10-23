@@ -1,2 +1,9 @@
 .venv/
 __pycache__/
+
+# Hugo site (site/): build output, caches, npm dependencies, wrangler state
+site/public/
+site/resources/
+site/node_modules/
+site/.hugo_build.lock
+site/.wrangler/

@@ -1,0 +1,15 @@
+{{/*
+  Override of the theme's `main` block.
+
+  hugo-book's own single.html is a stub, so baseof renders `.Content` alone and
+  no page-level <h1> is ever emitted. Rendering the frontmatter title here gives
+  every page exactly one h1 without repeating the title in each wiki page's
+  Markdown, and makes the "no H1 in the body" rule in wiki/CLAUDE.md true
+  (scripts/check-wiki.py's `h1` check enforces it).
+*/}}
+{{ define "main" }}
+  <article class="markdown book-article">
+    <h1>{{ partial "docs/title" . }}</h1>
+    {{- .Content -}}
+  </article>
+{{ end }}

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "hugo --gc --minify --cleanDestinationDir",
+    "check": "../scripts/check.sh && npm run build && python3 ../scripts/check-site.py",
+    "deploy": "npm run check && wrangler deploy",
+    "preview": "npm run build && wrangler dev",
+    "dev": "hugo server"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.166.0",
+    "wrangler": "^4.152.0"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
+  }
+}

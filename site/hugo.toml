@@ -1,0 +1,50 @@
+# The Broken-Born program's wiki as a static site. Same stack as Paul's other
+# Hugo sites (bitsy-services/wiki; gargantis/gargantis/site for the site/
+# subfolder): the hugo-book theme, vendored as a git submodule under
+# themes/hugo-book, content in a BookSection folder, deployed to Cloudflare
+# Workers static assets (wrangler.jsonc). Build and check from site/:
+# `npm run check`. Output (git-ignored): site/public/. See site/CLAUDE.md.
+
+# The production domain goes here once one is chosen, e.g. 'https://example.org/'.
+# Until then '/' keeps every generated URL root-relative.
+baseURL = '/'
+# The site's language. `locale` replaced `languageCode` in Hugo 0.158.
+locale = 'en-us'
+title = 'The Broken-Born program'
+theme = 'hugo-book'
+
+# CLAUDE.md files are agent instructions that live beside the content they
+# govern (Claude Code loads them per directory). They are not pages: without
+# this, ../wiki/CLAUDE.md would render as /wiki/claude/.
+ignoreFiles = ['CLAUDE\.md$']
+
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  BookSection = 'wiki'
+  BookSearch = true
+  BookComments = false
+  BookToC = true
+  # hugo-book's link render hook resolves every internal Markdown link through
+  # .Page.GetPage to the target page's RelPermalink, so the wiki's /wiki/...
+  # links survive a baseURL with a subpath. 'error' fails the build on a link
+  # to a page that does not exist. It does not check #fragments;
+  # ../scripts/check-site.py does, on the built HTML.
+  BookPortableLinks = 'error'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# The wiki is not copied here. ../wiki (the repository's wiki/ folder) is
+# mounted as content/wiki; the site's own pages (the home page) are in
+# content/. Defining any content mount replaces Hugo's default one, so content/
+# is mounted explicitly.
+[[module.mounts]]
+  source = 'content'
+  target = 'content'
+
+[[module.mounts]]
+  source = '../wiki'
+  target = 'content/wiki'

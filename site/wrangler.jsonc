@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // A static-assets-only Worker (no script): it serves Hugo's ./public.
+  // Deploy by hand from site/ with `npm run deploy`, which runs the gate first.
+  "name": "conjugate-matter-wiki",
+  // The newest date the workerd bundled with the installed wrangler supports.
+  "compatibility_date": "2026-10-19",
+
+  "observability": {
+    "enabled": true
+  },
+
+  // Hugo's output, built by `npm run build`. Unknown paths get Hugo's 404.html.
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+
+  // No routes: no domain has been chosen, so a deploy serves on workers.dev
+  // only. To serve on a domain in a zone on this Cloudflare account, add a
+  // comma after the "assets" block above and then
+  //   "routes": [{ "pattern": "<domain>", "custom_domain": true }]
+  // and set baseURL in hugo.toml to "https://<domain>/". Cloudflare creates the
+  // DNS record on the next deploy.
+}
