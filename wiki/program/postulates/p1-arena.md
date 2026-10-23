@@ -58,9 +58,9 @@ H is a symmetric, positive-definite form on phase-space vectors: it assigns ever
 H = [[1, 0], [0, 1]]
 ```
 
-with "units chosen so a reference length λ and momentum ε = ℏ/λ are scaled out" (#1 §2). Some such pair of scales is needed: a length squared and a momentum squared can be added only after each is divided by a reference scale of its own kind [T]. The choice ε = ℏ/λ makes λε = ℏ, so only one free scale remains.
+with "units chosen so a reference length λ and momentum ε = ℏ/λ are scaled out" (#1 §2). Some such pair of scales is needed: a length squared and a momentum squared can be added only after each is divided by a [reference scale of its own kind](/wiki/phase-space/reciprocity/born-length#why-position-and-momentum-need-a-reference-length-t) [T]. The choice ε = ℏ/λ makes λε = ℏ, so only one free scale remains.
 
-The name is the one used in [double field theory](/wiki/phase-space/born-geometry/double-field-theory), where a positive generalized metric on a doubled space combines the spacetime metric with the Kalb–Ramond B-field [T]. Born geometry uses H in the same role ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). In the program H holds the geometry of both halves of phase space. When H is block-diagonal, its position block is the spacetime metric g and its momentum block is the momentum-space metric g̃ (#5 §A); the general case is the family described below.
+The name is the one used in [double field theory](/wiki/phase-space/born-geometry/double-field-theory), where a positive generalized metric on a doubled space combines the spacetime metric with the [Kalb–Ramond B-field](/wiki/phase-space/born-geometry/kalb-ramond-field) [T]. Born geometry uses H in the same role ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). In the program H holds the geometry of both halves of phase space. When H is block-diagonal, its position block is the spacetime metric g and its momentum block is the momentum-space metric g̃ (#5 §A); the general case is the family described below.
 
 ## The complex structure I = ω⁻¹H
 

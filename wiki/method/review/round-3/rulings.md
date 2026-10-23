@@ -71,7 +71,7 @@ The adjudication answers the referee in a table, one row per finding, each with 
 
 | # | Finding (the adjudication's wording, shortened) | Ruling | Where the physics is |
 | --- | --- | --- | --- |
-| 1 | one defect per Hubble volume is p ≈ 104, not 0.023 | Upheld | [the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) |
+| 1 | one [defect](/wiki/symmetry-breaking/topological-defects) per Hubble volume is p ≈ 104, not 0.023 | Upheld | [the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) |
 | 2 | the M\* band and "no dilution" fail | Upheld | [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) |
 | 3 | Kibble is a floor, not a ceiling | Upheld | [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) |
 | 4 | the ψ relic window is too high | Upheld | [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) |
@@ -87,7 +87,7 @@ The adjudication answers the referee in a table, one row per finding, each with 
 
 ### Rulings 1 to 3: how many monopoles form
 
-The manuscript counted monopoles by their yield, the number per unit entropy, n/s = p (T_c/M_Pl)³, where T_c is the temperature of the hidden symmetry-breaking transition and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#one-convention-per-formula). [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) fixes the least the transition can produce, about one monopole per Hubble volume, because the field cannot align its vacuum over regions that have never been in causal contact [T]. The first three rulings concern the size of p and its direction.
+The manuscript counted monopoles by their [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t), the number per unit entropy, n/s = p (T_c/M_Pl)³, where T_c is the temperature of the hidden symmetry-breaking transition and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#one-convention-per-formula). [The Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) fixes the least the transition can produce, about one monopole per Hubble volume, because the field cannot align its vacuum over regions that have never been in causal contact [T]. The first three rulings concern the size of p and its direction.
 
 **Ruling 1, upheld.** The finding: "Kibble normalization: one defect per Hubble volume is p ≈ 104, not 0.023". The evidence: "My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g\*)³ ≈ 4.6×10³. My error came from misremembering the formula." The code is the arbitration script ([round-3 arbitration](/wiki/method/review/round-3/arbitration)), and the last sentence is the author's, since the adjudicator had written v3 and its scripts. 1.66√g\* is the prefactor of the radiation-era expansion rate, H = 1.66 √g\* T²/M_Pl, with g\* the number of relativistic degrees of freedom [T] ([the dropped factor](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization#the-dropped-factor)).
 
@@ -109,7 +109,7 @@ DM is dark matter. The recount is in the arbitration run, and the two calculatio
 
 ### Rulings 5 and 6: the colder hidden sector and nucleosynthesis
 
-The hidden photon is massless, so the hidden sector adds radiation, which measurements of the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#planck-2018-and-the-dark-radiation-bound) (CMB) limit through N_eff, the effective number of neutrino species ([the radiation era](/wiki/cosmology/early-universe/radiation-era)). v3 therefore required the hidden sector to be colder than ours by a temperature ratio ξ ([the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+The hidden photon is massless, so the hidden sector adds radiation, which measurements of the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#planck-2018-and-the-dark-radiation-bound) (CMB) limit through N_eff, the effective number of neutrino species ([the radiation era](/wiki/cosmology/early-universe/radiation-era)). v3 therefore required the hidden sector to be colder than ours by a [temperature ratio](/wiki/cosmology/early-universe/hidden-sector-temperature) ξ ([the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 
 **Ruling 5, upheld (minor).** The finding: "ξ bound 0.760, not 0.77". The evidence: "Using N_eff,SM = 3.044, the 95% bound is ΔN_eff < 0.286." N_eff,SM is the Standard Model value. Its knock-on, which the adjudication writes with an abbreviation: the upper end of the gravitational-wave band becomes 3.2×10⁷ Hz ([gravitational waves from phase transitions](/wiki/cosmology/early-universe/phase-transition-gravitational-waves)). The referee had given the spread over conventions: "0.760 (N_SM=3.044), 0.759 (3.046); 0.769 only if DeltaN<0.30" (Step 2). v3's 0.77 came from a bound of 0.3 that the v3 worklog had taken "from memory †" ([the corrected bound](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history#the-worklogs-table-and-the-corrected-bound)).
 
@@ -248,7 +248,7 @@ Existence is the weaker test: a real paper cited for something it does not say p
 | --- | --- | --- | --- |
 | [1] | Born 1938, 1949 | the rotation (x, p) → (p, −x) ([Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)) | metadata correct; the 1938 abstract does not state the rule and the primary text was paywalled: `PARTIALLY VERIFIED (primary text not read)` |
 | [2] | Boulanger, Damour, Gualtieri, Henneaux 2001 | the exclusion of a massless X coupled to gravity ([the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go)) | supports, with the caveats "2-derivative, local, ghost-free" |
-| [3] | Hassan, Rosen (two papers) | the ghost-free bimetric structure ([Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)) | supports |
+| [3] | Hassan, Rosen (two papers) | the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) bimetric structure ([Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)) | supports |
 | [4] | Comelli et al.; Könnig et al.; Lagos, Ferreira | instabilities of bimetric cosmologies ([bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology)) | supports, with a "slight over-generalisation": Könnig et al. identify a stable model, and Lagos and Ferreira find stable scalar perturbations for one parameter choice (ruling 12) |
 | [5] | Akrami et al. | late-time stability of a heavy spin-2 field ([stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)) | supports |
 | [6] | Higuchi 1987 | the bound m² ≥ 2H² ([partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity)) | supports: the abstract's bound with Λ = 3H² "is m^2 >= 2H^2" |

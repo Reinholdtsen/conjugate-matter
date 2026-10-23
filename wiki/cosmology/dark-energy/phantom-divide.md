@@ -74,7 +74,7 @@ The popular article #12 states the same point in words: phantom behaviour "would
 
 Since a single canonical scalar cannot cross w = −1, a measured phantom phase needs one of a small set of ingredients:
 
-- **A ghost.** A scalar with the wrong sign of kinetic term has ρ + p = −φ̇² < 0 and is phantom (Caldwell †). Its quanta carry negative energy, and in an interacting theory the vacuum can decay into ghosts and ordinary particles; avoiding that needs the theory to be cut off at a low scale (Carroll, Hoffman and Trodden †; Cline, Jeon and Moore †).
+- **A [ghost](/wiki/gravity/spin-2-fields/ghosts#phantom-fields-t).** A scalar with the wrong sign of kinetic term has ρ + p = −φ̇² < 0 and is phantom (Caldwell †). Its quanta carry negative energy, and in an interacting theory the vacuum can decay into ghosts and ordinary particles; avoiding that needs the theory to be cut off at a low scale (Carroll, Hoffman and Trodden †; Cline, Jeon and Moore †).
 - **Several fields.** A single field, canonical or ghost, cannot pass smoothly through w = −1 (Vikman †). Models with one field of each kind can, and are called quintom models (Feng, Wang and Zhang †).
 - **Non-minimal couplings or modified gravity.** If the field couples to curvature, or gravity itself is modified, the effective w inferred from the expansion can fall below −1 without any component violating the null energy condition (Boisseau, Esposito-Farèse, Polarski and Starobinsky †).
 - **Interactions in the dark sector.** If dark energy exchanges energy with [dark matter](/wiki/dark-matter), a fit that treats them as separate, non-interacting fluids can return an apparent w < −1 (Das, Corasaniti and Khoury †).
@@ -95,7 +95,7 @@ The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessenc
 
 ## What the current data say
 
-The second data release (DR2) of the Dark Energy Spectroscopic Instrument (DESI) reports, in #11's quotation, "a phantom crossing to w < −1 above redshifts z ≃ 0.4" [21S] (#11 §10). At those redshifts the data favour the side of the divide that the program excludes, and the program's dark-energy sector is under real pressure (root `CLAUDE.md`, 'Since the handoff'). The finding and the program's response are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing).
+The second data release (DR2) of the Dark Energy Spectroscopic Instrument (DESI) reports, in #11's quotation, "a phantom crossing to w < −1 above redshifts z ≃ 0.4" [21S] (#11 §10). At those [redshifts](/wiki/cosmology/scale-factor-duality/redshift) the data favour the side of the divide that the program excludes, and the program's dark-energy sector is under real pressure (root `CLAUDE.md`, 'Since the handoff'). The finding and the program's response are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing).
 
 The [round-3](/wiki/method/review/round-3) referee, who raised the point, also notes, quoting the release, that models respecting the null energy condition "can somewhat outperform" the cosmological-constant model, and adds that they are disfavoured relative to the w₀–wₐ fit ([the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization)) (`review/round3/referee/audit-notes.md` Step 4(c) item 11).
 

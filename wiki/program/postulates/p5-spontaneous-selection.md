@@ -119,7 +119,7 @@ F(+) − F(−) = 2.634        the same at truncations N = 6, 8, 10        (toy 
 ## Open: what a derived selection still lacks
 
 - **The potential's origin.** "a derivation of the ρ-preserving potential, which introduces a rigid, unordered pair of axes" is not shown (toy note §6); #11 §14 item 11 lists "a derivation of the potential" as open [O] ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)).
-- **The unreduced model.** "a Monte Carlo with H dynamical" is open (#11 §14 item 11), and so is "whether ρ's SO(2) breaks in the coupled model without a potential" (toy note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
+- **The unreduced model.** "a Monte Carlo with H dynamical" is open (#11 §14 item 11; [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo)), and so is "whether ρ's SO(2) breaks in the coupled model without a potential" (toy note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
 - **Higher dimension.** The toy work covers d = 1 in 1+1 dimensions; "anything beyond d = 1" is not shown (toy note §6). The worklog adds a remark it did not compute: "In 3+1, the program's actual dimension, Coleman–Mermin–Wagner does not apply. There the self-dual coset model can break the continuous U(1) itself, with τ an exactly massless Goldstone", and "§10's τ has a potential, so the explicit breaking is in the program anyway" ('Chunk 3 results'). That remark is a conjecture of the worklog, not a result.
 
 ## Sources

@@ -38,7 +38,7 @@ The sentence has three parts.
   ```
 
   At X = 0 the off-diagonal blocks vanish and H reduces to diag(g, g⁻¹). The "X-block" is the part of H that X carries, and the dual stress is what χ couples to there. The note does not say which entries of H_Z it has in mind.
-- **"moments involving momentum-derivatives of the χ bilinear"**. A bilinear is a product of the field with its conjugate, such as χ\*χ for a complex scalar [T]; ordinary stress-energy is such a bilinear with two spacetime derivatives (below). The dual stress is built instead from derivatives with respect to momentum, along the momentum fiber, the momentum directions of phase space attached to each point of spacetime. The note uses the word "moments" and specifies neither which moments nor their weights. No later document writes T̃ out.
+- **"moments involving momentum-derivatives of the χ bilinear"**. A bilinear is a product of the field with its conjugate, such as χ\*χ for a complex scalar [T]; ordinary stress-energy is such a bilinear with two spacetime derivatives (below). The dual stress is built instead from derivatives with respect to momentum, along the [momentum fiber](/wiki/phase-space/reciprocity/momentum-fibers#the-dual-stress-derivatives-along-the-fiber), the momentum directions of phase space attached to each point of spacetime. The note uses the word "moments" and specifies neither which moments nor their weights. No later document writes T̃ out.
 
 ## Background: stress-energy as the charge of gravity [T]
 

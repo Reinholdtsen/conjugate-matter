@@ -45,7 +45,7 @@ H = [[ g − B g⁻¹ B ,  B g⁻¹ ],
 
 At B = 0 it reduces to diag(g, g⁻¹). The generalized metric is itself an element of O(d, d). For a symmetric H this is the statement (η⁻¹H)² = 1, the first of the two conditions in [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) [T].
 
-The B-field, a 2-form gauge field with gauge symmetry δB = dλ, has its own page, [the Kalb–Ramond B-field](/wiki/phase-space/born-geometry/kalb-ramond-field): its field strength and its coupling to strings, why T-duality mixes it with the metric, how it enters H as a shear that preserves η, and the program's uses of it. With the dilaton, the metric and the B-field make up double field theory's massless sector, and that sector propagates without ghosts [T].
+The B-field, a 2-form gauge field with gauge symmetry δB = dλ, has its own page, [the Kalb–Ramond B-field](/wiki/phase-space/born-geometry/kalb-ramond-field): its field strength and its coupling to strings, why T-duality mixes it with the metric, how it enters H as a shear that preserves η, and the program's uses of it. With the dilaton, the metric and the B-field make up double field theory's massless sector, and that sector propagates without [ghosts](/wiki/gravity/spin-2-fields/ghosts) [T].
 
 ## The section condition [T]
 

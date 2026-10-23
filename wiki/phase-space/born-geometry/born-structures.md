@@ -36,7 +36,7 @@ sources:
 
 ## Phase space and its three structures
 
-The arena is flat phase space 𝒫 ≅ ℝ^{2d} with coordinates (xᵃ, pₐ); the lab notebook ([#1](/wiki/history/documents/lab-notebook) §2) works at d = 4, with "units chosen so a reference length λ and momentum ε = ℏ/λ are scaled out". A bilinear form assigns a number to each pair of phase-space vectors. Three of them carry the geometry, and in the (x, p) block basis their standard forms are (#1 §2):
+The arena is flat phase space 𝒫 ≅ ℝ^{2d} with coordinates (xᵃ, pₐ); the lab notebook ([#1](/wiki/history/documents/lab-notebook) §2) works at d = 4, with "units chosen so a reference length λ and momentum ε = ℏ/λ are scaled out" ([the Born length λ](/wiki/phase-space/reciprocity/born-length)). A bilinear form assigns a number to each pair of phase-space vectors. Three of them carry the geometry, and in the (x, p) block basis their standard forms are (#1 §2):
 
 ```text
 ω = [[0, 1], [−1, 0]]      antisymmetric       the symplectic form

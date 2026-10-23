@@ -77,7 +77,7 @@ The note's requirement: "To get a definite polarization we add a potential that 
 - **Invariant under K → −K.** Model I has this flip as a second, separate symmetry (toy note §2; [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries)), and the potential keeps it ([the twisted element](/wiki/symmetry-breaking/twisted-element)).
 - **Reduces the U(1) to a discrete group.** The potential breaks the continuous rotation of φ explicitly. A potential that repeats when φ advances by π is unchanged by ρ, which acts as φ → φ + π, and leaves isolated minima instead of a flat circle.
 
-An explicit term that breaks a continuous symmetry gives the would-be Goldstone direction a potential, and the mode is then called a pseudo-Goldstone mode [T]. The worklog's revised conclusion uses that language: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). [The lab notebook](/wiki/history/documents/lab-notebook) had already called τ "a (pseudo-)Goldstone: derivatively coupled" (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
+An explicit term that breaks a continuous symmetry gives the would-be Goldstone direction a potential, and the mode is then called a [pseudo-Goldstone mode](/wiki/cosmology/dark-energy/axion-like-fields#goldstone-and-pseudo-goldstone-bosons-t) [T]. The worklog's revised conclusion uses that language: the toy supports "broken reciprocity" in the form "a pseudo-Goldstone polarization angle with a ρ-symmetric potential", not "only ω rigid, nothing else" ('Chunk 3 results'). [The lab notebook](/wiki/history/documents/lab-notebook) had already called τ "a (pseudo-)Goldstone: derivatively coupled" (#1 §4; [fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
 
 ## The potential the toy uses
 
@@ -150,7 +150,7 @@ The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–7
 ## What remains open
 
 - **The derivation** of a ρ-preserving potential, or of τ's potential, from something deeper than a choice of K_ref [O] (#11 §14 item 11; toy note §6; root `CLAUDE.md`).
-- **Stability beyond the reduction.** V_b's stability with H dynamical is established from the Hessian; the lattice result is for the frozen-H reduction, and "a Monte Carlo with H dynamical" is open (#11 §14 item 11; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)).
+- **Stability beyond the reduction.** V_b's stability with H dynamical is established from the Hessian; the lattice result is for the frozen-H reduction, and "a Monte Carlo with H dynamical" is open (#11 §14 item 11; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction); [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo)).
 - **Without a potential.** "whether ρ's SO(2) breaks in the coupled model without a potential" (toy note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
 - **Beyond the toy.** "anything beyond d = 1" (toy note §6).
 

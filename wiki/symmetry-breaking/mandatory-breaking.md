@@ -74,7 +74,7 @@ The argument runs from locality to a selected polarization. The toy models test 
 - "**Strong form (locality forced, not chosen): not achieved.** It is also open in the literature."
 - "So in the toy, the program's explanation of 'forces fade with distance' amounts to this: our matter is the x-polarized species. The explanatory gain is that x-locality comes packaged with a p-local mirror sector, the program's dark-matter claim. It does not derive x-locality from nothing." ('Chunk 4')
 
-#11 §14 item 11 lists "locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4" as still open [O], with "a Monte Carlo with H dynamical" and "a derivation of the potential". See [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) and [open problems](/wiki/status/open-problems).
+#11 §14 item 11 lists "locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4" as still open [O], with "a Monte Carlo with H dynamical" and "a derivation of the potential". See [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality), [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo) and [open problems](/wiki/status/open-problems).
 
 ## Wordings in other documents
 

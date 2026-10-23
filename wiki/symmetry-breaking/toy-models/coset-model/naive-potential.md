@@ -121,7 +121,7 @@ The lattice numbers did not fall with it. At H = 1 the naive form and V_b differ
 ## What survives
 
 - **The repair.** The referee proposed a normalized form, version 2 adopted it, and it is bounded and stable with H dynamical: [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential). At H = 1 it keeps the naive form's shape, −(μ/2)(1 + cos 2φ) against −2μ(1 + cos 2φ).
-- **The simulation, restated.** The ordered ℤ₂ phase stands as a result about [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), not about model I with H dynamical.
+- **The simulation, restated.** The ordered ℤ₂ phase stands as a result about [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), not about [model I with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo).
 - **A requirement in #11.** Checkpoint #11 §10 now says of the ρ-preserving potential: "That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves".
 - **A rule.** The root `CLAUDE.md`, Method: "When numerics run on a reduced model (fields frozen), check the unreduced model's stability — boundedness, and the Hessian with all fields dynamical — and say in the text that it is a reduction. Round 4 found a potential that was bounded only at frozen H." ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability); round-4 lesson 1). The last sentence holds for the frozen-H reduction, in which K also stays on its circle, and not if only H is held fixed; flag 40 in `review/wiki-build-flags.md` records the point, and its audit rated it as depending on that reading.
 

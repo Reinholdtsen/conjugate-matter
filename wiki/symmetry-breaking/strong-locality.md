@@ -37,7 +37,7 @@ The criterion has two strengths:
 
 Three documents list it:
 
-- #11 §14 item 11: "Still open [O]: a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4." ([Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion));
+- #11 §14 item 11: "Still open [O]: a Monte Carlo with H dynamical; a derivation of the potential; locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4." ([Acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion); [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo));
 - the toy note's "Not shown" list: "a mechanism forcing the (H, K)-coupling of matter;" and "anything beyond d = 1." (§6);
 - the root `CLAUDE.md`, among the open ends of the toy work: "the strong form of matter locality;".
 

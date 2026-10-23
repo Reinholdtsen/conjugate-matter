@@ -38,7 +38,7 @@ sources:
 
 ## Background: inversion of the half-plane [T]
 
-For d = 1 [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) is the upper half-plane, on which the group SL(2, ℝ) acts by z → (αz + β)/(γz + δ). The matrix [[0, 1], [−1, 0]] gives z → 1/(−z) = −1/z. In polar form z = r e^{iθ} goes to (1/r) e^{i(π − θ)}: the distance from the origin is inverted and the point is reflected across the imaginary axis. The map therefore exchanges the inside and the outside of the unit semicircle |z| = 1, carries that semicircle onto itself, and leaves the single point z = i fixed. In the theory of modular forms the same map is the generator usually called S of the modular group SL(2, ℤ).
+For d = 1 [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) is the upper half-plane, on which the group SL(2, ℝ) acts by z → (αz + β)/(γz + δ). The matrix [[0, 1], [−1, 0]] gives z → 1/(−z) = −1/z. In polar form z = r e^{iθ} goes to (1/r) e^{i(π − θ)}: the distance from the origin is inverted and the point is reflected across the imaginary axis. The map therefore exchanges the inside and the outside of the unit semicircle |z| = 1, carries that semicircle onto itself, and leaves the single point z = i fixed. In the theory of modular forms the same map is the generator usually called S of the [modular group SL(2, ℤ)](/wiki/electric-magnetic-duality/modular-group#reciprocity-as-s-on-the-half-plane).
 
 For general d the same matrix with unit blocks acts on complex symmetric matrices as Z → −Z⁻¹, and Z = i·1, i times the unit matrix, is again a fixed point, since −(i·1)⁻¹ = i·1.
 
@@ -70,7 +70,7 @@ For d > 1 no document writes the map out and no script checks it. Battery test T
 
 ### The fixed point: the self-dual vacuum Z = i
 
-At Z = i the metric is H = 1, the unit metric of the lab notebook's units, in which a reference length λ and momentum ε = ℏ/λ are scaled out (#1 §2). Position and momentum directions are measured alike there, and ρ leaves the metric unchanged.
+At Z = i the metric is H = 1, the unit metric of the lab notebook's units, in which a [reference length λ](/wiki/phase-space/reciprocity/born-length) and momentum ε = ℏ/λ are scaled out (#1 §2). Position and momentum directions are measured alike there, and ρ leaves the metric unchanged.
 
 The metric is not the whole vacuum, though. In the toy model the vacuum also carries a real structure K, the order parameter, and ρ sends K to −K: "No vacuum is ρ-invariant" (worklog, 'Chunk 1 results'), and the gate prints `PASS  no vacuum is rho-invariant: at H = 1 a compatible K with rho^-1 K rho = K must vanish`. In the toy model, then, reciprocity is broken at the self-dual point of the metric by [the order parameter](/wiki/symmetry-breaking/order-parameter), not by the metric. Even that breaking has physical content only once matter couples to the sign of K, because the twisted element ρ∘(K → −K) maps the reference vacuum to itself (toy-model note §2; [the twisted element](/wiki/symmetry-breaking/twisted-element)).
 

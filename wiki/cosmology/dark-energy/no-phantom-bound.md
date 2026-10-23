@@ -22,7 +22,7 @@ sources:
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
 ---
 
-*The no-phantom bound is the program's requirement that the dark-energy equation of state w never fall below −1, the value of a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant). It holds because the program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is an ordinary (canonical) scalar field, whose energy density can fall or hold steady as space expands but never rise, while w < −1, the phantom regime, would make it rise. The bound makes the dark-energy sector a sharp test: a robust measurement of an intrinsic w < −1 would kill the program's framework outright. The second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI) favours a phase with w < −1 at redshifts above about 0.4, so the bound stands against the direct reading of current data and is under real pressure; it survives only because fits without a phantom phase remain compatible and because w is inferred rather than observed.*
+*The no-phantom bound is the program's requirement that the dark-energy equation of state w never fall below −1, the value of a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant). It holds because the program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is an ordinary (canonical) scalar field, whose energy density can fall or hold steady as space expands but never rise, while w < −1, the phantom regime, would make it rise. The bound makes the dark-energy sector a sharp test: a robust measurement of an intrinsic w < −1 would kill the program's framework outright. The second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI) favours a phase with w < −1 at [redshifts](/wiki/cosmology/scale-factor-duality/redshift) above about 0.4, so the bound stands against the direct reading of current data and is under real pressure; it survives only because fits without a phantom phase remain compatible and because w is inferred rather than observed.*
 
 **Status:** Alive, under real pressure — [D] in #1 §7 item 1, and part of [checkpoint #11](/wiki/history/documents/checkpoint) §10's [D + T] paragraph — not machine-checked; its test is [row 4](/wiki/predictions/dark-energy-drift), and DESI's Data Release 2 (DR2) leans against it ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing); root `CLAUDE.md`: "under real pressure ahead of DR3").
 
@@ -60,7 +60,7 @@ Row 4 of #11's [prediction table](/wiki/predictions) ([row 4: thawing dark energ
 | --- | --- | --- | --- |
 | Dark energy w(z) | w ≡ −1 | Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3 | DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10) |
 
-DR3 is DESI's Data Release 3. The no-phantom bound is the second kill condition; the first, a constant w = −1, tests the thawing drift ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)).
+DR3 is DESI's Data Release 3. The no-phantom bound is the second kill condition; the first, a constant w = −1, tests the [thawing drift](/wiki/cosmology/dark-energy/thawing-and-freezing) ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)).
 
 ### How much a violation kills
 

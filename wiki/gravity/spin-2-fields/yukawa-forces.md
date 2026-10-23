@@ -101,7 +101,7 @@ Searches for new forces between ordinary bodies describe a possible extra force 
 V(r) = −(G m₁ m₂ / r) · (1 + α e^(−r/λ))
 ```
 
-α is the strength of the extra force relative to gravity, positive for an extra attraction and negative for a repulsion, and λ = ℏ/(Mc) is its range. A force of "gravitational strength" has α of order one. This is the Yukawa potential of the previous sections with charges proportional to the masses of the two bodies, added to Newton's. The letters follow the experimental literature: λ here is not [the Born length](/wiki/conjugate-relativity/maximum-force#the-born-length) of conjugate relativity, and α is not a coupling of the program.
+α is the strength of the extra force relative to gravity, positive for an extra attraction and negative for a repulsion, and λ = ℏ/(Mc) is its range. A force of "gravitational strength" has α of order one. This is the Yukawa potential of the previous sections with charges proportional to the masses of the two bodies, added to Newton's. The letters follow the experimental literature: λ here is not [the Born length](/wiki/phase-space/reciprocity/born-length) of conjugate relativity, and α is not a coupling of the program.
 
 ### How experiments test it
 

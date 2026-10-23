@@ -70,7 +70,7 @@ S = Y + X Y⁻¹ X − Y⁻¹,        A = X Y⁻¹ − Y⁻¹ X = [X, Y⁻¹]
 
 ### T4: the linearized potential is not of Fierz–Pauli form
 
-T4 tests the first of [the metric tier's two failures](/wiki/gravity/tuning-test/metric-tier-failures). It draws random symmetric h and x, sets Y = 1 + εh and X = εx, forms S from them, and compares Tr(S²)/ε² with two candidate limits: 4Tr(h²), and the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) combination 4(Tr(h²) − (Tr h)²). The Fierz–Pauli mass term needs the trace term −(Tr h)² to avoid a ghost [T]; a limit of 4Tr(h²) lacks it. The run prints, at ε = 10⁻⁴ and 10⁻⁵:
+T4 tests the first of [the metric tier's two failures](/wiki/gravity/tuning-test/metric-tier-failures). It draws random symmetric h and x, sets Y = 1 + εh and X = εx, forms S from them, and compares Tr(S²)/ε² with two candidate limits: 4Tr(h²), and the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) combination 4(Tr(h²) − (Tr h)²). The Fierz–Pauli mass term needs the trace term −(Tr h)² to avoid a [ghost](/wiki/gravity/spin-2-fields/ghosts) [T]; a limit of 4Tr(h²) lacks it. The run prints, at ε = 10⁻⁴ and 10⁻⁵:
 
 ```text
       T4 eps=0.0001: 66.5772 vs 4Tr(h^2)=66.5770 vs FP=63.7221

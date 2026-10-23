@@ -43,7 +43,7 @@ Calc note #8 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), §
 
 ### What X absorbs
 
-When the vacuum selects a polarization, it breaks the local shifts of X, δX_μν = ∂₍μλ_ν₎, and X absorbs the would-be Goldstone modes of that broken gauge symmetry, becoming a massive spin-2 field ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). These modes belong to the gauge parameter λ_μ. Calc note #6 calls them "the four would-be Goldstones π_μ of the broken λ-gauge" (§3); calc note #8 calls them "the vector π_μ and the *longitudinal scalar of the λ-gradient sector*" (§3), and no document reconciles the two wordings. Written as explicit fields, would-be Goldstone modes of this kind are Stückelberg fields [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)), and #11 calls them "the Stückelberg sector".
+When the vacuum selects a polarization, it breaks the local shifts of X, δX_μν = ∂₍μλ_ν₎, and X absorbs the would-be Goldstone modes of that broken gauge symmetry, becoming a massive spin-2 field ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). These modes belong to the gauge parameter λ_μ. Calc note #6 calls them "the four would-be Goldstones π_μ of the broken λ-gauge" (§3); calc note #8 calls them "the vector π_μ and the *longitudinal scalar of the λ-gradient sector*" (§3), and no document reconciles the two wordings. Written as explicit fields, would-be Goldstone modes of this kind are [Stückelberg fields](/wiki/symmetry-breaking/stuckelberg-fields) [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)), and #11 calls them "the Stückelberg sector".
 
 ### What τ is
 

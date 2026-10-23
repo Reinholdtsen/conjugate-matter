@@ -64,7 +64,7 @@ Debt 3's verdict below its threshold is this case: "Below threshold: Landau-damp
 
 ## The static threshold and the Jeans instability
 
-For an attractive interaction acting on a Maxwellian gas, an instability first appears through a non-oscillating mode, ω = 0, so the threshold can be found from the static limit of the dispersion relation [T]. For a Maxwellian with one-dimensional velocity dispersion σ, f₀ ∝ exp(−v²/2σ²), one has k·∇ₚf₀ = −(k·v) f₀/(mσ²), and at ω = 0 the integral equals n/(mσ²) [T]. The threshold is then
+For an attractive interaction acting on a Maxwellian gas, an instability first appears through a non-oscillating mode, ω = 0, so the threshold can be found from the static limit of the dispersion relation [T]. For a Maxwellian with one-dimensional [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-maxwellian-and-the-dynamical-temperature) σ, f₀ ∝ exp(−v²/2σ²), one has k·∇ₚf₀ = −(k·v) f₀/(mσ²), and at ω = 0 the integral equals n/(mσ²) [T]. The threshold is then
 
 ```text
 −Ũ(k) n = mσ²

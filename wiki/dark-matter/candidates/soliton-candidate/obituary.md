@@ -45,7 +45,7 @@ sources:
 
 ### The third candidate of checkpoint v2.0
 
-Version 2.0 of [the checkpoint](/wiki/history/documents/checkpoint), #11, offered three answers to the question of what [dark matter](/wiki/dark-matter) is: particles of [conjugate matter χ](/wiki/dark-matter/candidates/chi-particles), [a coherent oscillation of the momentum graviton X](/wiki/dark-matter/candidates/x-condensate), and topological solitons. #11 §12 records the third:
+Version 2.0 of [the checkpoint](/wiki/history/documents/checkpoint), #11, offered three answers to the question of what [dark matter](/wiki/dark-matter) is: particles of [conjugate matter χ](/wiki/dark-matter/candidates/chi-particles), [a coherent oscillation of the momentum graviton X](/wiki/dark-matter/candidates/x-condensate), and [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t). #11 §12 records the third:
 
 > v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the Debt-3 loophole (§9), since topology, not collective dynamics, would localize them in momentum.
 
@@ -89,7 +89,7 @@ The adjudication records the outcome: "**Referee: C (fundamentally flawed), medi
 
 ### The count of monopoles was normalized too low
 
-A symmetry-breaking transition in the early universe leaves topological defects behind. The standard estimate of how many is [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism): regions farther apart than the horizon cannot coordinate their choice of vacuum, so at least about one defect forms per horizon volume [T]. The manuscript wrote the [yield](/wiki/dark-matter/candidates/relic-abundance#what-is-being-set), the number of monopoles per unit entropy, as n/s = p (T_c/M_Pl)³, with T_c the transition temperature and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units). #11 §12:
+A symmetry-breaking transition in the early universe leaves topological defects behind. The standard estimate of how many is [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism): regions farther apart than the horizon cannot coordinate their choice of vacuum, so at least about one defect forms per horizon volume [T]. The manuscript wrote the [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t), the number of monopoles per unit entropy, as n/s = p (T_c/M_Pl)³, with T_c the transition temperature and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units). #11 §12:
 
 > The Kibble estimate n/s = p (T_c/M_Pl)³ had been normalized at p = 1 (#14 v2) and p ≈ 0.023 (#14 v3).
 >
@@ -124,7 +124,7 @@ The abundance finding was decisive, and most of the remaining rulings fell on th
 | Ruling | Finding | Outcome | Page |
 |---|---|---|---|
 | 4 | the ψ relic window is too high | upheld | [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) |
-| 5 | the hidden temperature bound is ξ < 0.760, not 0.77 | upheld (minor) | [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) |
+| 5 | the [hidden temperature](/wiki/cosmology/early-universe/hidden-sector-temperature#the-bound-on-ξ) bound is ξ < 0.760, not 0.77 | upheld (minor) | [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) |
 | 6 | MeV-scale ψ [freezes out](/wiki/dark-matter/candidates/thermal-freeze-out#the-retired-candidates-hidden-sector) during [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#the-ψ-relic-windows-lower-edge) | accepted, not re-checked | [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) |
 | 7 | the "O(1) coefficient at the Planck scale" of the dimension-5 mixing operator is unsupported | upheld | [Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) |
 | 8 | Baumgart et al. lack the adjoint operator | overturned | [Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) |

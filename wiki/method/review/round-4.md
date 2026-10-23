@@ -66,7 +66,7 @@ It also found prior work the note did not cite:
 - Fosco and Moreno on the complex self-dual Grosse–Wulkenhaar model, which "does not examine duality breaking";
 - Marotta and Szabo's Born sigma-models, which treat [Born geometry](/wiki/phase-space/born-geometry) as target structure rather than as a field.
 
-Full-text searches on INSPIRE "found no prior explicit model with" the Langmann–Szabo duality "spontaneously broken by vacua". The referee's novelty verdict: "Model I appears new as a field theory, but it is a simple coset", with vacuum manifold `PSL(2,R)`.
+Full-text searches on INSPIRE "found no prior explicit model with" the Langmann–Szabo duality "spontaneously broken by vacua". The referee's novelty verdict: "Model I appears new as a field theory, but it is a simple coset", with [vacuum manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t) `PSL(2,R)`.
 
 ### Re-derivation and numbers
 
@@ -230,7 +230,7 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 
 ## What remains open
 
-- **The open ends of the toy work**, listed in root `CLAUDE.md`: a Monte Carlo with H dynamical; a derivation of the ρ-preserving potential; the strong form of matter locality; and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead." ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); [strong locality](/wiki/symmetry-breaking/strong-locality); [open problems and the queue](/wiki/status/open-problems)).
+- **The open ends of the toy work**, listed in root `CLAUDE.md`: [a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo); a derivation of the ρ-preserving potential; the strong form of matter locality; and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead." ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); [strong locality](/wiki/symmetry-breaking/strong-locality); [open problems and the queue](/wiki/status/open-problems)).
 - **Whether ρ's SO(2) breaks** in the coupled model, raised by the Mermin–Wagner ruling.
 - **The Langmann–Szabo–Zarembo comparison**, asked for by revision 4 and not carried out (flag 42).
 - **A round-5 review**, optional, "but only before any external use" (root `CLAUDE.md`).

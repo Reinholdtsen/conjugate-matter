@@ -38,7 +38,7 @@ Debt 3b quotes the gravitational condensation rate as a literature result ('The 
 Γ_gr ≈ 8πG²ρ²Λ/(m³σ⁶)        [T: LPT]
 ```
 
-Here G is Newton's constant, ρ the density, m the boson mass and σ the velocity dispersion; the note does not define Λ. The form of the expression follows from the generic estimate Γ ~ n σ_scat v × N_occ, a reading given here and not in the note [T]. Gravitational scattering of two particles of mass m has the Rutherford form, with a cross-section that scales as (Gm/σ²)² times a Coulomb logarithm, and N_occ = ρ/(m⁴σ³). Multiplying n = ρ/m, that cross-section, the speed σ and N_occ gives G²ρ²/(m³σ⁶) times the logarithm, which suggests that Λ is the Coulomb logarithm of gravitational scattering; the note does not say so. The steep σ⁻⁶ dependence collects three effects: slow particles are deflected more strongly, slow halos crowd their particles into fewer modes, and a slower gas collides less often per unit time, which takes one power back.
+Here G is Newton's constant, ρ the density, m the boson mass and σ the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion); the note does not define Λ. The form of the expression follows from the generic estimate Γ ~ n σ_scat v × N_occ, a reading given here and not in the note [T]. Gravitational scattering of two particles of mass m has the Rutherford form, with a cross-section that scales as (Gm/σ²)² times a Coulomb logarithm, and N_occ = ρ/(m⁴σ³). Multiplying n = ρ/m, that cross-section, the speed σ and N_occ gives G²ρ²/(m³σ⁶) times the logarithm, which suggests that Λ is the Coulomb logarithm of gravitational scattering; the note does not say so. The steep σ⁻⁶ dependence collects three effects: slow particles are deflected more strongly, slow halos crowd their particles into fewer modes, and a slower gas collides less often per unit time, which takes one power back.
 
 ### Bose stars [T]
 
@@ -48,7 +48,7 @@ If the bosons also attract one another through a self-interaction, a Bose star h
 
 ### A word with two meanings
 
-In these notes a "soliton" is a Bose-star core, as in the fuzzy-dark-matter literature. It is not the topological soliton of the program's retired dark-matter candidate, for which see [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary).
+In these notes a "soliton" is a Bose-star core, as in the fuzzy-dark-matter literature. It is not the [topological soliton](/wiki/symmetry-breaking/topological-defects#two-meanings-of-soliton-and-the-name-knots) of the program's retired dark-matter candidate, for which see [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary).
 
 ## How the program uses it
 

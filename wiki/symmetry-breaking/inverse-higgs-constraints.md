@@ -24,7 +24,7 @@ sources:
 
 ### One mode per broken generator
 
-[Goldstone's theorem](/wiki/symmetry-breaking/goldstone-and-higgs#goldstones-theorem) counts massless modes by counting broken generators, the independent directions in which the transformations of a symmetry group can move the vacuum. When a continuous group G is broken to a subgroup G₀, the ground states form the vacuum manifold G/G₀, with one flat direction for each generator outside G₀ ([the vacuum manifold and the stabilizer](/wiki/symmetry-breaking/spontaneous-symmetry-breaking#the-vacuum-manifold-and-the-stabilizer)). A Goldstone mode is a slow wave along such a direction: a broken symmetry transformation whose size varies gently from place to place, applied to the vacuum. An internal symmetry acts on the fields at each point and leaves the points themselves where they are. For such a symmetry, different broken generators produce different waves, and a relativistic theory has one massless mode for each broken generator [T].
+[Goldstone's theorem](/wiki/symmetry-breaking/goldstone-and-higgs#goldstones-theorem) counts massless modes by counting broken generators, the independent directions in which the transformations of a symmetry group can move the vacuum. When a continuous group G is broken to a subgroup G₀, the ground states form the vacuum manifold G/G₀, with one flat direction for each generator outside G₀ ([the vacuum manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t)). A Goldstone mode is a slow wave along such a direction: a broken symmetry transformation whose size varies gently from place to place, applied to the vacuum. An internal symmetry acts on the fields at each point and leaves the points themselves where they are. For such a symmetry, different broken generators produce different waves, and a relativistic theory has one massless mode for each broken generator [T].
 
 ### Spacetime symmetries
 
@@ -40,7 +40,7 @@ A ferromagnet also has fewer massless modes than broken generators, for another 
 
 ## The membrane [T]
 
-The example is a flat membrane lying in the plane y = 0 of three-dimensional space, such as a [domain wall](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism#defects-from-a-cooling-field-t), the surface where two regions in different ground states meet. The laws are taken to be relativistic, with the speed of light set to 1. They are invariant under every translation, rotation and boost; the membrane is not:
+The example is a flat membrane lying in the plane y = 0 of three-dimensional space, such as a [domain wall](/wiki/symmetry-breaking/topological-defects#the-classification-t), the surface where two regions in different ground states meet. The laws are taken to be relativistic, with the speed of light set to 1. They are invariant under every translation, rotation and boost; the membrane is not:
 
 ```text
 unbroken   translations along x and z, and in time
@@ -93,7 +93,7 @@ Because ∇_μπ transforms covariantly, setting it to zero is consistent with e
 
 The membrane meets the condition. A translation along x, rotated by a small angle θ about the z axis, becomes partly a translation along y, so the commutator of P_x with that rotation is proportional to P_y, the broken translation, and the rotation's field is fixed by ∂ₓπ. In the same way the commutator of the time translation with the boost along y is proportional to P_y, and the boost's field is fixed by ∂ₜπ [T].
 
-The name reflects a comparison with the Higgs mechanism in its [Stückelberg form](/wiki/symmetry-breaking/goldstone-and-higgs#stückelberg-fields), in which a gauge field and the gradient of a Goldstone field appear together as A_μ + ∂_μπ, and the Goldstone field is absorbed into the gauge field. In ∇_μπ = ∂_μπ + c·π′_μ the field π′_μ stands where the gauge field stood, and the elimination runs the other way: π′_μ is removed in favour of the gradient of π [T].
+The name reflects a comparison with the Higgs mechanism in its [Stückelberg form](/wiki/symmetry-breaking/stuckelberg-fields), in which a gauge field and the gradient of a Goldstone field appear together as A_μ + ∂_μπ, and the Goldstone field is absorbed into the gauge field. In ∇_μπ = ∂_μπ + c·π′_μ the field π′_μ stands where the gauge field stood, and the elimination runs the other way: π′_μ is removed in favour of the gradient of π [T].
 
 ## The dilaton [T]
 

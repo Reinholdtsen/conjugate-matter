@@ -35,7 +35,7 @@ sources:
 
 > "**Gate (Debt 2).** Integrating out massive X between χ bilinears gives the contact four-χ operator. The relative-momentum dependence enters through the χ quanta's **intrinsic momentum-space extent**: p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap — the dual of how x-extended composites acquire form factors F(qR). Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked. *However*: tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile." (`notes/debt1a-ii-X-classification.md` §4)
 
-EFT is effective field theory, here the lab notebook's v0.1 amplitude, in which μ was a free scale. The momentum fiber is the set of momentum directions of phase space attached to each point of spacetime.
+EFT is effective field theory, here the lab notebook's v0.1 amplitude, in which μ was a free scale. The [momentum fiber](/wiki/phase-space/reciprocity/momentum-fibers#quanta-with-a-width-along-the-fiber) is the set of momentum directions of phase space attached to each point of spacetime.
 
 ## Background [T]
 

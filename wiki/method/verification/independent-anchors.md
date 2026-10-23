@@ -52,7 +52,7 @@ check("Kibble: v2 point M = 100 Lambda_c, p = 1 reproduces 3e13 GeV",
       sig(100*(RHO_DM*M_PL**3/(100*S0))**0.25)==3e13)
 ```
 
-It confirmed that the previous draft's formula, at the previous draft's normalization p = 1, gives the previous draft's own abundance-closure mass, 3×10¹³ GeV, which v3 then adopted as its benchmark (`review/v3-worklog.md`, F1). Whatever p should be, that check passes. Further down, the script defined the normalization of one defect per horizon volume as 45/(2π²·100) and checked "one defect per horizon volume: p ~ 0.023", which also passed, because the code computed what the formula said.
+It confirmed that the previous draft's formula, at the previous draft's normalization p = 1, gives the previous draft's own abundance-closure mass, 3×10¹³ GeV, which v3 then adopted as its benchmark (`review/v3-worklog.md`, F1). Whatever p should be, that check passes. Further down, the script defined the normalization of one [defect](/wiki/symmetry-breaking/topological-defects) per horizon volume as 45/(2π²·100) and checked "one defect per horizon volume: p ~ 0.023", which also passed, because the code computed what the formula said.
 
 The round-3 referee recomputed it from independently chosen constants and found "p = 0.023 is the H^3 abundance with the 1.66 sqrt(g\*) factor dropped" (`review/round3/referee/audit-notes.md`, Step 4(a)). Ruling 1, upheld: "one defect per Hubble volume is p ≈ 104, not 0.023", with "v3's 0.0228 drops (1.66√g\*)³ ≈ 4.6×10³". The adjudicator's account: "My error came from misremembering the formula." See [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization).
 

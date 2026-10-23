@@ -29,7 +29,7 @@ In cold dark matter (CDM), structure forms hierarchically: small halos form firs
 
 ## Cold stellar streams [T]
 
-A globular cluster orbiting the Milky Way loses stars to the Galaxy's tides. The escaped stars spread along the cluster's orbit, ahead of it and behind it, into a pair of thin tidal tails that can stretch across a large part of the sky. Because the stars left the cluster with small relative velocities, the stream is dynamically cold: its internal velocity spread is small, so it stays thin, and a small disturbance persists in it for a long time.
+A globular cluster orbiting the Milky Way loses stars to the Galaxy's tides. The escaped stars spread along the cluster's orbit, ahead of it and behind it, into a pair of thin tidal tails that can stretch across a large part of the sky. Because the stars left the cluster with small relative velocities, the stream is dynamically cold: its internal [velocity spread](/wiki/dark-matter/halo-astrophysics/velocity-dispersion) is small, so it stays thin, and a small disturbance persists in it for a long time.
 
 When a subhalo passes close to a stream, it gives the nearby stars a gravitational kick. The kicked stars drift apart from their neighbors along the stream, and a gap opens that grows with time. Over a stream's lifetime many such encounters leave a pattern of density fluctuations along it. The pattern is measured as a power spectrum of the stream's density along its length, which records how much fluctuation there is at each wavelength. Point-like subhalos produce localized gaps. A different small-scale structure of the halo would produce a different power spectrum.
 

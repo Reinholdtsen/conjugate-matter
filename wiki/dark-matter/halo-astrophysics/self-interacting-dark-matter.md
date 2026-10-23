@@ -23,7 +23,7 @@ sources:
 
 ## What self-scattering does to a halo [T]
 
-In the [standard cosmological model](/wiki/cosmology), dark matter is cold and collisionless: its particles feel only gravity. Simulations of such dark matter give halos whose density keeps rising toward the center, a cusp. In a cuspy halo the velocity dispersion is lowest near the center and rises outward, so the inner halo is dynamically colder than the region around it.
+In the [standard cosmological model](/wiki/cosmology), dark matter is cold and collisionless: its particles feel only gravity. Simulations of such dark matter give halos whose density keeps rising toward the center, a cusp. In a cuspy halo the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion) is lowest near the center and rises outward, so the inner halo is dynamically colder than the region around it.
 
 If the particles scatter off one another, collisions conduct heat down that temperature gradient, into the center. The heated central particles move onto wider orbits, the central density falls, and the cusp becomes a core of nearly constant density. The effect needs only a modest rate: about one scattering per particle over the age of the halo. [Debt 3a](/wiki/history/documents/debt-3-notes) of the program contrasts this with collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/debt3a-stream-stability.md`, 'Numbers at the scattering benchmark'; see [the instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
 

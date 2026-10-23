@@ -28,7 +28,7 @@ sources:
 
 The Milky Way is surrounded by many satellite galaxies far smaller than itself. The brighter ones, the classical dwarfs such as the Fornax dwarf spheroidal, have been known for decades. The ultra-faint dwarfs, with far fewer stars, were found in deep imaging surveys of this century.
 
-A dwarf's mass is measured from the motions of its stars. Spectra give each member star's velocity along the line of sight; their spread is the velocity dispersion σ, and a stellar system of size R in equilibrium has a mass of order σ²R/G inside R, with G Newton's constant. Comparing that mass with the light of the stars gives the mass-to-light ratio, M/L. In dwarf galaxies M/L is far larger than the stars can supply, and the difference is dark matter.
+A dwarf's mass is measured from the motions of its stars. Spectra give each member star's velocity along the line of sight; their spread is the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#measuring-σ-in-a-dwarf-galaxy) σ, and a stellar system of size R in equilibrium has a mass of order σ²R/G inside R, with G Newton's constant. Comparing that mass with the light of the stars gives the mass-to-light ratio, M/L. In dwarf galaxies M/L is far larger than the stars can supply, and the difference is dark matter.
 
 ## The cusp–core problem [T]
 

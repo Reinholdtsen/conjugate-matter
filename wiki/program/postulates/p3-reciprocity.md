@@ -111,7 +111,7 @@ L = (f_H²/8) Tr(H⁻¹∂H H⁻¹∂H) + (f_K²/4) Tr(H⁻¹ ∂Kᵀ H ∂K) + 
     C = KI + IK                                                      (toy note §2)
 ```
 
-The first term is the kinetic term of H, the second that of K, and the third a potential that "vanishes exactly when K is compatible with H". The K kinetic term is contracted with H to make it positive definite: "The naive Tr(∂K ∂K) is indefinite on the hyperboloid", and an indefinite kinetic term would mean a ghost (toy note §2; worklog 'Chunk 1 results').
+The first term is the kinetic term of H, the second that of K, and the third a potential that "vanishes exactly when K is compatible with H". The K kinetic term is contracted with H to make it positive definite: "The naive Tr(∂K ∂K) is indefinite on the hyperboloid", and an indefinite kinetic term would mean a [ghost](/wiki/gravity/spin-2-fields/ghosts) (toy note §2; worklog 'Chunk 1 results').
 
 ### The symmetry
 

@@ -54,7 +54,7 @@ The theorem concerns one tangent space at a time. The withdrawn manuscript [#14]
 
 For a symmetric H with ω and η in standard form, each condition says that H preserves one of the two structures:
 
-- **(η⁻¹H)² = 1** says that H preserves η, so H is an element of O(d, d). Such matrices are the generalized metrics of [double field theory](/wiki/phase-space/born-geometry/double-field-theory), built from a metric g and an antisymmetric B-field.
+- **(η⁻¹H)² = 1** says that H preserves η, so H is an element of O(d, d). Such matrices are the generalized metrics of [double field theory](/wiki/phase-space/born-geometry/double-field-theory), built from a metric g and an antisymmetric [B-field](/wiki/phase-space/born-geometry/kalb-ramond-field#in-double-field-theorys-generalized-metric-t).
 - **(ω⁻¹H)² = −1** says that H preserves ω. The positive symplectic matrices form [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain), parametrized by a complex symmetric matrix Z = X + iY with Y positive definite.
 
 Each condition alone admits a large family, and round 3 sampled both: the family with a B-field satisfies the η condition and fails the ω condition, and the Siegel family with X ≠ 0 does the reverse (families (c) and (d) in the table below). The theorem says the two families meet only in diag(g, g⁻¹), where the B-field and X both vanish. In double field theory's terms this is Freidel, Leigh and Minic's statement that H "is related to ω through a complex structure exactly when B vanishes" (#11 §5). In the terms of [the modular field](/wiki/phase-space/modular-field/modular-field-z) it is the slice X = 0: "the η-compatible locus X = 0 is the vacuum slice of §5" (#11 §6).

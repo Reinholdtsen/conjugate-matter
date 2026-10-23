@@ -46,7 +46,7 @@ The adjudication showed it was neither: the code had computed the formula it was
 
 The pre-registration was scored a miss: "Three survive (p; the ψ window; ξ), plus the ε coefficient", "**Miss**. All are wrong inputs or model choices in my scripts, not arithmetic slips". Each is a choice the script took as given:
 
-- **p**, a misremembered formula: the yield of one defect per Hubble volume without the factor (1.66 √g\*)³ (ruling 1).
+- **p**, a misremembered formula: the [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t) of one [defect](/wiki/symmetry-breaking/topological-defects) per Hubble volume without the factor (1.66 √g\*)³ (ruling 1).
 - **The ψ window**, a counting choice: "v3 omitted ψ̄ and the second doublet member (a factor of 4), and bracketed an exactly known s-wave σv up to ×10" (ruling 4; [the s-wave formula](/wiki/dark-matter/candidates/thermal-freeze-out#the-s-wave-formula-as-the-program-codes-it); [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)).
 - **ξ**, an input value: "Using N_eff,SM = 3.044, the 95% bound is ΔN_eff < 0.286" (ruling 5; SM is the Standard Model; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 - **The ε coefficient**, an assumed coupling: the "O(1) coefficient at the Planck scale" for the [kinetic-mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) operator "is unsupported" (ruling 7; [the dimension-5 operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).

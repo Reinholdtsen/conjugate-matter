@@ -107,7 +107,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 ## Scope and caveats
 
-- **Minisuperspace.** The dictionary is derived for homogeneous fluids in a homogeneous universe. #1 §4's treatment of ghosts is likewise a minisuperspace statement, and it records that "The statement for full inhomogeneous H is open" [O].
+- **Minisuperspace.** The dictionary is derived for homogeneous fluids in a homogeneous universe. #1 §4's treatment of [ghosts](/wiki/gravity/spin-2-fields/ghosts#the-lab-notebooks-minisuperspace-argument) is likewise a minisuperspace statement, and it records that "The statement for full inhomogeneous H is open" [O].
 - **Not machine-checked.** The derivation and the a⁻⁶ equation appear only in the lab notebook. #11 §10 and #9 §8 restate the result without the derivation, and no `verify/` script checks it.
 
 ## History

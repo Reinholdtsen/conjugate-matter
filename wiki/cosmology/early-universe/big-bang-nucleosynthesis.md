@@ -75,7 +75,7 @@ Once deuterium survives, nuclear reactions carry it on quickly to helium-4, the 
 Y_p ≈ 2(n/p)/(1 + n/p)        n/p taken when deuterium forms
 ```
 
-Y_p is the conventional symbol for the primordial helium mass fraction; it is not the yield Y = n/s of [the radiation era](/wiki/cosmology/early-universe/radiation-era#entropy-and-the-yield-y--ns-t). Heavier nuclei barely form: no stable nucleus has five or eight nucleons, so the chain stalls at helium-4, and by the time helium has formed, the falling temperature and density make further fusion slow [T]. What remains besides hydrogen and helium-4 is small amounts of unburnt deuterium and helium-3, and traces of lithium-7 [T].
+Y_p is the conventional symbol for the primordial helium mass fraction; it is not the [yield Y = n/s](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-yield-t) of relic abundances. Heavier nuclei barely form: no stable nucleus has five or eight nucleons, so the chain stalls at helium-4, and by the time helium has formed, the falling temperature and density make further fusion slow [T]. What remains besides hydrogen and helium-4 is small amounts of unburnt deuterium and helium-3, and traces of lithium-7 [T].
 
 ## What the abundances measure [T]
 
@@ -98,9 +98,9 @@ Deuterium is burnt more completely into helium when there are more baryons, so i
 
 The abundances also limit anything that changes the plasma during or after nucleosynthesis [T].
 
-- **Light particles.** A particle with a mass near the MeV scale that is in equilibrium during nucleosynthesis adds to the radiation density while it is relativistic, and when it annihilates it heats the particles it is in contact with, which changes both the expansion rate and the final N_eff [T]. A hidden sector at its own temperature counts in the same way, weighted by the fourth power of its temperature relative to ours ([a sector at its own temperature](/wiki/cosmology/early-universe/radiation-era#a-sector-at-its-own-temperature)).
+- **Light particles.** A particle with a mass near the MeV scale that is in equilibrium during nucleosynthesis adds to the radiation density while it is relativistic, and when it annihilates it heats the particles it is in contact with, which changes both the expansion rate and the final N_eff [T]. A hidden sector at its own temperature counts in the same way, weighted by the fourth power of its temperature relative to ours ([a hidden sector at its own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature)).
 - **Decays.** A long-lived particle that decays during or after nucleosynthesis injects energetic photons or hadrons, which can break up deuterium and helium-4 or make other light nuclei, and its products change n_b/n_γ and the radiation content [T]. The observed abundances bound the amount and the lifetime of such particles [T].
-- **Entropy release.** A period of early matter domination that ends in decays dilutes everything made before it ([early matter domination](/wiki/cosmology/early-universe/inflation-and-dilution#early-matter-domination)). The decays must be over, and the expansion back to the standard radiation-dominated form, before nucleosynthesis begins [T].
+- **Entropy release.** A period of early matter domination that ends in decays dilutes everything made before it ([early matter domination](/wiki/cosmology/early-universe/relic-yield-and-dilution#early-matter-domination)). The decays must be over, and the expansion back to the standard radiation-dominated form, before nucleosynthesis begins [T].
 
 ## Nucleosynthesis and the microwave background [T]
 
@@ -145,7 +145,7 @@ The v3 worklog, in which ψ was first added, noted that light hidden fermions wo
 
 ### Dilution before nucleosynthesis
 
-Round 3 found the soliton candidate's monopoles overproduced, and the literature it cited has hidden monopoles overclose the universe at high breaking scales "unless diluted, e.g. by early matter domination" (ruling 3, from the abstract of Liveoak, Maharana and Wells). Any such dilution would have had to end before nucleosynthesis [T] ([inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution#early-matter-domination)). [Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired) rejected that route: with a free dilution factor, "The mass would then no longer be a prediction".
+Round 3 found the soliton candidate's monopoles overproduced, and the literature it cited has hidden monopoles overclose the universe at high breaking scales "unless diluted, e.g. by early matter domination" (ruling 3, from the abstract of Liveoak, Maharana and Wells). Any such dilution would have had to end before nucleosynthesis [T] ([the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#conditions)). [Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired) rejected that route: with a free dilution factor, "The mass would then no longer be a prediction".
 
 ## Standard references
 

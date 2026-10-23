@@ -87,7 +87,7 @@ At energies far above m, with each field rescaled by the power of m that gives i
 - A_μ carries helicity ±1, the two of a massless vector;
 - φ carries helicity 0.
 
-The helicity-0 scalar φ is the polarization behind the features that separate massive from massless gravity in the next three subsections: the ghost of a mass term without the Fierz–Pauli weight, the van Dam–Veltman–Zakharov discontinuity, and strong coupling at high energy [T]. [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity) is the case in which an extra gauge symmetry removes this polarization on a de Sitter background [T].
+The helicity-0 scalar φ is the polarization behind the features that separate massive from massless gravity in the next three subsections: the [ghost](/wiki/gravity/spin-2-fields/ghosts) of a mass term without the Fierz–Pauli weight, the van Dam–Veltman–Zakharov discontinuity, and strong coupling at high energy [T]. [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity) is the case in which an extra gauge symmetry removes this polarization on a de Sitter background [T].
 
 ### The Fierz–Pauli weight
 

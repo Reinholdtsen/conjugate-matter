@@ -57,7 +57,7 @@ The numbers came from the v3 worklog's item O1: "With α_e,d = α it would be al
 
 [Round 3](/wiki/method/review/round-3) checked the window twice, independently.
 
-- **The referee** wrote its own relic code, validated it on a standard relic ("standard 100 GeV WIMP 2.2e-26 -> Omega h^2 = 0.1145", where a WIMP is a weakly interacting massive particle), and integrated ψ's freeze-out with the hidden sector's own temperature, starting from a hidden-to-visible temperature ratio ξ₀ (`review/round3/referee/audit-notes.md`, Step 2; `step2c_thr.out`).
+- **The referee** wrote its own relic code, validated it on a standard relic ("standard 100 GeV WIMP 2.2e-26 -> Omega h^2 = 0.1145", where a WIMP is a weakly interacting massive particle), and integrated ψ's freeze-out with the hidden sector's [own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature), starting from a hidden-to-visible temperature ratio ξ₀ (`review/round3/referee/audit-notes.md`, Step 2; `step2c_thr.out`).
 - **The adjudicator** recounted with the s-wave freeze-out formula in an arbitration script and put the corrected count into [the gate](/wiki/method/verification/the-gate) (`review/round3/adjudicator/round3_arb.out`; [round-3 arbitration](/wiki/method/review/round-3/arbitration)).
 
 ## Why it failed

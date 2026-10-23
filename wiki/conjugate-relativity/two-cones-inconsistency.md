@@ -33,7 +33,7 @@ sources:
 |dp/dt| ≤ c̃ = ε/(λ/c) = ℏc/λ²
 ```
 
-with λ the Born length and ε = ℏ/λ ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); [the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)). §2 writes the corresponding interval, "The dual interval on (t, **p**) is ds̃² = c̃²dt² − d**p**², preserved by rotations in the (c̃t, p) planes — the dual Lorentz group [D — structural]" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). A trajectory is dual-null when ds̃² = 0, that is when |dp/dt| = c̃: the cone has slope c̃ in the (t, p) plane, and its null directions are motions through momentum space at the maximum force. Time is the coordinate both polarizations share. The worklog's summary: "§1 uses the 3+1 version (shared time): the cone lives in (t, p) with slope c̃."
+with λ the [Born length](/wiki/phase-space/reciprocity/born-length) and ε = ℏ/λ ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); [the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)). §2 writes the corresponding interval, "The dual interval on (t, **p**) is ds̃² = c̃²dt² − d**p**², preserved by rotations in the (c̃t, p) planes — the dual Lorentz group [D — structural]" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). A trajectory is dual-null when ds̃² = 0, that is when |dp/dt| = c̃: the cone has slope c̃ in the (t, p) plane, and its null directions are motions through momentum space at the maximum force. Time is the coordinate both polarizations share. The worklog's summary: "§1 uses the 3+1 version (shared time): the cone lives in (t, p) with slope c̃."
 
 ### §6: a cone in energy and momentum
 

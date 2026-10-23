@@ -31,7 +31,7 @@ sources:
 
 A grand unified theory embeds the strong, weak and electromagnetic forces in one simple gauge group, broken at a very high scale v to the Standard Model's groups. The breaking leaves the U(1) of electromagnetism unbroken inside a simply connected group, so the theory has ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole), with mass of order the heavy vector bosons' mass divided by the unified fine-structure constant: superheavy.
 
-When the universe cooled through the unification transition at T_c ~ v, [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) produced at least about one monopole per horizon volume, a yield n/s ≳ p (T_c/M_Pl)³ with p of order 100. The yield stays fixed as the universe expands, so the present mass density of the monopoles is their mass times the yield times today's entropy density s₀:
+When the universe cooled through the unification transition at T_c ~ v, [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) produced at least about one monopole per horizon volume, a [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t) n/s ≳ p (T_c/M_Pl)³ with p of order 100. The yield stays fixed as the universe expands, so the present mass density of the monopoles is their mass times the yield times today's entropy density s₀:
 
 ```text
 ρ_M = M · (n/s) · s₀,       n/s ≳ p (T_c/M_Pl)³,       T_c ~ v,   M ∝ v

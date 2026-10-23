@@ -69,7 +69,7 @@ What the term means, in the notebook's words: "The dual gravitational sector is 
 
 The wiki's reading of the equation: the bracket is an effective Planck mass squared, and the effective strength of gravity is inversely proportional to it. The dual term grows toward the past as a⁻⁶, so at early enough times it dominates the bracket and gravity is weaker than today; as a grows, M_P² takes over and the ordinary Friedmann equation returns. The passage between the two regimes is the "step". The notebook gives neither the step's size nor its time, beyond "before BBN"; M̃ is free. #11 §10 keeps the result in one clause, "the dual Einstein term is an a⁻⁶ step in G_eff" ([the dual gravity term](/wiki/cosmology/scale-factor-duality/duality-dictionary#the-dual-gravity-term)).
 
-"Not a ghost" is a minisuperspace statement. The notebook records that "no Boulware–Deser sector arises in minisuperspace" [D] and that "The statement for full inhomogeneous H is open" [O] (#1 §4). That analysis predates the notebook's v0.4 addendum, after which the momentum-space partner of the metric is a massive spin-2 field ([the momentum graviton X](/wiki/gravity/momentum-graviton)).
+"Not a ghost" is a [minisuperspace statement](/wiki/gravity/spin-2-fields/ghosts#the-lab-notebooks-minisuperspace-argument). The notebook records that "no Boulware–Deser sector arises in minisuperspace" [D] and that "The statement for full inhomogeneous H is open" [O] (#1 §4). That analysis predates the notebook's v0.4 addendum, after which the momentum-space partner of the metric is a massive spin-2 field ([the momentum graviton X](/wiki/gravity/momentum-graviton)).
 
 ### Negative dark radiation from a closed dual space
 

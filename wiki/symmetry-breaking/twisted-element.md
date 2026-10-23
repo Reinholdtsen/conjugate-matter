@@ -66,7 +66,7 @@ The potential vanishes exactly when K is compatible with H. At H = 1 the vacua f
 K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]]                        (toy note §2)
 ```
 
-and the whole vacuum manifold is "the upper half-plane times this circle" (toy note §2; [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). The reference vacuum is (H, K) = (1, K₀), the point φ = 0, with K₀ = diag(1, −1). Its eigenline L+ is the x-axis and L− the p-axis.
+and the whole [vacuum manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t) is "the upper half-plane times this circle" (toy note §2; [Model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)). The reference vacuum is (H, K) = (1, K₀), the point φ = 0, with K₀ = diag(1, −1). Its eigenline L+ is the x-axis and L− the p-axis.
 
 ρ acts on the two fields separately (toy note §2):
 

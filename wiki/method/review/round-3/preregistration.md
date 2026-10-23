@@ -76,7 +76,7 @@ The objection is that a proposal made under the program's name does not depend o
 In order:
 
 1. "The unevaluated millicharge bounds on ψ at ε ~ 10⁻⁷–10⁻⁶, MeV–0.1 TeV. They might already exclude part of the window." ψ is the light hidden fermion v3 added so that the hidden [W′± bosons](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) could decay; with [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) of strength ε it carries a small visible charge.
-2. "Thermal-history consistency. The W′ and ψ freeze-out are computed at ξ = 1, but dark radiation requires ξ < 0.77, and Kibble production with a colder hidden sector is treated only by the ξ^(3/4) scaling." ξ is the ratio of the hidden sector's temperature to ours ([the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+2. "Thermal-history consistency. The W′ and ψ freeze-out are computed at ξ = 1, but dark radiation requires ξ < 0.77, and Kibble production with a colder hidden sector is treated only by the ξ^(3/4) scaling." ξ is the ratio of the [hidden sector's temperature](/wiki/cosmology/early-universe/hidden-sector-temperature) to ours ([the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 3. "The strong-coupling annihilation at α_m ≈ 34 (criterion 3)." α_m is the monopoles' mutual magnetic coupling, and criterion 3 is #14's request for "the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma" (§6).
 
 ### Arithmetic: "zero surviving numerical indictments"

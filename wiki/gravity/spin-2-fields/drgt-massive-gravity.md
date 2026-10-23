@@ -28,7 +28,7 @@ sources:
 
 ## The problem dRGT solves [T]
 
-The [Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli) gives a healthy massive spin-2 field, but only at quadratic order. A massive graviton that interacts, with the metric of [general relativity](/wiki/gravity/spin-2-fields/general-relativity) or with itself, needs a nonlinear potential, and Boulware and Deser showed that a generic one brings back an extra mode, a ghost ([beyond quadratic order](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t)). Their result left open whether any nonlinear potential avoids it.
+The [Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli) gives a healthy massive spin-2 field, but only at quadratic order. A massive graviton that interacts, with the metric of [general relativity](/wiki/gravity/spin-2-fields/general-relativity) or with itself, needs a nonlinear potential, and Boulware and Deser showed that a generic one brings back an extra mode, a [ghost](/wiki/gravity/spin-2-fields/ghosts) ([beyond quadratic order](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t)). Their result left open whether any nonlinear potential avoids it.
 
 De Rham and Gabadadze (2010†) worked in a limit that isolates the helicity-0 polarization of the massive graviton, where the ghost shows up as self-interactions with too many derivatives, and chose the coefficients of the potential order by order so that those interactions cancel. De Rham, Gabadadze and Tolley then resummed the series into a closed form, the paper the checkpoint cites as [9†], "Resummation of massive gravity".
 

@@ -42,7 +42,7 @@ None of the three has been checked against its source; they are part of [the †
 
 #11 §3 cites the lineage to make one point about [Born's question](/wiki/program/borns-question): that the asymmetry between position and momentum lives in the dynamics. Among the dynamical sources of the asymmetry it lists "general relativity's flat momentum fibers — the last an architectural assumption, not a measurement, and false in the one exactly solved quantum gravity (2+1d, where momenta live on a curved group manifold [5†]; curved momentum space has an independent lineage from Snyder [4†] through relative locality [6†])." The v1 paper says the same, tagged [T]: general relativity "curves x-space while leaving momentum fibers flat — an assumption of the formalism, not a measurement, and one that is *false* in the one exactly solved quantum gravity (2+1 dimensions, where momentum space is a curved group manifold) [T]" (#9 §1).
 
-The point is negative: flat momentum space is not forced by any measurement. It does not by itself say what geometry momentum space has.
+The point is negative: [flat momentum space](/wiki/phase-space/reciprocity/momentum-fibers#flat-fibers-as-an-assumption) is not forced by any measurement. It does not by itself say what geometry momentum space has.
 
 ## The program's own momentum-space geometry
 

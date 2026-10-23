@@ -85,7 +85,7 @@ In the language of waves: the position line and the momentum line carry the two 
 
 ## The vacuum manifold of the order parameter
 
-The values the order parameter can take form a manifold. Under P2′, "The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian — π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B). [The Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) is the space of all Lagrangian subspaces of phase space, all possible choices of position. It is compact, of dimension d(d+1)/2, which is 10 for d = 4 (#1 §2 [T]). Its non-contractible loop, the Maslov circle, carries the program's [dark-energy](/wiki/cosmology/dark-energy) field τ ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)).
+The values the order parameter can take form a [manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t). Under P2′, "The space of H-compatible real structures on (ℝ^{2d}, I) is {J} ≅ U(d)/O(d) = Λ(d), the Lagrangian Grassmannian — π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B). [The Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(d) is the space of all Lagrangian subspaces of phase space, all possible choices of position. It is compact, of dimension d(d+1)/2, which is 10 for d = 4 (#1 §2 [T]). Its non-contractible loop, the Maslov circle, carries the program's [dark-energy](/wiki/cosmology/dark-energy) field τ ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)).
 
 In the toy models, with d = 1, the space is a circle. The coset model's vacua at H = 1 are
 

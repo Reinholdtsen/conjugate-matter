@@ -60,7 +60,7 @@ The equilibrium density n_eq depends on how the temperature T compares with the 
 
 ### In terms of the yield
 
-Dividing by the entropy density s removes the dilution. The yield Y = n/s stays constant when nothing creates or destroys the particles, because s also falls as a⁻³ ([entropy and the yield Y = n/s](/wiki/cosmology/early-universe/radiation-era#entropy-and-the-yield-y--ns-t)). Take x = m/T as the clock, which grows as the universe cools. While the number of relativistic species does not change, T falls as 1/a, and the Boltzmann equation becomes [T]
+Dividing by the entropy density s removes the dilution. The yield Y = n/s stays constant when nothing creates or destroys the particles, because s also falls as a⁻³ ([the relic yield Y = n/s](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-yield-t)). Take x = m/T as the clock, which grows as the universe cools. While the number of relativistic species does not change, T falls as 1/a, and the Boltzmann equation becomes [T]
 
 ```text
 dY/dx = −(s⟨σv⟩ / (H x)) · (Y² − Y_eq²)
@@ -115,7 +115,7 @@ Two consequences carry the program's uses [T].
 
 The formula is an approximate solution, and its assumptions mark where a fuller treatment is needed.
 
-- **One plasma.** The species is in equilibrium, until freeze-out, with a plasma whose temperature also sets H through g\*. A hidden sector at its own temperature breaks this (next section).
+- **One plasma.** The species is in equilibrium, until freeze-out, with a plasma whose temperature also sets H through g\*. A [hidden sector at its own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature) breaks this (next section).
 - **Radiation domination and a steady g\*.** H = 1.66 √g\* T²/M_Pl holds in the radiation era, and the solution treats g\* as constant through freeze-out.
 - **s-wave annihilation.** σv is the constant σ₀. A cross-section that varies with velocity, such as p-wave annihilation or annihilation enhanced at low velocity by a long-range attraction (Sommerfeld enhancement), changes both lines.
 - **One species at a time.** The formula gives the relic of one species with g internal states. A distinct antiparticle, and each member of a multiplet, freezes out alongside it and adds its own relic. The script multiplies by 2 for W′⁺ and W′⁻, and by 4 for ψ, ψ̄ and the two members of the doublet, where v3 of #14 had counted one ([ruling 4](/wiki/method/review/round-3/rulings#ruling-4-the-ψ-relic-window)).
@@ -134,7 +134,7 @@ The anchor is independent of the manuscript: a textbook relic, not one of the pa
 
 ## Freeze-out in a sector at its own temperature [T]
 
-A hidden sector that has decoupled from the visible plasma keeps its own temperature T_h. Its ratio to the visible temperature T, written ξ = T_h/T, is set by the two sectors' histories ([a sector with its own temperature](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history#a-sector-with-its-own-temperature)). Freeze-out in such a sector differs in three ways [T].
+A hidden sector that has decoupled from the visible plasma keeps its own temperature T_h. Its ratio to the visible temperature T, written ξ = T_h/T, is set by the two sectors' histories ([a hidden sector at its own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature)). Freeze-out in such a sector differs in three ways [T].
 
 - **The clock.** A hidden species is held at equilibrium by its own plasma, so n_eq is set by T_h, and the freeze-out point refers to it: T_h ~ m/20 in the rule of thumb.
 - **The expansion rate.** H is set by the total energy density of both sectors, mostly the visible plasma's when the hidden sector is colder. At a given T_h the universe therefore expands faster than it would if everything were at T_h, which changes both x_f and the final yield. The formula above, written for one plasma, does not include this.

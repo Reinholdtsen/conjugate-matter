@@ -85,7 +85,7 @@ v2.0 also shortened the wording and dropped four details that v1 had carried: ro
 
 ## The checkpoint, v2.1: after round 3
 
-The [round-3](/wiki/method/review/round-3) review retired the third candidate, superheavy topological solitons, and found DESI's second data release against the dark-energy row. #11 v2.1 (2026-10-19, commit e1c1f67) changed five entries of the table:
+The [round-3](/wiki/method/review/round-3) review retired the third candidate, superheavy [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), and found DESI's second data release against the dark-energy row. #11 v2.1 (2026-10-19, commit e1c1f67) changed five entries of the table:
 
 | Row | v2.0 | v2.1 |
 | --- | --- | --- |

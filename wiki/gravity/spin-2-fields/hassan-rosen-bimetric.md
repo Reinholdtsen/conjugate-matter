@@ -29,7 +29,7 @@ sources:
 
 ## From one dynamical metric to two [T]
 
-In [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) the second metric f is fixed in advance. Hassan and Rosen showed that f can be made dynamical, with its own Einstein–Hilbert term and its own [Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), without bringing back the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) (the paper the checkpoint cites as [11†], "Bimetric gravity from ghost-free massive gravity"). Theories with two interacting dynamical metrics are older (Isham, Salam and Strathdee 1971†). What is new in Hassan and Rosen's theory is that the interaction is the ghost-free potential of massive gravity, and that giving f its own dynamics keeps it ghost-free. The action has the form
+In [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) the second metric f is fixed in advance. Hassan and Rosen showed that f can be made dynamical, with its own Einstein–Hilbert term and its own [Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), without bringing back the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) (the paper the checkpoint cites as [11†], "Bimetric gravity from ghost-free massive gravity"). Theories with two interacting dynamical metrics are older (Isham, Salam and Strathdee 1971†). What is new in Hassan and Rosen's theory is that the interaction is the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) potential of massive gravity, and that giving f its own dynamics keeps it ghost-free. The action has the form
 
 ```text
 S = S_EH[g; M_g] + S_EH[f; M_f] − ∫ d⁴x √−g V(g, f) + S_matter[ψ; g]

@@ -62,7 +62,7 @@ A symplectic form is an antisymmetric pairing that leaves no direction paired to
 | values | real numbers | integer multiples of 2π |
 | a Lagrangian half | a subspace on which ω vanishes | a sublattice on which ⟨·,·⟩ vanishes |
 | choosing one | a polarization: which coordinates are "position" | a duality frame: which charges are "electric" |
-| transformations preserving the pairing [T] | Sp(2d,ℝ), continuous | integer symplectic matrices; for one U(1), SL(2,ℤ) |
+| transformations preserving the pairing [T] | Sp(2d,ℝ), continuous | integer symplectic matrices; for one U(1), [SL(2,ℤ)](/wiki/electric-magnetic-duality/modular-group#charge-lattices-t) |
 
 The last row is standard mathematics [T]: a lattice is preserved only by matrices with integer entries, so the symmetries of charge space form a discrete group, while those of phase space form a continuous one. The checkpoint does not comment on the difference.
 

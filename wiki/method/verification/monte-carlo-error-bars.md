@@ -106,7 +106,7 @@ Four sets of control values exist: the worklog's fixed-seed "0.078 → 0.033 →
 ## What the error bars do not cover
 
 - **Systematic effects.** Every run starts cold, so incomplete equilibration from that start would be common to all four seeds and absent from the error bar. The guard is the control, in the worklog's words: "The ordered start is a choice; the high-T control shows the sampler does leave it when the phase is disordered". The note adds that hot-start runs at L = 64 "coarsen slowly through metastable domains" (§4).
-- **The model.** The error bars measure the simulation of the frozen-H reduction. The Monte Carlo of model I with H dynamical has not been done ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability)).
+- **The model.** The error bars measure the simulation of the frozen-H reduction. [The Monte Carlo of model I with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo) has not been done ([the reduced-model stability rule](/wiki/method/verification/reduced-model-stability)).
 
 ## Applied since
 

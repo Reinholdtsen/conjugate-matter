@@ -56,7 +56,7 @@ Both are textbook formulas [T], and both are tested by the anchors before they a
 "Anchors come first and are independent of the manuscript (a textbook identity; a published value)." There are four, and each tests a formula that the later checks reuse:
 
 - **The Friedmann coefficient.** The check passes when √(8π³/90), rounded to two decimals, equals 1.66, the coefficient of the [radiation-era](/wiki/cosmology/early-universe/radiation-era) expansion rate H = 1.66 √g\* T²/M_Pl [T]. The script's Hubble coefficient, from which the Kibble normalization p is built, is this number times √g\*.
-- **One defect per Hubble volume.** The check passes when the computed p lies between 50 and 200, against the published estimate "n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)"; it prints `[p = 104.31]`. This is the anchor that replaced the circular one ([independent anchors](/wiki/method/verification/independent-anchors)).
+- **One [defect](/wiki/symmetry-breaking/topological-defects) per Hubble volume.** The check passes when the computed p lies between 50 and 200, against the published estimate "n/s ~ 100 (T_c/M_Pl)^3 (Gangui, astro-ph/0110285)"; it prints `[p = 104.31]`. This is the anchor that replaced the circular one ([independent anchors](/wiki/method/verification/independent-anchors)).
 - **A standard relic.** The check passes when the freeze-out function, for 100 GeV and σv = 2.2×10⁻²⁶ cm³/s, gives Ωh² between 0.06 and 0.24 ("within x2" of 0.12). It prints no value. It anchors the function used for the ψ window and the W′ overclosure.
 - **One extra neutrino species.** The check passes when the dark-radiation function gives ΔN_eff = 1 for one extra neutrino species at the neutrino temperature, to 10⁻¹². It anchors the function used for the ξ bound.
 
@@ -74,7 +74,7 @@ PASS  p = 0.828 with reduced M_Pl  [0.8279]
 PASS  v3's 0.0228 drops (1.66 sqrt(g*))^3 ~ 4.6e3  [4575.6]
 ```
 
-The yield of one defect per Hubble volume is n/s = p (T_c/M_Pl)³. The script computes p in both Planck-mass conventions and checks that v3's value equals the correct one divided by (1.66 √g\*)³: the dropped factor. The ruling: "Kibble normalization: one defect per Hubble volume is p ≈ 104, not 0.023", upheld, with "My error came from misremembering the formula." See [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization).
+The [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t) of one defect per Hubble volume is n/s = p (T_c/M_Pl)³. The script computes p in both Planck-mass conventions and checks that v3's value equals the correct one divided by (1.66 √g\*)³: the dropped factor. The ruling: "Kibble normalization: one defect per Hubble volume is p ≈ 104, not 0.023", upheld, with "My error came from misremembering the formula." See [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization).
 
 ### Ruling 2: the mass and the overproduction
 
@@ -104,7 +104,7 @@ PASS  xi < 0.760  [0.7601]
 PASS  knock-on: GW upper end 3.2e7 Hz at the withdrawn benchmark  [3.17e+07]
 ```
 
-The bound is formed in the code as 2.99 + 0.34 − 3.044, Planck's upper value less the Standard Model's N_eff of 3.044. Flag 22 in `review/wiki-build-flags.md` notes that the Planck interval is asymmetric (+0.34/−0.33) and that only the +0.34 side enters, so nothing changes. The temperature ratio ξ of the hidden sector to ours is then bounded through a factor that follows both sectors separately at constant entropy until only the dark photon is relativistic, the setup of the worklog's item O2. The third line is a knock-on: the upper end of the [gravitational-wave](/wiki/cosmology/early-universe/phase-transition-gravitational-waves) band (the script's label abbreviates gravitational waves) at the withdrawn benchmark, computed with the new ξ bound. See [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history).
+The bound is formed in the code as 2.99 + 0.34 − 3.044, Planck's upper value less the Standard Model's N_eff of 3.044. Flag 22 in `review/wiki-build-flags.md` notes that the Planck interval is asymmetric (+0.34/−0.33) and that only the +0.34 side enters, so nothing changes. The [temperature ratio](/wiki/cosmology/early-universe/hidden-sector-temperature#the-bound-on-ξ) ξ of the hidden sector to ours is then bounded through a factor that follows both sectors separately at constant entropy until only the dark photon is relativistic, the setup of the worklog's item O2. The third line is a knock-on: the upper end of the [gravitational-wave](/wiki/cosmology/early-universe/phase-transition-gravitational-waves) band (the script's label abbreviates gravitational waves) at the withdrawn benchmark, computed with the new ξ bound. See [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history).
 
 ### The surviving exclusion: stable W′± overclose
 

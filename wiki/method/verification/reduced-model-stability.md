@@ -105,7 +105,7 @@ The squeeze leaves the λ-term unchanged and V_b unchanged on the line K = K_ref
 
 ## What the rule leaves open
 
-The rule was satisfied for the classical vacuum, not for the simulation: the Monte Carlo is still of the reduced model. The note lists "a Monte Carlo of model I with H dynamical" as not shown (§6), and #11 §14 item 11 keeps it open: "Still open [O]: a Monte Carlo with H dynamical". It is registered on [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction#open-a-monte-carlo-with-h-dynamical) and under [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion). Related, and also open: whether ρ's SO(2) breaks in the coupled model without a potential ([Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
+The rule was satisfied for the classical vacuum, not for the simulation: the Monte Carlo is still of the reduced model. The note lists "a Monte Carlo of model I with H dynamical" as not shown (§6), and #11 §14 item 11 keeps it open: "Still open [O]: a Monte Carlo with H dynamical". It has its own page, [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo), and is registered under [acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion). Related, and also open: whether ρ's SO(2) breaks in the coupled model without a potential ([Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
 
 ## Sources
 

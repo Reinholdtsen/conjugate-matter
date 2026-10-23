@@ -53,7 +53,7 @@ g = √(πS m)/m = √(πS) m^{−1/2},    n = ρ/m
 g n/(mσ²) = √(πS) ρ/(m^{5/2} σ²)
 ```
 
-At fixed S and fixed halo density ρ and dispersion σ, a lighter particle helps the criterion in two ways: the coupling per particle g grows as m^{−1/2}, and the number of particles in a given mass density grows as 1/m. Together with the m in the kinetic energy mσ², the criterion grows as m^{−5/2}.
+At fixed S and fixed halo density ρ and [dispersion σ](/wiki/dark-matter/halo-astrophysics/velocity-dispersion), a lighter particle helps the criterion in two ways: the coupling per particle g grows as m^{−1/2}, and the number of particles in a given mass density grows as 1/m. Together with the m in the kinetic energy mσ², the criterion grows as m^{−5/2}.
 
 ### Step 2: the critical mass
 

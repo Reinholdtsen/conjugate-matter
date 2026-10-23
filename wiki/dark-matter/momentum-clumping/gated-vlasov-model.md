@@ -59,7 +59,7 @@ The difference from the textbook case is this. For gravity or a plain contact fo
 
 ## The two solvable limits
 
-The limits compare the gate width μ with the thermal momentum spread mσ of the gas.
+The limits compare the gate width μ with the thermal [momentum spread](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-particle-island-the-stream-criterion) mσ of the gas.
 
 ### Broad gate: μ ≫ mσ (the dwarf regime)
 

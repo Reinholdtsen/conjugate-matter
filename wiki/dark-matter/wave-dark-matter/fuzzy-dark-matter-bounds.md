@@ -37,7 +37,7 @@ Each feature becomes more pronounced as the mass falls, and each gives an observ
 
 ## Bounds from the Lyman-α forest [T]
 
-Light from a distant quasar passes through clouds of neutral hydrogen in intergalactic space on its way to the observer. Each cloud absorbs at the Lyman-α wavelength of hydrogen, shifted by the cloud's own redshift, so the quasar's spectrum shows a forest of absorption lines whose pattern traces the density of the intergalactic gas along the line of sight. Its small-scale fluctuations measure the matter power spectrum on scales where fuzzy dark matter's quantum pressure suppresses it. The observed small-scale power excludes the lightest masses. No source in the program's record cites a Lyman-α analysis or gives its number.
+Light from a distant quasar passes through clouds of neutral hydrogen in intergalactic space on its way to the observer. Each cloud absorbs at the Lyman-α wavelength of hydrogen, shifted by the cloud's own [redshift](/wiki/cosmology/scale-factor-duality/redshift), so the quasar's spectrum shows a forest of absorption lines whose pattern traces the density of the intergalactic gas along the line of sight. Its small-scale fluctuations measure the matter power spectrum on scales where fuzzy dark matter's quantum pressure suppresses it. The observed small-scale power excludes the lightest masses. No source in the program's record cites a Lyman-α analysis or gives its number.
 
 ## How the program uses the bounds
 

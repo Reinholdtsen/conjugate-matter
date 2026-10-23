@@ -81,7 +81,7 @@ The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) [P] r
 | --- | --- | --- |
 | σ_T(v) across halo masses | Knee at v\* ~ 10² km/s; zero cluster signal (particle χ) | Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band |
 
-A merging cluster such as this one is therefore a place where particle χ must show no self-scattering, and a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). The program's notes model a galaxy cluster with velocity dispersion 1000 km/s, against 30 km/s for the core of a classical dwarf galaxy (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios').
+A merging cluster such as this one is therefore a place where particle χ must show no self-scattering, and a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). The program's notes model a galaxy cluster with [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-values-in-the-programs-notes) 1000 km/s, against 30 km/s for the core of a classical dwarf galaxy (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios').
 
 How much self-interaction remains above the knee depends on the gate's tail, which is open:
 

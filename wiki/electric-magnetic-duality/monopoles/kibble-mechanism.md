@@ -44,7 +44,7 @@ The correlation length cannot exceed the distance over which the field has been 
 n ≳ H(T_c)³
 ```
 
-The count is converted to a yield, the number per unit entropy n/s, because the yield stays constant as the universe expands once nothing creates or destroys the defects. In the radiation era the expansion rate and the entropy density are [T] ([the radiation era](/wiki/cosmology/early-universe/radiation-era)):
+The count is converted to a [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t), the number per unit entropy n/s, because the yield stays constant as the universe expands once nothing creates or destroys the defects. In the radiation era the expansion rate and the entropy density are [T] ([the radiation era](/wiki/cosmology/early-universe/radiation-era)):
 
 ```text
 H = 1.66 √g* T²/M_Pl,        s = (2π²/45) g* T³

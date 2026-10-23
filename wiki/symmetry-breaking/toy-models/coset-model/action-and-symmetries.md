@@ -72,7 +72,7 @@ Tr(H⁻¹∂H H⁻¹∂H) is the standard invariant metric on positive matrices 
 
 ### The K kinetic term and the ghost
 
-The obvious kinetic term for K, Tr(∂K ∂K), would carry a ghost. Version 2: "The K kinetic term is contracted with H and is positive definite. The naive Tr(∂K ∂K) is indefinite on the hyperboloid (2 db dc at K₀ = diag(1, −1))." (§2). The worklog gives the reason: "K's own target space (de Sitter dS₂) has an indefinite metric, which would give a ghost" ('Chunk 1 results'). A kinetic term of indefinite sign gives one direction of fluctuation negative energy ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models#positive-target-metrics-and-the-de-sitter-ghost)).
+The obvious kinetic term for K, Tr(∂K ∂K), would carry a [ghost](/wiki/gravity/spin-2-fields/ghosts). Version 2: "The K kinetic term is contracted with H and is positive definite. The naive Tr(∂K ∂K) is indefinite on the hyperboloid (2 db dc at K₀ = diag(1, −1))." (§2). The worklog gives the reason: "K's own target space (de Sitter dS₂) has an indefinite metric, which would give a ghost" ('Chunk 1 results'). A kinetic term of indefinite sign gives one direction of fluctuation negative energy ([coset and hyperbolic sigma models](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models#positive-target-metrics-and-the-de-sitter-ghost)).
 
 The contracted term Tr(H⁻¹ ∂Kᵀ H ∂K) is positive for every nonzero ∂K [T]: it equals the sum of the squares of the entries of H^{1/2} ∂K H^{−1/2}, since H is symmetric and positive. The sources state the positivity and check it numerically:
 

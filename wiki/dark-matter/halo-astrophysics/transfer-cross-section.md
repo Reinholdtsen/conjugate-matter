@@ -75,7 +75,7 @@ Reading a cross-section per unit mass as a bare cross-section is a large error. 
 
 ### Averaged over speeds
 
-Within a halo, pairs of particles meet at a spread of relative speeds set by the halo's velocity dispersion, so what the halo responds to is the rate averaged over that spread, ρ⟨σ_T v⟩/m. When σ_T depends on speed, a fit to one halo's structure measures this average, which is often reported as a cross-section at a speed characteristic of the halo [T].
+Within a halo, pairs of particles meet at a spread of relative speeds set by the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-spread-of-pair-speeds-t), so what the halo responds to is the rate averaged over that spread, ρ⟨σ_T v⟩/m. When σ_T depends on speed, a fit to one halo's structure measures this average, which is often reported as a cross-section at a speed characteristic of the halo [T].
 
 Halos of different mass have different internal speeds. The [Debt-3 notes](/wiki/history/documents/debt-3-notes) model a classical dwarf core with velocity dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). A set of halos from dwarf galaxies to clusters therefore samples σ_T/m over a range of speeds, and fits of such sets have been used to infer σ_T/m as a function of the collision speed (Kaplinghat, Tulin and Yu 2016 †). On the wiki's reading, this is the sense of "across halo masses" in [row 1](/wiki/predictions/self-interaction-knee). No program document cites such a fit.
 

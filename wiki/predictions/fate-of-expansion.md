@@ -55,7 +55,7 @@ The [lab notebook](/wiki/history/documents/lab-notebook) states the mechanism fo
 
 > "**The turnaround.** A cosine potential is negative over half its range. Once τ rolls past V = 0, the effective vacuum energy is negative, expansion halts, and slow contraction begins."
 
-τ thaws from the top of its potential, which is the behaviour row 4 tests; the turnaround would come later in the same motion, once the potential has fallen below zero. The [handoff](/wiki/history/documents/handoff) gives the chain in one line: "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)" (`HANDOFF.md` §2).
+τ [thaws](/wiki/cosmology/dark-energy/thawing-and-freezing) from the top of its potential, which is the behaviour row 4 tests; the turnaround would come later in the same motion, once the potential has fallen below zero. The [handoff](/wiki/history/documents/handoff) gives the chain in one line: "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)" (`HANDOFF.md` §2).
 
 ### The identity
 

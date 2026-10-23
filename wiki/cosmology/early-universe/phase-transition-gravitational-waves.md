@@ -48,7 +48,7 @@ Four quantities describe a first-order transition for this purpose [T]:
 - **the strength**, the energy the transition releases compared with the radiation energy density;
 - **the wall speed**, how fast the bubbles expand.
 
-The number of bubbles that form in one Hubble volume grows as (β/H\*)³. Since each bubble picks its vacuum independently, this number also controls how many topological defects a first-order transition leaves, on top of the minimum that [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) guarantees. The round-3 referee's estimate, as coded: "first-order transition: bubbles per Hubble volume ~ (beta/H)^3 -> p ~ 104 (beta/H)^3" (`review/round3/referee/step4.py`), with `step4.out` printing p ~ 1.0e+02, 1.0e+05 and 1.0e+08 for β/H = 1, 10 and 100. Here p is the normalization of the defect yield n/s = p (T_c/M_Pl)³ ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
+The number of bubbles that form in one Hubble volume grows as (β/H\*)³. Since each bubble picks its vacuum independently, this number also controls how many [topological defects](/wiki/symmetry-breaking/topological-defects) a first-order transition leaves, on top of the minimum that [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) guarantees. The round-3 referee's estimate, as coded: "first-order transition: bubbles per Hubble volume ~ (beta/H)^3 -> p ~ 104 (beta/H)^3" (`review/round3/referee/step4.py`), with `step4.out` printing p ~ 1.0e+02, 1.0e+05 and 1.0e+08 for β/H = 1, 10 and 100. Here p is the normalization of the defect [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t) n/s = p (T_c/M_Pl)³ ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
 
 ## How the waves are made [T]
 
@@ -69,7 +69,7 @@ After emission the waves travel freely, and their frequency falls as 1/a with th
 - entropy conservation, g\*s T³ a³ = constant, gives a\*/a₀ in terms of today's temperature, the temperature T\* and the counts of relativistic degrees of freedom then and now;
 - the expansion rate at the transition is H\* = 1.66√g\* T\*²/M_Pl, so writing f\* = (f\*/H\*)·H\* turns the emitted frequency into a multiple of a quantity fixed by T\*.
 
-Combining the two, the T\*² of the expansion rate and the 1/T\* of the redshift leave one power of T\*, and the √g\* of the expansion rate and the g\*^{−1/3} of the redshift leave a weak g\*^{1/6} [T]. The round-3 referee's script (`review/round3/referee/step2a.py`) and `verify/soliton_obituary.py` both code the standard numerical form:
+Combining the two, the T\*² of the expansion rate and the 1/T\* of the [redshift](/wiki/cosmology/scale-factor-duality/redshift) leave one power of T\*, and the √g\* of the expansion rate and the g\*^{−1/3} of the redshift leave a weak g\*^{1/6} [T]. The round-3 referee's script (`review/round3/referee/step2a.py`) and `verify/soliton_obituary.py` both code the standard numerical form:
 
 ```text
 f₀ = 1.65×10⁻⁵ Hz × (f*/H*) × (T*/100 GeV) × (g*/100)^{1/6}
@@ -81,7 +81,7 @@ The coefficient is the frequency today of a wave emitted at one Hubble rate (f\*
 
 The strength of the signal is usually quoted as Ω_gw, the energy density of the waves per logarithmic frequency interval as a fraction of the critical density. It grows with the square of the fraction of the total energy density that the transition puts into bulk motion of the plasma and the walls, and it falls as the transition gets shorter (larger β/H\*), because the source then acts for less time and on smaller scales [T]. After emission the waves dilute like radiation, so their share of the radiation density stays fixed apart from changes in the number of relativistic species [T].
 
-A transition in a sector that holds only part of the energy density can put at most that part into motion. For a hidden sector colder than ours by the temperature ratio ξ, that share falls roughly as ξ⁴ when it is small [T]. #14 §4: "The amplitude is suppressed by the hidden sector's share of the energy density at the transition, which is small for xi < 0.77."
+A transition in a sector that holds only part of the energy density can put at most that part into motion. For a hidden sector colder than ours by the [temperature ratio](/wiki/cosmology/early-universe/hidden-sector-temperature) ξ, that share falls roughly as ξ⁴ when it is small [T]. #14 §4: "The amplitude is suppressed by the hidden sector's share of the energy density at the transition, which is small for xi < 0.77."
 
 ## Primordial backgrounds [T]
 

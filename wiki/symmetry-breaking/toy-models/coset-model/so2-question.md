@@ -68,7 +68,7 @@ The worklog's third unpredicted finding was stated for 1+1: "In 1+1, 'only ω ri
 
 ## What the sources leave unsaid
 
-The sources give no method for settling the question and no expectation for its answer. The note lists it beside "a Monte Carlo of model I with H dynamical" (§6), which [#11](/wiki/history/documents/checkpoint) §14 item 11 also keeps open [O] ([the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction#open-a-monte-carlo-with-h-dynamical)); the note lists the two as separate items. The worklog's separate remark that the continuous breaking is allowed in 3+1 dimensions, where the theorem does not apply, is an uncomputed remark recorded at [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle); the note covers only 1+1 with d = 1.
+The sources give no method for settling the question and no expectation for its answer. The note lists it beside "a Monte Carlo of model I with H dynamical" (§6), which [#11](/wiki/history/documents/checkpoint) §14 item 11 also keeps open [O] ([Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo)); the note lists the two as separate items. The worklog's separate remark that the continuous breaking is allowed in 3+1 dimensions, where the theorem does not apply, is an uncomputed remark recorded at [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle); the note covers only 1+1 with d = 1.
 
 ## Sources
 

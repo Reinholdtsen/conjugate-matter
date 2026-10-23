@@ -101,7 +101,7 @@ The toy models work with phase space ℝ² (d = 1) and fields on a 1+1-dimension
 
 ### The polarization is a Goldstone angle [D][V]
 
-A Goldstone direction is a direction along the vacuum manifold of a broken continuous symmetry: moving along it costs no energy [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). In the [coset toy model](/wiki/symmetry-breaking/toy-models/coset-model) (model I) the vacua at H = 1 are
+A Goldstone direction is a direction along the [vacuum manifold](/wiki/symmetry-breaking/topological-defects#the-vacuum-manifold-t) of a broken continuous symmetry: moving along it costs no energy [T] ([Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs)). In the [coset toy model](/wiki/symmetry-breaking/toy-models/coset-model) (model I) the vacua at H = 1 are
 
 ```text
 K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]]                            (toy note §2)
@@ -132,7 +132,7 @@ The sources do not agree on which real structure to name. #11 §4 names J as "th
 The refinement says what a definite polarization needs; it does not say where that comes from.
 
 - **The potential's origin.** No derivation of the ρ-preserving potential exists. #11 §14 item 11 lists "a derivation of the potential" as still open [O], the toy-model note lists "a derivation of the ρ-preserving potential, which introduces a rigid, unordered pair of axes" under "Not shown" (§6), and `CLAUDE.md` names it as an open end. Before the toy models, the Debt-1 note had listed "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" as open (#5 §F). The lab notebook's v0.1 had attributed the potential's existence to "the explicit breaking of Grassmannian rotations by the rigid ω (P2)" (#1 §3); the current position is the refinement's, that ω alone leaves the angle free and a definite polarization needs "more structure than ω alone" (#11 §4). See [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
-- **The unreduced model.** [The ordered phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) has been simulated only with [H frozen](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction); "a Monte Carlo with H dynamical" is open (#11 §14 item 11). So is "whether ρ's SO(2) breaks in the coupled model without a potential" (toy note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
+- **The unreduced model.** [The ordered phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) has been simulated only with [H frozen](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction); "a Monte Carlo with H dynamical" is open (#11 §14 item 11; [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo)). So is "whether ρ's SO(2) breaks in the coupled model without a potential" (toy note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
 - **Beyond the toy.** Everything above is for d = 1; "anything beyond d = 1" is listed as not shown (toy note §6).
 
 These items are registered in [open problems](/wiki/status/open-problems).

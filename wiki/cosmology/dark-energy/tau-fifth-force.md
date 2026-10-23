@@ -25,7 +25,7 @@ The [lab notebook](/wiki/history/documents/lab-notebook)'s section "Consistency 
 
 > **Fifth forces.** τ is a (pseudo-)Goldstone: derivatively coupled, no tree-level Yukawa to SM matter, safe from torsion-balance bounds despite being ultralight. **[D]**
 
-τ is the program's dark-energy field, the angle around the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase) of the space of polarizations ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)). The statement has three parts: τ is a pseudo-Goldstone field; therefore its couplings to ordinary matter are derivative, with no [Yukawa coupling](/wiki/gravity/spin-2-fields/yukawa-forces#the-field-τ-no-coupling-so-no-yukawa-force) at tree level; therefore it does not produce the static force that torsion balances test, however light it is. The sections below take them in reverse order.
+τ is the program's dark-energy field, the angle around the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase) of the space of polarizations ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)). The statement has three parts: τ is a [pseudo-Goldstone field](/wiki/cosmology/dark-energy/axion-like-fields#τ-an-axion-like-dark-energy-field); therefore its couplings to ordinary matter are derivative, with no [Yukawa coupling](/wiki/gravity/spin-2-fields/yukawa-forces#the-field-τ-no-coupling-so-no-yukawa-force) at tree level; therefore it does not produce the static force that torsion balances test, however light it is. The sections below take them in reverse order.
 
 ## Fifth forces and how they are tested [T]
 

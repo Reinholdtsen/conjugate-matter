@@ -47,7 +47,7 @@ This is the standard resolution of [the monopole problem](/wiki/electric-magneti
 
 ### The start of the radiation era
 
-At the end of inflation the inflaton oscillates about the minimum of its potential and decays. Its decay products scatter, thermalize, and form a hot plasma whose temperature, the reheating temperature T_RH, is the starting point of [the radiation era](/wiki/cosmology/early-universe/radiation-era) [T]. Everything the hot early universe produces later, thermal relics and defects alike, is produced after reheating, and so is not diluted by inflation.
+At the end of inflation the inflaton oscillates about the minimum of its potential and decays. Its decay products scatter, thermalize, and form a hot plasma whose temperature, the reheating temperature T_RH, is the starting point of [the radiation era](/wiki/cosmology/early-universe/radiation-era) [T]. Everything the hot early universe produces later, thermal relics and [defects](/wiki/symmetry-breaking/topological-defects) alike, is produced after reheating, and so is not diluted by inflation.
 
 ### Ordering: which relics survive
 
@@ -60,7 +60,7 @@ The withdrawn soliton manuscript [#14](/wiki/dark-matter/candidates/soliton-cand
 
 ### A hidden sector reheated colder
 
-If the inflaton, or whatever reheats the universe, decays into two sectors that do not interact, each sector thermalizes separately, and they can start at different temperatures. Their ratio, the hidden-to-visible temperature ratio ξ, is then set by the decay, and it persists only while the two sectors stay out of contact [T]. #14 needed ξ below 1 to keep the contribution of its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)'s massless photon to the radiation density within the measured bound: it required "the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix" (#14 §4), and its self-assessment listed "the colder reheating of the hidden sector" as conjectural (#14 §6). [Round 3](/wiki/method/review/round-3) corrected the bound to ξ < 0.760 [V] (ruling 5; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
+If the inflaton, or whatever reheats the universe, decays into two sectors that do not interact, each sector thermalizes separately, and they can start at different temperatures. Their ratio, the [hidden-to-visible temperature ratio](/wiki/cosmology/early-universe/hidden-sector-temperature#how-the-ratio-is-set-reheating-t) ξ, is then set by the decay, and it persists only while the two sectors stay out of contact [T]. #14 needed ξ below 1 to keep the contribution of its [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)'s massless photon to the radiation density within the measured bound: it required "the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix" (#14 §4), and its self-assessment listed "the colder reheating of the hidden sector" as conjectural (#14 §6). [Round 3](/wiki/method/review/round-3) corrected the bound to ξ < 0.760 [V] (ruling 5; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 
 These are requirements of the retired candidate, and the numbers below belong to the soliton episode. The round-3 referee listed what a colder start would demand of reheating (`review/round3/referee/audit-notes.md`, Step 4(c) item 9):
 

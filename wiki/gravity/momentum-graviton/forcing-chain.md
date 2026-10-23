@@ -31,7 +31,7 @@ sources:
   - "review/wiki-build-flags.md items 7, 25"
 ---
 
-*The forcing chain is the sequence of arguments in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 that leaves the [momentum graviton X](/wiki/gravity/momentum-graviton) one consistent option: to be a massive spin-2 field. [Shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) rules out an auxiliary X, a field with no motion of its own. The [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) make X a second graviton-like gauge field. If that gauge symmetry stays unbroken, X is a second massless graviton, and a theorem excludes two massless gravitons that interact; X has to interact, with the metric and with [dark matter](/wiki/dark-matter). If the gauge symmetry is dropped from the kinetic term, the time–space components of a symmetric tensor carry kinetic energy of the wrong sign in spacetime's signature, a ghost. Mass is the exit that remains, and it comes from the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations). The chain replaced an earlier three-way question about X (healthy, auxiliary, or a ghost that would have killed the program's geometric sector) with the answer "massive spin-2, conditionally healthy", the condition being [the tuning test](/wiki/gravity/tuning-test). It is derived and rests on literature theorems [D + T]; no script checks it.*
+*The forcing chain is the sequence of arguments in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 that leaves the [momentum graviton X](/wiki/gravity/momentum-graviton) one consistent option: to be a massive spin-2 field. [Shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) rules out an auxiliary X, a field with no motion of its own. The [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) make X a second graviton-like gauge field. If that gauge symmetry stays unbroken, X is a second massless graviton, and a theorem excludes two massless gravitons that interact; X has to interact, with the metric and with [dark matter](/wiki/dark-matter). If the gauge symmetry is dropped from the kinetic term, the time–space components of a symmetric tensor carry kinetic energy of the wrong sign in spacetime's signature, a [ghost](/wiki/gravity/spin-2-fields/ghosts). Mass is the exit that remains, and it comes from the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations). The chain replaced an earlier three-way question about X (healthy, auxiliary, or a ghost that would have killed the program's geometric sector) with the answer "massive spin-2, conditionally healthy", the condition being [the tuning test](/wiki/gravity/tuning-test). It is derived and rests on literature theorems [D + T]; no script checks it.*
 
 **Status:** Alive — [D + T] in #11 §7.1 and [calc note #6](/wiki/history/documents/debt-1-notes) (`notes/debt1a-ii-X-classification.md` §2) — a chain of symmetry and no-go arguments, not machine-checked; the three-way classification it replaced is superseded (below).
 
@@ -48,7 +48,7 @@ The † marks citations from model memory, not yet checked against the source, a
 | (i) | constant shifts Z → Z + B are exact symmetries: X is never auxiliary | [D — rigorous] (§1) | [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) |
 | (ii) | local shifts δX_μν = ∂₍μλ_ν₎: X is a second graviton-like gauge field | [D + T] (§2) | [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) |
 | massless excluded | massless multi-graviton cross-interactions are inconsistent | [T] (§2) | [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) |
-| ungauged excluded | no ghost-free two-derivative kinetic term without the gauge invariance | [T — standard] (§2) | [the Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli) |
+| ungauged excluded | no ghost-free two-derivative kinetic term without the gauge invariance | [T — standard] (§2) | [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction) |
 | (iii) | the polarization choice breaks the dual diffeomorphisms; X becomes massive | [D — structural] (§3) | [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) |
 
 ## Steps (i) and (ii): what kind of field X is
@@ -80,7 +80,7 @@ A massless X would therefore be a second massless graviton that interacts, which
 
 > Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]
 
-(#6 §2.) #11 states it as "ungauged X by Lorentz signature" (§7.1), and its abstract counts "a signature obstruction" among the structural results that force X to be massive (§1); calc note #7 uses the same name (§5).
+(#6 §2.) #11 states it as "ungauged X by Lorentz signature" (§7.1), and its abstract counts "a signature obstruction" among the structural results that force X to be massive (§1); calc note #7 uses the same name (§5). The result, what it assumes and its literature are on [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction).
 
 ### What it says [T]
 

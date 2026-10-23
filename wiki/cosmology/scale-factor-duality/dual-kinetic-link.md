@@ -37,7 +37,7 @@ From this entry the notebook draws its conclusion (#1 §6): "the natural source 
 
 #1 §7 then implements dark energy: "Identify dark energy with the Maslov modulus τ sitting near the top of its cosine potential (hilltop axion quintessence)." The potential is V(τ) = V₀[1 + cos(τ/f)] (#1 §3; #11 §10).
 
-A scalar field near the top of its potential, changing slowly, has w = (½τ̇² − V)/(½τ̇² + V) close to −1, because its potential energy V far exceeds its kinetic energy ½τ̇² [T]. Its dark energy is potential energy, held in our frame. This is the standard hilltop quintessence of [quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence), and it is the form #11 keeps: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1" (§10).
+A scalar field near the top of its potential, changing slowly, has w = (½τ̇² − V)/(½τ̇² + V) close to −1, because its potential energy V far exceeds its kinetic energy ½τ̇² [T]. Its dark energy is potential energy, held in our frame. This is the standard [hilltop quintessence](/wiki/cosmology/dark-energy/thawing-and-freezing#hilltop-models) of [quintessence and the equation of state](/wiki/cosmology/dark-energy/quintessence), and it is the form #11 keeps: "τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1" (§10).
 
 ## The gap
 

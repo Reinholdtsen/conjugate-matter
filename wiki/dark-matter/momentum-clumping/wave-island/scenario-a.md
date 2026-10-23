@@ -48,7 +48,7 @@ Debt 3b then compares the stream condition with the core condition in each envir
 R_X ≡ Γ_self(X)/Ω_X = κ (t_dyn,X/t_age) (ρ_X/ρ_d)² (σ_d/σ_X)² (min(σ_X, v*)/σ_X)⁴
 ```
 
-with ρ_d and σ_d the density and dispersion of the classical dwarf core used for the fit. The note does not write the step out. On the wiki's reading, dividing Γ_self in environment X by Γ_self in the dwarf removes c, g and m, and multiplying by t_dyn,X and using Γ_self(dwarf) = κ/t_age gives the formula; the absence of a gate factor for the dwarf means the dwarf is taken to be gate-open (σ_d ≲ v\*). Streams form where R_X ≳ 1. Debt 3b's table, at κ = 1:
+with ρ_d and σ_d the density and [dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion) of the classical dwarf core used for the fit. The note does not write the step out. On the wiki's reading, dividing Γ_self in environment X by Γ_self in the dwarf removes c, g and m, and multiplying by t_dyn,X and using Γ_self(dwarf) = κ/t_age gives the formula; the absence of a gate factor for the dwarf means the dwarf is taken to be gate-open (σ_d ≲ v\*). Streams form where R_X ≳ 1. Debt 3b's table, at κ = 1:
 
 | Environment (ρ in GeV/cm³, σ in km/s) | t_dyn | R_X (κ = 1) |
 |---|---|---|
@@ -108,7 +108,7 @@ For "m ≳ 10⁻²⁰ eV (the bulk of the wave island): M_crit ≪ M_core — of
 
 > grow to M_crit → collapse → eject an O(0.1–1) fraction as fast/relativistic waves (bosenova; LPT 2017-type result [T]) → remnant regrows.
 
-The 2017 paper is the second item of the checkpoint's [13]†, on relativistic axions from collapsing Bose stars. What decides the galaxy's fate is the speed of the ejected waves: "Ejecta velocities are set by the dense collapse stage and vastly exceed a UFD escape velocity of ~10 km/s: the condensate is a mass drain." Each cycle removes part of the galaxy's dark matter, and the remnant regrows from the remaining halo to be processed again. Debt 3c bounds the outcome even under a slowed rate:
+The 2017 paper is the second item of the checkpoint's [13]†, on relativistic [axions](/wiki/cosmology/dark-energy/axion-like-fields#as-dark-matter) from collapsing Bose stars. What decides the galaxy's fate is the speed of the ejected waves: "Ejecta velocities are set by the dense collapse stage and vastly exceed a UFD escape velocity of ~10 km/s: the condensate is a mass drain." Each cycle removes part of the galaxy's dark matter, and the remnant regrows from the remaining halo to be processed again. Debt 3c bounds the outcome even under a slowed rate:
 
 > The UFD converts its cold dark matter into escaping radiation at a rate bounded below by the self-regulated relaxation rate. Even if heating and expansion throttle Γ down to ~1/t_age (the gravothermal self-limit), an O(1) fraction of the core mass is processed and removed within the lifetime — unlike SIDM, where relaxation is elastic and mass stays.
 

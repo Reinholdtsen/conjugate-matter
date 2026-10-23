@@ -49,7 +49,7 @@ The last column anticipates the two-number description of w set out below ([wher
 
 ## Thawing [T]
 
-A thawing field starts out held by the damping at some initial value φᵢ, with φ̇ ≈ 0 and w ≈ −1. As the expansion slows, the damping weakens, the field begins to move toward lower potential energy, its kinetic energy grows, and w rises above −1. The departure from −1 comes late: w stays close to −1 for most of the expansion history and changes mainly at low redshift, in the recent past.
+A thawing field starts out held by the damping at some initial value φᵢ, with φ̇ ≈ 0 and w ≈ −1. As the expansion slows, the damping weakens, the field begins to move toward lower potential energy, its kinetic energy grows, and w rises above −1. The departure from −1 comes late: w stays close to −1 for most of the expansion history and changes mainly at low [redshift](/wiki/cosmology/scale-factor-duality/redshift), in the recent past.
 
 ### The initial velocity drops out
 

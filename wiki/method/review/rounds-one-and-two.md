@@ -39,7 +39,7 @@ Only a summary survives. The account of the rounds on this page comes from the h
 
 The referee was the console's: in the handoff's words for round 1, "fresh Sonnet, web search, blind", and for round 2, "same protocol, on v2". It received the manuscript and an adversarial prompt that asked it to grade the paper A (coherent speculative physics), B (flawed but salvageable) or C (confabulation), name the single weakest link, and check citations, theorems, consistency, arithmetic and omitted constraints. It could search the web but not run code ([the skeptic review console](/wiki/method/review/skeptic-console)).
 
-The manuscript was #14, the proposal that dark matter consists of superheavy topological solitons, monopole-class defects of a hidden gauge sector identified with the momentum-polarized half of broken [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)). Round 1 reviewed version 1; round 2 reviewed version 2, which "incorporates all valid round-1 findings" (`HANDOFF.md` §3).
+The manuscript was #14, the proposal that dark matter consists of superheavy [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), monopole-class defects of a hidden gauge sector identified with the momentum-polarized half of broken [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)). Round 1 reviewed version 1; round 2 reviewed version 2, which "incorporates all valid round-1 findings" (`HANDOFF.md` §3).
 
 ## Round 1: #14 v1
 
@@ -78,7 +78,7 @@ The manuscript was #14, the proposal that dark matter consists of superheavy top
 
 Cutting v3 from the pending list turned up three findings "neither referee raised" (`review/v3-worklog.md`):
 
-- **F1**, the mass window was not "Kibble-only": the [Kibble estimate](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) fixes a single mass, and at the 10¹⁶ GeV benchmark the observed density needs entropy dilution of 1.3×10¹⁰. The benchmark moved to 3×10¹³ GeV ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
+- **F1**, the mass window was not "Kibble-only": the [Kibble estimate](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) fixes a single mass, and at the 10¹⁶ GeV benchmark the observed density needs [entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t) of 1.3×10¹⁰. The benchmark moved to 3×10¹³ GeV ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
 - **F2**, v2 used the weak value of the coupling that sets the soliton mass in one section and the strong value in others; v3 reframed the coupling hypothesis ([F2, superseded](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass)).
 - **L1**, from the literature: with a massless dark photon, mixing gives the hidden monopoles no ordinary magnetic flux, so v2's mixing premise was wrong for its own setup.
 

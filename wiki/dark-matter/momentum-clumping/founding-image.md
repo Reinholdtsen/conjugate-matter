@@ -58,7 +58,7 @@ In the ordinary Jeans problem, self-gravity depends on the particles' separation
 
 ### The analogy with superconductivity
 
-The notebook continued: "The BCS analogy is exact in structure: a momentum-gated attraction is precisely the pairing interaction, and below a critical velocity dispersion the core of a halo condenses — momentum-space clumping, realized." BCS is the Bardeen–Cooper–Schrieffer theory of superconductivity, in which an attraction acting only between electrons within a thin shell of momentum near the Fermi surface makes the electron gas unstable to pairing below a critical temperature [T]. In the notebook's analogy, the halo's velocity dispersion plays the role of the temperature.
+The notebook continued: "The BCS analogy is exact in structure: a momentum-gated attraction is precisely the pairing interaction, and below a critical velocity dispersion the core of a halo condenses — momentum-space clumping, realized." BCS is the Bardeen–Cooper–Schrieffer theory of superconductivity, in which an attraction acting only between electrons within a thin shell of momentum near the Fermi surface makes the electron gas unstable to pairing below a critical temperature [T]. In the notebook's analogy, the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-maxwellian-and-the-dynamical-temperature) plays the role of the temperature.
 
 ### What it was meant to explain
 

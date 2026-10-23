@@ -42,7 +42,7 @@ As usually summarized (†, from model memory; #13 states none of it), Caianiell
 
 ## Planck units [T]
 
-The Planck length l_P = √(ℏG/c³) and the Planck energy E_Planck = √(ℏc⁵/G) are built from ℏ, c and G; their ratio is c⁴/G, the Planck force, which contains no ℏ, as the section above requires of any force built from c and G [T]. #13 sets its Born length equal to the Planck length, written λ² = ℏG/c³, which turns c̃ = ℏc/λ² into c⁴/G (§1; [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)), and obtains the Planck energy as "E = l_P · c⁴/G = √(ℏc⁵/G)" (§4; [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell)). The units, the Planck mass and its two conventions are on [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units).
+The Planck length l_P = √(ℏG/c³) and the Planck energy E_Planck = √(ℏc⁵/G) are built from ℏ, c and G; their ratio is c⁴/G, the Planck force, which contains no ℏ, as the section above requires of any force built from c and G [T]. #13 sets its [Born length](/wiki/phase-space/reciprocity/born-length) equal to the Planck length, written λ² = ℏG/c³, which turns c̃ = ℏc/λ² into c⁴/G (§1; [The maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)), and obtains the Planck energy as "E = l_P · c⁴/G = √(ℏc⁵/G)" (§4; [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell)). The units, the Planck mass and its two conventions are on [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units).
 
 ## What #13 takes from this literature
 

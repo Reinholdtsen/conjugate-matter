@@ -41,7 +41,7 @@ The space of vacua is the coset SU(2)/U(1), which is the 2-sphere S² [T].
 
 ## Why it is stable: winding [T]
 
-A configuration of finite energy must approach a vacuum far from its centre, so at large distance r the direction of Φ defines a map from the sphere at infinity to the sphere of vacua. Such maps fall into classes labelled by an integer, the number of times the first sphere wraps the second, and two maps of different class cannot be deformed into each other. The classes form the homotopy group π₂(S²) = ℤ. Time evolution is continuous, so the integer is conserved: a configuration with winding number one cannot decay to the vacuum, whatever its energy. The simplest such configuration is the hedgehog, in which Φ at each point of the sphere at infinity points radially outward, Φᵃ → v r̂ᵃ.
+A configuration of finite energy must approach a vacuum far from its centre, so at large distance r the direction of Φ defines a map from the sphere at infinity to the sphere of vacua. Such maps fall into classes labelled by an integer, the number of times the first sphere wraps the second, and two maps of different class cannot be deformed into each other. The classes form the [homotopy group](/wiki/symmetry-breaking/topological-defects#homotopy-groups-t) π₂(S²) = ℤ. Time evolution is continuous, so the integer is conserved: a configuration with winding number one cannot decay to the vacuum, whatever its energy. The simplest such configuration is the hedgehog, in which Φ at each point of the sphere at infinity points radially outward, Φᵃ → v r̂ᵃ.
 
 #14 §3 states it in this form: "SU(2)_d -> U(1)_d has pi_2(SU(2)/U(1)) = pi_2(S^2) = Z and supports 't Hooft-Polyakov monopoles [15], stable by topological charge."
 
