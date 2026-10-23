@@ -15,7 +15,8 @@ Checks, in order of severity:
   frontmatter  missing or invalid title, weight, status, description, sources
                (pages), or bookCollapseSection (sections)
   weight       two siblings share a weight
-  section      a folder under wiki/ has no _index.md, or a file is named claude.md
+  section      a folder under wiki/ has no _index.md, a file is named claude.md,
+               or two files serve at one URL (a.md and a/_index.md)
   gist         the body does not open with an italic plain-language passage
   statusline   a page that is not a section index has no **Status:** line
   star         an unescaped starred symbol such as v* or M*, whose asterisk can
@@ -426,7 +427,7 @@ def main(argv):
     if not (WIKI / "_index.md").exists():
         err("section", WIKI, 1, "wiki/_index.md (the home page) is missing")
 
-    pages, parsed = {}, {}
+    pages, parsed, by_url = {}, {}, {}
     for f in files:
         text = f.read_text(encoding="utf-8")
         fm_lines, body, offset = split_frontmatter(text)
@@ -440,6 +441,10 @@ def main(argv):
                 if slug is not None:
                     heading_id(slug, anchors)
         url = page_url(f)
+        # Hugo lowercases URLs, so a.md and a/_index.md, or A.md and a.md, collide.
+        twin = by_url.setdefault(url.lower(), f)
+        if twin != f:
+            err("section", f, 1, f"serves at {url} like {twin.relative_to(ROOT)}; Hugo builds only one of them")
         pages[url] = {"anchors": anchors, "path": f}
         parsed[f] = (fm, fm_lines, fm_errors, clean, fences)
 
