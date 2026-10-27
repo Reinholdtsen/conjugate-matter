@@ -18,7 +18,7 @@ fi
 
 status=0
 
-for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py verify/toy_gw.py verify/toy_s4.py verify/toy_s5.py; do
+for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py verify/toy_gw.py verify/toy_s4.py verify/toy_s5.py verify/phase_space_diameter.py; do
   if ! "$py" "$script"; then
     echo "$script FAILED"
     status=1
