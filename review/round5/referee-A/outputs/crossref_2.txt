@@ -1,0 +1,12 @@
+### downloads/crossref_search/leethesis.json
+PARSE FAIL
+### downloads/crossref_search/lightness.json
+  10.1142/s021827182342004x | ['On the inevitable lightness of vacuum'] | Laurent Freidel, Jerzy Kowalski-Glikman, Robert G. Leigh, Djordje Minic | ['International Journal of Modern Physics D'] vol 32 issue 14 page None art 2342004 | [2023, 10, 15]
+  10.1016/j.rec.2022.09.003 | ['The inevitable lightness of echocardioscopy: teamwork, training and quality assurance are indispensable'] | Enric Cascos, Marta Sitges | ['Revista Española de Cardiología (English Edition)'] vol 76 issue 2 page 83-85 art None | [2023, 2]
+  10.1103/physrevd.107.126016 | ['Vacuum energy density and gravitational entropy'] | Laurent Freidel, Jerzy Kowalski-Glikman, Robert G. Leigh, Djordje Minic | ['Physical Review D'] vol 107 issue 12 page None art 126016 | [2023, 6, 16]
+### downloads/crossref_search/luben.json
+  10.1088/1361-6382/ab4f9b | ['Bimetric cosmology is compatible with local tests of gravity'] | Marvin Lüben, Edvard Mörtsell, Angnis Schmidt-May | ['Classical and Quantum Gravity'] vol 37 issue 4 page 047001 art None | [2020, 2, 20]
+  10.1088/1475-7516/2012/03/042 | ['Cosmological solutions in bimetric gravity and their observational tests'] | Mikael von Strauss, Angnis Schmidt-May, Jonas Enander, Edvard Mörtsell, S.F Hassan | ['Journal of Cosmology and Astroparticle Physics'] vol 2012 issue 03 page 042-042 art None | [2012, 3, 30]
+  10.1142/9789812701992_0024 | ['VARIABLE SPEED OF LIGHT COSMOLOGY AND BIMETRIC GRAVITY: AN ALTERNATIVE TO STANDARD INFLATION'] | J. W. MOFFAT | ['The Launching of La Belle Epoque of High Energy Physics and Cosmology'] vol None issue None page None art None | [2005, 1]
+### downloads/crossref_search/soman.json
+PARSE FAIL

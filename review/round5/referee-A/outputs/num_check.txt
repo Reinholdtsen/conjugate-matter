@@ -1,0 +1,124 @@
+Planck units: lP = 1.616255e-35 m, mP = 2.176434e-08 kg, TP = 1.416784e+32 K, EP = 1.22089e+28 eV
+
+kappa (sphere, D_p = 2<|p|>)                                           | ms:          1.708 | mine: 1.70812
+<E>/kT                                                                 | ms:   pi^4/30zeta3 | mine: 2.70118
+kappa with D_p = kT/c                                                  | ms:          0.316 | mine: 0.31618
+kappa with D_p = <|p|>                                                 | ms:          0.854 | mine: 0.85406
+kappa for cube of side D_x                                             | ms:          1.377 | mine: 1.37674
+
+Omega_r (photons + 3.046 massless nu)                                  | ms:              - | mine: 9.2096e-05
+Omega_Lambda = 1 - Om - Or                                             | ms:        (0.685) | mine: 0.68491
+particle horizon today [Gly]                                           | ms:           46.1 | mine: 46.133
+particle horizon today [m]                                             | ms:        4.36e26 | mine: 4.3645e+26
+chi H0/c                                                               | ms:           3.18 | mine: 3.1800
+cosmic event horizon today [Gly]                                       | ms:           16.7 | mine: 16.679
+comoving particle horizon at t->inf [Gly]                              | ms:              - | mine: 62.812
+  sensitivity: particle horizon for 67.36/0.3153 [Gly]                 | ms:              - | mine: 46.142
+  sensitivity: CEH for 67.36/0.3153 [Gly]                              | ms:              - | mine: 16.692
+
+n_gamma today [cm^-3]                                                  | ms:              - | mine: 410.73
+N_gamma (R = 46.1 Gly)                                                 | ms:        1.43e89 | mine: 1.4273e+89
+N_gamma (R = my particle horizon)                                      | ms:              - | mine: 1.4304e+89
+g_s today                                                              | ms:          3.909 | mine: 3.9091
+entropy per photon, photons only                                       | ms:           3.60 | mine: 3.6016
+entropy per photon, photons + neutrinos                                | ms:           7.04 | mine: 7.0394
+S (photons + neutrinos), units k_B                                     | ms:        1.01e90 | mine: 1.0047e+90
+S photons only (R = 46.1 Gly)                                          | ms: (E&L: 5.40e89) | mine: 5.1406e+89
+D_x [m]                                                                | ms:        8.73e26 | mine: 8.7228e+26
+D_p [kg m/s]                                                           | ms:       6.78e-31 | mine: 6.7810e-31
+D_x D_p / h                                                            | ms:         8.9e29 | mine: 8.9267e+29
+kappa N^(1/3) (consistency)                                            | ms:         8.9e29 | mine: 8.9267e+29
+S^(1/3)                                                                | ms:         1.0e30 | mine: 1.0016e+30
+N_gamma^(1/3)                                                          | ms:              - | mine: 5.2260e+29
+(11/4)^(1/3)                                                           | ms:           1.40 | mine: 1.4010
+(106.75/3.909)^(1/3)                                                   | ms:           3.01 | mine: 3.0114
+
+c/H0 [m]                                                               | ms:        1.37e26 | mine: 1.37250e+26
+L/lP (Hubble)                                                          | ms:        8.49e60 | mine: 8.4918e+60
+(L/lP)^3                                                               | ms:       6.12e182 | mine: 6.1236e+182
+L_Lambda = c/(H0 sqrt(OL)) [m]                                         | ms:        1.66e26 | mine: 1.65842e+26
+Gibbons-Hawking pi L_Lambda^2/lP^2                                     | ms:       3.31e122 | mine: 3.3077e+122
+pi R_CEH^2/lP^2 (my CEH)                                               | ms:        3.0e122 | mine: 2.9946e+122
+pi R^2/lP^2 at 16.7 Gly                                                | ms:        3.0e122 | mine: 3.0020e+122
+Bousso N = 3 pi/(Lambda lP^2)                                          | ms:         = S_dS | mine: 3.3077e+122
+CKN sqrt(M_P/L), L = c/H0 [meV]                                        | ms:           4.19 | mine: 4.1896
+CKN with L = 1e26 m [eV, log10]                                        | ms:       ~10^-2.5 | mine: -2.309
+hbar c / r_e [eV]                                                      | ms: (b c ~ 1.4e8 eV) | mine: 7.0025e+07
+2 hbar c / r_e [eV]                                                    | ms: (b c ~ 1.4e8 eV) | mine: 1.4005e+08
+m_e c^2 [eV]                                                           | ms:              - | mine: 5.1100e+05
+GW Omega = (lP/L)^2 for L = c/H0                                       | ms:       1.4e-122 | mine: 1.3867e-122
+S_dS^(1/4)                                                             | ms:         4.3e30 | mine: 4.2646e+30
+k_B T0 [meV]                                                           | ms:          0.235 | mine: 0.2349
+rho_Lambda^(1/4) [meV]                                                 | ms:           2.24 | mine: 2.2403
+rho_Lambda^(1/4) as length hbar c/E [um]                               | ms:           88.1 | mine: 88.081
+ratio rho_L^(1/4)/kT0                                                  | ms:            <10 | mine: 9.539
+
+-1/Z for Z = 0.3+0.7i                                                  | ms: -0.5172+1.2069i | mine: 0
+    (-0.5172413793103449+1.2068965517241381j)
+A0 radiation rectangle, Planck units                                   | ms:         5.2e92 | mine: 5.1930e+92
+log10 A0                                                               | ms:          92.72 | mine: 92.7154
+ln A0                                                                  | ms:          213.5 | mine: 213.4851
+sqrt(3) ln A0                                                          | ms:          369.8 | mine: 369.7671
+e-folds since square ln(A0)/2                                          | ms:          106.7 | mine: 106.7426
+
+a/a0 at square (no g_s)                                                | ms:        4.4e-47 | mine: 4.3882e-47
+T/TP at square (no g_s)                                                | ms:         4.4e14 | mine: 4.3838e+14
+a/a0 at square (g_s = 106.75)                                          | ms:        2.5e-47 | mine: 2.5288e-47
+T/TP at square (g_s = 106.75)                                          | ms:         2.5e14 | mine: 2.5262e+14
+sqrt(2 pi kappa)                                                       | ms:           3.28 | mine: 3.2760
+T_sq coefficient                                                       | ms:           0.61 | mine: 0.6064
+0.61 N^(1/6) TP check                                                  | ms:         4.4e14 | mine: 4.3838e+14
+N_gamma^(1/6)                                                          | ms:          ~1e15 | mine: 7.2291e+14
+A at T = TP (SM counting)                                              | ms:         6.4e28 | mine: 6.3818e+28
+V^(1/4) for r = 0.036, A_s = 2.1e-9 [GeV]                              | ms: 1.39e16 (Soman) | mine: 1.4086e+16
+T_rh instantaneous from E_inf = 1.39e16 GeV [GeV]                      | ms:         5.7e15 | mine: 5.7099e+15
+A at reheating                                                         | ms:         2.9e35 | mine: 2.9177e+35
+
+Hubble rectangle square: T/TP                                          | ms:           0.28 | mine: 0.2784
+Hubble radius there [lP]                                               | ms:           0.75 | mine: 0.7521
+quanta in Hubble sphere (all SM)                                       | ms:           0.45 | mine: 0.4473
+N_H photons in Hubble sphere today                                     | ms:         4.4e87 | mine: 4.4481e+87
+Hubble-sphere aspect ratio today                                       | ms:         1.6e92 | mine: 1.6342e+92
+obs. universe diameter at T=0.28TP [lP]                                | ms:          ~1e30 | mine: 1.2383e+30
+number of Hubble patches in it                                         | ms:          ~6e89 | mine: 5.5795e+89
+its rectangle A                                                        | ms:          ~8e29 | mine: 8.2325e+29
+
+  lambda = sqrt(lP L) for Hubble c/H0                 :  47.099 um, hbar c/lambda = 4.1896 meV   (ms: 47.1 um / 4.19 meV)
+  lambda = sqrt(lP L) for de Sitter L_L               :  51.773 um, hbar c/lambda = 3.8114 meV   (ms: 51.8 um / 3.81 meV)
+  lambda = sqrt(lP L) for particle horizon 4.36e26    :  83.946 um, hbar c/lambda = 2.3507 meV   (ms: 84.0 um / 2.35 meV)
+  lambda = sqrt(lP L) for particle horizon (mine)     :  83.989 um, hbar c/lambda = 2.3494 meV   (ms: -)
+(3 OL / 8 pi)^(1/4)                                                    | ms:          0.535 | mine: 0.5347
+reduced-Planck factor (8pi)^(-1/4)                                     | ms:           0.45 | mine: 0.4466
+BH-mass factor (3/(8 pi))^(1/4) [sphere, M = L M_P^2/2]                | ms:              - | mine: 0.5878
+(6 pi)^(1/4) [rho = Lambda^4/16pi^2]                                   | ms:           2.1? | mine: 2.0837
+sqrt(OL) today                                                         | ms:           0.83 | mine: 0.8276
+lambda/lP = sqrt(L_L/lP)                                               | ms:         3.2e30 | mine: 3.2033e+30
+Lambda lP^2 = 3 lP^2/L_L^2                                             | ms:        ~1e-122 | mine: 2.8494e-122
+A in units of lambda=sqrt(lP L_L) today                                | ms:              - | mine: 5.0610e+31
+T_sq in units of that lambda (no g_s) [TeV]                            | ms:            1.7 | mine: 1.6708
+T_sq in units of that lambda (g_s=106.75) [TeV]                        | ms:              - | mine: 0.9628
+sqrt(kT0 * E_P) [TeV]                                                  | ms:              - | mine: 1.6934
+sqrt(hbar Dx/Dp) [m]                                                   | ms:         3.7e11 | mine: 3.6832e+11
+  in au                                                                | ms:            2.5 | mine: 2.4620
+
+c^4/G [N]                                                              | ms:        1.21e44 | mine: 1.2103e+44
+c~ for L = c/H0 [N]                                                    | ms:        1.4e-17 | mine: 1.4252e-17
+c~ for L_L [N]                                                         | ms:        1.2e-17 | mine: 1.1795e-17
+check hbar c/lambda^2 = (c^4/G)(lP/L)                                  | ms:              - | mine: 1.000000
+Coulomb force at a0 [N]                                                | ms:        8.24e-8 | mine: 8.2387e-08
+ratio F_C / c~                                                         | ms:          5.8e9 | mine: 5.7808e+09
+weight of 1 kg / c~                                                    | ms:         6.9e17 | mine: 6.8809e+17
+L/lP Hubble (8.1)                                                      | ms:         8.5e60 | mine: 8.4918e+60
+(L/lP)^2                                                               | ms:         ~1e122 | mine: 7.2111e+121
+  Vainshtein (r_s lambda^2)^(1/3), M = 1.0 kg, lambda = 50.0 um: 1.549e-12 m (ms: ~1e-12 m)
+  Vainshtein (r_s lambda^2)^(1/3), M = 1.0 kg, lambda = 37.7 um: 1.283e-12 m (ms: ~1e-12 m)
+M_X c^2 > hbar c/(37.7 um) [meV]                                       | ms:            5.2 | mine: 5.2341
+hbar c/(38.6 um) [meV]                                                 | ms:      5.1 (Lee) | mine: 5.1121
+5.2 meV / rho_L^(1/4)                                                  | ms:            2.3 | mine: 2.3364
+conjugate position extent Dp/(mP c) [lP]                               | ms:        1.0e-31 | mine: 1.0393e-31
+conjugate momentum extent Dx/lP [mP c]                                 | ms:         5.4e61 | mine: 5.3969e+61
+lP^2 p_Bohr/hbar [m/rad]                                               | ms:        4.9e-60 | mine: 4.9365e-60
+lambda^2 p_Bohr/hbar at lambda=sqrt(lP c/H0) [m/rad]                   | ms:             42 | mine: 41.9199
+  same at lambda = sqrt(lP L_L)                                        | ms:              - | mine: 50.6529
+(M_X/H0)^2 for M_X = 5.2 meV                                           | ms:          ~1e61 | mine: 1.3081e+61
+  divided by 3 (rho_crit = 3 Mbar^2 H0^2)                              | ms:              - | mine: 4.3605e+60

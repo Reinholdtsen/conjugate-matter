@@ -1,0 +1,27 @@
++alpha95 (attractive, one-sided)
+   alpha = 1.0000: lambda <  40.66 um  ->  M c^2 > 4.853 meV
+   alpha = 1.3333: lambda <  37.68 um  ->  M c^2 > 5.237 meV
+   alpha = 2.6667: lambda <  31.69 um  ->  M c^2 > 6.226 meV
+   alpha = 5.3333: lambda <  27.07 um  ->  M c^2 > 7.290 meV
+-alpha95 (repulsive, one-sided)
+   alpha = 1.0000: lambda <  26.95 um  ->  M c^2 > 7.321 meV
+   alpha = 1.3333: lambda <    nan um  ->  M c^2 >   nan meV
+   alpha = 2.6667: lambda <    nan um  ->  M c^2 >   nan meV
+   alpha = 5.3333: lambda <    nan um  ->  M c^2 >   nan meV
+|alpha95| (two-sided)
+   alpha = 1.0000: lambda <  38.63 um  ->  M c^2 > 5.108 meV
+   alpha = 1.3333: lambda <  35.79 um  ->  M c^2 > 5.514 meV
+   alpha = 2.6667: lambda <  30.23 um  ->  M c^2 > 6.527 meV
+   alpha = 5.3333: lambda <  25.98 um  ->  M c^2 > 7.597 meV
+
+Published checks: |alpha95| at alpha = 1 should give 38.6 um (PRL abstract); alpha = 8/3 should give R < 30 um (thesis 11.5)
+  +alpha95 (attractive, one-sided): strictly decreasing over 25-100 um: True
+  -alpha95 (repulsive, one-sided): strictly decreasing over 25-100 um: True
+  |alpha95| (two-sided): strictly decreasing over 25-100 um: True
+
+If the Yukawa strength is (4/3) c^2 at equal Planck masses (Lueben et al. eq. 9 / Enander-Moertsell eq. 4.1):
+   c^2 = 1.00: alpha = 1.333 -> lambda <  37.68 um
+   c^2 = 0.75: alpha = 1.000 -> lambda <  40.66 um
+   c^2 = 0.50: alpha = 0.667 -> lambda <  45.65 um
+   c^2 = 0.10: alpha = 0.133 -> lambda <  80.67 um
+   c = 1/A0 = 1.93e-93 (self-dual epoch at 1e14 T_P, sections 6 and 8.4): alpha = 4.9e-186 -> no laboratory bound

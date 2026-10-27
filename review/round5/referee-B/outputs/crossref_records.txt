@@ -1,0 +1,16 @@
+10.1007_s11005-015-0780-z            | The Siegel Upper Half Space is a Marsden–Weinstein Quotient: Symplectic Reduction and Gaussian Wave Packets
+                                     | Tomoki Ohsawa | Letters in Mathematical Physics 105(9) 1301-1320 [2015]
+10.1049_ji-3-2.1946.0074             | Theory of communication. Part 1: The analysis of information
+                                     | D. Gabor | Journal of the Institution of Electrical Engineers - Part III: Radio and Communication Engineering 93(26) 429-441 [1946]
+10.1098_rspa.1938.0060               | A suggestion for unifying quantum theory and relativity
+                                     | Max Born | Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences 165(921) 291-303 [1938]
+10.1103_PhysRevD.110.030001          | Review of Particle Physics
+                                     | S. Navas; C. Amsler; T. Gutsche; C. Hanhart; J. J. Hernández-Rey | Physical Review D 110(3)  [2024]
+10.1103_PhysRevD.15.2738             | Cosmological event horizons, thermodynamics, and particle creation
+                                     | G. W. Gibbons; S. W. Hawking | Physical Review D 15(10) 2738-2751 [1977]
+10.1103_RevModPhys.21.463            | Reciprocity Theory of Elementary Particles
+                                     | Max Born | Reviews of Modern Physics 21(3) 463-473 [1949]
+10.1109_JRPROC.1949.232969           | Communication in the Presence of Noise
+                                     | C.E. Shannon | Proceedings of the IRE 37(1) 10-21 [1949]
+10.1137_1025078                      | Some comments on Fourier analysis, uncertainty and modeling
+                                     | David Slepian | SIAM Review 25(3) 379-393 [1983]

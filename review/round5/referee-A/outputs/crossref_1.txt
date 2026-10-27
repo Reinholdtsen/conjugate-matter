@@ -1,0 +1,40 @@
+10.1007/jhep06(2015)006
+  title: ['Metastring theory and modular space-time']
+  authors: Laurent Freidel, Robert G. Leigh, Djordje Minic
+  container: ['Journal of High Energy Physics'] vol 2015 issue 6 page None article 6
+  date: [2015, 6]
+10.1049/ji-3-2.1946.0074
+  title: ['Theory of communication. Part 1: The analysis of information']
+  authors: D. Gabor
+  container: ['Journal of the Institution of Electrical Engineers - Part III: Radio and Communication Engineering'] vol 93 issue 26 page 429-441 article None
+  date: [1946, 11]
+10.1098/rspa.1938.0060
+  title: ['A suggestion for unifying quantum theory and relativity']
+  authors: Max Born
+  container: ['Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences'] vol 165 issue 921 page 291-303 article None
+  date: [1938, 4, 5]
+10.1103/physrevd.110.030001
+  title: ['Review of Particle Physics']
+  authors: S. Navas, C. Amsler, T. Gutsche, C. Hanhart, J. J. Hernández-Rey, C. Lourenço
+  container: ['Physical Review D'] vol 110 issue 3 page None article 030001
+  date: [2024, 8, 1]
+10.1103/physrevd.15.2738
+  title: ['Cosmological event horizons, thermodynamics, and particle creation']
+  authors: G. W. Gibbons, S. W. Hawking
+  container: ['Physical Review D'] vol 15 issue 10 page 2738-2751 article None
+  date: [1977, 5, 15]
+10.1103/revmodphys.21.463
+  title: ['Reciprocity Theory of Elementary Particles']
+  authors: Max Born
+  container: ['Reviews of Modern Physics'] vol 21 issue 3 page 463-473 article None
+  date: [1949, 7, 1]
+10.1109/jrproc.1949.232969
+  title: ['Communication in the Presence of Noise']
+  authors: C.E. Shannon
+  container: ['Proceedings of the IRE'] vol 37 issue 1 page 10-21 article None
+  date: [1949, 1]
+10.1137/1025078
+  title: ['Some comments on Fourier analysis, uncertainty and modeling']
+  authors: David Slepian
+  container: ['SIAM Review'] vol 25 issue 3 page 379-393 article None
+  date: [1983, 7]

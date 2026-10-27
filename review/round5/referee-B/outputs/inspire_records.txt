@@ -1,0 +1,99 @@
+0705.4397              | Relativistic cosmology and large-scale structure
+                       | authors(3): Tsagas, Christos G.; Challinor, Anthony; Maartens, Roy
+                       | pub: Phys.Rept. 465, 61 (2008) | doi: 10.1016/j.physrep.2008.03.003
+0709.1965              | Natural extension of the Generalised Uncertainty Principle
+                       | authors(2): Bambi, Cosimo; Urban, F.R.
+                       | pub: Class.Quant.Grav. 25, 095006 (2008) | doi: 10.1088/0264-9381/25/9/095006, 10.1088/0264-9381/25/9/095006
+0802.1129              | Doubly special relativity in de Sitter spacetime
+                       | authors(1): Mignemi, S.
+                       | pub: Annalen Phys. 522, 924 (2010) | doi: 10.1002/andp.201000105
+0810.0087              | Why do cosmological perturbations look classical to us?
+                       | authors(2): Kiefer, Claus; Polarski, David
+                       | pub: Adv.Sci.Lett. 2, 164 (2009) | doi: 10.1166/asl.2009.1023
+0909.3983              | A Larger Estimate of the Entropy of the Universe
+                       | authors(2): Egan, Chas A.; Lineweaver, Charles H.
+                       | pub: Astrophys.J. 710, 1825 (2010) | doi: 10.1088/0004-637X/710/2/1825
+0911.1955              | The Temperature of the Cosmic Microwave Background
+                       | authors(1): Fixsen, D.J.
+                       | pub: Astrophys.J. 707, 916 (2009) | doi: 10.1088/0004-637X/707/2/916
+1302.3226              | CosMIn: The Solution to the Cosmological Constant Problem
+                       | authors(2): Padmanabhan, T.; Padmanabhan, Hamsa
+                       | pub: Int.J.Mod.Phys.D 22, 1342001 (2013) | doi: 10.1142/S0218271813420017
+1305.1025              | Symplectic and Hamiltonian Deformations of Gabor Frames
+                       | authors(1): de Gosson, Maurice A.
+                       | pub:  | doi: 
+1306.1086              | Strong lensing constraints on bimetric massive gravity
+                       | authors(2): Enander, Jonas; Mörtsell, Edvard
+                       | pub: JHEP 10, 031 (2013) | doi: 10.1007/JHEP10(2013)031
+1502.08005             | Metastring Theory and Modular Space-time
+                       | authors(3): Freidel, Laurent; Leigh, Robert G.; Minic, Djordje
+                       | pub: JHEP 06, 006 (2015) | doi: 10.1007/JHEP06(2015)006
+1504.03963             | The Siegel Upper Half Space is a Marsden-Weinstein Quotient: Symplectic Reduction and Gaussian Wave Packets
+                       | authors(1): Ohsawa, Tomoki
+                       | pub:  ,  () | doi: 10.1007/s11005-015-0780-z
+1510.04038             | Quantum Discord of Cosmic Inflation: Can we Show that CMB Anisotropies are of Quantum-Mechanical Origin?
+                       | authors(2): Martin, Jerome; Vennin, Vincent
+                       | pub: Phys.Rev.D 93, 023505 (2016) | doi: 10.1103/PhysRevD.93.023505, 10.1103/PhysRevD.93.023505, 10.1103/PhysRevD.93.023505
+1604.06704             | Massive gravitons as dark matter and gravitational waves
+                       | authors(2): Aoki, Katsuki; Mukohyama, Shinji
+                       | pub: Phys.Rev.D 94, 024001 (2016) | doi: 10.1103/PhysRevD.94.024001
+1807.06209             | Planck 2018 results. VI. Cosmological parameters
+                       | authors(181): Aghanim, N.; Akrami, Y.; Ashdown, M.; Aumont, J.; Baccigalupi, C.; Ballardini, M.
+                       | pub: Astron.Astrophys. 641, A6 (2020) || Astron.Astrophys. 652, C4 (2021) | doi: 10.1051/0004-6361/201833910, 10.1051/0004-6361/201833910e
+1812.08686             | Bimetric cosmology is compatible with local tests of gravity
+                       | authors(3): Lüben, Marvin; Mörtsell, Edvard; Schmidt-May, Angnis
+                       | pub: Class.Quant.Grav. 37, 047001 (2020) | doi: 10.1088/1361-6382/ab4f9b
+1909.11063             | Trans-Planckian Censorship and the Swampland
+                       | authors(2): Bedroya, Alek; Vafa, Cumrun
+                       | pub: JHEP 09, 123 (2020) | doi: 10.1007/JHEP09(2020)123, 10.1007/JHEP09(2020)123
+1910.01916             | Canonical transformations and squeezing formalism in cosmology
+                       | authors(2): Grain, Julien; Vennin, Vincent
+                       | pub: JCAP 02, 022 (2020) | doi: 10.1088/1475-7516/2020/02/022, 10.1088/1475-7516/2020/02/022
+2001.08664             | Cosmological Complexity
+                       | authors(4): Bhattacharyya, Arpan; Das, Saurya; Shajidul Haque, S.; Underwood, Bret
+                       | pub: Phys.Rev.D 101, 106020 (2020) | doi: 10.1103/PhysRevD.101.106020
+2002.11761             | New Test of the Gravitational $1/r^2$ Law at Separations down to 52 $\mu$m
+                       | authors(5): Lee, J.G.; Adelberger, E.G.; Cook, T.S.; Fleischer, S.M.; Heckel, B.R.
+                       | pub: Phys.Rev.Lett. 124, 101101 (2020) | doi: 10.1103/PhysRevLett.124.101101, 10.1103/PhysRevLett.124.101101
+2110.00483             | Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season
+                       | authors(91): Ade, P.A.R.; Ahmed, Z.; Amiri, M.; Barkats, D.; Thakur, R. Basu; Beck, D.
+                       | pub: Phys.Rev.Lett. 127, 151301 (2021) | doi: 10.1103/PhysRevLett.127.151301, 10.1103/PhysRevLett.127.151301
+2212.00901             | Vacuum energy density and gravitational entropy
+                       | authors(4): Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G.; Minic, Djordje
+                       | pub: Phys.Rev.D 107, 126016 (2023) | doi: 10.1103/PhysRevD.107.126016, 10.1103/PhysRevD.107.126016
+2212.06086             | On de Sitter Spacetime and String Theory
+                       | authors(3): Berglund, Per; Hübsch, Tristan; Minic, Djordje
+                       | pub: Int.J.Mod.Phys.D 32, 2330002 (2023) | doi: 10.1142/S0218271823300021
+2303.17495             | On the inevitable lightness of vacuum
+                       | authors(4): Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G.; Minic, Djordje
+                       | pub: Int.J.Mod.Phys.D 32, 2342004 (2023) | doi: 10.1142/S021827182342004X
+2407.07956             | Inflationary gravitational waves as a probe of the unknown postinflationary primordial Universe
+                       | authors(4): Soman, Athul K.; Mishra, Swagat S.; Shafi, Mohammed; Basak, Soumen
+                       | pub: Phys.Rev.D 112, 103521 (2025) | doi: 10.1103/81wm-jlm6
+astro-ph_0603114       | Dark energy: mystery of the millennium
+                       | authors(1): Padmanabhan, T.
+                       | pub: AIP Conf.Proc. 861, 179 (2006) | doi: 10.1063/1.2399577
+astro-ph_9506072       | Cosmological perturbation theory in the synchronous and conformal Newtonian gauges
+                       | authors(2): Ma, Chung-Pei; Bertschinger, Edmund
+                       | pub: Astrophys.J. 455, 7 (1995) | doi: 10.1086/176550
+gr-qc_9302036          | Quantum effects in cosmology
+                       | authors(1): Grishchuk, L.P.
+                       | pub: Class.Quant.Grav. 10, 2449 (1993) | doi: 10.1088/0264-9381/10/12/006
+gr-qc_9802003          | Quantum to classical transition for fluctuations in the early universe
+                       | authors(3): Kiefer, Claus; Polarski, David; Starobinsky, Alexei A.
+                       | pub: Int.J.Mod.Phys.D 7, 455 (1998) | doi: 10.1142/S0218271898000292, 10.1142/S0218271898000292
+hep-th_0010252         | Positive vacuum energy and the N bound
+                       | authors(1): Bousso, Raphael
+                       | pub: JHEP 11, 038 (2000) | doi: 10.1088/1126-6708/2000/11/038
+hep-th_0401128         | Renormalization of phi**4 theory on noncommutative R**4 in the matrix base
+                       | authors(2): Grosse, Harald; Wulkenhaar, Raimar
+                       | pub: Commun.Math.Phys. 256, 305 (2005) | doi: 10.1007/s00220-004-1285-2
+hep-th_0403052         | Entropy bounds and dark energy
+                       | authors(1): Hsu, Stephen D.H.
+                       | pub: Phys.Lett.B 594, 13 (2004) | doi: 10.1016/j.physletb.2004.05.020
+hep-th_9803132         | Effective field theory, black holes, and the cosmological constant
+                       | authors(3): Cohen, Andrew G.; Kaplan, David B.; Nelson, Ann E.
+                       | pub: Phys.Rev.Lett. 82, 4971 (1999) | doi: 10.1103/PhysRevLett.82.4971
+math-ph_0506031        | Reciprocal relativity of noninertial frames and the quaplectic group
+                       | authors(1): Low, Stephen G.
+                       | pub: Found.Phys. 36, 1036 (2006) | doi: 10.1007/s10701-006-9051-2

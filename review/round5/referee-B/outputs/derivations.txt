@@ -1,0 +1,58 @@
+=== 1. Blackbody coefficient kappa ===
+  check int x^2/(e^x-1) = 2.40411380631919  2 zeta3 = 2.40411380631919
+  check int x^3/(e^x-1) = 6.49393940226683  pi^4/15 = 6.49393940226683
+n_gamma = 2*T**3*k_B**3*zeta(3)/(pi**2*c**3*hbar**3)  ; <|p|> = pi**4*T*k_B/(30*c*zeta(3))
+  kappa[sphere, Dp=2<p>] = 3**(1/3)*pi**(10/3)/(30*zeta(3)**(4/3)) = 1.70812
+  kappa[sphere, Dp=kT/c] = 3**(1/3)/(2*pi**(2/3)*zeta(3)**(1/3)) = 0.316181
+  kappa[sphere, Dp=<p>] = 3**(1/3)*pi**(10/3)/(60*zeta(3)**(4/3)) = 0.854061
+  kappa[cube side Dx, Dp=2<p>] = 2**(2/3)*pi**(11/3)/(60*zeta(3)**(4/3)) = 1.37674
+  kappa == 3^(1/3) pi^(10/3)/(30 zeta3^(4/3)) ? True
+  T and R independence: d kappa/dT = 0 , d kappa/dR = 0
+
+=== 2. Square radiation rectangle: closed forms (Planck units hbar=c=G=kB=1) ===
+  side at square = sqrt(2)*sqrt(pi)*N_gamma**(1/6)*sqrt(kappa)  -> coefficient 3.2760
+  T_sq/(N^(1/6) T_P) = 0.60641
+
+=== 3. Gaussian states: Fourier transform Z -> -1/Z, widths, ratio ===
+  FT[exp(iZx^2/2)](p) = sqrt(2)*sqrt(pi)*exp(p**2/(2*(I*X - Y)))/sqrt(-X*exp_polar(I*pi/2) + Y)
+  exponent p^2 coefficient 1/(2*(I*X - Y)) == i(-1/Z)/2 ? True
+  Dx^2 = 1/(2*Y)  Dp^2 = (X**2 + Y**2)/(2*Y)  Dx/Dp = 1/sqrt(X**2 + Y**2)
+  numerical FT of Z=0.3+0.7i gives Z' = (-0.5172+1.2069j)  ; -1/Z = (-0.5172+1.2069j)
+
+=== 4. Fubini-Study vs Siegel metric on Gaussians ===
+  g_FS/g_Siegel = 1/8
+  direct FS g_YY = 1/(8*Y**2)  ; Siegel g_YY = 1/Y^2 ; ratio = 1/8
+  Siegel length 2r -> FS length sqrt(2)*r/2
+
+=== 5. Distance from i: d(i,Z) >= |ln|Z||, equality on X=0 ===
+  min over 20000 random Z of d(i,Z) - |ln|Z|| = 2.4046e-9
+  on slice: d(i, 3i) = 1.0986123  ln 3 = 1.0986123
+  sigma_x=e^r/sqrt2 gives Y=e^{-2r}, distance |ln Y| = 2r : check 2*r
+  degree-d distance from i1 to iy1 along Y=t1: integral sqrt(d) dt/t = sqrt(d)*log(y)
+  (Siegel distance between diagonal points i1 and iy1 = sqrt(sum ln^2 y) = sqrt(d)|ln y|)
+
+=== 6. Reciprocity maps: area, aspect ratio, squeeze ===
+  symplectic: rho^T J rho == J ? True
+  rho_l1 rho_l2^-1 = Matrix([[lambda1**2/lambda2**2, 0], [0, lambda2**2/lambda1**2]])
+  image aspect ratio * original = 1
+  self-dual lambda^2 = [sqrt(L)*sqrt(hbar)/sqrt(P)]
+
+=== 7. Fourier box self-duality and A(t) = sqrt(Omega_L(t)) ===
+  self-dual Fourier box requires lambda = [{lambda: sqrt(L)*sqrt(l_P)}]
+  A(t) with lambda^2 = lP L_Lambda, L = c/H(t): H_Lambda/H
+  equals sqrt(Omega_L(t)) when H_L^2 = Lambda c^2/3: True
+  Lambda = 3/L_L^2 with L_L=lambda^2/lP -> 3*l_P**2/lambda**4
+  rho_L^(1/4)/sqrt(M_P H0) = 6**(1/4)*Omega_L**(1/4)/(2*pi**(1/4))
+  hbar c/sqrt(lP L) - sqrt(E_P hbar c/L) with lP = hbar c/E_P : 0
+
+=== 8. Minisuperspace a -> C/a symmetry of the a^-6 term ===
+  dual kinetic term in terms of a: C**3*Mtilde**2*Derivative(a(t), t)**2/a(t)**5
+  under a -> C/b: K1 -> C**3*M_P**2*Derivative(b(t), t)**2/b(t)**5  ; K2 -> Mtilde**2*b(t)*Derivative(b(t), t)**2
+  exchanged iff Mtilde = M_P: True True
+  equality M_P^2 a = M_P^2 C^3/a^5 at a = [sqrt(C)]
+  Friedmann: (K1+K2)/(a^3 H^2) = C**3*Mtilde**2/a(t)**6 + M_P**2
+
+=== 9. Bimetric linear potential: alpha = (4/3)(M_f/M_g)^2 ===
+  h/Mg - l/Mf in terms of (u,v): v*sqrt(M_f**2 + M_g**2)/(M_f*M_g)
+  alpha = 4*M_f**2/(3*M_g**2)  ; at M_f = M_g: 4/3
+  Newton constant measured at r >> 1/m is set by the massless coupling cu^2 = 1/(Mg^2+Mf^2)

@@ -1,0 +1,53 @@
+==============================================================================
+(a) blackbody coefficient kappa from first principles
+  int x^2/(e^x-1): numeric 2.40411380632  Gamma(3)zeta(3) = 2.40411380632
+  int x^3/(e^x-1): numeric 6.49393940227  Gamma(4)zeta(4) = 6.49393940227 = pi^4/15: True
+  kappa [sphere, D_p = 2<|p|>        ] = 3**(1/3)*pi**(10/3)/(30*zeta(3)**(4/3))  = 1.70812
+  kappa [sphere, D_p = kT/c          ] = 3**(1/3)/(2*pi**(2/3)*zeta(3)**(1/3))  = 0.31618
+  kappa [sphere, D_p = <|p|>         ] = 3**(1/3)*pi**(10/3)/(60*zeta(3)**(4/3))  = 0.85406
+  kappa [cube side D, D_p = 2<|p|>   ] = 2**(2/3)*pi**(11/3)/(60*zeta(3)**(4/3))  = 1.37674
+  manuscript closed form minus derived (should be 0): 0 0.0
+==============================================================================
+(b) where the radiation rectangle is square (Planck units hbar=c=kB=G=1)
+  side at square = sqrt(2 pi kappa N^(1/3)) = sqrt(2)*sqrt(pi)*N**(1/6)*sqrt(kappa) ; coefficient sqrt(2 pi kappa) = 3.2760406793780206
+  T_sq/T_P = sqrt(2 pi kappa)/(2 <E>/kT) N^(1/6); coefficient = 0.60641
+==============================================================================
+(c) reciprocity rho_lambda on rectangles
+  symplectic: R^T J R - J = Matrix([[0, 0], [0, 0]])
+  area invariant: True ; A' * A = 1
+  self-dual lambda^2: [sqrt(L)*sqrt(hbar)/sqrt(P)]
+  rho_l1 rho_l2^-1 = Matrix([[lambda1**2/lambda2**2, 0], [0, lambda2**2/lambda1**2]])
+  Fourier box self-dual iff lambda = [{lambda: sqrt(L)*sqrt(l_P)}]
+==============================================================================
+(d) Gaussian statements (hbar = lambda = 1)
+  numerical FT exponent W at p = 0.5, 1, 1.5: [-0.51724+1.2069j -0.51724+1.2069j -0.51724+1.2069j] ; -1/Z = (-0.51724+1.2069j)
+  Im(-1/Z) = Y/(X**2 + Y**2)
+  Var x = 1/(2*Y)  Var p = (X**2 + Y**2)/(2*Y)  (Var x/Var p) = 1/(X**2 + Y**2) -> Dx/Dp = 1/|Z|
+  det G = 1 ; on |Z|=1: G_xx = (X^2+Y^2)/Y, G_pp = 1/Y
+  min over 20000 random Z of [d(i,Z) - |ln|Z||] = 5.845e-12 (>= 0 expected)
+  on slice: d(i, iY) for Y = e^-3: 3.0 (= 3 = |ln Y|)
+  squeezed vacuum sigma_x = e^r/sqrt2 -> Y = e^-2r, d = 3.4  2r = 3.4
+  FS metric g_XX = -sqrt(sqrt(Y)*conjugate(Y**(1/4))**2)/(16*Abs(Y**(5/2))) + 3*conjugate(Y**(1/4))/(16*Y**(9/4))  g_YY = conjugate(Y**(1/4))/(8*Y**(9/4))  g_XY = -im(conjugate(Y**(1/4))/Y**(9/4))/8
+  ratio to Siegel 1/Y^2: -Y**2*sqrt(sqrt(Y)*conjugate(Y**(1/4))**2)/(16*Abs(Y**(5/2))) + 3*conjugate(Y**(1/4))/(16*Y**(1/4)) conjugate(Y**(1/4))/(8*Y**(1/4))
+  FS length of Siegel path 2r = 2r/sqrt(8) = r/sqrt(2): check 2*1.7/sqrt(8) = 1.2020815280171306  1.7/sqrt2 = 1.2020815280171306
+  degree 3: tr(1_d) = 3 -> length sqrt(d)|ln y|
+  |tanh s + i sech s|^2 = 1
+  cosh d(i, Z(s)) = cosh(s) -> d = |s|; numeric s=2: 3.7621956910836314 3.7621956910836314
+==============================================================================
+(e) A(t) = sqrt(Omega_Lambda(t)) and Lambda = 3 lP^2/lambda^4
+  A(t)^2 - Omega_L(t) with L_Lambda = sqrt(3/Lambda): 0
+  3 lP^2/lambda^4 - Lambda: 0
+  rho_lambda sends p = hbar/lP to x = lambda^2/lP = L_Lambda: L_Lambda
+==============================================================================
+(f) CKN comparison and the dark-energy identity (natural units hbar=c=1)
+  1/sqrt(lP L) - sqrt(M_P/L) = 0
+  rho_L / (1/sqrt(lP/H0))^4 = 3*Omega_L/(8*pi) -> ^(1/4) = (3 OL/8pi)^(1/4)
+==============================================================================
+(g) bimetric Yukawa strength from mode decomposition, keeping the background ratio c
+  Yukawa strength alpha = 4*M_f**2*c**2/(3*M_g**2)  ; at M_f = M_g: 4*c**2/3  ; at M_f = M_g, c = 1: 4/3
+  Newton constant from massless mode: 1/(M_g^2 + c^2 M_f^2) (cf. Lueben et al.: m_Pl^2 = m_g^2 (1 + alpha^2 c^2))
+==============================================================================
+(h) the a^-6 term: minisuperspace kinetic terms and a -> C/a
+  K1(C/a) = C**3*M_P**2*adot**2/a**5   K2(C/a) = Mtilde**2*a*adot**2
+  exchange iff M~ = M_P: [M_P] ; equal at a^6 = C^3: [sqrt(C)]
+  Mt^2 atilde atildedot^2 = C**3*Mtilde**2*adot**2/a**5 (= K2)

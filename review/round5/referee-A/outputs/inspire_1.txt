@@ -1,0 +1,10 @@
+### downloads/inspire/soman.json
+  title: ['Inflationary gravitational waves as a probe of the unknown postinflationary primordial Universe']
+  pubinfo: [{'journal_volume': '112', 'artid': '103521', 'material': 'publication', 'year': 2025, 'journal_record': {'$ref': 'https://inspirehep.net/api/journals/1613970'}, 'journal_issue': '10', 'journal_title': 'Phys.Rev.D'}]
+  dois: [{'material': 'publication', 'source': 'APS', 'value': '10.1103/81wm-jlm6'}]
+### downloads/inspire/lee2020.json
+  title: ['New Test of the Gravitational $1/r^2$ Law at Separations down to 52 $\\mu$m']
+  pubinfo: [{'journal_volume': '124', 'artid': '101101', 'year': 2020, 'journal_record': {'$ref': 'https://inspirehep.net/api/journals/1214495'}, 'journal_issue': '10', 'journal_title': 'Phys.Rev.Lett.'}]
+  dois: [{'source': 'bibmatch', 'value': '10.1103/PhysRevLett.124.101101'}, {'material': 'publication', 'source': 'arXiv', 'value': '10.1103/PhysRevLett.124.101101'}]
+  abstract: We tested the gravitational 1/r2 law using a stationary torsion-balance detector and a rotating attractor containing test bodies with both 18-fold and 120-fold azimuthal symmetries that simultaneously tests the 1/r2 law at two different length scales. We took data at detector-attractor separations between 52  μm and 3.0 mm. Newtonian gravity gave an excellent fit to our data, limiting with 95% confidence any gravitational-strength Yukawa interactions to ranges <38.6  μm.
+  abstract: We tested the gravitational $1/r^2$ law using a stationary torsion-balance detector and a rotating attractor containing test bodies with both 18-fold and 120-fold azimuthal symmetries that simultaneously tests the $1/r^2$ law at two different length scales. We took data at detector-attractor separations between $52~\mu$m and 3.0 mm. Newtonian gravity gave an excellent fit to our data, limiting with 95\% confidence any gravitational-strength Yukawa interactions to ranges $< 38.6~\mu$m.

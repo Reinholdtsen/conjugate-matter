@@ -1,0 +1,66 @@
+== A1/B1 (major): the background ratio c in alpha = (4/3)(M_f c/M_g)^2
+  background equation (Lambda_g - Lambda_f) c^2 = c*(c - 1)*(c + 1)*(-beta0*c + beta1*c**2 + beta1 + 3*beta2*c)
+  factor check: True
+  with the program's flat aligned vacuum (beta0 = -4 beta1 - 3 beta2): broken vacua solve beta1*c**2 + 4*beta1*c + beta1 + 6*beta2*c = 0
+  real positive roots c != 1 need beta1 < 0 and beta2 > |beta1| (with M_X^2 ~ beta1 + beta2 > 0):
+    beta1 = +1.0, beta2 = +0.5: positive broken roots []; Lambda_g there / (m_FP^2 scale 2(beta1+beta2) = +3.0) = []
+    beta1 = +1.0, beta2 = -0.5: positive broken roots []; Lambda_g there / (m_FP^2 scale 2(beta1+beta2) = +1.0) = []
+    beta1 = -1.0, beta2 = +0.5: positive broken roots []; Lambda_g there / (m_FP^2 scale 2(beta1+beta2) = -1.0) = []
+    beta1 = -1.0, beta2 = +2.0: positive broken roots [0.127, 7.873]; Lambda_g there / (m_FP^2 scale 2(beta1+beta2) = +2.0) = [-1.143, -70.857]
+    beta1 = -1.0, beta2 = +5.0: positive broken roots [0.0385, 25.9615]; Lambda_g there / (m_FP^2 scale 2(beta1+beta2) = +8.0) = [-1.387, -934.613]
+  -> where the broken (c, 1/c) vacua exist they carry Lambda_g of the order of the spin-2 mass squared;
+     for M_X c^2 >= 5.24 meV that is (M_X/H0)^2 = 1.33e+61 times H0^2: excluded.
+     Only the aligned point c = 1 has zero wedge vacuum energy (the palindrome identity).
+  the bound as a function of c, from the one-sided +alpha95 column at alpha = (4/3) c^2:
+    c = 0.50: alpha = 0.333, lambda_X <  57.0 um, M_X c^2 > 3.46 meV
+    c = 0.67: alpha = 0.599, lambda_X <  47.2 um, M_X c^2 > 4.18 meV
+    c = 0.80: alpha = 0.853, lambda_X <  42.5 um, M_X c^2 > 4.64 meV
+    c = 1.00: alpha = 1.333, lambda_X <  37.7 um, M_X c^2 > 5.24 meV
+    c = 1.25: alpha = 2.083, lambda_X <  33.6 um, M_X c^2 > 5.87 meV
+    c = 1.50: alpha = 3.000, lambda_X <  30.8 um, M_X c^2 > 6.40 meV
+  X at sqrt(l_P L) = 47.1 um (c/H0) is allowed iff alpha < 0.602, i.e. c < 0.672
+  X at sqrt(l_P L) = 84.0 um (particle horizon) is allowed iff alpha < 0.121, i.e. c < 0.302
+  referee A's identification c = a~/a: the record's second frame is f = E0[J], the polarization frame on the
+  compact moduli space, with the vacuum at the aligned point X = sqrt(g^-1 f) = 1 (notes/debt1a-iii §4,
+  notes/debt1a-iv §1-2). a~ belongs to the slaved block g~ = g^-1, a different object, so c0 = a~0/a0 does not follow.
+
+== A2/B2: the per-axis counts 'hold at no other epoch'
+  fixed comoving region against S_dS: S^(1/3)/S_dS^(1/4) = 0.235, constant (both counts conserved)
+  Hubble sphere, radiation era, g = 106.75: S^(1/3)/S_BH^(1/4) = 1.054, S/S_BH^(3/4) = 1.170, both independent of T: True
+  Hubble sphere, radiation era, g = 10.75: S^(1/3)/S_BH^(1/4) = 0.870, S/S_BH^(3/4) = 0.659, both independent of T: True
+  Hubble sphere, radiation era, g = 3.36: S^(1/3)/S_BH^(1/4) = 0.790, S/S_BH^(3/4) = 0.493, both independent of T: True
+  -> CKN's S_max ~ S_BH^(3/4) (their eq. 3) is the reason the two kinds of count agree for radiation.
+
+== A3: the one-cell row
+  a cell of wavelength w and momentum hbar/w has area hbar = 0.159 h; with momentum h/w (de Broglie), area h
+
+== A6/B4: the TeV numerology
+  square in units of sqrt(l_P L_Lambda): kT = 1.671 TeV (photons alone), 0.963 TeV (SM g_s)
+  sqrt(k T0 E_P) = 1.693 TeV; BHM-type sqrt(rho_L^(1/4) E_P) = 5.23 TeV
+
+== A7/B3: the exponent
+  log10(Lambda l_P^2) = -121.55; log10(lambda/l_P) = 30.51; log10(L_Lambda/l_P) = 61.01: a quarter of the first, half of the third
+
+== A9: CKN conventions, ratio to hbar c/sqrt(l_P L)
+  CKN literal, unreduced M_P: 1.0000
+  reduced Planck mass: 0.4466
+  sphere of radius L, M_BH = L c^2/2G: 0.5878
+  cube of side L, r_s = L: 0.8409
+  sphere, one scalar's zero-point energy Lambda^4/16 pi^2: 2.0837
+
+== B9: the two columns of the exclusion table
+  alpha = 1.000: one-sided +alpha95 40.66 um, two-sided |alpha95| 38.63 um
+  alpha = 1.333: one-sided +alpha95 37.68 um, two-sided |alpha95| 35.79 um
+  alpha = 2.667: one-sided +alpha95 31.69 um, two-sided |alpha95| 30.23 um
+  -> the published 38.6 um (|alpha| = 1) and 30 um (alpha = 8/3) are reproduced by the |alpha95| column;
+     the note's 37.7 um is the +alpha95 column at 4/3 (more conservative than the |alpha95| 35.8 um).
+
+== B10: readings of the withdrawn claim
+  squeezed mode, r = 100.0: aspect e^(2r) = 10^86.9
+  squeezed mode, r = 105.9: aspect e^(2r) = 10^92.0
+  squeezed mode, r = 120.0: aspect e^(2r) = 10^104.2
+  on |Z| = 1 with Im Z = sech s: with a^2 = Im Z (the record) the apex s = 0 is a maximum of a; with Im Z ~ a^-2 (section 5's wave-packet convention) it is a minimum of a: True
+  radiation rectangle at a string-scale bounce, kT = 1e+17 GeV: A = 9.5e+32
+
+== Referee A, unverifiable: Born's b
+  b = h/(pi r0) = 7.485e-15 g cm/s (Born eq. 26 prints 7.43e-15); b c = 1.401e+08 eV = 2 hbar c/r0

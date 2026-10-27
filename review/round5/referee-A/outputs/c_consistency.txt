@@ -1,0 +1,13 @@
+Normalisation 1 (section 8.4): a = sqrt(C) = 1 at the self-dual epoch ~4.4e14 T_P
+  a0 = 2.279e+46, atilde0 = 4.388e-47, c0 = atilde0/a0 = 1.926e-93  (= 1/A0 = 1.926e-93)
+  Yukawa strength today alpha = (4/3) c0^2 = 4.94e-186  -> torsion balances give no bound
+  a^-6 term today relative to GR term (M~ = M_P): a0^-6 = 7.1e-279  (harmless)
+
+Normalisation 2 (what alpha = 4/3 needs): c0 = 1, i.e. a0 = atilde0 = 1 today
+  then with M~ = M_P the a^-6 term equals the GR term today; H(z)/H_LCDM = 1/sqrt(1 + a^-6):
+    z =    0.0: a^-6 = 1.000e+00, H/H_LCDM = 7.071e-01
+    z =    0.5: a^-6 = 1.139e+01, H/H_LCDM = 2.841e-01
+    z =    1.0: a^-6 = 6.400e+01, H/H_LCDM = 1.240e-01
+    z =    2.0: a^-6 = 7.290e+02, H/H_LCDM = 3.701e-02
+    z = 1100.0: a^-6 = 1.781e+18, H/H_LCDM = 7.493e-10
+  -> grossly excluded by distance measurements (and by the CMB): the two sections need different normalisations

@@ -1,0 +1,198 @@
+http://arxiv.org/abs/1910.01916v2
+  title: Canonical transformations and squeezing formalism in cosmology
+  authors: Julien Grain, Vincent Vennin
+  journal_ref: -
+  doi: 10.1088/1475-7516/2020/02/022
+  first version: 2019-10-03
+http://arxiv.org/abs/1812.08686v2
+  title: Bimetric cosmology is compatible with local tests of gravity
+  authors: Marvin Lüben, Edvard Mörtsell, Angnis Schmidt-May
+  journal_ref: -
+  doi: -
+  first version: 2018-12-20
+http://arxiv.org/abs/gr-qc/9302036v1
+  title: Quantum Effects In Cosmology
+  authors: L. P. Grishchuk
+  journal_ref: Class.Quant.Grav.10:2449-2478,1993
+  doi: 10.1088/0264-9381/10/12/006
+  first version: 1993-02-26
+http://arxiv.org/abs/2110.00483v1
+  title: BICEP / Keck XIII: Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season
+  authors: BICEP/Keck Collaboration,  :, P. A. R. Ade, Z. Ahmed, M. Amiri, D. Barkats, R. Basu Thakur, D. Beck, C. Bischoff, J. J. Bock, H. Boenish, E. Bullock, V. Buza, J. R. Cheshire, J. Connors, J. Cornelison
+  journal_ref: Phys. Rev. Lett. 127, 151301 (2021)
+  doi: 10.1103/PhysRevLett.127.151301
+  first version: 2021-10-01
+http://arxiv.org/abs/2002.11761v1
+  title: New Test of the Gravitational $1/r^2$ Law at Separations down to 52 $μ$m
+  authors: J. G. Lee, E. G. Adelberger, T. S. Cook, S. M. Fleischer, B. R. Heckel
+  journal_ref: -
+  doi: 10.1103/PhysRevLett.124.101101
+  first version: 2020-02-26
+http://arxiv.org/abs/2001.08664v2
+  title: Cosmological Complexity
+  authors: Arpan Bhattacharyya, Saurya Das, S. Shajidul Haque, Bret Underwood
+  journal_ref: Phys. Rev. D 101, 106020 (2020)
+  doi: 10.1103/PhysRevD.101.106020
+  first version: 2020-01-23
+http://arxiv.org/abs/1909.11063v5
+  title: Trans-Planckian Censorship and the Swampland
+  authors: Alek Bedroya, Cumrun Vafa
+  journal_ref: -
+  doi: 10.1007/JHEP09(2020)123
+  first version: 2019-09-24
+http://arxiv.org/abs/0810.0087v2
+  title: Why do cosmological perturbations look classical to us?
+  authors: Claus Kiefer, David Polarski
+  journal_ref: Adv.Sci.Lett.2:164-173,2009
+  doi: -
+  first version: 2008-10-01
+http://arxiv.org/abs/gr-qc/9802003v1
+  title: Quantum-to-classical transition for fluctuations in the early Universe
+  authors: C. Kiefer, D. Polarski, A. A. Starobinsky
+  journal_ref: Int.J.Mod.Phys. D7 (1998) 455-462
+  doi: 10.1142/S0218271898000292
+  first version: 1998-02-02
+http://arxiv.org/abs/2303.17495v1
+  title: On the Inevitable Lightness of Vacuum
+  authors: Laurent Freidel, Jerzy Kowalski-Glikman, Robert G. Leigh, Djordje Minic
+  journal_ref: -
+  doi: -
+  first version: 2023-03-30
+http://arxiv.org/abs/astro-ph/0603114v4
+  title: Dark Energy: Mystery of the Millennium
+  authors: T. Padmanabhan
+  journal_ref: AIP Conf.Proc.861:179-196,2006
+  doi: 10.1063/1.2399577
+  first version: 2006-03-05
+http://arxiv.org/abs/1807.06209v4
+  title: Planck 2018 results. VI. Cosmological parameters
+  authors:  Planck Collaboration, N. Aghanim, Y. Akrami, M. Ashdown, J. Aumont, C. Baccigalupi, M. Ballardini, A. J. Banday, R. B. Barreiro, N. Bartolo, S. Basak, R. Battye, K. Benabed, J. -P. Bernard, M. Bersan
+  journal_ref: A&A 641, A6 (2020)
+  doi: 10.1051/0004-6361/201833910
+  first version: 2018-07-17
+http://arxiv.org/abs/1502.08005v1
+  title: Metastring Theory and Modular Space-time
+  authors: Laurent Freidel, Robert G. Leigh, Djordje Minic
+  journal_ref: -
+  doi: -
+  first version: 2015-02-27
+http://arxiv.org/abs/astro-ph/9506072v1
+  title: Cosmological Perturbation Theory in the Synchronous and Conformal Newtonian Gauges
+  authors: Chung-Pei Ma, Edmund Bertschinger
+  journal_ref: Astrophys.J. 455 (1995) 7-25
+  doi: 10.1086/176550
+  first version: 1995-06-11
+http://arxiv.org/abs/0709.1965v2
+  title: Natural extension of the Generalised Uncertainty Principle
+  authors: C. Bambi, F. R. Urban
+  journal_ref: Class.Quant.Grav.25:095006,2008
+  doi: 10.1088/0264-9381/25/9/095006
+  first version: 2007-09-13
+http://arxiv.org/abs/hep-th/0403052v2
+  title: Entropy Bounds and Dark Energy
+  authors: Stephen D. H. Hsu
+  journal_ref: Phys.Lett.B594:13-16,2004
+  doi: 10.1016/j.physletb.2004.05.020
+  first version: 2004-03-03
+http://arxiv.org/abs/math-ph/0506031v3
+  title: Reciprocal relativity of noninertial frames and the quaplectic group
+  authors: Stephen G. Low
+  journal_ref: Found.Phys. 36 (2006) 1036-1069
+  doi: 10.1007/s10701-006-9051-2
+  first version: 2005-06-13
+http://arxiv.org/abs/hep-th/0010252v2
+  title: Positive vacuum energy and the N-bound
+  authors: Raphael Bousso
+  journal_ref: JHEP 0011 (2000) 038
+  doi: 10.1088/1126-6708/2000/11/038
+  first version: 2000-10-27
+http://arxiv.org/abs/2212.06086v3
+  title: On de Sitter Spacetime and String Theory
+  authors: Per Berglund, Tristan Hübsch, Djordje Minic
+  journal_ref: Int. J. Mod. Phys. D 32 (09) 2330002 (2023)
+  doi: 10.1142/S0218271823300021
+  first version: 2022-12-12
+http://arxiv.org/abs/2212.00901v2
+  title: The Vacuum Energy Density and Gravitational Entropy
+  authors: Laurent Freidel, Jerzy Kowalski-Glikman, Robert G. Leigh, Djordje Minic
+  journal_ref: -
+  doi: 10.1103/PhysRevD.107.126016
+  first version: 2022-12-01
+http://arxiv.org/abs/2407.07956v3
+  title: Inflationary Gravitational Waves as a probe of the unknown post-inflationary primordial Universe
+  authors: Athul K. Soman, Swagat S. Mishra, Mohammed Shafi, Soumen Basak
+  journal_ref: -
+  doi: -
+  first version: 2024-07-10
+http://arxiv.org/abs/1604.06704v2
+  title: Massive gravitons as dark matter and gravitational waves
+  authors: Katsuki Aoki, Shinji Mukohyama
+  journal_ref: Phys. Rev. D 94, 024001 (2016)
+  doi: 10.1103/PhysRevD.94.024001
+  first version: 2016-04-22
+http://arxiv.org/abs/0911.1955v2
+  title: The Temperature of the Cosmic Microwave Background
+  authors: D. J. Fixsen
+  journal_ref: Astrophys.J.707:916-920,2009
+  doi: 10.1088/0004-637X/707/2/916
+  first version: 2009-11-10
+http://arxiv.org/abs/0909.3983v3
+  title: A Larger Estimate of the Entropy of the Universe
+  authors: Chas A. Egan, Charles H. Lineweaver
+  journal_ref: Astrophys.J.710:1825-1834,2010
+  doi: 10.1088/0004-637X/710/2/1825
+  first version: 2009-09-22
+http://arxiv.org/abs/1306.1086v2
+  title: Strong lensing constraints on bimetric massive gravity
+  authors: Jonas Enander, Edvard Mortsell
+  journal_ref: JHEP 1310 (2013) 031
+  doi: 10.1007/JHEP10(2013)031
+  first version: 2013-06-05
+http://arxiv.org/abs/0705.4397v3
+  title: Relativistic cosmology and large-scale structure
+  authors: Christos G. Tsagas, Anthony Challinor, Roy Maartens
+  journal_ref: Phys.Rept.465:61-147,2008
+  doi: 10.1016/j.physrep.2008.03.003
+  first version: 2007-05-30
+http://arxiv.org/abs/0802.1129v1
+  title: Doubly special relativity in de Sitter spacetime
+  authors: S. Mignemi
+  journal_ref: Annalen Phys.522:924-940,2010
+  doi: 10.1002/andp.201000105
+  first version: 2008-02-08
+http://arxiv.org/abs/1504.03963v2
+  title: The Siegel Upper Half Space is a Marsden-Weinstein Quotient: Symplectic Reduction and Gaussian Wave Packets
+  authors: Tomoki Ohsawa
+  journal_ref: Letters in Mathematical Physics, September 2015, Volume 105, Issue 9, pp 1301-1320
+  doi: 10.1007/s11005-015-0780-z
+  first version: 2015-04-15
+http://arxiv.org/abs/1305.1025v1
+  title: Symplectic and Hamiltonian Deformations of Gabor Frames
+  authors: Maurice A. de Gosson
+  journal_ref: -
+  doi: -
+  first version: 2013-05-05
+http://arxiv.org/abs/hep-th/0401128v2
+  title: Renormalisation of φ^4-theory on noncommutative R^4 in the matrix base
+  authors: Harald Grosse, Raimar Wulkenhaar
+  journal_ref: Commun.Math.Phys.256:305-374,2005
+  doi: 10.1007/s00220-004-1285-2
+  first version: 2004-01-20
+http://arxiv.org/abs/1510.04038v8
+  title: Quantum Discord of Cosmic Inflation: Can we Show that CMB Anisotropies are of Quantum-Mechanical Origin?
+  authors: Jerome Martin, Vincent Vennin
+  journal_ref: Phys. Rev. D 93, 023505 (2016)
+  doi: 10.1103/PhysRevD.93.023505
+  first version: 2015-10-14
+http://arxiv.org/abs/hep-th/9803132v2
+  title: Effective Field Theory, Black Holes, and the Cosmological Constant
+  authors: Andrew G. Cohen, David B. Kaplan, Ann E. Nelson
+  journal_ref: Phys.Rev.Lett.82:4971-4974,1999
+  doi: 10.1103/PhysRevLett.82.4971
+  first version: 1998-03-17
+http://arxiv.org/abs/1302.3226v2
+  title: CosMIn: The Solution to the Cosmological Constant Problem
+  authors: Hamsa Padmanabhan, T. Padmanabhan
+  journal_ref: -
+  doi: 10.1142/S0218271813420017
+  first version: 2013-02-13

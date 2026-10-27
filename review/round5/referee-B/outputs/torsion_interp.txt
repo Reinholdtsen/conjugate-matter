@@ -1,0 +1,7 @@
+alpha=1      +a95: loglog 40.66 um, linear 40.83 um   |a95|: loglog 38.63 um, linear 38.93 um
+alpha=4/3    +a95: loglog 37.68 um, linear 38.08 um   |a95|: loglog 35.79 um, linear 36.02 um
+alpha=8/3    +a95: loglog 31.69 um, linear 31.78 um   |a95|: loglog 30.23 um, linear 30.58 um
+alpha=16/3   +a95: loglog 27.07 um, linear 27.27 um   |a95|: loglog 25.98 um, linear 26.20 um
+hbar c/(37.7 um) = 5.234 meV
+hbar c/(35.8 um) = 5.512 meV
+hbar c/(38.6 um) = 5.112 meV

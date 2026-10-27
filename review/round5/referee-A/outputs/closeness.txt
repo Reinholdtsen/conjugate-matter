@@ -1,0 +1,32 @@
+today: S^(1/3) = 1.002e+30, S_dS^(1/4) = 4.265e+30, ratio = 0.235
+
+Reading (i): the fixed comoving region (today's observable universe) and S_dS: S is conserved
+  (total radiation entropy, all species, since reheating), S_dS is constant -> ratio = 0.235 at every epoch
+
+Reading (ii): radiation entropy inside the particle horizon at epoch a, against S_dS
+   a          z            chi(a) [Gly comoving]   S_ph^(1/3)      ratio to S_dS^(1/4)
+      1e-09         1e+09         0.0000            3.284e+22       7.701e-09
+      1e-06         1e+06         0.0015            3.282e+25       7.695e-06
+     0.0001          9999         0.1401            3.043e+27       7.136e-04
+   0.000908          1100         0.9073            1.971e+28       4.622e-03
+        0.1             9        15.4853            3.364e+29       7.889e-02
+        0.5             1        35.0405            7.613e+29       1.785e-01
+          1             0        46.1328            1.002e+30       2.350e-01
+          2          -0.5        54.1089            1.176e+30       2.757e-01
+         10          -0.9        61.0593            1.327e+30       3.111e-01
+        100         -0.99        62.6369            1.361e+30       3.191e-01
+      1e+04       -0.9999        62.8104            1.365e+30       3.200e-01
+  a -> inf: chi_inf = 62.812 Gly, ratio -> 0.320
+
+Reading (iii): radiation in the Hubble sphere at epoch a against that sphere's horizon entropy pi (c/H)^2/lP^2
+   (photons+neutrinos only, conserved comoving entropy density; g_s steps ignored)
+  a =     1e-09:  S_rad,H^(1/3) = 3.284e+22   S_H^(1/4) = 3.960e+22   ratio = 0.829
+  a =     1e-06:  S_rad,H^(1/3) = 3.279e+25   S_H^(1/4) = 3.957e+25   ratio = 0.829
+  a =    0.0001:  S_rad,H^(1/3) = 2.835e+27   S_H^(1/4) = 3.679e+27   ratio = 0.771
+  a =  0.000294:  S_rad,H^(1/3) = 6.820e+27   S_H^(1/4) = 9.787e+27   ratio = 0.697
+  a =  0.000908:  S_rad,H^(1/3) = 1.472e+28   S_H^(1/4) = 2.527e+28   ratio = 0.583
+  a =       0.1:  S_rad,H^(1/3) = 1.771e+29   S_H^(1/4) = 9.197e+29   ratio = 0.193
+  a =         1:  S_rad,H^(1/3) = 3.152e+29   S_H^(1/4) = 3.880e+30   ratio = 0.081
+  a =        10:  S_rad,H^(1/3) = 3.808e+28   S_H^(1/4) = 4.264e+30   ratio = 0.009
+
+decomposition today: prefactor 0.852 x (T0/rho_L^(1/4) = 0.1048) x (R/L_L = 2.632) = 0.235
