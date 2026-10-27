@@ -17,6 +17,7 @@ below gives their paths.
   - #11 `broken-born-checkpoint-v2.md` — **the current reference for the full program.**
   - #13 `conjugate-special-relativity.md`
   - `reciprocity-toy-models.md` — the toy-Lagrangian note: two models of spontaneously broken ρ. Blind-review format. Round 4: B; v2 applies the revisions. The worklog is `notes/toy-lagrangian.md`.
+  - `phase-space-diameter.md` — the phase-space-diameter note: the size of the universe in position and in momentum. Round 5: B; v1.1 applies the revisions. The worklog is `notes/phase-space-diameter-worklog.md`.
 - [popsci/](popsci/) — #10 `angle-of-the-mirror.md`, #12 `universes-other-half.md`.
 - [notes/](notes/) — the audit trail, superseded as reference but kept.
   - #1 `broken-born-theory.md` — the lab notebook, addenda v0.2–v0.6.
@@ -24,7 +25,7 @@ below gives their paths.
   - #9 `broken-born-program-v1.md` — superseded by #11.
   - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
-- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); arbitration and audit scripts go here.
+- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`.
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. No domain is chosen yet. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
@@ -51,12 +52,33 @@ only as a task needs them.
   - the strong form of matter locality;
   - the real Grosse–Wulkenhaar model's one-loop preference for the
     position-sharp vacuum, a lead.
+- The phase-space-diameter note (HANDOFF §8 item 7) is done:
+  `papers/phase-space-diameter.md` v1.1, round-5 verdict B
+  (`review/round5-adjudication.md`). Its results:
+  - the chat-only relation is standard physics: D_x·D_p = κ h N^{1/3} is
+    an identity of blackbody statistics, constant for a fixed comoving
+    region; a·ã = 1 is its one-cell form, and none of it tests the program;
+  - "square exactly at the bounce" is withdrawn (obituary in §6);
+  - the self-dual length √(l_P L) ≈ 50 μm is prior art (Freidel,
+    Kowalski-Glikman, Leigh and Minic 2023, among others), and the program
+    can use it neither as #13's Born length nor as X's range;
+  - new bound: in the program's aligned bimetric vacuum (background ratio
+    u = 1), X's range is below 37.7 μm, M_X c² > 5.2 meV.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
-  1. HANDOFF §8 items 5–7: the partially-massless comparison, the
-     † literature battery, the phase-space-diameter note.
-  2. Optional: a round-5 review of the toy note, but only before any
+  1. HANDOFF §8 items 5–6: the partially-massless comparison and the
+     † literature battery (Born 1938 and 1949 were retrieved for the
+     diameter note; see its §4).
+  2. Optional: a round-6 review of the toy note, but only before any
      external use.
-- Reasons are in the adjudication's "Decisions" section.
+- Reasons for the queue are in the round-3 adjudication's "Decisions"
+  section.
+- Leads from the diameter note's literature sweep, not queued: Low 2006 is
+  prior art for #13's maximum force; Lukierski, Meljanac, Mignemi and Pachoł
+  2023 break an algebra containing a continuous Born rotation spontaneously
+  in the Yang model, against the toy note's "no explicit model"; Shlivko and
+  Steinhardt 2024 and Hur et al. 2025 bear on reading DESI's CPL quadrant
+  against strict w ≥ −1; whether the aligned bimetric vacuum persists as the
+  universe expands is open.
 
 ## The gate
 
@@ -94,6 +116,11 @@ First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
   was bounded only at frozen H.
 - Monte Carlo numbers need error bars from independent runs. A fixed seed makes
   a number reproducible, not accurate.
+- When a result rests on a formula from the literature, carry every parameter
+  the cited formula has and state what fixes each one. Round 5 found a dropped
+  background ratio in a bimetric coupling.
+- A claim about how a quantity behaves over time ("holds at no other epoch")
+  needs executed code like any number.
 - Report negative results prominently. Claims listed as dead in HANDOFF §2 stay
   dead.
 
