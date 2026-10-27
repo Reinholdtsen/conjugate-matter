@@ -34,7 +34,7 @@ The unification it refers to ends #11 §11.3:
 
 > Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure — the BBT-native analog of T- and S-duality cohabiting inside U-duality in string theory [T].
 
-BBT is the Broken-Born program's name for itself. OP8 is the wiki's label for this item.
+BBT, Broken-Born theory, is the program's earlier name. OP8 is the wiki's label for this item.
 
 ## The two polarizations
 

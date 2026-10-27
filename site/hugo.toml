@@ -1,16 +1,16 @@
-# The Broken-Born program's wiki as a static site. Same stack as Paul's other
+# The Comatter program's wiki as a static site. Same stack as Paul's other
 # Hugo sites (bitsy-services/wiki; gargantis/gargantis/site for the site/
 # subfolder): the hugo-book theme, vendored as a git submodule under
 # themes/hugo-book, content in a BookSection folder, deployed to Cloudflare
 # Workers static assets (wrangler.jsonc). Build and check from site/:
 # `npm run check`. Output (git-ignored): site/public/. See site/CLAUDE.md.
 
-# The production domain goes here once one is chosen, e.g. 'https://example.org/'.
-# Until then '/' keeps every generated URL root-relative.
+# The site serves at https://comatter.science/, but the domain is not set here
+# yet (site/CLAUDE.md); '/' keeps every generated URL root-relative.
 baseURL = '/'
 # The site's language. `locale` replaced `languageCode` in Hugo 0.158.
 locale = 'en-us'
-title = 'The Broken-Born program'
+title = 'The Comatter program'
 theme = 'hugo-book'
 
 # CLAUDE.md files are agent instructions that live beside the content they

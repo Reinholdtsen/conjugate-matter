@@ -31,7 +31,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 8:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Magnetic monopoles (ours) | Model-dependent | Permanent null; Berry-curvature monopoles in solids as the only shadow | Direct detection |
 
@@ -52,7 +52,7 @@ Two kinds of observation bear on them ([monopole flux bounds](/wiki/electric-mag
 
 #11 §11.2 adds, from the literature, why magnetic states are hard to see in general [T]: "Non-observation is structural: Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound." `review/wiki-build-flags.md` item 28 records that the number is right and the formula beside it is not: "With α = e²/4π, 4π/e² = 1/α ≈ 137; e·g = 2π gives g²/4π = π/e² = 1/(4α) ≈ 34.26." The flag awaits Paul's ruling, and this page quotes #11 as written ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family#diracs-condition-forces-a-strong-magnetic-coupling-t)).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### A null with the standard explanation
 

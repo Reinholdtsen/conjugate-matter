@@ -23,7 +23,7 @@ sources:
   - "review/wiki-build-flags.md preamble"
 ---
 
-*The Broken-Born program is the work of two parties: Paul (P.R.), an independent developer, and Claude, an AI model made by Anthropic. Paul supplies conjectures and direction and holds a veto; Claude supplies derivations, counterexamples, verification and drafting, and the papers carry an attribution line that records this split. Paul cannot independently verify most of the technical physics, so the provenance tags, the machine checks and the review forecasts written down in advance are his means of telling sound results from confabulation. The same conventions fix how decisions are taken and delegated, how work is divided into chunks that a new session can resume, and how the science is written.*
+*The Comatter program is the work of two parties: Paul (P.R.), an independent developer, and Claude, an AI model made by Anthropic. Paul supplies conjectures and direction and holds a veto; Claude supplies derivations, counterexamples, verification and drafting, and the papers carry an attribution line that records this split. Paul cannot independently verify most of the technical physics, so the provenance tags, the machine checks and the review forecasts written down in advance are his means of telling sound results from confabulation. The same conventions fix how decisions are taken and delegated, how work is divided into chunks that a new session can resume, and how the science is written.*
 
 **Status:** Method, in force — untagged — root `CLAUDE.md` ('Working with Paul'); `HANDOFF.md` §1 and §7.
 

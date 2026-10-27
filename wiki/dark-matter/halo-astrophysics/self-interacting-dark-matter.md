@@ -17,7 +17,7 @@ sources:
   - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
 ---
 
-*Self-interacting dark matter (SIDM) is dark matter whose particles scatter off one another through a force of their own, in addition to gravity. The scattering carries heat from the outer parts of a halo into its colder center, which turns the steep central density peak predicted for collisionless cold dark matter (CDM) into a flat core. How strongly the particles scatter, and how that strength changes with their relative speed, is the observable that the Broken-Born program's [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) modifies. This page is the established background; the program's own law is [the gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law).*
+*Self-interacting dark matter (SIDM) is dark matter whose particles scatter off one another through a force of their own, in addition to gravity. The scattering carries heat from the outer parts of a halo into its colder center, which turns the steep central density peak predicted for collisionless cold dark matter (CDM) into a flat core. How strongly the particles scatter, and how that strength changes with their relative speed, is the observable that the Comatter program's [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) modifies. This page is the established background; the program's own law is [the gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law).*
 
 **Status:** Established — [T], explained here from general knowledge — literature; the program's sources cite no paper for it, and it enters the program as the standard expectation of prediction [rows 1](/wiki/predictions/self-interaction-knee) and [2](/wiki/predictions/scattering-isotropy).
 
@@ -78,7 +78,7 @@ The program uses that last property as a contrast. On the [wave island](/wiki/da
 
 ### Conjugate matter as gated SIDM
 
-On the [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem), where [conjugate matter](/wiki/dark-matter/conjugate-matter) χ is a gas of classical particles of MeV–GeV mass, the program's dark sector is a form of SIDM. Debt 3a: "On this island BBT is cliff-shaped SIDM plus Maslov quintessence", BBT being the Broken-Born program ('Consequences for the predictions table'). The difference from a Yukawa model lies in what the interaction depends on. The program's amplitude has the Yukawa propagator in the momentum transfer q, multiplied by a gate factor in the incoming relative momentum k:
+On the [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem), where [conjugate matter](/wiki/dark-matter/conjugate-matter) χ is a gas of classical particles of MeV–GeV mass, the program's dark sector is a form of SIDM. Debt 3a: "On this island BBT is cliff-shaped SIDM plus Maslov quintessence", BBT being Broken-Born theory, the program's earlier name ('Consequences for the predictions table'). The difference from a Yukawa model lies in what the interaction depends on. The program's amplitude has the Yukawa propagator in the momentum transfer q, multiplied by a gate factor in the incoming relative momentum k:
 
 ```text
 M(k, q) = 4πα̃m_χ/(q² + m_φ²) · F(k²/μ²)                    (#11 §8)

@@ -104,7 +104,7 @@ The program cites fits of this kind: #11 §10 reports "high posterior preference
 
 Row 5 of the [predictions table](/wiki/predictions), #11 §13:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Fate of expansion | Eternal de Sitter | Turnaround = conjugate bounce | (Long horizon; near-term test is row 4) |
 

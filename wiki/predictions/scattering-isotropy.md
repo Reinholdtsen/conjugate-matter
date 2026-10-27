@@ -28,7 +28,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 2:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Scattering anisotropy | Forward-peaked (light mediators) | Isotropic below the gate | Morphology demanding forward peaking |
 
@@ -46,7 +46,7 @@ The usual model of self-interacting dark matter (SIDM) carries the force on a me
 
 When the mediator is light, so that m_φ is small compared with the transfers a collision can reach, the amplitude grows as 1/q² toward small q, the Rutherford form, and the collisions concentrate at small angles [T] ([contact and Yukawa forces](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#contact-and-yukawa-forces)). The lab notebook: "light-mediator Yukawa scattering is forward-peaked" (#1 §5.1). The same small-angle dominance gives the light-mediator cross-section its v⁻⁴ fall with a Coulomb logarithm, which is row 1's standard expectation.
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### The argument
 

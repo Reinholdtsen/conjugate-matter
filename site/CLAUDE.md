@@ -5,7 +5,16 @@ builds `../wiki` into static HTML in `public/`, and a Cloudflare Workers
 static-assets Worker, `conjugate-matter-wiki`, serves it. It is the same stack as
 Paul's other Hugo sites (`~/git/bitsy-services/wiki`, and
 `~/git/gargantis/gargantis/site` for the `site/` subfolder). Paul deploys it by
-hand. No domain has been chosen yet.
+hand. It serves at https://comatter.science/ (the apex only; `www` has no
+record).
+
+The domain was not added the way "Adding a domain" below describes:
+`wrangler.jsonc` has no `routes` and `hugo.toml` still has `baseURL = '/'`, so it
+was attached outside this config, in the Cloudflare dashboard or by a deploy
+flag. A deploy keeps it: Wrangler overrides routes set outside the config only
+when the config has a `routes` key. To make the
+config the record of the domain, follow steps 1 and 2 of "Adding a domain" with
+`comatter.science`.
 
 ## The content is not here
 

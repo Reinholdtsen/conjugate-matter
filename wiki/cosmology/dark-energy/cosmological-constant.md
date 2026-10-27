@@ -137,7 +137,7 @@ The program addresses one contribution only: its [vacuum-energy identity](/wiki/
 
 ### Row 4: w ≡ −1
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Dark energy w(z) | w ≡ −1 | Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3 | DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10) |
 
@@ -147,7 +147,7 @@ The standard expectation sits at the edge of the requirement. The bound w ≥ �
 
 ### Row 5: eternal de Sitter
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Fate of expansion | Eternal de Sitter | Turnaround = conjugate bounce | (Long horizon; near-term test is row 4) |
 

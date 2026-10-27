@@ -5,6 +5,8 @@ status: record
 description: "Dated events from Born's 1938 paper to the pending DESI DR3 release: the claude.ai era in creation order, the move to the repository, rounds 3 and 4, the checkpoint's versions, the wiki's build with its flags file and the flags' audit, the next day's revisions, new pages, flags 43 and 44, the rulings worksheet, a second round of new pages and the Hugo site built from the wiki, and on 2026-10-26 the phase-space-diameter note, its gate script, review round 5, the note's version 1.1, the wiki update, the fixes to the sources that followed it, and the crash that interrupted the update's verification."
 sources:
   - "CLAUDE.md 'Since the handoff'"
+  - "review/name-check.md"
+  - "site/CLAUDE.md"
   - "notes/phase-space-diameter-worklog.md"
   - "papers/phase-space-diameter.md header"
   - "papers/phase-space-diameter.md §4"
@@ -280,6 +282,16 @@ Paul's question of the day: "Investigate or explain if there is a relationship b
 
 The worklog's entry for chunk 3 counts the rulings as the adjudication's table does: "R2–R13 upheld, R14–R16 accepted (fifteen further findings)". Its entry for chunk 4, "Note v1.1 with every accepted revision", holds since the fixes of 17:55, which added the one citation that ruling R15 had claimed and the note lacked.
 
+## The new name: 2026-10-26
+
+Late on 2026-10-26 the program was renamed. Paul had already registered a domain for the site, and the program took the same name.
+
+| Time | Commit | Event |
+| --- | --- | --- |
+| by 2026-10-26, date not recorded | — | The site serves at https://comatter.science/, deployed by Paul by hand. The domain is attached outside `site/wrangler.jsonc`, which has no routes (`site/CLAUDE.md`). |
+| 2026-10-26, time not recorded | — | A search of INSPIRE, arXiv and the web finds no earlier use of "comatter" (`review/name-check.md`). |
+| 2026-10-26, time not recorded | — | The Broken-Born program becomes the Comatter program. #11, #13, the phase-space-diameter note, the popular article #12, the root, wiki and site `CLAUDE.md` files, the site and the wiki take the new name; #11's §13 column "Broken-Born requirement" becomes "Program requirement". The records (`HANDOFF.md`, the notes, the review records and the `verify/` scripts) and all file names keep the old name. |
+
 ## Pending
 
 - **The queue.** Since 2026-10-26 the root `CLAUDE.md` gives it as "HANDOFF §8 items 5–6: the partially-massless comparison and the † literature battery (Born 1938 and 1949 were retrieved for the diameter note; see its §4)", then an optional round-6 review of the toy note, "but only before any external use" ([the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison); [the † literature battery](/wiki/method/literature-battery)). From 2026-10-20 (commit 6606734) it had read "HANDOFF §8 items 5–7: the partially-massless comparison, the † literature battery, the phase-space-diameter note", then an optional round-5 review of the toy note; the note was written and reviewed in round 5 on 2026-10-26 ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)). How the queue changed since the handoff is set out on [CLAUDE.md and the README](/wiki/history/documents/project-instructions) and [open problems and the queue](/wiki/status/open-problems).
@@ -299,6 +311,7 @@ The worklog's entry for chunk 3 counts the rulings as the adjudication's table d
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — the post-handoff decisions, the lessons added in 96f58da and e3ce9eb, the diameter note done, and the current queue
+- `review/name-check.md` — the check that the name comatter was unused; `site/CLAUDE.md` — the domain and how it is attached
 - `notes/phase-space-diameter-worklog.md` — Paul's question of 2026-10-26, the chunks, the times of the day's entries, the hashes recorded before dispatch and the dispatch time, the count of the rulings, the writers' source findings fixed at 17:55, and the crash of 18:25 with the gate state after it
 - `papers/phase-space-diameter.md` header — version 1.1 after round 5; §4, §5 — what the note records of Born 1938 and 1949
 - `review/round5-preregistration.md`, `review/round5-adjudication.md` — round 5: the forecast kept outside the repository, "no commit authorization", the reviewed version 1.0 kept as `review/round5/manuscript-v1.0.md`, the verdicts, rulings R1–R16, the scoring, the revisions and the recommendation on flags 23 and 24

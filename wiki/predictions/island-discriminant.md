@@ -35,7 +35,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 3:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | **Island discriminant** | (not previously posed) | Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave | Diagnostic — selects the branch (particle vs wave χ) |
 

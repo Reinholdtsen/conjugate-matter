@@ -30,7 +30,7 @@ sources:
 
 ## Statement
 
-As first stated, in [the note that closed Debt 3](/wiki/history/documents/debt-3-notes), where BBT is the Broken-Born framework (`notes/debt3c-ufd-endpoint.md`, 'Verdict and closure of Debt 3'):
+As first stated, in [the note that closed Debt 3](/wiki/history/documents/debt-3-notes), where BBT is Broken-Born theory, the program's earlier name (`notes/debt3c-ufd-endpoint.md`, 'Verdict and closure of Debt 3'):
 
 > **Nowhere in the viable parameter space of BBT is velocity-space clumping a mandatory phenomenon.** It is forbidden for classical-particle χ, fatal where it would have been mandatory (Scenario A), and merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction).
 

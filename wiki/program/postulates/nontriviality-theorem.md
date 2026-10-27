@@ -24,7 +24,7 @@ sources:
   - "review/wiki-build-checks/verifier_null_lagrangians.py"
 ---
 
-*The nontriviality theorem states that the Broken-Born program predicts anything beyond [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one model of self-interacting dark matter only if the neutral metric η, the structure that marks which directions count as position, is a property of the vacuum rather than a fixed part of the background. It is the argument that forced the program to change its second axiom. With η fixed, the position–momentum splittings compatible with both fixed structures include no [Maslov circle](/wiki/phase-space/modular-field/maslov-phase), the loop of splittings on which the program's dark-energy field lives, and the [geometric action](/wiki/gravity/tuning-test/geometric-action) depends only on the ordinary spacetime metric, which leaves no second, momentum-space graviton. With η a property of the vacuum, all of these return. The result is a structural argument of the program, tagged derived [D]; the compatibility theorem it starts from is a known result of Born geometry and is machine-checked.*
+*The nontriviality theorem states that the Comatter program predicts anything beyond [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one model of self-interacting dark matter only if the neutral metric η, the structure that marks which directions count as position, is a property of the vacuum rather than a fixed part of the background. It is the argument that forced the program to change its second axiom. With η fixed, the position–momentum splittings compatible with both fixed structures include no [Maslov circle](/wiki/phase-space/modular-field/maslov-phase), the loop of splittings on which the program's dark-energy field lives, and the [geometric action](/wiki/gravity/tuning-test/geometric-action) depends only on the ordinary spacetime metric, which leaves no second, momentum-space graviton. With η a property of the vacuum, all of these return. The result is a structural argument of the program, tagged derived [D]; the compatibility theorem it starts from is a known result of Born geometry and is machine-checked.*
 
 **Status:** Alive — [D] in [#11](/wiki/history/documents/checkpoint) §4; the note that derived it tags its section "[D — structural]" — not machine-checked as a whole; its input, [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem), is [T][V] (battery test T1, [the verification battery](/wiki/method/verification/battery)).
 
@@ -34,7 +34,7 @@ The checkpoint states the result twice. In the postulate list, under [P2′](/wi
 
 > **Program-nontriviality theorem:** BBT has content beyond GR + SIDM **iff** η is emergent. P2 → P2′ is not optional. (#5 §B)
 
-GR is general relativity, SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter), and BBT the Broken-Born program.
+GR is general relativity, SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter), and BBT Broken-Born theory, the program's earlier name.
 
 Two terms need unpacking.
 

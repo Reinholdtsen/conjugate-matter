@@ -25,7 +25,7 @@ sources:
 
 *The popular articles are two plain-language essays about the program, written on claude.ai for general readers. "The Angle of the Mirror" (#10) is a field report on the first week: the bet that Born's symmetry between position and momentum is exact but hidden, the two founding ideas the calculations killed, and the structure that survived. "The Universe's Other Half" (#12) is a tour of the whole framework written, in its own opening words, "as if it were confirmed. It is not." Neither has been revised since the import into this repository, so both still present the [superheavy soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) as alive and read the dark-energy data more favorably than the checkpoint now does, and #12 adds claims that no other document makes. They are kept for their exposition, and neither is ever a source for a claim's status.*
 
-**Status:** Record, never a status source — untagged — rank 7, last, in the wiki's precedence order (`wiki/CLAUDE.md`); both files are unchanged since their import on 2026-10-19 (commit 8d588f6; moved to `popsci/` in 008c3ee).
+**Status:** Record, never a status source — untagged — rank 7, last, in the wiki's precedence order (`wiki/CLAUDE.md`); both files are unchanged since their import on 2026-10-19 (commit 8d588f6; moved to `popsci/` in 008c3ee), except that on 2026-10-26 #12's two mentions of "the broken-Born framework" became "the Comatter framework".
 
 ## What the articles are
 
@@ -35,7 +35,7 @@ The articles carry no [provenance tags](/wiki/method/provenance-tags) and no ref
 
 ## Why neither is a status source
 
-The wiki's precedence order places the popular articles last and adds: "#12 presents the framework as if it were confirmed. It is never a source for a claim's status" (`wiki/CLAUDE.md`). #12 says the same of itself: "What follows presents the broken-Born framework as if it were confirmed. It is not. It is a speculative proposal awaiting expert review and observational tests, and it ends with the measurements that could refute it." #10 calls itself "unreviewed, unpublished, and wrong in whatever places expert scrutiny will eventually find."
+The wiki's precedence order places the popular articles last and adds: "#12 presents the framework as if it were confirmed. It is never a source for a claim's status" (`wiki/CLAUDE.md`). #12 says the same of itself: "What follows presents the Comatter framework as if it were confirmed. It is not. It is a speculative proposal awaiting expert review and observational tests, and it ends with the measurements that could refute it." #10 calls itself "unreviewed, unpublished, and wrong in whatever places expert scrutiny will eventually find."
 
 Two further reasons follow from the dates. Both articles predate #11 v2.1, so they do not know of the soliton candidate's retirement or of the [phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) in the second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI). And #12 goes beyond the technical record in several places, listed below. A claim found only in the articles is recorded as popsci-only, at conjecture tier or dead, on [chat-only and popsci-only conjectures](/wiki/status/conjectures).
 

@@ -1,8 +1,9 @@
-# The Broken-Born Program: A Working Checkpoint
+# The Comatter Program: A Working Checkpoint
 ### Spontaneously broken reciprocity, a massive momentum-space graviton, polarized charge lattices, and the dark-sector question
 
 *Version 2.2 (checkpoint), amended 2026-10-20.*
 
+- *Renamed 2026-10-26:* the program is now the Comatter program. Until then it was the Broken-Born program (BBT), the name the earlier documents use. §13's column "Broken-Born requirement" is now "Program requirement". Nothing else changed.
 - *v2.2 changes:* §3 credits Freidel–Leigh–Minic for "broken Born duality"; P2′ (§4), §10 and §14 item 11 record the toy-model results.
 - *v2.1 changes (2026-10-19, after the round-3 review):* the soliton candidate is retired (§12); the compatibility theorem is re-attributed to the Born-geometry literature (§5); P4 is taken strictly (§4); §10 records DESI DR2's phantom crossing.
 
@@ -159,7 +160,7 @@ The 5.4 : 1 abundance question (polarization-genesis) applies to both.
 
 *In plain terms: A theory is its list of ways to die. Here is this one's, updated.*
 
-| # | Observable | Standard expectation | Broken-Born requirement | Killed by |
+| # | Observable | Standard expectation | Program requirement | Killed by |
 |---|---|---|---|---|
 | 1 | σ_T(v) across halo masses | CDM none; Yukawa SIDM power-law + Coulomb log | Knee at v* ~ 10² km/s; zero cluster signal (particle χ) | Robust self-interaction at v ≫ v*; knee excluded in the 150–400 km/s band |
 | 2 | Scattering anisotropy | Forward-peaked (light mediators) | Isotropic below the gate | Morphology demanding forward peaking |

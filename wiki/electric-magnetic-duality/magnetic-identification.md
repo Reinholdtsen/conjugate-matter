@@ -28,7 +28,7 @@ sources:
 
 ## What was claimed
 
-[The popular article #12](/wiki/history/documents/popular-articles) opens with a caution: "What follows presents the broken-Born framework as if it were confirmed. It is not." Its section 'Dark matter as the other polarization' then makes three statements that go beyond the technical record.
+[The popular article #12](/wiki/history/documents/popular-articles) opens with a caution: "What follows presents the Comatter framework as if it were confirmed. It is not." Its section 'Dark matter as the other polarization' then makes three statements that go beyond the technical record.
 
 **The identification.** After explaining that choosing which particles count as electric is "mathematically the same operation as deciding which variables count as position", #12 continues:
 

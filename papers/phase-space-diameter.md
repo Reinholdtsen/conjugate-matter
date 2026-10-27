@@ -1,7 +1,7 @@
 # The Size of the Universe in Position and in Momentum
 ### The phase-space diameter relation, what Born reciprocity adds, and a self-dual length
 
-*Version 1.1, 2026-10-26, after the round-5 blind review (verdict B; `review/round5-adjudication.md`). A note of the Broken-Born program. It writes up the "phase-space diameter relation", a conjecture recorded only in the summary of the program's early chat sessions, tests it, sets it beside the published answers to the same question, and works through what Born reciprocity adds. Every section opens with a plain-language passage (italic), followed by the technical record. Provenance tags: **[D]** derived in this note, **[T]** established literature, **[P]** postulate of the program, **[O]** open, **[V]** machine-verified by `verify/phase_space_diameter.py`. References carry **[S]** (retrieved by live search for this note) or **†** (cited from memory; to be checked against the source before any external use). Program documents are cited as [H1]–[H2] and [P1]–[P6].*
+*Version 1.1, 2026-10-26, after the round-5 blind review (verdict B; `review/round5-adjudication.md`). A note of the Comatter program (until 2026-10-26, the Broken-Born program). It writes up the "phase-space diameter relation", a conjecture recorded only in the summary of the program's early chat sessions, tests it, sets it beside the published answers to the same question, and works through what Born reciprocity adds. Every section opens with a plain-language passage (italic), followed by the technical record. Provenance tags: **[D]** derived in this note, **[T]** established literature, **[P]** postulate of the program, **[O]** open, **[V]** machine-verified by `verify/phase_space_diameter.py`. References carry **[S]** (retrieved by live search for this note) or **†** (cited from memory; to be checked against the source before any external use). Program documents are cited as [H1]–[H2] and [P1]–[P6].*
 
 - *v1.1 changes:* §8.2 states the bimetric background ratio (written u here; c in the cited papers) that the coupling to X carries, gives the program's argument for u = 1 and the bound as a function of u; §4 explains the per-axis agreement by the Cohen–Kaplan–Nelson bound instead of a coincidence; §5–§7 add prior art (Bambi–Urban, Bolen–Cavaglià, Albrecht et al., Sundrum, Kapner et al., Li, string cosmology); §6 adds the squeezed-mode and string-cosmology readings. Smaller corrections are listed in the adjudication.
 
@@ -269,14 +269,14 @@ The answer to the title's question is yes, in two senses. For the universe's rad
 *[S] = retrieved by live search for this note; † = cited from memory, verify before external use.*
 
 **Program documents.**
-- [H1] Broken-Born program, handoff document (2026-10-19), §4 (`HANDOFF.md`).
-- [H2] Broken-Born program, internal audit of the record, items 23, 24, 27 and 39 (`review/wiki-build-flags.md`).
-- [P1] Broken-Born program, working checkpoint v2.2 (`papers/broken-born-checkpoint-v2.md`).
-- [P2] Broken-Born program, special relativity of the momentum polarization (`papers/conjugate-special-relativity.md`).
-- [P3] Broken-Born program, calc note on the β coefficients (`notes/debt1a-iv-beta-coefficients.md`).
-- [P4] Broken-Born program, two toy models of spontaneously broken reciprocity (`papers/reciprocity-toy-models.md`).
-- [P5] Broken-Born program, calc note on the tuning test (`notes/debt1a-iii-tuning-test.md`).
-- [P6] Broken-Born program, calc note on the classification of X (`notes/debt1a-ii-X-classification.md`).
+- [H1] Comatter program, handoff document (2026-10-19), §4 (`HANDOFF.md`).
+- [H2] Comatter program, internal audit of the record, items 23, 24, 27 and 39 (`review/wiki-build-flags.md`).
+- [P1] Comatter program, working checkpoint v2.2 (`papers/broken-born-checkpoint-v2.md`).
+- [P2] Comatter program, special relativity of the momentum polarization (`papers/conjugate-special-relativity.md`).
+- [P3] Comatter program, calc note on the β coefficients (`notes/debt1a-iv-beta-coefficients.md`).
+- [P4] Comatter program, two toy models of spontaneously broken reciprocity (`papers/reciprocity-toy-models.md`).
+- [P5] Comatter program, calc note on the tuning test (`notes/debt1a-iii-tuning-test.md`).
+- [P6] Comatter program, calc note on the classification of X (`notes/debt1a-ii-X-classification.md`).
 
 **Literature.**
 - [S] A. Albrecht, P. Ferreira, M. Joyce, T. Prokopec, "Inflation and squeezed quantum states," Phys. Rev. D 50, 4807 (1994), arXiv:astro-ph/9303001.

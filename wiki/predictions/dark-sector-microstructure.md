@@ -34,7 +34,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 11:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Dark-sector microstructure | (not previously posed) | Particles vs condensate, separable via rows 1–3 + coherence signatures | Diagnostic |
 

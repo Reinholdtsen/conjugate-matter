@@ -29,7 +29,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 1:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | σ_T(v) across halo masses | CDM none; Yukawa SIDM power-law + Coulomb log | Knee at v\* ~ 10² km/s; zero cluster signal (particle χ) | Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band |
 
@@ -50,7 +50,7 @@ The row sets two standard models against the program.
 
 The lab notebook's version of the column read "Constant (CDM: 0) or power-law v⁻⁴ln tail (Yukawa SIDM)" (#1 §9).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### The law behind it
 

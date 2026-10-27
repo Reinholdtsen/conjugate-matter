@@ -33,7 +33,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 6:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Gravitational waves | m_g = 0 | Massless eigenstate exactly massless (reciprocity-even) | Nonzero mass attributed to the even eigenstate |
 
@@ -51,7 +51,7 @@ Calc note #7 §4 places the bound from gravitational-wave observations in the "m
 
 A theory with two interacting spin-2 fields, such as [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric#the-spectrum-t), has, about a common background, one massless and one massive spin-2 mode, and matter coupled to one of the metrics feels both modes in proportions set by the two [Planck masses](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses) [T]. Calc note #7 §4 applied these "Standard bimetric facts" [T] to the program: "one massless combination (our graviton, coupling to SM stress) and one massive (X)", SM being the Standard Model. In such a theory a bound on the graviton mass needs an interpretation, because the waves detectors register are emitted and absorbed by ordinary matter, which couples to both modes. #7 §4 read the bound as a check on how the two modes mix; row 6 replaces that reading with a statement about the modes themselves (History, below).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### Two spin-2 frames
 

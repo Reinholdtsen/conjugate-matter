@@ -79,7 +79,7 @@ Debt 3c, after falsifying Scenario A, closed [Debt 3](/wiki/history/debts) with 
 
 > Nowhere in the viable parameter space of BBT is velocity-space clumping a mandatory phenomenon. It is forbidden for classical-particle χ, fatal where it would have been mandatory (Scenario A), and merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction).
 
-BBT is the Broken-Born program. Scenario B is the "decorative (free wave)" leg of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), in #11 §9's words. It also defines what is left of the wave island: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings." Debt 3c's robustness check makes the boundary between the scenarios explicit: a core normalization "κ < 1 is by definition Scenario B" ('The data'), that is, any coupling too weak to make the cores falls under Scenario B.
+BBT is Broken-Born theory, the program's earlier name. Scenario B is the "decorative (free wave)" leg of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), in #11 §9's words. It also defines what is left of the wave island: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings." Debt 3c's robustness check makes the boundary between the scenarios explicit: a core normalization "κ < 1 is by definition Scenario B" ('The data'), that is, any coupling too weak to make the cores falls under Scenario B.
 
 The later summaries state the verdict in the same terms:
 

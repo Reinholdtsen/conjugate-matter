@@ -33,7 +33,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 5:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Fate of expansion | Eternal de Sitter | Turnaround = conjugate bounce | (Long horizon; near-term test is row 4) |
 
@@ -47,7 +47,7 @@ The fate of the expansion is whether the scale factor a(t), the factor by which 
 
 "Eternal de Sitter." With a positive [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#toward-de-sitter-space), matter and radiation thin out as space grows while the vacuum energy does not, so the vacuum energy comes to dominate and the universe approaches de Sitter space, expanding exponentially forever [T]. A turnaround requires the vacuum energy to be negative, so that the total density can fall to zero as matter thins; a field that settles where its potential is negative acts as a negative cosmological constant, an anti-de Sitter phase, and the universe then collapses [T] ([recollapse](/wiki/cosmology/dark-energy/quintessence#recollapse-t)).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### The turnaround
 

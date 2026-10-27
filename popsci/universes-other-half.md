@@ -2,7 +2,7 @@
 
 ### One broken symmetry as the common origin of dark matter, dark energy, and the fate of the cosmos
 
-*What follows presents the broken-Born framework as if it were confirmed. It is not. It is a speculative proposal awaiting expert review and observational tests, and it ends with the measurements that could refute it.*
+*What follows presents the Comatter framework as if it were confirmed. It is not. It is a speculative proposal awaiting expert review and observational tests, and it ends with the measurements that could refute it.*
 
 ---
 
@@ -16,7 +16,7 @@ Max Born pointed this out in 1938 and asked the question it raises. If the two d
 
 ## An asymmetry that cannot be avoided
 
-The broken-Born framework starts from two observations. First, the asymmetry cannot reside in the basic laws, because the quantum kinematics demonstrably has the symmetry. Second, some asymmetry is unavoidable anyway. The uncertainty principle forbids anything from being sharply defined in position and momentum at once, so a universe containing definite structures — atoms, crystals, instruments — must be definite in one variable at the expense of the other. Perfect even-handedness is not available to any universe with things in it.
+The Comatter framework starts from two observations. First, the asymmetry cannot reside in the basic laws, because the quantum kinematics demonstrably has the symmetry. Second, some asymmetry is unavoidable anyway. The uncertainty principle forbids anything from being sharply defined in position and momentum at once, so a universe containing definite structures — atoms, crystals, instruments — must be definite in one variable at the expense of the other. Perfect even-handedness is not available to any universe with things in it.
 
 Physics has a standard name for a symmetry that is present in the laws but absent from the state: spontaneous symmetry breaking. The standard illustration is freezing. Liquid water is identical in every direction, and so are the laws governing its molecules. Freeze it, and the resulting crystal has definite axes. Nothing in the laws chose those axes; the transition had to settle on some orientation, and did. A careful observer living inside the ice would find preferred directions built into every material fact of its world, and could easily mistake them for preferred directions in the laws of nature.
 

@@ -45,7 +45,7 @@ sources:
   - "review/wiki-build-flags.md item 24"
 ---
 
-*The graveyard is the register of the Broken-Born program's dead claims: ideas the program put forward that its calculations, a [blind review](/wiki/method/review) or an observation then killed. Each entry says what was claimed and what killed it, and links the claim's obituary page and the calculation, review ruling or decision that settled it; dead items told inside other pages, and the predictions withdrawn from the program's table, are listed with them. A claim recorded here is not revived.*
+*The graveyard is the register of the Comatter program's dead claims: ideas the program put forward that its calculations, a [blind review](/wiki/method/review) or an observation then killed. Each entry says what was claimed and what killed it, and links the claim's obituary page and the calculation, review ruling or decision that settled it; dead items told inside other pages, and the predictions withdrawn from the program's table, are listed with them. A claim recorded here is not revived.*
 
 **Status:** Record, a register current to 2026-10-26 — no tags of its own; each entry keeps the tags of its obituary page — every death was decided by the calculation, review ruling or recorded decision named in its entry, except the magnetic identification, a claim found only in a popular article (popsci-only), which no program document addresses and which the wiki records as dead because it conflicts with the record. The root `CLAUDE.md` rule applies: "Claims listed as dead in HANDOFF §2 stay dead." How the program treats its dead claims is described under [negative results and dead claims](/wiki/method/negative-results).
 

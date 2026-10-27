@@ -1,7 +1,7 @@
-# Special Relativity in the Broken-Born Framework
+# Special Relativity in the Comatter Framework
 ### The kinematics of the momentum polarization: a second light cone, force boosts, and the invariant length
 
-*Working paper of the broken-Born program. House conventions apply: each section opens with a plain-language passage (italic); claims are tagged [D] derived, [T] literature, [P] postulate, [O] open, with † marking memory-sourced citations pending verification. The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout.*
+*Working paper of the Comatter program (until 2026-10-26, the Broken-Born program). House conventions apply: each section opens with a plain-language passage (italic); claims are tagged [D] derived, [T] literature, [P] postulate, [O] open, with † marking memory-sourced citations pending verification. The Euclidean/Lorentzian caveat of the main checkpoint is inherited throughout.*
 
 **Abstract.** If Born reciprocity is exact and spontaneously broken, phase space carries two causal structures: the familiar light cone of position space and its image in momentum space. The momentum-space cone bounds the rate of momentum change — a maximum force, c̃ = ℏc/λ², equal to c⁴/G ≈ 1.2 × 10⁴⁴ N at the Planck value of the Born length. We develop the special relativity of the momentum polarization: the dual Lorentz group ("force boosts"), the composition law for forces, force-dilation of clocks, the duality of the mass shell and an invariant-length shell, and the identification of dual-inertial frames with free fall. The construction explains why force appears exactly additive in all terrestrial and astrophysical experience short of black-hole mergers, ties the framework to the maximum-force conjecture in general relativity, and locates the one natural arena where dual-kinematic corrections could be order unity.
 

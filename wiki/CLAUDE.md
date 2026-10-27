@@ -1,6 +1,6 @@
 # wiki/ — the program's wiki
 
-A fine-grained, hierarchical, interlinked wiki of the Broken-Born program's topics.
+A fine-grained, hierarchical, interlinked wiki of the Comatter program's topics.
 Content only: Markdown in hugo-book form, with no site scaffolding here. It mounts into a
 Hugo site as `content/wiki` (`BookSection = 'wiki'`, `ignoreFiles = ['CLAUDE\.md$']`, the
 same setup as `~/git/bitsy-services/wiki`), and it reads well in an editor or on GitHub as is.
@@ -229,6 +229,10 @@ Rules on wording:
   waveform and its spectrum, and this is literal, since the Fourier transform implements
   ρ. Ball-rolling metaphors do not work, and neither do ledger or bookkeeping metaphors.
   Where #11 says "two ledgers", write "two descriptions".
+- **The program's name.** The program is the Comatter program, capital C. Until
+  2026-10-26 it was the Broken-Born program, abbreviated BBT, and the records keep that
+  name. Quote them as written, and gloss BBT beside the quotation as Broken-Born theory,
+  the program's earlier name.
 - **Explanation is in the third person.** Second-person imperatives are for procedures.
 - **Status and attribution.** A topic's status comes from #11, never from the popsci
   framing. Paul is an independent developer and is never described as retired. Roles

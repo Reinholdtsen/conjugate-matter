@@ -30,7 +30,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 10:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Early universe | Standard G, N_eff | Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff | (Knob-bounded; CMB-S4 probes) |
 
@@ -47,7 +47,7 @@ Two measurements of the early universe bear on the row ([the radiation era: ther
 
 "Standard G, N_eff" (#11 §13): Newton's constant has the same value in the early universe as now, and N_eff takes the value of the Standard Model's three neutrinos, a little above 3. The round-3 record uses 3.044 for it ([ruling 5](/wiki/method/review/round-3/rulings)) [T].
 
-## The Broken-Born requirement
+## The program's requirement
 
 Both imprints come from the lab notebook's cosmology, which rests on two results of [scale-factor duality](/wiki/cosmology/scale-factor-duality).
 

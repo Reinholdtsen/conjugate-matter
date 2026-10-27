@@ -16,8 +16,9 @@
     "not_found_handling": "404-page"
   }
 
-  // No routes: no domain has been chosen, so a deploy serves on workers.dev
-  // only. To serve on a domain in a zone on this Cloudflare account, add a
+  // No routes: comatter.science was attached outside this file, and a deploy
+  // without a "routes" key leaves it in place (site/CLAUDE.md). To record a domain here for a
+  // zone on this Cloudflare account, add a
   // comma after the "assets" block above and then
   //   "routes": [{ "pattern": "<domain>", "custom_domain": true }]
   // and set baseURL in hugo.toml to "https://<domain>/". Cloudflare creates the

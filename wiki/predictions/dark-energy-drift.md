@@ -35,7 +35,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 4:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Dark energy w(z) | w ≡ −1 | Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3 | DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10) |
 
@@ -53,7 +53,7 @@ No survey observes w directly. DESI measures distances with the baryon-acoustic-
 
 "w ≡ −1": a cosmological constant, an energy density of empty space that does not change as the universe expands. It is the dark energy of the standard cosmological model, ΛCDM, a cosmological constant plus cold dark matter [T] ([the cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant)).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### The field
 

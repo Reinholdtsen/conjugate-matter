@@ -72,7 +72,7 @@ The test was the end of a narrowing that began in calc note #5. That note define
 
 > **The single remaining computation of Debt 1:** derive the X-potential from the η-selection (J–Z) sector and test it against the dRGT coefficient family. Pass ⇒ the geometric core stands and "theory" becomes the defensible word. Fail ⇒ the Boulware–Deser ghost kills the geometric sector, and BBT survives only as its phenomenological shell (gated SIDM + Maslov quintessence with the geometric story demoted to heuristics).
 
-BBT is the Broken-Born program, and SIDM is self-interacting dark matter. The shell consists of the dark-matter self-interaction cut off by [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) and the dark-energy field τ on the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase) ([τ as quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). In the failure branch both would have remained, with the geometric story behind them demoted to heuristics. The pass branch's claim about the word "theory" was later superseded (below).
+BBT is Broken-Born theory, the program's earlier name, and SIDM is self-interacting dark matter. The shell consists of the dark-matter self-interaction cut off by [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) and the dark-energy field τ on the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase) ([τ as quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). In the failure branch both would have remained, with the geometric story behind them demoted to heuristics. The pass branch's claim about the word "theory" was later superseded (below).
 
 ## What a pass did not deliver
 

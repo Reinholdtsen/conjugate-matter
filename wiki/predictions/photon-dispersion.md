@@ -35,7 +35,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 9:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Photon dispersion | GR none; some QG linear | Linear exactly zero (ρ²-protected); quadratic suppressed | Confirmed linear-in-E dispersion |
 
@@ -57,7 +57,7 @@ The test is a race over cosmological distances. A gamma-ray burst emits photons 
 
 "GR none; some QG linear" (#11 §13). General relativity, like [special relativity](/wiki/conjugate-relativity/special-relativity), has exact local Lorentz invariance, and photons in vacuum do not disperse [T]. Some approaches to quantum gravity predict an energy-dependent speed of light with a linear term, and the proposal to test this with gamma-ray bursts is G. Amelino-Camelia, J. Ellis, N. E. Mavromatos, D. V. Nanopoulos and S. Sarkar, "Tests of quantum gravity from observations of γ-ray bursts," Nature 393, 763 (1998) (†, cited from memory; no program document cites it). The lab notebook's version of the column: "None (GR); linear in some QG" (#1 §9).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### The protection argument
 

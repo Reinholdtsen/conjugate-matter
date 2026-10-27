@@ -1,9 +1,11 @@
 # conjugate-matter
 
-The Broken-Born program (BBT): a speculative physics research program built on
+The Comatter program: a speculative physics research program built on
 spontaneously broken Born reciprocity. It was developed with Claude on claude.ai
 in September–October 2026 and continues here. Status: a Lakatosian research
-program, not a theory.
+program, not a theory. Until 2026-10-26 it was the Broken-Born program (BBT).
+The records (`HANDOFF.md`, `notes/`, `review/`, `verify/`) and all file names
+keep the old name; current documents, the wiki and the site use the new one.
 
 **Read [HANDOFF.md](HANDOFF.md) first.** It is the project's state at the move
 from claude.ai: what is alive, dead and open (§2), results that exist only in
@@ -27,7 +29,7 @@ below gives their paths.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
 - [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`.
-- [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. No domain is chosen yet. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
+- [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
 Read order for a fresh session: #11 → HANDOFF §6 →
 [review/round3-adjudication.md](review/round3-adjudication.md) → calc notes
@@ -64,6 +66,10 @@ only as a task needs them.
     can use it neither as #13's Born length nor as X's range;
   - new bound: in the program's aligned bimetric vacuum (background ratio
     u = 1), X's range is below 37.7 μm, M_X c² > 5.2 meV.
+- 2026-10-26: the program is renamed Comatter (formerly Broken-Born, BBT).
+  #11's §13 column "Broken-Born requirement" is now "Program requirement".
+  Where the wiki quotes a record that says BBT, it glosses BBT as Broken-Born
+  theory, the program's earlier name.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the

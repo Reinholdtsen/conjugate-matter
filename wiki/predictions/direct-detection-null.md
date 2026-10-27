@@ -35,7 +35,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §13, row 7:
 
-| Observable | Standard expectation | Broken-Born requirement | Killed by |
+| Observable | Standard expectation | Program requirement | Killed by |
 | --- | --- | --- | --- |
 | Direct detection / colliders | WIMP-type signal eventually | **Permanent null** (both dark-sector candidates SM-decoupled; P4 strict) | Any confirmed non-gravitational DM–SM coupling |
 
@@ -55,7 +55,7 @@ All three are sensitive only to interactions other than gravity. A dark sector t
 
 "WIMP-type signal eventually" (#11 §13). A weakly interacting massive particle is the classic dark-matter candidate: a particle with an interaction strength of the order of the weak force, which in the early universe would freeze out of thermal equilibrium with about the observed abundance [T] ([thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out#row-7-the-relic-the-searches-expect)). Such a particle couples to ordinary matter, so the searches above should eventually see it. The [lab notebook](/wiki/history/documents/lab-notebook) defines "standard theory" for its table as the standard cosmological model with [general relativity](/wiki/gravity/spin-2-fields/general-relativity) and generic alternatives of the WIMP and [Yukawa self-interacting](/wiki/gravity/spin-2-fields/yukawa-forces#the-standard-expectations-of-rows-1-and-2) kinds, and wrote the expectation as "Eventually expected (WIMP-type)" (#1 §9).
 
-## The Broken-Born requirement
+## The program's requirement
 
 ### Two sectors of matter, one gravity
 

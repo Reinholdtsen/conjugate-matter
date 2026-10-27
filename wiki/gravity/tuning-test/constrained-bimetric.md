@@ -42,7 +42,7 @@ Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) hea
 
 > **Hassan–Rosen bimetric gravity with the second frame constrained to a compact moduli space Λ(d)** — a *predictive truncation* of bimetric theory: fewer free functions, with the light direction of the compact space being τ (the dark-energy field) and the massive spin-2 being X.
 
-BBT is the Broken-Born program. Checkpoint #11 states the current form in its technical abstract: a chain of structural results "forces X to be a **massive spin-2** field in the interchange-symmetric branch of Hassan–Rosen bimetric gravity [10†, 11†] with the second frame confined to Λ(4)" (#11 §1). The interchange-symmetric branch is the restriction that reciprocity adds afterwards ([the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)).
+BBT is Broken-Born theory, the program's earlier name. Checkpoint #11 states the current form in its technical abstract: a chain of structural results "forces X to be a **massive spin-2** field in the interchange-symmetric branch of Hassan–Rosen bimetric gravity [10†, 11†] with the second frame confined to Λ(4)" (#11 §1). The interchange-symmetric branch is the restriction that reciprocity adds afterwards ([the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)).
 
 ## Bimetric gravity [T]
 

@@ -37,7 +37,7 @@ The supposition left one trace in the technical record before the audit, in [row
 | --- | --- | --- | --- | --- |
 | 8 | Magnetic monopoles | Model-dependent | Permanent null (p-polarized solitons); Berry-curvature monopoles in solids as the only shadow | Direct monopole detection |
 
-BBT is the Broken-Born program's name for itself. The parenthesis "(p-polarized solitons)" is the explanation. The first paper-shaped consolidation, v1 (#9; [the checkpoint and its predecessor](/wiki/history/documents/checkpoint)), already carried the row without it, "Permanent null; Berry-curvature monopoles in solids as the only shadow", and had no section on monopoles (`notes/broken-born-program-v1.md` §9). The repository's one-line description still reads "Physics hypothesis explaining dark matter and missing magnetic monopoles" (`README.md`), which is stale (flag 37 in `review/wiki-build-flags.md`; [CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
+BBT, Broken-Born theory, is the program's earlier name. The parenthesis "(p-polarized solitons)" is the explanation. The first paper-shaped consolidation, v1 (#9; [the checkpoint and its predecessor](/wiki/history/documents/checkpoint)), already carried the row without it, "Permanent null; Berry-curvature monopoles in solids as the only shadow", and had no section on monopoles (`notes/broken-born-program-v1.md` §9). The repository's one-line description still reads "Physics hypothesis explaining dark matter and missing magnetic monopoles" (`README.md`), which is stale (flag 37 in `review/wiki-build-flags.md`; [CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
 
 ## How it was tested
 

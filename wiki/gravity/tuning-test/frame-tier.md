@@ -32,7 +32,7 @@ Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) hea
 
 > The rescue is not a tuning but a *tier change*. In vielbein variables the ghost-free potentials are polynomial — wedge products ε(e ∧ … ∧ f ∧ …) of two frames (Hinterbichler–Rosen) [T] — with no square roots and no tuning to miss. And BBT possesses a natural frame-tier object: the symplectic vielbein E, the coset representative with H = EᵀE. Crucially, **J and E live on the same geometric tier** (first-order structures on the tangent, like the Born connection), while H = EᵀE is second-order. The geometrically minimal coupling of the polarization to the modular sector is therefore E-linear — wedge polynomials of (E, E₀[J]) — which is *precisely* the Hinterbichler–Rosen class: ghost-free by construction, Fierz–Pauli automatic, dRGT structure inherited rather than tuned.
 
-BBT is the Broken-Born program, and dRGT is de Rham–Gabadadze–Tolley. Checkpoint #11 carries the claim in one sentence (#11 §7.2): "*Frame-tier* couplings — wedge polynomials of the symplectic vielbein E (H = EᵀE) with the polarization frame E₀[J] — are the Hinterbichler–Rosen class [12†], ghost-free by construction; J, E, and the Born connection share the first-order tier, so this is the geometrically minimal formulation."
+BBT is Broken-Born theory, the program's earlier name, and dRGT is de Rham–Gabadadze–Tolley. Checkpoint #11 carries the claim in one sentence (#11 §7.2): "*Frame-tier* couplings — wedge polynomials of the symplectic vielbein E (H = EᵀE) with the polarization frame E₀[J] — are the Hinterbichler–Rosen class [12†], ghost-free by construction; J, E, and the Born connection share the first-order tier, so this is the geometrically minimal formulation."
 
 ## Frames and metrics [T]
 

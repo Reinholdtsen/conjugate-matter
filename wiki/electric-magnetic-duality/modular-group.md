@@ -149,7 +149,7 @@ The worklog's finding F2 then showed that the strong coupling did not need the c
 
 ### The conjectured enlarged structure (OP8)
 
-#11 §11.3 ends with a conjecture: "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure — the BBT-native analog of T- and S-duality cohabiting inside U-duality in string theory [T]." BBT is the Broken-Born program's name for itself. The conjecture is item 8 of #11 §14, "Charge-lattice polarization: formalize §11.3's unification [O]".
+#11 §11.3 ends with a conjecture: "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure — the BBT-native analog of T- and S-duality cohabiting inside U-duality in string theory [T]." BBT, Broken-Born theory, is the program's earlier name. The conjecture is item 8 of #11 §14, "Charge-lattice polarization: formalize §11.3's unification [O]".
 
 On this page's reading, the modular structure on the charge side is the duality group acting on charges and on τ_c, SL(2, ℤ) for one gauge field, and on the phase-space side it is the continuous Sp(2d, ℝ) acting on the Siegel domain ([the two polarizations](/wiki/electric-magnetic-duality/unified-modular-structure#the-two-polarizations)). The checkpoint does not say what the enlarged structure would be. The item, the earlier form it replaced and the related demand on the order parameter are on [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure).
 

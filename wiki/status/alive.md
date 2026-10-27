@@ -43,7 +43,7 @@ sources:
   - "review/wiki-build-flags.md items 16, 19, 20, 23, 27, 29, 30, 39, 43"
 ---
 
-*This register lists the Broken-Born program's claims that currently stand: postulates, derived results and predictions that no calculation, review or observation has killed. Each line gives the claim, the tags its sources attach and what verifies it, grouped by the sections of the wiki. Standing is not the same as confirmed: most of these claims are untested by experiment, a machine check confirms the algebra but not whether the algebra describes nature, and the dark-energy sector is under pressure from current data.*
+*This register lists the Comatter program's claims that currently stand: postulates, derived results and predictions that no calculation, review or observation has killed. Each line gives the claim, the tags its sources attach and what verifies it, grouped by the sections of the wiki. Standing is not the same as confirmed: most of these claims are untested by experiment, a machine check confirms the algebra but not whether the algebra describes nature, and the dark-energy sector is under pressure from current data.*
 
 **Status:** Record, a register current to 2026-10-26 — each line carries the tags its page gives, copied from the sources; the register adds none and upgrades none — machine checks are the seven scripts in `verify/`, run by the gate `scripts/check.sh`, and a line with no script rests on derivation [D], postulate [P] or the literature [T]. Under pressure, in the root `CLAUDE.md`'s words: "The dark-energy sector is under real pressure ahead of DR3" (Data Release 3).
 

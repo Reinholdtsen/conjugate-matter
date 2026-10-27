@@ -6,7 +6,7 @@ description: "The registers of where each of the program's claims stands as of 2
 bookCollapseSection: true
 ---
 
-*The status section holds the registers that record where each of the Broken-Born program's claims stands: dead, standing, open, conjectural, or replaced by a corrected version. Each register is a list of links, one entry per claim, saying where the claim stands and on what grounds, so the state of the whole program can be read without opening the topic pages. A claim's status is taken from the most current source in a fixed order of precedence, and a claim once recorded as dead is not revived.*
+*The status section holds the registers that record where each of the Comatter program's claims stands: dead, standing, open, conjectural, or replaced by a corrected version. Each register is a list of links, one entry per claim, saying where the claim stands and on what grounds, so the state of the whole program can be read without opening the topic pages. A claim's status is taken from the most current source in a fixed order of precedence, and a claim once recorded as dead is not revived.*
 
 **Registers only:** every page in this section is a register with status record, so the section makes no claims of its own. The five registers are [the graveyard](/wiki/status/graveyard), [claims that stand](/wiki/status/alive), [open problems and the queue](/wiki/status/open-problems), [conjectures](/wiki/status/conjectures) and [superseded statements](/wiki/status/superseded).
 

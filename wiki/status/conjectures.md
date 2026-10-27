@@ -62,7 +62,7 @@ A claim with a page of its own carries "(chat-only)" or "(popsci-only)" in its t
 
 ## Popsci-only claims (#10, #12)
 
-The popular articles are "The Angle of the Mirror" (#10) and "The Universe's Other Half" (#12), described on [the popular articles (#10, #12)](/wiki/history/documents/popular-articles). Neither has been revised since its import into the repository, and #12 opens: "What follows presents the broken-Born framework as if it were confirmed. It is not." Each claim below is found, in the form given, only in the articles; the status given is the one the record gives the subject.
+The popular articles are "The Angle of the Mirror" (#10) and "The Universe's Other Half" (#12), described on [the popular articles (#10, #12)](/wiki/history/documents/popular-articles). Neither has been revised since its import into the repository, except that #12 took the program's new name on 2026-10-26, and #12 opens: "What follows presents the Comatter framework as if it were confirmed. It is not." Each claim below is found, in the form given, only in the articles; the status given is the one the record gives the subject.
 
 ### The research program
 
