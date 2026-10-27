@@ -8,8 +8,11 @@
   had returned. Its SHA-256,
   `b5094b65cf969c8106353059e14bc8f66497076dfa3ae3ef262bda3a0fe3033b`, was
   recorded in `notes/phase-space-diameter-worklog.md` before dispatch and
-  matches the file. Neither the pre-registration nor the manuscript is
-  committed: this session had no commit authorization.
+  matches the file. Neither the pre-registration nor the manuscript was
+  committed before the review: the session had no commit authorization
+  until afterwards. Both were committed at Paul's request after the
+  adjudication (97934f2, v1.1; f40e250, this record); the hash recorded
+  before dispatch is the evidence that the forecast predates the reports.
 - **Referees:** two blind subagents with Python and web, each given only a
   copy of the manuscript. Referee A followed the five-step protocol; referee
   B followed it with extra weight on §4, §7–§8 and prior art. Their notes,

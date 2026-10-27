@@ -164,3 +164,6 @@ Deliverables:
   verify script (the diameter script's 85 checks), the wiki gate on 314 pages,
   the Hugo build, and the HTML check (316 pages, 141,360 links, 3,633 heading
   IDs). Nothing deployed, nothing committed.
+- 2026-10-26 19:10: committed at Paul's request, on main, not pushed:
+  97934f2 (note, script, worklog), f40e250 (round 5), bda03e3 (root
+  CLAUDE.md), 7d609b0 (wiki).
