@@ -2,7 +2,7 @@
 title: "Inflation, reheating and entropy dilution"
 weight: 20
 status: established
-description: "How inflation dilutes relics, reheating sets the temperature, and later entropy injection or early matter domination dilutes them again — the survival routes the retired candidate would have needed."
+description: "How inflation dilutes relics, reheating sets the temperature (at most 5.7×10¹⁵ GeV for instantaneous reheating) and creates the radiation's entropy, and later entropy injection or early matter domination dilutes relics again — the survival routes the retired candidate would have needed."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.1"
@@ -10,6 +10,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 8"
   - "papers/broken-born-checkpoint-v2.md §14 item 7"
   - "papers/broken-born-checkpoint-v2.md App. A item 5"
+  - "papers/phase-space-diameter.md §3"
+  - "papers/phase-space-diameter.md §6"
+  - "papers/phase-space-diameter.md 'References'"
+  - "verify/phase_space_diameter.py 'Where the radiation rectangle is square, lambda = l_P (note §6)'"
   - "review/round3-adjudication.md 'Rulings' 2"
   - "review/round3-adjudication.md 'Rulings' 3"
   - "review/round3-adjudication.md 'Rulings' (omitted constraints)"
@@ -23,11 +27,12 @@ sources:
   - "notes/knot-dark-matter-standalone.md §6"
   - "notes/broken-born-theory.md §8"
   - "HANDOFF.md §2"
+  - "HANDOFF.md §4"
 ---
 
-*Inflation is a proposed early period of extremely rapid, accelerating expansion, which thins any relics produced before it until essentially none remain in the observable universe; reheating is its end, when the energy that drove inflation turns into hot particles and sets the starting temperature of the [radiation era](/wiki/cosmology/early-universe/radiation-era). Relics made after reheating can still be thinned later if something releases a large amount of entropy into the plasma, for example the decay of heavy particles that dominated the universe for a time, a period called early matter domination. The program uses this physics in two places. Inflation is the standard reason no [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) of our own sector are seen, which is one of the two reasons the early claim that the conjugate sector explains their absence is [dead](/wiki/electric-magnetic-duality/monopole-explanation). And late dilution was the only way the [retired soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) could have kept its heavy mass, a route the program rejected because it removes the mass prediction.*
+*Inflation is a proposed early period of extremely rapid, accelerating expansion, which thins any relics produced before it until essentially none remain in the observable universe; reheating is its end, when the energy that drove inflation turns into hot particles and sets the starting temperature of the [radiation era](/wiki/cosmology/early-universe/radiation-era). Relics made after reheating can still be thinned later if something releases a large amount of entropy into the plasma, for example the decay of heavy particles that dominated the universe for a time, a period called early matter domination. The program uses this physics in three places. Inflation is the standard reason no [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) of our own sector are seen, which is one of the two reasons the early claim that the conjugate sector explains their absence is [dead](/wiki/electric-magnetic-duality/monopole-explanation). And late dilution was the only way the [retired soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) could have kept its heavy mass, a route the program rejected because it removes the mass prediction. And the note on the [phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) dates the radiation's entropy, the count of quantum cells in that relation, from reheating, and uses the upper limit on the reheating temperature to show that the radiation's extents in position and in momentum, in Planck units, have been far from equal ever since: one of the grounds on which an early-chat claim that they were equal at a bounce is [withdrawn](/wiki/cosmology/scale-factor-duality/square-at-the-bounce).*
 
-**Status:** Established — [T] — textbook early-universe physics, written here from general knowledge; references the wiki adds are from model memory (†). How the program used it is recorded in [checkpoint #11](/wiki/history/documents/checkpoint) §11.1 and §12 and in [round-3 Decision 2](/wiki/method/review/round-3/decisions). The numbers on this page come from the retired soliton episode, and no script in `verify/` checks a dilution factor; the overproduction they rest on is [V] ([ruling 2](/wiki/method/review/round-3/rulings)).
+**Status:** Established — [T] — textbook early-universe physics, written here from general knowledge; references the wiki adds are from model memory (†). How the program used it is recorded in [checkpoint #11](/wiki/history/documents/checkpoint) §11.1 and §12 and in [round-3 Decision 2](/wiki/method/review/round-3/decisions). Most numbers on this page come from the retired soliton episode, and no script in `verify/` checks a dilution factor; the overproduction they rest on is [V] ([ruling 2](/wiki/method/review/round-3/rulings)). The limit on the energy scale of inflation that the phase-space-diameter note uses is literature [S]; the note's conversion of it into a reheating temperature, and the radiation's aspect ratio at that temperature, are [V] (`verify/phase_space_diameter.py`; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)).
 
 ## Inflation [T]
 
@@ -35,7 +40,7 @@ sources:
 
 Inflation is a period in which the expansion of the universe accelerates, ä > 0. By the second Friedmann equation this requires a pressure below −ρ/3 ([Friedmann cosmology and minisuperspace](/wiki/cosmology/scale-factor-duality/friedmann-cosmology)). The standard source is a scalar field, the inflaton, whose energy is mostly potential energy: its equation of state is then close to w = −1, the Hubble rate H is nearly constant, and the scale factor grows nearly exponentially, a ∝ e^{Ht}. The amount of inflation is counted in e-folds, N = ln(a_end/a_start).
 
-Inflation was proposed to explain why the universe is so nearly spatially flat, why regions that could never have exchanged signals in a standard hot Big Bang have the same temperature, and why no relic magnetic monopoles are seen (Guth 1981 †). The quantum fluctuations of the inflaton, stretched to cosmic size, seed the density perturbations seen in the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#where-they-come-from), and those of the metric leave a primordial background of gravitational waves ([gravitational waves from phase transitions](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#primordial-backgrounds-t)) [T]. Inflation is the standard account, though not a directly observed epoch; the program's documents use it as literature [T].
+Inflation was proposed to explain why the universe is so nearly spatially flat, why regions that could never have exchanged signals in a standard hot Big Bang have the same temperature, and why no relic magnetic monopoles are seen (Guth 1981 †). The quantum fluctuations of the inflaton, stretched to cosmic size, seed the density perturbations seen in the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#where-they-come-from), and those of the metric leave a primordial background of gravitational waves ([gravitational waves from phase transitions](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#primordial-backgrounds-t)) [T]. Once stretched beyond the Hubble radius, these fluctuations are left in strongly squeezed quantum states ([squeezed cosmological perturbations](/wiki/cosmology/early-universe/squeezed-perturbations)) [T]. Inflation is the standard account, though not a directly observed epoch; the program's documents use it as literature [T].
 
 ### How it dilutes relics
 
@@ -48,6 +53,16 @@ This is the standard resolution of [the monopole problem](/wiki/electric-magneti
 ### The start of the radiation era
 
 At the end of inflation the inflaton oscillates about the minimum of its potential and decays. Its decay products scatter, thermalize, and form a hot plasma whose temperature, the reheating temperature T_RH, is the starting point of [the radiation era](/wiki/cosmology/early-universe/radiation-era) [T]. Everything the hot early universe produces later, thermal relics and [defects](/wiki/symmetry-breaking/topological-defects) alike, is produced after reheating, and so is not diluted by inflation.
+
+### How hot reheating can have been
+
+Reheating cannot make the plasma hotter than the energy density of inflation allows, and the energy scale of inflation, E_inf, the fourth root of its energy density, is limited by the primordial gravitational waves [T]. Their amplitude is set by the Hubble rate during inflation, and so by E_inf; an upper limit on the tensor-to-scalar ratio, the power in primordial gravitational waves relative to that in density perturbations ([primordial backgrounds](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#primordial-backgrounds-t)), is therefore an upper limit on E_inf [T]. The phase-space-diameter note takes the limit, a tensor-to-scalar ratio below 0.036, from BICEP/Keck 2021 [S] and the energy scale it allows, E_inf < 1.39×10¹⁶ GeV, from Soman et al. 2025 [S] (`papers/phase-space-diameter.md` §6). If the whole energy density of inflation became radiation at once, which is instantaneous reheating, the plasma would start at about 5.7×10¹⁵ GeV; any slower reheating starts it colder, because the energy density goes on falling while the inflaton decays [T]. The note therefore puts reheating "at a temperature no higher than about 5.7×10¹⁵ GeV" (§6). `verify/phase_space_diameter.py` gates the conversion, taking the radiation to be that of the Standard Model's particles ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)):
+
+```text
+PASS  instant reheating at E_inf < 1.39e16 GeV: T_rh < 5.7e15 GeV; the rectangle then has A = 2.9e35  [5.710e+15 GeV, 2.920e+35]
+```
+
+The second number in that line belongs to [the program's use](#the-radiations-entropy-in-the-phase-space-diameter-relation) below.
 
 ### Ordering: which relics survive
 
@@ -108,6 +123,12 @@ With a dilution factor D left free, any mass above M\* fits the observed density
 
 [The lab notebook](/wiki/history/documents/lab-notebook)'s sketch of [polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis), the open question of what sets the ratio of dark to ordinary matter, also places the decisive event at reheating: "at reheating, the heavy Grassmannian moduli (the nine non-Maslov directions) decay", and their branching into x- and p-polarized quanta is set by an angle of the vacuum's polarization (#1 §8, tagged "[O, sketched]"). As with a colder hidden sector, the relative amounts of the two kinds of matter would be fixed by how a decay at reheating divides its energy, a parallel the documents do not draw. The sketch is not a calculation, and the question is open (OP7).
 
+### The radiation's entropy in the phase-space diameter relation
+
+The [phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), first stated in the early chat and written up in the phase-space-diameter note, multiplies the size of a region in position by the momentum spread of the radiation in it. For a fixed comoving region the product is constant, and it "counts the quantum cells the radiation occupies, which is about the number of photons" (`papers/phase-space-diameter.md` §3): "The relation's N is the radiation's photon count, or its entropy" (§3). The note dates that count from reheating: "before reheating at the end of inflation the region held no radiation. The area counts occupied cells; it was created at reheating and is not a constant of nature" (§3). From reheating on, the conserved quantity is the comoving entropy ([entropy and the yield](/wiki/cosmology/early-universe/radiation-era#entropy-and-the-yield-y--ns-t)) [T]. The program's constraint [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) fixes the area of one cell and not the number of cells, and in the note's words that number "is the radiation's entropy, set at reheating" (§3).
+
+The note's §6 uses the reheating bound above to test the chat's claim that the radiation's rectangle in position and momentum was "square (D_x = D_p in Planck units) exactly at the bounce" (`HANDOFF.md` §4). Run back in time, the rectangle would be square only at about 4.4×10¹⁴ times the Planck temperature, before the radiation existed; at reheating, no hotter than about 5.7×10¹⁵ GeV, it was already long by a factor A = 2.9×10³⁵ [V], and "Since its creation the radiation rectangle has never been within 35 orders of magnitude of square" (§6). That is one of the grounds on which the claim is withdrawn ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)).
+
 ## Standard references
 
 - A. H. Guth, Phys. Rev. D 23, 347 (1981) †; A. D. Linde, Phys. Lett. B 108, 389 (1982) †; A. Albrecht, P. J. Steinhardt, Phys. Rev. Lett. 48, 1220 (1982) †: inflation and its slow-roll form.
@@ -115,6 +136,7 @@ With a dilution factor D left free, any mass above M\* fits the observed density
 - E. W. Kolb, M. S. Turner, *The Early Universe* (Addison-Wesley, 1990): #14's reference [17]; a standard treatment of inflation, reheating and entropy production.
 - R. J. Scherrer, M. S. Turner, Phys. Rev. D 31, 681 (1985) †: entropy production by decaying particles.
 - H. Murayama, J. Shu (2010), arXiv:0905.1720 [28S], and D. Liveoak, A. Maharana, J. D. Wells (2026), arXiv:2607.20843 [29S]: hidden-sector monopoles and the dilution they need, as #11 cites them.
+- BICEP/Keck Collaboration, P. A. R. Ade et al., Phys. Rev. Lett. 127, 151301 (2021), arXiv:2110.00483 [S], and A. K. Soman, S. S. Mishra, M. Shafi, S. Basak, Phys. Rev. D 112, 103521 (2025), arXiv:2407.07956 [S]: the limit of a tensor-to-scalar ratio below 0.036 and the energy scale of inflation it allows, E_inf < 1.39×10¹⁶ GeV, as the phase-space-diameter note cites them.
 
 The † entries are from model memory and unverified.
 
@@ -129,14 +151,18 @@ The † entries are from model memory and unverified.
 - [Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis) — the lab notebook's sketch sets its decisive event at reheating.
 - [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) — inflation as the standard resolution.
 - [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 2 and its three routes.
+- [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the radiation's entropy, the relation's N, set at reheating.
+- [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — the reheating bound: elongated by at least 10³⁵ since reheating.
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §11.1 — inflationary dilution [T] and the dead monopole explanation; App. A item 5 — the split fate of the supposition
 - `papers/broken-born-checkpoint-v2.md` §12 — early matter domination [29S] and the free dilution factor in the soliton obituary; §13 row 8 — the permanent null for our monopoles; §14 item 7 — polarization-genesis open (OP7)
+- `papers/phase-space-diameter.md` §3 — the radiation's entropy set at reheating, and a·ã = 1 as the area of one cell; §6 — the reheating bound [S] and the rectangle's aspect ratio at reheating [V]; 'References' — BICEP/Keck 2021 and Soman et al. 2025
+- `verify/phase_space_diameter.py` 'Where the radiation rectangle is square, lambda = l_P (note §6)' — T_rh < 5.7×10¹⁵ GeV and A = 2.9×10³⁵
 - `review/round3-adjudication.md` 'Decisions' 1, 2 — strict sector separation; the three routes and the rejected dilution route; 'Rulings' 2, 3 — the overproduction and the literature; the omitted-constraints list
 - `review/round3/referee/audit-notes.md` Step 4(a) item 5 — re-thermalization by ψ; Step 4(c) items 1, 7, 9 — the literature, the Higgs portal, the reheating requirement and isocurvature
 - `review/round3/referee/step4c.out` — the referee's printed reheating values
 - `notes/knot-dark-matter-standalone.md` §3, §4, §6 — the withdrawn candidate's ordering requirement, its colder hidden sector and the dilution scaling (withdrawn)
 - `notes/broken-born-theory.md` §8 — polarization-genesis at reheating [O, sketched]
-- `HANDOFF.md` §2 — "wrong duality; inflation suffices"
+- `HANDOFF.md` §2 — "wrong duality; inflation suffices"; §4 — the chat claim of a rectangle "square … exactly at the bounce"

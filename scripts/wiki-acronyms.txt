@@ -147,3 +147,15 @@ PRL	-
 LSZ	Langmann–Szabo–Zarembo
 DNS	Duncan–Niedermaier–Seiler
 PSL	-
+# Added for the phase-space-diameter note (2026-10-26)
+CKN	Cohen–Kaplan–Nelson
+FKGLM	Freidel–Kowalski-Glikman–Leigh–Minic
+BHM	Berglund–Hübsch–Minic
+HUST	Huazhong University of Science and Technology
+BICEP	-
+TCC	trans-Planckian censorship conjecture
+NIST	-
+CQG	-
+IJMPD	-
+PDF	-
+SHA	-

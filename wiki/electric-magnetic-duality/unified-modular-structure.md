@@ -93,7 +93,7 @@ The parenthesis of item 8 says that "The soliton-spectrum and p-localization ite
 ## Where it stands
 
 - **Counted as progress.** #11 §15 lists "the §11.3 unification generating new questions" among the program's progressive signs, and "one structural unification (polarization of phase space and of charge space as one move)" among what it has produced ([the program's self-assessment](/wiki/program/assessment)).
-- **Not queued.** The current queue in the root `CLAUDE.md` is the [partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), the [† literature battery](/wiki/method/literature-battery) and the phase-space-diameter note (`HANDOFF.md` §8 items 5–7), then an optional round-5 review of the toy note. Item 8 is not on it.
+- **Not queued.** The current queue in the root `CLAUDE.md` is the [partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and the [† literature battery](/wiki/method/literature-battery) (`HANDOFF.md` §8 items 5–6), then an optional round-6 review of the toy note. Item 8 is not on it.
 - **No calculation.** Nothing in `papers/`, `notes/` or `verify/` works toward the enlarged structure.
 - **The caution on record.** Round 2's weakest link was a coupling derived from the shared matrix, which the referee called "matrix coincidence ≠ physical identity" (`HANDOFF.md` §6). The conjecture asks for a structure behind the coincidence; it is stated, not derived.
 

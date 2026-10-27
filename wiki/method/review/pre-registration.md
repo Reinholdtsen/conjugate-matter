@@ -2,7 +2,7 @@
 title: "Pre-registration and its calibration record"
 weight: 30
 status: method
-description: "Write down and commit the expected verdict and weakest link before each review round, keep them out of commit subjects, and score them afterwards: verdicts 2 for 2 in rounds 1–2, a miss in round 3, a hit in round 4; the weakest link's location forecast better, its severity still underestimated."
+description: "Write down and fix the expected verdict and weakest link before each review round (by a commit, or in round 5 by a recorded hash), keep them out of commit subjects, and score them afterwards: verdicts 2 for 2 in rounds 1–2, a miss in round 3, hits in rounds 4 and 5; the weakest link's location hit in rounds 4 and 5, with the severity of a defect, the number of small errors and the extent of prior art underestimated."
 sources:
   - "CLAUDE.md 'Method (HANDOFF §5)'"
   - "CLAUDE.md 'Working with Paul'"
@@ -14,14 +14,19 @@ sources:
   - "review/round3-adjudication.md 'Pre-registration scored'"
   - "review/round3-adjudication.md 'Lessons (now in CLAUDE.md)'"
   - "review/round4-adjudication.md 'Pre-registration scored'"
+  - "review/round5-preregistration.md"
+  - "review/round5-adjudication.md 'Pre-registration scored'"
+  - "notes/phase-space-diameter-worklog.md 'Status'"
   - "review/round3/referee/audit-notes.md Step 5"
+  - "review/round5/referee-A/audit-notes.md"
+  - "review/round5/referee-B/audit-notes.md"
   - "notes/toy-lagrangian.md 'Success criteria', 'Predictions', 'Assessment against the predictions'"
   - "review/wiki-build-flags.md item 35"
 ---
 
-*Pre-registration is the practice of writing down, and committing to the repository, the verdict a blind review is expected to return and the weakest point the referee is expected to find, before the referee is dispatched. Because the forecast is fixed in advance it cannot be adjusted to the outcome, and scoring it afterwards measures how well the author judges the author's own work. The record so far: the verdict was forecast correctly in rounds 1 and 2, missed in round 3 and forecast correctly in round 4; the location of the weakest link is now forecast better, and its severity is still underestimated. Since round 3 the forecast is kept out of the commit subject, because a referee subagent sees recent commit subjects.*
+*Pre-registration is the practice of writing down the verdict a blind review is expected to return and the weakest point the referee is expected to find, and fixing that forecast before the referee is dispatched: in rounds 3 and 4 by committing it to the repository, in round 5 by keeping it outside the repository and recording its hash. Because the forecast is fixed in advance it cannot be adjusted to the outcome, and scoring it afterwards measures how well the author judges the author's own work. The record so far: the verdict was forecast correctly in rounds 1 and 2, missed in round 3 and forecast correctly in rounds 4 and 5; the location of the weakest link was forecast correctly in rounds 4 and 5, while the severity of the defect there in round 4, and the number of small errors and the extent of prior art in round 5, were underestimated. Since round 3 the forecast is kept out of the commit subject, because a referee subagent sees recent commit subjects.*
 
-**Status:** Method, in force — untagged. It is a rule of root `CLAUDE.md` ('Method') and of `HANDOFF.md` §5. The scores are recorded in `review/round3-adjudication.md` and `review/round4-adjudication.md`, which bring the handoff's "2-for-2" up to date.
+**Status:** Method, in force — untagged. It is a rule of root `CLAUDE.md` ('Method') and of `HANDOFF.md` §5. The scores are recorded in `review/round3-adjudication.md`, `review/round4-adjudication.md` and `review/round5-adjudication.md`, which bring the handoff's "2-for-2" up to date.
 
 ## What pre-registration is
 
@@ -37,17 +42,18 @@ The handoff's earlier form: "before each review round, the expected verdict and 
 
 Paul "cannot independently verify most of the technical physics and relies on the tags, the machine checks and pre-registration to tell sound results from confabulation" (root `CLAUDE.md`; [the collaboration](/wiki/method/collaboration)). The handoff records the request behind this: he "has asked for explicit legit-vs-hallucination calibration: keep the tier tags, keep machine-verifying, keep pre-registering, keep reporting negative results prominently" (`HANDOFF.md` §7).
 
-[Provenance tags](/wiki/method/provenance-tags) say where a claim came from, and [the gate](/wiki/method/verification/the-gate) says whether its arithmetic reproduces. Neither says whether the author's confidence in a manuscript is warranted. A scored forecast does. If the forecasts come out right, the author's self-assessment carries information. If they miss in a consistent direction, the author's confidence should be discounted in that direction. The adjudications draw exactly this kind of conclusion: "Calibration: my confidence in v3 was too high." (round 3), and "Severity is still underestimated." (round 4).
+[Provenance tags](/wiki/method/provenance-tags) say where a claim came from, and [the gate](/wiki/method/verification/the-gate) says whether its arithmetic reproduces. Neither says whether the author's confidence in a manuscript is warranted. A scored forecast does. If the forecasts come out right, the author's self-assessment carries information. If they miss in a consistent direction, the author's confidence should be discounted in that direction. The adjudications draw exactly this kind of conclusion: "Calibration: my confidence in v3 was too high." (round 3), "Severity is still underestimated." (round 4), and "Still underestimated: the number of small errors in a long text, and the extent of prior art." (round 5).
 
 ## What a pre-registration contains
 
-The two pre-registrations in the repository, `review/round3-preregistration.md` and `review/round4-preregistration.md`, have the same parts:
+The pre-registrations in the repository, `review/round3-preregistration.md`, `review/round4-preregistration.md` and `review/round5-preregistration.md`, have the same parts:
 
-- **The set-up:** the manuscript and the commit that fixes its text, the auditor and its tools, and the protocol's stated limitation ("same model family as the author").
+- **The set-up:** the manuscript and the commit or hash that fixes its text, the auditor and its tools, and the protocol's stated limitation ("same model family as the author"). Round 5's adds that the program documents the manuscript cites "are unavailable to the referees, so the premises taken from them can be checked for consistent use only."
 - **The verdict**, with a confidence, and the reasons it is neither the grade above nor the grade below. Round 4: "It is not C: every number was computed by gated code with independent anchors, and the claims are narrowly scoped, with limitations stated." and "It is not A: the significance is thin, and at least one argument is explicitly incomplete."
 - **The single weakest link**, argued in a few lines, and the runners-up in order.
 - **Arithmetic:** how many numerical indictments are expected to survive arbitration, and where one would most likely land.
 - **Citations:** whether all references will resolve, and which one is likeliest to be cited for more than it says.
+- **Novelty**, a part first forecast in round 5: whether the referees will find prior art beyond what the manuscript cites.
 
 The toy-model work used the same discipline for a calculation rather than a review. Its worklog fixed the success criteria "before any construction", wrote predictions before construction, and assessed them afterwards ([success criteria S0–S5 and the pre-registered predictions](/wiki/symmetry-breaking/toy-models/success-criteria)).
 
@@ -89,12 +95,34 @@ The adjudication scored it (`review/round4-adjudication.md`, 'Pre-registration s
 
 The table is quoted with one abbreviation spelled out (the Langmann–Szabo–Zarembo exact solution). In it, MC is Monte Carlo, and S5 is the toy work's success criterion on matter locality. The forecast found the right place and missed what was there: the potential at K_ref was not merely put in by hand, it was unbounded below once the field H could vary ([obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). The one surviving numerical indictment was statistical, Monte Carlo values quoted from fixed seeds without error bars ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars)), and none of the normalizations or signs the author had worried about.
 
+### Round 5
+
+The forecast for the note on [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), the first round with two referees ([Round 5](/wiki/method/review/round-5)): verdict B from both, confidence medium. The weakest link: "the bound on X in §8.2. It inherits the program's own, unreviewed premise that X couples to ordinary matter at gravitational strength (equal Planck masses, α = 4/3), which the referee cannot check." The runners-up, in order: the obituary of §6, "square exactly at the bounce" ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)); "'The program fixes no λ' (§5) rests on documents the referee cannot see"; and that §8.4 and §8.5 "are conditional to the point of carrying no content". On arithmetic, "zero surviving numerical indictments", and if one survived, "a convention". On citations, "all literature citations resolve", with five named candidates for being cited for more than they say. A part new to the forecasts covered novelty: "no prior art for the self-dual length beyond what §4 and §7 already cite".
+
+The adjudication scored it (`review/round5-adjudication.md`, 'Pre-registration scored'):
+
+| Prediction | Outcome | Score |
+|---|---|---|
+| Verdict B from both | B and B, confidence 0.75 each | **Hit** |
+| Weakest link: the bound in §8.2 inherits the unreviewed coupling premise (equal Planck masses, α = 4/3) | Both referees: §8.2's α = 4/3 omits the background ratio c | **Hit** on location and premise; the mechanism, a dropped parameter of the cited formula, was not foreseen |
+| Runner-up 1: the obituary — a surviving reading, or the \|Z\| = 1 origin paragraph read as speculation | B: the survey of readings is incomplete and the apex is convention-dependent; none changes the withdrawal | **Partial** |
+| Runner-up 2: "the program fixes no λ" rests on unavailable documents | Not raised | Miss |
+| Runner-up 3: §8.4 and §8.5 conditional to the point of carrying no content | A: §8.4 in tension with §8.2 (through the value of c, not upheld); B: §8.4's step sits at the §6 epoch; §8.5 not attacked | **Partial** |
+| Arithmetic: zero surviving numerical indictments; if one, a convention (κ, CKN factor, ±α₉₅ column, g_* at T_P, ħ against h cells) | Five minor ones survive (R3, R6, R7, R9, R12), four of them in conventions listed | **Miss on count; hit on kind** |
+| Citations: all resolve; likeliest over-cited Ohsawa or de Gosson, Slepian, Egan–Lineweaver, the Mignemi sentence, the Lee interpolation | All resolve. Over-cited: Egan–Lineweaver (table), Mignemi, the Lee interpolation column; also Bhattacharyya et al. and Gabor, not foreseen | **Hit** on resolution; three of five predicted, two not |
+| Novelty: no prior art for the self-dual length beyond what the note cites | Bambi–Urban and Bolen–Cavaglià (explicit), Sundrum and Kapner et al. (the test at the dark-energy length), Albrecht et al. (the e-fold clock), string cosmology (self-dual bounces) | **Miss** |
+
+The table is quoted as written. In it, c is the ratio of the backgrounds of the two metrics of bimetric gravity, which version 1.1 of the note writes u; CKN is the Cohen–Kaplan–Nelson bound; `g_*` at T_P is the effective number of relativistic degrees of freedom at the Planck temperature; and A and B are the two referees. The forecast found the right place and the right premise, and missed what was wrong there: the cited coupling formula carries the background ratio, which the note had dropped ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). It expected no surviving numerical indictment, and five minor ones survived, four of them in the conventions it had listed. Its novelty forecast missed: the referees found prior art for the self-dual length, for the test at the dark-energy length, for the reading of squeezing as an e-fold clock and for self-dual bounces.
+
 ### Across rounds
 
-The round-4 adjudication sums up the record:
+The round-5 adjudication sums up the record:
 
-- "Verdicts: 2/2 (rounds 1–2), miss (round 3), hit (round 4)."
-- "Weakest-link location has improved. Severity is still underestimated."
+- "Verdicts: 2/2 (rounds 1–2), miss (round 3), hit (round 4), hit (round 5)."
+- "Weakest-link location: hit in rounds 4 and 5."
+- "Still underestimated: the number of small errors in a long text, and the extent of prior art."
+
+The round-4 adjudication's summary, a round earlier, had read "Weakest-link location has improved. Severity is still underestimated."
 
 | Round | Manuscript | Forecast verdict | Referee's verdict | Verdict score |
 |---|---|---|---|---|
@@ -102,8 +130,9 @@ The round-4 adjudication sums up the record:
 | 2 | #14 v2 | not in the repository | B near B/C / medium | scored 2 for 2 with round 1 |
 | 3 | #14 v3 | B, medium | C, medium | Miss |
 | 4 | toy-model note | B, medium | B, ~0.75 | Hit |
+| 5 | phase-space-diameter note v1.0 | B from both, medium | B and B, 0.75 each | Hit |
 
-In both scored rounds the referee found a more serious defect than the author had forecast: in round 3 in a different place, in round 4 in the forecast place. In both, the arithmetic forecast expected no more than a slip in a normalization or an estimate, and the indictments that survived were of another kind: wrong model inputs in round 3, missing statistics in round 4.
+In rounds 3 and 4 the referee found a more serious defect than the author had forecast: in round 3 in a different place, in round 4 in the forecast place. In round 5 the forecast named the place and the premise, and the defect was of a kind it had not foreseen, a parameter dropped from a cited formula. On arithmetic, rounds 3 and 4 expected no more than a slip in a normalization or an estimate, and the indictments that survived were of another kind: wrong model inputs in round 3, missing statistics in round 4. Round 5 expected none; those that survived were mostly of the kind it had listed, conventions, and more numerous than forecast.
 
 ## Keeping the forecast from the referee
 
@@ -111,18 +140,24 @@ Round 3's pre-registration was committed (cc05705) with a commit subject that st
 
 The adjudication's first lesson weighs it: "The auditor says it did not use it, and its verdict differed from the prediction, which argues against anchoring. But the round was less blind than intended." ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). The commit-subject clause entered the rule in root `CLAUDE.md`. Round 4's pre-registration states that it follows it: "Per the round-3 lesson, the commit subject does not state the prediction." The adjudication confirms it was "committed before dispatch with a neutral subject", and the repository history shows that subject for d9a06ac: "Pre-register round 4; toy-model note for review".
 
+Round 5's forecast was not committed at all. The pre-registration says it was "kept outside the repository, in the session scratchpad, until both referees had returned, so that neither could read it. It is not committed: this session has no commit authorization." Its hash and that of the manuscript copy "were written into `notes/phase-space-diameter-worklog.md` and into the session transcript before dispatch", and the adjudication records that the hash "matches the file". The hash fixes the forecast's content; the time at which it was fixed rests on the worklog's entry, "recorded before dispatch", and on the session transcript. The referees' notes state their isolation: "only manuscript.md and files created here were read" (referee A) and "I read only the manuscript copy and my own files" (referee B).
+
 ## What it does not do
 
-- It does not make the review more independent. The referee is still "the same model family as the author" ([the review protocol](/wiki/method/review/review-protocol#limits)).
+- It does not make the review more independent. The referees are still "the same model family as the author" ([the review protocol](/wiki/method/review/review-protocol#limits)).
 - The scoring is the author's. The labels Hit, Partial and Miss and the calibration statements are written in the adjudications, in the first person.
 - The forecasts of rounds 1 and 2 cannot be re-examined, since only their score survives.
 
 ## Sources
 
 - `CLAUDE.md` 'Method (HANDOFF §5)' — the rule, including the commit-subject clause; 'Working with Paul' — Paul's reliance on pre-registration
-- `review/round3-preregistration.md`, `review/round4-preregistration.md` — the two pre-registrations in the repository: forecasts, reasons and the neutral-subject statement
+- `review/round3-preregistration.md`, `review/round4-preregistration.md` — the first two pre-registrations in the repository: forecasts, reasons and the neutral-subject statement
 - `review/round3-adjudication.md` 'Pre-registration scored', 'Lessons (now in CLAUDE.md)' — round 3's scores, the calibration statement and the leak lesson
-- `review/round4-adjudication.md` 'Pre-registration scored' — round 4's scores and the calibration across rounds
+- `review/round4-adjudication.md` 'Pre-registration scored' — round 4's scores and its calibration across rounds
+- `review/round5-preregistration.md` — round 5's forecast, its limitation, its novelty part, and its storage outside the repository
+- `review/round5-adjudication.md` 'Pre-registration scored' — round 5's scores and the calibration across rounds; its header — the recorded hash "matches the file"
+- `notes/phase-space-diameter-worklog.md` 'Status' — the hashes "recorded before dispatch" and the dispatch time
+- `review/round5/referee-A/audit-notes.md` and `review/round5/referee-B/audit-notes.md` — the referees' statements of isolation
 - `review/round3/referee/audit-notes.md` Step 5 — the referee's reproducibility note on the leak
 - `HANDOFF.md` §5, §6, §7 — the rule as handed over, with the superseded "2-for-2"; the round-1 and round-2 verdicts; the request for explicit calibration
 - `notes/toy-lagrangian.md` 'Success criteria (fixed 2026-10-19, before any construction)', 'Predictions (written before construction)' — the same discipline applied to the toy-model calculation

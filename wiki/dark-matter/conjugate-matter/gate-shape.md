@@ -92,7 +92,7 @@ The emphasis has moved since v0.1. The lab notebook's open-problem list read: "T
 4. **Calc note #8 and v1.** Debt 2 closed with the mechanism found and the shape open, "now also an observable discriminant" (#8 §5; [the three debts](/wiki/history/debts)); v1 listed it as item 3 of its open problems, "now doubly motivated — it is observable" (#9 §10).
 5. **The checkpoint.** #11 lists it as item 4 of §14 and as a degeneration risk in §15.
 
-The current queue, in the root `CLAUDE.md` ("Since the handoff"), holds the partially-massless comparison, [the literature battery](/wiki/method/literature-battery) and the phase-space-diameter note, then an optional review round of the toy note. The gate shape is not on it.
+The current queue, in the root `CLAUDE.md` ("Since the handoff"), holds [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the literature battery](/wiki/method/literature-battery), then an optional review round of [the toy-model note](/wiki/symmetry-breaking/toy-models). The gate shape is not on it.
 
 ## Its weight in the assessment
 

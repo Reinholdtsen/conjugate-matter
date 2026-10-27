@@ -94,7 +94,7 @@ The forecast written before construction: if S1–S4 passed and S5 failed, "acce
 - **Locality beyond the weak form.** Matter becomes local in the selected polarization only if it interacts through a coupling built from (H, K), "as fermion masses follow from a Higgs vacuum value once Yukawa couplings are given. Nothing here forces that coupling." (note §5; [Goldstone modes and the Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs); [Yukawa couplings](/wiki/gravity/spin-2-fields/yukawa-forces#a-name-collision-the-yukawa-coupling); [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
 - **The real-model lead.** Not part of #11's list: [Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead).
 
-All four are registered at [open problems](/wiki/status/open-problems). The queue in the root `CLAUDE.md` adds one optional item for this work: "a round-5 review of the toy note, but only before any external use."
+All four are registered at [open problems](/wiki/status/open-problems). The queue in the root `CLAUDE.md` adds one optional item for this work: "a round-6 review of the toy note, but only before any external use."
 
 ## The electric-sublattice clause
 
@@ -116,7 +116,7 @@ Two older wordings of the criterion ask more of η. The handoff: "η the order p
 
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the current verdict and its open parts [O]
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: the potential's rigid pair of axes, the twisted element
-- `CLAUDE.md` 'Since the handoff' — "done to the referees' wording"; the open ends, including the real-model lead; the optional round 5
+- `CLAUDE.md` 'Since the handoff' — "done to the referees' wording"; the open ends, including the real-model lead; the optional round 6
 - `papers/reciprocity-toy-models.md` §2, §4, §5, §6 — model I's symmetry, vacua and order parameter; the bounded potential and the Monte Carlo; the Yukawa analogy; "Not shown"
 - `review/round3-adjudication.md` 'Decisions' 4 — why the toy Lagrangian came next
 - `review/round4-adjudication.md` 'Verdict', 'Rulings' — the B grade; findings F1 and F2 and the adjudicator's account

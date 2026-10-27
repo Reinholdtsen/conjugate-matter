@@ -145,7 +145,7 @@ The toy-model note works on a 1+1-dimensional base with phase space ℝ² (d = 1
 3. **The toy models (2026-10-19).** The polarization is a Goldstone angle, and in 1+1 a definite polarization needs a potential, first [the naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), with its cost stated from the start (worklog, chunks 1–3).
 4. **Round 4 and #11 v2.2 (2026-10-19/20).** [The naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) fails with H dynamical and V_b replaces it ([review round 4](/wiki/method/review/round-4)); #11 adds the refinement of P2′, the boundedness condition of §10 and the open item in §14 item 11.
 
-The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–7, then an optional round-5 review of the toy note) does not schedule the derivation.
+The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–6, then an optional round-6 review of the toy note) does not schedule the derivation.
 
 ## What remains open
 

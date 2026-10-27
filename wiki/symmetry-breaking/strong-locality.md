@@ -99,7 +99,7 @@ The forecast for S5 itself also scored a "Hit": "S5 not passed at first attempt;
 - **The continuous case.** Whether the pair is selected spontaneously when the polarization angle is a Goldstone direction, in 3+1 dimensions, is a worklog remark, not computed.
 - **Beyond d = 1.** The toy has one position and one momentum coordinate; for d > 1 the section condition already leaves "a continuous family of sections" (toy note §5), and "anything beyond d = 1" is not shown (§6).
 
-The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–7, then an optional round-5 review of the toy note) does not include this item.
+The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–6, then an optional round-6 review of the toy note) does not include this item.
 
 ## Sources
 

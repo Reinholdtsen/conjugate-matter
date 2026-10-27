@@ -9,6 +9,8 @@ sources:
   - "CLAUDE.md 'Layout'"
   - "papers/broken-born-checkpoint-v2.md"
   - "papers/reciprocity-toy-models.md §1, §4, §5"
+  - "papers/phase-space-diameter.md §5, §6"
+  - "review/round5-adjudication.md 'Recommendations to Paul'"
   - "review/round4-adjudication.md 'Rulings'"
   - "review/round3-adjudication.md 'Rulings'"
   - "review/round3-adjudication.md 'Decisions'"
@@ -40,7 +42,7 @@ sources:
 
 *The program's documents were written over several weeks, and the later ones correct, re-tag or retire what the earlier ones said, so the same question can get different answers in different files. This page collects those disagreements between documents, and between two statements of the same document. Most are settled by a fixed order of precedence in which the most current document wins. The rest are cases where documents of equal standing disagree, or where no document addresses the point; for those the wiki reports both readings and does not choose. Suspected errors inside a single statement, such as a slip in a formula or a wrong section pointer, are listed separately for Paul's ruling.*
 
-**Status:** Record, current to 2026-10-21 — untagged — the order of precedence is set in `wiki/CLAUDE.md`, with the root `CLAUDE.md` "Since the handoff" first; each entry names the documents that disagree and the document or rule that settles the point, or says that nothing does.
+**Status:** Record, current to 2026-10-21, with the entry on a·ã = 1 and the |Z| = 1 locus added on 2026-10-26 — untagged — the order of precedence is set in `wiki/CLAUDE.md`, with the root `CLAUDE.md` "Since the handoff" first; each entry names the documents that disagree and the document or rule that settles the point, or says that nothing does.
 
 ## How disagreements are settled
 
@@ -63,7 +65,7 @@ Rules that go with the order:
 
 ## What this page does not list
 
-`review/wiki-build-flags.md` lists suspected errors inside single statements of the source documents, found while the wiki was built: arithmetic, formulas, section pointers and citations, each quoted faithfully on the wiki's pages and awaiting Paul's ruling, with executed checks in `review/wiki-build-checks/`. A flagged statement can recur in several documents that agree with one another, such as the reading of [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) as the |Z| = 1 locus (item 23), and is then an error, not a conflict. Where an entry below concerns a flagged statement, it names the item.
+`review/wiki-build-flags.md` lists suspected errors inside single statements of the source documents, found while the wiki was built: arithmetic, formulas, section pointers and citations, each quoted faithfully on the wiki's pages and awaiting Paul's ruling, with executed checks in `review/wiki-build-checks/`. A flagged statement can recur in several documents that agree with one another, and is then an error, not a conflict. The reading of [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) as the |Z| = 1 locus (item 23) was such a case until [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter) read the constraint differently; that disagreement is listed below. Where an entry below concerns a flagged statement, it names the item.
 
 The flags file and `review/wiki-build-checks/README.md` cite conflict numbers from the inventory compiled for the wiki's build, which a reboot later cleared (recorded on [the timeline](/wiki/history/timeline)). The numbers that survive in the repository are C20, C21, C27, C28, C29 and C54. The entries below give C20, C21, C27, C28 and C29; C54, a date in #1 (item 18), concerns a single statement and is left to the flags file.
 
@@ -71,6 +73,7 @@ The flags file and `review/wiki-build-checks/README.md` cite conflict numbers fr
 
 ### Cosmology
 
+- **a·ã = 1 and the |Z| = 1 locus.** #11 identifies the two, both under [D]: "the cosmological constraint a·ã = 1 (§10) is the |Z| = 1 locus" (§6), and "a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus" (§10); calc note #5 §C, #1 addendum v0.3 and `HANDOFF.md` §2 make the same identification. The phase-space-diameter note reads the constraint differently (§5): det H_Z = 1 holds at every Z, "so the constraint a·ã = 1 holds everywhere on the slice X = 0", while |Z| = 1 "is the set of states whose rectangle is square, Δx = Δp", and "the circle meets the slice only at Z = i". The note uses the slice, with "self-duality" meaning Z = i, and its §6 traces the chat-only square at the bounce to the record's identification. The matter is `review/wiki-build-flags.md` item 23, confirmed by the flags' audit and still awaiting Paul's ruling; the round-5 adjudication recommends accepting the flag ("Recommendations to Paul"). The order of precedence in `wiki/CLAUDE.md` does not rank the note, and the wiki does not choose. → [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-geometry-the-z--1-locus); [the circle |Z| = 1 and the constraint a·ã = 1](/wiki/phase-space/modular-field/modular-inversion#the-circle-z--1-and-the-constraint-aã--1); [widths and three loci of Gaussian wave packets](/wiki/phase-space/modular-field/gaussian-states#widths-and-three-loci-dv); [where the square at the bounce probably came from](/wiki/cosmology/scale-factor-duality/square-at-the-bounce#where-the-claim-probably-came-from); [the pending rulings](/wiki/status/open-problems#pending-rulings).
 - **The sign of τ's potential (C20).** #11 §10, #9 §8 and #1 §3 write V = V₀[1 + cos(τ/f)], which is never negative for V₀ > 0. The same documents need V < 0 for the turnaround: τ's energy "eventually goes negative" (#11 §10), "A cosine potential is negative over half its range" (#1 §7), "Turnaround after V(τ) < 0 = conjugate bounce" (#9 §9, row 5), and the [quintessence](/wiki/cosmology/dark-energy/quintessence) fits they cite use a negative minimum. No document notices the conflict or adds an offset. The executed check `review/wiki-build-checks/v_sign_check.py` prints that the potential's minimum is 0; which statement the documents should carry awaits a ruling (`review/wiki-build-flags.md` item 27). → [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce); [row 5](/wiki/predictions/fate-of-expansion); [the over-constraint](/wiki/cosmology/dark-energy/over-constraint).
 - **Dark energy as dual kinetic energy or as τ's potential.** #1 §6 finds that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**"; #1 §7 then identifies dark energy with τ "sitting near the top of its cosine potential", and #9 and #11 keep the second picture. No document derives the link between the two, and no queue lists the gap. → [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link).
 
@@ -200,6 +203,7 @@ These concern #14 and its review record. The manuscript is withdrawn, so each is
 - `wiki/CLAUDE.md` 'The wiki is derivative' — the order of precedence and the dead-stays-dead rule
 - `CLAUDE.md` 'Since the handoff' and 'Layout' — the top-ranked rulings and the instruction on arbitration scripts
 - `papers/broken-born-checkpoint-v2.md` and `papers/reciprocity-toy-models.md` — the rank-2 statements, including the inconsistencies inside #11
+- `papers/phase-space-diameter.md` §5, §6 and `review/round5-adjudication.md` 'Recommendations to Paul' — the note's reading of a·ã = 1 and of the |Z| = 1 locus, and the adjudication's recommendation on flag 23
 - `review/round4-adjudication.md` and `review/round3-adjudication.md` — rulings, decisions and revisions; `review/round3/referee/audit-notes.md` and `review/round4/referee/audit-notes.md` — the referees' readings
 - `papers/conjugate-special-relativity.md` §1, §4, §6 and `review/v3-worklog.md` (items O1, O3, R4) — the two dual cones, the dark-sector kinematics and the worklog's stage numbers
 - `HANDOFF.md` §1, §2, §4, §5, §6 — the superseded state of 2026-10-19

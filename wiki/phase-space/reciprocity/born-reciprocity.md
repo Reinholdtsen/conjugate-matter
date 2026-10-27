@@ -2,7 +2,7 @@
 title: "Born reciprocity ρ: (x, p) → (p, −x)"
 weight: 40
 status: established
-description: "The quarter-turn symmetry of quantum kinematics, ρ = [[0,1],[−1,0]] with ρ² the parity, and Born's 1938–1949 reciprocity program of a physics with a fundamental mass and a fundamental length."
+description: "The quarter-turn symmetry of quantum kinematics, ρ = [[0,1],[−1,0]] with ρ² the parity, and Born's 1938–1949 reciprocity program: a momentum-space radius beside the radius of the universe, fixed at a particle scale, and ℏ split into a length and a momentum."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §3"
@@ -25,11 +25,19 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "review/round3/referee/audit-notes.md Step 1"
   - "popsci/universes-other-half.md 'Two descriptions of one thing'"
+  - "papers/phase-space-diameter.md §4"
+  - "papers/phase-space-diameter.md §5"
+  - "papers/phase-space-diameter.md §7"
+  - "papers/phase-space-diameter.md References"
+  - "verify/phase_space_diameter.py"
+  - "review/round5-adjudication.md header"
+  - "notes/phase-space-diameter-worklog.md 'Status'"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
-*Born reciprocity is the map ρ: (x, p) → (p, −x), which exchanges position and momentum, with one sign change, as a quarter-turn of phase space. The rules of quantum kinematics are unchanged by it, and the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries it out on wavefunctions. Max Born proposed in 1938 and 1949 that a fundamental theory should respect it, and hoped for a physics with a fundamental mass and a [fundamental length](/wiki/phase-space/reciprocity/born-length#borns-fundamental-length) on equal footing. Observed dynamics does not respect it — interactions are local in position — and the program's starting assumption, [its hard core](/wiki/program/hard-core), is that ρ is an exact symmetry of the laws that the vacuum breaks.*
+*Born reciprocity is the map ρ: (x, p) → (p, −x), which exchanges position and momentum, with one sign change, as a quarter-turn of phase space. The rules of quantum kinematics are unchanged by it, and the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries it out on wavefunctions. Max Born proposed in 1938 and 1949 that a fundamental theory should respect it. In 1938 he gave momentum space a radius of its own, as Einstein's closed universe has a radius in position, and fixed it at a particle scale; in 1949 he split ℏ into a length and a momentum. The program's paper #13 describes his hope as a physics with a fundamental mass and a [fundamental length](/wiki/phase-space/reciprocity/born-length#borns-fundamental-length) on equal footing. Observed dynamics does not respect it — interactions are local in position — and the program's starting assumption, [its hard core](/wiki/program/hard-core), is that ρ is an exact symmetry of the laws that the vacuum breaks.*
 
-**Status:** Established — literature [T]; [#11](/wiki/history/documents/checkpoint) cites Born from model memory [1†, 2†]. The [round-3 citation audit](/wiki/method/review/round-3/rulings) confirmed both references' metadata but did not read the primary text ("partially verified (primary text not read)", capitals lowered here); the source check is part of [the † literature battery](/wiki/method/literature-battery). The program's uses of ρ (its action on the geometry and [the modular field](/wiki/phase-space/modular-field/modular-field-z)) carry their own tags, given below.
+**Status:** Established — literature [T]; [#11](/wiki/history/documents/checkpoint) cites Born from model memory [1†, 2†]. The [round-3 citation audit](/wiki/method/review/round-3/rulings) confirmed both references' metadata but did not read the primary text ("partially verified (primary text not read)", capitals lowered here). The phase-space-diameter note (`papers/phase-space-diameter.md` v1.1) has since retrieved and read both papers [S] (§4); checking what #11 and #13 say of them against that text remains part of [the † literature battery](/wiki/method/literature-battery). The program's uses of ρ (its action on the geometry and [the modular field](/wiki/phase-space/modular-field/modular-field-z)) carry their own tags, given below.
 
 ## The map
 
@@ -67,7 +75,9 @@ The first item shows the asymmetry plainly. A Hamiltonian p²/2m + V(x) is quadr
 
 [#13](/wiki/conjugate-relativity) cites the same two papers as [3]† and [4]†, and the withdrawn #14 cites both under its unmarked ref. [1].
 
-The round-3 referee checked them while auditing #14: "metadata OK (DOI 10.1098/rspa.1938.0060; 10.1103/RevModPhys.21.463). 1938 abstract does not state the rule; primary text paywalled. Secondary sources (Wikipedia "Born reciprocity") confirm x->p, p->-x. Fourier-transform statement is standard maths." Its verdict, set in lower case here, was "partially verified (primary text not read)" (`review/round3/referee/audit-notes.md`, Step 1). No document records a reading of Born's own text, so what Born wrote, as distinct from the bibliographic data, remains to be checked in [the † literature battery](/wiki/method/literature-battery) (OP10).
+The round-3 referee checked them while auditing #14: "metadata OK (DOI 10.1098/rspa.1938.0060; 10.1103/RevModPhys.21.463). 1938 abstract does not state the rule; primary text paywalled. Secondary sources (Wikipedia "Born reciprocity") confirm x->p, p->-x. Fourier-transform statement is standard maths." Its verdict, set in lower case here, was "partially verified (primary text not read)" (`review/round3/referee/audit-notes.md`, Step 1).
+
+The phase-space-diameter note then retrieved both papers and read them for its §4, where it cites them as live-searched [S]. The round-5 adjudication records the copies, the 1938 paper as the publisher's own copy archived in the Wayback Machine and the 1949 paper as the American Physical Society's open copy, and the referees' access: referee A could open neither paper, and referee B verified the 1938 quotations in the Internet Archive's scan of the volume and could not open the 1949 paper (header). The worklog records that the quotations were transcribed from the copies' page images and that the 1938 paper was read in full ('Status'). What the papers say is summarized in the next section. #11 and #13 still mark the references †. Checking their descriptions of Born against his text is part of [the † literature battery](/wiki/method/literature-battery) (OP10), which the root `CLAUDE.md` keeps in its current queue, noting that Born 1938 and 1949 were retrieved for the diameter note.
 
 ## Born's self-dual program
 
@@ -77,9 +87,24 @@ The round-3 referee checked them while auditing #14: "metadata OK (DOI 10.1098/r
 x_μ x^μ = λ_χ²
 ```
 
-#13 calls it an invariant-length shell: "conjugate quanta are characterized by an irreducible extent λ_χ as ours are by mass [D — structural; this recovers Born's 1938–49 program of a self-dual physics with both m and λ fundamental [3†, 4†]]" (§4). #13 lists "Born's self-dual program [3†, 4†]" among its literature tethers (§7). See [the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell). Whether Born's papers state the hope in these terms awaits the source check above.
+#13 calls it an invariant-length shell: "conjugate quanta are characterized by an irreducible extent λ_χ as ours are by mass [D — structural; this recovers Born's 1938–49 program of a self-dual physics with both m and λ fundamental [3†, 4†]]" (§4). #13 lists "Born's self-dual program [3†, 4†]" among its literature tethers (§7). See [the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell).
 
 In its relativistic form the map exchanges all four coordinates with all four momenta, time with energy included [T]. #13 works in a "3+1 presentation" that leaves time alone and lists "the fully covariant construction with the four-dimensional Born map (t ↔ E)" as open [O] (§6); see [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map).
+
+### What Born wrote
+
+The phase-space-diameter note quotes the two papers as follows (§4, [T][S]):
+
+- **1938, "A suggestion for unifying quantum theory and relativity".** Born notes that Einstein's static closed universe has "an upper limit for the distance between two points, given by the radius a of the universe", and writes: "Let us transfer this consideration to the p-space." Momentum space receives Einstein-type equations with constants of its own, and "for systems of some kind there is an upper limit for momenta, determined by the radius b of the hypersphere"; the number of states in a volume V is then finite. He declines to connect the two radii: "Whether these nuclear constants are connected with the corresponding molar constants λ, κ cannot be decided yet." (In the wiki's reading, λ and κ are here the constants of Einstein's equations for position space, not the [Born length](/wiki/phase-space/reciprocity/born-length).) He fixes b from the classical electron radius r₀ by r₀ = h/(πb), so that b c = 2ℏc/r₀ ≈ 1.4 × 10⁸ eV [V] ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)), a particle scale, and leaves open "whether the constant b is universal, or characteristic for each energetically closed system". He opens by rejecting Eddington's attempt "to link the properties of the smallest particles to those of the whole universe".
+- **1949, "Reciprocity theory of elementary particles".** Born splits ℏ = ab into a length and a momentum and fixes the length from particle masses.
+
+"Neither paper uses the Planck length" (§4). The note connects the papers to the rest of its argument in three places:
+
+- Born's split ℏ = ab, a length times a momentum, is the choice of units that the map with a Born length needs, x′ = (λ²/ℏ)p, p′ = −(ℏ/λ²)x (§5 [T][V]); "Born's own reciprocity length was a particle scale" (§5), whereas #13 sets the Born length equal to the Planck length.
+- Born's open question whether b is universal or set by each system is the choice that Freidel, Kowalski-Glikman, Leigh and Minic later make for the system at hand, taking their cell length to be "not universal but instead … chosen in the context of the system in question" (§4).
+- Pairing the size of the universe with an extent in momentum is the question the note itself takes up; for the universe's radiation the two sizes are tied by a fixed product, and for its range of scales one Born length, about 50 micrometres, makes the box exactly self-dual ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter); [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box)).
+
+#13's description of Born's motive, "a physics with a fundamental mass and a fundamental length on equal footing", and its "self-dual physics with both m and λ fundamental" are #13's words, cited from model memory; the note does not compare them with Born's text, and the comparison belongs to the † literature battery.
 
 ## Names
 
@@ -96,7 +121,8 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - **The hard core.** "The program: ρ is exact and spontaneously broken." (#11 §3; [the hard core](/wiki/program/hard-core)). The program argues that the breaking is unavoidable ([mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking)); the idea that a preferred [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) breaks the symmetry is credited to Freidel, Leigh and Minic ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
 - **The postulate.** "**P3** The action is invariant under the Born rotation generated by I = ω⁻¹H. [P]" (#11 §4; [P3](/wiki/program/postulates/p3-reciprocity)).
 - **On the three structures.** In the standard frame, "R preserves ω (it is symplectic), preserves H (it is orthogonal), and **flips the sign of η**, hence flips J and K while preserving I" [D] (#1 §2, where R is the matrix of ρ; [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). Since η is the program's order parameter, [the calc note](/wiki/history/documents/debt-1-notes) reads the flip as "the broken symmetry moving the order parameter" (#5 §B; [the order parameter](/wiki/symmetry-breaking/order-parameter)).
-- **On the modular field.** "ρ: Z → −Z⁻¹ (Möbius; d = 1 check), fixed point Z = i" [D] (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)).
+- **On the modular field.** "ρ: Z → −Z⁻¹ (Möbius; d = 1 check), fixed point Z = i" [D] (#11 §6; [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion)). On Gaussian wave packets the Fourier transform acts on the packet's shape parameter by the same map, with Z = i the one packet it leaves unchanged [T][V] (phase-space-diameter note §5; [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states)).
+- **On a phase-space rectangle.** With a Born length λ, ρ keeps a rectangle's area and inverts its aspect ratio, and every rectangle is self-dual for exactly one λ [T][V] (note §5; [the Born length λ](/wiki/phase-space/reciprocity/born-length)). The note applies this to the universe's radiation and to the box running from the Planck length to the horizon ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter); [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box)).
 - **In the toy models.** In [model I](/wiki/symmetry-breaking/toy-models/coset-model), the [coset sigma model](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models) of a metric H and a real structure K, "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = −K(φ). The stabilizer of (1, K₀) in Sp(2,ℝ) is {±1}" (toy-model note §2). But "the twisted element ρ∘(K → −K) maps (1, K₀) to itself", so breaking ρ is physical only once a coupling odd in K is present ([the twisted element](/wiki/symmetry-breaking/twisted-element)). In model I and in the complex form of model II, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle [D][V] (#11 §4, §10; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle); checked by [the toy-model scripts](/wiki/method/verification/toy-model-scripts)); the real form of model II has a discrete pair of vacua instead (toy-model note §3). The lab notebook's older breaking pattern, ℤ₄ → ℤ₂ = {1, ρ²}, is superseded by that picture ([superseded statements](/wiki/status/superseded)).
 - **In charge space.** [S-duality](/wiki/electric-magnetic-duality/s-duality) acts on the complexified coupling as τ_c → −1/τ_c, "generated by the same [[0,1],[−1,0]] rotation as Born's ρ and our Z → −Z⁻¹: the third appearance of one matrix in this program" (#11 §11.3; [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
 
@@ -126,6 +152,9 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — ρ acts on Z by inversion, g → g⁻¹ at X = 0.
 - [The gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) — the fiber overlap as the position–momentum dual of a form factor.
 - [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) — #13's version of Born's fundamental length.
+- [The Born length λ](/wiki/phase-space/reciprocity/born-length) — the reference length every statement of ρ needs; Born's own was a particle scale.
+- [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) and [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box) — ρ keeps a rectangle's area and inverts its aspect ratio; the box from the Planck length to the horizon is self-dual for one Born length.
+- [Obituary: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary) — that Born length, excluded in the program's two uses of it.
 - [The equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) and [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) — #13's reading of ρ in relativity.
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — the same matrix generating S-duality.
 - [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion) — the residual symmetry ρ² protects the linear term.
@@ -133,11 +162,16 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 
 ## Sources
 
+- `CLAUDE.md` 'Since the handoff' — the † literature battery in the current queue, with Born 1938 and 1949 retrieved.
 - `papers/broken-born-checkpoint-v2.md` §3 — the symmetry of quantum kinematics; the program's reading of it.
 - `papers/broken-born-checkpoint-v2.md` refs [1]–[2] — Born 1938 and 1949, both †.
 - `papers/broken-born-checkpoint-v2.md` §4, §6, §10, §11 — P3 and the v2.2 refinement; ρ acting as Z → −Z⁻¹; ρ inside a continuous U(1) in the toys; the same matrix in S-duality.
 - `papers/reciprocity-toy-models.md` Abstract, §1–§3 — kinematics versus dynamics; ρ as a symplectic matrix squaring to −1; ρ in model I and the twisted element; the real model's discrete vacua.
 - `papers/conjugate-special-relativity.md` §4, §6, §7 — Born's hope for a fundamental mass and length; the four-dimensional Born map as open; the literature tether [3†, 4†].
+- `papers/phase-space-diameter.md` §4 — Born 1938 and 1949, retrieved and read [S]: the momentum-space radius b, its particle-scale value [V], the radii left unconnected, ℏ = ab; neither paper uses the Planck length. §5 — ρ_λ on a rectangle and Born's split as its choice of units [T][V]; Born's own length a particle scale; ρ on Gaussian packets as Z → −1/Z [T][V]. §7 — the self-dual box. References — the two papers' full citations.
+- `verify/phase_space_diameter.py` — b c = 2ℏc/r₀ ≈ 1.4 × 10⁸ eV; the rectangle and wave-packet checks.
+- `review/round5-adjudication.md` header — the copies of Born's papers retrieved for the note; referee A could open neither paper, and referee B verified the 1938 quotations in the Internet Archive's scan and could not open the 1949 paper.
+- `notes/phase-space-diameter-worklog.md` 'Status' — the Born quotations transcribed from the page images; Born 1938 read in full.
 - `review/round3/referee/audit-notes.md` Step 1 — the citation check on Born 1938 and 1949.
 - `notes/debt1a-geometric-core.md` §B — the flip of η read as the broken symmetry moving the order parameter.
 - `notes/broken-born-program-v1.md` §1 — the commutator is blind to ρ; the dynamical asymmetries.

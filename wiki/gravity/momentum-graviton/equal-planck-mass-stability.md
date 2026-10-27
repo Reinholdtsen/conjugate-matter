@@ -17,6 +17,7 @@ sources:
   - "HANDOFF.md §6"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "CLAUDE.md 'Since the handoff'"
+  - "papers/phase-space-diameter.md §8.2"
 ---
 
 *This open problem asks whether a heavy massive spin-2 field such as the [momentum graviton X](/wiki/gravity/momentum-graviton) can be stable in an expanding universe when its metric and the ordinary metric have equal [Planck masses](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), the coefficients that set how strongly each metric responds to matter [T]. Published analyses of [bimetric cosmologies](/wiki/gravity/spin-2-fields/bimetric-cosmology) find instabilities for a spin-2 field with a mass of order today's Hubble rate and comparable Planck masses, and the work that finds a heavy spin-2 field linearly stable at late times assumes that the second metric's Planck mass is much smaller than the first. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the two Planck masses to be equal, which excludes that regime, and whether a large mass alone is enough has not been checked. The question came out of the [second blind review](/wiki/method/review/rounds-one-and-two) of [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate), since withdrawn. It is recorded only in the review worklog and the manuscript; [checkpoint #11](/wiki/history/documents/checkpoint) §14 does not list it.*
@@ -65,7 +66,7 @@ The program's case therefore falls in neither studied regime. X is heavy, unlike
 
 - **A large mass at equal Planck masses.** The worklog's open question, with its one lead: "(De Felice et al. 2014, cited in Akrami et al.: 'the instability becomes negligible for large values of m'; not yet read)". No document gives the reference's details or reports reading it.
 - **Beyond linear order.** The stable regime "holds at linear order only, with tuned βₙ". The program's own coefficients are fixed to the [palindromic branch](/wiki/gravity/palindromic-branch/palindrome) with two free parameters ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)); no document compares them with the tuned coefficients of that regime.
-- **The early universe.** "the strong-coupling era H > H⋆ is unresolved" (R7; the worklog does not define H⋆), and [the handoff](/wiki/history/documents/handoff)'s summary of the round-2 finding ends "early universe remains open" (`HANDOFF.md` §6).
+- **The early universe.** "the strong-coupling era H > H⋆ is unresolved" (R7; the worklog does not define H⋆), and [the handoff](/wiki/history/documents/handoff)'s summary of the round-2 finding ends "early universe remains open" (`HANDOFF.md` §6). The phase-space-diameter note lists the same gap among the caveats of its bound on X's range: "Bimetric cosmologies are unstable while H exceeds the spin-2 mass" (Lüben, Mörtsell and Schmidt-May 2020 [S]), "so the early universe is a separate question, open in the record" (§8.2; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 
 ## How the citations were checked
 
@@ -94,3 +95,4 @@ So the instability literature is not uniformly negative even for light spin-2 fi
 - `HANDOFF.md` §6 — the round-2 finding the item answers
 - `papers/broken-born-checkpoint-v2.md` §14 — the current list of open problems, which does not include the item
 - `CLAUDE.md` 'Since the handoff' — the current queue
+- `papers/phase-space-diameter.md` §8.2 — the early-universe instability of bimetric cosmologies, among the caveats of the bound on X's range [T][O]

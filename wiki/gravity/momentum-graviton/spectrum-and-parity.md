@@ -29,6 +29,9 @@ sources:
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
   - "review/wiki-build-flags.md items 5, 8, 39"
   - "review/wiki-build-checks/rho_parity.py"
+  - "papers/phase-space-diameter.md §8.2"
+  - "papers/phase-space-diameter.md §9"
+  - "verify/phase_space_diameter.py 'Consequences (note §8)'"
 ---
 
 *The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have [equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector), a statement of calc note #8 §3 that #11 does not repeat. The count and the parities are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton).*
@@ -83,7 +86,11 @@ The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass term is the on
 
 ### No value for M_X
 
-No document fixes a number for M_X. Calc note #6 §3 identifies it as "the polarization-breaking scale", and #8 §3 argues safety "down to far below any plausible M_X" without saying what is plausible ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). The popular article #12 says the second field "acquired a large mass"; #12 presents the framework as if confirmed and is not a source for status ([the popular articles](/wiki/history/documents/popular-articles)).
+No document fixes a value for M_X. Calc note #6 §3 identifies it as "the polarization-breaking scale", and #8 §3 argues safety "down to far below any plausible M_X" without saying what is plausible ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)).
+
+The one number in the record is a lower bound, and it is conditional. The [phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), which also says M_X has "no value in the record" (§8.2), takes the program's aligned vacuum, in which the ratio of the two frames' backgrounds is u = 1. There, with the equal Planck masses below, X's force on ordinary matter has Yukawa strength α = 4/3 relative to gravity, and torsion balances require λ_X < 37.7 μm, M_X c² > 5.2 meV, with λ_X = ħ/(M_X c) the range of the force (§8.2; tagged [V][S] in the note's summary, §9; recomputed by `verify/phase_space_diameter.py`, [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)). Whether the aligned vacuum persists as the universe expands is open [O]. The bound, its premise and its dependence on u are on [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound).
+
+The popular article #12 says the second field "acquired a large mass"; #12 presents the framework as if confirmed and is not a source for status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ### What is checked
 
@@ -115,7 +122,7 @@ The assignment uses reciprocity in the form the documents give for the spin-2 se
 
 In bimetric gravity each metric has its own [Einstein–Hilbert term](/wiki/gravity/spin-2-fields/general-relativity), and the coefficient of that term, the metric's Planck mass, sets how strongly the metric responds to sources [T]; the v3 worklog (`review/v3-worklog.md`, item R7) writes the two as M_g and M_f. An exchange of the two metrics is a symmetry of the whole action only if it maps the two kinetic terms onto each other, which requires the two Planck masses to be equal [T]. Calc note #8 §3 states the result for the program's frames as "With equal effective Planck masses (forced by the same symmetry)", with no separate derivation.
 
-Two consequences are worked out elsewhere. Matter coupled to g "sees both eigenstates with comparable strength" (#8 §3), so ordinary matter feels X at gravitational strength, and its safety rests on X's short range ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). And equal Planck masses rule out the regime in which a heavy spin-2 field has been shown to be linearly stable at late times in an expanding universe ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
+Two consequences are worked out elsewhere. Matter coupled to g "sees both eigenstates with comparable strength" (#8 §3), so ordinary matter feels X at gravitational strength, and its safety rests on X's short range ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). Equal Planck masses fix that strength only together with the ratio u of the two frames' backgrounds: "Only the product M_f u is fixed by the theory, so equal Planck masses give α = 4/3 only if u = 1", the program's aligned vacuum (phase-space-diameter note §8.2; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). And equal Planck masses rule out the regime in which a heavy spin-2 field has been shown to be linearly stable at late times in an expanding universe ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
 
 ### A selection rule on vertices
 
@@ -153,3 +160,5 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — "acquired a large mass" (popular article; not a status source)
 - `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5 and #9 §5; item 8 — "five-function" for five constant coefficients; item 39 — the two actions of reciprocity on the spin-2 sector and the parities they give, with its audit verdict; all await Paul's ruling
 - `review/wiki-build-checks/rho_parity.py` — the linearization of Z → −Z⁻¹ at Z = i, for flag 39
+- `papers/phase-space-diameter.md` §8.2 — M_X with "no value in the record"; the background ratio u in X's strength; the conditional bound λ_X < 37.7 μm, M_X c² > 5.2 meV [D][V][S]; §9 — the bound tagged [V][S]
+- `verify/phase_space_diameter.py` 'Consequences (note §8)' — the bound recomputed [V]

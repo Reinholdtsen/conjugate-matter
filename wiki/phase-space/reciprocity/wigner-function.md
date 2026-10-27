@@ -19,6 +19,8 @@ sources:
   - "review/round4-adjudication.md 'Revisions for v2 of the note'"
   - "notes/toy-lagrangian.md 'Chunk 4 (in progress, 2026-10-19): S5'"
   - "notes/toy-lagrangian.md 'Write-up and review (2026-10-19/20)'"
+  - "papers/phase-space-diameter.md §5"
+  - "papers/phase-space-diameter.md §6"
 ---
 
 *The Wigner function is a way of drawing a quantum state as a distribution over phase space, with position on one axis and momentum on the other. Adding it up over all momenta gives the probability of each position, and adding it up over all positions gives the probability of each momentum, so one picture holds both descriptions of the state; unlike a true probability, it can be negative. Weyl symbols extend the same idea from states to operators, turning each operator into a function on phase space. The program's [toy-model note](/wiki/symmetry-breaking/toy-models) uses the Wigner function to build a matter coupling that reads one axis of phase space as "position", and to check that a coupling blind to that choice treats both axes alike.*
@@ -52,6 +54,8 @@ W can be negative [T], so it is a quasi-probability distribution: its marginals 
 ### How it moves under ρ
 
 When a linear symplectic map S of phase space is carried out on states by its unitary operator, the state's Wigner function is carried along by the map, W(z) → W(S⁻¹z) [T]; for a rotation it turns rigidly, and for a squeeze it stretches one way and shrinks the other, keeping its area. For the quarter-turn [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), carried out on states by the Fourier transform, the toy-model script builds the transformed Wigner function this way: "W_{F psi}(x, p) = W_psi(-p, x): rotation of the phase plane" (`verify/toy_s5.py`).
+
+A Gaussian packet's Wigner function is itself a Gaussian on phase space, whose level curves are ellipses [T]. Labelling the packet by a point Z of the upper half-plane, the phase-space-diameter note finds Δx/Δp = 1/|Z|: the packets with |Z| = 1 have a square box of widths, possibly around a tilted ellipse, and Z = i is the one whose ellipse is a circle, the one round state that ρ leaves unchanged (§5, [D][V]; [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states); [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)). One reading of the early-chat "aspect ratio" of the universe that the note tests is the Wigner ellipse of a single squeezed perturbation mode (§6; [squeezed cosmological perturbations](/wiki/cosmology/early-universe/squeezed-perturbations)).
 
 ## ∫W² = 1/2π: a quantity blind to the axes
 
@@ -114,6 +118,7 @@ Added by the wiki from model memory (†), except Royer, which the toy note cite
 - [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — nothing in the toy excludes the K-blind coupling ∫W².
 - [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — parity on Weyl symbols, credited to Royer.
 - [Model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base) — the matrix base of Weyl symbols.
+- [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — a squeezed mode's Wigner ellipse as one reading of the early-chat aspect ratio; it matches the number, but the mode was round before it left the Hubble radius, not at a bounce.
 
 ## Sources
 
@@ -126,3 +131,4 @@ Added by the wiki from model memory (†), except Royer, which the toy note cite
 - `review/round4/referee/audit-notes.md` Step 2(b), Step 2(d) — independent checks of the Weyl symbols, ∫W and ∫W², the coupling's values; the referee's caveat on "locality"; Royer's paper.
 - `review/round4/referee/out_sec5.txt`, `review/round4/referee/out_sec5_fix.txt` — the referee's printed values.
 - `notes/toy-lagrangian.md` chunk 4, "Write-up and review" — ∫W² = 1/2π as the K-blind control; the v2 references "all retrieved".
+- `papers/phase-space-diameter.md` §5 — Gaussian packets, their widths and the three loci [D][V]; §6 — a squeezed mode's Wigner ellipse as a reading of the chat's aspect ratio.

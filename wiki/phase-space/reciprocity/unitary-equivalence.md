@@ -21,6 +21,8 @@ sources:
   - "HANDOFF.md §6"
   - "verify/toy_coset.py"
   - "verify/toy_gw.py"
+  - "papers/phase-space-diameter.md §5"
+  - "verify/phase_space_diameter.py"
 ---
 
 *Unitary equivalence and Noether symmetry are the two different ways a map like [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) can relate to a physical theory. It can be a change of description, a unitary equivalence — the same physics written in other variables, as a Fourier transform rewrites a waveform as a spectrum — or it can be a symmetry of the dynamics: an operation that leaves a specific action unchanged, and therefore constrains what the theory can do (a Noether symmetry). In ordinary quantum mechanics ρ is the first kind, because the Stone–von Neumann theorem makes all the standard ways of representing the position–momentum commutation rules equivalent. The program needs the second kind, since only a symmetry of an action can be [spontaneously broken](/wiki/symmetry-breaking/spontaneous-symmetry-breaking). Its referees made exhibiting such an action [the first acceptance criterion](/wiki/symmetry-breaking/toy-models/acceptance-criterion) for anything it proposes, and [#11](/wiki/history/documents/checkpoint) records the criterion as met, in the referees' wording, by the [toy models](/wiki/symmetry-breaking/toy-models).*
@@ -47,9 +49,9 @@ Applied to ρ, the theorem works as follows.
 
 1. The pair (p̂, −x̂) obeys the same relation as (x̂, p̂), since [p̂, −x̂] = [x̂, p̂] = iℏ ([the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)).
 2. By the theorem a unitary operator carries the first representation into the second. It is the Fourier transform: F† x̂ F = p̂ and F† p̂ F = −x̂ [T].
-3. The same argument covers every linear map of phase space that preserves the symplectic form. Each is carried out by a unitary operator, unique up to a phase (the metaplectic representation) [T]; see [the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form).
+3. The same argument covers every linear map of phase space that preserves the symplectic form. Each is carried out by a unitary operator, unique up to a phase (the metaplectic representation) [T]; see [the symplectic form and Sp(2d, ℝ)](/wiki/phase-space/reciprocity/symplectic-form). On Gaussian wave packets these operators act by Möbius maps of the packet's complex shape parameter Z, the Fourier transform as Z → −1/Z ([Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states)).
 
-So in quantum mechanics with finitely many degrees of freedom, ρ and every other linear symplectic map is a change of description.
+So in quantum mechanics with finitely many degrees of freedom, ρ and every other linear symplectic map is a change of description. This holds for the whole family of quarter-turns, one for each choice of reference length: [the phase-space-diameter note's script](/wiki/method/verification/phase-space-diameter-script) checks that the map with [Born length](/wiki/phase-space/reciprocity/born-length) λ is symplectic for every λ [T][V], and that two such maps differ by a squeeze [D][V] (`papers/phase-space-diameter.md` §5).
 
 The theorem does not extend to infinitely many degrees of freedom. Quantum field theories admit unitarily inequivalent representations of the commutation relations, and distinct vacua of a spontaneously broken symmetry live in such inequivalent representations [T]. The toy models are field theories: the worklog's criterion for quantum stability starts them in 1+1 dimensions, because "In 0+1 dimensions (quantum mechanics), tunnelling restores any symmetry" (`notes/toy-lagrangian.md`, "Success criteria", S4).
 
@@ -128,3 +130,4 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `notes/toy-lagrangian.md` "Success criteria", "Assessment against the predictions" — criterion S1; the 0+1 remark under S4; the partial answer to round 3.
 - `notes/knot-dark-matter-standalone.md` §1, §6 — the concession and the criterion as #14 stated them (withdrawn paper).
 - `verify/toy_coset.py`, `verify/toy_gw.py` — the invariance checks for model I and the complex model II.
+- `papers/phase-space-diameter.md` §5 — the Möbius action on Gaussian packets [S]; the map with Born length λ symplectic for every λ [T][V], and two such maps differing by a squeeze [D][V], both checked in `verify/phase_space_diameter.py`.

@@ -19,6 +19,12 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "review/wiki-build-flags.md item 5"
+  - "papers/phase-space-diameter.md §8.2"
+  - "papers/phase-space-diameter.md §6"
+  - "papers/phase-space-diameter.md §9"
+  - "papers/phase-space-diameter.md 'References'"
+  - "verify/phase_space_diameter.py 'Where the radiation rectangle is square, lambda = l_P (note §6)'"
+  - "verify/phase_space_diameter.py 'Consequences (note §8)'"
 ---
 
 *Bimetric cosmology studies expanding-universe solutions of [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), in which both metrics take the homogeneous and isotropic form of standard cosmology. Published analyses of its solution branches find [gradient or ghost instabilities](/wiki/gravity/spin-2-fields/ghosts) in the perturbations when the massive spin-2 field is about as light as today's Hubble rate and the two metrics have comparable [Planck masses](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), though not in every model. A heavy spin-2 field has been shown to be linearly stable at late times when the second metric's Planck mass is much smaller than the first. Separately, a massive spin-2 field on [de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space) must satisfy the Higuchi bound m² ≥ 2H², which a heavy field meets trivially. For the program the known stable regime is out of reach: [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) sets the two Planck masses equal, so the cosmological stability of a heavy [momentum graviton X](/wiki/gravity/momentum-graviton) is an open question.*
@@ -71,7 +77,7 @@ The program's X is the massive spin-2 field of a Hassan–Rosen theory whose sec
 
 The worklog's item R7 names the tension: calc note #8 §3 "says reciprocity forces equal effective Planck masses (M_f = M_g), which rules out the M_f ≪ M_g escape". Its instruction for the manuscript was "v3: state this as an open consistency item, not as evaded." Version 3 of #14 did so: "The framework's reciprocity, acting as exchange of the two metrics, instead sets the two Planck masses equal, so the stability of a heavy spin-2 field at equal Planck masses is an open consistency condition (Sec. 5, item 7)" (#14 §1). Its §5 item 7 lists "instability of a heavy spin-2 field at equal Planck masses" among the internal exclusion conditions, and its §6 lists "the ghost-free landing of the mass mechanism and its cosmological stability at equal Planck masses" as conjectural.
 
-The question assumes that X is heavy, as #14 and the worklog do. The [checkpoint](/wiki/history/documents/checkpoint) fixes no value for X's mass; it gives only M_X ∝ 2(β₁+β₂) (#11 §7.5; see flag 5 in `review/wiki-build-flags.md`).
+The question assumes that X is heavy, as #14 and the worklog do. The [checkpoint](/wiki/history/documents/checkpoint) fixes no value for X's mass; it gives only M_X ∝ 2(β₁+β₂) (#11 §7.5; see flag 5 in `review/wiki-build-flags.md`). The [phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter) gives a lower bound, conditional on the program's aligned vacuum, in which the ratio of the two frames' backgrounds is u = 1: torsion balances then require M_X c² > 5.2 meV (§8.2; tagged [V][S] in its summary, §9; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). The note puts that mass against today's expansion rate as "(M_X/H₀)² ≈ 10⁶¹ for the smallest M_X allowed by §8.2" (§6), so in the aligned vacuum X lies far above the spin-2 mass of order H₀ that the instability analyses assume. The note also lists the early universe among the bound's caveats: "Bimetric cosmologies are unstable while H exceeds the spin-2 mass" (Lüben, Mörtsell and Schmidt-May 2020 [S]), "so the early universe is a separate question, open in the record" (§8.2).
 
 The item appears only in #14 and the worklog; #11 §14 does not list it. The wiki keeps it as an open item on its own page, [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability). #14 itself was withdrawn after round 3 because its Kibble estimate of the monopole relic abundance had been normalized too low ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). That error does not bear on this item: the question concerns X, which stands.
 
@@ -86,12 +92,14 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 - #14's references [4]–[6], as listed above; #14's list is unmarked. The round-3 audit found that all 23 of #14's references resolve with matching bibliographic data (audit notes, Step 1).
 - De Felice et al. (2014): named in the worklog as cited by Akrami et al., and not read.
 - A. Schmidt-May, M. von Strauss, "Recent developments in bimetric theory," J. Phys. A 49, 183001 (2016), arXiv:1512.00021: a review of bimetric theory, which the checkpoint cites as [22S] for a different statement (#11 §7.3; see [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)).
+- [S] M. Lüben, E. Mörtsell, A. Schmidt-May, "Bimetric cosmology is compatible with local tests of gravity," Class. Quantum Grav. 37, 047001 (2020), arXiv:1812.08686: cited by the phase-space-diameter note for the instability while H exceeds the spin-2 mass (`papers/phase-space-diameter.md` 'References').
 
 ## Used by
 
 - [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the open consistency condition for X.
 - [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity) — the field at the edge of the Higuchi bound.
 - [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) — the open cosmological stability of a heavy X at equal Planck masses.
+- [The laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound) — the early-universe instability among the bound's caveats.
 
 ## Sources
 
@@ -103,4 +111,6 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 - `HANDOFF.md` §6 — the round-2 finding.
 - `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity.
 - `papers/broken-born-checkpoint-v2.md` §7.5, §14 — no value for X's mass; the open problems, which do not list this item.
+- `papers/phase-space-diameter.md` §8.2 — the conditional lower bound M_X c² > 5.2 meV in the aligned vacuum [D][V][S] and the early-universe caveat [T][O]; §6 — (M_X/H₀)² ≈ 10⁶¹ at the bound; §9 — the bound tagged [V][S]; 'References' — Lüben, Mörtsell and Schmidt-May 2020 [S].
+- `verify/phase_space_diameter.py` 'Where the radiation rectangle is square, lambda = l_P (note §6)', 'Consequences (note §8)' — (M_X/H₀)² = 1.3×10⁶¹ at M_X c² = 5.2 meV; the bound [V].
 - `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5; awaiting Paul's ruling.

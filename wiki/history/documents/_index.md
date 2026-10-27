@@ -51,8 +51,8 @@ The pages start with the two files written to orient a new Claude Code session, 
 When documents disagree, the wiki follows the most current, in this order (`wiki/CLAUDE.md`):
 
 1. the root `CLAUDE.md`, section "Since the handoff";
-2. checkpoint #11 v2.2 and the toy-model note v2;
-3. the review adjudications, `review/round4-adjudication.md` and `review/round3-adjudication.md`;
+2. checkpoint #11 v2.2, the toy-model note v2 and the phase-space-diameter note v1.1 (`papers/phase-space-diameter.md`);
+3. the review adjudications, `review/round5-adjudication.md`, `review/round4-adjudication.md` and `review/round3-adjudication.md`;
 4. #13;
 5. `HANDOFF.md`, whose §2 soliton candidate and §8 queue are superseded;
 6. the notes: the calc notes #2–#8 are final for their own scope, #1 and #9 are superseded as reference, and #14 is withdrawn;

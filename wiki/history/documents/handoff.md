@@ -24,11 +24,16 @@ sources:
   - "review/round3-adjudication.md 'Pre-registration scored'"
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round4-adjudication.md 'Pre-registration scored'"
+  - "papers/phase-space-diameter.md header"
+  - "papers/phase-space-diameter.md §3"
+  - "papers/phase-space-diameter.md §5"
+  - "papers/phase-space-diameter.md §6"
+  - "review/round5-adjudication.md 'Recommendations to Paul'"
   - "review/wiki-build-flags.md items 7, 16, 23, 24, 26, 27, 29, 35, 36"
   - "verify/battery.py"
 ---
 
-*`HANDOFF.md` is the note that carried the program from the claude.ai conversation where it was developed to Claude Code and this repository. It was prepared on 2026-10-19 so that a fresh session could continue without the original chat: it gives the scientific state on one screen, numbers the artifacts #1–#15, lists the results that exist only in the chat, and records the method, the review history, the working conventions and a ranked list of next actions. Much of it still stands, including its list of dead claims, which stays binding. Its [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) and its work queue were superseded on 2026-10-19, the queue that replaced it was revised again on 2026-10-19 and 2026-10-20, several of its statuses have moved on, and the root `CLAUDE.md` and [checkpoint #11](/wiki/history/documents/checkpoint) now rank above it.*
+*`HANDOFF.md` is the note that carried the program from the claude.ai conversation where it was developed to Claude Code and this repository. It was prepared on 2026-10-19 so that a fresh session could continue without the original chat: it gives the scientific state on one screen, numbers the artifacts #1–#15, lists the results that exist only in the chat, and records the method, the review history, the working conventions and a ranked list of next actions. Much of it still stands, including its list of dead claims, which stays binding. Its [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) and its work queue were superseded on 2026-10-19, the queue that replaced it was revised again on 2026-10-19, 2026-10-20 and 2026-10-26, several of its statuses have moved on, its chat-only diameter relation has since been written up in a note that withdraws one of the relation's four statements, and the root `CLAUDE.md` and [checkpoint #11](/wiki/history/documents/checkpoint) now rank above it.*
 
 **Status:** Record, superseded in part — untagged (it marks machine-checked results with ✓ rather than [V]) — rank 5 in the wiki's precedence order, with its §2 soliton candidate and §8 queue superseded (`wiki/CLAUDE.md`; root `CLAUDE.md`, 'Since the handoff'). The file is unchanged since its import on 2026-10-19 (commit 8d588f6, as `import/HANDOFF.md`; moved to the root in 008c3ee).
 
@@ -40,7 +45,7 @@ The document is a snapshot. It was written at the move, when #11 was at version 
 
 ## Its standing
 
-The wiki ranks the handoff at position 5 of its precedence order, below the root `CLAUDE.md`, checkpoint #11 and the toy-model note, the review adjudications and #13, and above the notes and the popular articles (`wiki/CLAUDE.md`; [Documents](/wiki/history/documents#the-order-of-precedence)). Two parts are superseded by name: "its §2 soliton candidate and its §8 queue". Other statements have been overtaken by events, and the sections below say which.
+The wiki ranks the handoff at position 5 of its precedence order, below the root `CLAUDE.md`, checkpoint #11, the toy-model note and the phase-space-diameter note, the review adjudications and #13, and above the notes and the popular articles (`wiki/CLAUDE.md`; [Documents](/wiki/history/documents#the-order-of-precedence)). Two parts are superseded by name: "its §2 soliton candidate and its §8 queue". Other statements have been overtaken by events, and the sections below say which.
 
 One part outranks its position. The handoff's list of dead claims stays binding whatever happens later: "Claims listed as dead in HANDOFF §2 stay dead" (root `CLAUDE.md`, 'Method'), and the wiki's rule "Dead stays dead" names "`HANDOFF.md` §2" first among the places where claims were killed (`wiki/CLAUDE.md`).
 
@@ -113,9 +118,9 @@ UV stands for ultraviolet, that is, high-energy physics.
 
 ## §4: results that exist only in the chat
 
-The section heading, with its capitals set in lower case here, is "Results that exist only in the chat (not in any artifact)". These are the program's chat-only conjectures, kept at conjecture tier ([chat-only and popsci-only conjectures](/wiki/status/conjectures)):
+The section heading, with its capitals set in lower case here, is "Results that exist only in the chat (not in any artifact)". These are the program's chat-only results, kept at conjecture tier except where a later document changed their standing: the first has since been written up in a note, and the second was dropped with the soliton candidate ([chat-only and popsci-only conjectures](/wiki/status/conjectures)):
 
-- **The phase-space diameter relation**, "D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem)", with the rectangle "square … exactly at the bounce" and "Conjecture-tier; candidate for a future note" ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)). It is third in the current queue. Which bounce is meant is queried in `review/wiki-build-flags.md` item 24.
+- **The phase-space diameter relation**, "D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem)", with the rectangle "square … exactly at the bounce" and "Conjecture-tier; candidate for a future note". The note was written on 2026-10-26: `papers/phase-space-diameter.md` v1.1, round-5 verdict B ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter); [Round 5](/wiki/method/review/round-5)). For blackbody radiation in a sphere the product is an identity, D_x·D_p = κ h N_γ^{1/3} with κ = 1.708 [D][V], constant for a fixed comoving region [T]; the bullet's "~10⁹⁰" is the radiation's entropy, 1.01×10⁹⁰ k_B, beside a photon count of 1.43×10⁸⁹ [V]; and the relation holds in standard cosmology, so it cannot test the program. "Square exactly at the bounce" is withdrawn: in Planck units the radiation's rectangle is square only at about 10¹⁴ T_P, before the radiation existed, and most elongated at a turnaround ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). What survives of the bullet is the area relation, as standard physics, and the aspect ratio as a clock of e-folds and a distance on the Siegel half-plane. Which bounce is meant is queried in `review/wiki-build-flags.md` item 24. The note traces the claim's likeliest origin, by its own tag an inference, to #11's identification of a·ã = 1 with |Z| = 1, the subject of item 23; the round-5 adjudication recommends accepting both flags, which await Paul's ruling.
 - **The √N topological floor**, dropped with the soliton candidate ([obituary](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 - **Two gravitational charges** and the **comparison of the conjugate field equations with [general relativity](/wiki/gravity/spin-2-fields/general-relativity) (GR)**, including "dual Newtonian limit = Yukawa in momentum = the gate" ([two gravitational charges and the conjugate field equations](/wiki/gravity/momentum-graviton/chat-only-results); [a range in momentum](/wiki/gravity/spin-2-fields/yukawa-forces#conjugate-special-relativity-a-range-in-momentum)). The reading of X's range "in momentum" also appears in #13, which cites #11 §7 for it; #11 §7 does not make it (`review/wiki-build-flags.md` item 29).
 - **Momentum-space black holes**, "Conjecture tier; partially in #12" ([momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes)).
@@ -150,10 +155,10 @@ Round 3 is recorded as "(incomplete)": an execution-verified audit dispatched on
 | 3. "√N-floor freeze-out estimate" | dropped by round-3 Decision 3 |
 | 4. "Toy Lagrangian (acceptance criterion #1)", "Hardest; highest value. Start in 0+1 or 1+1 dimensions on the Siegel disk." | done to the referees' wording on 2026-10-20 ([toy models of broken reciprocity](/wiki/symmetry-breaking/toy-models)) |
 | 5. "PM-point comparison" (partially massless) | first in the current queue |
-| 6. "Literature battery completion: every † reference in #11 and #13 source-checked; resolve the gravity-induced kinetic mixing question" | second in the current queue ([Open: the † literature battery](/wiki/method/literature-battery)) |
-| 7. "Optional write-ups: phase-space diameter relation note (§4); LaTeX/arXiv shaping only after 1–5" | the diameter note is third in the current queue |
+| 6. "Literature battery completion: every † reference in #11 and #13 source-checked; resolve the gravity-induced kinetic mixing question" | second in the current queue; Born's two papers were retrieved for the diameter note ([Open: the † literature battery](/wiki/method/literature-battery)) |
+| 7. "Optional write-ups: phase-space diameter relation note (§4); LaTeX/arXiv shaping only after 1–5" | the diameter note done on 2026-10-26, version 1.1 after round 5 ([Round 5](/wiki/method/review/round-5)); the current queue names only items 5–6, so the shaping for arXiv is not in it |
 
-The root `CLAUDE.md` records the decisions: "HANDOFF §8 queue item 3 is dropped. The current queue, in order: 1. HANDOFF §8 items 5–7 … 2. Optional: a round-5 review of the toy note, but only before any external use." The reasons are in the round-3 adjudication's 'Decisions' ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions); [open problems and the queue](/wiki/status/open-problems)).
+The root `CLAUDE.md` records the decisions: "HANDOFF §8 queue item 3 is dropped. The current queue, in order: 1. HANDOFF §8 items 5–6: the partially-massless comparison and the † literature battery (Born 1938 and 1949 were retrieved for the diameter note; see its §4). 2. Optional: a round-6 review of the toy note, but only before any external use." It also records that "The phase-space-diameter note (HANDOFF §8 item 7) is done". From 2026-10-20 to 2026-10-26 the first item had read "HANDOFF §8 items 5–7", and the optional review was numbered round 5, the number the diameter note's review then took. "Reasons for the queue are in the round-3 adjudication's 'Decisions' section" ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions); [open problems and the queue](/wiki/status/open-problems)).
 
 ## §9 and Appendix A
 
@@ -169,15 +174,18 @@ Superseded by later documents:
 - **The reading of DESI** (§2), by DR2's phantom crossing (#11 §10, "Under pressure (v2.1)").
 - **The statuses of #11, #14 and #15** (§3), **round 3 as incomplete** (§6), **the 2-for-2 pre-registration record** (§5) and **the read order** (§3), as above.
 - **The tag of the compatibility theorem**: the handoff lists it as derived and machine-verified; #11 since v2.1 tags the statement [T].
+- **The diameter relation's standing** (§4), by the phase-space-diameter note of 2026-10-26: no longer a conjecture but standard physics, with its "square exactly at the bounce" withdrawn ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)).
 
 Unresolved inside the document: §1's "Three blind AI reviews returned verdict B" against §6's two completed rounds, B and "B near B/C", and an incomplete third. No document reconciles the count ([review rounds 1 and 2](/wiki/method/review/rounds-one-and-two#unresolved-how-many-reviews-returned-b); [conflicts between sources](/wiki/history/documents/source-conflicts#method-and-records)).
 
-Flagged in `review/wiki-build-flags.md`, quoted here as written: item 7, "unique consistent structures" without "known"; item 16, the ✓ on "fails by 10²⁸–10³¹" without a script; item 23, a·ã = 1 as the |Z| = 1 locus; item 24, which bounce the diameter relation means; item 26, "three-year data"; item 27, the negative V that the turnaround needs, against the potential V₀[1 + cos(τ/f)] of #11 §10, whose minimum is 0 for V₀ > 0; item 29, the reading of X's range in momentum, documented only in the chat.
+Flagged in `review/wiki-build-flags.md`, quoted here as written: item 7, "unique consistent structures" without "known"; item 16, the ✓ on "fails by 10²⁸–10³¹" without a script; item 23, a·ã = 1 as the |Z| = 1 locus; item 24, which bounce the diameter relation means, on which the diameter note's §6 tests every reading it records; item 26, "three-year data"; item 27, the negative V that the turnaround needs, against the potential V₀[1 + cos(τ/f)] of #11 §10, whose minimum is 0 for V₀ > 0; item 29, the reading of X's range in momentum, documented only in the chat.
 
 ## Sources
 
 - `HANDOFF.md` §1–§9 and Appendix A — the document itself; its first line, purpose and footer
-- `CLAUDE.md` 'Since the handoff' — which parts are dead, dropped or replaced, and the current queue; 'Layout' — the replacement read order; 'Method (HANDOFF §5)' — the method carried forward
+- `CLAUDE.md` 'Since the handoff' — which parts are dead, dropped or replaced, the diameter note done, and the current queue; 'Layout' — the replacement read order; 'Method (HANDOFF §5)' — the method carried forward
+- `papers/phase-space-diameter.md` header — version 1.1 and its round-5 verdict; §3 — the identity, κ, the radiation's entropy and photon count; §5 — the clock and the Siegel distance; §6 — the withdrawal, its obituary and the claim's likeliest origin, tagged "[D, inference]"
+- `review/round5-adjudication.md` 'Recommendations to Paul' — accepting flags 23 and 24 recommended
 - `wiki/CLAUDE.md` 'The wiki is derivative' — the handoff's rank, its superseded parts and the dead-stays-dead rule
 - `papers/broken-born-checkpoint-v2.md` §5 — the re-tagged compatibility theorem; §10 — "Under pressure (v2.1)"; §12 — the soliton obituary and the two remaining candidates; §14 — the open items the handoff's list became
 - `review/round3-adjudication.md` 'Pre-registration scored' and 'Decisions' — round 3's completion, the moved failure mode and the queue decisions; `review/round4-adjudication.md` 'Pre-registration scored' — the round-4 hit

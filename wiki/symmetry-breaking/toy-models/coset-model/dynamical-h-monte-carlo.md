@@ -126,7 +126,7 @@ Rules already in force would apply to such a run:
 - Round 4's ruling on start conditions, made after hot starts at L = 64 were found trapped in metastable domains in the reduction: "Cold starts are standard for ordered-phase measurements, but they must be stated." (`review/round4-adjudication.md`, 'Rulings'; [start conditions](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo#start-conditions-hot-starts-trap)).
 - "New verification scripts get wired into" the gate, `scripts/check.sh` (root `CLAUDE.md`, 'The gate').
 
-The item is not on the current work queue, which the root `CLAUDE.md` gives as `HANDOFF.md` §8 items 5–7 (the partially-massless comparison, the † literature battery and the phase-space-diameter note), followed by an optional round-5 review of the toy note, "but only before any external use". The sources record no attempt at the simulation.
+The item is not on the current work queue, which the root `CLAUDE.md` gives as `HANDOFF.md` §8 items 5–6 ([the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the † literature battery](/wiki/method/literature-battery)), followed by an optional round-6 review of the toy note, "but only before any external use". The sources record no attempt at the simulation.
 
 ## The claims it qualifies
 

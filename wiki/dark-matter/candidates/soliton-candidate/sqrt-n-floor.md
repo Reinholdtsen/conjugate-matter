@@ -10,6 +10,8 @@ sources:
   - "review/round3-adjudication.md 'Rulings' 10"
   - "CLAUDE.md 'Since the handoff'"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/phase-space-diameter.md §3"
+  - "papers/phase-space-diameter.md §6"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
   - "HANDOFF.md §8"
@@ -98,9 +100,9 @@ Decision 2 retired the soliton candidate as a program-native proposal ([Obituary
 
 ## What survives
 
-Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with the candidate. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–7 ([open problems](/wiki/status/open-problems)).
+Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with the candidate. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–6 ([open problems](/wiki/status/open-problems)).
 
-The other results of the handoff's chat-only list (§4) have their own pages: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the two gravitational charges and the equation comparison on [the momentum graviton's chat-only results](/wiki/gravity/momentum-graviton/chat-only-results). All are registered in [conjectures](/wiki/status/conjectures).
+The other results of the handoff's chat-only list (§4) have their own pages: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the two gravitational charges and the equation comparison on [the momentum graviton's chat-only results](/wiki/gravity/momentum-graviton/chat-only-results). The diameter relation has since been written up and tested in the phase-space-diameter note (`papers/phase-space-diameter.md`, v1.1): its corrected form is an identity of blackbody statistics [D][V], standard physics that cannot test the program, and its claim that the universe's position–momentum rectangle is square "exactly at the bounce" is withdrawn [D][V] ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). The others are still chat-only and are registered in [conjectures](/wiki/status/conjectures).
 
 ## Record
 
@@ -115,6 +117,7 @@ The other results of the handoff's chat-only list (§4) have their own pages: [t
 - `review/round3-adjudication.md` 'Decisions' 3 — dropped; 'Decisions' 2 — the candidate retired; 'Rulings' 3 and 10 — the inverted premise and the solved annihilation case
 - `CLAUDE.md` 'Since the handoff' — "HANDOFF §8 queue item 3 is dropped"
 - `papers/broken-born-checkpoint-v2.md` §12 — the p = 1 and p ≈ 0.023 normalizations
+- `papers/phase-space-diameter.md` §3 — the diameter relation as an identity of blackbody statistics that cannot test the program; §6 — the withdrawal of "square exactly at the bounce"
 - `HANDOFF.md` §2 — the idea, as open item 2; §4 — its chat-only status; §8 — queue item 3
 - `review/round3/referee/audit-notes.md` Step 2 — the bracket of p judged; Step 4(a) items 2 and 3 — bubble counting, the relic integration, and "Acceptance criterion 3 is not open"
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1) — Preskill's bound, to be recomputed for a hidden sector

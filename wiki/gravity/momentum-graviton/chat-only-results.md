@@ -26,6 +26,11 @@ sources:
   - "papers/conjugate-special-relativity.md §6"
   - "verify/battery.py T1"
   - "CLAUDE.md 'Since the handoff'"
+  - "papers/phase-space-diameter.md §1"
+  - "papers/phase-space-diameter.md §6"
+  - "papers/phase-space-diameter.md §8.2"
+  - "papers/phase-space-diameter.md §9"
+  - "review/round5-adjudication.md 'Verdict'"
   - "review/wiki-build-flags.md item 29"
 ---
 
@@ -35,7 +40,7 @@ sources:
 
 ## What the handoff records
 
-`HANDOFF.md` was written to make the project self-sufficient outside the original conversation. Its §4 is headed "Results that exist only in the chat (not in any artifact)" (the handoff sets "only" in capitals) and lists six items in compressed form: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), the two items on this page, [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the full adjudications of review rounds 1 and 2, which are on [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
+`HANDOFF.md` was written to make the project self-sufficient outside the original conversation. Its §4 is headed "Results that exist only in the chat (not in any artifact)" (the handoff sets "only" in capitals) and lists six items in compressed form: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) (since written up in a note of its own), [the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), the two items on this page, [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the full adjudications of review rounds 1 and 2, which are on [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two).
 
 The handoff gives each of the two items here as a single line of notes. Those lines are the whole record: the reasoning behind them stayed in the chat. The wiki quotes them verbatim and then sets each part beside what the documents do contain.
 
@@ -88,7 +93,7 @@ The nearest documented statements are in #13, which says X "modifies the dual co
 
 Gravitational waves in general relativity are massless, travel at the speed of light and have two polarizations [T]. A massive spin-2 field has five, 2s + 1 for spin s = 2 [T]. Its waves obey the dispersion relation of a massive field, ω² = k² + M² in units where ℏ = c = 1, so no wave of the field oscillates with angular frequency below M: the frequency floor [T].
 
-The documented part: calc note #6 §3 [D — structural] has X become "a **massive spin-2** with its five polarizations" ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)), and #11 §7.1 [D + T] has it emerge "massive". The frequency floor appears in no document outside the handoff's line ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) records the same). For X the floor would sit at its mass M_X, for which no document gives a value ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
+The documented part: calc note #6 §3 [D — structural] has X become "a **massive spin-2** with its five polarizations" ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)), and #11 §7.1 [D + T] has it emerge "massive". The frequency floor appears in no document outside the handoff's line ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) records the same). For X the floor would sit at its mass M_X, for which no document gives a value ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)); the phase-space-diameter note bounds it from below, M_X c² > 5.2 meV, in the program's aligned vacuum (`papers/phase-space-diameter.md` §8.2; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 
 ## What has a documented counterpart
 
@@ -108,11 +113,13 @@ The documented part: calc note #6 §3 [D — structural] has X become "a **massi
 
 ## Standing
 
-Both items are conjectures in the wiki's sense: claims that no artifact derives. The handoff attaches no tier to either line, unlike the neighbouring diameter relation and momentum-space black holes, which it calls conjecture-tier. Neither item is queued for a write-up. The handoff's queue (`HANDOFF.md` §8) held two of the chat-only results: item 3, the "√N-floor freeze-out estimate", and item 7, an optional note on the phase-space diameter relation. The root `CLAUDE.md` ("Since the handoff") drops item 3, so the diameter relation is the only chat-only result on the current queue.
+Both items are conjectures in the wiki's sense: claims that no artifact derives. The handoff attaches no tier to either line, unlike the neighbouring diameter relation and momentum-space black holes, which it calls conjecture-tier. Neither item is queued for a write-up. The handoff's queue (`HANDOFF.md` §8) held two of the chat-only results: item 3, the "√N-floor freeze-out estimate", and item 7, an optional note on the phase-space diameter relation. The root `CLAUDE.md` ("Since the handoff") drops item 3 and records item 7 as done. The phase-space-diameter note (`papers/phase-space-diameter.md` v1.1, round-5 verdict B) wrote the relation up, found it to be an identity of standard physics that cannot test the program, and withdrew its clause "square exactly at the bounce" ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter); [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). No chat-only result is on the current queue, whose first item is the partially-massless comparison and the † literature battery.
 
 ## Sources
 
-- `HANDOFF.md` §4 — the only record of both results, verbatim; §8 — the queue, whose chat-only entries are item 3 (the √N-floor estimate, since dropped) and item 7 (the diameter note)
+- `HANDOFF.md` §4 — the only record of both results, verbatim; §8 — the queue, whose chat-only entries are item 3 (the √N-floor estimate, since dropped) and item 7 (the diameter note, since done)
+- `papers/phase-space-diameter.md` §1, §6, §9 — the diameter relation written up: an identity of standard physics, and "square exactly at the bounce" withdrawn; §8.2 — the conditional lower bound on M_X
+- `review/round5-adjudication.md` 'Verdict' — verdict B on the diameter note
 - `notes/debt1a-geometric-core.md` §A — the slaved momentum metric (corollary 3); §E — the dual stress and the gate as X exchange
 - `notes/debt1a-ii-X-classification.md` §3 — massive X with five polarizations; §4 — the gate from integrating out massive X
 - `notes/debt1a-iii-tuning-test.md` §4 — the massless combination coupling to Standard Model stress

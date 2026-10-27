@@ -2,12 +2,20 @@
 title: "Conjectures: chat-only and popsci-only claims"
 weight: 40
 status: record
-description: "The results that exist only in the old chat (HANDOFF §4), the claims found only in the popular articles, and the conjecture-tier statements inside the record, each linked to the page or section that holds it, with its relation to the record."
+description: "The results that exist only in the old chat (HANDOFF §4), the claims found only in the popular articles, and the conjecture-tier statements inside the record, each linked to the page or section that holds it, with its relation to the record; the first chat-only item, the phase-space diameter relation, is now written up, and its square at the bounce is dead."
 sources:
+  - "CLAUDE.md 'Since the handoff'"
+  - "papers/phase-space-diameter.md §2"
+  - "papers/phase-space-diameter.md §3"
+  - "papers/phase-space-diameter.md §5"
+  - "papers/phase-space-diameter.md §6"
+  - "papers/phase-space-diameter.md §9"
+  - "review/round5-adjudication.md 'Verdict'"
+  - "review/round5-adjudication.md 'Recommendations to Paul'"
+  - "verify/phase_space_diameter.py"
   - "HANDOFF.md §4"
   - "HANDOFF.md §6"
   - "HANDOFF.md §8"
-  - "CLAUDE.md 'Since the handoff'"
   - "review/round3-adjudication.md 'Rulings'"
   - "review/round3-adjudication.md 'Decisions'"
   - "papers/broken-born-checkpoint-v2.md §2"
@@ -24,20 +32,24 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 3 results (2026-10-19): S4, quantum stability'"
   - "popsci/universes-other-half.md"
   - "popsci/angle-of-the-mirror.md"
-  - "review/wiki-build-flags.md items 24, 29"
+  - "review/wiki-build-flags.md items 23, 24, 29"
 ---
 
-*This register collects the claims that are not part of the program's derived record. Some exist only in the original claude.ai conversation and are known from a list in [the handoff document](/wiki/history/documents/handoff); some appear only in the two [popular articles](/wiki/history/documents/popular-articles); and a few sit inside the record but are called conjectures by their own sources. No document in the repository derives them and no script checks them, so they are kept apart from the program's results. The popular article "The Universe's Other Half" presents the framework as if it were confirmed and never decides a claim's status. Each line says where the claim is recorded and how it stands against the record.*
+*This register collects the claims that are not part of the program's derived record. Some exist only in the original claude.ai conversation and are known from a list in [the handoff document](/wiki/history/documents/handoff); some appear only in the two [popular articles](/wiki/history/documents/popular-articles); and a few sit inside the record but are called conjectures by their own sources. No document in the repository derives them and no script checks them, so they are kept apart from the program's results. The exception is the first chat-only item, the phase-space diameter relation, which a note of 2026-10-26 derived and checked; it stays on the list with the statuses that note gives its parts. The popular article "The Universe's Other Half" presents the framework as if it were confirmed and never decides a claim's status. Each line says where the claim is recorded and how it stands against the record.*
 
-**Status:** Record, a register current to 2026-10-21 — no provenance tags: `HANDOFF.md` §4 calls two of its items conjecture-tier, #13 §5 calls the dual second law "conjecture-tier", the toy-model worklog calls its [thawing](/wiki/cosmology/dark-energy/thawing-and-freezing) remark "a claim about the program, not verified here", and the popular articles tag nothing — no derivation or script in the repository supports these claims; the chat-only list is `HANDOFF.md` §4, and the popsci-only claims are found only in `popsci/`.
+**Status:** Record, a register current to 2026-10-26 — no provenance tags on the claims: `HANDOFF.md` §4 calls two of its items conjecture-tier, #13 §5 calls the dual second law "conjecture-tier", the toy-model worklog calls its [thawing](/wiki/cosmology/dark-energy/thawing-and-freezing) remark "a claim about the program, not verified here", and the popular articles tag nothing; the parts of the diameter relation now carry the tags of the note that wrote it up — no derivation or script in the repository supports these claims, except the diameter relation, now derived in `papers/phase-space-diameter.md` and gated in `verify/phase_space_diameter.py`; the chat-only list is `HANDOFF.md` §4, and the popsci-only claims are found only in `popsci/`.
 
-A claim with a page of its own carries "(chat-only)" or "(popsci-only)" in its title. A smaller claim recorded on a page about another subject sits under a heading "Chat-only: …", "Popsci-only: …" or "Conjecture: …", and the register links that heading. Two of the claims have obituaries of their own and are also listed in [the graveyard](/wiki/status/graveyard): the √N topological floor and the magnetic identification.
+A claim with a page of its own carries "(chat-only)" or "(popsci-only)" in its title. A smaller claim recorded on a page about another subject sits under a heading "Chat-only: …", "Popsci-only: …" or "Conjecture: …", and the register links that heading. Three claims, or parts of claims, have obituaries of their own and are also listed in [the graveyard](/wiki/status/graveyard): the √N topological floor, the diameter relation's square at the bounce, and the magnetic identification.
 
 ## Chat-only results (`HANDOFF.md` §4)
 
-`HANDOFF.md` §4 is headed "Results that exist only in the chat (not in any artifact)", with "only" in capitals in the original. It lists six items, given here in its order. Items 3 and 4 share a page, [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results), which sets each part beside what the documents contain. Only the phase-space diameter relation is on the current work queue.
+`HANDOFF.md` §4 is headed "Results that exist only in the chat (not in any artifact)", with "only" in capitals in the original. It lists six items, given here in its order. Items 3 and 4 share a page, [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results), which sets each part beside what the documents contain. Item 1, the phase-space diameter relation, is no longer chat-only: the phase-space-diameter note (`papers/phase-space-diameter.md`, version 1.1 of 2026-10-26, graded B by both referees of [review round 5](/wiki/method/review/round-5)) derived and checked it, and each of its parts now has the status the note gives it; one part is dead. None of the six items is on the current work queue ([open problems and the queue](/wiki/status/open-problems#the-work-queue)).
 
-1. **The phase-space diameter relation.** [The phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the diameter of the universe in position space times its diameter in momentum space equals h · N^(1/3) per dimension, N being the universe's photon count or entropy: a "cosmic time–bandwidth theorem", whose rectangle is square at the bounce. "Conjecture-tier; candidate for a future note". Status: conjecture. A note on it is in item 1 of the current queue ([open problems and the queue](/wiki/status/open-problems#the-work-queue)); which bounce is meant is flag 24 in `review/wiki-build-flags.md`.
+1. **The phase-space diameter relation.** [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), with the bullet itself under [Chat-only: the original statement](/wiki/cosmology/scale-factor-duality/phase-space-diameter#chat-only-the-original-statement) — the handoff's bullet makes four claims: the diameter of the universe in position space times its diameter in momentum space equals h · N^(1/3) per dimension, a "cosmic time–bandwidth theorem"; N is "the universe's photon count/entropy (~10⁹⁰, i.e. ~10³⁰ h per dimension)"; the rectangle is "square (D_x = D_p in Planck units) exactly at the bounce"; and its "aspect ratio today ~10⁹²" is "a clock measuring distance from self-duality". The handoff called it "Conjecture-tier; candidate for a future note". The note finds that the bullet defines none of its terms and that its numbers fit one reading, the radiation of today's observable universe (§2). Status: written up; three of the four parts stand as the note corrects them, and one is dead.
+   - **The product: alive, as standard physics.** For blackbody radiation filling a sphere, D_x·D_p = κ h N_γ^{1/3} with κ = 1.708, an identity of blackbody statistics [D][V], constant for a fixed comoving region of the radiation [T] (note §3). It holds in standard cosmology with or without reciprocity, so it cannot test the program, and the program's [constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) fixes the area of one phase-space cell, not the number of cells [D].
+   - **The constant: corrected.** The chat's ~10⁹⁰ is the radiation entropy, S = 1.01×10⁹⁰ k_B, beside a photon count N_γ = 1.43×10⁸⁹ [V]. It is not the entropy of the universe, which black holes and the cosmic event horizon dominate [T][S] (note §3, §9).
+   - **The square: dead.** [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce). In the reading the chat's numbers fit, the rectangle is square only at about 10¹⁴ times the Planck temperature, before the radiation existed, and at the program's [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce) it is at its most elongated; no reading makes it square at a bounce, and the note withdraws the claim [D][V] (§1, §6). Flag 24 in `review/wiki-build-flags.md` asks which bounce was meant; it still awaits Paul's ruling, and the round-5 adjudication recommends accepting it. The note's inference about the claim's origin, tagged [D, inference], is the record's identification of a·ã = 1 with the circle |Z| = 1 (flag 23), which the measured aspect ratio excludes.
+   - **The clock: alive, as a reparametrization.** In Planck units the aspect ratio is 5.2×10⁹² today and grows as a²; its logarithm, 213.5 per axis, is the distance on the Siegel half-plane from the self-dual point Z = i [D][V] ([Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states)). In the note's words, "It reparametrizes ln a and adds no dynamics" (§5). Read as one perturbation mode's squeezing, an aspect ratio of 10⁹² is a squeezing of r = 105.9, inside the literature's 100–120 for today's largest scales, but that mode was round before it left the Hubble radius, not at a bounce ([squeezed cosmological perturbations](/wiki/cosmology/early-universe/squeezed-perturbations); note §6).
 2. **The √N topological floor.** [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — the argument that the Kibble mechanism leaves a net topological charge that annihilation cannot remove, which would bound the soliton candidate's relic abundance between a "Kibble ceiling" and a √N floor. Status: dead. Round-3 ruling 3 showed that Kibble's count is a minimum, not a ceiling, and Decision 3 dropped the planned calculation: "Its premise, Kibble as a ceiling, is inverted (ruling 3)", and "Under decision 2 it has no candidate left to serve."
 3. **Two gravitational charges.** [Two gravitational charges](/wiki/gravity/momentum-graviton/chat-only-results#two-gravitational-charges) — ordinary stress-energy is the source of the massless graviton, and dual stress, "how energy is structured across momentum", is the source of the [momentum graviton X](/wiki/gravity/momentum-graviton); the two are "independent numbers", the [equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle) is "intact", and whether the invariant length λ and the dual charge lock together is left as a "dual equivalence principle" question. Status: conjecture. The coupling of conjugate matter to X through its dual stress is documented (calc note #5 §E; calc note #8 §4); the independence of the two charges and the dual equivalence principle are not.
    - [Chat-only: dual stress as a second gravitational charge](/wiki/dark-matter/conjugate-matter/dual-stress#chat-only-dual-stress-as-a-second-gravitational-charge) — the same claim, recorded on the page of [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress).
@@ -93,8 +105,11 @@ These statements are in the repository's documents but are not derived there, an
 
 ## Sources
 
-- `HANDOFF.md` §4, §6, §8 — the chat-only list; the summary of rounds 1–2; the queued note.
-- `CLAUDE.md` "Since the handoff" — the phase-space-diameter note in the current queue.
+- `CLAUDE.md` "Since the handoff" — the phase-space-diameter note done and its results; the current queue.
+- `papers/phase-space-diameter.md` §2, §3, §5, §6, §9 — the relation's terms, unstated in the handoff; the identity, its values and what N counts; the clock as a distance from Z = i; the obituary of the square and the squeezed-mode reading; the status of each part.
+- `review/round5-adjudication.md` "Verdict", "Recommendations to Paul" — verdict B from both referees; the note's support for flags 23 and 24.
+- `verify/phase_space_diameter.py` — the relation's gated numbers.
+- `HANDOFF.md` §4, §6, §8 — the chat-only list; the summary of rounds 1–2; the note as an optional write-up.
 - `review/round3-adjudication.md` "Rulings" 3, "Decisions" 2–3 — the √N floor's premise inverted and the item dropped; the soliton candidate retired.
 - `papers/broken-born-checkpoint-v2.md` §2, §5, §7, §11.3, §12, §13 — the battery's scope; the slaved momentum metric; the Yukawa cut at 1/M_X; the unification conjecture; the two candidates; row 4.
 - `papers/conjugate-special-relativity.md` §3, §5, §6 — force dilation and its open clause; the conjecture-tier dual second law; "Yukawa-cut in momentum".
@@ -102,4 +117,4 @@ These statements are in the repository's documents but are not derived there, an
 - `notes/toy-lagrangian.md` "Chunk 2 results", "Chunk 3 results" — the two worklog conjectures.
 - `popsci/universes-other-half.md` — #12, cited by section heading.
 - `popsci/angle-of-the-mirror.md` — #10, cited by section heading.
-- `review/wiki-build-flags.md` items 24, 29 — which bounce the diameter relation means; the momentum reading of X's range.
+- `review/wiki-build-flags.md` items 23, 24, 29 — the identification of a·ã = 1 with |Z| = 1; which bounce the diameter relation meant; the momentum reading of X's range.

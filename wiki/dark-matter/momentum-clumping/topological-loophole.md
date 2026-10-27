@@ -48,7 +48,7 @@ The checkpoint describes the loophole in two ways:
 - #11 §12: "The Debt-3 loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate."
 - #11 §14 item 8, on the charge-lattice open problem, ends: "(The soliton-spectrum and p-localization items are closed by the §12 obituary.)"
 
-#11 does not reconcile them. Read together, they say that the logical loophole is untested and that there is no candidate and no work item for it. That reading follows the conflict register's ruling ([conflicts between sources](/wiki/history/documents/source-conflicts)); this page does not decide whether the loophole is still a live question. No current queue item addresses it: the root `CLAUDE.md`'s queue lists the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery), the phase-space-diameter note and an optional round-5 review.
+#11 does not reconcile them. Read together, they say that the logical loophole is untested and that there is no candidate and no work item for it. That reading follows the conflict register's ruling ([conflicts between sources](/wiki/history/documents/source-conflicts)); this page does not decide whether the loophole is still a live question. No current queue item addresses it: the root `CLAUDE.md`'s queue lists [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), [the † literature battery](/wiki/method/literature-battery) and an optional round-6 review of [the toy-model note](/wiki/symmetry-breaking/toy-models).
 
 ## What remains open
 

@@ -2,11 +2,18 @@
 title: "The graveyard: dead claims"
 weight: 10
 status: record
-description: "Every dead claim with what it claimed, what killed it, and links to its obituary and to the calculation, ruling or decision behind the death: the Debt-3 deaths, collapse-powered expansion, the monopole explanation, the soliton candidate and its parts, the naive toy potential and the magnetic identification; dead items told on other pages; the withdrawn predictions."
+description: "Every dead claim with what it claimed, what killed it, and links to its obituary and to the calculation, ruling or decision behind the death: the Debt-3 deaths, collapse-powered expansion, the square rectangle at the bounce, the self-dual length as a program scale, the monopole explanation, the soliton candidate and its parts, the naive toy potential and the magnetic identification; dead items told on other pages; the withdrawn predictions."
 sources:
   - "CLAUDE.md 'Since the handoff'"
   - "CLAUDE.md 'Method'"
+  - "papers/phase-space-diameter.md §6"
+  - "papers/phase-space-diameter.md §8"
+  - "papers/phase-space-diameter.md §9"
+  - "review/round5-adjudication.md 'Verdict'"
+  - "review/round5-adjudication.md 'Rulings' R1, R14"
+  - "verify/phase_space_diameter.py"
   - "HANDOFF.md §2"
+  - "HANDOFF.md §4"
   - "HANDOFF.md §6"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §11.1"
@@ -35,11 +42,12 @@ sources:
   - "verify/soliton_obituary.py"
   - "verify/toy_coset.py"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
+  - "review/wiki-build-flags.md item 24"
 ---
 
 *The graveyard is the register of the Broken-Born program's dead claims: ideas the program put forward that its calculations, a [blind review](/wiki/method/review) or an observation then killed. Each entry says what was claimed and what killed it, and links the claim's obituary page and the calculation, review ruling or decision that settled it; dead items told inside other pages, and the predictions withdrawn from the program's table, are listed with them. A claim recorded here is not revived.*
 
-**Status:** Record, a register current to 2026-10-20 — no tags of its own; each entry keeps the tags of its obituary page — every death was decided by the calculation, review ruling or recorded decision named in its entry, except the magnetic identification, a claim found only in a popular article (popsci-only), which no program document addresses and which the wiki records as dead because it conflicts with the record. The root `CLAUDE.md` rule applies: "Claims listed as dead in HANDOFF §2 stay dead." How the program treats its dead claims is described under [negative results and dead claims](/wiki/method/negative-results).
+**Status:** Record, a register current to 2026-10-26 — no tags of its own; each entry keeps the tags of its obituary page — every death was decided by the calculation, review ruling or recorded decision named in its entry, except the magnetic identification, a claim found only in a popular article (popsci-only), which no program document addresses and which the wiki records as dead because it conflicts with the record. The root `CLAUDE.md` rule applies: "Claims listed as dead in HANDOFF §2 stay dead." How the program treats its dead claims is described under [negative results and dead claims](/wiki/method/negative-results).
 
 ## Dead claims by section
 
@@ -73,6 +81,8 @@ Checkpoint #11 v2.0 offered a third dark-matter candidate, superheavy [topologic
 ### Cosmology
 
 - [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion). **Claimed:** the gravitational collapse of the [conjugate universe](/wiki/program/conjugate-universe) drives the accelerating expansion of ours; [founding supposition 9](/wiki/program/founding-suppositions#9-their-collapse-is-our-acceleration), "Their collapse is our acceleration". **Killed by:** the data, then a derivation. The chat-era translation rule w_eff = −2 − w̃ required w = −2, which is falsified; the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), w_eff = −w̃, maps dual dust to dust and so removes the mechanism. The handoff: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)" ([its dead list](/wiki/history/documents/handoff#dead)); #11 App. A item 9: "dead twice". The corrected dictionary is already in the lab notebook's version 0.1 (`notes/broken-born-theory.md` §0, §6).
+- [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce). **Claimed:** a part of the chat-only [phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter): the universe's position–momentum rectangle is "square (D_x = D_p in Planck units) exactly at the bounce" (`HANDOFF.md` §4), with no bounce named (flag 24 in `review/wiki-build-flags.md`). **Killed by:** the calculations of the phase-space-diameter note, §6 [D][V], gated in `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)), which test every event that the record or the literature could mean by "the bounce". In the reading the chat's own numbers fit, the radiation of today's observable universe, the rectangle's aspect ratio in [Planck units](/wiki/gravity/spin-2-fields/planck-units) is 5.2×10⁹² today and grows as a². It would be square only at a/a₀ = 4.4×10⁻⁴⁷, T = 4.4×10¹⁴ T_P, before the radiation existed; since [reheating](/wiki/cosmology/early-universe/inflation-and-dilution#reheating-t) created the radiation, it has been long by at least 10³⁵ (2.9×10³⁵ at the highest reheating temperature allowed, 5.7×10¹⁵ GeV). At the program's far-future [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce), which the conjugate description reads as a bounce, the rectangle is at its most elongated. Drawn around the Hubble sphere instead, it is square at T = 0.28 T_P, "dimensional analysis rather than a result"; a [squeezed perturbation mode](/wiki/cosmology/early-universe/squeezed-perturbations) matches the 10⁹² but was round before it left the Hubble radius; at a string-scale bounce the rectangle is still long by 9.5×10³²; and the record's |Z| = 1 geometry, which would make the claim exact, contradicts the measured aspect ratio. [Review round 5](/wiki/method/review/round-5) added readings (ruling R14 in `review/round5-adjudication.md`), and none of them changes the withdrawal. What survives is the area relation, as standard physics, and the aspect ratio as a clock of e-folds and a distance on the Siegel half-plane (note §6).
+- [Obituary: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary). **Claimed:** that λ = √(l_P L), 47–84 μm for L between the Hubble radius and the particle horizon, the one length for which [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box) [l_P, L] × [ħ/L, ħ/l_P] maps onto itself under reciprocity, is a scale of the program, in one of the two places where the phase-space-diameter note finds that a [Born length](/wiki/phase-space/reciprocity/born-length) could enter (§8): the Born length of #13's dual special relativity, or the range of the [momentum graviton X](/wiki/gravity/momentum-graviton). **Killed by:** the note's §8.1 and §8.2 [D][V][S], gated in `verify/phase_space_diameter.py`. As #13's Born length it makes the [maximum force](/wiki/conjugate-relativity/maximum-force) c̃ = 1.4×10⁻¹⁷ N, which the Coulomb force in the hydrogen ground state, 8.24×10⁻⁸ N, exceeds by 5.8×10⁹. As X's range: in the program's aligned bimetric vacuum, background ratio u = 1, X couples to ordinary matter as a [Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces) of strength α = 4/3, and torsion-balance tests of the inverse-square law exclude it at 47–84 μm; it would survive only for u < 0.67 (47.1 μm) or u < 0.30 (84.0 μm). Both referees of [review round 5](/wiki/method/review/round-5) found the same weakest link, the bimetric background ratio that version 1.0 had dropped from the coupling (ruling R1 in `review/round5-adjudication.md`, upheld in substance), and version 1.1 states u = 1 and gives the bound as a function of u. What survives is [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound), λ_X < 37.7 μm in the aligned vacuum, and the box's identities, which restate published results.
 
 ### Electric–magnetic duality
 
@@ -116,7 +126,7 @@ The withdrawn manuscript's own observational statements, such as the gravitation
 
 | Route | Deaths |
 | --- | --- |
-| The program's calculations | the founding image, Scenario A and old rows 3 and 4 (Debt 3, #11 §9); collapse-powered expansion (the corrected dictionary, after w = −2 was falsified); the monopole explanation (the audit of #11 §11.1). The handoff heads its list of the dead "Dead (killed by own calculations — keep dead)" ([§2](/wiki/history/documents/handoff#dead)). |
+| The program's calculations | the founding image, Scenario A and old rows 3 and 4 (Debt 3, #11 §9); collapse-powered expansion (the corrected dictionary, after w = −2 was falsified); the monopole explanation (the audit of #11 §11.1); the square rectangle at the bounce and the self-dual length as a program scale (the phase-space-diameter note, §6 and §8, reviewed in [round 5](/wiki/method/review/round-5)). The handoff heads its list of the dead "Dead (killed by own calculations — keep dead)" ([§2](/wiki/history/documents/handoff#dead)). |
 | Blind review | the first form of α_d ≈ 34 ([round 1](/wiki/method/review/rounds-one-and-two)); the soliton candidate and its parts ([round 3](/wiki/method/review/round-3/rulings) and [its decisions](/wiki/method/review/round-3/decisions)); the naive toy potential ([round 4](/wiki/method/review/round-4)) |
 | The wiki's reading of the record | the magnetic identification, a popsci-only claim that no program document addresses |
 
@@ -125,14 +135,17 @@ The fates of all eleven founding suppositions are on [founding suppositions and 
 ## What is not listed here
 
 - **Superseded statements.** Earlier forms of surviving claims, replaced by corrected versions, such as the exponential cliff of the scattering law or the original P2, are in [superseded statements](/wiki/status/superseded). So is the second form of α_d, which was set aside rather than refuted.
-- **Negative results that stand.** Exclusions the program derived and still holds are standing claims, listed in [claims that stand](/wiki/status/alive): a massless X is excluded ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)), potentials built from metrics fail ([the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures)), the minimal hidden sector is excluded ([W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure)), the soliton benchmark is overproduced ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)), and the classical breaking in the complex toy model does not survive quantization ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)).
+- **Negative results that stand.** Exclusions the program derived and still holds are standing claims, listed in [claims that stand](/wiki/status/alive): a massless X is excluded ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)), potentials built from metrics fail ([the metric tier fails twice](/wiki/gravity/tuning-test/metric-tier-failures)), the minimal hidden sector is excluded ([W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure)), the soliton benchmark is overproduced ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)), the classical breaking in the complex toy model does not survive quantization ([quantum restoration](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)), and in the aligned vacuum a range of X above 37.7 μm is excluded ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 - **The Debt-3 loophole.** Topological localization of individual objects in momentum space "remains untested, but has no candidate" (#11 §12): [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole).
-- **Chat-only and popsci-only claims that are not dead** are in [conjectures](/wiki/status/conjectures). The two that are dead, the √N floor and the magnetic identification, are listed here.
+- **Chat-only and popsci-only claims that are not dead** are in [conjectures](/wiki/status/conjectures). The dead ones are listed here: the √N floor, the square rectangle at the bounce and the magnetic identification. The square is one part of the phase-space diameter relation, whose other parts stand in corrected form ([claims that stand](/wiki/status/alive)).
 
 ## Sources
 
 - `CLAUDE.md` "Since the handoff" — the soliton candidate dead as a program-native proposal, strict sector separation in force, the √N floor's queue item dropped; "Method" — dead claims stay dead.
-- `HANDOFF.md` §2 — the dead list at the move from claude.ai and the √N floor's premise; §6 — round 1's kill and round 2's verdict on α_d.
+- `papers/phase-space-diameter.md` §6, §8, §9 — the obituary of the square at the bounce; the self-dual length excluded as #13's Born length and as X's range, and the bound that survives; the summary of statuses.
+- `review/round5-adjudication.md` "Verdict", "Rulings" R1, R14 — verdict B from both referees; the dropped background ratio; the added readings, none of which changes the withdrawal.
+- `verify/phase_space_diameter.py` — the gated numbers of both obituaries.
+- `HANDOFF.md` §2 — the dead list at the move from claude.ai and the √N floor's premise; §4 — the chat-only square at the bounce; §6 — round 1's kill and round 2's verdict on α_d.
 - `papers/broken-born-checkpoint-v2.md` §9 — the Debt-3 obituary; §11.1 — the monopole audit and the retired candidacy; §12 — the soliton obituary and what survives; §13 — the withdrawn predictions; App. A — the fates of the founding suppositions.
 - `papers/reciprocity-toy-models.md` §4 — the naive potential's runaway and the saddle.
 - `review/round4-adjudication.md` "Verdict", "Rulings" F1–F2, "Revisions for v2 of the note" — the naive potential and its repair.
@@ -143,3 +156,4 @@ The fates of all eleven founding suppositions are on [founding suppositions and 
 - `notes/broken-born-program-v1.md` §9 — v1's list of withdrawn rows.
 - `verify/soliton_obituary.py`, `verify/toy_coset.py` — the gated numbers of the soliton obituary; the naive potential's runaway and saddle.
 - `popsci/universes-other-half.md` "Dark matter as the other polarization" — the magnetic identification.
+- `review/wiki-build-flags.md` item 24 — which bounce the chat-only square meant.

@@ -82,7 +82,7 @@ No document reports work toward a derivation.
 
 ## The queue
 
-The handoff's ranked queue of next actions did not include the item (`HANDOFF.md` §8). The current queue, in `CLAUDE.md` ('Since the handoff'), is the handoff's §8 items 5 to 7, namely the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery) and [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), followed by an optional round-5 review of [the toy-model note](/wiki/symmetry-breaking/toy-models) "but only before any external use". This item is not on it ([open problems and the queue](/wiki/status/open-problems)).
+The handoff's ranked queue of next actions did not include the item (`HANDOFF.md` §8). The current queue, in `CLAUDE.md` ('Since the handoff'), is the handoff's §8 items 5 and 6, namely the partially-massless comparison and [the † literature battery](/wiki/method/literature-battery), followed by an optional round-6 review of [the toy-model note](/wiki/symmetry-breaking/toy-models) "but only before any external use"; item 7, [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), is done. This item is not on it ([open problems and the queue](/wiki/status/open-problems)).
 
 ## Sources
 

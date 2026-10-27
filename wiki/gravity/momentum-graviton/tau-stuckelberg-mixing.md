@@ -79,7 +79,7 @@ The leading-order argument separates τ from the absorbed modes by where each co
 
 ## Priority
 
-#11 §15 says "the word 'theory' still waits on items 1–3" of §14: [deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction), [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing). Item 6 is not among them. The current queue in the root `CLAUDE.md` ("Since the handoff") is `HANDOFF.md` §8 items 5–7 (the partially-massless comparison, [the † literature battery](/wiki/method/literature-battery) and [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter)), then an optional round-5 review of the [toy-model note](/wiki/symmetry-breaking/toy-models); the mixing matrix is not on it.
+#11 §15 says "the word 'theory' still waits on items 1–3" of §14: [deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction), [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing). Item 6 is not among them. The current queue in the root `CLAUDE.md` ("Since the handoff") is `HANDOFF.md` §8 items 5–6 (the partially-massless comparison and [the † literature battery](/wiki/method/literature-battery)), then an optional round-6 review of the [toy-model note](/wiki/symmetry-breaking/toy-models); item 7, [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter), is done. The mixing matrix is not on the queue.
 
 ## Sources
 

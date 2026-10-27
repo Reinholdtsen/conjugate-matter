@@ -18,6 +18,8 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "verify/battery.py T2"
   - "popsci/universes-other-half.md 'An asymmetry that cannot be avoided'"
+  - "papers/phase-space-diameter.md §3"
+  - "papers/phase-space-diameter.md §5"
 ---
 
 *The canonical commutator [x, p] = iℏ is the rule of quantum mechanics that position and momentum do not commute: measuring one and then the other is not the same as the reverse. Its best-known consequence is the uncertainty principle: no state has sharp values of both, and the product of the two spreads cannot fall below a bound set by Planck's constant ℏ. The rule is unchanged when position and momentum are exchanged by the quarter-turn [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), so on its own it treats the two variables alike. The program leans on it twice. It argues that because nothing can be sharp in both variables, any world with local physics has to favor one of them; and it reads the fixed value of ℏ as the one rigid structure of phase space.*
@@ -55,9 +57,9 @@ For any state, the spreads (standard deviations) Δx and Δp of position and mom
 Δx · Δp ≥ ℏ/2
 ```
 
-[T]. The bound follows from the commutator alone. For any two observables A and B, ΔA · ΔB ≥ |⟨[A, B]⟩|/2 (Robertson's inequality) [T], and for x and p the commutator is the constant iℏ. A Gaussian wavepacket reaches the bound when its width parameter is real, that is, a Gaussian envelope times a plane wave [T].
+[T]. The bound follows from the commutator alone. For any two observables A and B, ΔA · ΔB ≥ |⟨[A, B]⟩|/2 (Robertson's inequality) [T], and for x and p the commutator is the constant iℏ. A Gaussian wavepacket reaches the bound when its width parameter is real, that is, a Gaussian envelope times a plane wave [T]. Labelled by a point Z = X + iY of the upper half-plane, the centred packets reach it on the slice X = 0, and a packet with X ≠ 0 carries a chirp that correlates position with momentum; the labels, the widths and the action of ρ on them are on [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states).
 
-The same fact has a Fourier reading. The momentum wavefunction ψ̃(p) is the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of ψ(x), and a function and its Fourier transform cannot both be narrow [T]: a state concentrated near one position contains a broad spread of momenta, and the reverse. This is the trade-off between a signal's duration and its bandwidth, applied to the wavefunction. "Sharp in x" and "sharp in p" are the two ends of one trade-off, and no state sits at both.
+The same fact has a Fourier reading. The momentum wavefunction ψ̃(p) is the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) of ψ(x), and a function and its Fourier transform cannot both be narrow [T]: a state concentrated near one position contains a broad spread of momenta, and the reverse. This is the trade-off between a signal's duration and its bandwidth, applied to the wavefunction ([the time–bandwidth product](/wiki/phase-space/reciprocity/fourier-transform#the-timebandwidth-product)). "Sharp in x" and "sharp in p" are the two ends of one trade-off, and no state sits at both.
 
 ## What the commutator does not distinguish
 
@@ -90,7 +92,7 @@ The lab notebook glossed it this way under the original P2: "the symplectic stru
 
 Two results of the program carry the same reading:
 
-- **The cosmological constraint.** "ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run)" [D] (#11 §10; [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)).
+- **The cosmological constraint.** "ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run)" [D] (#11 §10; [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)). The phase-space-diameter note reads this as the area statement for one cell, which general relativity already implies because a free particle's comoving momentum is conserved [T]; it fixes the area of one cell, not the number of occupied cells [D] (`papers/phase-space-diameter.md` §3; [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)).
 - **Unimodularity.** On the slice where the metric is compatible with both structures, det H = 1 holds identically. #11 §5 reads this as "ℏ-rigidity is *geometric*", and the calc note as "phase-space volume is not a dynamical field. ℏ-rigidity is manifest in the geometry, not imposed on it" (#5 §A). #11 adds, calling it machine-verified, that unimodularity "persists across the whole modular family of §6" (the metrics of [the modular field Z](/wiki/phase-space/modular-field/modular-field-z)). Battery test T2 checks "det H_Z = 1" at one randomly sampled member of that family (d = 4), so the statement for the whole family is derived [D], not machine-verified ([the verification battery](/wiki/method/verification/battery)). See [the corollaries of the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-corollaries).
 
 ## Standard references
@@ -111,7 +113,7 @@ These are added by the wiki from model memory (†); the program's documents cit
 - [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — nothing is sharp in both variables, so the vacuum selects one.
 - [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — a fixed comoving phase-space cell, because ℏ does not run.
 - [Corollaries: unimodularity, no B-field, slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) — det H = 1 as ℏ-rigidity built into the geometry.
-- [The phase-space diameter relation (chat-only)](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the phase-space area of order h that one quantum state occupies, applied at cosmic scale.
+- [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the cell of area h per position–momentum pair, counted for the universe's radiation: an identity of blackbody statistics.
 
 ## Sources
 
@@ -119,6 +121,7 @@ These are added by the wiki from model memory (†); the program's documents cit
 - `papers/broken-born-checkpoint-v2.md` §4 — P2′ ("symplectic rigidity ≡ constancy of ℏ"), P5, and the v2.2 refinement.
 - `papers/broken-born-checkpoint-v2.md` §5 — det H = 1 as geometric ℏ-rigidity, across the modular family.
 - `papers/broken-born-checkpoint-v2.md` §10 — a·ã = 1 from ω-rigidity.
+- `papers/phase-space-diameter.md` §3 — a·ã = 1 as the one-cell area statement [D], already true in general relativity [T]; §5 — Gaussian packets on the half-plane.
 - `papers/reciprocity-toy-models.md` §1 — ρ is symplectic and squares to −1.
 - `notes/debt1a-geometric-core.md` §A, §B — unimodularity read as ℏ-rigidity; "Freeze ω only".
 - `notes/broken-born-program-v1.md` §1 — "the canonical commutator is blind to it"; "nothing can be local in both variables at once" (v1, superseded as reference by #11).

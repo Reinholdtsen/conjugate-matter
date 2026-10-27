@@ -2,7 +2,7 @@
 title: "Yukawa forces and their range"
 weight: 18
 status: established
-description: "The force carried by a field of mass M: the potential e^(−Mr)/(4πr) and its range ℏ/(Mc), the same law in momentum as 1/(q² + M²), the fifth-force form V = −(Gm₁m₂/r)(1 + α e^(−r/λ)), scattering through a Yukawa mediator in the contact and light-mediator limits, and the program's uses, from X's range 1/M_X to the gated amplitude; distinct from the Yukawa coupling."
+description: "The force carried by a field of mass M: the potential e^(−Mr)/(4πr) and its range ℏ/(Mc), the same law in momentum as 1/(q² + M²), the fifth-force form V = −(Gm₁m₂/r)(1 + α e^(−r/λ)) with its torsion-balance limits and the bimetric strength α = (4/3)(M_f u/M_g)², scattering through a Yukawa mediator in the contact and light-mediator limits, and the program's uses, from X's range 1/M_X and its laboratory bound to the gated amplitude; distinct from the Yukawa coupling."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §7.5"
@@ -13,6 +13,15 @@ sources:
   - "papers/reciprocity-toy-models.md Abstract"
   - "papers/reciprocity-toy-models.md §5"
   - "review/round4/referee/audit-notes.md Step 2(d)"
+  - "papers/phase-space-diameter.md §8.2"
+  - "papers/phase-space-diameter.md §7"
+  - "papers/phase-space-diameter.md 'References'"
+  - "verify/phase_space_diameter.py 'Consequences (note §8)'"
+  - "review/round5-adjudication.md 'Rulings' R1, R12"
+  - "review/round5/adjudicator/arb.out B9"
+  - "review/round5/referee-A/scripts/lee_interp.py"
+  - "review/round5/referee-A/audit-notes.md §4.5"
+  - "review/round5/referee-B/audit-notes.md §4.5"
   - "papers/conjugate-special-relativity.md §1"
   - "papers/conjugate-special-relativity.md §6"
   - "HANDOFF.md §4"
@@ -33,9 +42,9 @@ sources:
   - "review/wiki-build-checks/audit/flag17_recompute.out part 3"
 ---
 
-*A Yukawa force is the force carried by a field whose quanta have a mass M. Between two sources its potential falls as e^(−Mr)/r: at short distances it is the inverse-square force of a massless field, but beyond a distance of about ℏ/(Mc), the mediator's reduced Compton wavelength, it dies away exponentially, so the mass of the mediator sets the range of the force. In momentum the same law is the factor 1/(q² + M²), and that is the form in which such a force enters scattering. The program uses it in several places. Its [momentum graviton X](/wiki/gravity/momentum-graviton) is massive, so the force X exerts on ordinary matter is "Yukawa-cut at 1/M_X", which the program gives as the reason experiments see no sign of it ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). The standard [self-interacting dark-matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) models that the program's scattering predictions are measured against scatter through a light Yukawa mediator, and the program's own amplitude for conjugate matter keeps the Yukawa factor in the momentum transfer and multiplies it by a [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). [Conjugate special relativity](/wiki/conjugate-relativity) reads X's short range as a range in momentum, which the checkpoint it cites does not state. The physics is textbook. The same name also covers a different object, the Yukawa coupling that gives particles their masses, which the program's toy models use as an analogy.*
+*A Yukawa force is the force carried by a field whose quanta have a mass M. Between two sources its potential falls as e^(−Mr)/r: at short distances it is the inverse-square force of a massless field, but beyond a distance of about ℏ/(Mc), the mediator's reduced Compton wavelength, it dies away exponentially, so the mass of the mediator sets the range of the force. In momentum the same law is the factor 1/(q² + M²), and that is the form in which such a force enters scattering. The program uses it in several places. Its [momentum graviton X](/wiki/gravity/momentum-graviton) is massive, so the force X exerts on ordinary matter is "Yukawa-cut at 1/M_X", which the program gives as the reason experiments see no sign of it ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). Torsion-balance limits on such forces, applied with the strength that the program's aligned vacuum gives X, keep X's range below 37.7 micrometres ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). The standard [self-interacting dark-matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) models that the program's scattering predictions are measured against scatter through a light Yukawa mediator, and the program's own amplitude for conjugate matter keeps the Yukawa factor in the momentum transfer and multiplies it by a [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). [Conjugate special relativity](/wiki/conjugate-relativity) reads X's short range as a range in momentum, which the checkpoint it cites does not state. The physics is textbook. The same name also covers a different object, the Yukawa coupling that gives particles their masses, which the program's toy models use as an analogy.*
 
-**Status:** Established — [T] — textbook physics written here from general knowledge; the program's documents cite no source for it, and the literature named below is from model memory (†). The program's uses carry their own tags: "Yukawa-cut at 1/M_X" is [D + T] in [calc note #8](/wiki/history/documents/debt-1-notes) §3 and [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5; the gated amplitude is [D — mechanism; shape [O]] (#11 §8); [#13](/wiki/conjugate-relativity)'s range in momentum is tagged [D — checkpoint §7] there and is flag 29 in `review/wiki-build-flags.md`. No `verify/` script checks the physics on this page. Scripts written for the flags' audit, which are not part of the gate, check the relation between range and mass numerically and evaluate the Born cross-section in closed form (`review/wiki-build-checks/audit/flag5_mass_scaling.out` part D; `review/wiki-build-checks/audit/flag17_recompute.out` part 3).
+**Status:** Established — [T] — textbook physics written here from general knowledge, with the literature it adds from model memory (†); the torsion-balance limits and the bimetric strength are cited from live-searched sources [S] by the [phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter) (§8.2). The program's uses carry their own tags: "Yukawa-cut at 1/M_X" is [D + T] in [calc note #8](/wiki/history/documents/debt-1-notes) §3 and [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5; the gated amplitude is [D — mechanism; shape [O]] (#11 §8); [#13](/wiki/conjugate-relativity)'s range in momentum is tagged [D — checkpoint §7] there and is flag 29 in `review/wiki-build-flags.md`. `verify/phase_space_diameter.py` checks the arithmetic of the 4/3 and reproduces the published torsion-balance limits from the experiment's exclusion table [V] ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)); no `verify/` script checks the rest of the physics on this page. Scripts written for the flags' audit, which are not part of the gate, check the relation between range and mass numerically and evaluate the Born cross-section in closed form (`review/wiki-build-checks/audit/flag5_mass_scaling.out` part D; `review/wiki-build-checks/audit/flag17_recompute.out` part 3).
 
 ## The potential of a massive mediator [T]
 
@@ -110,11 +119,33 @@ Two kinds of experiment look for such a term [T]:
 - **Tests of the inverse-square law** measure the force between bodies as a function of their separation: torsion balances in the laboratory at short separations, the orbits of the Moon and the planets at long ones.
 - **Tests of the universality of free fall** compare the accelerations of bodies of different composition. A field whose charge is not proportional to mass, for example one coupled to baryon number, makes the acceleration depend on what a body is made of. A field coupled alike to all energy, as a spin-2 field coupled to the stress-energy is, does not ([the universality of free fall](/wiki/gravity/spin-2-fields/equivalence-principle#the-weak-form-universality-of-free-fall-t)).
 
-Each experiment is most sensitive to ranges comparable with the separations it probes. Where λ is much shorter than the separation of its test bodies, the factor e^(−r/λ) has removed the extra force before it reaches them, and the experiment's limit on α weakens exponentially as λ shrinks. The limits are drawn as an excluded region in the plane of λ and α, and toward short range that region ends: an extra force of gravitational strength is excluded only at ranges longer than about the shortest separations tested (Adelberger, Heckel and Nelson 2003 †; Fischbach and Talmadge 1999 †). The program's documents quote no limit of this kind, and the wiki adds none.
+Each experiment is most sensitive to ranges comparable with the separations it probes. Where λ is much shorter than the separation of its test bodies, the factor e^(−r/λ) has removed the extra force before it reaches them, and the experiment's limit on α weakens exponentially as λ shrinks. The limits are drawn as an excluded region in the plane of λ and α, and toward short range that region ends: an extra force of gravitational strength is excluded only at ranges longer than about the shortest separations tested (Adelberger, Heckel and Nelson 2003 †; Fischbach and Talmadge 1999 †). The phase-space-diameter note quotes the limits at the shortest ranges, set out in the next subsection.
+
+### Laboratory bounds at short range
+
+At ranges of tens of micrometres the limits come from torsion balances, which measure the tiny torque that nearby masses exert on a pendulum hung from a thin fibre [T]. The phase-space-diameter note (§8.2) cites the experiment of Lee, Adelberger, Cook, Fleischer and Heckel, "New test of the gravitational 1/r² law at separations down to 52 μm" (2020) [S]. It limits "any gravitational-strength Yukawa interactions to ranges <38.6 μm" at 95% confidence: a term with |α| = 1 must have a range below 38.6 μm. For α = 8/3 the published limit is 30 μm. The authors draw the consequence for a "heavy graviton" of bimetric gravity, citing Aoki and Mukohyama 2016 [S]: its mass "must be greater than 5.1 meV", which is ħc/(38.6 μm) (`verify/phase_space_diameter.py`).
+
+The limit depends on the sign of α. The experiment's exclusion table, in Lee's thesis (Table 11.4) [S], gives at each range the largest strength the data allow at 95% confidence, in a one-sided column for an attractive term, +α₉₅, and a two-sided column for a term of either sign, |α₉₅|. Referee A of [review round 5](/wiki/method/review/round-5) also transcribed the repulsive column, −α₉₅ (`review/round5/referee-A/scripts/lee_interp.py`). For a force known to be attractive, as the exchange of a spin-2 field is, the note uses the one-sided column, which is the more conservative of the two here (note §8.2; round-5 ruling R12). The two columns at three strengths, from the round-5 arbitration (`review/round5/adjudicator/arb.out`, B9):
+
+| α | one-sided +α₉₅ | two-sided \|α₉₅\| |
+| --- | --- | --- |
+| 1 | 40.66 μm | 38.63 μm |
+| 4/3 | 37.68 μm | 35.79 μm |
+| 8/3 | 31.69 μm | 30.23 μm |
+
+The two-sided values 38.63 and 30.23 μm reproduce the published 38.6 and 30 μm, which checks the transcription of the table and the interpolation between its rows. The row at α = 4/3 is the one the program uses ([the momentum graviton X](#the-momentum-graviton-x)).
+
+An earlier experiment by several of the same authors was aimed at the dark-energy length. Sundrum 2004 [S] had proposed a gravitational-strength modification of gravity at that length to address [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), and Kapner et al. 2007 [S] tested the inverse-square law "below the dark-energy length scale" (note §8.2). Both round-5 referees quote that length from Kapner et al. as λ_d ≈ 85 μm (`review/round5/referee-A/audit-notes.md` and `review/round5/referee-B/audit-notes.md`, §4.5); the note expresses its dark-energy scale, ρ_Λ^{1/4} = 2.24 meV with ρ_Λ the dark-energy density, as the length 88.1 μm (§7). Torsion-pendulum experiments at the Huazhong University of Science and Technology (HUST) test the same range (Tan et al. 2016 †, 2020 †). Referee B of round 5 reports a 2026 review (arXiv:2605.18212) that names the 2020 results of the University of Washington, where Lee et al. worked, and of HUST as still the tightest limits at these ranges (`review/round5/referee-B/audit-notes.md` §4.5).
 
 ### A massive spin-2 mediator
 
-The exchange of a massive spin-2 field between two slowly moving bodies adds an attractive Yukawa term [T]. Its coefficient is not the one a massless graviton with the same coupling to matter would give. The massive field has five polarizations ([the Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli)), and its helicity-zero polarization also couples to the trace of the source's stress-energy, which changes the coefficient by a fixed factor that does not approach one as M → 0: the van Dam–Veltman–Zakharov discontinuity (van Dam and Veltman 1970 †; Zakharov 1970 †) [T]. The factor is of order one, so the force is of gravitational strength in either case. The program's documents do not discuss it.
+The exchange of a massive spin-2 field between two slowly moving bodies adds an attractive Yukawa term [T]. Its coefficient is not the one a massless graviton with the same coupling to matter would give. The massive field has five polarizations ([the Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli)), and its helicity-zero polarization also couples to the trace of the source's stress-energy, which changes the coefficient by a fixed factor that does not approach one as M → 0: the van Dam–Veltman–Zakharov discontinuity (van Dam and Veltman 1970 †; Zakharov 1970 †) [T]. The factor is of order one, so the force is of gravitational strength in either case. For static sources it is 4/3: the massless graviton's exchange between two bodies carries the tensor factor 1 − 1/2, and a massive spin-2 field's carries 1 − 1/3 [T]; `verify/phase_space_diameter.py` checks the ratio. In [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), with matter coupled to the metric g, the phase-space-diameter note writes the massive field's strength relative to gravity as
+
+```text
+α = (4/3) (M_f u / M_g)²
+```
+
+with M_g and M_f the Planck masses of the two metrics and u the ratio of their backgrounds, f̄ = u²ḡ (§8.2, citing Lüben, Mörtsell and Schmidt-May 2020, eq. 9 [S], and Enander and Mörtsell 2013, eq. 4.1 [S]). The cited papers write the ratio c, as does [the Hassan–Rosen page](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric#the-spectrum-t); the note writes u to keep it apart from the speed of light. "Only the product M_f u is fixed by the theory, so equal Planck masses give α = 4/3 only if u = 1" (§8.2).
 
 ## Scattering through a Yukawa mediator [T]
 
@@ -164,7 +195,7 @@ X is a massive spin-2 field whose mass M_X is "the polarization-breaking scale" 
 
 > "safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X."
 
-#11 §7.5 [D] keeps it as "SM couplings gravitational-strength and Yukawa-cut at 1/M_X". In the fifth-force form above, X adds a term with α of order one and range λ = ℏ/(M_X c), and the argument is that experiments exclude such a term only at ranges far longer than that. The argument and its earlier forms are on [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety). No document gives M_X a value or quotes an experimental limit, so the range cannot be stated as a distance ([no value for M_X](/wiki/gravity/momentum-graviton/spectrum-and-parity#no-value-for-m_x)).
+#11 §7.5 [D] keeps it as "SM couplings gravitational-strength and Yukawa-cut at 1/M_X". In the fifth-force form above, X adds a term with range λ = ℏ/(M_X c) and the bimetric strength α = (4/3)(M_f u/M_g)²; reciprocity makes the two Planck masses equal, and in the program's aligned vacuum the background ratio is u = 1, so α = 4/3 (phase-space-diameter note §8.2). The argument of #8 is that experiments exclude such a term only at ranges far longer than ℏ/(M_X c); it and its earlier forms are on [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety). No document before the phase-space-diameter note quoted an experimental limit or bounded M_X, and none gives M_X a value ([no value for M_X](/wiki/gravity/momentum-graviton/spectrum-and-parity#no-value-for-m_x)). The note (v1.1 §8.2) reads the one-sided column of the torsion-balance table above at α = 4/3 and obtains λ_X < 37.7 μm and M_X c² > 5.2 meV [V], conditional on u = 1; at u = 0.5 the limit is 57.0 μm [V] ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 
 The range also settles what M_X denotes. A Yukawa range 1/M_X makes M_X the mass of X's quanta, not its square. The flags' audit uses this for flag 5, which says that #11 §7.5's "M_X ∝ 2(β₁+β₂)" should be M_X² ∝ 2(β₁+β₂), the form of its source, #8 §3 ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)). The audit's script fits the decay of the static profile, finds the decay constant equal to M_X, and prints "d ln M_X / d ln(b1+b2) = 0.5" (`review/wiki-build-checks/audit/c_yukawa_scaling.out`). The flag is confirmed by the audit and is a question of notation only (item 5 in `review/wiki-build-flags.md`).
 
@@ -225,12 +256,21 @@ In the wiki, "Yukawa force", "Yukawa potential", "Yukawa-cut", "Yukawa mediator"
 
 ## References
 
-The program's documents cite no source for Yukawa forces. Added by the wiki from model memory (†):
+Cited by the phase-space-diameter note, retrieved by live search [S] (`papers/phase-space-diameter.md` 'References'):
+
+- J. G. Lee, E. G. Adelberger, T. S. Cook, S. M. Fleischer, B. R. Heckel, "New test of the gravitational 1/r² law at separations down to 52 μm," Phys. Rev. Lett. 124, 101101 (2020), arXiv:2002.11761; J. G. Lee, "A Fourier–Bessel test of the gravitational inverse-square law," PhD thesis, University of Washington (2020), Table 11.4 [S]: the limits and the exclusion table.
+- D. J. Kapner, T. S. Cook, E. G. Adelberger, J. H. Gundlach, B. R. Heckel, C. D. Hoyle, H. E. Swanson, "Tests of the gravitational inverse-square law below the dark-energy length scale," Phys. Rev. Lett. 98, 021101 (2007), arXiv:hep-ph/0611184 [S].
+- R. Sundrum, "Fat gravitons, the cosmological constant and submillimeter tests," Phys. Rev. D 69, 044014 (2004), arXiv:hep-th/0306106 [S].
+- K. Aoki, S. Mukohyama, "Massive gravitons as dark matter and gravitational waves," Phys. Rev. D 94, 024001 (2016), arXiv:1604.06704 [S]: the heavy graviton of bigravity that Lee et al. bound.
+- M. Lüben, E. Mörtsell, A. Schmidt-May, "Bimetric cosmology is compatible with local tests of gravity," Class. Quantum Grav. 37, 047001 (2020), arXiv:1812.08686 [S]; J. Enander, E. Mörtsell, "Strong lensing constraints on bimetric massive gravity," JHEP 10 (2013) 031, arXiv:1306.1086 [S]: the bimetric strength α = (4/3)(M_f c/M_g)², in their notation.
+
+The program's documents cite no other source for Yukawa forces. Added by the wiki from model memory (†):
 
 - H. Yukawa, "On the interaction of elementary particles. I," Proc. Phys.-Math. Soc. Japan (1935)†: the nuclear force carried by a massive quantum, and its potential.
 - P. Debye, E. Hückel (1923)†: the screened potential in electrolytes.
 - E. G. Adelberger, B. R. Heckel, A. E. Nelson, "Tests of the gravitational inverse-square law," Annu. Rev. Nucl. Part. Sci. (2003)†; E. Fischbach, C. L. Talmadge, *The Search for Non-Newtonian Gravity* (1999)†: the Yukawa parametrization of fifth forces and the experiments that test it.
 - H. van Dam, M. Veltman, Nucl. Phys. B (1970)†; V. I. Zakharov, JETP Lett. (1970)†: the discontinuity of massive spin-2 exchange.
+- W.-H. Tan et al., Phys. Rev. Lett. (2016)† and (2020)†: torsion-pendulum tests of the inverse-square law at submillimetre ranges, at the Huazhong University of Science and Technology. The record gives no values from them.
 - A. Zee, *Quantum Field Theory in a Nutshell* (2003)†: attraction by even-spin exchange and repulsion by spin-1 exchange.
 - S. Tulin, H.-B. Yu, K. M. Zurek, "Beyond collisionless dark matter: particle physics dynamics for dark matter halo structure," Phys. Rev. D (2013)†: Yukawa scattering in the Born, resonant and classical regimes.
 - A. Loeb, N. Weiner, "Cores in dwarf galaxies from dark matter with a Yukawa potential," Phys. Rev. Lett. (2011)†: velocity-dependent self-interaction through a light mediator.
@@ -238,6 +278,7 @@ The program's documents cite no source for Yukawa forces. Added by the wiki from
 ## Used by
 
 - [Safety by range: X and ordinary matter](/wiki/gravity/momentum-graviton/fifth-force-safety) — X's force on ordinary matter is cut off beyond 1/M_X.
+- [The laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound) — the bimetric strength α = (4/3)(M_f u/M_g)² and the torsion-balance limits, read at α = 4/3.
 - [The gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs) — a massive X has a finite range.
 - [Spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity) — M_X, whose inverse is X's range; flag 5.
 - [The X-condensate candidate](/wiki/dark-matter/candidates/x-condensate) and [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — X's couplings to ordinary matter are of gravitational strength and Yukawa-cut.
@@ -255,6 +296,12 @@ The program's documents cite no source for Yukawa forces. Added by the wiki from
 - `papers/broken-born-checkpoint-v2.md` §7.5 — "SM couplings gravitational-strength and Yukawa-cut at 1/M_X" [D]; §7.1 — M_X as the polarization-breaking scale; §8 — the gated amplitude, "the variable no x-local mediator produces", the mechanism [D — mechanism; shape [O]], "isotropic below the gate versus Yukawa forward-peaking"; §13 rows 1–2 — the standard expectations; §14 item 11 — "the weak (Yukawa-like) form" [O]
 - `papers/reciprocity-toy-models.md` Abstract, §5 — the analogy with Yukawa-generated masses
 - `review/round4/referee/audit-notes.md` Step 2(d) — "the Yukawa analogy is heuristic"
+- `papers/phase-space-diameter.md` §8.2 — the bimetric strength α = (4/3)(M_f u/M_g)² and its 4/3, the torsion-balance limits of Lee et al. 2020 and the choice of column, Sundrum and Kapner et al., the bound on X's range [D][V][S]; §7 — the dark-energy length 88.1 μm; 'References' — the [S] sources
+- `verify/phase_space_diameter.py` 'Consequences (note §8)' — the 4/3, the published limits reproduced, Lee et al.'s 5.1 meV as ħc/(38.6 μm), the bound at α = 4/3 [V]
+- `review/round5-adjudication.md` 'Rulings' R1, R12 — the background ratio; the two columns and why the one-sided one is used
+- `review/round5/adjudicator/arb.out` B9 — the two columns at three strengths
+- `review/round5/referee-A/scripts/lee_interp.py` — the repulsive column of the thesis table
+- `review/round5/referee-A/audit-notes.md` §4.5; `review/round5/referee-B/audit-notes.md` §4.5 — Kapner et al.'s λ_d ≈ 85 μm; the 2026 review naming the 2020 limits as the tightest
 - `papers/conjugate-special-relativity.md` §1, §6 — "short range in momentum", "Yukawa-cut in momentum", the plain-language passage
 - `HANDOFF.md` §4 — "dual Newtonian limit = Yukawa in momentum = the gate" (chat-only)
 - `notes/debt1a-iv-beta-coefficients.md` §3 — safety by range, X-mediated forces "Yukawa-cut at 1/M_X" [D + T]
