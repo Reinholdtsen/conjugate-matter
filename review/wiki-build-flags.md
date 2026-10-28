@@ -434,6 +434,8 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
    **Audit (2026-10-27): confirmed by 2 independent derivations,** the second blind and
    pre-registered. The run-3 theory verifier raised it; a blind run-4 derivation reached the same
    verdict and added the two readings of the fiber overlap.
+   **Ruling (2026-10-28): deferred by Paul.** #11 and the documents that depend on the tag stay as
+   they are.
 56. **#13 §2 against #13 §5 on gravitating pairs (low).** §2 says a black-hole merger "operates
     at F ~ c̃ by construction", using the gravitational force between the holes; §5 identifies dual rest with free
     fall. Merging black holes are in free fall, so under §5 their dual-kinematic correction is zero.

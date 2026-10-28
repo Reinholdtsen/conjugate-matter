@@ -120,7 +120,7 @@ only as a task needs them.
   - fit V₀[1 + cos(τ/f)] plus Ω_K to full CMB, BAO and supernova likelihoods;
   - Artigas, Mielczarek and Rovelli 2019 (a compact phase space makes the universe recollapse) is a lead.
 - Open from the momentum-gravity notes, not queued:
-  - Paul's ruling on flag 55 (the gate's tag); and, open either way, whether row 3's island discriminant
+  - Paul's ruling on flag 55 (the gate's tag), deferred by him on 2026-10-28; and, open either way, whether row 3's island discriminant
     survives;
   - a full Lyman-α likelihood and a nonlinear simulation of narrow gates, if the long-range variant is pursued;
   - whether the Hamiltonian reading is the right classical limit for a long-range gate;
