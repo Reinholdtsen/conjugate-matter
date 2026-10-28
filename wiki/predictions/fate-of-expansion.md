@@ -2,7 +2,7 @@
 title: "Row 5: the fate of the expansion"
 weight: 60
 status: alive
-description: "Eternal de Sitter versus a turnaround that is the conjugate bounce: a long-horizon prediction whose near-term proxy is row 4; whether V(τ) goes negative, as the turnaround needs, is unresolved (flag 27)."
+description: "Eternal de Sitter versus a turnaround that is the conjugate bounce: a long-horizon prediction whose near-term proxy is row 4; whether V(τ) goes negative is unresolved (flag 27), and with the potential as written the row needs a closed universe, which the data disfavour at about 2σ in the program's model class."
 provenance: [D, T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 5"
@@ -23,11 +23,16 @@ sources:
   - "review/wiki-build-checks/v_sign_check.out"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
+  - "notes/closed-universe.md §2"
+  - "notes/closed-universe.md §3"
+  - "verify/closed_universe.py 'B. Closed tau histories'"
+  - "verify/closed_universe.py 'C. Data bounds given closure'"
+  - "review/wiki-build-flags.md items 27 (addendum), 45, 46"
 ---
 
-*Row 5 is the program's prediction for the far future of the cosmic expansion. With a constant [dark energy](/wiki/cosmology/dark-energy), standard cosmology expands forever toward an empty [de Sitter](/wiki/cosmology/dark-energy/de-sitter-space) universe. In the program, the expansion halts and reverses once the potential energy V(τ) of the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) becomes negative. Through the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1, which ties our scale factor a to the scale factor ã of the conjugate description, the same event is [the conjugate universe's bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce): "our maximum is their minimum". The turnaround lies beyond any near-term observation, so #11 names [row 4](/wiki/predictions/dark-energy-drift) as its near-term test. Whether the potential as the documents write it can go negative at all is unresolved: as written, it never does.*
+*Row 5 is the program's prediction for the far future of the cosmic expansion. With a constant [dark energy](/wiki/cosmology/dark-energy), standard cosmology expands forever toward an empty [de Sitter](/wiki/cosmology/dark-energy/de-sitter-space) universe. In the program, the expansion halts and reverses once the potential energy V(τ) of the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) becomes negative. Through the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1, which ties our scale factor a to the scale factor ã of the conjugate description, the same event is [the conjugate universe's bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce): "our maximum is their minimum". The turnaround lies beyond any near-term observation, so #11 names [row 4](/wiki/predictions/dark-energy-drift) as its near-term test. Whether the potential as the documents write it can go negative at all is unresolved: as written, it never does. A later note finds that the row can still hold, but only if the universe is spatially closed, which nothing in the program derives and current data mildly disfavour.*
 
-**Status:** Alive, long horizon — the bounce identity [D], the supporting fits [T] — it follows from the constraint a·ã = 1 [D] (#11 §10) and is not machine-checked. Its premise, a negative V(τ), conflicts with the potential as written, V = V₀[1 + cos(τ/f)], which has minimum zero for V₀ > 0; the conflict is recorded for Paul's ruling (`review/wiki-build-flags.md` item 27; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+**Status:** Alive, long horizon — the bounce identity [D], the supporting fits [T] — it follows from the constraint a·ã = 1 [D] (#11 §10) and is not machine-checked. Its premise, a negative V(τ), conflicts with the potential as written, V = V₀[1 + cos(τ/f)], which has minimum zero for V₀ > 0; the conflict is recorded for Paul's ruling (`review/wiki-build-flags.md` item 27; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). The flag's addendum (2026-10-27) finds that with that potential the row needs a closed universe, k = +1, and the closed-universe note finds that the data disfavour closure at about 2σ in the program's model class ([below](#the-row-needs-a-closed-universe); computed, not reviewed).
 
 ## The row
 
@@ -77,7 +82,7 @@ The identity supplies no turnaround of its own. If a never reaches a maximum, th
 
 #11 §10 cites the data for a future collapse [T]: "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook quotes a figure from the first of these, fits to the 2025 data of the [Dark Energy Spectroscopic Instrument (DESI)](/wiki/cosmology/dark-energy/desi) "with a potential possessing a negative minimum find a **93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse**" (Gialamas, Hütsi, Raidal, Urrutia, Vasar, Veermäe 2025, arXiv:2506.21542; #11's [19S], "Quintessence and phantoms in light of DESI 2025"). Three cautions apply:
 
-- the 93.8% figure appears only in #1, and no later document or `verify/` script checks it;
+- the 93.8% figure appears only in #1; the closed-universe investigation found it to be the posterior probability that the vacuum energy is negative, 12.2% for a future transition plus 81.6% for a vacuum already negative today, in a flat-universe fit of a quartic potential V₀ + m²φ²/2 + λφ⁴/4, and found that of #11's three citations only [19] supports the clause, [20] fitting V₀[1 + cos] with null spatial curvature and mentioning no anti-de Sitter phase or collapse (flag 45 in `review/wiki-build-flags.md`);
 - #9 §8 cites the same fits with "[T — refresh citations before publication]", while #11 marks them [S];
 - the fits assume a potential with a negative minimum, which the program's potential as written does not have (next section).
 
@@ -99,17 +104,33 @@ What rests on the point:
 - **The third leg of the over-constraint.** #11 §10 counts "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint", with V₀ "fixed by Ω_DE" (#1 §7 item 4). For the potential as written, t_turn is not defined ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint#its-reach)).
 - **Founding supposition 7**, below.
 
+## The row needs a closed universe
+
+The flag's "other mechanism" exists, and it is spatial curvature. The closed-universe note of 2026-10-27 (`notes/closed-universe.md` §2; flag 27 addendum) finds [D][V]:
+
+- **Flat and open universes never turn around.** With V ≥ 0, H² > 0 at every epoch when the spatial curvature k ≤ 0.
+- **A closed universe does.** With k = +1 the turnaround happens with V ≥ 0 throughout: τ passes its potential minimum, oscillates as dust, and curvature then reverses the expansion. With τ frozen at the hilltop there is none.
+- **So the row needs k = +1.** The record's identification of the turnaround with the conjugate bounce exists only in a closed universe, and #11 §10's "eventually goes negative" names the wrong cause.
+
+**Closure is a requirement, not a consequence.** Nothing in the program derives a closed universe; two independent literature searches found no derivation of closure from Born reciprocity (§2).
+
+**The data status.** Published fits give Ω_K = 0.0023 ± 0.0011 for the second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) with the cosmic microwave background in ΛCDM with free curvature, and 0.003 ± 0.001 for exponential quintessence with free curvature [S]; a positive Ω_K is the open side. Fitted with the program's own thawing corridor and free curvature, a background fit without supernovae gives Ω_K = +0.0025 ± 0.0012 and a probability of closure of 0.017–0.020 [V]. In the note's words, "In the program's model class the data disfavour it at about 2σ." The looser w₀wₐ+Ω_K family is the wrong proxy, since it allows the phantom crossing that the program forbids (§2; flag 43).
+
+**Timing.** In a closed universe the turnaround time is t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^{−3/2}/H₀, with Ω_d τ's dust-like density referred to today. The data bound it only from below: at the 95% bound given closure, t_turn > 6.015×10⁵ Gyr and the largest curvature radius exceeds 1.174×10⁵ Gpc (§3). So the over-constraint gains Ω_k as a third input and its turnaround leg cannot be tested (flag 46; [the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint#in-a-closed-universe-the-count-moves-dv)).
+
+The numbers are checked by [the closed-universe script](/wiki/method/verification/closed-universe-script); the note has not been reviewed, and a fit of the actual potential with free curvature against full likelihoods is open (§9). The whole investigation is on [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe). The flag awaits Paul's ruling.
+
 The popular articles state the negative potential without qualification: "The orientation's energy landscape dips below zero, and once the stored energy goes negative, the cosmic push becomes a pull" (#12, 'Dark energy as the orientation of the split'); "a weakening that eventually goes negative means our expansion one day stalls and reverses" (#10, 'The referee is already on the field'). They are not sources for the claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## What kills it
 
 The row has no kill condition of its own: "(Long horizon; near-term test is row 4)". A turnaround, if it happens, lies in the far future; v0.1 already wrote "— (long-horizon; the near-term test is row 5)", row 5 being the dark-energy row under the old numbering (#1 §9).
 
-The near-term test is indirect. The turnaround is the end point of τ's motion, and [row 4](/wiki/predictions/dark-energy-drift) tests that motion now: a constant w = −1 in DESI's Data Release 3 (DR3) or later "kills τ-sector", and a robust intrinsic w < −1 "kills outright" (#11 §13). In the wiki's reading, either outcome removes the field whose potential would produce the turnaround. In principle the over-constraint adds a second link: once w₀ and wₐ are measured, f and τᵢ are fixed and t_turn follows, but no document computes that relation, and for the potential as written t_turn is not defined.
+The near-term test is indirect. The turnaround is the end point of τ's motion, and [row 4](/wiki/predictions/dark-energy-drift) tests that motion now: a constant w = −1 in DESI's Data Release 3 (DR3) or later "kills τ-sector", and a robust intrinsic w < −1 "kills outright" (#11 §13). In the wiki's reading, either outcome removes the field whose potential would produce the turnaround. In principle the over-constraint adds a second link: once w₀ and wₐ are measured, f and τᵢ are fixed and t_turn follows, but no document before the closed-universe note computes that relation, and for the potential as written t_turn is defined only in a closed universe, where it also depends on Ω_k (flag 46).
 
 ## The data situation
 
-No observation bears on the turnaround directly. The cited fits prefer a future collapse only within models whose potential has a negative minimum. The proxy, row 4, is under real pressure: DESI's Data Release 2 (DR2) favours a phantom crossing above z ≈ 0.4, "against the framework's strict w ≥ −1", and "The dark-energy sector is under real pressure ahead of DR3" (root `CLAUDE.md`, 'Since the handoff'; [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
+No observation bears on the turnaround directly. The cited fits prefer a future collapse only within models whose potential has a negative minimum. What bears on the row through its premise is the spatial curvature: with the potential as written the row needs a closed universe, and in the program's model class the data disfavour closure at about 2σ (above). The proxy, row 4, is under real pressure: DESI's Data Release 2 (DR2) favours a phantom crossing above z ≈ 0.4, "against the framework's strict w ≥ −1", and "The dark-energy sector is under real pressure ahead of DR3" (root `CLAUDE.md`, 'Since the handoff'; [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
 
 ## Founding supposition 7
 
@@ -135,4 +156,7 @@ AdS is anti-de Sitter. v0.1 stated the turnaround and the supporting fits but no
 - `notes/broken-born-program-v1.md` §8, §9 — the same potential, "eventually goes negative", and "Turnaround after V(τ) < 0"
 - `HANDOFF.md` §2 — "eventual negative V ⇒ turnaround = conjugate bounce"
 - `review/wiki-build-flags.md` item 27 and `review/wiki-build-checks/v_sign_check.out` — the sign conflict and its executed check, awaiting a ruling; item 23 — the |Z| = 1 identification queried
+- `notes/closed-universe.md` §2, §3 — the row needs k = +1, the data status and the lower bounds; computed, not reviewed
+- `verify/closed_universe.py` sections B and C — the closed histories and the bounds given closure
+- `review/wiki-build-flags.md` items 27 (addendum), 45 and 46 — the closed turnaround, the 93.8% figure and the compound citation, the over-constraint with Ω_k; awaiting Paul's ruling
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' and `popsci/angle-of-the-mirror.md` 'The referee is already on the field' — the negative potential stated without qualification; not status sources

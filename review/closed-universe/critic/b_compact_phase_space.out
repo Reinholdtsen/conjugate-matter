@@ -1,0 +1,23 @@
+=== (1) Kunneth: rational homology 3-sphere x closed 3-manifold ===
+  X x S^3 (or any S^3/Gamma): Betti [1, 0, 0, 2, 0, 0, 1]; H^2 = H^0(X) (x) H^2(M) only (H^1(X) = H^2(X) = 0) -> every [omega] = pi_M^* alpha, [omega]^3 = pi_M^*(alpha^3), alpha^3 in H^6(M) = 0 -> not symplectic
+  X x T^3: Betti [1, 3, 3, 2, 3, 3, 1]; H^2 = H^0(X) (x) H^2(M) only (H^1(X) = H^2(X) = 0) -> every [omega] = pi_M^* alpha, [omega]^3 = pi_M^*(alpha^3), alpha^3 in H^6(M) = 0 -> not symplectic
+  X x S^1 x S^2: Betti [1, 1, 1, 2, 1, 1, 1]; H^2 = H^0(X) (x) H^2(M) only (H^1(X) = H^2(X) = 0) -> every [omega] = pi_M^* alpha, [omega]^3 = pi_M^*(alpha^3), alpha^3 in H^6(M) = 0 -> not symplectic
+  X x genus-2 surface x S^1: Betti [1, 5, 5, 2, 5, 5, 1]; H^2 = H^0(X) (x) H^2(M) only (H^1(X) = H^2(X) = 0) -> every [omega] = pi_M^* alpha, [omega]^3 = pi_M^*(alpha^3), alpha^3 in H^6(M) = 0 -> not symplectic
+  T^3 x T^3 Betti [1, 6, 15, 20, 15, 6, 1] (symplectic, but needs a flat T^3 position space: not k = +1)
+
+=== (2) Gr~(2,5) as the quadric Q3 in CP^4; Fubini-Study form restricted is non-degenerate ===
+  max |sum z_i^2| over 200 oriented orthonormal pairs = 1.06e-15  (z = u + i v lies on Q3)
+  rank of restricted Fubini-Study form: min 6, max 6 (6 = non-degenerate); smallest |eigenvalue| 0.500
+  rotating the oriented frame by 0.7 rad multiplies z by a phase: |z2 - e^(i th) z1| = 8.5e-17
+
+=== (3) Born reciprocity in so(5): pi/2 rotation of the (4,5) plane ===
+  max residual of  X -> P, P -> -X, M_ij fixed, M_45 fixed : 8.7e-17
+  O^4 = 1: 3.5e-16; O^2 = (X,P) -> (-X,-P): 1.7e-16
+
+=== (4) Euler characteristic of Gr~(2,5) from torus fixed points ===
+  invariant coordinate planes: [((0, 1), np.True_), ((2, 3), np.True_)]; each with 2 orientations -> chi = 4
+  chi = 4 with only even cohomology (Kahler, cell decomposition) -> Betti (1,0,1,0,1,0,1), b2 = 1
+
+=== (5) the reciprocity length of a doubly compact SdS-type phase space ===
+  |Omega_k| = 1e-2: kappa = m_P c -> lambda = sqrt(R0 l_P) = 0.0001489 m (= momentum-space C23); kappa = Born's b -> lambda = 1.39e+6 m
+  |Omega_k| = 1e-5: kappa = m_P c -> lambda = sqrt(R0 l_P) = 0.0008375 m (= momentum-space C23); kappa = Born's b -> lambda = 7.819e+6 m

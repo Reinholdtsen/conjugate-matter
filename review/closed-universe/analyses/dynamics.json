@@ -1,0 +1,553 @@
+{
+ "summary": "I integrated a closed (k=+1) FLRW universe with radiation (photons plus three massless neutrinos), dust Ω_m=0.315, curvature and τ with V=V0[1+cos(τ/f)]. The integrator is my own Dormand–Prince 5(4) code. It uses the second-order dH/dt equation through H=0, and an exact pendulum average for τ once its oscillation is 1000 times faster than the expansion. I checked it against textbook closed solutions and against full no-averaging runs. All 96 grid histories (|Ω_k| 1e-2 to 1e-5, f 0.2–2 M̄_P, w0 −0.95 to −0.7) turn around and crunch. No negative energy is needed. τ leaves the hilltop, first reaches its minimum at a=1.3–19, then oscillates as dust (|<w>| ≤ 1.1e-7 at the turnaround), and curvature reverses the expansion:\n- a_max=(Ω_m+Ω_d)/|Ω_k| (residual ≤ 8.8e-7);\n- t_turn=(π/2)(Ω_m+Ω_d)/|Ω_k|^1.5/H0 (to ≤ 1.9e-4), with t_crunch=2t_turn (to ≤ 1.9e-4);\n- a_max 102–1.36e7, t_turn 2.3e4–9.8e10 Gyr, R_max 4.5e3–1.9e10 Gpc;\n- momentum scale minimum ã_min=1/a_max = 7.4e-8 to 9.8e-3, CMB at the turnaround 2e-7–0.027 K.\n\nRepresentative case (|Ω_k|=1e-3, f=M̄_P, w0=−0.8): a_max 1726, t_turn 1.24e6 Gyr, R_max 2.43e5 Gpc, T 1.58 mK.\n\nAt fixed (w0, wa), d ln t_turn/d ln|Ω_k| = −1.488 to −1.505. So the record's over-constraint (f, τ_i) → (w0, wa, t_turn) fails for the written potential in a closed universe. With V0 cos(τ/f) the turnaround comes 10–42 Gyr from today and depends on curvature by at most 0.9%.\n\nConformal time: χ0 ≈ 3.15√|Ω_k|, χ_turn = π + (1.2–3.8)√|Ω_k|, χ_crunch = 2π + (−0.34 to 3.6)√|Ω_k|, depending on the oscillation phase. Light from the big bang reaches the antipode before the turnaround and closes the circuit near the crunch in most histories. Light emitted today goes all the way round only for f=2, w0=−0.95. The crunch is dominated by τ's kinetic energy (w=1). Flat and open universes never turn around: ã falls as t^-2/3 and t^-1.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "All 96 grid histories (|Omega_k| in {1e-2,3e-3,1e-3,3e-4,1e-4,1e-5}, f/MbarP in {0.2,0.5,1,2}, w0=w(a=1) in {-0.95,-0.9,-0.8,-0.7}) are reachable on the thawing branch and each reaches a turnaround H=0 and a crunch.",
+   "tag": "[V]",
+   "evidence": "grid.py -> grid.out: 'wrote grid.csv with 96 rows; max |d a_max| at half tolerance 9.59e-08, max |d t_turn| 9.59e-08, ...; max |constraint at turnaround| 1.63e-10'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C2",
+   "statement": "With V = V0[1+cos(tau/f)] >= 0 the closed universe turns around without negative energy: tau first passes through its potential minimum at a = 1.34-18.9 (t = 18.7-98.6 Gyr), long before the turnaround.",
+   "tag": "[V]",
+   "evidence": "summary.py -> summary.out: 'a at the first passage through the minimum min 1.33673 max 18.9392'; 't at the first passage through the minimum [Gyr] min 18.7032 max 98.6338'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C3",
+   "statement": "At the turnaround tau oscillates about its minimum with amplitude 3.6e-10 to 1.8e-3 rad, and its oscillation-averaged equation of state (exact pendulum average) has |<w>| <= 1.05e-7.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'oscillation amplitude at turnaround x_A [rad] min 3.6493e-10 max 0.00183636'; '|<w>| at turnaround (pendulum average) min 4.16167e-21 max 1.05382e-07'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C4",
+   "statement": "The directly measured average of w over the last three oscillations before the turnaround agrees with the pendulum formula when anharmonicity dominates: -9.730e-08 against -9.65e-08 at |Omega_k|=1e-2, f=0.2, w0=-0.8.",
+   "tag": "[V]",
+   "evidence": "validate.py -> validate.out: 'K=0.01 f=0.2 full ... w_last3 -9.730e-08 wbar -9.65e-08'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C5",
+   "statement": "a_max |Omega_k| = Omega_m + Omega_d (Omega_d = rho_tau a^3/(3 H0^2 MbarP^2) at the turnaround) holds to <= 8.8e-7 on the grid; the residual is the radiation term.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'a_max |Ok| / (Om + Od_turn) - 1 min -1.62816e-10 max 8.78682e-07'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C6",
+   "statement": "Using Omega_d read off the same history at the first moment the oscillation is 30 times faster than sqrt(S), the estimate (Omega_m+Omega_d)/|Omega_k| reproduces a_max to within 0.56% on the whole grid.",
+   "tag": "[V]",
+   "evidence": "summary.out: '(Om + Od_A30)/|Ok| / a_max  (estimate, Od at omega/sqrtS = 30) min 0.99436 max 0.999345'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C7",
+   "statement": "Using Omega_d from a flat universe with the same (f, theta_i), the a_max estimate is off by 1.2-2.1% at |Omega_k|=1e-2, 15-25% at 0.1, a factor 1.66-2.29 at 0.3 and 2.8-5.4 at 0.5 (w0=-0.8, f in {0.2,1,2}): curvature changes tau's roll.",
+   "tag": "[V]",
+   "evidence": "estimate.py -> estimate.out, est_flat/a_max column: '0.01 0.2 ... 1.012462', '0.01 2 ... 1.020544', '0.1 0.2 ... 1.146375', '0.1 2 ... 1.252767', '0.3 0.2 ... 1.656301', '0.3 2 ... 2.294928', '0.5 0.2 ... 2.834793', '0.5 2 ... 5.391020'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C8",
+   "statement": "t_turn equals the dust-cycloid value (pi/2)(Omega_m+Omega_d)/|Omega_k|^(3/2)/H0 to within 1.9e-4 on the grid.",
+   "tag": "[V]",
+   "evidence": "summary.out: 't_turn / [(pi/2)(Om+Od)/|Ok|^1.5 /H0] - 1 min 2.13663e-10 max 0.000186932'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C9",
+   "statement": "The time of the crunch is twice the turnaround time to within 1.9e-4 in every grid history.",
+   "tag": "[V]",
+   "evidence": "summary.out: 't_crunch / (2 t_turn) - 1 min -0.000191754 max -3.15051e-10'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C10",
+   "statement": "Over the grid, a_max/a0 ranges from 102.05 to 1.359e7 and t_turn (since the bang) from 2.33e4 to 9.80e10 Gyr; t_crunch from 4.65e4 to 1.96e11 Gyr.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'a_max min 102.052 max 1.35935e+07'; 't_turn [Gyr] min 23259.8 max 9.79579e+10'; 't_crunch [Gyr] (phase 0) min 46512.4 max 1.95916e+11'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C11",
+   "statement": "Momentum space reaches its smallest scale at the turnaround: atilde_min = 1/a_max = 7.36e-8 to 9.80e-3 over the grid; the CMB is then at 2.0e-7 to 0.0267 K.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'atilde_min = 1/a_max min 7.35643e-08 max 0.00979891'; 'T_CMB at turnaround [K] min 2.005e-07 max 0.0267069'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C12",
+   "statement": "Position space reaches its largest size at the turnaround: the 3-sphere radius R_max = 4.54e3 to 1.91e10 Gpc (8.67e63 to 3.65e70 Planck lengths) over the grid.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'R_max [Gpc] min 4539.24 max 1.91203e+10'; 'R_max / l_P min 8.6661e+63 max 3.65035e+70'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C13",
+   "statement": "Representative case (|Omega_k|=1e-3, f=MbarP, w0=-0.8): a_max = 1726.1267, t_turn = 1.243887e6 Gyr since the bang, Omega_d = 1.411127, tau holds 81.8% of the density at the turnaround.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'turnaround: a_max = 1726.126700, t = 1.243887e+06 Gyr (1.243873e+06 from today), chi = 3.192159, Omega_d = 1.411127, tau fraction 0.817510'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C14",
+   "statement": "Representative case sizes: R0 = c/(H0 sqrt|Omega_k|) = 140.657 Gpc = 4.34022e27 m = 2.68535e62 l_P; R_max = 242791 Gpc = 7.49176e30 m = 4.63526e65 l_P; CMB temperature at turnaround 1.57897e-3 K.",
+   "tag": "[V]",
+   "evidence": "summary.out sizes table: '0.001 140.657 4.34022e+27 2.68535e+62 1726.13 242791 7.49176e+30 4.63526e+65 1.5255e+06 0.00157897 1.96422e-34 1.40764e-65 0.000579332 1.24389e+15'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C15",
+   "statement": "Representative case: tau first reaches its minimum at a = 2.736, 24.35 Gyr from today; the crunch is at 2.48776e6 Gyr (spread 1.1e4 yr over 16 phases).",
+   "tag": "[V]",
+   "evidence": "summary.out: 'first minimum: a = 2.736177, t = 37.887270 Gyr (24.348770 Gyr from today)'; 'crunch over 16 phases: t_crunch 2.487760200e+06 - 2.487771623e+06 Gyr'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C16",
+   "statement": "The two CPL conventions differ materially: -wa/(1+w0) is 1.61-7.88 with the Taylor definition (wa = -dw/da at a=1) and 1.49-1.99 with a least-squares fit over 0<z<2 (uniform in a).",
+   "tag": "[V]",
+   "evidence": "summary.out: '-waT/(1 + w0)   (Taylor at a = 1) min 1.60742 max 7.87669'; '-waL/(1 + w0L)  (least squares over 0 < z < 2) min 1.49456 max 1.98651'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C17",
+   "statement": "At fixed (w0, wa_T) = (-0.8, -0.414626), d ln t_turn / d ln|Omega_k| = -1.4878 at |Omega_k|=1e-2, -1.4988 at 1e-3 and -1.49999 at 1e-5.",
+   "tag": "[V]",
+   "evidence": "overconstraint.py -> overconstraint.out: '0.01 0.992870171 ... -1.487839'; '0.001 1.000000000 ... -1.498784'; '1e-05 1.000805279 ... -1.499988'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C18",
+   "statement": "At fixed (w0, wa_T) = (-0.9, -0.168063), d ln t_turn / d ln|Omega_k| = -1.5046 at 1e-2 to -1.50001 at 1e-5.",
+   "tag": "[V]",
+   "evidence": "overconstraint.out: '0.01 1.895241581 ... -1.504648'; '1e-05 2.012800292 ... -1.500006'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C19",
+   "statement": "For V0[1+cos(tau/f)] in a closed universe, t_turn depends at leading order on |Omega_k| at fixed (w0, wa), so (f, tau_i) do not over-constrain (w0, wa, t_turn); a third parameter, Omega_k, is needed.",
+   "tag": "[D]",
+   "evidence": "follows from C17, C18 and overconstraint.out: 't_turn[Gyr]' 3.976902292e+04 at |Ok|=0.01 vs 1.242388894e+09 at 1e-05 at the same (w0, wa)",
+   "confidence": 0.88
+  },
+  {
+   "id": "C20",
+   "statement": "Conformal time from the bang to today is chi0 = (3.13-3.18) sqrt|Omega_k| radians of the 3-sphere.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'chi0 / sqrt|Ok| min 3.13163 max 3.18432'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C21",
+   "statement": "chi_turn exceeds pi by (1.17-3.81) sqrt|Omega_k| in every grid history, so light emitted at the big bang reaches our antipode before the turnaround, at t/t_turn = 0.76-0.998.",
+   "tag": "[V]",
+   "evidence": "summary.out: '(chi_turn - pi) / sqrt|Ok| min 1.16839 max 3.80734'; 't_antipode(light from the bang) / t_turn min 0.760527 max 0.997648'",
+   "confidence": 0.94
+  },
+  {
+   "id": "C22",
+   "statement": "chi_crunch - 2 pi lies between -0.34 sqrt|Omega_k| and +3.60 sqrt|Omega_k| depending on the history and on the oscillation phase where tau leaves the adiabatic regime in the collapse; the phase band alone is 0.019-1.94 sqrt|Omega_k|.",
+   "tag": "[V]",
+   "evidence": "summary.out: '(chi_crunch_min - 2 pi) / sqrt|Ok| min -0.338194 max 3.40816'; '(chi_crunch_max - 2 pi) / sqrt|Ok| min -0.142466 max 3.60301'; 'chi_crunch_max - chi_crunch_min (phase band) / sqrt|Ok| min 0.0191096 max 1.93573'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C23",
+   "statement": "Light emitted at the big bang completes a full circuit before the crunch in all 4 sampled phases in 70 of 96 histories, in 2 of 4 in 20, and in none in 6.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'light from the bang all the way round before the crunch, by number of the 4 phases: {'4': 70, '2': 20, '0': 6}'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C24",
+   "statement": "Representative case: light from the big bang completes the circuit in 16 of 16 phases, 0.99-12.15 Gyr before the crunch at a = 0.757-1.180; the full no-averaging integration gives 2.08 Gyr before the crunch at a = 0.98.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'light from the bang all the way round in 16 of 16 phases'; 'time before the crunch: 0.9906 - 12.1472 Gyr; scale factor at that moment: 0.7573 - 1.1802'; 'full integration (validate.out): ... 2.0818 Gyr before, a = 0.981628'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C25",
+   "statement": "Light emitted today goes all the way round before the crunch only for f = 2 MbarP, w0 = -0.95 (all six curvatures, all phases); it reaches our antipode at t/t_turn = 0.96-1.13 in every history.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'light emitted today all the way round (4/4 phases): [('-0.01', '2.0', '-0.95'), ('-0.003', '2.0', '-0.95'), ...]'; 't_antipode(light emitted today) / t_turn min 0.960061 max 1.12587'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C26",
+   "statement": "The crunch is dominated by tau's kinetic energy: w_eff = 1 at a = 1e-10 in every grid history, so a ~ (t_c - t)^(1/3); it is not the time-reverse of the radiation-dominated bang.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'crunch: w_eff at a = 1e-10 min 1 max 1'; representative: 'w_eff(a = 1e-10) = 1.000000000'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C27",
+   "statement": "Representative contraction: tau goes back over its hilltop at a = 0.50-1.30 and its kinetic energy exceeds 90% of the density from a = 0.20-0.84 (16 phases); it winds about 8.5-9.2 times round its circle by a = 1e-10.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'over 16 phases: over the hilltop at a = 0.5023 - 1.3 (16 phases); kinetic > 90% of rho from a = 0.2034 - 0.8446 (16 phases)'; 'windings to a = 1e-10: -9.18' and '8.51'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C28",
+   "statement": "Flat and open universes with the same tau (f=1, theta_i=1.4994, V0 re-shot) never turn around; the momentum scale factor atilde = 1/a falls as t^(-2/3) (flat, d ln atilde/d ln t = -0.666667 from a=1e4 to 1e8) and tends to t^(-1) (open, Omega_k = +1e-3: -0.999910 at a = 1e8).",
+   "tag": "[V]",
+   "evidence": "contrasts.py -> contrasts.out: 'a = 1e+08: ... d ln atilde/d ln t = -H t = -0.666667' (flat); 'a = 1e+08: ... d ln atilde/d ln t = -H t = -0.999910' (open)",
+   "confidence": 0.95
+  },
+  {
+   "id": "C29",
+   "statement": "With V >= 0, a flat or open FLRW universe cannot turn around, since H^2 = rho/3 + |Omega_k|/a^2 > 0 for rho > 0.",
+   "tag": "[D]",
+   "evidence": "one-line algebra from the Friedmann equation used in cc.py (H^2 = rho/3 - Kc/a^2, Kc <= 0); illustrated in contrasts.out: 'turnaround: none'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C30",
+   "statement": "A closed universe (|Omega_k| = 1e-2) with tau held exactly at its hilltop (V = 2V0 acting as Lambda) never turns around; H tends to sqrt(2V0/3) = 0.833612 H0. The closed turnaround therefore requires tau to roll and decay.",
+   "tag": "[V]",
+   "evidence": "contrasts.out: 'V0 1.042362709 w0 -1.000000000000: turnaround none; at a = 1e8 H/H0 = 0.833611704 (sqrt(Omega_Lambda) = 0.833611704)'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C31",
+   "statement": "For the notebook's V0 cos(tau/f), flat, the turnaround comes 10.18-41.85 Gyr from today (23.71-55.57 Gyr since the bang, a_max 1.39-5.71) and the crunch 7.40-14.90 Gyr after the turnaround, over f in {0.2,0.5,1,2} and w0 in {-0.95,...,-0.7}.",
+   "tag": "[V]",
+   "evidence": "contrasts.out flat rows, e.g. '-0 0.5 -0.7 ... | 1.533030 23.706645 10.181848 34.783372'; '-0 2 -0.95 ... | 5.708309 55.573317 41.846212 66.015717'; 'crunch-turn (flat) 7.396063 Gyr' and '14.899000 Gyr'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C32",
+   "statement": "For V0 cos(tau/f), closing the universe with Omega_k = -1e-2 shortens the time from today to the turnaround by only 3.0e-6 to 9.2e-3 (relative), so there the potential, not curvature, sets t_turn.",
+   "tag": "[V]",
+   "evidence": "contrasts.out: 'f 2 w0 -0.95: ... Omega_k=-1e-2: -2.961e-06'; 'f 0.2 w0 -0.7 : ... Omega_k=-1e-2: -9.240e-03'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C33",
+   "statement": "The averaged late-time description agrees with full field integration (no averaging) to <= 2.81e-6 in a_max and <= 2.14e-4 in t_turn over 9 validation histories; for the representative case to -7.00e-6 and -1.19e-5.",
+   "tag": "[V]",
+   "evidence": "validate.out: 'averaged vs full: a_max -7.00e-06, t_turn -1.19e-05, ...'; 'K=0.003 f=2 ... diff: a_max -2.81e-06'; 'K=0.01 f=0.5 ... diff: a_max -1.62e-07 t_turn 2.14e-04'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C34",
+   "statement": "Halving the integration tolerance (with theta_i and V0 re-solved) changes a_max and t_turn by <= 9.6e-8 across the grid; the Friedmann-constraint violation at the turnaround is <= 1.63e-10.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'max |a_max change| at rtol/2 min 1.30395e-10 max 9.59184e-08'; 'max |t_turn change| at rtol/2 min 7.39737e-11 max 9.58674e-08'; '|constraint violation at turnaround| min 1.03645e-10 max 1.62868e-10'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C35",
+   "statement": "The integrator reproduces the closed dust cycloid (a_max, t_turn, t_crunch to <= 1.7e-10; chi_turn = pi, chi_crunch = 2 pi to <= 5.3e-10) and the exact closed dust+radiation solution (to <= 2.7e-10) for |Omega_k| from 1 to 1e-5.",
+   "tag": "[V]",
+   "evidence": "anchors.py -> anchors.out: 'PASS cycloid K=1e-05 rtol=1e-10: ... rel err a -1.70e-10 t -1.18e-10 tc -1.73e-10; chi_turn-pi -1.36e-10; chi_crunch-2pi 5.25e-10'; 'PASS dust+radiation+curvature K=0.01: ... errors -1.60e-10, -1.41e-10, -1.57e-10, -1.75e-10, 2.69e-10'; '0 failures'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C36",
+   "statement": "tau carries 68.8-99.8% of the density at the turnaround; its dust-equivalent density Omega_d ranges 0.695-146.2 over the grid.",
+   "tag": "[V]",
+   "evidence": "summary.out: 'tau fraction of the density at the turnaround min 0.688165 max 0.99785'; 'Omega_d (turnaround) min 0.69515 max 146.196'",
+   "confidence": 0.94
+  },
+  {
+   "id": "C37",
+   "statement": "tau oscillates 489 to 8.4e8 times between first reaching its minimum and the turnaround, which is why the crunch phase (and chi_crunch within its band) cannot be predicted from (w0, wa, Omega_k) known to any realistic precision.",
+   "tag": "[V] count; [D] inference",
+   "evidence": "summary.out: 'oscillations before the turnaround min 489.132 max 8.38056e+08'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C38",
+   "statement": "Closed grid values Omega_k = -3e-3 and -1e-2 lie 2.0 sigma and 5.5 sigma below the Planck 2018 + BAO constraint Omega_K = 0.001 +- 0.002 (a LambdaCDM+Omega_K fit).",
+   "tag": "[S] constraint; [V] arithmetic",
+   "evidence": "context.py -> context.out: 'Omega_k = -0.01  : 5.50 sigma below'; 'Omega_k = -0.003 : 2.00 sigma below'; source quote in references",
+   "confidence": 0.85
+  },
+  {
+   "id": "C39",
+   "statement": "The DESI DR2+CMB curvature reported by Chen and Zaldarriaga, R_k = 21/H0 with negative (open) curvature at 2 sigma, corresponds to Omega_k = +0.002268.",
+   "tag": "[S] value; [V] arithmetic",
+   "evidence": "context.out: 'Chen-Zaldarriaga R_k = 21/H0  ->  Omega_k = 1/21^2 = 0.002268 (open)'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C40",
+   "statement": "The program's 'turnaround = conjugate bounce' identity holds in the closed case: atilde = 1/a has its minimum 1/a_max at the turnaround and grows without bound into the crunch.",
+   "tag": "[D]",
+   "evidence": "atilde = 1/a (record's a*atilde = 1) with a_max from grid.csv column atilde_min; representative 'atilde_min = 1/a_max = 5.793317e-04' (contrasts.out)",
+   "confidence": 0.9
+  }
+ ],
+ "numbers": [
+  {
+   "quantity": "Omega_r (photons + 3 massless neutrinos, T0 = 2.7255 K, h = 0.674)",
+   "value": "9.152735e-05",
+   "script": "anchors.py",
+   "printed": "constants: Omega_r = 9.152735e-05, 1/H0 = 14.507303 Gyr, l_P = 1.616255e-35 m"
+  },
+  {
+   "quantity": "a_max/a0 range over grid",
+   "value": "102.052 to 1.35935e7",
+   "script": "summary.py",
+   "printed": "a_max                                                          min 102.052  max 1.35935e+07"
+  },
+  {
+   "quantity": "atilde_min = 1/a_max range",
+   "value": "7.35643e-08 to 0.00979891",
+   "script": "summary.py",
+   "printed": "atilde_min = 1/a_max                                           min 7.35643e-08  max 0.00979891"
+  },
+  {
+   "quantity": "R_max range [Gpc]",
+   "value": "4539.24 to 1.91203e10",
+   "script": "summary.py",
+   "printed": "R_max [Gpc]                                                    min 4539.24  max 1.91203e+10"
+  },
+  {
+   "quantity": "R_max / l_P range",
+   "value": "8.6661e63 to 3.65035e70",
+   "script": "summary.py",
+   "printed": "R_max / l_P                                                    min 8.6661e+63  max 3.65035e+70"
+  },
+  {
+   "quantity": "CMB temperature at turnaround range [K]",
+   "value": "2.005e-07 to 0.0267069",
+   "script": "summary.py",
+   "printed": "T_CMB at turnaround [K]                                        min 2.005e-07  max 0.0267069"
+  },
+  {
+   "quantity": "t_turn since the bang, range [Gyr]",
+   "value": "23259.8 to 9.79579e10",
+   "script": "summary.py",
+   "printed": "t_turn [Gyr]                                                   min 23259.8  max 9.79579e+10"
+  },
+  {
+   "quantity": "t_crunch range [Gyr]",
+   "value": "46512.4 to 1.95916e11",
+   "script": "summary.py",
+   "printed": "t_crunch [Gyr] (phase 0)                                       min 46512.4  max 1.95916e+11"
+  },
+  {
+   "quantity": "t_crunch/(2 t_turn) - 1",
+   "value": "-1.9e-4 to -3.2e-10",
+   "script": "summary.py",
+   "printed": "t_crunch / (2 t_turn) - 1                                      min -0.000191754  max -3.15051e-10"
+  },
+  {
+   "quantity": "t_turn / cycloid value - 1",
+   "value": "2.1e-10 to 1.87e-4",
+   "script": "summary.py",
+   "printed": "t_turn / [(pi/2)(Om+Od)/|Ok|^1.5 /H0] - 1                      min 2.13663e-10  max 0.000186932"
+  },
+  {
+   "quantity": "a_max estimate with Omega_d at omega/sqrt(S)=30, ratio to a_max",
+   "value": "0.99436 to 0.999345",
+   "script": "summary.py",
+   "printed": "(Om + Od_A30)/|Ok| / a_max  (estimate, Od at omega/sqrtS = 30) min 0.99436  max 0.999345"
+  },
+  {
+   "quantity": "Omega_d at turnaround range",
+   "value": "0.69515 to 146.196",
+   "script": "summary.py",
+   "printed": "Omega_d (turnaround)                                           min 0.69515  max 146.196"
+  },
+  {
+   "quantity": "first passage of tau through its minimum: a and t",
+   "value": "a 1.33673-18.9392; t 18.7032-98.6338 Gyr",
+   "script": "summary.py",
+   "printed": "a at the first passage through the minimum                     min 1.33673  max 18.9392"
+  },
+  {
+   "quantity": "|<w>| of tau at turnaround (pendulum average)",
+   "value": "4.2e-21 to 1.05e-7",
+   "script": "summary.py",
+   "printed": "|<w>| at turnaround (pendulum average)                         min 4.16167e-21  max 1.05382e-07"
+  },
+  {
+   "quantity": "oscillations of tau before the turnaround",
+   "value": "489 to 8.38e8",
+   "script": "summary.py",
+   "printed": "oscillations before the turnaround                             min 489.132  max 8.38056e+08"
+  },
+  {
+   "quantity": "chi0/sqrt|Omega_k|",
+   "value": "3.13163 to 3.18432",
+   "script": "summary.py",
+   "printed": "chi0 / sqrt|Ok|                                                min 3.13163  max 3.18432"
+  },
+  {
+   "quantity": "(chi_turn - pi)/sqrt|Omega_k|",
+   "value": "1.16839 to 3.80734",
+   "script": "summary.py",
+   "printed": "(chi_turn - pi) / sqrt|Ok|                                     min 1.16839  max 3.80734"
+  },
+  {
+   "quantity": "(chi_crunch - 2pi)/sqrt|Omega_k| over histories and phases",
+   "value": "-0.338 to +3.603",
+   "script": "summary.py",
+   "printed": "(chi_crunch_max - 2 pi) / sqrt|Ok|                             min -0.142466  max 3.60301"
+  },
+  {
+   "quantity": "representative case a_max, t_turn, Omega_d",
+   "value": "1726.1267; 1.243887e6 Gyr; 1.411127",
+   "script": "summary.py",
+   "printed": "turnaround: a_max = 1726.126700, t = 1.243887e+06 Gyr (1.243873e+06 from today), chi = 3.192159, Omega_d = 1.411127, tau fraction 0.817510"
+  },
+  {
+   "quantity": "representative case R0, R_max, T_turn, atilde_min",
+   "value": "R0 140.657 Gpc; R_max 242791 Gpc = 7.49176e30 m = 4.63526e65 l_P; 1.57897e-3 K; 5.79332e-4",
+   "script": "summary.py",
+   "printed": "0.001    140.657      4.34022e+27  2.68535e+62  1726.13      242791       7.49176e+30  4.63526e+65  1.5255e+06   0.00157897   1.96422e-34         1.40764e-65        0.000579332  1.24389e+15"
+  },
+  {
+   "quantity": "representative case CPL",
+   "value": "w0=-0.8, waT=-0.414626; w0L=-0.814994, waL=-0.284763; age 13.5385 Gyr",
+   "script": "summary.py",
+   "printed": "w0 -0.800000 waT -0.414626 w0L -0.814994 waL -0.284763; age 13.538500 Gyr; chi0 0.099627"
+  },
+  {
+   "quantity": "representative crunch time and chi_crunch band (16 phases)",
+   "value": "2.4877602e6-2.4877716e6 Gyr; chi 6.287410-6.330284",
+   "script": "summary.py",
+   "printed": "crunch over 16 phases: t_crunch 2.487760200e+06 - 2.487771623e+06 Gyr; chi_crunch 6.287410 - 6.330284 (2 pi = 6.283185; chi0 + 2 pi = 6.382812)"
+  },
+  {
+   "quantity": "d ln t_turn / d ln|Omega_k| at fixed (w0,wa)=(-0.8,-0.4146)",
+   "value": "-1.487839 (1e-2) to -1.499988 (1e-5)",
+   "script": "overconstraint.py",
+   "printed": "0.01       0.992870171 1.481014484 1.4299615 1.744962e+02 3.976902292e+04 +1.209e-04   -1.487839      +1.198e-02   (wa check 1.7e-12)"
+  },
+  {
+   "quantity": "t_turn at fixed (w0,wa)=(-0.8,-0.4146), |Omega_k|=1e-5",
+   "value": "1.242388894e9 Gyr",
+   "script": "overconstraint.py",
+   "printed": "1e-05      1.000805279 1.501410521 1.4090545 1.724055e+05 1.242388894e+09 +3.684e-09   -1.499988      +1.192e-05   (wa check 1.2e-12)"
+  },
+  {
+   "quantity": "-wa/(1+w0), Taylor vs least-squares",
+   "value": "1.60742-7.87669 vs 1.49456-1.98651",
+   "script": "summary.py",
+   "printed": "-waT/(1 + w0)   (Taylor at a = 1)                              min 1.60742  max 7.87669"
+  },
+  {
+   "quantity": "flat late-time exponent of atilde",
+   "value": "-0.666667",
+   "script": "contrasts.py",
+   "printed": "a = 1e+08: t = 7.354656e+12 Gyr, H/H0 = 1.315022e-12, atilde = 1.0e-08, d ln atilde/d ln t = -H t = -0.666667"
+  },
+  {
+   "quantity": "open (Omega_k=+1e-3) exponent of atilde at a=1e8",
+   "value": "-0.999910",
+   "script": "contrasts.py",
+   "printed": "a = 1e+08: t = 4.587161e+10 Gyr, H/H0 = 3.162305e-10, atilde = 1.0e-08, d ln atilde/d ln t = -H t = -0.999910"
+  },
+  {
+   "quantity": "V0 cos form, flat: time from today to turnaround (range)",
+   "value": "10.181848 to 41.846212 Gyr",
+   "script": "contrasts.py",
+   "printed": "-0       2     -0.95 0.807915 3.176070 -0.09195 -0.95281 -0.07193 | 5.708309 55.573317 41.846212 66.015717 | -0.32540 0.22936 0.00000"
+  },
+  {
+   "quantity": "averaged vs full integration, representative",
+   "value": "a_max -7.00e-06, t_turn -1.19e-05",
+   "script": "validate.py",
+   "printed": "averaged vs full: a_max -7.00e-06, t_turn -1.19e-05, chi_turn -1.56e-05, t_crunch -2.55e-05, chi_crunch -1.41e-03 (rel/abs)"
+  },
+  {
+   "quantity": "tolerance-halving change of a_max over the grid (max)",
+   "value": "9.59e-08",
+   "script": "summary.py",
+   "printed": "max |a_max change| at rtol/2                                   min 1.30395e-10  max 9.59184e-08"
+  },
+  {
+   "quantity": "light from bang: full-circuit counts over 4 phases",
+   "value": "70 histories 4/4, 20 histories 2/4, 6 histories 0/4",
+   "script": "summary.py",
+   "printed": "light from the bang all the way round before the crunch, by number of the 4 phases: {'4': 70, '2': 20, '0': 6}"
+  },
+  {
+   "quantity": "Omega_k for R_k = 21/H0",
+   "value": "0.002268",
+   "script": "context.py",
+   "printed": "Chen-Zaldarriaga R_k = 21/H0  ->  Omega_k = 1/21^2 = 0.002268 (open)"
+  },
+  {
+   "quantity": "CMB photons in the whole closed universe, |Omega_k|=1e-3",
+   "value": "6.6285e92",
+   "script": "context.py",
+   "printed": "|Omega_k| = 0.001  : comoving volume of the 3-sphere today 2 pi^2 R0^3 = 1.6139e+84 m^3, CMB photons in the whole universe 6.6285e+92; volume at the turnaround 8.3001e+93 m^3; log10 of the radiation-rectangle aspect ratio at the turnaround (A0 a_max^2) = 99.19"
+  },
+  {
+   "quantity": "flat LambdaCDM age (anchor), massless neutrinos",
+   "value": "13.7907 Gyr",
+   "script": "anchors.py",
+   "printed": "PASS flat LCDM with radiation: age vs mpmath quadrature  [0.950605400357 vs 0.950605400389 (= 13.7907 Gyr)]"
+  }
+ ],
+ "open": [
+  "REPORT.md was not written: the Write tool refused report files for subagents ('Subagents should return findings as text'). Its intended content is this structured return; the orchestrator may want it written to closed/dynamics/REPORT.md.",
+  "The dual Einstein term 3H^2 Mtilde^2 a^-6 (#1 s6) has the same a-scaling as tau's kinetic energy in the crunch; with both present H^2 would tend to a constant as a -> 0 (one-line algebra, not integrated). Whether the crunch completes then depends on Mtilde; left to the dual-frame analyst.",
+  "On the dictionary w_eff = -w_tilde (#1 s6) a w = +1 crunch would read as a dual-frame w_tilde = -1; inference only, not computed.",
+  "The bimetric X sector was dropped as instructed; its behaviour through H = 0 and in the kinetic collapse is unexamined.",
+  "Homogeneous background only: growth of perturbations during the collapse is not followed.",
+  "chi_crunch, and whether light from the big bang closes its circuit before the crunch, depend on the oscillation phase at the exit from adiabaticity; the phase is set by 489-8.4e8 oscillations and is not predictable in practice. A full integration fixes one realization only.",
+  "Observational curvature bounds quoted come from LambdaCDM+Omega_K fits; whether tau quintessence shifts the inferred Omega_k is open.",
+  "tau winds about 9 times round its circle by a = 1e-10 in the collapse; relevant to the diameter note's s8.5 polarization lever arm if matter's polarization follows tau.",
+  "The V0 cos(tau/f) contrast uses the notebook's form, not the record's current potential (flag 27 unresolved)."
+ ],
+ "record_errors": [
+  "papers/broken-born-checkpoint-v2.md s10 and notes/broken-born-theory.md s7 item 4 (also s10 table): 'two parameters (f, tau_i) for three observables (w0, wa, t_turn) - one over-constraint' does not hold for the written V0[1+cos(tau/f)] in a closed universe. There t_turn ~ (pi/2)(Omega_m+Omega_d)/|Omega_k|^1.5/H0, and at fixed (w0, wa) d ln t_turn/d ln|Omega_k| = -1.488 to -1.505 (overconstraint.out), so Omega_k is a third parameter. It holds approximately only for V0 cos(tau/f), where |Omega_k| <= 1e-2 shifts the time to turnaround by <= 0.92% (contrasts.out).",
+  "papers/broken-born-checkpoint-v2.md s10 italic passage ('eventually goes negative - at which point our expansion halts and reverses') and HANDOFF.md s2 ('eventual negative V => turnaround'): in a closed universe with the written potential the turnaround occurs with V >= 0 and rho_tau > 0 throughout. Curvature reverses the expansion once tau decays to dust-like oscillation (grid.out; contrasts.out control). This confirms review/round5-adjudication.md R11 and limits review/wiki-build-flags.md item 27's audit sentence 'As written, t_turn is undefined' to flat and open geometry.",
+  "papers/broken-born-checkpoint-v2.md s10 and notes/broken-born-theory.md s7 item 2: the thawing corridor wa ~ -1.5(1 + w0) is stated without a CPL convention. For the program's potential it holds for least-squares fits over 0<z<2 with f >= MbarP (-wa/(1+w0) = 1.49-1.54) but not for the Taylor definition wa = -dw/da(1) (1.61-7.88) (summary.out). Consistent with flag 43's audit.",
+  "notes/broken-born-theory.md s7 item 3: 'slow contraction begins' is unquantified. For V0 cos(tau/f) the collapse from turnaround to crunch takes 7.40-14.90 Gyr, comparable to today's age (contrasts.out). This is a quantification rather than a demonstrated error."
+ ],
+ "files": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/cc.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/solve.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/anchors.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/anchors.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/explore.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/explore.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/validate.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/validate.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/grid.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/grid.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/grid.csv",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/estimate.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/estimate.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/contrasts.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/contrasts.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/overconstraint.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/overconstraint.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/summary.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/summary.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/context.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/dynamics/context.out"
+ ],
+ "references": [
+  {
+   "citation": "Planck Collaboration, Planck 2018 results. VI. Cosmological parameters, arXiv:1807.06209 (abstract, ar5iv rendering)",
+   "status": "S",
+   "url": "https://ar5iv.labs.arxiv.org/html/1807.06209",
+   "quote": "The joint constraint with BAO measurements on spatial curvature is consistent with a flat universe, ΩK=0.001±0.002."
+  },
+  {
+   "citation": "S.-F. Chen, M. Zaldarriaga, It's All Ok: Curvature in Light of BAO from DESI DR2, arXiv:2505.00659 (abstract)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2505.00659",
+   "quote": "a small but negative spatial curvature with R_k = 21 H_0^{-1}, which DESI measures at 2σ"
+  },
+  {
+   "citation": "Closed dust FLRW cycloid a = A(1 - cos eta), t = B(eta - sin eta); a photon from the bang circumnavigates once by the crunch (e.g. Weinberg 1972 s15.3; Misner, Thorne and Wheeler 1973 s27.10). Used as an anchor and verified by executed code, not taken on trust",
+   "status": "dagger"
+  },
+  {
+   "citation": "Planck 2018 base-LambdaCDM age 13.787 +- 0.020 Gyr, quoted only as a rough comparison to the anchor's 13.7907 Gyr",
+   "status": "dagger"
+  }
+ ]
+}

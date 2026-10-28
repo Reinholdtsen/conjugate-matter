@@ -1,0 +1,297 @@
+{
+ "analysis": "dynamics",
+ "lens": "numbers",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "C1",
+    "verdict": "confirmed",
+    "reason": "My own code, written independently (e-fold time, field variables theta and z = taudot a^1.5, my own Dormand-Prince integrator, pendulum adiabatic invariant for the late oscillation, Gauss-Legendre quadrature through H = 0), shot all 96 histories to w0 and H(1) = H0. Every one turns around and reaches a = 1e-10.",
+    "independent_check": "grid_v.py (6 runs) -> grid_v.jsonl, summary_v.out: 'histories: 96  distinct (Ok,f,w0): 96'; 'max |w(a=1) - w0| ... max 2.87215e-13'; '|constraint| at end of collapse min 1.23235e-12 max 2.02882e-11'"
+   },
+   {
+    "claim_id": "C2",
+    "verdict": "confirmed",
+    "reason": "I get the same range for the first passage through the minimum, to every printed digit.",
+    "independent_check": "summary_v.out: 'a at first passage through minimum min 1.33673 max 18.9392'; 't at first passage [Gyr] min 18.7032 max 98.6338'"
+   },
+   {
+    "claim_id": "C3",
+    "verdict": "confirmed",
+    "reason": "Amplitude and pendulum <w> at the turnaround agree, using my own elliptic series checked against mpmath.",
+    "independent_check": "summary_v.out: 'oscillation amplitude at turnaround q_A [rad] min 3.6493e-10 max 0.00183636'; '|<w>| at turnaround (pendulum) min 4.16168e-21 max 1.05382e-07'"
+   },
+   {
+    "claim_id": "C4",
+    "verdict": "unverifiable",
+    "reason": "I reproduced the pendulum value (-9.65e-8). I did not reproduce the direct three-oscillation average (-9.730e-8), which needs a full field integration that I did not run. The analyst's own validate.out shows the two disagree by factors up to 3.6 at larger f (f=2: -1.978e-8 vs -5.55e-9), so the agreement is specific to this case.",
+    "independent_check": "misc_v.out: '(d) |Ok|=1e-2 f=0.2 w0=-0.8: pendulum <w> at turnaround = -9.6513e-08'"
+   },
+   {
+    "claim_id": "C5",
+    "verdict": "confirmed",
+    "reason": "The residual matches, and it is set by radiation (Omega_r/a_max).",
+    "independent_check": "summary_v.out: 'a_max |Ok| / (Om + Od_turn) - 1  min 4.95159e-14 max 8.78832e-07'"
+   },
+   {
+    "claim_id": "C6",
+    "verdict": "confirmed",
+    "reason": "I read Omega_d at the first moment omega0/H = 30, with my own corrected-energy definition. The estimate then lands within 0.45% on the whole grid, inside the claimed 0.56%. The analyst's switch, omega/sqrt(S), is defined slightly differently.",
+    "independent_check": "misc_v.out: '(f) (Om + Od[omega0/H = 30])/|Ok| / a_max over the grid: min 0.99555 max 0.99964'"
+   },
+   {
+    "claim_id": "C8",
+    "verdict": "confirmed",
+    "reason": "t_turn matches the dust cycloid formula to the stated precision.",
+    "independent_check": "summary_v.out: 't_turn / [(pi/2)(Om+Od)/|Ok|^1.5] - 1  min 3.33774e-10 max 0.000186951'"
+   },
+   {
+    "claim_id": "C9",
+    "verdict": "confirmed",
+    "reason": "Holds over all 8 of my independent collapse phases.",
+    "independent_check": "summary_v.out: 't_crunch/(2 t_turn) - 1 (all phases) min -0.000191195 max -1.4047e-10'"
+   },
+   {
+    "claim_id": "C10",
+    "verdict": "confirmed",
+    "reason": "Same ranges. Histories agree with the analyst's grid.csv to <= 1.8e-6.",
+    "independent_check": "summary_v.out: 'a_max min 102.052 max 1.35935e+07'; 't_turn [Gyr] min 23259.8 max 9.79579e+10'; 't_crunch [Gyr] (all 8 phases) min 46512.4 max 1.95916e+11'; compare_v.out: 'a_max 1.80e-06', 't_turn 1.80e-06'"
+   },
+   {
+    "claim_id": "C11",
+    "verdict": "confirmed",
+    "reason": "atilde_min = 1/a_max and T0/a_max reproduce.",
+    "independent_check": "summary_v.out: 'atilde_min = 1/a_max min 7.35643e-08 max 0.0097989'; 'T_CMB at turnaround [K] = 2.7255/a_max min 2.005e-07 max 0.0267069'"
+   },
+   {
+    "claim_id": "C12",
+    "verdict": "confirmed",
+    "reason": "R_max = a_max c/(H0 sqrt|Ok|) reproduces. The analyst's 1.91203e10 and my 1.91202e10 differ only in the last digit (constants).",
+    "independent_check": "summary_v.out: 'R_max [Gpc] min 4539.24 max 1.91202e+10'; 'R_max / l_P min 8.66611e+63 max 3.65035e+70'"
+   },
+   {
+    "claim_id": "C13",
+    "verdict": "confirmed",
+    "reason": "My own shooting gives the same theta_i and V0. a_max, t_turn, Omega_d and the tau fraction agree within the switch-convergence band (R = 1000 vs 3000).",
+    "independent_check": "repr_v.out: 'shoot: theta_i = 1.4993693881  V0 = 2.4773014870'; 'R=1000 ... a_max 1726.1264281  t_turn 1.2438866e+06 Gyr  Od 1.4111264  taufrac 0.817510'; 'R=3000 ... a_max 1726.1270885 t_turn 1.2438871e+06 Gyr Od 1.4111270'"
+   },
+   {
+    "claim_id": "C14",
+    "verdict": "confirmed",
+    "reason": "I typed the constants again in a separate script (CODATA, IAU parsec), not taken from cm.py.",
+    "independent_check": "sizes_v.out: 'R0 = 140.656824 Gpc = 4.340216e+27 m = 2.685353e+62 l_P'; 'R_max = 242791.460910 Gpc = 7.491762e+30 m = 4.635260e+65 l_P'; 'T_CMB(turn) = 1.578969e-03 K'"
+   },
+   {
+    "claim_id": "C15",
+    "verdict": "corrected",
+    "corrected_statement": "Representative case: tau first reaches its minimum at a = 2.736, 24.35 Gyr from today. The crunch comes at about 2.48776e6 Gyr. Its spread over the analyst's 16 phases (8 independent) is 11.4 Gyr (1.1e10 yr, not 1.1e4 yr); over 32 independent phases it is 12.0 Gyr.",
+    "reason": "The first-minimum numbers reproduce exactly. The spread has a unit error: 2.487771623e6 - 2.487760200e6 Gyr = 11.423 Gyr.",
+    "independent_check": "repr_v.out: 'first minimum a 2.736177 t 37.887270 Gyr (24.348770 from today)'; misc_v.out: '(a) analyst 16-phase crunch interval: 11.423 Gyr (= 1.142e+10 yr)'; 'verifier 32 phases: t_crunch spread = 12.017 Gyr'"
+   },
+   {
+    "claim_id": "C16",
+    "verdict": "corrected",
+    "corrected_statement": "-wa/(1+w0) is 1.61-7.88 with the Taylor definition. With a least-squares fit over 0<z<2 uniform in a it is 1.49-1.99 for 41 equally weighted points, or 1.50-2.00 for the continuous fit (1.50-1.55 for f >= MbarP).",
+    "reason": "The Taylor range reproduces exactly. The least-squares numbers come from 41 equally weighted points with endpoints included. The continuous fit uniform in a differs by up to 5.6e-3 in w0L and 9.6e-3 in waL. This is a convention, not an error.",
+    "independent_check": "lsfit_v.out: 'n = 41 equal weights: w0L -0.814994 waL -0.284763' vs 'n = 4001 trapezoid weights: w0L -0.815309 waL -0.285073'; summary_v.out: '-waT/(1+w0) min 1.60742 max 7.87669'; '-waL/(1+w0L) ... min 1.49885 max 1.99654'"
+   },
+   {
+    "claim_id": "C17",
+    "verdict": "confirmed",
+    "reason": "I solved (f, theta_i) at fixed (w0, waT) myself (inner shooting, outer secant on f) and took central differences in ln|Ok|.",
+    "independent_check": "overcon_v.out: '0.01 0.992872895 ... 3.976902715e+04 ... -1.487820'; '0.001 1.000002822 ... -1.498781'; '1e-05 1.000808112 ... 1.242390088e+09 ... -1.499988'"
+   },
+   {
+    "claim_id": "C18",
+    "verdict": "confirmed",
+    "reason": "Same method as C17.",
+    "independent_check": "overcon_v.out: '0.01 1.895197664 ... -1.504650'; '0.001 1.999947653 ... -1.500536'; '1e-05 2.012746851 ... -1.500005'"
+   },
+   {
+    "claim_id": "C19",
+    "verdict": "corrected",
+    "corrected_statement": "At fixed (w0, wa), t_turn scales as (Omega_m+Omega_d)|Omega_k|^-1.5, so curvature sets t_turn, not (f, tau_i). An over-constraint survives only if Omega_k is measured independently, as Omega_DE fixes V0, and found negative to useful precision. Current data do not fix even its sign (Planck+BAO 0.001+-0.002; DESI DR2+CMB prefers open at 2 sigma). t_turn is a prediction, not a measurement, so it can never test the count.",
+    "reason": "The scaling is confirmed. 'A third parameter is needed' is one way to count. By the record's own counting (V0 fixed by a measured Omega_DE), Omega_k is a measured input and the formal count survives. The substance is that t_turn is controlled by an unmeasured Omega_k.",
+    "independent_check": "overcon_v.out: t_turn 3.976902715e+04 Gyr at |Ok|=1e-2 vs 1.242390088e+09 at 1e-5 at the same (w0, waT) = (-0.8, -0.414626)"
+   },
+   {
+    "claim_id": "C20",
+    "verdict": "confirmed",
+    "reason": "Reproduces.",
+    "independent_check": "summary_v.out: 'chi0/sqrt|Ok| min 3.13163 max 3.18432'"
+   },
+   {
+    "claim_id": "C21",
+    "verdict": "confirmed",
+    "reason": "Reproduces. Light from the bang reaches the antipode before the turnaround in all 96 histories.",
+    "independent_check": "summary_v.out: '(chi_turn - pi)/sqrt|Ok| min 1.16839 max 3.80734'; 'light from bang reaches antipode within the expansion phase in 96 histories'; 't_antipode(bang)/t_turn min 0.760527 max 0.997648'"
+   },
+   {
+    "claim_id": "C22",
+    "verdict": "corrected",
+    "corrected_statement": "chi_crunch - 2 pi lies between -0.34 sqrt|Omega_k| and at least +4.76 sqrt|Omega_k| over 8 independent exit phases. The phase band is 0.27-2.43 sqrt|Omega_k|. The upper end comes from a narrow phase window near the separatrix, where tau lingers at its hilltop in the collapse, and it grows with denser sampling.",
+    "reason": "The analyst's phases (0, pi/2, pi, 3pi/2; grid.py PH) are two mirror pairs. delta -> -delta, p -> -p gives the same a(t), so only 2 independent phases were sampled. That understates the band: the minimum band of 0.019 is an artifact. The +4.76 spike is tolerance-converged: 4.764323 at rtol 1e-11, 4.763845 at 1e-12.",
+    "independent_check": "summary_v.out: '(chi_crunch_min - 2pi)/sk [8 phases] min -0.33722'; '(chi_crunch_max - 2pi)/sk [8 phases] min 0.261188 max 4.76432'; 'phase band (max-min)/sk [8 phases] min 0.274253 max 2.43198'; phase_v.out: 'psi/pi 0.8750: (chi_cr-2pi)/sk +4.7643 ... hill a 0.2746'; 'rtol 1e-11 -> 4.764323, rtol 1e-12 -> 4.763845'"
+   },
+   {
+    "claim_id": "C23",
+    "verdict": "refuted",
+    "corrected_statement": "With 8 independent exit phases, light from the big bang completes the circuit before the crunch in all 8 phases in 62 histories and in 2-7 of 8 in the other 34. No history fails in every phase.",
+    "reason": "The 4/2/0 counts come from 2 independent phases, each counted twice, which is why only even counts appear. In the 6 histories scored 0/4, 2-3 of my 8 phases complete the circuit. My 2-phase subsample reproduces the pattern ({0: 6, 1: 23, 2: 67}).",
+    "independent_check": "summary_v.out: 'number of 8 phases -> {2: 11, 3: 13, 6: 6, 7: 4, 8: 62}'; 'same, 2 phases psi=0, pi/2 -> {0: 6, 1: 23, 2: 67}'; compare_v.out: e.g. 'Ok -0.003 f 0.5 w0 -0.7: analyst band [-0.1766, -0.1425]; verifier 8 phases: 2/8 round, band [-0.2839, 0.9081]'"
+   },
+   {
+    "claim_id": "C24",
+    "verdict": "corrected",
+    "corrected_statement": "Representative case: light from the big bang completes the circuit in every sampled phase (32/32 independent), 0.94-12.78 Gyr before the crunch, at a = 0.74-1.19. The full integration's 2.08 Gyr at a = 0.98 is one realization from a run whose crunch time moves by 30 Gyr between rtol 1e-10 and 5e-11, so it is not tolerance-converged.",
+    "reason": "The qualitative result holds. The quoted ranges are limited by sampling (8 independent of 16). The full-run realization lies on my phase curve (psi/pi 0.53-0.56 gives 2.17-1.89 Gyr at a 0.99-0.95), but that run is not converged.",
+    "independent_check": "misc_v.out: '(b) representative, 32 phases: circuit in 32/32; 0.9420 - 12.7752 Gyr before the crunch; a = 0.7445 - 1.1881'; '(c) ... t_crunch diff 2.0734 /H0 = 30.08 Gyr (rel 1.21e-05)'"
+   },
+   {
+    "claim_id": "C25",
+    "verdict": "corrected",
+    "corrected_statement": "Light emitted today goes all the way round before the crunch in every phase only for f = 2 MbarP, w0 = -0.95 (all six curvatures). It does so in some phases (1 of 8) also for (|Ok|, f, w0) = (1e-2, 1, -0.95), (1e-3, 1, -0.95), (3e-4, 2, -0.9), (1e-5, 1, -0.95), (1e-5, 1, -0.9). It reaches our antipode at t/t_turn = 0.96-1.13 in every history.",
+    "reason": "'Only' depends on the mirror-degenerate phase sample. The antipode range reproduces.",
+    "independent_check": "compare_v.out: 'Ok -0.01 f 1 w0 -0.95: analyst 0/4, verifier 1/8' (and 4 more), 'Ok -0.01 f 2 w0 -0.95: analyst 4/4, verifier 8/8'; summary_v.out: 't_antipode(today)/t_turn min 0.960061 max 1.12587'"
+   },
+   {
+    "claim_id": "C26",
+    "verdict": "confirmed",
+    "reason": "w_eff = 1 at a = 1e-10 in all 96 x 8 collapses. This is within the minimal model. The dual Einstein a^-6 term (analyst's open item) would change the crunch.",
+    "independent_check": "summary_v.out: 'w_eff at a=1e-10 (all phases) min 1 max 1'"
+   },
+   {
+    "claim_id": "C27",
+    "verdict": "corrected",
+    "corrected_statement": "In the representative contraction, tau's oscillation energy first exceeds the hilltop value 2V0 at a = 0.50-1.30. The field first actually passes the hilltop later, at a = 0.11-0.53 (32 phases). It winds about 8.6-9.2 times by a = 1e-10.",
+    "reason": "The analyst's 'over_top' event is E_osc - 2V0 crossing zero, an energy criterion, not passage. Windings reproduce.",
+    "independent_check": "phase_v.out (|Ok| 0.001 block): 'hill a' values 0.1139 ... 0.5348; 'wind -8.70' ... '+9.23'; analyst cc.py Event('over_top', m.Eosc(...) - 2*m.V0)"
+   },
+   {
+    "claim_id": "C28",
+    "verdict": "confirmed",
+    "reason": "Both late-time exponents reproduce, and the open-case time matches to 7 digits. The analyst actually used theta_i = 1.499369388 (contrasts.out), not 1.4994. With 1.4994 my flat t(a=1e8) is 7.354991e12 Gyr against the analyst's 7.354656e12; the exponent is unchanged.",
+    "independent_check": "contrasts_v.out: 'Ok = +0: ... a = 1e8: t = 7.354991e+12 Gyr, H t = 0.666667'; 'Ok = +0.001: ... a = 1e8: t = 4.587161e+10 Gyr, H t = 0.999910'"
+   },
+   {
+    "claim_id": "C29",
+    "verdict": "confirmed",
+    "reason": "Algebra: H^2 = Or/a^4 + Om/a^3 + Ok/a^2 + rho_tau/3 with Ok >= 0 and rho_tau >= 0 is positive. My flat and open runs never reach F = 0.",
+    "independent_check": "contrasts_v.out: 'turnaround: none (F > 0 for all a: F min on grid 1.554e+00)' (flat), '1.557e+00' (open)"
+   },
+   {
+    "claim_id": "C30",
+    "verdict": "confirmed",
+    "reason": "Closed LambdaCDM with Omega_L = 0.6949 never turns around.",
+    "independent_check": "contrasts_v.out: 'Omega_L = 0.694908473, V0 = 1.042362709, sqrt(OL) = 0.833611704; min_a H^2 = 0.694907 at a = 47.2063 (no turnaround)'"
+   },
+   {
+    "claim_id": "C31",
+    "verdict": "confirmed",
+    "reason": "A different route: cosmic-time integration from a = 1 with H from the Raychaudhuri equation, the constraint monitored (<= 2e-11), then e-fold collapse. All numbers match to 6 decimals.",
+    "independent_check": "contrasts_v.out: '0.5 -0.7 | ... | 1.533030 23.706645 10.181848 34.783372'; '2 -0.95 | ... | 5.708309 55.573317 41.846212 66.015717 10.442400'; crunch-turn '7.396063' (f=2,w0=-0.7) and '14.899000' (f=0.2,w0=-0.95)"
+   },
+   {
+    "claim_id": "C33",
+    "verdict": "corrected",
+    "corrected_statement": "The averaged description agrees with the analyst's full integration to the full run's own accuracy, which is about 3e-6 in a_max and t_turn and 1.2e-5 in t_crunch, judged by halving that run's tolerance. The residuals bound the averaging error only to that level.",
+    "reason": "In validate.out, the representative full runs at rtol 1e-10 and 5e-11 differ by 3.35e-6 in a_max and 30 Gyr in t_crunch. That is comparable to the quoted averaged-vs-full differences. My averaged code agrees with the analyst's averaged code to <= 1.8e-6.",
+    "independent_check": "misc_v.out: '(c) analyst full runs rtol 1e-10 vs 5e-11: a_max rel 3.35e-06; t_turn diff 0.2710 /H0 = 3.931 Gyr ...; t_crunch diff 2.0734 /H0 = 30.08 Gyr (rel 1.21e-05)'"
+   },
+   {
+    "claim_id": "C34",
+    "verdict": "corrected",
+    "corrected_statement": "Halving the tolerance changes a_max and t_turn by <= 9.6e-8 (analyst's run). The actual uncertainty of these numbers is about 2e-6, set by the averaging switch and shown by two independent codes agreeing to 1.8e-6.",
+    "reason": "I did not re-run the analyst's tolerance-halving. My independent code and R-convergence give the larger real error.",
+    "independent_check": "compare_v.out: 'a_max 1.80e-06', 't_turn 1.80e-06', 'Od_turn 2.13e-06'; repr_v.out: a_max 1726.1264281 (R=1000) vs 1726.1270885 (R=3000)"
+   },
+   {
+    "claim_id": "C35",
+    "verdict": "confirmed",
+    "reason": "The anchors are textbook exact solutions independent of the paper: the dust cycloid and the closed dust+radiation solution a = A(1-cos eta) + B sin eta. My own integrator passes the same anchors to ~1e-11. I read the analyst's anchors.out only after my checks, and its printed errors are as quoted.",
+    "independent_check": "anchors_v.out: 'PASS Ok=-1e-05 Or=9.15e-05: a_max 99991.847357; ... t_turn -1.1e-11 chi_turn -1.7e-11; crunch side ... chi -3.3e-11'; 'integrator anchors: 0 failures'"
+   },
+   {
+    "claim_id": "C36",
+    "verdict": "confirmed",
+    "reason": "Reproduces.",
+    "independent_check": "summary_v.out: 'tau fraction of density at turnaround min 0.688166 max 0.99785'; 'Omega_d at turnaround min 0.695151 max 146.196'"
+   },
+   {
+    "claim_id": "C37",
+    "verdict": "confirmed",
+    "reason": "The count reproduces (489.5 vs 489.1 at the low end, from the counting convention). My dense phase scans show chi_crunch is strongly phase-sensitive, which supports the inference.",
+    "independent_check": "summary_v.out: 'oscillations first-min -> turnaround min 489.493 max 8.38055e+08'"
+   },
+   {
+    "claim_id": "C38",
+    "verdict": "confirmed",
+    "reason": "[S] I retrieved the quote myself; the sigma arithmetic is trivial. It is a LambdaCDM+Omega_K fit, as the analyst says.",
+    "independent_check": "https://ar5iv.labs.arxiv.org/html/1807.06209: 'The joint constraint with BAO measurements on spatial curvature is consistent with a flat universe, \u03a9K=0.001\u00b10.002.'; sizes_v.out: 'Omega_k = -0.01: ... = 5.50 sigma', 'Omega_k = -0.003: ... = 2.00 sigma'"
+   },
+   {
+    "claim_id": "C39",
+    "verdict": "confirmed",
+    "reason": "[S] I retrieved the quote myself; 1/21^2 = 0.002268. Negative curvature means open.",
+    "independent_check": "https://arxiv.org/abs/2505.00659: 'a small but negative spatial curvature with R_k = 21 H_0^{-1}' ... 'which DESI measures at 2\u03c3 when combined with CMB data.'; sizes_v.out: 'R_k = 21/H0 -> Omega_k = 1/21^2 = 0.002268'"
+   },
+   {
+    "claim_id": "C40",
+    "verdict": "confirmed",
+    "reason": "[D] This follows from a*atilde = 1 and the confirmed a(t). atilde still diverges as a -> 0 if the dual Einstein term halts the finite-time crunch, though then only as t -> infinity.",
+    "independent_check": "sizes_v.out: 'atilde_min = 1/a_max = 5.793318e-04'; summary_v.out: every collapse reaches a = 1e-10"
+   },
+   {
+    "claim_id": "C7",
+    "verdict": "unverifiable",
+    "reason": "Not reached. It needs closed histories at |Omega_k| = 0.1-0.5, outside the grid.",
+    "independent_check": "none run"
+   },
+   {
+    "claim_id": "C32",
+    "verdict": "confirmed",
+    "reason": "Same cosmic-time route as C31; closing always shortens the time.",
+    "independent_check": "contrasts_v.out: f=2 w0=-0.95 '-2.961e-06'; f=0.2 w0=-0.7 '-9.240e-03'"
+   }
+  ],
+  "record_error_verdicts": [
+   "RE1 (over-constraint fails in the closed case), partly upheld: the scaling is confirmed. At fixed (w0, waT), d ln t_turn/d ln|Ok| = -1.4878 to -1.5047, tending to -1.5 (overcon_v.out). V0 cos(tau/f) is shifted by <= 0.924% at Omega_k = -1e-2 (contrasts_v.out '-9.240e-03'). But by the record's own counting, V0 is fixed by a measured Omega_DE, and Omega_k can be treated as a measured input in the same way, so 'a third parameter' is a choice of framing. The substantive error is that t_turn is controlled by Omega_k, which data do not fix even in sign, and t_turn is not a measurement at all. Flag 27 had already made t_turn undefined in the record's flat setting.",
+   "RE2 ('eventually goes negative ... halts and reverses' and HANDOFF \u00a72 'eventual negative V => turnaround'), upheld. I checked the quotes at #11 line 106 (\u00a710) and HANDOFF line 23 (\u00a72). With V0[1+cos] >= 0, a closed universe turns around once tau has decayed to dust-like oscillation. The hilltop-frozen control does not turn around (contrasts_v.out 'min_a H^2 = 0.694907'). This is consistent with round-5 R11. Restricting flag 27's 'As written, t_turn is undefined' to flat and open geometry is correct.",
+   "RE3 (corridor wa = -1.5(1+w0) stated without a CPL convention), upheld. Taylor -wa/(1+w0) = 1.607-7.877 (summary_v.out). The least-squares fit over 0<z<2 gives 1.50-1.55 for f >= MbarP in the continuous uniform-in-a version (summary_v.out '1.49885 max 1.54751'). The analyst's 1.49-1.54 is the 41-point discrete version. The upper digit differs, not the conclusion. This adds to flag 43, which already covers the quadrant.",
+   "RE4 ('slow contraction begins' unquantified), not upheld as an error, though the quantification is confirmed. For V0 cos(tau/f) in flat space, turnaround to crunch takes 7.396-14.899 Gyr (contrasts_v.out). 'Slow' is a judgment, and the analyst itself calls this a quantification rather than an error."
+  ],
+  "missed_issues": [
+   "The phase sampling is mirror-degenerate. grid.py PH = (0, pi/2, pi, 3pi/2) and the representative's 2 pi j/16 cover a full period. Phases phi and phi+pi give delta -> -delta, p -> -p and identical a(t), as summary.out phase lines 56/58 and 57/59 show with identical chi_crunch. The grid therefore has 2 independent phases and the representative 8. This drives the errors in C22, C23, C24 and C25, and it is why the grid counts take only the values 0, 2 and 4.",
+   "chi_crunch has narrow, tolerance-converged spikes near a separatrix phase, where tau barely clears or turns back at its hilltop in the collapse: +4.76 sqrt|Ok| against a typical 3.4 (phase_v.out). Band and full-circuit statistics are limits of the sampling, not properties of the histories. Practical unpredictability (C37) is stronger than stated.",
+   "The C15 unit error: the representative crunch spread is 11.4 Gyr, not 1.1e4 yr.",
+   "The full no-averaging integration of the representative is not converged in the collapse. Between rtol 1e-10 and 5e-11 its t_crunch moves by 30.1 Gyr, more than the whole 16-phase spread of 11.4 Gyr, and t_turn by 3.9 Gyr. Its turnaround constraint violation is 1.48e-5 (validate.out). The 'full integration: 2.08 Gyr before the crunch at a = 0.98' and the C33 t_crunch agreement therefore carry no information beyond about 1e-5.",
+   "30 of 96 grid histories, all of f = 2 and 6 of f = 1, start beyond the inflection point theta_i > pi/2 (misc_v.out (e)). Up to 2.32 rad of the pi to the minimum, they are not hilltop quintessence, and near-hilltop approximations such as the thawing corridor do not apply to them. The task's 'thawing from the hilltop' holds only for f <= 0.5 and part of f = 1.",
+   "Omega_m = 0.315, h = 0.674 and Neff = 3 massless are held at Planck LambdaCDM values across all (w0, Omega_k). Real fits shift Omega_m and H0 with w0 and Omega_k, so absolute ages, a_max and t_turn are conditional on that choice. The representative age is 13.54 Gyr against 13.79 for LambdaCDM.",
+   "Light from the bang closing its circuit (C23-C24) and the crunch time ignore the dual Einstein a^-6 term. The analyst lists that term as open. It would replace the finite-time w = 1 crunch, so every crunch-side number is conditional on the minimal GR + tau model."
+  ],
+  "not_reached": [
+   "C7 (flat-universe Omega_d estimate at |Omega_k| = 0.1-0.5): needs off-grid closed histories; not run",
+   "C4 direct three-oscillation average (-9.730e-8): needs a full field integration; I confirmed only the pendulum value",
+   "C33 and C24 full-integration realization: I did not run my own no-averaging integration (about 1e7 pure-Python steps). I assessed them only from the analyst's printed tolerance pair",
+   "C34 tolerance-halving numbers on the analyst's code: not re-run; real accuracy taken from the comparison between the two codes",
+   "the open items (dual Einstein term, X sector, perturbations): out of scope for this numbers check"
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/cm.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/hist.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/anchors_v.py (-> anchors_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/scan_v.py (-> scan_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/repr_v.py (-> repr_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/grid_v.py (-> grid_v_1e-2.out, grid_v_3e-3.out, grid_v_1e-3.out, grid_v_3e-4.out, grid_v_1e-4.out, grid_v_1e-5.out, grid_v.jsonl)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/summary_v.py (-> summary_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/overcon_v.py (-> overcon_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/sizes_v.py (-> sizes_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/contrasts_v.py (-> contrasts_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/phase_v.py (-> phase_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/compare_v.py (-> compare_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/lsfit_v.py (-> lsfit_v.out)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-dynamics-numbers/misc_v.py (-> misc_v.out)"
+  ],
+  "overall": "Most of the dynamics analysis checks out; the light-circuit statistics do not.\n\n**What holds.** I rebuilt the background independently, with a different time variable, a different treatment of the late oscillation and my own integrator; it passes the exact closed dust+radiation anchors to about 1e-11. The analyst's main numbers reproduce:\n- All 96 grid histories agree to <= 1.8e-6 in a_max, t_turn and Omega_d, and to about 1e-9 in theta_i, V0 and waT. That covers:\n  - turnaround and crunch in every history, C1, C2, C3, C5, C8-C14 and C36;\n  - the size of momentum space at the turnaround, atilde_min = 7.36e-8 to 9.8e-3;\n  - the radius of position space at the turnaround, R_max = 4.54e3 to 1.91e10 Gpc.\n- The |Omega_k|^-1.5 scaling at fixed (w0, wa): C17 and C18.\n- The flat, open and hilltop-frozen contrasts, and the V0 cos(tau/f) timings, which I recomputed by a cosmic-time route: C28-C32.\n- The two literature quotes, which I retrieved myself: C38 and C39.\n\n**What fails.**\n- **Phase sampling.** The grid's four exit phases are two mirror pairs, so only two independent phases were sampled, and the representative case had 8 independent phases, not 16. With 8 independent phases:\n  - the \"none in 6 histories\" result is refuted, because no history fails in every phase (C23);\n  - the chi_crunch band reaches +4.76 sqrt|Omega_k|, not +3.60, from a converged spike near a separatrix phase (C22);\n  - \"only f = 2, w0 = -0.95\" is corrected, because five more histories send today's light round in some phase (C25);\n  - the representative light-circuit ranges widen (C24).\n- **C15 unit error.** The crunch spread is 11.4 Gyr, not 1.1e4 yr.\n- **Unconverged full integration.** The representative run without averaging moves its crunch by 30 Gyr under tolerance halving. Its single realization (2.08 Gyr before the crunch, used in C24) and the t_crunch agreement in C33 are therefore not meaningful.\n- **Smaller corrections.** \"Over the hilltop\" in C27 is an energy criterion, not the field actually passing the hilltop. The least-squares CPL numbers in C16 are a 41-point discrete version of the fit. C19's \"a third parameter\" is a framing: Omega_k can be counted as measured, like Omega_DE.\n\n**Record errors.** RE2 and RE3 are upheld. RE1 is partly upheld: t_turn is set by Omega_k, which data do not fix even in sign. RE4 is a quantification rather than an error.\n\n**Scope.** 30 of the 96 histories start beyond the potential's inflection point, so they are not hilltop thawing."
+ }
+}

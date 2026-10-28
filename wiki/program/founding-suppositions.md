@@ -17,6 +17,8 @@ sources:
   - "notes/broken-born-theory.md §6"
   - "verify/soliton_obituary.py"
   - "popsci/angle-of-the-mirror.md 'The method is the message'"
+  - "notes/closed-universe.md §2"
+  - "review/wiki-build-flags.md item 27 (addendum)"
 ---
 
 *The founding suppositions are the eleven ideas P.R. brought to the program at its start. Appendix A of the [checkpoint](/wiki/history/documents/checkpoint) (#11) lists each with the fate the later work gave it. One became the program's hard core. Others survived in changed form: the conjugate universe became a second description of one state, conjugate matter became a dark-matter candidate that clusters in space like any other, and the idea that momentum space has its own gravity became a heavy, hidden field. One was promoted to a theorem, one split into a dead half and a living half, one was already established physics, and two died, including the founding image of dark matter clumping in velocity rather than in space. The audit is the record of which parts of the starting picture the calculations kept.*
@@ -86,7 +88,7 @@ The rigidity of ω fixes the volume of a comoving cell of phase space, so the po
 
 ### 7. Our expansion reverses at their bounce
 
-The correction is to read the two events as one: through a·ã = 1, our turnaround and the conjugate universe's bounce are the same event in two descriptions, "by constraint identity" (#11 §10; [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). The turnaround needs the dark-energy potential V(τ) to become negative, a point the documents leave unresolved (see flag 27 in `review/wiki-build-flags.md`; [Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)). It is a long-horizon prediction ([row 5](/wiki/predictions/fate-of-expansion)); "live at DESI DR3" refers to the near-term proxy, the dark-energy drift of [row 4](/wiki/predictions/dark-energy-drift), for which #11 §10 calls DR3 "the decisive test".
+The correction is to read the two events as one: through a·ã = 1, our turnaround and the conjugate universe's bounce are the same event in two descriptions, "by constraint identity" (#11 §10; [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). The turnaround needs the dark-energy potential V(τ) to become negative, a point the documents leave unresolved (see flag 27 in `review/wiki-build-flags.md`; [Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)). The flag's addendum (2026-10-27) finds that with the potential as written the turnaround happens in a closed universe, with V ≥ 0 throughout, and never in a flat or open one ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)). It is a long-horizon prediction ([row 5](/wiki/predictions/fate-of-expansion)); "live at DESI DR3" refers to the near-term proxy, the dark-energy drift of [row 4](/wiki/predictions/dark-energy-drift), for which #11 §10 calls DR3 "the decisive test".
 
 ### 8. Synchronized, not causal; Fourier/holography
 
@@ -127,3 +129,4 @@ The dead items, 3 as dynamics, 5 as an explanation and 9, are also on the handof
 - `notes/broken-born-theory.md` §6 — "dust maps to dust" under the corrected dictionary (lab notebook, superseded as reference)
 - `verify/soliton_obituary.py` — the [V] numbers of the soliton obituary
 - `popsci/angle-of-the-mirror.md` 'The method is the message' — "already executed two of the founding ideas" (popular article; not a status source)
+- `notes/closed-universe.md` §2; `review/wiki-build-flags.md` item 27's addendum — the turnaround in a closed universe with V ≥ 0

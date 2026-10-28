@@ -22,6 +22,9 @@ sources:
   - "review/round5/referee-B/audit-notes.md"
   - "notes/toy-lagrangian.md 'Success criteria', 'Predictions', 'Assessment against the predictions'"
   - "review/wiki-build-flags.md item 35"
+  - "review/closed-universe/preregistration.md"
+  - "review/closed-universe/README.md"
+  - "notes/closed-universe.md §10"
 ---
 
 *Pre-registration is the practice of writing down the verdict a blind review is expected to return and the weakest point the referee is expected to find, and fixing that forecast before the referee is dispatched: in rounds 3 and 4 by committing it to the repository, in round 5 by keeping it outside the repository and recording its hash. Because the forecast is fixed in advance it cannot be adjusted to the outcome, and scoring it afterwards measures how well the author judges the author's own work. The record so far: the verdict was forecast correctly in rounds 1 and 2, missed in round 3 and forecast correctly in rounds 4 and 5; the location of the weakest link was forecast correctly in rounds 4 and 5, while the severity of the defect there in round 4, and the number of small errors and the extent of prior art in round 5, were underestimated. Since round 3 the forecast is kept out of the commit subject, because a referee subagent sees recent commit subjects.*
@@ -114,6 +117,18 @@ The adjudication scored it (`review/round5-adjudication.md`, 'Pre-registration s
 
 The table is quoted as written. In it, c is the ratio of the backgrounds of the two metrics of bimetric gravity, which version 1.1 of the note writes u; CKN is the Cohen–Kaplan–Nelson bound; `g_*` at T_P is the effective number of relativistic degrees of freedom at the Planck temperature; and A and B are the two referees. The forecast found the right place and the right premise, and missed what was wrong there: the cited coupling formula carries the background ratio, which the note had dropped ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). It expected no surviving numerical indictment, and five minor ones survived, four of them in the conventions it had listed. Its novelty forecast missed: the referees found prior art for the self-dual length, for the test at the dark-energy length, for the reading of squeezing as an e-fold clock and for self-dual bounces.
 
+### The closed-universe investigation (not a review round)
+
+The same practice was applied on 2026-10-27 to an investigation rather than a review. Before any agent was dispatched to work on Paul's question about a closed universe, the expected answers were written down as eleven predictions with confidences, P1–P11, and the file was "Kept out of every agent folder; never named in a prompt" (`review/closed-universe/preregistration.md`); its hash, SHA-256 `5b1fb2334c316d2780fd47f8aca49a26663b9214f5d2ac86b31ecb9a0fd3f564`, is recorded in `review/closed-universe/README.md`. The note scores it (`notes/closed-universe.md` §10; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#record-of-the-investigation)):
+
+- confirmed: P1 (a turnaround if and only if k = +1), P3 (size and timing, 8 of 8 matching histories), P9 (the radius–mass pairing), P10 (no over-constraint without Ω_k) and P11 (the Z₂ textures);
+- confirmed and strengthened: P7 (reciprocity breaks globally) and P8 (nothing observable from the finite volume);
+- P2, the data: the numbers confirmed, without the forecast anticipating that w₀wₐ+Ω_K is the wrong proxy; P4: mostly confirmed, having described the conjugate picture only as a lattice;
+- partly wrong: P5, the pre-registered weakest link, since the normalization is a gauge choice and row 10's knob survives as a postulate; and P6, since the Higuchi bound holds during inflation and the gradient instability is the problem;
+- the expected overall answer called closure "natural for the program"; it is not, since nothing derives it.
+
+No review round followed; the note has not been reviewed.
+
 ### Across rounds
 
 The round-5 adjudication sums up the record:
@@ -162,3 +177,4 @@ Round 5's forecast was not committed at all. The pre-registration says it was "k
 - `HANDOFF.md` §5, §6, §7 — the rule as handed over, with the superseded "2-for-2"; the round-1 and round-2 verdicts; the request for explicit calibration
 - `notes/toy-lagrangian.md` 'Success criteria (fixed 2026-10-19, before any construction)', 'Predictions (written before construction)' — the same discipline applied to the toy-model calculation
 - `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, awaiting a ruling
+- `review/closed-universe/preregistration.md`, `review/closed-universe/README.md` and `notes/closed-universe.md` §10 — the closed-universe investigation's sealed forecast, its hash and its scoring

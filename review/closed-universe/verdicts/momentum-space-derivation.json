@@ -1,0 +1,304 @@
+{
+ "analysis": "momentum-space",
+ "lens": "derivation",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "C1",
+    "verdict": "confirmed",
+    "reason": "Re-derived. With rho_tau >= 0, H = 0 needs |Ok| a^2 - Om a - Or >= 0. The positive root is (Om + sqrt(Om^2 + 4|Ok|Or))/(2|Ok|). The a^-6 dual Einstein term multiplies H^2, so it drops out at H = 0. The bound is necessary but not attained; even the fastest decay a canonical scalar allows (w <= 1, rho_tau >= rho_tau0 a^-6) moves it by under 0.01%.",
+    "independent_check": "v_friedmann.py: '|Omega_k| = 1e-02: a_min = 31.5003  (Om/|Ok| = 31.5; radiation shifts it by 9.28e-04 %)', '|Omega_k| = 1e-05: a_min = 31500'; v_extra.py: '|Ok|=1e-02: a_max >= 31.5025 (Om/|Ok| = 31.5; shift 7.98e-03 %)'"
+   },
+   {
+    "claim_id": "C2",
+    "verdict": "confirmed",
+    "reason": "The count follows from C1's bound on the grid |Ok| in {1e-5..1e-2} x a_max in {1e2..1e6}.",
+    "independent_check": "v_friedmann.py: 'excluded: 6 of 20: [(1e-05, 100.0), (1e-05, 1000.0), (1e-05, 10000.0), (0.0001, 100.0), (0.0001, 1000.0), (0.001, 100.0)]'"
+   },
+   {
+    "claim_id": "C3",
+    "verdict": "corrected",
+    "reason": "The Raychaudhuri inequality is right. The gloss 'potential energy cannot dominate' does not follow in general: the condition is V <= rho_m/2 + rho_r + 2K, so a large kinetic term (an oscillating field, for example) allows V > rho_m. The gloss holds only for K << V.",
+    "independent_check": "v_friedmann.py (sympy): 'rho + 3p = 4*K - 2*V + rho_m + 2*rho_r' and 'V-only content: rho + 3p = -2*V < 0 -> minimum of a (bounce), not a turnaround'",
+    "corrected_statement": "A maximum of a at H = 0 (a'' <= 0) needs rho_m + 2 rho_r + 4K - 2V >= 0, i.e. V <= rho_m/2 + rho_r + 2K. With slow roll (K << V), tau's potential cannot exceed about half the matter density at a turnaround; with K comparable to V it can. If the inequality fails at H = 0, the event is a bounce, not a turnaround."
+   },
+   {
+    "claim_id": "C4",
+    "verdict": "confirmed",
+    "reason": "From H^2 = (8 pi G/3) rho - c^2/R^2 at H = 0 and V = 2 pi^2 R^3, sympy gives G M/c^2 = 3 pi R/4, and M c/(m_P c) equals (3 pi/4) R/l_P exactly. rho_(l_P) sends p = Mc to G M/c^2. As the analyst says, this restates Friedmann; M_tot is not conserved.",
+    "independent_check": "v_friedmann.py: 'G M_tot / c^2 = 3*pi*R/4'; 'M_tot c/(m_P c) = 3*pi*R*c**(3/2)/(4*sqrt(G)*sqrt(hbar))  ; (3 pi/4) R/l_P = 3*pi*R*c**(3/2)/(4*sqrt(G)*sqrt(hbar))'; 'for p = M c: G*M/c**2'"
+   },
+   {
+    "claim_id": "C5",
+    "verdict": "confirmed",
+    "reason": "hbar c/R0 = hbar H0 sqrt|Ok| holds with my own constants, and the S^3 level spacing tends to hbar/R. On S^3/Gamma with -1 in Gamma (RP^3, the dodecahedral space) only odd nu survive, so there the spacing is 2 hbar/R; see missed issues.",
+    "independent_check": "v_grain_radiation.py: '|Ok|=1e-02: hbar c/R0 = 1.4377e-34 eV (hbar H0 sqrt|Ok| = 1.4377e-34 eV)', '|Ok|=1e-05: hbar c/R0 = 4.5465e-36 eV'; 'S^3 level spacing ... at nu=1001: 1.000000; odd-nu only (RP^3, PDS): 2.000001'"
+   },
+   {
+    "claim_id": "C6",
+    "verdict": "confirmed",
+    "reason": "Checked by a route independent of the analyst's embedding. In a left-invariant frame on SU(2), the rough Laplacian is -sum(2J_k + A_k)^2, which equals 2j(j+1) - s(s+1) + 2J(J+1); I checked this numerically for s = 0, 1, 2. The J = j +- s branches give nu^2 - (s+1) with 2(nu^2 - s^2) modes. The scalar values were also checked in hyperspherical coordinates.",
+    "independent_check": "v_spectra.py: 'spin s = 1: eigenvalues match 2j(j+1) - s(s+1) + 2J(J+1) for 2j = 0..8'; 's=1: ... [(2, 2.0, 2, 3), (3, 7.0, 7, 8), ...]'; 's=2: ... [(3, 6.0, 6, 5), (4, 13.0, 13, 12), ...]'; '-lap(degree 3 harmonic) / f = 15'"
+   },
+   {
+    "claim_id": "C7",
+    "verdict": "confirmed",
+    "reason": "For left-invariant fields, curl v = eps_ijk eps_jlk v_l = -2v; right-invariant fields have the opposite sign. The Hodge eigenvalue on coexact 1-forms is (nu^2 - 2) + Ric = nu^2, so omega_min = 2c/R. The scalar minimum is sqrt3, and the tensor equation gives sqrt(nu^2 - 1) = sqrt8 at nu = 3 (the tensor equation is [T], not re-retrieved).",
+    "independent_check": "v_spectra.py: 'curl on left-invariant fields =  [-2. -2. -2.] x identity'; 'sqrt(nu^2-1) at nu=3: 2.8284271247461903'"
+   },
+   {
+    "claim_id": "C8",
+    "verdict": "confirmed",
+    "reason": "I built the 120 quaternions of 2I and took m(j) from characters, independently of Klein's invariants. This reproduces nu = 13, 21, 25 (59 modes), then 31.",
+    "independent_check": "v_spectra.py: 'scalar modes (nu, count): [(1, 1), (13, 13), (21, 21), (25, 25), (31, 31), (33, 33)] ; first three nonzero levels total 59'; 'lowest nonzero scalar: nu = 13, -lap R^2 = 168, sqrt = 12.9615, ratio to sqrt3 = 7.483'"
+   },
+   {
+    "claim_id": "C9",
+    "verdict": "confirmed",
+    "reason": "Character counts with Gamma on the left factor give the claimed modes. The analyst's s3_spectra.out graviton list omits the 21 opposite-helicity modes at nu = 23, which lie outside the claim's statement.",
+    "independent_check": "v_spectra.py: 'photon ... [(2, 3, 0), (12, 0, 11), (14, 15, 0), (20, 0, 19), (22, 23, 0), (24, 0, 23)]'; 'graviton ... [(3, 5, 0), (11, 0, 9), (15, 17, 0), (19, 0, 17), (23, 25, 21)]'"
+   },
+   {
+    "claim_id": "C10",
+    "verdict": "corrected",
+    "reason": "The numbers are right. 'The same at every epoch' is a claim about time that holds only while g_s is constant: across e+e- annihilation aT changes by (11/4)^(1/3), and the recollapse reverses this. The analyst's script states the scope; the claim does not.",
+    "independent_check": "v_grain_radiation.py: '|Ok|=1e-02: <p> R/hbar = 2.701 kT R/(hbar c) = 4.4126e+30', '|Ok|=1e-05: ... = 1.3954e+32'; '(aT)_after/(aT)_before = (11/4)^(1/3) = 1.4010'",
+    "corrected_statement": "The mean CMB photon's S^3 mode number 2.701 k_B T R/(hbar c) is constant from the end of e+e- annihilation until the recollapse re-heats the radiation past about 0.5 MeV: 4.41e30 (|Ok| = 1e-2), 1.40e32 (1e-5). Across annihilation it changes by 1.40."
+   },
+   {
+    "claim_id": "C11",
+    "verdict": "corrected",
+    "reason": "The numbers are right. The photon number is conserved only after e+e- annihilation (until the recollapse re-heats). S includes three neutrino species. It is the radiation entropy, not the universe's, a distinction the record itself draws (diameter note section 3).",
+    "independent_check": "v_grain_radiation.py: '|Ok|=1e-02: ... N_gamma = 2.0961e+91, S(photons+nu) = 1.4756e+92 kB, S(photons only) = 7.5493e+91 kB'; '|Ok|=1e-05: ... N_gamma = 6.6285e+95, S(photons+nu) = 4.6661e+96 kB'; v_extra.py: 'SMBH entropy scaled to the S^3 ~ 4.5e+106 kB'",
+    "corrected_statement": "The closed universe holds a finite number of CMB photons, conserved since e+e- annihilation: N_gamma = 2.10e91 (|Ok| = 1e-2) to 6.63e95 (1e-5). The photon-plus-neutrino entropy is S = 1.48e92 to 4.67e96 k_B (photons alone 7.55e91 to 2.39e96). This is the radiation entropy only; scaling the record's black-hole entropy gives about 4.5e106 k_B for |Ok| = 1e-2."
+   },
+   {
+    "claim_id": "C12",
+    "verdict": "confirmed",
+    "reason": "sympy gives 2^(1/3) pi^4/(60 zeta3^(4/3)) = (pi^4/30 zeta3)/(4 zeta3)^(1/3) = 1.6004. The same code reproduces the record's ball value, 1.708, as an independent anchor.",
+    "independent_check": "v_grain_radiation.py: 'kappa_S3 = ... = 1.600386'; 'kappa_ball = 1.70812 (record: 1.708)'"
+   },
+   {
+    "claim_id": "C13",
+    "verdict": "confirmed",
+    "reason": "The S^3 spectrum is unbounded. The CKN cutoff takes L = R with the unreduced l_P. My code reproduces the record's 4.19 meV at L = c/H0.",
+    "independent_check": "v_grain_radiation.py: '|Ok|=1e-02: sqrt(l_P R0) = 1.4894e-04 m; cutoff = 1.3249 meV'; '|Ok|=1e-05: ... cutoff = 0.2356 meV'; 'the record's L = c/H0 value: 4.190 meV'"
+   },
+   {
+    "claim_id": "C14",
+    "verdict": "confirmed",
+    "reason": "x' = (l_P^2/hbar)p with p = hbar sqrt(nu^2-1)/R gives a discrete, unbounded image whose spacing tends to l_P^2/R. This holds in the stated slaved-block reading with lambda = l_P, which the record leaves as an untagged choice.",
+    "independent_check": "v_reciprocity.py: '|Ok|=1e-02: first radii 3.2966e-97, 5.3834e-97, 7.3715e-97 m; spacing at nu=1000 1.90331e-97 m; l_P^2/R = 1.90331e-97 m'; '|Ok|=1e-05: ... 6.01878e-99 m'"
+   },
+   {
+    "claim_id": "C15",
+    "verdict": "confirmed",
+    "reason": "Unitary equivalence preserves spectral type. The position algebra L^inf is diffuse and the momentum algebra is atomic, so no unitary exchanges them on T^3 or S^3. Z_N is self-dual.",
+    "independent_check": "v_reciprocity.py: 'N =  1024: position eigenphases in [0, 0.5):   82 (grows ~N ...); momentum eigenvalues |n|<=5: 11 (fixed: pure point)'; 'Z_N self-duality: ... ||F Z F^dag - X|| = 3.12e-15'"
+   },
+   {
+    "claim_id": "C16",
+    "verdict": "corrected",
+    "reason": "I^2 = -1 is an identity for every invertible g, so the analyst's check says nothing about closure. Pointwise, the (H,K)-sector rho is indeed untouched by topology. But P2' makes the breaking physical only through a K-odd matter coupling, and with matter coupled, closure explicitly distinguishes x (compact, continuous) from p (discrete). So 'only finite-volume effects apply' contradicts the analysis' own open item 2.",
+    "independent_check": "v_reciprocity.py (sympy): 'round S^3 metric: I^2 + 1 = True'; 'arbitrary symmetric invertible g: I^2 + 1 = True'; 'I preserves H (I^T H I = H): True'",
+    "corrected_statement": "I = omega^-1 H with H = diag(g, g^-1) satisfies I^2 = -1 and I^T H I = H for every metric, so the tangent-space rho acting pointwise on (H, K) is not broken by closure; in that sector only finite-volume effects apply. Once matter couples to the sign of K, as P2' requires for the breaking to be physical, closure breaks the +-K_ref degeneracy explicitly. The size of that splitting is not computed."
+   },
+   {
+    "claim_id": "C17",
+    "verdict": "confirmed",
+    "reason": "Series from Gaussian moments with the sin^2(chi) weight gives the -2/3 coefficient, and mpmath quadrature over the full S^3 agrees.",
+    "independent_check": "v_reciprocity.py: '<p^2>/(3 hbar^2/(4 sigma^2)) = 1 - 2*epsilon**2/3 + 2*epsilon**4/9 + O(epsilon**6)'; 'sigma/R = 0.003: c = -0.666665'; 'sigma = l_P: 9.245e-125', '1 m: 3.539e-55', '1 Gpc: 3.370e-04'"
+   },
+   {
+    "claim_id": "C18",
+    "verdict": "confirmed",
+    "reason": "Derived the Hamiltonian constraint from the minisuperspace Lagrangian with a shared lapse. Its C = 1, k = k~ = 0 limit reproduces #1 section 6's 3H^2(M_P^2 + M~^2 a^-6) = rho, an anchor taken from the record.",
+    "independent_check": "v_dual.py: 'dual curvature enters as rho_eff = -3*C*Mt**2*kt/(A**4*Rt_c**2)'; 'anchor (C = 1, k = k~ = 0): (3*A**6*H**2*M**2 - A**6*rho(A) + 3*H**2*Mt**2)/A**6 = 0'"
+   },
+   {
+    "claim_id": "C19",
+    "verdict": "confirmed",
+    "reason": "I re-retrieved Planck's N_eff = 2.99 +- 0.17 myself; SM 3.044 stays dagger. One caveat: a background-only negative a^-4 term lacks the free-streaming perturbations behind part of the CMB N_eff constraint, so the mapping holds to order of magnitude.",
+    "independent_check": "v_dual.py: 'Delta N_eff > -0.394 at 2 sigma  =>  |Omega_k~| = (M~/M_P)^2 C (c/(H0 R~_c))^2 < 4.8711e-06'; [S] downloads/planck18/abs.html: 'Combining with BAO we constrain the effective extra relativistic degrees of freedom to be $N_{\\rm eff} = 2.99\\pm 0.17$'"
+   },
+   {
+    "claim_id": "C20",
+    "verdict": "confirmed",
+    "reason": "sympy shows L(C/a) - L(a) vanishes exactly for M~ = M, k~ = k, R~_c = R_c, which gives C < 4.87e-6/|Ok|. This exclusion is subsumed by the record's own a^-6 term: at C = 1 and M~ = M_P that term is 4.5e58 M_P^2 at BBN.",
+    "independent_check": "v_dual.py: 'vanishes for M~ = M, k~ = k, R~_c = R_c: True'; 'C < 4.8711e-01 at |Omega_k| = 1e-05'; 'C = 1, M~ = M_P: the a^-6 term at BBN is 4.506e+58 times M_P^2'"
+   },
+   {
+    "claim_id": "C21",
+    "verdict": "confirmed",
+    "reason": "a_BBN = (T0/T)(g_s0/10.75)^(1/3). The 10% tolerance is the analyst's stated assumption.",
+    "independent_check": "v_dual.py: 'a_BBN = ... = 1.6764e-10'; 'C < 1.3044e-20'; '|Ok| = 1e-02: |Delta N_eff| <= C |Ok|/Omega_nu1 = 1.055e-17'"
+   },
+   {
+    "claim_id": "C22",
+    "verdict": "confirmed",
+    "reason": "rho_lambda(dp) = dx with dp = h/(N dx) gives lambda^2 = N dx^2/(2 pi). The periodized Gaussian is a DFT eigenvector with Delta x^2 = lambda^2/2.",
+    "independent_check": "v_reciprocity.py: 'lambda^2 = N*dx**2/(2*pi) = hbar dx/dp: True'; 'N = 1024: ||Fg - g||/||g|| = 1.7e-13; ... Delta x^2/lambda^2 = 0.50000'"
+   },
+   {
+    "claim_id": "C23",
+    "verdict": "confirmed",
+    "reason": "lambda^2 = dx L/(2 pi) with dx = l_P and L = 2 pi R gives l_P R.",
+    "independent_check": "v_reciprocity.py: '|Ok|=1e-02 a=1e+00: lambda = 1.4894e-04 m'; '|Ok|=1e-05 a=1e+00: lambda = 8.3755e-04 m'; '|Ok|=1e-05 a=1e+06: lambda = 8.3755e-01 m'"
+   },
+   {
+    "claim_id": "C24",
+    "verdict": "confirmed",
+    "reason": "c~ = hbar c/lambda^2 = (c^4/G)(l_P/R), compared with the hydrogen force alpha hbar c/a0^2 = 8.2387e-8 N. This is a stronger form of the record's own exclusion, since R > c/H0.",
+    "independent_check": "v_reciprocity.py: '|Ok|=1e-02 a=1e+00: ... c~ = hbar c/lambda^2 = 1.4252e-18 N, F_H/c~ = 5.7808e+10'; '|Ok|=1e-05 a=1e+00: ... 4.5069e-20 N, F_H/c~ = 1.8280e+12'"
+   },
+   {
+    "claim_id": "C25",
+    "verdict": "confirmed",
+    "reason": "Ratios to the record's 37.7 um aligned-vacuum bound.",
+    "independent_check": "v_reciprocity.py: 'lambda/37.7um = 3.951' (1e-2), '22.22' (1e-5); 'smallest convention (L = R): sqrt(l_P R0/2pi) at |Ok|=1e-2 = 5.9418e-05 m'"
+   },
+   {
+    "claim_id": "C26",
+    "verdict": "confirmed",
+    "reason": "sympy confirms dx = l_P^2/R, N = 2 pi R^2/l_P^2 and |p|max = pi R c^3/G, a ratio of 4/3. The comparison sets a single-mode cutoff against a total energy budget; the 4/3 is geometry.",
+    "independent_check": "v_reciprocity.py: '|p|max = N/2 * h/L = pi*R*hbar/l_P**2 = pi*R*c**3/G'; 'ratio to (3 pi/4) R c^3/G: 4/3'; 'dx = 1.9033e-97 m, N = 4.5309e+124, |p|max = 1.7407e+63 kg m/s = 2.6678e+62 m_P c'"
+   },
+   {
+    "claim_id": "C27",
+    "verdict": "corrected",
+    "reason": "The Betti numbers are right, and b_2 = 0 does exclude S^3 x S^3. But 'must therefore be torus-like' does not follow from b_2: S2xS2xS2 and T2xS2xS2 are compact symplectic. The conclusion is rescued only if X and P are both Lagrangian factors. Then [omega] lies in H^1(X)(x)H^1(P), and [omega]^3 != 0 needs a nonzero triple cup product on H^1(X).",
+    "independent_check": "v_reciprocity.py: 'b(S3 x S3) = [1, 0, 0, 2, 0, 0, 1]'; 'b(S2xS2xS2) = [1, 0, 3, 0, 3, 0, 1]'; 'T^3 x T^3: omega^3 = {(0, 1, 2, 3, 4, 5): -6}'; '(S1xS2)x(S1xS2), mixed class dtheta_X ^ dtheta_P: square = {}'",
+    "corrected_statement": "S^3 x S^3 has b_2 = 0 and admits no symplectic form, so Born's position-sphere-times-momentum-sphere (and PDS x PDS) cannot be a phase space. If position and momentum spaces are both Lagrangian factors, X needs three degree-1 classes with nonzero triple cup product, as T^3 has. T^6 (Z_N^6 when finite) is the basic example, not the only compact symplectic choice."
+   },
+   {
+    "claim_id": "C28",
+    "verdict": "confirmed",
+    "reason": "I retrieved GW 2005 myself; it gives p_min = sqrt(4 Omega/theta). Matching that to sqrt3/R gives Omega = 3 l_P^2/(4 R^2).",
+    "independent_check": "v_gw.py: '|Ok|=1e-02 a=1e+00: Omega = (l_P/R)^2 = 1.3867e-124, matched (3/4)(l_P/R)^2 = 1.0401e-124'; '|Ok|=1e-05 a=1e+06: Omega = 1.3867e-139'; 'anchor ... L = c/H0 ...: 1.387e-122'"
+   },
+   {
+    "claim_id": "C29",
+    "verdict": "confirmed",
+    "reason": "I re-retrieved GW 2004 myself (beta.tex line 111): S[phi;mu0,lambda,Omega] -> Omega^2 S[phi;mu0/Omega,lambda/Omega^2,1/Omega]. With Omega = (l_P/R)^2, Omega -> 1/Omega sends R -> l_P^2/R.",
+    "independent_check": "v_gw.py: 'Omega -> 1/Omega with Omega = (l_P/R)^2 sends R -> [l_P**2/R]'"
+   },
+   {
+    "claim_id": "C30",
+    "verdict": "corrected",
+    "reason": "From the toy note's V_b at H = 1 and its kinetic normalization (f^2/2) phi_dot^2, I derived sigma = 2 sqrt2 f sqrt(mu) and m^2 = 2 mu/f^2. Every number reproduces, and exact diagonalization confirms the WKB exponent. The claim omits the static-background, no-gravity reduction: the instanton's Euclidean duration is 0.49/H0, comparable to the Hubble time. No O(1) change in S alters the conclusion.",
+    "independent_check": "v_ssb.py: 'sigma = ... = 2*sqrt(2)*f*sqrt(mu)'; '|Ok|=1e-02 a=1e+00: ... S = 2.2964e+125'; '|Ok|=1e-05 a=1e+06: ... S = 7.2618e+147'; 'wall thickness 1/m = f/sqrt(2 mu) = 6.7700e+25 m = 0.4933 c/H0'; 'slope of ln(Delta E) - 1.5 ln S against S (last four points) = -0.9964'",
+    "corrected_statement": "In the reduced model (homogeneous zero mode on a static S^3; no expansion, no instanton gravity, no nonzero modes), with the toy potential, f = Mbar_P and mu = rho_Lambda, S = 2 sqrt2 f sqrt(mu) V = 2.30e125 (|Ok| = 1e-2, today) to 7.26e147. The wall thickness and the instanton's duration are 0.49 c/H0 and 0.49/H0, so the static reduction is not self-consistent, but the splitting exp(-10^125) survives any O(1) correction."
+   },
+   {
+    "claim_id": "C31",
+    "verdict": "confirmed",
+    "reason": "I = f^2 V, E1 - E0 = 1/(2I), and the spread time is 2 I sigma0 sqrt(1 - sigma0^2). All at fixed V; expansion only slows the spreading.",
+    "independent_check": "v_ssb.py: '|Ok|=1e-02 a=1e+00: I = 3.9393e+157 eV^-1, E1-E0 = 1.2693e-158 eV, spread 0.1 -> 1 rad: 5.1598e+141 s = 1.1856e+124 flat ages'; '|Ok|=1e-05 a=1e+06: ... E1-E0 = 4.0138e-181 eV ... = 3.7492e+146 flat ages'"
+   },
+   {
+    "claim_id": "C32",
+    "verdict": "confirmed",
+    "reason": "Solved 2 f^2 V sigma0 sqrt(1 - sigma0^2) = t0 for f.",
+    "independent_check": "v_ssb.py: 'C32: spread time = t0 for f = 2.2366e-35 eV at |Ok| = 1e-02'; '... 1.2577e-37 eV at |Ok| = 1e-05'"
+   },
+   {
+    "claim_id": "C33",
+    "verdict": "confirmed",
+    "reason": "Harmonic expansion at tau/f = pi, with ground-state width 1/(2 I omega). Today tau is near the hilltop, far from this ground state.",
+    "independent_check": "v_ssb.py: '|Ok|=1e-2 today: omega = 2.0610e-33 eV, ground-state width = 2.4816e-63 rad, barrier 2 V0 V = 3.3466e+92 eV'"
+   },
+   {
+    "claim_id": "C34",
+    "verdict": "confirmed",
+    "reason": "Direct computation of 2 pi^2 (R/l_P)^3.",
+    "independent_check": "v_grain_radiation.py: '|Ok|=1e-02 a=1e+00: cells = 1.2087e+187'; '|Ok|=1e-05 a=1e+00: cells = 3.8224e+191'; '|Ok|=1e-05 a=1e+06: cells = 3.8224e+209'"
+   },
+   {
+    "claim_id": "C35",
+    "verdict": "confirmed",
+    "reason": "pi (R/l_P)^2 is A/4 of the equatorial 2-sphere, a convention (S^3 has no boundary). Its ratio to S_dS is Omega_Lambda/|Ok| exactly.",
+    "independent_check": "v_grain_radiation.py: 'de Sitter entropy ... = 3.3072e+122'; '|Ok|=1e-02 a=1e+00: ... pi (R/l_P)^2 = 2.2654e+124, ratio to S_dS = 6.8500e+01'; '|Ok|=1e-05 a=1e+06: ... 2.2654e+139'"
+   },
+   {
+    "claim_id": "C36",
+    "verdict": "confirmed",
+    "reason": "A = (D_x/l_P)/(D_p/m_P c). I recomputed the record's A0 from its flat-LCDM observable radius.",
+    "independent_check": "v_grain_radiation.py: 'whole S^3, |Ok|=1e-02: A today = 2.5670e+93'; '|Ok|=1e-05: A today = 8.1176e+94'; 'A0 = 5.197e+92 ...; A0 a_max^2 for a_max=1e2..1e6: 5.20e+96, ..., 5.20e+104'"
+   },
+   {
+    "claim_id": "C37",
+    "verdict": "confirmed",
+    "reason": "The numbers reproduce; the 1 rad horizon is the analyst's stated assumption. With SM g_s the temperature is 2.3e16 K, still inside the claimed range.",
+    "independent_check": "v_grain_radiation.py: 'chi_p = 0.3188, s0 R0 l_P^2 = 1.0366e-33, S/(A/4) = ... = 4.4663e-34'; 'ratio = 1 at a = 3.996e-17, T = T0/a = 6.821e+16 K (no g_s correction); with g_s = 106.75: T = 2.265e+16 K'"
+   },
+   {
+    "claim_id": "C38",
+    "verdict": "confirmed",
+    "reason": "I re-retrieved the source myself (arXiv:hep-th/9905177).",
+    "independent_check": "[S] downloads/bousso99/x/bound.tex lines 1369-1371: 'The FS bound cannot be applied here.  It would continue to compare entropy and area of the particle horizon, and would be violated'; lines 1394-1396: 'covariant bound remains valid, because it applies only to the future-directed null hypersurfaces'"
+   },
+   {
+    "claim_id": "C39",
+    "verdict": "confirmed",
+    "reason": "R_max = a_min R0 = Om c/(H0 |Ok|^1.5).",
+    "independent_check": "v_friedmann.py: '|Ok|=1e-02: R_max = 4.3234e+28 m = 4.5698e+03 Gly'; '|Ok|=1e-05: R_max = 1.3672e+33 m = 1.4451e+08 Gly'"
+   },
+   {
+    "claim_id": "C40",
+    "verdict": "confirmed",
+    "reason": "2 pi^2 R0^3/((4 pi/3)(c/H0)^3) = (3 pi/2)|Ok|^-1.5.",
+    "independent_check": "v_friedmann.py: '|Ok|=1e-02: V_S3/V_H = 4712.4'; '|Ok|=1e-05: V_S3/V_H = 1.4902e+08'"
+   },
+   {
+    "claim_id": "C41",
+    "verdict": "confirmed",
+    "reason": "sympy confirms a = A sin^2(eta/2), and a numeric integral agrees. a_v = 1 is a hypothetical epoch: dust plus curvature cannot be today's state, since E^2(1) = 0.305.",
+    "independent_check": "v_friedmann.py: 'a = A sin^2(eta/2) solves (da/deta)^2 = A a - a^2: True'; '|Ok|=1e-02: ... 2.78333 rad (numeric 2.78333)'; '|Ok|=1e-05: ... 3.13032 rad'"
+   },
+   {
+    "claim_id": "C42",
+    "verdict": "confirmed",
+    "reason": "a~_min = 1/a_max <= |Ok|/Om. On the 14 allowed placeholder points the largest value is 0.01. The 0.032 holds at a_max = 31.5, which is not a grid point.",
+    "independent_check": "v_friedmann.py: '|Ok|=1e-02: a~_min = 1/a_max <= |Ok|/Om = 3.1746e-02'; 'on the 14 allowed placeholder points the largest a~_min = 0.01'"
+   }
+  ],
+  "record_error_verdicts": [
+   "RE1 (#11 section 3 'Fourier transform implements rho unitarily'): UPHELD, as a scope restriction. On L^2(T^3) or L^2(S^3) no unitary exchanges position and momentum, because their spectral types differ (v_reciprocity.out). The sentence is unscoped in #11 section 3 and in the three wiki pages the analyst names. /usr/bin/grep finds it quoted in four more: wiki/symmetry-breaking/spontaneous-symmetry-breaking.md:40, wiki/symmetry-breaking/mandatory-breaking.md:39, wiki/program/borns-question.md:28, wiki/program/postulates/p3-reciprocity.md:65. It is harmless under section 10's flatness and needs an 'on R^d' scope if closure is adopted. Locally the deviation is O((sigma/R)^2) (C17).",
+   "RE2 (diameter note section 6 / ruling R11, 'a closed universe can turn around without negative energy'): PARTLY UPHELD. Both are true existence statements, so there is no error. The two conditions are correct refinements (v_friedmann.out): a_max >= Om/|Ok|, and rho_m + 2 rho_r + 4K - 2V >= 0 at H = 0. With Planck+lensing+BAO the first becomes a_max > 102 at 2 sigma (v_extra.out).",
+   "RE3 (k~ as an optional knob needing an unstated compact-momentum postulate): PARTLY UPHELD; reading-dependent. In the slaved-block reading, to which diameter note sections 8.2 and 8.4 assign a~, the fibres are flat and k~ != 0 needs a postulate. In a bimetric reading (a second metric on the same S^3 x R), closure forces k~ = k and R~_c = R_c, which is C20's case. Either way row 10's effect is not a consequence of k = +1. At the record's C = 1 a BBN-safe a^-6 step needs (M~/M_P)^2 < 2.2e-60. A closure-tied dual curvature then gives |Delta N_eff| <= 1.8e-57, and a CMB-S4-size 0.03 needs R~_c <~ 0.34 m in minisuperspace units (v_dual.out).",
+   "RE4 (#13 section 1 'only length ... is the Planck length' ignores R): NOT UPHELD. The sentence is about the sector's constants. R is an integration constant of one solution and grows as a, so it cannot be a fixed Born length, and C24 shows such a length is excluded anyway. The sentence is incomplete for another reason: the bimetric sector supplies hbar/(M_X c) < 37.7 um.",
+   "RE5 (Grosse-Wulkenhaar identification carries a factor 2 and an equidistant p^2 spectrum): UPHELD as characterized, a caveat and not a misquote. I retrieved arXiv:hep-th/0401128 myself (downloads/gw05/x/ncphi4-4D.tex lines 4246-4254): 'the spectrum of the squared momentum variable has an equidistant spacing of 4 Omega/theta. Thus, sqrt(4 Omega/theta) is the minimal (non-vanishing) momentum ... We can thus identify the parameter sqrt(Omega) with the ratio of the Planck length to the size of the (finite!) universe.' Setting p_min = 1/L gives Omega = l_P^2/(4 L^2) (v_gw.out). The diameter note quotes the source accurately.",
+   "RE6 (6 of the task's 20 placeholder points violate V >= 0): UPHELD for the grid in claims.json; v_friedmann.out prints 'excluded: 6 of 20'. I could not see the task's grid directly. The grid's upper end |Ok| = 1e-2 is itself 5.6 sigma from Planck+lensing+BAO (v_extra.out)."
+  ],
+  "missed_issues": [
+   "The analysis never confronts the task's curvature range with data. I retrieved Planck 2018 myself (downloads/planck18/x/ms.tex line 4090): 'Omega_K = 0.0007 +- 0.0019' (TT,TE,EE+lowE+lensing+BAO). That puts closed |Ok| = 1e-2 at 5.6 sigma; without BAO (Omega_K = -0.0106 +- 0.0065) it is allowed. At 2 sigma |Ok| < 0.0031, so a_max > 102, a~_min < 0.0098, R_max > 2.5e29 m (2.6e4 Gly) and sqrt(l_P R0) > 2.0e-4 m (v_extra.out). These bounds assume LCDM + Omega_K; a thawing tau loosens them.",
+   "Neither C20 nor the record notes that the record's own a^-6 term already excludes C = 1 with M~ = M_P: the term is 4.5e58 M_P^2 at BBN, far stronger than C20's curvature argument (v_dual.out). At C = 1 with a BBN-safe M~, a dual-curvature Delta N_eff measurable by CMB-S4 needs R~_c <~ 0.34 m in minisuperspace units, which is unrelated to our closure. This bears on #11 section 13 row 10.",
+   "C30's static reduction (and C31's, though there expansion only slows the spreading) is stated in the analyst's script docstring but not in the claims. The instanton lasts 0.49/H0, and the barrier energy mu V is of the order of the whole dark-energy content, so expansion and gravity during the tunnelling are O(1) effects. The conclusion still holds, since no O(1) change in S matters.",
+   "C16 conflicts with the analyst's own open item 2. I^2 = -1 holds for every metric. With the K-odd matter coupling that P2' requires, closure is an explicit breaking of the P5 degeneracy (compact continuous x against discrete p), not only a finite-volume effect. This affects P5 ('the mirror vacuum is equally lawful') in a closed universe.",
+   "Topology changes the momentum grain by a factor 2. On RP^3, the dodecahedral space, or any S^3/Gamma containing -1, only odd nu survive, so the high-nu spacing is 2 hbar/R, not hbar/R (v_grain_radiation.out: 'odd-nu only (RP^3, PDS): 2.000001').",
+   "The analyst's s3_spectra.out graviton list for the dodecahedral space omits the 21 opposite-helicity TT modes at nu = 23; my character count gives (23, 25, 21). This is outside any claim; the code apparently keeps one helicity per nu.",
+   "C27's derivation is insufficient for its conclusion: other compact symplectic 6-manifolds exist. The 'torus-like' result needs both factors Lagrangian, and then a nonzero triple cup product on H^1(X).",
+   "For 'how big does position space get', the V >= 0 bound is in effect the dust-plus-curvature turnaround: even w <= 1 decay of tau shifts it by under 0.01%. A slowly rolling tau (f ~ Mbar_P) keeps energy at the turnaround, so the real a_max sits well above Om/|Ok| and depends on (f, tau_i), which no claim here constrains. Nothing here sets an upper bound on a_max.",
+   "C19's Delta N_eff mapping treats a smooth, perturbation-free negative a^-4 background like free-streaming neutrinos. Part of the CMB N_eff constraint comes from neutrino perturbations, so the 4.9e-6 bound is order-of-magnitude.",
+   "C11's S is radiation entropy. The record itself (diameter note section 3) insists that black holes dominate the universe's entropy; scaling its SMBH figure to the whole S^3 gives about 4.5e106 k_B (v_extra.out)."
+  ],
+  "not_reached": [
+   "Re-retrieval of the Aurich-Lustig-Steiner 2005 quote (C8), the Hu et al. 1998 formula (C6) and the Fischler-Susskind 1998 quote. I checked their content by independent computation but did not re-fetch the sources.",
+   "The dagger citations: Leutwyler 1987, Klein's invariants (replaced by my own character computation), Abbott-Schaefer 1986, and Standard Model N_eff = 3.044.",
+   "Any dynamical a(t) for tau with V0[1+cos(tau/f)] in a closed universe: the attainable a_max, C37's 1 rad recollapse horizon, C41's premise. These are outside this analysis and were not tested against a solution."
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/vconst.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_friedmann.py (.out): C1-C4, C39-C42",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_grain_radiation.py (.out): C5, C10-C13, C34-C37",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_reciprocity.py (.out): C14-C17, C22-C27",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_dual.py (.out): C18-C21, row-10 consequence",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_ssb.py (.out): C30-C33, exact-diagonalization WKB check",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_spectra.py (.out): C6-C9 via SU(2) Casimirs and binary-icosahedral characters",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_gw.py (.out): C28, C29, RE5",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-derivation/v_extra.py (.out): Planck curvature tension, w<=1 bound, black-hole entropy",
+   "Sources retrieved (untrusted data, in downloads/): gw05/x/ncphi4-4D.tex, gw04/beta.tex, bousso99/x/bound.tex, planck18/abs.html, planck18/x/ms.tex"
+  ],
+  "overall": "The momentum-space analysis is arithmetically and analytically sound. I re-derived every load-bearing result with my own constants and code, without the analyst's scripts:\n- the turnaround bound a_max >= Om/|Ok|;\n- the Raychaudhuri condition at H = 0;\n- G M/c^2 = (3 pi/4) R;\n- the grain hbar/R;\n- kappa_S3 = 1.600, anchored by reproducing the record's ball value 1.708;\n- the Gaussian curvature coefficient -2/3;\n- the DFT Born length lambda^2 = N dx^2/2pi with Delta x^2 = lambda^2/2;\n- the dual-curvature negative dark radiation, anchored by reproducing #1 section 6's equation;\n- the minisuperspace a -> C/a invariance;\n- the N_eff and BBN bounds;\n- the wall tension 2 sqrt2 f sqrt(mu), with the WKB exponent confirmed by exact diagonalization (-0.996);\n- the rotor numbers and the counts.\nThe S^3 and dodecahedral spectra (C6-C9) agree by an independent group-theory route. I re-retrieved and confirmed the [S] sources for Planck N_eff, Bousso 1999 and both Grosse-Wulkenhaar papers.\n\nSix claims need correction, all of scope or logic rather than numbers:\n- C3: the 'cannot dominate' gloss holds only for K << V.\n- C10, C11: conservation holds only after e+e- annihilation; S is radiation entropy, with neutrinos included.\n- C16: the I^2 = -1 check is an identity for any metric, and with the K-odd matter coupling closure breaks the polarization degeneracy explicitly.\n- C27: 'torus-like' does not follow from b_2 = 0.\n- C30: the static-background reduction is unstated, and the instanton lasts about 0.5/H0.\n\nOf the record errors, RE1, RE5 and RE6 are upheld, RE2 and RE3 partly, and RE4 not.\n\nMain missed issues:\n- Planck 2018 + BAO (Omega_K = 0.0007 +- 0.0019, retrieved) puts |Ok| = 1e-2 at 5.6 sigma. At 2 sigma the turnaround bound becomes a_max > 102, a~_min < 0.0098, R_max > 2.5e29 m.\n- The record's own a^-6 term already kills C = 1 with M~ = M_P. A BBN-safe a^-6 step at C = 1 leaves any measurable dual-curvature Delta N_eff unrelated to our closure (R~_c <~ 0.34 m), so #11 row 10 is a free knob, not a consequence of k = +1.\n\nFor Paul: momentum space's grain falls to hbar/R_max, a~_min <= |Ok|/Om, and R_max is bounded only from below. The real turnaround epoch depends on tau's dynamics, which this analysis does not compute."
+ }
+}

@@ -1,0 +1,23 @@
+=== (1) dynamics grid: Omega_d at the turnaround against Omega_DE,0 ===
+  |Omega_k| = 1e-02: Omega_d/Omega_DE,0 = 1.0153 .. 210.4;  a_max |Omega_k|/(Omega_m + Omega_DE,0) = 1.0105 .. 145.1
+  |Omega_k| = 3e-03: Omega_d/Omega_DE,0 = 1.0150 .. 201.6;  a_max |Omega_k|/(Omega_m + Omega_DE,0) = 1.0103 .. 138.6
+  |Omega_k| = 1e-03: Omega_d/Omega_DE,0 = 1.0150 .. 199.2;  a_max |Omega_k|/(Omega_m + Omega_DE,0) = 1.0103 .. 136.8
+  |Omega_k| = 3e-04: Omega_d/Omega_DE,0 = 1.0149 .. 198.4;  a_max |Omega_k|/(Omega_m + Omega_DE,0) = 1.0102 .. 136.2
+  |Omega_k| = 1e-04: Omega_d/Omega_DE,0 = 1.0149 .. 198.1;  a_max |Omega_k|/(Omega_m + Omega_DE,0) = 1.0102 .. 136.0
+  |Omega_k| = 1e-05: Omega_d/Omega_DE,0 = 1.0149 .. 198.0;  a_max |Omega_k|/(Omega_m + Omega_DE,0) = 1.0102 .. 135.9
+  smallest ratio 1.01494 at f = 0.2, w0 = -0.7: Omega_d >= Omega_DE,0 holds on the whole grid -> a_max >= (Omega_m + Omega_DE,0)/|Omega_k| ~ (1 + |Omega_k|)/|Omega_k|
+
+=== (2) answer numbers at the curvature bounds (closed-conditional 95%) ===
+  DESI DR2+CMB LCDM+K (published) [P(closed) = 0.018]: |Omega_k| < 0.00113
+     R0 > 132.4 Gpc; a_max > 887; R_max > 1.174e+05 Gpc = 2.242e+65 l_P; t_turn > 6.015e+05 Gyr
+     atilde(turn)/atilde(today) = 1/a_max < 1.128e-03; grain hbar c/R_max < 5.446e-38 eV; T_CMB(turn) < 3.073 mK
+  critic corridor+K fit (DESI DR2 BAO + CMB compressed prior): |Omega_k| < 0.00121
+     R0 > 127.9 Gpc; a_max > 827; R_max > 1.058e+05 Gpc = 2.020e+65 l_P; t_turn > 5.420e+05 Gyr
+     atilde(turn)/atilde(today) = 1/a_max < 1.209e-03; grain hbar c/R_max < 6.045e-38 eV; T_CMB(turn) < 3.294 mK
+  w0wa+K proxy, DR2+CMB+Union3 (published, loosest) [P(closed) = 0.322]: |Omega_k| < 0.00218
+     R0 > 95.2 Gpc; a_max > 459; R_max > 4.367e+04 Gpc = 8.336e+64 l_P; t_turn > 2.237e+05 Gyr
+     atilde(turn)/atilde(today) = 1/a_max < 2.180e-03; grain hbar c/R_max < 1.465e-37 eV; T_CMB(turn) < 5.941 mK
+  cosmic-variance floor (closure unknowable below): |Omega_k| < 0.00010
+     R0 > 444.8 Gpc; a_max > 10000; R_max > 4.448e+06 Gpc = 8.492e+66 l_P; t_turn > 2.279e+07 Gyr
+     atilde(turn)/atilde(today) = 1/a_max < 1.000e-04; grain hbar c/R_max < 1.438e-39 eV; T_CMB(turn) < 0.273 mK
+  (no upper bound on R_max or lower bound on the momentum scale: |Omega_k| -> 0 sends both to the flat limit; a larger Omega_d -- slower thawing -- raises a_max further, up to 145 times the floor on the grid (a_max abs(Omega_k)/(Omega_m + Omega_DE,0) = 1.01-145))

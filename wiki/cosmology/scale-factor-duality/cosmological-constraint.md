@@ -26,6 +26,9 @@ sources:
   - "review/round5-adjudication.md 'Recommendations to Paul'"
   - "review/wiki-build-flags.md items 23, 25"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
+  - "notes/closed-universe.md §2"
+  - "notes/closed-universe.md §7"
+  - "review/wiki-build-flags.md items 27 (addendum), 49"
 ---
 
 *The cosmological constraint is the relation a·ã = 1 between the scale factor a of our universe and the scale factor ã of its momentum-space description, the [conjugate universe](/wiki/program/conjugate-universe): as our universe expands, its momentum-space description contracts by exactly the same factor. It follows from the program's postulate that the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, the structure that fixes the size of a cell of phase space and with it the value of Planck's constant, is rigid. A comoving cell therefore keeps its phase-space volume while position-space distances grow, which forces momentum-space distances to shrink; in signal terms, stretching a waveform compresses its spectrum. The relation is derived [D], and it turned one of the program's [founding suppositions](/wiki/program/founding-suppositions), that the conjugate universe shrinks as ours expands, into a theorem.*
@@ -104,8 +107,8 @@ In string cosmology, scale-factor duality is a symmetry of the low-energy string
 ## What follows
 
 - **The duality dictionary.** Because ã = 1/a at every moment, energy described in the conjugate frame can be translated into its effect on our expansion. The result is w_eff = −w̃: [the duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary).
-- **The early-universe term.** Substituting ã = 1/a into a dual gravitational term gives the a⁻⁶ correction to the Friedmann equation behind [row 10](/wiki/predictions/early-universe-step) (#1 §6).
-- **The bounce.** A maximum of a is a minimum of ã, so a far-future turnaround of our expansion is the conjugate universe's bounce: [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), tested on [row 5](/wiki/predictions/fate-of-expansion).
+- **The early-universe term.** Substituting ã = 1/a into a dual gravitational term gives the a⁻⁶ correction to the Friedmann equation behind [row 10](/wiki/predictions/early-universe-step) (#1 §6). No document derives that dual term from the geometric action (flag 49), and in a closed universe the constraint fixes the normalization a = R/λ but not the a⁻⁶ coefficient, since only the combinations vM̃²C³ and vM̃²k̃C are physical ([the dual frame](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not)).
+- **The bounce.** A maximum of a is a minimum of ã, so a far-future turnaround of our expansion is the conjugate universe's bounce: [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), tested on [row 5](/wiki/predictions/fate-of-expansion). With τ's potential as written the turnaround needs a closed universe (flag 27 addendum; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)).
 - **A founding supposition promoted.** Founding supposition 6, "Conjugate universe shrinks as ours expands", is "**promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus)" (#11 App. A item 6); the |Z| = 1 reading is queried in flag 23 (above). See [founding suppositions and their fates](/wiki/program/founding-suppositions).
 - **The phase-space diameter relation.** For the radiation of a fixed comoving region, the region's diameter times the radiation's momentum spread is fixed, D_x·D_p = κ h N_γ^{1/3} with κ = 1.708 [D][V]; a·ã = 1 is its one-cell form, which general relativity already satisfies, so the relation holds in standard cosmology and cannot test the program (`papers/phase-space-diameter.md` §3). The logarithm of the rectangle's aspect ratio, which grows as a², is the note's clock: the Siegel distance from the self-dual point Z = i (§5). See [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), which began as a chat-only conjecture, and its dead clause, [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce).
 
@@ -146,3 +149,4 @@ In string cosmology, scale-factor duality is a symmetry of the low-energy string
 - `review/round5-adjudication.md` 'Recommendations to Paul' — the recommendation to accept flag 23
 - `review/wiki-build-flags.md` items 23, 25 — the |Z| = 1 identification (awaiting Paul's ruling) and the §7 pointer slip
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — the redshift gloss (popular article; explanation only)
+- `notes/closed-universe.md` §2, §7; `review/wiki-build-flags.md` item 27's addendum and item 49 — the turnaround in a closed universe, and the underived dual term with its physical combinations

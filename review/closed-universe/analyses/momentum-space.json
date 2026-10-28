@@ -1,0 +1,599 @@
+{
+ "summary": "Closed (k = +1) universe, momentum-space assignment. REPORT.md was not written (the harness refuses report files from this subagent); this return carries its content. Six scripts with .out files in the folder; all checks pass.\n- New constraint: with rho_tau >= 0 (V0[1+cos] >= 0), a turnaround needs a_max >= Omega_m/|Omega_k| (31.5 to 3.15e4 for |Omega_k| = 1e-2 to 1e-5). This excludes 6 of the 20 placeholder grid points. A maximum also needs 2V <= rho_m + 2 rho_r + 4K at H = 0.\n- How small momentum space gets: in every sense tied to quanta it is smallest at the turnaround: a~ = 1/a_max; grain hbar c/R0 = 1.44e-34 to 4.5e-36 eV today, divided by a_max; CMB T0/a_max; the CKN cutoff falls as a^-1/2. Closure sets no largest momentum.\n- The budget: G M_tot/c^2 = (3 pi/4) R exactly at H = 0, so rho_(l_P) maps the momentum budget onto the radius. This is the Friedmann equation restated.\n- Spectra: S^3 harmonics (nu^2 - 1 - s)/R^2, verified from the embedding. On the dodecahedral space the lowest scalar mode is nu = 13 (matches Aurich et al.); the lowest photon (nu = 2) and graviton (nu = 3) modes survive with one helicity only.\n- Reciprocity: the Fourier-transform version fails globally on S^3 or T^3; I = omega^-1 H survives on tangent spaces; the local error is (2/3)(sigma/R)^2. The rho_lambda image of our momenta is discrete and unbounded (spacing lambda^2/R), so no closed dual frame arises. As a knob, dual closure is negative dark radiation, |Omega_k~| < 4.9e-6.\n- Finite phase space: the DFT equals rho_lambda iff lambda^2 = dx L/2 pi. With dx = l_P and L = 2 pi R, lambda = sqrt(l_P R) >= 149 um, excluded by both of the diameter note's tests. A doubly compact phase space must be torus-like. Grosse-Wulkenhaar Omega <= 1.4e-124.\n- Symmetry breaking in finite volume: tunnelling exponent >= 2e125; rotor spacing <= 1.3e-158 eV; nothing observable.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "If the dark-energy field's energy is non-negative (V0[1+cos(tau/f)] >= 0 plus kinetic energy), a closed universe can turn around only at a_max >= Omega_m/|Omega_k|: 31.5, 315, 3150, 3.15e4 for |Omega_k| = 1e-2, 1e-3, 1e-4, 1e-5.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: 'PASS  turnaround needs rho_tau >= 0: |Omega_k| a^2 >= Omega_m a + Omega_r, so a_max >= Omega_m/|Omega_k| (radiation adds < 0.03%)  [1e-05: 3.15e+04, 1e-04: 3150, 1e-03: 315, 1e-02: 31.5]'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C2",
+   "statement": "Six of the task's 20 placeholder points (|Omega_k|, a_max) violate that bound: (1e-5; 1e2, 1e3, 1e4), (1e-4; 1e2, 1e3), (1e-3; 1e2).",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: 'placeholder grid points excluded by V >= 0 (a_max below the minimum): [(1e-05, 100.0), (1e-05, 1000.0), (1e-05, 10000.0), (0.0001, 100.0), (0.0001, 1000.0), (0.001, 100.0)]'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C3",
+   "statement": "A maximum of a at H = 0 (a'' <= 0) needs rho_m + 2 rho_r + 4K - 2V >= 0, so tau's potential energy cannot dominate at the turnaround.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: 'PASS  a maximum of a (a'' <= 0 at H = 0) needs rho + 3p = rho_m + 2 rho_r + 4K - 2V >= 0 ...  [4*K - 2*V + rho_m + 2*rho_r]'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C4",
+   "statement": "At H = 0 in a closed universe G M_tot/c^2 = (3 pi/4) R exactly, for any content. Since rho_(l_P) maps a momentum M c to the length G M/c^2, at the turnaround the momentum budget in Planck momenta equals (3 pi/4) R_max/l_P. This is the Friedmann equation restated.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: 'PASS  at H = 0 the Friedmann constraint gives G M_tot/c^2 = (3 pi/4) R exactly (any content)' and 'PASS  rho_(l_P) maps a momentum M c to the length (l_P^2/hbar) M c = G M/c^2 (identity l_P^2 = hbar G/c^3)'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C5",
+   "statement": "The momentum grain of a closed universe today is hbar c/R0 = hbar H0 sqrt|Omega_k|: 1.44e-34 eV at |Omega_k| = 1e-2 and 4.5e-36 eV at 1e-5. It falls as 1/a and is smallest at the turnaround.",
+   "tag": "[V]",
+   "evidence": "closed_numbers.py: '      1e-02  today     7.684e-62       1.438e-34 ...' and '      1e-05  today     2.430e-63       4.546e-36 ...'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C6",
+   "statement": "On a 3-sphere of radius R: scalars have -lap = (nu^2-1)/R^2 with degeneracy nu^2; transverse vectors (nu^2-2)/R^2, nu >= 2, degeneracy 2(nu^2-1); TT tensors (nu^2-3)/R^2, nu >= 3, degeneracy 2(nu^2-4). Verified from the embedded geometry on invariant subspaces (eigenvalues 2, 7, 6, 13) and matching Hu et al. 1998's q^2 = k^2 + (|m|+1)K.",
+   "tag": "[T][V]",
+   "evidence": "s3_spectra.py: 'PASS  transverse spin-s harmonics (j_R = j_L + s): -lap R^2 = nu^2 - (s+1) ...'; 'PASS  span{q_a e_k} (12 fields): rough-Laplacian eigenvalues 1 (x4 ...) and 7 = nu^2 - 2 (x8 ...)'; 'PASS  span{q_a h_kl} (20 fields): eigenvalues 3 (x8, non-TT) and 13 = nu^2 - 3 (x12, TT nu = 4)'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C7",
+   "statement": "On S^3 the lowest photon frequency is omega = 2c/R; left- and right-invariant fields have curl eigenvalues -2/R and +2/R, opposite helicities. The lowest nonzero momentum of a massless minimally coupled scalar is sqrt3 hbar/R; the lowest graviton wavenumber is sqrt8/R.",
+   "tag": "[T][V]",
+   "evidence": "s3_spectra.py: 'PASS  curl e_k = s (2/R) e_k and curl f_k = -s (2/R) f_k ... [curl eigenvalues: left [-2. -2. -2.], right [2. 2. 2.]]'; '      graviton: sqrt(k^2 + 2K) = sqrt(nu^2 - 1) at nu = 3: 2.8284'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C8",
+   "statement": "On the Poincare dodecahedral space the lowest nonzero scalar mode is nu = 13 (-lap R^2 = 168, p_min = 12.96 hbar/R, 7.5 times the S^3 value). The first three levels hold 13 + 21 + 25 = 59 modes, as Aurich, Lustig and Steiner 2005 report.",
+   "tag": "[V][S]",
+   "evidence": "s3_spectra.py: 'PASS  PDS scalar modes: lowest wave numbers beta = nu = 13, 21, 25 with 13 + 21 + 25 = 59 eigenfunctions, then 31 ...' and '      PDS lowest scalar: -lap R^2 = nu^2 - 1 = 168, sqrt = 12.9615 (S^3: sqrt 3 = 1.7321); ratio 7.483'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C9",
+   "statement": "On the dodecahedral space the lowest photon mode nu = 2 survives with 3 of S^3's 6 modes and the lowest graviton mode nu = 3 with 5 of 10, each with one helicity only. The next photon modes are nu = 12 (11 modes, opposite helicity) and nu = 14 (15 modes).",
+   "tag": "[D][V]",
+   "evidence": "s3_spectra.py: '      PDS transverse vector (photon) modes ...: [(2, 3, 1), (12, 11, -1), (14, 15, 1), (20, 19, -1), (22, 23, 1)]' and '      PDS TT tensor (graviton) modes: [(3, 5, 1), (11, 9, -1), (15, 17, 1), ...]'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C10",
+   "statement": "The mean CMB photon's S^3 mode number, 2.701 k_B T R/(hbar c), is the same at every epoch: 4.41e30 for |Omega_k| = 1e-2 and 1.40e32 for 1e-5. The radiation content shrinks in momentum exactly as the grain does.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: '   the mean photon's mode number nu = <p> R/hbar = 2.701 k_B T R/(hbar c) is the same at every epoch: 1e-05: 1.395e+32, 1e-04: 4.413e+31, 1e-03: 1.395e+31, 1e-02: 4.413e+30'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C11",
+   "statement": "The whole closed universe holds a finite, conserved number of photons: N_gamma = 2.10e91 (|Omega_k| = 1e-2) to 6.63e95 (1e-5). The entropy is S = 1.48e92 to 4.67e96 k_B.",
+   "tag": "[V]",
+   "evidence": "closed_numbers.py: '      1e-02: N_gamma = 2.096e+91, S = 1.476e+92 k_B; ...' and '      1e-05: N_gamma = 6.629e+95, S = 4.666e+96 k_B; ...'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C12",
+   "statement": "For the whole S^3, with D_x = pi R and D_p = 2<p>, the radiation rectangle obeys D_x D_p = 1.600 h N_gamma^(1/3), where 1.600 = (pi^4/30 zeta3)/(4 zeta3)^(1/3).",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: 'PASS  for the whole S^3 (D_x = pi R, D_p = 2<p>): D_x D_p = kappa_S3 h N^(1/3) with kappa_S3 = ... = 1.600  [1.60039]'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C13",
+   "statement": "Closure sets no largest momentum, since the S^3 spectrum is unbounded. The CKN cutoff hbar c/sqrt(l_P R) is 1.33 meV (|Omega_k| = 1e-2) to 0.236 meV (1e-5) today and falls as a^-1/2.",
+   "tag": "[D][T][V]",
+   "evidence": "closed_numbers.py: '      1e-02 a = 1e+00: CKN cutoff hbar c/sqrt(l_P R) = 1.325e-03 eV ...' and '      1e-05 a = 1e+00: CKN cutoff hbar c/sqrt(l_P R) = 2.356e-04 eV ...'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C14",
+   "statement": "In the slaved-block reading, rho_(l_P) maps the S^3 momenta to conjugate radii l_P^2 sqrt(nu^2-1)/R: a discrete, unbounded set with spacing tending to l_P^2/R (1.90e-97 m at |Omega_k| = 1e-2 today, 6.02e-99 m at 1e-5). The conjugate position space is not compact.",
+   "tag": "[D][V]",
+   "evidence": "compact_reciprocity.py: '      lambda = l_P, |Omega_k| = 1e-02, today: first radii 3.297e-97, 5.383e-97, 7.371e-97 m; spacing at nu ~ 1000: 1.9033e-97 m (lambda^2/R = 1.9033e-97 m)' and 'PASS  spacing of the rho_lambda image of the S^3 momenta tends to lambda^2/R (nu unbounded: discrete and non-compact)'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C15",
+   "statement": "On a torus T^3 the Fourier transform maps L^2(T^3) unitarily onto l^2(Z^3), a different space. No unitary on L^2(T^3) or L^2(S^3) maps the position multiplication operators (continuous spectrum) onto functions of the momenta (pure point spectrum). So the global Fourier version of rho (#11 section 3) fails in a closed universe.",
+   "tag": "[T][D]",
+   "evidence": "compact_reciprocity.py: 'PASS  Plancherel on the circle T = R/LZ: (1/L) int |f|^2 dx = sum_n |c_n|^2 over the dual group Z' and '      on T (circumference L = 2.0 m): momentum eigenvalues n h/L = ... (pure point); cos(2 pi x/L) has spectrum [-1, 1] (continuous): no unitary maps one onto the other'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C16",
+   "statement": "The tangent-space Born rotation I = omega^-1 H with H = diag(g, g^-1) satisfies I^2 = -1 at every point of T*S^3. So P3's rho, acting on the (H, K) fields as an internal symmetry as in the toy models, is not broken by closure; only finite-volume effects apply.",
+   "tag": "[D][V]",
+   "evidence": "compact_reciprocity.py: 'PASS  H = diag(g, g^-1) with the round S^3 metric gives I^2 = -1 at random points: the tangent-space Born rotation survives'",
+   "confidence": 0.7
+  },
+  {
+   "id": "C17",
+   "statement": "Locally the failure is small: a Gaussian of geodesic width sigma on S^3_R has <p^2> = (3 hbar^2/4 sigma^2)[1 - (2/3)(sigma/R)^2]. At |Omega_k| = 1e-2 the correction is 9.2e-125 for sigma = l_P, 3.5e-55 for 1 m and 3.4e-4 for 1 Gpc.",
+   "tag": "[D][V]",
+   "evidence": "compact_reciprocity.py: 'PASS  kinetic energy of a Gaussian ... c -> -2/3 ... [sigma/R = 0.1: c = -0.664444, ... sigma/R = 0.003: c = -0.666665]'; '      |Omega_k| = 1e-02, sigma = 1 Gpc: 3.37e-04'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C18",
+   "statement": "In #1's minisuperspace with a a~ = C, dual curvature enters as -3 Mt^2 k~ C/(a^4 R~_c^2): negative dark radiation for a closed dual frame, confirming #1 section 6. Read the other way, our own closure is negative dark radiation of the dual frame.",
+   "tag": "[D][V]",
+   "evidence": "dual_closure.py: 'PASS  dual curvature enters as an a^-4 (w = +1/3) term with energy density -3 M~^2 k~ C/(a^4 R~_c^2): negative dark radiation for k~ = +1' and 'PASS  read in the dual ledger ... our closure is negative dark radiation of the dual frame'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C19",
+   "statement": "Planck 2018's N_eff = 2.99 +- 0.17, against the Standard Model's 3.044 (dagger), gives Delta N_eff > -0.394 at 2 sigma and hence |Omega_k~| = (Mt/M_P)^2 C (c/H0 R~_c)^2 < 4.9e-6.",
+   "tag": "[D][V][S]",
+   "evidence": "dual_closure.py: '   Omega_gamma = 5.4438e-05, one neutrino species Omega_nu1 = 1.2363e-05; Delta N_eff > -0.394 (2 sigma)' and '   => |Omega_k~| = (M~/M_P)^2 C (c/(H0 R~_c))^2 < 4.871e-06'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C20",
+   "statement": "The reciprocity-symmetric closed choice (Mt = M_P, k~ = k, R~_c = R_c) leaves the minisuperspace Lagrangian invariant under a -> C/a. It requires C |Omega_k| < 4.9e-6, so the normalization C = 1 is excluded for every |Omega_k| from 1e-5 to 1e-2.",
+   "tag": "[D][V]",
+   "evidence": "dual_closure.py: 'PASS  the gravitational minisuperspace Lagrangian is invariant under a -> C/a when M~ = M_P, k~ = k and R~_c = R_c ...' and '   |Omega_k| = 1e-05: C < 4.871e-01, ... [C = 1, the normalization a a~ = 1 today, excluded]'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C21",
+   "statement": "Assume the a^-6 step must be below 10% at T = 1 MeV. Then C < 1.3e-20, and the self-dual closed dual frame gives |Delta N_eff| <= 1.1e-17: unmeasurable.",
+   "tag": "[D][V]",
+   "evidence": "dual_closure.py: '   the a^-6 step at T = 1 MeV (a_BBN = 1.676e-10): (M~/M_P)^2 C^3 a^-6 < 0.1 needs C < 1.304e-20 (M~ = M_P)' and 'PASS  with the step before nucleosynthesis, C < 1.3e-20 and the self-dual dual closure is unmeasurable (|Delta N_eff| <= 1.1e-17 at |Omega_k| <= 1e-2)'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C22",
+   "statement": "In finite quantum mechanics on Z_N the discrete Fourier transform equals the reciprocity map rho_lambda iff lambda^2 = hbar dx/dp = N dx^2/(2 pi) = dx L/(2 pi). Its invariant periodized Gaussian is then the rho_lambda-round state, Delta x^2 = lambda^2/2.",
+   "tag": "[D][V]",
+   "evidence": "finite_reciprocity.py: 'PASS  rho_lambda maps the p-lattice onto the x-lattice iff lambda^2 = hbar dx/dp = N dx^2/(2 pi) = dx L/(2 pi)  [N*dx**2/(2*pi)]' and 'PASS  F g = g for g_j = sum_m exp(-pi (j+mN)^2/N) ...'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C23",
+   "statement": "With dx = l_P along a great circle (L = 2 pi R), that Born length is lambda = sqrt(l_P R): 1.49e-4 m (|Omega_k| = 1e-2, today) to 8.4e-4 m (1e-5, today), and up to 0.84 m at a_max = 1e6.",
+   "tag": "[D][V]",
+   "evidence": "finite_reciprocity.py: '      1e-02  today    1.372e+27    1.489e-04 ...' and '      1e-05  a=1e+06  4.340e+34    8.375e-01 ...'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C24",
+   "statement": "That lambda is excluded as #13's Born length: c~ = hbar c/lambda^2 = 1.4e-18 N (|Omega_k| = 1e-2, today) to 4.5e-20 N (1e-5), which is 5.8e10 to 1.8e12 times below the hydrogen Coulomb force.",
+   "tag": "[D][V]",
+   "evidence": "finite_reciprocity.py: '      1e-02  today    1.372e+27    1.489e-04               3.951e+00       1.425e-18              5.781e+10' and '      1e-05  today    4.340e+28    8.375e-04               2.222e+01       4.507e-20              1.828e+12'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C25",
+   "statement": "That lambda is also excluded as X's range in the aligned vacuum: it is 3.95 to 22 times the 37.7 um bound today. Even the smallest circle convention, sqrt(l_P R/2 pi) = 5.9e-5 m, exceeds the bound.",
+   "tag": "[D][V]",
+   "evidence": "finite_reciprocity.py: 'PASS  the smallest such lambda on the grid (|Omega_k| = 1e-2, today) is 1.49e-4 m, 3.95 times X's range bound 37.7 um ...' and 'PASS  even the smallest convention, sqrt(l_P R0/2 pi) at |Omega_k| = 1e-2 (5.9e-5 m), exceeds 37.7 um  [5.942e-05 m]'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C26",
+   "statement": "Holding lambda = l_P instead, the finite phase space has grain dx = l_P^2/R (1.9e-97 m at |Omega_k| = 1e-2 today) and N = 2 pi (R/l_P)^2 sites per circle. Its momentum reach pi R c^3/G is 4/3 of the turnaround budget (3 pi/4) R c^3/G.",
+   "tag": "[D][V]",
+   "evidence": "finite_reciprocity.py: '      1e-02 today   ...: dx = l_P^2/R = 1.903e-97 m, N = 2 pi (R/l_P)^2 = 4.531e+124 per circle, |p|max = pi R c^3/G = 1.741e+63 kg m/s = 2.668e+62 m_P c' and 'PASS  P/2 over the turnaround budget M_tot c = (3 pi/4) R c^3/G is 4/3'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C27",
+   "statement": "S^3 x S^3 has b_2 = 0 and so admits no symplectic form; T^3 x T^3 has b_2 = 15. A doubly compact, exactly reciprocal phase space must therefore be torus-like (T^6 or Z_N^6), not Born's position sphere times momentum sphere.",
+   "tag": "[T][D][V]",
+   "evidence": "compact_reciprocity.py: 'PASS  Kunneth: b(S^3 x S^3) = [1,0,0,2,0,0,1], so b_2 = 0 and S^3 x S^3 admits no symplectic form' and 'PASS  b(T^3 x T^3) = [1,6,15,20,15,6,1]: b_2 = 15, the torus T^6 is symplectic'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C28",
+   "statement": "In the Grosse-Wulkenhaar model a closed universe sits at Omega = (l_P/R)^2 = 1.4e-124 (|Omega_k| = 1e-2, today) to 1.4e-139 (1e-5, a_max = 1e6). It is farthest from the self-dual point Omega = 1 (R ~ l_P) at the turnaround. Matching GW's minimal momentum sqrt(4 Omega/theta) to sqrt3 hbar/R with sqrt(theta) = l_P gives Omega = (3/4)(l_P/R)^2.",
+   "tag": "[D][V][S]",
+   "evidence": "closed_numbers.py: '      1e-02 a = 1e+00: Omega = 1.387e-124 (matched 1.040e-124); dual size l_P^2/R = 1.903e-97 m' and '      1e-05 a = 1e+06: Omega = 1.387e-139 (matched 1.040e-139); dual size l_P^2/R = 6.019e-105 m'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C29",
+   "statement": "GW's Langmann-Szabo duality maps Omega -> 1/Omega. Under their identification that sends R -> l_P^2/R, the same as the rho_(l_P) image of the momentum grain.",
+   "tag": "[D][S]",
+   "evidence": "downloads/gw04/beta.tex: 'S\\big[\\phi;\\mu_0,\\lambda,\\Omega\\big] \\mapsto \\Omega^2 S\\Big[\\phi;\\frac{\\mu_0}{\\Omega},\\frac{\\lambda}{\\Omega^2},\\frac{1}{\\Omega}\\Big]'; closed_numbers.py prints 'dual size l_P^2/R = 1.903e-97 m'",
+   "confidence": 0.75
+  },
+  {
+   "id": "C30",
+   "statement": "For a discrete Z2 polarization (the toy model's potential, f = Mbar_P, mu = rho_Lambda), the homogeneous tunnelling action is S = sigma V = 2.3e125 (|Omega_k| = 1e-2, today) to 7.3e147. The wall is 0.49 c/H0 thick. The WKB exponent was checked against exact diagonalization (slope 0.995).",
+   "tag": "[D][V]",
+   "evidence": "finite_volume_ssb.py: '      |Omega_k| = 1e-02, a = 1.00e+00: S = 2.296e+125  (splitting ~ exp(-10^125.4))'; '... wall thickness hbar c/m = 6.770e+25 m = 0.493 c/H0'; 'PASS  exact double-well rotor ... [slope 0.9946; ...]'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C31",
+   "statement": "For a continuous Goldstone polarization with f = Mbar_P, the zero-mode rotor's level spacing is 1.3e-158 eV (|Omega_k| = 1e-2, today), down to 4e-181 eV. A 0.1 rad packet takes 1.2e124 to 3.7e146 ages of the universe to spread to 1 rad.",
+   "tag": "[D][V]",
+   "evidence": "finite_volume_ssb.py: '      1e-02  1.0e+00  5.103e+82   3.939e+157    1.269e-158                  5.160e+141         1.186e+124    2.490e-34' and '      1e-05  1.0e+06  1.614e+105   1.246e+180    4.014e-181                  1.632e+164         3.749e+146    7.875e-42'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C32",
+   "statement": "The rotor would spread within the age of the universe only for f <= 2.2e-35 eV (|Omega_k| = 1e-2) or 1.3e-37 eV (1e-5).",
+   "tag": "[D][V]",
+   "evidence": "finite_volume_ssb.py: '   the spread time equals the age t0 for f = 2.237e-35 eV (|Omega_k| = 1e-02, R = R0)'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C33",
+   "statement": "With the dark-energy potential V0[1+cos(tau/f)] (V0 = rho_Lambda, f = Mbar_P) the zero mode is a pendulum whose ground-state width is 2.5e-63 rad (|Omega_k| = 1e-2, today).",
+   "tag": "[D][V]",
+   "evidence": "finite_volume_ssb.py: '   |Omega_k| = 1e-02, a = 1e+00, V0 = rho_Lambda: ground-state width dtheta = 2.482e-63 rad; barrier 2 V0 V = 3.346e+92 eV'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C34",
+   "statement": "The number of Planck-length cells, 2 pi^2 (R/l_P)^3, is 1.2e187 (|Omega_k| = 1e-2) to 3.8e191 (1e-5) today, and up to 3.8e209 at a_max = 1e6.",
+   "tag": "[V]",
+   "evidence": "closed_numbers.py: '      1e-02  today     1.209e+187 ...' and '      1e-05    1e+06   3.822e+209 ...'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C35",
+   "statement": "The holographic count pi (R/l_P)^2 is 2.3e124 (|Omega_k| = 1e-2) to 2.3e127 (1e-5) today. That is Omega_Lambda/|Omega_k| times (68.5 to 6.8e4 times) the de Sitter entropy 3.31e122, and the count reaches 2.3e139 at a_max = 1e6.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: '      1e-02  today     1.209e+187                2.265e+124                  6.849e+01 ...' and '      1e-05    1e+06   3.822e+209                2.265e+139                  6.849e+16 ...'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C36",
+   "statement": "In Planck units the radiation rectangle's aspect ratio at the turnaround is 5.2e92 a_max^2 = 5.2e96 to 5.2e104 for the diameter note's region. For the whole S^3 it is 2.6e93 a_max^2 (|Omega_k| = 1e-2) to 8.1e94 a_max^2 (1e-5).",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: '   the diameter note's region (today's observable universe, A0 = 5.2e92) at the turnaround: A0 a_max^2 = 5.2e+96, 5.2e+98, 5.2e+100, 5.2e+102, 5.2e+104'; '1e-02: ... aspect ratio (Planck units) today 2.567e+93'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C37",
+   "statement": "The Fischler-Susskind ratio S/(A/4) for the particle-horizon ball is 4.4e-34 today. With a horizon of about 1 rad during recollapse it reaches 1 at a ~ 4e-17 (|Omega_k| = 1e-2) to 2.3e-16 (1e-5), at T ~ 1e16 to 1e17 K, long before the Planck era.",
+   "tag": "[D][V][S]",
+   "evidence": "closed_numbers.py: '      1e-02: s0 R0 l_P^2 = 1.037e-33; today chi_p = 0.3188, ratio = 4.467e-34; with f = f(1 rad) = 1.540 the ratio reaches 1 at a = 4.00e-17 (T = 6.82e+16 K)'",
+   "confidence": 0.7
+  },
+  {
+   "id": "C38",
+   "statement": "Bousso 1999: in closed recollapsing universes the Fischler-Susskind bound cannot be applied and would be violated, while the covariant entropy bound remains valid.",
+   "tag": "[T][S]",
+   "evidence": "downloads/bousso99a/x/bound.tex: 'The FS bound cannot be applied here. It would continue to compare entropy and area of the particle horizon, and would be violated' and 'The covariant bound remains valid, because it applies only to the future-directed null hypersurfaces'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C39",
+   "statement": "The smallest turnaround allowed by V >= 0 has R_max = Omega_m c/(H0 |Omega_k|^(3/2)): 4.32e28 m (4.6e3 Gly) at |Omega_k| = 1e-2 and 1.37e33 m (1.4e8 Gly) at 1e-5.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: '      1e-02: a_max = 31.5, R_max = 4.323e+28 m = 4.570e+03 Gly, ...' and '      1e-05: a_max = 3.15e+04, R_max = 1.367e+33 m = 1.445e+08 Gly, ...'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C40",
+   "statement": "At the turnaround H = 0, so the number of Hubble volumes is zero. Today the closed universe holds (3 pi/2)|Omega_k|^(-3/2) Hubble volumes: 4712 (|Omega_k| = 1e-2) to 1.49e8 (1e-5).",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: '      1e-02   1.372e+27      145.1   8.492e+61       455.8   5.103e+82        4712   0.3188 (0.1015 pi)   31.5' and 'PASS  V0/V_Hubble = (3 pi/2)|Omega_k|^(-3/2)'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C41",
+   "statement": "If tau's energy vanishes at a_v and the universe ends as dust plus curvature, light covers pi - 2 arcsin sqrt(a_v/a_max) rad by the turnaround: 2.78 rad (|Omega_k| = 1e-2, a_v = 1) to 3.13 rad (1e-5). That is nearly the antipode; the result depends on the dynamics.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: 'PASS  dust + curvature from a_v = 1.0 to a_max = Omega_m/|Omega_k| = 31.5 (|Omega_k| = 1e-02): conformal time pi - 2 arcsin sqrt(a_v/a_max)  [2.78333 rad]'",
+   "confidence": 0.75
+  },
+  {
+   "id": "C42",
+   "statement": "The conjugate scale factor at the turnaround (the conjugate bounce) is a~_min = 1/a_max <= |Omega_k|/Omega_m, at most 0.032 on the allowed grid.",
+   "tag": "[D][V]",
+   "evidence": "closed_numbers.py: '      1e-02: a_max = 31.5, ... a~_min = 3.175e-02; ...'",
+   "confidence": 0.9
+  }
+ ],
+ "numbers": [
+  {
+   "quantity": "minimum turnaround scale factor a_max = Omega_m/|Omega_k| (V >= 0)",
+   "value": "31.5 (1e-2), 315 (1e-3), 3150 (1e-4), 3.15e4 (1e-5)",
+   "script": "closed_numbers.py",
+   "printed": "PASS  turnaround needs rho_tau >= 0: ... [1e-05: 3.15e+04, 1e-04: 3150, 1e-03: 315, 1e-02: 31.5]"
+  },
+  {
+   "quantity": "curvature radius today R0 at |Omega_k| = 1e-2",
+   "value": "1.372e27 m (145.1 Gly)",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02   1.372e+27      145.1   8.492e+61       455.8   5.103e+82        4712   0.3188 (0.1015 pi)   31.5"
+  },
+  {
+   "quantity": "curvature radius today R0 at |Omega_k| = 1e-5",
+   "value": "4.340e28 m (4587.6 Gly)",
+   "script": "closed_numbers.py",
+   "printed": "      1e-05   4.340e+28     4587.6   2.685e+63     14412.4   1.614e+87    1.49e+08   0.0101 (0.0032 pi)   3.15e+04"
+  },
+  {
+   "quantity": "smallest allowed R_max at |Omega_k| = 1e-2",
+   "value": "4.323e28 m = 4.57e3 Gly",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02: a_max = 31.5, R_max = 4.323e+28 m = 4.570e+03 Gly, pi R_max = 1.436e+04 Gly, ..."
+  },
+  {
+   "quantity": "smallest allowed R_max at |Omega_k| = 1e-5",
+   "value": "1.367e33 m = 1.445e8 Gly",
+   "script": "closed_numbers.py",
+   "printed": "      1e-05: a_max = 3.15e+04, R_max = 1.367e+33 m = 1.445e+08 Gly, pi R_max = 4.540e+08 Gly, ..."
+  },
+  {
+   "quantity": "momentum grain hbar c/R0 today, |Omega_k| = 1e-2",
+   "value": "1.438e-34 eV",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02  today     7.684e-62       1.438e-34       1.178e-62              6.953e-20                2.490e-34              4.066e-34     1.864e-33"
+  },
+  {
+   "quantity": "momentum grain hbar c/R0 today, |Omega_k| = 1e-5",
+   "value": "4.546e-36 eV",
+   "script": "closed_numbers.py",
+   "printed": "      1e-05  today     2.430e-63       4.546e-36       3.724e-64              2.199e-21                7.875e-36              1.286e-35     5.893e-35"
+  },
+  {
+   "quantity": "conjugate length l_P^2/R0 (rho_(l_P) image of the grain), |Omega_k| = 1e-2",
+   "value": "1.903e-97 m today; 1.903e-103 m at a_max = 1e6",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02:  1.903e-97 | 1.903e-99 | 1.903e-103   (= 1.178e-62 l_P today)"
+  },
+  {
+   "quantity": "mean CMB photon mode number on S^3 (constant in time)",
+   "value": "4.413e30 (1e-2), 1.395e32 (1e-5)",
+   "script": "closed_numbers.py",
+   "printed": "   the mean photon's mode number nu = <p> R/hbar = 2.701 k_B T R/(hbar c) is the same at every epoch: 1e-05: 1.395e+32, 1e-04: 4.413e+31, 1e-03: 1.395e+31, 1e-02: 4.413e+30"
+  },
+  {
+   "quantity": "photon number of the whole closed universe, |Omega_k| = 1e-2",
+   "value": "2.096e91 (S = 1.476e92 k_B)",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02: N_gamma = 2.096e+91, S = 1.476e+92 k_B; rectangle D_x = pi R, area D_x D_p = 4.413e+30 h = 1.6004 N^(1/3) h; aspect ratio (Planck units) today 2.567e+93, ..."
+  },
+  {
+   "quantity": "whole-S^3 rectangle coefficient kappa_S3",
+   "value": "1.600",
+   "script": "closed_numbers.py",
+   "printed": "PASS  for the whole S^3 (D_x = pi R, D_p = 2<p>): D_x D_p = kappa_S3 h N^(1/3) with kappa_S3 = (pi^4/30 zeta3)/(4 zeta3)^(1/3) = 1.600  [1.60039]"
+  },
+  {
+   "quantity": "CKN cutoff hbar c/sqrt(l_P R0) today, |Omega_k| = 1e-2",
+   "value": "1.325e-3 eV",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02 a = 1e+00: CKN cutoff hbar c/sqrt(l_P R) = 1.325e-03 eV (the inverse of the self-dual length sqrt(l_P R) = 1.489e-04 m)"
+  },
+  {
+   "quantity": "total mass-energy in the 3-sphere today, |Omega_k| = 1e-2",
+   "value": "4.398e56 kg = 2.021e64 m_P",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02 today: M_tot = 4.398e+56 kg (M_tot c = 1.319e+65 kg m/s = 2.021e+64 m_P c), matter 1.372e+56 kg; G M_tot/c^2 = 2.380e+02 R0"
+  },
+  {
+   "quantity": "PDS lowest scalar eigenvalue -lap R^2",
+   "value": "168 (sqrt 12.9615; ratio to S^3 7.483)",
+   "script": "s3_spectra.py",
+   "printed": "      PDS lowest scalar: -lap R^2 = nu^2 - 1 = 168, sqrt = 12.9615 (S^3: sqrt 3 = 1.7321); ratio 7.483"
+  },
+  {
+   "quantity": "lowest photon curl eigenvalue on S^3 (unit radius)",
+   "value": "-2 (left-invariant), +2 (right-invariant)",
+   "script": "s3_spectra.py",
+   "printed": "PASS  curl e_k = s (2/R) e_k and curl f_k = -s (2/R) f_k: left- and right-invariant fields have opposite helicity  [curl eigenvalues: left [-2. -2. -2.], right [2. 2. 2.]]"
+  },
+  {
+   "quantity": "curvature correction coefficient to <p^2> of a Gaussian on S^3",
+   "value": "-2/3 (-0.666665 at sigma/R = 0.003)",
+   "script": "compact_reciprocity.py",
+   "printed": "PASS  kinetic energy of a Gaussian of geodesic width sigma on S^3_R: ... [sigma/R = 0.1: c = -0.664444, sigma/R = 0.03: c = -0.666467, sigma/R = 0.01: c = -0.666644, sigma/R = 0.003: c = -0.666665]"
+  },
+  {
+   "quantity": "bound on dual-curvature density |Omega_k~|",
+   "value": "< 4.871e-6",
+   "script": "dual_closure.py",
+   "printed": "   => |Omega_k~| = (M~/M_P)^2 C (c/(H0 R~_c))^2 < 4.871e-06"
+  },
+  {
+   "quantity": "Delta N_eff lower bound used (2 sigma)",
+   "value": "-0.394",
+   "script": "dual_closure.py",
+   "printed": "   Omega_gamma = 5.4438e-05, one neutrino species Omega_nu1 = 1.2363e-05; Delta N_eff > -0.394 (2 sigma)"
+  },
+  {
+   "quantity": "normalization C allowed if the a^-6 step is below 10% at 1 MeV",
+   "value": "C < 1.304e-20",
+   "script": "dual_closure.py",
+   "printed": "   the a^-6 step at T = 1 MeV (a_BBN = 1.676e-10): (M~/M_P)^2 C^3 a^-6 < 0.1 needs C < 1.304e-20 (M~ = M_P)"
+  },
+  {
+   "quantity": "finite-phase-space Born length sqrt(l_P R0), |Omega_k| = 1e-2 today; its max force; ratio to 37.7 um",
+   "value": "1.489e-4 m; 1.425e-18 N; 3.951",
+   "script": "finite_reciprocity.py",
+   "printed": "      1e-02  today    1.372e+27    1.489e-04               3.951e+00       1.425e-18              5.781e+10"
+  },
+  {
+   "quantity": "finite-phase-space Born length, |Omega_k| = 1e-5 today",
+   "value": "8.375e-4 m (c~ = 4.507e-20 N)",
+   "script": "finite_reciprocity.py",
+   "printed": "      1e-05  today    4.340e+28    8.375e-04               2.222e+01       4.507e-20              1.828e+12"
+  },
+  {
+   "quantity": "grain with lambda = l_P fixed, |Omega_k| = 1e-2 today",
+   "value": "1.903e-97 m; N = 4.531e124 per circle",
+   "script": "finite_reciprocity.py",
+   "printed": "      1e-02 today   (today, or the smallest a_max allowed on the grid): dx = l_P^2/R = 1.903e-97 m, N = 2 pi (R/l_P)^2 = 4.531e+124 per circle, |p|max = pi R c^3/G = 1.741e+63 kg m/s = 2.668e+62 m_P c"
+  },
+  {
+   "quantity": "Grosse-Wulkenhaar Omega for the closed universe, |Omega_k| = 1e-2 today",
+   "value": "1.387e-124",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02 a = 1e+00: Omega = 1.387e-124 (matched 1.040e-124); dual size l_P^2/R = 1.903e-97 m"
+  },
+  {
+   "quantity": "tunnelling action between polarizations (mu = rho_Lambda, f = Mbar_P), |Omega_k| = 1e-2 today",
+   "value": "2.296e125",
+   "script": "finite_volume_ssb.py",
+   "printed": "      |Omega_k| = 1e-02, a = 1.00e+00: S = 2.296e+125  (splitting ~ exp(-10^125.4))"
+  },
+  {
+   "quantity": "zero-mode rotor level spacing and spread time (f = Mbar_P), |Omega_k| = 1e-2 today",
+   "value": "1.269e-158 eV; 5.160e141 s = 1.186e124 ages",
+   "script": "finite_volume_ssb.py",
+   "printed": "      1e-02  1.0e+00  5.103e+82   3.939e+157    1.269e-158                  5.160e+141         1.186e+124    2.490e-34"
+  },
+  {
+   "quantity": "Planck-grain cells and holographic count today, |Omega_k| = 1e-2",
+   "value": "1.209e187 cells; 2.265e124 holographic (68.49 x S_dS)",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02  today     1.209e+187                2.265e+124                  6.849e+01         1.847e+93          1.476e+92         6.513e-33"
+  },
+  {
+   "quantity": "cells and holographic count at a_max = 1e6, |Omega_k| = 1e-5",
+   "value": "3.822e209 cells; 2.265e139 holographic",
+   "script": "closed_numbers.py",
+   "printed": "      1e-05    1e+06   3.822e+209                2.265e+139                  6.849e+16         3.284e+104          4.666e+96         2.060e-43"
+  },
+  {
+   "quantity": "Fischler-Susskind ratio today and the recollapse scale factor where it reaches 1, |Omega_k| = 1e-2",
+   "value": "4.467e-34; a = 4.00e-17 (T = 6.82e16 K)",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02: s0 R0 l_P^2 = 1.037e-33; today chi_p = 0.3188, ratio = 4.467e-34; with f = f(1 rad) = 1.540 the ratio reaches 1 at a = 4.00e-17 (T = 6.82e+16 K)"
+  },
+  {
+   "quantity": "radiation rectangle aspect ratio at turnaround (diameter-note region)",
+   "value": "5.2e96 to 5.2e104 for a_max = 1e2 to 1e6",
+   "script": "closed_numbers.py",
+   "printed": "   the diameter note's region (today's observable universe, A0 = 5.2e92) at the turnaround: A0 a_max^2 = 5.2e+96, 5.2e+98, 5.2e+100, 5.2e+102, 5.2e+104"
+  },
+  {
+   "quantity": "light's angular reach from a_v = 1 to the turnaround in a dust-plus-curvature ending, |Omega_k| = 1e-2",
+   "value": "2.78333 rad",
+   "script": "closed_numbers.py",
+   "printed": "PASS  dust + curvature from a_v = 1.0 to a_max = Omega_m/|Omega_k| = 31.5 (|Omega_k| = 1e-02): conformal time pi - 2 arcsin sqrt(a_v/a_max)  [2.78333 rad]"
+  },
+  {
+   "quantity": "particle horizon angle today in the closed LCDM-like model, |Omega_k| = 1e-2",
+   "value": "0.3188 rad",
+   "script": "closed_numbers.py",
+   "printed": "      1e-02   1.372e+27      145.1   8.492e+61       455.8   5.103e+82        4712   0.3188 (0.1015 pi)   31.5"
+  }
+ ],
+ "open": [
+  "REPORT.md could not be written: the harness refuses report files from this subagent. This structured return carries its content, and the scripts and .out files are in the folder.",
+  "Not computed: the energy splitting between the two polarizations (+K_ref and -K_ref) that closure induces once matter couples through the global Fourier structure (the toy note's I[W]). Closure distinguishes x (compact, continuous) from p (discrete), so no symmetry protects P5's degeneracy any longer.",
+  "The light horizon at the turnaround and during recollapse needs the dynamics a(t), which another analyst is computing. So the epoch at which the Fischler-Susskind ratio reaches 1 rests on an assumed horizon of about 1 rad.",
+  "I found no literature source for the vector and tensor mode counts on the dodecahedral space (one helicity at nu = 2 and nu = 3). They rest on my representation counting and embedded-geometry checks only. The scalar counts are anchored to Aurich et al. 2005.",
+  "The finite-volume rotor keeps only the zero mode. Leutwyler-type corrections from the nonzero modes are not computed (dagger).",
+  "Inputs from memory or assumed: the Standard Model N_eff = 3.044 (dagger), and a 10% tolerance on the a^-6 step at 1 MeV.",
+  "Any nonzero dual curvature k~ needs a compact momentum space (Born 1938's hypersphere), which the record does not postulate. Whether the program wants one is Paul's call.",
+  "The two exclusions of lambda = sqrt(l_P R) assume it plays the role of #13's Born length or of X's range. A length in neither role is not constrained by them."
+ ],
+ "record_errors": [
+  "#11 section 3 (and the wiki pages wiki/_index.md, wiki/phase-space/reciprocity/born-reciprocity.md and wiki/phase-space/reciprocity/fourier-transform.md) say 'Quantum kinematics is exactly invariant under rho ... the Fourier transform implements it unitarily'. That holds only when position space is a self-dual group such as R^d. On a 3-sphere or 3-torus it is false globally and holds only locally, to relative order (sigma/R)^2. It is harmless under #11 section 10's flatness assumption and must be restricted if closure is adopted.",
+  "Diameter note section 6 and round-5 ruling R11 say 'a closed universe can turn around without negative energy'. That is true but omits two conditions: a_max >= Omega_m/|Omega_k| (because tau's energy is non-negative), and 2V <= rho_m + 2 rho_r + 4K at H = 0.",
+  "#1 sections 6 and 10 and #11 section 13 row 10 treat dual curvature k~ as an optional knob. In the slaved-block reading the cotangent fibres are flat, and the conjugate position space is the rho_lambda image of a discrete, unbounded spectrum. Closure of our space therefore produces no closed dual frame, and k~ != 0 needs an unstated compact-momentum postulate. The entry's sign and a^-4 scaling are confirmed.",
+  "#13 section 1: 'The only length the gravitational sector supplies is the Planck length' ignores the curvature radius R of a closed solution. This is minor.",
+  "Diameter note section 4 quotes Grosse-Wulkenhaar's identification of sqrt(Omega) with l_P/(size of the universe) correctly. The source derives it from the minimal momentum sqrt(4 Omega/theta) = 2 sqrt(Omega)/sqrt(theta), so it carries an unstated factor of order 2, and its p^2 spectrum is equidistant, unlike a 3-sphere's. This is a convention-level caveat, not a misquote.",
+  "The task's placeholder range, not the record: 6 of the 20 (|Omega_k|, a_max) grid points violate V >= 0."
+ ],
+ "files": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/cm_constants.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/s3_spectra.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/s3_spectra.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/closed_numbers.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/closed_numbers.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/compact_reciprocity.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/compact_reciprocity.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/finite_reciprocity.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/finite_reciprocity.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/finite_volume_ssb.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/finite_volume_ssb.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/dual_closure.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/dual_closure.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/fs98/lhol.tex",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/bousso99a/x/bound.tex",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/aurich05/x/paper.tex",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/hu98/x/otamm.tex",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/gw04/beta.tex",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/gw05/x/ncphi4-4D.tex",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/momentum-space/downloads/planck18/abs.html"
+ ],
+ "references": [
+  {
+   "citation": "W. Fischler, L. Susskind, 'Holography and Cosmology', arXiv:hep-th/9806039 (1998), section 'Non Flat Universe'",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/9806039",
+   "quote": "the requirement that the universe be infinite (abstract); 'This seems to indicate that positively curved closed   universes are inconsistent with the \\hp' (source TeX)"
+  },
+  {
+   "citation": "R. Bousso, 'A Covariant Entropy Conjecture', JHEP 9907:004 (1999), arXiv:hep-th/9905177, section 'The Fischler-Susskind bound'",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/9905177",
+   "quote": "The FS bound cannot be applied here. It would continue to compare entropy and area of the particle horizon, and would be violated"
+  },
+  {
+   "citation": "R. Aurich, S. Lustig, F. Steiner, 'CMB anisotropy of the Poincare dodecahedron', arXiv:astro-ph/0412569 (2005)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/0412569",
+   "quote": "only the first three modes with wave number $\\beta=13, 21$ and 25 (comprising in total 59 eigenfunctions)"
+  },
+  {
+   "citation": "W. Hu, U. Seljak, M. White, M. Zaldarriaga, 'A complete treatment of CMB anisotropies in a FRW universe', arXiv:astro-ph/9709066 (1998)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/9709066",
+   "quote": "q = \\sqrt{k^2+(|m|+1)K}"
+  },
+  {
+   "citation": "H. Grosse, R. Wulkenhaar, 'The beta-function in duality-covariant noncommutative phi^4-theory', Eur. Phys. J. C 35, 277 (2004), arXiv:hep-th/0402093",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0402093",
+   "quote": "The duality transformation exchanges positions and momenta"
+  },
+  {
+   "citation": "H. Grosse, R. Wulkenhaar, 'Renormalisation of phi^4-theory on noncommutative R^4 in the matrix base', Commun. Math. Phys. 256, 305 (2005), arXiv:hep-th/0401128",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0401128",
+   "quote": "We can thus identify the parameter $\\sqrt{\\Omega}$ with the ratio of the Planck length to the size of the (finite!) universe."
+  },
+  {
+   "citation": "Planck Collaboration (N. Aghanim et al.), 'Planck 2018 results. VI. Cosmological parameters', arXiv:1807.06209",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1807.06209",
+   "quote": "Combining with BAO we constrain the effective extra relativistic degrees of freedom to be $N_{\\rm eff} = 2.99\\pm 0.17$"
+  },
+  {
+   "citation": "Standard Model N_eff = 3.044 (e.g. Bennett et al. 2021)",
+   "status": "dagger"
+  },
+  {
+   "citation": "H. Leutwyler, finite-volume rotor spectrum of Goldstone modes, Phys. Lett. B 189, 197 (1987)",
+   "status": "dagger"
+  },
+  {
+   "citation": "F. Klein, icosahedral invariants of degrees 12, 20, 30 (Molien series reproduced numerically in s3_spectra.py)",
+   "status": "dagger"
+  },
+  {
+   "citation": "M. Born, Proc. R. Soc. Lond. A 165, 291 (1938): momentum hypersphere of radius b (quoted from the diameter note's [S] retrieval; not re-retrieved in this task)",
+   "status": "dagger"
+  },
+  {
+   "citation": "L. Freidel, R. G. Leigh, D. Minic, 'Metastring theory and modular space-time', JHEP 06 (2015) 006 (record [26S]; not re-retrieved in this task)",
+   "status": "dagger"
+  },
+  {
+   "citation": "A. G. Cohen, D. B. Kaplan, A. E. Nelson, PRL 82, 4971 (1999) (record [S]; not re-retrieved in this task)",
+   "status": "dagger"
+  },
+  {
+   "citation": "L. F. Abbott, R. K. Schaefer 1986, completeness of closed-FRW harmonics (cited via Hu et al. 1998)",
+   "status": "dagger"
+  }
+ ]
+}

@@ -1,0 +1,571 @@
+{
+ "summary": "Gravity sector of a closed (k = +1) comatter universe. I read it as Hassan–Rosen bimetric gravity with a dynamical second metric f, matter (and τ) on g, palindromic β, M_f = M_g and β0 = −4β1 − 3β2.\n\n(1) The curvature cancels from the algebraic equation for y = Y/a. Exactly, 3 Mbar_P²(H² + k/a²) = ρ + (Mbar_P² M_X²/8)(β1/(β1+β2))(1−y)⁴/y, with Mbar_P² = 2M_g². To leading order 1 − y = 2(H² + k/a²)/M_X². At M_X c² = 5.24 meV this is 1.5e-61 today, 1.45e-26 at BBN and 0.16 at 1 TeV.\n- The wedge sector's dark energy is positive and 1.4e-184 of ρ today: it neither causes nor blocks a turnaround.\n- G_eff = 2G_N for H ≫ M_X, with the step near 1.5 TeV.\n- M_X² = 4m²(β1+β2), which confirms flag 5.\n- A hot big bang that ends in the aligned vacuum requires β1 > 0.\n\n(2) The turnaround is regular. The f lapse is X = y − 3(ρ+p)dy/dρ, and u = y follows ρ through the recollapse. It is checked numerically through ȧ = 0.\n\n(3) The proportional-background condition does not change with k. No empty closed vacuum exists on the program's branch. f is closed with the same k. A second frame with no scale of its own admits no expanding FLRW.\n\n(4) The bimetric Higuchi bound (dressed mass) holds at every density, and its ratio tends to 3/2 at high density. A fixed-mass reading would fail above about 1.5 TeV. What actually fails is the scalar gradient stability (Könnig 2015): it is lost for w > −1/2 until H ≈ 0.5 M_X (T ≈ 1.3–1.4 TeV) and returns in the recollapse.\n\n(5) The compatibility theorem and the Born connection need nothing global, but T*S³ admits no integrable momentum polarization. A homogeneous anisotropic X costs Mbar_P² M_X² r0²/8.\n\n(6) π1, π2, π3 of Λ(4) are Z, Z2, Z2. S³ carries one Z2 texture class, and the light Maslov circle carries none.\n\n(7) The lowest TT harmonics are L = 2: ten Bianchi IX modes. A massive spin-2 field on S³ loses 11 low modes and gains none.\n\nREPORT.md was not written: the harness refuses report files from subagents.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "In Hassan–Rosen bimetric FLRW with both metrics on the same curvature-k spatial metric and matter on g, the Bianchi constraint is 3 m² M_g² (β1 a² + 2β2 a Y + β3 Y²)(N Ẏ − X ȧ) = 0 and contains no k.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.py -> bimetric_flrw.out: 'full theory: adot*EL_a - N dE_N/dt = 3*M_g**2*m**2*(N(t)*Derivative(Y(t), t) - X(t)*Derivative(a(t), t))*(beta1*a(t)**2 + 2*beta2*Y(t)*a(t) + beta3*Y(t)**2)' and '... up to sign: True ; contains k: False'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C2",
+   "statement": "On the dynamical branch X = Ẏ/ȧ, spatial curvature drops out of the algebraic (quartic) equation for y = Y/a; k enters only through H² + k/a².",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'after adot^2 = (H^2 + k/a^2) a^2 - k: k left in g eq: False ; in f eq: False' and 'quartic (from f eq with H^2+k/a^2 eliminated) contains k: False'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C3",
+   "statement": "The derived quartic equals von Strauss et al. 2012 eq. (quartic) up to the factor m²/y².",
+   "tag": "[V][S]",
+   "evidence": "bimetric_flrw.out: 'my quartic / von Strauss eq. (quartic) with M_* = M_f/M_g, rho_* = rho/(3 M_g^2 m^2): m**2/y**2'; source downloads/1111_1655/paper.txt label{quartic}",
+   "confidence": 0.95
+  },
+  {
+   "id": "C4",
+   "statement": "With the program's couplings, ρ/(3 M_g² m²) = (1 − y²)(β1 y² + (4β1 + 6β2) y + β1)/(3y), and P_g(1) = 0.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'check rho_*(y) = (1-y^2)(beta1 y^2 + (4 beta1 + 6 beta2) y + beta1)/(3y): True' and 'P_g(1) = 0'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C5",
+   "statement": "The Fierz–Pauli mass about f = c²g, derived from homogeneous shear, is m_FP² = m² c (β1 + 2β2 c + β3 c²)(1 + M_g²/(M_f² c²)). At the program point it is M_X² = 4m²(β1+β2), a squared mass, confirming flag 5.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'mass^2 eigenvalues of the shear pair: [m**2*(M_f**2*c**2 + M_g**2)*(beta1 + 2*beta2*c + beta3*c**2)/(M_f**2*c), 0]' and '... at the program point c = 1, M_f = M_g, beta3 = beta1: 4*m**2*(beta1 + beta2)'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C6",
+   "statement": "Near the aligned point, 1 − y = 2(H² + k/a²)/M_X² to leading order, independent of the shape β2/β1.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'y - 1 at leading order in eps_H = (H^2 + k/a^2)/M_X^2: -2*epsilon_H'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C7",
+   "statement": "At low density the effective Planck mass squared of the program's bimetric FLRW is M_eff² = M_g² + M_f² = 2 M_g².",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: '(H^2 + k/a^2)/m^2 = 1/2 rho_* + 0 rho_*^2 + O(rho_*^3)'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C8",
+   "statement": "Exactly on the program's branch, 3(2M_g²)(H² + k/a²) = ρ + M_g² m² β1 (1 − y)⁴/y, i.e. ρ_DE,bim = (Mbar_P² M_X²/8)(β1/(β1+β2))(1 − y)⁴/y, which is positive for β1 > 0.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: '2 P_g(y) + 3 rho_*(y) = beta1*(y - 1)**4/y   (exact, all y)'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C9",
+   "statement": "The bimetric effective dark energy is 1.43e-184 of the total density today (β2/β1 = 1, M_X c² = 5.24 meV).",
+   "tag": "[V]",
+   "evidence": "y_epochs.out: 'today (flat limit)          : rho_DE,bim/rho = 1.427e-184  (s = 1)'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C10",
+   "statement": "At high density (y → 0), H² + k/a² → ρ/(3 M_g²), so G_eff → 2 G_N for H ≫ M_X.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'lim_{rho->inf} (H^2+k/a^2)/(m^2 rho_*) = 1  => H^2 + k/a^2 -> rho/(3 M_g^2): G_eff(early) = 2 G_N'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C11",
+   "statement": "The effective Planck mass squared is halfway between M_g² and 2M_g² at H ≈ 0.75–0.77 M_X, i.e. T ≈ 1.55–1.58 TeV for M_X c² = 5.24 meV.",
+   "tag": "[V]",
+   "evidence": "y_epochs.out: 's = 0.0: y = 0.1482, H/M_X = 0.7694, T = 1576.0 GeV' and 's = 1.0: y = 0.09883, H/M_X = 0.7457, T = 1552.0 GeV'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C12",
+   "statement": "For M_X c² = 5.24 meV, 1 − y = 1.51e-61 today.",
+   "tag": "[V]",
+   "evidence": "y_epochs.out: 'today, flat limit (rho = rho_crit)                        : 1 - y = 1.507e-61'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C13",
+   "statement": "For M_X c² = 5.24 meV, 1 − y = 1.45e-26 at BBN (T = 1 MeV).",
+   "tag": "[V]",
+   "evidence": "y_epochs.out: 'BBN, T = 1 MeV, g* = 10.75                                : 1 - y = 1.45e-26'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C14",
+   "statement": "For M_X c² = 5.24 meV, 1 − y = 0.156 at T = 1 TeV (β2/β1 = 1), and 1 − y = 0.5 at T ≈ 1.27–1.32 TeV.",
+   "tag": "[V]",
+   "evidence": "y_epochs.out: 'T = 1 TeV, g* = 106.75 : 1 - y = 0.1557' and '0.5: T = 1.32e+3 GeV' (s=-0.5) ... '0.5: T = 1.27e+3 GeV' (s=10)",
+   "confidence": 0.88
+  },
+  {
+   "id": "C15",
+   "statement": "For β1 > 0 and β2/β1 > −1, ρ(y) is strictly decreasing on (0, 1), so the finite branch y ∈ (0, 1] covers all densities and no y > 1 solution with ρ > 0 exists.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'beta1 > 0, -1 < s <= 1000: max of d(rho_*)/dy * 3/beta1 on (0,1) = -1.199e-02' and 'min over y in (0,50] of q(y)/beta1 = 5.991e-03'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C16",
+   "statement": "For β1 < 0, the branch through the aligned point has a maximum density. A hot big bang then lies on the infinite branch, which ends in a broken vacuum with Λ_g < 0. So a hot big bang ending in the aligned vacuum requires β1 > 0.",
+   "tag": "[D][V]",
+   "evidence": "proportional_closed.out: 'beta1 = -1.0, beta2 = 2.0: finite branch y in (0.1270, 1]: max rho_* = 1.4284 (bounded); infinite branch y > 7.8730: rho_* rises monotonically ...: True'",
+   "confidence": 0.82
+  },
+  {
+   "id": "C17",
+   "statement": "On the dynamical branch the f lapse is X = Ẏ/ȧ = y − 3(ρ + p) dy/dρ, which never divides by ȧ and is positive on the finite branch.",
+   "tag": "[D][V]",
+   "evidence": "bimetric_flrw.out: 'Ydot / adot = -3*(pp(t) + rr(t))*Derivative(yf(rr(t)), rr(t)) + yf(rr(t))   (= y - 3(rho + p) dy/drho: finite at adot = 0)'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C18",
+   "statement": "A closed bimetric toy universe integrated through the turnaround with the second-order g equation satisfies the g and f constraints and the Y equation to ≤ 1e-14 relative. The f lapse at ȧ = 0 equals dY/da = 1.226664.",
+   "tag": "[V]",
+   "evidence": "turnaround_toy.out: 'max |E_N|/(3 a^3 Hk^2) = 8.48e-15;  max |E_X| = 7.16e-15;  max |EL_Y| = 1.01e-14  (relative)' and 'dY/da by finite difference = 1.226664; formula y - 3(rho+p)dy/drho = 1.226664'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C19",
+   "statement": "At the turnaround of an illustrative closed universe (matter plus curvature, dark energy decayed, Ω_k = −0.001), 1 − y = 2(λ_X/R_turn)² = 1.5e-69.",
+   "tag": "[V]",
+   "evidence": "y_epochs.out: 'Omega_k = -0.001: R0 = 4.34e+27 m, a_turn/a0 = 315.0, R_turn = 1.367e+30 m; 1 - y = 2 (lambda_X/R_turn)^2 = 1.519e-69'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C20",
+   "statement": "On closed de Sitter, the proportional-background condition is P_g(u) = u² P_f(u), equal to R1's u(u−1)(u+1)(β1u² + (3β2−β0)u + β1) after multiplying by u², and independent of k.",
+   "tag": "[D][V]",
+   "evidence": "proportional_closed.out: 'u x (this) equals R1's u(u - 1)(u + 1)(beta1 u^2 + (3 beta2 - beta0) u + beta1) up to sign: True' and 'k appears in the consistency condition: False'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C21",
+   "statement": "On the program's flat branch no empty closed FLRW solution exists: the aligned vacuum has Λ = 0, and every broken vacuum found has Λ_g < 0.",
+   "tag": "[D][V]",
+   "evidence": "proportional_closed.out: 'aligned u = 1: 3 H^2 = P_g(1) = 0' and 'broken vacua (u, 1/u), scanned ...: 14400 roots; Lambda_g/(m^2 2(beta1+beta2)) in [-19386034.501, -0.026]'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C22",
+   "statement": "The most general SO(4)-invariant second metric on R × S³ is −X(t)²dt² + Y(t)²γ_round, so f is closed with the same k as g.",
+   "tag": "[D][V]",
+   "evidence": "s3_harmonics.out: 'dim of invariant symmetric 2-tensors = 1 (the round metric); invariant vectors = 0'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C23",
+   "statement": "A second frame with fixed scale (Ẏ = 0) admits no expanding FLRW solution in Hassan–Rosen dynamics: the dynamical branch forces X ȧ = 0, and the algebraic branch forces a to be constant.",
+   "tag": "[D]",
+   "evidence": "Bianchi constraint in bimetric_flrw.out ('(N(t)*Derivative(Y(t), t) - X(t)*Derivative(a(t), t))*(beta1*a(t)**2 + ...)'); analogous statement for a Minkowski reference metric in von Strauss et al. App. A: 'it is not possible to find solutions with positive or zero spatial curvature for a non-dynamical $f_{\\mu\\nu}$'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C24",
+   "statement": "Fasiello–Tolley's bimetric Higuchi bound with H_f = H/y is m_FP²(y) − 2H² ≥ 0 with the dressed FP mass; Könnig's form is equivalent to dρ/dy ≤ 0.",
+   "tag": "[V][S]",
+   "evidence": "higuchi_gradient.out: '... equals m_FP^2(y) - 2H^2 with m_FP^2(y) = (m^2/2) y B2(y)(1/M_p^2 + 1/(M_f^2 y^2)): True' and 'eq15 + r^2 d(rho)/dr = 0  => Higuchi <=> rho_r <= 0'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C25",
+   "statement": "On the program's branch the generalized Higuchi bound holds at every density: min m_FP²/(2(H²+k/a²)) is 1.03–1.50 for β2/β1 ∈ [−0.9, 100], tending to 3/2 at high density. It therefore also holds at the end of inflation and during the recollapse.",
+   "tag": "[D][V]",
+   "evidence": "higuchi_gradient.out: 'limit r -> 0: 3/2' and 's =  100.0: min over r in (0,1) of m_FP^2/(2 Hk^2) = 1.032239'; y_epochs.out: 'end of inflation, rho = E_inf^4 with E_inf = 1.39e16 GeV  : ratio = 1.5, y = 2.723e-52'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C26",
+   "statement": "A fixed-mass reading of the Higuchi bound, M_X² ≥ 2(H² + k/a²), fails above T ≈ 1.52–1.53 TeV for M_X c² = 5.24 meV, before and after the turnaround.",
+   "tag": "[V]",
+   "evidence": "higuchi_gradient.out: 's = 0.0: Hk^2 = M_X^2/2 at r = 0.1788, T = 1530.0 GeV' and 's = 1.0: Hk^2 = M_X^2/2 at r = 0.1143, T = 1524.0 GeV'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C27",
+   "statement": "On the program's branch, Könnig's sub-horizon scalar eigenfrequency tends to ω²/(k/ℋ)² = 1 + 2w at small y: a gradient instability for w > −1/2, absent during inflation (w ≈ −1).",
+   "tag": "[V][S]",
+   "evidence": "higuchi_gradient.out: 'program branch, omega^2/(k/calH)^2 as r -> 0: 2*w + 1' and 'w = -0.999, s = 1 ...: [-0.9980, -0.9979] (stable)'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C28",
+   "statement": "The scalar gradient instability ends at H ≈ 0.47–0.52 M_X (T_c ≈ 1.31–1.38 TeV for M_X c² = 5.24 meV). It recurs during the recollapse at the same densities.",
+   "tag": "[V][D]",
+   "evidence": "higuchi_gradient.out: 'radiation s =  -0.5: ... r_c = 0.5159, Hk/M_X = 0.4692, T_c = 1309.0 GeV' ... 'dust s = 1.0: ... Hk/M_X = 0.5234, T_c = 1376.0 GeV'",
+   "confidence": 0.78
+  },
+  {
+   "id": "C29",
+   "statement": "The second printed line of Könnig 2015 eq. (eigenfreq) drops a factor 3. The first line, his B2 form and his final form agree with each other.",
+   "tag": "[D][V]",
+   "evidence": "higuchi_gradient.out: 'line 1 - B2 form: 0 ;  line 1 - final form (eq. eigenfreq_in_terms_of_B2,r_rho,r): 0' and 'line 1 - line 2: 2*(-beta1 + beta3*r**2)... (nonzero: the printed second line drops a factor 3)'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C30",
+   "statement": "Von Strauss et al. 2012's parametrization β1 = −1 − 2β2 − β3 'for m² to correspond to the mass' makes m_FP² negative in the convention their own Friedmann equations fix. This is likely a sign slip; nothing in this analysis depends on it.",
+   "tag": "[D]",
+   "evidence": "vS source: 'we can fix, \\beta_1 = -1-2\\beta_2-\\beta_3 ... m_{FP}^2 = \\frac{M_*^2+1}{M_*^2}m^2'; versus bimetric_flrw.out m_FP^2 ∝ +(beta1 + 2 beta2 c + beta3 c^2) and Könnig's B2 >= 0",
+   "confidence": 0.65
+  },
+  {
+   "id": "C31",
+   "statement": "On T*S³ the Levi-Civita horizontal (momentum) distribution is Lagrangian but not integrable: [H_i, H_j] = (g_jl p_i − g_il p_j)∂/∂p_l. On the flat 3-torus it is integrable.",
+   "tag": "[D][V]",
+   "evidence": "born_closed.out: 'equals the constant-curvature form (K = 1) [H_i, H_j] = (g_jl p_i - g_il p_j) d/dp_l ...: True' and 'flat 3-torus: Lagrangian: True ; brackets all zero: True'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C32",
+   "statement": "On a closed space M with H¹(M; R) = 0 (S³ and every spherical space form), T*M admits no Lagrangian foliation by sections transverse to the fibres, because two graphs of exact 1-forms meet at a critical point of the difference of their potentials.",
+   "tag": "[D]",
+   "evidence": "argument printed in born_closed.out ('two such graphs meet where d(phi1 - phi2) = 0 ...'); assumes the leaves are global sections (true for connection-type distributions)",
+   "confidence": 0.78
+  },
+  {
+   "id": "C33",
+   "statement": "An anisotropic homogeneous X (relative shear of the two metrics) of amplitude r0 per component has energy density Mbar_P² M_X² r0²/8.",
+   "tag": "[D][V]",
+   "evidence": "homogeneous_X.out: 'per shear component: energy density = 1/8 x Mbar_P^2 M_X^2 r0^2'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C34",
+   "statement": "The isotropic homogeneous part of X is slaved to matter: 1 − y = ε requires ρ = (3/2 ε − 3/4 ε²) Mbar_P² M_X² + O(ε³), and y = 0.5 requires ρ = 0.57–0.66 Mbar_P² M_X².",
+   "tag": "[D][V]",
+   "evidence": "homogeneous_X.out: '-3*epsilon**2/4 + 3*epsilon/2 x Mbar_P^2 M_X^2'; bimetric_flrw.out: 's =  10.0: rho needed for y = 0.5 (exact branch): 0.5668' ... 's =  -0.5: ... 0.6562'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C35",
+   "statement": "π1(U(4)/O(4)) = Z, generated by a loop on which det² winds once.",
+   "tag": "[D][V][T]",
+   "evidence": "grassmannian_homotopy.out: 'det^2 winding of t -> diag(e^(i pi t),1,1,1) (a loop in U(4)/O(4)): +1.000000' and 'generator of pi_1(U(4)) ...: +2.000000'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C36",
+   "statement": "π2(U(4)/O(4)) = Z2.",
+   "tag": "[D][V][T]",
+   "evidence": "grassmannian_homotopy.out: 'det winding of the pi_1(SO(4)) generator inside U(4): +0.000000' and '-> ... pi_2(U(4)/O(4)) = Z2'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C37",
+   "statement": "π3(U(4)/O(4)) = Z2: the generators of π3(SO(4)) map to winding ±2 in π3(U(4)) = Z, and π2(O(4)) = 0.",
+   "tag": "[D][V][T]",
+   "evidence": "grassmannian_homotopy.out: 'SO(4) generator 1: x -> q x ...: W = -2.000357', 'SO(4) generator 2: x -> x q ...: W = +2.000357', anchor 'fundamental SU(2) ...: W = -1.000179'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C38",
+   "statement": "A closed S³ universe admits exactly two homotopy classes of polarization configurations, [S³, Λ(4)] = Z2. None exists within the light Maslov circle, since π3(S¹) = 0.",
+   "tag": "[D][T]",
+   "evidence": "grassmannian_homotopy.out summary: 'free homotopy classes [S^3, Lambda(4)] = pi_3 / pi_1-action = Z2' and 'Maslov circle S^1: pi_2(S^1) = pi_3(S^1) = 0'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C39",
+   "statement": "The lowest transverse-traceless tensor harmonics on S³ are at L = 2: ten modes with −∇² = 6/R², namely the left- and right-invariant (Bianchi IX) shear modes.",
+   "tag": "[D][V]",
+   "evidence": "s3_harmonics.out: '-nabla^2 on left-invariant symmetric traceless tensors: [6. 6. 6. 6. 6.]' and 'L = 2: 6 vs L(L+2) - 2 = 6;  degeneracy ... = 10'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C40",
+   "statement": "A massive spin-2 field on closed de Sitter has no L = 0 or L = 1 modes. Relative to the scalar and transverse-vector harmonics, closure removes 11 modes and adds none.",
+   "tag": "[D][V][S]",
+   "evidence": "s3_harmonics.out: 'L = 0: helicities [], 0 modes; ... sum 1', 'L = 1: helicities [], 0 modes; ... sum 10'; Sun 2021 eq. (decomposeCF)",
+   "confidence": 0.85
+  },
+  {
+   "id": "C41",
+   "statement": "Under the record's dictionary (ã = 1/a, w_eff = −w̃), the k = +1 curvature term reads in the dual ledger as negative dual radiation ∝ ã⁻⁴, and H̃ = −H.",
+   "tag": "[D][V]",
+   "evidence": "born_closed.out: 'our curvature, E_k = -3 M^2 k a, on the dual books: rho~ = -3*C*M**2*k/at**4' and 'dual Hubble rate H~ ... = -H'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C42",
+   "statement": "With compact position and compact momentum (N cells), the discrete Fourier transform exchanges shift and clock exactly. Exact global x↔p reciprocity in a closed universe would therefore need a compact momentum space, with L P = N h.",
+   "tag": "[T][V]",
+   "evidence": "born_closed.out: 'N =  7: |F X F^-1 - Z| = 1.6e-15, |F Z F^-1 - X^-1| = 1.8e-15, |F^4 - 1| = 3.6e-15'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C43",
+   "statement": "Reciprocity-fixed equality M_f u = M_g removes the small-M_f escape (Akrami et al. 2015) that would push the gradient instability to very early times.",
+   "tag": "[D][S]",
+   "evidence": "Könnig 2015 source: 'a small, but natural, Planck mass for $f_{\\mu\\nu}$ ... would shift this gradient instability to very early times'; program: M_f = M_g and u = 1 (#8 §3, diameter note §8.2)",
+   "confidence": 0.8
+  }
+ ],
+ "numbers": [
+  {
+   "quantity": "M_X c^2 at the record's range bound lambda_X = 37.68 um",
+   "value": "5.2369 meV",
+   "script": "y_epochs.py",
+   "printed": "M_X c^2 = hbar c/lambda_X = 5.2369 meV; (M_X/H0)^2 = 1.327e+61"
+  },
+  {
+   "quantity": "1 - y today (flat limit), s = 1",
+   "value": "1.507e-61",
+   "script": "y_epochs.py",
+   "printed": "today, flat limit (rho = rho_crit)                        : 1 - y = 1.507e-61   (leading order 1.507e-61)"
+  },
+  {
+   "quantity": "1 - y today, closed Omega_k = -0.01",
+   "value": "1.522e-61",
+   "script": "y_epochs.py",
+   "printed": "today, closed Omega_k = -0.01 (rho = rho_crit (1 - Omega_k)): 1 - y = 1.522e-61"
+  },
+  {
+   "quantity": "1 - y at recombination z = 1090",
+   "value": "8.121e-53",
+   "script": "y_epochs.py",
+   "printed": "recombination z = 1090                                    : 1 - y = 8.121e-53"
+  },
+  {
+   "quantity": "1 - y at BBN T = 1 MeV",
+   "value": "1.45e-26",
+   "script": "y_epochs.py",
+   "printed": "BBN, T = 1 MeV, g* = 10.75                                : 1 - y = 1.45e-26"
+  },
+  {
+   "quantity": "1 - y at T = 100 GeV",
+   "value": "1.439e-5",
+   "script": "y_epochs.py",
+   "printed": "electroweak, T = 100 GeV, g* = 106.75                     : 1 - y = 1.439e-5"
+  },
+  {
+   "quantity": "1 - y at T = 1 TeV (s = 1)",
+   "value": "0.1557",
+   "script": "y_epochs.py",
+   "printed": "T = 1 TeV, g* = 106.75                                    : 1 - y = 0.1557   (leading order 0.1439)"
+  },
+  {
+   "quantity": "temperature at which 1 - y = 0.01 / 0.1 / 0.5",
+   "value": "513 GeV / 902 GeV / 1.27-1.32 TeV",
+   "script": "y_epochs.py",
+   "printed": "s = 1.0    0.01: T = 513.0 GeV (H/M_X = 0.0705);  0.1: T = 902.0 GeV (H/M_X = 0.218);  0.5: T = 1.28e+3 GeV (H/M_X = 0.445)"
+  },
+  {
+   "quantity": "1 - y at the turnaround, illustrative closed model Omega_k = -0.001",
+   "value": "1.519e-69 (R_turn = 1.367e30 m)",
+   "script": "y_epochs.py",
+   "printed": "Omega_k = -0.001: R0 = 4.34e+27 m, a_turn/a0 = 315.0, R_turn = 1.367e+30 m; 1 - y = 2 (lambda_X/R_turn)^2 = 1.519e-69"
+  },
+  {
+   "quantity": "1 - y at the turnaround, illustrative closed model Omega_k = -0.01",
+   "value": "1.519e-66 (R_turn = 4.323e28 m)",
+   "script": "y_epochs.py",
+   "printed": "Omega_k = -0.01: R0 = 1.372e+27 m, a_turn/a0 = 31.5, R_turn = 4.323e+28 m; 1 - y = 2 (lambda_X/R_turn)^2 = 1.519e-66"
+  },
+  {
+   "quantity": "H/M_X and T where M_eff^2 is halfway between M_g^2 and 2M_g^2",
+   "value": "0.7457-0.7694; 1552-1576 GeV",
+   "script": "y_epochs.py",
+   "printed": "s = 1.0: y = 0.09883, H/M_X = 0.7457, T = 1552.0 GeV at M_X c^2 = 5.24 meV"
+  },
+  {
+   "quantity": "bimetric effective dark energy / total density today",
+   "value": "1.427e-184",
+   "script": "y_epochs.py",
+   "printed": "today (flat limit)          : rho_DE,bim/rho = 1.427e-184  (s = 1)"
+  },
+  {
+   "quantity": "Higuchi ratio m_FP^2/(2 Hk^2) today",
+   "value": "6.6339e60",
+   "script": "y_epochs.py",
+   "printed": "today (flat limit)                                        : ratio = 6.6339e+60, y = 1.0, H/M_X = 2.745e-31"
+  },
+  {
+   "quantity": "Higuchi ratio at BBN",
+   "value": "6.8987e25",
+   "script": "y_epochs.py",
+   "printed": "BBN, T = 1 MeV                                            : ratio = 6.8987e+25, y = 1.0, H/M_X = 8.513e-14"
+  },
+  {
+   "quantity": "Higuchi ratio at T = 1 TeV",
+   "value": "5.9911",
+   "script": "y_epochs.py",
+   "printed": "T = 1 TeV                                                 : ratio = 5.9911, y = 0.8443, H/M_X = 0.2683"
+  },
+  {
+   "quantity": "Higuchi ratio at the end of inflation (E_inf = 1.39e16 GeV)",
+   "value": "1.5 (y = 2.723e-52, H/M_X = 1.237e25)",
+   "script": "y_epochs.py",
+   "printed": "end of inflation, rho = E_inf^4 with E_inf = 1.39e16 GeV  : ratio = 1.5, y = 2.723e-52, H/M_X = 1.237e+25"
+  },
+  {
+   "quantity": "minimum over the branch of m_FP^2/(2 Hk^2), s = 0 / 1 / 10 / 100",
+   "value": "1.487864 / 1.349883 / 1.130905 / 1.032239",
+   "script": "higuchi_gradient.py",
+   "printed": "s =  100.0: min over r in (0,1) of m_FP^2/(2 Hk^2) = 1.032239 at r = 7.25e-02"
+  },
+  {
+   "quantity": "temperature where a fixed-mass Higuchi reading M_X^2 = 2 Hk^2 fails",
+   "value": "1524-1530 GeV",
+   "script": "higuchi_gradient.py",
+   "printed": "s = 1.0: Hk^2 = M_X^2/2 at r = 0.1143, T = 1524.0 GeV (g* = 106.75, M_X c^2 = 5.237 meV)"
+  },
+  {
+   "quantity": "end of the scalar gradient instability (radiation era), Hk/M_X and T_c",
+   "value": "0.4692-0.5191; 1309-1377 GeV",
+   "script": "higuchi_gradient.py",
+   "printed": "radiation s =   1.0: sign changes at r = ['0.3141']; r_c = 0.3141, Hk/M_X = 0.5178, T_c = 1370.0 GeV"
+  },
+  {
+   "quantity": "maximum density on the aligned branch for beta1 = -1, beta2 = 2",
+   "value": "rho_* = 1.4284",
+   "script": "bimetric_flrw.py",
+   "printed": "branch from y=1 down to y=0.12702 has max rho_* = 1.4284 at y = 0.4075"
+  },
+  {
+   "quantity": "Lambda_g/(m^2 2(beta1+beta2)) at the broken vacua, beta1 = -1, beta2 = 2",
+   "value": "-1.143, -70.857",
+   "script": "bimetric_flrw.py",
+   "printed": "/ (2(beta1+beta2)) = [-1.143, -70.857] (cf. review/round5/adjudicator/arb.out)"
+  },
+  {
+   "quantity": "matter density required for y = 0.5",
+   "value": "0.5668-0.6562 Mbar_P^2 M_X^2",
+   "script": "bimetric_flrw.py",
+   "printed": "s =   1.0: rho needed for y = 0.5 (exact branch): 0.5859 Mbar_P^2 M_X^2"
+  },
+  {
+   "quantity": "energy density coefficient of an anisotropic homogeneous X",
+   "value": "1/8 (times Mbar_P^2 M_X^2 r0^2)",
+   "script": "homogeneous_X.py",
+   "printed": "per shear component: energy density = 1/8 x Mbar_P^2 M_X^2 r0^2"
+  },
+  {
+   "quantity": "turnaround toy: f lapse at adot = 0 and maximum residual",
+   "value": "X = 1.226664; residual <= 1.01e-14",
+   "script": "turnaround_toy.py",
+   "printed": "max |E_N|/(3 a^3 Hk^2) = 8.48e-15;  max |E_X| = 7.16e-15;  max |EL_Y| = 1.01e-14  (relative)"
+  },
+  {
+   "quantity": "winding numbers W of fundamental SU(2), SO(4) generators, adjoint SO(3)",
+   "value": "-1.000179, -2.000357, +2.000357, -4.000714",
+   "script": "grassmannian_homotopy.py",
+   "printed": "SO(4) generator 1: x -> q x, as an element of U(4)            : W = -2.000357"
+  },
+  {
+   "quantity": "lowest TT harmonic eigenvalue and degeneracy on S^3",
+   "value": "-nabla^2 R^2 = 6, 10 modes",
+   "script": "s3_harmonics.py",
+   "printed": "L = 2: 6 vs L(L+2) - 2 = 6;  degeneracy 2(L+1+2)(L+1-2) = 10"
+  },
+  {
+   "quantity": "broken vacua scanned on the flat branch",
+   "value": "14400 roots, all Lambda_g < 0",
+   "script": "proportional_closed.py",
+   "printed": "14400 roots; Lambda_g/(m^2 2(beta1+beta2)) in [-19386034.501, -0.026]"
+  }
+ ],
+ "open": [
+  "REPORT.md was not written: the harness refuses report files from subagents. This structured return carries the report's content.",
+  "The k = +1 form of the bimetric Higuchi bound: published forms (Fasiello–Tolley, Könnig) are spatially flat. The de Sitter limit requires H² + k/a². On the program's branch both that form and the flat form are implied by dρ/dy < 0, but no derivation for closed FLRW was done.",
+  "Curvature corrections to Könnig's sub-horizon eigenfrequency formula (order 1/(kR)²) were neglected in the closed case.",
+  "Whether Vainshtein screening cures the early-time (and recollapse) scalar gradient instability on the program's branch.",
+  "Definition of the second frame f = E₀[J]: a dynamical metric with its own scale (the HR reading used here) or a frame on compact Λ(4). A bounded Y is compatible only with a bounded a, i.e. a closed universe; not explored.",
+  "τ's coupling to f (τ–Stückelberg mixing, #11 §14 item 6); τ was treated as matter on g.",
+  "The L = 1 sector of a massive spin-2 field on closed FLRW with matter (non-de Sitter). The L = 0 sector is the algebraic y; the L ≥ 2 result is for de Sitter (K-types).",
+  "An X condensate in a closed universe: the lowest homogeneous modes are the anisotropic L = 2 (Bianchi IX) modes. Their anisotropic stress and the isotropy constraint are not computed.",
+  "Consequences of the momentum-polarization integrability obstruction on T*S³ for P4's p-polarized χ sector and P5's mirror vacuum.",
+  "Fate of Z2 textures and Z2 point defects of Λ(4), and of τ-strings, produced at the polarization-breaking transition.",
+  "Lorentzian dressing of the Siegel description of homogeneous Z (Y = g must be positive), a record-level open item."
+ ],
+ "record_errors": [
+  "papers/broken-born-checkpoint-v2.md §7.5 (and notes/broken-born-program-v1.md §5): 'M_X ∝ 2(β1+β2)' should be M_X². From homogeneous shear, M_X² = 2m²(β1 + 2β2 + β3) = 4m²(β1+β2) in von Strauss normalization (bimetric_flrw.out part G). Confirms review/wiki-build-flags.md item 5.",
+  "Inconsistency across #11 §7.4–7.5, notes/debt1a-iii-tuning-test.md §4 and HANDOFF.md §2 ('second frame confined to compact Λ(4)', 'no scale of its own' in phase-space-diameter.md §8.2) versus notes/debt1a-iv-beta-coefficients.md §3 (equal Planck masses) and phase-space-diameter.md §8.2 (Hassan–Rosen Yukawa coupling). A second frame with fixed scale admits no expanding FLRW in Hassan–Rosen dynamics (the Bianchi constraint forces ȧ = 0). With f dynamical, the aligned point persists, with 1 − y = 2(H² + k/a²)/M_X² (~1e-61 today). The diameter note's open item reduces to defining E₀[J].",
+  "papers/broken-born-checkpoint-v2.md §10 ('§7.3 guarantees the wedge sector contributes nothing that competes with τ') is right for dark energy: the exact term is ∝ (1−y)⁴/y, 1e-184 of ρ today. But it omits that the wedge sector doubles G_eff for H ≫ M_X, a step near T ≈ 1.5 TeV at the minimal M_X. No document records this step.",
+  "notes/knot-dark-matter-standalone.md §1 and review/v3-worklog.md R7 say the Higuchi bound is 'trivially satisfied by a heavy X'. That reasoning fails for H > M_X, which the early universe and the recollapse reach. The bound still holds on the program's branch through the dressed mass (ratio ≥ 1.03). The instability while H exceeds the spin-2 mass (phase-space-diameter.md §8.2 caveat) is Könnig's scalar gradient instability, not a Higuchi ghost.",
+  "Program parameter space (notes/debt1a-iv-beta-coefficients.md §3; review/round5-adjudication.md R1): the record never states that β1 > 0 is required. With matter on g, a hot big bang ending in the aligned vacuum requires β1 > 0. For β1 < 0 the branch through the aligned point has a maximum density, and the hot branch ends in an AdS broken vacuum. For β1 > 0, R1's broken vacua do not exist."
+ ],
+ "files": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/bimetric_flrw.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/bimetric_flrw.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/turnaround_toy.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/turnaround_toy.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/y_epochs.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/y_epochs.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/higuchi_gradient.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/higuchi_gradient.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/proportional_closed.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/proportional_closed.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/s3_harmonics.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/s3_harmonics.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/grassmannian_homotopy.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/grassmannian_homotopy.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/born_closed.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/born_closed.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/homogeneous_X.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/homogeneous_X.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/tools/extract_tex.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/downloads/1111_1655/paper.txt",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/downloads/1308_1647/paper.txt",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/downloads/konnig2015/paper.txt",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/downloads/2111_04591/paper.txt"
+ ],
+ "references": [
+  {
+   "citation": "M. von Strauss, A. Schmidt-May, J. Enander, E. Mörtsell, S. F. Hassan, 'Cosmological solutions in bimetric gravity and their observational tests', JCAP 03 (2012) 042, arXiv:1111.1655",
+   "status": "S",
+   "url": "https://arxiv.org/e-print/1111.1655",
+   "quote": "we also assume both metrics to have the same spatial curvature $k=0,\\pm1$; The true dynamical constraint is enforced by the vanishing of the expression within the round brackets"
+  },
+  {
+   "citation": "M. Fasiello, A. J. Tolley, 'Cosmological stability bound in massive gravity and bigravity', JCAP 12 (2013) 002, arXiv:1308.1647",
+   "status": "S",
+   "url": "https://arxiv.org/e-print/1308.1647",
+   "quote": "\\frac{m^2}{2} \\left[ \\beta_1 H_f^2 + 2 \\beta_2 H H_f + \\beta_3 {H^2}\\right] \\left( \\frac{H^2}{\\mpl^2} +\\frac{H_f^2}{\\mpf^2}\\right)\\ \\ge 2 H_f^3 H^3 (eq. symm); abstract: 'a cosmological bound on the graviton mass for spatially flat FRW solutions'"
+  },
+  {
+   "citation": "F. Könnig, 'Higuchi ghosts and gradient instabilities in bimetric gravity', Phys. Rev. D 91, 104019 (2015), arXiv:1503.07436",
+   "status": "S",
+   "url": "https://arxiv.org/e-print/1503.07436",
+   "quote": "Every finite branch has a point in time at which the instability stops and the scalar perturbations begin to oscillate.; where we already set the Planck mass for $f_{\\mu\\nu}$ to $M_{g}$"
+  },
+  {
+   "citation": "A. Higuchi, 'Forbidden mass range for spin-2 field theory in de Sitter space-time', Nucl. Phys. B 282, 397 (1987) (INSPIRE abstract)",
+   "status": "S",
+   "url": "https://inspirehep.net/api/literature?q=a%20Higuchi%2C%20A%20and%20j%20Nucl.Phys.B%2C282",
+   "quote": "the square of the mass M 2 cannot be between 0 (linearized gravity) and 2 3 × ( cosmological constant )"
+  },
+  {
+   "citation": "Z. Sun, 'A note on the representations of SO(1,d+1)', arXiv:2111.04591",
+   "status": "S",
+   "url": "https://arxiv.org/e-print/2111.04591",
+   "quote": "\\boxed{\\left.\\CF_{\\Delta, s}\\right\\vert_{\\SO(d+1)}=\\bigoplus_{n\\ge s}\\bigoplus_{0\\le m \\le s}\\mY_{n,m}}; These modes are spin-$(s\\!-\\!1)$ conformal Killing tensors on $S^d$"
+  },
+  {
+   "citation": "V. Moncrief, 'Spacetime symmetries and linearization stability of the Einstein equations I', J. Math. Phys. 16, 493 (1975)",
+   "status": "dagger"
+  },
+  {
+   "citation": "A. Hatcher, 'A proof of the Smale conjecture, Diff(S^3) ≃ O(4)', Ann. Math. 117, 553 (1983); J. Cerf (1968), Diff+(S^3) connected",
+   "status": "dagger"
+  },
+  {
+   "citation": "R. Bott, 'The stable homotopy of the classical groups', Ann. Math. 70, 313 (1959)",
+   "status": "dagger"
+  },
+  {
+   "citation": "R. S. Palais, 'The principle of symmetric criticality', Commun. Math. Phys. 69, 19 (1979)",
+   "status": "dagger"
+  },
+  {
+   "citation": "Y. Akrami, S. F. Hassan, F. Könnig, A. Schmidt-May, A. R. Solomon, Phys. Lett. B 748, 37 (2015), arXiv:1503.07521 (as cited by Könnig 2015 and the record)",
+   "status": "dagger"
+  },
+  {
+   "citation": "Stiefel's theorem: every orientable closed 3-manifold is parallelizable",
+   "status": "dagger"
+  }
+ ]
+}

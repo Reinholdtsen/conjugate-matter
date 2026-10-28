@@ -32,6 +32,9 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
   - "review/wiki-build-flags.md items 1, 10, 27, 43"
+  - "review/wiki-build-flags.md items 27 (addendum), 45, 46, 52"
+  - "notes/closed-universe.md §2"
+  - "notes/closed-universe.md §6"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
@@ -87,7 +90,7 @@ The kinetic term is the standard one, which is why τ obeys the null energy cond
 
 ### Why a cosine
 
-The topology fixes only the period: V must be unchanged under τ → τ + 2πf. In this wiki's reading, any such function can be written as a Fourier series in τ/f, and V₀[1 + cos(τ/f)] keeps the constant term and the first harmonic, the standard form for an [axion-like field](/wiki/cosmology/dark-energy/axion-like-fields#the-periodic-potential) [T]. The documents do not discuss higher harmonics or the size of the constant term. As written, V ≥ 0 whenever V₀ > 0, while the program's [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce) needs V < 0; the documents do not reconcile the two ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
+The topology fixes only the period: V must be unchanged under τ → τ + 2πf. In this wiki's reading, any such function can be written as a Fourier series in τ/f, and V₀[1 + cos(τ/f)] keeps the constant term and the first harmonic, the standard form for an [axion-like field](/wiki/cosmology/dark-energy/axion-like-fields#the-periodic-potential) [T]. The documents do not discuss higher harmonics or the size of the constant term. As written, V ≥ 0 whenever V₀ > 0, while the program's [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce) needs V < 0; the documents do not reconcile the two ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). The flag's addendum (2026-10-27) finds that a closed universe turns around with V ≥ 0 throughout, τ passing its minimum and oscillating as dust while curvature reverses the expansion, and that a flat or open universe never does ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-turnaround-needs-k--1-dv)).
 
 ### Its magnitude
 
@@ -111,13 +114,13 @@ In the toy-model worklog this drift has a geometric reading: "the present-day th
 
 ## Nothing else supplies vacuum energy
 
-#11 §10: "§7.3 guarantees the wedge sector contributes nothing that competes with τ." The reference is to the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): with reciprocity forcing [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) on the momentum graviton's potential, a flat aligned vacuum forces that potential's vacuum energy to vanish (#11 §7.3, [D][V]). [Calc note #8](/wiki/history/documents/debt-1-notes) drew the consequence for cosmology: "The massive-gravity sector contributes *nothing* to the cosmological constant; dark energy is left entirely to the τ sector, which is precisely the architecture the cosmology chapter had assumed" (`notes/debt1a-iv-beta-coefficients.md` §2).
+#11 §10: "§7.3 guarantees the wedge sector contributes nothing that competes with τ." The reference is to the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): with reciprocity forcing [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) on the momentum graviton's potential, a flat aligned vacuum forces that potential's vacuum energy to vanish (#11 §7.3, [D][V]). [Calc note #8](/wiki/history/documents/debt-1-notes) drew the consequence for cosmology: "The massive-gravity sector contributes *nothing* to the cosmological constant; dark energy is left entirely to the τ sector, which is precisely the architecture the cosmology chapter had assumed" (`notes/debt1a-iv-beta-coefficients.md` §2). Flag 52 notes that the guarantee holds for the dark-energy density but follows from the exact (1 − y)⁴/y relation on the bimetric branch, not from §7.3's aligned-point identity alone, and that #11 omits a step in the strength of gravity, G_eff = 2G_N while the expansion rate far exceeds X's mass ([the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-branch-relation-dv)).
 
 The scope is limited. The identity "does **not** by itself address matter-loop vacuum energy, the 'old' cosmological-constant problem" (#11 §7.3; [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)). The identity leaves the vacuum energy of matter loops where general relativity leaves it, and #11 does not claim otherwise.
 
 ## The fits [S]
 
-#11 §10 summarizes the fits in a sentence written for v2.0 and kept unchanged since: "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ) and high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]" ([anti-de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space#anti-de-sitter-space-t)). The two fits are Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542 [19S], and Ureña-López et al. (DESI), an axion-quintessence analysis of DESI data, arXiv:2503.20178 [20S]. The lab notebook says that "Hilltop/axion potentials of exactly this class have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2), DR1 being Data Release 1. The fits concern the class of models, not the program's identification of the field.
+#11 §10 summarizes the fits in a sentence written for v2.0 and kept unchanged since: "compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ) and high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]" ([anti-de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space#anti-de-sitter-space-t)). Flag 45 in `review/wiki-build-flags.md` finds that only [19] supports the second clause: [20] fits V₀[1 + cos] with null spatial curvature and mentions no anti-de Sitter phase or collapse, and neither paper bears on the program's V ≥ 0 potential. The two fits are Gialamas et al., "Quintessence and phantoms in light of DESI 2025," arXiv:2506.21542 [19S], and Ureña-López et al. (DESI), an axion-quintessence analysis of DESI data, arXiv:2503.20178 [20S]. The lab notebook says that "Hilltop/axion potentials of exactly this class have been fit directly to DESI DR1/DR2 by the collaboration and others" (#1 §7 item 2), DR1 being Data Release 1. The fits concern the class of models, not the program's identification of the field.
 
 ## Under pressure from DESI DR2
 
@@ -149,22 +152,22 @@ The worklog's chunk 3 states what this means for the program: "In 3+1, the progr
 
 ## Parameters and tests
 
-- **Free numbers.** V₀, fixed by Ω_DE; f; and τᵢ, the initial value. Two remain for three observables, w₀, wₐ and the turnaround time t_turn ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)).
+- **Free numbers.** V₀, fixed by Ω_DE; f; and τᵢ, the initial value. Two remain for three observables, w₀, wₐ and the turnaround time t_turn ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)). With V ≥ 0 a turnaround needs a closed universe, where t_turn ∝ |Ω_k|^{−3/2} at fixed (w₀, wₐ), so the curvature is a third input and the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing (flag 46; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-over-constraint-moves-dv)).
 - **Near-term test.** [Row 4](/wiki/predictions/dark-energy-drift): "DR3+ constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright) — DR2 already favors a crossing above z ≈ 0.4 (§10)" (#11 §13).
-- **Long-horizon consequence.** [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), "Turnaround = conjugate bounce" (#11 §13), which needs V(τ) < 0 ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce); see flag 27 in `review/wiki-build-flags.md`).
+- **Long-horizon consequence.** [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), "Turnaround = conjugate bounce" (#11 §13), which needs V(τ) < 0 ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce); see flag 27 in `review/wiki-build-flags.md`), or, by the flag's addendum, a closed universe.
 - **Safety.** τ is extremely light; the lab notebook argues that as a [pseudo-Goldstone field](/wiki/symmetry-breaking/goldstone-and-higgs) it produces no detectable [fifth force](/wiki/gravity/spin-2-fields/yukawa-forces#fifth-forces-a-yukawa-term-beside-gravity-t) ([fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force)).
 
 ## What is open
 
 - **The origin of the potential.** [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); "a derivation of the ρ-preserving potential" is an open end in the root `CLAUDE.md`.
-- **The sign of the potential.** V₀[1 + cos(τ/f)] is never negative for V₀ > 0, yet the turnaround needs V < 0; no document reconciles the two ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
+- **The sign of the potential.** V₀[1 + cos(τ/f)] is never negative for V₀ > 0, yet the turnaround needs V < 0; no document reconciles the two ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). The flag's addendum finds the turnaround with V ≥ 0 in a closed universe, and the data in the program's model class disfavour closure at about 2σ.
 - **Mixing with the absorbed modes.** [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).
 - **Kinetic or potential energy.** The lab notebook motivates near-constant dark energy as kinetic energy in the dual frame and then implements it as τ's potential energy; no document derives the link ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)).
 - **τ's lightness** among the ten moduli of Λ(d) at d = 4 is a postulate [P] (#1 §2), and the fate of the other nine is open ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
 
 ## History
 
-- **v0.1, the lab notebook (September 2026).** #1 §3 writes the action and potential; §4 argues fifth-force safety; §7 identifies dark energy with τ (thawing, w ≥ −1, the turnaround, the over-constraint); §9 row 5 sets the test against DESI DR3; the §12 summary calls τ "a dark energy field that is literally the Maslov angle of the vacuum, forced by topology to a periodic potential, hence thawing, never phantom, and destined to go negative" (see flag 27 in `review/wiki-build-flags.md`).
+- **v0.1, the lab notebook (September 2026).** #1 §3 writes the action and potential; §4 argues fifth-force safety; §7 identifies dark energy with τ (thawing, w ≥ −1, the turnaround, the over-constraint); §9 row 5 sets the test against DESI DR3; the §12 summary calls τ "a dark energy field that is literally the Maslov angle of the vacuum, forced by topology to a periodic potential, hence thawing, never phantom, and destined to go negative" (see flag 27 in `review/wiki-build-flags.md`, whose addendum finds that the turnaround's cause, with this potential, is a closed universe's curvature and not a negative V).
 - **v0.2.** After [Debt 3](/wiki/history/debts), the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
 - **v0.3.** Strict P2 is found to erase τ, and P2′ restores it (above).
 - **Debt 1.** Calc note #8 shows that the momentum graviton's sector adds no vacuum energy, "leaving dark energy entirely to τ as the cosmology chapter had assumed" (#1 'Addendum (v0.6)'), and that τ is not absorbed by X at leading order (§3).
@@ -199,5 +202,6 @@ So rigidity of ω alone does not tilt the circle; the potential's periodicity [D
 - `notes/debt1a-geometric-core.md` §B — the rigid branch without τ; §F — the origin of τ's potential under P2′, open
 - `notes/debt1a-iv-beta-coefficients.md` §2 — dark energy left entirely to the τ sector
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results', 'Chunk 3 results' — the Goldstone angle as τ's circle, the thawing reading, the pseudo-Goldstone conclusion
-- `review/wiki-build-flags.md` item 43 — the corridor in the region of DR2's fits, and the slope that separates it from DR2's crossing; items 1, 10 and 27 — the suspected source errors quoted on this page
+- `review/wiki-build-flags.md` item 43 — the corridor in the region of DR2's fits, and the slope that separates it from DR2's crossing; items 1, 10 and 27 — the suspected source errors quoted on this page; item 27's addendum and items 45, 46 and 52 — the closed turnaround, the compound citation for the anti-de Sitter fits, the over-constraint moved to Ω_k, and the wedge sector's guarantee
+- `notes/closed-universe.md` §2 — the turnaround in a closed universe with V ≥ 0, the over-constraint and the data; §6 — the bimetric branch relation and G_eff = 2G_N
 - `popsci/angle-of-the-mirror.md` 'The referee is already on the field', `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — the popular framing

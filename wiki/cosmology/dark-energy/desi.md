@@ -13,6 +13,7 @@ sources:
   - "HANDOFF.md §2"
   - "notes/broken-born-theory.md §7"
   - "CLAUDE.md 'Since the handoff'"
+  - "notes/closed-universe.md §2"
 ---
 
 *The Dark Energy Spectroscopic Instrument (DESI) is a survey that measures the [redshifts](/wiki/cosmology/scale-factor-duality/redshift) of galaxies and quasars in order to map how the universe has expanded over a long span of its history. Its main tool is baryon acoustic oscillations (BAO): sound waves in the hot plasma of the early universe left a preferred separation between concentrations of matter, a fixed length that serves as a ruler at every later epoch. In Fourier terms the imprint is a single bump in the correlation between galaxy positions and a series of wiggles in its transform, the power spectrum. Measuring the ruler's apparent size at different redshifts gives distances, and the dark-energy equation of state is inferred from those distances by fitting a model; it is not observed directly. DESI's data releases are the external clock for the program's dark-energy sector, and its second release already leans against the program's requirement.*
@@ -77,6 +78,7 @@ The reading of the survey has changed. Before the [round-3](/wiki/method/review/
 - [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the release that put the dark-energy sector under pressure.
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — "w(z) is inferred from distances rather than observed".
 - [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — w₀ and wₐ, two of its three observables, measured from survey distances.
+- [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — the curvature that DR2 with the cosmic microwave background gives in ΛCDM with free curvature, Ω_K = 0.0023 ± 0.0011 (arXiv:2503.14738, Table 5) [S], and a fit of the program's thawing corridor with free curvature to DR2's distances, which disfavours a closed universe at about 2σ; ΛCDM is the standard model of a cosmological constant plus cold dark matter.
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the fits that compare τ-type models with the data.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the test that Data Release 3 decides.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — [founding supposition 7](/wiki/program/founding-suppositions) is "live at DESI DR3" (#11 App. A item 7).
@@ -89,3 +91,4 @@ The reading of the survey has changed. Before the [round-3](/wiki/method/review/
 - `HANDOFF.md` §2 — the earlier reading and the external clock
 - `notes/broken-born-theory.md` §7 item 2 — fits of hilltop and axion potentials to DR1 and DR2; "DESI 2025"
 - `CLAUDE.md` 'Since the handoff' — "under real pressure ahead of DR3"
+- `notes/closed-universe.md` §2 — DR2's curvature value and the corridor fit with free curvature

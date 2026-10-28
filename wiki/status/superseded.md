@@ -43,6 +43,7 @@ sources:
   - "review/v3-worklog.md 'Findings neither referee raised'"
   - "review/v3-worklog.md 'Round-2 pending list'"
   - "review/wiki-build-flags.md items 6, 10, 11, 17, 27, 33, 37, 38"
+  - "notes/closed-universe.md §2"
   - "README.md"
 ---
 
@@ -125,7 +126,7 @@ Superseded is not dead. The heuristic w_eff = −2 − w̃ was superseded by w_e
 - [Superseded: the exponential cliff of v0.1](/wiki/predictions/self-interaction-knee#superseded-the-exponential-cliff-of-v01) — row 1 as a cliff, "exactly zero in clusters forever" (#1 §9) → "Knee at v\* ~ 10² km/s; zero cluster signal (particle χ)" (#11 §13).
 - [Superseded: the exponential and the cube](/wiki/predictions/island-discriminant#superseded-the-exponential-and-the-cube) — row 3's "exponential" particle side, and calc note #2's (v\*/σ)³ for the wave side → "sharp" against (v\*/σ)⁴ (#9 §7; #11 §9, §13).
 - [Superseded: DESI read as support](/wiki/predictions/dark-energy-drift#superseded-desi-read-as-support) — row 4's side of the same change: the documents read the survey's hints as confirmation of the drift → the technical record of #11 §10 and the root `CLAUDE.md`.
-- [Superseded: "after V(τ) < 0"](/wiki/predictions/fate-of-expansion#superseded-after-vτ--0) — row 5's "Turnaround after V(τ) < 0 = conjugate bounce" (#9 §9) → "Turnaround = conjugate bounce" (#11 §13); no document says why the clause was dropped, and the sign of V is flag 27.
+- [Superseded: "after V(τ) < 0"](/wiki/predictions/fate-of-expansion#superseded-after-vτ--0) — row 5's "Turnaround after V(τ) < 0 = conjugate bounce" (#9 §9) → "Turnaround = conjugate bounce" (#11 §13); no document says why the clause was dropped, and the sign of V is flag 27, whose addendum (2026-10-27) finds the turnaround with V ≥ 0 in a closed universe ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)).
 - [Superseded: "not previously posed"](/wiki/predictions/massless-graviton#superseded-not-previously-posed) — #9 §11 counted the masslessness of the even eigenstate among its "novel predictions not previously posed" → #11 §15 names only rows 3 and 11; no document says why.
 - [Superseded: earlier forms of the row](/wiki/predictions/direct-detection-null#superseded-earlier-forms-of-the-row) — row 7's permanent null, first for χ (#1 §9), then for χ or the X-condensate (#9 §9), then for all three candidates of #11 v2.0 → for "both dark-sector candidates", with P4 strict (#11 v2.1, v2.2).
 - [Superseded: the spectral step and the ±0.03 target](/wiki/predictions/early-universe-step#superseded-the-spectral-step-and-the-003-target) — #1's row 10, with a step in the gravitational-wave spectrum and a target of ±0.03 in N_eff for the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#row-10s-probe-cmb-s4) experiment CMB-S4 → v1 dropped both (#9 §9), and #11 kept v1's form; no document says why.
@@ -163,5 +164,5 @@ Superseded is not dead. The heuristic w_eff = −2 − w̃ was superseded by w_e
 - `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md`, `notes/debt3c-ufd-endpoint.md` — the cubic suppression, the race against stirring, the ultra-faint-dwarf row.
 - `notes/toy-lagrangian.md` "Chunk 2 results", "Assessment against the predictions" — the reversed sign; the first verdict.
 - `review/v3-worklog.md` "Findings neither referee raised", "Round-2 pending list" — F1, F2 and R2; the decision that S-duality no longer fixes α_d.
-- `review/wiki-build-flags.md` items 6, 10, 11, 17, 27, 33, 37, 38 — the flagged statements named above.
+- `review/wiki-build-flags.md` items 6, 10, 11, 17, 27, 33, 37, 38 — the flagged statements named above; item 27's addendum and `notes/closed-universe.md` §2 — the turnaround in a closed universe.
 - `README.md` — the tagline.

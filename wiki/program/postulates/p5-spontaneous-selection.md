@@ -27,6 +27,7 @@ sources:
   - "verify/toy_gw.py"
   - "CLAUDE.md 'Since the handoff'"
   - "popsci/universes-other-half.md 'An asymmetry that cannot be avoided'"
+  - "notes/closed-universe.md §5"
 ---
 
 *P5 is the program's axiom of spontaneous breaking: the vacuum of the universe selects a polarization, a choice of which half of the phase-space directions count as position, and ours is the one organized around position in the ordinary sense ("x-tilted"). The mirror choice, a vacuum organized around momentum, satisfies the same laws equally well, because the [reciprocity symmetry](/wiki/phase-space/reciprocity/born-reciprocity) of P3 carries one onto the other. Which one occurs is a property of the state, not of the laws, as the axes of an ice crystal belong to the crystal rather than to the laws governing water. Freidel, Leigh and Minic had already described a preferred polarization as breaking Born's symmetry; the program's addition is to treat the choice as spontaneous symmetry breaking with an order parameter. The toy models qualify the axiom: with only the symplectic form fixed, the choice is a continuous angle, like an ice axis that could point anywhere, and a definite polarization needs an additional potential on that angle.*
@@ -65,6 +66,8 @@ A symmetry of the action maps solutions of the field equations to solutions with
 The [coset toy model](/wiki/symmetry-breaking/toy-models/coset-model) shows the structure explicitly. Its vacua at H = 1 are the real structures K(φ), and "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = −K(φ)" (toy note §2). [The gate](/wiki/method/verification/the-gate) checks that ρ maps each vacuum (1, K(φ)) to the vacuum (1, −K(φ)), that no vacuum is ρ-invariant, and that the order parameter O = K₁₁ takes +1 in one vacuum and −1 in its image (`verify/toy_coset.py`, parts S2–S3; [model I vacua](/wiki/symmetry-breaking/toy-models/coset-model/vacua)).
 
 What the axiom adds by hand is "ours is x-tilted". No source defines "x-tilted" beyond its use for our vacuum, the one organized around position. The lab notebook's sketch of polarization-genesis, which it tags [O, sketched], uses a "vacuum tilt angle" θ_pol, with Ω_χ/Ω_x^(0) ~ tan²θ_pol (#1 §8); the relation appears only in #1 and is unverified ([Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis)).
+
+**In a closed universe.** The closed-universe note of 2026-10-27 qualifies the mirror vacuum's standing if space is closed (`notes/closed-universe.md` §5; [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)). On the phase space T\*S³ of a closed universe, only the position polarization is integrable; every tilt, the mirror momentum polarization θ = π/2 included, fails the Frobenius condition, while on a flat torus every tilt passes [D][V]. If the [section condition](/wiki/symmetry-breaking/section-condition) requires integrability, the mirror vacuum has no global realization in a closed universe; the record does not state that requirement, and if polarizations that are not integrable are allowed, the mirror's energy cost is not computed [O]. The note marks the result as its critic's alone, not independently verified, and the note has not been reviewed.
 
 ## Credit: a preferred polarization
 
@@ -134,3 +137,4 @@ F(+) − F(−) = 2.634        the same at truncations N = 6, 8, 10        (toy 
 - `verify/toy_coset.py` S2 — the vacua and their ρ-images; `verify/toy_s4.py` — the Monte Carlo numbers, gated; `verify/toy_gw.py` — F(+) − F(−) = 2.634 at N = 6, 8, 10
 - `CLAUDE.md` 'Since the handoff' — the real-model preference listed as a lead
 - `popsci/universes-other-half.md` 'An asymmetry that cannot be avoided' — the ice-crystal picture (popular article; not a status source)
+- `notes/closed-universe.md` §5 — on T\*S³ only the position polarization is integrable, and what that means for the mirror vacuum; the critic's result alone, not reviewed

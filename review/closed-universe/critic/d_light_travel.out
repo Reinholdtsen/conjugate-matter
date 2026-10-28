@@ -1,0 +1,24 @@
+=== (1) dynamics grid: 96 histories ===
+  |Omega_k| = 1e-02: chi_turn - chi0 = 2.9432..3.2043 rad [(.. - pi)/sqrt|Ok| = -1.984..+0.628];  C41 with a_max = Om/|Ok|: 2.7833;  C41 formula with own a_max: 2.9433..3.1251
+  |Omega_k| = 3e-03: chi_turn - chi0 = 3.0326..3.1755 rad [(.. - pi)/sqrt|Ok| = -1.989..+0.619];  C41 with a_max = Om/|Ok|: 2.9461;  C41 formula with own a_max: 3.0327..3.1323
+  |Omega_k| = 1e-03: chi_turn - chi0 = 3.0786..3.1611 rad [(.. - pi)/sqrt|Ok| = -1.990..+0.616];  C41 with a_max = Om/|Ok|: 3.0288;  C41 formula with own a_max: 3.0787..3.1362
+  |Omega_k| = 3e-04: chi_turn - chi0 = 3.1071..3.1523 rad [(.. - pi)/sqrt|Ok| = -1.991..+0.615];  C41 with a_max = Om/|Ok|: 3.0799;  C41 formula with own a_max: 3.1071..3.1386
+  |Omega_k| = 1e-04: chi_turn - chi0 = 3.1217..3.1477 rad [(.. - pi)/sqrt|Ok| = -1.991..+0.615];  C41 with a_max = Om/|Ok|: 3.1060;  C41 formula with own a_max: 3.1217..3.1399
+  |Omega_k| = 1e-05: chi_turn - chi0 = 3.1353..3.1435 rad [(.. - pi)/sqrt|Ok| = -1.991..+0.615];  C41 with a_max = Om/|Ok|: 3.1303;  C41 formula with own a_max: 3.1353..3.1411
+  -> C41's 2.78 (1e-2) is the dust-from-today value at the V >= 0 floor a_max = 31.5; the integrated histories (a_max >= 102) give 2.94-3.21 rad there
+
+=== (2) conformal time of a closed de Sitter phase ===
+  d eta/dt - 1/R(t) = 0
+  eta(t -> oo) = pi/2
+  5 e-folds after the throat: eta_end = 1.564058328811049 (pi/2 = 1.570796326794897)
+  50 e-folds after the throat: eta_end = 1.570796326794897 (pi/2 = 1.570796326794897)
+  60 e-folds after the throat: eta_end = 1.570796326794897 (pi/2 = 1.570796326794897)
+  start at R_i = 1 c/H: eta added = 1.570796; arcsin(c/(H R_i)) = 1.570796
+  start at R_i = 2 c/H: eta added = 0.523599; arcsin(c/(H R_i)) = 0.523599
+  start at R_i = 10 c/H: eta added = 0.100167; arcsin(c/(H R_i)) = 0.100167
+  start at R_i = 1000.0 c/H: eta added = 0.001000; arcsin(c/(H R_i)) = 0.001000
+
+=== (3) light that starts at an inflationary throat (dust-cycloid approximation after inflation) ===
+  radiation bang (dynamics convention): antipode at eta_post = 3.1416 -> a/a_max = 1.000, t/t_turn = 1.000;  full circuit at eta_post = 6.2832 -> a/a_max = 0.000 (collapse), t/t_turn = 2.000
+  throat start: antipode at eta_post = 1.5708 -> a/a_max = 0.500, t/t_turn = 0.182;  full circuit at eta_post = 4.7124 -> a/a_max = 0.500 (collapse), t/t_turn = 1.818
+  (radiation-bang values in the dynamics grid: antipode at t/t_turn = 0.76-0.998, circuit near the crunch, phase-dependent; the throat start adds pi/2 and moves both well away from the turnaround and the crunch)

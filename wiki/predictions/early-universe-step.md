@@ -20,11 +20,16 @@ sources:
   - "review/wiki-build-flags.md item 22"
   - "review/wiki-build-flags.md item 32"
   - "verify/soliton_obituary.py dark radiation"
+  - "notes/closed-universe.md §4"
+  - "notes/closed-universe.md §7"
+  - "notes/closed-universe.md §9"
+  - "verify/closed_universe.py 'E. Momentum space and reciprocity'"
+  - "review/wiki-build-flags.md items 48, 49"
 ---
 
 *Row 10 describes two possible imprints of the program's dual, momentum-side gravitational sector on the early universe. The first is a step in the effective strength of gravity, G_eff: the dual sector adds to the square of the [effective Planck mass](/wiki/gravity/spin-2-fields/planck-units#an-effective-planck-mass) a term that grows toward the past as the sixth inverse power of the cosmic scale factor, a⁻⁶, so it matters only at early times, before the light elements formed in [Big Bang nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis). The second is negative dark radiation: if the dual space is closed, its curvature acts on our expansion like radiation of negative energy, which lowers the effective number of neutrino species, N_eff. Both follow from [the lab notebook](/wiki/history/documents/lab-notebook)'s calculation with the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1. The step is optional and the dark radiation conditional on a closed dual space, and their sizes are free parameters (knobs), so a null result bounds the knobs rather than killing the program; #11 names the cosmic microwave background experiment CMB-S4 as the probe.*
 
-**Status:** Alive, optional and knob-bounded — [D] (the lab notebook's minisuperspace calculation and dictionary, #1 §6; #11 §10's dictionary is [D — corrected en route]) — not machine-checked; no document compares either imprint with data.
+**Status:** Alive, optional and knob-bounded — [D] (the lab notebook's minisuperspace calculation and dictionary, #1 §6; #11 §10's dictionary is [D — corrected en route]) — not machine-checked; no document compares either imprint with data. Two flags from the closed-universe note (2026-10-27, computed, not reviewed) bear on the row's foundations: the dual Einstein–Hilbert term behind the a⁻⁶ step is derived in no document, so the step tests a postulate (flag 49 in `review/wiki-build-flags.md`), and a closed universe does not close the dual space, so the negative ΔN_eff needs a postulate no document states (flag 48); see [what the row rests on](#what-the-row-rests-on).
 
 ## The row
 
@@ -93,6 +98,20 @@ The notebook's parameter table counts the dual geometric sector separately (#1 �
 
 The last entry is paraphrased; the notebook abbreviates it. M̃ is the dual Planck mass. k̃ is not defined in the notebook; written beside the dual curvature, it reads as the curvature of the dual space (the wiki's reading). Both can be zero: with M̃ = 0 there is no step, and with a flat or open dual space no negative dark radiation. "Knob-bounded" means that measurements consistent with the standard values bound M̃ and k̃ rather than refute the program; v0.1 and v1 wrote "Bounds constrain knobs" (#1 §9; #9 §9).
 
+## What the row rests on
+
+The closed-universe note of 2026-10-27 examined both imprints while asking what a closed universe implies (`notes/closed-universe.md` §4, §7; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)). The note is computed and checked by independent agents and has not been reviewed; the two flags await Paul's ruling.
+
+**The dual term is not derived [O] (flag 49).** #1 §6's minisuperspace equation, tagged [D], uses a dual Einstein–Hilbert term in ã with its own mass M̃, but #1 §3 reduces the geometric action S_H only for the ordinary metric's block, "[D, schematic]", and no document derives the dual term from S_H. #11 §10's "the dual Einstein term is an a⁻⁶ step in G_eff" and this row's step rest on it, while #11 §14 item 1 lists only the wedge-sector reduction as open. "Until the term is derived, the a⁻⁶ step and every bound on the dual frame test a postulate." The flag's two auditors both confirm that no derivation exists, and both note that √|H| = 1 holds if |H| is the full 2d-dimensional determinant, which the record does not say. The note lists the derivation first among its open items (§9).
+
+**Only two combinations are physical [D][V].** Under the record's dictionary only vM̃²C³, the coefficient of the a⁻⁶ term, and vM̃²k̃C, the dual curvature, are physical, C being the comoving unit; so "M̃ = M_P" constrains nothing unless C is fixed (§7). With the record's normalization, C = 1, M̃ = M_P and λ = l_P, the a⁻⁶ term is below 10⁻¹⁹⁸ of the total after inflation for |Ω_k| ≤ 10⁻², where Ω_k is the curvature density of a closed universe (§7). The knob M̃ survives as a postulate (§10).
+
+**A closed universe does not close the dual space [D][V] (flag 48).** The row's second imprint needs a closed dual space. Under the slaved block g̃ = g⁻¹ of the record's geometry, the momentum block of the generalized metric is the same at every momentum, for any X, so the momentum fibre is flat, k̃ = 0, and k = +1 does not induce k̃ = +1 (§4; [momentum fibers](/wiki/phase-space/reciprocity/momentum-fibers)). The effect therefore needs a separate postulate of a curved, compact momentum space, which no document states; the flag's audit adds that the record keeps k̃ as an optional knob rather than asserting a closed dual space, so the gap is the unstated postulate. This page's reading of k̃ as the curvature of the dual space, above, is the same reading.
+
+**The symmetric reading is dead unless postulated [D][V].** The note tests the simplest such postulate, k̃ = k with vM̃² = M_P², in which one self-dual radius R_sd fixes both the a⁻⁶ term and the dual curvature. At |Ω_k| = 10⁻², Big Bang nucleosynthesis requires R_sd ≤ 1.568×10¹⁷ m and N_eff requires R_sd ≤ 3.029×10²⁵ m; the observed momentum range sets a minimum on R_sd, and the 6.8 TeV protons of the Large Hadron Collider (LHC), with N_eff and nucleosynthesis, then need a Born length λ ≤ 1.278×10⁻⁶ m, and with standard slow-roll inflation λ ≤ 1.986×10⁻⁴⁹ m; for λ = √(l_P c/H₀) the window is empty (§4). The reading also contradicts the record's k̃ = 0 and rests on the underived dual term: "It is dead unless Paul adds a compact momentum space deliberately." The numbers are checked in section E of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)).
+
+None of this removes the row: "Optional a⁻⁶ G_eff step" remains a knob, now known to be a postulated one, and "closed dual curvature ⇒ negative ΔN_eff" remains conditional, on a closed dual space that closure of our own space does not provide.
+
 ## What kills it
 
 Nothing in the row: "(Knob-bounded; CMB-S4 probes)". A measurement of standard G and N_eff is consistent with the row at small M̃ and k̃, and the documents name no values of the knobs that the program expects, so a result within the standard values bounds the knobs without counting against the program. What the row looks for is a step in the expansion rate before nucleosynthesis or a negative ΔN_eff.
@@ -133,3 +152,6 @@ v1 (#9 §9) changed the row in three ways, and #11 kept v1's form:
 - `verify/soliton_obituary.py`, dark radiation — the gate's check of that bound
 - `notes/knot-dark-matter-standalone.md` §4 — #14's dark radiation and its Planck interval (withdrawn manuscript)
 - `review/wiki-build-flags.md` item 22 — #14's symmetric interval against the source's asymmetric one; item 32 — CMB-S4's status, unchecked
+- `notes/closed-universe.md` §4 — the flat momentum fibre and the symmetric reading; §7 — the underived dual term, the two physical combinations and the record's normalization; §9 — the derivation, open; computed, not reviewed
+- `verify/closed_universe.py` section E — E1 (the flat fibre), E7 (the symmetric reading and its bounds), E9 (the a⁻⁶ term after inflation)
+- `review/wiki-build-flags.md` items 48 and 49 — the closed dual space and the underived dual term, with their audits; awaiting Paul's ruling

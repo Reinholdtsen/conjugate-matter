@@ -28,6 +28,10 @@ none refuted. Each flag carries its verdict; the full verdicts are in
 - **3**: the misalignment potential vanishes on a larger set than stated, with a flat valley.
 - **6**: the vacuum-energy identity needs one tuning (T = 0); "by symmetry rather than tuning"
   overstates it.
+- **49**: the dual Einstein–Hilbert term behind #11 §10's a⁻⁶ step (row 10) is not derived, so
+  every bound on the dual frame tests a postulate.
+- **27 (addendum), 46**: with the potential as written, row 5 needs a closed universe, and closure
+  moves the over-constraint to Ω_k.
 - **1**: the η-null Lagrangian polarizations form continuous families for d ≥ 2; the conclusion
   (no Maslov circle) survives.
 - **33, 34**: `verify/soliton_obituary.py` claims more coverage than it has, and calls typed-in
@@ -177,6 +181,13 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     bounce) and on the dark-energy over-constraint (t_turn). Conflicts register, entry C20. Check:
     `review/wiki-build-checks/v_sign_check.py`.
    **Audit (2026-10-22): confirmed by 2 independent checks (one steelmanning the source, one recomputing from scratch).** Confirmed; no defensible reading exists. V₀[1+cos(τ/f)] never changes sign for either sign of V₀, and V₀ < 0 cannot be dark energy (w ≥ 1). Under the documents' own flat Friedmann equation a turnaround needs ρ = 0, unreachable with V ≥ 0; turnarounds appear only for an offset c < 1. As written, t_turn is undefined.
+   **Addendum (2026-10-27, closed-universe investigation).** The "other mechanism" exists if the
+   universe is closed. In closed V₀[1 + cos(τ/f)] histories, τ passes its minimum and oscillates as
+   dust, and curvature then reverses the expansion with V ≥ 0 throughout. With τ frozen at the hilltop
+   there is no turnaround, and flat or open universes never turn around. So "eventually goes
+   negative" (#11 §10) and "eventual negative V ⇒ turnaround" (`HANDOFF.md` §2) name the wrong cause,
+   and row 5 holds only if k = +1. Round-5 R11 states that a closed turnaround exists; flag 50 adds its
+   conditions. `notes/closed-universe.md` §2. Check: `verify/closed_universe.py` §B.
 28. **The formula for our magnetic coupling (#11 §11.2).** #11 says Dirac's e·g ~ 2π "pins the
     magnetic coupling near 4π/e² ≈ 34". With α = e²/4π, 4π/e² = 1/α ≈ 137; e·g = 2π gives
     g²/4π = π/e² = 1/(4α) ≈ 34.26. The number 34 is right; the formula written beside it is
@@ -288,4 +299,106 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     references are from model memory.
    **Audit (2026-10-22): not yet audited.** Raised after the flag audit; it has had one check (the page verifier's sympy check that the transverse-diffeomorphism-plus-Weyl term is not invariant under the full linearized diffeomorphisms), not two independent refuters.
 
-The executed checks referred to above are in `review/wiki-build-checks/` with their outputs.
+## Found by the closed-universe investigation (2026-10-27)
+
+*Raised by the analyses of `notes/closed-universe.md`. Each was then checked by two fresh-context
+verifiers, one re-deriving and one recomputing or re-reading the sources. The audit lines give their
+verdicts. Arithmetic is checked in `verify/closed_universe.py`. The analyses, verdicts and scripts
+are in `review/closed-universe/`.*
+
+45. **The 93.8% figure and its citations (#1 §7 item 3; #11 §10).** #1 says quintessence fits
+    "with a potential possessing a negative minimum find a 93.8% preference for a future transition
+    to anti-de Sitter space with eventual cosmological collapse" (Gialamas et al. 2025,
+    arXiv:2506.21542, #11's [19]). That paper fits a Higgs-like quartic V₀ + m²φ²/2 + λφ⁴/4 in a flat
+    universe with the sign of the vacuum energy left free. The 93.8% is the posterior probability
+    that the vacuum energy is negative: 12.2% for a future transition plus 81.6% for a vacuum already
+    negative today. "Future transition … collapse" is the paper's own abstract wording; the
+    description of the fitted potential is not. #11 §10 cites [19S, 20S, 21S] for "high posterior
+    preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence
+    fits". Only [19] supports the clause: [20] (Ureña-López et al., arXiv:2503.20178) fits
+    V₀[1 + cos] with null spatial curvature and mentions no anti-de Sitter phase or collapse. Neither
+    paper bears on the program's V ≥ 0 potential, whose closed future is a positive-energy recollapse
+    (flag 27 addendum). Wiki pages quoting the figure: `conjugate-bounce`, `fate-of-expansion`,
+    `quintessence`, `potential-sign`, `lab-notebook`.
+   **Audit (2026-10-27): confirmed by 2 independent checks of the sources' TeX, one partly.** Both
+   confirm the misdescribed model and the 12.2% + 81.6% split. The second holds that the
+   "future transition … collapse" wording is the abstract's own, which leaves the model description
+   and the compound citation as the errors.
+46. **Closure moves the over-constraint (#11 §10; #1 §7 item 4).** Both say (w₀, wₐ, t_turn)
+    depend on (f, τᵢ) alone: "three measurements, two parameters". With V ≥ 0 a turnaround exists
+    only in a closed universe (flag 27 addendum). There t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^{−3/2}/H₀,
+    which at fixed (w₀, wₐ) scales as |Ω_k|^{−3/2}, so Ω_k is a third input. Ω_k can be measured, so
+    the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing. But the data bound t_turn only
+    from below (t_turn > 5×10⁵ Gyr given closure), so the turnaround time can never test the count. `notes/closed-universe.md` §2. Check: `verify/closed_universe.py` §B, §C.
+   **Audit (2026-10-27): confirmed by 2 independent checks.** One adds that the over-constraint
+   relocates rather than fails, the wording used here.
+47. **"The Fourier transform implements it unitarily" needs a scope if closure is adopted (#11 §3).**
+    The sentence is true on ℝ^d, which #11's flat cosmology assumes. On a closed position space (S³,
+    or a torus) position has a continuous spectrum and momentum a discrete one, so no unitary map
+    exchanges them. Locally the flat statement holds to relative order (σ/R)². Wiki pages repeat
+    the sentence unscoped, among them `fourier-transform`, `born-reciprocity`,
+    `spontaneous-symmetry-breaking` and `p3-reciprocity`. `notes/closed-universe.md` §5.
+   **Audit (2026-10-27): depends on a convention or reading (1 upheld as a scope restriction, 1
+   partly upheld).** Not an error under the record's flat assumption; an error once k = +1.
+48. **A closed universe does not close momentum space (#1 §6 table and §9 row 10; #11 §10 and §13
+    row 10).** The dictionary reads "closed dual space ⇒ negative ΔN_eff", and row 10 lists
+    "closed dual curvature ⇒ negative ΔN_eff". Under the slaved block g̃ = g⁻¹
+    (`notes/debt1a-geometric-core.md` Corollary 3) the momentum fibre's metric is the same at every
+    p, for any X. The fibre is therefore flat (k̃ = 0), and k = +1 does not induce k̃ = +1. The
+    effect needs a separate postulate of a curved, compact momentum space, which no document states;
+    `wiki/predictions/early-universe-step.md` already notes that k̃ is undefined in #1. A symmetric
+    reading, k̃ = k, survives N_eff, BBN and the observed momentum range only for a Born length below
+    1.3 μm, and never together with standard inflation. `notes/closed-universe.md` §4.
+    Check: `verify/closed_universe.py` §E.
+   **Audit (2026-10-27): confirmed as a tension by 2 independent checks.** One notes that the record
+   keeps k̃ as an optional knob rather than asserting a closed dual space, so the gap is the
+   unstated postulate.
+49. **The dual Einstein–Hilbert term is not derived (#1 §3 and §6; #11 §10 and §14).** #1 §6's
+    minisuperspace equation, tagged [D], uses a dual Einstein–Hilbert term (in ã and its derivative,
+    with its own mass M̃). #1 §3 reduces S_H only for the g-block and tags it "[D, schematic]"; no
+    document derives the dual term from S_H. #11 §10's "the dual Einstein term is an a⁻⁶ step in
+    G_eff" and row 10's a⁻⁶ step rest on it, and #11 §14 item 1 lists only the wedge-sector reduction
+    as open. Until the term is derived, the a⁻⁶ step and every bound on the dual frame test a
+    postulate. `notes/closed-universe.md` §7.
+   **Audit (2026-10-27): partly upheld by 2 independent checks.** Both confirm that no derivation
+   exists. Both note that √|H| = 1 holds if |H| is the full 2d-dimensional determinant (det H = 1,
+   #11 §5), which the record does not say.
+50. **The closed turnaround's conditions and prior art (round-5 R11; diameter note §6, "At the
+    turnaround [D]").** "A closed universe can turn around with V ≥ 0" is true. It needs
+    a_max ≥ Ω_m/|Ω_k| and, at H = 0, ρ_m + 2ρ_r + 4K − 2V ≥ 0, where K is τ's kinetic energy density
+    (a maximum of a needs ä ≤ 0). The mechanism, recollapse of a closed universe with oscillating
+    quintessence, is published (Barrow 1987 †; Tipler et al., gr-qc/0003082 [S], retrieved by a
+    verifier). The diameter note states it inside a paragraph tagged [D] where [T] applies.
+    `notes/closed-universe.md` §2. Check: `verify/closed_universe.py` §B.
+   **Audit (2026-10-27): partly upheld by 2 independent checks.** Both find the statement true and
+   the two conditions correct, so an omission rather than an error. The source check upholds the
+   citation gap.
+51. **β₁ > 0 is required and never stated (diameter note §8.2; round-5 R1).** On the palindromic
+    zero-vacuum branch, the aligned branch y(ρ) is bounded for β₁ = 0. For β₁ < 0 the hot branch
+    ends at a broken vacuum with negative Λ_g and violates the Higuchi bound. The record says only
+    when broken vacua exist. `notes/closed-universe.md` §6.
+   **Audit (2026-10-27): confirmed by 2 independent checks** (a repository-wide search finds no
+   statement of β₁ > 0).
+52. **#11 §10 omits that G_eff doubles for H ≫ M_X.** "§7.3 guarantees the wedge sector contributes
+    nothing that competes with τ" holds for the dark-energy density. But on the branch
+    the effective Planck mass rises from M_g² to 2M_g² as the universe cools through H ~ M_X, so
+    G_eff = 2G_N early, with the halfway point at T ≈ 1.55–1.58 TeV for the smallest allowed M_X. No
+    document states the step. The guarantee itself comes from the exact (1 − y)⁴/y relation on the
+    branch, not from §7.3's aligned-point identity alone. `notes/closed-universe.md` §6.
+   **Audit (2026-10-27): confirmed by 2 independent checks, as an omission.**
+53. **"Trivially satisfied by a heavy X": the conclusion holds, the reasoning does not (#14 §1;
+    `review/v3-worklog.md` R7; quoted on `wiki/gravity/spin-2-fields/bimetric-cosmology.md`).** The
+    fixed-mass Higuchi argument fails once 2(H² + k/a²) > M_X², at TeV temperatures for the smallest
+    M_X, and during inflation unless M_X > √2·H_inf. The bound still holds through the dressed mass:
+    m_FP²(y) − 2(H² + k/a²) = −yρ_y/(3M_g²) > 0 on the β₁ > 0 branch. The live problem in that regime
+    is a different one: Könnig's scalar gradient instability for w > −1/2 above about 1.3 TeV, which
+    equal Planck masses do not escape. `notes/closed-universe.md` §6.
+   **Audit (2026-10-27): confirmed by 1 independent check, partly by 1** (the conclusion stands).
+54. **The τ potential's origin is uncited in #1 and #11.** V₀[1 + cos(τ/f)] is the
+    pseudo-Nambu–Goldstone potential of Frieman, Hill, Stebbins and Waga 1995 (astro-ph/9505060,
+    eq. 6, retrieved [S] by a verifier). The wiki already credits it with † (`quintessence`,
+    `axion-like-fields`, `references`), which can become [S].
+   **Audit (2026-10-27): upheld for #1 and #11 by 1 check; not upheld for the wiki.**
+
+The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
+flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`.

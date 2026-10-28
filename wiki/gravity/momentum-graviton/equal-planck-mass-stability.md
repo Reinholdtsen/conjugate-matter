@@ -18,6 +18,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14"
   - "CLAUDE.md 'Since the handoff'"
   - "papers/phase-space-diameter.md §8.2"
+  - "notes/closed-universe.md §6"
+  - "notes/closed-universe.md §9"
+  - "verify/closed_universe.py 'D. Bimetric sector'"
+  - "review/wiki-build-flags.md item 53"
 ---
 
 *This open problem asks whether a heavy massive spin-2 field such as the [momentum graviton X](/wiki/gravity/momentum-graviton) can be stable in an expanding universe when its metric and the ordinary metric have equal [Planck masses](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), the coefficients that set how strongly each metric responds to matter [T]. Published analyses of [bimetric cosmologies](/wiki/gravity/spin-2-fields/bimetric-cosmology) find instabilities for a spin-2 field with a mass of order today's Hubble rate and comparable Planck masses, and the work that finds a heavy spin-2 field linearly stable at late times assumes that the second metric's Planck mass is much smaller than the first. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the two Planck masses to be equal, which excludes that regime, and whether a large mass alone is enough has not been checked. The question came out of the [second blind review](/wiki/method/review/rounds-one-and-two) of [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate), since withdrawn. It is recorded only in the review worklog and the manuscript; [checkpoint #11](/wiki/history/documents/checkpoint) §14 does not list it.*
@@ -68,6 +72,15 @@ The program's case therefore falls in neither studied regime. X is heavy, unlike
 - **Beyond linear order.** The stable regime "holds at linear order only, with tuned βₙ". The program's own coefficients are fixed to the [palindromic branch](/wiki/gravity/palindromic-branch/palindrome) with two free parameters ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)); no document compares them with the tuned coefficients of that regime.
 - **The early universe.** "the strong-coupling era H > H⋆ is unresolved" (R7; the worklog does not define H⋆), and [the handoff](/wiki/history/documents/handoff)'s summary of the round-2 finding ends "early universe remains open" (`HANDOFF.md` §6). The phase-space-diameter note lists the same gap among the caveats of its bound on X's range: "Bimetric cosmologies are unstable while H exceeds the spin-2 mass" (Lüben, Mörtsell and Schmidt-May 2020 [S]), "so the early universe is a separate question, open in the record" (§8.2; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 
+## The closed-universe note: a concrete instability
+
+The closed-universe note of 2026-10-27 computes, for the program's own branch, what this item left open in the early universe (`notes/closed-universe.md` §6; [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe)) [D][V]:
+
+- **The Higuchi bound holds,** through the dressed mass m_FP²(y) − 2(H² + k/a²) = −yρ_y/(3M_g²) > 0 on the β₁ > 0 branch, y being the ratio of the two metrics' scale factors; the fixed-mass argument "satisfied trivially by the heavy field" fails once 2(H² + k/a²) > M_X², at TeV temperatures for the smallest M_X (flag 53 in `review/wiki-build-flags.md`).
+- **A gradient instability operates.** Könnig's scalar gradient instability for w > −1/2 operates above about 1.3 TeV (H ≈ 0.5 M_X). It returns in a recollapse, and "equal Planck masses close the usual escape from it". The script finds the crossover at T = 1.31–1.38 TeV for radiation or dust, from Könnig 2015's eigenfrequency, which it takes as a published anchor ([the closed-universe script](/wiki/method/verification/closed-universe-script)).
+
+The late universe is not affected: today the two metrics are aligned to 1 − y = 1.5×10⁻⁶¹ at the smallest allowed M_X. The note's open list includes inflation and the bimetric sector together, and perturbations through a recollapse (§9). The item therefore stays open, with its early-universe part now a computed instability rather than an unexamined regime; the note has not been reviewed.
+
 ## How the citations were checked
 
 The worklog's evidence for the round-2 items came from a literature report in which "a subagent with web access pulled each record from INSPIRE, arXiv, the PDG 2024 monopole review and the scanned Preskill 1979 paper, with no citations from memory" ('Evidence used so far'; PDG is the Particle Data Group). The round-3 audit then checked #14's 23 references and found that all resolve, and it checked what each is cited for (`review/round3/referee/audit-notes.md`, Step 1):
@@ -83,7 +96,7 @@ So the instability literature is not uniformly negative even for light spin-2 fi
 - **The finding.** The second blind review of #14 counted among its valid findings the "bimetric cosmological-branch instability severity (mass hierarchy may evade — the analyses assume light second metric; early universe remains open; cite properly)" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 - **The worklog.** Item R7 of the round-2 pending list, marked "ready, with a tension", with the decision "v3: state this as an open consistency item, not as evaded." When v3 was drafted, "The bimetric instability at equal Planck masses is added to item 7" of its exclusion conditions ('v3 as drafted (2026-10-19)').
 - **The manuscript.** #14 v3 states it in §1, lists it in §5 item 7 and §6. #14 was withdrawn on 2026-10-19 after failing round-3 review for its abundance arithmetic, and its soliton candidate is retired ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Round 3 ruled on R7 only through the citation point of ruling 12.
-- **Its standing now.** The question concerns X, which stands ([The momentum graviton X](/wiki/gravity/momentum-graviton)), not the retired candidate. #11 §14 does not list it, it is not on the current queue in the root `CLAUDE.md`, and no later document closes it, so the wiki keeps it as an open item.
+- **Its standing now.** The question concerns X, which stands ([The momentum graviton X](/wiki/gravity/momentum-graviton)), not the retired candidate. #11 §14 does not list it, it is not on the current queue in the root `CLAUDE.md`, and no later document closes it, so the wiki keeps it as an open item. The closed-universe note (2026-10-27) finds the early-universe gradient instability above.
 
 ## Sources
 
@@ -96,3 +109,6 @@ So the instability literature is not uniformly negative even for light spin-2 fi
 - `papers/broken-born-checkpoint-v2.md` §14 — the current list of open problems, which does not include the item
 - `CLAUDE.md` 'Since the handoff' — the current queue
 - `papers/phase-space-diameter.md` §8.2 — the early-universe instability of bimetric cosmologies, among the caveats of the bound on X's range [T][O]
+- `notes/closed-universe.md` §6 — the dressed Higuchi bound, the gradient instability above about 1.3 TeV and 1 − y today; §9 — the open calculations; computed, not reviewed
+- `verify/closed_universe.py` section D — D3 and D6
+- `review/wiki-build-flags.md` item 53 — "trivially satisfied": the conclusion holds, the reasoning does not

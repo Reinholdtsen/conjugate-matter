@@ -33,6 +33,10 @@ sources:
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
   - "review/wiki-build-flags.md items 17, 29, 30"
+  - "notes/closed-universe.md §4"
+  - "notes/closed-universe.md §5"
+  - "verify/closed_universe.py 'E. Momentum space and reciprocity'"
+  - "review/wiki-build-flags.md item 48"
 ---
 
 *A momentum fiber is the set of all momenta a particle can have at one point of space-time. [Phase space](/wiki/program/postulates/p1-arena#phase-space), the space of positions and momenta taken together, is made of these fibers, one attached to each point, much as a spectrogram attaches a whole frequency axis to each instant of a recording; geometers call the structure the cotangent bundle of space-time. In [general relativity](/wiki/gravity/spin-2-fields/general-relativity) every fiber is flat. Momenta at a point are measured with the inverse of the space-time metric, which is the same everywhere along the fiber, so the curvature of space-time changes how neighbouring fibers are joined but not the geometry inside any one of them. The program's [checkpoint](/wiki/history/documents/checkpoint) lists this flatness among the places where the laws treat position and momentum differently and calls it "an architectural assumption, not a measurement" ([Born's question](/wiki/program/borns-question)). In the program's own geometry the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) fixes the momentum metric as the inverse metric on the vacuum, any independent momentum-space geometry is assigned to the [momentum graviton X](/wiki/gravity/momentum-graviton), and the [dark-matter gate](/wiki/dark-matter/conjugate-matter/gate-mechanism) acts through the width of conjugate-matter quanta along the fibers. How X propagates along the fibers, which would fix the shape of that gate, has not been computed.*
@@ -117,6 +121,10 @@ In this wiki's reading, g⁻¹ is the metric general relativity puts on its fibe
 
 The theorem is proven for a positive-definite g, while the fibers of general relativity carry the Lorentzian g⁻¹. The extension is open ([Open: Lorentzian dressing of the Euclidean skeleton (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 
+### A closed base does not close the fibre
+
+The closed-universe note of 2026-10-27 draws a further consequence of the block form [D][V]. In the record's generalized metric the momentum block is Y⁻¹, the same at every momentum p, for any X; so the fibre over each point is flat ℝ³, with dual curvature k̃ = 0, and a closed universe, k = +1, does not induce a closed momentum space (`notes/closed-universe.md` §4). What closure does to the fibres is make momenta discrete, with spacing of order ħ/R on a three-sphere of radius R. The lab notebook's "closed dual space ⇒ negative ΔN_eff" therefore needs a separate postulate of a curved, compact momentum space, which no document states (flag 48 in `review/wiki-build-flags.md`; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#how-small-momentum-space-gets)). On the closed universe's phase space T\*S³, the note also finds that only the polarization along the fibres is integrable ([reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)).
+
 ### Independent momentum-space geometry: X
 
 Under P2′ the generalized metric ranges over the values of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, whose imaginary part is the space-time metric, Im Z = g [D] (#11 §6), and the real part carries what is not slaved. Calc note #5 calls Re Z = X "the momentum graviton", "the local wobble of the emergent polarization, 'which way the x/p split points, here.'", and lists its roles as "momentum geometry and gate mediator (Re Z)" (§C). In this wiki's reading, X tilts the split between position directions and fiber directions from point to point. The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) states the division: "the baseline momentum-space geometry is slaved (g-tilde = g^-1, det H = 1), and any independent momentum-space geometry resides in the fluctuation X" (§1).
@@ -186,6 +194,8 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - [Dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress) — momentum derivatives of the χ bilinear.
 - [Two causal cones](/wiki/conjugate-relativity/two-causal-cones) — a second light cone on the momentum block g⁻¹.
 - [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) — μ ~ ℏ/λ_χ read as the fiber width.
+- [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — the fibre stays flat when the base is closed; closure makes momenta discrete.
+- [Reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity) — the polarization along the fibres is the only integrable one on T\*S³.
 
 ## Sources
 
@@ -199,3 +209,5 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `papers/conjugate-special-relativity.md` §1 — the block form, the dual cone of g⁻¹, X "at short range in momentum"; §4 — μ ~ ℏ/λ_χ; §6 — "Yukawa-cut in momentum"
 - `HANDOFF.md` §2 — "μ = χ's momentum-fiber width"; §4 — the chat-only "slaved layer g̃ = g⁻¹ is algebraic"
 - `review/wiki-build-flags.md` items 17, 29, 30 — the two gate conventions and the √2 in μ; #13's citation of #11 §7; #13's tag on its cones
+- `notes/closed-universe.md` §4, §5 and `verify/closed_universe.py` section E (E1, E2, E4) — the flat fibre over a closed base, the discrete momenta and the integrable polarization; computed, not reviewed
+- `review/wiki-build-flags.md` item 48 — a closed universe does not close momentum space; awaiting Paul's ruling

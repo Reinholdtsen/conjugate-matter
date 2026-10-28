@@ -1,0 +1,312 @@
+{
+ "analysis": "minisuperspace",
+ "lens": "derivation",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "C1",
+    "verdict": "confirmed",
+    "reason": "Built the Ricci scalar of ds\u00b2 = \u2212N\u00b2dt\u00b2 + a\u00b2[dr\u00b2/(1\u2212kr\u00b2) + r\u00b2d\u03a9\u00b2] from Christoffel symbols; \u221a\u2212g R equals the claimed form up to the stated total derivative, and the textbook FLRW form of R checks as an independent anchor.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C1  sqrt(-g) R = 6 sqrt(gamma)[-a adot^2/N + N k a] + d/dt(6 sqrt(gamma) a^2 adot/N)' and 'PASS  C1  anchor: R = 6[a''/(a N^2) - a' N'/(a N^3) + a'^2/(a^2 N^2) + k/a^2] (textbook)'"
+   },
+   {
+    "claim_id": "C2",
+    "verdict": "confirmed",
+    "reason": "dL/dN = 0 at N = 1 for the two-frame Lagrangian with \u00e3 = C/a (generic w, w\u0303) reproduces the constraint exactly.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C2  Hamiltonian constraint 3H^2(M_P^2 + v M~^2 C^3 a^-6) = rho + v(a~/a)^3 rho~ - 3M_P^2 k/a^2 - 3 v M~^2 k~ C/a^4'"
+   },
+   {
+    "claim_id": "C3",
+    "verdict": "confirmed",
+    "reason": "I solved the Euler\u2013Lagrange equation for \u00e4 on the constraint surface and the difference from the claim is 0. (\u03c1+3p)_tot includes the dual fluid (w_eff = \u2212w\u0303) and the dual curvature (as radiation) but not our curvature, which drops out once H\u00b2 is used. Wording: in the M\u0303 \u2192 0 limit the dual fluid stays as an effective fluid; the analyst's script says so, the claim text does not. My first test wrongly expected it to vanish; fixed and recorded in the script.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C3  a''/a = -(rho+3p)_tot/(6 M_eff^2) + 3 mu H^2/M_eff^2 on the constraint surface   [0]'; 'PASS  C3  written with H^2, the acceleration equation has no explicit k'; 'PASS  C3  M~ -> 0 gives the textbook a''/a = -(rho+3p)/(6 M_P^2), dual fluid counted with w_eff = -w~'"
+   },
+   {
+    "claim_id": "C4",
+    "verdict": "confirmed",
+    "reason": "Direct substitution reproduces #1 \u00a76.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C4  C=1, k=k~=0, v=1, no dual matter: 3H^2(M_P^2 + M~^2 a^-6) = rho  (#1 sec. 6)'"
+   },
+   {
+    "claim_id": "C5",
+    "verdict": "confirmed",
+    "reason": "p_eff from the a-equation, \u2212d(v\u00e3\u00b3\u03c1\u0303)/da/(3a\u00b2), gives p_eff/\u03c1_eff = \u2212w\u0303 for generic w\u0303, and \u03c1_eff \u221d a^{\u22123(1\u2212w\u0303)}. The three table rows follow.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C5  dual fluid: p_eff/rho_eff = -w~ with p_eff from the a-equation   [-wtilde]' and 'PASS  C5  table row stiff -> Lambda', '... Lambda -> stiff', '... dust -> dust'"
+   },
+   {
+    "claim_id": "C6",
+    "verdict": "confirmed",
+    "reason": "The term 3vM\u0303\u00b2k\u0303\u00e3 is exactly a dual w\u0303 = \u22121/3 fluid. In our frame it has \u03c1_eff = \u22123vM\u0303\u00b2k\u0303C/a\u2074 with pressure \u03c1_eff/3, negative for k\u0303 > 0. The 'holds' is conditional on a closed dual space existing, which C11/C20 say the record's geometry does not supply.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C6  effective density in our frame = -3 v M~^2 k~ C / a^4   [-3*C*Mtilde**2*ktilde*v/A**4]' and 'PASS  C6  its pressure from the a-equation is rho_eff/3 (radiation)'"
+   },
+   {
+    "claim_id": "C7",
+    "verdict": "confirmed",
+    "reason": "The curvature-like energy u = (3c\u2074/8\u03c0G)(vM\u0303\u00b2/M_P\u00b2)k\u0303C/a\u2074 divided by one neutrino species (7/8)(\u03c0\u00b2/15)T_\u03bd\u2074 is constant while both scale as a\u207b\u2074. The coefficient and the \u0394N_eff = \u22120.1 example reproduce.",
+    "independent_check": "d2_numbers.py: 'C7   u_nu1,0 = 9.4813e-15 J/m^3; (3c^4/8piG)/u_nu1,0 = 1.5237e+57 m^2' and 'C7   (v M~^2/M_P^2) k~ C for Delta N_eff = -0.1: 6.563e-59 m^-2'"
+   },
+   {
+    "claim_id": "C8",
+    "verdict": "corrected",
+    "reason": "The invariance, the invariants B and D, and 'any B reachable with vM\u0303\u00b2 = M_P\u00b2' all check. An independent way to see the last point: the reflection a \u2192 b/a with b\u00b3 = B/M_P\u00b2 always exchanges the kinetic terms. But 'only B and D are physical' is incomplete for the claim's own Lagrangian, which contains dual matter: its coefficient v\u03c1\u0303\u2081C^{\u22123w\u0303} is a third invariant.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C8  L invariant under (C, k~, v, rho~1) -> (C/s, k~/s^2, s^3 v, rho~1 s^-3(1+w~))', 'PASS  C8  s = (M_P^2/(v M~^2))^(1/3) makes v' M~^2 = M_P^2 for any v, M~ > 0', 'PASS  extra  for ANY B > 0 the reflection a -> b/a, b = (B/M_P^2)^(1/3), exchanges the kinetic terms'; d7_loose_ends.py: 'C8   dual-matter coefficient v rho~1 C^(-3w~) invariant under the unit change: True'",
+    "corrected_statement": "The Lagrangian is invariant under (C, k\u0303, v, \u03c1\u0303\u2081) \u2192 (C/s, k\u0303/s\u00b2, s\u00b3v, \u03c1\u0303\u2081s^{\u22123(1+w\u0303)}). The physical gravitational couplings are B = vM\u0303\u00b2C\u00b3 and D = vM\u0303\u00b2k\u0303C; a dual fluid adds its own invariant coefficient v\u03c1\u0303\u2081C^{\u22123w\u0303}. For any B > 0 a unit exists with vM\u0303\u00b2 = M_P\u00b2 (then C = (B/M_P\u00b2)^{1/3}), so 'M\u0303 = M_P' constrains nothing by itself."
+   },
+   {
+    "claim_id": "C9",
+    "verdict": "confirmed",
+    "reason": "After a \u2192 C/a the kinetic difference factors as \u221d (vM\u0303\u00b2 \u2212 M_P\u00b2) and the curvature difference (at vM\u0303\u00b2 = M_P\u00b2) as \u221d (k \u2212 k\u0303). The 'iff' refers to the specific map a \u2192 C/a; some reflection a \u2192 b/a always exchanges the kinetic terms (C8).",
+    "independent_check": "d1_minisuperspace.py: 'kinetic difference after a -> C/a: 3*Adot**2*(A**2 - C)*(-M_P**2 + Mtilde**2*v)*(A**4 + A**2*C + C**2)/A**5' and 'curvature difference after a -> C/a (v M~^2 = M_P^2): -3*M_P**2*(A**2 - C)*(k - ktilde)/A'"
+   },
+   {
+    "claim_id": "C10",
+    "verdict": "confirmed",
+    "reason": "Re-expressing the constraint in \u00e3 gives the dual-frame form identically, with H\u0303 = \u2212H. Our k > 0 appears as \u22123(M_P\u00b2/v)kC/\u00e3\u2074.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C10 dual frame: 3H~^2(M~^2 + (M_P^2/v)C^3 a~^-6) = rho~ + (a/a~)^3 rho/v - 3M~^2k~/a~^2 - 3(M_P^2/v)kC/a~^4' and 'PASS  C10 H~ = -H'"
+   },
+   {
+    "claim_id": "C11",
+    "verdict": "confirmed",
+    "reason": "Stronger than the analyst's evidence. The record's H_Z (debt1a \u00a7C) has p-p block Y\u207b\u00b9 = g\u207b\u00b9 for any X, so the slaving of the fibre metric holds under P2\u2032 too, not only under the strict-P2 corollary of #11 \u00a75. With x-only dependence the fibre metric is constant, hence flat. The one alternative reading, inverse components treated as a metric on the base S\u00b3, is not geometric: its Ricci scalar differs between two coordinate systems at the same point.",
+    "independent_check": "d5_fibre_and_measure.py: 'PASS  (a) H_Z p-p block = Y^-1, independent of X (d = 2)'; 'PASS  (c) fibre reading: constant fibre metric gamma^ij(x0) on (p1, p2, p3) has R = 0 (flat, k~ = 0)'; 'R of gamma^-1 as a metric at the same point: hyperspherical -6, stereographic -10'"
+   },
+   {
+    "claim_id": "C12",
+    "verdict": "confirmed",
+    "reason": "The S\u00b3 radial harmonic sin((n+1)\u03c7)/sin \u03c7 has Laplacian eigenvalue \u2212n(n+2), so the spacing is \u2248 \u0127/R; the analyst's \u2020 can become [V]. The p-independence of the fibre metric for X \u2260 0 is the C11 check.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C12 S^3 (unit radius) Laplacian on sin((n+1)chi)/sin(chi) gives -n(n+2)'; d5: 'PASS  (a) H_Z p-p block = Y^-1, independent of X (d = 2)'"
+   },
+   {
+    "claim_id": "C13",
+    "verdict": "confirmed",
+    "reason": "\u03c1_\u03bb (diameter note \u00a75) sends |x| = R to |p\u2032| = \u0127R/\u03bb\u00b2. The conjugate description's position space is our momentum fibre, which is flat (C11).",
+    "independent_check": "d5_fibre_and_measure.py: 'PASS  C13 rho_lambda: p' = -(hbar/lambda^2) x maps |x| = R to |p'| = hbar R/lambda^2'"
+   },
+   {
+    "claim_id": "C14",
+    "verdict": "confirmed",
+    "reason": "With a = R/\u03bb and \u00e3 = C/a in units \u0127/\u03bb, the dual sphere has radius P = C\u0127/R, independent of \u03bb, and the antipodal cap is \u03c0C in units of \u0127/R. Conventions: the cap is the geodesic distance \u03c0P. Reading Born 1938's bound as |p| \u2264 P gives n \u2264 C instead, which only strengthens C15\u2013C17.",
+    "independent_check": "d7_loose_ends.py: 'C14  dual sphere radius P = C hbar/R: True ; antipodal cap pi P in units of the spacing hbar/R = pi*C'"
+   },
+   {
+    "claim_id": "C15",
+    "verdict": "confirmed",
+    "reason": "Mean photon momentum 2.7012 kT/c times R\u2080/\u0127 gives these mode indices, against a cap of n \u2264 \u03c0 at C = 1.",
+    "independent_check": "d2_numbers.py: 'C15/16 |Ok| = 1e-02: n_CMB = 4.413e+30; C >= 1.405e+30' and '|Ok| = 1e-05: n_CMB = 1.395e+32'"
+   },
+   {
+    "claim_id": "C16",
+    "verdict": "corrected",
+    "reason": "C \u2265 1.4\u00d710\u00b3\u2070 and the standard-mapping values reproduce. But the standard mapping is not self-consistent once the a\u207b\u2076 term dominates. The model's own constraint gives H = H_V/\u221a(1+\u03b5\u2086), so the pivot (fixed comoving k, unmodified post-inflation history) leaves the horizon later, where \u03b5\u2086 is the fourth root of the quoted value. The term still exceeds M_P\u00b2, so the qualitative claim survives. Reduction: constant V; our curvature at exit \u2264 6\u00d710\u207b\u00b9\u2076 of V (checked); scalar dynamics not solved.",
+    "independent_check": "d2_numbers.py: '|Ok| = 1e-02: ... log10 eps6 at exit (std mapping) = 22.34 (N=50), 48.40 (N=60)'; d4_selfconsistency.py: 'C16 lambda = l_P, C = C_min(CMB), |Ok| = 1e-02, N_std = 60: log10 eps6 std = 48.40; self-consistent exit 46.07 e-folds before end, log10 eps6 = 12.10' and '|Ok| = 1e-05, N_std = 50: log10 eps6 std = 17.84; self-consistent exit 44.86 e-folds before end, log10 eps6 = 4.46'",
+    "corrected_statement": "With C free, the symmetric reading needs C \u2265 1.4\u00d710\u00b3\u2070 at |\u03a9_k| = 10\u207b\u00b2 to fit the CMB photons. For \u03bb = l_P the self-dual radius \u221aC l_P \u2265 1.9\u00d710\u207b\u00b2\u2070 m then lies 41.4\u201343.2 e-folds before the end of inflation, and the a\u207b\u2076 term dominates when the CMB pivot leaves the horizon. The standard e-fold mapping puts it 10^17.8\u201310^48.4 above M_P\u00b2, but self-consistently (H reduced by \u221a(1+\u03b5\u2086)) the pivot exits 43.6\u201347.4 e-folds before the end with \u03b5\u2086 = 10^4.5\u201310^12.1. Slow roll in that phase would need \u03b5_V, |\u03b7_V| \u226a 1/\u03b5\u2086, so the inflationary background there is itself not established; the spectrum is [O]."
+   },
+   {
+    "claim_id": "C17",
+    "verdict": "confirmed",
+    "reason": "BBN cap C \u2264 0.1^{1/3}(R_BBN/\u03bb)\u00b2 and LHC floor C \u2265 pR\u2080/(\u03c0\u0127) reproduce, and the window is empty for every |\u03a9_k| from 10\u207b\u2075 to 10\u207b\u00b2. Stronger than stated: with LHC protons it opens only below |\u03a9_k| = 5.4\u00d710\u207b\u2079, with UHECR below 2.4\u00d710\u207b\u00b2\u2074. Inputs \u2020 (6.8 TeV, the 10% G_eff tolerance).",
+    "independent_check": "d2_numbers.py: 'C17  |Ok| = 1e-02: C_max(BBN, lambda2) = 1.108e+43, C_min(LHC) = 1.506e+46, window empty' and '|Ok| = 1e-05: C_max(BBN, lambda2) = 1.108e+46, C_min(LHC) = 4.761e+47, window empty'; d6_window_scope.py: 'LHC 6.8 TeV: ... window opens for |Ok| < 5.413e-09'"
+   },
+   {
+    "claim_id": "C18",
+    "verdict": "confirmed",
+    "reason": "Agrees to 1.4%; the \u03bb- and C-independence is confirmed by two routes. The gap comes from the 1 MeV plasma model. The analyst (common.py) uses exact e\u00b1 Fermi\u2013Dirac integrals with decoupled neutrinos; I used all-relativistic g = 10.75. Both are defensible and the conclusion is unaffected.",
+    "independent_check": "d2_numbers.py: 'C18  |Ok| = 1e-02: Delta N_eff at BBN edge = -1.0551e-17' and 'via C7 coefficient with C = C_max: -1.0551e-17'; '|Ok| = 1e-05: ... -1.0551e-20'"
+   },
+   {
+    "claim_id": "C19",
+    "verdict": "confirmed",
+    "reason": "Bound D \u2264 \u03c0\u00b2B/n_obs\u00b2 combined with B \u2264 0.1 M_P\u00b2 a_BBN\u2076. It agrees to 4% (same 1 MeV treatment as C18), with p_obs = 3.2\u00d710\u00b2\u2070 eV (\u2020), which the claim does not name. With 6.8 TeV protons the bounds are 4.1\u00d710\u2079\u2078 and 5.7\u00d710\u207b\u00b2\u2074. The conclusions (no constraint for l_P; negligible for \u221a(l_P c/H\u2080)) are unchanged.",
+    "independent_check": "d4_selfconsistency.py: '|Ok| = 1e-02, 3.2e20 eV       , l_P    : |Delta N_eff| <= 1.860e+83' and '... lambda2: |Delta N_eff| <= 2.579e-39'; '6.8 TeV, l_P: 4.119e+98', '6.8 TeV, lambda2: 5.712e-24'"
+   },
+   {
+    "claim_id": "C20",
+    "verdict": "confirmed",
+    "reason": "Follows from C11\u2013C13, which I strengthened (the fibre is flat for any X; the base reading is not geometric). I confirmed by reading the record that k\u0303 appears only in #1 \u00a710. Caveat for the answer to Paul: the dual Einstein\u2013Hilbert term that gives a\u207b\u2076 is itself not derived from S_H (RE4). The a\u207b\u2076 term and k\u0303 therefore share the same postulated origin; under the fibre reading its curvature part vanishes.",
+    "independent_check": "d5_fibre_and_measure.py: 'PASS  (c) fibre reading: constant fibre metric gamma^ij(x0) on (p1, p2, p3) has R = 0 (flat, k~ = 0)'; repo grep: k\u0303 only at notes/broken-born-theory.md:246 (\u00a710 table)"
+   },
+   {
+    "claim_id": "C21",
+    "verdict": "confirmed",
+    "reason": "With k\u0303 = 0 the Lagrangian has no partner for 3M_P\u00b2ka, so no reflection exchanges it. k is a property of the spatial slices (state), not of the 4D action. The flatness of the fibre comes from the vacuum's x-section (P5), which is also a property of the state.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C21 with k~ = 0 and k != 0 the curvature term is not exchanged'"
+   },
+   {
+    "claim_id": "C22",
+    "verdict": "confirmed",
+    "reason": "With k\u0303 = 0, D = 0 and C is pure gauge under the unit change, so it can be set to 1, leaving only B = vM\u0303\u00b2 (C = 1 units). The \u211d\u00b3-fibre argument for v being unfixed is [D] reasoning I agree with. 'Order one' covers \u221a(n(n+2)) vs n.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C8  then C' = (B/M_P^2)^(1/3)   [C*Mtilde**(2/3)*v**(1/3)/M_P**(2/3)]' and 'PASS  C8  B = v M~^2 C^3 and D = v M~^2 k~ C invariant'"
+   },
+   {
+    "claim_id": "C23",
+    "verdict": "confirmed",
+    "reason": "Every row reproduces (BBN row within 0.02 dex, from the 1 MeV treatment). These are conditional on C = 1, vM\u0303\u00b2 = M_P\u00b2, which C22 says is a free choice. The turnaround rows use placeholder a_max values, some of which are impossible (see missed issues).",
+    "independent_check": "d2_numbers.py C23 table (\u03bb = l_P): 'end of inflation -207.39 -204.39 -201.39 -198.39', 'BBN 1 MeV -321.92 ... -312.92', 'recombination -362.35 ... -353.35', 'today -380.57 ... -371.57', 'turnaround a_max=1e2 ... -383.57', 'turnaround a_max=1e6 -416.57'"
+   },
+   {
+    "claim_id": "C24",
+    "verdict": "confirmed",
+    "reason": "(dual curvature)/(our curvature) = C\u03bb\u00b2/R\u00b2 and \u0394N_eff = \u22121.5237\u00d710\u2075\u2077 m\u00b2 \u00d7 \u03bb\u00b2/R\u2080\u2074 both reproduce.",
+    "independent_check": "d2_numbers.py: 'C24  |Ok| = 1e-02: log10(dual/our curvature) end of inflation = -66.13, today = -123.86; Delta N_eff = -1.1217e-121' and '|Ok| = 1e-05: ... -69.13, today = -126.86; Delta N_eff = -1.1217e-127'"
+   },
+   {
+    "claim_id": "C25",
+    "verdict": "corrected",
+    "reason": "The first sentence is purely geometric (ln of R_end/\u03bb) and confirmed. The second uses the standard e-fold mapping. Self-consistently, with H reduced by \u221a(1+\u03b5\u2086), the pivot exits 17.0\u201322.1 e-folds before the end, where \u03b5\u2086 = 10^26.4\u201310^35.2: still far above 1, but not 10^105.7\u201310^140.7.",
+    "independent_check": "d2_numbers.py: 'C25  |Ok| = 1e-02: R = lambda2 at 5.99 e-folds before end; log10 eps6 at exit (std) = 114.7 (N=50), 140.7 (N=60)', '|Ok| = 1e-05: ... 9.44 e-folds ... 105.7 (N=50)'; d4: 'C25 ... |Ok| = 1e-02, N_std = 60: ... self-consistent exit 19.49 e-folds before end, log10 eps6 = 35.19' and '|Ok| = 1e-05, N_std = 50: ... self-consistent exit 19.58 e-folds before end, log10 eps6 = 26.42'",
+    "corrected_statement": "For \u03bb = \u221a(l_P c/H\u2080), C = 1 and vM\u0303\u00b2 = M_P\u00b2, the self-dual point R = \u03bb falls 5.99 to 9.44 e-folds before the end of inflation. The standard mapping would put the a\u207b\u2076 term 10^105.7\u201310^140.7 above M_P\u00b2 at CMB pivot exit. Self-consistently the pivot exits 17.0\u201322.1 e-folds before the end, where the term exceeds M_P\u00b2 by 10^26.4\u201310^35.2."
+   },
+   {
+    "claim_id": "C26",
+    "verdict": "confirmed",
+    "reason": "H\u00b2 \u2265 0 at R = l_P requires \u03c1 \u2265 3c\u00b2/(8\u03c0G l_P\u00b2) = (3/8\u03c0)c\u2075/(\u0127G\u00b2). This also holds in this minisuperspace with k\u0303 \u2265 0, because the a\u207b\u2076 term multiplies H\u00b2.",
+    "independent_check": "d2_numbers.py: 'C26  3/(8 pi) = 0.1194'"
+   },
+   {
+    "claim_id": "C27",
+    "verdict": "confirmed",
+    "reason": "The closed de Sitter solution and its throat are machine-checked, and the throat size reproduces from E_inf = 1.39\u00d710\u00b9\u2076 GeV. With k\u0303 = 0 the a\u207b\u2076 term does not move the throat (H = 0 there).",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C27 closed dS: (R'/R)^2 = H^2 - 1/R^2', 'PASS  C27 throat at t = 0: R_min = 1/H'; d2_numbers.py: 'C27  c/H_inf = 4.3080e-30 m = 2.6654e+05 l_P'"
+   },
+   {
+    "claim_id": "C28",
+    "verdict": "corrected",
+    "reason": "The arithmetic reproduces, but 'largest' assumes the throat's expansion rate equals the bound-scale H_inf. The r < 0.036 bound fixes V at CMB exit, which comes after the throat. In slow roll V_throat \u2265 V_*, and kinetic energy at the throat makes R_min smaller still, so 3.75\u00d710\u207b\u2076 is the value for a throat at the bound scale, not a maximum. The second sentence (\u00e3 = 1 needs a throat energy \u2265 0.588 E_P) is the robust statement.",
+    "independent_check": "d2_numbers.py: 'C28  l_P H_inf/c = 3.7518e-06' and 'C28  E_inf for c/H = l_P: (3/8pi)^(1/4) E_P = 7.1762e+18 GeV = 0.5878 E_P'",
+    "corrected_statement": "After an inflationary throat (C = 1, \u03bb = l_P), \u00e3 \u2264 \u03bbH_throat/c, with H_throat set by the energy density at the throat. For a throat at the bound scale E = 1.39\u00d710\u00b9\u2076 GeV this is 3.75\u00d710\u207b\u2076. Since the bound applies at CMB exit and V_throat \u2265 V_* in slow roll, this is not a strict maximum. \u00e3 reaches 1 only for a throat energy \u2265 7.18\u00d710\u00b9\u2078 GeV = 0.588 E_P."
+   },
+   {
+    "claim_id": "C29",
+    "verdict": "confirmed",
+    "reason": "Both numbers reproduce. The second sentence describes the symmetric reading at C = 1, which C15 already excludes. With k\u0303 = 0 the throat location is unchanged; only the dynamics near it change.",
+    "independent_check": "d2_numbers.py: 'C29  lambda2: log10 eps6 at the throat = 150.23' and 'C29  turning point with dual curvature (k~ = k, C = 1): R_min = 1.4244e-17 m; sqrt(lambda c/H) = 1.4244e-17 m'"
+   },
+   {
+    "claim_id": "C30",
+    "verdict": "corrected",
+    "reason": "The formula and numbers reproduce for constant H with instantaneous reheating at the bound scale, but 'at most' runs the wrong way under slow roll. N = ln(R\u2080a_end H_throat/c), and each of the following raises N: V_throat \u2265 V_* \u2265 V_end, instantaneous reheating at a lower V_end (larger R_end), and kinetic energy at the throat. The effect is O(1) e-folds for plausible slow roll.",
+    "independent_check": "d2_numbers.py: 'C30  |Ok| = 1e-02: R_end = 1.8747e-02 m; N_max = ln(R_end H/c) = 63.64; throat at l_P: 76.13' and '|Ok| = 1e-05: ... 67.09; throat at l_P: 79.59'; d4: 'V_throat/V_ref = 1, V_end/V_ref = 0.1: N = 64.22', 'V_throat/V_ref = 1, V_end/V_ref = 0.01: N = 64.79', 'throat with kinetic/V = 1.0: N = 63.99'",
+    "corrected_statement": "In GR the e-fold count since a throat is N = ln(R_end H_throat/c). For constant H at the bound scale with instantaneous reheating it is 63.64 (|\u03a9_k| = 10\u207b\u00b2) to 67.09 (10\u207b\u2075), and for a throat at l_P with the same R_end, 76.13 to 79.59. These are constant-H values, not strict maxima: slow roll (V_throat \u2265 V_* \u2265 V_end) and throat kinetic energy raise N by O(1), e.g. to 64.2 for V_end = 0.1 V_ref."
+   },
+   {
+    "claim_id": "C31",
+    "verdict": "confirmed",
+    "reason": "As a \u2192 0 with k\u0303 = 0, H\u00b2/a\u00b2 \u2192 \u03c1_r1/(3M_P\u00b2), so \u0227 = \u03baa\u00b2 and a = 1/(\u03ba(t_s \u2212 t)), reaching 0 only as t \u2192 \u2212\u221e. Extra check: dust gives a \u221d (t_s \u2212 t)^{\u22122/3}, also past-infinite. These hold within the model, as stated.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C31 as a -> 0, H^2/a^2 -> rho_r1/(3 M_P^2) (radiation, k~ = 0)   [rho1/(3*M_P**2)]', 'PASS  C31 a = 1/(kappa (t_s - t)) solves a' = kappa a^2', 'PASS  C31 a -> 0 only as t -> -infinity'"
+   },
+   {
+    "claim_id": "C32",
+    "verdict": "confirmed",
+    "reason": "Direct differentiation of \u00e3 = C/a.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C32 a~'' = C(2a'^2/a^3 - a''/a^2); at a' = 0 it is -C a''/a^2'"
+   },
+   {
+    "claim_id": "C33",
+    "verdict": "confirmed",
+    "reason": "The cycloid solves the closed Friedmann equation iff R_m = 4GM/3\u03c0c\u00b2, and at \u03b7 = \u03c0 the matter and curvature terms cancel. In the dual frame these are dual dust (\u00e3\u207b\u00b3) and negative dual radiation (\u00e3\u207b\u2074). (\u03c1+3p)_dual = \u2212\u03c1_d < 0 there, so the dual bounce is a true minimum.",
+    "independent_check": "d1_minisuperspace.py: 'PASS  C33 cycloid solves closed Friedmann iff R_m = 4GM/(3 pi) (c = 1)', 'PASS  C33 at eta = pi (turnaround) the matter term equals the curvature term (H = 0)', 'PASS  C33 at the dual bounce rho_dust = |rho_negrad|: (rho+3p)_dual = rho_d - 2 rho_d < 0, so a~'' > 0'"
+   },
+   {
+    "claim_id": "C34",
+    "verdict": "confirmed",
+    "reason": "The numbers reproduce for the stated (|\u03a9_k|, a_max) pairs, both of which are physically allowed. a_max is a placeholder, and a V \u2265 0 floor a_max \u2265 \u03a9_m/|\u03a9_k| applies (see missed issues). At |\u03a9_k| = 10\u207b\u00b2, \u00e3_min could reach 3.74\u00d710\u207b\u2076\u2074.",
+    "independent_check": "d2_numbers.py: 'C34/35 |Ok| = 1e-02, a_max = 1e+02: a~_min = 1.178e-64 (l_P), 3.432e-34 (lambda2)' and '|Ok| = 1e-05, a_max = 1e+06: a~_min = 3.724e-70 (l_P), 1.085e-39 (lambda2)'; d7: 'floor |Ok| = 1e-02: a_max >= 31.5 ... a~_min <= 3.738e-64 (l_P)'"
+   },
+   {
+    "claim_id": "C35",
+    "verdict": "confirmed",
+    "reason": "\u0127c/R_max reproduces. Same placeholder caveat as C34: at the 10\u207b\u00b2 floor the resolution is 4.56\u00d710\u207b\u00b3\u2076 eV.",
+    "independent_check": "d2_numbers.py: '... a_max = 1e+02: ... hbar c/R_max = 1.438e-36 eV' (|Ok| = 1e-2) and '|Ok| = 1e-05, a_max = 1e+06: ... hbar c/R_max = 4.546e-42 eV'"
+   },
+   {
+    "claim_id": "C36",
+    "verdict": "confirmed",
+    "reason": "Symbolic: m_P/l_P = c\u00b2/G.",
+    "independent_check": "d3_pairing.py: 'PASS  C36 (R/l_P)/(M/m_P) = R c^2/(G M), hbar cancels'"
+   },
+   {
+    "claim_id": "C37",
+    "verdict": "confirmed",
+    "reason": "From H\u00b2 = (8\u03c0G/3)\u03c1 \u2212 c\u00b2/R\u00b2 with M = 2\u03c0\u00b2R\u00b3\u03c1 and x = c\u00b2/(R\u00b2H\u00b2). The turnaround limit x \u2192 \u221e gives the four values.",
+    "independent_check": "d3_pairing.py: 'PASS  C37 A = f (4/(3 pi)) x/(1+x), x = |Omega_k(t)|' and 'at a turnaround (x -> oo): {'R': 0.4244, '2R': 0.8488, 'pi R': 1.3333, '2 pi R': 2.6667}'"
+   },
+   {
+    "claim_id": "C38",
+    "verdict": "confirmed",
+    "reason": "Solving A = 1 gives the two cases and none for R or 2R. The cycloid gives x = (R/R_max)/(1 \u2212 R/R_max), and R/R_max = 3/4 at \u03b7 = 2\u03c0/3 and 4\u03c0/3, i.e. before and after the turnaround.",
+    "independent_check": "d3_pairing.py: 'D_x = pi R: A = 1 at |Omega_k(t)| = [3]', 'D_x = 2 pi R: A = 1 at |Omega_k(t)| = [3/5]', 'PASS  C38 dust: x = 3 at R = 0.75 R_max, x = 3/5 at R = 0.375 R_max', 'PASS  C38 R/R_max = 3/4 at eta = 2pi/3 and 4pi/3 (before/after turnaround)'"
+   },
+   {
+    "claim_id": "C39",
+    "verdict": "confirmed",
+    "reason": "Reproduces. The matter-only value keeps \u03a9_m = 0.315 for the closed family.",
+    "independent_check": "d3_pairing.py: 'C39/40 |Ok| = 1e-02: R0 = 1.3725e+27 m, M = 4.3982e+56 kg, A(all) = 4.2021e-03, A(matter) = 1.3473e-02' and '|Ok| = 1e-05: ... A(all) = 4.2441e-06, A(matter) = 1.3473e-05'"
+   },
+   {
+    "claim_id": "C40",
+    "verdict": "confirmed",
+    "reason": "Reproduces.",
+    "independent_check": "d3_pairing.py: '|Ok| = 1e-02: ... log10 A = -2.38, log10 area/h = 125.44' and '|Ok| = 1e-05: ... log10 A = -5.37, log10 area/h = 131.43'"
+   },
+   {
+    "claim_id": "C41",
+    "verdict": "confirmed",
+    "reason": "At H = 0 the pairing is the Friedmann equation, R_max = 4GM/3\u03c0c\u00b2, with \u0127 cancelling (C36). It contradicts the claim's area and today's ratio by more than 90 orders (C40). The obituary's verdict stands.",
+    "independent_check": "d3_pairing.py: 'PASS  C41 at H = 0: R_max = 4 G M/(3 pi c^2)' plus the C40 lines"
+   },
+   {
+    "claim_id": "C42",
+    "verdict": "confirmed",
+    "reason": "Follows from C11 (flat \u211d\u00b3 fibre), C34 and C35. For Paul's question it should sit beside C13: in the conjugate description the momentum space is a closed S\u00b3 of radius \u0127R/\u03bb\u00b2, largest at the turnaround.",
+    "independent_check": "d5_fibre_and_measure.py: 'PASS  (c) fibre reading: constant fibre metric ... has R = 0 (flat, k~ = 0)'; d2 C34/35 lines"
+   },
+   {
+    "claim_id": "C43",
+    "verdict": "confirmed",
+    "reason": "Quote verified verbatim [S]. 0.4% at 95% CL excludes |\u03a9_k| = 10\u207b\u00b2.",
+    "independent_check": "WebFetch https://arxiv.org/abs/1807.06211 abstract: 'Spatial flatness is confirmed at a precision of 0.4% at 95% CL with the combination with BAO data.'"
+   },
+   {
+    "claim_id": "C44",
+    "verdict": "confirmed",
+    "reason": "Quote verified verbatim [S].",
+    "independent_check": "WebFetch https://arxiv.org/abs/1807.06209 abstract: 'Combining with BAO we constrain the effective extra relativistic degrees of freedom to be N_eff = 2.99\u00b10.17'"
+   }
+  ],
+  "record_error_verdicts": [
+   "RE1 (unreconciled dual curvature): upheld. I read all five places: #1 \u00a76 table, \u00a79 row 10 and \u00a710, #11 \u00a710 and \u00a713 row 10. Each keeps 'closed dual space \u21d2 negative \u0394N_eff', and the symbol k\u0303 appears only in #1 \u00a710 (v0.1). The slaving g\u0303 = g\u207b\u00b9 is notes/debt1a-geometric-core.md Corollary 3 (v0.3), and it survives P2\u2032: the record's H_Z has p-p block Y\u207b\u00b9 for any X (d5). With the x-section the fibre metric is p-independent and flat (d5). The only other reading, inverse components as a metric on the base, is not geometric (R = \u22126 vs \u221210 at one point in two coordinate systems, d5). No document reconciles the two. A tension, not an arithmetic error, as the analyst says.",
+   "RE2 (diameter note \u00a78.4, 'If reciprocity fixes M\u0303 = M_P'): partly upheld. The algebra is right: C and v shift together under one dual-unit rescaling, and any B > 0 admits vM\u0303\u00b2 = M_P\u00b2 (d1 C8 checks). So the note's implicit v = 1 and its 'C is a choice' cannot both be conventions. But \u00a78.4 already says the epoch 'depends on \u03bb and on the comoving scale reciprocity treats as unit, which is a choice'. What it lacks is the dual volume factor v, which makes 'M\u0303 = M_P' itself empty. The bimetric remark (one manifold, one volume) is fair. A clarification; no number changes.",
+   "RE3 (diameter note \u00a71/\u00a76, 'No reading of the chat claim makes it square at a bounce for one region'): partly upheld, as an omission rather than an error. The R\u2013Mc pairing gives A = 0.4244\u20132.6667 at any closed turnaround, but never exactly 1 there (d3). It misses the claim's area and today's ratio by more than 90 orders (log10 area/h = 125.44\u2013131.43, log10 A = \u22122.38 to \u22125.37, d3), so it is not a reading of the chat claim, and the note's sentence stays true. The note's survey was limited to the flat cosmology it states; for Paul's closed-universe question, one sentence on this pairing would complete it.",
+   "RE4 (#1 \u00a73, S_H measure): partly upheld. Upheld: no record document derives #1 \u00a76's dual Einstein\u2013Hilbert term (\u00e3\u00e3\u0307\u00b2) from S_H, yet the \u00a76 minisuperspace equation is tagged [D] on it, and #11 \u00a714 item 1 lists only the wedge-sector reduction. Not established: 'its measure carries no \u221ag' holds only if |H| is the full 2d-determinant, which is 1 for diag(g, g\u207b\u00b9) and for every H_Z (d5). The record does not define \u221a|H|, and restricted to the section \u03a3 the determinant of H is det g (d5), which does carry \u221ag. The gap is the missing derivation, not necessarily the measure.",
+   "RE5 (k\u0303 undefined in #1 \u00a710): upheld, minor and not new. A repo grep finds k\u0303 only in #1 \u00a710's table, and wiki/predictions/early-universe-step.md already says 'k\u0303 is not defined in the notebook'."
+  ],
+  "missed_issues": [
+   "C16/C25 use the standard e-fold mapping, which is not self-consistent once the a\u207b\u2076 term dominates. The model's own constraint gives H = H_V/\u221a(1+\u03b5\u2086), so the pivot (fixed comoving k, unmodified post-inflation history) leaves the horizon later. Solving aH = k_* gives \u03b5\u2086 at exit = (standard value)^{1/4}: 10^4.46\u201310^12.10 for C16 (exit 43.6\u201347.4 e-folds before the end) and 10^26.4\u201310^35.2 for C25 (exit 17.0\u201322.1 e-folds before the end), not 10^17.8\u201310^48.4 and 10^105.7\u201310^140.7 (d4_selfconsistency.out). The conclusion that the dual term dominates at pivot exit survives; the magnitudes do not. Reduction: V constant; our curvature at exit \u2264 6\u00d710\u207b\u00b9\u2076 of V (checked).",
+   "In that dual-dominated phase the inflaton's Hubble friction is reduced by \u221a\u03b5\u2086. Slow roll then needs \u03b5_V, |\u03b7_V| \u226a 1/\u03b5\u2086, i.e. 10^\u22124.5 to 10^\u221235 at the self-consistent exit (d4). The inflationary background assumed for these e-fold numbers is therefore not shown to exist there. The analyst marks only the spectrum [O]; the background itself is open. This is a [D] estimate from the field equation, not integrated.",
+   "C28/C30 set the throat's expansion rate equal to the end-of-inflation/bound-scale H. The r < 0.036 bound fixes V at CMB exit, which comes after the throat. In slow roll V_throat \u2265 V_* \u2265 V_end; instantaneous reheating at a lower V_end enlarges R_end; and kinetic energy at the throat shrinks R_min. Each raises the e-fold count: N = 64.22 (V_end = 0.1 V_ref), 64.79 (0.01), 63.99 (throat kinetic/V = 1) (d4). So 'at most 63.64\u201367.09' and 'largest \u00e3 = 3.75\u00d710\u207b\u2076' are constant-H values, not bounds; the effect is O(1) e-folds.",
+   "The turnaround placeholders a_max = 10\u00b2\u201310\u2076 ignore a hard floor. With V \u2265 0, H\u00b2 \u2265 H\u2080\u00b2(\u03a9_m a\u207b\u00b3 \u2212 |\u03a9_k|a\u207b\u00b2) > 0 for a < \u03a9_m/|\u03a9_k|, so a_max \u2265 31.5 at |\u03a9_k| = 10\u207b\u00b2 and \u2265 3.15\u00d710\u2074 at 10\u207b\u2075 (d2, d7). The 10\u207b\u2075 rows with a_max = 10\u00b2\u201310\u2074 (conjugate_bounce_closed.out, the C23 turnaround rows) are impossible. At 10\u207b\u00b2 the range omits 31.5\u2013100, where \u00e3_min reaches 3.74\u00d710\u207b\u2076\u2074 and \u0127c/R_max 4.56\u00d710\u207b\u00b3\u2076 eV. The extremes quoted in C34/C35 happen to be allowed pairs. Whether a closed universe with V\u2080[1+cos(\u03c4/f)] turns around at all depends on V decaying below the curvature term, which is outside this analysis.",
+   "C8's 'only B and D are physical' omits the dual-matter invariant v\u03c1\u0303\u2081C^{\u22123w\u0303}, which is also invariant under the unit change (d7). Minor wording.",
+   "C14 takes the antipodal geodesic distance \u03c0P as the cap. Reading Born 1938's 'upper limit for momenta, determined by the radius b' as |p| \u2264 P gives n \u2264 C, a factor \u03c0 stricter, which only strengthens C15\u2013C17. The cap is \u03bb-independent: P = C\u0127/R (d7).",
+   "Tags: C12's S\u00b3 spectrum (\u2212n(n+2)/R\u00b2) and C27's closed de Sitter solution are machine-checked in d1, so their \u2020 can carry [V]. The C43/C44 quotes are verified verbatim [S].",
+   "C3's claim text states the M\u0303 \u2192 0 limit as the textbook equation without saying that dual fluids remain, as effective fluids with w_eff = \u2212w\u0303. The analyst's script says so; the claim does not.",
+   "Reading of 'how small does momentum space get': C42 answers for our fibre (never compact; \u00e3 and \u0127/R smallest at the turnaround). By C13, the conjugate description has a closed momentum space of radius \u0127R/\u03bb\u00b2, largest at the turnaround: R_max/l_P Planck momenta for \u03bb = l_P, the reciprocal of C34's \u00e3_min. The answer to Paul should give both.",
+   "The curvature range |\u03a9_k| = 10\u207b\u2075\u202610\u207b\u00b2 omits the Planck-alone preference for a closed universe (\u03a9_K \u2248 \u22120.044, from memory \u2020, not retrieved), the usual motivation for 'presumably closed'. That value is excluded by Planck+BAO at 95% (C43), but the closed-form scalings (R\u2080 \u221d |\u03a9_k|^{\u22121/2}) would cover it at no cost."
+  ],
+  "not_reached": [
+   "No claim was skipped. Not independently redone: the analyst's RK4 integration of closed dust (I checked the cycloid symbolically instead).",
+   "Not redone: the exact Fermi\u2013Dirac e\u00b1 treatment of the 1 MeV epoch. I used all-relativistic g = 10.75, which accounts for the 1.4\u20134% differences in C18/C19 and 0.02 dex in the C23 BBN row.",
+   "Not retrieved: the Fly's Eye 3.2\u00d710\u00b2\u2070 eV event, z_* = 1089.9, the LHC 6.8 TeV beam energy and the 10% BBN tolerance on G_eff, all \u2020 in the analysis and taken as given here.",
+   "Not solved: the inflaton field equation in the dual-dominated phase. The slow-roll condition in missed issue 2 is an analytic estimate."
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d1_minisuperspace.py (output d1_minisuperspace.out): Ricci scalar from Christoffels; constraint; acceleration equation; dictionary; unit invariance; exchange conditions; dual-frame form; S\u00b3 spectrum; closed dS; self-dual singular phase; conjugate bounce. 39 PASS.",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d2_numbers.py (output d2_numbers.out): independent recomputation of C7, C15\u2013C18, C23\u2013C30, C34, C35 from CODATA/Planck inputs, plus the a_max floor.",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d3_pairing.py (output d3_pairing.out): the R\u2013Mc pairing, C36\u2013C41. All PASS.",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d4_selfconsistency.py (output d4_selfconsistency.out): self-consistent pivot exit; slow-roll condition; throat-H scope of C30; C19 bound.",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d5_fibre_and_measure.py (output d5_fibre_and_measure.out): H_Z p-p block = Y\u207b\u00b9 for any X; det H vs det of the section block; non-covariance of the base reading of k\u0303; flat fibre; C13 map. All PASS.",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d6_window_scope.py (output d6_window_scope.out): where the C17 window would reopen.",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-minisuperspace-derivation/d7_loose_ends.py (output d7_loose_ends.out): C8 dual-matter invariant; C14 cap identity; a_max-floor values of \u00e3_min and \u0127c/R_max."
+  ],
+  "overall": "The derivations hold up. I re-derived every symbolic result from scratch in sympy, building the Ricci scalar from the metric, and they agree: the constraint, the acceleration equation, the dictionary w_eff = \u2212w\u0303 in density and pressure, dual curvature as negative dark radiation, the unit invariance, the exchange conditions, the dual-frame form, the singular phase, the conjugate bounce and the R\u2013Mc pairing. The numbers reproduce from my own CODATA/Planck inputs to quoted precision. The exceptions are C18/C19 (1.4% and 4%), which come from a defensible difference in how the 1 MeV plasma is modelled.\n\nThe core answer is confirmed, and strengthened:\n- The record's geometry gives k\u0303 = 0 for a closed universe. The fibre metric is Y\u207b\u00b9 for any X, so this holds under P2\u2032 too, and the only alternative 'base' reading of k\u0303 is not geometric. So closure produces no negative \u0394N_eff.\n- C is only a normalization, and 'M\u0303 = M_P' constrains nothing.\n- The conjugate bounce at our turnaround is a true bounce, driven by our curvature acting as negative dual radiation.\n- The R\u2013Mc pairing is near-square at a turnaround only as the Friedmann equation, and the obituary of 'square exactly at the bounce' stands.\n\nFive claims need correction:\n- C16 and C25 evaluate the a\u207b\u2076 term at CMB exit with the standard e-fold mapping. At a self-consistent exit it is the fourth root of the quoted value (10^4.5\u201310^12.1 and 10^26.4\u201310^35.2): still far above M_P\u00b2, but slow roll in that phase is not established.\n- C28 and C30 treat the throat's H as the bound-scale H. Under slow roll 'largest' and 'at most' are constant-H values that can be exceeded by O(1) e-folds.\n- C8 omits the dual-matter invariant (wording).\n\nSeparately, the placeholder turnaround values conflict with the floor a_max \u2265 \u03a9_m/|\u03a9_k| (31.5 to 3.15\u00d710\u2074) that holds for any V \u2265 0.\n\nRecord errors: RE1 and RE5 upheld; RE2 and RE3 partly upheld, as a clarification and an omission; RE4 partly upheld. The dual Einstein\u2013Hilbert term is indeed underived and untracked in #11 \u00a714, but '\u221a|H| carries no \u221ag' depends on an undefined determinant: restricted to the section it is det g."
+ }
+}

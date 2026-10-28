@@ -33,6 +33,9 @@ sources:
   - "review/round5-adjudication.md header"
   - "notes/phase-space-diameter-worklog.md 'Status'"
   - "CLAUDE.md 'Since the handoff'"
+  - "notes/closed-universe.md §5"
+  - "notes/closed-universe.md §2"
+  - "review/wiki-build-flags.md item 47"
 ---
 
 *Born reciprocity is the map ρ: (x, p) → (p, −x), which exchanges position and momentum, with one sign change, as a quarter-turn of phase space. The rules of quantum kinematics are unchanged by it, and the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries it out on wavefunctions. Max Born proposed in 1938 and 1949 that a fundamental theory should respect it. In 1938 he gave momentum space a radius of its own, as Einstein's closed universe has a radius in position, and fixed it at a particle scale; in 1949 he split ℏ into a length and a momentum. The program's paper #13 describes his hope as a physics with a fundamental mass and a [fundamental length](/wiki/phase-space/reciprocity/born-length#borns-fundamental-length) on equal footing. Observed dynamics does not respect it — interactions are local in position — and the program's starting assumption, [its hard core](/wiki/program/hard-core), is that ρ is an exact symmetry of the laws that the vacuum breaks.*
@@ -56,7 +59,7 @@ A plain exchange (x, p) → (p, x) reverses the sign of the symplectic form (in 
 
 ## A symmetry of kinematics
 
-#11 §3: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]." [The v1 paper](/wiki/history/documents/checkpoint) adds that "the canonical commutator is blind to it" (#9 §1). The transform F conjugates x̂ into p̂ and p̂ into −x̂ [T], which is ρ written for operators; see [the Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform).
+#11 §3: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]." The sentence holds on ℝ^d, which #11's flat cosmology assumes; on a closed space, such as a three-sphere or a torus, position keeps a continuous spectrum while momentum becomes discrete, so no unitary map exchanges them as wholes, and the flat transform exchanges a wave packet of width σ only locally, to relative accuracy (2/3)(σ/R)² for curvature radius R (flag 47 in `review/wiki-build-flags.md`; [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)). [The v1 paper](/wiki/history/documents/checkpoint) adds that "the canonical commutator is blind to it" (#9 §1). The transform F conjugates x̂ into p̂ and p̂ into −x̂ [T], which is ρ written for operators; see [the Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform).
 
 "Kinematics" here means the arena: the operators, their commutation relations and the space of states. It leaves out the Hamiltonian, which says how states change in time. A symmetry of the arena alone is, ordinarily, a change of description, the same physics in rotated variables, rather than a symmetry of a specific action. The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) states the point: "as usually encountered, rho is a unitary equivalence between representations of the canonical commutation relations, not a Noether symmetry of a specified action" (#14 §1). See [unitary equivalence versus Noether symmetry](/wiki/phase-space/reciprocity/unitary-equivalence).
 
@@ -104,6 +107,8 @@ The phase-space-diameter note quotes the two papers as follows (§4, [T][S]):
 - Born's open question whether b is universal or set by each system is the choice that Freidel, Kowalski-Glikman, Leigh and Minic later make for the system at hand, taking their cell length to be "not universal but instead … chosen in the context of the system in question" (§4).
 - Pairing the size of the universe with an extent in momentum is the question the note itself takes up; for the universe's radiation the two sizes are tied by a fixed product, and for its range of scales one Born length, about 50 micrometres, makes the box exactly self-dual ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter); [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box)).
 
+The closed-universe note of 2026-10-27 returns to Born 1938 from the other side. Born started from a closed universe and gave momentum space a hypersphere to match; the note asks whether reciprocity makes the universe closed, finds that no source derives closure from Born reciprocity, and finds that a closed position space times a closed momentum space cannot be a phase space at all, though a compact phase space that is not a product, Gr̃(2,5), exists (`notes/closed-universe.md` §2, §5; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe); [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)).
+
 #13's description of Born's motive, "a physics with a fundamental mass and a fundamental length on equal footing", and its "self-dual physics with both m and λ fundamental" are #13's words, cited from model memory; the note does not compare them with Born's text, and the comparison belongs to the † literature battery.
 
 ## Names
@@ -135,6 +140,7 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - [P3: a reciprocity-invariant action](/wiki/program/postulates/p3-reciprocity) — the postulate that the action is invariant under ρ.
 - [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — p-polarized matter as the ρ-image of x-polarized matter.
 - [P5: the vacuum selects a polarization](/wiki/program/postulates/p5-spontaneous-selection) — ρ carries our vacuum to the equally lawful mirror vacuum.
+- [Reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity) — what is left of ρ if space is closed: a local exchange, and a U(1) cut to Z₂ on integrable polarizations.
 - [The structures ω, η, H](/wiki/phase-space/born-geometry/born-structures) — ρ preserves ω and H and flips η.
 - [Reciprocity as modular inversion Z → −Z⁻¹](/wiki/phase-space/modular-field/modular-inversion) — ρ acting on the modular field.
 - [Mandatory breaking: the uncertainty argument](/wiki/symmetry-breaking/mandatory-breaking) — why some polarization must be chosen.
@@ -178,3 +184,5 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - `notes/broken-born-theory.md` §1, §2 — P3's ℤ₄; ρ² as parity; ρ's action on (ω, η, H).
 - `notes/knot-dark-matter-standalone.md` §1 — ρ as a unitary equivalence of representations (withdrawn paper).
 - `popsci/universes-other-half.md` "Two descriptions of one thing" — "one sign adjustment" (popular article; never a status source).
+- `notes/closed-universe.md` §2, §5 — Born 1938 read the other way; the global exchange on a closed space and the compact phase spaces; computed, not reviewed
+- `review/wiki-build-flags.md` item 47 — the scope of #11 §3's "implements it unitarily" once closure is adopted; awaiting Paul's ruling

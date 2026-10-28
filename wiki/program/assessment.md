@@ -23,6 +23,8 @@ sources:
   - "review/round4-adjudication.md 'Verdict'"
   - "verify/battery.py T4, T5, T7"
   - "verify/soliton_obituary.py"
+  - "notes/closed-universe.md §2"
+  - "review/wiki-build-flags.md items 27 (addendum), 46"
 ---
 
 *The assessment is the [checkpoint](/wiki/history/documents/checkpoint)'s own judgement of where the program stands, written in the terms of Imre Lakatos's account of research programmes: a hard core that is kept fixed, auxiliary claims that may be revised, and the question of whether the program keeps producing new predictions (progressive) or only accommodates its failures (degenerating). Checkpoint #11 v2.2 finds the hard core intact and sharpened twice by corrections that later derivations forced. It lists the signs of progress and the risks of degeneration side by side, it names three predictions that observations could falsify soon, and it notes that the current dark-energy data already lean against one of them. Its verdict is that this is a live research program, and that the word "theory" waits on three [open problems](/wiki/status/open-problems).*
@@ -78,7 +80,7 @@ flat aligned vacuum:     V(1) = T     ⇒     T = 0   and   V(1) = 0
 
 ### One over-constraint in the dark-energy sector
 
-The dark-energy field τ has "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint" (#11 §10): once two of the observables are measured, the third is predicted ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)). The third observable, the turnaround time, assumes that τ's potential goes negative, a point the documents leave unresolved (see flag 27 in `review/wiki-build-flags.md`; [Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)).
+The dark-energy field τ has "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint" (#11 §10): once two of the observables are measured, the third is predicted ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint)). The third observable, the turnaround time, assumes that τ's potential goes negative, a point the documents leave unresolved (see flag 27 in `review/wiki-build-flags.md`; [Open: the sign of V(τ)](/wiki/cosmology/dark-energy/potential-sign)). The closed-universe note of 2026-10-27, not reviewed, finds that with the potential as written only a closed universe turns around; there t_turn ∝ |Ω_k|^{−3/2} at fixed (w₀, wₐ), so the curvature is a third input and the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing, and since the data bound t_turn only from below, the turnaround time cannot test the count (flag 27 addendum; flag 46; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-over-constraint-moves-dv)).
 
 ### The charge-lattice unification
 
@@ -151,3 +153,4 @@ v1's verdict: "The word 'theory' awaits items 1–2 of §10; the phrase 'researc
 - `review/round3-adjudication.md` 'Verdict' and `review/round4-adjudication.md` 'Verdict' — the review verdicts since the handoff
 - `verify/battery.py` T4, T5, T7 — the machine checks of the tuning test and the integer identity
 - `verify/soliton_obituary.py` — the [V] numbers of the soliton obituary
+- `notes/closed-universe.md` §2; `review/wiki-build-flags.md` item 27's addendum and item 46 — the closed turnaround and the over-constraint moved to Ω_k

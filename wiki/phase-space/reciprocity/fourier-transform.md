@@ -24,6 +24,8 @@ sources:
   - "papers/phase-space-diameter.md References"
   - "verify/phase_space_diameter.py"
   - "CLAUDE.md 'Since the handoff'"
+  - "notes/closed-universe.md §5"
+  - "review/wiki-build-flags.md item 47"
 ---
 
 *The Fourier transform is the exact, reversible map that turns a quantum state's description in position into its description in momentum — the same operation that turns a sound's waveform into its spectrum. Neither description approximates the other; each contains the whole state. Applied once, the transform carries out [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn ρ: (x, p) → (p, −x) of phase space; applied twice, it reflects x → −x; applied four times, it returns every state unchanged. The program takes the analogy literally: position and momentum are two descriptions of one state, and its [toy models](/wiki/symmetry-breaking/toy-models) use the transform to relate a vacuum in which a matter coupling is local in position to its mirror image, in which the coupling is local in momentum.*
@@ -51,7 +53,7 @@ Conjugating the position and momentum operators by the transform F exchanges the
 F† x̂ F = p̂          F† p̂ F = −x̂
 ```
 
-Here † is the Hermitian adjoint. F therefore implements ρ: (x, p) → (p, −x) on the operators of quantum kinematics, and it leaves [x̂, p̂] = iℏ unchanged ([the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)). In #11's words: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]" (§3).
+Here † is the Hermitian adjoint. F therefore implements ρ: (x, p) → (p, −x) on the operators of quantum kinematics, and it leaves [x̂, p̂] = iℏ unchanged ([the canonical commutator](/wiki/phase-space/reciprocity/canonical-commutator)). In #11's words: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]" (§3). The sentence holds on ℝ^d, which #11's flat cosmology assumes; on a closed space, such as a three-sphere or a torus, position keeps a continuous spectrum while momentum becomes discrete, so no unitary map exchanges them as wholes, and the flat transform exchanges a wave packet of width σ only locally, to relative accuracy (2/3)(σ/R)² for curvature radius R (flag 47 in `review/wiki-build-flags.md`; [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)).
 
 Two standard facts make the word "rotation" literal [T]:
 
@@ -140,11 +142,13 @@ The first three are cited by the phase-space-diameter note, which retrieved them
 - [Two causal cones](/wiki/conjugate-relativity/two-causal-cones), [the invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) and [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) — the Fourier pairs used in conjugate special relativity.
 - [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the time–bandwidth count of cells at cosmic scale, an identity of blackbody statistics.
 - [The Born length λ](/wiki/phase-space/reciprocity/born-length) — the transform written in the scaled coordinates of a chosen λ; each λ gives a different quarter-turn.
+- [Reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity) — on a closed space the transform becomes a Fourier series, and the exchange holds only locally.
 
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — the phase-space-diameter note done; the chat relation as standard physics that cannot test the program.
 - `papers/broken-born-checkpoint-v2.md` §3 — the Fourier transform implements ρ unitarily [1†, 2†].
+- `notes/closed-universe.md` §5 and `review/wiki-build-flags.md` item 47 — the global exchange fails on a closed space and the local one holds to (2/3)(σ/R)²; the scope the sentence needs once closure is adopted, awaiting Paul's ruling.
 - `papers/phase-space-diameter.md` §1, §3, §4 — the cosmic time–bandwidth relation as an identity of blackbody statistics [D][V]; Shannon, Slepian and Gabor [S]; the waveform's resolution and sampling; §5 — the transform on Gaussian packets as Z → −1/Z [T][V]; References — the three signal-analysis papers.
 - `verify/phase_space_diameter.py` — κ = 1.708, N_γ = 1.43 × 10⁸⁹, the area 8.9 × 10²⁹ h, and the numerical transform of one Gaussian packet.
 - `papers/broken-born-checkpoint-v2.md` Appendix A — supposition 2, one state with two descriptions.

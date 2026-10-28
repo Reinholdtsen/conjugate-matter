@@ -10,11 +10,15 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §10"
   - "verify/soliton_obituary.py anchors"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
+  - "notes/closed-universe.md §2"
+  - "notes/closed-universe.md §4"
+  - "notes/closed-universe.md §7"
+  - "review/wiki-build-flags.md items 48, 49"
 ---
 
 *Friedmann cosmology is the description of a universe that looks the same at every place and in every direction, so that its entire geometry reduces to one function of time, the scale factor a(t), which multiplies the distance between any two distant galaxies. The Friedmann equation ties the expansion rate to the energy density, and each kind of content, whether matter, radiation or a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant), thins out at its own rate as a grows. Minisuperspace is the name for gravity reduced to this one function, with the freedom to choose the time coordinate kept as a single function called the lapse. The program writes its [cosmology](/wiki/cosmology) in this reduced form and adds a second scale factor for the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of the same state.*
 
-**Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in `notes/broken-born-theory.md` §6 [D], summarized in [#11](/wiki/history/documents/checkpoint) §10, and not machine-checked.
+**Status:** Established — [T] — textbook cosmology, written here from general knowledge; the program's extension of it, the dual gravity term, is derived in `notes/broken-born-theory.md` §6 [D], summarized in [#11](/wiki/history/documents/checkpoint) §10, and not machine-checked; the term it starts from is itself derived in no document (flag 49).
 
 ## The homogeneous universe [T]
 
@@ -81,7 +85,9 @@ w = (½φ̇² − V) / (½φ̇² + V)
 
 If the field's energy is all kinetic (V negligible), w = +1: a stiff fluid. Its field equation then makes φ̇ fall as a⁻³, so its energy density falls as a⁻⁶. If instead the field sits nearly still on its potential, w is close to −1 and it behaves like a cosmological constant. This is why #1 §6 labels the w̃ = +1 entry of its table "Kinetic/stiff energy", and it is the distinction behind [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link). Dark energy built from a slowly evolving field is [quintessence](/wiki/cosmology/dark-energy/quintessence).
 
-**Negative curvature energy.** For a closed universe (k > 0) the curvature term enters the Friedmann equation with the opposite sign to an ordinary energy density, as H² = 8πGρ/3 − k/a². Read as a fluid, closed curvature has negative energy density. The dictionary's entry "closed dual space ⇒ *negative* ΔN_eff" (#1 §6) carries this sign across to the conjugate side; N_eff, the effective number of neutrino species, is on [the radiation era](/wiki/cosmology/early-universe/radiation-era).
+**Negative curvature energy.** For a closed universe (k > 0) the curvature term enters the Friedmann equation with the opposite sign to an ordinary energy density, as H² = 8πGρ/3 − k/a². Read as a fluid, closed curvature has negative energy density. The dictionary's entry "closed dual space ⇒ *negative* ΔN_eff" (#1 §6) carries this sign across to the conjugate side; N_eff, the effective number of neutrino species, is on [the radiation era](/wiki/cosmology/early-universe/radiation-era). A closed position space does not make the dual space closed: in the record's geometry the momentum fibre is flat whatever k is (flag 48 in `review/wiki-build-flags.md`).
+
+The same sign lets a closed universe stop expanding with every energy density positive: H = 0 is reached when 8πGρ/3 falls to k/a². A closed universe filled with matter, or with a field that oscillates about its minimum and so averages to matter, therefore reaches a largest size and recollapses [T]. The program's far-future turnaround is of this kind if its dark-energy potential is never negative ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe), `notes/closed-universe.md` §2).
 
 ## Redshift and momentum [T]
 
@@ -99,7 +105,7 @@ The notebook gives the substitution and the result, not the steps between. Writt
 
 What the term means, in #1 §6's words: "The dual gravitational sector is **not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times." The extra term multiplies H² alongside M_P², so it acts as an addition to the effective Planck mass, and with it a change in the effective strength of gravity G_eff. Because it grows as a⁻⁶ toward the past, it matters only when a was small; today the ordinary Friedmann equation is recovered. #11 §10 keeps the result in one clause, "the dual Einstein term is an a⁻⁶ step in G_eff", and its test is [row 10](/wiki/predictions/early-universe-step), which #11 calls optional.
 
-**Caveats.** The equation appears only in the lab notebook and has not been machine-checked. Its claim that there is no [ghost](/wiki/gravity/spin-2-fields/ghosts#the-lab-notebooks-minisuperspace-argument) is a minisuperspace statement: #1 §4 records that "no Boulware–Deser sector arises in minisuperspace" [D] (the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the negative-energy sixth mode that a generic massive-gravity or two-metric theory carries [T]) and that "The statement for full inhomogeneous H is open" [O]. That analysis predates the v0.4 addendum, after which the momentum-space partner of the metric is a [massive spin-2 field](/wiki/gravity/momentum-graviton) and, from the v0.5 addendum on, ghost freedom rests on [the frame-tier potential](/wiki/gravity/tuning-test/frame-tier). The cosmological solutions of the full two-metric theory are [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology).
+**Caveats.** The equation appears only in the lab notebook and has not been machine-checked. Its dual Einstein–Hilbert term is used under [D], but no document derives it from the geometric action S_H, so the a⁻⁶ step tests a postulate (flag 49 in `review/wiki-build-flags.md`; [the dual frame](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not), `notes/closed-universe.md` §7). Its claim that there is no [ghost](/wiki/gravity/spin-2-fields/ghosts#the-lab-notebooks-minisuperspace-argument) is a minisuperspace statement: #1 §4 records that "no Boulware–Deser sector arises in minisuperspace" [D] (the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the negative-energy sixth mode that a generic massive-gravity or two-metric theory carries [T]) and that "The statement for full inhomogeneous H is open" [O]. That analysis predates the v0.4 addendum, after which the momentum-space partner of the metric is a [massive spin-2 field](/wiki/gravity/momentum-graviton) and, from the v0.5 addendum on, ghost freedom rests on [the frame-tier potential](/wiki/gravity/tuning-test/frame-tier). The cosmological solutions of the full two-metric theory are [bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology).
 
 ## The radiation era, briefly
 
@@ -123,6 +129,8 @@ None of these is cited in the program's documents; they are given here from memo
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the a⁻⁶ term in the Friedmann equation.
 - [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — the expansion halts when the total energy density reaches zero.
 - [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — ρ ∝ a^{−3(1+w)} applied to a fluid in the momentum-space description.
+- [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — the closed Friedmann equation, the cycloid of a closed matter universe, and conformal time on the three-sphere.
+- [The momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) — a Friedmann equation for each of two metrics.
 
 ## Sources
 
@@ -131,3 +139,4 @@ None of these is cited in the program's documents; they are given here from memo
 - `papers/broken-born-checkpoint-v2.md` §10 — the current statement of the cosmology built on this reduction
 - `verify/soliton_obituary.py` — the radiation-era Friedmann coefficient, checked as an anchor
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — redshift read as a contracting momentum spectrum (popular article; explanation only)
+- `notes/closed-universe.md` §2, §4, §7 and `review/wiki-build-flags.md` items 48, 49 — the closed turnaround, the flat momentum fibre and the underived dual term; computed, not reviewed

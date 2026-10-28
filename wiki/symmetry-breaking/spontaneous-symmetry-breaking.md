@@ -19,6 +19,8 @@ sources:
   - "notes/debt1a-geometric-core.md §F"
   - "review/round4/referee/audit-notes.md 'Step 2(c)'"
   - "verify/toy_coset.py S2–S3"
+  - "notes/closed-universe.md §5"
+  - "review/wiki-build-flags.md item 47"
 ---
 
 *Spontaneous symmetry breaking is the situation in which the equations of a system are unchanged by some transformation but its lowest-energy state is not. A cooled magnet is the standard example: the laws governing its atoms treat every direction alike, yet the magnet ends up magnetized along one direction, and any other direction would have been an equally good ground state. The symmetry is not lost. It now relates the possible ground states to one another, and the system occupies one of them. The Comatter program uses this pattern for its hard core: it proposes that the exchange of position and momentum, an exact symmetry of quantum kinematics, is broken by the vacuum rather than by the laws. This page is the textbook background and the program's operational version of it; the program's own claims follow on the next pages of this section.*
@@ -37,7 +39,7 @@ The ground state, or vacuum, Φ₀ is the configuration of least energy. If g·�
 
 In a ferromagnet the energy depends only on the relative orientation of neighbouring spins, so rotating every spin together changes nothing [T]. Below the Curie temperature the spins align, and the magnetization points along some direction. A rotation of the whole sample carries that state to another magnetized state of equal energy, pointing elsewhere. Which direction results is decided by small accidents of the sample's history, such as a stray field while it cooled, not by the laws.
 
-The program's instance is stated in #11 §3: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]", and "The program: ρ is exact and spontaneously broken." Here ρ is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn of the position–momentum plane that [the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries out on wavefunctions, and the claim is the program's [hard core](/wiki/program/hard-core): the world's preference for position belongs to the vacuum, as a magnet's direction belongs to its state. The postulate that says so is [P5](/wiki/program/postulates/p5-spontaneous-selection): "The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful. [P]" (#11 §4).
+The program's instance is stated in #11 §3: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]", and "The program: ρ is exact and spontaneously broken." The sentence holds on flat space, which #11's cosmology assumes; on a closed space position is continuous and momentum discrete, so the exchange holds only locally, to relative accuracy (2/3)(σ/R)² for a packet of width σ on a space of radius R (flag 47 in `review/wiki-build-flags.md`; [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)). Here ρ is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), the quarter-turn of the position–momentum plane that [the Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries out on wavefunctions, and the claim is the program's [hard core](/wiki/program/hard-core): the world's preference for position belongs to the vacuum, as a magnet's direction belongs to its state. The postulate that says so is [P5](/wiki/program/postulates/p5-spontaneous-selection): "The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful. [P]" (#11 §4).
 
 ## The vacuum manifold and the stabilizer
 
@@ -134,3 +136,4 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 - `notes/broken-born-theory.md` §3 — v0.1's explicit-breaking origin of V(τ) (superseded); §4 — the spurion ⟨J⟩ and the ρ² argument
 - `notes/debt1a-geometric-core.md` §F — the origin of τ's potential under P2′, listed as open
 - `verify/toy_coset.py` — the S2 and S3 checks for model I, including the stabilizer {±1}
+- `notes/closed-universe.md` §5; `review/wiki-build-flags.md` item 47 — the scope of "the Fourier transform implements it unitarily" on a closed space

@@ -1,0 +1,63 @@
+=== (1) symbolic: both conventions give eps6 = (R_sd/R)^6 and r = (R_sd/R)^2 ===
+eps6 - (Rsd/R)^6 = 0
+r    - (Rsd/R)^2 = 0
+minisuperspace convention ell = lambda: C_ms = (R_sd/lambda)^2; C_ms = 1 <=> R_sd = lambda
+momentum-space convention ell = R0    : C_mom = (R_sd/R0)^2;   C_mom = 1 <=> R_sd = R0
+cap: P_ms - hbar R_sd^2/(lambda^2 R) = 0
+cap: P_mom - hbar R_sd^2/(lambda^2 R) = 0
+=> one physical point per (lambda, R_sd); 'C = 1' names R_sd = lambda (ms) or R_sd = R0 (mom).
+
+=== (2) numbers ===
+l_P = 1.61626e-35 m; lambda2 = sqrt(l_P c/H0) = 4.70989e-5 m; a_BBN = 1.6764e-10; a_end = 1.3659e-29
+
+|Omega_k| = 0.01: R0 = 1.3725e+27 m, R(1 MeV) = 2.301e+17 m, R_end = 0.01875 m
+  R_sd upper: BBN (eps6<=0.1) 1.568e+17 m; BBN (Alvey eps6<=0.064) 1.455e+17 m; N_eff (|Omega_kt|<4.871e-6) 3.029e+25 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 50): 3.616e-24 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 55): 2.436e-26 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 60): 1.642e-28 m
+  ms C=1, lambda=l_P (R_sd = l_P): Delta N_eff = -1.122e-121; eps6(1 MeV) = 1.202e-313; cap n_max (lambda = l_P) = 3.142 vs n_CMB = 4.413e+30
+  mom C=1 (R_sd = R0): Delta N_eff = -808.9; eps6(1 MeV) = 4.506e+58; cap n_max (lambda = l_P) = 2.265e+124 vs n_CMB = 4.413e+30
+  cap from CMB photons (n = 4.413e+30): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 132.3 m; + standard inflation (N_*=55) iff lambda <= 2.056e-41 m = 1.272e-6 l_P
+  cap from LHC 6.8 TeV (n = 4.73e+46): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 1.278e-6 m; + standard inflation (N_*=55) iff lambda <= 1.986e-49 m = 1.229e-14 l_P
+  cap from UHECR 3.2e20 eV (n = 2.226e+54): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 1.862e-10 m; + standard inflation (N_*=55) iff lambda <= 2.895e-53 m = 1.791e-18 l_P
+  lambda = l_P: R_sd window (LHC cap .. BBN) = [1.983e-12, 1.568e+17] m -> open; inflation needs R_sd < 2.44e-26 m, CMB-photon cap alone already needs R_sd >= 1.916e-20 m -> a^-6 term dominates at pivot exit
+  lambda = lambda2: R_sd window (LHC cap .. BBN) = [5.779e+18, 1.568e+17] m -> EMPTY; inflation needs R_sd < 2.44e-26 m, CMB-photon cap alone already needs R_sd >= 5.582e+10 m -> a^-6 term dominates at pivot exit
+
+|Omega_k| = 0.001: R0 = 4.3402e+27 m, R(1 MeV) = 7.276e+17 m, R_end = 0.05928 m
+  R_sd upper: BBN (eps6<=0.1) 4.957e+17 m; BBN (Alvey eps6<=0.064) 4.602e+17 m; N_eff (|Omega_kt|<4.871e-6) 3.029e+26 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 50): 1.143e-23 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 55): 7.704e-26 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 60): 5.191e-28 m
+  ms C=1, lambda=l_P (R_sd = l_P): Delta N_eff = -1.122e-123; eps6(1 MeV) = 1.202e-316; cap n_max (lambda = l_P) = 3.142 vs n_CMB = 1.395e+31
+  mom C=1 (R_sd = R0): Delta N_eff = -80.89; eps6(1 MeV) = 4.506e+58; cap n_max (lambda = l_P) = 2.265e+125 vs n_CMB = 1.395e+31
+  cap from CMB photons (n = 1.395e+31): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 235.2 m; + standard inflation (N_*=55) iff lambda <= 3.656e-41 m = 2.262e-6 l_P
+  cap from LHC 6.8 TeV (n = 1.496e+47): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 2.272e-6 m; + standard inflation (N_*=55) iff lambda <= 3.531e-49 m = 2.185e-14 l_P
+  cap from UHECR 3.2e20 eV (n = 7.038e+54): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 3.312e-10 m; + standard inflation (N_*=55) iff lambda <= 5.147e-53 m = 3.185e-18 l_P
+  lambda = l_P: R_sd window (LHC cap .. BBN) = [3.527e-12, 4.957e+17] m -> open; inflation needs R_sd < 7.7e-26 m, CMB-photon cap alone already needs R_sd >= 3.406e-20 m -> a^-6 term dominates at pivot exit
+  lambda = lambda2: R_sd window (LHC cap .. BBN) = [1.028e+19, 4.957e+17] m -> EMPTY; inflation needs R_sd < 7.7e-26 m, CMB-photon cap alone already needs R_sd >= 9.926e+10 m -> a^-6 term dominates at pivot exit
+
+|Omega_k| = 0.0001: R0 = 1.3725e+28 m, R(1 MeV) = 2.301e+18 m, R_end = 0.1875 m
+  R_sd upper: BBN (eps6<=0.1) 1.568e+18 m; BBN (Alvey eps6<=0.064) 1.455e+18 m; N_eff (|Omega_kt|<4.871e-6) 3.029e+27 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 50): 3.616e-23 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 55): 2.436e-25 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 60): 1.642e-27 m
+  ms C=1, lambda=l_P (R_sd = l_P): Delta N_eff = -1.122e-125; eps6(1 MeV) = 1.202e-319; cap n_max (lambda = l_P) = 3.142 vs n_CMB = 4.413e+31
+  mom C=1 (R_sd = R0): Delta N_eff = -8.089; eps6(1 MeV) = 4.506e+58; cap n_max (lambda = l_P) = 2.265e+126 vs n_CMB = 4.413e+31
+  cap from CMB photons (n = 4.413e+31): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 418.3 m; + standard inflation (N_*=55) iff lambda <= 6.501e-41 m = 4.022e-6 l_P
+  cap from LHC 6.8 TeV (n = 4.73e+47): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 4.04e-6 m; + standard inflation (N_*=55) iff lambda <= 6.279e-49 m = 3.885e-14 l_P
+  cap from UHECR 3.2e20 eV (n = 2.226e+55): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 5.889e-10 m; + standard inflation (N_*=55) iff lambda <= 9.153e-53 m = 5.663e-18 l_P
+  lambda = l_P: R_sd window (LHC cap .. BBN) = [6.271e-12, 1.568e+18] m -> open; inflation needs R_sd < 2.44e-25 m, CMB-photon cap alone already needs R_sd >= 6.057e-20 m -> a^-6 term dominates at pivot exit
+  lambda = lambda2: R_sd window (LHC cap .. BBN) = [1.827e+19, 1.568e+18] m -> EMPTY; inflation needs R_sd < 2.44e-25 m, CMB-photon cap alone already needs R_sd >= 1.765e+11 m -> a^-6 term dominates at pivot exit
+
+|Omega_k| = 1.0e-5: R0 = 4.3402e+28 m, R(1 MeV) = 7.276e+18 m, R_end = 0.5928 m
+  R_sd upper: BBN (eps6<=0.1) 4.957e+18 m; BBN (Alvey eps6<=0.064) 4.602e+18 m; N_eff (|Omega_kt|<4.871e-6) 3.029e+28 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 50): 1.143e-22 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 55): 7.704e-25 m
+  R_sd upper, standard inflation (R_sd < R at pivot exit, N_* = 60): 5.191e-27 m
+  ms C=1, lambda=l_P (R_sd = l_P): Delta N_eff = -1.122e-127; eps6(1 MeV) = 1.202e-322; cap n_max (lambda = l_P) = 3.142 vs n_CMB = 1.395e+32
+  mom C=1 (R_sd = R0): Delta N_eff = -0.8089; eps6(1 MeV) = 4.506e+58; cap n_max (lambda = l_P) = 2.265e+127 vs n_CMB = 1.395e+32
+  cap from CMB photons (n = 1.395e+32): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 743.8 m; + standard inflation (N_*=55) iff lambda <= 1.156e-40 m = 7.152e-6 l_P
+  cap from LHC 6.8 TeV (n = 1.496e+48): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 7.184e-6 m; + standard inflation (N_*=55) iff lambda <= 1.117e-48 m = 6.909e-14 l_P
+  cap from UHECR 3.2e20 eV (n = 7.038e+55): R_sd >= lambda sqrt(n/pi); survives N_eff+BBN iff lambda <= 1.047e-9 m; + standard inflation (N_*=55) iff lambda <= 1.628e-52 m = 1.007e-17 l_P
+  lambda = l_P: R_sd window (LHC cap .. BBN) = [1.115e-11, 4.957e+18] m -> open; inflation needs R_sd < 7.7e-25 m, CMB-photon cap alone already needs R_sd >= 1.077e-19 m -> a^-6 term dominates at pivot exit
+  lambda = lambda2: R_sd window (LHC cap .. BBN) = [3.25e+19, 4.957e+18] m -> EMPTY; inflation needs R_sd < 7.7e-25 m, CMB-photon cap alone already needs R_sd >= 3.139e+11 m -> a^-6 term dominates at pivot exit

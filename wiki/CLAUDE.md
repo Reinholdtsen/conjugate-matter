@@ -25,7 +25,8 @@ It is written for three readers:
   3. `review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`;
   4. `papers/conjugate-special-relativity.md` (#13);
   5. `HANDOFF.md` (its §2 soliton candidate and its §8 queue are superseded);
-  6. `notes/`: calc notes #2–#8 are final for their own scope; #1 and #9 are superseded
+  6. `notes/`: calc notes #2–#8 are final for their own scope; `notes/closed-universe.md`
+     (2026-10-27, not reviewed) is current for its scope, a closed universe; #1 and #9 are superseded
      as reference; #14 is withdrawn;
   7. `popsci/`. #12 presents the framework as if it were confirmed. It is never a source
      for a claim's status.

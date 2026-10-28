@@ -159,3 +159,7 @@ CQG	-
 IJMPD	-
 PDF	-
 SHA	-
+# Added for the closed-universe note (2026-10-27)
+LHC	Large Hadron Collider
+IX	-
+CAMB	-

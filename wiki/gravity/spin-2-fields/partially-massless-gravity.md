@@ -19,6 +19,8 @@ sources:
   - "notes/debt1a-iv-beta-coefficients.md §1"
   - "notes/debt1a-iv-beta-coefficients.md §3"
   - "review/wiki-build-flags.md item 9"
+  - "notes/closed-universe.md §6"
+  - "review/wiki-build-flags.md item 53"
 ---
 
 *Partially massless gravity is a spin-2 field on [de Sitter space](/wiki/cosmology/dark-energy/de-sitter-space), the spacetime of a universe expanding at a constant rate under a positive [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant), whose mass takes the one value at which an extra gauge symmetry appears and removes the field's helicity-0 polarization [T]. That value is the edge of the [Higuchi bound](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound), below which a massive spin-2 field on de Sitter space carries a [ghost](/wiki/gravity/spin-2-fields/ghosts#the-higuchi-ghost). [Bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) has a parameter point, studied as partially massless bimetric gravity, at which the theory has de Sitter solutions in which the two metrics are proportional, with a ratio that the equations leave undetermined, and its potential is symmetric under exchange of the two metrics. The point matters to the program because at α = 1, which in the literature's usual notation means equal [Planck masses](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses) for the two metrics, it lies inside the [palindromic branch](/wiki/gravity/palindromic-branch) that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) selects. That raises the open question whether reciprocity is the origin of the partially massless symmetry, and it means the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) must be compared with this literature before it can be called new.*
@@ -45,7 +47,7 @@ m² ≥ 2H²
 
 The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) cites it as reference [6], A. Higuchi, Nucl. Phys. B 282, 397 (1987). The round-3 audit read the bound from Higuchi's abstract, "M^2 cannot be between 0 and 2/3 x (cosmological constant)", converted it with "Lambda = 3H^2" to "m^2 >= 2H^2", and found that the reference supports the statement (audit notes, Step 1).
 
-For masses between zero and the bound, the helicity-0 polarization has negative norm: it is a ghost, and the theory is not unitary [T]. A field much heavier than H satisfies the bound trivially, which is how #14 treated the momentum graviton; see [the Higuchi bound under bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound).
+For masses between zero and the bound, the helicity-0 polarization has negative norm: it is a ghost, and the theory is not unitary [T]. A field much heavier than H satisfies the bound trivially, which is how #14 treated the momentum graviton; for X the conclusion holds through its dressed mass rather than its fixed mass (flag 53; [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-higuchi-bound-holds-through-the-dressed-mass)); see [the Higuchi bound under bimetric cosmology](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound).
 
 ### The partially massless value
 
@@ -128,3 +130,4 @@ The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed 
 - `notes/debt1a-ii-X-classification.md` §3 — the five polarizations of a massive spin-2 field.
 - `notes/debt1a-iv-beta-coefficients.md` §1, §3 — the palindromic constraint; equal effective Planck masses forced by reciprocity.
 - `review/wiki-build-flags.md` item 9 — reference [24][S], with no authors and a title that may be descriptive; awaiting Paul's ruling.
+- `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 53 — the Higuchi bound through the dressed mass

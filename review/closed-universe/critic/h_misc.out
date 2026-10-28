@@ -1,0 +1,14 @@
+=== (1) momentum-sphere radius a doubly compact SdS-type phase space would need ===
+  #13 bound: hbar c/lambda^2 >= F_H = 8.2387e-08 N -> lambda <= 6.1947e-10 m; X-range bound lambda <= 3.770e-05 m
+  today, |Omega_k| = 1.13e-3 (R0): lambda <= #13 bound -> kappa c >= 2.100e+39 eV = 1.720e+11 E_P
+  today, |Omega_k| = 1.13e-3 (R0): lambda <= X range bound -> kappa c >= 5.669e+29 eV = 4.643e+01 E_P
+  turnaround floor, R_max = 1.174e5 Gpc: lambda <= #13 bound -> kappa c >= 1.863e+42 eV = 1.526e+14 E_P
+  turnaround floor, R_max = 1.174e5 Gpc: lambda <= X range bound -> kappa c >= 5.029e+32 eV = 4.120e+04 E_P
+  (with kappa = m_P c the length is sqrt(R l_P) = 2.569e-04 m today)
+
+=== (2) range of the conjugate scale factor, throat -> turnaround ===
+  throat c/H_inf = 4.3074e-30 m = 2.6651e+05 l_P (minisuperspace C27: 4.3080e-30 m, 2.6654e5 l_P)
+  atilde(throat)/atilde(turnaround) = R_max/R_throat = 8.410e+59 (log10 59.92) for a bound-scale throat and the floor turnaround; neither radius is bounded above
+
+=== (3) G_eff = 2 G_N during inflation ===
+  H at fixed V rises by sqrt(2) = 1.4142; throat c/H shrinks to 3.0458e-30 m; e-fold budget N = ln(R_end H/c) rises by ln sqrt(2) = 0.3466

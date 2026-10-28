@@ -6,7 +6,7 @@ description: "The document map: artifacts #1–#15 and the later files, each wit
 bookCollapseSection: true
 ---
 
-*The program's record is a set of documents: a lab notebook and the calc notes that followed it, two paper-length checkpoints, two popular articles, a short paper on [conjugate special relativity](/wiki/conjugate-relativity), a [withdrawn manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) with the console used to review it, a handoff note, and the files written since the move to this repository. `HANDOFF.md` numbers the artifacts carried over from claude.ai as #1–#15, and the wiki uses those numbers. Some documents are current references, some are kept only as the audit trail, and one was withdrawn; where two disagree, a fixed order of precedence decides which one the wiki follows.*
+*The program's record is a set of documents: a lab notebook and the calc notes that followed it, a later working note on a closed universe, two paper-length checkpoints, two popular articles, a short paper on [conjugate special relativity](/wiki/conjugate-relativity), a [withdrawn manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) with the console used to review it, a handoff note, and the files written since the move to this repository. `HANDOFF.md` numbers the artifacts carried over from claude.ai as #1–#15, and the wiki uses those numbers. Some documents are current references, some are kept only as the audit trail, and one was withdrawn; where two disagree, a fixed order of precedence decides which one the wiki follows.*
 
 **Record pages only:** this section describes documents and the disagreements between them, and makes no physics claims of its own. What stands, what died and what is open is registered in [claims that stand](/wiki/status/alive), [the graveyard](/wiki/status/graveyard), [open problems and the queue](/wiki/status/open-problems), [conjectures](/wiki/status/conjectures) and [superseded statements](/wiki/status/superseded). The withdrawn manuscript #14 is described with [the retired soliton candidate](/wiki/dark-matter/candidates/soliton-candidate).
 
@@ -41,6 +41,7 @@ The pages start with the two files written to orient a new Claude Code session, 
 | — | `CLAUDE.md`, `README.md` | the standing instructions, top status source; a stale one-line description | [CLAUDE.md and the README](/wiki/history/documents/project-instructions) |
 | — | `papers/reciprocity-toy-models.md`, `notes/toy-lagrangian.md` | the toy-model note v2, a current reference, and its worklog | [Toy models of broken reciprocity](/wiki/symmetry-breaking/toy-models) |
 | — | `review/v3-worklog.md` | the closed worklog of #14 v3 | [The soliton candidate (retired)](/wiki/dark-matter/candidates/soliton-candidate) |
+| — | `notes/closed-universe.md`, `review/closed-universe/` | the closed-universe note (2026-10-27), current for its scope, a closed universe; computed and checked by independent agents, not reviewed; and the investigation's record | [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) |
 | — | `review/round3-preregistration.md`, `review/round3-adjudication.md`, `review/round3/` | the round-3 record | [Review round 3](/wiki/method/review/round-3) |
 | — | `review/round4-preregistration.md`, `review/round4-adjudication.md`, `review/round4/` | the round-4 record | [Review round 4](/wiki/method/review/round-4) |
 | — | `verify/battery.py` and the other `verify/` scripts, `scripts/check.sh` | the gate | [Verification](/wiki/method/verification) |
@@ -55,7 +56,7 @@ When documents disagree, the wiki follows the most current, in this order (`wiki
 3. the review adjudications, `review/round5-adjudication.md`, `review/round4-adjudication.md` and `review/round3-adjudication.md`;
 4. #13;
 5. `HANDOFF.md`, whose §2 soliton candidate and §8 queue are superseded;
-6. the notes: the calc notes #2–#8 are final for their own scope, #1 and #9 are superseded as reference, and #14 is withdrawn;
+6. the notes: the calc notes #2–#8 are final for their own scope, the closed-universe note (`notes/closed-universe.md`, 2026-10-27, not reviewed) is current for its scope, #1 and #9 are superseded as reference, and #14 is withdrawn;
 7. the popular articles. #12 presents the framework as if it were confirmed and is never a source for a claim's status.
 
 Claims killed in `HANDOFF.md` §2, #11 §9 and §12, and the adjudications stay dead whatever a lower-ranked document says. The cases the order settles, and those it does not, are on [Conflicts between sources](/wiki/history/documents/source-conflicts).

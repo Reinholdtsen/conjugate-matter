@@ -18,6 +18,9 @@ sources:
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §9"
   - "review/wiki-build-flags.md item 32"
+  - "review/wiki-build-flags.md items 48, 49"
+  - "notes/closed-universe.md §4"
+  - "notes/closed-universe.md §7"
 ---
 
 *The duality dictionary is the rule that translates energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) into the form in which it acts on our own expansion. Each kind of energy is labelled by its equation of state w, the ratio of its pressure to its energy density, and the rule is that conjugate-side energy with equation of state w̃ acts on us like energy with w = −w̃. Pure kinetic energy on the conjugate side therefore acts here like a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant), a conjugate cosmological constant acts like the stiffest possible fluid, and dust acts like dust. The rule is derived [D] from [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint), and it replaced an earlier heuristic that gave a different answer; [#11](/wiki/history/documents/checkpoint) lists the change as one of the two forced corrections of the program's [hard core](/wiki/program/hard-core).*
@@ -72,7 +75,7 @@ Each entry follows from E ∝ a^{3w̃}:
 
 - **Dual stiff ↦ Λ.** A stiff fluid thins fastest in its own frame, as ã⁻⁶, so as ã shrinks its density grows; the dual comoving volume shrinks at the same time, and its energy E grows as a³. Spread over our volume, which also grows as a³, the effective density stays constant: a cosmological constant. A uniform scalar field whose energy is all kinetic is a stiff fluid [T], which is why the notebook labels this row "Kinetic/stiff energy".
 - **Dual Λ ↦ stiff.** A constant dual density held in a shrinking dual volume gives an energy falling as a⁻³, and an effective density falling as a⁻⁶: a stiff fluid on our side, which matters only at early times.
-- **Dual curvature ↦ dark radiation.** Curvature acts like a fluid with w = −1/3, so on our side it acts like radiation, w = +1/3. Extra radiation that is not photons or known neutrinos is called dark radiation, and it is measured by the shift ΔN_eff in the effective number of neutrino species N_eff ([the radiation era](/wiki/cosmology/early-universe/radiation-era)) [T]. A closed space has curvature energy of negative sign [T], so a closed dual space appears as negative dark radiation, "closed dual space ⇒ *negative* ΔN_eff" (#1 §6).
+- **Dual curvature ↦ dark radiation.** Curvature acts like a fluid with w = −1/3, so on our side it acts like radiation, w = +1/3. Extra radiation that is not photons or known neutrinos is called dark radiation, and it is measured by the shift ΔN_eff in the effective number of neutrino species N_eff ([the radiation era](/wiki/cosmology/early-universe/radiation-era)) [T]. A closed space has curvature energy of negative sign [T], so a closed dual space appears as negative dark radiation, "closed dual space ⇒ *negative* ΔN_eff" (#1 §6). Whether the dual space is closed is a separate question from whether our space is: in the record's geometry the momentum fibre is flat, k̃ = 0, whatever our curvature, so a closed universe does not supply a closed dual space, and the entry needs a postulate of a curved, compact momentum space that no document states (flag 48 in `review/wiki-build-flags.md`; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#shape-the-momentum-fibre-stays-flat-dv)).
 - **Dust ↦ dust.** Dust has w̃ = 0, so its energy E is constant: a fixed amount of matter. Spread over our volume, it thins as a⁻³, like ordinary matter.
 
 The notebook draws the consequence: "dual *matter* no longer masquerades as exotic energy (dust maps to dust — the w=−2 pathology is gone because it was an artifact)" (#1 §6).
@@ -86,6 +89,8 @@ The last clause of #11's statement, "the dual Einstein term is an a⁻⁶ step i
 ```
 
 The dual term multiplies H² alongside M_P², so it changes the effective Planck mass and with it the effective strength of gravity G_eff, and it scales as a⁻⁶, like the stiff fluid of the table's second row. In #1 §6's words, it is "**not** a new fluid and **not** a ghost — ã was never independent — but a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times". The steps are on [Friedmann cosmology and minisuperspace](/wiki/cosmology/scale-factor-duality/friedmann-cosmology#the-programs-extension-a-second-scale-factor).
+
+The term itself is not derived. #1 §6 uses it under [D], but #1 §3 reduces the geometric action S_H only for the ordinary metric's block, and no document derives the dual Einstein–Hilbert term from S_H; until it is derived, the a⁻⁶ step and every bound on the dual frame test a postulate (flag 49 in `review/wiki-build-flags.md`). The closed-universe note adds that under the dictionary only two combinations are physical, vM̃²C³ for the a⁻⁶ term and vM̃²k̃C for the dual curvature, C being the comoving unit, so "M̃ = M_P" constrains nothing unless C is fixed (`notes/closed-universe.md` §7; [the dual frame](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not)).
 
 The test of this term, together with the negative ΔN_eff of closed dual curvature, is [row 10](/wiki/predictions/early-universe-step): "Optional a⁻⁶ G_eff step; closed dual curvature ⇒ negative ΔN_eff", "(Knob-bounded; CMB-S4 probes)" (#11 §13), where CMB-S4 is the [cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background#row-10s-probe-cmb-s4) (CMB) experiment #11 names as the probe; whether it is still going ahead is unchecked (flag 32 in `review/wiki-build-flags.md`). The equation appears only in the lab notebook and has not been machine-checked. The notebook also predicted, "conditionally on its one knob", a spectral step in the [primordial gravitational-wave background](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#primordial-backgrounds-t) (#1 §6), and its row 10 put CMB-S4's sensitivity to N_eff at "±0.03" (#1 §9 row 10; a figure found only in #1 and not checked). Version 1 of the checkpoint dropped both (#9 §8–§9), and #11 keeps v1's form of the row ([history of the predictions table](/wiki/predictions/table-history)).
 
@@ -109,6 +114,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 - **Minisuperspace.** The dictionary is derived for homogeneous fluids in a homogeneous universe. #1 §4's treatment of [ghosts](/wiki/gravity/spin-2-fields/ghosts#the-lab-notebooks-minisuperspace-argument) is likewise a minisuperspace statement, and it records that "The statement for full inhomogeneous H is open" [O].
 - **Not machine-checked.** The derivation and the a⁻⁶ equation appear only in the lab notebook. #11 §10 and #9 §8 restate the result without the derivation, and no `verify/` script checks it.
+- **Two unstated premises.** The dual gravity term is used but not derived (flag 49), and the dark-radiation entry needs a closed dual space that closure of our own space does not supply (flag 48). Both flags await Paul's ruling.
 
 ## History
 
@@ -117,6 +123,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 - **#9 §8**: "With one shared lapse, a dual-frame fluid contributes w_eff = −w̃", tagged "[D — corrected en route]".
 - **`HANDOFF.md` §2**: "duality dictionary w_eff = −w̃ (corrected from an earlier wrong −2−w̃)".
 - **#11 §10** is the current statement; §15 counts it among the forced corrections.
+- **The closed-universe note (2026-10-27)**, §4 and §7: the flat momentum fibre and the underived dual term (flags 48 and 49). Not reviewed.
 
 ## Sources
 
@@ -129,3 +136,4 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 - `notes/broken-born-theory.md` §4, §9 row 10 — the minisuperspace scope of the ghost accounting; the v0.1 form of row 10
 - `notes/broken-born-program-v1.md` §8 — v1's statement of the dictionary, without the spectral step; §9 row 10 — the row without the ±0.03 figure
 - `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked
+- `notes/closed-universe.md` §4, §7 and `review/wiki-build-flags.md` items 48, 49 — the flat momentum fibre, the underived dual Einstein–Hilbert term and the two physical combinations; computed, not reviewed; awaiting Paul's ruling

@@ -1,0 +1,101 @@
+theta_* calibration factor CAL = 1.00227
+
+=== calibration: flat fits ===
+  LCDM  flat: chi2 = 15.65, Omega_m = 0.3007, H0 = 68.33  (published DESI+CMB LCDM: 0.3027, 68.17)
+  w0wa  flat: chi2 = 7.15, Omega_m = 0.3515, H0 = 63.68, w0 = -0.444, wa = -1.661  (published DESI+(theta,wb,wbc)_CMB: -0.43+-0.22, -1.72+-0.64)
+
+=== profiles in Omega_K ===
+  LCDM: absolute chi2 minimum on the grid = 11.31 at Omega_K = +0.0020 (16 data points: 13 BAO + 3 CMB-prior)
+     Omega_K = -0.0080: dchi2 =  84.116  H0 = 67.48
+     Omega_K = -0.0070: dchi2 =  68.615  H0 = 67.59
+     Omega_K = -0.0060: dchi2 =  54.707  H0 = 67.71
+     Omega_K = -0.0050: dchi2 =  42.385  H0 = 67.82
+     Omega_K = -0.0040: dchi2 =  31.643  H0 = 67.92
+     Omega_K = -0.0030: dchi2 =  22.474  H0 = 68.03
+     Omega_K = -0.0020: dchi2 =  14.873  H0 = 68.13
+     Omega_K = -0.0010: dchi2 =   8.832  H0 = 68.23
+     Omega_K = +0.0000: dchi2 =   4.344  H0 = 68.33
+     Omega_K = +0.0010: dchi2 =   1.402  H0 = 68.42
+     Omega_K = +0.0020: dchi2 =   0.000  H0 = 68.52
+     Omega_K = +0.0030: dchi2 =   0.130  H0 = 68.61
+     Omega_K = +0.0040: dchi2 =   1.784  H0 = 68.70
+     Omega_K = +0.0050: dchi2 =   4.956  H0 = 68.78
+     Omega_K = +0.0060: dchi2 =   9.638  H0 = 68.86
+     Omega_K = +0.0070: dchi2 =  15.821  H0 = 68.94
+     Omega_K = +0.0080: dchi2 =  23.499  H0 = 69.02
+     Omega_K = +0.0090: dchi2 =  32.663  H0 = 69.09
+     Omega_K = +0.0100: dchi2 =  43.305  H0 = 69.16
+     Omega_K = +0.0110: dchi2 =  55.418  H0 = 69.23
+     Omega_K = +0.0120: dchi2 =  68.992  H0 = 69.30
+  corr1.5: absolute chi2 minimum on the grid = 11.27 at Omega_K = +0.0020 (16 data points: 13 BAO + 3 CMB-prior)
+     Omega_K = -0.0080: dchi2 =  81.499  H0 = 65.70 w0 = -0.883
+     Omega_K = -0.0070: dchi2 =  67.095  H0 = 66.18 w0 = -0.908
+     Omega_K = -0.0060: dchi2 =  53.916  H0 = 66.65 w0 = -0.931
+     Omega_K = -0.0050: dchi2 =  42.038  H0 = 67.07 w0 = -0.952
+     Omega_K = -0.0040: dchi2 =  31.535  H0 = 67.45 w0 = -0.970
+     Omega_K = -0.0030: dchi2 =  22.474  H0 = 67.78 w0 = -0.984
+     Omega_K = -0.0020: dchi2 =  14.906  H0 = 68.04 w0 = -0.994
+     Omega_K = -0.0010: dchi2 =   8.871  H0 = 68.22 w0 = -0.999
+     Omega_K = +0.0000: dchi2 =   4.383  H0 = 68.31 w0 = -0.999
+     Omega_K = +0.0010: dchi2 =   1.436  H0 = 68.33 w0 = -0.994
+     Omega_K = +0.0020: dchi2 =   0.000  H0 = 68.26 w0 = -0.984
+     Omega_K = +0.0030: dchi2 =   0.024  H0 = 68.11 w0 = -0.969
+     Omega_K = +0.0040: dchi2 =   1.438  H0 = 67.90 w0 = -0.949
+     Omega_K = +0.0050: dchi2 =   4.161  H0 = 67.63 w0 = -0.926
+     Omega_K = +0.0060: dchi2 =   8.105  H0 = 67.31 w0 = -0.900
+     Omega_K = +0.0070: dchi2 =  13.177  H0 = 66.96 w0 = -0.871
+     Omega_K = +0.0080: dchi2 =  19.288  H0 = 66.57 w0 = -0.841
+     Omega_K = +0.0090: dchi2 =  26.351  H0 = 66.17 w0 = -0.809
+     Omega_K = +0.0100: dchi2 =  34.283  H0 = 65.76 w0 = -0.775
+     Omega_K = +0.0110: dchi2 =  43.009  H0 = 65.34 w0 = -0.742
+     Omega_K = +0.0120: dchi2 =  52.460  H0 = 64.92 w0 = -0.707
+  corr2.0: absolute chi2 minimum on the grid = 10.83 at Omega_K = +0.0020 (16 data points: 13 BAO + 3 CMB-prior)
+     Omega_K = -0.0080: dchi2 =  69.644  H0 = 62.74 w0 = -0.616
+     Omega_K = -0.0070: dchi2 =  57.974  H0 = 63.35 w0 = -0.660
+     Omega_K = -0.0060: dchi2 =  47.133  H0 = 63.96 w0 = -0.702
+     Omega_K = -0.0050: dchi2 =  37.200  H0 = 64.56 w0 = -0.743
+     Omega_K = -0.0040: dchi2 =  28.258  H0 = 65.13 w0 = -0.782
+     Omega_K = -0.0030: dchi2 =  20.391  H0 = 65.68 w0 = -0.818
+     Omega_K = -0.0020: dchi2 =  13.688  H0 = 66.18 w0 = -0.850
+     Omega_K = -0.0010: dchi2 =   8.231  H0 = 66.62 w0 = -0.876
+     Omega_K = +0.0000: dchi2 =   4.095  H0 = 66.97 w0 = -0.897
+     Omega_K = +0.0010: dchi2 =   1.339  H0 = 67.23 w0 = -0.909
+     Omega_K = +0.0020: dchi2 =   0.000  H0 = 67.38 w0 = -0.914
+     Omega_K = +0.0030: dchi2 =   0.088  H0 = 67.42 w0 = -0.910
+     Omega_K = +0.0040: dchi2 =   1.584  H0 = 67.34 w0 = -0.897
+     Omega_K = +0.0050: dchi2 =   4.440  H0 = 67.15 w0 = -0.876
+     Omega_K = +0.0060: dchi2 =   8.585  H0 = 66.87 w0 = -0.848
+     Omega_K = +0.0070: dchi2 =  13.933  H0 = 66.52 w0 = -0.813
+     Omega_K = +0.0080: dchi2 =  20.388  H0 = 66.10 w0 = -0.774
+     Omega_K = +0.0090: dchi2 =  27.854  H0 = 65.64 w0 = -0.731
+     Omega_K = +0.0100: dchi2 =  36.237  H0 = 65.16 w0 = -0.685
+     Omega_K = +0.0110: dchi2 =  45.449  H0 = 64.66 w0 = -0.638
+     Omega_K = +0.0120: dchi2 =  55.410  H0 = 64.15 w0 = -0.589
+  w0wa: absolute chi2 minimum on the grid = 6.90 at Omega_K = +0.0010 (16 data points: 13 BAO + 3 CMB-prior)
+     Omega_K = -0.0080: dchi2 =  28.038  H0 = 57.15 w0 = 0.395 wa = -4.225
+     Omega_K = -0.0070: dchi2 =  22.690  H0 = 57.97 w0 = 0.279 wa = -3.873
+     Omega_K = -0.0060: dchi2 =  17.752  H0 = 58.81 w0 = 0.164 wa = -3.524
+     Omega_K = -0.0050: dchi2 =  13.277  H0 = 59.67 w0 = 0.051 wa = -3.181
+     Omega_K = -0.0040: dchi2 =   9.330  H0 = 60.53 w0 = -0.059 wa = -2.847
+     Omega_K = -0.0030: dchi2 =   5.979  H0 = 61.37 w0 = -0.164 wa = -2.526
+     Omega_K = -0.0020: dchi2 =   3.300  H0 = 62.18 w0 = -0.264 wa = -2.220
+     Omega_K = -0.0010: dchi2 =   1.365  H0 = 62.96 w0 = -0.358 wa = -1.931
+     Omega_K = +0.0000: dchi2 =   0.245  H0 = 63.68 w0 = -0.444 wa = -1.661
+     Omega_K = +0.0010: dchi2 =   0.000  H0 = 64.34 w0 = -0.523 wa = -1.408
+     Omega_K = +0.0020: dchi2 =   0.673  H0 = 64.94 w0 = -0.596 wa = -1.170
+     Omega_K = +0.0030: dchi2 =   2.286  H0 = 65.49 w0 = -0.664 wa = -0.942
+     Omega_K = +0.0040: dchi2 =   4.831  H0 = 66.01 w0 = -0.732 wa = -0.712
+     Omega_K = +0.0050: dchi2 =   8.262  H0 = 66.57 w0 = -0.805 wa = -0.462
+     Omega_K = +0.0060: dchi2 =  12.469  H0 = 67.31 w0 = -0.899 wa = -0.152
+     Omega_K = +0.0070: dchi2 =  17.150  H0 = 68.71 w0 = -1.062 wa = 0.341
+     Omega_K = +0.0080: dchi2 =  21.122  H0 = 71.53 w0 = -1.340 wa = 1.079
+     Omega_K = +0.0090: dchi2 =  23.516  H0 = 73.01 w0 = -1.468 wa = 1.383
+     Omega_K = +0.0100: dchi2 =  25.126  H0 = 73.75 w0 = -1.530 wa = 1.525
+     Omega_K = +0.0110: dchi2 =  26.336  H0 = 74.22 w0 = -1.570 wa = 1.614
+     Omega_K = +0.0120: dchi2 =  27.306  H0 = 74.57 w0 = -1.600 wa = 1.679
+
+=== Gaussian reading of each profile (parabola through dchi2 near the minimum) ===
+  LCDM    : Omega_K = +0.00242 +- 0.00114; P(Omega_K < 0) = 0.0172; 95% bound given closure |Omega_K| < 0.00117; dchi2(closed |Ok| = 0.002) = 14.87
+  corr1.5 : Omega_K = +0.00252 +- 0.00119; P(Omega_K < 0) = 0.0168; 95% bound given closure |Omega_K| < 0.00121; dchi2(closed |Ok| = 0.002) = 14.91
+  corr2.0 : Omega_K = +0.00245 +- 0.00119; P(Omega_K < 0) = 0.0200; 95% bound given closure |Omega_K| < 0.00124; dchi2(closed |Ok| = 0.002) = 13.69
+  w0wa    : Omega_K = +0.00071 +- 0.00151; P(Omega_K < 0) = 0.3191; 95% bound given closure |Omega_K| < 0.00253; dchi2(closed |Ok| = 0.002) = 3.30

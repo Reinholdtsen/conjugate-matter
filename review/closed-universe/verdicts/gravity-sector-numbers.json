@@ -1,0 +1,313 @@
+{
+ "analysis": "gravity-sector",
+ "lens": "numbers",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "C1",
+    "verdict": "confirmed",
+    "reason": "A different route from the analyst's minisuperspace identity: the covariant divergence of the HR potential tensor (vS g_eom, Y_(n) typed from the source), with Christoffels in the dr\u00b2/(1\u2212kr\u00b2) chart and k symbolic. The zero set is identical and k is absent; the spatial component vanishes. It also matches vS eq. (bianchi_constraint) [S].",
+    "independent_check": "v1_covariant_hr.out: 'C1 covariant divergence nabla_mu V^mu_t = 3*(N(t)*Derivative(Y(t), t) - X(t)*Derivative(a(t), t))*(beta1*a(t)**2 + 2*beta2*Y(t)*a(t) + beta3*Y(t)**2)/(N(t)*a(t)**3)'; '   contains k: False'; 'spatial (nu = r) component of the divergence: 0'"
+   },
+   {
+    "claim_id": "C2",
+    "verdict": "confirmed",
+    "reason": "Both Friedmann equations, from the covariant g00 and f00 components on the dynamical branch, depend on k only through H\u00b2+k/a\u00b2. The eliminated quartic contains no k.",
+    "independent_check": "v1_covariant_hr.out: 'g eq in Hk2: -3*Hk2 + beta0*m**2 + ... + rho/M_g**2 | has k: False'; 'f eq in Hk2: ... | has k: False'; 'quartic after eliminating Hk2 has k: False'"
+   },
+   {
+    "claim_id": "C3",
+    "verdict": "confirmed",
+    "reason": "My quartic is proportional to vS eq. (quartic), typed from my own download of arXiv:1111.1655. The constant prefactor depends only on how each side is normalized: mine is 3m\u00b2/y, the analyst's m\u00b2/y\u00b2, and it is immaterial.",
+    "independent_check": "v1_covariant_hr.out: 'C3 my quartic / vS quartic: 3*m**2/y'; source downloads/1111_1655/CSBGOT_v3-new.tex label{quartic}"
+   },
+   {
+    "claim_id": "C4",
+    "verdict": "confirmed",
+    "reason": "Solved from my covariant quartic with the program's couplings.",
+    "independent_check": "v1_covariant_hr.out: 'C4 rho_*(y) on program branch: -(y - 1)*(y + 1)*(beta1*y**2 + 4*beta1*y + beta1 + 6*beta2*y)/(3*y)'; 'equals (1-y^2)(b1 y^2+(4b1+6b2)y+b1)/(3y): True'; 'P_g(1) = 0'"
+   },
+   {
+    "claim_id": "C5",
+    "verdict": "confirmed",
+    "reason": "A route independent of the analyst's homogeneous-shear action: I linearized the covariant g and f equations about proportional de Sitter backgrounds (flat slicing) with a homogeneous TT mode. The mass matrix has eigenvalues 0 and the dressed FP mass. This agrees with Hassan, Schmidt-May and von Strauss, arXiv:1208.1797 [S]: 'm_\\mathrm{FP}^2=\\frac{m^4}{m_g^2}\\left(1+\\alpha^{-2}c^{-2}\\right)\\left(c\\beta_1+2c^2\\beta_2+c^3\\beta_3\\right)' (their m\u2074/m_g\u00b2 = vS m\u00b2). At the program point it is a squared mass, M_X\u00b2 = 4m\u00b2(\u03b21+\u03b22).",
+    "independent_check": "v1_covariant_hr.out: 'mass^2 eigenvalues ...: [m**2*(M_star**2*c**2 + 1)*(beta1 + 2*beta2*c + beta3*c**2)/(M_star**2*c), 0]'; 'HSvS formula ... among eigenvalues: True'; 'program point c=1, M*=1, b3=b1: m_FP^2 = 4*m**2*(beta1 + beta2)'"
+   },
+   {
+    "claim_id": "C6",
+    "verdict": "confirmed",
+    "reason": "Exact branch, expanded about y = 1 with general \u03b21, \u03b22: (H\u00b2+k/a\u00b2)/M_X\u00b2 = \u03b5(2\u2212\u03b5)/4, so 1\u2212y = 2(H\u00b2+k/a\u00b2)/M_X\u00b2 at leading order, independent of shape.",
+    "independent_check": "v1_covariant_hr.out: 'C6 Hk2/M_X^2 near y=1: -e_*(e_ - 2)/4'; 'coefficient of e at first order is 1/2): 1/2'"
+   },
+   {
+    "claim_id": "C7",
+    "verdict": "confirmed",
+    "reason": "The limit y\u21921 of \u03c1/(3(H\u00b2+k/a\u00b2)) on the exact branch.",
+    "independent_check": "v1_covariant_hr.out: 'C7 M_eff^2 = rho/(3 Hk2) as y -> 1: 2*M_g**2'"
+   },
+   {
+    "claim_id": "C8",
+    "verdict": "confirmed",
+    "reason": "An exact identity on the branch. With Mbar_P\u00b2 = 2M_g\u00b2 and M_X\u00b2 = 4m\u00b2(\u03b21+\u03b22), it is the stated \u03c1_DE,bim, which is positive for \u03b21 > 0.",
+    "independent_check": "v1_covariant_hr.out: 'C8 6 M_g^2 Hk2 - rho = M_g**2*beta1*m**2*(y - 1)**4/y ; equals Mg^2 m^2 b1 (1-y)^4/y: True'"
+   },
+   {
+    "claim_id": "C9",
+    "verdict": "confirmed",
+    "reason": "I used independently typed constants (H0 = 67.4, \u03bb_X = 37.68 \u03bcm, CODATA).",
+    "independent_check": "v2_branch_numbers.out: 'C9  rho_DE,bim/rho today = (1-y)^3/((2-(1-y))(6+6s)) = 1.4272e-184'"
+   },
+   {
+    "claim_id": "C10",
+    "verdict": "confirmed",
+    "reason": "As y\u21920 the effective Planck mass\u00b2 tends to M_g\u00b2 = Mbar_P\u00b2/2, i.e. G_eff = 2G_N, because \u03c1 ~ \u03b21/y diverges. The result is immediate from published branch equations (e.g. K\u00f6nnig 2015 eq. Hubble_bigravity_g at r\u21920), so it is standard, not novel.",
+    "independent_check": "v1_covariant_hr.out: 'C10 M_eff^2 as y -> 0: M_g**2 (units of M_g^2)'; '    rho as y->0 ~ beta1 / y'"
+   },
+   {
+    "claim_id": "C11",
+    "verdict": "corrected",
+    "reason": "The quoted range holds only for \u03b22/\u03b21 \u2208 [0,1]; the analyst printed only s = 0 and s = 1. Over the s-range used elsewhere in the same analysis (\u22120.5 to 10), the halfway point spans H/M_X = 0.72\u20130.80 and T = 1.52\u20131.61 TeV. All such temperatures are values at the minimal M_X and scale as (M_X/5.24 meV)^{1/2}.",
+    "independent_check": "v2_branch_numbers.out: 's=0: y = 0.1482, H/M_X = 0.76943, T = 1576.0 GeV'; 's=1: y = 0.09883, H/M_X = 0.74572, T = 1551.5 GeV'; 's=-0.5: y = 0.20555, H/M_X = 0.80375, T = 1610.8 GeV'; 's=10: y = 0.026495, H/M_X = 0.71668, T = 1521.0 GeV'",
+    "corrected_statement": "M_eff\u00b2 is halfway between M_g\u00b2 and 2M_g\u00b2 at H \u2248 0.72\u20130.80 M_X, T \u2248 1.52\u20131.61 TeV, for \u03b22/\u03b21 \u2208 [\u22120.5, 10] at M_X c\u00b2 = 5.24 meV. For \u03b22/\u03b21 \u2208 [0,1] the range is 0.75\u20130.77 M_X and 1.55\u20131.58 TeV. The temperature scales as (M_X/5.24 meV)^{1/2}, so these are minimal values."
+   },
+   {
+    "claim_id": "C12",
+    "verdict": "confirmed",
+    "reason": "Leading order agrees with an exact-branch round trip at 40 digits.",
+    "independent_check": "v2_branch_numbers.out: 'C12 today flat: 1-y = 2 H0^2/M_X^2 = 1.5074e-61'; 'exact-branch round trip 1-y = 1.5074e-61'"
+   },
+   {
+    "claim_id": "C13",
+    "verdict": "confirmed",
+    "reason": "Exact branch at \u03c1 = (\u03c0\u00b2/30)\u00b710.75\u00b7(1 MeV)\u2074.",
+    "independent_check": "v2_branch_numbers.out: 'C13/14 BBN T=1 MeV: exact 1-y = 1.4495e-26 (leading order 1.4495e-26)'"
+   },
+   {
+    "claim_id": "C14",
+    "verdict": "confirmed",
+    "reason": "The exact branch reproduces both numbers.",
+    "independent_check": "v2_branch_numbers.out: 'T = 1 TeV: exact 1-y = 0.15572 (leading order 0.14394)'; 's=-0.5: ... 1-y=0.5: T=1320.4 GeV'; 's=10: ... 1-y=0.5: T=1272.9 GeV'"
+   },
+   {
+    "claim_id": "C15",
+    "verdict": "confirmed",
+    "reason": "Analytic, not just a scan. d\u03c1/dy \u221d \u2212(3y\u2074 + (8+12s)y\u00b3 + 1)/y\u00b2, and y\u00b2+(4+6s)y+1 = (y\u22121)\u00b2 + (6+6s)y > 0 for s > \u22121, so \u03c1 < 0 for every y > 1. A numeric check agrees.",
+    "independent_check": "v2_branch_numbers.out: 'C15 d/dy[(1-y^2)(y+b+1/y)] = -(12*s*y**3 + 3*y**4 + 8*y**3 + 1)/y**2'; '    y^2 + b y + 1 >= (y-1)^2 + (6+6s) y  (equality): True'; 'numeric: max d(rho_hat)/dy on (0.001,0.999), s in [-0.99..1000] = -0.12377'"
+   },
+   {
+    "claim_id": "C16",
+    "verdict": "confirmed",
+    "reason": "Reproduced, with a stronger analytic result. At every root of q, P_g = 18y(\u03b21+\u03b22)\u00b2/\u03b21, so \u039b_g < 0 at every broken vacuum whenever \u03b21 < 0. For \u03b21 = 0 the branch is bounded (\u03c1 \u2264 6\u03b22 M_g\u00b2m\u00b2), so \u03b21 > 0 is needed. On the infinite branch \u03c1_,r > 0, which under K\u00f6nnig's criterion is a Higuchi ghost. Prior art the analyst does not cite: Akrami et al. 2015, footnote [S] (arXiv:1503.07521 source): 'Background viability requires $\\beta_1>0$ \\cite{Konnig:2013gxa}'.",
+    "independent_check": "v2_branch_numbers.out: 'finite branch (0.12702,1): max rho_* = 1.42841 at y = 0.40746'; 'infinite branch y > 7.8730: rho>0 and increasing: True'; '   P_g mod q = 18*y*(B1 + B2)**2/B1'; 'b1 = 0: rho/(M_g^2 m^2) = -6*B2*(y - 1)*(y + 1)'"
+   },
+   {
+    "claim_id": "C17",
+    "verdict": "confirmed",
+    "reason": "Pure calculus with \u03c1\u0307 = \u22123H(\u03c1+p). Positivity follows from dy/d\u03c1 < 0 (C15) and \u03c1+p \u2265 0.",
+    "independent_check": "v1_covariant_hr.out: 'C17 X = Ydot/adot = -3*(pf(t) + rf(t))*Derivative(yf(rf(t)), rf(t)) + yf(rf(t))'"
+   },
+   {
+    "claim_id": "C18",
+    "verdict": "confirmed",
+    "reason": "My own integrator: a(t) from the covariant g_ii equation, then residuals of all four covariant equations, including f_ii, which the integration never uses. First run with my own inputs; then with the analyst's inputs (\u03b21=\u03b22=1, \u03c1 = 9.5/a\u00b3 + 0.05/a\u2074), where it reproduces a_max, y and X.",
+    "independent_check": "v3b_turnaround_analyst_inputs.out: 'turnaround a_t = 1.58866745404  y(a_t) = 0.8956019398'; 'X at turnaround: dY/da = 1.2266638  ; y - 3(rho+p) dy/drho = 1.2266638'; 'max |residual|/(rho + 3/a^2): g00 = 2.84e-14, gii = 4.55e-31, f00 = 8.20e-14, fii = 2.10e-14'; own inputs v3_turnaround.out: 'X at turnaround: dY/da = 1.019659046  ; y - 3(rho+p) dy/drho = 1.019659046'"
+   },
+   {
+    "claim_id": "C19",
+    "verdict": "confirmed",
+    "reason": "An illustrative model (\u03a9_m = 0.315, dark energy removed). Recomputed.",
+    "independent_check": "v2_branch_numbers.out: 'C19 Omega_k=-0.001: R0 = 4.34e+27 m, a_turn/a0 = 315.0, R_turn = 1.367e+30 m, 1-y = 2(lam_X/R_turn)^2 = 1.519e-69'"
+   },
+   {
+    "claim_id": "C20",
+    "verdict": "confirmed",
+    "reason": "u\u00b7(P_g \u2212 u\u00b2P_f) factorizes to (u\u22121)(u+1)(\u03b21u\u00b2 + (3\u03b22\u2212\u03b20)u + \u03b21), so u\u00b2 times the condition is R1's u(u\u22121)(u+1)(...). It is k-independent because proportional backgrounds reduce both equations to Einstein's equation with \u039b. A second printed comparison line in my output reads False because I typed the wrong sign and power in that test; the factorization line is the check.",
+    "independent_check": "v6_small_checks.out: 'C20 u*(P_g - u^2 P_f) = (u - 1)*(u + 1)*(-beta0*u + beta1*u**2 + beta1 + 3*beta2*u)'"
+   },
+   {
+    "claim_id": "C21",
+    "verdict": "confirmed",
+    "reason": "It holds for every broken vacuum, not only the 14400 scanned. P_g = 18y(\u03b21+\u03b22)\u00b2/\u03b21 < 0 at every root when \u03b21 < 0, and P_g(1) = 0. With \u03c1 = 0 and k = +1, H\u00b2 = \u039b/3 \u2212 1/a\u00b2 < 0 for \u039b \u2264 0.",
+    "independent_check": "v2_branch_numbers.out: '   P_g mod q = 18*y*(B1 + B2)**2/B1'; 'b2=2: y = 0.12702, Lambda_g/(m^2 2(b1+b2)) = -1.1431'; 'b2=2: y = 7.87298, ... = -70.8569'; v1: 'P_g(1) = 0'"
+   },
+   {
+    "claim_id": "C22",
+    "verdict": "confirmed",
+    "reason": "Schur's lemma, checked numerically. The isotropy SO(3) leaves one symmetric 2-tensor and no vector invariant, so no dt\u00b7dx cross term is allowed.",
+    "independent_check": "v4_geometry_topology.out: 'C22 dim of SO(3)-invariant symmetric 2-tensors: 1 ; invariant vectors: 0'"
+   },
+   {
+    "claim_id": "C23",
+    "verdict": "confirmed",
+    "reason": "It follows from my covariant C1 factorization. For the program's couplings the algebraic branch y\u00b2+2sy+1 = 0 has no positive root when s > \u22121. vS state the analogue [S]: 'For $C_1=0$ (such that $f_{\\mu\\nu}$ is flat) the Bianchi constraint ... tell us that either $X=0$ or $a$ is a constant'. Scope: this covers exactly fixed Y. A bounded but time-dependent Y, which is what a compact moduli space implies, is not excluded in a closed universe.",
+    "independent_check": "v1_covariant_hr.out C1 line (above); v2_branch_numbers.out: 'b1>0, s>-1: algebraic-branch roots y^2+2sy+1 = 0 positive?  s=-0.9: []'"
+   },
+   {
+    "claim_id": "C24",
+    "verdict": "confirmed",
+    "reason": "Both equivalences check out. FT eq. (symm), retrieved [S] from arXiv:1308.1647 ('\\frac{m^2}{2} \\left[ \\beta_1 H_f^2 + 2 \\beta_2 H H_f + \\beta_3 {H^2}\\right] ... \\ge 2 H_f^3 H^3'; there H/H_f = b/a), equals m_FP\u00b2(y) \u2212 2H\u00b2 \u2265 0. K\u00f6nnig's form equals \u2212(r\u00b2/2)\u03c1_,r \u2265 0; K\u00f6nnig [S] writes '\\rho_{,r}\\leq0'. Both forms are spatially flat (FT abstract: 'for spatially flat FRW solutions').",
+    "independent_check": "v4_geometry_topology.out: 'C24 FT(symm)/(H^4/y^3) == dressed - 2H^2 : True'; '   identical: True'; 'Konnig form == dressed form (units m^2/2Mp^2=1): True'"
+   },
+   {
+    "claim_id": "C25",
+    "verdict": "confirmed",
+    "reason": "Numbers reproduced. The k = +1 form is an extrapolation of flat formulas (the analyst flags this as open). In practice it does not matter: wherever H ~ M_X, curvature is negligible, and wherever curvature matters (near the turnaround), (H\u00b2+k/a\u00b2)/M_X\u00b2 ~ 1e-69.",
+    "independent_check": "v2_branch_numbers.out: 's=0: min ratio = 1.487865'; 's=1: min ratio = 1.349883'; 's=100: min ratio = 1.032239 at y = 0.07244; y->0 limit = 1.5'; 'end of inflation E=1.39e16 GeV: y = 2.723e-52, ratio = 1.5'"
+   },
+   {
+    "claim_id": "C26",
+    "verdict": "confirmed",
+    "reason": "Reproduced for s = 0 and s = 1. Over s \u2208 [\u22120.5, 100] the range is slightly wider, 1.51\u20131.54 TeV, at the minimal M_X.",
+    "independent_check": "v2_branch_numbers.out: 's=0: y = 0.17885, T = 1529.7 GeV'; 's=1: y = 0.1143, T = 1523.6 GeV'; 's=-0.5: ... T = 1536.3 GeV'; 's=100: ... T = 1511.2 GeV'"
+   },
+   {
+    "claim_id": "C27",
+    "verdict": "confirmed",
+    "reason": "I evaluated K\u00f6nnig's eq. (eigenfreq), line 1, typed from my download, on the program's branch. In K\u00f6nnig's convention \u03c9\u00b2 > 0 is unstable [S]: 'If, however, $\\omega^{2}$ is positive, then $\\Xi_{i}$ grows quickly'. Caveat: the formula is for a barotropic perfect fluid, so 'absent during inflation' applies it to a scalar inflaton at w \u2248 \u22121. Akrami et al. make the same extrapolation, noting that linear theory there 'is not guaranteed'.",
+    "independent_check": "v2_branch_numbers.out: 'w=0.333: omega^2/(k/calH)^2 at r=1e-8: 1.66667 (1+2w = 1.66667)'; 'w=-0.4: ... 0.2'; 'w=-0.6: ... -0.2'; 'w=-0.999: ... -0.998'"
+   },
+   {
+    "claim_id": "C28",
+    "verdict": "confirmed",
+    "reason": "Radiation-era crossings reproduced for s \u2208 [\u22120.5, 10]. The recurrence in the recollapse follows because \u03c9\u00b2/(k/\u210b)\u00b2 depends only on r and w, and r depends only on \u03c1. Values are at the minimal M_X and scale as \u221aM_X.",
+    "independent_check": "v2_branch_numbers.out: 'radiation s=-0.5: r_c=0.51586, H/M_X=0.46918, T_c=1308.9 GeV'; 'radiation s=10: r_c=0.16647, H/M_X=0.51906, T_c=1376.6 GeV'"
+   },
+   {
+    "claim_id": "C29",
+    "verdict": "confirmed",
+    "reason": "Line 2 differs from line 1. Restoring a factor 3 on the \u03c1_,r\u207b\u00b9 term makes them equal. Line 1, the B2 form and the final form agree.",
+    "independent_check": "v5_misc.out: 'line1 - B2 form = 0'; 'line1 - final form = 0'; 'line2 with factor 3 restored == line1: True'"
+   },
+   {
+    "claim_id": "C30",
+    "verdict": "confirmed",
+    "reason": "HSvS's FP-mass formula [S] uses the same convention as vS (\u039b_g = +m\u00b2P_g). With vS's choice \u03b21 = \u22121\u22122\u03b22\u2212\u03b23, it gives a negative m_FP\u00b2, the opposite sign to vS's stated +(M*\u00b2+1)/M*\u00b2 m\u00b2.",
+    "independent_check": "v6_small_checks.out: 'C30 HSvS m_FP^2 at c=1 with beta1 = -1-2beta2-beta3: -m**2 - m**2/M_star**2'"
+   },
+   {
+    "claim_id": "C31",
+    "verdict": "confirmed",
+    "reason": "I used the stereographic chart (Ricci scalar 6, so K = 1) and built the horizontal lifts H_i = \u2202_i + \u0393^l_ij p_l \u2202_{p_j} explicitly. The distribution is Lagrangian; the brackets are vertical, nonzero and equal to the stated constant-curvature form. Not integrable by Frobenius.",
+    "independent_check": "v4_geometry_topology.out: 'C31 Ricci scalar of stereographic S^3 metric: 6'; 'Lagrangian (omega(H_i,H_j) = 0 for all i,j): True'; '[H_i,H_j] = (g_jl p_i - g_il p_j) d/dp_l exactly: True  ; nonzero somewhere: True'; 'sample [H_1,H_2] p-components at x=0: [-4*p2, 4*p1, 0]'"
+   },
+   {
+    "claim_id": "C32",
+    "verdict": "confirmed",
+    "reason": "I executed the graph criterion (graph(\u03b1) is Lagrangian iff d\u03b1 = 0). The rest is the argument: H\u00b9 = 0 makes \u03b1 = d\u03c6, and \u03c61 \u2212 \u03c62 has a critical point on compact M, so two leaves meet. Valid as stated ('foliation by sections'). Supporting reasoning, not executed: a flat torsion-free connection would give an affine structure, which no closed simply connected manifold admits (developing-map argument, \u2020).",
+    "independent_check": "v4_geometry_topology.out: 'C32 omega(T_i,T_j) on graph(alpha) = (d alpha)_ij: True'"
+   },
+   {
+    "claim_id": "C33",
+    "verdict": "confirmed",
+    "reason": "Kinetic normalization computed from (M\u00b2/2)\u221a\u2212g R for Bianchi I, independent of the analyst; mass M_X\u00b2 = 2m\u00b2B2 from my covariant linearization (v1). The result depends on the definition: r0 is the amplitude of c_i \u2212 b_i, with metric perturbation h_ii = 2b_i.",
+    "independent_check": "v7_shear_energy.out: 'equals (M^2/2) sum b_i'^2 with b2 = -b0-b1: True'; 'energy per component = 1/8 x Mbar_P^2 M_X^2 r0^2  (Mbar_P^2 = 2 M^2)'"
+   },
+   {
+    "claim_id": "C34",
+    "verdict": "confirmed",
+    "reason": "The exact-branch expansion and the y = 1/2 values are reproduced.",
+    "independent_check": "v6_small_checks.out: 'C34 rho_hat(1-eps) = 3*epsilon*(2 - epsilon)/4'; 'rho_hat(1/2, s=-0.5) = 0.6562'; 's=1) = 0.5859'; 's=10) = 0.5668'"
+   },
+   {
+    "claim_id": "C35",
+    "verdict": "confirmed",
+    "reason": "The loop closes in U(4)/O(4) and has det\u00b2 winding 1. The generator of \u03c01(U(4)) has winding 2, and \u03c01(\u039b(n)) = Z via the Maslov class (Arnold [T]\u2020).",
+    "independent_check": "v4_geometry_topology.out: 'C35 det^2 winding of the loop = 1.000000; endpoint diag(-1,1,1,1) orthogonal: True'"
+   },
+   {
+    "claim_id": "C36",
+    "verdict": "confirmed",
+    "reason": "Exact sequence: \u03c02(U(4)) = 0, and \u03c01(SO(4)) = Z2 maps to zero in \u03c01(U(4)) = Z (det = 1 on SO(4); torsion into Z), so \u03c02(\u039b(4)) = Z2. This agrees with Bott's stable value \u03c02(U/O) = Z2 (\u2020). It is an argument, with no number involved.",
+    "independent_check": "argument (no number); consistency with v4 det-winding computation and Bott table (\u2020)"
+   },
+   {
+    "claim_id": "C37",
+    "verdict": "confirmed",
+    "reason": "A different route from the analyst's numerical winding integral: Dynkin indices of the SU(2) \u2192 SO(4) \u2282 SU(4) embeddings. Left and right multiplication have index 2 and the adjoint has index 4, so the image is 2Z and \u03c03(\u039b(4)) = coker = Z2 (\u03c02(O(4)) = 0).",
+    "independent_check": "v4_geometry_topology.out: 'C37 left: ... Dynkin index rel. fundamental = 2.000000'; 'C37 right: ... = 2.000000'; 'C37 adjoint: ... = 4.000000'"
+   },
+   {
+    "claim_id": "C38",
+    "verdict": "confirmed",
+    "reason": "\u039b(4) is connected and \u03c01 acts on \u03c03 = Z2 through Aut(Z2) = 1, so [S\u00b3, \u039b(4)] has two elements. Maps S\u00b3 \u2192 S\u00b9 lift to R, hence \u03c03(S\u00b9) = 0. The bundle is trivial (R \u2295 TS\u00b3, S\u00b3 parallelizable \u2020), so sections correspond to maps.",
+    "independent_check": "argument from C37 (v4_geometry_topology.out, index 2 \u2192 coker Z2)"
+   },
+   {
+    "claim_id": "C39",
+    "verdict": "confirmed",
+    "reason": "SO(4) Weyl dimensions and the TT eigenvalue formula.",
+    "independent_check": "v4_geometry_topology.out: 'C39 lowest TT: n=2, dim 10 ; -nabla^2 R^2 = n(n+2) - 2 = 6'"
+   },
+   {
+    "claim_id": "C40",
+    "verdict": "confirmed",
+    "reason": "The count is 1 + 4 + 6 = 11 (scalar n = 0, 1; transverse vector n = 1), the 10 conformal Killing vectors plus the constant. Citation detail: for S\u00b3 the applicable equation is Sun's d = 3 form in \u00a7SO(1,4) [S], '\\bigoplus_{n\\ge s}\\bigoplus_{0\\le |m| \\le s}\\mY_{n,m}', not the general eq. (decomposeCF). It gives the same count with both chiralities.",
+    "independent_check": "v4_geometry_topology.out: 'missing vs full towers: scalar n=0 (1) + scalar n=1 (4) + vector n=1 (6) = 11'; 'conformal Killing vectors on S^3 = scalar n=1 + vector n=1 = 10 = dim SO(4,1) = 10'"
+   },
+   {
+    "claim_id": "C41",
+    "verdict": "confirmed",
+    "reason": "Checked only at the level of the dictionary's logic. w_eff = \u2212w\u0303 is an involution, so our curvature (w = \u22121/3) reads as dual w\u0303 = +1/3 (radiation, \u00e3\u207b\u2074), with negative sign for k = +1, and H\u0303 = \u2212H. I did not re-derive the analyst's minisuperspace energy expression.",
+    "independent_check": "v6_small_checks.out: 'C41 dual w~ of our curvature: 1/3 -> dual scaling exponent -3(1+w~) = -4'; '    H~ + H = 0'"
+   },
+   {
+    "claim_id": "C42",
+    "verdict": "confirmed",
+    "reason": "Standard finite Weyl\u2013Heisenberg structure ([T]), checked numerically for N = 5, 7, 12.",
+    "independent_check": "v5_misc.out: 'C42 N=7: F X F^-1 = Z^(+-1) err 2.6e-15; F Z F^-1 = X^(+-1) err 2.4e-15; F^4 = 1 err 9.6e-15'"
+   },
+   {
+    "claim_id": "C43",
+    "verdict": "corrected",
+    "reason": "Literally true, but misleading as an answer. The small-M_f route is closed by M_f u = M_g; the record already says so (review/v3-worklog.md R7; notes/knot-dark-matter-standalone.md \u00a71). The escape works by making the spin-2 heavy, and the program's M_X \u226b H0 already does that at M_f = M_g. L\u00fcben et al. 2020 [S] (arXiv:1812.08686 source): 'for times earlier than, H\\simeq m_\\text{FP}, the instability sets in. Thus, by making the spin-2 mass large (which is equivalent to $\\alpha\\ll1$ in our parametrization), the instabilities can be pushed to arbitrarily early times.' On the program's branch the instability ends at H \u2248 0.47\u20130.52 M_X, T \u2248 1.3 TeV \u00d7 (M_X/5.24 meV)^{1/2}: between inflation and BBN. Of that regime Akrami et al. 2015 [S] say 'During that period, modes will grow rapidly on small scales, but those will be far, far smaller than the modes relevant for the cosmic microwave background or large-scale structure', and K\u00f6nnig 2015 [S] adds 'These could, in principle, lead to a creation of many seeds for black holes'. Tag fix: Akrami et al. is now [S] (abstract: 'by taking the Planck mass for the second metric, $M_f$, to be small, these instabilities can be pushed back to unobservably early times'), not \u2020.",
+    "independent_check": "Retrieved sources: downloads/1812_08686/CosmoFinal.tex lines 479\u2013492; downloads/1503_07521/alpha-bigravity-plb-final.tex abstract and lines 636\u2013650; downloads/1503_07436 line 884\u2013897. Instability end: v2_branch_numbers.out 'radiation s=1: r_c=0.31409, H/M_X=0.51783, T_c=1369.9 GeV'; scaling v5_misc.out 'T(1-y = 0.5, s=1) at M_X c^2 = 100 meV: 5608.6 GeV'",
+    "corrected_statement": "M_f u = M_g closes Akrami et al.'s small-M_f route (already in the record, v3-worklog R7). The program's heavy M_X ends the gradient instability anyway at H \u2248 0.5 M_X (T \u2248 1.3 TeV at the minimal M_X, higher for heavier X): between inflation and BBN, the regime the literature describes as affecting only very small scales (with possible PBH seeds) and as nonlinear, with Vainshtein restoration suggested (L\u00fcben et al. 2020). What stays open is whether that era is harmless, not whether the instability can be pushed early."
+   }
+  ],
+  "record_error_verdicts": [
+   "RE1 (#11 \u00a77.5 'M_X \u221d 2(\u03b21+\u03b22)' should be M_X\u00b2): upheld, but not new. It is review/wiki-build-flags.md item 5, audited 2026-10-22 as 'notation only'. My covariant linearization and the HSvS formula [S] give M_X\u00b2 = 4m\u00b2(\u03b21+\u03b22) in vS normalization (v1_covariant_hr.out: 'program point c=1, M*=1, b3=b1: m_FP^2 = 4*m**2*(beta1 + beta2)').",
+   "RE2 (second frame 'confined to compact \u039b(4)', 'no scale of its own', versus the Hassan\u2013Rosen kinetic term with M_f = M_g): partly upheld. The tension is real. notes/debt1a-iii-tuning-test.md \u00a74 says E\u2080[J] is confined to a compact 10-dimensional moduli space; notes/debt1a-iv-beta-coefficients.md \u00a73 and phase-space-diameter.md \u00a78.2 use an f with its own Einstein\u2013Hilbert term (equal Planck masses, the Yukawa \u03b1). A fixed-scale f admits no expanding FLRW (C23 verified). With f dynamical, 1\u2212y = 2(H\u00b2+k/a\u00b2)/M_X\u00b2 (verified). But the record already flags exactly this as open: phase-space-diameter.md \u00a78.2 and review/round5-adjudication.md R1, 'whether the aligned point persists as the universe expands ... since E\u2080[J] lies on a compact moduli space ... has no scale of its own'. So this sharpens an open item rather than exposing an unrecorded inconsistency. Also, 'compact' means bounded Y, not \u1e8e = 0. On the branch Y \u2248 a at low density, so a bounded Y is compatible with a closed universe whose a_max lies below the bound, which is the case Paul asks about. The analyst lists that as open, but the record error states only the fixed-scale reading.",
+   "RE3 (#11 \u00a710 omits that the wedge sector doubles G_eff for H \u226b M_X): upheld. The record sentence exists (#11 \u00a710: '\u00a77.3 guarantees the wedge sector contributes nothing that competes with \u03c4'). I verified \u03c1_DE,bim/\u03c1 = 1.43e-184 today (v2) and G_eff \u2192 2G_N as y \u2192 0 (v1: 'C10 M_eff^2 as y -> 0: M_g**2'). The halfway point lies at T = 1.52\u20131.61 TeV for \u03b22/\u03b21 \u2208 [\u22120.5, 10] at the minimal M_X, scaling as \u221aM_X. A /usr/bin/grep of papers, notes, review, HANDOFF and wiki finds G_eff only in connection with the a\u207b\u2076 dual-Einstein step, so no document records this step. Note that the step is immediate from published finite-branch equations: standard, not novel.",
+   "RE4 (Higuchi bound 'trivially satisfied by a heavy X', review/v3-worklog.md R7 and the withdrawn #14 \u00a71): partly upheld. The fixed-mass reading fails for 2(H\u00b2+k/a\u00b2) > M_X\u00b2, at T \u2248 1.51\u20131.54 TeV over s \u2208 [\u22120.5, 100] (v2). The bound still holds through the dressed mass: ratio \u2265 1.03, equivalent to \u03c1_,r < 0 (v2, v4). So the record's conclusion was right and its reasoning incomplete, and one of the two locations is a withdrawn paper. The second half is not a record error. The diameter note's caveat ('unstable while H exceeds the spin-2 mass [S: L\u00fcben et al. 2020]') never calls it a Higuchi ghost, and its source says 'gradient instability' and 'for times earlier than H \u2243 m_FP the instability sets in' (verified in downloads/1812_08686). The analyst's identification (ends at H \u2248 0.47\u20130.52 M_X) refines that caveat; it does not correct it.",
+   "RE5 (the record never states \u03b21 > 0): upheld. /usr/bin/grep for \u03b2\u2081 > 0, beta1 > 0 and variants finds nothing in the repository. I verified that \u03b21 \u2264 0 fails: for \u03b21 = 0 the branch is bounded; for \u03b21 < 0 the aligned branch is bounded and the hot branch ends at a broken vacuum with \u039b_g = 18 m\u00b2 y(\u03b21+\u03b22)\u00b2/\u03b21 < 0 (analytic, v2) and has \u03c1_,r > 0, a Higuchi ghost. For \u03b21 > 0 and s > \u22121, R1's broken vacua do not exist. Add prior art: \u03b21 > 0 as a requirement for a viable bimetric background is in the literature (Akrami et al. 2015 footnote [S]: 'Background viability requires $\\beta_1>0$ \\cite{Konnig:2013gxa}'; K\u00f6nnig, Patil and Amendola 2013 itself not retrieved, \u2020). The record's omission stands, but the condition should be cited, not presented as new."
+  ],
+  "missed_issues": [
+   "C16/C21 can be upgraded from a 14400-root scan to a theorem. At every broken vacuum, P_g = 18y(\u03b21+\u03b22)\u00b2/\u03b21, so \u039b_g < 0 exactly when \u03b21 < 0 (v2_branch_numbers.out: 'P_g mod q = 18*y*(B1 + B2)**2/B1'). It reproduces R1's \u22121.14 and \u221270.9.",
+   "Strong coupling: the flat-space decoupling-limit scale \u039b3 = (M_X\u00b2 Mbar_P)^{1/3} is about 41 MeV (36 MeV with M_g), a length of about 5 fm, at the minimal M_X (v5_misc.out: 'Lambda_3 = (M_X^2 Mbar_P)^(1/3) = 40.57 MeV'; the formula is from memory, \u2020). The TeV-era results (G_eff step, Higuchi, gradient instability at T \u2248 1.3\u20131.6 TeV) use linear bimetric theory in a plasma whose particle energies exceed \u039b3 by about 10\u2074. Sub-horizon modes with k/a > \u039b3, where the gradient instability grows fastest, lie outside the EFT. The background itself (H ~ meV \u226a \u039b3) is likely fine. The record already lists the strong-coupling era as unresolved (v3-worklog R7); the analysis does not carry the caveat.",
+   "Literature on the instability era is not used. The instability ending between inflation and BBN is what Akrami et al. 2015 [S] call likely observationally safe (small scales only), K\u00f6nnig 2015 [S] flags it as possible PBH seeds, and L\u00fcben et al. 2020 [S] say the onset 'simply implies that nonlinear effects become as important as linear ones', citing M\u00f6rtsell\u2013Enander 2015 and Aoki\u2013Maeda\u2013Namba 2015 (\u2020) for Vainshtein restoration. The analysis lists Vainshtein as open without these leads.",
+   "Sign-convention trap: Akrami et al.'s eq. (eigenfreqs) is exactly minus K\u00f6nnig's line 1, so \u03c9\u00b2 < 0 means unstable in Akrami and stable in K\u00f6nnig (v5_misc.out: 'Akrami (alpha=1) + Konnig line1 = 0'). The analyst used K\u00f6nnig consistently, but anyone cross-reading the two papers can flip the conclusion.",
+   "All TeV-era temperatures (C11, C14, C26, C28 and RE3's step) are minimal values. They scale as (M_X/5.24 meV)^{1/2}: for 1\u2212y = 0.5 at s = 1, 1283.5 GeV at 5.24 meV, 1773.6 GeV at 10 meV and 5608.6 GeV at 100 meV (v5_misc.out). They should reach Paul as lower bounds, since M_X is bounded only from below.",
+   "C11 quotes an s-range narrower than the analysis uses elsewhere (see the C11 verdict). C26's range widens slightly, to 1.51\u20131.54 TeV.",
+   "C27's 'absent during inflation' applies a barotropic perfect-fluid formula (\u03b4p = w\u03b4\u03c1) to a scalar inflaton at w \u2248 \u22121. Akrami et al. make the same extrapolation with an explicit caveat; the analysis does not.",
+   "The analyst lists Akrami et al. 2015 as a memory citation (\u2020), but it is retrievable. I retrieved it [S] (arXiv:1503.07521 source, abstract and footnote). Its footnote also supplies the prior art for RE5.",
+   "Sun 2021: the analyst cites the general-d eq. (decomposeCF). For S\u00b3 (d = 3) Sun gives a modified form with both chiralities \u00b1m (\u00a7SO(1,4)). The count of 11 is unchanged."
+  ],
+  "not_reached": [
+   "Higuchi 1987 INSPIRE abstract not re-fetched. The fixed-mass reading m\u00b2 \u2265 2H\u00b2 was taken from K\u00f6nnig and Fasiello\u2013Tolley, whose texts I retrieved.",
+   "Memory citations the analyst correctly marks \u2020 were not checked: Moncrief 1975, Hatcher 1983 / Cerf 1968, Bott 1959, Palais 1979, Stiefel's theorem; also K\u00f6nnig\u2013Patil\u2013Amendola 2013 (cited via the Akrami footnote).",
+   "C41: only the dictionary logic was checked, not the analyst's minisuperspace expression \u03c1\u0303 = \u22123CM\u00b2k/\u00e3\u2074 with its constant C.",
+   "C36 and C38 were checked by exact-sequence argument only; no new numerics beyond C35 and C37.",
+   "No derivation of a k = +1 Higuchi bound or of curvature corrections to K\u00f6nnig's eigenfrequencies; the analyst also leaves these open."
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v1_covariant_hr.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v1_covariant_hr.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v2_branch_numbers.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v2_branch_numbers.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v3_turnaround.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v3_turnaround.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v3b_turnaround_analyst_inputs.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v3b_turnaround_analyst_inputs.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v4_geometry_topology.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v4_geometry_topology.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v5_misc.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v5_misc.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v6_small_checks.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v6_small_checks.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v7_shear_energy.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/v7_shear_energy.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-numbers/downloads/ (arXiv sources 1111.1655, 1208.1797, 1308.1647, 1503.07436, 1503.07521, 1812.08686, 2111.04591; untrusted data, read only)"
+  ],
+  "overall": "The gravity-sector analysis is numerically and algebraically sound. I re-derived every load-bearing claim by routes different from the analyst's:\n- the covariant Hassan\u2013Rosen equations with an explicit Einstein tensor and Bianchi divergence, instead of a minisuperspace Lagrangian;\n- the FP mass from a de Sitter linearization, matched to the HSvS formula [S];\n- my own covariant integrator through the turnaround, which reproduces the analyst's toy (a_max = 1.588667, X = 1.226664) with an unused f-equation residual of 2e-14;\n- Dynkin indices instead of winding integrals;\n- a stereographic chart for the horizontal-bracket computation;\n- the Sun d = 3 decomposition.\n\nAll constants were typed independently, and the vS, FT, K\u00f6nnig, Akrami, L\u00fcben and Sun sources were retrieved [S].\n\nOf 43 claims, 41 are confirmed and 2 are corrected:\n- **C11** quotes only the s \u2208 [0,1] spread (0.72\u20130.80 M_X and 1.52\u20131.61 TeV over s \u2208 [\u22120.5,10]).\n- **C43** is literally true but misleading. The heavy M_X already ends the gradient instability at H \u2248 0.5 M_X, about 1.3 TeV, before BBN, which is the 'early times' regime Akrami et al. and L\u00fcben et al. describe. That M_f = M_g closes the small-M_f route is already in the record.\n\nC16 and C21 can be strengthened to a theorem: \u039b_g = 18m\u00b2y(\u03b21+\u03b22)\u00b2/\u03b21 at every broken vacuum.\n\nRecord errors:\n- **RE3 and RE5:** upheld. RE5 should cite the prior art that \u03b21 > 0 is needed (Akrami et al. footnote [S]).\n- **RE1:** upheld but already recorded (flag 5).\n- **RE2:** partly upheld; the record already flags it as open, and compact means bounded Y, not fixed Y, which leaves room in a closed universe.\n- **RE4:** partly upheld; its second half misreads the diameter note, whose source already says 'gradient instability'.\n\nMissed caveats:\n- the flat-space strong-coupling scale, about 41 MeV, against TeV-era linear analyses;\n- every TeV temperature is a minimum, scaling as \u221a(M_X/5.24 meV);\n- the perfect-fluid formula is applied to the inflaton;\n- the opposite \u03c9\u00b2 sign conventions of Akrami and K\u00f6nnig.\n\nNo memory citation is presented as checked; Akrami et al. is now [S]."
+ }
+}

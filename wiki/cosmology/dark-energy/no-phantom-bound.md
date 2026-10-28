@@ -20,6 +20,8 @@ sources:
   - "notes/knot-dark-matter-standalone.md §5"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
   - "popsci/angle-of-the-mirror.md 'The referee is already on the field'"
+  - "notes/closed-universe.md §6"
+  - "review/wiki-build-flags.md item 52"
 ---
 
 *The no-phantom bound is the program's requirement that the dark-energy equation of state w never fall below −1, the value of a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant). It holds because the program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is an ordinary (canonical) scalar field, whose energy density can fall or hold steady as space expands but never rise, while w < −1, the phantom regime, would make it rise. The bound makes the dark-energy sector a sharp test: a robust measurement of an intrinsic w < −1 would kill the program's framework outright. The second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI) favours a phase with w < −1 at [redshifts](/wiki/cosmology/scale-factor-duality/redshift) above about 0.4, so the bound stands against the direct reading of current data and is under real pressure; it survives only because fits without a phantom phase remain compatible and because w is inferred rather than observed.*
@@ -42,7 +44,7 @@ The notebook's argument has three steps, each one sentence.
 2. **The null energy condition holds.** For such a field, uniform in space, the energy density is ρ = ½τ̇² + V and the pressure p = ½τ̇² − V, so ρ + p = τ̇², which cannot be negative. More generally, for any light-like vector k the stress-energy contracts to a square, T_μν k^μ k^ν = (k^μ ∂_μτ)² ≥ 0, which is the null energy condition [T] ([the phantom divide and the null energy condition](/wiki/cosmology/dark-energy/phantom-divide)).
 3. **No phantom phase, no crossing.** With ρ > 0, ρ + p ≥ 0 means w = p/ρ ≥ −1. Equivalently, from the continuity equation ρ̇ = −3H(ρ + p), τ's energy density never grows while the universe expands. A w(z) that dips below −1 at any epoch is therefore impossible for τ, and so is a crossing of −1 in either direction.
 
-Step 2 is textbook physics [T]; the program's contribution is the premise, that dark energy is the canonical scalar τ, and #1 tags the result [D]. The derivation is short, and its key step does not depend on the shape of the potential: no choice of V can make τ violate the null energy condition, because V cancels from ρ + p. Turning that into w ≥ −1 needs ρ > 0, as step 3 states. It does rely on τ being the whole of dark energy. #11 supports that premise with the [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10).
+Step 2 is textbook physics [T]; the program's contribution is the premise, that dark energy is the canonical scalar τ, and #1 tags the result [D]. The derivation is short, and its key step does not depend on the shape of the potential: no choice of V can make τ violate the null energy condition, because V cancels from ρ + p. Turning that into w ≥ −1 needs ρ > 0, as step 3 states. It does rely on τ being the whole of dark energy. #11 supports that premise with the [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): "§7.3 guarantees the wedge sector contributes nothing that competes with τ" (#11 §10). Flag 52 in `review/wiki-build-flags.md` finds that the guarantee holds for the dark-energy density but follows from the exact (1 − y)⁴/y relation on the bimetric branch rather than from §7.3's aligned-point identity alone ([the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-branch-relation-dv)).
 
 ## What counts as a violation
 
@@ -112,3 +114,4 @@ Both popular articles explain the bound through the sign of kinetic energy ([the
 - `notes/broken-born-program-v1.md` §8, §9 row 4 — v1's "Strictly w ≥ −1" and kill condition
 - `notes/knot-dark-matter-standalone.md` §5 — exclusion condition 6 (withdrawn manuscript)
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split', `popsci/angle-of-the-mirror.md` 'The referee is already on the field' — the plain-language gloss (popular articles)
+- `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 52 — where the wedge sector's guarantee comes from

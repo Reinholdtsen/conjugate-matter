@@ -1,0 +1,625 @@
+{
+ "summary": "I extended the record's dual-frame minisuperspace to spatial curvature in both frames: k for ours, k̃ for the dual frame, plus a dual comoving-volume ratio v. Sympy derives the Friedmann and acceleration equations, anchored on the FLRW Ricci scalar computed from the metric. All four rows of #1 §6's dictionary hold in density and in pressure, including \"closed dual space ⇒ negative ΔN_eff\", and the flat limit reproduces #1 §6. I found no error there. ΔN_eff = −3vM̃²k̃C/[(7/8)(π²/15)T_ν0⁴]. Only vM̃²C³ and vM̃²k̃C are physical, so \"M̃ = M_P\" constrains nothing by itself.\n\nWhen our space is closed, the record supports k̃ = 0. The slaved block g̃ = g⁻¹ under the x-leaf section condition has flat fibres. So closure gives no negative ΔN_eff; row 10's ΔN_eff survives only as an independent knob. The symmetric reading k̃ = k makes momentum space a 3-sphere that caps momenta at πħC/R. At C = 1 that is excluded. At C ≥ 10³⁰, for λ = l_P the a⁻⁶ term dominates when the CMB scales leave the horizon.\n\nClosure fixes C only as a normalization (a = R/λ, ã = λ/R), not the a⁻⁶ coefficient. With vM̃² = M_P² and λ = l_P, the dual terms are 10⁻¹⁹⁸ of M_P² or smaller after inflation. The closed de Sitter throat is c/H_inf = 2.67×10⁵ l_P, so ã stays at or below 3.75×10⁻⁶ and the self-dual point is never reached. In any closed universe, R = l_P needs ρ ≥ 0.119ρ_P. The e-fold budget since a throat is 63.6–67.1.\n\nAt the turnaround ã is exactly at its minimum, λ/R_max ≈ 10⁻⁶⁴–10⁻⁷⁰ for λ = l_P. In the dual frame our curvature acts as negative dual radiation, and that is what stops the conjugate contraction.\n\nPairing R with Mc gives an aspect ratio of 4/(3π) to 8/3 at any closed turnaround. That is the Friedmann equation at H = 0, ħ cancels, and the pairing misses the chat's area and ratio by 90+ orders. The obituary stands.\n\nI could not write REPORT.md: the harness refuses report files from subagents. This return carries its content.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "For ds² = −N²dt² + a²[dr²/(1−kr²) + r²dΩ²], √−g R = 6√γ[−aȧ²/N + Nka] + d/dt(6√γ a²ȧ/N), so each frame's Einstein–Hilbert term reduces to 3M²[−aȧ²/N + Nka] per unit comoving volume.",
+   "tag": "[T][V] (textbook form; Ricci scalar computed from the metric)",
+   "evidence": "ms_lagrangian.py: 'PASS  sqrt(-g) R = 6 sqrt(gamma) [ -a adot^2/N + N k a ] + d/dt(6 sqrt(gamma) a^2 adot/N): so (M^2/2) sqrt(-g) R gives L = 3M^2[-a adot^2/N + N k a] per unit comoving volume'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C2",
+   "statement": "The two-frame minisuperspace L = 3M_P²[−aȧ²/N+Nka] + v{3M̃²[−ãã̇²/N+Nk̃ã] − Nã³ρ̃} − Na³ρ with a·ã = C and one shared lapse has the Hamiltonian constraint 3H²(M_P² + vM̃²C³a⁻⁶) = ρ + v(ã/a)³ρ̃ − 3M_P²k/a² − 3vM̃²k̃C/a⁴.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  Hamiltonian constraint: 3H^2 (M_P^2 + v M~^2 C^3 a^-6) = rho + v (a~/a)^3 rho~ - 3 M_P^2 k/a^2 - 3 v M~^2 k~ C/a^4'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C3",
+   "statement": "The acceleration equation of that minisuperspace is ä/a = −(ρ+3p)_tot/(6M_eff²) + 3μH²/M_eff², with μ = vM̃²C³a⁻⁶ and M_eff² = M_P² + μ. Our curvature k drops out, and the M̃ → 0 limit is the textbook second Friedmann equation.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  acceleration equation: a''/a = -(rho+3p)_tot/(6 M_eff^2) + 3 mu H^2/M_eff^2, mu = v M~^2 C^3 a^-6, M_eff^2 = M_P^2 + mu; our curvature k drops out as in GR' and 'PASS  M~ -> 0: a''/a = -(rho + 3p)/(6 M_P^2)'",
+   "confidence": 0.93
+  },
+  {
+   "id": "C4",
+   "statement": "With C = 1, k = k̃ = 0 and v = 1 the constraint reduces to #1 §6's 3H²(M_P² + M̃²a⁻⁶) = ρ.",
+   "tag": "[V]",
+   "evidence": "ms_lagrangian.py: 'PASS  flat limit (C = 1, k = k~ = 0, v = 1, no dual matter) reproduces #1 §6: 3H^2(M_P^2 + M~^2 a^-6) = rho'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C5",
+   "statement": "A dual-frame fluid with equation of state w̃ enters our equations with w_eff = −w̃, in density and in pressure (the pressure taken from the a equation of motion). This confirms #1 §6's rows stiff → Λ, Λ → stiff and dust → dust.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  dual fluid: w_eff = p_eff/rho_eff = -w~ (pressure from the a-equation of motion)  [w_eff = -wtilde]'; 'PASS  table row 'kinetic/stiff': w~ = 1 -> w = -1'; 'PASS  table row 'cosmological constant': w~ = -1 -> w = 1'; 'PASS  table row 'dust': w~ = 0 -> w = 0'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C6",
+   "statement": "The dual curvature term is exactly a dual fluid with w̃ = −1/3 and ρ̃ = −3M̃²k̃/ã². It enters our equations as radiation (p = ρ/3) with ρ_eff = −3vM̃²k̃C/a⁴, which is negative for k̃ > 0. #1 §6's entry 'closed dual space ⇒ negative ΔN_eff' therefore holds.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  table row 'spatial curvature': w~ = -1/3 -> w = +1/3 (dark radiation)  [rho_eff = -3*C*Mtilde**2*ktilde*v/a**4]' and 'PASS  closed dual space (k~ > 0) => rho_eff < 0 => negative Delta N_eff'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C7",
+   "statement": "The dual curvature gives ΔN_eff = −3vM̃²k̃C/[(7/8)(π²/15)T_ν0⁴], with T_ν0 = (4/11)^(1/3)T₀ (ħ = c = k_B = 1, a₀ = 1). It is constant after neutrino decoupling. In SI, ΔN_eff = −1.524×10⁵⁷ m² × (vM̃²/M_P²)k̃C. The equivalence holds at background level only.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  Delta N_eff = -3 v M~^2 k~ C / ((7/8)(pi^2/15) T_nu0^4), constant after neutrino decoupling'; closure_epochs.py: 'general formula (SI, a0 = 1): Delta N_eff = -(3c^4/8piG)/u_nu1,0 x (v M~^2/M_P^2) k~ C = -1.524e+57 m^2 x (v M~^2/M_P^2) k~ C'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C8",
+   "statement": "The Lagrangian is invariant when the dual comoving unit changes, (C, k̃, v) → (C/s, k̃/s², s³v). Only B = vM̃²C³ and D = vM̃²k̃C are physical. For any B > 0 a unit exists with vM̃² = M_P², so 'M̃ = M_P' constrains nothing by itself.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  L is unchanged under (C, k~, v, rho~1) -> (C/s, k~/s^2, s^3 v, rho~1 s^-3(1+w~))'; 'PASS  invariants: B = v M~^2 C^3 ... and D = v M~^2 k~ C'; 'PASS  for any B > 0 a dual unit exists with v M~^2 = M_P^2'",
+   "confidence": 0.88
+  },
+  {
+   "id": "C9",
+   "statement": "Under a → C/a the kinetic terms exchange iff vM̃² = M_P². The curvature terms then exchange iff k̃ = k.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  kinetic terms exchange iff v M~^2 = M_P^2'; 'PASS  with v M~^2 = M_P^2, the curvature terms exchange iff k~ = k'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C10",
+   "statement": "Read in the dual frame, the same constraint shows our closed curvature (k > 0) as negative dark radiation, −3(M_P²/v)kC/ã⁴, and our fluids with w̃ = −w.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  dual-frame form: 3H~^2 (M~^2 + (M_P^2/v) C^3 a~^-6) = rho~ + (our fluids) - 3M~^2 k~/a~^2 - 3(M_P^2/v) k C/a~^4'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C11",
+   "statement": "Under the record's slaved block g̃ = g⁻¹(x) and the x-leaf section condition, each momentum fibre carries a p-independent metric and is flat, so k̃ = 0 whatever our k is.",
+   "tag": "[D]",
+   "evidence": "#11 §5: 'g̃ = g⁻¹ slaved'; #1 §2: 'Field dependence is restricted to a Lagrangian leaf by a section condition'; diameter note §8.2: 'The second frame is not the slaved momentum block g̃ = g⁻¹ that carries ã'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C12",
+   "statement": "Closing our space quantizes momenta, with spacing ≈ ħ/R, but does not curve the momentum fibre. A curved fibre needs fields that depend on p, which the section condition excludes even when X ≠ 0.",
+   "tag": "[D]",
+   "evidence": "Argument from #1 §2's section condition; the S³ spectrum √(n(n+2))/R is quoted from memory (†)",
+   "confidence": 0.75
+  },
+  {
+   "id": "C13",
+   "statement": "In the ρ_λ-image reading (one state, two descriptions), our closed position space of radius R maps to a closed momentum space of radius ħR/λ² in the conjugate description. That description's position space, our momenta, is flat, so again k̃ = 0.",
+   "tag": "[D]",
+   "evidence": "ρ_λ: x′ = (λ²/ħ)p, p′ = −(ħ/λ²)x (diameter note §5); #11 App. A item 2; diameter note §8.3",
+   "confidence": 0.75
+  },
+  {
+   "id": "C14",
+   "statement": "In the symmetric reading (k̃ = k, vM̃² = M_P², closure units a = R/λ), the closed dual space caps physical momenta at p_max = πħC/R, i.e. at mode index n ≤ πC.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  closed dual space with k~ = k caps momenta at p_max = pi hbar C/R, i.e. mode index n <= pi C'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C15",
+   "statement": "The symmetric reading with C = 1 is excluded. The cap admits n ≤ π, while today's mean CMB photon has mode index 4.41×10³⁰ (|Ω_k| = 10⁻²) to 1.40×10³² (10⁻⁵).",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: '|Ok| = 1e-02: mean CMB photon n = 4.41e+30 ...' and 'PASS  with C = 1 the cap admits n <= pi: below the mean CMB photon's mode index by > 25 orders for every |Omega_k|'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C16",
+   "statement": "With C free, the symmetric reading needs C ≥ 1.4×10³⁰ at |Ω_k| = 10⁻² to fit the CMB photons. For λ = l_P the a⁻⁶ term then exceeds M_P² when the CMB pivot leaves the horizon, by 10^17.8 to 10^48.4 over |Ω_k| = 10⁻⁵…10⁻² and 50–60 e-folds, using the standard e-fold mapping.",
+   "tag": "[D][V]; the consequence for the spectrum is [O]",
+   "evidence": "closure_epochs.py: '|Ok| = 1e-02: C >= 1.4e+30 (CMB photons) -> sqrt(C) l_P >= 1.92e-20 m, 41.4 e-folds before the end; log10 eps6 at exit = 22.3 (50), 48.4 (60)'; 'PASS  reading (ii), lambda = l_P: with C at its CMB-photon minimum the a^-6 term already exceeds M_P^2 at CMB horizon exit for every |Omega_k|'",
+   "confidence": 0.7
+  },
+  {
+   "id": "C17",
+   "statement": "For λ = √(l_P c/H₀), the symmetric reading has no allowed C. BBN (an a⁻⁶ term ≤ 0.1 M_P² at 1 MeV) requires C ≤ 1.1×10⁴³ to 1.1×10⁴⁶, while 6.8 TeV LHC protons require C ≥ 1.5×10⁴⁶ to 4.8×10⁴⁷.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'lambda = sqrt(l_P c/H0), |Ok| = 1e-02: ... C_min(LHC) = 1.5e+46, C_max = 1.1e+43, window empty (UHECR), empty (LHC)'",
+   "confidence": 0.75
+  },
+  {
+   "id": "C18",
+   "statement": "In the symmetric reading, ΔN_eff from dual curvature at the BBN edge is −1.07×10⁻¹⁷ (|Ω_k| = 10⁻²) to −1.07×10⁻²⁰ (10⁻⁵), independent of λ and C.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'Delta N_eff at C_max = -1.07e-17 (lambda-free form -1.07e-17)' and 'PASS  reading (ii): |Delta N_eff| at the BBN edge = eps^(1/3) x (our curvature)/(one neutrino species) at T = 1 MeV, independent of lambda and C'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C19",
+   "statement": "With k̃ a free knob, the momentum cap plus the BBN bound give |ΔN_eff| ≤ 1.93×10⁸³ for λ = l_P (no constraint) and ≤ 2.67×10⁻³⁹ for λ = √(l_P c/H₀).",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'lambda = l_P: |Delta N_eff| <= 1.93e+83' and 'lambda = sqrt(l_P c/H0): |Delta N_eff| <= 2.67e-39'",
+   "confidence": 0.75
+  },
+  {
+   "id": "C20",
+   "statement": "When our universe is closed, the documents support k̃ = 0, so closure produces no negative ΔN_eff. Row 10's negative ΔN_eff survives only as an independent knob, the v0.1 k̃ of #1 §10, with no source in the record's geometry.",
+   "tag": "[D]",
+   "evidence": "C11–C13; #1 §10 'Geometry | M̃, k̃ (2, optional)'; #11 §13 row 10",
+   "confidence": 0.75
+  },
+  {
+   "id": "C21",
+   "statement": "With k̃ = 0, a closed universe's curvature term is not exchanged by a → C/a. The minisuperspace exchange is broken by the state (its topology), not by the action.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  with v M~^2 = M_P^2, the curvature terms exchange iff k~ = k'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C22",
+   "statement": "Closure fixes C only as a normalization. Measuring a in λ and ã in ħ/λ, with the curvature radius and the spectral spacing ħ/R as units, gives a = R/λ, ã = λ/R and C = 1 up to factors of order one. The physical a⁻⁶ coefficient vM̃²C³ stays free, because the ℝ³ fibre supplies no comoving volume to fix v.",
+   "tag": "[D]",
+   "evidence": "Argument; C8 for the invariants (ms_lagrangian.py section E)",
+   "confidence": 0.7
+  },
+  {
+   "id": "C23",
+   "statement": "With C = 1, vM̃² = M_P² and λ = l_P, the a⁻⁶ term relative to M_P² is 10^−198.4 to 10^−207.4 at the end of inflation, 10^−312.9 to 10^−321.9 at T = 1 MeV, 10^−353.4 to 10^−362.4 at recombination, 10^−371.6 to 10^−380.6 today, and 10^−383.6 to 10^−416.6 at turnarounds with a_max = 10²–10⁶.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py table 'log10 eps6 = a^-6 term / M_P^2' (lambda = l_P): 'end of inflation  -207.39 -204.39 -201.39 -198.39'; 'today  -380.57 -377.57 -374.57 -371.57'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C24",
+   "statement": "For λ = l_P, C = 1 and the symmetric reading, dual curvature is 10^−66.1 to 10^−69.1 of our curvature at the end of inflation and 10^−123.9 to 10^−126.9 of it today. Its ΔN_eff is −1.1×10⁻¹²¹ to −1.1×10⁻¹²⁷.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'Delta N_eff from dual curvature (reading ii, C = 1), constant in time:  |Ok|=1e-05: -1.122e-127, ... |Ok|=1e-02: -1.122e-121'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C25",
+   "statement": "For λ = √(l_P c/H₀), C = 1 and vM̃² = M_P², the self-dual point R = λ falls 5.99 to 9.44 e-folds before the end of inflation. At CMB pivot exit, 50–60 e-folds before the end, the a⁻⁶ term would exceed M_P² by 10^105.7 to 10^140.7.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'lambda = sqrt(l_P c/H0), |Ok| = 1e-02: a_sd = 3.432e-32, R = lambda falls 5.99 e-folds before the end of inflation' and 'CMB pivot exit 60 e-folds before the end: R = 1.64e-28 m, log10 eps6 = 140.7'",
+   "confidence": 0.75
+  },
+  {
+   "id": "C26",
+   "statement": "In any closed universe, H² ≥ 0 at R = l_P requires ρ ≥ (3/8π)ρ_P = 0.119 ρ_P. The self-dual point for λ = l_P therefore lies at or above near-Planck density.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'PASS  any closed universe: H^2 >= 0 at R = l_P needs rho >= 3c^2/(8 pi G l_P^2) = (3/8pi) rho_P ...  [0.1194]'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C27",
+   "statement": "Closed de Sitter space R = (c/H)cosh(Ht) has its throat at R_min = c/H. At E_inf = 1.39×10¹⁶ GeV this is 4.31×10⁻³⁰ m, or 2.67×10⁵ l_P.",
+   "tag": "[T†][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  closed de Sitter R = cosh(H t)/H solves (R'/R)^2 = H^2 - 1/R^2; throat R_min = 1/H'; closure_epochs.py: 'c/H_inf = 4.3080e-30 m = 2.6654e+05 l_P'",
+   "confidence": 0.92
+  },
+  {
+   "id": "C28",
+   "statement": "After an inflationary throat (C = 1, λ = l_P) the largest conjugate scale factor is λH_inf/c = 3.75×10⁻⁶. Reaching ã = 1 would need E_inf ≥ 7.18×10¹⁸ GeV = 0.588 E_P.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'lambda = l_P: largest a~ after a throat = lambda/R_min = lambda H_inf/c = 3.7518e-06' and 'R_min reaches l_P only for E_inf = (3/8pi)^(1/4) E_P = 7.176e+18 GeV = 0.588 E_P'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C29",
+   "statement": "For λ = √(l_P c/H₀) the GR throat lies deep inside the dual-dominated region (log10 ε₆ = 150.23 there). In the symmetric reading, dual curvature moves the turning point to 1.42×10⁻¹⁷ m.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: 'lambda = sqrt(l_P c/H0): at the throat log10 eps6 = 150.23' and 'dual curvature moves the turning point to R_min = 1.424e-17 m'",
+   "confidence": 0.75
+  },
+  {
+   "id": "C30",
+   "statement": "In GR, a closed universe can have inflated at most N = ln(R_end H_inf/c) e-folds since a throat: 63.64 (|Ω_k| = 10⁻²) to 67.09 (10⁻⁵) at the bound scale with instantaneous reheating, and 76.13 to 79.59 if the throat was at l_P.",
+   "tag": "[D][V]",
+   "evidence": "closure_epochs.py: '|Ok| = 1e-02: R_end = 1.875e-02 m; N_max = 63.64 (throat at H_inf); 76.13 (throat at R = l_P)' and '|Ok| = 1e-05: ... N_max = 67.09 ... 79.59'",
+   "confidence": 0.8
+  },
+  {
+   "id": "C31",
+   "statement": "In the self-dual model (vM̃² = M_P², C = 1, k̃ = 0) with radiation, R ≪ λ gives R = 1/[κ(t_s − t)], so R → 0 only as t → −∞. This holds within the model; the regime R ≤ l_P is outside its validity.",
+   "tag": "[D][V] (model); validity [O]",
+   "evidence": "ms_lagrangian.py: 'PASS  as R -> 0 the dual kinetic term dominates ...' and 'PASS  R = 1/(kappa (t_s - t)) solves dR/dt = kappa R^2: R -> 0 only as t -> -infinity'",
+   "confidence": 0.7
+  },
+  {
+   "id": "C32",
+   "statement": "From ã = C/a, ã'' = −Cä/a² at ȧ = 0, so our maximum of a is exactly a minimum of ã. Over a singular closed dust history, ã falls from ∞ at the bang to λ/R_max at the turnaround and returns to ∞ at the crunch.",
+   "tag": "[D][V]",
+   "evidence": "ms_lagrangian.py: 'PASS  a~ = C/a: a~'' = C(2 adot^2/a^3 - a''/a^2); at adot = 0 it is -C a''/a^2 > 0 ...'; conjugate_bounce_closed.py: 'PASS  on a 2000-point grid a~/a~_min = R_m/R decreases to 1 at eta = pi ...'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C33",
+   "statement": "In the dual-frame form of the constraint, the conjugate contraction is stopped by negative dual radiation, which is our positive curvature. It cancels the dual dust (our matter) exactly at the turnaround.",
+   "tag": "[D][V]",
+   "evidence": "conjugate_bounce_closed.py: 'eta = 3.142: dual dust 3.000000e+18, negative dual radiation -3.000000e+18' and 'PASS  along the cycloid the dual-frame constraint holds ...'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C34",
+   "statement": "The minimum conjugate scale factor at a turnaround, ã_min = λ/R_max, is 1.18×10⁻⁶⁴ (|Ω_k| = 10⁻², a_max = 10²) to 3.72×10⁻⁷⁰ (10⁻⁵, 10⁶) for λ = l_P, and 3.43×10⁻³⁴ to 1.09×10⁻³⁹ for λ = √(l_P c/H₀).",
+   "tag": "[D][V]",
+   "evidence": "conjugate_bounce_closed.py: '|Ok| = 1e-02: a~ today = lambda/R0 = 1.178e-62;  a~_min = 1.18e-64 (a_max=1e+02)' and '|Ok| = 1e-05: ... 3.72e-70 (a_max=1e+06)'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C35",
+   "statement": "The momentum resolution at a turnaround, ħc/R_max, is 1.44×10⁻³⁶ eV (|Ω_k| = 10⁻², a_max = 10²) to 4.55×10⁻⁴² eV (10⁻⁵, 10⁶).",
+   "tag": "[D][V]",
+   "evidence": "conjugate_bounce_closed.py: '|Ok| = 1e-02: a_max=1e+02: 1.44e-36 eV' and '|Ok| = 1e-05: ... a_max=1e+06: 4.55e-42 eV'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C36",
+   "statement": "The aspect ratio (R/l_P)/(M/m_P) equals Rc²/(GM): ħ cancels, so 'Planck units' carry no quantum content in this pairing.",
+   "tag": "[D][V]",
+   "evidence": "radius_mass_pairing.py: 'PASS  A = f (R/l_P)/(M/m_P) = f R c^2/(G M): hbar cancels'",
+   "confidence": 0.97
+  },
+  {
+   "id": "C37",
+   "statement": "With M = 2π²R³ρ, the closed Friedmann equation gives A = f(4/3π)|Ω_k(t)|/(1+|Ω_k(t)|). At any turnaround A = 0.4244 for D_x = R, 0.8488 for 2R, 1.3333 for πR and 2.6667 for 2πR.",
+   "tag": "[D][V]",
+   "evidence": "radius_mass_pairing.py: 'at a turnaround (H = 0): A = 4/(3pi) = 0.4244 (radius), 0.8488 (2R), 1.3333 (pi R), 2.6667 (2 pi R), for any a_max'",
+   "confidence": 0.95
+  },
+  {
+   "id": "C38",
+   "statement": "A = 1 occurs only with D_x = πR (at |Ω_k(t)| = 3, R = 0.75 R_max for dust) or 2πR (at |Ω_k(t)| = 3/5, R = 0.375 R_max), each twice, and never at the turnaround.",
+   "tag": "[D][V]",
+   "evidence": "radius_mass_pairing.py: 'D_x = antipodal distance pi R : A(turnaround) = 1.3333;  A = 1 at |Omega_k(t)| = 3 (dust: R/R_max = 0.7500, before and after the turnaround)'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C39",
+   "statement": "Today A = 4.20×10⁻³ (|Ω_k| = 10⁻²) to 4.24×10⁻⁶ (10⁻⁵) counting all contents, and 1.347×10⁻² to 1.347×10⁻⁵ counting matter only.",
+   "tag": "[D][V]",
+   "evidence": "radius_mass_pairing.py: '|Ok| = 1e-02: R0 = 1.372e+27 m, M = 4.398e+56 kg; A = 4.202e-03 (all), 1.347e-02 (matter)'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C40",
+   "statement": "The R–Mc pairing gives an area of 10^125.4–10^131.4 h today (the chat claim says ~10³⁰ h) and log10 A today of −2.38 to −5.37 (the claim says 92).",
+   "tag": "[D][V]",
+   "evidence": "radius_mass_pairing.py: '|Ok| = 1e-02: log10 area/h = 125.4 (claim 30); log10 A today = -2.38 (claim 92)'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C41",
+   "statement": "The diameter note's obituary of 'square exactly at the bounce' needs no change of verdict. The R–Mc pairing reaches an order-one aspect ratio at a turnaround only as the Friedmann equation at H = 0 (R_max = 4GM/3πc², with ħ cancelling), and it contradicts the claim's other two numbers.",
+   "tag": "[D]",
+   "evidence": "C36–C40; conjugate_bounce_closed.py: 'PASS  cycloid solves ... iff R_m = 4GM/(3pi c^2)'",
+   "confidence": 0.85
+  },
+  {
+   "id": "C42",
+   "statement": "In the record's geometry, momentum space never becomes compact in a closed universe. What shrinks is its scale factor ã and its resolution ħ/R, both smallest at the turnaround.",
+   "tag": "[D]",
+   "evidence": "C11, C34, C35",
+   "confidence": 0.75
+  },
+  {
+   "id": "C43",
+   "statement": "Planck 2018 with BAO confirms flatness at 0.4% (95% CL), so the task's |Ω_k| = 10⁻² lies outside that range.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1807.06211 abstract: 'Spatial flatness is confirmed at a precision of 0.4% at 95% CL with the combination with BAO data.'",
+   "confidence": 0.9
+  },
+  {
+   "id": "C44",
+   "statement": "Planck 2018 with BAO gives N_eff = 2.99 ± 0.17.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1807.06209 abstract: 'Combining with BAO we constrain the effective extra relativistic degrees of freedom to be N_eff = 2.99 ± 0.17'",
+   "confidence": 0.9
+  }
+ ],
+ "numbers": [
+  {
+   "quantity": "ΔN_eff coefficient from dual curvature (SI, a0 = 1)",
+   "value": "-1.524e57 m^2 × (vM̃²/M_P²) k̃ C",
+   "script": "closure_epochs.py",
+   "printed": "general formula (SI, a0 = 1): Delta N_eff = -(3c^4/8piG)/u_nu1,0 x (v M~^2/M_P^2) k~ C = -1.524e+57 m^2 x (v M~^2/M_P^2) k~ C"
+  },
+  {
+   "quantity": "(vM̃²/M_P²)k̃C needed for ΔN_eff = -0.1",
+   "value": "6.56e-59 m^-2",
+   "script": "closure_epochs.py",
+   "printed": "e.g. Delta N_eff = -0.1 needs (v M~^2/M_P^2) k~ C = 6.56e-59 m^-2 (a0 = 1 units)"
+  },
+  {
+   "quantity": "ΔN_eff equivalent of the a^-6 step at T = 1 MeV",
+   "value": "-6.18 eps6/(1+eps6)",
+   "script": "closure_epochs.py",
+   "printed": "at T = 1 MeV: rho_rad/rho_nu1 = 6.178; a G_eff step eps6 is worth Delta N_eff = -6.18 eps6/(1+eps6)"
+  },
+  {
+   "quantity": "end-of-inflation epoch (E_inf = 1.39e16 GeV, instantaneous reheating)",
+   "value": "T_rh = 5.710e15 GeV, a_end = 1.366e-29, H = 6.959e37 /s",
+   "script": "closure_epochs.py",
+   "printed": "end of inflation: E_inf = 1.39e16 GeV, T_rh = 5.710e+15 GeV, a_end = 1.366e-29, H = 6.959e+37 1/s"
+  },
+  {
+   "quantity": "curvature radius today R0 = c/(H0 sqrt|Ω_k|)",
+   "value": "1.3725e27 m (|Ω_k| = 1e-2) to 4.3402e28 m (1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "|Omega_k| = 1e-02: R0 = c/(H0 sqrt|Omega_k|) = 1.3725e+27 m"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at the end of inflation, λ = l_P, C = 1",
+   "value": "-198.39 (|Ω_k| = 1e-2) to -207.39 (1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "end of inflation                 -207.39       -204.39       -201.39       -198.39"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at BBN (1 MeV), λ = l_P",
+   "value": "-312.94 to -321.94",
+   "script": "closure_epochs.py",
+   "printed": "BBN, T = 1 MeV                   -321.94       -318.94       -315.94       -312.94"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at recombination, λ = l_P",
+   "value": "-353.35 to -362.35",
+   "script": "closure_epochs.py",
+   "printed": "recombination                    -362.35       -359.35       -356.35       -353.35"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 today, λ = l_P",
+   "value": "-371.57 to -380.57",
+   "script": "closure_epochs.py",
+   "printed": "today                            -380.57       -377.57       -374.57       -371.57"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at a turnaround, λ = l_P",
+   "value": "-383.57 (a_max = 1e2, |Ω_k| = 1e-2) to -416.57 (1e6, 1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "turnaround a_max = 1e+06         -416.57       -413.57       -410.57       -407.57"
+  },
+  {
+   "quantity": "log10 (dual curvature)/(our curvature), reading (ii), λ = l_P, end of inflation and today",
+   "value": "-66.13 to -69.13; today -123.86 to -126.86",
+   "script": "closure_epochs.py",
+   "printed": "end of inflation                  -69.13        -68.13        -67.13        -66.13"
+  },
+  {
+   "quantity": "ΔN_eff from dual curvature, reading (ii), C = 1, λ = l_P",
+   "value": "-1.122e-121 (|Ω_k| = 1e-2) to -1.122e-127 (1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "Delta N_eff from dual curvature (reading ii, C = 1), constant in time:  |Ok|=1e-05: -1.122e-127, |Ok|=1e-04: -1.122e-125, |Ok|=1e-03: -1.122e-123, |Ok|=1e-02: -1.122e-121"
+  },
+  {
+   "quantity": "ΔN_eff from dual curvature, reading (ii), C = 1, λ = sqrt(l_P c/H0)",
+   "value": "-9.525e-61 to -9.525e-67",
+   "script": "closure_epochs.py",
+   "printed": "Delta N_eff from dual curvature (reading ii, C = 1), constant in time:  |Ok|=1e-05: -9.525e-67, |Ok|=1e-04: -9.525e-65, |Ok|=1e-03: -9.525e-63, |Ok|=1e-02: -9.525e-61"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at the end of inflation, λ = sqrt(l_P c/H0)",
+   "value": "-15.60 to -24.60",
+   "script": "closure_epochs.py",
+   "printed": "end of inflation                  -24.60        -21.60        -18.60        -15.60"
+  },
+  {
+   "quantity": "self-dual scale factor a_sd = λ/R0, λ = l_P",
+   "value": "1.178e-62 (|Ω_k| = 1e-2) to 3.724e-64 (1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "lambda = l_P, |Ok| = 1e-02: a_sd = 1.178e-62 (a_end = 1.366e-29); formal radiation-era temperature there 5.42e+29 T_P"
+  },
+  {
+   "quantity": "e-folds before the end of inflation at which R = λ = sqrt(l_P c/H0)",
+   "value": "5.99 (|Ω_k| = 1e-2) to 9.44 (1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "lambda = sqrt(l_P c/H0), |Ok| = 1e-02: a_sd = 3.432e-32, R = lambda falls 5.99 e-folds before the end of inflation"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at CMB pivot exit, λ = sqrt(l_P c/H0)",
+   "value": "105.7 to 140.7",
+   "script": "closure_epochs.py",
+   "printed": "CMB pivot exit 60 e-folds before the end: R = 1.64e-28 m, log10 eps6 = 140.7"
+  },
+  {
+   "quantity": "minimum density at R = l_P in any closed universe",
+   "value": "0.1194 ρ_P (= 3/8π)",
+   "script": "closure_epochs.py",
+   "printed": "PASS  any closed universe: H^2 >= 0 at R = l_P needs rho >= 3c^2/(8 pi G l_P^2) = (3/8pi) rho_P: the self-dual point R = l_P lies at or above 0.119 of the Planck density  [0.1194]"
+  },
+  {
+   "quantity": "closed de Sitter throat c/H_inf at E_inf = 1.39e16 GeV",
+   "value": "4.3080e-30 m = 2.6654e5 l_P",
+   "script": "closure_epochs.py",
+   "printed": "PASS  c/H_inf = sqrt(3/8pi) (E_P/E_inf)^2 l_P (closed form)  [c/H_inf = 4.3080e-30 m = 2.6654e+05 l_P]"
+  },
+  {
+   "quantity": "inflation scale needed for a throat at l_P",
+   "value": "7.176e18 GeV = 0.588 E_P",
+   "script": "closure_epochs.py",
+   "printed": "R_min reaches l_P only for E_inf = (3/8pi)^(1/4) E_P = 7.176e+18 GeV = 0.588 E_P"
+  },
+  {
+   "quantity": "largest ã after a throat, λ = l_P",
+   "value": "3.7518e-6",
+   "script": "closure_epochs.py",
+   "printed": "lambda = l_P: largest a~ after a throat = lambda/R_min = lambda H_inf/c = 3.7518e-06 (self-dual value 1; R_min/lambda = 2.665e+05)"
+  },
+  {
+   "quantity": "log10 a^-6 term / M_P^2 at the throat",
+   "value": "-32.55 (λ = l_P); 150.23 (λ = sqrt(l_P c/H0))",
+   "script": "closure_epochs.py",
+   "printed": "lambda = l_P: at the throat log10 eps6 = -32.55, log10 (dual curv)/(our curv) = -10.85  (C = 1, v M~^2 = M_P^2)"
+  },
+  {
+   "quantity": "maximum e-folds since a throat (GR)",
+   "value": "63.64 (|Ω_k| = 1e-2) to 67.09 (1e-5); 76.13 to 79.59 for a throat at l_P",
+   "script": "closure_epochs.py",
+   "printed": "|Ok| = 1e-02: R_end = 1.875e-02 m; N_max = 63.64 (throat at H_inf); 76.13 (throat at R = l_P)"
+  },
+  {
+   "quantity": "maximum e-folds since a throat versus E_inf, |Ω_k| = 1e-2",
+   "value": "63.31 (1e16 GeV), 56.40 (1e13 GeV), 49.50 (1e10 GeV)",
+   "script": "closure_epochs.py",
+   "printed": "E_inf = 1e+10 GeV, |Ok| = 1e-2: N_max = 49.50"
+  },
+  {
+   "quantity": "minimum C in reading (ii) from CMB photons, UHECR, Planck momentum, |Ω_k| = 1e-2",
+   "value": "1.4e30, 7.1e53, 2.7e61",
+   "script": "closure_epochs.py",
+   "printed": "|Ok| = 1e-02: mean CMB photon n = 4.41e+30; 3.2e20 eV n = 2.23e+54; Planck momentum n = 8.49e+61  -> C >= 1.4e+30, 7.1e+53, 2.7e+61"
+  },
+  {
+   "quantity": "reading (ii) BBN window for λ = sqrt(l_P c/H0)",
+   "value": "C_max = 1.1e43 < C_min(LHC) = 1.5e46: empty (|Ω_k| = 1e-2)",
+   "script": "closure_epochs.py",
+   "printed": "lambda = sqrt(l_P c/H0), |Ok| = 1e-02: C_min(UHECR) = 7.1e+53, C_min(LHC) = 1.5e+46, C_max = 1.1e+43, window empty (UHECR), empty (LHC); Delta N_eff at C_max = -1.07e-17 (lambda-free form -1.07e-17)"
+  },
+  {
+   "quantity": "reading (ii) ΔN_eff at the BBN edge",
+   "value": "-1.07e-17 (|Ω_k| = 1e-2) to -1.07e-20 (1e-5)",
+   "script": "closure_epochs.py",
+   "printed": "lambda = l_P, |Ok| = 1e-05: C_min(UHECR) = 2.2e+55, C_min(LHC) = 4.8e+47, C_max = 9.5e+106, window exists (UHECR), exists (LHC); Delta N_eff at C_max = -1.07e-20 (lambda-free form -1.07e-20)"
+  },
+  {
+   "quantity": "reading (ii), λ = l_P: log10 a^-6/M_P^2 at CMB pivot exit with C at the CMB minimum",
+   "value": "17.8 to 48.4",
+   "script": "closure_epochs.py",
+   "printed": "|Ok| = 1e-02: C >= 1.4e+30 (CMB photons) -> sqrt(C) l_P >= 1.92e-20 m, 41.4 e-folds before the end; log10 eps6 at exit = 22.3 (50), 48.4 (60)"
+  },
+  {
+   "quantity": "reading (iii) upper bound on |ΔN_eff| (momentum cap + BBN)",
+   "value": "1.93e83 (λ = l_P); 2.67e-39 (λ = sqrt(l_P c/H0))",
+   "script": "closure_epochs.py",
+   "printed": "lambda = sqrt(l_P c/H0): |Delta N_eff| <= 2.67e-39"
+  },
+  {
+   "quantity": "reading (ii) turning point during inflation with dual curvature, λ = sqrt(l_P c/H0)",
+   "value": "1.424e-17 m",
+   "script": "closure_epochs.py",
+   "printed": "reading (ii), lambda = sqrt(l_P c/H0), C = 1: dual curvature moves the turning point to R_min = 1.424e-17 m (approx sqrt(lambda c/H) = 1.424e-17 m)"
+  },
+  {
+   "quantity": "RK4 turning point of closed dust versus the textbook cycloid",
+   "value": "R_turn = 1.0000000000 R_m at ct = 1.57079 R_m",
+   "script": "conjugate_bounce_closed.py",
+   "printed": "PASS  RK4 of the acceleration equation turns around at R = R_m (= 4GM/3pi c^2) at c t = pi R_m/2, as the cycloid says  [R_turn = 1.0000000000 R_m, ct = 1.57079 R_m]"
+  },
+  {
+   "quantity": "ã today and ã_min at a turnaround, λ = l_P, |Ω_k| = 1e-2",
+   "value": "1.178e-62; 1.18e-64 (a_max = 1e2) to 1.18e-68 (1e6)",
+   "script": "conjugate_bounce_closed.py",
+   "printed": "|Ok| = 1e-02: a~ today = lambda/R0 = 1.178e-62;  a~_min = 1.18e-64 (a_max=1e+02), 1.18e-65 (a_max=1e+03), 1.18e-66 (a_max=1e+04), 1.18e-67 (a_max=1e+05), 1.18e-68 (a_max=1e+06)"
+  },
+  {
+   "quantity": "ã_min at a turnaround, λ = l_P, |Ω_k| = 1e-5",
+   "value": "3.72e-66 (a_max = 1e2) to 3.72e-70 (1e6)",
+   "script": "conjugate_bounce_closed.py",
+   "printed": "|Ok| = 1e-05: a~ today = lambda/R0 = 3.724e-64;  a~_min = 3.72e-66 (a_max=1e+02), 3.72e-67 (a_max=1e+03), 3.72e-68 (a_max=1e+04), 3.72e-69 (a_max=1e+05), 3.72e-70 (a_max=1e+06)"
+  },
+  {
+   "quantity": "ã_min at a turnaround, λ = sqrt(l_P c/H0)",
+   "value": "3.43e-34 (|Ω_k| = 1e-2, a_max = 1e2) to 1.09e-39 (1e-5, 1e6)",
+   "script": "conjugate_bounce_closed.py",
+   "printed": "|Ok| = 1e-05: a~ today = lambda/R0 = 1.085e-33;  a~_min = 1.09e-35 (a_max=1e+02), 1.09e-36 (a_max=1e+03), 1.09e-37 (a_max=1e+04), 1.09e-38 (a_max=1e+05), 1.09e-39 (a_max=1e+06)"
+  },
+  {
+   "quantity": "momentum resolution at a turnaround, ħc/R_max",
+   "value": "1.44e-36 eV (|Ω_k| = 1e-2, a_max = 1e2) to 4.55e-42 eV (1e-5, 1e6)",
+   "script": "conjugate_bounce_closed.py",
+   "printed": "|Ok| = 1e-02: a_max=1e+02: 1.44e-36 eV = 1.18e-64 m_P c, a_max=1e+06: 1.44e-40 eV = 1.18e-68 m_P c"
+  },
+  {
+   "quantity": "ã(throat)/ã(turnaround) = R_max H_inf/c",
+   "value": "3.19e58 (|Ω_k| = 1e-2, a_max = 1e2) to 1.01e64 (1e-5, 1e6)",
+   "script": "conjugate_bounce_closed.py",
+   "printed": "|Ok| = 1e-05: a~(throat)/a~(turnaround) = R_max H_inf/c = 1.01e+60 (a_max=1e+02), 1.01e+64 (a_max=1e+06)"
+  },
+  {
+   "quantity": "R–Mc aspect ratio at a turnaround, four conventions",
+   "value": "0.4244 (R), 0.8488 (2R), 1.3333 (πR), 2.6667 (2πR)",
+   "script": "radius_mass_pairing.py",
+   "printed": "at a turnaround (H = 0): A = 4/(3pi) = 0.4244 (radius), 0.8488 (2R), 1.3333 (pi R), 2.6667 (2 pi R), for any a_max"
+  },
+  {
+   "quantity": "R–Mc aspect ratio today, all contents and matter only",
+   "value": "4.202e-3 / 1.347e-2 (|Ω_k| = 1e-2); 4.244e-6 / 1.347e-5 (1e-5)",
+   "script": "radius_mass_pairing.py",
+   "printed": "|Ok| = 1e-02: R0 = 1.372e+27 m, M = 4.398e+56 kg; A = 4.202e-03 (all), 1.347e-02 (matter); x pi: 1.320e-02; area R M c = 2.73e+125 h"
+  },
+  {
+   "quantity": "R–Mc aspect ratio at earlier epochs, |Ω_k| = 1e-2",
+   "value": "2.24e-56 (end of inflation), 1.58e-18 (BBN), 9.38e-6 (recombination)",
+   "script": "radius_mass_pairing.py",
+   "printed": "|Ok| = 1e-02: end of inflation: A = 2.24e-56; BBN 1 MeV: A = 1.58e-18; recombination: A = 9.38e-06"
+  },
+  {
+   "quantity": "R–Mc area today versus the chat claim",
+   "value": "log10 area/h = 125.4 to 131.4 (claim 30)",
+   "script": "radius_mass_pairing.py",
+   "printed": "|Ok| = 1e-05: log10 area/h = 131.4 (claim 30); log10 A today = -5.37 (claim 92)"
+  },
+  {
+   "quantity": "R–Mc area at a turnaround",
+   "value": "2.70e127 h (|Ω_k| = 1e-2, a_max = 1e2) to 2.70e138 h (1e-5, 1e6)",
+   "script": "radius_mass_pairing.py",
+   "printed": "|Ok| = 1e-05: a_max=1e+02: 2.70e+130 h, a_max=1e+06: 2.70e+138 h"
+  }
+ ],
+ "open": [
+  "REPORT.md was not written: the Write tool refused it ('Subagents should return findings as text, not write report files'). This structured return carries the report's content.",
+  "How S_H yields the dual Einstein–Hilbert term of #1 §6, and what fixes v (the dual comoving volume relative to ours) and M̃. #1 §3 tags the reduction schematic, and its measure √|H| = 1 (det H = 1) carries no √g.",
+  "Whether a geometric a⁻⁴ term counts as ΔN_eff for CMB perturbations: it does not free-stream, so the ΔN_eff equivalence is background-level only.",
+  "The perturbation spectrum when the dual a⁻⁶ term dominates during inflation (reading (ii), or λ = √(l_P L)). I showed only the background conflict.",
+  "Physics at R ≤ l_P: the singular-phase result R ∝ 1/(t_s − t) holds within the model only.",
+  "X's frame f = E₀[J] in a closed universe. Proportional bimetric backgrounds share our closed slices (from memory, †); not computed.",
+  "a_max is computed by another analyst. My turnaround numbers use 1e2–1e6 as placeholders.",
+  "Inputs taken from memory (†) need source checks before any external use: the cosmic-ray energy 3.2e20 eV (Bird et al. 1995; a web search agreed but no page opened for a quote), the LHC 6.8 TeV beam, z_* = 1089.9, the 10% BBN tolerance on G_eff, the closed de Sitter and closed dust textbook solutions, the S³ Laplacian spectrum, and the reduced Planck mass and Ω_γh² anchors.",
+  "Side effect: WebFetch automatically saved a PDF of arXiv:1807.06209 to the session's tool-results directory, outside my folder. I did not open it."
+ ],
+ "record_errors": [
+  "Unreconciled dual curvature, in papers/broken-born-checkpoint-v2.md §10 ('dual curvature ↦ negative dark radiation') and §13 row 10, and in notes/broken-born-theory.md §6 table, §9 row 10 and §10 (k̃). These keep a closed dual space without a mechanism. Under the record's own slaving g̃ = g⁻¹ (#11 §5) and the x-leaf section condition (#1 §2), each momentum fibre carries a p-independent metric and is flat, so k̃ = 0. The v0.1 knob predates the v0.3 slaving result and was never reconciled with it. This is a tension, not an arithmetic error.",
+  "papers/phase-space-diameter.md §8.4, 'If reciprocity fixes M̃ = M_P, as it fixes the two bimetric Planck masses'. In the per-comoving-volume minisuperspace only vM̃²C³ is physical, and vM̃² = M_P² can be reached for any value by choosing the dual comoving unit. So the condition constrains nothing until that unit is fixed independently. The bimetric analogy does not carry over: there two metrics share one manifold and one volume. This is a clarification; no number changes.",
+  "papers/phase-space-diameter.md §1 technical abstract and §6 survey, 'No reading of the chat claim makes it square at a bounce for one region'. A pairing the note could not test under flatness, the curvature radius R with Mc, gives an aspect ratio of 0.42–2.67 at any closed turnaround. This is the Friedmann equation at H = 0, with ħ cancelling, and it misses the claim's area and today's ratio by more than 90 orders. The obituary's verdict is unaffected; adding one sentence would complete the survey.",
+  "notes/broken-born-theory.md §3: S_H = ½M_B²∫_Σ √|H| R_B[H] has √|H| = 1 for H = diag(g, g⁻¹), so its measure carries no √g. The statement that the g-block reproduces Einstein–Hilbert is tagged schematic, and the dual Einstein–Hilbert term used in §6 is never derived from S_H. #11 §14 does not list this as an open item.",
+  "notes/broken-born-theory.md §10 uses k̃ without defining it (minor; wiki/predictions/early-universe-step.md already notes this)."
+ ],
+ "files": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/common.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/ms_lagrangian.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/ms_lagrangian.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/closure_epochs.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/closure_epochs.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/conjugate_bounce_closed.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/conjugate_bounce_closed.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/radius_mass_pairing.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/minisuperspace/radius_mass_pairing.out"
+ ],
+ "references": [
+  {
+   "citation": "Planck Collaboration, N. Aghanim et al., 'Planck 2018 results. VI. Cosmological parameters', A&A 641, A6 (2020), arXiv:1807.06209",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1807.06209",
+   "quote": "Combining with BAO we constrain the effective extra relativistic degrees of freedom to be N_eff = 2.99 ± 0.17"
+  },
+  {
+   "citation": "Planck Collaboration, 'Planck 2018 results. X. Constraints on inflation', arXiv:1807.06211",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1807.06211",
+   "quote": "Spatial flatness is confirmed at a precision of 0.4% at 95% CL with the combination with BAO data."
+  },
+  {
+   "citation": "D. J. Bird et al. (Fly's Eye), ApJ 441, 144 (1995): a cosmic ray of 3.2 ± 0.9 × 10^20 eV",
+   "status": "dagger (a web search agreed; no page could be opened for an exact quote)"
+  },
+  {
+   "citation": "Closed de Sitter slicing R = (c/H) cosh(Ht), e.g. Hawking & Ellis, The Large Scale Structure of Space-Time (1973); checked symbolically in ms_lagrangian.py",
+   "status": "dagger"
+  },
+  {
+   "citation": "Closed dust (cycloid) Friedmann solution with R_max = 4GM/(3πc²), e.g. Landau & Lifshitz, Classical Theory of Fields §112; checked symbolically and by RK4 in conjugate_bounce_closed.py",
+   "status": "dagger"
+  },
+  {
+   "citation": "M. Born, 'A suggestion for unifying quantum theory and relativity', Proc. R. Soc. A 165, 291 (1938): the closed p-space of radius b, with its radius left unconnected to the x-space radius ('cannot be decided yet')",
+   "status": "S in the record (quoted in papers/phase-space-diameter.md §4); not retrieved by me",
+   "quote": "Whether these nuclear constants are connected with the corresponding molar constants λ, κ cannot be decided yet."
+  },
+  {
+   "citation": "LHC Run 3 beam energy 6.8 TeV; Planck 2018 last-scattering redshift z_* ≈ 1089.9; a BBN tolerance of about 10% on G_eff",
+   "status": "dagger"
+  }
+ ]
+}

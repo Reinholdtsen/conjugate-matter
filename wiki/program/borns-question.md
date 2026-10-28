@@ -17,6 +17,8 @@ sources:
   - "verify/toy_s5.py"
   - "popsci/universes-other-half.md 'Two descriptions of one thing'"
   - "popsci/angle-of-the-mirror.md opening paragraphs"
+  - "notes/closed-universe.md §5"
+  - "review/wiki-build-flags.md item 47"
 ---
 
 *Born's question asks why physics singles out position when quantum kinematics treats position and momentum as equals. A quantum particle can be described by a wavefunction of its position or by a wavefunction of its momentum. The Fourier transform, the operation that turns a sound's waveform into its spectrum, converts either description into the other exactly, and exchanging the two variables, with one change of sign, leaves the rules of quantum kinematics unchanged. The laws of motion do not share this evenness: atoms are small in space rather than in speed, forces fall off with distance rather than with difference in velocity, and general relativity curves space-time while leaving the space of momenta flat. Max Born raised the question in 1938. The Comatter program is one proposed answer: the symmetry is exact in the laws and broken by the vacuum.*
@@ -25,7 +27,7 @@ sources:
 
 ## The question
 
-The kinematics of quantum mechanics treats position x and momentum p alike. Checkpoint #11 states it in one line: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]" (#11 §3). The map ρ is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity).
+The kinematics of quantum mechanics treats position x and momentum p alike. Checkpoint #11 states it in one line: "Quantum kinematics is exactly invariant under ρ: (x,p) → (p,−x); the Fourier transform implements it unitarily [1†, 2†]" (#11 §3). The map ρ is [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity). The sentence holds on flat space, which #11's cosmology assumes; on a closed space position is continuous and momentum discrete, so the exchange holds only locally, to relative accuracy (2/3)(σ/R)² for a packet of width σ on a space of radius R (flag 47 in `review/wiki-build-flags.md`; [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity)).
 
 The dynamics does not share the symmetry. #11 §3 names the places where the asymmetry enters: "x-local interactions, the momentum-space mass shell, and general relativity's flat momentum fibers". The v1 paper gives the fuller list and its conclusion: "All asymmetry lives in dynamics: Hamiltonians are p²/2m + V(x), interactions are local in x, the mass shell is a momentum-space structure with no positional twin, and general relativity curves x-space while leaving momentum fibers flat" (#9 §1). The [popular article](/wiki/history/documents/popular-articles) #12 adds that the asymmetries all point one way: "Every known law that treats the two variables differently treats them differently in the same direction."
 
@@ -116,3 +118,4 @@ How far the answer reaches is recorded in the toy models. A coupling of matter t
 - `verify/toy_s5.py` — the machine check of the weak form of S5
 - `popsci/universes-other-half.md` 'Two descriptions of one thing' — the waveform–spectrum picture and the one-direction observation (popular article; not a status source)
 - `popsci/angle-of-the-mirror.md` opening paragraphs — Born's question as the program's starting point; "eighty-eight years in a drawer" (popular article)
+- `notes/closed-universe.md` §5; `review/wiki-build-flags.md` item 47 — the scope of "the Fourier transform implements it unitarily" on a closed space

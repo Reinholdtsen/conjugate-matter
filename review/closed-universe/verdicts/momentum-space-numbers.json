@@ -1,0 +1,307 @@
+{
+ "analysis": "momentum-space",
+ "lens": "numbers",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "C1",
+    "verdict": "confirmed",
+    "reason": "I found the root of |\u03a9k|a\u00b2 \u2212 \u03a9m a \u2212 \u03a9r = 0 numerically instead of using the closed form. The minimum a_max is \u03a9m/|\u03a9k|; radiation shifts it by 9.2e-6 in relative terms (0.0009%), well inside the stated <0.03%. Inputs: H0 = 67.4, \u03a9m = 0.315, T0 = 2.7255 (the record's). The bound is necessary but not sufficient: whether \u03c4 actually reaches V \u2248 0 by then is a question of dynamics.",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: a_max,min = 31.5003 (Om/|Ok| = 31.5, relative radiation shift 9.22e-06)'; '|Ok| = 1e-05: a_max,min = 31500'"
+   },
+   {
+    "claim_id": "C2",
+    "verdict": "confirmed",
+    "reason": "Same six grid points.",
+    "independent_check": "v_closed.py: 'below the bound: 6: [(0.001, 100.0), (0.0001, 100.0), (0.0001, 1000.0), (1e-05, 100.0), (1e-05, 1000.0), (1e-05, 10000.0)]'"
+   },
+   {
+    "claim_id": "C3",
+    "verdict": "confirmed",
+    "reason": "Sympy Raychaudhuri equation with \u03c1 = K+V, p = K\u2212V; curvature drops out.",
+    "independent_check": "v_closed.py: 'a''/a =  4*pi*G*(-4*K + 2*V - rho_m - 2*rho_r)/3'"
+   },
+   {
+    "claim_id": "C4",
+    "verdict": "confirmed",
+    "reason": "Evaluated numerically at random R with Friedmann at H = 0 and Vol(S\u00b3) = 2\u03c0\u00b2R\u00b3. The \u03c1_lP identity holds to 1e-15.",
+    "independent_check": "v_closed.py: 'G M/(c^2 R) = 2.356194490192  (3 pi/4 = 2.356194490192); M/m_P / (R/l_P) = 2.356194490192'; today 'G M/c^2 = 237.98 R0'"
+   },
+   {
+    "claim_id": "C5",
+    "verdict": "confirmed",
+    "reason": "Both routes agree. It scales as 1/a because R \u221d a.",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: hbar c/R0 = 1.4377e-34 eV'; '|Ok| = 1e-05: hbar c/R0 = 4.5465e-36 eV'"
+   },
+   {
+    "claim_id": "C6",
+    "verdict": "confirmed",
+    "reason": "Independent route: in the left-invariant frame, \u2207_{e_a} = \u2212i(2L_a+S_a). I diagonalized \u03a3(2L+S)\u00b2 numerically. Transverse spin-s modes (J = l\u00b1s) give \u03bd\u00b2\u2212(s+1), and the degeneracies are 2(\u03bd\u00b2\u2212s\u00b2). This agrees with Hu et al.'s q = sqrt(k\u00b2+(|m|+1)K), which I retrieved [S].",
+    "independent_check": "v_spectra.py: 's = 2, l = 0: ... J = l+s = 2: 6 vs nu^2-(s+1) = 6 (nu = 3)'; 's = 1, l = 1: ... J = l+s = 2: 14 vs 14 (nu = 4)'; Hu src otamm.tex l.199 'q = \\sqrt{k^2+(|m|+1)K}'"
+   },
+   {
+    "claim_id": "C7",
+    "verdict": "confirmed",
+    "reason": "Hodge = rough + Ric gives \u03bd\u00b2 for photons, so \u03c9_min = 2c/R. The scalar's lowest nonzero value is \u221a3; the graviton's k\u00b2+2K at \u03bd = 3 is 8. The sign of the curl eigenvalues depends on orientation.",
+    "independent_check": "v_spectra.py: 'graviton (Hu et al. k^2 + 2K with k^2 = nu^2-3): nu = 3 -> sqrt(8) = 2.8284; scalar nu = 2 -> sqrt(3) = 1.7321'"
+   },
+   {
+    "claim_id": "C8",
+    "verdict": "confirmed",
+    "reason": "I counted I*-invariants from the characters of the binary icosahedral group, not from Klein's invariants. The Aurich et al. quote is retrieved [S] (astro-ph/0412569 source, l.297-298: 'only the first three modes with wave number $\\beta=13, 21$ and 25 (comprising in total 59 eigenfunctions)').",
+    "independent_check": "v_spectra.py: 'scalar levels (nu, count): [(13, 13), (21, 21), (25, 25), (31, 31), (33, 33)]; first three sum = 59; -lap R^2 at nu=13: 168, sqrt = 12.9615, /sqrt3 = 7.483'"
+   },
+   {
+    "claim_id": "C9",
+    "verdict": "confirmed",
+    "reason": "A different route (characters plus the frame construction) gives the same counts. Which helicity survives depends on the convention for the side I* acts on. Still no literature anchor, as the analyst says.",
+    "independent_check": "v_spectra.py: 'PDS photon ... [(2, 3, 1), (12, 11, -1), (14, 15, 1), ...]'; 'PDS graviton ... [(3, 5, 1), (11, 9, -1), (15, 17, 1), ...]'"
+   },
+   {
+    "claim_id": "C10",
+    "verdict": "confirmed",
+    "reason": "I computed the Planck integrals by quadrature and evaluated at a = 1e-3, 1 and 1e3: the value is constant.",
+    "independent_check": "v_closed.py: '<E>/kT = 2.701178'; '|Ok| = 1e-02: nu_mean = 4.4126e+30'; '|Ok| = 1e-05: nu_mean = 1.3954e+32'; 'a = 1e-03: nu_mean = 4.412626e+30 ... a = 1e+03: nu_mean = 4.412626e+30'"
+   },
+   {
+    "claim_id": "C11",
+    "verdict": "confirmed",
+    "reason": "S includes three neutrino species (g_s = 3.909), so S/N = 7.04. 'Conserved' holds for free-streaming photons in comoving volume.",
+    "independent_check": "v_closed.py: 'n_gamma0 = 410.727 cm^-3'; '|Ok| = 1e-02: ... N_gamma = 2.0961e+91; S = 1.4756e+92 k_B'; '|Ok| = 1e-05: ... N_gamma = 6.6285e+95; S = 4.6661e+96 k_B'"
+   },
+   {
+    "claim_id": "C12",
+    "verdict": "confirmed",
+    "reason": "Numerical evaluation agrees with the closed form. D_x D_p/h equals the mean mode number.",
+    "independent_check": "v_closed.py: 'kappa = Dx Dp/(h N^1/3) = 1.60039; Dx Dp/h = 4.4126e+30'; 'closed form check ... = 1.60039'"
+   },
+   {
+    "claim_id": "C13",
+    "verdict": "confirmed",
+    "reason": "Anchored to the record's CKN convention: L = c/H0 gives 4.190 meV, as in the record. Taking L = R rather than the diameter \u03c0R is a convention (a factor \u221a\u03c0).",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: sqrt(lP R0) = 1.4894e-04 m, hbar c/sqrt(lP R0) = 1.3249e-03 eV'; '|Ok| = 1e-05: ... 2.3560e-04 eV'; 'record anchor ... 4.190 meV'"
+   },
+   {
+    "claim_id": "C14",
+    "verdict": "confirmed",
+    "reason": "I computed the first radii and the spacing at \u03bd = 1000 directly.",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: first radii [3.2966e-97, 5.3834e-97, 7.3715e-97] m; spacing at nu=1000: 1.90331e-97 m'; '|Ok| = 1e-05: ... lP^2/R0 = 6.01878e-99 m'"
+   },
+   {
+    "claim_id": "C15",
+    "verdict": "confirmed",
+    "reason": "A standard theorem [T]: unitary equivalence preserves spectral type, and the dual of a compact abelian group is discrete. I checked Plancherel on the circle numerically; the no-unitary argument is mathematical, not numerical.",
+    "independent_check": "v_reciprocity.py: 'Plancherel (1/L) int |f|^2 dx = 2.324585302336 ; sum |c_n|^2 = 2.324585302336'"
+   },
+   {
+    "claim_id": "C16",
+    "verdict": "corrected",
+    "corrected_statement": "I = \u03c9\u207b\u00b9H with H = diag(g, g\u207b\u00b9) satisfies I\u00b2 = \u22121 pointwise for any metric, so the fibrewise (internal) Born rotation acting on (H, K) survives closure. It does not follow that 'only finite-volume effects apply'. Closure makes x compact and continuous and p discrete. Wherever matter's kinematics enters, through the global Fourier structure or the toy note's I[W] functional, the x \u2194 p exchange is explicitly broken, and P5's 'mirror vacuum is equally lawful' is no longer protected by symmetry. The analyst's own open item says exactly this.",
+    "reason": "The math is confirmed but trivial. The physical conclusion contradicts the analyst's own open item 2, which says closure removes the symmetry that protects P5's degeneracy.",
+    "independent_check": "v_reciprocity.py: 'omega = [[0,1],[-1,0]]: I^2 + 1 simplifies to zero matrix: True' (symbolic, general symmetric 3x3 g)"
+   },
+   {
+    "claim_id": "C17",
+    "verdict": "confirmed",
+    "reason": "Different route: I computed \u27e8\u03c8|\u2212\u0394\u03c8\u27e9 with the radial S\u00b3 Laplacian (cot term), not \u222b|\u2207\u03c8|\u00b2. The coefficient tends to \u22122/3.",
+    "independent_check": "v_reciprocity.py: 'sigma/R = 0.003: c = -0.6666647'; '(2/3)(sigma/R0)^2 = 9.245e-125' (l_P), '3.539e-55' (1 m), '3.370e-04' (1 Gpc)"
+   },
+   {
+    "claim_id": "C18",
+    "verdict": "confirmed",
+    "reason": "I derived the lapse constraint from L_grav(a) + L_grav(C/a) + matter in sympy. The dual curvature enters with the a\u207b\u2074 exponent and a negative sign for k\u0303 = +1, and the a\u207b\u2076 factor multiplies H\u00b2. This matches #1 \u00a76.",
+    "independent_check": "v_dual.py: 'coefficient of H^2: C**3*Mt**2/(M**2*a(t)**6) + 1'; 'term in kt ... C*Mt**2*kt/(M**2*Rt_c**2*a(t)**4)'; 'scaling exponent ... -4'"
+   },
+   {
+    "claim_id": "C19",
+    "verdict": "corrected",
+    "corrected_statement": "Planck 2018 (TT,TE,EE+lowE+lensing+BAO) gives N_eff = 2.99 \u00b1 0.17 at 68% [S]. Taking 2\u03c3 = 0.34 and N_SM = 3.044 (\u2020) gives \u0394N_eff > \u22120.394 and |\u03a9_k\u0303| < 4.9e-6; the published 95% lower error of 0.33 (\u2020) gives 4.75e-6. Planck's N_eff is fitted for free-streaming relativistic species in flat \u039bCDM+N_eff. A geometric, background-only a\u207b\u2074 term is constrained mainly through H(z), so the bound is indicative to order one, not exact.",
+    "reason": "Arithmetic and source are confirmed. The scope of the constraint is not stated: it is applied to a non-free-streaming geometric term in a closed model.",
+    "independent_check": "v_dual.py: 'Omega_gamma = 5.44377e-05, Omega_nu1 = 1.23632e-05'; 'Delta N_eff lower (2 sigma, symmetric 0.17) = -0.394'; '|Omega_kt| < 4.8711e-06'. [S] arXiv 1807.06209 abstract: 'Combining with BAO we constrain the effective extra relativistic degrees of freedom to be $N_{\\rm eff} = 2.99\\pm 0.17$' and 'in this abstract we quote $68\\,\\%$ confidence regions'"
+   },
+   {
+    "claim_id": "C20",
+    "verdict": "confirmed",
+    "reason": "Sympy shows the invariance (with one shared lapse). The bound follows as C < 4.87e-6/|\u03a9k|.",
+    "independent_check": "v_dual.py: 'L_grav(a) + L_grav(C/a) invariant under a -> C/a: True'; '|Ok| = 1e-05: C < 4.8711e-01'"
+   },
+   {
+    "claim_id": "C21",
+    "verdict": "confirmed",
+    "reason": "a_BBN uses g_s 3.909 \u2192 10.75. The 10% tolerance is an assumption, which the analyst flags. It implies a self-dual point a = \u221aC < 1.1e-10, before nucleosynthesis.",
+    "independent_check": "v_dual.py: 'a(T = 1 MeV) ... 1.6764e-10; C^3 a^-6 < 0.1 -> C < 1.3044e-20; |Delta N_eff| <= ... 1.055e-17'"
+   },
+   {
+    "claim_id": "C22",
+    "verdict": "confirmed",
+    "reason": "Numerical DFT for N = 17, 64, 101; the lattice-matching condition checked in sympy.",
+    "independent_check": "v_reciprocity.py: 'N = 64: |F g - g|/|g| = 9.90e-15;  <j^2> = 5.092958, N/(4 pi) = 5.092958'; 'lambda^2 ... N*dx**2/(2*pi) ; = dx L/(2 pi) ...: True'"
+   },
+   {
+    "claim_id": "C23",
+    "verdict": "confirmed",
+    "reason": "Direct computation.",
+    "independent_check": "v_reciprocity.py: '|Ok| = 1e-02, a = 1e+00: lambda = 1.4894e-04 m'; '|Ok| = 1e-05, a = 1e+00: lambda = 8.3755e-04 m'; '|Ok| = 1e-05, a = 1e+06: lambda = 8.3755e-01 m'"
+   },
+   {
+    "claim_id": "C24",
+    "verdict": "confirmed",
+    "reason": "Same criterion as the diameter note \u00a78.1. The hydrogen Coulomb force is computed from CODATA values: 8.2387e-8 N. These are statements about today: \u03bb \u221d a^{1/2} (see missed issues).",
+    "independent_check": "v_reciprocity.py: '|Ok| = 1e-02, a = 1e+00: ... c~ = 1.4252e-18 N; F_H/c~ = 5.7808e+10'; '|Ok| = 1e-05, a = 1e+00: ... c~ = 4.5069e-20 N; F_H/c~ = 1.8280e+12'"
+   },
+   {
+    "claim_id": "C25",
+    "verdict": "confirmed",
+    "reason": "Ratios to 37.7 \u03bcm agree; 37.7 \u03bcm corresponds to 5.234 meV, matching the record's 5.2 meV. True today only: \u03bb was below 37.7 \u03bcm at a < 0.064 (|\u03a9k| = 1e-2).",
+    "independent_check": "v_reciprocity.py: 'lambda/37.7um = 3.951' (1e-2), '22.216' (1e-5); 'smallest convention sqrt(lP R0/(2 pi)) at 1e-2 = 5.9418e-05 m ; /37.7um = 1.576'"
+   },
+   {
+    "claim_id": "C26",
+    "verdict": "confirmed",
+    "reason": "I built the lattice from dp = h/L and |p|max = N dp/2.",
+    "independent_check": "v_reciprocity.py: 'lambda = lP: dx = 1.9033e-97 m; N = 4.5309e+124; |p|max = ... 1.7407e+63 kg m/s = 2.6678e+62 mP c; ... ratio to (3pi/4) R c^3/G = 1.333333'"
+   },
+   {
+    "claim_id": "C27",
+    "verdict": "corrected",
+    "corrected_statement": "S\u00b3\u00d7S\u00b3 has b\u2082 = 0 and admits no symplectic form, and T\u2076 is symplectic. More strongly: every k = +1 position space (any spherical space form S\u00b3/\u0393, a rational homology sphere) times any closed 3-manifold momentum space has H\u00b2 = H\u2070(M)\u2297H\u00b2(M\u0303), so [\u03c9]\u00b3 = 0 and no symplectic form exists. T\u2076 requires a flat T\u00b3 position space, which is not a closed (k = +1) universe. The torus is also not the only self-reciprocal option: (S\u00b9\u00d7S\u00b2)\u00b2 \u2245 T\u00b2\u00d7S\u00b2\u00d7S\u00b2 is symplectic. For a closed universe, the only doubly finite exactly reciprocal phase space is discrete (Z_N-type), not a smooth compact manifold.",
+    "reason": "The Betti numbers are right. 'Must be torus-like' overreaches, and it hides the fact that the torus option is not open to a k = +1 universe at all.",
+    "independent_check": "v_reciprocity.py: 'b(S3 x S3) = [1, 0, 0, 2, 0, 0, 1] ; b(T3 x T3) = [1, 6, 15, 20, 15, 6, 1] ; b((S1xS2)x(S1xS2)) = [1, 2, 3, 4, 3, 2, 1]' plus the Kunneth argument printed for S\u00b3/\u0393 \u00d7 M\u0303"
+   },
+   {
+    "claim_id": "C28",
+    "verdict": "confirmed",
+    "reason": "Numbers recomputed. I retrieved GW 2005 [S], hep-th/0401128 source, l.4249-4254: 'the spectrum of the squared momentum variable has an equidistant spacing of $\\frac{4\\Omega}{\\theta}$. Thus, $\\sqrt{\\frac{4\\Omega}{\\theta}}$ is the minimal (non-vanishing) momentum ... We can thus identify the parameter $\\sqrt{\\Omega}$ with the ratio of the Planck length to the size of the (finite!) universe.'",
+    "independent_check": "v_extra.py: '|Ok| = 1e-02, a = 1e+00: Omega = 1.3867e-124, matched = 1.0401e-124'; '|Ok| = 1e-05, a = 1e+06: Omega = 1.3867e-139'"
+   },
+   {
+    "claim_id": "C29",
+    "verdict": "confirmed",
+    "reason": "Retrieved [S]: hep-th/0402093 source l.111-114, 'S\\big[\\phi;\\mu_0,\\lambda,\\Omega\\big] \\mapsto \\Omega^2 S\\Big[\\phi;\\frac{\\mu_0}{\\Omega},\\frac{\\lambda}{\\Omega^2},\\frac{1}{\\Omega}\\Big]', and l.88, 'duality transformation exchanges positions and momenta'. R \u2192 l_P\u00b2/R is simple arithmetic.",
+    "independent_check": "v_extra.py: 'dual size lP^2/R = 1.9033e-97 m'"
+   },
+   {
+    "claim_id": "C30",
+    "verdict": "confirmed",
+    "reason": "Potential from the toy note: V_b = \u2212(\u03bc/2)(1+cos 2\u03c6) at H = 1. S = 2\u221a2 f\u221a\u03bc Vol. Wall thickness from m\u00b2 = 2\u03bc/f\u00b2. For the WKB check I diagonalized exactly in the angular-momentum basis, a different route, and got slope \u22121.02 to \u22121.03. Caveat: this is the frozen-H reduction. The barrier height is the same on every path, since Tr(K K_ref) must cross 0, but the action is computed along one path. That is irrelevant at 1e125.",
+    "independent_check": "v_ssb.py: '|Ok| = 1e-02, a = 1e+00: ... S = 2.2962e+125'; '|Ok| = 1e-05, a = 1e+06: ... S = 7.2613e+147'; 'wall thickness ... = 0.4933 c/H0'; 'd ln(splitting)/d S0 = -1.0294 (all), -1.0214 (last four)'"
+   },
+   {
+    "claim_id": "C31",
+    "verdict": "confirmed",
+    "reason": "I = f\u00b2Vol and E1\u2212E0 = 1/(2I). Spreading law from free Gaussian spreading, checked numerically on a rotor. Age t0 = 13.79 Gyr from my own quadrature.",
+    "independent_check": "v_ssb.py: '|Ok| = 1e-02, a = 1e+00: I = 3.9393e+157 eV^-1; E1-E0 = 1.2693e-158 eV; t(0.1->1 rad) = 5.1598e+141 s = 1.1856e+124 t0'; '|Ok| = 1e-05, a = 1e+06: ... E1-E0 = 4.0138e-181 eV; ... 3.7492e+146 t0'; 'width(t*) = 0.9973'"
+   },
+   {
+    "claim_id": "C32",
+    "verdict": "confirmed",
+    "reason": "f \u221d sqrt(t0/t_spread), evaluated today.",
+    "independent_check": "v_ssb.py: 'f with spread time t0 = 2.2366e-35 eV' (1e-2, today), '1.2577e-37 eV' (1e-5, today)"
+   },
+   {
+    "claim_id": "C33",
+    "verdict": "confirmed",
+    "reason": "Harmonic width at the minimum \u03c4/f = \u03c0.",
+    "independent_check": "v_ssb.py: 'width = sqrt(hbar/(2 I omega)) = 2.4817e-63 rad; barrier 2 V0 Vol = 3.3462e+92 eV'"
+   },
+   {
+    "claim_id": "C34",
+    "verdict": "confirmed",
+    "reason": "Direct computation.",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02, a = 1e+00: cells = 1.2087e+187'; '|Ok| = 1e-05, a = 1e+00: cells = 3.8224e+191'; '|Ok| = 1e-05, a = 1e+06: cells = 3.8224e+209'"
+   },
+   {
+    "claim_id": "C35",
+    "verdict": "confirmed",
+    "reason": "The de Sitter entropy reproduced from flat \u03a9_\u039b = 0.68491, and the ratio equals \u03a9_\u039b/|\u03a9k| exactly. The 'holographic count' is the equatorial S\u00b2 area over 4l_P\u00b2.",
+    "independent_check": "v_closed.py: 'de Sitter entropy ... 3.3077e+122'; '|Ok| = 1e-02, a = 1e+00: ... holo = 2.2654e+124; holo/S_dS = 6.8491e+01'; '|Ok| = 1e-05, a = 1e+06: ... holo = 2.2654e+139'"
+   },
+   {
+    "claim_id": "C36",
+    "verdict": "confirmed",
+    "reason": "The whole-S\u00b3 aspect ratio was recomputed; I also recomputed the record's A0 from scratch (5.197e92). The low end, 5.2e96 (a_max = 100), is allowed only for |\u03a9k| \u2265 3.15e-3.",
+    "independent_check": "v_closed.py: 'aspect (Planck units) = 2.5670e+93' (1e-2), '8.1176e+94' (1e-5); v_extra.py: 'A0 = 5.197e+92 (record 5.2e92)'"
+   },
+   {
+    "claim_id": "C37",
+    "verdict": "refuted",
+    "corrected_statement": "Today's ratio of 4.4e-34 is right. The '\u22481 rad horizon during recollapse' contradicts the analyst's own C41. In that dust ending the particle horizon is already 3.10 rad (|\u03a9k| = 1e-2) to 3.140 rad (1e-5) at the turnaround, and it reaches the antipode just after: at a = 31.488 (T = 0.087 K) for 1e-2, and at a \u2248 a_max for every grid value. As \u03c7 \u2192 \u03c0 the horizon area goes to 0, and the FS ratio reaches 1 within about 1e-18 rad of the antipode, i.e. at a \u2248 a_max. That is not at a \u2248 4e-17 or T \u2248 1e16-1e17 K. Fischler and Susskind themselves state that for matter domination the bound is reached 'while the universe is still growing'.",
+    "reason": "The epoch rests on an assumed horizon (sqrt(pref\u00b7f(1 rad)) in closed_numbers.py) that is inconsistent with the analysis's own computed conformal time and with both sources it retrieved.",
+    "independent_check": "v_fs.py: '|Ok| = 1e-02: ... chi at turnaround = 3.1021 rad ...; FS ratio at turnaround = 4.212e-33; antipode reached at a = 31.4877 (a_max = 31.5, T = 8.656e-02 K); ratio = 1 at a = 31.4877, 2.56e-18 rad before the antipode'. [S] hep-th/9806039 source: 'the bound will be reached either while the universe is still growing ,for example when the energy density is dominated by non-relativistic matter or during recollapse like in a radiation dominated universe'"
+   },
+   {
+    "claim_id": "C38",
+    "verdict": "confirmed",
+    "reason": "Retrieved [S] from the hep-th/9905177 source, l.1369-1371: 'The FS bound cannot be applied here. It would continue to compare entropy and area of the particle horizon, and would be violated'; l.1395: 'covariant bound remains valid, because it applies only to the future-directed null hypersurfaces'.",
+    "independent_check": "/usr/bin/grep on downloads/src_hep-th_9905177/x/bound.tex: lines 1369 and 1395"
+   },
+   {
+    "claim_id": "C39",
+    "verdict": "confirmed",
+    "reason": "Root-found a_max times R0.",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: ... R_max = 4.3234e+28 m = 4570 Gly'; '|Ok| = 1e-05: ... R_max = 1.3672e+33 m = 1.445e+08 Gly'"
+   },
+   {
+    "claim_id": "C40",
+    "verdict": "confirmed",
+    "reason": "Direct ratio of volumes.",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: ... = 4712.4'; '|Ok| = 1e-05: ... = 1.4902e+08'"
+   },
+   {
+    "claim_id": "C41",
+    "verdict": "confirmed",
+    "reason": "Different route: quadrature of d\u03b7 = c dt/(aR0) from the Friedmann equation in t, with the endpoint singularity removed by substitution. A full dust cycle gives 2\u03c0. This shows the particle horizon passes \u03c0 shortly after the turnaround (see C37).",
+    "independent_check": "v_closed.py: '|Ok| = 1e-02: a_max = 31.5: Delta eta = 2.783331 rad'; '|Ok| = 1e-05: ... 3.130324 rad'; 'full dust cycle ... 6.283185'"
+   },
+   {
+    "claim_id": "C42",
+    "verdict": "corrected",
+    "corrected_statement": "\u00e3(turnaround)/\u00e3(today) = 1/a_max \u2264 |\u03a9k|/\u03a9m, which is 0.032 at |\u03a9k| = 1e-2. That equals \u00e3_min itself only in the record's normalization a\u00b7\u00e3 = 1. C20-C21 of the same analysis exclude that normalization for the reciprocity-symmetric closed choice; there \u00e3_min = C/a_max < 4.1e-22. At |\u03a9k| = 3e-3, the closed edge allowed by Planck+BAO at 2\u03c3, the ratio is at most 0.0095.",
+    "reason": "The arithmetic is right, but the convention changes silently between C20-C21 (general C) and C42 (C = 1). '0.032' also comes from the minimum a_max at |\u03a9k| = 1e-2, not from a grid point, and that value of |\u03a9k| is about 5.5\u03c3 from Planck+BAO.",
+    "independent_check": "v_closed.py: 'a~_min = 1/a_max = 3.1746e-02'; v_extra.py: '|Ok| = 3e-03 ... a~ ratio <= 0.0095'; v_dual.py: 'C < 1.3044e-20'"
+   }
+  ],
+  "record_error_verdicts": [
+   "RE1 (#11 \u00a73 'Fourier transform implements \u03c1 unitarily'): partly upheld. It is true on R^d, which is the record's flat assumption, so it is not an error as written. If closure is adopted it must be restricted: globally false on T\u00b3/S\u00b3 (C15 confirmed), locally valid to relative order (\u03c3/R)\u00b2 (C17 confirmed, c \u2192 \u22120.66666). The wiki pages inherit the same scope.",
+   "RE2 (diameter note \u00a76, R11 'a closed universe can turn around without negative energy'): partly upheld, as an omission rather than an error. The sentence is true. The two added conditions are correct: a_max \u2265 \u03a9m/|\u03a9k| (root-found, 31.5003 at 1e-2) and \u03c1m + 2\u03c1r + 4K \u2212 2V \u2265 0 at H = 0 (sympy).",
+   "RE3 (#1 \u00a76/\u00a710, #11 \u00a713 row 10, k\u0303 as an optional knob): partly upheld. The record does state k\u0303 as an optional parameter (#1 \u00a710: 'Geometry | M\u0303, k\u0303 (2, optional)'), so 'unstated' is too strong. What is unstated is the geometric postulate it needs: a curved, compact momentum space. Under the slaved reading g\u0303 = g\u207b\u00b9 the fibres are flat, so k = +1 does not induce k\u0303 = +1. The sign and the a\u207b\u2074 scaling of the dictionary entry are confirmed by my own lapse-constraint derivation (v_dual.py: exponent \u22124, negative for k\u0303 = +1).",
+   "RE4 (#13 \u00a71 'the only length the gravitational sector supplies is the Planck length'): not upheld. The sentence concerns the sector's constants. A closed solution's curvature radius is an integration constant and a function of time (R \u221d a), not a length the sector supplies. The analysis itself (C23-C25) shows the R-derived Born length is excluded in both roles today.",
+   "RE5 (diameter note \u00a74, GW identification): upheld as a caveat, not as a misquote. I retrieved the source [S]: the minimal momentum is sqrt(4\u03a9/\u03b8) = 2\u221a\u03a9/\u221a\u03b8, so \u221a\u03a9 = l_P/(2L) if p_min = \u0127/L, which carries the factor of 2. The p\u00b2 spectrum is equidistant ('equidistant spacing of 4\u03a9/\u03b8'), unlike the \u03bd\u00b2\u22121 spectrum of S\u00b3. The diameter note's quote matches the source verbatim.",
+   "RE6 (task placeholder grid, 6 of 20 points violate V \u2265 0): upheld (v_closed.py lists the same six points). An addition the analyst missed: the |\u03a9k| = 1e-2 end of the grid is about 5.5\u03c3 from the Planck+BAO curvature \u03a9_K = 0.001 \u00b1 0.002 ([S], Planck 2018 VI abstract via ar5iv: 'The joint constraint with BAO measurements on spatial curvature is consistent with a flat universe, \u03a9_K = 0.001 \u00b1 0.002'). That holds in \u039bCDM+\u03a9_K; constraints are looser with evolving dark energy (\u2020)."
+  ],
+  "missed_issues": [
+   "C37 epoch is wrong (verdict refuted). In the analysis's own dust ending (C41), the particle horizon is 3.10 to 3.140 rad at the turnaround and reaches the antipode at a \u2248 a_max (a = 31.488, T = 0.087 K for |\u03a9k| = 1e-2). The FS ratio diverges there, which is exactly Bousso's B\u2083 case and Fischler-Susskind's own 'reached while the universe is still growing' for matter. It does not reach 1 at a ~ 4e-17 'long before the Planck era'. The '\u22481 rad during recollapse' assumption is impossible in any recollapse that ends in dust or radiation: dust recollapse adds \u0394\u03b7 = \u03c0.",
+   "C27 overreach that matters for Paul's question. No closed FRW (k = +1) position space, i.e. no spherical space form including the dodecahedral space, admits a smooth, doubly compact, symplectic product phase space with any closed 3-manifold momentum space ([\u03c9]\u00b3 = 0 by K\u00fcnneth). T\u2076 needs a flat T\u00b3 position space. A finite reciprocal phase space for a closed universe must be discrete (Z_N-type, as in C22), not a smooth compact one.",
+   "C16 contradicts the analyst's own open item 2. Closure explicitly distinguishes x from p wherever matter couples through the global Fourier structure, so the claim that only finite-volume effects act on P3/P5 is not supported. The size of that explicit breaking is uncomputed, and it is more important than the finite-volume numbers (C30-C33).",
+   "Observational range not checked. Planck 2018 + BAO gives \u03a9_K = 0.001 \u00b1 0.002 [S], so |\u03a9k| = 1e-2 (closed) is about 5.5\u03c3 out and the 2\u03c3 closed edge is |\u03a9k| \u2248 3e-3, in \u039bCDM+\u03a9_K. Several 'smallest' or 'at most' headline numbers are quoted at the disfavoured end: R_max = 4570 Gly, \u00e3 \u2264 0.032, \u03bb = 1.49e-4 m. At |\u03a9k| = 3e-3: a_max \u2265 105, \u00e3 ratio \u2264 0.0095, \u03bb = 2.0e-4 m (v_extra.py). The \u03bb exclusions only get stronger.",
+   "Convention change between C20-C21 (general C; C = 1 excluded in the symmetric closed choice) and C42 (\u00e3 = 1/a_max, i.e. C = 1). Only the ratio \u00e3(turnaround)/\u00e3(today) = 1/a_max is independent of normalization.",
+   "\u03bb = sqrt(l_P R) grows as a^{1/2}. It was below X's 37.7 \u03bcm bound for a < 0.064 (z > 14.6) at |\u03a9k| = 1e-2, and for z > 493 at 1e-5 (v_extra.py). C24 and C25 are statements about today. A Born length tied to R would not be a constant, which is itself a reason it cannot be #13's \u03bb. The analysis makes no time-dependent statement, but readers could take the exclusion as permanent.",
+   "C19 scope: Planck's N_eff fit (free-streaming species, flat \u039bCDM+N_eff, with BAO) is applied to a background-only geometric a\u207b\u2074 term in a closed model. The bound is indicative to order one; 2\u03c3 = 2 \u00d7 0.17 stands in for the published 95% interval (\u2020: \u22120.33, giving 4.75e-6).",
+   "C1/C39 combine the flat-fit \u03a9m = 0.315 and H0 = 67.4 with \u03a9k \u2260 0. Since a_max,min = \u03a9m/|\u03a9k| and R_max \u221d \u03a9m, a closed-model refit of \u03a9m shifts these bounds proportionally (\u2020; I did not retrieve a closed-model \u03a9m).",
+   "C30 uses the frozen-H reduction of the toy potential (V_b at H = 1). The barrier height \u03bc is path-independent, because Tr(K K_ref) must pass through 0 between \u00b1K_ref, so the order of magnitude stands. But the action is along one path and the text does not say it is a reduction, as the project's method requires.",
+   "Minor: CKN's L is taken as the curvature radius R rather than the diameter \u03c0R (a factor \u221a\u03c0 in the cutoff). C13 and C23 do not state the convention."
+  ],
+  "not_reached": [
+   "No claim was skipped. Limits of the checks: C15 is a theorem, so my code only illustrates Plancherel and does not test the no-unitary statement numerically. C9's helicity labels depend on which side I* acts on and could not be anchored to literature. The published Planck 95% N_eff interval (+0.34/\u22120.33) and the 95% \u03a9_K value are from memory or a search snippet (\u2020): I could not render the Planck PDF (no poppler) and the ar5iv text was truncated before \u00a77."
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/vconst.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_closed.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_closed.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_reciprocity.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_reciprocity.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_dual.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_dual.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_spectra.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_spectra.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_ssb.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_ssb.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_fs.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_fs.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_extra.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/v_extra.out",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-momentum-space-numbers/tools/unpack.py"
+  ],
+  "overall": "The numbers in this analysis are sound. I re-derived all 42 claims by independent routes:\n- root finding instead of the closed form;\n- quadrature of the Planck integrals and of conformal time in t;\n- a lapse-constraint derivation in sympy;\n- the rough Laplacian on S\u00b3 from SU(2) Casimirs;\n- counts on the dodecahedral space from binary-icosahedral characters instead of Klein's invariants;\n- exact diagonalization in the angular-momentum basis for the WKB check.\n\nAll inputs are CODATA and Planck 2018 values, typed independently. Every printed number on the load-bearing list reproduces to the stated digits. I retrieved every source the analysis marks [S] (Aurich 2005, Hu 1998, Grosse\u2013Wulkenhaar 2004 and 2005, Bousso 1999, Fischler\u2013Susskind 1998, the Planck 2018 abstract) and the quotes match. The analysis flags its memory citations honestly.\n\nTally: 36 confirmed, 5 corrected (C16, C19, C27, C42, plus scope notes elsewhere), 1 refuted (C37).\n\nThe refutation: C37 places the point where the Fischler\u2013Susskind entropy bound fails at a \u2248 4e-17. That rests on an assumed horizon of about 1 rad, which contradicts the analysis's own C41 and both sources it retrieved. In its own dust ending the horizon reaches the antipode at a \u2248 a_max, just after the turnaround, and the ratio diverges there.\n\nThe corrections:\n- **C27 (symplectic topology):** true but too weak. No k = +1 position space admits any smooth, doubly compact symplectic product phase space, so a finite reciprocal phase space for a closed universe must be discrete (Z_N type).\n- **C16:** the claim that only finite-volume effects apply contradicts the analysis's own open item that closure removes the symmetry protecting P5.\n- **C42:** silently uses a\u00b7\u00e3 = 1, which C20 excludes in the symmetric closed choice.\n- **C19:** applies Planck's N_eff bound, fitted for free-streaming species, to a background-only geometric term, so it holds only to order one.\n\nMissed outright: Planck+BAO puts |\u03a9k| = 1e-2 about 5.5\u03c3 out, so several headline numbers sit at a disfavoured end of the grid. The analyst also does not note that \u221a(l_P R) grows with time.\n\nOf the record errors, RE1\u2013RE3 and RE5\u2013RE6 are upheld at most in part, as caveats or omissions rather than errors; RE4 is not upheld.\n\nThe answers for Paul stand:\n- **Momentum space:** the grain \u0127c/R falls as 1/a and is smallest at the turnaround.\n- **Position space:** V \u2265 0 forces a_max \u2265 \u03a9m/|\u03a9k|, so R_max \u2265 \u03a9m c/(H0|\u03a9k|^{3/2}).\n- **Fourier reciprocity:** fails globally on a compact space and survives locally to order (\u03c3/R)\u00b2."
+ }
+}

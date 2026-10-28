@@ -20,11 +20,14 @@ sources:
   - "verify/phase_space_diameter.py 'Where the radiation rectangle is square, lambda = l_P (note §6)'"
   - "review/round5-adjudication.md 'Rulings' R11"
   - "review/round5-adjudication.md 'Recommendations to Paul'"
+  - "notes/closed-universe.md §2"
+  - "verify/closed_universe.py 'B. Closed tau histories'"
+  - "review/wiki-build-flags.md items 27 (addendum), 45, 46, 50"
 ---
 
-*The turnaround is a far-future event the program predicts: our universe stops expanding and begins to contract, which happens if the potential energy of the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) becomes negative. Because our scale factor and that of the [conjugate universe](/wiki/program/conjugate-universe) are reciprocals ([the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)), the moment our universe is largest is the moment its momentum-space description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum size and rebounding. The program states this as one event with two descriptions, not as two linked events. It is a long-horizon prediction whose near-term proxy is the [dark-energy drift](/wiki/predictions/dark-energy-drift) that survey data are testing now, and whether τ's potential, as the documents write it, can become negative at all is an unresolved conflict in the sources.*
+*The turnaround is a far-future event the program predicts: our universe stops expanding and begins to contract, which happens if the potential energy of the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) becomes negative. Because our scale factor and that of the [conjugate universe](/wiki/program/conjugate-universe) are reciprocals ([the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)), the moment our universe is largest is the moment its momentum-space description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum size and rebounding. The program states this as one event with two descriptions, not as two linked events. It is a long-horizon prediction whose near-term proxy is the [dark-energy drift](/wiki/predictions/dark-energy-drift) that survey data are testing now, and whether τ's potential, as the documents write it, can become negative at all is an unresolved conflict in the sources. A later note finds that a negative potential is not needed if the universe is closed: then the expansion turns around with the potential as written, and only then.*
 
-**Status:** Alive, long horizon — [D] for the bounce identity, [T] for the cited fits (#1 §7 item 3; [#11](/wiki/history/documents/checkpoint) §10) — it follows from [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) by identity and is not machine-checked; tested only in the long run ([row 5](/wiki/predictions/fate-of-expansion)). Its premise, a negative V(τ), conflicts with the potential as written, and no document resolves the conflict ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
+**Status:** Alive, long horizon — [D] for the bounce identity, [T] for the cited fits (#1 §7 item 3; [#11](/wiki/history/documents/checkpoint) §10) — it follows from [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) by identity and is not machine-checked; tested only in the long run ([row 5](/wiki/predictions/fate-of-expansion)). Its premise, a negative V(τ), conflicts with the potential as written, and no document resolves the conflict ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). The flag's addendum (2026-10-27) finds that with the potential as written the turnaround happens only in a closed universe, k = +1, which the data disfavour at about 2σ in the program's model class ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe); computed, not reviewed).
 
 ## Statement
 
@@ -70,7 +73,17 @@ V(τ) = V₀[1 + cos(τ/f)]
 
 No document reconciles the two statements. The register of [conflicts between sources](/wiki/history/documents/source-conflicts#cosmology) lists it as unresolved, and `review/wiki-build-flags.md` item 27 records it with an executed check, `review/wiki-build-checks/v_sign_check.py`, which prints the potential's minimum as 0; which statement the documents should carry awaits Paul's ruling. This page states the conflict and does not resolve it; the open problem has its own page, [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign). Everything on this page that depends on the turnaround happening, including the timing below, rests on that unresolved point.
 
-The phase-space-diameter note restates the conflict with one qualification from its round-5 review: the potential "is never negative for V₀ > 0, and so, in the spatially flat universe the program's cosmology assumes, produces no turnaround as written (a closed universe can turn around without negative energy)" (`papers/phase-space-diameter.md` §6; `review/round5-adjudication.md` ruling R11, which cites #11 §10 for the flatness).
+The phase-space-diameter note restates the conflict with one qualification from its round-5 review: the potential "is never negative for V₀ > 0, and so, in the spatially flat universe the program's cosmology assumes, produces no turnaround as written (a closed universe can turn around without negative energy)" (`papers/phase-space-diameter.md` §6; `review/round5-adjudication.md` ruling R11, which cites #11 §10 for the flatness). The statement is true; flag 50 adds the two conditions it omits, a_max ≥ Ω_m/|Ω_k| and, at H = 0, ρ_m + 2ρ_r + 4K − 2V ≥ 0 with K τ's kinetic energy density, and notes that the mechanism is published (Barrow 1987 †; Tipler et al., gr-qc/0003082 [S]).
+
+### The closed-universe addendum
+
+The closed-universe note of 2026-10-27 works the qualification out (`notes/closed-universe.md` §2; flag 27 addendum) [D][V]:
+
+- with V ≥ 0, H² > 0 at every epoch when k ≤ 0, so a flat or open universe never turns around;
+- in a closed universe the turnaround happens with V ≥ 0 throughout: τ passes its potential minimum, oscillates about it as dust, and curvature then reverses the expansion; with τ frozen at the hilltop there is none;
+- #11 §10's "eventually goes negative" and the handoff's "eventual negative V ⇒ turnaround" therefore name the wrong cause, and this page's identity has a turnaround to identify only if k = +1.
+
+Nothing in the program derives closure, and in the program's model class current data disfavour it at about 2σ; if the universe is closed, the data bound the turnaround's size and time only from below. The details are on [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-turnaround-needs-k--1-dv), and the numbers are checked by [the closed-universe script](/wiki/method/verification/closed-universe-script). The flag awaits Paul's ruling, and the note has not been reviewed.
 
 ## The supporting fits [T]
 
@@ -78,9 +91,9 @@ The phase-space-diameter note restates the conflict with one qualification from 
 
 Three cautions go with the figure:
 
-- The 93.8% figure appears only in #1 and has not been rechecked against the paper.
+- The 93.8% figure appears only in #1. The closed-universe investigation checked it against the paper: the paper fits a quartic potential V₀ + m²φ²/2 + λφ⁴/4 in a flat universe with the sign of the vacuum energy left free, and 93.8% is the posterior probability that the vacuum energy is negative, 12.2% for a future transition plus 81.6% for a vacuum already negative today. "Future transition … collapse" is the paper's own abstract wording; the description of the fitted potential is not. Of #11's three citations only [19] supports the clause, since [20] fits V₀[1 + cos] with null spatial curvature and mentions no anti-de Sitter phase or collapse (flag 45 in `review/wiki-build-flags.md`).
 - #9 §8 cites the same fits with the tag "[T — refresh citations before publication]"; #11 marks the reference [S], retrieved by live search.
-- The fits use a potential with a negative minimum, which the program's potential as written does not have (the conflict above).
+- The fits use a potential with a negative minimum, which the program's potential as written does not have (the conflict above). Neither paper bears on the program's V ≥ 0 potential, whose closed future is a recollapse with positive energy (flag 45).
 
 ## The test: row 5
 
@@ -92,7 +105,7 @@ The near-term proxy is [row 4: thawing dark energy, never phantom](/wiki/predict
 
 ## Timing
 
-The turnaround time t_turn is the third of three observables, (w₀, wₐ, t_turn), that #11 §10 says are fixed by two parameters (f, τᵢ): "one over-constraint". The lab notebook adds that V₀ is "fixed by Ω_DE" (#1 §7 item 4). No document computes t_turn. See [the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint).
+The turnaround time t_turn is the third of three observables, (w₀, wₐ, t_turn), that #11 §10 says are fixed by two parameters (f, τᵢ): "one over-constraint". The lab notebook adds that V₀ is "fixed by Ω_DE" (#1 §7 item 4). No program document before the closed-universe note computes t_turn. In a closed universe the note gives t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^{−3/2}/H₀, with Ω_d τ's dust-like density referred to today, so at fixed (w₀, wₐ) the curvature is a third input and the over-constraint moves to (f, τᵢ, Ω_k) (flag 46); the data bound t_turn only from below, more than 6.015×10⁵ Gyr at the 95% bound given closure (`notes/closed-universe.md` §2, §3) [D][V]. See [the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint).
 
 ## The diameter relation's square
 
@@ -107,6 +120,7 @@ The phase-space-diameter note answers the question for this bounce (`papers/phas
 - **`HANDOFF.md` §2.** "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)".
 - **#11 §10, §13 row 5.** The current statement. The row drops "after V(τ) < 0".
 - **The phase-space-diameter note, version 1.1 (2026-10-26), §6.** The diameter relation's rectangle is at its most elongated at a turnaround, and its chat-only square "at the bounce" is withdrawn; the conflict over V(τ) is restated for the spatially flat universe (round-5 ruling R11).
+- **The closed-universe note (2026-10-27), §2.** With the potential as written the turnaround needs k = +1; the flag-27 addendum and flags 45, 46 and 50 follow from it. Not reviewed.
 
 ## Sources
 
@@ -123,3 +137,6 @@ The phase-space-diameter note answers the question for this bounce (`papers/phas
 - `papers/phase-space-diameter.md` §6 — the rectangle most elongated at a turnaround; the square withdrawn; the conflict over V(τ) in a spatially flat universe
 - `verify/phase_space_diameter.py` 'Where the radiation rectangle is square, lambda = l_P (note §6)' — the epoch of the square, and the aspect ratio's maximum at a turnaround
 - `review/round5-adjudication.md` 'Rulings' R11, 'Recommendations to Paul' — the flatness qualification; the recommendation to accept flag 24
+- `notes/closed-universe.md` §2, §3 — the turnaround needs k = +1, size and timing, the conditions and the prior art, the data; computed, not reviewed
+- `verify/closed_universe.py` section B — the closed histories and the contrasts
+- `review/wiki-build-flags.md` items 27 (addendum), 45, 46 and 50 — the closed turnaround, the 93.8% figure and the compound citation, the over-constraint with Ω_k, the conditions and prior art of R11; awaiting Paul's ruling

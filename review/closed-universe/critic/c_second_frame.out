@@ -1,0 +1,36 @@
+=== (1) flatness of f = -X^2 dt^2 + Y^2 gamma_k ===
+  k = +1: nonzero Riemann numerators (up to factors):
+      -(-X(t)*Derivative(Y(t), (t, 2)) + Derivative(X(t), t)*Derivative(Y(t), t))*Y(t)
+      X(t)*Derivative(Y(t), (t, 2)) - Derivative(X(t), t)*Derivative(Y(t), t)
+      -(-X(t)*Derivative(Y(t), (t, 2)) + Derivative(X(t), t)*Derivative(Y(t), t))*Y(t)*sin(chi)**2*sin(theta)**2
+      -X(t)**2 - Derivative(Y(t), t)**2
+  k = +0: nonzero Riemann numerators (up to factors):
+      -(-X(t)*Derivative(Y(t), (t, 2)) + Derivative(X(t), t)*Derivative(Y(t), t))*Y(t)
+      X(t)*Derivative(Y(t), (t, 2)) - Derivative(X(t), t)*Derivative(Y(t), t)
+      chi**2*sin(theta)**2*Derivative(Y(t), t)**2
+      chi**2*Derivative(Y(t), t)**2
+     candidate {X(t): 1, Y(t): 1}: max |Riemann component| at 5 random points each = 0.0e+00 (flat if ~0)
+  k = -1: nonzero Riemann numerators (up to factors):
+      -(-X(t)*Derivative(Y(t), (t, 2)) + Derivative(X(t), t)*Derivative(Y(t), t))*Y(t)
+      -(-X(t)*Derivative(Y(t), (t, 2)) + Derivative(X(t), t)*Derivative(Y(t), t))*Y(t)*sin(theta)**2*sinh(chi)**2
+      X(t)*Derivative(Y(t), (t, 2)) - Derivative(X(t), t)*Derivative(Y(t), t)
+      (-X(t) + Derivative(Y(t), t))*(X(t) + Derivative(Y(t), t))*sinh(chi)**2
+     candidate {X(t): 1, Y(t): t}: max |Riemann component| at 5 random points each = 9.6e-17 (flat if ~0)
+  k = +1: the spatial-spatial component requires (Ydot/X)^2 + 1 = 0 -> no real flat closed slicing
+  k=+1, R^chi_theta chi theta = (X(t)**2 + Derivative(Y(t), t)**2)*sin(chi)**2/X(t)**2
+
+=== (2)-(3) Bianchi constraint for frozen references ===
+  fixed scale Y = Y0: constraint = -(Y0**2*beta3 + 2*Y0*beta2*a(t) + beta1*a(t)**2)*Derivative(a(t), t)
+  Milne (flat, k = -1): X = 1, Y = t: constraint = -(-N(t) + Derivative(a(t), t))*(beta1*a(t)**2 + 2*beta2*t*a(t) + beta3*t**2)
+  closed de Sitter reference: X = 1, Y = cosh(Hf t)/Hf: constraint = -(-N(t)*sinh(H_f*t) + Derivative(a(t), t))*(H_f**2*beta1*a(t)**2 + 2*H_f*beta2*a(t)*cosh(H_f*t) + beta3*cosh(H_f*t)**2)/H_f**2
+  fixed scale: the factor (N*0 - adot) forces adot = 0 unless the polynomial vanishes (a pinned to a root)
+  Milne / closed dS: N Ydot = adot is solvable for the lapse N -> the constraint does not forbid expansion
+
+=== (4) program branch: y = Y/a in (0, 1] ===
+  d rho_hat/dy = -(12*s*y**3 + 3*y**4 + 8*y**3 + 1)/(3*y**2)
+  s =   -0.9: rho_hat(1) = 0.0e+00, min over (0,1] = 0.000e+00, monotone decreasing: True, rho_hat(1e-4) = 3.333e+03
+  s =      0: rho_hat(1) = 0.0e+00, min over (0,1] = 0.000e+00, monotone decreasing: True, rho_hat(1e-4) = 3.335e+03
+  s =      1: rho_hat(1) = 0.0e+00, min over (0,1] = 0.000e+00, monotone decreasing: True, rho_hat(1e-4) = 3.337e+03
+  s =     10: rho_hat(1) = 0.0e+00, min over (0,1] = 0.000e+00, monotone decreasing: True, rho_hat(1e-4) = 3.355e+03
+  s =    100: rho_hat(1) = 0.0e+00, min over (0,1] = 0.000e+00, monotone decreasing: True, rho_hat(1e-4) = 3.535e+03
+  -> every density rho >= 0 is reached once with y in (0, 1]; Y = y a grows with a; boundedness of y says nothing about the size of the universe

@@ -20,6 +20,9 @@ sources:
   - "notes/broken-born-theory.md §9 row 6"
   - "notes/broken-born-program-v1.md §9 row 5"
   - "review/wiki-build-flags.md item 27"
+  - "review/wiki-build-flags.md items 27 (addendum), 45, 53"
+  - "notes/closed-universe.md §2"
+  - "notes/closed-universe.md §6"
 ---
 
 *De Sitter space is the spacetime of a universe that contains nothing but a positive [cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant), an energy density of empty space that stays the same as space expands. Its expansion rate, the Hubble rate H, never changes, so the distances between distant galaxies grow exponentially, and every observer is surrounded by a horizon beyond which events can never be seen. Its curvature is the same at every point and in every direction; anti-de Sitter space is the counterpart for a negative cosmological constant. With a positive cosmological constant as its [dark energy](/wiki/cosmology/dark-energy), standard cosmology expects our universe to approach de Sitter space as matter thins: "Eternal de Sitter" is the standard expectation of the program's [row 5](/wiki/predictions/fate-of-expansion), where the program requires instead a far-future turnaround whose premise is unresolved. De Sitter space is also the background on which a massive spin-2 field, a graviton with mass, must satisfy the [Higuchi bound](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound), the setting of [partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity), and, in two dimensions, the space of values of the field K in the program's first [toy model](/wiki/symmetry-breaking/toy-models/coset-model), where its metric, positive in one direction and negative in the other, would give a [ghost](/wiki/gravity/spin-2-fields/ghosts): a mode with negative energy.*
@@ -96,7 +99,7 @@ Anti-de Sitter space is the maximally symmetric spacetime with Λ < 0. It is als
 
 A negative cosmological constant cannot drive an expansion on its own: for a flat universe the Friedmann equation 3M_P²H² = ρ has no solution when the total density ρ is negative. With matter present, a flat universe with Λ < 0 expands while the matter density exceeds −ρ_Λ, halts when the two cancel and H = 0, and then contracts toward a collapse [T]. The spacetime of a negative vacuum energy alone is anti-de Sitter, so this sequence is described as a transition to anti-de Sitter space followed by collapse. A field that settles where its potential is negative acts as a negative cosmological constant and produces the same sequence ([recollapse](/wiki/cosmology/dark-energy/quintessence#recollapse-t)).
 
-The program cites fits of this kind: #11 §10 reports "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". Its own [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce) needs the vacuum energy to become negative, but the potential the documents write for the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence), V₀[1 + cos(τ/f)], is never negative for V₀ > 0. The conflict is unresolved ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
+The program cites fits of this kind: #11 §10 reports "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]"; flag 45 in `review/wiki-build-flags.md` finds that only [19] supports the clause, [20] fitting V₀[1 + cos] with null spatial curvature and mentioning no anti-de Sitter phase or collapse. Its own [turnaround](/wiki/cosmology/scale-factor-duality/conjugate-bounce) needs the vacuum energy to become negative, but the potential the documents write for the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence), V₀[1 + cos(τ/f)], is never negative for V₀ > 0. The conflict is unresolved ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). The flag's addendum (2026-10-27) finds that a closed universe turns around with that potential, curvature reversing the expansion while V ≥ 0, so the turnaround needs a closed universe rather than an anti-de Sitter phase ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-turnaround-needs-k--1-dv)).
 
 ## How the program uses de Sitter space
 
@@ -108,7 +111,7 @@ Row 5 of the [predictions table](/wiki/predictions), #11 §13:
 | --- | --- | --- | --- |
 | Fate of expansion | Eternal de Sitter | Turnaround = conjugate bounce | (Long horizon; near-term test is row 4) |
 
-"Eternal de Sitter" is the far future described above: with a positive cosmological constant, the universe approaches de Sitter space and expands forever. The program requires instead that the expansion halt and reverse, and through the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1 it reads that event as [the conjugate universe's bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce). The turnaround needs a negative vacuum energy, the anti-de Sitter sign, which τ's potential as written does not reach (flag 27, above).
+"Eternal de Sitter" is the far future described above: with a positive cosmological constant, the universe approaches de Sitter space and expands forever. The program requires instead that the expansion halt and reverse, and through the [cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) a·ã = 1 it reads that event as [the conjugate universe's bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce). The turnaround needs a negative vacuum energy, the anti-de Sitter sign, which τ's potential as written does not reach (flag 27, above), unless the universe is closed, in which case curvature supplies the reversal (flag 27 addendum).
 
 The standard-expectation column reads "Eternal de Sitter" in all three versions of the table (#1 §9 row 6; #9 §9 row 5; #11 §13 row 5). The [lab notebook](/wiki/history/documents/lab-notebook)'s requirement named the anti-de Sitter transition directly: "Turnaround after V(τ)<0; AdS transition preferred by current quintessence fits" (#1 §9 row 6, transcribed from its LaTeX), AdS being anti-de Sitter ([history of the predictions table](/wiki/predictions/table-history)).
 
@@ -124,7 +127,7 @@ For masses between zero and the bound, the helicity-0 polarization has negative 
 
 At the edge of the bound, m² = 2H², a scalar gauge symmetry removes the helicity-0 polarization, and the field is partially massless [T] ([the partially massless value](/wiki/gravity/spin-2-fields/partially-massless-gravity#the-partially-massless-value)). The edge exists only because de Sitter space has a curvature scale: at H = 0 it is m = 0, the ordinary massless graviton.
 
-A field much heavier than H meets the bound trivially. #14 §1: "The Higuchi bound m^2 >= 2H^2 [6] is satisfied trivially by the heavy field", the heavy field being X. The open question about X is a different one, its cosmological stability at equal Planck masses ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
+A field much heavier than H meets the bound trivially. #14 §1: "The Higuchi bound m^2 >= 2H^2 [6] is satisfied trivially by the heavy field", the heavy field being X. Flag 53 finds that the conclusion holds and the reasoning does not: with a fixed mass the argument fails once 2(H² + k/a²) > M_X², at TeV temperatures for the smallest M_X and during inflation unless M_X > √2·H_inf, while the bound still holds through X's dressed mass on the program's branch ([the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-higuchi-bound-holds-through-the-dressed-mass)). The open question about X is a different one, its cosmological stability at equal Planck masses ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
 
 ### Proportional de Sitter backgrounds in bimetric gravity
 
@@ -162,6 +165,7 @@ At H = 1 the vacua of model I form a circle on the hyperboloid, K(φ) = [[cos φ
 - [Partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity) — a spin-2 field on de Sitter space at the edge of the Higuchi bound, and the bimetric point with proportional de Sitter solutions.
 - [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the partially massless point at Λ ≠ 0, set against the flat vacuum of the identity.
 - [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the Higuchi bound, met trivially by a heavy X.
+- [The momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) — the Higuchi bound through the dressed mass (flag 53).
 - [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — K's target, dS₂, and the H-contracted kinetic term that avoids its ghost.
 - [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) — the non-compact hyperboloid along which the potential falls without bound.
 
@@ -178,4 +182,5 @@ At H = 1 the vacua of model I form a circle on the hyperboloid, K(φ) = [[cos φ
 - `verify/toy_coset.py` S1 — the two kinetic-term checks
 - `review/round4/referee/out_model1.txt` — the boost family on which K grows without limit with K² = 1, and the naive potential falls
 - `notes/broken-born-theory.md` §9 row 6; `notes/broken-born-program-v1.md` §9 row 5 — "Eternal de Sitter" in the earlier tables, and the first version's "AdS transition"
-- `review/wiki-build-flags.md` item 27 — the potential as written cannot turn negative
+- `review/wiki-build-flags.md` item 27 — the potential as written cannot turn negative; its addendum — the turnaround in a closed universe; item 45 — the compound citation for the anti-de Sitter fits; item 53 — the Higuchi bound's reasoning
+- `notes/closed-universe.md` §2 — the closed turnaround with V ≥ 0; §6 — the dressed Higuchi bound

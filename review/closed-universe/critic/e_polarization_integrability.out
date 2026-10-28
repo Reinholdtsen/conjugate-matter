@@ -1,0 +1,27 @@
+=== S^3 (radius R) ===
+  horizontal distribution Lagrangian: True
+  [H_1, H_2] = [0, 0, 2/R] e~ + [p2/R**2, -p1/R**2, 0] d/dp
+  every L_theta Lagrangian: True
+  [L_1, L_2] components outside L_theta (along the complement P_a):
+     P_1: ell**2*p2*sin(theta)**3/R**2
+     P_2: -ell**2*p1*sin(theta)**3/R**2
+     P_3: 0
+  integrable at: {'theta = 0 (x)': True, 'theta = pi/4': False, 'theta = pi/2 (mirror p)': False}
+
+=== flat T^3 ===
+  horizontal distribution Lagrangian: True
+  [H_1, H_2] = [0, 0, 0] e~ + [0, 0, 0] d/dp
+  every L_theta Lagrangian: True
+  [L_1, L_2] components outside L_theta (along the complement P_a):
+     P_1: 0
+     P_2: 0
+     P_3: 0
+  integrable at: {'theta = 0 (x)': True, 'theta = pi/4': True, 'theta = pi/2 (mirror p)': True}
+
+Result: the only out-of-L component is ell^2 p sin(theta)^3 / R^2 -- the curvature of S^3 times sin^3(theta).
+The 2/R term of [H_1, H_2] lies inside L. So within the Born-rotation family L_theta = e^{theta I}(vertical)
+only theta = 0 (and theta = pi, the same plane) is integrable on T*S^3; on T^3 every theta is.
+  |Omega_k| = 1e-02: curvature measure (L/R0)^2 for L = 1.0e+00 m: 5.309e-55
+  |Omega_k| = 1e-02: curvature measure (L/R0)^2 for L = 1.5e+26 m: 1.194e-02
+  |Omega_k| = 1e-05: curvature measure (L/R0)^2 for L = 1.0e+00 m: 5.309e-58
+  |Omega_k| = 1e-05: curvature measure (L/R0)^2 for L = 1.5e+26 m: 1.194e-05

@@ -15,6 +15,10 @@ sources:
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
   - "popsci/universes-other-half.md 'The other observers'"
   - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "notes/closed-universe.md §2"
+  - "notes/closed-universe.md §4"
+  - "notes/closed-universe.md §7"
+  - "review/wiki-build-flags.md items 27 (addendum), 48, 49"
 ---
 
 *In the current program the conjugate universe is a second description of our universe rather than a second world: the description of the one physical state in momentum variables, related to the ordinary description as a sound's spectrum is related to its waveform. It began as one of the program's founding suppositions, a second universe organized around momentum and existing alongside ours. Two derived relations turned it into a second description. The constancy of Planck's constant fixes the size of a cell of phase space, so as our universe expands its momentum-space description contracts by the same factor; and a derived translation rule says how energy described on the momentum side acts on our expansion. The two descriptions are synchronized rather than causally linked, so an event in one is the same event read in the other, which is how the program reads its predicted far-future halt and reversal of our expansion as a bounce of the conjugate universe. The idea that observers might live in the momentum description appears only in the popular articles and has no status in the program.*
@@ -67,7 +71,7 @@ E = ρ̃ ã³ ∝ ã^(−3w̃) = a^(3w̃)            its energy, using ã = 1/a
 | spatial curvature | −1/3 | dark radiation, negative for a closed dual space | +1/3 |
 | dust | 0 | dust | 0 |
 
-#11 §10 adds that "the dual Einstein term is an a⁻⁶ step in G_eff", an optional early-universe signature ([row 10](/wiki/predictions/early-universe-step)). #11 §15 counts the corrected dictionary as one of the two forced corrections that sharpened the hard core ([assessment](/wiki/program/assessment)).
+#11 §10 adds that "the dual Einstein term is an a⁻⁶ step in G_eff", an optional early-universe signature ([row 10](/wiki/predictions/early-universe-step)). Two points from the closed-universe note of 2026-10-27 qualify the table's third row and that sentence: a closed universe does not close the dual space, since in the record's geometry the momentum fibre stays flat, k̃ = 0, so the negative dark radiation needs a separate postulate (flag 48); and the dual Einstein–Hilbert term behind the a⁻⁶ step is derived in no document, so the step tests a postulate (flag 49) ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#how-small-momentum-space-gets)). #11 §15 counts the corrected dictionary as one of the two forced corrections that sharpened the hard core ([assessment](/wiki/program/assessment)).
 
 ## One event, two descriptions: the turnaround
 
@@ -75,7 +79,7 @@ Founding supposition 7, "Our expansion reverses at their bounce", has the fate "
 
 Two qualifications go with it:
 
-- **The sign of the potential.** The documents write τ's potential as V = V₀[1 + cos(τ/f)], which is never negative for V₀ > 0, while the turnaround needs it to go negative. No document resolves the conflict (see flag 27 in `review/wiki-build-flags.md`; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)).
+- **The sign of the potential.** The documents write τ's potential as V = V₀[1 + cos(τ/f)], which is never negative for V₀ > 0, while the turnaround needs it to go negative. No document resolves the conflict (see flag 27 in `review/wiki-build-flags.md`; [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). The flag's addendum (2026-10-27) finds that a closed universe turns around with V ≥ 0, so the one event of two descriptions exists if the universe is closed ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-turnaround-needs-k--1-dv)); read through reciprocity, the closed universe's position sphere of radius R appears as a momentum sphere of radius ħR/λ², largest at the turnaround ([the conjugate picture](/wiki/cosmology/scale-factor-duality/closed-universe#the-conjugate-picture-dv)).
 - **The horizon.** [Row 5](/wiki/predictions/fate-of-expansion) of #11's predictions table, "Turnaround = conjugate bounce", is "(Long horizon; near-term test is row 4)". [Row 4](/wiki/predictions/dark-energy-drift) is the [thawing drift](/wiki/cosmology/dark-energy/thawing-and-freezing) of dark energy that DESI is testing; Data Release 2 already "favors a crossing above z ≈ 0.4", against the framework's strict [w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) (#11 §13; [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
 
 ## What died: collapse as the source of acceleration
@@ -105,3 +109,5 @@ Neither #11 nor [#13](/wiki/conjugate-relativity) states or analyses the idea, a
 - `notes/broken-born-theory.md` §6 — the derivations of a·ã = 1 and w_eff = −w̃, and the dictionary table; §7 — the turnaround read through a·ã = 1 (lab notebook, superseded as reference; the results are carried by #11 §10)
 - `popsci/universes-other-half.md` 'Two descriptions of one thing', 'Dark energy as the orientation of the split' — the waveform–spectrum picture and the redshift gloss; 'The other observers' — the popsci-only speculation (popular article; not a status source)
 - `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' — the same speculation, offered as daydreaming (popular article)
+- `notes/closed-universe.md` §2 — the turnaround in a closed universe; §4 — the flat momentum fibre and the conjugate picture; §7 — the dual term underived
+- `review/wiki-build-flags.md` items 27 (addendum), 48 and 49 — the closed turnaround, the closed dual space and the underived dual term

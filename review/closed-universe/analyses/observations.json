@@ -1,0 +1,992 @@
+{
+ "summary": "I retrieved and quoted the observational and prior-art record on a spatially closed universe. All quotes are in facts.md. Derived numbers are in curvature_bounds.out and symbolic_checks.out. REPORT.md was not written because the harness refused report files, so this return carries its content.\n\nCurvature data:\n- The CMB alone prefers a closed universe. Planck 2018 TT,TE,EE+lowE gives Ω_K = −0.044 (+0.018/−0.015), with \"only about 1/10000 samples at Ω_K ≥ 0\". This preference weakens with the PR4 CamSpec likelihood and with ACT and SPT data.\n- In ΛCDM+Ω_K, CMB+BAO now disfavours the closed side at about 2σ:\n  - DESI DR2+CMB: 0.0023 ± 0.0011.\n  - SPT CMB-SPA+DESI: 0.0027 ± 0.0012.\n  - Giarè et al. 2026: P(Ω_k > 0) = 0.986.\n- With w₀wₐ dark energy the closed side reopens. DESI DR2+CMB+SN allow down to Ω_K ≈ −0.0014 to −0.0019 at 95%, which means R_c ≳ 100–117 Gpc and more than 5×10⁴ Hubble volumes.\n- DESI DR3 has not been released as of 2026-10-27.\n- If closure is real, it is either below the cosmic-variance floor (about 10⁻⁴) or it falsifies eternal inflation (Kleban–Schillo; Guth–Nomura).\n\nPrior art:\n- The τ potential V₀[1+cos(τ/f)] is the Frieman–Hill–Stebbins–Waga 1995 PNGB potential, which the record never cites.\n- Recollapse of a closed universe whose quintessence ends up oscillating in a minimum is published (Tipler et al. 2000/2007, crediting Barrow 1987).\n- Born 1938, verified from page images, transfers Einstein's closed universe (radius a) to a momentum hypersphere (radius b) with independent constants. He does not derive closure from reciprocity.\n- No source found derives closure from reciprocity.\n- Scale-factor duality fails for Bianchi IX (Clancy, Lidsey and Tavakol 1998). My sympy check of tree-level dilaton gravity agrees. T-duality maps S³ to S²×S¹ with flux (Bouwknegt, Evslin and Mathai).\n- Bigravity requires equal spatial curvature in both metrics (Comelli et al.). Curvature drops out of the scale-factor-ratio equation, so the aligned vacuum u = 1 survives k = +1.\n\n[19S] check: the 93.8% is in the abstract. It is the sum of 12.2% (future dS→AdS) and 81.6% (already AdS today), for a Higgs-like quartic in flat FRW. #1 misdescribes it.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "Planck 2018 TT,TE,EE+lowE (ΛCDM+Ω_K) gives Ω_K = −0.044^{+0.018}_{−0.015} at 68% (eq. 44b), with 99% region −0.095 < Ω_K < −0.007 and about 1/10000 samples at Ω_K ≥ 0.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1807.06209v4 §7.3 (ar5iv): \"Ω_K = −0.044^{+0.018}_{−0.015} (68 %, Planck TT,TE,EE+lowE), (44b) an apparent detection of curvature at well over 2σ. The 99 % probability region for the TT,TE,EE+lowE result is −0.095 < Ω_K < −0.007, with only about 1/10000 samples at Ω_K ≥ 0.\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C2",
+   "statement": "Planck 2018 quotes 95% limits Ω_K = −0.044^{+0.033}_{−0.034} (TT,TE,EE+lowE), −0.011^{+0.013}_{−0.012} (+lensing) and 0.0007^{+0.0037}_{−0.0037} (+lensing+BAO).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1807.06209 LaTeX table tab:grid_1paramext (\"Note that we quote 95 % limits here\"): \"\\Omega_K & -0.056^{+0.044}_{-0.050} & -0.044^{+0.033}_{-0.034} & -0.011^{+0.013}_{-0.012} & 0.0007^{+0.0037}_{-0.0037}\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C3",
+   "statement": "Planck 2018 TT,TE,EE+lowE+lensing+BAO gives Ω_K = 0.0007 ± 0.0019 (68%, eq. 45b), 'spatially flat to a 1σ accuracy of 0.2%'.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1807.06209 §7.3: \"Ω_K = 0.0007 ± 0.0019 (68 %, TT,TE,EE+lowE+lensing+BAO). The joint results suggests our Universe is spatially flat to a 1σ accuracy of 0.2 %.\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C4",
+   "statement": "Di Valentino, Melchiorri and Silk find Planck 2018 favours Ω_K < 0 with 99.985% posterior probability and |ln B01| = 3.3 for a flat prior −0.2 ≤ Ω_K ≤ 0.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1911.02087 LaTeX: \"we find that Planck favors a closed Universe ($\\Omega_K<0$) with  $99.985 \\%$  probability\"; \"|\\ln B_{01}| = 3.3\" ... \"closed models with $\\Omega_K$ in the prior range $[-0.2,0]$\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C5",
+   "statement": "Handley 2021 finds Planck 2018 without lensing or BAO gives Bayesian betting odds over 50:1 against a flat universe and a 2.5–3σ curvature tension with lensing and BAO.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1908.09139 abstract: \"measured using the suspiciousness statistic to be 2.5 to 3$\\sigma$ ... Planck 2018 has a moderate preference for closed universes, with Bayesian betting odds of over 50:1 against a flat universe, and over 2000:1 against an open universe.\"",
+   "confidence": 0.96
+  },
+  {
+   "id": "C6",
+   "statement": "Efstathiou and Gratton 2020 (CamSpec) find Ω_K = 0.0004 ± 0.0018 for TTTEEE+BAO+Pantheon+lensing and state the Planck spectra are consistent with flatness.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2002.06892 abstract: \"the Planck temperature and polarization spectra are consistent with a spatially flat Universe ... with Omega_ K = 0.0004 +/-0.0018\"",
+   "confidence": 0.96
+  },
+  {
+   "id": "C7",
+   "statement": "DESI DR1 BAO+CMB gives Ω_K = 0.0024 ± 0.0016 (eq. 24; Table 3: 10³Ω_K = 2.4 ± 1.6); the paper's Conclusions print the value with the opposite sign.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2404.03002v3: eq. (24) \"Ω_K = 0.0024 ± 0.0016 (DESI BAO+CMB)\"; Table 3 \"DESI+CMB & ... & $2.4\\pm1.6$\"; Conclusions \"with $\\Ok=-0.0024\\pm 0.0016$ in the simplest single-parameter extension\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C8",
+   "statement": "DESI DR1 w0waCDM+Ω_K gives Ω_K = 0.0003 ± 0.0018 (DESI+CMB+PantheonPlus), −0.0004 ± 0.0019 (+Union3), −0.0002 ± 0.0019 (+DESY5).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2404.03002v3 eqs. (34)-(36): \"Ω_K = 0.0003 ± 0.0018, DESI+CMB+PantheonPlus\" ... \"Ω_K = −0.0004 ± 0.0019, DESI+CMB+Union3\" ... \"Ω_K = −0.0002 ± 0.0019, DESI+CMB+DESY5\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C9",
+   "statement": "DESI DR2 Table 5 (ΛCDM+Ω_K) gives 10³Ω_K = 2.3 ± 1.1 for DESI+CMB, 25 ± 41 for DESI alone and −10.7^{+6.4}_{−5.3} for its CMB combination (Planck PR4 CamSpec + Planck/ACT lensing).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2503.14738v3 LaTeX Table 5: \"CMB & $0.354^{+0.020}_{-0.023}$ & $63.3\\pm 2.1$ & $-10.7^{+6.4}_{-5.3}$\"; \"DESI & $0.293\\pm 0.012$ & --- & $25\\pm41$\"; \"DESI+CMB & $0.3034\\pm 0.0037$ & $68.50\\pm 0.33$ & $2.3\\pm1.1$\"",
+   "confidence": 0.96
+  },
+  {
+   "id": "C10",
+   "statement": "DESI DR2 w0waCDM+Ω_K gives 10³Ω_K = 1.1 ± 1.3 (DESI+CMB+Pantheon+), 0.6 ± 1.3 (+Union3), 0.8 ± 1.3 (+DESY5).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2503.14738v3 Table 5 rows under w0waCDM+Ω_K: \"$1.1\\pm1.3$ & $-0.853\\pm 0.057$\"; \"$0.6\\pm1.3$ & $-0.678\\pm 0.092$\"; \"$0.8\\pm1.3$ & $-0.762\\pm 0.060$\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C11",
+   "statement": "ACT DR6 (P-ACT-LB, with DESI DR1 BAO) gives Ω_k = 0.0019 ± 0.0015 (eq. 59) and R_k > 105 Gpc at 95% for a closed universe.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2503.14454v2 §VII.1: \"Ω_k = 0.0019 ± 0.0015 (68%, P-ACT-LB), (59)\"; \"we find at 95\\% confidence $R_{k}>105$~Gpc or equivalently $R_{k}>343$ billion light-years for a closed universe\"; baseline BAO: \"DESI Year-1\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C12",
+   "statement": "ACT DR6 with DESI DR2 BAO gives Ω_k = 0.0018 ± 0.0011, 'in agreement with ΛCDM at 1.6σ'.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2503.14454v2 Appendix G.1: \"yielding $\\Omega_{k} = 0.0018 \\pm 0.0011$ (68\\%, \\textsf{P-ACT-LB$_{\\rm DR2}$}), in agreement with \\lcdm\\ at $1.6\\sigma$.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C13",
+   "statement": "SPT-3G D1 (v2) gives 100Ω_k = 0.27 ± 0.12 for CMB-SPA (Planck+SPT+ACT) + DESI DR2, reported as 2.5σ from flatness; CMB-SPA alone gives 100Ω_k = −0.85 ± 0.48.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2506.20707v2 §VII.4.4 LaTeX (\\replace new values): \"100\\curv & = -\\replace{0.88 \\pm 0.48}{0.85\\pm 0.48} ... \\cmball{}\"; \"\\replace{0.26 \\pm 0.11}{0.27\\pm 0.12} ... are $2.0\\,\\sigma$, $3.0\\,\\sigma$, and $2.\\replace{4}{5}\\,\\sigma$ away from spatial flatness\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C14",
+   "statement": "Giarè, Lee and Di Valentino (2026) find Ω_k = 0.0024 ± 0.0011 in ΛCDM+Ω_k for CMB(Planck+ACT+SPT)+DESI DR2+SNe with P(Ω_k>0) = 0.986, and 0.0011 ± 0.0013 / 0.0008 ± 0.0013 in w0waCDM+Ω_k.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2607.01226 §4: \"both CMB+DESI+PP and CMB+DESI+DD yield $\\Omega_k=0.0024\\pm0.0011$, corresponding to a posterior probability $\\mathcal P(\\Omega_k>0)=0.986$\"; \"$\\Omega_k=0.0011\\pm0.0013$ for CMB+DESI+PP and $\\Omega_k=0.0008\\pm0.0013$ for CMB+DESI+DD\"",
+   "confidence": 0.94
+  },
+  {
+   "id": "C15",
+   "statement": "In a Gaussian approximation, DESI DR2+CMB (ΛCDM+Ω_K) puts 1.8% posterior mass on Ω_K < 0 and its central 95% interval excludes the closed side (lower edge +0.0001).",
+   "tag": "[V]",
+   "evidence": "curvature_bounds.py: \"DESI DR2 BAO+CMB                           LCDM+K       +0.0023    +2.09    0.0183   +0.0001    1.96sig      none      none       none\"",
+   "confidence": 0.85
+  },
+  {
+   "id": "C16",
+   "statement": "In w0waCDM+Ω_K, DESI DR2+CMB+SNe allow closed curvature at 95% down to Ω_K ≈ −0.0014 (Pantheon+), −0.0019 (Union3), −0.0017 (DESY5), i.e. curvature radius ≥ 116.9, 100.8, 106.4 Gpc for H0 = 67.4.",
+   "tag": "[V]",
+   "evidence": "curvature_bounds.py: \"DESI DR2 BAO+CMB+Union3                    w0waCDM+K    +0.0006    +0.46    0.3222   -0.0019    1.96sig   100.8Gpc     54810   5.50e-04\" (and Pantheon+ row -0.0014, 116.9Gpc; DESY5 row -0.0017, 106.4Gpc)",
+   "confidence": 0.8
+  },
+  {
+   "id": "C17",
+   "statement": "At the loosest w0waCDM+Ω_K closed edge (Ω_K = −0.0019), the 3-sphere would hold at least about 5.5×10⁴ Hubble volumes and the last-scattering sphere would enclose at most 5.5×10⁻⁴ of its volume.",
+   "tag": "[D][V]",
+   "evidence": "curvature_bounds.py Union3 row: \"... -0.0019    1.96sig   100.8Gpc     54810   5.50e-04\" with N_U=(3π/2)|Ω_K|^(-3/2) and V(<χ*)/V=(2ψ−sin2ψ)/2π",
+   "confidence": 0.8
+  },
+  {
+   "id": "C18",
+   "statement": "The flat-ΛCDM comoving distance to last scattering computed with H0 = 67.4, Ω_m = 0.315, T0 = 2.7255 K is 13864.7 Mpc, within 0.06% of Planck 2018's r*/θ* = 13872.8 Mpc.",
+   "tag": "[V]",
+   "evidence": "curvature_bounds.py: \"chi_* (flat LCDM, z_* = 1089.92) = 13864.7 Mpc ; Planck 2018 anchor r_*/theta_* = 144.43 Mpc/0.0104110 = 13872.8 Mpc ; ratio 0.9994\"",
+   "confidence": 0.9
+  },
+  {
+   "id": "C19",
+   "statement": "ACT's closed-side bound R_k > 105 Gpc corresponds to |Ω_K| < 0.0018 (H0 = 67.4), looser than the Gaussian central-95% edge of its own 0.0019 ± 0.0015 (−0.00104, R_k = 137.9 Gpc).",
+   "tag": "[D][V]",
+   "evidence": "curvature_bounds.py: \"ACT P-ACT-LB quoted R_k > 105 Gpc (closed, 95%) <=> |Omega_K| < 0.00179 for c/H0 = 4448.0 Mpc\"; \"Gaussian central-95% lower edge     of 0.0019+-0.0015: -0.00104 -> R_k = 137.9 Gpc\"",
+   "confidence": 0.8
+  },
+  {
+   "id": "C20",
+   "statement": "SPT's CMB-SPA+DESI value 0.0027 ± 0.0012 is 2.25σ from flat by mean/σ, while SPT reports 2.5σ.",
+   "tag": "[V]",
+   "evidence": "curvature_bounds.py: \"SPT-3G D1 CMB-SPA+DESI DR2                 LCDM+K       +0.0027    +2.25    0.0122   +0.0003    1.96sig      none      none       none\"; SPT text \"2.\\replace{4}{5}\\,\\sigma\"",
+   "confidence": 0.85
+  },
+  {
+   "id": "C21",
+   "statement": "As of 2026-10-27 no DESI DR3 cosmology result is on arXiv: title searches for DESI DR3 return 0 results and a 2026-10-14 paper still forecasts 'DESI DR3 BAO'.",
+   "tag": "[S]",
+   "evidence": "export.arxiv.org API ti:\"DESI DR3\" → \"total 0\"; latest DESI Collaboration entry \"2026-07-29 ... DESI DR2 Results IV\"; arXiv:2610.20977 abstract: \"Forecasts on Advanced SO CMB and DESI DR3 BAO\"",
+   "confidence": 0.85
+  },
+  {
+   "id": "C22",
+   "statement": "Cosmic variance limits any measurement of Ω_K to about 1.5×10⁻⁵ (1σ) (Waterhouse and Zibin 2008).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:0804.1771 abstract: \"We find that Omega_K cannot be measured to better than about 1.5x10^(-5) (1 sigma)\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C23",
+   "statement": "Vardanyan, Trotta and Silk argue the geometry is not knowable below |Ω_K| ~ 10⁻⁴ and forecast σ ≈ 4.5×10⁻⁴ for a cosmic-variance-limited CMB plus SKA-like BAO.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:0901.3354 abstract: \"constrain curvature with a precision of about sigma ~ 4.5x10^{-4} ... the geometry of the Universe is not knowable if the value of the curvature parameter is below |Omega_curvature| ~ 10^{-4}\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C24",
+   "statement": "Leonard, Bull and Allison find the ~10⁻⁴ curvature floor unreachable by an order of magnitude even with Stage IV experiments.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1604.01410 abstract: \"the curvature floor is unreachable - by an order of magnitude - even with Stage IV experiments\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C25",
+   "statement": "Kleban and Schillo argue a measurement of Ω_k < −10⁻⁴ (closed) would rule out both slow-roll and false-vacuum eternal inflation.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1202.5037 abstract: \"a measurement of \\Omega_k < -10^-4 (which is positive curvature, a locally closed universe) rules out false-vacuum eternal inflation as well ... positive curvature falsifies both.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C26",
+   "statement": "Guth and Nomura find that positive curvature Ω_k < −10⁻⁴ would exclude the eternally inflating multiverse with high significance.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1203.6876 abstract: \"if future measurements find positive curvature at \\Omega_k < -10^-4, then the framework of the eternally inflating multiverse is excluded with high significance.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C27",
+   "statement": "Planck 2013 XXVI bounds positively curved topologies: R_i > 1.0χ_r (dodecahedron), > 1.0χ_r (truncated cube), > 0.9χ_r (octahedron).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1303.5086 abstract: \"in a positively curved Universe, $R_i>1.0\\chi_r$ for the dodecahedron; $R_i>1.0\\chi_r$ for the truncated cube; $R_i>0.9\\chi_r$ for the octahedron.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C28",
+   "statement": "COMPACT (Part Ic) bounds lens spaces L(p,q): p ≤ 9 if |Ω_K| ≃ 0.05 and p up to 24 if |Ω_K| ≃ 0.02.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2409.02226 abstract: \"if $\\vert\\Omega_K\\vert\\simeq 0.05$ then $p\\leq 9 $, while if $\\vert\\Omega_K\\vert\\simeq 0.02$, $p$ can be as high as 24.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C29",
+   "statement": "COMPACT (Part I) finds the shortest non-contractible loop through our location exceeds 98.5% of the last-scattering diameter, though loops avoiding us can be 2 to 6 times shorter.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2211.02603 abstract: \"the shortest non-contractible loop around the Universe through our location is longer than 98.5% of the comoving diameter of the last scattering surface ... shorter than the diameter of the last scattering surface by a factor ranging from 2 to at least 6\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C30",
+   "statement": "The program's dark-energy potential V0[1+cos(τ/f)] is the Frieman–Hill–Stebbins–Waga 1995 PNGB quintessence potential, which they analysed in a spatially flat universe.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:astro-ph/9505060 PostScript text: \"effective Lagrangian L = 1 2 @ \\026 \\036@ \\026 \\036 \\000 M 4 [cos \\( \\036=f \\) + 1] : \\(6\\)\" (= ½∂φ∂φ − M⁴[cos(φ/f)+1]) and \"H 2 = ... \\( \\032 m + \\032 \\036 \\) for a spatially \\015at univ erse\"",
+   "confidence": 0.9
+  },
+  {
+   "id": "C31",
+   "statement": "Frieman et al. state the PNGB field acts as a cosmological constant for several expansion times and then relaxes into oscillations that redshift as non-relativistic matter.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:astro-ph/9505060 abstract: \"The field acts as an effective cosmological constant for several expansion times and then relaxes into a condensate of coherent non-relativistic bosons.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C32",
+   "statement": "Tipler et al. (2000; MNRAS 2007) state that a closed universe with quintessence oscillating about a quadratic minimum recollapses because curvature falls as R⁻² while the quintessence falls as R⁻³.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:gr-qc/0003082 §7: \"With such a potential for the quintessence, recollapse would occur, since the curvature term in the Friedmann equation decreases as $R^{-2}$ whereas the quintessence term would eventually decrease like the matter, $R^{-3}$.\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C33",
+   "statement": "Tipler et al. credit Barrow with first pointing out that present acceleration need not preclude far-future recollapse of a closed universe.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:gr-qc/0003082 §7: \"Barrow (\\cite{Barrow1}, see also \\cite{Burd1}) was the first to point out that an accelerating universe today need not preclude a recollapse in the far future of a closed universe.\" (Barrow1 = Phys. Lett. B187 (1987) 12, †)",
+   "confidence": 0.9
+  },
+  {
+   "id": "C34",
+   "statement": "Barrow 2020 argues a finite-action universe must be spatially closed with evolving dark energy that collapses to a future singularity.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1912.12926 abstract: \"Compact spatial sections (ie a closed universe) ... The dark energy must evolve in a closed universe that collapses to a future singularity\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C35",
+   "statement": "Gialamas et al. (the program's [19S]) report in their abstract 'a 93.8% preference for a future transition into an anti-de Sitter space'.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2506.21542 (v1 and v2) abstract: \"reveals a $93.8\\%$ preference for a future transition into an anti-de Sitter space, which may ultimately lead to a cosmological collapse of our Universe.\"",
+   "confidence": 0.98
+  },
+  {
+   "id": "C36",
+   "statement": "In Gialamas et al. the 93.8% splits into 12.2% (dS today, AdS in future) and 81.6% (already AdS today), with 6.2% remaining dS at all times.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2506.21542v2 LaTeX: \"the probability of remaining in a dS phase at all times is $6.2\\%$, the probability of transitioning from a dS phase today to an AdS phase in the future is $12.2\\%$, and the probability of already being in an AdS phase today is $81.6\\%$.\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C37",
+   "statement": "12.2% + 81.6% = 93.8%, and adding 6.2% gives 100%.",
+   "tag": "[V]",
+   "evidence": "curvature_bounds.py: \"Gialamas et al. (PRD 112, 063551): P(dS today -> AdS future) + P(AdS today) = 12.2 + 81.6 = 93.8 % ; plus P(dS always) 6.2 -> total 100.0 %\"",
+   "confidence": 0.99
+  },
+  {
+   "id": "C38",
+   "statement": "Gialamas et al.'s 93.8% model is a Higgs-like quartic V0 + ½m²φ² + ¼λφ⁴ in a spatially flat FRW background, and 93.8% is the posterior preference for a negative vacuum energy.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2506.21542v2 Conclusions: \"a Higgs-like potential of the form $ V(\\phi) = V_0 + \\frac{1}{2} m^2 \\phi^2 + \\frac{1}{4} \\lambda \\phi^4,$ ... we found that a negative vacuum energy is preferred at the $\\sim 93.8\\%$ level.\"; §2: \"Assuming standard general relativity in a spatially flat Friedmann–Robertson–Walker (FRW) background\"",
+   "confidence": 0.96
+  },
+  {
+   "id": "C39",
+   "statement": "Born 1938 (p. 293) takes Einstein's static closed universe, with an upper distance limit set by its radius a, and transfers this consideration to p-space.",
+   "tag": "[T][S]",
+   "evidence": "Proc. R. Soc. A 165, 293 (Internet Archive dli.ernet.27020 leaf n305 image): \"It is well known that these equations have a static solution corresponding to a closed (hyperspheric) world filled with matter of uniform density. Therefore there exists an upper limit for the distance between two points, given by the radius a of the universe. Let us transfer this consideration to the p-space.\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C40",
+   "statement": "Born 1938 gives momentum space its own field-equation constants λ′, κ′ and leaves their connection to λ, κ undecided.",
+   "tag": "[T][S]",
+   "evidence": "Born 1938 p. 294 (leaf n306 image): \"where λ′ and κ′ are constants. Whether these nuclear constants are connected with the corresponding molar constants λ, κ cannot be decided yet.\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C41",
+   "statement": "Born 1938 restricts the momentum hypersphere of radius b to energetically closed systems, explicitly not every system (cosmic rays).",
+   "tag": "[T][S]",
+   "evidence": "Born 1938 p. 294 §3: \"there is an upper limit for momenta, determined by the radius b of the hypersphere. The systems to which this idea is applicable must be energetically closed; it certainly does not apply to every system, as we know the existence of particles with any amount of momentum and energy (cosmic rays).\"",
+   "confidence": 0.97
+  },
+  {
+   "id": "C42",
+   "statement": "Born 1938 eq. (9) gives a finite number of states n = gπ²Vb³/h³ in a volume V, and asks whether b is universal or characteristic of each energetically closed system.",
+   "tag": "[T][S]",
+   "evidence": "Born 1938 p. 296 (leaf n308 image): \"The total number of quantum states in V is finite, namely, n = ... = g π²Vb³/h³. (9) The important question arises whether the constant b is universal, or characteristic for each energetically closed system.\"",
+   "confidence": 0.96
+  },
+  {
+   "id": "C43",
+   "statement": "Substituting the 3-sphere volume V = 2π²a³ into Born's eq. (9) gives n = 2π⁴g(ab/h)³; Born's momentum integral covers π²b³, half of the momentum 3-sphere's 2π²b³.",
+   "tag": "[D][V]",
+   "evidence": "symbolic_checks.py: \"with V = 2 pi^2 a^3 (3-sphere of radius a): n = 2*pi**4*a**3*b**3*g/h**3  = 2*pi^4*g*(a*b/h)^3 ? True\"; \"volume of the |p|<b patch ...: pi**2*b**3 ; full S^3 of radius b: 2*pi^2*b^3 -> ratio 1/2\"",
+   "confidence": 0.9
+  },
+  {
+   "id": "C44",
+   "statement": "Majid and Schroers show that in Euclidean 3D gravity semidualisation (quantum Born reciprocity) maps the Λ=0 spin model to a quantum particle on a three-sphere and interchanges m_p and l_c = 1/√|Λ|.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:0806.2587 abstract: \"the spin model based on $D(U(su_2))$ for quantum gravity without cosmological constant is the semidual of a quantum particle on a three-sphere ... semidualisation interchanges $m_p\\leftrightarrow l_c$, where $l_c$ is the cosmological length scale $l_c=1/\\sqrt{|\\Lambda|}$.\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C45",
+   "statement": "Kowalski-Glikman and Smolin's triply special relativity curves both position and momentum spaces ([X,X] ∝ 1/κ², [P,P] ∝ 1/R², Λ = R⁻²), giving a phase space like a product of two de Sitter spaces.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:hep-th/0406276: \"$[X_\\mu, X_\\nu] = \\frac1{\\kappa^2}\\, M_{\\mu\\nu}, \\quad [P_\\mu, P_\\nu] = \\frac1{R^2}\\, M_{\\mu\\nu}$ ... Thus we can imagine the phase space as being composed of the product of  two de Sitter spaces\"; abstract \"$\\Lambda = R^{-2}$\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C46",
+   "statement": "In the Euclidean Snyder–de Sitter model, invariant under Born reciprocity, phase space is the Grassmannian Gr(3,5) and both position and momentum operators have discrete spectra.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1501.01447: \"invariant under the Born reciprocity for exchange of positions and momenta ... Both the position and momentum operators turn out to have a discrete spectrum.\"; \"$Gr(3,5)=SO(5)/SO(3)\\times SO(2)$\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C47",
+   "statement": "Turaev–Viro gravity has a cosmological constant 4π²/k² + O(k⁻⁴) with q^{2k} = 1 (Mizoguchi–Tada); Major–Smolin take q = e^{iħ²G²Λ/6} in 4D.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:hep-th/9110057 abstract: \"The regularization dependent cosmological constant is found to be ${4π^2\\over k^2} +O(k^{-4})$, where $q^{2k}=1$.\"; arXiv:gr-qc/9512020 source abstract: \"The  deformation parameter, $q$, is $e^{ i \\hbar^2 G^2 \\Lambda /6}$\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C48",
+   "statement": "Fischler and Susskind's cosmological holographic bound appears violated by positively curved closed universes; Bousso's N-bound explicitly includes recollapsing universes.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:hep-th/9806039: \"This seems to indicate that positively curved closed   universes are inconsistent with the \\hp \\ .\"; arXiv:hep-th/0010252 abstract: \"This holds for all space-times with a positive cosmological constant, including cosmologies dominated by ordinary matter, and recollapsing universes.\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C49",
+   "statement": "Recent work argues the Hilbert space of a closed universe is one-dimensional (Harlow–Usatyuk–Zhao; Usatyuk–Wang–Zhao; McNamara–Vafa for baby universes), while Abdalla et al. argue that relative to an observer its dimension scales as exp(1/G_N).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:2501.02359: \"the Hilbert space of quantum gravity in a closed universe is one-dimensional and real\"; arXiv:2501.02632: \"In the case of closed universes, the Hilbert space is not one-dimensional ... its dimension scales exponentially with $G_N^{-1}$.\"",
+   "confidence": 0.92
+  },
+  {
+   "id": "C50",
+   "statement": "von Strauss et al. assume both bimetric FRW metrics share spatial curvature k, and the curvature enters both Friedmann equations only alongside H², so it drops out of their quartic for Υ = Y/a.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1111.1655: \"we also assume both metrics to have the same spatial curvature $k=0,\\pm1$\"; both equations contain \"-\\frac{H^2}{m^2} -\\frac{k}{m^2 a^2}\"; \"Subtracting these two equations to eliminate $H^2$ gives in general a quartic equation for $\\Upsilon$\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C51",
+   "statement": "Subtracting von Strauss et al.'s two Friedmann equations eliminates H and k and reproduces their quartic; with palindromic couplings and ρ = 0 it factorizes as (Υ−1)(Υ+1)(β1Υ²+(3β2−β0)Υ+β1)/3 for any k, so the aligned vacuum Υ = 1 survives k = +1 in this ansatz.",
+   "tag": "[D][V]",
+   "evidence": "symbolic_checks.py: \"U*(Fg - Ff) contains H? False ; contains k? False\"; \"U*(Fg - Ff) equals their quartic (eq. 'quartic')? True\"; \"factor -> (Upsilon - 1)*(Upsilon + 1)*(Upsilon**2*beta1 - Upsilon*beta0 + 3*Upsilon*beta2 + beta1)/3\"",
+   "confidence": 0.85
+  },
+  {
+   "id": "C52",
+   "statement": "Comelli, Crisostomi, Nesti and Pilo show unequal spatial curvatures (k1 ≠ k2) in bigravity force a = const and H = 0, so the two metrics must share k; with a frozen flat second metric only negative curvature (open) FRW exists.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:1111.1983: \"The previous equation is algebraic in $a$ and it gives $a=$constant and $H=0$.  Thus, in order to obtain a reasonable cosmology we are forced to set $k_1 = k_2=k_c$\"; \"FRW cosmology with frozen second metric exists only with a negative non-vanishing spatial curvature\"",
+   "confidence": 0.92
+  },
+  {
+   "id": "C53",
+   "statement": "Higuchi's bound forbids a spin-2 mass squared between 0 and 2/3 of the cosmological constant in de Sitter; Fasiello–Tolley's bigravity generalization is derived for spatially flat FRW.",
+   "tag": "[T][S]",
+   "evidence": "INSPIRE abstract of Nucl. Phys. B 282, 397: \"the square of the mass M 2 cannot be between 0 (linearized gravity) and 2 3 × ( cosmological constant ) in the spin-2 case\"; arXiv:1308.1647 abstract: \"a cosmological bound on the graviton mass for spatially flat FRW solutions\"",
+   "confidence": 0.9
+  },
+  {
+   "id": "C54",
+   "statement": "Clancy, Lidsey and Tavakol find scale-factor duality exists in vacuum Brans–Dicke Bianchi types I, II, VI0 and VII0 but not in VIII and IX (IX contains closed FRW).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:gr-qc/9802053 abstract: \"duality symmetries exist for the types I, II, VI_0, VII_0, but not for types VIII and IX.\"",
+   "confidence": 0.92
+  },
+  {
+   "id": "C55",
+   "statement": "In tree-level string-frame dilaton gravity reduced on FRW, the k=0 Hamiltonian constraint φ̄̇² − 3α̇² = 0 is invariant under a → 1/a, but for k = +1 the curvature term 6e^{−2α} maps to 6e^{+2α}, breaking the duality.",
+   "tag": "[D][V]",
+   "evidence": "symbolic_checks.py: k=0 \"invariant under a -> 1/a (phibar fixed)?  True\"; k=1 \"constraint ... = -3*Derivative(alpha(t), t)**2 + Derivative(phibar(t), t)**2 + 6*exp(-2*alpha(t))\" / \"after alpha -> -alpha = 6*exp(2*alpha(t)) - ...\" / \"invariant ...?  False\"",
+   "confidence": 0.85
+  },
+  {
+   "id": "C56",
+   "statement": "T-duality along the Hopf fibre maps S³ without H-flux to S²×S¹ carrying one unit of H-flux (Bouwknegt, Evslin, Mathai).",
+   "tag": "[T][S]",
+   "evidence": "arXiv:hep-th/0306062: \"note that $S^3$ can be considered as an $S^1$-bundle over $S^2$ by means of the Hopf fibration.   By \\eqref{eqAf} its T-dual, in the absence of $H$-flux, is $S^2\\times S^1$ supported by 1 unit of $H$-flux.\"",
+   "confidence": 0.93
+  },
+  {
+   "id": "C57",
+   "statement": "No source was found deriving spatial closure from Born reciprocity in 8 arXiv-API abstract queries plus a web search; Born 1938 reasons in the opposite direction.",
+   "tag": "[S]",
+   "evidence": "novelty_search_log.out q1_1–q1_8, e.g. \"q1_4.xml | search_query=abs:reciprocity AND abs:\\\"closed universe\\\"\" \"total hits: 0\"; WebSearch returned no source linking Born reciprocity to closure",
+   "confidence": 0.7
+  },
+  {
+   "id": "C58",
+   "statement": "No abstract was found combining PNGB, axion or cosine dark energy with positive curvature and recollapse, although the general closed-universe recollapse mechanism is published.",
+   "tag": "[S]",
+   "evidence": "novelty_search_log.out: \"q2_6.xml | search_query=abs:axion AND abs:\\\"closed universe\\\" AND abs:\\\"dark energy\\\"\" total hits: 0; \"q2_20.xml | search_query=abs:PNGB AND abs:curvature AND abs:\\\"dark energy\\\"\" total hits: 0; \"q2_15.xml ... abs:axion AND abs:curvature AND abs:recollapse\" total hits: 0",
+   "confidence": 0.65
+  },
+  {
+   "id": "C59",
+   "statement": "Chen and Zaldarriaga describe the DESI+CMB preference as negative (open) curvature with R_k = 21 H0⁻¹, equivalent to Ω_K = +0.00227.",
+   "tag": "[T][S][V]",
+   "evidence": "arXiv:2505.00659 abstract: \"a small but negative spatial curvature with $R_k = 21 H_0^{-1}$, which DESI measures at $2\\sigma$ when combined with CMB data\"; curvature_bounds.py: \"Chen-Zaldarriaga R_k = 21 c/H0  <=>  Omega_K = (c/H0/R_k)^2 = 0.00227 (open side, k = -1)\"",
+   "confidence": 0.9
+  },
+  {
+   "id": "C60",
+   "statement": "Born 1949 (Rev. Mod. Phys. 21, 463) and Yang 1947 (Phys. Rev. 72, 874) could not be retrieved in this task.",
+   "tag": "[O]",
+   "evidence": "curl to journals.aps.org/rmp/pdf/10.1103/RevModPhys.21.463: \"403 5495 text/html\"; WebFetch of PhysRev.72.874: \"The full article is behind a login and purchase wall\"",
+   "confidence": 0.95
+  },
+  {
+   "id": "C61",
+   "statement": "Linde (2003) finds closed inflation possible only with about 1% fine-tuning; Freivogel et al. (2006) find landscape tunnelling implies an open universe.",
+   "tag": "[T][S]",
+   "evidence": "arXiv:astro-ph/0303245: \"with the fine-tuning at the level of about one percent one can obtain a semi-realistic model of a closed inflationary universe\"; arXiv:hep-th/0505232: \"This would imply that we live in an open FRW universe with negative spatial curvature.\"",
+   "confidence": 0.93
+  }
+ ],
+ "numbers": [
+  {
+   "quantity": "c/H0 for H0 = 67.4 km/s/Mpc",
+   "value": "4447.96 Mpc",
+   "script": "curvature_bounds.py",
+   "printed": "  c/H0 = 4447.96 Mpc = 4.4480 Gpc"
+  },
+  {
+   "quantity": "flat-LCDM comoving distance to z* = 1089.92 vs Planck r*/theta*",
+   "value": "13864.7 Mpc vs 13872.8 Mpc (ratio 0.9994)",
+   "script": "curvature_bounds.py",
+   "printed": "chi_* (flat LCDM, z_* = 1089.92) = 13864.7 Mpc ; Planck 2018 anchor r_*/theta_* = 144.43 Mpc/0.0104110 = 13872.8 Mpc ; ratio 0.9994"
+  },
+  {
+   "quantity": "Planck18 TT,TE,EE+lowE closed edge (quoted 95%) and R_c,min",
+   "value": "-0.0780; 15.9 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "Planck18 TT,TE,EE+lowE                     LCDM+K       -0.0440    -2.44    0.9927   -0.0780     quoted    15.9Gpc       216   1.20e-01"
+  },
+  {
+   "quantity": "Planck18 +lensing+BAO closed edge (quoted 95%), P(Omega_K<0) Gaussian, R_c,min",
+   "value": "-0.0030; 0.356; 81.2 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "Planck18 TT,TE,EE+lowE+lensing+BAO         LCDM+K       +0.0007    +0.37    0.3563   -0.0030     quoted    81.2Gpc     28679   1.05e-03"
+  },
+  {
+   "quantity": "DESI DR1 BAO+CMB (LCDM+K) closed edge and R_c,min",
+   "value": "-0.0007; 164.0 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "DESI DR1 BAO+CMB                           LCDM+K       +0.0024    +1.50    0.0668   -0.0007    1.96sig   164.0Gpc    236007   1.28e-04"
+  },
+  {
+   "quantity": "DESI DR2 BAO+CMB (LCDM+K) Gaussian P(Omega_K<0) and closed edge",
+   "value": "0.0183; +0.0001 (closed side excluded)",
+   "script": "curvature_bounds.py",
+   "printed": "DESI DR2 BAO+CMB                           LCDM+K       +0.0023    +2.09    0.0183   +0.0001    1.96sig      none      none       none"
+  },
+  {
+   "quantity": "SPT CMB-SPA+DESI DR2 mean/sigma and Gaussian P(Omega_K<0)",
+   "value": "2.25; 0.0122",
+   "script": "curvature_bounds.py",
+   "printed": "SPT-3G D1 CMB-SPA+DESI DR2                 LCDM+K       +0.0027    +2.25    0.0122   +0.0003    1.96sig      none      none       none"
+  },
+  {
+   "quantity": "Giare+26 CMB+DESI DR2+SN (LCDM+K) Gaussian P(Omega_K<0)",
+   "value": "0.0146 (paper: P(Omega_k>0)=0.986)",
+   "script": "curvature_bounds.py",
+   "printed": "Giare+26 CMB+DESI DR2+PP (or +DD)          LCDM+K       +0.0024    +2.18    0.0146   +0.0002    1.96sig      none      none       none"
+  },
+  {
+   "quantity": "ACT P-ACT-LB_DR2 closed edge and R_c,min",
+   "value": "-0.0004; 235.7 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "ACT DR6 P-ACT-LB_DR2                       LCDM+K       +0.0018    +1.64    0.0509   -0.0004    1.96sig   235.7Gpc    701562   4.31e-05"
+  },
+  {
+   "quantity": "DESI DR2+CMB+Pantheon+ (w0waCDM+K) closed edge, R_c,min, N_U, V(<chi*)/V",
+   "value": "-0.0014; 116.9 Gpc; 85524; 3.53e-4",
+   "script": "curvature_bounds.py",
+   "printed": "DESI DR2 BAO+CMB+Pantheon+                 w0waCDM+K    +0.0011    +0.85    0.1987   -0.0014    1.96sig   116.9Gpc     85524   3.53e-04"
+  },
+  {
+   "quantity": "DESI DR2+CMB+Union3 (w0waCDM+K) closed edge, R_c,min, N_U, V(<chi*)/V",
+   "value": "-0.0019; 100.8 Gpc; 54810; 5.50e-4",
+   "script": "curvature_bounds.py",
+   "printed": "DESI DR2 BAO+CMB+Union3                    w0waCDM+K    +0.0006    +0.46    0.3222   -0.0019    1.96sig   100.8Gpc     54810   5.50e-04"
+  },
+  {
+   "quantity": "DESI DR2+CMB+DESY5 (w0waCDM+K) closed edge and R_c,min",
+   "value": "-0.0017; 106.4 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "DESI DR2 BAO+CMB+DESY5                     w0waCDM+K    +0.0008    +0.62    0.2692   -0.0017    1.96sig   106.4Gpc     64481   4.68e-04"
+  },
+  {
+   "quantity": "ACT quoted R_k > 105 Gpc converted to |Omega_K|",
+   "value": "< 0.00179",
+   "script": "curvature_bounds.py",
+   "printed": "ACT P-ACT-LB quoted R_k > 105 Gpc (closed, 95%) <=> |Omega_K| < 0.00179 for c/H0 = 4448.0 Mpc"
+  },
+  {
+   "quantity": "Gaussian closed edge of ACT 0.0019 ± 0.0015 and implied R_k",
+   "value": "-0.00104; 137.9 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "  Gaussian central-95% lower edge     of 0.0019+-0.0015: -0.00104 -> R_k = 137.9 Gpc"
+  },
+  {
+   "quantity": "Chen-Zaldarriaga R_k = 21 c/H0 as Omega_K",
+   "value": "+0.00227 (open); 93.4 Gpc",
+   "script": "curvature_bounds.py",
+   "printed": "Chen-Zaldarriaga R_k = 21 c/H0  <=>  Omega_K = (c/H0/R_k)^2 = 0.00227 (open side, k = -1); R_k = 93.4 Gpc for c/H0 = 4448.0 Mpc"
+  },
+  {
+   "quantity": "Gialamas et al. 12.2% + 81.6%",
+   "value": "93.8%",
+   "script": "curvature_bounds.py",
+   "printed": "Gialamas et al. (PRD 112, 063551): P(dS today -> AdS future) + P(AdS today) = 12.2 + 81.6 = 93.8 % ; plus P(dS always) 6.2 -> total 100.0 %"
+  },
+  {
+   "quantity": "Born 1938 eq. (9) integral",
+   "value": "pi/4",
+   "script": "symbolic_checks.py",
+   "printed": "   int_0^1 xi^2/sqrt(1-xi^2) dxi = pi/4"
+  },
+  {
+   "quantity": "Born state count with V = 2 pi^2 a^3",
+   "value": "n = 2 pi^4 g (a b/h)^3",
+   "script": "symbolic_checks.py",
+   "printed": "   with V = 2 pi^2 a^3 (3-sphere of radius a): n = 2*pi**4*a**3*b**3*g/h**3  = 2*pi^4*g*(a*b/h)^3 ? True"
+  },
+  {
+   "quantity": "Fraction of momentum 3-sphere covered by Born's |p|<b integral",
+   "value": "1/2 (pi^2 b^3 of 2 pi^2 b^3)",
+   "script": "symbolic_checks.py",
+   "printed": "   volume of the |p|<b patch with Born's measure d^3p/sqrt(1-p^2/b^2): pi**2*b**3 ; full S^3 of radius b: 2*pi^2*b^3 -> ratio 1/2"
+  },
+  {
+   "quantity": "Palindromic proportional-background quartic at rho=0 (any k)",
+   "value": "(Y-1)(Y+1)(beta1 Y^2 + (3beta2 - beta0) Y + beta1)/3",
+   "script": "symbolic_checks.py",
+   "printed": "   palindromic vacuum check (rho*=0, Mstar=1, beta_n = beta_{4-n}): factor -> (Upsilon - 1)*(Upsilon + 1)*(Upsilon**2*beta1 - Upsilon*beta0 + 3*Upsilon*beta2 + beta1)/3"
+  },
+  {
+   "quantity": "Dilaton-gravity k=1 constraint under a -> 1/a",
+   "value": "not invariant (6e^{-2alpha} -> 6e^{+2alpha})",
+   "script": "symbolic_checks.py",
+   "printed": "          invariant under a -> 1/a (phibar fixed)?  False"
+  }
+ ],
+ "open": [
+  "REPORT.md was not written: the harness refused the Write call ('Subagents should return findings as text, not write report files'). Its content is in this return; facts.md and the scripts and outputs are in the folder.",
+  "No published fit of cosine (PNGB) quintessence plus Ω_K to DESI DR2+CMB+SN was found. The w0waCDM+Ω_K closed-side edge (|Ω_K| ≲ 0.0014–0.0019) is only a proxy for the program's model.",
+  "ACT's R_k > 105 Gpc (closed, 95%) is looser than the Gaussian reading of its 0.0019 ± 0.0015 (137.9 Gpc). Their method is not stated in the passage retrieved.",
+  "The DESI DR3 release date is unverified. Only search-engine summaries of conference slides give one (late 2026/early 2027; April 2027), and I could not read the slide PDFs.",
+  "Born 1949 (RMP 21, 463) and Yang 1947 (PR 72, 874) were not retrieved (APS 403/paywall). Their content stays †.",
+  "The Higuchi and Fasiello–Tolley bounds are derived for de Sitter and spatially flat FRW. No closed-FRW (k=+1) version was found.",
+  "Lens-space (S³/Z_p) bounds exist only for |Ω_K| ≃ 0.02–0.05. Nothing was found at the |Ω_K| ≲ 0.002 still allowed.",
+  "Whether the program's second (polarization) frame f is FRW in the same coordinates as g is not settled in the record. If it is, Comelli et al. require it to be closed with g. If f were frozen and flat, a closed g would be excluded.",
+  "Barrow 1987 (PLB 187, 12), Barrow–Galloway–Tipler 1986 (MNRAS 223, 835) and Felten–Isaacman 1986 were not retrieved (†).",
+  "The record's 'Comelli, Crisostomi and Pilo 2012' is the perturbations paper, JHEP 06 (2012) 085. The FRW-with-curvature analysis is the four-author Comelli, Crisostomi, Nesti, Pilo, JHEP 03 (2012) 067."
+ ],
+ "record_errors": [
+  "notes/broken-born-theory.md §7 item 3 says quintessence fits 'with a potential possessing a negative minimum find a 93.8% preference for a future transition to anti-de Sitter space'. In [19S] (arXiv:2506.21542) the fitted potential is a Higgs-like quartic V0 + ½m²φ² + ¼λφ⁴ whose minimum can have either sign. The 93.8% is the posterior probability that the vacuum energy is negative, and 81.6 of those 93.8 points are 'already being in an AdS phase today'; only 12.2% is a dS→AdS transition in the future. The fit assumes a spatially flat FRW background and is not a cosine potential. The quoted phrase itself does appear in the abstract.",
+  "papers/broken-born-checkpoint-v2.md §10 paraphrases [19S] as 'high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits', which carries the same slant. [19S] fits a potential of either sign of minimum, and most of its AdS probability is AdS today, not a future transition.",
+  "Several wiki pages say the 93.8% figure appears only in #1 and has not been rechecked: wiki/cosmology/scale-factor-duality/conjugate-bounce.md 'Cautions', wiki/predictions/fate-of-expansion.md, wiki/cosmology/dark-energy/quintessence.md, wiki/cosmology/dark-energy/potential-sign.md, wiki/history/documents/lab-notebook.md and wiki/references.md. The figure is now verified verbatim in the [19S] abstract (v1 and v2), and these pages should say so.",
+  "Prior-art gap: the τ potential V₀[1+cos(τ/f)] (#11 §10, #1 §3/§7) is the Frieman–Hill–Stebbins–Waga 1995 PNGB quintessence potential, L = ½(∂φ)² − M⁴[cos(φ/f)+1] (PRL 75, 2077). No document in the record cites it. That paper's flat-universe result bears on flag 27: the field relaxes into oscillations that redshift like matter, so there is no flat turnaround.",
+  "Prior-art gap: review/round5-adjudication.md R11 ('A closed universe can turn around with V ≥ 0') is published mechanism. Tipler et al. (gr-qc/0003082; MNRAS 379, 629) give the case of quintessence oscillating about a quadratic minimum, crediting Barrow 1987. If the program adopts closure, the turnaround should be tagged [T] with these citations, not [D].",
+  "Not a record error but cited-adjacent: DESI DR1 (arXiv:2404.03002v3) prints Ω_K = −0.0024 ± 0.0016 in its Conclusions, while its eq. (24) and Table 3 give +0.0024 ± 0.0016 (open). Any record use should take +0.0024.",
+  "Checked and found correct: every Born 1938 quotation in papers/phase-space-diameter.md §4 matches the page images (Proc. R. Soc. A 165, pp. 291–296)."
+ ],
+ "files": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/facts.md",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/curvature_bounds.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/curvature_bounds.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/symbolic_checks.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/symbolic_checks.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/novelty_search_log.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/novelty_search_log.out",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/h2t.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/tarsrc.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/absinfo.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/arxq.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/downloads/born1938/leaf_n303.jpg",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/downloads/born1938/leaf_n305.jpg",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/downloads/born1938/leaf_n306.jpg",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/downloads/born1938/leaf_n308.jpg",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/downloads/src_2506.21542.tgz",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/observations/downloads/novelty"
+ ],
+ "references": [
+  {
+   "citation": "Planck Collaboration, N. Aghanim et al., Planck 2018 results VI, A&A 641, A6 (2020), arXiv:1807.06209v4, §7.3 eqs. (44a,b), (45a,b), table tab:grid_1paramext",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1807.06209",
+   "quote": "The 99 % probability region for the TT,TE,EE+lowE result is −0.095 < Ω_K < −0.007, with only about 1/10000 samples at Ω_K ≥ 0."
+  },
+  {
+   "citation": "E. Di Valentino, A. Melchiorri, J. Silk, Nature Astronomy (2019), arXiv:1911.02087",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1911.02087",
+   "quote": "we find that Planck favors a closed Universe ($\\Omega_K<0$) with $99.985 \\%$ probability"
+  },
+  {
+   "citation": "W. Handley, Phys. Rev. D 103, L041301 (2021), arXiv:1908.09139",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1908.09139",
+   "quote": "Bayesian betting odds of over 50:1 against a flat universe, and over 2000:1 against an open universe"
+  },
+  {
+   "citation": "G. Efstathiou, S. Gratton, MNRAS Lett. (2020), arXiv:2002.06892",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2002.06892",
+   "quote": "with Omega_ K = 0.0004 +/-0.0018 in agreement with the 2018 results of the Planck team"
+  },
+  {
+   "citation": "DESI Collaboration, DESI 2024 VI, JCAP 02 (2025) 021, arXiv:2404.03002v3, eqs. (21)-(24), (34)-(36), Table 3",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2404.03002",
+   "quote": "The combined result from DESI BAO and all CMB information is Ω_K = 0.0024 ± 0.0016 (DESI BAO+CMB)."
+  },
+  {
+   "citation": "DESI Collaboration, DESI DR2 Results II, arXiv:2503.14738v3, Table 5",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2503.14738",
+   "quote": "we do not find a significance preference for a non-flat $\\Lambda$CDM model"
+  },
+  {
+   "citation": "T. Louis et al. (ACT), DR6 power spectra and ΛCDM, arXiv:2503.14452, eq. (46)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2503.14452",
+   "quote": "Ω_K = −0.004 ± 0.010 (68%, ACT)"
+  },
+  {
+   "citation": "E. Calabrese et al. (ACT), DR6 constraints on extended models, arXiv:2503.14454v2, §VII.1 eq. (59), App. G.1",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2503.14454",
+   "quote": "we find at 95\\% confidence $R_{k}>105$~Gpc or equivalently $R_{k}>343$ billion light-years for a closed universe"
+  },
+  {
+   "citation": "E. Camphuis et al. (SPT-3G), SPT-3G D1, arXiv:2506.20707v2, §VII.4.4",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2506.20707",
+   "quote": "are $2.0\\,\\sigma$, $3.0\\,\\sigma$, and $2.5\\,\\sigma$ away from spatial flatness, respectively"
+  },
+  {
+   "citation": "S.-F. Chen, M. Zaldarriaga, It's All Ok, arXiv:2505.00659v2",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2505.00659",
+   "quote": "a small but negative spatial curvature with $R_k = 21 H_0^{-1}$, which DESI measures at $2\\sigma$ when combined with CMB data"
+  },
+  {
+   "citation": "W. Giarè, D. H. Lee, E. Di Valentino, arXiv:2607.01226 (2026), §4",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2607.01226",
+   "quote": "$\\Omega_k=0.0024\\pm0.0011$, corresponding to a posterior probability $\\mathcal P(\\Omega_k>0)=0.986$"
+  },
+  {
+   "citation": "H. C. Turner, S. Dhawan, S. Vagnozzi et al., arXiv:2609.22470 (2026)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2609.22470",
+   "quote": "These nonparametric results mildly favour an open Universe"
+  },
+  {
+   "citation": "E. Specogna, T. Vardanyan, W. Giarè, E. Di Valentino, arXiv:2509.26263",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2509.26263",
+   "quote": "In \\texttt{plik} the preference for $\\Omega_{\\mathcal{K}}<0$ decreases from $\\gtrsim 3.5\\sigma$ to $\\sim 2.5\\sigma$"
+  },
+  {
+   "citation": "T. P. Waterhouse, J. P. Zibin, The cosmic variance of Omega, arXiv:0804.1771",
+   "status": "S",
+   "url": "https://arxiv.org/abs/0804.1771",
+   "quote": "Omega_K cannot be measured to better than about 1.5x10^(-5) (1 sigma)"
+  },
+  {
+   "citation": "M. Vardanyan, R. Trotta, J. Silk, MNRAS 397, 431 (2009), arXiv:0901.3354",
+   "status": "S",
+   "url": "https://arxiv.org/abs/0901.3354",
+   "quote": "the geometry of the Universe is not knowable if the value of the curvature parameter is below |Omega_curvature| ~ 10^{-4}"
+  },
+  {
+   "citation": "C. D. Leonard, P. Bull, R. Allison, PRD 94, 023502 (2016), arXiv:1604.01410",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1604.01410",
+   "quote": "the curvature floor is unreachable - by an order of magnitude - even with Stage IV experiments"
+  },
+  {
+   "citation": "DESI Collaboration, The DESI Experiment Part I, arXiv:1611.00036, table tab:FoM",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1611.00036",
+   "quote": "DESI 14k galaxy and Ly-$\\alpha$ forest BAO & 169 & 0.71 & 0.022 & 0.0011"
+  },
+  {
+   "citation": "M. Kleban, M. Schillo, JCAP 06 (2012) 029, arXiv:1202.5037",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1202.5037",
+   "quote": "positive curvature falsifies both"
+  },
+  {
+   "citation": "A. H. Guth, Y. Nomura, PRD 86, 023534 (2012), arXiv:1203.6876",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1203.6876",
+   "quote": "if future measurements find positive curvature at \\Omega_k < -10^-4, then the framework of the eternally inflating multiverse is excluded with high significance"
+  },
+  {
+   "citation": "B. Freivogel, M. Kleban, M. Rodríguez Martínez, L. Susskind, JHEP 03 (2006) 039, arXiv:hep-th/0505232",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0505232",
+   "quote": "This would imply that we live in an open FRW universe with negative spatial curvature."
+  },
+  {
+   "citation": "A. Linde, JCAP 0305:002 (2003), arXiv:astro-ph/0303245",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/0303245",
+   "quote": "with the fine-tuning at the level of about one percent one can obtain a semi-realistic model of a closed inflationary universe"
+  },
+  {
+   "citation": "Planck Collaboration, Planck 2015 XVIII, A&A 594, A18 (2016), arXiv:1502.01593",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1502.01593",
+   "quote": "$R_i>0.97\\chi_{rec}$ for the cubic torus and $R_i>0.56\\chi_{rec}$ for the slab"
+  },
+  {
+   "citation": "Planck Collaboration, Planck 2013 XXVI, A&A 571, A26 (2014), arXiv:1303.5086",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1303.5086",
+   "quote": "in a positively curved Universe, $R_i>1.0\\chi_r$ for the dodecahedron"
+  },
+  {
+   "citation": "P. Petersen et al. (COMPACT), Cosmic topology Part I, JCAP 01 (2023) 030, arXiv:2211.02603",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2211.02603",
+   "quote": "longer than 98.5% of the comoving diameter of the last scattering surface"
+  },
+  {
+   "citation": "S. Saha et al. (COMPACT), Cosmic topology Part Ic, JCAP 01 (2025) 004, arXiv:2409.02226",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2409.02226",
+   "quote": "if $\\vert\\Omega_K\\vert\\simeq 0.05$ then $p\\leq 9 $"
+  },
+  {
+   "citation": "M. M. Barandiaran et al. (COMPACT), Cosmic topology Part IId, arXiv:2610.12418 (2026)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2610.12418",
+   "quote": "for any value of the spatial curvature, however small, there are lens spaces and observer positions for which $0.985\\,d_{\\rm LSS}<d_{\\rm NC}<1.1\\,d_{\\rm LSS}$"
+  },
+  {
+   "citation": "J. Frieman, C. Hill, A. Stebbins, I. Waga, PRL 75, 2077 (1995), arXiv:astro-ph/9505060",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/9505060",
+   "quote": "The field acts as an effective cosmological constant for several expansion times and then relaxes into a condensate of coherent non-relativistic bosons."
+  },
+  {
+   "citation": "F. J. Tipler, J. Graber, M. McGinley, J. Nichols-Barrer, C. Staecker, MNRAS 379, 629 (2007), arXiv:gr-qc/0003082, §7",
+   "status": "S",
+   "url": "https://arxiv.org/abs/gr-qc/0003082",
+   "quote": "recollapse would occur, since the curvature term in the Friedmann equation decreases as $R^{-2}$ whereas the quintessence term would eventually decrease like the matter, $R^{-3}$"
+  },
+  {
+   "citation": "J. D. Barrow, Phys. Lett. B 187, 12 (1987); J. D. Barrow, G. J. Galloway, F. J. Tipler, MNRAS 223, 835 (1986)",
+   "status": "dagger",
+   "url": "",
+   "quote": ""
+  },
+  {
+   "citation": "D.-H. Zhang, arXiv:astro-ph/0110193 (2001)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/0110193",
+   "quote": "a simple ``slow-fast'' type of the quintessence potential is designed for the closed universe to realize the present acceleration of our universe and its eventual big collapse"
+  },
+  {
+   "citation": "G. F. R. Ellis, E. Platts, D. Sloan, A. Weltman, JCAP 04 (2016) 026, arXiv:1511.03076",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1511.03076",
+   "quote": "if dark energy decays in the future, chaotic cyclic universes exist provided the spatial curvature is positive"
+  },
+  {
+   "citation": "J. D. Barrow, PRD 101, 023527 (2020), arXiv:1912.12926",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1912.12926",
+   "quote": "The dark energy must evolve in a closed universe that collapses to a future singularity"
+  },
+  {
+   "citation": "J. D. Barrow, R. Bean, J. Magueijo, MNRAS 316, L41 (2000), arXiv:astro-ph/0004321",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/0004321",
+   "quote": "the observed spell of vacuum domination is only a transient phenomenon"
+  },
+  {
+   "citation": "R. Kallosh, J. Kratochvil, A. Linde, E. Linder, M. Shmakova, JCAP 10 (2003) 015, arXiv:astro-ph/0307185",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/0307185",
+   "quote": "even a flat universe may experience global collapse within a time comparable with its present age"
+  },
+  {
+   "citation": "G. Felder, A. Frolov, L. Kofman, A. Linde, PRD 66, 023507 (2002), arXiv:hep-th/0202017",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0202017",
+   "quote": "the universe reaches a turning point where its energy density vanishes, and then it contracts to a singularity"
+  },
+  {
+   "citation": "U. Alam, V. Sahni, A. A. Starobinsky, JCAP 0304 (2003) 002, arXiv:astro-ph/0302302",
+   "status": "S",
+   "url": "https://arxiv.org/abs/astro-ph/0302302",
+   "quote": "The second potential is the cosine, which can become negative as the field evolves, ensuring that a spatially flat universe collapses in the future."
+  },
+  {
+   "citation": "C. Andrei, A. Ijjas, P. J. Steinhardt, PNAS 119, e2200539119 (2022), arXiv:2201.07704",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2201.07704",
+   "quote": "(Spatial curvature is negligible today and throughout these stages.)"
+  },
+  {
+   "citation": "I. D. Gialamas, G. Hütsi, M. Raidal, J. Urrutia, M. Vasar, H. Veermäe, PRD 112, 063551 (2025), arXiv:2506.21542v2 — the record's [19S]",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2506.21542",
+   "quote": "reveals a $93.8\\%$ preference for a future transition into an anti-de Sitter space, which may ultimately lead to a cosmological collapse of our Universe"
+  },
+  {
+   "citation": "R. Liu, Y. Zhu, W. Hu, V. Miranda, Phantom Mirage from Axion Dark Energy, arXiv:2510.14957",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2510.14957",
+   "quote": "a small spatial curvature of $\\Omega_K \\sim 0.003$ can largely relax the full SN-BAO-CMB tension"
+  },
+  {
+   "citation": "M. Born, A suggestion for unifying quantum theory and relativity, Proc. R. Soc. A 165, 291 (1938); Internet Archive dli.ernet.27020 leaves n303-n308",
+   "status": "S",
+   "url": "https://archive.org/details/dli.ernet.27020",
+   "quote": "Therefore there exists an upper limit for the distance between two points, given by the radius a of the universe. Let us transfer this consideration to the p-space."
+  },
+  {
+   "citation": "M. Born, Reciprocity theory of elementary particles, Rev. Mod. Phys. 21, 463 (1949)",
+   "status": "dagger",
+   "url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.21.463",
+   "quote": ""
+  },
+  {
+   "citation": "C. N. Yang, On quantized space-time, Phys. Rev. 72, 874 (1947)",
+   "status": "dagger",
+   "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.72.874",
+   "quote": ""
+  },
+  {
+   "citation": "J. Kowalski-Glikman, L. Smolin, Triply special relativity, PRD 70, 065020 (2004), arXiv:hep-th/0406276",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0406276",
+   "quote": "Thus we can imagine the phase space as being composed of the product of  two de Sitter spaces, with in addition a deformed Poisson bracket."
+  },
+  {
+   "citation": "J. Lukierski, S. Meljanac, S. Mignemi, A. Pachoł, PLB 847, 138261 (2023), arXiv:2212.02316",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2212.02316",
+   "quote": "Such an extension can be obtained by the Born map applied to the Snyder model generators ... and adding the Born map-invariant scalar generator $\\hat{r}$."
+  },
+  {
+   "citation": "S. Mignemi, R. Štrajn, Quantum mechanics on a curved Snyder space, arXiv:1501.01447",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1501.01447",
+   "quote": "Both the position and momentum operators turn out to have a discrete spectrum."
+  },
+  {
+   "citation": "S. Majid, B. J. Schroers, q-Deformation and semidualisation in 3d quantum gravity, arXiv:0806.2587 (J. Phys. A 42 (2009) 425402 †)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/0806.2587",
+   "quote": "the spin model based on $D(U(su_2))$ for quantum gravity without cosmological constant is the semidual of a quantum particle on a three-sphere"
+  },
+  {
+   "citation": "S. Mizoguchi, T. Tada, 3-dimensional gravity from the Turaev-Viro invariant, arXiv:hep-th/9110057 (PRL 68, 1795 (1992) †)",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/9110057",
+   "quote": "The regularization dependent cosmological constant is found to be ${4π^2\\over k^2} +O(k^{-4})$, where $q^{2k}=1$."
+  },
+  {
+   "citation": "S. Major, L. Smolin, Quantum deformation of quantum gravity, Nucl. Phys. B 473, 267 (1996), arXiv:gr-qc/9512020",
+   "status": "S",
+   "url": "https://arxiv.org/abs/gr-qc/9512020",
+   "quote": "The  deformation parameter, $q$, is $e^{ i \\hbar^2 G^2 \\Lambda /6}$, where $\\Lambda$ is the cosmological constant."
+  },
+  {
+   "citation": "T. Banks, Cosmological breaking of supersymmetry?, IJMPA 16, 910 (2001), arXiv:hep-th/0007146",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0007146",
+   "quote": "an asymptotically DeSitter (AsDS) universe can be described by a finite number of states, given by the Bekenstein-Hawking formula"
+  },
+  {
+   "citation": "R. Bousso, Positive vacuum energy and the N-bound, JHEP 11 (2000) 038, arXiv:hep-th/0010252",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0010252",
+   "quote": "This holds for all space-times with a positive cosmological constant, including cosmologies dominated by ordinary matter, and recollapsing universes."
+  },
+  {
+   "citation": "W. Fischler, L. Susskind, Holography and cosmology, arXiv:hep-th/9806039",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/9806039",
+   "quote": "This seems to indicate that positively curved closed universes are inconsistent with the [holographic principle]"
+  },
+  {
+   "citation": "R. Bousso, A covariant entropy conjecture, JHEP 07 (1999) 004, arXiv:hep-th/9905177; Holography in general space-times, JHEP 06 (1999) 028, arXiv:hep-th/9906022",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/9905177",
+   "quote": "We conjecture the following entropy bound to be valid in all space-times admitted by Einstein's equation"
+  },
+  {
+   "citation": "J. McNamara, C. Vafa, Baby universes, holography, and the swampland, arXiv:2004.06738",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2004.06738",
+   "quote": "the Hilbert space of baby universe states must be one-dimensional in a consistent theory of quantum gravity"
+  },
+  {
+   "citation": "M. Usatyuk, Z.-Y. Wang, Y. Zhao, Closed universes in two dimensional gravity, SciPost Phys. 17, 051 (2024), arXiv:2402.00098",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2402.00098",
+   "quote": "when non-perturbative effects are included there is a unique closed universe state in each theory"
+  },
+  {
+   "citation": "D. Harlow, M. Usatyuk, Y. Zhao, Quantum mechanics and observers for gravity in a closed universe, arXiv:2501.02359",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2501.02359",
+   "quote": "the Hilbert space of quantum gravity in a closed universe is one-dimensional and real"
+  },
+  {
+   "citation": "A. I. Abdalla, S. Antonini, L. V. Iliesiu, A. Levine, arXiv:2501.02632; H. Liu, arXiv:2509.14327",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2501.02632",
+   "quote": "In the case of closed universes, the Hilbert space is not one-dimensional, as calculations in the absence of the observer suggest."
+  },
+  {
+   "citation": "P. Berglund, T. Hübsch, D. Minic, On de Sitter spacetime and string theory, IJMPD 32, 2330002 (2023), arXiv:2212.06086",
+   "status": "S",
+   "url": "https://arxiv.org/abs/2212.06086",
+   "quote": "the curvature of the dual spacetime is the cosmological constant of the observed spacetime, while the size of the dual spacetime is the gravitational constant"
+  },
+  {
+   "citation": "S. Bolognesi, Born reciprocity and cosmic accelerations, arXiv:1506.02187",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1506.02187",
+   "quote": "Cosmology and Born reciprocity are made for each other."
+  },
+  {
+   "citation": "M. von Strauss, A. Schmidt-May, J. Enander, E. Mörtsell, S. F. Hassan, JCAP 03 (2012) 042, arXiv:1111.1655",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1111.1655",
+   "quote": "For simplicity, we also assume both metrics to have the same spatial curvature $k=0,\\pm1$."
+  },
+  {
+   "citation": "D. Comelli, M. Crisostomi, F. Nesti, L. Pilo, FRW cosmology in ghost free massive gravity, JHEP 03 (2012) 067, arXiv:1111.1983",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1111.1983",
+   "quote": "Thus, in order to obtain a reasonable cosmology we are forced to set $k_1 = k_2=k_c$"
+  },
+  {
+   "citation": "Y. Akrami, T. S. Koivisto, M. Sandstad, JHEP 03 (2013) 099, arXiv:1209.0457",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1209.0457",
+   "quote": "We have additionally assumed the same spatial curvature for the two metrics ($k=-1,0,+1$)"
+  },
+  {
+   "citation": "A. Higuchi, Forbidden mass range for spin-2 field theory in de Sitter space-time, Nucl. Phys. B 282, 397 (1987) (abstract via INSPIRE)",
+   "status": "S",
+   "url": "https://inspirehep.net/api/literature?q=a%20Higuchi%2C%20A%20and%20j%20Nucl.Phys.B%2C282",
+   "quote": "the square of the mass M 2 cannot be between 0 (linearized gravity) and 2 3 × ( cosmological constant ) in the spin-2 case because of the appearance of negative norm states"
+  },
+  {
+   "citation": "M. Fasiello, A. J. Tolley, Cosmological stability bound in massive gravity and bigravity, JCAP 12 (2013) 002, arXiv:1308.1647",
+   "status": "S",
+   "url": "https://arxiv.org/abs/1308.1647",
+   "quote": "a cosmological bound on the graviton mass for spatially flat FRW solutions in massive gravity with an FRW reference metric and for bigravity theories"
+  },
+  {
+   "citation": "D. Clancy, J. E. Lidsey, R. Tavakol, Scale factor dualities in anisotropic cosmologies, CQG 15, 257 (1998), arXiv:gr-qc/9802053",
+   "status": "S",
+   "url": "https://arxiv.org/abs/gr-qc/9802053",
+   "quote": "duality symmetries exist for the types I, II, VI_0, VII_0, but not for types VIII and IX"
+  },
+  {
+   "citation": "P. Bouwknegt, J. Evslin, V. Mathai, T-duality: topology change from H-flux, CMP 249, 383 (2004), arXiv:hep-th/0306062",
+   "status": "S",
+   "url": "https://arxiv.org/abs/hep-th/0306062",
+   "quote": "its T-dual, in the absence of $H$-flux, is $S^2\\times S^1$ supported by 1 unit of $H$-flux"
+  }
+ ]
+}

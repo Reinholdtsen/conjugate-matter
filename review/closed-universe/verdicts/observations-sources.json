@@ -1,0 +1,493 @@
+{
+ "analysis": "observations",
+ "lens": "sources",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "F1",
+    "verdict": "corrected",
+    "reason": "The quote is verbatim in the Planck 2018 VI TeX, section 7.3, Spatial curvature. The location is wrong: the analyst's (44a,b) is ar5iv's numbering, and ar5iv mis-numbers this paper. LaTeXML renders the first beglet block as (0a),(0b) and repeats (1), so every later equation lags the paper by 2.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F1: The combination of the Planck temperature and polarization power spectra give' and both values found. planck_eqnum.out: 'TT+lowE: ... \\oneonesig -> (46a)'. planck_eq_divergence.out: \"ar5iv first 12 tags: ['1', '0a', '0b', '1', '2', ...]\". planck_ar5iv_numbering.out (analyst's own ar5iv copy) shows (44a); planck_secnum.out: 'subsection Spatial curvature = 7.3'.",
+    "corrected_statement": "Planck 2018 VI (arXiv:1807.06209v4) section 7.3, eqs. (46a,b) in the paper's own LaTeX numbering [D, reconstructed from the source; the typeset PDF was not reachable]: Omega_K = -0.056 +0.028/-0.018 (68%, TT+lowE) and -0.044 +0.018/-0.015 (68%, TT,TE,EE+lowE). ar5iv shows (44a,b)."
+   },
+   {
+    "claim_id": "F2",
+    "verdict": "confirmed",
+    "reason": "The CamSpec sentence, -0.037 +0.019/-0.014, and the 0.5 sigma likelihood-dependence sentence are verbatim in section 7.3.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F2: the joint Planck polarization result is not robust at the approximately' and 'FOUND F2: -0.037^{+0.019}_{-0.014}'. context_prints.out (Planck 7.3) shows the passage."
+   },
+   {
+    "claim_id": "F3",
+    "verdict": "corrected",
+    "reason": "The text and values (-0.0106 +- 0.0065; 0.0007 +- 0.0019; 'spatially flat to a 1 sigma accuracy of 0.2 %') are verbatim. The equation numbers have the same ar5iv offset as F1.",
+    "independent_check": "check_body_quotes.out: FOUND for '-0.0106 \\pm 0.0065' and '0.0007 \\pm 0.0019'. planck_eqnum.out: '+lensing ... -> (47a)', '+lensing+BAO ... -> (47b)'.",
+    "corrected_statement": "Section 7.3, eqs. (47a,b) in the paper's LaTeX numbering (ar5iv: 45a,b): Omega_K = -0.0106 +- 0.0065 (TT,TE,EE+lowE+lensing); 0.0007 +- 0.0019 (+BAO)."
+   },
+   {
+    "claim_id": "F4",
+    "verdict": "confirmed",
+    "reason": "All four 95% entries are in the table labelled tab:grid_1paramext, and its caption says 95% limits. It is Table 4 in source order.",
+    "independent_check": "check_body_quotes.out: FOUND for '-0.056^{+0.044}_{-0.050}', '-0.044^{+0.033}_{-0.034}', '-0.011^{+0.013}_{-0.012}', '0.0007^{+0.0037}_{-0.0037}', 'Note that we quote 95'. planck_secnum.out: 'table with label tab:grid_1paramext = Table 4 (source order)'."
+   },
+   {
+    "claim_id": "F5",
+    "verdict": "confirmed",
+    "reason": "The sentence is in the paper's own abstract in ms.tex, using the macro for Omega_K. The arXiv listing abstract is abridged and lacks it.",
+    "independent_check": "check_abstract_quotes.out: 'MISSING  F5' against the API abstract. check_body_quotes.out: 'FOUND F5: The joint constraint with BAO measurements on spatial curvature is consistent with a flat universe'."
+   },
+   {
+    "claim_id": "F6",
+    "verdict": "confirmed",
+    "reason": "Verbatim in section 7.3.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F6: assumes that the spatial hypersurfaces are flat, such as would be predicted (to within mea...'."
+   },
+   {
+    "claim_id": "F7",
+    "verdict": "confirmed",
+    "reason": "The abstract sentence and all four body quotes (3.4 sigma; 99.985%; Delta DIC = -7.4 with 1:41; |ln B01| = 3.3 with prior [-0.2,0]) are verbatim. The DOI matches.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F7: with the Planck CMB spectra now preferring a positive curvature at more than $99 \\%$ C.L.'. check_body_quotes.out: FOUND for all five F7 fragments in main.tex. parse_abstracts.out: DOI 10.1038/s41550-019-0906-9."
+   },
+   {
+    "claim_id": "F8",
+    "verdict": "confirmed",
+    "reason": "Both abstract sentences are verbatim. The journal is PRD 103, L041301.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F8a' and 'FOUND    F8b'. parse_abstracts.out: 'DOI: 10.1103/PhysRevD.103.L041301'."
+   },
+   {
+    "claim_id": "F9",
+    "verdict": "confirmed",
+    "reason": "The abstract and all five eqnarray values are verbatim. The only miss is 'TTTEEE+BAO+Pantheon +lensing', which spans a nonumber line break in the source.",
+    "independent_check": "check_abstract_quotes.out: FOUND F9a, F9b. check_body_quotes.out: FOUND for 0.0002 +- 0.0025 ... 0.0004 +- 0.0018, the plik/camspec sentence, and the 2.13/3.02 sentence. The MISSING fragment's source context is 'ttteeebaopantheonnonumberhspace02inlensing'."
+   },
+   {
+    "claim_id": "F10",
+    "verdict": "confirmed",
+    "reason": "All values are confirmed. Eqs. (22),(23),(24) are tagged in arXiv HTML v3, section 4.2. Eq. (21) is the DESI-alone (Omega_m, Omega_Lambda, r_d h) result, and the DESI-only and +theta* Omega_K values are in-text after it. Table 3 and the reporting convention are confirmed. The sign inconsistency is real: eq. (24) has +0.0024 +- 0.0016 and the Conclusions have -0.0024 +- 0.0016.",
+    "independent_check": "check_locations.out: \"'0.0003^{+0.0048}_{-0.0054}' ... next eq tag (22); section [4.2]\", '-0.0102 ... (23)', '0.0024 ... (24)', '2.4 +- 1.6 ... Table 3'. context_prints.out (DESI DR1 Conclusions): 'Omega_K=-0.0024 +- 0.0016 in the simplest single-parameter extension'."
+   },
+   {
+    "claim_id": "F11",
+    "verdict": "confirmed",
+    "reason": "All nine values are confirmed, in eqs. (34)-(36) of section 5.3.",
+    "independent_check": "check_locations.out: \"'-0.831\\pm 0.066' ... next eq tag (34); section [5.3]\", (35), (36). check_body_quotes.out: FOUND for all F11 fragments."
+   },
+   {
+    "claim_id": "F12",
+    "verdict": "confirmed",
+    "reason": "All Table 5 rows, the caption, the three text sentences and the CMB definition (simall/Commander for l<30, CamSpec PR4 for l>=30, Planck+ACT DR6 lensing) are verbatim.",
+    "independent_check": "check_body_quotes.out: FOUND for all seven table rows and the text. check_locations.out: \"'2.3\\pm 1.1' ... Table 5\". context_checks.out shows the CamSpec/Commander/simall sentence."
+   },
+   {
+    "claim_id": "F13",
+    "verdict": "confirmed",
+    "reason": "Eq. (46) of L25 (section VIII.5) is verbatim, as are the W-ACT macro and the PR3 3-sigma sentence.",
+    "independent_check": "check_locations.out: \"F13 eq46?: '-0.004\\pm 0.010' @ actL25: next eq tag (46)\". context_prints.out (ACT L25) shows the passage."
+   },
+   {
+    "claim_id": "F14",
+    "verdict": "confirmed",
+    "reason": "Eq. (59) in section VII.1, the R_k sentence, the DESI Year-1 baseline, App. G.1 (0.0018 +- 0.0011, 1.6 sigma) and the inflation sentence are all verbatim. On use: ACT's R_k > 105 Gpc (closed) and > 66 Gpc (open) match the 95% quantile among same-sign samples, not a central 95% edge.",
+    "independent_check": "check_locations.out: \"'0.0019\\pm 0.0015' ... next eq tag (59); section [VII.1]\" and \"'0.0018\\pm 0.0011' ... section [G.1] DESI DR2\". source_conventions.out: 'closed-only 95%: |Ok|<0.00195 -> R_k>100.7 Gpc' vs 'central 2-sided ... R_k>137.9 Gpc'; 'open-only 95% ... R_k>66.71 Gpc'."
+   },
+   {
+    "claim_id": "F15",
+    "verdict": "corrected",
+    "reason": "All v2 values are confirmed in section VII.4.4, and the replace macro renders its second argument. One error: the minus sign sits outside the replace macro for CMB-SPA alone, so the v1 value was -0.88 +- 0.48, not 0.88 +- 0.48.",
+    "independent_check": "context_prints.out (SPT): '100\\curv & = -\\replace{0.88 \\pm 0.48}{0.85\\pm 0.48} ... for \\cmball{}'; '\\newcommand{\\replace}[2]{{}{\\RR{#2}}}'. check_locations.out: \"'0.40\\pm 0.20' @ spt: ... section [VII.4.4] Spatial curvature\".",
+    "corrected_statement": "v1 values: -0.88 +- 0.48 (CMB-SPA alone); 0.26 +- 0.11 (CMB-SPA+DESI); 6.3 points; 2.4 sigma from flatness; 2.5 sigma preference. v2: -0.85 +- 0.48; 0.27 +- 0.12; 4.2; 2.5 sigma; 2.1 sigma."
+   },
+   {
+    "claim_id": "F16",
+    "verdict": "confirmed",
+    "reason": "The abstract is verbatim, and v2's comment reads 'updated to match version accepted by JCAP'. R_k = 21/H0 gives Omega_K = +0.00227 (open), which matches the analyst's gloss.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F16'. api_versions.out: '2505.00659v2 | comment: 12 pages, 6 figures, updated to match version accepted by JCAP'. source_conventions.out: 'Chen-Zaldarriaga: Omega_K = 1/21^2 = 0.002268'."
+   },
+   {
+    "claim_id": "F17",
+    "verdict": "confirmed",
+    "reason": "Both quotes are verbatim in section 4.1. The dataset list matches the Methods section (Commander, SRoll2, l_max (1000,600,600), ACT DR6, SPT-3G D1, Planck-ACT-SPT lensing, BK18, DESI DR2, PP, DD).",
+    "independent_check": "check_body_quotes.out: FOUND for both F17 quotes. check_locations.out: 'section [4.1] Spatial Curvature in Extended Cosmological Models'. context_prints.out (Giare Planck datasets) shows the SRoll2 and l_max text."
+   },
+   {
+    "claim_id": "F18",
+    "verdict": "confirmed",
+    "reason": "Verbatim in the 2609.22470 abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F18: From our baseline SNeIa+BAO analyses we find ...'."
+   },
+   {
+    "claim_id": "F19",
+    "verdict": "confirmed",
+    "reason": "Verbatim in the 2509.26263 (v2) abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F19: In \\texttt{plik} the preference for ...'."
+   },
+   {
+    "claim_id": "F20",
+    "verdict": "confirmed",
+    "reason": "My own searches agree. No title contains DESI DR3. The latest DESI Collaboration entry is 2607.27410 (DR2 Results IV). 2610.20977's abstract contains the forecast phrase, and the DESI release page lists DR2 chains. The dagger items (conference slides) are labelled as such and were not checked.",
+    "independent_check": "desi_dr3_search.out: '=== ti_phrase: ti:\"DESI DR3\" ... total 0'; 'ti_and ... total 0'; 'au_collab ... 2026-07-29 2607.27410v3 DESI DR2 Results IV'. check_abstract_quotes.out: 'FOUND    F20: Forecasts on Advanced SO CMB and DESI DR3 BAO'."
+   },
+   {
+    "claim_id": "F21",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F21: We find that Omega_K cannot be measured to better than about 1.5x10^(-5) (1 sigma)...'."
+   },
+   {
+    "claim_id": "F22",
+    "verdict": "confirmed",
+    "reason": "All three abstract fragments are verbatim. The journal is MNRAS 397, 431.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F22a', 'FOUND    F22b', 'FOUND    F22c'."
+   },
+   {
+    "claim_id": "F23",
+    "verdict": "confirmed",
+    "reason": "Verbatim. The first miss came from my Lambda mapping bug (Unicode 'LAMDA'); after the fix it is found.",
+    "independent_check": "check_abstract_quotes.out (rerun): F23a, F23b, F23c FOUND."
+   },
+   {
+    "claim_id": "F24",
+    "verdict": "confirmed",
+    "reason": "The rows are verbatim, and the table header is 'Surveys & FoM & a_p & sigma_{w_p} & sigma_{Omega_k}', so the last column is sigma(Omega_k). The caption says 'All cases include $Planck$ CMB constraints'.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F24: DESI 14k galaxy and Ly-$\\alpha$ forest BAO & 169 & 0.71 & 0.022 & 0.0011'. context_checks.out shows the caption and header."
+   },
+   {
+    "claim_id": "F25",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract. The sign convention is consistent: Omega_k < -10^-4 means positive curvature (closed).",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F25'."
+   },
+   {
+    "claim_id": "F26",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F26'."
+   },
+   {
+    "claim_id": "F27",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F27'."
+   },
+   {
+    "claim_id": "F28",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F28a', 'FOUND    F28b'."
+   },
+   {
+    "claim_id": "F29",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract, flat spaces only.",
+    "independent_check": "check_abstract_quotes.out: F29a, F29b, F29c FOUND."
+   },
+   {
+    "claim_id": "F30",
+    "verdict": "confirmed",
+    "reason": "Verbatim in the arXiv listing abstract; the paper's own text gives 1.03, 1.0 and 0.89 chi_rec. Scope: the spherical-space limits come from varying Omega_K along the CMB degeneracy line, so they say how large each spherical manifold must be. They are not an extra constraint at today's |Omega_K|.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F30'. planck2013_topology_scope.out: 'in a positively curved Universe, {\\cal R}_i>1.03 \\chi_rec for the dodecahedral space' and 'for curved models we vary $\\Omega_{K}$ ... for the spherical spaces we change $\\Omega_\\Lambda$ and $H_0$ together with $\\Omega_{K}$'."
+   },
+   {
+    "claim_id": "F31",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract; JCAP 01 (2023) 030.",
+    "independent_check": "check_abstract_quotes.out: F31a, F31b FOUND."
+   },
+   {
+    "claim_id": "F32",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract; JCAP 01 (2025) 004.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F32'."
+   },
+   {
+    "claim_id": "F33",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract of 2610.12418 (Part IId).",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F33'."
+   },
+   {
+    "claim_id": "F34",
+    "verdict": "confirmed",
+    "reason": "Both abstracts are verbatim; JCAP 03 (2024) 036 and PRL 132, 171501.",
+    "independent_check": "check_abstract_quotes.out: F34a, F34b FOUND."
+   },
+   {
+    "claim_id": "F35",
+    "verdict": "confirmed",
+    "reason": "All text fragments are in the dvips PostScript. Eq. (6) is L = 1/2 (d phi)^2 - M^4[cos(phi/f) + 1]; the cmsy minus glyph is Fj(\\000). The Friedmann equation is stated 'for a spatially flat universe, Omega_m + Omega_phi = 1'.",
+    "independent_check": "check_frieman_ps.out: six 'FOUND F35' lines. context_prints.out (Frieman eq 6 raw PS): '...Fk(\\036)c Fj(\\000)g Fk(M)... ([cos)o(\\() Fk(\\036=f ... (+)e(1]) ... (\\(6\\))'."
+   },
+   {
+    "claim_id": "F36",
+    "verdict": "confirmed",
+    "reason": "The section 7 'Quintessence and Recollapse' text is verbatim. The cited references match Tipler's bibliography: Barrow PLB B187 12 (1987); Burd and Barrow NPB B308 929 (1988); Barrow, Galloway and Tipler MNRAS 223, 835 (1986); Turner PRD D28 1243 (1983). The references themselves were not retrieved, as the analyst says.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F36: However, Barrow (\\cite{Barrow1}, see also \\cite{Burd1}) was the first ...' and the other two fragments. context_checks.out shows the bibitems."
+   },
+   {
+    "claim_id": "F37",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F37'."
+   },
+   {
+    "claim_id": "F38",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F38'."
+   },
+   {
+    "claim_id": "F39",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract; PRD 101, 023527.",
+    "independent_check": "check_abstract_quotes.out: F39a, F39b FOUND."
+   },
+   {
+    "claim_id": "F40",
+    "verdict": "confirmed",
+    "reason": "The abstract and the flatness sentence in the body are verbatim.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND F40'. check_body_quotes.out: 'FOUND    F40: We consider a homogeneous and isotropic universe with zero spatial curvature'."
+   },
+   {
+    "claim_id": "F41",
+    "verdict": "confirmed",
+    "reason": "The abstract fragments and the 'textbook illustrations' sentence are verbatim.",
+    "independent_check": "check_abstract_quotes.out: F41a, F41b FOUND. check_body_quotes.out: 'FOUND    F41: The standard textbook illustrations ...'."
+   },
+   {
+    "claim_id": "F42",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F42'."
+   },
+   {
+    "claim_id": "F43",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: F43a, F43b FOUND."
+   },
+   {
+    "claim_id": "F44",
+    "verdict": "confirmed",
+    "reason": "The abstract and the curvature remark in the body are verbatim.",
+    "independent_check": "check_abstract_quotes.out: F44a, F44b FOUND. check_body_quotes.out: 'FOUND    F44: (Spatial curvature is negligible today and throughout these stages.)'."
+   },
+   {
+    "claim_id": "F45",
+    "verdict": "corrected",
+    "reason": "The abstract (identical in v1 and v2 listings), the 6.2/12.2/81.6% sentence, the conclusions, the Higgs-like potential and the flat-FRW sentence are verbatim, and 12.2 + 81.6 = 93.8. One quote is not verbatim: the source reads 'Models without phantom behavior are compatible with the data at the $2\\sigma$ confidence level.' (in the paper's TeX abstract). The TeX abstract also says 'a concrete, theoretically well-motivated quintessence scenario', unlike the listing abstract the analyst quoted.",
+    "independent_check": "check_body_quotes.out: 'MISSING  F45 ... src (norm): modelswithoutphantombehaviorarecompatiblewiththedataatthe2sigmaconfidencelevel'. api_versions.out: 'Gialamas v1 == v2 metadata abstract: True'. context_prints.out (Gialamas probabilities): '... 6.2\\% ... 12.2\\% ... 81.6\\%. Both of the latter scenarios imply a future cosmological collapse'.",
+    "corrected_statement": "Abstract (paper TeX): 'Models without phantom behavior are compatible with the data at the $2\\sigma$ confidence level.' The 93.8% is the posterior weight on a negative vacuum energy: 12.2% de Sitter today with anti-de Sitter later, plus 81.6% already anti-de Sitter today. It comes from a quartic V0 + m^2 phi^2/2 + lambda phi^4/4 in flat FRW."
+   },
+   {
+    "claim_id": "F46",
+    "verdict": "confirmed",
+    "reason": "The abstract is verbatim. The open gloss is right: the best fits are Omega_K = 0.0027 and 0.0029, and the text says 'With just open LambdaCDM'.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F46'. context_prints.out (Liu et al.): 'With just open $\\Lambda$CDM, this has the effect of lowering $\\Omega_m$'."
+   },
+   {
+    "claim_id": "F47",
+    "verdict": "confirmed",
+    "reason": "All six readings match the page images (leaf 303 = p.291, 305 = p.293, 306 = p.294, 308 = p.296), including eqs. (3) and (4), the section 3 passage with 'upper limit for momenta,*', and eq. (9). The eq. (9) arithmetic holds. The leaf map n303-n308 = pp.291-296 is confirmed.",
+    "independent_check": "Viewed downloads/ia/leaf_0303.jpg, leaf_0305.jpg, leaf_0306.jpg, leaf_0308.jpg (IA BookReader, scale 2). page_numbers.json: \"{'leafNum': 303, ... 'pageNumber': '291'}\" ... \"{'leafNum': 308, ... 'pageNumber': '296'}\". born1938_eq9.out: 'Int_0^1 xi^2/sqrt(1-xi^2) dxi = 0.785398... pi/4 = 0.785398...', '4*pi*I1 = 9.8696044 pi^2 = 9.8696044'."
+   },
+   {
+    "claim_id": "F48",
+    "verdict": "confirmed",
+    "reason": "I could not retrieve it either. The APS abstract page loads (title and date only), and the PDF returns 403 behind a Cloudflare challenge. The worklog hash the analyst cites exists in the record.",
+    "independent_check": "fetch_nonarxiv.out: 'aps_born1949.html: HTTP 200'. parse_nonarxiv.out: 'born1949.pdf first bytes: b'<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...'. grep: notes/phase-space-diameter-worklog.md:86 '9e25ee5122844f46...'. Crossref: Rev. Mod. Phys. 21(3) 463-473 (1949)."
+   },
+   {
+    "claim_id": "F49",
+    "verdict": "confirmed",
+    "reason": "The APS page gives the title, author and dates; the text is paywalled. The secondary quote from Lukierski et al. is verbatim.",
+    "independent_check": "parse_nonarxiv.out: 'aps_yang1947.html citation_title: On Quantized Space-Time', 'citation_author: C. N. Yang', 'Received 15 September 1947'. check_body_quotes.out: 'FOUND    F49: The Yang model was obtained in \\cite{Yang} ...'."
+   },
+   {
+    "claim_id": "F50",
+    "verdict": "confirmed",
+    "reason": "The abstract and both body quotes are verbatim; PRD 70, 065020.",
+    "independent_check": "check_abstract_quotes.out: F50a, F50b FOUND (after the Lambda fix). check_body_quotes.out: 'FOUND    F50: [X_\\mu, X_\\nu] = \\frac1{\\kappa^2}...' and the de Sitter subalgebras sentence."
+   },
+   {
+    "claim_id": "F51",
+    "verdict": "confirmed",
+    "reason": "The abstract and body quote are verbatim; Crossref confirms PLB 847, 138261 (2023).",
+    "independent_check": "check_abstract_quotes.out: F51a, F51b FOUND. check_body_quotes.out: 'FOUND    F51: In Snyder and Yang models ...'. parse_nonarxiv.out: \"Physics Letters B vol 847 page 138261\"."
+   },
+   {
+    "claim_id": "F52",
+    "verdict": "confirmed",
+    "reason": "The abstract and the three body quotes are verbatim. The abstract opens 'three-dimensional Euclidean Snyder-de Sitter algebra'.",
+    "independent_check": "check_abstract_quotes.out: F52a, F52b FOUND. check_body_quotes.out: FOUND for 'Because of the Born reciprocity these spectra are essentially identical.', the Gr(3,5) sentence and the S^3 coset. context_checks.out: 'We study the representations of the three-dimensional Euclidean Snyder-de Sitter algebra'."
+   },
+   {
+    "claim_id": "F53",
+    "verdict": "confirmed",
+    "reason": "The source abstract (TeX) has m_p leftrightarrow l_c; the arXiv listing reads 'interchanges m_p and l_c'. The body quote is verbatim. The journal reference, marked dagger, is now verified.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F53: Momentum space is curved, and has the structure of a non-abelian Lie group.' and 'FOUND F53: argue that semidualisation interchanges $m_p\\leftrightarrow l_c$'. parse_nonarxiv.out: \"Journal of Physics A ... vol 42 issue 42 page 425402 date [[2009, 10, 23]]\"."
+   },
+   {
+    "claim_id": "F54",
+    "verdict": "confirmed",
+    "reason": "Verbatim apart from the listing's rendering of the grave-accent a as \\grave{\\rm a}. The journal reference, marked dagger, is verified: PRL 68, 1795-1798 (1992).",
+    "independent_check": "Printed abstract: 'naturally regularized path-integral $\\grave{\\rm a}$ la Ponzano-Regge, In which a contribution from the cosmological term ...'. parse_nonarxiv.out: 'Physical Review Letters vol 68 issue 12 page 1795-1798'."
+   },
+   {
+    "claim_id": "F55",
+    "verdict": "confirmed",
+    "reason": "Both versions are as stated: the source TeX abstract gives q = e^{i hbar^2 G^2 Lambda/6}, and the listing says q 'depends on the cosmological constant'.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F55: The deformation parameter, $q$, is $e^{ i \\hbar^2 G^2 \\Lambda /6}$...'. check_abstract_quotes.out: 'FOUND    F55api'."
+   },
+   {
+    "claim_id": "F56",
+    "verdict": "confirmed",
+    "reason": "Both quotes are verbatim, but they come from the paper's introduction, not its abstract. The arXiv abstract is about SUSY breaking. The journal is IJMPA 16(05) 910-921 (2001).",
+    "independent_check": "check_abstract_quotes.out: 'MISSING  F56a', 'MISSING  F56b' (API abstract). check_body_quotes.out: 'FOUND    F56: We then turn to a defense ...' and the 'forced to conclude' fragment. context_checks.out shows the introduction context."
+   },
+   {
+    "claim_id": "F57",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract; JHEP 11 (2000) 038.",
+    "independent_check": "check_abstract_quotes.out: F57a, F57b FOUND."
+   },
+   {
+    "claim_id": "F58",
+    "verdict": "confirmed",
+    "reason": "The abstract and body quote are verbatim.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F58'. check_body_quotes.out: 'FOUND    F58: This seems to indicate that positively curved closed universes are inconsistent with the \\hp ...'."
+   },
+   {
+    "claim_id": "F59",
+    "verdict": "confirmed",
+    "reason": "The hep-th/9905177 quotes are in its abstract. The hep-th/9906022 quotes are in its body, not its abstract; they do not appear in 9905177.",
+    "independent_check": "check_abstract_quotes.out: F59a, F59b FOUND; F59c, F59d MISSING (9906022 abstract). check_body_quotes.out: 'FOUND    F59: The conjecture can be viewed as a generalization ...' and 'open, flat, and closed universes' in 9906022; 'MISSING F59x' in 9905177."
+   },
+   {
+    "claim_id": "F60",
+    "verdict": "confirmed",
+    "reason": "All six abstract fragments are verbatim; SciPost Phys. 17, 051.",
+    "independent_check": "check_abstract_quotes.out: F60a to F60f FOUND."
+   },
+   {
+    "claim_id": "F61",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract; IJMPD 32 (09) 2330002.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F61'."
+   },
+   {
+    "claim_id": "F62",
+    "verdict": "confirmed",
+    "reason": "Verbatim abstract.",
+    "independent_check": "check_abstract_quotes.out: F62a, F62b FOUND."
+   },
+   {
+    "claim_id": "F63",
+    "verdict": "confirmed",
+    "reason": "All quoted equations are verbatim. sympy confirms that subtracting the two Friedmann equations removes H, k and a, and that Upsilon times the difference reproduces the quoted quartic. This rests on the paper's same-k assumption.",
+    "independent_check": "check_body_quotes.out: FOUND for all seven F63 fragments. vonstrauss_quartic.out: 'H in difference: False | k in difference: False | a in difference: False', '(E1-E2)*Upsilon - quoted quartic = 0'."
+   },
+   {
+    "claim_id": "F64",
+    "verdict": "confirmed",
+    "reason": "All quotes are verbatim. In context, the frozen second metric is Minkowski ('we take tilde g equivalent to the Minkowski flat metric'). 1202.1986 is 'Perturbations in Massive Gravity Cosmology', JHEP 06 (2012) 085.",
+    "independent_check": "check_body_quotes.out: FOUND for all six F64 fragments. context_checks.out shows the frozen-metric passage. parse_abstracts.out: '1202.1986 v2 ... T: Perturbations in Massive Gravity Cosmology'."
+   },
+   {
+    "claim_id": "F65",
+    "verdict": "confirmed",
+    "reason": "Verbatim.",
+    "independent_check": "check_body_quotes.out: 'FOUND    F65: We have additionally assumed the same spatial curvature for the two metrics ($k=-1,0,+1$)'."
+   },
+   {
+    "claim_id": "F66",
+    "verdict": "confirmed",
+    "reason": "The INSPIRE abstract (source: Elsevier) is verbatim. (2/3)Lambda with Lambda = 3H^2 gives m^2 >= 2H^2.",
+    "independent_check": "parse_nonarxiv.out: 'ABSTRACT[ Elsevier ]: ... the square of the mass M 2 cannot be between 0 (linearized gravity) and 2 3 x ( cosmological constant ) in the spin-2 case ...'; 'Nuclear Physics B vol 282 page 397-436'. source_conventions.out: 'Higuchi (2/3)*Lambda with Lambda = 3H^2: 2.0 H^2'."
+   },
+   {
+    "claim_id": "F67",
+    "verdict": "confirmed",
+    "reason": "The abstract and all four body formulas are verbatim. The bound is derived for spatially flat FRW.",
+    "independent_check": "check_abstract_quotes.out: 'FOUND    F67'. check_body_quotes.out: 'FOUND    F67: {\\tilde m}^2(H) \\ge 2 H^2' and the other three."
+   },
+   {
+    "claim_id": "N1",
+    "verdict": "corrected",
+    "reason": "My own searches found no source that derives closure from reciprocity. But 'a non-universal b' overstates Born 1938. On p.296 he writes that whether b is universal 'cannot be answered in the present preliminary state of the theory' and adds 'For the sake of argument I shall assume ... that the value of b is always the same'. He fixes b from the electron radius (p.298, eqs. 22 and 26), and his p-space metric is 'not directly connected with the metric tensor g_kl in the x-space' (p.292).",
+    "independent_check": "novelty_probe.out: 'N1a ... total 0', 'N1b ... total 0', 'N1c ... total 0', 'N1d ... total 0', 'N1e ... total 0'. Page images leaf_0308.jpg (p.296), leaf_0310.jpg (p.298: 'b = h/(pi r0) = 7.43 x 10^-15 g. cm. sec.^-1. (26)'), leaf_0304.jpg (p.292). born1938_b.out: 'b c = 1.401e+8 eV'.",
+    "corrected_statement": "Born 1938 goes from Einstein's closed universe to a closed momentum space with its own constants lambda', kappa'. He leaves open whether b is universal, assumes it is for his applications, and fixes it from the electron radius (b c ~ 1.4e8 eV). Nothing ties b to the universe's radius a."
+   },
+   {
+    "claim_id": "N2",
+    "verdict": "confirmed",
+    "reason": "My probes found no abstract that pairs a cosine, PNGB or axion potential with positive curvature and recollapse. The Tipler et al. text (any potential with a quadratic minimum recollapses a closed universe) is verbatim. Caveat: the DESI-affiliated axion fit [20S] uses exactly V = m^2 f^2 [1+cos] in flat FRW.",
+    "independent_check": "novelty_probe.out: 'N2b ... total 0', 'N2e ... total 1 (Chern-Simons gravity)', 'N2f ... total 0'. novelty_probe2.out: 'N2k: abs:\"cosine\" AND abs:\"recollapse\" -> total 0', 'N2m ... total 0', 'N2n ... total 0'."
+   },
+   {
+    "claim_id": "N3",
+    "verdict": "confirmed",
+    "reason": "The Clancy et al. body quote, with the equation omitted, and the abstract quotes are verbatim. The three Bouwknegt et al. quotes are verbatim. My probes found nothing further.",
+    "independent_check": "check_body_quotes.out: 'FOUND    N3: If one assumes a spatially isotropic and flat Friedmann--Robertson--Walker (FRW) universe,...', '\\bar{a} =a^{-1}' and the three hep-th/0306062 fragments. novelty_probe.out: 'N3a ... total 0', 'N3c ... total 0'."
+   }
+  ],
+  "record_error_verdicts": [
+   "I could not see the analyst's own list of record errors: claims.json did not exist in my folder (the folder itself was absent, and I created it) or in the analyst's folder, and facts.md names none as such. The verdicts below cover the record items that facts.md touches, plus those I checked against sources myself.",
+   "93.8% sentence (#1 section 7 item 3; wiki conjugate-bounce.md:77, quintessence.md:98, potential-sign.md:66, fate-of-expansion.md:78, lab-notebook.md:91): UPHELD as a record error. [19S] does not assume 'a potential possessing a negative minimum'. It fits a Higgs-like V0 + m^2 phi^2/2 + lambda phi^4/4 with the sign of the minimum left free, and 93.8% is the posterior probability that the vacuum energy is negative: 12.2% de Sitter today with anti-de Sitter later, plus 81.6% 'already being in an AdS phase today' (context_prints.out). The fit is in flat FRW, and the abstract says the transition 'may ultimately lead to' collapse. The figure does not transfer to the program's V0[1+cos] >= 0, whose minimum is zero.",
+   "#11 section 10 compound citation '[19S, 20S, 21S]' for 'high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits': UPHELD as a miscitation, if the analyst raised it, and missed otherwise. Only [19S] supports the clause. [20S] (Urena-Lopez et al., DESI-affiliated, arXiv:2503.20178) fits V = m_a^2 f_a^2 [1+cos(phi/f_a)], which has minimum 0, with 'null spatial curvature'. Its TeX has 0 hits for anti-de Sitter, AdS, collapse, crunch and 'negative minimum'; so does the [21S] DESI DR2 TeX (context_prints.out tex counts).",
+   "F48, on the diameter note's [S] for Born 1949: PARTLY upheld. The worklog hash exists (notes/phase-space-diameter-worklog.md:86, 9e25ee51...). The retrieval cannot be repeated (the APS PDF returns 403), so the [S] rests only on the record's earlier retrieval. The APS abstract page confirms the title and the date, 1 July 1949.",
+   "F64, on the task's 'Comelli, Crisostomi and Pilo 2012': UPHELD. arXiv:1202.1986 is 'Perturbations in Massive Gravity Cosmology', JHEP 06 (2012) 085. The k1 != k2 analysis is in arXiv:1111.1983 (Comelli, Crisostomi, Nesti, Pilo, JHEP 03 (2012) 067). The record (#14 ref [4]; review/v3-worklog.md R7) cites 1202.1986 only for instabilities, which is correct.",
+   "F10, DESI DR1 Conclusions sign: UPHELD as an error in the source, not the record. Eq. (24) gives +0.0024 +- 0.0016 and the Conclusions give -0.0024 +- 0.0016.",
+   "The diameter note's Born 1938 reading (papers/phase-space-diameter.md section 4: b fixed from the classical electron radius by r0 = h/(pi b), b c = 2 hbar c/r0 ~ 1.4e8 eV): NO ERROR. It is confirmed on the p.298 page image, eqs. (22) and (26), and born1938_b.out gives 'b c = 1.401e+8 eV'."
+  ],
+  "missed_issues": [
+   "Bound convention for 'how big is a closed universe': the analyst's curvature_bounds.out takes R_c,min from the closed-side edge of the central 95% interval, and prints 'none' where that interval excludes Omega_K < 0. ACT's own quoted bound (R_k > 105 Gpc) is the 95% quantile among closed samples only; source_conventions.out reproduces 100.7 Gpc that way, against 137.9 Gpc from the central edge. For k = +1 imposed, which is Paul's question, the closed-conditional bound is the relevant one. Gaussian approximation, H0 = 67.4 (closed_conditional_bounds.out): R_c > 100.7 Gpc (P-ACT-LB), 101.0 (DESI DR1+CMB), 124.2 (P-ACT-LB_DR2), 132.4 (DESI DR2+CMB, where the analyst has 'none'), 129.5 (SPT CMB-SPA+DESI, analyst 'none'), 134.0 (Giare+26, analyst 'none'), 77.5 (Planck+lensing+BAO). The analyst's 137.9, 164.0 and 235.7 Gpc overstate the minimum radius.",
+   "Gaussian tails misstate Planck's closed preference. curvature_bounds.out lists P(Omega_K<0) = 0.9927 for TT,TE,EE+lowE. The same source says only about 1/10000 samples lie at Omega_K >= 0, and Di Valentino et al. give 99.985%. A Gaussian built from the 68% interval gives P(Omega_K >= 0) = 0.007254 (source_conventions.out), about 50 times the source's tail. Any claim using these Gaussian probabilities for skewed CMB-only posteriors should quote the source's numbers instead.",
+   "Missing source: [20S] (Urena-Lopez, Lozano-Rodriguez, Roman-Herrera + 35 DESI builders, arXiv:2503.20178v3, accepted PRD) fits exactly the program's potential, V = m_a^2 f_a^2 [1+cos(phi/f_a)], to DESI DR1 in flat FRW. It finds log10(m_a c^2/eV) = -32.60 +- 0.12 and log10(f_a/M_Pl) = -0.28 +- 0.19 (abstract, retrieved). This is the observational handle on when tau starts oscillating, which sets the turnaround in a closed comatter universe; facts.md does not use it.",
+   "Born 1938 stands against the program's slaved momentum metric. Born's p-space metric is 'not directly connected with the metric tensor g_kl in the x-space' (p.292). He wants 'different and widely independent metrics for the two limiting cases' (p.293). His closed momentum space is for 'energetically closed' systems, with b fixed from the electron radius, b c ~ 140 MeV (pp.294, 298). So Born 1938 is no precedent for g~ = g^-1 or for a cosmological b ~ 1/a; all this is verified on the page images.",
+   "Born's eq. (9), n = g pi^2 V b^3/h^3, counts one hemisphere of the momentum 3-sphere: the ball |p| < b with measure d^3p/sqrt(1-p^2/b^2) has volume pi^2 b^3, half of 2 pi^2 b^3 (born1938_eq9.out, ratio 0.5). Reading n as the state count of a full S^3 momentum space is off by a factor of 2. The analyst's symbolic check A notes the ratio but facts.md does not.",
+   "Low-redshift evidence for an open universe is stronger than facts.md shows. arXiv:2512.19565 (abstract retrieved) reports DESI BAO + SN Ia at 2 sigma for open, over 3 sigma with theta*, and 5 sigma with DESY5. Together with F15, F17 and F18, the current data disfavor a closed universe at roughly 2-3 sigma: Gaussian P(Omega_K<0) is 0.0122-0.0183 for the DR2-era CMB+BAO combinations (closed_conditional_bounds.out).",
+   "Planck 2018 equation numbers: ar5iv renders the paper wrongly ('(1), (0a), (0b), (1), ...'). Equations cited by ar5iv number from this paper, the analyst's (44a,b) and (45a,b), are 2 low in the paper's own numbering, (46a,b) and (47a,b). This is reconstructed from LaTeX rules, since the typeset PDF and A&A HTML returned 503/403.",
+   "The analyst's downloads include abs_2402.00658.html, an unrelated machine-learning paper ('Learning Planning-based Reasoning by Trajectories Collection...'). Any claim citing arXiv:2402.00658 has a wrong ID; it is probably meant to be 2402.00098, which F60 cites correctly.",
+   "F47 says the Born page-image SHA-256 hashes are 'in REPORT.md', but no REPORT.md exists in the analyst's folder, so the image provenance is unrecorded. My scale-2 renderings hash as: leaf_0303 0b54846325fb7b33, 0305 05c6dfb5c9828a0b, 0306 99892cf211b4dd84, 0308 314eec0c5a163de2."
+  ],
+  "not_reached": [
+   "All C-numbered claims (C1-C57, including the load-bearing set C1-C3, C7-C14, C16, C19, C22-C26, C30-C36, C38-C43, C46, C49-C57) and the analyst's record-error list. claims.json did not exist in my folder (I created the folder) or in the analyst's folder, and I did not read other ~/.claude directories, as instructed. My verdicts are keyed to facts.md F1-F67 and N1-N3, which hold the analyst's sourced facts; the C-to-F mapping is unknown.",
+   "The derived-number columns of the analyst's curvature_bounds.out (chi_*, N_U,min, V(<chi*)/V, and R_c,min beyond the convention issue) belong to the numbers lens.",
+   "Sources in the analyst's downloads that facts.md does not cite: 2511.20757 (Chudaykin et al., DESI DR1 reanalysis with curvature), 1910.09273 (Euclid forecast), hep-th/0207130 (Gasperini-Veneziano), 2512.09486 (Yadav et al.), 2608.25033 (COMPACT Part Va). I did not check any claims resting on them.",
+   "Dagger items that could not be retrieved: the F20 conference-slide summaries, the full texts of Born 1949 and Yang 1947, and the references Tipler et al. cite (Barrow 1987, Burd-Barrow 1988, Barrow-Galloway-Tipler 1986, Turner 1983).",
+   "The typeset (PDF or A&A) equation numbers of Planck 2018 VI: (46a,b) and (47a,b) are reconstructed from the LaTeX, not read from the PDF."
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/fetch_abstracts.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/parse_abstracts.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/quotecheck.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/check_abstract_quotes.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/fetch_sources.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/extract_sources.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/check_body_quotes.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/fetch_html.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/html2tagged.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/check_locations.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/check_frieman_ps.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/born1938_eq9.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/born1938_b.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/fetch_nonarxiv.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/parse_nonarxiv.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/desi_dr3_search.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/api_versions.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/novelty_probe.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/novelty_probe2.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/vonstrauss_quartic.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/planck_eqnum.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/planck_secnum.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/planck_ar5iv_numbering.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/planck_eq_divergence.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/source_conventions.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/closed_conditional_bounds.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/context_checks.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/context_prints.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/planck2013_topology_scope.py",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-observations-sources/api_extra.py"
+  ],
+  "overall": "Setup: claims.json was absent. My folder did not exist, so I created it and keyed every verdict to facts.md F1-F67 and N1-N3; the C-numbered claims could not be mapped. Every source was re-retrieved, with each script and its .out saved.\n\nRetrieval: 67 arXiv API records, 35 TeX sources, 7 rendered HTML pages, Crossref, INSPIRE, APS, and the Internet Archive page images of Born 1938.\n\nQuote checks: 83 abstract fragments and 158 body fragments were checked under normalized matching. Every miss was resolved as a rendering difference, a quote from the body rather than the abstract, or a macro, except one wording slip in F45. The bibliographic data all match; the journal references for Majid-Schroers and Mizoguchi-Tada, which the analyst marked dagger, are now verified. The sign convention (closed means Omega_K < 0) is consistent across all sources.\n\nBorn 1938: all readings match the page images, as does the record's b c ~ 1.4e8 eV.\n\nCorrections (F1, F3, F15, F45, N1):\n- F1, F3: the Planck equation numbers are ar5iv artifacts; the paper's own numbers are (46a,b) and (47a,b).\n- F15: the v1 CMB-SPA value was -0.88 +- 0.48, not 0.88.\n- F45: the source reads 'behavior ... confidence level'.\n- N1: Born did not call b non-universal; he left it open and assumed it universal.\n\nRecord: the 93.8% sentence and #11's compound [19S, 20S, 21S] citation are record errors. 93.8% = 12.2% + 81.6% is the posterior for a negative vacuum energy of a Higgs-like quartic in flat FRW. [20S] fits the program's own 1+cos potential, whose minimum is zero, and [21S] says nothing about anti-de Sitter or collapse.\n\nMethodology (in missed issues):\n- The analyst's curvature-radius bounds use central 95% edges. For 'if closed, how big' the closed-conditional convention ACT uses applies: R_c > ~100-134 Gpc for current CMB+BAO (Gaussian, H0 = 67.4), not 'none' or 138-236 Gpc.\n- Gaussian tails understate Planck's CMB-only closed preference: 0.993 versus the source's 0.9999.\n- Current CMB+BAO and low-z data disfavor closure at ~2-3 sigma."
+ }
+}

@@ -2,7 +2,7 @@
 title: "Quintessence and the equation of state"
 weight: 10
 status: established
-description: "Dynamical dark energy from a slowly evolving scalar field: the equation of state w and the field equation, short summaries of thawing versus freezing, hilltop and axion-like potentials and the CPL w₀–wₐ parametrization, the program's choice of potential, and recollapse when the vacuum energy turns negative."
+description: "Dynamical dark energy from a slowly evolving scalar field: the equation of state w and the field equation, short summaries of thawing versus freezing, hilltop and axion-like potentials and the CPL w₀–wₐ parametrization, the program's choice of potential, and recollapse when the vacuum energy turns negative or, with positive energy, in a closed universe."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §10"
@@ -12,6 +12,8 @@ sources:
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-program-v1.md §8"
   - "review/wiki-build-flags.md items 27, 43"
+  - "review/wiki-build-flags.md items 45, 50, 54"
+  - "notes/closed-universe.md §2"
 ---
 
 *Quintessence is dark energy made of a scalar field, a quantity with a single value at each point of space, whose energy density changes slowly as the universe expands instead of staying fixed as a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant)'s does. Its behaviour is summarized by the equation of state w, the ratio of pressure to energy density: a cosmological constant has w = −1 exactly, and a field whose energy is almost all potential energy comes close to that value. In a [thawing model](/wiki/cosmology/dark-energy/thawing-and-freezing) the expansion holds the field nearly still at early times and it starts to change late, so w begins near −1 and rises. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is a model of this kind, with the periodic potential of an [axion-like field](/wiki/cosmology/dark-energy/axion-like-fields), sitting near the potential's maximum.*
@@ -81,7 +83,7 @@ In a hilltop model the field begins near a maximum of its potential, where V′ 
 
 ### Axion-like fields
 
-An axion-like field, or pseudo-Nambu–Goldstone field, is an angle: its couplings are invariant under the shift φ → φ + constant, up to a small explicit breaking that leaves the periodic potential V(φ) = V₀[1 + cos(φ/f)], with period 2πf in φ (Frieman, Hill, Stebbins and Waga †). The shift symmetry keeps the field light, and the maximum at cos(φ/f) = 1 makes it a natural hilltop model. The mechanism, the axion itself, axion-like dark matter and dark energy, and the program's uses of the idea are on [axion-like fields and pseudo-Goldstone bosons](/wiki/cosmology/dark-energy/axion-like-fields).
+An axion-like field, or pseudo-Nambu–Goldstone field, is an angle: its couplings are invariant under the shift φ → φ + constant, up to a small explicit breaking that leaves the periodic potential V(φ) = V₀[1 + cos(φ/f)], with period 2πf in φ (Frieman, Hill, Stebbins and Waga 1995, astro-ph/9505060, which the closed-universe note cites as retrieved [S]; flag 54). The shift symmetry keeps the field light, and the maximum at cos(φ/f) = 1 makes it a natural hilltop model. The mechanism, the axion itself, axion-like dark matter and dark energy, and the program's uses of the idea are on [axion-like fields and pseudo-Goldstone bosons](/wiki/cosmology/dark-energy/axion-like-fields).
 
 ### The program's choice
 
@@ -95,9 +97,11 @@ Surveys summarize a changing w by the two-parameter Chevallier–Polarski–Lind
 
 If the total energy density of a flat universe reaches zero, the Friedmann equation gives H = 0: the expansion halts. A negative potential energy can bring this about, because the potential term does not dilute while the matter density falls as a⁻³. Since the acceleration is negative at that moment, the universe then contracts. A field that settles into a negative minimum of its potential acts as a [negative cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#a-negative-λ-turnaround-and-collapse-t), an anti-de Sitter phase, and the contraction ends in collapse [T].
 
-#11 §10 cites "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook gives a figure for one of those fits, a "93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse" (Gialamas et al., arXiv:2506.21542; #1 §7 item 3). That figure appears only in #1, and no `verify/` script or later document checks it.
+#11 §10 cites "high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]". The lab notebook gives a figure for one of those fits, a "93.8% preference for a future transition to anti-de Sitter space with eventual cosmological collapse" (Gialamas et al., arXiv:2506.21542; #1 §7 item 3). That figure appears only in #1. The closed-universe investigation checked the paper: it fits a quartic potential V₀ + m²φ²/2 + λφ⁴/4 in a flat universe with the sign of the vacuum energy left free, and 93.8% is the posterior probability that the vacuum energy is negative, 12.2% for a future transition plus 81.6% for a vacuum already negative today. "Future transition … collapse" is the paper's own abstract wording; the description of the fitted potential is not. Of the three works #11 cites for the clause, only [19] supports it: [20] fits V₀[1 + cos] with null spatial curvature and mentions no anti-de Sitter phase or collapse (flag 45 in `review/wiki-build-flags.md`).
 
-The program uses recollapse for its far-future turnaround ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). Whether its own potential can go negative is unresolved: V₀[1 + cos(τ/f)] is never negative when V₀ > 0 ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`).
+**Recollapse with positive energy [T].** In a closed universe, one with positive spatial curvature, the curvature term enters the Friedmann equation with the sign opposite to an energy density, H² = ρ/(3M_P²) − k/a², so the expansion can halt with every density positive. A quintessence field that has passed its minimum and oscillates about it averages to pressure-free matter, and a closed universe filled with matter recollapses. Recollapse of a closed universe with oscillating quintessence is published (Barrow 1987 †; Tipler et al., gr-qc/0003082, §7 [S]; `notes/closed-universe.md` §2; flag 50).
+
+The program uses recollapse for its far-future turnaround ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). Whether its own potential can go negative is unresolved: V₀[1 + cos(τ/f)] is never negative when V₀ > 0 ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). The flag's addendum (2026-10-27) finds that with this potential the program's turnaround is the closed, positive-energy kind: flat and open universes never turn around, and a closed one does ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)). Neither cited fit bears on that recollapse (flag 45).
 
 ## Fits to current data [S]
 
@@ -122,6 +126,7 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — τ's periodic potential, compared with quintessence in general.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the equation of state and the thawing class that row 4 tests.
 - [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — recollapse when the vacuum energy turns negative.
+- [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — recollapse of a closed universe with oscillating quintessence.
 
 ## Sources
 
@@ -131,3 +136,4 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - `notes/broken-born-theory.md` §7 items 2–3 — hilltop initial conditions and τ's thawing shape, the fits with a negative minimum and the 93.8% figure (#1 only)
 - `notes/broken-born-program-v1.md` §8 — the same fits, marked "[T — refresh citations before publication]"
 - `review/wiki-build-flags.md` item 27 — the potential as written cannot turn negative; item 43 — the corridor in the region of the release's fits, separated from its crossing by the slope
+- `review/wiki-build-flags.md` item 27 (addendum) and `notes/closed-universe.md` §2 — the closed turnaround with V ≥ 0, its prior art and the potential's source; items 45, 50 and 54 — the 93.8% figure and the compound citation, the published recollapse, Frieman et al. retrieved [S]

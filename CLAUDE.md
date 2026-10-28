@@ -26,8 +26,9 @@ below gives their paths.
   - #2–#8 calc notes: `debt3a/b/c-*`, `debt1a-*`.
   - #9 `broken-born-program-v1.md` — superseded by #11.
   - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
+  - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
-- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); arbitration and audit scripts go here.
+- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`.
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
@@ -70,6 +71,17 @@ only as a task needs them.
   #11's §13 column "Broken-Born requirement" is now "Program requirement".
   Where the wiki quotes a record that says BBT, it glosses BBT as Broken-Born
   theory, the program's earlier name.
+- 2026-10-27: the closed-universe note (`notes/closed-universe.md`, Paul's question; not reviewed). Its
+  results:
+  - nothing derives closure, but with V₀[1 + cos] ≥ 0 a turnaround (row 5) exists only if k = +1. In the
+    program's model class the data disfavour closure at about 2σ; w₀wₐ+Ω_K is the wrong proxy;
+  - position space: lower bounds only. At 95% given closure, R_max > 1.2×10⁵ Gpc and t_turn > 6×10⁵ Gyr;
+  - momentum space: the fibre stays flat (k̃ = 0), and closure only makes momenta discrete. At the
+    turnaround the momentum scale is below 1.1×10⁻³ of today's;
+  - on T*S³ only the position polarization is integrable (the critic's result, one agent), so if the
+    section condition requires integrability, P5's mirror vacuum has no global form;
+  - flags 45–54 and a flag-27 addendum in `review/wiki-build-flags.md`. Flag 49: the dual
+    Einstein–Hilbert term behind #11 §10's a⁻⁶ step is not derived.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -85,6 +97,10 @@ only as a task needs them.
   Steinhardt 2024 and Hur et al. 2025 bear on reading DESI's CPL quadrant
   against strict w ≥ −1; whether the aligned bimetric vacuum persists as the
   universe expands is open.
+- Open from the closed-universe note, not queued:
+  - derive the dual Einstein–Hilbert term from S_H (flag 49);
+  - fit V₀[1 + cos(τ/f)] plus Ω_K to full CMB, BAO and supernova likelihoods;
+  - Artigas, Mielczarek and Rovelli 2019 (a compact phase space makes the universe recollapse) is a lead.
 
 ## The gate
 

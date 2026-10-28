@@ -1,0 +1,307 @@
+{
+ "analysis": "gravity-sector",
+ "lens": "derivation",
+ "result": {
+  "verdicts": [
+   {
+    "claim_id": "C1",
+    "verdict": "confirmed",
+    "reason": "I re-derived the minisuperspace from scratch. The FLRW Einstein\u2013Hilbert reduction was checked against the Ricci scalar rather than typed in, and the interaction comes from e_n of diag(X/N, Y/a, Y/a, Y/a). The g-sector time-reparametrization identity gives exactly the stated factor, with no k. The full Noether identity vanishes. The result matches von Strauss et al. eq. (bianchi_constraint) in my own download.",
+    "independent_check": "v1_minisuperspace.py -> .out: 'sqrt(-g)R - [6(kNa - a adot^2/N) + d/dt(6 a^2 adot/N)] = 0'; 'C1: adot*E_a - N d/dt(E_N) = 3*M_g**2*m**2*(N(t)*Derivative(Y(t), t) - X(t)*Derivative(a(t), t))*(beta1*a(t)**2 + 2*beta2*Y(t)*a(t) + beta3*Y(t)**2)'; 'contains k: False'; 'full time-reparametrization identity (should be 0): 0'"
+   },
+   {
+    "claim_id": "C2",
+    "verdict": "confirmed",
+    "reason": "On X = N Ydot/adot both constraints depend on k only through H^2 + k/a^2. This needs the same gamma_k in both metrics, which C22 supplies.",
+    "independent_check": "v1 .out: 'C2: g constraint / a^3 : 3*Hk2*M_g**2 - M_g**2*beta0*m**2 - rho_ - ... contains k: False'; 'f constraint (dyn. branch) / a^3: 3*Hk2*M_f**2*y - M_g**2*beta1*m**2 - ... contains k: False'"
+   },
+   {
+    "claim_id": "C3",
+    "verdict": "confirmed",
+    "reason": "I transcribed vS eq. (quartic) from my own copy of the arXiv source. It vanishes identically on my algebraic equation and equals Upsilon times (rho_* - rho_*(Upsilon)). My g and f equations also match vS (FgUpsilon) and (FfUpsilon). The factor m^2/y^2 is the analyst's normalization; the substance, the same relation, is confirmed.",
+    "independent_check": "v9_vs_quartic.py -> .out: 'vS quartic with rho_* = (Pf/(Ms^2 y) - Pg)/3 substituted: 0'; 'vS quartic / (y (rho_* - (Pf/(Ms^2 y) - Pg)/3)) = 1'; v1: 'g eq == 3Mg^2 Hk2 - rho - m^2 Mg^2 Pg(y): True'"
+   },
+   {
+    "claim_id": "C4",
+    "verdict": "confirmed",
+    "reason": "Derived independently from the palindrome, M_f = M_g and beta0 = -4beta1 - 3beta2. P_g factorizes as (y - 1)(...).",
+    "independent_check": "v1 .out: 'C4: rho/(3 Mg^2 m^2) = -(y - 1)*(y + 1)*(beta1*y**2 + 4*beta1*y + beta1 + 6*beta2*y)/(3*y)  equals claim: True'; 'P_g(1) = 0 ; P_f(1) = 0'"
+   },
+   {
+    "claim_id": "C5",
+    "verdict": "confirmed",
+    "reason": "I took a Bianchi I relative shear about f = c^2 g, with the shear kinetic term taken from a Ricci scalar I computed. The resulting mass is the standard proportional-background FP mass. At the program point it is a squared mass, as flag 5 says.",
+    "independent_check": "v2_shear_mass.py -> .out: 'Bianchi I: sqrt(-g)R - [...] - d/dt(6 a^2 adot/N) = 0'; 'C5: m_FP^2 from relative shear = m**2*(M_f**2*c**2 + M_g**2)*(beta1 + 2*beta2*c + beta3*c**2)/(M_f**2*c)'; 'equals ...: True'; 'program point (c=1, Mf=Mg, b3=b1): M_X^2 = 4*m**2*(beta1 + beta2)'"
+   },
+   {
+    "claim_id": "C6",
+    "verdict": "confirmed",
+    "reason": "The series of H^2 + k/a^2 on the exact branch at y = 1 - eps has linear coefficient M_X^2/2 for every beta2/beta1. Shape dependence enters only at O(eps^2).",
+    "independent_check": "v1 .out: 'H^2 + k/a^2 on branch, y = 1 - eps: -beta1*epsilon**2*m**2 + 2*beta1*epsilon*m**2 - beta2*epsilon**2*m**2 + 2*beta2*epsilon*m**2'; 'C6: ... with M_X^2 = 4 m^2 (b1+b2): True'"
+   },
+   {
+    "claim_id": "C7",
+    "verdict": "confirmed",
+    "reason": "M_eff^2 = rho/(3(H^2 + k/a^2)) tends to 2 M_g^2 as y -> 1.",
+    "independent_check": "v1 .out: 'C7: M_eff^2 = rho/(3(H^2+k/a^2)) as y->1: -2*M_g**2*(6*beta1 + 6*beta2)/(-6*beta1 - 6*beta2)' (= 2 M_g^2)"
+   },
+   {
+    "claim_id": "C8",
+    "verdict": "confirmed",
+    "reason": "Exact identity for all y. Its positivity needs beta1 > 0, and its Mbar_P/M_X form needs beta1 + beta2 > 0.",
+    "independent_check": "v1 .out: 'C8: 2 P_g + 3 rho_* = beta1*(y - 1)**4/y ; equals b1 (y-1)^4/y: True'; '3(2Mg^2)Hk2 - rho on branch = M_g**2*beta1*m**2*(y - 1)**4/y'"
+   },
+   {
+    "claim_id": "C9",
+    "verdict": "confirmed",
+    "reason": "I recomputed it in eps = 1 - y with my own constants (G, hbar, H0 = 67.4, lambda_X = 37.68 um). The value depends on shape: 2.6e-185 at s = 10, 5.7e-184 at s = -0.5. The claim states s = 1.",
+    "independent_check": "v3b_today.py -> .out: 's = 1.0   today flat, rho = rho_crit : 1 - y = 1.5074e-61; rho_DE,bim/rho = 1.4272e-184'"
+   },
+   {
+    "claim_id": "C10",
+    "verdict": "confirmed",
+    "reason": "As y -> 0, M_eff^2 -> M_g^2. Measured against today's M_eff^2 = 2 M_g^2, that is G_eff = 2 G_N.",
+    "independent_check": "v1 .out: 'C10: as y->0: M_g**2'"
+   },
+   {
+    "claim_id": "C11",
+    "verdict": "corrected",
+    "reason": "The numbers are right for s = 0 and s = 1, the only shapes the analyst computed. The range is shape-dependent and wider over the range C25 uses.",
+    "independent_check": "v8_missed.py -> .out: 's = 0    : y = 0.1482, H/M_X = 0.7694, T = 1576.0 GeV'; 's = 1    : y = 0.09883, H/M_X = 0.7457, T = 1551.6 GeV'; 's = -0.9 : y = 0.3415, H/M_X = 0.9579, T = 1758.5 GeV'; 's = 100  : y = 0.003247, H/M_X = 0.7083, T = 1512.1 GeV'",
+    "corrected_statement": "The effective Planck mass squared is halfway between M_g^2 and 2M_g^2 at H \u2248 0.75\u20130.77 M_X (T \u2248 1.55\u20131.58 TeV) for \u03b22/\u03b21 \u2208 [0, 1]. Over \u03b22/\u03b21 \u2208 [\u22120.9, 100] the halfway point lies at H \u2248 0.71\u20130.96 M_X, T \u2248 1.51\u20131.76 TeV (M_X c\u00b2 = 5.24 meV, g* = 106.75); T scales as (M_X/5.24 meV)^{1/2}."
+   },
+   {
+    "claim_id": "C12",
+    "verdict": "confirmed",
+    "reason": "Exact branch, computed in eps to avoid cancellation. It equals the leading order 2\u03c1/(3 Mbar_P\u00b2 M_X\u00b2).",
+    "independent_check": "v3b .out: 'today flat, rho = rho_crit: 1 - y = 1.5074e-61'"
+   },
+   {
+    "claim_id": "C13",
+    "verdict": "confirmed",
+    "reason": "Exact branch, \u03c1 = (\u03c0\u00b2/30)\u00b710.75\u00b7(1 MeV)\u2074.",
+    "independent_check": "v3_epochs.out: 'BBN T = 1 MeV, g* = 10.75 : 1 - y = 1.4495e-26'"
+   },
+   {
+    "claim_id": "C14",
+    "verdict": "confirmed",
+    "reason": "Reproduced at s = 1 and across s \u2208 [\u22120.5, 10].",
+    "independent_check": "v3_epochs.out: 'T = 1 TeV, g* = 106.75 : 1 - y = 0.15572'; 's = -0.5 : ... 0.5: T = 1320.0 GeV'; 's = 10 : ... 0.5: T = 1273.0 GeV'"
+   },
+   {
+    "claim_id": "C15",
+    "verdict": "confirmed",
+    "reason": "Proved analytically, which is stronger than the analyst's numerical scan (s \u2264 1000, y \u2264 50). \u03c1/(m\u00b2M_g\u00b2) = \u03b21\u00b7F with F\u2032 = \u2212(3y\u00b2 + 2by + y\u207b\u00b2), b = 4 + 6s. For b > \u22122, 3y\u00b2 + 2by + y\u207b\u00b2 > 3y\u00b2 \u2212 4y + y\u207b\u00b2 = (y\u22121)\u00b2(3y\u00b2+2y+1)/y\u00b2 \u2265 0. So \u03c1 is strictly decreasing on all of (0, \u221e), with \u03c1(1) = 0 and \u03c1 \u2192 \u221e as y \u2192 0.",
+    "independent_check": "v7_branches.py -> .out: 'C15: F'(y) = -(2*b*y**3 + 3*y**4 + 1)/y**2'; '3y^2 - 4y + y^-2 = (y - 1)**2*(3*y**2 + 2*y + 1)/y**2'; 'lim_{y->0+} y F = 1'"
+   },
+   {
+    "claim_id": "C16",
+    "verdict": "confirmed",
+    "reason": "Analytic, under the unstated premise \u03b21 + \u03b22 > 0 (M_X\u00b2 > 0); for \u03b21 < 0 that means b < \u22122. The finite branch (y\u2212, 1) runs from \u03c1 = 0 up to a maximum and back to 0. The infinite branch (y+, \u221e) is monotonic and ends at y+, where \u039b_g = \u22123m\u00b2(\u03b21+\u03b22)(y+\u22121)\u00b2 < 0. For \u03b21 = 0, \u03c1 = 6\u03b22m\u00b2M_g\u00b2(1\u2212y\u00b2) is bounded. In addition, \u03c1_y > 0 on the infinite branch, so by the identity m_FP\u00b2(y) \u2212 2Hk\u00b2 = \u2212y\u03c1_y/(3M_g\u00b2) the Higuchi bound fails there at all times (the analyst also notes this, citing K\u00f6nnig).",
+    "independent_check": "v7 .out: 'finite branch y in (0.12702, 1): rho > 0 throughout: True; max rho/(m^2 Mg^2) = 4.2852 at y = 0.4075  (rho_* = ... 1.4284)'; 'infinite branch y > 7.8730: rho increasing monotonically: True'; '-F'(y+) = (y+ - y-)^2 : True'; v1: 'P_g at broken root u+ ... equals -3 b1 (1+s)(u-1)^2: True'"
+   },
+   {
+    "claim_id": "C17",
+    "verdict": "confirmed",
+    "reason": "Chain rule with \u03c1\u0307 = \u22123H(\u03c1+p); the expression contains no 1/\u0227. Positivity needs \u03c1 + p \u2265 0 and dy/d\u03c1 < 0, which holds on the \u03b21 > 0 finite branch (C15).",
+    "independent_check": "v1 .out: 'C17: Ydot/adot = -3*(pp(t) + rr(t))*Derivative(yf(rr(t)), rr(t)) + yf(rr(t))'"
+   },
+   {
+    "claim_id": "C18",
+    "verdict": "confirmed",
+    "reason": "My own integrator integrates only the second-order g equation, with E_N, E_X and E_Y derived symbolically. With the analyst's parameters (dust 9.5, radiation 0.05, s = 1, k = 1; read off their printed E_N) it reproduces their turnaround exactly. With my own parameters it passes the turnaround equally cleanly. My residuals are \u2264 6e-13 against their \u2264 1e-14; the difference comes from residual normalization and bisection precision, not from the physics.",
+    "independent_check": "v5b_turnaround_analyst_params.out: 'turnaround: t = 2.26520, a = 1.588667, y = 0.895602'; 'f lapse X = y - 3 rho dy/drho = 1.226664;  dY/da (central difference) = 1.226664'; 'max relative residuals: |E_N| 2.00e-13, |E_X| 6.01e-13, |E_Y| 4.89e-13'; v5_turnaround.out (dust C = 4.71): 'X = ... 2.403910;  dY/da ... = 2.403910', residuals \u2264 1.20e-13"
+   },
+   {
+    "claim_id": "C19",
+    "verdict": "corrected",
+    "reason": "The arithmetic is right for \u03a9_m = 0.315 with \u03c4's energy removed, but the claim states neither assumption. Under V\u2080[1+cos(\u03c4/f)] \u2265 0, \u03c4 has no energy sink: after thawing it oscillates about V = 0 and redshifts like dust, so \u03a9_m,eff \u2273 1.",
+    "independent_check": "v8 .out: 'tau energy removed (analyst): Omega_m = 0.315 : a_turn = 315.0, R_turn = 1.367e+30 m, 1 - y = 1.519e-69'; 'tau energy kept as dust-like oscillations from today: Omega_m,eff = 1.001 : a_turn = 1001.0, R_turn = 4.345e+30 m, 1 - y = 1.504e-70'",
+    "corrected_statement": "At the turnaround of an illustrative closed universe (\u03a9_k = \u22120.001, \u03a9_m = 0.315, \u03c4's energy assumed removed, radiation neglected), 1 \u2212 y = 2(\u03bb_X/R_turn)\u00b2 = 1.5e-69. If \u03c4's energy is kept as dust-like oscillations (\u03a9_m,eff \u2248 1), a_turn \u2248 1000, R_turn \u2248 4.3e30 m and 1 \u2212 y \u2248 1.5e-70. Either way the second frame's 3-sphere matches ours."
+   },
+   {
+    "claim_id": "C20",
+    "verdict": "confirmed",
+    "reason": "u\u00b7P_g(u) \u2212 P_f(u) (my P_f) factorizes to R1's polynomial divided by u. The analyst's P_f is mine divided by u\u00b3, so 'P_g = u\u00b2P_f' is the same condition. It is k-independent because both equations contain H\u00b2 + k/a\u00b2.",
+    "independent_check": "v1 .out: 'C20: u P_g(u) - P_f(u) (palindromic subs) = (u - 1)*(u + 1)*(-beta0*u + beta1*u**2 + beta1 + 3*beta2*u)'"
+   },
+   {
+    "claim_id": "C21",
+    "verdict": "confirmed",
+    "reason": "Confirmed, and it can be stated as a theorem. At every broken vacuum \u039b_g = \u22123m\u00b2(\u03b21+\u03b22)(u\u22121)\u00b2 in closed form, so \u039b_g < 0 whenever M_X\u00b2 > 0; the claim says only 'every one found'. The algebraic branch, which the claim omits, also has no empty k = +1 solution. There P_g(y_a) = (\u03b21+\u03b22)(y_a\u22121)(y_a+3) and P_f(y_a) = \u2212y_a(\u03b21+\u03b22)(y_a\u22121)(3y_a+1) have opposite signs, so either \u039b_g < 0 or the f equation has no closed solution.",
+    "independent_check": "v1 .out: 'C21: P_g at broken root u+ = ... ; equals -3 b1 (1+s)(u-1)^2: True'; 'P_g at broken root u- equals -3 b1 (1+s)(u-1)^2: True'; 'u = 7.87298, Lambda_g/(m^2 2(b1+b2)) = -70.8569'; v7: 'P_g(y_a) = ... claimed (b1+b2)(y_a-1)(y_a+3): True'; 'P_f(y_a) = ... claimed -y_a (b1+b2)(y_a-1)(3y_a+1): True'"
+   },
+   {
+    "claim_id": "C22",
+    "verdict": "confirmed",
+    "reason": "The isotropy SO(3) acting on T_pS\u00b3 leaves a one-dimensional space of invariant symmetric tensors and no invariant vectors. The claim assumes f shares g's SO(4); non-bidiagonal configurations are outside it, as stated.",
+    "independent_check": "v6_s3_topology.out: 'C22: dim of SO(3)-invariant symmetric 2-tensors = 1 ; invariant vectors = 0'"
+   },
+   {
+    "claim_id": "C23",
+    "verdict": "confirmed",
+    "reason": "The Bianchi constraint follows from the g equations and matter conservation alone, so it holds whether f is dynamical or fixed. With \u1e8e = 0 it reduces to (\u03b21a\u00b2+2\u03b22aY+\u03b23Y\u00b2)X\u0227 = 0. With X \u2260 0, either \u0227 = 0 or a sits at a constant root; continuity rules out any mixture. vS App. A makes the analogous statement for a Minkowski reference, and I checked that quote in my own download.",
+    "independent_check": "v1 .out: 'C1: adot*E_a - N d/dt(E_N) = 3*M_g**2*m**2*(N(t)*Derivative(Y(t), t) - X(t)*Derivative(a(t), t))*(...)' (g-sector identity only); downloads/1111_1655 line 1294: 'it is not possible to find solutions with positive or zero spatial curvature for a non-dynamical $f_{\\mu\\nu}$'"
+   },
+   {
+    "claim_id": "C24",
+    "verdict": "confirmed",
+    "reason": "I mapped Fasiello\u2013Tolley's normalization through their own Friedmann equation (m_FT\u00b2\u03b2_FT/2 = m\u00b2M_g\u00b2\u03b2_vS). With H_f = H/y their bound equals m_FP\u00b2(y) \u2212 2H\u00b2 for general M_f. K\u00f6nnig's form equals \u2212(r\u00b2/2)\u03c1_r. The exact identity m_FP\u00b2(y) \u2212 2(H\u00b2+k/a\u00b2) = \u2212y\u03c1_y/(3M_g\u00b2) holds for any \u03b2 at M_f = M_g.",
+    "independent_check": "v2 .out: 'C24: m_FP^2(y) - 2(H^2+k/a^2) + y rho_y/(3 Mg^2) = 0'; 'Konnig (3/2)B2(1+r^2) - Pf equals -(r^2/2) rho_r: True'; 'equals m_FP^2(y) - 2H^2 with general Mf: True'; FT source line 510 read for the mapping"
+   },
+   {
+    "claim_id": "C25",
+    "verdict": "confirmed",
+    "reason": "The minima reproduce to 6 digits. The bound holds for all s > \u22121 analytically, since \u03c1_y < 0 (C15). The minimum ratio tends to 1\u207a as s \u2192 \u221e (1.007 at s = 1000), so '\u2265 1.03' holds only up to s = 100.",
+    "independent_check": "v3_epochs.out: 's = 0 : min ratio = 1.487865'; 's = 1 : 1.349883'; 's = 10 : 1.130906'; 's = 100 : min ratio = 1.032239 at y = 0.07244;  ratio(y=1e-30) = 1.5'; 's = -0.9 : min ratio = 1.500001'; 's = 1000 : 1.007152'"
+   },
+   {
+    "claim_id": "C26",
+    "verdict": "confirmed",
+    "reason": "Reproduced. The 1.52\u20131.53 TeV range corresponds to s \u2208 [0, 1]; s = \u22120.5 gives 1536 GeV and s = 10 gives 1514 GeV, a 1% spread. T scales as M_X^{1/2}.",
+    "independent_check": "v3_epochs.out: 's = 0 : 2Hk^2 = M_X^2 at y = 0.17885, T = 1529.7 GeV'; 's = 1 : ... y = 0.1143, T = 1523.6 GeV'; 's = -0.5 : ... T = 1536.3 GeV'; 's = 10 : ... T = 1514.2 GeV'"
+   },
+   {
+    "claim_id": "C27",
+    "verdict": "corrected",
+    "reason": "The limit 1 + 2w holds for any \u03b2 with \u03b21 \u2260 0, and under K\u00f6nnig's convention (\u039e \u221d e^{\u03c9t}, \u03c9\u00b2 > 0 unstable) it means a gradient instability for w > \u22121/2. But K\u00f6nnig derives the formula for a singly coupled perfect fluid, assuming |\u03c9\u2032/\u03c9\u00b2| \u226a 1. 'Absent during inflation' applies it at w \u2248 \u22121 to a scalar-field inflaton, whose perturbations are not those of a fluid with c_s\u00b2 = w. That part is an extrapolation and should be tagged [O].",
+    "independent_check": "v4_konnig.py -> .out: 'C27: program branch, omega^2/(k/calH)^2 as r -> 0: 2*w + 1'; 'same limit for general betas (b1 != 0): 2*w + 1'; 'w = -0.999 s = 1.0 : omega^2/(k/calH)^2 at r=0.0005: -0.99799 ... no sign change on (0,1)'; K\u00f6nnig source line 912: 'We considered a fluid that is only singly coupled'",
+    "corrected_statement": "On the program's branch, K\u00f6nnig's sub-horizon scalar eigenfrequency for a singly coupled perfect fluid tends to \u03c9\u00b2/(k/\u210b)\u00b2 = 1 + 2w at small y: a gradient instability for w > \u22121/2 (radiation, dust). For w \u2192 \u22121 the fluid formula gives stability, but whether this carries over to a scalar-field inflaton is not shown by the cited formula [O]."
+   },
+   {
+    "claim_id": "C28",
+    "verdict": "confirmed",
+    "reason": "Numbers reproduced. The recollapse statement holds because \u03c9\u00b2 depends only on r and w, r on \u03c1 only, and both signs \u00b1|\u03c9| occur, so a growing mode exists in either direction of time. The instability occurs at all only if the radiation era starts above T_c (see missed issues).",
+    "independent_check": "v4 .out: 'radiation s = -0.5 : ... r_c = 0.51586, H/M_X = 0.4692, T_c(g*=106.75) = 1308.9 GeV'; 'radiation s = 1.0 : r_c = 0.31409, H/M_X = 0.5178, T_c = 1369.9 GeV'; 'dust s = 1.0 : r_c = 0.30225, H/M_X = 0.5234, T_c = 1375.5 GeV'; 'radiation s = 10.0 : H/M_X = 0.5191, T_c = 1376.6 GeV'"
+   },
+   {
+    "claim_id": "C29",
+    "verdict": "confirmed",
+    "reason": "Using K\u00f6nnig's own relation r\u2032 = \u22123(1+w)\u03c1/\u03c1_r, line 1 equals both his B2 form and his final form. Line 2 equals them only with the factor 3 restored.",
+    "independent_check": "v4 .out: 'C29: line1 - B2 form = 0'; 'line1 - final form = 0'; 'line1 - line2 = 2*(-beta1 + beta3*r**2)*...'; 'line1 - (line2 with factor 3 restored) = 0'"
+   },
+   {
+    "claim_id": "C30",
+    "verdict": "confirmed",
+    "reason": "My Friedmann equations agree with vS (Fg) and (Ff), so the conventions are the same. In that convention m_FP\u00b2 = m\u00b2(\u03b21+2\u03b22+\u03b23)(1 + 1/M*\u00b2) (C5). vS's choice \u03b21 = \u22121 \u2212 2\u03b22 \u2212 \u03b23 sets \u03b21+2\u03b22+\u03b23 = \u22121, which gives m_FP\u00b2 = \u2212(1+1/M*\u00b2)m\u00b2. 'Likely a sign slip' is appropriately hedged, and nothing depends on it.",
+    "independent_check": "downloads/1111_1655/src lines 729\u2013734 read: '\\beta_1 = -1-2\\beta_2-\\beta_3' and 'm_{FP}^2 = (M_*^2+1)/M_*^2 m^2'; v2 .out C5 formula '... (beta1 + 2*beta2*c + beta3*c**2)...: True'; v1 'g eq == 3Mg^2 Hk2 - rho - m^2 Mg^2 Pg(y): True'"
+   },
+   {
+    "claim_id": "C31",
+    "verdict": "confirmed",
+    "reason": "I used hyperspherical coordinates with H_i = \u2202_i + \u0393^k_{ij} p_k \u2202/\u2202p_j. All brackets match (g_jl p_i \u2212 g_il p_j)\u2202/\u2202p_l, and \u03c9(H_i, H_j) = 0 by torsion-freeness. On the flat torus \u0393 = 0. The naming is consistent with the record: the momentum (p-) representation uses the polarization transverse to the fibres.",
+    "independent_check": "v6 .out: 'C31: [H_chi, H_theta] vertical components: [-p1, p0*(sin(2*chi)/tan(chi) - 2*cos(2*chi))/2, 0]'; '[H_i,H_j] = (g_jl p_i - g_il p_j) d/dp_l for all i<j: True ; horizontal distribution Lagrangian: True'"
+   },
+   {
+    "claim_id": "C32",
+    "verdict": "confirmed",
+    "reason": "My own derivation agrees. Lagrangian global sections are graphs of closed 1-forms, which are exact when H\u00b9(M;R) = 0, true for any spherical space form since \u03c01 is finite. On compact M, \u03c61 \u2212 \u03c62 attains a maximum, where the two graphs meet, so distinct leaves intersect. The claim's 'by sections' carries the completeness assumption; without it (incomplete leaves) the argument does not apply, which the analyst flags.",
+    "independent_check": "Derivation [D], no code; consistent with v6 C31 (curvature nonzero \u21d2 the Levi-Civita horizontal distribution is not integrable)"
+   },
+   {
+    "claim_id": "C33",
+    "verdict": "confirmed",
+    "reason": "Bianchi I about Minkowski at c = 1, M_f = M_g. With r0 the amplitude of the relative exponent shear \u03b2_i \u2212 \u03b3_i in each diagonal entry and Mbar_P\u00b2 = 2M_g\u00b2, each component carries 1/8; the analyst's script uses the same definition.",
+    "independent_check": "v2 .out: 'energy density for mode beta=(r/2+s, -(r/2+s), 0), amplitude r0 of p-q: 1/4 x Mbar_P^2 M_X^2 r0^2'; '-> per diagonal component ...: 1/8 x Mbar_P^2 M_X^2 r0^2'"
+   },
+   {
+    "claim_id": "C34",
+    "verdict": "confirmed",
+    "reason": "Series and exact values on the branch.",
+    "independent_check": "v7 .out: 'C34: rho/(Mbar_P^2 M_X^2) = 3*epsilon*(2 - epsilon)/4 + O(eps^3)'; 's = -1/2: ... 0.6562'; 's = 10: ... 0.5668'"
+   },
+   {
+    "claim_id": "C35",
+    "verdict": "confirmed",
+    "reason": "The half-loop closes in U(4)/O(4) because diag(\u22121,1,1,1) \u2208 O(4), and det\u00b2 winds once along it. The \u03c01(U(4)) generator winds twice. With the exact sequence this gives \u03c01 = Z.",
+    "independent_check": "v6 .out: 'C35: det^2 winding of t -> diag(e^{i pi t},1,1,1) ...: 1.0 ; of the pi_1(U(4)) generator: 2.0'"
+   },
+   {
+    "claim_id": "C36",
+    "verdict": "confirmed",
+    "reason": "\u03c02(U(4)) = 0, and \u03c01(SO(4)) = Z2 maps to zero in \u03c01(U(4)) = Z, so \u03c02(\u039b(4)) is the kernel, Z2. This agrees with Bott's stable value.",
+    "independent_check": "v6 .out: 'C36: det winding of the pi_1(SO(4)) generator in U(4): 0.0'"
+   },
+   {
+    "claim_id": "C37",
+    "verdict": "confirmed",
+    "reason": "Dynkin indices of SU(2)_L and SU(2)_R acting on R\u2074 = H, embedded in U(4), are 2 each, so the image of \u03c03(SO(4)) is 2Z. With \u03c02(O(4)) = 0, \u03c03 = Z2.",
+    "independent_check": "v6 .out: 'Dynkin index of left mult. (SU(2)_L in SO(4)) in U(4): 2.000000'; 'right mult. (SU(2)_R): 2.000000'; 'conjugation (SO(3) in SO(4)): 4.000000'"
+   },
+   {
+    "claim_id": "C38",
+    "verdict": "confirmed",
+    "reason": "Free classes are \u03c03/\u03c01 with Aut(Z2) trivial, so Z2; \u03c03(S\u00b9) = 0. Changing the O(4) frame does not change the class, because the image of \u03c03(O(4)) is already quotiented out. Two caveats (see missed issues): the result assumes the U(4) acting on J is global, consistent with \u03c4 being un-eaten, and it uses the record's \u039b(d) with d = 4.",
+    "independent_check": "v6 .out C35\u2013C37 lines above; '(aside) SO(3) -> U(3) Dynkin index: 4.0 -> pi_3(U(3)/O(3)) = Z4'"
+   },
+   {
+    "claim_id": "C39",
+    "verdict": "confirmed",
+    "reason": "The connection on bi-invariant SU(2) is metric and torsion-free. Constant-component symmetric traceless tensors have \u2212\u2207\u00b2R\u00b2 = 6 and are divergence-free. The SO(4) representation (2,0) \u2295 (0,2) has dimension 10.",
+    "independent_check": "v6 .out: 'metric compatibility: True ; torsion-free: True'; '-nabla^2 R^2 on left-invariant symmetric traceless tensors: [6. 6. 6. 6. 6.]'; 'divergence ... (TT check): 2.22e-16'; 'L = 2: TT eigenvalue ... = 6, dim ... = 10'"
+   },
+   {
+    "claim_id": "C40",
+    "verdict": "confirmed",
+    "reason": "Sun's boxed decomposition, quoted from my own download, gives n \u2265 2 at s = 2. Level by level it equals scalar + transverse vector + TT harmonics from L \u2265 2; the naive count has 11 more modes at L \u2264 1, and nothing is added. This is the de Sitter result, as stated.",
+    "independent_check": "v6 .out: 'L = 0: naive 1, Sun 0'; 'L = 1: naive 10, Sun 0'; 'L = 2: naive 35, Sun 35'; 'removed modes total: 11 ; any added: False'; downloads/2111_04591 line 918 boxed formula"
+   },
+   {
+    "claim_id": "C41",
+    "verdict": "confirmed",
+    "reason": "With the ledger E = \u03c1a\u00b3 = \u03c1\u0303\u00e3\u00b3, \u00e3 = 1/a and a shared lapse, our curvature becomes \u03c1\u0303 = \u22123M\u00b2k/\u00e3\u2074 (w\u0303 = 1/3), consistent with w_eff = \u2212w\u0303. This mirrors #11 \u00a713 row 10 ('closed dual curvature \u21d2 negative \u0394N_eff'). H\u0303 = \u2212H is immediate.",
+    "independent_check": "v7 .out: 'C41: ... dual density rho~ = E/a~^3 = -3*M**2*k/atilde**4 ; w~ ...: [1/3]'"
+   },
+   {
+    "claim_id": "C42",
+    "verdict": "confirmed",
+    "reason": "The DFT maps shift to clock and clock to inverse shift. The rest is the standard finite Weyl\u2013Heisenberg argument.",
+    "independent_check": "v6 .out: 'C42: N = 7: |F X F^-1 - Z^s| min over s = 8.6e-16 (s = [1]), |F Z F^-1 - X^s| min = 1.9e-15 (s = [6]), |F^4 - 1| = 3.6e-15'"
+   },
+   {
+    "claim_id": "C43",
+    "verdict": "confirmed",
+    "reason": "Quote verified in my own download. K\u00f6nnig's footnote says M_f = M_g is a normalization 'allowed due to a redundancy in the parameters', so the physical ratio is M_f u/M_g, which the program fixes at 1 (M_f = M_g by reciprocity, u = 1 at the aligned vacuum). Akrami et al. 2015 itself remains \u2020 (not retrieved). The escape this closes is the small-M_f one; a heavy-X or low-reheating escape remains (see missed issues).",
+    "independent_check": "downloads/1503_07436/src lines 886\u2013890: 'As shown in \\cite{Akrami2015}, a small, but natural, Planck mass for $f_{\\mu\\nu}$ ... would shift this gradient instability to very early times'; footnote: 'allowed due to a redundancy in the parameters'"
+   }
+  ],
+  "record_error_verdicts": [
+   "RE1 (M_X \u221d 2(\u03b21+\u03b22) should be M_X\u00b2, #11 \u00a77.5 and #9 \u00a75 item 6): UPHELD, but not new. My Bianchi I derivation gives M_X\u00b2 = 4m\u00b2(\u03b21+\u03b22) (v2). This is review/wiki-build-flags.md item 5, already confirmed by the record's own 2026-10-22 audit as notation only; no number depends on it. The analyst says it confirms flag 5.",
+   "RE2 (second frame confined to compact \u039b(4), 'no scale of its own', versus Hassan\u2013Rosen dynamics with equal Planck masses): PARTLY UPHELD. The tension is real: #11 \u00a77.4\u20137.5, debt1a-iii \u00a74 and HANDOFF \u00a72 state both without reconciling them. But the diameter note \u00a78.2 and round-5 R1 already register it as open [O] ('Whether the aligned point persists ... is not settled ... carries no scale of its own'), so it is not an unflagged error. The analyst's technical content is right. A fixed scale (\u1e8e = 0) forces \u0227 = 0, and the Bianchi constraint holds even for a non-dynamical f (v1). With f dynamical, 1 \u2212 y = 2(H\u00b2+k/a\u00b2)/M_X\u00b2 = 1.51e-61 today (v1, v3b). 'Fixed scale' is only one reading of 'no scale of its own'. A slaved-scale reading (f \u2261 g) would leave no spin-2 X, against the record's five polarizations. A bounded-Y reading would force a bounded a, i.e. a closed universe; the analyst lists only this last one as open.",
+   "RE3 (#11 \u00a710 omits that the wedge sector doubles G_eff for H \u226b M_X): UPHELD, as an omission rather than a wrong conclusion. The sentence's conclusion holds: \u03c1_DE,bim/\u03c1 = 1.43e-184 today at s = 1 (v3b). The guarantee comes from the exact (1\u2212y)\u2074/y identity on the branch (v1), not from \u00a77.3's aligned-point identity alone. The step M_eff\u00b2 = 2M_g\u00b2 \u2192 M_g\u00b2 appears in no record document. My /usr/bin/grep of papers, notes, review, HANDOFF and wiki finds only the a\u207b\u2076 dual-Einstein G_eff step, and no M_g\u00b2 + M_f\u00b2. It sits at T \u2248 1.51\u20131.76 TeV over s \u2208 [\u22120.9, 100] for the minimal M_X (v8), scales as (M_X/5.24 meV)^{1/2}, and occurs only if the universe was hotter than that.",
+   "RE4 (Higuchi bound 'trivially satisfied by a heavy X', knot-dark-matter-standalone.md \u00a71 and v3-worklog R7): UPHELD, with a qualifier. The fixed-mass reasoning fails once 2(H\u00b2+k/a\u00b2) > M_X\u00b2. That happens at T \u2248 1.51\u20131.54 TeV \u00d7 (M_X/5.24 meV)^{1/2} if reheating was hotter (v3), and during inflation unless M_X > \u221a2\u00b7H_inf. The record's conclusion survives: m_FP\u00b2(y) \u2212 2(H\u00b2+k/a\u00b2) = \u2212y\u03c1_y/(3M_g\u00b2) > 0 on the whole \u03b21 > 0, s > \u22121 branch (v2, v7). The minimum ratio is 1.032 at s = 100 and 1.007 at s = 1000, tending to 1\u207a, so the analyst's '\u2265 1.03' holds for s \u2264 100 only. The \u00a78.2 caveat's instability is K\u00f6nnig's scalar gradient instability, ending at H \u2248 0.47\u20130.52 M_X (v4), not a Higuchi ghost.",
+   "RE5 (the record never states that \u03b21 > 0 is required): UPHELD. /usr/bin/grep finds no such statement; the record says only that broken vacua exist for \u03b21 < 0 < |\u03b21| < \u03b22 (diameter \u00a78.2, R1). The C15/C16 derivations hold under the premise \u03b21 + \u03b22 > 0 (v7). A further reason: on the \u03b21 < 0 hot branch, \u03c1_y > 0, so the Higuchi bound fails at all times. Qualifier: 'For \u03b21 > 0 the broken vacua do not exist' needs \u03b21 + \u03b22 > 0. For \u03b21 > 0 > \u03b21 + \u03b22 (tachyonic aligned vacuum) there are broken de Sitter vacua with \u039b_g = +3m\u00b2|\u03b21+\u03b22|(u\u22121)\u00b2 (closed form, v1); the record's existence statement carries the same unstated premise."
+  ],
+  "missed_issues": [
+   "The early-universe effects depend on M_X and on the reheating temperature, and the claims present only the minimal-mass case. Both the scalar gradient instability (C27\u2013C28) and the G_eff step (C10\u2013C11, RE3) occur only if the radiation era began above T_c \u2248 1.37 TeV \u00d7 (M_X/5.24 meV)^{1/2} (radiation, s = 1). I computed T_c \u221d M_X^{1/2} directly at M_X c\u00b2 = 5.237e-3, 1, 1e9 and 1e21 eV rather than assuming the scaling (v8). Equivalently, the instability is avoided if M_X c\u00b2 > 2.8 meV \u00d7 (T_rh/1 TeV)\u00b2. Reheating at 1e9 GeV needs M_X > 2.8 GeV (\u03bb_X < 7e-17 m); at 1e15 GeV it needs M_X > 2.8e12 GeV. Reheating below about 1.4 TeV avoids it even at the minimal mass. Since the range bound gives only a lower limit on M_X, this is a constraint linking M_X and T_rh, not a fixed feature of the program; the answer to Paul should say so.",
+   "K\u00f6nnig's eigenfrequency formula is derived for a singly coupled perfect fluid, assuming time-independent \u03c9 (|\u03c9\u2032/\u03c9\u00b2| \u226a 1). The statement that the instability is absent during inflation extrapolates it to a scalar-field inflaton; that reduction is not stated (C27). The Higuchi-bound statements do not have this problem: Fasiello\u2013Tolley say their bound holds for arbitrary matter content and arbitrary FRW.",
+   "In bimetric_flrw.out part F the analyst says the algebraic branch's positive roots 'need s \u2264 \u22121, i.e. \u03b21 + \u03b22 \u2264 0 (M_X\u00b2 \u2264 0)'. That holds only for \u03b21 > 0; for \u03b21 < 0 < |\u03b21| < \u03b22 the algebraic branch exists with M_X\u00b2 > 0. C21 still survives, because that branch has no empty k = +1 solution (v7). C21 can also be upgraded from a sampled result to a theorem, \u039b_g = \u22123m\u00b2(\u03b21+\u03b22)(u\u22121)\u00b2 at every broken vacuum (v1).",
+   "The ranges quoted in C11, and to a lesser degree C26, come from s = 0 and s = 1 only. Over s \u2208 [\u22120.9, 100] the G_eff halfway point spans H \u2248 0.71\u20130.96 M_X and T \u2248 1.51\u20131.76 TeV (v8).",
+   "In C19, 'dark energy decayed to zero' has no energy sink under V\u2080[1+cos(\u03c4/f)] \u2265 0: \u03c4's energy turns into dust-like oscillations, so \u03a9_m,eff \u2273 1, a_turn \u2248 1000 and 1 \u2212 y \u2248 1.5e-70 (v8).",
+   "C38's Z2 relies on two things. First, the record's \u039b(d) with d = 4 (U(4)/O(4), 10 moduli). A spatial phase-space reading on T*S\u00b3 (fibre R\u00b3, target \u039b(3)) would give \u03c03(U(3)/O(3)) = Z4 instead, since the SO(3) \u2192 U(3) Dynkin index is 4 (v6), which is outside the stable range. Second, the U(4) acting on J must be global, consistent with \u03c4 surviving as a light un-eaten field; if part of it were gauged, odd-degree gauge maps would identify the two classes.",
+   "The analysis has no constraint from the heavier-X side. It treats M_X = 5.24 meV as the reference throughout, but 1 \u2212 y \u221d M_X\u207b\u00b2, and every TeV-scale temperature it quotes scales as M_X^{1/2}. The closed-universe numbers are therefore upper limits on 1 \u2212 y and lower limits on the temperatures of the bimetric transition."
+  ],
+  "not_reached": [
+   "All 43 claims and all 5 record errors were checked.",
+   "Not re-derived from first principles; I transcribed them from my own downloads and checked them only for internal consistency and for evaluation on the program's branch: K\u00f6nnig 2015's sub-horizon eigenfrequency formula (it rests on Lagos\u2013Ferreira's perturbation equations, which I did not retrieve), the Fasiello\u2013Tolley bound itself, and Sun 2021's K-type decomposition.",
+   "I did not retrieve Akrami et al. 2015; it stays \u2020.",
+   "I did not attempt the closed-FLRW (k = +1) generalizations of the Higuchi bound or of the gradient-instability formula; the analyst also lists these as open.",
+   "I did not retrieve or check Moncrief 1975, Hatcher 1983, Bott 1959 or Palais 1979 (all \u2020). The \u03c01\u2013\u03c03 results rest on the exact sequences, Dynkin indices and det\u00b2 windings I computed."
+  ],
+  "scripts": [
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v1_minisuperspace.py (.out) \u2014 HR minisuperspace with k from the Ricci scalar; Bianchi constraint; k-independence; \u03c1(y); C8 identity; near-aligned expansion; M_eff limits; f lapse; proportional backgrounds; closed-form \u039b_g at broken vacua",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v2_shear_mass.py (.out) \u2014 Bianchi I Ricci scalar; FP mass from relative shear; homogeneous X energy; Higuchi identity; FT and K\u00f6nnig forms",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v3_epochs.py (.out) \u2014 1 \u2212 y at BBN, 100 GeV and 1 TeV; transition temperatures; M_eff halfway point; Higuchi ratio minima; fixed-mass crossover; C19 turnaround",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v3b_today.py (.out) \u2014 today's 1 \u2212 y and \u03c1_DE,bim/\u03c1 computed in \u03b5 = 1 \u2212 y (40-digit y cannot resolve 1e-61)",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v4_konnig.py (.out) \u2014 consistency of K\u00f6nnig's printed eigenfrequency forms; 1 + 2w limit; r_c, H/M_X and T_c for radiation, dust and w = \u22120.999",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v5_turnaround.py (.out) \u2014 own closed toy (dust C = 4.71) through the turnaround; residuals of E_N, E_X, E_Y; X = dY/da",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v5b_turnaround_analyst_params.py (.out) \u2014 the same integrator with the analyst's dust 9.5 + radiation 0.05; reproduces 1.226664",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v6_s3_topology.py (.out) \u2014 invariant tensors; left-invariant Laplacian; TT spectrum; Sun mode count; T*S\u00b3 horizontal brackets; det\u00b2 windings; Dynkin indices; DFT",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v7_branches.py (.out) \u2014 analytic monotonicity proof; \u03b21 < 0 branches and the Higuchi ghost on the infinite branch; algebraic branch has no closed empty solution; C34 series; dual ledger",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v8_missed.py (.out) \u2014 T_c \u221d M_X^{1/2} computed directly; M_X needed versus T_rh; C11 over the full s range; C19 with \u03c4 as dust",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/v9_vs_quartic.py (.out) \u2014 von Strauss quartic equals the derived algebraic equation",
+   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/verify-gravity-sector-derivation/downloads/ \u2014 my own arXiv sources (1111.1655, 1308.1647, 1503.07436, 2111.04591; https://arxiv.org/e-print/<id>) and the INSPIRE JSON for Higuchi 1987. The Higuchi abstract quote is verified: 'the square of the mass M 2 cannot be between 0 (linearized gravity) and 2 3 \u00d7 ( cosmological constant )'"
+  ],
+  "overall": "The gravity-sector analysis holds up under independent derivation. I re-derived every claim without opening the analyst's folder first: Hassan\u2013Rosen minisuperspace with curvature from the Ricci scalar, Bianchi I shear for the FP mass, exact-branch numerics, my own turnaround integrator, K\u00f6nnig's formulas evaluated from my own download, S\u00b3 geometry and the homotopy of \u039b(4). Of 43 claims, 40 are confirmed, 3 are corrected and none is refuted.\n\nThe three corrections:\n- C11's range of H/M_X and T holds only for \u03b22/\u03b21 \u2208 [0, 1].\n- C19's illustrative turnaround leaves \u03a9_m = 0.315 and the removal of \u03c4's energy unstated.\n- C27's 'absent during inflation' extrapolates a perfect-fluid formula to an inflaton.\n\nSeveral results are stronger than claimed. C15's monotonicity holds analytically for all y > 0. Every broken vacuum has \u039b_g = \u22123m\u00b2(\u03b21+\u03b22)(u\u22121)\u00b2 exactly. The algebraic branch also has no empty closed solution, so C21 is complete. The identity m_FP\u00b2(y) \u2212 2(H\u00b2+k/a\u00b2) = \u2212y\u03c1_y/(3M_g\u00b2) holds for any \u03b2 at M_f = M_g. My integrator reproduces the analyst's toy turnaround (X = dY/da = 1.226664) exactly, from their parameters.\n\nPremises the answer to Paul should carry:\n- \u03b21 > 0 and \u03b21 + \u03b22 > 0.\n- The null energy condition.\n- The dynamical-f (Hassan\u2013Rosen) reading of the second frame.\n- Higuchi and K\u00f6nnig formulas derived for flat FRW and applied with H\u00b2 + k/a\u00b2.\n- The minimal M_X = 5.24 meV used throughout.\n\nThe main thing missed: the gradient instability and the G_eff doubling are conditional, not fixed features. They occur only if the radiation era began above about 1.37 TeV \u00d7 (M_X/5.24 meV)^{1/2}. A heavier X, which the range bound allows, or reheating below about 1.4 TeV removes both.\n\nRecord errors:\n- RE1: upheld, but it is the record's own flag 5.\n- RE2: partly upheld; the record already marks it open.\n- RE3: upheld as an omission.\n- RE4: upheld; the record's reasoning fails but its conclusion survives.\n- RE5: upheld, with the \u03b21 + \u03b22 > 0 premise made explicit.\n\nI modified neither the repository nor the analyst's folder."
+ }
+}
