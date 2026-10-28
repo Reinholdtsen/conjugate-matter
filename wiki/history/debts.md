@@ -2,7 +2,7 @@
 title: "The three debts"
 weight: 20
 status: record
-description: "Debt 1 (the field equation for H, closed in structure by calc notes #5–#8), Debt 2 (the gate: mechanism found in #5 §E, shape open) and Debt 3 (the stream instability, closed negative by #2–#4): what each asked, what the calc notes found, and what each left open."
+description: "Debt 1 (the field equation for H, closed in structure by calc notes #5–#8), Debt 2 (the gate: mechanism found in #5 §E, shape open; flag 55 proposes that the mechanism is not derived) and Debt 3 (the stream instability, closed negative by #2–#4): what each asked, what the calc notes found, and what each left open."
 sources:
   - "papers/broken-born-checkpoint-v2.md §7–§9"
   - "papers/broken-born-checkpoint-v2.md §2"
@@ -29,12 +29,20 @@ sources:
   - "notes/broken-born-program-v1.md §5–§7"
   - "verify/battery.py"
   - "review/v3-worklog.md 'Round-2 pending list'"
-  - "review/wiki-build-flags.md items 1, 3–8, 14–17, 19, 23, 39"
+  - "review/wiki-build-flags.md items 1, 3–8, 14–17, 19, 23, 39, 55, 58"
+  - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
+  - "notes/gate-mechanism.md §6"
+  - "verify/gate_mechanism.py"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
+  - "notes/velocity-gated-gravity.md §4"
+  - "notes/velocity-gated-gravity.md §7"
 ---
 
-*The three debts are the three open problems that the program's first write-up, the lab notebook #1, ranked most severe and called its "three named debts"; the calc notes #2 to #8, written to close them, call them Debt 1, Debt 2 and Debt 3. Debt 1 asked for the field equation of momentum-space geometry, the question left open since Born's paper of 1938. Debt 2 asked where the velocity gate comes from, the factor that confines the self-interaction of conjugate matter to particles of nearly equal velocity. Debt 3 asked whether that interaction makes dark matter gather into streams of shared velocity, the program's founding image. Debt 3 was closed first, against the program: such clumping is nowhere required. Debt 1 was closed in structure: momentum-space geometry is carried by a massive spin-2 field of a known class of bimetric gravity, though the class was selected rather than derived from the program's action. Debt 2's mechanism, exchange of that field, came out of the first Debt-1 note; the gate's exact shape is still open.*
+*The three debts are the three open problems that the program's first write-up, the lab notebook #1, ranked most severe and called its "three named debts"; the calc notes #2 to #8, written to close them, call them Debt 1, Debt 2 and Debt 3. Debt 1 asked for the field equation of momentum-space geometry, the question left open since Born's paper of 1938. Debt 2 asked where the velocity gate comes from, the factor that confines the self-interaction of conjugate matter to particles of nearly equal velocity. Debt 3 asked whether that interaction makes dark matter gather into streams of shared velocity, the program's founding image. Debt 3 was closed first, against the program: such clumping is nowhere required. Debt 1 was closed in structure: momentum-space geometry is carried by a massive spin-2 field of a known class of bimetric gravity, though the class was selected rather than derived from the program's action. Debt 2's mechanism, exchange of that field, came out of the first Debt-1 note; the gate's exact shape is still open. A note of 2026-10-28 finds that exchanging that field cannot produce the gate, and proposes that the gate return to the status of a postulate; the proposal awaits Paul's ruling.*
 
-**Status:** Record — untagged; the debts entered #1 §11 as open problems tagged [O]. Debt 3 closed negative in calc note #4 (`HANDOFF.md` §3: "closes Debt 3 (negative)"); Debt 1 closed in structure in calc note #8 ("closes Debt 1 (structural)"); Debt 2's mechanism was found in calc note #5 §E ("pays Debt 2's mechanism"), and its shape is #11 §14 item 4 [O]. The Tier-1 algebra of the Debt-1 notes is machine-checked by [the battery T1–T7](/wiki/method/verification/battery); no `verify/` script covers Debt 2 or Debt 3.
+**Status:** Record — untagged; the debts entered #1 §11 as open problems tagged [O]. Debt 3 closed negative in calc note #4 (`HANDOFF.md` §3: "closes Debt 3 (negative)"); Debt 1 closed in structure in calc note #8 ("closes Debt 1 (structural)"); Debt 2's mechanism was found in calc note #5 §E ("pays Debt 2's mechanism"), tagged "[D — mechanism; shape [O]]" in #11 §8, and its shape is #11 §14 item 4 [O]. `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the mechanism questioned](#the-mechanism-questioned)). The Tier-1 algebra of the Debt-1 notes is machine-checked by [the battery T1–T7](/wiki/method/verification/battery). Of Debt 3, `verify/velocity_gated_gravity.py` reproduces calc note #2's shortfall ratios (section D; flag 16, addendum); the rest of Debt 3 has no script. `verify/gate_mechanism.py` reruns the arithmetic and algebra of the 2026-10-28 note on Debt 2's mechanism, not the record's own derivation, which has no computation to check.
 
 ## The debts at a glance
 
@@ -42,7 +50,7 @@ sources:
 | --- | --- | --- | --- |
 | Open problem of #1 §11 | 1: the field equation for H | 2: a derivation of the gate | 3: the stream instability against orbital mixing |
 | Addressed in | calc notes #5–#8 | #5 §E (mechanism), #6 §4 (the width μ) | calc notes #2–#4 |
-| Outcome | in structure: X is a massive spin-2 field in the [reciprocity-symmetric branch](/wiki/gravity/palindromic-branch) of [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) | mechanism found, exchange of X; shape open | negative: velocity clumping is nowhere mandatory |
+| Outcome | in structure: X is a massive spin-2 field in the [reciprocity-symmetric branch](/wiki/gravity/palindromic-branch) of [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) | mechanism found, exchange of X; shape open; flag 55 proposes that the mechanism is not derived (pending) | negative: velocity clumping is nowhere mandatory |
 | Left open | [OP1](/wiki/gravity/tuning-test/wedge-reduction), [OP2](/wiki/gravity/palindromic-branch/pm-comparison), [OP3](/wiki/phase-space/born-geometry/lorentzian-dressing), [OP6](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) | [OP4](/wiki/dark-matter/conjugate-matter/gate-shape), [OP5](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) | [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole), with no candidate |
 | Label in #11 | §7, "The massive momentum graviton (Debt 1)" | §8, "Conjugate matter and the gate (Debt 2)" | §9, "Obituary: the death of momentum clumping (Debt 3)" |
 
@@ -96,7 +104,8 @@ Calc note #4 closed the debt with [the net theorem](/wiki/dark-matter/momentum-c
 - **A relic abundance on the wave island**, by misalignment, like an [axion](/wiki/cosmology/dark-energy/axion-like-fields#wave-χ-produced-like-an-axion) (#3); the 5.4 : 1 ratio of dark to ordinary matter stays open ([relic abundance by misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic); [Open: polarization-genesis (OP7)](/wiki/dark-matter/candidates/polarization-genesis)).
 - **A quarantined sector.** #11 §15 counts the "tunable wave-island collective sector (quarantined)" among its [degeneration risks](/wiki/program/assessment).
 - **The topological loophole.** Debt 3 tested collective dynamics only; a single topological object localized in momentum "remains untested, but has no candidate" (#11 §12).
-- **Coefficients and checks.** The rate's coefficients are "heuristic at O(1)–O(10) level", their calibration against LPT "a flagged to-do" (#3). No `verify/` script checks any Debt-3 number, although the handoff marks the shortfall as machine-verified, "criterion fails by 10²⁸–10³¹ ✓" (`HANDOFF.md` §2); see flag 16 in `review/wiki-build-flags.md`, which points to a recomputation, `review/wiki-build-checks/debt3a_check.py`.
+- **Coefficients and checks.** The rate's coefficients are "heuristic at O(1)–O(10) level", their calibration against LPT "a flagged to-do" (#3). The handoff marks the shortfall as machine-verified, "criterion fails by 10²⁸–10³¹ ✓" (`HANDOFF.md` §2), when no `verify/` script checked any Debt-3 number; flag 16 in `review/wiki-build-flags.md` pointed to a recomputation, `review/wiki-build-checks/debt3a_check.py`. Since 2026-10-28 section D of `verify/velocity_gated_gravity.py` ports that arithmetic into the gate and reproduces both ratios; in the flag's addendum, "The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). No script covers the wave-island rate or the ultra-faint-dwarf endpoint.
+- **The scope.** The obituary covers the program's contact-range interaction; it says clumping is required nowhere, not that it cannot happen. A long-range attraction among χ gated in relative velocity is a different model, which the momentum-gravity note of 2026-10-28 tests and finds decorative (`notes/velocity-gated-gravity.md` §§4, 7; [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers); [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction)). Debt 3a's narrow-gate criterion is flagged; its form overstates the Milky Way shortfall about 3×, and the verdict is unchanged (flag 58; [the narrow-gate form, flagged](/wiki/dark-matter/momentum-clumping/instability-criterion#the-narrow-gate-form-flagged)).
 
 ## Debt 1: the field equation for H
 
@@ -160,12 +169,24 @@ The shape it left open: "The gate shape is the X propagator's structure on the m
 
 Calc note #6 completed the identification (§4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). Integrating out the massive X between χ bilinears gives a contact interaction, and the χ quanta are "extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap", which the note calls "the dual of how x-extended composites acquire form factors F(qR)": a contact force acts where two waveforms overlap, and the gate acts only where their spectra overlap as well. Gaussian profiles reproduce the postulated Gaussian gate, with μ the quantum's own momentum width in place of #5's relation to M_X and M_B; generic vertices give power-law tails. The notebook's lead prediction was downgraded accordingly: "row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'" (the note writes v_\* for v\*; [row 1](/wiki/predictions/self-interaction-knee); [the cliff, superseded](/wiki/predictions/self-interaction-knee#superseded-the-exponential-cliff-of-v01)). #8 §5 records the debt as "Debt 2: mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)", and #11 §8 tags it "[D — mechanism; shape [O]]".
 
+### The mechanism questioned
+
+`notes/gate-mechanism.md` (2026-10-28) asks whether exchanging X produces the gate at all. Two derivations agree, the first by a theory verifier of the momentum-gravity investigation and the second blind and pre-registered; the note has not been reviewed, and results only one derivation computed are marked so in it ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)):
+
+- **The vertex depends only on the transfer** [D][V]. #11 §7 builds X as one massive spin-2 field on spacetime. For on-shell χ, any χ–χ–X vertex depends only on the momentum transfer t, so single exchange of X gives an amplitude that depends on the incoming relative momentum k only as a polynomial of degree at most two in k², with velocity scale c: a change of 2.4×10⁻⁷ at 120 km/s, where the gate is 0.61 (note §2; flag 55).
+- **The fiber overlap, written out** [D][V; one derivation]. #6 §4's overlap is either an ordinary potential local in position, of range ħ/μ ≈ 10 pm, with power-law tails, or a pair-channel interaction that gives the gate but contains no X. These two readings are the note's reconstruction; the record constructs neither, and its section condition makes X independent of the fiber coordinates (note §3; [the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)).
+- **Proposed tags** (flag 55, for Paul's ruling). The gate F(k²/μ²) and μ: [P], as #1 §3 (v0.1) tagged them; the mechanism: [O]; tree-level exchange of §7's X as the mechanism: excluded [D][V] (note §5). The text that depends on the tag includes #5 §E, #6 §4, #8 §5 ("**Debt 2:** mechanism paid (X-exchange, μ = fiber width)"), `HANDOFF.md` §2 ("gate = X-exchange") and §3 (#5 "pays Debt 2's mechanism"). The flag rates itself high.
+- **What does not change.** The gate itself is not refuted, the benchmark arithmetic "is contact Born physics and needs no mechanism", and the velocity-clumping obituary of Debt 3 is unaffected (note §5).
+
+`verify/gate_mechanism.py` reruns the two derivations' arithmetic and algebra; in the note's words, "it does not test their physics" (note §6; [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script)).
+
 ### What remains
 
 - **The shape** ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)). Gaussian or rational depends on the X propagator on the [momentum fibers](/wiki/phase-space/reciprocity/momentum-fibers#the-x-propagator-on-the-fibers-op4) and on the profile of a χ quantum, and no document computes either. The tail is observable, since in σ_T(v) the "tail (Gaussian vs rational) diagnoses the vertex completion" (#11 §8); #11 §15 lists "gate tail not yet forced" among the degeneration risks.
 - **The strength** ([Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement)). The mechanism explains the gate's variable, not its strength: "the dual-stress enhancement (nuclear-scale σ₀ with gravitational SM couplings)" is #11 §8's "Main open quantitative item", SM being the Standard Model. #8 §5 files it under Debt 1, as "(gate strength vs gravitational SM coupling)".
 - **A convention.** #6 writes the Gaussian gate as e^{−(p₁−p₂)²/2μ²}, the notebook as e^{−k²/μ²}; a suspected factor of √2 in μ between them is flag 17 in `review/wiki-build-flags.md` ([two conventions, not reconciled](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)).
-- **No computation, no check.** No source writes the χ–X vertex, the propagator or the overlap integral, and no `verify/` script covers the mechanism ([scope and caveats](/wiki/dark-matter/conjugate-matter/gate-mechanism#scope-and-caveats)).
+- **No computation in the record.** No source of the record writes the χ–X vertex, the propagator or the overlap integral ([scope and caveats](/wiki/dark-matter/conjugate-matter/gate-mechanism#scope-and-caveats)); `notes/gate-mechanism.md` §3 finds the same in its record audit. The only script on the subject is `verify/gate_mechanism.py`, which checks the 2026-10-28 note's arithmetic.
+- **The mechanism itself**, if flag 55 is accepted: the note lists as open whether the program keeps the gate as a postulate or rewrites χ's self-interaction as an ordinary short-range potential, whether any construction tied to the program's geometry yields a pair-channel form factor, and whether [row 3's island discriminant](/wiki/predictions/island-discriminant) survives (note §5).
 
 ## The names across the documents
 
@@ -187,16 +208,16 @@ Documents written after the move to this repository use the names only for this 
 The wiki's verifiers flagged suspected errors in the documents of all three debts; the wiki quotes the documents as written, and each item of `review/wiki-build-flags.md` awaits Paul's ruling:
 
 - **Debt 1.** Item 1, the η-null polarizations that #5 §B calls discrete (the conclusion survives, per the flag); items 3, 4 and 14, the zero set of the misalignment potential, a term missing from the expansion of S and a notational point (#7 §2); item 15, a wording about η (#6 §2); item 5, "M_X ∝ 2(β₁+β₂)" (#11 §7.5 and #9, from #8 §3); item 7, #11 §7.1's "The unique consistent structure", which drops #6 §3's "known"; item 8, #8 §3's "five-function freedom"; item 6, "by symmetry rather than tuning" (#1 v0.6, #10); item 23, the identification of the constraint a·ã = 1 with the |Z| = 1 locus, flagged in #11 §6 and §10 and also made in #5 §C, in the notebook's addendum v0.3 and in `HANDOFF.md` §2; item 39, the parities of #8 §3 and #11 §7.5, which hold for reciprocity as the frame exchange and not under #11 §6's Z → −Z⁻¹.
-- **Debt 2.** Item 17, the √2 in μ between the two gate conventions.
-- **Debt 3.** Item 16, the handoff's ✓ on a number no script checks; item 19, the regime in which #2 evaluates the classicality corollary.
+- **Debt 2.** Item 17, the √2 in μ between the two gate conventions; item 55, the mechanism not derived (#11 §8's tag, #5 §E, #6 §4).
+- **Debt 3.** Item 16, the handoff's ✓ on a number no script checked, now backed by `verify/velocity_gated_gravity.py` (the flag's addendum of 2026-10-28); item 19, the regime in which #2 evaluates the classicality corollary; item 58, #2's narrow-gate criterion.
 
-The flags' audit (2026-10-22), by independent agents told to refute each flag, found items 14, 17, 19 and 39 to depend on a convention or a reading the documents support, and confirmed the others listed here.
+The flags' audit (2026-10-22), by independent agents told to refute each flag, found items 14, 17, 19 and 39 to depend on a convention or a reading the documents support, and confirmed the others then listed here. Items 55 and 58 were raised by the momentum-gravity investigation; their audit lines (2026-10-27) record item 55 as "confirmed by 2 independent derivations", the second blind and pre-registered, and item 58 as "confirmed by 2 independent checks".
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7–§9 — the current statements under the three labels, their tags, the rate and the numbers of Debt 3; §2 — Tier 1; §5 — the compatibility theorem re-tagged in v2.1; §12 — the loophole without a candidate; §14 — the open items the debts left; §15 — what the word "theory" waits on, and the degeneration risks
 - `review/round3-adjudication.md` 'Decisions' — the Debt-3 obituary as precedent
-- `HANDOFF.md` §3 — each calc note's outcome for its debt; §2 — the dead list and the ✓ without a script
+- `HANDOFF.md` §3 — each calc note's outcome for its debt; §2 — the dead list and the ✓ that no script backed until 2026-10-28
 - `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md`, `notes/debt3c-ufd-endpoint.md` — Debt 3 step by step: the threshold, the shortfall and the classicality corollary; the wave island and its two scenarios; the ultra-faint-dwarf endpoint, the verdict, and the plan for Debt 1
 - `notes/debt1a-geometric-core.md` §A–§F — the compatibility theorem, the repair of P2, the restatement of Born's debt, the defined computation, and Debt 2's mechanism (§E)
 - `notes/debt1a-ii-X-classification.md` §1–§5 — the classification of X, the stakes of the tuning test, the width μ and the downgrade of row 1 (§4)
@@ -205,5 +226,9 @@ The flags' audit (2026-10-22), by independent agents told to refute each flag, f
 - `notes/broken-born-theory.md` §0, §3, §5.2, §11, §12 — the gloss of [O], the postulated gate, the stream picture, the debts as open problems 1–3; 'Addendum (v0.2)' to 'Addendum (v0.6)' — each step as the notebook recorded it
 - `notes/broken-born-program-v1.md` §5–§7 — v1.0's section labels
 - `verify/battery.py` — tests T1–T7 of the Debt-1 algebra
+- `notes/gate-mechanism.md` §2 — exchanging X cannot produce the gate; §3 — the fiber overlap read two ways, and the record audit; §5 — the proposed tags, the text that depends on them, what does not change and what becomes open; §6 — what the two derivations and the script cover
+- `verify/gate_mechanism.py` — the arithmetic and algebra of the gate-mechanism note
+- `verify/velocity_gated_gravity.py` section D — Debt 3a's shortfall ratios, gated since 2026-10-28
+- `notes/velocity-gated-gravity.md` §4 — what the obituary covers; 3a's narrow-gate criterion; §7 — the long-range variant decorative
 - `review/v3-worklog.md` 'Round-2 pending list', item R7 — stability at equal Planck masses left open
-- `review/wiki-build-flags.md` items 1, 3–8, 14–17, 19, 23, 39 — suspected errors in the debts' documents, with their audit verdicts, awaiting a ruling
+- `review/wiki-build-flags.md` items 1, 3–8, 14–17, 19, 23, 39, 55, 58 — suspected errors in the debts' documents, with their audit verdicts, awaiting a ruling; item 16's addendum of 2026-10-28

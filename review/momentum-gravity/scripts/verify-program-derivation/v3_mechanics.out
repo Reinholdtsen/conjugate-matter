@@ -1,0 +1,21 @@
+=== Model (a): H = sum p^2/2m + eps U(arg), U depends on momenta only ===
+arg p1 - p2               : pdot1 = [0, 0, 0]; boost shift = [u1*(m1 - m2), u2*(m1 - m2), u3*(m1 - m2)]; CM drift d(m1x1+m2x2)/dt - P zero: False
+arg k = (m2 p1 - m1 p2)/M : pdot1 = [0, 0, 0]; boost shift = [0, 0, 0]; CM drift d(m1x1+m2x2)/dt - P zero: True
+arg p1/m1 - p2/m2         : pdot1 = [0, 0, 0]; boost shift = [0, 0, 0]; CM drift d(m1x1+m2x2)/dt - P zero: True
+  p1 - p2: CM drift - eps (m1 - m2) grad U == 0: True
+Legendre: velocity residual O(eps) zero: True ; L - [sum m v^2/2 - eps U(m1 v1 - m2 v2)] zero at O(eps^0, eps^1): True
+Born image H = x^2/2m + V(p): xdot = Derivative(V(P), P) ; pdot = -X/m
+
+=== Model (b): L = sum m v^2/2 + Gt m1 m2 W(|v1 - v2|/v*)/r, Gaussian W(w) = exp(-w^2) ===
+energy function - [sum m v^2/2 - Gt m1 m2 (W - w W')/r] zero: True
+L(boosted) - L - [u.(m1 v1 + m2 v2) + M u^2/2] zero: True
+Lagrangian Hessian at v_rel = 0: m1*m2*(-2*Gtilde*m1 - 2*Gtilde*m2 + r*v_star**2)/(r*v_star**2*(m1 + m2)) * I ; off-diagonal zero: True ; zero at r = [2*Gtilde*(m1 + m2)/v_star**2]
+Hamiltonian inverse inertia at p = 0 equals (1/mu)(1 + 2 Gt M/(r v*^2)): True
+gate arg |p1/m1 - p2/m2|/v*  : pdot1 = Newton x gate: True; CM drift zero: True
+gate arg |p1 - p2|/(m1 v*)   : pdot1 = Newton x gate: True; CM drift zero: False
+model b: H(v(p)) - [p^2/2m - Gt m1 m2 W(|p1/m1-p2/m2|/v*)/r] vanishes at O(Gt^0) and O(Gt^1): True ; nonzero at O(Gt^2): True
+
+=== Model (c): U = -g delta_e(x1 - x2) G((p1 - p2)/mu) ===
+pdot1 = g G grad_x1 delta: True ; xdot1 = p1/m1 - g delta dG/dp1: True
+Gaussian smoothing: |d delta/dr| max at r = [e_] ; value at 10 eps / max = 10*exp(-99/2) = 3.1799709001977496e-21
+p1 - p2 boost shift: [m1*u1 - m2*u1, m1*u2 - m2*u2, m1*u3 - m2*u3] (zero only for m1 = m2)

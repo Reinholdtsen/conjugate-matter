@@ -2,9 +2,13 @@
 title: "Conjectures: chat-only and popsci-only claims"
 weight: 40
 status: record
-description: "The results that exist only in the old chat (HANDOFF §4), the claims found only in the popular articles, and the conjecture-tier statements inside the record, each linked to the page or section that holds it, with its relation to the record; the first chat-only item, the phase-space diameter relation, is now written up, and its square at the bounce is dead."
+description: "The results that exist only in the old chat (HANDOFF §4), the claims found only in the popular articles, and the conjecture-tier statements inside the record, each linked to the page or section that holds it, with its relation to the record; the first chat-only item, the phase-space diameter relation, is now written up, and its square at the bounce is dead. P.R.'s long-range velocity-gated attraction among χ, tested by the velocity-gated-gravity note of 2026-10-28, is listed as a conjecture outside the record."
 sources:
   - "CLAUDE.md 'Since the handoff'"
+  - "notes/velocity-gated-gravity.md §5"
+  - "notes/velocity-gated-gravity.md §7"
+  - "notes/velocity-gated-gravity.md §8"
+  - "verify/velocity_gated_gravity.py"
   - "papers/phase-space-diameter.md §2"
   - "papers/phase-space-diameter.md §3"
   - "papers/phase-space-diameter.md §5"
@@ -37,7 +41,7 @@ sources:
 
 *This register collects the claims that are not part of the program's derived record. Some exist only in the original claude.ai conversation and are known from a list in [the handoff document](/wiki/history/documents/handoff); some appear only in the two [popular articles](/wiki/history/documents/popular-articles); and a few sit inside the record but are called conjectures by their own sources. No document in the repository derives them and no script checks them, so they are kept apart from the program's results. The exception is the first chat-only item, the phase-space diameter relation, which a note of 2026-10-26 derived and checked; it stays on the list with the statuses that note gives its parts. The popular article "The Universe's Other Half" presents the framework as if it were confirmed and never decides a claim's status. Each line says where the claim is recorded and how it stands against the record.*
 
-**Status:** Record, a register current to 2026-10-26 — no provenance tags on the claims: `HANDOFF.md` §4 calls two of its items conjecture-tier, #13 §5 calls the dual second law "conjecture-tier", the toy-model worklog calls its [thawing](/wiki/cosmology/dark-energy/thawing-and-freezing) remark "a claim about the program, not verified here", and the popular articles tag nothing; the parts of the diameter relation now carry the tags of the note that wrote it up — no derivation or script in the repository supports these claims, except the diameter relation, now derived in `papers/phase-space-diameter.md` and gated in `verify/phase_space_diameter.py`; the chat-only list is `HANDOFF.md` §4, and the popsci-only claims are found only in `popsci/`.
+**Status:** Record, a register current to 2026-10-28 — no provenance tags on the claims: `HANDOFF.md` §4 calls two of its items conjecture-tier, #13 §5 calls the dual second law "conjecture-tier", the toy-model worklog calls its [thawing](/wiki/cosmology/dark-energy/thawing-and-freezing) remark "a claim about the program, not verified here", and the popular articles tag nothing; the parts of the diameter relation now carry the tags of the note that wrote it up — no derivation or script in the repository supports these claims, except the diameter relation, now derived in `papers/phase-space-diameter.md` and gated in `verify/phase_space_diameter.py`; the chat-only list is `HANDOFF.md` §4, and the popsci-only claims are found only in `popsci/`.
 
 A claim with a page of its own carries "(chat-only)" or "(popsci-only)" in its title. A smaller claim recorded on a page about another subject sits under a heading "Chat-only: …", "Popsci-only: …" or "Conjecture: …", and the register links that heading. Three claims, or parts of claims, have obituaries of their own and are also listed in [the graveyard](/wiki/status/graveyard): the √N topological floor, the diameter relation's square at the bounce, and the magnetic identification.
 
@@ -103,6 +107,12 @@ These statements are in the repository's documents but are not derived there, an
 - [Conjecture: continuous breaking in 3+1 dimensions](/wiki/symmetry-breaking/goldstone-angle#conjecture-continuous-breaking-in-31-dimensions) — the worklog notes that in 3+1 dimensions the Coleman–Mermin–Wagner theorem does not apply, so the self-dual coset model "can break the continuous U(1) itself, with τ an exactly massless Goldstone". Nothing computes it, and the toy-model note lists "anything beyond d = 1" as not shown.
 - The unification of #11 §11.3 — "Conjecture [O]: the phase-space polarization (P5) and the charge-lattice polarization are components of one enlarged modular structure". It is registered as an open problem, [OP8](/wiki/electric-magnetic-duality/unified-modular-structure), in [open problems and the queue](/wiki/status/open-problems).
 
+## A conjecture tested outside the record
+
+One conjecture is P.R.'s own, posed after the record was written and tested by a working note rather than taken from a document.
+
+- [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction) — P.R.'s question of 2026-10-26, whether the velocity-clumping obituary is premature, read as a model: dark-matter particles attract each other at long range only when they move at similar velocities. The velocity-gated-gravity note (`notes/velocity-gated-gravity.md`, 2026-10-28; computed, not reviewed) finds it outside the record, a model "the record does not contain, which Debt 3 never tested", with no field in the record to carry it. At the record's gate width the Lyman-α forest allows ε < 0.057–0.106 of gravity's strength in the record's reading, while velocity-selected clumping needs ε > 1 at every gate width; the force could not make dwarf cores, which would need G̃/G ≈ 3.6×10³¹, so its strength would be free and any clumping "decorative" (§§5–7). Gates narrower than about 30 km/s are a partly open corner, with N-body runs by one agent and one statistic not adjudicated (§8). Every number except the N-body runs is checked in `verify/velocity_gated_gravity.py`. The obituary itself, which covers the program's contact-range interaction, is not reopened ([what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers)).
+
 ## Sources
 
 - `CLAUDE.md` "Since the handoff" — the phase-space-diameter note done and its results; the current queue.
@@ -118,3 +128,4 @@ These statements are in the repository's documents but are not derived there, an
 - `popsci/universes-other-half.md` — #12, cited by section heading.
 - `popsci/angle-of-the-mirror.md` — #10, cited by section heading.
 - `review/wiki-build-flags.md` items 23, 24, 29 — the identification of a·ã = 1 with |Z| = 1; which bounce the diameter relation meant; the momentum reading of X's range.
+- `notes/velocity-gated-gravity.md` §§5, 7, 8 — the long-range velocity-gated attraction among χ, outside the record and decorative where tested; `verify/velocity_gated_gravity.py` — its numbers

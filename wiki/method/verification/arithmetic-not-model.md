@@ -15,7 +15,7 @@ sources:
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "notes/knot-dark-matter-standalone.md §6"
   - "review/round4-adjudication.md 'Rulings'"
-  - "review/wiki-build-flags.md items 3, 4, 11, 14, 33"
+  - "review/wiki-build-flags.md items 3, 4, 11, 14, 33, 57"
 ---
 
 *A verification script confirms that a calculation was carried out correctly for the inputs and formulas written into it; it cannot tell whether those inputs and formulas are the right physics. The program learned this from its soliton dark-matter manuscript: every number in it was computed and checked by a gated script, yet one formula, the normalization of how many monopoles the early universe forms, was wrong, and only an independent review caught it. Checkpoint #11 has carried the caution since version 2.1, the rule on independent anchors is the repair, and every script page in this section states what its checks leave to the derivation.*
@@ -71,6 +71,7 @@ The pages for the scripts in [the gate](/wiki/method/verification/the-gate) each
 - **The battery.** Tests T3, T4 and T7 check algebra on random samples. During the wiki build, verifiers found suspected errors in statements written next to that algebra in [calc note #7](/wiki/history/documents/debt-1-notes): a zero set of [the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential) larger than stated (flag 3), a second-order term missing from an expansion (flag 4), and a statement about which trace a power sum gives that holds for one of the two square roots and not the other (flag 14, which the flags' audit rated as depending on a convention). The tests pass, because they test the algebra as written and not those statements ([the verification battery](/wiki/method/verification/battery)).
 - **The toy-model scripts.** The check labelled with round-4 finding F6 tests a harmonic series against Euler's constant. It does not settle whether [the tadpole](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#the-coefficient-ln-n-or-2-ln-n) grows as ln N or 2 ln N, on which the toy note and the adjudication differ (flag 11; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 - **The soliton-obituary script.** Its docstring says it checks "every number" of the round-3 record; its checks cover the obituary's [V] numbers and the adjudicator's own figures, not the referee's or the literature's (flag 33 in `review/wiki-build-flags.md`).
+- **The phase-space-diameter script.** Its Vainshtein-radius check passes, but the formula it encodes, Enander and Mörtsell's eq. 43, "assumes one mode mass m₁ = 0. In the program's palindromic vacuum that would make X massless"; under eq. 41, one of the formulas that apply, the check's rounding would fail, while the conclusion that laboratory masses are unscreened holds (flag 57, found by the momentum-gravity investigation; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script#flag-57-the-vainshtein-formula)).
 
 These flags are suspected errors in the source documents, quoted faithfully on the pages that carry the statements and awaiting Paul's ruling (`review/wiki-build-flags.md`).
 
@@ -83,4 +84,4 @@ These flags are suspected errors in the source documents, quoted faithfully on t
 - `review/round3-preregistration.md` 'Protocol' — independently chosen constants; 'Predictions' — zero surviving numerical indictments
 - `review/v3-worklog.md` 'v3 as drafted (2026-10-19)' and `notes/knot-dark-matter-standalone.md` §6 — the manuscript computed throughout
 - `review/round4-adjudication.md` 'Rulings' (F1, F2, and the Monte Carlo control, "MC control") — the round-4 relatives
-- `review/wiki-build-flags.md` items 3, 4, 11, 14 — suspected source errors beside passing checks; item 33 — the soliton script's claimed coverage
+- `review/wiki-build-flags.md` items 3, 4, 11, 14 — suspected source errors beside passing checks; item 33 — the soliton script's claimed coverage; item 57 — the Vainshtein formula behind a passing check

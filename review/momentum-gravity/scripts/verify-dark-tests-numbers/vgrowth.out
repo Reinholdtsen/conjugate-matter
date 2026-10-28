@@ -1,0 +1,17 @@
+k_p = 0.6927 /Mpc
+dens=B antidrag=True  eps=0.1 v*=120: T_m^2(kp)=1.0783 dn_m=+0.1308 | T_b^2=1.0247 dn_b=+0.0457
+dens=B antidrag=True  eps=0.3 v*=120: T_m^2(kp)=1.2538 dn_m=+0.3928 | T_b^2=1.0764 dn_b=+0.1389
+dens=B antidrag=True  eps=1.0 v*=120: T_m^2(kp)=2.1277 dn_m=+1.3120 | T_b^2=1.2858 dn_b=+0.4844
+dens=B antidrag=False eps=0.1 v*=120: T_m^2(kp)=1.0644 dn_m=+0.1074 | T_b^2=1.0206 dn_b=+0.0380
+dens=B antidrag=False eps=0.3 v*=120: T_m^2(kp)=1.2052 dn_m=+0.3197 | T_b^2=1.0632 dn_b=+0.1146
+dens=B antidrag=False eps=1.0 v*=120: T_m^2(kp)=1.8476 dn_m=+1.0380 | T_b^2=1.2294 dn_b=+0.3902
+dens=A antidrag=True  eps=0.1 v*=120: T_m^2(kp)=1.0355 dn_m=+0.0636 | T_b^2=1.0110 dn_b=+0.0210
+dens=A antidrag=True  eps=0.3 v*=120: T_m^2(kp)=1.1107 dn_m=+0.1919 | T_b^2=1.0336 dn_b=+0.0636
+dens=A antidrag=True  eps=1.0 v*=120: T_m^2(kp)=1.4248 dn_m=+0.6529 | T_b^2=1.1186 dn_b=+0.2189
+dens=A antidrag=False eps=0.1 v*=120: T_m^2(kp)=1.0223 dn_m=+0.0404 | T_b^2=1.0070 dn_b=+0.0134
+dens=A antidrag=False eps=0.3 v*=120: T_m^2(kp)=1.0684 dn_m=+0.1209 | T_b^2=1.0212 dn_b=+0.0402
+dens=A antidrag=False eps=1.0 v*=120: T_m^2(kp)=1.2455 dn_m=+0.3993 | T_b^2=1.0726 dn_b=+0.1351
+numerics: T_m(kp, eps=0.3) N=3000 1.1197271  N=12000 1.1197262  IC dc'=1: 1.1197261  IC dc'=0: 1.1197308
+eps=0.3, v*=120: T_m at k_p, 3/Mpc, 10/Mpc = 1.120 1.868 2.718
+eps=0.03, v*=120: T_b^2/T_m^2 at k_p = 0.9848
+ungated eps=0.01: T_m^2(kp)=1.0715 dn=+0.00000 ; T_b^2=1.0567

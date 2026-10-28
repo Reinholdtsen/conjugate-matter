@@ -1,0 +1,20 @@
+T2: alpha c = 2187.7 km/s
+    nucleon Fermi momentum 250 MeV/c -> v_F = 0.257 c = 7.714e+04 km/s
+    nucleon Fermi momentum 270 MeV/c -> v_F = 0.276 c = 8.285e+04 km/s
+    ratios to v* = 120 km/s: alpha c / v* = 18.2
+T3: alpha_G(chi, 70 MeV) = 3.287e-41;  alpha_G c = 9.855e-33 m/s
+T8: H0 = 67.4 km/s/Mpc -> hbar H0 = 1.438e-33 eV, c/H0 = 4.45 Gpc
+T8: H0 = 73.0 km/s/Mpc -> hbar H0 = 1.557e-33 eV, c/H0 = 4.11 Gpc
+c1: Be-9: baryon number per unit mass = 0.998648 /u
+c1: Ti-48: baryon number per unit mass = 1.001086 /u
+c1: Pt-195: baryon number per unit mass = 1.000181 /u
+c1: tuned pair, vector on baryon number: Eotvos eta(Be-9,Ti-48) ~ 1.248e+07 x -2.437e-03 = -3.04e+04
+c1: tuned pair, vector on baryon number: Eotvos eta(Ti-48,Pt-195) ~ 1.248e+07 x +9.050e-04 = +1.13e+04
+T4: range 1 kpc: carrier mass hbar c / L = 6.395e-27 eV
+T4: range 1 au: carrier mass hbar c / L = 1.319e-18 eV
+T9: v_rel = 120.0 km/s at r = 1 kpc: rho v r/(hbar c) = 1 for rho = 1.598e-23 eV; hbar c/rho = 1.235e+16 m = 4.003e-01 pc
+    leading correction at that rho for transverse motion: (rho r v)^2/32 = 0.0312 (expansion parameter = 1)
+T9: v_rel = 120.0 km/s at r = 10 kpc: rho v r/(hbar c) = 1 for rho = 1.598e-24 eV; hbar c/rho = 1.235e+17 m = 4.003e+00 pc
+    leading correction at that rho for transverse motion: (rho r v)^2/32 = 0.0312 (expansion parameter = 1)
+T9: v_rel = 29.78 km/s at r = 1 au (Earth orbit): rho v r/(hbar c) = 1 for rho = 1.328e-14 eV; hbar c/rho = 1.486e+07 m = 4.816e-10 pc
+    leading correction at that rho for transverse motion: (rho r v)^2/32 = 0.0312 (expansion parameter = 1)

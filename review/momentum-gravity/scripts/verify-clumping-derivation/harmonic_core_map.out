@@ -1,0 +1,2 @@
+{X1,P1} = 1  {X1,X2} = 0  {X1,P2} = 0  {P1,P2} = 0
+H in new variables: (Pa**2 + Pb**2 + m*(Omega**2*Xa**2*m + Omega**2*Xb**2*m + 2*U(Omega*m*(Xa - Xb))))/(2*m)

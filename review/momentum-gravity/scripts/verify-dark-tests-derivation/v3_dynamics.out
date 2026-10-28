@@ -1,0 +1,13 @@
+--- strong coupling Gt m/(r v*^2) = 1 at start
+(iii) T+U min/max = -0.356531 / -0.234734 ; E_L min/max = -1.061296 / -0.963061 ; L_z min/max = +1.000000 / +1.000000
+     (ii) min eigenvalue of mu I - d2U/dv2 along the orbit = -0.1065
+(ii) T+U min/max = -0.356538 / +1.678916 ; E_L min/max = -0.963061 / -0.771629 ; L_z min/max = +0.106241 / +1.238419
+(i)  Hamiltonian: H min/max over orbit = -0.35653066 / -0.35653066
+--- weak coupling Gt m/(r v*^2) = 0.25 at start
+(iii) T+U min/max = -0.175302 / -0.032904 ; E_L min/max = -0.434874 / -0.221052 ; L_z min/max = +1.800000 / +1.800000
+     (ii) min eigenvalue of mu I - d2U/dv2 along the orbit = +0.2584
+(ii) T+U min/max = -0.175302 / +0.368344 ; E_L min/max = -0.221052 / -0.221052 ; L_z min/max = +1.800000 / +1.909062
+(i)  Hamiltonian: H min/max over orbit = -0.17530177 / -0.17530177
+(iii) reversibility: after forward 20 + backward 20, |r - r0| = 4.42e-15
+(iii) div_v(a) at a sample point = +0.724990 ; analytic -(1/mu) W'(|v|) (rhat.vhat)/R^2 = +0.724990
+lone particle, kappa=0.2, after ln a = 3: (iii) u/u0 = 0.09071 (a^(-1+kappa) = 0.09072); (i) u/u0 = w/w0 = 0.04978 (1/a = 0.04979)

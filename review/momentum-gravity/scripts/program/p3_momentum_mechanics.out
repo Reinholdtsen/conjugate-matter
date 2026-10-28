@@ -1,0 +1,62 @@
+== (a) U depends on momenta only
+argument p1 - p2: pdot_1 = [0, 0, 0]; xdot_1 - p1/m1 = [Subs(Derivative(U(_xi_1, p1_2 - p2_2, p1_3 - p2_3), _xi_1), _xi_1, p1_1 - p2_1)]...;
+   d(m1 x1 + m2 x2)/dt - P = [(m1 - m2)*Subs(Derivative(U(_xi_1, p1_2 - p2_2, p1_3 - p2_3), _xi_1), _xi_1, p1_1 - p2_1), (m1 - m2)*Subs(Derivative(U(p1_1 - p2_1, _xi_2, p1_3 - p2_3), _xi_2), _xi_2, p1_2 - p2_2), (m1 - m2)*Subs(Derivative(U(p1_1 - p2_1, p1_2 - p2_2, _xi_3), _xi_3), _xi_3, p1_3 - p2_3)]; argument shift under boost = [u1*(m1 - m2), u2*(m1 - m2), u3*(m1 - m2)]
+argument k = (m2 p1 - m1 p2)/M: pdot_1 = [0, 0, 0]; xdot_1 - p1/m1 = [m2*Subs(Derivative(U(_xi_1, (-m1*p2_2 + m2*p1_2)/(m1 + m2), (-m1*p2_3 + m2*p1_3)/(m1 + m2)), _xi_1), _xi_1, (-m1*p2_1 + m2*p1_1)/(m1 + m2))/(m1 + m2)]...;
+   d(m1 x1 + m2 x2)/dt - P = [0, 0, 0]; argument shift under boost = [0, 0, 0]
+argument p1/m1 - p2/m2: pdot_1 = [0, 0, 0]; xdot_1 - p1/m1 = [Subs(Derivative(U(_xi_1, -p2_2/m2 + p1_2/m1, -p2_3/m2 + p1_3/m1), _xi_1), _xi_1, -p2_1/m2 + p1_1/m1)/m1]...;
+   d(m1 x1 + m2 x2)/dt - P = [0, 0, 0]; argument shift under boost = [0, 0, 0]
+Legendre check with generic U (sympy Subs expansion): False
+Legendre check with concrete U = s^3/3 + sin s + exp(-s^2): v recovered to O(eps): [0, 0] ; L - [sum m v^2/2 - eps U(m1 v1 - m2 v2)] = 0
+L to O(eps) - [m1 v1^2/2 + m2 v2^2/2 - eps U(m1 v1 - m2 v2)] = 0
+d xdot1/d p1 (1D) = epsilon*Subs(Derivative(u(_xi_1), (_xi_1, 2)), _xi_1, P1 - P2) + 1/m1  (inverse mass shifted by U'')
+Born image of p^2/2m + V(x): V(p_s) + x_s**2/(2*m1) -> xdot = Derivative(V(p_s), p_s) , pdot = -x_s/m1
+
+== (b) Newtonian potential gated in relative velocity
+energy function - [sum m v^2/2 - Gt m1 m2 (W - w W')/r] = 0
+canonical p1 - m1 v1 (first component): Gtilde*m1*m2*(W1_1 - W2_1)*Subs(Derivative(W(_xi_1), _xi_1), _xi_1, sqrt((W1_1 - W2_1)**2 + (W1_2 - W2_2)**2 + (W1_3 - W2_3)**2)/v_star)/(v_star*sqrt((W1_1 - W2_1)**2 + (W1_2 - W2_2)**2 + (W1_3 - W2_3)**2)*sqrt((X1_1 - X2_1)**2 + (X1_2 - X2_2)**2 + (X1_3 - X2_3)**2))
+L(boosted) - L - [u.(m1 v1 + m2 v2) + M u^2/2] = 0  (remainder is d/dt[u.(m1x1+m2x2) + M u^2 t/2])
+Lagrangian Hessian at v_rel = 0 (Gaussian W): -2*Gtilde*M*mu/(r*v_star**2) + mu * identity -> zero at r_* = 2 Gt M/v*^2: [2*Gtilde*M/v_star**2]
+first-order Legendre check: True ; L - [mu v^2/2 + eta Gt M mu W(v/v*)/r] = 0
+Hamiltonian inverse inertia d2H/dp2 at p = 0: 2*Gtilde*M/(mu*r*v_star**2) + 1/mu  = (1/mu)(1 + 2 Gt M/(r v*^2))
+argument |p1/m1 - p2/m2|/v*: pdot_1 - (gated Newton force) = [0, 0, 0]; d(m1x1+m2x2)/dt - P zero: True
+argument |p1 - p2|/(m1 v*)  [non-invariant]: pdot_1 - (gated Newton force) = [0, 0, 0]; d(m1x1+m2x2)/dt - P zero: False
+
+== (c) gated contact interaction (Debt 3a), smoothed with width eps
+pdot_1 = g * G * grad delta_eps: True
+|d delta/dr| at r = 10 eps relative to its maximum: 3.1799709001977493e-21
+
+== Numerics, model (b): H = p^2/2 - (1 + beta exp(-p^2))/r  (relative coordinate, GM = mu = v* = 1)
+  check <1/r^2> a^2 = 1.0050378153 vs 1/sqrt(1-e^2) = 1.0050378153
+  check <1/r^2> a^2 = 1.0482848367 vs 1/sqrt(1-e^2) = 1.0482848367
+  check <1/r^2> a^2 = 1.2500000000 vs 1/sqrt(1-e^2) = 1.2500000000
+  perturbative precession per orbit (GM = v* = 1): 4*pi*beta/(a*(e**2 - 1))  -> general units: -4 pi beta GM/(a v*^2 (1-e^2))
+  beta = 0.2, e = 0.3; columns: GM/(a v*^2), measured dw/orbit [rad], formula -4 pi beta/(a(1-e^2)), ratio, |dE/E|, |dL/L|
+    0.0033  -9.068809e-03  -9.185461e-03   0.9873  1.1e-13  5.1e-15
+    0.0100  -2.641384e-02  -2.743530e-02   0.9628  1.1e-13  5.8e-15
+    0.0333  -7.976492e-02  -9.013322e-02   0.8850  3.1e-14  4.5e-15
+    0.1000  -1.862092e-01  -2.610573e-01   0.7133  1.3e-13  9.5e-15
+    0.3333  -3.126747e-01  -8.046791e-01   0.3886  1.1e-13  4.0e-15
+    1.0000  -1.764320e-01  -2.236202e+00   0.0789  1.3e-13  1.4e-14
+  ratio gated/GR precession at equal orbit = (-4 beta/6)(c/v*)^2 = -4.161e+06 * beta  (v* = 120.0 km/s)
+
+  Flybys, beta = 0.5, impact parameter b = 20 GM/v*^2: deflection vs v_inf
+  v_inf/v*   theta_num   theta_R(G(1+beta))   theta_R(G)   |dE/E|
+     0.10   2.318535    2.876490            2.746802    7.3e-13
+     0.30   1.215428    1.389477            1.014197    1.2e-14
+     0.60   0.348809    0.410791            0.276012    1.2e-14
+     1.00   0.114945    0.149720            0.099917    9.1e-15
+     1.50   0.046409    0.066642            0.044437    9.5e-15
+     2.00   0.025193    0.037496            0.024999    9.0e-15
+     3.00   0.011112    0.016666            0.011111    2.6e-15
+
+== Numerics, model (c): H = p^2/2 - g exp(-r^2/2) exp(-p^2)  (contact width 1, gate v* = 1, g = 0.05)
+  b    v_inf   deflection [rad]
+   0.5   0.3   2.764e-01
+   0.5   1.0   1.893e-02
+   0.5   3.0   7.583e-07
+   3.0   0.3   4.508e-02
+   3.0   1.0   1.539e-03
+   3.0   3.0   5.727e-08
+  10.0   0.3   2.455e-21
+  10.0   1.0   8.893e-23
+  10.0   3.0   3.315e-27

@@ -25,11 +25,12 @@ sources:
   - "notes/broken-born-theory.md §11"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "HANDOFF.md §3"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
 ---
 
 *Γ_self is the rate at which the gated attraction of [conjugate matter](/wiki/dark-matter/conjugate-matter) makes a wave-like dark-matter halo condense: the rate at which the halo's waves, scattering off one another, move their power into a narrow range of low relative momenta. It applies on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the range of very light χ masses in which each quantum state of the halo holds so many quanta that the halo is a classical wave field rather than a gas of particles. There every scattering rate is multiplied by that number of quanta. Levkov, Panin and Tkachev (LPT) worked out this kind of condensation for gravity; the gated attraction adds a second channel to it. When the halo's [velocity spread](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-wave-island-occupation-and-condensation) is wider than the gate, the rate falls as the fourth power of their ratio, a power law rather than the exponential cutoff that particles show, and that difference became a test of whether dark matter is made of particles or waves. [Debt 3](/wiki/history/debts) compared the rate with the gravitational channel and with the stirring of the halo by its own orbits. Its form is derived; its numerical coefficient is a heuristic estimate that has not been calibrated.*
 
-**Status:** Alive, with uncalibrated coefficients. [Debt 3b](/wiki/history/documents/debt-3-notes) tags the rate "[D, heuristic coefficients]" (`notes/debt3b-wave-island.md`); [checkpoint #11](/wiki/history/documents/checkpoint) §9 (ii) carries it inside the wave-island result tagged [D + T]: "Bose-enhanced, LPT-style [13†]; coefficients [O]". Not machine-checked; no `verify/` script covers any Debt-3 number ([the iron rule](/wiki/method/verification/iron-rule)). Two items on this page are open and not itemized in #11 §14: the [calibration of the coefficient c](#open-calibration-of-the-coefficient-c) and the [restatement of rows 1 and 2 in wave language](#open-rows-1-and-2-in-wave-language).
+**Status:** Alive, with uncalibrated coefficients. [Debt 3b](/wiki/history/documents/debt-3-notes) tags the rate "[D, heuristic coefficients]" (`notes/debt3b-wave-island.md`); [checkpoint #11](/wiki/history/documents/checkpoint) §9 (ii) carries it inside the wave-island result tagged [D + T]: "Bose-enhanced, LPT-style [13†]; coefficients [O]". Not machine-checked; no `verify/` script covers a number of Debt 3b or 3c; the gate checks only Debt 3a's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)) ([the iron rule](/wiki/method/verification/iron-rule)). Two items on this page are open and not itemized in #11 §14: the [calibration of the coefficient c](#open-calibration-of-the-coefficient-c) and the [restatement of rows 1 and 2 in wave language](#open-rows-1-and-2-in-wave-language).
 
 ## What the rate measures
 
@@ -158,3 +159,4 @@ Rows 1 and 2 of the predictions table are [the self-interaction knee](/wiki/pred
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 statement; §10 item 8 — the calibration as an open literature verification
 - `notes/broken-born-theory.md` §11 item 3 — the original growth-rate problem; 'Addendum (v0.2)' — the notebook's record of the rate
 - `HANDOFF.md` §3 row 3 — the inventory description of Debt 3b
+- `verify/velocity_gated_gravity.py` section D — Debt 3a's shortfall ratios, the only Debt-3 numbers the gate checks

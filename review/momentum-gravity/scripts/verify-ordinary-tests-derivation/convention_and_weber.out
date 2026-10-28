@@ -1,0 +1,8 @@
+=== (1) convention: notebook amplitude gate exp(-v^2/(2 v*^2)) = agent's exp(-u^2) with v*_agent = sqrt(2) v*_nb ===
+  gauss: agent v* = 120.0: 1.82e-11 (prec Mars);  agent v* = 169.7: 3.49e-11 (prec Mars)
+  lorentz: agent v* = 120.0: 1.97e-11 (prec Mars);  agent v* = 169.7: 3.63e-11 (prec Mars)
+=== (2) Weber-type term L1 = A (GM/r) rdot^2: advance per orbit by Delaunay averaging ===
+  advance per orbit = -2*pi*A*GM/(a*(e**2 - 1)) ;  ratio to GR 6 pi GM/(c^2 a(1-e^2)) with A = 1/c^2: 1/3
+  check <a^3/r^3> at e=0.2: 1.06314658974964 vs (1-e^2)^(-3/2) = 1.0631465897496433
+  check <a^3/r^3> at e=0.6: 1.953125 vs (1-e^2)^(-3/2) = 1.953125
+  1/3 of 42.98 arcsec/cy = 14.33;  3/8 of 38 arcsec/cy = 14.25

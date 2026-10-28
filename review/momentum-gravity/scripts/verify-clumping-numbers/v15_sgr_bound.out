@@ -1,0 +1,23 @@
+v* = 120 km/s; bound G~/G < 0.1/<W>; instability thresholds to compare (agent C10, verified): MW 28.1-161, cluster 152-2929
+  v_sat=250 sigma_h=100: <W>_gauss=0.1257+-0.0003 (closed 0.1260) -> G~/G < 0.80;  <W>_rat2=0.1076 -> G~/G < 0.93
+  v_sat=250 sigma_h=120: <W>_gauss=0.1192+-0.0003 (closed 0.1195) -> G~/G < 0.84;  <W>_rat2=0.1036 -> G~/G < 0.97
+  v_sat=250 sigma_h=155: <W>_gauss=0.1009+-0.0003 (closed 0.1017) -> G~/G < 0.99;  <W>_rat2=0.0897 -> G~/G < 1.11
+  v_sat=300 sigma_h=100: <W>_gauss=0.0711+-0.0002 (closed 0.0717) -> G~/G < 1.41;  <W>_rat2=0.0700 -> G~/G < 1.43
+  v_sat=300 sigma_h=120: <W>_gauss=0.0740+-0.0002 (closed 0.0741) -> G~/G < 1.35;  <W>_rat2=0.0711 -> G~/G < 1.41
+  v_sat=300 sigma_h=155: <W>_gauss=0.0711+-0.0002 (closed 0.0711) -> G~/G < 1.41;  <W>_rat2=0.0671 -> G~/G < 1.49
+  v_sat=350 sigma_h=100: <W>_gauss=0.0367+-0.0001 (closed 0.0368) -> G~/G < 2.72;  <W>_rat2=0.0449 -> G~/G < 2.23
+  v_sat=350 sigma_h=120: <W>_gauss=0.0420+-0.0002 (closed 0.0422) -> G~/G < 2.38;  <W>_rat2=0.0474 -> G~/G < 2.11
+  v_sat=350 sigma_h=155: <W>_gauss=0.0467+-0.0002 (closed 0.0466) -> G~/G < 2.14;  <W>_rat2=0.0485 -> G~/G < 2.06
+
+Ratio Lambda_g(sigma_loc=155/v*) / <W>_Sgr(gauss) vs v*  (instability needs gt*Lambda_g > Q >= 4.93; bound gt*<W> < 0.1,
+so the bound excludes the instability when Lambda_g/<W> < 10 Q ~ 49)
+  v*=   10: v_sat=300, sigma_h=120: Lambda_g=2.438e-04, <W>=2.571e-05, ratio=9.5
+  v*=   10: v_sat=350, sigma_h=100: Lambda_g=2.438e-04, <W>=2.290e-06, ratio=106.5
+  v*=   30: v_sat=300, sigma_h=120: Lambda_g=5.426e-03, <W>=7.533e-04, ratio=7.2
+  v*=   30: v_sat=350, sigma_h=100: Lambda_g=5.426e-03, <W>=8.606e-05, ratio=63.0
+  v*=   60: v_sat=300, sigma_h=120: Lambda_g=3.257e-02, <W>=7.342e-03, ratio=4.4
+  v*=   60: v_sat=350, sigma_h=100: Lambda_g=3.257e-02, <W>=1.507e-03, ratio=21.6
+  v*=  120: v_sat=300, sigma_h=120: Lambda_g=1.493e-01, <W>=7.411e-02, ratio=2.0
+  v*=  120: v_sat=350, sigma_h=100: Lambda_g=1.493e-01, <W>=3.684e-02, ratio=4.1
+  v*=  240: v_sat=300, sigma_h=120: Lambda_g=4.380e-01, <W>=3.830e-01, ratio=1.1
+  v*=  240: v_sat=350, sigma_h=100: Lambda_g=4.380e-01, <W>=3.178e-01, ratio=1.4

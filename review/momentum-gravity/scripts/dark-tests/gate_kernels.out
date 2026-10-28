@@ -1,0 +1,19 @@
+Check 1: density kernel R(y), closed form vs brute-force sine transform
+  y= 0.1  gauss: exact 0.009967  numeric 0.009967 | rational: exact 0.047790  numeric 0.047790
+  y= 0.5  gauss: exact 0.230172  numeric 0.230172 | rational: exact 0.453626  numeric 0.453626
+  y= 1.0  gauss: exact 0.724778  numeric 0.724778 | rational: exact 0.854891  numeric 0.854891
+  y= 2.0  gauss: exact 1.279976  numeric 1.279976 | rational: exact 1.128373  numeric 1.128373
+  y= 5.0  gauss: exact 1.046229  numeric 1.046229 | rational: exact 1.053233  numeric 1.053231
+  limits: R(1e-3)/y^2 gauss = 1.0000 (expect 1)  R(1e3) gauss = 1.000001 (expect ~1)
+Check 2: anti-drag, brute-force force on a moving particle vs (4pi/3) u/H
+  u/v*=0.003  gauss: F=1.256635e-02  analytic=1.256637e-02  ratio=1.00000 | rational: F=1.256619e-02 ratio=0.99999
+  u/v*=0.010  gauss: F=4.188668e-02  analytic=4.188790e-02  ratio=0.99997 | rational: F=4.188615e-02 ratio=0.99996
+  u/v*=0.030  gauss: F=1.256299e-01  analytic=1.256637e-01  ratio=0.99973 | rational: F=1.256283e-01 ratio=0.99972
+Check 3: R_v limits: R_v(1e-3)/y^2 = 0.6000 (expect 3/5)   R_v(1e3) = 1.00000 (expect ~1)
+Table: y = k s  |  R_gauss  Rv_gauss  |  R_rational  Rv_rational
+    0.10  |  0.0100  0.0060  |  0.0478  0.0310
+    0.30  |  0.0874  0.0529  |  0.2420  0.1651
+    1.00  |  0.7248  0.4770  |  0.8549  0.6664
+    3.00  |  1.1795  1.1861  |  1.1256  1.0986
+   10.00  |  1.0103  1.0291  |  1.0107  1.0281
+   30.00  |  1.0011  1.0033  |  1.0011  1.0033

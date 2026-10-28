@@ -1,0 +1,26 @@
+background: Omega_r = 9.221e-05, z_eq = 3419 (Planck 3402 +- 26), f_b = 0.1564
+  z =  1089.92: H =  1565236.16 km/s/Mpc, comoving s_c(v*=120) = 0.0836 Mpc
+  z =   100.00: H =    38955.37 km/s/Mpc, comoving s_c(v*=120) = 0.3111 Mpc
+  z =    10.00: H =     1383.26 km/s/Mpc, comoving s_c(v*=120) = 0.9543 Mpc
+  z =     3.00: H =      307.85 km/s/Mpc, comoving s_c(v*=120) = 1.5592 Mpc
+  z =     0.00: H =       67.36 km/s/Mpc, comoving s_c(v*=120) = 1.7815 Mpc
+  peak of comoving s_c: 2.0277 Mpc at z = 0.631  (K2: 2.0277 at 0.631)
+R(1): closed 0.724778, quadrature 0.724778  (K4: 0.724778)
+  y =   0.3: R = 0.08735, R_v(mine) = 0.05286, R_v(K4 formula) = 0.05286, R_a = -0.12078
+  y =   1.0: R = 0.72478, R_v(mine) = 0.47699, R_v(K4 formula) = 0.47699, R_a = -0.87168
+  y =   3.0: R = 1.17950, R_v(mine) = 1.18613, R_v(K4 formula) = 1.18613, R_a = 0.25446
+  y =  10.0: R = 1.01032, R_v(mine) = 1.02908, R_v(K4 formula) = 1.02908, R_a = 0.96783
+  u/v* = 0.003: Gaussian anti-drag F/((4pi/3)u) = 1.00000 ; anomalous velocity / ((4pi/3)u) = 1.00000
+  u/v* = 0.003: rational anti-drag F/((4pi/3)u) = 0.98630 ; anomalous velocity / ((4pi/3)u) = 1.01332
+  u/v* = 0.01: Gaussian anti-drag F/((4pi/3)u) = 0.99997 ; anomalous velocity / ((4pi/3)u) = 0.99997
+  u/v* = 0.01: rational anti-drag F/((4pi/3)u) = 0.98627 ; anomalous velocity / ((4pi/3)u) = 1.01329
+pivot: k_* = 0.009 s/km at z = 3 -> 0.6927 /Mpc ; k_* s_c(z=3, v*=120) = 1.0800 (K5: 0.6927, 1.080)
+  convergence nstep=6000: T^2, dn (matter) at eps=0.1, v*=120: (np.float64(1.07868), np.float64(0.1315))
+  convergence nstep=12000: T^2, dn (matter) at eps=0.1, v*=120: (np.float64(1.07868), np.float64(0.1315))
+eps = 0.1, v* = 120 (reading a): T_m^2 = 1.0787, dn_m = +0.1315 ; gas T_b^2 = 1.0249, dn_b = +0.0461   (K5: 1.0783, +0.1308)
+eps = 0.1, v* = 120 (reading b, Hamiltonian): T_m^2 = 1.0125, dn_m = +0.0383
+v* =  120.0 km/s: eps_max (matter) = 0.0282, (gas) = 0.0804, (matter, Hamiltonian reading) = 0.0963; chi2(eps=0) - min = 0.00
+v* =   30.0 km/s: eps_max (matter) = 0.3441, (gas) = 1.1254, (matter, Hamiltonian reading) = 3.5907; chi2(eps=0) - min = 0.00
+v* =   10.0 km/s: eps_max (matter) = 3.0433, (gas) = 10.0465, (matter, Hamiltonian reading) = nan; chi2(eps=0) - min = 0.00
+dark-tests K6 for comparison: v*=120: 0.0285 / 0.0812 ; v*=30: 0.3484 / 1.1424 ; v*=10: 3.0825 / >10
+Sgr: <W> = 0.0657 -> eps < 0.10/<W> = 1.52  (K13: 0.066, 1.524)

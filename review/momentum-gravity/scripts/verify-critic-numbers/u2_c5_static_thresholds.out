@@ -1,0 +1,75 @@
+== anchors
+  gt = 0: Lambda_0 radial = 1.0000000000 (Jeans: 1)
+  r = 0.01, gt = 3: Lambda_0 = 3.999100 (broad-gate limit 1 + gt = 4; first correction ~ -3 r^2 gt)
+
+== gate-only top eigenvalue: closed form vs radial Nystrom vs Cartesian 1D spectrum cubed
+  r =  0.2500: closed 8.4195952e-01  radial 8.4195952e-01  cartesian 8.4195952e-01   crossover 1/Lambda_g = 1.1877
+  r =  0.3333: closed 7.4942219e-01  radial 7.4942219e-01  cartesian 7.4942219e-01   crossover 1/Lambda_g = 1.3344
+  r =  0.4000: closed 6.7441688e-01  radial 6.7441688e-01  cartesian 6.7441688e-01   crossover 1/Lambda_g = 1.4828
+  r =  1.0000: closed 2.3606798e-01  radial 2.3606798e-01  cartesian 2.3606798e-01   crossover 1/Lambda_g = 4.2361
+  r =  1.2917: closed 1.4928686e-01  radial 1.4928686e-01  cartesian 1.4928686e-01   crossover 1/Lambda_g = 6.6985
+  r =  4.0000: closed 1.0749314e-02  radial 1.0749314e-02  cartesian 1.0749314e-02   crossover 1/Lambda_g = 93.0292
+  r =  8.3333: closed 1.4435026e-03  radial 1.4435026e-03  cartesian 1.4435026e-03   crossover 1/Lambda_g = 692.7594
+  r = 1: 1/Lambda_g = 4.236068;  golden ratio cubed = 4.236068
+
+== Lambda_0 at (r, gt): radial vs Cartesian secular (two discretizations)
+  r =  1.2917, gt =    10.0: radial 2.30511070  cartesian 2.30511070
+  r =  1.2917, gt =   100.0: radial 15.63391967  cartesian 15.63391967
+  r =  8.3333, gt =  1000.0: radial 1.83435689  cartesian 1.83435689
+  r =  0.2500, gt =     1.0: radial 1.83983293  cartesian 1.83983293
+  r =  1.0000, gt =     4.0: radial 1.84333858  cartesian 1.84333858
+
+  MW local Jeans length 40.812 kpc, (lambda_J/R0)^2 = 24.771 at R0 = 8.2 kpc; at R0 = 8.0: 26.025; 8.3: 24.178
+
+== environments x v*: r, crossover 1/Lambda_g, validity limit (closed forms)
+  v* =     10  UFD              sigma =      4  r =   0.4000  1/Lam_g =      1.483  valid <     2.013
+  v* =     10  classical dSph   sigma =     10  r =   1.0000  1/Lam_g =      4.236  valid <     1.257
+  v* =     10  dwarf core (3a)  sigma =     30  r =   3.0000  1/Lam_g =      44.41  valid <     7.808
+  v* =     10  MW local         sigma =    155  r =  15.5000  1/Lam_g =       4102  valid <     836.2
+  v* =     10  cluster core     sigma =   1000  r = 100.0000  1/Lam_g =  1.015e+06  valid < 2.223e+05
+  v* =     30  UFD              sigma =      4  r =   0.1333  1/Lam_g =      1.053  valid <     13.06
+  v* =     30  classical dSph   sigma =     10  r =   0.3333  1/Lam_g =      1.334  valid <     2.603
+  v* =     30  dwarf core (3a)  sigma =     30  r =   1.0000  1/Lam_g =      4.236  valid <     1.257
+  v* =     30  MW local         sigma =    155  r =   5.1667  1/Lam_g =      184.3  valid <      33.6
+  v* =     30  cluster core     sigma =   1000  r =  33.3333  1/Lam_g =  3.874e+04  valid <      8249
+  v* =    120  UFD              sigma =      4  r =   0.0333  1/Lam_g =      1.003  valid <     200.6
+  v* =    120  classical dSph   sigma =     10  r =   0.0833  1/Lam_g =      1.021  valid <     32.56
+  v* =    120  dwarf core (3a)  sigma =     30  r =   0.2500  1/Lam_g =      1.188  valid <     4.137
+  v* =    120  MW local         sigma =    155  r =   1.2917  1/Lam_g =      6.699  valid <     1.549
+  v* =    120  cluster core     sigma =   1000  r =   8.3333  1/Lam_g =      692.8  valid <     133.3
+  v* =    300  UFD              sigma =      4  r =   0.0133  1/Lam_g =      1.001  valid <      1251
+  v* =    300  classical dSph   sigma =     10  r =   0.0333  1/Lam_g =      1.003  valid <     200.6
+  v* =    300  dwarf core (3a)  sigma =     30  r =   0.1000  1/Lam_g =       1.03  valid <     22.78
+  v* =    300  MW local         sigma =    155  r =   0.5167  1/Lam_g =      1.811  valid <     1.504
+  v* =    300  cluster core     sigma =   1000  r =   3.3333  1/Lam_g =      57.99  valid <     10.21
+  v* =   1000  UFD              sigma =      4  r =   0.0040  1/Lam_g =          1  valid < 1.389e+04
+  v* =   1000  classical dSph   sigma =     10  r =   0.0100  1/Lam_g =          1  valid <      2223
+  v* =   1000  dwarf core (3a)  sigma =     30  r =   0.0300  1/Lam_g =      1.003  valid <     247.5
+  v* =   1000  MW local         sigma =    155  r =   0.1550  1/Lam_g =      1.072  valid <     9.815
+  v* =   1000  cluster core     sigma =   1000  r =   1.0000  1/Lam_g =      4.236  valid <     1.257
+
+== critical gt, no revir / revir (Lambda_0 = Q(1 + gt <W>)), radial Nystrom, selected cases
+  v* =   120 UFD              r =  0.0333 <W> = 0.9967 | Q= 1.097:   0.09694 /       inf | Q= 4.386:     3.398 /       inf
+  v* =   120 classical dSph   r =  0.0833 <W> = 0.9795 | Q= 1.097:   0.09864 /       inf | Q= 4.386:     3.457 /       inf
+  v* =   120 dwarf core (3a)  r =  0.2500 <W> = 0.8381 | Q= 1.097:    0.1152 /       inf | Q= 4.386:     4.026 /       inf
+  v* =   120 MW local         r =  1.2917 <W> = 0.1107 | Q= 4.935:     28.07 /       inf | Q=19.739:     127.5 /       inf | Q=24.771:     161.2 /       inf
+  v* =   120 cluster core     r =  8.3333 <W> = 0.0006044 | Q= 1.097:     152.2 /     798.8 | Q= 4.386:      2929 /       inf
+  v* =    10 UFD              r =  0.4000 <W> = 0.6594 | Q= 1.097:    0.1462 /       inf | Q= 4.386:     5.047 /       inf
+  v* =    10 classical dSph   r =  1.0000 <W> = 0.1925 | Q= 1.097:    0.4935 /     9.785 | Q= 4.386:     15.05 /       inf
+  v* =    30 UFD              r =  0.1333 <W> = 0.9489 | Q= 1.097:    0.1018 /       inf | Q= 4.386:     3.567 /       inf
+  v* =    30 classical dSph   r =  0.3333 <W> = 0.7401 | Q= 1.097:    0.1304 /       inf | Q= 4.386:     4.532 /       inf
+
+== validity limit: sensitivity to |Phi|/sigma^2 (9/2 assumed; MW at the Sun: v_esc^2/(2 sigma^2) with
+   v_esc = 528 km/s [S: Deason et al. 2019], sigma = 155 km/s)
+  MW v*=120      : X = 4.5 ->    1.549;  X = 5.80 ->    1.202;  X = 9 ->   0.7746
+  dwarf v*=120   : X = 4.5 ->    4.137;  X = 5.80 ->    3.209;  X = 9 ->    2.069
+  cluster v*=120 : X = 4.5 ->    133.3;  X = 5.80 ->    103.4;  X = 9 ->    66.64
+  dSph v*=10     : X = 4.5 ->    1.257;  X = 5.80 ->    0.975;  X = 9 ->   0.6285
+
+== margins at v* = 120: threshold / allowed eps
+  MW crossover 1/Lam_g           =     6.699: K4 matter 0.0282:      238; K4 gas 0.0804:     83.3; K4 gas 0.0812:     82.5; consistent gas 0.2959:     22.6; consistent matter 0.3405:     19.7; Sgr 1.52:     4.41; Sgr upper 2.7:     2.48
+  MW no-revir Q=pi^2/2           =     28.07: K4 matter 0.0282:      996; K4 gas 0.0804:      349; K4 gas 0.0812:      346; consistent gas 0.2959:     94.9; consistent matter 0.3405:     82.5; Sgr 1.52:     18.5; Sgr upper 2.7:     10.4
+  MW no-revir Q=sun              =     161.2: K4 matter 0.0282: 5.72e+03; K4 gas 0.0804: 2.01e+03; K4 gas 0.0812: 1.99e+03; consistent gas 0.2959:      545; consistent matter 0.3405:      474; Sgr 1.52:      106; Sgr upper 2.7:     59.7
+  cluster crossover 1/Lam_g      =     692.8: K4 matter 0.0282: 2.46e+04; K4 gas 0.0804: 8.62e+03; K4 gas 0.0812: 8.53e+03; consistent gas 0.2959: 2.34e+03; consistent matter 0.3405: 2.03e+03; Sgr 1.52:      456; Sgr upper 2.7:      257
+  cluster no-revir Q=(pi/3)^2    =     152.2: K4 matter 0.0282:  5.4e+03; K4 gas 0.0804: 1.89e+03; K4 gas 0.0812: 1.87e+03; consistent gas 0.2959:      514; consistent matter 0.3405:      447; Sgr 1.52:      100; Sgr upper 2.7:     56.4
+  cluster revir Q=(pi/3)^2       =     798.8: K4 matter 0.0282: 2.83e+04; K4 gas 0.0804: 9.94e+03; K4 gas 0.0812: 9.84e+03; consistent gas 0.2959:  2.7e+03; consistent matter 0.3405: 2.35e+03; Sgr 1.52:      526; Sgr upper 2.7:      296

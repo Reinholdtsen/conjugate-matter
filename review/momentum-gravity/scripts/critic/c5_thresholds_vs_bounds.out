@@ -1,0 +1,42 @@
+anchor r = 0.25: Lambda_g numeric = 0.8419595, closed = 0.8419595
+anchor r = 1.2917: Lambda_g numeric = 0.1492795, closed = 0.1492795
+anchor r = 8.333: Lambda_g numeric = 0.0014437, closed = 0.0014437
+anchor gravity alone: Lambda_0 = 1.0000000
+cross-check: Lambda_0(1.2917, 10) = 2.30503422 (clumping C3: 2.30503422); g_crit(1.2917, 4.4) = 24.45 (C5: 24.45); g_crit(8.333, 1.1) = 157.3 (C5: 157.3)
+
+per v*: g_crit(Q_low), g_crit(Q_high) [no re-virialization]; stream crossover 1/Lambda_g; local-model validity g < 1/(4.5 r^2 (1+r^2)^-2.5)
+
+v* = 10 km/s: Lyman-alpha eps_max (matter ratio) K4 reading 3.04, consistent reading 6.8; Sgr eps_max = 2.89e+03
+  UFD             r =   0.400: g_crit =     0.146,      5.05; crossover      1.48; validity <      2.01; threshold/allowed(consistent, Sgr) =    0.218
+  classical dSph  r =   1.000: g_crit =     0.493,        15; crossover      4.24; validity <      1.26; threshold/allowed(consistent, Sgr) =    0.623
+  dwarf core      r =   3.000: g_crit =      7.67,       176; crossover      44.4; validity <      7.81; threshold/allowed(consistent, Sgr) =     6.53
+  MW local*       r =  15.500: g_crit =  2.02e+04,  1.02e+05; crossover   4.1e+03; validity <       836; threshold/allowed(consistent, Sgr) = 2.98e+03
+  cluster core*   r = 100.000: g_crit =  1.11e+06,  4.45e+06; crossover  1.02e+06; validity <  2.22e+05; threshold/allowed(consistent, Sgr) = 1.64e+05
+
+v* = 30 km/s: Lyman-alpha eps_max (matter ratio) K4 reading 0.344, consistent reading 0.817; Sgr eps_max = 105
+  UFD             r =   0.133: g_crit =     0.102,      3.57; crossover      1.05; validity <      13.1; threshold/allowed(consistent, Sgr) =     1.29
+  classical dSph  r =   0.333: g_crit =      0.13,      4.53; crossover      1.33; validity <       2.6; threshold/allowed(consistent, Sgr) =     1.63
+  dwarf core      r =   1.000: g_crit =     0.493,        15; crossover      4.24; validity <      1.26; threshold/allowed(consistent, Sgr) =     5.18
+  MW local        r =   5.167: g_crit =       863,  4.53e+03; crossover       184; validity <      33.6; threshold/allowed(consistent, Sgr) = 1.06e+03
+  cluster core*   r =  33.333: g_crit =  4.25e+04,   1.7e+05; crossover  3.87e+04; validity <  8.25e+03; threshold/allowed(consistent, Sgr) =  5.2e+04
+
+v* = 50 km/s: Lyman-alpha eps_max (matter ratio) K4 reading 0.128, consistent reading 0.348; Sgr eps_max = 21.9
+  UFD             r =   0.080: g_crit =    0.0985,      3.45; crossover      1.02; validity <      35.3; threshold/allowed(consistent, Sgr) =     2.93
+  classical dSph  r =   0.200: g_crit =     0.108,      3.79; crossover      1.12; validity <      6.13; threshold/allowed(consistent, Sgr) =     3.22
+  dwarf core      r =   0.600: g_crit =     0.217,      7.24; crossover       2.1; validity <      1.33; threshold/allowed(consistent, Sgr) =     6.04
+  MW local        r =   3.100: g_crit =       218,  1.18e+03; crossover      48.2; validity <      8.48; threshold/allowed(consistent, Sgr) =      627
+  cluster core*   r =  20.000: g_crit =  9.46e+03,  3.78e+04; crossover  8.62e+03; validity <  1.79e+03; threshold/allowed(consistent, Sgr) = 2.72e+04
+
+v* = 120 km/s: Lyman-alpha eps_max (matter ratio) K4 reading 0.0282, consistent reading 0.341; Sgr eps_max = 1.52
+  UFD             r =   0.033: g_crit =    0.0969,       3.4; crossover         1; validity <       201; threshold/allowed(consistent, Sgr) =     2.94
+  classical dSph  r =   0.083: g_crit =    0.0986,      3.46; crossover      1.02; validity <      32.6; threshold/allowed(consistent, Sgr) =     2.99
+  dwarf core      r =   0.250: g_crit =     0.115,      4.03; crossover      1.19; validity <      4.14; threshold/allowed(consistent, Sgr) =     3.48
+  MW local        r =   1.292: g_crit =      28.1,       161; crossover       6.7; validity <      1.55; threshold/allowed(consistent, Sgr) =     82.3
+  cluster core    r =   8.333: g_crit =       152,  2.93e+03; crossover       693; validity <       133; threshold/allowed(consistent, Sgr) = 2.03e+03
+
+v* = 300 km/s: Lyman-alpha eps_max (matter ratio) K4 reading 0.0138, consistent reading 0.0113; Sgr eps_max = 0.215
+  UFD             r =   0.013: g_crit =    0.0967,      3.39; crossover         1; validity <  1.25e+03; threshold/allowed(consistent, Sgr) =     88.5
+  classical dSph  r =   0.033: g_crit =    0.0969,       3.4; crossover         1; validity <       201; threshold/allowed(consistent, Sgr) =     88.8
+  dwarf core      r =   0.100: g_crit =    0.0995,      3.49; crossover      1.03; validity <      22.8; threshold/allowed(consistent, Sgr) =     91.2
+  MW local        r =   0.517: g_crit =       7.2,      43.1; crossover      1.81; validity <       1.5; threshold/allowed(consistent, Sgr) =      637
+  cluster core    r =   3.333: g_crit =      10.3,       231; crossover        58; validity <      10.2; threshold/allowed(consistent, Sgr) = 5.13e+03

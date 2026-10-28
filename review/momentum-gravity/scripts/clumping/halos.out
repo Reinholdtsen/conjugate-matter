@@ -1,0 +1,39 @@
+=== 1. Timescales and lengths (local) ===
+dwarf core: rho=1.783e-21 kg/m^3, r=sigma/v*=0.2500, t_ff=1/sqrt(4piG rho)=25.92 Myr, lambda_J=4.996 kpc, isothermal r_c=3 sigma t_ff=2.385 kpc, t_cross=r_c/sigma=77.7 Myr
+MW local  : rho=7.131e-22 kg/m^3, r=sigma/v*=1.2917, t_ff=1/sqrt(4piG rho)=40.98 Myr, lambda_J=40.812 kpc, isothermal r_c=3 sigma t_ff=19.486 kpc, t_cross=r_c/sigma=122.9 Myr
+cluster   : rho=5.348e-23 kg/m^3, r=sigma/v*=8.3333, t_ff=1/sqrt(4piG rho)=149.62 Myr, lambda_J=961.449 kpc, isothermal r_c=3 sigma t_ff=459.058 kpc, t_cross=r_c/sigma=448.9 Myr
+MW solar orbital period 2 pi R0/v_c (R0=8.2 kpc, v_c=230 km/s, dagger) = 219 Myr
+MW local: (lambda_J/R0)^2 = 24.77 (margin for a mode of wavelength R0)
+Margins: core Q=(pi/3)^2=1.0966, (2pi/3)^2=4.3865; SIS Q=pi^2/2=4.9348, 2pi^2=19.7392
+
+=== 2. Gate factors at each environment ===
+dwarf core r=0.2500: Gaussian Lam_g=8.41960e-01, q=0.05573, <W>=8.38052e-01 (closed (1+2r^2)^-1.5=8.38052e-01), Lam_g/<W>=1.0047, l=1 top Lam_g q=4.69208e-02;  rat2 Lam=7.46887e-01, <W>=7.38896e-01, ratio=1.0108
+MW local   r=1.2917: Gaussian Lam_g=1.49287e-01, q=0.46951, <W>=1.10725e-01 (closed (1+2r^2)^-1.5=1.10725e-01), Lam_g/<W>=1.3483, l=1 top Lam_g q=7.00923e-02;  rat2 Lam=1.19899e-01, <W>=9.57749e-02, ratio=1.2519
+cluster    r=8.3333: Gaussian Lam_g=1.44350e-03, q=0.88698, <W>=6.04401e-04 (closed (1+2r^2)^-1.5=6.04401e-04), Lam_g/<W>=2.3883, l=1 top Lam_g q=1.28036e-03;  rat2 Lam=1.73617e-03, <W>=8.97035e-04, ratio=1.9354
+   r=  0.5: Gaussian Lam_g/<W> = 1.0445   (r->inf limit 2^1.5 = 2.8284)
+   r=  1.0: Gaussian Lam_g/<W> = 1.2266   (r->inf limit 2^1.5 = 2.8284)
+   r=  2.0: Gaussian Lam_g/<W> = 1.6064   (r->inf limit 2^1.5 = 2.8284)
+   r=  4.0: Gaussian Lam_g/<W> = 2.0378   (r->inf limit 2^1.5 = 2.8284)
+   r=  8.0: Gaussian Lam_g/<W> = 2.3727   (r->inf limit 2^1.5 = 2.8284)
+   r= 16.0: Gaussian Lam_g/<W> = 2.5829   (r->inf limit 2^1.5 = 2.8284)
+   r= 32.0: Gaussian Lam_g/<W> = 2.7009   (r->inf limit 2^1.5 = 2.8284)
+   r= 64.0: Gaussian Lam_g/<W> = 2.7634   (r->inf limit 2^1.5 = 2.8284)
+
+=== 3. Critical Gt/G (Gaussian and rat2 gates) ===
+dwarf core Q= 1.0966: gauss: no-revir 0.1152, revir inf | rat2: no-revir 0.1306, revir inf
+dwarf core Q= 4.3865: gauss: no-revir 4.026, revir inf | rat2: no-revir 4.545, revir inf
+MW local   Q= 4.9348: gauss: no-revir 28.07, revir inf | rat2: no-revir 34.46, revir inf
+MW local   Q=19.7392: gauss: no-revir 127.5, revir inf | rat2: no-revir 158.2, revir inf
+MW local   Q=24.7714: gauss: no-revir 161.2, revir inf | rat2: no-revir 200.2, revir inf
+cluster    Q= 1.0966: gauss: no-revir 152.2, revir 798.8 | rat2: no-revir 103.3, revir 643.1
+cluster    Q= 4.3865: gauss: no-revir 2929, revir inf | rat2: no-revir 2315, revir inf
+
+=== 4. Debt 3a contact-range numbers with the linearized narrow-gate criterion ===
+g = 2483 GeV^-2 (3a's benchmark coupling)
+dwarf core: 3a-form ratio = 3.89e-28;  linearized ratio g n Lam_g(r)/(m sigma^2) = 3.27e-28
+MW local  : 3a-form ratio = 2.86e-31;  linearized ratio g n Lam_g(r)/(m sigma^2) = 8.7e-31
+cluster   : 3a-form ratio = 8e-35;  linearized ratio g n Lam_g(r)/(m sigma^2) = 1.52e-35
+
+=== 5. Range of X versus halo scales ===
+lambda_X < 37.7 um (diameter note, u=1) -> lambda_X/1 kpc < 1.22e-24; carrier mass for range 1 kpc: hbar c/1kpc = 6.39e-27 eV
+M_X c^2 > hbar c/37.7um = 5.23 meV; ratio to 1-kpc carrier mass: 8.18e+23

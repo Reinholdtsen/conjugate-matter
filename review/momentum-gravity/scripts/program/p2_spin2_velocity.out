@@ -1,0 +1,52 @@
+== 1. Tensor factor for point masses
+T1.T2 - c T1 T2 = -m1*m2*(c - gamma**2)   (expect m1 m2 (gamma^2 - c))
+normalized, massless (c=1/2): 2*gamma**2 - 1 = Chebyshev T2(gamma): 2*gamma**2 - 1
+normalized, Fierz-Pauli (c=1/3): 3*gamma**2/2 - 1/2 = Legendre P2(gamma): 3*gamma**2/2 - 1/2
+
+== 2. Series in v (v in units of c)
+massless   : 2*v**4 + 2*v**2 + 1
+Fierz-Pauli: 3*v**4/2 + 3*v**2/2 + 1
+
+== 3. Anchor: gamma -> infinity ratio massive/massless (light bending, Newtonian matched)
+lim N1/N0 = 3/4  (vDVZ: 3/4, Hinterbichler 2012 sec. 3.3 [S])
+
+== 4. General frame
+T1.T2 - c T1 T2 - m1 m2((u1.u2)^2 - c) = 0
+massless: O(eps^2) term minus |v1-v2|^2/(1-c): 0
+Fierz-Pauli: O(eps^2) term minus |v1-v2|^2/(1-c): 0
+
+== 5. Fierz-Pauli numerator on conserved point sources
+T1 P_FP T2 = m1*m2*(3*gamma**2 - 1)/3  (expect m1 m2 (gamma^2 - 1/3))
+
+== 6. Amplitude -> O(1/c^2) Lagrangian
+massless: -lap(-r/2) - 1/r = 0  => FT[4pi/q^4] = -r/2 (up to harmonic terms)
+massive : (-lap + M^2)(e^{-Mr}/2M) - e^{-Mr}/r = 0  => FT[4pi/(q^2+M^2)^2] = e^{-Mr}/(2M)
+massless retardation kernel minus (delta - n n)/(2r): True
+spin 1: L_int - Darwin = 0
+spin 2 massless: L_int - EIH(Will 2018 eq. 9, GR values) at O(G) = 0
+massive spin 2, r << lambda_X: L_int*r/(alpha G m1 m2) - [1 + (v1^2+v2^2) - 5/2 v1.v2 - 1/2 (n.v1)(n.v2)] = 0
+massive retardation kernel = e^{-Mr}[(delta - n n)/(2r) - (M/2) n n]: True
+
+== 7a. CM frame (v1 = m2 v/M, v2 = -m1 v/M, nu = m1 m2/M^2)
+massless: True  -> [(3 + nu) v^2 + nu (n.v)^2]/2
+massive : True  -> (1 + nu/2) v^2 + nu (n.v)^2/2
+EIH: 3/2 (v1^2+v2^2) - 7/2 v1.v2 - 3/2 |v1 - v2|^2 = -a1*b1/2 - a2*b2/2 - a3*b3/2  (so the EIH velocity terms are 3/2|v1-v2|^2 - 1/2 v1.v2 - 1/2 (n.v1)(n.v2): not a function of v1 - v2 alone)
+
+== 7b. Test-mass PPN check: L = -m sqrt(1 + 2 Phi - (1 - 2 gam Phi) v^2), Phi = -GM/r
+coefficient of -Phi v^2: gamma_PPN + 1/2 ; at gamma_PPN = 1: 3/2 ; at 1/2: 1  (GR gam=1 -> 3/2 = EIH test-mass value; gam=1/2 -> 1 = massive value)
+graviton + massive mode of strength alpha (r << lambda, unscreened): gamma_PPN from light bending = (alpha_ + 2)/(2*(alpha_ + 1)) ; from the v^2 coefficient = (alpha_ + 2)/(2*(alpha_ + 1)) ; equal: True
+  gamma_PPN - 1 = -alpha_/(2*(alpha_ + 1)) ; at alpha = 4/3: 5/7 = 0.7142857142857143
+
+== 7c. Sizes
+v =    10 km/s: (v/c)^2 = 1.11e-09
+v =    30 km/s: (v/c)^2 = 1.00e-08
+v =   100 km/s: (v/c)^2 = 1.11e-07
+v =   120 km/s: (v/c)^2 = 1.60e-07
+v =   300 km/s: (v/c)^2 = 1.00e-06
+v =  1000 km/s: (v/c)^2 = 1.11e-05
+
+== 8. EIH Lagrangian (Will 2018 form, 2 bodies) -> accelerations, vs EIH equations of motion (Wikipedia)
+trial 0: |a_N - a_N(wiki)| = 1.1e-43, |a_1PN - a_1PN(wiki)| = 8.8e-42
+trial 1: |a_N - a_N(wiki)| = 1.0e-42, |a_1PN - a_1PN(wiki)| = 1.4e-41
+trial 2: |a_N - a_N(wiki)| = 6.9e-43, |a_1PN - a_1PN(wiki)| = 2.7e-41
+EIH Lagrangian reproduces the EIH equations of motion: True

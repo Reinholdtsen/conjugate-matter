@@ -1,0 +1,72 @@
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/ordinary-tests/bounds.py:144: RuntimeWarning: overflow encountered in scalar divide
+  return (PBDOT_TEST_95 / 2.5) / abs(frac) if frac != 0 else np.inf
+Relative orbital speeds used (km/s):
+  Sun-Mercury  v_c =   47.876
+  Sun-Venus    v_c =   35.022
+  Sun-Earth    v_c =   29.784
+  Sun-Mars     v_c =   24.126
+  Sun-Jupiter  v_c =   13.056
+  Sun-Saturn   v_c =    9.627
+  Earth-Moon       v_c =   1.0251   (e = 0.055)
+  Earth-LAGEOS     v_c =   5.6996
+  double pulsar    v_c =   625.03   (e = 0.087777023); observed advance per orbit = 8.2571e-05 rad
+  Eros orbit (35 km) v = 3.57 m/s ; NEAR flyby v = 0.965 km/s
+  orbits per century: Mercury 415.06, Venus 162.55, Earth 100.01, Mars 53.17, Jupiter 8.43, Saturn 3.40; lunar orbits per year 13.379
+
+====================================================================================================
+Body-level gate, W = exp(-u^2): upper bounds on |eps| (2 sigma)
+====================================================================================================
+v* =     0.1 km/s : strongest = Eros flyby vs orbit          |eps| < 6.14e-01 ; next: LLR perigee 2.9e+27; GM_E: LLR vs SLR(Ries) 7.6e+34; GM_E: LLR vs SLR(Dunn) 8.6e+34
+v* =     0.3 km/s : strongest = LLR perigee                  |eps| < 6.53e-09 ; next: GM_E: LLR vs SLR(Ries) 1.8e-05; GM_E: LLR vs SLR(Dunn) 2.0e-05; Eros flyby vs orbit 6.1e-01
+v* =     1.0 km/s : strongest = LLR perigee                  |eps| < 4.06e-10 ; next: GM_E: LLR vs SLR(Ries) 3.4e-09; GM_E: LLR vs SLR(Dunn) 3.9e-09; Eros flyby vs orbit 1.0e+00
+v* =     3.0 km/s : strongest = LLR perigee                  |eps| < 8.47e-11 ; next: GM_E: LLR vs SLR(Ries) 4.2e-09; GM_E: LLR vs SLR(Dunn) 4.8e-09; prec Saturn 4.1e-08
+v* =    10.0 km/s : strongest = prec Mars                    |eps| < 7.92e-12 ; next: prec Earth 2.2e-10; LLR perigee 7.5e-10; prec Saturn 5.4e-09
+v* =    30.0 km/s : strongest = prec Mars                    |eps| < 5.77e-12 ; next: prec Mercury 2.5e-11; prec Venus 1.1e-10; prec Earth 4.2e-10
+v* =   120.0 km/s : strongest = prec Mars                    |eps| < 1.82e-11 ; next: prec Earth 4.0e-11; prec Mercury 6.4e-11; prec Venus 1.9e-10
+v* =   300.0 km/s : strongest = prec Mars                    |eps| < 1.06e-10 ; next: prec Earth 2.3e-10; prec Mercury 3.0e-10; prec Venus 1.0e-09
+v* =  1000.0 km/s : strongest = prec Mars                    |eps| < 1.16e-09 ; next: double pulsar 2.1e-09; prec Earth 2.5e-09; prec Mercury 3.1e-09
+v* =  3000.0 km/s : strongest = double pulsar                |eps| < 8.54e-09 ; next: prec Mars 1.0e-08; prec Earth 2.2e-08; prec Mercury 2.8e-08
+
+====================================================================================================
+Body-level gate, W = 1/(1+u^2): upper bounds on |eps| (2 sigma)
+====================================================================================================
+v* =     0.1 km/s : strongest = LLR perigee                  |eps| < 8.47e-10 ; next: prec Mars 3.9e-08; GM_E: LLR vs SLR(Ries) 1.4e-07; GM_E: LLR vs SLR(Dunn) 1.5e-07
+v* =     0.3 km/s : strongest = LLR perigee                  |eps| < 1.27e-10 ; next: prec Mars 4.4e-09; GM_E: LLR vs SLR(Ries) 1.7e-08; GM_E: LLR vs SLR(Dunn) 1.9e-08
+v* =     1.0 km/s : strongest = prec Mars                    |eps| < 3.96e-10 ; next: LLR perigee 1.3e-09; prec Earth 2.0e-09; GM_E: LLR vs SLR(Ries) 4.1e-09
+v* =     3.0 km/s : strongest = prec Mars                    |eps| < 4.65e-11 ; next: LLR perigee 1.1e-10; prec Earth 2.3e-10; prec Mercury 1.8e-09
+v* =    10.0 km/s : strongest = prec Mars                    |eps| < 7.70e-12 ; next: prec Earth 3.0e-11; prec Mercury 2.0e-10; prec Venus 2.3e-10
+v* =    30.0 km/s : strongest = prec Mars                    |eps| < 1.34e-11 ; next: prec Mercury 8.5e-11; prec Venus 3.7e-10; prec Earth 1.2e-09
+v* =   120.0 km/s : strongest = prec Mars                    |eps| < 1.97e-11 ; next: prec Earth 4.5e-11; prec Mercury 8.5e-11; prec Venus 2.3e-10
+v* =   300.0 km/s : strongest = prec Mars                    |eps| < 1.07e-10 ; next: prec Earth 2.3e-10; prec Mercury 3.1e-10; prec Venus 1.1e-09
+v* =  1000.0 km/s : strongest = prec Mars                    |eps| < 1.16e-09 ; next: prec Earth 2.5e-09; prec Mercury 3.1e-09; double pulsar 3.9e-09
+v* =  3000.0 km/s : strongest = double pulsar                |eps| < 9.29e-09 ; next: prec Mars 1.0e-08; prec Earth 2.2e-08; prec Mercury 2.8e-08
+
+Per-unit-eps signals at the requested v* (for transparency)
+  gauss   v*=    0.1: planet advance [mas/cy per eps]: Mercury 0.00e+00, Venus 0.00e+00, Earth 0.00e+00, Mars 0.00e+00, Jupiter 0.00e+00, Saturn 0.00e+00 ; Moon [muas/yr per eps] 9.42e-26
+  gauss   v*=    1.0: planet advance [mas/cy per eps]: Mercury 0.00e+00, Venus 0.00e+00, Earth 0.00e+00, Mars 1.32e-196, Jupiter 5.25e-55, Saturn 9.85e-25 ; Moon [muas/yr per eps] 6.65e+11
+  gauss   v*=   10.0: planet advance [mas/cy per eps]: Mercury 3.34e+06, Venus 2.75e+08, Earth 2.55e+09, Mars 1.19e+10, Jupiter 4.77e+09, Saturn -2.32e+08 ; Moon [muas/yr per eps] -3.58e+11
+  gauss   v*=  120.0: planet advance [mas/cy per eps]: Mercury -1.26e+11, Venus -3.02e+10, Earth -1.41e+10, Mars -5.17e+09, Jupiter -2.53e+08, Saturn -5.61e+07 ; Moon [muas/yr per eps] -2.54e+09
+  gauss   v*= 1000.0: planet advance [mas/cy per eps]: Mercury -2.56e+09, Venus -5.16e+08, Earth -2.30e+08, Mars -8.08e+07, Jupiter -3.73e+06, Saturn -8.18e+05 ; Moon [muas/yr per eps] -3.66e+07
+  lorentz v*=    0.1: planet advance [mas/cy per eps]: Mercury 4.90e+06, Venus 3.44e+06, Earth 2.92e+06, Mars 2.39e+06, Jupiter 1.29e+06, Saturn 9.53e+05 ; Moon [muas/yr per eps] 3.19e+11
+  lorentz v*=    1.0: planet advance [mas/cy per eps]: Mercury 4.89e+08, Venus 3.42e+08, Earth 2.91e+08, Mars 2.37e+08, Jupiter 1.26e+08, Saturn 9.13e+07 ; Moon [muas/yr per eps] 2.14e+11
+  lorentz v*=   10.0: planet advance [mas/cy per eps]: Mercury 4.08e+10, Venus 2.49e+10, Earth 1.88e+10, Mars 1.22e+10, Jupiter 1.33e+09, Saturn -8.35e+07 ; Moon [muas/yr per eps] -3.50e+11
+  lorentz v*=  120.0: planet advance [mas/cy per eps]: Mercury -9.36e+10, Venus -2.57e+10, Earth -1.25e+10, Mars -4.78e+09, Jupiter -2.47e+08, Saturn -5.54e+07 ; Moon [muas/yr per eps] -2.54e+09
+  lorentz v*= 1000.0: planet advance [mas/cy per eps]: Mercury -2.55e+09, Venus -5.14e+08, Earth -2.29e+08, Mars -8.07e+07, Jupiter -3.73e+06, Saturn -8.18e+05 ; Moon [muas/yr per eps] -3.66e+07
+
+Envelope scan (strongest bound at each v*), 400 log-spaced points 0.1-3000 km/s
+  gauss   v* in [0.1,0.5] km/s: weakest |eps| < 6.14e-01 at v* = 0.177 (Eros flyby vs orbit); strongest 3.98e-11 at v* = 0.496 (LLR perigee)
+  gauss   v* in [0.5,3] km/s: weakest |eps| < 3.37e-09 at v* = 1.02 (GM_E: LLR vs SLR(Ries)); strongest 2.53e-11 at v* = 0.626 (LLR perigee)
+  gauss   v* in [3,300] km/s: weakest |eps| < 3.89e-10 at v* = 7.1 (LLR perigee); strongest 2.23e-12 at v* = 15 (prec Mars)
+  gauss   v* in [300,3000] km/s: weakest |eps| < 8.14e-09 at v* = 2.92e+03 (double pulsar); strongest 1.07e-10 at v* = 301 (prec Mars)
+  lorentz v* in [0.1,0.5] km/s: weakest |eps| < 8.47e-10 at v* = 0.1 (LLR perigee); strongest 8.16e-11 at v* = 0.496 (LLR perigee)
+  lorentz v* in [0.5,3] km/s: weakest |eps| < 4.20e-10 at v* = 0.971 (prec Mars); strongest 4.80e-11 at v* = 2.95 (prec Mars)
+  lorentz v* in [3,300] km/s: weakest |eps| < 1.03e-10 at v* = 293 (prec Mars); strongest 7.09e-12 at v* = 46.8 (prec Mars)
+  lorentz v* in [300,3000] km/s: weakest |eps| < 8.91e-09 at v* = 2.92e+03 (double pulsar); strongest 1.08e-10 at v* = 301 (prec Mars)
+
+u << 1 limit: eps-advance / GR advance = -(2/3) eps (c/v*)^2 for every system (both ~ v^2):
+  Mercury  v*=    3000: d_omega(eps=1)/GR = -6.6538e+03 ; -(2/3)(c/v*)^2 = -6.6574e+03
+  Mercury  v*=   30000: d_omega(eps=1)/GR = -6.6574e+01 ; -(2/3)(c/v*)^2 = -6.6574e+01
+  Earth    v*=    3000: d_omega(eps=1)/GR = -6.6561e+03 ; -(2/3)(c/v*)^2 = -6.6574e+03
+  Earth    v*=   30000: d_omega(eps=1)/GR = -6.6574e+01 ; -(2/3)(c/v*)^2 = -6.6574e+01
+  Mars     v*=    3000: d_omega(eps=1)/GR = -6.6566e+03 ; -(2/3)(c/v*)^2 = -6.6574e+03
+  Mars     v*=   30000: d_omega(eps=1)/GR = -6.6574e+01 ; -(2/3)(c/v*)^2 = -6.6574e+01

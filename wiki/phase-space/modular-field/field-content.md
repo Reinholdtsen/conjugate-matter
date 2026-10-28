@@ -23,6 +23,8 @@ sources:
   - "papers/reciprocity-toy-models.md §2"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §2"
 ---
 
 *The field content of the broken vacuum is the list of fields that the program's geometry leaves in play once the vacuum has chosen a polarization: the ordinary metric, [the momentum graviton X](/wiki/gravity/momentum-graviton), the ten moduli of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) (the dark-energy field τ plus nine more), and matter. [Calc note #5](/wiki/history/documents/debt-1-notes) wrote the list down and marked it partial. The later Debt-1 notes settled what X is: a massive spin-2 field. Whether the nine extra moduli survive as fields, or are removed by [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints) (relations that turn some Goldstone-type fields into derivatives of others), was never worked out. The question is open, and it is not on the [checkpoint](/wiki/history/documents/checkpoint)'s numbered list of open problems.*
@@ -64,7 +66,7 @@ Calc note #5 had posed the X question as a calculation: "expand the generalized 
 2. "**auxiliary** (no derivatives at quadratic order) → integrate out → a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly";
 3. "**ghost** → fatal to the geometric sector."
 
-"Outcomes 1 and 2 both serve the program; only 3 kills." Calc note #6 replaced the question rather than answering it in these terms. Its shift symmetry rules out the second outcome: "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level" (§1; [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). Its no-go and Higgs arguments then give an answer the list did not offer in that form: "Not healthy-by-default, not auxiliary, not necessarily ghost: *massive spin-2, conditionally healthy*" (§5). The curvature expansion itself is not reported in any document. Outcome 2 had been the cheapest route to the shape of the dark-matter gate ("outcome 2 gives it most cheaply", #5 §E); with it gone, the gate comes from integrating out the massive X between [conjugate-matter](/wiki/dark-matter/conjugate-matter) bilinears (#6 §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
+"Outcomes 1 and 2 both serve the program; only 3 kills." Calc note #6 replaced the question rather than answering it in these terms. Its shift symmetry rules out the second outcome: "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level" (§1; [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). Its no-go and Higgs arguments then give an answer the list did not offer in that form: "Not healthy-by-default, not auxiliary, not necessarily ghost: *massive spin-2, conditionally healthy*" (§5). The curvature expansion itself is not reported in any document. Outcome 2 had been the cheapest route to the shape of the dark-matter gate ("outcome 2 gives it most cheaply", #5 §E); with it gone, the gate comes from integrating out the massive X between [conjugate-matter](/wiki/dark-matter/conjugate-matter) bilinears (#6 §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). That route is now disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging the massive X cannot produce the gate (§2), and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## Chat-only: massive X waves
 
@@ -109,3 +111,4 @@ The first sign belongs to positive (Euclidean) metrics. With a Lorentzian metric
 - `papers/broken-born-checkpoint-v2.md` §4, §7, §14 — P4's polarized matter; X's chain and spectrum; the current open list, which does not carry this item.
 - `papers/reciprocity-toy-models.md` §2 — Λ(1) in model I.
 - `HANDOFF.md` §2, §4 — the handoff's open list; the chat-only massive X waves.
+- `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — exchanging the massive X gives no gate; awaiting Paul's ruling.

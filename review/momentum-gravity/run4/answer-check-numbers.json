@@ -1,0 +1,125 @@
+{
+ "issues": [
+  {
+   "quote": "Older eBOSS data then mildly prefer ε ≈ 0.05.",
+   "problem": "\"Mildly\" understates the printed fit. In the record's reading, χ² falls from 26.31 to 1.90 at best ε = 0.0535 (Δχ² = 24.4, about 4.9σ for one parameter). The compressed eBOSS point sits in a sourced 4.9σ tension with Planck, and ε ≈ 0.05 removes it. No source uses the word \"mild\". The conclusion stands: this is not evidence, because the compression assumes a ΛCDM shape, DESI agrees with Planck, and other power-suppressing models also relieve the tension.",
+   "correction": "Older eBOSS compressed data prefer ε ≈ 0.05 strongly (χ² 26.3 → 1.9). Those data sit 4.9σ from Planck, and any suppression near the pivot relieves that tension.",
+   "source": "mg/critic3/c1_hamiltonian_system.out '(5) eBOSS compressed, H reading, v* = 120: matter: chi2(0) = 26.31, best eps = 0.0535 (chi2 = 1.90)'. VDD v3_misc.out 'i v*= 120: chi2(eps=0) = 26.31, best eps = 0.0540 (chi2 = 1.89'. r3_results.json verify-dark-tests-numbers K8: \"[S] arXiv:2311.16377 ... 'a 4.90σ tension'\". verify-dark-tests-derivation new claim: 'other suppression models also relieve the eBOSS tension'.",
+   "severity": "medium"
+  },
+  {
+   "quote": "ε ≈ 3 is excluded at 5–30 km/s, and ε ≈ 2 at 10 km/s and up, by the reionization optical depth and dwarf densities.",
+   "problem": "The ε ≈ 3 exclusion exists only in the force-law reading. In the record's Hamiltonian reading, the critic's rerun prints 'e3: singular' at every v*, and linear theory cannot be interpreted above ε ≈ 2.24–2.29. Elsewhere the draft presents the Hamiltonian reading as 'the record's own reading', so the unqualified statement reads as holding there. The same caveat applies to the pre-registration line 'In fact ε ≳ 2–3 is excluded from 5–10 km/s up': at 5 km/s only the force-law reading excludes. ε ≈ 2 at 10–20 km/s is excluded in both readings, so the corner still narrows.",
+   "correction": "In the force-law reading ε ≈ 3 is excluded at 5–30 km/s; the record's Hamiltonian reading is singular there. In both readings ε ≈ 2 is excluded at 10–20 km/s, by the reionization optical depth and dwarf densities.",
+   "source": "mg/critic3/c2_corner_recheck.out 'Hc v*= 5: ... | e3: singular' (every Hc row) and 'Fc eps=3 v*= 5: ... density proxy 1e9: x9.54 ... tau(ii) = 0.099'. mg/critic3/c4_numbers.out (c): '1 + kappa B = 0 at eps = 2.236–2.293'. critic3.txt Gap 2: 'eps = 3, force law: excluded at v* = 5-30 km/s ... The Hamiltonian reading is singular there'. critic3.txt NEW GAPS LOW: 'The force law carries the exclusions there'.",
+   "severity": "medium"
+  },
+  {
+   "quote": "I checked the Enander–Mörtsell equations against the source.",
+   "problem": "The allowed sources credit this check to the critic-numbers verifier (VCN, [S]). The final critic says twice that it did not recheck the equations. No allowed source records a check by the draft's author. If none was done, the first person turns a single-agent [S] check into an apparent second check.",
+   "correction": "The critic-numbers checker read Enander–Mörtsell eqs. 38–43 in the paper [S]; the final critic did not recheck them.",
+   "source": "critic3.txt Gap 8: '([S] at VCN; I did not recheck)'. critic3.txt DISAGREEMENTS, Vainshtein radius: 'Ruling: VCN, resting on Enander-Mortsell eqs. 38-43 ([S] at VCN; not rechecked by me)'. mg/verify-critic-numbers/u6_c6E_vainshtein.out.",
+   "severity": "medium"
+  },
+  {
+   "quote": "eq. 129, which I checked against the paper",
+   "problem": "The paper was read by the critic-theory verifier (VCT): 'ar5iv text of 2303.04816 retrieved this session (sec. V.1, eqs. 116, 119, 129)'. The final critic tags it '[S, this session]'. No allowed source shows the drafting session fetching the paper. The [S] status is right; the first-person attribution is unsupported.",
+   "correction": "eq. 129, read in the paper [S] by the theory checker",
+   "source": "r3_results.json verify-critic-theory new_claims T9, basis field. critic3.txt LOAD BEARING, Q2 continuous spin: '[T][S, this session; numbers D]'.",
+   "severity": "low"
+  },
+  {
+   "quote": "At the record's gate width it is 3.5×10⁻¹¹ from Mars's perihelion, not 2×10⁻¹¹ from Mercury. The difference is the √2 between gate conventions.",
+   "problem": "The √2 explains the change in the number, not the change from Mercury to Mars. In the other convention (v_a = 120 km/s) Mars was already the binding body at 1.82e-11, with Mercury at 6.37e-11. The interim's 'from Mercury' came from a separate run-2 check against the INPOP15a Mercury data (β < 1.7–2.5e-11). That check was never redone in the record's convention; scaling by v_a² gives 3.4–5e-11, comparable to Mars.",
+   "correction": "…not 2×10⁻¹¹ from Mercury. The number moves by the √2 between gate conventions (Mars gives 1.8×10⁻¹¹ in the other convention). The interim's Mercury figure was a separate INPOP15a check in that convention.",
+   "source": "mg/verify-ordinary-tests-numbers/vot_bounds.out 'v* = 120.0 km/s: prec Mars 1.82e-11; prec Earth 4.04e-11; prec Mercury 6.37e-11' and 'v* = 170.0 km/s: prec Mars 3.5e-11'. run2_result.json program verifier n6: 'INPOP15a criterion 1, 1 sigma : ... beta < 2.5e-11'; 'INPOP15a mean, 1 sigma : ... beta < 1.7e-11'. mg/answer-check-numbers/recheck.out (scaling).",
+   "severity": "low"
+  },
+  {
+   "quote": "|ε| < 8.7×10⁻⁹ for gate widths 0.3–3000 km/s, and 3.5×10⁻¹¹ at the record's gate width",
+   "problem": "The 0.3–3000 km/s range is in the ordinary-tests convention exp(−v²/v_a²). The same sentence's 'record's gate width' uses the record's convention (120 km/s, which is v_a = 170). In the record's convention the scanned range is about v* = 0.21–2120 km/s. At a record-convention 3000 km/s, scaling by v_a² gives about 1.7e-8, but no agent computed it. This also bears on the pre-registration's 'stays below 10⁻⁸'.",
+   "correction": "|ε| < 8.7×10⁻⁹ for v_a = 0.3–3000 km/s in exp(−v²/v_a²) (the record's v* ≈ 0.2–2100 km/s), and 3.5×10⁻¹¹ at the record's v* = 120 km/s (v_a = 170)",
+   "source": "mg/verify-ordinary-tests-numbers/vot_bounds.out 'gauss max bound over [0.3, 3000] km/s = 8.65e-09'. mg/critic3/c4_numbers.out (g): 'ordinary-tests v_a = 120 km/s is v* = 84.85 km/s'. mg/answer-check-numbers/recheck.out: 'record v* = 3000 km/s is v_a = 4243 km/s ... gauss 1.73e-08'.",
+   "severity": "low"
+  },
+  {
+   "quote": "Withdrawn: \"gating χ–χ gravity is excluded by observation.\"",
+   "problem": "This is presented as a quote of what Paul was told, but the interim said 'Gating χ–χ gravity itself is also excluded: cluster dark matter could not hold itself together', and the status update said 'gating χ–χ gravity is excluded'. 'By observation' is the round-2 critic's wording, which Paul never saw.",
+   "correction": "Withdrawn: \"gating χ–χ gravity itself is also excluded\" (the cluster self-binding argument).",
+   "source": "interim.md line 30 and line 42. critic3.txt: \"Round 2's 'gated chi-chi gravity is excluded by observation' is withdrawn\".",
+   "severity": "low"
+  },
+  {
+   "quote": "29 runs, three seeds per case, with the gate about as wide as the dispersion",
+   "problem": "29 is right, but the ε = 0, N = 1000 control has only two seeds (9 cases × 3 + 2 = 29). The gate was as wide as the dispersion (r_g = 1) or 2.5 times wider (r_g = 0.4). No run had a gate narrower than the dispersion.",
+   "correction": "29 runs (three seeds per case; two for the N = 1000 control), with the gate as wide as, or 2.5 times wider than, the dispersion",
+   "source": "mg/corner/runs/log_*.txt, counted in mg/answer-check-numbers/recheck.out: 'eps= 0 r_g= 1 N=1000 reading H: 2 seeds'. r3_results.json corner summary: 'with v* = sigma_0 and 2.5 sigma_0'. corner Q3.",
+   "severity": "low"
+  },
+  {
+   "quote": "Sensitivity: 1–3% of the mass",
+   "problem": "No injection below 2% was run, so the 1% end has no executed source. A 2% clump injection was detected: Xi(v*/2) rose from 0.0852 to 0.2339. A 2% stream was not: Xi fell to 0.0396, S1 went from −0.0485 to −0.0535, and S2 rose only 0.088, within the control errors of 0.04–0.11. Streams first register at 5% (S1 +0.82). So 1–3% describes clumps, not the streams of the founding image.",
+   "correction": "Sensitivity: about 2% of the mass for clumps, about 5% for streams",
+   "source": "mg/corner/injection_test.out, lines 'clumps f = 0.02', 'stream f = 0.02', 'stream f = 0.05'. mg/corner/summary_numbers.out (dS2 errors). corner Q4.",
+   "severity": "low"
+  },
+  {
+   "quote": "making dwarf cores with this force takes ε ≈ 3.6×10³¹ [D, three routes]",
+   "problem": "3.6×10³¹ comes from three independent recomputations of one route, the Born regime: VDD (2.369e-62 cm²/g), VDN (3.559e31) and VCN (3.5588e31). The classical routes VCN also ran give 3.30e31 and 2.37e31, so the routes themselves do not all give 3.6×10³¹.",
+   "correction": "[D, three independent recomputations, Born regime]",
+   "source": "mg/verify-critic-numbers/u5_c6C_born.out 'Born Gt/G = 3.5588e+31; classical (self-consistent log) Gt/G = 3.2990e+31'; '... (C14's choice): Gt/G = 2.3680e+31'. mg/verify-dark-tests-numbers/vscatter.out '3.559e+31'. critic3.txt: 'three independent recomputations'.",
+   "severity": "low"
+  },
+  {
+   "quote": "Every number comes from an executed script with printed output, in `~/.claude/projects/…/7156ee3a…/mg/`. None is in `verify/`, so none is gated yet.",
+   "problem": "This contradicts the draft's own [V] on 37.7 μm, which comes from verify/phase_space_diameter.py: that script is gated, and the final critic reran it. The 3.9e-28 and 2.9e-31 ratios come from the repository script review/wiki-build-checks/debt3a_check.py, which is not gated. Two quoted values come from the literature, not from any script: Enander–Mörtsell's 4.4 kpc–4.4 Mpc window and KK's 10%.",
+   "correction": "Every computed number comes from an executed script with printed output in mg/. The 37.7 μm comes from verify/phase_space_diameter.py, which is gated; the Debt 3a ratios come from review/wiki-build-checks/debt3a_check.py. The round-3 scripts are not in verify/. The literature values (Enander–Mörtsell's window, KK's 10%) are sourced, not computed.",
+   "source": "mg/critic3/c5_record_diameter_script.out 'lambda_X < 37.7 um'. mg/critic3/c3_record_debt3a_check.out. run2_result.json critique: 'Enander–Mörtsell 2013's published window directly excludes 4.4 kpc to 4.4 Mpc at the program's u = 1 (linear theory)'.",
+   "severity": "low"
+  },
+  {
+   "quote": "with λ_X < 37.7 μm [V; the final critic reran `verify/phase_space_diameter.py`]",
+   "problem": "The factor α = 4/3 holds only at background ratio u = 1; the same script gives 57.0 μm at u = 0.5 and 30.8 μm at u = 1.5. The bound also assumes no screening and rests on Lee et al.'s published curve [S]. The final critic writes 'alpha = 4/3 at u = 1', and the interim tagged the bound [V][S]. Dropping u repeats the round-5 lesson. The conclusion is unchanged.",
+   "correction": "V = −(Gm₁m₂/r)(1 + (4/3)e^(−r/λ_X)) at u = 1, with λ_X < 37.7 μm unscreened [V][S]",
+   "source": "mg/critic3/c5_record_diameter_script.out 'for background ratio u (alpha = 4u^2/3 ...): 57.0 um at u = 0.5, 42.5 at 0.8, 30.8 at 1.5'. critic3.txt LOAD BEARING, Q2: 'alpha = 4/3 at u = 1'. interim.md line 17: '[V][S]'.",
+   "severity": "low"
+  },
+  {
+   "quote": "At 120 km/s: about 28 in the Milky Way and about 690 in clusters.",
+   "problem": "Both numbers are the low ends of ranges. Without re-virialization the Milky Way threshold is 28.07–161.2, and with it there is no threshold at all. For clusters the range is 692.8 (crossover) to 798.8, or none. The final critic writes 'at least 28'. The interim gave 28–161 for the Milky Way, and the draft drops that range without listing it under What changed. The low ends are the conservative choice for the conclusion.",
+   "correction": "At 120 km/s: at least 28 in the Milky Way (28–161, or none if the halo re-virializes) and at least 690 in clusters.",
+   "source": "mg/verify-critic-numbers/u2_c5_static_thresholds.out 'MW local ... Q= 4.935: 28.07 / inf | Q=19.739: 127.5 / inf | Q=24.771: 161.2 / inf'; 'cluster core ... Q= 1.097: 152.2 / 798.8'; 'crossover 1/Lambda_g = 692.7594'. critic3.txt Q1: 'at least 28 in the MW'.",
+   "severity": "low"
+  },
+  {
+   "quote": "If this branch screens (open), Solar-System tests are evaded above roughly 0.3–9 pc, and galaxy lensing excludes only 4.4 kpc to 4.4 Mpc.",
+   "problem": "The numbers match their sources (0.264–8.56 pc; 4.4 kpc–4.4 Mpc). But they replace the interim's 'screening windows open somewhere between about 1 pc and 4 kpc', and What changed does not list that. The lensing window is untagged; it is a linear-theory literature value from lensing plus dynamics of elliptical galaxies, at u ≈ 1.",
+   "correction": "Add under What changed: Vainshtein windows go from 'about 1 pc to 4 kpc' to 'roughly 0.3–9 pc up to 4.4 kpc' (coefficient 1 or 15 instead of 2). Tag the lensing window [T][S], linear theory.",
+   "source": "mg/verify-critic-numbers/u6_c6E_vainshtein.out 'Saturn needs lambda > 1.024 pc, Pluto 8.560 pc' (eq. 40) and '0.264 pc, Pluto 2.210 pc' (eq. 41). interim.md line 37. run2_result.json results[0] verifications[1] verdicts[16] corrected_statement.",
+   "severity": "low"
+  },
+  {
+   "quote": "The ordinary-matter envelope stays below 10⁻⁸, and source corrections stay under 3×.",
+   "problem": "The envelope half holds (9.42e-9, in the ordinary-tests convention). 'Under 3×' holds for literature inputs, where the largest correction was the Kramer mass factor (2.467 instead of 2.5). But VON's MICROSCOPE coupling fix changed that bound 3.3× at 10 km/s and 35× at 1 km/s. If the pre-registration meant all corrections, this item is not 'Right'. I could not check its wording, because the pre-registration is outside the allowed sources by design.",
+   "correction": "…and literature-input corrections stay under 3×. The MICROSCOPE coupling correction was 3.3× at 10 km/s and 35× at 1 km/s, but it does not move the centre-of-mass envelope.",
+   "source": "r3_results.json verify-ordinary-tests-numbers O18: 'With K, MICROSCOPE is 3.3x stronger at 10 km/s and 35x stronger at 1 km/s'. O14: 'mass-bias factor of 2.467 instead of 2.5'. mg/verify-ordinary-tests-numbers/vot_topend.out '9.42e-09'.",
+   "severity": "low"
+  },
+  {
+   "quote": "the `[V]` rounding check at `verify/phase_space_diameter.py:383` fails",
+   "problem": "Line 383 holds the m₁ = 0 formula. The rounding check, round(log10(r_V)) == -12, is on line 384. The substance is right: eq. 41 gives 3.82e-12 m, which rounds to 10⁻¹¹.",
+   "correction": "verify/phase_space_diameter.py:383–384 (formula on line 383, check on line 384)",
+   "source": "Repository verify/phase_space_diameter.py lines 383–384. mg/answer-check-numbers/recheck.out 'K = 15 eq.41 palindromic: r_V = 3.819e-12 m; round(log10) = -11'.",
+   "severity": "low"
+  },
+  {
+   "quote": "The gate needs the unconstructed \"X propagator on momentum fibers\", which §14 item 4 lists only for the gate's shape.",
+   "problem": "The final critic names two ways out, the fibre propagator or a non-factorizing four-point structure. The draft drops the second, so Paul would rule on the flag with one alternative missing.",
+   "correction": "The gate needs either the unconstructed \"X propagator on momentum fibers\" (which §14 item 4 lists only for the gate's shape) or a non-factorizing four-point structure.",
+   "source": "critic3.txt NEW GAPS, MEDIUM: \"A gate at v* << c would need the unconstructed 'X propagator on momentum fibers' (#11 sec. 14 item 4, open) or non-factorizing four-point structure.\"",
+   "severity": "low"
+  }
+ ],
+ "checked_count": 108,
+ "overall": "Nothing changes either answer. Almost every number in the draft traces to a printed output, and every 'changed from' statement quotes the interim correctly except the χ–χ withdrawal, which adds 'by observation'.\n\nNumbers that matched their source:\n- the bound 0.057/0.106 (critic3 c1) and its 0.06–0.11 rounding;\n- margins 264×, 6.5e3× and 11.4×, and thresholds 28.07 and 692.8;\n- 4.24 and the minimum of 1;\n- spin factors 2.403e-7 and 3.204e-7;\n- spins 3533 and 4996, and the tower size 10^5421169;\n- ordinary-matter bounds 8.65e-9, 9.42e-9 and 3.5e-11, and the 2923 km/s scan end;\n- Debt 3a ratios 3.9e-28 and 2.9e-31, and the overstatement factor 3.0;\n- 3.56e31 for cores;\n- 29 runs, 43.3 free-fall times and 0.12–0.64 Gyr;\n- the corrected corner edges (c2);\n- Vainshtein figures 1.55–3.82e-12 m and 0.264–8.56 pc;\n- the gate radius, Bullet Cluster gate, validity limits and cluster gate average all reproduce.\n\nThe text the draft cites also checks out: #11 §7 builds X as massive spin-2, §8 has the 'equivalence principle' postulate and the '[D — mechanism]' tag, §14 item 4 is the gate shape item, #13 §2 has 'operates at F ~ c̃' and §5 makes free fall dual rest, notebook §5.2 has the anomalous velocity, the net theorem's word is 'decorative', and flag 19 is the Debt 3a item. The repository is unchanged; git status shows only .claude/.\n\nThree medium issues:\n1. 'Mildly prefer' understates an eBOSS fit that moves χ² from 26.3 to 1.9 and relieves a sourced 4.9σ eBOSS–Planck tension.\n2. The ε ≈ 3 corner exclusion holds only in the force-law reading. The record's reading is singular there.\n3. 'I checked the Enander–Mörtsell equations' goes beyond the sources. They credit the check to VCN, and the final critic says it did not recheck.\n\nThe low issues are listed individually.\n\nNot checked: the pre-registration's predicted values ('I predicted …'), because the pre-registration is outside the allowed sources by design. Also not checked: whether the drafting session did its own checks behind its two 'I checked against the source' claims.\n\nMy script and its output are in /home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/answer-check-numbers/ (recheck.py, recheck.out). 'mg/' in the sources means /home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/."
+}

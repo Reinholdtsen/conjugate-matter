@@ -1,0 +1,14 @@
+anchor (lap - M^2) K1 + K0 = 0: True
+identity (v1.d)^2 K1 = d/dt[-(v1.d)K1] + (v1.d)(v2.d)K1 : True
+spin 1: L(one-sided) - Darwin - d/dt(...) = 0
+massless spin 2: L(one-sided) - d/dt(...) - EIH(O(G) velocity terms, Will 2018 eq. 9 GR values) = 0
+massive normalization: G' = 3*G*alpha/4  (static h00 coefficient 4/3 G' -> alpha G)
+massive spin 2 (Fierz-Pauli, any M): L(one-sided) - d/dt(...) - agent's P8 form = 0
+agent's massive form symmetric under 1<->2: True
+massless: normalized factor = 2*gamma**2 - 1 ; series = 2*v**6 + 2*v**4 + 2*v**2 + 1
+Fierz-Pauli: normalized factor = (3*gamma**2 - 1)/2 ; series = 3*v**6/2 + 3*v**4/2 + 3*v**2/2 + 1
+gamma -> oo ratio massive/massless = 3/4
+gamma_rel^2 - (1 + |v1 - v2|^2) to O(v^2): 0
+T1.T2 - c T1 T2 - m1 m2((u1.u2)^2 - c) = 0
+gamma_PPN = (alpha + 2)/(2*(alpha + 1)) ; at alpha = 4/3: 5/7 ; light-bending ratio (1+gamma) massive/massless at equal Newtonian strength: 3/4
+test-mass U v^2 coefficient: gamma_p + 1/2 -> GR: 3/2 ; gamma = 1/2: 1

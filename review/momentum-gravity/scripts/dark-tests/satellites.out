@@ -1,0 +1,61 @@
+Host model check: v_c(18.11 kpc) model = 310.1 km/s ; Eilers linear fit = 212.0 km/s
+Sgr: |V| = 311.1 km/s at r = 18.11 kpc; model orbit: peri 11.4 kpc (V=438.2), apo 24.4 kpc (V=204.7)
+Fornax: |V| = 155.3 km/s at r = 149.1 kpc (v_r = -42.9); model orbit: peri 87.9 kpc (V=253.3), apo 164.5 kpc (V=135.3)
+Sgr now (~pericentre): V=311.1 km/s, host DM sigma_1D (isotropic Jeans, model) = 178.9 km/s, combined s = 179.3
+   v*:          10      20      30      50      80     120     200     300     500    1000    2000    3000
+   <W>gs:   0.0000  0.0003  0.0010  0.0048  0.0193  0.0608  0.2110  0.4255  0.7025  0.9099  0.9763  0.9893
+   <W>rat:  0.0024  0.0091  0.0195  0.0486  0.1062  0.1947  0.3686  0.5412  0.7459  0.9152  0.9767  0.9894
+Sgr apocentre: V=204.7 km/s, host DM sigma_1D (isotropic Jeans, model) = 163.7 km/s, combined s = 164.2
+   v*:          10      20      30      50      80     120     200     300     500    1000    2000    3000
+   <W>gs:   0.0001  0.0008  0.0027  0.0121  0.0448  0.1238  0.3377  0.5643  0.7951  0.9415  0.9848  0.9932
+   <W>rat:  0.0042  0.0155  0.0323  0.0772  0.1593  0.2742  0.4729  0.6436  0.8189  0.9439  0.9850  0.9933
+Fornax now: V=155.3 km/s, host DM sigma_1D (isotropic Jeans, model) = 82.4 km/s, combined s = 83.3
+   v*:          10      20      30      50      80     120     200     300     500    1000    2000    3000
+   <W>gs:   0.0003  0.0025  0.0084  0.0380  0.1346  0.3151  0.6085  0.7900  0.9158  0.9779  0.9944  0.9975
+   <W>rat:  0.0094  0.0340  0.0688  0.1551  0.2940  0.4572  0.6753  0.8139  0.9204  0.9783  0.9944  0.9975
+Fornax pericentre: V=253.3 km/s, host DM sigma_1D (isotropic Jeans, model) = 103.3 km/s, combined s = 104.0
+   v*:          10      20      30      50      80     120     200     300     500    1000    2000    3000
+   <W>gs:   0.0000  0.0004  0.0014  0.0073  0.0352  0.1209  0.3714  0.6135  0.8298  0.9532  0.9880  0.9947
+   <W>rat:  0.0038  0.0144  0.0306  0.0761  0.1629  0.2874  0.5017  0.6779  0.8457  0.9546  0.9881  0.9947
+Sgr in an isothermal host (v_c = 212.0 km/s, sigma_1D = 149.9): peri 14.7 kpc (V=339.9), apo 46.8 kpc (V=106.8)
+   <W>gs  now:   0.0000  0.0003  0.0010  0.0046  0.0195  0.0656  0.2357  0.4648  0.7353  0.9223  0.9797  0.9909
+   <W>rat now:   0.0025  0.0096  0.0207  0.0519  0.1139  0.2091  0.3932  0.5702  0.7705  0.9262  0.9800  0.9910
+   <W>gs  apo:   0.0002  0.0018  0.0059  0.0250  0.0851  0.2080  0.4661  0.6791  0.8600  0.9616  0.9902  0.9956
+
+Translated limits (eps_max = beta_limit/<W>), Gaussian gate:
+   v*   | Sgr (0.10, peri) | Fornax (0.4, peri) | Fornax (0.4, now) | rational: Sgr  Fornax-peri
+     10 |         2882     |         8617      |         1310     |      39.51     106.2
+     20 |        357.4     |         1037      |        162.5     |      10.37     27.87
+     30 |        104.6     |        290.4      |        47.87     |      4.841     13.05
+     50 |        21.87     |         54.7      |        10.53     |      1.927     5.257
+     80 |        5.118     |        11.38      |        2.971     |     0.8777     2.455
+    120 |        1.524     |        3.308      |        1.269     |     0.4783     1.392
+    200 |       0.4243     |        1.077      |       0.6574     |     0.2543    0.7974
+    300 |       0.2151     |        0.652      |       0.5063     |     0.1754    0.5901
+    500 |        0.136     |        0.482      |       0.4368     |     0.1298     0.473
+   1000 |       0.1084     |       0.4196      |        0.409     |      0.108     0.419
+   2000 |       0.1021     |       0.4048      |       0.4022     |      0.102    0.4048
+   3000 |       0.1009     |       0.4022      |        0.401     |     0.1009    0.4021
+
+Bullet Cluster: gate factor between subcluster DM and main-cluster DM (V = 2600 km/s)
+  dispersions Barrena (1250, 210): s = 1268
+    v*=  120: <W> inter-cluster gauss 1.041e-04  rational 5.104e-03 | within main (pairs, s=sqrt2*1250) gauss 3.107e-04 rational 8.187e-03
+    v*=  300: <W> inter-cluster gauss 1.666e-03  rational 2.867e-02 | within main (pairs, s=sqrt2*1250) gauss 4.684e-03 rational 4.315e-02
+    v*= 1000: <W> inter-cluster gauss 6.497e-02  rational 2.077e-01 | within main (pairs, s=sqrt2*1250) gauss 1.194e-01 rational 2.656e-01
+    v*= 3000: <W> inter-cluster gauss 5.683e-01  rational 6.455e-01 | within main (pairs, s=sqrt2*1250) gauss 6.395e-01 rational 6.997e-01
+    Farrar-Rosen force 0.4 x gravity would need eps = 3.84e+03 at v*=120 (gauss) 
+    Farrar-Rosen force 1.2 x gravity would need eps = 1.15e+04 at v*=120 (gauss) 
+  dispersions DS+ 2022 (1163, 472): s = 1255
+    v*=  120: <W> inter-cluster gauss 1.028e-04  rational 5.111e-03 | within main (pairs, s=sqrt2*1163) gauss 3.853e-04 rational 9.376e-03
+    v*=  300: <W> inter-cluster gauss 1.651e-03  rational 2.873e-02 | within main (pairs, s=sqrt2*1163) gauss 5.778e-03 rational 4.883e-02
+    v*= 1000: <W> inter-cluster gauss 6.513e-02  rational 2.083e-01 | within main (pairs, s=sqrt2*1163) gauss 1.402e-01 rational 2.898e-01
+    v*= 3000: <W> inter-cluster gauss 5.703e-01  rational 6.469e-01 | within main (pairs, s=sqrt2*1163) gauss 6.742e-01 rational 7.258e-01
+    Farrar-Rosen force 0.4 x gravity would need eps = 3.89e+03 at v*=120 (gauss) 
+    Farrar-Rosen force 1.2 x gravity would need eps = 1.17e+04 at v*=120 (gauss) 
+
+Internal gate factor for DM pairs in a system of 1D dispersion sigma (pair dispersion sqrt2*sigma), v*=120 and 30:
+  sigma=   3.7 Segue-1-like (dagger)     v*=120: gauss 0.9972 rational 0.9972 | v*=30: gauss 0.9560 rational 0.9575
+  sigma=  10.0 classical dSph (dagger)   v*=120: gauss 0.9795 rational 0.9799 | v*=30: gauss 0.7401 rational 0.7761
+  sigma=  30.0 Debt-3a dwarf core        v*=120: gauss 0.8381 rational 0.8542 | v*=30: gauss 0.1925 rational 0.3443
+  sigma= 155.0 Debt-3a MW halo           v*=120: gauss 0.1107 rational 0.2550 | v*=30: gauss 0.0025 rational 0.0296
+  sigma=1000.0 cluster                   v*=120: gauss 0.0006 rational 0.0124 | v*=30: gauss 0.0000 rational 0.0009

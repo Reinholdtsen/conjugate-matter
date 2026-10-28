@@ -27,8 +27,10 @@ below gives their paths.
   - #9 `broken-born-program-v1.md` — superseded by #11.
   - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
   - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
+  - `velocity-gated-gravity.md` — the momentum-gravity note (2026-10-28): whether the velocity-clumping obituary is premature, and whether momentum gravity is a relative-velocity perturbation of gravity. Computed and verified by independent agents; not reviewed. Its record is `review/momentum-gravity/`.
+  - `gate-mechanism.md` — whether exchanging X produces #11 §8's dark-matter gate (2026-10-28). Two derivations, the second blind; not reviewed. Its record is `review/momentum-gravity/`; its result is flag 55.
 - [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
-- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); arbitration and audit scripts go here.
+- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`.
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
@@ -82,6 +84,22 @@ only as a task needs them.
     section condition requires integrability, P5's mirror vacuum has no global form;
   - flags 45–54 and a flag-27 addendum in `review/wiki-build-flags.md`. Flag 49: the dual
     Einstein–Hilbert term behind #11 §10's a⁻⁶ step is not derived.
+- 2026-10-28: the momentum-gravity notes (`notes/velocity-gated-gravity.md`, `notes/gate-mechanism.md`;
+  Paul's question of 2026-10-26; not reviewed). Their results:
+  - the clumping obituary is not premature. It tested the program's contact-range gate on all three branches,
+    and it says clumping is required nowhere, not that it is impossible;
+  - between ordinary bodies, in the aligned vacuum (u = 1) and unscreened, X is a Yukawa term of range below
+    37.7 μm. Its dependence on relative velocity is the O(v²/c²) spin-2 factor, 1 + 2.40×10⁻⁷ at 120 km/s, not a
+    gate. A relative-velocity gate acting on all bodies is bounded to |ε| < 8.7×10⁻⁹ (gate widths
+    v* = 0.2–2100 km/s);
+  - a long-range attraction among χ gated in relative velocity (Paul's picture) is outside the record: no field
+    carries it. At v* = 120 km/s the Lyman-α forest allows ε < 0.057–0.106 (record's reading; a compressed
+    estimate), clumping needs ε > 1 at every gate width, and cores would need G̃/G ≈ 3.6×10³¹, so it would be
+    decorative. Narrow gates (v* < 30 km/s) are narrowed, not closed;
+  - #11 §8's gate mechanism is not derived: exchanging §7's X gives a polynomial of degree two in k² with
+    velocity scale c. Flag 55 suggests [P] for the gate and μ, [O] for the mechanism; it awaits Paul's ruling,
+    and #11 is unchanged until then;
+  - flags 55–58 in `review/wiki-build-flags.md`.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -101,6 +119,12 @@ only as a task needs them.
   - derive the dual Einstein–Hilbert term from S_H (flag 49);
   - fit V₀[1 + cos(τ/f)] plus Ω_K to full CMB, BAO and supernova likelihoods;
   - Artigas, Mielczarek and Rovelli 2019 (a compact phase space makes the universe recollapse) is a lead.
+- Open from the momentum-gravity notes, not queued:
+  - Paul's ruling on flag 55 (the gate's tag); and, open either way, whether row 3's island discriminant
+    survives;
+  - a full Lyman-α likelihood and a nonlinear simulation of narrow gates, if the long-range variant is pursued;
+  - whether the Hamiltonian reading is the right classical limit for a long-range gate;
+  - whether the program's bimetric branch has Vainshtein screening at all (flag 57).
 
 ## The gate
 

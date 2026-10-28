@@ -1,0 +1,4 @@
+massive (X) : factor = (-beta**2 - 2)/(2*(beta**2 - 1)) ; series: 1 + 3*beta**2/2 + O(beta**4)
+massless : factor = (-beta**2 - 1)/(beta**2 - 1) ; series: 1 + 2*beta**2 + O(beta**4)
+rest-frame ratio massive/massless = 4/3
+at v = 120 km/s: massive factor - 1 = 2.403e-07

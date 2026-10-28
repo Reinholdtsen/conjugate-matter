@@ -1,0 +1,164 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "C1",
+   "verdict": "confirmed",
+   "reason": "The Jeans anchor reproduces two ways. A different formulation of the same linearized problem (eigenvalues of the real generator L = kappa^-1 v_z (kappa^2 - K)) recovers both the Jeans rates and the agent's gated growth rates. The swindle caveat is stated correctly.",
+   "independent_check": "v01_jeans_mehler.py, direct quadrature of Int p0 u^2/(u^2+g^2) (no erfc identity) vs closed form: 'Jeans kappa=0.5: Gamma(quadrature)=0.687201925113  Gamma(closed form)=0.687201925113'; 'kappa=0.01: ... 0.999850018741'. v07_dynamic_basis.py, generator-eigenvalue (van Kampen matrix) method at gt=0: 'kappa=0.5: closed-form Gamma=0.687202; L-matrix: [+0.0000+0.6872i]', 'kappa=0.8: 0.303590; [+0.3036i]', 'kappa=0.95: 0.078868; [+0.0789i]'."
+  },
+  {
+   "claim_id": "C2",
+   "verdict": "confirmed",
+   "reason": "First-order perturbation theory gives the near-threshold rate exactly as the agent printed. There is no growth on the stable side in sectors m=0,1,2, and exactly one purely growing mode just past onset. The parity/energy argument is standard and correct for the onset. It covers only the first crossing; beyond later sector thresholds the spectrum changes (see C12).",
+   "independent_check": "v12_slope.py: Gamma = sqrt(L0)(1-kappa^2/L0)/(pi F0), F0 = Int phi0(v_z=0)^2. Anchor 'gt=0: slope = 0.79788 (sqrt(2/pi) = 0.79788)'; 'C2 MW gt=10: Lambda_0=2.30503, F0=0.55041, slope = 0.8780; Gamma at kappa^2=0.999 L0: 8.7802e-04' (agent 8.779e-4). v08_dyn_mw.py (generator eigenvalues, m=0,1,2): 'kap2=1.001*L0 | m=0: n_grow=0 | m=1: n_grow=0 | m=2: n_grow=0'; 'kap2=2.2 | m=0: n_grow=1 pure=[+0.00000+0.03984i] | m=1: 0 | m=2: 0'; 'kap2=2.4 | m=0: n_grow=0 ...'. (My L-matrix gives 0.00091 at 0.999 L0: resolution-limited for so slow a mode; the perturbative value is the reliable one.)"
+  },
+  {
+   "claim_id": "C3",
+   "verdict": "confirmed",
+   "reason": "Brute-force 1D Nystrom (no Mehler formula) reproduces the closed form and all sector values to 7 digits. Lambda_0 agrees across three methods of my own: Cartesian secular equation from numerically diagonalized 1D kernels, 3D tensor-grid power iteration, and an l=0 Fourier-space operator. The gate-convention mapping matches #1 section 3 (k = m v_rel/2) and section 5.1 (v* = sqrt2 mu/m), and flag 17.",
+   "independent_check": "v01: ' 0.2500 | 8.4195952e-01  8.4195952e-01 | 0.0557281  0.0557281 | 4.692080e-02 2.614806e-03'; ' 1.2917 | 1.4927947e-01  1.4927947e-01 | 0.4695228 ...'; ' 8.3330 | 1.4436654e-03  1.4436654e-03 | ... 1.280502e-03 1.135780e-03'. v02_static_gauss.py: ' 1.2917  10.0  2.30503421 ... | 2.30503422 (10 it)'; ' 1.2917  281.0  42.64196804 ... | 42.64196804 (10 it)'; 'gt=0 ... 0.99999997 ... | 1.00000000'. v04_static_kspace.py (Fourier space, K = B^dag B): 'r=1.2917: Lam_g(kspace)=1.4927947e-01 closed=1.4927947e-01; top(gt=0)=1.00000000; top(gt=10)=2.30503422'."
+  },
+  {
+   "claim_id": "C4",
+   "verdict": "confirmed",
+   "reason": "All limit values reproduce: rational gates by the Fourier-space method, a different method from the agent's radial Nystrom, and the broad-gate case by the secular solver. The slow approach of the (1+s^2/2)^-2 gate to sqrt(pi) is real. For (1+s^2/2)^-1 I also find the limit Lambda r^2 -> 1.307. The stream width matches the numerical eigenvector.",
+   "independent_check": "v04: 'rat2 r=8.333: Lam_g=1.736348e-03 ... Lam_g r^3=1.00471'; 'rat2 r=16.0: ... 1.22686'; 'rat1 r=8.333: Lam_g=1.537734e-02 ... r^3=8.89785; r^2=1.06779'; 'rat1 r=16.0: ... 18.76358; 1.17272'; 'rat2 r=32/64/128: Lam_g r^3=1.40562/1.53151/1.61658 (claimed limit sqrt(pi)=1.77245)'; 'rat1 limit: Lam r^2 -> 1.30685'. v02: ' 0.2500  1.0  1.83983291  0.004737  0.99951  1.7099'. v18_stream_width.py: 'r=8.3333: width numerical=0.3362, analytic=0.3362, sqrt(v*/sigma)=0.3464, 3D rms=0.5823'."
+  },
+  {
+   "claim_id": "C5",
+   "verdict": "confirmed",
+   "reason": "Every critical gt, Gaussian and rational, reproduces to the printed precision with independent solvers: a Cartesian secular solver for the Gaussian gate, and a Fourier-space Schur complement for the rational gate.",
+   "independent_check": "v03_crit_tables_gauss.py: '  r= 0.2500: 0.1193, 1.19, 4.042, 10.69, 28.51'; '  r= 1.2917: 0.8809, 7.818, 24.45, 62.2, 162.8'; '  r= 4.0000: 18.09, 138.3, 378.1, 904.2, 2302'; '  r= 8.3330: 157.3, 1148, 2938, 6844, 1.724e+04'. v05_crit_tables_rat.py: '  r= 0.2500: 0.1352, 1.346, 4.563, 12.06, 32.15'; '  r= 1.2917: 1.025, 9.384, 29.95, 76.91, 202.1'; '  r= 4.0000: 14.48, 119.7, 351, 865.1, 2230'; '  r= 8.3330: 106.7, 836, 2323, 5583, 1.423e+04'."
+  },
+  {
+   "claim_id": "C6",
+   "verdict": "corrected",
+   "reason": "All numbers reproduce from 3a's inputs (g = 2483 GeV^-2), and the sigma-not-v* point is right. The parenthetical '3a is conservative there' (MW) points the wrong way. At MW the linearized criterion needs 0.33 times 3a's coupling, so 3a's narrow form overstates the shortfall by 3x (2.9e-31 vs 8.7e-31). For an obituary that is the non-conservative direction. 3a is conservative in the cluster (x5.3) and the dwarf (x1.19).",
+   "independent_check": "v09_units.py: 'g = sqrt(pi sigma0/m^2) = 2482.8 GeV^-2'; 'dwarf: 3a eps_gate=2.725e-37 GeV, m min(sig,v*)^2=7.010e-10 GeV, 3a ratio=3.888e-28; linearized g n Lam_g/(m sig^2)=3.273e-28'; 'MW: 3a eps_gate=3.212e-39 ... 3a ratio=2.864e-31; linearized 8.697e-31'; 'cluster: 3a ratio=7.998e-35; linearized 1.515e-35'; 'required-g ratio exact/3a-narrow at r=1.2917: 0.3293'; 'r=8.3330: 5.2779'; 'r=32.0000: 68.1376 ... (2pi)^-1.5 r^2 = 65.0175'; 'r=0.2500: ... exact/3a-broad 1/Lam_g: 1.1877'.",
+   "corrected_statement": "For W = exp(-s^2/2) the ratio of required g (linearized over 3a's narrow form) is (2pi)^-1.5/(r Lambda_g): 0.33 at MW conditions, so 3a's narrow form overstates the MW shortfall by about 3x (non-conservative for the obituary). It is 5.3 at r = 8.33, where 3a understates it (conservative). Recomputed shortfalls are 3.27e-28 (dwarf), 8.7e-31 (MW) and 1.52e-35 (cluster); 3a's verdict is unchanged."
+  },
+  {
+   "claim_id": "C7",
+   "verdict": "confirmed",
+   "reason": "Exact. With f and eps uniform in x, df/dt = -grad_p eps . grad_x f + grad_x eps . grad_p f = 0 by direct substitution, for any range of force. Scope caveat (see missed issues): this concerns k = 0 only. At finite k, density-free transverse-velocity-dipole modes (m = +-1) do grow once gt Lambda_g q > (k/k_J)^2. They are the model's nearest analog of streams, so C7 alone does not show that velocity structure cannot grow.",
+   "independent_check": "Analytic substitution into the Vlasov equation (no numbers). The finite-k counterpart was checked numerically in v08/v14 (see C8, C12)."
+  },
+  {
+   "claim_id": "C8",
+   "verdict": "corrected",
+   "reason": "All printed numbers reproduce. The characterization is incomplete. The l>=1 sectors are 'never first at onset' (true), but they become unstable for gt Lambda_g q^l > (k/k_J)^2. The m = +-1 gate-only mode carries no density perturbation (Int delta f = 0). It is a transverse-velocity dipole of the distribution's core, modulated along k (layered counter-streaming sheets, Weibel/filamentation-like), purely growing between the l=1 and l=2 sector thresholds. It is often the fastest mode beyond the first odd threshold. 'The longest wavelength is the most unstable' holds for the static threshold, not for growth rates, which are non-monotonic in k.",
+   "independent_check": "v03: 'dwarf ... 1/Lambda_g=1.188', 'MW ... 6.699', 'cluster ... 692.8'. v02: ' 1.2917  100.0  15.63317154  3.511550  0.84948  1.3022'; ' 4.0000  10000.0  107.74211203  65.508183  0.50188  0.8311'; ' 8.3330  10000.0  14.54854857  11.487313  0.35607  0.7648'. Missed modes, v08: 'C12 gt=320 | m=0: trav=[+1.10611+0.17435i] | m=1: pure=[+0.00000+0.25937i]'; 'gt=56.14 kap2=3 | m=0: trav=[+0.75879+0.07542i] | m=1: pure=[+0.00000+0.19882i]'. Analytic anchor, v14_m1_anchor.py: 'kappa^2=19.7392 gt=283.0: mu1=19.8361, first-order Gamma=0.01041, L-matrix (v08) = 0.01041'. Cluster, v11_cluster.py: 'm=1 kap2=4.3865 gt=5858.0: ... [+0.00000+0.03293i]' vs 'm=0 ... [+0.06975+0.01517i]'. Non-monotonic Gamma(k), v13_mw_kscan.py gt=56.14: 'kappa^2=5.5: m=0 0.4460', '8.0: 0.1743', '9.0: 0.0163'; v08 kappa^2=3: no m=0 purely growing root.",
+   "corrected_statement": "The gate adds two classes of modes. (a) m=0 density lumps of a velocity-selected (co-moving) population; their static threshold is easiest at the longest wavelength, though growth rates are non-monotonic in k. (b) Density-free velocity-anisotropic modes: the l>=1 sectors (eigenvalues (G~/G) Lambda_g q^l) are never first at onset, but are unstable whenever (G~/G) Lambda_g q^l > (k/k_J)^2. The m=+-1 transverse-velocity-dipole mode is purely growing between the l=1 and l=2 thresholds and outgrows the gravity-coupled mode beyond the first odd threshold (MW: 0.259 vs 0.174 per t_ff at G~/G=320, (k/k_J)^2=2pi^2; 0.199 vs 0.075 at 56.14, 3)."
+  },
+  {
+   "claim_id": "C9",
+   "verdict": "confirmed",
+   "reason": "Bound, overlap and dwarf factors reproduce. Also for G~/G <= 1: gt Lambda_g q < 1 <= Q, so the gate-only m=+-1 modes cannot fit either (in dwarfs they need G~/G >= 23.4 even without re-virialization).",
+   "independent_check": "v02: ' 1.2917  1.0  1.11388108  0.063158  0.99850  1.6969 | 1.11388111 | 1.149279'. v03: 'dwarf: r=0.2500, Lambda_g=8.419595e-01, ... <W>(quad)=8.380525e-01, closed (1+2r^2)^-1.5=8.380525e-01, Lam_g/<W>=1.0047'. v17_m1_thresholds.py: 'dwarf ... Q=1.0966: m=+-1 threshold no-revir gt=23.37, revir gt=inf'."
+  },
+  {
+   "claim_id": "C10",
+   "verdict": "confirmed",
+   "reason": "All margins, critical couplings (Gaussian and rational, with and without the agent's re-virialization model), caps and local scales reproduce. The re-virialization weight is the agent's model assumption, correctly flagged medium. Within the same model the m=+-1 modes are never first: MW cap Lambda_g q/<W> = 0.633 means never; in the cluster they need G~/G = 1776 > 798.8.",
+   "independent_check": "v03.out: 'dwarf ... Q=1.0966: no-revir gt_c=0.1152; revir gt_c=inf', 'Q=4.3865: 4.026; inf'; 'MW ... Q=4.9348: 28.07; inf', 'Q=19.7392: 127.5; inf'; 'cluster ... Q=1.0966: 152.2; revir 798.8', 'Q=4.3865: 2929; inf'; 'MW solar circle: lambda_J=40.813 kpc, Q=24.7721, no-revir gt_c=161.3'. v05.out (rational): 'Q=1.0966: no-revir 0.1306'; 'MW Q=4.9348: 34.46', '19.7392: 158.2', '24.7714: 200.2'; 'cluster Q=1.0966: 103.3, revir 643.1', 'Q=4.3865: 2315, revir inf'. v09: 'dwarf: t_ff=25.92 Myr lambda_J=4.996 kpc r_c=2.385 kpc t_cross=77.7 Myr'; 'MW: t_ff=40.98 Myr lambda_J=40.812 kpc'; 'cluster: t_ff=149.62 Myr lambda_J=961.449 kpc r_c=459.058 kpc t_cross=448.9 Myr'; '(lambda_J/R0)^2 = 24.7714'; 'margins: (pi/3)^2=1.0966 (2pi/3)^2=4.3865 pi^2/2=4.9348 2pi^2=19.7392'; 'Lam_g/<W> at r=64: 2.76341'. v17: 'MW: cap Lambda_g q/<W> = 0.6330'; 'cluster ... Q=1.0966: m=+-1 no-revir gt=856.5, revir gt=1776'."
+  },
+  {
+   "claim_id": "C11",
+   "verdict": "corrected",
+   "reason": "The listed purely growing rates reproduce: MW, dwarf, cluster at gt=304.4 and 1598. Three 'fastest' statements are wrong because the search was confined to the purely growing m=0 root at a few kappa^2. (i) At gt=280.7 the MW maximum is 0.880/t_ff at kappa^2 ~ 26 (46.6 Myr, 0.213 t_orb), not 0.778 at 30; the agent's k-scan skipped 19.7 < kappa^2 < 30. (ii) In the cluster at gt=1522 the fastest mode is an m=0 travelling pair, Gamma = 0.0296 (5.05 Gyr, 11.3 t_cross), not the purely growing 0.01885 (7.9 Gyr). (iii) At Q=4.39, gt=5858 there are growing modes: m=+-1 purely growing 0.0329 (4.5 Gyr, 10.1 t_cross) and m=0 travelling 0.0152. 'No purely growing mode exists' holds only for m=0. The conclusion that phase mixing wins in clusters stands (5-11 t_cross). The near-threshold coefficient is not universal: the threshold slope is 1.50 at MW gt=56.14.",
+   "independent_check": "v08: 'C11 gt=56.14 kap2=pi^2/2 | m=0: pure=[+0.00000+0.44211i]' (same on FINE panels); 'gt=280.7 kap2=pi^2/2 | m=0: [+0.56621i, +0.36596i] | m=2: [+0.35690i]'; 'kap2=30: [+0.77837i]'; 'gt=255 kap2=2pi^2: [+0.68656i]'. v16_dwarf_and_peak.py: 'dwarf gt=0.2304: Gamma = 0.07067 (claimed 0.07069)'; 'dwarf gt=1.152: Gamma = 0.50992'; 'MW gt=280.7 kappa^2=25.0: 0.8789', '26.0: 0.8801', '27.0: 0.8683'; 'max ~ 0.8801 at kappa^2=26.0 -> e-fold 46.6 Myr = 0.213 t_orb'. v11: 'm=0 kap2=1.0966 gt=304.4: [+0.00000+0.06567i]'; 'gt=1522.0: n_grow=13 top: [+0.41631+0.02962i, ...]'; 'gt=1598.0: [+0.46987+0.02740i, ..., +0.00000+0.02721i]'; 'm=0 kap2=4.3865 gt=5858.0: [+0.06975+0.01517i, ...]'; 'm=1 kap2=4.3865 gt=5858.0: [+0.00000+0.03293i, ...]'. v12: 'cluster gt=1598: Lambda_0=2.55530 ... slope 0.4545' (consistent with 0.447 at 1% detuning); 'MW gt=56.14: ... slope 1.5035'. v09: conversions (92.7, 72.4, 52.6, 59.7, 2277.7, 5498.8, 7937.5, 366.6, 50.8 Myr; t_orb 219.0 Myr).",
+   "corrected_statement": "MW, Gaussian gate, local model: e-folding times are 92.7 Myr (G~/G=56.14, Q=4.93) and 72.4 Myr (280.7). At G~/G=280.7 the fastest mode over k^2 >= Q is 0.880/t_ff at (k/k_J)^2 ~ 26 (46.6 Myr, 0.21 solar orbits), and stronger gating is faster still (see C12). Cluster core: Q=1.10 gives 2.28 Gyr (304.4; 5.1 t_cross), 5.05 Gyr (1522; fastest is an m=0 travelling mode, 11.3 t_cross) and 5.5 Gyr (1598; 12.2 t_cross). Q=4.39, G~/G=5858 gives 4.5 Gyr (an m=+-1 purely growing mode; 10.1 t_cross). Phase mixing wins in clusters."
+  },
+  {
+   "claim_id": "C12",
+   "verdict": "refuted",
+   "reason": "The m=0 numbers reproduce. The conclusion does not. (a) Past the odd threshold, the gate-only m=+-1 sector develops its own purely growing mode, which an analytic first-order anchor confirms and which outgrows the m=0 travelling mode. The agent's off-axis search excluded the imaginary axis (Re w >= 0.01), and odd_softening.py tracked only the m=0 root. So 'no purely growing mode' at (56.14, 3) is false for the full system. (b) The collapse is a dip, not a ceiling. At fixed k the fastest rate recovers as gt grows (1.22 at gt=1000, 1.53 at 5000, kappa^2=2pi^2), with dips at each sector threshold gt_l = kappa^2/(Lambda_g q^l) (l=2 at gt~600; l=3 at gt~319 for kappa^2=pi^2/2). 'Strong gating does not give fast growth: fastest about 0.78 per t_ff' is wrong.",
+   "independent_check": "v08 (m=0 matches): 'gt=240: [+0.76660i]', '272: [+0.46906i]', '277: [+0.34000i]', '280.7: [+0.15902i]', '283/290/320: m=0 pure=[]', 'gt=320 m=0 trav=[+1.10611+0.17435i]', 'gt=100 kap2=2 m=0 [+0.39424i, +0.25927i], m=1 trav=[+0.96895+0.03391i] (FINE)'; m=+-1: 'gt=283 m=1 pure=[+0.01041i]', 'gt=290 [+0.06187i]', 'gt=320 [+0.25937i]', '56.14, kap2=3: m=1 pure=[+0.19882i]'. v14 anchor: 'gt=283.0: first-order Gamma=0.01041, L-matrix = 0.01041'; 'gt=290.0: 0.06156 vs 0.06187'. v10_mw_strong.py (kappa^2=19.7392): 'gt=400: m=1 +0.6221i'; 'gt=600: m=0 +0.0331i' (dip at l=2 threshold 599.8); 'gt=1000: m=0 +0.0000+1.2222i'; 'gt=2000: m=1 +1.1832i'; 'gt=5000: m=0 +0.0000+1.5259i'; kappa^2=4.9348: 'gt=320: fastest m=1 Gamma=0.0041' (dip at l=3 threshold), 'gt=400: m=1 0.3829', 'gt=600: m=1 0.5603'.",
+   "corrected_statement": "Past the parity-odd (l=1) threshold (G~/G)_odd = (k/k_J)^2/(Lambda_g q) (281.6 at MW, (k/k_J)^2 = 2pi^2), the gravity-coupled m=0 purely growing mode turns into a slow travelling pair (1.106+0.174i at 320). The gate-only m=+-1 transverse-velocity-dipole mode then becomes purely growing (0.010, 0.062, 0.259 per t_ff at 283, 290, 320) and dominates. The fastest rate at fixed k dips at each sector threshold (G~/G) = (k/k_J)^2/(Lambda_g q^l) and recovers between them, rising to 1.2-1.5 per t_ff at G~/G = 1000-5000. Strong gating does give faster growth."
+  },
+  {
+   "claim_id": "C13",
+   "verdict": "corrected",
+   "reason": "Numbers reproduce and the conclusion (the classicality theorem does not carry over) is right. One wording error: the mean-field energy per particle G~ M m/R is proportional to m. What is independent of m at fixed rho is its ratio to m sigma^2 (equal to 3 G~/G for the King core by construction).",
+   "independent_check": "v09: 'r_c=2.385 kpc, M(<r_c)=1.4974e+09 Msun'; 'G M m/r_c = 2.1029e-09 GeV; contact g n = 2.7252e-37 GeV; ratio=7.717e+27; m sigma^2=7.0097e-10 GeV'; 'N_occ dwarf: 3.1935e-25'; 'N_occ MW: 9.2618e-28'.",
+   "corrected_statement": "For a 1/r force the mean-field energy per particle, ~G~ M m/R, scales with m like the kinetic energy m sigma^2. Their ratio is set by the mass density and is independent of m, so collective behaviour is available to classical particles of any mass."
+  },
+  {
+   "claim_id": "C14",
+   "verdict": "confirmed",
+   "reason": "Rutherford numbers reproduce. Using v = 30 km/s (the 1D dispersion) rather than the mean relative speed (67.7 km/s) overstates sigma_T by about 26x. That is immaterial at 60 orders of magnitude.",
+   "independent_check": "v09: 'Rutherford: b90=1.8508e-47 m, sigma_T/m=5.3517e-62 cm^2/g; G~/G for 30 cm^2/g = 2.3676e+31'; '(at mean relative speed 67.7 km/s: sigma_T/m=2.063e-63 cm^2/g)'."
+  },
+  {
+   "claim_id": "C15",
+   "verdict": "confirmed",
+   "reason": "N and the relaxation ratio reproduce. The free-energy Hessian identity is standard algebra. The (G~/G) Lambda_g distortion is an uncomputed scaling, as the agent says.",
+   "independent_check": "v09: 'N=2.3861e+67, lnN=155.1'; 't_relax/t_cross ~ N/(8 lnN) = 1.9225e+64'."
+  },
+  {
+   "claim_id": "C16",
+   "verdict": "confirmed",
+   "reason": "Conversions reproduce, and the record numbers match the source. papers/phase-space-diameter.md section 8.2 gives 'lambda_X < 37.7 um, M_X c^2 > hbar c/(37.7 um) = 5.2 meV' and '57.0 um at u = 0.5'. #11 section 7.5 gives 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X'. The gate-mechanism page says no source relates m_phi to M_X.",
+   "independent_check": "v09: 'lambda_X/1kpc = 1.2218e-24; hbar c/1kpc = 6.3949e-27 eV; hbar c/37.7um = 5.2341 meV; ratio=8.1848e+23'. Read papers/phase-space-diameter.md lines 210-221 and papers/broken-born-checkpoint-v2.md section 7.5."
+  },
+  {
+   "claim_id": "C17",
+   "verdict": "corrected",
+   "reason": "The content claims check out [S]. The Casti-Morrison-Spiegel page range is wrong: the agent's '93-95' came from a truncated PDF view. The year is confirmed by the arXiv journal-ref, not only the file name. Bertin and Cava's main result, which the summary omits, is that the drift can destabilize non-axisymmetric perturbations; the m=0 stabilization is correct.",
+   "independent_check": "WebFetch arxiv.org/abs/astro-ph/9807310: 'Journal-ref: Annals of the NY Academy of Sciences, 867, 93-108 (1998)'. ar5iv text: identical fluids, instabilities 'wholly contained within the Jeans instability band'; asymmetric case: 'large wavenumber two-stream instability bands well-separated from the Jeans instabilities'. arxiv.org/abs/1002.0291: Chavanis, Eur. Phys. J. B 85, 229 (2012); single-humped onset 'the same in a stellar system and in the corresponding barotropic gas'; double-humped stability diagrams. ar5iv astro-ph/0608625: m=0 drift 'corresponds to a stabilizing effect'; drift may drive non-axisymmetric instability.",
+   "corrected_statement": "Casti, Morrison and Spiegel, Ann. N.Y. Acad. Sci. 867, 93-108 (1998), arXiv:astro-ph/9807310 [S]. Bertin and Cava, astro-ph/0608625 [S]: relative drift stabilizes axisymmetric modes and can destabilize non-axisymmetric ones in two-component disks."
+  },
+  {
+   "claim_id": "C18",
+   "verdict": "corrected",
+   "reason": "Citations and content check out. One paraphrase is off: Vogelsberger and White's 0.1% is 'of the total signal', not 'of the local density'; it is the ~1e6 most massive streams that make up about half the local density. The KK bound is cited but never evaluated against the gate (see missed issues).",
+   "independent_check": "WebFetch: astro-ph/0412586 'Phys.Rev. D71 (2005) 083505'; astro-ph/0606566 'Phys.Rev.Lett. 97 (2006) 131303', 'accelerate differently by more than 10%'; astro-ph/0608095 'Phys.Rev. D74 (2006) 083007' (no numerical limit in abstract); 2007.00667 'JCAP 11 (2020) 034', instabilities at couplings 'many orders of magnitude below' scattering limits; 1705.02358 DOI 10.1016/j.physrep.2017.11.004; 1002.3162: 'At 8 kpc from halo centre a typical point intersects about 10^14 streams', 'the ~10^6 most massive streams contribute about half of the local dark matter density', 'the most massive fine-grained stream contributing about 0.1% of the total signal'. WebSearch: Gradwohl and Frieman, ApJ 398, 407 (1992), cited in reference lists.",
+   "corrected_statement": "Vogelsberger and White, MNRAS (DOI 10.1111/j.1365-2966.2011.18224.x), arXiv:1002.3162 [S]: about 1e14 streams at 8 kpc; the ~1e6 most massive make up about half the local density; the most massive single stream contributes about 0.1% of the total signal."
+  },
+  {
+   "claim_id": "C19",
+   "verdict": "confirmed",
+   "reason": "The [S]-marked citations exist as stated. Doremus, Feix and Baumann, PRL 26, 725 (1971) is titled 'Stability of encounterless spherical stellar systems' (from citing lists); their theorem covers radial perturbations, Antonov's covers non-radial ones, so the combined statement is right. The dagger-marked content remains unchecked, as marked.",
+   "independent_check": "WebSearch: DFB PRL 26, 725-728 (1971) per reference lists; Laval-Mercier-Pellat, Nucl. Fusion 5 (2), 156-158 (1965), DOI 10.1088/0029-5515/5/2/007 (Wikipedia mirror). WebFetch arxiv.org/abs/physics/0702023: Lin and Strauss, 'A sharp stability criterion for the Vlasov-Maxwell system', energy principle for symmetric equilibria (DOI 10.1007/s00222-008-0122-1)."
+  },
+  {
+   "claim_id": "C20",
+   "verdict": "corrected",
+   "reason": "(i), (iii) and (v) stand. (ii) is wrong on growth: 'at best about 0.24 orbital periods per e-fold' is beaten at G~/G=280.7 (0.21) and at stronger gating (1.5/t_ff, 0.12 orbits at G~/G=5000, (k/k_J)^2=2pi^2). It also misattributes '28 at the solar circle': 28.07 is the singular-isothermal-sphere margin at wavelength 2r (Q=4.93); the solar-circle margin (Q=24.77) needs 161. It omits the density-free m=+-1 velocity-dipole modes. (iv) understates the case: the agent's own cited KK Sgr bound, evaluated with the gate, gives G~/G <~ 0.8-2.7 at v*=120 km/s, below every velocity-selected threshold. The overall verdict (obituary not premature) stands and is strengthened.",
+   "independent_check": "See C8, C11, C12 checks; v15_sgr_bound.py: 'v_sat=250 sigma_h=100: <W>_gauss=0.1257 ... G~/G < 0.80'; 'v_sat=300 sigma_h=120: <W>_gauss=0.0740 (closed 0.0741) -> G~/G < 1.35; <W>_rat2=0.0711 -> G~/G < 1.41'; 'v_sat=350 sigma_h=100: <W>_gauss=0.0367 -> G~/G < 2.72'. v03: 'MW Q=4.9348: no-revir gt_c=28.07'; 'MW solar circle ... no-revir gt_c=161.3'. v17: 'MW Q=4.9348: m=+-1 threshold no-revir gt=70.4'.",
+   "corrected_statement": "(ii) Velocity-selected instabilities need G~/G >= 28-161 for the MW local halo (28 at Q=4.93, 161 for the solar-circle margin) and >= 152 in a cluster core before re-virialization. After it they need: never in dwarfs or the MW, about 800 in a marginal cluster core. Beyond threshold the fastest local MW growth found is 0.88/t_ff at G~/G=280.7 (0.21 solar orbits per e-fold), rising to 1.5/t_ff at G~/G=5000. Cluster modes need 5-11 crossing times. The gate adds both co-moving density lumps and density-free transverse-velocity-dipole (m=+-1) modes. (iv) G~ is free; the Kesden-Kamionkowski Sgr-stream bound evaluated at Sgr's relative speed gives G~/G <~ 1-3 at v*=120 km/s (order of magnitude; Sgr inputs dagger), which excludes every velocity-selected threshold."
+  }
+ ],
+ "missed_issues": [
+  "Gate-only m=+-1 modes (and higher-m channels) were never searched on the imaginary axis. offaxis_coupled.py used Re w >= 0.01, and odd_softening.py/mw_kscan.py tracked only the m=0 root. These modes have Int delta f = 0: a transverse-velocity dipole of the distribution's core, modulated along k (layered counter-streaming sheets, a Weibel/filamentation analog). They are purely growing for G~/G Lambda_g q > (k/k_J)^2 > G~/G Lambda_g q^2, and are the fastest modes past the first odd threshold: MW 0.259 vs 0.174 per t_ff (G~/G=320, (k/k_J)^2=2pi^2); 0.199 vs 0.075 (56.14, 3); cluster 0.0329 vs 0.0152 (5858, 4.39). An analytic first-order anchor (v14) reproduces their onset (0.01041 vs 0.01041). They are the model's closest thing to 'streams' and should appear in the mode characterization (C8, C20). Their existence thresholds without re-virialization: MW 70.4 (Q=4.93), 281.6 (19.7), 353.4 (24.8); cluster 856.5 (Q=1.10). With the agent's re-virialization model: never in the MW (cap Lambda_g q/<W> = 0.633), 1776 in the cluster (v17).",
+  "The 'collapse' of growth at the odd threshold is a dip, not a ceiling. At (k/k_J)^2=2pi^2 the fastest rate recovers to 1.22 (G~/G=1000), 1.18 (2000) and 1.53 (5000) per t_ff. Dips recur at each sector threshold G~/G = (k/k_J)^2/(Lambda_g q^l): 0.033 at 600 (l=2); 0.004 at 320 for (k/k_J)^2=pi^2/2 (l=3) (v10).",
+  "The agent cites Kesden and Kamionkowski (Sgr streams: DM and baryons may not accelerate differently by more than about 10% [S]) but never evaluates it for the gate. Averaging W over halo velocities at Sgr's relative speed (v_sat 250-350 km/s, sigma_h 100-155 km/s, both dagger memory) gives <W> = 0.037-0.126. The bound is then G~/G <~ 0.8-2.7 (Gaussian) or 0.9-2.2 (rational) at v*=120 km/s (v15). That is ten or more times below every velocity-selected threshold: MW 28.1 (density lump), 70.4 (m=+-1); cluster 152. At the benchmark this excludes the long-range gated route observationally rather than leaving it optional. For narrow gates the margin depends on the dagger Sgr inputs: Lambda_g/<W> = 4.4-21.6 at v*=60, 7.2-63 at v*=30 and 9.5-106 at v*=10 km/s, against about 49 needed for exclusion at Q=4.93. Order-of-magnitude [D], with the 10% [S] and the orbit inputs dagger.",
+  "The MW k-scan at G~/G=280.7 sampled kappa^2 = 19.74 and 30 only. The maximum is 0.880/t_ff near (k/k_J)^2 ~ 26 (46.6 Myr, 0.213 t_orb), not 0.778 at 30 (v13, v16).",
+  "In the cluster at G~/G=1522, the fastest m=0 mode is a travelling pair, +-0.416 + 0.0296i (5.05 Gyr, 11.3 t_cross). It outgrows the purely growing 0.01885 the agent reported (v11).",
+  "The near-threshold coefficient 'c = 0.88-1.06' is not a threshold slope in general. Perturbation theory gives slopes 0.878 (MW, G~/G=10), 1.50 (MW, 56.14), 0.739 (cluster, 304.4) and 0.455 (cluster, 1598) (v12). The agent's range is an operating-point ratio.",
+  "C6's parenthetical has the direction reversed. At MW conditions 3a's narrow-gate form overstates the shortfall by about 3x, which is the non-conservative direction for the obituary. The verdict is unaffected (30+ orders of magnitude).",
+  "Related prior work not cited, found by one search (titles only, not read): arXiv:2202.12464 (plasma instabilities from long-range interacting dark matter) and arXiv:2411.15981 (dark U(1) plasma bounds, two-stream and Weibel-type modes). Neither treats a relative-velocity-gated attraction, so the agent's null-search statement survives.",
+  "Scope reminder: all dynamics are for the local homogeneous model with the Jeans swindle. The m=+-1 and strong-coupling results above share that reduction and use the Gaussian gate only."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v01_jeans_mehler.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v02_static_gauss.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v03_crit_tables_gauss.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v04_static_kspace.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v05_crit_tables_rat.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v06_dynamic_L.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v07_dynamic_basis.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v08_dyn_mw.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v09_units.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v10_mw_strong.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v11_cluster.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v12_slope.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v13_mw_kscan.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v14_m1_anchor.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v15_sgr_bound.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v16_dwarf_and_peak.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v17_m1_thresholds.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-clumping-numbers/v18_stream_width.py"
+ ],
+ "overall": "The clumping agent's numbers are almost all right. Every static eigenvalue, threshold table (Gaussian and rational), unit conversion, Debt-3a recomputation and listed m=0 growth rate reproduces to printed precision. I used methods different from the agent's: brute-force 1D Nystrom against the Mehler closed form, a Cartesian secular equation from numerically diagonalized kernels, 3D tensor-grid power iteration, an l=0 Fourier-space operator (K = B^dag B), eigenvalues of the real linearized generator (van Kampen matrix) in each azimuthal sector, and first-order perturbation theory as an analytic anchor. The record numbers (37.7 um, 5.2 meV) match the source. The literature mostly checks out [S], with one wrong page range (Casti et al., Ann. N.Y. Acad. Sci. 867, 93-108, 1998) and two loose paraphrases.\n\nThe substantive error is in the dynamics. Growth was searched only in the gravity-coupled m=0 sector, and only off the imaginary axis. This missed purely growing gate-only m=+-1 modes: density-free, transverse-velocity-dipole, Weibel-like layering. These dominate past the parity-odd threshold, and the growth 'collapse' is a dip that recovers (1.2-1.5 per t_ff at G~/G = 1000-5000). C12's 'strong gating does not give fast growth' is therefore refuted, and C8, C11 and C20 need correction (MW fastest 0.88/t_ff at G~/G=280.7; cluster fastest modes differ, though phase mixing still wins there).\n\nEvaluating the Kesden-Kamionkowski Sgr bound that the agent cited, at Sgr's relative speed, gives G~/G <~ 1-3 at v*=120 km/s (order of magnitude; the Sgr inputs are dagger memory). That is ten or more times below every velocity-selected threshold. So the long-range gated route is observationally excluded at the benchmark, not merely optional. For Paul's question this holds in every case: a perturbative velocity-dependent correction to gravity (G~ <= G) gives no velocity-selected instability (C9 confirmed), and the record's X cannot carry a long-range force (C16 confirmed). The obituary stands and is strengthened. All results here are [D] from executed scripts in a local homogeneous Jeans-swindle model, not [V]. No repository file was modified."
+}

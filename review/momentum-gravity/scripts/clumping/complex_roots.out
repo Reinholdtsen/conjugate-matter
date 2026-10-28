@@ -1,0 +1,10 @@
+r=1.2917, gt=280.7, kappa^2=4.9348: grid done (271s)
+   coupled: zeros (w = omega t_ff, Re>=0 half; mirror -w* also a zero): -0.0000+0.3659i[wind +1.00]
+   block1: zeros (w = omega t_ff, Re>=0 half; mirror -w* also a zero): 
+   block2: zeros (w = omega t_ff, Re>=0 half; mirror -w* also a zero): 0.0000+0.3569i[wind +1.00]
+   (312s)
+r=1.2917, gt=1275.0, kappa^2=19.7392: grid done (389s)
+   coupled: zeros (w = omega t_ff, Re>=0 half; mirror -w* also a zero): -0.0000+0.1885i[wind +1.00], 0.0000+0.1225i[wind +1.00]
+   block1: zeros (w = omega t_ff, Re>=0 half; mirror -w* also a zero): 
+   block2: zeros (w = omega t_ff, Re>=0 half; mirror -w* also a zero): 0.0000+0.1221i[wind +1.00]
+   (493s)

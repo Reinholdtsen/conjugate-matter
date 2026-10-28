@@ -1,0 +1,4 @@
+r=1.2917, gt=100.0, kappa^2=2.0: purely growing coupled roots (Dtilde sign changes): [0.39422, 0.25926]  (59s)
+   N=1 block zeros (Re>0): -0.9689+0.0339i[wind +1.00], 0.9689+0.0339i[wind +1.00]  (593s)
+r=1.2917, gt=280.7, kappa^2=4.9348: purely growing coupled roots (Dtilde sign changes): [0.56618, 0.36594]  (51s)
+   N=1 block zeros (Re>0): 2.0579+0.0072i[wind +1.00]  (606s)

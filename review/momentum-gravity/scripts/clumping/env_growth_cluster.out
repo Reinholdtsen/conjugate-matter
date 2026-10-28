@@ -1,0 +1,6 @@
+check gt=0, kappa=0.5: Gamma=0.687202 closed form 0.687202 (496s)
+   static-limit check gt=1598.0: kappa^2=0.99 Lambda_0 -> Gamma=0.00447, Gamma/0.01=0.447
+cluster Q=1.0966 gt=1598.0 (2x revir threshold 798.8): Lambda_0=2.5553, Gamma=0.02721/t_ff, e-fold=5498 Myr, t_e/t_cross=12.249  |D|=5.0756957224396266e-11 (1073s)
+cluster Q=1.0966 gt=304.4 (2x no-revir threshold 152.2): Lambda_0=1.2030, Gamma=0.06569/t_ff, e-fold=2278 Myr, t_e/t_cross=5.075  |D|=1.3591350267490946e-12 (309s)
+cluster Q=1.0966 gt=1522.0 (10x no-revir threshold): Lambda_0=2.4573, Gamma=0.01885/t_ff, e-fold=7937 Myr, t_e/t_cross=17.684  |D|=1.000490801353926e-10 (232s)
+cluster Q=4.3865 gt=5858.0 (2x no-revir threshold 2929): Lambda_0=8.5794, Gamma=0.00000/t_ff, e-fold=inf Myr, t_e/t_cross=inf  |D|=None (129s)

@@ -1,0 +1,14 @@
+covariance extra (baseline-prediction) errors: (0.0083, 0.0032)
+gauss    v*=  30 km/s  eps_max (matter / gas): agent: 0.3485 / 1.1429  iii: 0.7820 / 2.5790  i: 0.3649 / 1.1573  ii: 0.3735 / 1.2002
+   [agent] v*=120 eps=0.1: T_m^2=1.0783 dn_m=+0.1308 | T_b^2=1.0247 dn_b=+0.0458
+   [agent] v*=120 eps=1.0: T_m^2=2.1281 dn_m=+1.3128 | T_b^2=1.2859 dn_b=+0.4851
+   [iii  ] v*=120 eps=0.1: T_m^2=1.0355 dn_m=+0.0636 | T_b^2=1.0110 dn_b=+0.0210
+   [iii  ] v*=120 eps=1.0: T_m^2=1.4249 dn_m=+0.6535 | T_b^2=1.1186 dn_b=+0.2193
+   [i    ] v*=120 eps=0.1: T_m^2=0.9480 dn_m=-0.0599 | T_b^2=0.9797 dn_b=-0.0328
+   [i    ] v*=120 eps=1.0: T_m^2=0.5311 dn_m=-0.8672 | T_b^2=0.8040 dn_b=-0.3740
+   [ii   ] v*=120 eps=0.1: T_m^2=0.9497 dn_m=-0.0560 | T_b^2=0.9801 dn_b=-0.0317
+   [ii   ] v*=120 eps=1.0: T_m^2=0.6376 dn_m=-0.4366 | T_b^2=0.8339 dn_b=-0.2649
+gauss    v*= 120 km/s  eps_max (matter / gas): agent: 0.0285 / 0.0813  iii: 0.0585 / 0.1760  i: 0.0572 / 0.1069  ii: 0.0595 / 0.1110
+gauss    v*= 300 km/s  eps_max (matter / gas): agent: 0.0139 / 0.0232  iii: 0.0202 / 0.0421  i: 0.0147 / 0.1643  ii: 0.0148 / 0.1782
+rational v*=  30 km/s  eps_max (matter / gas): agent: 0.1084 / 0.2840  iii: 0.2127 / 0.5740  i: 0.2449 / 0.5133  ii: 0.2561 / 0.5395
+rational v*= 120 km/s  eps_max (matter / gas): agent: 0.0226 / 0.0455  iii: 0.0375 / 0.0821  i: 0.0941 / 0.3642  ii: 0.0964 / 0.4380

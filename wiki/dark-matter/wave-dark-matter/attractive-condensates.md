@@ -12,6 +12,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md ref [14]"
   - "papers/broken-born-checkpoint-v2.md ref [13]"
   - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3): resolution of open problem 3'"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
 ---
 
 *An attractive condensate is a [Bose star](/wiki/dark-matter/wave-dark-matter/wave-kinetics) — a self-gravitating clump of a light boson field, all in one coherent state — whose particles also attract one another through a self-interaction. Gravity and the self-attraction both pull inward against the outward pressure that comes from the field's wave nature, and the self-attraction grows faster with density, so such a condensate has a maximum stable mass. Above it the condensate collapses, throws off part of its mass as fast waves in a burst called a bosenova, and the remnant grows again. In the Comatter program this cycle is the endpoint that, in [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) of [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), would have drained the dark matter out of the [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies); Scenario A is dead.*
@@ -63,7 +64,7 @@ Debt 3c's comparison with the data ('The data'): "Branch (i) predicts the opposi
 
 ## What is unchecked
 
-No `verify/` script covers any number on this page; no script covers any Debt-3 number. The coefficient 3.6 and the conventions for g and M_P in the critical mass have not been checked against the cited paper, and both references are cited from model memory (†). The Debt-3 notes do not define M_P; M_P = G^{−1/2} in the estimate above is the wiki's choice of symbol. The checkpoint requires every † reference to be source-checked before external use (#11 §14 item 10, OP10), the task of [the † literature battery](/wiki/method/literature-battery).
+No `verify/` script covers any number on this page; of the Debt-3 numbers, the gate checks only Debt 3a's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The coefficient 3.6 and the conventions for g and M_P in the critical mass have not been checked against the cited paper, and both references are cited from model memory (†). The Debt-3 notes do not define M_P; M_P = G^{−1/2} in the estimate above is the wiki's choice of symbol. The checkpoint requires every † reference to be source-checked before external use (#11 §14 item 10, OP10), the task of [the † literature battery](/wiki/method/literature-battery).
 
 ## References
 
@@ -88,3 +89,4 @@ Added by the wiki from model memory (†):
 - `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — the critical mass and its tag; the attractive endpoint as Scenario A's question
 - `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain', 'The data' — the Scenario-A scaling, the bosenova cycle, the two branches, the comparison with observed ultra-faint dwarfs
 - `notes/broken-born-theory.md` 'Addendum (v0.2, post Debt-3): resolution of open problem 3' — the general form of M_crit in the lab notebook
+- `verify/velocity_gated_gravity.py` section D — Debt 3a's shortfall ratios, the only Debt-3 numbers the gate checks; none on this page

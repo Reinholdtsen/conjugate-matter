@@ -1,0 +1,19 @@
+c~ = c^4/G = 1.21026e+44 N;  c^5/G = 3.62825e+52 W
+1. pairs
+  Sun-Earth: F = 3.5415e+22 N, F/c~ = 2.9263e-22 (product form 2.9263e-22), gamma~-1 = 4.2816e-44, v = 29.785 km/s, (v/c)(F/c~) = vF/(c^5/G) = 2.9073e-26
+  double pulsar: a = 8.78837e+8 m from Kepler
+  double pulsar: F = 5.71e+32 N, F/c~ = 4.718e-12 (product form 4.718e-12), gamma~-1 = 1.113e-23, v = 625.04 km/s, (v/c)(F/c~) = vF/(c^5/G) = 9.8365e-15
+  30+30 Msun at r = 2GM_tot/c^2: F = 7.5641e+42 N, F/c~ = 0.0625 (product form 0.0625), gamma~-1 = 0.0019589
+  (30+30 case: F/c~ = (30/120)^2 = 1/16 for any mass scale)
+  1 kg on 1.4 Msun, 12 km NS: F = 1.29e+12 N, gamma~-1 = 5.683e-65 (#13 s2: ~1e-65; reproduces #13, so arithmetic only)
+  same with R = 10 km: F = 1.858e+12 N, gamma~-1 = 1.178e-64
+
+2. Siegel generalized metric, d = 2
+  H^T Omega H - Omega = 0 : True
+  det H = 1
+  O(eps) part, diagonal blocks zero: True True
+  O(eps) part, mixed block (position-dual): Matrix([[(-x11*y22 + x12*y12)/(y11*y22 - y12**2), (x11*y12 - x12*y11)/(y11*y22 - y12**2)], [(-x12*y22 + x22*y12)/(y11*y22 - y12**2), (x12*y12 - x22*y11)/(y11*y22 - y12**2)]])
+  -> linear coupling only through dx . (-X Y^-1) . dx~ (and its transpose)
+
+3. mixed-block / position-block ~ X v F G/c^5 = X (v/c)(F/c~): Sun-Earth value printed in 1.
+   note: (v/c)(F/c~) is a power ratio vF/(c^5/G); it vanishes for v = 0, so it depends on v and F, not F alone

@@ -1,0 +1,17 @@
+Check 1 (method anchor): Gaussian gate in k-space vs Mehler closed form; gt=0 gives 1
+  r=0.25: Lam_g(kspace)=8.4195952e-01  closed=8.4195952e-01;  top(gt=0)=1.00000000; top(gt=10)=9.41543408
+  r=1.2917: Lam_g(kspace)=1.4927947e-01  closed=1.4927947e-01;  top(gt=0)=1.00000000; top(gt=10)=2.30503422
+  r=8.333: Lam_g(kspace)=1.4436654e-03  closed=1.4436654e-03;  top(gt=0)=1.00000000; top(gt=10)=1.00606409
+
+Narrow-gate limits (C4):
+  rat2 r=8.333: Lam_g=1.736348e-03 (refined 1.736348e-03); Lam_g r^3=1.00471; Lam_g r^2=0.12057
+  rat2 r=16.0: Lam_g=2.995267e-04 (refined 2.995267e-04); Lam_g r^3=1.22686; Lam_g r^2=0.07668
+  rat1 r=8.333: Lam_g=1.537734e-02 (refined 1.537734e-02); Lam_g r^3=8.89785; Lam_g r^2=1.06779
+  rat1 r=16.0: Lam_g=4.580952e-03 (refined 4.580952e-03); Lam_g r^3=18.76358; Lam_g r^2=1.17272
+  rat2 r=32.0: Lam_g r^3=1.40562   (claimed limit sqrt(pi)=1.77245)
+  rat2 r=64.0: Lam_g r^3=1.53151   (claimed limit sqrt(pi)=1.77245)
+  rat2 r=128.0: Lam_g r^3=1.61658   (claimed limit sqrt(pi)=1.77245)
+  rat1 r=32.0: Lam_g r^2=1.23682
+  rat1 r=64.0: Lam_g r^2=1.27104
+  rat1 r=128.0: Lam_g r^2=1.28873
+  rat1 limit: Lam r^2 -> top eigenvalue of 2 p0^1/2 |u|^-2 p0^1/2 = 1.30685

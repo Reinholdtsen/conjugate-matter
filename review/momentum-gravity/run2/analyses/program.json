@@ -1,0 +1,513 @@
+{
+ "summary": "The program's momentum gravity is the massive spin-2 field X. Between two ordinary bodies the record gives it as a Yukawa term added to Newton's potential. The term has gravitational strength (α = 4/3 in the aligned vacuum, u = 1) and a range below 37.7 μm. No document gives it any velocity dependence. The dependence derived here is only the spin-2 tensor factor: (3γ²−1)/2 ≈ 1 + (3/2)v²/c² for X, against 2γ²−1 ≈ 1 + 2v²/c² for the graviton. Carried through to a two-body Lagrangian, the graviton case reproduces the EIH velocity terms exactly. The only relative-velocity gate in the program acts between conjugate-matter (χ) particles, through the momentum-fiber width of χ quanta. It multiplies a contact interaction about 10⁴⁰ times stronger than gravity at the benchmark. So between two χ bodies it is velocity-gated scattering where the bodies overlap, not a perturbation of the 1/r law, and their gravity stays ungated (equivalence principle). Between χ and ordinary matter the record gives only ordinary gravity; any X term is sub-millimetre and ungated, or absent at tree level under the Siegel-block reading. An interaction that depends only on momenta exerts no force (ṗ = 0), so the chat-only 'Yukawa in momentum', read as a potential, changes only how velocity relates to momentum. A velocity-gated perturbation of gravity therefore needs a 1/r potential multiplied by a gate, which is Paul's picture (model b). That model is Galilean invariant when the gate uses relative velocity, and it moves momentum only between near-co-moving bodies. It necessarily changes inertia at relative order 2β|Φ|/v*², and it turns orbits backward by about 4πβGM/(a v*²) per orbit, about 4×10⁶ β times GR's rate. The program as written cannot supply such a long-range part. X's mass is common to all sources, so the laboratory bound also limits X's range between χ particles, unless X's coupling to ordinary matter is made far weaker than gravity. That contradicts #8 §3 and #11 §7.5, or the aligned vacuum. Separately, a long-range force no stronger than G cannot also make dwarf-galaxy cores, which would need about 3×10³¹ G. If X carries the transfer factor, the record's own contact gate needs X heavier than about 10–200 keV, a range below about 10⁻¹¹ m. Debt 3 tested only the contact model, so the obituary stands for the program as written. A long-range gated force is a different, untested model that would need new structure.",
+ "claims": [
+  {
+   "id": "P1",
+   "statement": "Record, two ordinary bodies. The program's momentum gravity X adds a Yukawa term to Newtonian gravity: V(r) = −(G m1 m2/r)(1 + α e^{−r/λ_X}), with α = (4/3)(M_f u/M_g)². Reciprocity forces M_f = M_g (#8 §3), and the aligned vacuum has u = 1, so α = 4/3. Torsion balances then give λ_X < 37.7 μm and M_X c² > 5.2 meV; at u = 0.5 the bound is 57.0 μm. #11 §7.5 says only 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X' [D]. No document states any dependence of this term on the bodies' velocities.",
+   "tag": "[D][V][S] as recorded (diameter note §8.2; premise u = 1 [D][V], its persistence [O]); [D + T] in #8 §3; the absence of a stated velocity dependence is a search result",
+   "basis": "Read #11 §7.5, notes/debt1a-iv-beta-coefficients.md §3 and papers/phase-space-diameter.md §8.2, and reran verify/phase_space_diameter.py. /usr/bin/grep for 'velocity' over papers/, notes/debt1a-* and HANDOFF.md finds velocity only in the χ gate, the Debt-3 obituary, and #11 §3's plain-language line 'forces fade with distance, never with velocity difference'.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "λ_X bound, u = 1",
+     "value": "37.68 μm; M_X c² > 5.237 meV",
+     "script": "verify/phase_space_diameter.py",
+     "printed_output": "PASS  attractive Yukawa with alpha = 4/3 (one-sided +alpha95): lambda_X < 37.7 um, M_X c^2 > 5.2 meV  [37.68 um, 5.237 meV]"
+    },
+    {
+     "quantity": "λ_X bound at u = 0.5, 0.8, 1.5",
+     "value": "56.98, 42.53, 30.83 μm",
+     "script": "verify/phase_space_diameter.py",
+     "printed_output": "PASS  for background ratio u (alpha = 4u^2/3; c in the cited papers): 57.0 um at u = 0.5, 42.5 at 0.8, 30.8 at 1.5  [[56.98, 42.53, 30.83]]"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §7.5",
+    "notes/debt1a-iv-beta-coefficients.md §3",
+    "papers/phase-space-diameter.md §8.2",
+    "verify/phase_space_diameter.py"
+   ]
+  },
+  {
+   "id": "P2",
+   "statement": "Record, two χ particles. The interaction is #11 §8's amplitude M(k,q) = 4πα̃ m_χ/(q² + m_φ²)·F(k²/μ²), where k is the incoming relative momentum and the gate is 'delivered by X-exchange between dual-stress bilinears' [D — mechanism; shape O]. Per #6 §4, integrating out massive X gives a contact four-χ operator. The k-dependence comes from the χ quanta's momentum-fiber width μ (Gaussian overlap e^{−(p1−p2)²/2μ²}). Debt 3a's model has a Gaussian gate, the x-range collapsed to contact (range 1/m_φ), and its coupling fixed by σ0/m = 30 cm²/g. Range: microscopic. The benchmark m_φ ~ m_χ gives 2.8×10⁻¹⁵ m, and X's own range is at most 37.7 μm at u = 1. Velocity dependence: a gate in relative velocity, σ_T = σ0 F(v²/v*²), with v* ~ 10² km/s (Debt 3a uses 120 km/s). This is the only relative-velocity dependence beyond O(v²/c²) anywhere in the record. Strength at the benchmark (α̃ ≈ 1): 3×10⁴⁰ times G m_χ². Gravity between χ particles is ordinary and ungated: 'χ propagates on g (equivalence principle; Bullet-Cluster-safe)' (#11 §8; P4).",
+   "tag": "[D — mechanism; shape O] as recorded (#11 §8; #6 §4 [D — structural]); comparison numbers [D] computed here",
+   "basis": "Read #11 §8, notes/debt1a-ii-X-classification.md §4, notes/debt3a-stream-stability.md and the lab notebook §3 and §5.1. Strength comparison and range from p4_range_numbers.py; g from the record's check script.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Debt-3a contact coupling g",
+     "value": "2.48e3 GeV^-2",
+     "script": "review/wiki-build-checks/debt3a_check.py",
+     "printed_output": "g = 2.48e+03 GeV^-2"
+    },
+    {
+     "quantity": "α̃/(G m_χ²) at α̃ = 1, m_χ = 70 MeV",
+     "value": "3.04e40",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "G m_chi^2 = 3.29e-41 (dimensionless, hbar = c = 1); alpha~/(G m^2) = 3.04e+40"
+    },
+    {
+     "quantity": "range of the benchmark transfer mediator",
+     "value": "2.82e-15 m",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "benchmark transfer mediator m_phi ~ m_chi: range hbar/(m_phi c) = 2.82e-15 m"
+    },
+    {
+     "quantity": "Debt-3a shortfall (record, contact model)",
+     "value": "3.9e-28 (dwarf core), 2.9e-31 (MW local)",
+     "script": "review/wiki-build-checks/debt3a_check.py",
+     "printed_output": "dwarf core: eps_gate = 2.7e-37 GeV, m min(sig,v*)^2 = 7e-10 GeV, ratio = 3.9e-28 / MW local: eps_gate = 3.2e-39 GeV, m min(sig,v*)^2 = 1.1e-08 GeV, ratio = 2.9e-31"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §8, §4 (P4)",
+    "notes/debt1a-ii-X-classification.md §4",
+    "notes/debt3a-stream-stability.md 'Setup', 'Numbers at the scattering benchmark'",
+    "notes/broken-born-theory.md §3, §5.1",
+    "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'"
+   ]
+  },
+  {
+   "id": "P3",
+   "statement": "Chat-only, derived in no document. HANDOFF §4 records 'dual Newtonian limit = Yukawa in momentum = the gate' and 'Two gravitational charges: ordinary stress-energy (sources massless graviton) vs dual stress ... (sources X)'. #13 §1 and §6 tag 'short range in momentum' / 'Yukawa-cut in momentum' as [D — checkpoint §7], which #11 §7 does not contain (flag 29: confirmed by audit, awaiting Paul's ruling). The two-charges line conflicts with the documented #8 §3, where SM matter sees X at gravitational strength through g. Read literally as a potential in momentum differences, 'Yukawa in momentum' is model (a) of P10, which exerts no force.",
+   "tag": "[O] chat-only (HANDOFF §4); flag 29 pending",
+   "basis": "Read HANDOFF §4, wiki/gravity/momentum-graviton/chat-only-results.md, review/wiki-build-flags.md item 29, review/wiki-build-rulings.md 'Flag 29', and #13 §1 and §6.",
+   "confidence": "high",
+   "sources": [
+    "HANDOFF.md §4",
+    "papers/conjugate-special-relativity.md §1, §6",
+    "review/wiki-build-flags.md item 29",
+    "review/wiki-build-rulings.md 'Flag 29'"
+   ]
+  },
+  {
+   "id": "P4",
+   "statement": "Inference, χ with an ordinary body. No document treats X exchange between χ and ordinary matter. (i) Gravity between them is ordinary GR and ungated: both couple to g, and the massless graviton is shared (#11 §8; #13 §6 'both polarizations fall identically'). (ii) Take #8 §3's coupling (SM on g, gravitational strength), assume χ's X coupling is the one that makes σ0, and assume the couplings factorize as in one-particle exchange. Then single X exchange is a short-range term with σ_χN/σ_χχ ≈ (μ_χN/(m_χ/2))² αGm_N²/α̃ = 2.7×10⁻³⁸, so σ_χN ≈ 1×10⁻⁶¹ cm². (iii) The record gives no gate for a mixed pair: the gate is the overlap of two momentum-extended χ quanta (#6 §4), and no width is given for x-polarized quanta. (iv) At that size this channel does not threaten row 7 ('Permanent null ... P4 strict'; killed by 'Any confirmed non-gravitational DM–SM coupling'). Whether X exchange counts as gravitational for row 7 is a reading the record does not settle. (v) Under the Siegel reading of P5 the mixed X exchange vanishes at tree level.",
+   "tag": "[D] inference with stated assumptions; [P] for P4 strict",
+   "basis": "Assumptions: X carries the transfer (m_φ = M_X), contact (Born) limit, factorized one-particle-exchange couplings, α̃ = 1, u = 1 (α = 4/3), m_N = 0.938 GeV. Ratio of contact-limit Born cross-sections, 16π μ² c_i² c_j² λ⁴.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "σ_χN/σ_χχ and σ_χN",
+     "value": "2.73e-38; 1.02e-61 cm²",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "sigma_chiN/sigma_chichi = (mu_chiN/(m/2))^2 alpha G m_N^2/alpha~ = 2.73e-38 ; sigma_chiN = 1.02e-61 cm^2"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §4, §8, §13 row 7",
+    "papers/conjugate-special-relativity.md §6",
+    "notes/debt1a-iv-beta-coefficients.md §3, §4",
+    "notes/debt1a-ii-X-classification.md §4"
+   ]
+  },
+  {
+   "id": "P5",
+   "statement": "Inference from the Siegel parametrization. In H_Z = [[Y + XY⁻¹X, XY⁻¹],[Y⁻¹X, Y⁻¹]] (#11 §6; #5 §C), X = Re Z enters the position block only at second order. It enters linearly only in the mixed x–p blocks. Consider a field coupled only to the position metric g = Y, as #1 §3 writes for the SM ('minimally coupled to g. Nothing is modified'). Such a field would have no single-X exchange at all. This reproduces the superseded safety argument of #5 §E and #6 §4: SM couples to X only through its suppressed dual stress. It conflicts with the current #8 §3 and #11 §7.5, which give gravitational strength through g, from the bimetric frame picture X = e − f. The record does not reconcile Re Z with e − f; the related flag 39 on the two actions of ρ awaits a ruling. If the Siegel reading held, the torsion bound, which assumes α = (4/3)u², would not constrain X's range.",
+   "tag": "[D] block algebra (sympy, d = 2); [O] which reading the program adopts",
+   "basis": "Symbolic d = 2 check with general symmetric X and Y. Anchor: (ω⁻¹H_Z)² = −1, battery T2's identity.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "linear-in-X content of H_Z blocks",
+     "value": "position block 0; mixed block nonzero; momentum block 0",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p1_HZ_blocks.py",
+     "printed_output": "position block Y + X Y^-1 X   : linear in X -> zero: True ; quadratic in X -> zero: False / mixed block X Y^-1            : linear in X -> zero: False ; quadratic in X -> zero: True / anchor: (omega^-1 H_Z)^2 = -1 at a sample point: True"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §6, §7.5",
+    "notes/debt1a-geometric-core.md §C, §E",
+    "notes/debt1a-ii-X-classification.md §4",
+    "notes/debt1a-iv-beta-coefficients.md §3",
+    "notes/broken-born-theory.md §3",
+    "review/wiki-build-flags.md item 39"
+   ]
+  },
+  {
+   "id": "P6",
+   "statement": "Inference: the record's contact gate needs a heavy X. #6 §4's step 'integrating out massive X ... gives the contact four-χ operator' requires the momentum transfer q ~ m_χ v ≪ M_X. At the benchmark q = 7.0 keV at 30 km/s, 28 keV at 120 km/s and 233 keV at 1000 km/s. That requires λ_X ≪ 2.8×10⁻¹¹ to 8.5×10⁻¹³ m, at least 10⁶ times shorter than the laboratory bound. If X carries the transfer factor (m_φ = M_X) and its range were near 37.7 μm, χχ scattering in halos would be long-range on the de Broglie scale: forward-peaked and Rutherford-like, against row 2 ('isotropic below the gate'). So the program's own χ phenomenology pushes X's range down, not up. If the transfer factor belongs to a separate mediator φ, this argument sets no limit on M_X; no source relates m_φ to M_X.",
+   "tag": "[D] inference",
+   "basis": "Contact limit of a Yukawa propagator, 1/(q² + M²) → 1/M² for q ≪ M [T]; numbers from p4.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "m_χ v and ħ/(m_χ v)",
+     "value": "7.00 keV / 2.82e-11 m (30 km/s); 28.02 keV / 7.04e-12 m (120); 233.49 keV / 8.45e-13 m (1000)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "v =     30 km/s: m_chi v = 7.00 keV ; hbar/(m_chi v) = 2.82e-11 m ; 37.7 um / (hbar/(m v)) = 1.34e+06 / v =   1000 km/s: m_chi v = 233.49 keV ; hbar/(m_chi v) = 8.45e-13 m ; 37.7 um / (hbar/(m v)) = 4.46e+07"
+    }
+   ],
+   "sources": [
+    "notes/debt1a-ii-X-classification.md §4",
+    "papers/broken-born-checkpoint-v2.md §8, §13 rows 1–2",
+    "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'"
+   ]
+  },
+  {
+   "id": "P7",
+   "statement": "Spin-2 tensor factor. For point masses with T_i^{μν} = m_i u_i^μ u_i^ν, T1·T2 − c T1T2 = m1m2(γ² − c), where γ = u1·u2, exactly and in any frame. Normalized to its static value it is 2γ² − 1 for a massless graviton (c = ½; this is the Chebyshev polynomial T₂(γ)). It is (3γ² − 1)/2 for a Fierz–Pauli field (c = ⅓; the Legendre polynomial P₂(γ)). Series: 1 + 2v² + 2v⁴ and 1 + (3/2)v² + (3/2)v⁴, with v in units of c. Relative-velocity dependence therefore first enters at O(v²/c²), and to that order it depends only on |v1 − v2|. The k k/M² terms of the Fierz–Pauli numerator drop on conserved point sources. Anchor: the γ → ∞ ratio of the two factors is 3/4, the vDVZ light-bending deficit.",
+   "tag": "[D] executed (sympy); anchor [T][S]",
+   "basis": "Explicit 4×4 contractions; general-frame check with symbolic 3-velocities; anchor from Hinterbichler, Rev. Mod. Phys. 84, 671 (2012), §2.3 ('For D=4, it is 1/2 vs. 1/3') and §3.3 (light bending 'off by 25 percent' once G is rescaled) [S].",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "normalized factors and series",
+     "value": "2γ²−1 = 1+2v²+2v⁴; (3γ²−1)/2 = 1+(3/2)v²+(3/2)v⁴",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py",
+     "printed_output": "massless   : 2*v**4 + 2*v**2 + 1 / Fierz-Pauli: 3*v**4/2 + 3*v**2/2 + 1"
+    },
+    {
+     "quantity": "γ→∞ ratio massive/massless",
+     "value": "3/4",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py",
+     "printed_output": "lim N1/N0 = 3/4  (vDVZ: 3/4, Hinterbichler 2012 sec. 3.3 [S])"
+    }
+   ],
+   "sources": [
+    "https://ar5iv.arxiv.org/html/1105.3735 [S]"
+   ]
+  },
+  {
+   "id": "P8",
+   "statement": "From amplitude to two-body Lagrangian, compared with EIH. The procedure: V(q) = −amplitude/(4E1E2), retardation from 1/(q² − ω²) with ω² → (q·v1)(q·v2), and L_int = −V at first order. It reproduces the Darwin Lagrangian for spin 1. For the massless spin 2 it reproduces exactly the O(G) velocity terms of the EIH Lagrangian, (G m1m2/r)[1 + (3/2)(v1²+v2²) − (7/2)v1·v2 − ½(n·v1)(n·v2)]/c². The EIH form is from Will 2018, eq. (9), with GR values G = B = D = 1, A = C = E = 0 [S]. That transcription was checked: the EIH equations of motion derived from it match Wikipedia's EIH acceleration [S] to 1e-41 in 3 random configurations. For the massive spin-2 term at r ≪ λ_X the result is (αGm1m2/r)e^{−r/λ}[1 + (v1²+v2²) − (5/2)v1·v2 − ½(n·v1)(n·v2)]/c², plus a retardation piece −(M_X/2)(n·v1)(n·v2)e^{−r/λ}. In the CM frame, GR gives [(3+ν)v² + ν(n·v)²]/2 and the massive term gives (1 + ν/2)v² + ν(n·v)²/2: both functions of the relative velocity and its angle to n. In a general frame the EIH velocity terms are (3/2)|v1−v2|² − ½v1·v2 − ½(n·v1)(n·v2), which is not a function of v1 − v2 alone (1PN dynamics is Lorentz, not Galilean, invariant [T]†). Sizes: (v/c)² = 1.1e-7 at 100 km/s and 1.0e-6 at 300 km/s.",
+   "tag": "[D] executed (sympy); anchors [S] (EIH) and † (Darwin, textbook)",
+   "basis": "Calibration on spin 1 against the Darwin Lagrangian (Jackson §12.6 †; Landau–Lifshitz §65 †); EIH coefficients from C. M. Will, CQG 35, 085001 (2018), arXiv:1801.08999 [S], whose GR-values sentence was quoted verbatim. Fourier transforms checked through the differential identities they imply. Precedent: Iwasaki 1971 derived EIH from Feynman diagrams †.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "massless spin-2 minus EIH, massive coefficients",
+     "value": "0; (1, 1, −5/2, −1/2)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py",
+     "printed_output": "spin 1: L_int - Darwin = 0 / spin 2 massless: L_int - EIH(Will 2018 eq. 9, GR values) at O(G) = 0 / massive spin 2, r << lambda_X: L_int*r/(alpha G m1 m2) - [1 + (v1^2+v2^2) - 5/2 v1.v2 - 1/2 (n.v1)(n.v2)] = 0"
+    },
+    {
+     "quantity": "EOM cross-check deviation",
+     "value": "≤ 2.7e-41",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py",
+     "printed_output": "trial 2: |a_N - a_N(wiki)| = 6.9e-43, |a_1PN - a_1PN(wiki)| = 2.7e-41 / EIH Lagrangian reproduces the EIH equations of motion: True"
+    },
+    {
+     "quantity": "(v/c)²",
+     "value": "1.11e-07 (100 km/s); 1.60e-07 (120); 1.00e-06 (300)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py",
+     "printed_output": "v =   100 km/s: (v/c)^2 = 1.11e-07 / v =   120 km/s: (v/c)^2 = 1.60e-07 / v =   300 km/s: (v/c)^2 = 1.00e-06"
+    }
+   ],
+   "sources": [
+    "https://ar5iv.arxiv.org/html/1801.08999 [S]",
+    "https://en.wikipedia.org/wiki/Einstein%E2%80%93Infeld%E2%80%93Hoffmann_equations [S]"
+   ]
+  },
+  {
+   "id": "P9",
+   "statement": "PPN γ with the X term included. Take the graviton plus an unscreened massive mode of strength α at r ≪ λ_X. Then γ_PPN = (α + 2)/(2(α + 1)), and the same value follows from light bending and from the O(v²) coefficient. At α = 4/3 (u = 1), γ = 5/7, so γ − 1 = −0.2857. Cassini measures γ − 1 = (2.1 ± 2.3)×10⁻⁵ [S]. With u = 1, X's range therefore could not reach Solar-System scales unless the force is Vainshtein-screened. Unscreened, Cassini's 2σ lower end requires α < 5.0×10⁻⁵, i.e. u < 6.1×10⁻³. Torsion balances constrain a Yukawa only near the separations they probe. For λ much larger than the Solar System the term only renormalizes G there [T], so ranges of kpc are excluded by tests like this one, not by the 37.7 μm bound as such. The record does not discuss that range (searched round-5 files).",
+   "tag": "[D] executed; Cassini [S]; window statement [T]",
+   "basis": "Test-mass Lagrangian in the PPN metric gives the Φv² coefficient γ + ½; GR gives 3/2, matching EIH's test-mass value, and γ = ½ gives 1, matching the massive coefficient. Cassini value from Bertotti, Iess and Tortora, Nature 425, 374 (2003).",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "γ_PPN at α = 4/3",
+     "value": "5/7 (γ−1 = −0.2857)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py",
+     "printed_output": "gamma_PPN - 1 = -alpha_/(2*(alpha_ + 1)) ; at alpha = 4/3: 5/7 = 0.7142857142857143"
+    },
+    {
+     "quantity": "α and u allowed by Cassini, unscreened",
+     "value": "α < 5.00e-5; u < 6.12e-3",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "Cassini 2-sigma lower end: gamma - 1 > -2.5e-05  ->  alpha < 5.00e-05  ->  u < 6.12e-03  (unscreened, lambda_X >> 1 AU)"
+    }
+   ],
+   "sources": [
+    "https://ideas.repec.org/a/nat/nature/v425y2003i6956d10.1038_nature01997.html [S]",
+    "https://ar5iv.arxiv.org/html/1105.3735 [S]"
+   ]
+  },
+  {
+   "id": "P10",
+   "statement": "Model (a): a potential depending only on momenta, H = Σp²/2m + U(argument). Hamilton's equations give ṗ_i = 0 exactly and ẋ_i = p_i/m_i + ∂U/∂p_i, an anomalous velocity. The interaction cannot change any momentum, so it cannot scatter, exert a force or clump the momentum distribution. It changes only the velocity–momentum relation: the inverse mass is shifted by ∂²U/∂p², which depends on the neighbours' momenta. Lagrangian to first order: L = Σ½m v² − U(m1v1 − m2v2) + O(U²). Galilean invariance requires the reduced-mass relative momentum k = (m2p1 − m1p2)/M, or p1/m1 − p2/m2. With p1 − p2 the boost shift is (m1 − m2)u, and d(m1x1 + m2x2)/dt − P = (m1 − m2)∇U ≠ 0. The literal Born image of p²/2m + V(x) is x²/2m + V(p), with ẋ = V′(p) and ṗ = −x/m: the swap also turns the kinetic term into a harmonic trap.",
+   "tag": "[D] executed (sympy)",
+   "basis": "Symbolic 3D Hamilton's equations for generic U; Legendre transform to first order. The generic-U series check fails because of how sympy expands Subs objects; the same check with a concrete U passes, and so does the Lagrangian comparison.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Galilean checks",
+     "value": "p1−p2: shift (m1−m2)u; k and p1/m1−p2/m2: 0",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "argument p1 - p2: pdot_1 = [0, 0, 0]; ... argument shift under boost = [u1*(m1 - m2), u2*(m1 - m2), u3*(m1 - m2)] / argument k = (m2 p1 - m1 p2)/M: pdot_1 = [0, 0, 0]; ... d(m1 x1 + m2 x2)/dt - P = [0, 0, 0]; argument shift under boost = [0, 0, 0]"
+    },
+    {
+     "quantity": "Lagrangian to first order",
+     "value": "Σ½mv² − εU(m1v1 − m2v2)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "Legendre check with concrete U = s^3/3 + sin s + exp(-s^2): v recovered to O(eps): [0, 0] ; L - [sum m v^2/2 - eps U(m1 v1 - m2 v2)] = 0"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "P11",
+   "statement": "Structural consequence. Any interaction that transfers momentum must depend on positions, since ṗ_i = −∂H/∂x_i. A gate in relative velocity can only switch a position-dependent interaction on or off: model (b) for a 1/r force, model (c) for a contact force. The lab notebook's founding mean field, ε(p; f) = p²/2m + ∫U(p − p′)f̄(p′), cannot change the momentum distribution at all wherever f̄ is uniform in x. Exchanging the roles of x and v in the Jeans problem would also turn the kinetic term into x²/2m, which χ does not have (#11 §8: χ has ordinary kinematics on g). Debt 3a's version is local in x (contact), which is what lets its mean field move momenta.",
+   "tag": "[D]",
+   "basis": "P10's Hamilton's equations; notes/broken-born-theory.md §5.2 as quoted on the founding-image wiki page; notes/debt3a-stream-stability.md 'Setup'.",
+   "confidence": "high",
+   "sources": [
+    "notes/broken-born-theory.md §5.2",
+    "notes/debt3a-stream-stability.md 'Setup'",
+    "papers/broken-born-checkpoint-v2.md §8"
+   ]
+  },
+  {
+   "id": "P12",
+   "statement": "Model (b), algebra: L = Σ½m v² + G̃ m1m2 W(|v1−v2|/v*)/r with W(0) = 1, which is Paul's long-range force gated in relative velocity. The canonical momentum p_i ≠ m_i v_i, and the conserved energy is Σ½mv² − (G̃m1m2/r)[W − wW′]. The Lagrangian is Galilean invariant up to a total derivative. The first-order Hamiltonian is H = Σp²/2m − G̃m1m2 W(|p1/m1 − p2/m2|/v*)/r. Hamilton's equations: ṗ1 = −G̃m1m2 W (x1 − x2)/r³, the Newtonian force times the gate, and ẋ1 = p1/m1 − (G̃m1m2/r)∂W/∂p1. With a Gaussian W the relative-motion Hessian of the Lagrangian at v_rel = 0 is μ(1 − 2G̃M/(r v*²)), so the effective inertia vanishes at r* = 2G̃M/v*². This is a Helmholtz-type objection, as raised against Weber's velocity-dependent force †. In Hamiltonian form the inverse inertia is (1/μ)(1 + 2G̃M/(r v*²)), the same at first order. The relative inertia change is therefore 2β|Φ|/v*² for G̃ = βG. The gate argument |p1/m1 − p2/m2| conserves the centre-of-mass motion; |p1 − p2|/(m1v*) does not.",
+   "tag": "[D] executed (sympy)",
+   "basis": "Symbolic 3D Lagrangian with generic W: energy function, boost, Hessian, first-order Legendre check, Hamilton's equations, CM check.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Hessian zero",
+     "value": "r* = 2G̃M/v*²",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "Lagrangian Hessian at v_rel = 0 (Gaussian W): -2*Gtilde*M*mu/(r*v_star**2) + mu * identity -> zero at r_* = 2 Gt M/v*^2: [2*Gtilde*M/v_star**2]"
+    },
+    {
+     "quantity": "energy function and Galilean checks",
+     "value": "0, 0; CM conserved only for the relative-velocity argument",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "energy function - [sum m v^2/2 - Gt m1 m2 (W - w W')/r] = 0 / L(boosted) - L - [u.(m1 v1 + m2 v2) + M u^2/2] = 0 / argument |p1/m1 - p2/m2|/v*: ... d(m1x1+m2x2)/dt - P zero: True / argument |p1 - p2|/(m1 v*)  [non-invariant]: ... zero: False"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "P13",
+   "statement": "Model (b), two-body numerics. The relative-coordinate Hamiltonian p²/2 − (1 + βe^{−p²})/r is regular gravity plus a gated perturbation of strength β (units GM = μ = v* = 1, planar). Bound orbits turn backward (retrograde precession). At leading order the shift is Δω = −4πβGM/(a v*²(1 − e²)) per orbit, against GR's +6πGM/(ac²(1−e²)): per unit β, (−4/6)(c/v*)² = −4.2×10⁶ times GR's rate at v* = 120 km/s. Numerics confirm the formula as GM/(av*²) → 0 (measured/formula 0.987 at 1/300, 0.963 at 1/100). For GM/(av*²) ≳ 0.1 the shift saturates, at about 0.2–0.3 rad per orbit for β = 0.2. Flybys (β = 0.5, b = 20GM/v*²): at v∞ ≫ v* the deflection tends to the Rutherford value for G (0.011112 vs 0.011111 at v∞ = 3v*). At v∞ ≲ v* it is enhanced in shallow encounters. In deep ones, where gravity itself speeds the pair past v*, the gate closes near pericentre and the anomalous velocity changes the orbit at O(1). At v∞ = 0.1v* the deflection is 2.32 rad, below even Rutherford for G (2.75). The integrator reproduces Rutherford at β = 0 and is unchanged under step halving. Energy and angular momentum are conserved to 10⁻¹³ and 10⁻¹⁴.",
+   "tag": "[D] executed (sympy orbit average + RK4)",
+   "basis": "Delaunay secular rate T·∂⟨δH⟩/∂G with δH = βp²/r; orbit averages checked with mpmath; pericentre angles measured over 8 orbits; asymptotic flyby directions from osculating Kepler hyperbolae. Reduction: Gaussian W, two bodies, planar, canonical (Hamiltonian) gating.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "precession, measured vs formula (β = 0.2, e = 0.3)",
+     "value": "ratio 0.9873 (GM/av*² = 0.0033), 0.9628 (0.01), 0.7133 (0.1), 0.0789 (1)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "0.0033  -9.068809e-03  -9.185461e-03   0.9873  1.1e-13  5.1e-15 / 0.0100  -2.641384e-02  -2.743530e-02   0.9628 ... / 0.1000  -1.862092e-01  -2.610573e-01   0.7133 ... / 1.0000  -1.764320e-01  -2.236202e+00   0.0789"
+    },
+    {
+     "quantity": "gated/GR precession ratio per unit β",
+     "value": "−4.161e6",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "ratio gated/GR precession at equal orbit = (-4 beta/6)(c/v*)^2 = -4.161e+06 * beta  (v* = 120.0 km/s)"
+    },
+    {
+     "quantity": "flyby deflections",
+     "value": "v∞=0.1: 2.3185 (R_G 2.7468); 0.3: 1.2154 (R_G 1.0142, R_1.5G 1.3895); 3.0: 0.011112 (R_G 0.011111)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "0.10   2.318535    2.876490            2.746802    7.3e-13 / 0.30   1.215428    1.389477            1.014197    1.2e-14 / 3.00   0.011112    0.016666            0.011111    2.6e-15"
+    },
+    {
+     "quantity": "integrator validation",
+     "value": "β=0: 2.748730 vs Rutherford 2.746802; step halving: identical",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_flyby_check.py",
+     "printed_output": "beta = 0, v_inf = 0.1: theta = 2.748730, Rutherford = 2.746802 / beta = 0.5, v_inf = 0.1, step factor 0.002: theta = 2.318535 ... step factor 0.001: theta = 2.318535"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "P14",
+   "statement": "Model (c), the gated contact interaction of Debt 3a, smoothed with width ε: U = −g δ_ε(x1 − x2) G((p1 − p2)/μ). Hamilton's equations give ṗ1 = g·G·∇δ_ε and ẋ1 = p1/m − g δ_ε ∂G/∂p1. Both act only while the bodies overlap: the force gradient at r = 10ε is 3×10⁻²¹ of its maximum, and deflections at b = 10 are ~10⁻²¹ rad. Its effect on velocities is through collisions, i.e. SIDM with a gated σ_T. Collective motion appears only if g n_gate ≥ m min(σ, v*)², a criterion missed by 28–31 orders at the benchmark (record). The p1 − p2 argument is Galilean invariant only for equal masses, which covers χχ. Between separated bodies it exerts no force.",
+   "tag": "[D] executed; record result [D] (#11 §9)",
+   "basis": "sympy for Hamilton's equations; RK4 deflections at b = 0.5, 3, 10 (contact width 1) and v∞ = 0.3, 1, 3 v*.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "force reach and deflection",
+     "value": "3.2e-21 of max at 10ε; 2.8e-1 rad (b=0.5, v=0.3) vs 7.6e-7 (b=0.5, v=3) vs 2.5e-21 (b=10, v=0.3)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py",
+     "printed_output": "|d delta/dr| at r = 10 eps relative to its maximum: 3.1799709001977493e-21 / 0.5   0.3   2.764e-01 / 0.5   3.0   7.583e-07 / 10.0   0.3   2.455e-21"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md",
+    "papers/broken-born-checkpoint-v2.md §9"
+   ]
+  },
+  {
+   "id": "P15",
+   "statement": "Galilean invariance of gate arguments. Relative velocity v_i − v_j (or p_i/m_i − p_j/m_j) and the reduced-mass relative momentum k = μ(v_i − v_j) are invariant. The momentum difference p_i − p_j shifts by (m_i − m_j)u under a boost, so it is invariant only for equal masses. A non-invariant gate implies a preferred frame. The coupling between unequal bodies would then depend on their common velocity relative to that frame, and the centre of mass of an isolated pair would not move uniformly (d(Σm x)/dt ≠ P), while canonical momentum is still conserved. The program's χχ gate is invariant: #11 §8 uses k, and #6 §4's p1 − p2 equals 2k for equal masses. Any gate between bodies of different mass, such as χ–SM pairs or composites, must use k.",
+   "tag": "[D] executed",
+   "basis": "Canonical boost p_i → p_i + m_i u and Galilean generator checks in p3 (models a and b).",
+   "confidence": "high",
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §8",
+    "notes/debt1a-ii-X-classification.md §4"
+   ]
+  },
+  {
+   "id": "P16",
+   "statement": "Inertia, and #13's dual inertia. Models (a) and (b) inevitably modify ordinary inertia. In (b) the relative change is ε = 2β|Φ|/v*², with v* = 120 km/s: ε/β is 0.12 for Earth's orbit (if ordinary matter were gated) and 7.3 for the MW potential at the Sun. For a χ particle in the MW halo, gated only by its co-moving fraction n_gate/n = 0.029, it is 0.22. It is 0.04 in a classical dwarf and 0.006 in an ultra-faint dwarf. GR's analogous terms are of order |Φ|/c², about 10⁻⁶. #13 §5's dual inertia is a different thing: λ_χ as resistance to force change, with constant-force states as dual-inertial (conjecture-tier). It would need the Born-swapped kinetic term x²/2m̃, which gives ṗ = −x/m̃. None of (a)–(c) has that term, and #11 §8 gives χ ordinary kinematics.",
+   "tag": "[D] executed (inputs illustrative); #13 §5 conjecture-tier as recorded",
+   "basis": "Hamiltonian inverse inertia (1/μ)(1 + 2G̃M/(rv*²)) from P12; |Φ| scales typed in p4 (v_orb, v_c, 3σ²).",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "ε/β",
+     "value": "0.123 (Earth), 7.347 (MW), 0.216 (MW χ, co-moving fraction 0.029), 0.042 (dwarf), 0.006 (UFD)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "Earth around the Sun, |Phi| = v_orb^2, v_orb = 29.8 km/s    : eps/beta = 0.123 / Milky Way at the Sun, |Phi| ~ v_c^2, v_c = 230 km/s         : eps/beta = 7.347 / co-moving fraction in the MW halo (sigma = 155 km/s), n_gate/n = (v*/sigma)^3/(2 pi)^1.5 = 0.029; eps/beta with only that fraction gated = 0.216"
+    }
+   ],
+   "sources": [
+    "papers/conjugate-special-relativity.md §5",
+    "papers/broken-born-checkpoint-v2.md §8"
+   ]
+  },
+  {
+   "id": "P17",
+   "statement": "Forcing chain and how far the range bound reaches. #11 §7.1 and #6 §1–§3: shift symmetry makes X never auxiliary, dual diffeomorphisms make it a second graviton, the multi-graviton no-go [8†] excludes massless X, and Higgsing of dual diffeomorphisms gives M_X = the polarization-breaking scale. The chain forces M_X > 0 but sets no scale, and the record gives M_X no value, so the chain alone does not forbid a light X (M_X c² = 6.4×10⁻²⁷ eV for a 1 kpc range). M_X is a property of the field, so λ_X is the same for every source. At fixed ordinary-matter coupling α = (4/3)u², the bound λ_X < 37.7 μm therefore limits X's range between χ particles too. What differs by source is only the strength, since χ's dual-stress coupling is separate. The bound moves only by weakening X's coupling to ordinary matter (57.0 μm at u = 0.5), or by screening.",
+   "tag": "[D + T] chain as recorded; universality [D]; number [D] executed",
+   "basis": "Read #11 §7.1, notes/debt1a-ii-X-classification.md §1–§3, papers/phase-space-diameter.md §8.2 ('with no value in the record').",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "M_X for 1 kpc range",
+     "value": "6.395e-27 eV",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "lambda = 1 kpc                         : M_X c^2 = 6.395e-27 eV ; (M_X/H0)^2 = 1.98e+13"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §7.1, §7.5",
+    "notes/debt1a-ii-X-classification.md §1–§3",
+    "papers/phase-space-diameter.md §8.2"
+   ]
+  },
+  {
+   "id": "P18",
+   "statement": "Routes to a kpc-range part, and what each contradicts. (1) A non-aligned vacuum (u ≪ 1). Its vacuum energy is of order the spin-2 mass squared (diameter note §8.2), (M_X/H0)² = 2×10¹³ for a 1 kpc range. That is acceptable only if λ_X ≳ c/H0 = 4.45 Gpc. It gives up the aligned-point vacuum-energy identity (#11 §7.3), and unscreened Cassini still needs u < 6×10⁻³. (2) M_f ≠ M_g contradicts #8 §3's reciprocity argument. (3) Decoupling ordinary matter from X at linear order, as in the Siegel reading of P5, contradicts #11 §7.5 and #8 §3 as written. (4) Vainshtein screening. For λ_X = 1 kpc the Sun's r_V ≈ 1.2×10³ AU, so the inner Solar System could be screened †. A galaxy with 10¹⁰ M_⊙ inside 1 kpc has r_V ≈ 12 pc, so galactic scales stay unscreened. There lensing and dynamics would differ, with γ = 5/7 at u = 1, the kind of test in Enander and Mörtsell 2013, which the diameter note cites [S]. The massive term would also make G inside λ_X differ from G beyond it. (5) A light dark mediator φ for the transfer factor 1/(q² + m_φ²). It contradicts the benchmark m_φ ~ m_χ (#1 §5.1) and row 2's isotropy if it is also the SIDM mediator. Otherwise it is a new, underived postulate; P4 strict forbids it to couple to SM, and it would make χ and stars fall differently in a χ halo's field (dark-sector equivalence-principle violation). (6) A light massive spin-2 is strongly coupled below 1/Λ3 ≈ 43 m for a kpc range †. None of the routes gives a gated force between ordinary bodies, since the record gives SM quanta no fiber width.",
+   "tag": "[D] inference with executed numbers; screening and Λ3 statements † (literature forms)",
+   "basis": "Diameter note §8.2 (non-aligned vacua and their vacuum energy, Vainshtein convention); p4 numbers; Λ3 = (M_X²M_Pl)^{1/3} †; r_V = (r_S(1+u²)λ²)^{1/3} as in verify/phase_space_diameter.py.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "(M_X/H0)² at 1 kpc; c/H0",
+     "value": "1.98e13; 4.45 Gpc",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "hbar H0 = 1.438e-33 eV ; c/H0 = 4.45 Gpc / lambda = 1 kpc ... (M_X/H0)^2 = 1.98e+13"
+    },
+    {
+     "quantity": "Vainshtein radii for λ_X = 1 kpc, u = 1",
+     "value": "Sun 1.19e3 AU; 1e10 M_⊙ galaxy core 12.4 pc",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "Sun                                                u = 1.0   : r_V = 1.78e+14 m = 1.19e+03 AU = 5.76e-03 pc / galaxy mass inside 1 kpc, 1e10 Msun (illustrative) u = 1.0   : r_V = 3.83e+17 m = 2.56e+06 AU = 1.24e+01 pc"
+    },
+    {
+     "quantity": "1/Λ3 for a 1 kpc range",
+     "value": "42.6 m",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "range 1 kpc   : M_X = 6.39e-27 eV, Lambda_3 = 4.64e-09 eV, 1/Lambda_3 = 4.26e+01 m"
+    }
+   ],
+   "sources": [
+    "papers/phase-space-diameter.md §8.2, References (Enander–Mörtsell 2013)",
+    "papers/broken-born-checkpoint-v2.md §7.3, §7.5, §13 row 2",
+    "notes/debt1a-iv-beta-coefficients.md §2–§3",
+    "notes/broken-born-theory.md §5.1"
+   ]
+  },
+  {
+   "id": "P19",
+   "statement": "Strength mismatch: one interaction cannot be both the SIDM gate and a long-range perturbation of gravity. A long-range χχ force that made dwarf-galaxy cores by scattering (σ0 = 3.7×10⁻²⁴ cm² at 30 km/s, screened-Coulomb σ_T) needs strength A ≈ 1.1×10⁻⁹, which is 3.3×10³¹ G m_χ². That would be catastrophic for halos. Conversely, X at gravitational strength (α = 4/3) with a 37.7 μm range gives σ_T/σ0 = 2×10⁻⁶³. So the record's single X cannot both make σ0 and act at long range: the dual-stress enhancement OP5 would have to switch off at long range. A long-range gated component would have to be a separate, weak (≲ G) interaction that does not make cores.",
+   "tag": "[D] executed (order of magnitude)",
+   "basis": "σ_T = (4πA²/(μ²v⁴)) ln(μv²λ/A), fixed-point solve; Coulomb-log approximations stated; benchmark inputs from #1 §5.1 and Debt 3a.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "required long-range strength / gravity",
+     "value": "A = 1.08e-9; A/(Gm²) = 3.30e31 (1 kpc range)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "v = 30.0 km/s, range 3.09e+19 m: required A = 1.08e-09 (ln = 80); A/(G m^2) = 3.30e+31"
+    },
+    {
+     "quantity": "σ_T/σ0 for X at gravitational strength",
+     "value": "1.99e-63",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "X at alpha = 4/3, 37.7 um, v = 30 km/s: sigma_T = 7.43e-87 cm^2 ; sigma_T/sigma0 = 1.99e-63"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §8, §14 item 5",
+    "notes/debt1a-iv-beta-coefficients.md §3"
+   ]
+  },
+  {
+   "id": "P20",
+   "statement": "Illustration: a v* = 120 km/s gate acting on ordinary matter, which the record does not have. For Mercury, GM/(av*²) = 0.16, and the leading-order gated precession is −2.1β rad per orbit against GR's 5.0×10⁻⁷ rad. β would have to be below about 2.4×10⁻⁷ just to keep the gated shift under GR's own precession. The leading-order formula overestimates by up to about 2× at this GM/(av*²) (P13 table). A gated perturbation between ordinary bodies is excluded unless extremely weak.",
+   "tag": "[D] executed (illustrative)",
+   "basis": "P13 formula with Mercury's a = 0.387 AU, e = 0.2056; GR 6πGM/(ac²(1−e²)).",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "Mercury gated vs GR precession",
+     "value": "−2.088 β rad vs 5.019e-7 rad; β ~ 2.4e-7 for equality",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py",
+     "printed_output": "Mercury: GM/(a v*^2) = 0.159; gated precession per orbit = -2.088e+00 beta rad (leading order); GR = 5.019e-07 rad; ratio = -4.161e+06 beta / beta for which |gated| = GR precession: 2.4e-07"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "P21",
+   "statement": "Paul's literal question, answered for each reading. (R1) X between ordinary bodies, as recorded: an extra attraction on top of Newtonian gravity, of gravitational strength, but confined below 37.7 μm. Its dependence on relative velocity is only the spin-2 factor (3γ²−1)/2 ≈ 1 + (3/2)v²/c², about 10⁻⁷ at 100 km/s, with no gate. Not a velocity-dependent perturbation at astronomical distances. (R2) The record's χχ interaction: strongly dependent on relative velocity (gated at v* ~ 100 km/s), but it is a contact interaction of strength about 10⁴⁰ G, not a perturbation of the 1/r law. Two χ bodies feel it only where they overlap, as gated scattering; their gravity is ungated. (R3) χ with an ordinary body: no. Ordinary gravity only; any X term is sub-38 μm and ungated, or absent at tree level. (R4) GR itself: yes, mildly. In the CM frame the EIH terms are a relative-velocity-dependent correction of relative size [(3+ν)v² + ν(n·v)²]/(2c²), about 10⁻⁷ at 100 km/s, growing with speed and not gated. (R5) The chat-only 'Yukawa in momentum' read as a momentum-space potential: no. It exerts no force (ṗ = 0) and only changes how velocity follows momentum. (R6) Paul's long-range gated model: yes by construction, but it is not in the program as written. It needs a light carrier coupled to χ that cannot also make dwarf cores. It changes inertia at relative order 2β|Φ|/v*² and precesses orbits at (c/v*)² ≈ 4×10⁶ times GR's rate per unit β. Acting on ordinary matter it is excluded unless β ≲ 10⁻⁷.",
+   "tag": "[D] synthesis of P1–P20",
+   "basis": "P1–P20.",
+   "confidence": "medium",
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §7.5, §8, §9",
+    "papers/phase-space-diameter.md §8.2",
+    "HANDOFF.md §4"
+   ]
+  },
+  {
+   "id": "P22",
+   "statement": "The obituary's reach. Debt 3 tested a contact interaction gated in momentum: Debt 3a 'the x-range collapsed to contact', and Debt 3b a gated contact attraction. Its particle-island shortfall of 10²⁸–10³¹ uses a coupling g fixed by σ0. For the program as written there is no long-range gated component, so the obituary stands. A long-range gated force (model b) is a different model that Debt 3 never evaluated. Its mean field carries the long-range kernel ∝ 1/k², so its stability threshold is Jeans-like, not Debt 3a's criterion. Its strength would be ≲ G, not set by σ0 (P19). Whether it clumps, and whether it survives other constraints, is outside this record.",
+   "tag": "[D] (record reading); [O] for the untested model",
+   "basis": "notes/debt3a-stream-stability.md 'Setup'; notes/debt3b-wave-island.md 'Setup'; P12 and P19.",
+   "confidence": "high",
+   "sources": [
+    "notes/debt3a-stream-stability.md",
+    "notes/debt3b-wave-island.md",
+    "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'",
+    "wiki/dark-matter/momentum-clumping/founding-image.md"
+   ]
+  }
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p1_HZ_blocks.py (output p1_HZ_blocks.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p2_spin2_velocity.py (output p2_spin2_velocity.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py (output p3_momentum_mechanics.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_flyby_check.py (output p3_flyby_check.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py (output p4_range_numbers.out)",
+  "Record scripts run unmodified for printed output: /home/paul/git/reinholdtsen/conjugate-matter/verify/phase_space_diameter.py and /home/paul/git/reinholdtsen/conjugate-matter/review/wiki-build-checks/debt3a_check.py"
+ ],
+ "open_questions": [
+  "Does ordinary matter couple linearly to X? The record gives two pictures. In the Siegel parametrization X enters the position block of H_Z only at second order. In the bimetric frame picture, #8 §3 and #11 §7.5 give gravitational strength. The answer decides whether the torsion-balance bound applies to X at all (related: flag 39).",
+  "Is the transfer factor 1/(q² + m_φ²) carried by X (m_φ = M_X) or by a separate dark mediator? If by X, the record's contact gate and row 2's isotropy need M_X ≳ 10–200 keV (λ_X ≲ 10⁻¹¹ m).",
+  "Does the fiber-overlap gate act on graviton exchange between χ quanta? The record says χ gravity is ungated (χ propagates on g; equivalence principle) but derives no reason why only the dual-stress coupling sees the fiber width.",
+  "What is the mean-field stability threshold of a long-range attraction gated in relative velocity (model b) for χ in halos? Its kernel ∝ 1/k² makes it Jeans-like, not Debt 3a's contact criterion. Not evaluated here (clumping task).",
+  "Could the program supply a light, dark-only mediator with strength ≲ G? No document derives one, and P4 strict forbids it to couple to ordinary matter.",
+  "For ranges far beyond the Solar System, the record's 37.7 μm statement does not by itself exclude a gravitational-strength X. Which tests do (Vainshtein-screened Solar System, galaxy-scale lensing against dynamics, lab-versus-cosmology G) is not worked out in the record."
+ ],
+ "caveats": [
+  "Disclosure: before starting I read /home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/STATE.md in the shared script directory. It contains the orchestrator's pre-registration (expected verdict and weakest link), marked 'not shown to agents'. This analysis was done with that text seen.",
+  "The EIH Lagrangian form came through WebFetch summaries of Will 2018 (arXiv:1801.08999). Only its GR-values sentence and an opening fragment were quoted verbatim. The transcription was cross-checked by deriving the equations of motion and matching Wikipedia's EIH acceleration (also read via WebFetch), and by the independent one-graviton derivation. The Darwin anchor is a textbook result cited from memory (†).",
+  "All exchange calculations are at linear order (one-particle exchange, O(G)). No G² terms, Vainshtein nonlinearities or bigravity screened-regime dynamics were computed; statements about screening and Λ3 are from literature forms (†).",
+  "Model (b) numerics use one gate shape (Gaussian), β = 0.2 and 0.5, the two-body relative coordinate, planar motion, and gating in canonical momenta (first-order Hamiltonian). Gating in velocities (the Lagrangian form) differs at O(β²) and has the r* = 2G̃M/v*² inertia singularity.",
+  "The χ–nucleon estimate (P4) rests on the assumptions listed there. The Siegel-block reading (P5) is an inference from the block structure of H_Z; the record's current statement is the bimetric one.",
+  "The Mercury bound (P20) uses the leading-order precession formula, which overestimates by up to about 2× at GM/(av*²) = 0.16. The inertia parameters (P16) use rough potential scales typed by hand.",
+  "Constants are typed by hand (CODATA-level), with H0 = 67.4 km/s/Mpc. No repository file was modified.",
+  "Flags 29 (the 'Yukawa in momentum' tag in #13) and 39 (two actions of ρ) await Paul's rulings."
+ ]
+}

@@ -1,0 +1,74 @@
+hbar c = 1.973270e-07 eV m ; M_Pl = 1.220890e+19 GeV ; reduced = 2.4353e+18 GeV
+
+== P1
+lambda = 37.68 um -> M c^2 = 5.2369 meV
+lambda = 56.98 um -> M c^2 = 3.4631 meV
+lambda = 42.53 um -> M c^2 = 4.6397 meV
+lambda = 30.83 um -> M c^2 = 6.4005 meV
+
+== P2
+G m_chi^2/(hbar c) = 3.2873e-41 ; 1/that = 3.0420e+40  (alpha~ = 1)
+range hbar/(m_chi c) = 2.8190e-15 m
+sigma0 = 3.7436e-24 cm^2
+g = sqrt(pi sigma0)/m = 2.4828e+03 GeV^-2  (record 2.48e3)
+dwarf core: eps_gate = 2.725e-37 GeV, m min(sig,v*)^2 = 7.010e-10 GeV, ratio = 3.888e-28
+MW local: eps_gate = 3.212e-39 GeV, m min(sig,v*)^2 = 1.122e-08 GeV, ratio = 2.864e-31
+
+== P4
+(mu_chiN/(m/2))^2 = 3.4637; alpha G m_N^2 = 7.8703e-39; ratio = 2.7261e-38; sigma_chiN = 1.021e-61 cm^2
+record normalization: sigma0(alpha~=1, m_phi=m_chi=70 MeV) = 3.9944e-24 cm^2 -> sigma0/m = 32.01 cm^2/g; alpha~ for 30 cm^2/g = 0.968
+
+== P6
+v =     30 km/s: m v = 7.005 keV ; hbar/(m v) = 2.8170e-11 m ; 37.7 um/that = 1.338e+06
+v =    120 km/s: m v = 28.019 keV ; hbar/(m v) = 7.0425e-12 m ; 37.7 um/that = 5.353e+06
+v =   1000 km/s: m v = 233.495 keV ; hbar/(m v) = 8.4510e-13 m ; 37.7 um/that = 4.461e+07
+
+== P8
+v =   100 km/s: (v/c)^2 = 1.1127e-07
+v =   120 km/s: (v/c)^2 = 1.6022e-07
+v =   300 km/s: (v/c)^2 = 1.0014e-06
+
+== P9
+2-sigma lower end gamma-1 = -2.50e-05; alpha_max = 5.0003e-05; u_max = sqrt(3 alpha/4) = 6.1239e-03
+gamma at alpha = 4/3: 0.714286 (5/7 = 0.714286); Enander-Mortsell form (1+2c^2/3)/(1+4c^2/3) at c=1: 0.714286
+
+== P13 / P20
+(2/3)(c/v*)^2 = 4.1609e+06
+Mercury: GM/(a v*^2) = 0.1591; gated = -2.0882 beta rad/orbit; GR = 5.0187e-07 rad/orbit; beta at equality = 2.403e-07
+  GR per century: 42.98 arcsec (anchor: 42.98 arcsec/cy)
+
+== P16
+Earth orbit v=29.8                                     : eps/beta = 2|Phi|/v*^2 = 0.1233
+MW v_c=230                                             : eps/beta = 2|Phi|/v*^2 = 7.3472
+MW, |Phi| = v_esc^2/2 with v_esc = 550 (illustrative)  : eps/beta = 2|Phi|/v*^2 = 21.0069
+dwarf 3 sigma^2, sigma=10                              : eps/beta = 2|Phi|/v*^2 = 0.0417
+UFD 3 sigma^2, sigma=4                                 : eps/beta = 2|Phi|/v*^2 = 0.0067
+UFD 3 sigma^2, sigma=3.7                               : eps/beta = 2|Phi|/v*^2 = 0.0057
+co-moving fraction (v*/sigma)^3/(2 pi)^1.5 at sigma = 155: 0.0295; times 7.347 = 0.2165
+alternative definition, <exp(-v_rel^2/v*^2)> over the pair distribution: 0.0470
+
+== P17 / P18
+M_X(1 kpc) = 6.3949e-27 eV ; hbar H0 = 1.4377e-33 eV ; (M_X/H0)^2 = 1.9784e+13 ; c/H0 = 4.448 Gpc
+r_V(Sun, lambda = 1 kpc, u = 1) = 1.7783e+14 m = 1.1887e+03 AU = 5.7631e-03 pc
+r_V(1e10 Msun, lambda = 1 kpc, u = 1) = 3.8313e+17 m = 2.5611e+06 AU = 1.2416e+01 pc
+r_V(Earth, lambda = 1 kpc, u = 1) = 2.5658e+12 m = 1.7151e+01 AU = 8.3151e-05 pc
+r_V(1 kg, lambda = 1 kpc, u = 1) = 1.4142e+04 m = 9.4533e-08 AU = 4.5831e-13 pc
+Earth surface                   : r_S(1+u^2) lambda^2 / r^3 at lambda = 1 kpc = 6.532e+16  (screened if >> 1); lambda at which = 1: 1.207e+11 m
+Sun at 1 AU                     : r_S(1+u^2) lambda^2 / r^3 at lambda = 1 kpc = 1.680e+09  (screened if >> 1); lambda at which = 1: 7.529e+14 m
+MW (1e11 Msun) at 8 kpc         : r_S(1+u^2) lambda^2 / r^3 at lambda = 1 kpc = 3.739e-08  (screened if >> 1); lambda at which = 1: 1.596e+23 m
+galaxy 1e10 Msun within 1 kpc   : r_S(1+u^2) lambda^2 / r^3 at lambda = 1 kpc = 1.914e-06  (screened if >> 1); lambda at which = 1: 2.230e+22 m
+Lambda_3 (reduced M_Pl) = 4.6353e-09 eV ; 1/Lambda_3 = 4.2571e+01 m
+Lambda_3 (unreduced M_Pl) = 7.9332e-09 eV ; 1/Lambda_3 = 2.4874e+01 m
+anchor: m = H0 gives 1/Lambda_3 = 1151 km (Hinterbichler: ~10^3 km)
+Enander-Mortsell window 1e-6 < lambda/r_H < 1e-3 with r_H = c/H0 (H0 = 67.4): 4.45 kpc to 4.45 Mpc
+
+== P14
+|d/dr exp(-r^2/2)| at r = 10 over its max: 3.1800e-21
+
+== P19
+classical log               : A needed = 1.0845e-09; A/(G m^2) = 3.2990e+31
+Born (exact Yukawa sigma_T) : A needed = 1.1699e-09; A/(G m^2) = 3.5588e+31
+Sommerfeld parameter A/v at A = 1.1e-9: 1.10e-05 (<< 1: Born regime, classical log not applicable)
+classical log value ln(lambda mu v^2/A) = 79.91; Born log ln(2 mu v lambda) - 1/2 = 68.67
+X at alpha = 4/3, 37.7 um, 30 km/s, classical log : sigma_T = 7.433e-87 cm^2 ; /sigma0 = 1.986e-63
+X at alpha = 4/3, 37.7 um, 30 km/s, Born (exact)  : sigma_T = 1.041e-87 cm^2 ; /sigma0 = 2.782e-64

@@ -1,0 +1,31 @@
+== pair-averaged gate <W>, v* = 120 km/s
+case                           sigma       r      closed        quad           MC (20 runs)    test-avg
+MW, critic's sigma             155.0  1.2917  1.1072e-01  1.1072e-01  1.1077e-01 +-  6.8e-05  1.1072e-01
+MW, sigma = 170 (240/sqrt2)    170.0  1.4167  8.9071e-02  8.9071e-02  8.9119e-02 +-  6.1e-05  8.9071e-02
+MW, sigma = 165 (233/sqrt2)    164.8  1.3733  9.5926e-02  9.5926e-02  9.5973e-02 +-  6.3e-05  9.5926e-02
+cluster, critic's sigma       1000.0  8.3333  6.0440e-04  6.0440e-04  6.0868e-04 +-  2.8e-06  6.0440e-04
+Coma 1015 - 59                 956.0  7.9667  6.9106e-04  6.9106e-04  6.9594e-04 +-  3.0e-06  6.9106e-04
+Coma 1015                     1015.0  8.4583  5.7818e-04  5.7818e-04  5.8228e-04 +-  2.7e-06  5.7818e-04
+Coma 1015 + 59                1074.0  8.9500  4.8858e-04  4.8858e-04  4.9210e-04 +-  2.4e-06  4.8858e-04
+dwarf core (3a) sigma = 30      30.0  0.2500  8.3805e-01  8.3805e-01  8.3807e-01 +-  4.2e-05  8.3805e-01
+
+== test-particle gate (source-averaged) at the halo's own speeds, MW sigma = 155 and cluster 1000
+  sigma =  155.0: v = 0: 2.2942e-01; v = sigma: 1.6782e-01; v = sqrt(3) sigma: 8.9808e-02
+  sigma = 1000.0: v = 0: 1.6913e-03; v = sigma: 1.0332e-03; v = sqrt(3) sigma: 3.8551e-04
+
+== binding factor b = f_b + (1 - f_b) <W>  (force on a chi particle from all matter, relative to ungated)
+  cosmic f_b (Planck 2018 abstract, Omega_b h^2/(Omega_b h^2 + Omega_c h^2)) = 0.1573
+  MW sigma=155: f_b = 0.046 -> b = 0.1516; f_b = 0.100 -> b = 0.1997; f_b = 0.157 -> b = 0.2506
+  cluster sigma=1000: f_b = 0.130 -> b = 0.1305; f_b = 0.157 -> b = 0.1578
+  (MW f_b = 0.046: stars 5e10 Msun [S: Bland-Hawthorn & Gerhard 2016] + ~1e10 cold gas (dagger) over Mvir 1.3e12 [S, via citing paper])
+
+== crude self-consistency (REDUCED model): chi dispersion set by the force it feels,
+   sigma_chi^2 = b(sigma_chi) * sigma_tr^2 (isothermal scaling at fixed density profile), iterate
+  MW       f_b = 0.046: sigma_chi =   91.30 km/s (r = 0.761), <W> = 0.3155, b = 0.3470
+  MW       f_b = 0.157: sigma_chi =   97.50 km/s (r = 0.813), <W> = 0.2829, b = 0.3957
+  cluster  f_b = 0.130: sigma_chi =  373.45 km/s (r = 3.112), <W> = 0.0109, b = 0.1395
+  cluster  f_b = 0.157: sigma_chi =  405.63 km/s (r = 3.380), <W> = 0.0086, b = 0.1645
+
+== MC re-run with fresh seeds (the runs above reuse one seed set for every case, so their
+   fluctuations are common to all cases): cluster sigma = 1000, 40 runs x 1e6 pairs, seeds 5000-5039
+  MC = 6.0486e-04 +- 2.1e-06; closed = 6.0440e-04; pull = +0.22 sigma

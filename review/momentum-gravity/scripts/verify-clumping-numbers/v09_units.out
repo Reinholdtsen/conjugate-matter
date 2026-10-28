@@ -1,0 +1,42 @@
+Local scales (t_ff = 1/sqrt(4 pi G rho); lambda_J = 2 pi sigma t_ff; r_c = 3 sigma t_ff; t_cross = r_c/sigma)
+  dwarf   : t_ff=25.92 Myr  lambda_J=4.996 kpc  r_c=2.385 kpc  t_cross=77.7 Myr
+  MW      : t_ff=40.98 Myr  lambda_J=40.812 kpc  r_c=19.486 kpc  t_cross=122.9 Myr
+  cluster : t_ff=149.62 Myr  lambda_J=961.449 kpc  r_c=459.058 kpc  t_cross=448.9 Myr
+  solar orbit period 2 pi R0/v_c = 219.0 Myr; (lambda_J/R0)^2 = 24.7714
+  margins: (pi/3)^2=1.0966 (2pi/3)^2=4.3865 pi^2/2=4.9348 2pi^2=19.7392
+
+C11 e-fold conversions t_e = t_ff/Gamma
+  MW      gt=56.14        : Gamma=0.4421 -> t_e=92.7 Myr, t_e/t_orb(219)=0.423, t_e/t_cross=0.754
+  MW      gt=280.7        : Gamma=0.56618 -> t_e=72.4 Myr, t_e/t_orb(219)=0.330, t_e/t_cross=0.589
+  MW      k2=30           : Gamma=0.7783 -> t_e=52.6 Myr, t_e/t_orb(219)=0.240, t_e/t_cross=0.428
+  MW      gt=255 k2=19.7  : Gamma=0.6866 -> t_e=59.7 Myr, t_e/t_orb(219)=0.272, t_e/t_cross=0.485
+  cluster 304.4           : Gamma=0.06569 -> t_e=2277.7 Myr, t_e/t_orb(219)=10.399, t_e/t_cross=5.074
+  cluster 1598            : Gamma=0.02721 -> t_e=5498.8 Myr, t_e/t_orb(219)=25.105, t_e/t_cross=12.250
+  cluster 1522            : Gamma=0.01885 -> t_e=7937.5 Myr, t_e/t_orb(219)=36.238, t_e/t_cross=17.683
+  dwarf   0.2304          : Gamma=0.07069 -> t_e=366.6 Myr, t_e/t_orb(219)=1.674, t_e/t_cross=4.715
+  dwarf   1.152           : Gamma=0.50993 -> t_e=50.8 Myr, t_e/t_orb(219)=0.232, t_e/t_cross=0.654
+
+C6: Debt 3a inputs and shortfalls
+  g = sqrt(pi sigma0/m^2) = 2482.8 GeV^-2
+  dwarf   : 3a eps_gate=2.725e-37 GeV, m min(sig,v*)^2=7.010e-10 GeV, 3a ratio=3.888e-28; linearized g n Lam_g/(m sig^2)=3.273e-28
+  MW      : 3a eps_gate=3.212e-39 GeV, m min(sig,v*)^2=1.122e-08 GeV, 3a ratio=2.864e-31; linearized g n Lam_g/(m sig^2)=8.697e-31
+  cluster : 3a eps_gate=8.970e-43 GeV, m min(sig,v*)^2=1.122e-08 GeV, 3a ratio=7.998e-35; linearized g n Lam_g/(m sig^2)=1.515e-35
+  required-g ratio exact/3a-narrow (2pi)^-1.5/(r Lam_g) at r=1.2917: 0.3293;  exact/3a-broad 1/Lam_g: 6.6985;  (2pi)^-1.5 r^2 = 0.1059
+  required-g ratio exact/3a-narrow (2pi)^-1.5/(r Lam_g) at r=8.3330: 5.2779;  exact/3a-broad 1/Lam_g: 692.6813;  (2pi)^-1.5 r^2 = 4.4089
+  required-g ratio exact/3a-narrow (2pi)^-1.5/(r Lam_g) at r=32.0000: 68.1376;  exact/3a-broad 1/Lam_g: 34340.5037;  (2pi)^-1.5 r^2 = 65.0175
+  required-g ratio exact/3a-narrow (2pi)^-1.5/(r Lam_g) at r=0.2500: 0.3016;  exact/3a-broad 1/Lam_g: 1.1877;  (2pi)^-1.5 r^2 = 0.0040
+
+C10 cap: Lam_g/<W> at r=64: 2.763413258563327  limit 2^1.5 = 2.8284271247461903
+
+C13-C15: dwarf core, m = 70 MeV
+  r_c=2.385 kpc, M(<r_c)=1.4974e+09 Msun, N=2.3861e+67, lnN=155.1
+  G M m/r_c = 2.1029e-09 GeV; contact g n = 2.7252e-37 GeV; ratio=7.717e+27; m sigma^2=7.0097e-10 GeV
+  N_occ dwarf: 3.1935e-25
+  N_occ MW: 9.2618e-28
+  N_occ cluster: 2.5867e-31
+  Rutherford: b90=1.8508e-47 m, sigma_T/m=5.3517e-62 cm^2/g; G~/G for 30 cm^2/g = 2.3676e+31
+  (at mean relative speed 67.7 km/s: sigma_T/m=2.063e-63 cm^2/g)
+  t_relax/t_cross ~ N/(8 lnN) = 1.9225e+64
+
+C16: X range
+  lambda_X/1kpc = 1.2218e-24; hbar c/1kpc = 6.3949e-27 eV; hbar c/37.7um = 5.2341 meV; ratio=8.1848e+23

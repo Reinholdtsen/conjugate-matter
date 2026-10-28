@@ -1,0 +1,10 @@
+ungated beta=0.0048: power excess at z=0.57, k=0.1,0.2 h/Mpc: 0.0374 0.0374
+ungated beta=0.0048: power excess at z=0.32: 0.0379 0.0379
+dens=B v*=  120: eps_equiv(k=0.2 h/Mpc) = 0.5017 ; its excess at k=0.1 h/Mpc = 0.0093 (ungated 0.0374)
+dens=B v*=  300: eps_equiv(k=0.2 h/Mpc) = 0.0853 ; its excess at k=0.1 h/Mpc = 0.0097 (ungated 0.0374)
+dens=B v*= 1000: eps_equiv(k=0.2 h/Mpc) = 0.0135 ; its excess at k=0.1 h/Mpc = 0.0144 (ungated 0.0374)
+dens=B v*= 3000: eps_equiv(k=0.2 h/Mpc) = 0.0067 ; its excess at k=0.1 h/Mpc = 0.0259 (ungated 0.0374)
+dens=A v*=  120: eps_equiv(k=0.2 h/Mpc) = 1.1323 ; its excess at k=0.1 h/Mpc = 0.0093 (ungated 0.0374)
+dens=A v*=  300: eps_equiv(k=0.2 h/Mpc) = 0.1887 ; its excess at k=0.1 h/Mpc = 0.0095 (ungated 0.0374)
+dens=A v*= 1000: eps_equiv(k=0.2 h/Mpc) = 0.0252 ; its excess at k=0.1 h/Mpc = 0.0126 (ungated 0.0374)
+dens=A v*= 3000: eps_equiv(k=0.2 h/Mpc) = 0.0096 ; its excess at k=0.1 h/Mpc = 0.0223 (ungated 0.0374)

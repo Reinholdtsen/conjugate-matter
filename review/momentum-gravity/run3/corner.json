@@ -1,0 +1,390 @@
+{
+ "summary": "I tested the corner (eps > 1, v* <~ 10-30 km/s, sigma ~ v*) of Paul's hypothetical long-range chi-only gated attraction in two ways: a global N-body toy, and small-scale-structure proxies with live-searched data. Setup: direct-summation runs of a cored (Plummer) chi halo; N = 2000; three realizations per case; an eps = 0 control; the gated term switched on adiabatically. The main reading is the record-faithful Hamiltonian one (gate on canonical momentum); the force-law reading was run once for comparison. At eps = 1, 3 and 10, with v* = sigma_0 and 2.5 sigma_0, no velocity-selected structure appeared: no co-moving clumps, streams or coherent flows beyond the control. An injection test puts the sensitivity at about 1-3% of the mass, over 43 central free-fall times after the switch-on. The Hamiltonian reading reorganizes the halo instead. Canonical momenta narrow, so the gate opens further (realized sigma_c/v* = 0.42-0.73). The kinematic dispersion becomes 1.5-11.5 times the canonical one. The halo expands (v* = sigma_0) or contracts (v* = 2.5 sigma_0). The force-law reading contracts and heats it. Both nulls agree with the re-virialized local model at the realized gate ratios. Not tested: slower instabilities, and anything below the two-body relaxation floor (energy diffusion scales as N^-1/2). On observations, linear growth in both readings changes the small-scale power by large factors near k v* ~ 1. Four probes constrain the corner: (1) against WDM-equivalent tolerances from the high-resolution Lyman-alpha bounds, eps = 1 is beyond the 5.3-keV deviation at 0.1 s/km for v* >= 5 km/s in both readings; (2) the Planck optical depth and (3) dwarf central densities exclude eps = 3 at v* = 5-30 km/s and eps = 1 at v* >~ 20-30 km/s; (4) early dense chi clumps would overheat Segue 1 at eps = 1 for v* = 3-20 km/s if they survive, while eps = 0.3 passes. The satellite equivalence-principle test is blind there. Any clumping in the corner would be decorative: nothing in the record fixes eps, no carrier exists, and the corner's gate scale is 4-12 times below the record's v* = 120 km/s. Net: in linear theory and both readings, the corner is excluded for eps >~ 3 and disfavoured for eps ~ 1 at v* >~ 3-5 km/s. What remains open (eps <~ 0.3-1 at v* <~ 3-5 km/s) is where neither the local model nor the N-body gives velocity-selected structure.",
+ "claims": [
+  {
+   "id": "Q1",
+   "statement": "Reading and model used. The corner model U = -G~ m^2 W(|w-w'|/v*)/r (W = exp(-s^2/2), eps = G~/G, added to gravity, chi only) was integrated as a Hamiltonian H = sum p^2/2m + sum U(x_ij, p_ij), with the gate on the canonical momentum per mass w = p/m: xdot_i = w_i + (eps G m/v*^2) sum_j W_ij (w_i - w_j)/r_ij (anomalous velocity), wdot_i = -G m sum_j (1 + eps W_ij)(x_i - x_j)/r_ij^3. Why: #11 sec. 8 puts the gate on the incoming relative momentum k, a canonical momentum; the Hamiltonian form conserves energy, momentum, angular momentum and phase-space volume, so round 2's mean-field (Vlasov) picture applies; the force-law reading (xdot = w, force at fixed velocity) follows from no Lagrangian (critic D1) and does not conserve phase-space volume, so it was run only as a comparison (eps = 3). The model itself is a hypothetical outside the record (round 2 C16: X massive, lambda_X < 37.7 um).",
+   "tag": "[P] model; [D] equations",
+   "basis": "Hamilton's equations for the pair energy; the C kernel was verified against a direct numpy evaluation and against finite-difference derivatives of H (Q3).",
+   "confidence": "high",
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md sec. 8",
+    "round3-inputs/critic-run2.json (gap 1, D1)",
+    "round3-inputs/clumping-analysis.json C16"
+   ]
+  },
+  {
+   "id": "Q2",
+   "statement": "Negative result: the self-consistent isotropic equilibrium solver f = A(-e)^(7/2), e = w^2/2 + Phi(r) + Phig(r,|w|), did not converge for eps > 0. A first version drifted in scale until the grid truncated the halo, showing up as a virial residual equal to the surface term. A version with the half-mass radius pinned each iteration left residuals of 1e-2 to 4 after 4000 iterations. The eps > 0 halos were therefore built dynamically, by switching the gate on adiabatically inside the N-body (Q3). The eps = 0 anchor reproduces the Plummer sphere.",
+   "tag": "[D] with executed script",
+   "basis": "equilibrium.py: 2D (r, |w|) grid with the angle-averaged Gaussian gate kernel and shell-theorem potentials. Anchors are textbook Plummer formulas [T]: rho = (3/4pi)(1+r^2)^-5/2, sigma_0^2 = 1/6, F = 24 sqrt2/(7 pi^3) (-E)^(7/2).",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "eps = 0 anchor: density, dispersion, DF normalization, virial residual",
+     "value": "3.55e-4; 0.40827 vs 0.40825; 0.156257 vs 0.156379; 7.25e-12",
+     "printed_output": "max |rho/rho_Plummer - 1| (r<10) = 3.55e-04 ... sigma_c = 0.40827 (Plummer central 1D dispersion sqrt(1/6) = 0.40825); r_h = 1.30476 (target 1.30477); virial residual = 7.25e-12 ... DF normalization A: model 0.156257 vs textbook 24 sqrt2/(7 pi^3) = 0.156379",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/equilibrium.py"
+    },
+    {
+     "quantity": "non-convergence residuals (dPhi, dPhig, lam-1) after 4000 iterations",
+     "value": "eps=1, r_g=1: 0.19, 0.089, -0.056; eps=10, r_g=1: 0.93, 4.2, -0.16",
+     "printed_output": "1.0  1.00 |  4000 ... conv 1.9e-01,8.9e-02,-5.6e-02 ... 10.0  1.00 |  4000 ... conv 9.3e-01,4.2e+00,-1.6e-01",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/equilibrium.py"
+    }
+   ]
+  },
+  {
+   "id": "Q3",
+   "statement": "N-body setup and verification. Direct-summation C kernel (O(N^2), no memory load); implicit-midpoint integrator (symplectic, time-symmetric; dt = 0.01, fixed-point tolerance 1e-9); Plummer softening b = 0.1 on both channels; units G = M = a = 1. Initial conditions: the Plummer sphere. eps(t) = eps_f(3u^2 - 2u^3), u = t/15, then held fixed to t = 40. v* = sigma_0/r_g with sigma_0 = sqrt(1/6) (gravitational velocity scale), r_g = 1 and 0.4. Runs: N = 2000, 3 seeds each, at eps = 0, 1, 3, 10 (H reading), plus eps = 3 in the F reading; N = 1000 at eps = 0 and 10 to test N-dependence; 29 runs in all. After the ramp, energy is conserved to <= 1.8e-5 (H), momentum to ~1e-17, and angular momentum to all printed digits. The F reading drifts in energy by 2-4%, as expected for a non-conservative force law. Two-body relaxation time for gravity alone (Spitzer form [T, dagger]): 61.5 units at N = 2000.",
+   "tag": "[D] with executed script",
+   "basis": "kernel_test.py compares the kernel with numpy and with central finite differences of H; run logs print the conservation laws; phys_scales.py gives the time scales.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "kernel vs numpy; Hamilton's equations by finite differences",
+     "value": "<= 1.6e-15; wdot 0.1195929835 vs -dH/dx 0.1195929855; xdot -0.8712174350 vs dH/dw -0.8712174190",
+     "printed_output": "max |wdot - ref| = 5.551115123125783e-16  max |xdot - ref| = 8.881784197001252e-16  max |phi-ref| = 1.5543122344752192e-15 / Hamilton check particle 7 comp 1: -dH/dx / m = 0.1195929855 vs wdot = 0.1195929835; dH/dw / m = -0.8712174190 vs xdot = -0.8712174350",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/kernel_test.py"
+    },
+    {
+     "quantity": "energy conservation after the ramp",
+     "value": "4.6e-6 (eps=10, r_g=1), 1.8e-5 (eps=10, r_g=0.4), 1.8e-6 (eps=1), 8.6e-7 (eps=0); F reading 2.0e-2 to 3.8e-2",
+     "printed_output": "energy after the ramp (eps fixed): max|dE/E| = 4.63e-06 ... = 1.78e-05 ... = 1.84e-06 ... = 8.62e-07 ... [F] = 2.21e-02 ... 1.98e-02 ... 3.76e-02",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/run_nbody.py"
+    },
+    {
+     "quantity": "central free-fall time, post-ramp window, relaxation time",
+     "value": "t_ff = 0.5774; window = 43.3 t_ff; t_rh = 61.5 (N=2000), 34.3 (N=1000)",
+     "printed_output": "Plummer central t_ff = 0.5774 N-body units; post-ramp window 25 units = 43.3 t_ff ... N = 2000: t_rh (Spitzer, gravity only) = 61.5 N-body units",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/phys_scales.py"
+    }
+   ]
+  },
+  {
+   "id": "Q4",
+   "statement": "Main global-dynamics result: no velocity-selected structure appears in a cored, self-gravitating chi halo with sigma ~ v* at eps = 1, 3 or 10, in either reading. Over t = 20-40 (3 seeds), all differences from the eps = 0 control are small: the 6D pair excess Xi(v*/2) (pairs closer than 0.25 r50 in position and v*/2 in canonical momentum, relative to shell-reassigned velocities) differs by +0.014 to +0.039, each within 2 standard errors; Xi(v*) by +0.007 to +0.023; stream statistics S1 and S2 by <= 0.16 (S1 is at most 3.9 sigma, because the control sits below its isotropic value of 0); bulk-flow power R_v by +0.03 +- 0.03 in the H runs. None of these grows: the slopes of Xi(v*/2) are within the spread of the control's own slopes. The F reading shows a marginal R_v excess (+0.103 +- 0.037) with no counterpart in Xi or S_l. The small positive Xi(v*) offsets do not grow with eps (+0.0137 at eps = 1, +0.0086 at eps = 10, r_g = 1), consistent with two-body correlations of order (1 + eps W)/N rather than a collective mode (interpretation). For comparison, injecting 2% of the particles as co-moving clumps raises Xi(v*/2) by 0.15 in one snapshot, and 5% raises it by 0.46; a 5% stream raises S1 by 0.87 and S2 by 0.93.",
+   "tag": "[D] with executed scripts",
+   "basis": "diagnostics.py on all 29 runs, aggregated as mean +- standard error over seeds; summary_numbers.py for differences from the control; injection_test.py for sensitivity.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "eps = 0 control (N=2000), post-ramp",
+     "value": "Xi(v*) = -0.0089 +- 0.0036; Xi(v*/2) = -0.0204 +- 0.0173; S1 = -0.150 +- 0.038; S2 = -0.051 +- 0.051; R_v = 1.012 +- 0.024",
+     "printed_output": "=== reading H, eps = 0, r_g = 0, N = 2000, seeds = 3 ... xi_u1 = -0.0089 +- 0.0036; xi_u05 = -0.0204 +- 0.0173; ... S1 = -0.1499 +- 0.0377; S2 = -0.0513 +- 0.0512; ... Rv = +1.0120 +- 0.0236",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/diagnostics.py"
+    },
+    {
+     "quantity": "H, eps = 10, r_g = 1, post-ramp and growth",
+     "value": "Xi(v*/2) = -0.0069 +- 0.0063; S2 = +0.005 +- 0.038; slope of Xi(v*/2) = +0.00095 +- 0.00055 per unit time",
+     "printed_output": "=== reading H, eps = 10, r_g = 1, N = 2000 ... xi_u05 = -0.0069 +- 0.0063 ... S2 = +0.0047 +- 0.0375 ... d(xi_u05)/dt over t >= 15: +0.00095 +- 0.00055 per unit time",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/diagnostics.py"
+    },
+    {
+     "quantity": "differences from the control (N=2000)",
+     "value": "see printed output; largest: F dRv = +0.103 +- 0.037; H eps=10 r_g=1 dS1 = +0.163 +- 0.042",
+     "printed_output": "F eps=3 r_g=1: ... dxi_u1 = +0.0231 +- 0.0111; dxi_u05 = +0.0255 +- 0.0417; dS1 = +0.1328 +- 0.0385; dS2 = +0.0960 +- 0.0526; dRv = +0.1033 +- 0.0368 / H eps=1 r_g=1: ... dxi_u1 = +0.0137 +- 0.0046; dxi_u05 = +0.0392 +- 0.0231 ... / H eps=3 r_g=1: ... dxi_u05 = +0.0201 +- 0.0182 ... / H eps=10 r_g=1: ... dxi_u1 = +0.0086 +- 0.0052; dxi_u05 = +0.0135 +- 0.0184; dS1 = +0.1629 +- 0.0421; dS2 = +0.0561 +- 0.0634; dRv = +0.0330 +- 0.0284",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/summary_numbers.py"
+    },
+    {
+     "quantity": "injection response (eps=10 snapshot, t=40)",
+     "value": "original Xi(v*/2) = 0.0852; clumps 2%: 0.2339; 5%: 0.5473; stream 5%: S1 0.8181, S2 1.1262",
+     "printed_output": "original: ... = +0.0146 +0.0852 -0.0485 +0.1982 +1.1505 / clumps f = 0.02: +0.0409 +0.2339 -0.1655 +0.2657 +1.2606 / clumps f = 0.05: +0.0453 +0.5473 +0.3969 +0.4744 +1.3544 / stream f = 0.05: +0.0165 +0.1083 +0.8181 +1.1262 +1.1489",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/injection_test.py"
+    },
+    {
+     "quantity": "control's own growth slope (scale of noise trends)",
+     "value": "d(S2)/dt = +0.0144 +- 0.0021 (eps=0); d(Xi(v*/2))/dt = +0.0045 +- 0.0006 (eps=0, N=1000)",
+     "printed_output": "=== reading H, eps = 0, r_g = 0, N = 2000 ... d(S2)/dt over t >= 15: +0.01435 +- 0.00214 per unit time / N = 1000 ... d(xi_u05)/dt over t >= 15: +0.00453 +- 0.00064",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/diagnostics.py"
+    }
+   ]
+  },
+  {
+   "id": "Q5",
+   "statement": "Instead of clumping, the Hamiltonian reading reorganizes the halo. Canonical momenta narrow, so the gate measured on them opens further: realized core sigma_c/v* = 0.73, 0.61, 0.54 at eps = 1, 3, 10 (r_g = 1), and 0.42, 0.45, 0.48 (r_g = 0.4), against 0.90 in the control. Kinematic velocities (xdot) become much larger than canonical ones: sigma_kin/sigma_c = 1.77, 3.88, 11.5 (r_g = 1) and 1.48, 2.40, 5.49 (r_g = 0.4). The halo expands at r_g = 1 (r50 x1.25, x1.48, x1.65) and contracts at r_g = 0.4 (x0.87, x0.80, x0.74). The force-law reading at eps = 3 contracts it (r50 x0.685) and heats it, with realized sigma/v* = 1.25. So whether chi-only extra gravity makes a dwarf halo denser or puffier depends on the reading and the gate width. In the H reading the gate keeps acting on canonical momenta even when physical velocities exceed v* by large factors.",
+   "tag": "[D] with executed scripts",
+   "basis": "Post-ramp core statistics from diagnostics.py; ratios from summary_numbers.py.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "sigma_k/sigma_c and r50/r50(0) per run group",
+     "value": "F eps3: 1.00, 0.685; H eps1 rg0.4: 1.48, 0.874; H eps1 rg1: 1.77, 1.254; H eps3 rg0.4: 2.40, 0.797; H eps3 rg1: 3.88, 1.482; H eps10 rg0.4: 5.49, 0.735; H eps10 rg1: 11.50, 1.647",
+     "printed_output": "F eps=3 r_g=1: sig_k/sig_c = 1.00; r50/r50(t=0) = 0.685 ... H eps=1 r_g=0.4: sig_k/sig_c = 1.48; r50/r50(t=0) = 0.874 ... H eps=10 r_g=1: sig_k/sig_c = 11.50; r50/r50(t=0) = 1.647",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/summary_numbers.py"
+    },
+    {
+     "quantity": "realized core r_c = sigma_c/v*",
+     "value": "eps1: 0.7294 (rg1), 0.4167 (rg0.4); eps3: 0.6094, 0.4493; eps10: 0.5448, 0.4806; F eps3: 1.2545; control 0.8997",
+     "printed_output": "r_c = +0.7294 ... r_c = +0.4167 ... r_c = +0.6094 ... r_c = +0.4493 ... r_c = +0.5448 ... r_c = +0.4806 ... [F] r_c = +1.2545 ... [eps=0] r_c = +0.8997",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/diagnostics.py"
+    }
+   ]
+  },
+  {
+   "id": "Q6",
+   "statement": "Relaxation and the window. The rms change of each particle's mean-field energy grows as N^-1/2: the ratio N=1000/N=2000 is 1.425 at eps = 0 and 1.369 at eps = 10, against sqrt2 = 1.414. So that evolution is two-body relaxation, not a collective mode. The gate speeds relaxation up: the squared ratio to the control is 6.0 at eps = 10 (H) and 16 for the F reading at eps = 3 (partly from its contraction). The 43-free-fall-time window corresponds to 0.37-0.64 Gyr in a classical dSph core and 0.12 Gyr in Segue 1. A dwarf's 10 Gyr spans 668-1155 such times (3683 in Segue 1). The run therefore excludes velocity-selected instabilities with e-folding times shorter than roughly the window, at the sensitivity of Q4. Slower collisionless instabilities, and anything below the relaxation floor, are not excluded.",
+   "tag": "[D] with executed scripts; densities [S]",
+   "basis": "summary_numbers.py, phys_scales.py. Dwarf densities: Read, Walker & Steger 2019, rho_DM(150 pc) = 0.79-2.36e8 Msun/kpc^3 [S, ar5iv Table 1]. Segue 1 density from Simon et al. 2011 [S].",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "D_e N-scaling and gate enhancement",
+     "value": "1.425 and 1.369 (sqrt2 = 1.414); squared ratios 6.00 (H eps10) and 16.23 (F eps3)",
+     "printed_output": "eps=0: D_e(N=1000)/D_e(N=2000) = 1.425 (sqrt2 = 1.414) / eps=10: D_e(N=1000)/D_e(N=2000) = 1.369 / (D_e(eps=10, r_g=1)/D_e(eps=0))^2 at N=2000 = 6.00 / (D_e(F, eps=3)/D_e(eps=0))^2 at N=2000 = 16.23",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/summary_numbers.py"
+    },
+    {
+     "quantity": "window in physical time",
+     "value": "classical dSph t_ff = 8.66-14.96 Myr, 43 t_ff = 0.372-0.643 Gyr; Segue 1 t_ff = 2.71 Myr, 43 t_ff = 0.117 Gyr",
+     "printed_output": "classical dSph, 0.79e8 Msun/kpc^3: t_ff = 14.96 Myr; 43 t_ff = 0.643 Gyr; 10 Gyr = 668 t_ff / classical dSph, 2.36e8 Msun/kpc^3: t_ff = 8.66 Myr; 43 t_ff = 0.372 Gyr; 10 Gyr = 1155 t_ff / Segue 1, 2.40 Msun/pc^3: t_ff = 2.71 Myr; 43 t_ff = 0.117 Gyr; 10 Gyr = 3683 t_ff",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/phys_scales.py"
+    }
+   ]
+  },
+  {
+   "id": "Q7",
+   "statement": "The global null agrees with round 2's local model once the equilibrium absorbs the gate's binding (re-virialization) and the realized gate ratio is used. The ratio Lambda_g/<W> caps the effect: below the core margin Q = 1.0966 for r <= 0.66 (1.0228 at r = 0.4, 1.0580 at 0.55, 1.0929 at 0.66), so no eps destabilizes there. At r = 1 the onset is eps = 9.78, at r = 1.5 it is 12.1, and the force-law run's realized r = 1.25 lies between them, above its eps = 3. The l = 1 (velocity-dipole) caps are 0.13-0.47 for r <= 1, so those modes never go unstable. Without re-virialization, the crossover 1/Lambda_g at the realized r (1.5-2.3) is below eps = 3 and 10, yet no velocity-selected mode appeared. The global halo behaves as the re-virialized picture says, well beyond the local model's validity limit (eps < 1.26-2.0 at these r).",
+   "tag": "[D] with executed script (round-2 formulas, not re-derived)",
+   "basis": "local_compare.py re-implements the critic c5 radial Nystrom operator and checks it against clumping C3. It uses the closed forms Lambda_g, q, <W> from clumping C3 and C10 and the validity limit from c5.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "anchor and caps/thresholds",
+     "value": "Lambda_0(1.2917,10) = 2.30503422; r=0.40: cap 1.0228 -> inf; r=0.55: 1.0580 -> inf; r=0.66: 1.0929 -> inf; r=1.00: threshold 9.781; r=1.50: 12.08",
+     "printed_output": "anchor: Lambda_0(1.2917, 10) = 2.30503422 (clumping C3: 2.30503422) ... r = 0.55: Lambda_g = 0.5203 ... crossover 1/Lambda_g = 1.922, re-virialized cap Lambda_g/<W> = 1.0580 (core margin Q = 1.0966) -> re-virialized l=0 threshold eps = inf; l=1 cap Lambda_g q/<W> = 0.2070; local validity eps < 1.422 ... r = 1.00: ... re-virialized l=0 threshold eps = 9.781; l=1 cap Lambda_g q/<W> = 0.4685; local validity eps < 1.257",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/local_compare.py"
+    }
+   ]
+  },
+  {
+   "id": "Q8",
+   "statement": "High-resolution Lyman-alpha forest (task 2d). In velocity units the gate acts at y = k v* (the same at every z), so k = 0.05-0.2 s/km probes y ~ 1 for v* ~ 5-20 km/s, where the compressed DESI pivot is barely affected. The two readings respond oppositely at those scales. Force-law (K4): enhancement for y >~ 0.5. Hamiltonian (c4b): suppression at y ~ 1-2, then enhancement for y >~ 2.5. The tolerance proxy is the WDM suppression at the published bounds, 5.3 keV (smooth thermal history) and 3.5 keV (non-smooth) [S]: allowed |T^2 - 1| at 0.1 s/km is 0.045 and 0.121 (z = 4.2). Result: eps = 1 exceeds the 5.3-keV deviation at 0.1 s/km for every v* >= 5 km/s in both readings, and the 3.5-keV deviation for v* >= 7 (H; except v* = 20, where H passes near T^2 = 1) and for v* >= 5 (K4). eps >= 3 is beyond both at v* >= 5 km/s, by factors of several to orders of magnitude. At v* = 3 km/s, eps = 1 passes in H and only exceeds the 5.3-keV level in K4. eps = 0.3 passes in H for v* <= 7 km/s but exceeds 3.5 keV in K4 for v* >= 10.",
+   "tag": "[D] with executed script; bounds [S]",
+   "basis": "obs_corner.py part A runs linear_corner.py's two-fluid linear growth in both readings, with kernels R, Rv, Ra, J_W recomputed and matched to c4b at y = 1. WDM fit: Viel et al. 2005, T^2 = [1 + (alpha k)^2nu]^-10/nu, nu = 1.12, alpha = 0.049 (m/keV)^-1.11 (Omega/0.25)^0.11 (h/0.7)^1.22 Mpc/h [S via search summaries]. This is a one-number template comparison, not a likelihood; an enhancement is treated like a suppression of the same size.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "WDM tolerances at z = 4.2, k = 0.05/0.1/0.2 s/km",
+     "value": "5.3 keV: 0.0097/0.0451/0.1941; 3.5 keV: 0.0271/0.1209/0.4472",
+     "printed_output": "WDM 5.3 keV: T2 = [0.9903 0.9549 0.8059]  -> allowed |T2-1| proxy [0.0097 0.0451 0.1941] / WDM 3.5 keV: T2 = [0.9729 0.8791 0.5528]  -> allowed |T2-1| proxy [0.0271 0.1209 0.4472]",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py"
+    },
+    {
+     "quantity": "gated T^2 at 0.05/0.1/0.2 s/km (examples)",
+     "value": "H v*=10 eps=1: 0.927/0.754/0.932; K4 v*=10 eps=1: 1.2/1.92/6.91; H v*=3 eps=1: 0.993/0.974/0.897; K4 v*=3 eps=1: 1.02/1.07/1.29; H v*=10 eps=3: 0.727/0.0707/0.0198; K4 v*=10 eps=3: 1.71/7.1/302",
+     "printed_output": "v*=10: ... e1:0.927/0.754/0.932 B35(0.05) ... e3:0.727/0.0707/0.0198 B35(0.05) [H] / v*=10: ... e1:1.2/1.92/6.91 B35(0.05) ... e3:1.71/7.1/302 B35(0.05) [K4] / v*= 3: ... e1:0.993/0.974/0.897 ok [H] / v*= 3: ... e1:1.02/1.07/1.29 B53(0.05) [K4]",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py"
+    },
+    {
+     "quantity": "pivot nearly unaffected (k = 0.009 s/km)",
+     "value": "H v*=10 eps=1: T^2 = 0.998; K4: 1.01",
+     "printed_output": "H  v*=10 eps= 1 | z=5.0:     0.998 ... / K4 v*=10 eps= 1 | z=5.0:      1.01",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/linear_corner.py"
+    }
+   ],
+   "sources": [
+    "Irsic et al. 2017, PRD 96, 023522, arXiv:1702.01764 [S, search summary]",
+    "Viel et al. 2005 fit [S, via search summaries citing it]"
+   ]
+  },
+  {
+   "id": "Q9",
+   "statement": "Reliability of the linear theory used in Q8 and Q10-Q13. Both systems' implementations reproduce the analytic uniform-limit Einstein-de Sitter growth exponents to five digits. The Hamiltonian-reading system (critic c4b, unreviewed) leaves its regular regime at eps >= 2.25-2.29: the coefficient (1 + b) of the velocity term then crosses zero near y = 1.42, so its predictions at eps >= 3 are not trustworthy. The force-law (K4) reading gives exclusions there on its own. For eps >= 3, both readings put all scales <~ 1e4-1e6 Msun beyond collapse before z = 150, so linear theory itself breaks down and the proxies are only qualitative there.",
+   "tag": "[D] with executed scripts",
+   "basis": "eds_check.py integrates the same right-hand sides in EdS. h_reading_sign.py evaluates eps = -2/(Omega_c R_a) at the minimum of R_a.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "EdS exponents, numerical vs analytic",
+     "value": "K4 eps=3: 3.00000 vs 3.00000; H eps=10: 9.70301 vs 9.70301",
+     "printed_output": "K4 eps =  3.0: numerical growth exponent = 3.00000, analytic = 3.00000 ... H  eps = 10.0: numerical growth exponent = 9.70301, analytic = 9.70301",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/eds_check.py"
+    },
+    {
+     "quantity": "eps where (1+b) = 0 in the H system",
+     "value": "2.248 (z=50), 2.293 (z=3), at y = 1.42",
+     "printed_output": "min R_a = -1.07121 at y = 1.420; R_a(1) = -0.87168 / z = 50.0: Om_c = 0.8305; (1+b) = 0 at y = 1.42 for eps = 2.248 ... / z = 3.0: Om_c = 0.8143; (1+b) = 0 at y = 1.42 for eps = 2.293",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/h_reading_sign.py"
+    }
+   ]
+  },
+  {
+   "id": "Q10",
+   "statement": "Central densities of dwarfs (task 2a). Inside dwarfs with v* > sigma the gated term acts as extra chi-only gravity, and stars measure only the gravitational mass, so the test runs through formation epochs. Proxy: the 1-sigma collapse redshift (sigma(M, z_c) = 1.686), with density scaling as (1+z_c)^3. For 1e9 Msun, typical of classical-dSph pre-infall masses (0.8-22e9 Msun [S]), the density ratio to LCDM is: eps = 1: x0.95/x1.24 (H/K4) at v* = 5, x0.97/x2.17 at 10, x2.14/x6.6 at 20, x5.0/x14.7 at 30 km/s. eps = 3: x38-2000. eps = 10: no collapse epoch, since everything collapses before z = 150. The observed rho_DM(150 pc) = 0.79-2.36e8 Msun/kpc^3 is CDM-consistent per Read et al. [S], so factors >~ 2 would be in tension. That excludes eps = 3 at v* = 5-30 km/s and eps = 1 at v* >~ 20 km/s (H) or >~ 10 km/s (K4), within this proxy.",
+   "tag": "[D] with executed script; data [S]",
+   "basis": "obs_corner.py part B gives sigma(M,z) from the EH98 LCDM spectrum times the gated T^2 (both readings). The proxy follows dark-tests K11. It assumes the gate stays open through collapse; for halos whose virial velocity exceeds v* the gate partly closes, so it overstates the effect there (inference).",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "z_c and density proxy (examples)",
+     "value": "LCDM z_c(1e9) = 2.61; K4 eps=1 v*=10: z_c(1e9) = 3.7, x2.17; H eps=1 v*=20: 3.6, x2.14; K4 eps=3 v*=10: 18.4, x155",
+     "printed_output": "LCDM: ... 1e+09: 2.61 ... / K4 eps= 1 v*=10: z_c ... 1e+09:3.7 ... density proxy vs LCDM: 1e9: x2.17, 1e10: x1.32 / H  eps= 1 v*=20: ... 1e+09:3.6 ... 1e9: x2.14 / K4 eps= 3 v*=10: ... 1e+09:18.4 ... 1e9: x155, 1e10: x63.8",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py"
+    }
+   ],
+   "sources": [
+    "Read, Walker & Steger 2019, MNRAS 484, 1401, arXiv:1808.06634, Table 1 [S, ar5iv]"
+   ]
+  },
+  {
+   "id": "Q11",
+   "statement": "Reionization optical depth (task 2c). Toy model: Q(z) = min(1, zeta f_coll(>1e8 Msun)), with Press-Schechter f_coll from the gated sigma(M,z). Calibrated in LCDM it gives tau = 0.054, completion at z = 5.65 and midpoint z = 7.05. Two calibrations for the gated models: (i) the same zeta; (ii) zeta re-fit so reionization ends at z = 6. Against Planck tau = 0.054 +- 0.007 [S], under (ii): eps = 1 gives 0.057/0.059 (H/K4) at v* = 5, 0.056/0.068 at 10, 0.071/0.101 at 20, 0.097/0.136 at 30 km/s. eps = 3 gives >= 0.188 at every v* = 5-30. So eps = 3 is excluded and eps = 1 is excluded for v* >~ 20 km/s (K4) or >~ 30 km/s (H), unless the ionizing efficiency of early halos is suppressed by large factors. Milky Way satellite counts, as a WDM-template proxy (6.5 keV [S]), bound only the H reading's suppression: eps = 1 at v* = 3-5 km/s is beyond it at k = 10-20/Mpc. The K4 enhancement is not bounded by counts alone. High-z galaxy abundance was not computed.",
+   "tag": "[D] with executed scripts; data [S]",
+   "basis": "obs_corner.py part C (He I with H; He II below z = 3.5; Y_p = 0.245 [dagger]). sat_proxy.py.",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "LCDM calibration",
+     "value": "zeta = 7.34, tau = 0.0540, end z = 5.65, midpoint 7.05",
+     "printed_output": "C. tau toy model: LCDM zeta = 7.34 gives tau = 0.0540, reionization complete at z = 5.65, midpoint z = 7.05; with Q(6) = 1 instead: tau = 0.0575",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py"
+    },
+    {
+     "quantity": "tau (ii) examples",
+     "value": "H eps1 v*20: 0.071; K4 eps1 v*20: 0.101; K4 eps3 v*5: 0.188; H eps3 v*10: 0.466",
+     "printed_output": "H  eps= 1 v*=20: ... (ii) Q(6) = 1: 0.071 / K4 eps= 1 v*=20: ... (ii) Q(6) = 1: 0.101 / K4 eps= 3 v*= 5: ... (ii) Q(6) = 1: 0.188 / H  eps= 3 v*=10: ... (ii) Q(6) = 1: 0.466",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py"
+    },
+    {
+     "quantity": "satellite proxy",
+     "value": "WDM 6.5 keV T^2 at 10/20/40 per Mpc: 0.9627/0.837/0.4443; H v*=5 eps=1 at z=3: 0.882/0.684/2.13 [SS-]",
+     "printed_output": "WDM 6.5 keV: T2 at k = [10. 20. 40.] /Mpc: [0.9627 0.837  0.4443] / v*= 5: e1: z6 0.928/0.754/0.916 z3 0.882/0.684/2.13 [SS-]",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/sat_proxy.py"
+    }
+   ],
+   "sources": [
+    "Planck 2018 VI, arXiv:1807.06209, tau = 0.054 +- 0.007 [S, search summary]",
+    "Nadler et al. 2021, PRL 126, 091101, m_WDM > 6.5 keV [S, search summary]"
+   ]
+  },
+  {
+   "id": "Q12",
+   "statement": "Ultra-faint-dwarf heating (task 2e). Early, dense chi clumps would heat Segue 1's stars through gravity alone. The heating rate, derived here from Chandrasekhar's coefficients [T] for massless stars in a Maxwellian of clumps, is d sigma_*^2/dt = (8 sqrt(2pi)/3) G^2 f rho M_c lnL sigma_c^2/(sigma_c^2 + sigma_*^2)^(3/2). With Segue 1's sigma = 3.7 km/s, M(<r_1/2) = 5.8e5 Msun and R_1/2 = 29 pc [S] (mean DM density 2.40 Msun/pc^3), over 12 Gyr [dagger] and with lnL = 5, compact clumps must satisfy sum f M_c < 7.88 Msun. Only clumps that collapsed at z > 87.7 are denser than Segue 1 (mapping of Graham & Ramani 2024 [S]). Press-Schechter heating moment at that epoch: LCDM 4e-15 Msun. eps = 0.3: <= 0.002 Msun at v* = 3-20 km/s. eps = 1: 34-39 (v* = 3), 131-164 (5), 742-1050 (10), 2690-5030 (20) Msun. eps = 2: 3e3-2e4 Msun. If the clumps survive and are compact, eps >~ 1 is excluded at v* >= 3 km/s.",
+   "tag": "[D] with executed scripts; inputs [S]",
+   "basis": "obs_corner.py part D and segue_heating.py, using linear sigma(M, z = 87.7) in both readings. Extended clumps (size ~5-20 pc at 1e3-1e5 Msun) would lower lnL and the heating by a few (estimate, not computed).",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "heating limit and minimum collapse redshift",
+     "value": "f M_c < 7.88 Msun; z_c > 87.7",
+     "printed_output": "D. Segue 1: mean DM density inside r_1/2 = 38.7 pc: 2.40 Msun/pc^3; heating limit for compact clumps (f M_c) < 7.88 Msun (lnL = 5.0, 12.0 Gyr, Delta sigma^2 < sigma^2) / clumps denser than that (rho_s = 86.3 rho_m(z_c)) need z_c > 87.7",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py"
+    },
+    {
+     "quantity": "heating moments",
+     "value": "LCDM 4.0e-15; H v*=3 eps=0.3: 1.95e-6, eps=1: 38.8; H v*=10 eps=1: 1.05e3; K4 v*=10 eps=1: 742",
+     "printed_output": "LCDM: ... heating moment H = 4.026e-15 Msun (limit 7.88) / H  v*= 3: eps=0.3: ... H=1.95e-06 Msun | eps=1: ... H=38.8 Msun >limit ... / H  v*=10: ... eps=1: ... H=1.05e+03 Msun >limit / K4 v*=10: ... eps=1: ... H=742 Msun >limit",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/segue_heating.py"
+    }
+   ],
+   "sources": [
+    "Simon et al. 2011, arXiv:1007.4198 [S, search summary]",
+    "Graham & Ramani 2024, PRD 110, arXiv:2404.01378 [S, abstract and HTML]"
+   ]
+  },
+  {
+   "id": "Q13",
+   "statement": "Equivalence-principle and tidal tests in satellites (task 2b) are blind in the corner. The gate between a satellite's chi and the host's chi is closed at orbital speeds. For Sgr in a 150 km/s host (round-2 inputs), <W> = 4.3e-6, 3.5e-5, 2.8e-4 and 9.5e-4 at v* = 5, 10, 20 and 30 km/s; a 10% EP limit therefore gives eps < 2.3e4, 2.9e3, 359 and 105. Stars and chi fall alike toward the host. Inside the satellite the gate is open (Segue 1: sigma/v* = 0.74, 0.37, 0.12 at v* = 5, 10, 30), so chi is more tightly self-bound than the gravitational mass the stars trace. That shifts the chi tidal radius outward relative to the stars and would leave stellar stripping unchanged at a given mass profile; no bound was computed.",
+   "tag": "[D] with executed script",
+   "basis": "phys_scales.py uses the critic c5 gate-average formula and reproduces c5's Sgr limits (2.89e3 at 10, 105 at 30, 1.52 at 120 km/s). Sgr kinematics from dark-tests K13 [S]. The tidal statement is a qualitative inference.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "Sgr-host gate factor and EP limit",
+     "value": "v*=10: 3.456e-5, eps < 2.89e3; v*=30: 9.530e-4, eps < 105",
+     "printed_output": "v* =  10 km/s: Sgr-host <W> = 3.456e-05; 10% EP limit -> eps < 2.89e+03 / v* =  30 km/s: Sgr-host <W> = 9.530e-04; 10% EP limit -> eps < 105",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/phys_scales.py"
+    }
+   ]
+  },
+  {
+   "id": "Q14",
+   "statement": "Other probes (task 2e). The CMB and large-scale structure are blind: the comoving gate radius v*/(aH) is 7.0 kpc at z = 1090 and 148.5 kpc at z = 0 for v* = 10 km/s (20.9 and 445.4 kpc for 30 km/s). Not computed, but expected to bear on the early dense clumps: strong-lensing flux ratios, stellar-stream gaps, cosmic-dawn 21-cm, and dynamical friction in dwarfs. On the last, chi wakes with enhanced self-gravity would raise friction, the opposite of the founding image's suppressed friction (inference).",
+   "tag": "[D] with executed script; rest [O]",
+   "basis": "linear_corner.py gate-radius lines.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "comoving gate radius [kpc] at z = 1090,100,30,10,5,3,0",
+     "value": "v*=10: 7.0, 25.9, 47.3, 79.5, 107.3, 129.9, 148.5",
+     "printed_output": "v* = 10 km/s: comoving gate radius s_c [kpc] at z = 1090, 100, 30, 10, 5, 3, 0: 7.0, 25.9, 47.3, 79.5, 107.3, 129.9, 148.5",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/linear_corner.py"
+    }
+   ]
+  },
+  {
+   "id": "Q15",
+   "statement": "Mandatory or decorative (task 3): any clumping in the corner would be a free add-on. (i) The record does not fix eps and has no carrier for a long-range gated chi-chi force. X is massive (lambda_X < 37.7 um, round 2 C16) and the massless graviton is ungated. A gravitational-strength 1/r force scatters at about 2.4e-62 cm^2/g at 30 km/s (round 2 K16), so the sigma_0 fit cannot fix eps. (ii) No observation the program must explain requires the corner. Its effects make dwarfs denser (K4/force-law) or suppress power at k v* ~ 1 (H), and neither is a program commitment. (iii) The corner's gate scale is 4-12 times below the record's v* = 120 km/s. At the record's v*, dwarfs have sigma << v*, the term is plain extra chi gravity, and compressed DESI limits it to eps <~ 0.03-0.34 (round 2). The corner therefore needs a second, independent gate scale. (iv) In any case, the N-body found no clumping up to eps = 10 (Q4).",
+   "tag": "[D] synthesis of executed results and round-2 claims",
+   "basis": "h_reading_sign.py prints the v* ratios; round-2 inputs (clumping C14/C16, dark-tests K16, critic-run2 gap 2).",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "record v* over corner v*",
+     "value": "12.0 (10 km/s), 4.0 (30 km/s)",
+     "printed_output": "record v* = 120 km/s over corner v* = 10 km/s: ratio 12.0 / record v* = 120 km/s over corner v* = 30 km/s: ratio 4.0",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/h_reading_sign.py"
+    }
+   ],
+   "sources": [
+    "round3-inputs/dark-tests-analysis.json K16",
+    "round3-inputs/clumping-analysis.json C14, C16"
+   ]
+  },
+  {
+   "id": "Q16",
+   "statement": "Map in (eps, v*) (task 4), linear-theory proxies in both readings (H/K4), plus N-body. EXCLUDED: eps >~ 3 at v* = 5-30 km/s (tau(ii) >= 0.188 against 0.054 +- 0.007; dwarf densities x15-2000; Lyman-alpha beyond the 3.5-keV deviation; Segue 1 heating >= 3e3 Msun already at eps = 2). eps = 1 at v* = 20-30 km/s (tau(ii) 0.071-0.136; densities x2.1-14.7; Lyman-alpha beyond 5.3 keV (H) or 3.5 keV (K4); Segue 1 heating 2.7e3-5.0e3 Msun). DISFAVOURED (template-level or conditional on clump survival): eps ~ 1 at v* = 3-10 km/s. Here Lyman-alpha is beyond the 5.3- or 3.5-keV deviation at 0.1 s/km in both readings for v* >= 5, and only in K4 at v* = 3; Segue 1 heating is 34-1050 Msun against 7.88. OPEN: eps <~ 0.3-1 at v* <~ 3-5 km/s (H) or <~ 3 km/s (K4). There the gate is open only in the coldest ultra-faints, and the local model plus N-body give no velocity-selected structure. VELOCITY-SELECTED STRUCTURE: none in any case run (eps = 1-10; realized sigma_c/v* = 0.42-0.73 in H and 1.25 in F), within ~43 central free-fall times and ~1-3% of the mass. The round-2 compressed-DESI bounds at v* = 10 (eps < 3.04 K4, 6.80 consistent) are much weaker than these high-k probes.",
+   "tag": "[D] synthesis of executed outputs",
+   "basis": "Q4-Q13 and the round-2 critic c5 numbers.",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q17",
+   "statement": "Literature context. Graham & Ramani 2024 show that stellar heating in ultra-faint dwarfs constrains small-scale power at k ~ 10-1000/Mpc, orders of magnitude beyond earlier bounds. They use Segue 1 with R_* = 24.7 pc and collapsed-fraction clump densities rho_s ~ (Delta/2.317) rho_crit Omega_m (1+z)^3, which Q12 adopts. Costa et al. 2025 ('Dark forces suppress structure growth') find that minimal scalar-mediated dark-matter forces do not enhance growth in CMB-compatible scenarios. Their background effects are absent for the gated potential (round 2 K4), so their bounds do not transfer directly.",
+   "tag": "[T][S]",
+   "basis": "arXiv abstract and HTML of 2404.01378 and the abstract of 2510.00098, fetched this session; figure values were not readable, so no number from them is used except the density mapping.",
+   "confidence": "medium",
+   "sources": [
+    "arXiv:2404.01378 [S]",
+    "arXiv:2510.00098 [S]"
+   ]
+  }
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/gated_kernel.c (compiled to libgated.so): direct-summation pair kernel, Hamiltonian and force-law readings",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/kernel_test.py (kernel_test.out): kernel vs numpy, Hamilton's equations by finite differences, timing",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/equilibrium.py (equilibrium.out): self-consistent F(e) solver; Plummer anchor; non-convergence for eps > 0 (only model_eps0_rt1.pkl kept, the non-converged models were deleted)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/run_nbody.py (runs/*.npz snapshots, runs/log_*.txt conservation lines; tests/ holds the dt tests): N-body with adiabatic gate ramp",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/batch.py, diag_batch.py (job runners; jobs_main.txt, jobs_extra.txt, jobs_rest.txt)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/diagnostics.py (diagnostics_final.out; caches diag_cache.pkl and diag_cache/): Xi, S_l, R_v, shape, dispersions, energy diffusion",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/summary_numbers.py (summary_numbers.out): differences from control, dispersion ratios, relaxation scaling",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/injection_test.py (injection_test.out): diagnostic sensitivity",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/local_compare.py (local_compare.out): round-2 local-model thresholds at realized gate ratios",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/phys_scales.py (phys_scales.out): time scales, relaxation time, Sgr gate factors",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/linear_corner.py (linear_corner.out): two-reading linear growth at high k, gate radii, T^2 at Lyman-alpha scales",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/eds_check.py (eds_check.out): EdS exponent check of the linear systems",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/h_reading_sign.py (h_reading_sign.out): where the H linear system becomes irregular; v* ratios",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/obs_corner.py (obs_corner.out) and obs_corner_wdm.py: Lyman-alpha WDM-template proxy, collapse/density proxy, tau toy model, Segue 1 heating",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/sat_proxy.py (sat_proxy.out): satellite-count WDM-template proxy",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/corner/segue_heating.py (segue_heating.out): Segue 1 heating moment integral"
+ ],
+ "open_questions": [
+  "A cosmological simulation with the gate in both readings, to replace the linear proxies: nonlinear collapse with a gate that closes once virial speeds exceed v*, and the survival of early dense chi clumps inside ultra-faint dwarfs. Q10-Q12 depend on both.",
+  "A real Lyman-alpha likelihood (high-resolution P1D plus hydrodynamics with the gated force) instead of the WDM-template comparison. The marginal cases (eps ~ 0.3-1 at v* ~ 3-10 km/s) depend on it.",
+  "An all-orders derivation of the Hamiltonian-reading linear theory: the c4b system becomes irregular for eps >= 2.25 near k v* ~ 1.4.",
+  "Slow collisionless instabilities (e-folding times longer than ~43 central free-fall times, or below the N = 2000 relaxation floor), via an SCF/basis-function code or an action-angle response matrix. Narrower gates (sigma > v*) in the H reading were not run.",
+  "Strong-lensing flux ratios, stellar-stream gaps and cosmic-dawn 21-cm as tests of early dense chi clumps; dynamical friction in dwarfs with self-gravitating chi wakes.",
+  "Whether the Hamiltonian reading's decoupling of kinematic and canonical velocities (up to 11.5x) is physical or a sign that a classical many-body H with a long-range momentum-gated term is not the right limit of the record's quantum amplitude."
+ ],
+ "caveats": [
+  "The model is hypothetical, not in the record. The record's X is massive and its gate acts at contact range.",
+  "The N-body is an isolated Plummer halo with the gate switched on adiabatically, not a cosmological formation history. N = 2000 with softening b = 0.1 means two-body relaxation is present, and the gate accelerates it (x6 in squared energy diffusion at eps = 10). Only gate ratios r_g = 0.4 and 1 were run, and the F reading only at eps = 3.",
+  "The self-consistent F(e) solver failed for eps > 0, so no exact gated equilibrium was available; the adiabatic switch-on provides a dynamical one.",
+  "All observational limits use linear-theory proxies. These are: 1-sigma collapse redshifts with (1+z_c)^3 densities; a Press-Schechter toy reionization with Y_p = 0.245 [dagger]; WDM-template tolerances that are not likelihoods (an enhancement is treated like a suppression); and a Segue 1 heating estimate that assumes clump survival, compactness, lnL = 5, a 12 Gyr age [dagger] and Delta sigma^2 < sigma^2. Where the effects are huge (eps >= 3) the conclusion is robust to these; at eps ~ 1 it is not.",
+  "The H-reading linear system (critic c4b) is unreviewed and irregular for eps >= 2.25, so H-reading numbers at eps >= 3 are not trustworthy; the K4 reading gives the exclusions there.",
+  "Citations marked [S] were checked by live search, mostly through search summaries or abstract and HTML pages, not full texts. Graham & Ramani's numerical bound curves (figures) were not read.",
+  "Process: I read mg/STATE.md (run status only; it states that pre-registrations are kept elsewhere) and saw no pre-registration. The repository is unchanged (git status shows only the pre-existing untracked .claude/).",
+  "Gate convention: W = exp(-s^2/2), s = |w-w'|/v*, the amplitude-gate convention of the task, used throughout."
+ ]
+}

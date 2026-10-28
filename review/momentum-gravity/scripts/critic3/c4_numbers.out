@@ -1,0 +1,20 @@
+(a) 1/Lambda_g(1) = 4.236068 (phi^3 = 4.236068); Lambda_g(8.3333) = 1.4435188e-03; 1/Lambda_g(1.2917) = 6.699; 1/Lambda_g(8.3333) = 692.8
+    min over r in [1e-3, 10] of 1/Lambda_g = 1.000003 (at r = 0.001); monotone increasing: True
+    1/Lambda_g = 4/3 at r = 0.33282
+(b) threshold / allowed eps at v* = 120 km/s
+    MW, WKB no re-virialization, Q = pi^2/2 (u2: 28.07): Lya H-reading matter (c1) 0.057: 492; Lya H-reading gas (c1) 0.1063: 264; Sgr H-reading, upper end (VDD D14) 0.37: 75.9; Sgr loosest mapping (VCN U3) 2.46: 11.4
+    MW crossover 1/Lambda_g(1.2917): Lya H-reading matter (c1) 0.057: 118; Lya H-reading gas (c1) 0.1063: 63; Sgr H-reading, upper end (VDD D14) 0.37: 18.1; Sgr loosest mapping (VCN U3) 2.46: 2.72
+    cluster crossover 1/Lambda_g(8.3333) (u2: 692.8): Lya H-reading matter (c1) 0.057: 1.22e+04; Lya H-reading gas (c1) 0.1063: 6.52e+03; Sgr H-reading, upper end (VDD D14) 0.37: 1.87e+03; Sgr loosest mapping (VCN U3) 2.46: 282
+(c) z = 50: Omega_c = 0.8305: 1 + kappa B = 0 at eps = 2.248
+(c) z = 10: Omega_c = 0.835: 1 + kappa B = 0 at eps = 2.236
+(c) z = 3: Omega_c = 0.8143: 1 + kappa B = 0 at eps = 2.293
+(d) v =   30.0 km/s: X (3g^2-1)/2 - 1 = 1.502e-08 ; graviton 2g^2-1 - 1 = 2.003e-08
+(d) v =  100.0 km/s: X (3g^2-1)/2 - 1 = 1.669e-07 ; graviton 2g^2-1 - 1 = 2.225e-07
+(d) v =  120.0 km/s: X (3g^2-1)/2 - 1 = 2.403e-07 ; graviton 2g^2-1 - 1 = 3.204e-07
+(d) v =  600.0 km/s: X (3g^2-1)/2 - 1 = 6.008e-06 ; graviton 2g^2-1 - 1 = 8.011e-06
+(e) v* = 3000 km/s: leading-order (u -> 0) bound |eps| < 5.27e-5 * (3/2)(v*/c)^2 = 7.92e-09   [exact, ordinary-tests numbers verifier: 8.5-8.7e-9 Gaussian, 9.3-9.4e-9 Lorentzian at 3000; 2.15e-9 Gaussian at 1000]
+(e) v* = 1000 km/s: leading-order (u -> 0) bound |eps| < 5.27e-5 * (3/2)(v*/c)^2 = 8.8e-10   [exact, ordinary-tests numbers verifier: 8.5-8.7e-9 Gaussian, 9.3-9.4e-9 Lorentzian at 3000; 2.15e-9 Gaussian at 1000]
+(f) rho v r/(hbar c) = 1 for 120 km/s at 1 kpc: rho = 1.598e-23 eV
+(f) rho v r/(hbar c) = 1 for 120 km/s at 10 kpc: rho = 1.598e-24 eV
+(f) rho v r/(hbar c) = 1 for 29.78 km/s at 1 au: rho = 1.328e-14 eV
+(g) v_a = sqrt2 v* = 169.7 km/s for v* = 120; ordinary-tests v_a = 120 km/s is v* = 84.85 km/s

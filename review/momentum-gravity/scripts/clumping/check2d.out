@@ -1,0 +1,5 @@
+=== 0. 2D static limit (zeta=1, symmetric) vs radial Nystrom (r=1.2917) ===
+gt=10.0: 2D top eigenvalue = 2.30503 (n=3840)  radial Nystrom Lambda_0 = 2.30503
+gt=281.0: 2D top eigenvalue = 42.64197 (n=3840)  radial Nystrom Lambda_0 = 42.64197
+
+=== 1. Jeans anchor in 2D (gt=0): kappa=0.5 -> closed form Gamma = 0.68720193 ===

@@ -1,0 +1,41 @@
+== A. momentum labels (translation invariance: k1 + k2 = k3 + k4) ==
+fiber separation, pairing (1->3, 2->4): [-k2x + k3x, -k2y + k3y, -k2z + k3z]  equals k1 - k4: True
+fiber separation, pairing (1->4, 2->3): [k1x - k3x, k1y - k3y, k1z - k3z]  equals k1 - k3: True
+CM: |k1-k3|^2 = q**2 ; |k1-k4|^2 = 4*k**2 - q**2 ; |k1-k2|^2 = 4*k**2
+R1 Born amplitude (identical chi) = S(q) + S(q_u) = exp(-2*k**2/mu**2 + q**2/(2*mu**2)) + exp(-q**2/(2*mu**2))
+  at q -> 0: 1 + exp(-2*k**2/mu**2)  (the second term is #6's exp(-(p1-p2)^2/2mu^2) with p1-p2 = 2k)
+  limit k -> oo at q -> 0: 1
+
+== B. R1 as an operator: the fiber integrals give an x-local two-body potential ==
+Jacobian d(p,p')/d(P,Delta) = -1
+phase p y + p' y' = Delta*y/2 - Delta*yp/2 + P*y + P*yp  -> int dP gives 2 pi delta(y + y'); then the Delta integral:
+  St(y) = int dDelta e^{i Delta y} S(Delta) = sqrt(2)*sqrt(pi)*mu*exp(-mu**2*y**2/2)
+  so H = 2 pi int da db St(a - b) psi+(a) psi(b) psi+(b) psi(a) = 2 pi int da db St(a-b) :n(a) n(b): + one-body,
+  a two-body potential V(r) = 2 pi St(r), Gaussian of width 1/mu in position.
+
+== C. numerical check of the identity for two wavepackets (1D, quadrature) ==
+packets (x1,p1)=(0.0,0.3) (x2,p2)=(0.7,-0.5) mu=0.8:  phase-space overlap = 5.57550319-4.03e-17j ; 2pi x exchange integral of V = 5.57550319+0.00e+00j
+packets (x1,p1)=(0.4,1.0) (x2,p2)=(-0.3,-0.2) mu=1.7:  phase-space overlap = 7.35636496-2.07e-16j ; 2pi x exchange integral of V = 7.35636496-1.95e-16j
+
+== D. the packet overlap itself (mu -> 0 limit): a state property, local in x as much as in p ==
+  dx=0.0 dp=1.0: |<1|2>|^2 = 0.367879 ; exp(-dp^2/(4 sp^2) - dx^2/(4 sx^2)) = 0.367879
+  dx=1.0 dp=0.0: |<1|2>|^2 = 0.778801 ; exp(-dp^2/(4 sp^2) - dx^2/(4 sx^2)) = 0.778801
+  dx=2.0 dp=0.0: |<1|2>|^2 = 0.367879 ; exp(-dp^2/(4 sp^2) - dx^2/(4 sx^2)) = 0.367879
+  dx=0.0 dp=2.0: |<1|2>|^2 = 0.018316 ; exp(-dp^2/(4 sp^2) - dx^2/(4 sx^2)) = 0.018316
+  (#6's exp(-(p1-p2)^2/2mu^2) is the p-factor with mu^2 = 2 sp^2, sp = the packet's momentum spread)
+
+== E. R2, the pair channel: its fiber coordinate is the relative momentum ==
+psi(x+y/2) psi(x-y/2) on plane waves k_a, k_b: phase = x*(I*k_a + I*k_b) + y*(I*k_a/2 - I*k_b/2)
+  -> int dy gt(y) e^{i (k_a-k_b) y/2} = g((k_a - k_b)/2): the vertex sees the pair's relative momentum;
+  Born amplitude g(k) g*(k'), on shell |k| = |k'| -> |g(k)|^2: a gate in k, isotropic for g = g(|k|).
+
+== F. transfer cross-sections implied by each reading (Born, shapes only) ==
+R2 separable gate      : k^n sigma -> 0 for n = 2, 4, 8: [0, 0, 0]
+R1 identical, sigma_V  : lim k^4 sigma_V = 2*pi*mu**4 ; lim k^2 sigma_V = 0
+R1 distinct (exchange-type), sigma_T : lim k^2 sigma_T = 2*pi*mu**2
+Yukawa t-channel, sigma_T : lim k^4 sigma_T / log(k) = pi
+  k/mu = 0.5    R2 sigma_V 5.081e+00   R1 identical sigma_V 2.058e+01   R1 distinct sigma_T 9.246e+00   Yukawa(M=2mu) sigma_T 5.817e-01
+  k/mu = 2.0    R2 sigma_V 2.810e-03   R1 identical sigma_V 3.492e-01   R1 distinct sigma_T 1.473e+00   Yukawa(M=2mu) sigma_T 7.947e-02
+  k/mu = 5.0    R2 sigma_V 1.616e-21   R1 identical sigma_V 9.852e-03   R1 distinct sigma_T 2.488e-01   Yukawa(M=2mu) sigma_T 5.772e-03
+  k/mu = 10.0   R2 sigma_V 1.159e-86   R1 identical sigma_V 6.252e-04   R1 distinct sigma_T 6.267e-02   Yukawa(M=2mu) sigma_T 5.694e-04
+  (unit couplings; compare shapes, not normalizations)

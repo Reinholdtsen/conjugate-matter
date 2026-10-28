@@ -1,0 +1,18 @@
+sanity rat2 r=1.2917 gt=10: Schur top = 2.0697096888343722  full eig = 2.0697096888343722
+C5 rational (1+s^2/2)^-2: critical gt at kappa^2 = [1.1, 2.0, 4.4, 10.0, 25.0]
+  r= 0.2500: 0.1352, 1.346, 4.563, 12.06, 32.15
+  r= 1.2917: 1.025, 9.384, 29.95, 76.91, 202.1
+  r= 4.0000: 14.48, 119.7, 351, 865.1, 2230
+  r= 8.3330: 106.7, 836, 2323, 5583, 1.423e+04
+
+C10 rational: no-revir and revir thresholds
+  dwarf: r=0.2500 Lam_g(rat2)=7.46887e-01 <W>_rat2=7.38896e-01 ratio=1.0108
+     Q=1.0966: no-revir 0.1306, revir inf
+     Q=4.3865: no-revir 4.545, revir inf
+  MW: r=1.2917 Lam_g(rat2)=1.19899e-01 <W>_rat2=9.57749e-02 ratio=1.2519
+     Q=4.9348: no-revir 34.46, revir inf
+     Q=19.7392: no-revir 158.2, revir inf
+     Q=24.7714: no-revir 200.2, revir inf
+  cluster: r=8.3333 Lam_g(rat2)=1.73617e-03 <W>_rat2=8.97035e-04 ratio=1.9354
+     Q=1.0966: no-revir 103.3, revir 643.1
+     Q=4.3865: no-revir 2315, revir inf

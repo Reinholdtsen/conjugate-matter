@@ -1,0 +1,13 @@
+(1) consistent reading, uniform limit, EdS: dp/deps at eps=0 = 9/10  (dark-tests K4: 0.8 with anti-drag, 0.6 without)
+(2,3) y = 0.3: R_a formula = -0.12078, R_a quadrature = -0.12078 ; J_W formula = -0.19294, J_W quadrature = -0.19294 ; R = 0.08735, R_v = 0.05286
+(2,3) y = 1.0: R_a formula = -0.87168, R_a quadrature = -0.87168 ; J_W formula = -0.44956, J_W quadrature = -0.44956 ; R = 0.72478, R_v = 0.47699
+(2,3) y = 3.0: R_a formula = +0.25446, R_a quadrature = +0.25446 ; J_W formula = -0.10352, J_W quadrature = -0.10352 ; R = 1.17950, R_v = 1.18613
+(4) eps=0.1, v*=120, reading a: T_m^2 = 1.0787, dn_m = +0.1315; T_b^2 = 1.0249, dn_b = +0.0461
+(4) eps=0.1, v*=120, reading c: T_m^2 = 0.9861, dn_m = +0.0047; T_b^2 = 0.9926, dn_b = -0.0092
+v* =    10.0: reading a (K4): eps_max matter 3.0433 gas 10.0465 | consistent: matter 6.8035 gas inf  [consistent T_m^2, dn at eps=0.16: 0.9996, -0.0007]
+v* =    30.0: reading a (K4): eps_max matter 0.3441 gas 1.1254 | consistent: matter 0.8166 gas 2.4110  [consistent T_m^2, dn at eps=0.16: 0.9968, -0.0062]
+v* =    50.0: reading a (K4): eps_max matter 0.1280 gas 0.4116 | consistent: matter 0.3482 gas 0.9242  [consistent T_m^2, dn at eps=0.16: 0.9917, -0.0148]
+v* =   120.0: reading a (K4): eps_max matter 0.0282 gas 0.0804 | consistent: matter 0.3405 gas 0.2959  [consistent T_m^2, dn at eps=0.16: 0.9762, +0.0030]
+v* =   300.0: reading a (K4): eps_max matter 0.0138 gas 0.0230 | consistent: matter 0.0113 gas 0.0410  [consistent T_m^2, dn at eps=0.16: 1.2089, +0.5456]
+v* =  1000.0: reading a (K4): eps_max matter 0.0174 gas 0.0174 | consistent: matter 0.0138 gas 0.0133  [consistent T_m^2, dn at eps=0.16: 2.2432, +0.4388]
+dark-tests K6 (reading a): 10: 3.08/>10; 30: 0.348/1.14; 50: 0.13/0.42; 120: 0.0285/0.081; 300: 0.014/0.023; 1000: 0.017/0.017

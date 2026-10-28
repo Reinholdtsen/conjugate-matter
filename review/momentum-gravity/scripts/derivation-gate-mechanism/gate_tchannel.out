@@ -1,0 +1,54 @@
+== kinematics ==
+s = 4*k**2 + 4*m**2 ; t(q) = -q**2 ; u(q) = -4*k**2 + q**2
+s - u at fixed q = 8*k**2 + 4*m**2 - q**2
+
+== part 0: invariants available at one vertex ==
+p1^2 = m**2 ; p3^2 = m**2 ; p1.p3 in terms of t: 0 (= p1.p3 - (m^2 - t/2))
+P1.l1 = 0 (transverse on shell)
+
+== part 1: t-channel, most general vertex ==
+numerator N_t(k, q) is a polynomial in k: True ; degree in k = 4 ; lowest power of k: 0
+N_t as a polynomial in S = s - u: degree = 2
+  coefficient of S^2: F1**2
+  coefficient of S^1: 2*F2**2*q**2*(M**2 + q**2)/M**2
+  coefficient of S^0: (-16*F1**2*M**4*m**4 - 8*F1**2*M**4*m**2*q**2 - F1**2*M**4*q**4 + 8*F1*F3*M**4*m**2*q**2 + 2*F1*F3*M**4*q**4 + 8*F1*F3*M**2*m**2*q**4 + 2*F1*F3*M**2*q**6 - 8*F1*F4*M**4*m**4 - 2*F1*F4*M**4*m**2*q**2 - 8*F1*F4*M**2*m**4*q**2 - 2*F1*F4*M**2*m**2*q**4 + 2*F3**2*M**4*q**4 + 4*F3**2*M**2*q**6 + 2*F3**2*q**8 + 2*F3*F4*M**4*m**2*q**2 - 2*F3*F4*M**2*m**2*q**4 - 4*F3*F4*m**2*q**6 - 4*F4**2*M**4*m**4 - 2*F4**2*M**2*m**4*q**2 + 2*F4**2*m**4*q**4)/(3*M**4)
+
+-- residue at the pole t = M^2 (q^2 = -M^2) --
+dRes/dF2, dRes/dF3, dRes/dF4 : [0, 0, 0]
+Res - (2/3) F1^2 (4m^2-M^2)^2 P_2(z_t), z_t = (s-u)/(4m^2-M^2): 0
+
+-- non-pole (contact) remainder --
+  F_i constants      remainder denominator: 3*M**4 ; numerator polynomial in (k, q): True ; degree in k: 2
+  F_i = a_i + b_i t  remainder denominator: 3*M**4 ; numerator polynomial in (k, q): True ; degree in k: 4
+
+== part 2: minimal coupling X_mn T^mn (conserved stress tensor) ==
+l_mu V^{mu nu} = [0, 0, 0, 0]
+N_min - [(s-u)^2/4 + t^2/4 + 2 m^2 t - (2m^2+t)^2/3] = 0
+N_min(0,0) = 8*m**4/3  (the 4/3-vs-1 massive/massless Newtonian factor: 8/3 vs 2)
+N_min(k, q=0)/N_min(0,0) = 6*k**4/m**4 + 6*k**2/m**2 + 1
+N_min(k=0, q)/N_min(0,0) = 1 - q**2/m**2 + q**4/(16*m**4)
+
+== part 3: generic vertex, k-dependence at q = 0 ==
+N_t(k, 0) = n0 + n1 k^2 + n2 k^4 with
+  n0 = 4*m**4*(2*F1 - F4)*(4*F1 + F4)/3
+  n1 = 64*F1**2*m**2
+  n2 = 64*F1**2
+  k-scale^2 = n0/n1 = m**2*(2*F1 - F4)*(4*F1 + F4)/(48*F1**2)
+  minimal coupling: n0/n1 = m**2/6 (F4 = t/2m^2 vanishes at q = 0)
+
+== part 4: u-channel (identical chi) at q -> 0 ==
+u - M^2 at q = 0: -M**2 - 4*k**2
+forward u-channel amplitude (minimal coupling) N_u/(u - M^2), series in k:
+   -8*m**4/(3*M**2) + k**2*(-8*m**2/(3*M**2) + 32*m**4/(3*M**4)) + k**4*(-8/(3*M**2) + 64*m**2/(3*M**4) - 128*m**4/(3*M**6)) + O(k**5)
+spin-0 forward t+u: A(k)/A(0) = (M**2 + 2*k**2)/(M**2 + 4*k**2) ; limit k->oo of A(k)/A(0): 1/2
+
+== part 5: s-channel (chi chibar only; needs an X-chi-chibar vertex) ==
+residue numerator at s = M^2: 16*G1**2*k**4*(3*c**2 - 1)/3
+  equals (32/3) G1^2 k^4 P_2(cos th): True
+pole term near threshold: G1**2*k**4*(4*c**2 - 4/3)/(delta + k**2) ; limit k->0: 0
+
+== part 6: a residue F(s) that is not a polynomial needs every spin ==
+Legendre coefficients c_l = (2l+1)/2 * int_{-1}^{1} exp(a z) P_l(z) dz at a = -1:
+   [1.17520, -1.10364, 0.357814, -0.0704556, 0.00996513, -0.00109959, 9.94543e-5]
+Legendre coefficients of 1/(alpha - z), alpha = 2 (rational form):
+   [0.549306, 0.295837, 0.105919, 0.0340978, 0.0104497, 0.00311274, 0.000910235]

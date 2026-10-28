@@ -1,0 +1,171 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "O1",
+   "verdict": "confirmed",
+   "reason": "Bunchaft and Carneiro's text says what the agent attributes to it: Tisserand got 3/8, Levy the full value, and Weber-like laws cannot be conservative and also give both effects. Holzmueller and Gerber are correctly tagged as memory citations (†). The 3/8 is also physically plausible (my check below).",
+   "independent_check": "[S] WebFetch of arXiv:gr-qc/9708047 abstract: Weber-like gravitational theories 'cannot be conservative and also yield both ... the precession of the perihelion of Mercury as well as the gravitational deflection of light'. ar5iv full text: 'Tisserand obtained 3/8 of the then known value for the anomalous perihelion precession of Mercury and Levy ... obtained the entire value'; refs C.R. 75 (1872) 760, 111 (1890) 313, and Levy C.R. 110 (1890) 72. [D] convention_and_weber.py: a term L1 = A(GM/r)rdot^2 gives 'advance per orbit = -2*pi*A*GM/(a*(e**2 - 1)); ratio to GR ... with A = 1/c^2: 1/3'; '1/3 of 42.98 arcsec/cy = 14.33; 3/8 of 38 arcsec/cy = 14.25'."
+  },
+  {
+   "claim_id": "O2",
+   "verdict": "corrected",
+   "reason": "The centre-of-mass reduction is right, and the beta limits are confirmed in Will 2014. The ratio of the 2PN part to the error is 33.8, not 'about 35', and the agent's code never prints it.",
+   "corrected_statement": "... its 2PN part (about 4.39e-4 deg/yr, as quoted) is about 34 times the 1.3e-5 deg/yr measurement error (ratio 33.8). The rest stands.",
+   "independent_check": "final_misc.py (sympy): 'bracket - [(3+nu) v^2 + nu (n.v)^2] = 0'. bounds_check.py: '2PN/sigma ratio for omdot ... 33.769230769230774'. [S] WebFetch of ar5iv 1403.7377: 'beta-1=(-4.1±7.8)×10^-5' (Cassini gamma adopted, MESSENGER-era fits) and 'beta-1=(0.4±2.4)×10^-4 from the perihelion advance of Mars'."
+  },
+  {
+   "claim_id": "O3",
+   "verdict": "confirmed",
+   "reason": "Will 2014 Table 4 lists exactly these limits. The 370 km/s CMB speed was not checked here (a standard value).",
+   "independent_check": "[S] WebFetch of ar5iv 1403.7377, Table 4: alpha1 'orbital polarization' 10^-4 (lunar laser ranging) and 7×10^-5 (PSR J1738+0333); alpha2 'spin precession' 2×10^-9 (millisecond pulsars)."
+  },
+  {
+   "claim_id": "O4",
+   "verdict": "unverifiable",
+   "reason": "This claim is citations only: the rotor-weighing results of 1989-2015. The derivation lens has nothing to re-derive, and the sources were not fetched.",
+   "independent_check": "None. O21 checks how rotors would respond in the model."
+  },
+  {
+   "claim_id": "O5",
+   "verdict": "confirmed",
+   "reason": "I re-derived it from scratch from the radial Euler-Lagrange equation on a circular orbit.",
+   "independent_check": "analytic.py (sympy, not the agent's script): 'v^2 r / GM on circular orbit = ... epsilon*W(v/v_s) - epsilon*v*W'(v/v_s)/v_s + 1'. Gaussian: 'K = (2*u**2 + 1)*exp(-u**2); stationary u = [sqrt(2)/2]; K_max = [2*exp(-1/2)] = [1.213061319]'. Lorentzian: 'K = (3*u**2 + 1)/(u**2 + 1)**2; stationary u = [sqrt(3)/3]; K_max = [9/8]'. Direct derivation with each concrete W: True."
+  },
+  {
+   "claim_id": "O6",
+   "verdict": "confirmed",
+   "reason": "An independent Legendre transform, inverted to O(eps), gives the stated Hamiltonian for both shapes.",
+   "independent_check": "analytic.py: 'Gaussian: H = P^2/2 - (GM/r)(1 + eps W(P/v*)) + O(eps^2): True'; Lorentzian: True."
+  },
+  {
+   "claim_id": "O7",
+   "verdict": "confirmed",
+   "reason": "I re-derived the Delaunay result, the small-e limits, the Lorentzian null at u_c = 1 and the exact W = u^2 result. I then tested the general formula against the full model (all orders in eps) by a different method: conserved E and J, then quadrature of the apsidal angle. It agrees to about 1e-22 relative. The GR anchor is reproduced, and in these coordinates the p^2/r term carries the whole 6 pi; the p^4 and 1/r^2 terms cancel.",
+   "independent_check": "analytic.py: 'Delta omega per orbit = 2*pi*epsilon*sqrt(1 - e**2)*Derivative(Phi(e), e)/e'; Gaussian and Lorentzian small-e limits 'equal: True'; 'W=u^2 exact-in-e advance/eps = -4*pi*u_c**2/(e**2 - 1)'; Lorentzian at u_c = 1: 'W = -cc*e/2 + 1/2'. GR: 'averaged-GR advance per orbit = -6*pi*GM/(a*c**2*(e**2 - 1))', with contributions 'p^4 term: -pi...; p^2/r term: -6*pi...; 1/r^2 term: pi...'. apsidal_quadrature.py: 'gauss 1.6 0.1 ... 3.8292469936408 [quadrature] 3.8292469936408 [formula] rel.diff 2.91e-24'; 'gauss 3.0 0.6 ... 1.12370675387818 ... 1.35e-23'; 'lorentz 3.0 0.3 ... 0.943430995469738 ... 1.57e-24'; Lorentzian u_c = 1 at e = 0.3 and 0.6: quadrature ~1e-24 to 1e-20, consistent with zero."
+  },
+  {
+   "claim_id": "O8",
+   "verdict": "confirmed",
+   "reason": "My exact-model quadrature reproduces the formula values the agent compared with: 3.829247 (Gaussian, u_c = 1.6, e = 0.1), 0.0230355 (u_c = 1, e = 0.1) and 0.943431 (Lorentzian, u_c = 3, e = 0.3). The finite-eps residuals are linear in eps. Their slope depends on how a and e are defined at finite eps: the agent starts at the Kepler periapsis, I fix the turning points. Both extrapolate to the formula.",
+   "independent_check": "apsidal_quadrature.py at u_c = 1, e = 0.1: 'eps = 1e-3: advance/eps = 0.026331045'; 'eps = 5e-4: advance/eps = 0.024685059'. Linear extrapolation gives 0.023039; the agent's 0.03116 and 0.02710 extrapolate to 0.02304; the formula is 0.02303546. Kepler sanity check: 'advance = 7.007e-38'."
+  },
+  {
+   "claim_id": "O9",
+   "verdict": "confirmed",
+   "reason": "The ratio follows from the W = u^2 result with W ~ 1 - u^2; both shapes have that expansion. The numbers and the Mercury beta cross-check reproduce.",
+   "independent_check": "analytic.py: 'ratio = -2*c**2*epsilon/(3*v_s**2)'. bounds_check.py: 'Mercury v*=30000.0: adv/GR = -66.5741; -(2/3)(c/v*)^2 = -66.5745'; 'Mercury beta: fractional advance shift in [-3.833e-05, 6.567e-05]; |eps| < 1.1e-09 at v*=1000'."
+  },
+  {
+   "claim_id": "O10",
+   "verdict": "confirmed",
+   "reason": "Recomputed from standard orbital elements (†); the results agree to rounding.",
+   "independent_check": "spin2_and_misc.py: 'Sun-Mercury: 38.86 - 58.97', 'Sun-Mars: 21.97 - 26.50', 'Earth-Moon: 0.970 - 1.082', 'Earth-LAGEOS: 5.700', 'double pulsar: 572.4 - 682.5' km/s. composite_check.py: 'lab at latitude 48.8: 0.306 km/s'; 'equatorial surface speed 0.4651 km/s'."
+  },
+  {
+   "claim_id": "O11",
+   "verdict": "corrected",
+   "reason": "Every number reproduces to within 3%; the LLR number at 1 km/s differs by 2% because of the Moon's elements. But 'at v* = 0.1 km/s no precision test applies' is wrong within this model. The same Lagrangian gives a body at rest near the pole the inertia m[1 - 2 eps (v_c/v*)^2], with v_c^2 = GM_E/R_E = 62.5 km^2/s^2. Free-fall g there is therefore raised by eps[1 + 2(v_c/v*)^2] = 1.25e4 eps at 0.1 km/s, while satellites at 7.6 km/s see nothing. At 0.1 km/s the Eros figure of 0.61 is thus not the binding constraint. For eps >= 8e-5 the polar inertia is zero or negative.",
+   "corrected_statement": "At v* = 0.1 km/s (Gaussian) the strongest sourced orbital comparison, Eros flyby against orbit, gives |eps| < 0.61. But the same Lagrangian changes polar free-fall g by 1.25e4 eps relative to satellite-derived gravity, and makes polar inertia non-positive for eps >= 8e-5. eps of order 0.1-1 is therefore excluded, and absolute gravimetry against satellite gravity models would probe |eps| ~ delta/1.25e4 for a fractional agreement delta (delta not sourced). The other entries stand: 4.1e-10 at 1 km/s (LLR), 7.9e-12 at 10, 1.8e-11 at 120 and 1.16e-9 at 1000 km/s (Mars), double pulsar 2.1e-9.",
+   "independent_check": "bounds_check.py (my own exact-in-e code; the agent's sourced inputs): 'v* = 0.1 km/s: Eros 0.613'; '1.0: LLR perigee 4.15e-10; GM_E LLR vs SLR 3.42e-09'; '10.0: prec Mars 7.93e-12; prec Earth 2.23e-10; LLR perigee 7.56e-10'; '120.0: prec Mars 1.82e-11; prec Earth 4.04e-11'; '1000.0: prec Mars 1.16e-09; double pulsar 2.13e-09'; 'Mars signal per eps at v*=120 ... -5.174e+09'. lab_forces.py: 'gauss v*= 0.1 km/s, (g_ff/g_N - 1)/eps: lat 90: 1.25e+04; lat 80: 6511; lat 60: 56.01'; 'inertia at the pole: m_eff/m = 1 - 2 eps v_c^2/v*^2 -> zero at eps = v*=0.1: 8e-05; v*=0.17: 0.000231'; 'satellite at 7.6 km/s, v*=0.1: K(u_sat) = 0'."
+  },
+  {
+   "claim_id": "O12",
+   "verdict": "confirmed",
+   "reason": "All the Lorentzian numbers reproduce. The power-law tail, about +4 pi eps/u^2, follows from the small-e formula.",
+   "independent_check": "bounds_check.py: 'lorentz v* = 0.1: LLR perigee 8.47e-10; prec Mars 3.94e-08'; '1.0: prec Mars 3.96e-10; LLR perigee 1.29e-09'; '10.0: prec Mars 7.7e-12'; '120.0: prec Mars 1.97e-11'; '1000.0: prec Mars 1.16e-09'."
+  },
+  {
+   "claim_id": "O13",
+   "verdict": "corrected",
+   "reason": "The interior envelope numbers reproduce exactly. Two corrections. (i) The scan drops its own top grid point: np.logspace returns 3000.0000000000014, and the filter 'grid <= 3000' excludes it. At exactly 3000 km/s the bounds are 8.54e-9 (Gaussian) and 9.29e-9 (Lorentzian); the agent's own bounds.out prints both. So 'Lorentzian: every bound is below 8.9e-9' is false, and the Gaussian's weakest point is 8.5e-9 at 3000, not 8.1e-9 at 2920. (ii) The exception 'except for a Gaussian gate with v* below about 0.17 km/s' fails within the model: polar free fall excludes eps ~ 1 there (see O11).",
+   "corrected_statement": "Gaussian: every bound is below 9e-9 from 0.3 to 3000 km/s. The weakest points are 6.5e-9 at 0.3, 3.4e-9 at 1.02, 3.9e-10 at 7.1 and 8.5e-9 at 3000 km/s. Lorentzian: below 9.3e-9 over 0.1-3000 km/s, the weakest at 3000 km/s. Below 0.17 km/s the orbital tests give only the O(1) Eros figure, but the model's polar free-fall response, 1 + 2(v_c/v*)^2 times eps, excludes eps ~ 1 there too. A gravitational-strength universal term on centre-of-mass velocities is excluded at every v* considered.",
+   "independent_check": "bounds_check.py: '[0.5,3] km/s: weakest 3.37e-09 at 1.02 (GM_E LLR vs SLR); strongest 2.53e-11 at 0.626'; '[3,300]: weakest 3.89e-10 at 7.1 (LLR perigee); strongest 2.23e-12 at 15 (prec Mars)'; 'np.logspace top point = np.float64(3000.0000000000014); included by a <= 3000 filter: False'; 'gauss v* = 3000.0: strongest double pulsar 8.54e-09'; 'lorentz v* = 3000.0: strongest double pulsar 9.29e-09'; 'Lorentzian over [0.1, 3000]: weakest 9.29e-09 at 3e+03'. Low v* LLR: '0.18: 0.305; 0.20: 0.00142; 0.25: 4.36e-07; 0.30: 6.48e-09'. Agent's bounds.out line 42: 'v* = 3000.0 ... |eps| < 9.29e-09'."
+  },
+  {
+   "claim_id": "O14",
+   "verdict": "confirmed",
+   "reason": "(a) The Mars/Earth Kepler bound reproduces. (b) The GM_E differences and the bound reproduce. (c) The factor 2.5 follows from omdot ~ M^(2/3) and Pbdot ~ m1 m2 M^(-1/3) at a fixed mass ratio; the 5.2e-5 and 2.13e-9 reproduce. (d) The Eros interval reproduces. A uniform flyby speed justifies GM_fly = GM(1 + eps W) at first order.",
+   "independent_check": "final_misc.py: 'K(u_Mars) - K(u_Earth) = 0.03482; ... |eps| < 5.6e-08'. spin2_and_misc.py: 'GM_E LLR - SLR(Ries 1992) = -0.0002 -> relative -5.018e-10 +- 1.606e-09'; 'SLR(Dunn 1999) = -0.0006 -> -1.505e-09 +- 1.351e-09'; 'Eros: ... |eps| < 0.614'. bounds_check.py: 'Pbdot sensitivity to omdot bias at fixed mass ratio: 2.5'; 'double pulsar 2.13e-09' at 1000 km/s."
+  },
+  {
+   "claim_id": "O15",
+   "verdict": "confirmed",
+   "reason": "(1 + gamma_fit) GM(1 + eps K) = 2 GM gives gamma_fit - 1 = -2 eps K at first order. Both intervals reproduce. The light-coupling assumption is correctly flagged.",
+   "independent_check": "spin2_and_misc.py: 'Cassini: gamma_fit - 1 in [-2.50e-05, 6.70e-05] -> eps K ... in [-3.350e-05, 1.250e-05]'; 'Collett: eps<K> in [-0.075, 0.105]'. Mars overtakes Cassini only where 1.16e-9 (v*/1000)^2 = 3.35e-5, i.e. v* ~ 1.7e5 km/s."
+  },
+  {
+   "claim_id": "O16",
+   "verdict": "confirmed",
+   "reason": "The first-order expansion and the coefficient ratio are right. The result is conditional on the disputed claim that LLR fits the cross term to 0.1%, as the agent says. The conclusion 'adds nothing to the envelope' covers only this first-order channel; for the second-order term see missed issues.",
+   "independent_check": "spin2_and_misc.py: 'O16 v*=30.0: |W'(u_E)| c^2/(3 v_E v*) = 2.49e+07 -> |eps| < 4e-11'; 'v*=120.0: 3.91e+06 -> 2.6e-10'; 'v*=1000.0: 5.99e+04 -> 1.7e-08'."
+  },
+  {
+   "claim_id": "O17",
+   "verdict": "corrected",
+   "reason": "The convolution formula, the Lorentzian limit and the Earth-rotation numbers are confirmed. The sentence 'once internal speeds exceed v*, the bodies' relative velocity drops out' needs a condition. The smeared gate is still a Gaussian in V, of width sqrt(v*^2 + 2s^2), so V drops out only when V << sqrt(v*^2 + 2s^2). For Earth-Moon with s ~ 1 km/s and V ~ 1 km/s an O(1) dependence on V remains, and the agent's own smeared LLR numbers in O18 keep it.",
+   "corrected_statement": "... a Gaussian gate of width sqrt(v*^2 + 2s^2) in V, with amplitude eps(1 + 2s^2/v*^2)^(-3/2). The bodies' relative velocity drops out only when V << sqrt(v*^2 + 2s^2). Sun-planet pairs with s_sun ~ 200 km/s satisfy this; Earth-Moon with s ~ 1 km/s does not. Where it holds, what remains is a composition- and temperature-dependent rescaling of G. The rest stands.",
+   "independent_check": "composite_check.py: 'V= 0.50 s= 1.0 v*= 1.0: quadrature 0.177062630151 formula 0.177062630151'; 'V= 30.00 s= 200.0 v*= 120.0: quadrature 0.0590126649372 formula 0.0590126649372'; Lorentzian 's/v* = 100: <W> = 9.8756624e-5; (v*/s)^2 = 0.0001; with first correction 9.8746686e-5'; 'max element-element relative speed 0.930 km/s; ... 0.560 - 1.490 km/s'."
+  },
+  {
+   "claim_id": "O18",
+   "verdict": "corrected",
+   "reason": "The thermal dispersions are confirmed, and the Eot-Wash number at 0.1 km/s roughly reproduces (my hand estimate 5.1e-9, against 4.8e-9). But eta = eps(<W>_A - <W>_B) uses the static factor and leaves out the canonical-momentum term. For test masses in orbit (MICROSCOPE) the force factor is the smeared analogue of K, <W>(1 + 2V^2/b^2) with b^2 = v*^2 + 2s^2. That raises the Ti-Pt sensitivity by 3.3x at v* = 10 km/s and 1.2x at 30 km/s, so the bounds there are tighter by those factors. The claim is already low-confidence and model-dependent, and no conclusion changes.",
+   "corrected_statement": "At 10 km/s, MICROSCOPE gives about 5e-12 (not 1.7e-11) under the stated assumptions, once the orbit-force factor <W>(1 + 2V^2/b^2) replaces the static <W>. At 30 km/s the factor is 1.2. The other entries stand as order-of-magnitude estimates.",
+   "independent_check": "composite_check.py: 'Be: 0.526 km/s; Al: 0.304; Ti: 0.228; Pt: 0.113'. final_misc.py: 'v* = 10.0: Ti-Pt difference, static <W>: -4.075e-04; orbit-force analog: -1.330e-03; ratio 3.26'; 'v* = 30.0: ... ratio 1.21'. For a single circular orbit the factor W - uW' was derived in analytic.py."
+  },
+  {
+   "claim_id": "O19",
+   "verdict": "confirmed",
+   "reason": "v_F (relativistic p/E), the suppression factors and the best-case MICROSCOPE bounds all reproduce. Two notes. The exact Fermi-sphere pair average falls below the leading formula by a factor 1 - (3/(2 sqrt pi))(v*/v_F), and the agent's Monte Carlo lies 1.8 and 2.3 sigma above the exact values: too noisy to check the formula at the few-percent level, though that does not affect order-of-magnitude use. A sharp Fermi surface also leaves a residual dependence on the centre-of-mass velocity, linear in |V|/v_F (2.3e-4 relative for Mars), which is negligible.",
+   "independent_check": "composite_check.py: 'k_F = 250 MeV/c: v_F = 77136 km/s'; 'v*/v_F = 0.05: exact 0.00015913923; leading ... 0.00016616755'; 'v*/v_F = 0.02: exact 1.0454735e-5; leading 1.0634723e-5'; 'v* = 0.1: 2.9e-18 ... v* = 120.0: 5.01e-09 ... v* = 1000.0: 2.9e-06'; 'MICROSCOPE |eta| 2-sigma ... = 6.99e-15'; 'v* = 10.0: best-case |eps| < 0.0024; 120.0: 1.4e-06; 1000.0: 2.4e-09'; 'Mars (24.1 km/s) -2.34e-04'."
+  },
+  {
+   "claim_id": "O20",
+   "verdict": "confirmed",
+   "reason": "The identity, the orbital-to-boost ratios and the v*_pair values reproduce. Two notes. In the centre-of-mass frame the literal expression |m1 v1 - m2 v2| equals 2 mu v, so its width would be p*/(2 mu), half the quoted values; the agent's p*/mu follows #11's k = mu v. With the agent's W = exp(-u^2), p* = 20 keV gives the chi pair a width of 171 km/s. That is sqrt(2) times the notebook's v* = sqrt(2) mu/m_chi = 121 km/s, the gate-convention factor of wiki flag 17.",
+   "independent_check": "composite_check.py: 'm1 v1 - m2 v2 - [(m1-m2)V + 2 mu v] = 0'; 'nucleon pair: p*/mu = 1.277e+04 m/s'; '1 kg pair: p*/mu = 2.138e-23 m/s'; 'chi pair (m=70 MeV): p*/mu = 1.713e+05 m/s'. spin2_and_misc.py: 'O20 Sun-Earth: 4.83e-07; Sun-Mars: 4.21e-08; Earth-Moon: 6.8e-05'."
+  },
+  {
+   "claim_id": "O21",
+   "verdict": "corrected",
+   "reason": "The agent averages K(|V_lab + v_rot|/v*) over the rotor (composite.py). The vertical generalized force on a rotor element is instead W(u_el) - u_lab W'(u_el)(w_E/|w|), with u_lab = V_lab/v* and w_E the eastward component of w. I derived this and confirmed it on exact symbolic trajectories to 11 digits. The two differ by (<u_rot^2>/2)(W'/u + W''), the same order as the effect. The agent's numbers are 16% low at (60 m/s, 0.1 km/s, 48.8 deg), 9% low at (30 m/s, 0.1, 35.7) and 3% off at 0.3 km/s. At 1 km/s they have the wrong sign. For u_lab << 1 the correct change is -eps u_rim^2/2 against the agent's +eps u_rim^2/2. Rotors never set the envelope, so no conclusion changes.",
+   "corrected_statement": "With the correct vertical force, a rotor with rim speed 30-60 m/s changes the weight factor by +1.2e-5 to +3.0e-3 at v* = 0.1 km/s and by about -1.4e-2 at 0.3 km/s (60 m/s, latitude 48.8). At 1 km/s the change is -2.1e-3 (60 m/s): the opposite sign to the agent's and 2.3 times larger. The estimate is still parametric in the assumed rim speeds.",
+   "independent_check": "rotor_exact.py: 'u_lab=3.064, u_rim=0.6, lat=48.8: exact-trajectory <dQ_up/deps> = 0.00833267720194; correct formula 0.00833267720183; agent's <K(u_el)> 0.00712934809425'; 'u_lab=0.306, u_rim=0.06: 1.07701292095; correct formula 1.07701292095; agent's 1.08293617049'. lab_forces.py: 'v_rim=60 m/s v*=0.1 lat=48.8: Delta(factor) correct +2.956e-03; agent's +2.480e-03'; 'v*=1.0: correct -2.069e-03; agent's +8.948e-04'. The held-body case reproduces K exactly: 'Q.rhat ... = -(1 + eps(W - uW'))' (lab_forces.py, sympy)."
+  },
+  {
+   "claim_id": "O22",
+   "verdict": "corrected",
+   "reason": "The scope statement is right for body-level gating. 'Leaves the torsion-balance range bound unchanged' fails under the agent's own constituent-level gating (O18-O19): internal motion then suppresses W even for masses at relative rest, for example by (3 sqrt pi/4)(v*/v_F)^3 for nucleons, and the range bound would relax. The claim also leaves out that the program's documented X coupling to SM matter (#11 sec. 7.5) carries no gate at all. Its only relative-velocity dependence is the spin-2 tensor structure. The X/graviton amplitude ratio is (gamma^2 - 1/3)/(gamma^2 - 1/2), which equals the 4/3 of alpha = (4/3)(M_f u/M_g)^2 at rest and falls as 1 - v^2/(2c^2), to 3/4 of its rest value for light. That is -8e-8 at 120 km/s: O(v^2/c^2), not a gate.",
+   "corrected_statement": "With body-level gating, a gate multiplying X's Yukawa acts at no separation used in O11-O16 and leaves the torsion-balance range bound unchanged. With constituent-level gating it would suppress the Yukawa between lab masses and relax that bound. The program's documented coupling has no gate; its velocity dependence between ordinary bodies is the spin-2 factor 1 - v_rel^2/(2c^2) on the X/graviton ratio, which matters only inside lambda_X < 37.7 micrometres. A chi-confined gate (strict P4) and the Debt-3 results are untouched by these tests.",
+   "independent_check": "spin2_and_misc.py: 'massive/massless numerator ratio at rest: 4/3'; 'ratio relative to rest, as gamma -> oo: 3/4'; 'small beta: 1 - beta**2/2 + beta**4/2'; 'v_rel = 120.0 km/s: fractional change of the X/graviton ratio = -8.011e-08'. Diameter note sec. 8.2: alpha = (4/3)(M_f u/M_g)^2, 'the 4/3 comes from the massive field's extra polarizations'. The propagator numerators are textbook (vDVZ), from memory (†)."
+  },
+  {
+   "claim_id": "O23",
+   "verdict": "corrected",
+   "reason": "The per-v* numbers are confirmed (see O11 and O12). Two errors. (i) The Lorentzian is 9.3e-9 at 3000 km/s, so 'below 9e-9 from 0.1 to 3000 km/s' fails at the endpoint. (ii) The first 'surviving form', a Gaussian gate below 0.17 km/s on centre-of-mass velocities, does not survive at eps ~ O(1). In the Lagrangian model the inertia of a body at rest near the pole is m[1 - 2 eps (v_c/v*)^2], zero at eps = 8e-5 (0.1 km/s) and 2.3e-4 (0.17 km/s). Polar free-fall g shifts by 1.25e4 eps at 0.1 km/s, which satellites do not see. The other two surviving forms stand.",
+   "corrected_statement": "A universal relative-velocity-dependent term on centre-of-mass velocities is excluded at gravitational strength at every v* considered. The orbital bounds are below 9e-9 (Gaussian, 0.3-3000 km/s) and below 9.3e-9 (Lorentzian, 0.1-3000 km/s). Below 0.3 km/s the model's free-fall response, eps[1 + 2(v_c/v*)^2] at the pole with v_c = 7.9 km/s, excludes eps ~ 1; a quantitative bound needs a sourced gravimetry-satellite comparison. Survivors: a gate on elementary constituents (a composition-dependent G, near 1e-11 to 5e-9 for atoms, nearly unconstrained for nucleons), and a gate confined to the dark sector.",
+   "independent_check": "bounds_check.py: 'lorentz v* = 3000.0: strongest double pulsar 9.29e-09'. lab_forces.py: 'pole, analytic: (g_ff/g_N - 1)/eps -> 1 + 2 v_c^2/v*^2 = v*=0.1: 1.25e+04; v*=0.3: 1390; v*=1.0: 126'; 'inertia at the pole ... zero at eps = v*=0.1: 8e-05; v*=0.17: 0.000231; v*=0.3: 0.00072; v*=1.0: 0.008'."
+  }
+ ],
+ "missed_issues": [
+  "Inertia from a velocity-dependent potential (the main omission). In L = m v^2/2 + (GMm/r)[1 + eps W(|v - V_src|/v*)], the velocity Hessian makes the inertia position-dependent: m_ij = m[δ_ij + eps (GM/(r v*^2)) (W''(u) ŵŵ + (W'(u)/u)(δ - ŵŵ))]. In orbits the virial theorem fixes GM/(r v*^2) = u^2, which is why K and the precession formula are correct. For a body at rest in a deep potential, GM/(r v*^2) = (v_c/v*)^2 is decoupled from u. At the Earth's surface, v_c^2 = 62.5 km^2/s^2 [D, lab_forces.py], so polar free-fall g is multiplied by (1 + eps)/(1 - 2 eps (v_c/v*)^2): 1.25e4 eps at 0.1 km/s, 1390 eps at 0.3 and 126 eps at 1 km/s, for both shapes since W''(0) = -2. Satellites at 7.6 km/s see none of this. A body held on the rotating Earth weighs (1 + eps K(u)), with u = 0.465 cos(lat)/v*, and its plumb line tilts by eps u|W'(u)| tan(lat) rad [D, sympy]. Absolute gravimetry against satellite-only gravity models therefore probes the Gaussian window at v* < 0.3 km/s at about delta/(1 + 2(v_c/v*)^2), where delta is their fractional agreement [O: not sourced]. For eps >= (v*/v_c)^2/2 (8e-5 at 0.1 km/s) the polar inertia is non-positive and the model is ill-posed there. This applies to body-level gating; constituent-level smearing removes the amplification.",
+  "Velocity dependence of the program's own X between ordinary bodies (a reading of Paul's question outside the agent's phenomenological scope). For X a Fierz-Pauli spin-2 coupled to T_mu_nu, as the diameter note uses, one-X exchange between point masses goes as m1 m2 [gamma^2 - 1/3], against [gamma^2 - 1/2] for the graviton (textbook, †). The ratio is 4/3 at rest, the 4/3 in alpha, and changes as 1 - v^2/(2c^2): -5.0e-9 at 30 km/s, -8.0e-8 at 120 km/s, and 3/4 of the rest value for light [D, spin2_and_misc.py]. So documented momentum gravity does depend on relative velocity, but at O(v^2/c^2), never as a gate, and only within lambda_X < 37.7 micrometres.",
+  "A second-order third-body channel not evaluated in O16. Expanding the gated Sun-Moon term to second order in the lunar geocentric velocity gives the Moon an anisotropic inertia of fractional size eps (GM_sun/(AU v*^2))[W''(u_E) - W'(u_E)/u_E]. That is 0.044 eps at v* = 10 km/s, 2.1 eps at 20, 1.45 eps at 30, 0.19 eps at 60 and 0.014 eps at 120 km/s [D, final_misc.py, order of magnitude]. If LLR caps unexplained fractional lunar-orbit distortions near 1 mm/3.84e8 m = 2.6e-12 (an assumption), this would give about 1-2e-12 at 20-30 km/s, comparable to or slightly below Mars's 5.8e-12. It could tighten the envelope near 20-60 km/s by a factor of a few. The conclusions do not change.",
+  "Gate convention (wiki flag 17). The agent's W = exp(-u^2) equals the notebook's rate-level gate e^{-v^2/v*^2}. If the potential is the amplitude-level gate e^{-k^2/mu^2} with k = m v_rel/2, then W = exp(-v^2/(2 v*_nb^2)), and the program's v* = 120 km/s is the agent's 169.7 km/s. The bounds there are 3.5e-11 (Gaussian) and 3.6e-11 (Lorentzian), not 1.8e-11 and 2.0e-11 [D, convention_and_weber.py]. The summary's '1.8e-11 at 120 km/s' depends on this convention by about a factor of 2.",
+  "Strength scale in the chi sector, for framing Paul's question (outside the agent's scope). At the #11 sec. 8 benchmark (alpha~ ≈ 1, m_phi ~ m_chi ≈ 70 MeV), the gated chi-chi interaction exceeds chi-chi gravity at contact by alpha~/(m_chi/M_P)^2 = 3.0e40 and is cut off beyond hbar/(m_phi c) = 2.8 fm [D, spin2_and_misc.py; M_P from memory (†)]. Whatever its velocity dependence, the program's gate is a nuclear-strength contact force, not a small perturbation of gravity.",
+  "Iron-rule slips: 'about 35 times' (O2) was not printed by code and is 33.8. The envelope extremes 'weakest 8.14e-9 / 8.91e-9 at 2920 km/s' come from a grid filter that drops the 3000 km/s endpoint. The agent's own bounds.out prints 8.54e-9 and 9.29e-9 at 3000 km/s.",
+  "Non-issue, recorded: the O8 second-order residuals depend on how the orbit is defined at finite eps. Both the Kepler-periapsis start and fixed turning points extrapolate linearly to the first-order formula."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/analytic.py (output analytic.out): sympy checks of K = W - uW', the first-order Hamiltonian, the Delaunay precession formula, small-e limits, Lorentzian null, W = u^2 exact, GR anchor with term decomposition, u<<1 ratio",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/apsidal_quadrature.py (output apsidal_quadrature.out): exact-model apsidal angle by quadrature using conserved E and J; first-order coefficient vs formula to about 1e-22",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/bounds_check.py (output bounds_check.out): independent recomputation of all centre-of-mass bounds, envelope scan, endpoint check, Mercury beta and double-pulsar factor",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/composite_check.py (output composite_check.out): Maxwellian-smeared gate vs quadrature, Lorentzian limit, thermal dispersions, exact Fermi-sphere pair average, momentum-variant identity and widths",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/lab_forces.py (output lab_forces.out): held-body force on the rotating Earth (sympy), free-fall acceleration from the exact velocity Hessian, rotor weight with correct vs agent prescription",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/rotor_exact.py (output rotor_exact.out): exact symbolic rotor-element trajectories confirming the rotor force formula",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/spin2_and_misc.py (output spin2_and_misc.out): spin-2 exchange velocity structure, speed ranges, GM_E/Eros/Cassini/Collett/O16/O20 arithmetic, chi-sector strength scale",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/final_misc.py (output final_misc.out): EIH centre-of-mass reduction, Kepler Mars/Earth bound, MICROSCOPE orbit-force factor, third-body anisotropic-inertia size",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-derivation/convention_and_weber.py (output convention_and_weber.out): bounds under the notebook's amplitude-level v* convention; Weber-type precession (1/3 of GR for coefficient 1/c^2)"
+ ],
+ "overall": "The agent's analytic core is correct, and I re-derived it independently. That covers K = W - uW', the first-order Hamiltonian, the precession formula 2π eps sqrt(1-e^2)/e dΦ/de with its small-e limits, the Lorentzian null, the W = u^2 result, the GR anchor, and the (2/3)(c/v*)^2 mapping. An exact-model check by a different method (conserved E and J, then apsidal quadrature) agrees with the formula to about 1e-22. All per-v* bounds reproduce within 3% from my own code; the inputs are the agent's sourced values, taken as given.\n\nMain defects:\n1. The centre-of-mass-gating analysis covers orbits only. The same Lagrangian shifts the inertia of a body at rest in a deep potential by eps (v_c/v*)^2 W''. At the pole this raises free-fall g by eps[1 + 2(v_c/v*)^2]: 1.25e4 eps at 0.1 km/s, which satellites do not see. It also makes polar inertia non-positive for eps >= 8e-5. The claimed open window (Gaussian, v* < 0.17 km/s, |eps| < 0.6) is therefore not open at O(1). A quantitative bound needs a sourced gravimetry-satellite comparison.\n2. The envelope scan drops its 3000 km/s endpoint. At that endpoint the Lorentzian bound is 9.3e-9, which breaks the 'below 8.9e-9' and 'below 9e-9' statements.\n3. The rotor (O21) and MICROSCOPE (O18) estimates use static weight factors. The rotor numbers have the wrong sign for v* >= 1 km/s, and MICROSCOPE is 3.3x too weak at 10 km/s. These claims are low-confidence and never set the envelope.\n4. O22's 'unchanged' torsion-balance bound holds only for body-level gating. It also omits that the program's documented X coupling to ordinary matter has no gate: its only relative-velocity dependence is the spin-2 factor 1 - v^2/(2c^2) on the X/graviton ratio.\n\nMinor: '35' should be 33.8 (O2); the 20 keV p* and v* mapping carries the √2 gate-convention factor, so the program's 120 km/s corresponds to the agent's 170 km/s, where the bounds are about 3.5e-11.\n\nThe citations I checked live ([S]) hold: Tisserand's 3/8 and Levy in Bunchaft and Carneiro, and Will 2014's beta values and Table 4 α1/α2 limits.\n\nNet: the headline is right and becomes stronger. A universal, gravitational-strength, relative-velocity-gated term on ordinary bodies is excluded at every v* considered, including the low-v* window. Constituent-level gating leaves only a composition-dependent G. None of this bears on a χ-confined gate or on the Debt-3 obituary."
+}

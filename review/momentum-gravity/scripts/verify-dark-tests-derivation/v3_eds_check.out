@@ -1,0 +1,8 @@
+iii (force law)   : p = -12*e**2/125 + 4*e/5 + 1   ; p(eps=0.1) = 1.079080
+i (Hamiltonian)   : p = -3*e**2/125 + 9*e/10 + 1   ; p(eps=0.1) = 1.089776
+ii (Lagrangian)   : p = 63*e**2/500 + 9*e/10 + 1   ; p(eps=0.1) = 1.091396
+no velocity terms : p = -18*e**2/125 + 3*e/5 + 1   ; p(eps=0.1) = 1.058625
+numerical EdS local-limit exponent, reading noad , eps=0.1: p = 1.058625, (p-1)/eps = 0.5863
+numerical EdS local-limit exponent, reading iii  , eps=0.1: p = 1.079080, (p-1)/eps = 0.7908
+numerical EdS local-limit exponent, reading i    , eps=0.1: p = 1.089776, (p-1)/eps = 0.8978
+numerical EdS local-limit exponent, reading ii   , eps=0.1: p = 1.091396, (p-1)/eps = 0.9140

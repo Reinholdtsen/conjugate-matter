@@ -1,0 +1,54 @@
+== margins (critic3/c4_numbers.out inputs: 28.07, 692.8; c1 0.1063; VCN u7 2.46)
+  28.07/0.1063 = 264.1   (draft: 264x)
+  692.8/0.1063 = 6517   (draft: 6500x)
+  28.07/2.46   = 11.41   (draft: at least 11x)
+  with the draft's rounded bound 0.11: 28.07/0.11 = 255; 692.8/0.11 = 6298
+== second gate scale (draft: 4x at 30 km/s to 40x at 3 km/s)
+  120/30 = 4.0; 120/3 = 40.0
+== spin-2 velocity factors at 120 km/s (draft: 2.4e-7 X, 3.2e-7 graviton)
+  (3g^2-1)/2 - 1 = 2.4033e-07; 2g^2-1 - 1 = 3.2044e-07
+== spin needed for O(1) at 120 km/s (draft: 3500-5000)
+  J(J+1)/4 b^2 = 1 -> J = 4996.0; J^2/2 b^2 = 1 -> J = 3533.1
+== VON scan endpoint (draft: earlier scan stopped at 2923 km/s)
+  last grid point np.float64(3000.0000000000014); last kept 2923.5 km/s
+== gate conventions (task: v_a = sqrt2 v*)
+  sqrt2 * 120 = 169.71 km/s; 120/sqrt2 = 84.85 km/s
+  VON scan 0.3-3000 km/s in v_a is v* = 0.212-2121 km/s in the record's convention
+  Mars 1.82e-11 at v_a=120 scaled by (170/120)^2 (leading order): 3.65e-11  (VON at 170: 3.5e-11)
+  Mercury INPOP15a 1.7e-11..2.5e-11 at v_a=120 scaled the same way: 3.4e-11..5.0e-11  (not computed by any agent)
+== Vainshtein radius, 1 kg, lambda = 50 um, r_V^3 = K r_S lambda^2 (VCN u6: K = 2, 1, 15)
+  K =  2 eq.43 m1=0 (repo line 383)  : r_V = 1.951e-12 m; round(log10) = -12
+  K =  1 eq.40 palindromic           : r_V = 1.549e-12 m; round(log10) = -12
+  K = 15 eq.41 palindromic           : r_V = 3.819e-12 m; round(log10) = -11
+== screened windows (VCN u6: Saturn 1.024/0.264 pc, Pluto 8.560/2.210 pc; draft 0.3-9 pc)
+  span 0.264-8.56 pc
+== eBOSS compressed fit, H reading, v* = 120 (critic3/c1: chi2 26.31 -> 1.90)
+  Delta chi2 = 24.41; sqrt = 4.94 (one-parameter Gaussian equivalent)
+== N-body window (corner/phys_scales.out)
+  25/0.5774 = 43.3 t_ff; 43 x 14.96 Myr = 0.643 Gyr; 43 x 8.66 = 0.372 Gyr; 43 x 2.71 = 0.117 Gyr
+== N-body run count and seeds (corner/runs/log_*.txt)
+  29 run logs
+   eps= 0 r_g=  1 N=1000 reading H: 2 seeds
+   eps= 0 r_g=  1 N=2000 reading H: 3 seeds
+   eps= 1 r_g=0.4 N=2000 reading H: 3 seeds
+   eps= 1 r_g=  1 N=2000 reading H: 3 seeds
+   eps=10 r_g=0.4 N=2000 reading H: 3 seeds
+   eps=10 r_g=  1 N=1000 reading H: 3 seeds
+   eps=10 r_g=  1 N=2000 reading H: 3 seeds
+   eps= 3 r_g=0.4 N=2000 reading H: 3 seeds
+   eps= 3 r_g=  1 N=2000 reading F: 3 seeds
+   eps= 3 r_g=  1 N=2000 reading H: 3 seeds
+== injection test (corner/injection_test.out): smallest injected fraction and stream response
+  smallest injected fraction = 0.02; 2% stream: Xi(v*/2) 0.0852 -> 0.0396, S1 -0.0485 -> -0.0535, S2 0.1982 -> 0.2858 (dS2 = +0.088); control dS2 errors 0.04-0.11 (summary_numbers.out)
+== Debt 3a narrow-gate overstatement (critic3 c3 2.9e-31; linearized 8.7e-31)
+  8.7e-31/2.9e-31 = 3.00
+== cores (VDD/VDN sigma_T/m = 2.369e-62 cm^2/g at G~ = G; need 30 cm^2/g; sigma ~ G~^2)
+  sqrt(30/2.369e-62) = 3.559e+31
+== record-convention top end of the ordinary-matter scan (VON vot_topend: gauss 8.65e-9, lorentz 9.42e-9 at v_a = 3000)
+  record v* = 3000 km/s is v_a = 4243 km/s; leading-order v_a^2 scaling of the double-pulsar bound: gauss 1.73e-08, lorentz 1.88e-08  (not computed by any agent)
+== crossover 1/Lambda_g(r), closed form Lambda_g = [(sqrt(1+4r^2)-1)/(2r^2)]^3, anchored on VCN u2
+  r =  1.0000: 1/Lambda_g = 4.236
+  r =  1.2917: 1/Lambda_g = 6.699
+  r =  1.5000: 1/Lambda_g = 9.014
+  r =  1.6000: 1/Lambda_g = 10.308
+  r =  8.3333: 1/Lambda_g = 692.752

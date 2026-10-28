@@ -4,6 +4,12 @@ weight: 30
 status: method
 description: "Write down and fix the expected verdict and weakest link before each review round (by a commit, or in round 5 by a recorded hash), keep them out of commit subjects, and score them afterwards: verdicts 2 for 2 in rounds 1–2, a miss in round 3, hits in rounds 4 and 5; the weakest link's location hit in rounds 4 and 5, with the severity of a defect, the number of small errors and the extent of prior art underestimated."
 sources:
+  - "review/momentum-gravity/README.md"
+  - "review/momentum-gravity/preregistration-run2.md"
+  - "review/momentum-gravity/preregistration-run3.md"
+  - "review/momentum-gravity/preregistration-run4.md"
+  - "notes/velocity-gated-gravity.md §11"
+  - "notes/gate-mechanism.md §6"
   - "CLAUDE.md 'Method (HANDOFF §5)'"
   - "CLAUDE.md 'Working with Paul'"
   - "HANDOFF.md §5"
@@ -129,6 +135,16 @@ The same practice was applied on 2026-10-27 to an investigation rather than a re
 
 No review round followed; the note has not been reviewed.
 
+### The momentum-gravity investigation (not a review round)
+
+The investigation that answered Paul's question of 2026-10-26, whether the velocity-clumping obituary is premature, sealed an expected answer before each of its runs (`review/momentum-gravity/README.md`). The two notes score them (`notes/velocity-gated-gravity.md` §11; `notes/gate-mechanism.md` §6).
+
+- **Run 2, not blind.** Its pre-registration was written on 2026-10-26 in the session's state file, beside the agents' folders, and three agents read it: the program analyst, the clumping derivation verifier and the dark-tests analyst. "Their judgment-level text was not blind; their executed numbers were unaffected." It was moved out of reach on 2026-10-27 (`review/momentum-gravity/preregistration-run2.md`). Right: the obituary stands for the program as written; no gate between ordinary bodies, only O(v²/c²) structure; the gate is χ–χ at contact; a universal version is excluded; the long-range variant meets small-scale-structure limits, the Lyman-α forest binding at v\* = 120 km/s. Partly right: clumping needs G̃/G ≳ (σ/v\*)³, about 2 in the Milky Way and 580 in clusters, where the executed values are at least 28 and at least 693. Wrong: that Debt 3a's σ → v\* substitution is generous to the instability, since in the Milky Way it overstates the shortfall about 3× (flag 58). The weakest link: "the O(1) factors were indeed the weak point, off by more than an order of magnitude in the Milky Way", and Hubble-flow gating does not let the variant escape the cosmological bounds, since "the gate closes at a Hubble separation of exactly v\*, the forest's scale".
+- **Run 3.** Written 2026-10-27 before launch and kept outside the agents' folder. Right: the run-2 force law judged neither Hamiltonian nor Lagrangian; the record and run-2 numbers reproduce; a source correction, the mapping of the Baryon Oscillation Spectroscopic Survey's limit; the ordinary-matter envelope below 10⁻⁸, with the literature-input corrections under 3×, except one coupling correction, for MICROSCOPE, which exceeded it; no clumping in the N-body, "and more strongly than predicted, none up to ε = 10". Mostly right: the theory items; the fiber-overlap gate is not confined to contact range by itself, and "what forbids a long-range version is relativistic factorization with finitely many fields of finite spin". Wrong: the Lyman-α bound (predicted 0.1–0.5, got 0.057–0.106, anchored on the run-2 critic's 0.34); the Sagittarius bound (predicted 1–3, got 0.2–2.5); the corner (predicted no robust exclusion, but ε ≈ 2 is excluded from 10 km/s up, and ε ≈ 3 at 5–30 km/s in one reading). Missed: continuous spin, the sign of the Lyman-α response in the record's reading, and the gate-mechanism flag. The weakest link named, the compressed likelihood's shape, "was a real problem, and the N-body held up. The failures were formula errors in two linear models, which were not named."
+- **Run 4.** Written 2026-10-27 before the blind second derivation of the gate question and kept outside every agent folder. Right: the polynomial of degree two in s with velocity scale c; the record builds no fiber structure; #6 §4's "rational gates" are not a gate in k. Partly right: the verdict matched the hedged alternative ("unsupported" for the tag as written), not the first choice ("conditional"), which the derivation rules out; the tag matched only in its [P] branch, and not on the stated condition, since the derivation gives [P] to the gate itself, not to a fiber-resolving X. The weakest link named, the polarization, held up: it is Lorentz-invariant, and the scenario it guarded against, a ruling of [P] rather than [O], "partly happened, for a different reason". Missed: reading R1, in which the fiber overlap is an ordinary potential of range ~10 pm ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#what-flag-55-proposes)).
+
+The SHA-256 hashes of the three files as committed are in `review/momentum-gravity/README.md`. No review round followed; neither note has been reviewed.
+
 ### Across rounds
 
 The round-5 adjudication sums up the record:
@@ -178,3 +194,4 @@ Round 5's forecast was not committed at all. The pre-registration says it was "k
 - `notes/toy-lagrangian.md` 'Success criteria (fixed 2026-10-19, before any construction)', 'Predictions (written before construction)' — the same discipline applied to the toy-model calculation
 - `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, awaiting a ruling
 - `review/closed-universe/preregistration.md`, `review/closed-universe/README.md` and `notes/closed-universe.md` §10 — the closed-universe investigation's sealed forecast, its hash and its scoring
+- `review/momentum-gravity/README.md`, `review/momentum-gravity/preregistration-run2.md`, `review/momentum-gravity/preregistration-run3.md`, `review/momentum-gravity/preregistration-run4.md`, `notes/velocity-gated-gravity.md` §11 and `notes/gate-mechanism.md` §6 — the momentum-gravity investigation's three pre-registrations, the run-2 blindness failure, and the scores

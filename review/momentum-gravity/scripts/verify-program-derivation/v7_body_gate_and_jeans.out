@@ -1,0 +1,28 @@
+(1) particle-level gate averaged over two Maxwellian bodies (v* = 120 km/s)
+    s [km/s]  V [km/s]   <W> formula   <W> quadrature   effective gate width sqrt(v*^2+2s^2) [km/s]
+         5.0      0.0   9.94814e-01   9.90009e-01          120.2
+         5.0    100.0   4.97957e-01   4.95552e-01          120.2
+         5.0    300.0   1.96243e-03   1.95295e-03          120.2
+        10.0      0.0   9.79523e-01   9.78330e-01          120.8
+        10.0    100.0   4.93802e-01   4.93200e-01          120.8
+        10.0    300.0   2.05995e-03   2.05744e-03          120.8
+        50.0      0.0   6.39501e-01   6.39460e-01          139.3
+        50.0    100.0   3.81925e-01   3.81900e-01          139.3
+        50.0    300.0   6.18120e-03   6.18080e-03          139.3
+       150.0      0.0   1.19361e-01   1.19357e-01          243.7
+       150.0    100.0   1.00867e-01   1.00864e-01          243.7
+       150.0    300.0   2.62326e-02   2.62317e-02          243.7
+      1270.2      0.0   2.96150e-04   2.95594e-04         1800.3
+      1270.2    100.0   2.95238e-04   2.94683e-04         1800.3
+      1270.2    300.0   2.88039e-04   2.87499e-04         1800.3
+
+(2) narrow-gate Jeans length of a gated 1/r attraction, strength beta G, among co-movers
+    MW solar circle : co-moving fraction 0.029; lambda_J(beta = 1) = 184.1 kpc; beta needed for lambda_J = 1 kpc: 3.39e+04
+    MW inner 1 kpc  : co-moving fraction 0.063; lambda_J(beta = 1) = 25.1 kpc; beta needed for lambda_J = 1 kpc: 6.29e+02
+    dwarfs (sigma < v*): every pair is inside the gate, so the gated term only rescales chi-chi gravity, G -> (1 + beta) G
+
+(3) where the Lagrangian (velocity-gated) form of model b loses its inertia: r* = 2 beta G M/v*^2, eps = 2 beta |Phi|/v*^2 = 1
+    Sun                     : r*/beta = 1.843e+10 m = 0.1232 AU = 0.000 kpc
+    1e11 Msun (point mass)  : r*/beta = 1.843e+21 m = 12321220382.0715 AU = 59.735 kpc
+    1e12 Msun (point mass)  : r*/beta = 1.843e+22 m = 123212203820.7148 AU = 597.350 kpc
+    beta at which eps = 1 for MW-at-Sun (|Phi| ~ v_c^2, v_c = 230): 0.136; for chi with co-moving fraction 0.0295: 4.61

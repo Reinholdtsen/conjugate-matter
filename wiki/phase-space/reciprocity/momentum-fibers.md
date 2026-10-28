@@ -37,6 +37,9 @@ sources:
   - "notes/closed-universe.md §5"
   - "verify/closed_universe.py 'E. Momentum space and reciprocity'"
   - "review/wiki-build-flags.md item 48"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
 ---
 
 *A momentum fiber is the set of all momenta a particle can have at one point of space-time. [Phase space](/wiki/program/postulates/p1-arena#phase-space), the space of positions and momenta taken together, is made of these fibers, one attached to each point, much as a spectrogram attaches a whole frequency axis to each instant of a recording; geometers call the structure the cotangent bundle of space-time. In [general relativity](/wiki/gravity/spin-2-fields/general-relativity) every fiber is flat. Momenta at a point are measured with the inverse of the space-time metric, which is the same everywhere along the fiber, so the curvature of space-time changes how neighbouring fibers are joined but not the geometry inside any one of them. The program's [checkpoint](/wiki/history/documents/checkpoint) lists this flatness among the places where the laws treat position and momentum differently and calls it "an architectural assumption, not a measurement" ([Born's question](/wiki/program/borns-question)). In the program's own geometry the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) fixes the momentum metric as the inverse metric on the vacuum, any independent momentum-space geometry is assigned to the [momentum graviton X](/wiki/gravity/momentum-graviton), and the [dark-matter gate](/wiki/dark-matter/conjugate-matter/gate-mechanism) acts through the width of conjugate-matter quanta along the fibers. How X propagates along the fibers, which would fix the shape of that gate, has not been computed.*
@@ -143,7 +146,7 @@ Conjugate matter χ, one of the program's dark-matter candidates, is the "p-pola
 
 ### Quanta with a width along the fiber
 
-Calc note #6 derives the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), the factor that switches off χ's self-interaction at large relative velocity, from exchange of the massive X ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)):
+Calc note #6 derives the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), the factor that switches off χ's self-interaction at large relative velocity, from exchange of the massive X ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling):
 
 > "The relative-momentum dependence enters through the χ quanta's **intrinsic momentum-space extent**: p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap — the dual of how x-extended composites acquire form factors F(qR)." (`notes/debt1a-ii-X-classification.md` §4)
 
@@ -155,9 +158,11 @@ The profile along the fiber decides the form of the gate. "Wavepacket overlap of
 
 #13 §4 gives the width a kinematic origin: "The conjugate quantum's invariant extent fixes its intrinsic momentum-space width μ ~ ℏ/λ_χ — which is precisely the gate scale of the dark-matter sector, v\* = √2 μ/m_χ" [D — structural], with λ_χ the extent of a conjugate quantum in position ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)). The relation between the width in momentum and the extent in position is reciprocal, as between the widths of a spectrum and its waveform ([the time–bandwidth product](/wiki/phase-space/reciprocity/fourier-transform#the-timebandwidth-product)). The relation v\* = √2 μ/m_χ is the lab notebook's (#1 §5.1), and #13's use of it with the fiber width is the combination flag 17 records ([what μ is](/wiki/dark-matter/conjugate-matter/gate-mechanism#what-μ-is)).
 
+`notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that this picture is not derived. The record never writes the overlap down, and written down in the two natural ways, which are the note's reconstruction, it gives either an ordinary position-local potential of range ħ/μ, about ten picometres (reading R1), or a pair-channel interaction that produces the gate but contains no X (reading R2) (§3; [the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)). On #13's reading the note adds: "#13 §4 identifies μ with ħ/λ_χ, an extent in position. Standard form-factor physics turns that into a form factor in the transfer q at scale μ, not a gate in k [T]" (§3). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism; it awaits Paul's ruling, and #11 is unchanged.
+
 ### The X propagator on the fibers (OP4)
 
-The shape of the gate depends on how X propagates along the fibers. Calc note #5: "The gate *shape* is the X propagator's structure on the momentum fibers — open [O]" (§E). #11 keeps it as its fourth open problem: "Gate shape (X propagator on momentum fibers; Gaussian vs rational — now observable) [O]" (#11 §14 item 4; [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)). Calc note #6's closing list ties the Gaussian case to the metastring of [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality): "gate-shape completion (Gaussian fiber profile — ties to the metastring's modular vertex structure)" (§5). No document writes the X propagator on the fibers, the χ–X vertex or the profile of a χ quantum along the fiber.
+The shape of the gate depends on how X propagates along the fibers. Calc note #5: "The gate *shape* is the X propagator's structure on the momentum fibers — open [O]" (§E). #11 keeps it as its fourth open problem: "Gate shape (X propagator on momentum fibers; Gaussian vs rational — now observable) [O]" (#11 §14 item 4; [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)). Calc note #6's closing list ties the Gaussian case to the metastring of [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality): "gate-shape completion (Gaussian fiber profile — ties to the metastring's modular vertex structure)" (§5). No document writes the X propagator on the fibers, the χ–X vertex or the profile of a χ quantum along the fiber. `notes/gate-mechanism.md` finds that within #11 §7 there is nothing to write: "The section condition (#1 §2; #5 §D) makes H_Z, and with it X, depend on x only. The fiber metric is constant along each fiber, so 'X propagator on momentum fibers' has no meaning within §7" (§3) [D, record audit]. Flag 55 in `review/wiki-build-flags.md` records the point, pending Paul's ruling ([the section condition](/wiki/symmetry-breaking/section-condition)).
 
 ### The dual stress: derivatives along the fiber
 
@@ -165,7 +170,7 @@ X couples to χ through the [dual stress T̃](/wiki/dark-matter/conjugate-matter
 
 ## What is open
 
-- **The propagator and the profile.** X's propagator on the fibers, the χ–X vertex and a χ quantum's profile along the fiber decide the gate's shape, and none of them is computed (OP4).
+- **The propagator and the profile.** X's propagator on the fibers, the χ–X vertex and a χ quantum's profile along the fiber decide the gate's shape, and none of them is computed (OP4). The gate-mechanism note finds that the section condition gives the propagator no meaning within #11 §7, and proposes the mechanism itself as open [O] (flag 55, pending Paul's ruling). Among its open questions is "Whether a doubled, phase-space field theory for χ that drops the section condition could define a relative momentum consistent with momentum conservation" (`notes/gate-mechanism.md` §5).
 - **Geometry within a fiber.** No document works out how X changes the geometry of a single fiber or compares the program's momentum-space geometry with the curved momentum spaces of the literature.
 - **Lorentzian signature.** The slaved metric g̃ = g⁻¹ is derived for a positive-definite g (OP3).
 - **Extensivity.** The soccer-ball problem stays open on the lab notebook's authority and is absent from #11's list ([curved momentum space](/wiki/phase-space/reciprocity/curved-momentum-space#open-extensivity-the-soccer-ball-problem)).
@@ -210,4 +215,5 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - `HANDOFF.md` §2 — "μ = χ's momentum-fiber width"; §4 — the chat-only "slaved layer g̃ = g⁻¹ is algebraic"
 - `review/wiki-build-flags.md` items 17, 29, 30 — the two gate conventions and the √2 in μ; #13's citation of #11 §7; #13's tag on its cones
 - `notes/closed-universe.md` §4, §5 and `verify/closed_universe.py` section E (E1, E2, E4) — the flat fibre over a closed base, the discrete momenta and the integrable polarization; computed, not reviewed
-- `review/wiki-build-flags.md` item 48 — a closed universe does not close momentum space; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 48 — a closed universe does not close momentum space; awaiting Paul's ruling; item 55 — the gate's mechanism not derived, awaiting a ruling
+- `notes/gate-mechanism.md` §3 — the fiber overlap read two ways; no X propagator on the fibers within #11 §7; #13's μ ~ ℏ/λ_χ as a form factor in q; §5 — a phase-space field theory for χ without the section condition, open

@@ -1,0 +1,12 @@
+subsonic Heaviside ellipsoid: (1/c_s^2) phi_tt - lap phi away from source = 0
+  V -> 0 limit: 1/(4*pi*sqrt(x**2 + y**2 + z**2))
+  in rescaled coordinate xi = sqrt(1-beta^2) xi':  phi = 1/(4*pi*sqrt((V**2 - c_s**2)*(-xp**2 - y**2 - z**2)/c_s**2))  = (1/sqrt(1-beta^2)) / (4 pi r') -> lap' phi = -delta^3(r')/sqrt(1-beta^2), i.e. strength 1 in xi
+supersonic Mach-cone field: PDE residual inside the cone = 0
+
+force on body 2 from body 1, both moving at V (relative velocity 0), separation d, units g^2/(4 pi d^2):
+  V/c_s = 0     : side-by-side |F| = 1 ; trailing body |F| = 1 ; leading body |F| = 1
+  V/c_s = 1/2   : side-by-side |F| = 2*sqrt(3)/3 ; trailing body |F| = 1 ; leading body |F| = 1
+  V/c_s = 9/10  : side-by-side |F| = 10*sqrt(19)/19 ; trailing body |F| = 1 ; leading body |F| = 1
+  V/c_s = 99/100: side-by-side |F| = 100*sqrt(199)/199 ; trailing body |F| = 1 ; leading body |F| = 1
+  V/c_s = 2     : side-by-side |F| = 0 (outside the cone, xi = 0 > -s d) ; trailing body |F| = 2 ; leading body |F| = 0 (ahead of the source)
+  -> at zero relative velocity the interaction depends on V/c_s, the velocity relative to the mediator's frame; when V > c_s the action-reaction pair is broken (momentum goes into the medium)

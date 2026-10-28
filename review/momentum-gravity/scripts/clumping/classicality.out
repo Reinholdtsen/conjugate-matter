@@ -1,0 +1,8 @@
+r_c = 2.385 kpc, M(<r_c, uniform rho) = 1.497e+09 Msun, N = 2.386e+67, ln N = 155.1
+t_relax/t_cross ~ N/(8 ln N) = 1.923e+64
+dwarf core: N_occ = rho/(m^4 sigma^3) at m = 70 MeV = 3.193e-25
+MW local: N_occ = rho/(m^4 sigma^3) at m = 70 MeV = 9.262e-28
+mean-field energy per particle: contact benchmark g n = 2.725e-37 GeV; 1/r force at G~=G: G M m/r_c = 2.103e-09 GeV; ratio = 7.716e+27
+kinetic scale m sigma^2 = 7.010e-10 GeV
+v = 30 km/s: b90 = 1.851e-47 m, sigma_T/m (G~=G, lnLambda=ln N) = 5.352e-62 cm^2/g; G~/G needed for 30 cm^2/g (sigma_T ~ G~^2) = 2.368e+31
+v = 120 km/s: b90 = 1.157e-48 m, sigma_T/m (G~=G, lnLambda=ln N) = 2.091e-64 cm^2/g; G~/G needed for 30 cm^2/g (sigma_T ~ G~^2) = 3.788e+32

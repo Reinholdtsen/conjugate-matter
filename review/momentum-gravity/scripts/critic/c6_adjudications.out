@@ -1,0 +1,42 @@
+=== (A) gated precession, first order in beta, exact in e (O7 formula) ===
+  GM/(a v*^2) =  0.0033: first-order dw = -9.04521e-03 rad/orbit ; leading-order formula -9.11407e-03 ; ratio +0.9924
+  GM/(a v*^2) =  0.0100: first-order dw = -2.69900e-02 rad/orbit ; leading-order formula -2.76184e-02 ; ratio +0.9772
+  GM/(a v*^2) =  0.1000: first-order dw = -2.18335e-01 rad/orbit ; leading-order formula -2.76184e-01 ; ratio +0.7905
+  GM/(a v*^2) =  0.2000: first-order dw = -3.40845e-01 rad/orbit ; leading-order formula -5.52368e-01 ; ratio +0.6171
+  GM/(a v*^2) =  0.3000: first-order dw = -3.92485e-01 rad/orbit ; leading-order formula -8.28552e-01 ; ratio +0.4737
+  GM/(a v*^2) =  0.5000: first-order dw = -3.56897e-01 rad/orbit ; leading-order formula -1.38092e+00 ; ratio +0.2584
+  GM/(a v*^2) =  1.0000: first-order dw = +4.00474e-02 rad/orbit ; leading-order formula -2.76184e+00 ; ratio -0.0145
+  GM/(a v*^2) =  2.0000: first-order dw = +6.17605e-01 rad/orbit ; leading-order formula -5.52368e+00 ; ratio -0.1118
+  GM/(a v*^2) =  3.0000: first-order dw = +6.72135e-01 rad/orbit ; leading-order formula -8.28552e+00 ; ratio -0.0811
+  GM/(a v*^2) = 30.0000: first-order dw = +1.62253e-06 rad/orbit ; leading-order formula -8.28552e+01 ; ratio -0.0000
+  verifier v4c (first order, e = 0.3): 0.30 -> -3.9248e-01 ; 1.00 -> +4.0047e-02 ; 2.00 -> +6.1760e-01
+
+=== (B) free fall from rest, body-level velocity gate ===
+  rddot at rest = GM*v_s**2*(epsilon + 1)/(r*(2*GM*epsilon - r*v_s**2))
+  rddot/(-GM/r^2) to first order in eps = 2*GM*epsilon/(r*v_s**2) + epsilon + 1
+  Earth pole: v_c^2 = GM_E/R_pole = 62.70 km^2/s^2
+   v* =  0.10 km/s: (g_ff/g_N - 1)/eps = 1.254e+04 ; inertia m(1 - 2 eps v_c^2/v*^2) vanishes at eps = 7.97e-05
+   v* =  0.17 km/s: (g_ff/g_N - 1)/eps = 4340 ; inertia m(1 - 2 eps v_c^2/v*^2) vanishes at eps = 0.00023
+   v* =  0.30 km/s: (g_ff/g_N - 1)/eps = 1394 ; inertia m(1 - 2 eps v_c^2/v*^2) vanishes at eps = 0.000718
+   v* =  1.00 km/s: (g_ff/g_N - 1)/eps = 126.4 ; inertia m(1 - 2 eps v_c^2/v*^2) vanishes at eps = 0.00797
+
+=== (C) Born vs classical for the core-making long-range force ===
+  Gt/G = 2.37e+31: G m^2/(hbar c) = 3.287e-41; Coulomb (Sommerfeld) parameter Gt m^2/(hbar v) at 30 km/s = 7.79e-06 (Born regime if << 1)
+  Gt/G = 3.56e+31: G m^2/(hbar c) = 3.287e-41; Coulomb (Sommerfeld) parameter Gt m^2/(hbar v) at 30 km/s = 1.17e-05 (Born regime if << 1)
+
+=== (D) harmonic core: momentum-only attraction = position attraction (canonical map) ===
+  {X_a,P_a} = 1  {X_a,P_b} = 0  {X_a,X_b} = 0  {P_a,P_b} = 0
+  H in (X, P): (Omega**2*X_a**2*m**2 + Omega**2*X_b**2*m**2 + P_a**2 + P_b**2 + 2*m*U(Omega*m*(X_a - X_b)))/(2*m)
+
+=== (E) Vainshtein radii for the range of X (u = 1) ===
+  lambda_X = 1 kpc: r_V(Sun) = 1189 AU (P18: 1.19e3 AU)
+  Earth screens its own surface (r_V = R_E) for lambda_X > 1.21e+11 m
+  Sun's r_V encloses 1 AU            for lambda_X > 7.53e+14 m = 0.0244 pc
+  Sun's r_V encloses Saturn 9.58 AU  for lambda_X > 2.23e+16 m = 0.723 pc
+  Sun's r_V encloses Pluto 39.5 AU   for lambda_X > 1.87e+17 m = 6.06 pc
+  two solar-mass stars, lambda_X = 1 kpc: r_V = 1.5e+03 AU (wide binaries beyond this would see G(1 + 4/3) unscreened)
+
+=== (F) gate-width conventions ===
+  amplitude gate (notebook, clumping, dark-tests): W = exp(-v^2/(2 v*^2)), v* = sqrt2 mu/m
+  rate-form gate used as a potential (program P12-P13, ordinary tests): W = exp(-v^2/v_a^2)
+  same width: v_a = sqrt2 v* = 169.7 km/s for v* = 120.0 km/s

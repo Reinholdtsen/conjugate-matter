@@ -1,0 +1,229 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "c3",
+   "verdict": "corrected",
+   "reason": "The gate averages are right. The MW binding uses the wrong input: the critic's script sets f_b = 0.156 (the cosmic value, marked dagger) for the MW as well as for clusters. The MW's own baryon fraction is about 0.05 (stars 5±1e10 Msun [S: Bland-Hawthorn & Gerhard 2016, arXiv:1602.07702]; Mvir 1.3±0.3e12 Msun [S, via a citing paper]), which gives a binding of 0.15-0.20, not 0.249. The inference 'excluded by observation' does not follow from what c3 computes. (i) The check the critic suggests, cluster lensing against dynamical masses, cannot see this hypothetical: photons, galaxies and gas all couple to chi through ungated gravity. The observed agreement is 0.02 ± 0.02 dex (Rodriguez & Miller 2025, arXiv:2507.20938 [S]) and holds either way. (ii) 'Not self-bound at the present dispersion' is not an observation. A chi component virialized in the weaker force it feels would be colder and bound. In a crude isothermal scaling (a reduced model, not an equilibrium computation), sigma_chi is 91-98 km/s with binding 0.35-0.40 in the MW, and 373-406 km/s with binding 0.14-0.16 in clusters. (iii) The tests that can discriminate are differential, chi against stars: stream asymmetry and satellite offsets. c3 computed none of them. The statement 'stars and chi would fall differently' is correct and is the testable part.",
+   "independent_check": "u1_c3_gate_average.py, written before opening c3, uses three methods: the closed form (1+2r^2)^-1.5, mpmath quadrature over the relative-speed Maxwellian, and Monte Carlo with independent seeds. Printed: 'MW, critic's sigma 155.0 1.2917 1.1072e-01 1.1072e-01 1.1077e-01 +- 6.8e-05'; 'cluster, critic's sigma 1000.0 8.3333 6.0440e-04 6.0440e-04 6.0868e-04 +- 2.8e-06'. That table shares one seed set across cases, so a fresh-seed rerun: 'MC = 6.0486e-04 +- 2.1e-06; closed = 6.0440e-04; pull = +0.22 sigma'. Coma sigma = 1015 ± 59 km/s [S: Colless & Dunn 1996, via search summary]: 'Coma 1015 ... 5.7818e-04' (4.8858e-04 at 1074, 6.9106e-04 at 956). MW sigma 165-170: 9.5926e-02 and 8.9071e-02. Binding: 'MW sigma=155: f_b = 0.046 -> b = 0.1516; f_b = 0.100 -> b = 0.1997; f_b = 0.157 -> b = 0.2506'; 'cluster sigma=1000: f_b = 0.130 -> b = 0.1305; f_b = 0.157 -> b = 0.1578'. Cosmic f_b = 0.1573 from the Planck 2018 abstract (Omega_b h^2 = 0.0224, Omega_c h^2 = 0.120 [S]). Re-virialized scaling: 'MW f_b = 0.046: sigma_chi = 91.30 km/s (r = 0.761), <W> = 0.3155, b = 0.3470'; 'cluster f_b = 0.157: sigma_chi = 405.63 km/s (r = 3.380), <W> = 0.0086, b = 0.1645'. The critic's c3.out agrees on the averages ('1.1072e-01', '6.0440e-04'); its 0.249 comes from f_b = 0.156.",
+   "corrected_statement": "If the fibre-overlap gate acted on chi-chi gravity, the pair-averaged gate at v* = 120 km/s would be 0.111 in the MW (sigma = 155 km/s; 0.089-0.096 for sigma = 165-170) and 6.0e-4 in a cluster (sigma = 1000 km/s; 4.9-6.9e-4 for Coma's 1015 ± 59 km/s) [D, three methods]. At its present dispersion, chi would feel 0.15-0.25 of the ungated force in the MW (f_b 0.05-0.16) and 0.13-0.16 in clusters, so it could not stay bound at that dispersion [D]. This is not by itself an observational exclusion. Cluster lensing-vs-dynamical-mass agreement does not test it, and chi re-virialized in the weaker force would be colder and bound (reduced scaling) [D]. The testable consequence is that chi and stars fall differently (at Sgr the MW-Sgr chi-chi gate would be about 0.06 now); that needs a stream or satellite computation, not done [O]."
+  },
+  {
+   "claim_id": "c5-thresholds",
+   "verdict": "confirmed",
+   "reason": "Two discretizations of my own agree with every c5 entry I checked, and both have anchors independent of the claim: a radial l=0 Nystrom, and a Cartesian rank-one secular equation built on numerically computed 1D gate spectra. At sigma = v*, 1/Lambda_g equals the golden ratio cubed exactly. c5's asterisked narrow-gate entry for the MW at v* = 10 km/s (2.02e4) is 1.5% above the full-operator value. The thresholds belong to the clumping analysis's local static WKB model, a reduction (homogeneous, Jeans swindle, margins Q from idealized profiles). c5's cross-checks against the clumping analysis's own numbers are circular, but its closed-form and gravity-alone anchors are not.",
+   "independent_check": "u2_c5_static_thresholds.py, with anchors 'gt = 0: Lambda_0 radial = 1.0000000000 (Jeans: 1)' and 'r = 0.01, gt = 3: Lambda_0 = 3.999100' (broad-gate limit 4). Lambda_g closed form, radial and Cartesian agree to 8 digits, e.g. 'r = 8.3333: closed 1.4435026e-03 radial 1.4435026e-03 cartesian 1.4435026e-03'. Crossover: 'r = 1: 1/Lambda_g = 4.236068; golden ratio cubed = 4.236068'. Critical gt (no revir / revir): 'MW local r = 1.2917 | Q= 4.935: 28.07 / inf | Q=19.739: 127.5 / inf | Q=24.771: 161.2 / inf'; 'cluster core r = 8.3333 | Q= 1.097: 152.2 / 798.8 | Q= 4.386: 2929 / inf'; 'v* = 10 classical dSph r = 1.0000 | Q= 1.097: 0.4935 / 9.785 | Q= 4.386: 15.05 / inf'; 'v* = 10 UFD r = 0.4000 | Q= 1.097: 0.1462 ... 5.047'; 'v* = 30 classical dSph r = 0.3333 | Q= 1.097: 0.1304 ... 4.532'. u2b_c5_extra.py: 'dwarf core v*=10 r = 3.000: crossover 44.41; Q=1.0966: 7.668 ...; Q=4.3865: 175.6'; 'MW v*=30 r = 5.167: crossover 184.3; Q=4.9348: 863.1 ...; Q=24.77: 4530'; 'MW v*=10 r = 15.500: crossover 4102; Q=4.9348: 1.995e+04 (asymptote Q/Lam_g = 2.024e+04)'. c5.out gives 0.493, 15; 0.146, 5.05; 0.13, 4.53; 7.67, 176; 863, 4.53e3; 28.1, 161; 152, 2.93e3; crossovers 1.48, 4.24, 1.33, 6.7, 693."
+  },
+  {
+   "claim_id": "c5-validity",
+   "verdict": "confirmed",
+   "reason": "Before opening the verifier's script I derived the size of the dropped anomalous velocity for slow particles from the Hamiltonian, xdot = v + grad_v phi_g0 with phi_g0 = (Gt/G) phi_N(x) w(v): delta(0) = gt (G Psi/sigma^2) r^2 (1+r^2)^(-5/2). With G Psi = 4.5 sigma^2, the centre of a uniform core of radius 3/k_J, it reproduces all four limits. The derivation verifier's swindle_size.py uses the same formula and constant. Caveat: the criterion is a sizing (delta = 1), and with a deeper potential the limits are upper limits, as the verifier itself notes. The toy MW models give X = G Psi_chi/sigma^2 = 4.0-6.5 at the Sun, so the MW limit is 1.07-1.65. An isolated NFW halo has X = 10-23 inside 0.3 r_s, so a cuspy cluster core gives about 30-67 rather than 133.",
+   "independent_check": "u2_c5_static_thresholds.py, closed-form table: 'v* = 120 MW local ... valid < 1.549'; 'dwarf core (3a) ... valid < 4.137'; 'cluster core ... valid < 133.3'; 'v* = 10 classical dSph ... valid < 1.257'. Sensitivity in u8_validity_depth.py: 'MW toy model ... X = 4.23', 'X = 5.27', 'X = 6.48'; 'validity limit at MW r = 155/120 for X = 4.5 / 5.0 / 6.0: 1.549, 1.394, 1.162'; 'isolated NFW ... x = 0.30: ... X = 10.30', 'x = 0.05: ... X = 23.24'; 'validity limit at cluster r = 1000/120 for X = 4.5 / 8 / 12: 133.3, 75.0, 50.0'. With the escape speed of 528 km/s [S: Deason et al. 2019] as the total depth at the Sun (X = 5.80), the MW limit is 1.202. Verifier swindle_size.out: 'MW: Gt/G at which the anomalous velocity equals the canonical one = 1.55'."
+  },
+  {
+   "claim_id": "c5-margins",
+   "verdict": "corrected",
+   "reason": "The arithmetic is right. Both margins use allowed eps = 0.341: the critic's own consistent-reading Lyman-alpha bound (compressed DESI, matter ratio; c4b, unreviewed), which is min(lya_c = 0.341, Sgr = 1.52) in c5.py. The thresholds are max(g_crit(Q_low), 1/Lambda_g). In the MW that is the WKB no-revir g_crit at Q = pi^2/2, 28.07, which is above the crossover 6.70. In clusters it is the crossover 692.8, which is above the WKB 152.2. The two definitions are consistent. 'At least' holds only if the unreviewed c4b bound is accepted. The consistent-reading gas ratio (0.296) is tighter and gives larger margins (94.9, 2.34e3). Against the Sgr bound alone (1.52, or up to 2.46 over my orbit weightings) the margins are 18.5 and 11.4 in the MW and 456 and 282 in clusters. The direction does not change.",
+   "independent_check": "u2_c5_static_thresholds.py, margins at v* = 120: 'MW no-revir Q=pi^2/2 = 28.07: ... consistent gas 0.2959: 94.9; consistent matter 0.3405: 82.5; Sgr 1.52: 18.5; Sgr upper 2.7: 10.4'; 'MW crossover 1/Lam_g = 6.699: ... consistent matter 0.3405: 19.7; Sgr 1.52: 4.41'; 'cluster crossover 1/Lam_g = 692.8: ... consistent gas 0.2959: 2.34e+03; consistent matter 0.3405: 2.03e+03; Sgr 1.52: 456; Sgr upper 2.7: 257'; 'cluster no-revir Q=(pi/3)^2 = 152.2: ... consistent matter 0.3405: 447'. The critic's c5.py computes max(gl, cross)/min(lya_c[vs], sgr(vs)) with lya_c[120] = 0.341, printing 'MW local ... 82.3' and 'cluster core ... 2.03e+03'.",
+   "corrected_statement": "At v* = 120 km/s the velocity-selected thresholds are 28.1 (MW: the WKB no-revir threshold at Q = pi^2/2, above the crossover 6.7) and 693 (clusters: the crossover 1/Lambda_g, above the WKB 152). They exceed the critic's consistent-reading Lyman-alpha bound eps < 0.341 (unreviewed) by 82 and 2.0e3. Against the Sgr bound alone (eps < 1.5, or up to about 2.5 depending on orbit weighting) they exceed it by at least 11-18 (MW) and 280-460 (clusters) [D]."
+  },
+  {
+   "claim_id": "c6A",
+   "verdict": "confirmed",
+   "reason": "I used a different method from O7's Delaunay averaging: the exact apsidal angle at fixed (E, L). Since H depends on p only through |p|^2, dphi/dr = L/(r^2 p_r) exactly. Differentiating in beta reproduces the v4c and critic values to all printed digits, and the x = 30 value matches the numbers verifier's integration. Side note: these are first-order coefficients times beta = 0.2, not the precession at beta = 0.2. The exact values at beta = 0.2 differ, and at x = 1 the sign differs. The D2 ruling (retrograde, then prograde, then vanishing) still holds qualitatively.",
+   "independent_check": "u3_c6A_precession.py (50-digit mpmath), with anchor 'beta = 0 gives Delta_phi = 2 pi (Kepler): (-1.6487e-25 ...)'. First order at e = 0.3, beta = 0.2: '0.30 (-0.3924847 ...) ... -0.39248'; '1.00 (0.04004742 ...) ... 0.040047'; '2.00 (0.6176047 ...) ... 0.6176'; '30.00 (1.622529e-6 ...)'. O7's formula, also evaluated, gives identical values. Numbers verifier n3d_precession_kic1.out: '30.00 1.0 1.6225e-06 6'. Exact at beta = 0.2: 'x = 0.3: -0.3133921', 'x = 1.0: -0.07896004', 'x = 2.0: 0.4655633', 'x = 30.0: 1.622534e-6'."
+  },
+  {
+   "claim_id": "c6B",
+   "verdict": "confirmed",
+   "reason": "An independent sympy derivation from L = v^2/2 + (GM/r)(1 + eps W) gives the same first-order free-fall ratio and the same zero of the effective inertia. The numbers follow from GM_E with the WGS84 polar radius. Convention: 'v* = 0.10 km/s' is the ordinary-tests v_a in W = exp(-v^2/v_a^2), which equals the record's amplitude-gate v* = 0.071 km/s. If one reads 0.1 km/s as the record's v*, the numbers become 6.27e3 and 1.59e-4. Neither the critic nor I give a numerical bound; that needs a sourced gravimetry-versus-satellite comparison.",
+   "independent_check": "u4_c6BF_freefall_convention.py: 'first order in eps = 2*GM*epsilon/(v_s**2*r(t)) + epsilon + 1'; 'vanishes at eps = [v_s**2*r(t)/(2*GM)]'; 'exp(-v^2/v_a^2), v_a = 0.1 km/s: (g_ff/g_N - 1)/eps = 1 + 2 GM/(R v^2) = 1.25420e+04; inertia vanishes at eps = 7.9738e-05'; 'exp(-v^2/(2v*^2)), v* = 0.1 km/s: ... 6.27150e+03; ... 1.5948e-04'. Inputs GM_E = 3.986004418e14 m^3/s^2 and R_pole = 6356752.3 m (dagger). The critic's c6 prints '1.254e+04' and '7.97e-05' (R = 6.3568e6 m)."
+  },
+  {
+   "claim_id": "c6C",
+   "verdict": "confirmed",
+   "reason": "My Born transfer cross-section is exact for a Yukawa-screened 1/r potential, sigma_T = (2 pi alpha^2/(mu^2 v^4))[ln(1+4k^2b^2) - 4k^2b^2/(1+4k^2b^2)], and I checked it against a numerical q-integral. With the screening length b set by the system size (1-41 kpc), it gives Gt/G = 3.47-3.56e31 (3.54e31 at the dwarf core radius of 2.385 kpc). The dependence on b is logarithmic, so 3.56e31 holds to about 2%. Sommerfeld parameter: 1.17e-5, so the Born regime applies. The critic's c6 computes only the Sommerfeld parameter and takes 3.56e31 from K16 and the P19 verifiers. C14's classical 2.37e31 evaluated ln N = 155 at Gt = G; with the classical log made self-consistent it would be 3.22-3.30e31, which is moot in the Born regime.",
+   "independent_check": "u5_c6C_born.py: 'check of the closed form vs numerical q-integral ... 3.666804e-28 vs 3.666804e-28 m^2'; 'b = 1.000 kpc: Born Gt/G = 3.5588e+31 ...; eta(Born solution) = 1.169e-05'; 'b = 2.385 kpc: Born Gt/G = 3.5365e+31 ... classical (self-consistent log) Gt/G = 3.2811e+31; eta = 1.162e-05'; 'b = 40.800 kpc: Born Gt/G = 3.4664e+31'; 'classical with ln Lambda = ln N = 155.1 held fixed (C14's choice): Gt/G = 2.3680e+31'; 'Sommerfeld parameter Gt m^2/(hbar v) at Gt/G = 3.56e31, v = 30 km/s: 1.1695e-05'. Inputs: m = 70 MeV, v = 30 km/s relative, sigma_T/m = 30 cm^2/g, CODATA constants."
+  },
+  {
+   "claim_id": "c6E",
+   "verdict": "corrected",
+   "reason": "The critic's numbers are correct arithmetic for r_V = (r_S (1+u^2) lambda^2)^(1/3) at u = 1, that is r_V^3 = 2 r_S lambda^2. This is Enander & Mortsell 2013 (arXiv:1306.1086 [S], eqs. read on ar5iv) eq. 43 at c = 1, which assumes m_1 = 0. In the program's palindromic aligned vacuum (beta3 = beta1, c = u = 1), E-M's eq. 38 gives m_1^2 = m_2^2 = m^2(beta1+beta2), so m_1 = 0 would make m_g = 0 and X massless. The applicable forms are E-M eq. 40, r_V^3 = r_S lambda^2 (all fields but one), and eq. 41, r_V^3 = 15 r_S lambda^2 (the remaining field). The Saturn and Pluto thresholds move by factors of 0.36-1.41. Whether Vainshtein screening operates at all in this branch is open: E-M find it only in parameter ranges, as the critic notes.",
+   "independent_check": "u6_c6E_vainshtein.py (r_S(Sun) = 2953.34 m; Saturn a = 9.5826 AU, Pluto 39.482 AU, dagger): 'eq.43 (m1 = 0), c = 1 [critic, repo]: r_V^3 = 4.00 GM lambda^2/c^2 = 2.00 r_S lambda^2 | Saturn needs lambda > 0.724 pc, Pluto 6.053 pc | lambda = 1 kpc: r_V(Sun) = 1189 AU, r_V(2 Msun) = 1498 AU'; 'eq.40, c = 1, m1 = m2 (palindromic): 1.00 r_S lambda^2 | Saturn ... 1.024 pc, Pluto 8.560 pc | ... 944 AU, ... 1189 AU'; 'eq.41 field F, c = 1, m1 = m2: 15.00 r_S lambda^2 | Saturn ... 0.264 pc, Pluto 2.210 pc | ... 2327 AU, ... 2932 AU'. The critic's c6 uses rV = (rS (1+u^2) lambda^2)^(1/3) with u = 1 and prints '2.23e+16 m = 0.723 pc', '6.06 pc', '1189 AU', '1.5e+03 AU'.",
+   "corrected_statement": "Vainshtein radius of a mass M for X of range lambda_X (E-M 2013 [S]): r_V^3 = K r_S lambda_X^2, with r_S = 2GM/c^2 = 2953 m for the Sun. In the program's palindromic aligned vacuum (c = u = 1, m_1 = m_2), K = 1 (eq. 40) or K = 15 (eq. 41). The Sun's r_V reaches Saturn (9.58 AU) for lambda_X > 1.02 pc (K = 1) or 0.26 pc (K = 15), and Pluto (39.5 AU) for lambda_X > 8.6 pc or 2.2 pc. At lambda_X = 1 kpc, r_V(Sun) = 944 or 2327 AU, and r_V(2 Msun) = 1189 or 2932 AU. The critic's 0.723 pc, 6.06 pc, 1189 AU and 1.5e3 AU use K = 2 (E-M eq. 43, m_1 = 0), which in this branch would make X massless. Whether screening operates in this branch is open [O]."
+  },
+  {
+   "claim_id": "c6F",
+   "verdict": "confirmed",
+   "reason": "The record defines the amplitude gate exp(-k^2/mu^2) with k = m_chi v_rel/2 (notebook sec. 3) and v* = sqrt2 mu/m_chi (notebook sec. 5.1). Sympy shows this is exp(-v^2/(2 v*^2)), and its square, the cross-section gate, is exp(-v^2/v*^2). So exp(-v^2/v_a^2) matches the amplitude (force-level) gate when v_a = sqrt2 v*: 169.7 km/s at v* = 120, and the ordinary-tests '120 km/s' corresponds to v* = 84.9 km/s. Not checked: the critic's side remark '3.5e-11 at the record's 120' from the ordinary-tests derivation verifier.",
+   "independent_check": "u4_c6BF_freefall_convention.py: 'amplitude gate with k = m v/2, mu = m v*/sqrt2: exp(-v**2/(2*v_star**2))'; 'cross-section gate |amp|^2: exp(-v**2/v_star**2)'; 'exp(-v^2/v_a^2) equals the amplitude gate for v_a = [sqrt(2)*v_star] -> v_a = 169.71 km/s at v* = 120; ordinary-tests 120 km/s = record v* 84.85 km/s'. Source definitions read in notes/broken-born-theory.md sec. 3 (boxed amplitude) and sec. 5.1."
+  },
+  {
+   "claim_id": "sgr",
+   "verdict": "corrected",
+   "reason": "What KK bound [S: astro-ph/0608095, read on ar5iv]: a DM-only inverse-square fifth force of strength beta^2 times gravity between all DM pairs (beta = 0.1 is a 1% force, beta = 0.2 a 4% force). The leading-to-trailing ratio falls from 0.66 to 0.44, 0.091 and 0.0042 for beta = 0.1, 0.2 and 0.3. The exclusion is qualitative ('a dark-matter force greater than 10% the strength of gravity is already excluded', from 2MASS) with no confidence level, and the authors call the results 'far from conclusive'. The PRL (astro-ph/0606566 [S]) phrases it as DM and baryons accelerating differently by more than 10%. Read that way, against the total acceleration, the bound weakens by 1/f_DM = 1.1-1.9 (f_DM = 0.54-0.93 at Sgr's radii in toy models). Later work: Keselman, Nusser & Peebles 2009 (PRD 80, 063517 [S]) find symmetric Sgr-like streams possible with a gravity-strength DM force if the force separates stars from DM first, so that Sgr holds little DM now. Kesden 2009 (PRD 80, 083530 [S]) disputes their initial conditions, restates the 10% exclusion, and leaves a very-massive-satellite loophole. With the present-day gate (VB20 [S]: r = 18.8 kpc, |V| = 317.6 km/s; host sigma 100-150 km/s), eps < 1.6-1.7. The earlier 1.52 (K13: V = 311.1, sigma = 150) is a present-day value. The critic's c4 K13 part recomputes K13's own inputs, so it checks arithmetic only. Averaged over an orbit, the gate is larger because Sgr is slow near apocentre. Across toy MW potentials, host dispersions and weightings (time-averaged, acceleration-weighted, near-pericentre), eps_max ranges 0.36-2.5. For the potential whose orbit matches the literature (peri 15.3, apo 58.3 kpc) it ranges 0.42-1.74. Which weighting the stream asymmetry follows is not established. Unmodelled differences from KK: inside Sgr the gated force acts at full strength eps (the gate is open there), whereas KK's beta^2 was small everywhere; and no LMC.",
+   "independent_check": "u7_sgr_bound.py: orbit integrated 3 Gyr back from Vasiliev & Belokurov 2020 [S] (X,Y,Z) = (17.5, 2.5, -6.5) kpc, (VX,VY,VZ) = (237.9, -24.3, 209.0) km/s in three toy potentials (dagger parameters). Host DM sigma from isotropic Jeans; Sgr internal sigma 12 km/s (dagger); gate closed form checked by MC ('0.06136 MC 0.06150 +- 0.00004'). Printed: 'Sgr now: r = 18.83 kpc, |V| = 317.6 km/s'; KK-like model: 'pericentre 15.3 kpc, apocentre 58.3 kpc'; 'Jeans DM sigma: <W> now 0.0624 | time-avg 0.2265 | g_DM-weighted 0.1686 | innermost-20%-of-time 0.0646 -> eps < 0.1/<W>: 1.60 | 0.44 | 0.59 | 1.55'; 'stellar-halo sigma = 100: ... 1.74 | 0.42 | 0.57 | 1.66'; 'range over models, dispersions and weightings: <W> in [0.0406, 0.2781] -> eps_max = 0.1/<W> in [0.36, 2.46]'; 'with KK's 4% detectability level (beta = 0.2) instead of 10%: eps_max in [0.14, 0.98]'. u9_dm_fraction.py: 'KK-like masses ... r=19: 0.787', 'light halo ... r=15: 0.539', 'heavier halo ... r=60: 0.927'. The critic's c4.out shows 'Sgr: <W> = 0.0657 -> eps < 0.10/<W> = 1.52 (K13: 0.066, 1.524)' with V = 311.1, s = 149.9 hard-coded. Clumping numbers verifier v15: 0.80-2.72 over v_sat 250-350 and sigma_h 100-155 (dagger inputs).",
+   "corrected_statement": "Mapping Kesden & Kamionkowski's beta^2 to eps <W> for the gate exp(-s^2/2) at v* = 120 km/s gives eps <~ 1.6 for Sgr's present gate (<W> ≈ 0.06; VB20 position and velocity [S]). Across orbit weightings and MW models the bound is eps <~ 0.4-2.5; it is about 1.5 near pericentre and 0.4-0.9 averaged over the orbit [D, toy potentials]. The 10% level is KK's qualitative 2MASS statement, with no confidence level. It weakens by up to about 2 if read as an acceleration difference against the total. Keselman, Nusser & Peebles 2009 contest it at gravity-strength forces, and Kesden 2009 rebuts them but leaves a massive-satellite loophole [T][S]. So the Sgr bound is eps <~ O(1), not a sharp 1.5."
+  }
+ ],
+ "missed_issues": [
+  "c3's suggested check, cluster lensing against dynamical masses, cannot test gated chi-chi gravity. Lensing (photons) and dynamics (galaxies, gas) both couple to chi through ungated gravity, so the observed agreement (0.02 ± 0.02 dex, arXiv:2507.20938 [S]) holds either way. The discriminating tests are differential, chi against stars (stream asymmetry, satellite DM-star offsets, merging clusters), and none was computed. 'Claude can give this as the reason the record must keep chi gravity ungated' is therefore unsupported as stated.",
+  "The Vainshtein formula in the repo's verify/phase_space_diameter.py (line 383), r_V = (2 r_S lambda^2)^(1/3) with the comment '(r_S (1 + alpha^2)/m^2)^(1/3), alpha = 1', is Enander & Mortsell's eq. 43, which assumes m_1 = 0. In the program's palindromic aligned vacuum, m_1 = m_2, so m_1 = 0 would make X massless. E-M eqs. 40 and 41 give K = 1 or 15 in r_V^3 = K r_S lambda^2. For 1 kg at 50 um, eq. 41 gives 3.82e-12 m, and the repo check round(log10(r_V)) == -12 would then read -11. The note's conclusion (lab masses unscreened) is unaffected. Candidate wiki-build flag; no repo file was modified.",
+  "Every Sgr estimate in round 2 (K13, the clumping numbers verifier's v15, the critic) takes KK's '10%' as a bound. It is a qualitative statement with no confidence level, which its authors call 'far from conclusive', and Keselman, Nusser & Peebles 2009 contest it at gravity-strength forces. All three also use only the present-day (near-pericentre) gate. Orbit averaging tightens the bound to 0.4-0.9, and the right weighting is not established. The critic's c4 'check' of K13 recomputes K13's own inputs (V = 311.1, sigma = 149.9), so it is circular for the inputs.",
+  "The c5 margins ('at least 82' and '2.0e3') rest on the critic's own unreviewed c4b reading of the Lyman-alpha bound. With reviewed or independent bounds only (Sgr), they are at least about 11-18 (MW) and 280-460 (clusters).",
+  "The load-bearing summary says a 'perturbative or gravitational-strength gate, including eps = 4/3, produces none'. That is established by the crossover only where sigma > 0.333 v*. Below that (UFDs, dSphs and the 3a dwarf core at v* = 120 km/s), the crossover is 1.003-1.19 < 4/3. Those cases are covered instead by C9's argument that a broad gate is stronger self-gravity absorbed by the equilibrium, which is a different argument from the crossover.",
+  "The c6A values are first-order coefficients times beta = 0.2, not the precession at beta = 0.2. The exact apsidal advance at beta = 0.2 is -0.313 (x = 0.3), -0.079 (x = 1, where first order gives +0.040) and +0.466 (x = 2). Quoting the first-order numbers as 'the' gated precession at beta = 0.2 is off by 20-300%.",
+  "The local-model validity limits are upper limits. With the potential depth of a cuspy NFW cluster core (X = 10-23 inside 0.3 r_s), the cluster limit is about 30-67 rather than 133. This does not change any conclusion.",
+  "C14's classical 2.37e31 evaluated the Coulomb log ln N = 155 at Gt = G, not at the Gt it solves for. A self-consistent classical log gives 3.22-3.30e31. The Born value is 3.47-3.56e31, and the Born regime is the right one."
+ ],
+ "new_claims": [
+  {
+   "id": "U1",
+   "statement": "Gated chi-chi gravity (the c3 hypothetical) with chi re-virialized in the force it feels is not excluded by the self-binding argument alone. In a crude isothermal scaling, sigma_chi^2 = b sigma_tracer^2 with b = f_b + (1-f_b)<W>(sigma_chi), the fixed points are sigma_chi = 91-98 km/s with b = 0.35-0.40 (MW, f_b 0.05-0.16) and sigma_chi = 373-406 km/s with b = 0.14-0.16 (clusters, f_b 0.13-0.16). Whether such halos match observations needs a structure computation [O].",
+   "tag": "[D] with executed script; reduced model",
+   "basis": "Fixed-point iteration of the pair-averaged gate (1+2r^2)^-1.5. Isothermal scaling at fixed density profile; not an equilibrium solution.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "MW re-virialized chi dispersion and binding, f_b = 0.046",
+     "value": "91.3 km/s, b = 0.347",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u1_c3_gate_average.py",
+     "printed_output": "MW       f_b = 0.046: sigma_chi =   91.30 km/s (r = 0.761), <W> = 0.3155, b = 0.3470"
+    },
+    {
+     "quantity": "cluster, f_b = 0.157",
+     "value": "405.6 km/s, b = 0.1645",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u1_c3_gate_average.py",
+     "printed_output": "cluster  f_b = 0.157: sigma_chi =  405.63 km/s (r = 3.380), <W> = 0.0086, b = 0.1645"
+    }
+   ],
+   "sources": [
+    "arXiv:1807.06209 [S] (Planck 2018 abstract)",
+    "arXiv:1602.07702 [S] (M* = 5±1e10 Msun)"
+   ]
+  },
+  {
+   "id": "U2",
+   "statement": "In the program's palindromic aligned vacuum (c = u = 1, beta3 = beta1), Enander & Mortsell's m_1^2 = m_2^2 = m^2(beta1+beta2). Their 'common' Vainshtein radius (eq. 43, m_1 = 0) would therefore require a massless X. The applicable radii are r_V^3 = r_S lambda^2 (eq. 40) and 15 r_S lambda^2 (eq. 41).",
+   "tag": "[D] from [T][S] formulas",
+   "basis": "E-M 2013 eqs. 38-43 transcribed from ar5iv; substitution c = 1, beta3 = beta1.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "lambda_X for the Sun's r_V to reach Saturn / Pluto; r_V at 1 kpc",
+     "value": "K=1: 1.024 pc / 8.560 pc / 944 AU; K=15: 0.264 / 2.210 pc / 2327 AU",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u6_c6E_vainshtein.py",
+     "printed_output": "eq.40, c = 1, m1 = m2 (palindromic)         : r_V^3 =  2.00 GM lambda^2/c^2 =  1.00 r_S lambda^2 | Saturn needs lambda >  1.024 pc, Pluto  8.560 pc | lambda = 1 kpc: r_V(Sun) =    944 AU"
+    }
+   ],
+   "sources": [
+    "arXiv:1306.1086 [S]"
+   ]
+  },
+  {
+   "id": "U3",
+   "statement": "Sgr bound on the long-range gated force (amplitude gate, v* = 120 km/s) at KK's 10% level, mapping beta^2 to eps <W>. eps < 1.6-1.7 for the present-day gate. Over the orbit the range is 0.36-2.46 across three toy MW potentials, host dispersions 100-150 km/s and orbit weightings. For the potential whose orbit matches the literature (peri 15.3, apo 58.3 kpc) it is 0.42-1.74: 0.44 time-averaged, 0.59 acceleration-weighted, 1.55 near pericentre. Using KK's 4% detectability level instead gives 0.14-0.98.",
+   "tag": "[D] with executed script; inputs [S]; potentials dagger",
+   "basis": "Leapfrog orbit from VB20 phase-space coordinates; Maxwellian-shift gate average checked by Monte Carlo.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "eps_max range",
+     "value": "0.36-2.46",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u7_sgr_bound.py",
+     "printed_output": "range over models, dispersions and weightings: <W> in [0.0406, 0.2781]  ->  eps_max = 0.1/<W> in [0.36, 2.46]"
+    }
+   ],
+   "sources": [
+    "arXiv:2006.02929 [S] (Vasiliev & Belokurov 2020)",
+    "astro-ph/0608095 [S]",
+    "astro-ph/0606566 [S]",
+    "arXiv:0902.3452 [S]",
+    "arXiv:0903.4458 [S]"
+   ]
+  },
+  {
+   "id": "U4",
+   "statement": "KK's limit is on beta^2, the DM-DM fifth-force strength relative to gravity: beta = 0.1 is 1% and beta = 0.2 is 4%. The leading-to-trailing ratio is 0.66, 0.44, 0.091 and 0.0042 for beta = 0, 0.1, 0.2 and 0.3. The paper gives no confidence level. A run with repulsion between halos gives the opposite asymmetry (leading enhanced).",
+   "tag": "[T][S]",
+   "basis": "ar5iv text of astro-ph/0608095 read via WebFetch (two passes); summaries, not full transcription.",
+   "confidence": "medium",
+   "sources": [
+    "https://ar5iv.labs.arxiv.org/html/astro-ph/0608095"
+   ]
+  },
+  {
+   "id": "U5",
+   "statement": "The DM share of the MW's enclosed mass along Sgr's radii (15-60 kpc) is 0.54-0.93 in the toy models. If KK's PRL wording (an acceleration difference of 10%) is read against the total acceleration, the eps bound weakens by 1/f_DM = 1.1-1.9.",
+   "tag": "[D] with executed script; potentials dagger",
+   "basis": "Spherical enclosed-mass ratio in the u7 models.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "f_DM at r = 15-60 kpc",
+     "value": "0.539-0.927",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u9_dm_fraction.py",
+     "printed_output": "light halo, rs=16        f_DM = M_halo/M_total: r=15: 0.539, ..., heavier halo, rs=20 ... r=60: 0.927"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "statement": "The velocity-selection crossover 1/Lambda_g(r) decreases monotonically from about 4.24 at r = 1 toward 1 as r falls. It equals 4/3 at r = sigma/v* = 0.3328. So eps = 4/3 exceeds the crossover only where sigma < 0.333 v*, that is in UFDs, dSphs and dwarf cores at v* = 120 km/s (crossover 1.003-1.19). There the C9 argument (broad gate = stronger self-gravity) applies instead.",
+   "tag": "[D] with executed script",
+   "basis": "Bisection on the closed form; monotonicity checked on a grid.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "r where 1/Lambda_g = 4/3",
+     "value": "0.33282",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u10_crossover_43.py",
+     "printed_output": "1/Lambda_g = 4/3 at r = sigma/v* = 0.33282; so eps = 4/3 exceeds the crossover only for sigma < 0.3328 v*"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "statement": "The exact apsidal advance for H = p^2/2 - (1/r)(1 + beta exp(-p^2)) at e = 0.3 and beta = 0.2 is -0.3134 (x = 0.3), -0.0790 (x = 1), +0.4656 (x = 2) and +1.6225e-6 (x = 30), with x = GM/(a v*^2). At x = 1 the sign differs from the first-order value (+0.0400).",
+   "tag": "[D] with executed script",
+   "basis": "Exact quadrature of the apsidal angle at fixed (E, L), 50-digit mpmath.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "exact advance at beta = 0.2, x = 1",
+     "value": "-0.07896",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u3_c6A_precession.py",
+     "printed_output": "x =   1.0: Delta_phi - 2 pi = -0.07896004"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "statement": "The validity limit of the local swindle model depends on X = G Psi_chi/sigma^2. The toy MW models give X = 4.0-6.5 at the Sun, for a limit of 1.07-1.65 (1.549 at X = 4.5). An isolated NFW halo has X = 10.3-23.2 at r = 0.3-0.05 r_s, so the cluster-core limit is about 30-67 instead of 133.",
+   "tag": "[D] with executed script; models dagger",
+   "basis": "Isotropic Jeans for NFW (dimensionless); toy MW potentials from u7.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "cluster validity limit for X = 4.5 / 8 / 12",
+     "value": "133.3 / 75.0 / 50.0",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u8_validity_depth.py",
+     "printed_output": "validity limit at cluster r = 1000/120 for X = 4.5 / 8 / 12: 133.3, 75.0, 50.0"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u1_c3_gate_average.py (.out): c3 pair-averaged gate by closed form, quadrature and Monte Carlo; binding factors; re-virialization scaling",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u2_c5_static_thresholds.py (.out): c5 radial Nystrom plus Cartesian secular solver; crossovers, thresholds, validity, margins",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u2b_c5_extra.py (.out): c5 entries where the critic used the narrow-gate asymptote",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u3_c6A_precession.py (.out): exact apsidal angle at fixed (E, L), first-order and exact at beta = 0.2",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u4_c6BF_freefall_convention.py (.out): polar free fall in sympy (both conventions); gate-convention factor",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u5_c6C_born.py (.out): Born transfer cross-section for screened 1/r, Gt/G for 30 cm^2/g, Sommerfeld parameter",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u6_c6E_vainshtein.py (.out): Enander-Mortsell eqs. 40, 41 and 43 for the Sun, planets and 1 kpc",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u7_sgr_bound.py (.out): Sgr orbit in three toy MW potentials, gate averages along the orbit, KK-mapped bounds",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u8_validity_depth.py (.out): potential depth over dispersion (X) for NFW and the MW models",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u9_dm_fraction.py (.out): DM share of enclosed mass at Sgr radii",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-numbers/u10_crossover_43.py (.out): where the crossover equals 4/3"
+ ],
+ "overall": "I checked all 10 claims with my own code before opening the critic's scripts. Six are confirmed and four corrected; none is refuted and none was left unverifiable.\n\nConfirmed:\n- c5-thresholds: two discretizations with independent anchors match every c5 entry checked, and the crossover at sigma = v* is the golden ratio cubed, 4.236.\n- c5-validity: the limits reproduce from a formula I derived from the Hamiltonian. They are upper limits; a cuspy NFW cluster core gives about 30-67 instead of 133.\n- c6A: the exact apsidal angle reproduces v4c, O7 and n3d to all printed digits.\n- c6B: confirmed in the ordinary-tests convention, where 0.1 km/s is v_a.\n- c6C: 3.47-3.56e31 for screening lengths of 1-41 kpc, Sommerfeld parameter 1.17e-5.\n- c6F: confirmed against the notebook's definitions.\n\nCorrected:\n- c3: the gate averages (0.111 MW, 6.0e-4 cluster) are right, but the MW binding uses the cosmic baryon fraction. The step to 'excluded by observation' does not follow: lensing against dynamics cannot see gated chi-chi gravity, and re-virialized chi could stay bound. A computation where chi and stars fall differently would be needed.\n- c5-margins: the arithmetic is right (82.3 and 2.03e3). Both margins use the critic's own unreviewed Lyman-alpha bound of 0.341. With the Sgr bound alone they are at least about 11-18 (MW) and 280-460 (clusters).\n- c6E: the formula used is Enander-Mortsell's m_1 = 0 case, which in the program's palindromic vacuum would make X massless. The applicable forms move Saturn's threshold to 0.26-1.02 pc and Pluto's to 2.2-8.6 pc. The repo's verify script uses the same m_1 = 0 formula.\n- sgr: Kesden-Kamionkowski bound beta^2 qualitatively ('force > 10% of gravity excluded'), with no confidence level, and Keselman-Nusser-Peebles 2009 contest it at gravity strength. The present-day gate gives eps < 1.6. Orbit weighting and host-model spread give 0.36-2.5, so the bound is eps <~ O(1), not a sharp 1.5.\n\nThe direction of the critic's conclusions does not change: thresholds exceed the bounds at v* = 120 km/s, and X between ordinary bodies has no gate.\n\nProcess notes:\n- While listing the round-2 folders I saw the first five lines of mg/STATE.md (the restated question only), and nothing else from it.\n- No repository file was modified (git status shows only the pre-existing .claude/).\n- Citations marked [S] were fetched this session, some only as abstract or search summaries. The toy MW potentials, GM_Earth, the polar radius and the planet semi-major axes are dagger (from memory)."
+}

@@ -20,12 +20,15 @@ sources:
   - "papers/broken-born-checkpoint-v2.md Appendix A item 4"
   - "HANDOFF.md §2"
   - "papers/conjugate-special-relativity.md §4"
-  - "review/wiki-build-flags.md item 17"
+  - "review/wiki-build-flags.md items 17, 55"
+  - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
 ---
 
-*The velocity gate is a factor in the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) χ that turns the interaction off between two particles that approach each other with a large relative velocity. For an ordinary force carried through position space, the scattering amplitude depends on how much momentum the two particles exchange; the gate makes it depend also on the momentum with which they approach, a variable that, according to [the checkpoint](/wiki/history/documents/checkpoint), no carrier local in position produces. In signal terms, an ordinary contact force acts where two waveforms overlap, and the gate acts only where their spectra overlap as well. The program first postulated the gate as a Gaussian, then derived its mechanism from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) between conjugate particles. The mechanism stands as a structural derivation; the exact shape of the cutoff is open. The gate is what lets conjugate matter scatter off itself in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where dark matter moves slowly, and not in galaxy clusters, where it moves fast.*
+*The velocity gate is a factor in the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) χ that turns the interaction off between two particles that approach each other with a large relative velocity. For an ordinary force carried through position space, the scattering amplitude depends on how much momentum the two particles exchange; the gate makes it depend also on the momentum with which they approach, a variable that, according to [the checkpoint](/wiki/history/documents/checkpoint), no carrier local in position produces. In signal terms, an ordinary contact force acts where two waveforms overlap, and the gate acts only where their spectra overlap as well. The program first postulated the gate as a Gaussian, then derived its mechanism from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) between conjugate particles. The checkpoint tags that mechanism as derived and the exact shape of the cutoff as open. A note of 2026-10-28 finds that exchanging X cannot produce the gate, and a flag awaiting Paul's ruling proposes that the gate return to being a postulate: what is disputed is the derivation, not the gate. The gate is what lets conjugate matter scatter off itself in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where dark matter moves slowly, and not in galaxy clusters, where it moves fast.*
 
-**Status:** Alive — [D — mechanism; shape [O]] (`papers/broken-born-checkpoint-v2.md` §8) — the mechanism is derived structurally in [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes); the shape is [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape); no `verify/` script covers either. The v0.1 Gaussian postulate is superseded.
+**Status:** Alive — [D — mechanism; shape [O]] (`papers/broken-born-checkpoint-v2.md` §8) — the mechanism is derived structurally in [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes); the shape is [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape); no `verify/` script covers either. The v0.1 Gaussian postulate is superseded. `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## The amplitude
 
@@ -66,6 +69,8 @@ Calc note #6 completed it: integrating out the massive X leaves a contact intera
 
 The mechanism needs X. Under the original postulate that both the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are rigid ([original P2](/wiki/program/postulates/original-p2)), the [generalized metric](/wiki/phase-space/born-geometry/born-structures) reduces to H = diag(g, g⁻¹) and calc note #5 finds "No momentum graviton, hence no geometric origin for the χ gate either"; in that branch the program "reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (`notes/debt1a-geometric-core.md` §B), GR being [general relativity](/wiki/gravity/spin-2-fields/general-relativity). This is part of what [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) records, and it is why the gate's derivation depends on [P2′](/wiki/program/postulates/p2-prime), under which η is emergent.
 
+`notes/gate-mechanism.md` (2026-10-28, not reviewed) tests this mechanism and finds that it does not deliver the gate. For on-shell χ every χ–χ–X vertex depends only on the momentum transfer, so exchanging the X of #11 §7 gives an amplitude that depends on the incoming relative momentum k only as a polynomial of degree at most two in k², with the speed of light as its velocity scale; at 120 km/s it changes the amplitude by 2.4×10⁻⁷, where the gate is 0.61 (§2, both derivations) [D][V]. #6 §4's fiber overlap, written out in the two natural ways, which are the note's reconstruction, gives either an ordinary short-range potential or a pair-channel interaction that contains no X (§3; [the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)). In the note's words, "the gate itself is not refuted. What fails is the claim that it has been derived. It returns to what the lab notebook first called it, a postulate" (§5). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism. It awaits Paul's ruling, and #11 §8's tag [D — mechanism; shape [O]] stands until then ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
+
 ## Two conventions, not reconciled
 
 The sources write the Gaussian gate in two ways:
@@ -86,7 +91,7 @@ A suspected factor of √2 in μ between the two forms is recorded for a ruling 
 - **The collective image it did not deliver.** The lab notebook expected the gated attraction to act collectively: "a momentum-gated attraction is precisely the pairing interaction, and below a critical velocity dispersion the core of a halo condenses — momentum-space clumping, realized" (#1 §5.2). The Debt-3 calculation killed this ([Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)); for particles, the mean-field criterion fails by 10²⁸–10³¹ at the benchmark ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
 - **The founding supposition it keeps.** #11's audit of the [founding suppositions](/wiki/program/founding-suppositions) records item 4, "Dark matter is conjugate matter", as "**alive, modified**: x-clumping, gated self-force; now one of two remaining candidates (§12)" (#11 Appendix A). Conjugate matter clusters in position like ordinary dark matter; the gate is its distinctive self-force.
 
-[The handoff](/wiki/history/documents/handoff) lists the gate among the live results: "Dark matter sector: gated self-interaction (gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width); knee at v\*; knee-tail shape = particle-vs-wave 'island discriminant' (new observable)" (`HANDOFF.md` §2).
+[The handoff](/wiki/history/documents/handoff) lists the gate among the live results: "Dark matter sector: gated self-interaction (gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width); knee at v\*; knee-tail shape = particle-vs-wave 'island discriminant' (new observable)" (`HANDOFF.md` §2). Its "gate = X-exchange" is among the statements that flag 55 lists as depending on the disputed tag (not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## Superseded: the Gaussian gate of v0.1
 
@@ -100,7 +105,7 @@ Its tags split the claim. That a gate exists was a postulate: "that the gate exi
 
 Three steps replaced the postulate:
 
-1. **v0.3 addendum.** Strict P2 was found to remove "any geometric origin for the χ gate"; with P2′ in its place, "the *mechanism* is X-exchange between χ dual-stress bilinears, which produces dependence on incoming relative momenta — the defining property of the gate; the shape awaits the X propagator" (#1 'Addendum (v0.3, overnight)'). From then on the gate's existence rested on a structural derivation rather than a postulate.
+1. **v0.3 addendum.** Strict P2 was found to remove "any geometric origin for the χ gate"; with P2′ in its place, "the *mechanism* is X-exchange between χ dual-stress bilinears, which produces dependence on incoming relative momenta — the defining property of the gate; the shape awaits the X propagator" (#1 'Addendum (v0.3, overnight)'). From then on the gate's existence rested on a structural derivation rather than a postulate. Flag 55 proposes reversing this step: the gate and μ back to [P], "as #1 §3 (v0.1) had them", with the mechanism [O] (`review/wiki-build-flags.md` item 55, pending Paul's ruling).
 2. **v0.4 addendum.** "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'). The Gaussian became one possibility among others, and the scattering law's exponential cliff weakened to a knee ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)).
 3. **v1 and the checkpoint.** v1 (#9 §6) and #11 §8 replace e^{−k²/μ²} by the unspecified F(k²/μ²) and tag the claim [D — mechanism; shape [O]].
 
@@ -108,12 +113,13 @@ The lab notebook's numbers that assume a Gaussian tail, such as "σ_T/m (1500 km
 
 ## What is open
 
-Two questions remain, each with its own page.
+Two questions remain, each with its own page, and a third is proposed.
 
 - **The shape.** Whether F falls off as a Gaussian or with a power-law (rational) tail depends on the X propagator on the momentum fibers and on the χ quantum's profile there: [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape), item 4 of #11 §14.
 - **The strength.** The mechanism explains why the interaction depends on relative momentum, not why it is strong. Fitting dwarf cores needs a cross-section #11 §8 calls nuclear-scale, while ordinary matter couples to the same X only at gravitational strength: [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement), item 5 of #11 §14.
+- **The mechanism.** `notes/gate-mechanism.md` proposes that the mechanism itself is open [O], because tree-level exchange of #11 §7's X cannot produce the gate (flag 55, pending Paul's ruling; [what flag 55 proposes](/wiki/dark-matter/conjugate-matter/gate-mechanism#what-flag-55-proposes)). Its open items include whether the program keeps the gate as a postulate, and whether any construction tied to the program's geometry yields a pair-channel form factor for χχ (§5).
 
-Neither is on the current work queue (root `CLAUDE.md`, "Since the handoff"). Both are listed in [open problems](/wiki/status/open-problems).
+Neither of the first two is on the current work queue (root `CLAUDE.md`, "Since the handoff"). Both are listed in [open problems](/wiki/status/open-problems).
 
 ## A name collision
 
@@ -131,4 +137,5 @@ Neither is on the current work queue (root `CLAUDE.md`, "Since the handoff"). Bo
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' — strict P2 removes the gate's geometric origin; the mechanism identified as X exchange
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — μ as the fiber width; Gaussian iff the fiber profile is Gaussian
 - `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ with μ read as the fiber width
-- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two conventions, awaiting a ruling; check in `review/wiki-build-checks/gate_conventions.py`
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two conventions, awaiting a ruling; check in `review/wiki-build-checks/gate_conventions.py`; item 55 — the mechanism not derived, the proposed tags [P] and [O], awaiting a ruling
+- `notes/gate-mechanism.md` §2 — exchanging X gives a polynomial in k² with velocity scale c, 2.4×10⁻⁷ at 120 km/s against a gate of 0.61; §3 — the fiber overlap read two ways; §5 — "the gate itself is not refuted", the proposed tags and what becomes open

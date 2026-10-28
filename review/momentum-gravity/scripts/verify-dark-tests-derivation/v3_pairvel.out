@@ -1,0 +1,8 @@
+growth anchor: f(z=0) = 0.5273  vs Omega_m^0.55 = 0.5299 (Linder fit, dagger)
+z= 1089.92: r_gate = 0.0836 Mpc, f = 0.825, s1 =    0.33 km/s, k_nl = nan /Mpc
+z=  100.00: r_gate = 0.3112 Mpc, f = 0.981, s1 =    2.61 km/s, k_nl = nan /Mpc
+z=   10.00: r_gate = 0.9544 Mpc, f = 0.997, s1 =   17.43 km/s, k_nl = nan /Mpc
+z=    3.00: r_gate = 1.5594 Mpc, f = 0.981, s1 =   39.93 km/s, k_nl = 5.164 /Mpc
+z=    1.00: r_gate = 1.9893 Mpc, f = 0.877, s1 =   63.01 km/s, k_nl = 0.511 /Mpc
+z=    0.50: r_gate = 2.0206 Mpc, f = 0.761, s1 =   68.94 km/s, k_nl = 0.287 /Mpc
+z=    0.00: r_gate = 1.7815 Mpc, f = 0.527, s1 =   64.95 km/s, k_nl = 0.169 /Mpc

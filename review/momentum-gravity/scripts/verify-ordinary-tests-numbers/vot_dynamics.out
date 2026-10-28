@@ -1,0 +1,32 @@
+=== (A) Kepler constant from the first-order Hamiltonian ===
+Omega^2 r^3 (GM = 1) to O(eps): -epsilon*(u*Derivative(W(_xi_1), _xi_1) - W(u)) + 1
+  Gaussian: K(u) from Hamiltonian route = 2*_xi_1*x*exp(-_xi_1**2) + exp(-x**2) ; equals W - uW': False
+     max of K at u = [sqrt(2)/2], K_max = [2*exp(-1/2)] = [1.2130613194252668]
+  Lorentzian: K(u) from Hamiltonian route = (2*_xi_1*x*(x**2 + 1) + (_xi_1**2 + 1)**2)/((_xi_1**2 + 1)**2*(x**2 + 1)) ; equals W - uW': False
+     max of K at u = [sqrt(3)/3], K_max = [9/8] = [1.125]
+
+=== (B) First-order Hamiltonian vs numerical exact Legendre transform ===
+  Gaussian: max |H_exact - H_first|/eps^2 over 4 momenta = 0.25025  (eps = 0.000001)
+  Lorentzian: max |H_exact - H_first|/eps^2 over 4 momenta = 0.153622  (eps = 0.000001)
+
+=== (C) Small-e advance from the epicyclic frequency of the first-order Hamiltonian ===
+  Gaussian: epicyclic Delta omega/eps = 2*pi*x*(2*_xi_1**2*x - _xi_1 - x)*exp(-_xi_1**2) ; equals pi u (u W')': False
+  Lorentzian: epicyclic Delta omega/eps = 2*pi*x*(-_xi_1**3 + 3*_xi_1**2*x - _xi_1 - x)/(_xi_1**2 + 1)**3 ; equals pi u (u W')': False
+  W = u^2: epicyclic Delta omega/eps = 2*pi*x*(_xi_1 + x) ; equals pi u (u W')': False
+
+=== (D) Exact apsidal angle by quadrature, full Lagrangian model ===
+  shape        u_c     e | quadrature dw/eps at eps=1e-7, 1e-3, 5e-4 | Delaunay formula | small-e pi u(uW')'
+  Gaussian    1.60  0.10 |    3.829246396    3.8235658    3.8264044 |    3.829246994 | 3.8795429
+  Gaussian    1.00  0.10 |  0.02303544471  0.022944102  0.022990233 |  0.02303546374 | 0.0
+  Gaussian    0.50  0.30 |   -1.870949757   -1.8692893   -1.8701196 |   -1.870949917 | -1.8350061
+  Lorentzian  3.00  0.30 |   0.9434309327   0.94276005   0.94309545 |   0.9434309955 | 0.90477868
+  Lorentzian  1.00  0.60 | -6.734043924e-8 -0.00062708915 -0.00031385166 |            0.0 | 0.0
+  W=u^2       0.70  0.50 |    8.210030405    8.2261556    8.2180834 |    8.210028801 | 6.1575216
+  W = u^2 exact-in-e claim 4 pi u_c^2/(1-e^2) at u_c=0.7, e=0.5: 8.210028801
+  Lorentzian Phi(u_c = 1, e = 0.6) = 0.5
+
+=== (E) Anchor for the quadrature: exact Schwarzschild apsidal angle ===
+  p = 1e+03 GM/c^2, e = 0.2: exact advance = 0.01893499663 ; 6 pi/p = 0.01884955592 ; ratio = 1.0045328
+  p = 1e+03 GM/c^2, e = 0.6: exact advance = 0.01893652745 ; 6 pi/p = 0.01884955592 ; ratio = 1.004614
+  p = 1e+05 GM/c^2, e = 0.2: exact advance = 0.0001885040608 ; 6 pi/p = 0.0001884955592 ; ratio = 1.0000451
+  p = 1e+05 GM/c^2, e = 0.6: exact advance = 0.0001885042116 ; 6 pi/p = 0.0001884955592 ; ratio = 1.0000459

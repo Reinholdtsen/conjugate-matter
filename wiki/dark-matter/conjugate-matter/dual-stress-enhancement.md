@@ -19,11 +19,13 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "HANDOFF.md §2"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §5"
 ---
 
 *The dual-stress enhancement is the unexplained gap between how strongly [conjugate matter](/wiki/dark-matter/conjugate-matter) scatters off itself and how weakly ordinary matter couples to the same carrier. In the program both kinds of matter couple to the [momentum graviton X](/wiki/gravity/momentum-graviton): conjugate matter through its [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), ordinary matter through the spacetime metric. Fitting the flat cores of [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) needs a self-scattering cross-section that [the checkpoint](/wiki/history/documents/checkpoint) calls nuclear-scale, while ordinary matter must feel X only at gravitational strength. Something must make conjugate matter's coupling far more effective than ordinary matter's; what it is, and by how much, has not been worked out. The checkpoint calls it the main open quantitative item of the conjugate sector.*
 
-**Status:** Open — [O] (`papers/broken-born-checkpoint-v2.md` §14 item 5) — the checkpoint calls it the "Main open quantitative item" (§8); no calculation exists and no source states the size of the gap. It qualifies [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism), which explains the gate's dependence on relative momentum but not its strength. It is listed in [open problems](/wiki/status/open-problems) and is not on the current work queue.
+**Status:** Open — [O] (`papers/broken-born-checkpoint-v2.md` §14 item 5) — the checkpoint calls it the "Main open quantitative item" (§8); no calculation exists and no source states the size of the gap. It qualifies [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism), which the record says explains the gate's dependence on relative momentum but not its strength. That mechanism is itself disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The note keeps this item apart: "The coupling's strength (OP5, the dual-stress enhancement) stays open whatever the mechanism" (§5). It is listed in [open problems](/wiki/status/open-problems) and is not on the current work queue.
 
 ## The question
 
@@ -57,7 +59,7 @@ Ordinary matter couples to the metric g, and once [reciprocity](/wiki/phase-spac
 
 ## Why the two must be reconciled
 
-Both sides run through the same field. In the program's mechanism, conjugate matter scatters off itself by exchanging X between the dual stresses of two particles, and integrating out the massive X leaves the contact interaction of the gate ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). Ordinary matter exchanges the same X at gravitational strength. The fitted σ₀ requires X's coupling to conjugate matter's dual stress to be strong; the safety argument has X's coupling to ordinary matter gravitational. The open item is the account of that difference: v1 words it as "why σ₀ can be nuclear-scale while SM–X couplings stay gravitational" (#9 §6).
+Both sides run through the same field. In the program's mechanism, conjugate matter scatters off itself by exchanging X between the dual stresses of two particles, and integrating out the massive X leaves the contact interaction of the gate ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling). Ordinary matter exchanges the same X at gravitational strength. The fitted σ₀ requires X's coupling to conjugate matter's dual stress to be strong; the safety argument has X's coupling to ordinary matter gravitational. The open item is the account of that difference: v1 words it as "why σ₀ can be nuclear-scale while SM–X couplings stay gravitational" (#9 §6).
 
 The word "enhancement" comes from the earlier calc notes, which attributed ordinary matter's weak coupling to its dual stress. Calc note #5: X "couples to x-polarized matter only through its (suppressed) dual stress" (§E). Calc note #6: "couplings to x-polarized (SM) matter run through the SM's dual stress, which is unenhanced" (§4). Conjugate matter's dual stress, by contrast, would have to be enhanced. Calc note #8 replaced the suppressed coupling with the range argument, in which ordinary matter couples to X through g at gravitational strength, so the contrast is now between conjugate matter's dual-stress coupling and ordinary matter's gravitational one.
 
@@ -67,7 +69,7 @@ The word "enhancement" comes from the earlier calc notes, which attributed ordin
 - **The parameters.** No source names the parameters the enhancement depends on. The amplitude's α̃ and m_φ are not related to M_X, the mass of X, in any document; the benchmark's choice m_φ ~ m_χ was made in v0.1, before X was identified as the carrier (#1 §5.1; [conflicts between sources](/wiki/history/documents/source-conflicts)).
 - **A mechanism.** No source proposes one. The explicit form of the dual stress, which a mechanism would need, is itself not written down (`notes/debt1a-geometric-core.md` §E; [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress)).
 
-Until the item is resolved, the strength of the gate is an input fitted to dwarf cores rather than an output of the X-exchange mechanism. The mechanism accounts for the gate's dependence on relative momentum, which is what [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) test; the strength enters row 1 only as the fitted σ₀.
+Until the item is resolved, the strength of the gate is an input fitted to dwarf cores rather than an output of the X-exchange mechanism. In the record the mechanism accounts for the gate's dependence on relative momentum (disputed by flag 55), which is what [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) test; the strength enters row 1 only as the fitted σ₀.
 
 ## History
 
@@ -88,4 +90,6 @@ The current queue, in the root `CLAUDE.md` ("Since the handoff"), does not inclu
 - `notes/debt1a-ii-X-classification.md` §4 — ordinary matter's dual stress as unenhanced
 - `notes/debt1a-geometric-core.md` §E — ordinary matter's dual stress as suppressed; the dual stress defined in words
 - `notes/broken-born-program-v1.md` §6 — v1's statement of the item; §10 item 4 — v1's open-problem entry
+- `notes/gate-mechanism.md` §5 — the strength "stays open whatever the mechanism"
+- `review/wiki-build-flags.md` item 55 — the gate's mechanism not derived, awaiting Paul's ruling
 - `notes/broken-born-theory.md` §5.1 — the dwarf-core value of σ₀/m, σ₀ in terms of α̃ and m_φ, the Born caveat; 'Addendum (v0.6)' — the item among the residual open items

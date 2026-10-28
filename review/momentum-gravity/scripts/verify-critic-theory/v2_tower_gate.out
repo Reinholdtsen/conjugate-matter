@@ -1,0 +1,32 @@
+1. Legendre tower for G(gamma) = exp(-x(gamma-1))
+  x= 5.0, gamma=    1: tower sum = 1.0, exp(-x(gamma-1)) = 1.0
+  x= 5.0, gamma= 1.05: tower sum = 0.778800783071, exp(-x(gamma-1)) = 0.778800783071
+  x= 5.0, gamma=  1.5: tower sum = 0.0820849986239, exp(-x(gamma-1)) = 0.0820849986239
+  x= 5.0, gamma=    3: tower sum = 4.53999297625e-5, exp(-x(gamma-1)) = 4.53999297625e-5
+    signs J=0..9: +-+-+-+-+-  (even J positive, odd J negative)
+    largest single-spin term |a_J| at J=2: 5726.02  (net G(1) = 1); log10 = 3.75785;  asymptotic (2J+1)e^(2x)/(2x) e^(-J(J+1)/2x) = 6044.19
+  x=20.0, gamma=    1: tower sum = 1.0, exp(-x(gamma-1)) = 1.0
+  x=20.0, gamma= 1.05: tower sum = 0.367879441171, exp(-x(gamma-1)) = 0.367879441171
+  x=20.0, gamma=  1.5: tower sum = 4.53999297625e-5, exp(-x(gamma-1)) = 4.53999297625e-5
+  x=20.0, gamma=    3: tower sum = 4.24835425529e-18, exp(-x(gamma-1)) = 4.24835425529e-18
+    signs J=0..9: +-+-+-+-+-  (even J positive, odd J negative)
+    largest single-spin term |a_J| at J=4: 3.17787e+16  (net G(1) = 1); log10 = 16.5021;  asymptotic (2J+1)e^(2x)/(2x) e^(-J(J+1)/2x) = 3.21229e+16
+  x=80.0, gamma=    1: tower sum = 1.0, exp(-x(gamma-1)) = 1.0
+  x=80.0, gamma= 1.05: tower sum = 0.0183156388887, exp(-x(gamma-1)) = 0.0183156388887
+  x=80.0, gamma=  1.5: tower sum = 4.24835425529e-18, exp(-x(gamma-1)) = 4.24835425529e-18
+  x=80.0, gamma=    3: tower sum = 3.25748853221e-70, exp(-x(gamma-1)) = 3.25748853221e-70
+    signs J=0..9: +-+-+-+-+-  (even J positive, odd J negative)
+    largest single-spin term |a_J| at J=8: 2.07475e+68  (net G(1) = 1); log10 = 68.317;  asymptotic (2J+1)e^(2x)/(2x) e^(-J(J+1)/2x) = 2.07976e+68
+  asymptotic formula check at larger x (exact mpmath vs (2J+1) e^{2x}/(2x) exp(-J(J+1)/(2x)) at J ~ sqrt(x)):
+    x=320, J=17: log10 exact = 276.47844, log10 asym = 276.47871
+    x=1000, J=31: log10 exact = 866.87177, log10 asym = 866.87186
+    x=3000, J=54: log10 exact = 2603.8112, log10 asym = 2603.8112
+  v* = 120 km/s: x = c^2/v*^2 = 6.24136e+6; largest term at spin J ~ sqrt(x) = 2498.3; largest single-spin term ~ 10^5421169.0 times the net gated force
+  v* = 85 km/s: x = c^2/v*^2 = 1.24395e+7; largest term at spin J ~ sqrt(x) = 3527.0; largest single-spin term ~ 10^1.080482e+7 times the net gated force
+  v* = 30 km/s: x = c^2/v*^2 = 9.98617e+7; largest term at spin J ~ sqrt(x) = 9993.1; largest single-spin term ~ 10^8.673875e+7 times the net gated force
+
+2. singular points of other gate shapes as functions of gamma (c = 1)
+  Lorentzian in (gamma-1): 1/(1 + x(gamma-1)) has a pole at gamma0 = 1 - 1/x = 1 - 1.60222e-7  (inside [-1,1])
+  Lorentzian in v^2 = 1 - 1/gamma^2: 1/(1 + v^2/v*^2) has poles at gamma = +-1/sqrt(1+v*^2) = +-0.999999919889 (inside [-1,1])
+  Gaussian in v^2: exp(-(1 - 1/gamma^2)/(2 v*^2)) has an essential singularity at gamma = 0 (inside [-1,1])
+  -> none of these has a Legendre (spin-tower) series that converges for gamma > 1; only gates entire in gamma, such as exp(-x(gamma-1)), can be built from a tower.

@@ -1,0 +1,8 @@
+dwarf core r=0.25 Q=1.0966 gt=0.2304 (=2.0x0.1152): Lambda_0=1.1932, Gamma=0.07069 /t_ff, e-fold time=366.7 Myr, t_e/t_cross(=3t_ff)=4.716  |D|=2.2964451111515926e-16 (15s)
+dwarf core r=0.25 Q=1.0966 gt=1.152 (=10.0x0.1152): Lambda_0=1.9676, Gamma=0.50993 /t_ff, e-fold time=50.8 Myr, t_e/t_cross(=3t_ff)=0.654  |D|=4.221024587682811e-15 (15s)
+dwarf core r=0.25 Q=4.3865 gt=8.052 (=2.0x4.026): Lambda_0=7.7754, Gamma=0.96642 /t_ff, e-fold time=26.8 Myr, t_e/t_cross(=3t_ff)=0.345  |D|=2.055367339668259e-14 (16s)
+dwarf core r=0.25 Q=4.3865 gt=40.26 (=10.0x4.026): Lambda_0=34.8928, Gamma=3.56828 /t_ff, e-fold time=7.3 Myr, t_e/t_cross(=3t_ff)=0.093  |D|=1.1701840247621854e-11 (14s)
+MW local   r=1.2917 Q=4.9348 gt=56.14 (=2.0x28.07): Lambda_0=9.0982, Gamma=0.44210 /t_ff, e-fold time=92.7 Myr, t_e/t_cross(=3t_ff)=0.754, t_e/t_orb(MW sun)=0.423  |D|=2.0575848885311963e-12 (25s)
+MW local   r=1.2917 Q=4.9348 gt=280.7 (=10.0x28.07): Lambda_0=42.5972, Gamma=0.56618 /t_ff, e-fold time=72.4 Myr, t_e/t_cross(=3t_ff)=0.589, t_e/t_orb(MW sun)=0.330  |D|=7.398979814909024e-11 (25s)
+MW local   r=1.2917 Q=19.7392 gt=255 (=2.0x127.5): Lambda_0=38.7613, Gamma=0.68660 /t_ff, e-fold time=59.7 Myr, t_e/t_cross(=3t_ff)=0.485, t_e/t_orb(MW sun)=0.273  |D|=2.1932700390913754e-11 (29s)
+MW local   r=1.2917 Q=19.7392 gt=1275 (=10.0x127.5): Lambda_0=191.0210, Gamma=0.18851 /t_ff, e-fold time=217.4 Myr, t_e/t_cross(=3t_ff)=1.768, t_e/t_orb(MW sun)=0.993  |D|=3.4132863905842516e-08 (27s)

@@ -1,0 +1,7 @@
+y =  0.1: R_v - R_a = +0.019920 ; -3 y J_W = +0.019920 ; difference -1.0e-08
+y =  0.3: R_v - R_a = +0.173643 ; -3 y J_W = +0.173643 ; difference -1.0e-08
+y =  0.7: R_v - R_a = +0.806702 ; -3 y J_W = +0.806702 ; difference -1.0e-08
+y =  1.0: R_v - R_a = +1.348671 ; -3 y J_W = +1.348671 ; difference -1.0e-08
+y =  1.5: R_v - R_a = +1.888885 ; -3 y J_W = +1.888885 ; difference -1.0e-08
+y =  3.0: R_v - R_a = +0.931669 ; -3 y J_W = +0.931669 ; difference -1.0e-08
+y =  6.0: R_v - R_a = +0.177376 ; -3 y J_W = +0.177376 ; difference -1.0e-08

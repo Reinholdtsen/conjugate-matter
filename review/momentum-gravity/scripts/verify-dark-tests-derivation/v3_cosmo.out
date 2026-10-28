@@ -1,0 +1,6 @@
+Omega_m = 0.3152, Omega_r h^2 = 4.1834e-05, Omega_L = 0.6847
+Age = 13.797 Gyr   [Planck 2018 Table 2: 13.797 +- 0.023]
+z_eq (rho_m = rho_r) = 3417.6   [Planck 2018 Table 2: 3402 +- 26]
+k_p(z=3) = 0.6926 /Mpc = 1.0281 h/Mpc
+LCDM growth D(z=0)/D(z=3) = 3.1595
+CPT fit (dagger) D(0)/D(3) = 3.1676

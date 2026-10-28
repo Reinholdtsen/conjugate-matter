@@ -1,0 +1,9 @@
+03:24:15 started: --eps 10 --rg 1 --N 1000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+03:24:15 started: --eps 10 --rg 1 --N 1000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+03:29:56 started: --eps 10 --rg 1 --N 1000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+03:29:56 started: --eps 0 --rg 1 --N 1000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+03:31:01 started: --eps 0 --rg 1 --N 1000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+03:32:11 started: --eps 3 --rg 1 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15 --reading F
+03:35:41 started: --eps 3 --rg 1 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15 --reading F
+03:48:11 started: --eps 3 --rg 1 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15 --reading F
+04:01:11 all done

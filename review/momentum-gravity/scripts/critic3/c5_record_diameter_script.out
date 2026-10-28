@@ -1,0 +1,101 @@
+== Anchors (independent of the note)
+PASS  CODATA 2018 Planck length 1.616255e-35 m  [1.616255e-35]
+PASS  CODATA 2018 Planck mass 2.176434e-8 kg  [2.176434e-08]
+PASS  CODATA 2018 Planck temperature 1.416784e32 K  [1.416784e+32]
+PASS  CODATA 2018 Planck time 5.391247e-44 s  [5.391246e-44]
+PASS  PDG: photon number density 410.73 cm^-3 at 2.7255 K  [410.73]
+PASS  PDG: entropy density s/k = 2891.2 cm^-3  [2891.3]
+PASS  blackbody mean photon energy: quadrature = pi^4/(30 zeta(3)) = 2.701 kT  [2.701178]
+PASS  comoving particle horizon: 'about 46 Glyr' (Davis-Lineweaver 2004), within 1%  [46.14 Gly]
+PASS  PDG Big-Bang review: dark energy ~ (2.2 meV)^4 for Omega_v = 0.68, h = 0.67  [2.230 meV]
+
+== The conserved area (note §3)
+PASS  D_x D_p = kappa h N^(1/3), kappa = 3^(1/3) pi^(10/3)/(30 zeta(3)^(4/3)) = 1.708, at any R and T  [kappa = 1.708121]
+PASS  other definitions: kappa = 0.316 (D_p = kT/c), 0.854 (<p>), 1.377 (cube of side D_x)  [0.3162, 0.8541, 1.3767]
+      D_x = 8.7295e+26 m, D_p = 6.7810e-31 kg m/s, N_gamma = 1.4306e+89, S = 1.0071e+90 k_B
+PASS  observable universe: radius 46.1 Gly; D_x = 8.73e26 m, D_p = 6.78e-31 kg m/s
+PASS  N_gamma = 1.43e89, S = 1.01e90 k_B (the chat's ~10^90 is S)  [1.431e+89, 1.007e+90]
+PASS  S^(1/3) = 1.0e30; area D_x D_p = 8.9e29 h  [1.002e+30, 8.934e+29]
+PASS  entropy per photon: 3.60 (photons alone), 7.04 (with neutrinos)  [7.0394]
+PASS  (arithmetic of the quoted factors) photon number jumps by 11/4 at annihilation (before it: 4/11 of today's), aT by (11/4)^(1/3) = 1.40; (106.75/3.909)^(1/3) = 3.01
+
+== Extent, resolution and the published answers (note §4)
+PASS  c/H0 = 1.37e26 m; L/l_P = 8.49e60 cells per axis; the cube 6.12e182  [8.4918e+60]
+PASS  Gibbons-Hawking pi L^2/l_P^2 = 3.31e122 for L_Lambda = 1.66e26 m; 3.0e122 for the event horizon, 16.7 Gly  [CEH 16.68 Gly]
+PASS  CKN cutoff (M_P/L)^(1/2) = 4.19 meV for L = c/H0 (CKN's own estimate: ~10^-2.5 eV)  [-2.378]
+PASS  Born 1938: b from the classical electron radius by r0 = h/(pi b), b c = 2 hbar c/r0 = 1.4e8 eV  [1.4005e+08 eV]
+PASS  Grosse-Wulkenhaar: Omega = (l_P/L)^2 = 1.4e-122 for L = c/H0  [1.387e-122]
+PASS  per-axis counts: radiation S^(1/3) = 1.0e30 against FKGLM's S_dS^(1/4) = 4.3e30  [4.265e+30]
+PASS  both counts are conserved for the fixed region, so S^(1/3)/S_dS^(1/4) = 0.235 at every epoch  [0.2350]
+PASS  CKN saturation: a radiation-era Hubble sphere has S^(1/3)/S_BH^(1/4) = 0.79-1.05 (g = 3.36-106.75) and S proportional to S_BH^(3/4), at every temperature  [[0.7899, 1.0537]]
+
+== Reciprocity on a rectangle; wave packets (note §5)
+PASS  rho_lambda is symplectic for every lambda (R^T w R = w)
+PASS  the area L P is invariant for every lambda
+PASS  the aspect ratio A = hbar L/(lambda^2 P) goes to 1/A
+PASS  A = 1 iff lambda^2 = hbar L/P
+PASS  two Born lengths differ by a squeeze: rho_l1 rho_l2^-1 = diag((l1/l2)^2, (l2/l1)^2)
+PASS  Delta x^2 = 1/(2Y) for psi_Z
+PASS  Fourier image has Im(-1/Z) = Y/|Z|^2, so Delta p^2 = |Z|^2/(2Y) and Delta x/Delta p = 1/|Z|
+PASS  Fourier transform maps Z = 0.3 + 0.7i to -1/Z = -0.5172 + 1.2069i (numerical FFT)  [-0.517241+1.206897j]
+PASS  numerically Delta x/Delta p = 1/|Z| for Z = 0.3 + 0.7i  [1.313064]
+PASS  half-plane distance from i to iY is |ln Y| (Y = 3, 1/7, 1e5)
+PASS  off the slice |ln(Delta x/Delta p)| = |ln|Z|| is smaller than d(i, Z); equal on the slice
+PASS  for Z = iY, sigma_x/sigma_p = 1/Y and the distance |ln Y| = 2r (sigma_x = e^r/sqrt 2)
+PASS  Fubini-Study metric on Gaussians is 1/8 of the Siegel metric (dX^2 + dY^2)/Y^2, in both directions, on and off the slice (so Siegel length 2r = FS length r/sqrt 2)  [[0.125, 0.125, 0.125, 0.125, 0.125, 0.125]]
+PASS  Siegel degree 3: distance from i1 to iy1 is sqrt(3)|ln y|; rho maps iy1 to (i/y)1
+PASS  det H_Z = 1 at every Z; on X = 0, H = diag(Y, 1/Y)
+PASS  the clock: ln A0 = 213.5 per axis, 369.8 for the isotropic degree-3 point; 106.7 e-folds  [213.486]
+
+== Where the radiation rectangle is square, lambda = l_P (note §6)
+PASS  aspect ratio today (D_x/l_P)/(D_p/m_P c) = 5.2e92, log10 92.72  [5.1970e+92]
+PASS  square at a/a0 = 4.4e-47, T = 4.4e14 T_P (free streaming back from today)  [4.387e-47, 4.386e+14]
+PASS  closed form: sides sqrt(2 pi kappa) N^(1/6) = 3.28 N^(1/6); T_sq = 0.61 N^(1/6) T_P; N^(1/6) ~ 1e15
+PASS  with the SM's g_s = 106.75: a/a0 = 2.5e-47, T = 2.5e14 T_P  [2.528e-47, 2.527e+14]
+PASS  at T = T_P (SM counting) the rectangle is still long by 6.4e28  [6.387e+28]
+PASS  instant reheating at E_inf < 1.39e16 GeV: T_rh < 5.7e15 GeV; the rectangle then has A = 2.9e35  [5.710e+15 GeV, 2.920e+35]
+PASS  Hubble sphere (radiation era, SM): square at T = 0.28 T_P, radius 0.75 l_P, about 0.45 quanta inside  [T = 0.2784 T_P, R = 0.752, N = 0.447]
+PASS  Hubble sphere today: aspect ratio 1.6e92, N_H = 4.4e87  [1.634e+92, 4.448e+87]
+PASS  two regions: at that epoch the observable universe was 1.2e30 l_P across, 5.6e89 Hubble patches, its rectangle long by 8e29  [1.239e+30, 5.592e+89, 8.239e+29]
+PASS  a squeezed mode with aspect 1e92 has r = 105.9, inside the literature's 100-120
+PASS  at a string-scale bounce, kT = 1e17 GeV, the radiation rectangle is still long by A = 9.5e32  [9.520e+32]
+PASS  (identity) A grows as a^2, so a turnaround (maximum of a) is the maximum of A
+PASS  the record's |Z| = 1 path Z = tanh s + i sech s: |Z| = 1, Im Z peaks at s = 0 (Z = i)
+PASS  on |Z| = 1, H_xx = H_pp = 1/Y: the position and momentum extents are equal at all times
+PASS  an order-one X today: (M_X/H0)^2 = 1.3e61 for M_X c^2 = 5.2 meV  [1.327e+61]
+
+== The self-dual box (note §7)
+PASS  lambda = sqrt(l_P L) = 47.1 um, hbar c/lambda = 4.19 meV, equal to the CKN cutoff (unreduced)
+PASS  lambda = sqrt(l_P L) = 51.8 um, hbar c/lambda = 3.81 meV, equal to the CKN cutoff (unreduced)
+PASS  lambda = sqrt(l_P L) = 84.0 um, hbar c/lambda = 2.35 meV, equal to the CKN cutoff (unreduced)
+PASS  CKN in other conventions: 0.45 (reduced M_P), 0.59 (sphere, M_BH = Lc^2/2G), 0.84 (cube, r_s = L), 2.08 (one scalar's zero-point energy Lambda^4/16 pi^2)  [[0.4466, 0.5878, 0.8409, 2.0837]]
+PASS  rho_Lambda^(1/4) = 2.24 meV, 88.1 um
+PASS  rho_Lambda^(1/4)/(hbar c/sqrt(l_P c/H0)) = (3 Omega_L/8 pi)^(1/4) = 0.535, at H0 = 60, 67.4 and 73  [0.53472]
+PASS  the particle horizon's closer agreement comes from chi H0/c = 3.18
+PASS  with lambda^2 = l_P L_Lambda the Hubble box has A(t) = sqrt(Omega_Lambda(t)); 0.83 today  [max deviation 3.3e-16]
+PASS  L_Lambda = lambda^2/l_P, Lambda = 3 l_P^2/lambda^4, lambda/l_P = 3.2e30 = sqrt(L_Lambda/l_P)
+PASS  numerology: in units of sqrt(l_P L_Lambda) the radiation rectangle is square at kT = 1.0 TeV with the SM g_s, 1.7 TeV for photons alone; sqrt(k T0 E_P) = 1.7 TeV; BHM-type sqrt(rho_L^(1/4) E_P) = 5.2 TeV  [0.963, 1.671, 1.693, 5.23 TeV]
+PASS  the reformulation takes the fourth root: log10(Lambda l_P^2) = -121.5 against log10(lambda/l_P) = 30.5
+PASS  the Born length that makes today's radiation rectangle square: sqrt(hbar D_x/D_p) = 3.7e11 m, 2.5 au
+
+== Consequences (note §8)
+PASS  c~ = c^4/G = 1.21e44 N at lambda = l_P
+PASS  at the self-dual length c~ = 1.4e-17 N (c/H0), 1.2e-17 N (L_Lambda); c~/(c^4/G) = l_P/L
+PASS  hydrogen Coulomb force 8.24e-8 N (CODATA atomic unit 8.2387234983e-8 N) exceeds it by 5.8e9; 1 kg weight by 6.9e17
+PASS  with the Born length at l_P the Hubble box is long by L/l_P = 8.5e60
+PASS  anchor: the interpolation reproduces Lee et al.'s published 38.6 um (|alpha| = 1) and 30 um (alpha = 8/3)  [38.63, 30.23 um]
+PASS  attractive Yukawa with alpha = 4/3 (one-sided +alpha95): lambda_X < 37.7 um, M_X c^2 > 5.2 meV  [37.68 um, 5.237 meV]
+PASS  Lee et al.'s 5.1 meV is hbar c/38.6 um
+PASS  the two-sided |alpha95| column gives the stronger 35.8 um at alpha = 4/3  [35.79 um]
+PASS  for background ratio u (alpha = 4u^2/3; c in the cited papers): 57.0 um at u = 0.5, 42.5 at 0.8, 30.8 at 1.5  [[56.98, 42.53, 30.83]]
+PASS  X at the self-dual length survives only for u < 0.67 (47.1 um) or u < 0.30 (84.0 um)  [[0.6717, 0.3017]]
+PASS  proportional backgrounds of the palindromic theory: u(u - 1)(u + 1)(beta1 u^2 + (3 beta2 - beta0) u + beta1) = 0
+PASS  on the flat branch the symmetry-breaking pair (u, 1/u) exists only for beta1 < 0 < |beta1| < beta2 (sampled), with vacuum energy of order the spin-2 mass squared  [[[-1.143, -70.857], [-1.387, -934.613], [-0.632, -5.128]]]
+PASS  so X at the self-dual length (47-84 um) is excluded, and M_X exceeds the dark-energy scale by 2.3x
+PASS  (arithmetic of the cited propagators) the 4/3: massive (1 - 1/3) over massless (1 - 1/2) tensor structure
+PASS  Vainshtein radius of a 1 kg test mass for a 50 um range: about 1e-12 m  [1.95e-12 m]
+PASS  rho_(l_P) image of today's radiation rectangle: 1.0e-31 l_P across, momenta 5.4e61 m_P c
+PASS  a -> C/a exchanges M_P^2 a adot^2 and M~^2 C^3 adot^2/a^5 iff M~ = M_P; then they are equal at a = sqrt(C)
+PASS  lever arm per radian at the Bohr momentum: 4.9e-60 m (lambda = l_P), 42 m (lambda = sqrt(l_P c/H0))
+
+OK — every number the phase-space-diameter note computes reproduces.

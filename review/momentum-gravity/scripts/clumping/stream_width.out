@@ -1,0 +1,6 @@
+r=  0.2500: per-component width s=0.9717 sigma, 3D rms=1.6831 sigma, sqrt(v*/sigma)=2.0000, s/sqrt(v*/sigma)=0.4859
+r=  1.2917: per-component width s=0.7283 sigma, 3D rms=1.2615 sigma, sqrt(v*/sigma)=0.8799, s/sqrt(v*/sigma)=0.8278
+r=  4.0000: per-component width s=0.4698 sigma, 3D rms=0.8137 sigma, sqrt(v*/sigma)=0.5000, s/sqrt(v*/sigma)=0.9396
+r=  8.3333: per-component width s=0.3362 sigma, 3D rms=0.5823 sigma, sqrt(v*/sigma)=0.3464, s/sqrt(v*/sigma)=0.9705
+r= 16.0000: per-component width s=0.2461 sigma, 3D rms=0.4263 sigma, sqrt(v*/sigma)=0.2500, s/sqrt(v*/sigma)=0.9845
+r= 64.0000: per-component width s=0.1245 sigma, 3D rms=0.2157 sigma, sqrt(v*/sigma)=0.1250, s/sqrt(v*/sigma)=0.9961

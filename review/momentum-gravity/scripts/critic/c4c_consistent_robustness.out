@@ -1,0 +1,6 @@
+consistent reading, eps = 0.1, v* = 120, nstep 6000        : T_m^2(k_*) = 0.986050
+consistent reading, eps = 0.1, v* = 120, nstep 12000       : T_m^2(k_*) = 0.986050
+consistent reading, eps = 0.1, v* = 120, initial slope 0.5 : T_m^2(k_*) = 0.986047
+consistent reading, eps = 0.1, v* = 120, start a = 1e-4    : T_m^2(k_*) = 0.986052
+z = 10.0: y = k_* s_c = 0.661; per unit eps: gated source (3/2)Om_c R = 0.477, outflow (3/2)Om_c y|J_W| = 0.308, inertia a_v R_a/eps = -0.209, net anti-drag (A - a_v R_a)/eps = +0.308
+z = 3.0: y = k_* s_c = 1.080; per unit eps: gated source (3/2)Om_c R = 0.982, outflow (3/2)Om_c y|J_W| = 0.601, inertia a_v R_a/eps = -0.383, net anti-drag (A - a_v R_a)/eps = +0.601

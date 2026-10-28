@@ -1,0 +1,9 @@
+k_p = 0.009 s/km at z=3 -> 0.6927 1/Mpc (1.0283 h/Mpc)
+Anchor: EH98 no-wiggle LCDM (Planck 2018 params): Delta^2 = 0.3368, n = -2.3072
+        published Planck-based prediction (Rogers & Poulin): Delta^2 = 0.3495, n = -2.3052
+v*  | baseline | gas(delta_b) | EH98 baseline | Planck err x2 | amplitude only | slope only | T_b^2/T_m^2 at k_p, eps=0.03
+   30 | 0.3484 | 1.1424 | 0.3837 | 0.3592 | 4.4462 | 0.3203 | 0.99882
+   50 | 0.1295 | 0.4173 | 0.1430 | 0.1333 | 1.6222 | 0.1189 | 0.99678
+  120 | 0.0285 | 0.0812 | 0.0314 | 0.0293 | 0.3167 | 0.0260 | 0.98400
+  300 | 0.0139 | 0.0231 | 0.0155 | 0.0143 | 0.0872 | 0.0127 | 0.95092
+ 1000 | 0.0173 | 0.0173 | 0.0198 | 0.0179 | 0.0423 | 0.0165 | 0.93965

@@ -21,6 +21,8 @@ sources:
   - "HANDOFF.md §2"
   - "popsci/universes-other-half.md 'The second geometry, and why it has never been seen'"
   - "popsci/angle-of-the-mirror.md 'What refused to die'"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §2"
 ---
 
 *The multi-graviton no-go theorem, proved by Boulanger, Damour, Gualtieri and Henneaux, states that several massless spin-2 fields cannot interact with one another consistently. Under its assumptions (local couplings, at most two derivatives, no [ghosts](/wiki/gravity/spin-2-fields/ghosts)) no coupling can mix them. Each massless graviton can be made consistent on its own, as [general relativity](/wiki/gravity/spin-2-fields/general-relativity) is, but a theory in which two of them couple to each other cannot. Massive spin-2 fields fall outside the theorem, which is how [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), with one massless and one massive spin-2 field, avoids it. In the program the theorem closes one route for the [momentum graviton X](/wiki/gravity/momentum-graviton): X has the gauge symmetry of a second massless graviton and must couple to the metric and to [conjugate matter](/wiki/dark-matter/conjugate-matter), so it cannot stay massless. Together with the [signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction), this leaves a mass as the only consistent option for X.*
@@ -64,7 +66,7 @@ The program's second symmetric tensor X = Re Z has local shifts δX_μν = ∂�
 Both couplings come from the program's own structure:
 
 - **To g through the Siegel structure.** X and the metric g are the real and imaginary parts of one field, the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY with Y = g, on [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain). The generalized metric H_Z built from Z contains both, in blocks such as Y + XY⁻¹X and XY⁻¹ (calc note #5 §C), so a geometric action built from H_Z contains couplings between them.
-- **To χ through the gate.** The [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) in the self-interaction of conjugate matter χ is produced by X exchange between χ particles ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
+- **To χ through the gate.** The [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) in the self-interaction of conjugate matter χ is produced by X exchange between χ particles ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)), according to #11 §8 (not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 The gravitons that the theorem allows are decoupled ones, and X cannot be decoupled, so a massless X is excluded. #6 §2 states this exclusion together with the signature obstruction, which excludes an X without gauge symmetry, and concludes from the pair: "**Therefore X must be massive.**"
 
@@ -131,3 +133,4 @@ As the documents give them:
 - `notes/knot-dark-matter-standalone.md` §1, ref [2] — #14's statement of the exclusion and its citation (the manuscript was withdrawn for its abundance arithmetic, not for this statement).
 - `HANDOFF.md` §2 — the exclusion in the handoff's scientific state.
 - `popsci/angle-of-the-mirror.md` 'What refused to die'; `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the popular statements and the date "proved in 2000".
+- `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — exchanging #11 §7's X cannot produce the gate; awaiting Paul's ruling

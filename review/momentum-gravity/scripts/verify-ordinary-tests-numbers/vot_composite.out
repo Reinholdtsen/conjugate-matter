@@ -1,0 +1,55 @@
+=== O17: Gaussian gate averaged over 3D Gaussian internal velocities (1D dispersion s) ===
+  V= 0.0 s= 1.0 v*= 0.1: MC 3.419055e-04 +- 7.5e-06 (8 runs)  formula 3.509182e-04
+  V= 1.0 s= 0.5 v*= 1.0: MC 2.792538e-01 +- 1.4e-04 (8 runs)  formula 2.794689e-01
+  V= 7.5 s= 1.0 v*=10.0: MC 5.591968e-01 +- 4.4e-05 (8 runs)  formula 5.592411e-01
+  V= 0.3 s= 0.3 v*= 0.2: MC 5.148167e-02 +- 8.4e-05 (8 runs)  formula 5.149796e-02
+  Lorentzian, s/v* = 10: <W> = 0.0088407376 ; (v*/s)^2 = 0.01 ; with next term (v*/s)^2 - sqrt(pi/2)(v*/s)^3 = 0.0087466859
+  Lorentzian, s/v* = 100: <W> = 9.8756624e-5 ; (v*/s)^2 = 0.0001 ; with next term (v*/s)^2 - sqrt(pi/2)(v*/s)^3 = 9.8746686e-5
+  Earth: omega R = 0.4651 km/s ; max element-element relative speed 0.930 km/s ; Moon (1.0245 km/s) vs elements, coplanar extremes 0.559 - 1.490 km/s
+  lab at latitude 35.7: 0.3777 km/s relative to Earth's CM
+  lab at latitude 48.8: 0.3064 km/s relative to Earth's CM
+
+=== O18: atom-level gating, EP tests ===
+  1D thermal dispersions at 300 K (km/s): Be 0.526, Al 0.304, Ti 0.228, Pt 0.113
+  2 sigma |eta| limits: Eot-Wash 3.90e-13, MICROSCOPE 6.992e-15
+  MICROSCOPE orbital speed at 710 km altitude: 7.499 km/s
+  s_E=0.5 v*=    0.1: Eot-Wash |eps| < 3.35e-10 ; MICROSCOPE with W: 1.99e+28 ; with K (co-orbiting): 1.08e+26 ; ratio K/W bound 0.01
+  s_E=0.5 v*=    1.0: Eot-Wash |eps| < 2.56e-12 ; MICROSCOPE with W: 29.2 ; with K (co-orbiting): 0.415 ; ratio K/W bound 0.01
+  s_E=0.5 v*=   10.0: Eot-Wash |eps| < 5.91e-11 ; MICROSCOPE with W: 1.68e-11 ; with K (co-orbiting): 5.07e-12 ; ratio K/W bound 0.30
+  s_E=0.5 v*=  120.0: Eot-Wash |eps| < 8.33e-09 ; MICROSCOPE with W: 8.59e-10 ; with K (co-orbiting): 8.48e-10 ; ratio K/W bound 0.99
+  s_E=0.5 v*= 1000.0: Eot-Wash |eps| < 5.79e-07 ; MICROSCOPE with W: 5.93e-08 ; with K (co-orbiting): 5.93e-08 ; ratio K/W bound 1.00
+  s_E=1.0 v*=    0.1: Eot-Wash |eps| < 4.78e-09 ; MICROSCOPE with W: 12.4 ; with K (co-orbiting): 0.234 ; ratio K/W bound 0.02
+  s_E=1.0 v*=    1.0: Eot-Wash |eps| < 1.16e-11 ; MICROSCOPE with W: 8.07e-06 ; with K (co-orbiting): 2.27e-07 ; ratio K/W bound 0.03
+  s_E=1.0 v*=   10.0: Eot-Wash |eps| < 6.13e-11 ; MICROSCOPE with W: 1.71e-11 ; with K (co-orbiting): 5.24e-12 ; ratio K/W bound 0.31
+  s_E=1.0 v*=  120.0: Eot-Wash |eps| < 8.34e-09 ; MICROSCOPE with W: 8.59e-10 ; with K (co-orbiting): 8.48e-10 ; ratio K/W bound 0.99
+  s_E=1.0 v*= 1000.0: Eot-Wash |eps| < 5.79e-07 ; MICROSCOPE with W: 5.93e-08 ; with K (co-orbiting): 5.93e-08 ; ratio K/W bound 1.00
+  s_E=2.0 v*=    0.1: Eot-Wash |eps| < 1.16e-07 ; MICROSCOPE with W: 3.19e-06 ; with K (co-orbiting): 2.58e-07 ; ratio K/W bound 0.08
+  s_E=2.0 v*=    1.0: Eot-Wash |eps| < 1.54e-10 ; MICROSCOPE with W: 2.32e-09 ; with K (co-orbiting): 2.15e-10 ; ratio K/W bound 0.09
+  s_E=2.0 v*=   10.0: Eot-Wash |eps| < 7.07e-11 ; MICROSCOPE with W: 1.85e-11 ; with K (co-orbiting): 5.97e-12 ; ratio K/W bound 0.32
+  s_E=2.0 v*=  120.0: Eot-Wash |eps| < 8.34e-09 ; MICROSCOPE with W: 8.6e-10 ; with K (co-orbiting): 8.49e-10 ; ratio K/W bound 0.99
+  s_E=2.0 v*= 1000.0: Eot-Wash |eps| < 5.79e-07 ; MICROSCOPE with W: 5.93e-08 ; with K (co-orbiting): 5.93e-08 ; ratio K/W bound 1.00
+  Mars, v* = 120, s_sun = 100: smeared width 185.5 km/s, amplitude 0.2708, |eps| < 1.53e-10
+  Mars, v* = 120, s_sun = 200: smeared width 307.2 km/s, amplitude 0.0596, |eps| < 1.86e-09
+  Mars, v* = 120, s_sun = 300: smeared width 440.9 km/s, amplitude 0.0202, |eps| < 1.13e-08
+
+=== O19: nucleon-level gate, exact pair average over two Fermi spheres ===
+  k_F = 200 MeV/c: v_F (relativistic p c^2/E) = 62458 km/s ; nonrelativistic p/m = 63859 km/s
+  k_F = 250 MeV/c: v_F (relativistic p c^2/E) = 77136 km/s ; nonrelativistic p/m = 79824 km/s
+  k_F = 270 MeV/c: v_F (relativistic p c^2/E) = 82852 km/s ; nonrelativistic p/m = 86210 km/s
+  v*/v_F =      0.05: exact 0.00015913923 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 0.00016616755 ; ratio 0.957703
+  v*/v_F =      0.02: exact 1.0454735e-5 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 1.0634723e-5 ; ratio 0.983075
+  v*/v_F =     0.013: exact 2.8884306e-6 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 2.9205608e-6 ; ratio 0.988999
+  v*/v_F =    0.0013: exact 2.9173477e-9 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 2.9205608e-9 ; ratio 0.9989
+  v*/v_F =   1.3e-06: exact 2.9205576e-18 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 2.9205608e-18 ; ratio 0.999999
+  own MC at v*/v_F = 0.05: 1.5774e-04 +- 4.1e-06 (8 runs of 1e6 pairs)
+  v* =     0.1: <W> = 2.9e-18 ; best-case MICROSCOPE |eps| < 2.4e+03
+  v* =     1.0: <W> = 2.9e-15 ; best-case MICROSCOPE |eps| < 2.4
+  v* =    10.0: <W> = 2.9e-12 ; best-case MICROSCOPE |eps| < 0.0024
+  v* =   120.0: <W> = 5e-09 ; best-case MICROSCOPE |eps| < 1.4e-06
+  v* =  1000.0: <W> = 2.9e-06 ; best-case MICROSCOPE |eps| < 2.4e-09
+
+=== O21: rotor-averaged K (agent's hybrid model: rotor elements gated individually, Earth as a point) ===
+  v_rim=60 m/s v*=0.1 km/s lat=48.8: Delta K = +0.00248 -> |eps| < 0.0004 per 1e-6 weighing sensitivity
+  v_rim=30 m/s v*=0.1 km/s lat=35.7: Delta K = +1.11e-05 -> |eps| < 0.09 per 1e-6 weighing sensitivity
+  v_rim=60 m/s v*=0.3 km/s lat=48.8: Delta K = -0.0141 -> |eps| < 7.1e-05 per 1e-6 weighing sensitivity
+  v_rim=30 m/s v*=1.0 km/s lat=35.7: Delta K = +0.000128 -> |eps| < 0.0078 per 1e-6 weighing sensitivity

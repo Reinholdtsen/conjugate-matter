@@ -1,0 +1,11 @@
+isolated NFW (isotropic): X = |Phi(x)|/sigma^2(x)
+  x = r/r_s =  0.05: |Phi| = 0.9758, sigma^2 = 0.04199, X = 23.24
+  x = r/r_s =  0.10: |Phi| = 0.9531, sigma^2 = 0.05889, X = 16.18
+  x = r/r_s =  0.30: |Phi| = 0.8745, sigma^2 = 0.08490, X = 10.30
+  x = r/r_s =  1.00: |Phi| = 0.6931, sigma^2 = 0.09344, X = 7.42
+  x = r/r_s =  2.00: |Phi| = 0.5493, sigma^2 = 0.08413, X = 6.53
+MW toy model 'light halo, rs=16': G Psi_chi(R0) = 9.706e+04 (km/s)^2, sigma_DM(R0) = 151.5 km/s, X = 4.23; with sigma = 155: X = 4.04
+MW toy model 'KK-like masses, rs=8.8': G Psi_chi(R0) = 1.224e+05 (km/s)^2, sigma_DM(R0) = 152.3 km/s, X = 5.27; with sigma = 155: X = 5.10
+MW toy model 'heavier halo, rs=20': G Psi_chi(R0) = 2.115e+05 (km/s)^2, sigma_DM(R0) = 180.7 km/s, X = 6.48; with sigma = 155: X = 8.80
+validity limit at MW r = 155/120 for X = 4.5 / 5.0 / 6.0: 1.549, 1.394, 1.162
+validity limit at cluster r = 1000/120 for X = 4.5 / 8 / 12: 133.3, 75.0, 50.0

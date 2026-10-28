@@ -12,6 +12,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §4"
   - "HANDOFF.md §2"
   - "popsci/universes-other-half.md 'A second speed of light'"
+  - "review/wiki-build-flags.md item 56"
+  - "notes/velocity-gated-gravity.md §2"
 ---
 
 *Force dilation is the momentum-space counterpart of time dilation. In [special relativity](/wiki/conjugate-relativity/special-relativity) a fast-moving clock runs slow; in the dual kinematics of [#13](/wiki/conjugate-relativity), a system under a large sustained force evolves slowly, by the same square-root formula with force in place of velocity and the [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in place of the speed of light. Its mirror is a contraction of the range of momenta a forced system spans, in place of the contraction of its length. #13 restricts the effect to systems of the conjugate (momentum) [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), leaves open which physical clocks respond, and states that both effects are unmeasurably small below the forces of black-hole mergers. The result is alive but unreviewed: #13 tags it as derived, but no review round or script has checked it, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
@@ -52,7 +54,7 @@ In the template, a rod moving at velocity v is shorter along its motion by the f
 
 ## Size of the effects
 
-#13 §3 closes: "Both effects are unmeasurably small below merger-scale forces (§2)." The factor that governs both is γ̃ − 1 ≈ ½(F/c̃)², and §2 evaluates it for "the strongest sustained macroscopic force in nature — on a kilogram at a neutron-star surface, ~10¹² N", giving "~ 10⁻⁶⁵" ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts#the-galilean-limit-why-force-looks-additive)). The plain passage of §3 states the threshold as "Below 10⁴³ newtons the effect is utterly negligible, which is why nobody has noticed." Only comparable-mass black-hole mergers, which #13 places at F ~ c̃, would bring the factor near 1 ([Open: merger-band corrections](/wiki/conjugate-relativity/force-boosts#open-merger-band-corrections)). No `verify/` script reproduces any of these figures ([the iron rule](/wiki/method/verification/iron-rule)).
+#13 §3 closes: "Both effects are unmeasurably small below merger-scale forces (§2)." The factor that governs both is γ̃ − 1 ≈ ½(F/c̃)², and §2 evaluates it for "the strongest sustained macroscopic force in nature — on a kilogram at a neutron-star surface, ~10¹² N", giving "~ 10⁻⁶⁵" ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts#the-galilean-limit-why-force-looks-additive)). The plain passage of §3 states the threshold as "Below 10⁴³ newtons the effect is utterly negligible, which is why nobody has noticed." Only comparable-mass black-hole mergers, which #13 places at F ~ c̃, would bring the factor near 1 ([Open: merger-band corrections](/wiki/conjugate-relativity/force-boosts#open-merger-band-corrections)); since merging holes are in free fall, which #13 §5 calls dual rest, the paper gives two answers for them (flag 56 in `review/wiki-build-flags.md`, awaiting Paul's ruling). No `verify/` script reproduces any of these figures ([the iron rule](/wiki/method/verification/iron-rule)).
 
 ## Popsci-only: the unqualified popular statement
 
@@ -68,3 +70,4 @@ The popular article #12 ('A second speed of light') says "Clocks subjected to su
 - `papers/broken-born-checkpoint-v2.md` §4 — postulate P4, the two polarizations of matter.
 - `HANDOFF.md` §2 — the alive listing.
 - `popsci/universes-other-half.md` 'A second speed of light' — the unqualified popular statement (not a status source).
+- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth

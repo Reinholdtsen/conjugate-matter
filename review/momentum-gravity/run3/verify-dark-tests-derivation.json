@@ -1,0 +1,511 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "K1",
+   "verdict": "confirmed",
+   "reason": "Parts (a) and (b) agree with the sources, and so does β as the DM–DM shift G_N → G_N(1+β) within the force range. Parts (c)–(e) were not checked. Bottaro et al. define β ≡ G_s/(4πG_N).",
+   "independent_check": "WebFetch [S], arXiv:2204.08484 HTML: 'β<0.011 at 95% credible levels (c.l.)' (Planck TT,TE,EE), 'β<0.0054 at 95% c.l.' (Planck+BAO), benchmark m_φ/H0 = 0.1, 'the long range force is equivalent to a shift in Newton's constant, GN→GN(1+β)'. arXiv:2309.11496v3 HTML: 'β<0.012 from Planck data', 'β<0.0048 including BOSS full shape information on top of all the present BAO data', z_eff = 0.32 and 0.57, k_max = 0.20 and 0.23 h/Mpc."
+  },
+  {
+   "claim_id": "K2",
+   "verdict": "confirmed",
+   "reason": "My own background reproduces every gate-radius value and the peak. k_p·s_c = k_p[s/km]·v* is an exact identity, so the gate in velocity units is v* at every epoch.",
+   "independent_check": "v3_misc.py with my own Planck-2018 background (anchor in v3_cosmo.out: 'Age = 13.797 Gyr [Planck 2018 Table 2: 13.797 +- 0.023]'). Printed: 'z= 3402.00: ... proper 0.0113 kpc comoving 0.0385 Mpc'; 'z= 1089.92: ... proper 0.0767 kpc comoving 0.0836 Mpc'; 'z= 100.00: ... 3.0810 kpc ... 0.3112 Mpc'; 'z= 10.00: ... 86.7665 kpc ... 0.9544 Mpc'; 'z= 3.00: ... 389.8591 kpc ... 1.5594 Mpc'; 'z= 0.00: ... 1781.4727 kpc ... 1.7815 Mpc'; 'min aH = 59.174 km/s/Mpc at z = 0.6312; s_c,max = 2.0279 Mpc'."
+  },
+  {
+   "claim_id": "K3",
+   "verdict": "corrected",
+   "reason": "An independent implementation of the same EH98 no-wiggle fit (†), with σ8 = 0.8111, reproduces the pair-velocity and k_nl numbers. One number is wrong: the illustrative χ thermal velocity omits the (4/11)^{1/3} factor. χ decouples at T_kd = 3.5 MeV, before e± annihilation heats the photons.",
+   "independent_check": "v3_pairvel.py: 'z= 1089.92: ... s1 = 0.33 km/s'; 'z= 100.00: ... s1 = 2.61'; 'z= 10.00: ... 17.43'; 'z= 3.00: r_gate = 1.5594 Mpc, f = 0.981, s1 = 39.93 km/s, k_nl = 5.164 /Mpc'; 'z= 1.00: ... 63.01'; 'z= 0.50: ... 68.94'; 'z= 0.00: ... s1 = 64.95 km/s, k_nl = 0.169 /Mpc'; anchor 'f(z=0) = 0.5273 vs Omega_m^0.55 = 0.5299' (†). v3_k5_k3extra.py: 'no e+e- factor: ... v_rms today = 7.79e-06 km/s; at z=1089.92: 8.50e-03 km/s'; 'with (4/11)^(1/3): ... 5.56e-06 km/s; at z=1089.92: 6.07e-03 km/s'.",
+   "corrected_statement": "As K3, except the illustrative χ thermal velocity (bath at the photon temperature until T_kd = m/20 = 3.5 MeV, free afterwards) is 5.6e-6 km/s today and 6.1e-3 km/s at z = 1090, still negligible against v*."
+  },
+  {
+   "claim_id": "K4",
+   "verdict": "corrected",
+   "reason": "For the force law K4 states, the density kernel is wrong. Brute-force quadrature of the force from a sinusoidal density in the Hubble flow, at fixed velocities, gives R₁(y) = ∫₀^∞W(x/y)j₁(x)dx = ∫₀¹R(yμ)dμ; for the Gaussian, R₁ = 1 − R/y². At the pivot y = 1.08 that is 0.311, not R = 0.803 (factor 2.58). R(y) = y∫sin(yt)W dt is the Fourier transform of ∇[W(Hs/v*)/s], i.e. the gradient taken after the background velocity has been put into the gate, which is not 'at fixed velocities'. gate_kernels.py 'Check 1' compares R's closed form only with its own sine-transform definition, so it never tested the physics. Correct parts: the anti-drag kernel R_v = 3∫μ²R(yμ)dμ, its local rate (ε/2)Ω_cH, the 0.6ε → 0.8ε exponent shift (for this reading), the unchanged background, the potential −(3/2)εΩ_c m v*², and the Gaussian–notebook correspondence. The stated reading is also neither the record's (D10) nor a Hamiltonian or Lagrangian dynamics (D1).",
+   "independent_check": "v3_kernels.py at y = 1.08: 'force/density brute 3.623834 4pi R1/y 3.623834 [4pi RA/y would be 9.344840]'; 'force/velocity brute 2.246964 kappa Rv 2.246964'; 'RA=0.803130 R1=0.311446 [int RA dmu=0.311446] Rv=0.536423 [3 int mu^2 RA=0.536423]'. v3_eds_check.py: 'iii (force law) : p = -12*e**2/125 + 4*e/5 + 1'. The agent's growth.py line 'dcpp = -(fr - 0.5 * eps * C.f_c * om * A * Rvk) * dcp + 1.5 * om * (C.f_b * db + C.f_c * (1 + eps * A * Rk) * dc)' with Rk = GK.R confirms R is the density kernel used. My implementation of that system reproduces the agent's numbers (D4). An earlier, interrupted verifier run left verify-dark-tests-derivation/kernels.out, which shows the same brute-force result ('1.08 | 0.311446 | 0.311446 | 0.803130').",
+   "corrected_statement": "Force law (force = −∇ₓU at fixed velocities, ẋ = v), linearized about the Hubble flow. Density term: 4πG̃ρ̄_c R₁(k s_c)δ_c, with R₁(y) = ∫₀^∞W(x/y)j₁(x)dx = ∫₀¹R(yμ)dμ (Gaussian: R₁ = 1 − √2F(y/√2)/y, R₁(1.08) = 0.311, R₁ → y²/3 at small y). Anti-drag: +(4π/3)(G̃ρ̄_c/H)R_v(k s_c)u, as stated. The matter-era local exponent shift is 0.8ε in this reading and 0.9ε in the Hamiltonian and Lagrangian readings. The background statements stand."
+  },
+  {
+   "claim_id": "K5",
+   "verdict": "corrected",
+   "reason": "k_p = 0.6926/Mpc and k_p s_c = 1.08 are right. The quoted kernel values are correct values of R, but R is not the force-law density kernel. The T² and dn values are those of the agent's hybrid system: they halve with the correct force law and reverse sign in the record's Hamiltonian reading.",
+   "independent_check": "v3_misc.py: 'z= 3.00: y=1.0800 RA=0.8031 R1(force-law density kernel)=0.3115'; 'z= 10.00: ... RA=0.3785 R1 ...=0.1337'; 'z= 50.00: ... RA=0.0905 R1 ...=0.0305'; 'z= 1089.92: ... RA=0.0034 R1 ...=0.0011'. v3_lya_withbase.out: '[agent] v*=120 eps=0.1: T_m^2=1.0783 dn_m=+0.1308' (agent's system reproduced); '[iii ] v*=120 eps=0.1: T_m^2=1.0355 dn_m=+0.0636'; '[iii ] ... eps=1.0: T_m^2=1.4249 dn_m=+0.6535'; '[i ] v*=120 eps=0.1: T_m^2=0.9480 dn_m=-0.0599'; '[i ] ... eps=1.0: T_m^2=0.5311 dn_m=-0.8672'. v3_k5_k3extra.out: 'eps=0.3, v*=120, iii : T_m(k_p) = 1.0539, T_m(3/Mpc) = 1.4867, T_m(10/Mpc) = 2.1725'; 'i : T_m(k_p) = 0.9204, T_m(3/Mpc) = 1.2855, T_m(10/Mpc) = 2.1329'. Initial-condition and step tests for reading i are stable to 1e-6 (v3_compare.out).",
+   "corrected_statement": "At the pivot (k_p = 0.6926/Mpc, k_p s_c = 1.08 at z = 3 for v* = 120) the force-law density kernel is R₁ = 0.0011 (z = 1090), 0.0305 (z = 50), 0.134 (z = 10), 0.311 (z = 3). Force law: T² = 1.036, dn = +0.064 at ε = 0.1; T² = 1.425, dn = +0.654 at ε = 1; at ε = 0.3, T_m = 1.054 (k_p), 1.487 (3/Mpc), 2.173 (10/Mpc). Record's Hamiltonian reading: T² = 0.948, dn = −0.060 at ε = 0.1; T² = 0.531, dn = −0.867 at ε = 1; at ε = 0.3, T_m = 0.920, 1.286, 2.133. Power is suppressed for k ≲ 1.5/Mpc (y ≲ 2.3 at z = 3) and enhanced on smaller scales."
+  },
+  {
+   "claim_id": "K6",
+   "verdict": "corrected",
+   "reason": "Data inputs and criterion are right ([S] this session), and the arithmetic reproduces exactly for the agent's system. But that system matches no consistent reading of U. In the consistent readings the v* = 120 bound is about twice as weak. In the record's reading the pivot response for v* ≲ 200 km/s is a suppression with dn < 0, the opposite sign. The slope dominates the bound in every reading, and DESI shows no preference for ε > 0 in any.",
+   "independent_check": "DESI inputs [S], arXiv:2601.21432: 'Δ⋆2=0.379±0.032 and n⋆=−2.309±0.019', 'r = −0.1738', 'our results are fully consistent with those from Planck 2018'. Baseline [S], arXiv:2311.16377: 0.3495 (+0.0095/−0.0071), −2.3052 ± 0.0032, from Planck CMB+BAO+SNe with the Σm_ν extension. v3_lya.py (agent's covariance): 'gauss v*= 30 ... agent: 0.3485 / 1.1429 iii: 0.7820 / 2.5790 i: 0.3649 / 1.1573 ii: 0.3735 / 1.2002'; 'gauss v*= 120 ... agent: 0.0285 / 0.0813 iii: 0.0585 / 0.1760 i: 0.0572 / 0.1069 ii: 0.0595 / 0.1110'; 'gauss v*= 300 ... agent: 0.0139 / 0.0232 iii: 0.0202 / 0.0421 i: 0.0147 / 0.1643 ii: 0.0148 / 0.1782'; 'rational v*= 30 ... iii: 0.2127 / 0.5740 i: 0.2449 / 0.5133'; 'rational v*= 120 ... iii: 0.0375 / 0.0821 i: 0.0941 / 0.3642'. v3_lya_grid.out: 'i | 120 | 0.0573 [0.0000, 0.00] 0.2323 0.0701 | 0.9701 -0.0338 || 0.1069'.",
+   "corrected_statement": "Upper bounds on ε (matter / gas), Gaussian Hubble-flow gate, DESI DR1 compressed, covariance including the baseline errors (0.0083, 0.0032). Force law with the correct kernel: 0.78/2.58 (30 km/s), 0.0585/0.176 (120), 0.0202/0.042 (300). Hamiltonian, the record's reading: 0.365/1.16, 0.057/0.107, 0.0147/0.164. Lagrangian: 0.374/1.20, 0.060/0.111, 0.0148/0.178. Rational gate: force law 0.21/0.57 (30), 0.0375/0.082 (120); Hamiltonian 0.245/0.51, 0.094/0.36. In the Hamiltonian reading the boundary for v* ≤ 120 is reached by a negative slope shift (T² ≈ 0.97–0.98, dn ≈ −0.034) and for v* ≥ 300 by a positive one. The bound is slope-driven and DESI prefers no ε > 0 in every reading."
+  },
+  {
+   "claim_id": "K7",
+   "verdict": "corrected",
+   "reason": "The robustness variants reproduce within the agent's system. The largest systematic is the one it did not compute: the choice of reading and the density kernel, which doubles the v* = 120 bound and flips the sign of the pivot response. So 'the largest systematic is matter vs gas' is wrong.",
+   "independent_check": "v3_misc.out: 'K7 variant: agent's system without anti-drag, v*=120 (agent: 0.0345) ... matter bound = 0.0346'. v3_lya_withbase.out at v* = 120: agent 0.0285, iii 0.0585, i 0.0572, ii 0.0595 (matter); '[i ] v*=120 eps=0.1: T_m^2=0.9480 dn_m=-0.0599'.",
+   "corrected_statement": "Within the agent's system: no anti-drag 0.0346, EH98 baseline 0.0314, doubled baseline errors 0.0293, pair-velocity smoothing 0.0291, rational gate 0.0226 (only the first was recomputed here). The reading and kernel dominate: the v* = 120 matter bound is 0.0285 in the agent's hybrid, 0.0585 for the force law with the correct kernel, 0.0573 (Hamiltonian) and 0.0595 (Lagrangian). In the last two, ε > 0 suppresses the pivot power."
+  },
+  {
+   "claim_id": "K8",
+   "verdict": "refuted",
+   "reason": "'Every ε > 0 raises n and Δ², deepening that tension' holds only for the force law. In the record's Hamiltonian reading, for v* ≲ 120–200 km/s, ε > 0 lowers Δ² and n at the pivot, toward eBOSS, and the eBOSS compressed likelihood then prefers ε > 0. The quoted eBOSS bounds reproduce for the agent's system only.",
+   "independent_check": "Inputs [S], arXiv:2311.16377 HTML: eBOSS 0.310 ± 0.020, −2.340 ± 0.006, r = 0.512; '4.9σ tension'. v3_misc.out: 'agent v*= 120: ... upper bound = 0.00183'; 'agent v*= 300: ... 0.00089'; 'iii v*= 120: ... 0.00377'; 'iii v*= 300: ... 0.00130'; 'i v*= 30: chi2(eps=0) = 26.31, best eps = 0.3100 (chi2 = 2.49, T^2 = 0.9847, dn = -0.0303), upper bound = 0.44055'; 'i v*= 120: chi2(eps=0) = 26.31, best eps = 0.0540 (chi2 = 1.89, T^2 = 0.9718, dn = -0.0318), upper bound = 0.07443'; 'i v*= 300: ... upper bound = 0.00096'.",
+   "corrected_statement": "With eBOSS compressed data, the force law (correct kernel) gives ε < 0.0038 (120) and 0.0013 (300); the agent's system gives 0.00183 and 0.00089. In the record's Hamiltonian reading at v* = 120 the eBOSS χ² falls from 26.3 at ε = 0 to 1.9 at ε = 0.054 (upper limit 0.074). At v* = 30 it falls to 2.5 at ε = 0.31 (upper limit 0.44). At v* = 300 the response is an enhancement and ε < 0.00096. This is no detection: the compression assumes a ΛCDM shape, DESI DR1 agrees with Planck, and other power-suppressing models also relieve the eBOSS tension. But the direction of the effect depends on the reading."
+  },
+  {
+   "claim_id": "K9",
+   "verdict": "corrected",
+   "reason": "The mapping arithmetic reproduces for the agent's system. With the correct force-law kernel the equivalent ε is 1.4–2.2 times larger, and the mapping beats Lyman-α only from about 2000 km/s. In the record's Hamiltonian reading the BOSS-scale response is a suppression up to 1000 km/s, so no equivalent ε exists there.",
+   "independent_check": "v3_misc.out: 'ungated beta = 0.0048 excess = 0.0374 (agent: 0.0377)'; 'agent: v*=120: 0.5016; v*=300: 0.0852; v*=1000: 0.0135; v*=2000: 0.0081; v*=3000: 0.0067'; 'iii : v*=120: 1.1319; v*=300: 0.1886; v*=1000: 0.0252; v*=2000: 0.0126; v*=3000: 0.0096'; 'i : v*=120: nan (min excess -0.5195); v*=300: nan (min excess -0.9999); v*=1000: 7.8878 (min excess -0.9975); v*=2000: 0.0194; v*=3000: 0.0122'. The large negative excesses and 7.89 come from ε beyond the singular threshold (D13).",
+   "corrected_statement": "The ungated β = 0.0048 power excess at k = 0.2 h/Mpc, z = 0.57 is 3.74%. Force law with the correct kernel: ε_equiv = 1.13 (120 km/s), 0.189 (300), 0.025 (1000), 0.0126 (2000), 0.0096 (3000). Lyman-α (0.0177 at 1000, 0.019 at 2000) is stronger up to about 1000–2000 km/s. Hamiltonian reading: no excess for v* ≤ 1000 at non-singular ε; 0.019 at 2000 and 0.012 at 3000, against Lyman-α 0.014 and 0.015. Lyman-α is comparable or stronger at every v*."
+  },
+  {
+   "claim_id": "K10",
+   "verdict": "corrected",
+   "reason": "In the force-law reading K10 holds: W'(0) = 0 kills the anti-drag, and the bound reproduces within 2%. Under the record's Hamiltonian dynamics, or the Lagrangian, a peculiar-velocity gate on an unscreened 1/r force turns the whole-universe gated potential, −2πG̃mρ̄R²W(|w|/v*), into a velocity-dependent term. That term renormalizes χ's peculiar inertia by an enormous amount, so 'under either reading, percent-level ε' does not hold there.",
+   "independent_check": "v3_k10_ungated.out: 'ungated: ... DESI bound matter 0.0340, gas 0.0426' (agent 0.0335/0.0419). v3_misc.out: 'z=0.0: kappa_pec/eps (R = c/H, v* = 120) = 1.238e+06; Hubble-flow gate kappa/eps = 0.132'; 'z=3.0: kappa_pec/eps ... = 3.794e+06; Hubble-flow gate kappa/eps = 0.405'. Derivation: κ_pec = 2πG̃ρ̄R²|W''(0)|/v*² = (3/4)εΩ_c(HR/v*)².",
+   "corrected_statement": "With a peculiar-velocity gate and the force law, the long-range force is ungated in linear cosmology: DESI gives ε < 0.034 (matter) / 0.043 (gas). Under the Hamiltonian or Lagrangian reading the same gate gives a χ inverse-inertia shift of 1.2×10⁶ε (z = 0) to 3.8×10⁶ε (z = 3) for R = c/H and v* = 120 km/s. That reading is then excluded far below the percent level, or undefined without an infrared cutoff."
+  },
+  {
+   "claim_id": "K11",
+   "verdict": "corrected",
+   "reason": "The small-scale enhancement at the boundary reproduces for the agent's system. At the consistent readings' boundaries it is larger, because those readings allow a larger ε. The v* = 10 km/s boundary of the Hamiltonian reading lies in its singular regime. The collapse redshifts and density proxies were not recomputed.",
+   "independent_check": "v3_misc.out: 'agent v*= 120 eps=0.0285: T_m^2(10/Mpc, z=3) = 1.209'; 'agent v*= 10 eps=3.0865: ... = 23.890'; 'iii v*= 120 eps=0.0585: ... = 1.350'; 'iii v*= 10 eps=6.9609: ... = 43.975'; 'i v*= 120 eps=0.0573: ... = 1.326'; 'i v*= 10 eps=3.1347: ... = 0.009'.",
+   "corrected_statement": "At v* = 120, the linear power at k = 10/Mpc, z = 3 rises by ×1.35 at the force-law boundary (ε = 0.0585) and ×1.33 at the Hamiltonian boundary (ε = 0.057), against the agent's ×1.21. Small halos form earlier and denser in every reading. At v* = 10 the Hamiltonian boundary ε = 3.1 lies beyond the singular threshold ε ≈ 2.2–2.4, so that reading says nothing there. The z_c values were not rechecked."
+  },
+  {
+   "claim_id": "K12",
+   "verdict": "unverifiable",
+   "reason": "Only two of the six items were checked, and both agree. The KK06 PRD star ratios, Kesden 2009, Keselman–Nusser–Peebles 2010, Springel & Farrar 2007 and Farrar & Rosen 2007 were not checked.",
+   "independent_check": "WebFetch [S], astro-ph/0606566 (PRL 97, 131303): the streams challenge models in which DM and baryons 'accelerate differently by more than 10%'. arXiv:2509.01713: abstract 'β ≳ 0.6 strips and unbinds the bulk of the stellar component', 'β ≲ 0.2 remains broadly consistent'; Discussion: 'our exclusion of β≳0.4 (not presented within the figures)'."
+  },
+  {
+   "claim_id": "K13",
+   "verdict": "corrected",
+   "reason": "The closed-form gate average and the translated force-law limits are right. In the record's Hamiltonian reading the mapping β → ε⟨W⟩ misses an inertia term. The host's gated potential depends on the satellite χ's canonical momentum through ⟨W⟩(V), which shifts its inverse mass by η ~ ε|Φ_N|⟨W⟩/(v*²+s²). At Sgr that is 4–7 times the direct-force fraction. This is an order-of-magnitude estimate: the host truncation radius is assumed, and a stream simulation would be needed.",
+   "independent_check": "v3_misc.out: 'Sgr: V=311.1, s^2 = 149.9^2 + 12^2 v*= 120: closed 6.5645e-02 numeric 6.5645e-02'; 'Sgr translated limit (eps <W> < 0.1): eps < 1.523'; 'Sgr, Hamiltonian reading, isothermal host truncated at 200 kpc (assumed): ... eta_perp/eps = +0.271, eta_par/eps = -0.438, direct force <W> = 0.066'; '... 300 kpc (assumed): ... eta_perp/eps = +0.303, eta_par/eps = -0.490'. v3_ratios.out: 'Sgr eta/<W>: 4.13 .. 7.47; 10% criterion with |eta| = 0.27-0.49: eps < 0.20 .. 0.37'.",
+   "corrected_statement": "Force law: ⟨W⟩ = 0.066 at Sgr for v* = 120, so ε < 1.5 (Gaussian), as stated. Record's Hamiltonian reading: the satellite χ's inverse mass shifts by η⊥ ≈ +0.27ε to +0.30ε and η∥ ≈ −0.44ε to −0.49ε (isothermal host truncated at 200–300 kpc, an assumption). The 10% criterion then gives roughly ε ≲ 0.2–0.4 at v* = 120 (order of magnitude). That is still weaker than the Lyman-α bound (0.057 matter / 0.107 gas)."
+  },
+  {
+   "claim_id": "K14",
+   "verdict": "confirmed",
+   "reason": "The gate averages reproduce, and the Farrar–Rosen requirement stays four to five orders of magnitude above every reading's Lyman-α bound.",
+   "independent_check": "v3_misc.out: 'Bullet inter-cluster: V=2600, s^2 = 1250^2 + 210^2 v*= 120: closed 1.0407e-04 numeric 1.0407e-04'; 'Bullet within main: V=0, s = sqrt2*1250 ... closed 3.1065e-04 numeric 3.1065e-04'. v3_ratios.out: 'Farrar-Rosen 0.4 x gravity needs eps = 3.844e+03; / agent bound 0.0285 = 1.35e+05; / Hamiltonian bound 0.0573 = 6.71e+04; / force-law bound 0.0585 = 6.57e+04'; for 1.2 × gravity, 1.153e+04."
+  },
+  {
+   "claim_id": "K15",
+   "verdict": "corrected",
+   "reason": "The internal gate factors and the leading-order Jeans argument are right. In the Hamiltonian reading the extra inertia term inside a dwarf is O(εσ²/v*²), small for σ ≪ v*. The quoted strength '≤ 3–8% at v* = 120' is inherited from K6 and changes.",
+   "independent_check": "v3_misc.out: 'dSph sigma=10: V=0, s = sqrt2*10 v*= 120: closed 9.7952e-01 numeric 9.7952e-01'; 'MW sigma=155 ... closed 1.1072e-01'; 'dSph sigma=10 at v*=30 ... closed 7.4007e-01'. Bounds from v3_lya_withbase.out (iii: 0.0585/0.1760; i: 0.0572/0.1069 at 120).",
+   "corrected_statement": "As K15, except that inside dwarfs the extra χ-only gravity at v* = 120 is at most about 6–18% (force law, correct kernel) or 6–11% (record's Hamiltonian reading) of G, not 3–8%."
+  },
+  {
+   "claim_id": "K16",
+   "verdict": "confirmed",
+   "reason": "Independent recomputation of the Born screened-Coulomb transfer cross-section reproduces every number.",
+   "independent_check": "v3_misc.out: 'v= 10 km/s: ... sigma_T/m = 1.888e-60 cm^2/g'; 'v= 30 km/s: eta = 3.29e-37, Born lnLambda(b=1 kpc) = 68.67, sigma_T/m = 2.369e-62 cm^2/g'; 'v= 100 ... 1.952e-64'; 'v= 300 ... 2.448e-66'; 'G~/G for 30 cm^2/g at 30 km/s: 3.559e+31; fraction of sigma_T from theta>90 deg: 0.0050'."
+  },
+  {
+   "claim_id": "K17",
+   "verdict": "corrected",
+   "reason": "Every number in the allowed region comes from the agent's hybrid system. In the record's Hamiltonian reading: the v* ≈ 120 limit is about 6% (matter) to 11% (gas); Lyman-α is the strongest probe from 20 to 3000 km/s, because the BOSS mapping is weaker or does not apply; ε = 1 passes only for v* ≲ 20–30 km/s; and the v* ≈ 10 km/s point lies in the reading's singular regime. With the correct force-law kernel, the v* = 120 limit is 6–18%, and the BOSS mapping wins only from about 2000 km/s. The qualitative conclusion stands in all readings: a few percent of gravity for v* ≳ 300 km/s; satellites, the Bullet Cluster and scattering never dominate.",
+   "independent_check": "v3_lya_grid.out, reading i (matter … gas): '20 | 0.7977 ... || 2.5691'; '30 | 0.3652 ... || 1.1579'; '50 | 0.1446 ... || 0.4360'; '80 | 0.0722 ... || 0.1904'; '120 | 0.0573 ... || 0.1069'; '200 | 0.0603 ... || 0.0879'; '300 | 0.0146 ... || 0.1644'; '500 | 0.0126 ... || 0.0247'; '1000 | 0.0138 ... || 0.0150'; '2000 | 0.0141 ... || 0.0143'; '3000 | 0.0148 ... || 0.0151'. Reading iii: '20 | 1.7474 ... || 5.7840'; '30 | 0.7820 ... || 2.5806'; '50 | 0.2878 ... || 0.9389'; '120 | 0.0585 ... || 0.1761'; '300 | 0.0202 ... || 0.0421'; '1000 | 0.0177 ... || 0.0205'; '3000 | 0.0203 ... || 0.0222'. K9 and K13 numbers as above. Singular threshold: v3_ratios.out '(i): 2.22 .. 2.24; (ii): 2.38 .. 2.40'.",
+   "corrected_statement": "Allowed region in the record's Hamiltonian reading (Gaussian Hubble-flow gate, DESI compressed, matter/gas): ε < 0.80/2.6 (20 km/s), 0.37/1.16 (30), 0.145/0.44 (50), 0.072/0.19 (80), 0.057/0.107 (120), 0.060/0.088 (200), 0.0146/0.16 (300), 0.0126/0.025 (500), 0.0138/0.015 (1000), 0.0141/0.0143 (2000), 0.0148/0.0151 (3000). Lyman-α is the strongest probe throughout. ε = 1 passes for v* ≲ 20 (matter) to 30 (gas) km/s. Below about 15 km/s the boundary needs ε ≳ 2.2, where the reading is singular. Force law with the correct kernel: 0.78/2.6 (30), 0.0585/0.176 (120), 0.020/0.042 (300), 0.0177/0.0205 (1000); the BOSS mapping is stronger from about 2000 km/s (0.0126, then 0.0096 at 3000). Satellites (Hamiltonian reading roughly ε ≲ 0.2–0.4 at 120) and the Bullet Cluster never dominate; scattering is irrelevant."
+  }
+ ],
+ "missed_issues": [
+  "The force-law density kernel was never checked against the physics. gate_kernels.py 'Check 1' compares R's closed form only with R's own sine-transform definition, so the check is circular. A direct quadrature of the force from a density wave in the Hubble flow gives R₁ = ∫₀¹R(yμ)dμ, which is 2.58 times smaller at the Lyman-α pivot (v3_kernels.out: brute 3.623834 = 4πR₁/y vs 4πR/y = 9.344840 at y = 1.08).",
+  "The implemented linear system is a hybrid: R as the density kernel plus the force-law anti-drag κR_v. It corresponds to no consistent reading of U. R = R₁ − yJ is what appears in the momentum equation of the Hamiltonian reading, but that reading also has an anomalous velocity in continuity, (1 + κB)Θ_w + 3κyJδ, and replaces the anti-drag κR_v by −3κyJ.",
+  "The record's reading is Hamiltonian: lab notebook §5.2 'ẋ ⊃ ∇ₚε — an anomalous velocity'; Debt 3a's ε(x,p); #11 §8's amplitude gated on the incoming relative momentum k. In Debt 3a's static homogeneous medium the anomalous-velocity term ∇ₚδε·∇ₓf₀ vanishes. In the expanding background it does not, because f₀(r,P) = nδ(P − mHr) depends on r at fixed P. Under this reading the response at the Lyman-α pivot reverses sign for v* ≲ 120–200 km/s: T² = 0.948, dn = −0.060 at ε = 0.1, v* = 120. The power is suppressed for k ≲ 1.5/Mpc and enhanced only at k ≳ 2–3/Mpc.",
+  "In the record's reading the eBOSS compressed likelihood prefers ε > 0: best ε = 0.054 at v* = 120 (χ² 26.31 → 1.89) and ε = 0.31 at v* = 30 (χ² → 2.49). DESI DR1 allows ε = 0.054 at 120 km/s (matter bound 0.057). This is no detection (compression assumes a ΛCDM shape; DESI agrees with Planck; other suppression models also relieve the eBOSS tension), but it reverses K8's direction claim.",
+  "A peculiar-velocity gate (K10's alternative) is pathological under Hamiltonian or Lagrangian dynamics. The velocity-dependent whole-universe potential gives a χ inverse-inertia shift κ_pec = (3/4)εΩ_c(HR/v*)², which is 1.24×10⁶ε at z = 0 and 3.79×10⁶ε at z = 3 for R = c/H and v* = 120 km/s. Only the force law hides it. Under the record's dynamics this forces the Hubble-flow gate.",
+  "The Hamiltonian and Lagrangian readings become singular at large ε. For the Gaussian gate, 1 + κB = 0 at κ = 0.934 (min B = −1.071 at y = 1.41), and 1 − κB = 0 at κ = 1; with κ = εΩ_c/2 this means ε ≈ 2.2–2.4. The 'ε ≈ 3 at v* ≈ 10 km/s' corner lies outside the validity of the record's reading; there T²(10/Mpc, z=3) = 0.009, which is meaningless.",
+  "In the record's reading, satellite dark matter also gets an inverse-inertia shift η ≈ 0.27–0.49ε at Sgr (isothermal host truncated at 200–300 kpc, assumed). That is 4–7 times the direct-force fraction ⟨W⟩ = 0.066 used in K13. Satellite limits tighten to roughly ε ≲ 0.2–0.4 at v* = 120 but remain weaker than Lyman-α.",
+  "In the record's reading the feature at the pivot is a dip: T² has its minimum near k_p for v* = 120 and rises above 1 by 3/Mpc. A two-parameter (Δ², n) compression cannot represent such curvature, so the case for a full P1D likelihood is stronger than the agent's caveat states.",
+  "The matter/gas bracket depends on the reading and can be much wider than the agent's ×2.8. At v* = 300 the Hamiltonian reading gives 0.0147 (matter) vs 0.164 (gas): in the gas, early suppression and later enhancement nearly cancel at the pivot.",
+  "The critic's alternative system (c4b) inherits the agent's density kernel R for the gated force and also keeps the Hubble term on the anomalous velocity's density part, so it counts the −yJ piece twice. Transcribed into my integrator it reproduces c4b (T_m² = 0.9864 vs 0.9861); with R → R₁ it becomes my Hamiltonian system (0.9480). c4b's consistent-reading bounds (0.34/0.30 at 120; 0.82/2.41 at 30; 0.011/0.041 at 300) are therefore not those of a consistent reading. c4b's checks and c4d verify only the velocity kernels and J.",
+  "The force law is not a conservative dynamics. T + U is not conserved (−0.1753 to −0.0329 over a weak-coupling two-body orbit), the (x,v) flow is compressible (∇_v·a = 0.72499 at a sample point), and in the expanding medium the anti-drag pumps peculiar velocity (u ∝ a^{−1+κ}; in the Hamiltonian reading u ∝ 1/a). It is reversible and conserves momentum.",
+  "The illustrative χ thermal velocity in K3 omits the (4/11)^{1/3} e± factor: 5.6e-6 km/s today, not 7.8e-6 (negligible either way).",
+  "Provenance note: verify-dark-tests-derivation/kernels.py and kernels.out predate this run (an earlier, interrupted verifier). They independently show the same density-kernel discrepancy and were not used for any number here. STATE.md was not read."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_kernels.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_cosmo.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_eds_check.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_lya.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_compare.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_lya_grid.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_dynamics.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_misc.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_pairvel.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_k5_k3extra.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_k10_ungated.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-derivation/v3_ratios.py",
+  "(each script's printed output is saved beside it as <name>.out; v3_lya.py output is in v3_lya_desi.out (DESI-only covariance) and v3_lya_withbase.out (with baseline errors 0.0083, 0.0032))"
+ ],
+ "overall": "The reading question decides the result.\n\n**Which readings are consistent.** Two readings of U = −G̃m²W(|v−v′|/v*)/|x−x′| are consistent dynamics:\n- (i) a Hamiltonian with the gate on canonical momenta, which gives an anomalous velocity ẋ = p/m + ∂U/∂p;\n- (ii) a Lagrangian with the gate on velocities.\n\nThey coincide at O(ε). The agent's force law (iii) is a well-posed, reversible, momentum-conserving ODE, but no Hamiltonian H = T + U or Lagrangian L = T − U produces it: T + U is not conserved and phase-space volume is not preserved.\n\n**Which reading the record uses.** It is (i). Lab notebook §5.2 writes 'ẋ ⊃ ∇ₚε — an anomalous velocity'; Debt 3a writes ε(x,p); #11 §8 gates the amplitude on the incoming relative momentum. In Debt 3a's static homogeneous medium the anomalous velocity drops out; about the Hubble flow it does not.\n\n**The agent's linear system matches none of them.** It is a hybrid. Its density kernel R(y) = y∫sin(yt)W dt is wrong for its own stated force law: brute force gives R₁ = ∫₀¹R(yμ)dμ, 2.58 times smaller at the pivot. It then adds the force-law anti-drag, which is correct. My implementation of the agent's system reproduces K5, K6 and K8 exactly, so the error is in the model, not the arithmetic.\n\n**Re-run of K6 (DESI DR1 compressed; inputs checked [S]; Gaussian gate; matter / gas).**\n\n| v* (km/s) | Agent's system | Force law, correct kernel | Hamiltonian (record's) | Lagrangian |\n|---|---|---|---|---|\n| 30 | 0.35 / 1.14 | 0.78 / 2.58 | 0.365 / 1.16 | 0.374 / 1.20 |\n| 120 | 0.0285 / 0.081 | 0.0585 / 0.176 | 0.057 / 0.107 | 0.060 / 0.111 |\n| 300 | 0.0139 / 0.023 | 0.020 / 0.042 | 0.0147 / 0.164 | 0.0148 / 0.178 |\n\nIn the record's reading, for v* ≲ 120–200 km/s, the force suppresses linear power at the pivot (T² = 0.948, dn = −0.060 at ε = 0.1, v* = 120) and enhances it only at k ≳ 2–3/Mpc. The sign is opposite to K5.\n\n**What else changes.**\n- K8 is refuted: in the record's reading, eBOSS prefers ε ≈ 0.05 at v* = 120 (χ² 26.3 → 1.9), and DESI allows it.\n- K9's BOSS mapping changes: weaker for the force law, inapplicable up to 1000 km/s in the record's reading.\n- K10's peculiar-velocity gate is pathological under (i) and (ii): the inertia shift is about 10⁶ε.\n- Readings (i) and (ii) become singular for ε ≳ 2.2–2.4, which removes the ε ≈ 3, v* ≈ 10 km/s corner.\n- In the record's reading, satellite limits are roughly five times tighter (an order-of-magnitude estimate), but still subdominant.\n\n**The critic's c4b.** Its discrepancy is located: it inherits R for the gated force and adds the Hubble term on the anomalous velocity, counting the −yJ piece twice. Transcribed, it reproduces c4b's output; with R → R₁ it becomes my reading (i).\n\n**Claims confirmed.** K2, K14 and K16 are confirmed. K3's main numbers are confirmed (its thermal-velocity illustration is off by (4/11)^{1/3}). K1(a,b), the DESI and eBOSS inputs and the Planck baseline are confirmed [S]. K12 was only spot-checked; both checks agree.\n\n**Net.** The qualitative conclusion survives in every consistent reading: a gated χ-only force is limited to a few percent of gravity for v* ≳ 300 km/s. At the program's v* ≈ 120 km/s the limit is about 6% (matter) to 11% (gas) in the record's reading, not 3–8%. ε = 1 is allowed only for v* ≲ 20–30 km/s.",
+ "new_claims": [
+  {
+   "id": "D1",
+   "statement": "Consistency of the three readings. (i) Hamiltonian H = Σp²/2m + ΣU(x_ij, (p_i−p_j)/m) conserves H, phase-space volume, momentum and the Galilean boost generator. (ii) Lagrangian L = Σmv²/2 − ΣU(x_ij, v_i−v_j) conserves E_L = v·∂L/∂v − L. It equals (i) at O(ε), by the first-order Legendre transform. It is well posed only while the kinetic Hessian mI − ∂²U/∂v² stays positive. (iii) The force law m v̇ = −∇ₓU at fixed v is reversible and conserves momentum and r×v. It is neither the Euler–Lagrange equation of T − U nor Hamilton's equation of T + U: T + U is not conserved and the (x,v) flow is compressible. In a uniform Hubble-flow medium its anti-drag makes a lone particle's peculiar velocity decay as a^{−1+κ}; in (i) it decays as 1/a.",
+   "tag": "[D] with executed script",
+   "basis": "Two-body integrations in units G̃m = v* = m = 1, Gaussian W, plus a numerical divergence check. The kinematic r×v printed for (ii) is not its conserved quantity: the conserved one is r×p with p = mv − ∂U/∂v, which was not checked numerically.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "H over orbit, reading i",
+     "value": "constant −0.17530177",
+     "script": "v3_dynamics.py",
+     "printed_output": "(i)  Hamiltonian: H min/max over orbit = -0.17530177 / -0.17530177"
+    },
+    {
+     "quantity": "E_L over orbit, reading ii (weak coupling)",
+     "value": "constant −0.221052",
+     "script": "v3_dynamics.py",
+     "printed_output": "(ii) T+U min/max = -0.175302 / +0.368344 ; E_L min/max = -0.221052 / -0.221052 ; L_z min/max = +1.800000 / +1.909062"
+    },
+    {
+     "quantity": "T+U over orbit, reading iii",
+     "value": "−0.1753 to −0.0329",
+     "script": "v3_dynamics.py",
+     "printed_output": "(iii) T+U min/max = -0.175302 / -0.032904 ; E_L min/max = -0.434874 / -0.221052 ; L_z min/max = +1.800000 / +1.800000"
+    },
+    {
+     "quantity": "phase-space divergence, reading iii",
+     "value": "+0.724990",
+     "script": "v3_dynamics.py",
+     "printed_output": "(iii) div_v(a) at a sample point = +0.724990 ; analytic -(1/mu) W'(|v|) (rhat.vhat)/R^2 = +0.724990"
+    },
+    {
+     "quantity": "Lagrangian kinetic Hessian at G̃m/(r v*²) = 1",
+     "value": "min eigenvalue −0.1065 (singular)",
+     "script": "v3_dynamics.py",
+     "printed_output": "(ii) min eigenvalue of mu I - d2U/dv2 along the orbit = -0.1065"
+    },
+    {
+     "quantity": "lone particle in uniform medium, κ = 0.2, Δln a = 3",
+     "value": "iii: 0.09071; i: 0.04978",
+     "script": "v3_dynamics.py",
+     "printed_output": "lone particle, kappa=0.2, after ln a = 3: (iii) u/u0 = 0.09071 (a^(-1+kappa) = 0.09072); (i) u/u0 = w/w0 = 0.04978 (1/a = 0.04979)"
+    }
+   ]
+  },
+  {
+   "id": "D2",
+   "statement": "Linear system of the Hamiltonian reading (the record's). Gate on canonical momenta, with the Hubble-flow gate: the relative physical momentum is m(Hs + Δw). Cold χ fluid; comoving k; y = k s_c with s_c = v*/(aH); κ = (4π/3)G̃ρ̄_c/H² = (ε/2)Ω_c(a); N = ln a. Θ_w = −ikw/(aH), where w is the peculiar canonical momentum per mass; the peculiar velocity is u = w + ∂_PΨ.\n  δ_c′ = (1 + κB)Θ_w + 3κyJ δ_c\n  Θ_w′ = −(2 + Ḣ/H²)Θ_w + (3/2)(Ω_cδ_c + Ω_bδ_b) + 3κR δ_c − 3κyJ Θ_w\nKernels: R(y) = y∫₀^∞sin(yt)W dt; R₁ = ∫₀¹R(yμ)dμ; R_v = 3∫₀¹μ²R(yμ)dμ; J = (R₁ − R)/y < 0; B = R_v + 3yJ. The system is exact in ε at linear order in amplitude. Where each term comes from: the force at fixed P has density kernel R₁ and momentum kernel κHR_v; the anomalous velocity has density kernel 3iκv*J (outflow from overdensities) and momentum kernel κB; the Hubble term −H∂_PΨ in the momentum equation turns R₁ into R and κR_v into −3κyJ. In the local limit y ≫ 1, u = (1+κ)w and there is no net anti-drag.",
+   "tag": "[D] with executed script",
+   "basis": "Cold Hamiltonian flow in proper coordinates: ∂ρ/∂t + ∇·(ρ∂_Ph) = 0 and DΠ/Dt = −∂_r h, with Π = m(Hr + w). This gives ẇ + Hu = −∇φ + a_F and u = w + ∂_PΨ. A Lagrangian-coordinate derivation gives the same equations. All four response coefficients were checked by brute-force 2D quadrature of the exact mean-field integrals at small amplitude, independent of the closed forms.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "force from density, y = 1.08",
+     "value": "brute 3.623834 = 4πR₁/y",
+     "script": "v3_kernels.py",
+     "printed_output": "y=1.08: force/density  brute 3.623834  4pi R1/y 3.623834  [4pi RA/y would be 9.344840]"
+    },
+    {
+     "quantity": "anomalous velocity from density, y = 1.08",
+     "value": "brute −5.721007 = 3κJ",
+     "script": "v3_kernels.py",
+     "printed_output": "anom.vel/density brute -5.721007  3 kappa J -5.721007"
+    },
+    {
+     "quantity": "force from momentum field, y = 1.08",
+     "value": "2.246964 = κR_v",
+     "script": "v3_kernels.py",
+     "printed_output": "force/velocity brute 2.246964  kappa Rv 2.246964"
+    },
+    {
+     "quantity": "anomalous velocity from momentum field, y = 1.08",
+     "value": "−3.931724 = κB",
+     "script": "v3_kernels.py",
+     "printed_output": "anom.vel/velocity brute -3.931724  kappa B -3.931724"
+    },
+    {
+     "quantity": "identities at y = 1.08 (Gaussian)",
+     "value": "R₁ − yJ = R = 0.803130; R_v + 3yJ = B = −0.938630",
+     "script": "v3_kernels.py",
+     "printed_output": "R1 - yJ = 0.803130 (vs RA 0.803130);  Rv + 3yJ = -0.938630 (vs B -0.938630);  closed-form RA (Dawson) = 0.803130"
+    }
+   ]
+  },
+  {
+   "id": "D3",
+   "statement": "Linear system of the Lagrangian reading, exact in ε:\n  δ_c′ = Θ_u\n  Θ_w = (1 − κB)Θ_u − 3κyJδ_c\n  Θ_w′ = −(1 + Ḣ/H²)Θ_w − Θ_u + (3/2)Ω_mδ_m + 3κR₁δ_c + κR_vΘ_u\nIt equals D2 at O(ε). The Lyman-α bounds of the two readings nearly coincide.",
+   "tag": "[D] with executed script",
+   "basis": "Euler–Lagrange equation of the mean-field Lagrangian L₁ = ½mṙ² − mΦ − Ψ_L(r,ṙ). Same kernels as D2, with the gate argument built from velocities.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "bounds i vs ii (matter/gas), agent's covariance",
+     "value": "30: 0.3649/1.1573 vs 0.3735/1.2002; 120: 0.0572/0.1069 vs 0.0595/0.1110; 300: 0.0147/0.1643 vs 0.0148/0.1782",
+     "script": "v3_lya.py",
+     "printed_output": "gauss    v*= 120 km/s  eps_max (matter / gas): agent: 0.0285 / 0.0813  iii: 0.0585 / 0.1760  i: 0.0572 / 0.1069  ii: 0.0595 / 0.1110"
+    }
+   ]
+  },
+  {
+   "id": "D4",
+   "statement": "For the force law the density kernel is R₁, not R. The agent's growth.py implements Θ′ = … + 3κRδ_c + κR_vΘ: R for the density term together with the force-law anti-drag. That is a hybrid matching no consistent reading. My implementation of the hybrid reproduces the agent's numbers, so the discrepancy is in the model, not the arithmetic. At the pivot R/R₁ = 2.579.",
+   "tag": "[D] with executed script",
+   "basis": "v3_kernels.py brute force (D2), and v3_cosmo.py reading 'agent', compared with growth.py and lya_gas_grid.out.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "agent system reproduced, v* = 120, ε = 0.1",
+     "value": "T² = 1.0783, dn = +0.1308 (agent 1.0783, +0.1308)",
+     "script": "v3_lya.py",
+     "printed_output": "[agent] v*=120 eps=0.1: T_m^2=1.0783 dn_m=+0.1308 | T_b^2=1.0247 dn_b=+0.0458"
+    },
+    {
+     "quantity": "agent bounds reproduced",
+     "value": "0.0285/0.0813 (120); 0.0139/0.0232 (300); 0.3485/1.1429 (30)",
+     "script": "v3_lya.py",
+     "printed_output": "gauss    v*=  30 km/s  eps_max (matter / gas): agent: 0.3485 / 1.1429  iii: 0.7820 / 2.5790  i: 0.3649 / 1.1573  ii: 0.3735 / 1.2002"
+    },
+    {
+     "quantity": "R/R₁ at y = 1.08",
+     "value": "2.579",
+     "script": "v3_ratios.py",
+     "printed_output": "R(1.08)/R1(1.08) = 2.579"
+    }
+   ]
+  },
+  {
+   "id": "D5",
+   "statement": "c4b's 'consistent' system equals D2 except for one term. Its gated density force uses R instead of R₁, while it also keeps the Hubble term on the anomalous velocity's density part (−θ_δ, i.e. −3κyJδ_c here). Its density coupling is therefore 3κ(R − yJ) instead of 3κR: the −yJ piece is counted twice. Transcribed into my integrator, c4b reproduces its own output; with R → R₁ it becomes D2. c4b's consistent-reading bounds are therefore not those of a consistent reading. Corrected values with c4b's DESI-only covariance are 0.0558/0.1043 (120), 0.357/1.130 (30) and 0.0145/0.161 (300).",
+   "tag": "[D] with executed script",
+   "basis": "Term-by-term transcription of c4b_consistent_reading.py (its θ_q = −Θ_w; its R_a equals my B; its J_W equals my J; its R equals my R), checked against c4b's printed output. c4b's checks (2), (3) and c4d confirm B, J and R_v − B = −3yJ, which I also confirm, but they never check the force's density kernel.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "c4b transcription vs c4b output, ε = 0.1, v* = 120",
+     "value": "0.9864/+0.0050 vs 0.9861/+0.0047",
+     "script": "v3_compare.py",
+     "printed_output": "c4b       : T_m^2 = 0.9864  dn_m = +0.0050 | T_b^2 = 0.9927  dn_b = -0.0090"
+    },
+    {
+     "quantity": "corrected (D2) at the same point",
+     "value": "0.9480/−0.0599",
+     "script": "v3_compare.py",
+     "printed_output": "i         : T_m^2 = 0.9480  dn_m = -0.0599 | T_b^2 = 0.9797  dn_b = -0.0328"
+    },
+    {
+     "quantity": "DESI-only covariance bounds, reading i",
+     "value": "30: 0.3568/1.1303; 120: 0.0558/0.1043; 300: 0.0145/0.1608",
+     "script": "v3_lya.py",
+     "printed_output": "gauss    v*= 120 km/s  eps_max (matter / gas): agent: 0.0282 / 0.0805  iii: 0.0579 / 0.1743  i: 0.0558 / 0.1043  ii: 0.0579 / 0.1083"
+    }
+   ]
+  },
+  {
+   "id": "D6",
+   "statement": "Matter-era growth exponent δ ∝ a^p in the local limit (EdS, all χ): p − 1 = 0.8ε for the force law, 0.9ε for the Hamiltonian and Lagrangian readings, and 0.6ε with no velocity terms.",
+   "tag": "[D] with executed script",
+   "basis": "sympy series of the characteristic quadratics, plus numerical integration of the first-order systems.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "p(ε) series",
+     "value": "iii 1 + 4ε/5; i 1 + 9ε/10; ii 1 + 9ε/10; none 1 + 3ε/5",
+     "script": "v3_eds_check.py",
+     "printed_output": "i (Hamiltonian)   : p = -3*e**2/125 + 9*e/10 + 1   ; p(eps=0.1) = 1.089776"
+    },
+    {
+     "quantity": "numerical check, reading i, ε = 0.1",
+     "value": "p = 1.089776",
+     "script": "v3_eds_check.py",
+     "printed_output": "numerical EdS local-limit exponent, reading i    , eps=0.1: p = 1.089776, (p-1)/eps = 0.8978"
+    }
+   ]
+  },
+  {
+   "id": "D7",
+   "statement": "Scale dependence at z = 3 for v* = 120, ε = 0.1. In the Hamiltonian reading T_m² is 0.998 at k = 0.1/Mpc, 0.986 at 0.3, 0.948 at the pivot (y = 1.08), 0.968 at 1.5, then 1.176 at 3, 1.641 at 10 and 2.134 at 30/Mpc: a dip near the gate scale, then enhancement. The force law with the correct kernel gives 1.0008, 1.0071, 1.0355, 1.131, 1.299, 1.671 and 1.998. The agent's hybrid gives 1.0018, 1.0159, 1.0783, 1.265, 1.516, 1.948 and 2.237.",
+   "tag": "[D] with executed script",
+   "basis": "v3_cosmo.py growth: two fluids (χ gated; baryons gravity-only, held at zero before z_drag = 1059.94), smooth radiation and neutrinos, RK4 in ln a from a = 1e-5. Initial-condition and step tests are stable to 1e-6.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "T_m²(k), reading i",
+     "value": "0.9983 0.9859 0.9480 0.9679 1.1757 1.6407 2.1336",
+     "script": "v3_compare.py",
+     "printed_output": "i           0.9983  0.9859  0.9480  0.9679  1.1757  1.6407  2.1336"
+    },
+    {
+     "quantity": "T_m²(k), force law (iii)",
+     "value": "1.0008 1.0071 1.0355 1.1310 1.2990 1.6711 1.9981",
+     "script": "v3_compare.py",
+     "printed_output": "iii         1.0008  1.0071  1.0355  1.1310  1.2990  1.6711  1.9981"
+    },
+    {
+     "quantity": "IC/step stability, reading i",
+     "value": "0.947984 / 0.947983",
+     "script": "v3_compare.py",
+     "printed_output": "ic_slope=1.0, nstep=12000: T_m^2(k_p) = 0.947983"
+    }
+   ]
+  },
+  {
+   "id": "D8",
+   "statement": "DESI DR1 compressed Lyman-α bounds on ε in each consistent reading (Gaussian Hubble-flow gate; covariance with baseline errors 0.0083, 0.0032; matter / gas). Force law with the correct kernel: 0.782/2.579 (30 km/s), 0.0585/0.176 (120), 0.0202/0.0421 (300). Hamiltonian: 0.365/1.157, 0.0572/0.107, 0.0147/0.164. Lagrangian: 0.374/1.200, 0.0595/0.111, 0.0148/0.178. Rational gate W = 1/(1+u²/2): force law 0.213/0.574 (30), 0.0375/0.0821 (120); Hamiltonian 0.245/0.513, 0.0941/0.364.",
+   "tag": "[D] with executed script; data [S]",
+   "basis": "v3_lya.py with my growth code. DESI values from arXiv:2601.21432 [S]; baseline 0.3495, −2.3052 from arXiv:2311.16377 [S] (Σm_ν-extension chain). The criterion is Δχ² = 3.84 above the minimum over ε ≥ 0. This is a compressed estimate, not a likelihood analysis.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "v* = 30, all readings",
+     "value": "see statement",
+     "script": "v3_lya.py",
+     "printed_output": "gauss    v*=  30 km/s  eps_max (matter / gas): agent: 0.3485 / 1.1429  iii: 0.7820 / 2.5790  i: 0.3649 / 1.1573  ii: 0.3735 / 1.2002"
+    },
+    {
+     "quantity": "v* = 300, all readings",
+     "value": "see statement",
+     "script": "v3_lya.py",
+     "printed_output": "gauss    v*= 300 km/s  eps_max (matter / gas): agent: 0.0139 / 0.0232  iii: 0.0202 / 0.0421  i: 0.0147 / 0.1643  ii: 0.0148 / 0.1782"
+    },
+    {
+     "quantity": "rational gate",
+     "value": "see statement",
+     "script": "v3_lya.py",
+     "printed_output": "rational v*= 120 km/s  eps_max (matter / gas): agent: 0.0226 / 0.0455  iii: 0.0375 / 0.0821  i: 0.0941 / 0.3642  ii: 0.0964 / 0.4380"
+    }
+   ]
+  },
+  {
+   "id": "D9",
+   "statement": "Allowed region in the record's Hamiltonian reading (Gaussian; matter / gas): 3.13/10.2 (10 km/s, inside the singular regime), 0.80/2.57 (20), 0.365/1.16 (30), 0.145/0.436 (50), 0.072/0.190 (80), 0.057/0.107 (120), 0.060/0.088 (200), 0.0146/0.164 (300), 0.0126/0.0247 (500), 0.0138/0.0150 (1000), 0.0141/0.0143 (2000), 0.0148/0.0151 (3000). For v* ≤ 120 the boundary is reached with T² ≈ 0.97–0.98 and dn ≈ −0.034 (suppression); from 300 up, with dn ≈ +0.036. The slope dominates everywhere.",
+   "tag": "[D] with executed script; data [S]",
+   "basis": "v3_lya_grid.py; amplitude-only and slope-only bounds are printed alongside.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "reading i, v* = 120",
+     "value": "0.0573 matter; 0.1069 gas; amp-only 0.2323; slope-only 0.0701",
+     "script": "v3_lya_grid.py",
+     "printed_output": "i     |   120 |   0.0573 [0.0000, 0.00]   0.2323   0.0701 | 0.9701 -0.0338 ||   0.1069"
+    },
+    {
+     "quantity": "reading i, v* = 1000",
+     "value": "0.0138/0.0150",
+     "script": "v3_lya_grid.py",
+     "printed_output": "i     |  1000 |   0.0138 [0.0011, 0.03]   0.0692   0.0125 | 1.0484 +0.0376 ||   0.0150"
+    }
+   ]
+  },
+  {
+   "id": "D10",
+   "statement": "The record's dynamics is the Hamiltonian reading. Lab notebook §5.2 writes ε(p; f) = p²/2m + ∫U(p−p′)f̄ with 'ẋ ⊃ ∇ₚε — an anomalous velocity'. Debt 3a's single-particle energy is ε(x,p), with the gate G((p−p′)/μ) on momenta. #11 §8 gates the amplitude on the incoming relative momentum k; the classical limit of such an amplitude is a potential whose Weyl symbol depends on the canonical relative momentum (on shell |(k+k′)/2|² = k² − q²/4). The Lagrangian reading agrees at O(ε). The force law has no anomalous velocity and appears nowhere in the record. In Debt 3a's static homogeneous medium the anomalous-velocity term vanishes; about the Hubble flow it does not, because f₀(r,P) = nδ(P − mHr) depends on r at fixed P. The record defines neither a relative momentum for separated particles nor a long-range gated force: its X is massive (range < 37.7 μm), and its gate acts at contact range.",
+   "tag": "[D]",
+   "basis": "notes/broken-born-theory.md §5.2 and §3; notes/debt3a-stream-stability.md 'Setup'; papers/broken-born-checkpoint-v2.md §8; papers/phase-space-diameter.md §8.2.",
+   "confidence": "high",
+   "sources": [
+    "notes/broken-born-theory.md §5.2",
+    "notes/debt3a-stream-stability.md Setup",
+    "papers/broken-born-checkpoint-v2.md §8"
+   ]
+  },
+  {
+   "id": "D11",
+   "statement": "In the record's Hamiltonian reading the eBOSS compressed data prefer ε > 0. At v* = 120 the best fit is ε = 0.054 (χ² 26.31 → 1.89; T² = 0.972, dn = −0.032) and the upper limit 0.074. At v* = 30 the best fit is ε = 0.31 (χ² 2.49) and the limit 0.44. At v* = 300 the response is an enhancement: ε < 0.00096. DESI DR1 permits ε = 0.054 at 120 km/s (bound 0.057). This is not evidence for the model: the compression assumes a ΛCDM shape, DESI agrees with Planck, and other power-suppressing models also relieve the eBOSS tension.",
+   "tag": "[D] with executed script; data [S]",
+   "basis": "v3_misc.py with the eBOSS values from arXiv:2311.16377 [S] and the baseline errors added.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "eBOSS fit, reading i, v* = 120",
+     "value": "best ε = 0.054, χ² 1.89 vs 26.31 at ε = 0",
+     "script": "v3_misc.py",
+     "printed_output": "i     v*= 120: chi2(eps=0) = 26.31, best eps = 0.0540 (chi2 = 1.89, T^2 = 0.9718, dn = -0.0318), upper bound = 0.07443"
+    }
+   ],
+   "sources": [
+    "arXiv:2311.16377 [S]"
+   ]
+  },
+  {
+   "id": "D12",
+   "statement": "A peculiar-velocity gate on an unscreened 1/r force is pathological under the Hamiltonian or Lagrangian reading. It renormalizes χ's peculiar inverse inertia by κ_pec = (3/4)εΩ_c(HR/v*)², which is 1.24×10⁶ε at z = 0 and 3.79×10⁶ε at z = 3 for R = c/H and v* = 120 km/s. The Hubble-flow gate gives κ = 0.13–0.41ε. Only the force law hides the effect. Under the record's dynamics the Hubble-flow gate is therefore forced, and K10's ungated limit applies only to the force law.",
+   "tag": "[D] with executed script",
+   "basis": "Ψ(w) = −G̃mρ̄W(|w|/v*)∫d³s/s = −2πG̃mρ̄R²W; its second w-derivative at w = 0, using 4πGρ̄_c = (3/2)Ω_cH².",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "κ_pec/ε, z = 0 and z = 3",
+     "value": "1.238e6, 3.794e6",
+     "script": "v3_misc.py",
+     "printed_output": "z=3.0: kappa_pec/eps (R = c/H, v* = 120) = 3.794e+06;  Hubble-flow gate kappa/eps = 0.405"
+    }
+   ]
+  },
+  {
+   "id": "D13",
+   "statement": "The Hamiltonian and Lagrangian readings become singular at large ε. For the Gaussian gate, the Hamiltonian's effective inertia factor 1 + κB vanishes at κ = 0.934 (min B = −1.071 at y = 1.41), i.e. ε ≈ 2.22–2.24 in the matter era. The Lagrangian's 1 − κB vanishes at κ = 1, i.e. ε ≈ 2.38–2.40. For the rational gate the Hamiltonian threshold is κ = 1.687. Bounds near ε ≈ 3 (v* ≈ 10 km/s) are therefore outside the validity of the record's reading.",
+   "tag": "[D] with executed script",
+   "basis": "Kernel tables from v3_cosmo.py; κ = εΩ_c(a)/2 with Ω_c ≈ 0.835–0.84.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "min B and thresholds (Gaussian)",
+     "value": "−1.0712 at y = 1.413; κ = 0.934 (i); κ = 1.000 (ii)",
+     "script": "v3_misc.py",
+     "printed_output": "gauss: min B = -1.0712 at y = 1.413; max B = +1.0003; 1 + kappa B = 0 at kappa = 0.934 (i), 1 - kappa B = 0 at kappa = 1.000 (ii); kappa = eps Omega_c(a)/2, Omega_c(z=10) = 0.835"
+    },
+    {
+     "quantity": "ε thresholds",
+     "value": "2.22–2.24 (i); 2.38–2.40 (ii)",
+     "script": "v3_ratios.py",
+     "printed_output": "singular eps threshold (Gaussian, i): 2*0.934/Omega_c with Omega_c in [0.835, 0.84]: 2.22 .. 2.24; (ii): 2.38 .. 2.40"
+    }
+   ]
+  },
+  {
+   "id": "D14",
+   "statement": "In the Hamiltonian reading a satellite's χ in the host's gated potential also gets inverse-mass shifts: η⊥ = ε|Φ_N|⟨W⟩/S² and η∥ = −ε|Φ_N|⟨W⟩(V²/S² − 1)/S², with S² = v*² + s². At Sgr (V = 311.1 km/s, v* = 120, isothermal host with v_c = 212 km/s truncated at 200–300 kpc, an assumption) these are η⊥ = +0.27ε to +0.30ε and η∥ = −0.44ε to −0.49ε. That is 4–7 times the direct-force fraction ⟨W⟩ = 0.066. The 10% stream criterion then gives roughly ε ≲ 0.20–0.37: an order-of-magnitude estimate, still weaker than Lyman-α.",
+   "tag": "[D] with executed script",
+   "basis": "Ψ_sat(r,P) ≈ ε⟨W⟩(V) m Φ_N(r), with the Gaussian closed form of ⟨W⟩ and Φ_N taken as zero at infinity. Hamilton's ẋ = ∂Ψ/∂P gives the inverse-mass tensor. The host model and its truncation are assumptions.",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "η/ε at Sgr (300 kpc truncation)",
+     "value": "+0.303 (perp), −0.490 (par)",
+     "script": "v3_misc.py",
+     "printed_output": "Sgr, Hamiltonian reading, isothermal host truncated at 300 kpc (assumed): |Phi_N| = 1.711e+05 km^2/s^2, eta_perp/eps = +0.303, eta_par/eps = -0.490, direct force <W> = 0.066"
+    },
+    {
+     "quantity": "translated limit",
+     "value": "ε < 0.20–0.37",
+     "script": "v3_ratios.py",
+     "printed_output": "Sgr eta/<W>: 4.13 .. 7.47;  10% criterion with |eta| = 0.27-0.49: eps < 0.20 .. 0.37"
+    }
+   ]
+  },
+  {
+   "id": "D15",
+   "statement": "BOSS-scale mapping by reading (the ε matching the ungated β = 0.0048 power excess of 3.74% at k = 0.2 h/Mpc, z = 0.57). Force law with the correct kernel: 1.13 (120 km/s), 0.189 (300), 0.025 (1000), 0.0126 (2000), 0.0096 (3000). Hamiltonian reading: the response is a suppression at non-singular ε up to 1000 km/s, then 0.0194 (2000) and 0.0122 (3000).",
+   "tag": "[D] with executed script; bound [S]",
+   "basis": "v3_misc.py. β < 0.0048 from arXiv:2309.11496 [S]. The mapping matches a single (k, z), as in K9.",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "ε_equiv, force law",
+     "value": "1.1319, 0.1886, 0.0252, 0.0126, 0.0096",
+     "script": "v3_misc.py",
+     "printed_output": "iii  : v*=120: 1.1319; v*=300: 0.1886; v*=1000: 0.0252; v*=2000: 0.0126; v*=3000: 0.0096"
+    },
+    {
+     "quantity": "ε_equiv, Hamiltonian",
+     "value": "none ≤ 1000; 0.0194; 0.0122",
+     "script": "v3_misc.py",
+     "printed_output": "i    : v*=120: nan (min excess -0.5195); v*=300: nan (min excess -0.9999); v*=1000: 7.8878 (min excess -0.9975); v*=2000: 0.0194; v*=3000: 0.0122"
+    }
+   ],
+   "sources": [
+    "arXiv:2309.11496 [S]"
+   ]
+  }
+ ]
+}

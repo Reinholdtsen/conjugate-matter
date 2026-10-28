@@ -29,6 +29,8 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "HANDOFF.md §2"
   - "review/wiki-build-flags.md items 7, 25"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §2"
 ---
 
 *The forcing chain is the sequence of arguments in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 that leaves the [momentum graviton X](/wiki/gravity/momentum-graviton) one consistent option: to be a massive spin-2 field. [Shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) rules out an auxiliary X, a field with no motion of its own. The [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) make X a second graviton-like gauge field. If that gauge symmetry stays unbroken, X is a second massless graviton, and a theorem excludes two massless gravitons that interact; X has to interact, with the metric and with [dark matter](/wiki/dark-matter). If the gauge symmetry is dropped from the kinetic term, the time–space components of a symmetric tensor carry kinetic energy of the wrong sign in spacetime's signature, a [ghost](/wiki/gravity/spin-2-fields/ghosts). Mass is the exit that remains, and it comes from the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations). The chain replaced an earlier three-way question about X (healthy, auxiliary, or a ghost that would have killed the program's geometric sector) with the answer "massive spin-2, conditionally healthy", the condition being [the tuning test](/wiki/gravity/tuning-test). It is derived and rests on literature theorems [D + T]; no script checks it.*
@@ -70,7 +72,7 @@ Locally the shifts become δX_μν = ∂₍μλ_ν₎ with an arbitrary vector f
 The theorem forbids couplings that mix massless gravitons. Copies that never interact with one another escape it [T], so a massless X would be consistent if it were sealed off from the metric and from matter. #6 rules that out with two couplings:
 
 - **To g, through the Siegel structure.** X and the metric g = Y are the two halves of one field Z, and the phase-space metric contains them together: its upper-left block is Y + XY⁻¹X and its off-diagonal blocks are XY⁻¹ and Y⁻¹X (#5 §C; [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain)).
-- **To χ, through the gate.** [Conjugate matter](/wiki/dark-matter/conjugate-matter), the program's p-polarized matter χ, "couples to H universally (P4); its coupling to the X-block is through the **dual stress** T̃" (#5 §E; [P4: polarized matter](/wiki/program/postulates/p4-polarized-matter); [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress)). Exchange of X between conjugate-matter particles is the program's mechanism for the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
+- **To χ, through the gate.** [Conjugate matter](/wiki/dark-matter/conjugate-matter), the program's p-polarized matter χ, "couples to H universally (P4); its coupling to the X-block is through the **dual stress** T̃" (#5 §E; [P4: polarized matter](/wiki/program/postulates/p4-polarized-matter); [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress)). Exchange of X between conjugate-matter particles is the program's mechanism for the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)), a mechanism that flag 55 in `review/wiki-build-flags.md` finds not derived, pending Paul's ruling (`notes/gate-mechanism.md` §2; [exchanging X cannot produce the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 A massless X would therefore be a second massless graviton that interacts, which the theorem excludes.
 
@@ -163,3 +165,4 @@ The P2 constraint, [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological
 - `notes/knot-dark-matter-standalone.md` §1 — the withdrawn manuscript's compressed version.
 - `HANDOFF.md` §2 — the handoff's summary.
 - `review/wiki-build-flags.md` item 7 — the qualifier "known" that #6 §3 has and #11 §7.1 and #6 §5 drop; item 25 — the lab notebook's pointer to its §7 for the cosmological constraint. Both await Paul's ruling.
+- `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — exchanging #11 §7's X cannot produce the gate; awaiting Paul's ruling

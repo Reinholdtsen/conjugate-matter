@@ -1,0 +1,5 @@
+kappa^2=19.7392, gt=255.0: static-block eigen ratios gt*Lam_g*q^N/kappa^2 = [np.float64(1.928), np.float64(0.905), np.float64(0.425), np.float64(0.2), np.float64(0.094), np.float64(0.044)]
+   sign change near Gamma=0.6627: sign(Dtilde)=-1, sign(det B_N, N=0..3)=(np.float64(-1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0)), |D|=8.172e+01
+kappa^2=19.7392, gt=1275.0: static-block eigen ratios gt*Lam_g*q^N/kappa^2 = [np.float64(9.642), np.float64(4.527), np.float64(2.126), np.float64(0.998), np.float64(0.469), np.float64(0.22)]
+   sign change near Gamma=0.1844: sign(Dtilde)=-1, sign(det B_N, N=0..3)=(np.float64(-1.0), np.float64(1.0), np.float64(1.0), np.float64(1.0)), |D|=1.992e+01
+   sign change near Gamma=0.1151: sign(Dtilde)=+1, sign(det B_N, N=0..3)=(np.float64(-1.0), np.float64(1.0), np.float64(-1.0), np.float64(1.0)), |D|=2.106e+01

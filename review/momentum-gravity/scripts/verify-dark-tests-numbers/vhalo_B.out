@@ -1,0 +1,13 @@
+kernel B
+eps=0.0285 v*= 120 M=1e+08: sigma(z=0) LCDM 5.869 gated 6.417 | z_c LCDM 3.40 gated 3.72 | (1+z_c)^3 ratio 1.233
+eps=0.0285 v*= 120 M=1e+09: sigma(z=0) LCDM 4.835 gated 5.204 | z_c LCDM 2.61 gated 2.83 | (1+z_c)^3 ratio 1.190
+eps=0.0810 v*= 120 M=1e+08: sigma(z=0) LCDM 5.869 gated 7.618 | z_c LCDM 3.40 gated 4.36 | (1+z_c)^3 ratio 1.813
+eps=0.0810 v*= 120 M=1e+09: sigma(z=0) LCDM 4.835 gated 6.000 | z_c LCDM 2.61 gated 3.26 | (1+z_c)^3 ratio 1.642
+eps=0.3480 v*=  30 M=1e+08: sigma(z=0) LCDM 5.869 gated 12.855 | z_c LCDM 3.40 gated 5.96 | (1+z_c)^3 ratio 3.953
+eps=0.3480 v*=  30 M=1e+09: sigma(z=0) LCDM 4.835 gated 8.237 | z_c LCDM 2.61 gated 3.86 | (1+z_c)^3 ratio 2.441
+eps=1.1400 v*=  30 M=1e+08: sigma(z=0) LCDM 5.869 gated 150.742 | z_c LCDM 3.40 gated 17.42 | (1+z_c)^3 ratio 73.383
+eps=1.1400 v*=  30 M=1e+09: sigma(z=0) LCDM 4.835 gated 54.202 | z_c LCDM 2.61 gated 8.93 | (1+z_c)^3 ratio 20.789
+eps=0.7750 v*=  20 M=1e+08: sigma(z=0) LCDM 5.869 gated 32.897 | z_c LCDM 3.40 gated 8.75 | (1+z_c)^3 ratio 10.886
+eps=0.7750 v*=  20 M=1e+09: sigma(z=0) LCDM 4.835 gated 14.606 | z_c LCDM 2.61 gated 4.79 | (1+z_c)^3 ratio 4.115
+eps=3.0800 v*=  10 M=1e+08: sigma(z=0) LCDM 5.869 gated 13464.035 | z_c LCDM 3.40 gated 33.41 | (1+z_c)^3 ratio 478.617
+eps=3.0800 v*=  10 M=1e+09: sigma(z=0) LCDM 4.835 gated 2871.200 | z_c LCDM 2.61 gated 18.83 | (1+z_c)^3 ratio 165.705

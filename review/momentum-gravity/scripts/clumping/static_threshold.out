@@ -1,0 +1,38 @@
+=== 1. Gated part alone (no gravity): numerics vs Mehler closed form ===
+Lam_g(r) = [1/2 + r^2 + sqrt(1+4r^2)/2]^(-3/2); top eigenvalue in sector l = Lam_g q^l
+     r    closed l0       num l0    closed l1       num l1    closed l2       num l2
+ 0.100 9.708729e-01 9.708729e-01 9.519277e-03 9.519277e-03 9.333521e-05 9.333521e-05
+ 0.250 8.419595e-01 8.419595e-01 4.692080e-02 4.692080e-02 2.614806e-03 2.614806e-03
+ 0.500 5.685425e-01 5.685425e-01 9.754647e-02 9.754647e-02 1.673633e-02 1.673633e-02
+ 1.000 2.360680e-01 2.360680e-01 9.016994e-02 9.016994e-02 3.444185e-02 3.444185e-02
+ 1.292 1.492795e-01 1.492795e-01 7.009012e-02 7.009012e-02 3.290891e-02 3.290891e-02
+ 2.000 5.949631e-02 5.949631e-02 3.626965e-02 3.626965e-02 2.211041e-02 2.211041e-02
+ 4.000 1.074931e-02 1.074931e-02 8.376988e-03 8.376988e-03 6.528224e-03 6.528224e-03
+ 8.333 1.443665e-03 1.443665e-03 1.280502e-03 1.280502e-03 1.135780e-03 1.135780e-03
+
+=== 2. Convergence check (Gaussian, gt=1, gravity on, l=0) ===
+r=1.2917: frac=0.75 order=10: Lambda_0 = 1.1138811053
+r=1.2917: frac=0.4 order=12: Lambda_0 = 1.1138811053
+r=8.333: frac=0.75 order=10: Lambda_0 = 1.0006046662
+r=8.333: frac=0.4 order=12: Lambda_0 = 1.0006046662
+
+=== 3. Gravity alone: Lambda_0 = 1 exactly (Jeans: k_crit = k_J) ===
+gt=0: [1.00000000e+00 2.74570905e-16]
+
+=== 4. Narrow-gate asymptotics of the gated eigenvalue: Lam_g -> (v*/sigma)^3 * Int d^3s W/(2pi)^1.5 ===
+Gaussian: Int d^3s W = (2pi)^1.5 -> factor 1; rat2: Int = 2^1.5 pi^2 -> factor sqrt(pi) = 1.772454
+gauss  r= 0.2500: Lam_g = 8.41960e-01; Lam_g*r^3 = 0.01316; Lam_g*r^2 = 0.05262
+gauss  r= 1.2917: Lam_g = 1.49279e-01; Lam_g*r^3 = 0.32173; Lam_g*r^2 = 0.24907
+gauss  r= 4.0000: Lam_g = 1.07493e-02; Lam_g*r^3 = 0.68796; Lam_g*r^2 = 0.17199
+gauss  r= 8.3330: Lam_g = 1.44367e-03; Lam_g*r^3 = 0.83535; Lam_g*r^2 = 0.10025
+gauss  r=16.0000: Lam_g = 2.22296e-04; Lam_g*r^3 = 0.91052; Lam_g*r^2 = 0.05691
+rat2   r= 0.2500: Lam_g = 7.46887e-01; Lam_g*r^3 = 0.01167; Lam_g*r^2 = 0.04668
+rat2   r= 1.2917: Lam_g = 1.19894e-01; Lam_g*r^3 = 0.25839; Lam_g*r^2 = 0.20004
+rat2   r= 4.0000: Lam_g = 1.10057e-02; Lam_g*r^3 = 0.70437; Lam_g*r^2 = 0.17609
+rat2   r= 8.3330: Lam_g = 1.73635e-03; Lam_g*r^3 = 1.00471; Lam_g*r^2 = 0.12057
+rat2   r=16.0000: Lam_g = 2.99527e-04; Lam_g*r^3 = 1.22686; Lam_g*r^2 = 0.07668
+rat1   r= 0.2500: Lam_g = 8.56879e-01; Lam_g*r^3 = 0.01339; Lam_g*r^2 = 0.05355
+rat1   r= 1.2917: Lam_g = 2.75611e-01; Lam_g*r^3 = 0.59399; Lam_g*r^2 = 0.45985
+rat1   r= 4.0000: Lam_g = 5.48657e-02; Lam_g*r^3 = 3.51141; Lam_g*r^2 = 0.87785
+rat1   r= 8.3330: Lam_g = 1.53773e-02; Lam_g*r^3 = 8.89785; Lam_g*r^2 = 1.06779
+rat1   r=16.0000: Lam_g = 4.58095e-03; Lam_g*r^3 = 18.76358; Lam_g*r^2 = 1.17272

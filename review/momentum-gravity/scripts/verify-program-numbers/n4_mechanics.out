@@ -1,0 +1,10 @@
+P5: t^1 coefficient, position (x-x) block zero: True ; mixed block zero: False ; momentum block zero: True
+anchor (omega^-1 H_Z)^2 = -1 at a sample point: True
+P10 arg p1 - p2: pdot1 = 0; d(m1x1+m2x2)/dt - P = (m1 - m2)*Subs(Derivative(U(_xi_1), _xi_1), _xi_1, p1 - p2); boost shift of argument = u*(m1 - m2)
+P10 arg k = (m2 p1 - m1 p2)/M: pdot1 = 0; d(m1x1+m2x2)/dt - P = 0; boost shift of argument = 0
+P12 energy function - [sum m v^2/2 - Gt m1 m2 (W - w W')/r] = 0
+P12 boost: L(v+u) - L(v) - [u.(m1 v1 + m2 v2) + M u^2/2] = 0
+P12 Lagrangian Hessian at v_rel = 0: -2*Gtilde*M*mu/(r*v_star**2) + mu ; zero at r = [2*Gtilde*M/v_star**2]
+P12 Hamiltonian inverse inertia at p = 0: 2*Gtilde*M/(mu*r*v_star**2) + 1/mu  = (1/mu)(1 + 2 Gt M/(r v*^2))? True
+P12 CM drift, gate argument |p1/m1 - p2/m2|/v*: 0
+P12 CM drift, gate argument |p1 - p2|/(m1 v*): 2*Gtilde*m2*(m1*p1 - m1*p2 - m2*p1 + m2*p2)*exp((-p1**2 + 2*p1*p2 - p2**2)/(m1**2*v_star**2))/(m1*v_star**2*Abs(x1 - x2))

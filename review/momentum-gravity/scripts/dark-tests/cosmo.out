@@ -1,0 +1,7 @@
+Omega_b=0.04930 Omega_c=0.26447 Omega_r=9.2198e-05 Omega_L=0.68461 f_c=0.8429
+z_eq (computed, Omega_m/Omega_r - 1) = 3418.8   [Planck 2018 Table 2: 3402 +- 26]
+Age (computed) = 13.795 Gyr   [Planck 2018 Table 2: 13.797 +- 0.023]
+sigma_8 check (should be 0.8111): 0.8111
+EH98 eq.26 sound horizon = 149.82 Mpc   [Planck r_drag 147.09; EH98 fit quoted ~2% accurate]
+growth rate f(z=0) = 0.5274   [independent anchor: Omega_m^0.55 = 0.5300 (Linder 2005 fit, dagger)]
+D(z=3)/D(0) = 0.3155 ; f(z=3) = 0.9812 ; f(z=1089.92) = 0.8246

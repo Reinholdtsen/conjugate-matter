@@ -1,0 +1,146 @@
+{
+ "issues": [
+  {
+   "quote": "It tested the program's own contact-range gate.",
+   "problem": "This is the draft's only account of what the obituary covers, and it describes only the particle leg (Debt 3a's 10^28–10^31 shortfall). The record's verdict rests on three legs: 'nowhere mandatory — forbidden (particles), fatal (committed wave), decorative (free wave)'. On the free-wave branch (Scenario B) the record still allows streams, but at a strength tunable over ~10 orders: 'optional, never required'. #11 §15 lists this as a quarantined degeneration risk. To weigh 'premature', Paul needs to know that the obituary kills clumping as a required prediction, not as a possibility. The sentence itself is true (all three legs use the contact gate). The critic's Q1 ruling has the same omission, and the recommended 'scope sentence' for the obituary page would inherit it.",
+   "correction": "It tested the program's own contact-range gate on both sides. For particles the pull falls short by 10^28–10^31 (Debt 3a). For wave dark matter whose gate also makes dwarf cores, clumping would be mandatory in ultra-faint dwarfs and would drain them, which observation rules out (3b, 3c). With the coupling free, the record still allows streams, but at a tunable strength, so they predict nothing (Scenario B, quarantined). The obituary says clumping is nowhere required, not that it cannot occur.",
+   "source": "papers/broken-born-checkpoint-v2.md §9 (ii)–(iii) ('With coupling free, streams are tunable across ~10 orders: optional, never required'; 'Net theorem: ... decorative (free wave)') and §15 ('tunable wave-island collective sector (quarantined)'); wiki/dark-matter/momentum-clumping/founding-image.md line 33 and section 'Waves: fatal where mandatory'",
+   "severity": "medium"
+  },
+  {
+   "quote": "Tested here: wherever observations allow it, it is too weak to clump.",
+   "problem": "This is stronger than the ruling, which limits it to the record's gate width: 'Where observations allow it (eps <~ 0.06-0.1 at 120 km/s), it cannot clump'. At 3–30 km/s the evidence is weaker. The observational limits there are proxies, and for ε ~ 1 at 3–5 km/s they are template-level or conditional. The N-body null is limited to 43 free-fall times, an isolated cored halo, and gates as wide as or 2.5× wider than the dispersion. The up-front line states this combination as a general result.",
+   "correction": "At the record's gate width, observations allow ε < 0.06–0.11, and clumping needs ε > 1. At narrow gates (3–30 km/s), estimates exclude ε ≈ 2–3 from 5–10 km/s up and disfavour ε ≈ 1; at those strengths the N-body found no clumping up to ε = 10 within 43 free-fall times. Below 3 km/s nothing was computed.",
+   "source": "critic3.txt overall, Q1 bullet 3 ('Where observations allow it (eps <~ 0.06-0.1 at 120 km/s), it cannot clump'); Gap 2 ('Still open: ... slow instabilities; nonlinear cosmology'); r3_results.json corner.caveats ('Only gate ratios r_g = 0.4 and 1 were run')",
+   "severity": "medium"
+  },
+  {
+   "quote": "ε ≈ 3 is excluded at 5–30 km/s, and ε ≈ 2 at 10 km/s and up, by the reionization optical depth and dwarf densities.",
+   "problem": "The draft drops the ruling's qualifier. The ε ≈ 3 exclusion holds in the force-law reading only. Every Hamiltonian row at ε = 3 prints 'singular', because that reading's linear theory breaks down above ε ≈ 2.24. The draft calls the Hamiltonian reading 'the record's own', so in the record's reading no computed number excludes ε ≈ 3 at 5–10 km/s. The ε ≈ 2 part holds in both readings.",
+   "correction": "In the force-law reading ε ≈ 3 is excluded at 5–30 km/s (optical depth 0.099–0.58 against 0.054 ± 0.007; dwarf densities ×9.5–366). The record's Hamiltonian reading gives no number there, because its linear theory breaks down above ε ≈ 2.2. ε ≈ 2 is excluded at 10 km/s and up in both readings (optical depth 0.078; densities ×3.6–4.4).",
+   "source": "mg/critic3/c2_corner_recheck.out ('Hc v*= 5: ... | e3: singular' on every Hc row; 'Fc eps=3 v*= 5: ... density proxy 1e9: x9.54 ... tau(ii) = 0.099'; 'Hc eps=2 v*=10: ... x4.39 ... tau(ii) = 0.078'; 'Fc eps=2 v*=10: ... x3.59 ... 0.078'); critic3.txt Gap 2 ('eps = 3, force law: excluded at v* = 5-30 km/s ... The Hamiltonian reading is singular there.')",
+   "severity": "medium"
+  },
+  {
+   "quote": "This is the record's own reading of a velocity-dependent force: the gate acts on canonical momentum",
+   "problem": "The attribution holds: the lab notebook §5.2 writes 'ẋ ⊃ ∇ₚε — an anomalous velocity' (for the contact interaction). But the ruling lists as open whether this reading is the right classical limit for a long-range gate. In the N-body it made physical velocities 1.5–11.5× the canonical ones, and its linear theory stops being interpretable above ε ≈ 2.24–2.29 (one of the critic's new low-severity gaps). The draft omits both points, although its own N-body null at ε = 3 and 10 lies in that regime.",
+   "correction": "Add: 'Whether this reading is the right classical limit for a long-range gate is open [O]: in the N-body it decouples physical from canonical velocities by up to 11.5×, and its linear theory breaks down above ε ≈ 2.2.'",
+   "source": "critic3.txt OPEN item 4 ('Whether the Hamiltonian reading is the right classical limit ...') and NEW GAPS 'LOW | The Hamiltonian reading's linear theory has a validity limit'; r3_results.json corner.claims Q5 ('sigma_kin/sigma_c = 1.77, 3.88, 11.5 (r_g = 1) and 1.48, 2.40, 5.49 (r_g = 0.4)'); notes/broken-born-theory.md line 157",
+   "severity": "medium"
+  },
+  {
+   "quote": "The program's momentum gravity X adds a short-range term",
+   "problem": "The draft drops conditions that the record and the ruling attach to this number. The coefficient α = 4/3 holds only in the aligned vacuum, where the background ratio u = 1. The 37.7 μm bound is for the unscreened case ('Unscreened, 37.7 um stands'); whether this bimetric branch screens is open. Even without screening, ranges far above laboratory scale are excluded by Cassini and galaxy tests, not by the torsion balance, and the [V] check covers only the torsion-balance edge. The note also assumes X is the only Yukawa term. The screening caveat appears only in flag 3, labelled low. This is not load-bearing for the 'No', because X's velocity dependence is the spin-2 factor at any range.",
+   "correction": "In the program's aligned vacuum (u = 1), and if this bimetric branch has no Vainshtein screening (open), X adds V = −(Gm₁m₂/r)(1 + (4/3)e^(−r/λ_X)) with λ_X < 37.7 μm [V]. With screening, windows near 1 pc–4 kpc reopen (flag 3). At any range, X is not velocity-gated.",
+   "source": "papers/phase-space-diameter.md §8.2 ('equal Planck masses give α = 4/3 only if u = 1'; 'Hence, in the aligned vacuum, λ_X < 37.7 μm'; 'the bound assumes that X adds the only Yukawa term'); critic3.txt Gap 8 and load-bearing Q1 ('unscreened lambda_X < 37.7 um'); run2/run2_result.json run-2 critic ('Without screening, Cassini does that work. Under Vainshtein screening only galaxy tests remain.')",
+   "severity": "medium"
+  },
+  {
+   "quote": "Its only dependence on relative velocity is the ordinary relativistic spin-2 factor",
+   "problem": "'Only' holds under the frame-exchange reading of the spin-2 sector. The rulings cover two other readings of 'momentum gravity' that bear directly on Paul's question, and the answer states neither. (1) #13's dual kinematics: there the dual of velocity is force, and the correction is (F/c̃)² ≈ 4.3×10⁻⁴⁴ for Sun–Earth, or exactly zero if free fall is dual rest. The draft mentions #13 only as an inconsistency in flag 2. (2) The Siegel reading [O, flag 39]: ordinary matter has no ordinary linear X coupling. The theory verifier puts the remaining coupling in the mixed block, of relative size vF/(c⁵/G) ≈ 2.9×10⁻²⁶ for Sun–Earth, which depends on velocity and force jointly. Both corrections are negligible, so the 'No' stands.",
+   "correction": "Under the frame-exchange reading, its only relative-velocity dependence is the spin-2 factor … Two other readings give corrections that depend on force, both negligible [D]: #13's kinematics, (F/c̃)² ≈ 4×10⁻⁴⁴ for Sun–Earth, or zero for free fall; and the Siegel reading (flag 39, open), a velocity-times-force coupling of about 3×10⁻²⁶.",
+   "source": "critic3.txt load-bearing Q2 ('Under the Siegel reading, SM matter has no linear X coupling at all [O, flag 39]') and the continuous-spin claim's last sentence ('(F/c~)^2 = 4.3e-44 ... or zero'); disagreement '#13's force-dual reading' ('The mixed-block term is a power ratio vF/(c^5/G)'); r3_results.json verify-critic-theory.verdicts[2].corrected_statement; review/wiki-build-flags.md flag 39",
+   "severity": "medium"
+  },
+  {
+   "quote": "That is 264× and 6500× above the allowed strength",
+   "problem": "The thresholds behind these margins (about 28 for the Milky Way, 693 for clusters) lie far outside the local model's validity. The model is valid only below ε ≈ 1.07–1.65 in the Milky Way, and below 133 in clusters (30–67 for a cuspy core). The interim gave Paul these validity limits; the draft drops them without comment, although its own pre-registration section says the 'validity limits' reproduced. Another threshold formula in the critic's own printout gives 63× for the Milky Way. The robust margin uses the threshold floor of 1.000003: at least 6–9× against allowed strengths of 0.11–0.18.",
+   "correction": "Clumping needs ε > 1 at every gate width, so at 120 km/s the allowed strength (≤ 0.11, or ≤ 0.18 in the force-law reading) is at least 6–9× too small. The local model's own Milky Way and cluster thresholds (about 28 and 690) lie beyond its validity, so the 264× and 6500× margins are indicative only.",
+   "source": "r3_results.json verify-critic-numbers.verdicts[2] ('v* = 120 MW local ... valid < 1.549'; 'cluster core ... valid < 133.3'; 'a cuspy cluster core gives about 30-67'); mg/critic3/c4_numbers.out (a) 'min over r ... of 1/Lambda_g = 1.000003' and (b) 'MW crossover 1/Lambda_g(1.2917): ... 0.1063: 63'; mg/critic3/c1_hamiltonian_system.out '(4) v* = 120 F : with baseline errors 0.0585 / 0.1755'; interim.md ('Local model valid only to ε ≈ 1.6 (MW), 4.1 (dwarf), 133 (cluster)'); mg/answer-check-scope/scope_numbers.out ('5.7x')",
+   "severity": "medium"
+  },
+  {
+   "quote": "Older eBOSS data then mildly prefer ε ≈ 0.05.",
+   "problem": "The printed fit takes χ² from 26.31 to 1.90 at ε = 0.0535. That is Δχ² = 24.4, about 4.9σ read naively for one parameter, so 'mildly' misstates its size. The draft also drops the critic's strongest reason that it is not evidence: other models that suppress power do the same.",
+   "correction": "In formal terms, the older eBOSS compressed data prefer ε ≈ 0.05 strongly (χ² falls from 26.3 to 1.9). That is not evidence: the compression assumes a ΛCDM shape, any model that suppresses power at the pivot does the same, and DESI agrees with Planck.",
+   "source": "mg/critic3/c1_hamiltonian_system.out (5) ('chi2(0) = 26.31, best eps = 0.0535 (chi2 = 1.90)'); critic3.txt disagreement K8 ('other power-suppressing models do the same'); mg/answer-check-scope/scope_numbers.out ('delta chi^2 = 24.41')",
+   "severity": "medium"
+  },
+  {
+   "quote": "gates below 3 km/s and narrower than the dispersion, where clumping would need ε ≳ 10",
+   "problem": "Here the draft deliberately departs from the critic's load-bearing summary ('what remains unexcluded ... has eps < 1'). The departure is justified, and more accurate than that summary. The corrected estimates have no row below v* = 3 km/s. At 3 km/s, ε = 3 is excluded only at template level in the force law and is singular in the Hamiltonian reading. Gates narrower than the dispersion were never run in the N-body at any width. Four wording problems remain. (a) 'ε ≳ 10' is the threshold after re-virialization (9.78 at σ = v*), while the draft's 'What clumping needs' bullet gives 4.24 for the same regime (the threshold without re-virialization). With 4.24 the uncomputed strip extends up to about 3–5 km/s. (b) Both thresholds lie outside the local model's validity (ε < 1.26–3.1 at σ/v* = 1–2). (c) 'About as wide as the dispersion' hides that the N-body runs used v* = σ₀ and 2.5σ₀. (d) The heading '(3–30 km/s), the corner I left open' changes the interim's corner, which was v* ≲ 10–30 km/s with no lower edge.",
+   "correction": "Not computed: gates below about 3 km/s. The corrected estimates start there, and gates narrower than the dispersion were not run in the N-body at any width. Clumping there would need ε above about 4 (without re-virialization) or about 10 (with it), both beyond the local model's validity.",
+   "source": "mg/critic3/c2_corner_recheck.out (no row below v* = 3; 'Fc v*= 3: ... e3:1.02/1.09/1.41 B53(0.05)'; 'Hc v*= 3: ... e3: singular'); mg/corner/local_compare.out ('r = 1.00: ... crossover 1/Lambda_g = 4.236 ... threshold eps = 9.781 ... local validity eps < 1.257'; 'r = 2.00: ... local validity eps < 3.106'); critic3.txt OPEN ('Narrower gates (sigma > v*) in the Hamiltonian N-body were not run'); r3_results.json corner.claims Q3 ('r_g = 1 and 0.4')",
+   "severity": "low"
+  },
+  {
+   "quote": "ε ≈ 1 is excluded above 20–30 km/s.",
+   "problem": "This matches the ruling's wording, but the evidence is weaker than 'excluded'. It rests on a toy optical depth of 0.073 (2.7σ above Planck) and density factors of ×2.3–2.8, which the corner itself calls the level of 'tension'. The corner's caveats add that at ε ~ 1 its estimates are not robust. The Lyman-α template agrees, and so does Segue 1 heating if early clumps survive.",
+   "correction": "ε ≈ 1 is in tension above 20–30 km/s on all four estimates (toy optical depth 2.7σ high, dwarf densities ×2.3–2.8, the Lyman-α template, Segue 1 if clumps survive). None of them is a likelihood.",
+   "source": "mg/critic3/c2_corner_recheck.out ('Fc eps=1 v*=20: ... x2.82 ... tau(ii) = 0.073'; 'Hc eps=1 v*=30: ... x2.27 ... tau(ii) = 0.073'); r3_results.json corner.caveats ('Where the effects are huge (eps >= 3) the conclusion is robust to these; at eps ~ 1 it is not') and corner.claims Q10 ('factors >~ 2 would be in tension'); mg/answer-check-scope/scope_numbers.out ('2.7 sigma')",
+   "severity": "low"
+  },
+  {
+   "quote": "ε < 0.06 (matter) to 0.11 (gas)",
+   "problem": "The draft omits the force-law bracket that the ruling says to quote (0.0585/0.176). Against 0.176 the clumping margins fall to 160× and 3900×.",
+   "correction": "ε < 0.06–0.11 in the record's Hamiltonian reading (0.06–0.18 in the force-law reading)",
+   "source": "critic3.txt load-bearing Q1 bound ('Force-law bracket: 0.0585/0.176'); mg/critic3/c1_hamiltonian_system.out ('v* = 120 F : with baseline errors 0.0585 / 0.1755')",
+   "severity": "low"
+  },
+  {
+   "quote": "The shortfall reproduces from the record's script",
+   "problem": "review/wiki-build-checks/debt3a_check.py is a recomputation made while building the wiki. It sits outside verify/ and outside the gate. Flag 16 records that no gated script covers any Debt-3 number, so HANDOFF's ✓ is unbacked and the result stays [D]. The Process line 'None is in `verify/`, so none is gated yet' also contradicts the draft's own [V]: the 37.7 μm comes from verify/phase_space_diameter.py, which is gated.",
+   "correction": "The shortfall reproduces from the wiki build's recomputation (review/wiki-build-checks/debt3a_check.py, ungated, flag 16) … In Process: 'The new numbers' scripts are in mg/ and none is gated; 37.7 μm comes from the gated verify/phase_space_diameter.py.'",
+   "source": "review/wiki-build-flags.md flag 16; wiki/dark-matter/momentum-clumping/founding-image.md 'Where the records differ'; mg/critic3/c3_record_debt3a_check.out; mg/critic3/c5_record_diameter_script.out line 87 ('PASS attractive Yukawa ... 37.68 um')",
+   "severity": "low"
+  },
+  {
+   "quote": "I checked the Enander–Mörtsell equations against the source.",
+   "problem": "The critic's ruling says the Enander–Mörtsell check is '[S] at VCN; not rechecked by me', and the same holds for the Saturn and Pluto numbers. None of the sources available to this check records the drafting session checking it itself. The same applies to 'which I checked against the paper' for eq. 129: the theory verifier retrieved the ar5iv text.",
+   "correction": "A round-3 verifier checked the Enander–Mörtsell equations against the source [S]; the final critic did not recheck them. Keep 'I' only if the drafting session's own check is on record.",
+   "source": "critic3.txt disagreement 'Vainshtein radius' ('[S] at VCN; not rechecked by me') and Gap 8 ('I did not recheck'); r3_results.json verify-critic-theory.new_claims T9 basis ('ar5iv text of 2303.04816 retrieved this session')",
+   "severity": "low"
+  },
+  {
+   "quote": "cannot deliver a gate at v* ≪ c, whatever its vertices",
+   "problem": "This is stronger than the ruling, which says 'with ordinary on-shell vertices'. The ruling also names a second way a gate could arise, besides the momentum-fiber propagator: non-factorizing four-point structure. The draft omits it. The claim rests on one derivation (the second is pending) and carries no tag.",
+   "correction": "cannot deliver a gate at v* ≪ c with ordinary on-shell vertices; a gate would need the unconstructed 'X propagator on momentum fibers' or non-factorizing four-point structure [D, one derivation; second pending].",
+   "source": "critic3.txt NEW GAPS 'MEDIUM | #11 sec. 8 tags its gate mechanism ...' ('with ordinary on-shell vertices'; 'or non-factorizing four-point structure')",
+   "severity": "low"
+  },
+  {
+   "quote": "|ε| < 8.7×10⁻⁹ for gate widths 0.3–3000 km/s, and 3.5×10⁻¹¹ at the record's gate width",
+   "problem": "One sentence mixes two gate conventions. The 0.3–3000 km/s scan uses exp(−v²/v_a²), which corresponds to the record's v* ≈ 0.2–2100 km/s. 'The record's gate width' is v* = 120 km/s, which is v_a = 170 km/s. The bound is for a gate on the bodies' centre-of-mass relative velocity. That matches Paul's framing; a gate acting atom by atom gives different limits.",
+   "correction": "|ε| < 8.7×10⁻⁹ for a gate on the bodies' relative velocity with width 0.2–2100 km/s in the record's convention, and 3.5×10⁻¹¹ at its 120 km/s",
+   "source": "mg/critic3/c4_numbers.out (g) ('ordinary-tests v_a = 120 km/s is v* = 84.85 km/s'); critic3.txt load-bearing Q2 ('(170 km/s in the exp(-v^2/v_a^2) convention)'); r3_results.json verify-ordinary-tests-numbers.overall ('A universal CM-gated term'); mg/answer-check-scope/scope_numbers.out",
+   "severity": "low"
+  },
+  {
+   "quote": "The difference is the √2 between gate conventions.",
+   "problem": "The √2 accounts for only part of the change: it takes Mars from 1.82×10⁻¹¹ (v_a = 120) to 3.5×10⁻¹¹ (v_a = 170). The interim also named the wrong planet: at v_a = 120 Mercury gives 6.37×10⁻¹¹, and Mars sets the bound.",
+   "correction": "Mars sets the bound, not Mercury; the √2 between conventions moves the Mars bound from 1.8×10⁻¹¹ to 3.5×10⁻¹¹.",
+   "source": "mg/verify-ordinary-tests-numbers/vot_bounds.out lines 27–28 ('v* = 120.0 km/s: prec Mars 1.82e-11; prec Earth 4.04e-11; prec Mercury 6.37e-11'; 'v* = 170.0 km/s: prec Mars 3.5e-11')",
+   "severity": "low"
+  },
+  {
+   "quote": "An O(1) effect at 120 km/s would need spin 3500–5000.",
+   "problem": "The draft omits the verifier's key qualifier. For every finite spin the force grows with relative velocity, so spin ~5000 would raise it by order one, never switch it off (a gate). As written, a high enough spin seems able to produce Paul's shape.",
+   "correction": "Any finite spin makes the force grow with relative velocity; spin 3500–5000 would raise it by order one at 120 km/s, never switch it off.",
+   "source": "r3_results.json verify-critic-theory.verdicts[0].corrected_statement ('Every such residue increases with v, so no single spin gives a gate') and verify-critic-theory.overall ('J ~ c/v* buys an O(1) increase, never a gate')",
+   "severity": "low"
+  },
+  {
+   "quote": "such as a velocity-structured stream, name it and I'll test it directly",
+   "problem": "The draft omits the ruling's context on gap 9. Ordinary cold dark matter already contains ~10¹⁴ fine-grained streams near the Sun. An observed velocity stream therefore tests the founding image only if it matches that image's prediction: about ten broad streams of width ~v*.",
+   "correction": "Add: 'Plain cold dark matter already predicts very many fine velocity streams near the Sun. The founding image predicted about ten broad ones, so only a stream of that kind would test it.'",
+   "source": "critic3.txt Gap 9 ('CDM already contains ~1e14 fine-grained streams at 8 kpc (Vogelsberger-White ...). That is a different prediction from the founding image's O(10) macro-streams.')",
+   "severity": "low"
+  },
+  {
+   "quote": "8.7–9.4×10⁻⁹ (the earlier scan stopped at 2923 km/s)",
+   "problem": "The list of changes leaves the interim's 'below 0.3 km/s, free fall at the poles excludes ε ~ 1' uncorrected. The ruling: excluded only qualitatively, with no sourced numerical bound. One verifier calls the window below ~0.1 km/s 'essentially open'. Not load-bearing.",
+   "correction": "Add: 'Below about 0.3 km/s, ε ~ 1 is excluded only qualitatively; no sourced numerical bound exists.'",
+   "source": "critic3.txt disagreement 'Ordinary-matter window below ~0.3 km/s' ('excluded qualitatively ... No sourced numerical bound exists'); r3_results.json verify-ordinary-tests-numbers verdict O23 ('the window below about 0.1 km/s remains essentially open'); interim.md",
+   "severity": "low"
+  },
+  {
+   "quote": "All seven agents finished.",
+   "problem": "Style per CLAUDE.md 'Working with Paul'. (1) A prose status paragraph comes before the answers; working communication should be simple bullets. (2) Several load-bearing claims carry no tag: 'the record has no field that could carry it', 'Tested here: …', flag 1's main claim, and the withdrawal bullets. (3) Some jargon has no plain gloss: canonical momentum, on-shell vertices, 'the m₁ = 0 formula'. (4) 'The job the gate exists for' reads as purpose-talk. On the positive side, the answers are direct and early, negative results are stated plainly, and there is no detective-story framing.",
+   "correction": "Open with the Answers bullets and move the status sentence to Process. Tag the untagged claims ([D] from the record and theory; flag 1 [D, one derivation, second pending]). Gloss each term in a phrase, e.g. 'canonical momentum: the momentum variable in the record's equations, which here is not mass times velocity'. Write 'the job the gate was introduced for'.",
+   "source": "CLAUDE.md 'Working with Paul' ('simple bullets'; plain language) and 'Method (HANDOFF §5)' ('Tag every claim')",
+   "severity": "low"
+  }
+ ],
+ "checked_count": 100,
+ "overall": "The draft answers both of Paul's questions directly in its first section, after one short status paragraph. Neither answer is wrong, and I found no high-severity issue. That matches the critic's ruling that neither answer changes.\n\nEvery number I rechecked reproduces from the printed outputs. The check script and its output are in /home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/answer-check-scope/ (scope_numbers.py, scope_numbers.out). The draft's statements about the record match the repository text: #11 §7 builds X as a spin-2 field on spacetime; #11 §8 tags the gate '[D — mechanism; shape [O]]'; #11 §14 item 4; #13 §2 'operates at F ~ c̃' against §5's 'free fall' as dual rest; the diameter note §8.2; verify/phase_space_diameter.py lines 383–384; the notebook §5.2 'anomalous velocity'; Debt 3a; flag 19. Flag 16 is relevant but not cited.\n\nThe real problems are scope and calibration:\n- **Obituary scope.** The obituary is described only by its particle leg. The record's verdict is 'nowhere mandatory', and it keeps optional streams on the free-wave branch, which matters for 'premature'.\n- **Up-front summary.** 'Too weak to clump' generalizes a ruling that the critic limited to 120 km/s.\n- **Dropped qualifiers.**\n  - The ε ≈ 3 exclusion holds in the force-law reading only; the record's reading is singular there.\n  - Whether the Hamiltonian reading is the right limit for a long-range gate is open.\n  - λ_X < 37.7 μm assumes u = 1 and no screening.\n  - 'Only dependence on relative velocity' is too strong: flag 39's Siegel reading and #13's force-dual reading give other, negligible corrections.\n  - The 264×/6500× margins rest on thresholds beyond the local model's validity; the robust margin is at least 6–9×.\n  - 'Mildly prefer' for eBOSS understates a Δχ² of 24.\n\nThe deliberate departure, an uncomputed region at gates below 3 km/s, is justified. The corrected estimates start at 3 km/s, and the N-body never ran gates narrower than the dispersion. The departure is more accurate than the critic's own load-bearing summary, which says the remainder has ε < 1. Its threshold wording needs fixing: 'ε ≳ 10' conflicts with the draft's own 4.24, and both lie beyond the model's validity.\n\nI could not confirm the draft's 'I checked' statements (Enander–Mörtsell, eq. 129) from the sources I was allowed to read; the critic attributes the Enander–Mörtsell check to a verifier and says it did not recheck it. The repository was not modified."
+}

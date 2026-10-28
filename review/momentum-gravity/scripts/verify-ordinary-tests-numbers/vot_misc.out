@@ -1,0 +1,31 @@
+=== O2: EIH two-body interaction in the CM frame ===
+  bracket in CM frame - [(3+nu) v^2 + nu (n.v)^2] = 0
+
+=== O14 derived inputs ===
+  GM_E(LLR) - GM_E(Ries 1992) = -0.0002 km3/s2 -> relative -5.018e-10 +- 1.606e-09
+  GM_E(LLR) - GM_E(Dunn 1999) = -0.0006 km3/s2 -> relative -1.505e-09 +- 1.351e-09
+  Eros: M_fly/M_orb - 1 = +0.0767 +- 0.2692; 2 sigma |max| = 0.6151
+  Eros GM = 4.4629e-04 km3/s2 ; circular speed at 35 km = 3.57 m/s
+
+=== O15: light vs dynamical mass ===
+  Cassini: gamma_fit - 1 = -2 eps K -> eps K in [-3.350e-05, 1.250e-05]
+  Collett: eps <K> = (1 - gamma)/2 in [-0.075, 0.105]
+    exact inversion at gamma = 0.79: eps K = +0.1173
+    exact inversion at gamma = 1.15: eps K = -0.0698
+
+=== O16: Sun-Moon gated term vs EIH cross term, coefficient ratio |W'(u_E)| c^2/(3 v_E v*) ===
+  v_E (circular, a = 149.6e6 km) = 29.784 km/s
+  Gaussian v* =     30: ratio = 2.484e+07 eps -> |eps| < 4.03e-11 if LLR fits the EIH cross term to 1e-3
+  Gaussian v* =    120: ratio = 3.912e+06 eps -> |eps| < 2.56e-10 if LLR fits the EIH cross term to 1e-3
+  Gaussian v* =   1000: ratio = 5.986e+04 eps -> |eps| < 1.67e-08 if LLR fits the EIH cross term to 1e-3
+
+=== O20: momentum-difference variant ===
+  m1 v1 - m2 v2 - [(m1-m2) V + 2 mu v] = 0
+  Sun-Earth : 2 mu v/((m1-m2) V) = 4.835e-07
+  Sun-Mars  : 4.209e-08
+  Earth-Moon: 6.813e-05
+  nucleon pair (m_N/2)    : v*_pair = p*/mu = 1.277e+04 m/s
+  electron pair (m_e/2)   : v*_pair = p*/mu = 2.347e+07 m/s
+  1 kg - 1 kg (0.5 kg)    : v*_pair = p*/mu = 2.138e-23 m/s
+  Earth-Moon              : v*_pair = p*/mu = 1.473e-46 m/s
+  notebook: m_chi v*/sqrt2 = 19.81 keV ; chi-pair width p*/(m_chi/2) = 171.3 km/s = sqrt2 x 121.1 km/s

@@ -1,0 +1,6 @@
+(1) metric:      gamma_PPN = (alpha + 2)/(2*(alpha + 1))
+(2) deflection:  gamma_PPN = (alpha + 2)/(2*(alpha + 1))
+(3) U v^2 coeff: gamma_PPN = (alpha + 2)/(2*(alpha + 1))
+all three equal: True
+alpha = 4/3: 5/7 = 0.7142857142857143 ; gamma - 1 = -0.2857142857142857
+Cassini 2-sigma lower end gamma-1 = -2.50e-05 -> alpha < 5.0003e-05 -> u < 6.1239e-03  (alpha = 4u^2/3)

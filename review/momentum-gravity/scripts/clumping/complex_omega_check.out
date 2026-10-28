@@ -1,0 +1,9 @@
+r=1.2917, gt=10.0, kappa^2=2.4 (static Lambda_0=2.30503):
+   full rect : wind(D)=-0.0000, wind(det B_N, N=0..4)=[-0. -0.  0.  0.  0.] -> coupled zeros=-0.0000, decoupled zeros=-0.0000  [548 evals]
+   right rect: wind(D)=-0.0000, wind(det B_N)=[-0. -0.  0.  0. -0.] -> coupled zeros=-0.0000, decoupled zeros=-0.0000  [316 evals]  (162s)
+r=1.2917, gt=10.0, kappa^2=2.2 (static Lambda_0=2.30503):
+   full rect : wind(D)=+1.0000, wind(det B_N, N=0..4)=[-0.  0. -0.  0.  0.] -> coupled zeros=+1.0000, decoupled zeros=+0.0000  [583 evals]
+   right rect: wind(D)=-0.0000, wind(det B_N)=[-0.  0.  0. -0. -0.] -> coupled zeros=-0.0000, decoupled zeros=-0.0000  [388 evals]  (223s)
+r=1.2917, gt=100.0, kappa^2=2.0 (static Lambda_0=15.63317):
+   full rect : wind(D)=-0.0000, wind(det B_N, N=0..4)=[ 1.  2.  1. -0.  0.] -> coupled zeros=+3.0000, decoupled zeros=+5.0000  [1091 evals]
+   right rect: wind(D)=+0.0000, wind(det B_N)=[ 0.  1.  0. -0. -0.] -> coupled zeros=+0.0000, decoupled zeros=+2.0000  [798 evals]  (862s)

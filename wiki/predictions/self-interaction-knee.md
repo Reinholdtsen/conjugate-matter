@@ -18,12 +18,15 @@ sources:
   - "notes/broken-born-theory.md §9"
   - "papers/conjugate-special-relativity.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
-  - "review/wiki-build-flags.md item 17"
+  - "review/wiki-build-flags.md items 17, 55"
+  - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
 ---
 
 *Row 1 of [the predictions table](/wiki/predictions) tests how strongly dark matter scatters off itself as a function of the speed at which two particles collide. If dark matter is the program's [conjugate matter χ](/wiki/dark-matter/candidates/chi-particles) in particle form, its self-interaction passes through [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): it is strong in slow collisions, as in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), and absent in fast ones, as in galaxy clusters, with a knee near the gate velocity v\* ~ 10² km/s between the two. Standard cold dark matter does not scatter at all, and the usual self-interacting models, in which a light particle carries the force, weaken gradually with speed, as a power law, rather than at a knee. Observations of halos across the range of masses, and so of internal speeds, can find the knee or exclude it. Row 1 is one of the three rows that [the checkpoint](/wiki/history/documents/checkpoint) names as the program's near-term falsification exposure.*
 
-**Status:** Alive, with near-term falsification exposure (#11 §15) — [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law) behind it is [D] for [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) and [O] for the shape of the knee's tail (#11 §8) — derived in [the lab notebook](/wiki/history/documents/lab-notebook) and [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes) and not machine-checked; the tail is [open problem 4](/wiki/dark-matter/conjugate-matter/gate-shape) of #11 §14, and no source records a measurement that tests the knee.
+**Status:** Alive, with near-term falsification exposure (#11 §15) — [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law) behind it is [D] for [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) and [O] for the shape of the knee's tail (#11 §8) — derived in [the lab notebook](/wiki/history/documents/lab-notebook) and [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes) and not machine-checked; the tail is [open problem 4](/wiki/dark-matter/conjugate-matter/gate-shape) of #11 §14, and no source records a measurement that tests the knee. The row is among the text that depends on the mechanism's tag: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## The row
 
@@ -50,6 +53,8 @@ The row sets two standard models against the program.
 
 The lab notebook's version of the column read "Constant (CDM: 0) or power-law v⁻⁴ln tail (Yukawa SIDM)" (#1 §9).
 
+`notes/gate-mechanism.md` (2026-10-28, not reviewed) places calc note #6's rational gates in this column. "The rationality of tree amplitudes sits in the transfer: the propagator 1/(q² + M_X²) and form factors in t. Integrated over angle these give a light mediator's knee in σ_T(v) with a power-law tail. That is #11 §13 row 1's 'standard expectation' column, not a gate in k" (§3; both derivations) [D][V]. On that reading the rational branch of #11 §8's "tail (Gaussian vs rational)" is this column's expectation rather than a program-specific gate; the program's requirement rests on a gate in the incoming relative momentum k, whose derivation flag 55 disputes.
+
 ## The program's requirement
 
 ### The law behind it
@@ -65,7 +70,7 @@ The lab notebook's version of the column read "Constant (CDM: 0) or power-law v�
 σ₀ is the cross-section below the gate, F the gate function, and v\* the gate velocity. The chain that produces it runs through four pages:
 
 1. **The amplitude.** Conjugate matter scatters with "M(k,q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²), k the incoming *relative* momentum — the variable no x-local mediator produces" (#11 §8), where x-local means local in position and μ is the momentum width of a χ quantum ([the velocity gate: the amplitude](/wiki/dark-matter/conjugate-matter/velocity-gate#the-amplitude)).
-2. **The mechanism.** The gate comes from exchange of the massive [momentum graviton X](/wiki/gravity/momentum-graviton) between two χ quanta, which can exchange X only where their momentum-space wavepackets overlap [D — mechanism] ([the derivation as the sources give it](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-derivation-as-the-sources-give-it)).
+2. **The mechanism.** The gate comes from exchange of the massive [momentum graviton X](/wiki/gravity/momentum-graviton) between two χ quanta, which can exchange X only where their momentum-space wavepackets overlap [D — mechanism] ([the derivation as the sources give it](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-derivation-as-the-sources-give-it)). Not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling: exchanging the X of #11 §7 gives a dependence on k with the speed of light as its velocity scale, 2.4×10⁻⁷ at 120 km/s where the gate is 0.61 (`notes/gate-mechanism.md` §2; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The note does not refute the gate; it proposes returning it to a postulate [P] (§5).
 3. **The cross-section.** In the Born approximation the gate in k becomes a gate in the collision speed, σ_T(v) = σ₀F(v²/v\*²) ([the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law#the-law)).
 4. **The strength.** σ₀ is fitted to the cores of dwarf galaxies ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark#the-relation)).
 
@@ -102,6 +107,7 @@ The popular article #12 describes the smoothing of dwarf cusps and the shut-off 
 - **The strength.** Why σ₀ can be as large as dwarf cores require while ordinary matter couples to X only at gravitational strength is item 5 of #11 §14 ([Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement)).
 - **The wave branch.** For χ as a classical wave, calc note #2 found that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/debt3a-stream-stability.md`, 'Consequences for the predictions table'). The power-law suppression of row 3 answers this only for the knee's tail ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 - **The √2 in v\*.** `review/wiki-build-flags.md` item 17, above.
+- **The mechanism.** Flag 55 proposes that the mechanism is open [O] (`notes/gate-mechanism.md` §5). Among the questions that would then be open: whether the program keeps the gate as a postulate, or rewrites χ's self-interaction as the note's reading R1, a position-local potential "of range ~10 pm, which is ordinary short-range self-interacting dark matter with power-law tails and would remove the program-specific content of rows 1–3" (§5; [the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)). Reading R1 is the note's reconstruction of #6 §4's fiber overlap, not a statement of the record.
 
 Row 1 feeds two other rows. Its tail is what [row 3](/wiki/predictions/island-discriminant) reads, and rows 1–3 together are the discriminators of [row 11, particles or condensate](/wiki/predictions/dark-sector-microstructure). In #11's comparison of the remaining candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) carry "knee at v\*, sharp tail" and [the X-condensate](/wiki/dark-matter/candidates/x-condensate) "knee shape wave-like" (#11 §12). The companion signature of the same law is [row 2, isotropic scattering below the gate](/wiki/predictions/scattering-isotropy).
 
@@ -116,7 +122,7 @@ The lab notebook's row 1 was sharper (#1 §9):
 
 The cliff rested on the postulated Gaussian gate. With it the notebook predicted "σ_T/m (300 km/s) ≈ 6×10⁻² cm²/g" and "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" (#1 §5.1), numbers that hold only if the tail is Gaussian and that no script checks ([the v0.1 predictions from the benchmark](/wiki/dark-matter/conjugate-matter/benchmark#superseded-the-v01-predictions-from-the-benchmark)).
 
-Calc note #6 derived the gate from X exchange and found that "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (§4). The lab notebook's v0.4 addendum amended the row: "the exponential cliff weakens to a *sharp knee at v_\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). v1 already reads "Knee at v\* ~ 10² km/s; tail shape = vertex diagnostic; zero cluster signal (particle χ)" (#9 §9), and #11 drops the middle clause from the table while keeping it in §8. The downgrade is told step by step on [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law#the-downgrade-to-a-knee), and the renumbering of the whole table on [the history of the predictions table](/wiki/predictions/table-history).
+Calc note #6 derived the gate from X exchange (not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)) and found that "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (§4). The lab notebook's v0.4 addendum amended the row: "the exponential cliff weakens to a *sharp knee at v_\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). v1 already reads "Knee at v\* ~ 10² km/s; tail shape = vertex diagnostic; zero cluster signal (particle χ)" (#9 §9), and #11 drops the middle clause from the table while keeping it in §8. The downgrade is told step by step on [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law#the-downgrade-to-a-knee), and the renumbering of the whole table on [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Sources
 
@@ -127,5 +133,6 @@ Calc note #6 derived the gate from X exchange and found that "tree-level exchang
 - `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
 - `notes/broken-born-theory.md` §5.1 — the core-fit input, v\* ≡ √2μ/m_χ, the Yukawa v⁻⁴ tail, the 150–400 km/s band and the v0.1 numbers; §9 — the v0.1 row 1 and standard expectation
 - `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ restated
-- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; item 55 — the gate's mechanism not derived, awaiting a ruling
+- `notes/gate-mechanism.md` §2 — exchanging X gives no gate; §3 — the rational gates are the standard-expectation column; reading R1; §5 — the proposed tags, rows 1–3 among the dependent text, what becomes open
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the knee and core smoothing in the present tense (popular article)

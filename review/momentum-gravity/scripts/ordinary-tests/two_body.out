@@ -1,0 +1,73 @@
+==============================================================================
+PART A: symbolic derivation
+==============================================================================
+dL/dr on circular orbit: (epsilon*k*v*Subs(Derivative(W(_xi_1), _xi_1), _xi_1, v/v_s) - k*v_s*(epsilon*W(v/v_s) + 1) + mu*r*v**2*v_s)/(r**2*v_s)
+(mu v^2 r)/k on a circular orbit = -epsilon*v*Subs(Derivative(W(_xi_1), _xi_1), _xi_1, v/v_s)/v_s + epsilon*W(v/v_s) + 1
+  check (mu v^2 r)/k = 1 + eps (W - u W') exactly, Gaussian: True
+  check (mu v^2 r)/k = 1 + eps (W - u W') exactly, Lorentzian: True
+Gaussian exp(-u^2): K(u) = W - uW' = (2*u**2 + 1)*exp(-u**2);  max at u = [sqrt(2)/2], K_max = [2*exp(-1/2)] = [1.2130613194252668]
+Lorentzian 1/(1+u^2): K(u) = W - uW' = (3*u**2 + 1)/(u**2 + 1)**2;  max at u = [sqrt(3)/3], K_max = [9/8] = [1.125]
+first-order Hamiltonian H = p^2/2mu - (k/r)(1+eps W(p/mu v*)) for Gaussian: True
+first-order Hamiltonian H = p^2/2mu - (k/r)(1+eps W(p/mu v*)) for Lorentzian: True
+Gaussian: small-e Delta omega/eps = 4*pi*u_c**2*(u_c - 1)*(u_c + 1)*exp(-u_c**2) ; pi*u*(u W')' = 4*pi*u_c**2*(u_c - 1)*(u_c + 1)*exp(-u_c**2) ; equal: True
+Lorentzian: small-e Delta omega/eps = 4*pi*u_c**2*(u_c - 1)*(u_c + 1)/(u_c**2 + 1)**3 ; pi*u*(u W')' = 4*pi*u_c**2*(u_c - 1)*(u_c + 1)/(u_c**2 + 1)**3 ; equal: True
+W=u^2 (anchor form): small-e Delta omega/eps = 4*pi*u_c**2 ; pi*u*(u W')' = 4*pi*u_c**2 ; equal: True
+  <1/(1-e cosE)> at e=0.1: quad = 1.00503781525921, 1/sqrt(1-e^2) = 1.00503781525921
+  <1/(1-e cosE)> at e=0.5: quad = 1.15470053837925, 1/sqrt(1-e^2) = 1.15470053837925
+  <1/(1-e cosE)> at e=0.9: quad = 2.29415733870562, 1/sqrt(1-e^2) = 2.29415733870562
+W = u^2: Delta omega/eps exact in e = -4*pi*u_c**2/(e**2 - 1)
+anchor: GR 1PN test-particle advance per orbit from averaged h1 = -6*pi*GM/(a*c**2*(e**2 - 1)) ; textbook 6 pi GM/(c^2 a (1-e^2)) reproduced: True
+  velocity-dependent GR term alone (W=u^2, eps/v*^2 = 3/(2c^2)): -6*pi*GM/(a*c**2*(e**2 - 1))
+
+==============================================================================
+PART B: numerical integration of the Euler-Lagrange equations
+==============================================================================
+Precession per orbit: numerical (exact EL equations) vs first-order formula
+ shape   u_c     e     eps   numeric/eps       formula       small-e  rel.diff
+ gauss  0.50  0.10   1e-03 -1.839111e+00 -1.839365e+00 -1.835006e+00  1.38e-04
+ gauss  0.50  0.10   5e-04 -1.839239e+00 -1.839365e+00 -1.835006e+00  6.83e-05
+ gauss  0.50  0.30   1e-03 -1.870664e+00 -1.870950e+00 -1.835006e+00  1.53e-04
+ gauss  0.50  0.30   5e-04 -1.870808e+00 -1.870950e+00 -1.835006e+00  7.56e-05
+ gauss  1.00  0.10   1e-03  3.115669e-02  2.303546e-02  0.000000e+00  3.53e-01
+ gauss  1.00  0.10   5e-04  2.709865e-02  2.303546e-02  0.000000e+00  1.76e-01
+ gauss  1.00  0.30   1e-03  2.063364e-01  2.002371e-01  0.000000e+00  3.05e-02
+ gauss  1.00  0.30   5e-04  2.032884e-01  2.002371e-01  0.000000e+00  1.52e-02
+ gauss  1.60  0.10   1e-03  3.824804e+00  3.829247e+00  3.879543e+00 -1.16e-03
+ gauss  1.60  0.10   5e-04  3.827024e+00  3.829247e+00  3.879543e+00 -5.81e-04
+ gauss  1.60  0.30   1e-03  3.441059e+00  3.445091e+00  3.879543e+00 -1.17e-03
+ gauss  1.60  0.30   5e-04  3.443074e+00  3.445091e+00  3.879543e+00 -5.86e-04
+ gauss  3.00  0.10   1e-03  1.338577e-01  1.338644e-01  1.116586e-01 -4.97e-05
+ gauss  3.00  0.10   5e-04  1.338610e-01  1.338644e-01  1.116586e-01 -2.49e-05
+ gauss  3.00  0.30   1e-03  3.334656e-01  3.336193e-01  1.116586e-01 -4.61e-04
+ gauss  3.00  0.30   5e-04  3.335424e-01  3.336193e-01  1.116586e-01 -2.30e-04
+lorentz  0.50  0.10   1e-03 -1.205709e+00 -1.206836e+00 -1.206372e+00  9.34e-04
+lorentz  0.50  0.10   5e-04 -1.206273e+00 -1.206836e+00 -1.206372e+00  4.67e-04
+lorentz  0.50  0.30   1e-03 -1.207850e+00 -1.209088e+00 -1.206372e+00  1.02e-03
+lorentz  0.50  0.30   5e-04 -1.208470e+00 -1.209088e+00 -1.206372e+00  5.11e-04
+lorentz  1.00  0.10   1e-03  2.494166e-03  0.000000e+00  0.000000e+00       nan
+lorentz  1.00  0.10   5e-04  1.248708e-03  0.000000e+00  0.000000e+00       nan
+lorentz  1.00  0.30   1e-03  2.690744e-03  0.000000e+00  0.000000e+00       nan
+lorentz  1.00  0.30   5e-04  1.346987e-03  0.000000e+00  0.000000e+00       nan
+lorentz  1.60  0.10   1e-03  1.108872e+00  1.109926e+00  1.112306e+00 -9.50e-04
+lorentz  1.60  0.10   5e-04  1.109399e+00  1.109926e+00  1.112306e+00 -4.75e-04
+lorentz  1.60  0.30   1e-03  1.088243e+00  1.089185e+00  1.112306e+00 -8.65e-04
+lorentz  1.60  0.30   5e-04  1.088714e+00  1.089185e+00  1.112306e+00 -4.33e-04
+lorentz  3.00  0.10   1e-03  9.080645e-01  9.089554e-01  9.047787e-01 -9.80e-04
+lorentz  3.00  0.10   5e-04  9.085097e-01  9.089554e-01  9.047787e-01 -4.90e-04
+lorentz  3.00  0.30   1e-03  9.424050e-01  9.434310e-01  9.047787e-01 -1.09e-03
+lorentz  3.00  0.30   5e-04  9.429177e-01  9.434310e-01  9.047787e-01 -5.44e-04
+Newtonian RK4 drift per orbit (subtracted): {('gauss', 0.1): '5.1e-13', ('gauss', 0.3): '1.4e-12', ('lorentz', 0.1): '5.1e-13', ('lorentz', 0.3): '1.4e-12'}
+  Lorentzian, u_c = 1: Phi(e=0.05) = 0.500000000000000
+  Lorentzian, u_c = 1: Phi(e=0.2) = 0.500000000000000
+  Lorentzian, u_c = 1: Phi(e=0.6) = 0.500000000000000
+
+Circular orbits: Kepler constant  omega^2 r^3 = GM [1 + eps K(u)],  K = W - u W'
+ shape     u     eps  K_formula  K_numeric  r osc (formula IC)  r osc (naive IC)
+ gauss  0.50   1e-03   1.168315   1.168315            2.09e-13          2.33e-03
+ gauss  0.71   1e-03   1.213061   1.213061            2.01e-13          2.42e-03
+ gauss  1.00   1e-03   1.103232   1.103232            2.08e-13          2.20e-03
+ gauss  2.00   1e-03   0.164756   0.164756            1.98e-13          3.30e-04
+lorentz  0.50   1e-03   1.120036   1.120036            2.03e-13          2.23e-03
+lorentz  0.71   1e-03   1.111030   1.111030            1.86e-13          2.22e-03
+lorentz  1.00   1e-03   0.999750   0.999750            2.15e-13          2.00e-03
+lorentz  2.00   1e-03   0.519817   0.519817            1.95e-13          1.04e-03

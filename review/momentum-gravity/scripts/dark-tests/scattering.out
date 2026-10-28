@@ -1,0 +1,23 @@
+Check: int (1-cos)/sin^4(th/2) dOmega from th_min=1e-6: numeric 729.284679, 16 pi ln(1/sin(th_min/2)) = 729.284681
+  (so sigma_T = (kappa/(2 mu v^2))^2 * 16 pi lnL = 4 pi (kappa/(mu v^2))^2 lnL)
+Check (Born screened Coulomb transfer integral, k=1, b=1e6): numeric 44.00949624 analytic 44.00949624
+m_chi = 70 MeV = 1.2479e-28 kg
+v =   10 km/s: Coulomb parameter eta (Gt=G) = 9.855e-37  (quantum/Born regime: eta << 1)
+    b_max =   1e+00 pc: Born lnLambda =   60.7, sigma_T/m (Gt = G) = 1.695e-60 cm^2/g   [classical-log value would be 4.006e-60, lnL 143.4]
+    b_max =   1e+03 pc: Born lnLambda =   67.6, sigma_T/m (Gt = G) = 1.888e-60 cm^2/g   [classical-log value would be 4.199e-60, lnL 150.3]
+    b_max =   1e+05 pc: Born lnLambda =   72.2, sigma_T/m (Gt = G) = 2.017e-60 cm^2/g   [classical-log value would be 4.328e-60, lnL 154.9]
+v =   30 km/s: Coulomb parameter eta (Gt=G) = 3.285e-37  (quantum/Born regime: eta << 1)
+    b_max =   1e+00 pc: Born lnLambda =   61.8, sigma_T/m (Gt = G) = 2.130e-62 cm^2/g   [classical-log value would be 5.022e-62, lnL 145.6]
+    b_max =   1e+03 pc: Born lnLambda =   68.7, sigma_T/m (Gt = G) = 2.369e-62 cm^2/g   [classical-log value would be 5.260e-62, lnL 152.5]
+    b_max =   1e+05 pc: Born lnLambda =   73.3, sigma_T/m (Gt = G) = 2.528e-62 cm^2/g   [classical-log value would be 5.419e-62, lnL 157.1]
+v =  100 km/s: Coulomb parameter eta (Gt=G) = 9.855e-38  (quantum/Born regime: eta << 1)
+    b_max =   1e+00 pc: Born lnLambda =   63.0, sigma_T/m (Gt = G) = 1.759e-64 cm^2/g   [classical-log value would be 4.135e-64, lnL 148.0]
+    b_max =   1e+03 pc: Born lnLambda =   69.9, sigma_T/m (Gt = G) = 1.952e-64 cm^2/g   [classical-log value would be 4.328e-64, lnL 154.9]
+    b_max =   1e+05 pc: Born lnLambda =   74.5, sigma_T/m (Gt = G) = 2.081e-64 cm^2/g   [classical-log value would be 4.457e-64, lnL 159.5]
+v =  300 km/s: Coulomb parameter eta (Gt=G) = 3.285e-38  (quantum/Born regime: eta << 1)
+    b_max =   1e+00 pc: Born lnLambda =   64.1, sigma_T/m (Gt = G) = 2.210e-66 cm^2/g   [classical-log value would be 5.181e-66, lnL 150.2]
+    b_max =   1e+03 pc: Born lnLambda =   71.0, sigma_T/m (Gt = G) = 2.448e-66 cm^2/g   [classical-log value would be 5.419e-66, lnL 157.1]
+    b_max =   1e+05 pc: Born lnLambda =   75.6, sigma_T/m (Gt = G) = 2.607e-66 cm^2/g   [classical-log value would be 5.578e-66, lnL 161.7]
+To reach sigma_T/m = 30 cm^2/g at v = 30 km/s (b_max = 1 kpc): Gt/G = 3.559e+31 (lnLambda = 68.7, check 30.00 cm^2/g)
+  ratio sigma_T/m(Gt=G)/30 at v=30 km/s, b_max=1 kpc: 7.896e-64
+Fraction of sigma_T from theta > 90 deg (Rutherford, lnLambda=68.7): 0.0050 -> forward-peaked

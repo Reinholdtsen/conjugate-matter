@@ -1,0 +1,397 @@
+{
+ "verdict": "unsupported",
+ "suggested_tag": "[P]: the gate F(k²/μ²) and μ are postulated, as #1 §3 (v0.1) tagged them; mechanism [O]; t-channel exchange of §7's X is excluded at tree level [D][V]",
+ "summary": "An explicit calculation does not support the record's statement that exchanging the momentum graviton X produces the dark-matter gate. #11 §7 builds X as one massive spin-2 field on spacetime. Every χ–χ–X vertex then sees only the momentum transferred along one χ line, so at fixed transfer the amplitude depends on the incoming relative momentum k only through a polynomial of at most second degree in k². That polynomial's scale is the χ mass. It reaches order one only near 0.8c, changes the amplitude by 2.4×10⁻⁷ at 120 km/s, and no such polynomial normalized to 1 at k = 0 stays below 0.90 in magnitude between 171 and 1500 km/s. The pole part of the exchange is fixed (a d-wave Legendre polynomial) and the non-pole part is a polynomial contact term; a Gaussian or rational function of k sitting on a single-particle pole would need particles of every spin. The crossed (u-channel) term for identical χ is rational in k, but it only halves the forward amplitude and is the same short-range force seen at backward angles; the s-channel term exists only for χχ̄ and vanishes at threshold. In field-theory terms, #6 §4's fiber overlap has two readings. Read as an overlap of the two quanta's phase-space densities, it is exactly an ordinary short-range potential of range ħ/μ ≈ 10 pm, and its cross-section tail is a power law even for Gaussian profiles. Read as an overlap in the relative momentum of the incoming pair, it does give the gate, but it is then a nonlocal four-χ pair interaction with no X pole, mediated if at all by a doubly charged s-channel object rather than by X. The record constructs neither: it has no vertex, fiber profile, dual-stress formula or X propagator on the fibers, and its section condition makes every field independent of the fiber coordinates. The vacuum polarization is Lorentz-invariant in Lorentzian signature, so it cannot supply the missing structure; a preferred frame could, but the resulting gate tracks a pair's velocity through that frame, not the relative velocity. #6 §4's 'rational gates from tree-level exchange' describes rational dependence on the momentum transfer, which is ordinary light-mediator Yukawa physics, not a gate in k. The tag [D — mechanism; shape [O]] is therefore unsupported. The gate and μ should carry [P], with the mechanism [O] and tree-level X-exchange recorded as excluded [D][V]. §14 item 4 asks only about the shape and presupposes an X propagator on momentum fibers that §7 does not have, so it does not cover what is missing.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "For on-shell χ, any χ(p_in)–χ(p_out)–X vertex (local, derivative or form-factor) depends Lorentz-invariantly only on t = (p_in − p_out)², since p_in·p_out = m² − t/2. This includes nonlocal smeared bilinears such as a fiber-weighted 'dual stress': the Wigner fiber coordinate of a χ*χ bilinear is the average momentum (p_in + p_out)/2, so a fiber weight w becomes w(m² − t/4).",
+   "tag": "[D][V]",
+   "basis": "gate_tchannel.py part 0; fiber_overlap.py part A (fiber coordinate of a bilinear); standard Lorentz-invariance argument",
+   "numbers": [
+    {
+     "quantity": "p1·p3 − (m² − t/2)",
+     "value": "0",
+     "script": "gate_tchannel.py",
+     "printed_output": "p1^2 = m**2 ; p3^2 = m**2 ; p1.p3 in terms of t: 0 (= p1.p3 - (m^2 - t/2))"
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "statement": "t-channel exchange of one massive spin-2 field with the most general scalar vertex V = F1 PP + F2(Pℓ+ℓP) + F3 ℓℓ + F4 m²η gives the numerator N_t = A(t) + B(t)(s−u) + C(t)(s−u)², with C = F1². Since s − u = 4m² + 8k² − q², at fixed transfer q the dependence on the incoming relative momentum k is a polynomial of degree ≤ 2 in k². No denominator in k appears, so there is no tail.",
+   "tag": "[D][V]",
+   "basis": "gate_tchannel.py part 1 (sympy contraction with the Fierz–Pauli numerator, explicit CM 4-vectors)",
+   "numbers": [
+    {
+     "quantity": "degree of N_t in k at fixed q",
+     "value": "4 (i.e. 2 in k²), lowest power 0",
+     "script": "gate_tchannel.py",
+     "printed_output": "numerator N_t(k, q) is a polynomial in k: True ; degree in k = 4 ; lowest power of k: 0"
+    },
+    {
+     "quantity": "degree of N_t in S = s − u; S² coefficient",
+     "value": "2; F1²",
+     "script": "gate_tchannel.py",
+     "printed_output": "N_t as a polynomial in S = s - u: degree = 2 / coefficient of S^2: F1**2"
+    },
+    {
+     "quantity": "s − u at fixed q",
+     "value": "8k² + 4m² − q²",
+     "script": "gate_tchannel.py",
+     "printed_output": "s - u at fixed q = 8*k**2 + 4*m**2 - q**2"
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "statement": "Pole and contact parts. The residue at t = M_X² is (2/3)F1²(4m² − M_X²)² P_2(z_t), with z_t = (s−u)/(4m² − M_X²), independent of F2–F4. The non-pole remainder is a polynomial in (k, q) for local vertices, and at most quadratic in s for any vertex form factors. Only the residue is unambiguously 'X-exchange'. Non-pole terms are four-χ contact interactions that field redefinitions can trade for explicit contact operators [T], so a gate placed in a (nonlocal) contact kernel G(s) would carry no X pole and no M_X dependence, and would not be X-exchange.",
+   "tag": "[D][V] (algebra); [T] (contact terms are field-redefinition dependent)",
+   "basis": "gate_tchannel.py part 1, residue and remainder blocks",
+   "numbers": [
+    {
+     "quantity": "F2, F3, F4 dependence of the residue",
+     "value": "0, 0, 0",
+     "script": "gate_tchannel.py",
+     "printed_output": "dRes/dF2, dRes/dF3, dRes/dF4 : [0, 0, 0]"
+    },
+    {
+     "quantity": "residue minus (2/3)F1²(4m²−M²)²P_2(z_t)",
+     "value": "0",
+     "script": "gate_tchannel.py",
+     "printed_output": "Res - (2/3) F1^2 (4m^2-M^2)^2 P_2(z_t), z_t = (s-u)/(4m^2-M^2): 0"
+    },
+    {
+     "quantity": "contact remainder",
+     "value": "polynomial; denominator 3M⁴ only",
+     "script": "gate_tchannel.py",
+     "printed_output": "F_i = a_i + b_i t  remainder denominator: 3*M**4 ; numerator polynomial in (k, q): True ; degree in k: 4"
+    }
+   ]
+  },
+  {
+   "id": "C4",
+   "statement": "Velocity scale. With the minimal coupling X_μν T^μν, the forward numerator is N(k,0)/N(0,0) = 1 + 6k²/m² + 6k⁴/m⁴, so the k-scale is m/√6, a relative speed of order c. At dwarf-to-cluster speeds this changes the amplitude by 2.4×10⁻⁷ to 3.8×10⁻⁵, where the record's amplitude gate e^{−k²/μ²} falls from 0.61 to 5×10⁻³⁴. The dependence reaches order one at v_rel = 0.816c, 1429 times the gate's amplitude scale v_a = 171 km/s. A Dirac-fermion χ gives the same coefficient (6.00), with or without a magnetic-type vertex structure.",
+   "tag": "[D][V]",
+   "basis": "gate_tchannel.py part 2; gate_numbers.py table; gate_fermion.py",
+   "numbers": [
+    {
+     "quantity": "N_min(k,0)/N_min(0,0)",
+     "value": "1 + 6k²/m² + 6k⁴/m⁴",
+     "script": "gate_tchannel.py",
+     "printed_output": "N_min(k, q=0)/N_min(0,0) = 6*k**4/m**4 + 6*k**2/m**2 + 1"
+    },
+    {
+     "quantity": "fractional k-dependence vs gate at 120 km/s",
+     "value": "2.40e-7 vs 0.612",
+     "script": "gate_numbers.py",
+     "printed_output": "120.0   2.0014e-04       2.4033e-07         6.1221e-01         3.7480e-01"
+    },
+    {
+     "quantity": "fractional k-dependence vs gate at 1500 km/s",
+     "value": "3.76e-5 vs 5.05e-34",
+     "script": "gate_numbers.py",
+     "printed_output": "1500.0   2.5017e-03       3.7552e-05         5.0498e-34         2.5501e-67"
+    },
+    {
+     "quantity": "speed where X-exchange k-dependence is O(1)",
+     "value": "244780 km/s = 0.816c; 1429 × v_a",
+     "script": "gate_numbers.py",
+     "printed_output": "X-exchange k-dependence reaches O(1) (6k^2/m^2 = 1) at v_rel = 244780 km/s = 0.816 c ; ratio to v_a: 1429"
+    },
+    {
+     "quantity": "fermion coefficient of k²/m²",
+     "value": "6.0006 at k/m = 0.01",
+     "script": "gate_fermion.py",
+     "printed_output": "k/m = 0.01     |A(k)|/|A(k0)| - 1 = 5.9142e-04   divided by (k^2-k0^2)/m^2 = 6.0006"
+    }
+   ]
+  },
+  {
+   "id": "C5",
+   "statement": "A polynomial cannot gate. For the general vertex at q = 0, N_t = n0 + 64F1²m²k² + 64F1²k⁴: the k-dependent coefficients are non-negative, so the forward t-channel numerator never decreases with k² except toward a single zero. Bringing the k-scale down to μ requires cancelling n0 to about (μ/m)² = 1/(1.2×10⁷), and the amplitude then grows with k. No degree-2 polynomial in x = k²/μ² with P(0) = 1 stays below 0.903 in magnitude on x ∈ [1, 76.7], i.e. from v_a to 1500 km/s.",
+   "tag": "[D][V]",
+   "basis": "gate_tchannel.py part 3; gate_numbers.py Chebyshev bound with random-search check",
+   "numbers": [
+    {
+     "quantity": "n1, n2",
+     "value": "64F1²m², 64F1²",
+     "script": "gate_tchannel.py",
+     "printed_output": "n1 = 64*F1**2*m**2 / n2 = 64*F1**2"
+    },
+    {
+     "quantity": "k-scale² for the general vertex",
+     "value": "m²(2F1−F4)(4F1+F4)/(48F1²)",
+     "script": "gate_tchannel.py",
+     "printed_output": "k-scale^2 = n0/n1 = m**2*(2*F1 - F4)*(4*F1 + F4)/(48*F1**2)"
+    },
+    {
+     "quantity": "(m/μ)²",
+     "value": "1.225e7",
+     "script": "gate_numbers.py",
+     "printed_output": "(m/mu)^2 = 1.225e+07  (cancellation needed for a k-scale mu in the degree-2 numerator)"
+    },
+    {
+     "quantity": "minimax |P| over x in [1, 76.7]",
+     "value": "0.90324 (search best 0.90378)",
+     "script": "gate_numbers.py",
+     "printed_output": "Chebyshev minimax bound 1/T_2(1.02643) = 0.90324 ; max|P*| on grid = 0.90324 ... best max|P| = 0.90378 (never below the bound)"
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "statement": "Other channels. (a) The u-channel term for identical χ gives a forward term −1/(4k² + M_X²), rational in k with scale M_X/2. It is added to the k-independent t-channel term, so the forward amplitude falls to half its k = 0 value, not to zero, and it is the same Yukawa force evaluated at backward angles. If X is heavy and integrated out (#6 §4), M_X/2 ≫ μ. With M_X ≈ 2μ = 40 keV (range 4.93 pm), X is a light mediator and this is standard Yukawa SIDM. (b) The s-channel requires χχ̄; a halo of asymmetric χ (#1 §5.3) contains none. Its residue is (32/3)G1²k⁴P_2(cos θ): d-wave, vanishing at threshold, an anti-gate.",
+   "tag": "[D][V]",
+   "basis": "gate_tchannel.py parts 4–5; gate_numbers.py; #1 §5.3 for the asymmetric relic",
+   "numbers": [
+    {
+     "quantity": "spin-0 forward t+u ratio",
+     "value": "(M²+2k²)/(M²+4k²) → 1/2",
+     "script": "gate_tchannel.py",
+     "printed_output": "spin-0 forward t+u: A(k)/A(0) = (M**2 + 2*k**2)/(M**2 + 4*k**2) ; limit k->oo of A(k)/A(0): 1/2"
+    },
+    {
+     "quantity": "s-channel residue and threshold limit",
+     "value": "16G1²k⁴(3c²−1)/3; → 0 as k → 0",
+     "script": "gate_tchannel.py",
+     "printed_output": "residue numerator at s = M^2: 16*G1**2*k**4*(3*c**2 - 1)/3 / pole term near threshold: G1**2*k**4*(4*c**2 - 4/3)/(delta + k**2) ; limit k->0: 0"
+    },
+    {
+     "quantity": "range of X at M_X = 40 keV",
+     "value": "4.93 pm",
+     "script": "gate_numbers.py",
+     "printed_output": "hbar/(M_X c) at M_X = 2 mu = 40 keV: 4.93 pm"
+    }
+   ]
+  },
+  {
+   "id": "C7",
+   "statement": "Read as an exact amplitude, #11 §8's form h(t)F(k²/μ²) with a t-channel pole in h has residue F(s), which is not a polynomial. The residue at a spin-J pole must be proportional to P_J(z_t) [T]. Both the Gaussian and the rational F have nonzero Legendre coefficients at every order computed, so the form would need exchanged particles of every spin at one mass. A single spin-2 X (or any finite-spin field) cannot produce it.",
+   "tag": "[D][V]; [T] (factorization of pole residues)",
+   "basis": "gate_tchannel.py part 6",
+   "numbers": [
+    {
+     "quantity": "Legendre coefficients of exp(−z), l = 0–6",
+     "value": "all nonzero",
+     "script": "gate_tchannel.py",
+     "printed_output": "[1.17520, -1.10364, 0.357814, -0.0704556, 0.00996513, -0.00109959, 9.94543e-5]"
+    },
+    {
+     "quantity": "Legendre coefficients of 1/(2 − z), l = 0–6",
+     "value": "all nonzero",
+     "script": "gate_tchannel.py",
+     "printed_output": "[0.549306, 0.295837, 0.105919, 0.0340978, 0.0104497, 0.00311274, 0.000910235]"
+    }
+   ]
+  },
+  {
+   "id": "C8",
+   "statement": "Beyond tree level, iterated exchange of a heavy X brings in k-scales of order M_X and Bohr-type scales, not μ. A scale μ appears only by tuning to a near-threshold state with 1/a = μ, which gives σ = 4πa²/(1 + k²a²): rational, saturating unitarity, and standard resonant SIDM (prior art †). At m = 70 MeV it gives σ/m = 9.8×10⁷ cm²/g, 3.3×10⁶ times the benchmark's 30 cm²/g. It is not the record's gate.",
+   "tag": "[D]; [T] (effective-range form); [V] (number)",
+   "basis": "gate_numbers.py resonant block; standard effective-range expansion",
+   "numbers": [
+    {
+     "quantity": "σ/m at 1/a = μ",
+     "value": "9.803e7 cm²/g (ratio 3.27e6 to 30)",
+     "script": "gate_numbers.py",
+     "printed_output": "sigma(k->0) = 4 pi a^2 = 1.2233e-17 cm^2 ; sigma/m = 9.803e+07 cm^2/g ; ratio to 30 cm^2/g: 3.27e+06"
+    }
+   ]
+  },
+  {
+   "id": "C9",
+   "statement": "Fiber overlap, reading R1 (the two quanta's one-body phase-space densities overlapping on the fiber with a kernel S of width μ). With momentum conservation, the fiber separation of the two bilinears equals a momentum transfer (k1 − k4 or k1 − k3). As an operator, ∫dx dp dp′ W(x,p) S(p−p′) W(x,p′) = 2π∫da db S̃(a−b) :n(a)n(b): + one-body terms: an ordinary x-local two-body potential of range ħ/μ = 9.87 pm. Its Born amplitude is S(q) + S(q_u). At q → 0 this is 1 + e^{−2k²/μ²}, so #6's e^{−(p1−p2)²/2μ²} is only the forward value of the exchange term, and the amplitude tends to 1, not 0, at large k. For wavepackets, the μ → 0 overlap is the state overlap, which falls with position separation exactly as it falls with momentum separation.",
+   "tag": "[D][V]",
+   "basis": "fiber_overlap.py parts A–D (sympy label algebra, Fourier kernel, independent 1D quadrature of both sides)",
+   "numbers": [
+    {
+     "quantity": "fiber separations",
+     "value": "k1 − k4 and k1 − k3",
+     "script": "fiber_overlap.py",
+     "printed_output": "fiber separation, pairing (1->3, 2->4): ... equals k1 - k4: True / pairing (1->4, 2->3): ... equals k1 - k3: True"
+    },
+    {
+     "quantity": "phase-space overlap vs 2π × exchange integral of V",
+     "value": "5.57550319 vs 5.57550319; 7.35636496 vs 7.35636496",
+     "script": "fiber_overlap.py",
+     "printed_output": "phase-space overlap = 5.57550319-4.03e-17j ; 2pi x exchange integral of V = 5.57550319+0.00e+00j"
+    },
+    {
+     "quantity": "R1 forward amplitude and its large-k limit",
+     "value": "1 + exp(−2k²/μ²) → 1",
+     "script": "fiber_overlap.py",
+     "printed_output": "at q -> 0: 1 + exp(-2*k**2/mu**2) ... limit k -> oo at q -> 0: 1"
+    },
+    {
+     "quantity": "range of the R1 potential",
+     "value": "9.87 pm",
+     "script": "gate_numbers.py",
+     "printed_output": "hbar/(mu c) = 9866 fm = 9.87 pm"
+    },
+    {
+     "quantity": "packet overlap, Δx = 2 vs Δp = 1 (σ_x = 1)",
+     "value": "0.367879 both",
+     "script": "fiber_overlap.py",
+     "printed_output": "dx=0.0 dp=1.0: |<1|2>|^2 = 0.367879 ... dx=2.0 dp=0.0: |<1|2>|^2 = 0.367879"
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "statement": "Cross-section tails. Reading R1 with Gaussian profiles gives power-law tails: σ_V → 2πμ⁴/k⁴ for identical χ and σ_T → 2πμ²/k² for distinguishable species. A Yukawa force gives π ln k/k⁴. Only a pair-channel gate falls faster than any power. So a Gaussian fiber profile alone does not give a Gaussian tail, contrary to #6 §4. Row 3's 'sharp tail ⇒ particle' presupposes the pair-channel reading.",
+   "tag": "[D][V]",
+   "basis": "fiber_overlap.py part F (sympy integrals and limits; unit couplings, shapes only)",
+   "numbers": [
+    {
+     "quantity": "tail limits",
+     "value": "R2: k^n σ → 0; R1 identical 2πμ⁴/k⁴; R1 distinct 2πμ²/k²; Yukawa π ln k/k⁴",
+     "script": "fiber_overlap.py",
+     "printed_output": "R2 separable gate      : k^n sigma -> 0 for n = 2, 4, 8: [0, 0, 0] / R1 identical, sigma_V  : lim k^4 sigma_V = 2*pi*mu**4 / R1 distinct (exchange-type), sigma_T : lim k^2 sigma_T = 2*pi*mu**2 / Yukawa t-channel, sigma_T : lim k^4 sigma_T / log(k) = pi"
+    },
+    {
+     "quantity": "R2 vs R1 at k = 10μ",
+     "value": "1.2e-86 vs 6.3e-4",
+     "script": "fiber_overlap.py",
+     "printed_output": "k/mu = 10.0   R2 sigma_V 1.159e-86   R1 identical sigma_V 6.252e-04"
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "statement": "Fiber overlap, reading R2 (the pair channel). The vertex ∫dy g̃(y) χ(x+y/2) χ(x−y/2) sees the pair's relative momentum, and the separable amplitude is g(k)g*(k′) = |g(k)|² on shell: isotropic, and exactly §8's gate when the transfer factor is flat. It factorizes into two three-point vertices in the s-channel (pair → object of χ-number 2 → pair), never in the t-channel. It has no t-channel pole. Locality is replaced by nonlocality of the pair vertex in the relative coordinate at ħ/μ ≈ 9.87 pm (a Lorentz-invariant form factor in s). A neutral spin-2 X cannot be its s-channel carrier for χχ.",
+   "tag": "[D][V]",
+   "basis": "fiber_overlap.py part E; gate_tchannel.py part 5",
+   "numbers": [
+    {
+     "quantity": "pair-bilinear phase",
+     "value": "relative momentum (k_a − k_b)/2 conjugate to y",
+     "script": "fiber_overlap.py",
+     "printed_output": "psi(x+y/2) psi(x-y/2) on plane waves k_a, k_b: phase = x*(I*k_a + I*k_b) + y*(I*k_a/2 - I*k_b/2)"
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "statement": "The record builds none of these objects. It has no χχX vertex, no X propagator on the fibers, no χ fiber profile, no formula for the dual stress T̃, no overlap integral and no verify script. Under the record's section condition (#1 §2; #1 §3 'over the section Σ'; #5 §D 'on the section'), H_Z, and with it X and Y, depends on x only. The fiber metric Y⁻¹(x) is therefore constant along each fiber, and 'X propagator on momentum fibers' has no meaning within §7. (#13's 'short range in momentum' is not in #11 §7; see wiki-build flag 29.)",
+   "tag": "[D] (record audit)",
+   "basis": "/usr/bin/grep over papers/, notes/, HANDOFF.md (vertex, propagator and profile appear only as 'awaits' or 'diagnoses'); wiki gate-mechanism, dual-stress and momentum-fibers pages agree"
+  },
+  {
+   "id": "C13",
+   "statement": "The polarization is Lorentz-invariant. With Lorentzian g, ω, η, K, J, H and the Born rotation ρ = I are all invariant under L = diag(Λ, Λ^{−T}), while ρ flips K and J: the vacuum breaks ρ, not Lorentz symmetry. A Lorentz-invariant J therefore cannot make a t-channel vertex depend on anything but t, and it supplies no momentum scale. With the positive-definite H the compatibility theorem assumes, J and H are not Lorentz-invariant: positivity needs a preferred frame (OP3).",
+   "tag": "[D][V]",
+   "basis": "polarization_lorentz.py",
+   "numbers": [
+    {
+     "quantity": "Lorentz invariance, Lorentzian g",
+     "value": "all ≤ 8.9e-16",
+     "script": "polarization_lorentz.py",
+     "printed_output": "|L^T w L - w| 2.5e-16  |L^T eta L - eta| 2.5e-16  |L K L^-1 - K| 3.2e-16  |L J L^-1 - J| 8.9e-16  |L^T H L - H| 7.8e-16"
+    },
+    {
+     "quantity": "ρ flips K and J",
+     "value": "0.0 residual",
+     "script": "polarization_lorentz.py",
+     "printed_output": "Born rotation rho = I: |rho K rho^-1 + K| 0.0e+00  |rho J rho^-1 + J| 0.0e+00  (flipped)"
+    },
+    {
+     "quantity": "positive H under a boost",
+     "value": "|LJL⁻¹ − J| = 2.5, |LᵀHL − H| = 2.9",
+     "script": "polarization_lorentz.py",
+     "printed_output": "|L K L^-1 - K| 3.2e-16  |L J L^-1 - J| 2.5e+00  |L^T H L - H| 2.9e+00"
+    }
+   ]
+  },
+  {
+   "id": "C14",
+   "statement": "A preferred frame u (Lorentz violation) would let a single vertex see single-particle momenta. Because Σ|mV + k_i|² = 4m²V² + 4k², a per-leg profile then gives e^{−k²/μ²}·e^{−m²V²/μ²}: the record's gate multiplied by a suppression in the pair's velocity V through the frame. That suppression is 0.26, 4.7×10⁻⁶ and 4.9×10⁻²² at V = 100, 300 and 600 km/s. This gates on motion through the frame, not on relative velocity.",
+   "tag": "[D][V]",
+   "basis": "polarization_lorentz.py (Galilean identity); gate_numbers.py; galaxy peculiar velocities of hundreds of km/s are †",
+   "numbers": [
+    {
+     "quantity": "Galilean identity check",
+     "value": "4.5805875967 = 4.5805875967",
+     "script": "polarization_lorentz.py",
+     "printed_output": "numeric check: lhs = 4.5805875967, 4|mV|^2 + 4k^2 = 4.5805875967"
+    },
+    {
+     "quantity": "suppression at V = 300 km/s",
+     "value": "4.705e-6",
+     "script": "gate_numbers.py",
+     "printed_output": "V =  300 km/s : 4.705e-06"
+    }
+   ]
+  },
+  {
+   "id": "C15",
+   "statement": "Q3. As a statement about a gate in k on the forward amplitude, #6 §4's 'tree-level exchange with generic vertices yields rational (power-law-tailed) gates' is false. The forward t-channel amplitude is a polynomial in k² that does not decrease (C2, C5). The rationality of tree amplitudes [T] sits in the transfer channel: the propagator 1/(q² + M_X²) and vertex form factors in t. Integrated over angle, these give a light mediator's σ_T(v) knee with a power-law tail, which is the 'standard expectation' of #11 §13 row 1, not a program-specific gate. At most, the sentence covers the u-channel exchange term of C6, which does not gate.",
+   "tag": "[D][V]",
+   "basis": "C2, C5, C6, C10"
+  },
+  {
+   "id": "C16",
+   "statement": "§8's 'the variable no x-local mediator produces' holds only for the direct Born term. Exchange terms (C6) and near-threshold states (C8) of x-local forces do depend on k at fixed q. §8 also assigns this variable to X, which §7 builds as an x-local field (δX_μν = ∂_(μ λ_ν); 'Yukawa-cut at 1/M_X', §7.5), so the sentence contradicts §7.",
+   "tag": "[D]",
+   "basis": "#11 §7.1, §7.5, §8; C6, C8"
+  },
+  {
+   "id": "C17",
+   "statement": "#13 §4 identifies μ ~ ħ/λ_χ, with λ_χ an irreducible extent in position. Standard form-factor physics then gives a form factor in the transfer q at scale μ [T], which is the x-space construction #6 calls the dual, not a gate in k.",
+   "tag": "[D] (with [T] input)",
+   "basis": "papers/conjugate-special-relativity.md §4; standard form-factor theory"
+  },
+  {
+   "id": "C18",
+   "statement": "Q4. The tag [D — mechanism; shape [O]] in #11 §8 is unsupported by the record. The fitting tag is [P] for the gate and μ (what #1 §3, v0.1, had), with the mechanism [O] and the negative result recorded: t-channel exchange of §7's X cannot produce the gate [D][V]. A conditional [D] is not available, because the only condition that yields the gate (a pair-channel kernel g(k)g(k′)) contains the gate and does not involve X. §14 item 4 ('Gate shape (X propagator on momentum fibers; Gaussian vs rational — now observable) [O]') does not cover what is missing: it treats the mechanism as settled, presupposes an object §7 does not have, and its Gaussian-vs-rational split is not a k-gate dichotomy (C10, C15). Text that depends on the tag includes the #11 abstract and §8 plain-language passage, §12 ('sharp tail'), §13 rows 1–3, §15 ('gate tail not yet forced'), HANDOFF §2 (alive list), #8 §5 ('mechanism paid'), and the wiki's gate-mechanism page (status alive, [D]).",
+   "tag": "[D]",
+   "basis": "C1–C17; #1 §3 tag text; #11 §8, §14 item 4"
+  },
+  {
+   "id": "C19",
+   "statement": "The record's benchmark arithmetic reproduces as contact Born physics, independent of any gate mechanism: σ₀ = 16πα̃²m²/m_φ⁴ with α̃ = 1 and m_φ = m_χ gives σ₀/m = 32.0 cm²/g at 70 MeV, or m = 71.5 MeV for 30 cm²/g. The convention values are μ/m = 2.857×10⁻⁴, v* = 121.1 km/s and v_a = √2 v* = 171.3 km/s.",
+   "tag": "[V]",
+   "basis": "gate_numbers.py",
+   "numbers": [
+    {
+     "quantity": "σ₀/m at 70 MeV",
+     "value": "32.01 cm²/g; 71.5 MeV for 30 cm²/g",
+     "script": "gate_numbers.py",
+     "printed_output": "sigma0 = 16 pi / m^2 = 3.9944e-24 cm^2 ; sigma0/m = 32.01 cm^2/g ; m for 30 cm^2/g: 71.5 MeV"
+    },
+    {
+     "quantity": "μ/m, v*, v_a",
+     "value": "2.8571e-4, 121.1 km/s, 171.3 km/s",
+     "script": "gate_numbers.py",
+     "printed_output": "mu/m = 2.8571e-04 ; v* = sqrt2 mu/m c = 121.1 km/s ; v_a = sqrt2 v* = 2 mu/m c = 171.3 km/s"
+    }
+   ]
+  }
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/derivation-gate-mechanism/gate_tchannel.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/derivation-gate-mechanism/gate_fermion.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/derivation-gate-mechanism/fiber_overlap.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/derivation-gate-mechanism/polarization_lorentz.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/derivation-gate-mechanism/gate_numbers.py"
+ ],
+ "open_questions": [
+  "Does the program keep the gate as a postulate [P], or rewrite χ's self-interaction as an x-local potential of range ~10 pm (reading R1)? R1 is ordinary short-range SIDM with power-law tails and would remove the program-specific content of rows 1–3.",
+  "Can any construction tied to the program's geometry yield a pair-channel (s-channel) form factor for χχ, for example a doubly charged composite of the χ sector? Nothing in the record points to one.",
+  "If a Gaussian s-dependent form factor is kept, are microcausality and unitarity acceptable at the nonlocality scale ħ/μ ≈ 10 pm? Not examined here or in the record.",
+  "Would a doubled (phase-space) field theory for χ that drops the section condition, with fiber coordinates independent of the physical momentum, define a 'relative momentum' consistent with momentum conservation? The record does not address this.",
+  "Once the particle-side tail is not forced to be Gaussian, does the row-3 island discriminant survive? Under R1 the particle tail is a power law, the same functional class as the wave island's (v*/σ)⁴.",
+  "The strength of the coupling (OP5, the dual-stress enhancement) stays open whatever the mechanism; at gravitational strength, X-exchange is negligible in any case."
+ ],
+ "caveats": [
+  "Files read: papers/broken-born-checkpoint-v2.md (all), notes/debt1a-ii-X-classification.md, notes/debt1a-geometric-core.md, notes/debt1a-iv-beta-coefficients.md, notes/broken-born-theory.md, papers/conjugate-special-relativity.md §4, HANDOFF.md §§1–8, the wiki glossary entries named in the task, and the wiki pages momentum-fibers, gate-mechanism, gate-shape and dual-stress, plus review/wiki-build-flags.md item 17 with its check. No review round has examined the gate mechanism (grep of review/).",
+  "Readings R1 and R2 of #6 §4 are my reconstruction (inference), because the record defines no overlap, profile or vertex. The theorems about each reading are derivations.",
+  "The main theorem is tree level on a flat background with the Fierz–Pauli numerator. Hassan–Rosen nonlinearities and vDVZ subtleties change the t-dependence and normalization, not the degree in s. Loops are treated through the effective-range argument and one number.",
+  "The section-condition and asymmetric-relic statements come from #1 (lab notebook), which is superseded as reference but is the only document that states them. #11 §12 and §14 item 7 keep polarization-genesis.",
+  "The Lorentzian check transplants the program's block structures to Lorentzian g; the record's theorems assume positive H (OP3).",
+  "Cross-section normalizations in fiber_overlap.py use unit couplings; only the shapes and tail laws are compared.",
+  "Physical constants (ħc, c, MeV→g) are CODATA values written from memory. Prior-art pointers (resonant SIDM such as Chu–Garcia-Cely–Murayama 2019; Yamaguchi-type separable potentials) and 'galaxy peculiar velocities of hundreds of km/s' are † and unverified.",
+  "Gate convention used throughout: amplitude e^{−k²/μ²} = e^{−v²/v_a²} with v_a = √2 v* = 171.3 km/s; cross-section e^{−v²/v*²}. The √2 question of flag 17 is untouched by these conclusions.",
+  "The repository was not modified. All scripts and their .out files are in the output folder."
+ ]
+}

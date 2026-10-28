@@ -1,0 +1,5 @@
+min R_a = -1.07121 at y = 1.420; R_a(1) = -0.87168
+z = 50.0: Om_c = 0.8305; (1+b) = 0 at y = 1.42 for eps = 2.248; at y = 1 for eps = 2.763
+z = 3.0: Om_c = 0.8143; (1+b) = 0 at y = 1.42 for eps = 2.293; at y = 1 for eps = 2.818
+record v* = 120 km/s over corner v* = 10 km/s: ratio 12.0
+record v* = 120 km/s over corner v* = 30 km/s: ratio 4.0

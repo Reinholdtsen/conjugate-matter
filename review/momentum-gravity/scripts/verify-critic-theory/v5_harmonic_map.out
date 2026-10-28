@@ -1,0 +1,11 @@
+1. symbolic canonical map
+  {X1,P1} = 1  {X2,P2} = 1  {X1,X2} = 0  {P1,P2} = 0  {X1,P2} = 0
+  H in (X,P): (Omega**2*X1**2*m**2 + Omega**2*X2**2*m**2 + P1**2 + P2**2 + 2*m*U(Omega*m*(X1 - X2)))/(2*m)
+  general Phi: pdot1 = -dH/dx1 = -Derivative(Phi(x1), x1) ;  xdot1 = dH/dp1 = Subs(Derivative(U(_xi_1), _xi_1), _xi_1, p1 - p2) + p1/m
+
+2. numerics
+  a. harmonic trap, t = 20: max |mapped - original| over the run = 0.00e+00
+  b. free space                  : max over t<=20 of |(p1-p2)_withU - (p1-p2)_noU| = 0.000e+00;  (p1-p2) drift with U: 0.000e+00
+  b. uniform field (Phi = 0.8 x) : max over t<=20 of |(p1-p2)_withU - (p1-p2)_noU| = 0.000e+00;  (p1-p2) drift with U: 1.015e-12
+  b. harmonic (Phi = x^2/2)      : max over t<=20 of |(p1-p2)_withU - (p1-p2)_noU| = 2.564e+00;  (p1-p2) drift with U: 2.039e+00
+  b. quartic (Phi = x^4/4)       : max over t<=20 of |(p1-p2)_withU - (p1-p2)_noU| = 1.629e+00;  (p1-p2) drift with U: 1.719e+00

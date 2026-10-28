@@ -1,0 +1,19 @@
+W = exp(-v^2/v_a^2):
+   rddot(v=0)/(-GM/r^2) = -v_s**2*(epsilon + 1)*r(t)/(2*GM*epsilon - v_s**2*r(t))
+   first order in eps   = 2*GM*epsilon/(v_s**2*r(t)) + epsilon + 1
+   effective inertia (d^2L/dv^2 at v=0) = -2*GM*epsilon/(v_s**2*r(t)) + 1; vanishes at eps = [v_s**2*r(t)/(2*GM)]
+W = exp(-v^2/(2 v*^2)):
+   rddot(v=0)/(-GM/r^2) = -v_s**2*(epsilon + 1)*r(t)/(GM*epsilon - v_s**2*r(t))
+   first order in eps   = GM*epsilon/(v_s**2*r(t)) + epsilon + 1
+   effective inertia (d^2L/dv^2 at v=0) = -GM*epsilon/(v_s**2*r(t)) + 1; vanishes at eps = [v_s**2*r(t)/GM]
+
+numbers at the pole, v gate scale = 0.10 km/s:
+  exp(-v^2/v_a^2), v_a = 0.1 km/s: (g_ff/g_N - 1)/eps = 1 + 2 GM/(R v^2) = 1.25420e+04;  inertia vanishes at eps = 7.9738e-05
+  exp(-v^2/(2v*^2)), v* = 0.1 km/s: (g_ff/g_N - 1)/eps = 1 + 1 GM/(R v^2) = 6.27150e+03;  inertia vanishes at eps = 1.5948e-04
+  (mean radius 6371 km instead of polar: 1.25140e+04, 7.9917e-05)
+  equatorial rotation speed 2 pi R_eq/sidereal day = 465.1 m/s: gate exp(-v^2/v_a^2) there = 4.03e-10
+
+c6F:
+  amplitude gate with k = m v/2, mu = m v*/sqrt2: exp(-v**2/(2*v_star**2))
+  cross-section gate |amp|^2: exp(-v**2/v_star**2)
+  exp(-v^2/v_a^2) equals the amplitude gate for v_a = [sqrt(2)*v_star] -> v_a = 169.71 km/s at v* = 120; ordinary-tests 120 km/s = record v* 84.85 km/s

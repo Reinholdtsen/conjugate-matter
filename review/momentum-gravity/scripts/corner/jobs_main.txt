@@ -1,0 +1,22 @@
+# Hamiltonian reading, N = 2000, T = 40, ramp 15, dt = 0.01, b = 0.1; eps = 10 first (slowest)
+--eps 10 --rg 1 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 10 --rg 1 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 10 --rg 1 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 10 --rg 0.4 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 10 --rg 0.4 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 10 --rg 0.4 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 3 --rg 1 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 3 --rg 1 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 3 --rg 1 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 3 --rg 0.4 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 3 --rg 0.4 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 3 --rg 0.4 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 0 --rg 1 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 0 --rg 1 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 0 --rg 1 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 1 --rg 1 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 1 --rg 1 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 1 --rg 1 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 1 --rg 0.4 --N 2000 --seed 1 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 1 --rg 0.4 --N 2000 --seed 2 --T 40 --dt 0.01 --b 0.1 --ramp 15
+--eps 1 --rg 0.4 --N 2000 --seed 3 --T 40 --dt 0.01 --b 0.1 --ramp 15

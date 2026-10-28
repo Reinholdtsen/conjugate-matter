@@ -1,0 +1,17 @@
+Lambda^T g Lambda - g (Lorentz check): 4.440892098500626e-16
+-- Lorentzian g = diag(1,-1,-1,-1) --
+  H0 positive definite: False
+  algebra: |I^2+1| 0.0e+00  |J^2-1| 0.0e+00  |K^2-1| 0.0e+00  |IJ-K| 0.0e+00
+  under the Lorentz map L: |L^T w L - w| 2.5e-16  |L^T eta L - eta| 2.5e-16  |L K L^-1 - K| 3.2e-16  |L J L^-1 - J| 8.9e-16  |L^T H L - H| 7.8e-16
+  Born rotation rho = I: |rho K rho^-1 + K| 0.0e+00  |rho J rho^-1 + J| 0.0e+00  (flipped)  |rho^T w rho - w| 0.0e+00  |L rho L^-1 - rho| 8.9e-16
+-- Euclidean g = 1 (positive H, as the compatibility theorem assumes) --
+  H0 positive definite: True
+  algebra: |I^2+1| 0.0e+00  |J^2-1| 0.0e+00  |K^2-1| 0.0e+00  |IJ-K| 0.0e+00
+  under the Lorentz map L: |L^T w L - w| 2.5e-16  |L^T eta L - eta| 2.5e-16  |L K L^-1 - K| 3.2e-16  |L J L^-1 - J| 2.5e+00  |L^T H L - H| 2.9e+00
+  Born rotation rho = I: |rho K rho^-1 + K| 0.0e+00  |rho J rho^-1 + J| 0.0e+00  (flipped)  |rho^T w rho - w| 0.0e+00  |L rho L^-1 - rho| 2.5e+00
+
+-- a preferred frame u (Lorentz violation) lets one vertex see single-particle momenta --
+NR Galilean identity: sum_i |m V + k_i|^2 = 4 m^2 V^2 + 4 k^2 for legs k_i = (k, -k, k', -k'), |k| = |k'|
+  numeric check: lhs = 4.5805875967, 4|mV|^2 + 4k^2 = 4.5805875967
+  per-leg profile exp(-|p_u|^2/(4 mu^2)) -> product exp(-k^2/mu^2) * exp(-m^2 V^2/mu^2):
+  the record's gate times a suppression in the pair's velocity V through the frame u.

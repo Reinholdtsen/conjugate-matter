@@ -1,0 +1,166 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "P1",
+   "verdict": "confirmed",
+   "reason": "The bound and the mass conversions reproduce. α = 4/3 rests on #8 §3's equal Planck masses, as stated. The torsion-balance table (Lee 2020 thesis, Table 11.4) is the record's transcription and was not re-checked against the thesis. Its interpolation does reproduce the published 38.6 μm, which I verified live. The agent's grep summary leaves out #13's four dual-SR uses of 'velocity' and HANDOFF's 'velocity traps'. None of them concerns X's force, so the absence claim stands.",
+   "independent_check": "Reran verify/phase_space_diameter.py: 'PASS attractive Yukawa with alpha = 4/3 (one-sided +alpha95): lambda_X < 37.7 um, M_X c^2 > 5.2 meV  [37.68 um, 5.237 meV]'; '[[56.98, 42.53, 30.83]]'; anchor '[38.63, 30.23 um]'. Independent SI conversion (n1_numbers.py): 'lambda = 37.68 um -> M c^2 = 5.2369 meV'. Lee et al. 2020 abstract fetched (arxiv.org/abs/2002.11761) [S]: 'limiting with 95% confidence any gravitational-strength Yukawa interactions to ranges < 38.6 μm.' #8 §3 read: 'With equal effective Planck masses (forced by the same symmetry)'. /usr/bin/grep -c velocit: checkpoint 6, #13 4, diameter note 0, toy note 0, debt1a notes 0, HANDOFF 2."
+  },
+  {
+   "claim_id": "P2",
+   "verdict": "confirmed",
+   "reason": "Every number reproduces, and the record quotes are accurate. In the record's own normalization, σ0 = 16πα̃²m_χ²/m_φ⁴ (#1 §5.1), the benchmark has α̃ = 0.97, so 'α̃ ≈ 1' is right.",
+   "independent_check": "n1_numbers.py (SI route): 'G m_chi^2/(hbar c) = 3.2873e-41 ; 1/that = 3.0420e+40'; 'range hbar/(m_chi c) = 2.8190e-15 m'; 'g = sqrt(pi sigma0)/m = 2.4828e+03 GeV^-2'; 'dwarf core: eps_gate = 2.725e-37 GeV, m min(sig,v*)^2 = 7.010e-10 GeV, ratio = 3.888e-28'; 'MW local: ... ratio = 2.864e-31'; 'alpha~ for 30 cm^2/g = 0.968'. Record debt3a_check.py rerun: 'g = 2.48e+03 GeV^-2', 'ratio = 3.9e-28', 'ratio = 2.9e-31'. Quotes checked: #11 §8 'χ propagates on g (equivalence principle; Bullet-Cluster-safe)'; #6 §4 'Integrating out massive X between χ bilinears gives the contact four-χ operator'; Debt 3a 'the x-range collapsed to contact'."
+  },
+  {
+   "claim_id": "P3",
+   "verdict": "confirmed",
+   "reason": "The quotes, the tags and the status of flag 29 are as stated. The conflict with #8 §3 is a fair reading.",
+   "independent_check": "Read HANDOFF §4, lines 74–75: 'ordinary stress-energy (sources massless graviton) vs dual stress ... (sources X)' and 'dual Newtonian limit = Yukawa in momentum = the gate'. #13 line 26 has '[D — §7 of the checkpoint]' and line 85 has '[D — checkpoint §7]'. review/wiki-build-flags.md item 29: 'Audit (2026-10-22): confirmed by 1 independent check'. review/wiki-build-rulings.md, Flag 29: 'Ruling: ☐ accept ☐ reject ☐ modify'. #8 §3: 'SM matter — coupled to g — sees both eigenstates with comparable strength'."
+  },
+  {
+   "claim_id": "P4",
+   "verdict": "confirmed",
+   "reason": "The ratio and the cross-section reproduce under the stated assumptions, and the quotes are accurate. Whatever normalization the record uses for σ0 cancels in the ratio. α̃ = 0.968 instead of 1 changes the result by 3%.",
+   "independent_check": "n1_numbers.py: '(mu_chiN/(m/2))^2 = 3.4637; alpha G m_N^2 = 7.8703e-39; ratio = 2.7261e-38; sigma_chiN = 1.021e-61 cm^2'. #13 §6: 'Shared: the time coordinate ... and the massless graviton, so both polarizations fall identically.' #11 §13 row 7: 'Permanent null ... P4 strict', killed by 'Any confirmed non-gravitational DM–SM coupling'. #6 §4 gives a fiber width only for p-polarized quanta."
+  },
+  {
+   "claim_id": "P5",
+   "verdict": "confirmed",
+   "reason": "The block statement holds, and #5 §C's convention puts Y = g in the x–x block. The quotes from #5 §E, #6 §4 and #8 §3 are accurate, and the flag-39 ruling box is empty. The anchor confirms only that H_Z is symplectic, not the linear-in-X statement, which is elementary.",
+   "independent_check": "n4_mechanics.py (d = 2, scaling X → tX): 'P5: t^1 coefficient, position (x-x) block zero: True ; mixed block zero: False ; momentum block zero: True'; 'anchor (omega^-1 H_Z)^2 = -1 at a sample point: True'. #5 §C: H_Z = [[Y + XY⁻¹X, XY⁻¹],[Y⁻¹X, Y⁻¹]], 'Im Z = Y = g'. #5 §E: 'couples to x-polarized matter only through its (suppressed) dual stress'. #6 §4: 'run through the SM's dual stress, which is unenhanced'."
+  },
+  {
+   "claim_id": "P6",
+   "verdict": "confirmed",
+   "reason": "The numbers reproduce. The contact limit needs q_max = m_χ v_rel ≪ M_X, which is correct.",
+   "independent_check": "n1_numbers.py: 'v = 30 km/s: m v = 7.005 keV ; hbar/(m v) = 2.8170e-11 m ; 37.7 um/that = 1.338e+06'; 'v = 120 km/s: m v = 28.019 keV ; hbar/(m v) = 7.0425e-12 m'; 'v = 1000 km/s: m v = 233.495 keV ; hbar/(m v) = 8.4510e-13 m ; 37.7 um/that = 4.461e+07'."
+  },
+  {
+   "claim_id": "P7",
+   "verdict": "confirmed",
+   "reason": "The tensor factor, its normalized forms, the series, the general-frame statement and the 3/4 limit all reproduce. The Hinterbichler quotes and section numbers are correct.",
+   "independent_check": "n2_spin2_field_method.py: 'massless: normalized factor = 2*gamma**2 - 1 ; series = 2*v**6 + 2*v**4 + 2*v**2 + 1'; 'Fierz-Pauli: normalized factor = (3*gamma**2 - 1)/2 ; series = 3*v**6/2 + 3*v**4/2 + 3*v**2/2 + 1'; 'gamma -> oo ratio massive/massless = 3/4'; 'gamma_rel^2 - (1 + |v1 - v2|^2) to O(v^2): 0'; 'T1.T2 - c T1 T2 - m1 m2((u1.u2)^2 - c) = 0'. WebFetch of ar5iv 1105.3735 [S]: §2.3 (Propagator), 'For D=4, it is 1/2 vs. 1/3.'; §3.3 (The vDVZ discontinuity), 'off by 25 percent from GR'."
+  },
+  {
+   "claim_id": "P8",
+   "verdict": "corrected",
+   "reason": "Confirmed in substance by a second method: the near-zone classical field of a uniformly moving source acting on a test particle, with retardation from the ∂t² term, reduced to the symmetric two-body form by an explicit total derivative. This method reproduces the Darwin Lagrangian, the EIH O(G) velocity terms and the agent's massive coefficients (1, 1, −5/2, −1/2), including the M term. Two corrections. The retardation piece is missing the prefactor αGm1m2. And the massive form holds at every r at O(v²), not only at r ≪ λ_X.",
+   "independent_check": "n2_spin2_field_method.py: 'spin 1: L(one-sided) - Darwin - d/dt(...) = 0'; 'massless spin 2: L(one-sided) - d/dt(...) - EIH(O(G) velocity terms, Will 2018 eq. 9 GR values) = 0'; 'massive normalization: G' = 3*G*alpha/4'; 'massive spin 2 (Fierz-Pauli, any M): L(one-sided) - d/dt(...) - agent's P8 form = 0'. The script coded the agent's form as αGm1m2 e^{−Mr}/r[...] − αGm1m2(M/2)(n·v1)(n·v2)e^{−Mr}. A first run had the total derivative's sign flipped, and its residual was exactly twice that derivative; the patched script prints 0. n5_misc_checks.py: 'CM: EIH - [(3+nu)v^2 + nu (n.v)^2]/2 = 0'; 'CM: massive - [(1 + nu/2) v^2 + nu (n.v)^2/2] = 0'; 'general frame: ... = 0'. WebFetch of ar5iv 1801.08999 [S]: eq. (9) two-body term '+½ΣΣ(m_a m_b/r_ab)[G_ab + 3B_ab v_a² ... −½(G_ab+6B_(ab)+C_ab)v_a·v_b − ½(G_ab+E_ab)(v_a·n)(v_b·n)]', and 'In general relativity, G_ab = B_ab = D_abc = 1, while A_a = C_ab = E_ab = 0.' Wikipedia's EIH acceleration was fetched [S]. The agent's EOM cross-check runs at 40-digit precision with O(1) values, so its deviation of 1e-41 is numerically zero. n1: '(v/c)^2 = 1.1127e-07' (100 km/s), '1.0014e-06' (300 km/s).",
+   "corrected_statement": "For the massive spin-2 term, the O(G, v²/c²) Lagrangian is (αGm1m2/r)e^{−r/λ}[1 + (v1²+v2²) − (5/2)v1·v2 − ½(n·v1)(n·v2)]/c² − (αGm1m2/(2λ))(n·v1)(n·v2)e^{−r/λ}/c². It holds at any r: the near-zone expansion needs only v ≪ c. Everything else in P8 stands."
+  },
+  {
+   "claim_id": "P9",
+   "verdict": "confirmed",
+   "reason": "γ_PPN, the Cassini value, and the α and u limits reproduce. A published formula confirms γ = 5/7 independently. The search claim holds: the record discusses neither Cassini, PPN tests nor the long-range window.",
+   "independent_check": "n1_numbers.py: '2-sigma lower end gamma-1 = -2.50e-05; alpha_max = 5.0003e-05; u_max = sqrt(3 alpha/4) = 6.1239e-03'; 'gamma at alpha = 4/3: 0.714286'; 'Enander-Mortsell form (1+2c^2/3)/(1+4c^2/3) at c=1: 0.714286'. The last line comes from ar5iv 1306.1086 [S]: eqs. (29)–(30) give Φ = −(GM/r)(1 + (4c²/3)e^{−mr}) and Ψ with 2c²/3. n2: 'gamma_PPN = (alpha + 2)/(2*(alpha + 1)) ; at alpha = 4/3: 5/7'; 'test-mass U v^2 coefficient: gamma_p + 1/2 -> GR: 3/2 ; gamma = 1/2: 1'. WebSearch [S]: Bertotti, Iess and Tortora, Nature 425, 374 (2003), γ = 1 + (2.1 ± 2.3)×10⁻⁵. /usr/bin/grep -ril 'cassini|vdvz|PPN|solar system|light bending|shapiro' over papers, notes, review and verify finds only the 4/3 arithmetic in verify/phase_space_diameter.py and unrelated wiki and audit lines."
+  },
+  {
+   "claim_id": "P10",
+   "verdict": "confirmed",
+   "reason": "Hamilton's equations, the CM drift and the boost shifts reproduce.",
+   "independent_check": "n4_mechanics.py: 'P10 arg p1 - p2: pdot1 = 0; d(m1x1+m2x2)/dt - P = (m1 - m2)*Subs(Derivative(U(_xi_1), _xi_1), _xi_1, p1 - p2); boost shift of argument = u*(m1 - m2)'; 'P10 arg k = (m2 p1 - m1 p2)/M: pdot1 = 0; d(m1x1+m2x2)/dt - P = 0; boost shift of argument = 0'. The agent's concrete-U Legendre check prints 'L - [...] = 0'."
+  },
+  {
+   "claim_id": "P11",
+   "verdict": "confirmed",
+   "reason": "This is structural and follows from ṗ = −∂H/∂x. The notebook's ε(p; f) uses an averaged f̄, while Debt 3a's ε(x, p) is local in x, as stated.",
+   "independent_check": "n4: pdot1 = 0 for any H that depends on momenta only. Read notebook §5.2, ε(p; f) = p²/2m + ∫U(p − p′)f̄(p′), and Debt 3a 'Setup', ε(x,p) with f(x,p′) at the same x."
+  },
+  {
+   "claim_id": "P12",
+   "verdict": "confirmed",
+   "reason": "The energy function, the boost, the Hessian zero, the Hamiltonian inverse inertia and the CM behaviour of both gate arguments all reproduce. The Helmholtz–Weber citation is correctly marked †.",
+   "independent_check": "n4_mechanics.py: 'P12 energy function - [sum m v^2/2 - Gt m1 m2 (W - w W')/r] = 0'; 'P12 boost: L(v+u) - L(v) - [u.(m1 v1 + m2 v2) + M u^2/2] = 0'; 'P12 Lagrangian Hessian at v_rel = 0: -2*Gtilde*M*mu/(r*v_star**2) + mu ; zero at r = [2*Gtilde*M/v_star**2]'; 'P12 Hamiltonian inverse inertia ... True'; 'CM drift, gate argument |p1/m1 - p2/m2|/v*: 0'; the '|p1 - p2|/(m1 v*)' argument gives a nonzero drift."
+  },
+  {
+   "claim_id": "P13",
+   "verdict": "corrected",
+   "reason": "The measured precession is confirmed to 7 digits by a different integrator. Three statements need correcting. (1) The quoted ratios 0.987 and 0.963 use a and e taken from the numerical orbit's r_min and r_max. With the nominal elements they are 0.985 and 0.956, and both tend to 1. (2) The shift does not saturate. It peaks near GM/(av*²) ≈ 0.3, reverses to prograde for faster orbits and vanishes once the gate is closed. So 'bound orbits turn backward' holds only for slow orbits. (3) The flyby angles are biased. The agent's start state at R0 = 2e4 has |p| = v∞ with no potential-energy correction, so its true asymptotic speed is sqrt(v∞² − 2k/R0). Its own β = 0 control misses Rutherford by 1.9e-3 rad, and step halving cannot detect this. The qualitative conclusions survive.",
+   "independent_check": "n3_gated_orbits.py: adaptive Dormand–Prince 5(4) with events located by bisection; initial conditions from the Kepler problem with k = 1+β. Results: '0.0033 1.2 -9.068809e-03 -9.206132e-03 0.9851'; '0.0100 1.2 -2.641384e-02 ... 0.9564'; '0.1000 1.2 -1.862092e-01 ... 0.6742'; '1.0000 1.2 -1.764320e-01 ... 0.0639'; control 'beta = 0 ... 1.20e-12'. The agent's script uses a_n = (rmin+rmax)/2 and e_n = (rmax−rmin)/(rmax+rmin). n3b: '0.300 1.2 -3.0709e-01'; '3.000 1.2 3.3467e-01'; '10.000 1.2 4.1058e-01'. n3d (initial conditions from ungated Kepler): '3.00 1.0 7.3790e-01'; '10.00 1.0 4.3139e-02'; '30.00 1.0 1.6225e-06'. Flybys converged in start distance: '0.10 1e+07 2.316597'; '0.30 1e+07 1.214649'; '3.00 ... 0.011112'; control 'v_inf = 0.1: theta = 2.7467977; Rutherford = 2.7468015'. The agent's own control prints 'beta = 0, v_inf = 0.1: theta = 2.748730, Rutherford = 2.746802'. n1: '(2/3)(c/v*)^2 = 4.1609e+06'.",
+   "corrected_statement": "Slow bound orbits turn backward. At leading order Δω = −4πβGM/(a v*²(1−e²)) per orbit, (−4/6)(c/v*)² = −4.2×10⁶ times GR's rate per unit β at v* = 120 km/s. Measured/formula is 0.985 at GM/(av*²) = 1/300 and 0.956 at 1/100 with the nominal a and e (0.987 and 0.963 with a and e from the numerical r_min and r_max), tending to 1. The shift does not saturate. For β = 0.2 and e = 0.3 its magnitude is 0.19 rad per orbit at GM/(av*²) = 0.1, 0.31 at 0.3 and 0.18 at 1. At 3 it is prograde, +0.3 to +0.7 rad depending on initial conditions, and at 30 it is 2×10⁻⁶. Flybys (β = 0.5, b = 20GM/v*²) deflect by 2.3166 rad at v∞ = 0.1v* (Rutherford for G: 2.7468), 1.2146 at 0.3v* and 0.011112 at 3v* (Rutherford: 0.011111)."
+  },
+  {
+   "claim_id": "P14",
+   "verdict": "confirmed",
+   "reason": "An analytic impulse-approximation anchor, independent of the integrator, reproduces the agent's small-deflection numbers to 4 digits. The Gaussian-tail figure and the record criterion also reproduce.",
+   "independent_check": "n1: '|d/dr exp(-r^2/2)| at r = 10 over its max: 3.1800e-21'. n5_misc_checks.py, θ ≈ g e^{−v²} b e^{−b²/2}√(2π)/v² with g = 0.05: 'b = 10.0, v = 0.3: 2.4547e-21'; 'b = 0.5, v = 3.0: 7.5832e-07'; 'b = 3.0, v = 3.0: 5.7275e-08'. The agent printed 2.455e-21, 7.583e-07 and 5.727e-08. The b = 0.5, v = 0.3 case is nonlinear, so the anchor does not apply there."
+  },
+  {
+   "claim_id": "P15",
+   "verdict": "confirmed",
+   "reason": "The boost and CM statements reproduce. #11 §8 uses k, and for equal masses p1 − p2 = 2k.",
+   "independent_check": "n4_mechanics.py: boost shift u*(m1 - m2) for p1 − p2 and 0 for k; CM drift 0 for |p1/m1 − p2/m2| and nonzero for |p1 − p2|/(m1 v*)."
+  },
+  {
+   "claim_id": "P16",
+   "verdict": "confirmed",
+   "reason": "The arithmetic reproduces for the stated illustrative inputs, and n_gate follows Debt 3a's definition. The #13 §5 quotes are accurate. One input is low: |Φ| ~ v_c² underestimates the depth of the Milky Way's potential at the Sun.",
+   "independent_check": "n1_numbers.py: 'Earth orbit v=29.8 : eps/beta = 0.1233'; 'MW v_c=230 : 7.3472'; 'dwarf ... sigma=10 : 0.0417'; 'UFD ... sigma=3.7 : 0.0057'; 'co-moving fraction (v*/sigma)^3/(2 pi)^1.5 at sigma = 155: 0.0295; times 7.347 = 0.2165'; illustrative 'MW, |Phi| = v_esc^2/2 with v_esc = 550: eps/beta = 21.0069' (v_esc from memory, †). #13 §5: 'makes λ_χ the measure of resistance to force-change [conjecture-tier ...]'."
+  },
+  {
+   "claim_id": "P17",
+   "verdict": "corrected",
+   "reason": "The forcing-chain reading, the universality of λ_X and the M_X number are right. But the constraint is applied at the wrong scale. The torsion-balance limit constrains a Yukawa only near the separations it probes; the record's table spans λ = 25–100 μm. It therefore does not by itself limit a kpc range, as the agent's own P9 says. Without screening, Cassini's γ does that work. With Vainshtein screening, the laboratory bound is evaded too.",
+   "independent_check": "n1_numbers.py: 'M_X(1 kpc) = 6.3949e-27 eV'. Crude screening criterion: 'Earth surface : r_S(1+u^2) lambda^2 / r^3 at lambda = 1 kpc = 6.532e+16 (screened if >> 1); lambda at which = 1: 1.207e+11 m'. Diameter note §8.2: 'with no value in the record'. The record script's TAB covers λ = 0.025–0.100 mm.",
+   "corrected_statement": "M_X is a property of the field, so λ_X is the same for every source, and any bound from ordinary matter applies to χ too. For a kpc range the operative bound is not the 37.7 μm torsion-balance limit, which constrains only λ near the separations probed. Without screening, Cassini's γ excludes it (u < 6×10⁻³, P9), and for 4.4 kpc–4.4 Mpc at u ≈ 1 so does elliptical-galaxy lensing plus dynamics (Enander–Mörtsell 2013, linear theory). With Vainshtein screening, the laboratory and Solar-System tests are evaded at kpc range, and only galaxy-scale tests remain."
+  },
+  {
+   "claim_id": "P18",
+   "verdict": "confirmed",
+   "reason": "All the numbers and record readings reproduce. Λ3 = (M_P m²)^{1/3} with the reduced Planck mass, which the agent marked †, is now source-checked. One omission: Enander–Mörtsell's actual excluded window is not given (see missed issues).",
+   "independent_check": "n1_numbers.py: '(M_X/H0)^2 = 1.9784e+13 ; c/H0 = 4.448 Gpc'; 'r_V(Sun, lambda = 1 kpc, u = 1) = ... 1.1887e+03 AU'; 'r_V(1e10 Msun ...) = ... 1.2416e+01 pc'; 'Lambda_3 (reduced M_Pl) = 4.6353e-09 eV ; 1/Lambda_3 = 4.2571e+01 m' (24.9 m with the unreduced mass); 'anchor: m = H0 gives 1/Lambda_3 = 1151 km (Hinterbichler: ~10^3 km)'. Hinterbichler §1.3 [S]: Λ3 = (M_P m²)^{1/3}, with M_P = 1/(8πG)^{1/2}. Enander–Mörtsell abstract [S]: 'We derive dynamical and gravitational lensing properties of local sources in the Hassan-Rosen bimetric gravity theory'. The diameter-note quotes on the (u, 1/u) pair and its vacuum energy check out."
+  },
+  {
+   "claim_id": "P19",
+   "verdict": "corrected",
+   "reason": "The classical Coulomb logarithm ln(λμv²/A) is used in the Born regime. The Sommerfeld parameter A/v is about 10⁻⁵ for the kpc force and about 10⁻³⁷ for X, so the minimum impact parameter is the de Broglie length, not b₉₀. With the exact Born σ_T for a Yukawa potential, A rises by 8% and σ_T/σ0 for X falls by a factor of 7. The order-of-magnitude conclusion is unchanged.",
+   "independent_check": "n1_numbers.py: 'classical log : A needed = 1.0845e-09; A/(G m^2) = 3.2990e+31'; 'Born (exact Yukawa sigma_T) : A needed = 1.1699e-09; A/(G m^2) = 3.5588e+31'; 'Sommerfeld parameter A/v at A = 1.1e-9: 1.10e-05'; 'classical log value ... = 79.91; Born log ln(2 mu v lambda) - 1/2 = 68.67'; 'X at alpha = 4/3, 37.7 um, 30 km/s, classical log : ... /sigma0 = 1.986e-63'; 'Born (exact) : sigma_T = 1.041e-87 cm^2 ; /sigma0 = 2.782e-64'.",
+   "corrected_statement": "A long-range χχ force that made dwarf cores by scattering (σ0 = 3.7×10⁻²⁴ cm² at 30 km/s) would need A ≈ 1.2×10⁻⁹, which is 3.6×10³¹ G m_χ². This uses the Born-regime σ_T with Coulomb log ln(2μvλ/ħ) − ½ ≈ 69 for a 1 kpc range; the classical log does not apply since A/v ≈ 10⁻⁵. X at α = 4/3 with a 37.7 μm range gives σ_T/σ0 ≈ 3×10⁻⁶⁴. The conclusions are unchanged."
+  },
+  {
+   "claim_id": "P20",
+   "verdict": "confirmed",
+   "reason": "The numbers are right for the criterion the claim states, which is illustrative: keep the gated shift under GR's own precession. Executed numerics put the leading-order overestimate at Mercury's parameters at 1.4–1.7×, which matches 'up to about 2×'. The observed bound is about 10⁴ times tighter; this matters for P21.",
+   "independent_check": "n1_numbers.py: 'Mercury: GM/(a v*^2) = 0.1591; gated = -2.0882 beta rad/orbit; GR = 5.0187e-07 rad/orbit; beta at equality = 2.403e-07'; 'GR per century: 42.98 arcsec'. n5: 'P20: beta = 0.01: ... ratio 0.6942'; 'beta = 0.2: ... ratio 0.5736'. n6, using INPOP15a's supplementary perihelion advance (0.0 ± 3.1) mas/cy from ar5iv 1601.00947 [S]: 'beta < 2.5e-11'; 'agent's illustrative criterion ...: beta < 2.40e-07 (leading order), 3.46e-07 (measured first-order-in-beta precession)'."
+  },
+  {
+   "claim_id": "P21",
+   "verdict": "corrected",
+   "reason": "Readings R1–R5 are numerically right. R6 has two errors. The precession factor is (2/3)(c/v*)² ≈ 4.2×10⁶; (c/v*)² itself is 6.2×10⁶. And 'excluded unless β ≲ 10⁻⁷' uses the illustrative criterion, which gives 2.4–3.5×10⁻⁷; the observed bound on Mercury's anomalous perihelion advance gives β ≲ 2×10⁻¹¹.",
+   "independent_check": "n1: '(2/3)(c/v*)^2 = 4.1609e+06'; (299792.458/120)² = 6.24×10⁶. n6: 'INPOP15a criterion 1, 1 sigma : ... beta < 2.5e-11'; 'INPOP15a mean, 1 sigma : ... beta < 1.7e-11'. R1: 1.5 × '(v/c)^2 = 1.1127e-07' gives 1.7×10⁻⁷. R2: '1/that = 3.0420e+40'.",
+   "corrected_statement": "(R6) Paul's long-range gated model: yes by construction, but it is not in the program as written. It needs a light carrier coupled to χ that cannot also make dwarf cores. It changes inertia at relative order 2β|Φ|/v*², and it precesses slow orbits at (2/3)(c/v*)² ≈ 4×10⁶ times GR's rate per unit β. Acting on ordinary matter it is excluded unless β ≲ 2×10⁻¹¹ (INPOP15a bound on Mercury's supplementary perihelion advance, 0.0 ± 3.1 mas/cy)."
+  },
+  {
+   "claim_id": "P22",
+   "verdict": "confirmed",
+   "reason": "The record reading is accurate: Debt 3a and 3b tested a gated contact interaction whose coupling was fixed by σ0. The Jeans-like threshold for model (b) is an inference and is correctly tagged [O].",
+   "independent_check": "Read Debt 3a 'Setup' ('the x-range collapsed to contact'; g ≡ 4πα̃/m_φ² = √(πσ0/m²)), Debt 3b 'Setup' ('the gated contact attraction adds a channel') and Debt 3c 'Verdict and closure'. The record script reproduces 'ratio = 3.9e-28' and 'ratio = 2.9e-31'."
+  }
+ ],
+ "missed_issues": [
+  "Enander and Mörtsell 2013 (JHEP 10 (2013) 031, arXiv:1306.1086), checked live: elliptical-galaxy lensing plus dynamics excludes 10⁻⁶ ≲ λ_g/r_H ≲ 10⁻³ unless the background ratio c is far from 1. The analysis is linear, without Vainshtein screening. With r_H = c/H0 and H0 = 67.4 the window is 4.45 kpc to 4.45 Mpc (n1: 'Enander-Mortsell window ... 4.45 kpc to 4.45 Mpc'). This bears directly on 'kpc or more' at the program's u = 1. P18 cites the paper only as 'the kind of test'. Its λ = 1 kpc example sits just below the window. The same paper's eqs. (29)–(30) give an independent published anchor for γ_PPN = 5/7 at c = 1.",
+  "The summary says 'the laboratory bound also limits X's range between χ particles, unless X's coupling to ordinary matter is made far weaker than gravity'. This contradicts the agent's own P9: torsion balances do not constrain λ ≫ the separations they probe; Cassini does that, without screening. Under the Vainshtein screening the agent lists as route 4, both the laboratory and the Cassini bounds are evaded at kpc range. Crude criterion at λ = 1 kpc: 6.5×10¹⁶ at Earth's surface and 1.7×10⁹ at 1 AU, against 1.9×10⁻⁶ for a 10¹⁰ M_⊙ galaxy within 1 kpc. A screened kpc-range X at u = 1 is then constrained only by galaxy-scale tests and by the program-internal arguments (P6 if X carries the transfer factor; P19 if X must also make cores). 'Cannot supply' rests on those arguments, not on the laboratory bound.",
+  "Mercury: INPOP15a bounds a supplementary perihelion advance at (0.0 ± 3.1) mas/cy, 7×10⁻⁵ of GR (ar5iv 1601.00947, checked live). For a v* = 120 km/s gate on ordinary matter this gives β < 2.5×10⁻¹¹ (n6), four orders below the agent's 'β ≲ 10⁻⁷'.",
+  "The flyby numerics in P13 carry a systematic error. The start state at R0 = 2×10⁴ uses |p| = v∞ without the potential-energy correction, so the true v∞ is lower (0.0995 at a nominal 0.1). The agent's own β = 0 control is off by 1.9×10⁻³ rad. The 7-digit deflections are biased by +1.9×10⁻³ rad (0.1v*) and +7.8×10⁻⁴ rad (0.3v*). Step halving cannot reveal this.",
+  "The gated precession is not monotonic, so it does not saturate. It is retrograde with magnitude peaking at about 0.31–0.32 rad per orbit near GM/(av*²) ≈ 0.3. At about 3 it is prograde, +0.3 to +0.7 rad. Once the gate is closed all round the orbit it vanishes: 1.6×10⁻⁶ at 30 (n3b, n3d). 'Bound orbits turn backward' holds only for slow orbits.",
+  "P19 uses the classical Coulomb log in the Born regime (A/v ≈ 10⁻⁵). The corrected numbers are A/(G m_χ²) = 3.6×10³¹ and σ_T/σ0 = 2.8×10⁻⁶⁴ for X.",
+  "P8's massive retardation term as written lacks the prefactor αGm1m2. The result holds at all r at O(v²), not only at r ≪ λ_X.",
+  "P16's Milky Way input |Φ| ~ v_c² is shallow. With v_esc ≈ 550 km/s (memory, †), |Φ| = v_esc²/2 and ε/β ≈ 21 instead of 7.3, if all matter were gated. The inputs are labelled illustrative.",
+  "The record's torsion-balance table (Lee 2020 thesis, Table 11.4) was not re-checked against the thesis by the agent or by this verifier. Its interpolation reproduces the published 38.6 μm limit at |α| = 1, which was checked live.",
+  "Process: the agent disclosed that it read the orchestrator's pre-registration (STATE.md) before working. Judgement-level outputs (the summary, P21, P22) were written with the expected verdict known. This verifier did not open STATE.md."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n1_numbers.py (output n1_numbers.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n2_spin2_field_method.py (output n2_spin2_field_method.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n3_gated_orbits.py (output n3_gated_orbits.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n3b_precession_large_x.py (output n3b_precession_large_x.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n3c_debug_large_x.py (output n3c_debug_large_x.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n3d_precession_kic1.py (output n3d_precession_kic1.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n4_mechanics.py (output n4_mechanics.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n5_misc_checks.py (output n5_misc_checks.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-numbers/n6_mercury_bound.py (output n6_mercury_bound.out)",
+  "Record scripts rerun unmodified: /home/paul/git/reinholdtsen/conjugate-matter/verify/phase_space_diameter.py and /home/paul/git/reinholdtsen/conjugate-matter/review/wiki-build-checks/debt3a_check.py"
+ ],
+ "overall": "Most of the agent's numbers survive independent recomputation by different methods. All unit conversions and record numbers reproduce in SI arithmetic: the range bound and M_X, G m_χ², g, the Debt-3a shortfall, σ_χN, the momentum-transfer scales, Cassini's α and u limits, the Vainshtein radii, Λ3, (M_X/H0)², and the Mercury and inertia arithmetic.\n\nThe spin-2 velocity results were rederived without the agent's amplitude method. The classical near-zone field of a moving source acting on a test particle, reduced by an explicit total derivative, reproduces three things exactly: the Darwin Lagrangian, the EIH O(G) velocity terms, and the agent's Fierz–Pauli coefficients (1, 1, −5/2, −1/2), including the M term, at every r.\n\nThe literature anchors check out live:\n- Hinterbichler §2.3 '1/2 vs 1/3' and §3.3 'off by 25 percent'; Λ3 with the reduced Planck mass.\n- Will 2018 eq. (9) and its GR parameter values.\n- Wikipedia's EIH acceleration.\n- Cassini, γ − 1 = (2.1 ± 2.3)×10⁻⁵.\n- Lee et al. 2020, 38.6 μm.\n\nNo memory citation is presented as checked.\n\nThe gated-orbit precession matches a different integrator (adaptive Dormand–Prince) to 7 digits. The contact-model deflections match an analytic impulse approximation.\n\nCorrections:\n- P19: the classical Coulomb log is used in the Born regime. Corrected: 3.6×10³¹ G and σ_T/σ0 = 2.8×10⁻⁶⁴.\n- P13: the flyby angles are biased by up to 2×10⁻³ rad because the start-state energy was not corrected. Corrected: 2.3166 and 1.2146. The precession does not saturate; it peaks, reverses sign and vanishes for fast orbits.\n- P8: the retardation term is missing the αGm1m2 prefactor.\n- P21: (c/v*)² should be (2/3)(c/v*)². The real Mercury bound on a gate acting on ordinary matter is β ≲ 2×10⁻¹¹, not 10⁻⁷.\n- P17 and the summary: the exclusion of kpc ranges is credited to the 37.7 μm laboratory bound, which does not probe them. Without screening, Cassini does that work. Under Vainshtein screening only galaxy tests remain.\n\nMissed: Enander–Mörtsell 2013's published window directly excludes 4.4 kpc to 4.4 Mpc at the program's u = 1 (linear theory).\n\nNone of these changes the agent's bottom line. The program as written has no long-range gated component, and the Debt-3 obituary covers only the contact model. But the long-range exclusion rests on the program-internal arguments (P6, P19), on Cassini and on galaxy tests, not on the laboratory bound."
+}

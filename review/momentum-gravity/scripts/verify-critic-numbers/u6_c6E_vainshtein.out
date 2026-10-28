@@ -1,0 +1,7 @@
+r_S(Sun) = 2953.34 m
+eq.43 (m1 = 0), c = 1  [critic, repo]       : r_V^3 =  4.00 GM lambda^2/c^2 =  2.00 r_S lambda^2 | Saturn needs lambda >  0.724 pc, Pluto  6.053 pc | lambda = 1 kpc: r_V(Sun) =   1189 AU, r_V(2 Msun) =   1498 AU
+eq.40, c = 1, m1 = m2 (palindromic)         : r_V^3 =  2.00 GM lambda^2/c^2 =  1.00 r_S lambda^2 | Saturn needs lambda >  1.024 pc, Pluto  8.560 pc | lambda = 1 kpc: r_V(Sun) =    944 AU, r_V(2 Msun) =   1189 AU
+eq.41 field F, c = 1, m1 = m2               : r_V^3 = 30.00 GM lambda^2/c^2 = 15.00 r_S lambda^2 | Saturn needs lambda >  0.264 pc, Pluto  2.210 pc | lambda = 1 kpc: r_V(Sun) =   2327 AU, r_V(2 Msun) =   2932 AU
+eq.40, c = 1, m1 = 0 (consistency with 43)  : r_V^3 =  4.00 GM lambda^2/c^2 =  2.00 r_S lambda^2 | Saturn needs lambda >  0.724 pc, Pluto  6.053 pc | lambda = 1 kpc: r_V(Sun) =   1189 AU, r_V(2 Msun) =   1498 AU
+
+1 kg, lambda = 50 um: eq.43 1.95e-12 m; eq.40 palindromic 1.55e-12 m; eq.41 palindromic 3.82e-12 m

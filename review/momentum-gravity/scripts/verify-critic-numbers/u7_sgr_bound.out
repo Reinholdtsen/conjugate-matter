@@ -1,0 +1,28 @@
+Sgr now: r = 18.83 kpc, |V| = 317.6 km/s (VB20 [S])
+gate check, closed form vs MC (V = 317.6, sigma_rel = 120):  0.06136 MC 0.06150 +- 0.00004
+
+== model: light halo, rs=16: Vc(8.2) = 220.0 km/s, Vc(50) = 177.8, r200 = 198 kpc, M200 = 8.19e+11 Msun
+   DM sigma_1D (Jeans): r=15: 133, r=20: 125, r=30: 115, r=45: 106, r=60: 99
+   orbit (3 Gyr back): pericentre 15.6 kpc, apocentre 80.2 kpc
+   Jeans DM sigma            : <W> now 0.0621 | time-avg 0.2781 | g_DM-weighted 0.2044 | innermost-20%-of-time 0.0784  ->  eps < 0.1/<W>: 1.61 | 0.36 | 0.49 | 1.27
+   stellar-halo sigma = 100  : <W> now 0.0576 | time-avg 0.2669 | g_DM-weighted 0.1980 | innermost-20%-of-time 0.0764  ->  eps < 0.1/<W>: 1.74 | 0.37 | 0.50 | 1.31
+   sigma = 150               : <W> now 0.0621 | time-avg 0.1665 | g_DM-weighted 0.1336 | innermost-20%-of-time 0.0739  ->  eps < 0.1/<W>: 1.61 | 0.60 | 0.75 | 1.35
+
+== model: KK-like masses, rs=8.8: Vc(8.2) = 230.0 km/s, Vc(50) = 189.7, r200 = 199 kpc, M200 = 8.27e+11 Msun
+   DM sigma_1D (Jeans): r=15: 137, r=20: 130, r=30: 120, r=45: 109, r=60: 101
+   orbit (3 Gyr back): pericentre 15.3 kpc, apocentre 58.3 kpc
+   Jeans DM sigma            : <W> now 0.0624 | time-avg 0.2265 | g_DM-weighted 0.1686 | innermost-20%-of-time 0.0646  ->  eps < 0.1/<W>: 1.60 | 0.44 | 0.59 | 1.55
+   stellar-halo sigma = 100  : <W> now 0.0576 | time-avg 0.2358 | g_DM-weighted 0.1741 | innermost-20%-of-time 0.0604  ->  eps < 0.1/<W>: 1.74 | 0.42 | 0.57 | 1.66
+   sigma = 150               : <W> now 0.0621 | time-avg 0.1526 | g_DM-weighted 0.1220 | innermost-20%-of-time 0.0634  ->  eps < 0.1/<W>: 1.61 | 0.66 | 0.82 | 1.58
+
+== model: heavier halo, rs=20: Vc(8.2) = 240.0 km/s, Vc(50) = 243.7, r200 = 272 kpc, M200 = 2.11e+12 Msun
+   DM sigma_1D (Jeans): r=15: 171, r=20: 166, r=30: 158, r=45: 149, r=60: 142
+   orbit (3 Gyr back): pericentre 14.7 kpc, apocentre 36.2 kpc
+   Jeans DM sigma            : <W> now 0.0602 | time-avg 0.1133 | g_DM-weighted 0.1023 | innermost-20%-of-time 0.0490  ->  eps < 0.1/<W>: 1.66 | 0.88 | 0.98 | 2.04
+   stellar-halo sigma = 100  : <W> now 0.0576 | time-avg 0.1631 | g_DM-weighted 0.1416 | innermost-20%-of-time 0.0406  ->  eps < 0.1/<W>: 1.74 | 0.61 | 0.71 | 2.46
+   sigma = 150               : <W> now 0.0621 | time-avg 0.1186 | g_DM-weighted 0.1070 | innermost-20%-of-time 0.0491  ->  eps < 0.1/<W>: 1.61 | 0.84 | 0.93 | 2.03
+
+range over models, dispersions and weightings: <W> in [0.0406, 0.2781]  ->  eps_max = 0.1/<W> in [0.36, 2.46]
+Jeans-DM-sigma rows only: eps_max in [0.36, 2.04]
+with KK's 4% detectability level (beta = 0.2) instead of 10%: eps_max in [0.14, 0.98]
+in the ordinary-tests convention exp(-v^2/v_a^2) the same bound refers to v_a = sqrt2 x 120 = 169.7 km/s

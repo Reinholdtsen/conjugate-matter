@@ -1,0 +1,8 @@
+v* = 120.0 km/s, gate on chi-chi graviton exchange (hypothetical)
+  UFD (sigma = 4 km/s)   <W> closed = 9.9668e-01  MC = 9.9668e-01 +- 2.2e-06   (rate convention exp(-s^2): 9.9337e-01)
+  classical dSph (10)    <W> closed = 9.7952e-01  MC = 9.7953e-01 +- 1.4e-05   (rate convention exp(-s^2): 9.5973e-01)
+  dwarf core (30)        <W> closed = 8.3805e-01  MC = 8.3812e-01 +- 1.0e-04   (rate convention exp(-s^2): 7.1554e-01)
+  MW halo (155)          <W> closed = 1.1072e-01  MC = 1.1107e-01 +- 2.6e-04   (rate convention exp(-s^2): 4.7044e-02)
+  cluster (1000)         <W> closed = 6.0440e-04  MC = 6.0646e-04 +- 1.1e-05   (rate convention exp(-s^2): 2.1484e-04)
+MW halo (155): effective binding of chi relative to ungated ~ f_b + (1 - f_b)<W> = 0.249
+cluster (1000): effective binding of chi relative to ungated ~ f_b + (1 - f_b)<W> = 0.157

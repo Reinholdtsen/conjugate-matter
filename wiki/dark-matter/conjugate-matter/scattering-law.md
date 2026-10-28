@@ -21,12 +21,14 @@ sources:
   - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
   - "popsci/universes-other-half.md"
   - "papers/conjugate-special-relativity.md §4"
-  - "review/wiki-build-flags.md item 17"
+  - "review/wiki-build-flags.md items 17, 55"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
 ---
 
 *The gated scattering law gives the [momentum-transfer cross-section σ_T](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) of [conjugate matter](/wiki/dark-matter/conjugate-matter), the measure of how strongly its particles scatter off one another, as a function of the relative velocity v of a colliding pair. Because [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) turns the interaction off at large relative velocity, self-scattering is strong in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where dark matter moves at tens of kilometres per second, and absent in galaxy clusters, where it moves at thousands; between the two, σ_T bends down at a knee near the gate velocity v\*. Below the knee the scattering goes equally in all directions, unlike the forward-peaked scattering of the usual models with a light force carrier. The lab notebook first derived a sharp exponential cliff at v\*; once the gate's mechanism was found, the program kept only the knee, and the shape of its tail became an open question that observations could answer.*
 
-**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) and read by [row 3](/wiki/predictions/island-discriminant).
+**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) and read by [row 3](/wiki/predictions/island-discriminant). The gate behind it is disputed in its derivation, not in its form: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## The law
 
@@ -90,6 +92,15 @@ Calc note #6 derived the gate from exchange of the [momentum graviton X](/wiki/g
 
 The lab notebook's v0.4 addendum records the amendment: "the exponential cliff weakens to a *sharp knee at v_\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). The knee's existence follows from the gate depending on k, whatever F is; the location is set by μ. What changed is that the steepness, which v0.1 took from the assumed Gaussian, is no longer a prediction.
 
+### What the gate-mechanism note adds
+
+`notes/gate-mechanism.md` (2026-10-28, not reviewed) finds that the derivation behind this downgrade does not hold: exchanging #11 §7's X cannot produce the gate (§2; flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling). It reads the knee's two tails differently from #6 §4:
+
+- **Where the rationality sits.** "The rationality of tree amplitudes sits in the transfer: the propagator 1/(q² + M_X²) and form factors in t. Integrated over angle these give a light mediator's knee in σ_T(v) with a power-law tail. That is #11 §13 row 1's 'standard expectation' column, not a gate in k" (§3; both derivations) [D][V]. So the rational branch of "tail (Gaussian vs rational)" is the behaviour of an ordinary light mediator, not a second kind of gate.
+- **A Gaussian profile need not give a Gaussian tail.** In the note's first reconstruction of #6 §4's fiber overlap, reading R1, the overlap is an ordinary short-range potential, and its cross-section tails are power laws even for Gaussian profiles, "contrary to #6 §4" (§3; one derivation) [D][V]. The second reconstruction, R2, a pair-channel interaction, gives a gate that falls faster than any power of k but contains no X (§3). Both readings are the note's reconstruction; the theorems about each are derived ([the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)).
+
+The note's own summary of the consequence: "the gate itself is not refuted. What fails is the claim that it has been derived. It returns to what the lab notebook first called it, a postulate" (§5). The knee as written in #11 §8, σ_T(v) = σ₀F(v²/v\*²), is unchanged by this; what is in question is whether anything in the program fixes F.
+
 Row 1 changed with it, from the lab notebook's table (#1 §9) to v1 (#9 §9) and the checkpoint (#11 §13):
 
 | | #1 §9 (v0.1) | #11 §13 |
@@ -122,7 +133,7 @@ The Debt-3 notes were written before the Debt-1 notes and so still speak of an e
 ## What is open
 
 - **The tail.** Whether F is Gaussian or rational is item 4 of #11 §14; #11 §15 counts "gate tail not yet forced" among the program's [degeneration risks](/wiki/program/assessment). See [Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape).
-- **The particle side of the discriminant.** Row 3 reads a sharp tail as particle χ. Calc note #6 calls the rational gates power-law-tailed, and the wave-island suppression is also a power law; no source compares the two or says whether the discriminant survives a rational tail for particles.
+- **The particle side of the discriminant.** Row 3 reads a sharp tail as particle χ. Calc note #6 calls the rational gates power-law-tailed, and the wave-island suppression is also a power law; no source compares the two or says whether the discriminant survives a rational tail for particles. `notes/gate-mechanism.md` §5 now lists the question as open [O]: "Under reading R1 the particle tail is a power law, the same functional class as the wave island's. Whether the discriminant survives is open."
 - **The strength.** Why σ₀ is as large as dwarf cores require while ordinary matter couples to X only at gravitational strength is [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
 
 ## Superseded: the exponential cliff of v0.1
@@ -145,5 +156,6 @@ The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the e
 - `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — what remains distinctive after Debt 3
 - `notes/broken-born-theory.md` §5.1 — the v0.1 law, σ₀, v\*, the two signatures, the Born caveat, the cluster numbers; §9 — the v0.1 row 1 and the flagship discriminants; §3 — the v0.1 amplitude and k = m_χv_rel/2
 - `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ with μ read as the fiber width
-- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; item 55 — the mechanism not derived, awaiting a ruling
+- `notes/gate-mechanism.md` §3 — where the rationality of tree amplitudes sits; reading R1's power-law tails; reading R2; §5 — "the gate itself is not refuted"; the discriminant open under reading R1
 - `popsci/universes-other-half.md` — the knee and core smoothing in the present tense

@@ -1,0 +1,5 @@
+GR check: 42.98 arcsec/cy
+INPOP15a criterion 1, 1 sigma   : |anomalous advance| < 3.1 mas/cy = 3.620e-11 rad/orbit (7.2e-05 of GR) -> beta < 2.5e-11
+INPOP15a mean, 1 sigma          : |anomalous advance| < 2.075 mas/cy = 2.423e-11 rad/orbit (4.8e-05 of GR) -> beta < 1.7e-11
+INPOP15a criterion 1, 2 sigma   : |anomalous advance| < 6.2 mas/cy = 7.239e-11 rad/orbit (1.4e-04 of GR) -> beta < 5.0e-11
+agent's illustrative criterion (gated shift < GR's own precession): beta < 2.40e-07 (leading order), 3.46e-07 (measured first-order-in-beta precession)

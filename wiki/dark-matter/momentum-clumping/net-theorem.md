@@ -21,13 +21,17 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "review/round3-adjudication.md 'Decisions'"
   - "CLAUDE.md 'Since the handoff'"
-  - "review/wiki-build-flags.md items 19, 27"
+  - "review/wiki-build-flags.md items 16, 19, 27, 55, 58"
+  - "notes/velocity-gated-gravity.md §4"
+  - "notes/velocity-gated-gravity.md §7"
+  - "notes/gate-mechanism.md §5"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
   - "notes/closed-universe.md §2"
 ---
 
 *The net theorem is the summary result of [Debt 3](/wiki/history/debts): in every part of the program's parameter space that survives, dark matter clumping by velocity is never a required phenomenon. For particle dark matter it cannot happen. For wave dark matter it was required only under one assumption about the coupling, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which observation rules out; with the coupling left free, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), it is merely optional. The theorem closes the test of the program's [founding image](/wiki/dark-matter/momentum-clumping/founding-image) with a [negative result](/wiki/method/negative-results). It covers collective dynamics only, so whether a single topological object could be localized in momentum is a separate, untested question.*
 
-**Status:** Alive — [D] in #9 §7 ("Three results [D]"); [#11](/wiki/history/documents/checkpoint) §9 states it as result (iii) without a separate tag, resting on (i) [D] and (ii) [D + T]. Collective dynamics only, at the level of the calc notes' mean-field and wave-kinetic estimates. Not machine-checked: no `verify/` script covers Debt 3.
+**Status:** Alive — [D] in #9 §7 ("Three results [D]"); [#11](/wiki/history/documents/checkpoint) §9 states it as result (iii) without a separate tag, resting on (i) [D] and (ii) [D + T]. Collective dynamics only, at the level of the calc notes' mean-field and wave-kinetic estimates. Machine-checked in part: since 2026-10-28 section D of `verify/velocity_gated_gravity.py` reproduces the particle leg's shortfall ratios (flag 16, addendum; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)); no `verify/` script covers the wave legs.
 
 ## Statement
 
@@ -45,7 +49,7 @@ The parameter space divides first by mass, through [the classicality theorem](/w
 
 ### Forbidden: classical particles [D]
 
-On the particle island, dark-matter particles with masses of MeV to GeV, the stream instability needs the attraction energy of co-moving particles to reach their kinetic energy. At the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is fixed by dwarf-galaxy cores, [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹. Below threshold there is no growth, and collisions only drive the gas toward a Maxwellian. Meeting the criterion at fixed cross-section per mass would need m ≲ 0.1 meV, where about 10²⁰ quanta share each state and dark matter is a wave (#11 §9 (i); on the regime in which Debt 3a evaluates that mass, see flag 19 in `review/wiki-build-flags.md`). 3a's summary: "Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework."
+On the particle island, dark-matter particles with masses of MeV to GeV, the stream instability needs the attraction energy of co-moving particles to reach their kinetic energy. At the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is fixed by dwarf-galaxy cores, [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹. Debt 3a's narrow-gate form of the criterion overstates the Milky Way shortfall about 3×, and the verdict is unchanged (flag 58 in `review/wiki-build-flags.md`; [the narrow-gate form, flagged](/wiki/dark-matter/momentum-clumping/instability-criterion#the-narrow-gate-form-flagged)). Below threshold there is no growth, and collisions only drive the gas toward a Maxwellian. Meeting the criterion at fixed cross-section per mass would need m ≲ 0.1 meV, where about 10²⁰ quanta share each state and dark matter is a wave (#11 §9 (i); on the regime in which Debt 3a evaluates that mass, see flag 19 in `review/wiki-build-flags.md`). 3a's summary: "Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework."
 
 ### Fatal: the committed wave [D + T]
 
@@ -76,7 +80,9 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 
 - **Collective dynamics only.** The theorem concerns the collective behaviour of many particles or of a wave field. "The Debt-3 loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 - **The level of the estimates.** The particle leg rests on a mean-field criterion bracketed by two limits. The wave legs rest on a condensation rate whose coefficients are "heuristic at O(1)–O(10) level" and await calibration against Levkov–Panin–Tkachev numerics (3b, header; [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics)); #11 §9 tags them "coefficients [O]". The notes argue that the verdicts survive these uncertainties: the particle side is "Robust to every dropped O(1)" (3a), and in Segue 1 "There is no timescale refuge" even after allowing for the slower growth seen in Levkov–Panin–Tkachev-type kinetics (3c, 'Sharpened input numbers').
-- **Not machine-checked.** No `verify/` script covers a Debt-3 number ([the iron rule](/wiki/method/verification/iron-rule)).
+- **A contact-range interaction.** The theorem concerns the program's own interaction, which acts on contact. It says that velocity clumping is required nowhere, not that clumping cannot happen. A long-range attraction among χ gated in relative velocity is a different model, which Debt 3 never tested; the momentum-gravity note of 2026-10-28 (computed, not reviewed) finds that any clumping it produced would be "decorative" "in the net theorem's own word" (`notes/velocity-gated-gravity.md` §§4, 7; [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers); [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction)).
+- **The gate's mechanism.** Flag 55 in `review/wiki-build-flags.md` proposes that the gate's mechanism is not derived ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The note behind it: "The velocity-clumping obituary is unaffected. If anything it is strengthened: a completion whose only velocity dependence is a knee in σ_T(v) leaves the forward amplitude, which drives collective behaviour, ungated" (`notes/gate-mechanism.md` §5).
+- **Machine-checked in part.** Section D of `verify/velocity_gated_gravity.py` reproduces Debt 3a's shortfall ratios, 3.9×10⁻²⁸ and 2.9×10⁻³¹; no `verify/` script covers a number of the wave legs ([the iron rule](/wiki/method/verification/iron-rule)).
 
 ## Later use
 
@@ -99,5 +105,8 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's "Net" summary
 - `review/round3-adjudication.md` 'Decisions' — the Debt-3 obituary as precedent
 - `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure" since the second data release
-- `review/wiki-build-flags.md` items 19, 27 — the regime of the classicality corollary; the sign of the dark-energy potential, with its addendum; both awaiting a ruling
+- `review/wiki-build-flags.md` items 19, 27 — the regime of the classicality corollary; the sign of the dark-energy potential, with its addendum; items 16 (addendum), 55, 58 — the shortfall now gated, the gate's mechanism, 3a's narrow-gate criterion; all awaiting a ruling
+- `notes/velocity-gated-gravity.md` §4 — what the obituary covers; §7 — the long-range variant "decorative"
+- `notes/gate-mechanism.md` §5 — the obituary unaffected by the mechanism's status
+- `verify/velocity_gated_gravity.py` section D — Debt 3a's shortfall ratios
 - `notes/closed-universe.md` §2 — the turnaround in a closed universe

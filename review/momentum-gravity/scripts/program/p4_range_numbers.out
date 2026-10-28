@@ -1,0 +1,58 @@
+hbar H0 = 1.438e-33 eV ; c/H0 = 4.45 Gpc
+
+== 1. Mass for a given range, and the non-aligned vacuum's vacuum energy ~ M_X^2
+  lambda = 37.7 um (record bound, u = 1) : M_X c^2 = 5.234e-03 eV ; (M_X/H0)^2 = 1.33e+61
+  lambda = 1 AU                          : M_X c^2 = 1.319e-18 eV ; (M_X/H0)^2 = 8.42e+29
+  lambda = 1 pc                          : M_X c^2 = 6.395e-24 eV ; (M_X/H0)^2 = 1.98e+19
+  lambda = 1 kpc                         : M_X c^2 = 6.395e-27 eV ; (M_X/H0)^2 = 1.98e+13
+  lambda = 100 kpc                       : M_X c^2 = 6.395e-29 eV ; (M_X/H0)^2 = 1.98e+09
+  lambda = 1 Mpc                         : M_X c^2 = 6.395e-30 eV ; (M_X/H0)^2 = 1.98e+07
+  lambda = c/H0                          : M_X c^2 = 1.438e-33 eV ; (M_X/H0)^2 = 1.00e+00
+
+== 2. Weakening X's coupling to ordinary matter so its range can be long (alpha = (4/3) u^2 at M_f = M_g)
+  Cassini 2-sigma lower end: gamma - 1 > -2.5e-05  ->  alpha < 5.00e-05  ->  u < 6.12e-03  (unscreened, lambda_X >> 1 AU)
+  at alpha = 4/3 (u = 1): gamma - 1 = -0.2857
+
+== 3. Vainshtein radius r_V = (r_S (1+u^2) lambda^2)^(1/3) for lambda_X = 1 kpc
+  Sun                                                u = 1.0   : r_V = 1.78e+14 m = 1.19e+03 AU = 5.76e-03 pc
+  Sun                                                u = 0.006 : r_V = 1.41e+14 m = 9.44e+02 AU = 4.57e-03 pc
+  galaxy mass inside 1 kpc, 1e10 Msun (illustrative) u = 1.0   : r_V = 3.83e+17 m = 2.56e+06 AU = 1.24e+01 pc
+  galaxy mass inside 1 kpc, 1e10 Msun (illustrative) u = 0.006 : r_V = 3.04e+17 m = 2.03e+06 AU = 9.86e+00 pc
+  dwarf, 1e7 Msun (illustrative)                     u = 1.0   : r_V = 3.83e+16 m = 2.56e+05 AU = 1.24e+00 pc
+  dwarf, 1e7 Msun (illustrative)                     u = 0.006 : r_V = 3.04e+16 m = 2.03e+05 AU = 9.86e-01 pc
+
+== 4. The record's chi-chi strength against gravity
+  G m_chi^2 = 3.29e-41 (dimensionless, hbar = c = 1); alpha~/(G m^2) = 3.04e+40
+  Debt-3a contact coupling g = 2.48e+03 GeV^-2 vs G = 1/M_P^2 = 6.71e-39 GeV^-2: ratio 3.70e+41
+  sigma0 = (30 cm^2/g) m_chi = 3.74e-24 cm^2 = 9.61e+03 GeV^-2
+
+== 5. Momentum transfer in halo scattering vs X's range (the 'integrate X out' step needs q << M_X)
+  v =     30 km/s: m_chi v = 7.00 keV ; hbar/(m_chi v) = 2.82e-11 m ; 37.7 um / (hbar/(m v)) = 1.34e+06
+  v =    120 km/s: m_chi v = 28.02 keV ; hbar/(m_chi v) = 7.04e-12 m ; 37.7 um / (hbar/(m v)) = 5.35e+06
+  v =   1000 km/s: m_chi v = 233.49 keV ; hbar/(m_chi v) = 8.45e-13 m ; 37.7 um / (hbar/(m v)) = 4.46e+07
+  benchmark transfer mediator m_phi ~ m_chi: range hbar/(m_phi c) = 2.82e-15 m
+
+== 6. A long-range chi-chi force that made dwarf cores by scattering: required strength vs gravity
+  v = 30.0 km/s, range 3.09e+19 m: required A = 1.08e-09 (ln = 80); A/(G m^2) = 3.30e+31
+  v = 30.0 km/s, range 3.77e-05 m: required A = 1.97e-09 (ln = 24); A/(G m^2) = 5.99e+31
+  X at alpha = 4/3, 37.7 um, v = 30 km/s: sigma_T = 7.43e-87 cm^2 ; sigma_T/sigma0 = 1.99e-63
+
+== 7. chi-nucleon X exchange if chi's X coupling is what makes sigma0 (assumptions in the claim)
+  sigma_chiN/sigma_chichi = (mu_chiN/(m/2))^2 alpha G m_N^2/alpha~ = 2.73e-38 ; sigma_chiN = 1.02e-61 cm^2
+
+== 8. Size of the inertia change in a velocity-gated Newtonian potential: eps = 2 beta |Phi|/v*^2 (v* = 120 km/s)
+  Earth around the Sun, |Phi| = v_orb^2, v_orb = 29.8 km/s    : eps/beta = 0.123
+  Milky Way at the Sun, |Phi| ~ v_c^2, v_c = 230 km/s         : eps/beta = 7.347
+  classical dwarf, |Phi| ~ 3 sigma^2, sigma = 10 km/s         : eps/beta = 0.042
+  ultra-faint dwarf, |Phi| ~ 3 sigma^2, sigma = 3.7 km/s      : eps/beta = 0.006
+  co-moving fraction in the MW halo (sigma = 155 km/s), n_gate/n = (v*/sigma)^3/(2 pi)^1.5 = 0.029; eps/beta with only that fraction gated = 0.216
+  inertia singularity of the Lagrangian form, r_* = 2 beta GM/v*^2, for the Sun (beta = 1): 0.123 AU
+
+== 9. Illustration: the same gate acting on ordinary matter (excluded by the record: no gate for SM)
+  Mercury: GM/(a v*^2) = 0.159; gated precession per orbit = -2.088e+00 beta rad (leading order); GR = 5.019e-07 rad; ratio = -4.161e+06 beta
+  beta for which |gated| = GR precession: 2.4e-07
+
+== 10. Strong-coupling scale of a light massive spin-2, Lambda_3 = (M_X^2 M_Pl)^(1/3), M_Pl reduced = 2.435e18 GeV (literature form, dagger)
+  range 37.7 um : M_X = 5.23e-03 eV, Lambda_3 = 4.06e+07 eV, 1/Lambda_3 = 4.87e-15 m
+  range 1 kpc   : M_X = 6.39e-27 eV, Lambda_3 = 4.64e-09 eV, 1/Lambda_3 = 4.26e+01 m
+  range c/H0    : M_X = 1.44e-33 eV, Lambda_3 = 1.71e-13 eV, 1/Lambda_3 = 1.15e+06 m

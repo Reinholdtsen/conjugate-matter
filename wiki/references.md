@@ -25,9 +25,13 @@ sources:
   - "review/round4/referee/audit-notes.md Steps 1, 2(b)"
   - "review/round4-adjudication.md Rulings, Revisions for v2 of the note"
   - "review/round4-preregistration.md Predictions"
-  - "review/wiki-build-flags.md items 7, 9, 18, 20, 21, 22, 26, 31, 32, 34, 44, 45, 50, 53, 54"
+  - "review/wiki-build-flags.md items 7, 9, 18, 20, 21, 22, 26, 31, 32, 34, 44, 45, 50, 53, 54, 57"
   - "notes/closed-universe.md §2–§6"
   - "verify/closed_universe.py docstring, anchors"
+  - "notes/velocity-gated-gravity.md §2–§9, Sources"
+  - "notes/gate-mechanism.md §2, Sources"
+  - "verify/velocity_gated_gravity.py anchors, C, G, J"
+  - "verify/gate_mechanism.py anchors"
   - "review/wiki-build-rulings.md flag 44"
   - "review/wiki-build-checks/quadratic_gap.py inputs"
   - "review/wiki-build-checks/flag-audit.json flag 31"
@@ -420,7 +424,8 @@ Added by the wiki from model memory (†), cited by no program document:
   - Marks: The phase-space-diameter note's [S], both.
   - Cited for: The linearized potential between two masses in Hassan–Rosen bimetric gravity with matter on g, V(r) = −(Gm₁m₂/r)(1 + α e^{−r/λ_X}) with α = (4/3)(M_f u/M_g)², u being the ratio of the two metrics' backgrounds, f̄ = u²ḡ, which the papers write c (Lüben et al. eq. 9; Enander and Mörtsell eq. 4.1): the coupling behind the note's bound on X's range. Lüben et al. also for the instability of bimetric cosmologies while H exceeds the spin-2 mass, a caveat of the bound (note §8.2).
   - Checks: Both round-5 referees found that the two cited equations carry the background ratio, which version 1.0 had dropped; ruling R1 upheld the finding in substance, and version 1.1 carries the ratio and argues for the program's value u = 1 (Step 1 of both referees' notes; `review/round5-adjudication.md`, R1 and R16).
-  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [The laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound), [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units), [Yukawa forces and their range](/wiki/gravity/spin-2-fields/yukawa-forces), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [Obituary: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary), [Round 5](/wiki/method/review/round-5).
+  - Also cited for: Vainshtein radii in bimetric gravity, Enander and Mörtsell's eqs. 38–43, which the velocity-gated-gravity note cites as "Enander and Mörtsell, Vainshtein radii in bimetric gravity, eqs. 38–43 [S, read by the run-3 critic-numbers verifier and by the drafting session on 2026-10-27]" and the script as "Enander-Mortsell 2013": the diameter note's check uses eq. 43, which assumes a massless mode, where eqs. 40–41 apply (flag 57 in `review/wiki-build-flags.md`); and the edge of their linear-theory lensing window, 4.4 kpc [T][S], where the screened windows for λ_X would close if the branch screens at all (flag 57; script check J3, which gives the window as 4.4 kpc–4.4 Mpc at u ~ 1).
+  - Cited on: [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), [The laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound), [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies), [The phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script), [The velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script), [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units), [Yukawa forces and their range](/wiki/gravity/spin-2-fields/yukawa-forces), [Bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology), [Obituary: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary), [Round 5](/wiki/method/review/round-5).
 - **Aoki and Mukohyama 2016.** K. Aoki, S. Mukohyama, "Massive gravitons as dark matter and gravitational waves," Phys. Rev. D 94, 024001 (2016), arXiv:1604.06704.
   - Marks: The diameter note's [S].
   - Cited for: The bigravity paper that Lee et al. cite when they draw the conclusion of their torsion-balance limit for a "heavy graviton" (note §8.2).
@@ -443,7 +448,7 @@ Added by the wiki from model memory (†), cited by no program document:
 - I. G. Macdonald, *Symmetric Functions and Hall Polynomials* (1979; second edition 1995)†: elementary symmetric polynomials, power sums and Newton's identities. Cited on: [Elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials).
 - S. Weinberg, "The cosmological constant problem," Rev. Mod. Phys. 61, 1 (1989)†: the classic review. Cited on: [The cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem), [The cosmological constant Λ](/wiki/cosmology/dark-energy/cosmological-constant).
 - J. Martin (2012)†: a more recent review of the cosmological-constant problem. Cited on: [The cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem).
-- H. van Dam, M. Veltman, Nucl. Phys. B (1970)†; V. I. Zakharov, JETP Lett. (1970)†: the discontinuity of massive spin-2 exchange. Cited on: [Stückelberg fields](/wiki/symmetry-breaking/stuckelberg-fields), [Yukawa forces and their range](/wiki/gravity/spin-2-fields/yukawa-forces).
+- H. van Dam, M. Veltman, Nucl. Phys. B (1970)†; V. I. Zakharov, JETP Lett. (1970)†: the discontinuity of massive spin-2 exchange; `verify/gate_mechanism.py` cites "van Dam-Veltman-Zakharov (1970) †" for the static ratio 4/3 of the massive and massless numerators. Cited on: [Stückelberg fields](/wiki/symmetry-breaking/stuckelberg-fields), [Yukawa forces and their range](/wiki/gravity/spin-2-fields/yukawa-forces), [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies), [The gate-mechanism script](/wiki/method/verification/gate-mechanism-script).
 
 ## Maximum force and maximal acceleration
 
@@ -519,7 +524,7 @@ The program's documents cite no source for the halo astrophysics and kinetic the
   - Cited on: [Planck units and the two Planck masses](/wiki/gravity/spin-2-fields/planck-units), [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance), [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure), [Thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out), [Big Bang nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis), [A hidden sector at its own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature), [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution), [Gravitational waves from phase transitions](/wiki/cosmology/early-universe/phase-transition-gravitational-waves), [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era), [The relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution), [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration), [Round-3 pre-registration](/wiki/method/review/round-3/preregistration), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
 - **Planck 2018.** Planck Collaboration, Astron. Astrophys. 641, A6 (2020), arXiv:1807.06209; the phase-space-diameter note gives the authors and title as N. Aghanim et al., "Planck 2018 results. VI. Cosmological parameters".
   - Marks: #14 [23], unmarked; the diameter note's [S]. The v3 worklog's first estimate used a bound of 0.3, "an approximate Planck 2018 value, from memory †". `verify/soliton_obituary.py` takes "PDG and Planck 2018 values" for its constants, PDG being the Particle Data Group.
-  - Cited for: The bound on extra relativistic species, written in #14 §4 as N_eff = 2.99 +- 0.34 at 95%. In the diameter note, H₀ = 67.4 km s⁻¹ Mpc⁻¹ and Ω_m = 0.315, for which today's observable universe has a comoving radius of 46.1 Gly (§3); `verify/phase_space_diameter.py` takes the same two values as inputs.
+  - Cited for: The bound on extra relativistic species, written in #14 §4 as N_eff = 2.99 +- 0.34 at 95%. In the diameter note, H₀ = 67.4 km s⁻¹ Mpc⁻¹ and Ω_m = 0.315, for which today's observable universe has a comoving radius of 46.1 Gly (§3); `verify/phase_space_diameter.py` takes the same two values as inputs. In the velocity-gated-gravity note, the optical depth to reionization, 0.054 ± 0.007, against which the narrow-gate proxies are set (§8; "Planck 2018 optical depth" [S], Sources).
   - Checks: The round-3 referee found that eq. (67b) gives "N_eff = 2.99 +0.34 -0.33" at 95% and that Planck uses N_eff,SM = 3.046 for the Standard Model value (Step 1). Flag 22 records the asymmetric interval and that nothing changes; flag 34 records that the gate's constants are typed in, not retrieved. Round-5 referee A found the diameter note's H₀ and Ω_m in the abstract (Step 1).
   - Cited on: [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic), [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history), [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction), [The cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background), [A hidden sector at its own temperature](/wiki/cosmology/early-universe/hidden-sector-temperature), [The radiation era: thermal history and N_eff](/wiki/cosmology/early-universe/radiation-era), [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step), [The blind-review protocol and verdict scale](/wiki/method/review/review-protocol), [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration), [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings), [The phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script), [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script).
 - **Gangui (astro-ph/0110285).** A. Gangui, astro-ph/0110285, p. 14, as the round-3 referee cites it.
@@ -689,6 +694,59 @@ The closed-universe note (`notes/closed-universe.md`, 2026-10-27) cites these in
   - Marks: The closed-universe note's [S], found by a verifier (§5). A different paper from Tseytlin (1991)†, on scale-factor duality, under early-universe cosmology above.
   - Cited for: A bound on the size of a toroidal universe from duality (§5).
   - Cited on: [Reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity).
+
+## Momentum gravity and velocity-dependent forces
+
+The velocity-gated-gravity note (`notes/velocity-gated-gravity.md`, 2026-10-28) and the gate-mechanism note (`notes/gate-mechanism.md`, 2026-10-28) cite these in their text and source lists; neither has a numbered reference list. Their marks: [S] for a work retrieved by live search, with "abstract", "read twice" or "one agent" where the note says how it was read; † for one cited from memory; and [T] for textbook physics. Some works are named only in `verify/velocity_gated_gravity.py`, which the entries say. Works cited elsewhere in the record keep their entries above: Lee et al. 2020 for the torsion-balance range, Enander and Mörtsell 2013 for the Vainshtein radii (flag 57), van Dam, Veltman and Zakharov for the static ratio 4/3, and Planck 2018 for the optical depth.
+
+- **Einstein, Infeld and Hoffmann 1938; Landau and Lifshitz §106.** Einstein, Infeld and Hoffmann 1938, as the velocity-gated-gravity note names it, by surnames and year; Landau and Lifshitz, "sec. 106", as the script names it.
+  - Marks: [T] in the note (§2, Sources), beside the Fierz–Pauli propagator; the script cites Landau and Lifshitz for the anchor without a mark.
+  - Cited for: The two-body Lagrangian of general relativity at order v², which massless spin-2 exchange reproduces; the anchor of the script's check that massive spin-2 exchange carries (3γ² − 1)/2 (note §2; script anchor A2).
+  - Cited on: [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies), [The velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script).
+- **Tisserand 1872.** Named by surname and year only.
+  - Marks: [S] (note §3).
+  - Cited for: An early application of a Weber-type law, a force depending on relative velocity, to the planets (§3).
+  - Cited on: [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies).
+- **Kramer et al. 2021; the planetary ephemerides; lunar laser ranging.** Kramer et al. 2021, §VI.2.1, as the script names it, for the double pulsar; the Mars perihelion from the EPM2011 ephemeris and Mercury's from INPOP15a; lunar laser ranging; binary pulsars.
+  - Marks: The note's [S] for the Mars perihelion (EPM2011), lunar laser ranging and binary pulsars (Sources); Kramer et al. and INPOP15a are named in the script without a mark.
+  - Cited for: The bounds on a relative-velocity gate acting between all bodies: |ε| < 8.7×10⁻⁹ over Gaussian gate widths of 0.3–3000 km/s, set at the wide end by the double pulsar, and 3.5×10⁻¹¹ at the record's width from Mars's perihelion (§3; script checks C1–C3).
+  - Cited on: [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies), [The velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script).
+- **Weinberg 1964; Porrati 2008.** Weinberg, Phys. Rev. 135, B1049 (1964); Porrati 2008, by surname and year.
+  - Marks: Weinberg [S, abstract]; Porrati [S] (note §9, Sources). A different paper from S. Weinberg (1964)† on the universality of a massless spin-2 coupling, under relativity and gravitation above, which the wiki cites from memory; whether the two are the same paper is not recorded.
+  - Cited for: Massless fields of spin 3 or more give no macroscopic force (§9).
+  - Cited on: [What could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers).
+- **Afkhami-Jeddi, Kundu and Tajdini 2019.** Afkhami-Jeddi, Kundu and Tajdini, JHEP 04 (2019) 056.
+  - Marks: [S] (note §9, Sources).
+  - Cited for: Finitely many massive fields of spin above 2 cannot couple causally to gravitons (§9).
+  - Cited on: [What could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers).
+- **Schuster, Toro and Zhou 2023.** Schuster, Toro and Zhou, JHEP 04 (2023) 010, arXiv:2303.04816.
+  - Marks: [S] (Sources); in §9, "[T][S, read twice: by the run-3 theory verifier, and by the drafting session on 2026-10-27, whose fetch is in the session transcript, not the record; numbers D]".
+  - Cited for: The interaction of a massless continuous-spin particle with a scalar current, eq. 129, whose correction depends only on the relative velocity and vanishes for co-moving bodies; the note's own number is the scale ρ = 1.6×10⁻²³ eV for a 120 km/s threshold at 1 kpc (§9; script check I4).
+  - Cited on: [What could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers), [The velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script).
+- **The Lyman-α data.** The compressed Lyman-α parameters of DESI's first data release; the compressed parameters of eBOSS and their 4.9σ tension with Planck, arXiv:2311.16377; the full-shape bounds of the Baryon Oscillation Spectroscopic Survey on long-range dark-matter forces, arXiv:2204.08484 and 2309.11496.
+  - Marks: [S], all (note Sources); in §6 the bound is "[D; derived twice independently; DESI and Planck inputs S]".
+  - Cited for: Δ² = 0.379 ± 0.032 and n = −2.309 ± 0.019 at the pivot, which give ε < 0.057–0.106 in the record's reading at v\* = 120 km/s; the eBOSS preference for ε ≈ 0.05, which the note says is not evidence; and the full-shape limit β < 0.0048, which does not transfer to the gated model (§6).
+  - Cited on: [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction), [The velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script).
+- **Kesden and Kamionkowski 2006; Keselman, Nusser and Peebles.** By surnames, and year for the first.
+  - Marks: [S], both (note §6, Sources).
+  - Cited for: The leading/trailing asymmetry of the Sagittarius stream as a limit on a dark-matter-only force, "a 10% level stated without a confidence level", and the dispute of it; the note's bound is ε ≲ O(1), 0.2–2.5 (§6).
+  - Cited on: [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction).
+- **Vogelsberger and White.** By surnames only.
+  - Marks: [S] (note §4, Sources).
+  - Cited for: About 10¹⁴ fine-grained dark-matter streams near the Sun in cold dark matter, against the founding image's ten broad ones (§4).
+  - Cited on: [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction).
+- **Read, Walker and Steger 2019; Simon et al. 2011.** Named in the script only, for the central free-fall times of classical dwarf spheroidals and of Segue 1.
+  - Marks: None in the note; the script names them without a mark. Simon et al. 2011 also has an entry, from memory, under halos above.
+  - Cited for: The conversion of the N-body runs' 43 central free-fall times into 0.1–0.6 Gyr in a dwarf (script check G4).
+  - Cited on: [The velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script).
+- **Fierz–Pauli propagator; residue factorization; the effective-range expansion.** Named as textbook physics.
+  - Marks: [T] (gate-mechanism note, Sources).
+  - Cited for: The spin-2 numerator of the t-channel exchange, the proportionality of a spin-J pole's residue to P_J(z_t), and the near-threshold resonance σ = 4πa²/(1 + k²a²) (§2).
+  - Cited on: [The gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism), [The gate-mechanism script](/wiki/method/verification/gate-mechanism-script).
+- **Chu, Garcia-Cely and Murayama 2019.** By surnames and year, as an example ("e.g.").
+  - Marks: † (gate-mechanism note §2, Sources: "prior art †").
+  - Cited for: Resonant self-interacting dark matter, the standard form a near-threshold state with 1/a = μ would give, which is not the record's gate (§2).
+  - Cited on: [The gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism).
 
 ## Monopoles, electric–magnetic duality and the charge lattice
 
@@ -951,3 +1009,4 @@ The verifiers of the wiki build compared every page with its sources and recorde
 - `verify/soliton_obituary.py`, `verify/toy_gw.py` — the literature the gate's anchors take their values from
 - Repository history, commits 008c3ee, e1c1f67 and 6ee74d0 — #11 version 2.0's reference [21], the version-2.1 upgrade of [21] and the added [26]–[29], and the verified quotation of [26]
 - The wiki pages linked in each "Added by the wiki" line — the works they cite from model memory
+- `notes/velocity-gated-gravity.md` §§2–9 and Sources, `notes/gate-mechanism.md` §2 and Sources — the two notes of 2026-10-28, their marks and what each work is cited for; `verify/velocity_gated_gravity.py` anchors and sections C, G and J, `verify/gate_mechanism.py` anchors — the works named only in the scripts; `review/wiki-build-flags.md` item 57 — the Vainshtein formula

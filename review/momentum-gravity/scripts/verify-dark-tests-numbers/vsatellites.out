@@ -1,0 +1,33 @@
+Sgr (del Pino solar params): r = 18.07 kpc, |V| = 311.1 km/s  [paper: 18.11, 311.1]
+Sgr (R0=8.122, v_sun=(12.9,245.6,7.78), dagger): r = 18.22 kpc, |V| = 313.2 km/s
+Eilers v_c(18.11) = 212.0 km/s -> isothermal sigma_1D = 149.9 km/s
+isothermal orbit (v_r=143.6, v_t=276.0): peri 14.7 kpc (V=339.9), apo 46.7 kpc (V=106.7)
+
+Sgr gate factor <W> (host sigma 149.9 + satellite 12 km/s, dagger):
+  v*=  120: gauss MC 0.0656 closed 0.0656 | rational MC 0.2090 | eps<0.1/<W>: gauss 1.524 rational 0.479
+  v*=  200: gauss MC 0.2356 closed 0.2357 | rational MC 0.3931 | eps<0.1/<W>: gauss 0.424 rational 0.254
+  v*=  300: gauss MC 0.4649 closed 0.4648 | rational MC 0.5702 | eps<0.1/<W>: gauss 0.215 rational 0.175
+  v*= 1000: gauss MC 0.9224 closed 0.9223 | rational MC 0.9262 | eps<0.1/<W>: gauss 0.108 rational 0.108
+  v*= 2000: gauss MC 0.9797 closed 0.9797 | rational MC 0.9800 | eps<0.1/<W>: gauss 0.102 rational 0.102
+  orbit-time-averaged Gaussian <W> at v*=120: 0.1438 (vs 0.0656 at current V) -> eps < 0.695
+
+Bullet cluster, V = 2600 km/s:
+  Barrena via secondary  v*=  120: gauss 1.053e-04 (closed 1.041e-04) rational 5.091e-03
+  Barrena via secondary  v*= 1000: gauss 6.512e-02 (closed 6.497e-02) rational 2.077e-01
+  Barrena via secondary  v*= 3000: gauss 5.680e-01 (closed 5.683e-01) rational 6.453e-01
+  Barrena via secondary  within main (pair sigma sqrt2*1250), v*=120: gauss 3.107e-04
+  DS+ 2022               v*=  120: gauss 1.022e-04 (closed 1.028e-04) rational 5.119e-03
+  DS+ 2022               v*= 1000: gauss 6.533e-02 (closed 6.513e-02) rational 2.085e-01
+  DS+ 2022               v*= 3000: gauss 5.701e-01 (closed 5.703e-01) rational 6.468e-01
+  DS+ 2022               within main (pair sigma sqrt2*1163), v*=120: gauss 3.853e-04
+  Farrar-Rosen 0.4-1.2 x gravity -> eps = 3.844e+03 - 1.153e+04 at v*=120 (gauss)
+
+Internal gate (pairs, sigma_pair = sqrt2 sigma), v*=120 unless noted:
+  sigma=   3.7: gauss MC 0.9972 closed 0.9972 rational MC 0.9972
+  sigma=   6.6: gauss MC 0.9910 closed 0.9910 rational MC 0.9911
+  sigma=  10.0: gauss MC 0.9796 closed 0.9795 rational MC 0.9799
+  sigma=  11.7: gauss MC 0.9721 closed 0.9721 rational MC 0.9727
+  sigma=  30.0: gauss MC 0.8379 closed 0.8381 rational MC 0.8541
+  sigma= 155.0: gauss MC 0.1113 closed 0.1107 rational MC 0.2554
+  sigma=1000.0: gauss MC 0.0006 closed 0.0006 rational MC 0.0124
+  v*=30, sigma=10: gauss 0.7401

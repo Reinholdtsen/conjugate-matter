@@ -1,0 +1,9 @@
+dwarf: r=0.25, Lam_g=8.41960e-01, stream-mode crossover gt=1/Lam_g=1.188; Lambda_0(gt=1)=1.839833 <= 1+Lam_g=1.841960
+MW: r=1.2917, Lam_g=1.49279e-01, stream-mode crossover gt=1/Lam_g=6.699; Lambda_0(gt=1)=1.113881 <= 1+Lam_g=1.149279
+cluster: r=8.3333, Lam_g=1.44352e-03, stream-mode crossover gt=1/Lam_g=692.8; Lambda_0(gt=1)=1.000605 <= 1+Lam_g=1.001444
+MW kscan gt=280.7 kappa^2=30: Gamma=0.7783/t_ff -> e-fold 52.7 Myr = 0.240 t_orb(219 Myr) = 0.428 t_cross(122.9 Myr)
+MW odd-softening peak gt=240 kappa^2=19.74: Gamma=0.7666/t_ff -> e-fold 53.5 Myr = 0.244 t_orb(219 Myr) = 0.435 t_cross(122.9 Myr)
+MW kscan gt=280.7 kappa^2=8: Gamma=0.3517/t_ff -> e-fold 116.5 Myr = 0.532 t_orb(219 Myr) = 0.948 t_cross(122.9 Myr)
+MW kscan gt=56.14 kappa^2=8: Gamma=0.1742/t_ff -> e-fold 235.2 Myr = 1.074 t_orb(219 Myr) = 1.914 t_cross(122.9 Myr)
+MW travelling gt=320 kappa^2=19.74: Gamma=0.1743/t_ff -> e-fold 235.1 Myr = 1.074 t_orb(219 Myr) = 1.913 t_cross(122.9 Myr)
+MW travelling gt=56.14 kappa^2=3: Gamma=0.0754/t_ff -> e-fold 543.5 Myr = 2.482 t_orb(219 Myr) = 4.422 t_cross(122.9 Myr)

@@ -24,6 +24,8 @@ sources:
   - "HANDOFF.md §4"
   - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
   - "popsci/universes-other-half.md 'A second speed of light'"
+  - "review/wiki-build-flags.md item 56"
+  - "notes/velocity-gated-gravity.md §2"
 ---
 
 *The maximum force is the limit that the [momentum-space light cone](/wiki/conjugate-relativity/two-causal-cones) places on how fast momentum can change, as the ordinary light cone limits speed to c: since a rate of change of momentum is a force, the limit is a largest possible force, c̃ = ℏc/λ², where λ is a length that the paper [#13](/wiki/conjugate-relativity) calls the [Born length](/wiki/phase-space/reciprocity/born-length). Setting the Born length equal to the [Planck length](/wiki/gravity/spin-2-fields/planck-units#the-born-length-at-the-planck-length) gives c̃ = c⁴/G, about 1.2 × 10⁴⁴ newtons, which #13 describes as "the scale black holes reach when they collide". The general-relativity literature already contains a [conjectured maximum force](/wiki/conjugate-relativity/maximum-force-conjectures), c⁴/4G; #13's value is larger by a factor of 4, and the factor is open. A maximal force from Born reciprocity is also in the literature, in Low's reciprocal relativity of 2006. The value depends entirely on the Born length: the phase-space-diameter note shows that a Born length of about 50 micrometres, the one length that makes the universe's range of scales exactly symmetric under reciprocity, would put the maximum force near 10⁻¹⁷ newtons, below the force that holds a hydrogen atom together, which excludes that length ([Obituary: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary)). The result is alive but unreviewed: no review round has examined #13, the note's script checks only the arithmetic of c⁴/G, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
@@ -108,7 +110,7 @@ The literature sweep for the phase-space-diameter note found prior art for the i
 
 ## Where forces approach c̃
 
-#13's plain passage for §1 places the limit at "about 10⁴⁴ newtons, the scale black holes reach when they collide". §2 names comparable-mass black-hole mergers as the one natural process that "operates at F ~ c̃ by construction", and so the one arena where dual-kinematic corrections could be of order unity, flagged and not derived ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). In #13's account every other natural process stays far below the limit, which it gives as the reason force looks exactly additive.
+#13's plain passage for §1 places the limit at "about 10⁴⁴ newtons, the scale black holes reach when they collide". §2 names comparable-mass black-hole mergers as the one natural process that "operates at F ~ c̃ by construction", and so the one arena where dual-kinematic corrections could be of order unity, flagged and not derived ([Force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). Merging black holes are in free fall, which #13 §5 identifies with dual rest, so the paper gives two answers for them (flag 56 in `review/wiki-build-flags.md`, awaiting Paul's ruling). In #13's account every other natural process stays far below the limit, which it gives as the reason force looks exactly additive.
 
 A conjecture from the original chat reads a black hole's horizon in the momentum description as a maximum-force surface: "hovering at horizon requires F → c⁴/G" (`HANDOFF.md` §4, conjecture tier; [Momentum-space black holes (chat-only)](/wiki/conjugate-relativity/momentum-space-black-holes)).
 
@@ -131,3 +133,4 @@ A conjecture from the original chat reads a black hole's horizon in the momentum
 - `notes/broken-born-theory.md` §2 — the reference length λ and momentum ε = ℏ/λ.
 - `HANDOFF.md` §2 — the alive listing, "up to the factor 4"; §4 for the chat-only horizon reading.
 - `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' and `popsci/universes-other-half.md` 'A second speed of light' — "of exactly that form" and "of exactly this form" (not a status source).
+- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth

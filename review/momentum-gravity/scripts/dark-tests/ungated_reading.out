@@ -1,0 +1,5 @@
+k_p = 0.009 s/km at z=3 -> 0.6927 1/Mpc (1.0283 h/Mpc)
+Anchor: EH98 no-wiggle LCDM (Planck 2018 params): Delta^2 = 0.3368, n = -2.3072
+        published Planck-based prediction (Rogers & Poulin): Delta^2 = 0.3495, n = -2.3052
+ungated (matter): T^2(k_p, z=3) at eps=0.01: 1.0723, dn = +0.00000 ; DESI compressed bound eps < 0.0335
+ungated (gas): T^2(k_p, z=3) at eps=0.01: 1.0575, dn = +0.00000 ; DESI compressed bound eps < 0.0419

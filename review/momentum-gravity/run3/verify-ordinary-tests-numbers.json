@@ -1,0 +1,365 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "O1",
+   "verdict": "confirmed",
+   "reason": "Every quoted item is in the cited paper. Holzmüller and Gerber are not in it, and the agent correctly daggered them.",
+   "independent_check": "Fetched ar5iv gr-qc/9708047 (Bunchaft and Carneiro, Found. Phys. Lett. 10, 393 (1997)). It contains the sentences 'With this force, Tisserand obtained 3/8 of the then known value for the anomalous perihelion precession of Mercury' and 'Levy [4], extending this potential energy, obtained the entire value'. References: '[3] M. Tisserand, C.R.Acad.Sc. (Paris) 75 (1872) 760; 111 (1890) 313' and '[4] M. Levy, C.R.Acad.Sc. (Paris) 110 (1890) 72'. The abstract says Weber-like forces are conservative iff gamma = 2 mu, and that such theories 'cannot be conservative and also yield both the precession of the perihelion of Mercury' and the light deflection."
+  },
+  {
+   "claim_id": "O2",
+   "verdict": "confirmed",
+   "reason": "The CM reduction and every test number check out. Two minor points. The stated interaction drops the velocity-independent -G(m1+m2)/(2rc^2) term, which does not matter for the point being made. I did not check the EIH Ann. Math. citation myself.",
+   "independent_check": "Sympy (vot_misc.py) printed 'bracket in CM frame - [(3+nu) v^2 + nu (n.v)^2] = 0'. My own text extraction of the DE430 memo reads 'The point mass accelerations for solar system bodies follow the relativistic Einstein-Infeld-Hoffmann formulation'. Will 2014 (ar5iv): 'beta-1=(-4.1±7.8)x10-5' (Messenger, Cassini gamma adopted) and '(0.4±2.4)x10-4' (MRO, Mars). Kramer et al. 2021 (ar5iv): omega-dot '16.899323(13)' deg/yr; 2PN term about 4.39e-4 deg/yr, 'about 35 times the measurement error'. Murphy et al. 2007: 'a part in a thousand fit to the gravitomagnetic contributions'. Kopeikin gr-qc/0702120: LLR 'is not currently capable to detect gravitomagnetic effects', argued from the gauge residual freedom."
+  },
+  {
+   "claim_id": "O3",
+   "verdict": "confirmed",
+   "reason": "The values match Will 2014 Table 4 as rendered on ar5iv. The rendering is garbled, but the 7e-5 entry sits in the alpha1 row with remark PSR J1738+0333.",
+   "independent_check": "ar5iv 1403.7377, Table 4: alpha1 10^-4 (lunar laser ranging) and 7x10^-5 (PSR J1738+0333); alpha2 2x10^-9 (millisecond pulsars). Text: 'we are moving at about 370 km s-1'."
+  },
+  {
+   "claim_id": "O4",
+   "verdict": "confirmed",
+   "reason": "The quoted results match their sources. Faller et al. was not retrieved separately; it appears among the 1990 null results in the search records.",
+   "independent_check": "Lőrincz and Tajmar abstract (arXiv:1506.02689; Measurement 73, 453): the gyroscope 'loses weight up to 0.005% when spinning only in the clockwise rotation'; 'We found no anomaly within Delta m/m<2.6x10^-6 valid for both horizontal and vertical orientations'. Quinn and Picard, Nature 343, 732: 'a 330-g spinning rotor as it freely spins down from speeds of 8,000 r.p.m.'. Nitschke and Wilmarth: 'limit of -0.025±0.07 mg', 0 to 2.2x[10^4] rpm (the exponent is cut off in the snippet)."
+  },
+  {
+   "claim_id": "O5",
+   "verdict": "confirmed",
+   "reason": "A different route agrees: circular-orbit conditions of the first-order Hamiltonian (dH/dr = 0, Omega = dH/dl) instead of the Lagrangian radial equation.",
+   "independent_check": "vot_dynamics_AC_numeric.out (mpmath, 40 digits, eps = 1e-12): 'Gaussian u = 0.707107: (Omega^2 r^3 - 1)/eps = 1.21306131943 ; K(u) = 1.21306131943'; 'Lorentzian u = 3.0: ... = 0.28 ; K(u) = 0.28'; the other u values agree to 12 digits. Generic-W sympy (vot_dynamics.out): 'Omega^2 r^3 (GM = 1) to O(eps): -epsilon*(u*Derivative(W(_xi_1), _xi_1) - W(u)) + 1'. K maxima: '[2*exp(-1/2)] = [1.2130613194252668]' at sqrt(2)/2 and '[9/8] = [1.125]' at sqrt(3)/3."
+  },
+  {
+   "claim_id": "O6",
+   "verdict": "confirmed",
+   "reason": "A numerical exact Legendre transform (root-solve for v(p)) differs from the stated first-order Hamiltonian only at O(eps^2).",
+   "independent_check": "vot_dynamics.out: 'Gaussian: max |H_exact - H_first|/eps^2 over 4 momenta = 0.25025 (eps = 0.000001)'; 'Lorentzian: ... = 0.153622'."
+  },
+  {
+   "claim_id": "O7",
+   "verdict": "confirmed",
+   "reason": "Two independent methods agree: the epicyclic frequency for the small-e limit, and an exact quadrature of the full Lagrangian's apsidal angle using the conserved energy function and canonical angular momentum (no ODE). The Lorentzian zero at u = 1 holds for every e.",
+   "independent_check": "vot_dynamics_AC_numeric.out: 'Gaussian u = 1.6: epicyclic dw/eps = 3.87954285851 ; pi u (uW')' = 3.87954285851'; Lorentzian u = 3 gives 0.904778684234 for both. vot_dynamics.out, quadrature at eps = 1e-7 against the Delaunay formula: 'Gaussian 1.60 0.10 | 3.829246396 | 3.829246994'; 'Lorentzian 3.00 0.30 | 0.9434309327 | 0.9434309955'; 'W=u^2 0.70 0.50 | 8.210030405 | 8.210028801', with 4 pi u^2/(1-e^2) = 8.210028801. Lorentzian at u_c = 1, e = 0.6: -6.7e-8 per eps, i.e. O(eps^2). 'Lorentzian Phi(u_c = 1, e = 0.6) = 0.5'. Schwarzschild anchor for the quadrature: exact/(6 pi/p) = 1.0000451 at p = 1e5."
+  },
+  {
+   "claim_id": "O8",
+   "verdict": "confirmed",
+   "reason": "My exact quadrature shows residuals linear in eps that extrapolate to the formula. The O(eps^2) coefficient depends on how a and e are defined, so the agent's RK4 values differ from mine at second order but share the first-order limit.",
+   "independent_check": "vot_dynamics.out, eps = 1e-3 and 5e-4. Gaussian (1.6, 0.1): 3.8235658 and 3.8264044 against the formula's 3.829247 (agent RK4: 3.8248, 3.8270). Gaussian (1, 0.1): 0.022944102 and 0.022990233 against 0.02303546 (agent: 0.03116, 0.02710). Linear extrapolation of the agent's pair gives 0.02304."
+  },
+  {
+   "claim_id": "O9",
+   "verdict": "confirmed",
+   "reason": "The u << 1 equivalence to a 1PN velocity term with c replaced by v* and the beta cross-check both reproduce.",
+   "independent_check": "vot_bounds.out: 'Mercury v* = 30000: d_omega(eps=1)/GR = -66.574 ; -(2/3)(c/v*)^2 = -66.574'; 'Mars v* = 30000: ... -66.574'; 'beta cross-check v* = 1000: |eps| < 1.1e-09'. Will 2014 beta value confirmed by fetch."
+  },
+  {
+   "claim_id": "O10",
+   "verdict": "confirmed",
+   "reason": "The speeds reproduce from the fact sheet and DE430 GMs fetched this session. LAGEOS a = 12270 km was not checked live; it does not affect any bound.",
+   "independent_check": "NASA Planetary Fact Sheet fetched ('Last updated 18 March 2025'). vot_bounds.out: 'Mercury 38.85 - 59.00', 'Saturn 9.14 - 10.14', 'Moon 0.9698 - 1.0824', 'double pulsar 572.4 - 682.5', v_LAGEOS 5.6996. vot_misc.out: Eros orbit 3.57 m/s. vot_composite.out: 0.4651, 0.3064 (48.8 deg), 0.3777 (35.7 deg). NEAR flyby speed '965 m/s' at 3827 km confirmed by search."
+  },
+  {
+   "claim_id": "O11",
+   "verdict": "confirmed",
+   "reason": "All Gaussian bounds reproduce from inputs verified this session. The EPM2011 table was checked in the original paper: its values are in mas/yr, and x100 gives the mas/cy figures used. Pitjev and Pitjeva fitted GM_sun together with each planet's extra perihelion shift, one planet at a time, so the eps Kepler-constant shift is absorbed and the precession is a separate signature. They also say their errors 'may be considered as an upper limit' for the precession, so doubling them is conservative.",
+   "independent_check": "vot_bounds.out (Gaussian): 'v* = 0.1: Eros 0.614'; 'v* = 1.0: LLR perigee 4.14e-10; GM_E LLR-SLR Ries 3.42e-09'; 'v* = 10.0: prec Mars 7.92e-12; prec Earth 2.23e-10; LLR perigee 7.55e-10'; 'v* = 120.0: prec Mars 1.82e-11; prec Earth 4.04e-11'; 'v* = 1000.0: prec Mars 1.16e-09; double pulsar 2.15e-09'; Mars '-5.174e+09 mas/cy' per eps at 120 km/s. Pitjev and Pitjeva 2013 Table 5 (ar5iv 1306.5534): Mars '-0.00020 ±0.00037' mas/yr, and the other planets match. Adelberger et al. 2003 sec. 4.5: 'The current LLR 2σ upper limit on δω is 270 μas/y'."
+  },
+  {
+   "claim_id": "O12",
+   "verdict": "confirmed",
+   "reason": "All Lorentzian bounds reproduce. The large-u advance tends to +4 pi eps/u^2, which follows from -4 pi u^2(1-u^2)/(1+u^2)^3.",
+   "independent_check": "vot_bounds.out (Lorentzian): 'v* = 0.1: LLR perigee 8.46e-10; prec Mars 3.94e-08'; 'v* = 1.0: prec Mars 3.96e-10; LLR perigee 1.29e-09'; 'v* = 10.0: prec Mars 7.7e-12'; 'v* = 120.0: prec Mars 1.97e-11'; 'v* = 1000.0: prec Mars 1.16e-09'."
+  },
+  {
+   "claim_id": "O13",
+   "verdict": "corrected",
+   "reason": "The scan never reached 3000 km/s. np.logspace(-1, log10(3000), 400) ends at 3000.0000000000005, which the agent's 'grid <= 3000' mask excludes, so the top point was 2923 km/s. At 3000 km/s the double-pulsar-limited Lorentzian bound is 9.3-9.4e-9, so 'below 8.9e-9 over the whole range' fails at the top end. The Gaussian statement (below 9e-9 for 0.3-3000 km/s) holds, and the other envelope numbers reproduce.",
+   "independent_check": "vot_topend.out: 'omega-dot+R lorentz v* = 3000: strongest double pulsar 9.29e-09'; 'omega-dot+s lorentz v* = 3000: ... 9.42e-09'; at 2920 the agent's 8.89e-09 (Lorentzian) and 8.13e-09 (Gaussian) reproduce; Gaussian at 3000 is 8.54e-09 (factor 2.5) or 8.65e-09 (factor 2.47). vot_bounds.out: 'gauss v* in [0.5, 3]: weakest 3.36e-09 at 1.03 km/s (GM_E LLR-SLR Ries)'; '[3, 300]: weakest 3.87e-10 at 7.09 ... strongest 2.23e-12 at 15 (prec Mars)'. Low v*: 0.18 gives 0.305, 0.20 gives 0.00142, 0.25 gives 4.36e-07, 0.30 gives 6.47e-09.",
+   "corrected_statement": "Lorentzian: every bound is below 9.4e-9 over 0.1-3000 km/s; the weakest is 9.3e-9 (mass-bias factor 2.5) or 9.4e-9 (factor 2.47) at 3000 km/s, set by the double pulsar. Gaussian: below 8.7e-9 from 0.3 to 3000 km/s. All other numbers stand."
+  },
+  {
+   "claim_id": "O14",
+   "verdict": "confirmed",
+   "reason": "All inputs and bounds reproduce. One detail: Kramer et al. 2021 obtained the masses from omega-dot and the Shapiro shape s, not from omega-dot and the mass ratio. That route gives a mass-bias factor of 2.467 instead of 2.5, so |d omdot/omdot| < 5.27e-5 and the 1000 km/s Gaussian bound is 2.15e-9 rather than 2.13e-9. The difference is negligible.",
+   "independent_check": "vot_extra.out: 'gauss v* = 10: ... Kepler Mars/Earth 5.59e-08'. Talmadge values (Will 1998 Table 4, ar5iv gr-qc/9709011): Mercury 1.4e-8, Venus 1.5e-9, Mars -6.5e-10, Jupiter -6e-8, one-sided 2 sigma, with 1+eta_p = (mu_p/mu_E)^(1/3). DE430 memo: GM_E '398600.4354±0.0005'; Ries '398600.4356±0.0004'; Dunn '398600.4360±0.0002'; both SLR values 'adjusted by -0.0059 km3/sec2' to the SSB/TDB frame. vot_misc.out: 'relative -5.018e-10 +- 1.606e-09' and '-1.505e-09 +- 1.351e-09'. vot_bounds.out: 'double-pulsar mass-bias factor: omega-dot + s route 2.4666'. Eros: 'M_fly/M_orb - 1 = +0.0767 +- 0.2692'. Sources: Yeomans 1999 '(7.2 ± 1.8) × 10^18 grams'; orbital mass 6.687e15 kg; P_b-dot ratio '0.999963(63)'; 1.3e-4 at 95%."
+  },
+  {
+   "claim_id": "O15",
+   "verdict": "confirmed",
+   "reason": "The Cassini interval, the per-v* bounds and the Collett interval reproduce at first order in eps. Inverting 1+gamma = 2/(1+eps K) exactly gives eps<K> in [-0.070, +0.117] instead of [-0.075, 0.105]; that difference is within the first-order framework the agent states.",
+   "independent_check": "vot_misc.out: 'Cassini: gamma_fit - 1 = -2 eps K -> eps K in [-3.350e-05, 1.250e-05]'; 'Collett: eps <K> = (1 - gamma)/2 in [-0.075, 0.105]'; exact inversion gives +0.1173 and -0.0698. vot_extra.out: Gaussian Cassini 0.0127 (10 km/s), 3.17e-05 (120), 3.35e-05 (1000). Collett et al. 2018: 'γ = 0.97 ± 0.09 at 68% confidence'. Cassini gamma-1 = (2.1±2.3)e-5 via Will 2014."
+  },
+  {
+   "claim_id": "O16",
+   "verdict": "confirmed",
+   "reason": "The coefficient ratios and the conditional bounds reproduce, and the label of a low-confidence estimate is apt. The analogy is weaker than the statement implies: the EIH cross term depends on the frame (and is disputed), while the gated term is Galilean invariant.",
+   "independent_check": "vot_misc.out: 'Gaussian v* = 30: ratio = 2.484e+07 eps -> |eps| < 4.03e-11'; v* = 120 gives 2.56e-10; v* = 1000 gives 1.67e-08. The EIH cross-term coefficient 3 = (3/2)x2 was checked by hand against the bracket verified in O2."
+  },
+  {
+   "claim_id": "O17",
+   "verdict": "confirmed",
+   "reason": "The Gaussian convolution, the Lorentzian limit and the rotation speeds all check out. One phrasing is imprecise: 'the bodies' relative velocity drops out' holds only for V << sqrt(2) s. The smeared gate keeps V dependence on the width sqrt(v*^2 + 2 s^2), and the agent's own smeared-Mars bounds in O18 rest on that dependence.",
+   "independent_check": "vot_composite.out, Monte Carlo with 8 independent runs: 'V= 7.5 s= 1.0 v*=10.0: MC 5.591968e-01 +- 4.4e-05 formula 5.592411e-01'; 'V= 1.0 s= 0.5 v*= 1.0: MC 2.792538e-01 +- 1.4e-04 formula 2.794689e-01'; 'V= 0.0 s= 1.0 v*= 0.1: MC 3.419055e-04 +- 7.5e-06 formula 3.509182e-04'. Lorentzian at s/v* = 100: '<W> = 9.8756624e-5'. Earth: 'max element-element relative speed 0.930 km/s ; Moon ... 0.559 - 1.490 km/s'."
+  },
+  {
+   "claim_id": "O18",
+   "verdict": "corrected",
+   "reason": "The agent took eta = eps(<W>_A - <W>_B) for MICROSCOPE's test masses, which orbit at 7.5 km/s. For a co-orbiting body the circular-orbit equation gives the coupling K_X = <W>_X - V d<W>_X/dV; this is the agent's own O5 canonical-momentum result applied to the smeared gate. With K, MICROSCOPE is 3.3x stronger at 10 km/s and 35x stronger at 1 km/s, and unchanged at 120 km/s and above. The Eot-Wash numbers (V = 0), the thermal dispersions and the smeared orbital bounds reproduce.",
+   "independent_check": "vot_composite.out: 'Be 0.526, Al 0.304, Ti 0.228, Pt 0.113'. Eot-Wash: 4.78e-09, 1.16e-11, 6.13e-11, 8.34e-09, 5.79e-07 (s_E = 1). 's_E=1.0 v*= 10.0: ... MICROSCOPE with W: 1.71e-11 ; with K (co-orbiting): 5.24e-12'; 's_E=1.0 v*= 1.0: ... W: 8.07e-06 ; K: 2.27e-07'; 's_E=1.0 v*= 0.1: ... W: 12.4 ; K: 0.234'. Over s_E = 0.5-2, the 10 km/s K-form bound is 5.07e-12 to 5.97e-12. Mars smeared: '1.53e-10 / 1.86e-09 / 1.13e-08'. The agent's composite.py lines 73-75 use W_avg_gauss for the orbiting bodies.",
+   "corrected_statement": "At 10 km/s the strongest atom-level bound is MICROSCOPE, |eps| < 5.2e-12 (s_E = 1 km/s; 5.1-6.0e-12 over s_E = 0.5-2), using the co-orbiting coupling K = <W> - V d<W>/dV. At 1 km/s MICROSCOPE gives 2.3e-7, still weaker than Eot-Wash's 1.2e-11. The other values stand. The atom-level range at the requested v* becomes about 5e-12 to 5e-9."
+  },
+  {
+   "claim_id": "O19",
+   "verdict": "confirmed",
+   "reason": "The suppression factors and best-case MICROSCOPE bounds are right, and the leading-order formula is within 1.1% at the requested v* (v*/v_F <= 0.013). The agent's Monte Carlo check was weak. It was compared with the leading term rather than the exact average, and its standard error used ddof=0. Against the exact value it sits 1.6-2.0 sigma high at both test points, so it could not see the next-order corrections: -4.2% at 0.05 and -1.7% at 0.02.",
+   "independent_check": "vot_composite.out: 'k_F = 250 MeV/c: v_F (relativistic p c^2/E) = 77136 km/s'. Exact pair average from the overlap volume of two spheres: 'v*/v_F = 0.05: exact 0.00015913923 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 0.00016616755 ; ratio 0.957703'; '0.02: ... ratio 0.983075'; '0.013: ratio 0.988999'. My Monte Carlo: '1.5774e-04 +- 4.1e-06 (8 runs of 1e6 pairs)'. Best-case MICROSCOPE: 2.4e-09 (1000 km/s), 1.4e-06 (120), 0.0024 (10), 2.4 (1)."
+  },
+  {
+   "claim_id": "O20",
+   "verdict": "confirmed",
+   "reason": "The identity, ratios and pair widths reproduce, and the notebook's mu of about 20 keV is in notes/broken-born-theory.md line 138. On conventions: v*_pair = p*/mu_red is the width in W = exp(-v^2/v*^2) of the amplitude gate exp(-k^2/mu^2) with k = mu_red v. In the amplitude-gate convention exp(-v^2/(2v*^2)) it is sqrt(2) smaller, about 9.0 km/s for nucleon pairs. No conclusion changes.",
+   "independent_check": "vot_misc.out: identity residual 0. 'Sun-Earth : ... 4.835e-07'; 'Sun-Mars : 4.209e-08'; 'Earth-Moon: 6.813e-05' (agent 6.78e-5). 'nucleon pair (m_N/2) : v*_pair = p*/mu = 1.277e+04 m/s'; electron pair 2.347e+07 m/s; '1 kg - 1 kg ... 2.138e-23 m/s'; 'Earth-Moon ... 1.473e-46 m/s'. 'notebook: m_chi v*/sqrt2 = 19.81 keV'."
+  },
+  {
+   "claim_id": "O21",
+   "verdict": "corrected",
+   "reason": "The numbers reproduce, but the model is not centre-of-mass gating. Spinning a rotor does not change its CM velocity, so under CM gating Delta K = 0 identically. The agent's rotor_dK averages K over the rotor's mass elements, which gates the rotor element by element while treating the Earth as a point at its CM. A consistent element-level model would add the rotor atoms' 300 K thermal speeds (0.11-0.53 km/s, larger than the 30-60 m/s rim speeds) and the Earth's rotational spread (up to 0.93 km/s). Both would smear the rim signal. The per-1e-6 figures are therefore not bounds in either consistent model.",
+   "independent_check": "vot_composite.out reproduces the hybrid model: 'v_rim=60 m/s v*=0.1 km/s lat=48.8: Delta K = +0.00248 -> |eps| < 0.0004'; '30, 0.1, 35.7: +1.11e-05 -> 0.09'; '60, 0.3: -0.0141 -> 7.1e-05'; '30, 1.0: +0.000128 -> 0.0078'. The agent's composite.py rotor_dK averages K_g(|V_lab + v_rotor|/v*) over the disk.",
+   "corrected_statement": "Under centre-of-mass gating, rotor spin gives no signal. The quoted Delta K applies only to a hybrid model: rotor elements gated individually, the Earth as a point, thermal motion ignored. It is not a bound for either consistent gating model."
+  },
+  {
+   "claim_id": "O22",
+   "verdict": "corrected",
+   "reason": "The scope conclusions hold. The program's X coupling to SM matter is Yukawa-cut at lambda_X < 37.7 micrometres, and a chi-only gate under strict P4 and the Debt-3 results are untouched. But 'leaves the torsion-balance range bound unchanged ... W about W(0) = 1' holds only for CM gating. Under atom-level gating, the thermal motion of 300 K bodies at rest suppresses a gated Yukawa's strength for v* <~ 1 km/s; under nucleon-level gating it is suppressed for all v* << v_F. The lambda_X bound would then weaken. That shift was not computed against the alpha-lambda exclusion curve.",
+   "independent_check": "vot_edge.out: 'Ti-W ... <W>(V=0) at v* = 0.01, 0.1, 1, 10 km/s: 2.1e-05, 0.0188, 0.831, 0.998'; 'Be-Cu ...: 1.99e-06, 0.00194, 0.48, 0.991'; 'nucleon-level factor at v* = 1, 10, 120 km/s: 2.9e-15, 2.9e-12, 5e-09'. Repo: #11 sec. 7.5 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X'; diameter note abstract 'α = (4/3)u² = 4/3 ... bound X's range below 37.7 μm'; debt3a 'The dwarf-core fit fixes σ0/m = 30 cm²/g, hence g is spent'.",
+   "corrected_statement": "Under CM gating the torsion-balance bound on lambda_X is unchanged, since W(0) = 1. Under atom-level gating the gated Yukawa's strength is reduced, for example to 0.019 (Ti-W) or 0.0019 (Be-Cu) at v* = 0.1 km/s, and under nucleon-level gating by (3 sqrt(pi)/4)(v*/v_F)^3. The 37.7 micrometre bound would then weaken. The other conclusions stand."
+  },
+  {
+   "claim_id": "O23",
+   "verdict": "corrected",
+   "reason": "The requested-v* bounds reproduce. Three parts of the synthesis need correcting. (1) The Lorentzian top end is 9.3-9.4e-9 at 3000 km/s, not below 9e-9 (see O13). (2) The atom-level range is about 5e-12 to 5e-9 once the co-orbiting MICROSCOPE coupling is used (see O18). (3) The first surviving form, a Gaussian gate with v* < 0.17 km/s on CM velocities, is not bounded only by Eros: Dawn's Ceres GM against the pre-Dawn Mars-ephemeris GM gives |eps K| < 0.016 at 2 sigma (M6). That narrows the window for v* >~ 0.15 km/s, although pre-mission masses carry systematics of a few percent.",
+   "independent_check": "vot_bounds.out (Gaussian / Lorentzian): 0.614 / 8.46e-10; 4.14e-10 / 3.96e-10; 7.92e-12 / 7.7e-12; 1.82e-11 / 1.97e-11; 1.16e-09 / 1.16e-09. vot_topend.out: Lorentzian 9.29e-09 / 9.42e-09 at 3000 km/s. vot_composite.out: MICROSCOPE K-form 5.24e-12 at 10 km/s. vot_extra.out: 'Ceres: GM_Dawn/GM_preDawn - 1 = +0.0043 +- 0.0060; 2 sigma |max| = 0.0162'.",
+   "corrected_statement": "A universal CM-gated term is excluded at gravitational strength: |eps| < 8.7e-9 (Gaussian) for v* = 0.3-3000 km/s and |eps| < 9.4e-9 (Lorentzian) for 0.1-3000 km/s. Requested-v* bounds as stated. Atom-level gating: about 5e-12 to 5e-9. The Gaussian low-v* window: Eros gives 0.61, but Dawn at Ceres indicates |eps| <~ 0.01-0.06 for v* about 0.15-0.3 km/s. This is indicative only (phase weighting unknown, orbit radii daggered, few-percent systematics possible), and the window below about 0.1 km/s remains essentially open."
+  }
+ ],
+ "missed_issues": [
+  "Internal inconsistency in O18. The agent derived the canonical-momentum coupling K = W - uW' for orbits (O5), then used the static <W> for MICROSCOPE's test masses, which orbit at 7.5 km/s. With K the MICROSCOPE atom-level bound is 5.2e-12 at 10 km/s rather than 1.7e-11, and 2.3e-7 at 1 km/s rather than 8.1e-6.",
+  "The envelope scan never reached its stated top end. np.logspace(-1, log10(3000), 400)[-1] = 3000.0000000000005, which the 'grid <= 3000' mask drops, so the last point was 2923 km/s. The Lorentzian maximum is 9.3-9.4e-9 at 3000 km/s, not below 8.9e-9 (affects O13, O23 and the summary's 'below 9e-9').",
+  "O21 is titled centre-of-mass gating, but it computes an element-level average over the rotor while treating the Earth as a point. Under CM gating, spin changes nothing. Under consistent element-level gating, the rotor atoms' thermal speeds (0.11-0.53 km/s at 300 K) exceed the assumed 30-60 m/s rim speeds.",
+  "O22's claim that the torsion-balance bound on lambda_X is unchanged holds only for CM gating. Under the constituent gating that O17 argues is the physical reading for composite bodies, thermal motion suppresses a gated Yukawa for v* <~ 1 km/s (e.g. <W> = 0.019 for Ti-W at 0.1 km/s), and Fermi motion suppresses it entirely at nucleon level.",
+  "Missed test inside the Gaussian low-v* window: Dawn's orbits at Ceres and Vesta move at about 0.07-0.27 km/s (orbit radii daggered). Ceres's Dawn GM (62.62736 ± 0.00040 km^3/s^2) against the pre-Dawn Mars-ephemeris GM (62.36 ± 0.37) gives |eps K| < 0.016 at 2 sigma, 10-45x tighter than Eros for v* about 0.15-0.3 km/s. Pre-Dawn Vesta masses sit 2.1-3.7 sigma above Dawn's 17.288 (daggered), which signals few-percent systematics in pre-mission masses. Dawn's per-phase GM consistency, not retrieved here, could be far stronger.",
+  "Gate convention for comparing with Debt 3a. If the potential's W is read as the program's amplitude gate exp(-k^2/mu^2), the notebook's v* = 120 km/s corresponds to the ordinary-tests v* = 170 km/s, where the CM-gating bounds are 3.5e-11 (Gaussian) and 3.6e-11 (Lorentzian) rather than 1.8e-11 and 2.0e-11. Nothing qualitative changes.",
+  "O19's Monte Carlo check was compared with the leading-order formula rather than the exact Fermi-sphere average, which is 4.2% lower at v*/v_F = 0.05, and its error bars used ddof=0. The MC sits 1.6-2.0 sigma above the exact value at both points. The suppression factors used are unaffected (within 1.1%).",
+  "Kramer et al. 2021 determined the masses from omega-dot and the Shapiro s, not from omega-dot and the mass ratio. The mass-bias factor is 2.467 rather than 2.5, which is negligible (2.15e-9 vs 2.13e-9 at 1000 km/s). The eps effect on s, since photons fall outside the gate, is also ignored, as the agent acknowledged.",
+  "Supporting detail the agent did not cite. Pitjev and Pitjeva fitted GM_sun together with each planet's extra perihelion shift, one planet at a time, so the eps Kepler-constant shift is absorbed and the precession is a clean separate signature. They state that their errors (several times the formal ones) may be read as upper limits, so the agent's 2x doubling is conservative.",
+  "The Gaussian low-v* LLR tail is dominated by the slowest (apogee) part of the orbit, not perigee. The edge where LLR overtakes Eros moves only from 0.180 to 0.175 km/s for lunar e = 0.026-0.077 (a single Kepler orbit at each e, i.e. a reduced model), so the window edge is robust.",
+  "O17's 'relative velocity drops out' holds only for V << sqrt(2) s. O2's stated EIH interaction omits the velocity-independent -G M/(2 r c^2) term. Both are cosmetic.",
+  "None of these corrections changes the agent's main conclusions. A universal gated term coupling ordinary bodies is excluded at gravitational strength by at least 8 orders of magnitude for v* = 0.3-3000 km/s. None of these tests touches a chi-only gate under strict P4, or the Debt-3 obituary."
+ ],
+ "new_claims": [
+  {
+   "id": "M1",
+   "statement": "The first-order apsidal advance 2 pi eps sqrt(1-e^2)/e dPhi/de (O7) agrees with an exact quadrature of the full velocity-dependent Lagrangian's apsidal angle. The quadrature uses the conserved energy function h = mu v^2/2 - (k/r)(1 + eps K(v/v*)) and the canonical angular momentum l = r v_theta [mu + (k/r) eps W'/(v* v)], with no ODE integration. Agreement is better than 2e-7 relative at eps = 1e-7 in six cases (Gaussian, Lorentzian, W = u^2; e up to 0.6). The same quadrature applied to Schwarzschild geodesics reproduces 6 pi GM/(c^2 p) as p grows.",
+   "tag": "[D][V]",
+   "basis": "vot_dynamics.py parts (D) and (E); mpmath tanh-sinh quadrature with the substitution r = A - B cos(psi), which removes the turning-point singularities.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Gaussian u_c = 1.6, e = 0.1: quadrature vs Delaunay",
+     "value": "3.829246396 vs 3.829246994",
+     "script": "vot_dynamics.py",
+     "printed_output": "Gaussian    1.60  0.10 |    3.829246396    3.8235658    3.8264044 |    3.829246994 | 3.8795429"
+    },
+    {
+     "quantity": "Schwarzschild anchor ratio at p = 1e5 GM/c^2",
+     "value": "1.0000451",
+     "script": "vot_dynamics.py",
+     "printed_output": "p = 1e+05 GM/c^2, e = 0.2: exact advance = 0.0001885040608 ; 6 pi/p = 0.0001884955592 ; ratio = 1.0000451"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "statement": "Under atom-level gating, MICROSCOPE's co-orbiting test masses feel K_X = <W>_X - V d<W>_X/dV, not <W>_X. With this coupling the MICROSCOPE bound is |eps| < 5.2e-12 at v* = 10 km/s (s_E = 1 km/s; 5.1-6.0e-12 over s_E = 0.5-2), 2.3e-7 at 1 km/s and 0.23 at 0.1 km/s. It is unchanged (8.5e-10 and 5.9e-8) at 120 and 1000 km/s. MICROSCOPE then sets the atom-level bound at 10 km/s.",
+   "tag": "[D], model-dependent (classical 300 K Maxwellians, s_E bracketed, MICROSCOPE altitude 710 km daggered); EP data [S]",
+   "basis": "Radial Euler-Lagrange equation for a circular orbit with a velocity-dependent coupling. vot_composite.py evaluates both forms against eta(Ti,Pt) = (-1.5 ± 2.3 ± 1.5)e-15 (Touboul et al. 2022, fetched).",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "MICROSCOPE bound at v* = 10 km/s, s_E = 1",
+     "value": "5.24e-12 (K form) vs 1.71e-11 (W form)",
+     "script": "vot_composite.py",
+     "printed_output": "s_E=1.0 v*=   10.0: Eot-Wash |eps| < 6.13e-11 ; MICROSCOPE with W: 1.71e-11 ; with K (co-orbiting): 5.24e-12 ; ratio K/W bound 0.31"
+    }
+   ],
+   "sources": [
+    "Touboul et al., PRL 129, 121102 (2022), arXiv:2209.15487 [S]",
+    "Schlamminger et al., PRL 100, 041101 (2008), arXiv:0712.0607 [S]"
+   ]
+  },
+  {
+   "id": "M3",
+   "statement": "At v* = 3000 km/s the double-pulsar-limited CM-gating bounds are |eps| < 8.5e-9 (Gaussian, mass-bias factor 2.5) or 8.7e-9 (factor 2.47), and 9.3e-9 or 9.4e-9 (Lorentzian). These are the weakest points of the 0.3-3000 km/s envelope.",
+   "tag": "[D] with [S] inputs",
+   "basis": "vot_topend.py, using the bounds functions of vot_bounds.py.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Lorentzian bound at 3000 km/s",
+     "value": "9.29e-9 (factor 2.5); 9.42e-9 (factor 2.47)",
+     "script": "vot_topend.py",
+     "printed_output": "omega-dot+R  lorentz  v* =   3000: strongest double pulsar 9.29e-09; Mars 1.05e-08"
+    }
+   ],
+   "sources": [
+    "Kramer et al., PRX 11, 041050 (2021), arXiv:2112.06795 [S]"
+   ]
+  },
+  {
+   "id": "M4",
+   "statement": "Kramer et al. 2021 obtained the double-pulsar masses from omega-dot and the Shapiro shape s. With s fixed, a fractional bias delta in omega-dot biases the GR prediction of P_b-dot by 2.467 delta. The 1.3e-4 (95%) P_b-dot test then gives |delta| < 5.27e-5 and, for a Gaussian at 1000 km/s, |eps| < 2.15e-9.",
+   "tag": "[D] with [S] input",
+   "basis": "dln M = 1.5 delta; mass function at fixed s gives dln m_B = (2/3) dln M; P_b-dot proportional to m_A m_B M^(-1/3). vot_bounds.py. The masses-from-(omega-dot, s) statement is from Kramer et al. 2021 sec. VI.2.1, as fetched.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "mass-bias factor",
+     "value": "2.4666",
+     "script": "vot_bounds.py",
+     "printed_output": "double-pulsar mass-bias factor: omega-dot + s route 2.4666 ; omega-dot + R route 2.5000 ; |d omdot/omdot| < 5.270e-05"
+    }
+   ],
+   "sources": [
+    "Kramer et al. 2021 [S]"
+   ]
+  },
+  {
+   "id": "M5",
+   "statement": "The exact average of exp(-|v1-v2|^2/v*^2) over two uniform Fermi spheres of radius v_F is 0.958 times the leading term (3 sqrt(pi)/4)(v*/v_F)^3 at v*/v_F = 0.05, 0.983 at 0.02 and 0.989 at 0.013 (v* = 1000 km/s for k_F = 250 MeV/c), and tends to 1 below that.",
+   "tag": "[D][V]",
+   "basis": "Relative-velocity density = overlap volume of two spheres / V^2; mpmath quadrature. Cross-checked by Monte Carlo with 8 independent runs (vot_composite.py).",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "exact / leading at v*/v_F = 0.05",
+     "value": "0.957703",
+     "script": "vot_composite.py",
+     "printed_output": "v*/v_F =      0.05: exact 0.00015913923 ; (3 sqrt(pi)/4)(v*/v_F)^3 = 0.00016616755 ; ratio 0.957703"
+    },
+    {
+     "quantity": "independent Monte Carlo at 0.05",
+     "value": "1.5774e-4 ± 4.1e-6",
+     "script": "vot_composite.py",
+     "printed_output": "own MC at v*/v_F = 0.05: 1.5774e-04 +- 4.1e-06 (8 runs of 1e6 pairs)"
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "statement": "Candidate test in the Gaussian low-v* window (CM gating). Dawn's orbits at Ceres move at about 0.07-0.27 km/s, while the pre-Dawn GM comes from Mars-ephemeris perturbations at km/s speeds, where W is about 0. GM_Dawn/GM_preDawn - 1 = +0.0043 ± 0.0060, so |eps K(u_Dawn)| < 0.016 at 2 sigma. That gives |eps| < 0.013-0.022 at v* = 0.2 km/s, 0.013-0.056 at 0.15, and anywhere from 0.013 to 1.6 at 0.1 km/s, depending on how the orbital phases weight the GM fit. This is 10-45x tighter than Eros's 0.61 where applicable. Caveat: pre-Dawn Vesta GMs sit 2.1-3.7 sigma above the Dawn value (17.288, daggered), so pre-mission masses can carry few-percent systematics. Treat the number as indicative.",
+   "tag": "[D] with [S] inputs (search snippets: Konopliv et al. 2018 GM 62.62736 ± 0.00040; Konopliv et al. 2006 62.36 ± 0.37 as tabulated in the 2011 Dawn gravity overview); Dawn orbit radii and the Dawn Vesta GM are daggered",
+   "basis": "vot_extra.py and vot_vesta.py. The bound is two-sided 2 sigma divided by K at the most and least favourable orbital phase.",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "Ceres GM ratio",
+     "value": "+0.0043 ± 0.0060; 2 sigma max 0.0162",
+     "script": "vot_extra.py",
+     "printed_output": "Ceres: GM_Dawn/GM_preDawn - 1 = +0.0043 +- 0.0060; 2 sigma |max| = 0.0162"
+    },
+    {
+     "quantity": "bound at v* = 0.2 km/s",
+     "value": "0.0136-0.0217",
+     "script": "vot_extra.py",
+     "printed_output": "v* = 0.20: ... -> |eps| < 0.0136 (most favourable phase) ... 0.0217 (least favourable)"
+    },
+    {
+     "quantity": "Vesta pre-Dawn vs Dawn",
+     "value": "-0.029 to -0.045 (1.2-3.7 sigma)",
+     "script": "vot_vesta.py",
+     "printed_output": "Konopliv 2006 : GM_Dawn/GM_pre - 1 = -0.0412 +- 0.0112  (-3.7 sigma)"
+    }
+   ],
+   "sources": [
+    "Konopliv et al. 2018, Icarus 299 (Ceres gravity), via search snippet [S]",
+    "Dawn gravity overview 2011, NTRS 20140010847, table of pre-Dawn GMs, via search snippet [S]"
+   ]
+  },
+  {
+   "id": "M7",
+   "statement": "If the potential's W is read as the program's amplitude gate F(k^2/mu^2) = exp(-k^2/mu^2), with k the reduced-mass relative momentum, then W = exp(-v^2/v_a^2) with v_a = 2 mu/m_chi = sqrt(2) v*_notebook. The Debt-3a benchmark v* = 120 km/s then corresponds to the ordinary-tests v* = 171 km/s, where the CM-gating bounds are 3.5e-11 (Gaussian, Mars) and 3.6e-11 (Lorentzian). If W is read as the cross-section gate, v* = 120 km/s applies and the bounds are 1.8e-11 and 2.0e-11.",
+   "tag": "[D] from repo definitions (notebook v* = sqrt(2) mu/m_chi, mu about 20 keV)",
+   "basis": "vot_misc.py (conversion) and vot_bounds.py (bounds at 170 km/s). notes/broken-born-theory.md line 138: 'μ = m_χ v_*/√2 ≈ 20 keV'.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "chi-pair amplitude-gate width",
+     "value": "171.3 km/s = sqrt2 x 121.1 km/s",
+     "script": "vot_misc.py",
+     "printed_output": "notebook: m_chi v*/sqrt2 = 19.81 keV ; chi-pair width p*/(m_chi/2) = 171.3 km/s = sqrt2 x 121.1 km/s"
+    },
+    {
+     "quantity": "Gaussian bound at 170 km/s",
+     "value": "3.5e-11 (Mars)",
+     "script": "vot_bounds.py",
+     "printed_output": "v* =   170.0 km/s: prec Mars 3.5e-11; prec Earth 7.62e-11; prec Mercury 1.07e-10; prec Venus 3.53e-10"
+    }
+   ]
+  },
+  {
+   "id": "M8",
+   "statement": "The Gaussian LLR bound in the low-v* tail is set by the slowest (apogee) part of the lunar orbit. The v* at which LLR overtakes the Eros bound (0.615) is 0.1803, 0.1778 and 0.1753 km/s for lunar e = 0.026, 0.0549 and 0.077. The window edge moves by about ±1.4%.",
+   "tag": "[D]; reduced model: a single Kepler orbit at each e, solar perturbations not modelled; the e range is daggered",
+   "basis": "vot_edge.py, bisection on the LLR bound computed with the vot_bounds.py functions.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "edge v* (LLR = Eros)",
+     "value": "0.1753-0.1803 km/s",
+     "script": "vot_edge.py",
+     "printed_output": "lunar e = 0.077: LLR bound v*=0.16: 195; v*=0.17: 3.79; v*=0.18: 0.141; v*=0.20: 0.00082 ; LLR = Eros (0.615) at v* = 0.1753 km/s"
+    }
+   ]
+  },
+  {
+   "id": "M9",
+   "statement": "Under atom-level gating, a gated Yukawa between two 300 K bodies at rest has its strength multiplied by <W> = (1 + 2s^2/v*^2)^(-3/2). For Ti-W (s = 0.256 km/s) this is 2.1e-5, 0.019, 0.83 and 0.998 at v* = 0.01, 0.1, 1 and 10 km/s; for Be-Cu (s = 0.562 km/s) it is 2.0e-6, 0.0019, 0.48 and 0.991. Torsion-balance range bounds on such a coupling therefore weaken for v* <~ 1 km/s; the shift was not computed.",
+   "tag": "[D], model-dependent (classical thermal velocities, zero-point motion ignored)",
+   "basis": "vot_edge.py; the Gaussian convolution formula was verified by Monte Carlo in vot_composite.py.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "Ti-W amplitude factor",
+     "value": "2.1e-5 / 0.0188 / 0.831 / 0.998",
+     "script": "vot_edge.py",
+     "printed_output": "Ti-W (47.87, 183.84): s = 0.256 km/s; <W>(V=0) at v* = 0.01, 0.1, 1, 10 km/s: 2.1e-05, 0.0188, 0.831, 0.998"
+    }
+   ]
+  },
+  {
+   "id": "M10",
+   "statement": "EPM2011's supplementary perihelion precessions were fitted together with GM_sun, one planet at a time, from that planet's observations. The quoted errors are several times the formal ones, and the authors say they 'may be considered as an upper limit for the possible perihelion precession in absolute value'.",
+   "tag": "[T][S]",
+   "basis": "ar5iv 1306.5534 (Pitjev and Pitjeva 2013), fetched: 'we processed the observations for one of the chosen planets and searched for GM⊙ and an additional perihelion shift based on the observational data only for this planet'; 'the errors in Tables 5 and 6 generally exceed the formal ones by several times'.",
+   "confidence": "high",
+   "sources": [
+    "Pitjev and Pitjeva, Astron. Lett. 39, 141 (2013), arXiv:1306.5534 [S]"
+   ]
+  }
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_dynamics.py (output vot_dynamics.out): generic-W Hamiltonian Kepler constant; numerical Legendre-transform check; exact apsidal-angle quadrature against the Delaunay formula; Schwarzschild anchor",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_dynamics_AC_numeric.py (output vot_dynamics_AC_numeric.out): numerical Kepler constant and epicyclic small-e advance (replaces vot_dynamics_AC.py, an explicit-W sympy version that did not finish in 900 s and has no output)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_bounds.py (output vot_bounds.out): all CM-gating bounds from live-checked inputs, envelope scan, u<<1 check, low-v* window; vot_bounds_lib.py is its function part, imported by the next scripts",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_topend.py (output vot_topend.out): bounds at 2920 and 3000 km/s with mass-bias factors 2.467 and 2.5",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_composite.py (output vot_composite.out): Monte Carlo check of the convolution, Lorentzian limit, EP bounds with the W and K forms, smeared Mars bounds, exact Fermi-sphere average, rotor hybrid-model reproduction",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_misc.py (output vot_misc.out): EIH CM reduction, GM_E and Eros inputs, Cassini and Collett intervals, LLR synodic ratio, momentum-variant numbers, notebook convention",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_extra.py (output vot_extra.out): Talmadge and Cassini per-v* bounds; Dawn-Ceres window candidate",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_vesta.py (output vot_vesta.out): pre-Dawn vs Dawn Vesta GM",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_edge.py (output vot_edge.out): gated-Yukawa amplitude suppression; LLR window edge against lunar eccentricity",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/pdf_text.py: PDF text extractor (already in this folder), run with python -I on a fresh download of the DE430 lunar memo; extracted text at /tmp/claude-1000/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/scratchpad/de430/memo.txt"
+ ],
+ "overall": "The numbers and sources of the round-2 ordinary-tests analysis largely survive an independent recheck.\n\nLiterature inputs (all checked live this session):\n- EPM2011 supplementary precessions: original Table 5 is in mas/yr; x100 gives the mas/cy values used, e.g. Mars -0.020 ± 0.037.\n- LLR perigee limit: 270 µas/yr at 2σ.\n- DE430 values: GM_Earth from LLR, the two SLR values and the EIH statement.\n- Kramer et al. 2021: ω-dot, the 2PN term, the Pb-dot test.\n- Will 2014: the β values for Mercury and Mars, α1/α2 limits, γ, 370 km/s.\n- Others: Talmadge η_p, the Eros masses and the 965 m/s flyby, Eöt-Wash, MICROSCOPE, Collett, Tisserand/Lévy, the rotor papers, the fact sheet.\n\nNo memory citation was presented as checked.\n\nDynamics. The Kepler constant K = W - uW', the first-order Hamiltonian and the apsidal-advance formula are confirmed by methods different from the agent's:\n- a Hamiltonian/epicyclic route, to 12 digits;\n- an exact quadrature of the full Lagrangian's apsidal angle from its conserved quantities, to better than 2e-7;\n- a Schwarzschild anchor for the quadrature machinery.\n\nBounds. The centre-of-mass-gating bounds at the requested v* reproduce to within 2%: Gaussian 0.61 / 4.1e-10 / 7.9e-12 / 1.8e-11 / 1.16e-9; Lorentzian 8.5e-10 / 4.0e-10 / 7.7e-12 / 2.0e-11 / 1.16e-9.\n\nCorrections:\n- **O13, O23 (top end):** the scan stopped at 2923 km/s through a floating-point endpoint exclusion. The Lorentzian bound at 3000 km/s is 9.3-9.4e-9, not below 8.9e-9.\n- **O18 (MICROSCOPE):** the static coupling ⟨W⟩ was used for orbiting test masses; the agent's own K form makes the bound 5.2e-12 at 10 km/s.\n- **O21 (rotors):** the model is not centre-of-mass gating; under CM gating spin gives no signal.\n- **O22 (torsion balance):** \"range bound unchanged\" holds only for CM gating.\n\nSmaller notes: double-pulsar masses came from ω-dot and s (factor 2.467, not 2.5); O19's Monte Carlo was compared with the leading-order term rather than the exact average.\n\nMissed test. Dawn's Ceres GM against the pre-Dawn ephemeris GM gives |εK| < 0.016 at 2σ inside the Gaussian v* < 0.17 km/s window. This is indicative only, because pre-mission masses carry few-percent systematics.\n\nNone of this changes the conclusions. A universal gated term coupling ordinary bodies is excluded at gravitational strength by at least 8 orders of magnitude for v* = 0.3-3000 km/s. These tests do not touch a χ-only gate under strict P4, or the Debt-3 obituary."
+}

@@ -1,0 +1,2 @@
+meta: {'eps': 3.0, 'r_g': 1.0, 'N': 2000, 'seed': 2, 'T': 40.0, 'dt': 0.01, 'b': 0.1, 'reading': 'H', 'vstar': np.float64(0.408248290463863), 'T_ramp': 15.0, 'wall': 1197.1489408016205}
+energy after the ramp (eps fixed): max|dE/E| = 1.27e-06; final P = [-2.14411822e-17  1.42524881e-17 -2.87270208e-18]; final L = [ 0.01179956  0.00729193 -0.01585588]; mean iterations/step = 4.71

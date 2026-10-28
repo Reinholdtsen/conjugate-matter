@@ -1,0 +1,29 @@
+=== Part A: traceless contractions = Gegenbauer polynomials ===
+d = 2: J=2 contraction / T_2 = 1/2 (constant: True); J=3 contraction / T_3 = 1/4 (constant: True)
+d = 3: J=2 contraction / P_2 = 2/3 (constant: True); J=3 contraction / P_3 = 2/5 (constant: True)
+harmonic |x|^J T_J(a.x/|x|) in d=2, J=1..6: [True, True, True, True, True, True]
+harmonic |x|^J P_J(a.x/|x|) in d=3, J=1..6: [True, True, True, True, True, True]
+
+=== Part B: relative-velocity series, gamma = (1 - beta^2)^(-1/2) ===
+ J | massive P_J(gamma)                      | massless T_J(gamma)
+ 0 | 1                                        | 1
+ 1 | 3*beta**4/8 + beta**2/2 + 1              | 3*beta**4/8 + beta**2/2 + 1
+ 2 | 3*beta**4/2 + 3*beta**2/2 + 1            | 2*beta**4 + 2*beta**2 + 1
+ 3 | 33*beta**4/8 + 3*beta**2 + 1             | 51*beta**4/8 + 9*beta**2/2 + 1
+ 4 | 75*beta**4/8 + 5*beta**2 + 1             | 16*beta**4 + 8*beta**2 + 1
+first-order coefficient of beta^2: massive J(J+1)/4, massless J^2/2 (checked J = 0..6): True
+anchors: J=2 massive 3/2, massless 2 (program P7); J=1 both 1/2 (Darwin-type gamma)
+
+=== Part C: spin needed for an O(1) velocity effect at v = v* ===
+v* =   30.0 km/s: (v*/c)^2 = 1.001e-08; J(J+1)/4 (v*/c)^2 = 1 at J = 19986 (massive), J^2/2 (v*/c)^2 = 1 at J = 14132 (massless)
+v* =  120.0 km/s: (v*/c)^2 = 1.602e-07; J(J+1)/4 (v*/c)^2 = 1 at J = 4996 (massive), J^2/2 (v*/c)^2 = 1 at J = 3533 (massless)
+v* =  300.0 km/s: (v*/c)^2 = 1.001e-06; J(J+1)/4 (v*/c)^2 = 1 at J = 1998 (massive), J^2/2 (v*/c)^2 = 1 at J = 1413 (massless)
+
+=== Part D: near-cancelling J=0 attraction + J=1 repulsion ===
+v* = 120.0 km/s needs delta = (v*/c)^2/2 = 8.011e-08: each component is 1/delta = 1.248e+07 times the residual static force
+   relative speed     0.0 km/s: force / |static residual| = +1.0000e+00  (+ attractive, - repulsive)
+   relative speed    60.0 km/s: force / |static residual| = +7.5000e-01  (+ attractive, - repulsive)
+   relative speed   120.0 km/s: force / |static residual| = -1.1918e-07  (+ attractive, - repulsive)
+   relative speed   300.0 km/s: force / |static residual| = -5.2500e+00  (+ attractive, - repulsive)
+   relative speed  1000.0 km/s: force / |static residual| = -6.8445e+01  (+ attractive, - repulsive)
+   relative speed  2600.0 km/s: force / |static residual| = -4.6847e+02  (+ attractive, - repulsive)

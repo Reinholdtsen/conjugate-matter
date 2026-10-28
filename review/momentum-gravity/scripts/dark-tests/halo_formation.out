@@ -1,0 +1,67 @@
+M[Msun] -> top-hat R[Mpc comoving]: 1e+07:0.0392, 1e+08:0.0844, 1e+09:0.1818, 1e+10:0.3918, 1e+11:0.8441
+eps=3.0800 v*=10 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 69824.059 | z_c(1-sigma): LCDM 4.23 gated 61.09 | (1+z_c)^3 ratio 1671.172
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 14701.454 | z_c(1-sigma): LCDM 3.40 gated 34.84 | (1+z_c)^3 ratio 540.802
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 3096.638 | z_c(1-sigma): LCDM 2.61 gated 19.47 | (1+z_c)^3 ratio 182.683
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 624.230 | z_c(1-sigma): LCDM 1.87 gated 10.50 | (1+z_c)^3 ratio 64.681
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 148.968 | z_c(1-sigma): LCDM 1.17 gated 5.87 | (1+z_c)^3 ratio 31.619
+eps=0.7750 v*=20 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 67.567 | z_c(1-sigma): LCDM 4.23 gated 14.99 | (1+z_c)^3 ratio 28.530
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 32.902 | z_c(1-sigma): LCDM 3.40 gated 8.75 | (1+z_c)^3 ratio 10.903
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 14.607 | z_c(1-sigma): LCDM 2.61 gated 4.79 | (1+z_c)^3 ratio 4.128
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 6.385 | z_c(1-sigma): LCDM 1.87 gated 2.58 | (1+z_c)^3 ratio 1.946
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.455 | z_c(1-sigma): LCDM 1.17 gated 1.37 | (1+z_c)^3 ratio 1.294
+eps=0.3480 v*=30 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 19.180 | z_c(1-sigma): LCDM 4.23 gated 8.67 | (1+z_c)^3 ratio 6.307
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 12.856 | z_c(1-sigma): LCDM 3.40 gated 5.96 | (1+z_c)^3 ratio 3.956
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 8.237 | z_c(1-sigma): LCDM 2.61 gated 3.86 | (1+z_c)^3 ratio 2.446
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 5.168 | z_c(1-sigma): LCDM 1.87 gated 2.37 | (1+z_c)^3 ratio 1.624
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.343 | z_c(1-sigma): LCDM 1.17 gated 1.33 | (1+z_c)^3 ratio 1.241
+eps=0.1290 v*=50 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 10.322 | z_c(1-sigma): LCDM 4.23 gated 5.89 | (1+z_c)^3 ratio 2.285
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 8.074 | z_c(1-sigma): LCDM 3.40 gated 4.48 | (1+z_c)^3 ratio 1.936
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 6.122 | z_c(1-sigma): LCDM 2.61 gated 3.24 | (1+z_c)^3 ratio 1.619
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 4.507 | z_c(1-sigma): LCDM 1.87 gated 2.18 | (1+z_c)^3 ratio 1.364
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.237 | z_c(1-sigma): LCDM 1.17 gated 1.30 | (1+z_c)^3 ratio 1.183
+eps=0.0550 v*=80 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 8.360 | z_c(1-sigma): LCDM 4.23 gated 5.00 | (1+z_c)^3 ratio 1.507
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 6.849 | z_c(1-sigma): LCDM 3.40 gated 3.94 | (1+z_c)^3 ratio 1.415
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 5.460 | z_c(1-sigma): LCDM 2.61 gated 2.95 | (1+z_c)^3 ratio 1.316
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 4.225 | z_c(1-sigma): LCDM 1.87 gated 2.06 | (1+z_c)^3 ratio 1.222
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.160 | z_c(1-sigma): LCDM 1.17 gated 1.27 | (1+z_c)^3 ratio 1.134
+eps=0.0285 v*=120 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 7.715 | z_c(1-sigma): LCDM 4.23 gated 4.66 | (1+z_c)^3 ratio 1.269
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 6.417 | z_c(1-sigma): LCDM 3.40 gated 3.72 | (1+z_c)^3 ratio 1.233
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 5.204 | z_c(1-sigma): LCDM 2.61 gated 2.82 | (1+z_c)^3 ratio 1.191
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 4.097 | z_c(1-sigma): LCDM 1.87 gated 2.00 | (1+z_c)^3 ratio 1.150
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.115 | z_c(1-sigma): LCDM 1.17 gated 1.24 | (1+z_c)^3 ratio 1.101
+eps=0.0160 v*=200 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 7.417 | z_c(1-sigma): LCDM 4.23 gated 4.50 | (1+z_c)^3 ratio 1.162
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 6.211 | z_c(1-sigma): LCDM 3.40 gated 3.60 | (1+z_c)^3 ratio 1.148
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 5.077 | z_c(1-sigma): LCDM 2.61 gated 2.76 | (1+z_c)^3 ratio 1.129
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 4.031 | z_c(1-sigma): LCDM 1.87 gated 1.97 | (1+z_c)^3 ratio 1.110
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.089 | z_c(1-sigma): LCDM 1.17 gated 1.23 | (1+z_c)^3 ratio 1.083
+eps=0.0140 v*=300 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 7.383 | z_c(1-sigma): LCDM 4.23 gated 4.48 | (1+z_c)^3 ratio 1.152
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 6.193 | z_c(1-sigma): LCDM 3.40 gated 3.60 | (1+z_c)^3 ratio 1.142
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 5.072 | z_c(1-sigma): LCDM 2.61 gated 2.76 | (1+z_c)^3 ratio 1.129
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 4.034 | z_c(1-sigma): LCDM 1.87 gated 1.97 | (1+z_c)^3 ratio 1.116
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.097 | z_c(1-sigma): LCDM 1.17 gated 1.24 | (1+z_c)^3 ratio 1.093
+eps=0.0170 v*=1000 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 7.541 | z_c(1-sigma): LCDM 4.23 gated 4.59 | (1+z_c)^3 ratio 1.218
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 6.336 | z_c(1-sigma): LCDM 3.40 gated 3.69 | (1+z_c)^3 ratio 1.215
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 5.199 | z_c(1-sigma): LCDM 2.61 gated 2.85 | (1+z_c)^3 ratio 1.211
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 4.143 | z_c(1-sigma): LCDM 1.87 gated 2.05 | (1+z_c)^3 ratio 1.207
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 3.184 | z_c(1-sigma): LCDM 1.17 gated 1.30 | (1+z_c)^3 ratio 1.190
+eps=1.0000 v*=120 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 465.228 | z_c(1-sigma): LCDM 4.23 gated 43.78 | (1+z_c)^3 ratio 626.898
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 281.949 | z_c(1-sigma): LCDM 3.40 gated 31.33 | (1+z_c)^3 ratio 397.146
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 144.429 | z_c(1-sigma): LCDM 2.61 gated 19.92 | (1+z_c)^3 ratio 194.871
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 61.876 | z_c(1-sigma): LCDM 1.87 gated 11.07 | (1+z_c)^3 ratio 74.732
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 22.773 | z_c(1-sigma): LCDM 1.17 gated 5.40 | (1+z_c)^3 ratio 25.564
+eps=0.3000 v*=120 km/s:
+   M=1e+07  sigma(z=0): LCDM 6.966 gated 22.614 | z_c(1-sigma): LCDM 4.23 gated 10.63 | (1+z_c)^3 ratio 10.989
+   M=1e+08  sigma(z=0): LCDM 5.869 gated 16.794 | z_c(1-sigma): LCDM 3.40 gated 8.01 | (1+z_c)^3 ratio 8.609
+   M=1e+09  sigma(z=0): LCDM 4.835 gated 11.718 | z_c(1-sigma): LCDM 2.61 gated 5.62 | (1+z_c)^3 ratio 6.187
+   M=1e+10  sigma(z=0): LCDM 3.874 gated 7.691 | z_c(1-sigma): LCDM 1.87 gated 3.62 | (1+z_c)^3 ratio 4.188
+   M=1e+11  sigma(z=0): LCDM 2.999 gated 4.786 | z_c(1-sigma): LCDM 1.17 gated 2.07 | (1+z_c)^3 ratio 2.831

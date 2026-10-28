@@ -4,6 +4,8 @@ weight: 50
 status: record
 description: "Every statement the program replaced with a corrected version — the two superseded pages and the earlier forms recorded on the pages of the claims that replaced them — each linked and paired with its replacement."
 sources:
+  - "notes/gate-mechanism.md §5"
+  - "review/wiki-build-flags.md item 55"
   - "CLAUDE.md 'Since the handoff'"
   - "CLAUDE.md 'Layout'"
   - "papers/broken-born-checkpoint-v2.md header"
@@ -49,7 +51,7 @@ sources:
 
 *This register lists the statements the program once made and later replaced with corrected versions. A superseded statement differs from a dead claim: the subject survives, but its earlier form is no longer the program's position, often because a calculation or a review forced a repair. Each line names the old statement, what replaced it and where the replacement is recorded. The older documents are kept as an audit trail and still contain the old forms: the [lab notebook](/wiki/history/documents/lab-notebook), for example, keeps its version-0.1 body with the corrections appended as addenda, so the old forms read there as if they were current.*
 
-**Status:** Record, a register current to 2026-10-21 — no tags of its own; each replacement keeps the tag its source gives — the replacements are recorded in higher-precedence sources: [checkpoint #11](/wiki/history/documents/checkpoint) v2.2, the toy-model note v2, the review adjudications and the root `CLAUDE.md`.
+**Status:** Record, a register current to 2026-10-21, with pointers to flag 55 added on 2026-10-28 — no tags of its own; each replacement keeps the tag its source gives — the replacements are recorded in higher-precedence sources: [checkpoint #11](/wiki/history/documents/checkpoint) v2.2, the toy-model note v2, the review adjudications and the root `CLAUDE.md`.
 
 Two pages have the status superseded. Every other entry is an earlier form recorded on the page of the claim that replaced it, under a heading "Superseded: …" that this register links; the few recorded in a page's body without such a heading are marked "in the body". The documents themselves succeed one another: the lab notebook #1 (version 0.1 with addenda v0.2–v0.6), then the program v1.0 (#9), then checkpoint #11, whose v2.2 "Supersedes v2.1, v2.0 and v1.0". The notes are "superseded as reference but kept" (root `CLAUDE.md`).
 
@@ -101,8 +103,8 @@ Superseded is not dead. The heuristic w_eff = −2 − w̃ was superseded by w_e
 
 ### Dark matter
 
-- [Superseded: the Gaussian gate of v0.1](/wiki/dark-matter/conjugate-matter/velocity-gate#superseded-the-gaussian-gate-of-v01) — the gate e^{−k²/μ²}, its existence a postulate [P] and its Gaussian form underived (#1 §3) → the mechanism is X exchange (addendum v0.3), μ is the χ quantum's [momentum-fiber width](/wiki/phase-space/reciprocity/momentum-fibers#quanta-with-a-width-along-the-fiber) (addendum v0.4), and the gate is an unspecified F(k²/μ²), tagged [D — mechanism; shape [O]] (#9 §6; #11 §8). The two conventions for the gate's exponent are flag 17.
-- [Superseded: earlier forms of the mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#superseded-earlier-forms-of-the-mechanism) — μ as a scale of the momentum-space metric (#1 §3), then tied to the masses M_X and M_B "parametrically" (calc note #5 §E), and an auxiliary X delivering the gate directly (#5 §D) → μ as the χ quantum's own width (calc note #6 §4), and a contact operator obtained by integrating out a massive, propagating X.
+- [Superseded: the Gaussian gate of v0.1](/wiki/dark-matter/conjugate-matter/velocity-gate#superseded-the-gaussian-gate-of-v01) — the gate e^{−k²/μ²}, its existence a postulate [P] and its Gaussian form underived (#1 §3) → the mechanism is X exchange (addendum v0.3), μ is the χ quantum's [momentum-fiber width](/wiki/phase-space/reciprocity/momentum-fibers#quanta-with-a-width-along-the-fiber) (addendum v0.4), and the gate is an unspecified F(k²/μ²), tagged [D — mechanism; shape [O]] (#9 §6; #11 §8). The two conventions for the gate's exponent are flag 17. Flag 55 proposes reversing this step: the gate-mechanism note of 2026-10-28 finds that exchanging X cannot produce the gate and suggests returning the gate and μ to [P], with the mechanism [O], pending Paul's ruling ([what flag 55 proposes](/wiki/dark-matter/conjugate-matter/gate-mechanism#what-flag-55-proposes)).
+- [Superseded: earlier forms of the mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#superseded-earlier-forms-of-the-mechanism) — μ as a scale of the momentum-space metric (#1 §3), then tied to the masses M_X and M_B "parametrically" (calc note #5 §E), and an auxiliary X delivering the gate directly (#5 §D) → μ as the χ quantum's own width (calc note #6 §4), and a contact operator obtained by integrating out a massive, propagating X. The current form is itself not derived according to flag 55, pending Paul's ruling.
 - [Superseded: the exponential cliff of v0.1](/wiki/dark-matter/conjugate-matter/scattering-law#superseded-the-exponential-cliff-of-v01) — σ_T(v) = σ₀e^{−v²/v\*²}, "An exponential cliff, not a power-law tail" (#1 §5.1) → a knee at v\* whose tail shape is open (#1 addendum v0.4; #11 §8, §13 row 1).
 - [Superseded: the v0.1 predictions from the benchmark](/wiki/dark-matter/conjugate-matter/benchmark#superseded-the-v01-predictions-from-the-benchmark) — cross-sections above the gate computed from the cliff, a cluster self-interaction "identically zero at any future sensitivity", and two parameters covering five phenomena (#1 §5.1, §10) → #11 row 1 keeps "zero cluster signal (particle χ)" with no number; the numbers hold only for a Gaussian tail, and two of the five phenomena died.
 - [Superseded: the cubic suppression of Debt 3a](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#superseded-the-cubic-suppression-of-debt-3a) — "(v\*/σ)³ suppression rather than an exponential" (calc note #2) → (v\*/σ)⁴ (calc notes #3 and #4; #11 §9).
@@ -166,3 +168,4 @@ Superseded is not dead. The heuristic w_eff = −2 − w̃ was superseded by w_e
 - `review/v3-worklog.md` "Findings neither referee raised", "Round-2 pending list" — F1, F2 and R2; the decision that S-duality no longer fixes α_d.
 - `review/wiki-build-flags.md` items 6, 10, 11, 17, 27, 33, 37, 38 — the flagged statements named above; item 27's addendum and `notes/closed-universe.md` §2 — the turnaround in a closed universe.
 - `README.md` — the tagline.
+- `notes/gate-mechanism.md` §5 and `review/wiki-build-flags.md` item 55 — the proposal to return the gate to [P] and its mechanism to [O]

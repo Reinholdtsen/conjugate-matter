@@ -1,0 +1,15 @@
+gauss    v* =      1: Kepler Mercury/Earth inf; Kepler Venus/Earth inf; Kepler Mars/Earth 1.03e+241; Kepler Jupiter/Earth 5.71e+64; Cassini inf
+gauss    v* =     10: Kepler Mercury/Earth 1.6e-05; Kepler Venus/Earth 1.79e-06; Kepler Mars/Earth 5.59e-08; Kepler Jupiter/Earth 2.25e-07; Cassini 0.0127
+gauss    v* =    120: Kepler Mercury/Earth 6.15e-07; Kepler Venus/Earth 2.41e-07; Kepler Mars/Earth 1.08e-07; Kepler Jupiter/Earth 4.05e-06; Cassini 3.17e-05
+gauss    v* =   1000: Kepler Mercury/Earth 3e-05; Kepler Venus/Earth 1.33e-05; Kepler Mars/Earth 6.41e-06; Kepler Jupiter/Earth 0.000252; Cassini 3.35e-05
+lorentz  v* =      1: Kepler Mercury/Earth 2.03e-05; Kepler Venus/Earth 4.82e-06; Kepler Mars/Earth 1.11e-06; Kepler Jupiter/Earth 1.28e-05; Cassini 0.00992
+lorentz  v* =     10: Kepler Mercury/Earth 2.6e-07; Kepler Venus/Earth 6.56e-08; Kepler Mars/Earth 1.72e-08; Kepler Jupiter/Earth 3.26e-07; Cassini 0.000118
+lorentz  v* =    120: Kepler Mercury/Earth 8.69e-07; Kepler Venus/Earth 3.03e-07; Kepler Mars/Earth 1.26e-07; Kepler Jupiter/Earth 4.51e-06; Cassini 3.19e-05
+lorentz  v* =   1000: Kepler Mercury/Earth 3.02e-05; Kepler Venus/Earth 1.33e-05; Kepler Mars/Earth 6.42e-06; Kepler Jupiter/Earth 0.000252; Cassini 3.35e-05
+
+Ceres: GM_Dawn/GM_preDawn - 1 = +0.0043 +- 0.0060; 2 sigma |max| = 0.0162
+v* = 0.07: RC3 v=0.067 K=1.14; Survey v=0.113 K=0.453; HAMO v=0.180 K=0.0195; LAMO v=0.271 K=9.95e-06 -> |eps| < 0.0143 (most favourable phase) ... 1.63e+03 (least favourable)
+v* = 0.10: RC3 v=0.067 K=1.21; Survey v=0.113 K=0.987; HAMO v=0.180 K=0.295; LAMO v=0.271 K=0.0103 -> |eps| < 0.0134 (most favourable phase) ... 1.57 (least favourable)
+v* = 0.15: RC3 v=0.067 K=1.15; Survey v=0.113 K=1.21; HAMO v=0.180 K=0.922; LAMO v=0.271 K=0.29 -> |eps| < 0.0134 (most favourable phase) ... 0.0559 (least favourable)
+v* = 0.20: RC3 v=0.067 K=1.09; Survey v=0.113 K=1.19; HAMO v=0.180 K=1.17; LAMO v=0.271 K=0.747 -> |eps| < 0.0136 (most favourable phase) ... 0.0217 (least favourable)
+v* = 0.30: RC3 v=0.067 K=1.05; Survey v=0.113 K=1.11; HAMO v=0.180 K=1.2; LAMO v=0.271 K=1.16 -> |eps| < 0.0135 (most favourable phase) ... 0.0155 (least favourable)

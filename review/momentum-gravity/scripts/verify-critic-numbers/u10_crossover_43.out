@@ -1,0 +1,5 @@
+Lambda_g strictly decreasing on (0, 20]: True
+1/Lambda_g = 4/3 at r = sigma/v* = 0.33282; so eps = 4/3 exceeds the crossover only for sigma < 0.3328 v*
+  v* = 120: UFD            r = 0.0333, crossover = 1.0033
+  v* = 120: classical dSph r = 0.0833, crossover = 1.0208
+  v* = 120: dwarf core     r = 0.2500, crossover = 1.1877

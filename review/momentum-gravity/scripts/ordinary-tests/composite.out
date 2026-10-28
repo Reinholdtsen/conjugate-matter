@@ -1,0 +1,65 @@
+Check of the Gaussian convolution formula (km/s units):
+  V=  0.00 s=   1.0 v*=   0.1: quadrature 0.0003509182168  formula 0.0003509182168
+  V=  0.50 s=   1.0 v*=   1.0: quadrature 0.1770626302  formula 0.1770626302
+  V=  7.50 s=   1.0 v*=  10.0: quadrature 0.5592411356  formula 0.5592411356
+  V= 30.00 s= 200.0 v*= 120.0: quadrature 0.05901266494  formula 0.05901266494
+Lorentzian, s >> v*: <W> -> (v*/s)^2 (derived);  quadrature at s/v* = 100: 9.8756624e-5  vs (v*/s)^2 = 1e-4 (next order ~ sqrt(pi/2) (v*/s)^3)
+
+Classical 1D thermal dispersions at 300 K (km/s): Be 0.526, Al 0.304, Ti 0.228, Pt 0.113
+  (Be has Debye temperature well above 300 K, so its true kinetic spread is larger than classical; not modeled.)
+
+Atom-level gate (Gaussian W, Maxwellian thermal velocities). eta(A,B) = eps [<W>_A - <W>_B].
+Source = Earth with effective 1D dispersion s_E of its constituents relative to the lab (thermal + rotation),
+bracketed 0.5-2 km/s.  Eot-Wash: lab bodies at rest on Earth (V ~ 0); MICROSCOPE: V = 7.5 km/s.
+     v*   s_E     <W>_Be     <W>_Ti  EW |eps|<  <W>_Ti(orb)  <W>_Pt(orb) MICRO |eps|<
+    0.1   0.5  9.117e-04  2.077e-03   3.35e-10    3.504e-43    6.220e-49     2.00e+28
+    0.1   1.0  2.436e-04  3.253e-04   4.78e-09    9.070e-16    3.435e-16     1.24e+01
+    0.1   2.0  3.990e-05  4.326e-05   1.16e-07    4.222e-08    4.003e-08     3.19e-06
+    1.0   0.5  3.398e-01  4.922e-01   2.56e-12    2.911e-16    5.150e-17     2.92e+01
+    1.0   1.0  1.493e-01  1.828e-01   1.16e-11    2.468e-09    1.602e-09     8.07e-06
+    1.0   2.0  3.387e-02  3.640e-02   1.54e-10    7.549e-05    7.247e-05     2.32e-09
+   10.0   0.5  9.844e-01  9.910e-01   5.91e-11    5.666e-01    5.670e-01     1.68e-11
+   10.0   1.0  9.629e-01  9.692e-01   6.13e-11    5.587e-01    5.591e-01     1.71e-11
+   10.0   2.0  8.842e-01  8.897e-01   7.07e-11    5.288e-01    5.291e-01     1.85e-11
+  120.0   0.5  9.999e-01  9.999e-01   8.33e-09    9.960e-01    9.960e-01     8.59e-10
+  120.0   1.0  9.997e-01  9.998e-01   8.34e-09    9.959e-01    9.959e-01     8.59e-10
+  120.0   2.0  9.991e-01  9.992e-01   8.34e-09    9.953e-01    9.953e-01     8.60e-10
+ 1000.0   0.5  1.000e+00  1.000e+00   5.79e-07    9.999e-01    9.999e-01     5.93e-08
+ 1000.0   1.0  1.000e+00  1.000e+00   5.79e-07    9.999e-01    9.999e-01     5.93e-08
+ 1000.0   2.0  1.000e+00  1.000e+00   5.79e-07    9.999e-01    9.999e-01     5.93e-08
+
+
+
+  return (PBDOT_TEST_95 / 2.5) / abs(frac) if frac != 0 else np.inf
+
+
+
+
+Orbital tests when the gate acts on constituents: effective Gaussian gate v*_eff = sqrt(v*^2+2s^2),
+amplitude (1+2s^2/v*^2)^(-3/2).  Sun: ion thermal dispersion s_sun (assumed 100-300 km/s, interior
+temperatures ~1e6-1e7 K); Earth-Moon: s = 1.1 km/s (assumed).
+  v* =     0.1: Mars-precession bound |eps| < 6.97e-02 / 2.13e+00 / 1.61e+01 (s_sun 100/200/300); LLR |eps| < 1.85e-07 (v*_eff = 1.56 km/s)
+  v* =     1.0: Mars-precession bound |eps| < 6.97e-05 / 2.13e-03 / 1.61e-02 (s_sun 100/200/300); LLR |eps| < 3.15e-10 (v*_eff = 1.85 km/s)
+  v* =    10.0: Mars-precession bound |eps| < 7.06e-08 / 2.14e-06 / 1.61e-05 (s_sun 100/200/300); LLR |eps| < 8.01e-10 (v*_eff = 10.12 km/s)
+  v* =   120.0: Mars-precession bound |eps| < 1.53e-10 / 1.86e-09 / 1.13e-08 (s_sun 100/200/300); LLR |eps| < 1.06e-07 (v*_eff = 120.01 km/s)
+  v* =  1000.0: Mars-precession bound |eps| < 1.22e-09 / 1.41e-09 / 1.76e-09 (s_sun 100/200/300); LLR |eps| < 7.39e-06 (v*_eff = 1000.00 km/s)
+
+Nucleon-level gate, Fermi gas k_F = 200 MeV/c (assumed), v_F = 62459 km/s: <W> ~ (3 sqrt(pi)/4)(v*/v_F)^3 = 5.5e-18 @ 0.1 km/s, 5.5e-15 @ 1.0 km/s, 5.5e-12 @ 10.0 km/s, 9.4e-09 @ 120.0 km/s, 5.5e-06 @ 1000.0 km/s
+Nucleon-level gate, Fermi gas k_F = 250 MeV/c (assumed), v_F = 77138 km/s: <W> ~ (3 sqrt(pi)/4)(v*/v_F)^3 = 2.9e-18 @ 0.1 km/s, 2.9e-15 @ 1.0 km/s, 2.9e-12 @ 10.0 km/s, 5.0e-09 @ 120.0 km/s, 2.9e-06 @ 1000.0 km/s
+Nucleon-level gate, Fermi gas k_F = 270 MeV/c (assumed), v_F = 82854 km/s: <W> ~ (3 sqrt(pi)/4)(v*/v_F)^3 = 2.3e-18 @ 0.1 km/s, 2.3e-15 @ 1.0 km/s, 2.3e-12 @ 10.0 km/s, 4.0e-09 @ 120.0 km/s, 2.3e-06 @ 1000.0 km/s
+  (the gate width seen in CM velocity becomes ~v_F ~ 0.2-0.3 c: no orbital velocity dependence survives; only a composition-dependent rescaling of G)
+
+Spinning-rotor weighing, parametric (rotor rim speed v_rim is an assumption; published runs reached 2.2e4 rpm).
+Rotor adds horizontal velocities; uniform disk: <v^2> = v_rim^2/2.  Second-order average of K over the rotor:
+  v_rim=  30 m/s v*= 0.1 km/s lat=35.7: Delta K = +1.11e-05 -> |eps| < 9.0e-02 per 1e-6 weighing sensitivity
+  v_rim=  30 m/s v*= 0.1 km/s lat=48.8: Delta K = +5.25e-04 -> |eps| < 1.9e-03 per 1e-6 weighing sensitivity
+  v_rim=  30 m/s v*= 0.3 km/s lat=35.7: Delta K = -1.95e-03 -> |eps| < 5.1e-04 per 1e-6 weighing sensitivity
+  v_rim=  30 m/s v*= 0.3 km/s lat=48.8: Delta K = -3.58e-03 -> |eps| < 2.8e-04 per 1e-6 weighing sensitivity
+  v_rim=  30 m/s v*= 1.0 km/s lat=35.7: Delta K = +1.28e-04 -> |eps| < 7.8e-03 per 1e-6 weighing sensitivity
+  v_rim=  30 m/s v*= 1.0 km/s lat=48.8: Delta K = +2.24e-04 -> |eps| < 4.5e-03 per 1e-6 weighing sensitivity
+  v_rim=  60 m/s v*= 0.1 km/s lat=35.7: Delta K = +6.47e-05 -> |eps| < 1.5e-02 per 1e-6 weighing sensitivity
+  v_rim=  60 m/s v*= 0.1 km/s lat=48.8: Delta K = +2.49e-03 -> |eps| < 4.0e-04 per 1e-6 weighing sensitivity
+  v_rim=  60 m/s v*= 0.3 km/s lat=35.7: Delta K = -7.73e-03 -> |eps| < 1.3e-04 per 1e-6 weighing sensitivity
+  v_rim=  60 m/s v*= 0.3 km/s lat=48.8: Delta K = -1.41e-02 -> |eps| < 7.1e-05 per 1e-6 weighing sensitivity
+  v_rim=  60 m/s v*= 1.0 km/s lat=35.7: Delta K = +5.09e-04 -> |eps| < 2.0e-03 per 1e-6 weighing sensitivity
+  v_rim=  60 m/s v*= 1.0 km/s lat=48.8: Delta K = +8.95e-04 -> |eps| < 1.1e-03 per 1e-6 weighing sensitivity

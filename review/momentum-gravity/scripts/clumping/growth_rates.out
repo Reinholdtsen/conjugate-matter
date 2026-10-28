@@ -1,0 +1,24 @@
+=== 1. Anchor: gt = 0 (Jeans) solver vs closed-form stellar Jeans relation ===
+sum A_N = 0.9999999999906769
+kappa=0.2: Gamma solver=0.94254757  closed form=0.94254757  |D|=8.793174521978952e-13
+kappa=0.5: Gamma solver=0.68720193  closed form=0.68720193  |D|=2.8679836285053177e-12
+kappa=0.8: Gamma solver=0.30358990  closed form=0.30358990  |D|=5.04862818304804e-12
+kappa=0.95: Gamma solver=0.07886800  closed form=0.07886800  |D|=1.7018608765034824e-12
+kappa->0 limit of the closed form (free-fall rate): Gamma(0.01) = 0.999850018740819
+
+=== 2. Static limit of the dynamic solver vs radial Nystrom Lambda_0 ===
+r=1.2917, gt=10.0: Nystrom Lambda_0 = 2.30503422
+   kappa^2 = 0.9*Lambda_0: Gamma = 8.673556e-02  Gamma/(1-frac) = 0.8674  |D|=9.863221352761645e-12
+   kappa^2 = 0.99*Lambda_0: Gamma = 8.771495e-03  Gamma/(1-frac) = 0.8771  |D|=1.4876988564695692e-12
+   kappa^2 = 0.999*Lambda_0: Gamma = 8.779305e-04  Gamma/(1-frac) = 0.8779  |D|=5.506761796878984e-14
+   kappa^2 = 1.001*Lambda_0 (stable side): Gamma = 0.0
+r=0.25, gt=1.0: Nystrom Lambda_0 = 1.83983293
+   kappa^2 = 0.9*Lambda_0: Gamma = 1.067457e-01  Gamma/(1-frac) = 1.0675  |D|=5.325295760511416e-12
+   kappa^2 = 0.99*Lambda_0: Gamma = 1.055718e-02  Gamma/(1-frac) = 1.0557  |D|=4.285460878128513e-13
+   kappa^2 = 0.999*Lambda_0: Gamma = 1.054574e-03  Gamma/(1-frac) = 1.0546  |D|=5.773179433881061e-14
+   kappa^2 = 1.001*Lambda_0 (stable side): Gamma = 0.0
+r=4.0, gt=1000.0: Nystrom Lambda_0 = 11.02625530
+   kappa^2 = 0.9*Lambda_0: Gamma = 7.968204e-02  Gamma/(1-frac) = 0.7968  |D|=9.081517769563338e-10
+   kappa^2 = 0.99*Lambda_0: Gamma = 9.568734e-03  Gamma/(1-frac) = 0.9569  |D|=7.095835034575286e-11
+   kappa^2 = 0.999*Lambda_0: Gamma = 9.696348e-04  Gamma/(1-frac) = 0.9696  |D|=5.6985528046552976e-12
+   kappa^2 = 1.001*Lambda_0 (stable side): Gamma = 0.0

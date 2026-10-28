@@ -1,0 +1,5 @@
+anchor gt=0: slope = 0.79788 (sqrt(2/pi) = 0.79788)
+C2 MW gt=10 (agent: Gamma/(1-frac)=0.8779): Lambda_0=2.30503, F0=0.55041, slope sqrt(L0)/(pi F0) = 0.8780; Gamma at kappa^2=0.999 L0: 8.7802e-04, at 0.99 L0: 8.7802e-03
+MW gt=56.14: Lambda_0=9.09866, F0=0.63862, slope sqrt(L0)/(pi F0) = 1.5035; Gamma at kappa^2=0.999 L0: 1.5035e-03, at 0.99 L0: 1.5035e-02
+C11 cluster gt=1598 (agent: 0.447): Lambda_0=2.55530, F0=1.11949, slope sqrt(L0)/(pi F0) = 0.4545; Gamma at kappa^2=0.999 L0: 4.5452e-04, at 0.99 L0: 4.5452e-03
+cluster gt=304.4: Lambda_0=1.20303, F0=0.47226, slope sqrt(L0)/(pi F0) = 0.7393; Gamma at kappa^2=0.999 L0: 7.3927e-04, at 0.99 L0: 7.3927e-03

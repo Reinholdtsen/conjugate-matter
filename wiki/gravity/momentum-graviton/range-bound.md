@@ -33,9 +33,11 @@ sources:
   - "notes/debt1a-iii-tuning-test.md §4"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "review/v3-worklog.md 'Round-2 pending list' R7"
-  - "review/wiki-build-flags.md item 39"
+  - "review/wiki-build-flags.md items 39, 57"
   - "notes/closed-universe.md §6"
   - "review/wiki-build-flags.md item 51"
+  - "notes/velocity-gated-gravity.md §10"
+  - "verify/velocity_gated_gravity.py 'J. Flag 57: the Vainshtein radius'"
 ---
 
 *The laboratory bound on X's range is an upper limit on the distance over which the program's [momentum graviton X](/wiki/gravity/momentum-graviton) can pull on ordinary matter: 37.7 micrometres, which puts X's mass above 5.2 meV. X is a massive spin-2 field, so the force it adds to gravity between two bodies is a [Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces), which dies away beyond a range set by the field's mass. Its strength depends on the Planck masses of the program's two spin-2 frames, which [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) makes equal, and on the ratio of the two frames' backgrounds, which is one in the aligned vacuum the program's own equations assume. In that vacuum the extra force is 4/3 as strong as gravity at short distances, and torsion balances, which have looked for such a force between test masses tens of micrometres apart and found none, exclude it at ranges above 37.7 micrometres. The same data exclude a range set by the self-dual length of about 50 micrometres. The bound is the one new number of the [phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter) (§8.2); before it, no document put a number on X's mass, and none gives it a value. It is machine-checked, it was revised after a blind review, and it holds only for the aligned vacuum, whose persistence as the universe expands is open.*
@@ -95,7 +97,7 @@ The program's cosmology has its own reciprocal pair, the scale factor a and its 
 
 ### Unscreened at these ranges [D][V]
 
-In massive gravity the nonlinear self-interactions of the helicity-zero polarization suppress the extra force inside a distance around each source called its Vainshtein radius; outside it, the potential above holds [T]. "For a range of order 50 μm, laboratory test masses are far outside their Vainshtein radii (about 10⁻¹² m for a kilogram), so the force is unscreened" (note §8.2).
+In massive gravity the nonlinear self-interactions of the helicity-zero polarization suppress the extra force inside a distance around each source called its Vainshtein radius; outside it, the potential above holds [T]. "For a range of order 50 μm, laboratory test masses are far outside their Vainshtein radii (about 10⁻¹² m for a kilogram), so the force is unscreened" (note §8.2). The note's check of that radius uses r_V³ = 2r_Sλ², Enander and Mörtsell's eq. 43, which assumes one mode mass m₁ = 0 and in the program's palindromic vacuum would make X massless; their eqs. 40–41, which apply, give 1.5–3.8×10⁻¹² m for 1 kg at a 50 μm range, and under eq. 41 the check's rounding to 10⁻¹² m would fail. The conclusion, that laboratory masses are unscreened, holds. If this branch screens at all, the screened windows for λ_X would open at roughly 0.3–9 pc and close at Enander and Mörtsell's 4.4 kpc, the edge of their linear-theory lensing window [T][S]; whether it screens is open (flag 57 in `review/wiki-build-flags.md`, rated low; the source equations were read twice [S], by the run-3 critic-numbers verifier and by the drafting session, whose fetch is in the session transcript, not the record, and the momentum-gravity investigation's final critic adopted the verifier's ruling without rechecking them; `notes/velocity-gated-gravity.md` §§10–11; `verify/velocity_gated_gravity.py` section J; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script#flag-57-the-vainshtein-formula)).
 
 ### Open: two points the premise leaves [O]
 
@@ -217,3 +219,4 @@ What these checks cover:
 - `review/v3-worklog.md` 'Round-2 pending list' item R7 — the early-universe stability of a heavy spin-2 field at equal Planck masses, open
 - `review/wiki-build-flags.md` item 39 — the frame exchange and Z → −Z⁻¹ give the graviton different parities; awaiting Paul's ruling
 - `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 51 — β₁ > 0 required on the branch, the alignment today with f dynamical, and the frozen reading
+- `review/wiki-build-flags.md` item 57 — the Vainshtein formula for a massless mode (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §§10–11 and `verify/velocity_gated_gravity.py` section J — eqs. 40–43 compared, and whether the branch screens

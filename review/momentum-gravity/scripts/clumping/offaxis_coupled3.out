@@ -1,0 +1,2 @@
+kappa^2=19.7392: right rect wind(D)=+0.000, wind(det B_N)=[1. 0. 0. 0. 0.] -> coupled zeros (Re>0.01) = +1.000 [655 evals, 110s]
+   off-axis coupled zeros (Re>0): 1.1059+0.1743i[wind +1.00]  (239s)

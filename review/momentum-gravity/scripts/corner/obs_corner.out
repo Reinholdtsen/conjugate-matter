@@ -1,0 +1,81 @@
+A. Lyman-alpha, z = 4.2: k = [0.05 0.1  0.2 ] s/km = [ 4.349  8.698 17.396] /Mpc
+   WDM 5.3 keV: T2 = [0.9903 0.9549 0.8059]  -> allowed |T2-1| proxy [0.0097 0.0451 0.1941]
+   WDM 3.5 keV: T2 = [0.9729 0.8791 0.5528]  -> allowed |T2-1| proxy [0.0271 0.1209 0.4472]
+   reading H: T2 at k = 0.05 / 0.1 / 0.2 s/km; flag: B53 = beyond the 5.3-keV deviation at 0.1 s/km, B35 = beyond 3.5 keV; (0.05) = also beyond at 0.05 s/km
+     v*= 3: e0.3:0.998/0.992/0.973 ok  | e1:0.993/0.974/0.897 ok  | e2:0.987/0.944/0.757 B53(0.05) | e3:0.98/0.912/0.595 B53(0.05) | e5:0.965/0.839/0.265 B35(0.05) | e10:0.925/0.626/0.088 B35(0.05)
+     v*= 5: e0.3:0.995/0.98/0.949 ok  | e1:0.982/0.927/0.754 B53(0.05) | e2:0.962/0.835/0.375 B35(0.05) | e3:0.94/0.727/0.0707 B35(0.05) | e5:0.894/0.486/0.229 B35(0.05) | e10:0.757/0.0271/0.226 B35(0.05)
+     v*= 7: e0.3:0.99/0.966/0.957 ok (0.05) | e1:0.964/0.862/0.67 B35(0.05) | e2:0.923/0.667/0.132 B35(0.05) | e3:0.876/0.446/0.0413 B35(0.05) | e5:0.771/0.081/0.633 B35(0.05) | e10:0.466/0.511/0.0511 B35(0.05)
+     v*=10: e0.3:0.98/0.949/1.08 B53(0.05) | e1:0.927/0.754/0.932 B35(0.05) | e2:0.835/0.375/0.229 B35(0.05) | e3:0.727/0.0707/0.0198 B35(0.05) | e5:0.486/0.229/0.0914 B35(0.05) | e10:0.0271/0.226/0.0143 B35(0.05)
+     v*=15: e0.3:0.963/0.968/1.57 ok (0.05) | e1:0.844/0.674/3.66 B35(0.05) | e2:0.619/0.11/7.67 B35(0.05) | e3:0.371/0.0694/8.81 B35(0.05) | e5:0.0246/0.535/0.237 B35(0.05) | e10:0.732/0.0038/0.0138 B35(0.05)
+     v*=20: e0.3:0.949/1.08/2.15 B53(0.05) | e1:0.754/0.932/10.8 B53(0.05) | e2:0.375/0.229/67 B35(0.05) | e3:0.0707/0.0198/216 B35(0.05) | e5:0.229/0.0914/57.6 B35(0.05) | e10:0.226/0.0143/997 B35(0.05)
+     v*=30: e0.3:0.968/1.57/3.18 B35(0.05) | e1:0.674/3.66/40.1 B35(0.05) | e2:0.11/7.67/899 B35(0.05) | e3:0.0694/8.81/1.05e+04 B35(0.05) | e5:0.535/0.237/6.08e+04 B35(0.05) | e10:0.0038/0.0138/1.2e+09 B35(0.05)
+   reading K4: T2 at k = 0.05 / 0.1 / 0.2 s/km; flag: B53 = beyond the 5.3-keV deviation at 0.1 s/km, B35 = beyond 3.5 keV; (0.05) = also beyond at 0.05 s/km
+     v*= 3: e0.3:1/1.02/1.08 ok  | e1:1.02/1.07/1.29 B53(0.05) | e2:1.03/1.14/1.66 B35(0.05) | e3:1.05/1.22/2.14 B35(0.05) | e5:1.09/1.39/3.56 B35(0.05) | e10:1.18/1.93/12.6 B35(0.05)
+     v*= 5: e0.3:1.01/1.05/1.22 B53(0.05) | e1:1.05/1.2/1.92 B35(0.05) | e2:1.1/1.43/3.7 B35(0.05) | e3:1.15/1.71/7.1 B35(0.05) | e5:1.26/2.44/25.9 B35(0.05) | e10:1.58/5.96/598 B35(0.05)
+     v*= 7: e0.3:1.03/1.11/1.41 B53(0.05) | e1:1.09/1.4/3.17 B35(0.05) | e2:1.19/1.97/10 B35(0.05) | e3:1.31/2.77/31.3 B35(0.05) | e5:1.56/5.47/290 B35(0.05) | e10:2.43/29.4/5.8e+04 B35(0.05)
+     v*=10: e0.3:1.05/1.22/1.79 B35(0.05) | e1:1.2/1.92/6.91 B35(0.05) | e2:1.43/3.7/46.7 B35(0.05) | e3:1.71/7.1/302 B35(0.05) | e5:2.44/25.9/1.11e+04 B35(0.05) | e10:5.96/598/5.16e+07 B35(0.05)
+     v*=15: e0.3:1.12/1.47/2.46 B35(0.05) | e1:1.47/3.62/20.1 B35(0.05) | e2:2.17/13/377 B35(0.05) | e3:3.19/46/6.38e+03 B35(0.05) | e5:6.92/542/1.42e+06 B35(0.05) | e10:46.5/1.87e+05/4.28e+11 B35(0.05)
+     v*=20: e0.3:1.22/1.79/3.09 B35(0.05) | e1:1.92/6.91/42.4 B35(0.05) | e2:3.7/46.7/1.6e+03 B35(0.05) | e3:7.1/302/5.21e+04 B35(0.05) | e5:25.9/1.11e+04/3.98e+07 B35(0.05) | e10:598/5.16e+07/2.14e+14 B35(0.05)
+     v*=30: e0.3:1.47/2.46/4.13 B35(0.05) | e1:3.62/20.1/110 B35(0.05) | e2:13/377/1.01e+04 B35(0.05) | e3:46/6.38e+03/7.52e+05 B35(0.05) | e5:542/1.42e+06/2.74e+09 B35(0.05) | e10:1.87e+05/4.28e+11/5.7e+17 B35(0.05)
+
+B. 1-sigma collapse redshift z_c (sigma(M, z_c) = 1.686), linear theory; LCDM: 1e+02: 8.60, 1e+04: 6.94, 1e+06: 5.10, 1e+07: 4.23, 1e+08: 3.40, 1e+09: 2.61, 1e+10: 1.87
+   H  eps= 1 v*= 5: z_c 1e+02:71.6, 1e+04:36.7, 1e+06:10.4, 1e+07:5.3, 1e+08:3.3, 1e+09:2.5, 1e+10:1.8 | density proxy vs LCDM: 1e9: x0.946, 1e10: x0.98
+   H  eps= 3 v*= 5: z_c 1e+02:inf, 1e+04:inf, 1e+06:65.1, 1e+07:38.9, 1e+08:24.3, 1e+09:14.7, 1e+10:8.6 | density proxy vs LCDM: 1e9: x82.3, 1e10: x37.4
+   H  eps= 1 v*=10: z_c 1e+02:88.4, 1e+04:53.4, 1e+06:18.3, 1e+07:9.1, 1e+08:4.4, 1e+09:2.6, 1e+10:1.8 | density proxy vs LCDM: 1e9: x0.973, 1e10: x0.941
+   H  eps= 3 v*=10: z_c 1e+02:inf, 1e+04:inf, 1e+06:102.6, 1e+07:61.9, 1e+08:38.4, 1e+09:23.2, 1e+10:13.5 | density proxy vs LCDM: 1e9: x303, 1e10: x128
+   H  eps=10 v*=10: z_c 1e+02:inf, 1e+04:inf, 1e+06:inf, 1e+07:inf, 1e+08:inf, 1e+09:inf, 1e+10:inf | density proxy vs LCDM: 1e9: xinf, 1e10: xinf
+   H  eps= 1 v*=20: z_c 1e+02:102.0, 1e+04:69.9, 1e+06:30.3, 1e+07:16.2, 1e+08:7.9, 1e+09:3.6, 1e+10:1.9 | density proxy vs LCDM: 1e9: x2.14, 1e10: x1.01
+   H  eps= 3 v*=20: z_c 1e+02:inf, 1e+04:inf, 1e+06:inf, 1e+07:95.8, 1e+08:58.5, 1e+09:35.0, 1e+10:21.5 | density proxy vs LCDM: 1e9: x992, 1e10: x486
+   H  eps= 1 v*=30: z_c 1e+02:108.5, 1e+04:78.6, 1e+06:38.7, 1e+07:22.2, 1e+08:11.2, 1e+09:5.2, 1e+10:2.3 | density proxy vs LCDM: 1e9: x5.02, 1e10: x1.53
+   H  eps= 3 v*=30: z_c 1e+02:inf, 1e+04:inf, 1e+06:inf, 1e+07:123.5, 1e+08:74.9, 1e+09:44.9, 1e+10:28.1 | density proxy vs LCDM: 1e9: x2.06e+03, 1e10: x1.04e+03
+   K4 eps= 1 v*= 5: z_c 1e+02:64.2, 1e+04:38.9, 1e+06:14.5, 1e+07:7.9, 1e+08:4.5, 1e+09:2.9, 1e+10:1.9 | density proxy vs LCDM: 1e9: x1.24, 1e10: x1.07
+   K4 eps= 3 v*= 5: z_c 1e+02:inf, 1e+04:inf, 1e+06:64.1, 1e+07:36.0, 1e+08:20.5, 1e+09:11.2, 1e+10:6.1 | density proxy vs LCDM: 1e9: x38.4, 1e10: x15
+   K4 eps= 1 v*=10: z_c 1e+02:74.5, 1e+04:50.4, 1e+06:22.7, 1e+07:12.9, 1e+08:6.8, 1e+09:3.7, 1e+10:2.1 | density proxy vs LCDM: 1e9: x2.17, 1e10: x1.32
+   K4 eps= 3 v*=10: z_c 1e+02:inf, 1e+04:inf, 1e+06:106.0, 1e+07:59.0, 1e+08:33.3, 1e+09:18.4, 1e+10:10.4 | density proxy vs LCDM: 1e9: x155, 1e10: x63.8
+   K4 eps=10 v*=10: z_c 1e+02:inf, 1e+04:inf, 1e+06:inf, 1e+07:inf, 1e+08:inf, 1e+09:inf, 1e+10:inf | density proxy vs LCDM: 1e9: xinf, 1e10: xinf
+   K4 eps= 1 v*=20: z_c 1e+02:83.2, 1e+04:60.8, 1e+06:32.6, 1e+07:20.3, 1e+08:11.3, 1e+09:5.8, 1e+10:2.9 | density proxy vs LCDM: 1e9: x6.6, 1e10: x2.51
+   K4 eps= 3 v*=20: z_c 1e+02:inf, 1e+04:inf, 1e+06:inf, 1e+07:97.3, 1e+08:54.2, 1e+09:30.4, 1e+10:17.2 | density proxy vs LCDM: 1e9: x656, 1e10: x258
+   K4 eps= 1 v*=30: z_c 1e+02:87.4, 1e+04:66.2, 1e+06:38.7, 1e+07:25.5, 1e+08:14.9, 1e+09:7.8, 1e+10:3.8 | density proxy vs LCDM: 1e9: x14.7, 1e10: x4.77
+   K4 eps= 3 v*=30: z_c 1e+02:inf, 1e+04:inf, 1e+06:inf, 1e+07:128.8, 1e+08:72.4, 1e+09:40.5, 1e+10:22.9 | density proxy vs LCDM: 1e9: x1.52e+03, 1e10: x579
+
+C. tau toy model: LCDM zeta = 7.34 gives tau = 0.0540, reionization complete at z = 5.65, midpoint z = 7.05; with Q(6) = 1 instead: tau = 0.0575
+   H  eps= 1 v*= 5: f_coll(>1e8) at z = 6, 10, 20: 0.104, 0.011, 1.54e-06 | tau (i) same zeta: 0.052; (ii) Q(6) = 1: 0.057
+   H  eps= 3 v*= 5: f_coll(>1e8) at z = 6, 10, 20: 0.986, 0.941, 0.576 | tau (i) same zeta: 0.397; (ii) Q(6) = 1: 0.240
+   H  eps= 1 v*=10: f_coll(>1e8) at z = 6, 10, 20: 0.159, 0.0148, 1.23e-06 | tau (i) same zeta: 0.059; (ii) Q(6) = 1: 0.056
+   H  eps= 3 v*=10: f_coll(>1e8) at z = 6, 10, 20: 0.996, 0.985, 0.889 | tau (i) same zeta: 0.767; (ii) Q(6) = 1: 0.466
+   H  eps=10 v*=10: f_coll(>1e8) at z = 6, 10, 20: 1, 1, 1 | tau (i) same zeta: 4.071; (ii) Q(6) = 1: 4.071
+   H  eps= 1 v*=20: f_coll(>1e8) at z = 6, 10, 20: 0.502, 0.154, 0.000121 | tau (i) same zeta: 0.107; (ii) Q(6) = 1: 0.071
+   H  eps= 3 v*=20: f_coll(>1e8) at z = 6, 10, 20: 0.999, 0.996, 0.97 | tau (i) same zeta: 1.452; (ii) Q(6) = 1: 0.864
+   H  eps= 1 v*=30: f_coll(>1e8) at z = 6, 10, 20: 0.699, 0.402, 0.0124 | tau (i) same zeta: 0.170; (ii) Q(6) = 1: 0.097
+   H  eps= 3 v*=30: f_coll(>1e8) at z = 6, 10, 20: 1, 0.998, 0.986 | tau (i) same zeta: 2.049; (ii) Q(6) = 1: 1.242
+   K4 eps= 1 v*= 5: f_coll(>1e8) at z = 6, 10, 20: 0.182, 0.0251, 6.71e-06 | tau (i) same zeta: 0.065; (ii) Q(6) = 1: 0.059
+   K4 eps= 3 v*= 5: f_coll(>1e8) at z = 6, 10, 20: 0.961, 0.867, 0.345 | tau (i) same zeta: 0.324; (ii) Q(6) = 1: 0.188
+   K4 eps= 1 v*=10: f_coll(>1e8) at z = 6, 10, 20: 0.396, 0.103, 0.000143 | tau (i) same zeta: 0.096; (ii) Q(6) = 1: 0.068
+   K4 eps= 3 v*=10: f_coll(>1e8) at z = 6, 10, 20: 0.989, 0.963, 0.791 | tau (i) same zeta: 0.652; (ii) Q(6) = 1: 0.375
+   K4 eps=10 v*=10: f_coll(>1e8) at z = 6, 10, 20: 1, 1, 1 | tau (i) same zeta: 4.071; (ii) Q(6) = 1: 4.069
+   K4 eps= 1 v*=20: f_coll(>1e8) at z = 6, 10, 20: 0.683, 0.399, 0.0205 | tau (i) same zeta: 0.180; (ii) Q(6) = 1: 0.101
+   K4 eps= 3 v*=20: f_coll(>1e8) at z = 6, 10, 20: 0.997, 0.99, 0.944 | tau (i) same zeta: 1.355; (ii) Q(6) = 1: 0.760
+   K4 eps= 1 v*=30: f_coll(>1e8) at z = 6, 10, 20: 0.79, 0.581, 0.119 | tau (i) same zeta: 0.262; (ii) Q(6) = 1: 0.136
+   K4 eps= 3 v*=30: f_coll(>1e8) at z = 6, 10, 20: 0.999, 0.996, 0.975 | tau (i) same zeta: 2.024; (ii) Q(6) = 1: 1.165
+
+D. Segue 1: mean DM density inside r_1/2 = 38.7 pc: 2.40 Msun/pc^3; heating limit for compact clumps (f M_c) < 7.88 Msun (lnL = 5.0, 12.0 Gyr, Delta sigma^2 < sigma^2)
+   clumps denser than that (rho_s = 86.3 rho_m(z_c)) need z_c > 87.7
+   H  eps= 1 v*= 5: M=1e+02: sigma(z_min)=1.24, f_coll(>M, z_min)=0.172; M=1e+04: sigma(z_min)=0.409, f_coll(>M, z_min)=3.7e-05; M=1e+06: sigma(z_min)=0.117, f_coll(>M, z_min)=7.54e-47
+   H  eps= 3 v*= 5: M=1e+02: sigma(z_min)=147, f_coll(>M, z_min)=0.991; M=1e+04: sigma(z_min)=17, f_coll(>M, z_min)=0.921; M=1e+06: sigma(z_min)=0.726, f_coll(>M, z_min)=0.0202
+   H  eps= 1 v*=10: M=1e+02: sigma(z_min)=1.75, f_coll(>M, z_min)=0.336; M=1e+04: sigma(z_min)=0.759, f_coll(>M, z_min)=0.0263; M=1e+06: sigma(z_min)=0.149, f_coll(>M, z_min)=8.05e-30
+   H  eps= 3 v*=10: M=1e+02: sigma(z_min)=319, f_coll(>M, z_min)=0.996; M=1e+04: sigma(z_min)=67.5, f_coll(>M, z_min)=0.98; M=1e+06: sigma(z_min)=2.92, f_coll(>M, z_min)=0.564
+   H  eps=10 v*=10: M=1e+02: sigma(z_min)=2.32e+10, f_coll(>M, z_min)=1; M=1e+04: sigma(z_min)=1.62e+09, f_coll(>M, z_min)=1; M=1e+06: sigma(z_min)=7.6e+07, f_coll(>M, z_min)=1
+   H  eps= 1 v*=20: M=1e+02: sigma(z_min)=2.22, f_coll(>M, z_min)=0.447; M=1e+04: sigma(z_min)=1.19, f_coll(>M, z_min)=0.155; M=1e+06: sigma(z_min)=0.295, f_coll(>M, z_min)=1.11e-08
+   H  eps= 3 v*=20: M=1e+02: sigma(z_min)=509, f_coll(>M, z_min)=0.997; M=1e+04: sigma(z_min)=174, f_coll(>M, z_min)=0.992; M=1e+06: sigma(z_min)=11.6, f_coll(>M, z_min)=0.885
+   H  eps= 1 v*=30: M=1e+02: sigma(z_min)=2.45, f_coll(>M, z_min)=0.492; M=1e+04: sigma(z_min)=1.44, f_coll(>M, z_min)=0.242; M=1e+06: sigma(z_min)=0.443, f_coll(>M, z_min)=0.000142
+   H  eps= 3 v*=30: M=1e+02: sigma(z_min)=612, f_coll(>M, z_min)=0.998; M=1e+04: sigma(z_min)=257, f_coll(>M, z_min)=0.995; M=1e+06: sigma(z_min)=26.5, f_coll(>M, z_min)=0.949
+   K4 eps= 1 v*= 5: M=1e+02: sigma(z_min)=1.06, f_coll(>M, z_min)=0.112; M=1e+04: sigma(z_min)=0.488, f_coll(>M, z_min)=0.000554; M=1e+06: sigma(z_min)=0.146, f_coll(>M, z_min)=5.68e-31
+   K4 eps= 3 v*= 5: M=1e+02: sigma(z_min)=54.7, f_coll(>M, z_min)=0.975; M=1e+04: sigma(z_min)=14.4, f_coll(>M, z_min)=0.907; M=1e+06: sigma(z_min)=0.769, f_coll(>M, z_min)=0.0284
+   K4 eps= 1 v*=10: M=1e+02: sigma(z_min)=1.34, f_coll(>M, z_min)=0.208; M=1e+04: sigma(z_min)=0.729, f_coll(>M, z_min)=0.0207; M=1e+06: sigma(z_min)=0.22, f_coll(>M, z_min)=1.68e-14
+   K4 eps= 3 v*=10: M=1e+02: sigma(z_min)=83.4, f_coll(>M, z_min)=0.984; M=1e+04: sigma(z_min)=31.7, f_coll(>M, z_min)=0.958; M=1e+06: sigma(z_min)=3, f_coll(>M, z_min)=0.574
+   K4 eps=10 v*=10: M=1e+02: sigma(z_min)=3.24e+07, f_coll(>M, z_min)=1; M=1e+04: sigma(z_min)=6.69e+06, f_coll(>M, z_min)=1; M=1e+06: sigma(z_min)=2.81e+05, f_coll(>M, z_min)=1
+   K4 eps= 1 v*=20: M=1e+02: sigma(z_min)=1.59, f_coll(>M, z_min)=0.288; M=1e+04: sigma(z_min)=0.977, f_coll(>M, z_min)=0.0845; M=1e+06: sigma(z_min)=0.37, f_coll(>M, z_min)=5.13e-06
+   K4 eps= 3 v*=20: M=1e+02: sigma(z_min)=112, f_coll(>M, z_min)=0.988; M=1e+04: sigma(z_min)=54.1, f_coll(>M, z_min)=0.975; M=1e+06: sigma(z_min)=9.98, f_coll(>M, z_min)=0.866
+   K4 eps= 1 v*=30: M=1e+02: sigma(z_min)=1.72, f_coll(>M, z_min)=0.326; M=1e+04: sigma(z_min)=1.12, f_coll(>M, z_min)=0.131; M=1e+06: sigma(z_min)=0.482, f_coll(>M, z_min)=0.000467
+   K4 eps= 3 v*=30: M=1e+02: sigma(z_min)=127, f_coll(>M, z_min)=0.989; M=1e+04: sigma(z_min)=68.3, f_coll(>M, z_min)=0.98; M=1e+06: sigma(z_min)=17.1, f_coll(>M, z_min)=0.921
+   LCDM: sigma(z_min) at 1e2, 1e4, 1e6 Msun = 0.187, 0.155, 0.119

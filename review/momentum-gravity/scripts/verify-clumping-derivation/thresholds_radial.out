@@ -1,0 +1,40 @@
+validation against the 3D grid (static_fft3d.out):
+  gauss r=1.2917 gt=10: radial 2.3050342  3D 2.3050342
+  gauss r=1.2917 gt=100: radial 15.6331715  3D 15.6331715
+  gauss r=0.25 gt=1: radial 1.8398329  3D 1.8398329
+  gauss r=4.0 gt=10000.0: radial 107.7421120  3D 107.742112
+  gauss r=8.333 gt=10000.0: radial 14.5485486  3D 14.5485486
+  gauss r=1.2917 gt=281: radial 42.6419680  3D 42.641968
+  gauss gate only r=8.333: Lam=1.44367e-03, Lam r^3=0.83535, Lam r^2=0.10025
+  gauss gate only r=16.0: Lam=2.22296e-04, Lam r^3=0.91052, Lam r^2=0.05691
+  rat2 gate only r=8.333: Lam=1.73635e-03, Lam r^3=1.00471, Lam r^2=0.12057
+  rat2 gate only r=16.0: Lam=2.99527e-04, Lam r^3=1.22686, Lam r^2=0.07668
+  rat1 gate only r=8.333: Lam=1.53773e-02, Lam r^3=8.89785, Lam r^2=1.06779
+  rat1 gate only r=16.0: Lam=4.58095e-03, Lam r^3=18.76358, Lam r^2=1.17272
+rat2 asymptote with a finer grid near v=0 (n=800, vmax=8):
+  r=16.0: rat2 Lam r^3=1.2269 (sqrt(pi)=1.7725);  gauss Lam r^3=0.9105
+  r=32.0: rat2 Lam r^3=1.4056 (sqrt(pi)=1.7725);  gauss Lam r^3=0.9542
+  r=64.0: rat2 Lam r^3=1.5315 (sqrt(pi)=1.7725);  gauss Lam r^3=0.9768
+
+critical gt at (k/k_J)^2 = 1.1, 2, 4.4, 10, 25:
+  gauss r= 0.2500: 0.1193, 1.19, 4.042, 10.69, 28.51
+  gauss r= 1.2917: 0.8809, 7.818, 24.45, 62.2, 162.8
+  gauss r= 4.0000: 18.09, 138.3, 378.1, 904.2, 2302
+  gauss r= 8.3330: 157.3, 1148, 2938, 6844, 1.724e+04
+  rat2  r= 0.2500: 0.1352, 1.346, 4.563, 12.06, 32.15
+  rat2  r= 1.2917: 1.025, 9.384, 29.95, 76.91, 202.1
+  rat2  r= 4.0000: 14.48, 119.7, 351, 865.1, 2230
+  rat2  r= 8.3330: 106.7, 836, 2323, 5583, 1.423e+04
+
+halo margins:
+  dwarf: r=0.2500  Lam_g=8.41960e-01 <W>=8.38052e-01 closed (1+2r^2)^-1.5=8.38052e-01 Lam_g/<W>=1.0047
+     Q=1.0966: gauss: no-revir 0.1152, revir inf | rat2: no-revir 0.1306, revir inf
+     Q=4.3865: gauss: no-revir 4.026, revir inf | rat2: no-revir 4.545, revir inf
+  MW: r=1.2917  Lam_g=1.49287e-01 <W>=1.10725e-01 closed (1+2r^2)^-1.5=1.10725e-01 Lam_g/<W>=1.3483
+     Q=4.9348: gauss: no-revir 28.07, revir inf | rat2: no-revir 34.46, revir inf
+     Q=19.7392: gauss: no-revir 127.5, revir inf | rat2: no-revir 158.2, revir inf
+     Q=24.7700: gauss: no-revir 161.2, revir inf | rat2: no-revir 200.2, revir inf
+  cluster: r=8.3333  Lam_g=1.44350e-03 <W>=6.04401e-04 closed (1+2r^2)^-1.5=6.04401e-04 Lam_g/<W>=2.3883
+     Q=1.0966: gauss: no-revir 152.2, revir 798.8 | rat2: no-revir 103.3, revir 643.1
+     Q=4.3865: gauss: no-revir 2929, revir inf | rat2: no-revir 2315, revir inf
+  r=64.0: gauss Lam_g/<W> = 2.7634 (limit 2^1.5=2.8284)

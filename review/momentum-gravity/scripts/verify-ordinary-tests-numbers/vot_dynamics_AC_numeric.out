@@ -1,0 +1,10 @@
+Gaussian   u =      0.3: (Omega^2 r^3 - 1)/eps =    1.07843879862 ; K(u) =    1.07843879862 ; epicyclic dw/eps =  -0.940604955392 ; pi u (uW')' = -0.940604955392
+Gaussian   u = 0.707107: (Omega^2 r^3 - 1)/eps =    1.21306131943 ; K(u) =    1.21306131943 ; epicyclic dw/eps =   -1.90547226473 ; pi u (uW')' = -1.90547226473
+Gaussian   u =      1.0: (Omega^2 r^3 - 1)/eps =    1.10363832352 ; K(u) =    1.10363832351 ; epicyclic dw/eps = -3.4013466527e-12 ; pi u (uW')' = 0.0
+Gaussian   u =      1.6: (Omega^2 r^3 - 1)/eps =   0.473105011514 ; K(u) =   0.473105011513 ; epicyclic dw/eps =    3.87954285851 ; pi u (uW')' = 3.87954285851
+Gaussian   u =      3.0: (Omega^2 r^3 - 1)/eps = 0.00234478627765 ; K(u) = 0.00234478627765 ; epicyclic dw/eps =   0.111658560163 ; pi u (uW')' = 0.111658560163
+Lorentzian u =      0.3: (Omega^2 r^3 - 1)/eps =    1.06893359145 ; K(u) =    1.06893359145 ; epicyclic dw/eps =  -0.794720236625 ; pi u (uW')' = -0.794720236625
+Lorentzian u = 0.707107: (Omega^2 r^3 - 1)/eps =    1.11111111111 ; K(u) =    1.11111111111 ; epicyclic dw/eps =  -0.930842267729 ; pi u (uW')' = -0.93084226773
+Lorentzian u =      1.0: (Omega^2 r^3 - 1)/eps =              1.0 ; K(u) =              1.0 ; epicyclic dw/eps =              0.0 ; pi u (uW')' = 0.0
+Lorentzian u =      1.6: (Omega^2 r^3 - 1)/eps =   0.684888271683 ; K(u) =   0.684888271683 ; epicyclic dw/eps =    1.11230639409 ; pi u (uW')' = 1.11230639409
+Lorentzian u =      3.0: (Omega^2 r^3 - 1)/eps =             0.28 ; K(u) =             0.28 ; epicyclic dw/eps =   0.904778684234 ; pi u (uW')' = 0.904778684234

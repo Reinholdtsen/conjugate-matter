@@ -1,0 +1,6 @@
+beta = 0, v_inf = 0.1: theta = 2.748730, Rutherford = 2.746802
+beta = 0, v_inf = 0.3: theta = 1.014669, Rutherford = 1.014197
+beta = 0, v_inf = 1.0: theta = 0.099922, Rutherford = 0.099917
+beta = 0.5, v_inf = 0.1, step factor 0.002: theta = 2.318535, pericentre r = 1.749
+beta = 0.5, v_inf = 0.1, step factor 0.001: theta = 2.318535, pericentre r = 1.749
+beta = 0.5, v_inf = 0.1, anomalous velocity switched off (not Hamiltonian; diagnostic): theta = 2.454945, pericentre r = 1.600

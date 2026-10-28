@@ -16,6 +16,7 @@ sources:
   - "wiki/CLAUDE.md 'The wiki is derivative'"
   - "review/wiki-build-checks/README.md"
   - "review/wiki-build-flags.md items 16, 28"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
 ---
 
 *The iron rule is the program's requirement that no number be accepted on inspection: every number a document asserts, and every number a reviewer disputes, is computed by code that is actually run and prints its result, and the code is kept in the repository's `verify/` folder. It was adopted after the first two blind reviews, in which AI referees working without code execution made three confident accusations of order-of-magnitude errors, all of which came from their own unit mistakes. The rule makes the arithmetic checkable by anyone who runs the scripts, and [the gate](/wiki/method/verification/the-gate) runs them before any work counts as finished. It does not make the physics right, which round 3 showed.*
@@ -82,7 +83,7 @@ Flag 28 in `review/wiki-build-flags.md` reads it as: "The number 34 is right; th
 
 - **Arithmetic, not physics.** Round 3 found a wrong physical input in a manuscript every number of which had been computed by a gated script: "The failure mode has moved. In rounds 1–2 it was the referee's unaided arithmetic. In round 3 it is that **the author's verification checks the author's model**: a wrong physics input passes a gate that tests only arithmetic." (`review/round3-adjudication.md`, 'Pre-registration scored'). See [Verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model) and [Independent anchors](/wiki/method/verification/independent-anchors).
 - **Statistics.** A simulation's number can be computed exactly and still be a fluctuation; round 4 added the [error-bar rule](/wiki/method/verification/monte-carlo-error-bars).
-- **Numbers without a script.** Not every number in the record has one. `HANDOFF.md` §2 marks the Debt-3 figure "criterion fails by 10²⁸–10³¹" with ✓, yet no script in `verify/` computes it (flag 16); the gate page lists the other gaps ([what is not gated](/wiki/method/verification/the-gate#what-is-not-gated)).
+- **Numbers without a script.** Not every number in the record has one. `HANDOFF.md` §2 marks the Debt-3 figure "criterion fails by 10²⁸–10³¹" with ✓, and until 2026-10-28 no script in `verify/` computed it (flag 16). Section D of `verify/velocity_gated_gravity.py` now reproduces 3a's two ratios; flag 16's addendum: "The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The rest of Debt 3, including the classicality numbers, the wave-island rate and the ultra-faint-dwarf endpoint, has no script. The gate page lists the other gaps ([what is not gated](/wiki/method/verification/the-gate#what-is-not-gated)).
 - **"Kept in `verify/`."** The adjudicators' arbitration scripts are kept in `review/`, beside the rulings, and the gate does not run them; their corrected results are carried into `verify/` instead. The root `CLAUDE.md`'s layout and the header of `scripts/check.sh` say that arbitration scripts go in `verify/` (flag 38 in `review/wiki-build-flags.md`).
 
 ## Sources
@@ -94,4 +95,5 @@ Flag 28 in `review/wiki-build-flags.md` reads it as: "The number 34 is right; th
 - `review/v3-worklog.md` 'v3 as drafted (2026-10-19)' — the two figures corrected before the text was written
 - `scripts/check.sh` — the gate that runs the scripts
 - `wiki/CLAUDE.md` 'The wiki is derivative' — the rule applied to the wiki
-- `review/wiki-build-checks/README.md`, `dirac_coupling_check.out`; `review/wiki-build-flags.md` items 16, 28 — the wiki build's executed checks; the check mark without a script
+- `review/wiki-build-checks/README.md`, `dirac_coupling_check.out`; `review/wiki-build-flags.md` items 16, 28 — the wiki build's executed checks; the check mark without a script, and item 16's addendum of 2026-10-28
+- `verify/velocity_gated_gravity.py` section D — the Debt-3a shortfall, gated since 2026-10-28

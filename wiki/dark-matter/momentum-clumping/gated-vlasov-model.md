@@ -15,7 +15,9 @@ sources:
   - "notes/broken-born-theory.md §11 item 3"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 4"
-  - "review/wiki-build-flags.md item 17"
+  - "review/wiki-build-flags.md items 17, 55, 58"
+  - "notes/velocity-gated-gravity.md §4"
+  - "notes/gate-mechanism.md §5"
 ---
 
 *The gated Vlasov model is the simplified description of dark matter that [Debt 3](/wiki/history/debts) used to test [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image). Dark matter is treated as a smooth gas in position and momentum. Besides gravity, each particle feels an attraction only from neighbours whose momentum lies within a narrow window around its own, the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), and the attraction's range in space is shrunk to a point. Whether a small ripple in this gas grows then becomes an eigenvalue problem on momentum space, which the calculation brackets between a broad-gate limit and a narrow-gate limit instead of solving in general. The model also retired the earlier plan to race the growth of streams against orbital stirring, because below the threshold there is no growth to race.*
@@ -69,6 +71,8 @@ The gate is much wider than the spread of momenta in the gas, so G ≈ 1 for eve
 
 The gate is much narrower than the spread. 3a: "Patch modes: δε supported on a momentum ball of radius ~μ." A mode then lives on a small patch of momentum space: only the "co-movers", the particles inside the patch, take part, and the spread that resists clumping is the patch's own internal spread v\*, not the halo's σ. 3a obtains this limit with the "Same algebra", substituting n → n_gate and σ → v\*. 3a labels it the "MW/cluster regime", the Milky Way and galaxy clusters, where velocity dispersions are large.
 
+The second substitution is flagged. The momentum-gravity investigation of 2026-10-27 and 2026-10-28 found that σ → v\* "is the threshold of a cold stream that already exists, not of a smooth halo"; linearized about the halo, the threshold keeps the halo's dispersion, g·n·Λ_g ≥ m·σ², with Λ_g the gate's top eigenvalue. In the Milky Way 3a's form overstates the shortfall about 3×, and the verdict is unchanged (`notes/velocity-gated-gravity.md` §4; flag 58 in `review/wiki-build-flags.md`; [the narrow-gate form, flagged](/wiki/dark-matter/momentum-clumping/instability-criterion#the-narrow-gate-form-flagged)).
+
 ### What the bracket provides
 
 Neither limit is the general case, and the intermediate regime μ ~ mσ is not solved. 3a merges the two limits into one criterion, "ε_gate ≳ m·min(σ, v\*)²", in which the smaller of the thermal spread and the gate width sets the kinetic-energy scale that the attraction has to overcome. The thresholds and their evaluation at the benchmark are on [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) page.
@@ -79,7 +83,7 @@ Neither limit is the general case, and the intermediate regime μ ~ mσ is not s
 - **Nonrelativistic** motion, as 3a states.
 - **Classical particles.** f is a classical phase-space density, which describes the gas only while few particles share each quantum state. [The classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) shows that the model's own threshold can be met only far outside this regime.
 - **A homogeneous Maxwellian background** of dispersion σ, as stated in the Setup.
-- **A Gaussian gate.** #11 §8 derives the gate's mechanism, exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) between particles whose momentum-space wavepackets overlap, with μ "the χ quantum's intrinsic momentum-fiber width", and tags it "[D — mechanism; shape [O]]". #11 §14 item 4 keeps the shape open: "Gate shape (X propagator on momentum fibers; Gaussian vs rational — now observable) [O]" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism), [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
+- **A Gaussian gate.** #11 §8 derives the gate's mechanism, exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) between particles whose momentum-space wavepackets overlap, with μ "the χ quantum's intrinsic momentum-fiber width", and tags it "[D — mechanism; shape [O]]". `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The model takes the gate G as given and does not use the mechanism (the wiki's reading). #11 §14 item 4 keeps the shape open: "Gate shape (X propagator on momentum fibers; Gaussian vs rational — now observable) [O]" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism), [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
 - **Contact range** in position, from the microscopic mediator range 1/m_φ.
 
 ## Carried to the wave island
@@ -111,4 +115,6 @@ The second note, 3b, keeps the conventions: "Same conventions as Chunk A: σ₀ 
 - `notes/debt3b-wave-island.md` 'Setup' — the conventions carried to the wave island; 'What pins g? Two scenarios' — Γ_self ≳ Ω and the parameter X
 - `papers/broken-born-checkpoint-v2.md` §8 — the gate's mechanism and the equivalence principle; §14 item 4 — the open gate shape
 - `notes/broken-born-theory.md` §5.1 — v\* ≡ √2μ/m_χ; §5.2 — the anomalous velocity and the γ-versus-phase-mixing problem; §11 item 3 — the original open problem
-- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the gate conventions, awaiting a ruling
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the gate conventions; item 55 — the gate's mechanism not derived; item 58 — the narrow-gate substitution σ → v\*; all awaiting a ruling
+- `notes/velocity-gated-gravity.md` §4 — 3a's narrow-gate criterion, linearized
+- `notes/gate-mechanism.md` §5 — the proposed tags

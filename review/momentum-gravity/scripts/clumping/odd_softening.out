@@ -1,0 +1,11 @@
+odd-sector static threshold gt_odd = kappa^2/(Lam_g q) = 281.63
+gt= 200.0 (gt/gt_odd=0.7102): purely growing Gamma = 0.7322
+gt= 240.0 (gt/gt_odd=0.8522): purely growing Gamma = 0.7666
+gt= 255.0 (gt/gt_odd=0.9055): purely growing Gamma = 0.6866
+gt= 265.0 (gt/gt_odd=0.9410): purely growing Gamma = 0.5840
+gt= 272.0 (gt/gt_odd=0.9658): purely growing Gamma = 0.4692
+gt= 277.0 (gt/gt_odd=0.9836): purely growing Gamma = 0.3403
+gt= 280.7 (gt/gt_odd=0.9967): purely growing Gamma = 0.1597
+gt= 283.0 (gt/gt_odd=1.0049): purely growing Gamma = 0.0000
+gt= 290.0 (gt/gt_odd=1.0297): purely growing Gamma = 0.0000
+gt= 320.0 (gt/gt_odd=1.1363): purely growing Gamma = 0.0000

@@ -26,13 +26,22 @@ sources:
   - "HANDOFF.md §2"
   - "popsci/angle-of-the-mirror.md 'The wager'"
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
-  - "review/wiki-build-flags.md items 16, 19"
+  - "review/wiki-build-flags.md items 16, 19, 58"
+  - "notes/velocity-gated-gravity.md §4"
+  - "notes/velocity-gated-gravity.md §2"
+  - "notes/velocity-gated-gravity.md §3"
+  - "notes/velocity-gated-gravity.md §5"
+  - "notes/velocity-gated-gravity.md §6"
+  - "notes/velocity-gated-gravity.md §7"
+  - "notes/velocity-gated-gravity.md §8"
   - "review/wiki-build-checks/debt3a_check.out"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
+  - "notes/gate-mechanism.md §5"
 ---
 
 *Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The Debt-3 calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics and stays dead.*
 
-**Status:** Dead — killed by [Debt 3](/wiki/history/debts): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([#11](/wiki/history/documents/checkpoint) §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and [the handoff](/wiki/history/documents/handoff) lists it among its dead claims, to be kept dead (`HANDOFF.md` §2). No `verify/` script checks any Debt-3 number. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — killed by [Debt 3](/wiki/history/debts): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([#11](/wiki/history/documents/checkpoint) §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and [the handoff](/wiki/history/documents/handoff) lists it among its dead claims, to be kept dead (`HANDOFF.md` §2). Since 2026-10-28 `verify/velocity_gated_gravity.py` (section D) reproduces Debt 3a's two shortfall ratios in the gate; #11 §9's tag stays [D] until Paul rules, and no script covers the other Debt-3 numbers (flag 16 in `review/wiki-build-flags.md`, addendum; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The obituary covers the program's contact-range interaction; a long-range attraction gated in relative velocity is a different model ([what the obituary covers](#what-the-obituary-covers)). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -102,6 +111,18 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 
 [The net theorem](/wiki/dark-matter/momentum-clumping/net-theorem): "velocity-space clumping is nowhere mandatory — forbidden (particles), fatal (committed wave), decorative (free wave)" (#11 §9 (iii)). The notebook's addendum v0.2 opens: "Debt 3 is paid, and the answer went against the theory." Rows 3 and 4 were withdrawn permanently on both islands: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." (3c).
 
+### What the obituary covers
+
+The obituary tested the program's own interaction, and that interaction acts on contact. Debt 3a says "the x-range collapsed to contact (range 1/m_φ, microscopic)" and names "the force is contact-range" as one reason its verdict is robust (`notes/velocity-gated-gravity.md` §4). The verdict covers all three branches of that model: forbidden for particle χ, fatal for wave χ whose coupling also makes the dwarf cores, decorative for wave χ with a free coupling. For particle χ the record's "10²⁸–10³¹" quotes the exponents of the two shortfall ratios; the shortfall factors themselves are 2.6×10²⁷ and 3.5×10³⁰ (§4; flag 16, addendum). It says that velocity clumping is required nowhere. It does not say that clumping cannot happen.
+
+On 2026-10-26 P.R. asked whether the obituary is premature, and whether momentum gravity would look like a perturbation of gravity that depends on two bodies' relative velocity. The answer, in `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed), is no to both:
+
+- **Between ordinary bodies**, the [momentum graviton X](/wiki/gravity/momentum-graviton) adds a Yukawa term of range below 37.7 μm in the aligned vacuum (u = 1), unscreened. Its dependence on relative velocity is the O(v²/c²) spin-2 factor, 1 + 2.40×10⁻⁷ at 120 km/s, against 1 + 3.20×10⁻⁷ for ordinary gravity, not a gate [D][V] (§2). A relative-velocity gate acting between all bodies is bounded to |ε| < 8.7×10⁻⁹ for a Gaussian gate of width 0.3–3000 km/s in the e^{−v²/v_a²} convention, which is v\* = 0.2–2100 km/s in the record's [D; data S] (§3), where ε is the gated term's strength relative to gravity ([X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies)).
+- **A long-range attraction among χ, gated in relative velocity,** is a different model. The record does not contain it, and Debt 3 never tested it. No field in the record could carry it (§5). At the record's gate width the Lyman-α forest allows ε < 0.057–0.106 in the record's reading, an estimate from compressed data, while velocity-selected clumping needs ε > 1 at every gate width (§§6–7). The force could not make dwarf cores, which would need G̃/G ≈ 3.6×10³¹, so any clumping it produced would be decorative (§7; [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction); [what could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers)).
+- **Narrow gates**, below about 30 km/s: N-body runs (one agent) found no velocity-selected structure up to ε = 10; one statistic shows a small offset the record does not adjudicate (§8). Corrected estimates, not likelihoods and rerun by one agent, exclude ε ≈ 2 from 10 km/s up, and ε ≈ 3 at 5–30 km/s in one of the two readings (§8).
+
+Debt 3a's threshold for narrow gates is itself flagged: its form overstates the Milky Way shortfall about 3×, and the verdict is unchanged (flag 58 in `review/wiki-build-flags.md`; [the narrow-gate form, flagged](/wiki/dark-matter/momentum-clumping/instability-criterion#the-narrow-gate-form-flagged)). The gate-mechanism note of the same date, which finds that exchanging X cannot produce the program's gate (flag 55), leaves the obituary unaffected: "If anything it is strengthened: a completion whose only velocity dependence is a knee in σ_T(v) leaves the forward amplitude, which drives collective behaviour, ungated" (`notes/gate-mechanism.md` §5; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#what-flag-55-proposes)).
+
 ## What survives
 
 #11 §9: "Salvage: the **island discriminant** (knee shape: sharp cutoff ⇒ particle χ; (v\*/σ)⁴ ⇒ wave χ) and free relic abundance via misalignment on the wave island".
@@ -114,7 +135,7 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 
 ## Where the records differ
 
-- **The handoff's check mark.** The handoff writes "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion#verification-record)); the unbacked mark is flag 16 in `review/wiki-build-flags.md`. A recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`, reproduces the shortfall from 3a's inputs, printing `ratio = 3.9e-28` for the dwarf core and `ratio = 2.9e-31` for the Milky Way halo near the Sun (`review/wiki-build-checks/debt3a_check.out`). It is evidence for a ruling, not part of [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh`, so the result stays [D]; the flag notes that it "could be moved into `verify/`".
+- **The handoff's check mark.** The handoff writes "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. When the wiki was built no `verify/` script covered any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs ([the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion#verification-record)); the unbacked mark is flag 16 in `review/wiki-build-flags.md`. A recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`, reproduces the shortfall from 3a's inputs, printing `ratio = 3.9e-28` for the dwarf core and `ratio = 2.9e-31` for the Milky Way halo near the Sun (`review/wiki-build-checks/debt3a_check.out`). It is evidence for a ruling, not part of [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh`; the flag noted that it "could be moved into `verify/`". Its addendum of 2026-10-28 records the move: `verify/velocity_gated_gravity.py` (section D) "now ports 3a's arithmetic into the gate and reproduces both ratios, with the linearized values beside them (flag 58). The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules. "10²⁸–10³¹" quotes the ratios' exponents; the shortfall factors are 2.6×10²⁷ and 3.5×10³⁰" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)).
 - **The notebook's body.** The lab notebook's §5.2 and its prediction table were never edited and still read the instability and rows 3–4 as live; the addendum v0.2 records their death ([the lab notebook](/wiki/history/documents/lab-notebook)). The tag "[D at mean-field level; O beyond]" on §5.2 asserted the instability; 3a found its threshold missed by 28–31 orders of magnitude.
 - **The plain-language passages** of #9 §7 and #11 §9 describe the image as "dark matter flocking by velocity" and round the shortfall to "a factor of a million trillion trillion" (#9) and "thirty orders of magnitude" (#11). The popular article #10 retells the death in 'The killing fields', rounding the shortfall to "a factor of ten to the thirtieth"; it is never a status source ([the popular articles](/wiki/history/documents/popular-articles)).
 
@@ -129,5 +150,8 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated
 - `notes/broken-born-program-v1.md` §7 — the first consolidation's obituary
 - `HANDOFF.md` §2 — "keep dead", and the unbacked ✓
 - `popsci/angle-of-the-mirror.md` 'The wager', 'The killing fields' — the popular image and retelling (not a status source)
-- `review/wiki-build-flags.md` items 16, 19 — the ✓ without a script; the regime of the classicality corollary; both awaiting a ruling
+- `review/wiki-build-flags.md` items 16, 19, 58 — the ✓ without a script, and its addendum of 2026-10-28; the regime of the classicality corollary; Debt 3a's narrow-gate criterion; all awaiting a ruling
+- `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) §4 — what the obituary covers; §§2–3 — X between ordinary bodies and the universal gate; §§5–8 — the long-range variant and the narrow-gate corner
+- `verify/velocity_gated_gravity.py` section D — Debt 3a's shortfall ratios in the gate
+- `notes/gate-mechanism.md` §5 — the obituary unaffected by flag 55
 - `review/wiki-build-checks/debt3a_check.py` and `review/wiki-build-checks/debt3a_check.out` — the wiki build's recomputation of the shortfall (outside `verify/`)

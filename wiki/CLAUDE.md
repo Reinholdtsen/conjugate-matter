@@ -26,7 +26,9 @@ It is written for three readers:
   4. `papers/conjugate-special-relativity.md` (#13);
   5. `HANDOFF.md` (its §2 soliton candidate and its §8 queue are superseded);
   6. `notes/`: calc notes #2–#8 are final for their own scope; `notes/closed-universe.md`
-     (2026-10-27, not reviewed) is current for its scope, a closed universe; #1 and #9 are superseded
+     (2026-10-27, not reviewed) is current for its scope, a closed universe; `notes/velocity-gated-gravity.md`
+     and `notes/gate-mechanism.md` (2026-10-28, not reviewed) are current for theirs, momentum gravity as a
+     velocity-dependent force and the gate's mechanism; #1 and #9 are superseded
      as reference; #14 is withdrawn;
   7. `popsci/`. #12 presents the framework as if it were confirmed. It is never a source
      for a claim's status.

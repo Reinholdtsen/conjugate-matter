@@ -1,0 +1,15 @@
+CM: EIH - [(3+nu)v^2 + nu (n.v)^2]/2 = 0
+CM: massive - [(1 + nu/2) v^2 + nu (n.v)^2/2] = 0
+general frame: EIH velocity terms - [3/2|v1-v2|^2 - 1/2 v1.v2 - 1/2 (n.v1)(n.v2)] = 0
+P14 impulse-approximation deflections (valid when small):
+   b =  0.5, v = 0.3: 5.6158e-01
+   b =  0.5, v = 1.0: 2.0345e-02
+   b =  0.5, v = 3.0: 7.5832e-07
+   b =  3.0, v = 0.3: 4.2416e-02
+   b =  3.0, v = 1.0: 1.5366e-03
+   b =  3.0, v = 3.0: 5.7275e-08
+   b = 10.0, v = 0.3: 2.4547e-21
+   b = 10.0, v = 1.0: 8.8929e-23
+   b = 10.0, v = 3.0: 3.3147e-27
+P20: beta = 0.01: measured -1.44967e-02 rad/orbit, leading-order formula -2.08824e-02, ratio 0.6942
+P20: beta = 0.2: measured -2.39567e-01 rad/orbit, leading-order formula -4.17647e-01, ratio 0.5736

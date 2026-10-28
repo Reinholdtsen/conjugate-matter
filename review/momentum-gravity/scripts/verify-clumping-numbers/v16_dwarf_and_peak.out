@@ -1,0 +1,9 @@
+dwarf gt=0.2304: Gamma = 0.07067 (claimed 0.07069); Re = 0.0e+00
+dwarf gt=1.152: Gamma = 0.50992 (claimed 0.50993); Re = 0.0e+00
+MW gt=280.7 kappa^2=23.0: Gamma=0.8206 (Re 0.0e+00)
+MW gt=280.7 kappa^2=24.0: Gamma=0.8611 (Re 0.0e+00)
+MW gt=280.7 kappa^2=25.0: Gamma=0.8789 (Re 0.0e+00)
+MW gt=280.7 kappa^2=26.0: Gamma=0.8801 (Re 0.0e+00)
+MW gt=280.7 kappa^2=27.0: Gamma=0.8683 (Re 0.0e+00)
+MW gt=280.7 kappa^2=28.0: Gamma=0.8462 (Re 0.0e+00)
+max ~ 0.8801 at kappa^2=26.0 -> e-fold 46.6 Myr = 0.213 t_orb

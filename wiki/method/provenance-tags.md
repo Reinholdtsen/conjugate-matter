@@ -24,6 +24,7 @@ sources:
   - "review/round3-adjudication.md 'Rulings'"
   - "review/wiki-build-flags.md items 16, 29, 30"
   - "wiki/CLAUDE.md 'The wiki is derivative'"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
 ---
 
 *Provenance tags are the bracketed labels that the program's papers attach to every claim to say where it comes from: [D] derived in the program, [T] taken from the established literature, [P] postulated, [O] open, or [V] checked by machine. Citations carry a second mark: [S] if the reference was retrieved by a live search during the project, † if it was recalled from the model's memory and still has to be checked against the source. The tags let a reader who cannot check the physics see what kind of support each statement has, and they change only when the support changes. The wiki copies them exactly as the sources attach them and never upgrades one.*
@@ -70,7 +71,7 @@ A tag changes when the support for a claim changes, and the record shows three k
 
 ## Variants in other documents
 
-- **The handoff's ✓.** `HANDOFF.md` §2 marks machine checks with ✓: "Alive (derived, machine-verified where marked ✓)". One ✓, on the [Debt-3 shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) "criterion fails by 10²⁸–10³¹ ✓", has no `verify/` script behind it, and #11 §9 tags the same result [D]; see flag 16 in `review/wiki-build-flags.md`.
+- **The handoff's ✓.** `HANDOFF.md` §2 marks machine checks with ✓: "Alive (derived, machine-verified where marked ✓)". One ✓, on the [Debt-3 shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) "criterion fails by 10²⁸–10³¹ ✓", had no `verify/` script behind it, and #11 §9 tags the same result [D]; see flag 16 in `review/wiki-build-flags.md`. Since 2026-10-28 section D of `verify/velocity_gated_gravity.py` reproduces the two ratios, and the flag's addendum reads: "The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The wiki keeps the tag [D].
 - **#13.** [Conjugate special relativity](/wiki/conjugate-relativity) uses [D] [T] [P] [O] with †, "[D — structural]", "[O — flagged, not derived]" and "[conjecture-tier; the full dual dynamics awaits the formalization of §6]", and three that name their basis: "[D — §7 of the checkpoint]" (§1), "[D — checkpoint §7]" (§6) and "[D — compatibility theorem]" (§1). The wiki build flagged all three (`review/wiki-build-flags.md`). #11 §7 never mentions a dual cone and gives the [momentum graviton](/wiki/gravity/momentum-graviton)'s [range in position](/wiki/gravity/spin-2-fields/yukawa-forces#conjugate-special-relativity-a-range-in-momentum), "Yukawa-cut at 1/M_X" (flag 29, confirmed by the flags' audit). The compatibility theorem's metric is positive-definite, with no null cone, while #13 reads its [two causal cones](/wiki/conjugate-relativity/two-causal-cones) off the block form it tags (flag 30); the audit found the tag itself, on H = diag(g, g⁻¹), supported by the theorem, and the cone sentence untagged and covered only by #13's inherited Euclidean/Lorentzian caveat, so it rated flag 30 as a question of tagging convention. The flags await Paul's ruling, and the wiki quotes the tags as written.
 - **The toy-model note.** Written as an anonymous manuscript for blind review, it carries no tags, and its † is the Hermitian adjoint (φ†φ), not a citation mark ([the toy models](/wiki/symmetry-breaking/toy-models)).
 - **The `verify/` scripts** carry no tags; the checks they print as passed are what a [V] refers to.
@@ -92,7 +93,8 @@ Each page copies its sources' tags exactly and never upgrades one; an explanatio
 - `review/round3-adjudication.md` 'Rulings' — the re-tagging recommendation
 - Repository history, commit e1c1f67 — reference [21] upgraded to [S], [26]–[29] added
 - `HANDOFF.md` §2 — the ✓ mark; §3 — #11 v2.0's reference marks
-- `review/wiki-build-flags.md` items 16, 29, 30 — the unscripted ✓ and two of #13's tags
+- `review/wiki-build-flags.md` items 16, 29, 30 — the unscripted ✓, with item 16's addendum of 2026-10-28, and two of #13's tags
+- `verify/velocity_gated_gravity.py` section D — the script now behind the ✓
 - `notes/broken-born-theory.md` §0 — the v0.1 tags and scope statement
 - `notes/broken-born-program-v1.md` header, §8 and §11 — the v1 tags, a citation flag, the [T — verify] note
 - `papers/conjugate-special-relativity.md` header — #13's tag set; §1, §2, §5, §6 — its qualified forms and the three tags that name their basis

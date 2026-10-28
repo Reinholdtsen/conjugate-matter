@@ -1,0 +1,10 @@
+dwarf: Lambda_g q = 4.69208e-02, <W> = 8.38052e-01, cap Lambda_g q/<W> = 0.0560
+   Q=1.0966: m=+-1 threshold no-revir gt=23.37, revir gt=inf
+   Q=4.3865: m=+-1 threshold no-revir gt=93.49, revir gt=inf
+MW: Lambda_g q = 7.00923e-02, <W> = 1.10725e-01, cap Lambda_g q/<W> = 0.6330
+   Q=4.9348: m=+-1 threshold no-revir gt=70.4, revir gt=inf
+   Q=19.7392: m=+-1 threshold no-revir gt=281.6, revir gt=inf
+   Q=24.7714: m=+-1 threshold no-revir gt=353.4, revir gt=inf
+cluster: Lambda_g q = 1.28036e-03, <W> = 6.04401e-04, cap Lambda_g q/<W> = 2.1184
+   Q=1.0966: m=+-1 threshold no-revir gt=856.5, revir gt=1776
+   Q=4.3865: m=+-1 threshold no-revir gt=3426, revir gt=inf

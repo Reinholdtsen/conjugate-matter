@@ -15,6 +15,8 @@ sources:
   - "papers/phase-space-diameter.md §8.1"
   - "papers/phase-space-diameter.md §9"
   - "verify/phase_space_diameter.py"
+  - "review/wiki-build-flags.md item 56"
+  - "notes/velocity-gated-gravity.md §2"
 ---
 
 *Momentum-space black holes are a conjecture from the program's original claude.ai conversation. Read in the momentum description, the program's mirror description in which momentum plays the part of position, a black hole's horizon would be the surface at which hovering in place requires the [maximum force](/wiki/conjugate-relativity/maximum-force) of conjugate special relativity; and there may be mirror objects, regions trapped in momentum rather than in space, which the [handoff document](/wiki/history/documents/handoff) calls velocity traps. The handoff records the idea among the results that exist only in the chat, at conjecture tier, together with "dual Hawking quanta" that would be huge in position space. The [popular article #12](/wiki/history/documents/popular-articles) repeats part of it and adds that such a mirror object would look like compact dark matter. No document derives any of it, it appears in neither the [checkpoint #11](/wiki/history/documents/checkpoint) nor the paper on conjugate special relativity [#13](/wiki/conjugate-relativity), and it is not one of the program's [dark-matter candidates](/wiki/dark-matter/candidates). Its status is conjecture (chat-only).*
@@ -45,7 +47,7 @@ Quantum theory assigns a black hole a temperature, inversely proportional to its
 
 The force c⁴/G is the maximum force of [conjugate special relativity](/wiki/conjugate-relativity), #13's c̃, the bound on |dp/dt| set by the momentum-space light cone, evaluated with the [Born length](/wiki/phase-space/reciprocity/born-length) equal to the [Planck length](/wiki/gravity/spin-2-fields/planck-units#the-born-length-at-the-planck-length) ([two causal cones](/wiki/conjugate-relativity/two-causal-cones); [the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)). The conjecture in the general-relativity literature is c⁴/4G (#13's reference [1]†), and #13 records the difference: "The factor of 4 is not fixed here [O]" (§1; [maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures)). The handoff's line uses #13's value.
 
-#13 itself mentions black holes only as the arena where forces approach c̃. Its §1 plain-language passage puts the maximum force at "about 10⁴⁴ newtons, the scale black holes reach when they collide"; its technical text cites "a companion maximum luminosity c⁵/4G approached by binary black-hole mergers" [1†]; and its §2 says a comparable-mass merger "operates at F ~ c̃ by construction", where any dual-kinematic corrections "would be order unity [O — flagged, not derived]" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)). #13 says nothing about horizons, trapped regions in momentum or Hawking radiation.
+#13 itself mentions black holes only as the arena where forces approach c̃. Its §1 plain-language passage puts the maximum force at "about 10⁴⁴ newtons, the scale black holes reach when they collide"; its technical text cites "a companion maximum luminosity c⁵/4G approached by binary black-hole mergers" [1†]; and its §2 says a comparable-mass merger "operates at F ~ c̃ by construction", where any dual-kinematic corrections "would be order unity [O — flagged, not derived]" ([force boosts and force composition](/wiki/conjugate-relativity/force-boosts)); #13 §5's identification of dual rest with free fall gives the opposite answer for freely falling holes (flag 56 in `review/wiki-build-flags.md`, awaiting Paul's ruling). #13 says nothing about horizons, trapped regions in momentum or Hawking radiation.
 
 ## The popular version
 
@@ -79,3 +81,4 @@ The program's dark-matter candidates are the two in #11 §12, χ particles and t
 - `CLAUDE.md` 'Since the handoff' — the current queue; the diameter note done.
 - `papers/phase-space-diameter.md` §8.1 — c⁴/G = 1.21 × 10⁴⁴ N at λ = l_P [V]; §9 — the diameter relation's status and the withdrawn square.
 - `verify/phase_space_diameter.py` — the computation of c⁴/G.
+- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth

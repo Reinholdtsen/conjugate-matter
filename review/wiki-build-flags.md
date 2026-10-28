@@ -18,6 +18,9 @@ none refuted. Each flag carries its verdict; the full verdicts are in
 
 - **27**: the dark-energy potential as written cannot go negative, so the turnaround (prediction
   row 5, and t_turn in the over-constraint) needs an unwritten offset or another mechanism.
+- **55**: the dark-matter gate's mechanism is not derived: exchanging the record's X cannot produce
+  it; the suggested tags are [P] for the gate and [O] for its mechanism (#11 §8, abstract, §§12,
+  13 rows 1–3, 15).
 - **43**: the program's thawing corridor itself lies in the CPL quadrant that reads as a crossing;
   what separates it from DR2's crossing is the slope (z = 2 against z ≈ 0.4), not the quadrant.
   This bears on how row 4's pressure is stated, not on whether it exists.
@@ -124,6 +127,10 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     verifier's recomputation `review/wiki-build-checks/debt3a_check.py` reproduces it and
     could be moved into `verify/`.
    **Audit (2026-10-22): confirmed by 1 independent check.** HANDOFF §2 marks 'criterion fails by 10²⁸–10³¹' with ✓ (machine-verified), but no verify/ script or check.sh entry covers Debt 3, and #11 §9 tags it [D]. The scratch debt3a_check.py reproduces the ratios (3.9e-28, 2.9e-31).
+   **Addendum (2026-10-28).** `verify/velocity_gated_gravity.py` (§D) now ports 3a's arithmetic
+   into the gate and reproduces both ratios, with the linearized values beside them (flag 58). The
+   ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules. "10²⁸–10³¹" quotes
+   the ratios' exponents; the shortfall factors are 2.6×10²⁷ and 3.5×10³⁰.
 
 17. **Two gate conventions, a √2 in μ.** #6 §4 writes the gate as e^{−(p₁−p₂)²/2μ²}, #1 §3 as
     e^{−k²/μ²} with k the relative momentum. With p₁ − p₂ = 2k these differ by √2 in μ, so with
@@ -400,5 +407,61 @@ are in `review/closed-universe/`.*
     `axion-like-fields`, `references`), which can become [S].
    **Audit (2026-10-27): upheld for #1 and #11 by 1 check; not upheld for the wiki.**
 
+## Found by the momentum-gravity investigation (2026-10-27)
+
+*Raised while answering Paul's question whether the velocity-clumping obituary is premature
+(`notes/velocity-gated-gravity.md`, `notes/gate-mechanism.md`). The audit lines say who found and
+who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
+`verify/velocity_gated_gravity.py` (56–58). The analyses, verdicts and scripts are in
+`review/momentum-gravity/`.*
+
+55. **The gate's mechanism is not derived (high; #11 §8: "[D — mechanism; shape [O]]").** #11 §7 builds
+    X as one massive spin-2 field on spacetime. Every on-shell χ–χ–X vertex then depends only on
+    the transfer t, so exchanging X gives an amplitude that depends on the incoming relative
+    momentum k only as a polynomial of degree at most two in k², with velocity scale c: 2.4×10⁻⁷
+    at 120 km/s, where the gate is 0.61. #6 §4's fiber overlap, written out in the two natural ways
+    (a reconstruction: the record defines no overlap), is either an ordinary x-local potential of
+    range ħ/μ ≈ 10 pm with power-law tails, or a pair-channel interaction that gives the gate but
+    contains no X. The record constructs neither, and its section condition
+    makes X independent of the fiber coordinates. Suggested tags: [P] for the gate F(k²/μ²) and μ,
+    as #1 §3 (v0.1) had them; [O] for the mechanism; tree-level X exchange excluded [D][V]. §14
+    item 4 asks only about the shape and presupposes an X propagator on the fibers that §7 does not
+    have. Text that depends on the tag: #11's technical abstract, §8 (plain-language passage and
+    tag), §12's χ row, §13 rows 1–3, §15; #6 §4; #5 §E; #8 §5 ("mechanism paid"); HANDOFF §2 and §3
+    (#5 "pays Debt 2's mechanism"); the wiki's gate-mechanism, gate-shape and dual-stress pages. It
+    also opens whether row 3's island discriminant survives.
+    `notes/gate-mechanism.md`. The velocity-clumping obituary is unaffected.
+   **Audit (2026-10-27): confirmed by 2 independent derivations,** the second blind and
+   pre-registered. The run-3 theory verifier raised it; a blind run-4 derivation reached the same
+   verdict and added the two readings of the fiber overlap.
+56. **#13 §2 against #13 §5 on gravitating pairs (low).** §2 says a black-hole merger "operates
+    at F ~ c̃ by construction", using the gravitational force between the holes; §5 identifies dual rest with free
+    fall. Merging black holes are in free fall, so under §5 their dual-kinematic correction is zero.
+    For the Sun and Earth the two readings give (1/2)(F/c̃)² = 4.3×10⁻⁴⁴ and 0; both are negligible,
+    but the paper gives two answers. `notes/velocity-gated-gravity.md` §2.
+   **Audit (2026-10-27): raised by 1 agent (the run-3 theory verifier), upheld by the final
+   critic.**
+57. **The diameter note's Vainshtein radius uses the formula for a massless mode (low;
+    `papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py:383–384`).** The check
+    uses r_V³ = 2r_S λ², which is Enander and Mörtsell's eq. 43 and assumes one mode mass m₁ = 0. In
+    the program's palindromic vacuum that would make X massless. Their eqs. 40–41, which apply,
+    give 1.5–3.8×10⁻¹² m for 1 kg at a 50 μm range; under eq. 41 the check's rounding to 10⁻¹² m
+    would fail. The conclusion, that laboratory masses are unscreened, holds. If this branch screens
+    at all, the screened windows for λ_X would open at roughly 0.3–9 pc and close at Enander and
+    Mörtsell's 4.4 kpc, the edge of their linear-theory lensing window [T][S]. Whether it screens is
+    open. `notes/velocity-gated-gravity.md` §10.
+   **Audit (2026-10-27): the source equations were read twice [S]:** by the run-3 critic-numbers
+   verifier, and by the drafting session (its fetch is in the session transcript, not the record).
+   The final critic adopted the verifier's ruling without rechecking them.
+58. **Debt 3a's narrow-gate criterion (low; next to flag 19).** 3a writes the threshold as
+    g·n_gate ≥ m·min(σ, v*)². Its substitution σ → v* is the threshold of a cold stream that already
+    exists, not of a smooth halo. Linearized, the halo's dispersion stays: g·n·Λ_g ≥ m·σ². In the
+    Milky Way 3a's form overstates the shortfall about 3× (2.9×10⁻³¹ against 8.7×10⁻³¹), the
+    non-conservative direction for the obituary; in the dwarf core and the cluster it errs the
+    other way. The verdict (10²⁸–10³¹ short) is unchanged. `notes/velocity-gated-gravity.md` §4.
+   **Audit (2026-10-27): confirmed by 2 independent checks** (the run-2 clumping verifiers); both
+   found the analysis's statement of the direction at the Milky Way wrong.
+
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
-flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`.
+flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`, and flags 55–58,
+whose arithmetic is in `verify/gate_mechanism.py` and `verify/velocity_gated_gravity.py`.

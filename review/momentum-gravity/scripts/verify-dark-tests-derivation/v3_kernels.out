@@ -1,0 +1,37 @@
+=== Kernel identities (mpmath quadrature of the defining integrals) ===
+gauss    y= 0.30: RA=0.087348 R1=0.029467 [int RA dmu=0.029467] Rv=0.052859 [3 int mu^2 RA=0.052859] J=-0.192937 B=-0.120784
+          R1 - yJ = 0.087348 (vs RA 0.087348);  Rv + 3yJ = -0.120784 (vs B -0.120784);  closed-form RA (Dawson) = 0.087348
+gauss    y= 1.00: RA=0.724778 R1=0.275222 [int RA dmu=0.275222] Rv=0.476994 [3 int mu^2 RA=0.476994] J=-0.449557 B=-0.871677
+          R1 - yJ = 0.724778 (vs RA 0.724778);  Rv + 3yJ = -0.871677 (vs B -0.871677);  closed-form RA (Dawson) = 0.724778
+gauss    y= 1.08: RA=0.803130 R1=0.311446 [int RA dmu=0.311446] Rv=0.536423 [3 int mu^2 RA=0.536423] J=-0.455263 B=-0.938630
+          R1 - yJ = 0.803130 (vs RA 0.803130);  Rv + 3yJ = -0.938630 (vs B -0.938630);  closed-form RA (Dawson) = 0.803130
+gauss    y= 3.00: RA=1.179501 R1=0.868944 [int RA dmu=0.868944] Rv=1.186129 [3 int mu^2 RA=1.186129] J=-0.103519 B=0.254461
+          R1 - yJ = 1.179501 (vs RA 1.179501);  Rv + 3yJ = 0.254461 (vs B 0.254461);  closed-form RA (Dawson) = 1.179501
+rational y= 0.30: RA=0.241990 R1=0.099328 [int RA dmu=0.099329] Rv=0.165125 [3 int mu^2 RA=0.165126] J=-0.475476 B=-0.262803
+          R1 - yJ = 0.241971 (vs RA 0.241990);  Rv + 3yJ = -0.262803 (vs B -0.262803)
+rational y= 1.00: RA=0.854897 R1=0.435921 [int RA dmu=0.435917] Rv=0.666385 [3 int mu^2 RA=0.666384] J=-0.418969 B=-0.590522
+          R1 - yJ = 0.854890 (vs RA 0.854897);  Rv + 3yJ = -0.590522 (vs B -0.590522)
+rational y= 1.08: RA=0.898542 R1=0.468614 [int RA dmu=0.468600] Rv=0.709980 [3 int mu^2 RA=0.709960] J=-0.398315 B=-0.580561
+          R1 - yJ = 0.898794 (vs RA 0.898542);  Rv + 3yJ = -0.580561 (vs B -0.580561)
+rational y= 3.00: RA=1.124680 R1=0.868450 [int RA dmu=0.868482] Rv=1.098612 [3 int mu^2 RA=1.098630] J=-0.085705 B=0.327265
+          R1 - yJ = 1.125566 (vs RA 1.124680);  Rv + 3yJ = 0.327264 (vs B 0.327265)
+
+=== Brute force: exact mean-field integrals vs kernels (Gaussian gate) ===
+y=0.50: force/density  brute 1.993314  4pi R1/y 1.993314  [4pi RA/y would be 5.784857]
+        anom.vel/density brute -3.791543  3 kappa J -3.791543
+        force/velocity brute 0.592332  kappa Rv 0.592332
+        anom.vel/velocity brute -1.303440  kappa B -1.303440
+y=1.08: force/density  brute 3.623834  4pi R1/y 3.623834  [4pi RA/y would be 9.344840]
+        anom.vel/density brute -5.721007  3 kappa J -5.721007
+        force/velocity brute 2.246964  kappa Rv 2.246964
+        anom.vel/velocity brute -3.931724  kappa B -3.931724
+y=2.00: force/density  brute 4.272603  4pi R1/y 4.272603  [4pi RA/y would be 8.042327]
+        anom.vel/density brute -3.769724  3 kappa J -3.769724
+        force/velocity brute 4.440230  kappa Rv 4.440230
+        anom.vel/velocity brute -3.099218  kappa B -3.099218
+
+=== Limits (Gaussian) ===
+y=10.0: RA=1.010316 R1=0.989897 Rv=1.029084 yJ=-2.04e-02 B=0.967826
+y=30.0: RA=1.001115 R1=0.998888 Rv=1.003322 yJ=-2.23e-03 B=0.996641
+y=0.05: RA/y^2=0.99917 R1/y^2=0.33317 Rv/y^2=0.59964 J/y=-0.66600 B/y^2=-1.39836
+y=0.1: RA/y^2=0.99667 R1/y^2=0.33267 Rv/y^2=0.59857 J/y=-0.66401 B/y^2=-1.39344

@@ -1,0 +1,5 @@
+reading A: eps=0.0584 v*= 120 M=1e8: z_c LCDM 3.40 gated 3.89 | (1+z_c)^3 ratio 1.377
+reading A: eps=0.1761 v*= 120 M=1e8: z_c LCDM 3.40 gated 5.09 | (1+z_c)^3 ratio 2.647
+reading A: eps=0.7810 v*=  30 M=1e8: z_c LCDM 3.40 gated 7.81 | (1+z_c)^3 ratio 8.026
+reading A: eps=2.5838 v*=  30 M=1e8: z_c LCDM 3.40 gated 34.33 | (1+z_c)^3 ratio 517.926
+reading A: eps=6.9504 v*=  10 M=1e8: z_c LCDM 3.40 gated nan | (1+z_c)^3 ratio nan

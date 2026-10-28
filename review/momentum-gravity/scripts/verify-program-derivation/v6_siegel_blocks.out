@@ -1,0 +1,6 @@
+d = 2: position block linear in X zero: True; mixed block linear in X nonzero: True; momentum block X-free: True
+       misalignment block S at O(t): True (= 2h, no X); Tr(S^2) at O(t^2) contains an h*x cross term: False
+       anchor (omega^-1 H_Z)^2 = -1 at an exact random point: True
+d = 3: position block linear in X zero: True; mixed block linear in X nonzero: True; momentum block X-free: True
+       misalignment block S at O(t): True (= 2h, no X); Tr(S^2) at O(t^2) contains an h*x cross term: False
+       anchor (omega^-1 H_Z)^2 = -1 at an exact random point: True

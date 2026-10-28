@@ -32,6 +32,8 @@ sources:
   - "papers/phase-space-diameter.md §9"
   - "review/round5-adjudication.md 'Verdict'"
   - "review/wiki-build-flags.md item 29"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §2"
 ---
 
 *Two results from the program's original claude.ai conversation are derived in no project document: a claim that gravity has two charges, and a comparison of the program's field equations with those of [general relativity](/wiki/gravity/spin-2-fields/general-relativity). The [handoff document](/wiki/history/documents/handoff) lists them in its §4, among the results that exist only in the chat, so that they are not lost. The first says gravity has two independent charges: ordinary stress-energy is the source of the massless graviton, and [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), which measures how energy is structured across momentum, is the source of the [momentum graviton X](/wiki/gravity/momentum-graviton). Whether a "dual equivalence principle" ties the second charge to the [invariant length](/wiki/conjugate-relativity/invariant-length-shell) of [conjugate quanta](/wiki/dark-matter/conjugate-matter) is left as a question. The second compares the program's field equations with those of general relativity: the [slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) is fixed algebraically, the momentum-side counterpart of the Newtonian limit is a [Yukawa form in momentum](/wiki/gravity/spin-2-fields/yukawa-forces#conjugate-special-relativity-a-range-in-momentum) that is [the dark-matter gate](/wiki/dark-matter/conjugate-matter/velocity-gate), and X waves are massive, with five polarizations and a lowest frequency. Parts of both have counterparts in [the calc notes](/wiki/history/documents/debt-1-notes) and the papers; the rest has none. Both are conjectures: no artifact derives them and no script checks them.*
@@ -85,7 +87,7 @@ The documented counterpart is corollary 3 of [the compatibility theorem](/wiki/p
 
 In general relativity the Newtonian limit is the regime of weak fields and slow sources, in which Einstein's equation reduces to Poisson's equation for a potential falling as 1/r [T]. The chat line asserts a counterpart on the momentum side: the corresponding limit gives a Yukawa form in momentum, and that form is [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), the factor that switches conjugate matter's self-interaction off except between particles of nearly equal velocity.
 
-The documented counterpart is the gate's mechanism, not its form. Calc note #5 §E found that "Exchange of X between two such bilinears yields a four-point amplitude that depends on the **incoming relative momenta** of the pair", and #11 §8 states the mechanism as "delivered by X-exchange between dual-stress bilinears" [D — mechanism; shape [O]]. The shape is open: item 4 of #11 §14, Gaussian against rational ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)). No document derives a Yukawa form in momentum or describes the gate as a Newtonian limit.
+The documented counterpart is the gate's mechanism, not its form. Calc note #5 §E found that "Exchange of X between two such bilinears yields a four-point amplitude that depends on the **incoming relative momenta** of the pair", and #11 §8 states the mechanism as "delivered by X-exchange between dual-stress bilinears" [D — mechanism; shape [O]]. That documented counterpart is itself disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The shape is open: item 4 of #11 §14, Gaussian against rational ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)). No document derives a Yukawa form in momentum or describes the gate as a Newtonian limit.
 
 The nearest documented statements are in #13, which says X "modifies the dual cone only at short range in momentum [D — §7 of the checkpoint]" (§1) and "dual-geometric effects are Yukawa-cut in momentum [D — checkpoint §7]" (§6) ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). The checkpoint section it cites says "Yukawa-cut at 1/M_X", of the couplings of ordinary matter (#11 §7.5). The wiki follows #11's wording, and the reading in momentum remains chat-only ([conflicts between sources](/wiki/history/documents/source-conflicts); see flag 29 in `review/wiki-build-flags.md`).
 
@@ -106,7 +108,7 @@ The documented part: calc note #6 §3 [D — structural] has X become "a **massi
 | A dual equivalence principle | none; posed as a question | — |
 | The slaved layer g̃ = g⁻¹ | #5 §A corollary 3; #11 §5 | [D — rigorous] (#5); the theorem [T][V] (#11) |
 | Einstein's equation does double duty | none | — |
-| The gate as a dual Newtonian limit | the gate as X exchange: #5 §E; #11 §8 | [D — mechanism; shape [O]] (#11) |
+| The gate as a dual Newtonian limit | the gate as X exchange: #5 §E; #11 §8 | [D — mechanism; shape [O]] (#11); not derived according to flag 55, pending Paul's ruling |
 | Yukawa in momentum | #13 §1, §6, citing #11 §7, which says "Yukawa-cut at 1/M_X" | [D — checkpoint §7] (#13) |
 | X waves massive, with five polarizations | #6 §3; #11 §7.1 | [D — structural] (#6); [D + T] (#11) |
 | A frequency floor | none | — |
@@ -129,3 +131,4 @@ Both items are conjectures in the wiki's sense: claims that no artifact derives.
 - `verify/battery.py` T1 — the machine check of the compatibility theorem
 - `CLAUDE.md` 'Since the handoff' — the current queue
 - `review/wiki-build-flags.md` item 29 — #13's citation of #11 §7 for X's effect being in momentum, which #11 does not state; awaiting Paul's ruling
+- `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — exchanging #11 §7's X cannot produce the gate; the proposed tags [P] for the gate and μ, [O] for the mechanism, awaiting Paul's ruling

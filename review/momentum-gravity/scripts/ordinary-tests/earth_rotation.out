@@ -1,0 +1,5 @@
+equatorial surface speed omega_E R_E = 0.4651 km/s; max relative speed between two Earth elements = 0.930 km/s
+  lab at latitude 35.7: speed relative to Earth's CM = 0.378 km/s
+  lab at latitude 48.8: speed relative to Earth's CM = 0.306 km/s
+Moon vs surface elements: 0.560 - 1.490 km/s (extreme, coplanar)
+v*/omega_E for v* = 0.1 km/s: 1371 km (cylinder radius within which rigid-rotation relative speeds < v*)

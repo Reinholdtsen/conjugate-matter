@@ -1,0 +1,307 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "K1",
+   "verdict": "confirmed",
+   "reason": "Every quoted bound and attribution is in the cited sources. Two precisions. (1) The 2σ preference in (c) comes from Planck plus DESI Y1 BAO, not from DESI BAO alone. (2) The claim omits something the sources state: the bounds are driven by background effects (the expansion history and distances), not by growth. Archidiacono et al.: 'most of the constraining power comes from the geometric projection of physical scales at last scattering', and BAO helps by breaking the H0–Ω̃_d degeneracy. Bottaro et al. 2024: the background modification 'trumps the enhanced growth of structure at late times', and BOSS full shape 'does not significantly improve over the Planck+BAO constraint' because 'the uncertainty on the linear bias is too large'. K1(e) rightly says the bounds do not transfer one-to-one. This matters because K9 and K10 then transfer them anyway.",
+   "independent_check": "Live-fetched [S] (WebFetch this session): arXiv:2204.08484 HTML: 'β<0.011 at 95% credible levels'; 'with now β<0.0054 at 95% c.l.'; 'GN→GN(1+β)' for r ≪ 1/m_φ. arXiv:2309.11496v3 HTML: 'At 95% c.l. we obtain β<0.012 from Planck data', 'which improves to β<0.0048 including BOSS full shape information on top of all the present BAO data'; z_eff 0.32/0.57; k_max ≈ 0.20/0.23 h/Mpc; β ≡ G_s/(4πG_N). arXiv:2407.18252 HTML: 'β≈0.004± 0.002' (Planck + DESI Y1 BAO); 'The bounds are strongest for mφ/H0 between 10 and 10^3'. arXiv:2511.09614 HTML: earlier work ruled out λ ≳ 100 kpc at strengths 1e-3–1e-2 of gravity; 'dark forces with strengths orders of magnitude stronger than gravity are thus far still allowed'; Eq. (22) G_rec(k=2/Mpc) ≳ 10 labelled '(Lyman-α)', called 'highly conservative'. arXiv:2510.00098 abstract: 'scenarios compatible with CMB temperature and polarization anisotropies in fact suppress structure growth'."
+  },
+  {
+   "claim_id": "K2",
+   "verdict": "confirmed",
+   "reason": "Every number reproduces with independent code: a different integrator (mpmath quadrature), and the photon density computed here from first principles. One footnote on the anchor: the agent's 'computed z_eq 3418.8 vs Planck 3402' compares two definitions. Counting the massive neutrino in Ω_m gives 3418.6; using ω_b+ω_c, which is what Planck's z_eq uses, gives 3402.0 exactly. So there is no real discrepancy.",
+   "independent_check": "vcosmo.py printed: 'Age = 13.7952 Gyr [Planck 2018 Table 2 (Plik): 13.797 +- 0.023, S]'; 'z_eq (Om incl nu) = 3418.6 ; z_eq (omega_b+omega_c only) = 3402.0'. Proper/comoving r_gate at v*=120: z=3402: 0.0113 kpc / 0.0385 Mpc; z=1089.92: 0.0767 kpc / 0.0836 Mpc; z=100: 3.0804 kpc / 0.3111 Mpc; z=10: 86.7517 kpc / 0.9543 Mpc; z=3: 389.7955 kpc / 1.5592 Mpc; z=0: 1781.4727 kpc / 1.7815 Mpc. 'min of aH at z = 0.6310, aH = 59.179 km/s/Mpc -> comoving r_gate max = 2.0277 Mpc'; analytic q=0 gives z = 0.6315. 'k_p = 0.009 s/km at z=3 -> 0.6927 1/Mpc = 1.0283 h/Mpc ; k_p * s_c = k_p*v* = 1.0800 (exact)'. The Planck age 13.797 ± 0.023 was checked [S] by search; z_eq = 3402 ± 26 is from memory (†)."
+  },
+  {
+   "claim_id": "K3",
+   "verdict": "corrected",
+   "reason": "The numbers are right. EH98, coded here independently, reproduces s1 and k_NL; BBKS+Sugiyama agrees on s1 within 3–5%. Three corrections. (a) 'Stays below v*' compares the 1D rms s1 with v*, but the gate acts on the 3D |Δv|. The 3D rms is √3·s1: 69 km/s at z=3 and 109–119 km/s at z = 1–0.5. At z ≲ 1 that is comparable to v* = 120 km/s, so the Hubble flow alone does not set the gate there. (b) The thermal-velocity illustration leaves out the e+e− entropy factor (4/11)^(1/3), which applies after kinetic decoupling at 3.5 MeV. (c) k_NL at z=3 depends on the transfer function: 5.16/Mpc with EH98 versus 6.89/Mpc with BBKS.",
+   "independent_check": "vpk.py printed: 'growth: f(z=0) = 0.5274 ; Omega_m^0.55 = 0.5300'. s1 [km/s] EH98 / BBKS at the comoving gate radius: z=1089.92: 0.33/0.31; z=100: 2.61/2.49; z=10: 17.43/16.88; z=3: 39.93/38.88; z=1: 63.02/61.53; z=0.5: 68.95/67.34; z=0: 64.97/63.36. kNL EH/BBKS: z=3: 5.160/6.888; z=0: 0.169/0.170. 'chi thermal v_rms (3D) at z=1090: 8.500e-03 km/s (no e+e- entropy factor) ; 6.067e-03 (with (4/11)^(1/3))'; at z=0: 7.791e-06 and 5.561e-06.",
+   "corrected_statement": "Linear-ΛCDM pair-velocity numbers as stated: s1 = 0.33, 2.6, 17, 40, 63–69 and 65 km/s. The 3D rms relative peculiar velocity at the gate radius is √3·s1: about 0.6v* at z=3 and about v* (109–119 km/s) at z = 1–0.5. The Hubble flow sets the gate at z ≳ 3; at z ≲ 1, peculiar velocities change it at order unity. With the entropy factor, the illustrative χ thermal velocity is 6.1e-3 km/s at z = 1090 and 5.6e-6 km/s today. k_NL(z=3) is 5.2–6.9/Mpc depending on the transfer function."
+  },
+  {
+   "claim_id": "K4",
+   "verdict": "corrected",
+   "reason": "The density kernel does not follow from the reading the claim states. With force = −∇ₓU at fixed velocities, only 1/r is differentiated. In the Hubble flow the force kernel is then W(r/s) r̂/r², and the density response is R_A(y) = y∫₀^∞ j1(yt)W(t)dt. By integration by parts this equals ∫₀¹R(yμ)dμ. The agent's R(y) = y∫sin(yt)W(t)dt is the kernel of the gradient of the static effective potential W(r/s)/r: there the Hubble part of the relative velocity is differentiated too. In that reading the self anti-drag is a surface integral and vanishes. The agent's gate_kernels.py checks R only against a sine transform of itself. The anti-drag term, and its R_v = 3∫μ²R(yμ)dμ, are correct for the stated reading. So the linear model combines the density kernel of one reading with the velocity kernel of another. Near the pivot R_A/R = 0.34–0.39 (Gaussian) and 0.52 (rational); R reaches 1.28 at y=2 while R_A stays ≤ 1. Correct as stated: the closed forms, the anti-drag rate (ε/2)Ω_cH, the 0.6ε → 0.8ε growth-exponent shift, the absence of an O(ε) background effect, and (v*/c)² = 1.602e-7.",
+   "independent_check": "vkernels_fast.py: 2D (r,μ) brute-force quadrature of the force on a particle from δ = sin(kz), done without the identities. Gaussian, y: R closed / brute(B) / R_A quad / ∫₀¹R(yμ)dμ / brute(A) / R_A/R: 0.3055: 0.090480/0.090480/0.030537/0.030537/0.030537/0.337; 0.661: 0.378517/0.378517/0.133671/0.133671/0.133671/0.353; 1.0: 0.724778/0.724778/0.275222/0.275222/0.275222/0.380; 1.08: 0.803130/0.803130/0.311446/0.311446/0.311446/0.388; 2.0: 1.279976 vs R_A 0.680006; 5.0: 1.046229 vs 0.958151. Rational: 'y=1.000 R_B(Ei) 0.854891 brute(B) 0.854898 | Int_0^1 R_B 0.435921 brute(A) 0.435924'; 'y=1.080 R_B(Ei) 0.898794 ... Int_0^1 R_B 0.468614 brute(A) 0.468606'. Anti-drag in reading A: 'u=0.003 gauss 1.256634e-02 rational 1.256571e-02 analytic 1.256637e-02 ratios 1.00000 0.99995'. 'EdS growth exponent shift per eps: no anti-drag 0.59999 ; with anti-drag 0.79999'. The agent's gate_kernels.py (read after the independent check) uses R = y∫sin(yt)W dt for the density term and a fixed-velocity brute force for the anti-drag.",
+   "corrected_statement": "Under the stated reading (force = −∇ₓU at fixed velocities, 1/r differentiated only), the linear response about the Hubble flow has (i) a density term 4πG̃ρ̄_c R_A(k s_c) δ_c with R_A(y) = y∫₀^∞ j1(yt)W(t)dt = ∫₀¹R(yμ)dμ, where R(y) = y∫sin(yt)W(t)dt. Gaussian R_A = 0.031, 0.134 and 0.311 at y = 0.31, 0.66 and 1.08, against R = 0.090, 0.379 and 0.803. (ii) An anti-drag (4π/3)(G̃ρ̄_c/H) R_v(k s_c) u with R_v = 3∫₀¹μ²R(yμ)dμ, rate (ε/2)Ω_cH at k s_c ≫ 1. R itself is the density kernel of the static effective potential W(r/s)/r, a reading in which the self anti-drag vanishes. The agent's model pairs R with the anti-drag and so matches neither reading."
+  },
+  {
+   "claim_id": "K5",
+   "verdict": "corrected",
+   "reason": "My two-fluid code, written independently with the agent's kernel, reproduces every number; IC and step-count insensitivity are confirmed. Under the claim's own stated reading (kernel R_A), the pivot effect is about half as large. The quoted kernel values R = 0.0905/0.379/0.803 at z = 50/10/3 are the static-potential kernel; R_A is 0.031/0.134/0.311.",
+   "independent_check": "vgrowth.py printed: 'dens=B antidrag=True eps=0.1 v*=120: T_m^2(kp)=1.0783 dn_m=+0.1308'; 'eps=1.0 ... T_m^2(kp)=2.1277 dn_m=+1.3120'; 'eps=0.3, v*=120: T_m at k_p, 3/Mpc, 10/Mpc = 1.120 1.868 2.718'; 'numerics: T_m(kp, eps=0.3) N=3000 1.1197271 N=12000 1.1197262 IC dc'=1: 1.1197261 IC dc'=0: 1.1197308'. Reading-A kernel: 'dens=A antidrag=True eps=0.1 ... T_m^2(kp)=1.0355 dn_m=+0.0636'; 'eps=0.3 ... 1.1107 dn_m=+0.1919'; 'eps=1.0 ... 1.4248 dn_m=+0.6529'.",
+   "corrected_statement": "k_p = 0.6927/Mpc and k_p·s_c = 1.080 as stated. With the agent's mixed kernel: T² = 1.078, dn = +0.131 at ε = 0.1, and T² = 2.13, dn = +1.31 at ε = 1. With the stated reading applied consistently (kernel R_A = 0.031, 0.134, 0.311 at z = 50, 10, 3): T² = 1.036, dn = +0.064 at ε = 0.1, and T² = 1.425, dn = +0.653 at ε = 1. Smaller scales are enhanced more under either reading."
+  },
+  {
+   "claim_id": "K6",
+   "verdict": "corrected",
+   "reason": "The DESI inputs, the baseline and the χ² procedure are as quoted. With the agent's kernel my independent pipeline reproduces its table to ≤1%. The bound moves with the reading, though. With the stated reading applied consistently, it is 1.5–2.3× weaker for v* ≤ 300 km/s and unchanged within about 10% for v* ≥ 1000. Under the fixed-peculiar-velocity reading C, derived here (kernel R plus a neighbour-velocity term, no self anti-drag), it is about 1.3× tighter for v* ≤ 120. Compressed-test validity: DESI varies only A_s and n_s, holding the matter transfer function fixed and leaving the running free of no parameter. At the bound the gated model adds a running d²lnT²/dlnk² of +0.054 (agent's kernel) or +0.061 (reading A), against the ΛCDM −0.187. Over 0.02–0.03 s/km it has 2–4% more power than the amplitude-plus-slope description implies. That is outside the family where DESI says compression loses nothing, so the bound remains an estimate. The redshift-scaling assumption is not a problem: T²(k_*) varies by less than 0.1% over z = 2.2–4.2.",
+   "independent_check": "[S] arXiv:2601.21432: abstract 'Δ²⋆=0.379±0.032', 'n⋆=−2.309±0.019' at 'k⋆=0.009 km⁻¹s and redshift z=3'; HTML Sec. 6.2: Pearson r = −0.1738; 'our results are fully consistent with those from Planck 2018'; fit varies A_s ∈ [1.0,3.4]e-9 and n_s ∈ [0.7,1.3] with physical densities fixed. [S] arXiv:2311.16377 Table 2 (Planck+BAO+SNe, Σm_ν model): 0.3495 (+0.0095/−0.0071), −2.3052 ± 0.0032. vlya.py with kernel B + anti-drag, matter/gas: 10: 3.0820/10.1942; 20: 0.7752/2.5623; 30: 0.3480/1.1417; 50: 0.1296/0.4182; 80: 0.0549/0.1697; 120: 0.0285/0.0814; 200: 0.0160/0.0365; 300: 0.0139/0.0231; 500: 0.0153/0.0175; 1000: 0.0173/0.0173; 2000: 0.0197/0.0207; 3000: 0.0217/0.0240. Rational 120: 0.0225/0.0454. 'v*=120 B+AD matter: chi2(eps=0) - min = 0.003 ; slope-only bound 0.0260 ; amplitude-only bound 0.3151'. Reading A (A+AD) matter/gas: 10: 6.9504/23.1372; 20: 1.7497/5.7804; 30: 0.7810/2.5838; 50: 0.2882/0.9392; 80: 0.1187/0.3770; 120: 0.0584/0.1761; 200: 0.0285/0.0736; 300: 0.0202/0.0422; 500: 0.0175/0.0263; 1000: 0.0176/0.0205; 2000: 0.0189/0.0206; 3000: 0.0202/0.0222; rational 120: 0.0375. 'v*=120 A+AD matter: slope-only 0.0537 amplitude-only 0.6741'. vreadingC.py, reading C: 10: 2.2301/7.3994; 30: 0.2527/0.8296; 50: 0.0942/0.3036; 120: 0.0214/0.0600; 300: 0.0130/0.0187; 1000: 0.0230/0.0199; 3000: 0.0300/0.0345. vextra.py at ε = 0.0285 (B): T² model at k = 0.001…0.03 s/km: '1.0003 1.0027 1.0217 1.0712 1.1047' vs amplitude+slope '0.9414 0.9807 1.0217 1.0525 1.0686'; 'running d^2 lnT^2/dlnk^2 at k_p = 0.0541' (A: 0.0608). vrunning.py: 'EH98 LCDM at pivot: slope -2.3067, curvature d2lnP/dlnk2 = -0.1870'. vzevol.py: kernel B, ε = 0.0285: T² 1.0214 (z=4.2) to 1.0221 (z=2.2).",
+   "corrected_statement": "DESI DR1 compressed data [S]: Δ²_* = 0.379 ± 0.032, n_* = −2.309 ± 0.019, r = −0.1738, k_* = 0.009 s/km, z = 3; baseline 0.3495 and −2.3052 [S]. Bounds on ε at Δχ² = 3.84, Gaussian gate, given as matter/gas ratio. Agent's mixed kernel: 0.0285/0.081 at 120 km/s, 0.35/1.14 at 30, 3.1/10.2 at 10, 0.014/0.023 at 300, 0.017–0.024 at 1000–3000. Stated reading (−∇ₓU at fixed velocities) applied consistently: 0.058/0.18 at 120, 0.78/2.6 at 30, 7.0/23 at 10, 0.020/0.042 at 300, 0.018–0.022 at 1000–3000. Fixed-peculiar-velocity reading: 0.021/0.060 at 120, 0.25/0.83 at 30, 2.2/7.4 at 10, 0.013/0.019 at 300, 0.020–0.035 at 1000–3000. In all variants the slope drives the bound. The compression varies only A_s and n_s at fixed transfer function, while the model adds running of +0.05–0.06 at the pivot; the bound is an estimate whose reading-dependence (×2.7 at fixed tracer) is as large as the matter–gas bracket."
+  },
+  {
+   "claim_id": "K7",
+   "verdict": "corrected",
+   "reason": "The listed variants reproduce. I did not recompute the pair-velocity smoothing (0.0291). The statement 'The largest systematic is matter vs gas' is wrong. Holding the tracer fixed, the reading/kernel choice moves the v* = 120 matter bound from 0.021 (reading C) through 0.0285 (agent) to 0.058 (stated reading A), a factor of 2.7. The matter–gas factor is 2.8–3.0.",
+   "independent_check": "vk7.py: 'kernel B: EH98 baseline (no baseline errors): eps_max = 0.0312' (agent 0.0314); 'kernel A: ... 0.0641'. vlya.py: 'base errors x2: 0.0293'; no anti-drag (B noAD) 0.0345; rational 0.0225; reading A without anti-drag 0.0920. vreadingC.py: 0.0214.",
+   "corrected_statement": "At v* = 120 km/s (Gaussian, matter ratio) the agent-kernel bound of 0.0285 moves to 0.031 with the EH98 baseline, 0.029 with doubled baseline errors and 0.0345 without the anti-drag. Changing the reading moves it from 0.021 (fixed peculiar velocities) to 0.058 (fixed velocities applied consistently). That reading systematic is comparable to the matter–gas bracket of ×2.8."
+  },
+  {
+   "claim_id": "K8",
+   "verdict": "confirmed",
+   "reason": "The eBOSS compressed values and the 4.9σ tension are as quoted, and the bounds reproduce. Not using them as primary is justified: ΛCDM already fits badly, so a Δχ² above that minimum means little. Like K6, these bounds move with the reading (computed here only for the agent's kernel).",
+   "independent_check": "[S] arXiv:2311.16377 HTML: eBOSS means 0.310 and −2.340, 'standard deviations are respectively 0.020 and 0.006 and the correlation coefficient is 0.512'; 'a 4.90σ tension'. vlya.py eBOSS column (kernel B + anti-drag): v*=120: 0.00183; 300: 0.00089; 30: 0.02248; 10: 0.19913."
+  },
+  {
+   "claim_id": "K9",
+   "verdict": "refuted",
+   "reason": "The arithmetic reproduces, but the mapping is not a bound. Per its own authors, the Planck+BOSS limit β < 0.0048 is set mainly by the background modification of the scalar model: the faster dilution of dark matter, which changes H(a) and the distance to last scattering. BOSS full shape adds little beyond Planck+BAO because the growth enhancement, an approximately constant amplitude shift, is degenerate with the linear bias b1. The gated model has no O(ε) background effect (K4). Matching its linear power excess to the ungated one at a single (k, z) therefore transfers none of what drives the published bound. The match point k = 0.2 h/Mpc is also the most favourable choice. At k = 0.1 h/Mpc the same gated ε gives an excess of only 0.9–2.6% (v* = 120–3000) against the ungated 3.7%. The 'BOSS-mapped' limits (0.0136 at 1000, 0.0068 at 3000 km/s) and the statement that the mapping beats Lyman-α above about 1000 km/s are unsupported.",
+   "independent_check": "[S] arXiv:2309.11496v3 HTML: background modification 'trumps the enhanced growth of structure at late times'; full shape 'does not significantly improve over the Planck+BAO constraint' because 'the uncertainty on the linear bias is too large to provide significant additional constraining power'; 'an approximately constant upward shift of the amplitude of the matter power spectrum'. vboss.py: 'ungated beta=0.0048: power excess at z=0.57, k=0.1,0.2 h/Mpc: 0.0374 0.0374'; at z=0.32: 0.0379. Kernel B: 'v*= 120: eps_equiv(k=0.2 h/Mpc) = 0.5017 ; its excess at k=0.1 h/Mpc = 0.0093'; 'v*= 300: 0.0853 ; 0.0097'; 'v*= 1000: 0.0135 ; 0.0144'; 'v*= 3000: 0.0067 ; 0.0259'. Kernel A: 1.1323, 0.1887, 0.0252, 0.0096.",
+   "corrected_statement": "No large-scale-structure bound on the gated force follows from β < 0.0048. That bound is driven by scalar-background effects the gated model lacks, and the full-shape growth information is weak because of the b1 degeneracy (Bottaro et al. 2024 [S]). The equal-excess arithmetic (ε_equiv = 0.50, 0.085, 0.0135 and 0.0067 at v* = 120, 300, 1000 and 3000 km/s) is not a limit. A real limit would need a full-shape likelihood run with the gated growth."
+  },
+  {
+   "claim_id": "K10",
+   "verdict": "corrected",
+   "reason": "The DESI numbers for the ungated reading reproduce (0.0339/0.0426 against 0.0335/0.0419). But 'the ungated Planck+BOSS limit β < 0.0048 applies approximately' is unsupported. That limit is background-driven (see K9), and a two-body potential with no specified field-theory completion need not share the scalar model's background. The conclusion that ε is limited at the percent level under either reading still holds from the DESI amplitude alone (about 3–4%).",
+   "independent_check": "vlya.py: 'ungated reading: DESI bound matter 0.0339 gas 0.0426'. vgrowth.py: 'ungated eps=0.01: T_m^2(kp)=1.0715 dn=+0.00000' (agent 1.0723). Background-dominance quotes from arXiv:2204.08484 and arXiv:2309.11496 [S], as in K1/K9.",
+   "corrected_statement": "With a peculiar-velocity gate the force is ungated in linear cosmology, and DESI compressed parameters give ε < 0.034 (matter) / 0.043 (gas) from the amplitude alone. The published Planck/BOSS β limits come mostly from scalar-background effects and transfer only to the extent that the model shares them, which the record does not specify."
+  },
+  {
+   "claim_id": "K11",
+   "verdict": "corrected",
+   "reason": "With the agent's kernel my code reproduces all boundary points to within 0.01 in z_c except the most extreme, (ε = 3.08, v* = 10). There I get z_c = 33.4 (×479) against the agent's 34.84 (×541). At that steep growth the result depends on the k range and the z sampling. The qualitative claim stands, and under the stated reading it gets stronger. At reading A's own DESI boundary the collapse shifts are larger: 10⁸ M☉ halos at z_c = 3.89 (×1.38) for ε = 0.058, 5.09 (×2.65) for ε = 0.176, 7.81 (×8.0) and 34.3 (×518) at v* = 30.",
+   "independent_check": "vhalo.py B (T evaluated at each z, top-hat, EH98): 'eps=0.0285 v*= 120 M=1e+08: sigma(z=0) LCDM 5.869 gated 6.417 | z_c LCDM 3.40 gated 3.72 | (1+z_c)^3 ratio 1.233'; 1e9: 2.61 → 2.83, ×1.190; ε=0.081: 4.36, ×1.813; (0.348,30): 5.96, ×3.953; (1.14,30): 17.42, ×73.383; (0.775,20): 8.75, ×10.886; (3.08,10): 'gated 33.41 | ratio 478.617'. vhalo_A.py: 'eps=0.0584 v*= 120 M=1e8: z_c LCDM 3.40 gated 3.89 | ratio 1.377'; 'eps=0.1761 ... 5.09 | 2.647'; 'eps=0.7810 v*= 30 ... 7.81 | 8.026'; 'eps=2.5838 v*= 30 ... 34.33 | 517.926'; ε=6.95, v*=10: z_c > 60 (beyond grid).",
+   "corrected_statement": "With the agent's kernel at its DESI boundary, 10⁸ M☉ halos collapse at z_c = 3.72 (×1.23) at (0.0285, 120 km/s), 4.36 (×1.81) at (0.081, 120), 5.96 (×3.95) at (0.348, 30), 17.4 (×73) at (1.14, 30), 8.75 (×10.9) at (0.775, 20), and ≈ 33–35 (×480–540, sampling-dependent) at (3.08, 10). At the stated reading's own boundary the shifts are larger: z_c = 3.9–5.1 at v* = 120 and 7.8–34 at v* = 30."
+  },
+  {
+   "claim_id": "K12",
+   "verdict": "confirmed",
+   "reason": "Every quote and number was found in the cited papers. Notes: the KK limit carries no confidence level ('strongly suggests'; 'far from conclusive'). Their default orbit has apocentre 59 kpc and pericentre 14 kpc. Zamlung & Nusser's β ≳ 0.4 exclusion is 'not presented within the figures'.",
+   "independent_check": "[S] astro-ph/0606566 abstract: 'challenging models in which DM and baryons accelerate differently by more than 10%'. astro-ph/0608095 (ar5iv): force 'suppressed compared to gravity by a factor' β²; 'This leading-to-trailing ratio drops from 0.66 in the absence of a dark-matter force to 0.44, 0.091, and 0.0042 for β=0.1, 0.2, and 0.3 respectively'; 'strongly suggests that a dark-matter force greater than 10% the strength of gravity is already excluded'. arXiv:0903.4458: 'several percent ... will lead to order unity changes'; 'exclude attractive dark-matter forces greater than 10%'; the other simulations 'use inconsistent initial conditions'. arXiv:0912.4177: PRD 81:063521; β = 1, r_s = 1 h⁻¹ Mpc comoving; 'preliminary'; 'both ΛCDM and ReBEL can agree with the observations within the limits of the present analysis'; smoothing a free parameter. arXiv:2509.01713: 'β ≳ 0.6 strips and unbinds the bulk', 'β ≲ 0.2 ... broadly consistent', 'our exclusion of β≳0.4 (not presented within the figures)', F5 = βF_gravity. astro-ph/0703232: 'moving only with 2600 km/s', shock '~4700 km/s'. astro-ph/0610298: 'strength ~ 0.4 - 1.2 times that of gravity'."
+  },
+  {
+   "claim_id": "K13",
+   "verdict": "confirmed",
+   "reason": "The Sgr inputs are sourced: del Pino et al. 2021 give r = 18.11 ± 0.15 kpc and 311.1 ± 1.1 km/s in Sec. V.2, though not in the abstract. I reproduced 311.1 km/s from their heliocentric Table 1 values and solar parameters. The gate factors, Monte Carlo and closed form, and the orbit all agree. The Fornax ⟨W⟩ values reproduce with my own isotropic Jeans dispersion in the Zamlung–Nusser host. One addition: the agent used Sgr's current speed, which is near pericentre. Averaging the gate over the orbit in time gives ⟨W⟩ = 0.144 and ε < 0.70 at v* = 120. That is about 2× tighter but still far weaker than K6 under every reading. The comparison with K9 is moot (K9 refuted).",
+   "independent_check": "vsatellites.py: 'Sgr (del Pino solar params): r = 18.07 kpc, |V| = 311.1 km/s'; with R0 = 8.122 and v_sun = (12.9, 245.6, 7.78): 18.22 kpc, 313.2 km/s. 'isothermal orbit (v_r=143.6, v_t=276.0): peri 14.7 kpc (V=339.9), apo 46.7 kpc (V=106.7)'. 'v*= 120: gauss MC 0.0656 closed 0.0656 | rational MC 0.2090 | eps<0.1/<W>: gauss 1.524 rational 0.479'; 200: 0.424; 300: 0.215; 1000: 0.108; 2000: 0.102. 'orbit-time-averaged Gaussian <W> at v*=120: 0.1438 (vs 0.0656 at current V) -> eps < 0.695'. vextra.py: 'Fornax now (149 kpc, 155.3 km/s): v_c = 175.4, sigma_halo = 82.4 km/s ; <W> gauss v*=120,300,3000: 0.315 0.790 0.998 ; eps<0.4/<W> at 120: 1.27'; 'pericentre (87.9 kpc, 253 km/s): ... sigma_halo = 103.3 ... 0.121 ... 3.30'. [S] arXiv:2011.02627 HTML: 18.11 ± 0.15 kpc, 311.1 ± 1.1 km/s (313 ± 4 corrected), R0 = 8.29 kpc, V0 = 239 km/s. [S] arXiv:1810.09466 abstract: v_c(R☉) = 229.0 ± 0.2 km/s, slope −1.7 ± 0.1 km/s/kpc, 5 ≤ R ≤ 25 kpc. [S] arXiv:2509.01713: Fornax at 147 ± 12 kpc, (vX,vY,vZ) = (40.4, −125, 82.8) km/s, pericentre ~90 kpc."
+  },
+  {
+   "claim_id": "K14",
+   "verdict": "corrected",
+   "reason": "Every gate number reproduces, by Monte Carlo and closed form, and the DS+ dispersions (1163/472 km/s) are confirmed [S]. The Barrena values (1250/210) come from a secondary source; the DS+ paper says its 472 km/s is roughly twice Barrena's estimate. The only correction is the cross-reference to K9, which is not a bound. Above 1000 km/s the DESI compressed limit alone (0.017–0.035 across kernels and tracers) keeps the extra pull ε⟨W⟩ at about 2% of gravity or less.",
+   "independent_check": "vsatellites.py: 'Barrena via secondary v*= 120: gauss 1.053e-04 (closed 1.041e-04) rational 5.091e-03'; v*=1000: 6.497e-02 closed; v*=3000: 5.683e-01 closed; 'within main (pair sigma sqrt2*1250), v*=120: gauss 3.107e-04'; DS+: 1.028e-04 closed, within main 3.853e-04; 'Farrar-Rosen 0.4-1.2 x gravity -> eps = 3.844e+03 - 1.153e+04 at v*=120'. [S] arXiv:2212.00040 HTML: main σ_v = 1163 (+56/−59) km/s; bullet raw 849 km/s, bias-corrected about 472 km/s, 'roughly twice Barrena et al. (2002)'s estimate'.",
+   "corrected_statement": "The Bullet Cluster's mean gate is 1.0e-4 (Gaussian) / 5.1e-3 (rational) at v* = 120, 0.065 at 1000 and 0.57 at 3000 km/s. It tests the gated force only for v* ≳ 1000 km/s, where the DESI compressed limit (ε ≲ 0.017–0.035) keeps the extra pull at about 2% of gravity or less. Farrar–Rosen would need ε ≈ 3.8e3–1.2e4 at v* = 120."
+  },
+  {
+   "claim_id": "K15",
+   "verdict": "confirmed",
+   "reason": "The internal gate factors reproduce by Monte Carlo and closed form. The dispersions the agent tagged † are now live-checked: Segue 1 3.7 (+1.4/−1.1) km/s, and classical dSphs 6.6–11.7 km/s. The 'ε ≤ 3–8% at v* = 120 given K6' depends on the reading: across readings and tracers the DESI bound is 2–18%.",
+   "independent_check": "vsatellites.py: 'sigma= 3.7: gauss MC 0.9972'; '6.6: 0.9910'; '10.0: 0.9795'; '11.7: 0.9721'; '30.0: 0.8381'; '155.0: gauss 0.1107 rational MC 0.2554'; '1000.0: 0.0006'; 'v*=30, sigma=10: gauss 0.7401'. [S] arXiv:1007.4198 abstract: 'a velocity dispersion of 3.7^{+1.4}_{-1.1} km/s'. [S] arXiv:0906.0341 Table 1: Carina 6.6, Draco 9.1, Fornax 11.7, Leo I 9.2, Leo II 6.6, Sculptor 9.2, Sextans 7.9, UMi 9.5 km/s."
+  },
+  {
+   "claim_id": "K16",
+   "verdict": "confirmed",
+   "reason": "Direct numerical integration of the Born screened-Coulomb transfer cross-section reproduces every number, along with the Born/classical log ratio and the backward fraction.",
+   "independent_check": "vscatter.py: 'v= 10 km/s: eta = 9.855e-37 ; Born numeric sigma_T/m = 1.888e-60 cm^2/g ; Born log 67.57 ; classical log 150.28 (ratio 2.22)'; 'v= 30: eta = 3.285e-37 ; 2.369e-62 ; 68.67 ; 152.48'; 'v= 100: 1.952e-64'; 'v= 300: 2.448e-66'; 'G~/G needed for 30 cm^2/g at 30 km/s: 3.559e+31'; 'ratio to benchmark at G~ = G: 7.896e-64'; 'fraction of sigma_T from theta > 90 deg (Born, 30 km/s, b=1 kpc): 0.0050'."
+  },
+  {
+   "claim_id": "K17",
+   "verdict": "corrected",
+   "reason": "Three things change. (1) The v* ≳ 1000 km/s band rests on K9, which is not a bound; the DESI compressed limit is the strongest computed probe there. (2) For v* ≲ 300 km/s the Lyman-α bound depends on the reading by about ×2–3 at fixed tracer; the agent quoted only its mixed kernel. (3) The v* below which ε = 1 passes is reading-dependent. Satellites, the Bullet Cluster and scattering never dominate under any variant.",
+   "independent_check": "vlya.py, vreadingC.py and vextra.py, all with printed outputs quoted under K6. vextra.py: 'variant B ratio m ... -> eps=1 at v* = 17.6 km/s'; 'B g -> 32.1'; 'A m -> 26.5'; 'A g -> 48.4'; 'C m -> 14.9'; 'C g -> 27.3'.",
+   "corrected_statement": "Allowed region in (ε, v*), Gaussian gate, matter–gas bracket, from the DESI DR1 compressed Lyman-α parameters (the strongest probe computed at every v* from 10 to 3000 km/s). At v* = 120 km/s: ε < 0.029–0.081 with the agent's mixed kernel, 0.058–0.18 with the stated reading applied consistently, and 0.021–0.060 with fixed peculiar velocities. At 30 km/s: 0.35–1.14, 0.78–2.6 and 0.25–0.83. At 300: 0.014–0.023, 0.020–0.042 and 0.013–0.019. At 1000–3000: 0.017–0.035 in all variants. There is no valid BOSS-scale bound. ε = 1 passes for v* ≲ 18–32 km/s (mixed kernel), ≲ 27–48 (stated reading) or ≲ 15–27 (fixed peculiar velocities). At those boundaries the linear collapse of 10⁸ M☉ halos moves to z ≈ 9–35 or beyond, which this run does not test. Satellites, the Bullet Cluster and scattering never dominate. The compressed test does not cover the model's shape, which adds running of +0.05–0.06 at the pivot, so every number here is an estimate."
+  }
+ ],
+ "missed_issues": [
+  "The linear model is internally inconsistent. The density kernel R(y) = y∫sin(yt)W(t)dt belongs to the static effective potential W(r/s)/r. The anti-drag belongs to the stated −∇ₓU-at-fixed-velocities reading, whose own density kernel is R_A(y) = ∫₀¹R(yμ)dμ, which is 0.34–0.39 R near the pivot. gate_kernels.py checks R only against a sine transform of itself, never against the stated reading. Fixing this weakens every K6/K17 bound at v* ≤ 300 km/s by 1.5–2.3× (v* = 120: 0.0285 → 0.058, matter). This is distinct from the Lagrangian-reading question the agent flagged.",
+  "The cited fifth-force bounds (Archidiacono et al. 2022; Bottaro et al. 2024) are, by their authors' statements, driven by background geometry (the distance to last scattering, BAO), not by growth. BOSS full shape adds little beyond Planck+BAO because of the b1 degeneracy. So K9's power-excess mapping is not a bound, and K10's 'β < 0.0048 applies approximately' is unsupported.",
+  "The compressed test was not checked against the validity condition stated in its own source. DESI DR1 varies only A_s and n_s with the matter transfer function fixed, and claims no loss of information only within ΛCDM and some extensions. At the bound the gated model adds running of +0.054 to +0.061 at the pivot (ΛCDM: −0.187). Over 0.02–0.03 s/km it has 2–4% more power than the amplitude-plus-slope description; at 0.001–0.003 s/km it lacks the 2–6% deficit that description predicts. The direction of the resulting bias in the bound is not known without a P1D likelihood. Its redshift scaling, by contrast, is not a concern: T²(k_*) changes by less than 0.1% over z = 2.2–4.2.",
+  "K7 calls matter versus gas the largest systematic, but the reading/kernel choice at fixed tracer spans 0.021–0.058 at v* = 120, a factor of 2.7, as large as the matter–gas factor of 2.8–3.0.",
+  "K3 compares the 1D rms s1 with v*. The gate acts on the 3D |Δv|, whose rms at the gate radius is √3·s1: 69 km/s at z = 3 and 109–119 km/s at z = 1–0.5, comparable to v* = 120. The Hubble-flow gate is a good approximation at z ≳ 3 but not at z ≲ 1, which is where the BOSS mapping was placed.",
+  "The BOSS mapping matches at k = 0.2 h/Mpc, where the gated excess is largest. At k = 0.1 h/Mpc the same ε gives 0.9–2.6% (v* = 120–3000) against 3.7% ungated, so even as arithmetic the mapping is the most aggressive choice.",
+  "The Sgr translation uses the current speed, near pericentre. The orbit-time-averaged gate is 2.2× larger (0.144 against 0.066 at v* = 120), so ε < 0.70 rather than 1.52. Either way it is far weaker than Lyman-α; the KK 10% itself has no stated confidence level.",
+  "The thermal-velocity illustration omits the (4/11)^(1/3) e+e− entropy factor (6.1e-3 km/s at z = 1090, not 8.5e-3). The z_eq anchor compares two definitions; with ω_b+ω_c the computed z_eq is 3402.0, equal to Planck's.",
+  "The agent's kernel R overshoots 1 (R = 1.28 at k s_c = 2), so its model applies a density coupling above ε×gravity at k s_c ≈ 2. The stated-reading kernel R_A never exceeds 1. This is part of why the agent's bounds are tighter.",
+  "Dispersions the agent tagged † are now live-checked: Segue 1 σ = 3.7 (+1.4/−1.1) km/s (Simon et al. 2011); classical dSphs 6.6–11.7 km/s (Walker et al. 2009, Table 1). The Sgr kinematics are in del Pino et al. 2021 Sec. V.2, not in that paper's abstract. The Bullet subcluster's 210 km/s is from a secondary source; DS+ (472 km/s, bias-corrected) is a primary alternative. Results are unchanged."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vcosmo.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vpk.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vkernels.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vkernels_fast.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vgrowth.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vlya.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vreadingC.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vextra.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vzevol.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vrunning.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vk7.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vboss.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vhalo.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vhalo_A.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vsatellites.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-dark-tests-numbers/vscatter.py",
+  "(each script's printed output is saved beside it as <name>.out; vhalo.py's output is vhalo_B.out; vkernels.py holds helper functions used by vkernels_fast.py, and its own slow mpmath main run was aborted and superseded)"
+ ],
+ "new_claims": [
+  {
+   "id": "N1",
+   "statement": "Under the reading force = −∇ₓU at fixed velocities, the Hubble-flow density kernel of the gated force is R_A(y) = y∫₀^∞ j1(yt)W(t)dt = ∫₀¹R(yμ)dμ, where R(y) = y∫sin(yt)W(t)dt is the kernel of the static effective potential W(r/s)/r. For the Gaussian gate R_A/R = 0.337, 0.353, 0.380, 0.388, 0.531 and 0.916 at y = 0.31, 0.66, 1.0, 1.08, 2 and 5; R_A ≤ 1 everywhere, while R peaks at 1.28 near y = 2. Rational gate at y = 1.08: R_A = 0.469 against R = 0.899. In the static-potential reading, the self anti-drag on a moving particle is a surface integral and vanishes.",
+   "tag": "[D] with executed script",
+   "basis": "Derivation: the fixed-velocity force kernel is W(r/s) r̂/r²; its Fourier transform gives k∫W(r/s)j1(kr)dr; integration by parts gives the μ-average identity. Checked by 2D (r,μ) brute-force quadrature of the force from δ = sin(kz) under both readings, without using the identities.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "R and R_A at y=1.08 (Gaussian)",
+     "value": "0.803130, 0.311446",
+     "script": "vkernels_fast.py",
+     "printed_output": "1.0800  0.803130   0.803130  0.803130  | 0.311446   0.311446      0.311446 |  0.53642          | 0.388"
+    },
+    {
+     "quantity": "rational R and R_A at y=1",
+     "value": "0.854891, 0.435921",
+     "script": "vkernels_fast.py",
+     "printed_output": "y=1.000  R_B(Ei) 0.854891 brute(B) 0.854898 | Int_0^1 R_B 0.435921 brute(A) 0.435924 | R_v 0.66639"
+    }
+   ]
+  },
+  {
+   "id": "N2",
+   "statement": "Under a third reading, force = −∇ₓU at fixed peculiar velocities (the Hubble part of v − v′ differentiated), the density kernel is R and the velocity term comes only from neighbours' velocities: +(4π/3)(G̃ρ̄_c/H) R_vC(ks) u with R_vC(y) = −3y∫₀^∞ tW′(t)j1(yt)dt. R_vC → 2y² at small y and → 0 at large y; for the Gaussian gate it is 1.35 at y = 1 and 1.48 at y = 1.08, against the agent's R_v of 0.48 and 0.54.",
+   "tag": "[D] with executed script",
+   "basis": "Linearization of the fixed-peculiar-velocity force. The self term integrates to a surface term; the neighbour term is handled by integration by parts in Fourier space. Small-y limit checked numerically.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "R_vC small-y check",
+     "value": "1.9999 (expect 2)",
+     "script": "vreadingC.py",
+     "printed_output": "small-y check R_vC/y^2 at y=0.01: 1.9999 (expect 2)"
+    },
+    {
+     "quantity": "R_vC vs R_v at y=1.08",
+     "value": "1.4809 vs 0.5393",
+     "script": "vreadingC.py",
+     "printed_output": " 1.08  0.8069  0.3132   0.5393        1.4809"
+    }
+   ]
+  },
+  {
+   "id": "N3",
+   "statement": "DESI DR1 compressed-Lyman-α bounds on ε = G̃/G (Gaussian gate, Δχ² = 3.84, matter/gas ratio) under the three linear models. Agent's mixed kernel: 0.0285/0.081 at 120 km/s, 0.35/1.14 at 30, 3.08/10.2 at 10, 0.014/0.023 at 300, 0.017/0.017 at 1000, 0.022/0.024 at 3000. Fixed-velocity reading applied consistently: 0.058/0.176, 0.78/2.58, 6.95/23.1, 0.020/0.042, 0.018/0.021, 0.020/0.022. Fixed-peculiar-velocity reading: 0.021/0.060, 0.25/0.83, 2.23/7.40, 0.013/0.019, 0.023/0.020, 0.030/0.035. Rational gate at 120 km/s: 0.0225 (mixed) and 0.0375 (fixed-velocity), matter ratio.",
+   "tag": "[D] with executed script; data [S]",
+   "basis": "Independent two-fluid sub-horizon growth (vgrowth.py) with each kernel set; χ² against Δ²_* = 0.379 ± 0.032, n_* = −2.309 ± 0.019, r = −0.1738 [S]; baseline 0.3495/−2.3052 [S] with its errors in quadrature. With the agent's kernel the agent's table is reproduced to ≤1%, which validates the pipeline.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "v*=120 bounds, mixed / reading A",
+     "value": "0.0285/0.0814 ; 0.0584/0.1761",
+     "script": "vlya.py",
+     "printed_output": "  120 | 0.0285  0.0814 | 0.0282      | 0.0345        | 0.0584  0.1761 | 0.0920        | 0.0225  0.0454     | 0.0375          | 0.00183"
+    },
+    {
+     "quantity": "v*=120 bound, reading C",
+     "value": "0.0214/0.0600",
+     "script": "vreadingC.py",
+     "printed_output": "  120 | 0.0214  0.0600"
+    }
+   ],
+   "sources": [
+    "arXiv:2601.21432 [S]",
+    "arXiv:2311.16377 [S]"
+   ]
+  },
+  {
+   "id": "N4",
+   "statement": "The gate velocity below which ε = 1 passes the DESI compressed test (matter/gas): 17.6/32.1 km/s with the agent's mixed kernel, 26.5/48.4 km/s with the stated reading applied consistently, and 14.9/27.3 km/s with fixed peculiar velocities.",
+   "tag": "[D] with executed script",
+   "basis": "ε_max computed on a v* grid of 10–60 km/s and log-interpolated to ε_max = 1.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "crossovers",
+     "value": "17.6/32.1 ; 26.5/48.4 ; 14.9/27.3 km/s",
+     "script": "vextra.py",
+     "printed_output": "variant A ratio g: 10:23.137 15:10.257 20:5.780 25:3.705 30:2.584 40:1.455 50:0.939 60:0.656  -> eps=1 at v* = 48.4 km/s"
+    }
+   ]
+  },
+  {
+   "id": "N5",
+   "statement": "At the DESI bound for v* = 120 km/s the gated model lies outside the shape family the compression assumes. Its added running d²lnT²/dlnk² at the pivot is +0.054 (mixed kernel, ε = 0.0285) or +0.061 (stated reading, ε = 0.0584), against the ΛCDM curvature of −0.187. Over 0.02–0.03 s/km the model has 2–4% more power than the amplitude-plus-slope description, and over 0.001–0.003 s/km it lacks that description's 2–6% deficit. The redshift-scaling assumption is not an issue: T²(k_*) varies by less than 0.1% over z = 2.2–4.2, because k_*·s_c = k_*v* is exactly constant in velocity units.",
+   "tag": "[D] with executed script; compression method [S]",
+   "basis": "Gated transfer evaluated across the DESI P1D k range and redshift range. DESI DR1 (arXiv:2601.21432 [S]) varies only A_s and n_s with the matter transfer function fixed.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "T^2 model vs amp+slope at k=0.001..0.03 s/km (B, eps=0.0285)",
+     "value": "1.0003 1.0027 1.0217 1.0712 1.1047 vs 0.9414 0.9807 1.0217 1.0525 1.0686",
+     "script": "vextra.py",
+     "printed_output": "     running d^2 lnT^2/dlnk^2 at k_p = 0.0541 ; slope dn = 0.0372"
+    },
+    {
+     "quantity": "LCDM curvature at pivot",
+     "value": "-0.1870",
+     "script": "vrunning.py",
+     "printed_output": "EH98 LCDM at pivot: slope -2.3067, curvature d2lnP/dlnk2 = -0.1870"
+    },
+    {
+     "quantity": "z-evolution of T^2 at pivot",
+     "value": "1.0214 (z=4.2) to 1.0221 (z=2.2)",
+     "script": "vzevol.py",
+     "printed_output": "kernel B eps=0.0285 | z=4.2: T^2=1.0214 dn=+0.0368 | ... | z=2.2: T^2=1.0221 dn=+0.0379"
+    }
+   ],
+   "sources": [
+    "arXiv:2601.21432 [S]"
+   ]
+  },
+  {
+   "id": "N6",
+   "statement": "The published long-range dark-force bounds β < 0.011/0.0054 (Planck/Planck+BAO; Archidiacono et al. 2022) and β < 0.012/0.0048 (Planck/Planck+BOSS FS+BAO; Bottaro et al. 2024) are driven mainly by the scalar model's background modification, and BOSS full shape adds little because of the linear-bias degeneracy. They therefore do not bound a gated force with no O(ε) background effect.",
+   "tag": "[T][S]",
+   "basis": "Quotes retrieved this session: Archidiacono et al.: 'most of the constraining power comes from the geometric projection of physical scales at last scattering'. Bottaro et al.: the background modification 'trumps the enhanced growth of structure at late times'; full shape 'does not significantly improve over the Planck+BAO constraint' because 'the uncertainty on the linear bias is too large'.",
+   "confidence": "high",
+   "sources": [
+    "arXiv:2204.08484 [S]",
+    "arXiv:2309.11496 [S]"
+   ]
+  },
+  {
+   "id": "N7",
+   "statement": "At the DESI boundary under the stated reading applied consistently, the linear collapse proxy for 10⁸ M☉ halos moves from z_c = 3.40 to 3.89 (×1.38 in (1+z_c)³) at (ε, v*) = (0.058, 120), to 5.09 (×2.65) at (0.176, 120), to 7.81 (×8.0) at (0.78, 30), to 34.3 (×518) at (2.58, 30), and beyond z = 60 at (6.95, 10). These shifts are larger than the agent's.",
+   "tag": "[D] with executed script",
+   "basis": "σ(M,z) with the gated transfer evaluated at each z (top-hat, EH98 †, σ8 = 0.8111 †); σ = 1.686 threshold; (1+z_c)³ heuristic [T]. This is a proxy, not a halo-structure prediction.",
+   "confidence": "low",
+   "numbers": [
+    {
+     "quantity": "z_c(1e8) at reading-A boundary v*=120",
+     "value": "3.89 (x1.377), 5.09 (x2.647)",
+     "script": "vhalo_A.py",
+     "printed_output": "reading A: eps=0.0584 v*= 120 M=1e8: z_c LCDM 3.40 gated 3.89 | (1+z_c)^3 ratio 1.377"
+    }
+   ]
+  },
+  {
+   "id": "N8",
+   "statement": "The orbit-time-averaged Gaussian gate for Sgr's dark matter against the host's (isothermal host with σ = 149.9 km/s, plus 12 km/s internal) is 0.144 at v* = 120 km/s, against 0.066 at Sgr's current speed. With the qualitative 10% limit this gives ε < 0.70 instead of 1.52.",
+   "tag": "[D] with executed script",
+   "basis": "Radial-period average of the closed-form ⟨W⟩(V(r)) along the isothermal orbit (peri 14.7, apo 46.7 kpc) set up from del Pino et al.'s Galactocentric radial and tangential velocities (143.6, 276.0 km/s) [S].",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "orbit-averaged <W>, v*=120",
+     "value": "0.1438 -> eps < 0.695",
+     "script": "vsatellites.py",
+     "printed_output": "  orbit-time-averaged Gaussian <W> at v*=120: 0.1438 (vs 0.0656 at current V) -> eps < 0.695"
+    }
+   ],
+   "sources": [
+    "arXiv:2011.02627 [S]",
+    "arXiv:1810.09466 [S]"
+   ]
+  }
+ ],
+ "overall": "Every number in the dark-tests analysis reproduces as the agent defined it, using independent code. The checks covered the background and gate radius, the EH98/BBKS spectra and pair velocities, a new two-fluid gated growth code, the DESI χ² bounds (≤1% agreement), the halo proxy, the satellite and Bullet gates by Monte Carlo, and Born scattering by direct integration. All literature values and quotes were found in the sources by live search. Three substantive problems remain. (1) The linear model mixes two readings of the potential. Its density kernel R = y∫sin(yt)W dt belongs to the static effective potential W(r/s)/r, while its anti-drag belongs to the stated reading (−∇ₓU at fixed velocities). The stated reading's density kernel is R_A = ∫₀¹R(yμ)dμ, which is 0.39 R at the pivot; brute-force checked. Applied consistently, it weakens the Lyman-α bounds at v* ≤ 300 km/s by 1.5–2.3×: 0.058/0.18 at 120 km/s instead of 0.0285/0.081. A fixed-peculiar-velocity reading instead gives 0.021/0.060. The reading spread (×2.7) is as large as the matter–gas bracket. (2) K9's BOSS mapping is not a bound. The authors of β < 0.0048 attribute it to the scalar background, which the gated model lacks, and say BOSS full shape adds little because of the b1 degeneracy. K10's 'β < 0.0048 applies' fails for the same reason. Above 1000 km/s the strongest computed limit is the DESI one, 0.017–0.035. (3) The compressed DESI test fixes the transfer-function shape, but at the bound the model adds running of +0.05–0.06 at the pivot (ΛCDM −0.187) and 2–4% extra power at 0.02–0.03 s/km, so all Lyman-α numbers remain estimates. The redshift-scaling assumption is fine (<0.1% change over z = 2.2–4.2). The conclusions that survive: percent-to-ten-percent limits on ε for 30 ≲ v* ≲ 3000 km/s; ε = 1 allowed only for v* ≲ 15–48 km/s depending on reading and tracer; satellites, the Bullet Cluster and scattering are never competitive. Minor corrections: 3D versus 1D pair velocities at z ≲ 1; the omitted e+e− entropy factor; the z_eq definition mismatch; the Sgr orbit-averaged gate (ε < 0.70); the extreme halo point (z_c ≈ 33–35). I did not read STATE.md."
+}

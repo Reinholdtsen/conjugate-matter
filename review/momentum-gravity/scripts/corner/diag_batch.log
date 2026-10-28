@@ -1,0 +1,43 @@
+04:03:31 diag started run_F_eps3_rg1_N2000_s3.npz
+04:03:31 diag started run_H_eps0_rg1_N1000_s1.npz
+04:03:31 diag started run_H_eps0_rg1_N1000_s2.npz
+analysed run_H_eps0_rg1_N1000_s1.npz
+analysed run_H_eps0_rg1_N1000_s2.npz
+04:03:51 diag started run_H_eps10_rg0.4_N2000_s2.npz
+04:03:51 diag started run_H_eps10_rg0.4_N2000_s3.npz
+analysed run_F_eps3_rg1_N2000_s3.npz
+04:04:21 diag started run_H_eps10_rg1_N1000_s3.npz
+analysed run_H_eps10_rg0.4_N2000_s2.npz
+analysed run_H_eps10_rg1_N1000_s3.npz
+analysed run_H_eps10_rg0.4_N2000_s3.npz
+04:04:41 diag started run_H_eps3_rg1_N2000_s1.npz
+04:04:41 diag started run_H_eps3_rg1_N2000_s2.npz
+analysed run_H_eps3_rg1_N2000_s1.npz
+analysed run_H_eps3_rg1_N2000_s2.npz
+04:05:41 diag started run_H_eps3_rg1_N2000_s3.npz
+04:06:01 diag started run_H_eps0_rg1_N2000_s1.npz
+04:06:01 diag started run_H_eps0_rg1_N2000_s2.npz
+analysed run_H_eps3_rg1_N2000_s3.npz
+04:06:21 diag started run_H_eps0_rg1_N2000_s3.npz
+analysed run_H_eps0_rg1_N2000_s1.npz
+analysed run_H_eps0_rg1_N2000_s2.npz
+04:06:51 diag started run_H_eps3_rg0.4_N2000_s1.npz
+analysed run_H_eps0_rg1_N2000_s3.npz
+analysed run_H_eps3_rg0.4_N2000_s1.npz
+04:10:31 diag started run_H_eps3_rg0.4_N2000_s2.npz
+analysed run_H_eps3_rg0.4_N2000_s2.npz
+04:11:22 diag started run_H_eps3_rg0.4_N2000_s3.npz
+analysed run_H_eps3_rg0.4_N2000_s3.npz
+04:16:32 diag started run_H_eps1_rg1_N2000_s1.npz
+04:16:32 diag started run_H_eps1_rg1_N2000_s2.npz
+04:16:32 diag started run_H_eps1_rg1_N2000_s3.npz
+analysed run_H_eps1_rg1_N2000_s3.npz
+analysed run_H_eps1_rg1_N2000_s1.npz
+analysed run_H_eps1_rg1_N2000_s2.npz
+04:26:33 diag started run_H_eps1_rg0.4_N2000_s1.npz
+04:26:43 diag started run_H_eps1_rg0.4_N2000_s2.npz
+04:26:43 diag started run_H_eps1_rg0.4_N2000_s3.npz
+analysed run_H_eps1_rg0.4_N2000_s1.npz
+analysed run_H_eps1_rg0.4_N2000_s3.npz
+analysed run_H_eps1_rg0.4_N2000_s2.npz
+04:36:06 diagnostics all done (appended after all 29 runs were analysed)

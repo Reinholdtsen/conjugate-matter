@@ -12,6 +12,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13"
   - "HANDOFF.md §2"
   - "popsci/universes-other-half.md 'A second speed of light'"
+  - "review/wiki-build-flags.md item 56"
+  - "notes/velocity-gated-gravity.md §2"
 ---
 
 *A force boost is the momentum-space counterpart of a [Lorentz boost](/wiki/conjugate-relativity/special-relativity): where Einstein's boost relates observers moving at constant velocity, the force boost of [#13](/wiki/conjugate-relativity) relates an observer under no force to one under a constant force, with the [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in the role of the speed of light. The same algebra then gives forces that combine like relativistic velocities, so that no composition of forces passes c̃, and observers under different forces who disagree about which events are simultaneous when the events differ in momentum. At what #13 calls the strongest sustained macroscopic force in nature, on a kilogram at a neutron-star surface, the correction is of order 10⁻⁶⁵, which #13 gives as the reason force looks exactly additive; only merging black holes approach the limit. The results are alive but unreviewed: #13 tags them as derived, but no review round or script has checked them, the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them, and no observable signature in merger data has been derived.*
@@ -95,6 +97,8 @@ The size of the correction comes from the weight of one kilogram at a neutron-st
 
 A merger of two black holes of comparable mass runs through three stages [T]: the inspiral, in which the orbit shrinks as it radiates gravitational waves; the merger itself; and the ringdown, in which the single remnant settles into a stationary black hole with damped oscillations. Gravitational-wave detectors record all three. #13 §1 notes that the literature's companion luminosity bound c⁵/4G is "approached by binary black-hole mergers" ([Maximum force and maximal acceleration in the literature](/wiki/conjugate-relativity/maximum-force-conjectures)); #13 gives no estimate behind "F ~ c̃ by construction".
 
+#13's own §5 gives a different answer for this arena. §2 says a black-hole merger "operates at F ~ c̃ by construction", using the gravitational force between the holes; §5 identifies dual rest with free fall, and merging black holes are in free fall, so under §5 their dual-kinematic correction is zero. For the Sun and Earth the two readings give (1/2)(F/c̃)² = 4.3×10⁻⁴⁴ and 0: "both are negligible, but the paper gives two answers" (flag 56 in `review/wiki-build-flags.md`, rated low; raised by 1 agent, the run-3 theory verifier of the momentum-gravity investigation, and upheld by its final critic; `notes/velocity-gated-gravity.md` §2; [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies#two-other-readings-of-momentum-gravity)). It awaits Paul's ruling.
+
 The tag says what is and is not claimed: the arena is flagged, and no correction has been derived. #13 §7 lists the question among its open items, "whether merger-band gravitational-wave data can bound dual-kinematic corrections", and the Abstract says the construction "locates the one natural arena where dual-kinematic corrections could be order unity". No signature has been computed, #11 §13's table of predictions has no row for dual kinematics ([Predictions and kill conditions](/wiki/predictions)), and the item is not among #11 §14's open problems or on the current queue in `CLAUDE.md`. It is listed in [Open problems and the queue](/wiki/status/open-problems).
 
 ## Standing
@@ -107,3 +111,4 @@ The tag says what is and is not claimed: the arena is flagged, and no correction
 - `papers/broken-born-checkpoint-v2.md` §13 — the predictions table, which has no dual-kinematic row.
 - `HANDOFF.md` §2 — force boosts among the alive results, without a machine-check mark.
 - `popsci/universes-other-half.md` 'A second speed of light' — the popular description of composition and of the numbers (not a status source).
+- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth

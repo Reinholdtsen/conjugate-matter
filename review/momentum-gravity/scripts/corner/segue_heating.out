@@ -1,0 +1,9 @@
+LCDM: sigma(1, 1e5 Msun; z = 87.7) = 0.208, 0.135; F(>1 Msun) = 4.48e-16; heating moment H = 4.026e-15 Msun (limit 7.88)
+H  v*= 3: eps=0.3: F(>1)=2e-07 F(>1e3)=7.93e-16 H=1.95e-06 Msun | eps=1: F(>1)=0.278 F(>1e3)=0.00218 H=38.8 Msun >limit | eps=2: F(>1)=0.926 F(>1e3)=0.656 H=3.22e+03 Msun >limit
+H  v*= 5: eps=0.3: F(>1)=1.88e-06 F(>1e3)=5.84e-13 H=2.54e-05 Msun | eps=1: F(>1)=0.389 F(>1e3)=0.0452 H=164 Msun >limit | eps=2: F(>1)=0.949 F(>1e3)=0.827 H=1.4e+04 Msun >limit
+H  v*=10: eps=0.3: F(>1)=1.48e-05 F(>1e3)=4.44e-10 H=0.000319 Msun | eps=1: F(>1)=0.49 F(>1e3)=0.193 H=1.05e+03 Msun >limit | eps=2: F(>1)=0.964 F(>1e3)=0.913 H=2.05e+04 Msun >limit
+H  v*=20: eps=0.3: F(>1)=5.67e-05 F(>1e3)=3.17e-08 H=0.00195 Msun | eps=1: F(>1)=0.552 F(>1e3)=0.335 H=5.03e+03 Msun >limit | eps=2: F(>1)=0.971 F(>1e3)=0.945 H=6.74e+03 Msun >limit
+K4 v*= 3: eps=0.3: F(>1)=1.82e-07 F(>1e3)=4.46e-14 H=2.22e-06 Msun | eps=1: F(>1)=0.183 F(>1e3)=0.00535 H=34.1 Msun >limit | eps=2: F(>1)=0.862 F(>1e3)=0.628 H=5.83e+03 Msun >limit
+K4 v*= 5: eps=0.3: F(>1)=9.77e-07 F(>1e3)=4.33e-12 H=1.56e-05 Msun | eps=1: F(>1)=0.255 F(>1e3)=0.0344 H=131 Msun >limit | eps=2: F(>1)=0.89 F(>1e3)=0.751 H=1.8e+04 Msun >limit
+K4 v*=10: eps=0.3: F(>1)=5.22e-06 F(>1e3)=4.56e-10 H=0.000121 Msun | eps=1: F(>1)=0.333 F(>1e3)=0.112 H=742 Msun >limit | eps=2: F(>1)=0.912 F(>1e3)=0.835 H=1.36e+04 Msun >limit
+K4 v*=20: eps=0.3: F(>1)=1.7e-05 F(>1e3)=1.13e-08 H=0.000571 Msun | eps=1: F(>1)=0.389 F(>1e3)=0.197 H=2.69e+03 Msun >limit | eps=2: F(>1)=0.925 F(>1e3)=0.877 H=6.3e+03 Msun >limit

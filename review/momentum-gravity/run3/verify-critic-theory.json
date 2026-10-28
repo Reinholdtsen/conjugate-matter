@@ -1,0 +1,292 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "c1",
+   "verdict": "corrected",
+   "reason": "My independent derivation agrees with the core claim. Residues are P_J (massive) and T_J (massless); the (v/c)^2 coefficients are J(J+1)/4 and J^2/2; the spins needed are 4996 and 3533; the tuned pair gives 1.248e7 and -468.47 at 2600 km/s. Five corrections are needed.\n(1) Scope. The polynomial is the tree-level covariant pole residue. The observable impulse or force carries spin-independent kinematic factors, e.g. 1/sqrt(gamma^2-1) in the eikonal impulse. Loop (post-Minkowskian) terms add non-polynomial functions of gamma, suppressed by Gm/(rc^2) and with velocity scale c (T3). So 'only as A + B gamma + C gamma^2' is a statement about the tree-level residue.\n(2) Citation scope. Weinberg 1964 covers massless spin >= 3 with couplings that survive at low energy. Light massive J >= 3 is a separate result: Afkhami-Jeddi, Kundu and Tajdini, JHEP04(2019)056 [S]. A finite number of massive J > 2 particles cannot interact with gravitons causally; an infinite fine-tuned tower can, but it modifies graviton dynamics at its mass scale.\n(3) A known exception is not mentioned. Continuous-spin carriers (T9; Schuster-Toro-Zhou 2023 [S]) give a long-range force with a relative-velocity correction controlled by rho v r.\n(4) Wording. Every single-spin residue increases with v. J ~ c/v* buys an O(1) increase, never a gate. A decreasing gate needs an alternating-sign tower whose terms are ~10^5421169 times the net at v* = 120 km/s (T4).\n(5) The tuned J=0/J=1 residual also violates the equivalence principle for ordinary bodies. With the vector on baryon number, eta ~ -3.0e4 (Be/Ti) and +1.1e4 (Ti/Pt). A massless vector must couple to a conserved charge (Weinberg 1964 [S]), so it cannot couple to mass.\nComparison with the critic's script: its numbers match mine. It checked the Lorentzian step only by citation ([T, dagger]); my explicit Lorentzian projection and helicity sum now cover that step.",
+   "independent_check": "v1_spinJ_residues.py, written before opening c1_spinJ_velocity.py.\n(a) Traceless part of u1^(x)J built by least squares, with no closed formula assumed, in n-dim Lorentzian space. u1 = (1,0,..), u2 = (gamma, sqrt(gamma^2-1),..), J = 0..6, gamma = 1, 1.0001, 1.1, 1.5, 3. Printed: 'max relative deviation n=3 vs P_J: 7.39e-14;  n=2 vs T_J: 7.08e-15'.\n(b) Textbook J=2 numerators contracted in 4D with complex on-shell q = (0, iM, 0, 0), orthogonal to u1 and u2. Printed: 'Fierz-Pauli: ... /static = 2.315350;  (3g^2-1)/2 = 2.315350'; 'de Donder D=4: ... /static = 2.753800;  2g^2-1 = 2.753800'; 'static ratio massive/massless = 1.333333'.\n(c) Massless helicity sum with complex null q = (0,1,i,0) and eps+- = (e_t +- e_z)/sqrt2. It equals T_J(gamma) for J = 0..6, e.g. at gamma=3: '1.000000, 3.000000, 17.000000, 99.000000, 577.000000, 3363.000000, 19601.000000'.\n(d) sympy coefficients: 'J=2: massive coeff = 3/2 ..., massless coeff = 2'; checked up to J = 8.\n(e) Spins: '(v/c)^2 = 1.602216e-07;  J(J+1)/4 (v/c)^2 = 1 -> J = 4996.0;  J^2/2 (v/c)^2 = 1 -> J = 3533.1'. Exact polynomials there: 'J= 4996: P_J(gamma*)-1 = 1.27956', 'J= 3533: ... T_J(gamma*)-1 = 1.17812'.\n(f) Tuned pair: 'g1^2/delta = 1.2483e+07', 'v_rel = 2600 km/s: attraction/static residual = -4.68471e+02'.\nv7_misc_numbers.py: 'Eotvos eta(Be-9,Ti-48) ~ 1.248e+07 x -2.437e-03 = -3.04e+04'.\nCritic's c1 .out: 'J = 4996 (massive), J = 3533 (massless)'; '1.248e+07'; '-4.6847e+02'. These agree.",
+   "corrected_statement": "At tree level, exchange of a spin-J field between spinless point sources has a pole residue that is a degree-J polynomial in gamma = u1.u2: P_J(gamma) if massive, T_J(gamma) if massless. The (v/c)^2 coefficients are J(J+1)/4 and J^2/2 [D, verified]. Every such residue increases with v, so no single spin gives a gate.\nMassless J >= 3 particles have no couplings that survive at low energy (Weinberg 1964 [S]; Porrati 2008 [S]). A finite number of light massive J > 2 particles cannot couple causally to gravitons (Afkhami-Jeddi-Kundu-Tajdini 2019 [S]).\nHence, for local Lorentz-invariant exchange of finitely many finite-spin fields, the long-range force between ordinary bodies has a tree-level residue A + B gamma + C gamma^2, times spin-independent kinematic factors, plus post-Minkowskian loop terms whose velocity scale is c. The velocity dependence is O(v^2/c^2) unless tuned.\nThe tuned J=0/J=1 residual turns repulsive above its zero (-468 times the static residual at 2600 km/s when the zero is at 120 km/s). For ordinary bodies it also violates the equivalence principle at eta ~ 1e4.\nExceptions lie outside these assumptions: infinite towers (T4), continuous-spin carriers (T9), non-locality (T5), preferred frames (T6, T7)."
+  },
+  {
+   "claim_id": "c1-weinberg",
+   "verdict": "corrected",
+   "reason": "The critic's sentence 'no macroscopic fields from massless spin >= 3' matches the abstract's own words, which I retrieved [S].\nWhat the theorem proves (precise form per Bekaert-Boulanger-Sundell, RMP 84, 987 (2012), arXiv:1007.0435 [S]): soft emission of a massless spin-s particle, with Lorentz invariance, imposes a conservation law of order s-1 on the external momenta, sum_n g_n p_n^{mu1}...p_n^{mu(s-1)} = 0. For s > 2 there is no generic solution, so 'all coupling constants must be equal to zero'. Massless higher spins 'may exist, but they cannot have couplings that survive in the limit of low energy' and 'cannot mediate long-range interactions'. Trivial (permutation) scattering is exempt.\nAssumptions: flat spacetime; an S-matrix with massless finite-helicity particles; Lorentz invariance; soft emission controlled by cubic couplings; generic kinematics.\nLater results:\n- Weinberg-Witten, PLB 96, 59 (1980) [S]: in theories with a Lorentz-covariant stress tensor, massless j > 1 particles (composite or elementary) are forbidden; with a covariant conserved current, charged j > 1/2 particles are forbidden. This excludes composite or emergent higher-spin carriers, not GR itself.\n- Porrati, PRD 78, 065016 (2008) [S]: massless particles interacting with gravity in Minkowski space can have at most spin two. This strengthens the result.\n- Coleman-Mandula (per BBS [S]): no higher-spin conserved charges, given finitely many species below any mass and generically non-vanishing amplitudes.\n- AKT 2019 [S]: extends the conclusion to finitely many massive J > 2 particles. The exception is an infinite fine-tuned tower, which affects graviton dynamics at its lightest mass.\nOutside the assumptions: AdS (Vasiliev; no S-matrix) and continuous-spin representations. Schuster-Toro-Zhou 2023 [S] conjecture CSPs 'may in fact mediate known long-range forces'.\nCorrections:\n(a) The gap headline 'only J <= 2 can be long-range (Weinberg 1964)', and Q2's 'of degree <= 2 for long range (Weinberg 1964 [S])', extend the theorem to massive fields, which it does not cover.\n(b) The critic's [S] rested on search summaries. The abstract is now [S] from the publisher's page; the full text is still unread.",
+   "independent_check": "WebFetch of journals.aps.org/pr/abstract/10.1103/PhysRev.135.B1049 [S]. Received 13 April 1964, published 24 August 1964, Vol. 135, Iss. 4B. The abstract (paraphrased by the fetch tool, short quotes verbatim): S-matrix proof of charge conservation (charge defined by soft-photon coupling) and of the equality of gravitational and inertial mass. Assumptions: Lorentz invariance, pole structure, massless spin-1 and spin-2. 'Lorentz invariance alone requires the S matrix for emission of a massless particle of arbitrary integer spin' to satisfy a 'mass-shell gauge invariance' condition; the paper will 'explain why there are no macroscopic fields corresponding to particles of spin 3 or higher'.\nar5iv 1007.0435, sec. 2.2-2.4 and 3 [S] (quotes above).\nPrinceton research portal abstract of Weinberg-Witten 1980 [S]: 'composite as well as elementary massless particles with j > 1 are forbidden'.\narXiv:0804.4672 abstract [S].\narXiv:1811.01952 abstract [S]: authors Afkhami-Jeddi, Kundu, Tajdini (not 'Tilley'): 'any finite number of massive elementary particles with spin more than two cannot interact with gravitons, even classically, in a way that preserves causality'.\narXiv:2303.04816, JHEP 04 (2023) 010 [S].",
+   "corrected_statement": "Weinberg, Phys. Rev. 135, B1049 (1964) [S: APS abstract; full text not read]. From Lorentz invariance and the S-matrix pole structure, the soft-emission amplitude of a massless integer-spin particle must satisfy mass-shell gauge invariance. For spin >= 3 this forces every coupling that survives at low energy to vanish, hence 'no macroscopic fields corresponding to particles of spin 3 or higher'. The theorem concerns massless finite-helicity particles in flat space.\nPorrati 2008 [S] strengthens it for particles coupled to gravity (spin <= 2). Weinberg-Witten 1980 [S] excludes massless j > 1 particles in theories with a Lorentz-covariant stress tensor (composite carriers). Afkhami-Jeddi-Kundu-Tajdini 2019 [S] extends the conclusion to finitely many light massive J > 2 particles coupled to gravity, with an infinite fine-tuned tower as the exception. Continuous-spin particles and AdS lie outside the assumptions."
+  },
+  {
+   "claim_id": "c2",
+   "verdict": "corrected",
+   "reason": "Confirmed: the reading (in #13, the dual of velocity is dp/dt, i.e. force; corrections are gamma~ - 1 = (1/2)(F/c~)^2) is #13 sec. 1-2's own, and all numbers reproduce. Four corrections:\n(1) #13 sec. 5 identifies dual rest with free fall: 'rest (dp/dt = 0, i.e., force-free motion - our free fall)'. In that reading two freely falling gravitating bodies are both at dual rest and the correction is exactly zero. The critic's use of the Newtonian F = G m1 m2/r^2 follows #13 sec. 2's merger remark ('operates at F ~ c~'). So #13 is internally inconsistent here, and it is unreviewed. Either reading gives <= 4.3e-44 for Sun-Earth, so the conclusion stands.\n(2) The mixed-block size is X (v/c)(F/c~) = X vF/(c^5/G), a power ratio that vanishes at v = 0. It depends on velocity and force jointly, so 'the corrections depend on force, not velocity' is inaccurate for this term. It also rests on the added assumption x~ = (G/c^3)p; program P5's result (no linear coupling) corresponds to dx~ = 0.\n(3) The neutron-star 'anchor' reproduces #13's own number. It checks arithmetic only and is circular as an anchor by the project's rule.\n(4) Double-pulsar inputs were rounded (a = 8.8e8 m, v = 600 km/s). Kepler gives a = 8.788e8 m and v = 625 km/s, so F/c~ = 4.718e-12 (critic 4.706e-12) and vF/(c^5/G) = 9.84e-15 (critic 9.42e-15). Immaterial.",
+   "independent_check": "v4_force_dual.py, CODATA G and IAU GM values.\n- 'Sun-Earth: F = 3.5415e+22 N, F/c~ = 2.9263e-22 (product form 2.9263e-22), gamma~-1 = 4.2816e-44, v = 29.785 km/s, (v/c)(F/c~) = vF/(c^5/G) = 2.9073e-26'.\n- 'double pulsar: a = 8.78837e+8 m from Kepler'; 'F/c~ = 4.718e-12 ..., gamma~-1 = 1.113e-23, v = 625.04 km/s, ... = 9.8365e-15' (masses and P_b from memory, dagger).\n- '30+30 Msun at r = 2GM_tot/c^2: ... F/c~ = 0.0625 ..., gamma~-1 = 0.0019589'.\n- '1 kg on 1.4 Msun, 12 km NS: F = 1.29e+12 N, gamma~-1 = 5.683e-65'.\n- Siegel H in d = 2 (sympy): 'H^T Omega H - Omega = 0 : True', 'det H = 1', 'O(eps) part, diagonal blocks zero: True True'.\nRead #13 sec. 1, 2, 5. Critic's c2 .out agrees: '2.926e-22', '4.28e-44', '2.91e-26', '4.706e-12', '5.7e-65'.",
+   "corrected_statement": "In #13's kinematics the dual of velocity is dp/dt, and corrections are gamma~ - 1 = (1/2)(F/c~)^2 with c~ = c^4/G.\n- If F is the Newtonian mutual force (as #13 sec. 2 uses it for mergers): Sun-Earth gives F/c~ = 2.93e-22 and gamma~ - 1 = 4.3e-44.\n- If dual rest is free fall (#13 sec. 5): the correction for any freely falling pair is zero.\n- Under the Siegel reading with x~ = (G/c^3)p, SM matter's linear X coupling sits only in the mixed block, with relative size ~ X vF/(c^5/G) = 2.9e-26 X for Sun-Earth. That is a product of velocity and force.\nAll of these are negligible except near comparable-mass black-hole mergers (30+30 Msun at r = 2GM/c^2: F/c~ = 1/16, gamma~ - 1 = 2.0e-3). [D] on #13, which is unreviewed."
+  },
+  {
+   "claim_id": "c6D",
+   "verdict": "corrected",
+   "reason": "The canonical map is exact; my sympy output is identical to the critic's (the '2*m*U' is the common denominator 2m). Four corrections:\n(1) 'An interaction depending only on momenta exerts no force (pdot = 0)' holds in any external potential: Hamilton gives pdot_a = -dPhi/dx_a with no U term. What holds only in free space or a uniform field is the consequence: U cannot change relative momenta, so f(p) cannot be reorganized. In a curved potential (harmonic or quartic), U changes momenta indirectly through the anomalous velocity. The qualifier 'in free space or a homogeneous medium' therefore belongs on that consequence, not on 'exerts no force'. C7 already states its premise ('If f and eps are both uniform in x'). What C7 gets wrong is its sentence that physical matter lacks the exchanged Hamiltonian, which the harmonic map contradicts.\n(2) '#13 sec. 5's x^2/2m~' is a misattribution. #13 contains no such Hamiltonian (/usr/bin/grep finds none). The exchanged form x^2/2m' + U(p-p') appears in clumping C7, and as [T] on the wiki pages born-reciprocity and borns-question.\n(3) The exact map needs a fixed, exactly harmonic potential and equal m and Omega. It holds for orbits confined to a uniform-density core. Self-gravity of a clumping component, and orbits that leave the core, break it.\n(4) The energy-ratio point is exact, not only a scaling argument: the map preserves H, so every energy ratio is invariant. The record's interaction (contact in x, gated in p) maps to one that is contact in P and gated in X, still local in both.",
+   "independent_check": "v5_harmonic_map.py.\n- sympy: '{X1,P1} = 1  {X2,P2} = 1  {X1,X2} = 0  {P1,P2} = 0  {X1,P2} = 0'; 'H in (X,P): (Omega**2*X1**2*m**2 + Omega**2*X2**2*m**2 + P1**2 + P2**2 + 2*m*U(Omega*m*(X1 - X2)))/(2*m)'; 'general Phi: pdot1 = -dH/dx1 = -Derivative(Phi(x1), x1)'.\n- Numerics, U = -0.3 exp(-(p1-p2)^2/2), RK4, t <= 20. Free space: '|(p1-p2)_withU - (p1-p2)_noU| = 0.000e+00'. Uniform field: '0.000e+00'. Harmonic: '2.564e+00'. Quartic: '1.629e+00'. Mapped vs original harmonic trajectories: '0.00e+00'.\n- Critic's c6 (D) prints the same brackets and Hamiltonian.\n- /usr/bin/grep of papers/conjugate-special-relativity.md for x^2/2m forms or m~: no match.\n- Read C7 and C20 in round3-inputs/clumping-analysis.json.",
+   "corrected_statement": "For identical particles in a fixed, exactly harmonic potential, X = p/(m Omega), P = -m Omega x is canonical. It maps sum[p^2/2m + m Omega^2 x^2/2] + U(p_a - p_b) to sum[P^2/2m + m Omega^2 X^2/2] + U(m Omega (X_a - X_b)) [D, sympy].\nA momentum-only interaction never contributes to pdot, in any potential. It leaves relative momenta unchanged only in free space or a uniform field. In a harmonic core, the founding image's x <-> v exchange is realized exactly for orbits that stay inside the core.\nThe map preserves H, so the contact gate's interaction-to-thermal shortfall (round-2 C6: 3.3e-28 dwarf, 8.7e-31 MW) is unchanged."
+  }
+ ],
+ "new_claims": [
+  {
+   "id": "T1",
+   "statement": "Non-minimal or derivative couplings of spinless point sources cannot gate a long-range force.\n- At a light pole the residue is built from contractions of the carrier's J indices with u1 and u2.\n- Extra derivatives bring factors (u_i.q), which vanish in the classical limit (q.u_i = O(q^2/m)), or powers of q^2, which cancel the pole and leave contact or shorter-range terms.\n- Couplings to a body's own momentum add only powers of p_i.p_j = m_i m_j gamma, so the residue stays a polynomial of bounded degree.\n- On shell, a three-point vertex chi(p1) -> chi(p3) + carrier depends only on t = (p1 - p3)^2, whatever its form, local or not. So no vertex can depend on the other body's momentum.",
+   "tag": "[D]",
+   "basis": "Lorentz covariance of a three-point vertex with on-shell external legs: the only invariants are p1^2 = p3^2 = m^2 and t. The pole residue factorizes into two such vertices joined by the spin-J polarization sum (textbook S-matrix factorization, [T] dagger).",
+   "confidence": "high",
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md sec. 8 ('the variable no x-local mediator produces')"
+   ]
+  },
+  {
+   "id": "T2",
+   "statement": "Form factors of composite sources cannot gate a long-range force.\n- At a spin-J pole the residue is the product of two on-shell three-point couplings, evaluated at t = M_J^2, times the spin-J polynomial of c1.\n- Form factors are functions of t only: constant at the pole, and equal to the total charges as t -> 0.\n- Internal motion would close any gate acting on constituent pairs at v* = 120 km/s, whatever the bodies' bulk relative velocity: electrons move at alpha c = 2187.7 km/s (18.2 v*); nucleons at v_F = 0.257-0.276 c for p_F = 250-270 MeV/c (dagger).\n- So a gate on whole ordinary bodies would have to be a non-local body-level structure. At gravitational strength that is excluded by the ordinary-tests bounds (O11-O13 as corrected in round 2).",
+   "tag": "[D] with executed numbers; [T] factorization (dagger)",
+   "basis": "Pole factorization. Executed constituent speeds.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "alpha c",
+     "value": "2187.7 km/s",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "T2: alpha c = 2187.7 km/s"
+    },
+    {
+     "quantity": "nucleon Fermi speed for p_F = 250 / 270 MeV/c",
+     "value": "0.257 c / 0.276 c",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "nucleon Fermi momentum 250 MeV/c -> v_F = 0.257 c = 7.714e+04 km/s; 270 MeV/c -> v_F = 0.276 c = 8.285e+04 km/s"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md sec. 8"
+   ]
+  },
+  {
+   "id": "T3",
+   "statement": "Loop corrections cannot produce a gate at v* << c.\n- Loops add branch cuts. For gravity, the classical post-Minkowskian terms carry non-polynomial functions of gamma (arcsinh-type terms at third order; Bern et al. 2019, dagger), suppressed by powers of Gm/(rc^2) and with c as the only velocity scale.\n- Quantum loop terms are further suppressed by hbar/(m c r).\n- The only other velocity scale is sqrt(Gm/r), the Newtonian nonlinearity. It is set by the system, not a fixed v*.\n- Ladder (Sommerfeld) resummation brings in alpha c. For gravity between chi quanta (70 MeV), alpha_G = 3.29e-41 and alpha_G c = 9.9e-33 m/s.\n- So c1's 'A + B gamma + C gamma^2' is a tree-level statement. Beyond tree level other functions of gamma appear, all with velocity scale c.",
+   "tag": "[D]; [T] dagger for the post-Minkowskian literature",
+   "basis": "Structure of the post-Minkowskian expansion (memory, dagger). Executed alpha_G.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "alpha_G for 70 MeV chi; alpha_G c",
+     "value": "3.287e-41; 9.855e-33 m/s",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "T3: alpha_G(chi, 70 MeV) = 3.287e-41;  alpha_G c = 9.855e-33 m/s"
+    }
+   ]
+  },
+  {
+   "id": "T4",
+   "statement": "An infinite tower of spins can build a gate only if the gate is an entire function of gamma, and then only through exponentially large cancelling terms.\n- Each spin's residue grows with gamma, so a decreasing gate needs alternating signs.\n- For G = exp(-x(gamma-1)), the exact tower is G = e^x sum_J (2J+1)(-1)^J i_J(x) P_J(gamma). With x = c^2/v*^2 it reproduces the amplitude gate exp(-v^2/2v*^2). Even spins attract and odd spins repel, as like-source exchange does, so no ghosts are needed.\n- The largest single-spin term is 5.7e3, 3.2e16 and 2.1e68 times the net for x = 5, 20, 80. Asymptotically it is (2J+1)e^{2x}/(2x) e^{-J(J+1)/2x}: about 10^5421169 times the net gated force at v* = 120 km/s (x = 6.24e6, peak near J = 2498).\n- Gates with a singularity on [-1, 1] in gamma have no tower representation convergent at gamma > 1: Lorentzian in (gamma-1) (pole at 1 - 1.6e-7), Lorentzian in v^2 (poles at +-0.99999992), Gaussian in v^2 (essential singularity at gamma = 0).\n- Massless members are excluded: a second massless spin 2 by the multi-graviton no-go the record itself uses; J >= 3 by Weinberg 1964 and Porrati 2008 [S].\n- A light massive tower 'necessarily affect[s] the dynamics of gravitons at an energy scale comparable to the mass' of its lightest member (AKT 2019 [S]): 6.4e-27 eV for a kpc range, 1.3e-18 eV for an au range. On my reading, gravity would be non-Einsteinian at all shorter distances.\n- String (Regge) towers smear the exchange only over about the string length times sqrt(log s) (dagger), leaving the long-range force ungated.",
+   "tag": "[D] executed (v2, v7); [S] Weinberg, Porrati, AKT; dagger for Regge",
+   "basis": "Generating function e^{zt} = sum (2J+1) i_J(z) P_J(t), verified numerically. Lehmann-ellipse convergence of Legendre series. Literature abstracts retrieved this session.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "tower sum vs exp(-x(gamma-1))",
+     "value": "agree to 12 digits at x = 5, 20, 80 and gamma = 1, 1.05, 1.5, 3",
+     "script": "v2_tower_gate.py",
+     "printed_output": "x=80.0, gamma=    3: tower sum = 3.25748853221e-70, exp(-x(gamma-1)) = 3.25748853221e-70"
+    },
+    {
+     "quantity": "largest single-spin term / net, x = 5, 20, 80",
+     "value": "5726.02; 3.17787e+16; 2.07475e+68",
+     "script": "v2_tower_gate.py",
+     "printed_output": "largest single-spin term |a_J| at J=8: 2.07475e+68  (net G(1) = 1)"
+    },
+    {
+     "quantity": "asymptotic formula check",
+     "value": "log10 exact 866.87177 vs asym 866.87186 at x = 1000",
+     "script": "v2_tower_gate.py",
+     "printed_output": "x=1000, J=31: log10 exact = 866.87177, log10 asym = 866.87186"
+    },
+    {
+     "quantity": "largest term at v* = 120 km/s",
+     "value": "~10^5421169 times the net; peak J ~ 2498",
+     "script": "v2_tower_gate.py",
+     "printed_output": "v* = 120 km/s: x = c^2/v*^2 = 6.24136e+6; largest term at spin J ~ sqrt(x) = 2498.3; largest single-spin term ~ 10^5421169.0 times the net gated force"
+    },
+    {
+     "quantity": "carrier mass for kpc / au range",
+     "value": "6.395e-27 eV / 1.319e-18 eV",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "T4: range 1 kpc: carrier mass hbar c / L = 6.395e-27 eV; T4: range 1 au: carrier mass hbar c / L = 1.319e-18 eV"
+    }
+   ],
+   "sources": [
+    "arXiv:1811.01952 [S]",
+    "arXiv:0804.4672 [S]",
+    "Phys. Rev. 135, B1049 [S abstract]",
+    "papers/broken-born-checkpoint-v2.md sec. 7.1"
+   ]
+  },
+  {
+   "id": "T5",
+   "statement": "Non-local theories do not supply a long-range gate by themselves.\n- Non-local form factors in the transfer (e.g. infinite-derivative gravity's e^{-q^2/M^2}, dagger) smooth the potential at r <~ 1/M and carry no velocity dependence.\n- A k-dependent (equivalently s-dependent) residue at a light pole needs either infinitely many fields (T4, T9) or a non-local carrier that resolves the momentum fiber.\n- The record's own gate is non-local in the relative coordinate only over hbar/mu = 1.0e-11 m (gate-range), and that non-locality does not give range.\n- Cost: an explicit Lorentz-invariant, causal, non-local theory with a light carrier and a fiber-resolving vertex. The record contains none.",
+   "tag": "[D]; [T] dagger",
+   "basis": "Factorization (T1, T2). Gate-range computation of the sandwich operator's non-locality.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "hbar/mu (record mu)",
+     "value": "9.960e-12 m",
+     "script": "v3_gate_range.py",
+     "printed_output": "mu c = 19.813 keV;  hbar/mu = 9.960e-12 m"
+    }
+   ]
+  },
+  {
+   "id": "T6",
+   "statement": "A medium gives dependence on velocity relative to the medium, not on pairwise relative velocity.\n- Field of a source moving at V through a scalar mediator with propagation speed c_s: a Heaviside ellipsoid 1/(4 pi sqrt(xi^2 + (1-V^2/c_s^2) rho^2)) for V < c_s; a Mach cone 1/(2 pi sqrt(xi^2 - (V^2/c_s^2-1) rho^2)) behind the source for V > c_s. Both verified by sympy.\n- Two co-moving bodies (zero relative velocity), side by side: force = 1/sqrt(1-V^2/c_s^2) times static, i.e. 1.155, 2.294 and 7.089 at V/c_s = 0.5, 0.9, 0.99. In line: unchanged below c_s.\n- Above c_s the side-by-side and leading-body forces vanish, the trailing body feels twice the static force, and action and reaction are unequal (momentum goes into the medium).\n- So a medium-mediated 'gate' is a preferred-frame effect (critic's 'P15'). For ordinary matter it falls under preferred-frame tests (PPN alpha1, alpha2, dagger). The record's gate depends only on relative momentum, which this mechanism cannot reproduce.",
+   "tag": "[D] executed (sympy)",
+   "basis": "Wave equation with speed c_s and a uniformly moving source. The force on body 2 is -g grad phi, with a velocity-independent coupling in the medium frame.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "PDE residuals (subsonic, supersonic)",
+     "value": "0, 0",
+     "script": "v6_medium_mediator.py",
+     "printed_output": "subsonic Heaviside ellipsoid: (1/c_s^2) phi_tt - lap phi away from source = 0; supersonic Mach-cone field: PDE residual inside the cone = 0"
+    },
+    {
+     "quantity": "side-by-side force ratio at V/c_s = 1/2, 9/10, 99/100, 2",
+     "value": "2*sqrt(3)/3; 10*sqrt(19)/19; 100*sqrt(199)/199; 0",
+     "script": "v6_medium_mediator.py",
+     "printed_output": "V/c_s = 1/2   : side-by-side |F| = 2*sqrt(3)/3 ; ... V/c_s = 2     : side-by-side |F| = 0 (outside the cone, xi = 0 > -s d) ; trailing body |F| = 2 ; leading body |F| = 0"
+    }
+   ]
+  },
+  {
+   "id": "T7",
+   "statement": "A mediator whose own propagation speed is c_s ~ v*, with no material medium, defines its own rest frame. That is Lorentz violation in the mediator sector.\n- The T6 fields apply with that frame as reference: the interaction depends on each body's velocity relative to the mediator's frame.\n- Retardation corrections of order (v/c_s)^2 become O(1) at v ~ c_s, but they do not select relative velocity.\n- It cannot reproduce the record's gate, which depends only on the relative momentum k and is unchanged by a common boost (#11 sec. 8; program p3 shows the boost-invariant argument).\n- Cost: a preferred frame, which would have to be specified for halos, and for any coupling to ordinary matter, preferred-frame tests (dagger).",
+   "tag": "[D]",
+   "basis": "T6 computation with the medium replaced by the mediator's rest frame.",
+   "confidence": "medium",
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md sec. 8"
+   ]
+  },
+  {
+   "id": "T8",
+   "statement": "tau and the record's other moduli cannot gate a force.\n- tau is the dark-energy field: hilltop quintessence on the Maslov circle, V = V0[1 + cos(tau/f)] (#11 sec. 10), a compact scalar, 'un-eaten' (#11 sec. 7.5).\n- As a spin-0 carrier its residue has degree 0 in gamma. Velocity dependence comes only from kinematic factors, O(v^2/c^2). If shift-symmetric with derivative couplings, it gives only spin-dependent forces at tree level.\n- A thawing field's mass scale is of order hbar H0 or below (dagger): 1.4-1.6e-33 eV, range c/H0 = 4.1-4.5 Gpc.\n- The record gives tau no matter coupling (searched #11, #6, #8 and the notebook). The only tau-matter relation is the open kinematic question of the diameter note sec. 8.5, whether matter's polarization follows tau.\n- The record also lists nine further Lambda(d) sigma-modes, 'of which inverse-Higgs constraints likely eliminate most' [O] (notes/debt1a-geometric-core.md), also spin 0. The critic named only tau. Any force from these fields is ungated. If coupled to SM matter at gravitational strength, fifth-force and equivalence-principle bounds apply (dagger).",
+   "tag": "[D]; record reading; [T] dagger",
+   "basis": "Spin-0 residue (c1, J = 0). /usr/bin/grep of the record for tau with coupling, matter or force. Executed hbar H0.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "hbar H0 (67.4 / 73 km/s/Mpc)",
+     "value": "1.438e-33 / 1.557e-33 eV",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "T8: H0 = 67.4 km/s/Mpc -> hbar H0 = 1.438e-33 eV, c/H0 = 4.45 Gpc"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md sec. 7.5, sec. 10",
+    "notes/debt1a-geometric-core.md (field content; open item 4)",
+    "papers/phase-space-diameter.md sec. 8.5"
+   ]
+  },
+  {
+   "id": "T9",
+   "statement": "Continuous-spin carriers are a known loophole that the critic missed.\n- Source: Schuster, Toro and Zhou, JHEP 04 (2023) 010, arXiv:2303.04816 [S]. A continuous-spin particle (CSP) is massless, with infinitely many helicities. That puts it outside Weinberg's theorem and outside c1's finite-spin polynomial.\n- For the scalar spatial current, their eq. (129) gives, to leading order, L_int ~ (g^2/4 pi r)[1 - (rho^2 r^2/32)(|v_ij| - v_ij.rhat)^2 + ...]. The correction depends only on relative velocity, vanishes for co-moving pairs and for motion along the separation, and is 'important at long distances, rho v r ~ 1'.\n- Static potentials are standard for homogeneous currents but deviate at rho r ~ 1 for inhomogeneous ones.\n- This is the one framework found in which a long-range force acquires a relative-velocity-dependent perturbation at v << c, the shape of Paul's question. But its threshold is distance-dependent, v ~ c (hbar c/rho r), not a fixed v*. A 120 km/s threshold at 1 kpc needs rho = 1.6e-23 eV (then hbar c/rho = 0.40 pc); at 10 kpc, 1.6e-24 eV. For the Earth's orbit (29.78 km/s at 1 au) the correction is O(1) at rho = 1.3e-14 eV.\n- The paper gives no velocity-dependent result for vector-like currents. It says a graviton-CSP needs a non-Abelian theory with tensor correspondence that is not yet developed. Its rough photon bounds are rho_gamma <~ 1e-6 eV, and ~1e-9 eV from stellar cooling.\n- The record contains no CSP.",
+   "tag": "[T][S] (Schuster-Toro-Zhou 2023); [D] executed numbers",
+   "basis": "ar5iv text of 2303.04816 retrieved this session (sec. V.1, eqs. 116, 119, 129; bounds section). Executed rho values.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "rho for a 120 km/s threshold at 1 kpc / 10 kpc",
+     "value": "1.598e-23 eV / 1.598e-24 eV",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "T9: v_rel = 120.0 km/s at r = 1 kpc: rho v r/(hbar c) = 1 for rho = 1.598e-23 eV; hbar c/rho = 1.235e+16 m = 4.003e-01 pc"
+    },
+    {
+     "quantity": "rho for O(1) correction on the Earth's orbit",
+     "value": "1.328e-14 eV",
+     "script": "v7_misc_numbers.py",
+     "printed_output": "T9: v_rel = 29.78 km/s at r = 1 au (Earth orbit): rho v r/(hbar c) = 1 for rho = 1.328e-14 eV"
+    }
+   ],
+   "sources": [
+    "arXiv:2303.04816 [S], JHEP 04 (2023) 010"
+   ]
+  },
+  {
+   "id": "gate-range",
+   "statement": "(1) Formally, the fiber-overlap gate is not tied to contact range.\n- The Hermitian form of #11 sec. 8's factorized amplitude is A = F^{1/2}(k) V(r) F^{1/2}(k). For a Gaussian gate its Weyl symbol is exactly F(k) times V smoothed over hbar/mu; in 3D with Coulomb V, F(k) erf(r mu/hbar)/r.\n- For Gaussian or Lorentzian gates with long-range V, the exact quantum expectation for wavepackets equals the classical gated value <F(p)V(x)>: within 3.4e-3 at 3-10 hbar/mu, 7e-4 at 30, and <= 5e-5 beyond 100.\n- The gate's suppression is unchanged out to 1000 hbar/mu (0.019 at p0 = 2 mu, Gaussian; 0.20, Lorentzian).\n- With a light transfer carrier the gate would survive at all r >> hbar/mu = 1.0e-11 m (record values). This is far below the mean chi spacing, 4e-3 m.\n(2) Physically, the record decides against a long-range version.\n- The gate is 'delivered by X-exchange' (#11 sec. 8), and X is massive by the forcing chain (#11 sec. 7.1, multi-graviton no-go).\n- X's range is bounded: lambda_X < 37.7 um at u = 1, unscreened (diameter note sec. 8.2). The contact form at the knee needs M_X c^2 >> 28 keV (round-2 P6).\n- #11 sec. 8's m_phi is a free scale with no field behind it. The record's light fields are the massless graviton, which couples to ordinary stress (gating it is excluded, critic c3), and spin-0 moduli (T8) whose residues do not depend on gamma.\n(3) A light carrier cannot deliver the gate in a local Lorentz-invariant theory with finitely many fields.\n- Its pole residue would be F(k^2/mu^2), which is non-polynomial in s (c1, T1).\n- 'Exchange only over the fiber overlap' needs a carrier that resolves the fiber: X(x, p~), local in p~ (#11 sec. 14 item 4, 'X propagator on momentum fibers'). From the spacetime viewpoint that is an infinite spin tower. For the record's Gaussian gate its terms reach ~10^5421169 times the net (T4).\n- Its massless members are excluded by the multi-graviton no-go (the record's own argument, J = 2) and by Weinberg/Porrati (J >= 3).\n(4) What the program would have to add for a long-range version:\n- a light fiber-resolving carrier that evades those theorems (the only known shape is continuous spin, T9, whose threshold scales as 1/r, not a fixed v*);\n- a coupling, which would be free: a long-range force strong enough to make cores needs ~3.6e31 G m_chi^2 (round-2 P19), excluded by more than 30 orders against eps <~ 0.03-1.5 at v* = 120 km/s. So the coupling would be decorative;\n- the vertex and overlap computation, which no source contains.",
+   "tag": "[D] executed (v3, v2); record reading; [S] for the no-go citations",
+   "basis": "Weyl symbol of f(p) e^{iqx} g(p), derived in the script docstring, with a sympy identity for the Gaussian. Exact FFT-grid expectation values (N = 24000, dx = 0.25, box 6000). 3D quadrature. Record texts: #11 sec. 7.1, 7.5, 8, 14 item 4; #6 sec. 4; diameter note sec. 8.2.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "Gaussian sandwich identity",
+     "value": "ratio of squares = 1 (1D and 3D)",
+     "script": "v3_gate_range.py",
+     "printed_output": "[sqrt(F(p+a) F(p-a))]^2 / [F(p) exp(-a^2/mu^2)]^2 = 1 (both sides positive); 3D version, ratio of squares: 1"
+    },
+    {
+     "quantity": "quantum / classical-gated, Gaussian gate, V = 1/sqrt(x^2+1), x0 = 3, 100, 1000 hbar/mu",
+     "value": "0.996653; 1.000051; 1.000001",
+     "script": "v3_gate_range.py",
+     "printed_output": "x0 =      3: quantum/classical-gated at p0=0,1,2: 0.996653 ... x0 =    100: ... 1.000051 ... x0 =   1000: ... 1.000001"
+    },
+    {
+     "quantity": "gate suppression at x0 = 1000 hbar/mu, p0 = 1, 2 mu (Gaussian; Lorentzian)",
+     "value": "0.37039, 0.01921; 0.50172, 0.20061",
+     "script": "v3_gate_range.py",
+     "printed_output": "x0 =   1000: ... | quantum/ungated <V>: 0.99313, 0.37039, 0.01921 ; Lorentzian: 0.99320, 0.50172, 0.20061"
+    },
+    {
+     "quantity": "3D Gaussian-gated Coulomb at r = 3 hbar/mu",
+     "value": "r V_s = 0.9999779095 = erf(3)",
+     "script": "v3_gate_range.py",
+     "printed_output": "r =  3.0: smoothed*r = 0.9999779095,  erf(r) = 0.9999779095"
+    },
+    {
+     "quantity": "mu, hbar/mu, x = c^2/v*^2",
+     "value": "19.813 keV; 9.960e-12 m; 6.2414e+06",
+     "script": "v3_gate_range.py",
+     "printed_output": "mu c = 19.813 keV;  hbar/mu = 9.960e-12 m; x = c^2/v*^2 = 6.2414e+06"
+    },
+    {
+     "quantity": "mean chi spacing (dwarf core 1 GeV/cm^3; MW 0.4)",
+     "value": "4.121e-03 m; 5.593e-03 m",
+     "script": "v3_gate_range.py",
+     "printed_output": "dwarf core ... mean spacing n^(-1/3) = 4.121e-03 m; MW local ... 5.593e-03 m"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md sec. 7.1, 7.5, 8, 14 item 4",
+    "notes/debt1a-ii-X-classification.md sec. 4",
+    "wiki/dark-matter/conjugate-matter/gate-mechanism.md",
+    "papers/phase-space-diameter.md sec. 8.2"
+   ]
+  }
+ ],
+ "missed_issues": [
+  "Continuous-spin carriers (T9) are a known exception to the critic's 'no carrier can supply a gated perturbation of gravity between ordinary bodies' and to 'O(v^2/c^2) unless fine-tuned'. Schuster-Toro-Zhou, JHEP 04 (2023) 010 [S], give a relative-velocity correction proportional to (rho r)^2 (|v_ij| - v_ij.rhat)^2 that vanishes for co-moving pairs. Its threshold scales as 1/r (rho = 1.6e-23 eV for 120 km/s at 1 kpc); no gravitational (tensor) CSP theory exists; the record has none. This should accompany any 'no carrier' statement given to Paul.",
+  "The record's mechanism cannot be realized by the single massive spin-2 field X_mu-nu(x) of #11 sec. 7 with ordinary spacetime fields, whatever the vertices. On shell, each chi-chi-X vertex depends only on t, so the X-exchange amplitude at fixed t is a degree-2 polynomial in s, with velocity scale c. A k-gate at v* << c needs a fiber-resolving, infinite-component carrier (and chi as a phase-space field), or four-point structure that does not factorize. #11 sec. 8's tag [D - mechanism] therefore rests on the unconstructed 'X propagator on momentum fibers' (#11 sec. 14 item 4), which is in tension with sec. 7's X as a spin-2 field on spacetime.",
+  "#6 sec. 4's 'tree-level exchange with generic vertices yields rational (power-law-tailed) gates' conflates two things. A rational knee in sigma_T(v) comes from the transfer propagator, as any light mediator gives (Rutherford-like), and leaves the forward (q -> 0) mean-field amplitude ungated. Debt 3a's collective model needs k-dependence at q -> 0, which no finite-spin exchange provides. A completion with only a sigma_T knee would make velocity clumping even less possible, so this strengthens the obituary.",
+  "The critic's 'a gate at v* ~ 100 km/s needs contact-range structure' holds only under explicit assumptions: local Lorentz invariance and finitely many light finite-spin fields. The non-relativistic sandwich model shows the fiber width by itself does not confine the gate (gate-range). What forbids a long-range gate is relativistic factorization plus the higher-spin no-go theorems, and the record's own multi-graviton argument for J = 2.",
+  "#13 is internally inconsistent on gravitating pairs (candidate wiki-build flag). Sec. 2 says a black-hole merger 'operates at F ~ c~', using the gravitational force; sec. 5 identifies dual rest (dp/dt = 0) with free fall, under which freely falling pairs have zero dual-kinematic correction. The critic's c2 numbers follow sec. 2 only.",
+  "The critic's c2 'anchor' (1 kg on a neutron star, gamma~ - 1 = 5.7e-65) reproduces #13's own number. It is an arithmetic check and circular as an anchor under the project's rule.",
+  "Misattribution in the critic's c6D text: '#13 sec. 5's x^2/2m~' does not exist (/usr/bin/grep finds no such Hamiltonian in #13). The exchanged Hamiltonian is in clumping C7, and as [T] on the wiki pages born-reciprocity and borns-question.",
+  "The tuned J=0 attraction + J=1 repulsion route fails a second way for ordinary bodies. Each component is 1.248e7 times the residual, so with the vector on baryon number the Eotvos parameter is ~3e4 (Be/Ti) and ~1e4 (Ti/Pt). A massless vector cannot couple to mass, because its charge must be conserved (Weinberg 1964 [S]).",
+  "Citation provenance and author name. The critic's Weinberg [S] rested on search summaries; the APS abstract has now been retrieved [S], though the full text is still unread. The theorem's qualifiers (massless, flat space, couplings surviving at low energy) should travel with the citation. For massive higher spins the relevant result is Afkhami-Jeddi, Kundu and Tajdini, JHEP04(2019)056 [S]; the third author is Tajdini.",
+  "The record lists nine further Lambda(d) sigma-modes besides tau (notes/debt1a-geometric-core.md: 'tau plus nine', inverse-Higgs elimination open). The critic named only tau. All are spin 0, so the conclusion is unchanged.",
+  "The critic's c1 established the Lorentzian continuation by citation ([T, dagger]). It is now verified explicitly: Lorentzian traceless projections in n = 2, 3, the 4D complex-kinematics pole contractions, and the helicity sum (v1)."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v1_spinJ_residues.py (output v1_spinJ_residues.out): Lorentzian traceless projections vs P_J and T_J; Fierz-Pauli and de Donder J=2 anchors with complex on-shell q; massless helicity sum; (v/c)^2 coefficients; spins needed at 120 km/s with exact polynomial values; tuned J=0/J=1 residual",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v2_tower_gate.py (output v2_tower_gate.out): Legendre spin-tower representation of exp(-x(gamma-1)) at 260 digits; size of the cancelling terms and its asymptotic scaling up to x = c^2/v*^2; singularities of non-entire gates",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v3_gate_range.py (output v3_gate_range.out): Gaussian sandwich symbol identity; exact quantum expectation of F^{1/2} V F^{1/2} for wavepackets vs the classical gated value, Gaussian and Lorentzian gates, separations 3-1000 hbar/mu; 3D erf check; record numbers mu, hbar/mu, x, spacings",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v4_force_dual.py (output v4_force_dual.out): F/c~ and gamma~ - 1 for Sun-Earth, double pulsar from Kepler, 30+30 Msun, neutron star; Siegel generalized metric block structure; mixed-block power ratio",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v5_harmonic_map.py (output v5_harmonic_map.out): canonical map and transformed Hamiltonian (sympy); pdot for general Phi; relative-momentum effect of a momentum-only interaction in free space, uniform field, harmonic and quartic traps",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v6_medium_mediator.py (output v6_medium_mediator.out): Heaviside-ellipsoid and Mach-cone fields of a source moving through a slow mediator (sympy PDE checks); forces between co-moving bodies vs V/c_s",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-critic-theory/v7_misc_numbers.py (output v7_misc_numbers.out): constituent speeds; alpha_G c for chi; hbar H0; Eotvos parameter of the tuned pair; carrier masses for kpc/au range; continuous-spin scales rho"
+ ],
+ "overall": "All four critic claims hold in substance, and each needs a scope, wording or citation correction. The critic missed one real loophole: continuous-spin carriers (T9).\n\nc1 (corrected). My own derivation reproduces P_J (massive) and T_J (massless), the coefficients J(J+1)/4 and J^2/2, the spins J = 4996 and 3533, and the tuned-pair numbers (1.2483e7; -468.47 at 2600 km/s). It used explicit Lorentzian traceless projections, the Fierz-Pauli and de Donder anchors, and a helicity sum. Corrections:\n- the polynomial is the tree-level residue; loops add terms whose only velocity scale is c;\n- Weinberg covers massless spins only; light massive J > 2 needs AKT 2019 [S], which allows an infinite tower;\n- J ~ c/v* buys an O(1) increase, never a gate;\n- the tuned pair also violates the equivalence principle (eta ~ 1e4).\n\nc1-weinberg (corrected). The APS abstract, retrieved [S], says 'no macroscopic fields corresponding to particles of spin 3 or higher'. The precise content (a conservation law of order s-1; couplings that survive at low energy must vanish for s > 2; flat space) comes from the Bekaert-Boulanger-Sundell review [S]. Porrati 2008 and Weinberg-Witten 1980 strengthen it [S]; AKT extends it to massive fields; AdS and continuous spin lie outside it.\n\nc2 (corrected). The numbers reproduce (Sun-Earth 2.93e-22; gamma~ - 1 = 4.3e-44; mixed block 2.9e-26). But #13 sec. 5 makes free fall dual rest, which gives zero for gravitating pairs and contradicts #13 sec. 2. The mixed-block term is a power ratio vF/(c^5/G), so it depends on velocity too. The neutron-star anchor is circular.\n\nc6D (corrected). The canonical map is exact. 'Exerts no force' holds in any potential; only 'cannot change relative momenta' is limited to free space or a uniform field (harmonic: 2.56, quartic: 1.63 change). '#13 sec. 5's x^2/2m~' is a misattribution.\n\nLoopholes T1-T8. Derivative couplings, form factors, loops, non-locality and tau with the other moduli give no gate. A spin tower can build only gates that are entire in gamma, with terms ~10^5421169 times the net at v* = 120 km/s; rational gates are impossible. A medium or slow mediator gives preferred-frame dependence: between co-moving bodies the side-by-side force is 1/sqrt(1-V^2/c_s^2) times static, and zero above c_s.\n\nT9, missed. Continuous-spin exchange gives a relative-velocity correction that vanishes for co-moving pairs: Paul's shape. But its threshold scales as 1/r (rho = 1.6e-23 eV for 120 km/s at 1 kpc), no gravitational version exists, and the record has none.\n\nGate-range. In the non-relativistic operator the fiber-overlap gate is not confined to contact range. The Gaussian symbol is exactly F(k) times V smoothed over hbar/mu = 1.0e-11 m; quantum equals classical-gated to 1e-5 out to 1000 hbar/mu. What makes the record's gate contact-range is X's mass. A light version cannot exist with finitely many local fields: it needs a fiber-resolving infinite tower, excluded by the record's own multi-graviton argument plus Weinberg and Porrati, and its coupling would be decorative.\n\nA related missed issue: a single spin-2 X_mu-nu(x) with any on-shell vertices gives amplitudes polynomial in s, so #11 sec. 8's mechanism needs an unconstructed fiber-resolving X (#11 sec. 14 item 4). #6's 'rational gates' would knee sigma_T without gating the mean field, which strengthens the obituary.\n\nNet for Claude: the obituary's scope (the contact gate) stands. Paul's long-range relative-velocity perturbation of gravity has no carrier within local finite-spin QFT. The only known theoretical shape that gives it (continuous spin) has a distance-dependent threshold and no gravitational theory. The repository was not modified."
+}

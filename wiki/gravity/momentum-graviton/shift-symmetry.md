@@ -24,6 +24,8 @@ sources:
   - "notes/broken-born-program-v1.md §5"
   - "HANDOFF.md §2"
   - "verify/battery.py T2"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §2"
 ---
 
 *The shift symmetry is the statement that adding a constant symmetric matrix B to the [momentum graviton X](/wiki/gravity/momentum-graviton) leaves every geometric action of the program unchanged. X is the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, and the shift Z → Z + B is one of the maps of the group Sp(2d, ℝ) that preserves the rigid [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω. Any geometric action built from ω and the phase-space metric H therefore takes the same value before and after the shift. Such an action cannot give X a potential energy, a mass, or any coupling without derivatives: X is [axion-like](/wiki/cosmology/dark-energy/axion-like-fields#x-axion-like-in-the-exact-sense), a field that enters only through how it varies from place to place. That rules out one of the three outcomes the program had defined for X, an auxiliary field with no motion of its own: X either propagates or does not exist. The [calc note](/wiki/history/documents/debt-1-notes) that found the result rates it rigorous; it is the first step of the argument that X must be a massive spin-2 field, and no script checks it.*
@@ -99,7 +101,7 @@ An auxiliary X would enter the action at quadratic order through terms with no d
 
 ### What replaced the auxiliary route to the gate
 
-Outcome 2 would have delivered the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), the dependence of dark matter's self-interaction on relative momentum, directly as a contact operator, and #5 counted it the cheapest route to the gate's shape: "outcome 2 gives it most cheaply" (§E). With the outcome excluded, the contact operator comes instead from exchange of a massive, propagating X: "Integrating out massive X between χ bilinears gives the contact four-χ operator" (#6 §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). Exchange of a heavy propagating field looks like a contact interaction at distances longer than its range, that is, at momentum transfers small compared with its mass [T]; an auxiliary X would have given the contact interaction exactly.
+Outcome 2 would have delivered the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), the dependence of dark matter's self-interaction on relative momentum, directly as a contact operator, and #5 counted it the cheapest route to the gate's shape: "outcome 2 gives it most cheaply" (§E). With the outcome excluded, the contact operator comes instead from exchange of a massive, propagating X: "Integrating out massive X between χ bilinears gives the contact four-χ operator" (#6 §4; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). That this contact operator carries the gate is disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging the massive X depends on the incoming relative momentum only through a polynomial with the speed of light as its velocity scale, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and [O] for the mechanism, pending Paul's ruling ([exchanging X cannot produce the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). Exchange of a heavy propagating field looks like a contact interaction at distances longer than its range, that is, at momentum transfers small compared with its mass [T]; an auxiliary X would have given the contact interaction exactly.
 
 ## What it implies for the mass
 
@@ -134,3 +136,4 @@ The constant shift is a global symmetry: the same B everywhere. Calc note #6 §2
 - `notes/broken-born-program-v1.md` §5 — the v1 statement, tagged [D].
 - `HANDOFF.md` §2 — the handoff's summary of the chain.
 - `verify/battery.py` T2 — the Siegel parametrization at one sampled point.
+- `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — the contact operator from massive X carries no gate; awaiting Paul's ruling.

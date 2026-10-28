@@ -18,7 +18,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 6"
   - "notes/broken-born-theory.md §1"
   - "popsci/universes-other-half.md 'A second speed of light'"
-  - "review/wiki-build-flags.md item 29"
+  - "review/wiki-build-flags.md items 29, 56"
+  - "notes/velocity-gated-gravity.md §2"
 ---
 
 *This is [#13](/wiki/conjugate-relativity)'s claim that the [equivalence principle of general relativity](/wiki/gravity/spin-2-fields/equivalence-principle), which puts all freely falling frames on an equal footing, is the principle of relativity of the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the part of position. In #13's dual kinematics, rest means feeling no force, which is free fall; so the dual statement that physics is the same in all force-free frames is the equivalence principle, reached from kinematics rather than from gravitation, and #13 reads Einstein's two relativity principles as the two polarizations of one statement. The same paper lists what the two polarizations share, the time coordinate and the massless graviton, so that both fall alike, and what the breaking of the symmetry makes different: our light cone is held in place by massless gravity, the dual cone's dynamical part by the [massive field X](/wiki/gravity/momentum-graviton), so dual effects are short-ranged. The claim is alive but unreviewed: it is tagged as a structural derivation by #13 itself, no review round or script has checked it, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it. The [popular article #12](/wiki/history/documents/popular-articles) states it as settled, which is not its status.*
@@ -46,7 +47,7 @@ The argument has three steps, each taken from #13:
 
 What kind of result this is:
 
-- #13 tags it [D — structural] and calls it "the handshake worth recording"; no further derivation is given. The step rests on the identification in step 1, which uses the general-relativistic reading of free fall as force-free ([dual inertia: which reading of free fall](/wiki/conjugate-relativity/dual-inertia#which-reading-of-free-fall)).
+- #13 tags it [D — structural] and calls it "the handshake worth recording"; no further derivation is given. The step rests on the identification in step 1, which uses the general-relativistic reading of free fall as force-free ([dual inertia: which reading of free fall](/wiki/conjugate-relativity/dual-inertia#which-reading-of-free-fall)). Under that identification a freely falling pair has no dual-kinematic correction, while #13 §2 places black-hole mergers at F ~ c̃; flag 56 in `review/wiki-build-flags.md` records the two answers, awaiting Paul's ruling.
 - #13 does not say which form of the equivalence principle it means. Its wording names the force-free frames; its dual-inertial class (§5) also contains the uniformly forced frames, "our Rindler frames", and #13 does not say whether the dual principle extends to them.
 - The claim is not on §7's list of "Kinematic structure fixed [D]", which ends with the "dual-inertial = free-fall identification" it rests on.
 
@@ -108,3 +109,4 @@ The popular article #12 ("A second speed of light"): "The momentum description's
 - `notes/broken-born-theory.md` §1 — the notebook's P4, "the equivalence principle holds across polarizations" (superseded as a reference).
 - `review/wiki-build-flags.md` item 29 — #13's "[D — checkpoint §7]" for a reading in momentum that #11 §7 does not state; awaits Paul's ruling.
 - `popsci/universes-other-half.md` 'A second speed of light' — the popular statement (not a status source).
+- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth

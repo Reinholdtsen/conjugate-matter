@@ -26,7 +26,9 @@ sources:
   - "notes/debt1a-geometric-core.md §E"
   - "notes/debt1a-ii-X-classification.md §2"
   - "notes/broken-born-theory.md §2"
-  - "review/wiki-build-flags.md items 3, 23"
+  - "review/wiki-build-flags.md items 3, 23, 55"
+  - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
 ---
 
 *The modular field Z = X + iY is a complex symmetric matrix field that, in the program, carries the whole geometry of phase space at each point of spacetime once only the symplectic form is held rigid. Each value of Z is a point of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) and names one phase-space metric compatible with that form. The program reads the imaginary part Y as the spacetime metric g, and the real part X as a new symmetric tensor field, [the momentum graviton](/wiki/gravity/momentum-graviton), which records how far the split between position and momentum tilts from place to place. In the vacuum X = 0 and Z = i·g. These readings are the program's derived claims, tagged structural in the note that introduced them; the algebra of the parametrization is machine-checked, and later notes show that X must be a massive spin-2 field.*
@@ -74,7 +76,7 @@ The algebra behind the words: away from the slice, H_Z has off-diagonal blocks X
 
 [The tuning test](/wiki/gravity/tuning-test) later made the misalignment explicit. It measures the mismatch between the vacuum polarization J₀ and I[Z] = ω⁻¹H_Z by their anticommutator, {J₀, I[Z]} = [[S, A], [A, S]], with S = Y + XY⁻¹X − Y⁻¹ and A = [X, Y⁻¹] (#7 §2; battery test T3), and "The compatible locus is X = 0 *and* Y = Y⁻¹" (on that locus, see flag 3 in `review/wiki-build-flags.md`). The energy cost of that misalignment is what gives X its mass ([the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)).
 
-Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [conjugate-matter](/wiki/dark-matter/conjugate-matter) particles produces the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of the dark-matter sector (§E; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)).
+Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [conjugate-matter](/wiki/dark-matter/conjugate-matter) particles produces the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of the dark-matter sector (§E; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging X as #11 §7 builds it cannot produce the gate: every on-shell vertex depends only on the momentum transfer, and the section condition makes X depend on position only (§§2–3). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ### Step 5: one field for the geometric program [D — structural]
 
@@ -83,7 +85,7 @@ Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [con
 | Part of Z | Reading in the program | Where it is set out |
 | --- | --- | --- |
 | Im Z = Y | the spacetime metric g | this page |
-| Re Z = X | [momentum-space geometry](/wiki/phase-space/reciprocity/curved-momentum-space); the mediator of the dark-matter gate | this page; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) |
+| Re Z = X | [momentum-space geometry](/wiki/phase-space/reciprocity/curved-momentum-space); the mediator of the dark-matter gate (disputed, flag 55) | this page; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) |
 | the circle \|Z\| = 1 | [scale-factor duality](/wiki/cosmology/scale-factor-duality), the constraint a·ã = 1 (queried in flag 23 of `review/wiki-build-flags.md`) | [modular inversion](/wiki/phase-space/modular-field/modular-inversion); [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) |
 | the phase of Z's boundary value | the dark-energy field τ | [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) |
 
@@ -132,4 +134,5 @@ Calc note #5 also defined the direct route (§D): "expand the generalized curvat
 - `verify/battery.py` T2 — the parametrization identities at one sampled point.
 - `review/round3/referee/audit-notes.md` Step 3 — X ≠ 0 breaks η-compatibility numerically; the auditor's caution.
 - `HANDOFF.md` §2 — the handoff's one-screen state, with the check mark on the parametrization identities.
-- `review/wiki-build-flags.md` items 3, 23 — the query on #7's compatible locus; the query on the identification of |Z| = 1 with a·ã = 1, with its executed check `review/wiki-build-checks/self_dual_locus.py`.
+- `review/wiki-build-flags.md` items 3, 23 — the query on #7's compatible locus; the query on the identification of |Z| = 1 with a·ã = 1, with its executed check `review/wiki-build-checks/self_dual_locus.py`; item 55 — the gate's mechanism not derived, awaiting a ruling.
+- `notes/gate-mechanism.md` §2, §3 — exchanging X gives no gate; X depends on position only under the section condition.

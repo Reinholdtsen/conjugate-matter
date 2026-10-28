@@ -1,0 +1,11 @@
+GM_E(LLR) - GM_E(SLR Ries) = -0.0002 km3/s2 -> relative -5.02e-10 +- 1.61e-09
+GM_E(LLR) - GM_E(SLR Dunn) = -0.0006 km3/s2 -> relative -1.51e-09 +- 1.35e-09
+Cassini: eps*K(u_earth) in [-3.350e-05, 1.250e-05] (2 sigma), from gamma_eff - 1 = -2 eps K
+Double pulsar: |d omegadot/omegadot| < 5.20e-05 (from Pb-dot test 1.3e-4 at 95%, factor 2.5)
+Eros: M_fly/M_orb - 1 = +0.076 +- 0.269
+v*= 0.30: K_gauss(Moon)=0.0002 K_gauss(LAGEOS)=1.26e-154 | K_lor(Moon)=0.2242 K_lor(LAGEOS)=0.0083
+v*= 1.00: K_gauss(Moon)=1.0845 K_gauss(LAGEOS)=5.14e-13 | K_lor(Moon)=0.9873 K_lor(LAGEOS)=0.0878
+v*= 1.02: K_gauss(Moon)=1.0999 K_gauss(LAGEOS)=1.75e-12 | K_lor(Moon)=0.9975 K_lor(LAGEOS)=0.0912
+v*= 3.00: K_gauss(Moon)=1.0976 K_gauss(LAGEOS)=2.22e-01 | K_lor(Moon)=1.0827 K_lor(LAGEOS)=0.5567
+u<<1 cross-check via Will 2014 Mercury beta: v*=1000.0: |eps| < 1.10e-09
+u<<1 cross-check via Will 2014 Mercury beta: v*=3000.0: |eps| < 9.86e-09

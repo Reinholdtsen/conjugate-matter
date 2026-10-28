@@ -1,0 +1,4 @@
+position block Y + X Y^-1 X   : linear in X -> zero: True ; quadratic in X -> zero: False
+mixed block X Y^-1            : linear in X -> zero: False ; quadratic in X -> zero: True
+momentum block Y^-1           : linear in X -> zero: True ; quadratic in X -> zero: True
+anchor: (omega^-1 H_Z)^2 = -1 at a sample point: True

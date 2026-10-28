@@ -1,0 +1,17 @@
+C5 Gaussian gate: critical gt at kappa^2 = [1.1, 2.0, 4.4, 10.0, 25.0]
+  r= 0.2500: 0.1193, 1.19, 4.042, 10.69, 28.51
+  r= 1.2917: 0.8809, 7.818, 24.45, 62.2, 162.8
+  r= 4.0000: 18.09, 138.3, 378.1, 904.2, 2302
+  r= 8.3330: 157.3, 1148, 2938, 6844, 1.724e+04
+
+C8 crossover 1/Lambda_g and C10 tables
+  dwarf: r=0.2500, Lambda_g=8.419595e-01, 1/Lambda_g=1.188, <W>(quad)=8.380525e-01, closed (1+2r^2)^-1.5=8.380525e-01, Lam_g/<W>=1.0047
+     Q=1.0966: no-revir gt_c=0.1152; revir gt_c=inf
+     Q=4.3865: no-revir gt_c=4.026; revir gt_c=inf
+  MW: r=1.2917, Lambda_g=1.492869e-01, 1/Lambda_g=6.699, <W>(quad)=1.107248e-01, closed (1+2r^2)^-1.5=1.107248e-01, Lam_g/<W>=1.3483
+     Q=4.9348: no-revir gt_c=28.07; revir gt_c=inf
+     Q=19.7392: no-revir gt_c=127.5; revir gt_c=inf
+  cluster: r=8.3333, Lambda_g=1.443503e-03, 1/Lambda_g=692.8, <W>(quad)=6.044010e-04, closed (1+2r^2)^-1.5=6.044010e-04, Lam_g/<W>=2.3883
+     Q=1.0966: no-revir gt_c=152.2; revir gt_c=798.8
+     Q=4.3865: no-revir gt_c=2929; revir gt_c=inf
+  MW solar circle: lambda_J=40.813 kpc, Q=(lambda_J/R0)^2=24.7721, no-revir gt_c=161.3

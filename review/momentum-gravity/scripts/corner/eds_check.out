@@ -1,0 +1,6 @@
+K4 eps =  1.0: numerical growth exponent = 1.73205, analytic = 1.73205
+K4 eps =  3.0: numerical growth exponent = 3.00000, analytic = 3.00000
+K4 eps = 10.0: numerical growth exponent = 6.89354, analytic = 6.89354
+H  eps =  1.0: numerical growth exponent = 1.88600, analytic = 1.88600
+H  eps =  3.0: numerical growth exponent = 3.63104, analytic = 3.63104
+H  eps = 10.0: numerical growth exponent = 9.70301, analytic = 9.70301

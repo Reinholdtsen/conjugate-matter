@@ -1,0 +1,16 @@
+Omega_gamma h^2 = 2.4730e-05   Omega_r = 9.22043e-05   Omega_L = 0.68461
+Age = 13.7952 Gyr  [Planck 2018 Table 2 (Plik): 13.797 +- 0.023, S]
+z_eq (Om incl nu) = 3418.6 ; z_eq (omega_b+omega_c only) = 3402.0  [Planck: 3402 +- 26, dagger]
+
+v*=120 km/s: z, H(z) [km/s/Mpc], proper r_gate [kpc], comoving r_gate [Mpc]
+  z= 3402.00  H=   10605834.75  proper=    0.0113 kpc  comoving=  0.0385 Mpc
+  z= 1089.92  H=    1565234.27  proper=    0.0767 kpc  comoving=  0.0836 Mpc
+  z=  100.00  H=      38955.37  proper=    3.0804 kpc  comoving=  0.3111 Mpc
+  z=   10.00  H=       1383.26  proper=   86.7517 kpc  comoving=  0.9543 Mpc
+  z=    3.00  H=        307.85  proper=  389.7955 kpc  comoving=  1.5592 Mpc
+  z=    1.00  H=        120.66  proper=  994.5561 kpc  comoving=  1.9891 Mpc
+  z=    0.50  H=         89.09  proper= 1346.9700 kpc  comoving=  2.0205 Mpc
+  z=    0.00  H=         67.36  proper= 1781.4727 kpc  comoving=  1.7815 Mpc
+min of aH at z = 0.6310, aH = 59.179 km/s/Mpc -> comoving r_gate max = 2.0277 Mpc
+analytic (no radiation) q=0: z = (2 OL/Om)^(1/3)-1 = 0.6315
+k_p = 0.009 s/km at z=3 -> 0.6927 1/Mpc = 1.0283 h/Mpc ; k_p * s_c = k_p*v* = 1.0800 (exact)

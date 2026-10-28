@@ -1,0 +1,17 @@
+dwarf: r=0.2500; anomalous/canonical velocity (slow particles) = 0.2417 x Gt/G; Gibbs exponent difference v=0 vs v=sigma = 0.1191 x Gt/G
+    Gt/G=0.1152: anomalous velocity ratio = 0.0278, Gibbs exponent difference = 0.0137
+    Gt/G=4.026: anomalous velocity ratio = 0.973, Gibbs exponent difference = 0.479
+MW: r=1.2917; anomalous/canonical velocity (slow particles) = 0.6455 x Gt/G; Gibbs exponent difference v=0 vs v=sigma = 0.2772 x Gt/G
+    Gt/G=28.07: anomalous velocity ratio = 18.1, Gibbs exponent difference = 7.78
+    Gt/G=127.5: anomalous velocity ratio = 82.3, Gibbs exponent difference = 35.3
+    Gt/G=161.2: anomalous velocity ratio = 104, Gibbs exponent difference = 44.7
+    Gt/G=280.7: anomalous velocity ratio = 181, Gibbs exponent difference = 77.8
+    Gt/G=1000: anomalous velocity ratio = 645, Gibbs exponent difference = 277
+cluster: r=8.3333; anomalous/canonical velocity (slow particles) = 0.007503 x Gt/G; Gibbs exponent difference v=0 vs v=sigma = 0.002962 x Gt/G
+    Gt/G=152.2: anomalous velocity ratio = 1.14, Gibbs exponent difference = 0.451
+    Gt/G=798.8: anomalous velocity ratio = 5.99, Gibbs exponent difference = 2.37
+    Gt/G=1598: anomalous velocity ratio = 12, Gibbs exponent difference = 4.73
+    Gt/G=2929: anomalous velocity ratio = 22, Gibbs exponent difference = 8.68
+dwarf: Gt/G at which the anomalous velocity equals the canonical one = 4.14
+MW: Gt/G at which the anomalous velocity equals the canonical one = 1.55
+cluster: Gt/G at which the anomalous velocity equals the canonical one = 133

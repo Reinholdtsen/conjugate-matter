@@ -1,0 +1,67 @@
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_bounds.py:91: RuntimeWarning: divide by zero encountered in scalar divide
+  out['double pulsar'] = dp_limit/abs(sdp)
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_bounds.py:94: RuntimeWarning: divide by zero encountered in scalar divide
+  out['Cassini'] = (2.1 + 4.6)/2*1e-5/K(uE)
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_bounds.py:77: RuntimeWarning: overflow encountered in scalar divide
+  out['prec ' + nm] = two_sided(x, sg)/abs(sig) if sig != 0 else np.inf
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_bounds.py:104: RuntimeWarning: overflow encountered in scalar divide
+  out['Kepler ' + nm + '/Earth'] = b/abs(d) if d != 0 else np.inf
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-ordinary-tests-numbers/vot_bounds.py:94: RuntimeWarning: overflow encountered in scalar divide
+  out['Cassini'] = (2.1 + 4.6)/2*1e-5/K(uE)
+Inputs: v_Moon (circular) = 1.02455 km/s; v_LAGEOS = 5.6996 km/s; double pulsar a = 8.7884e+05 km, v = 625.03 km/s
+double-pulsar mass-bias factor: omega-dot + s route 2.4666 ; omega-dot + R route 2.5000 ; |d omdot/omdot| < 5.270e-05
+speed ranges (km/s, periapsis/apoapsis):
+   Mercury  38.85 - 59.00
+   Venus    34.78 - 35.27
+   Earth    29.28 - 30.30
+   Mars     21.96 - 26.51
+   Jupiter  12.43 - 13.71
+   Saturn   9.14 - 10.14
+   Moon     0.9698 - 1.0824 ; double pulsar 572.4 - 682.5
+
+=== gauss ===
+v* =     0.1 km/s: Eros 0.614; LLR perigee 2.64e+27; GM_E LLR-SLR Ries 6.82e+34; GM_E LLR-SLR Dunn 7.72e+34
+v* =     1.0 km/s: LLR perigee 4.14e-10; GM_E LLR-SLR Ries 3.42e-09; GM_E LLR-SLR Dunn 3.88e-09; Eros 1.02
+v* =    10.0 km/s: prec Mars 7.92e-12; prec Earth 2.23e-10; LLR perigee 7.55e-10; prec Saturn 5.43e-09
+v* =    30.0 km/s: prec Mars 5.77e-12; prec Mercury 2.55e-11; prec Venus 1.09e-10; prec Earth 4.22e-10
+v* =   120.0 km/s: prec Mars 1.82e-11; prec Earth 4.04e-11; prec Mercury 6.37e-11; prec Venus 1.92e-10
+v* =   170.0 km/s: prec Mars 3.5e-11; prec Earth 7.62e-11; prec Mercury 1.07e-10; prec Venus 3.53e-10
+v* =  1000.0 km/s: prec Mars 1.16e-09; double pulsar 2.15e-09; prec Earth 2.48e-09; prec Mercury 3.12e-09
+
+=== lorentz ===
+v* =     0.1 km/s: LLR perigee 8.46e-10; prec Mars 3.94e-08; GM_E LLR-SLR Ries 1.37e-07; GM_E LLR-SLR Dunn 1.55e-07
+v* =     1.0 km/s: prec Mars 3.96e-10; LLR perigee 1.29e-09; prec Earth 1.96e-09; GM_E LLR-SLR Ries 4.13e-09
+v* =    10.0 km/s: prec Mars 7.7e-12; prec Earth 3.03e-11; prec Mercury 1.96e-10; prec Venus 2.33e-10
+v* =    30.0 km/s: prec Mars 1.34e-11; prec Mercury 8.5e-11; prec Venus 3.67e-10; prec Earth 1.22e-09
+v* =   120.0 km/s: prec Mars 1.97e-11; prec Earth 4.55e-11; prec Mercury 8.55e-11; prec Venus 2.26e-10
+v* =   170.0 km/s: prec Mars 3.64e-11; prec Earth 8.09e-11; prec Mercury 1.25e-10; prec Venus 3.84e-10
+v* =  1000.0 km/s: prec Mars 1.16e-09; prec Earth 2.49e-09; prec Mercury 3.14e-09; double pulsar 3.92e-09
+
+Mars advance per unit eps at v* = 120 km/s (Gaussian): -5.174e+09 mas/cy
+Mercury v* =   3000: d_omega(eps=1)/GR = -6653.8 ; -(2/3)(c/v*)^2 = -6657.4
+Mercury v* =  30000: d_omega(eps=1)/GR = -66.574 ; -(2/3)(c/v*)^2 = -66.574
+Mars v* =   3000: d_omega(eps=1)/GR = -6656.6 ; -(2/3)(c/v*)^2 = -6657.4
+Mars v* =  30000: d_omega(eps=1)/GR = -66.574 ; -(2/3)(c/v*)^2 = -66.574
+beta cross-check v* = 1000: |eps| < 1.1e-09
+
+gauss   v* in [0.1, 0.3]: weakest 0.615 at 0.176 km/s (Eros); strongest 7.45e-09 at 0.298 (LLR perigee)
+gauss   v* in [0.3, 0.5]: weakest 6.35e-09 at 0.3 km/s (LLR perigee); strongest 3.9e-11 at 0.499 (LLR perigee)
+gauss   v* in [0.5, 3]: weakest 3.36e-09 at 1.03 km/s (GM_E LLR-SLR Ries); strongest 2.53e-11 at 0.634 (LLR perigee)
+gauss   v* in [3, 300]: weakest 3.87e-10 at 7.09 km/s (LLR perigee); strongest 2.23e-12 at 15 (prec Mars)
+gauss   v* in [300, 3000]: weakest 8.52e-09 at 2.97e+03 km/s (double pulsar); strongest 1.06e-10 at 300 (prec Mars)
+gauss   max bound over [0.3, 3000] km/s = 8.65e-09
+gauss   max bound over [0.1, 3000] km/s = 0.615
+
+lorentz v* in [0.1, 0.3]: weakest 8.46e-10 at 0.1 km/s (LLR perigee); strongest 1.28e-10 at 0.298 (LLR perigee)
+lorentz v* in [0.3, 0.5]: weakest 1.27e-10 at 0.3 km/s (LLR perigee); strongest 8.14e-11 at 0.499 (LLR perigee)
+lorentz v* in [0.5, 3]: weakest 4.32e-10 at 0.958 km/s (prec Mars); strongest 4.72e-11 at 2.98 (prec Mars)
+lorentz v* in [3, 300]: weakest 1.06e-10 at 298 km/s (prec Mars); strongest 7.09e-12 at 12.5 (prec Mars)
+lorentz v* in [300, 3000]: weakest 9.29e-09 at 2.97e+03 km/s (double pulsar); strongest 1.07e-10 at 300 (prec Mars)
+lorentz max bound over [0.3, 3000] km/s = 9.42e-09
+lorentz max bound over [0.1, 3000] km/s = 9.42e-09
+
+Gaussian v* = 0.17: LLR perigee 9.5 ; Eros 0.615 ; best Eros 0.615
+Gaussian v* = 0.18: LLR perigee 0.305 ; Eros 0.615 ; best LLR perigee 0.305
+Gaussian v* = 0.20: LLR perigee 0.00142 ; Eros 0.615 ; best LLR perigee 0.00142
+Gaussian v* = 0.25: LLR perigee 4.36e-07 ; Eros 0.615 ; best LLR perigee 4.36e-07
+Gaussian v* = 0.30: LLR perigee 6.47e-09 ; Eros 0.615 ; best LLR perigee 6.47e-09

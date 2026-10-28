@@ -1,0 +1,32 @@
+=== (a) spin-2 exchange between point masses with relative Lorentz factor gamma ===
+  massive/massless numerator ratio at rest: 4/3  (the 4/3 of alpha = (4/3)(M_f u/M_g)^2)
+  ratio relative to rest, as gamma -> oo: 3/4
+  ratio relative to rest, small beta = v_rel/c: 1 - beta**2/2 + beta**4/2 + O(beta**5)
+  each exchange alone, relative to rest: massless 1 + 2*beta**2 + O(beta**4) ; massive 1 + 3*beta**2/2 + O(beta**4)
+  v_rel = 30.0 km/s: fractional change of the X/graviton ratio = -5.007e-09
+  v_rel = 120.0 km/s: fractional change of the X/graviton ratio = -8.011e-08
+  v_rel = 625.0 km/s: fractional change of the X/graviton ratio = -2.173e-06
+
+=== (b) arithmetic spot checks ===
+  Sun-Mercury: 38.86 - 58.97 km/s
+  Sun-Venus: 34.78 - 35.26 km/s
+  Sun-Earth: 29.29 - 30.29 km/s
+  Sun-Mars: 21.97 - 26.50 km/s
+  Sun-Jupiter: 12.44 - 13.71 km/s
+  Sun-Saturn: 9.14 - 10.14 km/s
+  Earth-Moon: 0.970 - 1.082 km/s
+  Earth-LAGEOS: 5.700 km/s
+  double pulsar: 572.4 - 682.5 km/s
+  GM_E LLR - SLR(Ries 1992) = -0.0002 km^3/s^2 -> relative -5.018e-10 +- 1.606e-09
+  GM_E LLR - SLR(Dunn 1999) = -0.0006 km^3/s^2 -> relative -1.505e-09 +- 1.351e-09
+  Eros: 2-sigma interval for -eps: [-0.462, +0.614] -> |eps| < 0.614
+  Cassini: gamma_fit - 1 in [-2.50e-05, 6.70e-05] -> eps K = -(gamma_fit-1)/2 in [-3.350e-05, 1.250e-05]
+  Collett: eps<K> in [-0.075, 0.105]
+  O16 v*=30.0: |W'(u_E)| c^2/(3 v_E v*) = 2.49e+07 -> |eps| < 4e-11 if the EIH cross term is fitted to 0.1%
+  O16 v*=120.0: |W'(u_E)| c^2/(3 v_E v*) = 3.91e+06 -> |eps| < 2.6e-10 if the EIH cross term is fitted to 0.1%
+  O16 v*=1000.0: |W'(u_E)| c^2/(3 v_E v*) = 5.99e+04 -> |eps| < 1.7e-08 if the EIH cross term is fitted to 0.1%
+  O20 Sun-Earth: 4.83e-07; Sun-Mars: 4.21e-08; Earth-Moon: 6.8e-05
+
+=== (c) chi-sector scale: gated interaction vs chi-chi gravity at the #11 sec. 8 benchmark ===
+  alpha_G = (m_chi/M_P)^2 = 3.29e-41; alpha~/alpha_G at alpha~ = 1: 3.04e+40
+  range hbar/(m_phi c) for m_phi ~ m_chi: 2.82 fm

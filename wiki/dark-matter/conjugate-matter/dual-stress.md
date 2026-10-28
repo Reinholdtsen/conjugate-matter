@@ -15,11 +15,15 @@ sources:
   - "notes/broken-born-program-v1.md §6"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "HANDOFF.md §4"
+  - "review/wiki-build-flags.md item 55"
+  - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
 ---
 
-*The dual stress, written T̃, is the quantity through which matter couples to the [momentum graviton X](/wiki/gravity/momentum-graviton), in the way the stress-energy tensor is the quantity through which matter couples to the ordinary graviton. Stress-energy is built from derivatives of a matter field along spacetime and describes how energy and momentum are distributed in position; the dual stress is built from derivatives along the momentum directions and so reflects how the field is structured across momentum, the spectrum side of the same field. Exchange of X between the dual stresses of two particles of [conjugate matter](/wiki/dark-matter/conjugate-matter) produces [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). The calc notes define the dual stress in words and give no formula for it. Why it is strong for conjugate matter and weak for ordinary matter is [an open problem](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).*
+*The dual stress, written T̃, is the quantity through which matter couples to the [momentum graviton X](/wiki/gravity/momentum-graviton), in the way the stress-energy tensor is the quantity through which matter couples to the ordinary graviton. Stress-energy is built from derivatives of a matter field along spacetime and describes how energy and momentum are distributed in position; the dual stress is built from derivatives along the momentum directions and so reflects how the field is structured across momentum, the spectrum side of the same field. The calc notes say that exchange of X between the dual stresses of two particles of [conjugate matter](/wiki/dark-matter/conjugate-matter) produces [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate); a note of 2026-10-28 finds that it cannot, a finding that awaits Paul's ruling. The calc notes define the dual stress in words and give no formula for it. Why it is strong for conjugate matter and weak for ordinary matter is [an open problem](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).*
 
-**Status:** Alive — [D — structural] (`notes/debt1a-geometric-core.md` §E) — a definition in words, with no explicit formula in any source; not machine-checked. Why it is enhanced for conjugate matter is [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
+**Status:** Alive — [D — structural] (`notes/debt1a-geometric-core.md` §E) — a definition in words, with no explicit formula in any source; not machine-checked. The gate it is said to deliver is disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). Why it is enhanced for conjugate matter is [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
 
 ## Definition
 
@@ -54,6 +58,10 @@ Calc note #6 completed the mechanism by integrating out the massive X and attrib
 
 The derivation is structural. No source writes the vertex, the X propagator on the momentum fibers or the four-point amplitude explicitly, and no `verify/` script checks any part of it.
 
+### What the gate-mechanism note finds
+
+`notes/gate-mechanism.md` (2026-10-28, not reviewed) audits the record for the pieces this mechanism needs and finds none of them: "No χχX vertex, X propagator on the fibers, χ fiber profile, formula for the dual stress T̃, overlap integral or verify script exists" (§3) [D, record audit]. It adds that the section condition makes H_Z, and with it X, depend on position only, so "X propagator on momentum fibers" has no meaning within #11 §7 (§3). Writing the most general vertex instead, it finds that for on-shell χ any χ–χ–X vertex depends only on the transfer t, local, derivative and form-factor vertices alike; a nonlocal dual stress weighted along the fiber becomes a function of t as well, because the fiber coordinate of a χ\*χ bilinear is the average momentum (one derivation) (§2) [D][V]. Exchange of X then gives an amplitude whose dependence on the incoming relative momentum is a polynomial with the speed of light as its velocity scale, not a gate (§2). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, and the note lists "the wiki's gate-mechanism, gate-shape and dual-stress pages" among the text that depends on the tag (§5). It awaits Paul's ruling; #11 §8's "delivered by X-exchange between dual-stress bilinears" stands in the record until then ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The strength of the coupling, the enhancement below, "stays open whatever the mechanism" (§5).
+
 ## Ordinary matter's dual stress
 
 Ordinary matter is polarized toward position, and the calc notes first used its dual stress to explain why it shows no sign of X. The argument changed across the notes.
@@ -66,7 +74,7 @@ In #8's form, the current one, the dual stress no longer carries the argument; o
 
 ## What is open
 
-- **No formula.** T̃ is defined only in words (#5 §E). Its explicit form waits on the same calculation as [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape): #5 §E places the shape in "the X propagator's structure on the momentum fibers — open [O]".
+- **No formula.** T̃ is defined only in words (#5 §E). Its explicit form waits on the same calculation as [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape): #5 §E places the shape in "the X propagator's structure on the momentum fibers — open [O]". `notes/gate-mechanism.md` §3 finds that the section condition gives that propagator no meaning within #11 §7 (flag 55).
 - **The enhancement.** Calc note #8 logs the strength of the coupling as the main open quantitative item: "[Parametrics of the χ dual-stress enhancement — why σ₀ can be nuclear-scale while SM couplings stay gravitational — logged as the main open quantitative item.]" (§3). #11 §8 calls it the "Main open quantitative item" and §14 lists it as item 5; see [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
 
 ## Chat-only: dual stress as a second gravitational charge
@@ -90,3 +98,5 @@ Calc note #5 is subtitled "(plus an unplanned payment on Debt 2)": the dual stre
 - `notes/debt1a-iv-beta-coefficients.md` §3 — safety by range; the enhancement logged as the main open quantitative item; §4 — X coupled to conjugate matter through the dual stress
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' — X exchange between dual-stress bilinears as the gate's mechanism
 - `HANDOFF.md` §4 — the chat-only "two gravitational charges"
+- `notes/gate-mechanism.md` §2 — every on-shell vertex depends only on the transfer, the fiber-weighted dual stress included; §3 — the record audit: no formula for T̃, no χχX vertex, X depends on position only; §5 — the proposed tags and the pages that depend on them
+- `review/wiki-build-flags.md` item 55 — the mechanism not derived, awaiting Paul's ruling

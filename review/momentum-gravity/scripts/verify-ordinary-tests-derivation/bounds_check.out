@@ -1,0 +1,46 @@
+--- gauss: strongest test at the requested v* ---
+v* =     0.1 km/s: Eros 0.613; LLR perigee 2.65e+27; GM_E LLR vs SLR 6.82e+34; prec Mercury inf
+v* =     1.0 km/s: LLR perigee 4.15e-10; GM_E LLR vs SLR 3.42e-09; Eros 1.01; prec Saturn 1.28e+24
+v* =    10.0 km/s: prec Mars 7.93e-12; prec Earth 2.23e-10; LLR perigee 7.56e-10; prec Saturn 5.43e-09
+v* =    30.0 km/s: prec Mars 5.77e-12; prec Mercury 2.55e-11; prec Venus 1.09e-10; prec Earth 4.22e-10
+v* =   120.0 km/s: prec Mars 1.82e-11; prec Earth 4.04e-11; prec Mercury 6.37e-11; prec Venus 1.92e-10
+v* =  1000.0 km/s: prec Mars 1.16e-09; double pulsar 2.13e-09; prec Earth 2.48e-09; prec Mercury 3.12e-09
+
+--- lorentz: strongest test at the requested v* ---
+v* =     0.1 km/s: LLR perigee 8.47e-10; prec Mars 3.94e-08; GM_E LLR vs SLR 1.37e-07; prec Earth 1.95e-07
+v* =     1.0 km/s: prec Mars 3.96e-10; LLR perigee 1.29e-09; prec Earth 1.96e-09; GM_E LLR vs SLR 4.13e-09
+v* =    10.0 km/s: prec Mars 7.7e-12; prec Earth 3.03e-11; prec Mercury 1.96e-10; prec Venus 2.33e-10
+v* =    30.0 km/s: prec Mars 1.34e-11; prec Mercury 8.5e-11; prec Venus 3.67e-10; prec Earth 1.22e-09
+v* =   120.0 km/s: prec Mars 1.97e-11; prec Earth 4.55e-11; prec Mercury 8.55e-11; prec Venus 2.26e-10
+v* =  1000.0 km/s: prec Mars 1.16e-09; prec Earth 2.49e-09; prec Mercury 3.14e-09; double pulsar 3.87e-09
+
+Mars signal per eps at v*=120 (gauss) [mas/cy]: -5.174e+09
+Mercury v*=3000.0: adv/GR = -6653.83; -(2/3)(c/v*)^2 = -6657.45
+Mercury v*=30000.0: adv/GR = -66.5741; -(2/3)(c/v*)^2 = -66.5745
+Mars v*=3000.0: adv/GR = -6656.57; -(2/3)(c/v*)^2 = -6657.45
+Mars v*=30000.0: adv/GR = -66.5744; -(2/3)(c/v*)^2 = -66.5745
+
+--- Gaussian envelope scan, 400 log points in [0.1, 3000] km/s ---
+[0.3,3000] km/s: weakest 8.14e-09 at 2.92e+03 (double pulsar); strongest 2.23e-12 at 15 (prec Mars)
+[0.5,3] km/s: weakest 3.37e-09 at 1.02 (GM_E LLR vs SLR); strongest 2.53e-11 at 0.626 (LLR perigee)
+[3,300] km/s: weakest 3.89e-10 at 7.1 (LLR perigee); strongest 2.23e-12 at 15 (prec Mars)
+[300,3000] km/s: weakest 8.14e-09 at 2.92e+03 (double pulsar); strongest 1.07e-10 at 301 (prec Mars)
+Gaussian LLR bound at low v*:
+  v* = 0.17: LLR 9.52; Eros 0.614
+  v* = 0.18: LLR 0.305; Eros 0.614
+  v* = 0.20: LLR 0.00142; Eros 0.614
+  v* = 0.25: LLR 4.36e-07; Eros 0.614
+  v* = 0.30: LLR 6.48e-09; Eros 0.614
+Lorentzian over [0.1, 3000]: weakest 9.29e-09 at 3e+03 (double pulsar)
+
+--- other inputs ---
+Mercury beta: fractional advance shift in [-3.833e-05, 6.567e-05]; |eps| < 1.1e-09 at v*=1000
+Pbdot sensitivity to omdot bias at fixed mass ratio: 2.5
+2PN/sigma ratio for omdot (agent: 4.39e-4 deg/yr vs 1.3e-5): 33.769230769230774
+
+--- grid endpoint: the scan's top point vs exactly 3000 km/s ---
+np.logspace top point = np.float64(3000.0000000000014) ; included by a '<= 3000' filter: False
+  gauss v* = 2920.0: strongest double pulsar 8.13e-09
+  gauss v* = 3000.0: strongest double pulsar 8.54e-09
+  lorentz v* = 2920.0: strongest double pulsar 8.89e-09
+  lorentz v* = 3000.0: strongest double pulsar 9.29e-09

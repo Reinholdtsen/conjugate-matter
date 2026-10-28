@@ -19,14 +19,15 @@ sources:
   - "HANDOFF.md §3 row 2"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "notes/broken-born-theory.md §5.3"
-  - "review/wiki-build-flags.md item 19"
+  - "review/wiki-build-flags.md items 16, 19"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
   - "review/wiki-build-checks/debt3a_check.py"
   - "review/wiki-build-checks/debt3a_check.out"
 ---
 
 *The classicality theorem says that dark matter coupled strongly enough to clump in velocity must be so light that it behaves as a wave, not as a collection of separate particles. It follows from the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion): at the scattering strength that fits dwarf-galaxy cores, the criterion can be met only for masses below about 0.1 meV, and at such masses about 10²⁰ quanta share each quantum state, which is the regime of a classical wave. The program therefore splits dark matter into two regimes: a particle island, with χ masses of MeV to GeV, where dark matter scatters but cannot clump, and a [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of far lighter masses. The theorem is derived at mean-field level and stands.*
 
-**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script covers any [Debt-3](/wiki/history/debts) number. A recomputation made while building the wiki, outside `verify/`, prints m_crit and N_occ in both gate limits (flag 19; see [Scope](#scope)).
+**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script computes m_crit or N_occ. Of the [Debt-3](/wiki/history/debts) numbers, the gate checks only the shortfall of the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) the theorem starts from, in section D of `verify/velocity_gated_gravity.py` (flag 16, addendum of 2026-10-28; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). A recomputation made while building the wiki, outside `verify/`, prints m_crit and N_occ in both gate limits (flag 19; see [Scope](#scope)).
 
 ## Statement
 
@@ -126,5 +127,6 @@ The theorem appears in every later summary in the same form: #9 §7 item 1 ("col
 - `notes/broken-born-program-v1.md` §7 — the theorem in the first consolidation
 - `HANDOFF.md` §3 row 2 — the artifact summary of 3a
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's summary; §5.3 — the particle-side relic problem
-- `review/wiki-build-flags.md` item 19 — the regime in which 3a evaluates the corollary, awaiting a ruling
+- `review/wiki-build-flags.md` item 19 — the regime in which 3a evaluates the corollary, awaiting a ruling; item 16, addendum — what the gate now checks of Debt 3
+- `verify/velocity_gated_gravity.py` section D — the shortfall ratios of the criterion, not m_crit or N_occ
 - `review/wiki-build-checks/debt3a_check.py` and `review/wiki-build-checks/debt3a_check.out` — the flag's executed check: m_crit and N_occ in the broad- and narrow-gate forms (outside `verify/`)

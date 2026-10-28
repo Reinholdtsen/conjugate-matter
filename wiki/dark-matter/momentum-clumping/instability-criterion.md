@@ -16,14 +16,16 @@ sources:
   - "HANDOFF.md §2"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "popsci/angle-of-the-mirror.md 'The killing fields'"
-  - "review/wiki-build-flags.md item 16"
+  - "review/wiki-build-flags.md items 16, 58"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
+  - "notes/velocity-gated-gravity.md §4"
   - "review/wiki-build-checks/debt3a_check.py"
   - "review/wiki-build-checks/debt3a_check.out"
 ---
 
 *The mean-field criterion is the condition under which a gas of dark-matter particles with the gated attraction would break up into velocity streams on its own: the attraction energy among particles that share a velocity has to match the kinetic energy of their random motion. [Debt 3](/wiki/history/debts) derived it in two limits of the [gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) and evaluated it at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), where the coupling is already fixed by fitting the cores of [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies). There the attraction falls short by a factor of about 10²⁸ in dwarf-galaxy cores and 10³¹ in the Milky Way's halo near the Sun. Collisions cannot make up the difference, because they only drive the gas toward a smooth thermal distribution. The result rules out [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image) for particle dark matter, and the result itself stands.*
 
-**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md`. Mean-field only: the general eigenvalue problem is bracketed by two limits, not solved, and the threshold algebra is named but not printed. Not machine-checked: no `verify/` script covers any Debt-3 number, although [the handoff](/wiki/history/documents/handoff) marks the shortfall ✓. A recomputation made while building the wiki reproduces the shortfall but is not run by [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh` (see [the verification record](#verification-record) and flag 16 in `review/wiki-build-flags.md`).
+**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md`. Mean-field only: the general eigenvalue problem is bracketed by two limits, not solved, and the threshold algebra is named but not printed. The shortfall's arithmetic is machine-checked since 2026-10-28: section D of `verify/velocity_gated_gravity.py`, which [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh`, runs, ports 3a's arithmetic and reproduces both ratios ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). [The handoff](/wiki/history/documents/handoff)'s ✓ on the shortfall is now backed by a script, and #11 §9's tag [D] is unchanged until Paul rules (flag 16 in `review/wiki-build-flags.md`, addendum; see [the verification record](#verification-record)). The narrow-gate form of the criterion is flagged: it overstates the Milky Way shortfall about 3×, and the verdict is unchanged (flag 58; [the narrow-gate form, flagged](#the-narrow-gate-form-flagged)).
 
 ## Statement
 
@@ -68,6 +70,21 @@ The co-mover density is a small fraction of n when v\* ≪ σ. As a reading, not
 
 3a merges the two limits: "Unified criterion: ε_gate ≳ m·min(σ, v\*)²". The smaller of σ and v\* sets the kinetic-energy scale. When σ is well below v\*, the whole velocity distribution lies inside the gate, as in the broad-gate limit; when σ is well above v\*, only co-movers count, as in the narrow-gate limit. The minimum joins the two cases; the intermediate regime is not solved. #11 §9 writes the criterion with n_gate, g·n_gate ≥ m·min(σ,v\*)², and #9 §7 does the same.
 
+## The narrow-gate form, flagged
+
+Flag 58 in `review/wiki-build-flags.md` (raised by the momentum-gravity investigation of 2026-10-27 and 2026-10-28; `notes/velocity-gated-gravity.md` §4, computed and not reviewed) concerns the second substitution of the narrow-gate limit, σ → v\*. The note: "Its substitution σ → v\* is the threshold of a cold stream that already exists, not of a smooth halo." Linearized about the smooth halo, the threshold keeps the halo's dispersion [D][V]:
+
+```text
+g·n·Λ_g ≥ m·σ²
+```
+
+where Λ_g is the top eigenvalue of the gate's operator on velocity space, a function of σ/v\* (note §§5, 7; [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction#what-clumping-needs)).
+
+- **The size of the difference.** In the Milky Way, 3a's form overstates the shortfall about 3×: it gives 2.9×10⁻³¹ against the linearized 8.7×10⁻³¹, "the non-conservative direction for an obituary" (note §4). In the dwarf core and the cluster it errs the other way. In the dwarf core the linearized value is 3.3×10⁻²⁸, against 3a's 3.9×10⁻²⁸ (note §4).
+- **The check.** `verify/velocity_gated_gravity.py` prints the linearized ratios as 3.27e-28 (dwarf core) and 8.7e-31 (Milky Way) (check D2) and the Milky Way factor as (2π)^{3/2} r Λ_g(r) = 3.04, "about 3x", with r = σ/v\* = 155/120 (check D3; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)).
+- **The verdict is unchanged.** The flag: "The verdict (10²⁸–10³¹ short) is unchanged."
+- **Who checked it.** The flag's audit: "confirmed by 2 independent checks (the run-2 clumping verifiers); both found the analysis's statement of the direction at the Milky Way wrong." The flag awaits Paul's ruling.
+
 ## Numbers at the scattering benchmark
 
 **The coupling is fixed.** 3a: "The dwarf-core fit fixes σ₀/m = 30 cm²/g, hence g is spent — no freedom remains. With m_χ = 70 MeV, v\* = 120 km/s". The benchmark comes from the lab notebook's fit of [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) to dwarf-galaxy cores: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (`notes/broken-born-theory.md` §5.1). The checkpoint carries it as "m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3}" (#11 §8; [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)). Since g = √(πσ₀/m²) ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), fixing σ₀/m and m fixes g. The criterion therefore has no free parameter left at the benchmark.
@@ -111,12 +128,15 @@ If the mean field cannot make streams, collisions might. 3a closes this in one s
 - **A Gaussian gate** is assumed; the gate's shape is open (#11 §14 item 4; [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
 - **The benchmark.** The numbers hold at the benchmark coupling, which is fixed by the dwarf-core fit. The notebook's numbers behind that fit come from `notes/broken-born-theory.md` §5.1.
 - **Classical particles.** The model treats dark matter as a classical gas, which [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) shows is consistent on the particle island and not where the criterion could be met.
+- **A contact-range interaction.** The criterion tests the program's own interaction, which acts on contact; "the force is contact-range" is one of 3a's robustness reasons. The obituary built on it says that velocity clumping is required nowhere, not that it cannot happen. A long-range attraction among χ gated in relative velocity is a different model, which Debt 3 never tested (`notes/velocity-gated-gravity.md` §4; [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers); [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction)).
 
 ## Verification record
 
-The handoff lists the result among its dead claims, to be kept dead, with a check mark: "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. No `verify/` script covers any Debt-3 number, and #11 §9 tags the result [D]. The checkpoint governs: the result is derived, not machine-verified, and any check behind the ✓ exists only in the old chat. Under [the iron rule](/wiki/method/verification/iron-rule) these numbers still lack an executed check in `verify/`. The unbacked mark is flag 16 in `review/wiki-build-flags.md`.
+The handoff lists the result among its dead claims, to be kept dead, with a check mark: "impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓)" (`HANDOFF.md` §2), where ✓ marks a machine-verified claim and DM is dark matter. #11 §9 tags the result [D]. Until 2026-10-28 no `verify/` script covered any Debt-3 number, and any check behind the ✓ existed only in the old chat; that unbacked mark is flag 16 in `review/wiki-build-flags.md`. The flag's addendum of 2026-10-28: "`verify/velocity_gated_gravity.py` (§D) now ports 3a's arithmetic into the gate and reproduces both ratios, with the linearized values beside them (flag 58). The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules. "10²⁸–10³¹" quotes the ratios' exponents; the shortfall factors are 2.6×10²⁷ and 3.5×10³⁰." The wiki keeps #11's tag.
 
-A recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`, reproduces the shortfall. It takes 3a's inputs and formulas as the note states them and prints `ratio = 3.9e-28` for the dwarf core and `ratio = 2.9e-31` for the Milky Way halo near the Sun (`review/wiki-build-checks/debt3a_check.out`), against the table's ~10⁻²⁸ and ~10⁻³¹. It checks 3a's arithmetic, not the model. The script is evidence for a ruling and is not wired into `scripts/check.sh`, so the result stays [D]. Flag 16 notes that it "could be moved into `verify/`"; that awaits Paul's ruling.
+A recomputation made while building the wiki, `review/wiki-build-checks/debt3a_check.py`, reproduces the shortfall. It takes 3a's inputs and formulas as the note states them and prints `ratio = 3.9e-28` for the dwarf core and `ratio = 2.9e-31` for the Milky Way halo near the Sun (`review/wiki-build-checks/debt3a_check.out`), against the table's ~10⁻²⁸ and ~10⁻³¹. It checks 3a's arithmetic, not the model. The script itself is evidence for a ruling and is not wired into `scripts/check.sh`; flag 16 noted that it "could be moved into `verify/`".
+
+Section D of `verify/velocity_gated_gravity.py`, "The obituary's scope: Debt 3a's shortfall", is a port of `debt3a_check.py` and of a clumping verifier's unit check, and the gate runs it ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). Its check D1 prints the coupling g = 2.48e3 GeV^-2 and the ratios 3.9e-28 (dwarf core) and 2.9e-31 (Milky Way), with "the shortfall factors" 2.6e27 and 3.5e30; checks D2 and D3 give the linearized values and the factor of [the narrow-gate flag](#the-narrow-gate-form-flagged). Like the wiki build's script, it checks 3a's arithmetic, not the model ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
 The plain-language passages round the shortfall: #11 §9's italic passage says "thirty orders of magnitude", #9 §7's says "a factor of a million trillion trillion", and [the popular article](/wiki/history/documents/popular-articles) #10 says "a factor of ten to the thirtieth" (`popsci/angle-of-the-mirror.md`, 'The killing fields'). The notebook's addendum records "fails by 28–31 orders of magnitude at the scattering benchmark" (`notes/broken-born-theory.md`, 'Addendum (v0.2)'). The calc note's table is the record.
 
@@ -128,7 +148,9 @@ The plain-language passages round the shortfall: #11 §9's italic passage says "
 - `papers/broken-born-checkpoint-v2.md` §9 (i) — the current statement and its tag; §8 — the benchmark
 - `notes/broken-born-theory.md` §5.1 — the dwarf-core fit behind the benchmark; 'Addendum (v0.2)' — the notebook's summary of the result
 - `notes/broken-born-program-v1.md` §7 — the same result in the first consolidation
-- `HANDOFF.md` §2 — the ✓ with no script behind it
+- `HANDOFF.md` §2 — the ✓, which no script backed until 2026-10-28
 - `popsci/angle-of-the-mirror.md` 'The killing fields' — the popular rounding (not a status source)
-- `review/wiki-build-flags.md` item 16 — the ✓ without a script, awaiting a ruling
+- `review/wiki-build-flags.md` item 16 — the ✓ without a script, and its addendum of 2026-10-28; item 58 — the narrow-gate criterion; both awaiting a ruling
+- `verify/velocity_gated_gravity.py` section D — checks D1–D3: the coupling, 3a's ratios, the linearized ratios and the Milky Way factor
+- `notes/velocity-gated-gravity.md` §4 — the obituary's scope, contact range, and 3a's narrow-gate criterion
 - `review/wiki-build-checks/debt3a_check.py` and `review/wiki-build-checks/debt3a_check.out` — the wiki build's recomputation of the shortfall and its printed ratios (outside `verify/`)

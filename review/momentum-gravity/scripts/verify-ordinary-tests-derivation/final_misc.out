@@ -1,0 +1,16 @@
+=== O2: EIH two-body bracket in the CM frame ===
+  bracket - [(3+nu) v^2 + nu (n.v)^2] = 0
+
+=== O14(a): Kepler-law test Mars vs Earth at v* = 10 km/s (Gaussian) ===
+  K(u_Mars) - K(u_Earth) = 0.03482; |eta_p| < 6.5e-10 -> |eps| < 3*6.5e-10/dK = 5.6e-08
+
+=== O18: atom-level gating, MICROSCOPE at v* = 10 km/s: static <W> vs orbit-force analog ===
+  v* = 10.0: Ti-Pt difference, static <W>: -4.075e-04; orbit-force analog: -1.330e-03; ratio 3.26
+  v* = 30.0: Ti-Pt difference, static <W>: -1.170e-04; orbit-force analog: -1.418e-04; ratio 1.21
+
+=== third-body (Sun) anisotropic inertia in the Earth-Moon problem, order of magnitude ===
+  v* =  10.0: anisotropy / eps = 0.0443;  |eps| at which it reaches 1 mm / 3.844e8 m = 2.6e-12: 5.9e-11
+  v* =  20.0: anisotropy / eps = 2.14;  |eps| at which it reaches 1 mm / 3.844e8 m = 2.6e-12: 1.2e-12
+  v* =  30.0: anisotropy / eps = 1.45;  |eps| at which it reaches 1 mm / 3.844e8 m = 2.6e-12: 1.8e-12
+  v* =  60.0: anisotropy / eps = 0.19;  |eps| at which it reaches 1 mm / 3.844e8 m = 2.6e-12: 1.4e-11
+  v* = 120.0: anisotropy / eps = 0.0143;  |eps| at which it reaches 1 mm / 3.844e8 m = 2.6e-12: 1.8e-10

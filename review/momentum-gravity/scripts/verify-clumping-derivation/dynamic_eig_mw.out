@@ -1,0 +1,6 @@
+MW kap^2=4.9348 gt=56.14 hz=0.075 npp=8: unstable +0.0000+0.44212i  (agent purely growing 0.4421) [1s]
+MW kap^2=4.9348 gt=56.14 hz=0.06 npp=10: unstable -0.0000+0.44211i  (agent purely growing 0.4421) [4s]
+MW kap^2=4.9348 gt=56.14 hz=0.05 npp=12: unstable -0.0000+0.44211i  (agent purely growing 0.4421) [10s]
+MW kap^2=4.9348 gt=280.7 hz=0.075 npp=8: unstable -0.0000+0.56623i, +0.0000+0.36833i  (agent purely growing 0.56618) [1s]
+MW kap^2=4.9348 gt=280.7 hz=0.06 npp=10: unstable +0.0000+0.56621i, +0.0000+0.36619i  (agent purely growing 0.56618) [3s]
+MW kap^2=4.9348 gt=280.7 hz=0.05 npp=12: unstable -0.0000+0.56621i, -0.0000+0.36598i  (agent purely growing 0.56618) [10s]

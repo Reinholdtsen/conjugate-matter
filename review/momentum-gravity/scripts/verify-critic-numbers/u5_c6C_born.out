@@ -1,0 +1,8 @@
+check of the closed form vs numerical q-integral at Gt/G = 3.5e31, b = 2.385 kpc: 3.666804e-28 vs 3.666804e-28 m^2
+b =  1.000 kpc: Born Gt/G = 3.5588e+31 (ln-factor/2 = 68.67); classical (self-consistent log) Gt/G = 3.2990e+31; eta(Born solution) = 1.169e-05
+b =  2.385 kpc: Born Gt/G = 3.5365e+31 (ln-factor/2 = 69.54); classical (self-consistent log) Gt/G = 3.2811e+31; eta(Born solution) = 1.162e-05
+b =  5.000 kpc: Born Gt/G = 3.5178e+31 (ln-factor/2 = 70.28); classical (self-consistent log) Gt/G = 3.2661e+31; eta(Born solution) = 1.156e-05
+b = 40.800 kpc: Born Gt/G = 3.4664e+31 (ln-factor/2 = 72.38); classical (self-consistent log) Gt/G = 3.2246e+31; eta(Born solution) = 1.139e-05
+classical with ln Lambda = ln N = 155.1 held fixed (C14's choice): Gt/G = 2.3680e+31
+Sommerfeld parameter Gt m^2/(hbar v) at Gt/G = 3.56e31, v = 30 km/s: 1.1695e-05
+(m/M_Planck)^2 = G m^2/(hbar c) = 3.2873e-41

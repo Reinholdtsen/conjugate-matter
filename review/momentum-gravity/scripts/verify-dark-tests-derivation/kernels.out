@@ -1,0 +1,25 @@
+Brute-force 2D quadrature, Gaussian gate W = exp(-u^2/2), reading (a): -grad_x U at fixed velocities
+Ungated normalization check (W=1 replaced by W(r) with huge v*):
+   Int_0^inf j1(t) dt = 3.3975509560680974
+
+   y   | R_dens brute | R_mine closed | R_agent closed || R_v brute | R_v closed | B-only brute | R_v-1 closed
+  0.30 |    0.029467  |    0.029467   |    0.087348    ||  0.052859 |  0.052859  |   -0.947141  |  -0.947141
+  0.60 |    0.111787  |    0.111787   |    0.319757    ||  0.198480 |  0.198480  |   -0.801520  |  -0.801520
+  1.00 |    0.275222  |    0.275222   |    0.724778    ||  0.476994 |  0.476994  |   -0.523006  |  -0.523006
+  1.08 |    0.311446  |    0.311446   |    0.803130    ||  0.536423 |  0.536423  |   -0.463577  |  -0.463577
+  2.00 |    0.680006  |    0.680006   |    1.279976    ||  1.060027 |  1.060027  |    0.060027  |   0.060027
+  3.00 |    0.868944  |    0.868944   |    1.179501    ||  1.186129 |  1.186129  |    0.186129  |   0.186129
+  5.00 |    0.958151  |    0.958151   |    1.046229    ||  1.104409 |  1.104409  |    0.104409  |   0.104409
+
+(C) anti-drag, uniform medium: a_z / U0 = 4.188790 ; analytic (4 pi/3) Gt rho/H = 4.188790
+    sign: positive = along the particle's own peculiar velocity (anti-drag)
+
+identity check y=0.5: Int_0^1 R_agent(y mu) dmu = 0.07931143 ; R_mine closed = 0.07931143
+identity check y=1.0: Int_0^1 R_agent(y mu) dmu = 0.27522154 ; R_mine closed = 0.27522154
+identity check y=2.0: Int_0^1 R_agent(y mu) dmu = 0.68000596 ; R_mine closed = 0.68000596
+
+small y=0.01: R_mine/y^2 = 0.333327 (expect 1/3 = Int t W dt / 3) ; R_agent/y^2 = 0.999967
+small y=0.03: R_mine/y^2 = 0.333273 (expect 1/3 = Int t W dt / 3) ; R_agent/y^2 = 0.999700
+
+R_agent max = 1.2847 at y = 2.124  (exceeds 1: effective-potential kernel)
+R_mine  max on grid = 0.9930 ; monotonic increasing: True

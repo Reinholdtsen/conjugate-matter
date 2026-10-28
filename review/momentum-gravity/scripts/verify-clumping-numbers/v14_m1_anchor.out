@@ -1,0 +1,5 @@
+Lambda_g q = 0.070092; F0 analytic sqrt(2c/pi) = 0.66399; numerical psi0(0)^2 = 0.66399
+kappa^2=19.7392 gt=283.0: mu1=19.8361, first-order Gamma=0.01041, L-matrix (v08) = 0.01041
+kappa^2=19.7392 gt=290.0: mu1=20.3268, first-order Gamma=0.06156, L-matrix (v08) = 0.06187
+kappa^2=19.7392 gt=320.0: mu1=22.4295, first-order Gamma=0.25547, L-matrix (v08) = 0.25937
+kappa^2=3.0000 gt=56.14: mu1=3.9350, first-order Gamma=0.19729, L-matrix (v08) = 0.19882

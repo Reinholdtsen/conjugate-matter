@@ -1,0 +1,162 @@
+{
+ "verdicts": [
+  {
+   "claim_id": "P1",
+   "verdict": "confirmed",
+   "reason": "The Yukawa form, alpha = (4/3)(M_f u/M_g)^2, M_f = M_g (#8 sec. 3), the u = 1 premise and the bound numbers are as recorded. No document gives this term a velocity dependence. For downstream use (see P9): 37.7 um is the lower edge of an exclusion window. Torsion balances do not exclude ranges far beyond the Solar System, and the record's 'below 37.7 um whatever sets its mass' leaves out that side.",
+   "independent_check": "Read #11 sec. 7.5 ('SM couplings gravitational-strength and Yukawa-cut at 1/M_X'), #8 sec. 3 ('With equal effective Planck masses (forced by the same symmetry)... safety is by range') and the diameter note sec. 8.2. Reran verify/phase_space_diameter.py unmodified: 'PASS  attractive Yukawa with alpha = 4/3 (one-sided +alpha95): lambda_X < 37.7 um, M_X c^2 > 5.2 meV  [37.68 um, 5.237 meV]' and 'PASS  for background ratio u ...: 57.0 um at u = 0.5, 42.5 at 0.8, 30.8 at 1.5  [[56.98, 42.53, 30.83]]'. Ran /usr/bin/grep -i velocity over papers/, notes/debt1a-*, HANDOFF.md and popsci/. The hits are the chi gate, the Debt-3 obituary, #13's boosts, #11 sec. 3's plain-language line, and HANDOFF sec. 4's chat-only 'velocity traps'."
+  },
+  {
+   "claim_id": "P2",
+   "verdict": "confirmed",
+   "reason": "The mechanism, the contact reduction, the Debt-3a coupling, the ranges, the strength ratio and the ungated chi gravity all match the record. The numbers reproduce.",
+   "independent_check": "Read #11 sec. 8, #6 sec. 4 ('Integrating out massive X between chi bilinears gives the contact four-chi operator ... e^{-(p1-p2)^2/2mu^2}'), Debt 3a Setup and #1 sec. 3 and sec. 5.1 ('With m_phi ~ m_chi'). v5_numbers.py: 'G m_chi^2/(hbar c) = 3.2873e-41;  alpha~/(G m_chi^2) at alpha~ = 1: 3.0420e+40'; 'range hbar/(m_chi c) = 2.8190e-15 m'. Reran review/wiki-build-checks/debt3a_check.py: 'g = 2.48e+03 GeV^-2', 'dwarf core: ... ratio = 3.9e-28', 'MW local: ... ratio = 2.9e-31'."
+  },
+  {
+   "claim_id": "P3",
+   "verdict": "confirmed",
+   "reason": "The HANDOFF sec. 4 quotes are verbatim. #13 sec. 1 and sec. 6 carry the '[D — checkpoint sec. 7]' tags, which #11 sec. 7 does not support. Flag 29's audit is confirmed and its ruling is unfilled. Saying the two-charges line 'conflicts' with #8 sec. 3 is the agent's reading, but a fair one: #5 sec. E and #6 sec. 4 (SM couples through its suppressed dual stress) agree with the chat line, and #8 sec. 3 and #11 sec. 7.5 do not. Model (a) exerts no force (P10, verified).",
+   "independent_check": "HANDOFF.md lines 74-75 read directly. #13 sec. 1: 'modifies the dual cone only at short range in momentum [D — sec. 7 of the checkpoint]'. #13 sec. 6: 'Yukawa-cut in momentum [D — checkpoint sec. 7]'. review/wiki-build-flags.md item 29: 'Audit (2026-10-22): confirmed by 1 independent check.' review/wiki-build-rulings.md, Flag 29: '**Ruling:** ☐ accept ☐ reject ☐ modify — notes:'."
+  },
+  {
+   "claim_id": "P4",
+   "verdict": "confirmed",
+   "reason": "Given the stated assumptions, the ratio and the cross-section reproduce: m_phi = M_X, contact Born limit, factorised one-exchange couplings, alpha~ = 1, alpha = 4/3. Identical-particle factors are dropped, an O(1) effect. Gravity being ordinary and the gate absent for mixed pairs both match the record.",
+   "independent_check": "v5_numbers.py: '(mu_chiN/(m/2))^2 = 3.4639; alpha G m_N^2 = 7.8748e-39; sigma_chiN/sigma_chichi = 2.7277e-38; sigma_chiN = 1.0212e-61 cm^2' (sigma0 = 3.7436e-24 cm^2)."
+  },
+  {
+   "claim_id": "P5",
+   "verdict": "confirmed",
+   "reason": "Block algebra verified at d = 2 and d = 3. Also, at quadratic order the misalignment potential has no h-X mixing. One addition: if SM couples to Y = Im Z itself (#1 sec. 3 read with #11 sec. 6), X does not enter at any order, not just first. Which reading the program adopts is open, as tagged.",
+   "independent_check": "v6_siegel_blocks.py: 'd = 2: position block linear in X zero: True; mixed block linear in X nonzero: True; momentum block X-free: True'. The same line holds at d = 3. 'misalignment block S at O(t): True (= 2h, no X); Tr(S^2) at O(t^2) contains an h*x cross term: False'. 'anchor (omega^-1 H_Z)^2 = -1 at an exact random point: True'."
+  },
+  {
+   "claim_id": "P6",
+   "verdict": "confirmed",
+   "reason": "The contact limit needs q ~ m_chi v << M_X. The numbers reproduce. The binding case is inside the gate (v up to v* = 120 km/s): M_X >> 28 keV, range << 7e-12 m. The argument is conditional on X carrying the transfer factor, as stated.",
+   "independent_check": "v5_numbers.py: 'v =    30 km/s: m_chi v = 7.005 keV; hbar/(m_chi v) = 2.817e-11 m; 37.7 um / that = 1.338e+06'; 'v =   120 km/s: m_chi v = 28.019 keV; hbar/(m_chi v) = 7.043e-12 m'; 'v =  1000 km/s: m_chi v = 233.495 keV; hbar/(m_chi v) = 8.451e-13 m; 37.7 um / that = 4.461e+07'."
+  },
+  {
+   "claim_id": "P7",
+   "verdict": "confirmed",
+   "reason": "T1.T2 - c T1 T2 = m1 m2 ((u1.u2)^2 - c) holds exactly in any frame. The normalised factors are T2(gamma) and P2(gamma). The relative-velocity dependence starts at O(v^2/c^2) and depends only on |v1 - v2| to that order. The anchor quotes were re-fetched in this session.",
+   "independent_check": "v1_spin2_fokker.py: 'T1.T2 - c T1 T2 == m1 m2 ((u1.u2)^2 - c) at 5 random exact velocity pairs: True'; 'series massless   : 1 + 2*v**2 + 2*v**4 + 2*v**6 + O(v**7)'; 'series Fierz-Pauli: 1 + 3*v**2/2 + 3*v**4/2 + 3*v**6/2 + O(v**7)'; 'gamma->oo ratio N1/N0 = 3/4'; 'u1.u2 - [1 + |v1-v2|^2/2] at O(eps^2): 0'. Hinterbichler, ar5iv 1105.3735 [S]: sec. 2.3 'For D=4, it is 1/2 vs. 1/3.'; sec. 3.3 'off by 25 percent from GR'."
+  },
+  {
+   "claim_id": "P8",
+   "verdict": "corrected",
+   "reason": "Re-derived by a different route: the Fokker action with the time-symmetric Green's function expanded to second order in d/dt, with no amplitude and no 1/(4E1E2). Spin 1 gives Darwin, the massless spin-2 gives EIH's O(G) terms exactly, and the massive term matches, as do the CM and general-frame forms. One factor is missing in the statement: the retardation piece -(M_X/2)(n.v1)(n.v2)e^{-r/lambda} lacks its prefactor alpha G m1 m2/c^2, with M_X read as 1/lambda_X. The massive formula also holds at all r at O(v^2/c^2), not only at r << lambda_X; the extra piece is smaller by O(r/lambda_X).",
+   "corrected_statement": "Massive spin-2 at O(G v^2/c^2): (alpha G m1 m2/r) e^{-r/lambda_X} [1 + ((v1^2+v2^2) - (5/2) v1.v2 - (1/2)(n.v1)(n.v2))/c^2] - (alpha G m1 m2/(2 lambda_X c^2)) (n.v1)(n.v2) e^{-r/lambda_X}, valid at all r. The rest of P8 stands, including EIH, the CM forms, the non-Galilean general-frame form and the sizes 1.11e-7 and 1.00e-6.",
+   "independent_check": "v1_spin2_fokker.py: 'spin 1: L_int - Darwin = 0'; 'spin 2 massless: L_int - EIH O(G) terms = 0'; 'massive spin 2: L_int - [agent's form incl. -(alpha G m1 m2 M/2) e^{-Mr}(n.v1)(n.v2)] = 0'; 'CM: GR velocity terms - [(3+nu) w^2 + nu (n.w)^2]/2 = 0'; 'CM: FP velocity terms - [(1+nu/2) w^2 + nu (n.w)^2/2] = 0'; 'general frame: GR velocity terms - [3/2|v1-v2|^2 - 1/2 v1.v2 - 1/2 (n.v1)(n.v2)] = 0'; 'v = 100 km/s: (v/c)^2 = 1.113e-07'. EIH anchor [S], independent of Will 2018: Kol & Smolkin arXiv:0712.4116 eq. (11), L = (1/8) sum m v^4 + G m1 m2/(2r)[3(v1^2+v2^2) - 8 v1.v2 + v1perp.v2perp] - G^2 m1 m2 (m1+m2)/(2r^2), the same bracket. Darwin [S] (Wikipedia): L_D = (q1 q2/r)(1/2c^2) v1.[1 + rhat rhat].v2."
+  },
+  {
+   "claim_id": "P9",
+   "verdict": "corrected",
+   "reason": "gamma_PPN = (alpha+2)/(2(alpha+1)) checks three independent ways: metric components, light bending, and the test-mass U v^2 coefficient. It is 5/7 at alpha = 4/3, and the Cassini numbers reproduce. The conclusion goes too far: 'ranges of kpc are excluded by tests like this one' holds only for an unscreened mode. With Vainshtein screening, the agent's own P18 gives the Sun's r_V = 1.2e3 AU for lambda_X = 1 kpc at u = 1, so Cassini does not by itself exclude a kpc range.",
+   "corrected_statement": "For an unscreened massive mode with lambda_X >> 1 AU, Cassini (2 sigma) requires alpha < 5.0e-5, i.e. u < 6.1e-3, so u = 1 is excluded. If the mode is Vainshtein-screened inside about 1e3 AU (lambda_X = 1 kpc), the Solar-System test does not apply. A kpc-range X would then have to be tested at galaxy scales (lensing against dynamics), which the record does not do. Torsion balances constrain only the window above 37.7 um.",
+   "independent_check": "v2_ppn_cassini.py: '(1) metric:      gamma_PPN = (alpha + 2)/(2*(alpha + 1))'; '(2) deflection:  gamma_PPN = (alpha + 2)/(2*(alpha + 1))'; '(3) U v^2 coeff: gamma_PPN = (alpha + 2)/(2*(alpha + 1))'; 'alpha = 4/3: 5/7 = 0.7142857142857143 ; gamma - 1 = -0.2857142857142857'; 'Cassini 2-sigma lower end gamma-1 = -2.50e-05 -> alpha < 5.0003e-05 -> u < 6.1239e-03'. Cassini value (2.1 +- 2.3)e-5 [S] via a Haystack/Bertotti-group slide deck. /usr/bin/grep for cassini/planetary/solar system/PPN/vDVZ in the diameter note, its worklog, round-5 files, #11, #13 and notes/ finds nothing (verify/phase_space_diameter.py uses only the 4/3)."
+  },
+  {
+   "claim_id": "P10",
+   "verdict": "confirmed",
+   "reason": "Under any momentum-only U the momenta are constant (pdot = 0) and the velocity is anomalous. The Galilean behaviour of the three argument choices, the CM drift (m1 - m2) grad U for p1 - p2, the first-order Lagrangian and the Born-image equations are all verified.",
+   "independent_check": "v3_mechanics.py: 'arg p1 - p2 : pdot1 = [0, 0, 0]; boost shift = [u1*(m1 - m2), ...]; CM drift ... zero: False'; 'arg k = (m2 p1 - m1 p2)/M : pdot1 = [0, 0, 0]; boost shift = [0, 0, 0]; CM drift ... zero: True'; 'arg p1/m1 - p2/m2 : ... True'; 'p1 - p2: CM drift - eps (m1 - m2) grad U == 0: True'; 'Legendre: velocity residual O(eps) zero: True ; L - [sum m v^2/2 - eps U(m1 v1 - m2 v2)] zero at O(eps^0, eps^1): True'; 'Born image H = x^2/2m + V(p): xdot = Derivative(V(P), P) ; pdot = -X/m'."
+  },
+  {
+   "claim_id": "P11",
+   "verdict": "confirmed",
+   "reason": "Follows from pdot = -dH/dx (P10). In #1 sec. 5.2 the mean field has no x-dependence where f-bar is uniform. Debt 3a's epsilon(x,p) contains f(x,p') at contact, so its mean field can move momenta. A Lagrangian with only velocity dependence also gives straight-line motion.",
+   "independent_check": "#1 sec. 5.2 read directly: 'epsilon(p; f) = p^2/2m_chi + int d^3p' U(p - p') f-bar(p')'. Debt 3a Setup: 'epsilon(x,p) = ... - g int d^3p' G((p-p')/mu) f(x,p')' with 'the x-range collapsed to contact'. Hamilton's equations from v3_mechanics.py as in P10."
+  },
+  {
+   "claim_id": "P12",
+   "verdict": "confirmed",
+   "reason": "The energy function, the Galilean invariance up to a total derivative, the Hessian mu(1 - 2 Gt M/(r v*^2)) with zero at r* = 2 Gt M/v*^2, the Hamiltonian inverse inertia, the first-order Hamiltonian with its O(Gt^2) difference, the Newton-times-gate force, and the CM conservation only for the relative-velocity argument are all verified.",
+   "independent_check": "v3_mechanics.py (Gaussian W): 'energy function - [sum m v^2/2 - Gt m1 m2 (W - w W')/r] zero: True'; 'L(boosted) - L - [u.(m1 v1 + m2 v2) + M u^2/2] zero: True'; 'Lagrangian Hessian at v_rel = 0: m1*m2*(-2*Gtilde*m1 - 2*Gtilde*m2 + r*v_star**2)/(r*v_star**2*(m1 + m2)) * I ; ... zero at r = [2*Gtilde*(m1 + m2)/v_star**2]'; 'Hamiltonian inverse inertia at p = 0 equals (1/mu)(1 + 2 Gt M/(r v*^2)): True'; 'gate arg |p1/m1 - p2/m2|/v* : pdot1 = Newton x gate: True; CM drift zero: True'; 'gate arg |p1 - p2|/(m1 v*) : ... CM drift zero: False'; 'model b: H(v(p)) - [...] vanishes at O(Gt^0) and O(Gt^1): True ; nonzero at O(Gt^2): True'."
+  },
+  {
+   "claim_id": "P13",
+   "verdict": "corrected",
+   "reason": "Re-derived with an independent adaptive Dormand-Prince integrator. The leading-order formula and the small-GM/(a v*^2) ratios reproduce, and so does the orbit-average method on GR's 6 pi. Three statements are wrong. (1) Beyond GM/(a v*^2) of about 0.1 the shift does not 'saturate at about 0.2-0.3 rad'. At fixed e = 0.3 its magnitude peaks near 0.32 rad around GM/(a v*^2) = 0.3, falls through zero near 1, and is prograde (+0.64 rad) at 2. A first-order-in-beta, all-orders-in-p^2 orbit average confirms the shape and the sign reversal. The agent's own table, with e not held fixed, already shows a peak (0.186, 0.313, 0.176). So 'retrograde' holds only for orbital speeds below about v*. (2) The flyby deflections are 2.3166 rad at v_inf = 0.1, not 2.3185, and 1.2147 at 0.3, not 1.2154. The agent starts at R0 = 2e4 with p = v_inf, so its asymptotic speed and impact parameter are off by about 1% at v_inf = 0.1. (3) That is why its beta = 0 'validation' gives 2.748730 rather than Rutherford's 2.746802. Mine gives 2.746802. The qualitative flyby conclusions stand.",
+   "corrected_statement": "For orbital speeds well below v* the gated precession is -4 pi beta GM/(a v*^2 (1-e^2)) per orbit, retrograde, about -4.2e6 beta times GR's rate at v* = 120 km/s (numerics/formula 0.987 at GM/(a v*^2) = 1/300, 0.963 at 1/100). At e = 0.3 it peaks at about 0.32 rad/orbit (beta = 0.2) near GM/(a v*^2) = 0.3, changes sign near 1, and is prograde beyond (+0.64 rad at 2). Flybys (beta = 0.5, b = 20 GM/v*^2): 2.3166 rad at v_inf = 0.1 v* (Rutherford for G: 2.7468), 1.2147 at 0.3 v* (1.0142), 0.011112 at 3 v* (0.011111).",
+   "independent_check": "v4_gated_orbits.py: 'secular precession per orbit from delta H = b p^2/r on a Kepler orbit of strength K: 4*pi*b/(a*(e**2 - 1))'; 'method check, GR test-mass 1PN Hamiltonian -> precession per orbit: -6*pi/(a*(e**2 - 1))'; '0.0033  -9.079872e-03  -9.196772e-03   0.9873'; '0.0100  -2.650773e-02  -2.753559e-02   0.9627'; 'validation beta = 0, v_inf = 0.1: theta = 2.746802, Rutherford = 2.746802'; '0.1  2.316598 (R0=1e7, tighter tol: 2.316598)  R_G = 2.746802'; '0.3  1.214650 ... R_G = 1.014197'; '3.0  0.011112 ... R_G = 0.011111'. v4b_precession_scan.py (e tuned to 0.300): '0.10  -1.9438e-01 ... 0.704'; '0.30  -3.2093e-01 ... 0.387'; '0.50  -2.9915e-01 ... 0.217'; '1.00  -1.3234e-02 ... 0.005'; '2.00   6.3966e-01  -5.5237e+00  -0.116'. v4c_first_order_beta.py: '0.30  -3.9248e-01'; '1.00   4.0047e-02'; '2.00   6.1760e-01'. Agent's p3_momentum_mechanics.py line 219: y = np.array([-R0, b, vinf, 0.0]) with R0 = 2.0e4."
+  },
+  {
+   "claim_id": "P14",
+   "verdict": "confirmed",
+   "reason": "Hamilton's equations and the 3.2e-21 force reach at 10 eps (Gaussian smoothing) are verified, as is the equal-mass Galilean caveat. '28-31 orders' is the record's rounding of the ratios 3.9e-28 and 2.9e-31, which are 27.4-30.5 orders.",
+   "independent_check": "v3_mechanics.py: 'pdot1 = g G grad_x1 delta: True ; xdot1 = p1/m1 - g delta dG/dp1: True'; 'Gaussian smoothing: |d delta/dr| max at r = [e_] ; value at 10 eps / max = 10*exp(-99/2) = 3.1799709001977496e-21'; 'p1 - p2 boost shift: [m1*u1 - m2*u1, ...] (zero only for m1 = m2)'. Debt 3a text: 'Fails by 28–31 orders of magnitude.'"
+  },
+  {
+   "claim_id": "P15",
+   "verdict": "confirmed",
+   "reason": "Which gate arguments are invariant, the preferred-frame consequence (CM drift while canonical P is conserved), and k = (p1 - p2)/2 for equal masses are all verified.",
+   "independent_check": "v3_mechanics.py boost shifts and CM-drift lines quoted under P10 and P12. k = (m2 p1 - m1 p2)/M reduces to (p1 - p2)/2 at m1 = m2 by inspection."
+  },
+  {
+   "claim_id": "P16",
+   "verdict": "confirmed",
+   "reason": "The eps/beta numbers reproduce (inputs illustrative, as tagged). The dual-inertia reading is right: H = x^2/2m~ gives pdot = -x/m~, and with a dual potential m~ pddot = -V~'(p), i.e. resistance to force change. One convention matters: Debt 3a's co-moving fraction (v*/sigma)^3/(2 pi)^{3/2} = 0.0295. A Gaussian gate averaged over the relative-velocity Maxwellian gives (v*/sigma)^3/8 = 0.058, a factor of 2.",
+   "independent_check": "v5_numbers.py: 'Earth orbit (v_orb = 29.8) : eps/beta = 2|Phi|/v*^2 = 0.1233'; 'MW at Sun (v_c = 230) : 7.3472'; 'classical dwarf 3 sigma^2, sigma = 10 : 0.0417'; 'UFD 3 sigma^2, sigma = 4 : 0.0067'; 'record's co-moving fraction (Debt 3a) at sigma = 155: 0.0295; times MW eps/beta = 0.2165'; 'alternative convention ...: 0.0580'."
+  },
+  {
+   "claim_id": "P17",
+   "verdict": "confirmed",
+   "reason": "The chain forces M_X > 0 and sets no scale, and the range is a property of the field, the same for every source. Two caveats from P5 and P9 apply. The 37.7 um statement assumes the bimetric (frame) reading of the SM coupling. It also excludes only the window above 37.7 um, not ranges far beyond the Solar System.",
+   "independent_check": "Read #11 sec. 7.1 and #6 sec. 1-3; the diameter note gives M_X 'with no value in the record'. v5_numbers.py: 'lambda = 1 kpc: M_X c^2 = 6.3949e-27 eV; hbar H0 = 1.4377e-33 eV; (M_X/H0)^2 = 1.9784e+13; c/H0 = 4.448 Gpc'."
+  },
+  {
+   "claim_id": "P18",
+   "verdict": "confirmed",
+   "reason": "Each route and the contradiction it brings matches the record, and the numbers reproduce. Three minor notes. gamma = 5/7 holds only at r << lambda_X; at galaxy scales r ~ lambda_X the effective gamma depends on scale. 1/Lambda_3 is 42.6 m with the reduced Planck mass and 24.9 m with the full one. The Enander-Mortsell [S] is the diameter note's live-search tag; its title, 'Strong lensing constraints on bimetric massive gravity', is in the note's references.",
+   "independent_check": "v5_numbers.py: 'Vainshtein r_V ... u = 1, lambda = 1 kpc, Sun: 1.778e+14 m = 1.189e+03 AU'; '1e10 Msun: 3.831e+17 m = ... 1.242e+01 pc'; 'Lambda_3 = (M_X^2 M_Pl)^(1/3): reduced M_Pl -> 4.635e-09 eV, 1/Lambda_3 = 42.57 m; non-reduced -> 1/Lambda_3 = 24.87 m'; '(M_X/H0)^2 = 1.9784e+13'. Diameter note sec. 8.2: 'the bimetric vacuum energy is of the order of the spin-2 mass squared'."
+  },
+  {
+   "claim_id": "P19",
+   "verdict": "corrected",
+   "reason": "The agent used the classical Coulomb log ln(mu v^2 lambda/A). The parameter A/(hbar v) is about 1e-5 for the required strength and 4e-37 for X, so both cases are in the Born regime, where the log is ln(2 mu v lambda/hbar) - 1/2. The conclusion is unchanged; the X ratio moves by a factor of 7.",
+   "corrected_statement": "With the Born-regime log, a kpc-range chi-chi force giving sigma_T = sigma0 at 30 km/s needs A = 1.17e-9, i.e. 3.6e31 G m_chi^2 (the agent had 1.08e-9 and 3.3e31). X at alpha = 4/3 and 37.7 um gives sigma_T/sigma0 = 2.8e-64, not 2e-63.",
+   "independent_check": "v5_numbers.py: 'classical-log solution: A = 1.0845e-09, ln = 79.9, A/(G m^2) = 3.2990e+31'; 'Born (quantum) solution: A = 1.1699e-09, ln(2 mu v lambda) - 1/2 = 68.7, A/(G m^2) = 3.5588e+31'; 'Sommerfeld/Born parameter A/(hbar v) = 1.17e-05'; 'X at alpha = 4/3, 37.7 um, 30 km/s: classical log sigma_T = 7.433e-87 cm^2 (ratio 1.99e-63); Born sigma_T = 1.041e-87 cm^2 (ratio 2.78e-64); A/(hbar v) = 4.4e-37'. Born sigma_T derived as (2 pi A^2/(mu^2 v^4))[ln(1+x) - x/(1+x)], x = (2 mu v lambda)^2."
+  },
+  {
+   "claim_id": "P20",
+   "verdict": "confirmed",
+   "reason": "The arithmetic reproduces. With the full numerics in place of the leading-order formula, the gated shift at Mercury's GM/(a v*^2) = 0.16 is about 0.6 times the formula: the ratio is 0.70 at 0.1 and 0.52 at 0.2 for e = 0.3. Equality with GR then needs beta of about 4e-7. 'Below GR's own precession' is a much weaker criterion than the measured precision allows. The model gates bodies by their bulk velocities, which a constituent-level gate would not do (missed issues).",
+   "independent_check": "v5_numbers.py: 'GM/(a v*^2) = 0.1591; gated leading-order = -2.0882 beta rad/orbit; GR = 5.0187e-07 rad/orbit; beta for equality = 2.40e-07'. v4b_precession_scan.py: '0.10 ... 0.704'; '0.20  -2.8565e-01  -5.5237e-01   0.517'."
+  },
+  {
+   "claim_id": "P21",
+   "verdict": "confirmed",
+   "reason": "R1-R6 agree with the verified pieces. Qualifiers: in R6, the 'about 4e6 times GR per unit beta' rate holds only for orbital speeds well below v* (see P13: the shift peaks, then turns prograde). 'Excluded on ordinary matter unless beta of about 1e-7' assumes bulk-velocity gating. R1's spin-2 factor at 100 km/s is (3/2)(v/c)^2 = 1.7e-7.",
+   "independent_check": "Composed from v1-v5. v1: 'series Fierz-Pauli: 1 + 3*v**2/2 ...'; v4b: '2.00   6.3966e-01' (prograde)."
+  },
+  {
+   "claim_id": "P22",
+   "verdict": "confirmed",
+   "reason": "The record reading is right: Debt 3a collapses the x-range to contact, and Debt 3b's Setup says 'the gated contact attraction adds a channel'. g is fixed by sigma0, and the shortfall is the record's. The mean field of model (b) does carry a 1/k^2 kernel. The one unsupported number is 'strength ≲ G', which is an assumption. My estimate (missed issues) shows that even at beta = 1, model (b) has narrow-gate Jeans lengths larger than the halo scales, so it would not produce velocity clumping.",
+   "independent_check": "Debt 3a and Debt 3b Setup sections read directly. v7_body_gate_and_jeans.py: 'MW solar circle : co-moving fraction 0.029; lambda_J(beta = 1) = 184.1 kpc; beta needed for lambda_J = 1 kpc: 3.39e+04'; 'MW inner 1 kpc : co-moving fraction 0.063; lambda_J(beta = 1) = 25.1 kpc; beta needed for lambda_J = 1 kpc: 6.29e+02'."
+  }
+ ],
+ "missed_issues": [
+  "Reading not addressed: the chat's own 'momentum gravity' image includes 'Momentum-space black holes: velocity traps' (HANDOFF sec. 4). #12 says the framework 'has not yet constructed' the trapped-in-momentum object. Under the program's kinematics (H = p^2/2m + U(p)), the agent's own P10 result (pdot = 0) shows that a momentum-only potential cannot trap velocities. A velocity trap needs the Born-swapped kinetic term x^2/2m~, which chi does not have (#11 sec. 8). Claude can answer this reading with P10.",
+  "For 'two massive bodies', particle-level and body-level gating differ. The record's gate is a property of each chi quantum (mu = the quantum's own fiber width, #6 sec. 4). In a long-range model (b), the force between two extended bodies is the gate averaged over constituent pairs. For a Gaussian gate and Maxwellian bodies, <W> = (1 + 2s^2/v*^2)^(-3/2) exp(-V^2/(v*^2 + 2s^2)), with s^2 = s1^2 + s2^2 and V the bulk relative velocity (checked against quadrature). Only cold bodies show a sharp dependence on V. For s = 10 km/s: 0.979 at V = 0, 0.494 at V = 100 km/s, 0.0021 at V = 300 km/s. For s = 150: 0.119, 0.101, 0.026, with effective width 244 km/s. Bound ordinary matter would see a nearly shut gate (electrons ~2000 km/s give about 3e-4), and a composition-dependent one. So P13 and P20's bulk-velocity gating of ordinary bodies is not what a constituent-level gate gives; equivalence-principle tests would set that bound instead. Script: v7_body_gate_and_jeans.py.",
+  "Model (b) at gravitational strength would not bring back velocity clumping (rough estimate: homogeneous medium, Debt 3a's co-moving fraction). The narrow-gate Jeans length lambda_J = 2 pi v*/sqrt(4 pi beta G rho_gate) is 184 kpc at the MW solar circle and 25 kpc in the inner MW at beta = 1. Reaching 1 kpc needs beta of 3.4e4 and 6.3e2. In dwarfs (sigma < v*) every pair is inside the gate, so the gated term only rescales chi-chi gravity, G -> (1+beta)G: no velocity selectivity, and an O(beta) dark-sector equivalence-principle violation. This bears directly on Paul's 'obituary is premature': the untested long-range model fails on the same strength gap as the contact model. Script: v7_body_gate_and_jeans.py.",
+  "Model (b) is non-perturbative on galactic scales. The agent reports eps = 2 beta |Phi|/v*^2 (P16) and the zero-inertia radius r* = 2 beta GM/v*^2 (P12) but does not connect them. eps = 1 at beta = 0.136 for the MW at the Sun if all matter is gated, and at beta = 4.6 for chi with the 0.0295 co-moving fraction. r*/beta is 0.123 AU for the Sun and 59.7 kpc for a 1e11 Msun point mass. So the Lagrangian (velocity-gated) form loses its inertia inside galaxies at beta of order 0.1-1. The first-order canonical Hamiltonian used in all the numerics is not a controlled approximation there, and the two forms are different theories. Script: v7_body_gate_and_jeans.py part (3).",
+  "Record-level issue worth a wiki-build flag. The diameter note's 'the momentum graviton's range must be below about 38 micrometres, whatever sets its mass' (sec. 8 plain-language passage, sec. 9 summary) states the lower edge of a torsion-balance exclusion window as an absolute bound. The large-lambda side, beyond the Solar System, is constrained only by gamma_PPN-type tests if the mode is unscreened, and not by them if it is Vainshtein-screened. The agent noted the gap in P9 but did not flag it as a record error.",
+  "Process. The program agent reports reading the orchestrator's pre-registration (mg/STATE.md, marked 'not shown to agents') before its analysis. Its conclusions are therefore not blind to the expected verdict, against CLAUDE.md's pre-registration rule. This verifier did not open STATE.md, and its checks are independent of it.",
+  "Minor: the record's own 'fails by 28-31 orders' is the rounding of the ratios 3.9e-28 and 2.9e-31 (27.4-30.5 orders). The agent repeats it unchanged, as it should for a record quote."
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v1_spin2_fokker.py (output v1_spin2_fokker.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v2_ppn_cassini.py (output v2_ppn_cassini.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v3_mechanics.py (output v3_mechanics.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v4_gated_orbits.py (output v4_gated_orbits.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v4b_precession_scan.py (output v4b_precession_scan.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v4c_first_order_beta.py (output v4c_first_order_beta.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v5_numbers.py (output v5_numbers.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v6_siegel_blocks.py (output v6_siegel_blocks.out)",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/verify-program-derivation/v7_body_gate_and_jeans.py (output v7_body_gate_and_jeans.out)",
+  "Record scripts rerun unmodified for printed output: /home/paul/git/reinholdtsen/conjugate-matter/verify/phase_space_diameter.py and /home/paul/git/reinholdtsen/conjugate-matter/review/wiki-build-checks/debt3a_check.py (repository unchanged; git status shows only the pre-existing untracked .claude/)"
+ ],
+ "overall": "No claim is refuted. Every analytic core was re-derived without reading the agent's scripts first, and the results agree:\n- the spin-2 tensor factors, (3γ²−1)/2 for X against 2γ²−1 for the graviton, by a different route (the Fokker action rather than amplitudes);\n- the EIH O(G) velocity terms, the Darwin terms and the massive-mode velocity terms, with the EIH form checked against Kol–Smolkin [S];\n- γ_PPN = (α+2)/(2(α+1)), three independent ways;\n- Hamilton's equations, Galilean invariance, centre-of-mass drift and inertia shifts for models a–c;\n- the Siegel block structure;\n- all record readings.\n\nFour claims are corrected:\n- P8: the retardation piece of the massive mode is missing its prefactor αGm₁m₂/c².\n- P9: excluding a kpc-range X by Cassini holds only if X is unscreened. Vainshtein screening at about 10³ AU would remove that test.\n- P13: beyond GM/(a v*²) ≈ 0.1 the gated precession does not saturate. At fixed e = 0.3 it peaks near 0.32 rad per orbit around GM/(a v*²) ≈ 0.3, crosses zero near 1, and is prograde beyond. The flyby values shift slightly, to 2.3166 and 1.2147 rad, because the agent started at a finite distance; this is also why its β = 0 check missed Rutherford.\n- P19: both cases are in the Born regime, so the Coulomb log is the quantum one. A = 1.17×10⁻⁹ (3.6×10³¹ G m_χ²), and σ_T/σ0 for X is 2.8×10⁻⁶⁴.\n\nNone of the corrections changes the answer to Paul. In the program as written, X between ordinary bodies is a gravitational-strength Yukawa term below 37.7 μm whose only velocity dependence is O(v²/c²). The only relative-velocity gate acts between χ particles, at contact. A long-range velocity-gated perturbation (model b) is a different model that the program does not supply.\n\nAdditions Claude should carry:\n1. Model (b) at gravitational strength would not produce velocity clumping either. Its narrow-gate Jeans lengths are 25–184 kpc at β = 1, and β ~ 10³–10⁴ is needed for kpc scales. In dwarfs it only rescales χ–χ gravity.\n2. Model (b) is non-perturbative in galaxies: ε ≈ 7β, and r* ≈ 60β kpc for 10¹¹ M_⊙.\n3. A gate that acts particle by particle makes the force between two bodies depend on their bulk relative velocity only when both are cold (internal dispersion ≲ v*). Ordinary matter would see an almost shut gate, and one that depends on composition.\n4. The chat-only 'velocity traps' reading is answered by P10.\n5. The diameter note's 'below 37.7 μm whatever sets its mass' leaves out the large-range side of the window; this is a candidate flag.\n6. The program agent saw the pre-registration before its analysis."
+}

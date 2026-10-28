@@ -1,0 +1,26 @@
+kappa^2=19.7392: right rect wind(D)=-0.000, wind(det B_N)=[ 0.  0.  0. -0. -0.] -> coupled zeros (Re>0.01) = +0.000 [644 evals, 116s]
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_roots.py:31: RuntimeWarning: overflow encountered in scalar divide
+  z2 = z1 - f1*(z1 - z0)/(f1 - f0)
+/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py:59: RuntimeWarning: invalid value encountered in divide
+  zeta = kappa*z/(kappa*z - w)
+Traceback (most recent call last):
+  File "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled2.py", line 27, in <module>
+    z0 = complex(xs[j], ys[i]); z, res = secant(f, z0, z0*(1+0.01j) + 0.005)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_roots.py", line 34, in secant
+    f1 = f(z1)
+         ^^^^^
+  File "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled2.py", line 21, in <lambda>
+    f = lambda w: funcs(m, k, w)['coupled']
+                  ^^^^^^^^^^^^^^
+  File "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_roots.py", line 13, in funcs
+    tau, ub = model.spectral(kappa, w)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py", line 62, in spectral
+    tau, V = np.linalg.eig(T)
+             ^^^^^^^^^^^^^^^^
+  File "/home/paul/git/reinholdtsen/conjugate-matter/.venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py", line 1499, in eig
+    _assert_finite(a)
+  File "/home/paul/git/reinholdtsen/conjugate-matter/.venv/lib/python3.12/site-packages/numpy/linalg/_linalg.py", line 263, in _assert_finite
+    raise LinAlgError("Array must not contain infs or NaNs")
+numpy.linalg.LinAlgError: Array must not contain infs or NaNs

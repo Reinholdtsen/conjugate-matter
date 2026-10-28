@@ -1,0 +1,70 @@
+=== K2: gate radius v*/H (proper) and (1+z) v*/H (comoving), v* = 120 km/s ===
+  z= 3402.00: H= 10604770.33 km/s/Mpc  proper     0.0113 kpc  comoving   0.0385 Mpc
+  z= 1089.92: H=  1565019.81 km/s/Mpc  proper     0.0767 kpc  comoving   0.0836 Mpc
+  z=  100.00: H=    38948.84 km/s/Mpc  proper     3.0810 kpc  comoving   0.3112 Mpc
+  z=   10.00: H=     1383.02 km/s/Mpc  proper    86.7665 kpc  comoving   0.9544 Mpc
+  z=    3.00: H=      307.80 km/s/Mpc  proper   389.8591 kpc  comoving   1.5594 Mpc
+  z=    0.00: H=       67.36 km/s/Mpc  proper  1781.4727 kpc  comoving   1.7815 Mpc
+  min aH = 59.174 km/s/Mpc at z = 0.6312; s_c,max = 2.0279 Mpc; analytic q=0 point a^3 = Om/(2 OL) (radiation neglected): z = 0.6318
+
+=== K5: kernels at the pivot (k_p v* = 1.08 at z=3; s_c(z) = v*/(aH)) ===
+  z= 1089.92: y=0.0579  RA=0.0034  R1(force-law density kernel)=0.0011  Rv=0.0020  B=-0.0047  yJ=-0.0022
+  z=   50.00: y=0.3055  RA=0.0905  R1(force-law density kernel)=0.0305  Rv=0.0548  B=-0.1250  yJ=-0.0599
+  z=   10.00: y=0.6610  RA=0.3785  R1(force-law density kernel)=0.1337  Rv=0.2366  B=-0.4979  yJ=-0.2448
+  z=    3.00: y=1.0800  RA=0.8031  R1(force-law density kernel)=0.3115  Rv=0.5364  B=-0.9386  yJ=-0.4917
+
+=== singular-inertia threshold (readings i, ii): min_y B(y) ===
+  gauss: min B = -1.0712 at y = 1.413; max B = +1.0003; 1 + kappa B = 0 at kappa = 0.934 (i), 1 - kappa B = 0 at kappa = 1.000 (ii); kappa = eps Omega_c(a)/2, Omega_c(z=10) = 0.835
+  rational: min B = -0.5929 at y = 0.944; max B = +1.0000; 1 + kappa B = 0 at kappa = 1.687 (i), 1 - kappa B = 0 at kappa = 1.000 (ii); kappa = eps Omega_c(a)/2, Omega_c(z=10) = 0.835
+
+=== K7 variant: agent's system without anti-drag, v*=120 (agent: 0.0345) ===
+  matter bound = 0.0346
+
+=== K8: eBOSS compressed (0.310 +- 0.020, -2.340 +- 0.006, r = 0.512) per reading ===
+  agent v*=  30: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.02246
+  agent v*= 120: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.00183
+  agent v*= 300: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.00089
+  iii   v*=  30: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.05046
+  iii   v*= 120: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.00377
+  iii   v*= 300: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.00130
+  i     v*=  30: chi2(eps=0) = 26.31, best eps = 0.3100 (chi2 = 2.49, T^2 = 0.9847, dn = -0.0303), upper bound = 0.44055
+  i     v*= 120: chi2(eps=0) = 26.31, best eps = 0.0540 (chi2 = 1.89, T^2 = 0.9718, dn = -0.0318), upper bound = 0.07443
+  i     v*= 300: chi2(eps=0) = 26.31, best eps = 0.0000 (chi2 = 26.31, T^2 = 1.0000, dn = +0.0000), upper bound = 0.00096
+
+=== K9: BOSS-scale mapping per reading (excess at k = 0.2 h/Mpc, z = 0.57) ===
+  ungated beta = 0.0048 excess = 0.0374 (agent: 0.0377)
+  agent: v*=120: 0.5016; v*=300: 0.0852; v*=1000: 0.0135; v*=2000: 0.0081; v*=3000: 0.0067
+  iii  : v*=120: 1.1319; v*=300: 0.1886; v*=1000: 0.0252; v*=2000: 0.0126; v*=3000: 0.0096
+  i    : v*=120: nan (min excess -0.5195); v*=300: nan (min excess -0.9999); v*=1000: 7.8878 (min excess -0.9975); v*=2000: 0.0194; v*=3000: 0.0122
+
+=== K10: peculiar-velocity gate under the Hamiltonian reading ===
+  z=0.0: kappa_pec/eps (R = c/H, v* = 120) = 1.238e+06;  Hubble-flow gate kappa/eps = 0.132
+  z=3.0: kappa_pec/eps (R = c/H, v* = 120) = 3.794e+06;  Hubble-flow gate kappa/eps = 0.405
+
+=== K11: T_m^2 at k = 10/Mpc, z = 3, at each reading's DESI matter boundary ===
+  agent v*= 120 eps=0.0285: T_m^2(10/Mpc, z=3) = 1.209
+  agent v*=  10 eps=3.0865: T_m^2(10/Mpc, z=3) = 23.890
+  iii   v*= 120 eps=0.0585: T_m^2(10/Mpc, z=3) = 1.350
+  iii   v*=  10 eps=6.9609: T_m^2(10/Mpc, z=3) = 43.975
+  i     v*= 120 eps=0.0573: T_m^2(10/Mpc, z=3) = 1.326
+  i     v*=  10 eps=3.1347: T_m^2(10/Mpc, z=3) = 0.009
+
+=== K13-K15: Gaussian gate averaged over a Maxwellian relative velocity ===
+  Sgr: V=311.1, s^2 = 149.9^2 + 12^2                 v*=  120: closed 6.5645e-02  numeric 6.5645e-02
+  Bullet inter-cluster: V=2600, s^2 = 1250^2 + 210^2 v*=  120: closed 1.0407e-04  numeric 1.0407e-04
+  Bullet within main: V=0, s = sqrt2*1250            v*=  120: closed 3.1065e-04  numeric 3.1065e-04
+  dSph sigma=10: V=0, s = sqrt2*10                   v*=  120: closed 9.7952e-01  numeric 9.7952e-01
+  MW sigma=155: V=0, s = sqrt2*155                   v*=  120: closed 1.1072e-01  numeric 1.1072e-01
+  dSph sigma=10 at v*=30                             v*=   30: closed 7.4007e-01  numeric 7.4007e-01
+  Sgr translated limit (eps <W> < 0.1): eps < 1.523
+  Sgr, Hamiltonian reading, isothermal host truncated at 200 kpc (assumed): |Phi_N| = 1.529e+05 km^2/s^2, eta_perp/eps = +0.271, eta_par/eps = -0.438, direct force <W> = 0.066
+  Sgr, Hamiltonian reading, isothermal host truncated at 300 kpc (assumed): |Phi_N| = 1.711e+05 km^2/s^2, eta_perp/eps = +0.303, eta_par/eps = -0.490, direct force <W> = 0.066
+
+=== K16: Rutherford/Born transfer cross-section, m = 70 MeV, Gt = G ===
+  v=  10 km/s: eta = 9.86e-37, Born lnLambda(b=1 kpc) = 67.57, sigma_T/m = 1.888e-60 cm^2/g
+  v=  30 km/s: eta = 3.29e-37, Born lnLambda(b=1 kpc) = 68.67, sigma_T/m = 2.369e-62 cm^2/g
+  v= 100 km/s: eta = 9.86e-38, Born lnLambda(b=1 kpc) = 69.87, sigma_T/m = 1.952e-64 cm^2/g
+  v= 300 km/s: eta = 3.29e-38, Born lnLambda(b=1 kpc) = 70.97, sigma_T/m = 2.448e-66 cm^2/g
+  G~/G for 30 cm^2/g at 30 km/s: 3.559e+31;  fraction of sigma_T from theta>90 deg: 0.0050
+
+[exited with code 0]

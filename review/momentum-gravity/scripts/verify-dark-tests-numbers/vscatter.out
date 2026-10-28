@@ -1,0 +1,8 @@
+m = 70 MeV = 1.2479e-28 kg ; kappa = G m^2 = 1.0393e-66 J m
+v=  10 km/s: eta = 9.855e-37 ; Born numeric sigma_T/m = 1.888e-60 cm^2/g ; Born log 67.57 ; classical log 150.28 (ratio 2.22)
+v=  30 km/s: eta = 3.285e-37 ; Born numeric sigma_T/m = 2.369e-62 cm^2/g ; Born log 68.67 ; classical log 152.48 (ratio 2.22)
+v= 100 km/s: eta = 9.855e-38 ; Born numeric sigma_T/m = 1.952e-64 cm^2/g ; Born log 69.87 ; classical log 154.89 (ratio 2.22)
+v= 300 km/s: eta = 3.285e-38 ; Born numeric sigma_T/m = 2.448e-66 cm^2/g ; Born log 70.97 ; classical log 157.09 (ratio 2.21)
+G~/G needed for 30 cm^2/g at 30 km/s: 3.559e+31 (sigma scales as G~^2; Born log independent of G~)
+ratio to benchmark at G~ = G: 7.896e-64
+fraction of sigma_T from theta > 90 deg (Born, 30 km/s, b=1 kpc): 0.0050

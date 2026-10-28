@@ -1,0 +1,29 @@
+mu/m = 2.8571e-04 ; v* = sqrt2 mu/m c = 121.1 km/s ; v_a = sqrt2 v* = 2 mu/m c = 171.3 km/s
+hbar/(mu c) = 9866 fm = 9.87 pm  (range of the nonlocality / of the R1 potential)
+hbar/(M_X c) at M_X = 2 mu = 40 keV: 4.93 pm
+(m/mu)^2 = 1.225e+07  (cancellation needed for a k-scale mu in the degree-2 numerator)
+
+-- t-channel X exchange (minimal coupling) vs the record's gate, forward amplitude --
+  v [km/s]          k/m   X: N(k)/N(0)-1 gate exp(-k^2/mu^2) sigma gate e^-v2/v*2
+      50.0   8.3391e-05       4.1724e-08         9.1834e-01         8.4335e-01
+     120.0   2.0014e-04       2.4033e-07         6.1221e-01         3.7480e-01
+     171.3   2.8570e-04       4.8974e-07         3.6792e-01         1.3537e-01
+     300.0   5.0035e-04       1.5021e-06         4.6573e-02         2.1690e-03
+    1500.0   2.5017e-03       3.7552e-05         5.0498e-34         2.5501e-67
+X-exchange k-dependence reaches O(1) (6k^2/m^2 = 1) at v_rel = 244780 km/s = 0.816 c ; ratio to v_a: 1429
+
+-- no polynomial of degree 2 in x = k^2/mu^2 with P(0) = 1 can gate --
+x range [1, 76.7] (v from v_a to 1500 km/s); Chebyshev minimax bound 1/T_2(1.02643) = 0.90324 ; max|P*| on grid = 0.90324 ; P*(0) = 1.000
+random search over (b1, b2), 2e5 trials: best max|P| = 0.90378 (never below the bound)
+Gaussian amplitude gate over the same range: from 3.679e-01 to 5.050e-34
+
+-- record's benchmark arithmetic (contact Born, alpha~ = 1, m_phi = m_chi) --
+sigma0 = 16 pi / m^2 = 3.9944e-24 cm^2 ; sigma0/m = 32.01 cm^2/g ; m for 30 cm^2/g: 71.5 MeV
+
+-- resonant route: zero-energy state with 1/a = mu --
+sigma(k->0) = 4 pi a^2 = 1.2233e-17 cm^2 ; sigma/m = 9.803e+07 cm^2/g ; ratio to 30 cm^2/g: 3.27e+06
+
+-- preferred-frame vertex: suppression exp(-m^2 V^2/mu^2) = exp(-2 V^2/v*^2) of a pair moving at V --
+  V =  100 km/s : 2.559e-01
+  V =  300 km/s : 4.705e-06
+  V =  600 km/s : 4.899e-22

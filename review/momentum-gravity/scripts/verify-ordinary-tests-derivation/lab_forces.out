@@ -1,0 +1,24 @@
+=== (1) held body on the rotating Earth: generalized force on the exact trajectory ===
+  Q.rhat * R^2/GMm = epsilon*u*cos(phi)*Subs(Derivative(W(_xi_1), _xi_1), _xi_1, u*Abs(cos(phi))/cos(phi))/Abs(cos(phi)) - epsilon*W(u*Abs(cos(phi))/cos(phi))*sin(phi)**2 - epsilon*W(u*Abs(cos(phi))/cos(phi))*cos(phi)**2 - sin(phi)**2 - cos(phi)**2
+  [expected -(1 + eps (W(u) - u W'(u))) with u = Omega R cos(phi)/v*]
+  Q.north * R^2/GMm = -epsilon*u*tan(phi)*Derivative(W(u), u)   [plumb-line tilt term]
+
+=== (2) free fall from co-moving with the surface: a = M^-1 dL/dr ===
+  v_c^2 = GM/R = 62.49 km^2/s^2 (v_c = 7.905 km/s)
+  gauss   v*= 0.1 km/s, (g_ff/g_N - 1)/eps: lat   90:   1.25e+04; lat   80:       6511; lat   60:      56.01; lat   45:     0.2509; lat    0:          0
+  gauss   v*= 0.3 km/s, (g_ff/g_N - 1)/eps: lat   90:       1390; lat   80:       1293; lat   60:        762; lat   45:      417.9; lat    0:      125.6
+  gauss   v*= 1.0 km/s, (g_ff/g_N - 1)/eps: lat   90:        126; lat   80:      125.2; lat   60:      119.4; lat   45:      113.1; lat    0:      101.5
+  lorentz v*= 0.1 km/s, (g_ff/g_N - 1)/eps: lat   90:   1.25e+04; lat   80:       4579; lat   60:      304.5; lat   45:      89.61; lat    0:      24.45
+  lorentz v*= 0.3 km/s, (g_ff/g_N - 1)/eps: lat   90:       1390; lat   80:       1208; lat   60:      542.5; lat   45:      286.9; lat    0:      120.2
+  lorentz v*= 1.0 km/s, (g_ff/g_N - 1)/eps: lat   90:        126; lat   80:      124.4; lat   60:      113.4; lat   45:      102.7; lat    0:      85.31
+  pole, analytic: (g_ff/g_N - 1)/eps -> 1 + 2 v_c^2/v*^2 = v*=0.1: 1.25e+04; v*=0.3: 1390; v*=1.0: 126
+  inertia at the pole: m_eff/m = 1 - 2 eps v_c^2/v*^2 -> zero at eps = v*=0.1: 8e-05; v*=0.17: 0.000231; v*=0.3: 0.00072; v*=1.0: 0.008
+  Gaussian, satellite at 7.6 km/s, v*=0.1: K(u_sat) = 0
+  Gaussian, satellite at 7.6 km/s, v*=0.3: K(u_sat) = 2.44e-276
+  Gaussian, satellite at 7.6 km/s, v*=1.0: K(u_sat) = 9.58e-24
+
+=== (3) spinning horizontal rotor at latitude phi: vertical (lab-up) force factor ===
+  Gaussian v_rim=60 m/s v*=0.1 lat=48.8: Delta(factor) correct +2.956e-03; agent's <K(u_el)> +2.480e-03
+  Gaussian v_rim=30 m/s v*=0.1 lat=35.7: Delta(factor) correct +1.210e-05; agent's <K(u_el)> +1.105e-05
+  Gaussian v_rim=60 m/s v*=0.3 lat=48.8: Delta(factor) correct -1.374e-02; agent's <K(u_el)> -1.414e-02
+  Gaussian v_rim=60 m/s v*=1.0 lat=48.8: Delta(factor) correct -2.069e-03; agent's <K(u_el)> +8.948e-04

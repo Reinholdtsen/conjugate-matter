@@ -1,0 +1,37 @@
+=== P2 ===
+G m_chi^2/(hbar c) = 3.2873e-41;  alpha~/(G m_chi^2) at alpha~ = 1: 3.0420e+40
+range hbar/(m_chi c) = 2.8190e-15 m
+sigma0 = 30 cm^2/g x m_chi = 3.7436e-24 cm^2
+Debt-3a g = 4 pi alpha~/m_phi^2 at m_phi = m_chi = 70 MeV: 2.5646e+03 GeV^-2;  sqrt(pi sigma0/m^2) = 2.4828e+03 GeV^-2
+=== P4 (chi-nucleon via single X exchange, contact Born, factorised couplings) ===
+(mu_chiN/(m/2))^2 = 3.4639; alpha G m_N^2 = 7.8748e-39; sigma_chiN/sigma_chichi = 2.7277e-38; sigma_chiN = 1.0212e-61 cm^2
+=== P6 ===
+v =    30 km/s: m_chi v = 7.005 keV; hbar/(m_chi v) = 2.817e-11 m; 37.7 um / that = 1.338e+06
+v =   120 km/s: m_chi v = 28.019 keV; hbar/(m_chi v) = 7.043e-12 m; 37.7 um / that = 5.353e+06
+v =  1000 km/s: m_chi v = 233.495 keV; hbar/(m_chi v) = 8.451e-13 m; 37.7 um / that = 4.461e+07
+=== P17, P18 ===
+lambda = 1 kpc: M_X c^2 = 6.3949e-27 eV; hbar H0 = 1.4377e-33 eV; (M_X/H0)^2 = 1.9784e+13; c/H0 = 4.448 Gpc
+Vainshtein r_V = (r_S (1+u^2) lambda^2)^(1/3), u = 1, lambda = 1 kpc, Sun: 1.778e+14 m = 1.189e+03 AU = 5.763e-03 pc
+Vainshtein r_V = (r_S (1+u^2) lambda^2)^(1/3), u = 1, lambda = 1 kpc, 1e10 Msun: 3.831e+17 m = 2.561e+06 AU = 1.242e+01 pc
+Lambda_3 = (M_X^2 M_Pl)^(1/3): reduced M_Pl -> 4.635e-09 eV, 1/Lambda_3 = 42.57 m; non-reduced -> 1/Lambda_3 = 24.87 m
+Earth Vainshtein radius for lambda = 1 kpc, u = 1: 2.566e+12 m
+=== P19: strength a long-range chi-chi force needs to give sigma_T = sigma0 at 30 km/s ===
+classical-log solution: A = 1.0845e-09, ln = 79.9, A/(G m^2) = 3.2990e+31
+Born (quantum) solution: A = 1.1699e-09, ln(2 mu v lambda) - 1/2 = 68.7, A/(G m^2) = 3.5588e+31
+Sommerfeld/Born parameter A/(hbar v) = 1.17e-05  (<< 1: Born regime, the classical Coulomb log does not apply)
+X at alpha = 4/3, 37.7 um, 30 km/s: classical log sigma_T = 7.433e-87 cm^2 (ratio 1.99e-63); Born sigma_T = 1.041e-87 cm^2 (ratio 2.78e-64); A/(hbar v) = 4.4e-37
+=== P16 ===
+Earth orbit (v_orb = 29.8)              : eps/beta = 2|Phi|/v*^2 = 0.1233
+MW at Sun (v_c = 230)                   : eps/beta = 2|Phi|/v*^2 = 7.3472
+classical dwarf 3 sigma^2, sigma = 10   : eps/beta = 2|Phi|/v*^2 = 0.0417
+UFD 3 sigma^2, sigma = 4                : eps/beta = 2|Phi|/v*^2 = 0.0067
+record's co-moving fraction (Debt 3a) at sigma = 155: 0.0295; times MW eps/beta = 0.2165
+alternative convention (Gaussian gate exp(-v_rel^2/v*^2) over the relative-velocity Maxwellian, dispersion sqrt2 sigma): 0.0580
+=== P20 Mercury ===
+GM/(a v*^2) = 0.1591; gated leading-order = -2.0882 beta rad/orbit; GR = 5.0187e-07 rad/orbit; beta for equality = 2.40e-07
+Mercury orbital speed range: 59.0 to 38.9 km/s
+=== extra: Jeans-type length of a gated 1/r attraction of strength beta G among co-movers (narrow gate) ===
+MW solar circle       : co-moving fraction 0.029; gated Jeans length (beta = 1) = 184.09 kpc; ordinary Jeans length = 40.81 kpc
+MW inner 1 kpc        : co-moving fraction 0.063; gated Jeans length (beta = 1) = 25.08 kpc; ordinary Jeans length = 6.32 kpc
+classical dwarf core  : co-moving fraction 1.000; gated Jeans length (beta = 1) = 5.00 kpc; ordinary Jeans length = 5.00 kpc
+UFD (Segue 1-like)    : co-moving fraction 1.000; gated Jeans length (beta = 1) = 0.06 kpc; ordinary Jeans length = 0.06 kpc

@@ -17,11 +17,12 @@ sources:
   - "notes/broken-born-program-v1.md §11"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "HANDOFF.md §2"
+  - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
 ---
 
 *Scenario B is the alternative to [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island). In it, the smooth cores of dwarf galaxies are made by something other than [conjugate matter](/wiki/dark-matter/conjugate-matter)'s gated attraction, such as the quantum pressure of extremely light wave dark matter or the feedback of ordinary matter, so nothing fixes the strength of that attraction. With the coupling free, it can be set anywhere in a window about ten orders of magnitude wide in which velocity streams form, or outside the window, where they do not. Streams are then possible but never required. That makes them an option the program can accommodate rather than a prediction it is committed to, which in [Lakatos's terms](/wiki/method/lakatosian-methodology) is a sign of a degenerating research programme. The checkpoint keeps the scenario alive but quarantined, among the program's listed degeneration risks.*
 
-**Status:** Alive but quarantined. [Checkpoint #11](/wiki/history/documents/checkpoint) §15 lists the "tunable wave-island collective sector (quarantined)" among its degeneration risks. The statement belongs to #11 §9 (ii), which is tagged [D + T] as a whole; the window is computed in `notes/debt3b-wave-island.md` (calc note #3) at a single mass. Not machine-checked; no `verify/` script covers any Debt-3 number.
+**Status:** Alive but quarantined. [Checkpoint #11](/wiki/history/documents/checkpoint) §15 lists the "tunable wave-island collective sector (quarantined)" among its degeneration risks. The statement belongs to #11 §9 (ii), which is tagged [D + T] as a whole; the window is computed in `notes/debt3b-wave-island.md` (calc note #3) at a single mass. Not machine-checked; no `verify/` script covers a number of Debt 3b or 3c; the gate checks only Debt 3a's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)).
 
 ## The scenario
 
@@ -101,3 +102,4 @@ Scenario B's first named source of cores, "fuzzy-end quantum pressure at m ~ 10�
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 statement; §11 — the v1 degeneration risks
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's record
 - `HANDOFF.md` §2 — the handoff's dead list
+- `verify/velocity_gated_gravity.py` section D — Debt 3a's shortfall ratios, the only Debt-3 numbers the gate checks

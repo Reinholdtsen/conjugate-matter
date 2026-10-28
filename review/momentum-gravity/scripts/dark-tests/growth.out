@@ -1,0 +1,13 @@
+EdS single-fluid growth exponent, no anti-drag, eps=0.01: p = 1.0060  (p-1)/eps = 0.599
+EdS single-fluid growth exponent, no anti-drag, eps=0.10: p = 1.0586  (p-1)/eps = 0.586
+EdS single-fluid growth exponent, no anti-drag, eps=1.00: p = 1.5000  (p-1)/eps = 0.500
+EdS single-fluid growth exponent, with anti-drag, eps=0.01: p = 1.0080  (p-1)/eps = 0.799
+EdS single-fluid growth exponent, with anti-drag, eps=0.10: p = 1.0791  (p-1)/eps = 0.791
+EdS single-fluid growth exponent, with anti-drag, eps=1.00: p = 1.7321  (p-1)/eps = 0.732
+IC test dc'(a_i)=0.1: T_m(k_p,z=3)=1.119729  T_m(3/Mpc)=1.868232  T_m(10/Mpc)=2.719055
+IC test dc'(a_i)=0.3: T_m(k_p,z=3)=1.119727  T_m(3/Mpc)=1.868170  T_m(10/Mpc)=2.718067
+IC test dc'(a_i)=1.0: T_m(k_p,z=3)=1.119725  T_m(3/Mpc)=1.868092  T_m(10/Mpc)=2.716823
+step test nstep=1500: T_m(k_p)=1.1197288 T_m(10)=2.7180451
+step test nstep=3000: T_m(k_p)=1.1197273 T_m(10)=2.7180665
+step test nstep=6000: T_m(k_p)=1.1197274 T_m(10)=2.7180801
+ungated eps=0.01: T_m(z=0) at k=1,10 /Mpc = 1.04064 1.04064 ; T_c = 1.04199, T_b = 1.03334

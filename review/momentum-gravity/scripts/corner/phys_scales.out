@@ -1,0 +1,12 @@
+Plummer central t_ff = 0.5774 N-body units; post-ramp window 25 units = 43.3 t_ff; whole run 40 units = 69.3 t_ff
+N = 1000: t_rh (Spitzer, gravity only) = 34.3 N-body units
+N = 2000: t_rh (Spitzer, gravity only) = 61.5 N-body units
+classical dSph, 0.79e8 Msun/kpc^3: t_ff = 14.96 Myr; 43 t_ff = 0.643 Gyr; 10 Gyr = 668 t_ff
+classical dSph, 2.36e8 Msun/kpc^3: t_ff = 8.66 Myr; 43 t_ff = 0.372 Gyr; 10 Gyr = 1155 t_ff
+Segue 1, 2.40 Msun/pc^3: t_ff = 2.71 Myr; 43 t_ff = 0.117 Gyr; 10 Gyr = 3683 t_ff
+v* =   5 km/s: Sgr-host <W> = 4.310e-06; 10% EP limit -> eps < 2.32e+04
+v* =  10 km/s: Sgr-host <W> = 3.456e-05; 10% EP limit -> eps < 2.89e+03
+v* =  20 km/s: Sgr-host <W> = 2.788e-04; 10% EP limit -> eps < 359
+v* =  30 km/s: Sgr-host <W> = 9.530e-04; 10% EP limit -> eps < 105
+v* = 120 km/s: Sgr-host <W> = 6.569e-02; 10% EP limit -> eps < 1.52
+Segue 1 gate ratio r = sigma/v* (sigma = 3.7 km/s [S]): v* = 5, 10, 30 -> 0.74, 0.37, 0.123

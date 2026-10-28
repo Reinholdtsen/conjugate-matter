@@ -26,13 +26,16 @@ sources:
   - "notes/debt3b-wave-island.md 'The rate'"
   - "HANDOFF.md §2"
   - "CLAUDE.md 'Since the handoff'"
-  - "review/wiki-build-flags.md item 17"
+  - "review/wiki-build-flags.md items 17, 55"
   - "review/wiki-build-checks/gate_conventions.py"
+  - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
+  - "notes/gate-mechanism.md §5"
 ---
 
-*The gate shape is the exact form of the function F that turns off the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) at large relative velocity. A Gaussian F falls off faster than any power of the velocity; a rational F, a ratio of polynomials, falls off as a power law. Which one holds depends on how the [momentum graviton X](/wiki/gravity/momentum-graviton) propagates along the momentum directions of phase space, and on the profile of a single conjugate quantum along those directions; neither has been computed. The question is open, and it is observable: the tail of the knee in the self-interaction cross-section is the same function. The checkpoint counts the tail, not yet forced by any derivation, among the program's risks of degeneration.*
+*The gate shape is the exact form of the function F that turns off the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) at large relative velocity. A Gaussian F falls off faster than any power of the velocity; a rational F, a ratio of polynomials, falls off as a power law. Which one holds depends on how the [momentum graviton X](/wiki/gravity/momentum-graviton) propagates along the momentum directions of phase space, and on the profile of a single conjugate quantum along those directions; neither has been computed. The question is open, and it is observable: the tail of the knee in the self-interaction cross-section is the same function. The checkpoint counts the tail, not yet forced by any derivation, among the program's risks of degeneration. A note of 2026-10-28 goes further: it finds that exchanging X cannot produce the gate at all, that the propagator along the momentum directions has no meaning in the program's construction of X, and that the choice between Gaussian and rational is not a choice between two kinds of gate; this awaits Paul's ruling.*
 
-**Status:** Open — [O] (`papers/broken-born-checkpoint-v2.md` §14 item 4) — no calculation exists; #11 §15 lists "gate tail not yet forced" among the degeneration risks. It qualifies [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), whose mechanism is [D] and whose shape is this item. It is listed in [open problems](/wiki/status/open-problems) and is not on the current work queue.
+**Status:** Open — [O] (`papers/broken-born-checkpoint-v2.md` §14 item 4) — no calculation exists; #11 §15 lists "gate tail not yet forced" among the degeneration risks. It qualifies [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), whose mechanism is [D] in #11 §8 and whose shape is this item. `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The note also finds that this item, as worded, does not cover the gap ([below](#what-the-gate-mechanism-note-adds)). It is listed in [open problems](/wiki/status/open-problems) and is not on the current work queue.
 
 ## The question
 
@@ -40,7 +43,7 @@ sources:
 
 > "Gate shape (X propagator on momentum fibers; Gaussian vs rational — now observable) [O]." (#11 §14)
 
-The gate is the factor F in conjugate matter's self-interaction amplitude, M(k, q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²), where k is the incoming relative momentum of the pair and μ the momentum width of a χ quantum (#11 §8). #11 tags the claim "[D — mechanism; shape [O]]": exchange of X over the overlap of two quanta's momentum-space wavepackets explains why the interaction depends on k ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)), but not what function of k/μ it is. In the [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) the same function appears as the tail of [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), σ_T(v) = σ₀F(v²/v\*²), whose "tail (Gaussian vs rational) diagnoses the vertex completion" (#11 §8).
+The gate is the factor F in conjugate matter's self-interaction amplitude, M(k, q) = 4πα̃m_χ/(q² + m_φ²)·F(k²/μ²), where k is the incoming relative momentum of the pair and μ the momentum width of a χ quantum (#11 §8). #11 tags the claim "[D — mechanism; shape [O]]": exchange of X over the overlap of two quanta's momentum-space wavepackets explains why the interaction depends on k ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)), but not what function of k/μ it is. That the mechanism explains even the dependence on k is disputed (not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). In the [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) the same function appears as the tail of [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), σ_T(v) = σ₀F(v²/v\*²), whose "tail (Gaussian vs rational) diagnoses the vertex completion" (#11 §8).
 
 The first consolidation, v1, words the item as "Gate shape: the X propagator on momentum fibers; Gaussian vs rational tail (now doubly motivated — it is observable) [O]" (#9 §10 item 3), and [the handoff](/wiki/history/documents/handoff) as "Gate shape (X propagator on momentum fibers)" (`HANDOFF.md` §2, Open 6).
 
@@ -64,6 +67,17 @@ Calc note #6 writes its Gaussian in the momenta p₁ and p₂ of the two quanta,
 
 A resolution would therefore need the χ–X vertex, the X propagator along the fibers and the χ quantum's profile there. #11 §8 and #6 §4 call the missing piece "the vertex completion".
 
+## What the gate-mechanism note adds
+
+`notes/gate-mechanism.md` (2026-10-28, not reviewed) takes up the mechanism this item presupposes and finds that it does not deliver the gate (flag 55 in `review/wiki-build-flags.md`, awaiting Paul's ruling). Four of its findings bear on the shape question.
+
+- **The item does not cover the gap.** "§14 item 4 does not cover the gap. It treats the mechanism as settled, presupposes an X propagator on the fibers that §7 does not have, and its Gaussian-against-rational split is not a dichotomy of gates in k (§3)" (§5).
+- **No propagator on the fibers.** The [section condition](/wiki/symmetry-breaking/section-condition) "makes H_Z, and with it X, depend on x only. The fiber metric is constant along each fiber, so 'X propagator on momentum fibers' has no meaning within §7" (§3) [D, record audit]. No χχX vertex, χ fiber profile, formula for the dual stress or overlap integral exists in the record either (§3).
+- **What the rational gates are.** "The rationality of tree amplitudes sits in the transfer: the propagator 1/(q² + M_X²) and form factors in t. Integrated over angle these give a light mediator's knee in σ_T(v) with a power-law tail. That is #11 §13 row 1's 'standard expectation' column, not a gate in k" (§3; both derivations) [D][V]. Exchanging X itself gives, at fixed transfer, an amplitude that depends on k only as a polynomial of degree at most two in k², with no denominator in k (§2) [D][V].
+- **Neither tail comes from X as written.** Read as an exact amplitude with a t-channel pole, #11 §8's form h(t)F(k²/μ²) "needs every spin": the Gaussian and the rational F both have nonzero Legendre coefficients at every order computed, l = 0–6; the first derivation reaches the same from the other side, through a tower of spins (§2) [D][V][T]. In the note's two reconstructions of #6 §4's fiber overlap, reading R1 is an ordinary short-range potential whose cross-section tails are power laws even for Gaussian profiles, "contrary to #6 §4" (one derivation), and reading R2, a pair-channel interaction, falls faster than any power of k but has no X pole (one derivation) (§3). Both readings are the note's reconstruction; the theorems about each are derived ([the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)).
+
+The note's open items that replace this one, if Paul accepts the flag, include whether the program keeps the gate as a postulate or rewrites χ's self-interaction as reading R1's position-local potential "of range ~10 pm, which is ordinary short-range self-interacting dark matter with power-law tails and would remove the program-specific content of rows 1–3"; whether any construction tied to the program's geometry yields a pair-channel form factor for χχ; and, if a Gaussian form factor in s is kept, "whether microcausality and unitarity are acceptable at the nonlocality scale ħ/μ ≈ 10 pm" (§5) [O].
+
 ## Why it is observable
 
 Before the gate's mechanism was derived, the lab notebook took the shape as Gaussian and drew from it an exponential cliff in the cross-section. Calc note #6 weakened the cliff to a knee: "The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential" (§4). Calc note #8's close-out of Debt 2 then lists the shape as "shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5).
@@ -74,7 +88,7 @@ The tail is measurable in the velocity dependence of dark-matter self-scattering
 - **[Row 3, the island discriminant](/wiki/predictions/island-discriminant)** reads the tail as "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave" (#11 §13). The (v\*/σ)⁴ law, with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#row-3-the-island-discriminant), is the suppression of [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) when χ is a classical wave (`notes/debt3b-wave-island.md`, 'The rate').
 - In #11's comparison of the two dark-matter candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) have "knee at v\*, sharp tail" and [the X-condensate](/wiki/dark-matter/candidates/x-condensate) "knee shape wave-like" (#11 §12).
 
-Row 3's particle side assumes a sharp tail, which is the Gaussian case of this open problem. Calc note #6 calls the rational gates power-law-tailed, and the wave-island law is also a power law. No source compares the two power laws or says whether the discriminant survives a rational tail for particles.
+Row 3's particle side assumes a sharp tail, which is the Gaussian case of this open problem. Calc note #6 calls the rational gates power-law-tailed, and the wave-island law is also a power law. No source compares the two power laws or says whether the discriminant survives a rational tail for particles. `notes/gate-mechanism.md` §5 lists the question as open [O]: "Under reading R1 the particle tail is a power law, the same functional class as the wave island's. Whether the discriminant survives is open."
 
 ## What depends on it
 
@@ -91,6 +105,7 @@ The emphasis has moved since v0.1. The lab notebook's open-problem list read: "T
 3. **v0.4 and calc note #6.** μ became the χ quantum's fiber width, "with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'), and the cliff became a knee whose tail is a diagnostic.
 4. **Calc note #8 and v1.** Debt 2 closed with the mechanism found and the shape open, "now also an observable discriminant" (#8 §5; [the three debts](/wiki/history/debts)); v1 listed it as item 3 of its open problems, "now doubly motivated — it is observable" (#9 §10).
 5. **The checkpoint.** #11 lists it as item 4 of §14 and as a degeneration risk in §15.
+6. **The gate-mechanism note (2026-10-28).** It finds that exchanging #11 §7's X cannot produce the gate and that this item does not cover the gap; flag 55 proposes [P] for the gate and μ and [O] for the mechanism. #11 is unchanged until Paul rules ([above](#what-the-gate-mechanism-note-adds)).
 
 The current queue, in the root `CLAUDE.md` ("Since the handoff"), holds [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the literature battery](/wiki/method/literature-battery), then an optional review round of [the toy-model note](/wiki/symmetry-breaking/toy-models). The gate shape is not on it.
 
@@ -109,4 +124,5 @@ The current queue, in the root `CLAUDE.md` ("Since the handoff"), holds [the par
 - `notes/debt1a-iv-beta-coefficients.md` §5 — the shape as an observable discriminant
 - `notes/debt3b-wave-island.md` 'The rate' — the (v\*/σ)⁴ suppression on the wave island
 - `notes/broken-born-theory.md` §11 item 2 — the v0.1 open problem; §3 — the postulated gate in the relative momentum k; §5.1 — the Gaussian-tail cluster numbers and the definition of v\*; 'Addendum (v0.3, overnight)', 'Addendum (v0.4)' — the mechanism and the fiber width
-- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; check in `review/wiki-build-checks/gate_conventions.py`
+- `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; check in `review/wiki-build-checks/gate_conventions.py`; item 55 — the mechanism not derived, awaiting a ruling
+- `notes/gate-mechanism.md` §2 — the polynomial in k², the exact-amplitude form needs every spin; §3 — the record audit, no propagator on the fibers, what the rational gates are, readings R1 and R2 and their tails; §5 — §14 item 4 does not cover the gap, and what becomes open

@@ -1,0 +1,623 @@
+{
+ "summary": "I treated the hypothetical force as a mean-field (Vlasov) problem: a long-range attraction gated in relative velocity, U = -G~ m^2 W(|v-v'|/v*)/|x-x'|, added to gravity. It behaves as a Jeans-type amplifier of spatial clumping among co-moving particles. Gravity and gate both scale as 1/k^2, so the gate rescales the Jeans wavenumber by sqrt(Lambda_0), the top eigenvalue of a velocity-space operator. Lambda_0 tends to 1 + G~/G for a broad gate (v* >> sigma), and the stream-mode eigenvalue tends to (G~/G)(v*/sigma)^3 for a narrow one (v* << sigma). For a Maxwellian the onset is exactly at omega = 0: proved by an energy/parity argument and confirmed numerically. For a Gaussian gate the threshold has a closed form, verified by three independent discretizations and anchored on the textbook stellar Jeans relation. The founding image cannot appear: streams spread through space (k = 0 velocity structure) are exactly neutral in mean-field dynamics. The modes the gate adds are spatial lumps carried by a velocity-selected population of width about sqrt(sigma v*). A perturbative gate (G~ <= G) adds no velocity-selected instability, and in dwarf cores (sigma < v*) the gate is simply stronger chi-chi gravity, which the halo's equilibrium absorbs. In the local (WKB) model new modes need G~/G ~ 28-161 at the solar circle and ~152-2929 in a cluster core (v* = 120 km/s). When the equilibrium absorbs the gate's share of the binding (re-virialization), they never appear at the solar circle or in dwarfs, and need G~/G ~ 800 in a marginal cluster core. Above threshold the fastest MW modes found e-fold in ~53-235 Myr (0.24-1.07 solar orbits). Cluster modes take 2.3-7.9 Gyr (5-18 crossing times), so phase mixing wins there. At strong coupling the purely growing rate collapses once the velocity-dipole sector reaches its own threshold, and slower travelling modes replace it. Debt 3a's narrow-gate substitution sigma -> v* is the threshold of a pre-existing cold stream, not of a smooth halo; the linearized threshold keeps the halo's sigma. 3a's contact-range verdict is unchanged (recomputed shortfalls 3.3e-28 dwarf, 8.7e-31 MW). The classicality theorem does not carry over to a long-range force. But a gravitational-strength 1/r force contributes no scattering (~5e-62 cm^2/g), so G~ would be a new free parameter and any such clumping optional, not mandatory. Finally, the record's X is massive (range < 37.7 um), so it cannot carry a long-range gated force.",
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "Model and linear eigenproblem. Take pair energy -m^2[G + G~ W(|p-p'|/(m v*))]/|x-x'|, with the gate on canonical momenta as in Debt 3a's epsilon(x,p). The Vlasov equation, linearized about a homogeneous Maxwellian (dispersion sigma) under the Jeans swindle, gives delta f = (k.grad_p f0) delta eps/(k.v - omega) and the eigenproblem delta eps(v) = (k_J/k)^2 Int d^3v' [1 + (G~/G) W(|v-v'|/v*)] p0(v') [k.v'/(k.v' - omega)] delta eps(v'), with k_J^2 = 4 pi G rho/sigma^2 and p0 the normalized Maxwellian. The swindle discards the divergent background potential. Its gated part depends on velocity, so the swindle also discards a background anomalous velocity grad_p Phi_g0. At linear order the term grad_p(delta eps).grad_x f0 vanishes because f0 is uniform. Gravity and gate both scale as 1/k^2, so in the static limit the velocity-space operator does not depend on k: the gate rescales the Jeans wavenumber, k_crit = k_J sqrt(Lambda_0).",
+   "tag": "[D] with executed script",
+   "basis": "Derivation. Anchor independent of the model: for G~ = 0 the dynamic solver reproduces the textbook stellar Jeans relation kappa^2 = 1 - sqrt(pi) xi exp(xi^2) erfc(xi), xi = gamma/(sqrt2 k sigma), computed separately with mpmath.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Jeans growth rate at k = 0.5 k_J, solver vs closed form (units sqrt(4 pi G rho))",
+     "value": "0.68720193 vs 0.68720193",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py",
+     "printed_output": "kappa=0.5: Gamma solver=0.68720193  closed form=0.68720193"
+    },
+    {
+     "quantity": "free-fall limit of the closed form at k = 0.01 k_J",
+     "value": "0.99985",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py",
+     "printed_output": "kappa->0 limit of the closed form (free-fall rate): Gamma(0.01) = 0.999850018740819"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md 'Setup'",
+    "wiki/dark-matter/momentum-clumping/vlasov-stability.md"
+   ]
+  },
+  {
+   "id": "C2",
+   "statement": "The onset is at omega = 0, and past it the unstable mode is purely growing. Assume f0 = F(eps0) with F' < 0 and a real symmetric kernel even under (v,v') -> (-v,-v'). Write delta f = -|F'| h. Then omega h = (k.v) A h, with A = 1 + U|F'| self-adjoint in <a,b> = Int |F'| a* b. Since omega <h,Ah> = <Ah,(k.v)Ah> is real, no growing mode exists while A > 0, that is while every eigenvalue of the static operator (k_J/k)^2 K is below 1. The first eigenvalue to reach 1 is in the parity-even l=0 sector (Perron-Frobenius, positive kernel), and at that point the odd sector is still positive. Then omega^2 h+ = C A h+ with C = (k.v)A(k.v) >= 0 on even functions, so omega^2 is real: the crossing is at omega = 0 and the mode beyond it is purely growing. The same argument justifies Debt 3a's use of a static threshold.",
+   "tag": "[D] with executed script",
+   "basis": "Analytic argument, plus two checks. (i) The dynamic factorized solver's growth rate falls to 0 linearly at the static eigenvalue from the independent radial solver, in three cases, with no purely growing root on the stable side. (ii) Argument-principle zero counts in the upper half-plane.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "growth rate just below threshold, r=1.2917, Gt/G=10",
+     "value": "Gamma = 8.78e-4 at kappa^2 = 0.999 Lambda_0 (slope 0.878)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py",
+     "printed_output": "kappa^2 = 0.999*Lambda_0: Gamma = 8.779305e-04  Gamma/(1-frac) = 0.8779  |D|=5.506761796878984e-14"
+    },
+    {
+     "quantity": "stable side",
+     "value": "no purely growing root at kappa^2 = 1.001 Lambda_0",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py",
+     "printed_output": "kappa^2 = 1.001*Lambda_0 (stable side): Gamma = 0.0"
+    },
+    {
+     "quantity": "growing modes, kappa^2 = 2.4 > Lambda_0 = 2.305 (r=1.2917, Gt/G=10)",
+     "value": "0",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_omega_check.py",
+     "printed_output": "full rect : wind(D)=-0.0000, wind(det B_N, N=0..4)=[-0. -0.  0.  0.  0.] -> coupled zeros=-0.0000, decoupled zeros=-0.0000"
+    },
+    {
+     "quantity": "growing modes just past onset, kappa^2 = 2.2: total, and off the imaginary axis",
+     "value": "1 total; 0 with Re omega > 0.01",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_omega_check.py",
+     "printed_output": "full rect : wind(D)=+1.0000, ... coupled zeros=+1.0000, decoupled zeros=+0.0000 / right rect: wind(D)=-0.0000, ... coupled zeros=-0.0000, decoupled zeros=-0.0000"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md 'Limit 1'"
+   ]
+  },
+  {
+   "id": "C3",
+   "statement": "Exact static threshold. A mode of wavenumber k is unstable iff (k/k_J)^2 < Lambda_0, the top eigenvalue of K = p0^(1/2) [1 + (G~/G) W] p0^(1/2). For a Gaussian gate W = exp(-s^2/2), s = |v-v'|/v*, the gated part alone is a Mehler kernel. Its top eigenvalue is Lambda_g(r) = [1/2 + r^2 + sqrt(1+4r^2)/2]^(-3/2), r = sigma/v*, and its top eigenvalue in angular sector l is Lambda_g q^l, with q = 2r^2/(1 + 2r^2 + sqrt(1+4r^2)). This W equals the lab notebook's amplitude gate exp(-k^2/mu^2) with v* = sqrt2 mu/m, and #6's overlap form if v* = mu/m (flag 17). Gravity is rank one, so adding it gives the secular equation 1 = Sum_N C_N/(Lambda - (G~/G) Lambda_g q^N), with C_N built from 1D Hermite-function overlaps.",
+   "tag": "[D] with executed script",
+   "basis": "Three independent discretizations agree: radial Nystrom with Bessel angular projections, the Cartesian Mehler secular equation, and a 2D cylindrical Nystrom. Gravity alone gives Lambda_0 = 1 (the Jeans criterion).",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Lambda_g, closed form vs radial Nystrom, in sectors l=0,1,2, at r = 0.25 (dwarf)",
+     "value": "0.8419595 (l=0), 0.0469208 (l=1), 0.00261481 (l=2)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": " 0.250 8.419595e-01 8.419595e-01 4.692080e-02 4.692080e-02 2.614806e-03 2.614806e-03"
+    },
+    {
+     "quantity": "Lambda_g at r = 1.2917 (MW local)",
+     "value": "0.1492795",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": " 1.292 1.492795e-01 1.492795e-01 7.009012e-02 7.009012e-02 3.290891e-02 3.290891e-02"
+    },
+    {
+     "quantity": "Lambda_g at r = 8.333 (cluster)",
+     "value": "1.443665e-3",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": " 8.333 1.443665e-03 1.443665e-03 1.280502e-03 1.280502e-03 1.135780e-03 1.135780e-03"
+    },
+    {
+     "quantity": "Lambda_0, Nystrom vs secular equation, r=1.2917, Gt/G=10",
+     "value": "2.30503422 vs 2.30503422",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": " 1.2917     10.0     2.30503422     2.30503422  1.0000000     2.492795     1.492795"
+    },
+    {
+     "quantity": "Lambda_0, 2D cylindrical vs radial, Gt/G=281",
+     "value": "42.64197 vs 42.64197",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d.py",
+     "printed_output": "gt=281.0: 2D top eigenvalue = 42.64197 (n=3840)  radial Nystrom Lambda_0 = 42.64197"
+    },
+    {
+     "quantity": "gravity alone",
+     "value": "Lambda_0 = 1",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": "gt=0: [1.00000000e+00 2.74570905e-16]"
+    }
+   ],
+   "sources": [
+    "notes/broken-born-theory.md §3, §5.1",
+    "notes/debt1a-ii-X-classification.md §4 (via wiki/dark-matter/conjugate-matter/gate-mechanism.md)",
+    "review/wiki-build-flags.md item 17"
+   ]
+  },
+  {
+   "id": "C4",
+   "statement": "Limits. Broad gate (v* >> sigma): Lambda_0 -> 1 + G~/G, and the unstable mode is the Jeans density mode with G replaced by G + G~ (Gaussian: Lambda_g ~ 1 - 3r^2). Narrow gate (v* << sigma): the gated eigenvalue tends to n_gate/n, where n_gate = f0(0) Int d^3u W(|u|/v*) is the gate-weighted density of co-movers at the peak of the distribution. For the Gaussian gate this is (v*/sigma)^3 [1 - (3/2) v*/sigma + ...]. For W = (1+s^2/2)^-2 it tends slowly to sqrt(pi)(v*/sigma)^3. A W = (1+s^2/2)^-1 tail is not integrable in 3D and gives Lambda proportional to (v*/sigma)^2. The narrow-gate stream-mode threshold is 4 pi G~ m n_gate/(k^2 sigma^2) >= 1: the kinetic scale is the halo's sigma^2, not v*^2. The stream eigenfunction is delta f ~ exp[-(1/4 + gamma) v^2/sigma^2], gamma = sqrt(1+4r^2)/4; its per-component velocity width tends to sqrt(sigma v*).",
+   "tag": "[D] with executed script",
+   "basis": "Asymptotics of the closed form, plus radial Nystrom for the rational gates.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Gaussian Lambda_g r^3 at r = 8.333 and 16 (-> 1)",
+     "value": "0.835, 0.911",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": "gauss  r= 8.3330: Lam_g = 1.44367e-03; Lam_g*r^3 = 0.83535 ... gauss  r=16.0000: Lam_g = 2.22296e-04; Lam_g*r^3 = 0.91052"
+    },
+    {
+     "quantity": "rational (1+s^2/2)^-2: Lambda r^3 at r = 8.333 and 16 (-> sqrt(pi) = 1.772)",
+     "value": "1.005, 1.227",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": "rat2   r= 8.3330: Lam_g = 1.73635e-03; Lam_g*r^3 = 1.00471 ... rat2   r=16.0000: Lam_g = 2.99527e-04; Lam_g*r^3 = 1.22686"
+    },
+    {
+     "quantity": "rational (1+s^2/2)^-1: Lambda r^2 at r = 8.333 and 16",
+     "value": "1.068, 1.173 (Lambda r^3 = 8.9, 18.8)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+     "printed_output": "rat1   r= 8.3330: Lam_g = 1.53773e-02; Lam_g*r^3 = 8.89785; Lam_g*r^2 = 1.06779 ... rat1   r=16.0000: Lam_g = 4.58095e-03; Lam_g*r^3 = 18.76358; Lam_g*r^2 = 1.17272"
+    },
+    {
+     "quantity": "stream-mode per-component width at r = 8.333 vs sqrt(v*/sigma)",
+     "value": "0.3362 sigma vs 0.3464 sigma",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/stream_width.py",
+     "printed_output": "r=  8.3333: per-component width s=0.3362 sigma, 3D rms=0.5823 sigma, sqrt(v*/sigma)=0.3464, s/sqrt(v*/sigma)=0.9705"
+    },
+    {
+     "quantity": "broad gate r=0.25, Gt/G=1: Lambda_0 vs 1 + Lambda_g; overlap with the density mode",
+     "value": "1.83983 vs 1.84196; overlap 0.99951",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": " 0.2500        1     1.839833 4.736843e-03   0.99951   1.7099"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md 'Limit 2'"
+   ]
+  },
+  {
+   "id": "C5",
+   "statement": "Critical G~/G at given k, for k > k_J where gravity alone is stable, solving Lambda_0(G~/G, r) = (k/k_J)^2. Gaussian gate first, rational (1+s^2/2)^-2 in brackets, at (k/k_J)^2 = 1.1, 2, 4.4, 10, 25. r=0.25: 0.119, 1.19, 4.04, 10.7, 28.5 [0.135, 1.35, 4.56, 12.1, 32.2]. r=1.29: 0.881, 7.82, 24.5, 62.2, 163 [1.03, 9.38, 30.0, 76.9, 202]. r=4: 18.1, 138, 378, 904, 2302 [14.5, 120, 351, 865, 2230]. r=8.33: 157, 1148, 2938, 6844, 1.72e4 [107, 836, 2323, 5583, 1.42e4]. Asymptotes: (k/k_J)^2 - 1 for a broad gate, (k/k_J)^2/Lambda_g for a narrow one.",
+   "tag": "[D] with executed script",
+   "basis": "Bisection on the radial-Nystrom top eigenvalue.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "critical Gt/G, Gaussian, r=1.2917",
+     "value": "0.8809, 7.818, 24.45, 62.2, 162.8",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "gauss  r= 1.2917: gt_c(kappa^2=1.1,2,4.4,10,25) = 0.8809, 7.818, 24.45, 62.2, 162.8"
+    },
+    {
+     "quantity": "critical Gt/G, Gaussian, r=8.333",
+     "value": "157.3, 1148, 2938, 6844, 1.724e4",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "gauss  r= 8.3330: gt_c(kappa^2=1.1,2,4.4,10,25) = 157.3, 1148, 2938, 6844, 1.724e+04"
+    },
+    {
+     "quantity": "critical Gt/G, Gaussian, r=0.25 and r=4",
+     "value": "0.1193..28.51; 18.09..2302",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "gauss  r= 0.2500: gt_c(kappa^2=1.1,2,4.4,10,25) = 0.1193, 1.19, 4.042, 10.69, 28.51 / gauss  r= 4.0000: ... = 18.09, 138.3, 378.1, 904.2, 2302"
+    },
+    {
+     "quantity": "critical Gt/G, rational gate, r=1.2917 and 8.333",
+     "value": "1.025..202.1; 106.7..1.423e4",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "rat2   r= 1.2917: gt_c(kappa^2=1.1,2,4.4,10,25) = 1.025, 9.384, 29.95, 76.91, 202.1 / rat2   r= 8.3330: ... = 106.7, 836, 2323, 5583, 1.423e+04"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "C6",
+   "statement": "Debt 3a's narrow-gate substitution (n -> n_gate, sigma -> v*) is not what the linearized equation gives for a smooth Maxwellian. The static response is delta f = -f0 delta eps/(m sigma^2) whatever the velocity structure of delta eps, so the kinetic scale stays m sigma^2. The exact unified contact-range criterion is g n Lambda_g(sigma/v*) >= m sigma^2, with n Lambda_g -> n_gate for a narrow gate. 3a's form g n_gate/(m v*^2) >= 1 is instead the threshold for a pre-existing cold stream of internal dispersion v*. For W = exp(-s^2/2), the ratio of the required g (exact over 3a's narrow form) is (2pi)^-1.5/(r Lambda_g): 0.33 at MW conditions (3a is conservative there), 5.3 at r = 8.33, tending to (2pi)^-1.5 r^2 for r >> 1. Against 3a's broad form in the dwarf the ratio is 1.19. 3a does not state its gate normalization, so these ratios carry an O(1) convention factor; the sigma-versus-v* point does not depend on it. Recomputed with 3a's inputs (g = 2483 GeV^-2), the shortfall is 3.27e-28 in the dwarf core (3a form 3.89e-28), 8.7e-31 in the MW halo (2.86e-31) and 1.52e-35 in a cluster. 3a's verdict, a shortfall of 27-35 orders of magnitude, is unchanged.",
+   "tag": "[D] with executed script",
+   "basis": "Exact static operator vs 3a's formulas, using 3a's benchmark inputs.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "required-g ratio (exact / 3a narrow form) at r = 1.2917 and r = 8.333",
+     "value": "0.3293; 5.2779",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "r= 1.2917: Lam_g=1.4928e-01; R(narrow form)=0.3293; R(broad form)=6.6988 ... r= 8.3330: Lam_g=1.4437e-03; R(narrow form)=5.2779"
+    },
+    {
+     "quantity": "deep narrow gate, r = 32: ratio vs (2pi)^-1.5 r^2",
+     "value": "68.14 vs 65.02",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "r=32.0000: Lam_g=2.9120e-05; R(narrow form)=68.1376; R(broad form)=34340.5037; (2pi)^-1.5 r^2=65.0175"
+    },
+    {
+     "quantity": "dwarf: ratio vs 3a broad form",
+     "value": "1.1877",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": "r= 0.2500: Lam_g=8.4196e-01; R(narrow form)=0.3016; R(broad form)=1.1877"
+    },
+    {
+     "quantity": "recomputed shortfall at 3a's benchmark, dwarf / MW / cluster",
+     "value": "3.27e-28 / 8.7e-31 / 1.52e-35",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "dwarf core: 3a-form ratio = 3.89e-28;  linearized ratio g n Lam_g(r)/(m sigma^2) = 3.27e-28 / MW local  : 3a-form ratio = 2.86e-31;  linearized ratio ... = 8.7e-31 / cluster   : 3a-form ratio = 8e-35;  linearized ratio ... = 1.52e-35"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md 'Limit 2', 'Numbers at the scattering benchmark'",
+    "review/wiki-build-checks/debt3a_check.out",
+    "review/wiki-build-flags.md items 16, 19"
+   ]
+  },
+  {
+   "id": "C7",
+   "statement": "Streams spread through space cannot grow in mean-field theory. If f and eps are both uniform in x, the Vlasov equation gives df/dt = -grad_p eps . grad_x f + grad_x eps . grad_p f = 0 for any f(p). A velocity-dependent but spatially uniform mean field exerts no force; its anomalous velocity grad_p eps moves particles in x without changing f. In the homogeneous problem, k = 0 velocity structure is therefore exactly neutral, and changing the velocity distribution requires spatial gradients of the mean field. The notebook's 'Jeans problem with x and v exchanged' would need the exchanged Hamiltonian H = x^2/2m' + U(p - p'), which physical matter does not have. This holds for any range of the force, contact or long.",
+   "tag": "[D]",
+   "basis": "Exact property of the Vlasov equation with H = p^2/2m + U(x-x', p-p').",
+   "confidence": "high",
+   "numbers": [],
+   "sources": [
+    "notes/broken-born-theory.md §5.2"
+   ]
+  },
+  {
+   "id": "C8",
+   "statement": "The modes the gate adds are spatial plane waves: lumps in position with k != 0 and, as for Jeans, the 1/k^2 scaling, so the longest wavelength is the most unstable. They are carried by a velocity-selected population at the peak of the velocity distribution. The top static mode becomes velocity-concentrated only once G~/G exceeds about 1/Lambda_g, where the co-movers' gated self-attraction exceeds the whole population's gravity: 1.19 (dwarf), 6.70 (MW), 693 (cluster). Two measures track this: the 3D rms speed of delta f (the Maxwellian density mode has 1.732 sigma) and the overlap with the density mode. MW r=1.29, G~/G=100: 1.30 sigma, 0.85. r=4, G~/G=1e4: 0.83 sigma, 0.50. r=8.33, G~/G=1e4: 0.76 sigma, 0.36. In the homogeneous static problem the l >= 1 sectors (velocity-anisotropic, two-stream-like) decouple from gravity, with eigenvalues (G~/G) Lambda_g q^l; they are never first at onset.",
+   "tag": "[D] with executed script",
+   "basis": "Eigenvectors of the radial operator, and the closed-form sector eigenvalues.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "stream-mode crossover Gt/G = 1/Lambda_g (dwarf, MW, cluster)",
+     "value": "1.188, 6.699, 692.8",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/derived_numbers.py",
+     "printed_output": "dwarf: ... crossover gt=1/Lam_g=1.188 / MW: ... crossover gt=1/Lam_g=6.699 / cluster: ... crossover gt=1/Lam_g=692.8"
+    },
+    {
+     "quantity": "top mode at r=1.2917, Gt/G=100: Lambda_0, second eigenvalue, overlap, rms speed",
+     "value": "15.63, 3.51, 0.849, 1.302 sigma",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": " 1.2917      100    15.633172 3.511550e+00   0.84948   1.3022"
+    },
+    {
+     "quantity": "top mode at r=4 and r=8.333, Gt/G=1e4",
+     "value": "overlap 0.502, rms 0.831 sigma; overlap 0.356, rms 0.765 sigma",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": " 4.0000    10000   107.742112 6.550818e+01   0.50188   0.8311 / 8.3330    10000    14.548549 1.148731e+01   0.35607   0.7649"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "C9",
+   "statement": "A perturbative gate adds no velocity-selected instability. Because ||K_grav|| = 1 and ||K_gate|| = Lambda_g <= 1, Lambda_0 <= 1 + (G~/G) Lambda_g, and the stream eigenvalue (G~/G) Lambda_g stays below gravity's density-mode eigenvalue 1 for G~/G < 1/Lambda_g. For G~/G <= 1 the top mode's overlap with the Jeans density mode is >= 0.9985 at every r computed. In a dwarf core (sigma = 30 km/s < v* = 120 km/s) the gate is equivalent to stronger chi-chi gravity: Lambda_g/<W> = 1.0047, where <W> is the pair-averaged gate, i.e. the gate's weight on the density mode. A virialized halo absorbs this into its equilibrium; it is not a new instability.",
+   "tag": "[D] with executed script",
+   "basis": "Operator-norm bound, plus eigenvector overlaps.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "Lambda_0 at Gt/G=1 vs bound 1 + Lambda_g (MW)",
+     "value": "1.113881 <= 1.149279",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/derived_numbers.py",
+     "printed_output": "MW: r=1.2917, Lam_g=1.49279e-01, stream-mode crossover gt=1/Lam_g=6.699; Lambda_0(gt=1)=1.113881 <= 1+Lam_g=1.149279"
+    },
+    {
+     "quantity": "overlap with the density mode at Gt/G=1, r = 1.2917 (lowest of the r computed)",
+     "value": "0.99850",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+     "printed_output": " 1.2917        1     1.113881 6.315801e-02   0.99850   1.6969"
+    },
+    {
+     "quantity": "dwarf gate factors",
+     "value": "Lambda_g = 0.842, <W> = 0.838, ratio 1.0047",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "dwarf core r=0.2500: Gaussian Lam_g=8.41960e-01, q=0.05573, <W>=8.38052e-01 (closed (1+2r^2)^-1.5=8.38052e-01), Lam_g/<W>=1.0047"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "C10",
+   "statement": "Finite halos, local (WKB) model. A mode fits if (k/k_J)^2 >= Q, with Q set by the halo. Isothermal core: k_J r_c = 3 exactly, so Q = (pi/3)^2 = 1.10 for wavelength 2r_c and (2pi/3)^2 = 4.39 for wavelength r_c. Singular isothermal sphere: Q = pi^2/2 = 4.93 (wavelength 2r) and 2pi^2 = 19.7 (wavelength r). Solar circle: (lambda_J/R0)^2 = 24.8. The threshold is Lambda_0(G~/G, sigma/v*) = Q. Without re-virialization the critical G~/G is 0.115-4.03 in the dwarf core (density mode only), 28.1-161 for the MW local halo and 152-2929 in a cluster core (Gaussian gate; the rational gate is within about a third). Re-virialization means the halo's equilibrium absorbs the density-mode strength 1 + (G~/G)<W>, so the condition becomes Lambda_0 = Q(1 + (G~/G)<W>). Then: dwarf, never; MW, never for any Q >= 1.35; cluster, 799 at Q = 1.10 and never at Q = 4.39. There is a cap. For a narrow gate the ratio (stream eigenvalue)/(pair-averaged gate) tends to 2^1.5 = 2.83 for any integrable gate: it is the ratio of the Maxwellian's peak density to the relative-velocity density at zero. For the Gaussian the ratio rises monotonically: 1.0047, 1.348, 2.388, 2.763 at r = 0.25, 1.29, 8.33, 64. In this model, a halo whose gravity-only margin exceeds that ratio cannot be destabilized by any G~.",
+   "tag": "[D] with executed script",
+   "basis": "Local criterion with margins from idealized profiles. The re-virialized version uses the density-mode Rayleigh quotient as the binding weight, which is a model assumption.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "margins Q",
+     "value": "1.0966, 4.3865 (core); 4.9348, 19.7392 (SIS); 24.77 (solar circle)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "Margins: core Q=(pi/3)^2=1.0966, (2pi/3)^2=4.3865; SIS Q=pi^2/2=4.9348, 2pi^2=19.7392 / MW local: (lambda_J/R0)^2 = 24.77 (margin for a mode of wavelength R0)"
+    },
+    {
+     "quantity": "critical Gt/G, no-revir / revir, MW local, Q = 4.93, 19.7, 24.8",
+     "value": "28.07/inf, 127.5/inf, 161.2/inf (rational gate: 34.46, 158.2, 200.2)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "MW local   Q= 4.9348: gauss: no-revir 28.07, revir inf | rat2: no-revir 34.46, revir inf / Q=19.7392: gauss: no-revir 127.5, revir inf | ... / Q=24.7714: gauss: no-revir 161.2, revir inf"
+    },
+    {
+     "quantity": "critical Gt/G, cluster core, Q = 1.10 and 4.39",
+     "value": "152.2/798.8; 2929/inf (rational: 103.3/643.1; 2315/inf)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "cluster    Q= 1.0966: gauss: no-revir 152.2, revir 798.8 | rat2: no-revir 103.3, revir 643.1 / cluster    Q= 4.3865: gauss: no-revir 2929, revir inf | rat2: no-revir 2315, revir inf"
+    },
+    {
+     "quantity": "critical Gt/G, dwarf core",
+     "value": "0.1152/inf (Q=1.10); 4.026/inf (Q=4.39)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "dwarf core Q= 1.0966: gauss: no-revir 0.1152, revir inf | rat2: no-revir 0.1306, revir inf / dwarf core Q= 4.3865: gauss: no-revir 4.026, revir inf"
+    },
+    {
+     "quantity": "Lambda_g/<W>, Gaussian, MW and cluster; r = 64",
+     "value": "1.3483; 2.3883; 2.7634 (limit 2.8284)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "MW local   r=1.2917: ... Lam_g/<W>=1.3483 ... cluster    r=8.3333: ... Lam_g/<W>=2.3883 ... r= 64.0: Gaussian Lam_g/<W> = 2.7634   (r->inf limit 2^1.5 = 2.8284)"
+    },
+    {
+     "quantity": "local scales: t_ff = 1/sqrt(4 pi G rho), lambda_J, isothermal r_c, t_cross = r_c/sigma",
+     "value": "dwarf 25.92 Myr, 5.0 kpc, 2.385 kpc, 77.7 Myr; MW 40.98 Myr, 40.8 kpc; cluster (rho = 0.03 GeV/cm^3) 149.62 Myr, 961 kpc, 459 kpc, 448.9 Myr",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "dwarf core: ... t_ff=1/sqrt(4piG rho)=25.92 Myr, lambda_J=4.996 kpc, isothermal r_c=3 sigma t_ff=2.385 kpc, t_cross=r_c/sigma=77.7 Myr / MW local  : ... t_ff=...=40.98 Myr, lambda_J=40.812 kpc ... / cluster   : ... t_ff=...=149.62 Myr, lambda_J=961.449 kpc, isothermal r_c=...=459.058 kpc, t_cross=r_c/sigma=448.9 Myr"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md (environments)",
+    "notes/debt3b-wave-island.md 'What pins g?' (cluster row: 0.03 GeV/cm^3, 1000 km/s)"
+   ]
+  },
+  {
+   "id": "C11",
+   "statement": "Growth against phase mixing. Local model, Gaussian gate, purely growing gravity-coupled mode at the longest mode that fits unless stated; t_ff = 25.9, 41.0 and 149.6 Myr in the three environments. Near threshold Gamma ~ c(1 - Q/Lambda_0)/t_ff, with c = 0.88-1.06 (0.447 for a narrow-gate stream mode). MW local, above the no-revir thresholds, e-folding times are 92.7 Myr (G~/G = 56, Q = 4.93), 72.4 Myr (281) and 59.7 Myr (255, Q = 19.7). The fastest found is 52.7 Myr (281, at (k/k_J)^2 = 30). Against a solar orbital period of 219 Myr and a local 3 sigma t_ff of 123 Myr, the MW modes e-fold in 0.24-1.1 orbital periods. Cluster core (Q = 1.10): 2278 Myr (G~/G = 304), 5498 Myr (1598, twice the re-virialized threshold) and 7937 Myr (1522), that is 5.1, 12.2 and 17.7 crossing times: phase mixing wins. At Q = 4.39, G~/G = 5858, no purely growing mode exists; its travelling modes were not located. The dwarf-core numbers (e.g. 50.8 Myr at G~/G = 1.15, Q = 1.10) belong to a density mode, so they measure re-virialization, not clumping. The independent 2D cylindrical solver brackets the MW roots: (0.429, 0.455) around 0.4421, (0.549, 0.583) around 0.5662, and (0.66, 0.71) around 0.6866.",
+   "tag": "[D] with executed script",
+   "basis": "Factorized dynamic solver, which has a pole-free dispersion function. Anchored on the Jeans closed form and the static limit; cross-checked by a 2D Nystrom in (v_perp, v_z) that does not use the factorization.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "MW e-folding at 2x and 10x the no-revir threshold (Q=4.93)",
+     "value": "92.7 Myr (0.42 t_orb); 72.4 Myr (0.33 t_orb)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth.py",
+     "printed_output": "MW local   r=1.2917 Q=4.9348 gt=56.14 (=2.0x28.07): Lambda_0=9.0982, Gamma=0.44210 /t_ff, e-fold time=92.7 Myr, t_e/t_cross(=3t_ff)=0.754, t_e/t_orb(MW sun)=0.423 / ... gt=280.7 (=10.0x28.07): Lambda_0=42.5972, Gamma=0.56618 /t_ff, e-fold time=72.4 Myr, ... t_e/t_orb(MW sun)=0.330"
+    },
+    {
+     "quantity": "fastest MW mode found",
+     "value": "52.7 Myr = 0.240 t_orb",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/derived_numbers.py",
+     "printed_output": "MW kscan gt=280.7 kappa^2=30: Gamma=0.7783/t_ff -> e-fold 52.7 Myr = 0.240 t_orb(219 Myr) = 0.428 t_cross(122.9 Myr)"
+    },
+    {
+     "quantity": "cluster e-folding (Q=1.10)",
+     "value": "2278 Myr (5.1 t_cross), 5498 Myr (12.2), 7937 Myr (17.7)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth_cluster.py",
+     "printed_output": "cluster Q=1.0966 gt=1598.0 (2x revir threshold 798.8): Lambda_0=2.5553, Gamma=0.02721/t_ff, e-fold=5498 Myr, t_e/t_cross=12.249 / gt=304.4: ... Gamma=0.06569/t_ff, e-fold=2278 Myr, t_e/t_cross=5.075 / gt=1522.0: ... Gamma=0.01885/t_ff, e-fold=7937 Myr, t_e/t_cross=17.684"
+    },
+    {
+     "quantity": "cluster Q=4.39, Gt/G=5858",
+     "value": "no purely growing root",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth_cluster.py",
+     "printed_output": "cluster Q=4.3865 gt=5858.0 (2x no-revir threshold 2929): Lambda_0=8.5794, Gamma=0.00000/t_ff, e-fold=inf Myr"
+    },
+    {
+     "quantity": "near-threshold slope for a narrow-gate stream mode (cluster, Gt/G=1598)",
+     "value": "0.447",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth_cluster.py",
+     "printed_output": "static-limit check gt=1598.0: kappa^2=0.99 Lambda_0 -> Gamma=0.00447, Gamma/0.01=0.447"
+    },
+    {
+     "quantity": "2D check of the MW roots (Gt/G = 56.14)",
+     "value": "sign change between 0.4288 and 0.4554; none above, up to 3.5",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d_targeted.py",
+     "printed_output": "kappa^2=4.9348, gt=56.14, factorized root 0.4421: det signs near root [(0.3979, -1, 4.3e-16), (0.4288, -1, 1.6e-15), (0.4554, 1, 9.8e-16), (0.4863, 1, 1.2e-16)]; above [(0.8, 1, ...), (1.2, 1, ...), (2.0, 1, ...), (3.5, 1, ...)]"
+    },
+    {
+     "quantity": "dwarf density-mode e-folding (re-virialization, not clumping)",
+     "value": "366.7 Myr and 50.8 Myr (Q=1.10, Gt/G = 0.23 and 1.15)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth.py",
+     "printed_output": "dwarf core r=0.25 Q=1.0966 gt=0.2304 (=2.0x0.1152): Lambda_0=1.1932, Gamma=0.07069 /t_ff, e-fold time=366.7 Myr ... gt=1.152 (=10.0x0.1152): Lambda_0=1.9676, Gamma=0.50993 /t_ff, e-fold time=50.8 Myr"
+    }
+   ],
+   "sources": [
+    "notes/broken-born-theory.md §5.2 (the growth-versus-phase-mixing question)"
+   ]
+  },
+  {
+   "id": "C12",
+   "statement": "Beyond threshold the spectrum has structure that a static count misses. At fixed k, the purely growing rate collapses to zero as G~/G approaches the parity-odd (velocity-dipole) sector's own static threshold, (G~/G)_odd = (k/k_J)^2/(Lambda_g q), which is 281.63 at MW conditions with (k/k_J)^2 = 19.74. There Gamma t_ff = 0.767, 0.687, 0.469, 0.340, 0.160 and 0 at G~/G = 240, 255, 272, 277, 280.7 and >= 283. Beyond it the coupled mode is a travelling pair, omega t_ff = +-1.106 + 0.174i at G~/G = 320. Travelling modes found elsewhere grow at 0.007-0.075 per t_ff, slower than the purely growing ones: an N=1 block pair at +-0.969 + 0.034i (G~/G = 100, (k/k_J)^2 = 2), a mode at 2.058 + 0.0072i (281, 4.93), and a coupled pair at 0.759 + 0.075i (56, 3). The collapse is consistent with the operator C = (k.v)A(k.v) in the onset proof becoming singular as the odd sector loses positivity (interpretation, not proved). So strong gating does not give fast growth: the fastest rates found are about 0.78 per t_ff.",
+   "tag": "[D] with executed scripts; mechanism is inference",
+   "basis": "Factorized solver, pole-removed. Argument-principle winding counts on full and right half-plane rectangles. Grid-plus-secant root location with winding verification. The 2D solver confirms the collapse: single roots in (0.66, 0.71) at Gt/G = 255 and in (0.13, 0.17) at 280.7, none above.",
+   "confidence": "medium",
+   "numbers": [
+    {
+     "quantity": "purely growing Gamma vs Gt/G at kappa^2 = 19.74 (MW)",
+     "value": "0.7666 (240), 0.6866 (255), 0.4692 (272), 0.3403 (277), 0.1597 (280.7), 0 (283, 290, 320); odd threshold 281.63",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/odd_softening.py",
+     "printed_output": "odd-sector static threshold gt_odd = kappa^2/(Lam_g q) = 281.63 / gt= 240.0 (gt/gt_odd=0.8522): purely growing Gamma = 0.7666 / gt= 280.7 (gt/gt_odd=0.9967): purely growing Gamma = 0.1597 / gt= 283.0 (gt/gt_odd=1.0049): purely growing Gamma = 0.0000"
+    },
+    {
+     "quantity": "travelling coupled mode at Gt/G = 320, kappa^2 = 19.74",
+     "value": "omega t_ff = 1.1059 + 0.1743i (and mirror)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled3.py",
+     "printed_output": "kappa^2=19.7392: right rect wind(D)=+0.000, wind(det B_N)=[1. 0. 0. 0. 0.] -> coupled zeros (Re>0.01) = +1.000 [655 evals, 110s] / off-axis coupled zeros (Re>0): 1.1059+0.1743i[wind +1.00]"
+    },
+    {
+     "quantity": "deep case Gt/G=100, kappa^2=2: unstable-mode count and location",
+     "value": "3 coupled zeros, all on the imaginary axis (0.394, 0.259, plus one N=2 leftover); N=1 travelling pair +-0.9689 + 0.0339i",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/locate_block1.py",
+     "printed_output": "r=1.2917, gt=100.0, kappa^2=2.0: purely growing coupled roots (Dtilde sign changes): [0.39422, 0.25926] / N=1 block zeros (Re>0): -0.9689+0.0339i[wind +1.00], 0.9689+0.0339i[wind +1.00]"
+    },
+    {
+     "quantity": "winding counts for the deep case",
+     "value": "full: coupled 3, decoupled 5; right half: coupled 0, decoupled 2",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_omega_check.py",
+     "printed_output": "full rect : wind(D)=-0.0000, wind(det B_N, N=0..4)=[ 1.  2.  1. -0.  0.] -> coupled zeros=+3.0000, decoupled zeros=+5.0000 / right rect: ... coupled zeros=+0.0000, decoupled zeros=+2.0000"
+    },
+    {
+     "quantity": "coupled travelling pair at Gt/G=56.14, kappa^2=3 (no purely growing mode there; 2D confirms none above 0.03)",
+     "value": "0.7587 + 0.0754i",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled.py",
+     "printed_output": "kappa^2=3.0: right rect ... coupled zeros (Re>0.01) = +1.000 / off-axis coupled zeros (Re>0): 0.7587+0.0754i[wind +1.00]"
+    }
+   ],
+   "sources": []
+  },
+  {
+   "id": "C13",
+   "statement": "Debt 3a's classicality theorem does not carry over. It rests on contact range with the coupling fixed by sigma0/m. For a 1/r force the mean-field energy per particle is ~G~ M m/R, set by the mass density and independent of m at fixed rho, so collective behaviour is available to classical particles of any mass, as gravity itself shows. In a dwarf core of 70 MeV particles, a 1/r force at G~ = G gives a mean-field energy per particle of 2.1e-9 GeV. The contact benchmark gives 2.7e-37 GeV (ratio 7.7e27), and the kinetic scale m sigma^2 is 7.0e-10 GeV. The occupation per de Broglie cell is 3.2e-25 (dwarf) and 9.3e-28 (MW), so the particles are fully classical.",
+   "tag": "[D] with executed script",
+   "basis": "Scaling argument plus benchmark numbers. The uniform-core mass is an estimate.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "mean-field energy per particle: 1/r at G~=G vs contact benchmark; kinetic scale",
+     "value": "2.103e-9 GeV vs 2.725e-37 GeV (ratio 7.7e27); 7.0e-10 GeV",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/classicality.py",
+     "printed_output": "mean-field energy per particle: contact benchmark g n = 2.725e-37 GeV; 1/r force at G~=G: G M m/r_c = 2.103e-09 GeV; ratio = 7.716e+27 / kinetic scale m sigma^2 = 7.010e-10 GeV"
+    },
+    {
+     "quantity": "occupation per de Broglie cell at 70 MeV",
+     "value": "3.193e-25 (dwarf), 9.262e-28 (MW)",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/classicality.py",
+     "printed_output": "dwarf core: N_occ = rho/(m^4 sigma^3) at m = 70 MeV = 3.193e-25 / MW local: N_occ = rho/(m^4 sigma^3) at m = 70 MeV = 9.262e-28"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md 'Corollary (the classicality theorem)'"
+   ]
+  },
+  {
+   "id": "C14",
+   "statement": "A gravitational-strength 1/r force contributes nothing to scattering. The Rutherford transfer cross-section for 70 MeV particles at 30 km/s is sigma_T/m = 5.4e-62 cm^2/g (b90 = 2 G~ m/v^2, ln Lambda = ln N). Reaching 30 cm^2/g would need G~/G = 2.4e31. The long-range gate therefore cannot be the dwarf-core maker. G~ would be a new free parameter, unconnected to the scattering benchmark, so velocity-selected clumping would be optional (tunable), not mandatory: the net theorem's 'decorative' class, like Scenario B on the wave island.",
+   "tag": "[D] with executed script",
+   "basis": "Rutherford estimate with a Coulomb logarithm [T: standard form, from memory].",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "sigma_T/m at G~=G, v=30 km/s; G~/G needed for 30 cm^2/g",
+     "value": "5.352e-62 cm^2/g; 2.368e31",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/classicality.py",
+     "printed_output": "v = 30 km/s: b90 = 1.851e-47 m, sigma_T/m (G~=G, lnLambda=ln N) = 5.352e-62 cm^2/g; G~/G needed for 30 cm^2/g (sigma_T ~ G~^2) = 2.368e+31"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §8, §9 (iii)",
+    "notes/debt3b-wave-island.md 'Scenario B'"
+   ]
+  },
+  {
+   "id": "C15",
+   "statement": "Debt 3a's H-theorem argument is not independent of the mean-field threshold. Collisions drive the gas toward the Gibbs state f ~ exp(-eps/T) of the full mean-field Hamiltonian. Its free-energy second variation, (1/2) Int T (delta f)^2/f0 + (1/2) Int Int delta f U delta f, is the same quadratic form as the static stability operator. Below threshold, both collisions and the mean field keep the single-peaked state. Above it the uniform Gibbs state is a saddle, and both drive spatial clumping of co-movers. For a long-range force two-body relaxation is negligible anyway: N = 2.4e67 in a dwarf core, so t_relax/t_cross ~ N/(8 ln N) = 1.9e64. 3a's 'Maxwellian to one part in 10^30' does not carry over: with G~ ~ G the Gibbs-state distortion is of order (G~/G) Lambda_g, not 1e-30 (scaling estimate, not computed).",
+   "tag": "[D] with executed script for the numbers; the identity is [D] algebra",
+   "basis": "Second variation of F = E - TS at the Gibbs state. Relaxation estimate in Binney-Tremaine form [T, from memory].",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "particles in a dwarf core; two-body relaxation in crossing times",
+     "value": "N = 2.386e67; 1.923e64",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/classicality.py",
+     "printed_output": "r_c = 2.385 kpc, M(<r_c, uniform rho) = 1.497e+09 Msun, N = 2.386e+67, ln N = 155.1 / t_relax/t_cross ~ N/(8 ln N) = 1.923e+64"
+    }
+   ],
+   "sources": [
+    "notes/debt3a-stream-stability.md 'Numbers at the scattering benchmark'",
+    "wiki/dark-matter/momentum-clumping/vlasov-stability.md 'Collisions and the H-theorem'"
+   ]
+  },
+  {
+   "id": "C16",
+   "statement": "The record supplies no long-range gated force. X is massive: its couplings are Yukawa-cut (#11 §7.5) with lambda_X < 37.7 um at u = 1 (diameter note §8.2). That is contact range on halo scales: lambda_X/1 kpc < 1.22e-24. A carrier with kpc range needs mass <= hbar c/1 kpc = 6.39e-27 eV, against M_X c^2 > 5.23 meV, a factor 8.18e23. The gate amplitude also keeps a separate transfer factor 1/(q^2 + m_phi^2), with m_phi not related to M_X in any source. The massless graviton is reciprocity-even and couples universally (P4). A long-range velocity-gated attraction is therefore a hypothetical outside the record.",
+   "tag": "[D] with executed script, from [V][S] record numbers",
+   "basis": "Unit conversion of the record's bound.",
+   "confidence": "high",
+   "numbers": [
+    {
+     "quantity": "lambda_X / 1 kpc; carrier mass for 1 kpc range; M_X bound; ratio",
+     "value": "< 1.22e-24; 6.39e-27 eV; > 5.23 meV; 8.18e23",
+     "script": "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+     "printed_output": "lambda_X < 37.7 um (diameter note, u=1) -> lambda_X/1 kpc < 1.22e-24; carrier mass for range 1 kpc: hbar c/1kpc = 6.39e-27 eV / M_X c^2 > hbar c/37.7um = 5.23 meV; ratio to 1-kpc carrier mass: 8.18e+23"
+    }
+   ],
+   "sources": [
+    "papers/broken-born-checkpoint-v2.md §7.5, §8, §4 (P4)",
+    "papers/phase-space-diameter.md §8.2",
+    "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'",
+    "review/wiki-build-flags.md item 29",
+    "HANDOFF.md §4"
+   ]
+  },
+  {
+   "id": "C17",
+   "statement": "Gravitational two-stream literature: an instability of interpenetrating streams needs an already multi-humped distribution. Casti, Morrison and Spiegel, 'Negative Energy Modes and Gravitational Instability of Interpenetrating Fluids', Ann. N.Y. Acad. Sci. pp. 93-95 (1998 by the file name) [S]. For identical counterstreaming fluids the streaming instability lies wholly inside the Jeans band; asymmetric streams can have a separate band. Chavanis, Eur. Phys. J. B 85, 229 (2012), arXiv:1002.0291 [S]: a Nyquist analysis in which symmetric single-humped distributions have the same onset as a barotropic gas (Jeans); it gives stability diagrams for double-humped ones. Bertin and Cava, astro-ph/0608625 [S]: relative drift stabilizes axisymmetric Jeans modes in two-component disks. None of these creates streams from a single-humped Maxwellian, consistent with C2 and C7.",
+   "tag": "[T][S]",
+   "basis": "Live search and abstract/page reads this session; full texts not read.",
+   "confidence": "medium",
+   "numbers": [],
+   "sources": [
+    "https://web2.ph.utexas.edu/~morrison/98ANYAS93_morrison.pdf",
+    "https://arxiv.org/abs/1002.0291",
+    "https://ar5iv.labs.arxiv.org/html/astro-ph/0608625"
+   ]
+  },
+  {
+   "id": "C18",
+   "statement": "Long-range and velocity-dependent dark-matter interactions in the literature. Nusser, Gubser and Peebles, PRD 71, 083505 (2005), arXiv:astro-ph/0412586 [S]: a long-range scalar interaction among dark-matter particles; earlier work by Gradwohl and Frieman (1991-92) [S, via a citing paper]. Kesden and Kamionkowski, PRD 74, 083007 and PRL 97, 131303 (2006) [S]: a dark-matter-only long-range force breaks the equivalence principle between dark matter and baryons, and Sgr tidal streams constrain it at about the 10% level. For a gated force such bounds would apply to G~ W(v_rel/v*) at the satellite's speed. Lasenby, JCAP 11 (2020) 034, arXiv:2007.00667 [S]: long-range vector-mediated self-interactions drive collective plasma-like instabilities at couplings many orders below particle-by-particle limits, the same collective-versus-collisional split as C13. Velocity-dependent SIDM (Tulin and Yu review, arXiv:1705.02358 [S]) is collisional. In CDM, fine-grained phase space already holds about 1e14 streams at 8 kpc, the most massive about 0.1% of the local density (Vogelsberger and White, arXiv:1002.3162 [S]; figures from an abridged abstract). Two searches found no prior study of a long-range attraction gated in relative velocity; that is a null search result, not proof of absence.",
+   "tag": "[T][S]",
+   "basis": "Live searches; abstract pages read for NGP, KK, Lasenby and Chavanis.",
+   "confidence": "medium",
+   "numbers": [],
+   "sources": [
+    "https://arxiv.org/abs/astro-ph/0412586",
+    "https://arxiv.org/abs/astro-ph/0608095",
+    "https://arxiv.org/abs/astro-ph/0606566",
+    "https://arxiv.org/abs/2007.00667",
+    "https://arxiv.org/abs/1705.02358",
+    "https://arxiv.org/pdf/1002.3162"
+   ]
+  },
+  {
+   "id": "C19",
+   "statement": "Background theorems and analogs, from memory unless marked. Spherical isotropic f(E) systems with F' < 0 are linearly stable under Vlasov-Poisson (Antonov†; Doremus, Feix and Baumann, PRL 26, 725 (1971) [S for the citation; content †]). This is why the gravity-only margin Q exceeds 1 in a correct global analysis. Energy principles are necessary for stability of time-reversal-invariant equilibria: Laval, Mercier and Pellat, Nucl. Fusion 5 (1965) [S for the citation; content †]. An energy principle for symmetric Vlasov-Maxwell equilibria is in Lin and Strauss, arXiv:physics/0702023 [S]. A velocity-space analog is the Pomeranchuk instability of a Landau Fermi liquid, driven by angular harmonics of a momentum-dependent interaction†; the static l-sectors here are its classical counterpart. In plasmas, magnetic attraction of parallel currents is a velocity-dependent long-range attraction, and it drives Weibel/filamentation of anisotropic distributions (Weibel 1959†; Fried's beam picture [S, via Wikipedia]).",
+   "tag": "[T] (dagger and [S] as marked)",
+   "basis": "Model memory and partial live search.",
+   "confidence": "medium",
+   "numbers": [],
+   "sources": [
+    "https://arxiv.org/pdf/physics/0702023",
+    "https://en.wikipedia.org/wiki/Weibel_instability"
+   ]
+  },
+  {
+   "id": "C20",
+   "statement": "On the record's terms the obituary is not premature. (i) The founding image, streams spread through space, is exactly neutral in mean-field dynamics for any velocity-dependent attraction, long-range or contact (C7). (ii) A long-range velocity-gated attraction can make velocity-selected spatial clumps, but only for G~/G >~ Q/Lambda_g(sigma/v*): >= 28 at the solar circle and >= 152 in a cluster core before re-virialization; never in dwarfs, never at the solar circle after it, and about 800 in a marginal cluster core. Growth is at best about 0.24 orbital periods per e-fold in the MW and 5-18 crossing times in clusters. (iii) A perturbative velocity-dependent correction to gravity (G~ <= G) produces none. (iv) G~ is free and unconnected to the scattering fit, so any such clumping is optional, matching the net theorem's 'nowhere mandatory'. (v) The record's X cannot carry the force. The one correction to the record is in Debt 3a's narrow-gate criterion (C6), and it does not change 3a's verdict.",
+   "tag": "[D]",
+   "basis": "Synthesis of C2-C16 within the local homogeneous model.",
+   "confidence": "medium",
+   "numbers": [],
+   "sources": [
+    "wiki/dark-matter/momentum-clumping/founding-image.md",
+    "papers/broken-born-checkpoint-v2.md §9",
+    "notes/debt3a-stream-stability.md",
+    "notes/debt3c-ufd-endpoint.md 'Verdict and closure'"
+   ]
+  }
+ ],
+ "scripts": [
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_threshold.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/static_combined.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/growth_rates.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_omega_check.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/halos.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth_cluster.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/env_growth_cluster_fast.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/classicality.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d_targeted.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d_targeted2.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d_targeted3.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/check2d_targeted4.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/probe_roots.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/complex_roots.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/locate_block1.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/mw_kscan.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled2.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/offaxis_coupled3.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/odd_softening.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/stream_width.py",
+  "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/clumping/derived_numbers.py"
+ ],
+ "open_questions": [
+  "Global (non-WKB) linear stability of a finite isotropic halo with the gated term, via an action-angle response matrix. The local margins Q (1.1-24.8) are uncertain by a factor of about 4, and the thresholds scale with Q.",
+  "The self-consistent equilibrium with a velocity-dependent mean field, i.e. the Gibbs state and the background anomalous velocity that the swindle drops, and hence the correct re-virialization weight. The 2^1.5 cap and the 'never at the solar circle' result depend on the density-mode Rayleigh-quotient model.",
+  "The full unstable spectrum at strong coupling. Travelling modes were not mapped completely, and the cluster case Q = 4.39, Gt/G = 5858 has no purely growing mode and no located travelling one. The nonlinear outcome (phase-space clumps) is also open.",
+  "Canonical versus physical-velocity gate: a Hamiltonian versus a Lagrangian (Weber-like) velocity-dependent potential changes the effective gate shape at O(1), e.g. W -> (1+s^2)W in the conserved energy. Its effect on the thresholds was not computed.",
+  "Baryons are omitted from the local model. A cold, dense disk strengthens the gravity-like density mode and leaves the gated term unchanged.",
+  "Which carrier could give a long-range gated force compatible with strict P4, the X range bound and dark-sector equivalence-principle tests (Kesden-Kamionkowski-type bounds evaluated at G~ W(v_rel/v*))? None exists in the record.",
+  "Debt 3a's narrow-gate formula: should the record carry the corrected criterion g n Lambda_g(sigma/v*) >= m sigma^2? It does not change 3a's verdict, and is a candidate flag for review/wiki-build-flags.md (Paul's ruling)."
+ ],
+ "caveats": [
+  "All results are for a local homogeneous model under the Jeans swindle. The swindle discards the velocity-dependent background gated potential and its anomalous velocity, which is not small in a finite halo once G~ >~ G.",
+  "The gate is defined on canonical momenta, as in Debt 3a. W = exp(-s^2/2) matches #1's amplitude gate with v* = sqrt2 mu/m (or #6's form with v* = mu/m, flag 17). 3a's own gate normalization is unstated, so ratios against 3a carry an O(1) convention factor.",
+  "Growth rates were computed for the Gaussian gate only; the rational gate enters the static thresholds only.",
+  "Environment inputs: dwarf and MW (rho, sigma) from 3a; cluster rho = 0.03 GeV/cm^3 from 3b's table; R0 = 8.2 kpc and v_c = 230 km/s from memory (†). Margins Q come from idealized profiles (isothermal core, SIS), and WKB fails at kR ~ 1.",
+  "The argument-principle runs covered three cases at r = 1.29; the r = 4 case timed out. Travelling-mode searches used finite rectangles and coarse grids, so an unlocated faster travelling mode can be excluded only where winding counts were done (four MW parameter sets).",
+  "No script is in verify/ and none is wired into scripts/check.sh, so all results here are [D] from executed scripts, not [V]. No repository file was modified.",
+  "Literature [S] entries rest on abstracts and search snippets, not full texts. The Vogelsberger-White figures come from an abridged abstract, and the Casti-Morrison-Spiegel year is inferred from the file name."
+ ]
+}
