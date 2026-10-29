@@ -17,7 +17,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 7"
   - "notes/broken-born-theory.md §5.3"
   - "notes/broken-born-theory.md §8"
-  - "notes/debt3b-wave-island.md 'Bonus: the relic debt closes itself'"
+  - "notes/wave-island.md 'Bonus: the relic-abundance problem solves itself'"
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md 'References'"
   - "review/wiki-build-flags.md item 18"
@@ -70,7 +70,7 @@ Two further routes set the abundance of things that are not thermal particles. A
 ## How the program uses these
 
 - **Particle χ and freeze-out.** The notebook's argument above [O], which makes the abundance an asymmetry problem and the ratio 5.4 : 1 an open problem for both remaining candidates ([#11](/wiki/history/documents/checkpoint) §12, §14 item 7).
-- **Wave χ by misalignment.** On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), very light χ is produced like an [axion](/wiki/cosmology/dark-energy/axion-like-fields#wave-χ-produced-like-an-axion): "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism" (`notes/debt3b-wave-island.md`, 'Bonus'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)).
+- **Wave χ by misalignment.** On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), very light χ is produced like an [axion](/wiki/cosmology/dark-energy/axion-like-fields#wave-χ-produced-like-an-axion): "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism" (`notes/wave-island.md`, 'Bonus'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)).
 - **The hidden W′±.** In the minimal hidden sector of the soliton manuscript, the charged gauge bosons are stable and freeze out: "Standard freeze-out [17] then leaves them at 1e16 to 1e17 times the observed dark-matter density" (#14 §3). The result survives the candidate's retirement and is gated [V] (#11 §12; [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure)).
 - **The hidden fermion ψ.** Its freeze-out window was recounted in round 3: "v3 omitted ψ̄ and the second doublet member (a factor of 4)", and the corrected count is "10% of the DM at 45–49 GeV, 100% at 146–158 GeV" (ruling 4; DM is dark matter), checked in the script with σv = πα²/m² ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The BBN timing and the freeze-in route are the two items above.
 
@@ -108,6 +108,6 @@ Added by the wiki from model memory (†):
 - `review/v3-worklog.md` 'v3 as drafted (2026-10-19)' — Kolb and Turner not live-checked
 - `papers/broken-born-checkpoint-v2.md` §4 — P4 taken strictly; §12 — W′ overclosure [V] and the 5.4 : 1 question for both candidates; §14 item 7 — the ratio as an open problem
 - `notes/broken-born-theory.md` §5.3 — why χ cannot freeze out thermally; §8 — polarization-genesis as the baryogenesis analog
-- `notes/debt3b-wave-island.md` 'Bonus: the relic debt closes itself' — misalignment on the wave island
+- `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself' — misalignment on the wave island
 - `notes/knot-dark-matter-standalone.md` §3 — the target Ω h² ~ 0.12, s₀, and the freeze-out of W′ and ψ; 'References' [17] — Kolb and Turner
 - `review/wiki-build-flags.md` item 18 — the notebook's 1966 date for baryogenesis

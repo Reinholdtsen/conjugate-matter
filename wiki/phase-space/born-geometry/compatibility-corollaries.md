@@ -5,10 +5,10 @@ status: established
 description: "det H = 1 (ℏ-rigidity as geometry), no Kalb–Ramond analog, and g̃ = g⁻¹ — the slaved momentum metric that collided with the theory as documented and forced the repair."
 provenance: [D]
 sources:
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §F"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §7.1"
@@ -31,7 +31,7 @@ sources:
 
 ## From the theorem to the corollaries
 
-The compatibility theorem fixes H completely once g is given: with ω and η both rigid, the positive H compatible with both are exactly H = diag(g, g⁻¹), g ∈ Sym⁺(d). Calc note [#5](/wiki/history/documents/debt-1-notes) §A reads off three consequences, under the heading "[D — rigorous]":
+The compatibility theorem fixes H completely once g is given: with ω and η both rigid, the positive H compatible with both are exactly H = diag(g, g⁻¹), g ∈ Sym⁺(d). Calc note [#5](/wiki/history/documents/field-equation-notes) §A reads off three consequences, under the heading "[D — rigorous]":
 
 1. "**det H = 1 identically.** The generalized metric is unimodular: phase-space volume is not a dynamical field. ℏ-rigidity is manifest in the geometry, not imposed on it."
 2. "**No Kalb–Ramond analog.** The off-diagonal block — [double field theory's] B-field — is frozen out by the extra symplectic compatibility. Born geometry with both structures rigid is *stiffer* than [double field theory]."
@@ -119,9 +119,9 @@ The handoff lists among the results that exist only in the claude.ai conversatio
 - `review/round3/referee/audit-notes.md` Step 3, `review/round3/referee/step3.out` and `review/round3/referee/step3.py` family (a) — det H = 1 on the diag(g, g⁻¹) family, and the matrix the check uses; the B-field family.
 - `papers/conjugate-special-relativity.md` §1 — the block form as two metrics with two cones.
 - `HANDOFF.md` §2, §4, §5 — the ✓ on the theorem line; the chat-only remark on the slaved layer; T2 as "det H = 1 off-vacuum".
-- `notes/debt1a-geometric-core.md` §A — the three corollaries, "[D — rigorous]".
-- `notes/debt1a-geometric-core.md` §B — "Corollary 3 collides with the theory as documented"; Branch R; the repair.
-- `notes/debt1a-geometric-core.md` §C, §F — H_Z and the vacuum slice X = 0; unimodularity as "the geometric face of ℏ-rigidity".
+- `notes/geometric-core.md` §A — the three corollaries, "[D — rigorous]".
+- `notes/geometric-core.md` §B — "Corollary 3 collides with the theory as documented"; Branch R; the repair.
+- `notes/geometric-core.md` §C, §F — H_Z and the vacuum slice X = 0; unimodularity as "the geometric face of ℏ-rigidity".
 - `notes/broken-born-theory.md` §3, 'Addendum (v0.3, overnight)' — g and g̃ as the blocks of H; strict P2 as "GR plus one bespoke SIDM model".
 - `notes/knot-dark-matter-standalone.md` §1 — momentum-space geometry resides in X.
 - `verify/battery.py` T2 — det H_Z = 1 at one sampled Siegel point.

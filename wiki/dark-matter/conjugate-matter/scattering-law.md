@@ -15,10 +15,10 @@ sources:
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt3b-wave-island.md 'The rate'"
-  - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
+  - "notes/x-classification.md §4"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/wave-island.md 'The rate'"
+  - "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'"
   - "popsci/universes-other-half.md"
   - "papers/conjugate-special-relativity.md §4"
   - "review/wiki-build-flags.md items 17, 55"
@@ -28,7 +28,7 @@ sources:
 
 *The gated scattering law gives the [momentum-transfer cross-section σ_T](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) of [conjugate matter](/wiki/dark-matter/conjugate-matter), the measure of how strongly its particles scatter off one another, as a function of the relative velocity v of a colliding pair. Because [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) turns the interaction off at large relative velocity, self-scattering is strong in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), where dark matter moves at tens of kilometres per second, and absent in galaxy clusters, where it moves at thousands; between the two, σ_T bends down at a knee near the gate velocity v\*. Below the knee the scattering goes equally in all directions, unlike the forward-peaked scattering of the usual models with a light force carrier. The lab notebook first derived a sharp exponential cliff at v\*; once the gate's mechanism was found, the program kept only the knee, and the shape of its tail became an open question that observations could answer.*
 
-**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) and read by [row 3](/wiki/predictions/island-discriminant). The gate behind it is disputed in its derivation, not in its form: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
+**Status:** Alive — [D], with the shape [O] (`papers/broken-born-checkpoint-v2.md` §8) — derived in the Born approximation in the lab notebook (#1 §5.1) and downgraded from cliff to knee in calc note #6 §4 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)); not machine-checked. The v0.1 exponential cliff is superseded. The law is tested by [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) and read by [row 3](/wiki/predictions/island-discriminant). The gate behind it is disputed in its derivation, not in its form: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## The law
 
@@ -88,7 +88,7 @@ The first signature was weakened when the gate's mechanism was derived (below); 
 
 Calc note #6 derived the gate from exchange of the [momentum graviton X](/wiki/gravity/momentum-graviton) over the overlap of the χ quanta's momentum-space wavepackets ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). A Gaussian gate then requires a Gaussian profile, and generic vertices give rational, power-law-tailed gates. The note draws the consequence for the scattering law, a downgrade of the flagship row:
 
-> "**row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential." (`notes/debt1a-ii-X-classification.md` §4; the note writes v_\* for v\*)
+> "**row 1's 'exponential cliff' weakens to 'sharp knee at v\*, with the tail shape (Gaussian vs rational) a diagnostic of the vertex completion.'** The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential." (`notes/x-classification.md` §4; the note writes v_\* for v\*)
 
 The lab notebook's v0.4 addendum records the amendment: "the exponential cliff weakens to a *sharp knee at v_\* with tail shape (Gaussian vs rational) diagnosing the vertex completion*; the knee's existence and location remain the robust prediction" (#1 'Addendum (v0.4)'). The knee's existence follows from the gate depending on k, whatever F is; the location is set by μ. What changed is that the steepness, which v0.1 took from the assumed Gaussian, is no longer a prediction.
 
@@ -122,13 +122,13 @@ In #11's comparison of the two remaining dark-matter candidates, [χ particles](
 
 ## On the wave island
 
-The law above is a two-body cross-section for classical particles. The Debt-3 calculations found that collective effects of the gated attraction can exist only if χ is light enough to behave as a classical wave, on what the notes call the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)). There the velocity dependence takes a different form.
+The law above is a two-body cross-section for classical particles. The clumping calculations found that collective effects of the gated attraction can exist only if χ is light enough to behave as a classical wave, on what the notes call the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)). There the velocity dependence takes a different form.
 
-- **Calc note #2** (Debt 3a, the first of [the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)): on the particle island, "Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional"; on the wave island, "a cliff-analog survives as (v\*/σ)³ suppression rather than an exponential. Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/debt3a-stream-stability.md`). Here σ is the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion) of the halo.
-- **Calc note #3** (Debt 3b): the [gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), when the gate is narrow, is "suppressed by (v\*/σ)⁴ — **a power law, not an exponential**", and "The velocity suppression of self-interaction effects is e^{−v²/v\*²} on the particle island but (v\*/σ)⁴ on the wave island. The cliff's *sharpness* distinguishes the islands observationally" (`notes/debt3b-wave-island.md`, 'The rate').
-- **Calc note #4** (Debt 3c) lists among what remains "distinctively BBT's own" "the exponential cliff + in-gate isotropy (particle island)" and "the cliff-sharpness **island discriminant** (exponential vs (v\*/σ)⁴)" (`notes/debt3c-ufd-endpoint.md`).
+- **Calc note #2** (calc note #2, the first of [the clumping calc notes](/wiki/history/documents/clumping-notes)): on the particle island, "Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional"; on the wave island, "a cliff-analog survives as (v\*/σ)³ suppression rather than an exponential. Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/stream-stability.md`). Here σ is the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion) of the halo.
+- **Calc note #3** (calc note #3): the [gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), when the gate is narrow, is "suppressed by (v\*/σ)⁴ — **a power law, not an exponential**", and "The velocity suppression of self-interaction effects is e^{−v²/v\*²} on the particle island but (v\*/σ)⁴ on the wave island. The cliff's *sharpness* distinguishes the islands observationally" (`notes/wave-island.md`, 'The rate').
+- **Calc note #4** (calc note #4) lists among what remains "distinctively BBT's own" "the exponential cliff + in-gate isotropy (particle island)" and "the cliff-sharpness **island discriminant** (exponential vs (v\*/σ)⁴)" (`notes/ufd-endpoint.md`).
 
-The Debt-3 notes were written before the Debt-1 notes and so still speak of an exponential cliff. The fourth power of calc notes #3 and #4 is the one #11 uses; calc note #2's third power was a first estimate ([conflicts between sources](/wiki/history/documents/source-conflicts)). The re-derivation of rows 1–2 in wave language that calc note #2 called for is answered only in part by the (v\*/σ)⁴ law; no document restates isotropy for waves. That to-do belongs with [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
+The clumping notes were written before the field-equation notes and so still speak of an exponential cliff. The fourth power of calc notes #3 and #4 is the one #11 uses; calc note #2's third power was a first estimate ([conflicts between sources](/wiki/history/documents/source-conflicts)). The re-derivation of rows 1–2 in wave language that calc note #2 called for is answered only in part by the (v\*/σ)⁴ law; no document restates isotropy for waves. That to-do belongs with [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate).
 
 ## What is open
 
@@ -150,10 +150,10 @@ The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the e
 
 - `papers/broken-born-checkpoint-v2.md` §8 — the current law; §13 rows 1–3 — the requirements and kill conditions; §12 — the candidates' handles; §15 — "gate tail not yet forced", falsification exposure
 - `notes/broken-born-program-v1.md` §6, §9 — v1's law and its row 1 with the knee
-- `notes/debt1a-ii-X-classification.md` §4 and `notes/broken-born-theory.md` 'Addendum (v0.4)' — the downgrade from cliff to knee
-- `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 survive on the particle island, to be re-derived in wave language; the (v\*/σ)³ estimate
-- `notes/debt3b-wave-island.md` 'The rate' — the (v\*/σ)⁴ suppression and the island discriminant
-- `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — what remains distinctive after Debt 3
+- `notes/x-classification.md` §4 and `notes/broken-born-theory.md` 'Addendum (v0.4)' — the downgrade from cliff to knee
+- `notes/stream-stability.md` 'Consequences for the predictions table' — rows 1–2 survive on the particle island, to be re-derived in wave language; the (v\*/σ)³ estimate
+- `notes/wave-island.md` 'The rate' — the (v\*/σ)⁴ suppression and the island discriminant
+- `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — what remains distinctive after the clumping problem
 - `notes/broken-born-theory.md` §5.1 — the v0.1 law, σ₀, v\*, the two signatures, the Born caveat, the cluster numbers; §9 — the v0.1 row 1 and the flagship discriminants; §3 — the v0.1 amplitude and k = m_χv_rel/2
 - `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ with μ read as the fiber width
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; item 55 — the mechanism not derived, awaiting a ruling

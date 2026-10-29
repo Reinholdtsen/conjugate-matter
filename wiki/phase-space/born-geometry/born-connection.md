@@ -14,11 +14,11 @@ sources:
   - "notes/broken-born-theory.md §11 item 1"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §3"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-iii-tuning-test.md §3"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
+  - "notes/tuning-test.md §3"
   - "papers/reciprocity-toy-models.md ref [2]"
 ---
 
@@ -56,13 +56,13 @@ S_H = ½ M_B² ∫_Σ √|H| R_B[H]        over the section Σ, with ω, η froz
 
 "On the x-tilted vacuum, H decomposes into a spacetime metric g_μν(x) and a momentum-space metric g̃^μν; the g-block reproduces the Einstein–Hilbert action with M_P fixed by M_B and the section volume. [D, schematic]" (#1 §3). The section Σ comes from [a section condition](/wiki/symmetry-breaking/section-condition) borrowed from [double field theory](/wiki/phase-space/born-geometry/double-field-theory): "Field dependence is restricted to a Lagrangian leaf by a section condition, as in double field theory; consistency of the section condition on general backgrounds is open there and open here. [O]" (#1 §2).
 
-The notebook's first open problem records how far this went: "The field equation for H beyond minisuperspace — Born's 88-year debt. The action exists (Born connection [T]), but solutions, the section condition on curved backgrounds, and the full ghost analysis do not. [O]" (#1 §11 item 1).
+The notebook's first open problem records how far this went: "The field equation for H beyond minisuperspace — the question Born left open in 1938. The action exists (Born connection [T]), but solutions, the section condition on curved backgrounds, and the full ghost analysis do not. [O]" (#1 §11 item 1).
 
-[The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then emptied the action of new content. With ω and η both rigid, H = diag(g, g⁻¹), and "S_H is a functional of g alone: a pure metric theory" (calc note [#5](/wiki/history/documents/debt-1-notes) §B). That finding forced the change from [the original P2](/wiki/program/postulates/original-p2) to [P2′](/wiki/program/postulates/p2-prime). The superseded action is recorded on [the geometric action S_H](/wiki/gravity/tuning-test/geometric-action).
+[The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then emptied the action of new content. With ω and η both rigid, H = diag(g, g⁻¹), and "S_H is a functional of g alone: a pure metric theory" (calc note [#5](/wiki/history/documents/field-equation-notes) §B). That finding forced the change from [the original P2](/wiki/program/postulates/original-p2) to [P2′](/wiki/program/postulates/p2-prime). The superseded action is recorded on [the geometric action S_H](/wiki/gravity/tuning-test/geometric-action).
 
 ### After P2′
 
-With [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) in place, calc note #5 restated the old debt as "the field equation for momentum-space geometry is the Re Z sector of S_H" (§C) and posed the decisive computation: "expand the generalized curvature scalar of (ω, H_Z) to quadratic order in X about X = 0 on the section, with ω-generalized diffeomorphisms as the gauge symmetry" (§D). The Debt-1 notes then settled the character of X by symmetry arguments and [the tuning test](/wiki/gravity/tuning-test) instead ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)), and the step back from the frame-tier potential to S_H has not been made. #11 lists it as open problem 1: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]" ([Open: deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction)).
+With [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) in place, calc note #5 restated the field-equation problem as "the field equation for momentum-space geometry is the Re Z sector of S_H" (§C) and posed the decisive computation: "expand the generalized curvature scalar of (ω, H_Z) to quadratic order in X about X = 0 on the section, with ω-generalized diffeomorphisms as the gauge symmetry" (§D). The field-equation notes then settled the character of X by symmetry arguments and [the tuning test](/wiki/gravity/tuning-test) instead ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)), and the step back from the frame-tier potential to S_H has not been made. #11 lists it as open problem 1: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]" ([Open: deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction)).
 
 ### The first-order tier
 
@@ -90,7 +90,7 @@ The question bears on the computation #5 §D posed, which is phrased in terms of
 - `papers/broken-born-checkpoint-v2.md` §5 and ref. [7] — "a unique compatible connection exists [7†]"; the reference and its 2019 date.
 - `papers/broken-born-checkpoint-v2.md` §7.2, §14 item 1 — the first-order tier shared with the vielbein; the wedge sector not derived from S_H.
 - `papers/reciprocity-toy-models.md` ref. [2] — the other Freidel–Rudolph–Svoboda paper.
-- `notes/debt1a-geometric-core.md` §B, §C, §D, §F — S_H reduced to g under strict P2; η ≡ HJ under P2′; the curvature of (ω, H_Z); item 5, connection uniqueness for (ω, H) alone.
-- `notes/debt1a-iii-tuning-test.md` §3 — J, E and the Born connection on the first-order tier.
+- `notes/geometric-core.md` §B, §C, §D, §F — S_H reduced to g under strict P2; η ≡ HJ under P2′; the curvature of (ω, H_Z); item 5, connection uniqueness for (ω, H) alone.
+- `notes/tuning-test.md` §3 — J, E and the Born connection on the first-order tier.
 - `notes/broken-born-theory.md` §2, §3, §11 item 1 — the theorem as #1 states it, with R_B[H] and the 2018 date; S_H; the field equation for H as open; 'Addendum (v0.5)' — the first-order tier.
 - `notes/broken-born-program-v1.md` §3 — the same attribution, dated 2018.

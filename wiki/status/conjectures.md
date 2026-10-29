@@ -29,9 +29,9 @@ sources:
   - "papers/conjugate-special-relativity.md §3"
   - "papers/conjugate-special-relativity.md §5"
   - "papers/conjugate-special-relativity.md §6"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §E"
+  - "notes/x-classification.md §3"
   - "notes/toy-lagrangian.md 'Chunk 2 results (2026-10-19): the Grosse–Wulkenhaar route'"
   - "notes/toy-lagrangian.md 'Chunk 3 results (2026-10-19): S4, quantum stability'"
   - "popsci/universes-other-half.md"
@@ -111,7 +111,7 @@ These statements are in the repository's documents but are not derived there, an
 
 One conjecture is P.R.'s own, posed after the record was written and tested by a working note rather than taken from a document.
 
-- [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction) — P.R.'s question of 2026-10-26, whether the velocity-clumping obituary is premature, read as a model: dark-matter particles attract each other at long range only when they move at similar velocities. The velocity-gated-gravity note (`notes/velocity-gated-gravity.md`, 2026-10-28; computed, not reviewed) finds it outside the record, a model "the record does not contain, which Debt 3 never tested", with no field in the record to carry it. At the record's gate width the Lyman-α forest allows ε < 0.057–0.106 of gravity's strength in the record's reading, while velocity-selected clumping needs ε > 1 at every gate width; the force could not make dwarf cores, which would need G̃/G ≈ 3.6×10³¹, so its strength would be free and any clumping "decorative" (§§5–7). Gates narrower than about 30 km/s are a partly open corner, with N-body runs by one agent and one statistic not adjudicated (§8). Every number except the N-body runs is checked in `verify/velocity_gated_gravity.py`. The obituary itself, which covers the program's contact-range interaction, is not reopened ([what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers)).
+- [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction) — P.R.'s question of 2026-10-26, whether the velocity-clumping obituary is premature, read as a model: dark-matter particles attract each other at long range only when they move at similar velocities. The velocity-gated-gravity note (`notes/velocity-gated-gravity.md`, 2026-10-28; computed, not reviewed) finds it outside the record, a model "the record does not contain, which the clumping problem never tested", with no field in the record to carry it. At the record's gate width the Lyman-α forest allows ε < 0.057–0.106 of gravity's strength in the record's reading, while velocity-selected clumping needs ε > 1 at every gate width; the force could not make dwarf cores, which would need G̃/G ≈ 3.6×10³¹, so its strength would be free and any clumping "decorative" (§§5–7). Gates narrower than about 30 km/s are a partly open corner, with N-body runs by one agent and one statistic not adjudicated (§8). Every number except the N-body runs is checked in `verify/velocity_gated_gravity.py`. The obituary itself, which covers the program's contact-range interaction, is not reopened ([what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers)).
 
 ## Sources
 
@@ -123,7 +123,7 @@ One conjecture is P.R.'s own, posed after the record was written and tested by a
 - `review/round3-adjudication.md` "Rulings" 3, "Decisions" 2–3 — the √N floor's premise inverted and the item dropped; the soliton candidate retired.
 - `papers/broken-born-checkpoint-v2.md` §2, §5, §7, §11.3, §12, §13 — the battery's scope; the slaved momentum metric; the Yukawa cut at 1/M_X; the unification conjecture; the two candidates; row 4.
 - `papers/conjugate-special-relativity.md` §3, §5, §6 — force dilation and its open clause; the conjecture-tier dual second law; "Yukawa-cut in momentum".
-- `notes/debt1a-geometric-core.md` §A, §E; `notes/debt1a-ii-X-classification.md` §3 — the slaved momentum metric; dual stress as the source of X; a massive X with five polarizations.
+- `notes/geometric-core.md` §A, §E; `notes/x-classification.md` §3 — the slaved momentum metric; dual stress as the source of X; a massive X with five polarizations.
 - `notes/toy-lagrangian.md` "Chunk 2 results", "Chunk 3 results" — the two worklog conjectures.
 - `popsci/universes-other-half.md` — #12, cited by section heading.
 - `popsci/angle-of-the-mirror.md` — #10, cited by section heading.

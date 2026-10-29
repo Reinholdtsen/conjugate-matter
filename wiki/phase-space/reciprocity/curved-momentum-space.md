@@ -13,8 +13,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "notes/broken-born-theory.md §3"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §C"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §C"
   - "notes/knot-dark-matter-standalone.md §1"
 ---
 
@@ -49,8 +49,8 @@ The point is negative: [flat momentum space](/wiki/phase-space/reciprocity/momen
 The program's answer comes from its phase-space geometry rather than from the Snyder lineage.
 
 1. **Two metrics in one.** The generalized metric H on phase space ([the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)) contains both: "On the x-tilted vacuum, H decomposes into a spacetime metric g_μν(x) and a momentum-space metric g̃^μν" (#1 §3).
-2. **In the vacuum the momentum metric is not independent.** With the neutral metric held rigid (the [original P2](/wiki/program/postulates/original-p2)), or under [P2′](/wiki/program/postulates/p2-prime) on the vacuum slice X = 0, which #11 §6 identifies with the η-compatible locus, the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) forces H = diag(g, g⁻¹), and "The momentum metric is slaved: g̃ = g⁻¹ pointwise. No independent momentum-space geometry survives." ([#5](/wiki/history/documents/debt-1-notes) §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
-3. **Off the vacuum it lives in X.** Once only ω is rigid, the metric becomes the [modular field Z](/wiki/phase-space/modular-field/modular-field-z) = X + iY, and "any independent momentum-space geometry resides in the fluctuation X" ([#14](/wiki/dark-matter/candidates/soliton-candidate) §1, the withdrawn manuscript). The calc note: "Born's debt, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (#5 §C).
+2. **In the vacuum the momentum metric is not independent.** With the neutral metric held rigid (the [original P2](/wiki/program/postulates/original-p2)), or under [P2′](/wiki/program/postulates/p2-prime) on the vacuum slice X = 0, which #11 §6 identifies with the η-compatible locus, the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) forces H = diag(g, g⁻¹), and "The momentum metric is slaved: g̃ = g⁻¹ pointwise. No independent momentum-space geometry survives." ([#5](/wiki/history/documents/field-equation-notes) §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
+3. **Off the vacuum it lives in X.** Once only ω is rigid, the metric becomes the [modular field Z](/wiki/phase-space/modular-field/modular-field-z) = X + iY, and "any independent momentum-space geometry resides in the fluctuation X" ([#14](/wiki/dark-matter/candidates/soliton-candidate) §1, the withdrawn manuscript). The calc note: "The field-equation problem, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (#5 §C).
 4. **Born's answer.** #11 §7: "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice … Momentum space gravitates, massively and invisibly to everything not polarized its way". See [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer).
 
 The program's momentum geometry is thus a dynamical metric on momentum space, short-ranged because X is massive. No document compares it in detail with the Snyder or relative-locality constructions; the one place they meet is the open problem below.
@@ -80,7 +80,7 @@ The program's momentum geometry is thus a dynamical metric on momentum space, sh
 - `papers/broken-born-checkpoint-v2.md` §3 and refs [4]–[6] — the lineage Snyder → 2+1 gravity → relative locality, all †.
 - `papers/broken-born-checkpoint-v2.md` §7 — Born's answer: momentum-space geometry as a massive spin-2 field.
 - `papers/broken-born-checkpoint-v2.md` §14 — the current open-problem list, which does not carry extensivity.
-- `notes/debt1a-geometric-core.md` §A, §C — g̃ = g⁻¹ slaved; momentum-space geometry as the Re Z sector.
+- `notes/geometric-core.md` §A, §C — g̃ = g⁻¹ slaved; momentum-space geometry as the Re Z sector.
 - `notes/broken-born-program-v1.md` §1, §10 — the 2+1 statement tagged [T]; v1's open-problem list, without extensivity.
 - `notes/broken-born-theory.md` §3, §11 item 6 — H split into g and g̃; the soccer-ball problem as #1 stated it.
 - `notes/knot-dark-matter-standalone.md` §1 — independent momentum-space geometry resides in X (withdrawn paper).

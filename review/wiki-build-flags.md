@@ -44,7 +44,7 @@ none refuted. Each flag carries its verdict; the full verdicts are in
 - **5, 28**: M_X should be M_X²; the formula beside "≈ 34" should be π/e², not 4π/e².
 - The rest are wording, pointers, dates and references.
 
-1. **Null-Lagrangian polarizations are not discrete for d ≥ 2.** `notes/debt1a-geometric-core.md`
+1. **Null-Lagrangian polarizations are not discrete for d ≥ 2.** `notes/geometric-core.md`
    §B (line 27), echoed in #11 §5 and #9 §3: the ω-Lagrangian, η-null polarizations are
    "discrete — the 2^d coordinate-type splittings, GL(d)-rigid". For any subspace V ⊂ ℝ^d,
    V ⊕ V^⊥ (V in x, V^⊥ in p) is ω-Lagrangian and η-null, so they form continuous
@@ -59,7 +59,7 @@ none refuted. Each flag carries its verdict; the full verdicts are in
    Suggested wording: "I is not invariant under K → −K". ADJ4 F3 and toy note §2 use "a
    coupling odd in K" as a requirement, which is fine.
    **Audit (2026-10-22): confirmed by 1 independent check.** I[W] = ∫(∫W)² ≥ 0 in both vacua (0.4070, 0.3600); oddness would need I(−K) = −I(K). I has a K-odd part but is not odd. ADJ4 F3, citing I_K as its example of a K-odd coupling, shares the slip.
-3. **The misalignment potential's zero set is larger than stated (#7 §2).** `notes/debt1a-iii-tuning-test.md`
+3. **The misalignment potential's zero set is larger than stated (#7 §2).** `notes/tuning-test.md`
    §1–§2 says {J₀, I[Z]} vanishes exactly on "X = 0 and Y = Y⁻¹". The blocks are A = [X, Y⁻¹] and
    S = Y + XY⁻¹X − Y⁻¹; with A = 0 (X, Y commuting) S = (Y² + X² − 1)Y⁻¹, so the zero set is
    {X, Y commute, X² + Y² = 1}, which contains points with X ≠ 0. At d = 1 it is the whole
@@ -118,15 +118,15 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     eigenvalues of √(f⁻¹g); for √(g⁻¹f), the matrix bimetric potentials use, it gives Tr(g⁻²)
     (spin2-b verifier's executed check). The conclusion (outside the eₙ span, battery T7) stands.
    **Audit (2026-10-22): depends on a convention or reading.** Right for the eigenvalues of √(f⁻¹g), the square roots of g's eigenvalues at f = 1. Wrong for the √(g⁻¹f) the sentence names: there p₄ = Tr(g⁻²), and Tr(g²) is not even a polynomial in those eₙ. #7 fixes neither root nor measure. #8 §1's exchange identity makes the √(f⁻¹g) presentation equivalent under a fixed measure. Conclusion stands.
-15. **Minor wording (#6 §2, `notes/debt1a-ii-X-classification.md` line 17): "η
+15. **Minor wording (#6 §2, `notes/x-classification.md` line 17): "η
     antisymmetric-pairing vs ω"** reads as calling η antisymmetric; η is the symmetric
     (neutral) metric and ω the antisymmetric form.
    **Audit (2026-10-22): confirmed by 1 independent check.** #6 §2 writes 'η antisymmetric-pairing vs ω', attaching 'antisymmetric' to η, the symmetric neutral metric. The intent is probably 'η gives an antisymmetric partner'. #11 §7.1 already rewords it ('the symmetry type of the rigid pairing').
-16. **A ✓ without a script.** HANDOFF §2 marks the Debt-3 shortfall "fails by 10²⁸–10³¹" as
+16. **A ✓ without a script.** HANDOFF §2 marks the clumping shortfall "fails by 10²⁸–10³¹" as
     machine-verified, but no `verify/` script checks it (#11 §9 tags it [D]). The wiki
-    verifier's recomputation `review/wiki-build-checks/debt3a_check.py` reproduces it and
+    verifier's recomputation `review/wiki-build-checks/stream_stability_check.py` reproduces it and
     could be moved into `verify/`.
-   **Audit (2026-10-22): confirmed by 1 independent check.** HANDOFF §2 marks 'criterion fails by 10²⁸–10³¹' with ✓ (machine-verified), but no verify/ script or check.sh entry covers Debt 3, and #11 §9 tags it [D]. The scratch debt3a_check.py reproduces the ratios (3.9e-28, 2.9e-31).
+   **Audit (2026-10-22): confirmed by 1 independent check.** HANDOFF §2 marks 'criterion fails by 10²⁸–10³¹' with ✓ (machine-verified), but no verify/ script or check.sh entry covers the clumping problem, and #11 §9 tags it [D]. The scratch stream_stability_check.py reproduces the ratios (3.9e-28, 2.9e-31).
    **Addendum (2026-10-28).** `verify/velocity_gated_gravity.py` (§D) now ports 3a's arithmetic
    into the gate and reproduces both ratios, with the linearized values beside them (flag 58). The
    ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules. "10²⁸–10³¹" quotes
@@ -140,9 +140,9 @@ none refuted. Each flag carries its verdict; the full verdicts are in
 18. **Minor date (#1 §8): baryogenesis reached "maturity … in 1966".** Sakharov's conditions are
     usually dated 1967 (model memory, †, unchecked). Conflicts register, entry C54.
    **Audit (2026-10-22): unclear (rests on model memory).** #1 §8 does say 'the same maturity baryogenesis had in 1966', naming no work. The 1967 dating of Sakharov's conditions is model memory; no repository file independently dates it, so under the † rule it stays unverified.
-19. **Minor: the classicality corollary's regime (#2, Debt 3a).** The corollary evaluates the
+19. **Minor: the classicality corollary's regime (#2, calc note #2).** The corollary evaluates the
     broad-gate formula at Milky Way conditions, which 3a itself treats as the narrow-gate
-    regime. `review/wiki-build-checks/debt3a_check.py` prints m_crit ≈ 1.4e-13 GeV (broad
+    regime. `review/wiki-build-checks/stream_stability_check.py` prints m_crit ≈ 1.4e-13 GeV (broad
     form) and 4.2e-14 GeV (narrow form, v\* fixed); N_occ ≫ 1 either way, so the conclusion
     (collective behaviour needs wave dark matter) is unchanged.
    **Audit (2026-10-22): depends on a convention or reading.** The flag's facts hold: 3a applies the broad-gate form at Milky Way conditions (0.4, 155 km/s), which its own table treats as narrow-gate. Read as a ceiling, the corollary is right: 3a's narrow form is at most 0.064× the broad, so 1.4e-13 GeV caps m, as #11 §9 ('forces m ≲ 0.1 meV') uses it. Read as the Milky Way threshold, it is about 3× high (4.2e-14 GeV).
@@ -294,7 +294,7 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     `c1_symbolic.py`–`c5_convexity.py` with `cosmo.py`).
    **Audit (2026-10-22): confirmed by 2 independent checks (one steelmanning the documents, one recomputing from scratch).** Both found the algebra right and the observation absent from every document. Both found the quadrant shared with the never-phantom field's own fits. The steelman adds that the corridor's slope, not its quadrant, keeps it away from DR2's crossing; #11 §10's defence is consistent with this.
 
-44. **Minor, not yet audited: "Without the gauge invariance" (#6 §2).** `notes/debt1a-ii-X-classification.md`
+44. **Minor, not yet audited: "Without the gauge invariance" (#6 §2).** `notes/x-classification.md`
     line 21: "Without the gauge invariance, no ghost-free two-derivative kinetic term for a
     Lorentz-covariant symmetric tensor exists … [T — standard]". Read literally, the full
     linearized diffeomorphism invariance is not needed: a kinetic term invariant only under the
@@ -350,7 +350,7 @@ are in `review/closed-universe/`.*
 48. **A closed universe does not close momentum space (#1 §6 table and §9 row 10; #11 §10 and §13
     row 10).** The dictionary reads "closed dual space ⇒ negative ΔN_eff", and row 10 lists
     "closed dual curvature ⇒ negative ΔN_eff". Under the slaved block g̃ = g⁻¹
-    (`notes/debt1a-geometric-core.md` Corollary 3) the momentum fibre's metric is the same at every
+    (`notes/geometric-core.md` Corollary 3) the momentum fibre's metric is the same at every
     p, for any X. The fibre is therefore flat (k̃ = 0), and k = +1 does not induce k̃ = +1. The
     effect needs a separate postulate of a curved, compact momentum space, which no document states;
     `wiki/predictions/early-universe-step.md` already notes that k̃ is undefined in #1. A symmetric
@@ -427,8 +427,8 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
     as #1 §3 (v0.1) had them; [O] for the mechanism; tree-level X exchange excluded [D][V]. §14
     item 4 asks only about the shape and presupposes an X propagator on the fibers that §7 does not
     have. Text that depends on the tag: #11's technical abstract, §8 (plain-language passage and
-    tag), §12's χ row, §13 rows 1–3, §15; #6 §4; #5 §E; #8 §5 ("mechanism paid"); HANDOFF §2 and §3
-    (#5 "pays Debt 2's mechanism"); the wiki's gate-mechanism, gate-shape and dual-stress pages. It
+    tag), §12's χ row, §13 rows 1–3, §15; #6 §4; #5 §E; #8 §5 ("mechanism found"); HANDOFF §2 and §3
+    (#5 "finds the gate's mechanism"); the wiki's gate-mechanism, gate-shape and dual-stress pages. It
     also opens whether row 3's island discriminant survives.
     `notes/gate-mechanism.md`. The velocity-clumping obituary is unaffected.
    **Audit (2026-10-27): confirmed by 2 independent derivations,** the second blind and
@@ -455,7 +455,7 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
    **Audit (2026-10-27): the source equations were read twice [S]:** by the run-3 critic-numbers
    verifier, and by the drafting session (its fetch is in the session transcript, not the record).
    The final critic adopted the verifier's ruling without rechecking them.
-58. **Debt 3a's narrow-gate criterion (low; next to flag 19).** 3a writes the threshold as
+58. **Calc note #2's narrow-gate criterion (low; next to flag 19).** 3a writes the threshold as
     g·n_gate ≥ m·min(σ, v*)². Its substitution σ → v* is the threshold of a cold stream that already
     exists, not of a smooth halo. Linearized, the halo's dispersion stays: g·n·Λ_g ≥ m·σ². In the
     Milky Way 3a's form overstates the shortfall about 3× (2.9×10⁻³¹ against 8.7×10⁻³¹), the

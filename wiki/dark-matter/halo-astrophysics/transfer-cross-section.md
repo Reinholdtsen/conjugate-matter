@@ -11,10 +11,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §13 rows 1–3"
   - "papers/broken-born-checkpoint-v2.md §14 items 4–5"
-  - "notes/debt3a-stream-stability.md 'Setup'"
-  - "notes/debt3a-stream-stability.md 'Numbers at the scattering benchmark'"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
+  - "notes/stream-stability.md 'Setup'"
+  - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "notes/knot-dark-matter-standalone.md §4"
   - "review/round3/referee/audit-notes.md Step 2"
   - "review/round3/referee/step2a.out"
@@ -69,7 +69,7 @@ The rate at which one particle scatters, counted by σ_T, is Γ = n σ_T v. Dark
 
 so observations constrain the cross-section per unit mass, σ_T/m, and not σ_T itself. The customary unit is cm²/g.
 
-The rate is what changes a halo of [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM): collisions carry heat into the colder center and turn a central cusp of density into a core, which needs only about one scattering per particle over the halo's age ([what self-scattering does to a halo](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#what-self-scattering-does-to-a-halo-t)). [Debt 3a](/wiki/history/documents/debt-3-notes) contrasts that requirement with the one for collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/debt3a-stream-stability.md`, 'Numbers at the scattering benchmark').
+The rate is what changes a halo of [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM): collisions carry heat into the colder center and turn a central cusp of density into a core, which needs only about one scattering per particle over the halo's age ([what self-scattering does to a halo](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#what-self-scattering-does-to-a-halo-t)). [Calc note #2](/wiki/history/documents/clumping-notes) contrasts that requirement with the one for collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/stream-stability.md`, 'Numbers at the scattering benchmark').
 
 Reading a cross-section per unit mass as a bare cross-section is a large error. [The handoff](/wiki/history/documents/handoff) lists among the errors of the program's first blind-review referee "σ_T/M misread as σ_T (off ~10⁴³)" (`HANDOFF.md` §6), M being the mass of the [withdrawn soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) ([the measured referee failure mode](/wiki/method/review/referee-failure-mode)).
 
@@ -77,7 +77,7 @@ Reading a cross-section per unit mass as a bare cross-section is a large error. 
 
 Within a halo, pairs of particles meet at a spread of relative speeds set by the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-spread-of-pair-speeds-t), so what the halo responds to is the rate averaged over that spread, ρ⟨σ_T v⟩/m. When σ_T depends on speed, a fit to one halo's structure measures this average, which is often reported as a cross-section at a speed characteristic of the halo [T].
 
-Halos of different mass have different internal speeds. The [Debt-3 notes](/wiki/history/documents/debt-3-notes) model a classical dwarf core with velocity dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). A set of halos from dwarf galaxies to clusters therefore samples σ_T/m over a range of speeds, and fits of such sets have been used to infer σ_T/m as a function of the collision speed (Kaplinghat, Tulin and Yu 2016 †). On the wiki's reading, this is the sense of "across halo masses" in [row 1](/wiki/predictions/self-interaction-knee). No program document cites such a fit.
+Halos of different mass have different internal speeds. The [clumping notes](/wiki/history/documents/clumping-notes) model a classical dwarf core with velocity dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/wave-island.md`, 'What pins g? Two scenarios'). A set of halos from dwarf galaxies to clusters therefore samples σ_T/m over a range of speeds, and fits of such sets have been used to infer σ_T/m as a function of the collision speed (Kaplinghat, Tulin and Yu 2016 †). On the wiki's reading, this is the sense of "across halo masses" in [row 1](/wiki/predictions/self-interaction-knee). No program document cites such a fit.
 
 ## Speed dependence [T]
 
@@ -141,13 +141,13 @@ Row 1 is stated in σ_T. Its standard expectations are cold dark matter's zero a
 
 ### The scattering benchmark
 
-The program fixes the strength of the law from the cores of dwarf galaxies: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (#1 §5.1), a value stated without a citation. #11 §8 carries it in the benchmark mass m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)). Debt 3a writes the coupling through σ₀, g ≡ 4πα̃/m_φ² = √(πσ₀/m²) ('Setup'; [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), and concludes that the core fit leaves it "*spent* — no freedom remains" ('Numbers at the scattering benchmark'). Why σ₀ can be as large as the fit requires is item 5 of #11 §14 ([Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement)).
+The program fixes the strength of the law from the cores of dwarf galaxies: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (#1 §5.1), a value stated without a citation. #11 §8 carries it in the benchmark mass m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)). Calc note #2 writes the coupling through σ₀, g ≡ 4πα̃/m_φ² = √(πσ₀/m²) ('Setup'; [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), and concludes that the core fit leaves it "*determined* — no freedom remains" ('Numbers at the scattering benchmark'). Why σ₀ can be as large as the fit requires is item 5 of #11 §14 ([Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement)).
 
 The notebook's v0.1 values above the gate, "σ_T/m (300 km/s) ≈ 6×10⁻² cm²/g, σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" (#1 §5.1), were computed from the Gaussian gate. They hold only if the tail is Gaussian, and they are superseded ([the v0.1 predictions from the benchmark](/wiki/dark-matter/conjugate-matter/benchmark#superseded-the-v01-predictions-from-the-benchmark)). No `verify/` script checks them; the flags' audit recomputed both from the notebook's formula 30·exp(−(v/v\*)²), which confirms the arithmetic, not the model (`review/wiki-build-checks/audit/flag17_recompute.out`, section 5; [verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
 ### Where σ_T is not the observable
 
-The law is a two-body cross-section, and it applies while χ is a gas of classical particles, on [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island). For χ light enough to act as a classical wave, Debt 3a found that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" ('Consequences for the predictions table'). On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) the role of σ_T passes to [the gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), which Debt 3b calls "the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). The re-derivation is answered only for the knee's tail ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
+The law is a two-body cross-section, and it applies while χ is a gas of classical particles, on [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island). For χ light enough to act as a classical wave, calc note #2 found that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" ('Consequences for the predictions table'). On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) the role of σ_T passes to [the gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), which calc note #3 calls "the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/wave-island.md`, 'What pins g? Two scenarios'). The re-derivation is answered only for the knee's tail ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 
 ### The soliton candidate's σ_T/M
 
@@ -186,8 +186,8 @@ The program's documents cite no source for the transfer cross-section. Added by 
 
 - `notes/broken-born-theory.md` §5.1 — "the momentum-transfer cross-section", the v0.1 law and its heavy mediator, Yukawa SIDM's v⁻⁴ fall with a Coulomb log, the transport remark, the 150–400 km/s band, the dwarf-core value and the v0.1 values above the gate; §9 — the v0.1 row 1; 'Addendum (v0.4)' — the cliff weakened to a knee
 - `papers/broken-born-checkpoint-v2.md` §8 — the amplitude, its tag, the gated σ_T(v) and the benchmark mass; §13 rows 1–3 — the rows on self-scattering; §14 items 4–5 — the open gate shape and the dual-stress enhancement
-- `notes/debt3a-stream-stability.md` 'Setup' — g written through σ₀; 'Numbers at the scattering benchmark' — Γt ∼ 1 and the "spent" coupling; 'Consequences for the predictions table' — two-body Born scattering not the observable on the wave island
-- `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — the dwarf and cluster dispersions; Γ_self as the analog of SIDM heat transport
+- `notes/stream-stability.md` 'Setup' — g written through σ₀; 'Numbers at the scattering benchmark' — Γt ∼ 1 and the coupling determined by the dwarf-core fit; 'Consequences for the predictions table' — two-body Born scattering not the observable on the wave island
+- `notes/wave-island.md` 'What pins g? Two scenarios' — the dwarf and cluster dispersions; Γ_self as the analog of SIDM heat transport
 - `notes/knot-dark-matter-standalone.md` §4 — the soliton candidate's σ_T/M
 - `review/round3/referee/audit-notes.md` Step 2 and `review/round3/referee/step2a.out` — the recomputed σ_T/M and the standard Coulomb formula
 - `review/round3-adjudication.md` 'What survives v3' — the benchmark-conditional arithmetic survives

@@ -12,7 +12,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 6"
   - "notes/broken-born-program-v1.md §10"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §3"
 ---
 
 *Fifth-force safety is the requirement that a new light field not produce a detectable extra force between ordinary bodies. The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence) is extremely light, so if it coupled to ordinary matter through its value, as the gravitational potential does, it would add a long-range force of the kind that torsion-balance experiments search for. The [lab notebook](/wiki/history/documents/lab-notebook) argues that τ is an approximate [Goldstone field](/wiki/symmetry-breaking/goldstone-and-higgs), one whose couplings are fixed by a symmetry under shifting its value, so it couples to matter only through its rate of change, which produces no such static force between ordinary bodies. The argument appears only in the lab notebook, in its first version; the current checkpoint does not restate it, and no script checks it.*
@@ -72,7 +72,7 @@ The later documents keep the pseudo-Goldstone picture, and the toy models are co
 
 ## A related open problem
 
-τ's mixing with the modes that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive has not been computed: "τ–Stückelberg mixing matrix [O]" (#11 §14 item 6). [Calc note #8](/wiki/history/documents/debt-1-notes) logged it as "expected small by compactness" (`notes/debt1a-iv-beta-coefficients.md` §3), and #9 repeats the expectation (§10 item 5). See [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) and [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten).
+τ's mixing with the modes that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive has not been computed: "τ–Stückelberg mixing matrix [O]" (#11 §14 item 6). [Calc note #8](/wiki/history/documents/field-equation-notes) logged it as "expected small by compactness" (`notes/beta-coefficients.md` §3), and #9 repeats the expectation (§10 item 5). See [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing) and [τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten).
 
 ## Compare: X is safe by range
 
@@ -83,5 +83,5 @@ The momentum graviton X is protected differently. It couples to ordinary matter 
 - `notes/broken-born-theory.md` §4 — the statement and its tag (the only source for the claim); §3 — the potential, and the Standard Model coupled to g alone
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: the polarization as a Goldstone angle that needs a ρ-preserving potential, and matter coupling to the sign of K; §7.5 — X's Yukawa cut; §14 item 6 — τ–Stückelberg mixing, open
 - `notes/toy-lagrangian.md` 'Chunk 3 results' — τ as a Goldstone in 3+1, "a pseudo-Goldstone polarization angle with a ρ-symmetric potential"
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the residual mixing "expected small by compactness"
+- `notes/beta-coefficients.md` §3 — the residual mixing "expected small by compactness"
 - `notes/broken-born-program-v1.md` §10 item 5 — the same expectation in v1

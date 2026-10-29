@@ -60,15 +60,15 @@ what is known and what is claimed read as a sequence.
 | `program/` | the question, the hard core, postulates P1–P5, founding suppositions, the main critique, the self-assessment |
 | `phase-space/` | Born reciprocity, Born geometry and its theorems, the modular field |
 | `symmetry-breaking/` | the mechanism of the hard core: order parameter, Goldstone angle, ρ-preserving potential, matter locality, the two toy models |
-| `gravity/` | spin-2 theory (massless and massive) and the Debt-1 results on the momentum graviton X |
-| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (Debt 2), the momentum-clumping obituary (Debt 3), the candidates and the retired soliton candidate |
+| `gravity/` | spin-2 theory (massless and massive) and the field-equation results on the momentum graviton X |
+| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), the momentum-clumping obituary (the clumping problem), the candidates and the retired soliton candidate |
 | `cosmology/` | scale-factor duality, dark energy, early-universe physics |
 | `electric-magnetic-duality/` | monopoles, dualities, charge lattices, the polarization identification |
 | `conjugate-relativity/` | #13: the kinematics of the momentum polarization |
 | `predictions/` | one test page per row of #11 §13, plus the table's history |
 | `status/` | registers: graveyard (first), alive, open problems and the queue, conjectures, superseded |
 | `method/` | Lakatos, the collaboration, provenance, verification (one page per script family), blind review |
-| `history/` | timeline, the three debts, the documents and the conflicts between them |
+| `history/` | timeline, the three main problems, the documents and the conflicts between them |
 | `summary`, `glossary`, `notation`, `references` | single register pages; `summary` (weight 5, first in the menu) is the executive summary, the program's standing on one page |
 
 **Status is visible in titles.**
@@ -154,7 +154,7 @@ description: "With ω and η both rigid, the only positive generalized metrics a
 provenance: [T, V]
 sources:
   - "papers/broken-born-checkpoint-v2.md §5"
-  - "notes/debt1a-geometric-core.md §A"
+  - "notes/geometric-core.md §A"
   - "verify/battery.py T1"
 ---
 
@@ -230,8 +230,8 @@ Rules on wording:
   endorsement.
 - **Analogies.** Wave and Fourier analogies work. Position and momentum relate as a
   waveform and its spectrum, and this is literal, since the Fourier transform implements
-  ρ. Ball-rolling metaphors do not work, and neither do ledger or bookkeeping metaphors.
-  Where #11 says "two ledgers", write "two descriptions".
+  ρ. Ball-rolling metaphors do not work, and neither do debt, payment, ledger or bookkeeping
+  metaphors. Open problems are named by subject: the field-equation problem, not a numbered debt.
 - **The program's name.** The program is the Comatter program, capital C. Until
   2026-10-26 it was the Broken-Born program, abbreviated BBT, and the records keep that
   name. Quote them as written, and gloss BBT beside the quotation as Broken-Born theory,

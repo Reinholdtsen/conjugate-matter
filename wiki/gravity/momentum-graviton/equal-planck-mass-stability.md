@@ -13,7 +13,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md 'References'"
   - "review/round3-adjudication.md 'Rulings'"
   - "review/round3/referee/audit-notes.md 'Step 1 - Citations'"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §3"
   - "HANDOFF.md §6"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "CLAUDE.md 'Since the handoff'"
@@ -62,7 +62,7 @@ The works, as #14's reference list gives them (unmarked there; full entries on [
 
 ## Why the program cannot use the escape
 
-Reciprocity acts on the program's spin-2 sector as an exchange of the two frames, and [calc note #8](/wiki/history/documents/debt-1-notes) §3 records that the same symmetry forces "equal effective Planck masses" ([equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). The worklog draws the consequence under the label "Tension": calc note #8 §3 "says reciprocity forces equal effective Planck masses (M_f = M_g), which rules out the M_f ≪ M_g escape." #14 §1 says the same: "The framework's reciprocity, acting as exchange of the two metrics, instead sets the two Planck masses equal".
+Reciprocity acts on the program's spin-2 sector as an exchange of the two frames, and [calc note #8](/wiki/history/documents/field-equation-notes) §3 records that the same symmetry forces "equal effective Planck masses" ([equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). The worklog draws the consequence under the label "Tension": calc note #8 §3 "says reciprocity forces equal effective Planck masses (M_f = M_g), which rules out the M_f ≪ M_g escape." #14 §1 says the same: "The framework's reciprocity, acting as exchange of the two metrics, instead sets the two Planck masses equal".
 
 The program's case therefore falls in neither studied regime. X is heavy, unlike the light spin-2 fields of the instability analyses, and its Planck masses are equal, unlike the stable regime. The same equality is why ordinary matter feels X at gravitational strength ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)).
 
@@ -104,7 +104,7 @@ So the instability literature is not uniformly negative even for light spin-2 fi
 - `notes/knot-dark-matter-standalone.md` §1 — the open consistency condition and the Higuchi bound as stated in the withdrawn manuscript; §5 item 7 — the exclusion condition; §6 — the conjectural ingredients; 'References' [4]–[6]
 - `review/round3-adjudication.md` 'Rulings' — ruling 12, reference [4] over-generalized
 - `review/round3/referee/audit-notes.md` 'Step 1 - Citations' — what references [4], [5] and [6] support
-- `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity
+- `notes/beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity
 - `HANDOFF.md` §6 — the round-2 finding the item answers
 - `papers/broken-born-checkpoint-v2.md` §14 — the current list of open problems, which does not include the item
 - `CLAUDE.md` 'Since the handoff' — the current queue

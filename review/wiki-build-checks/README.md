@@ -23,7 +23,7 @@ Run one with `cd review/wiki-build-checks && ../../.venv/bin/python <script>.py`
 | `quadratic_gap.py` | 31 | a lead: with a † Fermi-LAT bound, ~8 orders in scale, ~16 in effect size |
 | `rho_parity.py` | 39 | the linearization of −Z⁻¹ at Z = i is −(x + ih) for d = 1, 2, 3 |
 | `frozen_h_naive.py` | 40 | at λ = μ = 1, H = 1 the frozen-H Hessian has eigenvalue −6; V(t = 100) = −30004 |
-| `debt3a_check.py` | — | recomputes Debt 3a's mean-field shortfall (ratios ~4e-28, ~3e-31) and the classicality bound; HANDOFF §2 marks the 10²⁸–10³¹ figure ✓, but no `verify/` script gates it |
+| `stream_stability_check.py` | — | recomputes calc note #2's mean-field shortfall (ratios ~4e-28, ~3e-31) and the classicality bound; HANDOFF §2 marks the 10²⁸–10³¹ figure ✓, but no `verify/` script gates it |
 
 ## The flag audit (2026-10-22)
 

@@ -1,4 +1,4 @@
-"""Numbers for whether Debt 3a's classicality theorem and H-theorem argument carry over to a long-range gate.
+"""Numbers for whether calc note #2's classicality theorem and H-theorem argument carry over to a long-range gate.
 m = 70 MeV (benchmark), dwarf core rho = 1 GeV/cm^3, sigma = 30 km/s, isothermal core r_c = 3 sigma t_ff.
 1. N particles in the core, two-body relaxation t_relax/t_cross ~ N/(8 ln N) [Binney-Tremaine form, dagger].
 2. Occupation per de Broglie cell N_occ = rho/(m^4 sigma^3) (natural units, 3a's definition).

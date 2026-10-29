@@ -14,9 +14,9 @@ sources:
   - "notes/broken-born-theory.md §6"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight): axiom correction and the modular core'"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-program-v1.md §8"
   - "verify/battery.py T2"
   - "papers/phase-space-diameter.md §3"
@@ -82,7 +82,7 @@ The v0.3 addendum found that strict P2 makes the theory trivial and replaced it 
 
 With only ω rigid, the generalized metric H ranges over the [Siegel domain](/wiki/phase-space/modular-field/siegel-domain), coordinatized by the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY with Im Z = Y the spacetime metric g. [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) acts on Z by inversion: #11 §6, "**ρ: Z → −Z⁻¹** (Möbius; d = 1 check), fixed point Z = i; at X = 0 it is scale-factor duality g → g⁻¹, and the cosmological constraint a·ã = 1 (§10) is the |Z| = 1 locus." See [reciprocity as modular inversion](/wiki/phase-space/modular-field/modular-inversion).
 
-[Calc note #5](/wiki/history/documents/debt-1-notes) puts the relation between the two pictures this way: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle — the minisuperspace duality was the shadow of this modular action" (§C). In the half-plane picture (d = 1), inversion Z → −1/Z carries the unit semicircle |Z| = 1 onto itself and fixes only the point Z = i [T].
+[Calc note #5](/wiki/history/documents/field-equation-notes) puts the relation between the two pictures this way: "The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle — the minisuperspace duality was the shadow of this modular action" (§C). In the half-plane picture (d = 1), inversion Z → −1/Z carries the unit semicircle |Z| = 1 onto itself and fixes only the point Z = i [T].
 
 The documents identify a·ã = 1 with this circle without writing out how the two scale factors a and ã sit inside Z. The identification is a structural reading: calc note #5 tags its section "[D — structural; math facts standard]", and #11 §10 tags the constraint [D].
 
@@ -139,7 +139,7 @@ In string cosmology, scale-factor duality is a symmetry of the low-energy string
 - `notes/broken-born-theory.md` §6 — the derivation from a fixed phase-space cell
 - `notes/broken-born-theory.md` §1 — the original P2 and its "triple duty"
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight): axiom correction and the modular core' — P2′ and the |Z| = 1 locus
-- `notes/debt1a-geometric-core.md` §A, §C, §F — unimodularity; "the shadow of this modular action"; det H = 1 as the geometric face of ℏ-rigidity
+- `notes/geometric-core.md` §A, §C, §F — unimodularity; "the shadow of this modular action"; det H = 1 as the geometric face of ℏ-rigidity
 - `notes/broken-born-program-v1.md` §8 — v1's statement: "Not an assumption — the statement that ℏ does not run"
 - `verify/battery.py` T2 — det H_Z = 1 for one sampled member of the Siegel family, executed
 - `papers/phase-space-diameter.md` §3 — a·ã = 1 as the one-cell statement of the diameter relation, and its holding in general relativity

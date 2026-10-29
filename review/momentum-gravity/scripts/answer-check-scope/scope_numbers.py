@@ -40,7 +40,7 @@ print(f"eBOSS delta chi^2 = {d:.2f} (naive one-parameter significance {sqrt(d):.
 # Window of the N-body in physical time (corner phys_scales.out)
 print("43 t_ff: Segue 1 0.117 Gyr; classical dSph 0.372-0.643 Gyr (printed) -> draft '0.1-0.6 Gyr'")
 
-# Debt 3a vs linearized criterion, MW (debt3a_check.out 2.9e-31; clumping C6 8.7e-31)
+# Calc note #2 vs linearized criterion, MW (stream_stability_check.out 2.9e-31; clumping C6 8.7e-31)
 print(f"linearized / 3a (MW) = {8.7e-31/2.9e-31:.1f}; dwarf {3.27e-28/3.9e-28:.2f}")
 
 # Vainshtein radius of 1 kg at range 50 um, r_V^3 = K r_S lambda^2 (script line 383 uses K = 2)

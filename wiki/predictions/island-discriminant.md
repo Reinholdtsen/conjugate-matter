@@ -2,7 +2,7 @@
 title: "Row 3: the island discriminant"
 weight: 40
 status: alive
-description: "The knee's tail tells particles from waves — a sharp cutoff for particle χ, a (v*/σ)⁴ power law for wave χ: a diagnostic salvaged from Debt 3, with open caveats on its particle side."
+description: "The knee's tail tells particles from waves — a sharp cutoff for particle χ, a (v*/σ)⁴ power law for wave χ: a diagnostic salvaged from the clumping problem, with open caveats on its particle side."
 provenance: [D]
 sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 3"
@@ -11,13 +11,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14 item 4"
   - "papers/broken-born-checkpoint-v2.md §15"
-  - "notes/debt3b-wave-island.md 'The rate'"
-  - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
-  - "notes/debt3b-wave-island.md 'Standing results after Chunks A+B'"
-  - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3)'"
+  - "notes/wave-island.md 'The rate'"
+  - "notes/wave-island.md 'What pins g? Two scenarios'"
+  - "notes/wave-island.md 'Standing results after Chunks A+B'"
+  - "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/x-classification.md §4"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes)'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §7"
   - "notes/broken-born-program-v1.md §9"
@@ -29,9 +29,9 @@ sources:
   - "notes/gate-mechanism.md §5"
 ---
 
-*The island discriminant is a proposed way to read from astronomical data whether [dark matter](/wiki/dark-matter) is made of particles or of a classical wave field. The program's gated self-interaction weakens above the gate velocity v\* in both cases, but differently: for particles the cutoff is sharp, while for a wave field it falls off only as a power law, (v\*/σ)⁴, where σ is the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#row-3-the-island-discriminant) of the halo. The program calls the two regimes [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island) and [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), and the shape of the knee in the self-interaction strength, the subject of [row 1](/wiki/predictions/self-interaction-knee), would say which one dark matter occupies. The diagnostic came out of the calculation that [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image) ([Debt 3](/wiki/history/debts)). #11 counts it among its predictions not previously posed, and it selects a branch rather than killing the program. Its particle side assumes a sharp tail, which the program now treats as open, and a note of 2026-10-28 makes whether the discriminant survives at all an open question.*
+*The island discriminant is a proposed way to read from astronomical data whether [dark matter](/wiki/dark-matter) is made of particles or of a classical wave field. The program's gated self-interaction weakens above the gate velocity v\* in both cases, but differently: for particles the cutoff is sharp, while for a wave field it falls off only as a power law, (v\*/σ)⁴, where σ is the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#row-3-the-island-discriminant) of the halo. The program calls the two regimes [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island) and [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), and the shape of the knee in the self-interaction strength, the subject of [row 1](/wiki/predictions/self-interaction-knee), would say which one dark matter occupies. The diagnostic came out of the calculation that [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image) ([the clumping problem](/wiki/history/main-problems)). #11 counts it among its predictions not previously posed, and it selects a branch rather than killing the program. Its particle side assumes a sharp tail, which the program now treats as open, and a note of 2026-10-28 makes whether the discriminant survives at all an open question.*
 
-**Status:** Alive, as a diagnostic — [D] — a corollary of the wave-island [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) in [calc note #3](/wiki/history/documents/debt-3-notes) (`notes/debt3b-wave-island.md`, where the rate is tagged [D, heuristic coefficients]), carried in #11 §9's wave-island result [D + T] and stated as row 3 of #11 §13; not machine-checked. Its particle side assumes a sharp tail, while the tail's shape is open [O] (#11 §14 item 4). No source records a test. `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The flag adds: "It also opens whether row 3's island discriminant survives" ([below](#caveats-and-open-questions)).
+**Status:** Alive, as a diagnostic — [D] — a corollary of the wave-island [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) in [calc note #3](/wiki/history/documents/clumping-notes) (`notes/wave-island.md`, where the rate is tagged [D, heuristic coefficients]), carried in #11 §9's wave-island result [D + T] and stated as row 3 of #11 §13; not machine-checked. Its particle side assumes a sharp tail, while the tail's shape is open [O] (#11 §14 item 4). No source records a test. `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The flag adds: "It also opens whether row 3's island discriminant survives" ([below](#caveats-and-open-questions)).
 
 ## The row
 
@@ -45,16 +45,16 @@ Two columns differ from the other rows. There is no standard expectation, becaus
 
 ## The two islands
 
-The row's two branches are the two regimes that Debt 3 found for [conjugate matter χ](/wiki/dark-matter/conjugate-matter), separated by mass ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)).
+The row's two branches are the two regimes that the clumping problem found for [conjugate matter χ](/wiki/dark-matter/conjugate-matter), separated by mass ([the clumping calc notes](/wiki/history/documents/clumping-notes)).
 
 - **The particle island.** Heavy χ, of MeV to GeV mass, is a gas of classical particles. Its self-interaction acts collision by collision, through the two-body cross-section of [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law). This is the home of [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) ([the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island)).
-- **The wave island.** Very light χ has so many quanta in each quantum state that the halo behaves as a classical wave field ([occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number)). After Debt 3, "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings" (`notes/debt3c-ufd-endpoint.md`; [the wave island](/wiki/dark-matter/momentum-clumping/wave-island)).
+- **The wave island.** Very light χ has so many quanta in each quantum state that the halo behaves as a classical wave field ([occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number)). After the clumping problem, "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings" (`notes/ufd-endpoint.md`; [the wave island](/wiki/dark-matter/momentum-clumping/wave-island)).
 
 [The classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) explains why there are two islands rather than one continuum of behaviour: satisfying the criterion for collective behaviour "at fixed σ₀/m forces m ≲ 0.1 meV, where N_occ ~ 10²⁰ — collective momentum-space behavior and classical particles are mutually exclusive" (#11 §9 (i)), N_occ being the occupation number. Flag 19 in `review/wiki-build-flags.md` notes that calc note #2 evaluates this corollary with its broad-gate formula at Milky Way conditions, which it treats elsewhere as narrow-gate; N_occ ≫ 1 either way, so the conclusion stands. The discriminant asks which of the two the data favour.
 
 ## The two laws
 
-Calc note #3 states the discriminant as the first of two corollaries of its condensation rate, "before any numbers" (`notes/debt3b-wave-island.md`, 'The rate'; quotations from the Debt-3 notes on this page are transcribed from their LaTeX):
+Calc note #3 states the discriminant as the first of two corollaries of its condensation rate, "before any numbers" (`notes/wave-island.md`, 'The rate'; quotations from the clumping notes on this page are transcribed from their LaTeX):
 
 > "**Island discriminant.** The velocity suppression of self-interaction effects is e^{−v²/v\*²} on the particle island but (v\*/σ)⁴ on the wave island. The cliff's *sharpness* distinguishes the islands observationally."
 
@@ -80,10 +80,10 @@ The two laws describe how the effects of self-interaction fall off above the gat
 
 The discriminant was salvaged from the calculation that killed velocity clumping, the program's founding image ([Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
 
-1. **Calc note #2 (Debt 3a).** On the wave island "a cliff-analog survives as (v\*/σ)³ suppression rather than an exponential" (`notes/debt3a-stream-stability.md`, 'Consequences for the predictions table'), a first estimate.
-2. **Calc note #3 (Debt 3b).** The rate above, with corollary 1. Its standing results: "Wave island: collective phenomena live but tunable, except Scenario A's mandatory UFD signature; cliff softens to (v\*/σ)⁴", UFD meaning [ultra-faint dwarf](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
-3. **The v0.2 addendum.** With [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), old rows 3 and 4 were withdrawn and "A new row replaces them: **cliff-sharpness island discriminant** — self-interaction suppression is e^{−v²/v\*²} for particle χ but (v\*/σ)⁴ for wave χ, so the measured shape of the SIDM knee identifies the island" (#1 'Addendum (v0.2, post Debt-3)', transcribed from its LaTeX).
-4. **Calc note #4 (Debt 3c).** The closing note lists "the cliff-sharpness **island discriminant** (exponential vs (v\*/σ)⁴)" among what "remains distinctively BBT's own", BBT being Broken-Born Theory, the notes' name for the framework ('Verdict and closure of Debt 3').
+1. **Calc note #2.** On the wave island "a cliff-analog survives as (v\*/σ)³ suppression rather than an exponential" (`notes/stream-stability.md`, 'Consequences for the predictions table'), a first estimate.
+2. **Calc note #3.** The rate above, with corollary 1. Its standing results: "Wave island: collective phenomena live but tunable, except Scenario A's mandatory UFD signature; cliff softens to (v\*/σ)⁴", UFD meaning [ultra-faint dwarf](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
+3. **The v0.2 addendum.** With [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), old rows 3 and 4 were withdrawn and "A new row replaces them: **cliff-sharpness island discriminant** — self-interaction suppression is e^{−v²/v\*²} for particle χ but (v\*/σ)⁴ for wave χ, so the measured shape of the SIDM knee identifies the island" (#1 'Addendum (v0.2, after the clumping notes)', transcribed from its LaTeX).
+4. **Calc note #4.** The closing note lists "the cliff-sharpness **island discriminant** (exponential vs (v\*/σ)⁴)" among what "remains distinctively BBT's own", BBT being Broken-Born Theory, the notes' name for the framework ('Verdict and closure of the clumping problem').
 5. **v1.** "Salvage: the **island discriminant** — self-interaction suppression is a sharp knee for particle χ but (v\*/σ)⁴ for wave χ, so the knee's *shape* identifies dark matter's fundamental nature" (#9 §7 item 3), and row 3 of v1's table.
 6. **#11.** "Salvage: the **island discriminant** (knee shape: sharp cutoff ⇒ particle χ; (v\*/σ)⁴ ⇒ wave χ) and free relic abundance via misalignment on the wave island" (§9), and row 3 of §13.
 
@@ -101,7 +101,7 @@ No source records a measurement of the knee's tail, and no source names a survey
 
 ## Caveats and open questions
 
-- **The particle side assumes a sharp tail.** The e^{−v²/v\*²} of the Debt-3 notes is the lab notebook's postulated Gaussian gate. [Calc note #6](/wiki/history/documents/debt-1-notes) then found that "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (`notes/debt1a-ii-X-classification.md` §4), and the v0.4 addendum made the tail "Gaussian vs rational" (#1 'Addendum (v0.4)'). #11 §8 keeps that open: "tail (Gaussian vs rational) diagnoses the vertex completion". The gate's shape is item 4 of #11 §14 ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape#why-it-is-observable)). The row's "sharp ⇒ particle" holds for the Gaussian case. If the particle gate is rational, both branches have power-law tails, and no source compares the two power laws or says whether the discriminant survives.
+- **The particle side assumes a sharp tail.** The e^{−v²/v\*²} of the clumping notes is the lab notebook's postulated Gaussian gate. [Calc note #6](/wiki/history/documents/field-equation-notes) then found that "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (`notes/x-classification.md` §4), and the v0.4 addendum made the tail "Gaussian vs rational" (#1 'Addendum (v0.4)'). #11 §8 keeps that open: "tail (Gaussian vs rational) diagnoses the vertex completion". The gate's shape is item 4 of #11 §14 ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape#why-it-is-observable)). The row's "sharp ⇒ particle" holds for the Gaussian case. If the particle gate is rational, both branches have power-law tails, and no source compares the two power laws or says whether the discriminant survives.
 - **Whether the discriminant survives.** `notes/gate-mechanism.md` lists it as open [O]: "Row 3's island discriminant reads a sharp tail as particle χ and a (v\*/σ)⁴ tail as wave χ. Under reading R1 the particle tail is a power law, the same functional class as the wave island's. Whether the discriminant survives is open" (§5). Reading R1 is the note's reconstruction of #6 §4's fiber overlap as an ordinary position-local potential of range ħ/μ, whose cross-section tails are power laws even for Gaussian profiles (§3; one derivation; [the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)). The other reading, R2, a pair-channel interaction, falls faster than any power of k but contains no X (§3; one derivation). The note also places the record's rational gates in [row 1](/wiki/predictions/self-interaction-knee)'s standard-expectation column, a light mediator's knee with a power-law tail (§3). Flag 55 in `review/wiki-build-flags.md` awaits Paul's ruling.
 - **Two different variables.** The particle law is written in the collision speed v, the wave law in the halo's dispersion σ. The sources do not convert one into the other or say how a measured knee would be compared with each.
 - **An uncalibrated coefficient.** The rate's coefficient c is "heuristic at O(1)–O(10) level", awaiting calibration against Levkov–Panin–Tkachev numerics (calc note #3, header; [Open: calibration of the coefficient c](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-calibration-of-the-coefficient-c)); #11 §9 marks the coefficients [O].
@@ -114,19 +114,19 @@ Rows 1–3 are the discriminators of [row 11, particles or condensate](/wiki/pre
 
 ## Superseded: the exponential and the cube
 
-Two parts of the Debt-3 statement have been replaced.
+Two parts of the clumping statement have been replaced.
 
-- **"Exponential vs (v\*/σ)⁴".** The Debt-3 notes and the v0.2 addendum set an exponential particle side against the wave law and called the row the "cliff-sharpness" discriminant. Since the v0.4 addendum the particle side is a knee whose tail is open, and v1 and #11 write "sharp" instead of "exponential" (#9 §7; #11 §9, §13).
-- **(v\*/σ)³.** Calc note #2's first estimate of the wave-side suppression was the third power. Calc notes #3 and #4, v1 and #11 use the fourth, and the fourth governs ([Superseded: the cubic suppression of Debt 3a](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#superseded-the-cubic-suppression-of-debt-3a)).
+- **"Exponential vs (v\*/σ)⁴".** The clumping notes and the v0.2 addendum set an exponential particle side against the wave law and called the row the "cliff-sharpness" discriminant. Since the v0.4 addendum the particle side is a knee whose tail is open, and v1 and #11 write "sharp" instead of "exponential" (#9 §7; #11 §9, §13).
+- **(v\*/σ)³.** Calc note #2's first estimate of the wave-side suppression was the third power. Calc notes #3 and #4, v1 and #11 use the fourth, and the fourth governs ([Superseded: the cubic suppression of calc note #2](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#superseded-the-cubic-suppression-of-calc-note-2)).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 3 — the row; §9 — the salvage, the classicality theorem and the rate's tags; §8 — the open tail; §12 — the candidates' handles; §14 item 4 — the open gate shape; §15 — "not previously posed", the new experimental question and "gate tail not yet forced"
-- `notes/debt3b-wave-island.md` 'The rate' — the rate, the (v\*/σ)⁴ suppression and corollary 1; 'What pins g? Two scenarios' — the rate as the analog of SIDM heat transport; 'Standing results after Chunks A+B' — "cliff softens to (v\*/σ)⁴"
-- `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the surviving wave island and the discriminant among the surviving content
-- `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — the first (v\*/σ)³ estimate and the rows 1–2 to-do
-- `notes/debt1a-ii-X-classification.md` §4 — rational, power-law-tailed gates
-- `notes/broken-born-theory.md` 'Addendum (v0.2, post Debt-3)' — the discriminant as the replacement row; 'Addendum (v0.4)' — the tail made open
+- `notes/wave-island.md` 'The rate' — the rate, the (v\*/σ)⁴ suppression and corollary 1; 'What pins g? Two scenarios' — the rate as the analog of SIDM heat transport; 'Standing results after Chunks A+B' — "cliff softens to (v\*/σ)⁴"
+- `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the surviving wave island and the discriminant among the surviving content
+- `notes/stream-stability.md` 'Consequences for the predictions table' — the first (v\*/σ)³ estimate and the rows 1–2 to-do
+- `notes/x-classification.md` §4 — rational, power-law-tailed gates
+- `notes/broken-born-theory.md` 'Addendum (v0.2, after the clumping notes)' — the discriminant as the replacement row; 'Addendum (v0.4)' — the tail made open
 - `notes/broken-born-program-v1.md` §7, §9, §11 — v1's salvage, row 3 and assessment
 - `HANDOFF.md` §2 — "new observable"
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular statement

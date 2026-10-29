@@ -13,7 +13,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §11.2"
   - "papers/broken-born-checkpoint-v2.md §11.3"
-  - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
+  - "notes/ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
   - "papers/conjugate-special-relativity.md 'References'"
   - "CLAUDE.md 'Since the handoff'"
   - "CLAUDE.md 'Method'"
@@ -71,7 +71,7 @@ It matters for Tier 2 of #11's [claim tiers](/wiki/method/claim-tiers): literatu
 - **#11's † citation without a list entry.** #11 §11.2 credits the [dual-superconductor](/wiki/electric-magnetic-duality/dual-superconductor) picture of confinement, in which a condensate of magnetic monopoles squeezes the field between quarks into strings, to 't Hooft and Mandelstam: "[T, 't Hooft–Mandelstam†]". The reference list has no entry for it, so the papers meant have to be identified before they can be checked.
 - **#13.** All four references of [conjugate special relativity](/wiki/conjugate-relativity) carry †: Gibbons and Schiller on maximum force, Caianiello on maximal acceleration, and Born's two papers, which are #11's [1] and [2] ([maximum-force conjectures](/wiki/conjugate-relativity/maximum-force-conjectures)).
 - **An unreferenced phrase (not a † entry; the wiki lists it here).** #11 §11.3 says that choosing a duality frame "is choosing a Lagrangian polarization of charge space, in the literature's own words", without naming the source of the words ([The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
-- **An unreferenced limit (not a † entry; the wiki lists it here).** #11 §9 excludes the lightest masses of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) by observation: "the light-mass escape is closed independently [15†, Lyman-α]". [15] is Dalal and Kravtsov's paper on ultra-faint dwarf galaxies, among the † entries above. The Lyman-α forest limit cited beside it, a bound from the absorption lines of intergalactic hydrogen in quasar spectra, has no reference in #11 or in the earlier statements of the same closure, calc note #4 (`notes/debt3c-ufd-endpoint.md`) and the v1 paper (#9 §7) ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)).
+- **An unreferenced limit (not a † entry; the wiki lists it here).** #11 §9 excludes the lightest masses of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) by observation: "the light-mass escape is closed independently [15†, Lyman-α]". [15] is Dalal and Kravtsov's paper on ultra-faint dwarf galaxies, among the † entries above. The Lyman-α forest limit cited beside it, a bound from the absorption lines of intergalactic hydrogen in quasar spectra, has no reference in #11 or in the earlier statements of the same closure, calc note #4 (`notes/ufd-endpoint.md`) and the v1 paper (#9 §7) ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)).
 
 ## What a check involves
 
@@ -135,5 +135,5 @@ The root `CLAUDE.md` places the rest in the first item of the current queue: "1.
 - `review/wiki-build-flags.md` items 9, 20, 26 — the wiki build's citation findings
 - `review/v3-worklog.md` preamble and `notes/toy-lagrangian.md` — retrieval since the move; the recalled convention
 - `notes/broken-born-program-v1.md` §8, §10 item 8, §11 — the v1 form of the item; §7 — the Lyman-α limit named without a reference
-- `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — the Lyman-α limit's first statement, without a reference
+- `notes/ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — the Lyman-α limit's first statement, without a reference
 - `notes/closed-universe.md` §5; `review/wiki-build-flags.md` item 47 — the scope of "the Fourier transform implements it unitarily" on a closed space

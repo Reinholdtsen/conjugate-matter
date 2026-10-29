@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """P1 (label: program). Where X = Re Z enters the Siegel generalized metric at linear order.
 
-H_Z = [[Y + X Y^-1 X, X Y^-1], [Y^-1 X, Y^-1]] (#11 sec. 6; notes/debt1a-geometric-core.md sec. C).
+H_Z = [[Y + X Y^-1 X, X Y^-1], [Y^-1 X, Y^-1]] (#11 sec. 6; notes/geometric-core.md sec. C).
 Question: does a field that couples only to the position block (Y + X Y^-1 X, which is g = Y at X = 0) feel X
 at linear order? Checked for d = 2 with general symmetric X and Y.
 """

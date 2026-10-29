@@ -2,7 +2,7 @@
 (1 + b) of theta in delta_c' = -(1 + b) theta - ..., with b = (eps/2) Om_c(a) R_a(y), vanishes when
 eps = -2/(Om_c R_a(y)).  R_a is most negative near y ~ 1 (c4b: R_a(1) = -0.87168).  Om_c = f_c Om_m(a)
 evaluated at z = 3 and z = 50 (dark-tests cosmo.py, Planck 2018).  Also the ratio of the record's gate
-scale v* = 120 km/s (Debt 3a) to the corner's 10-30 km/s."""
+scale v* = 120 km/s (calc note #2) to the corner's 10-30 km/s."""
 import os, sys
 import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

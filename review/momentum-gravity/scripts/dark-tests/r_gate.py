@@ -4,7 +4,7 @@ Background: Planck 2018 (cosmo.py). Linear power: EH98 no-wiggle, sigma8-normali
 import numpy as np
 import cosmo as C
 
-vstar = 120.0  # km/s, benchmark (Debt 3a)
+vstar = 120.0  # km/s, benchmark (calc note #2)
 zs = [0.0, 0.3, 0.6, 1.0, 2.0, 3.0, 4.0, 6.0, 10.0, 20.0, 50.0, 100.0, 300.0, 1089.92, 3402.0]
 
 print("Gate radius for v* = %.0f km/s (scales linearly with v*)" % vstar)

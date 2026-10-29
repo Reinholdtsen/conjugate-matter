@@ -21,8 +21,8 @@
   X at sqrt(l_P L) = 47.1 um (c/H0) is allowed iff alpha < 0.602, i.e. c < 0.672
   X at sqrt(l_P L) = 84.0 um (particle horizon) is allowed iff alpha < 0.121, i.e. c < 0.302
   referee A's identification c = a~/a: the record's second frame is f = E0[J], the polarization frame on the
-  compact moduli space, with the vacuum at the aligned point X = sqrt(g^-1 f) = 1 (notes/debt1a-iii §4,
-  notes/debt1a-iv §1-2). a~ belongs to the slaved block g~ = g^-1, a different object, so c0 = a~0/a0 does not follow.
+  compact moduli space, with the vacuum at the aligned point X = sqrt(g^-1 f) = 1 (notes/tuning-test §4,
+  notes/beta-coefficients §1-2). a~ belongs to the slaved block g~ = g^-1, a different object, so c0 = a~0/a0 does not follow.
 
 == A2/B2: the per-axis counts 'hold at no other epoch'
   fixed comoving region against S_dS: S^(1/3)/S_dS^(1/4) = 0.235, constant (both counts conserved)

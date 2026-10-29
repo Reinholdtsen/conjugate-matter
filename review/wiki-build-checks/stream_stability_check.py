@@ -1,4 +1,4 @@
-"""Scratch re-check of notes/debt3a-stream-stability.md numbers (not part of verify/).
+"""Scratch re-check of notes/stream-stability.md numbers (not part of verify/).
 Natural units, GeV. Inputs exactly as 3a states them."""
 import math
 cm = 5.0677e13          # 1 cm in GeV^-1

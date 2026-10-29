@@ -158,8 +158,8 @@ if __name__ == "__main__":
             print("    Farrar-Rosen force %.1f x gravity would need eps = %.3g at v*=120 (gauss) " % (beta_need, beta_need / W_gauss_avg(2600, s, 120)))
     print()
     print("Internal gate factor for DM pairs in a system of 1D dispersion sigma (pair dispersion sqrt2*sigma), v*=120 and 30:")
-    for sig, lab in [(3.7, "Segue-1-like (dagger)"), (10, "classical dSph (dagger)"), (30, "Debt-3a dwarf core"),
-                     (155, "Debt-3a MW halo"), (1000, "cluster")]:
+    for sig, lab in [(3.7, "Segue-1-like (dagger)"), (10, "classical dSph (dagger)"), (30, "#2 dwarf core"),
+                     (155, "#2 MW halo"), (1000, "cluster")]:
         print("  sigma=%6.1f %-24s  v*=120: gauss %.4f rational %.4f | v*=30: gauss %.4f rational %.4f"
               % (sig, lab, W_gauss_avg(0, np.sqrt(2) * sig, 120), W_rat_avg(0, np.sqrt(2) * sig, 120),
                  W_gauss_avg(0, np.sqrt(2) * sig, 30), W_rat_avg(0, np.sqrt(2) * sig, 30)))

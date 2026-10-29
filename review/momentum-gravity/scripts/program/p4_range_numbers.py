@@ -5,8 +5,8 @@ Inputs and what fixes them:
  - hbar c, G, M_sun, AU, pc, c: CODATA/IAU values typed here (standard constants).
  - H0 = 67.4 km/s/Mpc (Planck 2018 central value, cited in the record's diameter note).
  - Record values: lambda_X < 37.7 um at u = 1 (verify/phase_space_diameter.py output), alpha = (4/3) u^2;
-   chi benchmark m = 70 MeV, sigma0/m = 30 cm^2/g, v* = 120 km/s, alpha~ ~ 1, m_phi ~ m (#1 sec. 5.1, Debt 3a);
-   g = 2.48e3 GeV^-2 (review/wiki-build-checks/debt3a_check.py output).
+   chi benchmark m = 70 MeV, sigma0/m = 30 cm^2/g, v* = 120 km/s, alpha~ ~ 1, m_phi ~ m (#1 sec. 5.1, calc note #2);
+   g = 2.48e3 GeV^-2 (review/wiki-build-checks/stream_stability_check.py output).
  - Cassini: gamma - 1 = (2.1 +/- 2.3) x 10^-5 (Bertotti, Iess, Tortora 2003 [S]).
  - Massive spin-2 PPN gamma with Newtonian strength alpha, unscreened, r << lambda: gamma - 1 = -alpha/(2(1+alpha))
    (p2_spin2_velocity.py, sec. 7b; anchored on the vDVZ 3/4).
@@ -50,8 +50,8 @@ m = 0.070                          # GeV
 alt = 1.0
 Gm2 = (m/MP)**2
 print(f"  G m_chi^2 = {Gm2:.2e} (dimensionless, hbar = c = 1); alpha~/(G m^2) = {alt/Gm2:.2e}")
-g = 2.48e3                         # GeV^-2, Debt 3a
-print(f"  Debt-3a contact coupling g = {g:.2e} GeV^-2 vs G = 1/M_P^2 = {1/MP**2:.2e} GeV^-2: ratio {g*MP**2:.2e}")
+g = 2.48e3                         # GeV^-2, calc note #2
+print(f"  calc note #2's contact coupling g = {g:.2e} GeV^-2 vs G = 1/M_P^2 = {1/MP**2:.2e} GeV^-2: ratio {g*MP**2:.2e}")
 sigma0 = 30.0*m*GeV_to_g           # cm^2
 print(f"  sigma0 = (30 cm^2/g) m_chi = {sigma0:.2e} cm^2 = {sigma0/GeVinv2_to_cm2:.2e} GeV^-2")
 

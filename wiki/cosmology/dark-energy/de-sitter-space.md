@@ -12,7 +12,7 @@ sources:
   - "review/round3/referee/audit-notes.md Step 1"
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md ref [6]"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/x-classification.md §3"
   - "papers/reciprocity-toy-models.md §2"
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "verify/toy_coset.py S1"
@@ -117,7 +117,7 @@ The standard-expectation column reads "Eternal de Sitter" in all three versions 
 
 ### The background of a massive spin-2 field
 
-A massive spin-2 field has five polarizations [T]: [calc note #6](/wiki/history/documents/debt-1-notes) counts "its five polarizations" for the [momentum graviton X](/wiki/gravity/momentum-graviton) (#6 §3). In flat spacetime any positive mass is allowed. On de Sitter space the curvature sets a second scale, H, and the mass must satisfy the Higuchi bound [T]:
+A massive spin-2 field has five polarizations [T]: [calc note #6](/wiki/history/documents/field-equation-notes) counts "its five polarizations" for the [momentum graviton X](/wiki/gravity/momentum-graviton) (#6 §3). In flat spacetime any positive mass is allowed. On de Sitter space the curvature sets a second scale, H, and the mass must satisfy the Higuchi bound [T]:
 
 ```text
 m² ≥ 2H²
@@ -176,7 +176,7 @@ At H = 1 the vacua of model I form a circle on the hyperboloid, K(φ) = [[cos φ
 - `papers/broken-born-checkpoint-v2.md` §7.4, §14 item 2 — proportional de Sitter solutions at the partially massless point, which sits at Λ ≠ 0, and the different point selected by the flat-vacuum identity; the open comparison
 - `review/round3/referee/audit-notes.md` Step 1 — Higuchi's abstract and the conversion with Λ = 3H²
 - `notes/knot-dark-matter-standalone.md` §1, ref [6] — the Higuchi bound, met trivially by the heavy field; the citation (manuscript withdrawn for an unrelated error: its Kibble estimate of the relic abundance had been normalized too low)
-- `notes/debt1a-ii-X-classification.md` §3 — the five polarizations of a massive spin-2 field
+- `notes/x-classification.md` §3 — the five polarizations of a massive spin-2 field
 - `papers/reciprocity-toy-models.md` §2 — K's target, the one-sheeted hyperboloid a² + bc = 1, as two-dimensional de Sitter space; the naive and the H-contracted kinetic terms; the 1+1 dimensional base; the vacua K(φ) and Λ(1)
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — the indefinite metric of dS₂ "would give a ghost"
 - `verify/toy_coset.py` S1 — the two kinetic-term checks

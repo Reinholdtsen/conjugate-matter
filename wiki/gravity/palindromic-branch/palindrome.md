@@ -14,11 +14,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §7 'Born's answer'"
   - "papers/broken-born-checkpoint-v2.md §15"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §3"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
   - "HANDOFF.md §2"
   - "verify/battery.py T5"
   - "review/v3-worklog.md item R7"
@@ -30,7 +30,7 @@ sources:
 
 *The palindrome is the constraint βₙ = β₄₋ₙ on the five coefficients β₀ to β₄ of the potential that gives [the program's second spin-2 field](/wiki/gravity/momentum-graviton) its mass: β₀ = β₄ and β₁ = β₃, with β₂ free, so the list of coefficients reads the same forwards and backwards. The potential couples two [frames](/wiki/gravity/spin-2-fields/vielbein-formulation), one built from the dynamical geometry and one determined by the [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) that the vacuum selects, and exchanging the two frames reverses the order of its five terms. The program's claim is that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), on the [broken vacuum](/wiki/symmetry-breaking), acts as exactly this exchange, so a potential invariant under reciprocity must be a palindrome. The constraint places the program's gravity sector in the interchange-symmetric branch of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) and reads that branch's two-element exchange symmetry as Born reciprocity. It is a derivation of the program [D] with no machine check, and the branch itself is known in the literature, where it contains the [partially massless point](/wiki/gravity/spin-2-fields/partially-massless-gravity).*
 
-**Status:** Alive — [D] — derived in [calc note #8](/wiki/history/documents/debt-1-notes) §1 and restated in [checkpoint #11](/wiki/history/documents/checkpoint) §7.3. #11 tags §7.3 as a whole [D][V], but the [V] belongs to the integer identity of [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) ([battery test T5](/wiki/method/verification/battery)), which takes the palindrome as its input; no script checks the palindrome derivation itself. #8's early description of the branch as an "ad hoc simplification" in the literature is superseded by the literature position of #11 §7.4 ([below](#superseded-an-ad-hoc-branch-given-a-reason-to-exist)).
+**Status:** Alive — [D] — derived in [calc note #8](/wiki/history/documents/field-equation-notes) §1 and restated in [checkpoint #11](/wiki/history/documents/checkpoint) §7.3. #11 tags §7.3 as a whole [D][V], but the [V] belongs to the integer identity of [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity) ([battery test T5](/wiki/method/verification/battery)), which takes the palindrome as its input; no script checks the palindrome derivation itself. #8's early description of the branch as an "ad hoc simplification" in the literature is superseded by the literature position of #11 §7.4 ([below](#superseded-an-ad-hoc-branch-given-a-reason-to-exist)).
 
 ## Statement
 
@@ -48,7 +48,7 @@ The five coefficients βₙ multiply the five terms of the potential. The constr
 
 The program's [momentum graviton X](/wiki/gravity/momentum-graviton) is a second spin-2 field that has to be massive ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)), and its mass comes from a potential that penalizes misalignment between the vacuum's polarization and the geometry. [The tuning test](/wiki/gravity/tuning-test) asked whether that potential avoids the Boulware–Deser ghost, an extra mode with negative kinetic energy that generic nonlinear massive spin-2 theories carry [T] ([Fierz–Pauli and the Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli)). Built from metrics, the potential fails; built from frames, it passes. The passing couplings are "wedge polynomials of the symplectic vielbein E (H = EᵀE) with the polarization frame E₀[J]", which "are the Hinterbichler–Rosen class [12†], ghost-free by construction" (#11 §7.2; [the frame tier](/wiki/gravity/tuning-test/frame-tier); [the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)).
 
-The pass fixed the form of the potential but not its coefficients. Calc note #7: "What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution. That coefficient computation is the closing stone of Debt 1." (§3; [the conditional pass](/wiki/gravity/tuning-test/conditional-pass); [the three debts](/wiki/history/debts)). Calc note #8 is that closing note, and [the lab notebook](/wiki/history/documents/lab-notebook) records it as "The coefficient computation is done" (#1, v0.6 addendum). #8 constrains the βₙ instead of computing them from the wedge sector: reciprocity fixes two of them, the flat-vacuum condition of the next page fixes a third, and two remain free (#8 §3).
+The pass fixed the form of the potential but not its coefficients. Calc note #7: "What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution. That coefficient computation is the closing stone of the field-equation problem." (§3; [the conditional pass](/wiki/gravity/tuning-test/conditional-pass); [the three main problems](/wiki/history/main-problems)). Calc note #8 is that closing note, and [the lab notebook](/wiki/history/documents/lab-notebook) records it as "The coefficient computation is done" (#1, v0.6 addendum). #8 constrains the βₙ instead of computing them from the wedge sector: reciprocity fixes two of them, the flat-vacuum condition of the next page fixes a third, and two remain free (#8 §3).
 
 ### The potential
 
@@ -140,8 +140,8 @@ The early documents presented the palindrome as the first motivation for a corne
 - `papers/broken-born-checkpoint-v2.md` §7.3, §7.4 — the constraint as currently stated; the literature position and the open question of the PM origin.
 - `papers/broken-born-checkpoint-v2.md` §1, §7 'Born's answer', §7.2, §7.5, §15 — the interchange-symmetric branch in the abstract and in Born's answer; the frame-tier class; the parameter count [D]; forced convergence among the progressive signs.
 - `papers/broken-born-checkpoint-v2.md` §4, §6 — postulate P3; reciprocity as Z → −Z⁻¹ and g → g⁻¹ at X = 0.
-- `notes/debt1a-iv-beta-coefficients.md` §1, §2, §3 — the potential, the exchange identity and the derivation [D]; the aligned point; the parameter count, the parities and the equal Planck masses.
-- `notes/debt1a-iii-tuning-test.md` §2, §3 — linearity of the Hassan–Rosen family in the eₙ; what the tuning test's pass left to compute.
+- `notes/beta-coefficients.md` §1, §2, §3 — the potential, the exchange identity and the derivation [D]; the aligned point; the parameter count, the parities and the equal Planck masses.
+- `notes/tuning-test.md` §2, §3 — linearity of the Hassan–Rosen family in the eₙ; what the tuning test's pass left to compute.
 - `HANDOFF.md` §2 — the geometric sector as the palindromic branch; the partially massless point inside it.
 - `verify/battery.py` T5 — the test's input, with the palindrome already imposed.
 - `review/v3-worklog.md` item R7 — equal Planck masses and the open stability question for a heavy spin-2 field.

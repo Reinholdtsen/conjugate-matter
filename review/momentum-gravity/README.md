@@ -7,7 +7,7 @@ answer as given to Paul. The gate does not run any of it. The numbers the notes 
 
 Paul's question (2026-10-26): "I think the obituary is premature. Would momentum gravity look like a perturbation
 to regular gravity that depends on the relative velocity of two massive bodies?" The obituary is
-`wiki/dark-matter/momentum-clumping/founding-image.md` (#11 §9, Debt 3).
+`wiki/dark-matter/momentum-clumping/founding-image.md` (#11 §9, the clumping problem).
 
 ## How it ran
 

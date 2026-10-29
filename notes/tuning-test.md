@@ -1,4 +1,4 @@
-# Debt 1, Chunk A-iii: The tuning test
+# The field-equation problem, Chunk A-iii: The tuning test
 
 *Working note. Status: computed. Outcome: conditional pass — the condition identified, both branches computed or classified, and the failure mode exhibited explicitly.*
 
@@ -33,7 +33,7 @@ A second natural invariant (built from [J, I] + 2K, which vanishes at the vacuum
 
 The rescue is not a tuning but a *tier change*. In vielbein variables the ghost-free potentials are polynomial — wedge products ε(e ∧ … ∧ f ∧ …) of two frames (Hinterbichler–Rosen) [T] — with no square roots and no tuning to miss. And BBT possesses a natural frame-tier object: the symplectic vielbein E, the coset representative with H = EᵀE. Crucially, **J and E live on the same geometric tier** (first-order structures on the tangent, like the Born connection), while H = EᵀE is second-order. The geometrically minimal coupling of the polarization to the modular sector is therefore E-linear — wedge polynomials of (E, E₀[J]) — which is *precisely* the Hinterbichler–Rosen class: ghost-free by construction, Fierz–Pauli automatic, dRGT structure inherited rather than tuned.
 
-**Verdict of the tuning test:** the theory *fails* in second-order (metric) variables and *passes* in first-order (frame) variables. Since the first-order formulation is independently the natural one, this is a conditional pass with the condition being the formulation the geometry already prefers. What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution. That coefficient computation is the closing stone of Debt 1.
+**Verdict of the tuning test:** the theory *fails* in second-order (metric) variables and *passes* in first-order (frame) variables. Since the first-order formulation is independently the natural one, this is a conditional pass with the condition being the formulation the geometry already prefers. What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution. That coefficient computation is the closing stone of the field-equation problem.
 
 ## 4. The picture that emerges: constrained bimetric gravity [D — structural]
 
@@ -43,10 +43,10 @@ J carries only the 10 compact moduli of U(d)/O(d) — not a full second metric. 
 
 Standard bimetric facts then slot in [T]: one massless combination (our graviton, coupling to SM stress) and one massive (X); safety requires the massless combination to dominate SM couplings — a parametric check to log, alongside graviton-mass bounds (m_g ≲ 10⁻²³ eV territory from GW observations) for the mixing angle.
 
-## 5. Debt-1 ledger
+## 5. Status of the field-equation problem
 
 **Settled by this chunk:** the ghost question is no longer open-ended — the failure mode is exhibited explicitly (metric tier), the consistent branch is identified and class-certified (frame tier), and the resulting physical picture (constrained HR bimetric with compact second sector) is sharper and more predictive than generic bimetric gravity.
 
-**Remaining for Debt 1:** (i) the βₙ coefficient derivation from the E–J wedge sector — the last computation; (ii) τ-not-eaten verification; (iii) Lorentzian dressing of the Euclidean skeleton; (iv) SM-coupling/graviton-mass parametrics. Items (ii)–(iv) are checks; item (i) is the substance.
+**Remaining for the field-equation problem:** (i) the βₙ coefficient derivation from the E–J wedge sector — the last computation; (ii) τ-not-eaten verification; (iii) Lorentzian dressing of the Euclidean skeleton; (iv) SM-coupling/graviton-mass parametrics. Items (ii)–(iv) are checks; item (i) is the substance.
 
 **Program-level note:** three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration.

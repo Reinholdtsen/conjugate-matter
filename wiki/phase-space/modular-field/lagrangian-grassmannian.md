@@ -6,9 +6,9 @@ description: "The compact manifold U(d)/O(d) of all position/momentum splittings
 provenance: [T]
 sources:
   - "notes/broken-born-theory.md §2"
-  - "notes/debt1a-geometric-core.md §B–§D"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/geometric-core.md §B–§D"
+  - "notes/tuning-test.md §4"
+  - "notes/x-classification.md §3"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §7"
@@ -23,7 +23,7 @@ sources:
 
 *The Lagrangian Grassmannian Λ(d) is the space of all ways to split a 2d-dimensional phase space into a "position" half and a "momentum" half. Each [Lagrangian subspace](/wiki/phase-space/reciprocity/lagrangian-polarizations), a d-dimensional plane on which the symplectic form vanishes, is one point of it. For d = 1 it is the set of lines through the origin of the (x, p) plane, which is a circle; in general it is the compact manifold U(d)/O(d), of dimension 10 when d = 4. It contains a loop that cannot be shrunk to a point, the Maslov circle, so any angle measured around that loop is periodic. It also forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain). In the program it is the space of possible vacuum polarizations, and its circle direction carries the dark-energy field. The mathematics is standard.*
 
-**Status:** Established — standard mathematics [T] ([#1](/wiki/history/documents/lab-notebook) §2 tags the definition, the dimension and π₁ = ℤ [T]; [#11](/wiki/history/documents/checkpoint) §6 tags the Shilov-boundary statement [T]; [calc note #5](/wiki/history/documents/debt-1-notes) marks it "[standard]") — not machine-checked as such; its d = 1 case, Λ(1), is the compact [Goldstone direction](/wiki/symmetry-breaking/goldstone-and-higgs) of the [toy model](/wiki/symmetry-breaking/toy-models/coset-model) checked in `verify/toy_coset.py`.
+**Status:** Established — standard mathematics [T] ([#1](/wiki/history/documents/lab-notebook) §2 tags the definition, the dimension and π₁ = ℤ [T]; [#11](/wiki/history/documents/checkpoint) §6 tags the Shilov-boundary statement [T]; [calc note #5](/wiki/history/documents/field-equation-notes) marks it "[standard]") — not machine-checked as such; its d = 1 case, Λ(1), is the compact [Goldstone direction](/wiki/symmetry-breaking/goldstone-and-higgs) of the [toy model](/wiki/symmetry-breaking/toy-models/coset-model) checked in `verify/toy_coset.py`.
 
 ## What it is
 
@@ -110,9 +110,9 @@ The program's documents cite none of these; they tag the facts [T] or "[standard
 - `notes/broken-born-theory.md` §2 — definition, dimension and π₁ = ℤ, tagged [T]; τ the lightest modulus [P]; periodicity "is topology [D]".
 - `papers/broken-born-checkpoint-v2.md` §6 — Λ(d) as the Shilov boundary [T].
 - `papers/broken-born-checkpoint-v2.md` §4, §7, §10, §14 item 11 — P2′ with the real structure J; Λ(4) as the physical case; Λ(1) as τ's circle in the coset model; η = ωK in the toy-model item.
-- `notes/debt1a-geometric-core.md` §B–§D — the discrete polarizations under strict P2; {J} ≅ U(d)/O(d) = Λ(d) under P2′; the boundary fact "[standard]"; the ten σ-modes.
-- `notes/debt1a-iii-tuning-test.md` §4 — the ten compact moduli carried by J.
-- `notes/debt1a-ii-X-classification.md` §3 — the Λ(d) moduli are not the eaten modes.
+- `notes/geometric-core.md` §B–§D — the discrete polarizations under strict P2; {J} ≅ U(d)/O(d) = Λ(d) under P2′; the boundary fact "[standard]"; the ten σ-modes.
+- `notes/tuning-test.md` §4 — the ten compact moduli carried by J.
+- `notes/x-classification.md` §3 — the Λ(d) moduli are not the eaten modes.
 - `notes/broken-born-theory.md` §8 — "the nine non-Maslov directions".
 - `papers/reciprocity-toy-models.md` §1, §2 — Lagrangian null lines; Λ(1) in model I's Goldstone spectrum.
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — the compact Goldstone as the checkpoint's Maslov circle.

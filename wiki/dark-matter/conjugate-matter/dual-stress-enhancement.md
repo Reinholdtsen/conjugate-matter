@@ -8,11 +8,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 5"
   - "papers/broken-born-checkpoint-v2.md §7.5"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-geometric-core.md §E"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §4"
+  - "notes/beta-coefficients.md §5"
+  - "notes/x-classification.md §4"
+  - "notes/geometric-core.md §E"
   - "notes/broken-born-program-v1.md §6"
   - "notes/broken-born-program-v1.md §10 item 4"
   - "notes/broken-born-theory.md §5.1"
@@ -37,11 +37,11 @@ The checkpoint, #11, states it twice:
 
 SM is the Standard Model, ordinary matter. σ₀ is the low-velocity [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) of [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law), σ_T(v) = σ₀F(v²/v\*²). "Parametrics" means how the size of the effect depends on the parameters of the theory; no source names which parameters.
 
-The item was first logged in calc note #8, the last of [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes), at the end of its argument that ordinary matter is safe from X:
+The item was first logged in calc note #8, the last of [the field-equation calc notes](/wiki/history/documents/field-equation-notes), at the end of its argument that ordinary matter is safe from X:
 
-> "[Parametrics of the χ dual-stress enhancement — why σ₀ can be nuclear-scale while SM couplings stay gravitational — logged as the main open quantitative item.]" (`notes/debt1a-iv-beta-coefficients.md` §3)
+> "[Parametrics of the χ dual-stress enhancement — why σ₀ can be nuclear-scale while SM couplings stay gravitational — logged as the main open quantitative item.]" (`notes/beta-coefficients.md` §3)
 
-The same note's close-out lists it among the open residue of Debt 1 as "(iv) dual-stress enhancement parametrics (gate strength vs gravitational SM coupling)" (§5).
+The same note's close-out lists it among the open residue of the field-equation problem as "(iv) dual-stress enhancement parametrics (gate strength vs gravitational SM coupling)" (§5).
 
 ## The strong side: σ₀
 
@@ -53,7 +53,7 @@ Conjugate matter's self-interaction is the gated amplitude M(k, q) = 4πα̃m_χ
 
 Ordinary matter couples to the metric g, and once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the two spin-2 frames to have [equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector), the metric contains the massless graviton and X in comparable proportions. Calc note #8 draws the consequence:
 
-> "With equal effective Planck masses (forced by the same symmetry), SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X." (`notes/debt1a-iv-beta-coefficients.md` §3)
+> "With equal effective Planck masses (forced by the same symmetry), SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X." (`notes/beta-coefficients.md` §3)
 
 #11 §7.5 carries it as "SM couplings gravitational-strength and Yukawa-cut at 1/M_X" ([Yukawa forces](/wiki/gravity/spin-2-fields/yukawa-forces#the-momentum-graviton-x)). A gravitational-strength coupling is suppressed by the Planck mass, which makes it extremely weak for elementary particles [T]. The full argument is on [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety). Calc note #8's summary has X coupled "to conjugate matter through the dual stress (the gate) and to ordinary matter only at gravitational strength and short range" (§4).
 
@@ -67,13 +67,13 @@ The word "enhancement" comes from the earlier calc notes, which attributed ordin
 
 - **The size of the gap.** No source states how many orders of magnitude separate the two strengths. The wiki adds no estimate.
 - **The parameters.** No source names the parameters the enhancement depends on. The amplitude's α̃ and m_φ are not related to M_X, the mass of X, in any document; the benchmark's choice m_φ ~ m_χ was made in v0.1, before X was identified as the carrier (#1 §5.1; [conflicts between sources](/wiki/history/documents/source-conflicts)).
-- **A mechanism.** No source proposes one. The explicit form of the dual stress, which a mechanism would need, is itself not written down (`notes/debt1a-geometric-core.md` §E; [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress)).
+- **A mechanism.** No source proposes one. The explicit form of the dual stress, which a mechanism would need, is itself not written down (`notes/geometric-core.md` §E; [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress)).
 
 Until the item is resolved, the strength of the gate is an input fitted to dwarf cores rather than an output of the X-exchange mechanism. In the record the mechanism accounts for the gate's dependence on relative momentum (disputed by flag 55), which is what [row 1](/wiki/predictions/self-interaction-knee) and [row 2](/wiki/predictions/scattering-isotropy) of [the predictions table](/wiki/predictions) test; the strength enters row 1 only as the fitted σ₀.
 
 ## History
 
-1. **Calc note #8** logged it in §3 and listed it as residue (iv) of Debt 1 in §5 ([the three debts](/wiki/history/debts)).
+1. **Calc note #8** logged it in §3 and listed it as residue (iv) of the field-equation problem in §5 ([the three main problems](/wiki/history/main-problems)).
 2. **The lab notebook's v0.6 addendum** lists "dual-stress enhancement parametrics" among the "Residual open items (none existential)" (#1 'Addendum (v0.6)').
 3. **v1** called it "The main open quantitative item" in its section on the gate (#9 §6) and listed it as item 4 of its open problems: "Dual-stress enhancement parametrics: σ₀ nuclear-scale with gravitational SM couplings [O]" (#9 §10).
 4. **[The handoff](/wiki/history/documents/handoff)** lists it with [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape) among the open items: "Gate shape (X propagator on momentum fibers); dual-stress enhancement parametrics" (`HANDOFF.md` §2, Open 6).
@@ -86,9 +86,9 @@ The current queue, in the root `CLAUDE.md` ("Since the handoff"), does not inclu
 - `papers/broken-born-checkpoint-v2.md` §8 — the open item and its tag; §14 item 5 — the open-problem entry; §7.5 — ordinary matter's couplings gravitational-strength and Yukawa-cut
 - `CLAUDE.md` 'Since the handoff' — the current queue
 - `HANDOFF.md` §2 — the item in the handoff's open list
-- `notes/debt1a-iv-beta-coefficients.md` §3 — where the item was logged; safety by range; §4 — X's couplings to both kinds of matter; §5 — residue (iv)
-- `notes/debt1a-ii-X-classification.md` §4 — ordinary matter's dual stress as unenhanced
-- `notes/debt1a-geometric-core.md` §E — ordinary matter's dual stress as suppressed; the dual stress defined in words
+- `notes/beta-coefficients.md` §3 — where the item was logged; safety by range; §4 — X's couplings to both kinds of matter; §5 — residue (iv)
+- `notes/x-classification.md` §4 — ordinary matter's dual stress as unenhanced
+- `notes/geometric-core.md` §E — ordinary matter's dual stress as suppressed; the dual stress defined in words
 - `notes/broken-born-program-v1.md` §6 — v1's statement of the item; §10 item 4 — v1's open-problem entry
 - `notes/gate-mechanism.md` §5 — the strength "stays open whatever the mechanism"
 - `review/wiki-build-flags.md` item 55 — the gate's mechanism not derived, awaiting Paul's ruling

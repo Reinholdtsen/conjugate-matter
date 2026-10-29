@@ -15,9 +15,9 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md ref [6]"
   - "review/round3/referee/audit-notes.md Step 1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/x-classification.md §3"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §3"
   - "review/wiki-build-flags.md item 9"
   - "notes/closed-universe.md §6"
   - "review/wiki-build-flags.md item 53"
@@ -35,7 +35,7 @@ sources:
 
 ### Five polarizations
 
-A massive spin-2 field in four dimensions has five polarizations — [calc note #6](/wiki/history/documents/debt-1-notes) counts "its five polarizations" for the [momentum graviton X](/wiki/gravity/momentum-graviton) (#6 §3) — with helicities ±2, ±1 and 0 [T]. A massless graviton keeps only the helicity ±2 pair; its gauge symmetry, linearized diffeomorphisms, removes the others [T] ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity)).
+A massive spin-2 field in four dimensions has five polarizations — [calc note #6](/wiki/history/documents/field-equation-notes) counts "its five polarizations" for the [momentum graviton X](/wiki/gravity/momentum-graviton) (#6 §3) — with helicities ±2, ±1 and 0 [T]. A massless graviton keeps only the helicity ±2 pair; its gauge symmetry, linearized diffeomorphisms, removes the others [T] ([general relativity and the graviton](/wiki/gravity/spin-2-fields/general-relativity)).
 
 ### The Higuchi bound
 
@@ -87,7 +87,7 @@ The checkpoint gives this descriptive title and no authors (see flag 9 in `revie
 
 ### The branch
 
-The program's [frame-tier](/wiki/gravity/tuning-test/frame-tier) potential is a Hassan–Rosen potential whose coefficients reciprocity restricts to βₙ = β₄₋ₙ: β₀ = β₄ and β₁ = β₃, with β₂ free ([#8](/wiki/history/documents/debt-1-notes) §1; [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)).
+The program's [frame-tier](/wiki/gravity/tuning-test/frame-tier) potential is a Hassan–Rosen potential whose coefficients reciprocity restricts to βₙ = β₄₋ₙ: β₀ = β₄ and β₁ = β₃, with β₂ free ([#8](/wiki/history/documents/field-equation-notes) §1; [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)).
 
 ### At α = 1
 
@@ -101,7 +101,7 @@ The program's vacuum-energy identity selects its own point of the branch. "Note 
 
 ## The comparison still to be made
 
-The literature check that found this point downgraded the identity's novelty. The handoff's one-screen state records that the partially massless bimetric point "(arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still owed." (HANDOFF §2). The checkpoint downgraded the novelty claim "from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" (#11 §7.4). Hossenfelder's theory, reference [25S] of the checkpoint, cancels vacuum energy by a different mechanism, "where twin-sector source terms cancel identically"; the program's identity "is sector-internal (no twin matter required) and, to our current knowledge, distinct" (#11 §7.4).
+The literature check that found this point downgraded the identity's novelty. The handoff's one-screen state records that the partially massless bimetric point "(arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still to do." (HANDOFF §2). The checkpoint downgraded the novelty claim "from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" (#11 §7.4). Hossenfelder's theory, reference [25S] of the checkpoint, cancels vacuum energy by a different mechanism, "where twin-sector source terms cancel identically"; the program's identity "is sector-internal (no twin matter required) and, to our current knowledge, distinct" (#11 §7.4).
 
 The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed comparison of the palindromic branch with partially-massless bimetric [24S]; is reciprocity the origin of the PM symmetry? Convention-careful check of the vacuum-energy identity against [24S, 25S] — the queued novelty audit [O]" (#11 §14). The handoff's queue named three comparisons: "arXiv:1609.09515 / 0807.2838 / the Schmidt-May–von Strauss review's no-protecting-symmetry statement" (HANDOFF §8 item 5); the third belongs to [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem). Since the handoff the comparison is part of item 1 of the current queue (`CLAUDE.md`, "Since the handoff"). It has its own page, [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison), and is listed with the program's [open problems](/wiki/status/open-problems).
 
@@ -127,7 +127,7 @@ The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed 
 - `CLAUDE.md` 'Since the handoff' — the comparison in item 1 of the current queue.
 - `notes/knot-dark-matter-standalone.md` §1, ref [6] — the Higuchi bound and its citation (manuscript withdrawn for an unrelated error: its Kibble estimate of the relic abundance had been normalized too low).
 - `review/round3/referee/audit-notes.md` Step 1 — Higuchi's abstract and the conversion with Λ = 3H².
-- `notes/debt1a-ii-X-classification.md` §3 — the five polarizations of a massive spin-2 field.
-- `notes/debt1a-iv-beta-coefficients.md` §1, §3 — the palindromic constraint; equal effective Planck masses forced by reciprocity.
+- `notes/x-classification.md` §3 — the five polarizations of a massive spin-2 field.
+- `notes/beta-coefficients.md` §1, §3 — the palindromic constraint; equal effective Planck masses forced by reciprocity.
 - `review/wiki-build-flags.md` item 9 — reference [24][S], with no authors and a title that may be descriptive; awaiting Paul's ruling.
 - `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 53 — the Higuchi bound through the dressed mass

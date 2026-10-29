@@ -16,7 +16,7 @@ sources:
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §9"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3)'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes)'"
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §9"
   - "review/wiki-build-flags.md item 26"
@@ -148,7 +148,7 @@ The destination article #12 states the requirement more strongly than the record
 | v1 (#9 §9) | 4 | "Thawing drift, w₀ > −1, wₐ < 0, on the thawing corridor; **never phantom**; drift persists in DESI DR3" | "DR3+ converging on constant −1 (kills τ-sector); robust intrinsic w < −1 (kills outright)" |
 | #11 §13 | 4 | "Thawing, w₀ > −1, wₐ < 0, never phantom; drift persists in DESI DR3" | as above, with "— DR2 already favors a crossing above z ≈ 0.4 (§10)" since v2.1 |
 
-The row moved from 5 to 4 when the two clumping rows were withdrawn after [Debt 3](/wiki/history/debts) ([the history of the predictions table](/wiki/predictions/table-history)); the lab notebook's v0.2 addendum lists it as "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content. The only change of substance is v2.1's clause on DR2.
+The row moved from 5 to 4 when the two clumping rows were withdrawn after [the clumping problem](/wiki/history/main-problems) ([the history of the predictions table](/wiki/predictions/table-history)); the lab notebook's v0.2 addendum lists it as "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content. The only change of substance is v2.1's clause on DR2.
 
 ## Sources
 
@@ -156,7 +156,7 @@ The row moved from 5 to 4 when the two clumping rows were withdrawn after [Debt 
 - `papers/broken-born-checkpoint-v2.md` §13 row 4 — the row; §10 — the field, its tags and the "Under pressure (v2.1)" paragraph; §15 — the exposure, "nearest trial" and the degeneration risk; header — the v2.1 change note; ref [21] — DESI DR2 Results II
 - `review/round3-adjudication.md` 'Rulings' item 11 — the DR2 finding, accepted
 - `HANDOFF.md` §2 — the external clock and the three outcomes; its "consistent" reading is superseded
-- `notes/broken-born-theory.md` §7 items 1–2 — the no-phantom argument [D] and the thawing shape [T]; §3 — τ's action; §9 — the v0.1 row 5; 'Addendum (v0.2, post Debt-3)' — the row among the live content
+- `notes/broken-born-theory.md` §7 items 1–2 — the no-phantom argument [D] and the thawing shape [T]; §3 — τ's action; §9 — the v0.1 row 5; 'Addendum (v0.2, after the clumping notes)' — the row among the live content
 - `notes/broken-born-program-v1.md` §8, §9 — v1's reading of DESI (superseded) and its row 4
 - `review/wiki-build-flags.md` item 26 — DR3 as "three-year data"; item 27 — the potential's sign, which bears on row 5 and on t_turn, with its addendum on the closed turnaround; item 46 — the over-constraint moved to Ω_k; item 52 — the wedge sector's guarantee and the omitted G_eff step; item 6 — the vacuum-energy identity's dependence on the flatness condition; item 43 — the corridor in the region of DR2's fits, the slope that separates them, and the crossing redshift on which the pressure rests
 - `notes/closed-universe.md` §2 — the closed turnaround and t_turn's dependence on Ω_k; §6 — the bimetric branch relation and G_eff = 2G_N

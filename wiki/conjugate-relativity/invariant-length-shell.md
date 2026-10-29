@@ -21,7 +21,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 items 4, 10"
   - "notes/broken-born-theory.md §5.1"
   - "notes/broken-born-theory.md §3"
-  - "notes/debt1a-ii-X-classification.md §4"
+  - "notes/x-classification.md §4"
   - "review/v3-worklog.md 'New open items'"
   - "review/wiki-build-flags.md item 17"
   - "review/wiki-build-flags.md item 55"
@@ -102,7 +102,7 @@ The chain has four links:
 
 1. λ_χ is the conjugate quantum's invariant extent (the shell above).
 2. Its intrinsic momentum width is μ ~ ℏ/λ_χ, the reciprocal relation between widths.
-3. μ is the momentum scale of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). In #11 §8 the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) carries a gate F(k²/μ²) in the incoming relative momentum k, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]"; [calc note #6](/wiki/history/documents/debt-1-notes) §4 identifies μ as "the χ quantum's own p-width" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). The tag on the mechanism is disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). On this link of the chain the note adds: "#13 §4 identifies μ with ħ/λ_χ, an extent in position. Standard form-factor physics turns that into a form factor in the transfer q at scale μ, not a gate in k [T]" (§3).
+3. μ is the momentum scale of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). In #11 §8 the self-interaction of [conjugate matter](/wiki/dark-matter/conjugate-matter) carries a gate F(k²/μ²) in the incoming relative momentum k, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]"; [calc note #6](/wiki/history/documents/field-equation-notes) §4 identifies μ as "the χ quantum's own p-width" ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). The tag on the mechanism is disputed: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). On this link of the chain the note adds: "#13 §4 identifies μ with ħ/λ_χ, an extent in position. Standard form-factor physics turns that into a form factor in the transfer q at scale μ, not a gate in k [T]" (§3).
 4. The knee in the cross-section sits at the gate velocity v\* = √2 μ/m_χ, so it inherits the invariance of λ_χ ([Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee)). The √2 depends on the gate convention; see flag 17 in `review/wiki-build-flags.md`, described below.
 
 The relation μ ~ ℏ/λ_χ appears only in #13, and #13 gives no value for λ_χ.
@@ -152,7 +152,7 @@ The popular article #12 ("A second speed of light") states the shell and the clo
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between #1's and #6's gate conventions; check in `review/wiki-build-checks/gate_conventions.py`.
 - `notes/gate-mechanism.md` §3 and `review/wiki-build-flags.md` item 55 — μ ~ ℏ/λ_χ gives a form factor in q, not a gate in k; the mechanism's tag disputed, awaiting Paul's ruling.
 - `notes/broken-born-theory.md` §5.1 — the definition v\* ≡ √2 μ/m_χ; §3 for the gate e^{−k²/μ²} (superseded as a reference).
-- `notes/debt1a-ii-X-classification.md` §4 — μ as the χ quantum's own momentum width.
+- `notes/x-classification.md` §4 — μ as the χ quantum's own momentum width.
 - `review/round3/referee/audit-notes.md` Step 1 — the metadata check on Born 1938 and 1949.
 - `HANDOFF.md` §2 — the alive listing; §4 for the chat-only "dual equivalence principle"; §8 item 6 for the † check of #13's references.
 - `CLAUDE.md` 'Since the handoff' — #13 as a current reference; the † battery in the queue.

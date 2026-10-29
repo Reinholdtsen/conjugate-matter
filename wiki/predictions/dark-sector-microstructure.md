@@ -16,13 +16,13 @@ sources:
   - "review/round3-adjudication.md 'Decisions' item 2"
   - "CLAUDE.md 'Since the handoff'"
   - "HANDOFF.md §2"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
+  - "notes/x-classification.md §4"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §9"
   - "notes/broken-born-program-v1.md §10"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
-  - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "review/wiki-build-flags.md items 20, 55"
   - "notes/gate-mechanism.md §5"
 ---
@@ -65,13 +65,13 @@ DM is dark matter. "The 5.4 : 1 abundance question (polarization-genesis) applie
 
 - **[Row 1: the knee](/wiki/predictions/self-interaction-knee).** "Knee at v\* ~ 10² km/s; zero cluster signal (particle χ)" (#11 §13). The knee is the drop in the self-interaction cross-section at the gate's velocity scale v\*. Its zero cluster signal is stated for particle χ.
 - **[Row 2: isotropy](/wiki/predictions/scattering-isotropy).** "Isotropic below the gate". The argument is a two-body scattering calculation on [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island), and the χ row of the candidate table lists "isotropic scattering". No document states isotropy, or its absence, for a condensate.
-- **[Row 3: the island discriminant](/wiki/predictions/island-discriminant).** "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave", with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#row-3-the-island-discriminant). The particle law is the gate's own cutoff; the wave law was derived in [Debt 3](/wiki/history/debts) for very light χ, which behaves as a classical wave (#11 §9; [the two laws](/wiki/predictions/island-discriminant#the-two-laws)). The candidate table assigns a "sharp tail" to χ particles and a "knee shape wave-like" to the X-condensate.
+- **[Row 3: the island discriminant](/wiki/predictions/island-discriminant).** "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave", with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#row-3-the-island-discriminant). The particle law is the gate's own cutoff; the wave law was derived in [the clumping problem](/wiki/history/main-problems) for very light χ, which behaves as a classical wave (#11 §9; [the two laws](/wiki/predictions/island-discriminant#the-two-laws)). The candidate table assigns a "sharp tail" to χ particles and a "knee shape wave-like" to the X-condensate.
 
 Read against the table, the three rows separate the candidates through the knee: a sharp tail with isotropic scattering is the χ-particle signature, a wave-like tail the X-condensate's. Several links in that reading are missing from the record:
 
 - **The condensate's knee is not derived.** The (v\*/σ)⁴ law belongs to wave χ, a regime of the matter field χ. No document derives a knee for a condensate of X, or relates the condensate to wave χ ([caveats and open questions](/wiki/predictions/island-discriminant#caveats-and-open-questions)). A wave-like tail would therefore point away from particle χ without, on the record, separating the X-condensate from wave χ.
-- **The particle tail may not be sharp.** Whether the gate's tail is Gaussian or rational is open problem 4 of #11 §14. [Calc note #6](/wiki/history/documents/debt-1-notes) calls rational gates "power-law-tailed" (`notes/debt1a-ii-X-classification.md` §4), so if the gate is rational, both branches have power-law tails, and no source compares them ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)). `notes/gate-mechanism.md` (2026-10-28, not reviewed) adds that under its reading R1 of the fiber overlap "the particle tail is a power law, the same functional class as the wave island's. Whether the discriminant survives is open" (§5; flag 55, pending Paul's ruling; [row 3's caveats](/wiki/predictions/island-discriminant#caveats-and-open-questions)).
-- **Rows 1 and 2 have no wave form.** [Calc note #2](/wiki/history/documents/debt-3-notes) asked for rows 1–2 to be "re-derived in wave language" (`notes/debt3a-stream-stability.md`, 'Consequences for the predictions table'); the (v\*/σ)⁴ law answers this for the knee's tail only ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
+- **The particle tail may not be sharp.** Whether the gate's tail is Gaussian or rational is open problem 4 of #11 §14. [Calc note #6](/wiki/history/documents/field-equation-notes) calls rational gates "power-law-tailed" (`notes/x-classification.md` §4), so if the gate is rational, both branches have power-law tails, and no source compares them ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)). `notes/gate-mechanism.md` (2026-10-28, not reviewed) adds that under its reading R1 of the fiber overlap "the particle tail is a power law, the same functional class as the wave island's. Whether the discriminant survives is open" (§5; flag 55, pending Paul's ruling; [row 3's caveats](/wiki/predictions/island-discriminant#caveats-and-open-questions)).
+- **Rows 1 and 2 have no wave form.** [Calc note #2](/wiki/history/documents/clumping-notes) asked for rows 1–2 to be "re-derived in wave language" (`notes/stream-stability.md`, 'Consequences for the predictions table'); the (v\*/σ)⁴ law answers this for the knee's tail only ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 
 ### Coherence signatures
 
@@ -101,11 +101,11 @@ Until 2026-10-19 the question had three answers. #11 v2.0 listed a third candida
 
 #11 v2.1 rewrote the row as "Particles vs condensate, separable via rows 1–3 + coherence signatures" and the open problem as "Discriminating the two remaining dark-sector candidates (§12) [O]" (commit e1c1f67). The candidate's obituary is [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary).
 
-Both popular articles predate the retirement and still describe three answers: #12 says the framework "narrows the answer to three candidates" ('Dark matter as the other polarization'), and #10 that "Dark matter's identity, meanwhile, has narrowed to a three-way question with named experimental discriminators" ('Dividends and daydreams'). They are not sources for the question's status ([the popular articles](/wiki/history/documents/popular-articles)).
+Both popular articles predate the retirement and still describe three answers: #12 says the framework "narrows the answer to three candidates" ('Dark matter as the other polarization'), and #10 that "Dark matter's identity, meanwhile, has narrowed to a three-way question with named experimental discriminators" ('Corollaries and daydreams'). They are not sources for the question's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## History
 
-- **The second candidate.** Calc note #6 opened the X-condensate as "A new door, deliberately left closed today: homogeneous oscillations of a massive spin-2 X are themselves a dark-matter candidate (cf. bigravity dark matter)", logged "as an open direction, not pursued. [O]" (`notes/debt1a-ii-X-classification.md` §4). [The lab notebook](/wiki/history/documents/lab-notebook)'s v0.4 addendum records it as "A new open direction: massive-X condensate as the dark matter itself". v1 listed it as open problem 7, "X-condensate as the dark matter itself (bigravity-DM-style), potentially eliminating χ and unifying the dark sector with the geometry [O — direction, deliberately unopened]" (#9 §10), and named it beside χ in row 7.
+- **The second candidate.** Calc note #6 opened the X-condensate as "A new door, deliberately left closed today: homogeneous oscillations of a massive spin-2 X are themselves a dark-matter candidate (cf. bigravity dark matter)", logged "as an open direction, not pursued. [O]" (`notes/x-classification.md` §4). [The lab notebook](/wiki/history/documents/lab-notebook)'s v0.4 addendum records it as "A new open direction: massive-X condensate as the dark matter itself". v1 listed it as open problem 7, "X-condensate as the dark matter itself (bigravity-DM-style), potentially eliminating χ and unifying the dark sector with the geometry [O — direction, deliberately unopened]" (#9 §10), and named it beside χ in row 7.
 - **The row.** v1's table has no row 11. #11 v2.0 added it with three candidates; v2.1 reduced it to two; v2.2 left it unchanged ([the history of the predictions table](/wiki/predictions/table-history#the-checkpoint-v21-after-round-3)).
 - **The assessment.** #11 §15's italic summary lists "a two-way question about dark matter's nature with named discriminators" among the program's products and adds that "a third option, superheavy knots, was tested and retired".
 
@@ -115,10 +115,10 @@ Both popular articles predate the retirement and still describe three answers: #
 - `review/round3-adjudication.md` 'Decisions' item 2 — the soliton option retired, two candidates left
 - `CLAUDE.md` 'Since the handoff' — the current queue, which does not include the row
 - `HANDOFF.md` §2 — the three-way question as open item 8 (superseded). #11 v2.0's row 11 and open problem 9 are quoted from the repository's history (commit 8d588f6; commit e1c1f67 for v2.1).
-- `notes/debt1a-ii-X-classification.md` §4 — the X-condensate's first appearance; rational, power-law-tailed gates
-- `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
+- `notes/x-classification.md` §4 — the X-condensate's first appearance; rational, power-law-tailed gates
+- `notes/stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "massive-X condensate as the dark matter itself"
 - `notes/broken-born-program-v1.md` §9 — v1's table, with the X-condensate in row 7 and no row 11; §10 — v1's open problem 7
-- `popsci/universes-other-half.md` 'Dark matter as the other polarization' and `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' — the three-way question in the popular articles; not status sources
+- `popsci/universes-other-half.md` 'Dark matter as the other polarization' and `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams' — the three-way question in the popular articles; not status sources
 - `review/wiki-build-flags.md` item 20 — #11's reference [23]†, which pairs one paper's title with another's arXiv number; item 55 — the gate's mechanism not derived, awaiting a ruling
 - `notes/gate-mechanism.md` §5 — rows 1–3, this row's discriminators, among the text that depends on the mechanism's tag; whether row 3's discriminant survives, open

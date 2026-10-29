@@ -283,7 +283,7 @@
   },
   {
    "id": "C41",
-   "statement": "Under the record's dictionary (ã = 1/a, w_eff = −w̃), the k = +1 curvature term reads in the dual ledger as negative dual radiation ∝ ã⁻⁴, and H̃ = −H.",
+   "statement": "Under the record's dictionary (ã = 1/a, w_eff = −w̃), the k = +1 curvature term reads in the dual description as negative dual radiation ∝ ã⁻⁴, and H̃ = −H.",
    "tag": "[D][V]",
    "evidence": "born_closed.out: 'our curvature, E_k = -3 M^2 k a, on the dual books: rho~ = -3*C*M**2*k/at**4' and 'dual Hubble rate H~ ... = -H'",
    "confidence": 0.85
@@ -482,10 +482,10 @@
  ],
  "record_errors": [
   "papers/broken-born-checkpoint-v2.md §7.5 (and notes/broken-born-program-v1.md §5): 'M_X ∝ 2(β1+β2)' should be M_X². From homogeneous shear, M_X² = 2m²(β1 + 2β2 + β3) = 4m²(β1+β2) in von Strauss normalization (bimetric_flrw.out part G). Confirms review/wiki-build-flags.md item 5.",
-  "Inconsistency across #11 §7.4–7.5, notes/debt1a-iii-tuning-test.md §4 and HANDOFF.md §2 ('second frame confined to compact Λ(4)', 'no scale of its own' in phase-space-diameter.md §8.2) versus notes/debt1a-iv-beta-coefficients.md §3 (equal Planck masses) and phase-space-diameter.md §8.2 (Hassan–Rosen Yukawa coupling). A second frame with fixed scale admits no expanding FLRW in Hassan–Rosen dynamics (the Bianchi constraint forces ȧ = 0). With f dynamical, the aligned point persists, with 1 − y = 2(H² + k/a²)/M_X² (~1e-61 today). The diameter note's open item reduces to defining E₀[J].",
+  "Inconsistency across #11 §7.4–7.5, notes/tuning-test.md §4 and HANDOFF.md §2 ('second frame confined to compact Λ(4)', 'no scale of its own' in phase-space-diameter.md §8.2) versus notes/beta-coefficients.md §3 (equal Planck masses) and phase-space-diameter.md §8.2 (Hassan–Rosen Yukawa coupling). A second frame with fixed scale admits no expanding FLRW in Hassan–Rosen dynamics (the Bianchi constraint forces ȧ = 0). With f dynamical, the aligned point persists, with 1 − y = 2(H² + k/a²)/M_X² (~1e-61 today). The diameter note's open item reduces to defining E₀[J].",
   "papers/broken-born-checkpoint-v2.md §10 ('§7.3 guarantees the wedge sector contributes nothing that competes with τ') is right for dark energy: the exact term is ∝ (1−y)⁴/y, 1e-184 of ρ today. But it omits that the wedge sector doubles G_eff for H ≫ M_X, a step near T ≈ 1.5 TeV at the minimal M_X. No document records this step.",
   "notes/knot-dark-matter-standalone.md §1 and review/v3-worklog.md R7 say the Higuchi bound is 'trivially satisfied by a heavy X'. That reasoning fails for H > M_X, which the early universe and the recollapse reach. The bound still holds on the program's branch through the dressed mass (ratio ≥ 1.03). The instability while H exceeds the spin-2 mass (phase-space-diameter.md §8.2 caveat) is Könnig's scalar gradient instability, not a Higuchi ghost.",
-  "Program parameter space (notes/debt1a-iv-beta-coefficients.md §3; review/round5-adjudication.md R1): the record never states that β1 > 0 is required. With matter on g, a hot big bang ending in the aligned vacuum requires β1 > 0. For β1 < 0 the branch through the aligned point has a maximum density, and the hot branch ends in an AdS broken vacuum. For β1 > 0, R1's broken vacua do not exist."
+  "Program parameter space (notes/beta-coefficients.md §3; review/round5-adjudication.md R1): the record never states that β1 > 0 is required. With matter on g, a hot big bang ending in the aligned vacuum requires β1 > 0. For β1 < 0 the branch through the aligned point has a maximum density, and the hot branch ends in an AdS broken vacuum. For β1 > 0, R1's broken vacua do not exist."
  ],
  "files": [
   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/8fc83553-5967-4784-9222-5b4b26b2960e/closed/gravity-sector/bimetric_flrw.py",

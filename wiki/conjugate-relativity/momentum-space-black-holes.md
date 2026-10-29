@@ -25,7 +25,7 @@ sources:
 
 ## What the handoff records
 
-The [handoff document](/wiki/history/documents/handoff) was written to make the project self-sufficient outside the original conversation. Its §4, "Results that exist only in the chat (not in any artifact)" (the handoff sets "only" in capitals), gives this item one line. Its parts, with the quoted words verbatim and the handoff's "dual ledger" rendered as the momentum description:
+The [handoff document](/wiki/history/documents/handoff) was written to make the project self-sufficient outside the original conversation. Its §4, "Results that exist only in the chat (not in any artifact)" (the handoff sets "only" in capitals), gives this item one line. Its parts, with the quoted words verbatim and the handoff's "dual description" written as the momentum description:
 
 - "**Momentum-space black holes:** velocity traps";
 - our horizon, read in the momentum description, is a "max-force surface (hovering at horizon requires F → c⁴/G)";

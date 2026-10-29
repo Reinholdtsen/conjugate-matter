@@ -16,7 +16,7 @@ sources:
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-program-v1.md §2"
-  - "notes/debt1a-geometric-core.md §B"
+  - "notes/geometric-core.md §B"
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md §6"
   - "HANDOFF.md §2"
@@ -156,7 +156,7 @@ The separate ℤ₂ has a consequence that v1 of the toy-model note did not stat
 - `papers/broken-born-checkpoint-v2.md` §4 — the statement; §3 — ρ in quantum kinematics; §6 — ρ as Z → −Z⁻¹; §7.3, §7.5 — the palindrome and reciprocity parity; §11.3 — the recurring matrix; §13 row 9 — ρ² protection; §14 item 11 — the toy action that meets acceptance criterion 1
 - `notes/broken-born-theory.md` §1–§2 — the v0.1 statement as a ℤ₄, how ρ acts on ω, η and H, and the ℤ₄ → ℤ₂ pattern
 - `notes/broken-born-program-v1.md` §2 — the v1 statement
-- `notes/debt1a-geometric-core.md` §B — the sign flip of η read as the broken symmetry moving the order parameter
+- `notes/geometric-core.md` §B — the sign flip of η read as the broken symmetry moving the order parameter
 - `notes/knot-dark-matter-standalone.md` §1 — the unitary-equivalence distinction (withdrawn manuscript; the framing statement is the standard reading, not a claim of the dead candidate); §6 — acceptance criterion 1 and the conjectural status of the symmetry
 - `HANDOFF.md` §2, §6 — the referees' demand and the electric-sublattice clause
 - `review/round3-adjudication.md` 'Decisions' 4 — why the toy action came next

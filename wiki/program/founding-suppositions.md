@@ -49,7 +49,7 @@ The fates use a small vocabulary. "Alive" with a qualifier (transformed, modifie
 | 10 | Momentum space has its own gravity | **vindicated, transformed**: dynamical, massive, reciprocity-odd (§7) | [Born's answer: momentum space gravitates](/wiki/gravity/momentum-graviton/borns-answer) |
 | 11 | A full magnetic mirror-family, quarks included | **alive as established physics** (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition | [The magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) |
 
-In items 2 and 7 the table writes "two descriptions" where #11 writes "two ledgers"; the handoff uses the same wording ("one event, two descriptions", `HANDOFF.md` §2). Item 1's QM is quantum mechanics, and item 7's DESI DR3 is Data Release 3 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi). Item 6's identification of a·ã = 1 with the |Z| = 1 locus is queried in flag 23 of `review/wiki-build-flags.md`.
+Item 1's QM is quantum mechanics, and item 7's DESI DR3 is Data Release 3 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi). Item 6's identification of a·ã = 1 with the |Z| = 1 locus is queried in flag 23 of `review/wiki-build-flags.md`.
 
 ## How each fate was decided
 
@@ -63,7 +63,7 @@ The second universe became a second description of the same state: the universe 
 
 ### 3. Matter clumps in momentum space
 
-This was the program's founding image: dark matter clustering in velocity rather than in space. Debt 3 tested it on both sides of the particle–wave divide (#11 §9; [momentum clumping](/wiki/dark-matter/momentum-clumping)):
+This was the program's founding image: dark matter clustering in velocity rather than in space. The clumping problem tested it on both sides of the particle–wave divide (#11 §9; [momentum clumping](/wiki/dark-matter/momentum-clumping)):
 
 - **Particles [D].** The [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for collective growth, g·n_gate ≥ m·min(σ, v\*)², "fails by 10²⁸–10³¹ at the scattering benchmark". Satisfying it at fixed σ₀/m "forces m ≲ 0.1 meV, where N_occ ~ 10²⁰", so collective momentum-space behaviour and classical particles exclude each other (the [classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)).
 - **Waves [D + T].** If the same coupling also makes the cores of [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), condensation is mandatory only in ultra-faint dwarfs ("Segue 1: rate ratio ~660; condensation ~10⁴ yr"), where the collapsing condensate would drain the halo. That is "falsified by observed UFD density and longevity" ([Obituary: Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).

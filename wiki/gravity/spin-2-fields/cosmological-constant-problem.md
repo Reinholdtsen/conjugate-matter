@@ -18,7 +18,7 @@ sources:
   - "review/round5-adjudication.md 'Rulings' R7, R9"
   - "HANDOFF.md §8"
   - "CLAUDE.md 'Since the handoff'"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §2"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §5"
   - "notes/broken-born-program-v1.md §11"
@@ -105,7 +105,7 @@ The [handoff](/wiki/history/documents/handoff)'s queue asked whether the program
 
 ### What the identity cancels
 
-The program's gravity sector has a Hassan–Rosen potential whose coefficients [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) restricts to βₙ = β₄₋ₙ ([the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)). At the aligned point, where the two frames coincide, the potential's value V(1) and its tadpole T then satisfy V(1) = 2T, and a flat aligned vacuum forces T = 0 and V(1) = 0 ([#8](/wiki/history/documents/debt-1-notes) §2; #11 §7.3). Battery test T5 checks the integer identity behind it ([the verification battery](/wiki/method/verification/battery)). In the checkpoint's words, "the wedge sector contributes zero cosmological constant, by symmetry" (#11 §7.3, italic in the original; on "by symmetry", see flag 6 in `review/wiki-build-flags.md`). The derivation is on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
+The program's gravity sector has a Hassan–Rosen potential whose coefficients [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) restricts to βₙ = β₄₋ₙ ([the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome)). At the aligned point, where the two frames coincide, the potential's value V(1) and its tadpole T then satisfy V(1) = 2T, and a flat aligned vacuum forces T = 0 and V(1) = 0 ([#8](/wiki/history/documents/field-equation-notes) §2; #11 §7.3). Battery test T5 checks the integer identity behind it ([the verification battery](/wiki/method/verification/battery)). In the checkpoint's words, "the wedge sector contributes zero cosmological constant, by symmetry" (#11 §7.3, italic in the original; on "by symmetry", see flag 6 in `review/wiki-build-flags.md`). The derivation is on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
 
 ### What it does not cancel
 
@@ -137,7 +137,7 @@ The phase-space-diameter note writes the observed constant through the self-dual
 
 Earlier documents described the result more broadly than #11 does:
 
-- The v1 program paper, #9 ([the checkpoint's versions](/wiki/history/documents/checkpoint)): "A cosmological-constant cancellation for free, from symmetry." (§5, plain-language passage); "*the massive sector's vacuum energy is zero by symmetry.*" (§5 item 5); and in its assessment, "the last one paid out a cosmological-constant cancellation nobody ordered", with "the palindrome theorem cancelling the symmetric-bimetric vacuum energy" among "two results that stand on their own" (§11).
+- The v1 program paper, #9 ([the checkpoint's versions](/wiki/history/documents/checkpoint)): "A cosmological-constant cancellation for free, from symmetry." (§5, plain-language passage); "*the massive sector's vacuum energy is zero by symmetry.*" (§5 item 5); and in its assessment, "the last one yielded a cosmological-constant cancellation nobody ordered", with "the palindrome theorem cancelling the symmetric-bimetric vacuum energy" among "two results that stand on their own" (§11).
 - The [lab notebook](/wiki/history/documents/lab-notebook), #1: "the massive-gravity sector contributes zero cosmological constant, by symmetry rather than tuning" ('Addendum (v0.6)'; see flag 6 in `review/wiki-build-flags.md`).
 
 The checkpoint replaced these with a narrower statement. The cancellation concerns the [wedge sector](/wiki/gravity/spin-2-fields/vielbein-formulation), the spin-2 interaction potential, at the aligned point; the identity does not by itself address matter-loop vacuum energy (#11 §7.3); and the identity's novelty is downgraded pending a literature comparison (#11 §7.4), leaving "one identity awaiting a novelty verdict" (#11 §15). #9 and #1 are superseded as reference by #11. The current statement lives on [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity).
@@ -168,7 +168,7 @@ The checkpoint replaced these with a narrower statement. The cancellation concer
 - `review/round5-adjudication.md` 'Rulings' R7, R9 — the fourth root in place of "halves the exponent"; the conventions spelled out
 - `HANDOFF.md` §8 item 5 — the no-protecting-symmetry statement in the queued comparison.
 - `CLAUDE.md` 'Since the handoff' — the dark-energy sector under pressure; the comparison in the current queue; Hur et al. 2025 among the leads, not queued.
-- `notes/debt1a-iv-beta-coefficients.md` §2 — the derivation; dark energy left to the τ sector.
+- `notes/beta-coefficients.md` §2 — the derivation; dark energy left to the τ sector.
 - `notes/broken-born-theory.md` 'Addendum (v0.6)' — the earlier framing (superseded as reference).
 - `notes/broken-born-program-v1.md` §5, §11 — v1's "cosmological-constant cancellation for free" (superseded by #11).
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the hundred-and-twenty-orders figure (a popular article, never a status source).

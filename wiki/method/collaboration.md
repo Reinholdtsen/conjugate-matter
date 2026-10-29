@@ -77,7 +77,7 @@ The working instruction behind the delegation is "Make the call and recommend; d
 
 "Science prose: a serious scientist explaining abstract material in plain language. No anthropomorphizing, no moralizing, no detective-story reveals. Wave/Fourier analogies work; ball-rolling and ledger/bookkeeping metaphors don't." "Papers: every section opens with an italic plain-language passage, then the tagged technical record." (root `CLAUDE.md`). `HANDOFF.md` §7 gives the reason: Paul reads such phrasing, its example being "nature plays favorites", as "glib AI", and ball-rolling and dual-ledger metaphors "did not land".
 
-Some of #11's own passages predate the rule or break it ("everything else in physics plays favorites" in §1; "one state, two ledgers" in Appendix A). The wiki quotes such phrases only as history and writes "two descriptions" where #11 says "two ledgers" (`wiki/CLAUDE.md`, 'Voice').
+Some of #11's own passages predate the rule or break it ("everything else in physics plays favorites" in §1). The wiki quotes such phrases only as history (`wiki/CLAUDE.md`, 'Voice').
 
 ## Where the work happened
 

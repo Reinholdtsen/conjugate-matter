@@ -28,7 +28,7 @@ MW local   Q=24.7714: gauss: no-revir 161.2, revir inf | rat2: no-revir 200.2, r
 cluster    Q= 1.0966: gauss: no-revir 152.2, revir 798.8 | rat2: no-revir 103.3, revir 643.1
 cluster    Q= 4.3865: gauss: no-revir 2929, revir inf | rat2: no-revir 2315, revir inf
 
-=== 4. Debt 3a contact-range numbers with the linearized narrow-gate criterion ===
+=== 4. Calc note #2 contact-range numbers with the linearized narrow-gate criterion ===
 g = 2483 GeV^-2 (3a's benchmark coupling)
 dwarf core: 3a-form ratio = 3.89e-28;  linearized ratio g n Lam_g(r)/(m sigma^2) = 3.27e-28
 MW local  : 3a-form ratio = 2.86e-31;  linearized ratio g n Lam_g(r)/(m sigma^2) = 8.7e-31

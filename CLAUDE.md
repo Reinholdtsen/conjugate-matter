@@ -23,7 +23,8 @@ below gives their paths.
 - [popsci/](popsci/) — #10 `angle-of-the-mirror.md`, #12 `universes-other-half.md`.
 - [notes/](notes/) — the audit trail, superseded as reference but kept.
   - #1 `broken-born-theory.md` — the lab notebook, addenda v0.2–v0.6.
-  - #2–#8 calc notes: `debt3a/b/c-*`, `debt1a-*`.
+  - #2–#8 calc notes: #2–#4 `stream-stability`, `wave-island`, `ufd-endpoint` (the clumping problem);
+    #5–#8 `geometric-core`, `x-classification`, `tuning-test`, `beta-coefficients` (the field-equation problem).
   - #9 `broken-born-program-v1.md` — superseded by #11.
   - #14 `knot-dark-matter-standalone.md` — v3, **withdrawn** after failing round-3 review.
   - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
@@ -100,6 +101,9 @@ only as a task needs them.
     velocity scale c. Flag 55 suggests [P] for the gate and μ, [O] for the mechanism; it awaits Paul's ruling,
     and #11 is unchanged until then;
   - flags 55–58 in `review/wiki-build-flags.md`.
+- 2026-10-28: #1's three most severe open problems are named by subject everywhere: the field-equation
+  problem (1), the gate problem (2) and the clumping problem (3), together the three main problems. Commits
+  before this date, and git history, call them Debt 1–3. No payment or ledger wording is used.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the

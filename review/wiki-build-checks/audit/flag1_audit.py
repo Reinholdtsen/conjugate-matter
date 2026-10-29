@@ -1,5 +1,5 @@
 """Audit of wiki-build flag 1: are the omega-Lagrangian, eta-null polarizations of R^{2d} discrete
-("the 2^d coordinate-type splittings, GL(d)-rigid", notes/debt1a-geometric-core.md SB)?
+("the 2^d coordinate-type splittings, GL(d)-rigid", notes/geometric-core.md SB)?
 
 Conventions are the lab notebook's (#1 S2): (x, p) block basis, omega = [[0,1],[-1,0]], eta = [[0,1],[1,0]],
 d = 4 for the physical case. Independent anchors (textbook, not the paper): dim Gr(k,d) = k(d-k);

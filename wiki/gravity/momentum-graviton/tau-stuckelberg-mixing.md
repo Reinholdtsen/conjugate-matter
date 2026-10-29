@@ -6,13 +6,13 @@ description: "How strongly the dark-energy field τ mixes, through the potential
 provenance: [O]
 sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 6"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iii-tuning-test.md §5"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §5"
+  - "notes/beta-coefficients.md §1"
+  - "notes/x-classification.md §3"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §4"
+  - "notes/tuning-test.md §5"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §15"
@@ -23,15 +23,15 @@ sources:
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*This open problem asks how strongly the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) mixes with the [Stückelberg modes](/wiki/symmetry-breaking/goldstone-and-higgs), the would-be Goldstone fields that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive. Two fields mix when the quadratic part of a theory contains a term coupling them, so that neither has a definite mass on its own. The program's leading-order result is that τ is not among the absorbed modes and stays light ([τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). [Calc note #8](/wiki/history/documents/debt-1-notes) logged a residual mixing through the potential and expected it to be small "by compactness"; no document computes it. It is item 6 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O].*
+*This open problem asks how strongly the [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) mixes with the [Stückelberg modes](/wiki/symmetry-breaking/goldstone-and-higgs), the would-be Goldstone fields that the [momentum graviton X](/wiki/gravity/momentum-graviton) absorbs when it becomes massive. Two fields mix when the quadratic part of a theory contains a term coupling them, so that neither has a definite mass on its own. The program's leading-order result is that τ is not among the absorbed modes and stays light ([τ is not eaten](/wiki/gravity/momentum-graviton/tau-not-eaten)). [Calc note #8](/wiki/history/documents/field-equation-notes) logged a residual mixing through the potential and expected it to be small "by compactness"; no document computes it. It is item 6 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O].*
 
-**Status:** Open — [O] — item 6 of #11 §14; logged in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3 and §5) with an expectation but no calculation; no `verify/` script; not on the current work queue. Listed in [Open problems and the queue](/wiki/status/open-problems).
+**Status:** Open — [O] — item 6 of #11 §14; logged in calc note #8 (`notes/beta-coefficients.md` §3 and §5) with an expectation but no calculation; no `verify/` script; not on the current work queue. Listed in [Open problems and the queue](/wiki/status/open-problems).
 
 ## The question
 
 #11 §14, item 6, in full: "τ–Stückelberg mixing matrix [O]."
 
-The item asks for a matrix: the quadratic couplings between τ and the modes that X absorbs, and from them the combinations of fields that have definite masses. Its origin is a parenthesis at the end of calc note #8's derivation that τ is not eaten (§3; see [The Debt-1 calc notes](/wiki/history/documents/debt-1-notes)):
+The item asks for a matrix: the quadratic couplings between τ and the modes that X absorbs, and from them the combinations of fields that have definite masses. Its origin is a parenthesis at the end of calc note #8's derivation that τ is not eaten (§3; see [The field-equation calc notes](/wiki/history/documents/field-equation-notes)):
 
 ```text
 (Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness.)
@@ -61,7 +61,7 @@ The leading-order argument separates τ from the absorbed modes by where each co
 
 ### Where the sectors meet
 
-#8 says the residual mixing arises "through the potential". The potential that gives X its mass is, in the Debt-1 notes, a [wedge polynomial](/wiki/gravity/spin-2-fields/vielbein-formulation) of two frames: the symplectic vielbein E and the polarization frame E₀[J] (#7 §3; [the frame tier](/wiki/gravity/tuning-test/frame-tier)), written for the frames e and f = E₀[J] as V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏) (#8 §1; [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)). The second frame depends on J, and τ is one of J's moduli, so the potential involves both sectors. The notes write no formula for the mixing.
+#8 says the residual mixing arises "through the potential". The potential that gives X its mass is, in the field-equation notes, a [wedge polynomial](/wiki/gravity/spin-2-fields/vielbein-formulation) of two frames: the symplectic vielbein E and the polarization frame E₀[J] (#7 §3; [the frame tier](/wiki/gravity/tuning-test/frame-tier)), written for the frames e and f = E₀[J] as V = 2m²M² Σₙ₌₀⁴ βₙ eₙ(𝕏) (#8 §1; [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)). The second frame depends on J, and τ is one of J's moduli, so the potential involves both sectors. The notes write no formula for the mixing.
 
 ## What the leading-order result leaves open
 
@@ -70,8 +70,8 @@ The leading-order argument separates τ from the absorbed modes by where each co
 ## History of the item
 
 - **Calc note #6 §3** first raised τ's survival as a question: "verifying τ survives un-eaten is flagged [O]."
-- **Calc note #7 §5** listed "(ii) τ-not-eaten verification" among the remaining items of [Debt 1](/wiki/history/debts), with the note that "Items (ii)–(iv) are checks; item (i) is the substance."
-- **Calc note #8 §3** derived "τ is not eaten [D — leading order]" and logged the residual mixing. Its close-out (§5) lists "(iii) τ–Stückelberg mixing matrix" among the "Open residue, none of it existential" of Debt 1 ([The three debts](/wiki/history/debts)).
+- **Calc note #7 §5** listed "(ii) τ-not-eaten verification" among the remaining items of [the field-equation problem](/wiki/history/main-problems), with the note that "Items (ii)–(iv) are checks; item (i) is the substance."
+- **Calc note #8 §3** derived "τ is not eaten [D — leading order]" and logged the residual mixing. Its close-out (§5) lists "(iii) τ–Stückelberg mixing matrix" among the "Open residue, none of it existential" of the field-equation problem ([The three main problems](/wiki/history/main-problems)).
 - **The lab notebook's v0.6 addendum** carries the same list of "Residual open items (none existential)", including "τ–Stückelberg mixing" ([the lab notebook](/wiki/history/documents/lab-notebook)).
 - **The v1 paper (#9) §10, item 5**: "τ–Stückelberg mixing matrix; expected small by compactness [O]."
 - **#11 §14, item 6** keeps the item and drops the expectation: "τ–Stückelberg mixing matrix [O]."
@@ -84,9 +84,9 @@ The leading-order argument separates τ from the absorbed modes by where each co
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §14 item 6 — the open problem as currently listed; §7.5 — τ un-eaten, "not the Stückelberg sector"; §6 — τ as the Maslov phase; §15 — which items gate "theory"
-- `notes/debt1a-iv-beta-coefficients.md` §3 — τ not eaten at leading order and the logged residual mixing; §5 — the open residue of Debt 1; §1 — the potential for the frames e and f = E₀[J]
-- `notes/debt1a-ii-X-classification.md` §3 — the eaten Goldstones, τ's survival first flagged [O]
-- `notes/debt1a-iii-tuning-test.md` §3 — wedge polynomials of (E, E₀[J]); §4 — τ as the light direction of the compact space; §5 — τ-not-eaten listed as a check
+- `notes/beta-coefficients.md` §3 — τ not eaten at leading order and the logged residual mixing; §5 — the open residue of the field-equation problem; §1 — the potential for the frames e and f = E₀[J]
+- `notes/x-classification.md` §3 — the eaten Goldstones, τ's survival first flagged [O]
+- `notes/tuning-test.md` §3 — wedge polynomials of (E, E₀[J]); §4 — τ as the light direction of the compact space; §5 — τ-not-eaten listed as a check
 - `notes/broken-born-program-v1.md` §10 — the superseded v1 listing, "expected small by compactness"
 - `notes/broken-born-theory.md` 'Addendum (v0.6)' — the lab notebook's list of residual open items
 - `HANDOFF.md` §2 — the handoff's open list, which omits the item; §8 — the queue items the root `CLAUDE.md` adopts

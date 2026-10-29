@@ -27,10 +27,10 @@ sources:
   - "review/round5/referee-A/outputs/lee_interp.txt"
   - "review/round5/referee-B/outputs/torsion_interp.txt"
   - "review/round5/referee-B/audit-notes.md §4.5"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §3"
+  - "notes/tuning-test.md §4"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "review/v3-worklog.md 'Round-2 pending list' R7"
   - "review/wiki-build-flags.md items 39, 57"
@@ -73,7 +73,7 @@ The term with α is the force of the massive field, X; the 1 is the massless gra
 
 ### What fixes the strength
 
-"Only the product M_f u is fixed by the theory, so equal Planck masses give α = 4/3 only if u = 1" (note §8.2). Reciprocity, acting on the spin-2 sector as the exchange of the two frames, sets M_f = M_g ([calc note #8](/wiki/history/documents/debt-1-notes) §3; [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). That leaves α = (4/3)u², and the bound depends on the value of u in the program's vacuum.
+"Only the product M_f u is fixed by the theory, so equal Planck masses give α = 4/3 only if u = 1" (note §8.2). Reciprocity, acting on the spin-2 sector as the exchange of the two frames, sets M_f = M_g ([calc note #8](/wiki/history/documents/field-equation-notes) §3; [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). That leaves α = (4/3)u², and the bound depends on the value of u in the program's vacuum.
 
 ## The premise: the aligned vacuum, u = 1
 
@@ -213,8 +213,8 @@ What these checks cover:
 - `review/round5/adjudicator/arb.out` A1/B1, B9 (from `review/round5/adjudicator/arb.py`) — the broken vacua at β₁ = −1, β₂ = 2; the bound as a function of u; the two columns at three strengths
 - `review/round5/referee-A/scripts/lee_interp.py`; `review/round5/referee-A/outputs/lee_interp.txt` — the three columns of Table 11.4 as transcribed by referee A; the bound at referee A's u = ã/a, "no laboratory bound"
 - `review/round5/referee-B/audit-notes.md` §4.5; `review/round5/referee-B/outputs/torsion_interp.txt` — no stronger constraint at these ranges; the bound under logarithmic and linear interpolation
-- `notes/debt1a-iv-beta-coefficients.md` §1–§2 — the second frame f = E₀[J], the aligned point and the vacuum-energy identity; §3 — equal Planck masses and the range argument [D + T]
-- `notes/debt1a-iii-tuning-test.md` §4 — E₀[J] confined to a compact moduli space (that it carries no scale of its own is the note's reading)
+- `notes/beta-coefficients.md` §1–§2 — the second frame f = E₀[J], the aligned point and the vacuum-energy identity; §3 — equal Planck masses and the range argument [D + T]
+- `notes/tuning-test.md` §4 — E₀[J] confined to a compact moduli space (that it carries no scale of its own is the note's reading)
 - `papers/broken-born-checkpoint-v2.md` §7.5 — X's couplings "gravitational-strength and Yukawa-cut at 1/M_X" [D]
 - `review/v3-worklog.md` 'Round-2 pending list' item R7 — the early-universe stability of a heavy spin-2 field at equal Planck masses, open
 - `review/wiki-build-flags.md` item 39 — the frame exchange and Z → −Z⁻¹ give the graviton different parities; awaiting Paul's ruling

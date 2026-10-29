@@ -11,10 +11,10 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md §9"
-  - "notes/debt3a-stream-stability.md 'Numbers at the scattering benchmark'"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
-  - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
+  - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/wave-island.md 'What pins g? Two scenarios'"
+  - "notes/ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
 ---
 
 *Self-interacting dark matter (SIDM) is dark matter whose particles scatter off one another through a force of their own, in addition to gravity. The scattering carries heat from the outer parts of a halo into its colder center, which turns the steep central density peak predicted for collisionless cold dark matter (CDM) into a flat core. How strongly the particles scatter, and how that strength changes with their relative speed, is the observable that the Comatter program's [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) modifies. This page is the established background; the program's own law is [the gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law).*
@@ -25,7 +25,7 @@ sources:
 
 In the [standard cosmological model](/wiki/cosmology), dark matter is cold and collisionless: its particles feel only gravity. Simulations of such dark matter give halos whose density keeps rising toward the center, a cusp. In a cuspy halo the [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion) is lowest near the center and rises outward, so the inner halo is dynamically colder than the region around it.
 
-If the particles scatter off one another, collisions conduct heat down that temperature gradient, into the center. The heated central particles move onto wider orbits, the central density falls, and the cusp becomes a core of nearly constant density. The effect needs only a modest rate: about one scattering per particle over the age of the halo. [Debt 3a](/wiki/history/documents/debt-3-notes) of the program contrasts this with collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/debt3a-stream-stability.md`, 'Numbers at the scattering benchmark'; see [the instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
+If the particles scatter off one another, collisions conduct heat down that temperature gradient, into the center. The heated central particles move onto wider orbits, the central density falls, and the cusp becomes a core of nearly constant density. The effect needs only a modest rate: about one scattering per particle over the age of the halo. [Calc note #2](/wiki/history/documents/clumping-notes) of the program contrasts this with collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/stream-stability.md`, 'Numbers at the scattering benchmark'; see [the instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)).
 
 The rate at which one particle scatters is Γ = n σ_T v, with n the number density, σ_T the [transfer cross-section](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) and v the relative speed. Since n = ρ/m for mass density ρ and particle mass m:
 
@@ -54,7 +54,7 @@ The Born approximation holds when the coupling is weak compared with the ratio o
 
 ## Why velocity dependence matters [T]
 
-Halos span a wide range of internal speeds. The program's Debt-3 notes, for example, model a classical dwarf core with dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). A cross-section large enough to make cores in slow dwarfs must, if it stayed the same, also scatter strongly in fast clusters. A cross-section that falls with speed separates the two, and the shape of the fall is the observable. The program's documents state the standard expectations against which their rows 1 and 2 are measured:
+Halos span a wide range of internal speeds. The program's clumping notes, for example, model a classical dwarf core with dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/wave-island.md`, 'What pins g? Two scenarios'). A cross-section large enough to make cores in slow dwarfs must, if it stayed the same, also scatter strongly in fast clusters. A cross-section that falls with speed separates the two, and the shape of the fall is the observable. The program's documents state the standard expectations against which their rows 1 and 2 are measured:
 
 ```text
 Row 1, σ_T(v) across halo masses:  "CDM none; Yukawa SIDM power-law + Coulomb log"     (#11 §13)
@@ -68,7 +68,7 @@ The lab notebook names where the shapes separate: "The discriminating band is v 
 
 A self-gravitating system has negative heat capacity: when it loses energy, it contracts and its particles speed up. Scattering therefore has two phases in a halo. First, heat flows into the cold center and builds a core. Later, once the core is hotter than its surroundings, heat flows outward, the core loses energy, contracts and heats further, and the flow accelerates; this runaway is the gravothermal catastrophe, or core collapse. Throughout, the collisions are elastic: they move energy between particles but do not remove particles, so the halo keeps its mass.
 
-The program uses that last property as a contrast. On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the condensate of an attractive self-interaction would eject mass from the halo in repeated collapses ([attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates)). Debt 3c: even if heating and expansion throttle the rate "down to ~1/t_age (the gravothermal self-limit), an O(1) fraction of the core mass is processed *and removed* within the lifetime — unlike SIDM, where relaxation is elastic and mass stays" (`notes/debt3c-ufd-endpoint.md`, 'The attractive endpoint: criticality and the drain').
+The program uses that last property as a contrast. On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the condensate of an attractive self-interaction would eject mass from the halo in repeated collapses ([attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates)). Calc note #4: even if heating and expansion throttle the rate "down to ~1/t_age (the gravothermal self-limit), an O(1) fraction of the core mass is processed *and removed* within the lifetime — unlike SIDM, where relaxation is elastic and mass stays" (`notes/ufd-endpoint.md`, 'The attractive endpoint: criticality and the drain').
 
 ## The Bullet Cluster [T]
 
@@ -78,7 +78,7 @@ The program uses that last property as a contrast. On the [wave island](/wiki/da
 
 ### Conjugate matter as gated SIDM
 
-On the [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem), where [conjugate matter](/wiki/dark-matter/conjugate-matter) χ is a gas of classical particles of MeV–GeV mass, the program's dark sector is a form of SIDM. Debt 3a: "On this island BBT is cliff-shaped SIDM plus Maslov quintessence", BBT being Broken-Born theory, the program's earlier name ('Consequences for the predictions table'). The difference from a Yukawa model lies in what the interaction depends on. The program's amplitude has the Yukawa propagator in the momentum transfer q, multiplied by a gate factor in the incoming relative momentum k:
+On the [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem), where [conjugate matter](/wiki/dark-matter/conjugate-matter) χ is a gas of classical particles of MeV–GeV mass, the program's dark sector is a form of SIDM. Calc note #2: "On this island BBT is cliff-shaped SIDM plus Maslov quintessence", BBT being Broken-Born theory, the program's earlier name ('Consequences for the predictions table'). The difference from a Yukawa model lies in what the interaction depends on. The program's amplitude has the Yukawa propagator in the momentum transfer q, multiplied by a gate factor in the incoming relative momentum k:
 
 ```text
 M(k, q) = 4πα̃m_χ/(q² + m_φ²) · F(k²/μ²)                    (#11 §8)
@@ -94,11 +94,11 @@ with "Two structural signatures" that set it apart from "*every* x-local mediato
 
 ### The core-fitting value
 
-The program fixes its coupling from dwarf cores: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (#1 §5.1), a value stated without a citation. With it, Debt 3a says the coupling is "*spent* — no freedom remains" ('Numbers at the scattering benchmark'), and the checkpoint's benchmark mass is m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} (#11 §8). See [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) and [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
+The program fixes its coupling from dwarf cores: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (#1 §5.1), a value stated without a citation. With it, calc note #2 says the coupling is "*determined* — no freedom remains" ('Numbers at the scattering benchmark'), and the checkpoint's benchmark mass is m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} (#11 §8). See [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) and [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies).
 
 ### The wave-island analog
 
-On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ is a classical wave field, two-body scattering is no longer the observable, and the role of SIDM heat transport passes to [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate): Γ_self "*is* the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios'). [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which made that channel the core-maker, is dead.
+On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ is a classical wave field, two-body scattering is no longer the observable, and the role of SIDM heat transport passes to [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate): Γ_self "*is* the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/wave-island.md`, 'What pins g? Two scenarios'). [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which made that channel the core-maker, is dead.
 
 ## References
 
@@ -116,7 +116,7 @@ The program's documents cite no source for SIDM, the transfer cross-section or t
 - [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) — replaces the Yukawa power-law tail with a knee at v\*, isotropic below it.
 - [The scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) — takes σ₀/m from the dwarf-core fit.
 - [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — on the particle island the program's dark sector is gated self-interacting dark matter.
-- [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) — on the particle island the program is "cliff-shaped SIDM plus Maslov quintessence" (Debt 3a).
+- [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem) — on the particle island the program is "cliff-shaped SIDM plus Maslov quintessence" (calc note #2).
 - [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) — evaluated at the coupling fixed by the core fit above.
 - [Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) — the nuclear-scale σ₀ it must explain is the core-fitting value.
 - [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) — without an emergent η the program has no content beyond general relativity plus one SIDM model.
@@ -127,7 +127,7 @@ The program's documents cite no source for SIDM, the transfer cross-section or t
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §8, §13 rows 1–2 — the gated amplitude; χ as Bullet-Cluster-safe; the knee; the standard expectations for rows 1 and 2
-- `notes/debt3a-stream-stability.md` 'Numbers at the scattering benchmark', 'Consequences for the predictions table' — scattering fits need Γt ∼ 1; the "spent" coupling; cliff-shaped SIDM on the particle island
-- `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' — the wave-island rate as the analog of SIDM heat transport; the environment dispersions
-- `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — elastic relaxation keeps the mass; the gravothermal self-limit
+- `notes/stream-stability.md` 'Numbers at the scattering benchmark', 'Consequences for the predictions table' — scattering fits need Γt ∼ 1; the coupling determined by the dwarf-core fit; cliff-shaped SIDM on the particle island
+- `notes/wave-island.md` 'What pins g? Two scenarios' — the wave-island rate as the analog of SIDM heat transport; the environment dispersions
+- `notes/ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — elastic relaxation keeps the mass; the gravothermal self-limit
 - `notes/broken-born-theory.md` §3, §4, §5.1, §9 — the x-local Yukawa as the μ → ∞ limit; Bullet Cluster lensing centroids; the v0.1 scattering law, Yukawa SIDM's v⁻⁴ fall with a Coulomb log, forward peaking, the discriminating band, the dwarf-core value, the Born-approximation caveat; v0.1 row 1

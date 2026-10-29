@@ -88,7 +88,7 @@ Two older wordings of the program's first acceptance criterion tied the order pa
 
 ## The closed sub-items (unresolved)
 
-The parenthesis of item 8 says that "The soliton-spectrum and p-localization items are closed by the §12 obituary". The soliton spectrum was the retired candidate's. On p-localization, #11 §12 says that "The Debt-3 loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate". The checkpoint does not reconcile "closed" with "untested" ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+The parenthesis of item 8 says that "The soliton-spectrum and p-localization items are closed by the §12 obituary". The soliton spectrum was the retired candidate's. On p-localization, #11 §12 says that "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate". The checkpoint does not reconcile "closed" with "untested" ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
 ## Where it stands
 

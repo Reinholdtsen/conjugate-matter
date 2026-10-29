@@ -39,7 +39,7 @@ with λ the [Born length](/wiki/phase-space/reciprocity/born-length) and ε = �
 
 A massless particle has E = c|p|, the mass shell p_μp^μ = m²c² at m = 0 [T]. In the space of energy and momentum this is a cone of slope c, on which the energy and momentum of every photon lie ([special relativity: the template](/wiki/conjugate-relativity/special-relativity)). #13 §6 identifies it with the dual cone:
 
-> "One free consistency dividend already available: since our massless dispersion E = c|p| *is* the dual null cone, the Fermi-LAT bounds excluding linear photon-dispersion violations [T] constrain both cones at once — every test of our light cone's rigidity has been, unknowingly, a test of theirs."
+> "One free consistency check already available: since our massless dispersion E = c|p| *is* the dual null cone, the Fermi-LAT bounds excluding linear photon-dispersion violations [T] constrain both cones at once — every test of our light cone's rigidity has been, unknowingly, a test of theirs."
 
 The worklog places that identification in the other construction: it "belongs to the 4D Born map (t ↔ E): a cone in (E, p) with slope c. Under the 4D map, anything on our light cone is automatically dual-null." The same §6 lists that map as open: "the fully covariant construction with the four-dimensional Born map (t ↔ E), in which the dual "time" direction is our energy axis" ([Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map)). With energy as the dual time direction, a dual cone is a cone in (E, p), and E = c|p| is one.
 

@@ -22,9 +22,9 @@ sources:
   - "HANDOFF.md §6"
   - "notes/knot-dark-matter-standalone.md §2"
   - "review/skeptic-review-console.html"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/geometric-core.md §C"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
   - "notes/toy-lagrangian.md 'Chunk 4 (in progress, 2026-10-19): S5'"
 ---
 
@@ -193,6 +193,6 @@ As the documents cite them: C. Montonen and D. Olive (1977) and N. Seiberg (1995
 - `HANDOFF.md` §2 — "reciprocity-acts-as-modular-S on the coupling" as the load-bearing conjecture; §6 — round 2's "matrix coincidence ≠ physical identity" / "numerology".
 - `notes/knot-dark-matter-standalone.md` §2 — the shared matrix used "only as motivation" (withdrawn manuscript).
 - `review/skeptic-review-console.html` — #14 v2's "modular S transformation", verbatim.
-- `notes/debt1a-geometric-core.md` §C — "modular geometry".
-- `notes/debt1a-ii-X-classification.md` §1, §3 — the translations Z → Z + B in "the Möbius action of the rigid Sp(2d,ℝ)"; "modular (Siegel-domain) symmetry".
+- `notes/geometric-core.md` §C — "modular geometry".
+- `notes/x-classification.md` §1, §3 — the translations Z → Z + B in "the Möbius action of the rigid Sp(2d,ℝ)"; "modular (Siegel-domain) symmetry".
 - `notes/toy-lagrangian.md` 'Chunk 4 (in progress, 2026-10-19): S5' — the strong constraint derived "from modular invariance plus amplitude poles", live-searched.

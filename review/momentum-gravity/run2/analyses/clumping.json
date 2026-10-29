@@ -1,9 +1,9 @@
 {
- "summary": "I treated the hypothetical force as a mean-field (Vlasov) problem: a long-range attraction gated in relative velocity, U = -G~ m^2 W(|v-v'|/v*)/|x-x'|, added to gravity. It behaves as a Jeans-type amplifier of spatial clumping among co-moving particles. Gravity and gate both scale as 1/k^2, so the gate rescales the Jeans wavenumber by sqrt(Lambda_0), the top eigenvalue of a velocity-space operator. Lambda_0 tends to 1 + G~/G for a broad gate (v* >> sigma), and the stream-mode eigenvalue tends to (G~/G)(v*/sigma)^3 for a narrow one (v* << sigma). For a Maxwellian the onset is exactly at omega = 0: proved by an energy/parity argument and confirmed numerically. For a Gaussian gate the threshold has a closed form, verified by three independent discretizations and anchored on the textbook stellar Jeans relation. The founding image cannot appear: streams spread through space (k = 0 velocity structure) are exactly neutral in mean-field dynamics. The modes the gate adds are spatial lumps carried by a velocity-selected population of width about sqrt(sigma v*). A perturbative gate (G~ <= G) adds no velocity-selected instability, and in dwarf cores (sigma < v*) the gate is simply stronger chi-chi gravity, which the halo's equilibrium absorbs. In the local (WKB) model new modes need G~/G ~ 28-161 at the solar circle and ~152-2929 in a cluster core (v* = 120 km/s). When the equilibrium absorbs the gate's share of the binding (re-virialization), they never appear at the solar circle or in dwarfs, and need G~/G ~ 800 in a marginal cluster core. Above threshold the fastest MW modes found e-fold in ~53-235 Myr (0.24-1.07 solar orbits). Cluster modes take 2.3-7.9 Gyr (5-18 crossing times), so phase mixing wins there. At strong coupling the purely growing rate collapses once the velocity-dipole sector reaches its own threshold, and slower travelling modes replace it. Debt 3a's narrow-gate substitution sigma -> v* is the threshold of a pre-existing cold stream, not of a smooth halo; the linearized threshold keeps the halo's sigma. 3a's contact-range verdict is unchanged (recomputed shortfalls 3.3e-28 dwarf, 8.7e-31 MW). The classicality theorem does not carry over to a long-range force. But a gravitational-strength 1/r force contributes no scattering (~5e-62 cm^2/g), so G~ would be a new free parameter and any such clumping optional, not mandatory. Finally, the record's X is massive (range < 37.7 um), so it cannot carry a long-range gated force.",
+ "summary": "I treated the hypothetical force as a mean-field (Vlasov) problem: a long-range attraction gated in relative velocity, U = -G~ m^2 W(|v-v'|/v*)/|x-x'|, added to gravity. It behaves as a Jeans-type amplifier of spatial clumping among co-moving particles. Gravity and gate both scale as 1/k^2, so the gate rescales the Jeans wavenumber by sqrt(Lambda_0), the top eigenvalue of a velocity-space operator. Lambda_0 tends to 1 + G~/G for a broad gate (v* >> sigma), and the stream-mode eigenvalue tends to (G~/G)(v*/sigma)^3 for a narrow one (v* << sigma). For a Maxwellian the onset is exactly at omega = 0: proved by an energy/parity argument and confirmed numerically. For a Gaussian gate the threshold has a closed form, verified by three independent discretizations and anchored on the textbook stellar Jeans relation. The founding image cannot appear: streams spread through space (k = 0 velocity structure) are exactly neutral in mean-field dynamics. The modes the gate adds are spatial lumps carried by a velocity-selected population of width about sqrt(sigma v*). A perturbative gate (G~ <= G) adds no velocity-selected instability, and in dwarf cores (sigma < v*) the gate is simply stronger chi-chi gravity, which the halo's equilibrium absorbs. In the local (WKB) model new modes need G~/G ~ 28-161 at the solar circle and ~152-2929 in a cluster core (v* = 120 km/s). When the equilibrium absorbs the gate's share of the binding (re-virialization), they never appear at the solar circle or in dwarfs, and need G~/G ~ 800 in a marginal cluster core. Above threshold the fastest MW modes found e-fold in ~53-235 Myr (0.24-1.07 solar orbits). Cluster modes take 2.3-7.9 Gyr (5-18 crossing times), so phase mixing wins there. At strong coupling the purely growing rate collapses once the velocity-dipole sector reaches its own threshold, and slower travelling modes replace it. Calc note #2's narrow-gate substitution sigma -> v* is the threshold of a pre-existing cold stream, not of a smooth halo; the linearized threshold keeps the halo's sigma. 3a's contact-range verdict is unchanged (recomputed shortfalls 3.3e-28 dwarf, 8.7e-31 MW). The classicality theorem does not carry over to a long-range force. But a gravitational-strength 1/r force contributes no scattering (~5e-62 cm^2/g), so G~ would be a new free parameter and any such clumping optional, not mandatory. Finally, the record's X is massive (range < 37.7 um), so it cannot carry a long-range gated force.",
  "claims": [
   {
    "id": "C1",
-   "statement": "Model and linear eigenproblem. Take pair energy -m^2[G + G~ W(|p-p'|/(m v*))]/|x-x'|, with the gate on canonical momenta as in Debt 3a's epsilon(x,p). The Vlasov equation, linearized about a homogeneous Maxwellian (dispersion sigma) under the Jeans swindle, gives delta f = (k.grad_p f0) delta eps/(k.v - omega) and the eigenproblem delta eps(v) = (k_J/k)^2 Int d^3v' [1 + (G~/G) W(|v-v'|/v*)] p0(v') [k.v'/(k.v' - omega)] delta eps(v'), with k_J^2 = 4 pi G rho/sigma^2 and p0 the normalized Maxwellian. The swindle discards the divergent background potential. Its gated part depends on velocity, so the swindle also discards a background anomalous velocity grad_p Phi_g0. At linear order the term grad_p(delta eps).grad_x f0 vanishes because f0 is uniform. Gravity and gate both scale as 1/k^2, so in the static limit the velocity-space operator does not depend on k: the gate rescales the Jeans wavenumber, k_crit = k_J sqrt(Lambda_0).",
+   "statement": "Model and linear eigenproblem. Take pair energy -m^2[G + G~ W(|p-p'|/(m v*))]/|x-x'|, with the gate on canonical momenta as in calc note #2's epsilon(x,p). The Vlasov equation, linearized about a homogeneous Maxwellian (dispersion sigma) under the Jeans swindle, gives delta f = (k.grad_p f0) delta eps/(k.v - omega) and the eigenproblem delta eps(v) = (k_J/k)^2 Int d^3v' [1 + (G~/G) W(|v-v'|/v*)] p0(v') [k.v'/(k.v' - omega)] delta eps(v'), with k_J^2 = 4 pi G rho/sigma^2 and p0 the normalized Maxwellian. The swindle discards the divergent background potential. Its gated part depends on velocity, so the swindle also discards a background anomalous velocity grad_p Phi_g0. At linear order the term grad_p(delta eps).grad_x f0 vanishes because f0 is uniform. Gravity and gate both scale as 1/k^2, so in the static limit the velocity-space operator does not depend on k: the gate rescales the Jeans wavenumber, k_crit = k_J sqrt(Lambda_0).",
    "tag": "[D] with executed script",
    "basis": "Derivation. Anchor independent of the model: for G~ = 0 the dynamic solver reproduces the textbook stellar Jeans relation kappa^2 = 1 - sqrt(pi) xi exp(xi^2) erfc(xi), xi = gamma/(sqrt2 k sigma), computed separately with mpmath.",
    "confidence": "high",
@@ -22,13 +22,13 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md 'Setup'",
+    "notes/stream-stability.md 'Setup'",
     "wiki/dark-matter/momentum-clumping/vlasov-stability.md"
    ]
   },
   {
    "id": "C2",
-   "statement": "The onset is at omega = 0, and past it the unstable mode is purely growing. Assume f0 = F(eps0) with F' < 0 and a real symmetric kernel even under (v,v') -> (-v,-v'). Write delta f = -|F'| h. Then omega h = (k.v) A h, with A = 1 + U|F'| self-adjoint in <a,b> = Int |F'| a* b. Since omega <h,Ah> = <Ah,(k.v)Ah> is real, no growing mode exists while A > 0, that is while every eigenvalue of the static operator (k_J/k)^2 K is below 1. The first eigenvalue to reach 1 is in the parity-even l=0 sector (Perron-Frobenius, positive kernel), and at that point the odd sector is still positive. Then omega^2 h+ = C A h+ with C = (k.v)A(k.v) >= 0 on even functions, so omega^2 is real: the crossing is at omega = 0 and the mode beyond it is purely growing. The same argument justifies Debt 3a's use of a static threshold.",
+   "statement": "The onset is at omega = 0, and past it the unstable mode is purely growing. Assume f0 = F(eps0) with F' < 0 and a real symmetric kernel even under (v,v') -> (-v,-v'). Write delta f = -|F'| h. Then omega h = (k.v) A h, with A = 1 + U|F'| self-adjoint in <a,b> = Int |F'| a* b. Since omega <h,Ah> = <Ah,(k.v)Ah> is real, no growing mode exists while A > 0, that is while every eigenvalue of the static operator (k_J/k)^2 K is below 1. The first eigenvalue to reach 1 is in the parity-even l=0 sector (Perron-Frobenius, positive kernel), and at that point the odd sector is still positive. Then omega^2 h+ = C A h+ with C = (k.v)A(k.v) >= 0 on even functions, so omega^2 is real: the crossing is at omega = 0 and the mode beyond it is purely growing. The same argument justifies calc note #2's use of a static threshold.",
    "tag": "[D] with executed script",
    "basis": "Analytic argument, plus two checks. (i) The dynamic factorized solver's growth rate falls to 0 linearly at the static eigenvalue from the independent radial solver, in three cases, with no purely growing root on the stable side. (ii) Argument-principle zero counts in the upper half-plane.",
    "confidence": "high",
@@ -59,7 +59,7 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md 'Limit 1'"
+    "notes/stream-stability.md 'Limit 1'"
    ]
   },
   {
@@ -108,7 +108,7 @@
    ],
    "sources": [
     "notes/broken-born-theory.md §3, §5.1",
-    "notes/debt1a-ii-X-classification.md §4 (via wiki/dark-matter/conjugate-matter/gate-mechanism.md)",
+    "notes/x-classification.md §4 (via wiki/dark-matter/conjugate-matter/gate-mechanism.md)",
     "review/wiki-build-flags.md item 17"
    ]
   },
@@ -151,7 +151,7 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md 'Limit 2'"
+    "notes/stream-stability.md 'Limit 2'"
    ]
   },
   {
@@ -190,7 +190,7 @@
   },
   {
    "id": "C6",
-   "statement": "Debt 3a's narrow-gate substitution (n -> n_gate, sigma -> v*) is not what the linearized equation gives for a smooth Maxwellian. The static response is delta f = -f0 delta eps/(m sigma^2) whatever the velocity structure of delta eps, so the kinetic scale stays m sigma^2. The exact unified contact-range criterion is g n Lambda_g(sigma/v*) >= m sigma^2, with n Lambda_g -> n_gate for a narrow gate. 3a's form g n_gate/(m v*^2) >= 1 is instead the threshold for a pre-existing cold stream of internal dispersion v*. For W = exp(-s^2/2), the ratio of the required g (exact over 3a's narrow form) is (2pi)^-1.5/(r Lambda_g): 0.33 at MW conditions (3a is conservative there), 5.3 at r = 8.33, tending to (2pi)^-1.5 r^2 for r >> 1. Against 3a's broad form in the dwarf the ratio is 1.19. 3a does not state its gate normalization, so these ratios carry an O(1) convention factor; the sigma-versus-v* point does not depend on it. Recomputed with 3a's inputs (g = 2483 GeV^-2), the shortfall is 3.27e-28 in the dwarf core (3a form 3.89e-28), 8.7e-31 in the MW halo (2.86e-31) and 1.52e-35 in a cluster. 3a's verdict, a shortfall of 27-35 orders of magnitude, is unchanged.",
+   "statement": "Calc note #2's narrow-gate substitution (n -> n_gate, sigma -> v*) is not what the linearized equation gives for a smooth Maxwellian. The static response is delta f = -f0 delta eps/(m sigma^2) whatever the velocity structure of delta eps, so the kinetic scale stays m sigma^2. The exact unified contact-range criterion is g n Lambda_g(sigma/v*) >= m sigma^2, with n Lambda_g -> n_gate for a narrow gate. 3a's form g n_gate/(m v*^2) >= 1 is instead the threshold for a pre-existing cold stream of internal dispersion v*. For W = exp(-s^2/2), the ratio of the required g (exact over 3a's narrow form) is (2pi)^-1.5/(r Lambda_g): 0.33 at MW conditions (3a is conservative there), 5.3 at r = 8.33, tending to (2pi)^-1.5 r^2 for r >> 1. Against 3a's broad form in the dwarf the ratio is 1.19. 3a does not state its gate normalization, so these ratios carry an O(1) convention factor; the sigma-versus-v* point does not depend on it. Recomputed with 3a's inputs (g = 2483 GeV^-2), the shortfall is 3.27e-28 in the dwarf core (3a form 3.89e-28), 8.7e-31 in the MW halo (2.86e-31) and 1.52e-35 in a cluster. 3a's verdict, a shortfall of 27-35 orders of magnitude, is unchanged.",
    "tag": "[D] with executed script",
    "basis": "Exact static operator vs 3a's formulas, using 3a's benchmark inputs.",
    "confidence": "high",
@@ -221,8 +221,8 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md 'Limit 2', 'Numbers at the scattering benchmark'",
-    "review/wiki-build-checks/debt3a_check.out",
+    "notes/stream-stability.md 'Limit 2', 'Numbers at the scattering benchmark'",
+    "review/wiki-build-checks/stream_stability_check.out",
     "review/wiki-build-flags.md items 16, 19"
    ]
   },
@@ -338,8 +338,8 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md (environments)",
-    "notes/debt3b-wave-island.md 'What pins g?' (cluster row: 0.03 GeV/cm^3, 1000 km/s)"
+    "notes/stream-stability.md (environments)",
+    "notes/wave-island.md 'What pins g?' (cluster row: 0.03 GeV/cm^3, 1000 km/s)"
    ]
   },
   {
@@ -438,7 +438,7 @@
   },
   {
    "id": "C13",
-   "statement": "Debt 3a's classicality theorem does not carry over. It rests on contact range with the coupling fixed by sigma0/m. For a 1/r force the mean-field energy per particle is ~G~ M m/R, set by the mass density and independent of m at fixed rho, so collective behaviour is available to classical particles of any mass, as gravity itself shows. In a dwarf core of 70 MeV particles, a 1/r force at G~ = G gives a mean-field energy per particle of 2.1e-9 GeV. The contact benchmark gives 2.7e-37 GeV (ratio 7.7e27), and the kinetic scale m sigma^2 is 7.0e-10 GeV. The occupation per de Broglie cell is 3.2e-25 (dwarf) and 9.3e-28 (MW), so the particles are fully classical.",
+   "statement": "Calc note #2's classicality theorem does not carry over. It rests on contact range with the coupling fixed by sigma0/m. For a 1/r force the mean-field energy per particle is ~G~ M m/R, set by the mass density and independent of m at fixed rho, so collective behaviour is available to classical particles of any mass, as gravity itself shows. In a dwarf core of 70 MeV particles, a 1/r force at G~ = G gives a mean-field energy per particle of 2.1e-9 GeV. The contact benchmark gives 2.7e-37 GeV (ratio 7.7e27), and the kinetic scale m sigma^2 is 7.0e-10 GeV. The occupation per de Broglie cell is 3.2e-25 (dwarf) and 9.3e-28 (MW), so the particles are fully classical.",
    "tag": "[D] with executed script",
    "basis": "Scaling argument plus benchmark numbers. The uniform-core mass is an estimate.",
    "confidence": "high",
@@ -457,7 +457,7 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md 'Corollary (the classicality theorem)'"
+    "notes/stream-stability.md 'Corollary (the classicality theorem)'"
    ]
   },
   {
@@ -476,12 +476,12 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md §8, §9 (iii)",
-    "notes/debt3b-wave-island.md 'Scenario B'"
+    "notes/wave-island.md 'Scenario B'"
    ]
   },
   {
    "id": "C15",
-   "statement": "Debt 3a's H-theorem argument is not independent of the mean-field threshold. Collisions drive the gas toward the Gibbs state f ~ exp(-eps/T) of the full mean-field Hamiltonian. Its free-energy second variation, (1/2) Int T (delta f)^2/f0 + (1/2) Int Int delta f U delta f, is the same quadratic form as the static stability operator. Below threshold, both collisions and the mean field keep the single-peaked state. Above it the uniform Gibbs state is a saddle, and both drive spatial clumping of co-movers. For a long-range force two-body relaxation is negligible anyway: N = 2.4e67 in a dwarf core, so t_relax/t_cross ~ N/(8 ln N) = 1.9e64. 3a's 'Maxwellian to one part in 10^30' does not carry over: with G~ ~ G the Gibbs-state distortion is of order (G~/G) Lambda_g, not 1e-30 (scaling estimate, not computed).",
+   "statement": "Calc note #2's H-theorem argument is not independent of the mean-field threshold. Collisions drive the gas toward the Gibbs state f ~ exp(-eps/T) of the full mean-field Hamiltonian. Its free-energy second variation, (1/2) Int T (delta f)^2/f0 + (1/2) Int Int delta f U delta f, is the same quadratic form as the static stability operator. Below threshold, both collisions and the mean field keep the single-peaked state. Above it the uniform Gibbs state is a saddle, and both drive spatial clumping of co-movers. For a long-range force two-body relaxation is negligible anyway: N = 2.4e67 in a dwarf core, so t_relax/t_cross ~ N/(8 ln N) = 1.9e64. 3a's 'Maxwellian to one part in 10^30' does not carry over: with G~ ~ G the Gibbs-state distortion is of order (G~/G) Lambda_g, not 1e-30 (scaling estimate, not computed).",
    "tag": "[D] with executed script for the numbers; the identity is [D] algebra",
    "basis": "Second variation of F = E - TS at the Gibbs state. Relaxation estimate in Binney-Tremaine form [T, from memory].",
    "confidence": "high",
@@ -494,7 +494,7 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md 'Numbers at the scattering benchmark'",
+    "notes/stream-stability.md 'Numbers at the scattering benchmark'",
     "wiki/dark-matter/momentum-clumping/vlasov-stability.md 'Collisions and the H-theorem'"
    ]
   },
@@ -563,7 +563,7 @@
   },
   {
    "id": "C20",
-   "statement": "On the record's terms the obituary is not premature. (i) The founding image, streams spread through space, is exactly neutral in mean-field dynamics for any velocity-dependent attraction, long-range or contact (C7). (ii) A long-range velocity-gated attraction can make velocity-selected spatial clumps, but only for G~/G >~ Q/Lambda_g(sigma/v*): >= 28 at the solar circle and >= 152 in a cluster core before re-virialization; never in dwarfs, never at the solar circle after it, and about 800 in a marginal cluster core. Growth is at best about 0.24 orbital periods per e-fold in the MW and 5-18 crossing times in clusters. (iii) A perturbative velocity-dependent correction to gravity (G~ <= G) produces none. (iv) G~ is free and unconnected to the scattering fit, so any such clumping is optional, matching the net theorem's 'nowhere mandatory'. (v) The record's X cannot carry the force. The one correction to the record is in Debt 3a's narrow-gate criterion (C6), and it does not change 3a's verdict.",
+   "statement": "On the record's terms the obituary is not premature. (i) The founding image, streams spread through space, is exactly neutral in mean-field dynamics for any velocity-dependent attraction, long-range or contact (C7). (ii) A long-range velocity-gated attraction can make velocity-selected spatial clumps, but only for G~/G >~ Q/Lambda_g(sigma/v*): >= 28 at the solar circle and >= 152 in a cluster core before re-virialization; never in dwarfs, never at the solar circle after it, and about 800 in a marginal cluster core. Growth is at best about 0.24 orbital periods per e-fold in the MW and 5-18 crossing times in clusters. (iii) A perturbative velocity-dependent correction to gravity (G~ <= G) produces none. (iv) G~ is free and unconnected to the scattering fit, so any such clumping is optional, matching the net theorem's 'nowhere mandatory'. (v) The record's X cannot carry the force. The one correction to the record is in calc note #2's narrow-gate criterion (C6), and it does not change 3a's verdict.",
    "tag": "[D]",
    "basis": "Synthesis of C2-C16 within the local homogeneous model.",
    "confidence": "medium",
@@ -571,8 +571,8 @@
    "sources": [
     "wiki/dark-matter/momentum-clumping/founding-image.md",
     "papers/broken-born-checkpoint-v2.md §9",
-    "notes/debt3a-stream-stability.md",
-    "notes/debt3c-ufd-endpoint.md 'Verdict and closure'"
+    "notes/stream-stability.md",
+    "notes/ufd-endpoint.md 'Verdict and closure'"
    ]
   }
  ],
@@ -609,11 +609,11 @@
   "Canonical versus physical-velocity gate: a Hamiltonian versus a Lagrangian (Weber-like) velocity-dependent potential changes the effective gate shape at O(1), e.g. W -> (1+s^2)W in the conserved energy. Its effect on the thresholds was not computed.",
   "Baryons are omitted from the local model. A cold, dense disk strengthens the gravity-like density mode and leaves the gated term unchanged.",
   "Which carrier could give a long-range gated force compatible with strict P4, the X range bound and dark-sector equivalence-principle tests (Kesden-Kamionkowski-type bounds evaluated at G~ W(v_rel/v*))? None exists in the record.",
-  "Debt 3a's narrow-gate formula: should the record carry the corrected criterion g n Lambda_g(sigma/v*) >= m sigma^2? It does not change 3a's verdict, and is a candidate flag for review/wiki-build-flags.md (Paul's ruling)."
+  "Calc note #2's narrow-gate formula: should the record carry the corrected criterion g n Lambda_g(sigma/v*) >= m sigma^2? It does not change 3a's verdict, and is a candidate flag for review/wiki-build-flags.md (Paul's ruling)."
  ],
  "caveats": [
   "All results are for a local homogeneous model under the Jeans swindle. The swindle discards the velocity-dependent background gated potential and its anomalous velocity, which is not small in a finite halo once G~ >~ G.",
-  "The gate is defined on canonical momenta, as in Debt 3a. W = exp(-s^2/2) matches #1's amplitude gate with v* = sqrt2 mu/m (or #6's form with v* = mu/m, flag 17). 3a's own gate normalization is unstated, so ratios against 3a carry an O(1) convention factor.",
+  "The gate is defined on canonical momenta, as in calc note #2. W = exp(-s^2/2) matches #1's amplitude gate with v* = sqrt2 mu/m (or #6's form with v* = mu/m, flag 17). 3a's own gate normalization is unstated, so ratios against 3a carry an O(1) convention factor.",
   "Growth rates were computed for the Gaussian gate only; the rational gate enters the static thresholds only.",
   "Environment inputs: dwarf and MW (rho, sigma) from 3a; cluster rho = 0.03 GeV/cm^3 from 3b's table; R0 = 8.2 kpc and v_c = 230 km/s from memory (†). Margins Q come from idealized profiles (isothermal core, SIS), and WKB fails at kR ~ 1.",
   "The argument-principle runs covered three cases at r = 1.29; the r = 4 case timed out. Travelling-mode searches used finite rectangles and coarse grids, so an unlocated faster travelling mode can be excluded only where winding counts were done (four MW parameter sets).",

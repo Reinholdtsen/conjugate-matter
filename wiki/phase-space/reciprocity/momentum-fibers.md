@@ -13,13 +13,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 4"
   - "papers/broken-born-checkpoint-v2.md App. A item 10"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §E"
+  - "notes/x-classification.md §4"
+  - "notes/x-classification.md §5"
+  - "notes/beta-coefficients.md §5"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §5.1"
@@ -132,7 +132,7 @@ The closed-universe note of 2026-10-27 draws a further consequence of the block 
 
 Under P2′ the generalized metric ranges over the values of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, whose imaginary part is the space-time metric, Im Z = g [D] (#11 §6), and the real part carries what is not slaved. Calc note #5 calls Re Z = X "the momentum graviton", "the local wobble of the emergent polarization, 'which way the x/p split points, here.'", and lists its roles as "momentum geometry and gate mediator (Re Z)" (§C). In this wiki's reading, X tilts the split between position directions and fiber directions from point to point. The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) states the division: "the baseline momentum-space geometry is slaved (g-tilde = g^-1, det H = 1), and any independent momentum-space geometry resides in the fluctuation X" (§1).
 
-Calc note #5 restates the lab notebook's first open problem in these terms: "Born's debt, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (§C). #11 §7 gives the program's answer, [Born's answer](/wiki/gravity/momentum-graviton/borns-answer): "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice". The [founding supposition](/wiki/program/founding-suppositions#10-momentum-space-has-its-own-gravity) "Momentum space has its own gravity" is recorded as "vindicated, transformed: dynamical, massive, reciprocity-odd (§7)" (#11 App. A item 10; bold dropped).
+Calc note #5 restates the lab notebook's first open problem in these terms: "The field-equation problem, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (§C). #11 §7 gives the program's answer, [Born's answer](/wiki/gravity/momentum-graviton/borns-answer): "momentum-space geometry is dynamical — a reciprocity-odd massive spin-2, its mass born of the polarization choice". The [founding supposition](/wiki/program/founding-suppositions#10-momentum-space-has-its-own-gravity) "Momentum space has its own gravity" is recorded as "vindicated, transformed: dynamical, massive, reciprocity-odd (§7)" (#11 App. A item 10; bold dropped).
 
 #13 adds that X "modifies the dual cone only at short range in momentum [D — §7 of the checkpoint]" (§1), and §6 that "dual-geometric effects are Yukawa-cut in momentum [D — checkpoint §7]". #11 §7 makes neither statement; flag 29 in `review/wiki-build-flags.md`, confirmed by the flags' audit, records that the momentum reading appears only among the chat-only results (`HANDOFF.md` §4). Beyond these one-line statements no document describes how X changes the geometry within one fiber, and none compares the program's momentum-space geometry in detail with Snyder's construction or with relative locality ([the program's own momentum-space geometry](/wiki/phase-space/reciprocity/curved-momentum-space#the-programs-own-momentum-space-geometry)).
 
@@ -148,11 +148,11 @@ Conjugate matter χ, one of the program's dark-matter candidates, is the "p-pola
 
 Calc note #6 derives the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), the factor that switches off χ's self-interaction at large relative velocity, from exchange of the massive X ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling):
 
-> "The relative-momentum dependence enters through the χ quanta's **intrinsic momentum-space extent**: p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap — the dual of how x-extended composites acquire form factors F(qR)." (`notes/debt1a-ii-X-classification.md` §4)
+> "The relative-momentum dependence enters through the χ quanta's **intrinsic momentum-space extent**: p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap — the dual of how x-extended composites acquire form factors F(qR)." (`notes/x-classification.md` §4)
 
 Integrating out the heavy X leaves a contact interaction, one that acts only where the particles meet, so the two quanta interact at one point of space-time. In this wiki's reading their overlap is then taken in the fiber over that point: a contact force acts where two waveforms overlap, and the gate acts only where their spectra overlap as well ([position and momentum exchanged](/wiki/dark-matter/conjugate-matter/gate-mechanism#position-and-momentum-exchanged)).
 
-In the lab notebook the width became a property of the χ quantum itself with the v0.4 addendum, which records #6: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'). #11 §8 writes the gate as F(k²/μ²), with k the incoming relative momentum of the pair, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]". The handoff lists "μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2), and calc note #8's close-out lists Debt 2 as "mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5).
+In the lab notebook the width became a property of the χ quantum itself with the v0.4 addendum, which records #6: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" (#1 'Addendum (v0.4)'). #11 §8 writes the gate as F(k²/μ²), with k the incoming relative momentum of the pair, "with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]". The handoff lists "μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2), and calc note #8's close-out lists the gate problem as "mechanism found (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/beta-coefficients.md` §5).
 
 The profile along the fiber decides the form of the gate. "Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate", but "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (#6 §4). The overlap form and the lab notebook's postulated e^{−k²/μ²} are written in different variables, and no source converts one into the other. Flag 17 in `review/wiki-build-flags.md` records a factor of √2 in μ between them, which its audit found to depend on how #6's form is read, and notes that no stated number changes ([two conventions, not reconciled](/wiki/dark-matter/conjugate-matter/velocity-gate#two-conventions-not-reconciled)).
 
@@ -205,9 +205,9 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §3 and refs [4]–[6] — the flat fibers as "an architectural assumption, not a measurement" and the curved-momentum lineage (all †); §5 — the compatibility theorem [T][V] and g̃ = g⁻¹ slaved; §6 — Im Z = g; §7 — Born's answer; §8 — μ as the fiber width; §14 item 4 — the X propagator on the fibers; App. A item 10 — "vindicated, transformed"
-- `notes/debt1a-geometric-core.md` §A — corollary 3, the slaved momentum metric; §B — the collision with the documented theory; §C — the vacuum slice, X as momentum geometry, Born's debt as the Re Z sector; §E — the dual stress, the gate shape as the X propagator on the fibers
-- `notes/debt1a-ii-X-classification.md` §4 — quanta extended on the fiber, exchange over the fiber overlap, Gaussian and rational gates; §5 — the Gaussian fiber profile and the metastring
-- `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2's mechanism paid with "μ = fiber width", shape open
+- `notes/geometric-core.md` §A — corollary 3, the slaved momentum metric; §B — the collision with the documented theory; §C — the vacuum slice, X as momentum geometry, the field-equation problem as the Re Z sector; §E — the dual stress, the gate shape as the X propagator on the fibers
+- `notes/x-classification.md` §4 — quanta extended on the fiber, exchange over the fiber overlap, Gaussian and rational gates; §5 — the Gaussian fiber profile and the metastring
+- `notes/beta-coefficients.md` §5 — the gate's mechanism found with "μ = fiber width", shape open
 - `notes/broken-born-theory.md` §2 — flat phase space ℝ²ᵈ; §3 — H split into g and g̃, the v0.1 gate through g̃; §11 item 6 — "g̃ curvature"; 'Addendum (v0.4)' — μ as the fiber width; §5.1 — v\* ≡ √2μ/m_χ
 - `notes/broken-born-program-v1.md` §1 — the flat fibers, tagged [T]
 - `notes/knot-dark-matter-standalone.md` §1 — independent momentum-space geometry resides in X (withdrawn manuscript)

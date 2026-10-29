@@ -17,7 +17,7 @@ sources:
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
-  - "notes/debt3a-stream-stability.md 'Setup'"
+  - "notes/stream-stability.md 'Setup'"
 ---
 
 *The equivalence principle is the statement that gravity acts on every body in the same way. In its weak form, the universality of free fall, a body released at a given place with a given velocity follows the same path whatever it is made of. In Einstein's form, a small enough freely falling laboratory is an inertial frame, one in which a body on which no force acts moves in a straight line at constant speed, and the laws of [special relativity](/wiki/conjugate-relativity/special-relativity) hold in it. Equivalently, a laboratory accelerating uniformly through empty space cannot be told apart from one held at rest in a uniform gravitational field. [General relativity](/wiki/gravity/spin-2-fields/general-relativity) builds the principle in by coupling all matter and energy to one spacetime metric. The program postulates it for both of its kinds of matter: [postulate P4](/wiki/program/postulates/p4-polarized-matter) couples ordinary matter and [conjugate matter χ](/wiki/dark-matter/conjugate-matter) to the same geometry, so χ falls, orbits and bends light like any other dark matter. Separately, the paper on [conjugate special relativity](/wiki/conjugate-relativity) (#13) reads the principle as the relativity principle of the momentum [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the part of position. That reading is a claim of the program, alive but unreviewed, with its own page: [the equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle).*
@@ -190,4 +190,4 @@ The program's documents cite no source for the equivalence principle. Added by t
 - `papers/conjugate-special-relativity.md` §5 — the dual-inertial class of free fall and Rindler frames, the dual principle of relativity as the equivalence principle [D — structural], and λ_χ as the resistance to force-change (conjecture-tier); §6 — the shared massless graviton, "so both polarizations fall identically".
 - `HANDOFF.md` §2 — #13's reading in the alive list, without a ✓; §4 — the chat-only two gravitational charges and the "dual equivalence principle" question.
 - `notes/broken-born-theory.md` §1 — the notebook's P4, "the equivalence principle holds across polarizations"; §3 — the Standard Model minimally coupled to g; §4 — χ "falls, orbits, and lenses like ordinary dark matter" [D] (superseded as reference).
-- `notes/debt3a-stream-stability.md` 'Setup' — the gravitational term mΦ_grav(x) in the single-particle energy of the gated Vlasov model.
+- `notes/stream-stability.md` 'Setup' — the gravitational term mΦ_grav(x) in the single-particle energy of the gated Vlasov model.

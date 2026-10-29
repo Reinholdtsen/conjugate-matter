@@ -19,7 +19,7 @@ model, and this note answers both.*
 
 Paul's question (2026-10-26): "I think the obituary is premature. Would momentum gravity look like a perturbation
 to regular gravity that depends on the relative velocity of two massive bodies?" The obituary is #11 §9, resting on
-the Debt-3 notes (#2–#4); the wiki records it at `dark-matter/momentum-clumping/founding-image`.
+the clumping notes (#2–#4); the wiki records it at `dark-matter/momentum-clumping/founding-image`.
 
 **Readings [assumption].**
 - "Momentum gravity" as the program defines it: the massive momentum graviton X of #11 §7, between ordinary
@@ -27,7 +27,7 @@ the Debt-3 notes (#2–#4); the wiki records it at `dark-matter/momentum-clumpin
 - "A perturbation that depends on relative velocity", acting between all bodies: a universal gated term, tested
   against the Solar System and binary pulsars (§3).
 - The same, acting only between dark-matter particles χ and at long range: a model the record does not contain,
-  which Debt 3 never tested (§§5–9). The strength is ε ≡ G̃/G.
+  which the clumping problem never tested (§§5–9). The strength is ε ≡ G̃/G.
 
 **Method** (run numbers as in the record, `review/momentum-gravity/README.md`; run 1 was lost to a memory
 exhaustion before any agent finished).
@@ -116,7 +116,7 @@ long-range attraction gated in relative velocity, is a different model, and the 
 obituary's own scope is narrower than "impossible": it shows that clumping is required nowhere.*
 
 **The program's interaction is contact-range** [D, record].
-- Debt 3a: "the x-range collapsed to contact (range 1/m_φ, microscopic)", and "the force is contact-range" is one
+- Calc note #2: "the x-range collapsed to contact (range 1/m_φ, microscopic)", and "the force is contact-range" is one
   of its robustness reasons.
 - The record's only relative-velocity gate is χ–χ scattering, σ_T(v) = σ₀F(v²/v*²) (#11 §8): a velocity-dependent
   self-interaction where χ distributions overlap, not a change to the 1/r law. χ gravity is ungated: "χ propagates
@@ -124,7 +124,7 @@ obituary's own scope is narrower than "impossible": it shows that clumping is re
 
 **The three branches** [D, record; reproduced].
 - Particle χ: the collective pull falls short of the instability threshold by 10²⁸–10³¹ (#11 §9). The wiki
-  build's recomputation from 3a's inputs (`review/wiki-build-checks/debt3a_check.py`) gives ratios of 3.9×10⁻²⁸
+  build's recomputation from 3a's inputs (`review/wiki-build-checks/stream_stability_check.py`) gives ratios of 3.9×10⁻²⁸
   in a dwarf core and 2.9×10⁻³¹ in the Milky Way. "10²⁸–10³¹" quotes their exponents; the shortfall factors are
   2.6×10²⁷ and 3.5×10³⁰. A linearized calculation gives 3.3×10⁻²⁸ and 8.7×10⁻³¹ [D, two verifiers].
 - Wave χ whose gate also makes dwarf cores (Scenario A): clumping is mandatory in ultra-faint dwarfs and would
@@ -133,7 +133,7 @@ obituary's own scope is narrower than "impossible": it shows that clumping is re
   so they predict nothing (#3).
 - So the obituary says velocity clumping is required nowhere. It does not say clumping cannot happen.
 
-**Debt 3a's criterion for narrow gates** [D][V] (flag 58).
+**Calc note #2's criterion for narrow gates** [D][V] (flag 58).
 - 3a writes the threshold as g·n_gate ≥ m·min(σ, v*)². Its substitution σ → v* is the threshold of a cold stream
   that already exists, not of a smooth halo.
 - Linearized, the threshold keeps the halo's dispersion: g·n·Λ_g ≥ m·σ², with Λ_g the gate's eigenvalue (§7).
@@ -393,7 +393,7 @@ wrong in the process.*
     small-scale-structure limits (the Lyman-α forest binds at v* = 120 km/s).
   - Partly right: clumping needs G̃/G ≳ (σ/v*)³, about 2 in the Milky Way and 580 in clusters. Executed: at least 28
     and at least 693 in the local model.
-  - Wrong: that Debt 3a's σ → v* substitution is generous to the instability. In the Milky Way it overstates the
+  - Wrong: that calc note #2's σ → v* substitution is generous to the instability. In the Milky Way it overstates the
     shortfall about 3×.
   - Weakest link: the O(1) factors were indeed the weak point, off by more than an order of magnitude in the Milky
     Way. Hubble-flow gating does not let the variant escape the cosmological bounds: the gate closes at a Hubble
@@ -422,7 +422,7 @@ wrong in the process.*
 ## Sources
 
 - #11 `papers/broken-born-checkpoint-v2.md` §§7–9, 12, 13; #1 `notes/broken-born-theory.md` §5.2; #2–#4
-  `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md`, `notes/debt3c-ufd-endpoint.md`; #13
+  `notes/stream-stability.md`, `notes/wave-island.md`, `notes/ufd-endpoint.md`; #13
   `papers/conjugate-special-relativity.md` §§2, 5; `papers/phase-space-diameter.md` §8.2; HANDOFF §4.
 - `review/momentum-gravity/`: the analyses, verdicts and critics' rulings, with the scripts named there.
 - Einstein, Infeld and Hoffmann 1938; Fierz–Pauli propagator [T].

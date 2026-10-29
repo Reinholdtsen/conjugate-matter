@@ -72,9 +72,9 @@ The derivation is the lab notebook's (#1 §6): with a the scale factor of positi
 
 Since ã = 1/a at every moment, the largest a is the smallest ã. Before the turnaround a grows and ã shrinks; after it, a shrinks and ã grows. Read in momentum variables, the turnaround is a contracting universe reaching a minimum and rebounding, which is a bounce. The lab notebook, tagged [D] (#1 §7 item 3):
 
-> "In BBT the same event, read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, [two descriptions] — now as a constraint identity rather than a metaphor. **[D]**"
+> "In BBT the same event, read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, two descriptions — now as a constraint identity rather than a metaphor. **[D]**"
 
-BBT is the notebook's name for the framework, Broken-Born Theory, and the brackets replace its "two ledgers". #11 §10: "The turnaround is the conjugate bounce by constraint identity." The bounce is not a second event caused by the first; it is the same event in the other description, as a pulse whose duration grows and then shrinks has its narrowest spectrum at the moment of its longest duration. The full argument is on [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce#the-identity-d), and the two-description reading in general on [the conjugate universe](/wiki/program/conjugate-universe#one-event-two-descriptions-the-turnaround).
+BBT is the notebook's name for the framework, Broken-Born Theory. #11 §10: "The turnaround is the conjugate bounce by constraint identity." The bounce is not a second event caused by the first; it is the same event in the other description, as a pulse whose duration grows and then shrinks has its narrowest spectrum at the moment of its longest duration. The full argument is on [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce#the-identity-d), and the two-description reading in general on [the conjugate universe](/wiki/program/conjugate-universe#one-event-two-descriptions-the-turnaround).
 
 The identity supplies no turnaround of its own. If a never reaches a maximum, there is no bounce to identify it with; everything turns on the sign of V(τ).
 
@@ -134,7 +134,7 @@ No observation bears on the turnaround directly. The cited fits prefer a future 
 
 ## Founding supposition 7
 
-#11's audit of Paul's founding suppositions records item 7, "Our expansion reverses at their bounce", as "**alive, corrected**: one event, [two descriptions]; live at DESI DR3" (#11 App. A item 7, with the brackets replacing "two ledgers"). The correction is the identity: the supposition as worded has two linked events, and the constraint makes them one. "Live at DESI DR3" refers to the proxy, row 4 ([founding suppositions](/wiki/program/founding-suppositions#7-our-expansion-reverses-at-their-bounce)).
+#11's audit of Paul's founding suppositions records item 7, "Our expansion reverses at their bounce", as "**alive, corrected**: one event, two descriptions; live at DESI DR3" (#11 App. A item 7). The correction is the identity: the supposition as worded has two linked events, and the constraint makes them one. "Live at DESI DR3" refers to the proxy, row 4 ([founding suppositions](/wiki/program/founding-suppositions#7-our-expansion-reverses-at-their-bounce)).
 
 The row is distinct from a dead neighbour. Founding supposition 9, "Their collapse is our acceleration", is "**dead twice**" (#11 App. A item 9): the conjugate side's collapse does not power our expansion ([Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)). Row 5 claims only that our future turnaround and the conjugate bounce are one event.
 

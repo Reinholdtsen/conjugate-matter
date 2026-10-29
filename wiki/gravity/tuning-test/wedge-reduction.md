@@ -11,15 +11,15 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.4"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
-  - "notes/debt1a-iii-tuning-test.md §1"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/beta-coefficients.md §5"
+  - "notes/tuning-test.md §1"
+  - "notes/tuning-test.md §3"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §10"
@@ -33,13 +33,13 @@ sources:
 
 *This open problem asks for the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) potential of the [momentum graviton X](/wiki/gravity/momentum-graviton) to be derived from the program's geometric action instead of being chosen. [The tuning test](/wiki/gravity/tuning-test) found that wedge polynomials of the symplectic vielbein E and the polarization frame E₀[J] form a ghost-free class ([the frame tier](/wiki/gravity/tuning-test/frame-tier)), and argued that this is the minimal way to couple the polarization to the geometry. That argument selects the class; it does not obtain it line by line from an action. The only geometric action written out, the [lab notebook](/wiki/history/documents/lab-notebook)'s [S_H](/wiki/gravity/tuning-test/geometric-action), predates the change of postulate that brought X into the theory. The problem is item 1 of the open problems in [checkpoint #11](/wiki/history/documents/checkpoint) §14 [O], and one of the three items, with [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison) and [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing), on which #11 makes the word "theory" wait. Nothing has been computed toward it, and it is not on the current work queue.*
 
-**Status:** Open — [O] — item 1 of #11 §14; also item (i) of the open residue in [calc note #8](/wiki/history/documents/debt-1-notes) §5 and the first half of open item 5 in `HANDOFF.md` §2; no derivation exists. Listed in [open problems and the queue](/wiki/status/open-problems).
+**Status:** Open — [O] — item 1 of #11 §14; also item (i) of the open residue in [calc note #8](/wiki/history/documents/field-equation-notes) §5 and the first half of open item 5 in `HANDOFF.md` §2; no derivation exists. Listed in [open problems and the queue](/wiki/status/open-problems).
 
 ## The open problem
 
 #11 §14 item 1, in full: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]."
 
-The item was first stated by calc note #8 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its close-out of [Debt 1](/wiki/history/debts): "**Debt 1: structurally paid.** Open residue, none of it existential: (i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line)" (#8 §5). The four other items of that residue became #11 §14 items 3, 6, 5 and 2.
+The item was first stated by calc note #8 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)), in its close-out of [the field-equation problem](/wiki/history/main-problems): "**The field-equation problem: solved in structure.** Open residue, none of it existential: (i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line)" (#8 §5). The four other items of that residue became #11 §14 items 3, 6, 5 and 2.
 
 "The frame-tier wedge sector" is the potential that gives X its mass, written as wedge polynomials of the two frames, (E, E₀[J]) ([the frame tier](/wiki/gravity/tuning-test/frame-tier)). "S_H" is the program's geometric action ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)). A first-principles reduction would start from the action and arrive at that potential, instead of selecting it.
 
@@ -72,7 +72,7 @@ Calc note #7 reached the frame tier in two steps of different kinds (#7 §3):
 
 ## History of the item
 
-- **Calc note #8 §5** lists it first in the open residue of Debt 1, and the lab notebook's v0.6 addendum repeats it: "Residual open items (none existential): first-principles wedge reduction from S_H; Lorentzian dressing; τ–Stückelberg mixing; dual-stress enhancement parametrics; literature check on the Λ = 0 observation" ([the lab notebook](/wiki/history/documents/lab-notebook)).
+- **Calc note #8 §5** lists it first in the open residue of the field-equation problem, and the lab notebook's v0.6 addendum repeats it: "Residual open items (none existential): first-principles wedge reduction from S_H; Lorentzian dressing; τ–Stückelberg mixing; dual-stress enhancement parametrics; literature check on the Λ = 0 observation" ([the lab notebook](/wiki/history/documents/lab-notebook)).
 - **The v1 program paper**, superseded by #11, makes it open problem 1 in nearly the same words as #8 (#9 §10 item 1), and makes "theory" wait on it and the Lorentzian dressing: "The word 'theory' awaits items 1–2 of §10" (#9 §11; [the checkpoint](/wiki/history/documents/checkpoint)).
 - **The handoff** pairs it with the Lorentzian dressing as open item 5: "First-principles wedge reduction from S_H; Lorentzian dressing of the Euclidean skeleton" (`HANDOFF.md` §2; [the handoff](/wiki/history/documents/handoff)).
 - **The standalone manuscript #14**, since withdrawn after its [round-3](/wiki/method/review/round-3) review for reasons unrelated to this item ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)), put the caveat to its referees: "That the symmetry-breaking sector lands on the ghost-free potential is argued from a first-order (vielbein) formulation and is a structural claim, not a line-by-line derivation" (#14 §1).
@@ -87,10 +87,10 @@ The handoff's ranked queue of next actions did not include the item (`HANDOFF.md
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §14 item 1 — the open problem [O], and the opening line of §14; §15 — "theory" waits on items 1–3; §2, §7.4 — the selection-versus-derivation bias; §7.1 — the one consistent structure for massive spin-2; §5 — S_H a functional of g alone under strict P2.
-- `notes/debt1a-iv-beta-coefficients.md` §5 — the open residue of Debt 1, "none of it existential".
-- `notes/debt1a-iii-tuning-test.md` §1, §3 — the η-selection sector; the frame-tier argument by minimality.
-- `notes/debt1a-ii-X-classification.md` §1, §3 — S_H built from (ω, H) gives X no potential; the health criterion.
-- `notes/debt1a-geometric-core.md` §B, §C, §D, §F — S_H under strict P2; the Re Z sector of S_H; the expansion posed and not completed; connection uniqueness for (ω, H).
+- `notes/beta-coefficients.md` §5 — the open residue of the field-equation problem, "none of it existential".
+- `notes/tuning-test.md` §1, §3 — the η-selection sector; the frame-tier argument by minimality.
+- `notes/x-classification.md` §1, §3 — S_H built from (ω, H) gives X no potential; the health criterion.
+- `notes/geometric-core.md` §B, §C, §D, §F — S_H under strict P2; the Re Z sector of S_H; the expansion posed and not completed; connection uniqueness for (ω, H).
 - `notes/broken-born-theory.md` §3 — S_H written with ω and η frozen; 'Addendum (v0.6)' — the residual open items.
 - `notes/broken-born-program-v1.md` §10, §11 — the v1 listing and "theory" awaiting items 1–2.
 - `notes/knot-dark-matter-standalone.md` §1 — the caveat as stated in the withdrawn manuscript.

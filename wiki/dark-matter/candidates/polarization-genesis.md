@@ -16,9 +16,9 @@ sources:
   - "notes/broken-born-theory.md §8"
   - "notes/broken-born-theory.md §11"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
-  - "notes/debt3b-wave-island.md 'Bonus: the relic debt closes itself'"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/wave-island.md 'Bonus: the relic-abundance problem solves itself'"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-program-v1.md §10"
   - "HANDOFF.md §2"
   - "CLAUDE.md 'Since the handoff'"
@@ -69,11 +69,11 @@ The sketch has no decay rates, no value for θ_pol and no number for the ratio, 
 
 ## An unreconciled dependence
 
-The sketch needs the nine heavy moduli to exist as fields and to decay. [Calc note #5](/wiki/history/documents/debt-1-notes), written later, counts them in the field content of the broken vacuum and expects most of them to disappear: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (`notes/debt1a-geometric-core.md` §D). [Inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints) are relations that make some would-be [Goldstone fields](/wiki/symmetry-breaking/goldstone-and-higgs) derivatives of others, removing them as independent fields [T]. #5 lists "(4) inverse-Higgs accounting of the nine heavy moduli" among the items "Now precisely open" (§F), and no later note returns to it. No document reconciles the sketch with #5's expectation ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content); [conflicts between sources](/wiki/history/documents/source-conflicts#dark-matter)).
+The sketch needs the nine heavy moduli to exist as fields and to decay. [Calc note #5](/wiki/history/documents/field-equation-notes), written later, counts them in the field content of the broken vacuum and expects most of them to disappear: "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (`notes/geometric-core.md` §D). [Inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints) are relations that make some would-be [Goldstone fields](/wiki/symmetry-breaking/goldstone-and-higgs) derivatives of others, removing them as independent fields [T]. #5 lists "(4) inverse-Higgs accounting of the nine heavy moduli" among the items "Now precisely open" (§F), and no later note returns to it. No document reconciles the sketch with #5's expectation ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content); [conflicts between sources](/wiki/history/documents/source-conflicts#dark-matter)).
 
 ## Scope: particle χ, wave χ and the X-condensate
 
-- **Wave χ.** Very light χ on [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) gets its abundance by misalignment, like an [axion](/wiki/cosmology/dark-energy/axion-like-fields#wave-χ-produced-like-an-axion). [Calc note 3b](/wiki/history/documents/debt-3-notes): "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism, and Ω_χ trades against (m, χᵢ) in the standard way. The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic" ('Bonus'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)). The notebook's addendum v0.2 records "open problems 3 and 5 close (5 via misalignment production on the wave island)". That closes the production channel on the wave island only; the ratio itself stays open. "Open problem #5" here is item 5 of the notebook's list, not item 5 of #11 §14, which is [the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
+- **Wave χ.** Very light χ on [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) gets its abundance by misalignment, like an [axion](/wiki/cosmology/dark-energy/axion-like-fields#wave-χ-produced-like-an-axion). [Calc note #3](/wiki/history/documents/clumping-notes): "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism, and Ω_χ trades against (m, χᵢ) in the standard way. The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic" ('Bonus'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)). The notebook's addendum v0.2 records "open problems 3 and 5 close (5 via misalignment production on the wave island)". That closes the production channel on the wave island only; the ratio itself stays open. "Open problem #5" here is item 5 of the notebook's list, not item 5 of #11 §14, which is [the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement).
 - **Particle χ.** The freeze-out argument above applies, and no mechanism is known.
 - **The X-condensate.** No document discusses how it would be produced. #11 §12 applies the ratio question to it as to χ.
 
@@ -82,7 +82,7 @@ The sketch needs the nine heavy moduli to exist as fields and to decay. [Calc no
 ## History
 
 - **The lab notebook (v0.1).** §5.3 states the problem and §8 the sketch. Its list of open problems, "in order of severity", ranks "**Polarization-genesis** mechanism for 5.4 : 1. **[O]**" fourth and makes the fifth depend on it: "**Relic abundance** without cannibalism: needs the asymmetric mechanism of (4). **[O]**" (#1 §11).
-- **[Debt 3](/wiki/history/debts) (addendum v0.2).** The relic-abundance item closes on the wave island; polarization-genesis does not.
+- **[The clumping problem](/wiki/history/main-problems) (addendum v0.2).** The relic-abundance item closes on the wave island; polarization-genesis does not.
 - **#9.** Open problem 6: "Polarization-genesis: the 5.4 : 1 ratio Ω_χ : Ω_b — the program's baryogenesis analog [O]" (#9 §10).
 - **The handoff.** Open item 7, "Polarization-genesis (the Ω_DM:Ω_b = 5.4:1 ratio)" (`HANDOFF.md` §2).
 - **#11.** §14 item 7, and §12's statement that it applies to both remaining candidates.
@@ -96,8 +96,8 @@ The notebook's "the same maturity baryogenesis had in 1966" is not checked again
 
 - `papers/broken-born-checkpoint-v2.md` §14 item 7 — the open problem; §12 — it applies to both candidates; §8 — the benchmark; §4 — P4, strict since v2.1
 - `notes/broken-born-theory.md` §5.3 — why freeze-out fails; §8 — the sketch; §11 — items 4 and 5 of the notebook's open problems; §2 — the dimension of Λ(4) and the nine heavy directions [P]; §5.1 — the benchmark; §1 — P5, "x-tilted"; 'Addendum (v0.2)' — the wave-island closure
-- `notes/debt3b-wave-island.md` 'Bonus: the relic debt closes itself' — misalignment on the wave island; the ratio remains
-- `notes/debt1a-geometric-core.md` §D — the nine moduli, likely eliminated; §F item 4 — "inverse-Higgs accounting of the nine heavy moduli", open
+- `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself' — misalignment on the wave island; the ratio remains
+- `notes/geometric-core.md` §D — the nine moduli, likely eliminated; §F item 4 — "inverse-Higgs accounting of the nine heavy moduli", open
 - `notes/broken-born-program-v1.md` §10 — "the program's baryogenesis analog"
 - `HANDOFF.md` §2 — open item 7
 - `CLAUDE.md` 'Since the handoff' — the current queue

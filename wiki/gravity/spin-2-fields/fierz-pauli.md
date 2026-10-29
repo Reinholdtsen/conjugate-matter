@@ -5,13 +5,13 @@ status: established
 description: "The unique healthy linear mass term for spin-2, why its weight is special, the ghost that generic nonlinear completions revive, and how the program's metric-built potential misses the Fierz–Pauli weight (battery test T4); the signature obstruction, which keeps its kinetic term gauge-invariant, in summary."
 provenance: [T]
 sources:
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iii-tuning-test.md §1"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/tuning-test.md §1"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §5"
+  - "notes/beta-coefficients.md §3"
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §7.2"
@@ -27,7 +27,7 @@ sources:
 
 *The Fierz–Pauli mass term is the only mass term that gives a free spin-2 field a mass without a [ghost](/wiki/gravity/spin-2-fields/ghosts), a mode whose energy has the wrong sign. In matrix notation it is proportional to Tr(h²) − (Tr h)², where h is the field; any other relative weight of the two terms lets an extra mode propagate, and that mode is a ghost. When the theory is made nonlinear, a generic completion brings the extra mode back, the Boulware–Deser ghost, and keeping it out takes the special [de Rham–Gabadadze–Tolley (dRGT)](/wiki/gravity/spin-2-fields/drgt-massive-gravity) and [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potentials. A related standard fact, [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction), says that a ghost-free two-derivative kinetic term for a symmetric tensor field must have the gauge symmetry of the massless graviton; the Fierz–Pauli theory keeps that kinetic term and breaks the symmetry only through its mass term. The program uses all three facts to decide what its second field, the [momentum graviton X](/wiki/gravity/momentum-graviton), can be. Its [tuning test](/wiki/gravity/tuning-test) checks X's mass term against the Fierz–Pauli form, and the version built from metrics fails that check.*
 
-**Status:** Established — [T] — textbook massive-gravity theory, with the signature obstruction tagged "[T — standard]" in [#6](/wiki/history/documents/debt-1-notes) §2. The program's documents cite no source for the Fierz–Pauli term or the Boulware–Deser ghost; the references below are added from model memory (†). The program's comparison of its own mass term with the Fierz–Pauli form is machine-checked as battery test T4 [V], which passes in the current [gate run](/wiki/method/verification/the-gate) ([the verification battery](/wiki/method/verification/battery)).
+**Status:** Established — [T] — textbook massive-gravity theory, with the signature obstruction tagged "[T — standard]" in [#6](/wiki/history/documents/field-equation-notes) §2. The program's documents cite no source for the Fierz–Pauli term or the Boulware–Deser ghost; the references below are added from model memory (†). The program's comparison of its own mass term with the Fierz–Pauli form is machine-checked as battery test T4 [V], which passes in the current [gate run](/wiki/method/verification/the-gate) ([the verification battery](/wiki/method/verification/battery)).
 
 ## A mass for a spin-2 field [T]
 
@@ -127,12 +127,12 @@ The program's documents cite no source for the Fierz–Pauli term, the Boulware�
 
 ## Sources
 
-- `notes/debt1a-ii-X-classification.md` §2, §3 — the signature obstruction; the five polarizations; the one known consistent structure and the Boulware–Deser criterion; the Lorentzian caveat.
-- `notes/debt1a-iii-tuning-test.md` §1, §2, §3, §5 — the test's question; the missing trace term and the second invariant; Fierz–Pauli automatic in frame variables; the name "signature obstruction".
+- `notes/x-classification.md` §2, §3 — the signature obstruction; the five polarizations; the one known consistent structure and the Boulware–Deser criterion; the Lorentzian caveat.
+- `notes/tuning-test.md` §1, §2, §3, §5 — the test's question; the missing trace term and the second invariant; Fierz–Pauli automatic in frame variables; the name "signature obstruction".
 - `papers/broken-born-checkpoint-v2.md` §2, §7.1, §7.2, §7.5 — the T4 description; the exclusion of an ungauged X; the metric-tier failure and the "66.58-vs-63.72" pointer to §2, where the numbers do not appear; M_X.
 - `verify/battery.py` T4 — the printed comparison, 66.5770 against 63.7221, and the parity check.
 - `HANDOFF.md` §2, §5 — the failure marked ✓; "66.58 vs 63.72 at seed 0".
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the Fierz–Pauli mass combination after the palindrome.
+- `notes/beta-coefficients.md` §3 — the Fierz–Pauli mass combination after the palindrome.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)', 'Addendum (v0.5)' — the two exclusions; the tuning test's verdict as first recorded.
 - `review/wiki-build-flags.md` item 4 — the suspected missing −h² in #7's expansion of S; item 5 — M_X versus M_X²; item 36 — where the figures 66.58 and 63.72 are printed. All await Paul's ruling.
 - `review/wiki-build-checks/s_expansion.py` and `review/wiki-build-checks/s_expansion.out` — the expansion of S checked to second order.

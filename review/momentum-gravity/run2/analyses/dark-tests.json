@@ -389,7 +389,7 @@
      "quantity": "internal <W>, sigma=10 and 155 km/s, v*=120",
      "value": "0.9795, 0.1107",
      "script": "satellites.py",
-     "printed_output": "sigma=  10.0 classical dSph (dagger)   v*=120: gauss 0.9795 rational 0.9799 | ... sigma= 155.0 Debt-3a MW halo           v*=120: gauss 0.1107 rational 0.2550"
+     "printed_output": "sigma=  10.0 classical dSph (dagger)   v*=120: gauss 0.9795 rational 0.9799 | ... sigma= 155.0 #2 MW halo                v*=120: gauss 0.1107 rational 0.2550"
     }
    ]
   },

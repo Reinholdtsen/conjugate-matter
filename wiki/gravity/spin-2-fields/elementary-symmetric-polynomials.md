@@ -10,11 +10,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.3"
   - "verify/battery.py T6"
   - "verify/battery.py T7"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §3"
+  - "notes/tuning-test.md §2"
+  - "notes/x-classification.md §3"
   - "HANDOFF.md §5"
   - "HANDOFF.md Appendix A"
   - "review/wiki-build-flags.md item 14"
@@ -22,7 +22,7 @@ sources:
 
 *The elementary symmetric polynomials of a list of numbers are the sums of all products of distinct entries taken n at a time: e₁ is the sum, e₂ the sum of all pairwise products, and so on up to the product of all the entries, with e₀ = 1. Applied to the eigenvalues of the matrix √(g⁻¹f), built from the two metrics of [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), they are the building blocks of the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) bimetric potential, which is a linear combination of them with constant coefficients. Power sums beyond the first, such as p₄, the sum of fourth powers, can be written in terms of the eₙ by Newton's identities, but only as nonlinear polynomials, so they lie outside that family. The program's [verification battery](/wiki/method/verification/battery) checks two facts of this algebra: the linear coefficients of the eₙ near the identity matrix, which give the tadpole of the program's potential (test T6), and that p₄ is not a linear combination of the eₙ (test T7).*
 
-**Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded [gate run](/wiki/method/verification/the-gate) ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the [metric-tier](/wiki/gravity/tuning-test/metric-tier-failures) structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of [calc note #7](/wiki/history/documents/debt-1-notes), not on the test.
+**Status:** Established — [T] for the algebra; [V] for battery tests T6 and T7, which pass in the last recorded [gate run](/wiki/method/verification/the-gate) ([the verification battery](/wiki/method/verification/battery)). T7 tests the power sum p₄ alone, numerically. The statement that the [metric-tier](/wiki/gravity/tuning-test/metric-tier-failures) structure Tr(g²) + Tr(g⁻²) lies outside the family rests on the derivation [D] of [calc note #7](/wiki/history/documents/field-equation-notes), not on the test.
 
 ## Definition
 
@@ -56,7 +56,7 @@ det(1 + tM) = Σₙ eₙ(M) tⁿ          e₁(M) = Tr M,    e_d(M) = det M
 
 So the eₙ(M) are, up to sign, the coefficients of the characteristic polynomial of M. They can be computed from the entries of M without finding its eigenvalues, and they do not change when M is replaced by a similar matrix S·M·S⁻¹ [T].
 
-The program works in four spacetime dimensions, so the matrix 𝕏 of the bimetric potential (below) is 4 × 4 and there are five polynomials, e₀ to e₄, one for each of the five coefficients β₀ to β₄ of the bimetric potential ([#8](/wiki/history/documents/debt-1-notes) §1, §3). The function `en` in `verify/battery.py` computes eₙ of a list of eigenvalues as defined above: a sum over all n-element combinations, with e₀ = 1.
+The program works in four spacetime dimensions, so the matrix 𝕏 of the bimetric potential (below) is 4 × 4 and there are five polynomials, e₀ to e₄, one for each of the five coefficients β₀ to β₄ of the bimetric potential ([#8](/wiki/history/documents/field-equation-notes) §1, §3). The function `en` in `verify/battery.py` computes eₙ of a list of eigenvalues as defined above: a sum over all n-element combinations, with e₀ = 1.
 
 ### Binomial coefficients
 
@@ -72,7 +72,7 @@ pₖ − e₁pₖ₋₁ + e₂pₖ₋₂ − … + (−1)^(k−1) eₖ₋₁p₁
 
 The first identity gives p₁ = e₁. Each later one gives pₖ in terms of e₁, …, eₖ and the lower power sums, and substituting the lower ones back in writes pₖ as a polynomial in the eₙ alone. From k = 2 on, that polynomial contains the power e₁ᵏ, a product of eₙ. Because the representation is unique, pₖ for k ≥ 2 has no other form that is a linear combination of the eₙ with constant coefficients [T].
 
-This is the algebra behind a statement of [calc note #7](/wiki/history/documents/debt-1-notes): "Tr(g²) = p₄ of the square-root eigenvalues is a *nonlinear* polynomial in the eₙ, hence outside the family" (#7 §2; on which square root is meant, see flag 14 in `review/wiki-build-flags.md`).
+This is the algebra behind a statement of [calc note #7](/wiki/history/documents/field-equation-notes): "Tr(g²) = p₄ of the square-root eigenvalues is a *nonlinear* polynomial in the eₙ, hence outside the family" (#7 §2; on which square root is meant, see flag 14 in `review/wiki-build-flags.md`).
 
 ## The ghost-free bimetric potential is linear in the eₙ
 
@@ -179,8 +179,8 @@ The checkpoint states the metric-tier failure as "nonlinear structure Tr(g²) + 
 - `papers/broken-born-checkpoint-v2.md` §2 — the battery's Tier-1 list: "the binomial linearization coefficients" and "rms residual 3.29".
 - `papers/broken-born-checkpoint-v2.md` §7.2, §7.3 — Tr(g²) + Tr(g⁻²) "provably outside the linear-in-eₙ span (T7)"; T used without a definition.
 - `verify/battery.py` T6, T7 — the function `en`, the two tests, their tolerances and the printed output.
-- `notes/debt1a-iv-beta-coefficients.md` §1, §2, §3 — the potential and its exchange identity; eₙ(1) = C(4, n), the linearization and the tadpole; the five βₙ.
-- `notes/debt1a-iii-tuning-test.md` §2 — linearity of the ghost-free family; p₄ as a nonlinear polynomial in the eₙ; the Euclidean skeleton.
-- `notes/debt1a-ii-X-classification.md` §3 — a generic potential reintroduces the Boulware–Deser ghost.
+- `notes/beta-coefficients.md` §1, §2, §3 — the potential and its exchange identity; eₙ(1) = C(4, n), the linearization and the tadpole; the five βₙ.
+- `notes/tuning-test.md` §2 — linearity of the ghost-free family; p₄ as a nonlinear polynomial in the eₙ; the Euclidean skeleton.
+- `notes/x-classification.md` §3 — a generic potential reintroduces the Boulware–Deser ghost.
 - `HANDOFF.md` §5, Appendix A — the descriptions of T6 and T7 and their expected output.
 - `review/wiki-build-flags.md` item 14 — which square root's eigenvalues give Tr(g²); awaiting Paul's ruling.

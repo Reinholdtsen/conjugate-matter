@@ -31,7 +31,7 @@ sources:
   - "notes/broken-born-theory.md §5.3"
   - "notes/broken-born-theory.md §11"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
-  - "notes/debt3b-wave-island.md 'Bonus: the relic debt closes itself'"
+  - "notes/wave-island.md 'Bonus: the relic-abundance problem solves itself'"
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md §6"
   - "notes/knot-dark-matter-standalone.md 'References'"
@@ -163,7 +163,7 @@ The lab notebook excludes thermal freeze-out for the program's dark-matter parti
 The argument has three consequences in the record.
 
 - **An asymmetry is needed.** The notebook's open problem 5 is "Relic abundance without cannibalism: needs the asymmetric mechanism of (4). [O]", item 4 being polarization-genesis (#1 §11). #11 carries the ratio as §14 item 7, "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]", and states that "The 5.4 : 1 abundance question (polarization-genesis) applies to both" candidates (§12) ([Open: polarization-genesis and the 5.4 : 1 ratio (OP7)](/wiki/dark-matter/candidates/polarization-genesis); [asymmetric dark matter](/wiki/dark-matter/candidates/relic-abundance#asymmetric-dark-matter-and-the-sakharov-conditions-t)).
-- **The wave island escapes it.** Very light χ, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), is a coherent field produced by [misalignment](/wiki/dark-matter/wave-dark-matter/misalignment-mechanism), and a field that is never in thermal equilibrium does not freeze out [T]. [Debt 3](/wiki/history/debts) recorded: "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism", while "The 5.4:1 question remains" (`notes/debt3b-wave-island.md`, 'Bonus'). The notebook's addendum v0.2 records the closure: "open problems 3 and 5 close (5 via misalignment production on the wave island)" ([relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)).
+- **The wave island escapes it.** Very light χ, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), is a coherent field produced by [misalignment](/wiki/dark-matter/wave-dark-matter/misalignment-mechanism), and a field that is never in thermal equilibrium does not freeze out [T]. [The clumping problem](/wiki/history/main-problems) recorded: "Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism", while "The 5.4:1 question remains" (`notes/wave-island.md`, 'Bonus'). The notebook's addendum v0.2 records the closure: "open problems 3 and 5 close (5 via misalignment production on the wave island)" ([relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)).
 - **The candidate is particle χ.** The χ candidate of #11 §12, whose knee has a "sharp tail", is the particle kind ([particle χ and wave χ](/wiki/dark-matter/candidates/chi-particles#particle-χ-and-wave-χ)), on the [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem). The record applies no misalignment there, and on this wiki's reading the notebook's argument still applies.
 
 ### Row 7: the relic the searches expect
@@ -219,5 +219,5 @@ Added by the wiki from model memory (†):
 - `review/v3-worklog.md` 'New open items' (O1) — the predecessor's anchor value 0.108, "Computed at ξ = 1 only"; 'v3 as drafted (2026-10-19)' — Kolb and Turner not live-checked
 - `HANDOFF.md` §2 — open item 2, the √N floor; §8 — queue item 3, the "√N-floor freeze-out estimate"
 - `notes/broken-born-theory.md` §5.3 — why particle χ cannot freeze out [O]; §11 — open problems 4 and 5; 'Addendum (v0.2)' — open problem 5 closed on the wave island
-- `notes/debt3b-wave-island.md` 'Bonus: the relic debt closes itself' — misalignment on the wave island
+- `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself' — misalignment on the wave island
 - `notes/knot-dark-matter-standalone.md` §3 — the W′ and ψ freeze-out, the MeV lower edge, the strong-coupling calculation left open; §6 — acceptance criterion 3; 'References' [17] — Kolb and Turner

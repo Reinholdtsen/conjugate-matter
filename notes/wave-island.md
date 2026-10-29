@@ -1,4 +1,4 @@
-# Debt 3, Chunk B: Gated condensation on the wave island
+# The clumping problem, Chunk B: Gated condensation on the wave island
 
 *Working note. Status: rate derived, environments evaluated, verdict reached. Coefficients heuristic at O(1)–O(10) level; calibration against Levkov–Panin–Tkachev (LPT) numerics is a flagged to-do.*
 
@@ -39,17 +39,17 @@ $$
 
 **Scenario B — cores come from elsewhere** (fuzzy-end quantum pressure at $m \sim 10^{-22}$ eV, or baryonic feedback), leaving $g$ free. Writing $X \equiv gn/(m\sigma^2)$ (the Chunk-A mean-field parameter, with $X < 1$ required so halos aren't modulationally unstable), the stream condition $\Gamma_{\rm self} \geq \Omega$ becomes $X \geq \sqrt{\Omega\sigma^2/(c\,m\,v_*^4)}$. MW numbers, $m = 0.1$ meV: window $X \in [5\times10^{-11},\,1]$ — ten orders of magnitude. **Verdict B: streams are *tunable*, not mandatory.** In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag.
 
-## Bonus: the relic debt closes itself
+## Bonus: the relic-abundance problem solves itself
 
 A field this light with only gravitational + self couplings is produced by misalignment, like an axion. Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism, and $\Omega_\chi$ trades against $(m, \chi_i)$ in the standard way. The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic.
 
 ## Standing results after Chunks A+B
 
 - Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional.
-- Wave island: collective phenomena live but tunable, except Scenario A's mandatory UFD signature; cliff softens to $(v_*/\sigma)^4$; relic debt resolved by misalignment.
+- Wave island: collective phenomena live but tunable, except Scenario A's mandatory UFD signature; cliff softens to $(v_*/\sigma)^4$; the relic-abundance problem resolved by misalignment.
 - Row 3 as written (Gaia/GD-1 granularity in MW-like halos) is dead on both islands as a *mandatory* signature. The predictions table needs revision (pending).
 
 ## Next
 
-**Chunk 3c** (small): UFD endpoint — condensate growth vs. $M_{\rm crit}$, survival constraints, turn Scenario A into a pass/fail against known ultra-faints. Completes Debt 3.
-**Then Chunk 1a** (large): linearize $S_H$ on the broken vacuum; leaning on the known linearized-DFT spectrum, identify propagating modes and check quadratic-order ghost freedom. Born's debt, first installment.
+**Chunk 3c** (small): UFD endpoint — condensate growth vs. $M_{\rm crit}$, survival constraints, turn Scenario A into a pass/fail against known ultra-faints. Completes the clumping problem.
+**Then Chunk 1a** (large): linearize $S_H$ on the broken vacuum; leaning on the known linearized-DFT spectrum, identify propagating modes and check quadratic-order ghost freedom. The field-equation problem, first step.

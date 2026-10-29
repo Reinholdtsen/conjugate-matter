@@ -1,4 +1,4 @@
-# Debt 3, Chunk A: Linear stability of the conjugate sector's velocity-space fragmentation
+# The clumping problem, Chunk A: Linear stability of the conjugate sector's velocity-space fragmentation
 
 *Working note. Status: calculation complete. Result: negative on the particle island, with a structural corollary.*
 
@@ -43,7 +43,7 @@ Unified criterion: $\varepsilon_{\rm gate} \gtrsim m\cdot\min(\sigma, v_*)^2$.
 
 ## Numbers at the scattering benchmark
 
-The dwarf-core fit fixes $\sigma_0/m = 30\ \mathrm{cm^2/g}$, hence $g$ is *spent* — no freedom remains. With $m_\chi = 70$ MeV, $v_* = 120$ km/s:
+The dwarf-core fit fixes $\sigma_0/m = 30\ \mathrm{cm^2/g}$, hence $g$ is *determined* — no freedom remains. With $m_\chi = 70$ MeV, $v_* = 120$ km/s:
 
 | System | $\varepsilon_{\rm gate}$ (GeV) | $m\cdot\min(\sigma,v_*)^2$ (GeV) | Ratio |
 |---|---|---|---|

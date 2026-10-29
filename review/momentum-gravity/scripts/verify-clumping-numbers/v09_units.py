@@ -33,7 +33,7 @@ for env, G_, ref in [('MW', 0.44210, 'gt=56.14'), ('MW', 0.56618, 'gt=280.7'), (
     te = tff / G_
     print(f"  {env:7s} {ref:16s}: Gamma={G_} -> t_e={te:.1f} Myr, t_e/t_orb(219)={te/torb:.3f}, t_e/t_cross={te/tcr:.3f}")
 
-print("\nC6: Debt 3a inputs and shortfalls")
+print("\nC6: calc note #2 inputs and shortfalls")
 m_g = m_GeV * GeV_kg * 1e3                 # grams
 sigma0 = 30.0 * m_g                        # cm^2
 GeVm2_cm2 = (hbar_c_GeVm * 100) ** 2

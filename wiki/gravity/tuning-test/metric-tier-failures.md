@@ -9,16 +9,16 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §5"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §5"
   - "verify/battery.py T4"
   - "verify/battery.py T7"
   - "HANDOFF.md §5"
   - "HANDOFF.md §2"
   - "HANDOFF.md Appendix A"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §5"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §5"
   - "popsci/angle-of-the-mirror.md 'The method is the message'"
@@ -26,13 +26,13 @@ sources:
   - "review/wiki-build-checks/sqrt_eig_check.out"
 ---
 
-*The metric tier is the naive way, in [calc note #7](/wiki/history/documents/debt-1-notes)'s word, of writing the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton): as a function of metric-level, second-order quantities, the blocks of the [misalignment potential](/wiki/gravity/tuning-test/misalignment-potential). It fails the [ghost-freedom](/wiki/gravity/spin-2-fields/ghosts#how-ghost-freedom-is-checked-t) test in two independent ways. At quadratic order the natural potential gives the metric fluctuation h a mass term proportional to Tr(h²) without the −(Tr h)² term that the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) form requires. Beyond quadratic order it contains Tr(g²), which is not a linear combination of the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) from which every ghost-free [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential is built. Either failure lets the Boulware–Deser ghost, an extra mode with negative kinetic energy, propagate [T]. Calc note #7 calls the result a "theorem-grade negative", and tests T4 and T7 of [the verification battery](/wiki/method/verification/battery) check both failures by machine. The way out was a change of variables, to [the frame tier](/wiki/gravity/tuning-test/frame-tier).*
+*The metric tier is the naive way, in [calc note #7](/wiki/history/documents/field-equation-notes)'s word, of writing the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton): as a function of metric-level, second-order quantities, the blocks of the [misalignment potential](/wiki/gravity/tuning-test/misalignment-potential). It fails the [ghost-freedom](/wiki/gravity/spin-2-fields/ghosts#how-ghost-freedom-is-checked-t) test in two independent ways. At quadratic order the natural potential gives the metric fluctuation h a mass term proportional to Tr(h²) without the −(Tr h)² term that the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) form requires. Beyond quadratic order it contains Tr(g²), which is not a linear combination of the [elementary symmetric polynomials](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) from which every ghost-free [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) potential is built. Either failure lets the Boulware–Deser ghost, an extra mode with negative kinetic energy, propagate [T]. Calc note #7 calls the result a "theorem-grade negative", and tests T4 and T7 of [the verification battery](/wiki/method/verification/battery) check both failures by machine. The way out was a change of variables, to [the frame tier](/wiki/gravity/tuning-test/frame-tier).*
 
 **Status:** Alive, as a [negative result](/wiki/method/negative-results) — [D — rigorous] in calc note #7 §2, which calls it "theorem-grade"; [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2 — battery tests T4 and T7 pass ([the verification battery](/wiki/method/verification/battery)); the second invariant, and #11's "provably" for the full structure Tr(g²) + Tr(g⁻²), rest on the derivation [D] alone.
 
 ## The claim
 
-Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) heads its §2 "Explicit computation, metric tier [D — rigorous]" and closes it:
+Calc note #7 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) heads its §2 "Explicit computation, metric tier [D — rigorous]" and closes it:
 
 > **Every metric-tier (second-order, H-coupled) misalignment invariant tested lands off the tuning.** This half of the test is a theorem-grade negative: the naive implementation of η-selection has the Boulware–Deser ghost.
 
@@ -138,11 +138,11 @@ Before the test, calc note #6 had set out what a failure would mean: "Fail ⇒ t
 
 ## Sources
 
-- `notes/debt1a-iii-tuning-test.md` §2 — both failures and the second invariant [D — rigorous], and the verdict on the metric tier; §3 — "a *tier change*" and the order of the tiers; §5 — "the failure mode is exhibited explicitly".
+- `notes/tuning-test.md` §2 — both failures and the second invariant [D — rigorous], and the verdict on the metric tier; §3 — "a *tier change*" and the order of the tiers; §5 — "the failure mode is exhibited explicitly".
 - `papers/broken-born-checkpoint-v2.md` §7.2 — the current statement [D][V], "the 66.58-vs-63.72 test of §2" and "provably outside"; §2 — the Tier-1 descriptions of T4 and T7 and "rms residual 3.29"; §5, §6 — K = η⁻¹ω; Y = Im Z = g.
 - `verify/battery.py` T4, T7 — the machine checks, their thresholds and their parity checks against the quoted figures.
 - `HANDOFF.md` §5 — the battery summary, "66.58 vs 63.72 at seed 0" and "lstsq rms ≈ 3.29"; §2 — the failures with check marks; Appendix A — the battery code and expected output.
-- `notes/debt1a-ii-X-classification.md` §3, §5 — five polarizations; what a failure would mean.
+- `notes/x-classification.md` §3, §5 — five polarizations; what a failure would mean.
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the notebook's account.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement.
 - `popsci/angle-of-the-mirror.md` 'The method is the message' — the popular description of the battery.

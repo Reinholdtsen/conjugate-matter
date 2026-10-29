@@ -13,10 +13,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md refs [10]–[12], [22], [24], [25]"
   - "review/round3/referee/audit-notes.md Step 1"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §4"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §3"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §4"
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md ref [3]"
   - "HANDOFF.md §2"
@@ -25,7 +25,7 @@ sources:
 
 *Hassan–Rosen bimetric gravity is a theory of two dynamical metrics, g and f, each with its own Einstein–Hilbert term, coupled through a potential that keeps the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t) out. The potential is a sum of five terms with constant coefficients β₀ to β₄, the n-th term built from the [elementary symmetric polynomial](/wiki/gravity/spin-2-fields/elementary-symmetric-polynomials) eₙ of the matrix √(g⁻¹f). An identity of these polynomials makes the exchange of the two metrics reverse the order of the terms, so the list of coefficients is read backwards. About proportional backgrounds the theory has one massless and one massive spin-2 field. The program's geometric sector, the home of its [momentum graviton X](/wiki/gravity/momentum-graviton), lands in this theory with the second frame confined to a compact space, and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), acting as the exchange of the two frames, then forces the list of coefficients to read the same in both directions, [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome).*
 
-**Status:** Established — [T] — cited in the [checkpoint](/wiki/history/documents/checkpoint) as [10†, 11†], from model memory. The same two papers, as reference [3] of the withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate), were resolved on INSPIRE in the [round-3 audit](/wiki/method/review/round-3/rulings), which found that they support "ghost-free (bi)metric structure" (`review/round3/referee/audit-notes.md` Step 1). Calc note [#8](/wiki/history/documents/debt-1-notes) §1 writes the potential and the exchange identity under its [D] heading; both are literature, and what the note derives from them is the palindrome. Nothing on this page is machine-checked; battery test T7, which checks numerically that the power sum p₄ lies outside the linear span of the eₙ, is on [the verification battery](/wiki/method/verification/battery).
+**Status:** Established — [T] — cited in the [checkpoint](/wiki/history/documents/checkpoint) as [10†, 11†], from model memory. The same two papers, as reference [3] of the withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate), were resolved on INSPIRE in the [round-3 audit](/wiki/method/review/round-3/rulings), which found that they support "ghost-free (bi)metric structure" (`review/round3/referee/audit-notes.md` Step 1). Calc note [#8](/wiki/history/documents/field-equation-notes) §1 writes the potential and the exchange identity under its [D] heading; both are literature, and what the note derives from them is the palindrome. Nothing on this page is machine-checked; battery test T7, which checks numerically that the power sum p₄ lies outside the linear span of the eₙ, is on [the verification battery](/wiki/method/verification/battery).
 
 ## From one dynamical metric to two [T]
 
@@ -139,8 +139,8 @@ Added by the wiki from model memory (†):
 
 - `papers/broken-born-checkpoint-v2.md` §1, §7, §7.1, §7.3, §7.4, §7.5, refs [10]–[12], [22], [24], [25] — the abstract's identification; the consistent structure for massive spin-2; the palindrome's tags; the interchange-symmetric choice in the literature; the spectrum; the citations, marked † or [S].
 - `review/round3/referee/audit-notes.md` Step 1 — the audit of #14's reference [3], the same two Hassan–Rosen papers, and of its reference [4].
-- `notes/debt1a-iv-beta-coefficients.md` §1, §3 — the potential, the exchange identity, reciprocity as frame exchange and the palindrome; the parameter count and the even and odd eigenstates.
-- `notes/debt1a-iii-tuning-test.md` §2, §4 — linearity in the eₙ; the standard bimetric facts; the constrained picture.
+- `notes/beta-coefficients.md` §1, §3 — the potential, the exchange identity, reciprocity as frame exchange and the palindrome; the parameter count and the even and odd eigenstates.
+- `notes/tuning-test.md` §2, §4 — linearity in the eₙ; the standard bimetric facts; the constrained picture.
 - `notes/knot-dark-matter-standalone.md` §1, ref [3] — the instabilities of bimetric cosmological branches and the equal-Planck-mass condition; #14's citation of the two papers (manuscript withdrawn for unrelated arithmetic).
 - `HANDOFF.md` §2 — the geometric sector as interchange-symmetric Hassan–Rosen bimetric gravity with the second frame confined to Λ(4).
 - `review/wiki-build-flags.md` items 8, 9 — item 8: "five-function" for five constant coefficients; item 9: reference [24][S], with no authors and a title that may be descriptive; awaiting Paul's ruling.

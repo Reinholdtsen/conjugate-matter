@@ -10,8 +10,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "notes/broken-born-program-v1.md §10"
-  - "notes/debt1a-iii-tuning-test.md §3, §5"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/tuning-test.md §3, §5"
+  - "notes/x-classification.md §3"
   - "HANDOFF.md §1"
   - "HANDOFF.md §5"
   - "review/round3-adjudication.md 'Pre-registration scored'"
@@ -62,8 +62,8 @@ In the wiki's reading, Tier 3 is the program's own structural argument wherever 
 
 ### Where it operates
 
-- **The frame tier.** The [tuning test](/wiki/gravity/tuning-test) found that couplings written in the metric fail the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) condition and couplings written in frame (vielbein) variables pass. The passing class is the Hinterbichler–Rosen class of [wedge-product potentials](/wiki/gravity/spin-2-fields/vielbein-formulation), "ghost-free by construction", and the calc note tags the step "[D — structural, resting on T]" (`notes/debt1a-iii-tuning-test.md` §3; [the frame tier](/wiki/gravity/tuning-test/frame-tier)). The program did not derive that its geometric action reduces to this class. #11 §14 item 1 records it: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]." The v1 paper had said the class "was selected by minimality + consistency, not derived line-by-line" (#9 §10 item 1). See [Open: deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction).
-- **"Unique" and "unique known".** The forcing chain of #11 §7.1 ends: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen", dRGT being [de Rham–Gabadadze–Tolley](/wiki/gravity/spin-2-fields/drgt-massive-gravity). Calc note #6 had written "Massive spin-2 coupled to gravity has exactly one known consistent structure" (`notes/debt1a-ii-X-classification.md` §3), and the Debt-1 note that first described the pattern says each test "forced it into the unique known consistent structure at that junction" (`notes/debt1a-iii-tuning-test.md` §5). `HANDOFF.md` §1 says the structural core was "forced onto unique consistent structures each time", and #11 §15 that each test "forced the theory onto the unique consistent structure available". The dropped qualifier is recorded as flag 7 in `review/wiki-build-flags.md`; the wiki quotes each wording as written.
+- **The frame tier.** The [tuning test](/wiki/gravity/tuning-test) found that couplings written in the metric fail the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) condition and couplings written in frame (vielbein) variables pass. The passing class is the Hinterbichler–Rosen class of [wedge-product potentials](/wiki/gravity/spin-2-fields/vielbein-formulation), "ghost-free by construction", and the calc note tags the step "[D — structural, resting on T]" (`notes/tuning-test.md` §3; [the frame tier](/wiki/gravity/tuning-test/frame-tier)). The program did not derive that its geometric action reduces to this class. #11 §14 item 1 records it: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]." The v1 paper had said the class "was selected by minimality + consistency, not derived line-by-line" (#9 §10 item 1). See [Open: deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction).
+- **"Unique" and "unique known".** The forcing chain of #11 §7.1 ends: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen", dRGT being [de Rham–Gabadadze–Tolley](/wiki/gravity/spin-2-fields/drgt-massive-gravity). Calc note #6 had written "Massive spin-2 coupled to gravity has exactly one known consistent structure" (`notes/x-classification.md` §3), and the field-equation note that first described the pattern says each test "forced it into the unique known consistent structure at that junction" (`notes/tuning-test.md` §5). `HANDOFF.md` §1 says the structural core was "forced onto unique consistent structures each time", and #11 §15 that each test "forced the theory onto the unique consistent structure available". The dropped qualifier is recorded as flag 7 in `review/wiki-build-flags.md`; the wiki quotes each wording as written.
 
 ### The novelty downgrade of §7.4
 
@@ -74,7 +74,7 @@ After the [palindrome](/wiki/gravity/palindromic-branch/palindrome) identity of 
 - `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §3 — the v2.2 credit to Freidel, Leigh and Minic; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
 - `verify/battery.py` (output in the gate) — Tier 1's seven tests
 - `review/round3-adjudication.md` 'Pre-registration scored' and `review/round4-adjudication.md` 'Rulings' F2 — the two ways a checked script missed the physics
-- `notes/debt1a-iii-tuning-test.md` §3, §5 and `notes/debt1a-ii-X-classification.md` §3 — the frame tier as a selected class; "unique known"
+- `notes/tuning-test.md` §3, §5 and `notes/x-classification.md` §3 — the frame tier as a selected class; "unique known"
 - `notes/broken-born-program-v1.md` §10 item 1 — the v1 wording of the selection
 - `HANDOFF.md` §1, §5 — "unique consistent structures"; the battery as handed over
 - `review/wiki-build-flags.md` item 7 — the dropped qualifier; item 36 — where the parity figures are printed

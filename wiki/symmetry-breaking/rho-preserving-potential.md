@@ -22,8 +22,8 @@ sources:
   - "notes/toy-lagrangian.md 'Chunk 3 results (2026-10-19): S4, quantum stability'"
   - "notes/toy-lagrangian.md 'Chunk 4 (in progress, 2026-10-19): S5'"
   - "notes/toy-lagrangian.md 'Assessment against the predictions (written before construction)'"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
@@ -143,7 +143,7 @@ The toy-model note works on a 1+1-dimensional base with phase space ℝ² (d = 1
 ## History of the origin question
 
 1. **v0.1 (September 2026).** The lab notebook gave the potential's existence to the rigid ω of its original postulate P2, [P/O] (#1 §3). That attribution is superseded; see the section below.
-2. **The postulate repair ([Debt 1](/wiki/history/debts)).** With η emergent the polarizations again form Λ(d), "π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B), and the source of τ's potential became an open item: "(3) the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F; [the Debt-1 notes](/wiki/history/documents/debt-1-notes)). No later document derives the potential from either candidate. The toy work's section condition does select an unordered pair of lines, "the same information as K_ref", but cannot tell which is position (worklog, 'Chunk 3 results', plan for S5; [the section condition](/wiki/symmetry-breaking/section-condition)).
+2. **The postulate repair ([the field-equation problem](/wiki/history/main-problems)).** With η emergent the polarizations again form Λ(d), "π₁ = ℤ, Maslov circle intact, τ restored" (#5 §B), and the source of τ's potential became an open item: "(3) the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F; [the field-equation notes](/wiki/history/documents/field-equation-notes)). No later document derives the potential from either candidate. The toy work's section condition does select an unordered pair of lines, "the same information as K_ref", but cannot tell which is position (worklog, 'Chunk 3 results', plan for S5; [the section condition](/wiki/symmetry-breaking/section-condition)).
 3. **The toy models (2026-10-19).** The polarization is a Goldstone angle, and in 1+1 a definite polarization needs a potential, first [the naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), with its cost stated from the start (worklog, chunks 1–3).
 4. **Round 4 and #11 v2.2 (2026-10-19/20).** [The naive form](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) fails with H dynamical and V_b replaces it ([review round 4](/wiki/method/review/round-4)); #11 adds the refinement of P2′, the boundedness condition of §10 and the open item in §14 item 11.
 
@@ -176,6 +176,6 @@ The attribution did not survive the repair of the postulates. Under the original
 - `review/round4-preregistration.md` 'Predictions' — the weakest link forecast at the rigid axis pair
 - `review/round4/referee/audit-notes.md` Step 3 — the axis pair fixed by hand
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — the fallback potential and its cost; 'Chunk 2 results' — the Goldstone circle and consequence (i) for P5; 'Chunk 3 results' — the 1+1 result, the price, the pseudo-Goldstone reading, the 3+1 remark and the plan for S5; 'Chunk 4' — the pair fixed by K_ref; 'Assessment against the predictions' — finding 3
-- `notes/debt1a-geometric-core.md` §B — discrete polarizations under strict P2, Λ(d) restored under P2′; §F — the origin of τ's potential under P2′ as open item 3, with its two candidates
+- `notes/geometric-core.md` §B — discrete polarizations under strict P2, Λ(d) restored under P2′; §F — the origin of τ's potential under P2′ as open item 3, with its two candidates
 - `notes/broken-born-theory.md` §2 — Λ(d) and the Maslov circle; §3 — the v0.1 attribution to the rigid ω (superseded); §4 — τ as a pseudo-Goldstone; §12 — "a rigid symplectic form as its explicit tilt"
 - `notes/closed-universe.md` §2; `review/wiki-build-flags.md` item 27's addendum and item 54 — the turnaround in a closed universe with V ≥ 0, and the potential's uncited origin

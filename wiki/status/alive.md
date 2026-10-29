@@ -32,12 +32,12 @@ sources:
   - "review/round3-adjudication.md 'What survives v3'"
   - "HANDOFF.md §2"
   - "notes/toy-lagrangian.md 'Chunk 3 results (2026-10-19): S4, quantum stability'"
-  - "notes/debt1a-geometric-core.md §C, §E"
-  - "notes/debt1a-ii-X-classification.md §1–§4"
-  - "notes/debt1a-iii-tuning-test.md §2–§4"
-  - "notes/debt1a-iv-beta-coefficients.md §1–§3"
-  - "notes/debt3a-stream-stability.md 'Corollary (the classicality theorem)'"
-  - "notes/debt3b-wave-island.md 'The rate [D, heuristic coefficients]'"
+  - "notes/geometric-core.md §C, §E"
+  - "notes/x-classification.md §1–§4"
+  - "notes/tuning-test.md §2–§4"
+  - "notes/beta-coefficients.md §1–§3"
+  - "notes/stream-stability.md 'Corollary (the classicality theorem)'"
+  - "notes/wave-island.md 'The rate [D, heuristic coefficients]'"
   - "notes/broken-born-theory.md §2, §4, §5.1, §6, §7"
   - "notes/broken-born-program-v1.md §7"
   - "verify/battery.py"
@@ -70,9 +70,9 @@ sources:
 - `verify/soliton_obituary.py`, [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script): the two standing results about the retired soliton candidate's model.
 - `verify/phase_space_diameter.py`, [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script): every number that the phase-space-diameter note (`papers/phase-space-diameter.md` v1.1) computes, against anchors independent of the note such as the CODATA Planck units and the Particle Data Group's photon and entropy densities. Figures the note quotes from the literature are not recomputed, except where a check reproduces them, and the torsion-balance limits are typed in from the source table (the script's docstring).
 - `verify/closed_universe.py`, [the closed-universe script](/wiki/method/verification/closed-universe-script): every number of the closed-universe note (`notes/closed-universe.md`, 2026-10-27, not reviewed), after anchors independent of it; everything after the anchors is a regression check of the investigation's own numbers (the script's docstring).
-- `verify/velocity_gated_gravity.py`, [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script): the numbers of the velocity-gated-gravity note (`notes/velocity-gated-gravity.md`, 2026-10-28, not reviewed), after anchors independent of it, among them Debt 3a's two shortfall ratios (section D, flag 16's addendum); the note's N-body runs are checked against their kept logs, not rerun.
+- `verify/velocity_gated_gravity.py`, [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script): the numbers of the velocity-gated-gravity note (`notes/velocity-gated-gravity.md`, 2026-10-28, not reviewed), after anchors independent of it, among them calc note #2's two shortfall ratios (section D, flag 16's addendum); the note's N-body runs are checked against their kept logs, not rerun.
 - `verify/gate_mechanism.py`, [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script): the arithmetic and algebra of the gate-mechanism note (`notes/gate-mechanism.md`, 2026-10-28, not reviewed), including the benchmark's σ₀/m; in the note's words it "does not test their physics".
-- No script checks the other numbers of [Debt 3](/wiki/history/debts), the record's derivation of the velocity gate's mechanism, the derivations of #11's cosmology or of conjugate special relativity (#13), or the predictions as such; those claims rest on their derivations. The phase-space-diameter script checks only what the note adds to them, among it #13's maximum force at the Planck length, c⁴/G = 1.21×10⁴⁴ N, and the exchange of row 10's two kinetic terms under a → C/a when M̃ = M_P.
+- No script checks the other numbers of [the clumping problem](/wiki/history/main-problems), the record's derivation of the velocity gate's mechanism, the derivations of #11's cosmology or of conjugate special relativity (#13), or the predictions as such; those claims rest on their derivations. The phase-space-diameter script checks only what the note adds to them, among it #13's maximum force at the Planck length, c⁴/G = 1.21×10⁴⁴ N, and the exchange of row 10's two kinetic terms under a → C/a when M̃ = M_P.
 
 ## Under pressure
 
@@ -179,23 +179,23 @@ sources:
 
 | Claim | Tags | What verifies it |
 | --- | --- | --- |
-| [The velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): the self-interaction amplitude depends on the incoming relative momentum through F(k²/μ²) | [D — mechanism; shape [O]] (#11 §8) | the mechanism is derived structurally in the Debt-1 notes; no script; the shape is [OP4](/wiki/dark-matter/conjugate-matter/gate-shape); not derived according to the gate-mechanism note, and flag 55 proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)) |
+| [The velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): the self-interaction amplitude depends on the incoming relative momentum through F(k²/μ²) | [D — mechanism; shape [O]] (#11 §8) | the mechanism is derived structurally in the field-equation notes; no script; the shape is [OP4](/wiki/dark-matter/conjugate-matter/gate-shape); not derived according to the gate-mechanism note, and flag 55 proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)) |
 | [Dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress): the momentum-side counterpart of stress-energy, the quantity X couples to | [D — structural] (calc note #5 §E) | a definition in words with no explicit formula; not machine-checked; its enhancement is [OP5](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement); the gate-mechanism note's record audit finds no formula for T̃ and no χχX vertex (flag 55) |
 | [The gate mechanism: X exchange over fiber overlap](/wiki/dark-matter/conjugate-matter/gate-mechanism): X exchange between dual-stress bilinears, acting over the overlap of [momentum-fiber](/wiki/phase-space/reciprocity/momentum-fibers#quanta-with-a-width-along-the-fiber) wavepackets of width μ | [D — mechanism; shape [O]] (#11 §8); [D — structural] (calc notes #5 and #6) | no explicit propagator, vertex or overlap integral exists in any source; the gate-mechanism note (two derivations, the second blind; not reviewed) finds that exchanging X cannot produce the gate [D][V], rerun in `verify/gate_mechanism.py`, and flag 55 proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)) |
 | [What could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers): exchange of a spin-J field gives a degree-J polynomial in γ that grows with speed on the scale c; an order-one rise at 120 km/s needs J ≈ 3533–4996; a tower of every spin needs terms about 10^5421169 times the net; a medium gates velocity through the medium; a continuous-spin particle has the right shape but a threshold that falls with distance | finite spin [D][V; two derivations]; the tower and the medium [D][V; one derivation]; the no-go theorems [T][S]; continuous spin [T][S, read twice: by the run-3 theory verifier and by the drafting session, whose fetch is in the session transcript, not the record; numbers D] (velocity-gated-gravity note §9) | `verify/velocity_gated_gravity.py` section I and `verify/gate_mechanism.py` section G; computed, not reviewed |
 | [The gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law): σ_T(v) = σ₀F(v²/v\*²), with a robust knee at v\* and isotropic scattering below the gate | [D], with the shape [O] (#11 §8) | not machine-checked; tested by rows 1 and 2; its mechanism not derived according to flag 55, pending Paul's ruling |
 | [The scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark): m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} | [D] (#1 §5.1; carried by #11 §8) | `verify/gate_mechanism.py` section D recomputes σ₀/m = 32.0 cm²/g at 70 MeV, or m = 71.5 MeV for 30 cm²/g; contact Born physics that needs no mechanism (gate-mechanism note §5) |
 
-#### Momentum clumping (Debt 3)
+#### Momentum clumping
 
 | Claim | Tags | What verifies it |
 | --- | --- | --- |
-| [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion): the criterion g·n_gate ≥ m·min(σ, v\*)² fails at the scattering benchmark | [D] (#11 §9 (i)) | the two shortfall ratios are reproduced in `verify/velocity_gated_gravity.py` section D since 2026-10-28, which backs the handoff's ✓; the record's tag stays [D] until Paul rules (flag 16, addendum); 3a's narrow-gate form overstates the Milky Way shortfall about 3×, verdict unchanged (flag 58) |
+| [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion): the criterion g·n_gate ≥ m·min(σ, v\*)² fails at the scattering benchmark | [D] (#11 §9 (i)) | the two shortfall ratios are reproduced in `verify/velocity_gated_gravity.py` section D since 2026-10-28, which backs the handoff's ✓; the record's tag stays [D] until Paul rules (flag 16, addendum); #2's narrow-gate form overstates the Milky Way shortfall about 3×, verdict unchanged (flag 58) |
 | [The classicality theorem and the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem): meeting the criterion forces m ≲ 0.1 meV, where N_occ ~ 10²⁰ | [D] (#11 §9 (i)) | not machine-checked; a recomputation made while building the wiki is outside the gate (flag 19) |
 | [The net theorem: clumping is nowhere mandatory](/wiki/dark-matter/momentum-clumping/net-theorem): "forbidden (particles), fatal (committed wave), decorative (free wave)" | [D] (#9 §7); untagged in #11 §9 (iii), resting on (i) [D] and (ii) [D + T] | not machine-checked |
 | [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate): Γ ≈ c·g²ρ²min(σ, v\*)⁴/(m³σ⁶) on the wave island | "[D, heuristic coefficients]" (calc note #3); inside #11 §9 (ii), [D + T], with "coefficients [O]" | not machine-checked |
 | [Scenario B: tunable streams (quarantined)](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b): with the coupling free, streams are tunable across ~10 orders, "optional, never required" | part of #11 §9 (ii), [D + T] | not machine-checked; a degeneration risk (#11 §15) |
-| [Relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic): free relic abundance via misalignment, on the wave island only | no tag of its own (Debt 3's salvage, #11 §9) | not machine-checked; the claim contains no number |
+| [Relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic): free relic abundance via misalignment, on the wave island only | no tag of its own (the clumping problem's salvage, #11 §9) | not machine-checked; the claim contains no number |
 
 #### The candidates
 
@@ -279,8 +279,8 @@ Rows 1–10 of #11 §13 stand. Row 11, particles or condensate, is a diagnostic 
 - `review/round3-adjudication.md` "Rulings", "Decisions", "What survives v3" — ruling 2, Decision 1, and the soliton results that survive.
 - `HANDOFF.md` §2 — the alive list at the move from claude.ai, including the maximum force.
 - `notes/toy-lagrangian.md` "Chunk 3 results (2026-10-19): S4, quantum stability" — the tag on quantum restoration.
-- `notes/debt1a-geometric-core.md` §C, §E, `notes/debt1a-ii-X-classification.md` §1–§4, `notes/debt1a-iii-tuning-test.md` §2–§4, `notes/debt1a-iv-beta-coefficients.md` §1–§3 — the tags of calc notes #5–#8.
-- `notes/debt3a-stream-stability.md`, `notes/debt3b-wave-island.md` — the tags of the Debt-3 results.
+- `notes/geometric-core.md` §C, §E, `notes/x-classification.md` §1–§4, `notes/tuning-test.md` §2–§4, `notes/beta-coefficients.md` §1–§3 — the tags of calc notes #5–#8.
+- `notes/stream-stability.md`, `notes/wave-island.md` — the tags of the clumping results.
 - `notes/broken-born-theory.md` §2, §4, §5.1, §6, §7 — τ's assumed lightness, its fifth-force safety, the benchmark, the dictionary and the dark-energy items.
 - `notes/broken-born-program-v1.md` §7 — the net theorem's tag.
 - `verify/battery.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py`, `verify/soliton_obituary.py`, `verify/phase_space_diameter.py`, `verify/closed_universe.py`, run by `scripts/check.sh` — the machine checks.

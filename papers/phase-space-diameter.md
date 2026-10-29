@@ -273,10 +273,10 @@ The answer to the title's question is yes, in two senses. For the universe's rad
 - [H2] Comatter program, internal audit of the record, items 23, 24, 27 and 39 (`review/wiki-build-flags.md`).
 - [P1] Comatter program, working checkpoint v2.2 (`papers/broken-born-checkpoint-v2.md`).
 - [P2] Comatter program, special relativity of the momentum polarization (`papers/conjugate-special-relativity.md`).
-- [P3] Comatter program, calc note on the β coefficients (`notes/debt1a-iv-beta-coefficients.md`).
+- [P3] Comatter program, calc note on the β coefficients (`notes/beta-coefficients.md`).
 - [P4] Comatter program, two toy models of spontaneously broken reciprocity (`papers/reciprocity-toy-models.md`).
-- [P5] Comatter program, calc note on the tuning test (`notes/debt1a-iii-tuning-test.md`).
-- [P6] Comatter program, calc note on the classification of X (`notes/debt1a-ii-X-classification.md`).
+- [P5] Comatter program, calc note on the tuning test (`notes/tuning-test.md`).
+- [P6] Comatter program, calc note on the classification of X (`notes/x-classification.md`).
 
 **Literature.**
 - [S] A. Albrecht, P. Ferreira, M. Joyce, T. Prokopec, "Inflation and squeezed quantum states," Phys. Rev. D 50, 4807 (1994), arXiv:astro-ph/9303001.

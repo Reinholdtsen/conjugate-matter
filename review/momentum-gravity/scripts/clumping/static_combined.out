@@ -60,7 +60,7 @@ rat2   r= 1.2917: gt_c(kappa^2=1.1,2,4.4,10,25) = 1.025, 9.384, 29.95, 76.91, 20
 rat2   r= 4.0000: gt_c(kappa^2=1.1,2,4.4,10,25) = 14.48, 119.7, 351, 865.1, 2230   [kappa^2/Lam_g(gauss) at 4.4: 409.3; kappa^2-1 at 4.4: 3.4]
 rat2   r= 8.3330: gt_c(kappa^2=1.1,2,4.4,10,25) = 106.7, 836, 2323, 5583, 1.423e+04   [kappa^2/Lam_g(gauss) at 4.4: 3048; kappa^2-1 at 4.4: 3.4]
 
-=== D. Debt 3a narrow-gate substitution vs the linearized result (contact range) ===
+=== D. Calc note #2 narrow-gate substitution vs the linearized result (contact range) ===
 3a: g n_gate/(m v*^2) >= 1 with n_gate = n (v*/sigma)^3/(2pi)^1.5   [sigma -> v*]
 exact static: g n Lam(r)/(m sigma^2) >= 1, Lam(r) = top eigenvalue of p0^1/2 W p0^1/2 (gate alone)
 ratio R = (g required, exact)/(g required, 3a narrow form) = (2pi)^-1.5 r^-1 / Lam(r)  [Gaussian W = exp(-s^2/2)]

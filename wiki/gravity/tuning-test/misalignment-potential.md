@@ -10,16 +10,16 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §7.1"
-  - "notes/debt1a-iii-tuning-test.md §1"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
+  - "notes/tuning-test.md §1"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
   - "verify/battery.py T3"
   - "verify/battery.py T2"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §5"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §5"
@@ -27,13 +27,13 @@ sources:
   - "review/wiki-build-flags.md item 3"
 ---
 
-*The misalignment potential is the energy cost that the program assigns to a mismatch between the [polarization J](/wiki/symmetry-breaking/order-parameter), the split of phase space into position and momentum directions that the vacuum has chosen, and the local phase-space geometry, which the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z carries. The [momentum graviton X](/wiki/gravity/momentum-graviton), the real part of Z, gets no potential from the geometry alone, because constant shifts of X are a symmetry ([the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)), so its mass has to come from this term. The [calc notes](/wiki/history/documents/debt-1-notes) call it the η-selection, or Higgs, sector. The natural measure of the mismatch is the anticommutator {J, I[Z]} of the polarization with the [complex structure](/wiki/phase-space/born-geometry/born-structures) built from Z, which is zero when the two are compatible; its block form is derived exactly and checked by machine. Calc note #7 reads off the blocks that the mismatch vanishes only at X = 0 with the metric pinned to a reference metric (see flag 3 in `review/wiki-build-flags.md`), so that the potential involves two tensors, as the potentials of [massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) do. Whether such a potential avoids the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the question of [the tuning test](/wiki/gravity/tuning-test).*
+*The misalignment potential is the energy cost that the program assigns to a mismatch between the [polarization J](/wiki/symmetry-breaking/order-parameter), the split of phase space into position and momentum directions that the vacuum has chosen, and the local phase-space geometry, which the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z carries. The [momentum graviton X](/wiki/gravity/momentum-graviton), the real part of Z, gets no potential from the geometry alone, because constant shifts of X are a symmetry ([the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)), so its mass has to come from this term. The [calc notes](/wiki/history/documents/field-equation-notes) call it the η-selection, or Higgs, sector. The natural measure of the mismatch is the anticommutator {J, I[Z]} of the polarization with the [complex structure](/wiki/phase-space/born-geometry/born-structures) built from Z, which is zero when the two are compatible; its block form is derived exactly and checked by machine. Calc note #7 reads off the blocks that the mismatch vanishes only at X = 0 with the metric pinned to a reference metric (see flag 3 in `review/wiki-build-flags.md`), so that the potential involves two tensors, as the potentials of [massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity) do. Whether such a potential avoids the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) is the question of [the tuning test](/wiki/gravity/tuning-test).*
 
 **Status:** Alive — [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2; the block computation is [D — rigorous] in calc note #7 §2 — the blocks are machine-checked by battery test T3 at one sampled point ([the verification battery](/wiki/method/verification/battery)); #7's reading of their zero set, the compatible locus, sits under the same [D — rigorous] heading and has no test.
 
 ## Why X needs a potential of this kind
 
-The geometry alone gives X no mass. Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) found that the rigid symplectic group contains the shifts Z → Z + B, which move X and leave Y alone, and concluded: "Constant shifts of X are **exact symmetries** of any S_H built from (ω, H). Consequences: X has no potential and no non-derivative couplings from the geometric sector alone" (#6 §1). A mass term for X cannot be written in by hand.
+The geometry alone gives X no mass. Calc note #6 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) found that the rigid symplectic group contains the shifts Z → Z + B, which move X and leave Y alone, and concluded: "Constant shifts of X are **exact symmetries** of any S_H built from (ω, H). Consequences: X has no potential and no non-derivative couplings from the geometric sector alone" (#6 §1). A mass term for X cannot be written in by hand.
 
 The same note located where a mass can come from: "The vacuum ⟨Z⟩ = i·g sits at X = 0 and is *moved* by the shifts: the polarization selection (η-emergence) **spontaneously breaks the local dual diffeomorphisms**" (#6 §3). X then becomes a massive spin-2 field by a gravitational version of the [Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs) ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)), with "M_X = the polarization-breaking scale" (#11 §7.1). The potential that carries this breaking is the subject of this page. #6 also stated the condition it has to meet, using the standard result that a massive spin-2 field has one known consistent structure [T]:
 
@@ -139,10 +139,10 @@ The blocks are the input to the rest of the test: [the metric tier fails twice](
 
 - `papers/broken-born-checkpoint-v2.md` §7.2 — the current statement, [D][V], with the blocks "machine-verified"; §7.1 — M_X as the polarization-breaking scale; §7.5 — two parameters after the palindrome.
 - `papers/broken-born-checkpoint-v2.md` §4, §5, §6 — η = HJ in P2′; I = ω⁻¹H and I² = −1; Z = X + iY, Im Z = g, Re Z = X and the η-compatible locus X = 0.
-- `notes/debt1a-iii-tuning-test.md` §1 — the object to test; §2 — the block computation [D — rigorous], the compatible locus, and the tested invariants; §3 — the βₙ not delivered by the pass.
+- `notes/tuning-test.md` §1 — the object to test; §2 — the block computation [D — rigorous], the compatible locus, and the tested invariants; §3 — the βₙ not delivered by the pass.
 - `verify/battery.py` T3 — the machine check of the four blocks; T2 — I[Z]² = −1 and the properties of H_Z.
-- `notes/debt1a-ii-X-classification.md` §1, §3, §5 — the shift symmetry; the Higgs mechanism and the health criterion; the computation still to be done.
-- `notes/debt1a-geometric-core.md` §B, §C — J as an involution anticommuting with I; the Siegel parametrization H_Z.
+- `notes/x-classification.md` §1, §3, §5 — the shift symmetry; the Higgs mechanism and the health criterion; the computation still to be done.
+- `notes/geometric-core.md` §B, §C — J as an involution anticommuting with I; the Siegel parametrization H_Z.
 - `notes/broken-born-theory.md` §2 — η in the standard basis; 'Addendum (v0.5)' — the notebook's account.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement, "(computed exactly)".
 - `HANDOFF.md` §5 — the battery summary for T3.

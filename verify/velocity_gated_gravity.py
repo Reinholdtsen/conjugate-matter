@@ -27,7 +27,7 @@ snapshots (about 90 MB) were not kept, so they cannot be rerun here.
 
 Inputs: CODATA 2018. The record's hypothetical long-range attraction U = -eps G m^2 W(|v - v'|/v*)/r with the
 amplitude gate W = exp(-s^2/2) (the record's convention; the ordinary-matter analyses use exp(-v^2/v_a^2), and
-v_a = sqrt2 v*); v* = 120 km/s; m_chi = 70 MeV and sigma_T/m = 30 cm^2/g at 30 km/s (Debt 3a). Each data input
+v_a = sqrt2 v*); v* = 120 km/s; m_chi = 70 MeV and sigma_T/m = 30 cm^2/g at 30 km/s (calc note #2). Each data input
 (Planck 2018, DESI DR1 and eBOSS Lyman-alpha compressions, planetary ephemerides, the double pulsar, Lee et al.
 2020, Vasiliev-Belokurov 2020's Sagittarius, Enander-Mortsell 2013) is typed in with its source where it is
 used; the record marks them [S] (live-searched by its agents) unless a dagger is shown.
@@ -683,10 +683,10 @@ stamp()
 
 
 # ======================================================================================================
-print("\n== D. The obituary's scope: Debt 3a's shortfall (ports of review/wiki-build-checks/debt3a_check.py and "
+print("\n== D. The obituary's scope: calc note #2's shortfall (ports of review/wiki-build-checks/stream_stability_check.py and "
       "verify-clumping-numbers/v09_units.py)")
 # ======================================================================================================
-# debt3a_check.py, inputs exactly as Debt 3a states them (natural units, GeV)
+# stream_stability_check.py, inputs exactly as calc note #2 states them (natural units, GeV)
 cm_g = 5.0677e13; g_gev = 5.6096e23; c3a = 2.99792458e5
 m3a = 0.070; vst3a = 120/c3a
 S3a = 30*cm_g**2/g_gev
@@ -696,7 +696,7 @@ for name, rho_, sig_ in (("dwarf core", 1.0, 30), ("MW local", 0.4, 155)):
     rho = rho_/cm_g**3; sg = sig_/c3a; n_ = rho/m3a
     neff, s2 = (n_, sg**2) if sg < vst3a else (n_*(vst3a/sg)**3/(2*pi)**1.5, vst3a**2)
     ratio3a[name] = g3a*neff/(m3a*s2)
-check("D1: Debt 3a's record logic (debt3a_check.py, the critic's run c3): g = 2.48e3 GeV^-2; the contact gate's "
+check("D1: calc note #2's record logic (stream_stability_check.py, the critic's run c3): g = 2.48e3 GeV^-2; the contact gate's "
       "collective pull over m min(sigma, v*)^2 is 3.9e-28 (dwarf core) and 2.9e-31 (MW)",
       r3(g3a) == 2.48e3 and r2(ratio3a["dwarf core"]) == 3.9e-28 and r2(ratio3a["MW local"]) == 2.9e-31,
       f"{g3a:.4g}; {ratio3a['dwarf core']:.4e}, {ratio3a['MW local']:.4e}")

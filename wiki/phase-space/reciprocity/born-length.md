@@ -19,7 +19,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14"
   - "CLAUDE.md 'Layout'"
   - "CLAUDE.md 'Since the handoff'"
-  - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "popsci/universes-other-half.md 'A second speed of light'"
   - "review/wiki-build-flags.md item 17"
   - "papers/phase-space-diameter.md §4"
@@ -180,7 +180,7 @@ Both identifications are dead, the second in the aligned vacuum. For a backgroun
 - **The early-universe term.** The program keeps an optional a⁻⁶ term in the Friedmann equation from a dual Einstein term with its own Planck mass M̃. If reciprocity fixes M̃ = M_P, the note finds the term's step at the self-dual epoch, which depends on λ and on the comoving scale taken as unit: "The step's free parameter becomes the question of the Born length" [D][V] (§8.4). The dual Einstein–Hilbert term behind the a⁻⁶ step is used in #1 §6 under a [D] tag but derived from the geometric action in no document, so the step tests a postulate (flag 49 in `review/wiki-build-flags.md`; [the dual frame](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not)). The closed-universe note adds that closure fixes the normalization a = R/λ but not the a⁻⁶ coefficient, and that a compact momentum space with k̃ = k would need λ ≤ 1.278×10⁻⁶ m at |Ω_k| = 10⁻² to survive N_eff, nucleosynthesis and the observed momentum range (flag 48).
 - **A compact phase space.** A closed position space times a closed momentum space is never a phase space, while the compact Gr̃(2,5) is one; its reciprocity length √(R₀ l_P) = 1.489×10⁻⁴ m at |Ω_k| = 10⁻² fails the same two tests as the self-dual length, and meeting the program's Born-length bounds needs a momentum radius κc of at least 46.5 E_P today ([reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity#compact-phase-spaces-dv); closed-universe note §5).
 - **A lever arm (open).** If matter's polarization follows the vacuum's as the dark-energy field drifts, a rotation of the polarization by θ displaces a particle of momentum p by θλ²p/ℏ: 4.9 × 10⁻⁶⁰ m per radian for an electron with the Bohr momentum at λ = l_P, and 42 m per radian at the self-dual length [V]. "A cosmological drift of τ would then be harmless only for a Born length near the Planck length" (§8.5, a section tagged [O]).
-- **The popular articles.** Neither names the Born length, and both call the Planck value natural: "plugging in the natural scale yields c⁴/G" (#10, 'Dividends and daydreams'), and "The framework's natural value for this limit is c⁴/G" (#12, 'A second speed of light'). They are never a source for a claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
+- **The popular articles.** Neither names the Born length, and both call the Planck value natural: "plugging in the natural scale yields c⁴/G" (#10, 'Corollaries and daydreams'), and "The framework's natural value for this limit is c⁴/G" (#12, 'A second speed of light'). They are never a source for a claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Not to be confused with
 
@@ -215,7 +215,7 @@ The program's open items are collected in [open problems and the queue](/wiki/st
 - `review/round3/referee/audit-notes.md` Step 1 — the partial check of Born's papers
 - `papers/broken-born-checkpoint-v2.md` §14 — the open problems, none of which concerns λ
 - `CLAUDE.md` 'Layout' — #13 as a current reference; 'Since the handoff' — the current queue
-- `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' and `popsci/universes-other-half.md` 'A second speed of light' — the Planck value called natural (not a status source)
+- `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams' and `popsci/universes-other-half.md` 'A second speed of light' — the Planck value called natural (not a status source)
 - `review/wiki-build-flags.md` item 17 — the two gate conventions combined in #13 §4's gate-scale sentence
 - `notes/closed-universe.md` §4, §7; `review/wiki-build-flags.md` items 48 and 49 — a closed universe leaves the momentum fibre flat, and the dual Einstein–Hilbert term behind the a⁻⁶ step is not derived
 - `notes/closed-universe.md` §5 — Gr̃(2,5), its reciprocity length and the momentum radius the Born-length bounds need

@@ -87,8 +87,8 @@ for L, name in [(L_H, "c/H0"), (CHI, "particle horizon")]:
     a_need = alpha_at(lam)
     print(f"  X at sqrt(l_P L) = {lam*1e6:.1f} um ({name}) is allowed iff alpha < {a_need:.3f}, i.e. c < {sqrt(3*a_need/4):.3f}")
 print("  referee A's identification c = a~/a: the record's second frame is f = E0[J], the polarization frame on the")
-print("  compact moduli space, with the vacuum at the aligned point X = sqrt(g^-1 f) = 1 (notes/debt1a-iii §4,")
-print("  notes/debt1a-iv §1-2). a~ belongs to the slaved block g~ = g^-1, a different object, so c0 = a~0/a0 does not follow.")
+print("  compact moduli space, with the vacuum at the aligned point X = sqrt(g^-1 f) = 1 (notes/tuning-test §4,")
+print("  notes/beta-coefficients §1-2). a~ belongs to the slaved block g~ = g^-1, a different object, so c0 = a~0/a0 does not follow.")
 
 print("\n== A2/B2: the per-axis counts 'hold at no other epoch'")
 S_obs = S0*4*pi/3*CHI**3

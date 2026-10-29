@@ -1,5 +1,5 @@
 """Environment numbers for the long-range velocity-gated attraction.
-Inputs: Debt 3a environments (dwarf core rho = 1 GeV/cm^3, sigma = 30 km/s; MW local rho = 0.4,
+Inputs: calc note #2 environments (dwarf core rho = 1 GeV/cm^3, sigma = 30 km/s; MW local rho = 0.4,
 sigma = 155); cluster rho = 0.03 GeV/cm^3, sigma = 1000 km/s (3b's cluster row); v* = 120 km/s.
 Local (WKB, Jeans-swindle) criterion: unstable at k iff Lambda_0(gt, r) > (k/k_J)^2 = Q.
 Halo margins Q: isothermal core k_J r_c = 3 exactly (r_c = 3 sigma/sqrt(4 pi G rho0), King radius):
@@ -89,7 +89,7 @@ if __name__ == '__main__':
                 out.append(f"{gate}: no-revir {a:.4g}, revir {b:.4g}")
             print(f"{name:10s} Q={Q:7.4f}: " + " | ".join(out))
 
-    print("\n=== 4. Debt 3a contact-range numbers with the linearized narrow-gate criterion ===")
+    print("\n=== 4. Calc note #2 contact-range numbers with the linearized narrow-gate criterion ===")
     cm = 5.0677307e13; g_ = 5.6095886e23; c = 2.99792458e5
     m = 0.070; S = 30*cm**2/g_
     gc = math.sqrt(math.pi*S/m)

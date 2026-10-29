@@ -13,7 +13,7 @@ sources:
   - "verify/closed_universe.py 'D. Bimetric sector'"
   - "verify/closed_universe.py 'Anchors (independent of the investigation)'"
   - "review/wiki-build-flags.md items 5, 51, 52, 53"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §3"
   - "papers/phase-space-diameter.md §8.2"
   - "review/round5-adjudication.md 'Rulings' R1"
   - "papers/broken-born-checkpoint-v2.md §7"
@@ -27,7 +27,7 @@ sources:
 
 ## The setting
 
-The note takes the program's gravity sector as #11 §7 and the phase-space-diameter note give it (§1, §6): [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) with both metrics dynamical, the [palindromic](/wiki/gravity/palindromic-branch/palindrome) coefficients βₙ = β₄₋ₙ, the zero-vacuum branch β₀ = −4β₁ − 3β₂ on which the flat aligned vacuum has no vacuum energy ([the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)), and equal Planck masses, M_f = M_g, which reciprocity forces ([equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses); `notes/debt1a-iv-beta-coefficients.md` §3).
+The note takes the program's gravity sector as #11 §7 and the phase-space-diameter note give it (§1, §6): [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) with both metrics dynamical, the [palindromic](/wiki/gravity/palindromic-branch/palindrome) coefficients βₙ = β₄₋ₙ, the zero-vacuum branch β₀ = −4β₁ − 3β₂ on which the flat aligned vacuum has no vacuum energy ([the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)), and equal Planck masses, M_f = M_g, which reciprocity forces ([equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses); `notes/beta-coefficients.md` §3).
 
 Both metrics take the homogeneous form of [Friedmann cosmology](/wiki/cosmology/scale-factor-duality/friedmann-cosmology) [T]: g with lapse 1 and scale factor a, f with lapse X and scale factor Y. (This X, f's lapse, is the note's symbol and is distinct from the field X.) The ratio y = Y/a measures how far f has moved from g; y = 1 is the aligned vacuum of [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound), background ratio u = 1. The general physics of such solutions, and their known instabilities, is on [bimetric cosmology and its instabilities](/wiki/gravity/spin-2-fields/bimetric-cosmology).
 
@@ -84,7 +84,7 @@ If f were a fixed background rather than a dynamical field (§6):
 
 - a frozen flat f cannot be written in k = +1 Friedmann form: the curvature component (X² + Ẏ²)sin²χ/X² of f, χ being the angle on S³, never vanishes;
 - a frozen scale, Ẏ = 0, makes the Bianchi constraint proportional to ȧ, so there is no expanding universe for any k;
-- every frozen f is the M_f → ∞ limit, which the record's equal Planck masses (`notes/debt1a-iv-beta-coefficients.md` §3) exclude.
+- every frozen f is the M_f → ∞ limit, which the record's equal Planck masses (`notes/beta-coefficients.md` §3) exclude.
 
 So the frozen reading contradicts the record. What remains unsettled is a definition: the record never defines E₀[J] beyond "the polarization frame" on compact moduli, and round-5 ruling R1 holds that question open (§6; [the premise: the aligned vacuum](/wiki/gravity/momentum-graviton/range-bound#the-premise-the-aligned-vacuum-u--1)).
 
@@ -106,7 +106,7 @@ Both are on [open problems and the queue](/wiki/status/open-problems). The open 
 - `notes/closed-universe.md` §6 — the branch and its k-independence, f closed with the same k, the exact relation, 1 − y today, M_X², the broken vacua and β₁ > 0, the regular turnaround, G_eff = 2G_N and its halfway point, the dressed Higuchi bound, the gradient instability, and f frozen; §2 — y in (0, 1] on the β₁ > 0 branch; §8 — the L = 2 modes; §9 — what is open; §10 — the pre-registration scored
 - `verify/closed_universe.py` section D — D1 (the y-equation, with von Strauss et al. 2012 as anchor), D2 and D3 (the exact relation and leading order), D4 (M_X²), D5 (the broken vacua), D6 (G_eff, the halfway point, Könnig 2015's eigenfrequency and the crossover), D7 (SO(4)-invariant tensors), D8 (the frozen reference), D9 (the turnaround toy); the anchors — the interpolation that gives the smallest M_X
 - `review/wiki-build-flags.md` items 5, 51, 52 and 53 — M_X², β₁ > 0, the omitted G_eff step and the Higuchi reasoning, with their audits; awaiting Paul's ruling
-- `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses
+- `notes/beta-coefficients.md` §3 — equal effective Planck masses
 - `papers/phase-space-diameter.md` §8.2 and `review/round5-adjudication.md` 'Rulings' R1 — the aligned vacuum, the smallest M_X, and the open definition of E₀[J]
 - `papers/broken-born-checkpoint-v2.md` §7 — the gravity sector and "M_X ∝ 2(β₁+β₂)"; §10 — the guarantee that the wedge sector does not compete with τ
 - `notes/knot-dark-matter-standalone.md` §1 — "satisfied trivially by the heavy field" (manuscript withdrawn for an unrelated error)

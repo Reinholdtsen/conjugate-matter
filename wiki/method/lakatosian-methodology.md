@@ -9,9 +9,9 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.4"
   - "papers/broken-born-checkpoint-v2.md §14 items 1–3"
   - "notes/broken-born-program-v1.md §11"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt3b-wave-island.md 'What pins g?'"
-  - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
+  - "notes/tuning-test.md §5"
+  - "notes/wave-island.md 'What pins g?'"
+  - "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'"
   - "review/round3-adjudication.md 'Decisions'"
   - "HANDOFF.md §1"
   - "CLAUDE.md preamble"
@@ -81,9 +81,9 @@ Novelty carries the weight in Lakatos's grading, and the program's record shows 
 
 The calc notes used the vocabulary while the work was under way:
 
-- After the [tuning test](/wiki/gravity/tuning-test), `notes/debt1a-iii-tuning-test.md` §5: "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration."
-- On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of [Debt 3](/wiki/history/debts), where the coupling g of the gated self-interaction is left free (Scenario B): "In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag." (`notes/debt3b-wave-island.md`, 'What pins g?'; [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
-- The closing note of Debt 3 calls velocity-space clumping "merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction)" (`notes/debt3c-ufd-endpoint.md`; [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). #11 §15 still carries it as the "tunable wave-island collective sector (quarantined)".
+- After the [tuning test](/wiki/gravity/tuning-test), `notes/tuning-test.md` §5: "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration."
+- On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of [the clumping problem](/wiki/history/main-problems), where the coupling g of the gated self-interaction is left free (Scenario B): "In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag." (`notes/wave-island.md`, 'What pins g?'; [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
+- The closing note of the clumping problem calls velocity-space clumping "merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction)" (`notes/ufd-endpoint.md`; [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). #11 §15 still carries it as the "tunable wave-island collective sector (quarantined)".
 
 A coupling that can be set to make an effect appear or vanish across ten orders of magnitude lets the program accommodate either outcome, which in Lakatos's sense is the mark of an ad hoc adjustment (the wiki's reading [T]).
 
@@ -125,7 +125,7 @@ Added by the wiki from model memory (†); no program document cites them.
 
 - `papers/broken-born-checkpoint-v2.md` §15 — the current assessment in Lakatos's terms; §14 items 1–3 — what the word "theory" waits on; §7.4 — the novelty downgrade
 - `review/round3-adjudication.md` 'Decisions' — Decision 2 (the free dilution factor, misattribution) and Decision 4
-- `notes/debt1a-iii-tuning-test.md` §5 — forced convergence as "the opposite of degeneration"
-- `notes/debt3b-wave-island.md` 'What pins g?' and `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the degeneration flag on the wave island
+- `notes/tuning-test.md` §5 — forced convergence as "the opposite of degeneration"
+- `notes/wave-island.md` 'What pins g?' and `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the degeneration flag on the wave island
 - `notes/broken-born-program-v1.md` §11 — the v1 assessment (superseded by #11 §15)
 - `HANDOFF.md` §1 and root `CLAUDE.md` (preamble) — "a Lakatosian research program, not a theory"

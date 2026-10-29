@@ -9,11 +9,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md ref [23]"
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §14 item 10"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-geometric-core.md §C"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §4"
+  - "notes/x-classification.md §5"
+  - "notes/beta-coefficients.md §3"
+  - "notes/geometric-core.md §C"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §10"
   - "review/v3-worklog.md 'Round-2 pending list'"
@@ -34,7 +34,7 @@ A dark-matter candidate has to do four things [T]: gravitate like ordinary matte
 
 Bimetric gravity has two dynamical metrics, g and f, each with its own [Einstein–Hilbert term](/wiki/gravity/spin-2-fields/general-relativity) and its own [Planck mass](/wiki/gravity/spin-2-fields/planck-units#two-metrics-two-planck-masses), M_g and M_f, and an interaction potential between them; ordinary matter couples to g [T]. A generic interaction brings in an extra mode with negative energy, the Boulware–Deser ghost ([Fierz–Pauli theory](/wiki/gravity/spin-2-fields/fierz-pauli)). The ghost-free potentials are those of [dRGT massive gravity](/wiki/gravity/spin-2-fields/drgt-massive-gravity), which Hassan and Rosen extended to two dynamical metrics ([Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric); [10†, 11†]).
 
-#11 states the uniqueness this way: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). [Calc note #6](/wiki/history/documents/debt-1-notes) had written "Massive spin-2 coupled to gravity has exactly one known consistent structure" (#6 §3). The difference in wording, unique versus the one known, is recorded in `review/wiki-build-flags.md` item 7; this page quotes both as written.
+#11 states the uniqueness this way: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). [Calc note #6](/wiki/history/documents/field-equation-notes) had written "Massive spin-2 coupled to gravity has exactly one known consistent structure" (#6 §3). The difference in wording, unique versus the one known, is recorded in `review/wiki-build-flags.md` item 7; this page quotes both as written.
 
 Around backgrounds in which the two metrics are proportional, the fluctuations of g and f combine into two mass eigenstates [T]: one massless spin-2 field, which acts as the graviton of ordinary gravity, and one massive spin-2 field with five polarizations. How much of each eigenstate lies along g, and therefore how strongly ordinary matter feels each, is set by the ratio of the two Planck masses [T]. When the second metric's Planck mass is much smaller than the first, the massless eigenstate lies mostly along g, the massive one mostly along f, and the massive eigenstate couples to ordinary matter only weakly [T]. This is the general structure; the parameter choices of the dark-matter proposals are not reported in any program document.
 
@@ -91,9 +91,9 @@ Added by the wiki from model memory (†), not cited by any program document:
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §12 — "bigravity-DM lineage [23†]"; ref [23] — the citation and the legend for †; §7.1 — X forced massive, the uniqueness statement; §7.5 — the two parameters; §14 item 10 — the literature battery
-- `notes/debt1a-ii-X-classification.md` §3 — "exactly one known consistent structure"; §4 — "cf. bigravity dark matter"; §5 — the X-condensate listed as open
-- `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses, safety by range
-- `notes/debt1a-geometric-core.md` §C — X as Re Z
+- `notes/x-classification.md` §3 — "exactly one known consistent structure"; §4 — "cf. bigravity dark matter"; §5 — the X-condensate listed as open
+- `notes/beta-coefficients.md` §3 — equal effective Planck masses, safety by range
+- `notes/geometric-core.md` §C — X as Re Z
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "bigravity-DM-style"
 - `notes/broken-born-program-v1.md` §10 — open problem 7 of #9
 - `review/v3-worklog.md` 'Round-2 pending list' — R7, equal Planck masses and late-time stability

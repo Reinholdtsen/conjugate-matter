@@ -9,19 +9,19 @@ sources:
   - "notes/broken-born-theory.md §5.2"
   - "notes/broken-born-theory.md §10"
   - "notes/broken-born-theory.md §11"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3): resolution of open problem 3'"
-  - "notes/debt3a-stream-stability.md 'Limit 1 — broad gate (μ ≫ mσ; dwarf regime)'"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
-  - "notes/debt3b-wave-island.md 'Standing results after Chunks A+B'"
-  - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes): resolution of open problem 3'"
+  - "notes/stream-stability.md 'Limit 1 — broad gate (μ ≫ mσ; dwarf regime)'"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/wave-island.md 'What pins g? Two scenarios'"
+  - "notes/wave-island.md 'Standing results after Chunks A+B'"
+  - "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'"
   - "notes/broken-born-program-v1.md §9"
   - "papers/broken-born-checkpoint-v2.md §13"
 ---
 
-*Halo substructure is the small-scale lumpiness of a galaxy's dark-matter halo, and two kinds of observation probe it. Cold stellar streams — long, thin trails of stars pulled off globular clusters or small galaxies by the Milky Way's tides — are disturbed by any lump of dark matter that passes through them, which leaves gaps and kinks along the stream. Dynamical friction — the drag a massive body feels from the gravitational wake it raises in a sea of lighter particles — makes globular clusters sink toward the center of a dwarf galaxy, at a rate set by the dark matter's distribution. The Comatter program's [lab notebook](/wiki/history/documents/lab-notebook) used both as tests of its [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of dark matter clumping by velocity; both tests are withdrawn, because the [Debt-3](/wiki/history/debts) calculations showed that velocity clumping is nowhere a required consequence of the program.*
+*Halo substructure is the small-scale lumpiness of a galaxy's dark-matter halo, and two kinds of observation probe it. Cold stellar streams — long, thin trails of stars pulled off globular clusters or small galaxies by the Milky Way's tides — are disturbed by any lump of dark matter that passes through them, which leaves gaps and kinks along the stream. Dynamical friction — the drag a massive body feels from the gravitational wake it raises in a sea of lighter particles — makes globular clusters sink toward the center of a dwarf galaxy, at a rate set by the dark matter's distribution. The Comatter program's [lab notebook](/wiki/history/documents/lab-notebook) used both as tests of its [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of dark matter clumping by velocity; both tests are withdrawn, because the [the clumping problem](/wiki/history/main-problems) calculations showed that velocity clumping is nowhere a required consequence of the program.*
 
-**Status:** Established — [T], explained here from general knowledge — the program used these probes for old rows 3 and 4 of the lab notebook's [predictions table](/wiki/predictions/table-history), which are "permanently withdrawn, on both islands" (`notes/debt3c-ufd-endpoint.md`).
+**Status:** Established — [T], explained here from general knowledge — the program used these probes for old rows 3 and 4 of the lab notebook's [predictions table](/wiki/predictions/table-history), which are "permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`).
 
 ## Substructure in cold dark matter [T]
 
@@ -71,13 +71,13 @@ Both rows drew on the same two parameters: the notebook's parameter count lists 
 
 ## How the rows were withdrawn
 
-The open calculation was the notebook's open problem 3: "**Stream-instability growth rate** γ vs. orbital phase-mixing: determines whether Prediction 3's granularity survives in Milky-Way-like halos" (#1 §11). [Debt 3](/wiki/history/debts) carried it out in three chunks ([the Debt-3 notes](/wiki/history/documents/debt-3-notes)).
+The open calculation was the notebook's open problem 3: "**Stream-instability growth rate** γ vs. orbital phase-mixing: determines whether Prediction 3's granularity survives in Milky-Way-like halos" (#1 §11). [The clumping problem](/wiki/history/main-problems) carried it out in three chunks ([the clumping notes](/wiki/history/documents/clumping-notes)).
 
-- **Debt 3a, [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem).** The mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 28–31 orders of magnitude at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), and below threshold there is no growth: "There is no race with orbital stirring below threshold — the flocking never starts" ('Limit 1'). Hence: "Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them" ('Consequences for the predictions table').
-- **Debt 3b, [wave island](/wiki/dark-matter/momentum-clumping/wave-island).** Collective behavior is possible there but not required. "Row 3 as written (Gaia/GD-1 granularity in MW-like halos) is dead on both islands as a *mandatory* signature" ('Standing results after Chunks A+B'), with MW for the Milky Way. Under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), "The surviving descendant of old rows 3–4 is therefore a sharply localized prediction: **anomalous central objects, density spikes, or disruption signatures in ultra-faint dwarfs, absent in classical dwarfs and the MW.**" Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), "streams are *tunable*, not mandatory".
-- **Debt 3c.** Scenario A fell to the ultra-faint dwarfs, and its descendant prediction with it: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." ('Verdict and closure of Debt 3'.)
+- **Calc note #2, [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem).** The mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 28–31 orders of magnitude at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), and below threshold there is no growth: "There is no race with orbital stirring below threshold — the flocking never starts" ('Limit 1'). Hence: "Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them" ('Consequences for the predictions table').
+- **Calc note #3, [wave island](/wiki/dark-matter/momentum-clumping/wave-island).** Collective behavior is possible there but not required. "Row 3 as written (Gaia/GD-1 granularity in MW-like halos) is dead on both islands as a *mandatory* signature" ('Standing results after Chunks A+B'), with MW for the Milky Way. Under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), "The surviving descendant of old rows 3–4 is therefore a sharply localized prediction: **anomalous central objects, density spikes, or disruption signatures in ultra-faint dwarfs, absent in classical dwarfs and the MW.**" Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), "streams are *tunable*, not mandatory".
+- **Calc note #4.** Scenario A fell to the ultra-faint dwarfs, and its descendant prediction with it: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." ('Verdict and closure of the clumping problem'.)
 
-The lab notebook's addendum v0.2 records the result: "Rows 3–4 are struck from §9 permanently". [Program v1](/wiki/history/documents/checkpoint): "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)" (#9 §9). [The checkpoint](/wiki/history/documents/checkpoint) lists both as "Withdrawn with cause" (#11 §13). The obituaries are [velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction), both in [the graveyard](/wiki/status/graveyard); the theorem that summarizes Debt 3 is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem).
+The lab notebook's addendum v0.2 records the result: "Rows 3–4 are struck from §9 permanently". [Program v1](/wiki/history/documents/checkpoint): "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)" (#9 §9). [The checkpoint](/wiki/history/documents/checkpoint) lists both as "Withdrawn with cause" (#11 §13). The obituaries are [velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction), both in [the graveyard](/wiki/status/graveyard); the theorem that summarizes the clumping problem is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem).
 
 The probes themselves are unaffected: streams and friction remain standard tests of dark-matter substructure. What died is the program's claim that they would show its signature.
 
@@ -105,9 +105,9 @@ The program's documents cite no source for streams, dynamical friction or the Fo
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 — "Withdrawn with cause"
-- `notes/debt3a-stream-stability.md` 'Limit 1 — broad gate (μ ≫ mσ; dwarf regime)', 'Consequences for the predictions table' — no growth below threshold; the withdrawal on the particle island
-- `notes/debt3b-wave-island.md` 'What pins g? Two scenarios', 'Standing results after Chunks A+B' — row 3 dead as a mandatory signature on both islands; Scenario A's descendant prediction; tunable streams
-- `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the permanent withdrawal on both islands
+- `notes/stream-stability.md` 'Limit 1 — broad gate (μ ≫ mσ; dwarf regime)', 'Consequences for the predictions table' — no growth below threshold; the withdrawal on the particle island
+- `notes/wave-island.md` 'What pins g? Two scenarios', 'Standing results after Chunks A+B' — row 3 dead as a mandatory signature on both islands; Scenario A's descendant prediction; tunable streams
+- `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the permanent withdrawal on both islands
 - `notes/broken-born-program-v1.md` §9 — "Withdrawn with cause, permanently"
 - `notes/broken-born-theory.md` §9 — old rows 3 and 4, verbatim; the flagship discriminants
-- `notes/broken-born-theory.md` §5.2, §10, §11, 'Addendum (v0.2, post Debt-3): resolution of open problem 3' — the founding image, suppressed friction and the Fornax timing problem; the parameter count; open problem 3; the rows struck
+- `notes/broken-born-theory.md` §5.2, §10, §11, 'Addendum (v0.2, after the clumping notes): resolution of open problem 3' — the founding image, suppressed friction and the Fornax timing problem; the parameter count; open problem 3; the rows struck

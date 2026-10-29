@@ -10,11 +10,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §7.4"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
   - "review/round3/referee/audit-notes.md Step 3"
   - "review/round3/referee/step3.py"
   - "notes/broken-born-theory.md §1"
@@ -28,11 +28,11 @@ sources:
 
 *The observation that the symplectic partner of the graviton is another graviton compares two ways of extending the geometry of spacetime to a doubled space, in which each coordinate has a partner. Each way holds one pairing of the doubled coordinates fixed, and the field that partners the metric is whatever that fixed pairing allows. [Double field theory](/wiki/phase-space/born-geometry/double-field-theory), the doubled geometry of string theory, fixes a symmetric pairing η, and the metric's partner is the antisymmetric [B-field](/wiki/phase-space/born-geometry/kalb-ramond-field), a 2-form gauge field that is harmless as far as spin goes. The program's phase space fixes the antisymmetric [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, and the metric's partner is the [momentum graviton X](/wiki/gravity/momentum-graviton), which is symmetric and has its own [linearized diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms): a second graviton, and two interacting massless gravitons are inconsistent. [Checkpoint #11](/wiki/history/documents/checkpoint) offers this as the structural reason string theory's doubling works while Born's stalled, and its assessment lists it as the one observation that stands regardless of the program's fate. It is derived and rests on literature [D + T]; it is a structural argument, and no script checks it.*
 
-**Status:** Alive — [D + T] in #11 §7.1 and [calc note #6](/wiki/history/documents/debt-1-notes) (`notes/debt1a-ii-X-classification.md` §2) — structural, not machine-checked; #11 §15 lists it as the program's one observation that "stands regardless of its fate".
+**Status:** Alive — [D + T] in #11 §7.1 and [calc note #6](/wiki/history/documents/field-equation-notes) (`notes/x-classification.md` §2) — structural, not machine-checked; #11 §15 lists it as the program's one observation that "stands regardless of its fate".
 
 ## The observation
 
-Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) states it as a parenthesis to the gauge structure of X, in a section tagged [D + T] (§2). DFT is double field theory:
+Calc note #6 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) states it as a parenthesis to the gauge structure of X, in a section tagged [D + T] (§2). DFT is double field theory:
 
 > (Contrast DFT: there the doubled partner is the antisymmetric B-field, δB = dλ, a 2-form gauge theory — spin-wise harmless. The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field. **This is the structural reason string theory's η-doubling exists and naive ω-doubling is hard: the symplectic partner of the graviton is another graviton.**)
 
@@ -136,8 +136,8 @@ The first popular article puts a date on the asymmetry: "(As a side effect, this
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the current statement, inside step (ii) of the chain; §7 — the plain-language passage; §15 — its standing; §5 — the Freidel–Leigh–Minic statement on B; §7.4 — the downgrade of the identity.
-- `notes/debt1a-ii-X-classification.md` §2 — the original statement [D + T]; §3 — the Euclidean-rigorous skeleton.
-- `notes/debt1a-geometric-core.md` §A — corollary 2, no Kalb–Ramond analog; §C — H_Z and X as the fluctuation that breaks η-compatibility; §D — the healthy precedent of double field theory.
+- `notes/x-classification.md` §2 — the original statement [D + T]; §3 — the Euclidean-rigorous skeleton.
+- `notes/geometric-core.md` §A — corollary 2, no Kalb–Ramond analog; §C — H_Z and X as the fluctuation that breaks η-compatibility; §D — the healthy precedent of double field theory.
 - `review/round3/referee/audit-notes.md` Step 3 and `review/round3/referee/step3.py` — the two families of metrics, checked by independent code.
 - `notes/broken-born-theory.md` §1 — η as a neutral metric; 'Addendum (v0.4)' — the notebook's statement.
 - `notes/broken-born-program-v1.md` §5, §11 — the v1 statement and its "two results" count.

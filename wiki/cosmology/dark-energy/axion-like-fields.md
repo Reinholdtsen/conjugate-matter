@@ -18,11 +18,11 @@ sources:
   - "papers/reciprocity-toy-models.md §4"
   - "verify/toy_coset.py"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt3b-wave-island.md 'Bonus: the relic debt closes itself'"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
+  - "notes/geometric-core.md §F"
+  - "notes/beta-coefficients.md §3"
+  - "notes/wave-island.md 'Bonus: the relic-abundance problem solves itself'"
   - "review/wiki-build-flags.md item 27"
   - "review/wiki-build-flags.md item 54"
   - "notes/closed-universe.md §2"
@@ -107,7 +107,7 @@ The worklog's revised conclusion uses this page's terms: the toy supports broken
 
 ### X: axion-like in the exact sense
 
-#11 §7.1, step (i): "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary." [Calc note #6](/wiki/history/documents/debt-1-notes) states the consequence: "X has no potential and no non-derivative couplings from the geometric sector alone — it is axion-like" (#6 §1, [D — rigorous]). Here the word means an exact shift symmetry with no explicit breaking, and X differs from an axion-like field in two ways.
+#11 §7.1, step (i): "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary." [Calc note #6](/wiki/history/documents/field-equation-notes) states the consequence: "X has no potential and no non-derivative couplings from the geometric sector alone — it is axion-like" (#6 §1, [D — rigorous]). Here the word means an exact shift symmetry with no explicit breaking, and X differs from an axion-like field in two ways.
 
 - **Not an angle.** X is a symmetric tensor field, the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, and the shift is by any constant symmetric matrix B; nothing in the record makes X periodic.
 - **Mass from absorbed modes, not a tilt.** "The mass cannot be written by hand (shift symmetry) — but it doesn't need to be." (#6 §3). X becomes massive by absorbing the Goldstone modes of broken [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms): "X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale" (#11 §7.1, step (iii); [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
@@ -116,14 +116,14 @@ The program's page for the symmetry is [shift symmetry: X is never auxiliary](/w
 
 ### Wave χ: produced "like an axion"
 
-On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), the light end of the mass range of [conjugate matter](/wiki/dark-matter/conjugate-matter) χ, [Debt 3b](/wiki/history/documents/debt-3-notes) borrows the axion's production route: "A field this light with only gravitational + self couplings is produced by misalignment, like an axion." ('Bonus: the relic debt closes itself'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)). The comparison concerns production only. The lab notebook takes χ to be a "complex scalar or Dirac fermion" (#1 §3), and no document gives χ a shift symmetry or a periodic potential; its self-attraction on the wave island is a gated contact coupling, not the quartic term of a cosine ([attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates#why-there-is-a-maximum-mass-t)).
+On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), the light end of the mass range of [conjugate matter](/wiki/dark-matter/conjugate-matter) χ, [calc note #3](/wiki/history/documents/clumping-notes) borrows the axion's production route: "A field this light with only gravitational + self couplings is produced by misalignment, like an axion." ('Bonus: the relic-abundance problem solves itself'; [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)). The comparison concerns production only. The lab notebook takes χ to be a "complex scalar or Dirac fermion" (#1 §3), and no document gives χ a shift symmetry or a periodic potential; its self-attraction on the wave island is a gated contact coupling, not the quartic term of a cosine ([attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates#why-there-is-a-maximum-mass-t)).
 
 ## What the record leaves open
 
-- **What breaks τ's shift symmetry.** [Calc note #5](/wiki/history/documents/debt-1-notes) lists "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" among the open problems (#5 §F); the toy models restate it as the need for a ρ-preserving potential ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)).
+- **What breaks τ's shift symmetry.** [Calc note #5](/wiki/history/documents/field-equation-notes) lists "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" among the open problems (#5 §F); the toy models restate it as the need for a ρ-preserving potential ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)).
 - **The sign of the potential.** [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`, whose addendum finds that a closed universe turns around with the potential as written.
 - **Couplings beyond tree level.** The lab notebook claims "no tree-level Yukawa" and does not estimate couplings induced through the potential; it gives no mass for τ and no coupling scale ([why "pseudo"-Goldstone](/wiki/cosmology/dark-energy/tau-fifth-force#why-pseudo-goldstone-t)).
-- **Mixing with the absorbed modes.** [Calc note #8](/wiki/history/documents/debt-1-notes) logs "Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness" (#8 §3), and it is item 6 of #11 §14 ([Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
+- **Mixing with the absorbed modes.** [Calc note #8](/wiki/history/documents/field-equation-notes) logs "Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness" (#8 §3), and it is item 6 of #11 §14 ([Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
 
 ## Standard references
 
@@ -156,10 +156,10 @@ Cited by the program: the checkpoint's [13]† includes D. G. Levkov, A. G. Pani
 - `verify/toy_coset.py` — the check of V_b at H = 1
 - `HANDOFF.md` §2 — "hilltop/axion quintessence on the Maslov circle"
 - `notes/toy-lagrangian.md` 'Chunk 3 results' — the vacua ±K_ref as "x is position" and "p is position"; "a pseudo-Goldstone polarization angle with a ρ-symmetric potential"; the explicit breaking "in the program anyway"
-- `notes/debt1a-ii-X-classification.md` §1 — X has no potential from geometry, "it is axion-like" [D — rigorous]; §3 — the mass cannot be written by hand
-- `notes/debt1a-geometric-core.md` §F — the origin of τ's potential under P2′, open
-- `notes/debt1a-iv-beta-coefficients.md` §3 — residual τ–Stückelberg mixing "expected small by compactness"
-- `notes/debt3b-wave-island.md` 'Bonus: the relic debt closes itself' — χ produced by misalignment, "like an axion"
+- `notes/x-classification.md` §1 — X has no potential from geometry, "it is axion-like" [D — rigorous]; §3 — the mass cannot be written by hand
+- `notes/geometric-core.md` §F — the origin of τ's potential under P2′, open
+- `notes/beta-coefficients.md` §3 — residual τ–Stückelberg mixing "expected small by compactness"
+- `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself' — χ produced by misalignment, "like an axion"
 - `notes/broken-born-theory.md` §2 — τ as a compact, 2πf-periodic modulus, periodicity [D]; §3 — the potential, its v0.1 origin in the rigid ω [P/O], and χ as a complex scalar or Dirac fermion; §4 — τ as a (pseudo-)Goldstone [D]; §7 — "hilltop axion quintessence" and the fits of hilltop and axion potentials
 - `review/wiki-build-flags.md` item 27 — the potential as written cannot go negative; its addendum — the closed turnaround
 - `review/wiki-build-flags.md` item 54 and `notes/closed-universe.md` §2 — the potential is Frieman, Hill, Stebbins and Waga's, uncited in #1 and #11, retrieved [S]

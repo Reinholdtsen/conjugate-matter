@@ -12,13 +12,13 @@ sources:
   - "review/round3/referee/audit-notes.md Step 3"
   - "review/round3/referee/step3.py family (c)"
   - "review/round3/referee/step3.out family (c)"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt3b-wave-island.md 'Next'"
-  - "notes/debt3c-ufd-endpoint.md 'Next: Debt 1, Chunk 1a'"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §2"
+  - "notes/wave-island.md 'Next'"
+  - "notes/ufd-endpoint.md 'Next: the field-equation problem, Chunk 1a'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §3"
   - "notes/broken-born-program-v1.md §5"
@@ -27,7 +27,7 @@ sources:
 
 *The Kalb–Ramond B-field is an antisymmetric tensor field, B_μν = −B_νμ, that does for a string what the electromagnetic potential does for a charged particle: a particle's quantum phase changes by the potential summed along its path, and a string's by the B-field summed over the surface the string sweeps out. Like the electromagnetic potential it is a gauge field, so it can be changed by a gauge transformation without changing anything measurable, and what is measurable locally is its field strength, built from its derivatives. It is one of the massless fields of closed string theory, with the metric and a scalar, the dilaton. T-duality, the symmetry of strings on a circle that exchanges momentum around the circle with winding around it, turns parts of the metric into parts of the B-field, and for that reason [double field theory](/wiki/phase-space/born-geometry/double-field-theory) puts the two in one matrix, the generalized metric, which preserves a [neutral metric η](/wiki/phase-space/born-geometry/born-structures). The program uses the B-field as established physics in three ways. Holding the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω rigid as well as η removes it ([corollary 2](/wiki/phase-space/born-geometry/compatibility-corollaries#corollary-2-no-kalbramond-analog) of the compatibility theorem). It is the antisymmetric counterpart of the program's own partner of the metric, the symmetric [momentum graviton X](/wiki/gravity/momentum-graviton): X is a second graviton, and the B-field is not. And its healthy propagation alongside the metric and the dilaton is the program's precedent for a doubled geometry whose kinetic terms have no [ghosts](/wiki/gravity/spin-2-fields/ghosts), modes that carry negative energy.*
 
-**Status:** Established — [T] — textbook string theory and double field theory, written here from general knowledge, with the works it names marked † (Kalb and Ramond 1974 †; Buscher 1987 †) and the double-field-theory papers as [double field theory](/wiki/phase-space/born-geometry/double-field-theory#references) lists them. The program's statements that involve the B-field are corollary 2 of the compatibility theorem, "[D — rigorous]" in calc note [#5](/wiki/history/documents/debt-1-notes) §A, which [checkpoint #11](/wiki/history/documents/checkpoint) §5 credits to Freidel, Leigh and Minic [26S]; and calc note #6's contrast with the momentum graviton, [D + T] (#6 §2; #11 §7.1). No `verify/` script checks either. The [round-3](/wiki/method/review/round-3) audit sampled generalized metrics with a B-field and found each compatible with η and not with ω, in scripts kept outside [the gate](/wiki/method/verification/the-gate).
+**Status:** Established — [T] — textbook string theory and double field theory, written here from general knowledge, with the works it names marked † (Kalb and Ramond 1974 †; Buscher 1987 †) and the double-field-theory papers as [double field theory](/wiki/phase-space/born-geometry/double-field-theory#references) lists them. The program's statements that involve the B-field are corollary 2 of the compatibility theorem, "[D — rigorous]" in calc note [#5](/wiki/history/documents/field-equation-notes) §A, which [checkpoint #11](/wiki/history/documents/checkpoint) §5 credits to Freidel, Leigh and Minic [26S]; and calc note #6's contrast with the momentum graviton, [D + T] (#6 §2; #11 §7.1). No `verify/` script checks either. The [round-3](/wiki/method/review/round-3) audit sampled generalized metrics with a B-field and found each compatible with η and not with ω, in scripts kept outside [the gate](/wiki/method/verification/the-gate).
 
 ## What the field is [T]
 
@@ -63,7 +63,7 @@ The B-field and the fluctuation of the metric are both two-index fields, and the
 
 Its kinetic term is the square of its field strength dB, as Maxwell's is the square of F, and the gauge symmetry removes the components that would otherwise propagate with negative energy, the [ghosts](/wiki/gravity/spin-2-fields/ghosts) [T]. In four spacetime dimensions a massless 2-form field is equivalent to a massless scalar field: its field strength can be rewritten as the dual of the gradient of a scalar [T].
 
-Calc note [#6](/wiki/history/documents/debt-1-notes) §2 summarizes the field as "a 2-form gauge theory — spin-wise harmless".
+Calc note [#6](/wiki/history/documents/field-equation-notes) §2 summarizes the field as "a 2-form gauge theory — spin-wise harmless".
 
 ## The B-field and T-duality [T]
 
@@ -149,7 +149,7 @@ Calc note #5 §D lists the field content of the broken vacuum and two signs that
 
 #5 wrote this before #6 classified X. In this wiki's reading, the precedent concerns an antisymmetric partner; #6 then found the program's partner to be symmetric, a second graviton, whose health became the question of [the tuning test](/wiki/gravity/tuning-test).
 
-Earlier, at the close of Debt 3, the next step was to linearize the lab notebook's geometric action "leaning on the known linearized-DFT spectrum" (#3 'Next'), which #4 tags "[T: graviton + two-form + dilaton]" ('Next: Debt 1, Chunk 1a'). The Debt-1 notes did not follow that plan ([the route that was planned, and the one taken](/wiki/gravity/tuning-test/geometric-action#the-route-that-was-planned-and-the-one-taken)).
+Earlier, at the close of the clumping problem, the next step was to linearize the lab notebook's geometric action "leaning on the known linearized-DFT spectrum" (#3 'Next'), which #4 tags "[T: graviton + two-form + dilaton]" ('Next: the field-equation problem, Chunk 1a'). The field-equation notes did not follow that plan ([the route that was planned, and the one taken](/wiki/gravity/tuning-test/geometric-action#the-route-that-was-planned-and-the-one-taken)).
 
 ## Three meanings of the letter B
 
@@ -173,7 +173,7 @@ The [notation page](/wiki/notation#letters-with-several-meanings) lists the coll
 
 In order of writing:
 
-- **Calc notes #3 and #4** ('Next'; 'Next: Debt 1, Chunk 1a'): the planned import of "the known linearized-DFT spectrum", "[T: graviton + two-form + dilaton]".
+- **Calc notes #3 and #4** ('Next'; 'Next: the field-equation problem, Chunk 1a'): the planned import of "the known linearized-DFT spectrum", "[T: graviton + two-form + dilaton]".
 - **Calc note #5** §A: corollary 2, "No Kalb–Ramond analog"; §D: the precedent, "graviton + B-field + dilaton, ghost-free".
 - **Calc note #6** §1: the symmetric shift Z → Z + B; §2: the B-field as "a 2-form gauge theory — spin-wise harmless", set against X.
 - **The [lab notebook](/wiki/history/documents/lab-notebook)**, v0.4 addendum: X's local gauge structure makes it "a *second graviton* — which is the structural reason η-doubling (string theory's B-field) is easy and ω-doubling is hard".
@@ -205,9 +205,9 @@ In order of writing:
 - `papers/broken-born-checkpoint-v2.md` §5 — "no Kalb–Ramond analog" among the corollaries; Freidel, Leigh and Minic's statement in terms of (G, B); the proof's block B; the positivity note; §7.1 — X against "DFT's antisymmetric B-field", and the symmetric B of Z → Z + B; ref. [26] — the metastring paper.
 - `review/round3/referee/audit-notes.md` Step 1 — the passage on p. 11 of arXiv:1502.08005; Step 3 — the B-field family's residuals, "B-field vanishes <=> I = H^-1 omega compatible", "a pointwise linear-algebra fact".
 - `review/round3/referee/step3.py` family (c) and `review/round3/referee/step3.out` — the generalized metric with a B-field as the script builds it, the positivity assertion, and the printed residuals.
-- `notes/debt1a-geometric-core.md` §A — corollary 2, "[D — rigorous]", and the proof's blocks; §C — H_Z and its off-diagonal block XY⁻¹; §D — the precedent "graviton + B-field + dilaton, ghost-free".
-- `notes/debt1a-ii-X-classification.md` §1 — the symmetric B of Z → Z + B; §2 — the contrast, "a 2-form gauge theory — spin-wise harmless".
-- `notes/debt3b-wave-island.md` 'Next' and `notes/debt3c-ufd-endpoint.md` 'Next: Debt 1, Chunk 1a' — the planned use of the linearized double-field-theory spectrum, "[T: graviton + two-form + dilaton]".
+- `notes/geometric-core.md` §A — corollary 2, "[D — rigorous]", and the proof's blocks; §C — H_Z and its off-diagonal block XY⁻¹; §D — the precedent "graviton + B-field + dilaton, ghost-free".
+- `notes/x-classification.md` §1 — the symmetric B of Z → Z + B; §2 — the contrast, "a 2-form gauge theory — spin-wise harmless".
+- `notes/wave-island.md` 'Next' and `notes/ufd-endpoint.md` 'Next: the field-equation problem, Chunk 1a' — the planned use of the linearized double-field-theory spectrum, "[T: graviton + two-form + dilaton]".
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "η-doubling (string theory's B-field) is easy and ω-doubling is hard".
 - `notes/broken-born-program-v1.md` §3, §5 — the corollary and the contrast in the v1 paper.
 - `review/wiki-build-flags.md` item 15 — #6 §2's "η antisymmetric-pairing vs ω", which reads as calling η antisymmetric.

@@ -12,12 +12,12 @@ sources:
   - "notes/broken-born-theory.md §5.1"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §9"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3)'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes)'"
   - "notes/broken-born-program-v1.md §6"
   - "notes/broken-born-program-v1.md §9"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt3b-wave-island.md 'Standing results after Chunks A+B'"
-  - "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/wave-island.md 'Standing results after Chunks A+B'"
+  - "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'"
   - "review/wiki-build-flags.md item 55"
   - "notes/gate-mechanism.md §3"
   - "notes/gate-mechanism.md §5"
@@ -91,11 +91,11 @@ No source records a measurement or a fit that tests the row. #11 §15 names rows
 
 ## Particles only
 
-The argument is a two-body Born calculation, and it holds on the particle island, where χ is a gas of classical particles. The Debt-3 calc notes, which established that collective effects need a wave ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)), kept the row on that island and left it open on the other ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)):
+The argument is a two-body Born calculation, and it holds on the particle island, where χ is a gas of classical particles. The clumping calc notes, which established that collective effects need a wave ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)), kept the row on that island and left it open on the other ([the clumping calc notes](/wiki/history/documents/clumping-notes)):
 
-- Calc note #2: on the particle island "Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional"; on the wave island "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/debt3a-stream-stability.md`, 'Consequences for the predictions table').
-- Calc note #3: "Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional." (`notes/debt3b-wave-island.md`, 'Standing results after Chunks A+B').
-- Calc note #4 lists "the exponential cliff + in-gate isotropy (particle island)" among what remains distinctively the program's own (`notes/debt3c-ufd-endpoint.md`, 'Verdict and closure of Debt 3').
+- Calc note #2: on the particle island "Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional"; on the wave island "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/stream-stability.md`, 'Consequences for the predictions table').
+- Calc note #3: "Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional." (`notes/wave-island.md`, 'Standing results after Chunks A+B').
+- Calc note #4 lists "the exponential cliff + in-gate isotropy (particle island)" among what remains distinctively the program's own (`notes/ufd-endpoint.md`, 'Verdict and closure of the clumping problem').
 
 The wave-island suppression law answers the re-derivation for the knee's tail only. No document restates isotropy for [the wave island](/wiki/dark-matter/momentum-clumping/wave-island), and #11 §14 does not itemize the task ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)). The notes still speak of an "exponential cliff" because they predate the downgrade of row 1 to a knee.
 
@@ -113,14 +113,14 @@ The wave-island suppression law answers the re-derivation for the knee's tail on
 | v1 (#9 §9) | "Scattering anisotropy (halo relaxation morphology)" | "Isotropic below the gate" | "Morphology demanding forward-peaked kernels" |
 | #11 §13 | "Scattering anisotropy" | "Isotropic below the gate" | "Morphology demanding forward peaking" |
 
-v0.1's standard expectation read "Forward-peaked (light mediator)", and v1 and #11 make it plural. After Debt 3 the lab notebook's v0.2 addendum listed "rows 1–2 (cliff, isotropy)" first among "The program's distinctive, still-live content". Unlike row 1, row 2 did not change in substance when the gate's mechanism was derived, because the argument uses only the gate's dependence on k, not its shape. The renumbering of the whole table is on [the history of the predictions table](/wiki/predictions/table-history).
+v0.1's standard expectation read "Forward-peaked (light mediator)", and v1 and #11 make it plural. After the clumping problem the lab notebook's v0.2 addendum listed "rows 1–2 (cliff, isotropy)" first among "The program's distinctive, still-live content". Unlike row 1, row 2 did not change in substance when the gate's mechanism was derived, because the argument uses only the gate's dependence on k, not its shape. The renumbering of the whole table is on [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 2 — the row; §8 — the amplitude, its tags and "isotropic below the gate versus Yukawa forward-peaking"; §12 — the χ-particle handles; §15 — the near-term exposure rows
-- `notes/broken-born-theory.md` §5.1 — the derivation of isotropy [D], the heavy-mediator assumption, the Born caveat and the transport remark; §3 — the v0.1 amplitude and k; §9 — the v0.1 row 2; 'Addendum (v0.2, post Debt-3)' — rows 1–2 among the live content
+- `notes/broken-born-theory.md` §5.1 — the derivation of isotropy [D], the heavy-mediator assumption, the Born caveat and the transport remark; §3 — the v0.1 amplitude and k; §9 — the v0.1 row 2; 'Addendum (v0.2, after the clumping notes)' — rows 1–2 among the live content
 - `notes/broken-born-program-v1.md` §6, §9 — v1's statement and row 2
-- `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 survive on the particle island, to be re-derived for waves
+- `notes/stream-stability.md` 'Consequences for the predictions table' — rows 1–2 survive on the particle island, to be re-derived for waves
 - `notes/gate-mechanism.md` §3 — "the variable no x-local mediator produces" holds only for the direct Born term; reading R2 isotropic; §5 — rows 1–3 among the text that depends on the tag
 - `review/wiki-build-flags.md` item 55 — the gate's mechanism not derived, awaiting Paul's ruling
-- `notes/debt3b-wave-island.md` 'Standing results after Chunks A+B' and `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — in-gate isotropy as surviving particle-island content
+- `notes/wave-island.md` 'Standing results after Chunks A+B' and `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — in-gate isotropy as surviving particle-island content

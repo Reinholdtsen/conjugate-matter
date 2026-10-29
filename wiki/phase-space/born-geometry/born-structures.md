@@ -12,11 +12,11 @@ sources:
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-program-v1.md §3"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-iii-tuning-test.md §1"
-  - "notes/debt1a-iii-tuning-test.md §2"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §F"
+  - "notes/tuning-test.md §1"
+  - "notes/tuning-test.md §2"
   - "papers/reciprocity-toy-models.md §1"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §5"
@@ -50,7 +50,7 @@ Each entry is a d × d block. In words [T]:
 - **η** also pairs each position component with its momentum component, but symmetrically. It is "a neutral (split-signature) metric" (#1 §1, P1): d of its directions have positive length and d negative. In the standard form a vector of pure position, or of pure momentum, has zero η-length, so the position subspace and the momentum subspace are both null. This is the sense in which η marks out the split into position and momentum.
 - **H** is positive definite, an ordinary ruler on phase space that measures position and momentum together. It is the structure that carries the geometry's dynamics: under [the original P2](/wiki/program/postulates/original-p2) "only H carries degrees of freedom" (#1 §1), and under [P2′](/wiki/program/postulates/p2-prime) it is fundamental together with ω (#5 §B).
 
-The three are not independent. The conditions that tie H to the other two, (η⁻¹H)² = +1 and (ω⁻¹H)² = −1, are what calc note [#5](/wiki/history/documents/debt-1-notes) §A calls "the full Born algebra"; which H satisfy both is the subject of [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem).
+The three are not independent. The conditions that tie H to the other two, (η⁻¹H)² = +1 and (ω⁻¹H)² = −1, are what calc note [#5](/wiki/history/documents/field-equation-notes) §A calls "the full Born algebra"; which H satisfy both is the subject of [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem).
 
 ## The operators I, J, K and the split-quaternion algebra
 
@@ -167,8 +167,8 @@ toy-model note §1; #11 §14 item 11:  η = ωK    K the real structure, K² = 1
 - `papers/reciprocity-toy-models.md` §1, §2, §5 and refs. [1], [3] — K as the real structure, η = ωK, its null lines, the circle K(φ), Marotta–Szabo.
 - `review/round3/referee/audit-notes.md` Step 1, Step 3 — the Born-geometry passage in arXiv:1502.08005 and the referee's I = H⁻¹ω.
 - `review/round4/referee/audit-notes.md` Step 1 — "we have to make eta dynamical"; Born sigma models.
-- `notes/debt1a-geometric-core.md` §A, §B, §F — "the full Born algebra"; ρ moving the order parameter; {J} ≅ Λ(d); the para-Hermitian neighbour.
-- `notes/debt1a-iii-tuning-test.md` §1, §2 — the incompatibility measure {J, I[Z]}; J₀ in the vacuum frame.
+- `notes/geometric-core.md` §A, §B, §F — "the full Born algebra"; ρ moving the order parameter; {J} ≅ Λ(d); the para-Hermitian neighbour.
+- `notes/tuning-test.md` §1, §2 — the incompatibility measure {J, I[Z]}; J₀ in the vacuum frame.
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — Freidel–Leigh–Minic on (η, J) as dynamical [S].
 - `notes/broken-born-theory.md` §1, §2 — the standard forms, the algebra tagged [T], ρ's action on the triple [D], the v0.1 order parameter and the ℤ₄ → ℤ₂ pattern.
 - `notes/broken-born-program-v1.md` §3 — the same algebra as "Born geometry in the sense of Freidel–Leigh–Minic [T]".

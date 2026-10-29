@@ -66,7 +66,7 @@ T3 checks the block form of the anticommutator on which [the misalignment potent
 S = Y + X Y⁻¹ X − Y⁻¹,        A = X Y⁻¹ − Y⁻¹ X = [X, Y⁻¹]
 ```
 
-#11 §7.2: "S = Y + XY⁻¹X − Y⁻¹, A = [X, Y⁻¹] (blocks machine-verified)". T3 checks the block form only. A statement in [calc note #7](/wiki/history/documents/debt-1-notes) about where those blocks vanish is a suspected source error, and its executed check prints a vanishing anticommutator at a point with X ≠ 0 (see flag 3 in `review/wiki-build-flags.md`; `review/wiki-build-checks/zero_locus.out`). T3 neither supports nor contradicts that statement, because it evaluates the blocks at one random point.
+#11 §7.2: "S = Y + XY⁻¹X − Y⁻¹, A = [X, Y⁻¹] (blocks machine-verified)". T3 checks the block form only. A statement in [calc note #7](/wiki/history/documents/field-equation-notes) about where those blocks vanish is a suspected source error, and its executed check prints a vanishing anticommutator at a point with X ≠ 0 (see flag 3 in `review/wiki-build-flags.md`; `review/wiki-build-checks/zero_locus.out`). T3 neither supports nor contradicts that statement, because it evaluates the blocks at one random point.
 
 ### T4: the linearized potential is not of Fierz–Pauli form
 

@@ -3,7 +3,7 @@
 Sources (read in full):
   #1  notes/broken-born-theory.md  §3: M(k,q) = 4 pi alpha m/(q^2+m_phi^2) * exp(-k^2/mu^2), k = m v_rel/2
                                     §5.1: sigma_T = sigma_0 exp(-v^2/v*^2), v* = sqrt2 mu/m, mu = m v*/sqrt2 ~ 20 keV
-  #6  notes/debt1a-ii-X-classification.md §4: "Wavepacket overlap of Gaussian profiles gives exactly
+  #6  notes/x-classification.md §4: "Wavepacket overlap of Gaussian profiles gives exactly
        exp(-(p1-p2)^2/2mu^2) -- the postulated gate, with mu = the chi quantum's own p-width"
   #13 papers/conjugate-special-relativity.md §4: "intrinsic momentum-space width mu ~ hbar/lambda_chi --
        precisely the gate scale ..., v* = sqrt2 mu/m_chi"

@@ -1,6 +1,6 @@
-# Debt 3, Chunk C: The ultra-faint-dwarf endpoint — closing Debt 3
+# The clumping problem, Chunk C: The ultra-faint-dwarf endpoint — closing the clumping problem
 
-*Working note. Status: complete. Verdict: Scenario A falsified; Debt 3 closed.*
+*Working note. Status: complete. Verdict: Scenario A falsified; the clumping problem closed.*
 
 ## The question
 
@@ -34,14 +34,14 @@ This crosses the UFD core mass (~10⁶ M_⊙) at m ≈ 5×10⁻²¹ eV. Two bran
 
 Observed UFDs are the densest, most DM-dominated, oldest systems known — Segue 1 has M/L ~ 10³ and a ~13 Gyr stellar population sitting in an intact, *dense* halo. Branch (i) predicts the opposite of what is observed; Branch (ii) is excluded before we arrive. Robustness checks: shrinking v* makes it worse (σ⁻⁶ leverage boosts R to ~10⁵); growing v* leaves R unchanged; κ < 1 is by definition Scenario B. No parameter direction rescues it.
 
-## Verdict and closure of Debt 3
+## Verdict and closure of the clumping problem
 
-**Scenario A is falsified by the existence of ultra-faint dwarfs.** Combined with the chunk-A theorem (no collective behavior on the particle island) and the chunk-B Scenario-B verdict (tunable, never mandatory, on the wave island), Debt 3 closes with a clean, honest result:
+**Scenario A is falsified by the existence of ultra-faint dwarfs.** Combined with the chunk-A theorem (no collective behavior on the particle island) and the chunk-B Scenario-B verdict (tunable, never mandatory, on the wave island), the clumping problem closes with a clean, honest result:
 
 > **Nowhere in the viable parameter space of BBT is velocity-space clumping a mandatory phenomenon.** It is forbidden for classical-particle χ, fatal where it would have been mandatory (Scenario A), and merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction).
 
 Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them. What remains distinctively BBT's own: the exponential cliff + in-gate isotropy (particle island), the cliff-sharpness **island discriminant** (exponential vs (v*/σ)⁴), the dark-energy sector (thawing, no-phantom, turnaround — live at DESI DR3), and the permanent nulls (direct detection, monopoles, linear dispersion). The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings.
 
-## Next: Debt 1, Chunk 1a
+## Next: the field-equation problem, Chunk 1a
 
-Linearize S_H on the broken vacuum. Sub-plan: (1a-i) mode content at quadratic order on flat background, importing the known linearized-DFT spectrum [T: graviton + two-form + dilaton]; (1a-ii) ghost check of the quadratic action with ω, η frozen; (1a-iii) extract the dynamical equation for the g̃-block — Born's debt, first direct installment. This is the heaviest chunk; expect subdivision.
+Linearize S_H on the broken vacuum. Sub-plan: (1a-i) mode content at quadratic order on flat background, importing the known linearized-DFT spectrum [T: graviton + two-form + dilaton]; (1a-ii) ghost check of the quadratic action with ω, η frozen; (1a-iii) extract the dynamical equation for the g̃-block — the field-equation problem, first direct step. This is the heaviest chunk; expect subdivision.

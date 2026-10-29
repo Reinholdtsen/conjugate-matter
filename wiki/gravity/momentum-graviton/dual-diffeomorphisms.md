@@ -5,12 +5,12 @@ status: alive
 description: "Local shifts δX_μν = ∂₍μλ_ν₎ form a second copy of linearized diffeomorphisms because X is symmetric, which makes X a second graviton."
 provenance: [D, T]
 sources:
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.1"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
@@ -21,11 +21,11 @@ sources:
 
 *Dual diffeomorphisms are the local form of the [momentum graviton](/wiki/gravity/momentum-graviton)'s [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry): instead of adding the same constant matrix to X everywhere, X may be shifted by the symmetrized derivative of a vector field λ_μ(x) that varies from point to point, δX_μν = ∂₍μλ_ν₎. In linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity), the small ripple of the metric has exactly this kind of redundancy under small changes of coordinates, and that redundancy is what makes it a massless spin-2 field, the graviton. X is a symmetric tensor with the same redundancy, so it is a second graviton-like gauge field. A theorem excludes a second massless graviton that interacts with the first, and this identification, together with the [ghost](/wiki/gravity/spin-2-fields/ghosts) that a symmetric tensor without the gauge symmetry carries, is what forces X to become massive. The step is derived from the structure of the doubled geometry and rests on standard linearized gravity [D + T]; no document writes an action for X in which the symmetry can be checked, and no script checks it.*
 
-**Status:** Alive — [D + T] in [calc note #6](/wiki/history/documents/debt-1-notes) (`notes/debt1a-ii-X-classification.md` §2) and in step (ii) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 — a structural argument, not machine-checked.
+**Status:** Alive — [D + T] in [calc note #6](/wiki/history/documents/field-equation-notes) (`notes/x-classification.md` §2) and in step (ii) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 — a structural argument, not machine-checked.
 
 ## The statement
 
-Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its section headed "The gauge structure and the no-go [D + T]":
+Calc note #6 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)), in its section headed "The gauge structure and the no-go [D + T]":
 
 > The local version of these shifts sits inside the ω-generalized diffeomorphisms: dual-diffeomorphism parameters λ_μ(x) act as δX_μν = ∂_(μ λ_ν) — because X is **symmetric**, this is a *second copy of linearized diffeomorphisms*, making X a second graviton-like gauge field.
 
@@ -96,9 +96,9 @@ The mass comes from the vacuum. #6 §3: "The vacuum ⟨Z⟩ = i·g sits at X = 0
 
 ## Sources
 
-- `notes/debt1a-ii-X-classification.md` §2 — the local shifts and the no-go [D + T]; §1 — the constant shifts; §3 — the breaking by the vacuum, the eaten modes and the Euclidean-rigorous skeleton.
+- `notes/x-classification.md` §2 — the local shifts and the no-go [D + T]; §1 — the constant shifts; §3 — the breaking by the vacuum, the eaten modes and the Euclidean-rigorous skeleton.
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the current statement, step (ii) of the chain.
-- `notes/debt1a-geometric-core.md` §C — X as the fluctuation that breaks η-compatibility; §D — the field counts and the unperformed expansion with "ω-generalized diffeomorphisms as the gauge symmetry".
+- `notes/geometric-core.md` §C — X as the fluctuation that breaks η-compatibility; §D — the field counts and the unperformed expansion with "ω-generalized diffeomorphisms as the gauge symmetry".
 - `notes/broken-born-theory.md` §1, §4 — the v0.1 claim of no second graviton; 'Addendum (v0.4)' — the reversal.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement.
 - `notes/knot-dark-matter-standalone.md` §1 — the withdrawn manuscript's compressed version.

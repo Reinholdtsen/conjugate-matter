@@ -26,7 +26,7 @@ print(f"range hbar/(m_chi c) = {hbarc_MeVfm/(mchi*1e3)*1e-15:.4e} m")
 sig0 = 30*mchi*GeV_g                # cm^2  (sigma0/m = 30 cm^2/g)
 print(f"sigma0 = 30 cm^2/g x m_chi = {sig0:.4e} cm^2")
 g_contact = 4*m.pi/mchi**2
-print(f"Debt-3a g = 4 pi alpha~/m_phi^2 at m_phi = m_chi = 70 MeV: {g_contact:.4e} GeV^-2;  sqrt(pi sigma0/m^2) = {m.sqrt(m.pi*sig0/GeV_cm2/mchi**2):.4e} GeV^-2")
+print(f"calc note #2's g = 4 pi alpha~/m_phi^2 at m_phi = m_chi = 70 MeV: {g_contact:.4e} GeV^-2;  sqrt(pi sigma0/m^2) = {m.sqrt(m.pi*sig0/GeV_cm2/mchi**2):.4e} GeV^-2")
 
 print("=== P4 (chi-nucleon via single X exchange, contact Born, factorised couplings) ===")
 mu_cN = mchi*mN/(mchi + mN); mu_cc = mchi/2
@@ -87,7 +87,7 @@ vstar = 120.0
 for name, phi in (("Earth orbit (v_orb = 29.8)", 29.8**2), ("MW at Sun (v_c = 230)", 230**2), ("classical dwarf 3 sigma^2, sigma = 10", 3*10**2), ("UFD 3 sigma^2, sigma = 4", 3*4**2)):
     print(f"{name:40s}: eps/beta = 2|Phi|/v*^2 = {2*phi/vstar**2:.4f}")
 fr = (vstar/155)**3/(2*m.pi)**1.5
-print(f"record's co-moving fraction (Debt 3a) at sigma = 155: {fr:.4f}; times MW eps/beta = {fr*2*230**2/vstar**2:.4f}")
+print(f"record's co-moving fraction (calc note #2) at sigma = 155: {fr:.4f}; times MW eps/beta = {fr*2*230**2/vstar**2:.4f}")
 fr2 = (vstar/155)**3/8
 print(f"alternative convention (Gaussian gate exp(-v_rel^2/v*^2) over the relative-velocity Maxwellian, dispersion sqrt2 sigma): {fr2:.4f}")
 

@@ -5,21 +5,21 @@ status: established
 description: "Coherent production of a light field displaced from its minimum in the early universe, as for axions — the relic route the wave island borrows."
 provenance: [T]
 sources:
-  - "notes/debt3b-wave-island.md 'Bonus: the relic debt closes itself'"
-  - "notes/debt3b-wave-island.md 'Standing results after Chunks A+B'"
+  - "notes/wave-island.md 'Bonus: the relic-abundance problem solves itself'"
+  - "notes/wave-island.md 'Standing results after Chunks A+B'"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "notes/broken-born-theory.md §5.3"
   - "notes/broken-born-theory.md §11"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3): resolution of open problem 3'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes): resolution of open problem 3'"
   - "notes/broken-born-program-v1.md §7"
 ---
 
 *The misalignment mechanism is a way of producing dark matter as a coherent field rather than as a thermal gas of particles. In the [early universe](/wiki/cosmology/early-universe) a very light scalar field starts at some value away from the minimum of its potential and stays frozen there while the universe expands faster than the field can oscillate; once the expansion rate falls below the field's mass, the field oscillates about its minimum, and the energy of the oscillation then thins out with the expansion as cold matter does. It is the standard production route for [axions](/wiki/cosmology/dark-energy/axion-like-fields#as-dark-matter). The Comatter program borrows it as the production channel for [the wave branch](/wiki/dark-matter/momentum-clumping/wave-island) of [conjugate matter](/wiki/dark-matter/conjugate-matter), a channel the particle branch still lacks; [the ratio of dark to ordinary matter](/wiki/dark-matter/candidates/polarization-genesis) stays unexplained on both.*
 
-**Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/debt3b-wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for both [dark-sector candidates](/wiki/dark-matter/candidates) (`papers/broken-born-checkpoint-v2.md` §12).
+**Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for both [dark-sector candidates](/wiki/dark-matter/candidates) (`papers/broken-born-checkpoint-v2.md` §12).
 
 ## The mechanism [T]
 
@@ -41,11 +41,11 @@ The name comes from the axion. There the field is an angle, and its initial valu
 
 ### The wave island's production channel
 
-[Debt 3b](/wiki/history/documents/debt-3-notes) found that the light branch of conjugate matter, the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), is such a field, and drew the consequence ('Bonus: the relic debt closes itself'):
+[Calc note #3](/wiki/history/documents/clumping-notes) found that the light branch of conjugate matter, the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), is such a field, and drew the consequence ('Bonus: the relic-abundance problem solves itself'):
 
 > A field this light with only gravitational + self couplings is produced by misalignment, like an axion. Open problem #5 (cannibalism-safe relic abundance) is moot on the wave island: misalignment is the mechanism, and Ω_χ trades against (m, χ_i) in the standard way.
 
-The note does not define χ_i; in the standard treatment the relic density depends on the field's initial value [T], which is the natural reading of χ_i. Debt 3b's summary: "relic debt resolved by misalignment" ('Standing results after Chunks A+B'). [Program v1](/wiki/history/documents/checkpoint) states the same as salvage from Debt 3: "the wave island gets its relic abundance from misalignment for free, closing a separate open problem" (#9 §7). [The checkpoint](/wiki/history/documents/checkpoint) lists among the Debt-3 salvage "free relic abundance via misalignment on the wave island" (#11 §9). The program's page for the application is [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic).
+The note does not define χ_i; in the standard treatment the relic density depends on the field's initial value [T], which is the natural reading of χ_i. Calc note #3's summary: "the relic-abundance problem resolved by misalignment" ('Standing results after Chunks A+B'). [Program v1](/wiki/history/documents/checkpoint) states the same as salvage from the clumping problem: "the wave island gets its relic abundance from misalignment for free, closing a separate open problem" (#9 §7). [The checkpoint](/wiki/history/documents/checkpoint) lists among the clumping salvage "free relic abundance via misalignment on the wave island" (#11 §9). The program's page for the application is [relic abundance by misalignment on the wave island](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic).
 
 The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, and the checkpoint counts its tunable collective sector among the program's [degeneration risks](/wiki/program/assessment): "tunable wave-island collective sector (quarantined)" (#11 §15).
 
@@ -55,11 +55,11 @@ For particle χ, on the MeV–GeV [particle island](/wiki/dark-matter/momentum-c
 
 ### What it leaves open
 
-Misalignment supplies a production channel; it does not explain the amount. Debt 3b: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [the X-condensate](/wiki/dark-matter/candidates/x-condensate): "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
+Misalignment supplies a production channel; it does not explain the amount. Calc note #3: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [the X-condensate](/wiki/dark-matter/candidates/x-condensate): "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
 
 ### A numbering note
 
-Debt 3b's "Open problem #5" is item 5 of the lab notebook's open problems, "**Relic abundance** without cannibalism: needs the asymmetric mechanism of (4)" (#1 §11), not item 5 of the checkpoint's list, which is [the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement). The lab notebook's addendum v0.2 states the closure more broadly than Debt 3b does — "open problems 3 and 5 close (5 via misalignment production on the wave island)" — while Debt 3b confines it to the wave island. The wiki follows the checkpoint: the channel exists on the wave island, and the ratio stays open for both candidates.
+Calc note #3's "Open problem #5" is item 5 of the lab notebook's open problems, "**Relic abundance** without cannibalism: needs the asymmetric mechanism of (4)" (#1 §11), not item 5 of the checkpoint's list, which is [the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement). The lab notebook's addendum v0.2 states the closure more broadly than calc note #3 does — "open problems 3 and 5 close (5 via misalignment production on the wave island)" — while calc note #3 confines it to the wave island. The wiki follows the checkpoint: the channel exists on the wave island, and the ratio stays open for both candidates.
 
 ## References
 
@@ -80,6 +80,6 @@ The program's documents cite no source for the misalignment mechanism. Added by 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §9, §12, §14, §15 — the salvage item; the 5.4 : 1 question for both candidates; open problem 7; the quarantined wave-island sector
-- `notes/debt3b-wave-island.md` 'Bonus: the relic debt closes itself', 'Standing results after Chunks A+B' — the program's use of misalignment and its limits
-- `notes/broken-born-theory.md` §5.3, §11, 'Addendum (v0.2, post Debt-3): resolution of open problem 3' — the particle-side relic problem; the v0.1 open-problem numbering; the broader closure claim
-- `notes/broken-born-program-v1.md` §7 — misalignment as Debt-3 salvage in v1
+- `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself', 'Standing results after Chunks A+B' — the program's use of misalignment and its limits
+- `notes/broken-born-theory.md` §5.3, §11, 'Addendum (v0.2, after the clumping notes): resolution of open problem 3' — the particle-side relic problem; the v0.1 open-problem numbering; the broader closure claim
+- `notes/broken-born-program-v1.md` §7 — misalignment as clumping salvage in v1

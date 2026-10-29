@@ -5,7 +5,7 @@
   a_n = <psi_n | p0_1D^1/2> (1D Hermite-function overlaps, computed by quadrature)
 - critical gt at given kappa^2 = (k/k_J)^2
 - mode structure: overlap of top eigenvector with the gravity (density) mode, velocity width of delta f
-- Debt 3a comparison
+- Calc note #2 comparison
 """
 import sys, math
 import numpy as np
@@ -110,7 +110,7 @@ if __name__ == '__main__':
             print(f"{gate:6s} r={r:7.4f}: gt_c(kappa^2=1.1,2,4.4,10,25) = " + ", ".join(f"{x:.4g}" for x in row)
                   + f"   [kappa^2/Lam_g(gauss) at 4.4: {4.4/Lam_g_closed(r):.4g}; kappa^2-1 at 4.4: 3.4]")
 
-    print("\n=== D. Debt 3a narrow-gate substitution vs the linearized result (contact range) ===")
+    print("\n=== D. Calc note #2 narrow-gate substitution vs the linearized result (contact range) ===")
     print("3a: g n_gate/(m v*^2) >= 1 with n_gate = n (v*/sigma)^3/(2pi)^1.5   [sigma -> v*]")
     print("exact static: g n Lam(r)/(m sigma^2) >= 1, Lam(r) = top eigenvalue of p0^1/2 W p0^1/2 (gate alone)")
     print("ratio R = (g required, exact)/(g required, 3a narrow form) = (2pi)^-1.5 r^-1 / Lam(r)  [Gaussian W = exp(-s^2/2)]")

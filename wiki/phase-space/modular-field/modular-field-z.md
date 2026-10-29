@@ -6,14 +6,14 @@ description: "Once only ω is rigid, all of phase-space geometry fits one comple
 provenance: [D]
 sources:
   - "papers/broken-born-checkpoint-v2.md §6"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
+  - "notes/tuning-test.md §2"
+  - "notes/beta-coefficients.md §4"
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "notes/broken-born-program-v1.md §4"
@@ -23,8 +23,8 @@ sources:
   - "verify/battery.py T2"
   - "review/round3/referee/audit-notes.md Step 3"
   - "HANDOFF.md §2"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-ii-X-classification.md §2"
+  - "notes/geometric-core.md §E"
+  - "notes/x-classification.md §2"
   - "notes/broken-born-theory.md §2"
   - "review/wiki-build-flags.md items 3, 23, 55"
   - "notes/gate-mechanism.md §2"
@@ -103,7 +103,7 @@ Calc note #5 left open whether X propagates healthily, is auxiliary, or is a [gh
 
 ## Open: the Re Z sector of the geometric action (OP1)
 
-Calc note #5 restated the lab notebook's first debt in terms of Z: "Born's debt, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (§C). The debt is the lab notebook's first open problem, "The field equation for H beyond minisuperspace — Born's 88-year debt" (#1 §11; [the three debts](/wiki/history/debts)). S_H is the notebook's geometric action, written with ω and η both frozen ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action), superseded).
+Calc note #5 restated the lab notebook's first main problem in terms of Z: "The field-equation problem, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*" (§C). The problem is the lab notebook's first open problem, "The field equation for H beyond minisuperspace — the question Born left open in 1938" (#1 §11; [the three main problems](/wiki/history/main-problems)). S_H is the notebook's geometric action, written with ω and η both frozen ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action), superseded).
 
 Calc note #5 also defined the direct route (§D): "expand the generalized curvature scalar of (ω, H_Z) to quadratic order in X about X = 0 on the section, with ω-generalized diffeomorphisms as the gauge symmetry". No document reports that expansion; calc note #6 classified X by symmetry and no-go arguments instead, and the tuning test selected the ghost-free class by minimality and consistency. #11 §14 keeps the gap open as item 1: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]" ([Open: deriving the wedge sector from S_H](/wiki/gravity/tuning-test/wedge-reduction)). S_H also presupposes the Born connection, whose uniqueness is proved for the full triple (ω, η, H) but not for the (ω, H)-only structure of P2′ (#5 §F item 5; [the Born connection](/wiki/phase-space/born-geometry/born-connection)). Both appear on [open problems and the queue](/wiki/status/open-problems).
 
@@ -116,21 +116,21 @@ Calc note #5 also defined the direct route (§D): "expand the generalized curvat
 ## History
 
 - **Lab notebook, v0.3 addendum.** Z entered with the P2 → P2′ correction: τ and the Grassmannian are "restored, now as the boundary phase of a single **modular field** Z = X + iY on the Siegel domain Sp(2d,ℝ)/U(d): Im Z = g (the metric), Re Z = X (the momentum graviton — the local fluctuation of the emergent polarization)" ([the lab notebook](/wiki/history/documents/lab-notebook)).
-- **Calc note #5** (an overnight working note) gives the argument above in §C and lists "Born's debt reframed from slogan to a specific sector of a specific field (Re Z)" among its results (§F; [the Debt-1 notes](/wiki/history/documents/debt-1-notes)).
+- **Calc note #5** (an overnight working note) gives the argument above in §C and lists "The field-equation problem reframed from slogan to a specific sector of a specific field (Re Z)" among its results (§F; [the field-equation notes](/wiki/history/documents/field-equation-notes)).
 - **#9 §4** restates the identifications, with the parametrization "verified explicitly: I[Z]² = −1".
 - **#11 §6** is the current statement. `HANDOFF.md` §2 lists the modular field among the results that stand, marked "✓ (parametrization identities)": the check mark covers the algebra, not the readings.
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §6 — the identifications [D] and the [V] on I[Z]² = −1.
-- `notes/debt1a-geometric-core.md` §C — the Siegel domain under P2′, Im Z = g, Re Z = X, the modular unification, Born's debt restated.
-- `notes/debt1a-geometric-core.md` §B, §D, §E, §F — Branch R; the unperformed curvature expansion and the field counts; Re Z as the gate mediator; the night's closing summary and open item 5.
-- `notes/debt1a-ii-X-classification.md` §1, §2, §3 — the shift symmetry; the dual diffeomorphisms; the vacuum ⟨Z⟩ = i·g at X = 0, the Higgs mechanism and the positive-H caveat.
-- `notes/debt1a-iii-tuning-test.md` §2 — {J₀, I[Z]} = [[S, A], [A, S]] and the compatible locus.
-- `notes/debt1a-iv-beta-coefficients.md` §4 — "X = Re Z, the reciprocity-odd partner of the metric".
+- `notes/geometric-core.md` §C — the Siegel domain under P2′, Im Z = g, Re Z = X, the modular unification, the field-equation problem restated.
+- `notes/geometric-core.md` §B, §D, §E, §F — Branch R; the unperformed curvature expansion and the field counts; Re Z as the gate mediator; the night's closing summary and open item 5.
+- `notes/x-classification.md` §1, §2, §3 — the shift symmetry; the dual diffeomorphisms; the vacuum ⟨Z⟩ = i·g at X = 0, the Higgs mechanism and the positive-H caveat.
+- `notes/tuning-test.md` §2 — {J₀, I[Z]} = [[S, A], [A, S]] and the compatible locus.
+- `notes/beta-coefficients.md` §4 — "X = Re Z, the reciprocity-odd partner of the metric".
 - `papers/broken-born-checkpoint-v2.md` §7, §14 — the chain that makes X massive; open item 1.
 - `notes/broken-born-program-v1.md` §4 — the same identifications in #9.
-- `notes/broken-born-theory.md` v0.3 addendum, §2, §3, §11 — the introduction of Z with P2′; fields on a Lagrangian leaf; the v0.1 metric split; Born's debt.
+- `notes/broken-born-theory.md` v0.3 addendum, §2, §3, §11 — the introduction of Z with P2′; fields on a Lagrangian leaf; the v0.1 metric split; the field-equation problem.
 - `verify/battery.py` T2 — the parametrization identities at one sampled point.
 - `review/round3/referee/audit-notes.md` Step 3 — X ≠ 0 breaks η-compatibility numerically; the auditor's caution.
 - `HANDOFF.md` §2 — the handoff's one-screen state, with the check mark on the parametrization identities.

@@ -8,19 +8,19 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.2"
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
   - "papers/broken-born-checkpoint-v2.md ref [12]"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §4"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §5"
+  - "notes/x-classification.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "HANDOFF.md §2"
 ---
 
 *In the vielbein, or frame, formulation of gravity the basic variable is a frame field e: at each point of spacetime, a set of reference axes that are orthonormal by definition, from which the metric is built as a quadratic expression, g = eᵀηe. The program calls frames first-order variables and metrics, being quadratic in frames, second-order. Hinterbichler and Rosen showed that the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) potentials coupling two spin-2 fields can be written as wedge products of the two frames: polynomials, with none of the matrix square roots that the same potentials need when written with metrics. The program's [tuning test](/wiki/gravity/tuning-test) passed only in this form: candidate mass potentials for the [momentum graviton X](/wiki/gravity/momentum-graviton) built from metrics [fail the ghost test](/wiki/gravity/tuning-test/metric-tier-failures), while the frame-built one lands in the ghost-free class. That the program's potential takes the frame form was selected for minimality and consistency rather than derived, which is [an open problem](/wiki/gravity/tuning-test/wedge-reduction).*
 
-**Status:** Established — [T] — the Hinterbichler–Rosen construction is cited in the [checkpoint](/wiki/history/documents/checkpoint) as [12†], from model memory and not yet source-checked. The program's use of it, [the frame tier](/wiki/gravity/tuning-test/frame-tier), is tagged "[D — structural, resting on T]" in [#7](/wiki/history/documents/debt-1-notes) §3. No test of [the verification battery](/wiki/method/verification/battery) covers the frame tier, and the class was selected rather than derived: [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction).
+**Status:** Established — [T] — the Hinterbichler–Rosen construction is cited in the [checkpoint](/wiki/history/documents/checkpoint) as [12†], from model memory and not yet source-checked. The program's use of it, [the frame tier](/wiki/gravity/tuning-test/frame-tier), is tagged "[D — structural, resting on T]" in [#7](/wiki/history/documents/field-equation-notes) §3. No test of [the verification battery](/wiki/method/verification/battery) covers the frame tier, and the class was selected rather than derived: [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction).
 
 ## Frames and metrics
 
@@ -105,7 +105,7 @@ A pass did not yet fix the potential's coefficients: "What a pass does **not** y
 ### Status of the program's use
 
 - **Tag.** The frame tier is "[D — structural, resting on T]" (#7 §3). The checkpoint tags its §7.2 [D][V], but the machine checks there are the block algebra (battery T3) and the metric-tier failures (T4, T7); no test covers the frame tier, so the wiki tags it [D] ([conflicts between sources](/wiki/history/documents/source-conflicts); [the verification battery](/wiki/method/verification/battery)).
-- **Selected, not derived.** Calc note #8 lists among [Debt 1](/wiki/history/debts)'s open residue "(i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line)" (#8 §5). It is item 1 of the checkpoint's open problems: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]" (#11 §14). Here S_H is the program's geometric action ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)). The open problem has its own page: [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction).
+- **Selected, not derived.** Calc note #8 lists among [the field-equation problem](/wiki/history/main-problems)'s open residue "(i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line)" (#8 §5). It is item 1 of the checkpoint's open problems: "First-principles reduction of the frame-tier wedge sector from S_H (class selected, not derived) [O]" (#11 §14). Here S_H is the program's geometric action ([the geometric action S_H](/wiki/gravity/tuning-test/geometric-action)). The open problem has its own page: [Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction).
 
 ## Standard references
 
@@ -124,8 +124,8 @@ A pass did not yet fix the potential's coefficients: "What a pass does **not** y
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7.2, §14 item 1, ref [12] — the frame-tier couplings as the Hinterbichler–Rosen class; the open derivation; the citation, marked †.
-- `notes/debt1a-iii-tuning-test.md` §2, §3, §4 — the metric tier; wedge potentials, the symplectic vielbein, the tier argument and the verdict; the constrained bimetric picture.
-- `notes/debt1a-iv-beta-coefficients.md` §1, §5 — the wedge sector as a Hassan–Rosen potential; the class selected, not derived.
-- `notes/debt1a-ii-X-classification.md` §3 — the one known consistent structure for a massive spin-2 field.
+- `notes/tuning-test.md` §2, §3, §4 — the metric tier; wedge potentials, the symplectic vielbein, the tier argument and the verdict; the constrained bimetric picture.
+- `notes/beta-coefficients.md` §1, §5 — the wedge sector as a Hassan–Rosen potential; the class selected, not derived.
+- `notes/x-classification.md` §3 — the one known consistent structure for a massive spin-2 field.
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the verdict as first recorded.
 - `HANDOFF.md` §2 — the verdict in the one-screen state.

@@ -11,15 +11,15 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §13 row 6"
   - "papers/broken-born-checkpoint-v2.md §14"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §D"
+  - "notes/tuning-test.md §4"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §5"
+  - "notes/x-classification.md §3"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §4"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §D"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
@@ -30,13 +30,13 @@ sources:
   - "review/wiki-build-flags.md item 8"
 ---
 
-*Constrained bimetric gravity is the picture of the program's gravity that [the tuning test](/wiki/gravity/tuning-test) leaves. [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is a [ghost-free](/wiki/gravity/spin-2-fields/ghosts) theory of two interacting metrics, each with its own dynamics. In the program's version the second frame is not a free field: it is the polarization frame, built from the [polarization J](/wiki/symmetry-breaking/order-parameter), and J ranges only over the compact space [Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) of splittings of phase space into position and momentum, which is ten-dimensional at d = 4. [Calc note #7](/wiki/history/documents/debt-1-notes) calls the result a predictive truncation of bimetric theory, with fewer free functions. In it the massless combination of the two spin-2 fields is the ordinary graviton, the massive one is the [momentum graviton X](/wiki/gravity/momentum-graviton), and the light direction of the compact space is the [dark-energy field τ](/wiki/phase-space/modular-field/maslov-phase). [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) then restricts the potential to its [palindromic branch](/wiki/gravity/palindromic-branch), and with the condition for a flat vacuum two free parameters remain. The picture is a structural derivation; the standard bimetric facts it uses come from the literature, and nothing in it is machine-checked.*
+*Constrained bimetric gravity is the picture of the program's gravity that [the tuning test](/wiki/gravity/tuning-test) leaves. [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is a [ghost-free](/wiki/gravity/spin-2-fields/ghosts) theory of two interacting metrics, each with its own dynamics. In the program's version the second frame is not a free field: it is the polarization frame, built from the [polarization J](/wiki/symmetry-breaking/order-parameter), and J ranges only over the compact space [Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) of splittings of phase space into position and momentum, which is ten-dimensional at d = 4. [Calc note #7](/wiki/history/documents/field-equation-notes) calls the result a predictive truncation of bimetric theory, with fewer free functions. In it the massless combination of the two spin-2 fields is the ordinary graviton, the massive one is the [momentum graviton X](/wiki/gravity/momentum-graviton), and the light direction of the compact space is the [dark-energy field τ](/wiki/phase-space/modular-field/maslov-phase). [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) then restricts the potential to its [palindromic branch](/wiki/gravity/palindromic-branch), and with the condition for a flat vacuum two free parameters remain. The picture is a structural derivation; the standard bimetric facts it uses come from the literature, and nothing in it is machine-checked.*
 
 **Status:** Alive — [D — structural] in calc note #7 §4, with the standard bimetric facts [T] — not machine-checked; carried into the technical abstract (§1) and §7 of [checkpoint #11](/wiki/history/documents/checkpoint) with d = 4, as Λ(4).
 
 ## The claim
 
-Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) heads its §4 "The picture that emerges: constrained bimetric gravity [D — structural]":
+Calc note #7 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) heads its §4 "The picture that emerges: constrained bimetric gravity [D — structural]":
 
 > J carries only the 10 compact moduli of U(d)/O(d) — not a full second metric. So the "second vielbein" E₀[J] is confined to a compact 10-dimensional moduli space. BBT's geometric sector is therefore
 
@@ -93,7 +93,7 @@ dRGT is de Rham–Gabadadze–Tolley ([dRGT massive gravity](/wiki/gravity/spin-
 
 - **Structural, not computed.** The picture is [D — structural] and the bimetric facts [T]; no [battery](/wiki/method/verification/battery) test covers it. #11 cites the bimetric literature from model memory, pending the literature check ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)).
 - **The second frame is selected.** The frame-tier potential that defines the coupling was selected by minimality and consistency, not derived from the geometric action ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)). No document writes E₀[J] out explicitly.
-- **Euclidean skeleton.** The Debt-1 results are derived for a positive-definite metric ([Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
+- **Euclidean skeleton.** The field-equation results are derived for a positive-definite metric ([Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 - **τ and the eaten modes.** Residual mixing of τ with the modes X absorbs is open problem 6, "τ–Stückelberg mixing matrix [O]" (#11 §14; [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
 - **[Equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector).** The symmetry that fixes the branch also forces "equal effective Planck masses" for the two metrics (#8 §3). The standalone manuscript #14, since withdrawn for unrelated reasons ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)), lists "the stability of a heavy spin-2 field at equal Planck masses" as "an open consistency condition" (#14 §1). #11 §14 does not list it ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
 
@@ -107,11 +107,11 @@ dRGT is de Rham–Gabadadze–Tolley ([dRGT massive gravity](/wiki/gravity/spin-
 
 ## Sources
 
-- `notes/debt1a-iii-tuning-test.md` §4 — the picture [D — structural], the bimetric facts [T] and the superseded safety reading; §3 — the polarization frame in the frame tier; §5 — "sharper and more predictive".
+- `notes/tuning-test.md` §4 — the picture [D — structural], the bimetric facts [T] and the superseded safety reading; §3 — the polarization frame in the frame tier; §5 — "sharper and more predictive".
 - `papers/broken-born-checkpoint-v2.md` §1, §7 — the current statement with Λ(4); §7.1 — M_X; §7.5 and §13 row 6 — the two parameters and the massless even eigenstate; §14 — open problem 6.
-- `notes/debt1a-ii-X-classification.md` §3 — the conditional form before the test; τ un-eaten flagged.
-- `notes/debt1a-iv-beta-coefficients.md` §1 — the two frames (e, f = E₀[J]); §3 — the parameter count, equal Planck masses, safety by range and τ not eaten; §4 — Born's answer with Λ(d).
-- `notes/debt1a-geometric-core.md` §B — the space of real structures is Λ(d); §D — the ten σ-modes.
+- `notes/x-classification.md` §3 — the conditional form before the test; τ un-eaten flagged.
+- `notes/beta-coefficients.md` §1 — the two frames (e, f = E₀[J]); §3 — the parameter count, equal Planck masses, safety by range and τ not eaten; §4 — Born's answer with Λ(d).
+- `notes/geometric-core.md` §B — the space of real structures is Λ(d); §D — the ten σ-modes.
 - `notes/broken-born-theory.md` §2 — Λ(d) compact, of dimension 10 for d = 4, and the nine heavy directions assumed; 'Addendum (v0.4)', 'Addendum (v0.5)', 'Addendum (v0.6)' — the notebook's statements.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement with Λ(4).
 - `notes/knot-dark-matter-standalone.md` §1 — stability at equal Planck masses as an open condition.

@@ -6,14 +6,14 @@ description: "Shift symmetry, dual diffeomorphisms, the multi-graviton no-go and
 provenance: [D, T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §7.1"
-  - "notes/debt1a-ii-X-classification.md §1–§3"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §5"
+  - "notes/x-classification.md §1–§3"
+  - "notes/x-classification.md §5"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §E"
+  - "notes/geometric-core.md §F"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "notes/broken-born-theory.md §1"
@@ -35,7 +35,7 @@ sources:
 
 *The forcing chain is the sequence of arguments in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1 that leaves the [momentum graviton X](/wiki/gravity/momentum-graviton) one consistent option: to be a massive spin-2 field. [Shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry) rules out an auxiliary X, a field with no motion of its own. The [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) make X a second graviton-like gauge field. If that gauge symmetry stays unbroken, X is a second massless graviton, and a theorem excludes two massless gravitons that interact; X has to interact, with the metric and with [dark matter](/wiki/dark-matter). If the gauge symmetry is dropped from the kinetic term, the time–space components of a symmetric tensor carry kinetic energy of the wrong sign in spacetime's signature, a [ghost](/wiki/gravity/spin-2-fields/ghosts). Mass is the exit that remains, and it comes from the vacuum's choice of [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations). The chain replaced an earlier three-way question about X (healthy, auxiliary, or a ghost that would have killed the program's geometric sector) with the answer "massive spin-2, conditionally healthy", the condition being [the tuning test](/wiki/gravity/tuning-test). It is derived and rests on literature theorems [D + T]; no script checks it.*
 
-**Status:** Alive — [D + T] in #11 §7.1 and [calc note #6](/wiki/history/documents/debt-1-notes) (`notes/debt1a-ii-X-classification.md` §2) — a chain of symmetry and no-go arguments, not machine-checked; the three-way classification it replaced is superseded (below).
+**Status:** Alive — [D + T] in #11 §7.1 and [calc note #6](/wiki/history/documents/field-equation-notes) (`notes/x-classification.md` §2) — a chain of symmetry and no-go arguments, not machine-checked; the three-way classification it replaced is superseded (below).
 
 ## The chain as the checkpoint states it
 
@@ -43,7 +43,7 @@ sources:
 
 > (i) The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary. (ii) Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric* (contrast DFT's antisymmetric B-field: the symmetry type of the rigid pairing dictates the partner's spin). Massless X is excluded by the multi-graviton no-go [8†]; ungauged X by Lorentz signature. (iii) The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale. The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†].
 
-The † marks citations from model memory, not yet checked against the source, and dRGT is de Rham–Gabadadze–Tolley. X is the real part of [the modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, whose imaginary part is the spacetime metric g. The derivation is calc note #6 §1–§3 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), with these steps and tags:
+The † marks citations from model memory, not yet checked against the source, and dRGT is de Rham–Gabadadze–Tolley. X is the real part of [the modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, whose imaginary part is the spacetime metric g. The derivation is calc note #6 §1–§3 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)), with these steps and tags:
 
 | Step | What it establishes | Tag in #6 | Page |
 | --- | --- | --- | --- |
@@ -156,9 +156,9 @@ The P2 constraint, [a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the chain [D + T]; §1 — the abstract's list of structural results; §7.2 — the tuning test [D][V] and the frame tier; §14 — open items 1 and 3; §15 — "four consecutive consistency tests"; ref [8] — the no-go, marked †.
-- `notes/debt1a-ii-X-classification.md` §1–§3 — the derivation, with its tags; §5 — the resolved classification and the remaining computation.
-- `notes/debt1a-geometric-core.md` §D — the three-way classification as first posed; §C — H_Z, through which X couples to g; §E — the coupling of χ to X through the dual stress; §F — the classification as the next computation.
-- `notes/debt1a-iii-tuning-test.md` §3 — the verdict of the tuning test; §5 — the "three structural tests" count.
+- `notes/x-classification.md` §1–§3 — the derivation, with its tags; §5 — the resolved classification and the remaining computation.
+- `notes/geometric-core.md` §D — the three-way classification as first posed; §C — H_Z, through which X couples to g; §E — the coupling of χ to X through the dual stress; §F — the classification as the next computation.
+- `notes/tuning-test.md` §3 — the verdict of the tuning test; §5 — the "three structural tests" count.
 - `notes/broken-born-theory.md` §1, §4 — the v0.1 claim of no second graviton; 'Addendum (v0.3, overnight)' — the classification restated; 'Addendum (v0.4)' — the chain and its result.
 - `review/round3/referee/audit-notes.md` Step 1 — the no-go abstract and its caveats; Step 3 — the auditor's caution.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement of the chain.

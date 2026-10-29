@@ -13,7 +13,7 @@ sources:
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §9"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3)'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes)'"
   - "notes/broken-born-program-v1.md §9"
   - "papers/conjugate-special-relativity.md §6"
   - "papers/conjugate-special-relativity.md §1"
@@ -99,7 +99,7 @@ No document applies these statements to row 9, restates the protection argument 
 
 [Conjugate special relativity](/wiki/conjugate-relativity) (#13 §6) adds a reading of the same bounds; #13 tags the bounds [T] and gives the reading no tag of its own:
 
-> "One free consistency dividend already available: since our massless dispersion E = c|p| *is* the dual null cone, the Fermi-LAT bounds excluding linear photon-dispersion violations [T] constrain both cones at once — every test of our light cone's rigidity has been, unknowingly, a test of theirs."
+> "One free consistency check already available: since our massless dispersion E = c|p| *is* the dual null cone, the Fermi-LAT bounds excluding linear photon-dispersion violations [T] constrain both cones at once — every test of our light cone's rigidity has been, unknowingly, a test of theirs."
 
 The dual null cone is the light cone of momentum space ([two causal cones](/wiki/conjugate-relativity/two-causal-cones)). The reading is unsettled. #13 §1 builds its dual cone in time and momentum, with slope the [maximum force c̃](/wiki/conjugate-relativity/maximum-force), while §6's statement, in the v3 worklog's words, "belongs to the 4D Born map (t ↔ E): a cone in (E, p) with slope c". The worklog's instruction: "Before any paper claims more: fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" (`review/v3-worklog.md`, item O3; [Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency#the-photon-dispersion-argument)). The four-dimensional map itself is open ([Open: the four-dimensional Born map and dual dynamics](/wiki/conjugate-relativity/four-dimensional-born-map)). #11's row makes no reference to #13.
 
@@ -125,12 +125,12 @@ The data are consistent with the row: no linear dispersion has been found, and b
 | v1 (#9 §9) | "Linear term exactly zero (protected by ρ²); quadratic allowed, suppressed" | "Confirmed linear-in-E dispersion" |
 | #11 §13 | "Linear exactly zero (ρ²-protected); quadratic suppressed" | "Confirmed linear-in-E dispersion" |
 
-The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1 and v2.2 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [Debt 3](/wiki/history/debts), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, post Debt-3)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
+The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1 and v2.2 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [the clumping problem](/wiki/history/main-problems), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, after the clumping notes)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 9 — the row; §4 — P2′ and the Goldstone-angle refinement [D][V]; §5 — discrete polarizations under strict P2; §15 — the near-term rows
-- `notes/broken-born-theory.md` §4 — the protection argument [D, schematic] and the bound [T]; §2 — the breaking pattern ℤ₄ → ℤ₂ [D]; §3 — the scale M_B; §9 — v0.1's row 9; 'Addendum (v0.2, post Debt-3)' — "permanent nulls". Quotations are transcribed from its LaTeX.
+- `notes/broken-born-theory.md` §4 — the protection argument [D, schematic] and the bound [T]; §2 — the breaking pattern ℤ₄ → ℤ₂ [D]; §3 — the scale M_B; §9 — v0.1's row 9; 'Addendum (v0.2, after the clumping notes)' — "permanent nulls". Quotations are transcribed from its LaTeX.
 - `notes/broken-born-program-v1.md` §9 — v1's row 9
 - `papers/reciprocity-toy-models.md` §1, §2 and `verify/toy_coset.py` (anchors, S2) — ρ² = −1 and the stabilizer {±1} in the coset model [V]
 - `review/round4/referee/audit-notes.md` Step 2(c), Step 3 — the residual group {±1, ±ρ} with the potential at frozen H

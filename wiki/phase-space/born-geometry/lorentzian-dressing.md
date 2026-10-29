@@ -10,14 +10,14 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §1"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §15"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §5"
+  - "notes/geometric-core.md §D"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §5"
+  - "notes/beta-coefficients.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §10 item 2"
@@ -34,7 +34,7 @@ sources:
 
 ## The open item
 
-Checkpoint [#11](/wiki/history/documents/checkpoint) §14 item 3 reads in full: "Lorentzian dressing of the Euclidean-rigorous skeleton [O]." #11 does not define the phrase. Calc note [#6](/wiki/history/documents/debt-1-notes) §3 does: "The chain of §1–§3 is the Euclidean-rigorous skeleton; the Lorentzian dressing rides on the same FP/HR machinery it lands on." FP is Fierz–Pauli and HR is Hassan–Rosen, the theories of massive and bimetric gravity in which the chain ends. The three steps of that chain ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)):
+Checkpoint [#11](/wiki/history/documents/checkpoint) §14 item 3 reads in full: "Lorentzian dressing of the Euclidean-rigorous skeleton [O]." #11 does not define the phrase. Calc note [#6](/wiki/history/documents/field-equation-notes) §3 does: "The chain of §1–§3 is the Euclidean-rigorous skeleton; the Lorentzian dressing rides on the same FP/HR machinery it lands on." FP is Fierz–Pauli and HR is Hassan–Rosen, the theories of massive and bimetric gravity in which the chain ends. The three steps of that chain ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)):
 
 1. **The shift symmetry** [D — rigorous] (#6 §1). The rigid [symplectic group](/wiki/phase-space/reciprocity/symplectic-form) contains Z → Z + B, so constant shifts of X are exact symmetries and X is "axion-like" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
 2. **The gauge structure and the no-go** [D + T] (#6 §2). Dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎, a second copy of linearized diffeomorphisms, and a second massless graviton that couples to the first is excluded by the multi-graviton no-go ([dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms); [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go)).
@@ -79,8 +79,8 @@ No document spells out the computation that would close the item. #6 expects the
 
 The item was first flagged in #6 §3 and listed again in that note's §5 ("Lorentzian-signature dressing (§3)"). Every later document carries it, and none reports a computation:
 
-- **A check, not the substance.** Calc note #7 lists "(iii) Lorentzian dressing of the Euclidean skeleton" among the remaining [Debt-1](/wiki/history/debts) items and ranks it: "Items (ii)–(iv) are checks; item (i) is the substance" (#7 §5). The [notebook](/wiki/history/documents/lab-notebook)'s v0.5 addendum calls the same three items "logged checks".
-- **None of it existential.** Calc note #8 closes Debt 1 as "structurally paid" with an "Open residue, none of it existential", item (ii) being the Lorentzian dressing (#8 §5); the notebook's v0.6 addendum repeats "Residual open items (none existential)".
+- **A check, not the substance.** Calc note #7 lists "(iii) Lorentzian dressing of the Euclidean skeleton" among the remaining [the field-equation problem](/wiki/history/main-problems) items and ranks it: "Items (ii)–(iv) are checks; item (i) is the substance" (#7 §5). The [notebook](/wiki/history/documents/lab-notebook)'s v0.5 addendum calls the same three items "logged checks".
+- **None of it existential.** Calc note #8 closes the field-equation problem as "solved in structure" with an "Open residue, none of it existential", item (ii) being the Lorentzian dressing (#8 §5); the notebook's v0.6 addendum repeats "Residual open items (none existential)".
 - **The open lists.** #9 §10 item 2; the handoff's open item 5, "First-principles wedge reduction from S_H; Lorentzian dressing of the Euclidean skeleton" (`HANDOFF.md` §2); #11 §14 item 3.
 - **What "theory" waits on.** #9 §11: "The word 'theory' awaits items 1–2 of §10", where item 2 is this one. #11 §15: "That is a live research program; the word 'theory' still waits on items 1–3 above", the other two being [the wedge-sector derivation (OP1)](/wiki/gravity/tuning-test/wedge-reduction) and [the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) ([the assessment](/wiki/program/assessment)).
 
@@ -93,9 +93,9 @@ The two rankings are consistent as written: the notes do not expect the extensio
 - `papers/broken-born-checkpoint-v2.md` §6 — the Siegel domain's Y > 0.
 - `papers/conjugate-special-relativity.md` preamble, §1, §2 — #13 inherits the caveat; its null cones and dual interval.
 - `HANDOFF.md` §2 — open item 5.
-- `notes/debt1a-ii-X-classification.md` §1–§3, §5 — the chain, the caveat, U(1, d−1), the definition of the Euclidean-rigorous skeleton; the item listed as open.
-- `notes/debt1a-geometric-core.md` §D — the positive-definite Siegel target metric.
-- `notes/debt1a-iii-tuning-test.md` §2, §5 — the Euclidean frame of the tuning test; the dressing as a check.
-- `notes/debt1a-iv-beta-coefficients.md` §5 — the residue, "none of it existential".
+- `notes/x-classification.md` §1–§3, §5 — the chain, the caveat, U(1, d−1), the definition of the Euclidean-rigorous skeleton; the item listed as open.
+- `notes/geometric-core.md` §D — the positive-definite Siegel target metric.
+- `notes/tuning-test.md` §2, §5 — the Euclidean frame of the tuning test; the dressing as a check.
+- `notes/beta-coefficients.md` §5 — the residue, "none of it existential".
 - `notes/broken-born-theory.md` 'Addendum (v0.5)', 'Addendum (v0.6)' — the logged checks; "none existential".
 - `notes/broken-born-program-v1.md` §10 item 2, §11 — the stabilizer U(1,3) at d = 4; "theory" awaits items 1–2.

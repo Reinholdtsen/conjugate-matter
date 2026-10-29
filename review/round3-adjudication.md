@@ -124,7 +124,7 @@ rational"). Claude made them. Paul keeps the veto.
      Liveoak–Maharana–Wells's model. Nothing in it depends on Born
      reciprocity (the referee and the pre-registration agree), so claiming
      it would add no testable content and would misattribute it.
-   - The program's precedent is the Debt 3 obituary: a dead claim is
+   - The program's precedent is the clumping obituary: a dead claim is
      reported prominently and stays dead.
    - Consequence: the trilemma becomes two program-native candidates (gated
      χ particles; the X-condensate), plus the remark that the framework is

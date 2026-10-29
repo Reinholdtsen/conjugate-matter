@@ -5,33 +5,33 @@ status: alive
 description: "Meeting the criterion forces m ≲ 0.1 meV, where N_occ ~ 10²⁰: collective velocity dynamics and classical-particle dark matter exclude each other, so MeV–GeV χ scatters but cannot clump."
 provenance: [D]
 sources:
-  - "notes/debt3a-stream-stability.md 'Corollary'"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
-  - "notes/debt3a-stream-stability.md 'Setup'"
+  - "notes/stream-stability.md 'Corollary'"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
+  - "notes/stream-stability.md 'Setup'"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §8"
-  - "notes/debt3b-wave-island.md 'Setup'"
-  - "notes/debt3b-wave-island.md 'The rate'"
-  - "notes/debt3b-wave-island.md 'Standing results'"
-  - "notes/debt3c-ufd-endpoint.md 'Verdict and closure'"
+  - "notes/wave-island.md 'Setup'"
+  - "notes/wave-island.md 'The rate'"
+  - "notes/wave-island.md 'Standing results'"
+  - "notes/ufd-endpoint.md 'Verdict and closure'"
   - "notes/broken-born-program-v1.md §7"
   - "HANDOFF.md §3 row 2"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "notes/broken-born-theory.md §5.3"
   - "review/wiki-build-flags.md items 16, 19"
   - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
-  - "review/wiki-build-checks/debt3a_check.py"
-  - "review/wiki-build-checks/debt3a_check.out"
+  - "review/wiki-build-checks/stream_stability_check.py"
+  - "review/wiki-build-checks/stream_stability_check.out"
 ---
 
 *The classicality theorem says that dark matter coupled strongly enough to clump in velocity must be so light that it behaves as a wave, not as a collection of separate particles. It follows from the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion): at the scattering strength that fits dwarf-galaxy cores, the criterion can be met only for masses below about 0.1 meV, and at such masses about 10²⁰ quanta share each quantum state, which is the regime of a classical wave. The program therefore splits dark matter into two regimes: a particle island, with χ masses of MeV to GeV, where dark matter scatters but cannot clump, and a [wave island](/wiki/dark-matter/momentum-clumping/wave-island) of far lighter masses. The theorem is derived at mean-field level and stands.*
 
-**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/debt3a-stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script computes m_crit or N_occ. Of the [Debt-3](/wiki/history/debts) numbers, the gate checks only the shortfall of the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) the theorem starts from, in section D of `verify/velocity_gated_gravity.py` (flag 16, addendum of 2026-10-28; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). A recomputation made while building the wiki, outside `verify/`, prints m_crit and N_occ in both gate limits (flag 19; see [Scope](#scope)).
+**Status:** Alive — [D] ([#11](/wiki/history/documents/checkpoint) §9 (i)), derived in `notes/stream-stability.md` ("Corollary (the classicality theorem)"). Mean-field level, at fixed σ₀/m. Not machine-checked: no `verify/` script computes m_crit or N_occ. Of the [the clumping problem](/wiki/history/main-problems) numbers, the gate checks only the shortfall of the [mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) the theorem starts from, in section D of `verify/velocity_gated_gravity.py` (flag 16, addendum of 2026-10-28; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). A recomputation made while building the wiki, outside `verify/`, prints m_crit and N_occ in both gate limits (flag 19; see [Scope](#scope)).
 
 ## Statement
 
-[3a](/wiki/history/documents/debt-3-notes), 'Corollary (the classicality theorem)':
+[#2](/wiki/history/documents/clumping-notes), 'Corollary (the classicality theorem)':
 
 > By the time the coupling is strong enough for collective behavior, the sector is deep in the wave regime. Collective velocity-space dynamics and classical-particle dark matter are mutually exclusive within this framework. This is a theorem-grade statement at mean-field level, not a benchmark accident.
 
@@ -45,7 +45,7 @@ The argument has three steps: how the stream criterion depends on the particle m
 
 ### Step 1: the criterion grows as the mass falls
 
-Write S ≡ σ₀/m for the cross-section per unit mass, the quantity that dwarf-core fits constrain ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)). 3a: "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS) ρ/(m^{5/2}σ²)."
+Write S ≡ σ₀/m for the cross-section per unit mass, the quantity that dwarf-core fits constrain ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)). #2: "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS) ρ/(m^{5/2}σ²)."
 
 The note states the scaling without the intermediate line. The substitution below is the wiki's reading, not printed in the note. It starts from the broad-gate form of the criterion, g n/(mσ²), takes the model's definition g = √(πσ₀/m²) ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), and writes σ₀ = Sm and n = ρ/m:
 
@@ -58,7 +58,7 @@ At fixed S and fixed halo density ρ and [dispersion σ](/wiki/dark-matter/halo-
 
 ### Step 2: the critical mass
 
-Setting the criterion equal to 1 gives the mass below which streams could form (3a):
+Setting the criterion equal to 1 gives the mass below which streams could form (#2):
 
 ```text
 m_crit = [√(πS) ρ/σ²]^{2/5} ≈ 10⁻¹³ GeV ~ 0.1 meV      (Milky Way conditions)
@@ -68,7 +68,7 @@ The scaling is the broad-gate form of the criterion, evaluated at Milky Way cond
 
 ### Step 3: the occupation number at that mass
 
-The occupation number counts how many particles share one quantum state: the number of particles in a cube one de Broglie wavelength on a side. 3a: "At that mass the per-mode occupation is"
+The occupation number counts how many particles share one quantum state: the number of particles in a cube one de Broglie wavelength on a side. #2: "At that mass the per-mode occupation is"
 
 ```text
 N_occ = n λ_dB³ = ρ/(m⁴σ³) ~ 10²⁰ ≫ 1
@@ -80,32 +80,32 @@ When N_occ ≫ 1, the particles are described as a classical wave field, in the 
 
 ### The conclusion
 
-At fixed S and in a given halo, the criterion can be met only by lowering m, and lowering m drives N_occ up as m⁻⁴, faster than the criterion's m^{−5/2}. By the time the criterion reaches 1, the dark matter is a wave with about 10²⁰ quanta per state (3a). The particle picture and collective velocity-space dynamics therefore never meet within the framework at mean-field level. The note does not spell out "not a benchmark accident". On the wiki's reading, it refers to m_crit depending on S and on the halo's ρ and σ but not on the benchmark mass of 70 MeV, so the conclusion does not hinge on the choice of χ mass. The faster growth of N_occ does not by itself guarantee N_occ ≫ 1 at m_crit; the margin, N_occ ~ 10²⁰, is computed for Milky Way conditions at the benchmark value of S.
+At fixed S and in a given halo, the criterion can be met only by lowering m, and lowering m drives N_occ up as m⁻⁴, faster than the criterion's m^{−5/2}. By the time the criterion reaches 1, the dark matter is a wave with about 10²⁰ quanta per state (#2). The particle picture and collective velocity-space dynamics therefore never meet within the framework at mean-field level. The note does not spell out "not a benchmark accident". On the wiki's reading, it refers to m_crit depending on S and on the halo's ρ and σ but not on the benchmark mass of 70 MeV, so the conclusion does not hinge on the choice of χ mass. The faster growth of N_occ does not by itself guarantee N_occ ≫ 1 at m_crit; the margin, N_occ ~ 10²⁰, is computed for Milky Way conditions at the benchmark value of S.
 
 ## The particle island
 
-The theorem splits the mass range in two. The particle island is the classical side. 3a, 'Consequences for the predictions table':
+The theorem splits the mass range in two. The particle island is the classical side. #2, 'Consequences for the predictions table':
 
 > **Particle island** (m_χ ~ MeV–GeV): Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional. Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them. On this island BBT is cliff-shaped SIDM plus Maslov quintessence.
 
 Here BBT is Broken-Born theory, the program's earlier name, and SIDM is [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). The rows are those of the lab notebook's [prediction table](/wiki/predictions/table-history). Rows 1 and 2, the velocity dependence of the scattering cross-section and the isotropy of scattering inside the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), are about two-body collisions, which need no collective instability; that is the sense of "they are collisional". Rows 3 and 4 needed the instability and are withdrawn: [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), condensed cores and Fornax friction suppression. "Maslov quintessence" is the program's dark-energy field ([τ quintessence](/wiki/cosmology/dark-energy/tau-quintessence)).
 
-3b's standing result after the first two notes: "Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional." (3b, 'Standing results after Chunks A+B'). 3c lists the same pair among the survivors: "the exponential cliff + in-gate isotropy (particle island)".
+#3's standing result after the first two notes: "Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional." (#3, 'Standing results after Chunks A+B'). #4 lists the same pair among the survivors: "the exponential cliff + in-gate isotropy (particle island)".
 
 **Since then.** The "cliff" of the notes, a Gaussian cut-off e^{−v²/v\*²} of the cross-section above v\*, has become a knee whose tail is open (#11 §8; [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law)). The surviving rows are now [row 1, the knee](/wiki/predictions/self-interaction-knee), and [row 2, isotropy](/wiki/predictions/scattering-isotropy). The particle island is the home of the [χ-particle candidate](/wiki/dark-matter/candidates/chi-particles); #11 §12 lists its handles as "knee at v\*, sharp tail; isotropic scattering; permanent direct-detection null". The particle side of [the island discriminant](/wiki/predictions/island-discriminant), the sharp knee, is this island's signature.
 
 ## The wave island
 
-The other side of the theorem is the range of very light masses, where N_occ ≫ 1 and dark matter is a wave. 3a: "**Wave island** (m_χ ≲ meV, N_occ ≫ 1): the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams". Its treatment needs [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics) rather than [the Vlasov equation](/wiki/dark-matter/momentum-clumping/vlasov-stability), and it has its own section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island).
+The other side of the theorem is the range of very light masses, where N_occ ≫ 1 and dark matter is a wave. #2: "**Wave island** (m_χ ≲ meV, N_occ ≫ 1): the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams". Its treatment needs [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics) rather than [the Vlasov equation](/wiki/dark-matter/momentum-clumping/vlasov-stability), and it has its own section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island).
 
-The island's upper edge is written differently in the three notes: "m_χ ≲ meV" (3a), "m ≲ 0.1 meV" (3b, Setup), and 10⁻⁴ eV in 3c's final range, "roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings". 3c's range closed Debt 3 and is the one this wiki uses.
+The island's upper edge is written differently in the three notes: "m_χ ≲ meV" (#2), "m ≲ 0.1 meV" (#3, Setup), and 10⁻⁴ eV in #4's final range, "roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings". #4's range closed the clumping problem and is the one this wiki uses.
 
 ## Scope
 
 - **Mean-field level.** The theorem rests on the mean-field criterion, which is itself bracketed by two limits rather than solved in general ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)).
 - **Fixed σ₀/m.** The scaling holds the cross-section per unit mass at its dwarf-core value; #11 §9 states the premise as "at fixed σ₀/m". On the wave island the question becomes a [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) instead of this criterion, and under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) the coupling is free instead of fixed.
-- **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV. The scaling has the broad-gate form, with σ² in the denominator, while 3a's Limit 2 places the Milky Way in the narrow-gate regime and its benchmark table evaluates the Milky Way row with v\*; the note does not discuss the difference. Flag 19 in `review/wiki-build-flags.md` records it, with an executed check made while building the wiki, `review/wiki-build-checks/debt3a_check.py`. With 3a's inputs, the check prints `m_crit = 1.4e-13 GeV = 0.14 meV` and `N_occ(m_crit) = 5.5e+19` for the broad form, and `m_crit (narrow-gate form) = 4.2e-14 GeV` and `N_occ at narrow-gate m_crit = 6.8e+21` for the narrow form with v\* fixed (`review/wiki-build-checks/debt3a_check.out`). In the flag's words, "N_occ ≫ 1 either way, so the conclusion (collective behaviour needs wave dark matter) is unchanged". The check is not part of [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh`, and the flag awaits Paul's ruling. The flags' audit rated it as depending on how the corollary is read. Read as a ceiling on m, it is right: 3a's narrow form is at most 0.064× the broad one, so 1.4e-13 GeV caps m, which is how #11 §9 uses it ("forces m ≲ 0.1 meV"). Read as the Milky Way's threshold, it is about 3× high (4.2e-14 GeV).
-- **Two normalizations of N_occ.** 3a writes N_occ = ρ/(m⁴σ³), and 3b's Setup does the same, but 3b's rate formula uses a "peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³)". The notes do not reconcile the two; at 10²⁰ ≫ 1 the factor does not affect the conclusion.
+- **Milky Way conditions** for the number m_crit ≈ 10⁻¹³ GeV. The scaling has the broad-gate form, with σ² in the denominator, while #2's Limit 2 places the Milky Way in the narrow-gate regime and its benchmark table evaluates the Milky Way row with v\*; the note does not discuss the difference. Flag 19 in `review/wiki-build-flags.md` records it, with an executed check made while building the wiki, `review/wiki-build-checks/stream_stability_check.py`. With #2's inputs, the check prints `m_crit = 1.4e-13 GeV = 0.14 meV` and `N_occ(m_crit) = 5.5e+19` for the broad form, and `m_crit (narrow-gate form) = 4.2e-14 GeV` and `N_occ at narrow-gate m_crit = 6.8e+21` for the narrow form with v\* fixed (`review/wiki-build-checks/stream_stability_check.out`). In the flag's words, "N_occ ≫ 1 either way, so the conclusion (collective behaviour needs wave dark matter) is unchanged". The check is not part of [the project's gate](/wiki/method/verification/the-gate), `scripts/check.sh`, and the flag awaits Paul's ruling. The flags' audit rated it as depending on how the corollary is read. Read as a ceiling on m, it is right: #2's narrow form is at most 0.064× the broad one, so 1.4e-13 GeV caps m, which is how #11 §9 uses it ("forces m ≲ 0.1 meV"). Read as the Milky Way's threshold, it is about 3× high (4.2e-14 GeV).
+- **Two normalizations of N_occ.** #2 writes N_occ = ρ/(m⁴σ³), and #3's Setup does the same, but #3's rate formula uses a "peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³)". The notes do not reconcile the two; at 10²⁰ ≫ 1 the factor does not affect the conclusion.
 
 ## What stays open
 
@@ -114,19 +114,19 @@ The island's upper edge is written differently in the three notes: "m_χ ≲ meV
 
 ## Record
 
-The theorem appears in every later summary in the same form: #9 §7 item 1 ("collective momentum-space behavior and classical-particle dark matter are mutually exclusive"), #11 §9 (i), and [the handoff](/wiki/history/documents/handoff)'s artifact table, which describes 3a as giving the "classicality theorem (collective behavior ⇒ wave DM, m ≲ 0.1 meV)" (`HANDOFF.md` §3, row 2), where DM is dark matter.
+The theorem appears in every later summary in the same form: #9 §7 item 1 ("collective momentum-space behavior and classical-particle dark matter are mutually exclusive"), #11 §9 (i), and [the handoff](/wiki/history/documents/handoff)'s artifact table, which describes #2 as giving the "classicality theorem (collective behavior ⇒ wave DM, m ≲ 0.1 meV)" (`HANDOFF.md` §3, row 2), where DM is dark matter.
 
-**A word collision.** "Island" here names a mass regime of Debt 3. It is unrelated to the "consistency islands" of the gravity sector ([glossary](/wiki/glossary)).
+**A word collision.** "Island" here names a mass regime of the clumping problem. It is unrelated to the "consistency islands" of the gravity sector ([glossary](/wiki/glossary)).
 
 ## Sources
 
-- `notes/debt3a-stream-stability.md` 'Corollary (the classicality theorem)' — the scaling, m_crit, N_occ and the theorem; 'Consequences for the predictions table' — the particle and wave islands; 'Setup' — the definition of g
+- `notes/stream-stability.md` 'Corollary (the classicality theorem)' — the scaling, m_crit, N_occ and the theorem; 'Consequences for the predictions table' — the particle and wave islands; 'Setup' — the definition of g
 - `papers/broken-born-checkpoint-v2.md` §9 (i) — the current statement and its tag; §8 — the knee; §12 — the χ-particle candidate and the shared abundance question
-- `notes/debt3b-wave-island.md` 'Setup', 'The rate' — the wave island's upper edge and the second N_occ normalization; 'Standing results after Chunks A+B' — the particle island's standing
-- `notes/debt3c-ufd-endpoint.md` 'Verdict and closure of Debt 3' — the survivors and the final wave-island range
+- `notes/wave-island.md` 'Setup', 'The rate' — the wave island's upper edge and the second N_occ normalization; 'Standing results after Chunks A+B' — the particle island's standing
+- `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the survivors and the final wave-island range
 - `notes/broken-born-program-v1.md` §7 — the theorem in the first consolidation
-- `HANDOFF.md` §3 row 2 — the artifact summary of 3a
+- `HANDOFF.md` §3 row 2 — the artifact summary of #2
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's summary; §5.3 — the particle-side relic problem
-- `review/wiki-build-flags.md` item 19 — the regime in which 3a evaluates the corollary, awaiting a ruling; item 16, addendum — what the gate now checks of Debt 3
+- `review/wiki-build-flags.md` item 19 — the regime in which #2 evaluates the corollary, awaiting a ruling; item 16, addendum — what the gate now checks of the clumping problem
 - `verify/velocity_gated_gravity.py` section D — the shortfall ratios of the criterion, not m_crit or N_occ
-- `review/wiki-build-checks/debt3a_check.py` and `review/wiki-build-checks/debt3a_check.out` — the flag's executed check: m_crit and N_occ in the broad- and narrow-gate forms (outside `verify/`)
+- `review/wiki-build-checks/stream_stability_check.py` and `review/wiki-build-checks/stream_stability_check.out` — the flag's executed check: m_crit and N_occ in the broad- and narrow-gate forms (outside `verify/`)

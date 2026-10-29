@@ -6,13 +6,13 @@ description: "Results that exist only in the old chat: dual stress as a second g
 sources:
   - "HANDOFF.md §4"
   - "HANDOFF.md §8"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §E"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §4"
+  - "notes/tuning-test.md §4"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §4"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
@@ -36,7 +36,7 @@ sources:
   - "notes/gate-mechanism.md §2"
 ---
 
-*Two results from the program's original claude.ai conversation are derived in no project document: a claim that gravity has two charges, and a comparison of the program's field equations with those of [general relativity](/wiki/gravity/spin-2-fields/general-relativity). The [handoff document](/wiki/history/documents/handoff) lists them in its §4, among the results that exist only in the chat, so that they are not lost. The first says gravity has two independent charges: ordinary stress-energy is the source of the massless graviton, and [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), which measures how energy is structured across momentum, is the source of the [momentum graviton X](/wiki/gravity/momentum-graviton). Whether a "dual equivalence principle" ties the second charge to the [invariant length](/wiki/conjugate-relativity/invariant-length-shell) of [conjugate quanta](/wiki/dark-matter/conjugate-matter) is left as a question. The second compares the program's field equations with those of general relativity: the [slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) is fixed algebraically, the momentum-side counterpart of the Newtonian limit is a [Yukawa form in momentum](/wiki/gravity/spin-2-fields/yukawa-forces#conjugate-special-relativity-a-range-in-momentum) that is [the dark-matter gate](/wiki/dark-matter/conjugate-matter/velocity-gate), and X waves are massive, with five polarizations and a lowest frequency. Parts of both have counterparts in [the calc notes](/wiki/history/documents/debt-1-notes) and the papers; the rest has none. Both are conjectures: no artifact derives them and no script checks them.*
+*Two results from the program's original claude.ai conversation are derived in no project document: a claim that gravity has two charges, and a comparison of the program's field equations with those of [general relativity](/wiki/gravity/spin-2-fields/general-relativity). The [handoff document](/wiki/history/documents/handoff) lists them in its §4, among the results that exist only in the chat, so that they are not lost. The first says gravity has two independent charges: ordinary stress-energy is the source of the massless graviton, and [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress), which measures how energy is structured across momentum, is the source of the [momentum graviton X](/wiki/gravity/momentum-graviton). Whether a "dual equivalence principle" ties the second charge to the [invariant length](/wiki/conjugate-relativity/invariant-length-shell) of [conjugate quanta](/wiki/dark-matter/conjugate-matter) is left as a question. The second compares the program's field equations with those of general relativity: the [slaved momentum metric](/wiki/phase-space/born-geometry/compatibility-corollaries) is fixed algebraically, the momentum-side counterpart of the Newtonian limit is a [Yukawa form in momentum](/wiki/gravity/spin-2-fields/yukawa-forces#conjugate-special-relativity-a-range-in-momentum) that is [the dark-matter gate](/wiki/dark-matter/conjugate-matter/velocity-gate), and X waves are massive, with five polarizations and a lowest frequency. Parts of both have counterparts in [the calc notes](/wiki/history/documents/field-equation-notes) and the papers; the rest has none. Both are conjectures: no artifact derives them and no script checks them.*
 
 **Status:** Conjecture (chat-only) — no tags in the source — recorded only in `HANDOFF.md` §4; no derivation in any artifact, no `verify/` script, not on the work queue. Listed in [Conjectures: chat-only and popsci-only claims](/wiki/status/conjectures).
 
@@ -122,10 +122,10 @@ Both items are conjectures in the wiki's sense: claims that no artifact derives.
 - `HANDOFF.md` §4 — the only record of both results, verbatim; §8 — the queue, whose chat-only entries are item 3 (the √N-floor estimate, since dropped) and item 7 (the diameter note, since done)
 - `papers/phase-space-diameter.md` §1, §6, §9 — the diameter relation written up: an identity of standard physics, and "square exactly at the bounce" withdrawn; §8.2 — the conditional lower bound on M_X
 - `review/round5-adjudication.md` 'Verdict' — verdict B on the diameter note
-- `notes/debt1a-geometric-core.md` §A — the slaved momentum metric (corollary 3); §E — the dual stress and the gate as X exchange
-- `notes/debt1a-ii-X-classification.md` §3 — massive X with five polarizations; §4 — the gate from integrating out massive X
-- `notes/debt1a-iii-tuning-test.md` §4 — the massless combination coupling to Standard Model stress
-- `notes/debt1a-iv-beta-coefficients.md` §3 — ordinary matter sees both eigenstates; §4 — X's couplings to conjugate and ordinary matter
+- `notes/geometric-core.md` §A — the slaved momentum metric (corollary 3); §E — the dual stress and the gate as X exchange
+- `notes/x-classification.md` §3 — massive X with five polarizations; §4 — the gate from integrating out massive X
+- `notes/tuning-test.md` §4 — the massless combination coupling to Standard Model stress
+- `notes/beta-coefficients.md` §3 — ordinary matter sees both eigenstates; §4 — X's couplings to conjugate and ordinary matter
 - `papers/broken-born-checkpoint-v2.md` §4 — P4; §5 — the slaved metric among the theorem's corollaries; §6 — X = Re Z; §7.1 — X massive; §7.5 — "Yukawa-cut at 1/M_X"; §8 — the gate mechanism; §14 item 4 — the gate shape [O]
 - `papers/conjugate-special-relativity.md` §1, §6 — the slaved dual cone and the reading "in momentum"; §4 — the invariant length λ_χ; §5 — λ_χ as resistance to force-change and the equivalence principle as dual relativity
 - `verify/battery.py` T1 — the machine check of the compatibility theorem

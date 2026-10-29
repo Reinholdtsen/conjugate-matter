@@ -172,7 +172,7 @@
   },
   {
    "id": "T8",
-   "statement": "tau and the record's other moduli cannot gate a force.\n- tau is the dark-energy field: hilltop quintessence on the Maslov circle, V = V0[1 + cos(tau/f)] (#11 sec. 10), a compact scalar, 'un-eaten' (#11 sec. 7.5).\n- As a spin-0 carrier its residue has degree 0 in gamma. Velocity dependence comes only from kinematic factors, O(v^2/c^2). If shift-symmetric with derivative couplings, it gives only spin-dependent forces at tree level.\n- A thawing field's mass scale is of order hbar H0 or below (dagger): 1.4-1.6e-33 eV, range c/H0 = 4.1-4.5 Gpc.\n- The record gives tau no matter coupling (searched #11, #6, #8 and the notebook). The only tau-matter relation is the open kinematic question of the diameter note sec. 8.5, whether matter's polarization follows tau.\n- The record also lists nine further Lambda(d) sigma-modes, 'of which inverse-Higgs constraints likely eliminate most' [O] (notes/debt1a-geometric-core.md), also spin 0. The critic named only tau. Any force from these fields is ungated. If coupled to SM matter at gravitational strength, fifth-force and equivalence-principle bounds apply (dagger).",
+   "statement": "tau and the record's other moduli cannot gate a force.\n- tau is the dark-energy field: hilltop quintessence on the Maslov circle, V = V0[1 + cos(tau/f)] (#11 sec. 10), a compact scalar, 'un-eaten' (#11 sec. 7.5).\n- As a spin-0 carrier its residue has degree 0 in gamma. Velocity dependence comes only from kinematic factors, O(v^2/c^2). If shift-symmetric with derivative couplings, it gives only spin-dependent forces at tree level.\n- A thawing field's mass scale is of order hbar H0 or below (dagger): 1.4-1.6e-33 eV, range c/H0 = 4.1-4.5 Gpc.\n- The record gives tau no matter coupling (searched #11, #6, #8 and the notebook). The only tau-matter relation is the open kinematic question of the diameter note sec. 8.5, whether matter's polarization follows tau.\n- The record also lists nine further Lambda(d) sigma-modes, 'of which inverse-Higgs constraints likely eliminate most' [O] (notes/geometric-core.md), also spin 0. The critic named only tau. Any force from these fields is ungated. If coupled to SM matter at gravitational strength, fifth-force and equivalence-principle bounds apply (dagger).",
    "tag": "[D]; record reading; [T] dagger",
    "basis": "Spin-0 residue (c1, J = 0). /usr/bin/grep of the record for tau with coupling, matter or force. Executed hbar H0.",
    "confidence": "high",
@@ -186,7 +186,7 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md sec. 7.5, sec. 10",
-    "notes/debt1a-geometric-core.md (field content; open item 4)",
+    "notes/geometric-core.md (field content; open item 4)",
     "papers/phase-space-diameter.md sec. 8.5"
    ]
   },
@@ -260,7 +260,7 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md sec. 7.1, 7.5, 8, 14 item 4",
-    "notes/debt1a-ii-X-classification.md sec. 4",
+    "notes/x-classification.md sec. 4",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md",
     "papers/phase-space-diameter.md sec. 8.2"
    ]
@@ -269,14 +269,14 @@
  "missed_issues": [
   "Continuous-spin carriers (T9) are a known exception to the critic's 'no carrier can supply a gated perturbation of gravity between ordinary bodies' and to 'O(v^2/c^2) unless fine-tuned'. Schuster-Toro-Zhou, JHEP 04 (2023) 010 [S], give a relative-velocity correction proportional to (rho r)^2 (|v_ij| - v_ij.rhat)^2 that vanishes for co-moving pairs. Its threshold scales as 1/r (rho = 1.6e-23 eV for 120 km/s at 1 kpc); no gravitational (tensor) CSP theory exists; the record has none. This should accompany any 'no carrier' statement given to Paul.",
   "The record's mechanism cannot be realized by the single massive spin-2 field X_mu-nu(x) of #11 sec. 7 with ordinary spacetime fields, whatever the vertices. On shell, each chi-chi-X vertex depends only on t, so the X-exchange amplitude at fixed t is a degree-2 polynomial in s, with velocity scale c. A k-gate at v* << c needs a fiber-resolving, infinite-component carrier (and chi as a phase-space field), or four-point structure that does not factorize. #11 sec. 8's tag [D - mechanism] therefore rests on the unconstructed 'X propagator on momentum fibers' (#11 sec. 14 item 4), which is in tension with sec. 7's X as a spin-2 field on spacetime.",
-  "#6 sec. 4's 'tree-level exchange with generic vertices yields rational (power-law-tailed) gates' conflates two things. A rational knee in sigma_T(v) comes from the transfer propagator, as any light mediator gives (Rutherford-like), and leaves the forward (q -> 0) mean-field amplitude ungated. Debt 3a's collective model needs k-dependence at q -> 0, which no finite-spin exchange provides. A completion with only a sigma_T knee would make velocity clumping even less possible, so this strengthens the obituary.",
+  "#6 sec. 4's 'tree-level exchange with generic vertices yields rational (power-law-tailed) gates' conflates two things. A rational knee in sigma_T(v) comes from the transfer propagator, as any light mediator gives (Rutherford-like), and leaves the forward (q -> 0) mean-field amplitude ungated. Calc note #2's collective model needs k-dependence at q -> 0, which no finite-spin exchange provides. A completion with only a sigma_T knee would make velocity clumping even less possible, so this strengthens the obituary.",
   "The critic's 'a gate at v* ~ 100 km/s needs contact-range structure' holds only under explicit assumptions: local Lorentz invariance and finitely many light finite-spin fields. The non-relativistic sandwich model shows the fiber width by itself does not confine the gate (gate-range). What forbids a long-range gate is relativistic factorization plus the higher-spin no-go theorems, and the record's own multi-graviton argument for J = 2.",
   "#13 is internally inconsistent on gravitating pairs (candidate wiki-build flag). Sec. 2 says a black-hole merger 'operates at F ~ c~', using the gravitational force; sec. 5 identifies dual rest (dp/dt = 0) with free fall, under which freely falling pairs have zero dual-kinematic correction. The critic's c2 numbers follow sec. 2 only.",
   "The critic's c2 'anchor' (1 kg on a neutron star, gamma~ - 1 = 5.7e-65) reproduces #13's own number. It is an arithmetic check and circular as an anchor under the project's rule.",
   "Misattribution in the critic's c6D text: '#13 sec. 5's x^2/2m~' does not exist (/usr/bin/grep finds no such Hamiltonian in #13). The exchanged Hamiltonian is in clumping C7, and as [T] on the wiki pages born-reciprocity and borns-question.",
   "The tuned J=0 attraction + J=1 repulsion route fails a second way for ordinary bodies. Each component is 1.248e7 times the residual, so with the vector on baryon number the Eotvos parameter is ~3e4 (Be/Ti) and ~1e4 (Ti/Pt). A massless vector cannot couple to mass, because its charge must be conserved (Weinberg 1964 [S]).",
   "Citation provenance and author name. The critic's Weinberg [S] rested on search summaries; the APS abstract has now been retrieved [S], though the full text is still unread. The theorem's qualifiers (massless, flat space, couplings surviving at low energy) should travel with the citation. For massive higher spins the relevant result is Afkhami-Jeddi, Kundu and Tajdini, JHEP04(2019)056 [S]; the third author is Tajdini.",
-  "The record lists nine further Lambda(d) sigma-modes besides tau (notes/debt1a-geometric-core.md: 'tau plus nine', inverse-Higgs elimination open). The critic named only tau. All are spin 0, so the conclusion is unchanged.",
+  "The record lists nine further Lambda(d) sigma-modes besides tau (notes/geometric-core.md: 'tau plus nine', inverse-Higgs elimination open). The critic named only tau. All are spin 0, so the conclusion is unchanged.",
   "The critic's c1 established the Lorentzian continuation by citation ([T, dagger]). It is now verified explicitly: Lorentzian traceless projections in n = 2, 3, the 4D complex-kinematics pole contractions, and the helicity sum (v1)."
  ],
  "scripts": [

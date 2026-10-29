@@ -15,7 +15,7 @@ sources:
   - "review/round3/referee/audit-notes.md Step 1"
   - "review/round3-adjudication.md 'Rulings' 12"
   - "HANDOFF.md §6"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "review/wiki-build-flags.md item 5"
@@ -78,7 +78,7 @@ The closed-universe note of 2026-10-27 finds that the conclusion holds and the r
 
 ## The consequence for the momentum graviton X
 
-The program's X is the massive spin-2 field of a Hassan–Rosen theory whose second frame is confined to a compact space ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). Calc note [#8](/wiki/history/documents/debt-1-notes) states that the same symmetry that sorts the spin-2 eigenstates forces "equal effective Planck masses" for the two metrics (#8 §3), M_f = M_g; see [spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity).
+The program's X is the massive spin-2 field of a Hassan–Rosen theory whose second frame is confined to a compact space ([constrained bimetric gravity](/wiki/gravity/tuning-test/constrained-bimetric)). Calc note [#8](/wiki/history/documents/field-equation-notes) states that the same symmetry that sorts the spin-2 eigenstates forces "equal effective Planck masses" for the two metrics (#8 §3), M_f = M_g; see [spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity).
 
 The worklog's item R7 names the tension: calc note #8 §3 "says reciprocity forces equal effective Planck masses (M_f = M_g), which rules out the M_f ≪ M_g escape". Its instruction for the manuscript was "v3: state this as an open consistency item, not as evaded." Version 3 of #14 did so: "The framework's reciprocity, acting as exchange of the two metrics, instead sets the two Planck masses equal, so the stability of a heavy spin-2 field at equal Planck masses is an open consistency condition (Sec. 5, item 7)" (#14 §1). Its §5 item 7 lists "instability of a heavy spin-2 field at equal Planck masses" among the internal exclusion conditions, and its §6 lists "the ghost-free landing of the mass mechanism and its cosmological stability at equal Planck masses" as conjectural.
 
@@ -117,7 +117,7 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 - `review/round3/referee/audit-notes.md` Step 1 — the checks of #14's references [4], [5] and [6].
 - `review/round3-adjudication.md` 'Rulings' 12 — the over-generalization of reference [4], accepted.
 - `HANDOFF.md` §6 — the round-2 finding.
-- `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity.
+- `notes/beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity.
 - `papers/broken-born-checkpoint-v2.md` §7.5, §14 — no value for X's mass; the open problems, which do not list this item.
 - `papers/phase-space-diameter.md` §8.2 — the conditional lower bound M_X c² > 5.2 meV in the aligned vacuum [D][V][S] and the early-universe caveat [T][O]; §6 — (M_X/H₀)² ≈ 10⁶¹ at the bound; §9 — the bound tagged [V][S]; 'References' — Lüben, Mörtsell and Schmidt-May 2020 [S].
 - `verify/phase_space_diameter.py` 'Where the radiation rectangle is square, lambda = l_P (note §6)', 'Consequences (note §8)' — (M_X/H₀)² = 1.3×10⁶¹ at M_X c² = 5.2 meV; the bound [V].

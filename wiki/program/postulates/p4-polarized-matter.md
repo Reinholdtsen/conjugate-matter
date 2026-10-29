@@ -23,7 +23,7 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-program-v1.md §2"
-  - "notes/debt1a-geometric-core.md §E"
+  - "notes/geometric-core.md §E"
   - "papers/reciprocity-toy-models.md §5"
   - "papers/reciprocity-toy-models.md §6"
   - "review/round4-adjudication.md 'Rulings' F3, F5"
@@ -67,7 +67,7 @@ A polarization is a choice of which half of the phase-space directions count as 
 
 "Both couple universally to H" is the [equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle) extended across the two polarizations: H is the [generalized metric](/wiki/phase-space/born-geometry/born-structures) of [P1](/wiki/program/postulates/p1-arena), which contains the spacetime metric g, and both kinds of matter couple to it in the same way. The lab notebook draws the observational consequence: "χ couples to g universally: it falls, orbits, and lenses like ordinary dark matter. Bullet Cluster lensing-centroid behavior is automatic" [D] (#1 §4). #11 §8 keeps it: "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" ([the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/bullet-cluster)).
 
-Universal coupling to H also supplies the gate's mechanism. The [Debt-1 note](/wiki/history/documents/debt-1-notes): "Conjugate matter couples to H universally (P4); its coupling to the X-block is through the **dual stress** T̃". Exchange of the [momentum graviton](/wiki/gravity/momentum-graviton) X between two such bilinears "yields a four-point amplitude that depends on the **incoming relative momenta** of the pair — the variable no x-local mediator can produce" (#5 §E; [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress); [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that this exchange cannot produce the gate: with #11 §7's X every on-shell vertex depends only on the momentum transfer, and no χχX vertex or formula for T̃ exists in the record (§§2–3). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([exchanging X cannot produce the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). And because everything couples to H, conjugate-sector objects gravitate even if nothing else of theirs is visible: "by P4, conjugate-sector solitons gravitate" (#11 §11.1; [conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)).
+Universal coupling to H also supplies the gate's mechanism. The [field-equation note](/wiki/history/documents/field-equation-notes): "Conjugate matter couples to H universally (P4); its coupling to the X-block is through the **dual stress** T̃". Exchange of the [momentum graviton](/wiki/gravity/momentum-graviton) X between two such bilinears "yields a four-point amplitude that depends on the **incoming relative momenta** of the pair — the variable no x-local mediator can produce" (#5 §E; [dual stress](/wiki/dark-matter/conjugate-matter/dual-stress); [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that this exchange cannot produce the gate: with #11 §7's X every on-shell vertex depends only on the momentum transfer, and no χχX vertex or formula for T̃ exists in the record (§§2–3). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling ([exchanging X cannot produce the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). And because everything couples to H, conjugate-sector objects gravitate even if nothing else of theirs is visible: "by P4, conjugate-sector solitons gravitate" (#11 §11.1; [conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)).
 
 ## No gauge force between them
 
@@ -151,7 +151,7 @@ See [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-local
 - `HANDOFF.md` §2, §6 — review rounds 1–2 on kinetic mixing, and open item 3
 - `notes/broken-born-theory.md` §1 — the v0.1 statement, with the equivalence principle across polarizations; §3 — the untouched Standard Model sector; §4 — χ falls, orbits and lenses
 - `notes/broken-born-program-v1.md` §2 — the v1 statement, before the strict reading
-- `notes/debt1a-geometric-core.md` §E — universal coupling to H and the gate as X exchange
+- `notes/geometric-core.md` §E — universal coupling to H and the gate as X exchange
 - `papers/reciprocity-toy-models.md` §5 and `review/round4-adjudication.md` 'Rulings' F3 — P4-type coupling as what makes the breaking physical; F5 — the coupling needs H; toy note §6 — what is not shown; `verify/toy_s5.py` part C — the gated check
 - `notes/toy-lagrangian.md` 'Chunk 4 (in progress, 2026-10-19): S5' — the P4 lock
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the magnetic identification and the transparency argument (popular article; not a status source)

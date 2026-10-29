@@ -10,10 +10,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §11"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-ii-X-classification.md §1"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/x-classification.md §1"
   - "papers/reciprocity-toy-models.md §1"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
@@ -98,7 +98,7 @@ H → Sᵀ H S        K → S⁻¹ K S
 
 ## Rigidity: the one fixed structure
 
-In the program's postulates ω is the only structure that does not vary. "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime); for η and the generalized metric H, see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). [The calc note](/wiki/history/documents/debt-1-notes) that forced the change put it as "Freeze ω only — that is genuinely ℏ" (#5 §B). The lab notebook's gloss on the original postulate was "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) froze the neutral metric η as well; the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then left the program no content of its own ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
+In the program's postulates ω is the only structure that does not vary. "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent — the order parameter" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime); for η and the generalized metric H, see [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)). [The calc note](/wiki/history/documents/field-equation-notes) that forced the change put it as "Freeze ω only — that is genuinely ℏ" (#5 §B). The lab notebook's gloss on the original postulate was "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) froze the neutral metric η as well; the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) then left the program no content of its own ([the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)).
 
 What a rigid ω leaves free:
 
@@ -151,8 +151,8 @@ The toy note's own references for the two-dimensional theorems are Mermin–Wagn
 - `papers/reciprocity-toy-models.md` §1, §2, §4 — ρ symplectic; the Sp(2, ℝ) action of model I; boosts, squeezes and the compact SO(2).
 - `review/round4-adjudication.md` F1–F2 — the boost family and the bounded repair.
 - `review/round4/referee/audit-notes.md` Step 1, Step 2(a), Step 2(c) — the two-dimensional references checked; the boost matrix; the residual symmetry of the naive potential.
-- `notes/debt1a-geometric-core.md` §A–§C — det H = 1; "Freeze ω only"; the Siegel domain of ω-compatible metrics.
-- `notes/debt1a-ii-X-classification.md` §1 — the Möbius subgroup Z → Z + B of the rigid group.
+- `notes/geometric-core.md` §A–§C — det H = 1; "Freeze ω only"; the Siegel domain of ω-compatible metrics.
+- `notes/x-classification.md` §1 — the Möbius subgroup Z → Z + B of the rigid group.
 - `notes/broken-born-theory.md` §1, §2 — the original P2's gloss; the standard block form of ω; ρ² as parity.
 - `verify/toy_coset.py` — invariance of model I under a generic symplectic S and under ρ; the vacuum's stabilizer.
 - `verify/battery.py` T2 — det H_Z = 1 at one sampled member of the modular family.

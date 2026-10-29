@@ -22,7 +22,7 @@ sources:
   - "notes/broken-born-theory.md §2"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
-  - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "popsci/universes-other-half.md 'A second speed of light'"
   - "review/wiki-build-flags.md item 56"
   - "notes/velocity-gated-gravity.md §2"
@@ -96,7 +96,7 @@ Both values are numbers times c⁴/G, the one force that c and G can form ([Maxi
 
 - #13 §1: "The factor of 4 is not fixed here [O]".
 - `HANDOFF.md` §2: c̃ "matches Gibbons–Schiller maximum-force conjecture up to the factor 4".
-- The popular articles: "General relativity already contains a conjectured maximum force of exactly that form" (#10, 'Dividends and daydreams'), and "A maximum force of exactly this form was conjectured within general relativity two decades ago" (#12, 'A second speed of light').
+- The popular articles: "General relativity already contains a conjectured maximum force of exactly that form" (#10, 'Corollaries and daydreams'), and "A maximum force of exactly this form was conjectured within general relativity two decades ago" (#12, 'A second speed of light').
 
 #13's [O] governs. The popular articles are never a source for a claim's status ([The popular articles (#10, #12)](/wiki/history/documents/popular-articles)).
 
@@ -132,5 +132,5 @@ A conjecture from the original chat reads a black hole's horizon in the momentum
 - `papers/conjugate-special-relativity.md` §1 — the Born length, the Planck identification, the boxed value, the reason, the literature and the open factor of 4; Abstract for "at the Planck value of the Born length"; §2 for the merger arena; §4 for Planck closure; §7 for the numerical anchors and the open list; References [1]†, [2]† — Gibbons and Schiller on the maximum force, Caianiello on maximal acceleration.
 - `notes/broken-born-theory.md` §2 — the reference length λ and momentum ε = ℏ/λ.
 - `HANDOFF.md` §2 — the alive listing, "up to the factor 4"; §4 for the chat-only horizon reading.
-- `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' and `popsci/universes-other-half.md` 'A second speed of light' — "of exactly that form" and "of exactly this form" (not a status source).
+- `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams' and `popsci/universes-other-half.md` 'A second speed of light' — "of exactly that form" and "of exactly this form" (not a status source).
 - `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth

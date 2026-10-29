@@ -10,10 +10,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md ref [8]"
   - "review/round3/referee/audit-notes.md Step 1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
-  - "notes/debt1a-geometric-core.md §C"
+  - "notes/x-classification.md §2"
+  - "notes/tuning-test.md §5"
+  - "notes/beta-coefficients.md §4"
+  - "notes/geometric-core.md §C"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §5"
   - "notes/knot-dark-matter-standalone.md §1"
@@ -59,7 +59,7 @@ The program takes the second exit.
 
 ### X cannot decouple
 
-The program's second symmetric tensor X = Re Z has local shifts δX_μν = ∂₍μλ_ν₎, a second copy of linearized diffeomorphisms ([dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms)). Calc note [#6](/wiki/history/documents/debt-1-notes) §2 then applies the theorem [T]:
+The program's second symmetric tensor X = Re Z has local shifts δX_μν = ∂₍μλ_ν₎, a second copy of linearized diffeomorphisms ([dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms)). Calc note [#6](/wiki/history/documents/field-equation-notes) §2 then applies the theorem [T]:
 
 > With the gauge invariance, X is a second **massless** spin-2 — and massless multi-graviton cross-interactions are inconsistent (Boulanger–Damour–Gualtieri–Henneaux). X must couple (to g through the Siegel structure, to χ through the gate), so decoupling is not available.
 
@@ -124,10 +124,10 @@ As the documents give them:
 
 - `papers/broken-born-checkpoint-v2.md` §1, §7, §7.1, ref [8] — the technical abstract's chain; the plain-language statement; the theorem's place in the chain; the citation, marked †.
 - `review/round3/referee/audit-notes.md` Step 1 — the INSPIRE resolution of #14's references, the abstract of #14's reference [2] and its caveats.
-- `notes/debt1a-ii-X-classification.md` §2 — the exclusion, and why X must couple, so that decoupling is unavailable.
-- `notes/debt1a-geometric-core.md` §C — the generalized metric H_Z, whose blocks mix X and Y.
-- `notes/debt1a-iii-tuning-test.md` §5 — the no-go as the first of three structural tests.
-- `notes/debt1a-iv-beta-coefficients.md` §4 — the exclusion in the answer to Born.
+- `notes/x-classification.md` §2 — the exclusion, and why X must couple, so that decoupling is unavailable.
+- `notes/geometric-core.md` §C — the generalized metric H_Z, whose blocks mix X and Y.
+- `notes/tuning-test.md` §5 — the no-go as the first of three structural tests.
+- `notes/beta-coefficients.md` §4 — the exclusion in the answer to Born.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — the exclusion as first recorded in the notebook.
 - `notes/broken-born-program-v1.md` §5 — "since X must couple" (superseded as reference).
 - `notes/knot-dark-matter-standalone.md` §1, ref [2] — #14's statement of the exclusion and its citation (the manuscript was withdrawn for its abundance arithmetic, not for this statement).

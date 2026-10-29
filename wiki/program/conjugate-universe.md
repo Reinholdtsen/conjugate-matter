@@ -14,7 +14,7 @@ sources:
   - "popsci/universes-other-half.md 'Two descriptions of one thing'"
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
   - "popsci/universes-other-half.md 'The other observers'"
-  - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "notes/closed-universe.md §2"
   - "notes/closed-universe.md §4"
   - "notes/closed-universe.md §7"
@@ -27,7 +27,7 @@ sources:
 
 ## What the phrase means now
 
-The conjugate universe entered the program as founding supposition 2, P.R.'s "A coexisting conjugate universe". The checkpoint's audit gives its fate as "alive, transformed: one state, two ledgers" (#11 App. A item 2). The wiki writes "two descriptions" for #11's "two ledgers", as [the handoff](/wiki/history/documents/handoff) does ("one event, two descriptions", `HANDOFF.md` §2). What was imagined as a second universe existing beside ours is now the same physical state described in momentum variables instead of position variables.
+The conjugate universe entered the program as founding supposition 2, P.R.'s "A coexisting conjugate universe". The checkpoint's audit gives its fate as "alive, transformed: one state, two descriptions" (#11 App. A item 2), and [the handoff](/wiki/history/documents/handoff) writes "one event, two descriptions" (`HANDOFF.md` §2). What was imagined as a second universe existing beside ours is now the same physical state described in momentum variables instead of position variables.
 
 A companion supposition says how the two are related. Founding supposition 8, "Synchronized, not causal; Fourier/holography", has the fate "alive (the dictionary); holographic tie loosened, echoed in τ's boundary residence" (#11 App. A item 8). Both fates rest on the cosmology of #11 §10, described below. The audit as a whole is on [founding suppositions and their fates](/wiki/program/founding-suppositions).
 
@@ -75,7 +75,7 @@ E = ρ̃ ã³ ∝ ã^(−3w̃) = a^(3w̃)            its energy, using ã = 1/a
 
 ## One event, two descriptions: the turnaround
 
-Founding supposition 7, "Our expansion reverses at their bounce", has the fate "alive, corrected: one event, [two descriptions]; live at DESI DR3" (#11 App. A item 7, with the wiki's wording in brackets), where DESI DR3 is Data Release 3 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi). The program predicts that our expansion eventually halts and reverses if the potential energy of the dark-energy field τ ([hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)) becomes negative. Through a·ã = 1 that moment, the largest our universe gets, is the moment the momentum description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum and rebounding. The lab notebook: "the same event, read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, [two descriptions] — now as a constraint identity rather than a metaphor. [D]" (#1 §7). #11 §10: "The turnaround is the conjugate bounce by constraint identity." The page for the claim is [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce).
+Founding supposition 7, "Our expansion reverses at their bounce", has the fate "alive, corrected: one event, two descriptions; live at DESI DR3" (#11 App. A item 7), where DESI DR3 is Data Release 3 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi). The program predicts that our expansion eventually halts and reverses if the potential energy of the dark-energy field τ ([hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)) becomes negative. Through a·ã = 1 that moment, the largest our universe gets, is the moment the momentum description is smallest, so the same event, read in momentum variables, is a contracting universe reaching its minimum and rebounding. The lab notebook: "the same event, read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, two descriptions — now as a constraint identity rather than a metaphor. [D]" (#1 §7). #11 §10: "The turnaround is the conjugate bounce by constraint identity." The page for the claim is [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce).
 
 Two qualifications go with it:
 
@@ -108,6 +108,6 @@ Neither #11 nor [#13](/wiki/conjugate-relativity) states or analyses the idea, a
 - `HANDOFF.md` §2 — "one event, two descriptions"; the two deaths of the collapse mechanism
 - `notes/broken-born-theory.md` §6 — the derivations of a·ã = 1 and w_eff = −w̃, and the dictionary table; §7 — the turnaround read through a·ã = 1 (lab notebook, superseded as reference; the results are carried by #11 §10)
 - `popsci/universes-other-half.md` 'Two descriptions of one thing', 'Dark energy as the orientation of the split' — the waveform–spectrum picture and the redshift gloss; 'The other observers' — the popsci-only speculation (popular article; not a status source)
-- `popsci/angle-of-the-mirror.md` 'Dividends and daydreams' — the same speculation, offered as daydreaming (popular article)
+- `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams' — the same speculation, offered as daydreaming (popular article)
 - `notes/closed-universe.md` §2 — the turnaround in a closed universe; §4 — the flat momentum fibre and the conjugate picture; §7 — the dual term underived
 - `review/wiki-build-flags.md` items 27 (addendum), 48 and 49 — the closed turnaround, the closed dual space and the underived dual term

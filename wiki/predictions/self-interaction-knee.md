@@ -12,8 +12,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "notes/broken-born-program-v1.md §6"
   - "notes/broken-born-program-v1.md §9"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt3a-stream-stability.md 'Consequences for the predictions table'"
+  - "notes/x-classification.md §4"
+  - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/broken-born-theory.md §5.1"
   - "notes/broken-born-theory.md §9"
   - "papers/conjugate-special-relativity.md §4"
@@ -26,7 +26,7 @@ sources:
 
 *Row 1 of [the predictions table](/wiki/predictions) tests how strongly dark matter scatters off itself as a function of the speed at which two particles collide. If dark matter is the program's [conjugate matter χ](/wiki/dark-matter/candidates/chi-particles) in particle form, its self-interaction passes through [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): it is strong in slow collisions, as in [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), and absent in fast ones, as in galaxy clusters, with a knee near the gate velocity v\* ~ 10² km/s between the two. Standard cold dark matter does not scatter at all, and the usual self-interacting models, in which a light particle carries the force, weaken gradually with speed, as a power law, rather than at a knee. Observations of halos across the range of masses, and so of internal speeds, can find the knee or exclude it. Row 1 is one of the three rows that [the checkpoint](/wiki/history/documents/checkpoint) names as the program's near-term falsification exposure.*
 
-**Status:** Alive, with near-term falsification exposure (#11 §15) — [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law) behind it is [D] for [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) and [O] for the shape of the knee's tail (#11 §8) — derived in [the lab notebook](/wiki/history/documents/lab-notebook) and [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes) and not machine-checked; the tail is [open problem 4](/wiki/dark-matter/conjugate-matter/gate-shape) of #11 §14, and no source records a measurement that tests the knee. The row is among the text that depends on the mechanism's tag: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
+**Status:** Alive, with near-term falsification exposure (#11 §15) — [the scattering law](/wiki/dark-matter/conjugate-matter/scattering-law) behind it is [D] for [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism) and [O] for the shape of the knee's tail (#11 §8) — derived in [the lab notebook](/wiki/history/documents/lab-notebook) and [the field-equation calc notes](/wiki/history/documents/field-equation-notes) and not machine-checked; the tail is [open problem 4](/wiki/dark-matter/conjugate-matter/gate-shape) of #11 §14, and no source records a measurement that tests the knee. The row is among the text that depends on the mechanism's tag: `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging #11 §7's X cannot produce the gate, and flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ## The row
 
@@ -76,7 +76,7 @@ The lab notebook's version of the column read "Constant (CDM: 0) or power-law v�
 
 ### The knee and its location
 
-The knee exists because the gate depends on k, whatever the function F: below v\* pairs pass through the gate and scatter with σ₀, above it they do not. Calc note #6 separated what is robust from what is not: "The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential" (`notes/debt1a-ii-X-classification.md` §4).
+The knee exists because the gate depends on k, whatever the function F: below v\* pairs pass through the gate and scatter with σ₀, above it they do not. Calc note #6 separated what is robust from what is not: "The knee's existence and location are robust; its steepness is model-internal information, not a guaranteed exponential" (`notes/x-classification.md` §4).
 
 The location comes from the core fit. The lab notebook: "Fitting dwarf-scale cores wants σ₀/m_χ ≈ 30 cm²/g at v ≲ v\* ≈ 120 km/s" (#1 §5.1), a value it gives without a citation ([where the input comes from](/wiki/dark-matter/conjugate-matter/benchmark#where-the-input-comes-from)). #11's row states the location less precisely, as "v\* ~ 10² km/s". The checkpoint's benchmark mass for particle χ follows from the same input: m_χ ≈ 70 MeV·α̃^{2/3}(σ₀/m ÷ 30 cm²g⁻¹)^{−1/3} (#11 §8).
 
@@ -84,7 +84,7 @@ The gate velocity is defined in the lab notebook as v\* ≡ √2μ/m_χ (#1 §5.
 
 ### Zero cluster signal, for particles
 
-In clusters the collision speeds are far above v\*, so the gate is closed and the requirement is no measurable self-scattering. #11 attaches the qualifier "(particle χ)". For the wave branch of χ, [calc note #3](/wiki/history/documents/debt-3-notes) gives a power-law suppression above the gate, (v\*/σ)⁴ with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion), instead of a closed gate; telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). The gravitational side of cluster collisions is separate: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), so its mass moves with the galaxies as ordinary dark matter does ([the equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle); [the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/bullet-cluster#lensing-one-gravity-for-both-kinds-of-matter)).
+In clusters the collision speeds are far above v\*, so the gate is closed and the requirement is no measurable self-scattering. #11 attaches the qualifier "(particle χ)". For the wave branch of χ, [calc note #3](/wiki/history/documents/clumping-notes) gives a power-law suppression above the gate, (v\*/σ)⁴ with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion), instead of a closed gate; telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). The gravitational side of cluster collisions is separate: χ "propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8), so its mass moves with the galaxies as ordinary dark matter does ([the equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle); [the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/bullet-cluster#lensing-one-gravity-for-both-kinds-of-matter)).
 
 ## What kills it
 
@@ -105,7 +105,7 @@ The popular article #12 describes the smoothing of dwarf cusps and the shut-off 
 
 - **The tail.** Whether F is Gaussian or rational is item 4 of #11 §14 [O]; #11 §15 lists "gate tail not yet forced" among the program's degeneration risks ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)). The existence and location of the knee do not depend on it; its steepness, and so the strength of the first kill condition, does.
 - **The strength.** Why σ₀ can be as large as dwarf cores require while ordinary matter couples to X only at gravitational strength is item 5 of #11 §14 ([Open: the dual-stress enhancement (OP5)](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement)).
-- **The wave branch.** For χ as a classical wave, calc note #2 found that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/debt3a-stream-stability.md`, 'Consequences for the predictions table'). The power-law suppression of row 3 answers this only for the knee's tail ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
+- **The wave branch.** For χ as a classical wave, calc note #2 found that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" (`notes/stream-stability.md`, 'Consequences for the predictions table'). The power-law suppression of row 3 answers this only for the knee's tail ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 - **The √2 in v\*.** `review/wiki-build-flags.md` item 17, above.
 - **The mechanism.** Flag 55 proposes that the mechanism is open [O] (`notes/gate-mechanism.md` §5). Among the questions that would then be open: whether the program keeps the gate as a postulate, or rewrites χ's self-interaction as the note's reading R1, a position-local potential "of range ~10 pm, which is ordinary short-range self-interacting dark matter with power-law tails and would remove the program-specific content of rows 1–3" (§5; [the fiber overlap, read two ways](/wiki/dark-matter/conjugate-matter/gate-mechanism#the-fiber-overlap-read-two-ways)). Reading R1 is the note's reconstruction of #6 §4's fiber overlap, not a statement of the record.
 
@@ -127,10 +127,10 @@ Calc note #6 derived the gate from X exchange (not derived, according to flag 55
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 1 — the row; §8 — the law, the amplitude, the tags and the benchmark mass; §12 — the candidates' handles; §14 item 4 — the open gate shape; §15 — the near-term exposure and "gate tail not yet forced"
-- `notes/debt1a-ii-X-classification.md` §4 — the downgrade from cliff to knee and its reason
+- `notes/x-classification.md` §4 — the downgrade from cliff to knee and its reason
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — the amended row
 - `notes/broken-born-program-v1.md` §6, §9 — v1's law and its row 1, already a knee
-- `notes/debt3a-stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
+- `notes/stream-stability.md` 'Consequences for the predictions table' — rows 1–2 to be re-derived in wave language
 - `notes/broken-born-theory.md` §5.1 — the core-fit input, v\* ≡ √2μ/m_χ, the Yukawa v⁻⁴ tail, the 150–400 km/s band and the v0.1 numbers; §9 — the v0.1 row 1 and standard expectation
 - `papers/conjugate-special-relativity.md` §4 — v\* = √2 μ/m_χ restated
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; item 55 — the gate's mechanism not derived, awaiting a ruling

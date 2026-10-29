@@ -10,8 +10,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.3"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §15"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
+  - "notes/beta-coefficients.md §3"
+  - "notes/tuning-test.md §4"
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
@@ -27,7 +27,7 @@ sources:
 
 *Row 6 is the program's prediction that the graviton, the quantum of gravitational waves, has exactly zero mass. The program's geometry carries two spin-2 fields, the ordinary metric and a partner describing momentum space, and [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) exchanges them. The combinations of definite mass are their sum, which the exchange leaves unchanged (reciprocity-even), and their difference, which changes sign (reciprocity-odd). The even combination is the ordinary graviton and is exactly massless; the odd one is the [momentum graviton X](/wiki/gravity/momentum-graviton), which is massive, so the force it carries has a finite range. Observations of gravitational waves set upper bounds on the graviton's mass, and in the program those bounds apply to the even combination, which meets them identically. A nonzero mass attributed to the even combination would kill the row; #11 does not count it among the program's near-term exposures.*
 
-**Status:** Alive — [D] (#11 §7.5); [D + T] in [calc note #8](/wiki/history/documents/debt-1-notes) (`notes/debt1a-iv-beta-coefficients.md` §3) — the parity rests on reciprocity acting on the two spin-2 frames as an exchange (#11 §7.3), a step #8 states without showing. No machine check covers the parity assignment; the identity V(1) = 2T used in reducing the gravity sector's parameters is machine-checked [V] ([battery](/wiki/method/verification/battery) test T5).
+**Status:** Alive — [D] (#11 §7.5); [D + T] in [calc note #8](/wiki/history/documents/field-equation-notes) (`notes/beta-coefficients.md` §3) — the parity rests on reciprocity acting on the two spin-2 frames as an exchange (#11 §7.3), a step #8 states without showing. No machine check covers the parity assignment; the identity V(1) = 2T used in reducing the gravity sector's parameters is machine-checked [V] ([battery](/wiki/method/verification/battery) test T5).
 
 ## The row
 
@@ -119,8 +119,8 @@ v1's assessment counted "even-eigenstate masslessness as a bimetric-parity state
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 row 6 — the row; §7.5 — the spectrum, the parities and "satisfied identically" [D]; §7.3 — the frame exchange and the palindrome; §6 — reciprocity as Z → −Z⁻¹; §7.1 — why X is massive [D + T]; §15 — the near-term rows and the rows not previously posed
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the parities, the equal Planck masses, safety by range and the bounds on the even eigenstate [D + T]
-- `notes/debt1a-iii-tuning-test.md` §4 — "Standard bimetric facts" and the earlier mixing-angle reading of the bound
+- `notes/beta-coefficients.md` §3 — the parities, the equal Planck masses, safety by range and the bounds on the even eigenstate [D + T]
+- `notes/tuning-test.md` §4 — "Standard bimetric facts" and the earlier mixing-angle reading of the bound
 - `verify/battery.py` T5 — the identity V(1) = 2T in exact integers [V]
 - `notes/broken-born-theory.md` §9 — v0.1's table, with no graviton row; 'Addendum (v0.5)', 'Addendum (v0.6)' — the logged check and the summary of the parities
 - `notes/broken-born-program-v1.md` §5, §9, §11 — v1's spectrum, its row 6 and its novelty claim

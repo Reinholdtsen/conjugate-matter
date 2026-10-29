@@ -14,10 +14,10 @@ sources:
   - "HANDOFF.md §2"
   - "HANDOFF.md §6"
   - "CLAUDE.md 'Since the handoff'"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-iii-tuning-test.md §3, §5"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
-  - "notes/debt3b-wave-island.md 'What pins g?'"
+  - "notes/x-classification.md §5"
+  - "notes/tuning-test.md §3, §5"
+  - "notes/beta-coefficients.md §2"
+  - "notes/wave-island.md 'What pins g?'"
   - "notes/broken-born-program-v1.md §10–§11"
   - "review/round3-adjudication.md 'Verdict'"
   - "review/round4-adjudication.md 'Verdict'"
@@ -50,9 +50,9 @@ The assessment sits beside a calibration in #11's methodological preface. Novel 
 
 ### Forced convergence onto consistency islands
 
-The claim is that each structural test that could have killed the program's geometric sector instead forced it onto the one consistent structure available at that point. A consistency island, in the [Debt-1 note](/wiki/history/documents/debt-1-notes)'s usage, is "the unique known consistent structure" at such a junction; the term is unrelated to the particle and [wave islands](/wiki/dark-matter/momentum-clumping/wave-island) of [Debt 3](/wiki/dark-matter/momentum-clumping). #11 §15 counts "four consecutive consistency tests" without naming them. The documents give the chain in three versions:
+The claim is that each structural test that could have killed the program's geometric sector instead forced it onto the one consistent structure available at that point. A consistency island, in the [field-equation note](/wiki/history/documents/field-equation-notes)'s usage, is "the unique known consistent structure" at such a junction; the term is unrelated to the particle and [wave islands](/wiki/dark-matter/momentum-clumping/wave-island) of [the clumping problem](/wiki/dark-matter/momentum-clumping). #11 §15 counts "four consecutive consistency tests" without naming them. The documents give the chain in three versions:
 
-- The Debt-1 note that first made the point counted three: "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration" (`notes/debt1a-iii-tuning-test.md` §5).
+- The field-equation note that first made the point counted three: "three structural tests in a row (multi-graviton no-go, signature obstruction, tuning test) could each have killed the geometric sector outright; each instead forced it into the unique known consistent structure at that junction. Repeated forced convergence onto consistency islands is the opposite of degeneration" (`notes/tuning-test.md` §5).
 - The v1 assessment named four: "no-go → Higgs → HR class → palindrome" (#9 §11), HR being Hassan–Rosen.
 - #11's technical abstract lists a chain of structural results, "a compatibility theorem [T][V]; the multi-graviton no-go [8†]; a signature obstruction; an explicit tuning test [V]", that forces the [momentum graviton X](/wiki/gravity/momentum-graviton) to be a massive spin-2 field (#11 §1).
 
@@ -60,7 +60,7 @@ The count of four is #11's, as in `HANDOFF.md` §1, and #11 governs. The steps o
 
 1. **The no-go.** X, the symmetric partner of the metric, transforms as a second graviton, and two interacting massless gravitons are inconsistent, so "Massless X is excluded by the multi-graviton no-go [8†]" ([the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go)); an ungauged X is excluded by [Lorentz signature](/wiki/gravity/spin-2-fields/signature-obstruction), the "signature obstruction".
 2. **The Higgs mechanism.** "The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive" ([the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)).
-3. **The Hassan–Rosen class.** "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (on the qualifier "known" that calc note #6 §3 has and this sentence drops, see flag 7 in `review/wiki-build-flags.md`), dRGT being [de Rham–Gabadadze–Tolley](/wiki/gravity/spin-2-fields/drgt-massive-gravity) ([the Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli); [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)). The [tuning test](/wiki/gravity/tuning-test), tagged [D][V] in #11 §7.2, found the program's natural metric-tier mass terms outside that structure in two independent ways, each checked numerically: a linearized mass term whose limit, 66.58 for the battery's test matrix, differs from the Fierz–Pauli form's 63.72 (test T4), and a nonlinear term outside the allowed span, with rms residual 3.29 (test T7; [the verification battery](/wiki/method/verification/battery)). The [frame-tier](/wiki/gravity/tuning-test/frame-tier) couplings belong to the Hinterbichler–Rosen class, "ghost-free by construction", which the calc note tags "[D — structural, resting on T]" (`notes/debt1a-iii-tuning-test.md` §3).
+3. **The Hassan–Rosen class.** "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (on the qualifier "known" that calc note #6 §3 has and this sentence drops, see flag 7 in `review/wiki-build-flags.md`), dRGT being [de Rham–Gabadadze–Tolley](/wiki/gravity/spin-2-fields/drgt-massive-gravity) ([the Fierz–Pauli mass term](/wiki/gravity/spin-2-fields/fierz-pauli); [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric)). The [tuning test](/wiki/gravity/tuning-test), tagged [D][V] in #11 §7.2, found the program's natural metric-tier mass terms outside that structure in two independent ways, each checked numerically: a linearized mass term whose limit, 66.58 for the battery's test matrix, differs from the Fierz–Pauli form's 63.72 (test T4), and a nonlinear term outside the allowed span, with rms residual 3.29 (test T7; [the verification battery](/wiki/method/verification/battery)). The [frame-tier](/wiki/gravity/tuning-test/frame-tier) couplings belong to the Hinterbichler–Rosen class, "ghost-free by construction", which the calc note tags "[D — structural, resting on T]" (`notes/tuning-test.md` §3).
 4. **The palindrome.** "Reciprocity acts on the wedge sector as frame exchange, forcing βₙ = β₄₋ₙ" ([the palindrome](/wiki/gravity/palindromic-branch/palindrome)), which yields the identity below.
 
 ### Predictions not previously posed: rows 3 and 11
@@ -69,7 +69,7 @@ Two rows of #11's predictions table have "(not previously posed)" in the column 
 
 ### An unsolicited identity (§7.3)
 
-The palindrome was imposed by [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), not chosen to cancel anything, and the cancellation followed from it. At the aligned point, where the two frames coincide, the wedge potential's value V(1) and its tadpole T, the coefficient of its term linear in a small departure from that point, are fixed combinations of the coefficients βₙ. Under the palindrome one is exactly twice the other, while a flat vacuum requires the potential's contribution to the metric's field equation to vanish, which reads V(1) = T (`notes/debt1a-iv-beta-coefficients.md` §2, "[D — rigorous, four lines]"):
+The palindrome was imposed by [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), not chosen to cancel anything, and the cancellation followed from it. At the aligned point, where the two frames coincide, the wedge potential's value V(1) and its tadpole T, the coefficient of its term linear in a small departure from that point, are fixed combinations of the coefficients βₙ. Under the palindrome one is exactly twice the other, while a flat vacuum requires the potential's contribution to the metric's field equation to vanish, which reads V(1) = T (`notes/beta-coefficients.md` §2, "[D — rigorous, four lines]"):
 
 ```text
 βₙ = β₄₋ₙ:     V(1) ∝ 2β₀ + 8β₁ + 6β₂,     T = β₀ + 4β₁ + 3β₂     ⇒     V(1) = 2T
@@ -90,7 +90,7 @@ The dark-energy field τ has "two parameters (f, τᵢ) for three observables (w
 
 #11 §15: "tunable wave-island collective sector (quarantined); gate tail not yet forced; the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem; DESI DR2's phantom crossing against §10's strict w ≥ −1." DESI DR2 is Data Release 2 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi).
 
-- **The tunable wave-island sector.** On the wave side of Debt 3, with the coupling left free, velocity streams are "tunable across ~10 orders: optional, never required" (#11 §9). Streams that are permitted but not required are no longer a prediction, as the calc note records: "on this branch the granularity prediction is no longer a novel requirement of the program, only an option — a degeneration flag" (`notes/debt3b-wave-island.md`, 'What pins g?'). The branch is quarantined ([Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
+- **The tunable wave-island sector.** On the wave side of the clumping problem, with the coupling left free, velocity streams are "tunable across ~10 orders: optional, never required" (#11 §9). Streams that are permitted but not required are no longer a prediction, as the calc note records: "on this branch the granularity prediction is no longer a novel requirement of the program, only an option — a degeneration flag" (`notes/wave-island.md`, 'What pins g?'). The branch is quarantined ([Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)).
 - **The gate tail.** The dark-matter self-interaction has a "robust knee at v\*", but its "tail (Gaussian vs rational) diagnoses the vertex completion" (#11 §8), and no derivation yet fixes it ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)).
 - **Three demotions.** In each, a result the program had claimed as its own was downgraded, withdrawn or credited to earlier work:
   - §7.4: a live literature search found the interchange-symmetric bimetric potentials charted, with the partially massless (PM) point inside the palindromic branch, so the novelty of the vacuum-energy identity was "downgraded from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" ([Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison));
@@ -122,7 +122,7 @@ The dark-energy field τ has "two parameters (f, τᵢ) for three observables (w
 2. [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), the novelty audit of the vacuum-energy identity;
 3. [the Lorentzian dressing](/wiki/phase-space/born-geometry/lorentzian-dressing) of the "Euclidean-rigorous skeleton".
 
-The threshold has moved twice. The Debt-1 note on the classification of X made "theory" depend on the tuning test: "Pass ⇒ the geometric core stands and 'theory' becomes the defensible word" (`notes/debt1a-ii-X-classification.md` §5). After the [conditional pass](/wiki/gravity/tuning-test/conditional-pass), the v1 paper said "The word 'theory' awaits items 1–2 of §10", the wedge reduction and the Lorentzian dressing (#9 §11). #11 inserts the partially-massless comparison, the open item that §7.4's novelty downgrade created. Of the three, only the comparison is in the current work queue, where it comes first (root `CLAUDE.md`).
+The threshold has moved twice. The field-equation note on the classification of X made "theory" depend on the tuning test: "Pass ⇒ the geometric core stands and 'theory' becomes the defensible word" (`notes/x-classification.md` §5). After the [conditional pass](/wiki/gravity/tuning-test/conditional-pass), the v1 paper said "The word 'theory' awaits items 1–2 of §10", the wedge reduction and the Lorentzian dressing (#9 §11). #11 inserts the partially-massless comparison, the open item that §7.4's novelty downgrade created. Of the three, only the comparison is in the current work queue, where it comes first (root `CLAUDE.md`).
 
 ## The record since the handoff
 
@@ -147,8 +147,8 @@ v1's verdict: "The word 'theory' awaits items 1–2 of §10; the phrase 'researc
 - `papers/broken-born-checkpoint-v2.md` §15 — the assessment, current through v2.2; §14 items 1–3 — what "theory" waits on; §1 — the chain of structural results; §2 — the tiers and the reliability of negative results; §7 — the forcing chain, the tuning test, the identity and the novelty downgrade; §8–§13 — the gate tail, the wave-island sector, the over-constraint, the charge-lattice unification, the soliton obituary and the predictions table
 - `HANDOFF.md` §1 — "a Lakatosian research program, not a theory", the four consistency tests and the pre-round-3 "Honest status"; §2 — the external clock; §6 — the review rounds as of the handoff
 - root `CLAUDE.md` 'Since the handoff' — the pressure on the dark-energy sector and the current queue
-- `notes/debt1a-iii-tuning-test.md` §5 — forced convergence as first stated, with three tests; §3 — the frame tier as a structural argument; `notes/debt1a-ii-X-classification.md` §5 — the first threshold for "theory"; `notes/debt1a-iv-beta-coefficients.md` §2 — the four-line derivation of V(1) = 2T
-- `notes/debt3b-wave-island.md` 'What pins g?' — the degeneration flag on the wave island
+- `notes/tuning-test.md` §5 — forced convergence as first stated, with three tests; §3 — the frame tier as a structural argument; `notes/x-classification.md` §5 — the first threshold for "theory"; `notes/beta-coefficients.md` §2 — the four-line derivation of V(1) = 2T
+- `notes/wave-island.md` 'What pins g?' — the degeneration flag on the wave island
 - `notes/broken-born-program-v1.md` §10–§11 — the v1 open problems and assessment, superseded by #11 §15
 - `review/round3-adjudication.md` 'Verdict' and `review/round4-adjudication.md` 'Verdict' — the review verdicts since the handoff
 - `verify/battery.py` T4, T5, T7 — the machine checks of the tuning test and the integer identity

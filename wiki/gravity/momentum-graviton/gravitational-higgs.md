@@ -5,16 +5,16 @@ status: alive
 description: "The polarization choice spontaneously breaks the dual diffeomorphisms; X eats the would-be Goldstones and becomes a massive spin-2 with five polarizations, its mass the polarization-breaking scale."
 provenance: [D]
 sources:
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
-  - "notes/debt1a-iii-tuning-test.md §1"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §4"
+  - "notes/x-classification.md §5"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §4"
+  - "notes/tuning-test.md §1"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §7"
@@ -24,7 +24,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md ref [9]"
   - "papers/broken-born-checkpoint-v2.md ref [10]"
   - "papers/broken-born-checkpoint-v2.md ref [11]"
-  - "notes/debt1a-geometric-core.md §C"
+  - "notes/geometric-core.md §C"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §5"
@@ -44,11 +44,11 @@ sources:
 
 *The gravitational Higgs mechanism is how the [momentum graviton X](/wiki/gravity/momentum-graviton) acquires its mass in this program. The vacuum value of the [modular field](/wiki/phase-space/modular-field/modular-field-z), ⟨Z⟩ = i·g, sits at X = 0, and the local shifts of X, the [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms), move it away from there. So when the vacuum selects a [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), a split of phase space into position and momentum, those gauge symmetries are broken spontaneously. In the ordinary [Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs), a gauge field absorbs the would-be massless modes of a broken symmetry and becomes massive; here X absorbs the would-be Goldstone modes of the broken dual diffeomorphisms and becomes a massive spin-2 field with five polarizations. Its mass M_X is the scale of the polarization breaking, and no document gives it a value. The mechanism is a structural derivation [D — structural]; whether the mass term it produces is free of [ghosts](/wiki/gravity/spin-2-fields/ghosts) was a separate question, [the tuning test](/wiki/gravity/tuning-test).*
 
-**Status:** Alive — [D — structural] in [calc note #6](/wiki/history/documents/debt-1-notes) (`notes/debt1a-ii-X-classification.md` §3); step (iii) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1's chain, tagged [D + T] — not machine-checked; M_X has no value in any source. Whether the mass term is ghost-free is the tuning test, a conditional pass.
+**Status:** Alive — [D — structural] in [calc note #6](/wiki/history/documents/field-equation-notes) (`notes/x-classification.md` §3); step (iii) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1's chain, tagged [D + T] — not machine-checked; M_X has no value in any source. Whether the mass term is ghost-free is the tuning test, a conditional pass.
 
 ## The statement
 
-Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its section "The mass mechanism and the endpoint [D — structural]":
+Calc note #6 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)), in its section "The mass mechanism and the endpoint [D — structural]":
 
 > The mass cannot be written by hand (shift symmetry) — but it doesn't need to be. The vacuum ⟨Z⟩ = i·g sits at X = 0 and is *moved* by the shifts: the polarization selection (η-emergence) **spontaneously breaks the local dual diffeomorphisms**. Gravitational Higgs mechanism: the four would-be Goldstones π_μ of the broken λ-gauge are eaten; X becomes a **massive spin-2** with its five polarizations, mass M_X = the polarization-breaking scale.
 
@@ -157,11 +157,11 @@ Added here for the Stückelberg background, also from memory (†), and cited by
 
 ## Sources
 
-- `notes/debt1a-ii-X-classification.md` §3 — the mechanism [D — structural], the classification and the Euclidean-rigorous skeleton; §1 — the shift symmetry; §2 — the no-go that requires a mass; §4 — the gate from integrating out massive X; §5 — "the eaten modes counted".
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the second wording of the absorbed modes; M_X as the Fierz–Pauli mass combination; §4 — "the Higgsing of dual diffeomorphisms".
-- `notes/debt1a-iii-tuning-test.md` §1, §2, §3 — the Higgs sector as the misalignment potential, its compatible locus, the verdict.
+- `notes/x-classification.md` §3 — the mechanism [D — structural], the classification and the Euclidean-rigorous skeleton; §1 — the shift symmetry; §2 — the no-go that requires a mass; §4 — the gate from integrating out massive X; §5 — "the eaten modes counted".
+- `notes/beta-coefficients.md` §3 — the second wording of the absorbed modes; M_X as the Fierz–Pauli mass combination; §4 — "the Higgsing of dual diffeomorphisms".
+- `notes/tuning-test.md` §1, §2, §3 — the Higgs sector as the misalignment potential, its compatible locus, the verdict.
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the current statement, step (iii); §7.5 — M_X ∝ 2(β₁+β₂), the Stückelberg sector, the Yukawa range; §7 — Born's answer; §4 — P2′ and P5; §12 — the X-condensate; §14 — open items 1, 3 and 6; refs [9]–[11].
-- `notes/debt1a-geometric-core.md` §C — the vacuum slice X = 0.
+- `notes/geometric-core.md` §C — the vacuum slice X = 0.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)', 'Addendum (v0.6)' — the lab notebook's record.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement, "(gravitational Higgs)".
 - `notes/knot-dark-matter-standalone.md` §1, §6 — the withdrawn manuscript's summary and its list of conjectural claims.

@@ -2,11 +2,11 @@
 title: "Safety by range: X and ordinary matter"
 weight: 90
 status: alive
-description: "Ordinary matter feels X at gravitational strength but only within the Yukawa range 1/M_X, so short-range force bounds are safe; how the argument shifted across the Debt-1 notes, and the bound a later note derived from it for the aligned vacuum."
+description: "Ordinary matter feels X at gravitational strength but only within the Yukawa range 1/M_X, so short-range force bounds are safe; how the argument shifted across the field-equation notes, and the bound a later note derived from it for the aligned vacuum."
 provenance: [D, T]
 sources:
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §4"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §8"
@@ -16,9 +16,9 @@ sources:
   - "papers/phase-space-diameter.md §9"
   - "verify/phase_space_diameter.py 'Consequences (note §8)'"
   - "review/round5-adjudication.md 'Rulings' R1"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-geometric-core.md §E"
+  - "notes/tuning-test.md §4"
+  - "notes/x-classification.md §4"
+  - "notes/geometric-core.md §E"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
@@ -33,13 +33,13 @@ sources:
   - "notes/gate-mechanism.md §3"
 ---
 
-*This result explains why ordinary matter shows no sign of the [momentum graviton X](/wiki/gravity/momentum-graviton). Standard Model matter couples to the metric g. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the program's two spin-2 frames to have [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses), so the metric g contains the massless graviton and X in comparable proportions, and ordinary matter feels both at gravitational strength. X is massive, so the force it carries is a [Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces), which dies away beyond a range of order 1/M_X [T]; gravitational-strength forces of such short range are not constrained by experiment. X is safe because of its range, not because ordinary matter is decoupled from it. The argument changed across [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes); the current form is calc note #8's [D + T], carried by [checkpoint #11](/wiki/history/documents/checkpoint) §7.5 [D]. It cites no experimental bound and no value of M_X. The [phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter) has since supplied a bound, conditional on the aligned vacuum the program's equations assume: torsion balances keep X's range below 37.7 micrometres, so M_X c² > 5.2 meV ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).*
+*This result explains why ordinary matter shows no sign of the [momentum graviton X](/wiki/gravity/momentum-graviton). Standard Model matter couples to the metric g. [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the program's two spin-2 frames to have [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses), so the metric g contains the massless graviton and X in comparable proportions, and ordinary matter feels both at gravitational strength. X is massive, so the force it carries is a [Yukawa force](/wiki/gravity/spin-2-fields/yukawa-forces), which dies away beyond a range of order 1/M_X [T]; gravitational-strength forces of such short range are not constrained by experiment. X is safe because of its range, not because ordinary matter is decoupled from it. The argument changed across [the field-equation calc notes](/wiki/history/documents/field-equation-notes); the current form is calc note #8's [D + T], carried by [checkpoint #11](/wiki/history/documents/checkpoint) §7.5 [D]. It cites no experimental bound and no value of M_X. The [phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter) has since supplied a bound, conditional on the aligned vacuum the program's equations assume: torsion balances keep X's range below 37.7 micrometres, so M_X c² > 5.2 meV ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).*
 
-**Status:** Alive — [D + T] in calc note #8 (`notes/debt1a-iv-beta-coefficients.md` §3); [D] in #11 §7.5 — the argument itself is not machine-checked and cites no force measurement. The bound on X's range that the phase-space-diameter note adds, conditional on the background ratio u = 1, is [D][V][S] (`papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py`, [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script); [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). Its gravitational-wave side is [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton); the open quantitative item beside it is [Open: the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) (OP5).
+**Status:** Alive — [D + T] in calc note #8 (`notes/beta-coefficients.md` §3); [D] in #11 §7.5 — the argument itself is not machine-checked and cites no force measurement. The bound on X's range that the phase-space-diameter note adds, conditional on the background ratio u = 1, is [D][V][S] (`papers/phase-space-diameter.md` §8.2; `verify/phase_space_diameter.py`, [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script); [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)). Its gravitational-wave side is [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton); the open quantitative item beside it is [Open: the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement) (OP5).
 
 ## The statement
 
-Calc note #8 §3 [D + T] (see [The Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), where SM is the Standard Model:
+Calc note #8 §3 [D + T] (see [The field-equation calc notes](/wiki/history/documents/field-equation-notes)), where SM is the Standard Model:
 
 > "With equal effective Planck masses (forced by the same symmetry), SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X."
 
@@ -78,7 +78,7 @@ The earlier notes had deferred a quantitative check of ordinary-matter safety to
 
 ## Superseded: earlier forms of the safety argument
 
-The argument took four forms in the four Debt-1 calc notes. The first two combined X's short range with a weak coupling of ordinary matter to X through its dual stress; the third required the massless combination to dominate the couplings of ordinary matter; the fourth, current one rests on range alone, with couplings of gravitational strength.
+The argument took four forms in the four field-equation calc notes. The first two combined X's short range with a weak coupling of ordinary matter to X through its dual stress; the third required the massless combination to dominate the couplings of ordinary matter; the fourth, current one rests on range alone, with couplings of gravitational strength.
 
 - **Calc note #5 §E [O]:** "SM safety: X is massive and couples to x-polarized matter only through its (suppressed) dual stress; short-range, fifth-force-safe — to be verified when the propagator exists [O]."
 - **Calc note #6 §4:** "Massive X ⇒ short-ranged, safe; couplings to x-polarized (SM) matter run through the SM's dual stress, which is unenhanced. [Consistency preserved; quantify with the propagator later.]"
@@ -89,14 +89,14 @@ The lab notebook's v0.6 addendum records the change as "SM safety by Yukawa rang
 
 ## Sources
 
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the current argument [D + T] and the open enhancement item; §4 — X coupled to ordinary matter "only at gravitational strength and short range"
+- `notes/beta-coefficients.md` §3 — the current argument [D + T] and the open enhancement item; §4 — X coupled to ordinary matter "only at gravitational strength and short range"
 - `papers/broken-born-checkpoint-v2.md` §7.5 — the current statement [D]; §7 — the closing summary; §8 — the "Main open quantitative item"; §14 items 4 and 5 — the gate shape and the dual-stress enhancement [O]
 - `papers/phase-space-diameter.md` §8.2 — the coupling α = (4/3)(M_f u/M_g)², the premise u = 1, the torsion-balance bound λ_X < 37.7 μm, M_X c² > 5.2 meV, and #8's statement found "consistent with the bound but gave no number" [D][V][S]; §9 — the bound's tags [V][S]
 - `verify/phase_space_diameter.py` 'Consequences (note §8)' — the bound recomputed from the experiment's exclusion table [V]
 - `review/round5-adjudication.md` 'Rulings' R1 — the background ratio that the first version of the bound dropped
-- `notes/debt1a-iii-tuning-test.md` §4 — the mixing-angle form [T]
-- `notes/debt1a-ii-X-classification.md` §4 — the unenhanced-dual-stress form
-- `notes/debt1a-geometric-core.md` §E — the first, suppressed-dual-stress form [O]
+- `notes/tuning-test.md` §4 — the mixing-angle form [T]
+- `notes/x-classification.md` §4 — the unenhanced-dual-stress form
+- `notes/geometric-core.md` §E — the first, suppressed-dual-stress form [O]
 - `notes/broken-born-theory.md` §3 — the Standard Model minimally coupled to g; §4 — τ's separate fifth-force argument; 'Addendum (v0.6)' — "SM safety by Yukawa range"
 - `notes/broken-born-program-v1.md` §5 — the superseded v1 statement
 - `papers/conjugate-special-relativity.md` §1, §6 — the "short range in momentum" and "Yukawa-cut in momentum" readings

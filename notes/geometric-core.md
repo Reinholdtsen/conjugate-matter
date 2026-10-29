@@ -1,5 +1,5 @@
-# Debt 1, Chunk A — the geometric core, linearized groundwork
-### (plus an unplanned payment on Debt 2)
+# The field-equation problem, Chunk A — the geometric core, linearized groundwork
+### (plus an unplanned result on the gate problem)
 
 *Overnight working note. Status: two rigorous results, one axiom correction forced, one mechanism identified, one decisive computation defined but not completed.*
 
@@ -55,7 +55,7 @@ Identifications, each checkable against everything derived so far:
 - **Born reciprocity acts as Z → −Z⁻¹** (Möbius action of the I-rotation; d = 1 check: matrix [[0,1],[−1,0]] gives Z → −1/Z). Fixed point Z = i: the self-dual vacuum of the earlier turns, now as modular geometry. The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle — the minisuperspace duality was the shadow of this modular action.
 - **Λ(d) is the Shilov boundary of the Siegel domain** [standard]. The τ field — arg det of the boundary variable — is the phase of Z's boundary value.
 
-One object now carries the whole geometric program: **metric (Im Z), momentum geometry and gate mediator (Re Z), scale-factor duality (|Z|), dark energy (boundary phase of Z).** Born's debt, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*
+One object now carries the whole geometric program: **metric (Im Z), momentum geometry and gate mediator (Re Z), scale-factor duality (|Z|), dark energy (boundary phase of Z).** The field-equation problem, restated exactly: *the field equation for momentum-space geometry is the Re Z sector of S_H.*
 
 ## D. Quadratic spectrum and the ghost question [partial]
 
@@ -67,7 +67,7 @@ Field content on the broken vacuum: h_μν (10, graviton) ⊕ X_μν (10, moment
 
 Outcomes 1 and 2 both serve the program; only 3 kills. Not completed tonight; it is the single most important remaining calculation, and it is now a defined computation rather than a slogan.
 
-## E. Debt 2 — the mechanism, found [D — structural]
+## E. The gate problem — the mechanism, found [D — structural]
 
 The gate's origin falls out of §C. Conjugate matter couples to H universally (P4); its coupling to the X-block is through the **dual stress** T̃ — moments involving momentum-derivatives of the χ bilinear. Exchange of X between two such bilinears yields a four-point amplitude that depends on the **incoming relative momenta** of the pair — the variable no x-local mediator can produce, and exactly the variable the gate was postulated in. Structurally:
 
@@ -77,8 +77,8 @@ $$
 
 The gate *shape* is the X propagator's structure on the momentum fibers — open [O], and downstream of the §D classification (outcome 2 gives it most cheaply). SM safety: X is massive and couples to x-polarized matter only through its (suppressed) dual stress; short-range, fifth-force-safe — to be verified when the propagator exists [O].
 
-## F. Ledger after tonight
+## F. Status after tonight
 
-**Paid:** the compatibility theorem; discovery and repair of an axiom-level inconsistency (P2 → P2′, with a nontriviality theorem making the repair mandatory); Born's debt reframed from slogan to a specific sector of a specific field (Re Z); Debt 2's mechanism identified (gate = X-exchange); unimodularity of H (det H = 1) as the geometric face of ℏ-rigidity; the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1).
+**Done:** the compatibility theorem; discovery and repair of an axiom-level inconsistency (P2 → P2′, with a nontriviality theorem making the repair mandatory); the field-equation problem reframed from slogan to a specific sector of a specific field (Re Z); the gate's mechanism identified (gate = X-exchange); unimodularity of H (det H = 1) as the geometric face of ℏ-rigidity; the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1).
 
 **Now precisely open:** (1) the quadratic X classification of §D — *do this next*; (2) gate shape from the X propagator; (3) the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops); (4) inverse-Higgs accounting of the nine heavy moduli; (5) connection uniqueness for the (ω, H)-only structure (FRS proved it for the full triple; the para-Hermitian literature — Svoboda, Marotta–Szabo — is the nearest neighbor).

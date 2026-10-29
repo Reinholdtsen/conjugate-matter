@@ -14,7 +14,7 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-theory.md §9"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3): resolution of open problem 3'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes): resolution of open problem 3'"
   - "notes/broken-born-program-v1.md §8"
   - "notes/broken-born-program-v1.md §9"
   - "notes/knot-dark-matter-standalone.md §5"
@@ -96,7 +96,7 @@ Both popular articles explain the bound through the sign of kinetic energy ([the
 ## History
 
 - **v0.1 (#1 §7 item 1; §9 row 5).** The bound is derived [D] and made a kill condition, with the intrinsic-versus-artifact qualification.
-- **v0.2.** After [Debt 3](/wiki/history/debts), the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
+- **v0.2.** After [the clumping problem](/wiki/history/main-problems), the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
 - **v1 (#9 §8; §9 row 4).** "Strictly w ≥ −1", and the requirement "**never phantom**", with the kill "robust intrinsic w < −1 (kills outright)".
 - **#11 v2.0.** §10 "strictly w ≥ −1"; row 4 as in v1.
 - **Round 3.** The [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 v3, since withdrawn, described the parent framework as predicting "thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). The [round-3](/wiki/method/review/round-3) referee found the DESI-preferred solution phantom-crossing, and ruling 11 accepted it: "The parent framework's 'never phantom' needs the checkpoint's own nuance: non-phantom fits remain compatible at ~2σ." ([round-3 rulings](/wiki/method/review/round-3/rulings)).

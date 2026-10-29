@@ -6,7 +6,7 @@
         <W> = (1 + 2 s^2/v*^2)^(-3/2) exp(-V^2/(v*^2 + 2 s^2)),  s^2 = s1^2 + s2^2.
     Closed form checked here against direct numerical quadrature (independent of the formula).
 (2) Narrow-gate 'Jeans' length of a long-range gated attraction of strength beta G (model b) among
-    co-movers, lambda_J = 2 pi v*/sqrt(4 pi beta G rho_gate), with Debt 3a's co-moving fraction;
+    co-movers, lambda_J = 2 pi v*/sqrt(4 pi beta G rho_gate), with calc note #2's co-moving fraction;
     and the beta needed to bring it down to 1 kpc.  Rough estimate (homogeneous medium, Jeans swindle)."""
 import math as m
 import numpy as np

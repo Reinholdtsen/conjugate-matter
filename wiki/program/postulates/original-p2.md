@@ -11,10 +11,10 @@ sources:
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md §6"
   - "notes/broken-born-theory.md §11"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §E"
+  - "notes/geometric-core.md §F"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §7.2"
@@ -32,7 +32,7 @@ sources:
 
 *The original P2 was the lab notebook's second axiom: of the three structures on phase space, the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η are fixed background, and only the generalized metric H carries degrees of freedom. It was meant to express the constancy of Planck's constant, and the notebook gave it three further jobs: removing a would-be second graviton, fixing the relation between the two cosmological scale factors, and supplying the dark-energy field's potential. The program's geometry showed that it fixed too much. With both structures fixed, H is forced into a rigid block form, the [polarizations](/wiki/phase-space/reciprocity/lagrangian-polarizations) (position–momentum splittings) compatible with both include no circle for the dark-energy field to live on, and the theory reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one bespoke model of self-interacting dark matter. It was replaced by [P2′](/wiki/program/postulates/p2-prime), which fixes ω alone. Of its three jobs, one was reversed, one survives from ω alone, and one became an open problem.*
 
-**Status:** Superseded by P2′ — [P] as stated; its reduction to "Branch R" is [D — structural] (`notes/debt1a-geometric-core.md` §B) — the replacement was forced by [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) ([#11](/wiki/history/documents/checkpoint) §4–§5; lab notebook addendum v0.3). Listed in [superseded statements](/wiki/status/superseded).
+**Status:** Superseded by P2′ — [P] as stated; its reduction to "Branch R" is [D — structural] (`notes/geometric-core.md` §B) — the replacement was forced by [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) ([#11](/wiki/history/documents/checkpoint) §4–§5; lab notebook addendum v0.3). Listed in [superseded statements](/wiki/status/superseded).
 
 ## The statement
 
@@ -56,7 +56,7 @@ The notebook gave P2 three further roles: "This single postulate does triple dut
 
 ### The compatibility theorem
 
-Groundwork on [Debt 1](/wiki/history/debts), the field equation for H (#1 §11, open problem 1), produced the result that settled P2 (#1 'Addendum (v0.3)'; the overnight [Debt-1 note](/wiki/history/documents/debt-1-notes), #5). With ω and η both in standard form, "the positive generalized metrics H satisfying the full Born algebra — (η⁻¹H)² = +1 **and** (ω⁻¹H)² = −1 — are exactly"
+Groundwork on [the field-equation problem](/wiki/history/main-problems), the field equation for H (#1 §11, open problem 1), produced the result that settled P2 (#1 'Addendum (v0.3)'; the overnight [field-equation note](/wiki/history/documents/field-equation-notes), #5). With ω and η both in standard form, "the positive generalized metrics H satisfying the full Born algebra — (η⁻¹H)² = +1 **and** (ω⁻¹H)² = −1 — are exactly"
 
 ```text
 H = diag(g, g⁻¹),     g ∈ Sym⁺(d)                                    (#5 §A)
@@ -102,7 +102,7 @@ The note presents the step as forced, under the name "Program-nontriviality theo
 
 1. **No second graviton — reversed.** With η emergent, the real part X of [the modular field Z = X + iY](/wiki/phase-space/modular-field/modular-field-z) carries its own gauge symmetry, and the v0.4 addendum found that "Its local gauge structure δX_μν = ∂_(μλ_ν) makes it a *second graviton*". Two interacting massless gravitons are excluded by a no-go theorem ([the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go)), so "The only exit: the polarization selection (η-emergence) spontaneously breaks the dual diffeomorphisms, X eats the four Goldstones and becomes a **massive spin-2**" (#1 'Addendum (v0.4)'; [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)). Ghost freedom now comes from the formulation, not from rigidity: the frame-tier couplings are "the Hinterbichler–Rosen class [12†], ghost-free by construction" (#11 §7.2; [the frame tier](/wiki/gravity/tuning-test/frame-tier)).
 2. **The cosmological constraint — survives from ω alone.** #11 §10: "ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus." (On the |Z| = 1 locus, see flag 23 in `review/wiki-build-flags.md`.) The notebook's own derivation in §6, quoted above, already used only the rigidity of ω. See [the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint).
-3. **The dark-energy potential — open.** The Debt-1 note lists among its open items "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F, item 3). The [toy models](/wiki/symmetry-breaking/toy-models) of v2.2 found that ω alone leaves the polarization as a free angle: "A definite polarization needs a ρ-preserving potential on that angle — a rigid, unordered pair of axes, so more structure than ω alone, though less than a rigid η" (#11 §4). A derivation of that potential is one of the open ends listed in `CLAUDE.md`. See [the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
+3. **The dark-energy potential — open.** The field-equation note lists among its open items "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" (#5 §F, item 3). The [toy models](/wiki/symmetry-breaking/toy-models) of v2.2 found that ω alone leaves the polarization as a free angle: "A definite polarization needs a ρ-preserving potential on that angle — a rigid, unordered pair of axes, so more structure than ω alone, though less than a rigid η" (#11 §4). A derivation of that potential is one of the open ends listed in `CLAUDE.md`. See [the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
 
 ## Where the old axiom still reads as live
 
@@ -111,9 +111,9 @@ The note presents the step as forced, under the name "Program-nontriviality theo
 
 ## Sources
 
-- `notes/broken-born-theory.md` §1 — the statement and its "triple duty"; §2 — the ℤ₄ → ℤ₂ breaking pattern; §3 — the potential attributed to the rigid ω, and the action with ω, η frozen; §4 — 'Ghost accounting'; §6 — the constraint from the rigidity of ω; §11 — Debt 1 as open problem 1
+- `notes/broken-born-theory.md` §1 — the statement and its "triple duty"; §2 — the ℤ₄ → ℤ₂ breaking pattern; §3 — the potential attributed to the rigid ω, and the action with ω, η frozen; §4 — 'Ghost accounting'; §6 — the constraint from the rigidity of ω; §11 — the field-equation problem as open problem 1
 - `notes/broken-born-theory.md` 'Addendum (v0.3)' — the replacement; 'Addendum (v0.4)' — X as a second graviton, made massive
-- `notes/debt1a-geometric-core.md` §A — the compatibility theorem and its corollaries; §B — the inconsistency, Branch R, the repair and the nontriviality theorem; §E — the gate as X exchange; §F — the potential's origin under P2′ as an open item
+- `notes/geometric-core.md` §A — the compatibility theorem and its corollaries; §B — the inconsistency, Branch R, the repair and the nontriviality theorem; §E — the gate as X exchange; §F — the potential's origin under P2′ as an open item
 - `papers/broken-born-checkpoint-v2.md` §4–§5 — the current record of the forced correction and the theorem's attribution; §7.2 — frame-tier ghost freedom; §10 — the constraint from ω-rigidity and DESI's second data release; §13 row 9 — the remaining reliance on ρ²
 - `CLAUDE.md` 'Since the handoff' — the derivation of the ρ-preserving potential as an open end
 - `verify/battery.py` T1 — the compatibility-theorem checks

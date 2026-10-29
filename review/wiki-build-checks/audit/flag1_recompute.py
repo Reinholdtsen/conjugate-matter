@@ -2,7 +2,7 @@
 """
 Flag 1 audit -- independent recomputation (not using review/wiki-build-checks/).
 
-Source claim (notes/debt1a-geometric-core.md SB line 27; echoed #11 S5, #9 S3, #1 v0.3):
+Source claim (notes/geometric-core.md SB line 27; echoed #11 S5, #9 S3, #1 v0.3):
   under strict P2 (omega AND eta rigid) the polarizations that are omega-Lagrangian AND
   eta-null are "discrete -- the 2^d coordinate-type splittings, GL(d)-rigid", hence no
   Lagrangian Grassmannian, no Maslov circle, no tau.

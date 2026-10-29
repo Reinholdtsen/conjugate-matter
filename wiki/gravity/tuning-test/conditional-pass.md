@@ -11,14 +11,14 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §1"
-  - "notes/debt1a-iii-tuning-test.md header"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
+  - "notes/tuning-test.md header"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §5"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §5"
+  - "notes/geometric-core.md §D"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
@@ -33,13 +33,13 @@ sources:
   - "review/wiki-build-flags.md item 7"
 ---
 
-*The verdict of [the tuning test](/wiki/gravity/tuning-test) is a conditional pass. The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass carries the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) when it is written in metric, or second-order, variables, and it is [ghost-free](/wiki/gravity/spin-2-fields/ghosts) when it is written in frame, or first-order, variables. The condition is the choice of variables, and the [calc notes](/wiki/history/documents/debt-1-notes) argue that the first-order formulation is the natural one anyway, because the [polarization J](/wiki/symmetry-breaking/order-parameter) and the [symplectic vielbein E](/wiki/gravity/tuning-test/frame-tier) are both first-order objects. Before the test, calc note #6 had spelled out what a failure would leave: only a phenomenological shell of [gated](/wiki/dark-matter/conjugate-matter/velocity-gate) [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) and [a dark-energy field on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), with the geometric story demoted to heuristics. [Checkpoint #11](/wiki/history/documents/checkpoint) tags the tuning test [D][V]. The machine checks cover the [metric-tier failures](/wiki/gravity/tuning-test/metric-tier-failures); the frame-tier pass is a structural argument with no test, and its potential was selected rather than derived.*
+*The verdict of [the tuning test](/wiki/gravity/tuning-test) is a conditional pass. The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass carries the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli) when it is written in metric, or second-order, variables, and it is [ghost-free](/wiki/gravity/spin-2-fields/ghosts) when it is written in frame, or first-order, variables. The condition is the choice of variables, and the [calc notes](/wiki/history/documents/field-equation-notes) argue that the first-order formulation is the natural one anyway, because the [polarization J](/wiki/symmetry-breaking/order-parameter) and the [symplectic vielbein E](/wiki/gravity/tuning-test/frame-tier) are both first-order objects. Before the test, calc note #6 had spelled out what a failure would leave: only a phenomenological shell of [gated](/wiki/dark-matter/conjugate-matter/velocity-gate) [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) and [a dark-energy field on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence), with the geometric story demoted to heuristics. [Checkpoint #11](/wiki/history/documents/checkpoint) tags the tuning test [D][V]. The machine checks cover the [metric-tier failures](/wiki/gravity/tuning-test/metric-tier-failures); the frame-tier pass is a structural argument with no test, and its potential was selected rather than derived.*
 
 **Status:** Alive — [D][V] in #11 §7.2 — the metric-tier half is machine-checked by battery tests T3, T4 and T7, all passing ([the verification battery](/wiki/method/verification/battery)); the frame-tier half is [D — structural, resting on T] in calc note #7 §3 and has no test; the passing class was selected, not derived ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)).
 
 ## The verdict
 
-Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) states it at the end of its §3:
+Calc note #7 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) states it at the end of its §3:
 
 > **Verdict of the tuning test:** the theory *fails* in second-order (metric) variables and *passes* in first-order (frame) variables. Since the first-order formulation is independently the natural one, this is a conditional pass with the condition being the formulation the geometry already prefers.
 
@@ -66,19 +66,19 @@ The negative half is set out on [the metric tier fails twice](/wiki/gravity/tuni
 
 ## What was at stake
 
-The test was the end of a narrowing that began in calc note #5. That note defined "the decisive check" as a three-way classification of X: "healthy propagating", "auxiliary" or "ghost", with "Outcomes 1 and 2 both serve the program; only 3 kills" (#5 §D). Calc note #6 resolved the classification by symmetry and no-go arguments: "*massive spin-2, conditionally healthy*" (#6 §5; [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)). It left one condition, the one the tuning test checked: "The geometric sector is healthy iff the potential generated by the η-selection lands in the Hassan–Rosen class; a generic potential reintroduces the Boulware–Deser ghost" (#6 §3). The notebook's v0.4 addendum records that "Debt 1 has been reduced to that single tuning computation" ([the three debts](/wiki/history/debts)).
+The test was the end of a narrowing that began in calc note #5. That note defined "the decisive check" as a three-way classification of X: "healthy propagating", "auxiliary" or "ghost", with "Outcomes 1 and 2 both serve the program; only 3 kills" (#5 §D). Calc note #6 resolved the classification by symmetry and no-go arguments: "*massive spin-2, conditionally healthy*" (#6 §5; [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)). It left one condition, the one the tuning test checked: "The geometric sector is healthy iff the potential generated by the η-selection lands in the Hassan–Rosen class; a generic potential reintroduces the Boulware–Deser ghost" (#6 §3). The notebook's v0.4 addendum records that "The field-equation problem has been reduced to that single tuning computation" ([the three main problems](/wiki/history/main-problems)).
 
 #6 §5 spelled out both branches before the computation:
 
-> **The single remaining computation of Debt 1:** derive the X-potential from the η-selection (J–Z) sector and test it against the dRGT coefficient family. Pass ⇒ the geometric core stands and "theory" becomes the defensible word. Fail ⇒ the Boulware–Deser ghost kills the geometric sector, and BBT survives only as its phenomenological shell (gated SIDM + Maslov quintessence with the geometric story demoted to heuristics).
+> **The single remaining computation of the field-equation problem:** derive the X-potential from the η-selection (J–Z) sector and test it against the dRGT coefficient family. Pass ⇒ the geometric core stands and "theory" becomes the defensible word. Fail ⇒ the Boulware–Deser ghost kills the geometric sector, and BBT survives only as its phenomenological shell (gated SIDM + Maslov quintessence with the geometric story demoted to heuristics).
 
 BBT is Broken-Born theory, the program's earlier name, and SIDM is self-interacting dark matter. The shell consists of the dark-matter self-interaction cut off by [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) and the dark-energy field τ on the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase) ([τ as quintessence](/wiki/cosmology/dark-energy/tau-quintessence)). In the failure branch both would have remained, with the geometric story behind them demoted to heuristics. The pass branch's claim about the word "theory" was later superseded (below).
 
 ## What a pass did not deliver
 
-#7 §3 marks the limit of the result: "What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution. That coefficient computation is the closing stone of Debt 1." Its §5 ranks what remained: "(i) the βₙ coefficient derivation from the E–J wedge sector — the last computation; (ii) τ-not-eaten verification; (iii) Lorentzian dressing of the Euclidean skeleton; (iv) SM-coupling/graviton-mass parametrics. Items (ii)–(iv) are checks; item (i) is the substance" (#7 §5), SM being the Standard Model.
+#7 §3 marks the limit of the result: "What a pass does **not** yet deliver: the βₙ coefficients. Those follow from expanding the E–J wedge sector, and they determine M_X, the X–h mixing, and a vacuum-energy contribution. That coefficient computation is the closing stone of the field-equation problem." Its §5 ranks what remained: "(i) the βₙ coefficient derivation from the E–J wedge sector — the last computation; (ii) τ-not-eaten verification; (iii) Lorentzian dressing of the Euclidean skeleton; (iv) SM-coupling/graviton-mass parametrics. Items (ii)–(iv) are checks; item (i) is the substance" (#7 §5), SM being the Standard Model.
 
-Calc note #8 took up item (i). [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the [palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome); under it, a flat aligned vacuum forces the wedge sector's vacuum energy to vanish ([the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)); and the five coefficients reduce to two parameters ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)). #8 closes with "Debt 1: structurally paid" and an "Open residue, none of it existential", led by the first-principles reduction of the wedge sector (#8 §5).
+Calc note #8 took up item (i). [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) forces the [palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome); under it, a flat aligned vacuum forces the wedge sector's vacuum energy to vanish ([the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)); and the five coefficients reduce to two parameters ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)). #8 closes with "The field-equation problem: solved in structure" and an "Open residue, none of it existential", led by the first-principles reduction of the wedge sector (#8 §5).
 
 ## How it is verified
 
@@ -101,7 +101,7 @@ Before the test, #6 §5 made the pass the threshold: "Pass ⇒ the geometric cor
 - **Calc note #5 and the v0.3 addendum.** The decisive computation is defined as the healthy / auxiliary / ghost classification of X (#5 §D; notebook 'Addendum (v0.3, overnight)').
 - **Calc note #6 and the v0.4 addendum.** X is a massive spin-2 field, healthy if and only if its potential lands in the Hassan–Rosen class (#6 §3, §5).
 - **Calc note #7 and the v0.5 addendum.** "The dRGT tuning test is done": a conditional pass (#7 §3; notebook 'Addendum (v0.5)').
-- **Calc note #8 and the v0.6 addendum.** The coefficients βₙ under reciprocity; Debt 1 "structurally paid" (#8 §5).
+- **Calc note #8 and the v0.6 addendum.** The coefficients βₙ under reciprocity; the field-equation problem "solved in structure" (#8 §5).
 - **The v1 program paper** (#9 §5 item 4, superseded by #11): "The tuning test [D — both branches computed]".
 - **Checkpoint #11** (§7.2): "The tuning test [D][V]". Its plain-language opening of §7: "The health check came down to a tuning test — failed in one formulation, passed in the one the geometry prefers".
 - **The handoff** (`HANDOFF.md` §2) lists the frame tier's pass among the results that stand: "passes iff formulated in first-order variables" ([the handoff](/wiki/history/documents/handoff)).
@@ -109,10 +109,10 @@ Before the test, #6 §5 made the pass the threshold: "Pass ⇒ the geometric cor
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7.2 — the current statement [D][V]; §7 — the plain-language opening; §15 — the four tests, the progressive signs and "theory" waiting on items 1–3; §1 — the chain of structural results; §14 item 1 — the open derivation; §2 — the selection-versus-derivation bias.
-- `notes/debt1a-iii-tuning-test.md` header — the note's status line; §3 — the verdict and what a pass does not deliver; §5 — the remaining items, "class-certified", and the three tests.
-- `notes/debt1a-ii-X-classification.md` §3, §5 — the health criterion; the pass and fail branches as posed before the test.
-- `notes/debt1a-geometric-core.md` §D — the three-way classification.
-- `notes/debt1a-iv-beta-coefficients.md` §3, §5 — the two parameters; Debt 1 "structurally paid" and its residue.
+- `notes/tuning-test.md` header — the note's status line; §3 — the verdict and what a pass does not deliver; §5 — the remaining items, "class-certified", and the three tests.
+- `notes/x-classification.md` §3, §5 — the health criterion; the pass and fail branches as posed before the test.
+- `notes/geometric-core.md` §D — the three-way classification.
+- `notes/beta-coefficients.md` §3, §5 — the two parameters; the field-equation problem "solved in structure" and its residue.
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)', 'Addendum (v0.4)', 'Addendum (v0.5)' — the notebook's record of each step, including "passes iff".
 - `notes/broken-born-program-v1.md` §5, §10, §11 — "[D — both branches computed]"; the v1 open items; "theory" awaiting items 1–2 and the four-step list.
 - `HANDOFF.md` §1, §2 — four consecutive tests; the handoff's summary of the verdict.

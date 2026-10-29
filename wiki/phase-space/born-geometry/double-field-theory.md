@@ -15,9 +15,9 @@ sources:
   - "review/round4/referee/audit-notes.md Step 1"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §7.1"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-ii-X-classification.md §2"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §D"
+  - "notes/x-classification.md §2"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
   - "review/round3/referee/audit-notes.md Step 3"
@@ -89,7 +89,7 @@ The program meets the same gap. Its toy section condition, built from the vacuum
 
 ## Double field theory as the program's contrast case
 
-**The partner's spin.** Calc note [#6](/wiki/history/documents/debt-1-notes) §2 sets the two doublings side by side. Doubling with ω makes the partner of the metric the symmetric tensor X ([the momentum graviton](/wiki/gravity/momentum-graviton)), whose dual diffeomorphisms δX_μν = ∂₍μλ_ν₎ are a second copy of linearized diffeomorphisms; in double field theory "there the doubled partner is the antisymmetric B-field, δB = dλ, a 2-form gauge theory — spin-wise harmless. The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field. This is the structural reason string theory's η-doubling exists and naive ω-doubling is hard: the symplectic partner of the graviton is another graviton." (#6 §2; η itself is a symmetric pairing, #1 §1, and the phrase is quoted as #6 writes it; see flag 15 in `review/wiki-build-flags.md`.) Checkpoint [#11](/wiki/history/documents/checkpoint) §7.1 keeps the contrast: X is symmetric, "contrast [double field theory's] antisymmetric B-field: the symmetry type of the rigid pairing dictates the partner's spin". See [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner) and [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms).
+**The partner's spin.** Calc note [#6](/wiki/history/documents/field-equation-notes) §2 sets the two doublings side by side. Doubling with ω makes the partner of the metric the symmetric tensor X ([the momentum graviton](/wiki/gravity/momentum-graviton)), whose dual diffeomorphisms δX_μν = ∂₍μλ_ν₎ are a second copy of linearized diffeomorphisms; in double field theory "there the doubled partner is the antisymmetric B-field, δB = dλ, a 2-form gauge theory — spin-wise harmless. The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field. This is the structural reason string theory's η-doubling exists and naive ω-doubling is hard: the symplectic partner of the graviton is another graviton." (#6 §2; η itself is a symmetric pairing, #1 §1, and the phrase is quoted as #6 writes it; see flag 15 in `review/wiki-build-flags.md`.) Checkpoint [#11](/wiki/history/documents/checkpoint) §7.1 keeps the contrast: X is symmetric, "contrast [double field theory's] antisymmetric B-field: the symmetry type of the rigid pairing dictates the partner's spin". See [the symplectic partner of the graviton](/wiki/gravity/momentum-graviton/symplectic-partner) and [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms).
 
 **No B-field once ω is rigid too.** Generalized metrics built from a metric and a B-field satisfy the η condition, and satisfy the ω condition only when the B-field vanishes. #11 §5, crediting Freidel, Leigh and Minic: "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." Calc note #5 §A states the same as corollary 2 of the compatibility theorem: "The off-diagonal block — [double field theory's] B-field — is frozen out by the extra symplectic compatibility. Born geometry with both structures rigid is *stiffer* than [double field theory]." Round 3 checked the family numerically at d = 3 and 4: "eta residual <= 7e-14 but omega residual >= 0.28 (d=3), 1.48 (d=4)" (audit notes, Step 3; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
 
@@ -129,7 +129,7 @@ As the documents give them; the toy-model note's list is unmarked, and the workl
 - `review/round4-adjudication.md` "Rulings" — the "pair" restricted to d = 1.
 - `review/round4/referee/audit-notes.md` Step 1 — weak and strong constraints in the cited papers; the continuous family; the Freidel–Rudolph–Svoboda quotation.
 - `review/round3/referee/audit-notes.md` Step 3 and `review/round3/referee/step3.py` family (c) — the generalized metric with a B-field, checked numerically.
-- `notes/debt1a-geometric-core.md` §A, §D — corollary 2 (no Kalb–Ramond analog); the healthy precedent.
-- `notes/debt1a-ii-X-classification.md` §2 — the B-field as a spin-harmless partner.
+- `notes/geometric-core.md` §A, §D — corollary 2 (no Kalb–Ramond analog); the healthy precedent.
+- `notes/x-classification.md` §2 — the B-field as a spin-harmless partner.
 - `notes/toy-lagrangian.md` chunk 4 (S5) — the live-searched literature on deriving and selecting the section; 'Chunk 1 results' — broken O(D, D) with H as order parameter.
 - `notes/broken-born-theory.md` §1, §2 — η as a symmetric neutral metric; the v0.1 section condition, "open there and open here".

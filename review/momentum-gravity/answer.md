@@ -102,15 +102,15 @@ Round 3 is finished and checked. Two agents checked this answer against the scri
    - #6 §4's fiber overlap has two readings. One is an ordinary 10 pm potential with power-law tails and no gate. The other is a pair interaction that gives the gate but contains no X.
    - The record builds neither, and its section condition makes every field independent of the fiber coordinates.
    - Suggested tags: [P] for the gate and μ, and [O] for the mechanism.
-   - This would reopen what HANDOFF records as #5 "paying Debt 2's mechanism".
+   - This would reopen what HANDOFF records as #5 "finding the gate's mechanism".
    - It would also touch #11's abstract and §§8, 12, 13 (rows 1–3) and 15, #8 §5, and the wiki's gate-mechanism page.
-   - Open: whether Debt 3's surviving island discriminant (the knee shape telling particle χ from wave χ) still holds.
+   - Open: whether the clumping problem's surviving island discriminant (the knee shape telling particle χ from wave χ) still holds.
 2. **#13 §2 against §5 (low).** §2 says a merger "operates at F ~ c̃", but §5 makes free fall dual rest.
 3. **Diameter note §8.2, Vainshtein radius (low).** The critic-numbers checker and I each read Enander–Mörtsell eqs. 38–43.
    - [verify/phase_space_diameter.py:383](verify/phase_space_diameter.py#L383) uses the formula that assumes one mode mass is zero. In the program's vacuum that would make X massless.
    - The applicable formulas give 1.5–3.8×10⁻¹² m for 1 kg. Under one of them the rounding check on line 384 fails.
    - The conclusion, that lab masses are unscreened, holds.
-4. **Debt 3a's criterion when the gate is narrower than the dispersion (low; next to flag 19).**
+4. **Calc note #2's criterion when the gate is narrower than the dispersion (low; next to flag 19).**
    - Linearized, it reads g·n·Λ_g ≥ m·σ².
    - 3a's form overstates the Milky Way shortfall about 3×; the verdict is unchanged.
 

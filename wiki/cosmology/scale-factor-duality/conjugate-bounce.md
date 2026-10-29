@@ -35,7 +35,7 @@ sources:
 
 The [handoff](/wiki/history/documents/handoff) gives the chain in one line: "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)" (`HANDOFF.md` §2).
 
-The [lab notebook](/wiki/history/documents/lab-notebook)'s version, with its [D] tag (#1 §7 item 3): the same event, "read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, [two descriptions] — now as a constraint identity rather than a metaphor." (The notebook writes "two ledgers"; the brackets give the wiki's wording.)
+The [lab notebook](/wiki/history/documents/lab-notebook)'s version, with its [D] tag (#1 §7 item 3): the same event, "read through aã = 1, is the conjugate frame's bounce: our maximum is their minimum. One event, two descriptions — now as a constraint identity rather than a metaphor."
 
 ## How a turnaround happens [T]
 
@@ -101,7 +101,7 @@ Three cautions go with the figure:
 
 The near-term proxy is [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), the drift of dark energy's equation of state that DESI measures. #11 §13 adds to row 4 that "DR2 already favors a crossing above z ≈ 0.4", against the framework's [strict w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
 
-**Founding supposition 7.** "Our expansion reverses at their bounce" is "**alive, corrected**: one event, [two descriptions]; live at DESI DR3" (#11 App. A item 7, with the wiki's wording in brackets), where DESI DR3 is the survey's third data release (Data Release 3). The correction is the one this page describes: the two events became one. See [founding suppositions and their fates](/wiki/program/founding-suppositions).
+**Founding supposition 7.** "Our expansion reverses at their bounce" is "**alive, corrected**: one event, two descriptions; live at DESI DR3" (#11 App. A item 7), where DESI DR3 is the survey's third data release (Data Release 3). The correction is the one this page describes: the two events became one. See [founding suppositions and their fates](/wiki/program/founding-suppositions).
 
 ## Timing
 
@@ -116,7 +116,7 @@ The phase-space-diameter note answers the question for this bounce (`papers/phas
 ## History
 
 - **Lab notebook, v0.1** (#1 §7 item 3; §9 row 6). The identity [D], the fits [T], and the row "Turnaround after V(τ)<0; AdS transition preferred by current quintessence fits", where AdS is anti-de Sitter.
-- **#9 §8, §9 row 5.** "The turnaround is the conjugate bounce by the constraint identity: one event, [two descriptions]"; the row reads "Turnaround after V(τ) < 0 = conjugate bounce".
+- **#9 §8, §9 row 5.** "The turnaround is the conjugate bounce by the constraint identity: one event, two descriptions"; the row reads "Turnaround after V(τ) < 0 = conjugate bounce".
 - **`HANDOFF.md` §2.** "eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions)".
 - **#11 §10, §13 row 5.** The current statement. The row drops "after V(τ) < 0".
 - **The phase-space-diameter note, version 1.1 (2026-10-26), §6.** The diameter relation's rectangle is at its most elongated at a turnaround, and its chat-only square "at the bounce" is withdrawn; the conflict over V(τ) is restated for the spatially flat universe (round-5 ruling R11).

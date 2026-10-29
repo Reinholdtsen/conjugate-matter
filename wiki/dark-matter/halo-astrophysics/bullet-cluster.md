@@ -15,9 +15,9 @@ sources:
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §6"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt3b-wave-island.md 'The rate'"
-  - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
+  - "notes/x-classification.md §4"
+  - "notes/wave-island.md 'The rate'"
+  - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
@@ -81,17 +81,17 @@ The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) [P] r
 | --- | --- | --- |
 | σ_T(v) across halo masses | Knee at v\* ~ 10² km/s; zero cluster signal (particle χ) | Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band |
 
-A merging cluster such as this one is therefore a place where particle χ must show no self-scattering, and a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). The program's notes model a galaxy cluster with [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-values-in-the-programs-notes) 1000 km/s, against 30 km/s for the core of a classical dwarf galaxy (`notes/debt3b-wave-island.md`, 'What pins g? Two scenarios').
+A merging cluster such as this one is therefore a place where particle χ must show no self-scattering, and a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). The program's notes model a galaxy cluster with [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-values-in-the-programs-notes) 1000 km/s, against 30 km/s for the core of a classical dwarf galaxy (`notes/wave-island.md`, 'What pins g? Two scenarios').
 
 How much self-interaction remains above the knee depends on the gate's tail, which is open:
 
 - **The v0.1 numbers.** The notebook's first gate was a postulated Gaussian. With it the notebook computed "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" and stated that "Cluster self-interaction is *identically zero at any future sensitivity* — a sharper statement than any Yukawa model can make, and a standing kill condition" (#1 §5.1). Its row 1 required "**exactly zero in clusters forever**", killed by "Robust nonzero self-interaction at v > 3v\*" (#1 §9). These statements are superseded ([the v0.1 predictions from the benchmark](/wiki/dark-matter/conjugate-matter/benchmark#superseded-the-v01-predictions-from-the-benchmark)).
-- **The knee.** [Calc note #6](/wiki/history/documents/debt-1-notes) found that "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (`notes/debt1a-ii-X-classification.md` §4). The lab notebook's v0.4 addendum amended row 1 accordingly: "the exponential cliff weakens to a sharp knee at v\* with tail shape (Gaussian vs rational) diagnosing the vertex completion" (#1 'Addendum (v0.4)', italics dropped and v_\* written v\*). A Gaussian tail makes self-interaction far above the knee negligible; a rational tail leaves a power-law remainder ([why the gate shape is observable](/wiki/dark-matter/conjugate-matter/gate-shape#why-it-is-observable)).
+- **The knee.** [Calc note #6](/wiki/history/documents/field-equation-notes) found that "tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile" (`notes/x-classification.md` §4). The lab notebook's v0.4 addendum amended row 1 accordingly: "the exponential cliff weakens to a sharp knee at v\* with tail shape (Gaussian vs rational) diagnosing the vertex completion" (#1 'Addendum (v0.4)', italics dropped and v_\* written v\*). A Gaussian tail makes self-interaction far above the knee negligible; a rational tail leaves a power-law remainder ([why the gate shape is observable](/wiki/dark-matter/conjugate-matter/gate-shape#why-it-is-observable)).
 - **No comparison.** No source evaluates that remainder at cluster speeds or sets it against the Bullet Cluster limit, and the kill condition does not say how large a remainder counts as robust.
 
 ### Particles, waves and the other candidate
 
-Row 1 attaches the qualifier "(particle χ)". If χ is light enough to behave as a classical wave (the regime called [the wave island](/wiki/dark-matter/momentum-clumping/wave-island)), [the Debt-3 notes](/wiki/history/documents/debt-3-notes) find that "The velocity suppression of self-interaction effects is e^{−v²/v\*²} on the particle island but (v\*/σ)⁴ on the wave island", with σ here the halo's velocity dispersion, not a cross-section (`notes/debt3b-wave-island.md`, 'The rate', transcribed from its LaTeX). #11 §9 keeps the (v\*/σ)⁴ law for wave χ and writes the particle side as a "sharp cutoff". Telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). Debt 3b's table of environments lists a cluster as "(0.03, 1000)", density in GeV/cm³ and dispersion in km/s, with a ratio of [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) to the orbital rate of "∼ 0" under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which has since been falsified. No source treats a cluster collision for wave χ, and none discusses the Bullet Cluster for the program's other candidate, [the X-condensate](/wiki/dark-matter/candidates/x-condensate) (#11 §12).
+Row 1 attaches the qualifier "(particle χ)". If χ is light enough to behave as a classical wave (the regime called [the wave island](/wiki/dark-matter/momentum-clumping/wave-island)), [the clumping notes](/wiki/history/documents/clumping-notes) find that "The velocity suppression of self-interaction effects is e^{−v²/v\*²} on the particle island but (v\*/σ)⁴ on the wave island", with σ here the halo's velocity dispersion, not a cross-section (`notes/wave-island.md`, 'The rate', transcribed from its LaTeX). #11 §9 keeps the (v\*/σ)⁴ law for wave χ and writes the particle side as a "sharp cutoff". Telling the two apart is [row 3, the island discriminant](/wiki/predictions/island-discriminant). Calc note #3's table of environments lists a cluster as "(0.03, 1000)", density in GeV/cm³ and dispersion in km/s, with a ratio of [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) to the orbital rate of "∼ 0" under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which has since been falsified. No source treats a cluster collision for wave χ, and none discusses the Bullet Cluster for the program's other candidate, [the X-condensate](/wiki/dark-matter/candidates/x-condensate) (#11 §12).
 
 ### The popular account
 
@@ -126,6 +126,6 @@ The program's documents cite no source for the Bullet Cluster. Added by the wiki
 - `papers/broken-born-checkpoint-v2.md` §8 — "Bullet-Cluster-safe", the plain-language passage on lensing and on the gate in dwarfs and clusters; §4 — P4; §9 — the (v\*/σ)⁴ suppression on the wave island and the "sharp cutoff" for particles; §12 — the two remaining candidates; §13 row 1 — zero cluster signal for particle χ
 - `notes/broken-born-theory.md` §4 — the lensing statement [D]; §5.1 — the v0.1 value at 1500 km/s and "identically zero at any future sensitivity"; §9 — the v0.1 row 1; 'Addendum (v0.4)' — the cliff weakened to a knee
 - `notes/broken-born-program-v1.md` §6 — the same clause in v1
-- `notes/debt1a-ii-X-classification.md` §4 — rational, power-law-tailed gates
-- `notes/debt3b-wave-island.md` 'The rate' — the island discriminant; 'What pins g? Two scenarios' — the cluster and dwarf environments
+- `notes/x-classification.md` §4 — rational, power-law-tailed gates
+- `notes/wave-island.md` 'The rate' — the island discriminant; 'What pins g? Two scenarios' — the cluster and dwarf environments
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular account (not a status source)

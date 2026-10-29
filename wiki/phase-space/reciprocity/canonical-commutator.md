@@ -13,8 +13,8 @@ sources:
   - "papers/reciprocity-toy-models.md §1"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
   - "notes/knot-dark-matter-standalone.md §1"
   - "verify/battery.py T2"
   - "popsci/universes-other-half.md 'An asymmetry that cannot be avoided'"
@@ -88,7 +88,7 @@ The argument and its current status are on [mandatory breaking](/wiki/symmetry-b
 
 The program's corrected postulate reads: "**P2′** Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral metric η is emergent" [P] (#11 §4; [P2′](/wiki/program/postulates/p2-prime)). The relations above motivate the identification, which remains a postulate. The commutator is the quantum form of ω, and ℏ is its only scale, so a symplectic form fixed once and for all amounts to a Planck constant that does not vary.
 
-The lab notebook glossed it this way under the original P2: "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) also froze the [neutral metric η](/wiki/phase-space/born-geometry/born-structures) and was superseded; [the calc note](/wiki/history/documents/debt-1-notes) that forced the change kept the ω half: "Freeze ω only — that is genuinely ℏ" (#5 §B).
+The lab notebook glossed it this way under the original P2: "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). The [original P2](/wiki/program/postulates/original-p2) also froze the [neutral metric η](/wiki/phase-space/born-geometry/born-structures) and was superseded; [the calc note](/wiki/history/documents/field-equation-notes) that forced the change kept the ω half: "Freeze ω only — that is genuinely ℏ" (#5 §B).
 
 Two results of the program carry the same reading:
 
@@ -123,7 +123,7 @@ These are added by the wiki from model memory (†); the program's documents cit
 - `papers/broken-born-checkpoint-v2.md` §10 — a·ã = 1 from ω-rigidity.
 - `papers/phase-space-diameter.md` §3 — a·ã = 1 as the one-cell area statement [D], already true in general relativity [T]; §5 — Gaussian packets on the half-plane.
 - `papers/reciprocity-toy-models.md` §1 — ρ is symplectic and squares to −1.
-- `notes/debt1a-geometric-core.md` §A, §B — unimodularity read as ℏ-rigidity; "Freeze ω only".
+- `notes/geometric-core.md` §A, §B — unimodularity read as ℏ-rigidity; "Freeze ω only".
 - `notes/broken-born-program-v1.md` §1 — "the canonical commutator is blind to it"; "nothing can be local in both variables at once" (v1, superseded as reference by #11).
 - `notes/broken-born-theory.md` §1, §2 — the original P2's gloss on ℏ; coordinates (xᵃ, p_a) with d = 4.
 - `notes/knot-dark-matter-standalone.md` §1 — ρ as a unitary equivalence of representations (withdrawn paper; the framing sentence is still the program's).

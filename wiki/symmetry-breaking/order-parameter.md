@@ -14,7 +14,7 @@ sources:
   - "papers/reciprocity-toy-models.md §3"
   - "papers/reciprocity-toy-models.md §4"
   - "papers/reciprocity-toy-models.md §5"
-  - "notes/debt1a-geometric-core.md §B"
+  - "notes/geometric-core.md §B"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §4"
@@ -69,13 +69,13 @@ The current postulate makes η the order parameter [P]:
 
 #11 adds that the correction from [the original P2](/wiki/program/postulates/original-p2), which had fixed η too, is "forced: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR is [general relativity](/wiki/gravity/spin-2-fields/general-relativity), SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter); [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem)). On credit: "That η should be dynamical rather than fixed was argued independently in metastring theory [26S]; the reading of η as the order parameter of broken reciprocity is this program's." (#11 §4; [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)). The lab notebook's v0.3 addendum, which recorded the change in the axiom list, puts it as "η is emergent — the order parameter itself, η = HJ, with the real structure J chosen spontaneously from U(d)/O(d) = Λ(d)" (#1). See [P2′](/wiki/program/postulates/p2-prime).
 
-[The Debt-1 note](/wiki/history/documents/debt-1-notes) gives the construction step by step: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ." (#5 §B). It also gives the reason for the assignment: "η is the structure that says which directions are position — of course that is what the vacuum decides, not the background."
+[The field-equation note](/wiki/history/documents/field-equation-notes) gives the construction step by step: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ." (#5 §B). It also gives the reason for the assignment: "η is the structure that says which directions are position — of course that is what the vacuum decides, not the background."
 
 ### Why η qualifies: reciprocity reverses it
 
 [The lab notebook](/wiki/history/documents/lab-notebook) found how the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity) ρ: (x, p) → (p, −x) acts on the three structures in their standard forms. ρ acts on vectors by R = [[0, 1], [−1, 0]], and "R preserves ω (it is symplectic), preserves H (it is orthogonal), and flips the sign of η, hence flips J and K while preserving I. [D]" (#1 §2). A quarter turn preserves oriented area and length, so it keeps ω and H = 1. It exchanges the position and momentum axes and reverses one of them, which reverses the sign of the symmetric pairing η [T].
 
-So η satisfies the definition. A vacuum with a definite η is carried by ρ to a different vacuum, with −η. Under P2′ the Debt-1 note reads the old observation in exactly these terms: "the earlier observation that reciprocity flips η now reads correctly as *the broken symmetry moving the order parameter*" (#5 §B).
+So η satisfies the definition. A vacuum with a definite η is carried by ρ to a different vacuum, with −η. Under P2′ the field-equation note reads the old observation in exactly these terms: "the earlier observation that reciprocity flips η now reads correctly as *the broken symmetry moving the order parameter*" (#5 §B).
 
 ### What η marks: its null lines
 
@@ -141,7 +141,7 @@ The four powers of ρ form the group ℤ₄, since ρ² = −1 and ρ⁴ = 1 [T]
 
 The documents give the name to different operators, and none reconciles them:
 
-- #11 §4 (P2′) names J: η = HJ, "with the real structure J chosen spontaneously", as do the Debt-1 note (#5 §B) and the notebook's v0.3 addendum.
+- #11 §4 (P2′) names J: η = HJ, "with the real structure J chosen spontaneously", as do the field-equation note (#5 §B) and the notebook's v0.3 addendum.
 - #11 §5 defines both, J = η⁻¹H and K = η⁻¹ω.
 - The toy-model note names K: "η = ωK (K a real structure, K² = 1)" (Abstract), with Kᵀ ω K = −ω (§1); #11 §14 item 11 follows it with "η = ωK is the order parameter".
 - The notebook's v0.1 calls J = η⁻¹H the order parameter (#1 §2).
@@ -155,7 +155,7 @@ In #11 §5's algebra both J and K square to +1, so each is a real structure in t
 - `papers/broken-born-checkpoint-v2.md` §13 row 9 — the remaining reliance on ρ²
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — "η = ωK is the order parameter" in the toy
 - `papers/reciprocity-toy-models.md` §1 — K, η = ωK and its null lines; ρ squares to −1; §2 — the vacuum circle, ρ's action on it, O = K₁₁; §4 — m = ⟨cos φ⟩ and the ordered phase; §5 — η's null lines and their exchange; Abstract — "K a real structure"
-- `notes/debt1a-geometric-core.md` §B — the forced repair: J selected from Λ(d), η ≡ HJ, ρ moving the order parameter
+- `notes/geometric-core.md` §B — the forced repair: J selected from Λ(d), η ≡ HJ, ρ moving the order parameter
 - `notes/broken-born-theory.md` §1 — P3 as the ℤ₄ generated by I; §2 — v0.1: J = η⁻¹H, ρ's action on the three structures [D], the ℤ₄ → ℤ₂ pattern (superseded), Λ(d)'s dimension; §4 — the ρ² argument behind row 9; 'Addendum (v0.3)' — η emergent, "the order parameter itself"
 - `notes/toy-lagrangian.md` 'Success criteria' — S3; 'Predictions' — the route with no separate K field; 'Chunk 1 results' — S3 pass [V], the stabilizer {±1}; 'Chunk 2 results' — Δ(β) as model II's order parameter
 - `review/round4/referee/audit-notes.md` Step 3 — ρ and K → −K act identically on the circle; the residual {±1, ±ρ} and its Ising-type breaking; Step 2(c) — the residual symmetry found with sympy, and order without a universality class; Step 2(a), F3 — "a labelling choice"

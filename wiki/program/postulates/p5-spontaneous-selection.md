@@ -13,7 +13,7 @@ sources:
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §8"
   - "notes/broken-born-program-v1.md §2"
-  - "notes/debt1a-geometric-core.md §B"
+  - "notes/geometric-core.md §B"
   - "papers/reciprocity-toy-models.md §1"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §3"
@@ -130,7 +130,7 @@ F(+) − F(−) = 2.634        the same at truncations N = 6, 8, 10        (toy 
 - `papers/broken-born-checkpoint-v2.md` §4 — the statement and the Goldstone-angle refinement; §3 — mandatory breaking and the Freidel–Leigh–Minic credit; §10 — the angle as τ's circle, consistency only; §14 item 11 — what is open
 - `notes/broken-born-theory.md` §1 — the v0.1 statement; §2 — Λ(d) and how ρ acts on the structures; §8 — the tilt angle in the polarization-genesis sketch
 - `notes/broken-born-program-v1.md` §2 — the v1 statement
-- `notes/debt1a-geometric-core.md` §B — the space of choices Λ(d) under P2′
+- `notes/geometric-core.md` §B — the space of choices Λ(d) under P2′
 - `papers/reciprocity-toy-models.md` §1 — K and its eigenlines, prior work; §2 — model I's vacua and ρ; §3 — model II's vacua and the real-model lead; §4 — Mermin–Wagner, the potential, the Monte Carlo and quantum restoration; §6 — what is not shown
 - `notes/toy-lagrangian.md` 'Chunk 2 results' — the consequence for P5; 'Chunk 3 results' — the 3+1 remark
 - `review/round4-adjudication.md` 'Rulings' F4 — the real-model preference recorded as a lead

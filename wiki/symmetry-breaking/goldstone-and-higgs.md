@@ -11,11 +11,11 @@ sources:
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
   - "papers/reciprocity-toy-models.md §5"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
+  - "notes/beta-coefficients.md §3"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-theory.md §4"
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
@@ -27,7 +27,7 @@ sources:
 
 *A Goldstone mode is a massless excitation that appears when a continuous symmetry of the laws is broken by the ground state. Moving along the family of equally good ground states costs no energy, so a slow, long-wavelength wave of that motion costs arbitrarily little, and the particle it describes has no mass. If a small explicit term tilts the family, the mode acquires a small mass and is called a pseudo-Goldstone mode. When the broken symmetry is a gauge symmetry, the Higgs mechanism applies instead: the gauge field absorbs the would-be Goldstone modes as extra polarizations and becomes massive. The program uses all three ideas. In its coset toy model the polarization angle is a Goldstone direction, which an added potential turns into a pseudo-Goldstone mode, and its momentum graviton X gets its mass from a gravitational version of the Higgs mechanism.*
 
-**Status:** Established — [T] — textbook field theory, explained here from general knowledge; the program's applications are the Hessian count of the coset toy model [V] (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) and the [Debt-1](/wiki/history/debts) derivation of X's mass, tagged [D + T] in [#11](/wiki/history/documents/checkpoint) §7.1 and "[D — structural]" in its calc note.
+**Status:** Established — [T] — textbook field theory, explained here from general knowledge; the program's applications are the Hessian count of the coset toy model [V] (`verify/toy_coset.py`; [the toy-model scripts](/wiki/method/verification/toy-model-scripts)) and the [the field-equation problem](/wiki/history/main-problems) derivation of X's mass, tagged [D + T] in [#11](/wiki/history/documents/checkpoint) §7.1 and "[D — structural]" in its calc note.
 
 ## Goldstone's theorem
 
@@ -101,7 +101,7 @@ In the Standard Model a fermion gets its mass from a Yukawa coupling to the Higg
 
 The program's [momentum graviton](/wiki/gravity/momentum-graviton) X = Re Z, the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z), gets its mass by this mechanism, with linearized diffeomorphisms in place of an internal gauge symmetry. #11 §7.1 gives the chain [D + T]:
 
-1. "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary." Constant shifts of X are exact symmetries, so "X has no potential and no non-derivative couplings from the geometric sector alone" (calc note [#6](/wiki/history/documents/debt-1-notes) §1), and "The mass cannot be written by hand (shift symmetry) — but it doesn't need to be." (#6 §3; [the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
+1. "The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary." Constant shifts of X are exact symmetries, so "X has no potential and no non-derivative couplings from the geometric sector alone" (calc note [#6](/wiki/history/documents/field-equation-notes) §1), and "The mass cannot be written by hand (shift symmetry) — but it doesn't need to be." (#6 §3; [the shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)).
 2. "Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric*". Massless, X would be a second graviton, which "is excluded by the multi-graviton no-go [8†]" ([the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go)); without the gauge symmetry, it is excluded "by Lorentz signature" (#11 §7.1; [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction); [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms); [the forcing chain](/wiki/gravity/momentum-graviton/forcing-chain)).
 3. "The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale."
 
@@ -116,7 +116,7 @@ A massive X also has a finite range. #11 §7.5 gives its couplings to ordinary m
 
 ## Inverse-Higgs constraints
 
-When the broken symmetries act on spacetime, as translations and rotations do, an inverse-Higgs constraint can fix some would-be Goldstone fields as derivatives of others, so that there are fewer Goldstone modes than broken generators [T]. A flat membrane breaks the translation perpendicular to itself and the rotations that would tilt it, but its tilt is set by the slope of its displacement, and the displacement is its only independent mode. [Calc note #5](/wiki/history/documents/debt-1-notes) expects such constraints to act on the moduli of the broken vacuum, "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D), and lists the "inverse-Higgs accounting of the nine heavy moduli" as open (§F); no document works it out, and #11 §14 does not carry the item ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)). The count, the commutator criterion, the membrane and the dilaton, and the program's expectation are on [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints).
+When the broken symmetries act on spacetime, as translations and rotations do, an inverse-Higgs constraint can fix some would-be Goldstone fields as derivatives of others, so that there are fewer Goldstone modes than broken generators [T]. A flat membrane breaks the translation perpendicular to itself and the rotations that would tilt it, but its tilt is set by the slope of its displacement, and the displacement is its only independent mode. [Calc note #5](/wiki/history/documents/field-equation-notes) expects such constraints to act on the moduli of the broken vacuum, "Λ(d) σ-modes (10: τ plus nine, of which inverse-Higgs constraints likely eliminate most [O])" (#5 §D), and lists the "inverse-Higgs accounting of the nine heavy moduli" as open (§F); no document works it out, and #11 §14 does not carry the item ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)). The count, the commutator criterion, the membrane and the dilaton, and the program's expectation are on [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints).
 
 ## Standard references
 
@@ -154,9 +154,9 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the chain: shift symmetry, dual diffeomorphisms, X eats the four Goldstones [D + T]; §7.5 — τ un-eaten; the Yukawa cut at 1/M_X; §14 item 6 — τ–Stückelberg mixing [O]
 - `papers/reciprocity-toy-models.md` §2 — model I's Lagrangian, rank-1 Hessian and three Goldstone directions; §4 — V_b at H = 1, its Hessian with H dynamical and its unprotected zero mode; §5 — the Yukawa analogy
-- `notes/debt1a-ii-X-classification.md` §1 — X has no potential from geometry; §3 — the gravitational Higgs mechanism, mass M_X, τ not among the eaten modes [D — structural]
-- `notes/debt1a-iv-beta-coefficients.md` §3 — what is eaten; τ not eaten at leading order
-- `notes/debt1a-geometric-core.md` §D — the Λ(d) σ-modes and inverse-Higgs constraints [O]; §F — "inverse-Higgs accounting of the nine heavy moduli" as open
+- `notes/x-classification.md` §1 — X has no potential from geometry; §3 — the gravitational Higgs mechanism, mass M_X, τ not among the eaten modes [D — structural]
+- `notes/beta-coefficients.md` §3 — what is eaten; τ not eaten at leading order
+- `notes/geometric-core.md` §D — the Λ(d) σ-modes and inverse-Higgs constraints [O]; §F — "inverse-Higgs accounting of the nine heavy moduli" as open
 - `notes/broken-born-theory.md` §4 — τ as a (pseudo-)Goldstone [D]
 - `notes/toy-lagrangian.md` 'Chunk 1 results' — "Spectrum [V]" and the compact Goldstone as Λ(1); 'Chunk 3 results' — "a pseudo-Goldstone polarization angle with a ρ-symmetric potential"
 - `review/round4-adjudication.md` 'Rulings' F2 — the zero mode called an exact symmetry; eigenvalues "in my coordinates"; "Mermin–Wagner vs [11]" — the hyperbolic H-sector

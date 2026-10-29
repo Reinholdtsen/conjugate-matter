@@ -13,10 +13,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md ref [22]"
   - "verify/battery.py T5"
   - "verify/battery.py T6"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §4"
+  - "notes/beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §4"
   - "HANDOFF.md §2"
   - "HANDOFF.md §3"
   - "HANDOFF.md §5"
@@ -39,7 +39,7 @@ sources:
 
 [Checkpoint #11](/wiki/history/documents/checkpoint) §7.3, after the palindrome: "Then V(1) = 2T exactly (integer identity: [2,8,6] = 2·[1,4,3]), so a flat aligned vacuum (V(1) = T) forces **T = 0 and V(1) = 0**: *the wedge sector contributes zero cosmological constant, by symmetry.*"
 
-[Calc note #8](/wiki/history/documents/debt-1-notes) §2, where the result was first derived, states it as "**In the reciprocity-symmetric theory, the existence of a flat aligned vacuum forces the wedge sector's vacuum energy to be exactly zero** — one condition does the work that takes two tunings in generic bimetric gravity."
+[Calc note #8](/wiki/history/documents/field-equation-notes) §2, where the result was first derived, states it as "**In the reciprocity-symmetric theory, the existence of a flat aligned vacuum forces the wedge sector's vacuum energy to be exactly zero** — one condition does the work that takes two tunings in generic bimetric gravity."
 
 The two wordings differ. Flag 6 in `review/wiki-build-flags.md` names #8 §2's as the accurate one and marks #11 §7.3's "by symmetry" for checking against it; the flag's reason is given under [one condition instead of two](#one-condition-instead-of-two). The wiki quotes both documents as written.
 
@@ -155,7 +155,7 @@ The two popular articles ([#10 and #12](/wiki/history/documents/popular-articles
 - `papers/broken-born-checkpoint-v2.md` §7.3, §7.4 — the identity as currently stated, its scope, the selected point β₀ = −4β₁ − 3β₂ and the novelty downgrade.
 - `papers/broken-born-checkpoint-v2.md` §1, §2, §15, ref [22] — "A four-line identity [V]"; the Tier-1 listing of T5 and T6 and the caution on scripts; the self-assessment; the cited review, marked [S].
 - `verify/battery.py` T5, T6 — the construction of the coefficient vectors and the printed checks.
-- `notes/debt1a-iv-beta-coefficients.md` §2 — the four-line derivation, the definition of T, the flatness condition and the consequences for τ; §1, §3, §4 for the potential, the parameter count and "the palindrome theorem".
+- `notes/beta-coefficients.md` §2 — the four-line derivation, the definition of T, the flatness condition and the consequences for τ; §1, §3, §4 for the potential, the parameter count and "the palindrome theorem".
 - `HANDOFF.md` §2, §3, §5 — the "Palindrome/Λ theorem" with its machine-check mark and novelty downgrade; Λ_wedge = 0; the description of T5 and T6.
 - `notes/broken-born-theory.md` 'Addendum (v0.6)', §7 — the result as first recorded, "vacuum energy = twice the tadpole"; the cosmology chapter that assigns dark energy to τ.
 - `notes/broken-born-program-v1.md` §0, §5, §8, §11 — v1's "four-line theorem", "Λ theorem" and "standalone" claim (superseded by #11).

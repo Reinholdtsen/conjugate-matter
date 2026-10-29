@@ -1,4 +1,4 @@
-"""Independent audit of flag 4: #7 (notes/debt1a-iii-tuning-test.md) §2 item 2,
+"""Independent audit of flag 4: #7 (notes/tuning-test.md) §2 item 2,
 "With Y = 1 + h, X = x: S = 2h + x² + O(3), A = [h, x] + O(3)",
 where S = Y + X Y^-1 X - Y^-1 and A = [X, Y^-1] (#7 §2, battery T3).
 

@@ -5,19 +5,19 @@ status: alive
 description: "The record's derivation of the gate: χ couples to X through the dual stress, and integrating X out gives a contact operator acting over the overlap of momentum-fiber wavepackets, with μ the χ quantum's fiber width; the gate-mechanism note of 2026-10-28 finds that exchanging X cannot produce the gate, and flag 55 proposes [P] for the gate and [O] for its mechanism, pending Paul's ruling."
 provenance: [D]
 sources:
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-geometric-core.md §D"
+  - "notes/x-classification.md §4"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/geometric-core.md §E"
+  - "notes/geometric-core.md §D"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §5.1"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 3"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
+  - "notes/beta-coefficients.md §5"
   - "notes/broken-born-program-v1.md §6"
   - "papers/conjugate-special-relativity.md §4"
   - "HANDOFF.md §2"
@@ -36,13 +36,13 @@ sources:
 
 *The gate mechanism is the program's derivation of [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate): two particles of [conjugate matter](/wiki/dark-matter/conjugate-matter) interact by exchanging the massive [momentum graviton X](/wiki/gravity/momentum-graviton), and they can do so only where their wavepackets overlap in momentum space. A conjugate quantum has a finite width μ along the momentum directions, as an atomic nucleus has a finite radius in space. A nucleus's size cuts off its scattering at large momentum transfer; the χ quantum's momentum width cuts off its interaction at large relative momentum, which is the same construction with position and momentum exchanged. Because X is heavy, its exchange acts as a contact interaction, and the overlap of the two wavepackets supplies the gate. The derivation is structural: it fixes what the interaction depends on, but the exact shape of the cutoff depends on a propagator and a profile that no document has computed. A working note of 2026-10-28 tested the derivation and found that it does not hold. When two particles exchange X, each end of the exchange depends only on how much momentum passed through it, so the exchange depends on the pair's relative velocity only through corrections whose velocity scale is the speed of light; at galactic speeds they change the interaction by parts in ten million, where the gate would switch it off. The note proposes that the gate return to the status of a postulate and that its mechanism be counted open. That proposal, flag 55, awaits Paul's ruling, and the checkpoint still tags the mechanism as derived.*
 
-**Status:** Alive in the record, and not derived according to a later note — the record's tags are [D — structural] in calc note #6 (`notes/debt1a-ii-X-classification.md` §4), whose tag also records one downgrade (step 7 below), [D — structural] in calc note #5 (`notes/debt1a-geometric-core.md` §E), and [D — mechanism; shape [O]] in the checkpoint (#11 §8) — no explicit X propagator, vertex or overlap integral exists in any source. `notes/gate-mechanism.md` (2026-10-28; two independent derivations, the second blind and pre-registered; not reviewed) finds that exchanging the X of #11 §7 cannot produce the gate, and flag 55 in `review/wiki-build-flags.md`, rated high, proposes [P] for the gate F(k²/μ²) and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged until he rules ([exchanging X cannot produce the gate](#exchanging-x-cannot-produce-the-gate); [what flag 55 proposes](#what-flag-55-proposes)). The note's arithmetic and algebra are rerun in `verify/gate_mechanism.py` ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script)), which does not test their physics.
+**Status:** Alive in the record, and not derived according to a later note — the record's tags are [D — structural] in calc note #6 (`notes/x-classification.md` §4), whose tag also records one downgrade (step 7 below), [D — structural] in calc note #5 (`notes/geometric-core.md` §E), and [D — mechanism; shape [O]] in the checkpoint (#11 §8) — no explicit X propagator, vertex or overlap integral exists in any source. `notes/gate-mechanism.md` (2026-10-28; two independent derivations, the second blind and pre-registered; not reviewed) finds that exchanging the X of #11 §7 cannot produce the gate, and flag 55 in `review/wiki-build-flags.md`, rated high, proposes [P] for the gate F(k²/μ²) and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged until he rules ([exchanging X cannot produce the gate](#exchanging-x-cannot-produce-the-gate); [what flag 55 proposes](#what-flag-55-proposes)). The note's arithmetic and algebra are rerun in `verify/gate_mechanism.py` ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script)), which does not test their physics.
 
 ## The statement
 
-[The checkpoint](/wiki/history/documents/checkpoint) states the result in one clause of its amplitude for χ: the dependence on the incoming relative momentum k is "delivered by X-exchange between dual-stress bilinears, with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]" (#11 §8). The derivation behind it is calc note #6's paragraph on the gate, in [the Debt-1 calc notes](/wiki/history/documents/debt-1-notes):
+[The checkpoint](/wiki/history/documents/checkpoint) states the result in one clause of its amplitude for χ: the dependence on the incoming relative momentum k is "delivered by X-exchange between dual-stress bilinears, with μ the χ quantum's intrinsic momentum-fiber width [D — mechanism; shape [O]]" (#11 §8). The derivation behind it is calc note #6's paragraph on the gate, in [the field-equation calc notes](/wiki/history/documents/field-equation-notes):
 
-> "**Gate (Debt 2).** Integrating out massive X between χ bilinears gives the contact four-χ operator. The relative-momentum dependence enters through the χ quanta's **intrinsic momentum-space extent**: p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap — the dual of how x-extended composites acquire form factors F(qR). Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked. *However*: tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile." (`notes/debt1a-ii-X-classification.md` §4)
+> "**Gate (the gate problem).** Integrating out massive X between χ bilinears gives the contact four-χ operator. The relative-momentum dependence enters through the χ quanta's **intrinsic momentum-space extent**: p-polarized quanta are extended objects on the momentum fiber with width μ, and they exchange X only over their fiber overlap — the dual of how x-extended composites acquire form factors F(qR). Wavepacket overlap of Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²} — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked. *However*: tree-level exchange with generic vertices yields rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile." (`notes/x-classification.md` §4)
 
 EFT is effective field theory, here the lab notebook's v0.1 amplitude, in which μ was a free scale. The [momentum fiber](/wiki/phase-space/reciprocity/momentum-fibers#quanta-with-a-width-along-the-fiber) is the set of momentum directions of phase space attached to each point of spacetime.
 
@@ -131,7 +131,7 @@ Under R1, χ's self-interaction is ordinary short-range [self-interacting dark m
 
 ### What #6's rational gates are [D][V]
 
-The rationality of tree amplitudes sits in the transfer: the propagator 1/(q² + M_X²) and form factors in t. Integrated over angle these give a light mediator's knee in [σ_T(v)](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) with a power-law tail. That is [row 1](/wiki/predictions/self-interaction-knee)'s "standard expectation" column, not a gate in k. Both derivations reach this; the first adds that such a completion leaves the forward (q → 0) amplitude ungated, which is the quantity Debt 3a's collective model uses (§3).
+The rationality of tree amplitudes sits in the transfer: the propagator 1/(q² + M_X²) and form factors in t. Integrated over angle these give a light mediator's knee in [σ_T(v)](/wiki/dark-matter/halo-astrophysics/transfer-cross-section) with a power-law tail. That is [row 1](/wiki/predictions/self-interaction-knee)'s "standard expectation" column, not a gate in k. Both derivations reach this; the first adds that such a completion leaves the forward (q → 0) amplitude ungated, which is the quantity calc note #2's collective model uses (§3).
 
 ### Neither reading is in the record [D, record audit]
 
@@ -157,7 +157,7 @@ The note's plain-language summary of its consequence: "the gate itself is not re
 
 #11 §14 item 4 ([Open: the gate shape (OP4)](/wiki/dark-matter/conjugate-matter/gate-shape)) does not cover the gap: it treats the mechanism as settled, presupposes an X propagator on the fibers that §7 does not have, and its Gaussian-against-rational split is not a dichotomy of gates in k (§5). The flag's audit reads: "confirmed by 2 independent derivations, the second blind and pre-registered."
 
-**Text that depends on the tag** (§5): #11's technical abstract ("whose gate is X-exchange"), §8 (the plain-language passage, "now we know its mechanism", and the tag), §12's χ row ("sharp tail"), §13 rows 1–3 ([row 1](/wiki/predictions/self-interaction-knee), [row 2](/wiki/predictions/scattering-isotropy), [row 3](/wiki/predictions/island-discriminant)) and §15 ("gate tail not yet forced"); #6 §4, #5 §E, #8 §5 ("**Debt 2:** mechanism paid (X-exchange, μ = fiber width)"), `HANDOFF.md` §2 ("gate = X-exchange") and §3 (#5 "pays Debt 2's mechanism"); and this page, [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape) and [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress).
+**Text that depends on the tag** (§5): #11's technical abstract ("whose gate is X-exchange"), §8 (the plain-language passage, "now we know its mechanism", and the tag), §12's χ row ("sharp tail"), §13 rows 1–3 ([row 1](/wiki/predictions/self-interaction-knee), [row 2](/wiki/predictions/scattering-isotropy), [row 3](/wiki/predictions/island-discriminant)) and §15 ("gate tail not yet forced"); #6 §4, #5 §E, #8 §5 ("**The gate problem:** mechanism found (X-exchange, μ = fiber width)"), `HANDOFF.md` §2 ("gate = X-exchange") and §3 (#5 "finds the gate's mechanism"); and this page, [the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape) and [dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress).
 
 **What does not change** [V] (§5):
 
@@ -200,7 +200,7 @@ The lab notebook converts μ into the gate velocity, v\* ≡ √2μ/m_χ (#1 §5
 
 ## What it closed and what it gave up
 
-The mechanism answers the question Debt 2 posed, where the gate comes from ([the three debts](/wiki/history/debts)). Calc note #8's close-out: "**Debt 2:** mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/debt1a-iv-beta-coefficients.md` §5). [The handoff](/wiki/history/documents/handoff) lists "gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2). Flag 55 proposes that the payment does not stand: the gate-mechanism note finds that exchanging X cannot produce the gate, and #8 §5's close-out and the handoff's §2 and §3 are among the text that depends on the tag ([what flag 55 proposes](#what-flag-55-proposes)).
+The mechanism answers the question the gate problem posed, where the gate comes from ([the three main problems](/wiki/history/main-problems)). Calc note #8's close-out: "**The gate problem:** mechanism found (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant)" (`notes/beta-coefficients.md` §5). [The handoff](/wiki/history/documents/handoff) lists "gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width" among the live results (`HANDOFF.md` §2). Flag 55 proposes that the result does not stand: the gate-mechanism note finds that exchanging X cannot produce the gate, and #8 §5's close-out and the handoff's §2 and §3 are among the text that depends on the tag ([what flag 55 proposes](#what-flag-55-proposes)).
 
 It also gave up the lab notebook's sharpest prediction. #6 §4 records it as a downgrade of the flagship row:
 
@@ -235,7 +235,7 @@ The mechanism reached its present form in three steps.
   gate = momentum-graviton exchange,    μ ↔ (M_X, M_B) parametrically
   ```
 
-  (`notes/debt1a-geometric-core.md` §E). M_B is the mass scale of the lab notebook's geometric action, S_H = ½M_B²∫_Σ √|H| R_B[H], an integral over the section Σ, from which the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#where-a-document-states-no-convention) follows (#1 §3). Calc note #6 replaced the relation with μ = the χ quantum's own width, a property of the matter field rather than of the geometry, and no later document returns to M_X and M_B as the source of μ.
+  (`notes/geometric-core.md` §E). M_B is the mass scale of the lab notebook's geometric action, S_H = ½M_B²∫_Σ √|H| R_B[H], an integral over the section Σ, from which the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#where-a-document-states-no-convention) follows (#1 §3). Calc note #6 replaced the relation with μ = the χ quantum's own width, a property of the matter field rather than of the geometry, and no later document returns to M_X and M_B as the source of μ.
 - **Calc note #5: an auxiliary X.** #5 §D listed three possible outcomes for X at quadratic order. The second, an auxiliary X with no derivatives, would have been integrated out to "a *contact, momentum-structured* four-χ operator, i.e. the gate delivered directly", and #5 §E places the gate shape "downstream of the §D classification (outcome 2 gives it most cheaply)". Calc note #6 §1 closed that route: constant shifts of X are exact symmetries, so "'auxiliary X' (the soft outcome 2) is off the table at the fundamental level: X appears only through derivatives, so it propagates or it doesn't exist" ([shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry)). The contact operator of the current mechanism comes from integrating out a massive, propagating X instead.
 
 ## Chat-only: the gate as a dual Newtonian limit
@@ -246,9 +246,9 @@ The mechanism reached its present form in three steps.
 
 - `papers/broken-born-checkpoint-v2.md` §8 — the checkpoint's statement and tags; §14 item 3 — Lorentzian dressing open
 - `notes/broken-born-program-v1.md` §6 — v1's statement, the same as #11's
-- `notes/debt1a-ii-X-classification.md` §4 — integrating out X, fiber overlap, the Gaussian case, the rational-tail downgrade, the cliff weakened to a knee; §2 — the massless option excluded; §3 — M_X the polarization-breaking scale, the Euclidean-rigorous skeleton; §1 — auxiliary X excluded by the shift symmetry
-- `notes/debt1a-geometric-core.md` §E — the four-point amplitude; the superseded μ ↔ (M_X, M_B) identification; §D — the auxiliary outcome
-- `notes/debt1a-iv-beta-coefficients.md` §5 — Debt 2's close-out: mechanism "paid", shape open
+- `notes/x-classification.md` §4 — integrating out X, fiber overlap, the Gaussian case, the rational-tail downgrade, the cliff weakened to a knee; §2 — the massless option excluded; §3 — M_X the polarization-breaking scale, the Euclidean-rigorous skeleton; §1 — auxiliary X excluded by the shift symmetry
+- `notes/geometric-core.md` §E — the four-point amplitude; the superseded μ ↔ (M_X, M_B) identification; §D — the auxiliary outcome
+- `notes/beta-coefficients.md` §5 — the gate problem's close-out: mechanism "found", shape open
 - `HANDOFF.md` §2 — the mechanism among the live results; §4 — the chat-only dual Newtonian limit
 - `papers/conjugate-special-relativity.md` §4 — μ ~ ℏ/λ_χ as the gate scale
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)', 'Addendum (v0.4)' — the mechanism and the fiber width in the lab notebook; §3 — the v0.1 carrier and M_B in S_H; §5.1 — v\* ≡ √2μ/m_χ, μ ≈ 20 keV, m_φ ~ m_χ

@@ -9,12 +9,12 @@ sources:
   - "papers/broken-born-checkpoint-v2.md ref [12]"
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
   - "papers/broken-born-checkpoint-v2.md §6"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §4"
+  - "notes/tuning-test.md §5"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §5"
+  - "notes/x-classification.md §3"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-program-v1.md §5"
@@ -22,13 +22,13 @@ sources:
   - "HANDOFF.md §2"
 ---
 
-*The frame tier is the reformulation that rescued [the tuning test](/wiki/gravity/tuning-test): the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton) is built from frames, or vielbeins, instead of from metrics. A frame is a set of local reference axes from which a metric is assembled quadratically, as H = EᵀE, so the program calls frames first-order variables and metrics second-order ones. In frame variables the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) potentials for two spin-2 fields are plain polynomials, wedge products of the two frames in the form found by Hinterbichler and Rosen ([the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)), with no matrix square roots and no ratio of coefficients to get wrong. The program has a frame of this kind, the symplectic vielbein E, which sits on the same first-order footing as the [polarization J](/wiki/symmetry-breaking/order-parameter). [Calc note #7](/wiki/history/documents/debt-1-notes) argues that the minimal coupling of the polarization to the geometry is therefore a wedge polynomial of E and a polarization frame E₀[J], and such a polynomial lies in the ghost-free class by construction, with the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) structure automatic. The argument is structural and rests on the literature. The class was selected by minimality and consistency rather than derived from the program's [geometric action](/wiki/gravity/tuning-test/geometric-action), and no machine check covers it.*
+*The frame tier is the reformulation that rescued [the tuning test](/wiki/gravity/tuning-test): the mass term of the [momentum graviton X](/wiki/gravity/momentum-graviton) is built from frames, or vielbeins, instead of from metrics. A frame is a set of local reference axes from which a metric is assembled quadratically, as H = EᵀE, so the program calls frames first-order variables and metrics second-order ones. In frame variables the [ghost-free](/wiki/gravity/spin-2-fields/ghosts) potentials for two spin-2 fields are plain polynomials, wedge products of the two frames in the form found by Hinterbichler and Rosen ([the vielbein formulation](/wiki/gravity/spin-2-fields/vielbein-formulation)), with no matrix square roots and no ratio of coefficients to get wrong. The program has a frame of this kind, the symplectic vielbein E, which sits on the same first-order footing as the [polarization J](/wiki/symmetry-breaking/order-parameter). [Calc note #7](/wiki/history/documents/field-equation-notes) argues that the minimal coupling of the polarization to the geometry is therefore a wedge polynomial of E and a polarization frame E₀[J], and such a polynomial lies in the ghost-free class by construction, with the [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) structure automatic. The argument is structural and rests on the literature. The class was selected by minimality and consistency rather than derived from the program's [geometric action](/wiki/gravity/tuning-test/geometric-action), and no machine check covers it.*
 
 **Status:** Alive — [D — structural, resting on T] in calc note #7 §3; part of [checkpoint #11](/wiki/history/documents/checkpoint) §7.2, which is tagged [D][V] as a whole, but no test of [the verification battery](/wiki/method/verification/battery) covers the frame tier, and the Hinterbichler–Rosen class is cited from model memory [12†] — the class was selected, not derived ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)).
 
 ## The claim
 
-Calc note #7 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) heads its §3 "The frame tier [D — structural, resting on T]" and makes the argument in one paragraph:
+Calc note #7 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) heads its §3 "The frame tier [D — structural, resting on T]" and makes the argument in one paragraph:
 
 > The rescue is not a tuning but a *tier change*. In vielbein variables the ghost-free potentials are polynomial — wedge products ε(e ∧ … ∧ f ∧ …) of two frames (Hinterbichler–Rosen) [T] — with no square roots and no tuning to miss. And BBT possesses a natural frame-tier object: the symplectic vielbein E, the coset representative with H = EᵀE. Crucially, **J and E live on the same geometric tier** (first-order structures on the tangent, like the Born connection), while H = EᵀE is second-order. The geometrically minimal coupling of the polarization to the modular sector is therefore E-linear — wedge polynomials of (E, E₀[J]) — which is *precisely* the Hinterbichler–Rosen class: ghost-free by construction, Fierz–Pauli automatic, dRGT structure inherited rather than tuned.
 
@@ -96,10 +96,10 @@ The tier change fixes the form of the potential and not its coefficients. #7 §3
 
 ## Sources
 
-- `notes/debt1a-iii-tuning-test.md` §3 — the frame tier [D — structural, resting on T] and what a pass does not deliver; §4 — E₀[J] as the "second vielbein" on a compact moduli space; §5 — "class-certified".
+- `notes/tuning-test.md` §3 — the frame tier [D — structural, resting on T] and what a pass does not deliver; §4 — E₀[J] as the "second vielbein" on a compact moduli space; §5 — "class-certified".
 - `papers/broken-born-checkpoint-v2.md` §7.2 and ref. [12] — the current statement and the Hinterbichler–Rosen citation, marked †; §14 item 1 — the open derivation; §6 — the Siegel domain.
-- `notes/debt1a-iv-beta-coefficients.md` §1 — the wedge potential for (e, f = E₀[J]); §5 — "selected by minimality + consistency".
-- `notes/debt1a-ii-X-classification.md` §3 — the health criterion.
+- `notes/beta-coefficients.md` §1 — the wedge potential for (e, f = E₀[J]); §5 — "selected by minimality + consistency".
+- `notes/x-classification.md` §3 — the health criterion.
 - `notes/broken-born-theory.md` §2 — I, J and K as endomorphisms; 'Addendum (v0.5)' — the notebook's statement.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement, tagged [T].
 - `notes/knot-dark-matter-standalone.md` §1 — the caveat as stated in the withdrawn manuscript.

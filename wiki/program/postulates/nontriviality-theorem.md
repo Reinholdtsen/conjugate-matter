@@ -9,11 +9,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §15"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §E"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md 'Addendum (v0.3)'"
   - "notes/broken-born-program-v1.md §2–§3"
@@ -32,7 +32,7 @@ sources:
 
 ## Statement
 
-The checkpoint states the result twice. In the postulate list, under [P2′](/wiki/program/postulates/p2-prime): "the correction from the original P2 is *forced*: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (#11 §4). In the kinematic core: "Under strict P2 the compatible polarizations are discrete, so no Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent. Hence P2 → P2′." (#11 §5; on "discrete", see flag 1 in `review/wiki-build-flags.md`). The [Debt-1 note](/wiki/history/documents/debt-1-notes), where it was derived, puts it as:
+The checkpoint states the result twice. In the postulate list, under [P2′](/wiki/program/postulates/p2-prime): "the correction from the original P2 is *forced*: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (#11 §4). In the kinematic core: "Under strict P2 the compatible polarizations are discrete, so no Grassmannian, no Maslov circle, no dark-energy field, and S_H is a functional of g alone: **nontriviality theorem** — the program has content iff η is emergent. Hence P2 → P2′." (#11 §5; on "discrete", see flag 1 in `review/wiki-build-flags.md`). The [field-equation note](/wiki/history/documents/field-equation-notes), where it was derived, puts it as:
 
 > **Program-nontriviality theorem:** BBT has content beyond GR + SIDM **iff** η is emergent. P2 → P2′ is not optional. (#5 §B)
 
@@ -92,7 +92,7 @@ So each item that strict P2 removes is present under P2′. The polarization ran
 
 ### The two halves of "iff"
 
-The "only if" half is the first subsection: with η fixed, the program reduces to Branch R. The "if" half rests on what the repair restores: with η emergent, the structures that carry the program's own content exist. The Debt-1 note tags both §B and the modular-field section §C as structural ("[D — structural]"; §C adds "math facts standard"). Neither half is a line-by-line derivation, and neither is machine-checked as a whole. The machine check covers the compatibility theorem underneath.
+The "only if" half is the first subsection: with η fixed, the program reduces to Branch R. The "if" half rests on what the repair restores: with η emergent, the structures that carry the program's own content exist. The field-equation note tags both §B and the modular-field section §C as structural ("[D — structural]"; §C adds "math facts standard"). Neither half is a line-by-line derivation, and neither is machine-checked as a whole. The machine check covers the compatibility theorem underneath.
 
 ## Scope and caveats
 
@@ -110,7 +110,7 @@ The "only if" half is the first subsection: with η fixed, the program reduces t
 
 ## History
 
-- **Derived** in the overnight Debt-1 note, Chunk A (#5), whose header reads "Status: two rigorous results, one axiom correction forced, one mechanism identified, one decisive computation defined but not completed." Its closing tally, headed "Paid", includes "discovery and repair of an axiom-level inconsistency (P2 → P2′, with a nontriviality theorem making the repair mandatory)" (#5 §F).
+- **Derived** in the overnight field-equation note, Chunk A (#5), whose header reads "Status: two rigorous results, one axiom correction forced, one mechanism identified, one decisive computation defined but not completed." Its closing tally, headed "Done", includes "discovery and repair of an axiom-level inconsistency (P2 → P2′, with a nontriviality theorem making the repair mandatory)" (#5 §F).
 - **Recorded** in the lab notebook's v0.3 addendum, which found "with it an axiom-level inconsistency: strict P2 makes the polarization choice discrete, eliminating the Lagrangian Grassmannian, the Maslov circle, and hence the entire τ/dark-energy sector, while also slaving g̃ = g⁻¹ and removing any geometric origin for the χ gate" (on "discrete", see flag 1 in `review/wiki-build-flags.md`).
 - **Carried forward** in the program paper v1 (#9 §2–§3, tagged [D], with the circular pointers above) and in [the handoff](/wiki/history/documents/handoff), which lists among the alive results "P2′ correction: strict rigidity trivializes the theory (nontriviality theorem); η must be emergent" (`HANDOFF.md` §2).
 - **Current form** in #11 §4–§5 (v2.0 to v2.2), tagged [D]. In v2.1 the compatibility theorem underneath was re-tagged from derived to [T][V] and credited to Freidel, Leigh and Minic after the round-3 review flagged it (`review/round3-adjudication.md`); the nontriviality theorem kept its [D].
@@ -118,7 +118,7 @@ The "only if" half is the first subsection: with η fixed, the program reduces t
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §4–§5 — the current statement, tagged [D], and the compatibility theorem with its attribution; §6 — the modular field that exists only under P2′; §15 — the hard core
-- `notes/debt1a-geometric-core.md` §A — the compatibility theorem and its corollaries; §B — the derivation ("[D — structural]"), Branch R and the repair; §C — the Siegel domain and X; §E — the gate as X exchange; §F — the closing tally
+- `notes/geometric-core.md` §A — the compatibility theorem and its corollaries; §B — the derivation ("[D — structural]"), Branch R and the repair; §C — the Siegel domain and X; §E — the gate as X exchange; §F — the closing tally
 - `notes/broken-born-theory.md` §2 — the Grassmannian and its Maslov circle; 'Addendum (v0.3)' — the axiom correction as first recorded
 - `notes/broken-born-program-v1.md` §2–§3 — the v1 statement and its circular pointers (superseded by #11)
 - `HANDOFF.md` §2 — the result as listed at the handoff

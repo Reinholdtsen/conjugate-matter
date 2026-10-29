@@ -25,9 +25,9 @@ sources:
   - "notes/broken-born-theory.md §12"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight): axiom correction and the modular core'"
   - "notes/broken-born-program-v1.md §8"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §F"
+  - "notes/beta-coefficients.md §2"
   - "notes/toy-lagrangian.md 'Chunk 1 results'"
   - "notes/toy-lagrangian.md 'Chunk 2 results'"
   - "notes/toy-lagrangian.md 'Chunk 3 results'"
@@ -71,7 +71,7 @@ Under the program's postulates the vacuum selects a polarization, a division of 
 
 ### Why τ needs the corrected postulate
 
-The field exists only because the program's postulate on rigid structures was corrected. Under the [original P2](/wiki/program/postulates/original-p2), with both the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η rigid, the notebook's v0.3 addendum records that "strict P2 makes the polarization choice discrete, eliminating the Lagrangian Grassmannian, the Maslov circle, and hence the entire τ/dark-energy sector". (The word "discrete" is flagged as a suspected error in the source: for d ≥ 2 the doubly compatible polarizations form continuous families, though the conclusion that there is no Maslov circle survives; `review/wiki-build-flags.md` item 1.) [Calc note #5](/wiki/history/documents/debt-1-notes) named the rigid branch: "BBT reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (§B), BBT being Broken-Born theory (the program's earlier name), GR [general relativity](/wiki/gravity/spin-2-fields/general-relativity) and SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). Under [P2′](/wiki/program/postulates/p2-prime), only ω is rigid, and "The Grassmannian, the Maslov circle, and τ are restored" (#1 'Addendum (v0.3)'). The argument is on [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem).
+The field exists only because the program's postulate on rigid structures was corrected. Under the [original P2](/wiki/program/postulates/original-p2), with both the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η rigid, the notebook's v0.3 addendum records that "strict P2 makes the polarization choice discrete, eliminating the Lagrangian Grassmannian, the Maslov circle, and hence the entire τ/dark-energy sector". (The word "discrete" is flagged as a suspected error in the source: for d ≥ 2 the doubly compatible polarizations form continuous families, though the conclusion that there is no Maslov circle survives; `review/wiki-build-flags.md` item 1.) [Calc note #5](/wiki/history/documents/field-equation-notes) named the rigid branch: "BBT reduces to GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (§B), BBT being Broken-Born theory (the program's earlier name), GR [general relativity](/wiki/gravity/spin-2-fields/general-relativity) and SIDM [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). Under [P2′](/wiki/program/postulates/p2-prime), only ω is rigid, and "The Grassmannian, the Maslov circle, and τ are restored" (#1 'Addendum (v0.3)'). The argument is on [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem).
 
 ## The action and its potential
 
@@ -114,7 +114,7 @@ In the toy-model worklog this drift has a geometric reading: "the present-day th
 
 ## Nothing else supplies vacuum energy
 
-#11 §10: "§7.3 guarantees the wedge sector contributes nothing that competes with τ." The reference is to the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): with reciprocity forcing [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) on the momentum graviton's potential, a flat aligned vacuum forces that potential's vacuum energy to vanish (#11 §7.3, [D][V]). [Calc note #8](/wiki/history/documents/debt-1-notes) drew the consequence for cosmology: "The massive-gravity sector contributes *nothing* to the cosmological constant; dark energy is left entirely to the τ sector, which is precisely the architecture the cosmology chapter had assumed" (`notes/debt1a-iv-beta-coefficients.md` §2). Flag 52 notes that the guarantee holds for the dark-energy density but follows from the exact (1 − y)⁴/y relation on the bimetric branch, not from §7.3's aligned-point identity alone, and that #11 omits a step in the strength of gravity, G_eff = 2G_N while the expansion rate far exceeds X's mass ([the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-branch-relation-dv)).
+#11 §10: "§7.3 guarantees the wedge sector contributes nothing that competes with τ." The reference is to the program's [vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity): with reciprocity forcing [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) on the momentum graviton's potential, a flat aligned vacuum forces that potential's vacuum energy to vanish (#11 §7.3, [D][V]). [Calc note #8](/wiki/history/documents/field-equation-notes) drew the consequence for cosmology: "The massive-gravity sector contributes *nothing* to the cosmological constant; dark energy is left entirely to the τ sector, which is precisely the architecture the cosmology chapter had assumed" (`notes/beta-coefficients.md` §2). Flag 52 notes that the guarantee holds for the dark-energy density but follows from the exact (1 − y)⁴/y relation on the bimetric branch, not from §7.3's aligned-point identity alone, and that #11 omits a step in the strength of gravity, G_eff = 2G_N while the expansion rate far exceeds X's mass ([the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-branch-relation-dv)).
 
 The scope is limited. The identity "does **not** by itself address matter-loop vacuum energy, the 'old' cosmological-constant problem" (#11 §7.3; [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem)). The identity leaves the vacuum energy of matter loops where general relativity leaves it, and #11 does not claim otherwise.
 
@@ -168,9 +168,9 @@ The worklog's chunk 3 states what this means for the program: "In 3+1, the progr
 ## History
 
 - **v0.1, the lab notebook (September 2026).** #1 §3 writes the action and potential; §4 argues fifth-force safety; §7 identifies dark energy with τ (thawing, w ≥ −1, the turnaround, the over-constraint); §9 row 5 sets the test against DESI DR3; the §12 summary calls τ "a dark energy field that is literally the Maslov angle of the vacuum, forced by topology to a periodic potential, hence thawing, never phantom, and destined to go negative" (see flag 27 in `review/wiki-build-flags.md`, whose addendum finds that the turnaround's cause, with this potential, is a closed universe's curvature and not a negative V).
-- **v0.2.** After [Debt 3](/wiki/history/debts), the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
+- **v0.2.** After [the clumping problem](/wiki/history/main-problems), the notebook lists "row 5 (thawing, no-phantom, DESI DR3)" among the program's distinctive, still-live content.
 - **v0.3.** Strict P2 is found to erase τ, and P2′ restores it (above).
-- **Debt 1.** Calc note #8 shows that the momentum graviton's sector adds no vacuum energy, "leaving dark energy entirely to τ as the cosmology chapter had assumed" (#1 'Addendum (v0.6)'), and that τ is not absorbed by X at leading order (§3).
+- **The field-equation problem.** Calc note #8 shows that the momentum graviton's sector adds no vacuum energy, "leaving dark energy entirely to τ as the cosmology chapter had assumed" (#1 'Addendum (v0.6)'), and that τ is not absorbed by X at leading order (§3).
 - **v1 (#9 §8).** The sector as a numbered section, with "V₀ fixed by Ω_DE" and the fits marked "[T — refresh citations before publication]".
 - **#11 v2.0.** §10 states the sector in its present form, before the DR2 paragraph. The [handoff](/wiki/history/documents/handoff) lists τ among the live results: "τ = hilltop/axion quintessence on the Maslov circle; thawing, w ≥ −1 always, eventual negative V ⇒ turnaround = conjugate bounce" (`HANDOFF.md` §2).
 - **#11 v2.1 (2026-10-19).** After round 3, §10 gains the "Under pressure (v2.1)" paragraph on DESI DR2.
@@ -183,7 +183,7 @@ The lab notebook's v0.1 attributed the existence of τ's potential to the rigidi
 
 The later documents replace this account step by step.
 
-1. Calc note #5, writing the repair P2′, lists "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" among the problems now open (`notes/debt1a-geometric-core.md` §F).
+1. Calc note #5, writing the repair P2′, lists "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" among the problems now open (`notes/geometric-core.md` §F).
 2. The toy models show that with only ω rigid, ρ sits inside a continuous U(1) and the polarization is a Goldstone angle [D][V]; a definite polarization needs a potential that brings "more structure than ω alone" (#11 §4, v2.2).
 3. The root `CLAUDE.md` lists the derivation of that potential as open.
 
@@ -199,8 +199,8 @@ So rigidity of ω alone does not tilt the circle; the potential's periodicity [D
 - `HANDOFF.md` §2 — τ among the live results
 - `notes/broken-born-theory.md` §1–§3 — P2's "triple duty", τ ≡ f·arg det² and its tags, the action and potential; §7 — hilltop thawing and the corridor; §12 — the summary; 'Addendum (v0.3)' — strict P2 erases τ, P2′ restores it
 - `notes/broken-born-program-v1.md` §8 — V₀ fixed by Ω_DE
-- `notes/debt1a-geometric-core.md` §B — the rigid branch without τ; §F — the origin of τ's potential under P2′, open
-- `notes/debt1a-iv-beta-coefficients.md` §2 — dark energy left entirely to the τ sector
+- `notes/geometric-core.md` §B — the rigid branch without τ; §F — the origin of τ's potential under P2′, open
+- `notes/beta-coefficients.md` §2 — dark energy left entirely to the τ sector
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results', 'Chunk 3 results' — the Goldstone angle as τ's circle, the thawing reading, the pseudo-Goldstone conclusion
 - `review/wiki-build-flags.md` item 43 — the corridor in the region of DR2's fits, and the slope that separates it from DR2's crossing; items 1, 10 and 27 — the suspected source errors quoted on this page; item 27's addendum and items 45, 46 and 52 — the closed turnaround, the compound citation for the anti-de Sitter fits, the over-constraint moved to Ω_k, and the wedge sector's guarantee
 - `notes/closed-universe.md` §2 — the turnaround in a closed universe with V ≥ 0, the over-constraint and the data; §6 — the bimetric branch relation and G_eff = 2G_N

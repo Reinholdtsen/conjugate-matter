@@ -1,8 +1,8 @@
 """
-Independent recomputation for flag 3 (zero set of {J0, I[Z]}, notes/debt1a-iii-tuning-test.md S2 item 1).
+Independent recomputation for flag 3 (zero set of {J0, I[Z]}, notes/tuning-test.md S2 item 1).
 
 Definitions taken from the sources (not from review/wiki-build-checks/zero_locus.py):
-  #5 (debt1a-geometric-core.md SC): Z = X + iY, Y > 0, H_Z = [[Y + X Y^-1 X, X Y^-1], [Y^-1 X, Y^-1]]
+  #5 (geometric-core.md SC): Z = X + iY, Y > 0, H_Z = [[Y + X Y^-1 X, X Y^-1], [Y^-1 X, Y^-1]]
   #5 SB: I = omega^-1 H ; J = involution anticommuting with I ("H-compatible real structure")
   #7 S2: I[Z] = [[-Y^-1 X, -Y^-1], [Y + X Y^-1 X, X Y^-1]],  J0 = [[0,1],[1,0]]
   HANDOFF App. A / verify/battery.py: omega = [[0,1],[-1,0]], eta = J0 = [[0,1],[1,0]]

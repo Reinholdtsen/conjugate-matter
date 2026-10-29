@@ -23,8 +23,8 @@ sources:
   - "CLAUDE.md 'Method (HANDOFF §5)'"
   - "HANDOFF.md §4"
   - "HANDOFF.md §8"
-  - "notes/debt1a-iv-beta-coefficients.md §1–§2"
-  - "notes/debt1a-iii-tuning-test.md §4"
+  - "notes/beta-coefficients.md §1–§2"
+  - "notes/tuning-test.md §4"
   - "review/v3-worklog.md"
   - "review/wiki-build-flags.md items 23, 24, 38, 39"
   - "notes/closed-universe.md §2"
@@ -116,9 +116,9 @@ The finding, from both referees: "§8.2: the Yukawa strength in Hassan–Rosen b
 The evidence, in the adjudication's order:
 
 1. **The formula.** "Both cited equations carry c (Lüben et al. eq. 9; Enander–Mörtsell eq. 4.1)."
-2. **The program's vacua.** With the palindromic couplings βₙ = β₄₋ₙ ([the palindrome](/wiki/gravity/palindromic-branch/palindrome)), the equation for proportional backgrounds factorizes as u(u − 1)(u + 1)(β₁u² + (3β₂ − β₀)u + β₁), "as referee B found". "The program's vacuum is the aligned point 𝕏 = √(g⁻¹f) = 1, i.e. c = 1, where its vacuum-energy identity is derived" (calc note #8, `notes/debt1a-iv-beta-coefficients.md` §1–§2; [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)).
+2. **The program's vacua.** With the palindromic couplings βₙ = β₄₋ₙ ([the palindrome](/wiki/gravity/palindromic-branch/palindrome)), the equation for proportional backgrounds factorizes as u(u − 1)(u + 1)(β₁u² + (3β₂ − β₀)u + β₁), "as referee B found". "The program's vacuum is the aligned point 𝕏 = √(g⁻¹f) = 1, i.e. c = 1, where its vacuum-energy identity is derived" (calc note #8, `notes/beta-coefficients.md` §1–§2; [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)).
 3. **Why that vacuum and no other**, "the argument B asked for". On the program's flat branch, β₀ = −4β₁ − 3β₂, the symmetry-breaking pairs (u, 1/u) "exist only for β₁ < 0 < |β₁| < β₂, and there Λ_g is of the order of the spin-2 mass squared (Λ_g/2(β₁ + β₂) = −1.14 and −70.9 at β₁ = −1, β₂ = 2), which is (M_X/H₀)² = 1.3×10⁶¹ times H₀² for M_X c² ≥ 5.24 meV. So the aligned vacuum is the only one compatible with the observed Λ." Flag 51 in `review/wiki-build-flags.md` adds that the branch also needs β₁ > 0, which no document states: for β₁ = 0 the aligned branch is bounded, and for β₁ < 0 it ends at a broken vacuum with negative Λ_g and a Higuchi ghost ([the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#β--0-is-required-dv)).
-4. **What stays open.** "whether the aligned point persists as the universe expands, since the second frame f = E₀[J] lies on a compact moduli space with no scale of its own" (citing calc note #7, `notes/debt1a-iii-tuning-test.md` §4). The calc note places E₀[J] on the compact moduli space; version 1.1 of the note marks the rest as its own reading: E₀[J] "lies on a compact moduli space [P5, §4] and so, on this note's reading, carries no scale of its own" (§8.2).
+4. **What stays open.** "whether the aligned point persists as the universe expands, since the second frame f = E₀[J] lies on a compact moduli space with no scale of its own" (citing calc note #7, `notes/tuning-test.md` §4). The calc note places E₀[J] on the compact moduli space; version 1.1 of the note marks the rest as its own reading: E₀[J] "lies on a compact moduli space [P5, §4] and so, on this note's reading, carries no scale of its own" (§8.2).
 5. **The bound at other ratios.** "57.0 μm (c = 0.5), 47.2 (0.67), 42.5 (0.8), 37.7 (1), 30.8 (1.5); X at 47.1 μm is allowed only for c < 0.672, at 84.0 μm only for c < 0.302."
 6. **Referee A's value, not upheld.** Referee A had taken the second frame's background to follow the momentum scale factor ã of a·ã = 1, normalized as in the note's §8.4, which made the ratio of order 1/A₀ today, A₀ being the radiation rectangle's aspect ratio, and X's force negligible. The ruling: "Referee A set c₀ = ã₀/a₀ from a·ã = 1, which gave α ~ 10⁻¹⁸⁶. The record's second frame is the polarization frame, not the slaved momentum block g̃ = g⁻¹ that carries ã, so that value does not follow."
 7. **A related open point.** "The record also leaves open how reciprocity's action as frame exchange relates to its action as Z → −Z⁻¹ (audit item 39 in `review/wiki-build-flags.md`), so v1.1 says so rather than ruling the identification out." ([two actions of reciprocity](/wiki/gravity/momentum-graviton/spectrum-and-parity#two-actions-of-reciprocity)).
@@ -231,7 +231,7 @@ The record is `review/round5-preregistration.md`, `review/round5-adjudication.md
 - `verify/phase_space_diameter.py` — the gated figures of the rulings
 - `CLAUDE.md` 'Since the handoff (2026-10-19)' — the note done, the leads, the optional round 6; 'Method (HANDOFF §5)' — the two lessons
 - `HANDOFF.md` §4 — the chat-only relation; §8 item 7 — the optional write-up
-- `notes/debt1a-iv-beta-coefficients.md` §1–§2 and `notes/debt1a-iii-tuning-test.md` §4 — the aligned vacuum and the open persistence, cited by R1
+- `notes/beta-coefficients.md` §1–§2 and `notes/tuning-test.md` §4 — the aligned vacuum and the open persistence, cited by R1
 - `review/v3-worklog.md` item R7 — the early-universe stability cited by R16
 - `review/wiki-build-flags.md` items 23, 24, 38, 39 — the flags the round bears on, all awaiting Paul's ruling
 - `notes/closed-universe.md` §2, §6; `review/wiki-build-flags.md` items 50 and 51 — the conditions and prior art of a closed turnaround with V ≥ 0, which R11's statement omits, and β₁ > 0 on the branch of R1

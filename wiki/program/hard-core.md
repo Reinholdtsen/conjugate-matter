@@ -18,7 +18,7 @@ sources:
   - "papers/reciprocity-toy-models.md §4"
   - "papers/reciprocity-toy-models.md §5"
   - "papers/reciprocity-toy-models.md §6"
-  - "notes/debt1a-geometric-core.md §B"
+  - "notes/geometric-core.md §B"
   - "notes/broken-born-theory.md §0–§3"
   - "notes/broken-born-program-v1.md §0–§1"
   - "notes/broken-born-program-v1.md §11"
@@ -71,7 +71,7 @@ I = ω⁻¹H      J = η⁻¹H      K = η⁻¹ω          I² = −1,   J² = K
 - **H**, the positive generalized metric, carries the geometry: in the vacuum it has the form diag(g, g⁻¹), with g the space-time metric ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem)).
 - **I, J, K** satisfy "a split-quaternion algebra (Born geometry [3†]; a unique compatible connection exists [7†])" (#11 §5; [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures)).
 
-How ρ acts on them is what makes η the order parameter. The lab notebook computed it at the standard point: ρ "preserves ω (it is symplectic), preserves H (it is orthogonal), and flips the sign of η, hence flips J and K while preserving I" [D] (#1 §2). A vacuum that carries a definite η is therefore carried by ρ to a different vacuum, the one with −η. After the repair described below, the [Debt-1 note](/wiki/history/documents/debt-1-notes) put it as "the earlier observation that reciprocity flips η now reads correctly as the broken symmetry moving the order parameter" (`notes/debt1a-geometric-core.md` §B).
+How ρ acts on them is what makes η the order parameter. The lab notebook computed it at the standard point: ρ "preserves ω (it is symplectic), preserves H (it is orthogonal), and flips the sign of η, hence flips J and K while preserving I" [D] (#1 §2). A vacuum that carries a definite η is therefore carried by ρ to a different vacuum, the one with −η. After the repair described below, the [field-equation note](/wiki/history/documents/field-equation-notes) put it as "the earlier observation that reciprocity flips η now reads correctly as the broken symmetry moving the order parameter" (`notes/geometric-core.md` §B).
 
 The documents name the order parameter in two ways. #11 P2′ writes "η = HJ, with the real structure J chosen spontaneously"; the toy-model note writes η = ωK, "K a real structure, K² = 1". The two agree, since J = η⁻¹H and K = η⁻¹ω, but the documents differ on which of J and K they call "the real structure"; [the order parameter](/wiki/symmetry-breaking/order-parameter) records both conventions. This page follows the toy-model note and works with K.
 
@@ -83,7 +83,7 @@ The lab notebook's first rigidity postulate, the [original P2](/wiki/program/pos
 H > 0,   (η⁻¹H)² = +1   and   (ω⁻¹H)² = −1     ⇔     H = diag(g, g⁻¹),   g ∈ Sym⁺(d)
 ```
 
-The statement is Freidel, Leigh and Minic's Born-geometry result; the block proof and the machine check (battery test T1, [the verification battery](/wiki/method/verification/battery)) are the program's (#11 §5). With both structures rigid, the Debt-1 note found the program empty (`notes/debt1a-geometric-core.md` §B, "[D — structural]"):
+The statement is Freidel, Leigh and Minic's Born-geometry result; the block proof and the machine check (battery test T1, [the verification battery](/wiki/method/verification/battery)) are the program's (#11 §5). With both structures rigid, the field-equation note found the program empty (`notes/geometric-core.md` §B, "[D — structural]"):
 
 - the polarizations compatible with both structures are, in the note's word, discrete, "the 2^d coordinate-type splittings" (on "discrete", see flag 1 in `review/wiki-build-flags.md`; the conclusion is not affected), so there is "No Lagrangian Grassmannian, no Maslov circle, no τ field", and no dark-energy sector;
 - with H = diag(g, g⁻¹) the [geometric action](/wiki/gravity/tuning-test/geometric-action) "is a functional of g alone: a pure metric theory. No momentum graviton, hence no geometric origin for the χ gate either";
@@ -116,7 +116,7 @@ The [toy models](/wiki/symmetry-breaking/toy-models) gave the hard core its firs
 ## History of the statement
 
 - **Lab notebook, v0.1 (#1).** Five postulates with both ω and η rigid, and a discrete breaking pattern ℤ₄ → ℤ₂ with J as the order parameter [D] (#1 §2). The rigid ω was also to supply the dark-energy potential by tilting the [Maslov circle](/wiki/phase-space/modular-field/maslov-phase), an item the notebook tagged [P/O] (#1 §3). The discrete picture is on [the order parameter](/wiki/symmetry-breaking/order-parameter).
-- **The P2 → P2′ repair** (Debt-1 note #5; notebook addendum v0.3), forced by the nontriviality theorem as described above.
+- **The P2 → P2′ repair** (field-equation note #5; notebook addendum v0.3), forced by the nontriviality theorem as described above.
 - **v1 paper (#9).** "hard core — spontaneously broken reciprocity with ω-only rigidity — intact and sharpened by the P2 → P2′ correction" (#9 §11): one sharpening.
 - **Checkpoint v2.0 to v2.2 (#11).** "intact, twice sharpened by forced corrections (P2′; the w-dictionary)" (#11 §15). The second correction replaced an early heuristic translation rule for the conjugate cosmology, w_eff = −2 − w̃, by the derived [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) w_eff = −w̃ (#11 §10); the lab notebook had recorded that "The correction is what makes the dark-energy sector work" (#1 §0). In v2.1 the compatibility theorem, presented in v2.0 as derived here, was re-attributed to Freidel, Leigh and Minic (#11 §5). In v2.2 they were also credited with the idea of broken Born duality, and P2′ gained the Goldstone-angle refinement above.
 - **Round 3.** The [round-3](/wiki/method/review/round-3) referees' objection that the framework did no work in the withdrawn soliton manuscript (#14; [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)) set the toy models as the next task; by the worklog's assessment the toy models make the hard core's structures "cohere (η as order parameter; τ as the polarization angle), but matter's x-locality still enters through the P4-type coupling" ([the 'framework does no work' critique](/wiki/program/framework-does-no-work)).
@@ -140,7 +140,7 @@ The popular article #12 says that "The framework rests on a single assumption �
 - `papers/broken-born-checkpoint-v2.md` §3 — the program, the mandatory-breaking argument and the Freidel–Leigh–Minic credit; §4 — P1–P5 and the v2.2 refinement of P2′; §5 — the structures, the compatibility theorem and the nontriviality theorem; §10 — the scope of the toy-model support; §15 — "intact, twice sharpened"; App. A item 1 — the founding supposition
 - `HANDOFF.md` §1 — the one-sentence statement of the hard core
 - `papers/reciprocity-toy-models.md` §1, §2, §3, §4, §5, §6 — η = ωK, model I, its vacua and the twisted element, the real model's explicit one-loop selection, the bounded potential and the Monte Carlo, the K-odd coupling, and what is not shown
-- `notes/debt1a-geometric-core.md` §B — the strict-P2 branch, the repair and the nontriviality theorem as first derived
+- `notes/geometric-core.md` §B — the strict-P2 branch, the repair and the nontriviality theorem as first derived
 - `notes/broken-born-theory.md` §0–§3 — the original postulates, ρ's action on (ω, η, H), the discrete breaking pattern, the [P/O] origin of τ's potential, and the dictionary correction (superseded as reference)
 - `notes/broken-born-program-v1.md` §0–§1, §11 — the v1 statement, "sharpened by the P2 → P2′ correction" (superseded by #11)
 - `notes/toy-lagrangian.md` 'Chunk 1 results', 'Chunk 2 results', 'Chunk 4' — the prior-art search, the Goldstone spectrum, the U(1) containing ρ, and the P4 lock

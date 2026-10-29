@@ -24,7 +24,7 @@ asks whether it does. The question came up while answering Paul's question about
   Gaussian profiles gives exactly e^{−(p₁−p₂)²/2μ²}". It adds: "tree-level exchange with generic vertices yields
   rational (power-law-tailed) gates; the Gaussian requires the Gaussian fiber profile."
 - #5 §E: "gate = momentum-graviton exchange", with "the gate *shape* … the X propagator's structure on the momentum
-  fibers — open [O]". HANDOFF §3 credits #5 with paying "Debt 2's mechanism".
+  fibers — open [O]". HANDOFF §3 credits #5 with finding "the gate's mechanism".
 - #11 §14 item 4 lists as open only the "Gate shape (X propagator on momentum fibers; Gaussian vs rational — now
   observable) [O]".
 - #11 §7 builds X as one massive spin-2 field on spacetime: δX_μν = ∂_(μλ_ν), with Standard-Model couplings
@@ -138,7 +138,7 @@ nothing to do with X. These two readings are this note's reconstruction; the the
   Integrated over angle these give a light mediator's knee in σ_T(v) with a power-law tail. That is #11 §13 row 1's
   "standard expectation" column, not a gate in k.
 - Both derivations reach this; the first adds that such a completion leaves the forward (q → 0) amplitude ungated,
-  which is the quantity Debt 3a's collective model uses.
+  which is the quantity calc note #2's collective model uses.
 
 **Neither reading is in the record** [D, record audit].
 - No χχX vertex, X propagator on the fibers, χ fiber profile, formula for the dual stress T̃, overlap integral or
@@ -203,8 +203,8 @@ program's own X is ruled out as that mechanism.*
 **Text that depends on the tag.**
 - #11: the technical abstract ("whose gate is X-exchange"); §8, the plain-language passage ("now we know its
   mechanism") and the tag; §12's χ row ("sharp tail"); §13 rows 1–3; §15 ("gate tail not yet forced").
-- #6 §4, #5 §E, #8 §5 ("**Debt 2:** mechanism paid (X-exchange, μ = fiber width)"), HANDOFF §2
-  ("gate = X-exchange") and §3 (#5 "pays Debt 2's mechanism").
+- #6 §4, #5 §E, #8 §5 ("**The gate problem:** mechanism found (X-exchange, μ = fiber width)"), HANDOFF §2
+  ("gate = X-exchange") and §3 (#5 "finds the gate's mechanism").
 - The wiki's gate-mechanism, gate-shape and dual-stress pages.
 
 **What does not change** [V].
@@ -261,8 +261,8 @@ program's own X is ruled out as that mechanism.*
 
 ## Sources
 
-- #11 `papers/broken-born-checkpoint-v2.md` §§1, 7, 8, 12–15; #6 `notes/debt1a-ii-X-classification.md` §4;
-  #5 `notes/debt1a-geometric-core.md` §§D, E; #1 `notes/broken-born-theory.md` §§2, 3, 5.3; #13
+- #11 `papers/broken-born-checkpoint-v2.md` §§1, 7, 8, 12–15; #6 `notes/x-classification.md` §4;
+  #5 `notes/geometric-core.md` §§D, E; #1 `notes/broken-born-theory.md` §§2, 3, 5.3; #13
   `papers/conjugate-special-relativity.md` §4; HANDOFF §§2, 3; `papers/phase-space-diameter.md` §8.2.
 - `review/momentum-gravity/run3/verify-critic-theory.json` and `run4/gate-derivation.json`, with the scripts named
   there.

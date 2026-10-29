@@ -1,6 +1,6 @@
 """Flag 14 audit (independent of review/wiki-build-checks/sqrt_eig_check.py).
 
-Source statement, notes/debt1a-iii-tuning-test.md (#7) §2 item 3:
+Source statement, notes/tuning-test.md (#7) §2 item 3:
   "The X = 0 slice gives Tr(S^2) = Tr(g^2) + Tr(g^-2) - 2d. The Hassan-Rosen
    ghost-free family is linear combinations sum beta_n e_n(sqrt(g^-1 f));
    Tr(g^2) = p4 of the square-root eigenvalues is a nonlinear polynomial in

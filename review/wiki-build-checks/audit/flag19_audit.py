@@ -1,4 +1,4 @@
-"""Independent audit of flag 19 (classicality corollary's regime, notes/debt3a-stream-stability.md).
+"""Independent audit of flag 19 (classicality corollary's regime, notes/stream-stability.md).
 
 Units: natural units, GeV. Conversions are built from the exact SI defining constants
 (h, c, e), not copied from the flag's script, so the anchor is independent of the paper.

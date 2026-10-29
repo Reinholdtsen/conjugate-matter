@@ -1,6 +1,6 @@
-# Debt 1, Chunk A-iv: The β coefficients — closing the debt
+# The field-equation problem, Chunk A-iv: The β coefficients — closing the problem
 
-*Working note. Status: computed. Reciprocity fixes the potential's structure, cancels its vacuum energy by theorem, and cuts the free parameters from five to two. Debt 1 is structurally paid.*
+*Working note. Status: computed. Reciprocity fixes the potential's structure, cancels its vacuum energy by theorem, and cuts the free parameters from five to two. The field-equation problem is solved in structure.*
 
 ## 1. What reciprocity does to the wedge potential [D]
 
@@ -34,7 +34,7 @@ $$
 - **Eigenstates and parity:** the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices. With equal effective Planck masses (forced by the same symmetry), SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling: X-mediated forces on the SM are Yukawa-cut at 1/M_X, and gravitational-strength short-range forces are experimentally unconstrained down to far below any plausible M_X. GW graviton-mass bounds apply to the even eigenstate, which is exactly massless. [Parametrics of the χ dual-stress enhancement — why σ₀ can be nuclear-scale while SM couplings stay gravitational — logged as the main open quantitative item.]
 - **τ is not eaten** [D — leading order]: the Higgsing of the dual diffeomorphisms eats the vector π_μ and the *longitudinal scalar of the λ-gradient sector*. τ is a J-modulus on the compact Λ(d), a different sector with different origin; it survives as the light field. (Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness.)
 
-## 4. Debt 1: the answer to Born
+## 4. The field-equation problem: the answer to Born
 
 Assembled across chunks A–A-iv, the 88-year question "what is the dynamics of momentum-space geometry?" now has a definite answer within BBT:
 
@@ -42,6 +42,6 @@ Assembled across chunks A–A-iv, the 88-year question "what is the dynamics of 
 
 Momentum space *does* gravitate — but massively, odd under the symmetry that motivated it, and invisibly to everything except matter polarized its way. That is why Born's symmetry is real and nobody ever saw its second metric.
 
-## 5. Remaining ledger (honest close-out)
+## 5. What remains (honest close-out)
 
-**Debt 1: structurally paid.** Open residue, none of it existential: (i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line); (ii) Lorentzian dressing of the Euclidean skeleton; (iii) τ–Stückelberg mixing matrix; (iv) dual-stress enhancement parametrics (gate strength vs gravitational SM coupling); (v) literature check on the Λ = 0 palindrome observation. **Debt 2:** mechanism paid (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant). **Debt 3:** closed (negative), rows 3–4 withdrawn, island discriminant gained.
+**The field-equation problem: solved in structure.** Open residue, none of it existential: (i) first-principles reduction of the symplectic-vielbein wedge sector from S_H (the class was selected by minimality + consistency, not derived line-by-line); (ii) Lorentzian dressing of the Euclidean skeleton; (iii) τ–Stückelberg mixing matrix; (iv) dual-stress enhancement parametrics (gate strength vs gravitational SM coupling); (v) literature check on the Λ = 0 palindrome observation. **The gate problem:** mechanism found (X-exchange, μ = fiber width); shape completion open (Gaussian vs rational tail — now also an observable discriminant). **The clumping problem:** closed (negative), rows 3–4 withdrawn, island discriminant gained.

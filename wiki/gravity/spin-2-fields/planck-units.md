@@ -22,14 +22,14 @@ sources:
   - "review/round3/adjudicator/round3_arb.out"
   - "notes/knot-dark-matter-standalone.md §2"
   - "notes/knot-dark-matter-standalone.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §3"
   - "review/v3-worklog.md 'Round-2 pending list' R7"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md §6"
-  - "notes/broken-born-theory.md 'Addendum (v0.2, post Debt-3)'"
-  - "notes/debt3b-wave-island.md 'What pins g? Two scenarios'"
-  - "notes/debt3c-ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
+  - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes)'"
+  - "notes/wave-island.md 'What pins g? Two scenarios'"
+  - "notes/ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
   - "review/wiki-build-flags.md items 24, 31, 34"
   - "HANDOFF.md §2"
   - "HANDOFF.md §4"
@@ -167,7 +167,7 @@ one per Hubble volume in reduced-Planck convention: n/s = 0.828 (T/MPl_red)^3 ; 
 
 ### Equal Planck masses in the bimetric sector
 
-[Calc note #8](/wiki/history/documents/debt-1-notes) §3 [D + T] finds that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), acting as the exchange of the program's two spin-2 frames, gives the two metrics "equal effective Planck masses (forced by the same symmetry)", M_f = M_g in the notation of the v3 worklog (`review/v3-worklog.md` item R7; [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). Two consequences follow, each on its own page:
+[Calc note #8](/wiki/history/documents/field-equation-notes) §3 [D + T] finds that [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), acting as the exchange of the program's two spin-2 frames, gives the two metrics "equal effective Planck masses (forced by the same symmetry)", M_f = M_g in the notation of the v3 worklog (`review/v3-worklog.md` item R7; [equal Planck masses](/wiki/gravity/momentum-graviton/spectrum-and-parity#equal-planck-masses)). Two consequences follow, each on its own page:
 
 - Ordinary matter, coupled to g, feels the massive field, the [momentum graviton X](/wiki/gravity/momentum-graviton), at gravitational strength. [Checkpoint #11](/wiki/history/documents/checkpoint) §7.5 gives X's couplings to it as "gravitational-strength and Yukawa-cut at 1/M_X" [D] ([Yukawa forces](/wiki/gravity/spin-2-fields/yukawa-forces#the-momentum-graviton-x)), and #8 §3 places their safety in X's short range: "safety is by **range**, not decoupling" ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)). The strength also depends on the ratio u of the two frames' backgrounds: matter on g feels X with α = (4/3)(M_f u/M_g)² relative to gravity, so equal Planck masses give α = 4/3 only in the program's aligned vacuum, u = 1. There torsion balances keep X's range below 37.7 μm, M_X c² > 5.2 meV (phase-space-diameter note §8.2 [D][V][S]; [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 - The regime in which a heavy spin-2 field has been shown to be linearly stable at late times, M_f ≪ M_g, is excluded, and X's stability in an expanding universe is open ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
@@ -189,7 +189,7 @@ The candidate was retired for a separate error in the same formula: v3's p ≈ 0
 ### Where a document states no convention
 
 - **#1 §6 and the dual Planck mass.** The [lab notebook](/wiki/history/documents/lab-notebook) writes 3H²(M_P² + M̃²a⁻⁶) = ρ for its two-scale-factor cosmology, with M̃ the "dual Planck mass", and does not state its convention. Without the dual term, 3H²M_P² = ρ is the ordinary Friedmann equation only when M_P is the reduced mass, which is how the wiki reads it ([the program's extension: a second scale factor](/wiki/cosmology/scale-factor-duality/friedmann-cosmology#the-programs-extension-a-second-scale-factor)). The bracket acts as an effective Planck mass squared, "a stiff-like (a⁻⁶) modification of the effective Planck mass, relevant only at early times" (#1 §6, transcribed from its LaTeX), and its test is the optional step in G_eff of [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step). The dual Einstein–Hilbert term behind the a⁻⁶ step is used in #1 §6 under a [D] tag but derived from the geometric action in no document, so the step tests a postulate (flag 49 in `review/wiki-build-flags.md`; [the dual frame](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not)). The page on [quintessence](/wiki/cosmology/dark-energy/quintessence#expansion-and-the-friedmann-equation-t) writes H² = ρ/(3M_P²) with the reduced mass as well.
-- **The Debt-3 critical mass.** The [Debt-3 notes](/wiki/history/documents/debt-3-notes) give the mass above which an attractive condensate collapses as M_crit ≈ 3.6 M_P/(m√g) "[T: dilute-boson-star bound, Chavanis-type]" (Debt 3b), with m the particle mass and g its contact coupling, and do not define M_P. The wiki writes M_P = G^{−1/2} there. The coefficient and the conventions for g and M_P have not been checked against the cited paper ([what is unchecked](/wiki/dark-matter/wave-dark-matter/attractive-condensates#what-is-unchecked)), and Debt 3c's numerical form, M_crit ≈ 2.9×10⁻³⁰ (m/eV)^(−7/4) M_⊙ with M_⊙ the mass of the Sun, was evaluated with a Planck mass the notes do not define. The critical mass is part of the record of a dead claim ([Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
+- **The clumping critical mass.** The [clumping notes](/wiki/history/documents/clumping-notes) give the mass above which an attractive condensate collapses as M_crit ≈ 3.6 M_P/(m√g) "[T: dilute-boson-star bound, Chavanis-type]" (calc note #3), with m the particle mass and g its contact coupling, and do not define M_P. The wiki writes M_P = G^{−1/2} there. The coefficient and the conventions for g and M_P have not been checked against the cited paper ([what is unchecked](/wiki/dark-matter/wave-dark-matter/attractive-condensates#what-is-unchecked)), and calc note #4's numerical form, M_crit ≈ 2.9×10⁻³⁰ (m/eV)^(−7/4) M_⊙ with M_⊙ the mass of the Sun, was evaluated with a Planck mass the notes do not define. The critical mass is part of the record of a dead claim ([Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
 - **#1 §4 and photon dispersion.** The notebook's consistency section says that "quadratic effects at M_B ~ M_P sit ~10 orders below current sensitivity" (#1 §4), again without a convention; M_B is the notebook's Born mass scale. The audit of flag 31 counted the gap in both: "8.0–8.6, or 7.3–7.9 with #1's reduced M_P" (`review/wiki-build-flags.md`; [the data situation](/wiki/predictions/photon-dispersion#the-data-situation)).
 - **#1 §3 and the Born mass.** In the notebook's v0.1 action the metric block "reproduces the Einstein–Hilbert action with M_P fixed by M_B and the section volume" [D, schematic] (#1 §3). That action is superseded as a reference ([the geometric action S_H and the v0.1 action](/wiki/gravity/tuning-test/geometric-action)).
 
@@ -202,7 +202,7 @@ In those units the radiation of today's observable universe has A₀ = 5.2×10�
 ## Symbols in the documents
 
 - **M_Pl** — #11 §12, #14 and the round-3 record, for the unreduced mass; in the scripts `M_PL` and `M_PL_RED`, in the referee's output `MPl` and `MPl_red`. **M̄_Pl** is this wiki's symbol for the reduced mass.
-- **M_P** — #1 and the Debt-3 notes, which leave the convention unstated; the wiki's [general-relativity page](/wiki/gravity/spin-2-fields/general-relativity), which writes the action with ∝; and the wiki's minisuperspace and quintessence formulas, where it is the reduced mass. **m_P** is the symbol of Gangui (astro-ph/0110285), the referee's source for the Kibble normalization, in "n_monop/s ~ 100 (T_c/m_P)^3" as the referee quotes it (`review/round3/referee/audit-notes.md` Step 1).
+- **M_P** — #1 and the clumping notes, which leave the convention unstated; the wiki's [general-relativity page](/wiki/gravity/spin-2-fields/general-relativity), which writes the action with ∝; and the wiki's minisuperspace and quintessence formulas, where it is the reduced mass. **m_P** is the symbol of Gangui (astro-ph/0110285), the referee's source for the Kibble normalization, in "n_monop/s ~ 100 (T_c/m_P)^3" as the referee quotes it (`review/round3/referee/audit-notes.md` Step 1).
 - **l_P; E_Planck** — #13 §4; #13 §1 writes the Planck length through λ² = ℏG/c³.
 - **M_g, M_f; M̃; M_B** — the Planck masses of the two bimetric metrics; #1 §6's dual Planck mass; #1 §3's Born mass scale.
 
@@ -241,10 +241,10 @@ The collision entry is under [one quantity, two conventions](/wiki/notation#one-
 - `review/round3/referee/step2a.out`, `review/round3/referee/step4d.out`, `review/round3/referee/step4.py` — the factor 3.350 and the mixing range; the conversion of p; the reduced mass derived from M_Pl
 - `review/round3/adjudicator/round3_arb.out` — "sqrt(8 pi^3/90) = 1.6602" and p in both conventions
 - `notes/knot-dark-matter-standalone.md` §2(b), §3 — the estimate "at the Planck or reduced Planck scale"; v3's M_Pl and its "factor of about 3" (withdrawn)
-- `notes/debt1a-iv-beta-coefficients.md` §3 — equal effective Planck masses [D + T]
+- `notes/beta-coefficients.md` §3 — equal effective Planck masses [D + T]
 - `review/v3-worklog.md` 'Round-2 pending list' item R7 — M_f = M_g and the excluded M_f ≪ M_g regime
-- `notes/broken-born-theory.md` §3, §4, §6, 'Addendum (v0.2, post Debt-3)' — M_P fixed by M_B; M_B ~ M_P in photon dispersion; 3H²(M_P² + M̃²a⁻⁶) = ρ; the critical mass (superseded as a reference; quotations transcribed from its LaTeX)
-- `notes/debt3b-wave-island.md` 'What pins g? Two scenarios' and `notes/debt3c-ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — M_crit ≈ 3.6 M_P/(m√g), M_P undefined
+- `notes/broken-born-theory.md` §3, §4, §6, 'Addendum (v0.2, after the clumping notes)' — M_P fixed by M_B; M_B ~ M_P in photon dispersion; 3H²(M_P² + M̃²a⁻⁶) = ρ; the critical mass (superseded as a reference; quotations transcribed from its LaTeX)
+- `notes/wave-island.md` 'What pins g? Two scenarios' and `notes/ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — M_crit ≈ 3.6 M_P/(m√g), M_P undefined
 - `review/wiki-build-flags.md` items 24, 31, 34 — which bounce is meant; the photon-dispersion gap counted in both conventions; the typed-in constants
 - `HANDOFF.md` §2 — the maximum force and Planck closure listed alive without a machine-check mark; §4 — "D_x = D_p in Planck units" (chat-only)
 - `papers/phase-space-diameter.md` §6 — "Planck units" as λ = l_P, the aspect ratio A₀ = 5.2×10⁹², the square at a/a₀ = 4.4×10⁻⁴⁷ and 4.4×10¹⁴ T_P, the withdrawal; §8.1 — c̃ = c⁴/G = 1.21×10⁴⁴ N at λ = l_P and 1.4×10⁻¹⁷ N at the self-dual length; §8.2 — the bimetric strength α = (4/3)(M_f u/M_g)² and the bound on X's range [D][V][S]

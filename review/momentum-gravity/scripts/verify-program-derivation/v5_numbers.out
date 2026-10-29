@@ -2,7 +2,7 @@
 G m_chi^2/(hbar c) = 3.2873e-41;  alpha~/(G m_chi^2) at alpha~ = 1: 3.0420e+40
 range hbar/(m_chi c) = 2.8190e-15 m
 sigma0 = 30 cm^2/g x m_chi = 3.7436e-24 cm^2
-Debt-3a g = 4 pi alpha~/m_phi^2 at m_phi = m_chi = 70 MeV: 2.5646e+03 GeV^-2;  sqrt(pi sigma0/m^2) = 2.4828e+03 GeV^-2
+calc note #2's g = 4 pi alpha~/m_phi^2 at m_phi = m_chi = 70 MeV: 2.5646e+03 GeV^-2;  sqrt(pi sigma0/m^2) = 2.4828e+03 GeV^-2
 === P4 (chi-nucleon via single X exchange, contact Born, factorised couplings) ===
 (mu_chiN/(m/2))^2 = 3.4639; alpha G m_N^2 = 7.8748e-39; sigma_chiN/sigma_chichi = 2.7277e-38; sigma_chiN = 1.0212e-61 cm^2
 === P6 ===
@@ -25,7 +25,7 @@ Earth orbit (v_orb = 29.8)              : eps/beta = 2|Phi|/v*^2 = 0.1233
 MW at Sun (v_c = 230)                   : eps/beta = 2|Phi|/v*^2 = 7.3472
 classical dwarf 3 sigma^2, sigma = 10   : eps/beta = 2|Phi|/v*^2 = 0.0417
 UFD 3 sigma^2, sigma = 4                : eps/beta = 2|Phi|/v*^2 = 0.0067
-record's co-moving fraction (Debt 3a) at sigma = 155: 0.0295; times MW eps/beta = 0.2165
+record's co-moving fraction (calc note #2) at sigma = 155: 0.0295; times MW eps/beta = 0.2165
 alternative convention (Gaussian gate exp(-v_rel^2/v*^2) over the relative-velocity Maxwellian, dispersion sqrt2 sigma): 0.0580
 === P20 Mercury ===
 GM/(a v*^2) = 0.1591; gated leading-order = -2.0882 beta rad/orbit; GR = 5.0187e-07 rad/orbit; beta for equality = 2.40e-07

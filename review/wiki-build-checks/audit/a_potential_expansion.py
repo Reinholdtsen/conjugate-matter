@@ -1,6 +1,6 @@
 """Audit of flag 5, part A: independent expansion of the Hassan-Rosen potential.
 
-Source definition (#8 = notes/debt1a-iv-beta-coefficients.md, section 1):
+Source definition (#8 = notes/beta-coefficients.md, section 1):
     V = 2 m^2 M^2 sum_{n=0}^{4} beta_n e_n(X),  X = sqrt(g^{-1} f),  d = 4.
 The potential density in the action is sqrt(det g) * V (standard HR form).
 

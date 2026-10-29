@@ -32,7 +32,7 @@ sources:
   - "HANDOFF.md §3"
   - "HANDOFF.md §6"
   - "HANDOFF.md §8"
-  - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
   - "review/wiki-build-flags.md item 21"
 ---
@@ -47,9 +47,9 @@ sources:
 
 Version 2.0 of [the checkpoint](/wiki/history/documents/checkpoint), #11, offered three answers to the question of what [dark matter](/wiki/dark-matter) is: particles of [conjugate matter χ](/wiki/dark-matter/candidates/chi-particles), [a coherent oscillation of the momentum graviton X](/wiki/dark-matter/candidates/x-condensate), and [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t). #11 §12 records the third:
 
-> v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the Debt-3 loophole (§9), since topology, not collective dynamics, would localize them in momentum.
+> v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the clumping loophole (§9), since topology, not collective dynamics, would localize them in momentum.
 
-A p-local gauge sector is a gauge force of the [momentum-polarized matter](/wiki/dark-matter/conjugate-matter), the mirror half of the program's matter content under postulate [P4](/wiki/program/postulates/p4-polarized-matter). A soliton is a localized, finite-energy configuration of a field. It is stable by topological charge when the field far from its core wraps the space of vacuum states a whole number of times, and no smooth change of the field can alter that integer [T] ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)). The second claim concerned [Debt 3](/wiki/history/debts), which had shown that momentum-space clumping by collective dynamics is "nowhere mandatory": forbidden for particles, fatal where it would have been required of wave dark matter, and optional otherwise (#11 §9; [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)); a soliton localized in momentum by its own topology would have escaped that result ([the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+A p-local gauge sector is a gauge force of the [momentum-polarized matter](/wiki/dark-matter/conjugate-matter), the mirror half of the program's matter content under postulate [P4](/wiki/program/postulates/p4-polarized-matter). A soliton is a localized, finite-energy configuration of a field. It is stable by topological charge when the field far from its core wraps the space of vacuum states a whole number of times, and no smooth change of the field can alter that integer [T] ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)). The second claim concerned [the clumping problem](/wiki/history/main-problems), which had shown that momentum-space clumping by collective dynamics is "nowhere mandatory": forbidden for particles, fatal where it would have been required of wave dark matter, and optional otherwise (#11 §9; [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)); a soliton localized in momentum by its own topology would have escaped that result ([the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
 When the candidate was retired, the adjudication named the two claims on which it had "earned its place in the checkpoint's trilemma": "topology makes it stable for free, and the mass came out of the abundance with no free dilution" (`review/round3-adjudication.md`, Decision 2). The review removed the second.
 
@@ -146,7 +146,7 @@ Paul delegated the follow-up decisions on 2026-10-19; Claude made them, and Paul
 - **Route (b)**, keep the superheavy mass and name a dilution mechanism: rejected, because it "restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction".
 - **Route (c)**, retire: chosen. "The soliton candidate: retired as a program-native proposal (route c). The surviving version is noted as prior art (route a)."
 
-The decision cites the Debt-3 obituary of [momentum clumping](/wiki/dark-matter/momentum-clumping) as precedent: a dead claim stays dead. Its consequence: "the trilemma becomes two program-native candidates (gated χ particles; the X-condensate), plus the remark that the framework is compatible with known PeV-scale topological dark matter."
+The decision cites the clumping obituary of [momentum clumping](/wiki/dark-matter/momentum-clumping) as precedent: a dead claim stays dead. Its consequence: "the trilemma becomes two program-native candidates (gated χ particles; the X-condensate), plus the remark that the framework is compatible with known PeV-scale topological dark matter."
 
 The same day, v3 was moved from `papers/` to `notes/` with a banner, "Kept as the audit trail; not for circulation", and the script `knot_numbers.py`, which had checked v3's own claims, was replaced by `verify/soliton_obituary.py`, which checks the corrected record against independent anchors. The adjudication adds: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything." ([the gate](/wiki/method/verification/the-gate)). Decision 3 dropped the handoff's queued "√N floor" calculation, whose premise was inverted and which had no candidate left to serve ([the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
@@ -158,7 +158,7 @@ The same day, v3 was moved from `papers/` to `notes/` with a banner, "Kept as th
 
 - "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]." If the smallest hidden electric charge is weak, [Dirac's quantization condition](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) forces the magnetic charge to be large, so the monopoles' mutual coupling is strong ([the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#what-survives)).
 - "The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V]" ([W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure)).
-- "The Debt-3 loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate."
+- "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate."
 
 The adjudication's own list, "What survives v3", overlaps: "The compatibility theorem (as [T], pending the FLM comparison)", since credited to [Freidel–Leigh–Minic](/wiki/phase-space/reciprocity/broken-born-duality) (FLM) in #11 §5; "The benchmark-conditional arithmetic: flux, densities, σ_T/M, W′ overclosure" ([benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic)); "The kinetic-mixing literature points (a) and (c)" ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)); and "The statement that the minimal adjoint-only sector is excluded." The two lists differ. #11 §12 adds the Dirac result and the loophole; of the adjudication's other items, #11 carries the compatibility theorem in §5 and gravity-induced mixing in P4 (§4), and does not restate the benchmark-conditional arithmetic or point (c). The corrected abundance itself also stands as a result, [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction).
 
@@ -191,7 +191,7 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — "dead as a program-native proposal"; "merely compatible"
-- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §9 — Debt 3's net theorem; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
+- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §9 — the clumping problem's net theorem; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
 - `review/round3-adjudication.md` 'Verdict', 'Rulings' 1–13, 'Pre-registration scored', 'What survives v3', 'Decisions' 1–3 — the review record and the retirement
 - `review/round3-preregistration.md` 'Protocol (HANDOFF §6, round 3)', 'Predictions' — the referee's brief and the predicted outcome
 - `review/round3/referee/audit-notes.md` Step 5 — the referee's weakest links
@@ -200,5 +200,5 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 - `HANDOFF.md` §2, §8 — the superseded "Current best" framing and queue; §3 — the console; §6 — rounds 1 and 2
 - `notes/knot-dark-matter-standalone.md` Abstract, §5, §6 — the withdrawn manuscript's claims, exclusion conditions, requirements and acceptance criteria
 - `review/skeptic-review-console.html` — #14 v2, verbatim
-- `popsci/angle-of-the-mirror.md` 'Dividends and daydreams'; `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular framings
+- `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams'; `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular framings
 - `review/wiki-build-flags.md` item 21 — the source of the lower end of ruling 3's Kibble–Zurek range

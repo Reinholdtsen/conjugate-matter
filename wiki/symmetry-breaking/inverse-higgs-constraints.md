@@ -5,18 +5,18 @@ status: established
 description: "When spacetime symmetries break, some would-be Goldstone fields are fixed as derivatives of others and drop out, leaving fewer Goldstone modes than broken generators: the count by local transformations, the membrane, the commutator criterion, the dilaton, removed fields that are redundant or massive — and calc note #5's expectation, never worked out, that such constraints remove most of the nine non-Maslov moduli of Λ(d)."
 provenance: [T]
 sources:
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-geometric-core.md §B"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
+  - "notes/geometric-core.md §B"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §8"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/x-classification.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "HANDOFF.md §2"
 ---
 
-*An inverse-Higgs constraint is a relation that fixes one would-be [Goldstone field](/wiki/symmetry-breaking/goldstone-and-higgs) as a derivative of another, so that the first drops out of the theory as an independent field. Such relations arise when the symmetries broken by the ground state act on space and time themselves, as translations, rotations and boosts do. A flat membrane is the standard example. It breaks the translation perpendicular to itself and the rotations that would tilt it, but its local tilt is set by the slope of its local displacement, so the displacement is its only massless field. In a relativistic theory each broken generator of an internal symmetry brings its own massless Goldstone mode; when spacetime symmetries break, there can be fewer modes than broken generators. The program's record mentions the idea in a single document: [calc note #5](/wiki/history/documents/debt-1-notes) expects such constraints to remove most of the nine directions, besides that of the dark-energy field [τ](/wiki/phase-space/modular-field/maslov-phase), in which the vacuum's [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) can vary. No document works this out, and the question is [open](/wiki/phase-space/modular-field/field-content).*
+*An inverse-Higgs constraint is a relation that fixes one would-be [Goldstone field](/wiki/symmetry-breaking/goldstone-and-higgs) as a derivative of another, so that the first drops out of the theory as an independent field. Such relations arise when the symmetries broken by the ground state act on space and time themselves, as translations, rotations and boosts do. A flat membrane is the standard example. It breaks the translation perpendicular to itself and the rotations that would tilt it, but its local tilt is set by the slope of its local displacement, so the displacement is its only massless field. In a relativistic theory each broken generator of an internal symmetry brings its own massless Goldstone mode; when spacetime symmetries break, there can be fewer modes than broken generators. The program's record mentions the idea in a single document: [calc note #5](/wiki/history/documents/field-equation-notes) expects such constraints to remove most of the nine directions, besides that of the dark-energy field [τ](/wiki/phase-space/modular-field/maslov-phase), in which the vacuum's [polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) can vary. No document works this out, and the question is [open](/wiki/phase-space/modular-field/field-content).*
 
 **Status:** Established — [T] — textbook field theory, explained here from general knowledge, with the literature it names marked † (Ivanov and Ogievetsky 1975 †; Low and Manohar 2002 †); no `verify/` script checks it. The program's only use is an expectation in calc note #5 §D, tagged [O] and never worked out ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
 
@@ -149,8 +149,8 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 
 ## Sources
 
-- `notes/debt1a-geometric-core.md` §D — the field content of the broken vacuum and the expectation that inverse-Higgs constraints "likely eliminate most" of the nine [O]; §F item 4 — the "inverse-Higgs accounting of the nine heavy moduli", left open; §B — the vacuum's real structures form Λ(d)
+- `notes/geometric-core.md` §D — the field content of the broken vacuum and the expectation that inverse-Higgs constraints "likely eliminate most" of the nine [O]; §F item 4 — the "inverse-Higgs accounting of the nine heavy moduli", left open; §B — the vacuum's real structures form Λ(d)
 - `notes/broken-born-theory.md` §2 — Λ(d) as the vacuum manifold, of dimension 10 at d = 4; τ the lightest modulus and the other nine heavy, assumed [P]; §8 — "the nine non-Maslov directions" in the polarization-genesis sketch [O, sketched]
-- `notes/debt1a-ii-X-classification.md` §3 — the Λ(d) moduli are not the eaten modes
+- `notes/x-classification.md` §3 — the Λ(d) moduli are not the eaten modes
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the polarization choice breaks the dual diffeomorphisms, and X absorbs their would-be Goldstone modes [D + T]; §14 — the current open list, which does not carry the item
 - `HANDOFF.md` §2 — the handoff's open list, which does not carry it either

@@ -15,9 +15,9 @@ sources:
   - "HANDOFF.md §2"
   - "HANDOFF.md §3"
   - "HANDOFF.md §8"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
+  - "notes/beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §5"
   - "notes/broken-born-program-v1.md §10"
@@ -43,7 +43,7 @@ The [handoff](/wiki/history/documents/handoff) lists it among its open items as 
 
 The item bundles three questions:
 
-1. **Is the identity new?** This is the novelty audit: whether the vacuum-energy identity, the "Λ = 0 property of interchange-symmetric bimetric" in the words of [calc note #8](/wiki/history/documents/debt-1-notes) (§2), is already in the literature.
+1. **Is the identity new?** This is the novelty audit: whether the vacuum-energy identity, the "Λ = 0 property of interchange-symmetric bimetric" in the words of [calc note #8](/wiki/history/documents/field-equation-notes) (§2), is already in the literature.
 2. **Does it survive?** In the handoff's wording, whether the identity will "survive convention-careful comparison" with [24S], [25S] and the review [22S].
 3. **Is reciprocity the origin of the partially massless symmetry?** Whether the reciprocity that forces the branch also accounts for the extra gauge symmetry of the partially massless point inside it [O].
 
@@ -55,7 +55,7 @@ The comparison bears on [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palin
 
 #11 v2.0 added the downgrade; the handoff's inventory lists a "PM/Hossenfelder novelty downgrade" among that version's additions (HANDOFF §3, row 11). #11 §7.4, its literature position, records the outcome of a live literature search. It opens: "Exchange-symmetric bimetric potentials are *not* unexplored territory." The search found the two precedents (a) and (b) below, and #11 drew the consequence: "the novelty claim is hereby **downgraded from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature,'** queued as an open item." In §2, #11 says the selection-versus-derivation bias "is acknowledged explicitly where it operates (§7.4)" ([claim tiers and selection bias](/wiki/method/claim-tiers)).
 
-The handoff records the same finding: "the partially-massless (PM) bimetric point (arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still owed." (HANDOFF §2). The two popular articles ([#10 and #12](/wiki/history/documents/popular-articles)) report the question in the same terms: "whether the cancellation is new or a rediscovery awaits a careful comparison" (#10, 'What refused to die'), and "Whether that cancellation is new or a rediscovery of structure already implicit in the literature on related theories is an unresolved question" (#12, 'The second geometry, and why it has never been seen').
+The handoff records the same finding: "the partially-massless (PM) bimetric point (arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still to do." (HANDOFF §2). The two popular articles ([#10 and #12](/wiki/history/documents/popular-articles)) report the question in the same terms: "whether the cancellation is new or a rediscovery awaits a careful comparison" (#10, 'What refused to die'), and "Whether that cancellation is new or a rediscovery of structure already implicit in the literature on related theories is an unresolved question" (#12, 'The second geometry, and why it has never been seen').
 
 ## The literature to compare against
 
@@ -108,7 +108,7 @@ The [S] marks mean that all three works were retrieved by live search during the
 
 Before the literature search, the program expected the identity to be new:
 
-- Calc note #8 §2: "(Whether the Λ = 0 property of interchange-symmetric bimetric was previously noticed in the literature: flagged to verify; if not, it is a standalone publishable observation.)" Its §5 lists "(v) literature check on the Λ = 0 palindrome observation" in the open residue of [Debt 1](/wiki/history/debts).
+- Calc note #8 §2: "(Whether the Λ = 0 property of interchange-symmetric bimetric was previously noticed in the literature: flagged to verify; if not, it is a standalone publishable observation.)" Its §5 lists "(v) literature check on the Λ = 0 palindrome observation" in the open residue of [the field-equation problem](/wiki/history/main-problems).
 - [The lab notebook](/wiki/history/documents/lab-notebook)'s v0.6 addendum ends its residual open items with "literature check on the Λ = 0 observation".
 - [#9](/wiki/history/documents/checkpoint), the v1.0 consolidation, §5 item 5: "(Literature check on whether this Λ = 0 property of symmetric bimetric was previously noticed: flagged [O]; if not, it is a standalone result.)" The section's plain-language opening called the result "A cosmological-constant cancellation for free, from symmetry"; §10 item 8 listed "symmetric-bimetric Λ = 0" among the literature verifications still to be done; and the assessment counted "at least two results that stand on their own regardless of its fate", the palindrome theorem being one of them (#9 §11).
 
@@ -120,7 +120,7 @@ Before the literature search, the program expected the identity to be new:
 - `papers/broken-born-checkpoint-v2.md` §7.4, §14 item 2 — the literature position, the selected point, the downgrade and the open item.
 - `papers/broken-born-checkpoint-v2.md` §7.3, §2, §15, refs [22], [24], [25] — the review cited for the scope; the selection-versus-derivation bias; the self-assessment and the gate on "theory"; the three references, marked [S].
 - `HANDOFF.md` §2, §3, §8 — the downgrade after the literature check and open item 4; the v2.0 inventory row; the three comparisons in queue item 5 and the queue's order.
-- `notes/debt1a-iv-beta-coefficients.md` §2, §3, §5 — the original "standalone" flag; the equal Planck masses; the open residue of Debt 1.
+- `notes/beta-coefficients.md` §2, §3, §5 — the original "standalone" flag; the equal Planck masses; the open residue of the field-equation problem.
 - `notes/broken-born-theory.md` 'Addendum (v0.6)' — the residual literature check as first recorded.
 - `notes/broken-born-program-v1.md` §5, §10, §11 — v1's "standalone result", its open literature check and its "two results that stand on their own" (superseded by #11).
 - `popsci/angle-of-the-mirror.md` 'What refused to die'; `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the popular accounts of the open question (never a status source).

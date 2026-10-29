@@ -49,8 +49,8 @@ sources:
   - "notes/broken-born-theory.md header"
   - "notes/broken-born-theory.md §0"
   - "notes/broken-born-theory.md 'Addendum (v0.2)' to 'Addendum (v0.6)'"
-  - "notes/debt1a-geometric-core.md header"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/geometric-core.md header"
+  - "notes/x-classification.md §3"
   - "notes/broken-born-program-v1.md header"
   - "popsci/angle-of-the-mirror.md subtitle"
   - "README.md"
@@ -106,14 +106,14 @@ The numbers in the first column are the artifact numbers of `HANDOFF.md` §3, in
 | # | Date | Event | Record |
 | --- | --- | --- | --- |
 | — | not recorded; before #1 | The development discussion: Paul's founding suppositions, eleven ideas later audited in #11 Appendix A ([founding suppositions](/wiki/program/founding-suppositions)); a heuristic [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), w_eff = −2 − w̃, which #1 corrected ([Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)); and [bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric), raised in "the second turn of this whole conversation" | #1 §0, §6; #6 §3; #11 Appendix A |
-| 1 | September 2026 | The lab notebook, "Version 0.1": [postulates P1–P5](/wiki/program/postulates) with the [original P2](/wiki/program/postulates/original-p2), an action, a predictions table of ten rows, six open problems and "three named debts standing between this document and a paper" ([the lab notebook](/wiki/history/documents/lab-notebook); [the three debts](/wiki/history/debts); [the predictions table](/wiki/predictions/table-history)) | #1 header, §9, §11, §12 |
-| 2 | not recorded | Calc note debt3a: [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem); the [clumping criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹ ([the Debt-3 calc notes](/wiki/history/documents/debt-3-notes)) | `HANDOFF.md` §3 |
-| 3 | not recorded | Calc note debt3b: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) and its two scenarios | `HANDOFF.md` §3 |
-| 4 | not recorded | Calc note debt3c, which "closes Debt 3 (negative)"; the notebook's addendum v0.2 withdraws rows 3 and 4 of its table ([Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)) | `HANDOFF.md` §3; #1 'Addendum (v0.2)' |
-| 5 | not recorded; written "overnight" | Calc note debt1a, an "Overnight working note": the compatibility theorem, the repair of P2 to [P2′](/wiki/program/postulates/p2-prime), [the modular field](/wiki/phase-space/modular-field/modular-field-z) and [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); addendum v0.3, also headed "overnight" ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)) | #5 header; #1 'Addendum (v0.3, overnight)' |
-| 6 | not recorded | Calc note debt1a-ii: X classified as a [massive spin-2 field](/wiki/gravity/momentum-graviton/forcing-chain); addendum v0.4 | `HANDOFF.md` §3; #1 'Addendum (v0.4)' |
-| 7 | not recorded | Calc note debt1a-iii: [the tuning test](/wiki/gravity/tuning-test), a conditional pass; addendum v0.5 | `HANDOFF.md` §3; #1 'Addendum (v0.5)' |
-| 8 | not recorded | Calc note debt1a-iv, which "closes Debt 1 (structural)": [the palindrome](/wiki/gravity/palindromic-branch/palindrome) and [Born's answer](/wiki/gravity/momentum-graviton/borns-answer); addendum v0.6 | `HANDOFF.md` §3; #1 'Addendum (v0.6)' |
+| 1 | September 2026 | The lab notebook, "Version 0.1": [postulates P1–P5](/wiki/program/postulates) with the [original P2](/wiki/program/postulates/original-p2), an action, a predictions table of ten rows, six open problems and "three main problems standing between this document and a paper" ([the lab notebook](/wiki/history/documents/lab-notebook); [the three main problems](/wiki/history/main-problems); [the predictions table](/wiki/predictions/table-history)) | #1 header, §9, §11, §12 |
+| 2 | not recorded | Calc note #2: [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem); the [clumping criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹ ([the clumping calc notes](/wiki/history/documents/clumping-notes)) | `HANDOFF.md` §3 |
+| 3 | not recorded | Calc note #3: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) and its two scenarios | `HANDOFF.md` §3 |
+| 4 | not recorded | Calc note #4, which "closes the clumping problem (negative)"; the notebook's addendum v0.2 withdraws rows 3 and 4 of its table ([Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)) | `HANDOFF.md` §3; #1 'Addendum (v0.2)' |
+| 5 | not recorded; written "overnight" | Calc note #5, an "Overnight working note": the compatibility theorem, the repair of P2 to [P2′](/wiki/program/postulates/p2-prime), [the modular field](/wiki/phase-space/modular-field/modular-field-z) and [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism); addendum v0.3, also headed "overnight" ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)) | #5 header; #1 'Addendum (v0.3, overnight)' |
+| 6 | not recorded | Calc note #6: X classified as a [massive spin-2 field](/wiki/gravity/momentum-graviton/forcing-chain); addendum v0.4 | `HANDOFF.md` §3; #1 'Addendum (v0.4)' |
+| 7 | not recorded | Calc note #7: [the tuning test](/wiki/gravity/tuning-test), a conditional pass; addendum v0.5 | `HANDOFF.md` §3; #1 'Addendum (v0.5)' |
+| 8 | not recorded | Calc note #8, which "closes the field-equation problem (structural)": [the palindrome](/wiki/gravity/palindromic-branch/palindrome) and [Born's answer](/wiki/gravity/momentum-graviton/borns-answer); addendum v0.6 | `HANDOFF.md` §3; #1 'Addendum (v0.6)' |
 | 9 | not recorded | The program v1.0, "consolidation of the full development arc", with a plain-language passage opening each section and the tags [D], [T], [P], [O] ([the checkpoint](/wiki/history/documents/checkpoint)) | #9 header; `HANDOFF.md` §3 |
 | 10 | not recorded | "The Angle of the Mirror", the first popular article, a narrative "including the deaths" ([the popular articles](/wiki/history/documents/popular-articles)) | `HANDOFF.md` §3 |
 | 11 | not recorded | Checkpoint v2.0, the reference for the full program: the methodological preface and the seven-test battery ([the battery](/wiki/method/verification/battery)), [the charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice), the dark-sector trilemma with the soliton candidate ([dark-sector candidates](/wiki/dark-matter/candidates)), references marked † or [S], the novelty downgrade of [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity), and the audit of the founding suppositions | `HANDOFF.md` §3 |
@@ -194,7 +194,7 @@ The build was recorded in the commits and in the section 'Build state' of `wiki/
 | 16:15 | 8fa2f0b | The depth pass reaches the predictions, with row 1 |
 | 16:31 | d34dbf5 | Build state "after the reboot": "A reboot cleared the session scratchpad, so the inventories and the taxonomy file are gone; the committed tree now carries the plan" |
 | 17:10 | fe96131 | The depth pass reaches the method section, with [Lakatos's methodology](/wiki/method/lakatosian-methodology) |
-| 17:25 | 9a5b7c1 | The depth pass reaches this section, with the document pages; then [the three debts](/wiki/history/debts) (45b782e, 17:44), this page and the section index |
+| 17:25 | 9a5b7c1 | The depth pass reaches this section, with the document pages; then [the three main problems](/wiki/history/main-problems) (45b782e, 17:44), this page and the section index |
 | 18:15 | 51ede3e | Build state at the final pass: depth waves 4–6 "at full depth and verified"; "Two reboots interrupted agents"; "The flags file holds 38 items". The plan for the final pass: verify the last four batches; sweep each partition (flag pointers, known cross-page fixes, "Used by" lists, first-mention links); run six read-only critics, "four for source coverage, a casual reader, a navigation check", and apply their fixes; rebuild the registers from the finished pages; run the full gate |
 | 18:28 | 91bd36f | The final pass's verification: verifier fixes for the last batches of the depth pass, the method pages, rows 6–11 of the predictions, the blind-review pages and the verification pages, committed page by page to 3a195c2 (18:35) |
 | 18:49 | 6874af7 | The sweeps, committed by section as "Wiki sweep" to d01f133 (19:11): flag pointers where flagged statements are quoted, "Used by" lists completed from inbound links, first-mention links, and payment and bookkeeping wording taken out of the wiki's own prose |
@@ -216,12 +216,12 @@ The build was recorded in the commits and in the section 'Build state' of `wiki/
 
 | Time | Commit | Items | Subject |
 | --- | --- | --- | --- |
-| 2026-10-21 14:06 | 2b43d4d | 1–10 | the first record, from waves 1 and 2: among them the null polarizations of #5, the misalignment potential of #7, the mass formula and wording of the Debt-1 results, and smaller pointers |
+| 2026-10-21 14:06 | 2b43d4d | 1–10 | the first record, from waves 1 and 2: among them the null polarizations of #5, the misalignment potential of #7, the mass formula and wording of the field-equation results, and smaller pointers |
 | 14:14 | 27a92a7 | 11 | the tadpole coefficient of model II |
 | 14:18 | 2e7fc5d | 12–13 | the zero mode of V_b; a Monte Carlo error figure |
 | 14:24 | fe3b759 | 14 | the square-root eigenvalue convention in #7 |
 | 14:30 | ab24319 | 15 | a wording about η in #6 |
-| 14:46 | ae94e66 | 16 | the handoff's machine-verification mark on the Debt-3 shortfall, with no script behind it |
+| 14:46 | ae94e66 | 16 | the handoff's machine-verification mark on the clumping shortfall, with no script behind it |
 | 14:48 | 6d0e156 | 17 | two conventions for the gate, a √2 in μ |
 | 14:50 | f6a9830 | 18 | the date #1 gives for baryogenesis |
 | 14:55 | d1ee3fa | 19 | the regime of the classicality corollary |
@@ -336,7 +336,7 @@ Paul's question of 2026-10-26: "I think the obituary is premature. Would momentu
 | 2026-10-27 | — | The answer given to Paul, with the pre-registrations scored and the flags proposed (`review/momentum-gravity/answer.md`). Overall tally: 178 claim checks, 107 confirmed, 65 corrected, 3 refuted, 3 unverifiable (`notes/velocity-gated-gravity.md` §1) |
 | 2026-10-27 (the audit lines' date) | — | Flags 55–58 added to `review/wiki-build-flags.md` under "Found by the momentum-gravity investigation", with flag 55 in its "Where to start" list ([pending rulings](/wiki/status/open-problems#pending-rulings)) |
 | 2026-10-28 | — | The two notes: `notes/velocity-gated-gravity.md`, which answers the question ([X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies); [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction); [what could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers)), and `notes/gate-mechanism.md`, which finds that exchanging #11 §7's X cannot produce the dark-matter gate ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). Neither has been reviewed |
-| 2026-10-28 | — | `verify/velocity_gated_gravity.py` and `verify/gate_mechanism.py` wired into `scripts/check.sh` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script); [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script)); the first ports Debt 3a's shortfall into the gate, recorded in an addendum to flag 16 dated 2026-10-28 |
+| 2026-10-28 | — | `verify/velocity_gated_gravity.py` and `verify/gate_mechanism.py` wired into `scripts/check.sh` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script); [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script)); the first ports calc note #2's shortfall into the gate, recorded in an addendum to flag 16 dated 2026-10-28 |
 | 2026-10-28 | — | The root `CLAUDE.md` records the result in "Since the handoff", and `wiki/CLAUDE.md` ranks both notes among the wiki's sources, current for their scope and not reviewed |
 | 2026-10-28 | — | The wiki updated from the notes: five new pages (the three above and the two script pages), the gate-mechanism page's report of flag 55, and pointers to flags 55–58 on the pages that quote the flagged statements |
 | 2026-10-28 13:55 | dbafb78 | The momentum-gravity investigation committed: the two notes, their scripts, the record, the flags and the wiki |
@@ -390,8 +390,8 @@ On 2026-10-28 Paul asked for "an easy to reach, executive summary page" giving t
 - `review/v3-worklog.md` — the recomputation of #14 v2, the literature report, Paul's decisions on F1 and F2, item O3, and v3 (2026-10-19)
 - `notes/toy-lagrangian.md` — the dated criteria and chunks (2026-10-19), the corrected chunk-2 sign, the S5 literature check, and the write-up and review (2026-10-19/20)
 - `notes/knot-dark-matter-standalone.md` banner — "Withdrawn (2026-10-19)"; the earlier banner, "Status (2026-10-19)", is in the file as committed at 96f58da, when it was still in `papers/`
-- `notes/broken-born-theory.md` header — "Version 0.1, September 2026"; §0, §6 — the corrected heuristic of the development discussion; 'Addendum (v0.2)' to 'Addendum (v0.6)' — the order of the Debt-3 and Debt-1 results
-- `notes/debt1a-geometric-core.md` header — "Overnight working note"; `notes/debt1a-ii-X-classification.md` §3 — "the second turn of this whole conversation"
+- `notes/broken-born-theory.md` header — "Version 0.1, September 2026"; §0, §6 — the corrected heuristic of the development discussion; 'Addendum (v0.2)' to 'Addendum (v0.6)' — the order of the clumping and field-equation results
+- `notes/geometric-core.md` header — "Overnight working note"; `notes/x-classification.md` §3 — "the second turn of this whole conversation"
 - `notes/broken-born-program-v1.md` header — v1.0
 - `popsci/angle-of-the-mirror.md` subtitle — "a week"
 - `README.md` — the initial commit's description

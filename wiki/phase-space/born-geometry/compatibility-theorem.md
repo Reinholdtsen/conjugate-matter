@@ -21,9 +21,9 @@ sources:
   - "review/round3/referee/step3_diag.out d = 1–3"
   - "review/round3/referee/step3_groebner.out d = 2"
   - "review/round3/referee/step3.py residuals"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §C"
+  - "notes/x-classification.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "notes/broken-born-program-v1.md §3"
   - "notes/knot-dark-matter-standalone.md §1"
@@ -46,7 +46,7 @@ Checkpoint [#11](/wiki/history/documents/checkpoint) §5:
 
 > **Compatibility theorem [T][V].** Positive H satisfying both (η⁻¹H)² = 1 and (ω⁻¹H)² = −1 are exactly H = diag(g, g⁻¹), g ∈ Sym⁺(d).
 
-Sym⁺(d) is the set of real symmetric positive-definite d × d matrices [T]. The calc note that gave the program's proof, [#5](/wiki/history/documents/debt-1-notes) §A, states the setting: "On flat phase space with ω and η both in standard form", the positive generalized metrics "satisfying the full Born algebra — (η⁻¹H)² = +1 **and** (ω⁻¹H)² = −1" are exactly those block-diagonal matrices. In the notation of [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures), the two conditions are J² = 1 and I² = −1.
+Sym⁺(d) is the set of real symmetric positive-definite d × d matrices [T]. The calc note that gave the program's proof, [#5](/wiki/history/documents/field-equation-notes) §A, states the setting: "On flat phase space with ω and η both in standard form", the positive generalized metrics "satisfying the full Born algebra — (η⁻¹H)² = +1 **and** (ω⁻¹H)² = −1" are exactly those block-diagonal matrices. In the notation of [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures), the two conditions are J² = 1 and I² = −1.
 
 The theorem concerns one tangent space at a time. The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) calls it "pointwise, in a flat frame" (§1), and the round-3 referee "a pointwise linear-algebra fact" (audit notes, Step 3).
 
@@ -161,7 +161,7 @@ The adjudication agreed: "**The compatibility theorem is verified** (sympy, incl
 
 Until round 3 the program treated the theorem as its own result:
 
-- calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the [notebook](/wiki/history/documents/lab-notebook)'s v0.3 addendum reports that the [Debt-1](/wiki/history/debts) groundwork "produced a rigorous compatibility theorem";
+- calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the [notebook](/wiki/history/documents/lab-notebook)'s v0.3 addendum reports that the [the field-equation problem](/wiki/history/main-problems) groundwork "produced a rigorous compatibility theorem";
 - the v1 program paper tags it "Compatibility theorem [D]" (#9 §3);
 - [#13](/wiki/conjugate-relativity) builds on it with the tag "[D — compatibility theorem]" (#13 §1; see flag 30 in `review/wiki-build-flags.md`);
 - the withdrawn #14 lists it under "Derived within the framework or by standard methods" as "the compatibility theorem (elementary; machine-verified numerically in both directions)" (#14 §6);
@@ -218,8 +218,8 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - `review/round3/referee/step3.out`, `review/round3/referee/step3_diag.out`, `review/round3/referee/step3_groebner.out`, `review/round3/referee/step3.py` — the referee's outputs and the residual definitions.
 - `papers/conjugate-special-relativity.md` §1 — the block form as two metrics with two cones.
 - `HANDOFF.md` §2, §6 — the ✓ in the handoff; round 1's doubt, settled by the machine check.
-- `notes/debt1a-geometric-core.md` §A, §C — the original proof, tagged "[D — rigorous]"; the vacuum slice.
-- `notes/debt1a-ii-X-classification.md` §3 — proven for positive H only.
+- `notes/geometric-core.md` §A, §C — the original proof, tagged "[D — rigorous]"; the vacuum slice.
+- `notes/x-classification.md` §3 — proven for positive H only.
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)'; `notes/broken-born-program-v1.md` §3 — the theorem as derived here, before the re-attribution.
 - `notes/knot-dark-matter-standalone.md` §1, §6 — "pointwise, in a flat frame"; listed as derived.
 - `verify/battery.py` T1 — both directions and the two proof-block identities.

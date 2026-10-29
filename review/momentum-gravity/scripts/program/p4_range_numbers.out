@@ -23,7 +23,7 @@ hbar H0 = 1.438e-33 eV ; c/H0 = 4.45 Gpc
 
 == 4. The record's chi-chi strength against gravity
   G m_chi^2 = 3.29e-41 (dimensionless, hbar = c = 1); alpha~/(G m^2) = 3.04e+40
-  Debt-3a contact coupling g = 2.48e+03 GeV^-2 vs G = 1/M_P^2 = 6.71e-39 GeV^-2: ratio 3.70e+41
+  calc note #2's contact coupling g = 2.48e+03 GeV^-2 vs G = 1/M_P^2 = 6.71e-39 GeV^-2: ratio 3.70e+41
   sigma0 = (30 cm^2/g) m_chi = 3.74e-24 cm^2 = 9.61e+03 GeV^-2
 
 == 5. Momentum transfer in halo scattering vs X's range (the 'integrate X out' step needs q << M_X)

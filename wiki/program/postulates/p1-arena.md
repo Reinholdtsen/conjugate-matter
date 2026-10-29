@@ -12,9 +12,9 @@ sources:
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §6"
   - "notes/broken-born-theory.md 'Addendum (v0.3)'"
-  - "notes/debt1a-geometric-core.md §A"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
+  - "notes/geometric-core.md §A"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
   - "notes/broken-born-program-v1.md §2"
   - "verify/battery.py T2"
 ---
@@ -73,7 +73,7 @@ This is where P1 meets the rest of the postulates. P3 states the symmetry throug
 The answer depends on what else is held fixed.
 
 - **With η fixed as well (the [original P2](/wiki/program/postulates/original-p2)).** [The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) [T][V] leaves only H = diag(g, g⁻¹), g ∈ Sym⁺(d) (#11 §5; battery test T1). The momentum metric is then slaved to the spacetime metric, g̃ = g⁻¹, and "no independent momentum-space geometry survives" (#5 §A; [the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries)).
-- **With only ω fixed ([P2′](/wiki/program/postulates/p2-prime)).** "H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0), H_Z the standard generalized metric (I[Z]² = −1 machine-verified [V])" (#11 §6). The family, from the [Debt-1 note](/wiki/history/documents/debt-1-notes):
+- **With only ω fixed ([P2′](/wiki/program/postulates/p2-prime)).** "H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0), H_Z the standard generalized metric (I[Z]² = −1 machine-verified [V])" (#11 §6). The family, from the [field-equation note](/wiki/history/documents/field-equation-notes):
 
   ```text
   H_Z = [[Y + XY⁻¹X, XY⁻¹], [Y⁻¹X, Y⁻¹]],     Z = X + iY,   X, Y symmetric,   Y > 0      (#5 §C)
@@ -95,7 +95,7 @@ The neutral metric in standard form, beside the other two, is
 η = [[0, 1], [1, 0]]          η(u, u′) = x·p′ + p·x′
 ```
 
-(#1 §2 for the matrix). η is symmetric with signature (d, d), and every pure-position vector and every pure-momentum vector has zero η-length [T]. The Debt-1 note calls it "the structure that says which directions are position" (#5 §B). With all three structures the notebook defined I ≡ ω⁻¹H, J ≡ η⁻¹H and K ≡ η⁻¹ω, and "Direct matrix computation gives I² = −1, J² = +1, K² = +1, and IJ = K: a split-quaternion (para-quaternionic) algebra. A compatible triple (ω, η, H) realizing this algebra is precisely a Born geometry in the sense of Freidel, Leigh & Minic. **[T]**" (#1 §2; #11 §5 cites Born geometry as [3†]).
+(#1 §2 for the matrix). η is symmetric with signature (d, d), and every pure-position vector and every pure-momentum vector has zero η-length [T]. The field-equation note calls it "the structure that says which directions are position" (#5 §B). With all three structures the notebook defined I ≡ ω⁻¹H, J ≡ η⁻¹H and K ≡ η⁻¹ω, and "Direct matrix computation gives I² = −1, J² = +1, K² = +1, and IJ = K: a split-quaternion (para-quaternionic) algebra. A compatible triple (ω, η, H) realizing this algebra is precisely a Born geometry in the sense of Freidel, Leigh & Minic. **[T]**" (#1 §2; #11 §5 cites Born geometry as [3†]).
 
 The third structure did not last. The notebook's [original P2](/wiki/program/postulates/original-p2) held η as rigid as ω. The compatibility theorem then froze H into diag(g, g⁻¹), and [the nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) showed that this left the program with nothing beyond [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one model of [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). The v0.3 addendum made η emergent instead: "the order parameter itself, η = HJ" (#1 'Addendum (v0.3)'). #9 §2 and #11 §4 then list only ω and H in P1. η still appears in #11, but as a property of the vacuum ([P2′](/wiki/program/postulates/p2-prime); [the order parameter](/wiki/symmetry-breaking/order-parameter)), and #11 §5 still takes "ω, η standard" when it states the compatibility theorem.
 
@@ -111,6 +111,6 @@ The third structure did not last. The notebook's [original P2](/wiki/program/pos
 - `papers/broken-born-checkpoint-v2.md` §4 — the current statement; §5 — I = ω⁻¹H, the compatibility conditions and the theorem; §6 — the Siegel family of H and its [V] tag
 - `notes/broken-born-theory.md` §1 — the v0.1 statement, with η, and P2's reading of ω as the constancy of ℏ; §2 — the standard forms of ω, η and H, the reference scales, and the split-quaternion algebra; §6 — the phase-space cell
 - `notes/broken-born-theory.md` 'Addendum (v0.3)' — η moved out of the arena
-- `notes/debt1a-geometric-core.md` §A — the slaved momentum metric; §B — η as the structure that says which directions are position; §C — the H_Z parametrization of the ω-compatible metrics
+- `notes/geometric-core.md` §A — the slaved momentum metric; §B — η as the structure that says which directions are position; §C — the H_Z parametrization of the ω-compatible metrics
 - `notes/broken-born-program-v1.md` §2 — the v1 statement, "P1 (Arena)"
 - `verify/battery.py` T2 — the Siegel-parametrization checks

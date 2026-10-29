@@ -21,7 +21,7 @@ Hamiltonian inverse inertia d2H/dp2 at p = 0: 2*Gtilde*M/(mu*r*v_star**2) + 1/mu
 argument |p1/m1 - p2/m2|/v*: pdot_1 - (gated Newton force) = [0, 0, 0]; d(m1x1+m2x2)/dt - P zero: True
 argument |p1 - p2|/(m1 v*)  [non-invariant]: pdot_1 - (gated Newton force) = [0, 0, 0]; d(m1x1+m2x2)/dt - P zero: False
 
-== (c) gated contact interaction (Debt 3a), smoothed with width eps
+== (c) gated contact interaction (calc note #2), smoothed with width eps
 pdot_1 = g * G * grad delta_eps: True
 |d delta/dr| at r = 10 eps relative to its maximum: 3.1799709001977493e-21
 

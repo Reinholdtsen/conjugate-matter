@@ -9,10 +9,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.2"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §14 item 6"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §5"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §5"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §5"
   - "notes/broken-born-program-v1.md §5"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "verify/battery.py T4"
@@ -20,7 +20,7 @@ sources:
 
 *Stückelberg fields are extra fields written into a theory of a massive gauge field so that the gauge symmetry its mass term breaks holds again. For a vector field A_μ the mass term m²A_μA^μ changes when A_μ is shifted by the gradient of a function; written in terms of the combination A_μ + ∂_μπ, where π is a new scalar field that shifts back by the same function, it does not. Setting π to zero, the choice called the unitary gauge, returns the original theory, so the construction changes the description and not the physics. The new fields are the would-be Goldstone modes of the [Higgs mechanism](/wiki/symmetry-breaking/goldstone-and-higgs#the-higgs-mechanism) written out as fields: the extra polarizations that a gauge field absorbs, or "eats", when it becomes massive. A massive spin-2 field needs a vector of them, and the vector's gradient part carries the polarization of helicity zero, the one with no spin along the direction of motion. In the Comatter program the [momentum graviton X](/wiki/gravity/momentum-graviton) becomes massive by absorbing the would-be Goldstone modes of its broken [dual diffeomorphisms](/wiki/gravity/momentum-graviton/dual-diffeomorphisms) (the local shifts of X), and [checkpoint #11](/wiki/history/documents/checkpoint) calls these modes "the Stückelberg sector". The [dark-energy field τ](/wiki/cosmology/dark-energy/tau-quintessence) lies outside that sector at leading order; how strongly the two mix has not been computed and is [open problem 6 (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).*
 
-**Status:** Established — [T] — textbook field theory, written here from general knowledge, with the literature it names marked † (among them Stueckelberg 1938 †; Arkani-Hamed, Georgi and Schwartz 2003 †; Hinterbichler 2012 †); no `verify/` script checks it. The program's use is part of the structural derivation of X's mass, "[D — structural]" in [calc note #6](/wiki/history/documents/debt-1-notes) §3 and [D + T] in #11 §7.1, with τ's exclusion "[D — leading order]" in calc note #8 §3 and [D] in #11 §7.5; no document writes X's Stückelberg fields out explicitly. The τ–Stückelberg mixing matrix is open [O] (#11 §14 item 6).
+**Status:** Established — [T] — textbook field theory, written here from general knowledge, with the literature it names marked † (among them Stueckelberg 1938 †; Arkani-Hamed, Georgi and Schwartz 2003 †; Hinterbichler 2012 †); no `verify/` script checks it. The program's use is part of the structural derivation of X's mass, "[D — structural]" in [calc note #6](/wiki/history/documents/field-equation-notes) §3 and [D + T] in #11 §7.1, with τ's exclusion "[D — leading order]" in calc note #8 §3 and [D] in #11 §7.5; no document writes X's Stückelberg fields out explicitly. The τ–Stückelberg mixing matrix is open [O] (#11 §14 item 6).
 
 ## A mass term breaks a gauge symmetry [T]
 
@@ -141,7 +141,7 @@ In the terms of this page, the fields a gauge field absorbs are those that shift
 
 ### The mixing left open
 
-Through the potential, τ and the Stückelberg fields can still mix. Calc note #8 records it in a parenthesis: "(Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness.)" (§3), and its close-out lists "(iii) τ–Stückelberg mixing matrix" in the "Open residue, none of it existential" of [Debt 1](/wiki/history/debts) (§5). No document computes the mixing or develops the compactness argument behind the expectation. #11 §14 keeps the item without the expectation, as item 6: "τ–Stückelberg mixing matrix [O]." The documents do not define the matrix. In standard usage a mixing matrix is the matrix of quadratic couplings between the fields, here τ and the Stückelberg fields, or the rotation that diagonalizes it; from either follow the combinations of fields that have definite masses [T]. See [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).
+Through the potential, τ and the Stückelberg fields can still mix. Calc note #8 records it in a parenthesis: "(Residual τ–Stückelberg mixing through the potential: logged, expected small by compactness.)" (§3), and its close-out lists "(iii) τ–Stückelberg mixing matrix" in the "Open residue, none of it existential" of [the field-equation problem](/wiki/history/main-problems) (§5). No document computes the mixing or develops the compactness argument behind the expectation. #11 §14 keeps the item without the expectation, as item 6: "τ–Stückelberg mixing matrix [O]." The documents do not define the matrix. In standard usage a mixing matrix is the matrix of quadratic couplings between the fields, here τ and the Stückelberg fields, or the rotation that diagonalizes it; from either follow the combinations of fields that have definite masses [T]. See [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).
 
 ## What is open
 
@@ -174,8 +174,8 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the chain: dual diffeomorphisms as a second linearized-diff gauge field, "X eats the four Goldstones" [D + T]; §7.2 — the metric-tier "quadratic mass m²Tr(h²) with no −(Tr h)²"; §7.5 — "not the Stückelberg sector" [D]; §14 item 6 — "τ–Stückelberg mixing matrix [O]"
-- `notes/debt1a-ii-X-classification.md` §3 — the four would-be Goldstones π_μ eaten, the five polarizations, τ not among the eaten modes, its verification flagged [O], the Euclidean-rigorous skeleton [D — structural]; §5 — "the eaten modes counted"
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the second wording of the absorbed modes, τ not eaten [D — leading order], the residual τ–Stückelberg mixing logged; §5 — the mixing matrix in Debt 1's open residue
+- `notes/x-classification.md` §3 — the four would-be Goldstones π_μ eaten, the five polarizations, τ not among the eaten modes, its verification flagged [O], the Euclidean-rigorous skeleton [D — structural]; §5 — "the eaten modes counted"
+- `notes/beta-coefficients.md` §3 — the second wording of the absorbed modes, τ not eaten [D — leading order], the residual τ–Stückelberg mixing logged; §5 — the mixing matrix in the field-equation problem's open residue
 - `notes/broken-born-program-v1.md` §5 item 6 — "not the Stückelberg sector" (superseded as reference)
 - `notes/broken-born-theory.md` 'Addendum (v0.6)' — "not the Stückelberg sector"
 - `verify/battery.py` T4 — the metric-tier mass term compared with the Fierz–Pauli form

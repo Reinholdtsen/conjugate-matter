@@ -10,10 +10,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §14 item 9"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/x-classification.md §4"
+  - "notes/x-classification.md §5"
+  - "notes/geometric-core.md §C"
+  - "notes/beta-coefficients.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
   - "notes/broken-born-program-v1.md §9"
   - "notes/broken-born-program-v1.md §10"
@@ -22,11 +22,11 @@ sources:
   - "review/v3-worklog.md 'Round-2 pending list'"
   - "review/wiki-build-flags.md item 5"
   - "review/wiki-build-flags.md item 20"
-  - "popsci/angle-of-the-mirror.md 'Dividends and daydreams'"
+  - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*The X-condensate candidate is the proposal that [dark matter](/wiki/dark-matter) is a coherent, spatially uniform oscillation of X, the program's [momentum graviton](/wiki/gravity/momentum-graviton): the massive spin-2 field that the broken [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) adds to gravity. If it holds, dark matter and the hidden half of the geometry are one field rather than two separate things. The idea was logged during the [Debt-1](/wiki/history/debts) work as a direction deliberately left unopened, became one of three dark-matter candidates in version 2.0 of the checkpoint, and has been one of two since [the third](/wiki/dark-matter/candidates/soliton-candidate/obituary) was retired. The record holds its profile and its history, not a calculation; like [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles), its abundance is unexplained.*
+*The X-condensate candidate is the proposal that [dark matter](/wiki/dark-matter) is a coherent, spatially uniform oscillation of X, the program's [momentum graviton](/wiki/gravity/momentum-graviton): the massive spin-2 field that the broken [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) adds to gravity. If it holds, dark matter and the hidden half of the geometry are one field rather than two separate things. The idea was logged during the [the field-equation problem](/wiki/history/main-problems) work as a direction deliberately left unopened, became one of three dark-matter candidates in version 2.0 of the checkpoint, and has been one of two since [the third](/wiki/dark-matter/candidates/soliton-candidate/obituary) was retired. The record holds its profile and its history, not a calculation; like [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles), its abundance is unexplained.*
 
 **Status:** Alive — one of two candidates; #11 §12 tags the pair "[D — framework; each candidate O]". The field it is made of is derived ([D + T], #11 §7.1); that the dark matter is made of it is open. Its lineage, [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter), is cited from model memory [23†]; flag 20 in `review/wiki-build-flags.md` suspects that #11's entry for it pairs one paper's title with another's arXiv number. Nothing on this page is machine-checked.
 
@@ -44,11 +44,11 @@ DM there is dark matter. The tag "[D — framework; each candidate O]" says that
 
 The program's geometry lives in one field on phase space, the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY. Its imaginary part is the spacetime metric, Im Z = Y = g. Its real part is "Re Z = X, a *new symmetric tensor*: the momentum graviton. It is exactly the fluctuation that breaks η-compatibility — i.e., the local wobble of the emergent polarization" (#5 §C). X is the field that measures how the split of phase space into position and momentum varies from place to place.
 
-Debt 1 established what kind of field X is ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)). In #11's summary [D + T]: X is [shift-symmetric](/wiki/gravity/momentum-graviton/shift-symmetry) and so "never auxiliary"; its local symmetry makes it "a second linearized-diff gauge field", that is, a second graviton; a second massless graviton is excluded by [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) [8†]; and "The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale" (#11 §7.1; [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). X is therefore a massive spin-2 field with five polarizations, governed by [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) restricted to the [palindromic branch](/wiki/gravity/palindromic-branch/palindrome).
+The field-equation problem established what kind of field X is ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)). In #11's summary [D + T]: X is [shift-symmetric](/wiki/gravity/momentum-graviton/shift-symmetry) and so "never auxiliary"; its local symmetry makes it "a second linearized-diff gauge field", that is, a second graviton; a second massless graviton is excluded by [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) [8†]; and "The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale" (#11 §7.1; [the gravitational Higgs mechanism](/wiki/gravity/momentum-graviton/gravitational-higgs)). X is therefore a massive spin-2 field with five polarizations, governed by [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) restricted to the [palindromic branch](/wiki/gravity/palindromic-branch/palindrome).
 
 The properties that matter for a dark-matter candidate are in #11 §7.5 [D]:
 
-- **Mass.** "Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape)". No document gives a value for M_X. [Calc note #8](/wiki/history/documents/debt-1-notes) §3, the source of the count, writes the proportionality for the squared [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass, "m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. **M_X**"; the difference is recorded in `review/wiki-build-flags.md` item 5, and this page quotes both as written ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
+- **Mass.** "Five βₙ → two parameters (M_X ∝ 2(β₁+β₂); one cubic shape)". No document gives a value for M_X. [Calc note #8](/wiki/history/documents/field-equation-notes) §3, the source of the count, writes the proportionality for the squared [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) mass, "m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. **M_X**"; the difference is recorded in `review/wiki-build-flags.md` item 5, and this page quotes both as written ([spectrum, parameters and reciprocity parity](/wiki/gravity/momentum-graviton/spectrum-and-parity)).
 - **Parity.** The massless graviton is "reciprocity-even" and X is "reciprocity-odd"; "Reciprocity is a selection rule on vertices" (#8 §3; on the parities under #11 §6's Z → −Z⁻¹, see flag 39 in `review/wiki-build-flags.md`).
 - **Couplings to ordinary matter.** "SM couplings gravitational-strength and Yukawa-cut at 1/M_X" (SM is the Standard Model; [Yukawa forces](/wiki/gravity/spin-2-fields/yukawa-forces#the-momentum-graviton-x)). With [equal effective Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector), "SM matter — coupled to g — sees both eigenstates with comparable strength; safety is by **range**, not decoupling" (#8 §3; [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)).
 
@@ -82,7 +82,7 @@ The stability entry, "m_X-protected", is likewise stated without an argument. No
 
 ## Not the same condensate
 
-The word "condensate" appears twice in the dark-matter record. On the wave island of Debt 3, very light χ can condense into Bose stars ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)). Those are condensates of the matter field χ. The X-condensate is a state of the geometric field X. No document relates the two.
+The word "condensate" appears twice in the dark-matter record. On the wave island of the clumping problem, very light χ can condense into Bose stars ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)). Those are condensates of the matter field χ. The X-condensate is a state of the geometric field X. No document relates the two.
 
 ## History
 
@@ -91,18 +91,18 @@ The word "condensate" appears twice in the dark-matter record. On the wave islan
 - **#9.** Open problem 7: "X-condensate as the dark matter itself (bigravity-DM-style), potentially eliminating χ and unifying the dark sector with the geometry [O — direction, deliberately unopened]" (#9 §10). Its row 7 already covers it: "χ (or X-condensate) has no non-gravitational SM coupling" (#9 §9).
 - **#11 v2.0 and the handoff.** The candidate became one row of a three-way choice with χ particles and [superheavy solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary). [The handoff](/wiki/history/documents/handoff), `HANDOFF.md` §2, lists "Dark-sector trilemma discrimination: particles vs X-condensate vs solitons" as open item 8.
 - **#11 v2.1.** After [round 3](/wiki/method/review/round-3), the soliton candidate was retired on 2026-10-19 and "the trilemma becomes two program-native candidates (gated χ particles; the X-condensate)" (`review/round3-adjudication.md`, [Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired); [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
-- **The popular articles.** Both predate the retirement and describe the three-way question. #10 lists "a condensate of the twin-graviton field itself" ('Dividends and daydreams'); #12 writes "a condensate of the massive geometric field itself, in which case dark matter and the hidden geometry are one substance" ('Dark matter as the other polarization'). Neither is a source for the candidate's status ([the popular articles](/wiki/history/documents/popular-articles)).
+- **The popular articles.** Both predate the retirement and describe the three-way question. #10 lists "a condensate of the twin-graviton field itself" ('Corollaries and daydreams'); #12 writes "a condensate of the massive geometric field itself, in which case dark matter and the hidden geometry are one substance" ('Dark matter as the other polarization'). Neither is a source for the candidate's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §12 — the candidate profile and its tag; §7.1 — X forced massive; §7.5 — mass, parity and couplings; §9 — the wave-island tail; §13 — rows 3, 7 and 11; §14 item 9 — discriminating the two candidates
-- `notes/debt1a-ii-X-classification.md` §4 — the door "deliberately left closed"; §5 — listed as open
-- `notes/debt1a-geometric-core.md` §C — X as Re Z, "the local wobble of the emergent polarization"
-- `notes/debt1a-iv-beta-coefficients.md` §3 — m_FP², equal Planck masses, safety by range
+- `notes/x-classification.md` §4 — the door "deliberately left closed"; §5 — listed as open
+- `notes/geometric-core.md` §C — X as Re Z, "the local wobble of the emergent polarization"
+- `notes/beta-coefficients.md` §3 — m_FP², equal Planck masses, safety by range
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — the open direction
 - `notes/broken-born-program-v1.md` §10 — open problem 7 of #9; §9 — row 7 of #9
 - `HANDOFF.md` §2 — open item 8, the trilemma (superseded)
 - `review/round3-adjudication.md` 'Decisions' 2 — three candidates become two
 - `review/v3-worklog.md` 'Round-2 pending list' — R7, stability at equal Planck masses
 - `review/wiki-build-flags.md` item 5 — M_X versus m_FP²; item 20 — the title and arXiv number of reference [23]
-- `popsci/angle-of-the-mirror.md` 'Dividends and daydreams'; `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the three-way framing
+- `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams'; `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the three-way framing

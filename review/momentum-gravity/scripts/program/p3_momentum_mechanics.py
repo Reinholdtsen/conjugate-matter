@@ -6,7 +6,7 @@ Models:
      position potential, and the chat-only 'Yukawa in momentum' read as a potential);
  (b) L = sum m v^2/2 + Gt m1 m2 W(|v1 - v2|/v*)/r, W(0) = 1: a long-range force gated in relative velocity;
      first-order Hamiltonian H = sum p^2/2m - Gt m1 m2 W(|p1/m1 - p2/m2|/v*)/r;
- (c) the gated contact interaction of notes/debt3a-stream-stability.md, smoothed: U = -g delta_eps(r) G((p1-p2)/mu).
+ (c) the gated contact interaction of notes/stream-stability.md, smoothed: U = -g delta_eps(r) G((p1-p2)/mu).
 For each: Hamilton's equations, the Lagrangian to first order, Galilean invariance of the argument,
 the momentum-velocity relation, and numerical two-body examples for (b) and (c).
 Reductions stated where made (planar motion; relative coordinate; units GM = mu = v* = 1 in the numerics).
@@ -126,7 +126,7 @@ for name, warg in [('|p1/m1 - p2/m2|/v*', sp.sqrt((p1/m1 - p2/m2).dot(p1/m1 - p2
           f" d(m1x1+m2x2)/dt - P zero: {cm == sp.zeros(3, 1)}")
 
 # ---------------------------------------------------------------- (c)
-print("\n== (c) gated contact interaction (Debt 3a), smoothed with width eps")
+print("\n== (c) gated contact interaction (calc note #2), smoothed with width eps")
 g, mug, es = sp.symbols('g mu_g eps_s', positive=True)
 dx = x1 - x2; rx2 = dx.dot(dx)
 delta = sp.exp(-rx2/(2*es**2))/(2*sp.pi*es**2)**sp.Rational(3, 2)

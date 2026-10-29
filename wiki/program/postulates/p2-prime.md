@@ -10,9 +10,9 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-theory.md §1"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §3"
@@ -53,14 +53,14 @@ A rigid, or non-dynamical, structure is fixed background: it has no equation of 
 
 The physical reading is the one the original P2 already gave ω: "the symplectic structure *is* the constancy of ℏ — phase-space cells do not stretch" (#1 §1). Holding ω fixed holds the size of a phase-space cell fixed, which is the statement that ℏ does not change (#1 §6). The repair keeps exactly this part of the old axiom: "Freeze ω only — that is genuinely ℏ" (#5 §B). Two consequences in the record follow from ω alone:
 
-- **Unimodularity.** The compatibility theorem's [corollary det H = 1](/wiki/phase-space/born-geometry/compatibility-corollaries) is, in the [Debt-1 note](/wiki/history/documents/debt-1-notes)'s words, "the geometric face of ℏ-rigidity" (#5 §F). #11 §5 adds that det H = 1 "persists across the whole modular family of §6" and marks this as machine-verified; the battery's test T2 checks det H_Z = 1 for one randomly sampled member of the family (`verify/battery.py`; [the verification battery](/wiki/method/verification/battery)), so the statement for the whole family is [D], not [V].
+- **Unimodularity.** The compatibility theorem's [corollary det H = 1](/wiki/phase-space/born-geometry/compatibility-corollaries) is, in the [field-equation note](/wiki/history/documents/field-equation-notes)'s words, "the geometric face of ℏ-rigidity" (#5 §F). #11 §5 adds that det H = 1 "persists across the whole modular family of §6" and marks this as machine-verified; the battery's test T2 checks det H_Z = 1 for one randomly sampled member of the family (`verify/battery.py`; [the verification battery](/wiki/method/verification/battery)), so the statement for the whole family is [D], not [V].
 - **The cosmological constraint.** "ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run)" [D] (#11 §10), where a and ã are the scale factors of position space and momentum space ([the cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint)).
 
 ## What is emergent: η as the order parameter
 
 ### The construction
 
-The Debt-1 note gives the repair in one sentence: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ" (#5 §B). In order:
+The field-equation note gives the repair in one sentence: "the fundamental pair is (ω, H); the derived complex structure is I = ω⁻¹H; the vacuum spontaneously selects a real structure J (an involution anticommuting with I), and η ≡ HJ" (#5 §B). In order:
 
 1. The fundamental structures are ω, which is rigid, and the generalized metric H, which is dynamical.
 2. From them comes the complex structure I = ω⁻¹H, with I² = −1, a quarter-turn of phase space.
@@ -71,7 +71,7 @@ So η is no longer an input. It is built from the dynamical H and the vacuum's J
 
 ### Why η is an order parameter
 
-In [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) the laws are symmetric but the ground state is not, and an order parameter is a quantity that the symmetry would change and that takes a definite value in the ground state, as magnetization does in a magnet [T]. At the standard forms of the structures, the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity) ρ: (x, p) → (p, −x) leaves ω and H alone but not η. The [lab notebook](/wiki/history/documents/lab-notebook) found that it "preserves ω (it is symplectic), preserves H (it is orthogonal), and **flips the sign of η**, hence flips J and K while preserving I. **[D]**" (#1 §2). A vacuum with a definite η is therefore carried by ρ to a different vacuum, with −η. Under P2′ the Debt-1 note reads the sign flip this way: "the earlier observation that reciprocity flips η now reads correctly as *the broken symmetry moving the order parameter*" (#5 §B). The note calls the assignment "philosophically right" as well, since η "is the structure that says which directions are position", and on this reading the vacuum state, not the background, fixes those directions (#5 §B). See [the order parameter](/wiki/symmetry-breaking/order-parameter).
+In [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking) the laws are symmetric but the ground state is not, and an order parameter is a quantity that the symmetry would change and that takes a definite value in the ground state, as magnetization does in a magnet [T]. At the standard forms of the structures, the [Born rotation](/wiki/phase-space/reciprocity/born-reciprocity) ρ: (x, p) → (p, −x) leaves ω and H alone but not η. The [lab notebook](/wiki/history/documents/lab-notebook) found that it "preserves ω (it is symplectic), preserves H (it is orthogonal), and **flips the sign of η**, hence flips J and K while preserving I. **[D]**" (#1 §2). A vacuum with a definite η is therefore carried by ρ to a different vacuum, with −η. Under P2′ the field-equation note reads the sign flip this way: "the earlier observation that reciprocity flips η now reads correctly as *the broken symmetry moving the order parameter*" (#5 §B). The note calls the assignment "philosophically right" as well, since η "is the structure that says which directions are position", and on this reading the vacuum state, not the background, fixes those directions (#5 §B). See [the order parameter](/wiki/symmetry-breaking/order-parameter).
 
 ### The space of vacua
 
@@ -125,13 +125,13 @@ Model I has a second symmetry besides Sp(2, ℝ): "There is a separate ℤ₂, K
 
 ## Notation: J or K
 
-The sources do not agree on which real structure to name. #11 §4 names J as "the real structure J chosen spontaneously", with η = HJ, as in the Debt-1 note and the lab notebook's v0.3 addendum. #11 §5 defines both, J = η⁻¹H and K = η⁻¹ω. The toy-model note and #11 §14 item 11 call K the real structure, with η = ωK, "K a real structure, K² = 1" (toy note abstract) and Kᵀ ω K = −ω (toy note §1). The lab notebook's v0.1 called J = η⁻¹H the order parameter (#1 §2). No source reconciles the names; this page quotes each in its own notation. The [order-parameter](/wiki/symmetry-breaking/order-parameter) page writes K for the real structure, as the toy-model note does.
+The sources do not agree on which real structure to name. #11 §4 names J as "the real structure J chosen spontaneously", with η = HJ, as in the field-equation note and the lab notebook's v0.3 addendum. #11 §5 defines both, J = η⁻¹H and K = η⁻¹ω. The toy-model note and #11 §14 item 11 call K the real structure, with η = ωK, "K a real structure, K² = 1" (toy note abstract) and Kᵀ ω K = −ω (toy note §1). The lab notebook's v0.1 called J = η⁻¹H the order parameter (#1 §2). No source reconciles the names; this page quotes each in its own notation. The [order-parameter](/wiki/symmetry-breaking/order-parameter) page writes K for the real structure, as the toy-model note does.
 
 ## Open: the extra structure the refinement needs
 
 The refinement says what a definite polarization needs; it does not say where that comes from.
 
-- **The potential's origin.** No derivation of the ρ-preserving potential exists. #11 §14 item 11 lists "a derivation of the potential" as still open [O], the toy-model note lists "a derivation of the ρ-preserving potential, which introduces a rigid, unordered pair of axes" under "Not shown" (§6), and `CLAUDE.md` names it as an open end. Before the toy models, the Debt-1 note had listed "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" as open (#5 §F). The lab notebook's v0.1 had attributed the potential's existence to "the explicit breaking of Grassmannian rotations by the rigid ω (P2)" (#1 §3); the current position is the refinement's, that ω alone leaves the angle free and a definite polarization needs "more structure than ω alone" (#11 §4). See [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
+- **The potential's origin.** No derivation of the ρ-preserving potential exists. #11 §14 item 11 lists "a derivation of the potential" as still open [O], the toy-model note lists "a derivation of the ρ-preserving potential, which introduces a rigid, unordered pair of axes" under "Not shown" (§6), and `CLAUDE.md` names it as an open end. Before the toy models, the field-equation note had listed "the origin of τ's potential under P2′ (what explicitly breaks Λ(d) rotations — candidate: the section choice itself, or matter loops)" as open (#5 §F). The lab notebook's v0.1 had attributed the potential's existence to "the explicit breaking of Grassmannian rotations by the rigid ω (P2)" (#1 §3); the current position is the refinement's, that ω alone leaves the angle free and a definite polarization needs "more structure than ω alone" (#11 §4). See [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential).
 - **The unreduced model.** [The ordered phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) has been simulated only with [H frozen](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction); "a Monte Carlo with H dynamical" is open (#11 §14 item 11; [Open: a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo)). So is "whether ρ's SO(2) breaks in the coupled model without a potential" (toy note §6; [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question)).
 - **Beyond the toy.** Everything above is for d = 1; "anything beyond d = 1" is listed as not shown (toy note §6).
 
@@ -140,7 +140,7 @@ These items are registered in [open problems](/wiki/status/open-problems).
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §4 — the statement, the forced correction, the credit and the v2.2 refinement; §5 — the definitions of J and K and the det H = 1 corollary; §6 — the Siegel domain under P2′; §10 — τ's circle and "None of this tests the cosmology"; §14 item 11 — what is still open
-- `notes/debt1a-geometric-core.md` §B — the repair as derived: the pair (ω, H), the real structure J, Λ(d), and the order-parameter reading; §C — the modular field; §F — unimodularity as the face of ℏ-rigidity, and the potential's origin as open
+- `notes/geometric-core.md` §B — the repair as derived: the pair (ω, H), the real structure J, Λ(d), and the order-parameter reading; §C — the modular field; §F — unimodularity as the face of ℏ-rigidity, and the potential's origin as open
 - `notes/broken-born-theory.md` §1 — the original P2's reading of ω; §2 — how ρ acts on ω, η and H, and the dimension of Λ(d); §3 — the v0.1 attribution of the potential to the rigid ω; 'Addendum (v0.3)' — the axiom correction as first recorded
 - `notes/broken-born-program-v1.md` §2 — the v1 statement
 - `papers/reciprocity-toy-models.md` Abstract, §1 — K, η = ωK and the prior work; §2 — model I's vacua, Goldstone directions and twisted element; §4 — Mermin–Wagner, the naive and bounded potentials; §6 — what is not shown

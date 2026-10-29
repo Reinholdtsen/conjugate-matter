@@ -79,7 +79,7 @@ print("== injection test (corner/injection_test.out): smallest injected fraction
 print("  smallest injected fraction = 0.02; 2% stream: Xi(v*/2) 0.0852 -> 0.0396, S1 -0.0485 -> -0.0535, "
       "S2 0.1982 -> 0.2858 (dS2 = +0.088); control dS2 errors 0.04-0.11 (summary_numbers.out)")
 
-print("== Debt 3a narrow-gate overstatement (critic3 c3 2.9e-31; linearized 8.7e-31)")
+print("== calc note #2 narrow-gate overstatement (critic3 c3 2.9e-31; linearized 8.7e-31)")
 print(f"  8.7e-31/2.9e-31 = {8.7e-31/2.9e-31:.2f}")
 
 print("== cores (VDD/VDN sigma_T/m = 2.369e-62 cm^2/g at G~ = G; need 30 cm^2/g; sigma ~ G~^2)")

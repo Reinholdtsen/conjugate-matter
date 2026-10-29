@@ -1,6 +1,6 @@
 # Broken-Born Program — Handoff to Claude Code
 
-**Purpose of this document.** Everything a fresh Claude Code session needs to continue this project. Read this first; the artifacts listed in §3 travel with it. It is self-sufficient — nothing essential lives only in the originating chat session or in claude.ai memory. (A running ledger also exists at memory path `/areas/conjugate-matter-hypothesis.md` on claude.ai surfaces; if that memory store is visible to you, it corroborates but adds nothing critical beyond this document.)
+**Purpose of this document.** Everything a fresh Claude Code session needs to continue this project. Read this first; the artifacts listed in §3 travel with it. It is self-sufficient — nothing essential lives only in the originating chat session or in claude.ai memory. (A running log also exists at memory path `/areas/conjugate-matter-hypothesis.md` on claude.ai surfaces; if that memory store is visible to you, it corroborates but adds nothing critical beyond this document.)
 
 ---
 
@@ -18,7 +18,7 @@
 - P2′ correction: strict rigidity trivializes the theory (nontriviality theorem); η must be emergent
 - Modular field Z = X + iY on Siegel domain Sp(2d,R)/U(d); Im Z = metric, Re Z = X = momentum graviton; reciprocity = Z → −1/Z; a·ã = 1 is the |Z|=1 locus; dark energy τ = Maslov phase of the Shilov boundary Λ(4) ✓ (parametrization identities)
 - X is forced massive: shift symmetry ⇒ never auxiliary; δX = ∂λ ⇒ second graviton; massless excluded (Boulanger–Damour–Gualtieri–Henneaux no-go); mass via Higgsed dual diffeomorphisms. Geometric sector = interchange-symmetric (palindromic βₙ = β₄₋ₙ) Hassan–Rosen bimetric, second frame confined to compact Λ(4)
-- Palindrome/Λ theorem: V(1) = 2T exactly ⇒ flat aligned vacuum forces wedge-sector vacuum energy = 0 ✓ (integer identity [2,8,6] = 2·[1,4,3]). Novelty DOWNGRADED after literature check: the partially-massless (PM) bimetric point (arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still owed.
+- Palindrome/Λ theorem: V(1) = 2T exactly ⇒ flat aligned vacuum forces wedge-sector vacuum energy = 0 ✓ (integer identity [2,8,6] = 2·[1,4,3]). Novelty DOWNGRADED after literature check: the partially-massless (PM) bimetric point (arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still to do.
 - Metric-tier Higgs potentials fail Fierz–Pauli (m²Tr h², no −(Tr h)² ✓; Tr(g²)+Tr(g⁻²) outside HR span ✓); frame-tier (vielbein wedge, Hinterbichler–Rosen class) passes — "passes iff formulated in first-order variables"
 - Cosmology: duality dictionary w_eff = −w̃ (corrected from an earlier wrong −2−w̃); τ = hilltop/axion quintessence on the Maslov circle; thawing, w ≥ −1 always, eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions). Consistent with DESI DR1/DR2 drift hints.
 - Dark matter sector: gated self-interaction (gate = X-exchange; gate variable = incoming relative momentum; μ = χ's momentum-fiber width); knee at v*; knee-tail shape = particle-vs-wave "island discriminant" (new observable)
@@ -47,14 +47,14 @@
 
 | # | File | Status | What it is |
 |---|------|--------|------------|
-| 1 | `broken-born-theory.md` | v0.6 — superseded as reference, KEEP for audit trail | Original rigorous formalization (postulates, action, predictions table) plus addenda v0.2–v0.6 recording each debt payment and correction in sequence. The program's lab notebook. |
-| 2 | `debt3a-stream-stability.md` | final | Calc note: Vlasov stability of the gated interaction; instability criterion; fails by 10²⁸–10³¹ at benchmark; classicality theorem (collective behavior ⇒ wave DM, m ≲ 0.1 meV) |
-| 3 | `debt3b-wave-island.md` | final | Calc note: gated wave-kinetic condensation rate; island discriminant (exponential vs (v*/σ)⁴); Scenario A mandatory only in ultra-faint dwarfs; Scenario B tunable; misalignment fixes relic debt |
-| 4 | `debt3c-ufd-endpoint.md` | final — closes Debt 3 (negative) | Calc note: Segue 1 endpoint; bosenova drain; Scenario A falsified; net theorem "velocity clumping nowhere mandatory" |
-| 5 | `debt1a-geometric-core.md` | final | Calc note: compatibility theorem proof; P2→P2′ inconsistency + repair; Siegel/modular field identification; gate mechanism = X-exchange (pays Debt 2's mechanism) |
-| 6 | `debt1a-ii-X-classification.md` | final | Calc note: shift symmetry; X = second graviton; massless/ungauged excluded; massive spin-2 via Higgsed dual diffs; "symplectic partner of the graviton is another graviton" |
-| 7 | `debt1a-iii-tuning-test.md` | final | Calc note: {J,I[Z]} blocks computed; metric tier fails FP twice; frame tier (HR wedge class) passes; constrained-bimetric picture |
-| 8 | `debt1a-iv-beta-coefficients.md` | final — closes Debt 1 (structural) | Calc note: palindrome βₙ = β₄₋ₙ; V(1) = 2T ⇒ Λ_wedge = 0; parameters 5→2; spectrum/parities |
+| 1 | `broken-born-theory.md` | v0.6 — superseded as reference, KEEP for audit trail | Original rigorous formalization (postulates, action, predictions table) plus addenda v0.2–v0.6 recording each result and correction in sequence. The program's lab notebook. |
+| 2 | `stream-stability.md` | final | Calc note: Vlasov stability of the gated interaction; instability criterion; fails by 10²⁸–10³¹ at benchmark; classicality theorem (collective behavior ⇒ wave DM, m ≲ 0.1 meV) |
+| 3 | `wave-island.md` | final | Calc note: gated wave-kinetic condensation rate; island discriminant (exponential vs (v*/σ)⁴); Scenario A mandatory only in ultra-faint dwarfs; Scenario B tunable; misalignment fixes the relic abundance |
+| 4 | `ufd-endpoint.md` | final — closes the clumping problem (negative) | Calc note: Segue 1 endpoint; bosenova drain; Scenario A falsified; net theorem "velocity clumping nowhere mandatory" |
+| 5 | `geometric-core.md` | final | Calc note: compatibility theorem proof; P2→P2′ inconsistency + repair; Siegel/modular field identification; gate mechanism = X-exchange (finds the gate's mechanism) |
+| 6 | `x-classification.md` | final | Calc note: shift symmetry; X = second graviton; massless/ungauged excluded; massive spin-2 via Higgsed dual diffs; "symplectic partner of the graviton is another graviton" |
+| 7 | `tuning-test.md` | final | Calc note: {J,I[Z]} blocks computed; metric tier fails FP twice; frame tier (HR wedge class) passes; constrained-bimetric picture |
+| 8 | `beta-coefficients.md` | final — closes the field-equation problem (structural) | Calc note: palindrome βₙ = β₄₋ₙ; V(1) = 2T ⇒ Λ_wedge = 0; parameters 5→2; spectrum/parities |
 | 9 | `broken-born-program-v1.md` | v1.0 — superseded by #11 | First paper-shaped consolidation; lay passage opening every section; tag system [D]/[T]/[P]/[O] |
 | 10 | `angle-of-the-mirror.md` | final (journey article) | Pop-sci #1: narrative of the program including the deaths. Register note: "independent developer" (NOT "retired"). |
 | 11 | `broken-born-checkpoint-v2.md` | **v2.0 — CURRENT REFERENCE for the full program** | Supersedes #1 and #9. Adds: methodological preface + 7-test machine-verification battery; charge-lattice §11; dark-sector trilemma §12; 25 references flagged † (memory — verify) vs [S] (live-searched); PM/Hossenfelder novelty downgrade; Appendix A supposition audit (11 items with fates) |
@@ -73,7 +73,7 @@ Paul also holds two referee-report text files (round 1 and round 2 outputs of #1
 - **√N topological floor** argument against the Sommerfeld catastrophe (open item #2 above).
 - **Two gravitational charges:** ordinary stress-energy (sources massless graviton) vs dual stress "how energy is structured across momentum" (sources X); independent numbers; equivalence principle intact; whether invariant length λ and dual charge lock together = "dual equivalence principle" open question.
 - **GR-vs-conjugate equation comparison:** slaved layer g̃ = g⁻¹ is algebraic (Einstein's equation does double duty); dual Newtonian limit = Yukawa in momentum = the gate; X-waves massive, 5 polarizations, frequency floor.
-- **Momentum-space black holes:** velocity traps; our horizon read in dual ledger = max-force surface (hovering at horizon requires F → c⁴/G); dual Hawking quanta are position-space-huge. Conjecture tier; partially in #12.
+- **Momentum-space black holes:** velocity traps; our horizon read in dual description = max-force surface (hovering at horizon requires F → c⁴/G); dual Hawking quanta are position-space-huge. Conjecture tier; partially in #12.
 - **Full adjudications of review rounds 1–2** with executed arbitration code (summarized in §6).
 
 ## 5. Verification protocol (the method — keep using it)

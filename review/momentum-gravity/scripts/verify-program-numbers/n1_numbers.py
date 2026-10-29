@@ -37,7 +37,7 @@ m_chi_kg = m_chi_eV * eV / c**2
 Gm2 = G * m_chi_kg**2 / (hbar * c)   # dimensionless gravitational coupling
 print(f"G m_chi^2/(hbar c) = {Gm2:.4e} ; 1/that = {1/Gm2:.4e}  (alpha~ = 1)")
 print(f"range hbar/(m_chi c) = {hbar/(m_chi_kg*c):.4e} m")
-# Debt 3a coupling and shortfall, recomputed in SI then converted
+# Calc note #2 coupling and shortfall, recomputed in SI then converted
 sig0_over_m = 30e-4 / 1e-3        # 30 cm^2/g -> m^2/kg
 sig0 = sig0_over_m * m_chi_kg     # m^2
 print(f"sigma0 = {sig0*1e4:.4e} cm^2")

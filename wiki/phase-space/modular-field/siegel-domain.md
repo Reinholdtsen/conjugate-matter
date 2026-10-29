@@ -5,15 +5,15 @@ status: established
 description: "Symmetric complex matrices Z = X + iY with positive-definite Y, moved by fractional-linear (Möbius) maps: the space of all positive phase-space metrics compatible with a fixed symplectic form, its H_Z parametrization, and battery test T2."
 provenance: [D, V]
 sources:
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
   - "verify/battery.py T2"
   - "HANDOFF.md §5"
   - "HANDOFF.md §8"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §3"
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
@@ -26,7 +26,7 @@ sources:
 
 *The Siegel domain is the space of complex symmetric d × d matrices Z = X + iY whose imaginary part Y is positive definite. For a single coordinate (d = 1) it is the upper half of the complex plane; for larger d it is the matrix version of that half-plane. Each point Z names exactly one positive phase-space metric H_Z that is compatible with a fixed [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, and every such metric has a point, so the domain is the space of all of them. The symplectic group moves its points by fractional-linear (Möbius) maps, the matrix versions of z → (αz + β)/(γz + δ). The program uses the domain as the arena of [the modular field](/wiki/phase-space/modular-field/modular-field-z) once only ω is held rigid. The space and its parametrization are standard mathematics, and battery test T2 checks the parametrization's identities at one sampled point.*
 
-**Status:** Established — standard mathematics ([calc note #5](/wiki/history/documents/debt-1-notes) heads its section "[D — structural; math facts standard]"); the parametrization identities are machine-checked [V] at one sampled point at d = 4 (battery test T2; [the verification battery](/wiki/method/verification/battery)) and symbolically at d = 1 (`verify/toy_coset.py`).
+**Status:** Established — standard mathematics ([calc note #5](/wiki/history/documents/field-equation-notes) heads its section "[D — structural; math facts standard]"); the parametrization identities are machine-checked [V] at one sampled point at d = 4 (battery test T2; [the verification battery](/wiki/method/verification/battery)) and symbolically at d = 1 (`verify/toy_coset.py`).
 
 ## What the domain is
 
@@ -170,12 +170,12 @@ The program's documents cite no reference for these facts: #5 marks them "[stand
 
 ## Sources
 
-- `notes/debt1a-geometric-core.md` §C — the Siegel domain of ω-compatible metrics and H_Z; "[D — structural; math facts standard]"; the boundary fact "[standard]".
-- `notes/debt1a-geometric-core.md` §D — the positive Siegel target metric.
-- `notes/debt1a-iii-tuning-test.md` §2, §3 — I[Z] in "the verified Siegel parametrization"; the symplectic vielbein H = EᵀE.
+- `notes/geometric-core.md` §C — the Siegel domain of ω-compatible metrics and H_Z; "[D — structural; math facts standard]"; the boundary fact "[standard]".
+- `notes/geometric-core.md` §D — the positive Siegel target metric.
+- `notes/tuning-test.md` §2, §3 — I[Z] in "the verified Siegel parametrization"; the symplectic vielbein H = EᵀE.
 - `verify/battery.py` T2 — the four identities at one sampled point (d = 4, seed 0).
 - `HANDOFF.md` §5, §8 — T2 described as an off-vacuum check; the toy queued "on the Siegel disk".
-- `notes/debt1a-ii-X-classification.md` §1, §3 — the translations Z → Z + B; the Lorentzian stabilizer U(1, d−1) and the indefinite target metric.
+- `notes/x-classification.md` §1, §3 — the translations Z → Z + B; the Lorentzian stabilizer U(1, d−1) and the indefinite target metric.
 - `papers/broken-born-checkpoint-v2.md` §6 — "the standard generalized metric"; Λ(d) as the Shilov boundary [T].
 - `papers/broken-born-checkpoint-v2.md` §2, §5 — the battery's description of T2; det H = 1 "across the whole modular family".
 - `papers/reciprocity-toy-models.md` §2, §4 — the d = 1 case in model I; the hyperbolic half-plane sector.

@@ -5,9 +5,9 @@ status: alive
 description: "Five βₙ reduce to two (the Fierz–Pauli mass and one cubic shape); the massless graviton is the reciprocity-even combination and X the odd one, with equal Planck masses forced and reciprocity a vertex selection rule."
 provenance: [D]
 sources:
-  - "notes/debt1a-iv-beta-coefficients.md §3"
-  - "notes/debt1a-iv-beta-coefficients.md §1"
-  - "notes/debt1a-iv-beta-coefficients.md §2"
+  - "notes/beta-coefficients.md §3"
+  - "notes/beta-coefficients.md §1"
+  - "notes/beta-coefficients.md §2"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §7.3"
   - "papers/broken-born-checkpoint-v2.md §6"
@@ -16,10 +16,10 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "verify/battery.py T5"
   - "verify/battery.py T6"
-  - "notes/debt1a-iii-tuning-test.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iii-tuning-test.md §5"
-  - "notes/debt1a-ii-X-classification.md §3"
+  - "notes/tuning-test.md §3"
+  - "notes/tuning-test.md §4"
+  - "notes/tuning-test.md §5"
+  - "notes/x-classification.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.5)'"
   - "notes/broken-born-theory.md 'Addendum (v0.6)'"
   - "notes/broken-born-program-v1.md §5"
@@ -36,7 +36,7 @@ sources:
 
 *The potential that gives the [momentum graviton X](/wiki/gravity/momentum-graviton) its mass is a bimetric potential with five coefficients, and this page covers what is left of it once [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) has acted, and how the program's two spin-2 fields sort under reciprocity. The [palindrome](/wiki/gravity/palindromic-branch/palindrome) removes two coefficients and the requirement of a flat vacuum removes a third, leaving two numbers: one sets X's mass M_X, the other shapes its cubic interactions. Reciprocity exchanges the two spin-2 frames of the theory, so the fields of definite mass are their sum, which the exchange leaves unchanged and which is the ordinary massless graviton, and their difference, which changes sign and is the massive X. The same symmetry forces the two frames to have [equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector), a statement of calc note #8 §3 that #11 does not repeat. The count and the parities are derivations [D] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.5, not machine-checked, and the masslessness of the even combination is prediction [row 6](/wiki/predictions/massless-graviton).*
 
-**Status:** Alive — [D] in #11 §7.5; [D + T] in [calc note #8](/wiki/history/documents/debt-1-notes) (`notes/debt1a-iv-beta-coefficients.md` §3) — derivations only: no battery test covers the parameter count, the m_FP² combination or the parities. The machine-checked inputs are [the identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) used in the second reduction step and the coefficients that define T (battery tests T5 and T6, [the verification battery](/wiki/method/verification/battery)). Tested observationally by [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton).
+**Status:** Alive — [D] in #11 §7.5; [D + T] in [calc note #8](/wiki/history/documents/field-equation-notes) (`notes/beta-coefficients.md` §3) — derivations only: no battery test covers the parameter count, the m_FP² combination or the parities. The machine-checked inputs are [the identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) used in the second reduction step and the coefficients that define T (battery tests T5 and T6, [the verification battery](/wiki/method/verification/battery)). Tested observationally by [Row 6: the exactly massless graviton](/wiki/predictions/massless-graviton).
 
 ## The potential and its five coefficients
 
@@ -149,11 +149,11 @@ Calc note #8 §3 replaced that reading. With the eigenstates fixed by parity, th
 
 ## Sources
 
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the count, the parities, the equal Planck masses and the selection rule [D + T]; §1 — the potential, the frames e and f and the palindrome; §2 — the tadpole and the identity V(1) = 2T
+- `notes/beta-coefficients.md` §3 — the count, the parities, the equal Planck masses and the selection rule [D + T]; §1 — the potential, the frames e and f and the palindrome; §2 — the tadpole and the identity V(1) = 2T
 - `papers/broken-born-checkpoint-v2.md` §7.5 — the current statement [D]; §7.3 — the palindrome and the identity; §6 — reciprocity as Z → −Z⁻¹; §7.4 — the point β₀ = −4β₁ − 3β₂; §13 — row 6; §15 — the predictions counted as not previously posed
 - `verify/battery.py` T5 — the identity V(1) = 2T in exact integers; T6 — the linearization coefficients C(3, n−1)
-- `notes/debt1a-iii-tuning-test.md` §3 — the coefficients left open by the tuning test; §4 — the standard bimetric facts and the mixing-angle reading; §5 — the graviton-mass parametrics as a remaining check
-- `notes/debt1a-ii-X-classification.md` §3 — M_X as the polarization-breaking scale
+- `notes/tuning-test.md` §3 — the coefficients left open by the tuning test; §4 — the standard bimetric facts and the mixing-angle reading; §5 — the graviton-mass parametrics as a remaining check
+- `notes/x-classification.md` §3 — M_X as the polarization-breaking scale
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the logged checks; 'Addendum (v0.6)' — the lab notebook's summary of the spectrum
 - `notes/broken-born-program-v1.md` §5, §9, §11 — the superseded v1 statement, its row 6 and its assessment
 - `review/v3-worklog.md` 'Round-2 pending list' — item R7: the Planck masses written M_g and M_f, and the stable heavy-spin-2 regime at M_f ≪ M_g

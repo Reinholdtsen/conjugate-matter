@@ -2,19 +2,19 @@
 title: "Open: field content of the broken vacuum"
 weight: 60
 status: open
-description: "The graviton, the momentum graviton X, the ten moduli of Λ(d) and matter: the Debt-1 notes resolved X as a massive spin-2 field, but whether inverse-Higgs constraints remove the nine non-Maslov moduli was never worked out."
+description: "The graviton, the momentum graviton X, the ten moduli of Λ(d) and matter: the field-equation notes resolved X as a massive spin-2 field, but whether inverse-Higgs constraints remove the nine non-Maslov moduli was never worked out."
 provenance: [O]
 sources:
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §4"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §E"
+  - "notes/geometric-core.md §F"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §4"
+  - "notes/x-classification.md §5"
+  - "notes/tuning-test.md §4"
+  - "notes/beta-coefficients.md §3"
   - "notes/broken-born-theory.md §2"
   - "notes/broken-born-theory.md §8"
   - "papers/broken-born-checkpoint-v2.md §4"
@@ -27,7 +27,7 @@ sources:
   - "notes/gate-mechanism.md §2"
 ---
 
-*The field content of the broken vacuum is the list of fields that the program's geometry leaves in play once the vacuum has chosen a polarization: the ordinary metric, [the momentum graviton X](/wiki/gravity/momentum-graviton), the ten moduli of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) (the dark-energy field τ plus nine more), and matter. [Calc note #5](/wiki/history/documents/debt-1-notes) wrote the list down and marked it partial. The later Debt-1 notes settled what X is: a massive spin-2 field. Whether the nine extra moduli survive as fields, or are removed by [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints) (relations that turn some Goldstone-type fields into derivatives of others), was never worked out. The question is open, and it is not on the [checkpoint](/wiki/history/documents/checkpoint)'s numbered list of open problems.*
+*The field content of the broken vacuum is the list of fields that the program's geometry leaves in play once the vacuum has chosen a polarization: the ordinary metric, [the momentum graviton X](/wiki/gravity/momentum-graviton), the ten moduli of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) (the dark-energy field τ plus nine more), and matter. [Calc note #5](/wiki/history/documents/field-equation-notes) wrote the list down and marked it partial. The later field-equation notes settled what X is: a massive spin-2 field. Whether the nine extra moduli survive as fields, or are removed by [inverse-Higgs constraints](/wiki/symmetry-breaking/inverse-higgs-constraints) (relations that turn some Goldstone-type fields into derivatives of others), was never worked out. The question is open, and it is not on the [checkpoint](/wiki/history/documents/checkpoint)'s numbered list of open problems.*
 
 **Status:** Open [O] — calc note #5 §D and §F item 4; not carried into #11 §14 or into [the handoff](/wiki/history/documents/handoff)'s open list — the X part was resolved by calc note #6 (a massive spin-2 field); the count of surviving moduli has not been computed ([open problems and the queue](/wiki/status/open-problems)).
 
@@ -102,11 +102,11 @@ The first sign belongs to positive (Euclidean) metrics. With a Lorentzian metric
 
 ## Sources
 
-- `notes/debt1a-geometric-core.md` §D — the field content, the nine moduli, the three-way classification and the signs of health.
-- `notes/debt1a-geometric-core.md` §E, §F — the gate's cheapest route through outcome 2; item 3, the origin of τ's potential; item 4, the inverse-Higgs accounting.
-- `notes/debt1a-ii-X-classification.md` §1, §2, §3, §4, §5 — the auxiliary outcome excluded; the massless option excluded by the no-go; X a massive spin-2 field with five polarizations; the moduli not eaten; the Lorentzian caveat; the gate from integrating out massive X; the resolved classification.
-- `notes/debt1a-iii-tuning-test.md` §4 — the ten compact moduli carried by J.
-- `notes/debt1a-iv-beta-coefficients.md` §3 — the eaten modes in #8's wording; τ survives; parity of the two tensors.
+- `notes/geometric-core.md` §D — the field content, the nine moduli, the three-way classification and the signs of health.
+- `notes/geometric-core.md` §E, §F — the gate's cheapest route through outcome 2; item 3, the origin of τ's potential; item 4, the inverse-Higgs accounting.
+- `notes/x-classification.md` §1, §2, §3, §4, §5 — the auxiliary outcome excluded; the massless option excluded by the no-go; X a massive spin-2 field with five polarizations; the moduli not eaten; the Lorentzian caveat; the gate from integrating out massive X; the resolved classification.
+- `notes/tuning-test.md` §4 — the ten compact moduli carried by J.
+- `notes/beta-coefficients.md` §3 — the eaten modes in #8's wording; τ survives; parity of the two tensors.
 - `notes/broken-born-theory.md` §2, §8 — τ the lightest modulus [P]; the polarization-genesis sketch.
 - `papers/broken-born-checkpoint-v2.md` §4, §7, §14 — P4's polarized matter; X's chain and spectrum; the current open list, which does not carry this item.
 - `papers/reciprocity-toy-models.md` §2 — Λ(1) in model I.

@@ -10,9 +10,9 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §14 item 3"
   - "papers/broken-born-checkpoint-v2.md §15"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iii-tuning-test.md §5"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/tuning-test.md §5"
   - "HANDOFF.md §2"
   - "HANDOFF.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
@@ -23,7 +23,7 @@ sources:
   - "review/wiki-build-flags.md item 44"
 ---
 
-*The signature obstruction is the standard result that a symmetric tensor field in spacetime, such as the perturbation h_μν of the metric, has no [ghost-free](/wiki/gravity/spin-2-fields/ghosts) kinetic term with two derivatives unless that kinetic term has the gauge symmetry of the massless graviton. A ghost is a mode whose energy has the wrong sign. The obstruction comes from the signature of spacetime, in which time enters with the opposite sign to space: in a contraction such as h_μν h^μν the components h₀ᵢ, with one time index and one space index, enter with the opposite sign to the others, and in the simplest kinetic term built from such contractions that sign becomes the sign of their kinetic energy. The gauge symmetry avoids the problem by keeping those components from propagating: the kinetic term of linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity) contains no time derivatives of h₀₀ and h₀ᵢ, which are constrained rather than propagated. The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) theory of a massive spin-2 field keeps that kinetic term and breaks the symmetry only through its mass term. The program uses the result to close one option for its second symmetric tensor, the [momentum graviton X](/wiki/gravity/momentum-graviton): without its gauge symmetry X would carry a ghost, and with the symmetry unbroken X would be a second massless graviton interacting with the metric, which [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go) excludes, so X must have a mass. [Calc note #6](/wiki/history/documents/debt-1-notes) tags the statement as standard literature without citing a source, and no script checks it.*
+*The signature obstruction is the standard result that a symmetric tensor field in spacetime, such as the perturbation h_μν of the metric, has no [ghost-free](/wiki/gravity/spin-2-fields/ghosts) kinetic term with two derivatives unless that kinetic term has the gauge symmetry of the massless graviton. A ghost is a mode whose energy has the wrong sign. The obstruction comes from the signature of spacetime, in which time enters with the opposite sign to space: in a contraction such as h_μν h^μν the components h₀ᵢ, with one time index and one space index, enter with the opposite sign to the others, and in the simplest kinetic term built from such contractions that sign becomes the sign of their kinetic energy. The gauge symmetry avoids the problem by keeping those components from propagating: the kinetic term of linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity) contains no time derivatives of h₀₀ and h₀ᵢ, which are constrained rather than propagated. The [Fierz–Pauli](/wiki/gravity/spin-2-fields/fierz-pauli) theory of a massive spin-2 field keeps that kinetic term and breaks the symmetry only through its mass term. The program uses the result to close one option for its second symmetric tensor, the [momentum graviton X](/wiki/gravity/momentum-graviton): without its gauge symmetry X would carry a ghost, and with the symmetry unbroken X would be a second massless graviton interacting with the metric, which [the multi-graviton no-go theorem](/wiki/gravity/spin-2-fields/multi-graviton-no-go) excludes, so X must have a mass. [Calc note #6](/wiki/history/documents/field-equation-notes) tags the statement as standard literature without citing a source, and no script checks it.*
 
 **Status:** Established — [T — standard], the tag of calc note #6 §2, which cites no source. The explanation on this page is written from general knowledge [T], and the references it adds are from model memory (†). No `verify/` script checks the statement. The program applies it to X in a chain tagged [D + T] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.1, and no test of [the verification battery](/wiki/method/verification/battery) covers that chain.
 
@@ -154,8 +154,8 @@ The program's documents cite no source for the statement. Added by the wiki from
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §7.1 — "ungauged X by Lorentz signature", in the chain [D + T]; §1 — "a signature obstruction" in the technical abstract; §2 — the exclusions of §7.1 among the Tier-3 negative results; §14 item 3 — the Lorentzian dressing [O]; §15 — "four consecutive consistency tests".
-- `notes/debt1a-ii-X-classification.md` §2 — the statement [T — standard], the second copy of linearized diffeomorphisms, the two facts and "Therefore X must be massive"; §3 — the mass that cannot be written by hand, the five polarizations, and the signature caveat.
-- `notes/debt1a-iii-tuning-test.md` §5 — the name, in the three structural tests.
+- `notes/x-classification.md` §2 — the statement [T — standard], the second copy of linearized diffeomorphisms, the two facts and "Therefore X must be massive"; §3 — the mass that cannot be written by hand, the five polarizations, and the signature caveat.
+- `notes/tuning-test.md` §5 — the name, in the three structural tests.
 - `HANDOFF.md` §2 — "X is forced massive", without a ✓ and without this step; §3 — "massless/ungauged excluded" in the inventory entry for #6.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "the ghost-free no-gauge option is excluded by Lorentz signature".
 - `notes/broken-born-program-v1.md` §0 — "a signature obstruction" in the abstract's chain of structural theorems; §5 — "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)"; §11 — the four tests of v1, without this one (superseded as reference).

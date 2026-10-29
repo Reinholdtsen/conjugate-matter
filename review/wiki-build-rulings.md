@@ -28,8 +28,8 @@ Several proposals edit #11; one version bump, to v2.3, can carry them all.
 A rejected flag is recorded as rejected in `review/wiki-build-flags.md`, and its pointers in the
 wiki stay. Nothing in the sources changes until Paul rules.
 
-**Reading the entries.** Document numbers are HANDOFF §3's: #1 the lab notebook, #2–#4 the Debt-3
-calc notes, #5–#8 the Debt-1 calc notes, #9 the superseded program paper (v1), #10 and #12 the
+**Reading the entries.** Document numbers are HANDOFF §3's: #1 the lab notebook, #2–#4 the clumping problem
+calc notes, #5–#8 the field-equation calc notes, #9 the superseded program paper (v1), #10 and #12 the
 popular articles, #11 the checkpoint, #13 conjugate special relativity, #14 the withdrawn knot
 dark-matter note. The toy note is `papers/reciprocity-toy-models.md` and the toy worklog
 `notes/toy-lagrangian.md`; the adjudications, the round-3 pre-registration and the round-4
@@ -120,7 +120,7 @@ entries below keep this order.
   - `papers/broken-born-checkpoint-v2.md` line 206 (§15, the over-constraint as a progressive sign)
   - `papers/broken-born-checkpoint-v2.md` line 218 (App. A item 7)
   - `HANDOFF.md` line 23 (§2)
-  - `notes/debt3c-ufd-endpoint.md` line 43
+  - `notes/ufd-endpoint.md` line 43
   - `popsci/angle-of-the-mirror.md` line 33 (#10)
   - `popsci/universes-other-half.md` line 55 (#12)
   - `popsci/universes-other-half.md` line 73 (#12)
@@ -164,10 +164,10 @@ entries below keep this order.
 > Cosmology reduces to hilltop axion-like quintessence on the Maslov circle: thawing, never phantom, with an eventual turnaround identified with the conjugate frame's bounce by constraint.
 
 `notes/broken-born-program-v1.md` line 86 (§8, plain-language passage):
-> Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so its potential must be periodic: it therefore drifts, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate ledger is a collapsing universe rebounding.
+> Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so its potential must be periodic: it therefore drifts, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate description is a collapsing universe rebounding.
 
 `notes/broken-born-program-v1.md` line 90 (§8; its t_turn sentence is in group (a)):
-> The turnaround is the conjugate bounce by the constraint identity: one event, two ledgers.
+> The turnaround is the conjugate bounce by the constraint identity: one event, two descriptions.
 
 `notes/broken-born-program-v1.md` line 102 (§9 row 5):
 > | 5 | Fate of expansion | Eternal de Sitter | Turnaround after V(τ) < 0 = conjugate bounce | (Long-horizon; near-term test is row 4) |
@@ -176,7 +176,7 @@ entries below keep this order.
 > **Progressive signs** — forced convergence onto consistency islands (no-go → Higgs → HR class → palindrome); novel predictions not previously posed (island discriminant; knee shape; even-eigenstate masslessness as a bimetric-parity statement); an unsolicited theorem (Λ_wedge = 0); one over-constraint in the DE sector.
 
 `papers/broken-born-checkpoint-v2.md` line 105 (§10, plain-language passage):
-> Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so it must drift, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate ledger is a collapsing universe rebounding.
+> Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so it must drift, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate description is a collapsing universe rebounding.
 
 `papers/broken-born-checkpoint-v2.md` line 107 (§10; its t_turn sentence is in group (a)):
 > The turnaround is the conjugate bounce by constraint identity.
@@ -188,16 +188,16 @@ entries below keep this order.
 > **Progressive signs:** forced convergence onto consistency islands; predictions not previously posed (rows 3, 11); an unsolicited identity (§7.3); one over-constraint (DE sector); the §11.3 unification generating new questions.
 
 `papers/broken-born-checkpoint-v2.md` line 218 (App. A item 7):
-> 7. Our expansion reverses at their bounce — **alive, corrected**: one event, two ledgers; live at DESI DR3.
+> 7. Our expansion reverses at their bounce — **alive, corrected**: one event, two descriptions; live at DESI DR3.
 
 `HANDOFF.md` line 23 (§2):
 > Cosmology: duality dictionary w_eff = −w̃ (corrected from an earlier wrong −2−w̃); τ = hilltop/axion quintessence on the Maslov circle; thawing, w ≥ −1 always, eventual negative V ⇒ turnaround = conjugate bounce (one event, two descriptions). Consistent with DESI DR1/DR2 drift hints.
 
-`notes/debt3c-ufd-endpoint.md` line 43:
+`notes/ufd-endpoint.md` line 43:
 > What remains distinctively BBT's own: the exponential cliff + in-gate isotropy (particle island), the cliff-sharpness **island discriminant** (exponential vs (v*/σ)⁴), the dark-energy sector (thawing, no-phantom, turnaround — live at DESI DR3), and the permanent nulls (direct detection, monopoles, linear dispersion).
 
 `popsci/angle-of-the-mirror.md` line 33 (#10):
-> Continued weakening keeps it alive — shared credit with other dynamical-dark-energy models, but alive, and pointing at a spectacular long-term corollary: a weakening that eventually goes negative means our expansion one day stalls and reverses. In this theory's double-entry books, that far-future turnaround and the conjugate universe's rebound from collapse are one event, written in two ledgers.
+> Continued weakening keeps it alive — shared credit with other dynamical-dark-energy models, but alive, and pointing at a spectacular long-term corollary: a weakening that eventually goes negative means our expansion one day stalls and reverses. In this theory, that far-future turnaround and the conjugate universe's rebound from collapse are one event, described twice.
 
 `popsci/universes-other-half.md` line 55 (#12):
 > The decline has an endpoint. The orientation's energy landscape dips below zero, and once the stored energy goes negative, the cosmic push becomes a pull: expansion slows, halts, and reverses.
@@ -225,7 +225,7 @@ entries below keep this order.
 - Replace each negativity claim in group (b) with "τ settles at V = 0 and dilutes like dust; there is no turnaround without a negative offset [O]".
 - Drop t_turn from the over-constraint (#1 lines 209 and 245; #9 line 90; #11 line 107). That leaves (f, τᵢ) for (w₀, wₐ), so "one over-constraint" also leaves #9 §11 and #11 §15.
 - Rewrite row 5 (#1 §9 row 6; #9 §9 row 5; #11 §13 row 5) as eternal, decelerating expansion.
-- The plain-language passages, abstracts, #1's §7 heading, App. A item 7, HANDOFF §2, debt3c and the two popular articles follow.
+- The plain-language passages, abstracts, #1's §7 heading, App. A item 7, HANDOFF §2, ufd-endpoint and the two popular articles follow.
 
 A variant both auditors name: keep [1 + cos] and add an explicit free negative offset. That restores the turnaround, but the offset is a third parameter, so it removes the over-constraint.
 
@@ -253,7 +253,7 @@ The knock-on under Option A: w ≥ −1 then holds only while ρ_τ > 0. `notes/
 and would read:
 > 1. **$w \geq -1$ while $\rho_\tau > 0$.** $\tau$ is a canonical scalar; the null energy condition holds ($\rho_\tau + p_\tau = \dot\tau^2 \geq 0$ always); phantom crossing is impossible. **[D]**
 
-The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ −1" (#11 line 107) and "w ≥ −1 always" (`HANDOFF.md` line 23). The bound is restated, each time against DR2's crossing, at #11 line 107 ("The framework's strict w ≥ −1 therefore stands…"), #11 line 206 (§15) and root `CLAUDE.md` line 43. Other wordings of it ("never phantom", "no-phantom", "can never cross the phantom line") are at #1 lines 229, 263 and 275, #9 lines 12, 86 and 101, #11 lines 105 and 167, `notes/debt3c-ufd-endpoint.md` line 43 and both popular articles; the ruling should say whether these take the qualifier too.
+The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ −1" (#11 line 107) and "w ≥ −1 always" (`HANDOFF.md` line 23). The bound is restated, each time against DR2's crossing, at #11 line 107 ("The framework's strict w ≥ −1 therefore stands…"), #11 line 206 (§15) and root `CLAUDE.md` line 43. Other wordings of it ("never phantom", "no-phantom", "can never cross the phantom line") are at #1 lines 229, 263 and 275, #9 lines 12, 86 and 101, #11 lines 105 and 167, `notes/ufd-endpoint.md` line 43 and both popular articles; the ruling should say whether these take the qualifier too.
 
 **Ruling:** ☐ accept ☐ reject ☐ modify — notes:
 
@@ -319,9 +319,9 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 - `papers/broken-born-checkpoint-v2.md` line 105 (#11 §10, plain-language passage)
 - `papers/broken-born-checkpoint-v2.md` line 107 (#11 §10)
 - `papers/broken-born-checkpoint-v2.md` line 217 (#11 Appendix A item 6)
-- `notes/debt1a-geometric-core.md` line 55 (#5 §C)
-- `notes/debt1a-geometric-core.md` line 58 (#5 §C)
-- `notes/debt1a-geometric-core.md` line 82 (#5 §F)
+- `notes/geometric-core.md` line 55 (#5 §C)
+- `notes/geometric-core.md` line 58 (#5 §C)
+- `notes/geometric-core.md` line 82 (#5 §F)
 - `notes/broken-born-theory.md` line 283 (#1 addendum v0.3)
 - `notes/broken-born-program-v1.md` line 44 (#9 §4, plain-language passage)
 - `notes/broken-born-program-v1.md` line 50 (#9 §4)
@@ -351,15 +351,15 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 > Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus).
 
-`notes/debt1a-geometric-core.md` line 55 (#5 §C):
+`notes/geometric-core.md` line 55 (#5 §C):
 
 > The cosmological constraint a·ã = 1 is the |Z| = 1 self-dual circle — the minisuperspace duality was the shadow of this modular action.
 
-`notes/debt1a-geometric-core.md` line 58 (#5 §C):
+`notes/geometric-core.md` line 58 (#5 §C):
 
 > One object now carries the whole geometric program: **metric (Im Z), momentum geometry and gate mediator (Re Z), scale-factor duality (|Z|), dark energy (boundary phase of Z).**
 
-`notes/debt1a-geometric-core.md` line 82 (#5 §F):
+`notes/geometric-core.md` line 82 (#5 §F):
 
 > the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1).
 
@@ -409,13 +409,13 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 > Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; on the vacuum slice X = 0 it is det H = 1).
 
-`notes/debt1a-geometric-core.md` line 55 (#5 §C):
+`notes/geometric-core.md` line 55 (#5 §C):
 
 > The cosmological constraint a·ã = 1 holds along the whole slice X = 0 (it is det H = 1), where Z → −Z⁻¹ carries a to ã = 1/a by inversion in the |Z| = 1 self-dual circle; the circle meets the slice only at Z = i — the minisuperspace duality was the shadow of this modular action.
 
-`notes/debt1a-geometric-core.md` line 58 (#5 §C): No change. At d = 1 on the slice X = 0, |Z| = Y = a², and the duality inverts it, since ρ(iY) = i/Y (audit). The line names the variable that the duality acts on, not the locus. It is listed here because the first auditor listed it.
+`notes/geometric-core.md` line 58 (#5 §C): No change. At d = 1 on the slice X = 0, |Z| = Y = a², and the duality inverts it, since ρ(iY) = i/Y (audit). The line names the variable that the duality acts on, not the locus. It is listed here because the first auditor listed it.
 
-`notes/debt1a-geometric-core.md` line 82 (#5 §F):
+`notes/geometric-core.md` line 82 (#5 §F):
 
 > the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = inversion in |Z| = 1).
 
@@ -445,7 +445,7 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **If accepted, also:**
 
-- Wiki pages (25). Of these, 23 discuss the statement. `wiki/_index.md` uses "see flag 23" as its example of a flag pointer and would need another example. The `wiki/history/timeline.md` row ("Flags 7 and 23 extended") is history and stays. The pages are `wiki/_index.md`, `wiki/cosmology/_index.md`, `wiki/cosmology/scale-factor-duality/_index.md`, `wiki/cosmology/scale-factor-duality/cosmological-constraint.md`, `wiki/cosmology/scale-factor-duality/phase-space-diameter.md`, `wiki/glossary.md`, `wiki/history/debts.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/debt-1-notes.md`, `wiki/history/documents/handoff.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/documents/source-conflicts.md`, `wiki/history/timeline.md`, `wiki/notation.md`, `wiki/phase-space/modular-field/_index.md`, `wiki/phase-space/modular-field/modular-field-z.md`, `wiki/phase-space/modular-field/modular-inversion.md`, `wiki/phase-space/modular-field/siegel-domain.md`, `wiki/predictions/fate-of-expansion.md`, `wiki/program/conjugate-universe.md`, `wiki/program/founding-suppositions.md`, `wiki/program/postulates/original-p2.md`, `wiki/program/postulates/p3-reciprocity.md`, `wiki/status/alive.md` and `wiki/status/open-problems.md`. The requested grep misses the 8 pages that cite "item 23" or "Flag 23".
+- Wiki pages (25). Of these, 23 discuss the statement. `wiki/_index.md` uses "see flag 23" as its example of a flag pointer and would need another example. The `wiki/history/timeline.md` row ("Flags 7 and 23 extended") is history and stays. The pages are `wiki/_index.md`, `wiki/cosmology/_index.md`, `wiki/cosmology/scale-factor-duality/_index.md`, `wiki/cosmology/scale-factor-duality/cosmological-constraint.md`, `wiki/cosmology/scale-factor-duality/phase-space-diameter.md`, `wiki/glossary.md`, `wiki/history/main-problems.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/field-equation-notes.md`, `wiki/history/documents/handoff.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/documents/source-conflicts.md`, `wiki/history/timeline.md`, `wiki/notation.md`, `wiki/phase-space/modular-field/_index.md`, `wiki/phase-space/modular-field/modular-field-z.md`, `wiki/phase-space/modular-field/modular-inversion.md`, `wiki/phase-space/modular-field/siegel-domain.md`, `wiki/predictions/fate-of-expansion.md`, `wiki/program/conjugate-universe.md`, `wiki/program/founding-suppositions.md`, `wiki/program/postulates/original-p2.md`, `wiki/program/postulates/p3-reciprocity.md`, `wiki/status/alive.md` and `wiki/status/open-problems.md`. The requested grep misses the 8 pages that cite "item 23" or "Flag 23".
 - Executed check: the obvious candidate is part 3 of `review/wiki-build-checks/self_dual_locus.py`, but its "|Z| = 1 only at Y = 1" is a typed string, not a computed result (audit). A `verify/` version should be based on `review/wiki-build-checks/audit/flag23_readings.py` and `flag23_independent.py`. It would assert:
   - at X = 0, H_Z = diag(Y, Y⁻¹), with det H_Z = 1;
   - a·ã = 1 for every Y > 0, with a² = Im Z and ã² = the momentum block;
@@ -469,7 +469,7 @@ The same qualifier goes on "Strictly w ≥ −1" (#9 line 90), "strictly w ≥ �
 
 **Where it appears:** The parity statements below hold under the frame exchange g ↔ f, and not under §6's Z → −Z⁻¹ if the graviton is the fluctuation of Im Z (audit).
 
-- `notes/debt1a-iv-beta-coefficients.md` line 34 (#8 §3)
+- `notes/beta-coefficients.md` line 34 (#8 §3)
 - `papers/broken-born-checkpoint-v2.md` line 81 (#11 §7.5)
 - `papers/broken-born-checkpoint-v2.md` line 169 (#11 §13, row 6)
 - `notes/broken-born-program-v1.md` line 64 (#9 §5 item 6)
@@ -486,7 +486,7 @@ X is odd under both actions (audit), so the statements that X is "reciprocity-od
 
 **Now reads:**
 
-`notes/debt1a-iv-beta-coefficients.md` line 34 (#8 §3):
+`notes/beta-coefficients.md` line 34 (#8 §3):
 
 > **Eigenstates and parity:** the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices.
 
@@ -518,7 +518,7 @@ X is odd under both actions (audit), so the statements that X is "reciprocity-od
 
 Option A names the action wherever a parity is stated and records the gap once, in #11 §7.5.
 
-`notes/debt1a-iv-beta-coefficients.md` line 34 (#8 §3):
+`notes/beta-coefficients.md` line 34 (#8 §3):
 
 > **Eigenstates and parity** (reciprocity as the frame exchange of §1): the massless graviton is the reciprocity-**even** combination (e + f); X is reciprocity-**odd** (e − f). Reciprocity is a selection rule on vertices.
 
@@ -548,7 +548,7 @@ The audit does not choose between them. Both checks find the parities right unde
 
 **If accepted, also:**
 
-- Wiki pages (26). The five mentions in `wiki/history/timeline.md` are history and stay. The pages are `wiki/conjugate-relativity/equivalence-principle.md`, `wiki/dark-matter/candidates/x-condensate.md`, `wiki/glossary.md`, `wiki/gravity/momentum-graviton/_index.md`, `wiki/gravity/momentum-graviton/borns-answer.md`, `wiki/gravity/momentum-graviton/fifth-force-safety.md`, `wiki/gravity/momentum-graviton/gravitational-higgs.md`, `wiki/gravity/momentum-graviton/spectrum-and-parity.md`, `wiki/gravity/palindromic-branch/palindrome.md`, `wiki/gravity/palindromic-branch/vacuum-energy-identity.md`, `wiki/gravity/spin-2-fields/general-relativity.md`, `wiki/gravity/spin-2-fields/hassan-rosen-bimetric.md`, `wiki/gravity/tuning-test/constrained-bimetric.md`, `wiki/history/debts.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/debt-1-notes.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/timeline.md`, `wiki/phase-space/modular-field/field-content.md`, `wiki/phase-space/modular-field/modular-inversion.md`, `wiki/predictions/_index.md`, `wiki/predictions/massless-graviton.md`, `wiki/predictions/table-history.md`, `wiki/program/postulates/p3-reciprocity.md`, `wiki/status/alive.md` and `wiki/status/open-problems.md`. The requested grep misses `debt-1-notes.md` ("item 39") and `open-problems.md`.
+- Wiki pages (26). The five mentions in `wiki/history/timeline.md` are history and stay. The pages are `wiki/conjugate-relativity/equivalence-principle.md`, `wiki/dark-matter/candidates/x-condensate.md`, `wiki/glossary.md`, `wiki/gravity/momentum-graviton/_index.md`, `wiki/gravity/momentum-graviton/borns-answer.md`, `wiki/gravity/momentum-graviton/fifth-force-safety.md`, `wiki/gravity/momentum-graviton/gravitational-higgs.md`, `wiki/gravity/momentum-graviton/spectrum-and-parity.md`, `wiki/gravity/palindromic-branch/palindrome.md`, `wiki/gravity/palindromic-branch/vacuum-energy-identity.md`, `wiki/gravity/spin-2-fields/general-relativity.md`, `wiki/gravity/spin-2-fields/hassan-rosen-bimetric.md`, `wiki/gravity/tuning-test/constrained-bimetric.md`, `wiki/history/main-problems.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/field-equation-notes.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/timeline.md`, `wiki/phase-space/modular-field/field-content.md`, `wiki/phase-space/modular-field/modular-inversion.md`, `wiki/predictions/_index.md`, `wiki/predictions/massless-graviton.md`, `wiki/predictions/table-history.md`, `wiki/program/postulates/p3-reciprocity.md`, `wiki/status/alive.md` and `wiki/status/open-problems.md`. The requested grep misses `field-equation-notes.md` ("item 39") and `open-problems.md`.
 - Executed check: under Option A, two scripts would move into `verify/`.
   - `review/wiki-build-checks/rho_parity.py` checks the Möbius side. It would assert that −Z⁻¹ linearized at Z = i is −(x + ih) for d = 1, 2 and 3, and that δY + δ(Y⁻¹) has no linear part. Its anchor is the textbook derivative d(−1/z)/dz = z⁻² = −1 at z = i.
   - The auditors' `review/wiki-build-checks/audit/bimetric_parity.py` checks the frame-exchange side. With palindromic βₙ, the Hassan–Rosen potential is swap-symmetric, the (u, u) direction is exactly massless, and the mass term sits on the (u, −u) direction. Its anchor is the Fierz–Pauli form Tr u² − (Tr u)² of the quadratic potential at a flat proportional background, which defines the dRGT/HR family.
@@ -567,18 +567,18 @@ The audit does not choose between them. Both checks find the parities right unde
 
 **Where it appears:**
 
-1. `notes/debt1a-iii-tuning-test.md` line 26 (§2, consequence 1): the statement itself.
-2. `notes/debt1a-iii-tuning-test.md` line 7 (§1): the definition the flag also cites. Both audits leave it as written: one calls it true, the other takes it as the definition that consequence 1 contradicts.
+1. `notes/tuning-test.md` line 26 (§2, consequence 1): the statement itself.
+2. `notes/tuning-test.md` line 7 (§1): the definition the flag also cites. Both audits leave it as written: one calls it true, the other takes it as the definition that consequence 1 contradicts.
 
-No other source states this zero set. #9 §4 (`notes/broken-born-program-v1.md` line 48) and #11 §6 (`papers/broken-born-checkpoint-v2.md` line 65) speak of "the η-compatible locus X = 0", and #5 §C (`notes/debt1a-geometric-core.md` line 53) of "the η-compatible locus of Theorem A" at X = 0. That is Theorem A's notion, a different one, and neither audit proposes changing it.
+No other source states this zero set. #9 §4 (`notes/broken-born-program-v1.md` line 48) and #11 §6 (`papers/broken-born-checkpoint-v2.md` line 65) speak of "the η-compatible locus X = 0", and #5 §C (`notes/geometric-core.md` line 53) of "the η-compatible locus of Theorem A" at X = 0. That is Theorem A's notion, a different one, and neither audit proposes changing it.
 
 **Now reads:**
 
-(1) `notes/debt1a-iii-tuning-test.md` line 26:
+(1) `notes/tuning-test.md` line 26:
 
 > **The compatible locus is X = 0 *and* Y = Y⁻¹** (i.e. g pinned to the J-frame reference metric): the Higgs sector is inevitably a *two-tensor* potential V(g, X; reference) — a massive-gravity-type potential, confirming the structural landing point of Chunk A-ii from the opposite direction.
 
-(2) `notes/debt1a-iii-tuning-test.md` line 7:
+(2) `notes/tuning-test.md` line 7:
 
 > The natural incompatibility measure is the anticommutator {J, I[Z]} (zero exactly on the compatible locus).
 
@@ -613,8 +613,8 @@ Neither audit tested #8's frame-tier potential; one says so explicitly.
   - `wiki/method/verification/battery.md`
   - `wiki/method/verification/arithmetic-not-model.md`
   - `wiki/notation.md`
-  - `wiki/history/documents/debt-1-notes.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/documents/field-equation-notes.md`
+  - `wiki/history/main-problems.md`
   - `wiki/status/open-problems.md`
 
   The task's grep finds 7 of these. The other 4 were found through the "Flag 3" and "items 1, 3, 4…" / "items 1, 3–8" forms, which that grep misses. Its 7 hits on "flagship" and on other numbered lists are excluded.
@@ -647,7 +647,7 @@ The flag names #1 v0.6, #10, #11 §1, §7 and §7.3, #9 §5 and #8 §2's closing
   - (4) line 83 (§7, "Born's answer") (both audits)
   - (5) line 107 (§10) (one audit)
   - (6) line 204 (§15, plain-language passage) (both audits)
-- #8, `notes/debt1a-iv-beta-coefficients.md`:
+- #8, `notes/beta-coefficients.md`:
   - (7) line 3 (status line) (both audits)
   - (8) line 29 (§2, closing sentence) (flag)
   - (9) line 41 (§4) (one audit)
@@ -662,7 +662,7 @@ The flag names #1 v0.6, #10, #11 §1, §7 and §7.3, #9 §5 and #8 §2's closing
   - (16) line 126 (§11, plain-language passage) (one audit)
   - (17) line 128 (§11) (one audit)
 - #10, `popsci/angle-of-the-mirror.md`:
-  - (18) line 27 ("What refused to die") (flag; one audit names "wasn't ordered", the other the whole "twin paid rent" passage)
+  - (18) line 27 ("What refused to die") (flag; one audit names "wasn't ordered", the other the whole "twin turned out to be useful" passage)
 - #12, `popsci/universes-other-half.md`:
   - (19) line 31 ("The second geometry, and why it has never been seen") (both audits)
   - (20) line 73 ("What one assumption purchases") (one audit)
@@ -705,17 +705,17 @@ The audits judge these accurate as written, so they get no change:
 
 (6) `papers/broken-born-checkpoint-v2.md` line 204:
 
-> the last one paying out a vacuum-energy cancellation nobody ordered
+> the last one yielding a vacuum-energy cancellation nobody ordered
 
-(7) `notes/debt1a-iv-beta-coefficients.md` line 3:
+(7) `notes/beta-coefficients.md` line 3:
 
 > Reciprocity fixes the potential's structure, cancels its vacuum energy by theorem, and cuts the free parameters from five to two.
 
-(8) `notes/debt1a-iv-beta-coefficients.md` line 29:
+(8) `notes/beta-coefficients.md` line 29:
 
 > What was an assumption is now a theorem of the symmetry.
 
-(9) `notes/debt1a-iv-beta-coefficients.md` line 41:
+(9) `notes/beta-coefficients.md` line 41:
 
 > two free parameters, vacuum energy exactly zero by the palindrome theorem,
 
@@ -745,7 +745,7 @@ The audits judge these accurate as written, so they get no change:
 
 (16a) `notes/broken-born-program-v1.md` line 126:
 
-> and the last one paid out a cosmological-constant cancellation nobody ordered.
+> and the last one yielded a cosmological-constant cancellation nobody ordered.
 
 (16b) `notes/broken-born-program-v1.md` line 126:
 
@@ -783,7 +783,7 @@ The audits judge these accurate as written, so they get no change:
 
 > V(1) = 2T ⇒ Λ_wedge = 0
 
-(22) `notes/debt1a-iv-beta-coefficients.md` line 29:
+(22) `notes/beta-coefficients.md` line 29:
 
 > — one condition does the work that takes two tunings in generic bimetric gravity.
 
@@ -817,7 +817,7 @@ Every replacement below rests on the same audited statement. Under the palindrom
 
 (6) This sentence is also edited by flag 7; merge if both are accepted.
 
-> the last one paying out a vacuum-energy identity nobody ordered
+> the last one yielding a vacuum-energy identity nobody ordered
 
 (7)
 
@@ -857,7 +857,7 @@ Every replacement below rests on the same audited statement. Under the palindrom
 
 (16a) This passage is also edited by flag 7; merge if both are accepted.
 
-> and the last one paid out a cosmological-constant identity nobody ordered.
+> and the last one yielded a cosmological-constant identity nobody ordered.
 
 (16b)
 
@@ -918,10 +918,10 @@ Every replacement below rests on the same audited statement. Under the palindrom
   - `wiki/predictions/dark-energy-drift.md`
   - `wiki/program/assessment.md`
   - `wiki/history/documents/checkpoint.md`
-  - `wiki/history/documents/debt-1-notes.md`
+  - `wiki/history/documents/field-equation-notes.md`
   - `wiki/history/documents/lab-notebook.md`
   - `wiki/history/documents/popular-articles.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/main-problems.md`
   - `wiki/history/timeline.md` (build-history rows, which stay as they are; the ruling adds a row)
   - `wiki/status/superseded.md`
   - `wiki/status/open-problems.md`
@@ -963,14 +963,14 @@ Every replacement below rests on the same audited statement. Under the palindrom
 
 **Where it appears:**
 
-- `notes/debt1a-geometric-core.md` line 27 (#5 §B)
+- `notes/geometric-core.md` line 27 (#5 §B)
 - `papers/broken-born-checkpoint-v2.md` line 57 (#11 §5)
 - `notes/broken-born-program-v1.md` line 40 (#9 §3)
 - `notes/broken-born-theory.md` line 281 (#1 addendum v0.3). The flag does not list this place; the first auditor found it.
 
 **Now reads:**
 
-`notes/debt1a-geometric-core.md` line 27 (#5 §B):
+`notes/geometric-core.md` line 27 (#5 §B):
 
 > The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is **discrete** — the 2^d coordinate-type splittings, GL(d)-rigid. No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2.
 
@@ -988,7 +988,7 @@ Every replacement below rests on the same audited statement. Under the palindrom
 
 **Proposed:** The wording comes from the two auditors' suggestions and changes only the description of the set. The conclusion stands as the flag and both audits give it: det² is constant on each family and the x-polarization is isolated, so there is no Maslov circle and no τ under strict P2. The rest of each sentence, the nontriviality theorem included, stays as written.
 
-`notes/debt1a-geometric-core.md` line 27 (#5 §B):
+`notes/geometric-core.md` line 27 (#5 §B):
 
 > The space of polarizations compatible with both structures (ω-Lagrangian *and* η-null) is the set of splittings V ⊕ V^⊥ (V in x-space, V^⊥ in p-space): d + 1 Grassmannians Gr(k, d), continuous for 0 < k < d, with det² = (−1)^(d−k) constant on each and the x-polarization isolated. No Lagrangian Grassmannian, no Maslov circle, **no τ field**. The dark-energy sector as constructed contradicts P2.
 
@@ -1008,7 +1008,7 @@ The second auditor also allows a narrower edit of #11 §5 alone: keep "discrete"
 
 **If accepted, also:**
 
-- Wiki pages (18). The list comes from the requested grep plus the "Flag 1" and "item 1" forms it misses; its hits on "flagship", "flags 1–42" and stray numerals after "flags" (such as "1.3×10¹¹") are not about flag 1 and are left out. The pages are `wiki/cosmology/dark-energy/tau-quintessence.md`, `wiki/gravity/tuning-test/geometric-action.md`, `wiki/history/debts.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/debt-1-notes.md`, `wiki/history/documents/lab-notebook.md`, `wiki/phase-space/born-geometry/compatibility-corollaries.md`, `wiki/phase-space/born-geometry/compatibility-theorem.md`, `wiki/phase-space/modular-field/_index.md`, `wiki/phase-space/modular-field/lagrangian-grassmannian.md`, `wiki/phase-space/reciprocity/lagrangian-polarizations.md`, `wiki/predictions/photon-dispersion.md`, `wiki/program/hard-core.md`, `wiki/program/postulates/_index.md`, `wiki/program/postulates/nontriviality-theorem.md`, `wiki/program/postulates/original-p2.md`, `wiki/status/open-problems.md` (its pending-rulings line) and `wiki/symmetry-breaking/rho-preserving-potential.md`.
+- Wiki pages (18). The list comes from the requested grep plus the "Flag 1" and "item 1" forms it misses; its hits on "flagship", "flags 1–42" and stray numerals after "flags" (such as "1.3×10¹¹") are not about flag 1 and are left out. The pages are `wiki/cosmology/dark-energy/tau-quintessence.md`, `wiki/gravity/tuning-test/geometric-action.md`, `wiki/history/main-problems.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/field-equation-notes.md`, `wiki/history/documents/lab-notebook.md`, `wiki/phase-space/born-geometry/compatibility-corollaries.md`, `wiki/phase-space/born-geometry/compatibility-theorem.md`, `wiki/phase-space/modular-field/_index.md`, `wiki/phase-space/modular-field/lagrangian-grassmannian.md`, `wiki/phase-space/reciprocity/lagrangian-polarizations.md`, `wiki/predictions/photon-dispersion.md`, `wiki/program/hard-core.md`, `wiki/program/postulates/_index.md`, `wiki/program/postulates/nontriviality-theorem.md`, `wiki/program/postulates/original-p2.md`, `wiki/status/open-problems.md` (its pending-rulings line) and `wiki/symmetry-breaking/rho-preserving-potential.md`.
 - Executed check: `review/wiki-build-checks/verifier_null_lagrangians.py` covers only d = 2 and 3, at H = 1, along one path per family (audit). The auditors' `review/wiki-build-checks/audit/flag1_recompute.py` and `flag1_audit.py` add d = 4, show that the set holds nothing else, and show that the x-polarization is isolated. A `verify/` version would assert three things:
   - ω and η vanish on V ⊕ V^⊥ for random V at d = 2, 3 and 4;
   - at each coordinate splitting the tangent dimension of the solution set is k(d − k), which is 0 at the x-polarization;
@@ -1260,7 +1260,7 @@ A possible modification: §4's argument has a second premise, that "Nothing supp
 
 Two places are correct as written and need no change (both audits):
 
-- `notes/debt1a-iv-beta-coefficients.md` line 33 (§3). This is the source of the formula: "m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. **M_X**".
+- `notes/beta-coefficients.md` line 33 (§3). This is the source of the formula: "m_FP² ∝ β₁ + 2β₂ + β₃ = 2(β₁+β₂), i.e. **M_X**".
 - `notes/broken-born-theory.md` line 305 (Addendum v0.6): "five → two (M_X and one cubic-shape parameter)".
 
 **Now reads:**
@@ -1298,8 +1298,8 @@ Both audits give the same wording.
   - `wiki/predictions/massless-graviton.md`
   - `wiki/notation.md`
   - `wiki/history/documents/checkpoint.md`
-  - `wiki/history/documents/debt-1-notes.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/documents/field-equation-notes.md`
+  - `wiki/history/main-problems.md`
   - `wiki/status/open-problems.md`
 
   The task's grep finds 6 of these; the rest use the "Flag 5" or "item 5" forms. Its hits on `velocity-granularity.md` ("flagship") and `wiki/history/documents/handoff.md` ("§5") are excluded.
@@ -1435,13 +1435,13 @@ My own observation, not proposed by the flag or the audit: the "(§5)" at the en
 
 **Where it appears:**
 
-1. `notes/debt1a-iii-tuning-test.md` line 27 (§2, consequence 2).
+1. `notes/tuning-test.md` line 27 (§2, consequence 2).
 
 No other source carries the expansion. A grep of papers/, notes/, popsci/, review/, verify/ and HANDOFF.md finds none.
 
 **Now reads:**
 
-(1) `notes/debt1a-iii-tuning-test.md` line 27:
+(1) `notes/tuning-test.md` line 27:
 
 > With Y = 1 + h, X = x: S = 2h + x² + O(3), A = [h, x] + O(3).
 
@@ -1461,8 +1461,8 @@ The expansion of A is right as written; the audit checked it exactly at d = 2.
   - `wiki/method/verification/battery.md`
   - `wiki/method/verification/arithmetic-not-model.md`
   - `wiki/notation.md`
-  - `wiki/history/documents/debt-1-notes.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/documents/field-equation-notes.md`
+  - `wiki/history/main-problems.md`
   - `wiki/status/open-problems.md`
 
   The task's grep finds 3 of these; the rest use the "Flag 4" or "item 4" forms. Its 4 other hits concern prediction row 4 or "flagship" and are excluded.
@@ -1487,7 +1487,7 @@ The expansion of A is right as written; the audit checked it exactly at d = 2.
 
 1. `papers/broken-born-checkpoint-v2.md` line 73 (§7.1 (iii))
 2. `papers/broken-born-checkpoint-v2.md` line 204 (§15, plain-language passage)
-3. `notes/debt1a-ii-X-classification.md` line 48 (§5)
+3. `notes/x-classification.md` line 48 (§5)
 4. `notes/broken-born-program-v1.md` line 61 (§5 item 3)
 5. `HANDOFF.md` line 12 (§1)
 6. `notes/broken-born-program-v1.md` line 126 (§11, plain-language passage). This one is not in the flag's or the audit's list; a grep found it.
@@ -1495,9 +1495,9 @@ The expansion of A is right as written; the audit checked it exactly at d = 2.
 
 Three places keep "known" and need no change:
 
-- `notes/debt1a-ii-X-classification.md` line 3 (status line);
-- `notes/debt1a-ii-X-classification.md` line 30 (§3);
-- `notes/debt1a-iii-tuning-test.md` line 52 (§5).
+- `notes/x-classification.md` line 3 (status line);
+- `notes/x-classification.md` line 30 (§3);
+- `notes/tuning-test.md` line 52 (§5).
 
 **Now reads:**
 
@@ -1509,7 +1509,7 @@ Three places keep "known" and need no change:
 
 > four consecutive consistency tests each forced the theory onto the unique consistent structure available,
 
-(3) `notes/debt1a-ii-X-classification.md` line 48:
+(3) `notes/x-classification.md` line 48:
 
 > and the unique consistent target structure named (HR class).
 
@@ -1576,10 +1576,10 @@ Three places keep "known" and need no change:
   - `wiki/glossary.md`
   - `wiki/references.md`
   - `wiki/history/documents/checkpoint.md`
-  - `wiki/history/documents/debt-1-notes.md`
+  - `wiki/history/documents/field-equation-notes.md`
   - `wiki/history/documents/handoff.md`
   - `wiki/history/documents/source-conflicts.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/main-problems.md`
   - `wiki/history/timeline.md` (build-history rows; the ruling adds a row)
   - `wiki/status/open-problems.md`
 
@@ -1600,13 +1600,13 @@ Three places keep "known" and need no change:
 
 **Where it appears:**
 
-1. `notes/debt1a-iv-beta-coefficients.md` line 33 (§3, "Parameter count").
+1. `notes/beta-coefficients.md` line 33 (§3, "Parameter count").
 
 That is the only place. #7 line 42's "fewer free functions", the "predictive truncation" this sentence quantifies, describes the second frame rather than the βₙ. The flag and the audit do not touch it.
 
 **Now reads:**
 
-(1) `notes/debt1a-iv-beta-coefficients.md` line 33:
+(1) `notes/beta-coefficients.md` line 33:
 
 > The "predictive truncation" of Chunk A-iii is now quantified: HR bimetric's five-function freedom collapses to two numbers.
 
@@ -1622,8 +1622,8 @@ That is the only place. #7 line 42's "fewer free functions", the "predictive tru
   - `wiki/gravity/spin-2-fields/hassan-rosen-bimetric.md`
   - `wiki/gravity/tuning-test/constrained-bimetric.md`
   - `wiki/gravity/momentum-graviton/spectrum-and-parity.md`
-  - `wiki/history/documents/debt-1-notes.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/documents/field-equation-notes.md`
+  - `wiki/history/main-problems.md`
   - `wiki/status/open-problems.md`
 
   The task's grep finds 3 of these. Its hits on `wiki/_index.md` and `open-problems.md` line 146 (the count "8 depend on a convention"), on `metric-tier-failures.md` and on `round-4.md` (reference [8]) are excluded.
@@ -2002,13 +2002,13 @@ Optional: tighten the test so that the gate asserts what the text says. This mak
 
 **Where it appears:**
 
-1. `notes/debt1a-iii-tuning-test.md` line 28 (§2, consequence 3).
+1. `notes/tuning-test.md` line 28 (§2, consequence 3).
 
 That is the only place that names the eigenvalues. Four places restate the conclusion without naming them: #11 §7.2 (line 75), #9 §5 item 4 (line 62), #1 v0.5 (line 297) and `HANDOFF.md` §2 (line 22). Each says Tr(g²) + Tr(g⁻²) lies outside the Hassan–Rosen span. The audit finds that this conclusion stands under either reading, so they need no change.
 
 **Now reads:**
 
-(1) `notes/debt1a-iii-tuning-test.md` line 28:
+(1) `notes/tuning-test.md` line 28:
 
 > Tr(g²) = p₄ of the square-root eigenvalues is a *nonlinear* polynomial in the eₙ, hence outside the family.
 
@@ -2034,8 +2034,8 @@ The audit closes with the two edits as its "disambiguating edit" and calls the f
   - `wiki/method/verification/independent-anchors.md`
   - `wiki/method/verification/arithmetic-not-model.md`
   - `wiki/notation.md`
-  - `wiki/history/documents/debt-1-notes.md`
-  - `wiki/history/debts.md`
+  - `wiki/history/documents/field-equation-notes.md`
+  - `wiki/history/main-problems.md`
   - `wiki/history/timeline.md` (build-history row; the ruling adds a row)
   - `wiki/status/open-problems.md`
 
@@ -2053,23 +2053,23 @@ The audit closes with the two edits as its "disambiguating edit" and calls the f
 
 **Where it appears:**
 
-- `notes/debt1a-ii-X-classification.md` line 17 (#6 §2). This is the only place. The related sentence in #11 §7.1 (line 73) and #9 §5 item 2 (line 60) reads "the symmetry type of the rigid pairing dictates the partner's spin". It gives η no symmetry type and needs no change.
+- `notes/x-classification.md` line 17 (#6 §2). This is the only place. The related sentence in #11 §7.1 (line 73) and #9 §5 item 2 (line 60) reads "the symmetry type of the rigid pairing dictates the partner's spin". It gives η no symmetry type and needs no change.
 
 **Now reads:**
 
-`notes/debt1a-ii-X-classification.md` line 17 (#6 §2):
+`notes/x-classification.md` line 17 (#6 §2):
 
 > The symmetry type of the rigid structure — η antisymmetric-pairing vs ω — dictates the symmetry type of the partner field.
 
 **Proposed:** This is the audit's suggested wording. The partners' symmetry types are the ones the same paragraph already states: the B-field is antisymmetric and X is symmetric.
 
-`notes/debt1a-ii-X-classification.md` line 17 (#6 §2):
+`notes/x-classification.md` line 17 (#6 §2):
 
 > The symmetry type of the rigid structure — η symmetric (its partner, B, antisymmetric) vs ω antisymmetric (its partner, X, symmetric) — dictates the symmetry type of the partner field.
 
 **If accepted, also:**
 
-- Wiki pages (5): `wiki/gravity/momentum-graviton/symplectic-partner.md`, `wiki/history/debts.md` (which cites items 14–17), `wiki/history/documents/debt-1-notes.md`, `wiki/phase-space/born-geometry/double-field-theory.md` and `wiki/status/open-problems.md`. The requested grep finds only 2 of these. Its one other hit, "#1–#15" on the home page, is not about the flag.
+- Wiki pages (5): `wiki/gravity/momentum-graviton/symplectic-partner.md`, `wiki/history/main-problems.md` (which cites items 14–17), `wiki/history/documents/field-equation-notes.md`, `wiki/phase-space/born-geometry/double-field-theory.md` and `wiki/status/open-problems.md`. The requested grep finds only 2 of these. Its one other hit, "#1–#15" on the home page, is not about the flag.
 - Executed check: none (wording only).
 - Also: #6 has not been edited since the import. The flag's entry in `review/wiki-build-flags.md` needs updating.
 
@@ -2080,9 +2080,9 @@ The audit closes with the two edits as its "disambiguating edit" and calls the f
 **Audit:** confirmed (1 independent check)
 
 **Where it appears:**
-1. `HANDOFF.md` line 29 (§2, "Dead"): the Debt-3 figure carries ✓. Line 16 (§2) defines ✓ as machine-verified.
+1. `HANDOFF.md` line 29 (§2, "Dead"): the clumping figure carries ✓. Line 16 (§2) defines ✓ as machine-verified.
 
-The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.md` line 51 (§3, artifact #2); `notes/debt3a-stream-stability.md` line 53 ("Numbers at the scattering benchmark"); `notes/broken-born-theory.md` line 271 (addendum v0.2); `notes/broken-born-program-v1.md` line 80 (§7); `papers/broken-born-checkpoint-v2.md` line 99 (§9, tagged [D]). Two more state it in words and need no change either: `papers/broken-born-checkpoint-v2.md` line 97 (§9's plain-language passage, "thirty orders of magnitude") and `popsci/angle-of-the-mirror.md` line 17 (#10, "a factor of ten to the thirtieth").
+The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.md` line 51 (§3, artifact #2); `notes/stream-stability.md` line 53 ("Numbers at the scattering benchmark"); `notes/broken-born-theory.md` line 271 (addendum v0.2); `notes/broken-born-program-v1.md` line 80 (§7); `papers/broken-born-checkpoint-v2.md` line 99 (§9, tagged [D]). Two more state it in words and need no change either: `papers/broken-born-checkpoint-v2.md` line 97 (§9's plain-language passage, "thirty orders of magnitude") and `popsci/angle-of-the-mirror.md` line 17 (#10, "a factor of ten to the thirtieth").
 
 **Now reads:**
 1. `HANDOFF.md` line 29 (§2):
@@ -2098,11 +2098,11 @@ The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.
    Variant 2 makes no text change. The ✓ stays, and the figure gets gated in `verify/` with an independent anchor (see below), which makes the ✓ true as written.
 
 **If accepted, also:**
-- Wiki pages (17). The search matched "flag 16", "Flag 16", "item(s) 16" and lists that contain 16: `wiki/_index.md`, `wiki/dark-matter/momentum-clumping/_index.md`, `wiki/dark-matter/momentum-clumping/founding-image.md`, `wiki/dark-matter/momentum-clumping/instability-criterion.md`, `wiki/glossary.md`, `wiki/history/debts.md`, `wiki/history/documents/debt-3-notes.md`, `wiki/history/documents/handoff.md`, `wiki/history/documents/source-conflicts.md`, `wiki/method/_index.md`, `wiki/method/negative-results.md`, `wiki/method/provenance-tags.md`, `wiki/method/verification/independent-anchors.md`, `wiki/method/verification/iron-rule.md`, `wiki/method/verification/the-gate.md`, `wiki/status/alive.md`, `wiki/status/open-problems.md`. `wiki/history/timeline.md` line 170 also names flag 16, but it is a dated build row and stays as written.
-- Executed check: `review/wiki-build-checks/debt3a_check.py` reproduces the ratios: 3.9e-28 for the dwarf core and 2.9e-31 for the local Milky Way. It only prints them. The README says an accepted flag's check moves into `verify/`. Once there, it would assert both ratios ("fails by 10²⁸–10³¹"), exit non-zero on failure, and be added to the script list on `scripts/check.sh` line 21. Under Variant 2 this check is what makes the ✓ true. The check reproduces #2's own inputs, so it needs an anchor independent of #2 (CLAUDE.md). The flag-19 audit's recomputation in `review/wiki-build-checks/audit/flag19_audit.py` builds its units from the exact SI constants, sharing no hard-coded values with `debt3a_check.py` (audit), and prints the same ratios, 3.89e-28 and 2.86e-31. Its inputs are #2's, so it cross-checks the arithmetic and the units, not #2's inputs.
+- Wiki pages (17). The search matched "flag 16", "Flag 16", "item(s) 16" and lists that contain 16: `wiki/_index.md`, `wiki/dark-matter/momentum-clumping/_index.md`, `wiki/dark-matter/momentum-clumping/founding-image.md`, `wiki/dark-matter/momentum-clumping/instability-criterion.md`, `wiki/glossary.md`, `wiki/history/main-problems.md`, `wiki/history/documents/clumping-notes.md`, `wiki/history/documents/handoff.md`, `wiki/history/documents/source-conflicts.md`, `wiki/method/_index.md`, `wiki/method/negative-results.md`, `wiki/method/provenance-tags.md`, `wiki/method/verification/independent-anchors.md`, `wiki/method/verification/iron-rule.md`, `wiki/method/verification/the-gate.md`, `wiki/status/alive.md`, `wiki/status/open-problems.md`. `wiki/history/timeline.md` line 170 also names flag 16, but it is a dated build row and stays as written.
+- Executed check: `review/wiki-build-checks/stream_stability_check.py` reproduces the ratios: 3.9e-28 for the dwarf core and 2.9e-31 for the local Milky Way. It only prints them. The README says an accepted flag's check moves into `verify/`. Once there, it would assert both ratios ("fails by 10²⁸–10³¹"), exit non-zero on failure, and be added to the script list on `scripts/check.sh` line 21. Under Variant 2 this check is what makes the ✓ true. The check reproduces #2's own inputs, so it needs an anchor independent of #2 (CLAUDE.md). The flag-19 audit's recomputation in `review/wiki-build-checks/audit/flag19_audit.py` builds its units from the exact SI constants, sharing no hard-coded values with `stream_stability_check.py` (audit), and prints the same ratios, 3.89e-28 and 2.86e-31. Its inputs are #2's, so it cross-checks the arithmetic and the units, not #2's inputs.
 - Also:
   - Flag 19 uses the same script, so one `verify/` script can serve both flags.
-  - Update flag 16's entry in `review/wiki-build-flags.md`, and the `debt3a_check.py` row of `review/wiki-build-checks/README.md`, whose Flag column reads "—".
+  - Update flag 16's entry in `review/wiki-build-flags.md`, and the `stream_stability_check.py` row of `review/wiki-build-checks/README.md`, whose Flag column reads "—".
   - Variant 1 edits the dated handoff (prepared 2026-10-19). Variant 2 leaves the handoff untouched.
   - #11 §9's [D] tag stays correct either way. Under Variant 2 the result could also carry [V], which is optional and would need a #11 version bump.
 
@@ -2113,15 +2113,15 @@ The same figure appears elsewhere without a ✓. These need no change: `HANDOFF.
 **Audit:** depends on a convention or reading (both of 2 checks)
 
 **Where it appears:**
-1. `notes/debt1a-ii-X-classification.md` line 40 (#6 §4): the overlap form e^{−(p₁−p₂)²/2μ²}. The note does not say whether it applies to the amplitude or to the rate.
+1. `notes/x-classification.md` line 40 (#6 §4): the overlap form e^{−(p₁−p₂)²/2μ²}. The note does not say whether it applies to the amplitude or to the rate.
 2. `notes/broken-born-theory.md` lines 99 and 102 (#1 §3): the amplitude gate e^{−k²/μ²}, with k = m_χv_rel/2.
 3. `notes/broken-born-theory.md` lines 127 and 138 (#1 §5.1): v* ≡ √2μ/m_χ and μ ≈ 20 keV.
 4. `papers/conjugate-special-relativity.md` line 73 (#13 §4): μ as the momentum-space width, used with v* = √2μ/m_χ.
 
-Five more places state the documents' convention that #1's μ is the fiber width. None changes under any option: `notes/broken-born-theory.md` line 291 (addendum v0.4); `notes/debt1a-iv-beta-coefficients.md` line 47 (#8 §5); `notes/broken-born-program-v1.md` line 72 (#9 §6); `papers/broken-born-checkpoint-v2.md` line 91 (#11 §8); `HANDOFF.md` line 24 (§2). `notes/broken-born-theory.md` line 253 (#1 §11, open problem 2) restates the amplitude gate as e^{−k²/μ²}; it does not change under any option either.
+Five more places state the documents' convention that #1's μ is the fiber width. None changes under any option: `notes/broken-born-theory.md` line 291 (addendum v0.4); `notes/beta-coefficients.md` line 47 (#8 §5); `notes/broken-born-program-v1.md` line 72 (#9 §6); `papers/broken-born-checkpoint-v2.md` line 91 (#11 §8); `HANDOFF.md` line 24 (§2). `notes/broken-born-theory.md` line 253 (#1 §11, open problem 2) restates the amplitude gate as e^{−k²/μ²}; it does not change under any option either.
 
 **Now reads:**
-1. `notes/debt1a-ii-X-classification.md` line 40 (#6 §4):
+1. `notes/x-classification.md` line 40 (#6 §4):
 > Wavepacket overlap of Gaussian profiles gives exactly $e^{-(p_1-p_2)^2/2\mu^2}$ — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked.
 2. `notes/broken-born-theory.md` line 99 (#1 §3):
 > \boxed{\ \mathcal M(k, q) \;=\; \frac{4\pi\,\tilde\alpha\, m_\chi}{q^2 + m_\phi^2}\; e^{-k^2/\mu^2}\ }
@@ -2137,7 +2137,7 @@ Five more places state the documents' convention that #1's μ is the fiber width
 > The conjugate quantum's invariant extent fixes its intrinsic momentum-space width μ ~ ℏ/λ_χ — which is precisely the gate scale of the dark-matter sector, v* = √2 μ/m_χ.
 
 **Proposed:** At most one place changes, #6 §4. Places 2–4 (#1 and #13) stay as they are under every option.
-- Option A states the convention, reading #6's form as the factor on the rate. Under this reading all the documents agree. The change is to `notes/debt1a-ii-X-classification.md` line 40:
+- Option A states the convention, reading #6's form as the factor on the rate. Under this reading all the documents agree. The change is to `notes/x-classification.md` line 40:
 > Wavepacket overlap of Gaussian profiles gives exactly $e^{-(p_1-p_2)^2/2\mu^2}$ — the postulated gate at the level of the rate (with $p_1-p_2 = 2k$ it is the square of the flagship's amplitude gate $e^{-k^2/\mu^2}$, and equals its $\sigma_T$ factor $e^{-v^2/v_*^2}$, $v_* = \sqrt2\,\mu/m_\chi$), with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked.
 - Option A′ states the same convention at the level of the amplitude. It is one check's one-line fix: the exponent 2μ² becomes 4μ², which with p₁ − p₂ = 2k equals #1 §3's e^{−k²/μ²}. Line 40 would read:
 > Wavepacket overlap of Gaussian profiles gives exactly $e^{-(p_1-p_2)^2/4\mu^2}$ — the postulated gate, with **μ = the χ quantum's own p-width**, a physical identification the EFT lacked.
@@ -2146,7 +2146,7 @@ Five more places state the documents' convention that #1's μ is the fiber width
 - The flag's own reading takes #6's form as the amplitude gate and uses it to define μ. That reading would instead give v* = μ/m_χ in #13 §4 and μ = 28 keV. No document states that value, and neither check recommends this reading.
 
 **If accepted, also:**
-- Wiki pages (18). The search matched "flag 17", "Flag 17", "item(s) 17" and lists that contain 17: `wiki/conjugate-relativity/_index.md`, `wiki/conjugate-relativity/invariant-length-shell.md`, `wiki/dark-matter/candidates/chi-particles.md`, `wiki/dark-matter/conjugate-matter/benchmark.md`, `wiki/dark-matter/conjugate-matter/gate-mechanism.md`, `wiki/dark-matter/conjugate-matter/gate-shape.md`, `wiki/dark-matter/conjugate-matter/scattering-law.md`, `wiki/dark-matter/conjugate-matter/velocity-gate.md`, `wiki/dark-matter/momentum-clumping/gated-vlasov-model.md`, `wiki/history/debts.md`, `wiki/history/documents/debt-1-notes.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/documents/source-conflicts.md`, `wiki/notation.md`, `wiki/predictions/_index.md`, `wiki/predictions/self-interaction-knee.md`, `wiki/status/open-problems.md`, `wiki/status/superseded.md`. `wiki/history/timeline.md` line 177 also names flag 17, but it is a dated build row and stays as written. Two more pages cite the flag-17 audit's output, `review/wiki-build-checks/audit/flag17_recompute.out`, for the Born σ_T without a gate and the v0.1 values, not for the flagged statement: `wiki/gravity/spin-2-fields/yukawa-forces.md` (lines 135 and 195 say "the flag-17 audit") and `wiki/dark-matter/halo-astrophysics/transfer-cross-section.md`. They need no change under any option.
+- Wiki pages (18). The search matched "flag 17", "Flag 17", "item(s) 17" and lists that contain 17: `wiki/conjugate-relativity/_index.md`, `wiki/conjugate-relativity/invariant-length-shell.md`, `wiki/dark-matter/candidates/chi-particles.md`, `wiki/dark-matter/conjugate-matter/benchmark.md`, `wiki/dark-matter/conjugate-matter/gate-mechanism.md`, `wiki/dark-matter/conjugate-matter/gate-shape.md`, `wiki/dark-matter/conjugate-matter/scattering-law.md`, `wiki/dark-matter/conjugate-matter/velocity-gate.md`, `wiki/dark-matter/momentum-clumping/gated-vlasov-model.md`, `wiki/history/main-problems.md`, `wiki/history/documents/field-equation-notes.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/documents/source-conflicts.md`, `wiki/notation.md`, `wiki/predictions/_index.md`, `wiki/predictions/self-interaction-knee.md`, `wiki/status/open-problems.md`, `wiki/status/superseded.md`. `wiki/history/timeline.md` line 177 also names flag 17, but it is a dated build row and stays as written. Two more pages cite the flag-17 audit's output, `review/wiki-build-checks/audit/flag17_recompute.out`, for the Born σ_T without a gate and the v0.1 values, not for the flagged statement: `wiki/gravity/spin-2-fields/yukawa-forces.md` (lines 135 and 195 say "the flag-17 audit") and `wiki/dark-matter/halo-astrophysics/transfer-cross-section.md`. They need no change under any option.
 - Executed check: `review/wiki-build-checks/gate_conventions.py` only prints. It would move into `verify/` under A or A′; under B, nothing moves.
   - Under A it would assert, symbolically, that e^{−(p₁−p₂)²/2μ²} = (e^{−k²/μ²})² = e^{−v²/v*²} with v* = √2μ/m_χ. It would also assert that #1's benchmark gives μ = m_χv*/√2 ≈ 19.8 keV.
   - Under A′ it would assert that #6's corrected form equals #1's gate.
@@ -2182,16 +2182,16 @@ Five more places state the documents' convention that #1's μ is the fiber width
 **Audit:** depends on a convention or reading
 
 **Where it appears:**
-1. `notes/debt3a-stream-stability.md` line 57 (#2, "Corollary (the classicality theorem)"): the broad-gate formula, evaluated "for MW conditions". #2 itself puts the Milky Way in the narrow-gate regime in two places. Line 34 heads Limit 2 as the "MW/cluster regime". The MW row of the table, line 51, is computed with the narrow form, which the audit reproduces.
+1. `notes/stream-stability.md` line 57 (#2, "Corollary (the classicality theorem)"): the broad-gate formula, evaluated "for MW conditions". #2 itself puts the Milky Way in the narrow-gate regime in two places. Line 34 heads Limit 2 as the "MW/cluster regime". The MW row of the table, line 51, is computed with the narrow form, which the audit reproduces.
 
-Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes under any option: `papers/broken-born-checkpoint-v2.md` line 99 (#11 §9); `notes/broken-born-program-v1.md` line 80 (#9 §7); `HANDOFF.md` line 51 (§3, artifact #2); `notes/debt3b-wave-island.md` line 7 (#3). `notes/broken-born-theory.md` line 271 (#1 addendum v0.2) states the corollary without a number.
+Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes under any option: `papers/broken-born-checkpoint-v2.md` line 99 (#11 §9); `notes/broken-born-program-v1.md` line 80 (#9 §7); `HANDOFF.md` line 51 (§3, artifact #2); `notes/wave-island.md` line 7 (#3). `notes/broken-born-theory.md` line 271 (#1 addendum v0.2) states the corollary without a number.
 
 **Now reads:**
-1. `notes/debt3a-stream-stability.md` line 57 (#2, Corollary):
+1. `notes/stream-stability.md` line 57 (#2, Corollary):
 > At fixed $S \equiv \sigma_0/m$ and halo $(\rho,\sigma)$, the criterion scales as $\sqrt{\pi S}\,\rho\,/(m^{5/2}\sigma^2)$. Setting it to 1 gives $m_{\rm crit} = [\sqrt{\pi S}\,\rho/\sigma^2]^{2/5} \approx 10^{-13}$ GeV $\sim 0.1$ meV for MW conditions. At that mass the per-mode occupation is
 
 **Proposed:**
-- Option A states the reading: the number is a ceiling. The change is to `notes/debt3a-stream-stability.md` line 57:
+- Option A states the reading: the number is a ceiling. The change is to `notes/stream-stability.md` line 57:
 > At fixed $S \equiv \sigma_0/m$ and halo $(\rho,\sigma)$, the criterion scales as $\sqrt{\pi S}\,\rho\,/(m^{5/2}\sigma^2)$. Setting it to 1 gives $m_{\rm crit} = [\sqrt{\pi S}\,\rho/\sigma^2]^{2/5} \approx 10^{-13}$ GeV $\sim 0.1$ meV for MW conditions (an upper bound: this is the broad-gate form, which the unified criterion never exceeds; the narrow-gate form at fixed $v_*$, which the table above uses for the MW, gives $\approx 4.2\times10^{-14}$ GeV). At that mass the per-mode occupation is
 - Option B makes no change. The audit finds that "≈ 10⁻¹³ GeV" and N_occ ≫ 1 hold under both readings. Every later document already uses the number as a ceiling.
 - The audit does not choose.
@@ -2200,8 +2200,8 @@ Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes und
   - Option A writes the ceiling reading into #2.
 
 **If accepted, also:**
-- Wiki pages (14). The search matched "flag 19", "Flag 19", "item(s) 19" and lists that contain 19: `wiki/dark-matter/candidates/chi-particles.md`, `wiki/dark-matter/conjugate-matter/benchmark.md`, `wiki/dark-matter/momentum-clumping/_index.md`, `wiki/dark-matter/momentum-clumping/classicality-theorem.md`, `wiki/dark-matter/momentum-clumping/founding-image.md`, `wiki/dark-matter/momentum-clumping/net-theorem.md`, `wiki/dark-matter/wave-dark-matter/_index.md`, `wiki/dark-matter/wave-dark-matter/occupation-number.md`, `wiki/history/debts.md`, `wiki/history/documents/debt-3-notes.md`, `wiki/notation.md`, `wiki/predictions/island-discriminant.md`, `wiki/status/alive.md`, `wiki/status/open-problems.md`. `wiki/history/timeline.md` lines 170 and 177 also name flag 19, but they are dated build rows and stay as written.
-- Executed check: under Option A, it is `review/wiki-build-checks/debt3a_check.py`, the same script as flag 16. It prints m_crit = 1.4e-13 GeV (broad form) and 4.2e-14 GeV (narrow form, v* fixed). Under Option B there is none. A `verify/` version would assert:
+- Wiki pages (14). The search matched "flag 19", "Flag 19", "item(s) 19" and lists that contain 19: `wiki/dark-matter/candidates/chi-particles.md`, `wiki/dark-matter/conjugate-matter/benchmark.md`, `wiki/dark-matter/momentum-clumping/_index.md`, `wiki/dark-matter/momentum-clumping/classicality-theorem.md`, `wiki/dark-matter/momentum-clumping/founding-image.md`, `wiki/dark-matter/momentum-clumping/net-theorem.md`, `wiki/dark-matter/wave-dark-matter/_index.md`, `wiki/dark-matter/wave-dark-matter/occupation-number.md`, `wiki/history/main-problems.md`, `wiki/history/documents/clumping-notes.md`, `wiki/notation.md`, `wiki/predictions/island-discriminant.md`, `wiki/status/alive.md`, `wiki/status/open-problems.md`. `wiki/history/timeline.md` lines 170 and 177 also name flag 19, but they are dated build rows and stay as written.
+- Executed check: under Option A, it is `review/wiki-build-checks/stream_stability_check.py`, the same script as flag 16. It prints m_crit = 1.4e-13 GeV (broad form) and 4.2e-14 GeV (narrow form, v* fixed). Under Option B there is none. A `verify/` version would assert:
   - those two values, and their ratio ≈ 0.30;
   - N_occ ≫ 1 at both masses;
   - the ceiling property: the unified criterion never exceeds the broad form for σ from 5 to 3000 km/s, as `review/wiki-build-checks/audit/flag19_audit.py` [D] computes.
@@ -2279,7 +2279,7 @@ Four more places use the result as a ceiling ("m ≲ 0.1 meV"). None changes und
 > That is excluded by Planck 2018 (N_eff = 2.99 +0.34/-0.33 at 95%) [23].
 
 **If accepted, also:**
-- Wiki pages (8). The search matched "flag 22", "Flag 22", "item(s) 22" and lists that contain 22: `wiki/cosmology/early-universe/cosmic-microwave-background.md`, `wiki/cosmology/early-universe/radiation-era.md`, `wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history.md`, `wiki/method/review/round-3/rulings.md`, `wiki/method/verification/soliton-obituary-script.md`, `wiki/predictions/early-universe-step.md`, `wiki/references.md`, `wiki/status/open-problems.md`. The given grep also hits five pages only on the date "2026-10-22": `wiki/history/debts.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/timeline.md`, `wiki/status/alive.md`. Those hits are not about flag 22.
+- Wiki pages (8). The search matched "flag 22", "Flag 22", "item(s) 22" and lists that contain 22: `wiki/cosmology/early-universe/cosmic-microwave-background.md`, `wiki/cosmology/early-universe/radiation-era.md`, `wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history.md`, `wiki/method/review/round-3/rulings.md`, `wiki/method/verification/soliton-obituary-script.md`, `wiki/predictions/early-universe-step.md`, `wiki/references.md`, `wiki/status/open-problems.md`. The given grep also hits five pages only on the date "2026-10-22": `wiki/history/main-problems.md`, `wiki/history/documents/checkpoint.md`, `wiki/history/documents/lab-notebook.md`, `wiki/history/timeline.md`, `wiki/status/alive.md`. Those hits are not about flag 22.
 - Executed check: none. The one number built on this interval is the bound ΔN_eff < 0.286 = 2.99 + 0.34 − 3.044. It uses only the upper side and is already gated (`verify/soliton_obituary.py` lines 95–98).
 - Also: #14 is withdrawn and "Kept as the audit trail" (banner, line 3). Paul may prefer to leave #14's text as it is and record the correction only in the flags file. Nothing else changes.
 
@@ -2352,7 +2352,7 @@ The same sentence's "(§5)" for the potential, which is in §3, is flag 10's fir
 
 **Where it appears:**
 - `HANDOFF.md` line 44 (§2, External clock). No other source gives DR3's data span.
-- Not the flagged statement, no change: the other DR3 mentions (#1 lines 229, 275; #9 line 101; #11 lines 107, 167, 218; `notes/debt3c-ufd-endpoint.md` line 43; root `CLAUDE.md` line 44).
+- Not the flagged statement, no change: the other DR3 mentions (#1 lines 229, 275; #9 line 101; #11 lines 107, 167, 218; `notes/ufd-endpoint.md` line 43; root `CLAUDE.md` line 44).
 
 **Now reads:**
 
@@ -2479,7 +2479,7 @@ The figures use the Fermi-LAT gamma-ray-burst bound E_QG,2 > 1.3×10¹¹ GeV (Va
 When ruling, name the option (A or B) in the notes.
 
 **If accepted, also:**
-- Wiki pages (5): `wiki/gravity/spin-2-fields/planck-units.md`, `wiki/history/documents/lab-notebook.md`, `wiki/predictions/photon-dispersion.md`, `wiki/references.md`, `wiki/status/open-problems.md`. The task grep returns 4 files. The 4th, `wiki/history/timeline.md`, names it only in a dated log row, which a ruling would not edit. The grep misses photon-dispersion and open-problems, which write "Flag 31". The same 5 pages quote the "~10 orders" figure. Six other pages quote a different "~10 orders", Debt 3's Scenario B streams "tunable across ~10 orders", which this flag does not concern.
+- Wiki pages (5): `wiki/gravity/spin-2-fields/planck-units.md`, `wiki/history/documents/lab-notebook.md`, `wiki/predictions/photon-dispersion.md`, `wiki/references.md`, `wiki/status/open-problems.md`. The task grep returns 4 files. The 4th, `wiki/history/timeline.md`, names it only in a dated log row, which a ruling would not edit. The grep misses photon-dispersion and open-problems, which write "Flag 31". The same 5 pages quote the "~10 orders" figure. Six other pages quote a different "~10 orders", the clumping problem's Scenario B streams "tunable across ~10 orders", which this flag does not concern.
 - Executed check: `review/wiki-build-checks/quadratic_gap.py`, which only prints. Its header still marks the bound †. In `verify/` it would assert, for E_QG,2 = 1.3×10¹¹ GeV [S], an energy-scale gap of log₁₀(M_P/E_QG,2) ≈ 8.0 (7.3 with reduced M_P) and twice that for the effect. Its anchor, independent of #1, is `review/wiki-build-checks/audit/flag31_audit.py`. That script reproduces the Fermi-LAT paper's own κ₁ = 1.03, κ₂ = 1.50 and E_QG,2 = 3.3×10¹⁰ GeV from τ₂; the source text is `audit/vasileiou2013.txt`.
 - Also: none outside #1; #11 gives no number.
 
@@ -2750,7 +2750,7 @@ Neither auditor proposes wording, so the audit **states no preference between A 
 
 **Audit:** not yet audited (raised after the audit by one page verifier)
 
-**Where it appears:** `notes/debt1a-ii-X-classification.md` line 21 (§2)
+**Where it appears:** `notes/x-classification.md` line 21 (§2)
 
 **Now reads:**
 > Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]

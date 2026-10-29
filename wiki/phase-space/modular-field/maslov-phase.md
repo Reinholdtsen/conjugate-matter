@@ -10,14 +10,14 @@ sources:
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight): axiom correction and the modular core'"
-  - "notes/debt1a-geometric-core.md §B"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §F"
+  - "notes/geometric-core.md §B"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §F"
   - "notes/broken-born-program-v1.md §4"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-iii-tuning-test.md §4"
-  - "notes/debt1a-iv-beta-coefficients.md §3"
+  - "notes/x-classification.md §3"
+  - "notes/tuning-test.md §4"
+  - "notes/beta-coefficients.md §3"
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md App. A item 8"
@@ -68,7 +68,7 @@ The lab notebook separates what topology fixes from what it does not (#1 §3): "
 
 ### The boundary variable
 
-[Calc note #5](/wiki/history/documents/debt-1-notes): "**Λ(d) is the Shilov boundary of the Siegel domain** [standard]. The τ field — arg det of the boundary variable — is the phase of Z's boundary value." (§C)
+[Calc note #5](/wiki/history/documents/field-equation-notes): "**Λ(d) is the Shilov boundary of the Siegel domain** [standard]. The τ field — arg det of the boundary variable — is the phase of Z's boundary value." (§C)
 
 The points of the Siegel domain are the phase-space metrics compatible with the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form), labelled by Z. Its distinguished (Shilov) boundary is Λ(d), the space of polarizations ([the boundary of the Siegel domain](/wiki/phase-space/modular-field/lagrangian-grassmannian#the-boundary-of-the-siegel-domain)). A boundary value of Z is therefore a polarization, and τ is the phase of that polarization around the Maslov circle. The program reads this geometry as placing [dark energy](/wiki/cosmology/dark-energy) on the edge of the space in which the metric and [the momentum graviton](/wiki/gravity/momentum-graviton) live.
 
@@ -130,12 +130,12 @@ See [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-an
 - `papers/broken-born-checkpoint-v2.md` §6 — the identification and the topological periodicity.
 - `notes/broken-born-theory.md` §2 — the definition τ ≡ f·arg det², with the [T], [D] and [P] tags.
 - `notes/broken-born-theory.md` §3, §4 — S_τ and V(τ); periodicity versus existence of the potential; fifth-force safety.
-- `notes/debt1a-geometric-core.md` §B, §C — τ lost under strict P2 and restored; τ as the phase of Z's boundary value; the boundary fact "[standard]".
-- `notes/debt1a-geometric-core.md` §D, §F — the ten σ-modes; the origin of τ's potential, open item 3.
+- `notes/geometric-core.md` §B, §C — τ lost under strict P2 and restored; τ as the phase of Z's boundary value; the boundary fact "[standard]".
+- `notes/geometric-core.md` §D, §F — the ten σ-modes; the origin of τ's potential, open item 3.
 - `notes/broken-born-theory.md` v0.3 addendum — τ restored as the boundary phase of the modular field.
 - `notes/broken-born-program-v1.md` §4 — "not a modeling choice".
-- `notes/debt1a-ii-X-classification.md` §3; `notes/debt1a-iv-beta-coefficients.md` §3 — the moduli are not eaten; τ survives at leading order.
-- `notes/debt1a-iii-tuning-test.md` §4 — τ as the light direction of the compact space.
+- `notes/x-classification.md` §3; `notes/beta-coefficients.md` §3 — the moduli are not eaten; τ survives at leading order.
+- `notes/tuning-test.md` §4 — τ as the light direction of the compact space.
 - `papers/broken-born-checkpoint-v2.md` §7, §10 — τ un-eaten; hilltop quintessence; the toy-model support and its limit.
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: a definite polarization needs "more structure than ω alone".
 - `papers/broken-born-checkpoint-v2.md` App. A item 8 — "echoed in τ's boundary residence".

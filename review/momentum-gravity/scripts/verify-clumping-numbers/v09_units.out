@@ -16,7 +16,7 @@ C11 e-fold conversions t_e = t_ff/Gamma
   dwarf   0.2304          : Gamma=0.07069 -> t_e=366.6 Myr, t_e/t_orb(219)=1.674, t_e/t_cross=4.715
   dwarf   1.152           : Gamma=0.50993 -> t_e=50.8 Myr, t_e/t_orb(219)=0.232, t_e/t_cross=0.654
 
-C6: Debt 3a inputs and shortfalls
+C6: calc note #2 inputs and shortfalls
   g = sqrt(pi sigma0/m^2) = 2482.8 GeV^-2
   dwarf   : 3a eps_gate=2.725e-37 GeV, m min(sig,v*)^2=7.010e-10 GeV, 3a ratio=3.888e-28; linearized g n Lam_g/(m sig^2)=3.273e-28
   MW      : 3a eps_gate=3.212e-39 GeV, m min(sig,v*)^2=1.122e-08 GeV, 3a ratio=2.864e-31; linearized g n Lam_g/(m sig^2)=8.697e-31

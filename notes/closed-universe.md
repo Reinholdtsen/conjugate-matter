@@ -269,7 +269,7 @@ that reading contradicts the record elsewhere.*
   vanishes.
 - A frozen scale (Ẏ = 0) makes the Bianchi constraint proportional to ȧ, so there is no expanding universe
   for any k.
-- Every frozen f is the M_f → ∞ limit, which the record's equal Planck masses (`notes/debt1a-iv-beta-coefficients.md`
+- Every frozen f is the M_f → ∞ limit, which the record's equal Planck masses (`notes/beta-coefficients.md`
   §3) exclude.
 - The record never defines E₀[J] beyond "the polarization frame" on compact moduli. Round-5 R1 holds that
   question open.
@@ -359,6 +359,6 @@ inflation: with inflation, the whole sphere comes into causal contact well befor
 - #11 `papers/broken-born-checkpoint-v2.md` §3, §5, §7, §10, §13 row 5 and row 10
 - `papers/phase-space-diameter.md` §6, §8.2, §8.4; `review/round5-adjudication.md` R1, R11
 - #1 `notes/broken-born-theory.md` §2, §3, §6, §7
-- `notes/debt1a-geometric-core.md` Corollary 3; `notes/debt1a-iv-beta-coefficients.md` §3
+- `notes/geometric-core.md` Corollary 3; `notes/beta-coefficients.md` §3
 - `review/wiki-build-flags.md` flags 5, 27 (addendum), 43, 45–54
 - `verify/closed_universe.py`; `review/closed-universe/`

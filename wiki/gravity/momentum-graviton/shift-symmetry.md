@@ -5,19 +5,19 @@ status: alive
 description: "The rigid Sp(2d, ℝ) contains Z → Z + B, so constant shifts of X are exact symmetries: geometry gives X no potential, and it propagates or it does not exist."
 provenance: [D]
 sources:
-  - "notes/debt1a-ii-X-classification.md §1"
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §4"
+  - "notes/x-classification.md §1"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §4"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
-  - "notes/debt1a-geometric-core.md §C"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-geometric-core.md §E"
-  - "notes/debt1a-geometric-core.md §F"
-  - "notes/debt1a-iii-tuning-test.md §1"
+  - "notes/geometric-core.md §C"
+  - "notes/geometric-core.md §D"
+  - "notes/geometric-core.md §E"
+  - "notes/geometric-core.md §F"
+  - "notes/tuning-test.md §1"
   - "notes/broken-born-theory.md §3"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight)'"
   - "notes/broken-born-theory.md 'Addendum (v0.4)'"
@@ -28,13 +28,13 @@ sources:
   - "notes/gate-mechanism.md §2"
 ---
 
-*The shift symmetry is the statement that adding a constant symmetric matrix B to the [momentum graviton X](/wiki/gravity/momentum-graviton) leaves every geometric action of the program unchanged. X is the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, and the shift Z → Z + B is one of the maps of the group Sp(2d, ℝ) that preserves the rigid [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω. Any geometric action built from ω and the phase-space metric H therefore takes the same value before and after the shift. Such an action cannot give X a potential energy, a mass, or any coupling without derivatives: X is [axion-like](/wiki/cosmology/dark-energy/axion-like-fields#x-axion-like-in-the-exact-sense), a field that enters only through how it varies from place to place. That rules out one of the three outcomes the program had defined for X, an auxiliary field with no motion of its own: X either propagates or does not exist. The [calc note](/wiki/history/documents/debt-1-notes) that found the result rates it rigorous; it is the first step of the argument that X must be a massive spin-2 field, and no script checks it.*
+*The shift symmetry is the statement that adding a constant symmetric matrix B to the [momentum graviton X](/wiki/gravity/momentum-graviton) leaves every geometric action of the program unchanged. X is the real part of the [modular field](/wiki/phase-space/modular-field/modular-field-z) Z = X + iY, and the shift Z → Z + B is one of the maps of the group Sp(2d, ℝ) that preserves the rigid [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω. Any geometric action built from ω and the phase-space metric H therefore takes the same value before and after the shift. Such an action cannot give X a potential energy, a mass, or any coupling without derivatives: X is [axion-like](/wiki/cosmology/dark-energy/axion-like-fields#x-axion-like-in-the-exact-sense), a field that enters only through how it varies from place to place. That rules out one of the three outcomes the program had defined for X, an auxiliary field with no motion of its own: X either propagates or does not exist. The [calc note](/wiki/history/documents/field-equation-notes) that found the result rates it rigorous; it is the first step of the argument that X must be a massive spin-2 field, and no script checks it.*
 
-**Status:** Alive — [D — rigorous] in calc note #6 (`notes/debt1a-ii-X-classification.md` §1); step (i) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1's chain, which is tagged [D + T] as a whole — a symmetry argument, not machine-checked: none of the seven tests of [the verification battery](/wiki/method/verification/battery) covers it.
+**Status:** Alive — [D — rigorous] in calc note #6 (`notes/x-classification.md` §1); step (i) of [checkpoint #11](/wiki/history/documents/checkpoint) §7.1's chain, which is tagged [D + T] as a whole — a symmetry argument, not machine-checked: none of the seven tests of [the verification battery](/wiki/method/verification/battery) covers it.
 
 ## The statement
 
-Calc note #6 ([the Debt-1 calc notes](/wiki/history/documents/debt-1-notes)), in its section headed "The shift symmetry [D — rigorous]":
+Calc note #6 ([the field-equation calc notes](/wiki/history/documents/field-equation-notes)), in its section headed "The shift symmetry [D — rigorous]":
 
 > The Möbius action of the rigid Sp(2d,ℝ) contains the subgroup [[1, B], [0, 1]], B symmetric, acting as
 
@@ -128,10 +128,10 @@ The constant shift is a global symmetry: the same B everywhere. Calc note #6 §2
 
 ## Sources
 
-- `notes/debt1a-ii-X-classification.md` §1 — the shift and its consequences [D — rigorous]; §2 — the local version; §3 — the vacuum at X = 0, "The mass cannot be written by hand", the Euclidean-rigorous skeleton; §4 — the gate from integrating out massive X.
+- `notes/x-classification.md` §1 — the shift and its consequences [D — rigorous]; §2 — the local version; §3 — the vacuum at X = 0, "The mass cannot be written by hand", the Euclidean-rigorous skeleton; §4 — the gate from integrating out massive X.
 - `papers/broken-born-checkpoint-v2.md` §7.1 — the current statement, step (i) of the chain [D + T]; §4 — P2′; §6 — Im Z = g and Re Z = X; §14 item 1 — the open derivation from S_H.
-- `notes/debt1a-geometric-core.md` §C — the Siegel domain and H_Z; §D — the three outcomes; §E — "outcome 2 gives it most cheaply"; §F — the classification as the next computation.
-- `notes/debt1a-iii-tuning-test.md` §1 — the mass from the η-selection (Higgs) sector.
+- `notes/geometric-core.md` §C — the Siegel domain and H_Z; §D — the three outcomes; §E — "outcome 2 gives it most cheaply"; §F — the classification as the next computation.
+- `notes/tuning-test.md` §1 — the mass from the η-selection (Higgs) sector.
 - `notes/broken-born-theory.md` §3 — the v0.1 form of S_H; 'Addendum (v0.3, overnight)' and 'Addendum (v0.4)' — the question and its answer in the lab notebook.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement, tagged [D].
 - `HANDOFF.md` §2 — the handoff's summary of the chain.

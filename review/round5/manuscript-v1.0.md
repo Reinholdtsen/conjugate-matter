@@ -253,7 +253,7 @@ The answer to the title's question is yes, in two senses. For the universe's rad
 - [H2] Broken-Born program, internal audit of the record, items 23, 24 and 27 (`review/wiki-build-flags.md`).
 - [P1] Broken-Born program, working checkpoint v2.2 (`papers/broken-born-checkpoint-v2.md`).
 - [P2] Broken-Born program, special relativity of the momentum polarization (`papers/conjugate-special-relativity.md`).
-- [P3] Broken-Born program, calc note on the β coefficients (`notes/debt1a-iv-beta-coefficients.md`).
+- [P3] Broken-Born program, calc note on the β coefficients (`notes/beta-coefficients.md`).
 - [P4] Broken-Born program, two toy models of spontaneously broken reciprocity (`papers/reciprocity-toy-models.md`).
 
 **Literature.**

@@ -67,9 +67,9 @@ With only ω rigid, H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0)
 
 ---
 
-## 7. The massive momentum graviton (Debt 1)
+## 7. The massive momentum graviton
 
-*In plain terms: The new field X wants, by symmetry, to be a second copy of gravity — and nature forbids identical twins of the graviton: two interacting massless gravities are mathematically inconsistent. (This, we found, is the structural reason string theory's version of doubled geometry works while the symplectic version stalled since Born: string theory's partner field is a harmless different animal; the symplectic partner of the graviton is another graviton.) The only exit is mass, and the theory supplies it automatically: the instant the vacuum picks which half of phase space is "position," X swallows the redundant symmetry and becomes heavy. The health check came down to a tuning test — failed in one formulation, passed in the one the geometry prefers — and the passing version paid an unexpected dividend: X's entire contribution to the energy of empty space cancels exactly, by symmetry.*
+*In plain terms: The new field X wants, by symmetry, to be a second copy of gravity — and nature forbids identical twins of the graviton: two interacting massless gravities are mathematically inconsistent. (This, we found, is the structural reason string theory's version of doubled geometry works while the symplectic version stalled since Born: string theory's partner field is a harmless different animal; the symplectic partner of the graviton is another graviton.) The only exit is mass, and the theory supplies it automatically: the instant the vacuum picks which half of phase space is "position," X swallows the redundant symmetry and becomes heavy. The health check came down to a tuning test — failed in one formulation, passed in the one the geometry prefers — and the passing version produced an unexpected result: X's entire contribution to the energy of empty space cancels exactly, by symmetry.*
 
 **7.1 The chain [D + T].** (i) The rigid Sp(2d,ℝ) contains Z → Z + B (B symmetric): X is shift-symmetric — axion-like, never auxiliary. (ii) Locally, dual diffeomorphisms act as δX_μν = ∂₍μλ_ν₎ — a second linearized-diff gauge field, because X is *symmetric* (contrast DFT's antisymmetric B-field: the symmetry type of the rigid pairing dictates the partner's spin). Massless X is excluded by the multi-graviton no-go [8†]; ungauged X by Lorentz signature. (iii) The polarization choice spontaneously breaks the dual diffs; X eats the four Goldstones and emerges massive, M_X = the polarization-breaking scale. The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†].
 
@@ -85,7 +85,7 @@ With only ω rigid, H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0)
 
 ---
 
-## 8. Conjugate matter and the gate (Debt 2)
+## 8. Conjugate matter and the gate
 
 *In plain terms: Dark matter, here, is ordinary matter's mirror-polarized cousin: it falls and bends light like everything else, but its private force operates only between particles moving at nearly the same velocity — a gate in relative speed. We first postulated the gate; now we know its mechanism: two conjugate particles exchange the massive momentum-graviton, and can only do so where their momentum-space wavepackets overlap. The observational fingerprint is a knee: self-interaction strong in cold dwarf galaxies, off in hot clusters — and the knee's sharpness is itself a diagnostic.*
 
@@ -93,7 +93,7 @@ With only ω rigid, H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0)
 
 ---
 
-## 9. Obituary: the death of momentum clumping (Debt 3)
+## 9. Obituary: the death of momentum clumping
 
 *In plain terms: The founding image of this program — dark matter flocking by velocity, invisible murmurations clumping in speed rather than space — was tested three ways and failed all three. For particles, the collective pull falls short by thirty orders of magnitude: never. The mathematics then said collective behavior could exist only if dark matter is a wave — and on the wave side, the one place flocking became mandatory predicted the tiniest galaxies should have bled their dark matter away. They are, in fact, the most dark-matter-rich objects known. The founding intuition died by its own mathematics, which is the machinery working: a theory that cannot lose bets cannot win them. The autopsy yielded one new experimental question — the knee's sharpness distinguishes particle dark matter from wave dark matter — and one loophole for individual knots, whose candidate has since been retired (§12).*
 
@@ -103,7 +103,7 @@ With only ω rigid, H ranges over Sp(2d,ℝ)/U(d): Z = X + iY (symmetric; Y > 0)
 
 ## 10. Cosmology
 
-*In plain terms: Our expanding universe and its contracting conjugate are one motion written twice, like a number and its reciprocal — a relation forced by the constancy of Planck's constant and identical to the |Z| = 1 circle of the modular field. Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so it must drift, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate ledger is a collapsing universe rebounding. The sky is voting now: DESI's hints of weakening dark energy are exactly the required drift.*
+*In plain terms: Our expanding universe and its contracting conjugate are one motion written twice, like a number and its reciprocal — a relation forced by the constancy of Planck's constant and identical to the |Z| = 1 circle of the modular field. Dark energy is the compass angle of the vacuum's polarization, confined by topology to a circle, so it must drift, can never cross the phantom line, and eventually goes negative — at which point our expansion halts and reverses, an event that in the conjugate description is a collapsing universe rebounding. The sky is voting now: DESI's hints of weakening dark energy are exactly the required drift.*
 
 **Constraint [D]:** ω-rigidity fixes the comoving phase-space cell: a·ã = 1 (ℏ does not run) — the |Z| = 1 self-dual locus. **Dictionary [D — corrected en route]:** with one shared lapse, a dual-frame fluid contributes w_eff = −w̃ (superseding an earlier −2 − w̃; the constraint's Jacobian changed the answer — rigor's job). Dual stiff ↦ Λ; dual Λ ↦ stiff; dual curvature ↦ negative dark radiation; dust ↦ dust; the dual Einstein term is an a⁻⁶ step in G_eff. **Dark energy [D + T]:** τ is hilltop quintessence on the Maslov circle, V = V₀[1 + cos(τ/f)], periodicity by topology; strictly w ≥ −1; thawing corridor wₐ ≈ −1.5(1 + w₀); two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint. Current data: compelling evidence for weakening dark energy with phantom behavior less significant (non-phantom compatible at ~2σ) and high posterior preference for a future anti-de Sitter transition and collapse in negative-minimum quintessence fits [19S, 20S, 21S]. **Under pressure (v2.1):** DESI DR2 itself reports that in every dataset combination "the favored w(z) shows a phase of w > −1 at low redshifts and a phantom crossing to w < −1 above redshifts z ≃ 0.4", and that this preference "is thus rather independent of parametrization choices made in the analysis" [21S]. The framework's strict w ≥ −1 therefore stands against the direct reading of the data. It survives on two points: non-phantom quintessence fits remain compatible [19S], and w(z) is inferred from distances rather than observed, as [21S] also notes. DR3 is the decisive test (§13, row 4). The turnaround is the conjugate bounce by constraint identity. §7.3 guarantees the wedge sector contributes nothing that competes with τ. **Toy-model support (v2.2) [D][V]:** in an explicit ρ-symmetric coset model of (H, K), and in the complex self-dual Grosse–Wulkenhaar model, ρ sits inside a continuous U(1), so the polarization is a Goldstone angle. In the coset model that angle parametrizes Λ(1): it is τ's circle. A definite polarization requires the ρ-preserving potential this section posits. That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves (`papers/reciprocity-toy-models.md`, §4). None of this tests the cosmology; it only shows the structure is consistent.
 
@@ -136,7 +136,7 @@ The 5.4 : 1 abundance question (polarization-genesis) applies to both.
 
 **Obituary: conjugate solitons (a v2.0 candidate; retired 2026-10-19).**
 
-- *What was claimed.* v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the Debt-3 loophole (§9), since topology, not collective dynamics, would localize them in momentum.
+- *What was claimed.* v2.0 listed topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge. It also claimed they slip through the clumping loophole (§9), since topology, not collective dynamics, would localize them in momentum.
 - *What was built and how it was tested.*
   - The candidate was developed into a standalone proposal, #14, now in `notes/`: superheavy 't Hooft–Polyakov monopoles of a hidden SU(2) → U(1) sector.
   - It was reviewed blind three times. Round 3, with code execution, returned verdict C, and arbitration upheld the central finding (`review/round3-adjudication.md`).
@@ -151,7 +151,7 @@ The 5.4 : 1 abundance question (polarization-genesis) applies to both.
 - *What survives.*
   - A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T].
   - The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V].
-  - The Debt-3 loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate.
+  - The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate.
 - *Checks.* The [V] numbers here are gated in `verify/soliton_obituary.py`.
 
 ---
@@ -202,21 +202,21 @@ Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppr
 
 ## 15. Assessment
 
-*In plain terms: Is there anything here? The founding image is dead, killed by this program's own calculations — the strongest evidence the machinery is honest. What survived is structural, and it survived tellingly: four consecutive consistency tests each forced the theory onto the unique consistent structure available, the last one paying out a vacuum-energy cancellation nobody ordered — though this session's literature check demoted that from "likely new" to "adjacent to known territory, comparison required," which is the process working, not failing. The program has produced one observation that stands regardless of its fate (the symplectic partner of the graviton is another graviton — why string theory's doubling works and Born's stalled), one identity awaiting a novelty verdict, one new experimental question (the knee-shape discriminant), one structural unification (polarization of phase space and of charge space as one move), and a two-way question about dark matter's nature with named discriminators; a third option, superheavy knots, was tested and retired. Its nearest trial is DESI's next release, and the current release already leans against its dark-energy prediction (§10). That is a live research program; the word "theory" still waits on items 1–3 above.*
+*In plain terms: Is there anything here? The founding image is dead, killed by this program's own calculations — the strongest evidence the machinery is honest. What survived is structural, and it survived tellingly: four consecutive consistency tests each forced the theory onto the unique consistent structure available, the last one yielding a vacuum-energy cancellation nobody ordered — though this session's literature check demoted that from "likely new" to "adjacent to known territory, comparison required," which is the process working, not failing. The program has produced one observation that stands regardless of its fate (the symplectic partner of the graviton is another graviton — why string theory's doubling works and Born's stalled), one identity awaiting a novelty verdict, one new experimental question (the knee-shape discriminant), one structural unification (polarization of phase space and of charge space as one move), and a two-way question about dark matter's nature with named discriminators; a third option, superheavy knots, was tested and retired. Its nearest trial is DESI's next release, and the current release already leans against its dark-energy prediction (§10). That is a live research program; the word "theory" still waits on items 1–3 above.*
 
-Lakatos ledger: **hard core** (spontaneously broken reciprocity, ω-only rigidity) intact, twice sharpened by forced corrections (P2′; the w-dictionary). **Progressive signs:** forced convergence onto consistency islands; predictions not previously posed (rows 3, 11); an unsolicited identity (§7.3); one over-constraint (DE sector); the §11.3 unification generating new questions. **Degeneration risks:** tunable wave-island collective sector (quarantined); gate tail not yet forced; the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem; DESI DR2's phantom crossing against §10's strict w ≥ −1. **Falsification exposure:** genuine and near-term (rows 1, 4, 7).
+Lakatos appraisal: **hard core** (spontaneously broken reciprocity, ω-only rigidity) intact, twice sharpened by forced corrections (P2′; the w-dictionary). **Progressive signs:** forced convergence onto consistency islands; predictions not previously posed (rows 3, 11); an unsolicited identity (§7.3); one over-constraint (DE sector); the §11.3 unification generating new questions. **Degeneration risks:** tunable wave-island collective sector (quarantined); gate tail not yet forced; the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem; DESI DR2's phantom crossing against §10's strict w ≥ −1. **Falsification exposure:** genuine and near-term (rows 1, 4, 7).
 
 ---
 
 ## Appendix A: Audit of founding suppositions (P.R., with fates)
 
 1. Symmetrize QM around conjugate variables — **alive; the hard core** (Born reciprocity, spontaneously broken, ω-only rigid).
-2. A coexisting conjugate universe — **alive, transformed**: one state, two ledgers.
+2. A coexisting conjugate universe — **alive, transformed**: one state, two descriptions.
 3. Matter clumps in momentum space — **dead as dynamics** (§9); **loophole**: topological p-localization of individual solitons untested, and its candidate is retired (§12).
 4. Dark matter is conjugate matter — **alive, modified**: x-clumping, gated self-force; now one of two remaining candidates (§12).
 5. Monopoles live in conjugate space, explaining non-detection — **split**: as explanation, dead (wrong duality; inflation suffices); as ontology, alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero"); the knot candidate it fed is retired (§12).
 6. Conjugate universe shrinks as ours expands — **promoted to theorem** (a·ã = 1 from ℏ-rigidity; the |Z| = 1 locus).
-7. Our expansion reverses at their bounce — **alive, corrected**: one event, two ledgers; live at DESI DR3.
+7. Our expansion reverses at their bounce — **alive, corrected**: one event, two descriptions; live at DESI DR3.
 8. Synchronized, not causal; Fourier/holography — **alive** (the dictionary); holographic tie loosened, echoed in τ's boundary residence.
 9. Their collapse is our acceleration — **dead twice** (w = −2 falsified; corrected dictionary removed the mechanism).
 10. Momentum space has its own gravity — **vindicated, transformed**: dynamical, massive, reciprocity-odd (§7).

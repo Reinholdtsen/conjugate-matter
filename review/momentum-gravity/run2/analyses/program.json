@@ -1,11 +1,11 @@
 {
- "summary": "The program's momentum gravity is the massive spin-2 field X. Between two ordinary bodies the record gives it as a Yukawa term added to Newton's potential. The term has gravitational strength (α = 4/3 in the aligned vacuum, u = 1) and a range below 37.7 μm. No document gives it any velocity dependence. The dependence derived here is only the spin-2 tensor factor: (3γ²−1)/2 ≈ 1 + (3/2)v²/c² for X, against 2γ²−1 ≈ 1 + 2v²/c² for the graviton. Carried through to a two-body Lagrangian, the graviton case reproduces the EIH velocity terms exactly. The only relative-velocity gate in the program acts between conjugate-matter (χ) particles, through the momentum-fiber width of χ quanta. It multiplies a contact interaction about 10⁴⁰ times stronger than gravity at the benchmark. So between two χ bodies it is velocity-gated scattering where the bodies overlap, not a perturbation of the 1/r law, and their gravity stays ungated (equivalence principle). Between χ and ordinary matter the record gives only ordinary gravity; any X term is sub-millimetre and ungated, or absent at tree level under the Siegel-block reading. An interaction that depends only on momenta exerts no force (ṗ = 0), so the chat-only 'Yukawa in momentum', read as a potential, changes only how velocity relates to momentum. A velocity-gated perturbation of gravity therefore needs a 1/r potential multiplied by a gate, which is Paul's picture (model b). That model is Galilean invariant when the gate uses relative velocity, and it moves momentum only between near-co-moving bodies. It necessarily changes inertia at relative order 2β|Φ|/v*², and it turns orbits backward by about 4πβGM/(a v*²) per orbit, about 4×10⁶ β times GR's rate. The program as written cannot supply such a long-range part. X's mass is common to all sources, so the laboratory bound also limits X's range between χ particles, unless X's coupling to ordinary matter is made far weaker than gravity. That contradicts #8 §3 and #11 §7.5, or the aligned vacuum. Separately, a long-range force no stronger than G cannot also make dwarf-galaxy cores, which would need about 3×10³¹ G. If X carries the transfer factor, the record's own contact gate needs X heavier than about 10–200 keV, a range below about 10⁻¹¹ m. Debt 3 tested only the contact model, so the obituary stands for the program as written. A long-range gated force is a different, untested model that would need new structure.",
+ "summary": "The program's momentum gravity is the massive spin-2 field X. Between two ordinary bodies the record gives it as a Yukawa term added to Newton's potential. The term has gravitational strength (α = 4/3 in the aligned vacuum, u = 1) and a range below 37.7 μm. No document gives it any velocity dependence. The dependence derived here is only the spin-2 tensor factor: (3γ²−1)/2 ≈ 1 + (3/2)v²/c² for X, against 2γ²−1 ≈ 1 + 2v²/c² for the graviton. Carried through to a two-body Lagrangian, the graviton case reproduces the EIH velocity terms exactly. The only relative-velocity gate in the program acts between conjugate-matter (χ) particles, through the momentum-fiber width of χ quanta. It multiplies a contact interaction about 10⁴⁰ times stronger than gravity at the benchmark. So between two χ bodies it is velocity-gated scattering where the bodies overlap, not a perturbation of the 1/r law, and their gravity stays ungated (equivalence principle). Between χ and ordinary matter the record gives only ordinary gravity; any X term is sub-millimetre and ungated, or absent at tree level under the Siegel-block reading. An interaction that depends only on momenta exerts no force (ṗ = 0), so the chat-only 'Yukawa in momentum', read as a potential, changes only how velocity relates to momentum. A velocity-gated perturbation of gravity therefore needs a 1/r potential multiplied by a gate, which is Paul's picture (model b). That model is Galilean invariant when the gate uses relative velocity, and it moves momentum only between near-co-moving bodies. It necessarily changes inertia at relative order 2β|Φ|/v*², and it turns orbits backward by about 4πβGM/(a v*²) per orbit, about 4×10⁶ β times GR's rate. The program as written cannot supply such a long-range part. X's mass is common to all sources, so the laboratory bound also limits X's range between χ particles, unless X's coupling to ordinary matter is made far weaker than gravity. That contradicts #8 §3 and #11 §7.5, or the aligned vacuum. Separately, a long-range force no stronger than G cannot also make dwarf-galaxy cores, which would need about 3×10³¹ G. If X carries the transfer factor, the record's own contact gate needs X heavier than about 10–200 keV, a range below about 10⁻¹¹ m. The clumping problem tested only the contact model, so the obituary stands for the program as written. A long-range gated force is a different, untested model that would need new structure.",
  "claims": [
   {
    "id": "P1",
    "statement": "Record, two ordinary bodies. The program's momentum gravity X adds a Yukawa term to Newtonian gravity: V(r) = −(G m1 m2/r)(1 + α e^{−r/λ_X}), with α = (4/3)(M_f u/M_g)². Reciprocity forces M_f = M_g (#8 §3), and the aligned vacuum has u = 1, so α = 4/3. Torsion balances then give λ_X < 37.7 μm and M_X c² > 5.2 meV; at u = 0.5 the bound is 57.0 μm. #11 §7.5 says only 'SM couplings gravitational-strength and Yukawa-cut at 1/M_X' [D]. No document states any dependence of this term on the bodies' velocities.",
    "tag": "[D][V][S] as recorded (diameter note §8.2; premise u = 1 [D][V], its persistence [O]); [D + T] in #8 §3; the absence of a stated velocity dependence is a search result",
-   "basis": "Read #11 §7.5, notes/debt1a-iv-beta-coefficients.md §3 and papers/phase-space-diameter.md §8.2, and reran verify/phase_space_diameter.py. /usr/bin/grep for 'velocity' over papers/, notes/debt1a-* and HANDOFF.md finds velocity only in the χ gate, the Debt-3 obituary, and #11 §3's plain-language line 'forces fade with distance, never with velocity difference'.",
+   "basis": "Read #11 §7.5, notes/beta-coefficients.md §3 and papers/phase-space-diameter.md §8.2, and reran verify/phase_space_diameter.py. /usr/bin/grep for 'velocity' over papers/, the field-equation notes (notes/geometric-core.md, x-classification.md, tuning-test.md, beta-coefficients.md) and HANDOFF.md finds velocity only in the χ gate, the clumping obituary, and #11 §3's plain-language line 'forces fade with distance, never with velocity difference'.",
    "confidence": "high",
    "numbers": [
     {
@@ -23,22 +23,22 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md §7.5",
-    "notes/debt1a-iv-beta-coefficients.md §3",
+    "notes/beta-coefficients.md §3",
     "papers/phase-space-diameter.md §8.2",
     "verify/phase_space_diameter.py"
    ]
   },
   {
    "id": "P2",
-   "statement": "Record, two χ particles. The interaction is #11 §8's amplitude M(k,q) = 4πα̃ m_χ/(q² + m_φ²)·F(k²/μ²), where k is the incoming relative momentum and the gate is 'delivered by X-exchange between dual-stress bilinears' [D — mechanism; shape O]. Per #6 §4, integrating out massive X gives a contact four-χ operator. The k-dependence comes from the χ quanta's momentum-fiber width μ (Gaussian overlap e^{−(p1−p2)²/2μ²}). Debt 3a's model has a Gaussian gate, the x-range collapsed to contact (range 1/m_φ), and its coupling fixed by σ0/m = 30 cm²/g. Range: microscopic. The benchmark m_φ ~ m_χ gives 2.8×10⁻¹⁵ m, and X's own range is at most 37.7 μm at u = 1. Velocity dependence: a gate in relative velocity, σ_T = σ0 F(v²/v*²), with v* ~ 10² km/s (Debt 3a uses 120 km/s). This is the only relative-velocity dependence beyond O(v²/c²) anywhere in the record. Strength at the benchmark (α̃ ≈ 1): 3×10⁴⁰ times G m_χ². Gravity between χ particles is ordinary and ungated: 'χ propagates on g (equivalence principle; Bullet-Cluster-safe)' (#11 §8; P4).",
+   "statement": "Record, two χ particles. The interaction is #11 §8's amplitude M(k,q) = 4πα̃ m_χ/(q² + m_φ²)·F(k²/μ²), where k is the incoming relative momentum and the gate is 'delivered by X-exchange between dual-stress bilinears' [D — mechanism; shape O]. Per #6 §4, integrating out massive X gives a contact four-χ operator. The k-dependence comes from the χ quanta's momentum-fiber width μ (Gaussian overlap e^{−(p1−p2)²/2μ²}). Calc note #2's model has a Gaussian gate, the x-range collapsed to contact (range 1/m_φ), and its coupling fixed by σ0/m = 30 cm²/g. Range: microscopic. The benchmark m_φ ~ m_χ gives 2.8×10⁻¹⁵ m, and X's own range is at most 37.7 μm at u = 1. Velocity dependence: a gate in relative velocity, σ_T = σ0 F(v²/v*²), with v* ~ 10² km/s (calc note #2 uses 120 km/s). This is the only relative-velocity dependence beyond O(v²/c²) anywhere in the record. Strength at the benchmark (α̃ ≈ 1): 3×10⁴⁰ times G m_χ². Gravity between χ particles is ordinary and ungated: 'χ propagates on g (equivalence principle; Bullet-Cluster-safe)' (#11 §8; P4).",
    "tag": "[D — mechanism; shape O] as recorded (#11 §8; #6 §4 [D — structural]); comparison numbers [D] computed here",
-   "basis": "Read #11 §8, notes/debt1a-ii-X-classification.md §4, notes/debt3a-stream-stability.md and the lab notebook §3 and §5.1. Strength comparison and range from p4_range_numbers.py; g from the record's check script.",
+   "basis": "Read #11 §8, notes/x-classification.md §4, notes/stream-stability.md and the lab notebook §3 and §5.1. Strength comparison and range from p4_range_numbers.py; g from the record's check script.",
    "confidence": "high",
    "numbers": [
     {
-     "quantity": "Debt-3a contact coupling g",
+     "quantity": "Calc note #2's contact coupling g",
      "value": "2.48e3 GeV^-2",
-     "script": "review/wiki-build-checks/debt3a_check.py",
+     "script": "review/wiki-build-checks/stream_stability_check.py",
      "printed_output": "g = 2.48e+03 GeV^-2"
     },
     {
@@ -54,16 +54,16 @@
      "printed_output": "benchmark transfer mediator m_phi ~ m_chi: range hbar/(m_phi c) = 2.82e-15 m"
     },
     {
-     "quantity": "Debt-3a shortfall (record, contact model)",
+     "quantity": "Calc note #2's shortfall (record, contact model)",
      "value": "3.9e-28 (dwarf core), 2.9e-31 (MW local)",
-     "script": "review/wiki-build-checks/debt3a_check.py",
+     "script": "review/wiki-build-checks/stream_stability_check.py",
      "printed_output": "dwarf core: eps_gate = 2.7e-37 GeV, m min(sig,v*)^2 = 7e-10 GeV, ratio = 3.9e-28 / MW local: eps_gate = 3.2e-39 GeV, m min(sig,v*)^2 = 1.1e-08 GeV, ratio = 2.9e-31"
     }
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md §8, §4 (P4)",
-    "notes/debt1a-ii-X-classification.md §4",
-    "notes/debt3a-stream-stability.md 'Setup', 'Numbers at the scattering benchmark'",
+    "notes/x-classification.md §4",
+    "notes/stream-stability.md 'Setup', 'Numbers at the scattering benchmark'",
     "notes/broken-born-theory.md §3, §5.1",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'"
    ]
@@ -98,8 +98,8 @@
    "sources": [
     "papers/broken-born-checkpoint-v2.md §4, §8, §13 row 7",
     "papers/conjugate-special-relativity.md §6",
-    "notes/debt1a-iv-beta-coefficients.md §3, §4",
-    "notes/debt1a-ii-X-classification.md §4"
+    "notes/beta-coefficients.md §3, §4",
+    "notes/x-classification.md §4"
    ]
   },
   {
@@ -118,9 +118,9 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md §6, §7.5",
-    "notes/debt1a-geometric-core.md §C, §E",
-    "notes/debt1a-ii-X-classification.md §4",
-    "notes/debt1a-iv-beta-coefficients.md §3",
+    "notes/geometric-core.md §C, §E",
+    "notes/x-classification.md §4",
+    "notes/beta-coefficients.md §3",
     "notes/broken-born-theory.md §3",
     "review/wiki-build-flags.md item 39"
    ]
@@ -140,7 +140,7 @@
     }
    ],
    "sources": [
-    "notes/debt1a-ii-X-classification.md §4",
+    "notes/x-classification.md §4",
     "papers/broken-born-checkpoint-v2.md §8, §13 rows 1–2",
     "wiki/dark-matter/conjugate-matter/gate-mechanism.md 'Scope and caveats'"
    ]
@@ -249,13 +249,13 @@
   },
   {
    "id": "P11",
-   "statement": "Structural consequence. Any interaction that transfers momentum must depend on positions, since ṗ_i = −∂H/∂x_i. A gate in relative velocity can only switch a position-dependent interaction on or off: model (b) for a 1/r force, model (c) for a contact force. The lab notebook's founding mean field, ε(p; f) = p²/2m + ∫U(p − p′)f̄(p′), cannot change the momentum distribution at all wherever f̄ is uniform in x. Exchanging the roles of x and v in the Jeans problem would also turn the kinetic term into x²/2m, which χ does not have (#11 §8: χ has ordinary kinematics on g). Debt 3a's version is local in x (contact), which is what lets its mean field move momenta.",
+   "statement": "Structural consequence. Any interaction that transfers momentum must depend on positions, since ṗ_i = −∂H/∂x_i. A gate in relative velocity can only switch a position-dependent interaction on or off: model (b) for a 1/r force, model (c) for a contact force. The lab notebook's founding mean field, ε(p; f) = p²/2m + ∫U(p − p′)f̄(p′), cannot change the momentum distribution at all wherever f̄ is uniform in x. Exchanging the roles of x and v in the Jeans problem would also turn the kinetic term into x²/2m, which χ does not have (#11 §8: χ has ordinary kinematics on g). Calc note #2's version is local in x (contact), which is what lets its mean field move momenta.",
    "tag": "[D]",
-   "basis": "P10's Hamilton's equations; notes/broken-born-theory.md §5.2 as quoted on the founding-image wiki page; notes/debt3a-stream-stability.md 'Setup'.",
+   "basis": "P10's Hamilton's equations; notes/broken-born-theory.md §5.2 as quoted on the founding-image wiki page; notes/stream-stability.md 'Setup'.",
    "confidence": "high",
    "sources": [
     "notes/broken-born-theory.md §5.2",
-    "notes/debt3a-stream-stability.md 'Setup'",
+    "notes/stream-stability.md 'Setup'",
     "papers/broken-born-checkpoint-v2.md §8"
    ]
   },
@@ -317,7 +317,7 @@
   },
   {
    "id": "P14",
-   "statement": "Model (c), the gated contact interaction of Debt 3a, smoothed with width ε: U = −g δ_ε(x1 − x2) G((p1 − p2)/μ). Hamilton's equations give ṗ1 = g·G·∇δ_ε and ẋ1 = p1/m − g δ_ε ∂G/∂p1. Both act only while the bodies overlap: the force gradient at r = 10ε is 3×10⁻²¹ of its maximum, and deflections at b = 10 are ~10⁻²¹ rad. Its effect on velocities is through collisions, i.e. SIDM with a gated σ_T. Collective motion appears only if g n_gate ≥ m min(σ, v*)², a criterion missed by 28–31 orders at the benchmark (record). The p1 − p2 argument is Galilean invariant only for equal masses, which covers χχ. Between separated bodies it exerts no force.",
+   "statement": "Model (c), the gated contact interaction of calc note #2, smoothed with width ε: U = −g δ_ε(x1 − x2) G((p1 − p2)/μ). Hamilton's equations give ṗ1 = g·G·∇δ_ε and ẋ1 = p1/m − g δ_ε ∂G/∂p1. Both act only while the bodies overlap: the force gradient at r = 10ε is 3×10⁻²¹ of its maximum, and deflections at b = 10 are ~10⁻²¹ rad. Its effect on velocities is through collisions, i.e. SIDM with a gated σ_T. Collective motion appears only if g n_gate ≥ m min(σ, v*)², a criterion missed by 28–31 orders at the benchmark (record). The p1 − p2 argument is Galilean invariant only for equal masses, which covers χχ. Between separated bodies it exerts no force.",
    "tag": "[D] executed; record result [D] (#11 §9)",
    "basis": "sympy for Hamilton's equations; RK4 deflections at b = 0.5, 3, 10 (contact width 1) and v∞ = 0.3, 1, 3 v*.",
    "confidence": "high",
@@ -330,7 +330,7 @@
     }
    ],
    "sources": [
-    "notes/debt3a-stream-stability.md",
+    "notes/stream-stability.md",
     "papers/broken-born-checkpoint-v2.md §9"
    ]
   },
@@ -342,7 +342,7 @@
    "confidence": "high",
    "sources": [
     "papers/broken-born-checkpoint-v2.md §8",
-    "notes/debt1a-ii-X-classification.md §4"
+    "notes/x-classification.md §4"
    ]
   },
   {
@@ -368,7 +368,7 @@
    "id": "P17",
    "statement": "Forcing chain and how far the range bound reaches. #11 §7.1 and #6 §1–§3: shift symmetry makes X never auxiliary, dual diffeomorphisms make it a second graviton, the multi-graviton no-go [8†] excludes massless X, and Higgsing of dual diffeomorphisms gives M_X = the polarization-breaking scale. The chain forces M_X > 0 but sets no scale, and the record gives M_X no value, so the chain alone does not forbid a light X (M_X c² = 6.4×10⁻²⁷ eV for a 1 kpc range). M_X is a property of the field, so λ_X is the same for every source. At fixed ordinary-matter coupling α = (4/3)u², the bound λ_X < 37.7 μm therefore limits X's range between χ particles too. What differs by source is only the strength, since χ's dual-stress coupling is separate. The bound moves only by weakening X's coupling to ordinary matter (57.0 μm at u = 0.5), or by screening.",
    "tag": "[D + T] chain as recorded; universality [D]; number [D] executed",
-   "basis": "Read #11 §7.1, notes/debt1a-ii-X-classification.md §1–§3, papers/phase-space-diameter.md §8.2 ('with no value in the record').",
+   "basis": "Read #11 §7.1, notes/x-classification.md §1–§3, papers/phase-space-diameter.md §8.2 ('with no value in the record').",
    "confidence": "high",
    "numbers": [
     {
@@ -380,7 +380,7 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md §7.1, §7.5",
-    "notes/debt1a-ii-X-classification.md §1–§3",
+    "notes/x-classification.md §1–§3",
     "papers/phase-space-diameter.md §8.2"
    ]
   },
@@ -413,7 +413,7 @@
    "sources": [
     "papers/phase-space-diameter.md §8.2, References (Enander–Mörtsell 2013)",
     "papers/broken-born-checkpoint-v2.md §7.3, §7.5, §13 row 2",
-    "notes/debt1a-iv-beta-coefficients.md §2–§3",
+    "notes/beta-coefficients.md §2–§3",
     "notes/broken-born-theory.md §5.1"
    ]
   },
@@ -421,7 +421,7 @@
    "id": "P19",
    "statement": "Strength mismatch: one interaction cannot be both the SIDM gate and a long-range perturbation of gravity. A long-range χχ force that made dwarf-galaxy cores by scattering (σ0 = 3.7×10⁻²⁴ cm² at 30 km/s, screened-Coulomb σ_T) needs strength A ≈ 1.1×10⁻⁹, which is 3.3×10³¹ G m_χ². That would be catastrophic for halos. Conversely, X at gravitational strength (α = 4/3) with a 37.7 μm range gives σ_T/σ0 = 2×10⁻⁶³. So the record's single X cannot both make σ0 and act at long range: the dual-stress enhancement OP5 would have to switch off at long range. A long-range gated component would have to be a separate, weak (≲ G) interaction that does not make cores.",
    "tag": "[D] executed (order of magnitude)",
-   "basis": "σ_T = (4πA²/(μ²v⁴)) ln(μv²λ/A), fixed-point solve; Coulomb-log approximations stated; benchmark inputs from #1 §5.1 and Debt 3a.",
+   "basis": "σ_T = (4πA²/(μ²v⁴)) ln(μv²λ/A), fixed-point solve; Coulomb-log approximations stated; benchmark inputs from #1 §5.1 and calc note #2.",
    "confidence": "medium",
    "numbers": [
     {
@@ -439,7 +439,7 @@
    ],
    "sources": [
     "papers/broken-born-checkpoint-v2.md §8, §14 item 5",
-    "notes/debt1a-iv-beta-coefficients.md §3"
+    "notes/beta-coefficients.md §3"
    ]
   },
   {
@@ -472,14 +472,14 @@
   },
   {
    "id": "P22",
-   "statement": "The obituary's reach. Debt 3 tested a contact interaction gated in momentum: Debt 3a 'the x-range collapsed to contact', and Debt 3b a gated contact attraction. Its particle-island shortfall of 10²⁸–10³¹ uses a coupling g fixed by σ0. For the program as written there is no long-range gated component, so the obituary stands. A long-range gated force (model b) is a different model that Debt 3 never evaluated. Its mean field carries the long-range kernel ∝ 1/k², so its stability threshold is Jeans-like, not Debt 3a's criterion. Its strength would be ≲ G, not set by σ0 (P19). Whether it clumps, and whether it survives other constraints, is outside this record.",
+   "statement": "The obituary's reach. The clumping problem tested a contact interaction gated in momentum: calc note #2 'the x-range collapsed to contact', and calc note #3 a gated contact attraction. Its particle-island shortfall of 10²⁸–10³¹ uses a coupling g fixed by σ0. For the program as written there is no long-range gated component, so the obituary stands. A long-range gated force (model b) is a different model that the clumping problem never evaluated. Its mean field carries the long-range kernel ∝ 1/k², so its stability threshold is Jeans-like, not calc note #2's criterion. Its strength would be ≲ G, not set by σ0 (P19). Whether it clumps, and whether it survives other constraints, is outside this record.",
    "tag": "[D] (record reading); [O] for the untested model",
-   "basis": "notes/debt3a-stream-stability.md 'Setup'; notes/debt3b-wave-island.md 'Setup'; P12 and P19.",
+   "basis": "notes/stream-stability.md 'Setup'; notes/wave-island.md 'Setup'; P12 and P19.",
    "confidence": "high",
    "sources": [
-    "notes/debt3a-stream-stability.md",
-    "notes/debt3b-wave-island.md",
-    "notes/debt3c-ufd-endpoint.md 'Verdict and closure of Debt 3'",
+    "notes/stream-stability.md",
+    "notes/wave-island.md",
+    "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'",
     "wiki/dark-matter/momentum-clumping/founding-image.md"
    ]
   }
@@ -490,13 +490,13 @@
   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_momentum_mechanics.py (output p3_momentum_mechanics.out)",
   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p3_flyby_check.py (output p3_flyby_check.out)",
   "/home/paul/.claude/projects/-home-paul-git-reinholdtsen-conjugate-matter/7156ee3a-6166-4b9e-84c4-fb9703a50211/mg/program/p4_range_numbers.py (output p4_range_numbers.out)",
-  "Record scripts run unmodified for printed output: /home/paul/git/reinholdtsen/conjugate-matter/verify/phase_space_diameter.py and /home/paul/git/reinholdtsen/conjugate-matter/review/wiki-build-checks/debt3a_check.py"
+  "Record scripts run unmodified for printed output: /home/paul/git/reinholdtsen/conjugate-matter/verify/phase_space_diameter.py and /home/paul/git/reinholdtsen/conjugate-matter/review/wiki-build-checks/stream_stability_check.py"
  ],
  "open_questions": [
   "Does ordinary matter couple linearly to X? The record gives two pictures. In the Siegel parametrization X enters the position block of H_Z only at second order. In the bimetric frame picture, #8 §3 and #11 §7.5 give gravitational strength. The answer decides whether the torsion-balance bound applies to X at all (related: flag 39).",
   "Is the transfer factor 1/(q² + m_φ²) carried by X (m_φ = M_X) or by a separate dark mediator? If by X, the record's contact gate and row 2's isotropy need M_X ≳ 10–200 keV (λ_X ≲ 10⁻¹¹ m).",
   "Does the fiber-overlap gate act on graviton exchange between χ quanta? The record says χ gravity is ungated (χ propagates on g; equivalence principle) but derives no reason why only the dual-stress coupling sees the fiber width.",
-  "What is the mean-field stability threshold of a long-range attraction gated in relative velocity (model b) for χ in halos? Its kernel ∝ 1/k² makes it Jeans-like, not Debt 3a's contact criterion. Not evaluated here (clumping task).",
+  "What is the mean-field stability threshold of a long-range attraction gated in relative velocity (model b) for χ in halos? Its kernel ∝ 1/k² makes it Jeans-like, not calc note #2's contact criterion. Not evaluated here (clumping task).",
   "Could the program supply a light, dark-only mediator with strength ≲ G? No document derives one, and P4 strict forbids it to couple to ordinary matter.",
   "For ranges far beyond the Solar System, the record's 37.7 μm statement does not by itself exclude a gravitational-strength X. Which tests do (Vainshtein-screened Solar System, galaxy-scale lensing against dynamics, lab-versus-cosmology G) is not worked out in the record."
  ],

@@ -5,12 +5,12 @@ status: established
 description: "A ghost is a mode whose kinetic term has the wrong sign: negative energy or negative norm, and a vacuum that decays once the mode interacts. How it differs from tachyons, gradient instabilities and strong coupling; how ghost freedom is checked, from constraints and the kinetic matrix to the Hamiltonian constraint; the Higuchi ghost and phantom fields; and the ghosts that bear on the program, from the signature obstruction and the tuning test to model I's de Sitter target."
 provenance: [T]
 sources:
-  - "notes/debt1a-ii-X-classification.md §2"
-  - "notes/debt1a-ii-X-classification.md §3"
-  - "notes/debt1a-ii-X-classification.md §5"
-  - "notes/debt1a-geometric-core.md §D"
-  - "notes/debt1a-iii-tuning-test.md §2"
-  - "notes/debt1a-iii-tuning-test.md §3"
+  - "notes/x-classification.md §2"
+  - "notes/x-classification.md §3"
+  - "notes/x-classification.md §5"
+  - "notes/geometric-core.md §D"
+  - "notes/tuning-test.md §2"
+  - "notes/tuning-test.md §3"
   - "papers/broken-born-checkpoint-v2.md §7.1"
   - "papers/broken-born-checkpoint-v2.md §7.2"
   - "papers/broken-born-checkpoint-v2.md §10"
@@ -42,7 +42,7 @@ sources:
 
 *A ghost is a mode of a field whose kinetic term, the part of its energy that comes from the field's rate of change, has the wrong sign, so that its excitations carry negative energy or, in the quantum theory, negative norm. On its own a ghost oscillates like any other field. Coupled to ordinary fields it leaves the energy with no lower bound, and the vacuum can decay into ghosts and ordinary particles without violating energy conservation, so a theory in which a ghost interacts with ordinary matter is not considered physical. The other instabilities of small perturbations about a solution are different: a tachyon, a mode of negative mass squared, grows at long wavelengths, and a gradient instability, a negative squared propagation speed, grows fastest at short wavelengths. Under strong coupling, which is not an instability, a mode's kinetic term is so small that linear perturbation theory cannot decide its fate. Whether a mode is a ghost is read from the signs of the kinetic terms that remain once constraints have removed the components that do not propagate. Ghost freedom decides what the program's [momentum graviton X](/wiki/gravity/momentum-graviton) can be: it excludes an X without its gauge symmetry, and [the tuning test](/wiki/gravity/tuning-test) asks whether the potential that gives X its mass carries the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli#beyond-quadratic-order-the-boulwaredeser-ghost-t) of generic massive gravity. It also fixes the kinetic term of the real structure in [model I](/wiki/symmetry-breaking/toy-models/coset-model), the program's coset toy model, and a ghost field is one route to the [phantom side of the dark-energy divide](/wiki/cosmology/dark-energy/phantom-divide), which the program's dark-energy field, an ordinary scalar, cannot reach.*
 
-**Status:** Established — [T] — textbook field theory, written here from general knowledge, with the literature it names marked †; no `verify/` script checks the general statements. The program's documents use the concept without defining it or citing a general source. Their statements about particular ghosts keep their own tags, given where they are quoted below: [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction) is [T — standard] in [calc note #6](/wiki/history/documents/debt-1-notes) §2; the Boulware–Deser ghost of the metric tier is [D — rigorous] in #7 §2 and [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2, checked by battery tests T4 and T7 ([the verification battery](/wiki/method/verification/battery)); the frame tier's ghost freedom is [D — structural, resting on T] in #7 §3, with no machine check; and the positive kinetic term of model I's real structure is checked by `verify/toy_coset.py` in [the gate](/wiki/method/verification/the-gate) ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
+**Status:** Established — [T] — textbook field theory, written here from general knowledge, with the literature it names marked †; no `verify/` script checks the general statements. The program's documents use the concept without defining it or citing a general source. Their statements about particular ghosts keep their own tags, given where they are quoted below: [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction) is [T — standard] in [calc note #6](/wiki/history/documents/field-equation-notes) §2; the Boulware–Deser ghost of the metric tier is [D — rigorous] in #7 §2 and [D][V] in [checkpoint #11](/wiki/history/documents/checkpoint) §7.2, checked by battery tests T4 and T7 ([the verification battery](/wiki/method/verification/battery)); the frame tier's ghost freedom is [D — structural, resting on T] in #7 §3, with no machine check; and the positive kinetic term of model I's real structure is checked by `verify/toy_coset.py` in [the gate](/wiki/method/verification/the-gate) ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)).
 
 ## What a ghost is [T]
 
@@ -211,9 +211,9 @@ The program's documents give no general reference for ghosts. For particular res
 
 ## Sources
 
-- `notes/debt1a-ii-X-classification.md` §2 — the signature obstruction [T — standard]; §3 — the five polarizations, the health criterion [D — structural] and the Lorentzian caveat; §5 — "massive spin-2, conditionally healthy" and the stakes of the test.
-- `notes/debt1a-geometric-core.md` §D — the ten components; the healthy, auxiliary or ghost classification; the positive target metric and the double-field-theory precedent.
-- `notes/debt1a-iii-tuning-test.md` §2 — the metric tier's Boulware–Deser ghost, "a theorem-grade negative" [D — rigorous]; §3 — the frame tier, "ghost-free by construction" [D — structural, resting on T].
+- `notes/x-classification.md` §2 — the signature obstruction [T — standard]; §3 — the five polarizations, the health criterion [D — structural] and the Lorentzian caveat; §5 — "massive spin-2, conditionally healthy" and the stakes of the test.
+- `notes/geometric-core.md` §D — the ten components; the healthy, auxiliary or ghost classification; the positive target metric and the double-field-theory precedent.
+- `notes/tuning-test.md` §2 — the metric tier's Boulware–Deser ghost, "a theorem-grade negative" [D — rigorous]; §3 — the frame tier, "ghost-free by construction" [D — structural, resting on T].
 - `papers/broken-born-checkpoint-v2.md` §7.1 — "ungauged X by Lorentz signature" [D + T]; §7.2 — the tuning test [D][V]; §10 — "strictly w ≥ −1" and the dual Einstein term as an a⁻⁶ step; §14 item 1 — the class selected, not derived; item 3 — the Lorentzian dressing, open.
 - `verify/battery.py` T4, T7 — the linearized potential's departure from the Fierz–Pauli form, and the power sum p₄ outside the linear span of the elementary symmetric polynomials.
 - `papers/reciprocity-toy-models.md` §2 — K's target as two-dimensional de Sitter space and its two kinetic terms; §4 — the naive potential, unbounded below with H dynamical, its vacuum a saddle.

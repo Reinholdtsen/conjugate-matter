@@ -13,7 +13,7 @@ sources:
   - "review/momentum-gravity/answer.md 'Candidate flags (for your ruling)'"
   - "review/momentum-gravity/scripts/corner/diagnostics_final.out"
   - "review/momentum-gravity/scripts/corner/injection_test.out"
-  - "review/wiki-build-checks/debt3a_check.py"
+  - "review/wiki-build-checks/stream_stability_check.py"
   - "scripts/check.sh"
   - "CLAUDE.md 'Layout'"
   - "CLAUDE.md 'Method (HANDOFF §5)'"
@@ -29,7 +29,7 @@ sources:
 The note is `notes/velocity-gated-gravity.md`, of 2026-10-28. Its results are on these pages:
 
 - [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies): the momentum graviton X adds a short-range Yukawa term whose only velocity dependence is relativistic, and a relative-velocity gate acting between all bodies is excluded (note §§2–3; blocks B and C);
-- [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers) and [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion): the obituary's three branches and Debt 3a's shortfall (note §4; block D);
+- [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers) and [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion): the obituary's three branches and calc note #2's shortfall (note §4; block D);
 - [a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction), a model the record does not contain: its readings, the Lyman-α and Sagittarius bounds, the clumping thresholds, the cores and the narrow-gate corner (note §§5–8; blocks E to H);
 - [what could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers): finite spin, a tower of spins, a medium, continuous spin (note §9; block I).
 
@@ -64,7 +64,7 @@ Inputs: CODATA 2018. The record's hypothetical long-range attraction
 U = -eps G m^2 W(|v - v'|/v*)/r with the amplitude gate W = exp(-s^2/2) (the
 record's convention; the ordinary-matter analyses use exp(-v^2/v_a^2), and
 v_a = sqrt2 v*); v* = 120 km/s; m_chi = 70 MeV and sigma_T/m = 30 cm^2/g at
-30 km/s (Debt 3a). Each data input (Planck 2018, DESI DR1 and eBOSS
+30 km/s (calc note #2). Each data input (Planck 2018, DESI DR1 and eBOSS
 Lyman-alpha compressions, planetary ephemerides, the double pulsar, Lee et al.
 2020, Vasiliev-Belokurov 2020's Sagittarius, Enander-Mortsell 2013) is typed
 in with its source where it is used; the record marks them [S] (live-searched
@@ -111,13 +111,13 @@ These are the numbers of [X between ordinary bodies](/wiki/gravity/momentum-grav
 - C3: the Gaussian envelope over v_a = 0.3–3000 km/s, |ε| < 8.65×10⁻⁹ ("8.7e-9"), weakest at 3000 km/s and set by the double pulsar; the Lorentzian envelope over 0.1–3000 km/s, |ε| < 9.42×10⁻⁹; and the leading order as u → 0, δω̇/ω̇_GR = −(2/3)(c/v_a)²ε, which gives 7.92×10⁻⁹ at 3000 km/s from the double-pulsar limit.
 - C4: below v_a ≈ 0.3 km/s there is no numerical bound — the Gaussian envelope's weakest point on 0.1–0.3 km/s is ε < 0.615, at v_a = 0.176 km/s, set by Eros — only a qualitative exclusion: a body at rest at a pole has inertia m(1 − 2GMε/(Rv_a²)), which vanishes at ε = 7.97×10⁻⁵ for v_a = 0.1 km/s.
 
-### D. The obituary's scope: Debt 3a's shortfall (4 checks)
+### D. The obituary's scope: calc note #2's shortfall (4 checks)
 
-- D1: "Debt 3a's record logic", ported from the wiki build's recomputation `review/wiki-build-checks/debt3a_check.py`: g = 2.48×10³ GeV⁻², and the contact gate's collective pull over m·min(σ, v\*)² is 3.9×10⁻²⁸ in a dwarf core and 2.9×10⁻³¹ in the Milky Way. A second D1 line prints the logarithms, −27.41 and −30.54, and notes that "'falls short by 10^28-10^31' quotes the ratios' printed exponents e-28 and e-31; the shortfall factors are 2.6e27 and 3.5e30".
+- D1: "Calc note #2's record logic", ported from the wiki build's recomputation `review/wiki-build-checks/stream_stability_check.py`: g = 2.48×10³ GeV⁻², and the contact gate's collective pull over m·min(σ, v\*)² is 3.9×10⁻²⁸ in a dwarf core and 2.9×10⁻³¹ in the Milky Way. A second D1 line prints the logarithms, −27.41 and −30.54, and notes that "'falls short by 10^28-10^31' quotes the ratios' printed exponents e-28 and e-31; the shortfall factors are 2.6e27 and 3.5e30".
 - D2: the linearized threshold, g·n·Λ_g(σ/v\*)/(m σ²) = 3.27×10⁻²⁸ in the dwarf core and 8.7×10⁻³¹ in the Milky Way.
-- D3: for a gate narrower than the dispersion the linearized criterion is g·n·Λ_g ≥ m σ², and 3a's form overstates the Milky Way shortfall by 3.04 ("about 3x") at r = 155/120; "the verdict is unchanged".
+- D3: for a gate narrower than the dispersion the linearized criterion is g·n·Λ_g ≥ m σ², and #2's form overstates the Milky Way shortfall by 3.04 ("about 3x") at r = 155/120; "the verdict is unchanged".
 
-Block D puts Debt 3a's arithmetic in the gate for the first time. Flag 16 in `review/wiki-build-flags.md` had recorded that `HANDOFF.md` §2 marks the shortfall ✓ with no script behind it; its addendum of 2026-10-28 says that this section "now ports 3a's arithmetic into the gate and reproduces both ratios, with the linearized values beside them (flag 58). The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules." The addendum adds: "'10²⁸–10³¹' quotes the ratios' exponents; the shortfall factors are 2.6×10²⁷ and 3.5×10³⁰." D3 is labelled with flag 58. The pages are [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) and [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers).
+Block D puts calc note #2's arithmetic in the gate for the first time. Flag 16 in `review/wiki-build-flags.md` had recorded that `HANDOFF.md` §2 marks the shortfall ✓ with no script behind it; its addendum of 2026-10-28 says that this section "now ports 3a's arithmetic into the gate and reproduces both ratios, with the linearized values beside them (flag 58). The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules." The addendum adds: "'10²⁸–10³¹' quotes the ratios' exponents; the shortfall factors are 2.6×10²⁷ and 3.5×10³⁰." D3 is labelled with flag 58. The pages are [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) and [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers).
 
 ### E. The long-range attraction among χ (18 checks)
 
@@ -207,7 +207,7 @@ round-2 analyses except where a superseded number is quoted.
 - **The literature and the inputs.** Published values are typed in: Planck 2018, the DESI DR1 and eBOSS Lyman-α compressions, the planetary ephemerides, the double pulsar, Lee et al. 2020, the Sagittarius model of Vasiliev and Belokurov 2020 and Enander and Mörtsell 2013. Whether the cited works say what the note quotes rests on retrieval ([S]), not on the script; for the Vainshtein formulas the equations were read twice, by the run-3 critic-numbers verifier and by the drafting session, whose fetch is in the session transcript, not the record (block J).
 - **The models.** The long-range attraction is a hypothesis outside the record, tested in three readings; the Lyman-α bounds and the corner's proxies are "estimates, not likelihoods" (note §§6, 8), and a full Lyman-α likelihood is open (§10). Whether the Hamiltonian reading is the right classical limit is open [O] (§5). The script checks arithmetic, not the model ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 - **Single-derivation results.** The note marks the tower of spins and the medium "[one derivation]" (§9), and the pathology of gating on peculiar velocities alone in the Hamiltonian reading "(one agent; not rechecked)" (§5); the last is not among the script's checks.
-- **The rest of Debt 3.** Block D covers Debt 3a's shortfall only. The numbers of Debt 3b and 3c, and the classicality corollary's mass and occupation number, have no check in `verify/`.
+- **The rest of the clumping problem.** Block D covers calc note #2's shortfall only. The numbers of calc note #3 and #4, and the classicality corollary's mass and occupation number, have no check in `verify/`.
 
 ## The recorded output
 
@@ -256,8 +256,8 @@ PASS  C4: below v_a ~ 0.3 km/s there is no numerical bound: the Gaussian envelop
 PASS  C4: qualitative exclusion there: a body at rest at the pole has inertia m(1 - 2 G M eps/(R v_a^2)), which vanishes at eps = 7.97e-5 for v_a = 0.1 km/s  [7.9738e-05]
       [13.6 s]
 
-== D. The obituary's scope: Debt 3a's shortfall (ports of review/wiki-build-checks/debt3a_check.py and verify-clumping-numbers/v09_units.py)
-PASS  D1: Debt 3a's record logic (debt3a_check.py, the critic's run c3): g = 2.48e3 GeV^-2; the contact gate's collective pull over m min(sigma, v*)^2 is 3.9e-28 (dwarf core) and 2.9e-31 (MW)  [2483; 3.8878e-28, 2.8637e-31]
+== D. The obituary's scope: calc note #2's shortfall (ports of review/wiki-build-checks/stream_stability_check.py and verify-clumping-numbers/v09_units.py)
+PASS  D1: calc note #2's record logic (stream_stability_check.py, the critic's run c3): g = 2.48e3 GeV^-2; the contact gate's collective pull over m min(sigma, v*)^2 is 3.9e-28 (dwarf core) and 2.9e-31 (MW)  [2483; 3.8878e-28, 2.8637e-31]
 PASS  D1: so the pull is 10^-27.4 (dwarf core) to 10^-30.5 (MW) of threshold ('falls short by 10^28-10^31' quotes the ratios' printed exponents e-28 and e-31; the shortfall factors are 2.6e27 and 3.5e30)  [log10 = -27.41, -30.54]
 PASS  D2: linearized (clumping C6, CODATA): g n Lambda_g(sigma/v*)/(m sigma^2) = 3.27e-28 (dwarf core), 8.7e-31 (MW)  [3.2733e-28, 8.6968e-31]
 PASS  D3 (flag 58): for a gate narrower than the dispersion the linearized criterion is g n Lambda_g >= m sigma^2; 3a's form g n (v*/sigma)^3 (2 pi)^(-3/2) >= m v*^2 overstates the MW shortfall by (2 pi)^(3/2) r Lambda_g(r) = 3.04 ('about 3x') at r = 155/120; the verdict is unchanged  [3.0370]
@@ -361,7 +361,7 @@ OK — every number of the velocity-gated-gravity investigation reproduces.
 - `notes/velocity-gated-gravity.md` header — "Every number is recomputed in `verify/velocity_gated_gravity.py` (§9's medium in `verify/gate_mechanism.py`), except the N-body runs of §8, whose record is kept"; §1 — the gate conventions; §§2–9 — the numbers the script reproduces, the one-agent and one-derivation marks, the unadjudicated ξ_u1 offset and what was not computed; §11 — the corrected and withdrawn numbers
 - `review/momentum-gravity/README.md` — the record, the scripts beside their outputs, and what was not kept (the N-body snapshots); `review/momentum-gravity/scripts/corner/diagnostics_final.out` and `review/momentum-gravity/scripts/corner/injection_test.out` — two of the outputs block G reads
 - `review/momentum-gravity/answer.md` — the answer as given to Paul, whose numbers the script checks
-- `review/wiki-build-checks/debt3a_check.py` — the wiki build's recomputation that block D ports
+- `review/wiki-build-checks/stream_stability_check.py` — the wiki build's recomputation that block D ports
 - `scripts/check.sh` — the script's place in the gate
 - `CLAUDE.md` 'Layout' — the script listed with the momentum-gravity notes; 'Method (HANDOFF §5)' — the anchor rule
-- `review/wiki-build-flags.md` items 16 (addendum), 39, 56, 57, 58 — the Debt-3 check mark now backed by block D; the Siegel reading; #13's dual rest; the Vainshtein formula; Debt 3a's narrow-gate criterion
+- `review/wiki-build-flags.md` items 16 (addendum), 39, 56, 57, 58 — the clumping check mark now backed by block D; the Siegel reading; #13's dual rest; the Vainshtein formula; calc note #2's narrow-gate criterion

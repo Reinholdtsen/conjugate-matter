@@ -56,6 +56,6 @@ Bullet Cluster: gate factor between subcluster DM and main-cluster DM (V = 2600 
 Internal gate factor for DM pairs in a system of 1D dispersion sigma (pair dispersion sqrt2*sigma), v*=120 and 30:
   sigma=   3.7 Segue-1-like (dagger)     v*=120: gauss 0.9972 rational 0.9972 | v*=30: gauss 0.9560 rational 0.9575
   sigma=  10.0 classical dSph (dagger)   v*=120: gauss 0.9795 rational 0.9799 | v*=30: gauss 0.7401 rational 0.7761
-  sigma=  30.0 Debt-3a dwarf core        v*=120: gauss 0.8381 rational 0.8542 | v*=30: gauss 0.1925 rational 0.3443
-  sigma= 155.0 Debt-3a MW halo           v*=120: gauss 0.1107 rational 0.2550 | v*=30: gauss 0.0025 rational 0.0296
+  sigma=  30.0 #2 dwarf core             v*=120: gauss 0.8381 rational 0.8542 | v*=30: gauss 0.1925 rational 0.3443
+  sigma= 155.0 #2 MW halo                v*=120: gauss 0.1107 rational 0.2550 | v*=30: gauss 0.0025 rational 0.0296
   sigma=1000.0 cluster                   v*=120: gauss 0.0006 rational 0.0124 | v*=30: gauss 0.0000 rational 0.0009
