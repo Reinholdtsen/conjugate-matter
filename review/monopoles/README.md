@@ -62,3 +62,7 @@ it.
   the synthesizer's own observation, not record.
 - `verdicts.json` — the 60 key claims and the verifier's verdict on each, with its number checks, tension
   checks and the files it found uncovered.
+- `update-review.json` — the review of the update itself. Round 1: three adversarial reviewers (fidelity,
+  consistency, sources) of the first edits, 75 findings. Round 2: the verifier after the fixes, which ran the
+  gate and found 11 more, all applied. The source reviewer's findings are behind flag 62 and
+  the removal of §11.2's strong coupling from flag 59's histories.
