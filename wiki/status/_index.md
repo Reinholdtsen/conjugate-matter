@@ -2,7 +2,7 @@
 title: "Status of the program's claims"
 weight: 100
 status: hub
-description: "The registers of where each of the program's claims stands as of 2026-10-20 — dead, alive, open, conjectural or superseded — and how a status is decided from the order of precedence among the sources."
+description: "The registers of where each of the program's claims stands — dead, alive, open, conjectural or superseded — each dated in its status line, and how a status is decided from the order of precedence among the sources."
 bookCollapseSection: true
 ---
 
@@ -27,11 +27,11 @@ The registers run from the dead claims to the superseded ones.
 - **Folded items.** A page sometimes holds a minor item of another status, such as an open sub-question on an established page or a superseded earlier form of an alive claim, in a section of its own headed "Open:", "Superseded:", "Chat-only:", "Popsci-only:" or "Conjecture:". The registers link those sections directly. The graveyard lists the dead items told inside other pages in the same way.
 - **Precedence, most current first** (`wiki/CLAUDE.md`):
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. checkpoint #11 v2.2 (`papers/broken-born-checkpoint-v2.md`) and the toy-model note v2 (`papers/reciprocity-toy-models.md`);
-  3. the review adjudications (`review/round4-adjudication.md`, `review/round3-adjudication.md`);
+  2. checkpoint #11 v2.2 (`papers/broken-born-checkpoint-v2.md`), the toy-model note v2 (`papers/reciprocity-toy-models.md`) and the phase-space-diameter note v1.1 (`papers/phase-space-diameter.md`);
+  3. the review adjudications (`review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`);
   4. #13 (`papers/conjugate-special-relativity.md`);
   5. `HANDOFF.md`, whose §2 soliton candidate and §8 queue are superseded;
-  6. the notes: the calc notes #2–#8 are final for their own scope, the lab notebook #1 and the program v1.0 (#9) are superseded as reference, and #14 is withdrawn;
+  6. the notes: the calc notes #2–#8 are final for their own scope; the closed-universe note (`notes/closed-universe.md`, 2026-10-27) and the two momentum-gravity notes (`notes/velocity-gated-gravity.md`, `notes/gate-mechanism.md`, 2026-10-28), none of them reviewed, are current for theirs; the lab notebook #1 and the program v1.0 (#9) are superseded as reference, and #14 is withdrawn;
   7. the popular articles. #12 presents the framework as if it were confirmed and is never a source for a claim's status.
 - **Dead stays dead.** Claims killed in `HANDOFF.md` §2, in #11 §9 and §12, and in the adjudications are reported as dead on their own obituary pages, and no later framing revives them ([negative results and dead claims](/wiki/method/negative-results)).
 - **Tags carry over exactly.** A register copies each claim's [provenance tags](/wiki/method/provenance-tags) as its sources attach them and never upgrades one. Standing is not confirmation: a machine check confirms arithmetic, not the model it encodes.
@@ -39,4 +39,4 @@ The registers run from the dead claims to the superseded ones.
 
 ## Boundaries
 
-The registers index claims; the topic pages carry the content, and every register entry links to one. The dated sequence of deaths and corrections is [the timeline](/wiki/history/timeline); the documents, their versions and their precedence are under [documents](/wiki/history/documents). The observations that could change a status are on [predictions and kill conditions](/wiki/predictions), and how a claim earns its tag, and how the scripts in the gate check it, is described under [method](/wiki/method).
+The registers index claims; the topic pages carry the content, and every register entry links to one. The [executive summary](/wiki/summary) condenses the registers onto one page, for a reader who wants the program's standing before its details. The dated sequence of deaths and corrections is [the timeline](/wiki/history/timeline); the documents, their versions and their precedence are under [documents](/wiki/history/documents). The observations that could change a status are on [predictions and kill conditions](/wiki/predictions), and how a claim earns its tag, and how the scripts in the gate check it, is described under [method](/wiki/method).

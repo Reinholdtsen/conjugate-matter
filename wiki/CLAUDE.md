@@ -69,7 +69,7 @@ what is known and what is claimed read as a sequence.
 | `status/` | registers: graveyard (first), alive, open problems and the queue, conjectures, superseded |
 | `method/` | Lakatos, the collaboration, provenance, verification (one page per script family), blind review |
 | `history/` | timeline, the three debts, the documents and the conflicts between them |
-| `glossary`, `notation`, `references` | single register pages |
+| `summary`, `glossary`, `notation`, `references` | single register pages; `summary` (weight 5, first in the menu) is the executive summary, the program's standing on one page |
 
 **Status is visible in titles.**
 
@@ -316,6 +316,10 @@ HTML, that every page was built, and that every heading got the ID this gate com
   graveyard register, and fix every page that relied on it.
 - **A new topic.** Place it by the taxonomy rules, link it from its parent's map and from
   every page that mentions it, and run the gate.
+- **The executive summary.** `wiki/summary.md` condenses the status registers, #11 §13–§15 and the
+  latest notes onto one page, so it goes stale whenever any of them changes. When a claim dies, a flag
+  is ruled on, a note or review round lands, or data bear on a prediction row, update the summary in
+  the same change, with its "current to" date in the description, the opening and the status line.
 - **A flag is ruled on.** `review/wiki-build-flags.md` lists suspected errors in the source
   documents found while the wiki was built, each with its audit verdict; pages quoting a
   flagged statement point to its number (`grep -rn 'flag N' wiki/`). When Paul rules, correct
