@@ -154,7 +154,7 @@ The wiki's conventions file, `wiki/CLAUDE.md`, places "the root `CLAUDE.md`, sec
 
 ## Sources
 
-- `CLAUDE.md` — the opening statement; 'Layout' with the read order and "Since the handoff (2026-10-19)"; 'The gate'; 'Method (HANDOFF §5)'; 'Working with Paul'. Its history is in `git log -- CLAUDE.md`: 008c3ee, 96f58da, 5b6efaa, e1c1f67, e3ce9eb, 6606734, 3243cdc, 8d467a6, b636936, bda03e3, da72ce2, b80e1a4, dbafb78, 12196ca, 7151fc0, c12da1b; the revision of 2026-10-29 is in the working tree (`git diff CLAUDE.md`) until it is committed.
+- `CLAUDE.md` — the opening statement; 'Layout' with the read order and "Since the handoff (2026-10-19)"; 'The gate'; 'Method (HANDOFF §5)'; 'Working with Paul'. Its history is in `git log -- CLAUDE.md`: 008c3ee, 96f58da, 5b6efaa, e1c1f67, e3ce9eb, 6606734, 3243cdc, 8d467a6, b636936, bda03e3, da72ce2, b80e1a4, dbafb78, 12196ca, 7151fc0, c12da1b, 2112cae; the revision of 2026-10-29 is in the working tree (`git diff CLAUDE.md`) until it is committed.
 - `wiki/CLAUDE.md` 'The wiki is derivative' — the precedence order that puts "Since the handoff" first
 - `scripts/check.sh` — the scripts the gate runs, `verify/phase_space_diameter.py` among them
 - `review/round3-adjudication.md` 'Lessons (now in CLAUDE.md)' and 'Decisions' — the round-3 additions and the queue decisions; `review/round4-adjudication.md` 'Lessons (into CLAUDE.md)' — the round-4 additions; `review/round5-adjudication.md` 'Lessons (into CLAUDE.md)' — the round-5 additions; 'Rulings' (R15) — the citation of Hur et al. 2025
