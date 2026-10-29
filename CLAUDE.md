@@ -44,7 +44,9 @@ only as a task needs them.
 - #14 went to v3, failed round-3 review (verdict C) and was withdrawn. The
   superheavy soliton candidate in HANDOFF §2 is **dead** as a program-native
   proposal. The framework is merely compatible with known PeV-scale
-  topological dark matter (prior art).
+  topological dark matter (prior art). (Narrowed 2026-10-29: this covers #14's
+  model, which used ordinary kinematics; the candidate it modeled, conjugate
+  monopoles localized in momentum, is P.R.'s open conjecture, #11 v2.4 §12.)
 - Strict sector separation (P4 at face value) is in force.
 - #11 is now v2.1: soliton obituary (§12); compatibility theorem re-tagged
   [T] (Freidel–Leigh–Minic); P4 strict (§4); DESI DR2 favors a phantom
@@ -127,6 +129,19 @@ only as a task needs them.
     polarization can leave strings of τ and, where the order parameter ranges over the whole manifold, point
     defects of the program's own order parameter (flag 61; #11 §14 item 12). `verify/closed_universe.py`
     section F now gates the homotopy.
+- 2026-10-29, later the same day: Paul's direction on deaths (see 'Method'): "I think you prematurely killed
+  off the most interesting parts of the comatter conjecture". #11 is now v2.4, and three of his founding ideas
+  are open conjectures again [O]. None was killed by theory and data in general, and he concurred in none of
+  the deaths:
+  - dark matter is conjugate (momentum) matter: alive throughout (App. A item 4). Its momentum-localized form
+    returns with the next item;
+  - magnetic monopoles abundant in momentum space: a third dark-matter candidate again (#11 §12). #14's model
+    used ordinary kinematics and never tested it; the model's failure stands. Retiring the candidate was a
+    delegated decision (round-3 Decision 2, now narrowed). Their explanation of the monopole null result is
+    open too (flag 62, ruled option B);
+  - conjugate collapse powering our accelerating expansion (App. A item 9): the corrected dictionary's dual
+    stiff ↦ Λ keeps a route. Two versions failed: the heuristic w = −2, excluded by data, and dual dust,
+    which maps to dust.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -153,7 +168,14 @@ only as a task needs them.
   - whether the Hamiltonian reading is the right classical limit for a long-range gate;
   - whether the program's bimetric branch has Vainshtein screening at all (flag 57).
 - Open from the monopole discussion, not queued:
-  - Paul's ruling on flag 62: whether the shared-photon form reopens the dead monopole explanation;
+  - Paul's concurrence, asked 2026-10-29, on deaths that theory and data support but he has not concurred in:
+    the two failed versions of App. A item 9; #14's x-local superheavy model; momentum clumping as collective
+    dynamics (#11 §9: particle dark matter by theory, Scenario A by Segue 1's data); and the other obituaries
+    in the wiki's graveyard. Until he answers, these deaths stand as recorded;
+  - for the restored candidate and the explanation: p-localization, and the kinematics of momentum-polarized
+    matter, never modeled (#14 §1 assumed ordinary kinematics);
+  - for App. A item 9: whether the contracting conjugate universe is kinetic-dominated, and how dual stiff ↦ Λ
+    relates to τ's potential;
   - a mechanism by which one order parameter selects both the position polarization and the electric sublattice
     (acceptance criterion 1's clause, never attempted);
   - for the separate-photon form, which coupling of the p-sector is the S-image of ours, elementary or magnetic
@@ -206,8 +228,18 @@ First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
   background ratio in a bimetric coupling.
 - A claim about how a quantity behaves over time ("holds at no other epoch")
   needs executed code like any number.
-- Report negative results prominently. Claims listed as dead in HANDOFF §2 stay
-  dead.
+- Report negative results prominently: a failed calculation or a contrary datum is stated in full, where
+  the claim is discussed.
+- A claim is dead only when theory and data kill it and Paul explicitly concurs. Paul, 2026-10-29: "Don't
+  kill them off unless theory and data kill them off and you ask me explicitly that I concur. Do not hide
+  the killing in a massive change."
+  - Ask him for each death, separately, and record his answer with the date.
+  - Make each death its own change, never part of a larger one.
+  - Until he concurs, a claim against which theory or data weigh is recorded as open, or as his
+    conjecture, with the evidence against it stated.
+  - A failed model or version of an idea is not the death of the idea.
+  - Deaths recorded before 2026-10-29 stand until he answers the concurrence question for them, except
+    those he has contested.
 
 ## Working with Paul
 

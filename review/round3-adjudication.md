@@ -129,6 +129,12 @@ rational"). Claude made them. Paul keeps the veto.
    - Consequence: the trilemma becomes two program-native candidates (gated
      χ particles; the X-condensate), plus the remark that the framework is
      compatible with known PeV-scale topological dark matter.
+   - **Narrowed by Paul (2026-10-29):** "Don't kill them off unless theory
+     and data kill them off and you ask me explicitly that I concur." This
+     decision covers #14's model, which used ordinary kinematics. The
+     candidate #14 modeled, conjugate monopoles localized in momentum, was
+     never tested and is P.R.'s open conjecture again (#11 v2.4 §12).
+     Whether #14's model is recorded dead awaits Paul's concurrence.
 3. **HANDOFF §8 queue item 3 (the "√N floor"): dropped.**
    - Its premise, Kibble as a ceiling, is inverted (ruling 3).
    - Under decision 2 it has no candidate left to serve.

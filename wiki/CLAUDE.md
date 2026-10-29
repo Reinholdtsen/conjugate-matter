@@ -20,7 +20,7 @@ It is written for three readers:
   the source wins and the wiki gets fixed.
 - **Source precedence**, most current first:
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.3), `papers/reciprocity-toy-models.md` (v2) and
+  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.4), `papers/reciprocity-toy-models.md` (v2) and
      `papers/phase-space-diameter.md` (v1.1);
   3. `review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`;
   4. `papers/conjugate-special-relativity.md` (#13);
@@ -35,8 +35,12 @@ It is written for three readers:
 - **No new numbers.** Every number on a page is copied from a source document or a
   `verify/` output, and the page names that source. Nothing is computed, rounded or
   converted by eye (the iron rule). A number the sources do not contain does not appear.
-- **Dead stays dead.** Claims killed in `HANDOFF.md` §2, #11 §9 and §12, and the
-  adjudications are reported as dead, prominently, on their own pages.
+- **Dead means killed by theory and data, with Paul's explicit concurrence** (root `CLAUDE.md`,
+  'Method', 2026-10-29). Dead claims are reported prominently, on their own pages. A claim whose
+  death Paul has not concurred in, and has contested, is recorded as open or as his conjecture,
+  with the evidence against it stated in full. A failed model or version of an idea is not the
+  death of the idea. Deaths recorded before 2026-10-29 stand until Paul answers the concurrence
+  question for them. The wiki never declares a death on its own reading.
 - **Tags carry over exactly.** The tags are [D] derived here, [T] literature,
   [P] postulate, [O] open and [V] machine-verified. Citations are marked † (from model
   memory, unverified) or [S] (live-searched). A page never upgrades a tag. Explanations

@@ -242,6 +242,9 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     HANDOFF §2 and #11 §11.1 list conjugate monopoles as the explanation of non-detection as
     dead (wrong duality; inflation suffices).
    **Audit (2026-10-22): confirmed by 1 independent check.** README.md reads 'Physics hypothesis explaining dark matter and missing magnetic monopoles'. HANDOFF §2 lists conjugate monopoles as the explanation of non-detection under Dead, and #11 §11.1 says 'As an explanation of the null result: dead'.
+   **Note (2026-10-29):** since #11 v2.4 the explanation is open, P.R.'s conjecture (flag 62), so the
+   README's clause no longer contradicts a recorded death. It still states as the program's result what
+   the record holds as an open conjecture.
 38. **Root `CLAUDE.md`: two stale details.** "Since the handoff" says "#11 is now v2.1" (the file
     is v2.2, as a later bullet says), and its Layout names two of the six scripts
     `scripts/check.sh` runs (the four toy scripts are missing). Its Layout and the
@@ -563,9 +566,12 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
     dead, and this one is listed there, so v2.3 leaves it dead and does not say the form would
     account for the null result.
    **Audit (2026-10-29): raised by the update's source reviewer; not otherwise audited.**
-   **Ruling: pending.** The options: (A) the explanation stays dead, and the shared-photon form, if
-   pursued, carries its own account of the null result as a consequence to be tested; (B) item 5's
-   explanation is reclassified as open, conditional on the shared-photon form and a restated P4.
+   **Ruling (2026-10-29): option B, by Paul's direction:** "Don't kill them off unless theory and data
+   kill them off and you ask me explicitly that I concur." Neither ground kills the explanation, and
+   Paul does not concur in its death, so #11 v2.4 records it as open, his conjecture, in the setting of
+   §11.4's shared-photon form (§11.1, App. A item 5). The options set out before the ruling were (A)
+   keep it dead, with the shared-photon form carrying its own account of the null result as a
+   consequence to be tested, and (B) reclassify it as open, conditional on that form and a restated P4.
 
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
 flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`, and flags 55–58,
