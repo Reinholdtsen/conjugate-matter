@@ -6,6 +6,8 @@ description: "The DSZ pairing makes charge space symplectic, mutually local char
 provenance: [D, T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.3"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
+  - "papers/broken-born-checkpoint-v2.md header"
   - "papers/broken-born-checkpoint-v2.md §1"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §6"
@@ -24,6 +26,7 @@ sources:
   - "review/round3/referee/audit-notes.md Step 5"
   - "review/round3-adjudication.md 'Rulings' 12"
   - "verify/toy_coset.py 'Anchors', 'S2: vacua'"
+  - "review/wiki-build-flags.md flag 60"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
@@ -110,7 +113,7 @@ The checkpoint counts the identification in several places:
 - [founding supposition 11](/wiki/program/founding-suppositions): "the polarization identification as the program-native addition" to the established [magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family) (#11 App. A item 11);
 - [the handoff](/wiki/history/documents/handoff), under "Alive": "Charge-lattice identification: DSZ pairing is symplectic; duality frame choice = Lagrangian polarization, same [[0,1],[−1,0]] generator as Born rotation and S-duality" (`HANDOFF.md` §2).
 
-The section first appeared in the checkpoint's v2.0; the handoff lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3). The v2.1 and v2.2 change lists do not mention §11, although §11.1 records the v2.1 retirement of the soliton candidacy.
+The section first appeared in the checkpoint's v2.0; the handoff lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3). The v2.1 and v2.2 change lists do not mention §11, although §11.1 records the v2.1 retirement of the soliton candidacy. The v2.3 change list (2026-10-29) does: it restates both grounds of §11.1, the first of which, wrong duality, "is contested only by §11.4's shared-photon form, which needs P4 restated", and adds §11.4, P.R.'s magnetic-mirror conjecture [O].
 
 ## The critiques
 
@@ -126,11 +129,11 @@ The withdrawn manuscript is [#14](/wiki/dark-matter/candidates/soliton-candidate
 
 Whether the phase-space and charge-space polarizations are components of one enlarged structure is a conjecture [O], #11's open problem 8 ([Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure)). The demand that the [order parameter](/wiki/symmetry-breaking/order-parameter) also select the electric charges, part of the handoff's and #14's wording of the toy-model criterion, has not been addressed ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion)).
 
-[The popular article #12](/wiki/history/documents/popular-articles) presents the unification without its open status, as "The framework's proposal is that the two divisions are one", and goes on to identify the momentum-polarized sector with the magnetic side of electromagnetism. That claim is found only in #12 and is dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)).
+[The popular article #12](/wiki/history/documents/popular-articles) presents the unification without its open status, as "The framework's proposal is that the two divisions are one", and goes on to identify the momentum-polarized sector with the magnetic side of electromagnetism. Since v2.3 the checkpoint records P.R.'s magnetic-mirror conjecture, open, and says that it "is what §11.3's conjecture would give if one vacuum event selected both the position polarization and the electric sublattice" (#11 §11.4). #12's version, magnetic charge of our own photon, is the conjecture's shared-photon form ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)). The wiki recorded #12's claim as dead until 2026-10-29, when flag 60 reversed the obituary.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.3 — the identification [D — structural; math T] and the recurring matrix; §1 — the technical abstract; §4 — P5; §6 — Z → −Z⁻¹ and its fixed point; §15 — the assessment; App. A item 11 — the program-native addition; ref [17]†.
+- `papers/broken-born-checkpoint-v2.md` §11.3 — the identification [D — structural; math T] and the recurring matrix; §11.4 — P.R.'s magnetic-mirror conjecture, what §11.3's conjecture would give [O]; header — the v2.3 change list; §1 — the technical abstract; §4 — P5; §6 — Z → −Z⁻¹ and its fixed point; §15 — the assessment; App. A item 11 — the program-native addition; ref [17]†.
 - `papers/reciprocity-toy-models.md` §1 — ω and ρ as the matrix [[0, 1], [−1, 0]] in d = 1.
 - `verify/toy_coset.py` 'Anchors', 'S2: vacua' — ρ as the quarter turn and its action Z → −1/Z.
 - `HANDOFF.md` §2 — the identification listed as alive; §3 — §11 added in v2.0; §6 — round 2's "matrix coincidence ≠ physical identity".
@@ -138,4 +141,5 @@ Whether the phase-space and charge-space polarizations are components of one enl
 - `review/round3-preregistration.md` 'Predictions' — the forecast that nothing numerical depends on the identification.
 - `review/round3/referee/audit-notes.md` Step 1, Step 4(d), Step 5 — the 2π versus 4π normalization and "interpretation"; the framework doing no work in #14; the order of the weakest links.
 - `review/round3-adjudication.md` 'Rulings' 12 — the normalization and Schwinger, accepted as minor.
+- `review/wiki-build-flags.md` flag 60 — the reversal of the wiki's obituary of #12's identification.
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the unification as "The framework's proposal" (not a status source).

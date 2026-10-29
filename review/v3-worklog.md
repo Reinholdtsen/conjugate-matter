@@ -61,6 +61,12 @@ Evidence used so far:
   - **Decided (Paul, 2026-10-19):** adopt this reading. v3 §2 is reframed:
     the load-bearing conjecture becomes α_e,d = α (or α_e,d free and weak),
     and S-duality is no longer what fixes α_d.
+  - **Decision withdrawn (Paul, 2026-10-29):** "probably confusion on my part";
+    he "never meant to create an obituary". The finding above stands. The
+    S-dual identification of the momentum-polarized sector is the
+    separate-photon form of P.R.'s magnetic-mirror conjecture (#11 v2.3 §11.4;
+    flag 60 in `review/wiki-build-flags.md`), where which coupling is the
+    S-image of ours is open. #14 stays withdrawn.
 - **L1 — mixing does not give the monopoles a visible charge** (from the
   literature). With an unbroken dual U(1), i.e. a massless dark photon, which
   is v2's setup, kinetic mixing gives the dark monopole **no QED magnetic

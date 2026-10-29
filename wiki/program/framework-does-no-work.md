@@ -21,6 +21,7 @@ sources:
   - "notes/toy-lagrangian.md 'Assessment against the predictions'"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/reciprocity-toy-models.md §5"
   - "review/round4-adjudication.md 'Rulings' F3"
   - "verify/toy_s5.py"
@@ -89,7 +90,7 @@ The toy worklog fixed its success criteria before building anything, and split t
 ## What remains unanswered
 
 - **Forced locality.** #11 §14 item 11 keeps open "locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4" [O], together with [a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo) and a derivation of the potential ([Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality); [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential)).
-- **The electric sublattice.** The handoff's version of the criterion has η "also selecting the electric sublattice", and #14's has it selecting "the hidden sector's electric description" (#14 §6). The toy worklog's criteria and #11 §14 item 11 do not take up that clause; the root `CLAUDE.md` describes the toy Lagrangian as "done to the referees' wording". The clause is unaddressed. The related conjecture, that the phase-space and charge-lattice polarizations are parts of one structure, is [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure).
+- **The electric sublattice.** The handoff's version of the criterion has η "also selecting the electric sublattice", and #14's has it selecting "the hidden sector's electric description" (#14 §6). The toy worklog's criteria and #11 §14 item 11 do not take up that clause; the root `CLAUDE.md` describes the toy Lagrangian as "done to the referees' wording". The clause is unaddressed. The related conjecture, that the phase-space and charge-lattice polarizations are parts of one structure, is [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure). Since v2.3, #11 §11.4 lists the clause first among what stays open for P.R.'s magnetic-mirror conjecture, which #11 calls what §11.3's conjecture would give "if one vacuum event selected both the position polarization and the electric sublattice": "a mechanism by which one order parameter makes both choices (the electric-sublattice clause of acceptance criterion 1, never attempted; the toy models of §14 item 11 contain no gauge field)" ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 - **Review.** The toy-model note has had one [blind review](/wiki/method/review) (round 4, verdict B; [review round 4](/wiki/method/review/round-4)). The project's queue lists a round-6 review of the note as optional, "but only before any external use" (root `CLAUDE.md`).
 
 ## Sources
@@ -100,7 +101,7 @@ The toy worklog fixed its success criteria before building anything, and split t
 - `notes/knot-dark-matter-standalone.md` Abstract, §1, §2, §6 — the withdrawn proposal, hypothesis H, "No numerical result below depends on it", and its acceptance criteria
 - `HANDOFF.md` §2, §3, §6 — the criterion with its electric-sublattice clause; where the round-1 and round-2 reports are; the summaries of those rounds
 - `notes/toy-lagrangian.md` 'Success criteria', 'Predictions', 'Chunk 4', 'Assessment against the predictions' — the two tiers, the forecast, the P4 lock and "only partly answered"
-- `papers/broken-born-checkpoint-v2.md` §12 — the soliton verdict; §14 item 11 — what the toy models meet and what stays open
+- `papers/broken-born-checkpoint-v2.md` §12 — the soliton verdict; §14 item 11 — what the toy models meet and what stays open; §11.4 — the electric-sublattice clause as the first open item of the magnetic-mirror conjecture [O]
 - `papers/reciprocity-toy-models.md` §5 — "Nothing here forces that coupling"
 - `review/round4-adjudication.md` 'Rulings' F3 — the twisted element
 - `verify/toy_s5.py` — the machine check of the weak form of S5

@@ -25,13 +25,14 @@ sources:
   - "review/momentum-gravity/README.md"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
   - "papers/reciprocity-toy-models.md §2–§5"
   - "review/round3-adjudication.md 'Rulings'"
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round3-adjudication.md 'What survives v3'"
   - "review/round4-adjudication.md header"
   - "review/wiki-build-checks/README.md"
-  - "review/wiki-build-flags.md items 16 (addendum), 33, 38"
+  - "review/wiki-build-flags.md items 16 (addendum), 33, 38, 61"
   - "wiki/CLAUDE.md 'The gate'"
   - "site/CLAUDE.md 'The gate'"
   - "scripts/check-site.py"
@@ -77,12 +78,12 @@ Two kinds of check need distinguishing:
 | `verify/toy_s4.py` | the frozen-H [Monte Carlo](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo), four seeds with error bars | toy note §4's table | same |
 | `verify/toy_s5.py` | η's null lines; the [section condition](/wiki/symmetry-breaking/section-condition); the [(H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling) | toy note §5 | same |
 | `verify/phase_space_diameter.py` | anchors (CODATA 2018 Planck units, Particle Data Group densities, two torsion-balance limits); the [phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) and [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound) | the numbers `papers/phase-space-diameter.md` computes, tagged [V] | [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script) |
-| `verify/closed_universe.py` | anchors (exact closed solutions, the three-sphere's spectrum, published curvature values); closed τ histories, data bounds, the bimetric sector, momentum space | the numbers of `notes/closed-universe.md` ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)) | [the closed-universe script](/wiki/method/verification/closed-universe-script) |
+| `verify/closed_universe.py` | anchors (exact closed solutions, the three-sphere's spectrum, published curvature values); closed τ histories, data bounds, the bimetric sector, momentum space; since 2026-10-29, section F, the homotopy of the polarization manifold Λ(4), with two winding-number anchors of its own and the groups matched to Bott periodicity (flag 61) | the numbers of `notes/closed-universe.md` ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe)); the maps behind the homotopy groups of #11 §14 item 12 ([OP12](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)) | [the closed-universe script](/wiki/method/verification/closed-universe-script) |
 | `verify/velocity_gated_gravity.py` | anchors (two-body Lagrangians, spin-2 numerators, Planck 2018's age, exact growth modes); [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies), calc note #2's shortfall, [a long-range gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction), carriers; the N-body runs read from their logs | the numbers of `notes/velocity-gated-gravity.md` | [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script) |
 | `verify/gate_mechanism.py` | anchors (on-shell kinematics, the Fierz–Pauli numerator, Legendre and Chebyshev identities); exchange of X, the two readings of the fiber overlap, the polarization under boosts | the algebra and numbers of `notes/gate-mechanism.md` ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)) | [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script) |
 | `scripts/check-wiki.py` | the wiki's links, anchors, maps, sources and page shape | `wiki/CLAUDE.md`'s conventions | [below](#the-wiki-check) |
 
-#11 tags the toy results [D][V] (§4, the [P2′](/wiki/program/postulates/p2-prime) refinement; §10, "Toy-model support") and records them in §14 item 11. #11 §12 ends: "The [V] numbers here are gated in `verify/soliton_obituary.py`." The four later scripts back the [V] tags of their notes: the phase-space-diameter note defines [V] as "machine-verified by `verify/phase_space_diameter.py`", and the closed-universe, velocity-gated-gravity and gate-mechanism notes say in their headers that their numbers are recomputed in their scripts, the velocity-gated-gravity note "except the N-body runs of §8, whose record is kept".
+#11 tags the toy results [D][V] (§4, the [P2′](/wiki/program/postulates/p2-prime) refinement; §10, "Toy-model support") and records them in §14 item 11. #11 §12 ends: "The [V] numbers here are gated in `verify/soliton_obituary.py`." The four later scripts back the [V] tags of their notes: the phase-space-diameter note defines [V] as "machine-verified by `verify/phase_space_diameter.py`", and the closed-universe, velocity-gated-gravity and gate-mechanism notes say in their headers that their numbers are recomputed in their scripts, the velocity-gated-gravity note "except the N-body runs of §8, whose record is kept". Since version 2.3, #11 also points to the closed-universe script: its §14 item 12 tags two homotopy groups of the polarization manifold [T], "with the maps behind them gated in `verify/closed_universe.py` section F".
 
 ## What is not gated
 
@@ -128,6 +129,7 @@ The commit history records each change:
 - **2026-10-26, commit 97934f2.** `verify/phase_space_diameter.py` was added with the phase-space-diameter note ("The phase-space-diameter note (v1.1), its gate script and worklog").
 - **2026-10-28, commit b80e1a4.** `verify/closed_universe.py` was added with the closed-universe note ("The closed-universe investigation: note, script, record, flags, wiki").
 - **2026-10-28.** `verify/velocity_gated_gravity.py` and `verify/gate_mechanism.py` were added with the two momentum-gravity notes, bringing the list to ten.
+- **2026-10-29.** Section F was added to `verify/closed_universe.py` for flag 61, porting the closed-universe investigation's homotopy script, which had run outside the repository and the gate; the list stays at ten scripts ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)).
 
 ## A recorded run
 
@@ -155,10 +157,10 @@ The output of each script is quoted on its page, in full except for parts A and 
 - `requirements.txt` — the pinned environment
 - `verify/battery.py`, `verify/soliton_obituary.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py`, `verify/phase_space_diameter.py`, `verify/closed_universe.py`, `verify/velocity_gated_gravity.py`, `verify/gate_mechanism.py` — the check helper, the parity convention, the seeds; block D of `verify/velocity_gated_gravity.py`, the ported calc note #2's arithmetic
 - `notes/velocity-gated-gravity.md` header and `notes/gate-mechanism.md` header — what the two latest scripts recompute; `review/closed-universe/README.md` and `review/momentum-gravity/README.md` — the investigations' scripts, which the gate does not run, and the N-body snapshots not kept
-- `papers/broken-born-checkpoint-v2.md` §12, §14 item 11, and `papers/reciprocity-toy-models.md` §2–§5 — the claims the scripts gate
+- `papers/broken-born-checkpoint-v2.md` §12, §14 items 11 and 12, and `papers/reciprocity-toy-models.md` §2–§5 — the claims the scripts gate
 - `review/round3-adjudication.md` 'Rulings', 'What survives v3', 'Decisions' — the unchecked rulings; the retired benchmark checks; the script replacement
 - `review/round4-adjudication.md` header — the arbitration scripts in `review/`
-- `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` items 16 (with its addendum), 33, 38 — the wiki build's checks, outside the gate; the clumping check mark and its later script; the soliton script's claimed coverage; the Layout's two scripts
+- `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` items 16 (with its addendum), 33, 38, 61 — the wiki build's checks, outside the gate; the clumping check mark and its later script; the soliton script's claimed coverage; the Layout's two scripts; the ungated homotopy script that section F ports
 - `HANDOFF.md` §2 — the ✓ on the clumping figure
 - `wiki/CLAUDE.md` 'The gate' — how the wiki check is run
 - `site/CLAUDE.md` 'The gate' and `scripts/check-site.py` — the site's later checks

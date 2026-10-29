@@ -21,6 +21,8 @@ sources:
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "verify/soliton_obituary.py (docstring)"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md §11.1"
+  - "review/wiki-build-flags.md flag 59"
 ---
 
 *The 't Hooft–Polyakov monopole is a stable, particle-like configuration of fields in a gauge theory whose SU(2) symmetry is broken to U(1) by a Higgs field in the adjoint representation; far from its core it looks like a [magnetic monopole](/wiki/electric-magnetic-duality/monopoles) of the surviving U(1). It cannot decay, because its Higgs field winds once around the space of possible vacua, a sphere, and no smooth change of the fields can undo the winding. Its mass is the symmetry-breaking scale v times 4π/g_d, with g_d the gauge coupling, times a factor f between 1 and about 1.79 set by the strength of the Higgs field's self-interaction relative to the gauge coupling. In the program it was the object of the withdrawn manuscript #14, which proposed superheavy monopoles of this kind as [dark matter](/wiki/dark-matter); that proposal is retired, and the physics on this page is textbook.*
@@ -47,7 +49,7 @@ A configuration of finite energy must approach a vacuum far from its centre, so 
 
 **The general rule.** For a simply connected group G broken to a subgroup H, the second homotopy group of the vacuum manifold equals the first homotopy group of the unbroken group, π₂(G/H) = π₁(H) [T]. Since π₁(U(1)) = ℤ, any breaking of a simply connected group that leaves an unbroken U(1) produces monopoles. The integer is the same one that labels the Dirac quantization condition on the two-patch construction ([Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization#diracs-argument-t)). Every grand unified theory, which breaks a simple group to a subgroup containing the U(1) of electromagnetism, therefore predicts monopoles, superheavy because the breaking scale is high ([the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)).
 
-**No monopoles in the electroweak theory.** The Standard Model's electroweak breaking, SU(2) × U(1) → U(1) of electromagnetism, has a Higgs doublet whose vacuum manifold is the 3-sphere, and π₂(S³) = 0 [T]; the group SU(2) × U(1) is not simply connected, so the rule above does not apply. #14 §2 used this to constrain its hidden sector: "An exact mirror copy of the Standard Model cannot serve: the electroweak vacuum manifold is S^3, whose pi_2 vanishes, so it has no stable monopoles. The hidden gauge structure must therefore differ from ours."
+**No monopoles in the electroweak theory.** The Standard Model's electroweak breaking, SU(2) × U(1) → U(1) of electromagnetism, has a Higgs doublet whose vacuum manifold is the 3-sphere, and π₂(S³) = 0 [T]; the group SU(2) × U(1) is not simply connected, so the rule above does not apply. #14 §2 used this to constrain its hidden sector: "An exact mirror copy of the Standard Model cannot serve: the electroweak vacuum manifold is S^3, whose pi_2 vanishes, so it has no stable monopoles. The hidden gauge structure must therefore differ from ours." Since v2.3, [#11](/wiki/history/documents/checkpoint) §11.1 uses the same fact for our own sector: without grand unification there are no monopoles to dilute, "since the Standard Model has no topologically stable monopoles [T]", which makes the absence of unification one of the standard histories under which the monopole null result is expected (flag 59 in `review/wiki-build-flags.md`; [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
 
 ## The magnetic charge [T]
 
@@ -158,6 +160,7 @@ Added by the wiki from model memory (†):
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — magnetic charges that appear only on solitons.
 - [The 'framework does no work' critique](/wiki/program/framework-does-no-work) — #14's hidden monopoles as the standard scenario of the literature.
 - [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — grand unified monopoles as solitons with masses set by the unification scale.
+- [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — π₂(S³) = 0: without grand unification there are no monopoles to dilute, one of the standard histories under which the null result is expected (#11 v2.3 §11.1; flag 59).
 
 ## Sources
 
@@ -167,4 +170,5 @@ Added by the wiki from model memory (†):
 - `review/round3/referee/step2a.py`, `review/round3/referee/step2a.out` — f_inf = 1.7867 and the reproduced mass relation.
 - `review/v3-worklog.md` 'Round-2 pending list' (R6), 'v3 as drafted (2026-10-19)' — the named group and the mass relation that replaced v2's.
 - `verify/soliton_obituary.py` — the range f = 1 to 1.787 used in the gate.
-- `papers/broken-born-checkpoint-v2.md` §12 — the candidate named as 't Hooft–Polyakov monopoles.
+- `papers/broken-born-checkpoint-v2.md` §12 — the candidate named as 't Hooft–Polyakov monopoles; §11.1 — the Standard Model's lack of stable monopoles as one of the standard histories (v2.3).
+- `review/wiki-build-flags.md` flag 59 — the record's fact that the Standard Model has no stable monopoles, used since v2.3 in §11.1.

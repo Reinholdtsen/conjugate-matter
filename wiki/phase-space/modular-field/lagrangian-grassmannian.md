@@ -2,7 +2,7 @@
 title: "The Lagrangian Grassmannian Λ(d)"
 weight: 40
 status: established
-description: "The compact manifold U(d)/O(d) of all position/momentum splittings of phase space (dimension d(d+1)/2 = 10 at d = 4), its Maslov class π₁ = ℤ, its place as the Shilov boundary of the Siegel domain, and its role as the space of vacuum polarizations."
+description: "The compact manifold U(d)/O(d) of all position/momentum splittings of phase space (dimension d(d+1)/2 = 10 at d = 4), its Maslov class π₁ = ℤ, its higher homotopy π₂ = π₃ = ℤ₂ at d = 4, its place as the Shilov boundary of the Siegel domain, and its role as the space of vacuum polarizations."
 provenance: [T]
 sources:
   - "notes/broken-born-theory.md §2"
@@ -19,11 +19,15 @@ sources:
   - "verify/toy_coset.py"
   - "notes/broken-born-theory.md §8"
   - "papers/broken-born-checkpoint-v2.md §14"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
+  - "notes/closed-universe.md §8"
+  - "verify/closed_universe.py section F"
+  - "review/wiki-build-flags.md flag 61"
 ---
 
-*The Lagrangian Grassmannian Λ(d) is the space of all ways to split a 2d-dimensional phase space into a "position" half and a "momentum" half. Each [Lagrangian subspace](/wiki/phase-space/reciprocity/lagrangian-polarizations), a d-dimensional plane on which the symplectic form vanishes, is one point of it. For d = 1 it is the set of lines through the origin of the (x, p) plane, which is a circle; in general it is the compact manifold U(d)/O(d), of dimension 10 when d = 4. It contains a loop that cannot be shrunk to a point, the Maslov circle, so any angle measured around that loop is periodic. It also forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain). In the program it is the space of possible vacuum polarizations, and its circle direction carries the dark-energy field. The mathematics is standard.*
+*The Lagrangian Grassmannian Λ(d) is the space of all ways to split a 2d-dimensional phase space into a "position" half and a "momentum" half. Each [Lagrangian subspace](/wiki/phase-space/reciprocity/lagrangian-polarizations), a d-dimensional plane on which the symplectic form vanishes, is one point of it. For d = 1 it is the set of lines through the origin of the (x, p) plane, which is a circle; in general it is the compact manifold U(d)/O(d), of dimension 10 when d = 4. It contains a loop that cannot be shrunk to a point, the Maslov circle, so any angle measured around that loop is periodic. At d = 4 its topology also allows point defects and textures, and whether the early universe made any is an open question of the program. It also forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain). In the program it is the space of possible vacuum polarizations, and its circle direction carries the dark-energy field. The mathematics is standard.*
 
-**Status:** Established — standard mathematics [T] ([#1](/wiki/history/documents/lab-notebook) §2 tags the definition, the dimension and π₁ = ℤ [T]; [#11](/wiki/history/documents/checkpoint) §6 tags the Shilov-boundary statement [T]; [calc note #5](/wiki/history/documents/field-equation-notes) marks it "[standard]") — not machine-checked as such; its d = 1 case, Λ(1), is the compact [Goldstone direction](/wiki/symmetry-breaking/goldstone-and-higgs) of the [toy model](/wiki/symmetry-breaking/toy-models/coset-model) checked in `verify/toy_coset.py`.
+**Status:** Established — standard mathematics [T] ([#1](/wiki/history/documents/lab-notebook) §2 tags the definition, the dimension and π₁ = ℤ [T]; [#11](/wiki/history/documents/checkpoint) §6 tags the Shilov-boundary statement [T]; [calc note #5](/wiki/history/documents/field-equation-notes) marks it "[standard]"). At d = 4, π₁(Λ(4)) = ℤ and π₃(Λ(4)) = ℤ₂ are machine-checked [V] in `verify/closed_universe.py` section F, where π₂(Λ(4)) = ℤ₂ [T] follows by exactness ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)); the rest is not machine-checked as such. Its d = 1 case, Λ(1), is the compact [Goldstone direction](/wiki/symmetry-breaking/goldstone-and-higgs) of the [toy model](/wiki/symmetry-breaking/toy-models/coset-model) checked in `verify/toy_coset.py`.
 
 ## What it is
 
@@ -54,6 +58,20 @@ For d = 1, the line at angle θ is U = e^{iθ} applied to the x-axis, and det² 
 The remaining directions of Λ(d) leave det² unchanged. The points with a given value of det² form a copy of SU(d)/SO(d) [T], and moving within such a set changes the polarization without moving around the circle. At d = 4 these are the directions that #1 calls "the nine non-Maslov directions" (§8), beside the one circle direction.
 
 An angle measured around the Maslov circle is periodic because of this topology, whatever dynamics act on it. The program uses exactly this for the dark-energy field: [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase). #1 §2 tags that periodicity "[D]": "Periodicity is topology".
+
+## Higher homotopy at d = 4
+
+The closed-universe investigation computed the first three homotopy groups of Λ(4) = U(4)/O(4) (`notes/closed-universe.md` §8; flag 61 in `review/wiki-build-flags.md`):
+
+```text
+π₁(Λ(4)) = ℤ      [T][V]    the Maslov class
+π₂(Λ(4)) = ℤ₂     [T]       by exactness
+π₃(Λ(4)) = ℤ₂     [T][V]
+```
+
+They are Bott periodicity's stable values for U/O, the values the homotopy groups of U(d)/O(d) take when d is large [T]. Section F of `verify/closed_universe.py` derives them from the fibration O(4) → U(4) → U(4)/O(4) [T]. Its check F1 finds the image of π₃(SO(4)) in π₃(U(4)) = ℤ to be 2ℤ, by a winding-number integral anchored on two literature values, so π₃(Λ(4)) = ℤ₂; check F2 finds det² winding once on a loop that closes in Λ(4), so π₁(Λ(4)) = ℤ. π₂ follows by exactness from standard inputs, and check F3 "confirms an input rather than testing one". Check F4 matches the three groups to Bott periodicity's table ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)).
+
+In the classification of defects, π₁ allows strings, π₂ point defects of the monopole type and π₃ textures [T] ([the classification](/wiki/symmetry-breaking/topological-defects#the-classification-t)). On the light Maslov circle alone π₂ = π₃ = 0. Strings around which τ winds exist there too, but the point defects and the textures need the order parameter to range over the whole manifold (`notes/closed-universe.md` §8). On a closed universe, whose space is a 3-sphere, the classes of polarization texture are [S³, Λ(4)] = Z₂ [D], argued from π₃ and not computed (check F4; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#light-horizons-and-counts)). All of this assumes d = 4 and that the U(4) acting on the polarization is global, the closed-universe verifiers' caveats. Whether a transition produced such defects is open problem 12 of #11 (§14 item 12; [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
 
 ## The boundary of the Siegel domain
 
@@ -104,12 +122,16 @@ The program's documents cite none of these; they tag the facts [T] or "[standard
 - [Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content) — the fate of the nine non-Maslov directions.
 - [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis) — the lab notebook's sketch, in which the nine heavy directions decay at reheating.
 - [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the space of phase-space polarizations in the conjectured structure.
+- [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12) — π₂(Λ(4)) = ℤ₂ and the Maslov loop allow point defects and τ-strings, whose production is open.
+- [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — two classes of polarization texture on S³, [S³, Λ(4)] = Z₂ [D].
 
 ## Sources
 
 - `notes/broken-born-theory.md` §2 — definition, dimension and π₁ = ℤ, tagged [T]; τ the lightest modulus [P]; periodicity "is topology [D]".
 - `papers/broken-born-checkpoint-v2.md` §6 — Λ(d) as the Shilov boundary [T].
 - `papers/broken-born-checkpoint-v2.md` §4, §7, §10, §14 item 11 — P2′ with the real structure J; Λ(4) as the physical case; Λ(1) as τ's circle in the coset model; η = ωK in the toy-model item.
+- `papers/broken-born-checkpoint-v2.md` §14 item 12 — the polarization's defects, π₁ = ℤ and π₂ = ℤ₂ [T] with the maps behind them gated, their production open [O].
+- `notes/closed-universe.md` §8 — π₁, π₂ and π₃ of Λ(4) with their tags, the textures on S³ [D], and the light-circle caveat; `verify/closed_universe.py` section F — checks F1–F4; `review/wiki-build-flags.md` flag 61 — how the groups reached the record.
 - `notes/geometric-core.md` §B–§D — the discrete polarizations under strict P2; {J} ≅ U(d)/O(d) = Λ(d) under P2′; the boundary fact "[standard]"; the ten σ-modes.
 - `notes/tuning-test.md` §4 — the ten compact moduli carried by J.
 - `notes/x-classification.md` §3 — the Λ(d) moduli are not the eaten modes.

@@ -17,7 +17,7 @@ sources:
 
 *Special relativity is Einstein's 1905 theory of how measurements of length and time compare between observers moving at constant velocity relative to one another, built on one speed that all of them measure alike, the speed of light c. Its machinery (boosts, the light cone, the relativity of simultaneity, time dilation, length contraction and the mass shell) is textbook physics. The program uses it as a template: the paper [#13](/wiki/conjugate-relativity) copies each piece into the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the role of position, with force in place of velocity and a [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in place of c. This page states the template and lists the copies; #13 tags most of its copies as derived, but no review round or script has checked them, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them.*
 
-**Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a [blind review](/wiki/method/review) round, no `verify/` script checks any of its formulas or numbers, and #11 v2.2 does not mention it.
+**Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a [blind review](/wiki/method/review) round, no `verify/` script checks any of its formulas or numbers, and #11 v2.3 does not mention it.
 
 ## Two postulates [T]
 
@@ -139,7 +139,7 @@ Writing spacetime as one time direction and three space directions is the 3+1 sp
 | inertial frames | dual-inertial frames: free fall and Rindler frames | §5 | on §7's fixed [D] list |
 | the principle of relativity | [the equivalence principle](/wiki/conjugate-relativity/equivalence-principle) | §5 | [D — structural] |
 
-The template is established; the transcriptions are not. #13 states each one without intermediate steps beyond the substitution, and §7 lists the kinematic structure as "fixed [D]". No blind review round has examined #13, no `verify/` script reproduces any of its formulas or numbers ([the iron rule](/wiki/method/verification/iron-rule)), and #11 v2.2 does not mention the maximum force or the dual kinematics. The section's status, alive and unreviewed, rests on `HANDOFF.md` §2 and on `CLAUDE.md`'s listing of #13 as a current reference ([Conjugate special relativity](/wiki/conjugate-relativity)).
+The template is established; the transcriptions are not. #13 states each one without intermediate steps beyond the substitution, and §7 lists the kinematic structure as "fixed [D]". No blind review round has examined #13, no `verify/` script reproduces any of its formulas or numbers ([the iron rule](/wiki/method/verification/iron-rule)), and #11 v2.3 does not mention the maximum force or the dual kinematics. The section's status, alive and unreviewed, rests on `HANDOFF.md` §2 and on `CLAUDE.md`'s listing of #13 as a current reference ([Conjugate special relativity](/wiki/conjugate-relativity)).
 
 ## References
 

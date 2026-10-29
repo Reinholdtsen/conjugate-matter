@@ -8,6 +8,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §11.2"
   - "papers/broken-born-checkpoint-v2.md App. A item 11"
   - "papers/broken-born-checkpoint-v2.md §11 (italic opening)"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
+  - "review/wiki-build-flags.md flag 60"
   - "HANDOFF.md §3"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
@@ -53,7 +55,7 @@ The dual superconductor is one of the three established results that #11 lists a
 
 - **The fate of the supposition** (#11 App. A item 11): "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition" ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [founding suppositions and their fates](/wiki/program/founding-suppositions)).
 - **The vocabulary.** Magnetic counterparts of quarks appear in Seiberg's dualities: "magnetic quarks" is "standard vocabulary via Seiberg duality [18†]" (#11 §11.2).
-- **How #11 describes the idea's standing.** The italic opening of §11 says the mirror-family is "suspected today of being the very mechanism that confines quarks". The technical record's word is "leading", and its tag is [T].
+- **How #11 describes the idea's standing.** The italic opening of §11 calls the mirror-family, magnetic quarks included, "the leading candidate for the mechanism that confines quarks". The technical record calls the dual superconductor "the leading mechanism for why free quarks are never seen", tagged [T].
 
 The program's own addition to the supposition is not about confinement. It is the observation that choosing which particles count as electric is a choice of polarization ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)).
 
@@ -61,7 +63,7 @@ The program's own addition to the supposition is not about confinement. It is th
 
 [The popular article #12](/wiki/history/documents/popular-articles) calls the dual superconductor the mechanism "most widely credited" for confinement and draws a conclusion from it ('Dark matter as the other polarization'): "If that picture is correct, magnetic analogs of quarks are not hypothetical inhabitants of a hidden sector; their condensed form is at work inside every proton."
 
-The second sentence is conditional, and #12 is never a source for a claim's status. The same passage goes on to place the "free spectrum" of the magnetic family in the momentum-polarized sector, a claim found only in #12 and recorded as dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)). [The handoff](/wiki/history/documents/handoff) lists the "magnetic-quark/dual-superconductor section" among #12's contents (`HANDOFF.md` §3).
+The second sentence is conditional, and #12 is never a source for a claim's status. The same passage goes on to place the "free spectrum" of the magnetic family in the momentum-polarized sector. Since v2.3 the checkpoint records that placement as P.R.'s magnetic-mirror conjecture, open, with #12's reading as its shared-photon form, in which the analogs carry magnetic charge of our photon (#11 §11.4; [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)). The wiki recorded #12's claim as dead until 2026-10-29, when flag 60 reversed the obituary. [The handoff](/wiki/history/documents/handoff) lists the "magnetic-quark/dual-superconductor section" among #12's contents (`HANDOFF.md` §3).
 
 ## Standard references
 
@@ -79,6 +81,7 @@ The checkpoint's attribution is "'t Hooft–Mandelstam†", with no entry in its
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.2 — the statement, tagged [T] with 't Hooft–Mandelstam†; §11 italic opening — "suspected today of being the very mechanism that confines quarks"; App. A item 11 — the fate of founding supposition 11.
+- `papers/broken-born-checkpoint-v2.md` §11.2 — the statement, tagged [T] with 't Hooft–Mandelstam†; §11 italic opening — "the leading candidate for the mechanism that confines quarks"; App. A item 11 — the fate of founding supposition 11; §11.4 — the magnetic-mirror conjecture, with #12's reading as its shared-photon form [O].
+- `review/wiki-build-flags.md` flag 60 — the reversal of the wiki's obituary of #12's placement.
 - `HANDOFF.md` §3 — #12's "magnetic-quark/dual-superconductor section".
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular account and its conditional "inside every proton" (not a status source).

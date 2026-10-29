@@ -24,7 +24,7 @@ sources:
 
 *This is [#13](/wiki/conjugate-relativity)'s claim that the [equivalence principle of general relativity](/wiki/gravity/spin-2-fields/equivalence-principle), which puts all freely falling frames on an equal footing, is the principle of relativity of the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the part of position. In #13's dual kinematics, rest means feeling no force, which is free fall; so the dual statement that physics is the same in all force-free frames is the equivalence principle, reached from kinematics rather than from gravitation, and #13 reads Einstein's two relativity principles as the two polarizations of one statement. The same paper lists what the two polarizations share, the time coordinate and the massless graviton, so that both fall alike, and what the breaking of the symmetry makes different: our light cone is held in place by massless gravity, the dual cone's dynamical part by the [massive field X](/wiki/gravity/momentum-graviton), so dual effects are short-ranged. The claim is alive but unreviewed: it is tagged as a structural derivation by #13 itself, no review round or script has checked it, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it. The [popular article #12](/wiki/history/documents/popular-articles) states it as settled, which is not its status.*
 
-**Status:** Alive, unreviewed — [D — structural] (#13 §5); the long-range/short-range asymmetry [D — checkpoint §7] (#13 §6), whose derived form is #11 §7.5's (flag 29 in `review/wiki-build-flags.md`). [The tags](/wiki/method/provenance-tags) are #13's own: no review round has covered #13, no `verify/` script checks the claim, it is not on #13 §7's fixed list, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
+**Status:** Alive, unreviewed — [D — structural] (#13 §5); the long-range/short-range asymmetry [D — checkpoint §7] (#13 §6), whose derived form is #11 §7.5's (flag 29 in `review/wiki-build-flags.md`). [The tags](/wiki/method/provenance-tags) are #13's own: no review round has covered #13, no `verify/` script checks the claim, it is not on #13 §7's fixed list, and [#11](/wiki/history/documents/checkpoint) v2.3 does not mention it.
 
 ## Background: two relativity principles [T]
 
@@ -99,7 +99,7 @@ The popular article #12 ("A second speed of light"): "The momentum description's
 
 ## Basis of the status
 
-`HANDOFF.md` §2 lists "dual inertial frames = free fall ⇒ equivalence principle as the dual relativity principle" among the alive results, without the ✓ it uses for machine-verified items. #13 has not been revised since its import on 2026-10-19, no review round has covered it, and #11 v2.2 does not mention it ([conjugate special relativity](/wiki/conjugate-relativity)).
+`HANDOFF.md` §2 lists "dual inertial frames = free fall ⇒ equivalence principle as the dual relativity principle" among the alive results, without the ✓ it uses for machine-verified items. #13 has not been revised since its import on 2026-10-19, no review round has covered it, and #11 v2.3 does not mention it ([conjugate special relativity](/wiki/conjugate-relativity)).
 
 ## Sources
 

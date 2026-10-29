@@ -107,13 +107,13 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 - [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — χ is matter of the momentum polarization.
 - [Two causal cones](/wiki/conjugate-relativity/two-causal-cones), [dual inertia](/wiki/conjugate-relativity/dual-inertia), [force dilation](/wiki/conjugate-relativity/force-dilation), [the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell) and [the equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) — #13's kinematics of the momentum polarization.
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) and [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — a duality frame as a Lagrangian polarization of charge space.
-- [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — the popular article joined the charge-space polarization to the phase-space one, which the record keeps apart.
+- [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification) — P.R.'s conjecture of a magnetically charged momentum-polarized analog for each electrically charged particle, which is what #11 §11.3's conjecture would give if one vacuum event selected both the position polarization and the electric sublattice (#11 §11.4).
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §3 — the mandatory selection of a Lagrangian polarization.
 - `papers/broken-born-checkpoint-v2.md` §4 — P5; the v2.2 refinement; P2′'s notation η = HJ.
-- `papers/broken-born-checkpoint-v2.md` §11 — Lagrangian sublattices and duality frames in charge space.
+- `papers/broken-born-checkpoint-v2.md` §11 — Lagrangian sublattices and duality frames in charge space; §11.4 — the magnetic-mirror conjecture, what §11.3's conjecture would give if one vacuum event made both choices [O].
 - `papers/reciprocity-toy-models.md` §1, §2, §5 — K's eigenlines as η's Lagrangian null lines; the circle K(φ) and Λ(1); Freidel–Leigh–Minic's "choice of Lagrangian".
 - `verify/toy_s5.py` — the d = 1 Lagrangian-line checks (part A).
 - `notes/geometric-core.md` §B — the splittings compatible with a rigid η, which the note calls discrete.

@@ -17,7 +17,7 @@ sources:
 
 *The maximum-force conjecture is a proposal within [general relativity](/wiki/gravity/spin-2-fields/general-relativity) that no force can exceed c⁴/4G, a combination of the speed of light c and Newton's constant G; Gibbons named it the maximum tension principle, and Schiller took a principle of maximum force as the starting point for deriving general relativity. An older and separate proposal, Caianiello's, is a maximal acceleration obtained from a metric on [phase space](/wiki/phase-space). Both are proposals rather than settled results, and #13, the program's paper on [conjugate special relativity](/wiki/conjugate-relativity), notes that the maximum-force conjecture is contested. They matter to the program because #13's maximum force, c̃ = c⁴/G, has the same form up to a factor of 4, and #13 offers a reason for such a limit. This page covers the literature; the Planck units it is written in are on [their own page](/wiki/gravity/spin-2-fields/planck-units), and #13's own claim is on [the maximum force page](/wiki/conjugate-relativity/maximum-force).*
 
-**Status:** Established as literature: the proposals are published, not settled, and the maximum-force conjecture is contested — [T], with both citations marked † (from model memory, not yet checked against the papers) — #13 notes the maximum-force conjecture's contested status [T] without citing the dispute; the † references wait on [the literature battery](/wiki/method/literature-battery). #13's use of the conjecture is its own, unreviewed and not machine-checked, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
+**Status:** Established as literature: the proposals are published, not settled, and the maximum-force conjecture is contested — [T], with both citations marked † (from model memory, not yet checked against the papers) — #13 notes the maximum-force conjecture's contested status [T] without citing the dispute; the † references wait on [the literature battery](/wiki/method/literature-battery). #13's use of the conjecture is its own, unreviewed and not machine-checked, and [#11](/wiki/history/documents/checkpoint) v2.3 does not mention it.
 
 ## Why c⁴/G is a force [T]
 
@@ -50,7 +50,7 @@ The Planck length l_P = √(ℏG/c³) and the Planck energy E_Planck = √(ℏc�
 - **A reason for the limit.** #13 §1: "The framework's contribution is a reason: a maximum force is the statement that nothing outruns light in the momentum polarization." In #13 the limit is the invariant speed of a second light cone, the one of momentum space ([Two causal cones](/wiki/conjugate-relativity/two-causal-cones)).
 - **Literature tethers.** #13 §7 lists "maximum-tension conjecture [1†], maximal acceleration [2†], Born's self-dual program [3†, 4†]" as the work it ties itself to.
 
-These uses are #13's claims, not results of the literature. #13 was never put through a [blind review](/wiki/method/review) round, no `verify/` script checks its numbers, and #11 v2.2 mentions neither the maximum force nor the conjecture.
+These uses are #13's claims, not results of the literature. #13 was never put through a [blind review](/wiki/method/review) round, no `verify/` script checks its numbers, and #11 v2.3 mentions neither the maximum force nor the conjecture.
 
 ## Verification still to do
 

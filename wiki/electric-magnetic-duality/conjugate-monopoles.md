@@ -9,6 +9,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md App. A item 5"
   - "papers/broken-born-checkpoint-v2.md App. A item 3"
   - "papers/broken-born-checkpoint-v2.md §11 (italic opening)"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §8"
@@ -18,6 +19,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md ref [16]"
   - "HANDOFF.md §2"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/wiki-build-flags.md flag 62"
   - "review/round3-adjudication.md 'Decisions' 1"
   - "review/round3-adjudication.md 'Decisions' 2"
 ---
@@ -32,7 +34,7 @@ sources:
 
 > As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; "true but irrelevant" is the empty set (a correction supplied by P.R.). Their candidacy as the dark matter itself is retired in v2.1 (§12).
 
-The italic opening of §11 gives the same point in plain words: "if such objects exist, they must matter, because everything gravitates". The founding-supposition audit records the split: "as explanation, dead (wrong duality; inflation suffices); as ontology, alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero"); the knot candidate it fed is retired (§12)" (#11 App. A item 5; [founding suppositions and their fates](/wiki/program/founding-suppositions); [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
+The italic opening of §11 gives the same point in plain words: "The claim splits in two, and its second half stands: if such objects exist, they gravitate, like everything else." The founding-supposition audit records the split: "as explanation, dead (wrong duality, which only §11.4's shared-photon form contests, and that form needs P4 restated; the null result is expected under several standard histories, so it lends no support — v2.3, flag 59); as ontology, alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero"); the knot candidate it fed is retired (§12)" (#11 App. A item 5; [founding suppositions and their fates](/wiki/program/founding-suppositions); [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)). Until v2.3 the explanation's parenthesis read "(wrong duality; inflation suffices)". Since v2.3 the item adds: "Its ontology half, joined with item 11, is P.R.'s magnetic-mirror conjecture (§11.4) [O]; whether the conjecture's shared-photon form would reopen the explanation is P.R.'s ruling (flag 62)" ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)). Flag 62 is pending.
 
 ## What the objects would be
 
@@ -49,6 +51,8 @@ The argument is a single step from postulate P4 (#11 §4; [P4: polarized matter 
 H is the positive [generalized metric](/wiki/phase-space/born-geometry/born-structures) on phase space (postulate [P1](/wiki/program/postulates/p1-arena)). On the vacuum slice it has the form H = diag(g, g⁻¹), with g the spacetime metric ([the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem); #11 §5), so universal coupling to H includes coupling to the metric of ordinary gravity. #11 §8 says the same of the [χ particles](/wiki/dark-matter/candidates/chi-particles): "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" ([the equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle); [the Bullet Cluster](/wiki/dark-matter/halo-astrophysics/bullet-cluster)). An object built from p-polarized fields carries energy, and under P4 that energy sources the gravitational field and responds to it like any other.
 
 The last clause of P4 fixes what they would not do. Since v2.1, P4 is taken strictly: "no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S]" (#11 §4; round-3 Decision 1, [round-3 decisions](/wiki/method/review/round-3/decisions); [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)). A conjugate monopole would carry no charge under our photon and would not interact with our matter through any gauge force. Gravity is the coupling the postulates guarantee.
+
+That inference holds under P4 as written. P.R.'s magnetic-mirror conjecture (#11 §11.4 [O]) has two forms. In the [separate-photon form](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon) the momentum-polarized sector's analogs are magnetic under that sector's own gauge field, which is consistent with P4 and leaves the inference unchanged. In the [shared-photon form](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon) they would carry magnetic charge of our photon, and "P4 as written excludes this form ("gauge forces do not cross polarizations", in the program since #1), so it needs P4 restated" (§11.4); in that form the inference would not hold.
 
 ## "True but irrelevant" is empty
 
@@ -83,7 +87,7 @@ Reference [16]†: S.-Y. Xu et al., "Discovery of a Weyl fermion semimetal," Sci
 
 The founding image of the program was dark matter that [clumps in momentum space](/wiki/dark-matter/momentum-clumping), and it died: collective momentum-space clumping is "nowhere mandatory" (#11 §9; [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). One logical gap was left for single topological objects, whose localization would come from topology rather than from collective dynamics. #11 §12 lists it among the survivors of the soliton obituary: "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate" ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)). App. A item 3 agrees: "topological p-localization of individual solitons untested, and its candidate is retired (§12)".
 
-#11 §14 item 8 words it differently: "The soliton-spectrum and p-localization items are closed by the §12 obituary". The checkpoint does not reconcile "closed" with "untested" ([open problem 8](/wiki/electric-magnetic-duality/unified-modular-structure)).
+#11 §14 item 8 words it differently. In v2.1 and v2.2 its parenthesis read "The soliton-spectrum and p-localization items are closed by the §12 obituary"; since v2.3 it reads "(v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; §11.4's shared-photon form needs p-localization again.)" The checkpoint does not reconcile "closed" with "untested" ([open problem 8](/wiki/electric-magnetic-duality/unified-modular-structure)). The shared-photon form needs something to hide its analogs from detectors and from [the Parker bound](/wiki/electric-magnetic-duality/monopoles/monopole-searches#the-parker-bound-t): p-localization, with the spread in position in the objects' field profile rather than their quantum state, or binding into magnetically neutral composites. Neither has been computed (§11.4).
 
 ## What the statement does not claim
 
@@ -94,7 +98,8 @@ The founding image of the program was dark matter that [clumps in momentum space
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.1 — the statement [D], the retired candidacy and the laboratory shadow; §11 italic opening; App. A items 3 and 5 — the loophole and the split with "measure zero"; §4 — P4, strict; §5 — H = diag(g, g⁻¹); §8 — χ propagates on g; §12 — the candidate as claimed in v2.0, its retirement and the loophole; §13 — row 8; §14 item 8 — "closed"; ref [16]†.
+- `papers/broken-born-checkpoint-v2.md` §11.1 — the statement [D], the retired candidacy and the laboratory shadow; §11 italic opening; §11.4 — the magnetic-mirror conjecture and its two forms [O]; App. A items 3 and 5 — the loophole and the split with "measure zero"; §4 — P4, strict; §5 — H = diag(g, g⁻¹); §8 — χ propagates on g; §12 — the candidate as claimed in v2.0, its retirement and the loophole; §13 — row 8; §14 item 8 — "closed", and since v2.3 the shared-photon form's need for p-localization; ref [16]†.
 - `CLAUDE.md` 'Since the handoff' — the soliton candidate dead; the framework merely compatible with prior art.
+- `review/wiki-build-flags.md` flag 62 — whether the shared-photon form would reopen the dead explanation, pending.
 - `review/round3-adjudication.md` 'Decisions' 1, 2 — strict sector separation; the candidate retired.
 - `HANDOFF.md` §2 — the earlier tie to the soliton candidate (superseded).

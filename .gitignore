@@ -7,3 +7,6 @@ site/resources/
 site/node_modules/
 site/.hugo_build.lock
 site/.wrangler/
+
+# Working files: briefings, sweep outputs, intermediate scripts (one subfolder per task; clear when landed)
+work/

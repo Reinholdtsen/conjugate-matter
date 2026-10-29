@@ -101,7 +101,7 @@ The [round-3](/wiki/method/review/round-3) review retired the third candidate, s
 | 11, requirement | "Particles / condensate / knots separable via rows 1–3 + compact-object lensing + coherence signatures" | "Particles vs condensate, separable via rows 1–3 + coherence signatures" |
 | Withdrawn | two items | adds "superheavy-soliton dark matter (obituary §12)" |
 
-DR2 is Data Release 2. The DR2 clause puts the dark-energy sector under real pressure ([row 4](/wiki/predictions/dark-energy-drift); root `CLAUDE.md`, 'Since the handoff'). The soliton candidate's obituary is [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary). "P4 strict" refers to strict sector separation under [postulate P4](/wiki/program/postulates/p4-polarized-matter). #11 v2.2 (2026-10-20) left §13 unchanged.
+DR2 is Data Release 2. The DR2 clause puts the dark-energy sector under real pressure ([row 4](/wiki/predictions/dark-energy-drift); root `CLAUDE.md`, 'Since the handoff'). The soliton candidate's obituary is [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary). "P4 strict" refers to strict sector separation under [postulate P4](/wiki/program/postulates/p4-polarized-matter). #11 v2.2 (2026-10-20) and v2.3 (2026-10-29) left §13 unchanged.
 
 The current list of withdrawn predictions (#11 §13): "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); superheavy-soliton dark matter (obituary §12)."
 
@@ -153,7 +153,7 @@ The lab notebook paired its table with a count of two parameters per sector agai
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the two remaining candidates; §7.5 — five βₙ to two parameters; header — the v2.1 and v2.2 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
+- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the two remaining candidates; §7.5 — five βₙ to two parameters; header — the v2.1, v2.2 and v2.3 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
 - `notes/broken-born-program-v1.md` §9 — v1's ten rows and its withdrawn list; §11 — its exposure rows and novel predictions; §0 — "two free parameters per sector"
 - `notes/broken-born-theory.md` §9, §10, §12 — v0.1's ten rows, its flagships, its parameter table and summary
 - `notes/broken-born-theory.md` 'Addendum (v0.2, after the clumping notes)', 'Addendum (v0.4)', 'Addendum (v0.6)' — the withdrawal of rows 3–4 and the island-discriminant row; the cliff-to-knee amendment; the spectrum behind the graviton row

@@ -2,7 +2,7 @@
 title: "Obituary: the coupling α_d ≈ 34"
 weight: 40
 status: dead
-description: "Three attempts to fix the hidden monopoles' coupling — Dirac quantization against our photon (round 1's valid kill), reciprocity acting as modular S (numerology), and hypothesis H — the F2 reframing, and the factor-of-four convention spread."
+description: "Three attempts to fix the hidden monopoles' coupling — Dirac quantization against our photon (round 1's valid kill), reciprocity acting as modular S (called numerology in round 2; since 2026-10-29 part of P.R.'s open magnetic-mirror conjecture), and hypothesis H — the F2 reframing, its decision withdrawn on 2026-10-29, and the factor-of-four convention spread."
 sources:
   - "HANDOFF.md §2"
   - "HANDOFF.md §6"
@@ -21,15 +21,18 @@ sources:
   - "review/round3-adjudication.md 'Rulings' 12"
   - "review/round3-adjudication.md 'Decisions' 2"
   - "papers/broken-born-checkpoint-v2.md §11"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "CLAUDE.md 'Since the handoff'"
   - "verify/soliton_obituary.py"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
   - "review/wiki-build-flags.md item 28"
+  - "review/wiki-build-flags.md item 60"
 ---
 
-*α_d ≈ 34 was the strength the soliton candidate assigned to the interaction between its hidden [monopoles](/wiki/electric-magnetic-duality/monopoles): 1/(4α), the reciprocal of four times the fine-structure constant α ≈ 1/137 of ordinary electromagnetism. The program tried three ways to fix that value. The first applied Dirac's charge-quantization condition using our photon's charge, which contradicted the claim that the monopoles do not couple to our photon. The second had [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) act on gauge couplings as the [modular S transformation](/wiki/electric-magnetic-duality/modular-group#the-generators-s-and-t) of [electric–magnetic duality](/wiki/electric-magnetic-duality); a referee called it numerology, and it was set aside. The third assumed that the smallest hidden charge equals the electron's; it was motivated but not derived, and it fell with the candidate. The number itself shifts by a factor of four with the convention used. What survives is a general fact: a weakly coupled force always has strongly coupled monopoles.*
+*α_d ≈ 34 was the strength the soliton candidate assigned to the interaction between its hidden [monopoles](/wiki/electric-magnetic-duality/monopoles): 1/(4α), the reciprocal of four times the fine-structure constant α ≈ 1/137 of ordinary electromagnetism. The program tried three ways to fix that value. The first applied Dirac's charge-quantization condition using our photon's charge, which contradicted the claim that the monopoles do not couple to our photon. The second had [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) act on gauge couplings as the [modular S transformation](/wiki/electric-magnetic-duality/modular-group#the-generators-s-and-t) of [electric–magnetic duality](/wiki/electric-magnetic-duality); a referee called it numerology, and it was set aside on 2026-10-19 by a decision that Paul withdrew on 2026-10-29. The identification it rested on, the momentum-polarized sector as the image of ours under the exchange of electric and magnetic charge, is now one form of P.R.'s open [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification), that each electrically charged particle has a magnetically charged analog in the momentum-polarized sector. The third assumed that the smallest hidden charge equals the electron's; it was motivated but not derived, and it fell with the candidate. The number itself shifts by a factor of four with the convention used. What survives is a general fact: a weakly coupled force always has strongly coupled monopoles.*
 
-**Status:** Dead in all three forms. The first was killed in round 1 ([the handoff](/wiki/history/documents/handoff) calls it the "round-1 reviewer's valid kill"); the second was set aside when Paul decided on 2026-10-19 that "S-duality is no longer what fixes α_d" (v3 worklog, F2), and is folded below as superseded; the third, hypothesis H, was part of #14 v3, which was withdrawn on 2026-10-19 (round-3 Decision 2; [round-3 decisions](/wiki/method/review/round-3/decisions)). The round-3 referee confirmed the arithmetic of hypothesis H with executed code; the convention spread is marked [V] in the v3 worklog, and the current gate, `verify/soliton_obituary.py`, does not re-check it. The surviving Dirac relation is [T]. Home: [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead in the first and third forms; the second is part of an open conjecture. The first was killed in round 1 ([the handoff](/wiki/history/documents/handoff) calls it the "round-1 reviewer's valid kill"); the third, hypothesis H, was part of #14 v3, which was withdrawn on 2026-10-19 (round-3 Decision 2; [round-3 decisions](/wiki/method/review/round-3/decisions)). The second was set aside within #14 when Paul decided on 2026-10-19 that "S-duality is no longer what fixes α_d" (v3 worklog, F2). On 2026-10-29 Paul withdrew that decision as "probably confusion on my part" (flag 60 in `review/wiki-build-flags.md`), while F2's finding stands, and #11 v2.3 records P.R.'s magnetic-mirror conjecture [O] (§11.4), whose separate-photon form is #14 v2's: the p-polarized sector's own gauge field has a coupling that is "the S-image of ours", and whether that is the sector's elementary coupling or its magnetic one is open ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon)). The second form is folded below as a conjecture. #14 stays withdrawn. The round-3 referee confirmed the arithmetic of hypothesis H with executed code; the convention spread is marked [V] in the v3 worklog, and the current gate, `verify/soliton_obituary.py`, does not re-check it. The surviving Dirac relation is [T]. Home: [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate); listed in [the graveyard](/wiki/status/graveyard).
 
 ## The couplings and Dirac's condition
 
@@ -55,7 +58,9 @@ The first version of #14 fixed the hidden monopoles' coupling with Dirac's condi
 
 The DSZ (Dirac–Schwinger–Zwanziger) lattice is the lattice of electric and magnetic charges of one gauge theory, on which Dirac's condition holds pairwise ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). Dirac's argument applies only to charges that couple to the same gauge field. Quantizing the monopoles' charge against the electron's therefore makes them magnetic charges of our electromagnetism, which contradicts the candidate's defining claim that they are dark because they do not couple to our photon. Round 1 found the contradiction and the handoff calls it valid (§6). v3 later stated the opposite explicitly: "nothing is quantized against our gauge field" (#14 §2, "What is not asserted.").
 
-## Superseded: reciprocity acting as modular S
+## Conjecture: reciprocity acting as modular S
+
+Since #11 v2.3 this form is the separate-photon form of P.R.'s magnetic-mirror conjecture, open [O] (§11.4). Within #14 it was superseded by hypothesis H, by a decision of 2026-10-19 that Paul withdrew on 2026-10-29 ([below](#the-decision-withdrawn-2026-10-29)).
 
 v2 replaced the Dirac argument with a conjecture. The handoff: "Restated in v2 as reciprocity-acts-as-modular-S on the coupling — explicitly the load-bearing conjecture; without it α_d is a free strong coupling" (§2).
 
@@ -73,7 +78,13 @@ Round 2 graded v2 "B near B/C / medium" with "weakest link = the α_d derivation
 
 ### Why it was set aside
 
-The worklog's finding F2 (next section) showed that the S-duality reading was not needed to obtain a strong monopole coupling, and Paul decided on 2026-10-19 that "S-duality is no longer what fixes α_d". v3 kept the charge-lattice correspondence only "as motivation" and added that "Exact electric-magnetic duality is also not assumed" (#14 §2). No [round-3 ruling](/wiki/method/review/round-3/rulings) addresses the conjecture, and #11 v2.2 does not mention it; F2's decision is the operative record.
+The worklog's finding F2 (next section) showed that the S-duality reading was not needed to obtain a strong monopole coupling, and Paul decided on 2026-10-19 that "S-duality is no longer what fixes α_d". v3 kept the charge-lattice correspondence only "as motivation" and added that "Exact electric-magnetic duality is also not assumed" (#14 §2). No [round-3 ruling](/wiki/method/review/round-3/rulings) addresses the conjecture, and #11 v2.2 did not mention it; until 2026-10-29 F2's decision was the operative record.
+
+### The decision withdrawn (2026-10-29)
+
+On 2026-10-29 Paul withdrew the decision: "probably confusion on my part"; he "never meant to create an obituary" (`review/v3-worklog.md`, F2; flag 60). #11 v2.3 records P.R.'s magnetic-mirror conjecture [O] (§11.4): "momentum matter is similar to position matter, each electrically charged x-polarized particle having a magnetically charged p-polarized analog". x-polarized matter is ours, made of fields local in position, and p-polarized matter is the conjugate sector's, local in momentum ([P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter)). #11 places v2's conjecture beside it: "#14 v2 stated a related identification, "the momentum-polarized matter sector is the S-dual image of the electric sector", with reciprocity acting on gauge couplings as S; it called that identification load-bearing for its dual coupling α_d, and a full mirror spectrum appeared there only as something the sector "may carry"." It adds that "F2's finding, that #14 v2 used both a weak and a strong value of the dual coupling, stands, and #14 stays withdrawn (§12)" ([F2](#superseded-f2-which-coupling-sets-the-soliton-mass)).
+
+v2's form is the conjecture's separate-photon form: "The analogs are magnetic under the p-polarized sector's own gauge field, whose coupling is the S-image of ours. Whether that is the sector's elementary coupling or its magnetic one is open; F2's finding is that the choice decides whether the sector's solitons are heavy. This form is consistent with P4 and leaves the absence of our own monopoles to §11.1" (§11.4). Round 2's objections stay open. Among what stays open in either form, #11 lists "the round-2 objection that a shared matrix is not a shared physics ("matrix coincidence ≠ physical identity")" and "round 2's burden that exact S-duality is established only with extended supersymmetry, so either reciprocity supplies the rigidity or the dual sector is approximately supersymmetric" ([round 2's verdict](#round-2s-verdict)), together with the factor-of-four spread of the dual coupling ([below](#superseded-the-convention-and-running-spread)). The burden returns with the withdrawal, since the worklog had tied its size to F2: "If F2 is adopted, S no longer carries α_d, and the burden shrinks to the §2 "full mirror spectrum" remark" (`review/v3-worklog.md`, 'Round-2 pending list', R1). The conjecture, its two forms and what it needs are on [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification). The first attempt, Dirac quantization against our photon, stays dead ([above](#attempt-1-dirac-quantization-against-our-photon)).
 
 ## Superseded: F2, which coupling sets the soliton mass
 
@@ -86,7 +97,9 @@ A soliton's mass is the symmetry-breaking scale enhanced by the inverse of the e
 - "the dual sector's elementary coupling α_e,d is weak, its solitons are heavy (M ≈ Λ_c/α_e,d), and the solitons themselves are strongly coupled (α_m ≈ 1/(4α_e,d) or 1/α_e,d)";
 - "Then α_d ≈ 34 follows from α_e,d ≈ α, a mirror-coupling equality, and does not need S acting on our coupling."
 
-Paul adopted the reading on 2026-10-19: "the load-bearing conjecture becomes α_e,d = α (or α_e,d free and weak), and S-duality is no longer what fixes α_d." That equality became hypothesis H. F2's argument is not refuted; it is superseded because the hypothesis it led to died with the candidate.
+Paul adopted the reading on 2026-10-19: "the load-bearing conjecture becomes α_e,d = α (or α_e,d free and weak), and S-duality is no longer what fixes α_d." That equality became hypothesis H. F2's finding is not refuted; the reading it led to is superseded because hypothesis H died with the candidate.
+
+On 2026-10-29 Paul withdrew the decision as "probably confusion on my part" (`review/v3-worklog.md`, F2; flag 60). F2's decision is withdrawn and its finding stands: v2 used both a weak and a strong value of the dual coupling, and the choice decides whether the solitons are heavy (#11 §11.4). In the separate-photon form of P.R.'s magnetic-mirror conjecture the coupling of the p-polarized sector's own gauge field is the S-image of ours, and which coupling that is, the sector's elementary one or its magnetic one, is open (§11.4; [the decision withdrawn](#the-decision-withdrawn-2026-10-29)). #14 stays withdrawn.
 
 ## Attempt 3: hypothesis H
 
@@ -120,21 +133,23 @@ SM is the Standard Model, and α₃ the strong-force coupling. The spread has tw
 
 v3 carried both into its text: "Matching the W' charge to ours instead of psi's gives alpha_m ~ 137. Matching at 1e12 GeV instead of at low energy gives about 29, from one-loop Standard Model running of alpha." The referee confirmed both: "137.036" for the W′-charge variant, and "28.61 (MSbar 127.930), 28.86 (128.95)" for running to 10¹² GeV (Step 2). The drafting check had corrected the second figure before v3 was written: "the coupling matched at 10¹² GeV is ≈ 29 (not 28)" (worklog, 'v3 as drafted (2026-10-19)').
 
-The spread is the spread of a number that no longer has a role: with H dead, nothing in the program fixes α_d.
+Within #14 the spread is that of a number that no longer has a role there: with H dead, nothing in #14 fixes α_d. Since 2026-10-29 the spread is an open item of P.R.'s magnetic-mirror conjecture, whose separate-photon form takes the dual coupling to be the S-image of ours: #11 §11.4 lists "the dual coupling's factor-of-4 convention spread, 1/(4α) or 1/α (`review/v3-worklog.md` R2 [V]; the formula printed beside 34 in §11.2 is flag 28)" among what stays open in either form ([what it needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 
 ## What survives
 
-The general relation survives the candidate. #11 §12, under "What survives": "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]." In #14's words, "the strong magnetic coupling is generic, not a hypothesis." What died is every attempt to pick the particular value 34 for a hidden sector.
+The general relation survives the candidate. #11 §12, under "What survives": "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]." In #14's words, "the strong magnetic coupling is generic, not a hypothesis." What died are the first and third attempts to fix the value 34 for a hidden sector, Dirac quantization against our photon and hypothesis H. The second, reciprocity acting as modular S, is the separate-photon form of P.R.'s open magnetic-mirror conjecture ([above](#conjecture-reciprocity-acting-as-modular-s)). Two things about the value stay open there: whether the S-image of our coupling is the sector's elementary coupling or its magnetic one, and the factor-of-four convention, 1/(4α) or 1/α (#11 §11.4; [the convention and running spread](#superseded-the-convention-and-running-spread)).
 
 For ordinary electromagnetism the same arithmetic is established physics and untouched. #11 §11.2 [T]: "Dirac's condition e·g ~ 2π pins the magnetic coupling near 4π/e² ≈ 34 — the magnetic world is our strong-coupling mirror, heavy and bound" ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family)). That value concerns the magnetic charges of our own electromagnetism, not a hidden sector. Flag 28 in `review/wiki-build-flags.md` finds the number right and the formula beside it suspect: with α = e²/4π, 4π/e² is 1/α, while a coupling near 34 is 1/(4α), as in the Dirac relation above.
 
-The [popular article](/wiki/history/documents/popular-articles) #12 uses the same comparison, "about 34, against our 1/137", for the claim that the momentum-polarized sector is "the magnetic side of electromagnetism". That claim appears only in the popular article and is dead ([Obituary: the magnetic identification](/wiki/electric-magnetic-duality/magnetic-identification)).
+The [popular article](/wiki/history/documents/popular-articles) #12 uses the same comparison, "about 34, against our 1/137", for the claim that the momentum-polarized sector is "the magnetic side of electromagnetism". #11 v2.3 records that reading as the shared-photon form of P.R.'s magnetic-mirror conjecture, open, in which the analogs "carry magnetic charge of our photon" (§11.4; [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). Until 2026-10-29 the wiki recorded it as dead; flag 60 reversed that on Paul's ruling. It does not repeat the dead first attempt, which took Dirac's condition against our photon while denying the coupling to it: a separate photon, as in #14 v2 and v3, and an accepted coupling, as in #12, are the two ways out of that inconsistency (flag 60). #12 is never a source for a claim's status.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §12 — what survives; §11.2 — the ordinary-electromagnetism statement; §11.3 — the shared matrix
+- `papers/broken-born-checkpoint-v2.md` §12 — what survives; §11.2 — the ordinary-electromagnetism statement; §11.3 — the shared matrix; §11.4 — P.R.'s magnetic-mirror conjecture [O], its two forms, what stays open in either, and the withdrawal of the decision of 2026-10-19
+- `CLAUDE.md` 'Since the handoff' (2026-10-29) — the conjecture, and F2's decision withdrawn while its finding stands
 - `HANDOFF.md` §2 — the first two attempts and their status; §6 — round 1's kill and round 2's verdict
-- `review/v3-worklog.md` 'Round-2 pending list' (R1, R2), 'Findings neither referee raised' (F2), 'v3 as drafted (2026-10-19)' — the exactness burden, the convention spread, the mass argument and Paul's decision, and how H was matched
+- `review/v3-worklog.md` 'Round-2 pending list' (R1, R2), 'Findings neither referee raised' (F2), 'v3 as drafted (2026-10-19)' — the exactness burden, the convention spread, the mass argument, Paul's decision and its withdrawal on 2026-10-29, and how H was matched
+- `review/wiki-build-flags.md` item 60 — the reversal of the wiki's obituary of the identification, and the two ways out of round 1's inconsistency
 - `notes/knot-dark-matter-standalone.md` §2 — the Dirac relation, hypothesis H, "What is not asserted"; §6 — H as "Conjectural" and acceptance criterion 1; Abstract — the coupling as v3 states it
 - `review/round3/referee/audit-notes.md` Step 1 — the 2π versus 4π normalization; Step 2 — the confirmed arithmetic and variants; Step 4(d) — the e/3 variant and "motivated, not derived"
 - `review/round3/referee/step2a.out` — the referee's printed couplings
@@ -142,5 +157,5 @@ The [popular article](/wiki/history/documents/popular-articles) #12 uses the sam
 - `review/round3-adjudication.md` 'Rulings' 12 — the normalization accepted; 'Decisions' 2 — the retirement
 - `verify/soliton_obituary.py` — H as part of the checked model
 - `review/skeptic-review-console.html` — #14 v2's modular-S conjecture, verbatim
-- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular echo
+- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular echo, the shared-photon reading (never a status source)
 - `review/wiki-build-flags.md` item 28 — the formula #11 §11.2 writes beside the value 34

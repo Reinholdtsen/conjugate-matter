@@ -17,19 +17,22 @@ sources:
   - "verify/closed_universe.py 'B. Closed tau histories'"
   - "verify/closed_universe.py 'C. Data bounds given closure'"
   - "verify/closed_universe.py 'E. Momentum space and reciprocity'"
+  - "verify/closed_universe.py 'F. Topology of the polarization manifold'"
   - "review/closed-universe/README.md"
   - "review/closed-universe/preregistration.md"
   - "review/wiki-build-flags.md items 27 (addendum), 43, 46, 48, 49, 50, 54"
+  - "review/wiki-build-flags.md item 61"
   - "review/round5-adjudication.md 'Rulings' R11"
   - "papers/phase-space-diameter.md §6"
   - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md §13 row 5"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
   - "CLAUDE.md 'Since the handoff'"
 ---
 
 *A closed universe is one whose space is finite in volume and curved like the surface of a sphere, one dimension up: the spatial curvature is positive, k = +1, and a traveller going straight ahead would in principle return to the start. The closed-universe note of 2026-10-27 works out what closure would mean for the Comatter program. Nothing in the program derives closure, but the program's dark-energy potential never goes negative, and with such a potential only a closed universe stops expanding and falls back; the turnaround that the program identifies with the [conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) therefore needs a closed universe. Current data, fitted with the program's own class of dark-energy models, disfavour closure at about two standard deviations. If the universe is closed, the data set only a minimum on its largest size, not a maximum. Momentum space does not close with it: the allowed momenta become discrete, as a string of fixed length holds only certain wavelengths, and their spacing is finest at the turnaround.*
 
-**Status:** Alive — computed, not reviewed. The note's results carry [D][V], its data [S], its prior art [T] and [S]; every number is recomputed by `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), and the note states that its results were checked by independent verifiers and a completeness critic and have not been through a blind review round (`notes/closed-universe.md` header). The reading of Paul's question is an assumption the note states. The note bears on flags 27 (addendum), 43, 46, 48, 49, 50 and 54 in `review/wiki-build-flags.md`, which await Paul's ruling.
+**Status:** Alive — computed, not reviewed. The note's results carry [D][V], its data [S], its prior art [T] and [S]; every number is recomputed by `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), and the note states that its results were checked by independent verifiers and a completeness critic and have not been through a blind review round (`notes/closed-universe.md` header). The reading of Paul's question is an assumption the note states. The note bears on flags 27 (addendum), 43, 46, 48, 49, 50 and 54 in `review/wiki-build-flags.md`, which await Paul's ruling, and on flag 61, applied on 2026-10-29, which added the polarization's point defects and gated the maps behind its homotopy groups.
 
 ## The question and the reading
 
@@ -191,7 +194,7 @@ A closed universe can be crossed (§8).
 - **Inflation [D][V; the critic's, one agent].** A closed de Sitter phase starting at a throat adds π/2 of conformal time. With it the whole S³ is in causal contact by about a_max/2, and light circles the universe in every history.
 - **Entropy bounds [D][V, review record].** The Fischler–Susskind bound fails as the particle horizon reaches the antipode, at a ≈ a_max. Bousso's covariant bound holds.
 - **Photons [V].** The number of CMB photons in the whole universe is finite: n_γ·2π²R₀³ = 2.1×10⁹¹ at |Ω_k| = 10⁻² to 6.6×10⁹⁵ at 10⁻⁵. It is conserved after electron–positron annihilation.
-- **Topology [D].** S³ carries two homotopy classes of polarization texture, [S³, Λ(4)] = Z₂, Λ(4) being the space of polarizations ([the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian)). X's lowest tensor modes on S³ are the L = 2 modes, those of Bianchi IX.
+- **Topology [D].** S³ carries two homotopy classes of polarization texture, [S³, Λ(4)] = Z₂, Λ(4) being the space of polarizations ([the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian)); the count follows from π₃(Λ(4)) = ℤ₂ [T][V] and is argued, not computed. The same manifold has π₁(Λ(4)) = ℤ [T][V] and π₂(Λ(4)) = ℤ₂ [T], the second following by exactness. Selecting the polarization can therefore leave strings of the Maslov phase τ, which exist on the light Maslov circle too, and, where the order parameter ranges over the whole manifold, point defects, the monopole type ([topological defects](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)). On the light circle alone π₂ = π₃ = 0, and neither the point defects nor the textures exist there. All of this assumes d = 4 and that the U(4) acting on the polarization is global, the verifiers' caveats (flag 61). `verify/closed_universe.py` section F gates the maps behind the groups: its check F3 confirms an input rather than testing one, and F4 matches the groups to Bott periodicity's table and states the texture count as "argued, not computed" ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)). X's lowest tensor modes on S³ are the L = 2 modes, those of Bianchi IX [D].
 
 ## The gravity sector and reciprocity
 
@@ -207,8 +210,9 @@ The note's §9 lists [O]:
 1. **Derive the dual Einstein–Hilbert term from S_H.** Every bound on the dual frame, including #11 §10's a⁻⁶ step and row 10, currently tests a postulate (flag 49).
 2. **Fit the program's model properly.** V₀[1 + cos(τ/f)] plus Ω_K against full CMB, baryon-acoustic-oscillation and supernova likelihoods, with the Cobaya and CAMB codes. It decides the premise: the background fit above has no supernovae.
 3. **The remaining calculations:** inflation and the bimetric sector together (G_eff = 2G_N during inflation, two light gravitons); the energy splitting between the ±K_ref polarizations that closure induces; perturbations, and X's L = 2 modes, through the recollapse.
+4. **Defects of the polarization** (added 2026-10-29, flag 61). If a transition in the early universe selected the polarization, the ℤ₂ point defects and the τ-strings above could form at it; the gravity-sector analysis lists their fate as open. Whether such a transition happened, what it left, and whether the point defects would pose a monopole problem of the program's own are not computed. They are defects of the program's own order parameter, unlike conjugate-sector solitons, whose existence depends on gauge content the record does not specify. #11 v2.3 lists the question as §14 item 12 ([Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
 
-The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 2019 as a lead, as "Open from the closed-universe note, not queued". All three are on [open problems and the queue](/wiki/status/open-problems).
+The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 2019 as a lead, as "Open from the closed-universe note, not queued", and the fourth among those "Open from the monopole discussion, not queued". All four are on [open problems and the queue](/wiki/status/open-problems).
 
 ## Record of the investigation
 
@@ -225,10 +229,11 @@ The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 20
 
 ## Sources
 
-- `notes/closed-universe.md` §1 — the question, the reading [assumption], the method and the conventions; §2 — closure underived, the turnaround needing k = +1, size and timing, the conditions, the prior art, the over-constraint and the data; §3 — the bounds on the largest size, the representative history and the throat; §4 — the three readings of momentum space and the symmetric reading; §7 — the dual frame and the radius–mass pairing; §8 — light, horizons and counts; §9 — what is open; §10 — the record and the pre-registration scored
-- `verify/closed_universe.py` — every number above: the anchors (the S³ spectrum, the dodecahedral mode, the published curvature values, the fit's calibration), section B (the τ histories, size and timing, the contrasts, light), section C (the bounds given closure and the corridor fit) and section E (the fibre, the grain, the symmetric reading, the throat, the dual terms, the radius–mass pairing, the photon count)
+- `notes/closed-universe.md` §1 — the question, the reading [assumption], the method and the conventions; §2 — closure underived, the turnaround needing k = +1, size and timing, the conditions, the prior art, the over-constraint and the data; §3 — the bounds on the largest size, the representative history and the throat; §4 — the three readings of momentum space and the symmetric reading; §7 — the dual frame and the radius–mass pairing; §8 — light, horizons and counts, and the topology of the polarization (the textures [D], π₁ and π₃ [T][V], π₂ [T], and the caveats d = 4 and a global U(4)); §9 — what is open, item 4 the polarization's defects; §10 — the record and the pre-registration scored
+- `verify/closed_universe.py` — every number above: the anchors (the S³ spectrum, the dodecahedral mode, the published curvature values, the fit's calibration), section B (the τ histories, size and timing, the contrasts, light), section C (the bounds given closure and the corridor fit), section E (the fibre, the grain, the symmetric reading, the throat, the dual terms, the radius–mass pairing, the photon count) and section F (the maps behind the homotopy of Λ(4), and the two texture classes, argued)
 - `review/closed-universe/README.md` — how the investigation ran, its tally and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/preregistration.md` — the sealed forecast
-- `review/wiki-build-flags.md` items 27 (addendum), 43, 46, 48, 49, 50 and 54 — the flags this page bears on, with their audits; awaiting Paul's ruling
+- `review/wiki-build-flags.md` items 27 (addendum), 43, 46, 48, 49, 50 and 54 — the flags this page bears on, with their audits; awaiting Paul's ruling; item 61 — the polarization's point defects and τ-strings, applied on 2026-10-29
+- `papers/broken-born-checkpoint-v2.md` §14 item 12 — the homotopy groups behind the polarization's defects [T], with the maps gated in section F, and their fate [O]
 - `review/round5-adjudication.md` 'Rulings' R11 and `papers/phase-space-diameter.md` §6 — a closed universe can turn around without negative energy
 - `papers/broken-born-checkpoint-v2.md` §10, §13 row 5 — "eventually goes negative" and the row the turnaround tests
-- `CLAUDE.md` 'Since the handoff' — the note's results and its open items, not queued
+- `CLAUDE.md` 'Since the handoff' — the note's results and its open items, not queued; the polarization's defects among the monopole discussion's open items (2026-10-29)

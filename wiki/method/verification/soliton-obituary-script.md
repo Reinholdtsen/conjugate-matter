@@ -23,7 +23,7 @@ sources:
 
 ## What it is
 
-The docstring: "every number that review/round3-adjudication.md and the §12 obituary of papers/broken-born-checkpoint-v2.md (v2.1) quote for the withdrawn soliton candidate (#14 v3), recomputed and checked." The numbers it does not check are listed [below](#what-it-does-not-check) (flag 33). Root `CLAUDE.md` lists it as "the round-3 record". It cites #11 v2.1; #11 is now v2.2, whose changes do not touch §12 (#11 header).
+The docstring: "every number that review/round3-adjudication.md and the §12 obituary of papers/broken-born-checkpoint-v2.md (v2.1) quote for the withdrawn soliton candidate (#14 v3), recomputed and checked." The numbers it does not check are listed [below](#what-it-does-not-check) (flag 33). Root `CLAUDE.md` lists it as "the round-3 record". It cites #11 v2.1; #11 is now v2.3, and neither the v2.2 nor the v2.3 changes touch §12 (#11 header).
 
 The candidate was a superheavy ['t Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) of a hidden gauge sector, proposed as dark matter in manuscript #14 ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)). [Review round 3](/wiki/method/review/round-3) found its abundance estimate misnormalized, and the program retired it on 2026-10-19 ([round-3 decisions](/wiki/method/review/round-3/decisions)). The script is the machine check behind the obituary: it does not test whether the candidate could be revived, only that the numbers the obituary and the rulings state follow from their inputs.
 
@@ -170,7 +170,7 @@ OK — every number the round-3 record quotes reproduces.
 
 - `verify/soliton_obituary.py` — the docstring, the model, the constants, the anchors and every check described above
 - `review/round3-adjudication.md` 'Rulings' (1–13), 'Lessons (now in CLAUDE.md)' (lesson 2), 'What survives v3', 'Decisions' — the rulings it checks and those it does not; the replacement anchors; the retired benchmark checks; the replacement of knot_numbers.py
-- `papers/broken-born-checkpoint-v2.md` §12 — the obituary, its [V] numbers and its 'Checks.' line; header — the v2.2 change list
+- `papers/broken-born-checkpoint-v2.md` §12 — the obituary, its [V] numbers and its 'Checks.' line; header — the v2.2 and v2.3 change lists
 - `review/v3-worklog.md` 'New open items (to compute before v3 states anything about them)' (O1, O2) — the predecessor's freeze-out and ΔN_eff self-checks, κ, the entropy-conserving setup
 - Root `CLAUDE.md` 'Layout' — "the round-3 record"
 - `review/wiki-build-flags.md` items 21, 22, 33, 34 — ruling 3's attribution; the Planck interval; the claimed coverage; the constants' origin

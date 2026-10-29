@@ -463,7 +463,111 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
     other way. The verdict (10²⁸–10³¹ short) is unchanged. `notes/velocity-gated-gravity.md` §4.
    **Audit (2026-10-27): confirmed by 2 independent checks** (the run-2 clumping verifiers); both
    found the analysis's statement of the direction at the Milky Way wrong.
+59. **#11 §11.1's grounds for the dead monopole explanation (low; #11 §11's plain-language passage,
+    §11.1, App. A item 5; raised by Paul).** §11.1 kills "Monopoles live in conjugate space,
+    explaining non-detection" (App. A item 5) on two grounds. The second, "inflationary dilution
+    already accounts for absence [T]" ("inflation suffices" in App. A and `HANDOFF.md` §2), shows that
+    the explanation is unnecessary, not that it is false. It holds only if a unification transition
+    produced monopoles, inflation followed it and reheating stayed below it, and inflation is the
+    standard account, not an observed epoch (`wiki/cosmology/early-universe/inflation-and-dilution.md`
+    says so). The record also holds a fact §11.1 does not use: #14 §2 notes that the Standard Model
+    has no stable monopoles (the electroweak vacuum manifold S³ has π₂ = 0), from which it follows
+    that without grand unification there is nothing to explain. Standard histories the record does
+    not mention (all †): a maximum temperature below the unification scale; symmetry non-restoration
+    at high temperature (Dvali, Melfo and Senjanović 1995); a temporary phase with electromagnetism
+    broken (Langacker and Pi 1980); domain walls sweeping monopoles away (Dvali, Liu and Vachaspati
+    1998). The record applies late entropy release only to hidden-sector monopoles (#11 §12 [29S];
+    round-3 ruling 3). §11.2's strong coupling is no such history: Preskill's analysis already
+    concerns strongly coupled Dirac monopoles, whose annihilation is inefficient (#14 §3 [19];
+    round-3 referee, Step 4(a) item 3). The first ground,
+    "the relevant duality is electric–magnetic … not x↔p", assumes the two dualities are independent;
+    §11.3 conjectures [O] that they are one structure, and #11 states both without noting the
+    conflict.
+   **Audit (2026-10-29): raised by Paul; checked against the record by the main session, the monopole
+   sweep** (`review/monopoles/`) **and the update's source reviewer**, who found that §11.2's strong
+   coupling is not a history under which the null result is expected.
+   **Ruling (2026-10-29): accepted by Paul** ("update the repo with this latest thinking", in reply to
+   the recommendation that the inflation ground shows the explanation unnecessary, not false, and that
+   the wrong-duality ground conflicts with §11.3). Applied by the main session: #11 v2.3 restates the
+   second ground (§11's plain-language passage, §11.1, App. A item 5). The null result is expected under
+   several standard histories, so it lends the program no support, and inflation is one of them. The
+   first ground stands; only §11.4's shared-photon form contests it, and that form needs P4 restated.
+   The explanation stays dead; whether the shared-photon form would reopen it is flag 62.
+60. **The wiki's obituary of the magnetic identification (high;
+    `wiki/electric-magnetic-duality/magnetic-identification.md`; raised in discussion with Paul).**
+    The page recorded as dead the popular article #12's identification of the momentum-polarized
+    sector with the magnetic side of electromagnetism, on the wiki's own reading: "No review round or
+    program document addresses it directly; the verdict is this wiki's reading of those conflicts
+    under the source precedence". A verdict is a result, which the wiki does not add, and the
+    reading's premises do not hold:
+    - "No paper or note of the program makes this claim." #14 v2 (git
+      8d588f6:import/knot-dark-matter-standalone.md, abstract, §2 and §6) made the S-dual identification
+      its load-bearing conjecture ("load-bearing for alpha_d", §6): "the momentum-polarized matter
+      sector is the S-dual image of the electric sector", one vacuum event fixing "both the
+      position/momentum asymmetry of observed physics and the electric/magnetic asymmetry of the
+      observed spectrum". A full mirror spectrum appeared there only as something the sector "may
+      carry" (§2 (ii)), and it denied magnetic charge under our photon. The halves of P.R.'s
+      conjecture are his founding suppositions 5 and 11 (#11 App. A).
+    - The dead "α_d ≈ 34 via Dirac quantization against our photon" (`HANDOFF.md` §2) killed an
+      inconsistency: Dirac's condition taken against our photon while coupling to it was denied. A
+      separate photon (#14 v2–v3) and an accepted coupling (#12) are the two ways out, and neither
+      repeats the dead claim.
+    - Strict P4 conflicts only with the shared-photon form. P4's clause "gauge forces do not cross
+      polarizations" has stood since #1 ("Gauge interactions do not connect the two
+      representations"); round-3 Decision 1 added the strict reading. Both are postulates [P].
+    - Row 7's basis, "both dark-sector candidates SM-decoupled; P4 strict" (#11 §13), conflicts with
+      the shared-photon form outright. Its observable null survives only if the momentum sector is
+      spread in position, which no document analyzes: #14 assumes ordinary kinematics ("Throughout, the
+      hidden sector is described by ordinary relativistic quantum field theory", §1), and #13 treats
+      the momentum polarization's kinematics but not localization.
+
+    Related: decision F2 (Paul, 2026-10-19) in `review/v3-worklog.md`, that "S-duality is no longer
+    what fixes α_d".
+   **Audit (2026-10-29): raised by the main session; the monopole sweep's verifier confirmed the #14
+   v2 conjecture at source and found the page's "No paper" sentence true only of the shared-photon
+   form** (`review/monopoles/`).
+   **Ruling (2026-10-29): accepted by Paul**, who "never meant to create an obituary" and called the
+   2026-10-19 decision "probably confusion on my part". The page becomes a conjecture page; #11 v2.3
+   §11.4 records P.R.'s magnetic-mirror conjecture in both forms; `review/v3-worklog.md` marks F2's
+   decision withdrawn, while F2's finding stands; #14 stays withdrawn.
+61. **The polarization manifold's point defects (low; `notes/closed-universe.md` §8–§9;
+    `review/closed-universe/analyses/gravity-sector.json`).** The closed-universe gravity-sector
+    analysis finds π₁(Λ(4)) = ℤ, π₂(Λ(4)) = ℤ₂ and π₃(Λ(4)) = ℤ₂ for the polarization manifold
+    Λ(4) = U(4)/O(4), tagged [D][V][T] (claims C35–C37), and lists as open the "Fate of Z2 textures
+    and Z2 point defects of Λ(4), and of τ-strings, produced at the polarization-breaking
+    transition". π₂ classifies point defects, the monopole type. The note kept only the textures
+    ([S³, Λ(4)] = Z₂, §8, tagged [D]); the point defects and the τ-strings reached no note, flag or
+    open-problem list. The analysis's script, `grassmannian_homotopy.py`, ran in the investigation's
+    work folder outside the repository and was not gated. The analysis's own caveat applies: on the
+    light Maslov circle alone π₂ = π₃ = 0, so the defects belong to the regime in which the order
+    parameter ranges over the whole manifold.
+   **Audit (2026-10-29): found by the monopole sweep's verifier; the main session read C35–C38 and
+   the open item at source and re-ran the script, whose output reproduced exactly.**
+   **Ruling (2026-10-29): applied** under Paul's instruction to update the repo with the
+   discussion's findings, which proposed this fix. `verify/closed_universe.py` section F ports the
+   script. Its winding integral is anchored by two literature values (|W| = 1 for SU(2)'s
+   fundamental, |W| = 4 for SO(3) in SO(4) acting on R⁴), and the groups it derives are matched to
+   Bott periodicity's table; π₂ follows from the standard inputs by exactness. The classification
+   assumes d = 4 and a global U(4), the closed-universe verifiers' caveats. The note's §8 carries the
+   groups and the point defects, its §9 the open item; #11 v2.3 adds §14 item 12.
+62. **Does the magnetic-mirror conjecture's shared-photon form reopen the dead monopole explanation?
+    (low; #11 §11.1, §11.4, App. A item 5; raised by the update's source reviewer, 2026-10-29).** In
+    v2.3 neither ground of §11.1 kills App. A item 5's explanation unconditionally. The second shows
+    it unnecessary, not false (flag 59), and the first is contested by §11.4's shared-photon form.
+    That form is item 5's explanation in a new shape: magnetic charges of our photon in the
+    p-polarization, unseen because they are not localized in position, as Paul argued on 2026-10-28
+    ("Our searches are in position space, conjugate monopoles by definition are compact in momentum
+    space and we would not detect them. And btw, this explains their absence."). What keeps the
+    explanation dead in v2.3 is P4 as written, which excludes the form, together with the form's
+    uncomputed conditions (§11.4). The root `CLAUDE.md` keeps claims listed dead in `HANDOFF.md` §2
+    dead, and this one is listed there, so v2.3 leaves it dead and does not say the form would
+    account for the null result.
+   **Audit (2026-10-29): raised by the update's source reviewer; not otherwise audited.**
+   **Ruling: pending.** The options: (A) the explanation stays dead, and the shared-photon form, if
+   pursued, carries its own account of the null result as a consequence to be tested; (B) item 5's
+   explanation is reclassified as open, conditional on the shared-photon form and a restated P4.
 
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
 flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`, and flags 55–58,
-whose arithmetic is in `verify/gate_mechanism.py` and `verify/velocity_gated_gravity.py`.
+whose arithmetic is in `verify/gate_mechanism.py` and `verify/velocity_gated_gravity.py`. Flag 61's
+homotopy is in `verify/closed_universe.py` (section F); flags 59, 60 and 62 involve no new arithmetic.

@@ -8,6 +8,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §11.2"
   - "papers/broken-born-checkpoint-v2.md App. A item 11"
   - "papers/broken-born-checkpoint-v2.md §11 (italic opening)"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §7"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md refs [17]–[18]"
@@ -18,10 +19,12 @@ sources:
   - "notes/knot-dark-matter-standalone.md §3"
   - "HANDOFF.md §2"
   - "HANDOFF.md §3"
+  - "review/wiki-build-flags.md flag 60"
+  - "review/v3-worklog.md 'Findings neither referee raised'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*The magnetic mirror-family is the idea that every electrically charged particle, quarks included, has a magnetic counterpart. It entered the program as P.R.'s [founding supposition 11](/wiki/program/founding-suppositions), and [the checkpoint](/wiki/history/documents/checkpoint) records it as established physics: [Montonen–Olive duality](/wiki/electric-magnetic-duality/s-duality), Seiberg's magnetic quarks and the [dual-superconductor](/wiki/electric-magnetic-duality/dual-superconductor) picture of quark confinement already contain it. [Dirac's condition](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) accounts for why the counterparts are not seen: a weak electric coupling forces a strong magnetic one, so magnetic particles are heavy and tightly bound. The checkpoint's figure for the magnetic coupling of our electromagnetism, about 34, is not the hidden-sector coupling [α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) that died with the soliton candidate. The program's own addition is the observation that choosing which particles count as electric is a choice of polarization, which has its own page.*
+*The magnetic mirror-family is the idea that every electrically charged particle, quarks included, has a magnetic counterpart. It entered the program as P.R.'s [founding supposition 11](/wiki/program/founding-suppositions), and [the checkpoint](/wiki/history/documents/checkpoint) records it as established physics: [Montonen–Olive duality](/wiki/electric-magnetic-duality/s-duality), Seiberg's magnetic quarks and the [dual-superconductor](/wiki/electric-magnetic-duality/dual-superconductor) picture of quark confinement already contain it. [Dirac's condition](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) accounts for why the counterparts are not seen: a weak electric coupling forces a strong magnetic one, so magnetic particles are heavy and tightly bound. The checkpoint's figure for the magnetic coupling of our electromagnetism, about 34, is not the hidden-sector coupling [α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) of the retired soliton candidate, which is dead in two of the three forms the candidate gave it; the remaining one, reciprocity acting on the coupling as the exchange of electric and magnetic charge, belongs since 2026-10-29 to an open conjecture. The program's own addition is the observation that choosing which particles count as electric is a choice of polarization, which has its own page. Placing the mirror-family in the program's momentum-polarized matter sector is P.R.'s [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification), which is open.*
 
 **Status:** Established — [T] — "alive as established physics" (#11 App. A item 11). The physics is #11 §11.2, tagged [T] and cited as [17†-adjacent; 18†] and 't Hooft–Mandelstam†, all from model memory and due [the † literature battery](/wiki/method/literature-battery). The factor-of-four convention spread is marked [V] in the v3 worklog (item R2); the [round-3](/wiki/method/review/round-3) referee's script prints the two values for the [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) (`review/round3/referee/step2a.out`), and no script in the current gate checks them.
 
@@ -29,9 +32,9 @@ sources:
 
 Founding supposition 11, as #11's audit of P.R.'s founding suppositions records it ([#11](/wiki/history/documents/checkpoint) App. A item 11; [founding suppositions and their fates](/wiki/program/founding-suppositions)):
 
-> A full magnetic mirror-family, quarks included — **alive as established physics** (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition.
+> A full magnetic mirror-family, quarks included — **alive as established physics** (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition. Its placement in the momentum polarization, joined with item 5, is P.R.'s magnetic-mirror conjecture (§11.4) [O].
 
-The supposition was one of P.R.'s founding conjectures. The audit found that the physics literature already contains it, in three forms, and it moved from the program's claims to its background. Section 11 of the checkpoint, where it was absorbed, first appeared in v2.0; [the handoff](/wiki/history/documents/handoff) lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3).
+The last sentence was added in v2.3 (2026-10-29). The supposition was one of P.R.'s founding conjectures. The audit found that the physics literature already contains it, in three forms, and it moved from the program's claims to its background. Section 11 of the checkpoint, where it was absorbed, first appeared in v2.0; [the handoff](/wiki/history/documents/handoff) lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3).
 
 ## The dual spectrum in the literature [T]
 
@@ -73,10 +76,10 @@ Quoted as #11 writes it, the expression 4π/e² stands beside the condition e·g
 
 ### Not the dead α_d ≈ 34
 
-Two different claims carry the number 34, and only one of them is dead.
+Two different claims carry the number 34. The first is established. The second is dead as the soliton candidate's coupling, and since 2026-10-29 one of its forms is part of an open conjecture.
 
 - **This page's 34** is a property of our own electromagnetism: the magnetic coupling that Dirac's condition imposes on any monopole of our U(1), given our electric charge (#11 §11.2 [T]). It is established physics and alive.
-- **The dead α_d ≈ 34** was the coupling the soliton candidate assigned to the monopoles of a hidden gauge sector. Its first derivation applied Dirac's condition against our photon, which the handoff lists among the dead claims: "α_d ≈ 34 via Dirac quantization against our photon (round-1 reviewer's valid kill: can't use our DSZ lattice and then deny coupling to our photon)" (`HANDOFF.md` §2). Its later forms, reciprocity acting on the coupling as [modular S](/wiki/electric-magnetic-duality/modular-group#the-coupling-conjecture-of-the-soliton-manuscript) and #14's hypothesis H, are superseded or dead with the candidate ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)).
+- **The dead α_d ≈ 34** was the coupling the soliton candidate assigned to the monopoles of a hidden gauge sector. Its first derivation applied Dirac's condition against our photon, which the handoff lists among the dead claims: "α_d ≈ 34 via Dirac quantization against our photon (round-1 reviewer's valid kill: can't use our DSZ lattice and then deny coupling to our photon)" (`HANDOFF.md` §2). Its later forms were reciprocity acting on the coupling as [modular S](/wiki/electric-magnetic-duality/modular-group#the-coupling-conjecture-of-the-soliton-manuscript), and #14's hypothesis H, which died with the candidate ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)). The modular-S form was set aside on 2026-10-19 by the worklog's decision F2, which Paul withdrew on 2026-10-29 (flag 60); since then it is the separate-photon form of P.R.'s magnetic-mirror conjecture, in which the momentum-polarized sector's own gauge field has a coupling that is "the S-image of ours", and it is open (#11 §11.4; [separate photon](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon)). Whether that is the sector's elementary coupling or its magnetic one is also open, and F2's finding, which stands, is that the choice decides whether the sector's solitons are heavy (§11.4).
 
 What carries over from the general mechanism is #11 §12's surviving statement: "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]."
 
@@ -99,9 +102,11 @@ The parallel is structural, and #11 does not develop it further:
 
 The supposition's fate names "the polarization identification as the program-native addition". It is the observation of #11 §11.3 that the Dirac–Schwinger–Zwanziger (DSZ) pairing makes the space of charges symplectic, so that choosing which particles count as electric is choosing a [Lagrangian polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations) of that space, as the vacuum chooses which phase-space directions count as position [D — structural; math T] ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). Whether the two choices are one structure is open ([open problem 8](/wiki/electric-magnetic-duality/unified-modular-structure)).
 
+Since v2.3 the supposition's fate adds a second element, which is open: the family's placement in the momentum polarization, P.R.'s magnetic-mirror conjecture (App. A item 11, quoted above). As #11 §11.4 states it: "momentum matter is similar to position matter, each electrically charged x-polarized particle having a magnetically charged p-polarized analog" ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)). #14 v2 had stated a related identification, the momentum-polarized sector as "the S-dual image of the electric sector" (§11.4).
+
 ## The popular article's extension
 
-[The popular article #12](/wiki/history/documents/popular-articles) takes the family a step further than the record: "The framework's addition is the free spectrum: the momentum polarization carries the entire magnetic mirror-family — a matter sector as structured as our own, every member heavy and strongly bound by Dirac's condition, of which only the topologically protected knots survive the age of the universe as free relics." No program document makes this claim. It identifies the momentum-polarized sector with the magnetic side of our electromagnetism, which conflicts with the strict separation of the two sectors' forces, and it is recorded as dead ([Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification)). The knots it names are the retired soliton candidate ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+[The popular article #12](/wiki/history/documents/popular-articles) presents the family's placement in the momentum polarization as the framework's own result: "The framework's addition is the free spectrum: the momentum polarization carries the entire magnetic mirror-family — a matter sector as structured as our own, every member heavy and strongly bound by Dirac's condition, of which only the topologically protected knots survive the age of the universe as free relics." Since v2.3 the checkpoint records the placement as P.R.'s magnetic-mirror conjecture, open, and calls #12's reading of it the shared-photon form, in which the momentum-polarized sector carries magnetic charge of our own photon (#11 §11.4; [shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). [P4](/wiki/program/postulates/p4-polarized-matter) as written excludes that form ("gauge forces do not cross polarizations"), so it needs P4 restated. Localized in position at dark-matter density, such objects would exceed [the Parker bound](/wiki/electric-magnetic-duality/monopoles/monopole-searches#the-parker-bound-t) at #14's benchmark masses, so something must hide them: p-localization, localization in momentum, or binding into magnetically neutral composites. Neither has been computed. The separate-photon form, in which the analogs are magnetic under the momentum-polarized sector's own gauge field, is consistent with P4. The wiki recorded #12's claim as dead until 2026-10-29, when flag 60 reversed the obituary; #12 is never a source for the claim's status. The knots it names are the retired soliton candidate ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Standard references
 
@@ -115,17 +120,18 @@ As #11 cites them, all from model memory (†):
 
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — the "polarization identification", the program-native addition to founding supposition 11.
 - [Founding suppositions and their fates](/wiki/program/founding-suppositions) — item 11.
-- [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — the established family of our own electromagnetism, against #12's relocation of it.
+- [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification) — the established family, which P.R.'s conjecture places in the momentum polarization (founding suppositions 5 and 11 joined).
 - [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — electric–magnetic duality's own account of why magnetic particles are not seen.
-- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) — the 34 of our own electromagnetism, kept apart from the dead hidden-sector coupling.
+- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) — the 34 of our own electromagnetism, kept apart from the hidden-sector coupling, which is dead in two of its three forms and part of an open conjecture in the remaining one.
 - [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the strong magnetic coupling that Dirac's condition forces on monopoles of our U(1).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.2 — the dual spectrum and Dirac's condition [T]; §11 italic opening — "proposed in 1977, named in 1994"; App. A item 11 — the fate of the supposition; §7 — the hidden second metric; §12 — "A weakly coupled hidden sector always has strongly coupled monopoles"; refs [17]–[18].
+- `papers/broken-born-checkpoint-v2.md` §11.2 — the dual spectrum and Dirac's condition [T]; §11 italic opening — "proposed in 1977, named in 1994"; App. A item 11 — the fate of the supposition, with its v2.3 addition; §11.4 — P.R.'s magnetic-mirror conjecture and its two forms [O]; §7 — the hidden second metric; §12 — "A weakly coupled hidden sector always has strongly coupled monopoles"; refs [17]–[18].
 - `review/v3-worklog.md` 'Round-2 pending list' (R2) — the factor-of-4 convention spread and the running [V].
 - `review/round3/referee/step2a.out` — the referee's printed 34.259 and 137.036.
 - `review/round3-adjudication.md` 'Rulings' 12 — Zwanziger's 4π against #14's 2π, accepted as minor.
 - `notes/knot-dark-matter-standalone.md` §2, §3 — g_m = 4π/g_d against the charge g_d/2; the monopole mass (withdrawn manuscript).
 - `HANDOFF.md` §2 — the dead α_d ≈ 34, a different claim; §3 — §11 added in v2.0.
+- `review/v3-worklog.md` 'Findings neither referee raised' (F2) — the decision of 2026-10-19, its withdrawal, and the finding that stands; `review/wiki-build-flags.md` flag 60 — the withdrawal of F2's decision and the reversal of the wiki's obituary.
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular extension (not a status source).

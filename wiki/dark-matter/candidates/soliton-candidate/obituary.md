@@ -9,6 +9,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §1"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §11"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "CLAUDE.md 'Since the handoff'"
@@ -35,6 +36,7 @@ sources:
   - "popsci/angle-of-the-mirror.md 'Corollaries and daydreams'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
   - "review/wiki-build-flags.md item 21"
+  - "review/wiki-build-flags.md item 60"
 ---
 
 *Superheavy conjugate solitons were the third dark-matter candidate of version 2.0 of the checkpoint: [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) of a hidden gauge force, with a benchmark mass of 3×10¹³ GeV in the final version, stable because their field configuration cannot unwind and dark because no gauge force of ordinary matter acts on them. The proposal was written up as a standalone manuscript, #14, and [reviewed blind](/wiki/method/review) three times. The third review re-ran every number in code and found that the count of monopoles formed in the early universe had been normalized far too low. Counted correctly, the benchmark mass is overproduced by a factor of 2.1×10³ to 1.2×10⁴, and the only version that survives is a much lighter one, which is an existing published scenario that does not depend on the program. The candidate was retired on 2026-10-19 and stays dead.*
@@ -164,7 +166,9 @@ The adjudication's own list, "What survives v3", overlaps: "The compatibility th
 
 Two further points are untouched. The ontology of conjugate monopoles is alive: "by P4, conjugate-sector solitons gravitate", while "Their candidacy as the dark matter itself is retired in v2.1 (§12)" (#11 §11.1; [conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)). And the decision on kinetic mixing that came out of the same review, strict sector separation (Decision 1), is now part of postulate P4.
 
-The loophole is worded two ways in #11. §12 says it "remains untested, but has no candidate"; §14 item 8 says "The soliton-spectrum and p-localization items are closed by the §12 obituary." The sources do not reconcile the two; [the conflicts register](/wiki/history/documents/source-conflicts) reads them together as a loophole that is logically untested with no candidate or work item attached.
+The identification that #14 v2 made its load-bearing conjecture, the momentum-polarized sector as the [S-dual](/wiki/electric-magnetic-duality/s-duality) image of the electric sector, its image under the exchange of electric and magnetic charge, is related to P.R.'s magnetic-mirror conjecture, which #11 v2.3 records as open (§11.4): "momentum matter is similar to position matter, each electrically charged x-polarized particle having a magnetically charged p-polarized analog". #14 v2's identification is the conjecture's separate-photon form, in which the analogs are magnetic under the momentum-polarized sector's own gauge field. On 2026-10-29 Paul withdrew the worklog's decision F2 of 2026-10-19, that S-duality no longer fixes the dual sector's coupling, as "probably confusion on my part" (flag 60). F2's finding, that #14 v2 used both a weak and a strong value of the dual coupling, stands, and #14 stays withdrawn ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)).
+
+The loophole is worded two ways in #11. §12 says it "remains untested, but has no candidate"; §14 item 8, as v2.3 words it, records that "v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; §11.4's shared-photon form needs p-localization again" ([shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). In v2.1 and v2.2 the item said "The soliton-spectrum and p-localization items are closed by the §12 obituary." The sources do not reconcile §12 and §14; on the v2.1 wording, [the conflicts register](/wiki/history/documents/source-conflicts) read them together as a loophole that is logically untested with no candidate or work item attached.
 
 ## #14's self-assessment
 
@@ -191,7 +195,7 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — "dead as a program-native proposal"; "merely compatible"
-- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §9 — the clumping problem's net theorem; §11.1 — conjugate monopoles as ontology; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed"
+- `papers/broken-born-checkpoint-v2.md` §12 — the obituary: claim, test, failure, verdict, survivors, and the [V] tags; §1 — the technical abstract; §9 — the clumping problem's net theorem; §11.1 — conjugate monopoles as ontology; §11.4 — the magnetic-mirror conjecture, #14 v2's related identification, F2's decision withdrawn and its finding standing; §13 — "Withdrawn with cause"; §14 item 8 — the loophole "closed" in v2.1, and p-localization needed again by §11.4's shared-photon form (v2.3)
 - `review/round3-adjudication.md` 'Verdict', 'Rulings' 1–13, 'Pre-registration scored', 'What survives v3', 'Decisions' 1–3 — the review record and the retirement
 - `review/round3-preregistration.md` 'Protocol (HANDOFF §6, round 3)', 'Predictions' — the referee's brief and the predicted outcome
 - `review/round3/referee/audit-notes.md` Step 5 — the referee's weakest links
@@ -201,4 +205,4 @@ v3 ended with an assessment of its own claims (§5–§6), which round 3 tested.
 - `notes/knot-dark-matter-standalone.md` Abstract, §5, §6 — the withdrawn manuscript's claims, exclusion conditions, requirements and acceptance criteria
 - `review/skeptic-review-console.html` — #14 v2, verbatim
 - `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams'; `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular framings
-- `review/wiki-build-flags.md` item 21 — the source of the lower end of ruling 3's Kibble–Zurek range
+- `review/wiki-build-flags.md` item 21 — the source of the lower end of ruling 3's Kibble–Zurek range; item 60 — the identification as P.R.'s conjecture, and F2's decision withdrawn

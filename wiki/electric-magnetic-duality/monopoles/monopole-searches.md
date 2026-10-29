@@ -19,10 +19,11 @@ sources:
   - "review/round3/referee/step2a.out 'COUNTERFACTUAL FLUX'"
   - "HANDOFF.md §6"
   - "papers/broken-born-checkpoint-v2.md §11.1"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §13"
 ---
 
-*The monopole flux bounds are upper limits on how many [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) pass through the Galaxy, stated as a flux per square centimetre per second per steradian. The Parker bound comes from the Galaxy's magnetic field: monopoles moving through it would gain energy from the field and drain it faster than the galactic dynamo regenerates it, so the field's survival caps the flux; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy. Direct searches, among them the Monopole, Astrophysics and Cosmic Ray Observatory (MACRO) whose limit the withdrawn #14 quotes, have found none. The program used these bounds only counterfactually, to show that the retired soliton candidate could not have been magnetically charged under our electromagnetism.*
+*The monopole flux bounds are upper limits on how many [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) pass through the Galaxy, stated as a flux per square centimetre per second per steradian. The Parker bound comes from the Galaxy's magnetic field: monopoles moving through it would gain energy from the field and drain it faster than the galactic dynamo regenerates it, so the field's survival caps the flux; the extended Parker bound applies the same argument to the weaker seed field of the young Galaxy. Direct searches, among them the Monopole, Astrophysics and Cosmic Ray Observatory (MACRO) whose limit the withdrawn #14 quotes, have found none. The program uses these bounds counterfactually. They showed that the retired soliton candidate could not have been magnetically charged under our electromagnetism, and since 2026-10-29 the same counterfactual sets the condition that one form of P.R.'s open [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification) must meet: its magnetic analogs must be spread out in position, in their field profile rather than their quantum state, or bound into magnetically neutral composites.*
 
 **Status:** Established — [T] — limits from the literature, cited without tags in [#14](/wiki/dark-matter/candidates/soliton-candidate) as [20] (the Particle Data Group's 2024 monopole review by Milstead and Weinberg; Turner–Parker–Bogdan 1982; Parker 1970), [21] (MACRO's final result, 2002) and [22] (Adams et al. 1993). [The round-3 audit](/wiki/method/review/round-3/rulings) checked each figure #14 quotes against its source and found it supported (Step 1). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
@@ -90,7 +91,9 @@ Two corrections reached the counterfactual through review:
 
 ### Our sector's monopoles
 
-The program predicts that no monopole of our own electromagnetism will be found: [row 8](/wiki/predictions/monopole-null) of #11 §13, killed by "Direct detection". The searches on this page are the experiments that would kill it. The program's reason for expecting a null is not its own physics: [#11](/wiki/history/documents/checkpoint) §11.1 attributes the absence to [inflationary dilution](/wiki/cosmology/early-universe/inflation-and-dilution) [T] ([the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)). Monopoles of the conjugate sector, if they exist, would interact with ours only by gravity ([conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)), so flux searches of this kind do not test them.
+The program predicts that no monopole of our own electromagnetism will be found: [row 8](/wiki/predictions/monopole-null) of #11 §13, killed by "Direct detection". The searches on this page are the experiments that would kill it. The program's reason for expecting a null is not its own physics: since v2.3, [#11](/wiki/history/documents/checkpoint) §11.1 expects the absence under several standard histories [T], [inflationary dilution](/wiki/cosmology/early-universe/inflation-and-dilution) after a unification transition among them ([the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)); v2.2 attributed it to inflationary dilution alone. Monopoles of the conjugate sector, if they exist, would interact with ours only by gravity under [P4](/wiki/program/postulates/p4-polarized-matter) as written ([conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles)), so flux searches of this kind do not test them.
+
+The shared-photon form of P.R.'s magnetic-mirror conjecture is the exception (#11 §11.4 [O]; [shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). In that form the momentum-polarized sector's analogs carry magnetic charge of our photon, which P4 as written excludes, so the form needs P4 restated. "Localized in position at dark-matter density, such objects would exceed the Parker bound at #14's benchmark masses (#14 v2 and v3 §4; not gated)", which is #14's counterfactual above. #11 §11.4 continues: "Something must therefore hide them, and neither option has been computed: p-localization, open since v2.0 ("p-local solitons are p-localized" [O]), with the spread in the objects' field profile rather than their quantum state, wider than detectors and than the coherence length of galactic magnetic fields, and decoupled from the photon–baryon plasma before recombination (†); or binding into magnetically neutral composites ("heavy and bound", §11.2)."
 
 ## References
 
@@ -110,6 +113,7 @@ From the v3 worklog's literature report:
 - [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — killed by a direct detection, which searches of this kind would provide.
 - [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) — the observational side of the absence of monopoles.
 - [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — the null result the dead explanation addressed.
+- [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification) — in the shared-photon form, analogs localized in position at dark-matter density would exceed the Parker bound, so that form needs p-localization or binding into magnetically neutral composites to hide them.
 
 ## Sources
 
@@ -118,4 +122,4 @@ From the v3 worklog's literature report:
 - `review/round3/referee/step2a.out` (the counterfactual-flux block) — the excesses at both speeds.
 - `review/v3-worklog.md` 'Round-2 pending list' (R3), 'Findings neither referee raised' (F1, L1), 'Verified references for v3', and the evidence list — the extended Parker bound, the charge scaling, the MACRO row, the counterfactual's role, and how to cite the Parker value.
 - `HANDOFF.md` §6 — the round-2 request to cite the extended bound.
-- `papers/broken-born-checkpoint-v2.md` §11.1, §13 — the absence of our monopoles attributed to inflation, and row 8.
+- `papers/broken-born-checkpoint-v2.md` §11.1 — the absence of our monopoles expected under several standard histories, inflation among them (v2.3; v2.2 attributed it to inflation); §11.4 — the shared-photon form, P4 restated, the Parker bound (not gated), and the two ways of hiding the analogs [O]; §13 — row 8.

@@ -6,6 +6,7 @@ description: "Without a light charged fermion the thermal W′± would outweigh 
 provenance: [V]
 sources:
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "review/round3-adjudication.md 'What survives v3'"
   - "verify/soliton_obituary.py"
   - "review/round3/referee/audit-notes.md Step 2"
@@ -13,7 +14,9 @@ sources:
   - "review/round3/referee/ggww.out"
   - "review/round3-preregistration.md 'Predictions'"
   - "review/v3-worklog.md 'New open items'"
+  - "review/v3-worklog.md 'Findings neither referee raised'"
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
+  - "review/wiki-build-flags.md item 60"
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md §2"
   - "notes/knot-dark-matter-standalone.md §3"
@@ -110,18 +113,19 @@ It also changed which charge the coupling hypothesis H refers to. The worklog's 
 
 ## History
 
-1. **Worklog item O1**, headed "dark W′± fate: fatal to the minimal model, not to the candidate", computed in the predecessor script `knot_numbers.py`. Its anchor then was "100 GeV with σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108". At that stage (F1 and F2 are the worklog's findings on the mass window and on which coupling sets the monopole mass), "Under F1 and F2, m_W′ = α M\*/f = 1.2–2.2×10¹¹ GeV", and the relic was "0.8–15×10¹⁶ × the observed density, bracketing the annihilation coefficient κ = 1–10 and f = 1–1.787". These stage numbers were never reconciled with #14's; the current record cites #11, the adjudication and the gate ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+1. **Worklog item O1**, headed "dark W′± fate: fatal to the minimal model, not to the candidate", computed in the predecessor script `knot_numbers.py`. Its anchor then was "100 GeV with σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108". At that stage (F1 and F2 are the worklog's findings on the mass window and on which coupling sets the monopole mass; on 2026-10-29 Paul withdrew his decision under F2, and F2's finding stands, #11 §11.4 and flag 60), "Under F1 and F2, m_W′ = α M\*/f = 1.2–2.2×10¹¹ GeV", and the relic was "0.8–15×10¹⁶ × the observed density, bracketing the annihilation coefficient κ = 1–10 and f = 1–1.787". These stage numbers were never reconciled with #14's; the current record cites #11, the adjudication and the gate ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 2. **v3 as drafted** (2026-10-19). The gated check corrected a planned figure before the text was written: "the minimal model overcloses by 10¹⁶–10¹⁷ (not 10¹⁵–10¹⁷)". The abstract states it as the first consistency requirement: "without it, stable hidden W bosons overclose the universe by a factor of 1e16 to 1e17", and §6 lists "the failure of the adjoint-only model" among the results "Derived within the framework or by standard methods".
 3. **Round 3** (2026-10-19). The referee confirmed the number (Step 2) and its survival at ξ = 0.76 (Step 4(a)); no ruling touched it ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)).
 4. **After the retirement.** The adjudication lists it among what survives v3, #11 v2.1 §12 carries it with [V], and `verify/soliton_obituary.py`, which replaced the predecessor script, keeps it under the heading "Minimal adjoint-only sector (survives, benchmark-conditional)" ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §12 — the surviving statement, tagged [V]
+- `papers/broken-born-checkpoint-v2.md` §12 — the surviving statement, tagged [V]; §11.4 — F2's decision withdrawn, its finding standing
 - `review/round3-adjudication.md` 'What survives v3' — listed as surviving, as a statement and as benchmark-conditional arithmetic
 - `verify/soliton_obituary.py` — the gated check, its inputs and its anchor
 - `review/round3/referee/audit-notes.md` Step 2 — v, m_W′ and the overclosure recomputed, and the bracket judged; Step 4(a) item 4 — the colder-sector values
 - `review/round3/referee/ggww.out` — the coefficient by detailed balance
 - `review/round3-preregistration.md` 'Predictions' — the thermal-history runner-up
-- `review/v3-worklog.md` 'New open items' (O1) — how it was found and what the fix brought; 'v3 as drafted (2026-10-19)' — the corrected figure and which charge H matches
+- `review/v3-worklog.md` 'New open items' (O1) — how it was found and what the fix brought; 'Findings neither referee raised' (F2) — the decision of 2026-10-19 and its withdrawal on 2026-10-29; 'v3 as drafted (2026-10-19)' — the corrected figure and which charge H matches
+- `review/wiki-build-flags.md` item 60 — the withdrawal of the decision under F2
 - `notes/knot-dark-matter-standalone.md` §1 — ordinary kinematics; §2 — the sector; §3 — the argument, the masses and the fix; §6 — requirement (i)

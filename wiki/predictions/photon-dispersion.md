@@ -125,7 +125,7 @@ The data are consistent with the row: no linear dispersion has been found, and b
 | v1 (#9 §9) | "Linear term exactly zero (protected by ρ²); quadratic allowed, suppressed" | "Confirmed linear-in-E dispersion" |
 | #11 §13 | "Linear exactly zero (ρ²-protected); quadratic suppressed" | "Confirmed linear-in-E dispersion" |
 
-The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1 and v2.2 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [the clumping problem](/wiki/history/main-problems), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, after the clumping notes)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
+The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1, v2.2 and v2.3 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [the clumping problem](/wiki/history/main-problems), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, after the clumping notes)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Sources
 

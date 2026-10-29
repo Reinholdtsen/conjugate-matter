@@ -2,28 +2,33 @@
 title: "The closed-universe script"
 weight: 110
 status: method
-description: "verify/closed_universe.py recomputes every number of the closed-universe note in one self-contained file: anchors independent of the investigation (CODATA Planck units, a PDG density, exact closed solutions, elliptic averages, the S³ spectrum, a dodecahedral mode, published curvature values, torsion-balance ranges, a calibrated fit), then regression checks in four blocks — τ histories, data bounds, the bimetric sector, momentum space — and what it does not recompute: the 96-history grid, more than one crunch phase, the two curvature reductions it takes as input."
+description: "verify/closed_universe.py recomputes every number of the closed-universe note in one self-contained file: anchors independent of the investigation (CODATA Planck units, a PDG density, exact closed solutions, elliptic averages, the S³ spectrum, a dodecahedral mode, published curvature values, torsion-balance ranges, a calibrated fit), then regression checks in five blocks — τ histories, data bounds, the bimetric sector, momentum space and, since 2026-10-29, the polarization manifold's homotopy with two winding-number anchors of its own — and what it does not recompute: the 96-history grid, more than one crunch phase, the two curvature reductions it takes as input."
 provenance: [D, V]
 sources:
   - "verify/closed_universe.py"
   - "notes/closed-universe.md header"
   - "notes/closed-universe.md §1–§8"
+  - "notes/closed-universe.md §9"
   - "notes/closed-universe.md §10"
   - "review/closed-universe/README.md"
   - "review/closed-universe/critic/d_light_travel.out"
+  - "review/closed-universe/analyses/gravity-sector.json"
   - "scripts/check.sh"
   - "CLAUDE.md 'Layout'"
   - "CLAUDE.md 'Method (HANDOFF §5)'"
+  - "CLAUDE.md 'Since the handoff'"
   - "review/wiki-build-flags.md items 27 (addendum), 45–54"
+  - "review/wiki-build-flags.md item 61"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
 ---
 
-*The closed-universe script, `verify/closed_universe.py`, recomputes every number of the note on [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe), the program's study of what follows if space is finite and positively curved. The investigation itself ran in scripts outside the repository; this file ports them into one self-contained check that the gate runs. Before it computes anything from the investigation, it reproduces values that do not depend on it: the Planck units of CODATA 2018, the photon density of the Particle Data Group, the exact solutions of a closed universe filled with dust or with dust and radiation, a textbook average over an oscillating field, the vibration spectrum of a three-sphere, the lowest mode of the Poincaré dodecahedral space, two published measurements of the universe's curvature, two published torsion-balance ranges and two published fits of the second data release of the Dark Energy Spectroscopic Instrument. Everything after the anchors is, in the script's own words, a regression check: it shows that the investigation's numbers follow from its inputs, not that the inputs or the model are right. What it does not recompute is the full grid of 96 histories, more than one phase of the field's oscillation at the crunch, and the two curvature terms of the gravity sector, which it takes as input.*
+*The closed-universe script, `verify/closed_universe.py`, recomputes every number of the note on [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe), the program's study of what follows if space is finite and positively curved. The investigation itself ran in scripts outside the repository; this file ports them into one self-contained check that the gate runs. Before it computes anything from the investigation, it reproduces values that do not depend on it: the Planck units of CODATA 2018, the photon density of the Particle Data Group, the exact solutions of a closed universe filled with dust or with dust and radiation, a textbook average over an oscillating field, the vibration spectrum of a three-sphere, the lowest mode of the Poincaré dodecahedral space, two published measurements of the universe's curvature, two published torsion-balance ranges and two published fits of the second data release of the Dark Energy Spectroscopic Instrument. Everything after the anchors is, in the script's own words, a regression check: it shows that the investigation's numbers follow from its inputs, not that the inputs or the model are right. What it does not recompute is the full grid of 96 histories, more than one phase of the field's oscillation at the crunch, and the two curvature terms of the gravity sector, which it takes as input. A last block, added on 2026-10-29, derives the homotopy groups of the space of polarizations, which decide what defects the program's choice of polarization could leave. It computes the maps behind two of the three groups, calibrating its winding integral on two winding numbers from the literature, and matches all three to the standard table; the group behind the point defects follows from standard inputs, one of which the block confirms rather than tests, and the count of textures on a closed universe is argued, not computed.*
 
-**Status:** Method, in force — the note says that "Every number is recomputed in `verify/closed_universe.py`" (note header), and its [V] tags rest on the script — eighth in the list of scripts that [the gate](/wiki/method/verification/the-gate), `scripts/check.sh`, runs. In the run of 2026-10-27 recorded below, all 92 checks passed and the script ended "OK — every number of the closed-universe investigation reproduces." The note itself has not been reviewed.
+**Status:** Method, in force — the note says that "Every number is recomputed in `verify/closed_universe.py`" (note header), and its [V] tags rest on the script — eighth in the list of scripts that [the gate](/wiki/method/verification/the-gate), `scripts/check.sh`, runs. In the run of 2026-10-27 recorded below, all 92 checks passed and the script ended "OK — every number of the closed-universe investigation reproduces." Section F, added on 2026-10-29 under flag 61 in `review/wiki-build-flags.md`, brings the count to 100; in the run of 2026-10-29, also recorded below, all 100 passed and the script ended with the same line. The note itself has not been reviewed.
 
 ## What it checks, and for what
 
-The note is `notes/closed-universe.md`, of 2026-10-27, which answers Paul's question of that day on a closed universe. Its results are on three pages: [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) (the premise, the turnaround, the data, how big position space and how small momentum space get, the dual frame, light and counts), [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) (the bimetric sector) and [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity). The numbers the note computes carry [V] or [D][V], and this script is the machine check behind the [V]; the published figures it quotes carry [S].
+The note is `notes/closed-universe.md`, of 2026-10-27, which answers Paul's question of that day on a closed universe. Its results are on three pages: [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) (the premise, the turnaround, the data, how big position space and how small momentum space get, the dual frame, light and counts), [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) (the bimetric sector) and [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity). The topology that section F checks is also on [Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12), #11 §14 item 12. The numbers the note computes carry [V] or [D][V], and this script is the machine check behind the [V]; the published figures it quotes carry [S].
 
 The docstring states the scope, the anchors and the inputs:
 
@@ -68,11 +73,11 @@ The rule behind them is root `CLAUDE.md`'s: "An anchor must be independent of th
 - **X's range.** The torsion-balance table of Lee et al. 2020, typed in as in [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script), must reproduce the experiment's published 38.6 μm and 30 μm; at strength 4/3 it gives λ_X < 37.7 μm and M_X c² > 5.24 meV ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound)).
 - **The fit's calibration.** The background fit, described under block C, must reproduce two published DR2 results: the flat w₀wₐ fit, w₀ = −0.43 ± 0.22 and wₐ = −1.72 ± 0.64, within one standard deviation, and ΛCDM with free curvature, 0.0023 ± 0.0011, within 0.2 standard deviations and 5% in width; it prints +0.00242 ± 0.00114.
 
-Two literature anchors sit inside block D, where the derivation they test is made: von Strauss et al. 2012's quartic for the bimetric ratio and Könnig 2015's gradient-instability frequency.
+Two literature anchors sit inside block D, where the derivation they test is made: von Strauss et al. 2012's quartic for the bimetric ratio and Könnig 2015's gradient-instability frequency. Block F has two of its own, the winding numbers of SU(2)'s fundamental representation (|W| = 1) and of SO(3) in SO(4) acting on ℝ⁴ (|W| = 4), "with Bott periodicity's stable values for U/O as the table its homotopy groups must match" (docstring), the stable values being those the homotopy groups of U(d)/O(d) take when d is large [T].
 
 ## The checks, block by block
 
-The later blocks are labelled B to E and name the investigation's scripts they port. Their check labels carry the note's item numbers, such as B1 or E5.
+The later blocks are labelled B to F and name the investigation's scripts they port. Their check labels carry the note's item numbers, such as B1 or E5; block F's labels, F1 to F4, cite the gravity-sector analysis's claims C35–C38 instead.
 
 ### B. Closed τ histories (21 checks)
 
@@ -109,6 +114,18 @@ In sympy, from the reduced action of the two metrics ([the momentum graviton in 
 - compact phase spaces: the Künneth argument, Gr̃(2,5) as a Kähler quadric with its reciprocity automorphism, √(R₀ l_P) = 1.489×10⁻⁴ m and the bounds on κc (E5) ([reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity));
 - the photon count of the whole sphere (E6); the symmetric dual-curvature reading and its bounds, with the LHC (Large Hadron Collider) cap (E7, flag 48); the inflationary throat, 2.67×10⁵ l_P, typed in from E_inf < 1.39×10¹⁶ GeV (E8); the a⁻⁶ term below 10⁻¹⁹⁸ after inflation (E9, flag 49); the radius–mass pairing and its aspect ratios (E10).
 
+### F. Topology of the polarization manifold (8 checks)
+
+The block was added on 2026-10-29, when flag 61 was applied. It ports the gravity-sector analysis's `grassmannian_homotopy.py`, which had run only in the investigation's work folder and was not gated, and covers that analysis's claims C35–C38 (`review/closed-universe/analyses/gravity-sector.json`), the last of them argued in a label rather than computed. Λ(4) = U(4)/O(4) is the space of polarizations ([the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian)). The code's comments give the method: the homotopy follows from the fibration O(4) → U(4) → U(4)/O(4) and standard inputs [T], the homotopy groups of O(4) and U(4), among them π₃(O(4)) = ℤ + ℤ, from left and right multiplication by unit quaternions, and π₃(U(4)) = ℤ, counted by the winding number W[g] = (1/24π²)∫Tr(g⁻¹dg)³ over S³. The script computes the two maps π₁(O(4)) → π₁(U(4)) and π₃(SO(4)) → π₃(U(4)), evaluating W as a sum over a grid on S³.
+
+- **Anchors** [T]: left and right quaternion multiplication by a unit quaternion are orthogonal with determinant 1; SU(2)'s fundamental representation has |W| = 1, unchanged when SU(2) is embedded in U(4); SO(3) in SO(4) acting on ℝ⁴, spin 1 plus spin 0, has |W| = 4, its Dynkin index.
+- **F1** (C37): the generators x → qx and x → xq of π₃(SO(4)) have W = −2 and +2 in π₃(U(4)) = ℤ; the image is 2ℤ, and with π₂(O(4)) = 0, π₃(Λ(4)) = ℤ₂.
+- **F2** (C35): det² winds once on a loop that closes in Λ(4) and twice on the generator of π₁(U(4)), so π₁(Λ(4)) = ℤ, the Maslov class.
+- **F3** (C36): the generator of π₁(SO(4)) = ℤ₂ has determinant winding 0 in U(4). The determinant is 1 on SO(4), so in the label's words the check "confirms an input rather than testing one". π₁(O(4)) → π₁(U(4)) is therefore zero, and with π₂(U(4)) = 0, π₂(Λ(4)) = ℤ₂ "follows by exactness": "the polarization manifold admits point defects". The note tags π₂ [T], and π₁ and π₃ [T][V] (`notes/closed-universe.md` §8).
+- **F4** (C38): the three groups match Bott periodicity's stable values for U/O, ℤ, ℤ₂ and ℤ₂ [T]. The label adds the count of textures: maps of S³ into Λ(4), with no base point fixed, fall into the classes of π₃ up to the action of π₁, which is trivial on ℤ₂ because the automorphism group of ℤ₂ is trivial, so [S³, Λ(4)] = Z₂, "two texture classes on a closed universe". The label marks the count "argued, not computed", and the note tags it [D].
+
+The block's comment carries the caveat of the note and of flag 61: on the light Maslov circle alone π₂(S¹) = π₃(S¹) = 0, so the point defects and textures belong to the regime in which the order parameter ranges over all of Λ(4); the strings of τ that π₁ allows exist on the circle too (#11 §14 item 12). The classification also assumes d = 4 and that the U(4) acting on the polarization is global, the closed-universe verifiers' caveats (flag 61). The results are on [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#light-horizons-and-counts) and [Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12).
+
 ## What it does not recompute
 
 The docstring and the code say what was trimmed to keep the run short:
@@ -120,6 +137,7 @@ The docstring and the code say what was trimmed to keep the run short:
 - **The literature and the inputs.** Published values are typed in: the DESI tables and fits, the two curvature values, Lee et al.'s table, the inflation bound and the cosmic-variance floor. Whether the cited works say what the note quotes rests on retrieval ([S]), not on the script, and the 10⁻⁴ floor and the exclusion of eternal inflation are not computed.
 - **The models.** The fit is a background fit without supernovae, and the corridor approximates τ's histories; a fit of V₀[1 + cos(τ/f)] with full likelihoods is open. The dual Einstein–Hilbert term behind E7 and E9 is a postulate of the record (flag 49). The script checks arithmetic, not the model ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 - **Single-agent results.** Four results came from the note's critic alone and were not independently verified (note header): the corridor fit (C2), the integrability result (E4), the Gr̃(2,5) construction (E5) and inflation's π/2 (B6). The script ports the critic's scripts and so reproduces these results rather than verifying them.
+- **Block F's inputs and the defects' fate.** The homotopy groups of O(4) and U(4) are standard inputs [T], stated in the code's comments; the script computes the maps between them and compares the result with Bott periodicity's table. The map of F3 is zero because the determinant is 1 on SO(4), so that check confirms an input, and π₂(Λ(4)) = ℤ₂ rests on exactness [T]; the count of texture classes on S³ is argued in F4's label, not computed [D]. Whether a transition produced the point defects and τ-strings, and what became of them, it does not compute: that is open (#11 §14 item 12; `notes/closed-universe.md` §9 item 4).
 
 ## The recorded output
 
@@ -259,11 +277,32 @@ wall time 16.0 s
 OK — every number of the closed-universe investigation reproduces.
 ```
 
+The run of 2026-10-29, made after the labels of F3 and F4 were revised (wall time 10.9 s), printed every line of the anchors and of blocks B to E as above except two timings, 4.8 s and 7.1 s in place of 9.1 s and 13.0 s, and then section F:
+
+```text
+== F. Topology of the polarization manifold (port of gravity-sector/grassmannian_homotopy.py; gravity-sector C35-C38; flag 61)
+PASS  F anchor: x -> q x and x -> x q are quaternion multiplication by a unit quaternion, orthogonal with det 1
+PASS  F anchor: SU(2)'s fundamental representation has |W| = 1 [T]  [W = -1.000179]
+PASS  F anchor: embedding SU(2) in U(4) leaves W unchanged  [W = -1.000179]
+PASS  F anchor: SO(3) in SO(4) acting on R^4 (spin 1 plus spin 0) has |W| = 4, its Dynkin index [T]  [W = -4.000714]
+PASS  F1: the generators x -> q x and x -> x q of pi_3(SO(4)) = Z + Z have W = -2 and +2 in pi_3(U(4)) = Z; the image is 2Z and pi_2(O(4)) = 0, so pi_3(Lambda(4)) = Z2 (C37)  [W = -2.000357, +2.000357]
+PASS  F2: det^2 winds once on the loop t -> diag(e^(i pi t), 1, 1, 1), which closes in Lambda(4) because diag(-1, 1, 1, 1) is in O(4), and twice on the generator of pi_1(U(4)): pi_1(Lambda(4)) = Z, the Maslov class (C35)  [+1.000000, +2.000000]
+PASS  F3: the generator of pi_1(SO(4)) = Z2 has det winding 0 in U(4) (det = 1 on SO(4), so this confirms an input rather than testing one); pi_1(O(4)) -> pi_1(U(4)) is therefore zero and, with pi_2(U(4)) = 0, pi_2(Lambda(4)) = Z2 follows by exactness (C36): the polarization manifold admits point defects  [+0.000000]
+PASS  F4: pi_1, pi_2, pi_3 of Lambda(4) as derived in F1-F3 match Bott periodicity's stable values for U/O, Z, Z2, Z2 [T]; free classes of maps S^3 -> Lambda(4) are pi_3 modulo the pi_1 action, trivial on Z2 since Aut(Z2) is trivial, so [S^3, Lambda(4)] = Z2, two texture classes on a closed universe (C38; argued, not computed)  [('Z', 'Z2', 'Z2')]
+
+wall time 10.9 s
+
+OK — every number of the closed-universe investigation reproduces.
+```
+
+An earlier run the same day, made when section F was first described here, printed the same values under earlier labels of F3 and F4. They did not say that F3 confirms an input or that F4's count of textures is argued, not computed, and F4 gave the count from S³'s being simply connected rather than from the action of π₁.
+
 ## Sources
 
-- `verify/closed_universe.py` — the docstring with its scope, anchors and inputs; the integrator and its three forms; every check and label; the typed-in tables and values; the trims named in the docstring and the code ("one oscillation phase at the crunch"; the reduced √−g R terms); its output — the 92 checks of the run recorded above
-- `notes/closed-universe.md` header — "Every number is recomputed in `verify/closed_universe.py`" and the note's status; §1–§8 — the numbers the script reproduces; §10 — the refuted claim about light travel and the phases of τ's oscillation
-- `review/closed-universe/README.md` — the investigation's record and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/critic/d_light_travel.out` — the critic's light-travel ranges
+- `verify/closed_universe.py` — the docstring with its scope, anchors and inputs; the integrator and its three forms; every check and label; the typed-in tables and values; the trims named in the docstring and the code ("one oscillation phase at the crunch"; the reduced √−g R terms); its output — the 92 checks of the run of 2026-10-27 and the 100 of the run of 2026-10-29 recorded above; section F's docstring sentence, comments and labels
+- `notes/closed-universe.md` header — "Every number is recomputed in `verify/closed_universe.py`" and the note's status; §1–§8 — the numbers the script reproduces, §8 the topology and its tags (π₁ and π₃ [T][V], π₂ [T], the texture count [D]); §9 item 4 — the defects' fate, open; §10 — the refuted claim about light travel and the phases of τ's oscillation
+- `review/closed-universe/README.md` — the investigation's record and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/critic/d_light_travel.out` — the critic's light-travel ranges; `review/closed-universe/analyses/gravity-sector.json` — claims C35–C38, which section F checks
 - `scripts/check.sh` — the script's place in the gate
-- `CLAUDE.md` 'Layout' — the script listed as "the closed-universe note"; 'Method (HANDOFF §5)' — the anchor rule
-- `review/wiki-build-flags.md` items 27 (addendum) and 45–54 — "Arithmetic is checked in `verify/closed_universe.py`"
+- `CLAUDE.md` 'Layout' — the script listed as "the closed-universe note"; 'Method (HANDOFF §5)' — the anchor rule; 'Since the handoff' (2026-10-29) — section F gates the homotopy
+- `review/wiki-build-flags.md` items 27 (addendum) and 45–54 — "Arithmetic is checked in `verify/closed_universe.py`"; item 61 — the point defects, the ungated script, and section F as its fix
+- `papers/broken-born-checkpoint-v2.md` §14 item 12 — the polarization's defects, the open problem the section's groups bear on, "with the maps behind them gated" and the caveats d = 4 and a global U(4)

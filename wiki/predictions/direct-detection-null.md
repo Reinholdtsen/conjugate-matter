@@ -9,9 +9,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "CLAUDE.md 'Since the handoff'"
+  - "review/wiki-build-flags.md item 60"
   - "review/round3-adjudication.md 'Decisions' item 1"
   - "review/round3-adjudication.md 'Rulings'"
   - "review/round3/referee/audit-notes.md Step 1, citation [9]"
@@ -115,9 +117,16 @@ No direct-detection experiment or collider search has reported a confirmed dark-
 - **Couplings that are not gauge forces.** P4 excludes gauge forces across the polarizations, and its strict reading excludes kinetic mixing. The documents do not discuss other kinds of coupling for χ or the X-condensate. The round-3 referee listed "The Higgs portal" among the constraints #14 had omitted for its hidden sector, accepted as a to-do and not individually re-checked (`review/round3-adjudication.md`, 'Rulings'); no document takes it up for the remaining candidates.
 - **The handoff's open item.** [The handoff](/wiki/history/documents/handoff) listed "UV stability of sector separation / kinetic mixing" as open (`HANDOFF.md` §2, item 3), and its queue paired the † literature battery with "resolve the gravity-induced kinetic mixing question" (§8, item 6). The strict reading of P4 answers the first in the record's terms, and #11 §14 lists no kinetic-mixing item. [27S] is a live-searched reference [S], so it is outside the † battery ([Open: the † literature battery](/wiki/method/literature-battery)).
 
-## A conflicting popular claim
+## The magnetic-mirror conjecture's shared-photon form
 
-The popular article #12 says "The momentum-polarized sector is the magnetic side of electromagnetism" ('Dark matter as the other polarization'). A sector magnetically charged under our photon would have exactly the coupling this row excludes, and the identification also contradicts strict P4. It is not a program claim and is dead: [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification#it-contradicts-row-7). #12 presents the framework as if it were confirmed and is not a source for any claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
+The popular article #12 says "The momentum-polarized sector is the magnetic side of electromagnetism" ('Dark matter as the other polarization'). #11 v2.3 records that reading as the shared-photon form of P.R.'s magnetic-mirror conjecture [O], in which the momentum-polarized analogs of our electrically charged particles "carry magnetic charge of our photon" (§11.4; [shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). The form bears on two parts of the row differently (flag 60 in `review/wiki-build-flags.md`):
+
+- **The requirement's basis.** The parenthesis "both dark-sector candidates SM-decoupled; P4 strict" is broken by construction: the analogs carry magnetic charge of our photon, so the momentum-polarized sector couples to it. P4 as written excludes the form ("gauge forces do not cross polarizations", in the program since #1), "so it needs P4 restated" (§11.4).
+- **The permanent null and its kill condition.** If the analogs are part of the dark matter, the observable null survives only if they are spread in position, which no document analyzes: #14 assumed ordinary kinematics, and [conjugate special relativity](/wiki/conjugate-relativity), #13, treats the momentum polarization's kinematics but not localization. Whether a search could register them, and so confirm the coupling that would kill the row, therefore depends on their being localized in position.
+
+The conjecture's other form, in which the analogs are magnetic under the momentum-polarized sector's own gauge field, "is consistent with P4" (§11.4; [separate photon](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon)).
+
+Until 2026-10-29 the wiki recorded #12's reading as dead and in contradiction with this row, on its own reading of the conflicts; flag 60 reversed that on Paul's ruling ([the earlier obituary and its reversal](/wiki/electric-magnetic-duality/magnetic-identification#the-earlier-obituary-and-its-reversal)). #12 presents the framework as if it were confirmed and is not a source for any claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Superseded: earlier forms of the row
 
@@ -126,7 +135,7 @@ The popular article #12 says "The momentum-polarized sector is the magnetic side
 | v0.1 (#1 §9) | "**Permanent null**: χ has no non-gravitational SM coupling" |
 | v1 (#9 §9) | "**Permanent null** — χ (or X-condensate) has no non-gravitational SM coupling" |
 | #11 v2.0 | "**Permanent null** (all three trilemma candidates SM-decoupled)" |
-| #11 v2.1, v2.2 | "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)" |
+| #11 v2.1–v2.3 | "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)" |
 
 The v2.0 wording survives only in the repository's history (commit 8d588f6, the imported checkpoint). The changes follow the candidates: v1 added the X-condensate, v2.0 the superheavy solitons as a third, and v2.1 retired the solitons and added "P4 strict" ([the history of the predictions table](/wiki/predictions/table-history#the-checkpoint-v21-after-round-3)).
 
@@ -136,7 +145,7 @@ Kinetic mixing reached the row through the review of #14. Round 1 found "kinetic
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 row 7 — the row; §4 — P4 and its strict reading [P], [27S]; §7.5 — X's couplings to ordinary matter; §8 — χ on g; §12 — the candidates and their handles; §15 — the near-term exposure
+- `papers/broken-born-checkpoint-v2.md` §13 row 7 — the row; §4 — P4 and its strict reading [P], [27S]; §7.5 — X's couplings to ordinary matter; §8 — χ on g; §11.4 — P.R.'s magnetic-mirror conjecture [O], its shared-photon form against P4 as written and its separate-photon form consistent with it; §12 — the candidates and their handles; §15 — the near-term exposure
 - `CLAUDE.md` 'Since the handoff' — strict sector separation in force
 - `review/round3-adjudication.md` 'Decisions' item 1 — the strict reading and its reasons; 'Rulings' — rulings 7 and 9 and the omitted constraints, among them the Higgs portal
 - `review/round3/referee/audit-notes.md` Step 1, citation [9] — the quotations from [27S] and the floor reading
@@ -144,4 +153,5 @@ Kinetic mixing reached the row through the review of #14. Round 1 found "kinetic
 - `HANDOFF.md` §2 item 3, §6, §8 item 6 — the open item, the review history of kinetic mixing and the queued question
 - `notes/broken-born-theory.md` §1 — P4 in v0.1; §4 — χ falls, orbits and lenses [D]; §9 — v0.1's row 7, the standard theory and the flagships (quotations from #1 are transcribed from its LaTeX)
 - `notes/broken-born-program-v1.md` §9, §11 — v1's row 7 and its exposure rows
-- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the dead magnetic identification; not a status source
+- `review/wiki-build-flags.md` item 60 — the reversal of the wiki's obituary; the shared-photon form breaks row 7's basis outright, and its observable null survives only if the momentum sector is spread in position, which no document analyzes
+- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the shared-photon reading; not a status source

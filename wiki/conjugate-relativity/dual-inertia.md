@@ -19,7 +19,7 @@ sources:
 
 *Dual inertia is [#13](/wiki/conjugate-relativity)'s account of rest and uniform motion in the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the mirror description in which momentum plays the part that position plays for ordinary matter. An ordinary inertial body keeps its velocity constant. In #13's dual kinematics the rate of motion through momentum space, dp/dt, is a force, and it takes the place of velocity, so the dual-inertial motions are those of constant force: zero force, which in [general relativity](/wiki/gravity/spin-2-fields/general-relativity) is free fall, and a constant nonzero force, which is a uniformly accelerated (Rindler) frame. In #13's words, "An astronaut coasting in orbit is, to the momentum polarization, at rest." The identification of dual-inertial frames with free fall is on #13's list of fixed results; the dual second law built on it is marked conjecture-tier, the dual first law carries no tag, and their formalization waits on dynamics that have not been written. Like the rest of #13, the material is unreviewed and unchecked by script, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
 
-**Status:** Alive, unreviewed — the dual-inertial = free-fall identification is in #13 §7's fixed [D] list (it is untagged in §5); the dual second law is "conjecture-tier", #13's own label and not one of the house tags, and the dual first law is untagged. The [D] is #13's own: no review round has covered #13, no `verify/` script checks it, and [#11](/wiki/history/documents/checkpoint) v2.2 does not mention it.
+**Status:** Alive, unreviewed — the dual-inertial = free-fall identification is in #13 §7's fixed [D] list (it is untagged in §5); the dual second law is "conjecture-tier", #13's own label and not one of the house tags, and the dual first law is untagged. The [D] is #13's own: no review round has covered #13, no `verify/` script checks it, and [#11](/wiki/history/documents/checkpoint) v2.3 does not mention it.
 
 ## Background: inertia, free fall and Rindler frames [T]
 
@@ -84,7 +84,7 @@ The popular article #12 ("A second speed of light") states the identification as
 
 ## Basis of the status
 
-`HANDOFF.md` §2 lists "dual inertial frames = free fall ⇒ equivalence principle as the dual relativity principle" among the alive results, without the ✓ it uses for machine-verified items. #13 has not been revised since its import on 2026-10-19 and has not been through a review round, and #11 v2.2 does not mention it ([conjugate special relativity](/wiki/conjugate-relativity)).
+`HANDOFF.md` §2 lists "dual inertial frames = free fall ⇒ equivalence principle as the dual relativity principle" among the alive results, without the ✓ it uses for machine-verified items. #13 has not been revised since its import on 2026-10-19 and has not been through a review round, and #11 v2.3 does not mention it ([conjugate special relativity](/wiki/conjugate-relativity)).
 
 ## Sources
 

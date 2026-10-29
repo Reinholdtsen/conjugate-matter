@@ -8,6 +8,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md §6"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/reciprocity-toy-models.md §1"
   - "papers/reciprocity-toy-models.md §2"
@@ -85,7 +86,7 @@ The invariance is machine-checked. In [model I](/wiki/symmetry-breaking/toy-mode
 
 "Met" leaves two things uncovered, one clause of the referees' wording and the round-3 critique:
 
-- **The electric sublattice.** #14's criterion and the handoff's open item required η to select "the hidden sector's electric description" (or "the electric sublattice") as well. The worklog's criteria and #11 §14 item 11 omit that clause. The root `CLAUDE.md` calls the toy Lagrangian "done to the referees' wording", and the clause remains unaddressed.
+- **The electric sublattice.** #14's criterion and the handoff's open item required η to select "the hidden sector's electric description" (or "the electric sublattice") as well. The worklog's criteria and #11 §14 item 11 omit that clause. The root `CLAUDE.md` calls the toy Lagrangian "done to the referees' wording", and the clause remains unaddressed. Since v2.3, #11 §11.4 lists it first among what stays open for P.R.'s magnetic-mirror conjecture: "a mechanism by which one order parameter makes both choices (the electric-sublattice clause of acceptance criterion 1, never attempted; the toy models of §14 item 11 contain no gauge field)" ([what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 - **The round-3 critique.** The worklog's assessment: "The round-3 critique ('the framework does no work') is only partly answered. The toy makes the program's structures cohere (η as order parameter; τ as the polarization angle), but matter's x-locality still enters through the P4-type coupling." (`notes/toy-lagrangian.md`, "Assessment against the predictions"; [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)).
 
 ## Symmetry, covariance and the twisted element
@@ -122,6 +123,7 @@ Added by the wiki from model memory (†); the program's documents do not cite t
 
 - `CLAUDE.md` "Since the handoff" — the toy Lagrangian "done to the referees' wording".
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the criterion met in the referees' wording, and what remains open.
+- `papers/broken-born-checkpoint-v2.md` §11.4 — the electric-sublattice clause as the first open item of the magnetic-mirror conjecture [O].
 - `papers/broken-born-checkpoint-v2.md` §4 — P3, the postulated symmetry of the action.
 - `papers/reciprocity-toy-models.md` §1–§3 — the explicit ρ-invariant action, the twisted element, symmetry versus covariance.
 - `review/round3-adjudication.md` "Decisions" — decision 4: the toy Lagrangian as the next task.

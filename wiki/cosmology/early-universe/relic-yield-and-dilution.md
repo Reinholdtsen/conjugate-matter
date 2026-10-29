@@ -26,6 +26,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md §3"
   - "review/v3-worklog.md 'Findings neither referee raised'"
   - "review/wiki-build-flags.md items 21, 34"
+  - "review/wiki-build-flags.md item 59"
 ---
 
 *The yield of a relic is its number of particles per unit of entropy, Y = n/s: the number density n divided by the entropy density s of the hot plasma that filled the early universe. While nothing creates or destroys the particles, both quantities fall in inverse proportion to the volume as the universe expands, so the yield stays fixed, and multiplying it by today's entropy density gives the relic's density now. Entropy dilution is the standard way a yield can still fall after it has been fixed: a large release of entropy into the plasma, such as the decay of heavy particles that dominated the universe for a time (a period called early matter domination), divides every yield fixed before the release by the factor by which the entropy grew. Both entered the [review](/wiki/method/review/round-3) that retired the program's [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary). Its count of monopoles per unit entropy had dropped a factor of about 4.6×10³ that comes from the expansion rate ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)). Counted correctly, monopoles at the candidate's benchmark mass could make up the [dark matter](/wiki/dark-matter) only with a dilution factor of at least 10³–10⁴ left free, and the program rejected that route because a free factor removes the mass prediction.*
@@ -207,7 +208,7 @@ The v3 worklog had already found that the Kibble estimate fixes a single mass an
 
 ### Our own sector's monopoles
 
-Dilution by inflation is the second of the two grounds on which #11 §11.1 killed the founding claim that conjugate-space monopoles explain the null result of monopole searches: "inflationary dilution already accounts for absence [T]" ([Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation); [inflation and our own monopoles](/wiki/cosmology/early-universe/inflation-and-dilution#inflation-and-our-own-monopoles)).
+Dilution by inflation is one of the standard histories behind the second of the two grounds on which #11 §11.1 killed the founding claim that conjugate-space monopoles explain the null result of monopole searches. As v2.3 words the ground, "the null result is expected under several standard histories, so it lends the program no support", inflation after a unification transition among them, and "Inflation is the standard account, not an observed epoch (v2.3; flag 59)". Until v2.3 the ground was dilution alone, "inflationary dilution already accounts for absence [T]" (v2.2), which flag 59 in `review/wiki-build-flags.md` found to show the explanation unnecessary, not false ([Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation); [inflation and our own monopoles](/wiki/cosmology/early-universe/inflation-and-dilution#inflation-and-our-own-monopoles)).
 
 ### What the record checks
 
@@ -247,7 +248,7 @@ The † entry is from model memory and unverified.
 - `review/round3/adjudicator/round3_arb.out` — p with M_Pl and with the reduced Planck mass
 - `review/round3/referee/audit-notes.md` Step 1 — Kolb–Turner and Gangui; Step 2 — the constants, the source of v3's 0.0228 and the dilution at 10¹⁶ GeV; Step 4(c) item 1 — Murayama–Shu and Liveoak–Maharana–Wells
 - `review/round3/referee/step2a.py` 'Kibble' and `review/round3/referee/step2a.out` 'Kibble' — p for both horizon volumes, the missing factor and the dilution figures
-- `papers/broken-born-checkpoint-v2.md` §12 — n/s = p (T_c/M_Pl)³, early matter domination [29S] and the free dilution factor; §11.1 — inflationary dilution [T]
+- `papers/broken-born-checkpoint-v2.md` §12 — n/s = p (T_c/M_Pl)³, early matter domination [29S] and the free dilution factor; §11.1 — inflation as one of the standard histories under which the monopole null result is expected [T] (v2.3)
 - `notes/knot-dark-matter-standalone.md` Abstract, §3 — "no dilution required"; v3's p, its inputs, the ordering requirement and the (M/M\*)⁴ dilution (withdrawn)
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1) — the dilution figures and the stated alternative before round 3 (superseded)
-- `review/wiki-build-flags.md` item 21 — the attribution of ruling 3's Kibble–Zurek range; item 34 — the script's constants typed in
+- `review/wiki-build-flags.md` item 21 — the attribution of ruling 3's Kibble–Zurek range; item 34 — the script's constants typed in; item 59 — the restated ground for our own sector's monopoles

@@ -21,6 +21,8 @@ sources:
   - "review/v3-worklog.md 'Findings neither referee raised', 'New open items', 'Next chunks'"
   - "notes/toy-lagrangian.md 'Next (Claude's call, under Paul's delegation)'"
   - "review/wiki-build-flags.md preamble"
+  - "review/wiki-build-flags.md items 55, 59, 60, 61, 62"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
 ---
 
 *The Comatter program is the work of two parties: Paul (P.R.), an independent developer, and Claude, an AI model made by Anthropic. Paul supplies conjectures and direction and holds a veto; Claude supplies derivations, counterexamples, verification and drafting, and the papers carry an attribution line that records this split. Paul cannot independently verify most of the technical physics, so the provenance tags, the machine checks and the review forecasts written down in advance are his means of telling sound results from confabulation. The same conventions fix how decisions are taken and delegated, how work is divided into chunks that a new session can resume, and how the science is written.*
@@ -63,9 +65,9 @@ Each element of the calibration has its page and its record:
 
 The record shows three ways a decision is taken.
 
-- **Paul decides.** During the revision of [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate) the worklog records "Decided (Paul, 2026-10-19):" twice: [moving the monopole benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction#superseded-the-point-not-a-window-of-the-v3-worklog) to M ≈ 3×10¹³ GeV, and adopting [a reading of which coupling sets the soliton mass](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass) (`review/v3-worklog.md`, items F1 and F2). It also records a problem he raised: "fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
+- **Paul decides.** During the revision of [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate) the worklog records "Decided (Paul, 2026-10-19):" twice: [moving the monopole benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction#superseded-the-point-not-a-window-of-the-v3-worklog) to M ≈ 3×10¹³ GeV, and adopting [a reading of which coupling sets the soliton mass](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass) (`review/v3-worklog.md`, items F1 and F2). On 2026-10-29 he withdrew the second, that "S-duality is no longer what fixes α_d", as "probably confusion on my part", while F2's finding, that #14 v2 used both a weak and a strong value of the dual coupling, stands (flag 60 in `review/wiki-build-flags.md`). #11 v2.3 §11.4 records his [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification) [O], that each electrically charged x-polarized particle has a magnetically charged p-polarized analog, and calls the identification the decision had set aside, the momentum-polarized sector as the S-dual image of the electric sector, a related identification of #14 v2. The worklog also records a problem he raised: "fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
 - **Paul delegates.** After review round 3: "Paul delegated these on 2026-10-19 ("You make the decisions for me and give rational"). Claude made them. Paul keeps the veto." (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). #11's footer records the v2.1 amendments as "decisions delegated by P. R. to Claude". The toy-model worklog marks its route choices the same way, "Route decision for S4–S5 (Claude, under Paul's delegation)" and "Next (Claude's call, under Paul's delegation)" (`notes/toy-lagrangian.md`).
-- **Paul rules.** Suspected errors in the source documents found while building this wiki are quoted faithfully, not corrected; "each needs Paul's ruling" (`review/wiki-build-flags.md`).
+- **Paul rules.** Suspected errors in the source documents found while building this wiki are quoted faithfully, not corrected; "each needs Paul's ruling" (`review/wiki-build-flags.md`). He deferred the ruling on flag 55 on 2026-10-28, and on 2026-10-29 accepted flags 59 and 60, while flag 61 was applied under his instruction to update the repository with the discussion's findings; flag 62, raised the same day, awaits his ruling.
 
 The working instruction behind the delegation is "Make the call and recommend; don't ask questions Paul can't answer." (root `CLAUDE.md`).
 
@@ -92,6 +94,7 @@ The program "was developed with Claude on claude.ai in September–October 2026 
 - `review/round3-adjudication.md` 'Decisions' — the delegation and the veto
 - `review/round3-preregistration.md` — the same-model-family limitation
 - `review/round4-adjudication.md` 'Pre-registration scored' — the verdict record across four rounds
-- `review/v3-worklog.md` 'Findings neither referee raised' (F1, F2), 'New open items', 'Next chunks' — Paul's decisions of 2026-10-19 and the problem he raised
+- `review/v3-worklog.md` 'Findings neither referee raised' (F1, F2), 'New open items', 'Next chunks' — Paul's decisions of 2026-10-19, the withdrawal of the F2 decision on 2026-10-29 with the finding that stands, and the problem he raised
+- `papers/broken-born-checkpoint-v2.md` §11.4 — the withdrawal recorded, P.R.'s magnetic-mirror conjecture [O], and #14 v2's related identification
 - `notes/toy-lagrangian.md` — route decisions under delegation
-- `review/wiki-build-flags.md` preamble — flags awaiting Paul's ruling
+- `review/wiki-build-flags.md` preamble — flags awaiting Paul's ruling; items 55, 59, 60 and 61 — the deferral of 2026-10-28, the two flags Paul accepted on 2026-10-29 and the one applied under his instruction; item 62 — pending

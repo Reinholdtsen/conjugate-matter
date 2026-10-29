@@ -30,7 +30,7 @@ below gives their paths.
   - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
   - `velocity-gated-gravity.md` — the momentum-gravity note (2026-10-28): whether the velocity-clumping obituary is premature, and whether momentum gravity is a relative-velocity perturbation of gravity. Computed and verified by independent agents; not reviewed. Its record is `review/momentum-gravity/`.
   - `gate-mechanism.md` — whether exchanging X produces #11 §8's dark-matter gate (2026-10-28). Two derivations, the second blind; not reviewed. Its record is `review/momentum-gravity/`; its result is flag 55.
-- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here.
+- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`.
 - [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page and must be updated in the same change whenever a claim dies, a flag is ruled on, a note or review round lands, or data bear on a prediction row (`wiki/CLAUDE.md`, "Keeping it current").
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
@@ -104,6 +104,29 @@ only as a task needs them.
 - 2026-10-28: #1's three most severe open problems are named by subject everywhere: the field-equation
   problem (1), the gate problem (2) and the clumping problem (3), together the three main problems. Commits
   before this date, and git history, call them Debt 1–3. No payment or ledger wording is used.
+- 2026-10-29: the monopole discussion (Paul's questions of 2026-10-28 and 2026-10-29; a sweep of the record by
+  nine agents, `review/monopoles/`; flags 59 and 60 accepted by Paul, 61 applied under his instruction to update
+  the repo, 62 pending). #11 is now v2.3. Its results:
+  - the monopole explanation stays dead, on restated grounds (flag 59). The null result is expected under
+    several standard histories, inflation after a unification transition among them, so it lends the program
+    no support; inflation is the standard account, not an observed epoch. Only the shared-photon form of the
+    conjecture below contests "wrong duality", and whether that form would reopen the explanation is flag 62,
+    Paul's to rule;
+  - Paul's magnetic-mirror conjecture is #11 §11.4 [O] (flag 60): momentum matter is similar to position matter,
+    each electrically charged x-polarized particle having a magnetically charged p-polarized analog. It joins
+    founding suppositions 5 and 11. #14 v2 stated a related identification, the momentum-polarized sector as the
+    S-dual image of the electric sector, which it called load-bearing for its dual coupling;
+  - the wiki's obituary of the magnetic identification is reversed, because no review or document had killed
+    it. Paul withdrew the worklog's decision F2 of 2026-10-19 ("S-duality is no longer what fixes α_d") as
+    "probably confusion on my part"; F2's arithmetic finding stands. #14 stays withdrawn;
+  - the conjecture's shared-photon form, magnetic charge of our own photon, conflicts with P4 as written. Localized
+    in position at dark-matter density, such objects would exceed the Parker bound at #14's benchmark masses
+    (not gated), so this form needs something to hide them, p-localization or binding into magnetically neutral
+    composites, and nothing has shown either;
+  - the polarization manifold has π₁(Λ(4)) = ℤ and π₂(Λ(4)) = ℤ₂ (for d = 4 and a global U(4)), so selecting the
+    polarization can leave strings of τ and, where the order parameter ranges over the whole manifold, point
+    defects of the program's own order parameter (flag 61; #11 §14 item 12). `verify/closed_universe.py`
+    section F now gates the homotopy.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -129,6 +152,18 @@ only as a task needs them.
   - a full Lyman-α likelihood and a nonlinear simulation of narrow gates, if the long-range variant is pursued;
   - whether the Hamiltonian reading is the right classical limit for a long-range gate;
   - whether the program's bimetric branch has Vainshtein screening at all (flag 57).
+- Open from the monopole discussion, not queued:
+  - Paul's ruling on flag 62: whether the shared-photon form reopens the dead monopole explanation;
+  - a mechanism by which one order parameter selects both the position polarization and the electric sublattice
+    (acceptance criterion 1's clause, never attempted);
+  - for the separate-photon form, which coupling of the p-sector is the S-image of ours, elementary or magnetic
+    (F2's finding), and round 2's supersymmetry-exactness burden, which returns with the withdrawal of F2's decision;
+  - for the shared-photon form, p-localization in the field profile and the momentum width that would hide the
+    analogs from detectors, from the Parker bound and from the plasma before recombination, or their binding
+    into magnetically neutral composites. The Parker comparison at general mass is not gated (`knot_numbers.py`
+    left the gate);
+  - the dual coupling's convention, 1/(4α) or 1/α (`review/v3-worklog.md` R2; the formula in #11 §11.2 is flag 28);
+  - whether a transition produced the polarization's point defects and τ-strings, and their fate (#11 §14 item 12).
 
 ## The gate
 

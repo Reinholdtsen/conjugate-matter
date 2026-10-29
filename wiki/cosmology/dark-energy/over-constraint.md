@@ -84,7 +84,7 @@ Flag 46 states the consequence: Ω_k can be measured, so "the over-constraint mo
 
 - **v0.1 (#1 §7 item 4; §10).** The count is stated [D] and tabulated.
 - **v1 (#9 §8; §11).** The count with its premise, "V₀ fixed by Ω_DE", and the over-constraint among the progressive signs.
-- **#11 (§10; §15).** Unchanged in every version from v2.0 to v2.2.
+- **#11 (§10; §15).** Unchanged in every version from v2.0 to v2.3.
 - **The closed-universe note (2026-10-27, §2).** In a closed universe Ω_k is a third input, and the data bound t_turn only from below (flag 46). Not reviewed.
 
 ## Sources

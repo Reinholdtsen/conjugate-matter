@@ -15,6 +15,8 @@ sources:
   - "review/round3-preregistration.md"
   - "review/round3-adjudication.md 'Decisions'"
   - "review/wiki-build-flags.md item 35"
+  - "review/wiki-build-flags.md item 60"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
 ---
 
 *Review rounds 1 and 2 were the program's first two blind reviews, both of #14, the standalone manuscript proposing [superheavy hidden-sector solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) as dark matter. Both ran through the [skeptic review console](/wiki/method/review/skeptic-console): a fresh referee with web search and no code execution. Round 1 graded version 1 B, flawed but salvageable, with medium confidence, and every valid finding was folded into version 2; round 2 graded version 2 "B near B/C" and called the derivation of the hidden coupling numerology. Round 2's findings became the pending list R1–R7, from which version 3 was cut for [round 3](/wiki/method/review/round-3). The rounds are known only from the handoff's summary: the referees' reports and the full adjudications were never brought into the repository.*
@@ -58,7 +60,7 @@ The manuscript was #14, the proposal that dark matter consists of superheavy [to
 
 ## Round 2: #14 v2
 
-**Verdict:** "**B near B/C / medium**". **Weakest link:** "the α_d derivation ("matrix coincidence ≠ physical identity" / "numerology")", that is, v2's claim that [the reciprocity map, acting as the modular S transformation](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-reciprocity-acting-as-modular-s), fixes the hidden coupling to 1/(4α).
+**Verdict:** "**B near B/C / medium**". **Weakest link:** "the α_d derivation ("matrix coincidence ≠ physical identity" / "numerology")", that is, v2's claim that [the reciprocity map, acting as the modular S transformation](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#conjecture-reciprocity-acting-as-modular-s), fixes the hidden coupling to 1/(4α). The objection still stands. v2 had made that S-dual identification of the momentum-polarized sector its load-bearing conjecture, "load-bearing for alpha_d" (#14 v2 §6, embedded in `review/skeptic-review-console.html`), and #11 v2.3 §11.4 records it as related to P.R.'s [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification), whose separate-photon form is #14 v2's. §11.4 lists the objection as open in either form of the conjecture: "the round-2 objection that a shared matrix is not a shared physics ("matrix coincidence ≠ physical identity"), since [[0,1],[−1,0]] is the canonical form of any two-dimensional symplectic pairing [T]".
 
 **Valid findings**, "**PENDING for v3 of #14**" (capitals in the original). The worklog for v3 numbered them R1–R7 and settled each before v3 was drafted (`review/v3-worklog.md`, 'Round-2 pending list'):
 
@@ -79,7 +81,7 @@ The manuscript was #14, the proposal that dark matter consists of superheavy [to
 Cutting v3 from the pending list turned up three findings "neither referee raised" (`review/v3-worklog.md`):
 
 - **F1**, the mass window was not "Kibble-only": the [Kibble estimate](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism) fixes a single mass, and at the 10¹⁶ GeV benchmark the observed density needs [entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t) of 1.3×10¹⁰. The benchmark moved to 3×10¹³ GeV ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
-- **F2**, v2 used the weak value of the coupling that sets the soliton mass in one section and the strong value in others; v3 reframed the coupling hypothesis ([F2, superseded](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass)).
+- **F2**, v2 used the weak value of the coupling that sets the soliton mass in one section and the strong value in others; v3 reframed the coupling hypothesis ([F2, superseded](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass)). On 2026-10-29 Paul withdrew his decision to adopt that reading, under which "S-duality is no longer what fixes α_d", as "probably confusion on my part" (flag 60 in `review/wiki-build-flags.md`). F2's finding stands. In the separate-photon form of his magnetic-mirror conjecture [O], #14 v2's form (#11 v2.3 §11.4), which coupling of the p-polarized sector is the S-image of ours, the elementary one or the magnetic one, is open, and F2's finding is that the choice decides whether the sector's solitons are heavy. With the decision withdrawn, round 2's supersymmetry-exactness burden (R1 above), which the worklog had expected to shrink if F2 were adopted, returns, and §11.4 lists it among the conjecture's open items. #14 stays withdrawn.
 - **L1**, from the literature: with a massless dark photon, mixing gives the hidden monopoles no ordinary magnetic flux, so v2's mixing premise was wrong for its own setup.
 
 v3 was drafted on 2026-10-19, with every number it quoted gated in a script. It was reviewed in [round 3](/wiki/method/review/round-3), the first round whose referee could execute code, and "failed blind review with **verdict C**" on a [wrong Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization). It was withdrawn, and the soliton candidate was retired as a program-native proposal ([obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary); [the graveyard](/wiki/status/graveyard)).
@@ -103,7 +105,8 @@ v3 was drafted on 2026-10-19, with every number it quoted gated in a script. It 
 - `HANDOFF.md` §3, §4 — the referee-report files Paul holds; v2 incorporating round 1; the chat-only adjudications
 - `HANDOFF.md` §8 — the toy Lagrangian as the gate to verdict A
 - `HANDOFF.md` §1 — the unreconciled "Three blind AI reviews"
-- `review/skeptic-review-console.html` — the referee set-up and #14 v2 as embedded
+- `review/skeptic-review-console.html` — the referee set-up and #14 v2 as embedded, its §6 calling the S-dual identification "load-bearing for alpha_d"
 - `review/round3-preregistration.md` — "scored 2 for 2 on verdicts"
 - `review/round3-adjudication.md` 'Decisions' (4) — the referees' convergence on "the framework does no work"
-- `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, awaiting a ruling
+- `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record, awaiting a ruling; item 60 — the withdrawal of the F2 decision, accepted on 2026-10-29
+- `papers/broken-born-checkpoint-v2.md` §11.4 — the magnetic-mirror conjecture [O] and #14 v2's related identification, the withdrawal of the F2 decision and the finding that stands, and round 2's objection and supersymmetry burden kept open

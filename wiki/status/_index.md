@@ -6,7 +6,7 @@ description: "The registers of where each of the program's claims stands — dea
 bookCollapseSection: true
 ---
 
-*The status section holds the registers that record where each of the Comatter program's claims stands: dead, standing, open, conjectural, or replaced by a corrected version. Each register is a list of links, one entry per claim, saying where the claim stands and on what grounds, so the state of the whole program can be read without opening the topic pages. A claim's status is taken from the most current source in a fixed order of precedence, and a claim once recorded as dead is not revived.*
+*The status section holds the registers that record where each of the Comatter program's claims stands: dead, standing, open, conjectural, or replaced by a corrected version. Each register is a list of links, one entry per claim, saying where the claim stands and on what grounds, so the state of the whole program can be read without opening the topic pages. A claim's status is taken from the most current source in a fixed order of precedence, and a claim that the record has killed is not revived.*
 
 **Registers only:** every page in this section is a register with status record, so the section makes no claims of its own. The five registers are [the graveyard](/wiki/status/graveyard), [claims that stand](/wiki/status/alive), [open problems and the queue](/wiki/status/open-problems), [conjectures](/wiki/status/conjectures) and [superseded statements](/wiki/status/superseded).
 
@@ -17,7 +17,7 @@ The registers run from the dead claims to the superseded ones.
 - [The graveyard: dead claims](/wiki/status/graveyard) comes first, following the root `CLAUDE.md` rule that negative results are reported prominently ([negative results and dead claims](/wiki/method/negative-results)). It gives every obituary page with what was claimed, what killed it and the ruling or decision that settled it, then the dead items told inside other pages and the predictions withdrawn from the program's table.
 - [Claims that stand](/wiki/status/alive) lists every program claim with status alive, in tables grouped by section, each line giving the claim's tags and what verifies it: a script in the gate, a review round, or the derivation, postulate or citation alone. It marks the claims under pressure, chiefly the dark-energy sector.
 - [Open problems and the queue](/wiki/status/open-problems) gives the open items of #11 §14 in order, the open questions raised outside that list, the open ends of the toy models, and the current work queue.
-- [Conjectures: chat-only and popsci-only claims](/wiki/status/conjectures) keeps apart the results that exist only in the original claude.ai conversation and the claims found only in the two popular articles, each with its relation to the record, and P.R.'s long-range velocity-gated attraction among χ, a conjecture outside the record that a note of 2026-10-28 tested and found decorative at the program's gate width.
+- [Conjectures: chat-only and popsci-only claims](/wiki/status/conjectures) keeps apart the results that exist only in the original claude.ai conversation and the claims found only in the two popular articles, each with its relation to the record, and P.R.'s long-range velocity-gated attraction among χ, a conjecture outside the record that a note of 2026-10-28 tested and found decorative at the program's gate width. It also lists the conjectures that the record itself states, among them P.R.'s [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification) (#11 §11.4), whose shared-photon form, the popular article #12's reading, the graveyard held as an obituary until flag 60 reversed it on 2026-10-29, and #14 v2's reciprocity acting as modular S, part of the conjecture's separate-photon form, which the superseded register held until the same day.
 - [Superseded statements](/wiki/status/superseded) pairs each statement the program replaced, such as the original P2 and the exponential cliff, with its replacement and with where the replacement is recorded.
 
 ## How a status is decided
@@ -27,7 +27,7 @@ The registers run from the dead claims to the superseded ones.
 - **Folded items.** A page sometimes holds a minor item of another status, such as an open sub-question on an established page or a superseded earlier form of an alive claim, in a section of its own headed "Open:", "Superseded:", "Chat-only:", "Popsci-only:" or "Conjecture:". The registers link those sections directly. The graveyard lists the dead items told inside other pages in the same way.
 - **Precedence, most current first** (`wiki/CLAUDE.md`):
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. checkpoint #11 v2.2 (`papers/broken-born-checkpoint-v2.md`), the toy-model note v2 (`papers/reciprocity-toy-models.md`) and the phase-space-diameter note v1.1 (`papers/phase-space-diameter.md`);
+  2. checkpoint #11 v2.3 (`papers/broken-born-checkpoint-v2.md`), the toy-model note v2 (`papers/reciprocity-toy-models.md`) and the phase-space-diameter note v1.1 (`papers/phase-space-diameter.md`);
   3. the review adjudications (`review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`);
   4. #13 (`papers/conjugate-special-relativity.md`);
   5. `HANDOFF.md`, whose §2 soliton candidate and §8 queue are superseded;

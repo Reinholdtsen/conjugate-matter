@@ -7,8 +7,10 @@ provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.2"
   - "papers/broken-born-checkpoint-v2.md §11.3"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md ref [17]"
+  - "review/wiki-build-flags.md flag 28"
   - "notes/knot-dark-matter-standalone.md §2"
   - "notes/knot-dark-matter-standalone.md ref [7]"
   - "review/round3-adjudication.md 'Rulings' 12"
@@ -143,13 +145,14 @@ Added by the wiki from model memory (†):
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the doublet added to the sector fixes the charge that Dirac quantization is applied against.
 - [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — the strong mutual coupling α_m = 1/α_W′ of the candidate's monopoles.
 - [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — through Dirac's condition, electric–magnetic duality exchanges weak and strong coupling.
-- [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — #12's coupling "about 34" fixed against our electric charge.
+- [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification) — in its shared-photon form, Dirac's condition would make the analogs' existence quantize our electric charge (#11 §11.4); "the dual coupling's factor-of-4 convention spread, 1/(4α) or 1/α" is among what stays open in either form (§11.4; the formula printed beside 34 in §11.2 is flag 28).
 - [Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure) — the DSZ pairing as the charge-space side of the conjecture.
 - [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — a magnetic charge inversely proportional to the electric one.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.2, §11.3, §12, ref [17] — Dirac's condition and the figure for our electromagnetism, the pairing and mutual locality, the surviving weak-to-strong result, and the citation (†).
+- `papers/broken-born-checkpoint-v2.md` §11.2, §11.3, §12, ref [17] — Dirac's condition and the figure for our electromagnetism, the pairing and mutual locality, the surviving weak-to-strong result, and the citation (†); §11.4 — charge quantization in the shared-photon form of the magnetic-mirror conjecture, and the convention spread among what stays open [O].
+- `review/wiki-build-flags.md` flag 28 — the expression 4π/e² beside e·g ~ 2π, and the dual coupling's convention.
 - `review/round3-adjudication.md` 'Rulings' 12 — the normalization and the uncited Schwinger, accepted as minor.
 - `review/round3/referee/audit-notes.md` Step 1, Step 4(a) — the 2π-versus-4π normalization, "interpretation", and the Dirac-monopole case of Preskill.
 - `review/round3/referee/step2a.out` 'COUPLINGS' — α_m = 34.259, the W′-charge variant 137.036, and the product check.

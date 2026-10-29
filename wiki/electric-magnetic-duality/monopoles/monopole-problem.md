@@ -2,10 +2,16 @@
 title: "The monopole problem"
 weight: 40
 status: established
-description: "Superheavy monopoles from the early universe would be unacceptably abundant (Preskill); annihilation cannot lower n/T³ below about 10⁻¹⁰ at 10¹⁶ GeV, and inflation dilutes them — why our sector's null result needs no new explanation, and the hidden-sector version that bounds topological dark matter."
+description: "Superheavy monopoles from the early universe would be unacceptably abundant (Preskill); annihilation cannot lower n/T³ below about 10⁻¹⁰ at 10¹⁶ GeV, and inflation dilutes them — one of several standard histories under which our sector's null result is expected, and the hidden-sector version that bounds topological dark matter."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.1"
+  - "review/wiki-build-flags.md flag 59"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
+  - "notes/closed-universe.md §8"
+  - "notes/closed-universe.md §9"
+  - "review/wiki-build-flags.md flag 61"
+  - "verify/closed_universe.py section F"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md refs [28]–[29]"
   - "notes/knot-dark-matter-standalone.md §3"
@@ -23,9 +29,9 @@ sources:
   - "HANDOFF.md §6"
 ---
 
-*The monopole problem, in the form the program cites (John Preskill, 1979), is the finding that the hot early universe should have produced superheavy [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) in unacceptably large numbers, while none has ever been detected. Every grand unified theory contains such monopoles, the cooling universe makes at least about one per horizon volume when the unified symmetry breaks, and monopoles and antimonopoles annihilate one another too slowly to remove enough of them. The standard resolution is [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), a period of rapid expansion after the monopoles form that dilutes them to an unobservable density. The program meets the problem twice: inflation is one of the two reasons its founding claim that [conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) is dead, and [round 3](/wiki/method/review/round-3) ruled that the strong-coupling annihilation question of its [retired soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) is Preskill's calculation, already done for hidden sectors.*
+*The monopole problem, in the form the program cites (John Preskill, 1979), is the finding that the hot early universe should have produced superheavy [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles) in unacceptably large numbers, while none has ever been detected. Every grand unified theory contains such monopoles, the cooling universe makes at least about one per horizon volume when the unified symmetry breaks, and monopoles and antimonopoles annihilate one another too slowly to remove enough of them. The standard resolution is [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), a period of rapid expansion after the monopoles form that dilutes them to an unobservable density, though inflation is not an observed epoch; and if the forces were never unified, there are no such monopoles to dilute. The program meets the problem twice. One of the two reasons its founding claim that [conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) is dead is that the null result is expected under several standard histories, inflation among them; and [round 3](/wiki/method/review/round-3) ruled that the strong-coupling annihilation question of its [retired soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) is Preskill's calculation, already done for hidden sectors.*
 
-**Status:** Established — [T] — literature. Preskill 1979 is reference [19] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate), cited without a tag; the worklog reports its key figure as "verified from the scan", and [the round-3 audit](/wiki/method/review/round-3/rulings) checked the abstract. The [checkpoint](/wiki/history/documents/checkpoint) uses inflationary dilution as established physics [T] (#11 §11.1), and its hidden-sector bound is live-searched literature [29S]. The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
+**Status:** Established — [T] — literature. Preskill 1979 is reference [19] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate), cited without a tag; the worklog reports its key figure as "verified from the scan", and [the round-3 audit](/wiki/method/review/round-3/rulings) checked the abstract. The [checkpoint](/wiki/history/documents/checkpoint) uses inflationary dilution as established physics [T], since v2.3 as one of the standard histories #11 §11.1 names, and its hidden-sector bound is live-searched literature [29S]. The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
 ## Too many monopoles [T]
 
@@ -51,7 +57,7 @@ Preskill's calculation put that level far too high to help. The v3 worklog's rea
 
 Inflation, a period of accelerated expansion in the very early universe, removes the problem if it happens after the monopoles form. The monopole number density falls as the cube of the expansion factor, so a sufficiently long inflation leaves of order one monopole or none in the observable universe. After inflation the universe reheats, and the monopoles stay diluted only if the reheating temperature is too low to make them again, below the transition temperature T_c. The monopole problem was one of the motivations for inflation (Guth, 1981†). See [inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution).
 
-With inflation the expected monopole flux today is negligible, consistent with searches that have found none ([the monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches)). #11 §11.1 states it for our sector: "inflationary dilution already accounts for absence [T]".
+With inflation the expected monopole flux today is negligible, consistent with searches that have found none ([the monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches)). #11 v2.2 stated it for our sector as "inflationary dilution already accounts for absence [T]" (§11.1). Since v2.3, §11.1 gives "inflation after a unification transition" as one of several standard histories under which the null result is expected, and adds: "Inflation is the standard account, not an observed epoch".
 
 The same condition, read the other way, is a requirement on any scenario in which monopoles survive as a relic: the transition must come after inflation, below the reheating temperature, or the monopoles are diluted away. #14 §3 required exactly that for its hidden sector: "Inflation must precede the hidden transition, and v must lie below the reheating temperature."
 
@@ -68,7 +74,11 @@ A hidden gauge sector with its own symmetry breaking and its own plasma has the 
 
 ### The absence of our sector's monopoles
 
-The program began with the supposition that monopoles live in conjugate space, which would explain why none of ours are seen ([founding suppositions and their fates](/wiki/program/founding-suppositions)). #11 §11.1 killed that explanation on two grounds: "As an explanation of the null result: dead — the relevant duality is electric–magnetic (E↔B, g → 1/g), not x↔p, and inflationary dilution already accounts for absence [T]." The second ground is this page's physics: since inflation already removes our sector's monopoles, their absence needs no further explanation ([Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)). The program still predicts a permanent null for monopoles of our sector ([row 8](/wiki/predictions/monopole-null)).
+The program began with the supposition that monopoles live in conjugate space, which would explain why none of ours are seen ([founding suppositions and their fates](/wiki/program/founding-suppositions)). #11 §11.1 killed that explanation on two grounds, which v2.3 (2026-10-29) restated on Paul's ruling on flag 59. The first is that the relevant duality is electric–magnetic, not x↔p: "only the shared-photon form of §11.4 contests this ground [O], and that form needs P4 restated". The second:
+
+> And the null result is expected under several standard histories, so it lends the program no support: inflation after a unification transition dilutes monopoles [T], and without grand unification there are none to dilute, since the Standard Model has no topologically stable monopoles [T]; flag 59 lists further histories (†). Inflation is the standard account, not an observed epoch (v2.3; flag 59).
+
+This page's physics is the first of those histories. The second rests on the electroweak theory having no topologically stable monopoles ([why such a monopole is stable](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole#why-it-is-stable-winding-t)). The strong magnetic coupling of #11 §11.2, which keeps the magnetic mirror-family "heavy and bound" ([why the mirror is not seen](/wiki/electric-magnetic-duality/magnetic-mirror-family#why-the-mirror-is-not-seen)), is not such a history: Preskill's analysis already concerns strongly coupled Dirac monopoles, whose annihilation is inefficient (flag 59; [above](#annihilation-is-not-enough-t)). In v2.2 the second ground read "inflationary dilution already accounts for absence [T]": since inflation removes our sector's monopoles, their absence needs no further explanation. Flag 59 found that this showed the explanation to be unnecessary, not false, and that it held only if a unification transition produced monopoles, inflation followed it and reheating stayed below it ([Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)). The program still predicts a permanent null for monopoles of our sector ([row 8](/wiki/predictions/monopole-null)).
 
 ### The soliton candidate's relic question
 
@@ -81,6 +91,10 @@ The retired soliton candidate was a population of hidden-sector monopoles, and t
 - **Dilution as a survival route.** Inflation-style dilution could have saved a superheavy mass, but only as a free parameter. Decision 2 rejected that route: "Route (b) restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction" ([round-3 decisions](/wiki/method/review/round-3/decisions); [inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution)).
 
 The production side of the problem is [the Kibble mechanism](/wiki/electric-magnetic-duality/monopoles/kibble-mechanism), and its observational side is [the monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches).
+
+### The polarization's own point defects
+
+The vacuum's selection of a polarization could itself leave point defects of the monopole type. The polarization manifold Λ(4), the space of position/momentum splittings ([the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian)), has π₁(Λ(4)) = ℤ [T][V] and π₂(Λ(4)) = ℤ₂ [T]. `verify/closed_universe.py` section F checks π₁, and π₂ follows there by exactness from standard inputs, of which the script's check F3 confirms one ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)). Both assume d = 4 and that the U(4) acting on the polarization is global. #11 §14 item 12, added in v2.3: "Selecting the polarization can then leave strings of τ (π₁; they exist on the light Maslov circle too) and, where the order parameter ranges over the whole manifold, point defects of the monopole type (π₂ = 0 on the circle). Whether a transition produced them, and their fate, are open [O]" (flag 61). Whether such a transition happened, what it left, and "whether the point defects would pose a monopole problem of the program's own are not computed" (`notes/closed-universe.md` §9 item 4). The open item, #11's open problem 12, is [Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12).
 
 ## References
 
@@ -96,17 +110,20 @@ Added by the wiki from model memory (†):
 
 ## Used by
 
-- [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — inflation already accounts for the absence of monopoles.
-- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the permanent null for our sector's monopoles, whose absence #11 §11.1 attributes to inflationary dilution.
+- [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — inflation after a unification transition, one of the standard histories under which the null result is expected (#11 §11.1, v2.3).
+- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the permanent null for our sector's monopoles, whose absence #11 §11.1 expects under several standard histories, inflation among them (until v2.3, inflationary dilution alone).
 - [Topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art) — the hidden-sector version, where annihilation sets the abundance below about 100 PeV.
 - [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — the strong-coupling annihilation question that ruling 10 closed.
 - [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution) — the remedy, and the dilution route the program rejected.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — Preskill's annihilation floor at the old benchmark.
 - [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — ruling 10: annihilation at α_m ≈ 34 is Preskill's Dirac case.
+- [Open: point defects of the polarization (open problem 12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12) — whether the polarization's own point defects would pose a monopole problem of the program's own, not computed.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.1, §12, refs [28]–[29] — inflationary dilution [T]; the hidden-sector bound and the established scenario [28S, 29S].
+- `papers/broken-born-checkpoint-v2.md` §11.1, §12, refs [28]–[29] — the standard histories under which the null result is expected, inflation among them [T] (v2.3), and v2.2's "inflationary dilution already accounts for absence"; the hidden-sector bound and the established scenario [28S, 29S].
+- `review/wiki-build-flags.md` flag 59 — the v2.2 ground questioned, strong coupling as no such history, and Paul's ruling; flag 61 — the polarization's point defects.
+- `papers/broken-born-checkpoint-v2.md` §14 item 12 — the polarization's defects, π₁ = ℤ and π₂ = ℤ₂ [T] with the maps behind them gated, at d = 4 with a global U(4); their production and fate open [O]; `notes/closed-universe.md` §8 — the groups and their tags, §9 item 4 — a monopole problem of the program's own, not computed; `verify/closed_universe.py` section F — the checks F2 (π₁) and F3 (an input to π₂).
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1) — the n/T³ floor from Preskill, and the hidden-sector rate to be recomputed.
 - `review/round3-adjudication.md` 'Rulings' 10, 'Decisions' 2 and 3 — strong-coupling annihilation is Preskill's Dirac case; the rejected dilution route; the dropped √N floor.
 - `review/round3/referee/audit-notes.md` Step 1, Step 4(a), Step 4(c) — the abstract check; the Dirac-monopole identification and the Kibble-minimum yield; Murayama–Shu and Liveoak–Maharana–Wells.

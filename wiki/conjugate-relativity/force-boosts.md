@@ -18,7 +18,7 @@ sources:
 
 *A force boost is the momentum-space counterpart of a [Lorentz boost](/wiki/conjugate-relativity/special-relativity): where Einstein's boost relates observers moving at constant velocity, the force boost of [#13](/wiki/conjugate-relativity) relates an observer under no force to one under a constant force, with the [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in the role of the speed of light. The same algebra then gives forces that combine like relativistic velocities, so that no composition of forces passes c̃, and observers under different forces who disagree about which events are simultaneous when the events differ in momentum. At what #13 calls the strongest sustained macroscopic force in nature, on a kilogram at a neutron-star surface, the correction is of order 10⁻⁶⁵, which #13 gives as the reason force looks exactly additive; only merging black holes approach the limit. The results are alive but unreviewed: #13 tags them as derived, but no review round or script has checked them, the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them, and no observable signature in merger data has been derived.*
 
-**Status:** Alive, unreviewed — the dual Lorentz group [D — structural], the composition law [D], force boosts and γ̃ on §7's fixed [D] list, simultaneity untagged, the merger arena [O — flagged, not derived] — all as #13 tags them; no [blind review](/wiki/method/review) round has examined #13, no `verify/` script checks the formulas or the 10⁻⁶⁵ estimate ([the iron rule](/wiki/method/verification/iron-rule)), and #11 v2.2 does not mention them.
+**Status:** Alive, unreviewed — the dual Lorentz group [D — structural], the composition law [D], force boosts and γ̃ on §7's fixed [D] list, simultaneity untagged, the merger arena [O — flagged, not derived] — all as #13 tags them; no [blind review](/wiki/method/review) round has examined #13, no `verify/` script checks the formulas or the 10⁻⁶⁵ estimate ([the iron rule](/wiki/method/verification/iron-rule)), and #11 v2.3 does not mention them.
 
 ## The dual interval and the dual Lorentz group
 
@@ -103,7 +103,7 @@ The tag says what is and is not claimed: the arena is flagged, and no correction
 
 ## Standing
 
-#13 tags the dual Lorentz group and the composition law as derived and lists the force boosts among its fixed results. Each is a transcription of special relativity under x → p, v → F, c → c̃, stated without further steps. No blind review round has examined #13, no `verify/` script checks its formulas or its numbers, and #11 v2.2 mentions neither force boosts nor the maximum force. `HANDOFF.md` §2 lists "force boosts" under dual special relativity among the alive results, without a machine-check mark. The results are alive and unreviewed ([Conjugate special relativity](/wiki/conjugate-relativity)).
+#13 tags the dual Lorentz group and the composition law as derived and lists the force boosts among its fixed results. Each is a transcription of special relativity under x → p, v → F, c → c̃, stated without further steps. No blind review round has examined #13, no `verify/` script checks its formulas or its numbers, and #11 v2.3 mentions neither force boosts nor the maximum force. `HANDOFF.md` §2 lists "force boosts" under dual special relativity among the alive results, without a machine-check mark. The results are alive and unreviewed ([Conjugate special relativity](/wiki/conjugate-relativity)).
 
 ## Sources
 

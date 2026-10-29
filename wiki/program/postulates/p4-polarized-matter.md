@@ -8,6 +8,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §11.1"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §13 row 7"
   - "papers/broken-born-checkpoint-v2.md §14"
@@ -33,9 +34,10 @@ sources:
   - "review/wiki-build-flags.md item 55"
   - "notes/gate-mechanism.md §2"
   - "notes/gate-mechanism.md §3"
+  - "review/wiki-build-flags.md item 60"
 ---
 
-*P4 is the program's axiom about matter. Ordinary matter, the Standard Model, is x-polarized: its fields are organized around position, the variable in which its interactions are local. A second kind, conjugate matter χ, is p-polarized, organized around momentum. Both kinds respond to the same gravity, so the [equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle) holds across them, but no gauge force (the electromagnetic, weak or strong interaction) acts between them. Since [checkpoint](/wiki/history/documents/checkpoint) v2.1 the program reads the last clause strictly: the only mixing allowed between the two sectors is what gravity itself induces, which is zero or extremely small. P4 is the basis of the program's prediction that dark-matter direct-detection experiments will see nothing, and in the toy models it is also what gives the vacuum's choice of polarization a physical effect.*
+*P4 is the program's axiom about matter. Ordinary matter, the Standard Model, is x-polarized: its fields are organized around position, the variable in which its interactions are local. A second kind, conjugate matter χ, is p-polarized, organized around momentum. Both kinds respond to the same gravity, so the [equivalence principle](/wiki/gravity/spin-2-fields/equivalence-principle) holds across them, but no gauge force (the electromagnetic, weak or strong interaction) acts between them. Since [checkpoint](/wiki/history/documents/checkpoint) v2.1 the program reads the last clause strictly: the only mixing allowed between the two sectors is what gravity itself induces, which is zero or extremely small. P4 is the basis of the program's prediction that dark-matter direct-detection experiments will see nothing, and in the toy models it is also what gives the vacuum's choice of polarization a physical effect. One form of P.R.'s open [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification), in which the momentum sector carries magnetic charge of our own photon, would need P4 restated.*
 
 **Status:** Alive — [P]; the gravity-only bound it quotes is from the literature [27S] — the strict reading is in force by decision (round-3 Decision 1, 2026-10-19), not by derivation.
 
@@ -112,7 +114,7 @@ The three channels belonged to #14's hidden sector. ψ was its light hidden-char
 
 - **A permanent null.** Row 7 of #11 §13 predicts a "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)" in direct-detection and collider searches, where SM-decoupled means decoupled from the Standard Model. It is killed by "Any confirmed non-gravitational DM–SM coupling", DM being dark matter ([row 7](/wiki/predictions/direct-detection-null)).
 - **The gate and the equivalence principle**, as above: χ falls and lenses like ordinary matter, and its self-interaction runs through X exchange (not derived, according to flag 55 in `review/wiki-build-flags.md`, pending Paul's ruling; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
-- **What strict P4 excludes in the popular article.** The popular article #12 calls the momentum-polarized sector "the magnetic side of electromagnetism", dark because [Dirac's condition](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) makes its coupling strong, and argues that such a sector would be transparent to light (#12, 'Dark matter as the other polarization'). Neither is a program claim. The magnetic identification conflicts with strict P4 and row 7 and is treated as dead ([its obituary](/wiki/electric-magnetic-duality/magnetic-identification)); the transparency argument is quarantined as popsci-only ([the popular articles](/wiki/history/documents/popular-articles)).
+- **P4 and the magnetic-mirror conjecture.** P.R.'s magnetic-mirror conjecture, open in #11 v2.3 §11.4 [O], gives each electrically charged x-polarized particle "a magnetically charged p-polarized analog". In its separate-photon form, #14 v2's, the analogs are magnetic under the p-polarized sector's own gauge field, and the form "is consistent with P4". In its shared-photon form, the popular article #12's reading, the momentum-polarized sector is "the magnetic side of electromagnetism" (#12, 'Dark matter as the other polarization'): the analogs carry magnetic charge of our photon, so one gauge field would act in both sectors. Of that form #11 §11.4 says: "P4 as written excludes this form ("gauge forces do not cross polarizations", in the program since #1), so it needs P4 restated." The no-crossing clause dates from the lab notebook's version 0.1, "Gauge interactions do not connect the two representations" (#1 §1); round-3 Decision 1 added the strict reading; both are postulates [P] (flag 60 in `review/wiki-build-flags.md`). The shared-photon form would also conflict with row 7's permanent null if the analogs were localized in position, which has not been analyzed ([the shared-photon form](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). Until 2026-10-29 the wiki treated #12's identification as dead for these conflicts; flag 60 reversed that reading on Paul's ruling. #12's further argument, that such a sector would be transparent to light, remains popsci-only ([the transparency argument](/wiki/electric-magnetic-duality/magnetic-identification#popsci-only-the-transparency-argument); [the popular articles](/wiki/history/documents/popular-articles)).
 
 ## P4 in the toy models: what makes the breaking physical
 
@@ -142,7 +144,7 @@ See [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-local
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §4 — the statement and its strict reading; §8 — χ on g; §11.1 — conjugate solitons gravitate by P4; §12 — χ as a candidate; §13 row 7 — the permanent null; §14 — the open problems, with forced locality in item 11 and no kinetic-mixing item
+- `papers/broken-born-checkpoint-v2.md` §4 — the statement and its strict reading; §8 — χ on g; §11.1 — conjugate solitons gravitate by P4; §11.4 — the magnetic-mirror conjecture [O], whose shared-photon form P4 as written excludes; §12 — χ as a candidate; §13 row 7 — the permanent null; §14 — the open problems, with forced locality in item 11 and no kinetic-mixing item
 - `CLAUDE.md` 'Since the handoff' — strict separation in force; the strong form of matter locality as an open end
 - `review/round3-adjudication.md` 'Decisions' 1 — why strict separation was adopted; 'Rulings' 7, 9 — the dimension-5 coefficient and the Witten-effect charge
 - `review/round3/referee/audit-notes.md` Step 1 — the referee's quotations of Gherghetta et al. and its reading of the bound
@@ -155,4 +157,5 @@ See [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-local
 - `papers/reciprocity-toy-models.md` §5 and `review/round4-adjudication.md` 'Rulings' F3 — P4-type coupling as what makes the breaking physical; F5 — the coupling needs H; toy note §6 — what is not shown; `verify/toy_s5.py` part C — the gated check
 - `notes/toy-lagrangian.md` 'Chunk 4 (in progress, 2026-10-19): S5' — the P4 lock
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the magnetic identification and the transparency argument (popular article; not a status source)
+- `review/wiki-build-flags.md` item 60 — the history of P4's no-crossing clause and its strict reading, the shared-photon form's conflicts, and the reversal of the wiki's obituary; accepted on 2026-10-29
 - `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` item 55 — exchanging #11 §7's X cannot produce the gate; the proposed tags [P] for the gate and μ, [O] for the mechanism; awaiting Paul's ruling

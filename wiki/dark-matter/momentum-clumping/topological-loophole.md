@@ -2,10 +2,12 @@
 title: "Open: the topological loophole"
 weight: 100
 status: open
-description: "Single topological objects might still localize in momentum; the logical loophole is untested and, since the soliton candidate's retirement, has no candidate."
+description: "Single topological objects might still localize in momentum; the logical loophole is untested and, since the soliton candidate's retirement, has no candidate; since v2.3 the shared-photon form of P.R.'s magnetic-mirror conjecture needs p-localization again."
 sources:
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14 item 8"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
+  - "review/wiki-build-flags.md item 60"
   - "papers/broken-born-checkpoint-v2.md App. A item 3"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "CLAUDE.md 'Since the handoff'"
@@ -15,9 +17,9 @@ sources:
   - "verify/soliton_obituary.py"
 ---
 
-*The topological loophole is the route that [the clumping problem](/wiki/history/main-problems) leaves open for localization in momentum space: not a collective clumping of many particles, which [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) rules out as a requirement, but a single object, such as a [topological soliton](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), whose own structure would localize it in momentum. The clumping problem's calculations cover collective dynamics only, so they do not test this case. The candidate that occupied the loophole, [superheavy solitons of a hidden gauge sector](/wiki/dark-matter/candidates/soliton-candidate), was retired on 2026-10-19 after failing review on its abundance arithmetic, so the loophole is logically open but has no candidate. [The checkpoint](/wiki/history/documents/checkpoint) does not say consistently whether it remains a work item.*
+*The topological loophole is the route that [the clumping problem](/wiki/history/main-problems) leaves open for localization in momentum space: not a collective clumping of many particles, which [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) rules out as a requirement, but a single object, such as a [topological soliton](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), whose own structure would localize it in momentum. The clumping problem's calculations cover collective dynamics only, so they do not test this case. The candidate that occupied the loophole, [superheavy solitons of a hidden gauge sector](/wiki/dark-matter/candidates/soliton-candidate), was retired on 2026-10-19 after failing review on its abundance arithmetic, so the loophole is logically open but has no candidate. [The checkpoint](/wiki/history/documents/checkpoint) does not say consistently whether it remains a work item. Since the checkpoint's version 2.3, one form of P.R.'s [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon) needs localization in momentum again: the form in which magnetically charged partners of our charged particles carry magnetic charge of our own photon.*
 
-**Status:** Open — untested, without a candidate, and with no tag in the sources. #11 §12 says it "remains untested, but has no candidate"; #11 §14 item 8 says the "p-localization items are closed by the §12 obituary". The checkpoint does not reconcile the two. Listed among [open problems](/wiki/status/open-problems); it qualifies the death of [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image).
+**Status:** Open — untested and without a candidate; the sources tag it only through #11 §11.4's quotation of v2.0, "p-local solitons are p-localized" [O]. #11 §12 says it "remains untested, but has no candidate"; #11 §14 item 8 records that "v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; §11.4's shared-photon form needs p-localization again" (v2.3). The checkpoint does not reconcile the two. Listed among [open problems](/wiki/status/open-problems); it qualifies the death of [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image).
 
 ## The statement
 
@@ -46,13 +48,16 @@ The retirement removed the loophole's only occupant. It did not test the loophol
 The checkpoint describes the loophole in two ways:
 
 - #11 §12: "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate."
-- #11 §14 item 8, on the charge-lattice open problem, ends: "(The soliton-spectrum and p-localization items are closed by the §12 obituary.)"
+- #11 §14 item 8, on the charge-lattice open problem, reads in v2.3: "8. Charge-lattice polarization: formalize §11.3's unification, and test P.R.'s magnetic-mirror conjecture (§11.4) [O]. (v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; §11.4's shared-photon form needs p-localization again.)" In v2.1 and v2.2 it ended: "(The soliton-spectrum and p-localization items are closed by the §12 obituary.)"
 
-#11 does not reconcile them. Read together, they say that the logical loophole is untested and that there is no candidate and no work item for it. That reading follows the conflict register's ruling ([conflicts between sources](/wiki/history/documents/source-conflicts)); this page does not decide whether the loophole is still a live question. No current queue item addresses it: the root `CLAUDE.md`'s queue lists [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), [the † literature battery](/wiki/method/literature-battery) and an optional round-6 review of [the toy-model note](/wiki/symmetry-breaking/toy-models).
+#11 does not reconcile them. Read together on the v2.1 wording, they said that the logical loophole is untested and that there is no candidate and no work item for it. That reading follows the conflict register's ruling ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+
+v2.3 keeps §12's wording and ties p-localization to the shared-photon form of P.R.'s magnetic-mirror conjecture, in which the momentum-polarized analogs of our electrically charged particles carry magnetic charge of our photon ([shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). #11 §11.4: "Localized in position at dark-matter density, such objects would exceed the Parker bound at #14's benchmark masses (#14 v2 and v3 §4; not gated). Something must therefore hide them, and neither option has been computed: p-localization, open since v2.0 ("p-local solitons are p-localized" [O]), with the spread in the objects' field profile rather than their quantum state, wider than detectors and than the coherence length of galactic magnetic fields, and decoupled from the photon–baryon plasma before recombination (†); or binding into magnetically neutral composites ("heavy and bound", §11.2)." The Parker bound caps the flux of free magnetic charges by the survival of the Galaxy's magnetic field [T] ([monopole flux bounds](/wiki/electric-magnetic-duality/monopoles/monopole-searches)). This page does not decide whether the loophole is still a live question. No current queue item addresses it: the root `CLAUDE.md`'s queue lists [the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison), [the † literature battery](/wiki/method/literature-battery) and an optional round-6 review of [the toy-model note](/wiki/symmetry-breaking/toy-models).
 
 ## What remains open
 
 - **Whether any program-native object is localized in momentum by topology.** No candidate exists, and no calculation has been made.
+- **p-localization for the shared-photon form.** That form of the magnetic-mirror conjecture needs its analogs hidden, by p-localization, with the spread in the objects' field profile rather than their quantum state, or by binding into magnetically neutral composites; neither option has been computed (#11 §11.4; [what it needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 - **The other dark-sector candidates.** The two remaining candidates, χ particles and [the X-condensate](/wiki/dark-matter/candidates/x-condensate), are not topological objects, and the sources do not connect either one to the loophole.
 
 ## History
@@ -60,10 +65,12 @@ The checkpoint describes the loophole in two ways:
 - **#9.** The first consolidation states the clumping problem's three results without mentioning a loophole (`notes/broken-born-program-v1.md` §7).
 - **v2.0 and [the handoff](/wiki/history/documents/handoff).** The soliton candidate was added, and v2.0 also claimed that it slips through the loophole. The handoff, written while the candidate was alive, lists among the dead: "Loophole: *topological* p-localization of individual solitons untouched." (`HANDOFF.md` §2).
 - **v2.1, 2026-10-19.** The candidate was retired after round 3, and #11 §12 and App. A took their present wording: untested, no candidate. #11 outranks the handoff, so "untouched" is superseded by "untested, but has no candidate".
+- **v2.3, 2026-10-29.** §14 item 8's parenthetical became "v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; §11.4's shared-photon form needs p-localization again", when #11 recorded P.R.'s magnetic-mirror conjecture on Paul's ruling on flag 60 (`review/wiki-build-flags.md`). §12 and App. A item 3 are unchanged.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §12 — the candidate's use of the loophole, its retirement and the current wording; §14 item 8 — "closed by the §12 obituary"; App. A item 3 — the loophole in the founding-supposition audit; §9 — the opening passage
+- `papers/broken-born-checkpoint-v2.md` §12 — the candidate's use of the loophole, its retirement and the current wording; §14 item 8 — "closed" in v2.1, and p-localization needed again by §11.4's shared-photon form (v2.3); §11.4 — the shared-photon form, the Parker bound and p-localization "open since v2.0" [O]; App. A item 3 — the loophole in the founding-supposition audit; §9 — the opening passage
+- `review/wiki-build-flags.md` item 60 — the ruling behind §11.4
 - `CLAUDE.md` 'Since the handoff' — the soliton candidate dead as a program-native proposal; the current queue
 - `review/round3-adjudication.md` 'Decisions' — the retirement and the clumping precedent
 - `HANDOFF.md` §2 — the earlier "untouched"

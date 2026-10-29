@@ -2,7 +2,7 @@
 title: "Provenance tags and citation marks"
 weight: 30
 status: method
-description: "[D] derived, [T] literature, [P] postulate, [O] open, [V] machine-verified; † recalled from memory and [S] live-searched; how they combine, how a tag changes, the variants in other documents, and how the system grew from v0.1 to v2.2."
+description: "[D] derived, [T] literature, [P] postulate, [O] open, [V] machine-verified; † recalled from memory and [S] live-searched; how they combine, how a tag changes, the variants in other documents, and how the system grew from v0.1 to v2.3."
 sources:
   - "papers/broken-born-checkpoint-v2.md header"
   - "papers/broken-born-checkpoint-v2.md 'References'"
@@ -44,7 +44,7 @@ sources:
 | [D] | derived in this program | the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), "[D — corrected en route]" (§10) |
 | [T] | established literature | strongly coupled monopoles in a weakly coupled hidden sector, "by Dirac quantization [T]" (§12) |
 | [P] | postulate | the [postulates P1–P5](/wiki/program/postulates) (§4) |
-| [O] | open | the eleven items of §14 ([open problems](/wiki/status/open-problems)) |
+| [O] | open | the twelve items of §14 ([open problems](/wiki/status/open-problems)) |
 | [V] | machine-verified | the [soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)'s numbers, "gated in `verify/soliton_obituary.py`" (§12) |
 | [S] | reference retrieved by live search | [26S], Freidel–Leigh–Minic's [metastring paper](/wiki/phase-space/reciprocity/broken-born-duality) |
 | † | reference cited from model memory | [8†], [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) |
@@ -80,7 +80,7 @@ A tag changes when the support for a claim changes, and the record shows three k
 
 - **v0.1, the lab notebook.** #1 §0, "Epistemic scope": "[P] postulate — assumed, with motivation"; "[D] derived — follows from the postulates by calculation shown or sketched here"; "[T] theorem — established in the literature, cited"; "[O] open — not yet derived or decided". It also uses mixed forms such as "[D, schematic]", "[O, sketched]" and "[P/O]", and states its scope: the document is "not a UV-complete quantum gravity". See [The lab notebook (#1) and its addenda](/wiki/history/documents/lab-notebook).
 - **v1.0.** The v1 paper (#9 header): "[D] derived here, [T] established literature, [P] postulate, [O] open", with qualified forms such as "[D — rigorous]", "[T — verify figure]" and "[O — direction, deliberately unopened]". Its provenance note asks that "All citations flagged [T — verify] should be checked against sources before any submission." (#9 §11).
-- **v2.0 to v2.2.** Checkpoint #11 added [V], the citation marks [S] and †, and the claim tiers. The handoff summarizes v2.0 as having "25 references flagged † (memory — verify) vs [S] (live-searched)" (`HANDOFF.md` §3). v2.1 changed the compatibility theorem's tag and reference [21]'s mark, and added references [26]–[29] marked [S]. See [The checkpoint: #9 to #11 v2.2](/wiki/history/documents/checkpoint).
+- **v2.0 to v2.3.** Checkpoint #11 added [V], the citation marks [S] and †, and the claim tiers. The handoff summarizes v2.0 as having "25 references flagged † (memory — verify) vs [S] (live-searched)" (`HANDOFF.md` §3). v2.1 changed the compatibility theorem's tag and reference [21]'s mark, and added references [26]–[29] marked [S]. See [The checkpoint: #9 to #11 v2.3](/wiki/history/documents/checkpoint).
 
 ## In the wiki
 

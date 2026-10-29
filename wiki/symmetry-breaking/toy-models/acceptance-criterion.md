@@ -2,10 +2,11 @@
 title: "Acceptance criterion 1: the toy Lagrangian (OP11)"
 weight: 10
 status: alive
-description: "The referees' standing demand for an action in which ρ is a genuine Noether symmetry, spontaneously broken, with η as order parameter; met in their wording by model I with a bounded potential; what remains open, the superseded first verdict, and the unaddressed electric-sublattice clause."
+description: "The referees' standing demand for an action in which ρ is a genuine Noether symmetry, spontaneously broken, with η as order parameter; met in their wording by model I with a bounded potential; what remains open, the superseded first verdict, and the unaddressed electric-sublattice clause, which #11 v2.3 lists first among what the magnetic-mirror conjecture needs."
 sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "CLAUDE.md 'Since the handoff'"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
@@ -28,7 +29,7 @@ sources:
   - "review/wiki-build-flags.md item 42"
 ---
 
-*Acceptance criterion 1 is the referees' demand for one explicit action, a toy model being enough, in which [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ, the exchange (x, p) → (p, −x), is a genuine symmetry that the vacuum breaks, with the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η as the [order parameter](/wiki/symmetry-breaking/order-parameter). In ordinary quantum mechanics ρ is only a change of description, carried out by the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform); the program claims more, and the referees asked to see it in a model. The referees of review rounds 1 and 2 named it independently, and the program made it the first acceptance criterion for anything it proposes. [Checkpoint #11](/wiki/history/documents/checkpoint) records it as met in the referees' wording by [model I](/wiki/symmetry-breaking/toy-models/coset-model), a [sigma model](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models) of a phase-space metric and a real structure, with a bounded ρ-preserving potential. A simulation with all fields dynamical, a derivation of the potential and forced locality of matter remain open. One clause of an older wording, that η also select the electric sublattice, is not addressed.*
+*Acceptance criterion 1 is the referees' demand for one explicit action, a toy model being enough, in which [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) ρ, the exchange (x, p) → (p, −x), is a genuine symmetry that the vacuum breaks, with the [neutral metric](/wiki/phase-space/born-geometry/born-structures) η as the [order parameter](/wiki/symmetry-breaking/order-parameter). In ordinary quantum mechanics ρ is only a change of description, carried out by the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform); the program claims more, and the referees asked to see it in a model. The referees of review rounds 1 and 2 named it independently, and the program made it the first acceptance criterion for anything it proposes. [Checkpoint #11](/wiki/history/documents/checkpoint) records it as met in the referees' wording by [model I](/wiki/symmetry-breaking/toy-models/coset-model), a [sigma model](/wiki/symmetry-breaking/toy-models/coset-model/sigma-models) of a phase-space metric and a real structure, with a bounded ρ-preserving potential. A simulation with all fields dynamical, a derivation of the potential and forced locality of matter remain open. One clause of an older wording, that η also select the electric sublattice, is not addressed; since version 2.3 #11 lists it first among what P.R.'s open [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification) needs.*
 
 **Status:** Alive — met "in the referees' wording" (#11 §14 item 11; "done to the referees' wording", root `CLAUDE.md`), with the remaining parts tagged [O]. Model I's checks run in `verify/toy_coset.py` and `verify/toy_s4.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)); the [toy-model note](/wiki/symmetry-breaking/toy-models) was graded B in [review round 4](/wiki/method/review/round-4) and revised to version 2.
 
@@ -98,7 +99,7 @@ All four are registered at [open problems](/wiki/status/open-problems). The queu
 
 ## The electric-sublattice clause
 
-Two older wordings of the criterion ask more of η. The handoff: "η the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2). #14: η "selecting both the position polarization and the hidden sector's electric description" (§6). The clause ties the order parameter to the program's identification of electric–magnetic duality frames with phase-space polarizations ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). The worklog's statement of the referees' wording, its criteria S0–S5 and #11 §14 item 11 omit the clause, and #11 declares the criterion met. The root `CLAUDE.md` wording, "done to the referees' wording", governs ([source conflicts](/wiki/history/documents/source-conflicts#status-changes-since-the-handoff)). Nothing in the record addresses the clause, and no current document lists it as open.
+Two older wordings of the criterion ask more of η. The handoff: "η the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2). #14: η "selecting both the position polarization and the hidden sector's electric description" (§6). The clause ties the order parameter to the program's identification of electric–magnetic duality frames with phase-space polarizations ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). The worklog's statement of the referees' wording, its criteria S0–S5 and #11 §14 item 11 omit the clause, and #11 declares the criterion met. The root `CLAUDE.md` wording, "done to the referees' wording", governs ([source conflicts](/wiki/history/documents/source-conflicts#status-changes-since-the-handoff)). Nothing in the record addresses the clause. Until 2026-10-29 no current document listed it as open; since then #11 v2.3 §11.4 lists it first among what P.R.'s magnetic-mirror conjecture needs, in either form: "a mechanism by which one order parameter makes both choices (the electric-sublattice clause of acceptance criterion 1, never attempted; the toy models of §14 item 11 contain no gauge field)". The root `CLAUDE.md` lists it among the open items of the monopole discussion, not queued ([Open: the electric-sublattice clause](/wiki/electric-magnetic-duality/unified-modular-structure#open-the-electric-sublattice-clause); [what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 
 ## Superseded: the worklog's first verdict
 
@@ -116,7 +117,8 @@ Two older wordings of the criterion ask more of η. The handoff: "η the order p
 
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the current verdict and its open parts [O]
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: the potential's rigid pair of axes, the twisted element
-- `CLAUDE.md` 'Since the handoff' — "done to the referees' wording"; the open ends, including the real-model lead; the optional round 6
+- `papers/broken-born-checkpoint-v2.md` §11.4 — the electric-sublattice clause, "never attempted", listed first among what the magnetic-mirror conjecture needs [O]
+- `CLAUDE.md` 'Since the handoff' — "done to the referees' wording"; the open ends, including the real-model lead; the optional round 6; the clause among the open items of the monopole discussion
 - `papers/reciprocity-toy-models.md` §2, §4, §5, §6 — model I's symmetry, vacua and order parameter; the bounded potential and the Monte Carlo; the Yukawa analogy; "Not shown"
 - `review/round3-adjudication.md` 'Decisions' 4 — why the toy Lagrangian came next
 - `review/round4-adjudication.md` 'Verdict', 'Rulings' — the B grade; findings F1 and F2 and the adjudicator's account

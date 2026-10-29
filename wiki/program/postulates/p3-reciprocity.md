@@ -11,6 +11,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §7.3"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "papers/broken-born-checkpoint-v2.md §11.3"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §13 row 9"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
   - "notes/broken-born-theory.md §1"
@@ -95,7 +96,7 @@ The blind referees of rounds 1 and 2 turned the distinction into a test. Round 1
 
 > **S1 — symmetry of an action.** An explicit action S[fields] on which ρ acts as a symmetry: S is invariant, not merely related to its image by a unitary equivalence. Invariance is verified symbolically. ('Success criteria')
 
-After [round 3](/wiki/method/review/round-3) the toy became the program's next task, because "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes" (`review/round3-adjudication.md`, 'Decisions' 4; [the 'framework does no work' critique](/wiki/program/framework-does-no-work)). One clause of the original demand is not addressed: the handoff's version asks for η "the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2), and #14's criterion 1 asks for η to select "the hidden sector's electric description" (#14 §6). The worklog's criteria and #11 §14 item 11 omit the clause ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion); [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)).
+After [round 3](/wiki/method/review/round-3) the toy became the program's next task, because "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes" (`review/round3-adjudication.md`, 'Decisions' 4; [the 'framework does no work' critique](/wiki/program/framework-does-no-work)). One clause of the original demand is not addressed: the handoff's version asks for η "the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2), and #14's criterion 1 asks for η to select "the hidden sector's electric description" (#14 §6). The worklog's criteria and #11 §14 item 11 omit the clause ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion); [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). Since v2.3, #11 §11.4 lists it first among what stays open for P.R.'s magnetic-mirror conjecture, as "a mechanism by which one order parameter makes both choices" ([what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 
 ## A realization: the coset toy model
 
@@ -153,7 +154,7 @@ The separate ℤ₂ has a consequence that v1 of the toy-model note did not stat
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §4 — the statement; §3 — ρ in quantum kinematics; §6 — ρ as Z → −Z⁻¹; §7.3, §7.5 — the palindrome and reciprocity parity; §11.3 — the recurring matrix; §13 row 9 — ρ² protection; §14 item 11 — the toy action that meets acceptance criterion 1
+- `papers/broken-born-checkpoint-v2.md` §4 — the statement; §3 — ρ in quantum kinematics; §6 — ρ as Z → −Z⁻¹; §7.3, §7.5 — the palindrome and reciprocity parity; §11.3 — the recurring matrix; §11.4 — the electric-sublattice clause as the first open item of the magnetic-mirror conjecture [O]; §13 row 9 — ρ² protection; §14 item 11 — the toy action that meets acceptance criterion 1
 - `notes/broken-born-theory.md` §1–§2 — the v0.1 statement as a ℤ₄, how ρ acts on ω, η and H, and the ℤ₄ → ℤ₂ pattern
 - `notes/broken-born-program-v1.md` §2 — the v1 statement
 - `notes/geometric-core.md` §B — the sign flip of η read as the broken symmetry moving the order parameter

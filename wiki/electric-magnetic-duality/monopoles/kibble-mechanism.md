@@ -17,6 +17,11 @@ sources:
   - "review/round3/referee/step4.out"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md refs [28]–[29]"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
+  - "papers/broken-born-checkpoint-v2.md §11.1"
+  - "notes/closed-universe.md §9"
+  - "review/wiki-build-flags.md flag 61"
+  - "verify/closed_universe.py section F"
   - "verify/soliton_obituary.py 'Anchors'"
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md ref [18]"
@@ -82,7 +87,7 @@ What happens after formation is a separate question. Monopoles and antimonopoles
 
 ## How the program uses it
 
-The Kibble count was the abundance estimate of the retired soliton candidate, and the error in it decided the candidate's fate. The full record is on [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) and [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); this section summarizes it.
+The Kibble count was the abundance estimate of the retired soliton candidate, and the error in it decided the candidate's fate. The full record is on [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) and [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); this section summarizes it, and ends with the production question that the program's own order parameter raises.
 
 ### #14's normalization and direction
 
@@ -128,6 +133,10 @@ PASS  v3's 0.0228 drops (1.66 sqrt(g*))^3 ~ 4.6e3  [4575.6]
 
 The [handoff](/wiki/history/documents/handoff) had framed the candidate's relic question between a "Kibble ceiling" and a "√N floor" (`HANDOFF.md` §2, open item 2). [Round-3 Decision 3](/wiki/method/review/round-3/decisions) dropped it: "Its premise, Kibble as a ceiling, is inverted (ruling 3)" ([Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
+### The polarization's own defects (OP12)
+
+The program's own symmetry breaking raises the same question. The polarization manifold Λ(4), the space of position/momentum splittings ([the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian)), has π₁(Λ(4)) = ℤ and π₂(Λ(4)) = ℤ₂ [T], with the maps behind them gated in `verify/closed_universe.py` section F ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)), for d = 4 and with the U(4) acting on the polarization global. #11 §14 item 12, added in v2.3, draws the consequence in this page's terms: "Selecting the polarization can then leave strings of τ (π₁; they exist on the light Maslov circle too) and, where the order parameter ranges over the whole manifold, point defects of the monopole type (π₂ = 0 on the circle). Whether a transition produced them, and their fate, are open [O]". Here τ is the program's dark-energy field, the angle around the Maslov circle of Λ(4) ([τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase)). The closed-universe note states the production question: "If a transition in the early universe selected the polarization, the ℤ₂ point defects and the τ-strings of §8 could form at it", and "Whether such a transition happened, what it left, and whether the point defects would pose a monopole problem of the program's own are not computed" (`notes/closed-universe.md` §9 item 4; flag 61; [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
+
 ## References
 
 - T. W. B. Kibble, "Topology of Cosmic Domains and Strings," J. Phys. A 9, 1387 (1976) — #14 [18], without a tag; the title is the v3 worklog's correction ('Verified references for v3'), and the round-3 audit checked the abstract.
@@ -153,14 +162,16 @@ Added by the wiki from model memory (†):
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the transition at which the monopoles were to be made.
 - [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — the retired candidate's abundance followed from the Kibble estimate.
 - [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — at least about one monopole per causally connected region.
-- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the production of superheavy monopoles that inflation must dilute.
+- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the production of superheavy monopoles at a unification transition, which inflation, one of the standard histories under which the row's null is expected, would dilute (#11 v2.3 §11.1).
+- [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12) — whether a transition that selected the polarization produced point defects and τ-strings, and whether they would pose a monopole problem of the program's own, is not computed.
 
 ## Sources
 
 - `review/round3-adjudication.md` 'Rulings' 1, 2 and 3, 'Lessons', 'Decisions' 3 — the corrected normalization, the floor and its evidence, the anchor lesson, the dropped √N floor.
 - `review/round3/referee/audit-notes.md` Step 1, Step 2, Step 4(a), Step 4(c) — Kibble's abstract and Gangui's normalization; the floor and the Kibble–Zurek count; bubble counting and the integration; Murayama–Shu.
 - `review/round3/referee/step2a.out` (the Kibble block), `review/round3/referee/step4.out` — the computed p values and the first-order lines.
-- `papers/broken-born-checkpoint-v2.md` §12, refs [28]–[29] — p ≈ 104 [V] as the causal minimum, and the two live-searched references.
+- `papers/broken-born-checkpoint-v2.md` §12, refs [28]–[29] — p ≈ 104 [V] as the causal minimum, and the two live-searched references; §14 item 12 — the polarization's defects, their production and fate open [O]; §11.1 — inflation as one of the standard histories (v2.3).
+- `notes/closed-universe.md` §9 item 4, `review/wiki-build-flags.md` flag 61, `verify/closed_universe.py` section F — the production question for the polarization's defects, not computed; the homotopy groups behind them.
 - `verify/soliton_obituary.py` — the Friedmann and one-per-Hubble-volume anchors and p = 104.31.
 - `notes/knot-dark-matter-standalone.md` §3, ref [18] — v3's p ~ 0.023 "as the upper end" (withdrawn), and the citation of Kibble 1976.
 - `review/v3-worklog.md` 'Verified references for v3' — the corrected title of Kibble's paper.

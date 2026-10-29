@@ -29,11 +29,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §4"
   - "notes/closed-universe.md §2"
   - "review/wiki-build-flags.md item 27 (addendum)"
+  - "papers/broken-born-checkpoint-v2.md §14 item 12"
+  - "verify/closed_universe.py section F"
 ---
 
 *The program's dark-energy field τ is an angle: the angle around the Maslov circle of [the Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian), the space of all position/momentum splittings, which forms the distinguished (Shilov) boundary of [the Siegel domain](/wiki/phase-space/modular-field/siegel-domain) where [the modular field](/wiki/phase-space/modular-field/modular-field-z) takes its values. Because that circle cannot be shrunk to a point, τ is periodic, with period 2πf, as a matter of topology rather than of modeling. Of the ten directions of the Grassmannian at d = 4, τ is assumed to be the only light one. The identification is derived [D], the topology is literature [T], and the lightness is a postulate [P]. How τ behaves as dark energy, and how current data bear on it, is worked out in [the cosmology section](/wiki/cosmology).*
 
-**Status:** Alive — the identification is derived [D] ([#11](/wiki/history/documents/checkpoint) §6); the Shilov boundary and π₁ = ℤ are literature [T]; the periodicity is [D] and τ's lightness [P] (#1 §2) — nothing here is machine-checked, and the [toy model](/wiki/symmetry-breaking/toy-models) supports only the consistency of the structure.
+**Status:** Alive — the identification is derived [D] ([#11](/wiki/history/documents/checkpoint) §6); the Shilov boundary and π₁ = ℤ are literature [T], and at d = 4, π₁(Λ(4)) = ℤ is machine-checked [V] in `verify/closed_universe.py` section F, check F2 ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)); the periodicity is [D] and τ's lightness [P] (#1 §2) — nothing else here is machine-checked, and the [toy model](/wiki/symmetry-breaking/toy-models) supports only the consistency of the structure.
 
 ## The claim
 
@@ -61,6 +63,8 @@ A "modulus of the vacuum" is a direction in which the vacuum can be changed: her
 ## Why the period is topology
 
 The fundamental group π₁(Λ(d)) = ℤ says that a loop winding once around the Maslov circle [cannot be shrunk to a point](/wiki/symmetry-breaking/topological-defects#the-polarizations-vacuum-manifold-and-its-maslov-loop), and that along it arg det² increases by exactly 2π [T]. An angle on such a circle is periodic because of the shape of the space it lives in, before any dynamics is specified. For a scalar field whose values fill a line, any periodicity of its potential has to be put in by hand; for a field whose values fill a circle, the period comes with the field space [T]. #9's "not a modeling choice" and #11 §10's "periodicity by topology" place τ in the second class (compare [quintessence](/wiki/cosmology/dark-energy/quintessence) in general).
+
+The same loop allows strings around which τ winds. Since v2.3, #11 §14 item 12 counts them among the defects that selecting the polarization could leave, "strings of τ (π₁; they exist on the light Maslov circle too)", and whether a transition produced any is open ([Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
 
 The lab notebook separates what topology fixes from what it does not (#1 §3): "The potential's *periodicity* is forced by the Maslov topology **[D]**; its *existence* comes from the explicit breaking of Grassmannian rotations by the rigid ω (P2) — the rigidity is the 'instanton' that tilts the circle. Its *magnitude* V₀ is a free parameter here. **[P/O]**". The attribution of the potential to the rigid ω did not survive the postulate repair ([τ's potential, below](#τs-potential-and-its-tests)).
 
@@ -139,6 +143,7 @@ See [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-an
 - `papers/broken-born-checkpoint-v2.md` §7, §10 — τ un-eaten; hilltop quintessence; the toy-model support and its limit.
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: a definite polarization needs "more structure than ω alone".
 - `papers/broken-born-checkpoint-v2.md` App. A item 8 — "echoed in τ's boundary residence".
+- `papers/broken-born-checkpoint-v2.md` §14 item 12 — strings of τ among the polarization's possible defects, their production open [O]; `verify/closed_universe.py` section F — π₁(Λ(4)) = ℤ, check F2.
 - `papers/reciprocity-toy-models.md` §2, §4, §6 — Λ(1) as the compact Goldstone direction; the bounded potential; "Motivation, not result".
 - `notes/toy-lagrangian.md` 'Chunk 2 results' — the slow-drift remark, "not verified here".
 - `HANDOFF.md` §2 — the handoff's line on τ and its check mark.

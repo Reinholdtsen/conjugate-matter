@@ -17,7 +17,9 @@ published curvature values of DESI DR2 and of Akrami, Alestas and Nesseris; Lee 
 torsion-balance ranges, which the interpolation for X's range must reproduce; and the calibration of the
 background fit against two published DESI DR2 results. Two literature anchors sit inside section D, where the
 derivation they test is made: von Strauss et al. 2012's quartic for the bimetric ratio and Konnig 2015's
-gradient-instability frequency. Everything else after the anchors is a regression check: it reproduces the
+gradient-instability frequency. Section F has two of its own: the winding numbers of SU(2)'s fundamental (|W| = 1) and
+of SO(3) in SO(4) acting on R^4 (|W| = 4), with Bott periodicity's stable values for U/O as the table its homotopy
+groups must match. Everything else after the anchors is a regression check: it reproduces the
 investigation's own numbers and derivations, and is not independent of them.
 
 Inputs: CODATA 2018 constants; H0 = 67.4 km/s/Mpc, Omega_m = 0.315, T_CMB = 2.7255 K, three massless neutrinos
@@ -27,7 +29,7 @@ theta_i (measured from the hilltop), V0 shot so that H(a = 1) = H0 and theta_i s
 Bimetric sector: Hassan-Rosen, palindromic beta_n = beta_(4-n), beta0 = -4 beta1 - 3 beta2, M_f = M_g.
 Other inputs are typed in with their sources where they are used.
 
-Runtime is about 11 s: the closed histories run only the representative case, the two grid extremes
+Runtime is about 16 s: the closed histories run only the representative case, the two grid extremes
 and the over-constraint pair; the background fit uses a Levenberg-Marquardt minimizer in place of the original
 Nelder-Mead and reproduces its printed profile to every digit.
 """
@@ -1642,6 +1644,108 @@ check("E10: (D_x/l_P)/(D_p/(m_P c)) = f R c^2/(G M) = f (4/3pi)/(1 + (HR/c)^2), 
 asp = [4*fv/(3*pi) for fv in (1, 2, pi, 2*pi)]
 check("E10: the aspect ratio at a turnaround spans 4/(3 pi) = 0.4244 (D_x = R) to 8/3 (D_x = 2 pi R) across conventions",
       abs(asp[0] - 0.4244) < 1e-4 and abs(asp[-1] - 8/3) < 1e-12 and asp == sorted(asp), f"{[round(x_, 4) for x_ in asp]}")
+
+# ======================================================================================================
+print("\n== F. Topology of the polarization manifold (port of gravity-sector/grassmannian_homotopy.py; gravity-sector "
+      "C35-C38; flag 61)")
+# ======================================================================================================
+# Lambda(4) = U(4)/O(4), the Lagrangian Grassmannian of R^8, is the space of polarizations. Its homotopy follows from the
+# fibration O(4) -> U(4) -> U(4)/O(4) and standard inputs [T]: pi_0(O(4)) = Z2, pi_1(O(4)) = Z2, pi_2(O(4)) = 0,
+# pi_3(O(4)) = Z + Z (left and right multiplication by unit quaternions), pi_1(U(4)) = Z (the winding of det),
+# pi_2(U(4)) = 0, pi_3(U(4)) = Z (the winding number W[g] = (1/24 pi^2) Int_{S^3} Tr (g^-1 dg)^3). The maps computed are
+# pi_1(O(4)) -> pi_1(U(4)) and pi_3(SO(4)) -> pi_3(U(4)). Two literature anchors come first: |W| = 1 for SU(2)'s
+# fundamental and |W| = 4 for SO(3) in SO(4) acting on R^4 (spin 1 plus spin 0, Dynkin index 4). The groups derived
+# must match Bott periodicity's stable values for U/O. On the light Maslov circle alone pi_2(S^1) = pi_3(S^1) = 0, so
+# the point defects and textures belong to the regime in which the order parameter ranges over all of Lambda(4).
+def _section_f():
+    def quat_left(q):                     # x -> q x as a 4x4 real matrix, q = (q0, q1, q2, q3)
+        q0, q1, q2, q3 = np.moveaxis(q, -1, 0)
+        return np.stack([np.stack([q0, -q1, -q2, -q3], -1), np.stack([q1, q0, -q3, q2], -1),
+                         np.stack([q2, q3, q0, -q1], -1), np.stack([q3, -q2, q1, q0], -1)], -2)
+    def quat_right(q):                    # x -> x q
+        q0, q1, q2, q3 = np.moveaxis(q, -1, 0)
+        return np.stack([np.stack([q0, -q1, -q2, -q3], -1), np.stack([q1, q0, q3, -q2], -1),
+                         np.stack([q2, -q3, q0, q1], -1), np.stack([q3, q2, -q1, q0], -1)], -2)
+    def su2(q):                           # the fundamental representation
+        q0, q1, q2, q3 = np.moveaxis(q, -1, 0)
+        return np.stack([np.stack([q0 + 1j*q1, q2 + 1j*q3], -1), np.stack([-q2 + 1j*q3, q0 - 1j*q1], -1)], -2)
+    def embed4(U):
+        out = np.zeros(U.shape[:-2] + (4, 4), complex)
+        out[..., :2, :2] = U
+        out[..., 2, 2] = out[..., 3, 3] = 1
+        return out
+    def adjoint(q):                       # x -> q x qbar
+        return quat_left(q) @ quat_right(q*np.array([1, -1, -1, -1]))
+    def qmul(a, b):
+        a0, a1, a2, a3 = a
+        b0, b1, b2, b3 = b
+        return np.array([a0*b0 - a1*b1 - a2*b2 - a3*b3, a0*b1 + a1*b0 + a2*b3 - a3*b2,
+                         a0*b2 - a1*b3 + a2*b0 + a3*b1, a0*b3 + a1*b2 - a2*b1 + a3*b0])
+    rng = np.random.default_rng(0)
+    q = rng.normal(size=4)
+    q /= np.linalg.norm(q)
+    x = rng.normal(size=4)
+    L, R = quat_left(q), quat_right(q)
+    check("F anchor: x -> q x and x -> x q are quaternion multiplication by a unit quaternion, orthogonal with det 1",
+          np.allclose(L @ x, qmul(q, x)) and np.allclose(R @ x, qmul(x, q)) and np.allclose(L.T @ L, np.eye(4))
+          and np.allclose(R.T @ R, np.eye(4)) and abs(np.linalg.det(L) - 1) < 1e-12 and abs(np.linalg.det(R) - 1) < 1e-12)
+
+    def winding(gfun, n=48):
+        """W over S^3 = (chi, theta, phi), A_i = g^-1 d_i g: midpoint grid, central differences"""
+        chi = (np.arange(n) + 0.5)*np.pi/n
+        ph = (np.arange(2*n) + 0.5)*np.pi/n
+        C, TH, PH = np.meshgrid(chi, chi, ph, indexing='ij')
+        def qof(c, t, f):
+            return np.stack([np.cos(c), np.sin(c)*np.cos(t), np.sin(c)*np.sin(t)*np.cos(f),
+                             np.sin(c)*np.sin(t)*np.sin(f)], -1)
+        h = 1e-5
+        tot = 0.0
+        Cf, Tf, Pf = C.ravel(), TH.ravel(), PH.ravel()
+        for s in range(0, Cf.size, 8192):
+            c, t, f = Cf[s:s + 8192], Tf[s:s + 8192], Pf[s:s + 8192]
+            gi = np.linalg.inv(gfun(qof(c, t, f)))
+            A = [gi @ (gfun(qof(c + h*(i == 0), t + h*(i == 1), f + h*(i == 2)))
+                       - gfun(qof(c - h*(i == 0), t - h*(i == 1), f - h*(i == 2))))/(2*h) for i in range(3)]
+            tot += (3*np.trace(A[0] @ (A[1] @ A[2] - A[2] @ A[1]), axis1=-2, axis2=-1)).sum()
+        return (tot*(np.pi/n)**3/(24*np.pi**2)).real
+
+    W_f = winding(su2)
+    check("F anchor: SU(2)'s fundamental representation has |W| = 1 [T]", abs(abs(W_f) - 1) < 1e-3, f"W = {W_f:+.6f}")
+    W_e = winding(lambda q: embed4(su2(q)))
+    check("F anchor: embedding SU(2) in U(4) leaves W unchanged", abs(W_e - W_f) < 1e-9, f"W = {W_e:+.6f}")
+    W_a = winding(lambda q: adjoint(q).astype(complex))
+    check("F anchor: SO(3) in SO(4) acting on R^4 (spin 1 plus spin 0) has |W| = 4, its Dynkin index [T]",
+          abs(abs(W_a) - 4) < 4e-3, f"W = {W_a:+.6f}")
+    W_l = winding(lambda q: quat_left(q).astype(complex))
+    W_r = winding(lambda q: quat_right(q).astype(complex))
+    pi3_is_Z2 = abs(abs(W_l) - 2) < 2e-3 and abs(W_l + W_r) < 1e-9
+    check("F1: the generators x -> q x and x -> x q of pi_3(SO(4)) = Z + Z have W = -2 and +2 in pi_3(U(4)) = Z; the image "
+          "is 2Z and pi_2(O(4)) = 0, so pi_3(Lambda(4)) = Z2 (C37)", pi3_is_Z2, f"W = {W_l:+.6f}, {W_r:+.6f}")
+
+    ts = np.linspace(0, 1, 2001)
+    def det_winding(Ut, power):
+        ang = np.unwrap(np.angle(np.array([np.linalg.det(U)**power for U in Ut])))
+        return (ang[-1] - ang[0])/(2*np.pi)
+    w_uo = det_winding([np.diag([np.exp(1j*np.pi*t), 1, 1, 1]) for t in ts], 2)
+    w_u = det_winding([np.diag([np.exp(2j*np.pi*t), 1, 1, 1]) for t in ts], 2)
+    pi1_is_Z = abs(w_uo - 1) < 1e-9 and abs(w_u - 2) < 1e-9
+    check("F2: det^2 winds once on the loop t -> diag(e^(i pi t), 1, 1, 1), which closes in Lambda(4) because "
+          "diag(-1, 1, 1, 1) is in O(4), and twice on the generator of pi_1(U(4)): pi_1(Lambda(4)) = Z, the Maslov class "
+          "(C35)", pi1_is_Z, f"{w_uo:+.6f}, {w_u:+.6f}")
+    rot = [np.block([[np.array([[np.cos(2*np.pi*t), -np.sin(2*np.pi*t)], [np.sin(2*np.pi*t), np.cos(2*np.pi*t)]]),
+                      np.zeros((2, 2))], [np.zeros((2, 2)), np.eye(2)]]).astype(complex) for t in ts]
+    w_so = det_winding(rot, 1)
+    pi2_is_Z2 = abs(w_so) < 1e-9
+    check("F3: the generator of pi_1(SO(4)) = Z2 has det winding 0 in U(4) (det = 1 on SO(4), so this confirms an input "
+          "rather than testing one); pi_1(O(4)) -> pi_1(U(4)) is therefore zero and, with pi_2(U(4)) = 0, pi_2(Lambda(4)) = Z2 "
+          "follows by exactness (C36): the polarization manifold admits point defects", pi2_is_Z2, f"{w_so:+.6f}")
+    derived = ("Z" if pi1_is_Z else "?", "Z2" if pi2_is_Z2 else "?", "Z2" if pi3_is_Z2 else "?")
+    check("F4: pi_1, pi_2, pi_3 of Lambda(4) as derived in F1-F3 match Bott periodicity's stable values for U/O, Z, Z2, Z2 "
+          "[T]; free classes of maps S^3 -> Lambda(4) are pi_3 modulo the pi_1 action, trivial on Z2 since Aut(Z2) is "
+          "trivial, so [S^3, Lambda(4)] = Z2, two texture classes on a closed universe (C38; argued, not computed)",
+          derived == ("Z", "Z2", "Z2"), f"{derived}")
+
+_section_f()
 
 # ======================================================================================================
 print(f"\nwall time {time.time() - T_START:.1f} s")

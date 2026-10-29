@@ -313,8 +313,13 @@ inflation: with inflation, the whole sphere comes into causal contact well befor
   the antipode, at a ≈ a_max. Bousso's covariant bound holds.
 - **Photons** [V]. The number of CMB photons in the whole universe is finite: n_γ·2π²R₀³ = 2.1×10⁹¹ at
   |Ω_k| = 10⁻² to 6.6×10⁹⁵ at 10⁻⁵. It is conserved after e± annihilation.
-- **Topology** [D]. S³ carries two homotopy classes of polarization texture, [S³, Λ(4)] = Z₂. X's lowest
-  tensor modes on S³ are the L = 2 (Bianchi IX) modes.
+- **Topology** [D]. S³ carries two homotopy classes of polarization texture, [S³, Λ(4)] = Z₂, which follows
+  from π₃(Λ(4)) = ℤ₂ [T][V]. The same manifold has π₁(Λ(4)) = ℤ [T][V] and π₂(Λ(4)) = ℤ₂ [T], so selecting
+  the polarization can leave strings of the Maslov phase τ, which exist on the light Maslov circle too, and,
+  where the order parameter ranges over the whole manifold, point defects, the monopole type. On the light
+  circle alone π₂ = π₃ = 0, and neither the point defects nor the textures exist there. All of this assumes
+  d = 4 and that the U(4) acting on the polarization is global, the verifiers' caveats (flag 61;
+  `verify/closed_universe.py` section F). X's lowest tensor modes on S³ are the L = 2 (Bianchi IX) modes [D].
 
 ## 9. What is open
 
@@ -327,6 +332,12 @@ inflation: with inflation, the whole sphere comes into causal contact well befor
    - inflation and the bimetric sector together (G_eff = 2G_N during inflation, two light gravitons);
    - the energy splitting between the ±K_ref polarizations that closure induces;
    - perturbations, and X's L = 2 modes, through the recollapse.
+4. **Defects of the polarization** [O]. If a transition in the early universe selected the polarization, the
+   ℤ₂ point defects and the τ-strings of §8 could form at it; the gravity-sector analysis lists their fate as
+   open (`review/closed-universe/analyses/gravity-sector.json`). Whether such a transition happened, what it
+   left, and whether the point defects would pose a monopole problem of the program's own are not computed.
+   They are defects of the program's own order parameter, unlike conjugate-sector solitons, whose existence
+   depends on gauge content the record does not specify (flag 61; #11 §14 item 12).
 
 ## 10. Record of the investigation
 
@@ -360,5 +371,5 @@ inflation: with inflation, the whole sphere comes into causal contact well befor
 - `papers/phase-space-diameter.md` §6, §8.2, §8.4; `review/round5-adjudication.md` R1, R11
 - #1 `notes/broken-born-theory.md` §2, §3, §6, §7
 - `notes/geometric-core.md` Corollary 3; `notes/beta-coefficients.md` §3
-- `review/wiki-build-flags.md` flags 5, 27 (addendum), 43, 45–54
+- `review/wiki-build-flags.md` flags 5, 27 (addendum), 43, 45–54, 61
 - `verify/closed_universe.py`; `review/closed-universe/`

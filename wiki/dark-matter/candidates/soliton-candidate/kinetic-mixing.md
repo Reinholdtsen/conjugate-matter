@@ -6,6 +6,7 @@ description: "Gravity alone mixes two photons only at six loops (ε ≲ 10⁻¹�
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md ref [27]"
   - "CLAUDE.md 'Since the handoff'"
   - "review/round3-adjudication.md 'Decisions' 1"
@@ -170,13 +171,13 @@ The [project instructions](/wiki/history/documents/project-instructions) record 
 - [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) — how weakly the hidden photon mixes with ours, and points (a) and (c) among the survivors.
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the visible charge ψ would carry if the photons mix.
 - [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — under strict P4 a conjugate monopole carries no charge under our photon.
-- [Obituary: the magnetic identification (popsci-only)](/wiki/electric-magnetic-duality/magnetic-identification) — strict sector separation, which the identification contradicts.
+- [Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification) — P4's separation of the sectors' gauge forces, with which the conjecture's shared-photon form conflicts as written; its separate-photon form is consistent with P4 (#11 §11.4).
 - [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 1 rests on points (a) and (b).
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — ruling 9 and the surviving points (a) and (c).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §4 — P4 and its strict reading; ref [27] — Gherghetta–Kersten–Olive–Pospelov [S]
+- `papers/broken-born-checkpoint-v2.md` §4 — P4 and its strict reading; §11.4 — the magnetic-mirror conjecture's two forms against P4; ref [27] — Gherghetta–Kersten–Olive–Pospelov [S]
 - `CLAUDE.md` 'Since the handoff' — strict sector separation in force
 - `review/round3-adjudication.md` 'Decisions' 1 — strict sector separation; 'Rulings' 9 — the Witten effect; the omitted-constraints list; 'What survives v3' — points (a) and (c)
 - `review/round3/referee/audit-notes.md` Step 1 — the literature checked, the floor reading; Step 4(a) items 5 and 7 — re-thermalization and the monopoles' visible charge; Step 4(b) — the kinetic-mixing claims against the literature; Step 4(c) — the omitted millicharge constraints

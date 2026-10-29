@@ -20,7 +20,7 @@ It is written for three readers:
   the source wins and the wiki gets fixed.
 - **Source precedence**, most current first:
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.2), `papers/reciprocity-toy-models.md` (v2) and
+  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.3), `papers/reciprocity-toy-models.md` (v2) and
      `papers/phase-space-diameter.md` (v1.1);
   3. `review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`;
   4. `papers/conjugate-special-relativity.md` (#13);
