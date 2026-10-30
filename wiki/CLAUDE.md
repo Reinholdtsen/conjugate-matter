@@ -109,8 +109,8 @@ strip and the Map.
 **Folded items.** A page sometimes holds a minor item of another status, such as an open
 sub-question on an established page or a superseded earlier form of an alive claim. Such
 an item gets its own status-headed section ("## Open: …", "## Superseded: …",
-"## Chat-only: …", "## Popsci-only: …", "## Conjecture: …"; "###" when it sits inside a
-larger section), and the registers deep-link that heading.
+"## Chat-only: …", "## Popsci-only: …", "## Conjecture: …", "## Under review: …"; "###" when
+it sits inside a larger section), and the registers deep-link that heading.
 
 **OPn** means item n of #11 §14 (the checkpoint's open problems). It is registered and
 may be used in body text.

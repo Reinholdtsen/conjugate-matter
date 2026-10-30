@@ -177,7 +177,10 @@ fixes the a⁻⁶ term and the dual curvature by a single self-dual radius R_sd.
 - For λ = √(l_P c/H₀) the window is empty.
 
 The reading also contradicts the record's k̃ = 0, and it rests on the underived dual Einstein–Hilbert term
-(§7). It is dead unless Paul adds a compact momentum space deliberately.
+(§7). It is dead unless Paul adds a compact momentum space deliberately. [2026-10-30: under Paul's rule of
+2026-10-29 this verdict needs his concurrence, which he has not given. His answer that day for every other death
+recorded before it, "Restore all pending", covers this one, which the list of twelve missed: the reading is under
+his review, not dead (root `CLAUDE.md`, 'Since the handoff').]
 
 ## 5. Reciprocity on a closed space
 

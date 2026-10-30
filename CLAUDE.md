@@ -167,6 +167,10 @@ only as a task needs them.
     Hypothesis H, the third way #14 fixed α_d ≈ 34, is under review with that coupling, though the list does not
     name it: it was recorded dead as a component of #14 v3 when the model failed, no ruling addressed it by
     itself, and a failed model is not the death of each idea in it ('Method').
+  - Found on 2026-10-30, after the answers: one more death recorded before 2026-10-29, the closed-universe note's
+    symmetric reading of a compact momentum space (k̃ = k, §4), recorded on 2026-10-27 as "dead unless Paul adds a
+    compact momentum space deliberately". The list of twelve was taken from the wiki's graveyard, which never held
+    it. His answer for every other death recorded before 2026-10-29 covers it, so it is under review too.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -193,8 +197,9 @@ only as a task needs them.
   - whether the Hamiltonian reading is the right classical limit for a long-range gate;
   - whether the program's bimetric branch has Vainshtein screening at all (flag 57).
 - Open from the monopole discussion, not queued:
-  - the review with Paul of the twelve claims under review (listed in 'Since the handoff', 2026-10-29): each
-    stays not dead until he reviews it, and a death needs his explicit concurrence, in a change of its own;
+  - the review with Paul of the claims under review, the twelve listed in 'Since the handoff' (2026-10-29), with
+    hypothesis H, and the symmetric reading found on 2026-10-30: each stays not dead until he reviews it, and a
+    death needs his explicit concurrence, in a change of its own;
   - for the restored candidate and the explanation: p-localization, and the kinematics of momentum-polarized
     matter, never modeled (#14 §1 assumed ordinary kinematics);
   - for App. A item 9: whether the contracting conjugate universe is kinetic-dominated, and how dual stiff ↦ Λ

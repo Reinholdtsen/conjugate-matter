@@ -10,6 +10,8 @@ sources:
   - "notes/closed-universe.md §1"
   - "notes/closed-universe.md §9"
   - "notes/closed-universe.md §10"
+  - "notes/closed-universe.md §4"
+  - "CLAUDE.md 'Since the handoff'"
   - "verify/closed_universe.py 'E. Momentum space and reciprocity'"
   - "verify/closed_universe.py 'Anchors (independent of the investigation)'"
   - "review/closed-universe/README.md"
@@ -90,11 +92,12 @@ Found by a verifier of the investigation (§5):
 
 - **#11 §3 and the pages that quote it.** "The Fourier transform implements it unitarily" holds on flat space and locally; on a closed space the exchange is local only (flag 47). The established statement is on [the Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform) and the program's use on [P3](/wiki/program/postulates/p3-reciprocity).
 - **P5's mirror vacuum.** In a closed universe it has a global form only if the section condition admits polarizations that are not integrable, and then its energy cost is not computed ([P5](/wiki/program/postulates/p5-spontaneous-selection)).
-- **Row 10's closed dual space.** The momentum fibre stays flat in the record's geometry, so a closed momentum space would be a new postulate ([the symmetric reading](/wiki/cosmology/scale-factor-duality/closed-universe#the-symmetric-reading-dead-unless-postulated-dv); flag 48).
+- **Row 10's closed dual space.** The momentum fibre stays flat in the record's geometry, so a closed momentum space would be a new postulate (flag 48), and the note's [symmetric reading](/wiki/cosmology/scale-factor-duality/closed-universe#under-review-the-symmetric-reading-dv) of one, k̃ = k, is under review.
 
 ## Sources
 
-- `notes/closed-universe.md` §5 — the global and local exchange, the integrability result and its consequences, the compact phase spaces, the momentum radius needed and the prior art; §2 — Born 1938's momentum hypersphere; §1 — the reading of "closed"; §9 — the ±K_ref splitting, open; §10 — the corrected torus-like claim
+- `notes/closed-universe.md` §5 — the global and local exchange, the integrability result and its consequences, the compact phase spaces, the momentum radius needed and the prior art; §2 — Born 1938's momentum hypersphere; §1 — the reading of "closed"; §9 — the ±K_ref splitting, open; §10 — the corrected torus-like claim; §4 — the symmetric reading's verdict and its bracketed note of 2026-10-30
+- `CLAUDE.md` 'Since the handoff' — the symmetric reading, found on 2026-10-30 and under review
 - `verify/closed_universe.py` section E — E2 (the grain), E3 (the local accuracy), E4 (integrability on T\*S³ and T³, and (L/R₀)²), E5 (the product obstruction, Gr̃(2,5), √(R₀ l_P) and the bounds on κc); the anchors — the S³ spectrum
 - `review/closed-universe/README.md` — the investigation's analyses, verifiers and critic
 - `review/wiki-build-flags.md` item 47 — the scope of #11 §3's sentence, with its audit; awaiting Paul's ruling

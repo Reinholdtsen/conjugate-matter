@@ -112,7 +112,7 @@ In sympy, from the reduced action of the two metrics ([the momentum graviton in 
 - the local exchange: the coefficient −2/3 by quadrature and from the Gaussian moments, and (2/3)(σ/R₀)² = 3.5×10⁻⁵⁵ (E3);
 - integrability on T\*S³: every L_θ is Lagrangian, the Frobenius obstruction is ℓ²p sin³θ/R², only θ = 0 is integrable, every θ on T³, and (L/R₀)² = 5.309×10⁻⁵⁵ (E4);
 - compact phase spaces: the Künneth argument, Gr̃(2,5) as a Kähler quadric with its reciprocity automorphism, √(R₀ l_P) = 1.489×10⁻⁴ m and the bounds on κc (E5) ([reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity));
-- the photon count of the whole sphere (E6); the symmetric dual-curvature reading and its bounds, with the LHC (Large Hadron Collider) cap (E7, flag 48); the inflationary throat, 2.67×10⁵ l_P, typed in from E_inf < 1.39×10¹⁶ GeV (E8); the a⁻⁶ term below 10⁻¹⁹⁸ after inflation (E9, flag 49); the radius–mass pairing and its aspect ratios (E10).
+- the photon count of the whole sphere (E6); the symmetric dual-curvature reading and its bounds, with the LHC (Large Hadron Collider) cap (E7, flag 48; the reading is [under review](/wiki/cosmology/scale-factor-duality/closed-universe#under-review-the-symmetric-reading-dv)); the inflationary throat, 2.67×10⁵ l_P, typed in from E_inf < 1.39×10¹⁶ GeV (E8); the a⁻⁶ term below 10⁻¹⁹⁸ after inflation (E9, flag 49); the radius–mass pairing and its aspect ratios (E10).
 
 ### F. Topology of the polarization manifold (8 checks)
 
@@ -300,9 +300,9 @@ An earlier run the same day, made when section F was first described here, print
 ## Sources
 
 - `verify/closed_universe.py` — the docstring with its scope, anchors and inputs; the integrator and its three forms; every check and label; the typed-in tables and values; the trims named in the docstring and the code ("one oscillation phase at the crunch"; the reduced √−g R terms); its output — the 92 checks of the run of 2026-10-27 and the 100 of the run of 2026-10-29 recorded above; section F's docstring sentence, comments and labels
-- `notes/closed-universe.md` header — "Every number is recomputed in `verify/closed_universe.py`" and the note's status; §1–§8 — the numbers the script reproduces, §8 the topology and its tags (π₁ and π₃ [T][V], π₂ [T], the texture count [D]); §9 item 4 — the defects' fate, open; §10 — the refuted claim about light travel and the phases of τ's oscillation
+- `notes/closed-universe.md` header — "Every number is recomputed in `verify/closed_universe.py`" and the note's status; §1–§8 — the numbers the script reproduces, §8 the topology and its tags (π₁ and π₃ [T][V], π₂ [T], the texture count [D]); §9 item 4 — the defects' fate, open; §10 — the refuted claim about light travel and the phases of τ's oscillation; §4's bracketed note of 2026-10-30, which records the symmetric reading as under Paul's review
 - `review/closed-universe/README.md` — the investigation's record and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/critic/d_light_travel.out` — the critic's light-travel ranges; `review/closed-universe/analyses/gravity-sector.json` — claims C35–C38, which section F checks
 - `scripts/check.sh` — the script's place in the gate
-- `CLAUDE.md` 'Layout' — the script listed as "the closed-universe note"; 'Method (HANDOFF §5)' — the anchor rule; 'Since the handoff' (2026-10-29) — section F gates the homotopy
+- `CLAUDE.md` 'Layout' — the script listed as "the closed-universe note"; 'Method (HANDOFF §5)' — the anchor rule; 'Since the handoff' (2026-10-29) — section F gates the homotopy; (2026-10-30) the symmetric reading, under review
 - `review/wiki-build-flags.md` items 27 (addendum) and 45–54 — "Arithmetic is checked in `verify/closed_universe.py`"; item 61 — the point defects, the ungated script, and section F as its fix
 - `papers/broken-born-checkpoint-v2.md` §14 item 12 — the polarization's defects, the open problem the section's groups bear on, "with the maps behind them gated" and the caveats d = 4 and a global U(4)
