@@ -58,7 +58,7 @@ WIKI = ROOT / "wiki"
 ACRONYMS_FILE = ROOT / "scripts" / "wiki-acronyms.txt"
 
 STATUSES = {
-    "established", "alive", "conjecture", "open", "dead",
+    "established", "alive", "conjecture", "open", "dead", "under-review",
     "superseded", "method", "record", "hub",
 }
 

@@ -39,8 +39,9 @@ It is written for three readers:
   'Method', 2026-10-29). Dead claims are reported prominently, on their own pages. A claim whose
   death Paul has not concurred in, and has contested, is recorded as open or as his conjecture,
   with the evidence against it stated in full. A failed model or version of an idea is not the
-  death of the idea. Deaths recorded before 2026-10-29 stand until Paul answers the concurrence
-  question for them. The wiki never declares a death on its own reading.
+  death of the idea. Of the deaths recorded before 2026-10-29, Paul concurred only in #14's model;
+  the others he has not contested are `under-review`, not dead, until he reviews each. The wiki
+  never declares a death on its own reading.
 - **Tags carry over exactly.** The tags are [D] derived here, [T] literature,
   [P] postulate, [O] open and [V] machine-verified. Citations are marked † (from model
   memory, unverified) or [S] (live-searched). A page never upgrades a tag. Explanations
@@ -70,7 +71,7 @@ what is known and what is claimed read as a sequence.
 | `electric-magnetic-duality/` | monopoles, dualities, charge lattices, the polarization identification |
 | `conjugate-relativity/` | #13: the kinematics of the momentum polarization |
 | `predictions/` | one test page per row of #11 §13, plus the table's history |
-| `status/` | registers: graveyard (first), alive, open problems and the queue, conjectures, superseded |
+| `status/` | registers: graveyard (first), under review, alive, open problems and the queue, conjectures, superseded |
 | `method/` | Lakatos, the collaboration, provenance, verification (one page per script family), blind review |
 | `history/` | timeline, the three main problems, the documents and the conflicts between them |
 | `summary`, `glossary`, `notation`, `references` | single register pages; `summary` (weight 5, first in the menu) is the executive summary, the program's standing on one page |
@@ -80,6 +81,7 @@ what is known and what is claimed read as a sequence.
 | Status | Title pattern |
 | --- | --- |
 | `dead` | "Obituary: …" |
+| `under-review` | "Under review: …" |
 | `open` | "Open: … (OPn)", where OPn is #11 §14's item number when it has one |
 | `superseded` | "… (superseded)" |
 | `conjecture` (P.R.'s or the record's) | "Conjecture: …" |
@@ -190,7 +192,8 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
   | `alive` | a program claim that currently stands |
   | `conjecture` | not derived; includes the chat-only results of `HANDOFF.md` §4 |
   | `open` | an open problem |
-  | `dead` | killed by theory and data, with Paul's explicit concurrence; deaths recorded before 2026-10-29 stand until he answers |
+  | `dead` | killed by theory and data, with Paul's explicit concurrence |
+  | `under-review` | recorded dead before 2026-10-29 without Paul's concurrence; not dead until he reviews it, with the evidence against it stated in full |
   | `superseded` | replaced by a corrected version |
   | `method` | how the program works |
   | `record` | history, reviews, documents |

@@ -66,7 +66,8 @@ only as a task needs them.
   - the chat-only relation is standard physics: D_x·D_p = κ h N^{1/3} is
     an identity of blackbody statistics, constant for a fixed comoving
     region; a·ã = 1 is its one-cell form, and none of it tests the program;
-  - "square exactly at the bounce" is withdrawn (obituary in §6);
+  - "square exactly at the bounce" is withdrawn (obituary in §6; under Paul's review since 2026-10-29, not
+    dead, note v1.2);
   - the self-dual length √(l_P L) ≈ 50 μm is prior art (Freidel,
     Kowalski-Glikman, Leigh and Minic 2023, among others), and the program
     can use it neither as #13's Born length nor as X's range;
@@ -90,7 +91,8 @@ only as a task needs them.
 - 2026-10-28: the momentum-gravity notes (`notes/velocity-gated-gravity.md`, `notes/gate-mechanism.md`;
   Paul's question of 2026-10-26; not reviewed). Their results:
   - the clumping obituary is not premature. It tested the program's contact-range gate on all three branches,
-    and it says clumping is required nowhere, not that it is impossible;
+    and it says clumping is required nowhere, not that it is impossible (on 2026-10-29 Paul did not concur in
+    the death: the founding image is his open conjecture, #11 v2.5 §9);
   - between ordinary bodies, in the aligned vacuum (u = 1) and unscreened, X is a Yukawa term of range below
     37.7 μm. Its dependence on relative velocity is the O(v²/c²) spin-2 factor, 1 + 2.40×10⁻⁷ at 120 km/s, not a
     gate. A relative-velocity gate acting on all bodies is bounded to |ε| < 8.7×10⁻⁹ (gate widths
@@ -149,8 +151,18 @@ only as a task needs them.
   - conjugate collapse powering our accelerating expansion (App. A item 9): the corrected dictionary's dual
     stiff ↦ Λ keeps a route. Two versions failed: the heuristic w = −2, excluded by data, and dual dust,
     which maps to dust.
-- 2026-10-29, Paul's answers to the concurrence questions: #14's ordinary-kinematics model of the third
-  candidate is dead, with his concurrence (#11 v2.5 §12; round-3 Decision 2's note).
+- 2026-10-29, Paul's answers to the concurrence questions (#11 v2.5):
+  - #14's ordinary-kinematics model of the third candidate: dead, with his concurrence (§12; round-3
+    Decision 2's note);
+  - the two failed versions of App. A item 9 (w = −2; dual dust): not concurred. They are failed versions of an
+    open conjecture, not deaths (§10);
+  - the founding image, matter clumping in momentum space (App. A item 3): not concurred. It is his open
+    conjecture again, with the evidence of §9 stated in full;
+  - every other death recorded before 2026-10-29: "Restore all pending". Each is under review, not dead, until
+    he reviews it with Claude. They are: Scenario A; six pieces of #14's model (the Kibble normalization, the ψ
+    relic window, the dimension-five operator, the hidden SU(2) → U(1) sector, α_d ≈ 34 via our photon, the √N
+    floor); Fornax friction suppression; velocity-space granularity in halos; the self-dual length as a
+    program scale; the square rectangle at the bounce; and the naive ρ-preserving potential.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -177,10 +189,8 @@ only as a task needs them.
   - whether the Hamiltonian reading is the right classical limit for a long-range gate;
   - whether the program's bimetric branch has Vainshtein screening at all (flag 57).
 - Open from the monopole discussion, not queued:
-  - Paul's concurrence, asked 2026-10-29, on deaths that theory and data support but he has not concurred in:
-    the two failed versions of App. A item 9; momentum clumping as collective
-    dynamics (#11 §9: particle dark matter by theory, Scenario A by Segue 1's data); and the other obituaries
-    in the wiki's graveyard. Until he answers, these deaths stand as recorded;
+  - the review with Paul of the twelve claims under review (listed in 'Since the handoff', 2026-10-29): each
+    stays not dead until he reviews it, and a death needs his explicit concurrence, in a change of its own;
   - for the restored candidate and the explanation: p-localization, and the kinematics of momentum-polarized
     matter, never modeled (#14 §1 assumed ordinary kinematics);
   - for App. A item 9: whether the contracting conjugate universe is kinetic-dominated, and how dual stiff ↦ Λ
@@ -247,8 +257,9 @@ First time: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`
   - Until he concurs, a claim against which theory or data weigh is recorded as open, or as his
     conjecture, with the evidence against it stated.
   - A failed model or version of an idea is not the death of the idea.
-  - Deaths recorded before 2026-10-29 stand until he answers the concurrence question for them, except
-    those he has contested.
+  - Paul answered for the deaths recorded before 2026-10-29 on the same day. He concurred only in #14's
+    model. Every other one is under review, not dead, until he reviews it (wiki status `under-review`), or
+    restored where he did not concur ('Since the handoff', 2026-10-29).
 
 ## Working with Paul
 
