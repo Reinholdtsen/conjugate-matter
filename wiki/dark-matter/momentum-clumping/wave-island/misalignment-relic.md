@@ -67,7 +67,7 @@ The argument uses two properties of the field: it is light, and its only couplin
 
 For particle χ, the MeV–GeV branch of [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) and the first of the three [dark-matter candidates](/wiki/dark-matter/candidates) ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)), the sources offer only the notebook's own answer, an asymmetry set by polarization-genesis, which is still a sketch; the problem stands there.
 
-The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, after [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) was falsified. #11 §9 lists the misalignment salvage after recording that falsification.
+The wave island itself survives only with [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) couplings, after calc note #4 found [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) contradicted by the ultra-faint dwarfs; recorded dead before 2026-10-29, Scenario A is under review, not dead (#11 §9, 'Status (v2.5)'). #11 §9 lists the misalignment salvage after recording that result.
 
 ## What remains open: the 5.4 : 1 ratio
 
@@ -89,7 +89,7 @@ Calc note #3's "Open problem #5" uses the lab notebook's numbering: it is item 5
 ## Sources
 
 - `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself' — the statement and what remains; 'Standing results after Chunks A+B' — the summary line
-- `papers/broken-born-checkpoint-v2.md` §9 — the salvage line; §12 — the candidates table and the 5.4 : 1 question for all three; §14 item 7 — polarization-genesis as an open item; §14 item 5 — the different open problem 5
+- `papers/broken-born-checkpoint-v2.md` §9 — the salvage line; 'Status (v2.5)' — Scenario A under review, not dead; §12 — the candidates table and the 5.4 : 1 question for all three; §14 item 7 — polarization-genesis as an open item; §14 item 5 — the different open problem 5
 - `notes/broken-born-theory.md` §5.3 — the original relic-abundance problem [O]; §8 — the polarization-genesis sketch; §11 item 5 — its place in the notebook's list; 'Addendum (v0.2)' — the notebook's record of the closure
 - `notes/broken-born-program-v1.md` §7 item 3 — the v1 statement; §10 item 6 — polarization-genesis still open
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the surviving wave island

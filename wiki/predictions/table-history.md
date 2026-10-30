@@ -7,6 +7,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md §9"
+  - "papers/broken-born-checkpoint-v2.md App. A item 3"
   - "papers/broken-born-checkpoint-v2.md §14 item 9"
   - "papers/broken-born-checkpoint-v2.md header"
   - "CLAUDE.md 'Since the handoff'"
@@ -36,7 +38,7 @@ sources:
   - "notes/gate-mechanism.md §5"
 ---
 
-*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Comatter program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the clumping calculation [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and #14's [soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) of the third dark-matter candidate joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
+*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Comatter program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn after the clumping calculations found that [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), the program's founding image and now P.R.'s open conjecture, is required nowhere, and a diagnostic row took their place. The lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and #14's [soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) of the third dark-matter candidate joined the list of withdrawn predictions. On 2026-10-29 Paul concurred in the death of that model, and the two clumping rows went under his review, not dead. This page records those changes so that a row number in an older document can be read correctly.*
 
 **Status:** Record — the tables themselves carry no [provenance tags](/wiki/method/provenance-tags) — #11 §13 is the current table; the tables of #1 §9 and #9 §9 are superseded and kept as the audit trail, and #11's own v2.0 table survives only in the repository's history.
 
@@ -52,19 +54,19 @@ Not every row has a kill condition. Some are diagnostics, which assign dark matt
 
 The notebook singled out three rows: "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). Its one-paragraph summary claimed "kill conditions in every row of §9" (#1 §12).
 
-Two of the three flagships rested on assumptions the program later tested. Row 1's cliff came from a Gaussian gate that was a postulate, and row 3's granularity, with row 4's friction suppression, from the expectation that the gated attraction would act collectively on a halo ([Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
+Two of the three flagships rested on assumptions the program later tested. Row 1's cliff came from a Gaussian gate that was a postulate, and row 3's granularity, with row 4's friction suppression, from the expectation that the gated attraction would act collectively on a halo ([Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
 
 ## The clumping problem: two rows withdrawn, one added
 
 [The clumping problem](/wiki/history/main-problems) tested the collective behaviour behind rows 3 and 4 and found it nowhere required ([the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). The withdrawal came in three steps, through [the clumping calc notes](/wiki/history/documents/clumping-notes).
 
 1. **Calc note #2.** On [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island), "Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them" (`notes/stream-stability.md`, 'Consequences for the predictions table'). Rows 1–2 "**survive** — they are collisional".
-2. **Calc note #3.** On the wave island the coupling could be fixed by dwarf-galaxy cores, and then "The surviving descendant of old rows 3–4" was a signature in [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) (`notes/wave-island.md`, 'What pins g? Two scenarios'). That scenario failed against the observed ultra-faint dwarfs ([Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
+2. **Calc note #3.** On the wave island the coupling could be fixed by dwarf-galaxy cores, and then "The surviving descendant of old rows 3–4" was a signature in [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) (`notes/wave-island.md`, 'What pins g? Two scenarios'). That scenario failed against the observed ultra-faint dwarfs ([Under review: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)).
 3. **Calc note #4.** "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." (`notes/ufd-endpoint.md`, 'Verdict and closure of the clumping problem').
 
 The lab notebook's v0.2 addendum records the result: "Rows 3–4 are struck from §9 permanently" and "A new row replaces them: **cliff-sharpness island discriminant**" (#1 'Addendum (v0.2, after the clumping notes)'). It also lists what was left: "rows 1–2 (cliff, isotropy), the island discriminant, row 5 (thawing, no-phantom, DESI DR3), rows 7–9 (permanent nulls), and the geometric core awaiting the field-equation problem", DESI DR3 being Data Release 3 of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi).
 
-The two withdrawn rows have obituaries beside the claims they tested: [Obituary: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Obituary: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction). Both are indexed in [the graveyard](/wiki/status/graveyard). The new row became [row 3, the island discriminant](/wiki/predictions/island-discriminant).
+The two withdrawn rows have pages beside the claims they tested: [Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction). Recorded dead before 2026-10-29 without Paul's concurrence, both are under his review, not dead, and are indexed in [claims under review](/wiki/status/under-review) ([v2.5](#the-checkpoint-v25-the-withdrawn-list-divided)). The new row became [row 3, the island discriminant](/wiki/predictions/island-discriminant).
 
 ## The field-equation problem: the cliff becomes a knee, and a graviton row
 
@@ -94,7 +96,7 @@ v2.0 also shortened the wording and dropped four details that v1 had carried: ro
 
 ## The checkpoint, v2.1: after round 3
 
-In the [round-3](/wiki/method/review/round-3) review #14's model of the third candidate, superheavy [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), failed, and the review found DESI's second data release against the dark-energy row. v2.1 retired the candidate; v2.4 narrows the retirement to #14's model (below). #11 v2.1 (2026-10-19, commit e1c1f67) changed five entries of the table:
+In the [round-3](/wiki/method/review/round-3) review #14's model of the third candidate, superheavy [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), failed, and the review found DESI's second data release against the dark-energy row. v2.1 retired the candidate; v2.4 narrowed the retirement to #14's model, and v2.5 records the model as dead with Paul's concurrence (below). #11 v2.1 (2026-10-19, commit e1c1f67) changed five entries of the table:
 
 | Row | v2.0 | v2.1 |
 | --- | --- | --- |
@@ -112,7 +114,15 @@ v2.1's list of withdrawn predictions: "Withdrawn with cause: velocity-space gran
 
 #11 v2.4 (2026-10-29) left the eleven rows unchanged and reworded one item of the withdrawn list, from "superheavy-soliton dark matter (obituary §12)" to "#14's superheavy-soliton model (§12)". On Paul's direction that a claim is dead only when theory and data kill it and he concurs, the candidate #14 modeled, conjugate monopoles localized in momentum, is a third dark-matter candidate again, as P.R.'s conjecture; #14 used ordinary kinematics and never tested it, and its model's failure stands (#11 §12; [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Open problem 9 now reads "Discriminating the three dark-sector candidates (§12) [O]" (#11 §14), while two rows still name two candidates: row 7's requirement reads "both dark-sector candidates SM-decoupled", and row 11's "Particles vs condensate" ([row 7](/wiki/predictions/direct-detection-null), [row 11](/wiki/predictions/dark-sector-microstructure)). Flag 63 in `review/wiki-build-flags.md`, raised by both reviewers of the restoration, proposes wording for a v2.4.1 that covers the third candidate in both rows; the ruling is pending, and the rows are unchanged until Paul rules.
 
-The current list of withdrawn predictions (#11 §13): "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)." Paul's concurrence in these recorded deaths was asked on 2026-10-29; until he answers, they stand as recorded (root `CLAUDE.md`, 'Since the handoff').
+v2.4's list of withdrawn predictions (#11 §13): "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)." Paul's concurrence in these recorded deaths was asked the same day (root `CLAUDE.md`, 'Since the handoff').
+
+## The checkpoint, v2.5: the withdrawn list divided
+
+#11 v2.5 (2026-10-29) records Paul's answers to the concurrence questions and leaves the eleven rows unchanged. He concurred in the death of #14's model. For the other deaths recorded before 2026-10-29 that he has not contested, he answered "Restore all pending": each is under review, not dead, until he reviews it with Claude (root `CLAUDE.md`, 'Since the handoff'). The withdrawn list now reads (#11 §13):
+
+> Withdrawn with cause: #14's superheavy-soliton model (§12; dead, with P.R.'s concurrence of 2026-10-29). Withdrawn and under P.R.'s review, not dead (v2.5): velocity-space granularity in halos; Fornax friction suppression (§9).
+
+The two clumping rows stay withdrawn, and the results that withdrew them stand ([the clumping problem](#the-clumping-problem-two-rows-withdrawn-one-added)); their status changed from dead to under review. The founding image, the collective behaviour those rows assumed, is P.R.'s open conjecture again (#11 §9, App. A item 3; [Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
 
 ## Exposure and novelty over time
 
@@ -125,7 +135,7 @@ The rows the documents single out have changed with the table.
 | #11 §15 | 1, 4, 7 | near-term falsification exposure |
 | #11 §15 | 3, 11 | "predictions not previously posed" |
 
-The v0.1 flagship row 3 is dead, and the cliff of flagship row 1 is now a knee. v1 lists among its progressive signs "novel predictions not previously posed (island discriminant; knee shape; even-eigenstate masslessness as a bimetric-parity statement)" (#9 §11). The program's overall standing is on [Assessment: a live research program](/wiki/program/assessment).
+The v0.1 flagship row 3 is withdrawn and under Paul's review, and the cliff of flagship row 1 is now a knee. v1 lists among its progressive signs "novel predictions not previously posed (island discriminant; knee shape; even-eigenstate masslessness as a bimetric-parity statement)" (#9 §11). The program's overall standing is on [Assessment: a live research program](/wiki/program/assessment).
 
 ## Numbering
 
@@ -135,8 +145,8 @@ The clumping calc notes and #1 §9 use v0.1's numbers, in which row 3 is granula
 |---|---|---|---|
 | σ_T(v) across halo masses | 1 (cliff) | 1 (knee) | [1](/wiki/predictions/self-interaction-knee) |
 | Scattering anisotropy | 2 | 2 | [2](/wiki/predictions/scattering-isotropy) |
-| Velocity-space structure in relaxed halos | 3 | withdrawn | withdrawn ([obituary](/wiki/dark-matter/momentum-clumping/velocity-granularity)) |
-| Dynamical friction in dwarf cores | 4 | withdrawn | withdrawn ([obituary](/wiki/dark-matter/momentum-clumping/fornax-friction)) |
+| Velocity-space structure in relaxed halos | 3 | withdrawn | withdrawn ([under review](/wiki/dark-matter/momentum-clumping/velocity-granularity)) |
+| Dynamical friction in dwarf cores | 4 | withdrawn | withdrawn ([under review](/wiki/dark-matter/momentum-clumping/fornax-friction)) |
 | Island discriminant | none (added by the v0.2 addendum, unnumbered) | 3 | [3](/wiki/predictions/island-discriminant) |
 | Dark energy w(z) | 5 | 4 | [4](/wiki/predictions/dark-energy-drift) |
 | Fate of expansion | 6 | 5 | [5](/wiki/predictions/fate-of-expansion) |
@@ -146,7 +156,7 @@ The clumping calc notes and #1 §9 use v0.1's numbers, in which row 3 is granula
 | Photon dispersion | 9 | 9 | [9](/wiki/predictions/photon-dispersion) |
 | Early universe | 10 | 10 | [10](/wiki/predictions/early-universe-step) |
 | Dark-sector microstructure | none | none | [11](/wiki/predictions/dark-sector-microstructure) |
-| #14's superheavy-soliton model | none | none | withdrawn in v2.1, as "superheavy-soliton dark matter" ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)) |
+| #14's superheavy-soliton model | none | none | withdrawn in v2.1, as "superheavy-soliton dark matter"; dead, with Paul's concurrence, since v2.5 ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)) |
 
 ## Superseded: the parameter count
 
@@ -162,7 +172,8 @@ The lab notebook paired its table with a count of two parameters per sector agai
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the three candidates since v2.4 and #14's failed model; §14 item 9 — the three candidates to discriminate; §7.5 — five βₙ to two parameters; header — the v2.1, v2.2, v2.3 and v2.4 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
+- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list, divided in v2.5; §15 — the exposure rows and the rows not previously posed; §12 — the three candidates since v2.4 and #14's failed model, dead with Paul's concurrence since v2.5; §9 and App. A item 3 — the founding image, P.R.'s open conjecture since v2.5; §14 item 9 — the three candidates to discriminate; §7.5 — five βₙ to two parameters; header — the v2.1, v2.2, v2.3, v2.4 and v2.5 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
+- `CLAUDE.md` 'Since the handoff' — Paul's answers of 2026-10-29: #14's model dead with his concurrence, and the two clumping rows, with the other deaths recorded before that day, under review
 - `notes/broken-born-program-v1.md` §9 — v1's ten rows and its withdrawn list; §11 — its exposure rows and novel predictions; §0 — "two free parameters per sector"
 - `notes/broken-born-theory.md` §9, §10, §12 — v0.1's ten rows, its flagships, its parameter table and summary
 - `notes/broken-born-theory.md` 'Addendum (v0.2, after the clumping notes)', 'Addendum (v0.4)', 'Addendum (v0.6)' — the withdrawal of rows 3–4 and the island-discriminant row; the cliff-to-knee amendment; the spectrum behind the graviton row

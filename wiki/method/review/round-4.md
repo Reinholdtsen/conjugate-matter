@@ -28,7 +28,7 @@ sources:
 
 *Review round 4 was the blind review of the toy-model note, `papers/reciprocity-toy-models.md`, which builds two explicit field theories in which Born reciprocity is a symmetry of the action and asks whether the lowest-energy state breaks it. A fresh referee that could execute code reproduced the note's algebra and most of its numerics, but found that the note's one claim of quantum symmetry breaking rested on a potential that is unbounded below once the field H is allowed to vary. It graded the note B, flawed but salvageable, and the author agreed; the pre-registered forecast had also been B, though it had placed the weakest link correctly and underestimated how serious it was. Every revision was accepted; version 2 of the note applied them on 2026-10-20, with three departures, and the round added two rules to the project's method.*
 
-**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (toy note v2 and #11 v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A round-5 review is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
+**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (toy note v2 and #11 v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A further review of the note, which would be round 6 because round 5 went to the phase-space-diameter note, is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
 
 ## The manuscript under review
 
@@ -111,7 +111,7 @@ The repair came from the referee. Dividing by 2 Tr KᵀK, a measure of the size 
 V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK)
 ```
 
-The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." ([obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), listed in [the graveyard](/wiki/status/graveyard); [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
+The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." The wiki recorded the naive potential as dead; since Paul's answers of 2026-10-29 it has been under review, not dead ([Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), listed in [claims under review](/wiki/status/under-review)). The rulings stand as results ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
 
 **The zero mode: a conflict between the sources.** The adjudication's F2 ruling calls the zero eigenvalue "the residual diagonal squeeze, which is an exact symmetry". Version 2 of the note says "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref" (§4). Version 2 ranks higher, and the wiki follows it; a symbolic check made during the wiki build found V_b not squeeze-invariant off K = ±K_ref (flag 12 in `review/wiki-build-flags.md`).
 
@@ -233,7 +233,8 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 - **The open ends of the toy work**, listed in root `CLAUDE.md`: [a Monte Carlo with H dynamical](/wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo); a derivation of the ρ-preserving potential; the strong form of matter locality; and "the real Grosse–Wulkenhaar model's one-loop preference for the position-sharp vacuum, a lead." ([Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); [strong locality](/wiki/symmetry-breaking/strong-locality); [open problems and the queue](/wiki/status/open-problems)).
 - **Whether ρ's SO(2) breaks** in the coupled model, raised by the Mermin–Wagner ruling.
 - **The Langmann–Szabo–Zarembo comparison**, asked for by revision 4 and not carried out (flag 42).
-- **A round-5 review**, optional, "but only before any external use" (root `CLAUDE.md`).
+- **A round-6 review** of the note, optional, "but only before any external use" (root `CLAUDE.md`; [round 5](/wiki/method/review/round-5) reviewed the phase-space-diameter note).
+- **The naive potential**: under review, not dead, until Paul reviews it with Claude ([claims under review](/wiki/status/under-review)).
 
 ## Sources
 
@@ -245,7 +246,7 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the criterion met in the referees' wording; the round's outcome
 - `notes/toy-lagrangian.md` 'Write-up and review (2026-10-19/20)' — the revisions as applied; no round 5 for now
 - `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py` — the gated checks of the findings
-- `CLAUDE.md` 'Since the handoff (2026-10-19)', 'Method (HANDOFF §5)' — the open ends, round 5 optional, the two lessons
+- `CLAUDE.md` 'Since the handoff (2026-10-19)', 'Method (HANDOFF §5)' — the open ends, round 6 optional, the two lessons, and the naive potential among the claims under review since 2026-10-29
 - `review/round3-adjudication.md` 'Decisions' (4) — why the toy Lagrangian came next
 - `HANDOFF.md` §8 item 4 — the toy Lagrangian as the gate to verdict A
 - `review/wiki-build-flags.md` items 2, 10, 11, 12, 13, 38, 42 — suspected source errors bearing on this round, among them where the arbitration scripts belong (38) and the revision recorded as applied that v2 did not carry out (42)

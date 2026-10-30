@@ -169,7 +169,7 @@ PASS  the naive Tr(dK dK) is indefinite on K's target space (de Sitter): 2 db dc
 
 ### An unbounded potential is not a ghost
 
-[Round 4](/wiki/method/review/round-4) found a defect of another kind in the first potential added to model I to pin its polarization, −μ[Tr(K K_ref)]². Model I's kinetic terms are positive, so the defect lies in the potential. In the words of the toy-model note, the potential "is unbounded below once H is dynamical", and "The point (1, K_ref) is a saddle" (§4); the round-4 adjudication upheld both findings (F1, F2), and the gate confirms the saddle (`verify/toy_coset.py`). In this page's terms that is a tachyonic direction of a potential with no lower bound, not a ghost. The potential is dead ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) replaced it, and the episode produced [the reduced-model stability rule](/wiki/method/verification/reduced-model-stability).
+[Round 4](/wiki/method/review/round-4) found a defect of another kind in the first potential added to model I to pin its polarization, −μ[Tr(K K_ref)]². Model I's kinetic terms are positive, so the defect lies in the potential. In the words of the toy-model note, the potential "is unbounded below once H is dynamical", and "The point (1, K_ref) is a saddle" (§4); the round-4 adjudication upheld both findings (F1, F2), and the gate confirms the saddle (`verify/toy_coset.py`). In this page's terms that is a tachyonic direction of a potential with no lower bound, not a ghost. The potential was recorded dead and has been under review since 2026-10-29 ([Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)). [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) replaced it, and the episode produced [the reduced-model stability rule](/wiki/method/verification/reduced-model-stability).
 
 ### The lab notebook's minisuperspace argument
 
@@ -224,7 +224,7 @@ The program's documents give no general reference for ghosts. For particular res
 - `review/round3/referee/audit-notes.md` Step 1 — the "exponential Jeans-like instability"; the over-generalization of reference [4]; Higuchi's reference supports the bound.
 - `review/v3-worklog.md` 'Round-2 pending list', item R7 — "the strong-coupling era H > H⋆ is unresolved".
 - `notes/broken-born-theory.md` §4 — 'Ghost accounting' [D], with its open remainder [O]; §6 — "not a ghost — ã was never independent" [D]; §7 item 1 — w ≥ −1 [D]; 'Addendum (v0.4)' — X a second graviton; 'Addendum (v0.5)' — "exhibited twice independently".
-- `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure".
+- `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure"; the naive ρ-preserving potential under review since 2026-10-29.
 - `review/wiki-build-flags.md` item 25 — the notebook's "(§7)" for a constraint derived in §6; awaiting Paul's ruling.
 - `notes/closed-universe.md` §7; `review/wiki-build-flags.md` item 49 — the dual Einstein–Hilbert term behind the a⁻⁶ step is not derived
 - `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 53 — the Higuchi bound through the dressed mass

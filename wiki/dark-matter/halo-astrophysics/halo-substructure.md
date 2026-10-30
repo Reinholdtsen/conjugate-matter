@@ -2,9 +2,12 @@
 title: "Halo-substructure probes: streams and dynamical friction"
 weight: 30
 status: established
-description: "Cold stellar streams (GD-1, Pal 5) as probes of substructure, and dynamical friction on Fornax's globular clusters: the probes behind the program's withdrawn rows 3 and 4."
+description: "Cold stellar streams (GD-1, Pal 5) as probes of substructure, and dynamical friction on Fornax's globular clusters: the probes behind the program's withdrawn rows 3 and 4, under review since 2026-10-29."
 provenance: [T]
 sources:
+  - "papers/broken-born-checkpoint-v2.md §13"
+  - "papers/broken-born-checkpoint-v2.md §9"
+  - "CLAUDE.md 'Since the handoff'"
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md §5.2"
   - "notes/broken-born-theory.md §10"
@@ -14,14 +17,14 @@ sources:
   - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "notes/wave-island.md 'Standing results after Chunks A+B'"
+  - "notes/wave-island.md 'Status note'"
   - "notes/ufd-endpoint.md 'Verdict and closure of the clumping problem'"
   - "notes/broken-born-program-v1.md §9"
-  - "papers/broken-born-checkpoint-v2.md §13"
 ---
 
-*Halo substructure is the small-scale lumpiness of a galaxy's dark-matter halo, and two kinds of observation probe it. Cold stellar streams — long, thin trails of stars pulled off globular clusters or small galaxies by the Milky Way's tides — are disturbed by any lump of dark matter that passes through them, which leaves gaps and kinks along the stream. Dynamical friction — the drag a massive body feels from the gravitational wake it raises in a sea of lighter particles — makes globular clusters sink toward the center of a dwarf galaxy, at a rate set by the dark matter's distribution. The Comatter program's [lab notebook](/wiki/history/documents/lab-notebook) used both as tests of its [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of dark matter clumping by velocity; both tests are withdrawn, because the [the clumping problem](/wiki/history/main-problems) calculations showed that velocity clumping is nowhere a required consequence of the program.*
+*Halo substructure is the small-scale lumpiness of a galaxy's dark-matter halo, and two kinds of observation probe it. Cold stellar streams — long, thin trails of stars pulled off globular clusters or small galaxies by the Milky Way's tides — are disturbed by any lump of dark matter that passes through them, which leaves gaps and kinks along the stream. Dynamical friction — the drag a massive body feels from the gravitational wake it raises in a sea of lighter particles — makes globular clusters sink toward the center of a dwarf galaxy, at a rate set by the dark matter's distribution. The Comatter program's [lab notebook](/wiki/history/documents/lab-notebook) used both as tests of its [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of dark matter clumping by velocity, P.R.'s open conjecture; both tests are withdrawn, because the calculations of [the clumping problem](/wiki/history/main-problems) showed that velocity clumping is nowhere a required consequence of the program. Recorded dead before 2026-10-29, the two withdrawn rows, [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction), are now under review with Paul.*
 
-**Status:** Established — [T], explained here from general knowledge — the program used these probes for old rows 3 and 4 of the lab notebook's [predictions table](/wiki/predictions/table-history), which are "permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`).
+**Status:** Established — [T], explained here from general knowledge — the program used these probes for old rows 3 and 4 of the lab notebook's [predictions table](/wiki/predictions/table-history), which are "permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`); #11 v2.5 §13 lists them as "Withdrawn and under P.R.'s review, not dead (v2.5)".
 
 ## Substructure in cold dark matter [T]
 
@@ -45,7 +48,7 @@ In a dwarf galaxy the massive bodies are globular clusters (GCs), and the drag c
 
 ### The founding image
 
-The lab notebook's first version predicted that [conjugate matter](/wiki/dark-matter/conjugate-matter)'s gated self-attraction would make a halo's velocity distribution unstable. In its words (#1 §5.2, tagged [D at mean-field level; O beyond]): "the collisionless Boltzmann equation with this mean field is the Jeans problem *with the roles of x and v exchanged*: a smooth Maxwellian f(v) is unstable to fragmentation into **discrete velocity streams of width Δv ∼ v\***, each spatially delocalized and internally coherent across kiloparsecs." The gate width v\* is the relative speed below which conjugate particles interact ([the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate)). The notebook drew two consequences for observation: "superfluid-like cores in dwarfs and **suppressed dynamical friction** inside them (the Fornax globular-cluster timing problem is a feature, not a bug)". It also named the calculation on which both rested: "The growth rate γ versus orbital phase-mixing remains to be computed; it is the theory's most important undone calculation on the astrophysics side. [O]" The founding image is dead; see [its obituary](/wiki/dark-matter/momentum-clumping/founding-image).
+The lab notebook's first version predicted that [conjugate matter](/wiki/dark-matter/conjugate-matter)'s gated self-attraction would make a halo's velocity distribution unstable. In its words (#1 §5.2, tagged [D at mean-field level; O beyond]): "the collisionless Boltzmann equation with this mean field is the Jeans problem *with the roles of x and v exchanged*: a smooth Maxwellian f(v) is unstable to fragmentation into **discrete velocity streams of width Δv ∼ v\***, each spatially delocalized and internally coherent across kiloparsecs." The gate width v\* is the relative speed below which conjugate particles interact ([the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate)). The notebook drew two consequences for observation: "superfluid-like cores in dwarfs and **suppressed dynamical friction** inside them (the Fornax globular-cluster timing problem is a feature, not a bug)". It also named the calculation on which both rested: "The growth rate γ versus orbital phase-mixing remains to be computed; it is the theory's most important undone calculation on the astrophysics side. [O]" The record called the founding image dead from #11 v2.0 to v2.4; since v2.5 it has been P.R.'s open conjecture again, with the evidence against it stated in full ([Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
 
 ### The two rows, verbatim
 
@@ -75,11 +78,11 @@ The open calculation was the notebook's open problem 3: "**Stream-instability gr
 
 - **Calc note #2, [particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem).** The mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 28–31 orders of magnitude at the [scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark), and below threshold there is no growth: "There is no race with orbital stirring below threshold — the flocking never starts" ('Limit 1'). Hence: "Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them" ('Consequences for the predictions table').
 - **Calc note #3, [wave island](/wiki/dark-matter/momentum-clumping/wave-island).** Collective behavior is possible there but not required. "Row 3 as written (Gaia/GD-1 granularity in MW-like halos) is dead on both islands as a *mandatory* signature" ('Standing results after Chunks A+B'), with MW for the Milky Way. Under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), "The surviving descendant of old rows 3–4 is therefore a sharply localized prediction: **anomalous central objects, density spikes, or disruption signatures in ultra-faint dwarfs, absent in classical dwarfs and the MW.**" Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), "streams are *tunable*, not mandatory".
-- **Calc note #4.** Scenario A fell to the ultra-faint dwarfs, and its descendant prediction with it: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." ('Verdict and closure of the clumping problem'.)
+- **Calc note #4.** The ultra-faint dwarfs contradicted Scenario A, now under review, and with it its descendant prediction: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." ('Verdict and closure of the clumping problem'.)
 
-The lab notebook's addendum v0.2 records the result: "Rows 3–4 are struck from §9 permanently". [Program v1](/wiki/history/documents/checkpoint): "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)" (#9 §9). [The checkpoint](/wiki/history/documents/checkpoint) lists both as "Withdrawn with cause" (#11 §13). The obituaries are [velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction), both in [the graveyard](/wiki/status/graveyard); the theorem that summarizes the clumping problem is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem).
+The lab notebook's addendum v0.2 records the result: "Rows 3–4 are struck from §9 permanently". [Program v1](/wiki/history/documents/checkpoint): "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)" (#9 §9). [The checkpoint](/wiki/history/documents/checkpoint) listed both as "Withdrawn with cause" until v2.4; since v2.5 it has listed them as "Withdrawn and under P.R.'s review, not dead (v2.5)" (#11 §13). Their pages are [Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction), both in [claims under review](/wiki/status/under-review): recorded dead before 2026-10-29, each is under review, not dead, until Paul reviews it with Claude (root `CLAUDE.md`, 'Since the handoff'). The theorem that summarizes the clumping problem is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem).
 
-The probes themselves are unaffected: streams and friction remain standard tests of dark-matter substructure. What died is the program's claim that they would show its signature.
+The probes themselves are unaffected: streams and friction remain standard tests of dark-matter substructure. What was withdrawn, and is under review, is the program's claim that they would show its signature.
 
 ## Numbering
 
@@ -97,17 +100,18 @@ The program's documents cite no source for streams, dynamical friction or the Fo
 
 ## Used by
 
-- [Obituary: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) — the stream test of the founding image.
-- [Obituary: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction) — the friction test.
-- [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image) — predicted the condensed cores and the suppressed friction.
+- [Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity) — the stream test of the founding image.
+- [Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction) — the friction test.
+- [Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image) — predicted the condensed cores and the suppressed friction.
 - [The history of the predictions table](/wiki/predictions/table-history) — the old rows 3 and 4 and their renumbering.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 — "Withdrawn with cause"
+- `papers/broken-born-checkpoint-v2.md` §13 — "Withdrawn and under P.R.'s review, not dead (v2.5)", and "Withdrawn with cause" until v2.4; §9 'Status (v2.5)' — the founding image as P.R.'s open conjecture, Scenario A under review
+- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — the two rows and Scenario A under review, not dead, until he reviews each
 - `notes/stream-stability.md` 'Limit 1 — broad gate (μ ≫ mσ; dwarf regime)', 'Consequences for the predictions table' — no growth below threshold; the withdrawal on the particle island
-- `notes/wave-island.md` 'What pins g? Two scenarios', 'Standing results after Chunks A+B' — row 3 dead as a mandatory signature on both islands; Scenario A's descendant prediction; tunable streams
-- `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the permanent withdrawal on both islands
+- `notes/wave-island.md` 'What pins g? Two scenarios', 'Standing results after Chunks A+B' — the note's verdict that row 3 "is dead on both islands as a *mandatory* signature"; Scenario A's descendant prediction; tunable streams; 'Status note, 2026-10-29' — old rows 3 and 4 under Paul's review, not dead
+- `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the withdrawal on both islands, "permanently withdrawn" in its words
 - `notes/broken-born-program-v1.md` §9 — "Withdrawn with cause, permanently"
 - `notes/broken-born-theory.md` §9 — old rows 3 and 4, verbatim; the flagship discriminants
 - `notes/broken-born-theory.md` §5.2, §10, §11, 'Addendum (v0.2, after the clumping notes): resolution of open problem 3' — the founding image, suppressed friction and the Fornax timing problem; the parameter count; open problem 3; the rows struck

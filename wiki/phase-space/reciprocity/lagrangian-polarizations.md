@@ -47,7 +47,7 @@ The ordinary choice writes a state as ψ(x); the opposite choice writes it as ψ
 
 The postulate P5 says which: "The vacuum selects a polarization; ours is x-tilted; the mirror vacuum is equally lawful." [P] (#11 §4; [P5](/wiki/program/postulates/p5-spontaneous-selection)). The [lab notebook](/wiki/history/documents/lab-notebook)'s version names the Lagrangian explicitly: "The vacuum selects a Lagrangian polarization of 𝒫; ours is x-tilted. The choice is spontaneous: the mirror vacuum is an equally good solution." (#1 §1).
 
-Since v2.2 the choice is a continuous angle rather than a discrete pick. With only ω rigid, the reciprocity map ρ ([Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)) "sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
+Since v2.2 the choice has been a continuous angle rather than a discrete pick. With only ω rigid, the reciprocity map ρ ([Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity)) "sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
 ## A polarization from a real structure
 

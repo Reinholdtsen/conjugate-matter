@@ -73,7 +73,7 @@ For d > 1 no document writes the map out and no script checks it. Battery test T
 
 ### On wave packets: the Fourier transform
 
-The phase-space-diameter note (`papers/phase-space-diameter.md` v1.1) realizes the map on quantum states (§5, [T][V]). In units ℏ = λ = 1, a Gaussian wave packet ψ_Z(x) ∝ exp(iZx²/2) is labelled by a point Z = X + iY of the upper half-plane, and the Fourier transform, which carries out ρ on wavefunctions ([the Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform)), sends ψ_Z to ψ_{−1/Z}. The note: "This is the program's reciprocity Z → −Z⁻¹ on its modular field …, realized on wave packets" (the omitted citation is #11 §6). Its script transforms one packet numerically:
+The phase-space-diameter note (`papers/phase-space-diameter.md`) realizes the map on quantum states (§5, [T][V]). In units ℏ = λ = 1, a Gaussian wave packet ψ_Z(x) ∝ exp(iZx²/2) is labelled by a point Z = X + iY of the upper half-plane, and the Fourier transform, which carries out ρ on wavefunctions ([the Fourier transform as a phase-space rotation](/wiki/phase-space/reciprocity/fourier-transform)), sends ψ_Z to ψ_{−1/Z}. The note: "This is the program's reciprocity Z → −Z⁻¹ on its modular field …, realized on wave packets" (the omitted citation is #11 §6). Its script transforms one packet numerically:
 
 ```text
 PASS  Fourier transform maps Z = 0.3 + 0.7i to -1/Z = -0.5172 + 1.2069i (numerical FFT)  [-0.517241+1.206897j]
@@ -120,7 +120,7 @@ PASS  on |Z| = 1, H_xx = H_pp = 1/Y: the position and momentum extents are equal
 PASS  an order-one X today: (M_X/H0)^2 = 1.3e61 for M_X c^2 = 5.2 meV  [1.327e+61]
 ```
 
-The claim is withdrawn ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). On flags 23 and 24 the round-5 adjudication tells Paul that "the note's §5 and §6 support accepting both" ('Recommendations to Paul'). The wiki records that recommendation and does not rule on either flag; both await Paul's ruling.
+The claim is withdrawn, and has been under Paul's review since 2026-10-29, not dead (note v1.2; [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). On flags 23 and 24 the round-5 adjudication tells Paul that "the note's §5 and §6 support accepting both" ('Recommendations to Paul'). The wiki records that recommendation and does not rule on either flag; both await Paul's ruling.
 
 ### The same matrix in charge space
 
@@ -160,6 +160,6 @@ Whether the two polarizations belong together is a conjecture [O], open item 8: 
 - `review/wiki-build-flags.md` item 23 and `review/wiki-build-checks/self_dual_locus.py` — the query on the identification of a·ã = 1 with |Z| = 1, with its executed check; awaiting Paul's ruling.
 - `review/wiki-build-flags.md` item 39 and `review/wiki-build-checks/rho_parity.py` — the inversion against the frame exchange on the spin-2 sector (`notes/beta-coefficients.md` §1; #11 §7.3), with its executed check and audit verdict; awaiting Paul's ruling.
 - `papers/phase-space-diameter.md` §5 — the inversion realized on Gaussian wave packets [T][V]; the three loci [D][V]; the slice X = 0 as the note's reading; the program's action fixes no λ [D].
-- `papers/phase-space-diameter.md` §6 — the |Z| = 1 identification as the likeliest origin of "square exactly at the bounce" [D, inference], and its two failures [V].
+- `papers/phase-space-diameter.md` §6 — the |Z| = 1 identification as the likeliest origin of "square exactly at the bounce" [D, inference], and its two failures [V]; v1.2 — the claim's withdrawal under Paul's review, not dead.
 - `verify/phase_space_diameter.py` — the numerical Fourier check for one packet; the |Z| = 1 path, H_xx = H_pp on it, and the energy factor of an order-one X.
 - `review/round5-adjudication.md` 'Rulings' R14 — the convention dependence of the apex of |Z| = 1; 'Recommendations to Paul' — the note's §5 and §6 support accepting flags 23 and 24.

@@ -1,9 +1,10 @@
 ---
-title: "Obituary: Planck-suppressed adjoint mixing"
+title: "Under review: Planck-suppressed adjoint mixing"
 weight: 130
-status: dead
+status: under-review
 description: "The operator Φ^a F^a B/M_* exists in the literature (Baumgart's footnote, ruling 8), but its O(1)-at-Planck coefficient is unsupported and its sources need bi-charged states that P4 excludes."
 sources:
+  - "CLAUDE.md 'Since the handoff'"
   - "review/round3-adjudication.md 'Rulings' 7–8"
   - "review/round3-adjudication.md 'Decisions' 1"
   - "review/round3-adjudication.md 'Pre-registration scored'"
@@ -20,18 +21,19 @@ sources:
   - "notes/knot-dark-matter-standalone.md §5"
   - "notes/knot-dark-matter-standalone.md §6"
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "HANDOFF.md §6"
 ---
 
-*Planck-suppressed adjoint mixing was #14 v3's estimate of how strongly its hidden photon would mix with ours. The hidden Higgs field Φ permits a gauge-invariant interaction Φ^a F^a_μν B^μν / M_\*, which links the hidden field strength to the field strength of our hypercharge; once Φ takes its vacuum value v, it produces a kinetic mixing ε ~ v/M_\*. v3 assumed the operator appears with a coefficient of order one at the [Planck scale](/wiki/gravity/spin-2-fields/planck-units#14s-soliton-model), which gives ε ~ 10⁻⁷–10⁻⁶. The [round-3 review](/wiki/method/review/round-3) found no source for that assumption: every paper that derives the operator obtains it at one loop from particles charged under both forces, which the manuscript's own sector separation excludes, and the estimate those papers give is three orders of magnitude smaller. The estimate is dead, and the program then took sector separation strictly.*
+*Planck-suppressed adjoint mixing was #14 v3's estimate of how strongly its hidden photon would mix with ours. The hidden Higgs field Φ permits a gauge-invariant interaction Φ^a F^a_μν B^μν / M_\*, which links the hidden field strength to the field strength of our hypercharge; once Φ takes its vacuum value v, it produces a kinetic mixing ε ~ v/M_\*. v3 assumed the operator appears with a coefficient of order one at the [Planck scale](/wiki/gravity/spin-2-fields/planck-units#14s-soliton-model), which gives ε ~ 10⁻⁷–10⁻⁶. The [round-3 review](/wiki/method/review/round-3) found no source for that assumption: every paper that derives the operator obtains it at one loop from particles charged under both forces, which the manuscript's own sector separation excludes, and the estimate those papers give is three orders of magnitude smaller. The estimate was recorded dead, and the program then took sector separation strictly; the estimate has been under review since 2026-10-29.*
 
-**Status:** Dead, Paul's concurrence asked 2026-10-29; until he answers, the death stands as recorded (root `CLAUDE.md`, 'Since the handoff') — round-3 ruling 7, upheld: the "O(1) coefficient at the Planck scale" is unsupported, and "the literature generates it at one loop from bi-charged states, which sector separation forbids" ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). The operator itself exists: ruling 8 overturned the referee's claim that a cited paper lacked it. Decision 1 replaced the estimate with strict sector separation ([P4](/wiki/program/postulates/p4-polarized-matter); [round-3 decisions](/wiki/method/review/round-3/decisions)). Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). The finding against it is round-3 ruling 7, upheld: the "O(1) coefficient at the Planck scale" is unsupported, and "the literature generates it at one loop from bi-charged states, which sector separation forbids" ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). The operator itself exists: ruling 8 overturned the referee's claim that a cited paper lacked it. Decision 1 replaced the estimate with strict sector separation ([P4](/wiki/program/postulates/p4-polarized-matter); [round-3 decisions](/wiki/method/review/round-3/decisions)). Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); listed in [claims under review](/wiki/status/under-review).
 
 ## What was claimed
 
 ### The operator
 
-The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) broke a hidden SU(2)_d to U(1)_d with a real scalar Φ in the adjoint representation ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). A non-abelian group has no gauge-invariant field strength of its own to mix with ours, so the renormalizable [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) term does not exist for SU(2)_d [T]. #14 §2(b) gave the next possibility:
+The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) broke a hidden SU(2)_d to U(1)_d with a real scalar Φ in the adjoint representation ([Under review: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). A non-abelian group has no gauge-invariant field strength of its own to mix with ours, so the renormalizable [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) term does not exist for SU(2)_d [T]. #14 §2(b) gave the next possibility:
 
 > (b) A dimension-5 operator. Phi^a F^a_mu-nu B^mu-nu / M_* is gauge invariant and gives epsilon ~ v/M_* once Phi condenses [10]. For an O(1) coefficient at the Planck or reduced Planck scale, epsilon ~ 1e-7 to 1e-6. The operator is odd under Phi -> -Phi, so a discrete symmetry acting as hidden charge conjugation forbids it - but only if that symmetry is gauged, since quantum gravity is believed to admit no exact global symmetries [11].
 
@@ -50,7 +52,7 @@ The coefficient was the assumption: "an O(1) coefficient at the Planck or reduce
 
 The size of ε fixed the main test v3 offered.
 
-- **Millicharged ψ.** #14 §4: "If hidden charge conjugation is not a gauged symmetry, psi carries visible electric charge ~ epsilon e, with epsilon ~ 1e-7 to 1e-6. Its mass lies between the MeV scale and ~0.1 TeV, and it is a subdominant relic. Bounds on millicharged particles in this mass and charge range have not been evaluated here. They are the most direct near-term test of the proposal (exclusion condition 3)." ψ is the light hidden fermion v3 added so that the hidden W′± could decay ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)).
+- **Millicharged ψ.** #14 §4: "If hidden charge conjugation is not a gauged symmetry, psi carries visible electric charge ~ epsilon e, with epsilon ~ 1e-7 to 1e-6. Its mass lies between the MeV scale and ~0.1 TeV, and it is a subdominant relic. Bounds on millicharged particles in this mass and charge range have not been evaluated here. They are the most direct near-term test of the proposal (exclusion condition 3)." ψ is the light hidden fermion v3 added so that the hidden W′± could decay ([Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)).
 - **Exclusion condition 3.** "Exclusion of the millicharged psi window: m_psi from the MeV scale to ~0.1 TeV at visible charge ~ (1e-7 to 1e-6) e. This lapses if hidden charge conjugation is shown to be a gauged symmetry, which sets epsilon = 0" (§5).
 - **Acceptance criterion (2).** "either a gauged hidden charge conjugation, or a demonstration that the millicharged psi window survives existing constraints" (§6), with "sector separation, and either its ultraviolet stability or a gauged hidden charge conjugation" among the claims v3 called conjectural.
 
@@ -60,7 +62,7 @@ The round-3 [pre-registration](/wiki/method/review/round-3/preregistration) expe
 
 The round-3 referee checked the estimate three ways: the arithmetic in Python (Step 2), each reference against what it is cited for (Step 1, summarized in Step 4(b)), and the estimate against the rest of the manuscript (Step 4(a)).
 
-## Why it failed
+## The evidence against it
 
 ### The arithmetic was right
 
@@ -110,7 +112,7 @@ The footnote's name for the operator refers to the electroweak S parameter, a pr
 
 So the two rulings divide the claim. The operator, and the relation ε ~ v/M_\*, are in the literature (ruling 8). The size v3 gave it is not (ruling 7).
 
-## The verdict
+## The verdict in the record
 
 Decision 1 (2026-10-19) chose strict sector separation over the estimate:
 
@@ -121,11 +123,11 @@ The decision's first line sets what remains: "ε ≲ 10⁻¹³ from gravity alon
 
 The adjudication counted the coefficient among the numerical indictments the pre-registration had not expected: "Three survive (p; the ψ window; ξ), plus the ε coefficient", with the comment "All are wrong inputs or model choices in my scripts, not arithmetic slips." The worklog had marked its own version of the estimate machine-verified, "Our estimate: ε ≈ 2.4×10⁻⁸ at M = M_Pl [V]" (R4). The check confirmed v/M, which round 3 also confirmed; the coefficient in front of it was an input the check did not test ([verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model)).
 
-## What survives
+## What stands
 
 - **The operator and the relation.** Φ^a F^a_μν B^μν/M_\* exists in the literature (Baumgart et al.'s footnote; Chen–Cline–Frey eq. 1; Brümmer–Jaeckel eq. 25), and gives ε ~ v/M_\*.
 - **The rest of #14's mixing section.** The gravity-only bound and the absence of visible magnetic flux while U(1)_d is unbroken survive v3: "The kinetic-mixing literature points (a) and (c)" (adjudication, 'What survives v3'; [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)).
-- **Nothing of the window.** The ε ~ 10⁻⁷–10⁻⁶ estimate, the millicharged-ψ window built on it and exclusion condition 3 are dead with #14's model ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+- **Nothing of the window.** Neither #11 §12's "What survives" nor the adjudication's 'What survives v3' includes the ε ~ 10⁻⁷–10⁻⁶ estimate, the millicharged-ψ window built on it or exclusion condition 3. The estimate has been under review since 2026-10-29, and #14's model, to which the window and the condition belonged, is dead, with Paul's concurrence ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## History
 
@@ -136,11 +138,12 @@ The adjudication counted the coefficient among the numerical indictments the pre
 
 ## Sources
 
+- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — under review, not dead, until Paul reviews it
 - `review/round3-adjudication.md` 'Rulings' 7–8 — the unsupported coefficient and the Baumgart footnote; 'Decisions' 1 — strict sector separation; 'Pre-registration scored' — the ε coefficient among the indictments, and the referee's misattribution claim; 'What survives v3' — points (a) and (c)
 - `review/round3/referee/audit-notes.md` Step 1 — the references of [10] read for the operator's origin; Step 2 — the arithmetic and the one-loop estimate; Step 4(a) item 6 — the contradiction with sector separation; Step 4(b) — the summary of the literature check
 - `review/round3/referee/step2a.out` — the v/M_\* values and the one-loop factor
 - `review/round3-preregistration.md` 'Predictions' — the millicharge runner-up
 - `review/v3-worklog.md` 'Round-2 pending list' (R4) — the worklog's estimate and planned wording
 - `notes/knot-dark-matter-standalone.md` §2 — sector separation and point (b); §4 — the millicharged ψ; §5 — exclusion condition 3; §6 — acceptance criterion (2) and the conjectural claims
-- `papers/broken-born-checkpoint-v2.md` §4 — P4 taken strictly
+- `papers/broken-born-checkpoint-v2.md` §4 — P4 taken strictly; §12 — what survives #14's model, and the model dead with Paul's concurrence of 2026-10-29
 - `HANDOFF.md` §6 — the round-2 dispute over gravity-induced mixing

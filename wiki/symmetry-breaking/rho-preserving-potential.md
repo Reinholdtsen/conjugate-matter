@@ -85,13 +85,13 @@ An explicit term that breaks a continuous symmetry gives the would-be Goldstone 
 
 The toy has used two forms; their full records are on their own pages. Both are built from a fixed reference real structure K_ref, diag(1, −1) in the scripts (`verify/toy_coset.py`).
 
-### The naive form, dead
+### The naive form, under review
 
 ```text
 V = −μ [Tr(K K_ref)]²,        at H = 1:  −2μ(1 + cos 2φ)        (worklog, 'Chunk 3 results')
 ```
 
-It keeps ρ and the flip, and at H = 1 its minima are the two vacua ±K_ref, which ρ exchanges. But "The naive choice −μ[Tr(K K_ref)]² is unbounded below once H is dynamical": along a family of boosts "the potential reaches −8.9 × 10⁶ μ at boost parameter 4", and "The point (1, K_ref) is a saddle (Hessian eigenvalue −6.47 at λ = μ = 1)" (toy note §4). [Round 4](/wiki/method/review/round-4) upheld both points as findings F1 and F2 (`review/round4-adjudication.md`). See [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential).
+It keeps ρ and the flip, and at H = 1 its minima are the two vacua ±K_ref, which ρ exchanges. But "The naive choice −μ[Tr(K K_ref)]² is unbounded below once H is dynamical": along a family of boosts "the potential reaches −8.9 × 10⁶ μ at boost parameter 4", and "The point (1, K_ref) is a saddle (Hessian eigenvalue −6.47 at λ = μ = 1)" (toy note §4). [Round 4](/wiki/method/review/round-4) upheld both points as findings F1 and F2 (`review/round4-adjudication.md`). Recorded dead before 2026-10-29, the naive form is under Paul's review, not dead: [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential).
 
 ### The bounded form V_b
 
@@ -102,7 +102,7 @@ at H = 1:  V_b = −(μ/2)(1 + cos 2φ)
 
 The note records that it is "bounded, −μ ≤ V_b ≤ 0 by Cauchy–Schwarz, since Tr K_refᵀK_ref = 2", that "It is ρ- and flip-invariant", and that "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236", with "Vacuum manifold: {diag(y, 1/y)} × {±K_ref}" (toy note §4). The round-4 referee proposed it, and [the gate](/wiki/method/verification/the-gate) checks each property, from "V_b is rho-invariant" to "with V_b, (1, K_ref) is stable: Hessian eigenvalues >= 0 with exactly one zero" (`verify/toy_coset.py`). The frozen-H lattice simulation uses it, "with V_b up to a constant and normalization", and finds an ordered ℤ₂ phase in 1+1 (toy note §4; [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction)). See [The bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
 
-Since round 4, #11 sets boundedness as a condition on any such potential: "That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves" (#11 §10). V_b meets the condition in the toy. It does not answer the open problem: it is chosen to be bounded, not derived.
+Since round 4, #11 has held any such potential to a condition: "That potential must be bounded with all fields dynamical — the round-4 review found the naive form unbounded once H moves" (#11 §10). V_b meets the condition in the toy. It does not answer the open problem: it is chosen to be bounded, not derived.
 
 ## What the potential costs: a rigid, unordered pair of axes
 
@@ -169,7 +169,7 @@ The attribution did not survive the repair of the postulates. Under the original
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: a Goldstone angle [D][V], and the potential as "a rigid, unordered pair of axes"; §5 — discrete polarizations under strict P2; §10 — τ's potential [D + T], the toy-model paragraph [D][V] and the boundedness condition; §14 item 11 — "a derivation of the potential" still open [O]
-- `CLAUDE.md` 'Since the handoff' — "a derivation of the ρ-preserving potential" as an open end of the toy work; the current queue
+- `CLAUDE.md` 'Since the handoff' — "a derivation of the ρ-preserving potential" as an open end of the toy work; the current queue; the naive form under review since 2026-10-29
 - `papers/reciprocity-toy-models.md` §2 — the circle of vacua and how ρ acts on it; §4 — Mermin–Wagner for the compact SO(2), the requirement on the potential, the naive and bounded forms, the frozen-H simulation; §6 — "Not shown"
 - `verify/toy_coset.py` — the gated checks of V_b and of the naive form's saddle
 - `review/round4-adjudication.md` 'Rulings' F1–F2, 'Pre-registration scored' — the naive form's failure; the weakest-link forecast scored

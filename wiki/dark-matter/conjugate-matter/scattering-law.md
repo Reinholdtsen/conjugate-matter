@@ -7,6 +7,7 @@ provenance: [D, O]
 sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §13 rows 1–3"
+  - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "notes/broken-born-program-v1.md §6"
@@ -141,14 +142,14 @@ The clumping notes were written before the field-equation notes and so still spe
 In v0.1 the law was σ_T(v) = σ₀e^{−v²/v\*²}, "An exponential cliff, not a power-law tail" (#1 §5.1). It rested on the postulated Gaussian gate, and the lab notebook drew its sharpest predictions from it:
 
 - the v0.1 row 1, "cliff at v\* ∼ 120 km/s; **exactly zero in clusters forever**", killed by "Robust nonzero self-interaction at v > 3v\*" (#1 §9);
-- "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). Row 3 of that table, velocity-space granularity, has since died ([Obituary: velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity));
+- "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). Row 3 of that table, velocity-space granularity, has since been withdrawn and is under review ([Under review: velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity));
 - the benchmark numbers above the gate, "σ_T/m (1500 km/s) ≈ 30 e^{−156} ≈ 0" and "Cluster self-interaction is *identically zero at any future sensitivity*" (#1 §5.1), on [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark).
 
 The v0.4 downgrade replaced the cliff with the knee. Numbers computed from the exponential hold only if the gate's tail is Gaussian, and none of them has been machine-checked. The cliff's formulas, v\* ≡ √2μ/m_χ and σ₀ = 16πα̃²m_χ²/m_φ⁴, come from the lab notebook and are not restated in #11; #13 §4 uses the definition of v\*, with μ read as the fiber width (flag 17 in `review/wiki-build-flags.md`).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §8 — the current law; §13 rows 1–3 — the requirements and kill conditions; §12 — the candidates' handles; §15 — "gate tail not yet forced", falsification exposure
+- `papers/broken-born-checkpoint-v2.md` §8 — the current law; §13 rows 1–3 — the requirements and kill conditions; §13, below the table — the old row 3 "Withdrawn and under P.R.'s review, not dead (v2.5)"; §12 — the candidates' handles; §15 — "gate tail not yet forced", falsification exposure
 - `notes/broken-born-program-v1.md` §6, §9 — v1's law and its row 1 with the knee
 - `notes/x-classification.md` §4 and `notes/broken-born-theory.md` 'Addendum (v0.4)' — the downgrade from cliff to knee
 - `notes/stream-stability.md` 'Consequences for the predictions table' — rows 1–2 survive on the particle island, to be re-derived in wave language; the (v\*/σ)³ estimate

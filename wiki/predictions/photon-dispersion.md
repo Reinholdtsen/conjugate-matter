@@ -79,7 +79,7 @@ The notebook does not show how an operator linear in energy transforms under ρ�
 
 ## The argument after P2′
 
-The argument was made under the [original P2](/wiki/program/postulates/original-p2), in which [the symplectic form ω](/wiki/phase-space/reciprocity/symplectic-form) and the neutral metric η are both rigid; under it, as #11 §5 states, "the compatible polarizations are discrete" (a statement queried for d ≥ 2 in flag 1 of `review/wiki-build-flags.md`). The program replaced it with [P2′](/wiki/program/postulates/p2-prime), in which only ω is rigid and η is the order parameter. Since v2.2, from [the toy models](/wiki/symmetry-breaking/toy-models): "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The Goldstone picture governs, and the breaking pattern ℤ₄ → ℤ₂ is superseded ([Superseded: the discrete breaking pattern](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)).
+The argument was made under the [original P2](/wiki/program/postulates/original-p2), in which [the symplectic form ω](/wiki/phase-space/reciprocity/symplectic-form) and the neutral metric η are both rigid; under it, as #11 §5 states, "the compatible polarizations are discrete" (a statement queried for d ≥ 2 in flag 1 of `review/wiki-build-flags.md`). The program replaced it with [P2′](/wiki/program/postulates/p2-prime), in which only ω is rigid and η is the order parameter. Since v2.2 #11 has stated, from [the toy models](/wiki/symmetry-breaking/toy-models): "with only ω rigid, ρ sits inside a continuous U(1), and the polarization is a Goldstone angle rather than a discrete choice [D][V]" (#11 §4; [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). The Goldstone picture governs, and the breaking pattern ℤ₄ → ℤ₂ is superseded ([Superseded: the discrete breaking pattern](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)).
 
 ρ² itself survives in the toy models, for d = 1:
 
@@ -91,7 +91,7 @@ PASS  rho is symplectic and is the quarter turn: rho^2 = -1
 PASS  the stabilizer of the vacuum (1, K0) in Sp(2,R) is {+1, -1} (so the orbit is 3-dimensional)
 ```
 
-- With the ρ-preserving potential in the [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), the [round-4](/wiki/method/review/round-4) referee found the residual group inside the rotations to be {±1, ±ρ}, which contains ρ² (`review/round4/referee/audit-notes.md`, Step 2(c) and Step 3; [what remains of it](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)). The potential examined was the note's first form, which the same review found unbounded once H moves ([Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#the-residual-symmetry)).
+- With the ρ-preserving potential in the [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction), the [round-4](/wiki/method/review/round-4) referee found the residual group inside the rotations to be {±1, ±ρ}, which contains ρ² (`review/round4/referee/audit-notes.md`, Step 2(c) and Step 3; [what remains of it](/wiki/symmetry-breaking/order-parameter#superseded-the-discrete-breaking-pattern)). The potential examined was the note's first form, which the same review found unbounded once H moves ([Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential#the-residual-symmetry)).
 
 No document applies these statements to row 9, restates the protection argument in the Goldstone picture, or extends it from the toy's d = 1 to phase space over 3+1 dimensions. The row's rationale exists only in #1.
 
@@ -125,7 +125,7 @@ The data are consistent with the row: no linear dispersion has been found, and b
 | v1 (#9 §9) | "Linear term exactly zero (protected by ρ²); quadratic allowed, suppressed" | "Confirmed linear-in-E dispersion" |
 | #11 §13 | "Linear exactly zero (ρ²-protected); quadratic suppressed" | "Confirmed linear-in-E dispersion" |
 
-The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1, v2.2, v2.3 and v2.4 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [the clumping problem](/wiki/history/main-problems), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, after the clumping notes)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
+The substance has not changed since the notebook. v1 dropped "gravitationally" and "Any"; #11's v2.0 shortened the wording, and v2.1, v2.2, v2.3, v2.4 and v2.5 left it unchanged. The notebook's v0.2 addendum, which lists the program's still-live content after [the clumping problem](/wiki/history/main-problems), groups rows 7–9 as "permanent nulls" ('Addendum (v0.2, after the clumping notes)'). The whole table's history is on [the history of the predictions table](/wiki/predictions/table-history).
 
 ## Sources
 

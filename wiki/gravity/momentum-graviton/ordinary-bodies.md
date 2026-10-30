@@ -5,6 +5,7 @@ status: alive
 description: "Between two ordinary bodies, in the aligned vacuum (u = 1) and unscreened, the momentum graviton X adds a Yukawa term of range below 37.7 μm whose dependence on relative velocity is the O(v²/c²) spin-2 factor, 1 + 2.40×10⁻⁷ at 120 km/s, not a gate; #13's dual kinematics and the Siegel reading give negligible corrections; a potential in momentum differences exerts no force; and a relative-velocity gate acting between all bodies is bounded to |ε| < 8.7×10⁻⁹."
 provenance: [D, V]
 sources:
+  - "notes/velocity-gated-gravity.md header"
   - "notes/velocity-gated-gravity.md §1"
   - "notes/velocity-gated-gravity.md §2"
   - "notes/velocity-gated-gravity.md §3"
@@ -18,6 +19,7 @@ sources:
   - "papers/conjugate-special-relativity.md §2"
   - "papers/conjugate-special-relativity.md §5"
   - "papers/broken-born-checkpoint-v2.md §7"
+  - "papers/broken-born-checkpoint-v2.md §9"
   - "review/momentum-gravity/README.md"
 ---
 
@@ -27,7 +29,7 @@ sources:
 
 ## The question
 
-Paul's question of 2026-10-26: "I think the obituary is premature. Would momentum gravity look like a perturbation to regular gravity that depends on the relative velocity of two massive bodies?" (`notes/velocity-gated-gravity.md` §1). The obituary is that of the program's founding picture of dark matter ([Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)). The note reads the question three ways [assumption]:
+Paul's question of 2026-10-26: "I think the obituary is premature. Would momentum gravity look like a perturbation to regular gravity that depends on the relative velocity of two massive bodies?" (`notes/velocity-gated-gravity.md` §1). The obituary he meant was the record's obituary of the program's founding picture of dark matter, kept from #11 v2.0 to v2.4; on 2026-10-29 Paul did not concur in that death, and the founding image is his open conjecture again (#11 v2.5 §9; [Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)). The note now opens with a status note of 2026-10-29 that defines the term: "'The obituary' in this note is #11 §9's record as it stood on 2026-10-28. The note's results stand as evidence about that record's scope; none of them is a death." The note reads the question three ways [assumption]:
 
 - "momentum gravity" as the program defines it, the massive X of #11 §7, acting between ordinary bodies, with two further readings checked: #13's dual kinematics and the Siegel reading of flag 39 (this page);
 - a perturbation that depends on relative velocity and acts between all bodies, tested against the Solar System and binary pulsars (this page, [the last section](#a-universal-relative-velocity-gate-is-excluded));
@@ -114,10 +116,10 @@ Both are on [open problems and the queue](/wiki/status/open-problems).
 
 ## Sources
 
-- `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) §1 — the question, its readings and the gate conventions; §2 — the potential, the relativistic factor, the two other readings and the potential in momentum differences; §3 — the universal gate, its model and bounds; §10 — what is open; §11 — the corrections and the run-2 pre-registration scored
+- `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) header — the status note of 2026-10-29 on "the obituary"; §1 — the question, its readings and the gate conventions; §2 — the potential, the relativistic factor, the two other readings and the potential in momentum differences; §3 — the universal gate, its model and bounds; §10 — what is open; §11 — the corrections and the run-2 pre-registration scored
 - `verify/velocity_gated_gravity.py` — anchors A2, A3, A8; section B, X between ordinary bodies; section C, the universal gate ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script))
 - `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs; item 57 — the Vainshtein formula; item 39 — the two actions of reciprocity on the spin-2 sector; all awaiting Paul's ruling
 - `papers/phase-space-diameter.md` §8.2 — the potential in the aligned vacuum and λ_X < 37.7 μm
 - `papers/conjugate-special-relativity.md` §2 — the merger arena, "operates at F ~ c̃ by construction"; §5 — dual rest as free fall
-- `papers/broken-born-checkpoint-v2.md` §7 — X as one massive spin-2 field
+- `papers/broken-born-checkpoint-v2.md` §7 — X as one massive spin-2 field; §9 — "Status (v2.5)": the founding image, P.R.'s open conjecture
 - `review/momentum-gravity/README.md` — the investigation's runs and the blindness of its pre-registrations

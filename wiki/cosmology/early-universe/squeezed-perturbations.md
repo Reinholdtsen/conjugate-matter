@@ -107,7 +107,7 @@ Version 1.0 of the note did not test this reading against the chat claim. Round 
 
 `verify/phase_space_diameter.py` gates the conversion ("a squeezed mode with aspect 1e92 has r = 105.9, inside the literature's 100-120"; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)).
 
-The reading fits the fourth part of the chat claim, the clock, and not the third, the square rectangle at the bounce: "the mode was round before it left the Hubble radius during inflation, which is not a bounce" (§6). It is one of the readings tested on [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce), whose record of it reads "A squeezed mode matches the number 10⁹² but was round before it left the Hubble radius, not at a bounce" (§6). The adjudication found that none of the readings added in round 5 changes the withdrawal (ruling R14).
+The reading fits the fourth part of the chat claim, the clock, and not the third, the square rectangle at the bounce: "the mode was round before it left the Hubble radius during inflation, which is not a bounce" (§6). It is one of the readings tested on [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce), whose record of it reads "A squeezed mode matches the number 10⁹² but was round before it left the Hubble radius, not at a bounce" (§6). The adjudication found that none of the readings added in round 5 changes the withdrawal (ruling R14).
 
 ### The complexity sentence
 
@@ -129,14 +129,14 @@ The [S] entries are the note's, retrieved by live search for it. The † entries
 ## Used by
 
 - [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the chat's clock read as a mode's squeezing.
-- [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — the squeezed-mode reading, which matches 10⁹² but puts the round state at Hubble exit, not at a bounce.
+- [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — the squeezed-mode reading, which matches 10⁹² but puts the round state at Hubble exit, not at a bounce.
 - [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states) — the distance 2r of a squeezed vacuum from Z = i, and its observed version.
 - [Round 5](/wiki/method/review/round-5) — rulings R5, R14 and R15.
 - [The phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script) — the check r = 105.9.
 
 ## Sources
 
-- `papers/phase-space-diameter.md` §5 — 'A physical version: squeezed perturbations' (the values and their sources), 'Wave packets and the Siegel half-plane', 'Three loci', 'The distance' (d = 2r, the Fubini–Study factor) and 'The clock'; §6 — 'A squeezed mode' and the obituary; §9 — the summary row; 'References' — the cited papers
+- `papers/phase-space-diameter.md` §5 — 'A physical version: squeezed perturbations' (the values and their sources), 'Wave packets and the Siegel half-plane', 'Three loci', 'The distance' (d = 2r, the Fubini–Study factor) and 'The clock'; §6 — 'A squeezed mode' and 'Under review: the square rectangle at the bounce'; §9 — the summary row; 'References' — the cited papers
 - `verify/phase_space_diameter.py` 'Reciprocity on a rectangle; wave packets (note §5)' — the distance 2r, the Fubini–Study factor 1/8, ln A₀ = 213.5; 'Where the radiation rectangle is square, lambda = l_P (note §6)' — r = 105.9
 - `review/round5-adjudication.md` 'Rulings' R5 — the complexity sentence; R14 — the squeezed-mode reading added; R15 — Albrecht et al. 1994 as omitted prior art
 - `review/round5/adjudicator/arb.out` B10 — e^{2r} at r = 100, 105.9 and 120

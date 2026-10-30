@@ -118,7 +118,7 @@ Added by the wiki from model memory (†), except Royer, which the toy note cite
 - [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — nothing in the toy excludes the K-blind coupling ∫W².
 - [The duality on the matrix base](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/matrix-base-lemma) — parity on Weyl symbols, credited to Royer.
 - [Model II: the matrix base and the action](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/model-and-matrix-base) — the matrix base of Weyl symbols.
-- [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — a squeezed mode's Wigner ellipse as one reading of the early-chat aspect ratio; it matches the number, but the mode was round before it left the Hubble radius, not at a bounce.
+- [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — a squeezed mode's Wigner ellipse as one reading of the early-chat aspect ratio; it matches the number, but the mode was round before it left the Hubble radius, not at a bounce.
 
 ## Sources
 

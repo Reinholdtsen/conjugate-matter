@@ -143,7 +143,7 @@ Added by the wiki from model memory (†):
 - [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential) — the potential that reduces the symmetry to a discrete group.
 - [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality) — a spontaneous selection of the pair of lines placed in 3+1, where the theorem does not apply.
 - [Model I vacua, the order parameter and the Goldstone spectrum](/wiki/symmetry-breaking/toy-models/coset-model/vacua) — the compact angle cannot order by itself.
-- [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) — why model I needed a potential at all.
+- [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) — why model I needed a potential at all.
 - [The frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction) — what the 1+1 result establishes.
 - [Monte Carlo: an ordered ℤ₂ phase](/wiki/symmetry-breaking/toy-models/coset-model/monte-carlo) — the h = 0 run as the theorem's lattice check.
 - [Open: does ρ's SO(2) break in the coupled model?](/wiki/symmetry-breaking/toy-models/coset-model/so2-question) — the theorem's reach in model I.

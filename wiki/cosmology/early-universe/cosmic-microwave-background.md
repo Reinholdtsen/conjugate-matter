@@ -151,7 +151,7 @@ If the hidden and visible photons mix kinetically, #14's light hidden fermion ψ
 - limits on dark matter that scatters off baryons, which for a charged subcomponent "vanish below 0.4% interacting fraction (Boddy et al. 1808.00001); psi up to 10% is not automatically safe" (item 4);
 - dark acoustic oscillations: ψ would stay coupled to the bath of hidden photons until late, and "For sub-GeV psi this approaches recombination" (item 5; [dark acoustic oscillations](/wiki/method/review/round-3/rulings#dark-acoustic-oscillations)).
 
-The adjudication accepted "Charged-subcomponent and CMB bounds" and "Dark acoustic oscillations" as a to-do, "not individually re-checked" ([charged-subcomponent and microwave-background bounds](/wiki/method/review/round-3/rulings#charged-subcomponent-and-cosmic-microwave-background-bounds)). [Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation), [strict sector separation](/wiki/program/postulates/p4-polarized-matter), then closed the millicharge channel. The ψ window had already died on the recount of its relic abundance ([ruling 4](/wiki/method/review/round-3/rulings#ruling-4-the-ψ-relic-window)), and the retirement of #14's model left the remaining items moot ([channels that became moot](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window#channels-that-became-moot)).
+The adjudication accepted "Charged-subcomponent and CMB bounds" and "Dark acoustic oscillations" as a to-do, "not individually re-checked" ([charged-subcomponent and microwave-background bounds](/wiki/method/review/round-3/rulings#charged-subcomponent-and-cosmic-microwave-background-bounds)). [Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation), [strict sector separation](/wiki/program/postulates/p4-polarized-matter), then closed the millicharge channel. The ψ window had already failed on the recount of its relic abundance ([ruling 4](/wiki/method/review/round-3/rulings#ruling-4-the-ψ-relic-window)), and the retirement of #14's model left the remaining items moot ([channels that became moot](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window#channels-that-became-moot)).
 
 ### Isocurvature
 
@@ -175,7 +175,7 @@ None of the † entries is cited in the program's documents; they are given from
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — Planck's N_eff interval, ΔN_eff < 0.286 and ξ < 0.760.
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — CMB-S4 as the named probe of a negative ΔN_eff.
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — ruling 5, and the CMB bounds among the omitted constraints.
-- [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — CMB and recombination limits on a millicharged ψ.
+- [Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — CMB and recombination limits on a millicharged ψ.
 - [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance) — the target density Ω h² = 0.120.
 - [Round-3 arbitration and the referee's constants](/wiki/method/review/round-3/arbitration) — Ω_c h² = 0.120 from the Planck 2018 abstract.
 - [DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi) — the CMB's calibration of the ruler r_d.

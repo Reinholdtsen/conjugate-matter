@@ -60,7 +60,7 @@ Every number a current document asserts is meant to have a check in a script in 
 
 ### Referees and adjudicators
 
-Since the move, the referees execute code as well. Round 3: "Every one of its 16 numerical findings rests on executed code"; round 4: "All 9 of its numerical and algebraic indictments rest on executed code" (adjudication headers). The adjudicator answers in the same way, with arbitration scripts kept beside the rulings (`review/round3/adjudicator/round3_arb.py`, `review/round4/adjudicator/arb.py`, `review/round4/adjudicator/ctrl.py`).
+Since the move, the referees have executed code as well. Round 3: "Every one of its 16 numerical findings rests on executed code"; round 4: "All 9 of its numerical and algebraic indictments rest on executed code" (adjudication headers). The adjudicator answers in the same way, with arbitration scripts kept beside the rulings (`review/round3/adjudicator/round3_arb.py`, `review/round4/adjudicator/arb.py`, `review/round4/adjudicator/ctrl.py`).
 
 ### Drafting
 

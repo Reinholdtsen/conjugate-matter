@@ -15,6 +15,7 @@ sources:
   - "notes/broken-born-theory.md §11 item 3"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14 item 4"
+  - "papers/broken-born-checkpoint-v2.md §13"
   - "review/wiki-build-flags.md items 17, 55, 58"
   - "notes/velocity-gated-gravity.md §4"
   - "notes/gate-mechanism.md §5"
@@ -92,7 +93,7 @@ The second note, #3, keeps the conventions: "Same conventions as Chunk A: σ₀ 
 
 ## Superseded: racing stream growth against orbital stirring
 
-**The old framing.** Before the clumping problem, the lab notebook took the instability for granted and asked only whether streams would grow faster than a galaxy's orbits could smear them out. §5.2: "The growth rate γ versus orbital phase-mixing remains to be computed; it is the theory's most important undone calculation on the astrophysics side. **[O]**". Its open-problem list repeats it as item 3: "Stream-instability growth rate γ vs. orbital phase-mixing: determines whether Prediction 3's granularity survives in Milky-Way-like halos." (`notes/broken-born-theory.md` §11; Prediction 3 is [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity), now dead). Here γ is a growth rate and Ω an orbital stirring rate; orbital phase mixing is the spreading-out of structure as particles on orbits of slightly different period drift apart in phase [T].
+**The old framing.** Before the clumping problem, the lab notebook took the instability for granted and asked only whether streams would grow faster than a galaxy's orbits could smear them out. §5.2: "The growth rate γ versus orbital phase-mixing remains to be computed; it is the theory's most important undone calculation on the astrophysics side. **[O]**". Its open-problem list repeats it as item 3: "Stream-instability growth rate γ vs. orbital phase-mixing: determines whether Prediction 3's granularity survives in Milky-Way-like halos." (`notes/broken-born-theory.md` §11; Prediction 3 is [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity), now withdrawn and under review, #11 §13). Here γ is a growth rate and Ω an orbital stirring rate; orbital phase mixing is the spreading-out of structure as particles on orbits of slightly different period drift apart in phase [T].
 
 **Why it was retired.** #2 found that below the threshold there is no growth at all, so there is nothing to race: "Below threshold: Landau-damped, stable. There is no race with orbital stirring below threshold — the flocking never starts. The earlier "γ vs Ω" framing presumed growth exists; it exists only above this line." (#2, Limit 1). Since the threshold is missed by 28–31 orders of magnitude at the benchmark, the question the notebook ranked first on the astrophysics side was answered by the threshold alone.
 
@@ -113,7 +114,7 @@ The second note, #3, keeps the conventions: "Same conventions as Chunk A: σ₀ 
 - `notes/stream-stability.md` 'Limit 1 — broad gate' and 'Limit 2 — narrow gate' — the bracketing limits and the unified criterion; the retirement of "γ vs Ω"
 - `notes/stream-stability.md` 'Next chunk (#3)' — the rate-versus-stirring comparison handed to #3
 - `notes/wave-island.md` 'Setup' — the conventions carried to the wave island; 'What pins g? Two scenarios' — Γ_self ≳ Ω and the parameter X
-- `papers/broken-born-checkpoint-v2.md` §8 — the gate's mechanism and the equivalence principle; §14 item 4 — the open gate shape
+- `papers/broken-born-checkpoint-v2.md` §8 — the gate's mechanism and the equivalence principle; §14 item 4 — the open gate shape; §13 — the old row 3, "Withdrawn and under P.R.'s review, not dead (v2.5)"
 - `notes/broken-born-theory.md` §5.1 — v\* ≡ √2μ/m_χ; §5.2 — the anomalous velocity and the γ-versus-phase-mixing problem; §11 item 3 — the original open problem
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the gate conventions; item 55 — the gate's mechanism not derived; item 58 — the narrow-gate substitution σ → v\*; all awaiting a ruling
 - `notes/velocity-gated-gravity.md` §4 — #2's narrow-gate criterion, linearized

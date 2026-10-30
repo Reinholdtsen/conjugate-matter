@@ -162,7 +162,7 @@ The note's plain-language summary of its consequence: "the gate itself is not re
 **What does not change** [V] (§5):
 
 - The benchmark arithmetic is contact Born physics and needs no mechanism: σ₀ = 16πα̃²m²/m_φ⁴ with α̃ = 1 and m_φ = m_χ gives σ₀/m = 32.0 cm²/g at 70 MeV, or m = 71.5 MeV for 30 cm²/g; the conventions give μ/m = 2.857×10⁻⁴, v\* = 121.1 km/s and v_a = 171.3 km/s ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)).
-- The velocity-clumping obituary is unaffected. "If anything it is strengthened: a completion whose only velocity dependence is a knee in σ_T(v) leaves the forward amplitude, which drives collective behaviour, ungated" ([Obituary: velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers)).
+- The results of the velocity-clumping tests are unaffected. The note, written while #11 §9 was titled an obituary, says of "the velocity-clumping obituary": "If anything it is strengthened: a completion whose only velocity dependence is a knee in σ_T(v) leaves the forward amplitude, which drives collective behaviour, ungated". The same bullet goes on: "Since 2026-10-29 that record has counted as evidence, not as a death: Paul did not concur, and the founding image is his open conjecture again (#11 v2.5 §9)" ([Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image#the-scope-of-the-tests)).
 
 **What becomes open** [O] (§5):
 
@@ -194,7 +194,7 @@ A nucleus is extended in the variable conjugate to q, and its form factor depend
 
 ## What μ is
 
-Since the v0.4 addendum, μ is a property of a single χ quantum: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" ([the lab notebook](/wiki/history/documents/lab-notebook), #1 'Addendum (v0.4)'). Before it, μ was a free scale of the momentum-space sector (#1 §3).
+Since the v0.4 addendum, μ has been a property of a single χ quantum: "μ is identified as the χ quantum's intrinsic momentum-fiber width, with a Gaussian gate iff the fiber profile is Gaussian" ([the lab notebook](/wiki/history/documents/lab-notebook), #1 'Addendum (v0.4)'). Before it, μ was a free scale of the momentum-space sector (#1 §3).
 
 The lab notebook converts μ into the gate velocity, v\* ≡ √2μ/m_χ (#1 §5.1), the location of the knee in [the gated scattering law](/wiki/dark-matter/conjugate-matter/scattering-law). #11 does not restate this definition. At [the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark) the notebook gives "μ = m_χv\*/√2 ≈ 20 keV (α̃ ≈ 1)" (#1 §5.1), a number found only in the lab notebook and not machine-checked. The definition of v\* was written for v0.1's e^{−k²/μ²}; a suspected factor of √2 in μ between that form and #6's overlap form, which matters once μ is read as the fiber width, is recorded for a ruling in `review/wiki-build-flags.md` item 17. The flag notes that no stated number changes; this page quotes the sources as written.
 
@@ -253,6 +253,6 @@ The mechanism reached its present form in three steps.
 - `papers/conjugate-special-relativity.md` §4 — μ ~ ℏ/λ_χ as the gate scale
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)', 'Addendum (v0.4)' — the mechanism and the fiber width in the lab notebook; §3 — the v0.1 carrier and M_B in S_H; §5.1 — v\* ≡ √2μ/m_χ, μ ≈ 20 keV, m_φ ~ m_χ
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions, awaiting a ruling; item 55 — the mechanism not derived, with the proposed tags, the text that depends on them and the audit, awaiting Paul's ruling
-- `notes/gate-mechanism.md` (2026-10-28, not reviewed) §1 — the question, the record's statements, the two derivations and the conventions; §2 — the vertex, the degree-two polynomial, its velocity scale, the other channels, the exact form, loops and the resonance; §3 — readings R1 and R2, the rational gates, the record audit and the range of a fiber gate; §4 — the polarization and a preferred frame; §5 — the proposed tags, the dependent text, what does not change and what becomes open; §6 — what each derivation gave, the caveats and the pre-registration scored
+- `notes/gate-mechanism.md` (2026-10-28, not reviewed) §1 — the question, the record's statements, the two derivations and the conventions; §2 — the vertex, the degree-two polynomial, its velocity scale, the other channels, the exact form, loops and the resonance; §3 — readings R1 and R2, the rational gates, the record audit and the range of a fiber gate; §4 — the polarization and a preferred frame; §5 — the proposed tags, the dependent text, what does not change (the clumping record as evidence, not a death, since 2026-10-29), and what becomes open; §6 — what each derivation gave, the caveats and the pre-registration scored
 - `verify/gate_mechanism.py` — reruns the note's arithmetic and algebra ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script))
 - `review/momentum-gravity/README.md` — the investigation's runs; `review/momentum-gravity/preregistration-run4.md` — the second derivation's sealed expectation

@@ -1,8 +1,8 @@
 ---
-title: "Obituary: the self-dual length as a program scale"
+title: "Under review: the self-dual length as a program scale"
 weight: 100
-status: dead
-description: "The self-dual length √(l_P L), 47–84 μm, tested as #13's Born length (a maximum force of 1.4×10⁻¹⁷ N, below the force inside a hydrogen atom) and as the range of the momentum graviton X in the aligned vacuum (excluded by torsion balances): both dead; the bound λ_X < 37.7 μm, M_X c² > 5.2 meV at background ratio u = 1 survives."
+status: under-review
+description: "The self-dual length √(l_P L), 47–84 μm, tested as #13's Born length (a maximum force of 1.4×10⁻¹⁷ N, below the force inside a hydrogen atom) and as the range of the momentum graviton X in the aligned vacuum (excluded by torsion balances): the note excludes both uses; recorded dead until 2026-10-29, the length's use as a program scale has been under Paul's review since; the bound λ_X < 37.7 μm, M_X c² > 5.2 meV at background ratio u = 1 stands."
 provenance: [D, V]
 sources:
   - "papers/phase-space-diameter.md §8"
@@ -28,9 +28,9 @@ sources:
   - "verify/velocity_gated_gravity.py 'J. Flag 57: the Vainshtein radius'"
 ---
 
-*This page records two uses of one length that the program's phase-space-diameter note tested and excluded. The [self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box), the range of scales from the Planck length to the size of the universe, is mapped onto itself by [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) for one reference length, √(l_P L), between 47 and 84 micrometres. The program has one exact reciprocity and so one [Born length](/wiki/phase-space/reciprocity/born-length), and a Born length enters it in two places: the [maximum force](/wiki/conjugate-relativity/maximum-force) of its dual special relativity, and the range of the massive [momentum graviton X](/wiki/gravity/momentum-graviton), whose force on ordinary matter has the strength of gravity. At the self-dual length the maximum force would be 1.4×10⁻¹⁷ newtons, which the electric force inside a hydrogen atom exceeds by a factor of 5.8×10⁹, and X would exert a gravitational-strength force at a range where laboratory torsion balances have looked for one and found none. Both uses are dead. The second leaves a bound: in the vacuum the program's own equations assume, X's range is below 37.7 micrometres.*
+*This page records two uses of one length that the program's phase-space-diameter note tested and excluded. The [self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box), the range of scales from the Planck length to the size of the universe, is mapped onto itself by [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) for one reference length, √(l_P L), between 47 and 84 micrometres. The program has one exact reciprocity and so one [Born length](/wiki/phase-space/reciprocity/born-length), and a Born length enters it in two places: the [maximum force](/wiki/conjugate-relativity/maximum-force) of its dual special relativity, and the range of the massive [momentum graviton X](/wiki/gravity/momentum-graviton), whose force on ordinary matter has the strength of gravity. At the self-dual length the maximum force would be 1.4×10⁻¹⁷ newtons, which the electric force inside a hydrogen atom exceeds by a factor of 5.8×10⁹, and X would exert a gravitational-strength force at a range where laboratory torsion balances have looked for one and found none. Both uses fail these tests. The second leaves a bound: in the vacuum the program's own equations assume, X's range is below 37.7 micrometres. That the program could use this length as a scale of its own was recorded dead before 2026-10-29 without Paul's concurrence, and the claim is now under his review, not dead.*
 
-**Status:** Dead — [D][V] for the maximum force; [D][V] with live-searched measurements [S] for the range, in the aligned vacuum (bimetric background ratio u = 1) — `papers/phase-space-diameter.md` §8.1–§8.2 and §9, with every number printed by `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)). The note was graded B by both referees of [round 5](/wiki/method/review/round-5), whose shared weakest link was the background ratio missing from the range argument; version 1.1 states it. Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff'). Filed in [the graveyard](/wiki/status/graveyard).
+**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). The results: [D][V] for the maximum force; [D][V] with live-searched measurements [S] for the range, in the aligned vacuum (bimetric background ratio u = 1) — `papers/phase-space-diameter.md` §8.1–§8.2 and §9, with every number printed by `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)). The note was graded B by both referees of [round 5](/wiki/method/review/round-5), whose shared weakest link was the background ratio missing from the range argument; version 1.1 states it. Listed in [claims under review](/wiki/status/under-review).
 
 ## What was proposed
 
@@ -83,7 +83,7 @@ Here u is the ratio of the two frames' backgrounds, f̄ = u²ḡ (written c in t
 
 **The verdict.** The self-dual length, 47.1 μm for the Hubble radius and 84.0 μm for the particle horizon, lies above that limit, so in the aligned vacuum it is excluded. It would be allowed only for u < 0.67 (47.1 μm) or u < 0.30 (84.0 μm) [V] (§8.2). The test is an old one: "a gravitational-strength modification of gravity at the dark-energy length was proposed to address the cosmological-constant problem [S: Sundrum 2004], and torsion balances were aimed 'below the dark-energy length scale' to look for it [S: Kapner et al. 2007]" (§8.2).
 
-## Why it failed
+## The evidence against it
 
 The note's summary table (§9):
 
@@ -94,7 +94,7 @@ The note's summary table (§9):
 
 The two failures are independent. The first follows from #13's own formula and ordinary forces, from the force inside a hydrogen atom to the weight of a kilogram. The second follows from the bimetric coupling at u = 1 and a published torsion-balance limit.
 
-## What survives
+## What stands
 
 - **A bound on X's range.** In the aligned vacuum (u = 1, α = 4/3), λ_X < 37.7 μm and M_X c² > ħc/(37.7 μm) = 5.2 meV [V][S]. For other background ratios the limit moves: 57.0 μm at u = 0.5, 42.5 μm at u = 0.8, 30.8 μm at u = 1.5 [V]. "The polarization-breaking scale lies at least 2.3 times above the dark-energy scale of 2.24 meV." (§8.2) The record's statement that gravitational-strength short-range forces are "experimentally unconstrained down to far below any plausible M_X" (calc note #8 §3) "is consistent with the bound but gave no number" (§8.2). The bound, its premise and its caveats are on [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound).
 - **Its premise.** The note's summary lists "The program's vacuum has u = 1" as "the only proportional vacuum with zero wedge vacuum energy; persistence under expansion open" [D][V][O] (§9). How reciprocity's action as the exchange of the two frames relates to its action Z → −Z⁻¹ on the modular field is open in the record (§8.2; flag 39 in `review/wiki-build-flags.md`). The bound also assumes that X adds the only Yukawa term (§8.2).
@@ -117,10 +117,10 @@ The note concludes: "A cosmological drift of τ would then be harmless only for 
 ## Where it is filed
 
 - Home section: [Scale-factor duality](/wiki/cosmology/scale-factor-duality), beside [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box).
-- The calculations that killed it: `papers/phase-space-diameter.md` §8.1–§8.2, gated in `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)); the review that repaired the range argument: [round 5](/wiki/method/review/round-5), ruling R1.
+- The calculations that tested it: `papers/phase-space-diameter.md` §8.1–§8.2, gated in `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)); the review that repaired the range argument: [round 5](/wiki/method/review/round-5), ruling R1.
 - The pages it concerns: [the Born length λ](/wiki/phase-space/reciprocity/born-length), [the maximum force](/wiki/conjugate-relativity/maximum-force), [the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound).
-- The register of dead claims: [the graveyard](/wiki/status/graveyard).
-- How the program treats dead claims: [negative results and dead claims](/wiki/method/negative-results).
+- The register: [claims under review](/wiki/status/under-review); until 2026-10-29 the claim was listed in [the graveyard](/wiki/status/graveyard).
+- How the program records negative results and deaths: [negative results and dead claims](/wiki/method/negative-results).
 
 ## History
 
@@ -128,6 +128,8 @@ The note concludes: "A cosmological drift of τ would then be harmless only for 
 - **The pre-registration.** It named the bound in §8.2 as the weakest link, because it "inherits the program's own, unreviewed premise that X couples to ordinary matter at gravitational strength (equal Planck masses, α = 4/3)" (`review/round5-preregistration.md`).
 - **Round 5.** Both referees found that the cited coupling formula carries the background ratio and that the note had dropped it. Ruling R1: "Upheld in substance; referee A's value of c not upheld". Referee A had set the ratio from a·ã = 1, which gave α ~ 10⁻¹⁸⁶; the adjudicator ruled that "The record's second frame is the polarization frame, not the slaved momentum block g̃ = g⁻¹ that carries ã, so that value does not follow." The adjudication scored the pre-registered weakest link a hit "on location and premise; the mechanism, a dropped parameter of the cited formula, was not foreseen". Ruling R12 asked the note to say which column of the exclusion table it uses, and R16 added the caveats.
 - **Version 1.1** (2026-10-26). It states u = 1 and the argument for it, gives the bound as a function of u, names the column (the attractive, one-sided limit, "which is the more conservative", ruling R12), and adds the caveats. The adjudication carried a method rule into the root `CLAUDE.md`: "When a result rests on a formula from the literature, carry every parameter the cited formula has and state what fixes each one."
+- **The wiki, 2026-10-26 to 2026-10-29.** This page was "Obituary: the self-dual length as a program scale", with status dead, and was listed in the graveyard.
+- **2026-10-29.** Paul's rule on deaths: a claim is dead only when theory and data kill it and he explicitly concurs (root `CLAUDE.md`, 'Method'). His concurrence in this death was asked that day, and for it and the other deaths recorded before 2026-10-29 that he has not contested, he answered "Restore all pending": the claim is under review, not dead, until he reviews it with Claude (root `CLAUDE.md`, 'Since the handoff', "2026-10-29, Paul's answers to the concurrence questions"). The results above are unchanged.
 
 ## Sources
 
@@ -142,6 +144,6 @@ The note concludes: "A cosmological drift of τ would then be harmless only for 
 - `review/round5-adjudication.md` 'Rulings' R1, R12, R16 — the background ratio, the column, the caveats; 'Pre-registration scored'; 'Lessons (into CLAUDE.md)'
 - `review/round5-preregistration.md` 'Predictions' — the weakest link named before the review
 - `papers/conjugate-special-relativity.md` §1, §2 — c̃ = ħc/λ², the Planck identification and the composition law
-- `CLAUDE.md` 'Since the handoff' — the result and the leads, and Paul's concurrence in the death asked on 2026-10-29; 'Method' — the rule from round 5
+- `CLAUDE.md` 'Since the handoff' — the result and the leads; Paul's answers of 2026-10-29, under which the claim is under review, not dead; 'Method' — the rule from round 5, and the rule on deaths
 - `review/wiki-build-flags.md` item 39 — the two actions of reciprocity on the spin-2 sector, awaiting Paul's ruling
 - `review/wiki-build-flags.md` item 57 — the Vainshtein formula for a massless mode (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §§10–11 and `verify/velocity_gated_gravity.py` section J — eqs. 40–43 compared, and whether the branch screens

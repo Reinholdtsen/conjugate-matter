@@ -11,6 +11,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/broken-born-checkpoint-v2.md §13"
   - "notes/wave-island.md 'Setup'"
   - "notes/wave-island.md 'The rate'"
   - "notes/wave-island.md 'Standing results'"
@@ -88,7 +89,7 @@ The theorem splits the mass range in two. The particle island is the classical s
 
 > **Particle island** (m_χ ~ MeV–GeV): Rows 1–2 (exponential cliff, isotropy) **survive** — they are collisional. Rows 3 (velocity granularity) and 4 (condensed cores / Fornax friction suppression) are **withdrawn**, and with them the mechanism-level linkage claimed between them. On this island BBT is cliff-shaped SIDM plus Maslov quintessence.
 
-Here BBT is Broken-Born theory, the program's earlier name, and SIDM is [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). The rows are those of the lab notebook's [prediction table](/wiki/predictions/table-history). Rows 1 and 2, the velocity dependence of the scattering cross-section and the isotropy of scattering inside the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), are about two-body collisions, which need no collective instability; that is the sense of "they are collisional". Rows 3 and 4 needed the instability and are withdrawn: [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), condensed cores and Fornax friction suppression. "Maslov quintessence" is the program's dark-energy field ([τ quintessence](/wiki/cosmology/dark-energy/tau-quintessence)).
+Here BBT is Broken-Born theory, the program's earlier name, and SIDM is [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter). The rows are those of the lab notebook's [prediction table](/wiki/predictions/table-history). Rows 1 and 2, the velocity dependence of the scattering cross-section and the isotropy of scattering inside the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate), are about two-body collisions, which need no collective instability; that is the sense of "they are collisional". Rows 3 and 4 needed the instability and are withdrawn, and they have been under review since 2026-10-29 (#11 §13): [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity), velocity-space granularity, and [old row 4](/wiki/dark-matter/momentum-clumping/fornax-friction), condensed cores and Fornax friction suppression. "Maslov quintessence" is the program's dark-energy field ([τ quintessence](/wiki/cosmology/dark-energy/tau-quintessence)).
 
 #3's standing result after the first two notes: "Particle island: cliff (exponential) + isotropy live; no collective phenomena. Fully classical, fully collisional." (#3, 'Standing results after Chunks A+B'). #4 lists the same pair among the survivors: "the exponential cliff + in-gate isotropy (particle island)".
 
@@ -121,7 +122,7 @@ The theorem appears in every later summary in the same form: #9 §7 item 1 ("col
 ## Sources
 
 - `notes/stream-stability.md` 'Corollary (the classicality theorem)' — the scaling, m_crit, N_occ and the theorem; 'Consequences for the predictions table' — the particle and wave islands; 'Setup' — the definition of g
-- `papers/broken-born-checkpoint-v2.md` §9 (i) — the current statement and its tag; §8 — the knee; §12 — the χ-particle candidate and the shared abundance question
+- `papers/broken-born-checkpoint-v2.md` §9 (i) — the current statement and its tag; §8 — the knee; §12 — the χ-particle candidate and the shared abundance question; §13 — the old rows 3 and 4, "Withdrawn and under P.R.'s review, not dead (v2.5)"
 - `notes/wave-island.md` 'Setup', 'The rate' — the wave island's upper edge and the second N_occ normalization; 'Standing results after Chunks A+B' — the particle island's standing
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the survivors and the final wave-island range
 - `notes/broken-born-program-v1.md` §7 — the theorem in the first consolidation

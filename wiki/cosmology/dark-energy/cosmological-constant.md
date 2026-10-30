@@ -157,7 +157,7 @@ The standard expectation sits at the edge of the requirement. The bound w ≥ �
 
 With a positive Λ the expansion approaches de Sitter space and never stops ([above](#toward-de-sitter-space)). The program's requirement replaces that future with a turnaround, which needs a negative vacuum energy ([a negative effective Λ](#a-negative-effective-λ-the-turnaround), below; [row 5](/wiki/predictions/fate-of-expansion)).
 
-Both standard expectations are unchanged since the lab notebook's predictions table, where they are rows 5 and 6 (#1 §9), and the v1 paper's, where they are rows 4 and 5 (#9 §9) ([the history of the predictions table](/wiki/predictions/table-history)).
+Neither standard expectation has changed since the lab notebook's predictions table, where they are rows 5 and 6 (#1 §9), and the v1 paper's, where they are rows 4 and 5 (#9 §9) ([the history of the predictions table](/wiki/predictions/table-history)).
 
 ### What current data say
 
@@ -184,7 +184,7 @@ The first two entries involve Λ.
 - **Dual stiff ↦ Λ.** A stiff fluid, w̃ = +1, is what a uniform field becomes when its energy is all kinetic [T]. Its energy grows as a³, at the same rate as our volume, so the density it contributes here is constant, as a cosmological constant's is ([it does not thin](#it-does-not-thin)). The notebook's table lists "Kinetic/stiff energy (w̃ = +1)" as appearing as a "Cosmological constant (w = −1)" (#1 §6).
 - **Dual Λ ↦ stiff.** A cosmological constant on the conjugate side, w̃ = −1, has energy falling as a⁻³ and contributes a density falling as a⁻⁶: a stiff fluid on our side, which matters only at early times.
 
-From the first entry the notebook concluded that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6), and it then identified dark energy with τ's potential energy (#1 §7). No document derives the second from the first ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)). Since #11 v2.4 the first entry is also the route of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration [O], and §10 records its question: "Whether the contracting conjugate universe is kinetic-dominated, and how this route relates to τ's potential, are open" ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
+From the first entry the notebook concluded that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6), and it then identified dark energy with τ's potential energy (#1 §7). No document derives the second from the first ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)). Since #11 v2.4 the first entry has also been the route of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration [O]. #11 §10 records its question: "Whether the contracting conjugate universe is kinetic-dominated, and how this route relates to τ's potential, are open" ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 
 ### Cosmological constants in the bimetric potential
 

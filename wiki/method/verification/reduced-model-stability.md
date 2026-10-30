@@ -55,7 +55,7 @@ Rulings F1 and F2, both upheld (`review/round4-adjudication.md`):
 - **F1.** "The §4 potential −μ[Tr(K K_ref)]² is unbounded below in model I". The adjudicator's check: "along H = SᵀS, K = S⁻¹K₀S (S a boost), the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4." Moving H and K together along a boost keeps the compatibility term at zero while the potential falls without limit.
 - **F2.** "So (1, K_ref) is a saddle, and the Monte Carlo simulates a frozen-H reduction, not model I". The Hessian with H free "has a negative eigenvalue at λ = 1, 10, 100 (−6.47, −4.40, −4.04 in my coordinates)."
 
-The adjudicator's comment: "I should have caught F1 myself: I checked the potential only at frozen H." See [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) and [Review round 4](/wiki/method/review/round-4).
+The adjudicator's comment: "I should have caught F1 myself: I checked the potential only at frozen H." The rulings stand as results. The naive potential, recorded dead after the round, has been under review since 2026-10-29 and is not dead until Paul reviews it. See [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) and [Review round 4](/wiki/method/review/round-4).
 
 ### What the pre-registration expected
 

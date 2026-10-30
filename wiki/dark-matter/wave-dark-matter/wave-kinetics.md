@@ -65,7 +65,7 @@ where g is the gated contact coupling (in GeV⁻²) and v\* the gate width in re
 
 ### No timescale refuge
 
-The growth slowdown entered the falsification of [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a). In the [ultra-faint dwarf galaxy](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) Segue 1, calc note #4 finds a condensation time of about 1.5×10⁴ yr, so that "Over a 10 Gyr lifetime the system has ~6×10⁵ condensation times". Allowing for the slowdown does not change the verdict: "Even granting the soliton-growth slowdown seen in LPT-type kinetics (t^{1/2} growth, factor ~10²–10³ in effective rate), the core is processed through the condensate many times over. There is no timescale refuge." ('Sharpened input numbers'.) The checkpoint rounds the condensation time to "~10⁴ yr" (#11 §9).
+The growth slowdown entered the ultra-faint-dwarf test of [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), under review since 2026-10-29 (#11 §9, 'Status (v2.5)'). In the [ultra-faint dwarf galaxy](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) Segue 1, calc note #4 finds a condensation time of about 1.5×10⁴ yr, so that "Over a 10 Gyr lifetime the system has ~6×10⁵ condensation times". Allowing for the slowdown does not change the verdict: "Even granting the soliton-growth slowdown seen in LPT-type kinetics (t^{1/2} growth, factor ~10²–10³ in effective rate), the core is processed through the condensate many times over. There is no timescale refuge." ('Sharpened input numbers'.) The checkpoint rounds the condensation time to "~10⁴ yr" (#11 §9).
 
 ## Calibration against the anchor
 
@@ -84,13 +84,13 @@ Added by the wiki from model memory (†):
 
 - [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — the gated channel added to this mechanism, and the gravitational floor it races.
 - [The wave island](/wiki/dark-matter/momentum-clumping/wave-island) — on the island, relaxation is wave-kinetic.
-- [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — even with the t^{1/2} slowdown, "There is no timescale refuge."
+- [Under review: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — even with the t^{1/2} slowdown, "There is no timescale refuge."
 - [The net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — its wave legs rest on the gated rate, whose coefficients await calibration against Levkov–Panin–Tkachev numerics.
 - [Row 3: the island discriminant](/wiki/predictions/island-discriminant) — its wave side, the (v\*/σ)⁴ law, is the narrow-gate suppression of the wave-kinetic rate.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §9, ref [13] — "LPT-style [13†]"; coefficients [O]; the reference; §12 — the third candidate, and the failure of #14's model of it
+- `papers/broken-born-checkpoint-v2.md` §9, ref [13] — "LPT-style [13†]"; coefficients [O]; the reference; 'Status (v2.5)' — Scenario A under review, not dead; §12 — the third candidate, and the failure of #14's model of it
 - `notes/wave-island.md` 'Setup', 'The rate' — the wave-kinetic rate, the mechanism, the gated rate, the gravitational channel, the calibration to-do
 - `notes/stream-stability.md` 'Consequences for the predictions table', 'Next chunk (#3)' — Levkov–Panin–Tkachev as the known anchor; power flowing into narrow-momentum streams; anchoring the coefficients
 - `notes/ufd-endpoint.md` 'Sharpened input numbers' — the t^{1/2} growth slowdown; no timescale refuge in Segue 1

@@ -28,9 +28,10 @@ sources:
   - "review/wiki-build-flags.md items 21, 34"
   - "review/wiki-build-flags.md item 59"
   - "review/wiki-build-flags.md item 62"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
-*The yield of a relic is its number of particles per unit of entropy, Y = n/s: the number density n divided by the entropy density s of the hot plasma that filled the early universe. While nothing creates or destroys the particles, both quantities fall in inverse proportion to the volume as the universe expands, so the yield stays fixed, and multiplying it by today's entropy density gives the relic's density now. Entropy dilution is the standard way a yield can still fall after it has been fixed: a large release of entropy into the plasma, such as the decay of heavy particles that dominated the universe for a time (a period called early matter domination), divides every yield fixed before the release by the factor by which the entropy grew. Both entered the [review](/wiki/method/review/round-3) in which #14's [model of the program's soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) failed. The model's count of monopoles per unit entropy had dropped a factor of about 4.6×10³ that comes from the expansion rate ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)). Counted correctly, monopoles at the model's benchmark mass could make up the [dark matter](/wiki/dark-matter) only with a dilution factor of at least 10³–10⁴ left free, and the program rejected that route because a free factor removes the mass prediction.*
+*The yield of a relic is its number of particles per unit of entropy, Y = n/s: the number density n divided by the entropy density s of the hot plasma that filled the early universe. While nothing creates or destroys the particles, both quantities fall in inverse proportion to the volume as the universe expands, so the yield stays fixed, and multiplying it by today's entropy density gives the relic's density now. Entropy dilution is the standard way a yield can still fall after it has been fixed: a large release of entropy into the plasma, such as the decay of heavy particles that dominated the universe for a time (a period called early matter domination), divides every yield fixed before the release by the factor by which the entropy grew. Both entered the [review](/wiki/method/review/round-3) in which #14's [model of the program's soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) failed. The model's count of monopoles per unit entropy had dropped a factor of about 4.6×10³ that comes from the expansion rate ([Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)). Counted correctly, monopoles at the model's benchmark mass could make up the [dark matter](/wiki/dark-matter) only with a dilution factor of at least 10³–10⁴ left free, and the program rejected that route because a free factor removes the mass prediction.*
 
 **Status:** Established — [T] — textbook thermal history, written here from general knowledge; references the wiki adds are from model memory (†). The program's uses carry their own tags. The Kibble normalization p = 104.31 and the overproduction at the withdrawn benchmark are [V], gated in `verify/soliton_obituary.py`, whose anchors include the Friedmann coefficient 1.66 and the published normalization "n/s ~ 100 (T_c/M_Pl)^3" ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). No script in `verify/` checks a dilution factor: the dilution figures on this page are overproduction factors read as dilution requirements, by the withdrawn manuscript #14 and its worklog, the round-3 referee and the adjudication.
 
@@ -187,7 +188,7 @@ In the wiki's reading, the published analysis of hidden-sector monopoles has the
 
 ## How the program uses it
 
-### The Kibble normalization: dead
+### The Kibble normalization: under review
 
 Version 3 of the soliton manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) wrote the Kibble yield as "n/s ~ p (v/M_Pl)^3. One monopole per horizon volume with g\* = 100 gives p ~ 0.023; we take p = 1 as the upper end" (§3). The round-3 referee found the source of the 0.023: "0.0228 = 45/(2pi^2 100) i.e. H^3 without (1.66 sqrt g\*)^3 = 4576" (Step 2), the formula above with the Friedmann prefactor set to one. Ruling 1, upheld: "My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g\*)³ ≈ 4.6×10³. My error came from misremembering the formula." The gate prints the dropped factor [V]:
 
@@ -195,7 +196,7 @@ Version 3 of the soliton manuscript [#14](/wiki/dark-matter/candidates/soliton-c
 PASS  v3's 0.0228 drops (1.66 sqrt(g*))^3 ~ 4.6e3  [4575.6]
 ```
 
-The normalization was also used in the wrong direction: v3 took p = 1 as an upper end, where one defect per Hubble volume is the least causality allows (ruling 3). Round-3 lesson 2 records that "v3's Kibble anchor reproduced v2's own number and so tested nothing", and replaced it with anchors independent of the paper, "the Friedmann coefficient 1.66 and n/s ≈ 100 (T_c/M_Pl)³ for one defect per Hubble volume" ([independent anchors](/wiki/method/verification/independent-anchors)). The full record is [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization).
+The normalization was also used in the wrong direction: v3 took p = 1 as an upper end, where one defect per Hubble volume is the least causality allows (ruling 3). Round-3 lesson 2 records that "v3's Kibble anchor reproduced v2's own number and so tested nothing", and replaced it with anchors independent of the paper, "the Friedmann coefficient 1.66 and n/s ≈ 100 (T_c/M_Pl)³ for one defect per Hubble volume" ([independent anchors](/wiki/method/verification/independent-anchors)). The full record is [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization). v3's normalization was recorded dead before 2026-10-29 without Paul's concurrence; it is under his review, not dead, and the results above stand (root `CLAUDE.md`, 'Since the handoff').
 
 ### The benchmark overproduced, and the dilution route rejected
 
@@ -209,7 +210,7 @@ The v3 worklog had already found that the Kibble estimate fixes a single mass an
 
 ### Our own sector's monopoles
 
-Dilution by inflation is one of the standard histories behind the second of the two grounds that #11 §11.1 gives against the founding claim that conjugate-space monopoles explain the null result of monopole searches. From v2.0 to v2.3 the checkpoint recorded the claim as dead on these grounds; since v2.4 neither is taken to kill it, and the claim is P.R.'s open conjecture (flag 62 in `review/wiki-build-flags.md`, ruled option B). v2.4 words this ground as "The null result is expected under several standard histories, so it lends the explanation no support", inflation after a unification transition among them, and "Inflation is the standard account, not an observed epoch (v2.3; flag 59)". Until v2.3 the ground was dilution alone, "inflationary dilution already accounts for absence [T]" (v2.2), which flag 59 found to show the explanation unnecessary, not false ([Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation); [inflation and our own monopoles](/wiki/cosmology/early-universe/inflation-and-dilution#inflation-and-our-own-monopoles)).
+Dilution by inflation is one of the standard histories behind the second of the two grounds that #11 §11.1 gives against the founding claim that conjugate-space monopoles explain the null result of monopole searches. From v2.0 to v2.3 the checkpoint recorded the claim as dead on these grounds; since v2.4 neither has been taken to kill it, and the claim has been P.R.'s open conjecture (flag 62 in `review/wiki-build-flags.md`, ruled option B). v2.4 words this ground as "The null result is expected under several standard histories, so it lends the explanation no support", inflation after a unification transition among them, and "Inflation is the standard account, not an observed epoch (v2.3; flag 59)". Until v2.3 the ground was dilution alone, "inflationary dilution already accounts for absence [T]" (v2.2), which flag 59 found to show the explanation unnecessary, not false ([Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation); [inflation and our own monopoles](/wiki/cosmology/early-universe/inflation-and-dilution#inflation-and-our-own-monopoles)).
 
 ### What the record checks
 
@@ -229,7 +230,7 @@ The † entry is from model memory and unverified.
 
 ## Used by
 
-- [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — the yield n/s = p (T_c/M_Pl)³ and the dropped (1.66√g\*)³.
+- [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — the yield n/s = p (T_c/M_Pl)³ and the dropped (1.66√g\*)³.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — the yield at minimum production and the (M/M\*)⁴ excess that sets the dilution needed.
 - [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — "no dilution required" and the free-dilution route, rejected.
 - [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 2's route (b) and lesson 2's anchors.
@@ -253,3 +254,4 @@ The † entry is from model memory and unverified.
 - `notes/knot-dark-matter-standalone.md` Abstract, §3 — "no dilution required"; v3's p, its inputs, the ordering requirement and the (M/M\*)⁴ dilution (withdrawn)
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1) — the dilution figures and the stated alternative before round 3 (superseded)
 - `review/wiki-build-flags.md` item 21 — the attribution of ruling 3's Kibble–Zurek range; item 34 — the script's constants typed in; item 59 — the restated ground for our own sector's monopoles; item 62 — the explanation reclassified as open, option B
+- `CLAUDE.md` 'Since the handoff' — Paul's answers of 2026-10-29, under which the Kibble normalization is under review, not dead

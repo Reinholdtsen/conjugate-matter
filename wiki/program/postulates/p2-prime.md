@@ -43,7 +43,7 @@ P2′  Only ω is rigid (symplectic rigidity ≡ constancy of ℏ). The neutral
      structure J chosen spontaneously.                                 [P]
 ```
 
-This is #11 §4's text. Its bracket adds two things: "the correction from the original P2 is *forced*: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR: [general relativity](/wiki/gravity/spin-2-fields/general-relativity); SIDM: [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter)), and a note on credit, below. Since v2.2 a refinement follows the statement, also below. The program paper v1 states the same axiom as "P2′ (Rigidity — corrected). Only ω is non-dynamical: symplectic rigidity is the constancy of ℏ. The neutral metric η is *not* fundamental; it is the order parameter, η = HJ, with the real structure J chosen spontaneously." (#9 §2).
+This is #11 §4's text. Its bracket adds two things: "the correction from the original P2 is *forced*: a nontriviality theorem (§5) shows the theory has content beyond GR + SIDM iff η is emergent. [D]" (GR: [general relativity](/wiki/gravity/spin-2-fields/general-relativity); SIDM: [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter)), and a note on credit, below. Since v2.2 a refinement has followed the statement, also below. The program paper v1 states the same axiom as "P2′ (Rigidity — corrected). Only ω is non-dynamical: symplectic rigidity is the constancy of ℏ. The neutral metric η is *not* fundamental; it is the order parameter, η = HJ, with the real structure J chosen spontaneously." (#9 §2).
 
 The axiom has two halves: what is fixed (ω) and what is left to the vacuum (η). Both refer to the structures of [P1](/wiki/program/postulates/p1-arena).
 
@@ -113,7 +113,7 @@ a whole circle of them, and "ρ acts as Z → −1/Z and K(φ) → K(φ + π) = 
 
 A Goldstone angle is not pinned to any value, and in 1+1 dimensions it cannot order at all: "Mermin–Wagner [13, 14] applies to the compact SO(2) containing ρ" (toy note §4; [the Mermin–Wagner–Coleman theorem](/wiki/symmetry-breaking/mermin-wagner-coleman)). To obtain a definite polarization the toy adds "a potential that is invariant under ρ and under K → −K, and reduces the U(1) to a discrete group" (toy note §4).
 
-- The first form tried, −μ[Tr(K K_ref)]², is "unbounded below once H is dynamical": along a family of boosts it reaches "−8.9 × 10⁶ μ at boost parameter 4", and the reference vacuum is a saddle (toy note §4; [obituary of the naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)).
+- The first form tried, −μ[Tr(K K_ref)]², is "unbounded below once H is dynamical": along a family of boosts it reaches "−8.9 × 10⁶ μ at boost parameter 4", and the reference vacuum is a saddle (toy note §4; [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)).
 - The normalized form V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK) is bounded, "−μ ≤ V_b ≤ 0 by Cauchy–Schwarz", and with H dynamical the reference vacuum is "a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236". The zero mode is a flat line that "is not symmetry-protected" (toy note §4; [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
 - At H = 1, V_b = −(μ/2)(1 + cos 2φ), and with H dynamical the vacuum manifold is "{diag(y, 1/y)} × {±K_ref}" (toy note §4). The two signs ±K_ref are the vacua that ρ exchanges, since ρ sends K to −K at H = 1 (toy note §2).
 

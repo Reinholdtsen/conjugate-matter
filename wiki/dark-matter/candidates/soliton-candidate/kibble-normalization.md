@@ -1,10 +1,11 @@
 ---
-title: "Obituary: the Kibble normalization"
+title: "Under review: the Kibble normalization"
 weight: 50
-status: dead
+status: under-review
 description: "v3's yield n/s ~ p(T_c/M_Pl)³ with p = 0.023 dropped the factor (1.66√g*)³; one defect per Hubble volume gives p ≈ 104, the causal minimum, and the reduced-Planck 'factor of 3' was an artefact."
 provenance: [V]
 sources:
+  - "CLAUDE.md 'Since the handoff'"
   - "review/round3-adjudication.md 'Rulings' 1–3"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "verify/soliton_obituary.py"
@@ -25,9 +26,9 @@ sources:
   - "review/round3-adjudication.md 'Rulings' 13"
 ---
 
-*The Kibble normalization is the number p in the estimate of how many [monopoles](/wiki/electric-magnetic-duality/monopoles) a symmetry-breaking phase transition in the early universe leaves behind: the [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t) n/s = p (T_c/M_Pl)³, the number of monopoles per unit entropy, where T_c is the transition temperature and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#one-convention-per-formula). Version 3 of the soliton manuscript #14 used p ≈ 0.023 and treated p = 1 as an upper end. The [round-3](/wiki/method/review/round-3) referee showed that 0.023 is what the formula gives when the expansion rate of the universe is written without its numerical prefactor; with the prefactor, one monopole per Hubble volume gives p ≈ 104. Because causality requires at least about that many, the value is a minimum, not a maximum. The correction moved the mass at which the monopoles would make up all the [dark matter](/wiki/dark-matter) from v3's (0.9–3.7)×10¹³ GeV down to 2.9–4.4×10¹² GeV, and #14's model failed.*
+*The Kibble normalization is the number p in the estimate of how many [monopoles](/wiki/electric-magnetic-duality/monopoles) a symmetry-breaking phase transition in the early universe leaves behind: the [yield](/wiki/cosmology/early-universe/relic-yield-and-dilution#the-kibble-yield-t) n/s = p (T_c/M_Pl)³, the number of monopoles per unit entropy, where T_c is the transition temperature and M_Pl the [Planck mass](/wiki/gravity/spin-2-fields/planck-units#one-convention-per-formula). Version 3 of the soliton manuscript #14 used p ≈ 0.023 and treated p = 1 as an upper end. The [round-3](/wiki/method/review/round-3) referee showed that 0.023 is what the formula gives when the expansion rate of the universe is written without its numerical prefactor; with the prefactor, one monopole per Hubble volume gives p ≈ 104. Because causality requires at least about that many, the value is a minimum, not a maximum. The correction moved the mass at which the monopoles would make up all the [dark matter](/wiki/dark-matter) from v3's (0.9–3.7)×10¹³ GeV down to 2.9–4.4×10¹² GeV, and #14's model failed. v3's value was recorded dead, and it has been under review since 2026-10-29.*
 
-**Status:** Dead — v3's value; Paul's concurrence asked 2026-10-29; until he answers, the death stands as recorded (root `CLAUDE.md`, 'Since the handoff'). The corrected p = 104.31 is [V] ([#11](/wiki/history/documents/checkpoint) §12, "p ≈ 104 [V]") and gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Round-3 ruling 1 upheld the finding, and the adjudicator's evidence ends "My error came from misremembering the formula" ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). What is under review is v3's value, p ≈ 0.023. The corrected p = 104.31 is [V] ([#11](/wiki/history/documents/checkpoint) §12, "p ≈ 104 [V]") and gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Round-3 ruling 1 upheld the finding, and the adjudicator's evidence ends "My error came from misremembering the formula" ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)). Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); listed in [claims under review](/wiki/status/under-review).
 
 ## The quantity being normalized
 
@@ -67,7 +68,7 @@ The two values of p for one defect per Hubble volume describe the same count. Th
 
 v3 thus bracketed p between 0.023 and 1, and took the larger value to be the upper end of the abundance.
 
-## Why it failed
+## The evidence against it
 
 ### The dropped factor
 
@@ -117,10 +118,11 @@ The Gangui paper is the script's anchor; #11's reference list does not cite it.
 
 ## What followed
 
-With p = 104.31 the abundance closes at M\* = 2.9–4.4×10¹² GeV, and v3's benchmark of 3×10¹³ GeV is overproduced 2.1×10³–1.2×10⁴ times (ruling 2; [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)). The referee's verdict named this as the single weakest link: "the Kibble abundance / mass determination (p=0.023 instead of >= 25-104; Kibble treated as an upper end when it is the causal minimum ...)" (Step 5). The banner on the withdrawn manuscript states the consequence: "So the mass band, the benchmark's "no dilution required" and the ψ relic window are wrong." #14's model failed and was retired ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #14 counted monopoles with ordinary kinematics, and #11 §12 adds that it "did not model the localization in momentum that v2.0 claimed", so the candidate it modeled "has not been tested"; that candidate is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+With p = 104.31 the abundance closes at M\* = 2.9–4.4×10¹² GeV, and v3's benchmark of 3×10¹³ GeV is overproduced 2.1×10³–1.2×10⁴ times (ruling 2; [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)). The referee's verdict named this as the single weakest link: "the Kibble abundance / mass determination (p=0.023 instead of >= 25-104; Kibble treated as an upper end when it is the causal minimum ...)" (Step 5). The banner on the withdrawn manuscript states the consequence: "So the mass band, the benchmark's "no dilution required" and the ψ relic window are wrong" ([Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). #14's model failed and was retired ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #14 counted monopoles with ordinary kinematics, and #11 §12 adds that it "did not model the localization in momentum that v2.0 claimed", so the candidate it modeled "has not been tested"; that candidate is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## Sources
 
+- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — under review, not dead, until Paul reviews it
 - `papers/broken-born-checkpoint-v2.md` §12 — p = 1 (v2), p ≈ 0.023 (v3), p ≈ 104 [V], "the causal minimum"
 - `review/round3-adjudication.md` 'Rulings' 1–3 — the finding, the correction, the convention and the floor; 'Rulings' 13 and 'Lessons (now in CLAUDE.md)' — the circular anchor
 - `verify/soliton_obituary.py` — the anchors and the gated values

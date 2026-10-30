@@ -1,11 +1,12 @@
 ---
-title: "Obituary: the square rectangle at the bounce"
+title: "Under review: the square rectangle at the bounce"
 weight: 80
-status: dead
-description: "The chat claim that the universe's position–momentum rectangle is square 'exactly at the bounce': for the radiation it is square only at 4.4×10¹⁴ T_P, before the radiation existed, and most elongated at the turnaround; the Hubble-sphere, two-region, squeezed-mode, string-cosmology and |Z| = 1 readings fail too, and the claim is withdrawn."
+status: under-review
+description: "The chat claim that the universe's position–momentum rectangle is square 'exactly at the bounce': for the radiation it is square only at 4.4×10¹⁴ T_P, before the radiation existed, and most elongated at the turnaround; the Hubble-sphere, two-region, squeezed-mode, string-cosmology and |Z| = 1 readings fail too, and the claim is withdrawn; recorded dead until 2026-10-29, under Paul's review since (note v1.2)."
 provenance: [D, V]
 sources:
   - "papers/phase-space-diameter.md §6"
+  - "papers/phase-space-diameter.md header"
   - "papers/phase-space-diameter.md §5"
   - "papers/phase-space-diameter.md §8.4"
   - "papers/phase-space-diameter.md §9"
@@ -16,6 +17,7 @@ sources:
   - "review/round5/referee-B/audit-notes.md §4.3, §4.5"
   - "review/round5/referee-A/audit-notes.md §4.3"
   - "CLAUDE.md 'Since the handoff'"
+  - "CLAUDE.md 'Method'"
   - "HANDOFF.md §4"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §10"
@@ -25,9 +27,9 @@ sources:
   - "notes/closed-universe.md §7"
 ---
 
-*This page records a dead claim: that the "rectangle" the universe occupies in position and momentum, its extent in position against its extent in momentum, is square "exactly at the bounce". The claim is one clause of the chat-only form of [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), and the summary that records it does not say which bounce it means. The phase-space-diameter note of 2026-10-26 tested every reading it found. For the universe's radiation, the rectangle's length divided by its width, in Planck units, grows as the square of the scale factor: it is about 5×10⁹² today, and it would have been one only at about 10¹⁴ times the Planck temperature, in an epoch before the radiation existed. At the far-future turnaround that the program reads as the [conjugate universe's bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), the rectangle would be at its most elongated. The other readings fail as well, and the note withdraws the claim. The area relation, and the reading of the aspect ratio as a clock, survive.*
+*This page records a claim under review: that the "rectangle" the universe occupies in position and momentum, its extent in position against its extent in momentum, is square "exactly at the bounce". The claim is one clause of the chat-only form of [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), and the summary that records it does not say which bounce it means. The phase-space-diameter note of 2026-10-26 tested every reading it found. For the universe's radiation, the rectangle's length divided by its width, in Planck units, grows as the square of the scale factor: it is about 5×10⁹² today, and it would have been one only at about 10¹⁴ times the Planck temperature, in an epoch before the radiation existed. At the far-future turnaround that the program reads as the [conjugate universe's bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce), the rectangle would be at its most elongated. The other readings fail as well, and the note withdraws the claim. The relation's other clauses stand: the rectangle's area, which the expansion leaves fixed, and the reading of its length-to-width ratio as a clock that measures how far the rectangle is from square. The claim was recorded dead until 2026-10-29 and is now under Paul's review, not dead; the note's version 1.2 records the same status.*
 
-**Status:** Dead (withdrawn) — [D][V] for the withdrawal (`papers/phase-space-diameter.md` §6, §9) — every number the note computes for it is checked by [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script), and the survey of readings went through [round 5](/wiki/method/review/round-5) of blind review, in which referee B added readings that did not change the withdrawal (rulings R14 and R15); listed in [the graveyard](/wiki/status/graveyard). Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff'). Flag 24 in `review/wiki-build-flags.md`, which recorded that the claim names no bounce, awaits Paul's ruling.
+**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). The note withdraws the claim, and version 1.2 records it as "withdrawn, under P.R.'s review since 2026-10-29 (not dead)" (`papers/phase-space-diameter.md` §6, §9). [D][V] for the withdrawal — every number the note computes for it is checked by [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script), and the survey of readings went through [round 5](/wiki/method/review/round-5) of blind review, in which referee B added readings that did not change the withdrawal (rulings R14 and R15). Listed in [claims under review](/wiki/status/under-review). Flag 24 in `review/wiki-build-flags.md`, which recorded that the claim names no bounce, awaits Paul's ruling.
 
 ## What was claimed
 
@@ -41,7 +43,7 @@ The bullet defines none of D_x, D_p, N or "the bounce" (note §2). Flag 24 in `r
 
 ## How it was tested
 
-The note computed the aspect ratio's history for the reading the chat's own numbers fit, the radiation of today's observable universe; for the Hubble-sphere reading; for a two-region reading; for a squeezed mode; and for the record's |Z| = 1 geometry, at every event the record or the literature could mean by "the bounce", including the self-dual bounces of string cosmology (note §6, obituary). The numbers are checked by `verify/phase_space_diameter.py`, section 'Where the radiation rectangle is square, lambda = l_P (note §6)'. Referee B of round 5 found readings missing from version 1.0: the squeezed mode, the early-universe step of the note's §8.4 at the epoch of the square, the convention dependence of the |Z| = 1 geometry and the infinite elongation of the Hubble rectangle at a true bounce (ruling R14), and the self-dual bounces of string cosmology (ruling R15). Version 1.1 adds them, and none changes the withdrawal.
+The note computed the aspect ratio's history for the reading the chat's own numbers fit, the radiation of today's observable universe; for the Hubble-sphere reading; for a two-region reading; for a squeezed mode; and for the record's |Z| = 1 geometry, at every event the record or the literature could mean by "the bounce", including the self-dual bounces of string cosmology (note §6, 'Under review: the square rectangle at the bounce'). The numbers are checked by `verify/phase_space_diameter.py`, section 'Where the radiation rectangle is square, lambda = l_P (note §6)'. Referee B of round 5 found readings missing from version 1.0: the squeezed mode, the early-universe step of the note's §8.4 at the epoch of the square, the convention dependence of the |Z| = 1 geometry and the infinite elongation of the Hubble rectangle at a true bounce (ruling R14), and the self-dual bounces of string cosmology (ruling R15). Version 1.1 adds them, and none changes the withdrawal.
 
 ### The radiation of today's observable universe
 
@@ -72,7 +74,7 @@ String cosmology has bounces at self-dual points, "the most natural source of th
 
 ### At the turnaround
 
-A ∝ a² is largest where a is (note §6) [D]. If the expansion turns around, the turnaround is the moment of greatest elongation, not a square; for the Hubble box H → 0 there, and A → ∞. The program reads that turnaround, through ã = 1/a, as the conjugate description's bounce ([#11](/wiki/history/documents/checkpoint) §10; [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). The note also records the premise problem of that page: the potential the program writes for its dark-energy field, V₀[1 + cos(τ/f)], is never negative for V₀ > 0, and so, in the spatially flat universe the program's cosmology assumes, it produces no turnaround as written; a closed universe can turn around without negative energy (note §6; round-5 ruling R11). The record leaves this unresolved: flag 27 in `review/wiki-build-flags.md`, and [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign). The flag's addendum (2026-10-27) finds that with this potential the turnaround needs a closed universe. Ruling R11's statement is true but omits two conditions, a_max ≥ Ω_m/|Ω_k| and, at H = 0, ρ_m + 2ρ_r + 4K − 2V ≥ 0, with K τ's kinetic energy density, and the mechanism is published (Barrow 1987 †; Tipler et al. [S]) (flag 50; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-conditions-dv)). The closed-universe note also finds the turnaround's aspect ratio, pairing the radius with the total mass, to be the closed Friedmann equation at H = 0, and the obituary stands ([the radius–mass pairing](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not)).
+A ∝ a² is largest where a is (note §6) [D]. If the expansion turns around, the turnaround is the moment of greatest elongation, not a square; for the Hubble box H → 0 there, and A → ∞. The program reads that turnaround, through ã = 1/a, as the conjugate description's bounce ([#11](/wiki/history/documents/checkpoint) §10; [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)). The note also records the premise problem of that page: the potential the program writes for its dark-energy field, V₀[1 + cos(τ/f)], is never negative for V₀ > 0, and so, in the spatially flat universe the program's cosmology assumes, it produces no turnaround as written; a closed universe can turn around without negative energy (note §6; round-5 ruling R11). The record leaves this unresolved: flag 27 in `review/wiki-build-flags.md`, and [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign). The flag's addendum (2026-10-27) finds that with this potential the turnaround needs a closed universe. Ruling R11's statement is true but omits two conditions, a_max ≥ Ω_m/|Ω_k| and, at H = 0, ρ_m + 2ρ_r + 4K − 2V ≥ 0, with K τ's kinetic energy density, and the mechanism is published (Barrow 1987 †; Tipler et al. [S]) (flag 50; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-conditions-dv)). The closed-universe note of 2026-10-27 also finds the turnaround's aspect ratio, pairing the radius with the total mass, to be the closed Friedmann equation at H = 0, and adds: "The case against 'square exactly at the bounce' (`papers/phase-space-diameter.md` §6) stands. That claim has been under Paul's review since 2026-10-29, not dead (note v1.2)." (`notes/closed-universe.md` §7; [the radius–mass pairing](/wiki/cosmology/scale-factor-duality/closed-universe#the-dual-frame-what-closure-fixes-and-what-it-does-not)).
 
 ### The early-universe step
 
@@ -82,9 +84,9 @@ The note's §8.4 finds a related epoch [D][V]. If reciprocity fixes the dual Pla
 
 One reading reproduces the claim exactly, and the note tests it as the claim's probable origin: the record's identification of a·ã = 1 with the circle |Z| = 1 of the [modular field](/wiki/phase-space/modular-field/modular-field-z). It is set out in the section on where the claim probably came from, below. The identification fails under either convention for how the scale factor sits in Z (ruling R14).
 
-## Why it failed
+## The evidence against it
 
-The note's verdict (§6, obituary):
+The note's findings (§6, 'Under review: the square rectangle at the bounce', unchanged in version 1.2):
 
 - In the reading the numbers fit, the rectangle is square only at about 10¹⁴ T_P, before the radiation existed; since reheating it has been elongated by at least 10³⁵.
 - At the program's turnaround it is at its most elongated.
@@ -93,7 +95,7 @@ The note's verdict (§6, obituary):
 - At a string-scale bounce the rectangle is still long by 10³³.
 - The record's |Z| = 1 geometry, which would make the claim exact, contradicts the measured aspect ratio.
 
-In the note's plain-language summary: "No reading puts a square rectangle of 10⁹⁰ cells at any bounce, so the early-chat claim is withdrawn" (§6). The root `CLAUDE.md` records the outcome in 'Since the handoff': "'square exactly at the bounce' is withdrawn (obituary in §6)".
+In the note's plain-language summary: "No reading puts a square rectangle of 10⁹⁰ cells at any bounce, so the early-chat claim is withdrawn" (§6). The root `CLAUDE.md` records the outcome in 'Since the handoff': "'square exactly at the bounce' is withdrawn (obituary in §6; under Paul's review since 2026-10-29, not dead, note v1.2)".
 
 ## Where the claim probably came from
 
@@ -108,20 +110,20 @@ This section is the note's inference, tagged [D, inference] (§6). "The record h
 
 **The flag.** The identification is the one that flag 23 in `review/wiki-build-flags.md` queries: on the vacuum slice X = 0, a·ã = 1 holds along the whole imaginary axis, as the content of det H = 1, while |Z| = 1 meets that axis only at Z = i ([the |Z| = 1 locus](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-geometry-the-z--1-locus)). For wave packets the note reads |Z| = 1 as the set of square rectangles and Z = i as the self-dual point ([Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states)). The round-5 adjudication recommends that Paul accept flags 23 and 24, since "a·ã = 1 is det H = 1 on the whole slice X = 0; |Z| = 1 is the locus of square rectangles; Z = i is the self-dual point; and the diameter relation's square is not at the turnaround" ('Recommendations to Paul'). Both flags await his ruling, and the wiki does not rule on them.
 
-## What survives
+## What stands
 
 - **The area relation**, as standard physics (note §3): the radiation of a fixed comoving region keeps D_x·D_p = κ h N_γ^{1/3}. See [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter).
 - **The aspect ratio as a clock** of e-folds and as a distance on the Siegel half-plane (note §5), today 213.5 per axis from the self-dual point in Planck units. See [the aspect ratio](/wiki/cosmology/scale-factor-duality/phase-space-diameter#the-aspect-ratio-a-clock-and-a-distance-from-self-duality) and [Gaussian wave packets on the Siegel half-plane](/wiki/phase-space/modular-field/gaussian-states).
-- **The turnaround as the conjugate bounce** is a separate claim, not touched by this obituary: it concerns the two scale factors, not the rectangle's shape (the wiki's reading), and its status comes from #11 §10 and flag 27 ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)).
+- **The turnaround as the conjugate bounce** is a separate claim, not touched by this withdrawal: it concerns the two scale factors, not the rectangle's shape (the wiki's reading), and its status comes from #11 §10 and flag 27 ([the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)).
 
 ## Where it is filed
 
 - Home of the claim: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), in [scale-factor duality](/wiki/cosmology/scale-factor-duality).
-- The calculation that killed it: `papers/phase-space-diameter.md` §6, checked by `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)).
+- The calculation that tested it: `papers/phase-space-diameter.md` §6, checked by `verify/phase_space_diameter.py` ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)).
 - The review: [round 5](/wiki/method/review/round-5), rulings R11, R14 and R15.
-- The register of dead claims: [the graveyard](/wiki/status/graveyard).
+- The register: [claims under review](/wiki/status/under-review); until 2026-10-29 the claim was listed in [the graveyard](/wiki/status/graveyard).
 - The flags: items 23, 24 and 27 in `review/wiki-build-flags.md`, awaiting Paul's ruling.
-- How the program treats dead claims: [negative results and dead claims](/wiki/method/negative-results).
+- How the program records negative results and deaths: [negative results and dead claims](/wiki/method/negative-results).
 
 ## History
 
@@ -130,20 +132,23 @@ This section is the note's inference, tagged [D, inference] (§6). "The record h
 - **Wiki build (2026-10-21 to 2026-10-22).** Flag 24 records that the claim names no bounce and that the rectangle would be most elongated at the turnaround; the audit confirmed it.
 - **The note, version 1.0 (2026-10-26).** The obituary in §6, with the radiation, Hubble-sphere, two-region and |Z| = 1 readings (`review/round5/manuscript-v1.0.md` §6).
 - **Round 5 and version 1.1 (2026-10-26).** Referee B added the squeezed mode, the §8.4 step, the convention dependence of the |Z| = 1 geometry and the infinite Hubble elongation at a true bounce (R14) and the string-cosmology bounces (R15); referee A added the flatness qualification on the turnaround (R11). The withdrawal stands.
+- **The wiki, 2026-10-26 to 2026-10-29.** This page was "Obituary: the square rectangle at the bounce", with status dead, and was listed in the graveyard.
+- **2026-10-29.** Under Paul's rule that a claim is dead only when theory and data kill it and he explicitly concurs (root `CLAUDE.md`, 'Method'), his concurrence in this death was asked; for it and the other deaths recorded before 2026-10-29 that he has not contested, he answered "Restore all pending", and the claim is under review, not dead, until he reviews it with Claude (root `CLAUDE.md`, 'Since the handoff'). The note's version 1.2, of the same day, retitles the subsection of §6 on the claim "Under review: the square rectangle at the bounce (an obituary until v1.1)" and changes its §9 row to "withdrawn, under P.R.'s review since 2026-10-29 (not dead)"; in its change note, "its results stand".
 
 ## Sources
 
-- `papers/phase-space-diameter.md` §6 — every reading, its numbers, the obituary and the probable origin [D, inference]
+- `papers/phase-space-diameter.md` §6 — every reading, its numbers, the section on the claim ("Under review: … (an obituary until v1.1)") and the probable origin [D, inference]
+- `papers/phase-space-diameter.md` header — the v1.2 change note: the claim under Paul's review, not dead, and its results standing
 - `papers/phase-space-diameter.md` §5 — what "square" and "self-dual" mean for a rectangle and for wave packets; the program's free Born length
 - `papers/phase-space-diameter.md` §8.4 — the a⁻⁶ step's self-dual epoch, which is the square and not a bounce
-- `papers/phase-space-diameter.md` §9 — the summary row "withdrawn" and its tags
+- `papers/phase-space-diameter.md` §9 — the summary row, "withdrawn, under P.R.'s review since 2026-10-29 (not dead)", and its tags
 - `verify/phase_space_diameter.py` 'Where the radiation rectangle is square, lambda = l_P (note §6)' — the numbers of every reading
 - `review/round5-adjudication.md` 'Rulings' R11, R14, R15 — the flatness qualification; the readings and prior art added in review, none of which changes the withdrawal
 - `review/round5-adjudication.md` 'Recommendations to Paul' — the recommendation on flags 23 and 24
 - `review/round5/manuscript-v1.0.md` §6 — the reviewed version 1.0 and the four readings it tested
 - `review/round5/referee-B/audit-notes.md` §4.3, §4.5, `review/round5/referee-A/audit-notes.md` §4.3 — which referee raised which reading: referee B the squeezed mode, the §8.4 step, the Hubble rectangle at a true bounce and the |Z| = 1 convention (§4.3) and the string-cosmology bounces (§4.5); referee A the flatness qualification
-- `CLAUDE.md` 'Since the handoff' — the claim withdrawn; Paul's concurrence in the death asked on 2026-10-29
+- `CLAUDE.md` 'Since the handoff' — the claim withdrawn, under Paul's review since 2026-10-29 and not dead; his answers of 2026-10-29; 'Method' — the rule on deaths
 - `HANDOFF.md` §4 — the claim as recorded
 - `papers/broken-born-checkpoint-v2.md` §6, §10 — a·ã = 1 as the |Z| = 1 locus, and the turnaround read as the conjugate bounce
 - `review/wiki-build-flags.md` items 23, 24, 27 — the |Z| = 1 identification, the unnamed bounce, and the sign of V(τ); all await Paul's ruling; item 27's addendum and items 49 and 50 — the turnaround in a closed universe, the underived dual term, and R11's omitted conditions and prior art
-- `notes/closed-universe.md` §2 — the turnaround's conditions and prior art; §7 — the dual frame and the radius–mass pairing
+- `notes/closed-universe.md` §2 — the turnaround's conditions and prior art; §7 — the dual frame and the radius–mass pairing, with "The case against … stands" and the claim under Paul's review since 2026-10-29

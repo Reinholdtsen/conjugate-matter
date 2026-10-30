@@ -20,8 +20,8 @@ It is written for three readers:
   the source wins and the wiki gets fixed.
 - **Source precedence**, most current first:
   1. the root `CLAUDE.md`, section "Since the handoff";
-  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.4), `papers/reciprocity-toy-models.md` (v2) and
-     `papers/phase-space-diameter.md` (v1.1);
+  2. `papers/broken-born-checkpoint-v2.md` (#11, v2.5), `papers/reciprocity-toy-models.md` (v2) and
+     `papers/phase-space-diameter.md` (v1.2);
   3. `review/round5-adjudication.md`, `review/round4-adjudication.md`, `review/round3-adjudication.md`;
   4. `papers/conjugate-special-relativity.md` (#13);
   5. `HANDOFF.md` (its §2 soliton candidate and its §8 queue are superseded);
@@ -66,12 +66,12 @@ what is known and what is claimed read as a sequence.
 | `phase-space/` | Born reciprocity, Born geometry and its theorems, the modular field |
 | `symmetry-breaking/` | the mechanism of the hard core: order parameter, Goldstone angle, ρ-preserving potential, matter locality, the two toy models |
 | `gravity/` | spin-2 theory (massless and massive) and the field-equation results on the momentum graviton X |
-| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), the momentum-clumping obituary (the clumping problem), the three candidates (among them P.R.'s conjecture of monopoles abundant in momentum space) and #14's failed soliton model |
+| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), momentum clumping: the founding image, P.R.'s open conjecture, and the calculations that tested it (the clumping problem), the three candidates (among them P.R.'s conjecture of monopoles abundant in momentum space) and #14's failed soliton model |
 | `cosmology/` | scale-factor duality, dark energy, early-universe physics |
 | `electric-magnetic-duality/` | monopoles, dualities, charge lattices, the polarization identification |
 | `conjugate-relativity/` | #13: the kinematics of the momentum polarization |
 | `predictions/` | one test page per row of #11 §13, plus the table's history |
-| `status/` | registers: graveyard (first), under review, alive, open problems and the queue, conjectures, superseded |
+| `status/` | registers: graveyard (first), alive, open problems and the queue, conjectures, superseded, under review |
 | `method/` | Lakatos, the collaboration, provenance, verification (one page per script family), blind review |
 | `history/` | timeline, the three main problems, the documents and the conflicts between them |
 | `summary`, `glossary`, `notation`, `references` | single register pages; `summary` (weight 5, first in the menu) is the executive summary, the program's standing on one page |
@@ -95,8 +95,9 @@ them.
 **Section indexes** run in this order:
 
 1. the italic definition;
-2. a status strip ("Stands: … · Died: … · Open: …", each item linked). Add "Superseded:"
-   and "Conjectures:" slots when the section holds such pages. A section holding only
+2. a status strip ("Stands: … · Died: … · Open: …", each item linked). Add "Under review:"
+   (right after "Open:"), "Superseded:" and "Conjectures:" slots when the section holds such
+   pages. A section holding only
    literature, method or record pages replaces the strip with one line that says so and
    links the status registers;
 3. the `## Map`, in weight order;
@@ -121,6 +122,8 @@ documents) have status `record`.
 
 - Every obituary links the claim's home section, the calculation or ruling that killed it,
   and `/wiki/status/graveyard`.
+- Every "Under review:" page links the claim's home section, the calculation or ruling that
+  recorded it dead, and `/wiki/status/under-review`.
 - Each prediction row links its derivation pages, and each derivation links its row.
 - Every "Open:" page links `/wiki/status/open-problems` and the claim it qualifies.
 - Every established-physics page ends with a short "Used by" list of the program pages
@@ -149,6 +152,7 @@ documents) have status `record`.
 12. Established physics gets its own pages (status `established`), placed in the field
     it belongs to.
 13. Every dead claim has its own obituary page, and the graveyard register indexes them.
+    Every claim under review keeps its page, and `/wiki/status/under-review` indexes them.
 
 ## Page anatomy
 
@@ -206,7 +210,12 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
 - **Body**: no `# H1`, because hugo-book renders the title. Sections start at `##`.
   Order the sections by the questions a cold reader asks: what is it, what is it made of,
   how does it work, what follows, what is open, where it comes from. A dead claim's page
-  is an obituary: what was claimed, how it was tested, why it failed, what survives.
+  is an obituary: what was claimed, how it was tested, why it failed, what survives. A page
+  under review keeps the structure and the evidence it had as an obituary, stated as results.
+  Its title, its status words and its verdict headings change ("Why it failed" becomes "The
+  evidence against it", "What survives" becomes "What stands", "The verdict" becomes "The verdict
+  in the record", "What it brought down" becomes "What went with it"), and the earlier verdict is
+  told as history.
 - **Sources**: end every page with a `## Sources` list of repo paths (as inline code) and
   sections, most authoritative first. The gate checks that every inline-code repo path
   exists.
@@ -283,7 +292,7 @@ gate checks for this. Code spans and `text` fences need no escaping.
   pages short of that.
 - Program pages link to the established physics they use, and established-physics pages
   link to the program pages that use them. Every mention of a dead claim links to its
-  obituary.
+  obituary, and every mention of a claim under review links to its page.
 
 ## Acronyms
 
@@ -324,6 +333,11 @@ HTML, that every page was built, and that every heading got the ID this gate com
   death alone and recorded with the date; the death is its own change, never part of a larger one
   (root `CLAUDE.md`, 'Method'). Then set `status: dead`, rewrite the page as an obituary, add it to
   the graveyard register, and fix every page that relied on it.
+- **Paul reviews a claim under review.** His answer and its date go into the source document
+  first (#11, or the note that holds the claim), then onto the page. If he concurs in the death,
+  the page becomes an obituary and moves from `/wiki/status/under-review` to the graveyard, in a
+  change that holds that death alone. If he does not, the page becomes open or his conjecture, with
+  the evidence against it stated in full. Update the summary in the same change.
 - **A new topic.** Place it by the taxonomy rules, link it from its parent's map and from
   every page that mentions it, and run the gate.
 - **The executive summary.** `wiki/summary.md` condenses the status registers, #11 §13–§15 and the

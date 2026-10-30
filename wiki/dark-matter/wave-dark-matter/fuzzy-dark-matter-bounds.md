@@ -17,7 +17,7 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes): resolution of open problem 3'"
 ---
 
-*The bounds on fuzzy dark matter are observational lower limits on the mass of wave dark matter at its light extreme, where the particles are so light that their de Broglie wavelength is comparable to the core of a small galaxy. Two kinds of observation set them. In a fuzzy halo the interfering dark-matter waves form density fluctuations that heat stars over time, so the compact, cold stellar populations of [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) exclude the lightest masses; and fuzzy dark matter suppresses small-scale structure, which the Lyman-α forest — the absorption lines of intergalactic hydrogen in quasar spectra — would reveal. In the Comatter program these bounds set the lower edge of [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) and close the light-mass escape from the falsification of [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a).*
+*The bounds on fuzzy dark matter are observational lower limits on the mass of wave dark matter at its light extreme, where the particles are so light that their de Broglie wavelength is comparable to the core of a small galaxy. Two kinds of observation set them. In a fuzzy halo the interfering dark-matter waves form density fluctuations that heat stars over time, so the compact, cold stellar populations of [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies) exclude the lightest masses; and fuzzy dark matter suppresses small-scale structure, which the Lyman-α forest — the absorption lines of intergalactic hydrogen in quasar spectra — would reveal. In the Comatter program these bounds set the lower edge of [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) and close the light-mass escape from the ultra-faint-dwarf test of [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), a scenario under review since 2026-10-29.*
 
 **Status:** Established — [T], with the Dalal–Kravtsov citation † (from model memory) — the [clumping notes](/wiki/history/documents/clumping-notes) flag its figure "verify exact figure before publication", no source cites a Lyman-α paper or gives a Lyman-α number, and both await [the † literature battery](/wiki/method/literature-battery).
 
@@ -43,7 +43,7 @@ Light from a distant quasar passes through clouds of neutral hydrogen in interga
 
 ### The light branch of Scenario A
 
-[Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) of the wave island, now dead, had two branches. The light one, m ≲ 5×10⁻²¹ eV, is where the condensate of an [attractive self-interaction](/wiki/dark-matter/wave-dark-matter/attractive-condensates) would grow as a stable core rather than drain the halo. Calc note #4 closes it with these bounds:
+[Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) of the wave island, now under review, had two branches. The light one, m ≲ 5×10⁻²¹ eV, is where the condensate of an [attractive self-interaction](/wiki/dark-matter/wave-dark-matter/attractive-condensates) would grow as a stable core rather than drain the halo. Calc note #4 closes it with these bounds:
 
 > **Branch (ii), m ≲ 5×10⁻²¹ eV:** M_crit ≳ M_core; the condensate grows as a stable soliton — ordinary fuzzy-DM phenomenology with an attractive perturbation. But this mass range is independently excluded: UFD sizes and stellar kinematics (granule-heating arguments, Dalal & Kravtsov 2022 [T — bound ≈ 3×10⁻¹⁹ eV; verify exact figure before publication]) and Lyman-α forest limits already forbid wave DM this light.
 
@@ -79,14 +79,14 @@ The program cites nothing for the Lyman-α limit or for fuzzy dark matter in gen
 
 ## Used by
 
-- [Obituary: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — these bounds close Scenario A's light-mass escape.
+- [Under review: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) — these bounds close Scenario A's light-mass escape.
 - [The wave island](/wiki/dark-matter/momentum-clumping/wave-island) — its lower edge.
 - [Scenario B: tunable streams](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) — its fuzzy-core option lies below the bound.
 - [The net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) — "viable" excludes Scenario A's light-mass branch, which these bounds rule out.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §9, §14 item 10, ref [15] — the checkpoint's statement without the figure; the † battery; the reference
+- `papers/broken-born-checkpoint-v2.md` §9, §14 item 10, ref [15] — the checkpoint's statement without the figure; the † battery; the reference; §9 'Status (v2.5)' — Scenario A under review, not dead
 - `notes/ufd-endpoint.md` 'The attractive endpoint: criticality and the drain', 'The data', 'Verdict and closure of the clumping problem' — the exclusion of the light branch, the figure and its flag, the island's range
 - `notes/wave-island.md` 'What pins g? Two scenarios' — Scenario B's fuzzy-core option at m ~ 10⁻²² eV
 - `notes/broken-born-program-v1.md` §7, §10 — v1's statement with the figure; the verification to-do

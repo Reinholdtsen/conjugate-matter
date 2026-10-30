@@ -123,7 +123,7 @@ The race has a history. [The lab notebook](/wiki/history/documents/lab-notebook)
 - Making [dwarf-galaxy cores](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), by analogy with [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM), needs about one relaxation over the age of the halo: "Γ_self(dwarf) · t_age = κ ~ 1".
 - Streams need condensation faster than stirring: "Streams need the much harder Γ_self ≳ Ω = 1/t_dyn."
 
-The second condition is harder than the first by the ratio t_age/t_dyn. What fixes the coupling is calc note #3's next question, "What pins g?", and it answers with two scenarios: [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), in which the gated channel makes the cores and the coupling is fixed (dead), and [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), in which the coupling is free (alive, quarantined).
+The second condition is harder than the first by the ratio t_age/t_dyn. What fixes the coupling is calc note #3's next question, "What pins g?", and it answers with two scenarios: [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), in which the gated channel makes the cores and the coupling is fixed (under review since 2026-10-29), and [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), in which the coupling is free (alive, quarantined).
 
 Calc note #4, testing Scenario A, also allows for the slowdown of Bose-star growth seen in LPT-type kinetics, "t^{1/2} growth, factor ~10²–10³ in effective rate" ('Sharpened input numbers').
 
@@ -154,7 +154,7 @@ Rows 1 and 2 of the predictions table are [the self-interaction knee](/wiki/pred
 ## Sources
 
 - `notes/wave-island.md` 'Setup', 'The rate [D, heuristic coefficients]' — the mechanism, the conventions, the rate, both corollaries, the calibration flag in the header; 'What pins g? Two scenarios' — the core and stream thresholds; 'Standing results after Chunks A+B' — the summary
-- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement, its tags and the reference [13]†; §8 — the open tail; §12 — the third candidate, P.R.'s conjecture, and #14's failed model of it; §13 row 3 — the island discriminant; §14 item 10 — the literature battery
+- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement, its tags and the reference [13]†; 'Status (v2.5)' — Scenario A under review, not dead; §8 — the open tail; §12 — the third candidate, P.R.'s conjecture, and #14's failed model of it; §13 row 3 — the island discriminant; §14 item 10 — the literature battery
 - `notes/stream-stability.md` 'Setup' — the coupling g and the gate; 'Limit 1 (broad gate)' — the retired "γ vs Ω" framing; 'Limit 2 (narrow gate)' — the co-mover density n_gate; 'Consequences for the predictions table' — the wave island, the (v\*/σ)³ estimate and the rows 1–2 to-do; 'Next chunk (#3)' — the task and the anchoring instruction
 - `notes/ufd-endpoint.md` 'Sharpened input numbers' — the t^{1/2} slowdown allowed for in the test of Scenario A
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 statement; §10 item 8 — the calibration as an open literature verification

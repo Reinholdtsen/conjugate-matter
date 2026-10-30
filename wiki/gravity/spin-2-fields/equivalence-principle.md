@@ -9,6 +9,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §6"
   - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §11.1"
   - "papers/conjugate-special-relativity.md §5"
   - "papers/conjugate-special-relativity.md §6"
@@ -182,11 +183,11 @@ The program's documents cite no source for the equivalence principle. Added by t
 - [The equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) — #13's reading of the principle.
 - [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results) — "equivalence principle intact", and the dual equivalence principle.
 - [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) — λ_χ, the quantity a dual equivalence principle would lock to the dual charge.
-- [The gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) — ordinary gravity enters a dark-matter particle's energy as mΦ_grav(x), with the same m as its kinetic energy p²/2m; the model is the setup of the calculations that killed [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image).
+- [The gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) — ordinary gravity enters a dark-matter particle's energy as mΦ_grav(x), with the same m as its kinetic energy p²/2m; the model is the setup of the calculations that tested [velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), the founding image, which is P.R.'s open conjecture (#11 v2.5 §9).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §4 — P4, universal coupling to H, and its strict reading; §5, §6 — H = diag(g, g⁻¹) on the vacuum slice X = 0, with Im Z = g; §8 — "χ propagates on g (equivalence principle; Bullet-Cluster-safe)"; §11.1 — "by P4, conjugate-sector solitons gravitate".
+- `papers/broken-born-checkpoint-v2.md` §4 — P4, universal coupling to H, and its strict reading; §5, §6 — H = diag(g, g⁻¹) on the vacuum slice X = 0, with Im Z = g; §8 — "χ propagates on g (equivalence principle; Bullet-Cluster-safe)"; §9 — velocity clumping, P.R.'s open conjecture since v2.5; §11.1 — "by P4, conjugate-sector solitons gravitate".
 - `papers/conjugate-special-relativity.md` §5 — the dual-inertial class of free fall and Rindler frames, the dual principle of relativity as the equivalence principle [D — structural], and λ_χ as the resistance to force-change (conjecture-tier); §6 — the shared massless graviton, "so both polarizations fall identically".
 - `HANDOFF.md` §2 — #13's reading in the alive list, without a ✓; §4 — the chat-only two gravitational charges and the "dual equivalence principle" question.
 - `notes/broken-born-theory.md` §1 — the notebook's P4, "the equivalence principle holds across polarizations"; §3 — the Standard Model minimally coupled to g; §4 — χ "falls, orbits, and lenses like ordinary dark matter" [D] (superseded as reference).

@@ -31,7 +31,7 @@ sources:
 
 *The Kibble mechanism, proposed by Tom Kibble in 1976, is the standard account of how [topological defects](/wiki/symmetry-breaking/topological-defects) such as [monopoles](/wiki/electric-magnetic-duality/monopoles), strings and domain walls form when the early universe cools through a symmetry-breaking transition. Regions farther apart than the horizon, the distance light has travelled since the Big Bang, have had no contact, so the field settles into unrelated vacuum states in different regions, and defects are left where those regions meet. This gives at least about one defect per horizon volume, and that count is a minimum: slow transitions (Kibble–Zurek dynamics) and first-order transitions, which proceed by bubbles, make more. In the program the count decided the fate of the withdrawn manuscript #14's model of a soliton dark-matter candidate, which had normalized it too low and treated it as an upper end; that error and its correction are recorded with #14's model.*
 
-**Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, astro-ph/0110285, which the round-3 referee cited and [the gate](/wiki/method/verification/the-gate) uses as an anchor), and the floor, which the [checkpoint](/wiki/history/documents/checkpoint) supports with Murayama–Shu [28S]. [Round 3](/wiki/method/review/round-3) upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
+**Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, astro-ph/0110285, which the round-3 referee cited and [the gate](/wiki/method/verification/the-gate) uses as an anchor), and the floor, which the [checkpoint](/wiki/history/documents/checkpoint) supports with Murayama–Shu [28S]. [Round 3](/wiki/method/review/round-3) upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
 ## Defects from a cooling field [T]
 
@@ -87,7 +87,7 @@ What happens after formation is a separate question. Monopoles and antimonopoles
 
 ## How the program uses it
 
-The Kibble count was the abundance estimate of #14's soliton model, and the error in it decided the model's fate. The full record is on [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) and [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); this section summarizes it, and ends with the production question that the program's own order parameter raises.
+The Kibble count was the abundance estimate of #14's soliton model, and the error in it decided the model's fate. The full record is on [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) and [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); this section summarizes it, and ends with the production question that the program's own order parameter raises.
 
 ### #14's normalization and direction
 
@@ -96,7 +96,7 @@ The Kibble count was the abundance estimate of #14's soliton model, and the erro
 - **The value.** Ruling 1, upheld: "My code: p = 104.31 with M_Pl, 0.828 with the reduced M_Pl. v3's 0.0228 drops (1.66√g\*)³ ≈ 4.6×10³." In the formula of the previous section, 45/(2π² g\*) is what remains when the Friedmann prefactor is set to one; the referee's script prints "45/(2 pi^2 * 100) = 0.0228  <- equals n=(T^2/MPl)^3 i.e. H without 1.66 sqrt(g\*)" (`review/round3/referee/step2a.out`). The checkpoint carries the corrected value: "One defect per Hubble volume gives p ≈ 104 [V], and that is the causal minimum; Kibble–Zurek and bubble-nucleation production only add to it [28S]" (#11 §12).
 - **The direction.** Ruling 3, upheld: "Kibble is a floor, not a ceiling; Kibble–Zurek or bubble counting add more". The referee judged #14's bracket from 0.023 to 1 unreasonable for that reason: p "should be >= ~25-100, not <= 1" (Step 2). The lower figure counts one defect per (4π/3)H⁻³: the referee's script prints "p(one per H^-3) = 104.31 ; p(one per (4pi/3)H^-3) = 24.90" at g\* = 100 (`step2a.out`). The adjudication and the gate use H⁻³.
 
-The two Planck-mass values, 104.31 and 0.828, are the same count in two conventions; #14's reduced-Planck "factor of about 3" in its mass band came from changing the Planck mass without changing p, and ruling 2 found that "consistently normalized, the two conventions agree" ([Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
+The two Planck-mass values, 104.31 and 0.828, are the same count in two conventions; #14's reduced-Planck "factor of about 3" in its mass band came from changing the Planck mass without changing p, and ruling 2 found that "consistently normalized, the two conventions agree" ([Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization)).
 
 ### The referee's estimates of the excess
 
@@ -131,7 +131,7 @@ PASS  v3's 0.0228 drops (1.66 sqrt(g*))^3 ~ 4.6e3  [4575.6]
 
 ### The √N floor
 
-The [handoff](/wiki/history/documents/handoff) had framed the candidate's relic question between a "Kibble ceiling" and a "√N floor" (`HANDOFF.md` §2, open item 2). [Round-3 Decision 3](/wiki/method/review/round-3/decisions) dropped it: "Its premise, Kibble as a ceiling, is inverted (ruling 3)" ([Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
+The [handoff](/wiki/history/documents/handoff) had framed the candidate's relic question between a "Kibble ceiling" and a "√N floor" (`HANDOFF.md` §2, open item 2). [Round-3 Decision 3](/wiki/method/review/round-3/decisions) dropped it: "Its premise, Kibble as a ceiling, is inverted (ruling 3)" ([Under review: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
 ### The polarization's own defects (OP12)
 
@@ -151,10 +151,10 @@ Added by the wiki from model memory (†):
 
 ## Used by
 
-- [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — #14's p = 0.023 and the corrected p ≈ 104.
+- [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — #14's p = 0.023 and the corrected p ≈ 104.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — the closing mass at minimum production.
 - [The monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) — the production side of the monopole abundance.
-- [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — dropped because its premise, Kibble as a ceiling, is inverted.
+- [Under review: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — dropped because its premise, Kibble as a ceiling, is inverted.
 - [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script) — the one-per-Hubble-volume anchor.
 - [Independent anchors](/wiki/method/verification/independent-anchors) — v3's circular Kibble anchor and its replacement.
 - [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the abundance estimate whose error decided the model's fate.

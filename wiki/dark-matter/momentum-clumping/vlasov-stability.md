@@ -106,7 +106,7 @@ Added by the wiki from model memory (†); the program's documents cite none of 
 - [The gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) — the mean-field setup of the clumping calculation, with a mean field that depends on momentum.
 - [The mean-field criterion and its 10²⁸–10³¹ shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) — the stream threshold, Landau damping below it, and the H-theorem closure of the collisional route.
 - [The classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) — the corollary of that threshold.
-- [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image) — "the Jeans problem with the roles of x and v exchanged".
+- [Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image) — "the Jeans problem with the roles of x and v exchanged".
 
 ## Sources
 

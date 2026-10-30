@@ -89,7 +89,7 @@ The lineage, and the soccer-ball problem it raises, are on [curved momentum spac
 - **Freidel, Leigh and Minic.** In metastring theory they wrote: "if all probes agree on what we mean by space-time, then we have broken Born duality — there is a preferred choice of polarization, the space-time one" [26S, p. 3]. They "treat the breaking as kinematical and call the choice 'a dynamical question'" (#11 §3). Their work is the program's direct precedent, credited in #11 since v2.2: see [broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality).
 - **An exactly symmetric field theory.** Langmann and Szabo found a duality of noncommutative scalar field theory "that exchanges positions and momenta", "formulated for complex fields", and the [Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) is invariant under it at its self-dual point Ω = 1 (toy-model note §1, refs [5], [6]). For a real field the toy-model note finds the duality "only a covariance" (Abstract; §3). The program uses this model as its second toy model ([noncommutative field theory and the Langmann–Szabo duality](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/noncommutative-field-theory)).
 
-#11's plain-language passage says "The question sat for 88 years", and #10 says it spent "eighty-eight years in a drawer". Both should be read with the credit that #11's technical text gives Freidel, Leigh and Minic since v2.2.
+#11's plain-language passage says "The question sat for 88 years", and #10 says it spent "eighty-eight years in a drawer". Both should be read with #11's technical text, which has credited Freidel, Leigh and Minic since v2.2.
 
 ## The program's answer
 

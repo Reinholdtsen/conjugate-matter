@@ -2,7 +2,7 @@
 title: "The field-equation calc notes (#5–#8)"
 weight: 50
 status: record
-description: "#5 (the geometric core), #6 (the classification of X), #7 (the tuning test) and #8 (the β coefficients): the four working notes that closed the field-equation problem in structure, section by section, with the battery tests that check their algebra and what changed in them since."
+description: "#5 (the geometric core), #6 (the classification of X), #7 (the tuning test) and #8 (the β coefficients): the four working notes that closed the field-equation problem in structure, section by section, with the battery tests that check their algebra and what has changed in them since."
 sources:
   - "notes/geometric-core.md"
   - "notes/x-classification.md"
@@ -28,7 +28,7 @@ sources:
 
 *The field-equation calc notes are four working notes, artifacts #5 to #8, on the most severe of the lab notebook's open problems: what equations govern the geometry of momentum space. The first, written overnight, showed that the original postulates left the program with no content beyond [general relativity](/wiki/gravity/spin-2-fields/general-relativity) and one model of [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter), repaired them, and gathered the geometry into a single [modular field](/wiki/phase-space/modular-field/modular-field-z); on the way it found the mechanism of the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). The second showed that the field carrying momentum-space geometry must be a [second graviton](/wiki/gravity/momentum-graviton), and a massive one. The third tested whether that field avoids the [Boulware–Deser ghost](/wiki/gravity/spin-2-fields/fierz-pauli), the instability that generic massive-graviton theories carry, and found that it does when the field's potential is written in [frame variables](/wiki/gravity/tuning-test/frame-tier), sets of local reference axes from which a metric is assembled; written in metric variables it fails, and the note argues that the frame formulation is the natural one. The fourth used [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) to constrain the remaining coefficients, leaving two free parameters, and to cancel the sector's vacuum energy. Together they closed the field-equation problem in structure; their results are now stated in checkpoint #11 §5–§8, and the battery checks their explicit algebra.*
 
-**Status:** Record, final for its scope — the notes tag their own results ("[D — rigorous]", "[D — structural]", "[D + T]"); the battery T1–T7 in `verify/battery.py` checks the explicit algebra [V], which #11 §2 calls [Tier 1](/wiki/method/claim-tiers#tier-1-explicit-algebra) — `HANDOFF.md` §3 marks all four "final", and #8 "final — closes the field-equation problem (structural)"; the root `CLAUDE.md` files them with the audit trail, "superseded as reference but kept". The files are unchanged since their import on 2026-10-19 (commit 8d588f6; moved to `notes/` in 008c3ee).
+**Status:** Record, final for its scope — the notes tag their own results ("[D — rigorous]", "[D — structural]", "[D + T]"); the battery T1–T7 in `verify/battery.py` checks the explicit algebra [V], which #11 §2 calls [Tier 1](/wiki/method/claim-tiers#tier-1-explicit-algebra) — `HANDOFF.md` §3 marks all four "final", and #8 "final — closes the field-equation problem (structural)"; the root `CLAUDE.md` files them with the audit trail, "superseded as reference but kept". The files were imported on 2026-10-19 (commit 8d588f6; moved to `notes/` in 008c3ee) and renamed by subject on 2026-10-28, when the old numbered labels of the [three main problems](/wiki/history/main-problems) in their text (Debt 1–3) became the problems' subject names and the payment and ledger wording around them was rewritten (c12da1b).
 
 ## What the notes are
 
@@ -107,7 +107,7 @@ The notebook's addenda v0.3 to v0.6 summarized each note as it was written. The 
 
 ## What has changed since
 
-- **The compatibility theorem's tag.** "[D — rigorous]" in #5; #11 since v2.1 tags it [T][V], the statement being Freidel, Leigh and Minic's and the block proof and machine check the program's ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
+- **The compatibility theorem's tag.** "[D — rigorous]" in #5; #11 has tagged it [T][V] since v2.1, the statement being Freidel, Leigh and Minic's and the block proof and machine check the program's ([broken Born duality](/wiki/phase-space/reciprocity/broken-born-duality)).
 - **The novelty of the branch and of Λ = 0.** #8 said the interchange-symmetric branch "now has a reason to exist" and that the Λ = 0 property, if new, "is a standalone publishable observation". #11 §7.4 found the partially-massless point inside the branch and downgraded the claim to "requires detailed comparison with the PM and exchange-symmetric literature", PM being partially massless ([Open: the partially-massless comparison](/wiki/gravity/palindromic-branch/pm-comparison); [partially massless gravity](/wiki/gravity/spin-2-fields/partially-massless-gravity)).
 - **"Exactly one known" structure.** #6 §3 keeps the qualifier; #11 §7.1 writes "The unique consistent structure" (`review/wiki-build-flags.md` item 7).
 - **The safety argument.** #5 §E and #6 §4 combined X's short range with a weak coupling through ordinary matter's dual stress ("suppressed" in #5, "unenhanced" in #6); #7 §4 required the massless combination to dominate the couplings of ordinary matter; #8 §3 rests on range alone, with couplings of gravitational strength: "safety is by **range**, not decoupling". #8's form is #11's ([safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety#superseded-earlier-forms-of-the-safety-argument)).
@@ -122,6 +122,7 @@ The notebook's addenda v0.3 to v0.6 summarized each note as it was written. The 
 - `notes/x-classification.md` — §1–§5: shift symmetry, the no-go, the mass mechanism, the gate overlap and the X-condensate door
 - `notes/tuning-test.md` — §1–§5: the metric tier, the frame tier, constrained bimetric gravity
 - `notes/beta-coefficients.md` — §1–§5: the palindrome, the vacuum-energy theorem, the parameter count and spectrum, the answer to Born, the residue
+- the same four notes — their names and wording before c12da1b are in `git log --follow` on each file
 - `notes/broken-born-theory.md` 'Addendum (v0.3, overnight)' to 'Addendum (v0.6)' — the notebook's summaries
 - `notes/broken-born-program-v1.md` §3–§6 — the v1.0 consolidation
 - `HANDOFF.md` §3 rows 5–8 — the notes' standing and descriptions

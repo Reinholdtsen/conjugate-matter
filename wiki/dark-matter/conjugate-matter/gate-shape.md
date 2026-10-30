@@ -96,7 +96,7 @@ Row 3's particle side assumes a sharp tail, which is the Gaussian case of this o
 - **The particle side of the island discriminant**, as above.
 - **The steepness of the knee in row 1.** The existence and location of the knee do not depend on the shape; how sharply the cross-section falls beyond it does.
 
-The emphasis has moved since v0.1. The lab notebook's open-problem list read: "The σ(v) *cliff* is robust to the exact shape; the sub-v\* profile is not" (#1 §11 item 2). Since the v0.4 downgrade the knee is the robust part, and the steepness of the fall beyond it, which v0.1 took as given, is part of the open question.
+The emphasis has moved since v0.1. The lab notebook's open-problem list read: "The σ(v) *cliff* is robust to the exact shape; the sub-v\* profile is not" (#1 §11 item 2). Since the v0.4 downgrade the knee has been the robust part, and the steepness of the fall beyond it, which v0.1 took as given, has been part of the open question.
 
 ## History
 

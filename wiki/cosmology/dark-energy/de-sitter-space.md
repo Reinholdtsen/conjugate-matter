@@ -148,7 +148,7 @@ PASS  the K kinetic term Tr(H^-1 dK^T H dK) is positive for random H and dK (no 
 PASS  the naive Tr(dK dK) is indefinite on K's target space (de Sitter): 2 db dc
 ```
 
-The hyperboloid is non-compact: K can move along it without limit while K² = 1 continues to hold. The [round-4](/wiki/method/review/round-4) referee's counterexample runs along such a path. On a family of compatible pairs (H, K) moved by boosts of the phase plane, the entries of K grow without limit while K² = 1 holds, and the naive ρ-preserving potential falls without bound (`review/round4/referee/out_model1.txt`; [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)).
+The hyperboloid is non-compact: K can move along it without limit while K² = 1 continues to hold. The [round-4](/wiki/method/review/round-4) referee's counterexample runs along such a path. On a family of compatible pairs (H, K) moved by boosts of the phase plane, the entries of K grow without limit while K² = 1 holds, and the naive ρ-preserving potential falls without bound (`review/round4/referee/out_model1.txt`; [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)).
 
 At H = 1 the vacua of model I form a circle on the hyperboloid, K(φ) = [[cos φ, sin φ], [sin φ, −cos φ]], and the angle φ parametrizes the [Lagrangian Grassmannian](/wiki/phase-space/modular-field/lagrangian-grassmannian) Λ(1) (note §2), a Λ unrelated to the cosmological constant. #11 §10: "In the coset model that angle parametrizes Λ(1): it is τ's circle" ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)). Here de Sitter space is a space of field values, not a spacetime. Model I's fields live on a "1+1 dimensional base" (note §2), and nothing in the model is an expanding universe.
 
@@ -167,7 +167,7 @@ At H = 1 the vacua of model I form a circle on the hyperboloid, K(φ) = [[cos φ
 - [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability) — the Higuchi bound, met trivially by a heavy X.
 - [The momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) — the Higuchi bound through the dressed mass (flag 53).
 - [Model I: action and symmetries](/wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries) — K's target, dS₂, and the H-contracted kinetic term that avoids its ghost.
-- [Obituary: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) — the non-compact hyperboloid along which the potential falls without bound.
+- [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) — the non-compact hyperboloid along which the potential falls without bound.
 
 ## Sources
 

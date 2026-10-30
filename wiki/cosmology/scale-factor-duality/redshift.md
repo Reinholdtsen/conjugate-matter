@@ -191,7 +191,7 @@ None of these is cited in the program's documents; they are given here from memo
 
 - [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — free-particle momenta falling as 1/a, set beside the constraint, and #12's gloss.
 - [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) — the radiation's conserved phase-space area, from extents growing as a and momenta falling as 1/a, with the photon number and entropy a comoving region conserves.
-- [Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — the aspect ratio growing as a², run back to the epoch at which it would be square, and its maximum at a turnaround.
+- [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce) — the aspect ratio growing as a², run back to the epoch at which it would be square, and its maximum at a turnaround.
 - [The conjugate universe: one state, two descriptions](/wiki/program/conjugate-universe) — #12's reading of the redshift in the momentum description.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the observable w(z) and DR2's crossing above z ≈ 0.4.
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — the phantom phase DR2 favours above z ≃ 0.4.

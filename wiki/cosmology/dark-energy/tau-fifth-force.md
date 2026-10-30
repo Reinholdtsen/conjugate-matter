@@ -67,7 +67,7 @@ The later documents keep the pseudo-Goldstone picture, and the toy models are co
 - **One source.** The argument is in the notebook's v0.1 only (#1 §4). #11 does not restate it, and the [handoff](/wiki/history/documents/handoff) does not list it among the live results.
 - **No numbers.** #1 gives no mass for τ, no value of the coupling scale and no experimental bound; the claim is structural.
 - **The v0.1 matter coupling.** In the notebook's action the Standard Model couples to the metric alone: "S_x is the Standard Model minimally coupled to g. Nothing is modified." (#1 §3, transcribed from its LaTeX). τ does not appear in S_x, and #1 does not write out the derivative coupling that §4 describes.
-- **The v2.2 matter coupling.** Since v2.2 the breaking of reciprocity "is physical only once matter couples to the sign of K (P4)" (#11 §4; [P4](/wiki/program/postulates/p4-polarized-matter)), and the toy note builds such a coupling from the fields (H, K) ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). No document revisits the fifth-force argument in that picture.
+- **The v2.2 matter coupling.** Since v2.2 #11 has said that the breaking of reciprocity "is physical only once matter couples to the sign of K (P4)" (§4; [P4](/wiki/program/postulates/p4-polarized-matter)). The toy note builds such a coupling from the fields (H, K) ([locality from an (H, K)-built coupling](/wiki/symmetry-breaking/matter-coupling)). No document revisits the fifth-force argument in that picture.
 - **Not machine-checked.** No `verify/` script tests it.
 
 ## A related open problem

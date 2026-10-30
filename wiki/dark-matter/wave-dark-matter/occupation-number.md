@@ -53,7 +53,7 @@ Calc note #3 writes the occupation twice. Its 'Setup' uses the "per-mode occupat
 
 ### The classicality theorem
 
-The program's [the clumping problem](/wiki/history/main-problems) asked whether [conjugate matter](/wiki/dark-matter/conjugate-matter) χ could clump by velocity rather than by position (the [founding image](/wiki/dark-matter/momentum-clumping/founding-image), now dead). Its first chunk found a mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for such clumping and then asked at what mass the criterion can be met. Calc note #2 holds the self-scattering strength fixed at S ≡ σ₀/m, the cross-section per unit mass that fits dwarf-galaxy cores ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)): "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS)ρ/(m^{5/2}σ²)". Setting it to 1 gives
+The program's [clumping problem](/wiki/history/main-problems) asked whether [conjugate matter](/wiki/dark-matter/conjugate-matter) χ could clump by velocity rather than by position (the [founding image](/wiki/dark-matter/momentum-clumping/founding-image), recorded dead from #11 v2.0 to v2.4 and P.R.'s open conjecture since v2.5). Its first chunk found a mean-field [instability criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) for such clumping and then asked at what mass the criterion can be met. Calc note #2 holds the self-scattering strength fixed at S ≡ σ₀/m, the cross-section per unit mass that fits dwarf-galaxy cores ([the scattering benchmark](/wiki/dark-matter/conjugate-matter/benchmark)): "At fixed S ≡ σ₀/m and halo (ρ,σ), the criterion scales as √(πS)ρ/(m^{5/2}σ²)". Setting it to 1 gives
 
 ```text
 m_crit = [√(πS)ρ/σ²]^{2/5} ≈ 10⁻¹³ GeV ~ 0.1 meV        (Milky Way conditions)
@@ -87,7 +87,7 @@ The clumping notes cite no source for the occupation number. Added by the wiki f
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §9 — the classicality theorem as the checkpoint states it
+- `papers/broken-born-checkpoint-v2.md` §9 — the classicality theorem as the checkpoint states it; 'Status (v2.5)' — the founding image as P.R.'s open conjecture
 - `notes/stream-stability.md` 'Corollary (the classicality theorem)', 'Consequences for the predictions table' — the definition, the scaling of the criterion, m_crit and the 10²⁰ occupation; the particle and wave islands; rows 1–2 in wave language
 - `notes/wave-island.md` 'Setup', 'The rate' — Bose-enhanced wave kinetics; the per-mode and peak normalizations
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the final range of the wave island

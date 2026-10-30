@@ -1,9 +1,10 @@
 ---
-title: "Obituary: the hidden SU(2) → U(1) proposal"
+title: "Under review: the hidden SU(2) → U(1) proposal"
 weight: 30
-status: dead
-description: "An adjoint Higgs breaks SU(2)_d to U(1)_d, leaving W′±, a massless hidden photon, stable monopoles and a light Dirac doublet ψ: a standard prior-art model, dead as a program-native proposal."
+status: under-review
+description: "An adjoint Higgs breaks SU(2)_d to U(1)_d, leaving W′±, a massless hidden photon, stable monopoles and a light Dirac doublet ψ: a standard prior-art model, recorded dead as a program-native proposal and under review since 2026-10-29."
 sources:
+  - "CLAUDE.md 'Since the handoff'"
   - "notes/knot-dark-matter-standalone.md §1"
   - "notes/knot-dark-matter-standalone.md §2"
   - "notes/knot-dark-matter-standalone.md §3"
@@ -24,9 +25,9 @@ sources:
   - "HANDOFF.md §6"
 ---
 
-*The hidden SU(2) → U(1) proposal was the particle content the soliton manuscript #14 assumed for its dark sector: a hidden copy of a simple gauge force, SU(2)_d, whose Higgs field breaks it down to a single unbroken U(1)_d. The breaking leaves heavy charged W′± bosons, a massless hidden photon, and 't Hooft–Polyakov monopoles that are stable for topological reasons, which were the dark matter in #14's model. A light hidden fermion ψ was added because without it the W′± would overclose the universe. #14 identified this sector with the [momentum-polarized half](/wiki/dark-matter/conjugate-matter) of the program's matter, but nothing numerical in the proposal depended on that identification. As a model it is a standard hidden-sector monopole scenario already in the literature; as the program's own proposal it failed with #14's model on 2026-10-19.*
+*The hidden SU(2) → U(1) proposal was the particle content the soliton manuscript #14 assumed for its dark sector: a hidden copy of a simple gauge force, SU(2)_d, whose Higgs field breaks it down to a single unbroken U(1)_d. The breaking leaves heavy charged W′± bosons, a massless hidden photon, and 't Hooft–Polyakov monopoles that are stable for topological reasons, which were the dark matter in #14's model. A light hidden fermion ψ was added because without it the W′± would overclose the universe. #14 identified this sector with the [momentum-polarized half](/wiki/dark-matter/conjugate-matter) of the program's matter, but nothing numerical in the proposal depended on that identification. As a model it is a standard hidden-sector monopole scenario already in the literature; as the program's own proposal it failed with #14's model on 2026-10-19 and was recorded dead, and it has been under review since 2026-10-29.*
 
-**Status:** Dead as a program-native proposal, Paul's concurrence asked 2026-10-29; until he answers, the death stands as recorded (root `CLAUDE.md`, 'Since the handoff') — retired with #14's model (round-3 Decision 2, narrowed on 2026-10-29 to the model; [round-3 decisions](/wiki/method/review/round-3/decisions)). #14 marked the sector "(postulated)" and listed "the identification of the SU(2)_d sector as the momentum-polarized matter sector" as "Conjectural" (#14 §6). No `verify/` script checks the sector itself; the one result about it that survives, the exclusion of its minimal form, is [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). What is under review is the sector as a program-native proposal, retired with #14's model (round-3 Decision 2, narrowed on 2026-10-29 to the model; [round-3 decisions](/wiki/method/review/round-3/decisions)). #14 marked the sector "(postulated)" and listed "the identification of the SU(2)_d sector as the momentum-polarized matter sector" as "Conjectural" (#14 §6). No `verify/` script checks the sector itself; the one result about it that stands, the exclusion of its minimal form, is [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); listed in [claims under review](/wiki/status/under-review).
 
 ## What was claimed
 
@@ -87,11 +88,11 @@ QFT is quantum field theory, DM is dark matter, and LMW is Liveoak–Maharana–
 
 The adjudication also accepted, as a to-do not individually re-checked, the referee's list of constraints the sector was never tested against: re-thermalization by ψ, limits on millicharged particles from supernova 1987A and from [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis#nucleosynthesis-limits-on-a-millicharged-ψ), charged-subcomponent and cosmic-microwave-background bounds, dark acoustic oscillations, the Higgs portal, the [reheating](/wiki/cosmology/early-universe/inflation-and-dilution) mechanism for the temperature ratio, and collective magnetic-plasma effects ('Rulings', [omitted constraints](/wiki/method/review/round-3/rulings#omitted-constraints)). Strict sector separation (Decision 1) later closed the channels that depend on mixing; the rest were not pursued after #14's model was retired.
 
-## Why it died as the program's proposal
+## Why it was recorded dead as the program's proposal
 
-The model was not refuted. Its physics is the standard physics above, and its minimal form was excluded by the worklog's calculation (item O1). What died is the claim that the program had selected it. Round-3 Decision 2, on the low-scale version of the same model: "Route (a), v ≲ 100 PeV, works, but it is Murayama–Shu's and Liveoak–Maharana–Wells's model. Nothing in it depends on Born reciprocity (the referee and the pre-registration agree), so claiming it would add no testable content and would misattribute it." The superheavy version failed on its abundance ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #14 had said so: its charge-lattice motivation for the sector was used "only as motivation", and "No numerical result below depends on it" (#14 §2). This is the soliton episode's instance of [the 'framework does no work' critique](/wiki/program/framework-does-no-work).
+The model was not refuted. Its physics is the standard physics above, and its minimal form was excluded by the worklog's calculation (item O1). What was recorded dead is the claim that the program had selected it. Round-3 Decision 2, on the low-scale version of the same model: "Route (a), v ≲ 100 PeV, works, but it is Murayama–Shu's and Liveoak–Maharana–Wells's model. Nothing in it depends on Born reciprocity (the referee and the pre-registration agree), so claiming it would add no testable content and would misattribute it." The superheavy version failed on its abundance ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #14 had said so: its charge-lattice motivation for the sector was used "only as motivation", and "No numerical result below depends on it" (#14 §2). This is the soliton episode's instance of [the 'framework does no work' critique](/wiki/program/framework-does-no-work).
 
-## What survives
+## What stands
 
 - **The exclusion of the minimal sector.** [#11](/wiki/history/documents/checkpoint) §12: "The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V]." The adjudication lists the same: "The statement that the minimal adjoint-only sector is excluded." See [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure).
 - **The Dirac relation.** "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]" (#11 §12).
@@ -100,6 +101,7 @@ The model was not refuted. Its physics is the standard physics above, and its mi
 
 ## Sources
 
+- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — under review, not dead, until Paul reviews it
 - `review/round3-adjudication.md` 'Decisions' 2 — the retirement and the misattribution argument, and the narrowing to #14's model (2026-10-29); 'What survives v3' — the minimal-sector exclusion and the mixing points; 'Rulings' — the omitted constraints
 - `papers/broken-born-checkpoint-v2.md` §12 — the survivors, with tags, and the localization in momentum #14 did not model; §4 — P4
 - `verify/soliton_obituary.py` — the gated minimal-sector exclusion

@@ -80,7 +80,7 @@ The adjudication answers the referee in a table, one row per finding, each with 
 | 7 | the dimension-5 operator's "O(1) coefficient at the Planck scale" is unsupported | Upheld | [Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) |
 | 8 | Baumgart et al. lack the adjoint operator | Overturned | [Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator#ruling-8-the-operator-itself-exists) |
 | 9 | the monopoles carry a visible electric charge (Witten effect) | Accepted, not re-checked | [the Witten effect](/wiki/electric-magnetic-duality/monopoles/witten-effect#ruling-9-and-the-claim-it-contradicted) |
-| 10 | annihilation at α_m ≈ 34 is Preskill's Dirac case | Upheld (abstract level) | [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art#strong-coupling-annihilation-is-a-solved-case) |
+| 10 | annihilation at [α_m ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) is Preskill's Dirac case | Upheld (abstract level) | [topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art#strong-coupling-annihilation-is-a-solved-case) |
 | 11 | the dark-energy data's best fit crosses into phantom above z ≈ 0.4 | Accepted | [the DR2 phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) |
 | 12 | minor citation issues | Accepted | [the citation audit](#the-citation-audit) below |
 | 13 | v3 §6's "all numbers computed by executed code" overstates | Upheld in substance | [verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model) |
@@ -101,7 +101,7 @@ The referee's own estimates (Step 4(a)): at a first-order transition, where defe
 
 ### Ruling 4: the ψ relic window
 
-ψ is the light hidden fermion v3 added so that the heavy W′± could decay; it is itself a stable relic, and v3 chose its mass window to keep it a minor part of the dark matter ([Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The finding: "ψ relic window too high". Upheld, with the evidence:
+ψ is the light hidden fermion v3 added so that the heavy W′± could decay; it is itself a stable relic, and v3 chose its mass window to keep it a minor part of the dark matter ([Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The finding: "ψ relic window too high". Upheld, with the evidence:
 
 > v3 omitted ψ̄ and the second doublet member (a factor of 4), and bracketed an exactly known s-wave σv up to ×10. My recount: 10% of the DM at 45–49 GeV, 100% at 146–158 GeV. The referee's Boltzmann integration gives 28–46 / 96–153 GeV. We agree to within ×1.6, and v3's 0.1–0.3 TeV was wrong.
 
@@ -133,7 +133,7 @@ A θ term, proportional to the product of electric and magnetic fields, gives a 
 
 ### Ruling 10: annihilation at strong coupling
 
-#14's acceptance criterion 3 asked for "the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma", because the monopoles' mutual coupling α_m ≈ 34 is strong (§6). The finding: "Annihilation at α_m ≈ 34 is Preskill's Dirac case, already done for hidden sectors". Upheld (abstract level), with the evidence "LMW 2026 as in #3". The referee: "Acceptance criterion 3 is not open: the "strong-coupling" regime alpha_m = 34 is exactly the Dirac-monopole case of Preskill 1979 (h = 2 pi/e); its modern hidden-sector version (LMW 2026) excludes v >~ 100 PeV for hidden monopoles" (Step 4(a) item 3). A monopole with the minimal Dirac charge relative to a weak electric charge is strongly coupled [T], so Preskill's monopoles were already in this regime ([strong-coupling annihilation](/wiki/dark-matter/candidates/soliton-candidate/prior-art#strong-coupling-annihilation-is-a-solved-case); [the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)). The handoff had queued a strong-coupling estimate of its own, the "√N floor", which Decision 3 dropped ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
+#14's acceptance criterion 3 asked for "the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma", because the monopoles' mutual coupling α_m ≈ 34 is strong (§6; [Under review: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling), which #14 v3 writes α_m). The finding: "Annihilation at α_m ≈ 34 is Preskill's Dirac case, already done for hidden sectors". Upheld (abstract level), with the evidence "LMW 2026 as in #3". The referee: "Acceptance criterion 3 is not open: the "strong-coupling" regime alpha_m = 34 is exactly the Dirac-monopole case of Preskill 1979 (h = 2 pi/e); its modern hidden-sector version (LMW 2026) excludes v >~ 100 PeV for hidden monopoles" (Step 4(a) item 3). A monopole with the minimal Dirac charge relative to a weak electric charge is strongly coupled [T], so Preskill's monopoles were already in this regime ([strong-coupling annihilation](/wiki/dark-matter/candidates/soliton-candidate/prior-art#strong-coupling-annihilation-is-a-solved-case); [the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem)). The handoff had queued a strong-coupling estimate of its own, the "√N floor", which Decision 3 dropped ([Under review: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
 ### Ruling 11: the phantom crossing
 
@@ -228,7 +228,7 @@ The referee's item 10 named prior work that #14 did not cite: "Baek, Ko & Park J
 
 ### What became of the list
 
-Decision 1, strict sector separation, names the three channels it closes: it "closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector" ([Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)). Decision 2 then retired the candidate the list had been written against, #14's model in Paul's narrowing of 2026-10-29. No later document returns to the list, which stands as the adjudication wrote it.
+Decision 1, strict sector separation, names the three channels it closes: it "closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector" ([Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)). Decision 2 then retired the candidate the list had been written against, #14's model in Paul's narrowing of 2026-10-29, and the same day he concurred that the model is dead. No later document returns to the list, which stands as the adjudication wrote it.
 
 ## The citation audit
 
@@ -285,7 +285,7 @@ The adjudication's list:
 - "The kinetic-mixing literature points (a) and (c)": mixing from gravity alone, and no visible magnetic flux while U(1)_d is unbroken ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing));
 - "The statement that the minimal adjoint-only sector is excluded."
 
-#11 §12 gives its own list of survivors, which overlaps this one; the two are compared on [the obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary#what-survives). #14's model is recorded dead, with Paul's concurrence asked on 2026-10-29 ([the graveyard](/wiki/status/graveyard)); the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+#11 §12 gives its own list of survivors, which overlaps this one; the two are compared on [the obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary#what-survives). #14's model is dead, with Paul's concurrence of 2026-10-29 ([the graveyard](/wiki/status/graveyard)). The pieces of it recorded dead after the round, among them the Kibble normalization, the ψ relic window, Planck-suppressed adjoint mixing and the √N floor, have been under review since that day and are not dead until he reviews them ([claims under review](/wiki/status/under-review)). The candidate it modeled, conjugate monopoles localized in momentum, has been P.R.'s open conjecture since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## Sources
 

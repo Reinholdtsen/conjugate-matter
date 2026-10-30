@@ -25,6 +25,7 @@ sources:
   - "notes/closed-universe.md §4"
   - "notes/closed-universe.md §7"
   - "review/wiki-build-flags.md items 48, 49"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
 *Big Bang nucleosynthesis (BBN) is the formation of the lightest atomic nuclei, mostly helium-4 with small amounts of deuterium, helium-3 and lithium-7, in the first minutes of the hot early universe. Its outcome depends on the expansion rate at the time. Neutrons and protons stop converting into each other once the weak interactions that convert them become slower than the expansion, and nearly every neutron left when nuclei can survive ends up in helium, so the primordial helium abundance measures how fast the universe was expanding in its first minutes. That makes nucleosynthesis a test of two things at that time, the radiation content, counted as the [effective number of light species](/wiki/cosmology/early-universe/radiation-era#n_eff-counting-light-species-t) N_eff, and the strength of gravity; it also limits particles that decay or release energy during or after it. The program uses this timing in two places. The [lab notebook](/wiki/history/documents/lab-notebook) dates an optional step in the effective strength of gravity, G_eff, "before BBN" ([row 10](/wiki/predictions/early-universe-step)), and the [round-3 review](/wiki/method/review/round-3) found that the light hidden fermion ψ of #14's failed [soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) would, at MeV masses, still have been [freezing out](/wiki/dark-matter/candidates/thermal-freeze-out#freeze-out-in-a-sector-at-its-own-temperature-t) during nucleosynthesis, so the lower edge of its [relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) was wrong.*
@@ -136,7 +137,7 @@ m_psi=30 MeV: hidden freeze-out T_h ~ m/20 = 1.5 MeV at T_vis ~ 2.12 MeV (BBN D-
 
 For 1, 3 and 10 MeV the hidden freeze-out falls between the two markers of nucleosynthesis; for 30 MeV it falls before them. The referee (`review/round3/referee/audit-notes.md`, Step 4(a) item 8): "hidden freeze-out T_h ~ m/20 occurs at T_vis ~ 0.08 MeV for m_psi = 1 MeV, 0.24 MeV for 3 MeV, 0.71 MeV for 10 MeV (step4.out) - i.e. during BBN. Needs m_psi >~ 20-30 MeV. (Moot: excluded anyway, below.)" [Ruling 6](/wiki/method/review/round-3/rulings#rulings-5-and-6-the-colder-hidden-sector-and-nucleosynthesis), "Accepted, not re-checked", records the finding as "MeV-scale ψ freezes out during BBN", with the evidence "T_f ~ m/20, so the lower mass bound should be ≳ 20–30 MeV."
 
-The finding is that the lower edge did not meet v3's own condition, that ψ finish annihilating before nucleosynthesis. No document computes what a later annihilation of ψ would have done to the light elements. The window is dead; its upper edge failed independently, on a miscount of states and a bracketed cross-section (ruling 4; [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The model it served failed too ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate that model was built for is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+The finding is that the lower edge did not meet v3's own condition, that ψ finish annihilating before nucleosynthesis. No document computes what a later annihilation of ψ would have done to the light elements. The window was recorded dead before 2026-10-29 without Paul's concurrence and is under his review, not dead (root `CLAUDE.md`, 'Since the handoff'); its upper edge failed independently, on a miscount of states and a bracketed cross-section (ruling 4; [Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The model it served failed too ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate that model was built for is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ### Nucleosynthesis limits on a millicharged ψ
 
@@ -163,7 +164,7 @@ None of the † entries is cited in the program's documents for nucleosynthesis;
 ## Used by
 
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the step dated "before BBN".
-- [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — MeV-scale ψ freezing out during nucleosynthesis, ruling 6.
+- [Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — MeV-scale ψ freezing out during nucleosynthesis, ruling 6.
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — ruling 6, and the nucleosynthesis limits among the omitted constraints.
 - [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) — nucleosynthesis limits on a millicharged ψ.
 - [Relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance) — hidden freeze-out timed against nucleosynthesis.
@@ -183,3 +184,4 @@ None of the † entries is cited in the program's documents for nucleosynthesis;
 - `notes/knot-dark-matter-standalone.md` §3 — ψ "above the MeV scale, so that psi has annihilated before nucleosynthesis" (withdrawn manuscript)
 - `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked
 - `notes/closed-universe.md` §4, §7; `review/wiki-build-flags.md` items 48 and 49 — a closed universe leaves the momentum fibre flat, and the dual Einstein–Hilbert term behind the a⁻⁶ step is not derived
+- `CLAUDE.md` 'Since the handoff' — Paul's answers of 2026-10-29, under which the ψ relic window is under review, not dead

@@ -6,6 +6,7 @@ description: "Tier 1 machine-checked algebra, Tier 2 literature, Tier 3 novel st
 sources:
   - "papers/broken-born-checkpoint-v2.md §2"
   - "papers/broken-born-checkpoint-v2.md §3"
+  - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §7.1–§7.4"
   - "papers/broken-born-checkpoint-v2.md §14 item 1"
   - "papers/broken-born-checkpoint-v2.md §15"
@@ -50,11 +51,11 @@ In the wiki's reading, the qualification has bitten in the program's record at o
 
 "Tier 3 (novel structural physics): plausibility-tier reasoning; honest prior per claim ~50–80% pending expert review; the selection-versus-derivation bias is acknowledged explicitly where it operates (§7.4)." (#11 §2).
 
-In the wiki's reading, Tier 3 is the program's own structural argument wherever it goes beyond the battery's algebra and beyond cited literature: the reading of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) as [spontaneously broken](/wiki/program/hard-core), the identification of [the momentum graviton](/wiki/gravity/momentum-graviton), the [gated dark-matter sector](/wiki/dark-matter/conjugate-matter), the [dark-energy identification](/wiki/cosmology/dark-energy/tau-quintessence) and the [charge-lattice unification](/wiki/electric-magnetic-duality/symplectic-charge-lattice). The figure ~50–80% is a stated prior for each claim taken singly. #11 gives no derivation of it; it is a self-assessment that waits on expert readers. The four review rounds in the record were by AI referees ([blind review](/wiki/method/review)), so that expert review has not yet happened.
+In the wiki's reading, Tier 3 is the program's own structural argument wherever it goes beyond the battery's algebra and beyond cited literature: the reading of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) as [spontaneously broken](/wiki/program/hard-core), the identification of [the momentum graviton](/wiki/gravity/momentum-graviton), the [gated dark-matter sector](/wiki/dark-matter/conjugate-matter), the [dark-energy identification](/wiki/cosmology/dark-energy/tau-quintessence) and the [charge-lattice unification](/wiki/electric-magnetic-duality/symplectic-charge-lattice). The figure ~50–80% is a stated prior for each claim taken singly. #11 gives no derivation of it; it is a self-assessment that waits on expert readers. The five review rounds in the record were by AI referees ([blind review](/wiki/method/review)), so that expert review has not yet happened.
 
 ### Negative results: the most reliable Tier-3 items
 
-"Negative results (§9, §7.1, and the failure of #14's model in §12) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). In the wiki's reading of "incentive gradient": a program looking for support for its own ideas is more likely to err toward a positive result than toward a negative one, so a calculation that came out against the program's interest is less likely to reflect that error. The three are [the death of momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), the exclusions of massless and ungauged X in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and the failure of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12), which §2 called "the §12 obituary" until the amendment of 2026-10-29 (1c80d01). The rule that follows is on [Negative results and dead claims](/wiki/method/negative-results).
+"Negative results (§9, §7.1, and the failure of #14's model in §12) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). In the wiki's reading of "incentive gradient": a program looking for support for its own ideas is more likely to err toward a positive result than toward a negative one, so a calculation that came out against the program's interest is less likely to reflect that error. The three are the tests of [momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), whose results stand while the founding image they tested has been P.R.'s open conjecture since v2.5, the exclusions of massless and ungauged X in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and the failure of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12), which §2 called "the §12 obituary" until the amendment of 2026-10-29 (1c80d01). The rule that follows is on [Negative results and dead claims](/wiki/method/negative-results).
 
 ## The selection-versus-derivation bias
 
@@ -71,7 +72,7 @@ After the [palindrome](/wiki/gravity/palindromic-branch/palindrome) identity of 
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §3 — the v2.2 credit to Freidel, Leigh and Minic; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
+- `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §9 — the tests of momentum clumping and, since v2.5, the founding image as P.R.'s open conjecture; §3 — the v2.2 credit to Freidel, Leigh and Minic; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
 - `verify/battery.py` (output in the gate) — Tier 1's seven tests
 - `review/round3-adjudication.md` 'Pre-registration scored' and `review/round4-adjudication.md` 'Rulings' F2 — the two ways a checked script missed the physics
 - `notes/tuning-test.md` §3, §5 and `notes/x-classification.md` §3 — the frame tier as a selected class; "unique known"

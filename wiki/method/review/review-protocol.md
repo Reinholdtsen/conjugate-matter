@@ -23,7 +23,7 @@ sources:
 
 *The blind-review protocol is the fixed procedure the program uses to test a manuscript: a fresh AI subagent receives a copy of the manuscript and the protocol and nothing else, checks every citation against its source, re-runs every number in its own code, re-derives the mathematics independently, audits the argument for consistency and omitted constraints, and returns a grade of A, B or C with the single weakest link named. The author then rules on each finding, re-running disputed numbers in separate scripts, and scores the forecast that was committed before the referee was dispatched. The grade scale comes from the referee prompt of the [skeptic review console](/wiki/method/review/skeptic-console), the tool of rounds 1 and 2; rounds 3 and 4 ran the full five-step form with a referee that could execute code. The protocol's own stated limit is that the referee is the same model family as the author.*
 
-**Status:** Method, in force — untagged. It is written into the pre-registrations of [round 3](/wiki/method/review/round-3/preregistration) (`review/round3-preregistration.md`) and [round 4](/wiki/method/review/round-4) (`review/round4-preregistration.md`), and both rounds ran under it. Its next use would be the optional round-5 review of the toy-model note, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
+**Status:** Method, in force — untagged. It is written into the pre-registrations of [round 3](/wiki/method/review/round-3/preregistration) (`review/round3-preregistration.md`) and [round 4](/wiki/method/review/round-4) (`review/round4-preregistration.md`), and both rounds ran under it, as did [round 5](/wiki/method/review/round-5), with two referees. Its next use would be the optional round-6 review of the toy-model note, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
 
 ## What the protocol is for
 
@@ -97,6 +97,7 @@ No round has returned A. The handoff calls the toy Lagrangian "the item both ind
 | 2 | #14 v2 | web search, no code | "B near B/C / medium" |
 | 3 | #14 v3 | shell, Python, web search | C, medium |
 | 4 | toy-model note | shell, Python, web | B, ~0.75 |
+| 5 | phase-space-diameter note v1.0 | two referees: shell, Python, web | B and B, 0.75 each |
 
 Rounds 1 and 2 are known only from the handoff's summary ([rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 
@@ -112,7 +113,7 @@ Disputed numbers are re-run in arbitration scripts of the adjudicator's own: `re
 
 An adjudication does not defer to the referee. Round 3's referee claimed that a paper #14 cited, Baumgart et al., does not contain the [adjoint kinetic-mixing operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator). The adjudicator found the operator in a footnote, quoted it verbatim, and ruled the finding "**Overturned**": "The referee missed the footnote." (ruling 8; [round-3 rulings](/wiki/method/review/round-3/rulings)).
 
-Each adjudication then scores the pre-registered forecast ([pre-registration](/wiki/method/review/pre-registration)), states the round's lessons, which go into `CLAUDE.md`, and records what follows. In round 3 that was four decisions: [strict sector separation](/wiki/program/postulates/p4-polarized-matter), the retirement of the soliton candidate, which Paul narrowed on 2026-10-29 to #14's model, dropping the [√N floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), and the toy Lagrangian as the next task ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). Paul had delegated them ("You make the decisions for me and give rational"): "Claude made them. Paul keeps the veto." In round 4 it was six revisions to the note, "all accepted; applied 2026-10-20 in commit 6606734"; version 2 says it did not carry out revision 4's comparison with an exactly solved model (flag 42 in `review/wiki-build-flags.md`; [review round 4](/wiki/method/review/round-4#the-revisions-and-version-2)).
+Each adjudication then scores the pre-registered forecast ([pre-registration](/wiki/method/review/pre-registration)), states the round's lessons, which go into `CLAUDE.md`, and records what follows. In round 3 that was four decisions: [strict sector separation](/wiki/program/postulates/p4-polarized-matter), the retirement of the soliton candidate, which Paul narrowed on 2026-10-29 to #14's model, whose death he concurred in that day, dropping the [√N floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor), and the toy Lagrangian as the next task ([round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). Paul had delegated them ("You make the decisions for me and give rational"): "Claude made them. Paul keeps the veto." In round 4 it was six revisions to the note, "all accepted; applied 2026-10-20 in commit 6606734"; version 2 says it did not carry out revision 4's comparison with an exactly solved model (flag 42 in `review/wiki-build-flags.md`; [review round 4](/wiki/method/review/round-4#the-revisions-and-version-2)).
 
 ## Limits
 
@@ -137,7 +138,7 @@ The five-step form was planned in the claude.ai period. The handoff describes "a
 - `review/round4-adjudication.md` 'Rulings', 'Revisions for v2 of the note' — the arbitration scripts and the revisions
 - `review/skeptic-review-console.html` — the A/B/C scale in the referee prompt
 - `papers/broken-born-checkpoint-v2.md` §2 — fluent confabulation; a script confirms arithmetic, not the model
-- `CLAUDE.md` 'Layout', 'Since the handoff (2026-10-19)', 'Working with Paul' — the blind-review format, where arbitration scripts go, round 5 optional, Paul's reliance on the checks
+- `CLAUDE.md` 'Layout', 'Since the handoff (2026-10-19)', 'Working with Paul' — the blind-review format, where arbitration scripts go, round 6 optional, Paul's reliance on the checks
 - `HANDOFF.md` §1, §6, §8 — the "flawed but salvageable" gloss, the first round-3 dispatch, the queue item and the gate to verdict A
 - `notes/knot-dark-matter-standalone.md`, `papers/reciprocity-toy-models.md` (header lines) — the anonymous-manuscript line
 - `review/wiki-build-flags.md` items 11, 33 — the tadpole coefficient in dispute; what `verify/soliton_obituary.py` checks against what it claims
