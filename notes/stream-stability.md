@@ -2,6 +2,8 @@
 
 *Working note. Status: calculation complete. Result: negative on the particle island, with a structural corollary.*
 
+*Status note, 2026-10-29: none of the deaths that calc notes #2–#4 record has Paul's concurrence, which his rule of that day requires. The founding image, matter clumping in momentum space, is his open conjecture again (#11 v2.5 §9). Old rows 3 and 4 and Scenario A are under his review, not dead, until he reviews them with Claude. The calculations stand as results (root `CLAUDE.md`, 'Since the handoff').*
+
 ## Setup
 
 Nonrelativistic mean-field (Vlasov) limit of the gated interaction. Single-particle energy:

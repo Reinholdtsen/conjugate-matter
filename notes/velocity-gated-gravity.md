@@ -9,6 +9,10 @@ verdicts, scripts and pre-registrations are in `review/momentum-gravity/`. The c
 `notes/gate-mechanism.md` takes up a question this one raised: whether X exchange produces the program's gate at
 all. Conjecture and direction, P.R.; derivations, counterexamples, verification, drafting, Claude (Anthropic).*
 
+*Status note, 2026-10-29: Paul did not concur in recording the founding image dead, and matter clumping in momentum
+space is his open conjecture again (#11 v2.5 §9). "The obituary" in this note is #11 §9's record as it stood on
+2026-10-28. The note's results stand as evidence about that record's scope; none of them is a death.*
+
 ## 1. The question, the readings, the method
 
 *In plain terms: the program buried its founding picture of dark matter, a halo breaking up into streams of

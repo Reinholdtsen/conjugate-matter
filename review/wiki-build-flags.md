@@ -199,7 +199,8 @@ none refuted. Each flag carries its verdict; the full verdicts are in
     magnetic coupling near 4π/e² ≈ 34". With α = e²/4π, 4π/e² = 1/α ≈ 137; e·g = 2π gives
     g²/4π = π/e² = 1/(4α) ≈ 34.26. The number 34 is right; the formula written beside it is
     not. (This 34 is our own magnetic coupling, distinct from the dead α_d ≈ 34 of the
-    soliton episode.) Check: `review/wiki-build-checks/dirac_coupling_check.py`.
+    soliton episode.) Check: `review/wiki-build-checks/dirac_coupling_check.py`. [2026-10-29: that α_d ≈ 34
+    is under Paul's review, not dead.]
    **Audit (2026-10-22): confirmed by 2 independent checks (one steelmanning the source, one recomputing from scratch).** I derived Dirac's condition independently (Wu–Yang, in HL and Gaussian units). It gives α·α_m = 1/4 at the minimum, so 34 = 1/(4α) = π/e² is right. In the program's own convention α = e²/4π (#14 §2, v3-worklog R2), 4π/e² = 1/α ≈ 137, which is the e·g = 4π value. In Gaussian units it is 1722. Only reading e as twice the elementary charge rescues the formula, and that reading contradicts e·g ~ 2π.
 29. **#13 cites #11 §7 for a claim #11 does not make.** #13 §1 and §6 tag X's effect being "in
     momentum" as "[D — checkpoint §7]". #11 §7 never mentions a dual cone, and §7.5 says
@@ -495,7 +496,8 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
    second ground (§11's plain-language passage, §11.1, App. A item 5). The null result is expected under
    several standard histories, so it lends the program no support, and inflation is one of them. The
    first ground stands; only §11.4's shared-photon form contests it, and that form needs P4 restated.
-   The explanation stays dead; whether the shared-photon form would reopen it is flag 62.
+   The explanation stays dead; whether the shared-photon form would reopen it is flag 62. [Overtaken the
+   same day: flag 62 was ruled option B, and the explanation is open, P.R.'s conjecture (#11 v2.4).]
 60. **The wiki's obituary of the magnetic identification (high;
     `wiki/electric-magnetic-duality/magnetic-identification.md`; raised in discussion with Paul).**
     The page recorded as dead the popular article #12's identification of the momentum-polarized
@@ -514,7 +516,7 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
     - The dead "α_d ≈ 34 via Dirac quantization against our photon" (`HANDOFF.md` §2) killed an
       inconsistency: Dirac's condition taken against our photon while coupling to it was denied. A
       separate photon (#14 v2–v3) and an accepted coupling (#12) are the two ways out, and neither
-      repeats the dead claim.
+      repeats the dead claim. [2026-10-29: that claim is under Paul's review, not dead.]
     - Strict P4 conflicts only with the shared-photon form. P4's clause "gauge forces do not cross
       polarizations" has stood since #1 ("Gauge interactions do not connect the two
       representations"); round-3 Decision 1 added the strict reading. Both are postulates [P].

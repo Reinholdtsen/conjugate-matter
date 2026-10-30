@@ -2,6 +2,8 @@
 
 *Working note. Status: complete. Verdict: Scenario A falsified; the clumping problem closed.*
 
+*Status note, 2026-10-29: none of the deaths that calc notes #2–#4 record has Paul's concurrence, which his rule of that day requires. The founding image, matter clumping in momentum space, is his open conjecture again (#11 v2.5 §9). Old rows 3 and 4 and Scenario A are under his review, not dead, until he reviews them with Claude. The calculations stand as results (root `CLAUDE.md`, 'Since the handoff').*
+
 ## The question
 
 Chunk 3b left Scenario A (gated channel = the core-maker) with one mandatory prediction: halo-wide condensation in ultra-faint dwarfs (UFDs), R ≡ Γ_self·t_dyn ≫ 1. This chunk follows that condensation to its endpoint and tests it against real UFDs.

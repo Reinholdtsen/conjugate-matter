@@ -213,6 +213,8 @@ program's own X is ruled out as that mechanism.*
   v* = 121.1 km/s and v_a = 171.3 km/s.
 - The velocity-clumping obituary is unaffected. If anything it is strengthened: a completion whose only velocity
   dependence is a knee in σ_T(v) leaves the forward amplitude, which drives collective behaviour, ungated (§3).
+  Since 2026-10-29 that record has counted as evidence, not as a death: Paul did not concur, and the founding image
+  is his open conjecture again (#11 v2.5 §9).
 
 **What becomes open** [O].
 - Row 3's island discriminant reads a sharp tail as particle χ and a (v*/σ)⁴ tail as wave χ. Under reading R1 the

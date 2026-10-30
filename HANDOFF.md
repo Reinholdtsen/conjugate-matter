@@ -9,7 +9,7 @@
 - **Project:** "Broken-Born program" (BBT) — a speculative physics research program developed September–October 2026.
 - **Hard core:** Born reciprocity — the (x,p) → (p,−x) symmetry of quantum kinematics — taken as exact and spontaneously broken, with only the symplectic form ω rigid (ℏ-rigidity) and the neutral metric η emergent as the order parameter.
 - **Participants:** Paul (P.R.) — conjecture, direction, veto; Claude — derivations, counterexamples, drafting, verification. Attribution in all papers follows this split.
-- **Honest status:** a Lakatosian research program, not a theory. Three blind AI reviews returned verdict B ("flawed but salvageable"). Zero fabricated citations across all checks. The founding intuition (dark matter clumping in momentum space) was falsified by the program's own calculations; the structural core survived four consecutive consistency tests by being forced onto unique consistent structures each time.
+- **Honest status:** a Lakatosian research program, not a theory. Three blind AI reviews returned verdict B ("flawed but salvageable"). Zero fabricated citations across all checks. The founding intuition (dark matter clumping in momentum space) was falsified by the program's own calculations [overtaken 2026-10-29: Paul did not concur in the death, and the founding image is his open conjecture again, #11 v2.5 §9]; the structural core survived four consecutive consistency tests by being forced onto unique consistent structures each time.
 
 ## 2. Scientific state (one screen)
 
@@ -26,6 +26,9 @@
 - Charge-lattice identification: DSZ pairing is symplectic; duality frame choice = Lagrangian polarization, same [[0,1],[−1,0]] generator as Born rotation and S-duality. Current best DM candidate: superheavy (~10¹³–10¹⁷ GeV) topological solitons (π₂ monopole-class) of a separate, strongly coupled dual gauge sector — "dark by sector separation," NOT magnetically charged under our photon.
 
 **Dead (killed by own calculations — keep dead):**
+
+*Overtaken, 2026-10-29: none of the four below is dead now. Paul's rule of that day: a claim is dead only when theory and data kill it and he explicitly concurs. The first three are his open conjectures again (#11 v2.5 §9, §10, §11.1); α_d ≈ 34 via our photon is under his review. Root `CLAUDE.md`, 'Since the handoff', records each answer.*
+
 - DM clumping in momentum space as dynamics: impossible for particle DM (criterion fails by 10²⁸–10³¹ ✓), fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact), tunable elsewhere. Rows withdrawn permanently. Loophole: *topological* p-localization of individual solitons untouched.
 - "Conjugate collapse powers our expansion": first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust).
 - Conjugate monopoles as the *explanation* of our monopole non-detection (wrong duality; inflation suffices). As ontology they're alive (the soliton candidate).

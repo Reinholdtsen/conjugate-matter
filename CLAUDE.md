@@ -8,7 +8,8 @@ The records (`HANDOFF.md`, `notes/`, `review/`, `verify/`) and all file names
 keep the old name; current documents, the wiki and the site use the new one.
 
 **Read [HANDOFF.md](HANDOFF.md) first.** It is the project's state at the move
-from claude.ai: what is alive, dead and open (§2), results that exist only in
+from claude.ai: what is alive, dead and open (§2; its dead list is overtaken, since
+none of it is dead after 2026-10-29), results that exist only in
 the old chat (§4), review history and the referees' measured failure mode (§6),
 and the ranked next-actions queue (§8). Its §3 numbers the artifacts; the map
 below gives their paths.
@@ -163,6 +164,9 @@ only as a task needs them.
     relic window, the dimension-five operator, the hidden SU(2) → U(1) sector, α_d ≈ 34 via our photon, the √N
     floor); Fornax friction suppression; velocity-space granularity in halos; the self-dual length as a
     program scale; the square rectangle at the bounce; and the naive ρ-preserving potential.
+    Hypothesis H, the third way #14 fixed α_d ≈ 34, is under review with that coupling, though the list does not
+    name it: it was recorded dead as a component of #14 v3 when the model failed, no ruling addressed it by
+    itself, and a failed model is not the death of each idea in it ('Method').
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the

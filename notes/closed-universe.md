@@ -297,8 +297,9 @@ fixed. Closure fixes the normalization a = R/λ but not the a⁻⁶ coefficient.
 **The radius–mass pairing** [D][V].
 - Pairing the radius R with the total mass M = ρ·2π²R³/c² gives G·M/c² = (3π/4)R at H = 0.
 - The aspect ratio at a turnaround spans 4/(3π) to 8/3 across conventions.
-- This is the closed Friedmann equation at H = 0, with ħ cancelling. The obituary of "square exactly at the
-  bounce" (`papers/phase-space-diameter.md` §6) stands.
+- This is the closed Friedmann equation at H = 0, with ħ cancelling. The case against "square exactly at the
+  bounce" (`papers/phase-space-diameter.md` §6) stands. That claim has been under Paul's review since 2026-10-29,
+  not dead (note v1.2).
 
 ## 8. Light, horizons and counts
 

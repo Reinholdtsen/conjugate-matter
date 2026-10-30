@@ -2,6 +2,8 @@
 
 *Working note. Status: rate derived, environments evaluated, verdict reached. Coefficients heuristic at O(1)–O(10) level; calibration against Levkov–Panin–Tkachev (LPT) numerics is a flagged to-do.*
 
+*Status note, 2026-10-29: none of the deaths that calc notes #2–#4 record has Paul's concurrence, which his rule of that day requires. The founding image, matter clumping in momentum space, is his open conjecture again (#11 v2.5 §9). Old rows 3 and 4 and Scenario A are under his review, not dead, until he reviews them with Claude. The calculations stand as results (root `CLAUDE.md`, 'Since the handoff').*
+
 ## Setup
 
 Wave island: $m \lesssim 0.1$ meV, per-mode occupation $N_{\rm occ} = \rho/(m^4\sigma^3) \gg 1$. The halo is an incoherent classical field; relaxation proceeds by wave kinetics — the Boltzmann collision integral with Bose enhancement, rate $\Gamma \sim n\,\sigma_{\rm scat}\, v \times N_{\rm occ}$. This is the mechanism LPT established for gravity (Bose condensation of virialized wave DM into solitons); here the gated contact attraction adds a channel. Same conventions as Chunk A: $\sigma_0 \equiv g^2 m^2/\pi$, gate width $v_*$ in relative velocity.
