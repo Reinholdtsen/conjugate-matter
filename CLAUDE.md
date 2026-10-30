@@ -149,6 +149,8 @@ only as a task needs them.
   - conjugate collapse powering our accelerating expansion (App. A item 9): the corrected dictionary's dual
     stiff ↦ Λ keeps a route. Two versions failed: the heuristic w = −2, excluded by data, and dual dust,
     which maps to dust.
+- 2026-10-29, Paul's answers to the concurrence questions: #14's ordinary-kinematics model of the third
+  candidate is dead, with his concurrence (#11 v2.5 §12; round-3 Decision 2's note).
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -176,7 +178,7 @@ only as a task needs them.
   - whether the program's bimetric branch has Vainshtein screening at all (flag 57).
 - Open from the monopole discussion, not queued:
   - Paul's concurrence, asked 2026-10-29, on deaths that theory and data support but he has not concurred in:
-    the two failed versions of App. A item 9; #14's x-local superheavy model; momentum clumping as collective
+    the two failed versions of App. A item 9; momentum clumping as collective
     dynamics (#11 §9: particle dark matter by theory, Scenario A by Segue 1's data); and the other obituaries
     in the wiki's graveyard. Until he answers, these deaths stand as recorded;
   - for the restored candidate and the explanation: p-localization, and the kinematics of momentum-polarized

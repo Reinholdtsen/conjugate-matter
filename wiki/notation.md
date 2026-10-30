@@ -280,7 +280,7 @@ Model II is the self-dual Grosse–Wulkenhaar model on the noncommutative (Moyal
 
 ### #14's soliton model
 
-These symbols belong to #14, withdrawn after the round-3 review. #14's model is recorded dead, with Paul's concurrence asked on 2026-10-29 ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)), and #14's body numbers are superseded by the round-3 rulings. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+These symbols belong to #14, withdrawn after the round-3 review. #14's model is dead, with Paul's concurrence of 2026-10-29 ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)), and #14's body numbers are superseded by the round-3 rulings. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 - **SU(2)_d → U(1)_d; Φ, v** — the hidden gauge group, broken by a real adjoint scalar Φ with vacuum value v. — #14 §2 — [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)
 - **π₂** — the second homotopy group of the vacuum manifold, which classifies monopoles; the handoff called its soliton candidate "π₂ monopole-class" solitons. — `HANDOFF.md` §2 — [Why it is stable: winding](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole#why-it-is-stable-winding-t)

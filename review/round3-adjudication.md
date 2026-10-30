@@ -134,8 +134,7 @@ rational"). Claude made them. Paul keeps the veto.
      decision covers #14's model, which used ordinary kinematics. The
      candidate #14 modeled, conjugate monopoles localized in momentum, was
      never tested and is P.R.'s open conjecture again (#11 v2.4 §12).
-     #14's model stays recorded dead until Paul answers the concurrence
-     question put to him on 2026-10-29.
+     On 2026-10-29 Paul concurred that #14's model is dead.
 3. **HANDOFF §8 queue item 3 (the "√N floor"): dropped.**
    - Its premise, Kibble as a ceiling, is inverted (ruling 3).
    - Under decision 2 it has no candidate left to serve.

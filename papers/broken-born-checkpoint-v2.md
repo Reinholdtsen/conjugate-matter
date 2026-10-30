@@ -1,15 +1,16 @@
 # The Comatter Program: A Working Checkpoint
 ### Spontaneously broken reciprocity, a massive momentum-space graviton, polarized charge lattices, and the dark-sector question
 
-*Version 2.4 (checkpoint), amended 2026-10-29.*
+*Version 2.5 (checkpoint), amended 2026-10-29.*
 
+- *v2.5 changes (2026-10-29, Paul's answers to the concurrence questions):* #14's model is dead, with his concurrence (§12).
 - *v2.4 changes (2026-10-29, Paul's direction that a claim is dead only when theory and data kill it and he concurs):* three of P.R.'s founding ideas, recorded dead or retired without his concurrence, return as his open conjectures [O]. Conjugate monopoles abundant in momentum space, the v2.0 candidate that #14 never modeled, are a third dark-matter candidate again (§12); #14's model keeps its failure. Their explanation of the monopole null result is open (§11, App. A item 5; flag 62, ruled). Conjugate collapse powering our acceleration is open through the dictionary's dual stiff ↦ Λ (§10, App. A item 9); its dust version and the heuristic w = −2 version failed. The abstracts, §9's loophole clause, §14 items 8 and 9, §15 and App. A items 3 and 4 follow.
 - *v2.3 changes (2026-10-29; flags 59 and 60 accepted by Paul, flag 61 applied under his instruction to update the repo, flag 62 pending):* §11's plain-language passage, §11.1 and App. A item 5 restate both grounds for the dead monopole explanation (the first, wrong duality, is contested only by §11.4's shared-photon form, which needs P4 restated; the second is that the null result is expected under several standard histories, so it lends no support, inflation being one of them and not an observed fact); new §11.4 records P.R.'s magnetic-mirror conjecture [O], to which App. A items 5 and 11 and §14 item 8 point; §14 item 12 adds the polarization's defects.
 - *Renamed 2026-10-26:* the program is now the Comatter program. Until then it was the Broken-Born program (BBT), the name the earlier documents use. §13's column "Broken-Born requirement" is now "Program requirement". Nothing else changed.
 - *v2.2 changes:* §3 credits Freidel–Leigh–Minic for "broken Born duality"; P2′ (§4), §10 and §14 item 11 record the toy-model results.
 - *v2.1 changes (2026-10-19, after the round-3 review):* the soliton candidate is retired (§12); the compatibility theorem is re-attributed to the Born-geometry literature (§5); P4 is taken strictly (§4); §10 records DESI DR2's phantom crossing.
 
-*Supersedes v2.3, v2.2, v2.1, v2.0 and v1.0. Every section opens with a plain-language passage (italic), followed by the technical record. Provenance tags: **[D]** derived in this program, **[T]** established literature, **[P]** postulate, **[O]** open, **[V]** machine-verified this session. References carry **[S]** (retrieved by live search during this project) or **†** (cited from model memory — verify against the source before external use).*
+*Supersedes v2.4, v2.3, v2.2, v2.1, v2.0 and v1.0. Every section opens with a plain-language passage (italic), followed by the technical record. Provenance tags: **[D]** derived in this program, **[T]** established literature, **[P]** postulate, **[O]** open, **[V]** machine-verified this session. References carry **[S]** (retrieved by live search during this project) or **†** (cited from model memory — verify against the source before external use).*
 
 ---
 
@@ -158,7 +159,7 @@ The 5.4 : 1 abundance question (polarization-genesis) applies to all three.
   - Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S].
   - Below that scale, annihilation in the hidden plasma sets the abundance. That is the established topological-dark-matter scenario [28S, 29S], and nothing in it depends on Born reciprocity.
   - Superheavy masses survive only with a free dilution factor. That removes the mass prediction, which was the candidate's reason to exist.
-- *Verdict.* #14's model fails as a program-native proposal: with ordinary kinematics it is either overproduced or the prior-art PeV-scale scenario, to which the framework adds nothing testable. Its retirement was a decision P.R. delegated (round-3 Decision 2); the model stays recorded dead until he answers the concurrence question put to him on 2026-10-29. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture (table above; v2.4).
+- *Verdict.* #14's model fails as a program-native proposal: with ordinary kinematics it is either overproduced or the prior-art PeV-scale scenario, to which the framework adds nothing testable. Its retirement was a decision P.R. delegated (round-3 Decision 2); on 2026-10-29 he concurred that the model is dead. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture (table above; v2.4).
 - *What survives.*
   - A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T].
   - The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V].
