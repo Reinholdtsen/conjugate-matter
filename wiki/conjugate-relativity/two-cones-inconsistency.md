@@ -10,6 +10,7 @@ sources:
   - "papers/conjugate-special-relativity.md §4"
   - "papers/conjugate-special-relativity.md §6"
   - "papers/conjugate-special-relativity.md preamble"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §13 row 9"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "notes/broken-born-theory.md §4"
@@ -21,7 +22,7 @@ sources:
 
 *This open problem is an inconsistency inside [#13](/wiki/conjugate-relativity), the paper on the special relativity of the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations): two of its sections use different momentum-space light cones. Section 1 builds the dual cone in time and momentum, with time shared between the two polarizations and the [maximum force c̃](/wiki/conjugate-relativity/maximum-force) as its slope. Section 6 instead calls light's ordinary energy–momentum relation, E = c|p|, the dual null cone; that cone lives in energy and momentum, has slope c, and, in the analysis of the v3 worklog, belongs to a different construction, the [four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) that also exchanges time and energy and has not been built. Section 6's claim that [photon-dispersion measurements](/wiki/predictions/photon-dispersion) test both cones at once depends on the second reading. Paul raised the problem on 2026-10-19, while the [withdrawn soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) was being revised, with the instruction to fix the two cones and settle which construction governs before any paper claims more. It is on neither #11's [list of open problems](/wiki/status/open-problems) nor the current queue, and no document since has taken it up.*
 
-**Status:** Open — no tag in the source (worklog item O3) — raised by Paul on 2026-10-19 in `review/v3-worklog.md`; not in #11 §14, the current queue in `CLAUDE.md` or the [round-3 decisions](/wiki/method/review/round-3/decisions); unresolved. It qualifies [two causal cones](/wiki/conjugate-relativity/two-causal-cones), and #13 itself is unreviewed, unchecked by any script, and not mentioned in [#11](/wiki/history/documents/checkpoint) v2.3. Listed in [Open problems and the queue](/wiki/status/open-problems).
+**Status:** Open — no tag in the source (worklog item O3) — raised by Paul on 2026-10-19 in `review/v3-worklog.md`; not in #11 §14, the current queue in `CLAUDE.md` or the [round-3 decisions](/wiki/method/review/round-3/decisions); unresolved. It qualifies [two causal cones](/wiki/conjugate-relativity/two-causal-cones), and #13 itself is unreviewed, unchecked by any script, and not mentioned in [#11](/wiki/history/documents/checkpoint) v2.4. Listed in [Open problems and the queue](/wiki/status/open-problems).
 
 ## The two cones
 
@@ -76,9 +77,11 @@ The problem was found while the soliton manuscript #14 was being revised to its 
 
 > "#14 describes the dark sector entirely in our kinematics: GeV masses, 10⁻³ c drift, an ordinary massless dark photon moving at c. #13 §4 labels conjugate quanta by an invariant length λ instead of a mass, and a λ = 0 quantum would sit on the dual null cone with |dp/dt| = c̃. The papers were never reconciled."
 
-#14 §1 had stated its choice: "Throughout, the hidden sector is described by ordinary relativistic quantum field theory." The decision for v3 was to "keep the dark sector in ordinary kinematics and say so explicitly. L1 and O2 both rest on that." (L1 and O2 are the worklog's findings that [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) does not give the monopoles a visible charge and that dark radiation is not fatal if the dark sector is cooler.) #14 was later withdrawn on other grounds ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary); [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). The item closes with Paul's instruction:
+#14 §1 had stated its choice: "Throughout, the hidden sector is described by ordinary relativistic quantum field theory." The decision for v3 was to "keep the dark sector in ordinary kinematics and say so explicitly. L1 and O2 both rest on that." (L1 and O2 are the worklog's findings that [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) does not give the monopoles a visible charge and that dark radiation is not fatal if the dark sector is cooler.) #14 was later withdrawn on other grounds ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary); [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). The item closes with Paul's instruction:
 
 > "Before any paper claims more: fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)."
+
+Since v2.4, #11 §12 quotes the same sentence of #14 §1 and adds that #14 "did not model the localization in momentum that v2.0 claimed", so the candidate #14 modeled, conjugate monopoles localized in momentum, is untested and is P.R.'s open conjecture again ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## What settling it involves
 
@@ -94,7 +97,7 @@ The item appears only in the worklog. It is not among #11 §14's twelve open pro
 
 - `review/v3-worklog.md` 'New open items' — item O3: the two cones, the dark-sector kinematics, the dark-photon question, the v3 decision and the instruction.
 - `papers/conjugate-special-relativity.md` §1, §2 — the 3+1 cone and the dual interval; §4 for the invariant length; §6 for E = c|p| as the dual null cone, the photon-dispersion argument, the open four-dimensional map and the 3+1 presentation; preamble for the inherited Euclidean/Lorentzian caveat.
-- `papers/broken-born-checkpoint-v2.md` §13 row 9 — #11's own photon-dispersion requirement; §14 for the open problems, which do not include this item.
+- `papers/broken-born-checkpoint-v2.md` §12 — #14's ordinary kinematics, which left the candidate it modeled untested (v2.4); §13 row 9 — #11's own photon-dispersion requirement; §14 for the open problems, which do not include this item.
 - `notes/broken-born-theory.md` §4 — the Fermi-LAT bounds on linear dispersion (superseded as a reference).
 - `notes/knot-dark-matter-standalone.md` §1 — #14's ordinary kinematics (withdrawn).
 - `CLAUDE.md` 'Since the handoff' — the current queue.

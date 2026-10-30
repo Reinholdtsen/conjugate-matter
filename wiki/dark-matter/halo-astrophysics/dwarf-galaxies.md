@@ -15,6 +15,7 @@ sources:
   - "notes/broken-born-theory.md 'Addendum (v0.2, after the clumping notes): resolution of open problem 3'"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §9"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/knot-dark-matter-standalone.md §5"
   - "review/round3/referee/audit-notes.md Step 2"
@@ -58,9 +59,9 @@ Each of the program's dark-matter options needs the dwarf cores to come from som
 | χ particles ([particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem)) | alive | gated self-scattering, at the core-fitting value above ([χ particles](/wiki/dark-matter/candidates/chi-particles)) |
 | Wave χ, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) | dead | the gated condensation channel, as "the core-maker" (calc note #3) |
 | Wave χ, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) | alive, quarantined | "fuzzy-end quantum pressure at m ∼ 10⁻²² eV, or baryonic feedback" (calc note #3) |
-| Superheavy solitons ([retired](/wiki/dark-matter/candidates/soliton-candidate/obituary)) | dead | baryonic feedback, since the candidate was "effectively collisionless cold dark matter" (#14 §4) |
+| #14's superheavy solitons ([failed](/wiki/dark-matter/candidates/soliton-candidate/obituary)) | dead | baryonic feedback, since #14 found its monopoles "effectively collisionless cold dark matter" (#14 §4) |
 
-Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that calc note #4 later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the [monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)' self-interaction at [σ_T/M](/wiki/dark-matter/halo-astrophysics/transfer-cross-section#the-soliton-candidates-σ_tm) ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The [round-3](/wiki/method/review/round-3) referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). The candidate was retired for other reasons ([the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that calc note #4 later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the [monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)' self-interaction at [σ_T/M](/wiki/dark-matter/halo-astrophysics/transfer-cross-section#σ_tm-of-14s-model) ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The [round-3](/wiki/method/review/round-3) referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). #14's model failed for other reasons ([its obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate it modeled, monopoles localized in momentum, is P.R.'s conjecture since v2.4, and no source says where it would get dwarf cores ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## Ultra-faint dwarfs [T]
 
@@ -116,7 +117,7 @@ The program's documents cite no source for the cusp–core problem, baryonic fee
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §8, §9 — the benchmark mass; Segue 1's rate ratio and condensation time; the checkpoint's statement of the falsification
+- `papers/broken-born-checkpoint-v2.md` §8, §9 — the benchmark mass; Segue 1's rate ratio and condensation time; the checkpoint's statement of the falsification; §12 — #14's model failed, and the candidate it modeled is P.R.'s conjecture
 - `notes/ufd-endpoint.md` 'Sharpened input numbers', 'The data', 'The attractive endpoint: criticality and the drain', 'Verdict and closure of the clumping problem' — Segue 1's inputs and ratio, the ultra-faint dwarfs' escape velocity and core mass, the falsification
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the classical-dwarf and superseded ultra-faint environment rows; Scenario A's normalization; Scenario B's other origins of cores
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark' — the coupling determined by the dwarf-core fit; the dwarf core as a test environment

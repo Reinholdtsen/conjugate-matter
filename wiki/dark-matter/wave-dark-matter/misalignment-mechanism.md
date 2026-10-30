@@ -19,7 +19,7 @@ sources:
 
 *The misalignment mechanism is a way of producing dark matter as a coherent field rather than as a thermal gas of particles. In the [early universe](/wiki/cosmology/early-universe) a very light scalar field starts at some value away from the minimum of its potential and stays frozen there while the universe expands faster than the field can oscillate; once the expansion rate falls below the field's mass, the field oscillates about its minimum, and the energy of the oscillation then thins out with the expansion as cold matter does. It is the standard production route for [axions](/wiki/cosmology/dark-energy/axion-like-fields#as-dark-matter). The Comatter program borrows it as the production channel for [the wave branch](/wiki/dark-matter/momentum-clumping/wave-island) of [conjugate matter](/wiki/dark-matter/conjugate-matter), a channel the particle branch still lacks; [the ratio of dark to ordinary matter](/wiki/dark-matter/candidates/polarization-genesis) stays unexplained on both.*
 
-**Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for both [dark-sector candidates](/wiki/dark-matter/candidates) (`papers/broken-born-checkpoint-v2.md` §12).
+**Status:** Established — [T], explained here from general knowledge — the program applies it only on the wave island (`notes/wave-island.md`); the abundance ratio Ω_χ : Ω_b = 5.4 : 1 stays open for all three [dark-sector candidates](/wiki/dark-matter/candidates) (`papers/broken-born-checkpoint-v2.md` §12).
 
 ## The mechanism [T]
 
@@ -55,11 +55,11 @@ For particle χ, on the MeV–GeV [particle island](/wiki/dark-matter/momentum-c
 
 ### What it leaves open
 
-Misalignment supplies a production channel; it does not explain the amount. Calc note #3: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for both remaining dark-sector candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [the X-condensate](/wiki/dark-matter/candidates/x-condensate): "The 5.4 : 1 abundance question (polarization-genesis) applies to both" (#11 §12), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
+Misalignment supplies a production channel; it does not explain the amount. Calc note #3: "The 5.4:1 question remains (polarization-genesis), but the *production channel* is no longer exotic." The checkpoint keeps the ratio open for all three dark-sector candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles), [the X-condensate](/wiki/dark-matter/candidates/x-condensate) and, since v2.4, P.R.'s conjecture of [magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles): "The 5.4 : 1 abundance question (polarization-genesis) applies to all three" (#11 §12; "applies to both" from v2.1 to v2.3), listed as item 7 of its [open problems](/wiki/status/open-problems), "Polarization-genesis: Ω_χ : Ω_b = 5.4 : 1 [O]" (#11 §14, OP7). See [Open: polarization-genesis](/wiki/dark-matter/candidates/polarization-genesis).
 
 ### A numbering note
 
-Calc note #3's "Open problem #5" is item 5 of the lab notebook's open problems, "**Relic abundance** without cannibalism: needs the asymmetric mechanism of (4)" (#1 §11), not item 5 of the checkpoint's list, which is [the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement). The lab notebook's addendum v0.2 states the closure more broadly than calc note #3 does — "open problems 3 and 5 close (5 via misalignment production on the wave island)" — while calc note #3 confines it to the wave island. The wiki follows the checkpoint: the channel exists on the wave island, and the ratio stays open for both candidates.
+Calc note #3's "Open problem #5" is item 5 of the lab notebook's open problems, "**Relic abundance** without cannibalism: needs the asymmetric mechanism of (4)" (#1 §11), not item 5 of the checkpoint's list, which is [the dual-stress enhancement](/wiki/dark-matter/conjugate-matter/dual-stress-enhancement). The lab notebook's addendum v0.2 states the closure more broadly than calc note #3 does — "open problems 3 and 5 close (5 via misalignment production on the wave island)" — while calc note #3 confines it to the wave island. The wiki follows the checkpoint: the channel exists on the wave island, and the ratio stays open for all three candidates.
 
 ## References
 
@@ -79,7 +79,7 @@ The program's documents cite no source for the misalignment mechanism. Added by 
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §9, §12, §14, §15 — the salvage item; the 5.4 : 1 question for both candidates; open problem 7; the quarantined wave-island sector
+- `papers/broken-born-checkpoint-v2.md` §9, §12, §14, §15 — the salvage item; the 5.4 : 1 question for all three candidates; open problem 7; the quarantined wave-island sector
 - `notes/wave-island.md` 'Bonus: the relic-abundance problem solves itself', 'Standing results after Chunks A+B' — the program's use of misalignment and its limits
 - `notes/broken-born-theory.md` §5.3, §11, 'Addendum (v0.2, after the clumping notes): resolution of open problem 3' — the particle-side relic problem; the v0.1 open-problem numbering; the broader closure claim
 - `notes/broken-born-program-v1.md` §7 — misalignment as clumping salvage in v1

@@ -105,7 +105,7 @@ The [round-3](/wiki/method/review/round-3) referee, who raised the point, also n
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — τ is a canonical scalar.
 - [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the data that favour the other side of the divide.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — "robust intrinsic w < −1 (kills outright)".
-- [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — its first version required w = −2, a phantom value.
+- [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — its heuristic version required w = −2, a phantom value, and failed.
 
 ## Sources
 

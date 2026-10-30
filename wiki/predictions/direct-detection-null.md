@@ -2,7 +2,7 @@
 title: "Row 7: a permanent null in direct detection"
 weight: 80
 status: alive
-description: "Both remaining dark-matter candidates couple to Standard Model matter only through gravity, and postulate P4, taken strictly since v2.1, lets no gauge force or kinetic mixing beyond gravity's cross the sectors; killed by any confirmed non-gravitational coupling of dark matter to the Standard Model."
+description: "The two dark-matter candidates the row names couple to Standard Model matter only through gravity, and postulate P4, taken strictly since v2.1, lets no gauge force or kinetic mixing beyond gravity's cross the sectors; killed by any confirmed non-gravitational coupling of dark matter to the Standard Model. The row's wording predates v2.4's third candidate (flag 63, pending)."
 provenance: [P]
 sources:
   - "papers/broken-born-checkpoint-v2.md §13 row 7"
@@ -14,6 +14,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "CLAUDE.md 'Since the handoff'"
   - "review/wiki-build-flags.md item 60"
+  - "review/wiki-build-flags.md item 63"
   - "review/round3-adjudication.md 'Decisions' item 1"
   - "review/round3-adjudication.md 'Rulings'"
   - "review/round3/referee/audit-notes.md Step 1, citation [9]"
@@ -29,9 +30,9 @@ sources:
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*Row 7 predicts that experiments searching for dark matter through any interaction other than gravity will never see it. Direct-detection experiments look for dark-matter particles striking atomic nuclei in shielded underground detectors, and collider experiments look for dark matter produced in particle collisions; both need dark matter to couple to ordinary matter, the particles of the Standard Model, through some interaction besides gravity [T]. In the program, the two remaining dark-matter candidates, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [an X-condensate](/wiki/dark-matter/candidates/x-condensate), have no such coupling: postulate [P4](/wiki/program/postulates/p4-polarized-matter) lets no gauge force act across the two sectors of matter, and since 2026-10-19 it is read strictly, excluding even the small [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) that could otherwise link them. The expected signal is zero, permanently. One confirmed non-gravitational coupling would kill the row, which is one of the three that #11 lists as the program's near-term falsification exposure.*
+*Row 7 predicts that experiments searching for dark matter through any interaction other than gravity will never see it. Direct-detection experiments look for dark-matter particles striking atomic nuclei in shielded underground detectors, and collider experiments look for dark matter produced in particle collisions; both need dark matter to couple to ordinary matter, the particles of the Standard Model, through some interaction besides gravity [T]. In the program, the two dark-matter candidates the row names, [χ particles](/wiki/dark-matter/candidates/chi-particles) and [an X-condensate](/wiki/dark-matter/candidates/x-condensate), have no such coupling: postulate [P4](/wiki/program/postulates/p4-polarized-matter) lets no gauge force act across the two sectors of matter, and since 2026-10-19 it is read strictly, excluding even the small [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) that could otherwise link them. The expected signal is zero, permanently. One confirmed non-gravitational coupling would kill the row, which is one of the three that #11 lists as the program's near-term falsification exposure. A third candidate, P.R.'s conjecture of [magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles), returned in the checkpoint's version of 2026-10-29; the row's wording does not name it.*
 
-**Status:** Alive — it rests on postulate P4 [P] (#11 §4), taken strictly since v2.1 by [round-3 Decision 1](/wiki/method/review/round-3/decisions): a postulate, and a reading of it adopted by decision, not a derivation — not machine-checked; no experiment has reported a confirmed signal.
+**Status:** Alive — it rests on postulate P4 [P] (#11 §4), taken strictly since v2.1 by [round-3 Decision 1](/wiki/method/review/round-3/decisions): a postulate, and a reading of it adopted by decision, not a derivation — not machine-checked; no experiment has reported a confirmed signal. The row's parenthesis names two of the three dark-sector candidates that #11 §12 has counted since v2.4; flag 63 in `review/wiki-build-flags.md` proposes wording for a v2.4.1, and the row is unchanged until Paul rules.
 
 ## The row
 
@@ -87,16 +88,20 @@ The strict reading was a decision. On 2026-10-19, after the round-3 review of th
 > - The alternative rested on an unsupported coefficient. The dimension-5 "O(1) at the Planck scale" estimate (ruling 7) has no source. The sources generate that operator only from bi-charged states, which P4 forbids.
 > - It costs nothing and closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector.
 
-The three channels belonged to #14's hidden sector, which is retired ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the reading stays as P4's. The root `CLAUDE.md` lists it among the changes since the handoff: "Strict sector separation (P4 at face value) is in force." The reasons are on [round-3 decisions](/wiki/method/review/round-3/decisions) and [why it was adopted](/wiki/program/postulates/p4-polarized-matter#why-it-was-adopted-round-3-decision-1).
+The three channels belonged to the hidden sector of #14's model, which failed ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the reading stays as P4's. The root `CLAUDE.md` lists it among the changes since the handoff: "Strict sector separation (P4 at face value) is in force." The reasons are on [round-3 decisions](/wiki/method/review/round-3/decisions) and [why it was adopted](/wiki/program/postulates/p4-polarized-matter#why-it-was-adopted-round-3-decision-1).
 
-### Both candidates
+### The candidates
 
-#11 §12 lists two candidates [D — framework; each candidate O] ([dark-sector candidates](/wiki/dark-matter/candidates)):
+#11 §12 lists three candidates since v2.4 [D — framework; each candidate O] ([dark-sector candidates](/wiki/dark-matter/candidates)). The row's parenthesis, written in v2.1, names two:
 
 - **χ particles** are the p-polarized matter of P4, and P4 strict is the whole of their decoupling. #11 §12 lists a "permanent direct-detection null" among their distinctive handles ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles#handles-and-tests)).
 - **The X-condensate** is a coherent oscillation of the [momentum graviton X](/wiki/gravity/momentum-graviton), a field of the geometry rather than of matter, with no gauge charges. X does couple to ordinary matter, with "SM couplings gravitational-strength and Yukawa-cut at 1/M_X" (#11 §7.5; [safety by range](/wiki/gravity/momentum-graviton/fifth-force-safety)); the null concerns couplings other than gravity ([the X-condensate candidate](/wiki/dark-matter/candidates/x-condensate#its-tests)).
 
-The requirement's parenthesis, "both dark-sector candidates SM-decoupled", covers the pair. A null holds whichever candidate is right, so row 7 does not help to tell them apart ([row 11](/wiki/predictions/dark-sector-microstructure)).
+The requirement's parenthesis, "both dark-sector candidates SM-decoupled", covers the two it names. For them a null holds whichever is right, so row 7 does not help to tell them apart ([row 11](/wiki/predictions/dark-sector-microstructure)).
+
+The third, restored in v2.4 as P.R.'s conjecture, is conjugate monopoles: "magnetically charged topological solitons of the p-polarized sector, localized in momentum (§11, §11.4)" (#11 §12; [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). v2.4 left the row's parenthesis unchanged, and #11 does not say which form of P.R.'s magnetic-mirror conjecture the candidate takes. In the separate-photon form its magnetic charge would belong to the p-polarized sector's own gauge field, which "is consistent with P4"; in the shared-photon form it would be our photon's, the case set out [below](#the-magnetic-mirror-conjectures-shared-photon-form) (§11.4).
+
+Flag 63 in `review/wiki-build-flags.md`, raised by both reviewers of the restoration on 2026-10-29, records the gap: §12 and §14 item 9 count three candidates, while the row names two, and v2.0's row read "(all three trilemma candidates SM-decoupled)". The restored candidate is decoupled in its separate-photon form; in its shared-photon form, which needs P4 restated, it carries magnetic charge of our photon, "so the row's null would rest on the analogs being spread in position (flag 60)". The flag proposes, for a v2.4.1, "**Permanent null** (all dark-sector candidates SM-decoupled under P4 strict; for the third candidate's shared-photon form, a null of position-space searches, flag 60)". The ruling is pending, and the row is unchanged until Paul rules.
 
 ### A postulate, not a derivation
 
@@ -108,23 +113,25 @@ The row derives nothing beyond P4. It carries no tag of its own; it rests on P4 
 
 ## The data situation
 
-No direct-detection experiment or collider search has reported a confirmed dark-matter signal [T]. The program's documents cite no experimental result for this row; its standing in the record comes from the postulate. Gravitational evidence for dark matter, which the row leaves untouched, is what both candidates are built to supply: χ "falls, orbits, and lenses like ordinary dark matter" (#1 §4).
+No direct-detection experiment or collider search has reported a confirmed dark-matter signal [T]. The program's documents cite no experimental result for this row; its standing in the record comes from the postulate. Gravitational evidence for dark matter, which the row leaves untouched, is what the candidates are built to supply: χ "falls, orbits, and lenses like ordinary dark matter" (#1 §4).
 
 ## What the record leaves unresolved
 
 - **A ceiling or a floor.** #11 writes "ε ≲ 10⁻¹³". The round-3 referee notes that Gherghetta et al. present the figure as a floor, the "minimum kinetic mixing in any theory with hidden gauge interactions and charge symmetry breaking", "consistent with "<~" only in the sense "up to"" (audit notes, Step 1; the referee sets "floor" in capitals). #11's wording stands, and the reading is unresolved ([an unresolved reading: ceiling or floor](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing#an-unresolved-reading-ceiling-or-floor)).
 - **Exact or gauged.** #11 says the mixing vanishes "if hidden charge conjugation is exact"; Decision 1 says "zero if hidden charge conjugation is a gauged symmetry". The v3 worklog gives the reason the distinction matters: "Quantum gravity forbids an exact global C [Banks–Seiberg 2011; Harlow–Ooguri 2021]; a gauged C (O(2)/O(3)-type) remains a loophole [Obied–Parikh, preprint]" (item R4). #11 outranks the adjudication, so its wording is the current statement ([how to read the bound and the zero](/wiki/program/postulates/p4-polarized-matter#how-to-read-the-bound-and-the-zero)).
-- **Couplings that are not gauge forces.** P4 excludes gauge forces across the polarizations, and its strict reading excludes kinetic mixing. The documents do not discuss other kinds of coupling for χ or the X-condensate. The round-3 referee listed "The Higgs portal" among the constraints #14 had omitted for its hidden sector, accepted as a to-do and not individually re-checked (`review/round3-adjudication.md`, 'Rulings'); no document takes it up for the remaining candidates.
+- **Couplings that are not gauge forces.** P4 excludes gauge forces across the polarizations, and its strict reading excludes kinetic mixing. The documents do not discuss other kinds of coupling for χ or the X-condensate. The round-3 referee listed "The Higgs portal" among the constraints #14 had omitted for its hidden sector, accepted as a to-do and not individually re-checked (`review/round3-adjudication.md`, 'Rulings'); no document takes it up for the current candidates.
 - **The handoff's open item.** [The handoff](/wiki/history/documents/handoff) listed "UV stability of sector separation / kinetic mixing" as open (`HANDOFF.md` §2, item 3), and its queue paired the † literature battery with "resolve the gravity-induced kinetic mixing question" (§8, item 6). The strict reading of P4 answers the first in the record's terms, and #11 §14 lists no kinetic-mixing item. [27S] is a live-searched reference [S], so it is outside the † battery ([Open: the † literature battery](/wiki/method/literature-battery)).
 
 ## The magnetic-mirror conjecture's shared-photon form
 
-The popular article #12 says "The momentum-polarized sector is the magnetic side of electromagnetism" ('Dark matter as the other polarization'). #11 v2.3 records that reading as the shared-photon form of P.R.'s magnetic-mirror conjecture [O], in which the momentum-polarized analogs of our electrically charged particles "carry magnetic charge of our photon" (§11.4; [shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). The form bears on two parts of the row differently (flag 60 in `review/wiki-build-flags.md`):
+The popular article #12 says "The momentum-polarized sector is the magnetic side of electromagnetism" ('Dark matter as the other polarization'). Since v2.3, #11 records that reading as the shared-photon form of P.R.'s magnetic-mirror conjecture [O], in which the momentum-polarized analogs of our electrically charged particles "carry magnetic charge of our photon" (§11.4; [shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)). The form bears on two parts of the row differently (flag 60 in `review/wiki-build-flags.md`):
 
 - **The requirement's basis.** The parenthesis "both dark-sector candidates SM-decoupled; P4 strict" is broken by construction: the analogs carry magnetic charge of our photon, so the momentum-polarized sector couples to it. P4 as written excludes the form ("gauge forces do not cross polarizations", in the program since #1), "so it needs P4 restated" (§11.4).
 - **The permanent null and its kill condition.** If the analogs are part of the dark matter, the observable null survives only if they are spread in position, which no document analyzes: #14 assumed ordinary kinematics, and [conjugate special relativity](/wiki/conjugate-relativity), #13, treats the momentum polarization's kinematics but not localization. Whether a search could register them, and so confirm the coupling that would kill the row, therefore depends on their being localized in position.
 
 The conjecture's other form, in which the analogs are magnetic under the momentum-polarized sector's own gauge field, "is consistent with P4" (§11.4; [separate photon](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon)).
+
+Since v2.4 the shared-photon form is also the setting of P.R.'s open explanation of the monopole null result: "This form is the setting of App. A item 5's explanation of the null result, open since v2.4 (flag 62): it requires P4 restated and the hiding conditions above, none of them yet computed" (§11.4; [Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation); [row 8](/wiki/predictions/monopole-null)).
 
 Until 2026-10-29 the wiki recorded #12's reading as dead and in contradiction with this row, on its own reading of the conflicts; flag 60 reversed that on Paul's ruling ([the earlier obituary and its reversal](/wiki/electric-magnetic-duality/magnetic-identification#the-earlier-obituary-and-its-reversal)). #12 presents the framework as if it were confirmed and is not a source for any claim's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
@@ -135,9 +142,9 @@ Until 2026-10-29 the wiki recorded #12's reading as dead and in contradiction wi
 | v0.1 (#1 §9) | "**Permanent null**: χ has no non-gravitational SM coupling" |
 | v1 (#9 §9) | "**Permanent null** — χ (or X-condensate) has no non-gravitational SM coupling" |
 | #11 v2.0 | "**Permanent null** (all three trilemma candidates SM-decoupled)" |
-| #11 v2.1–v2.3 | "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)" |
+| #11 v2.1–v2.4 | "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)" |
 
-The v2.0 wording survives only in the repository's history (commit 8d588f6, the imported checkpoint). The changes follow the candidates: v1 added the X-condensate, v2.0 the superheavy solitons as a third, and v2.1 retired the solitons and added "P4 strict" ([the history of the predictions table](/wiki/predictions/table-history#the-checkpoint-v21-after-round-3)).
+The v2.0 wording survives only in the repository's history (commit 8d588f6, the imported checkpoint). The changes follow the candidates: v1 added the X-condensate, v2.0 the superheavy solitons as a third, and v2.1 retired the solitons and added "P4 strict" ([the history of the predictions table](/wiki/predictions/table-history#the-checkpoint-v21-after-round-3)). v2.4 restored the third candidate as P.R.'s conjecture, conjugate monopoles localized in momentum, after narrowing the retirement to #14's model, and left the row unchanged; flag 63 proposes a v2.4.1 wording, pending Paul's ruling.
 
 In v0.1 the row was one of three flagships: "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). The cliff is now a knee and the granularity row is dead ([Obituary: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity)); the null survives unchanged. v1 moved the row, with rows 1 and 4, into its near-term falsification exposure (#9 §11), where #11 keeps it.
 
@@ -145,7 +152,7 @@ Kinetic mixing reached the row through the review of #14. Round 1 found "kinetic
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 row 7 — the row; §4 — P4 and its strict reading [P], [27S]; §7.5 — X's couplings to ordinary matter; §8 — χ on g; §11.4 — P.R.'s magnetic-mirror conjecture [O], its shared-photon form against P4 as written and its separate-photon form consistent with it; §12 — the candidates and their handles; §15 — the near-term exposure
+- `papers/broken-born-checkpoint-v2.md` §13 row 7 — the row; §4 — P4 and its strict reading [P], [27S]; §7.5 — X's couplings to ordinary matter; §8 — χ on g; §11.4 — P.R.'s magnetic-mirror conjecture [O], its shared-photon form against P4 as written, the setting of the explanation since v2.4, and its separate-photon form consistent with P4; §12 — the three candidates and their handles, the third P.R.'s conjecture since v2.4; §15 — the near-term exposure
 - `CLAUDE.md` 'Since the handoff' — strict sector separation in force
 - `review/round3-adjudication.md` 'Decisions' item 1 — the strict reading and its reasons; 'Rulings' — rulings 7 and 9 and the omitted constraints, among them the Higgs portal
 - `review/round3/referee/audit-notes.md` Step 1, citation [9] — the quotations from [27S] and the floor reading
@@ -153,5 +160,5 @@ Kinetic mixing reached the row through the review of #14. Round 1 found "kinetic
 - `HANDOFF.md` §2 item 3, §6, §8 item 6 — the open item, the review history of kinetic mixing and the queued question
 - `notes/broken-born-theory.md` §1 — P4 in v0.1; §4 — χ falls, orbits and lenses [D]; §9 — v0.1's row 7, the standard theory and the flagships (quotations from #1 are transcribed from its LaTeX)
 - `notes/broken-born-program-v1.md` §9, §11 — v1's row 7 and its exposure rows
-- `review/wiki-build-flags.md` item 60 — the reversal of the wiki's obituary; the shared-photon form breaks row 7's basis outright, and its observable null survives only if the momentum sector is spread in position, which no document analyzes
+- `review/wiki-build-flags.md` item 60 — the reversal of the wiki's obituary; the shared-photon form breaks row 7's basis outright, and its observable null survives only if the momentum sector is spread in position, which no document analyzes; item 63 — the row still names two candidates; v2.0's wording, checked at commit 8d588f6; the wording proposed for a v2.4.1, pending
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the shared-photon reading; not a status source

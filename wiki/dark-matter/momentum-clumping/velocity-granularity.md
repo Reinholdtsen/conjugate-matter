@@ -18,11 +18,12 @@ sources:
   - "notes/broken-born-theory.md §12"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "notes/broken-born-program-v1.md §9"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
 *Velocity-space granularity was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that the dark matter of a relaxed galaxy halo, such as the Milky Way's, is split into of order ten broad streams, each with its own velocity and coherent over kiloparsec distances, and that their gravity leaves correlated ripples along thin streams of stars. It was row 3 of the notebook's [prediction table](/wiki/predictions/table-history) and one of its three flagship discriminants. It rested on the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping, so when [the clumping problem](/wiki/history/main-problems) showed that clumping is impossible for particle dark matter and never mandatory for wave dark matter, the row was withdrawn permanently, on both islands. The current table's row 3 is a different prediction, [the island discriminant](/wiki/predictions/island-discriminant).*
 
-**Status:** Dead — "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`); [#11](/wiki/history/documents/checkpoint) §13 lists "velocity-space granularity in halos" under "Withdrawn with cause". Untagged in the sources. Killed with the founding image by the clumping problem, whose summary is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`); [#11](/wiki/history/documents/checkpoint) §13 lists "velocity-space granularity in halos" under "Withdrawn with cause". Untagged in the sources. Killed with the founding image by the clumping problem, whose summary is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff'). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -88,7 +89,7 @@ The row's number went to a new prediction. The notebook's addendum: "A new row r
 ## In the later tables
 
 - #9 §9: "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)."
-- #11 §13: "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); superheavy-soliton dark matter (obituary §12)." The last item is [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary).
+- #11 §13: "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)." The last item is [#14's model](/wiki/dark-matter/candidates/soliton-candidate/obituary), which until v2.3 read "superheavy-soliton dark matter (obituary §12)".
 
 The calc notes #2–#4 number the rows as the notebook does. Since #9 and #11 reuse the numbers for other rows, this wiki calls the notebook's row "old row 3" ([history of the predictions table](/wiki/predictions/table-history)). Its companion is [old row 4, Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction).
 
@@ -100,3 +101,4 @@ The calc notes #2–#4 number the rows as the notebook does. Since #9 and #11 re
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the environment table, the descendant and the degeneration flag; 'Standing results after Chunks A+B' — dead on both islands as a mandatory signature
 - `notes/broken-born-theory.md` §9 — the row as written and its flagship status; §5.2 — its basis; §10 — the parameter count; §11 item 3 — the open problem; §12 — the summary; 'Addendum (v0.2)' — the strike and the replacement row
 - `notes/broken-born-program-v1.md` §9 — the withdrawal in v1's renumbered table
+- `CLAUDE.md` 'Since the handoff' — Paul's concurrence in the death asked on 2026-10-29

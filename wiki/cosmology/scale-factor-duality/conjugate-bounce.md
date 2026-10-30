@@ -8,6 +8,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §10"
   - "papers/broken-born-checkpoint-v2.md §13 rows 4–5"
   - "papers/broken-born-checkpoint-v2.md App. A item 7"
+  - "papers/broken-born-checkpoint-v2.md App. A item 9"
   - "HANDOFF.md §2"
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-theory.md §3"
@@ -103,6 +104,8 @@ The near-term proxy is [row 4: thawing dark energy, never phantom](/wiki/predict
 
 **Founding supposition 7.** "Our expansion reverses at their bounce" is "**alive, corrected**: one event, two descriptions; live at DESI DR3" (#11 App. A item 7), where DESI DR3 is the survey's third data release (Data Release 3). The correction is the one this page describes: the two events became one. See [founding suppositions and their fates](/wiki/program/founding-suppositions).
 
+**Founding supposition 9.** The conjugate description's contraction before the bounce is the subject of a different supposition, "Their collapse is our acceleration", which since #11 v2.4 is P.R.'s open conjecture: "a conjugate universe whose contents are kinetic-dominated as it contracts would act on ours as a cosmological constant" (§10; App. A item 9). It concerns our present acceleration, not the turnaround, and two versions of it failed ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
+
 ## Timing
 
 The turnaround time t_turn is the third of three observables, (w₀, wₐ, t_turn), that #11 §10 says are fixed by two parameters (f, τᵢ): "one over-constraint". The lab notebook adds that V₀ is "fixed by Ω_DE" (#1 §7 item 4). No program document before the closed-universe note computes t_turn. In a closed universe the note gives t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^{−3/2}/H₀, with Ω_d τ's dust-like density referred to today, so at fixed (w₀, wₐ) the curvature is a third input and the over-constraint moves to (f, τᵢ, Ω_k) (flag 46); the data bound t_turn only from below, more than 6.015×10⁵ Gyr at the 95% bound given closure (`notes/closed-universe.md` §2, §3) [D][V]. See [the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint).
@@ -126,7 +129,7 @@ The phase-space-diameter note answers the question for this bounce (`papers/phas
 
 - `papers/broken-born-checkpoint-v2.md` §10 — the statement, the potential, "eventually goes negative" and the cited fits
 - `papers/broken-born-checkpoint-v2.md` §13 rows 4–5 — the prediction, its horizon and its near-term proxy
-- `papers/broken-born-checkpoint-v2.md` App. A item 7 — founding supposition 7, "alive, corrected"
+- `papers/broken-born-checkpoint-v2.md` App. A item 7 — founding supposition 7, "alive, corrected"; App. A item 9 and §10 — founding supposition 9, P.R.'s open conjecture since v2.4
 - `HANDOFF.md` §2 — "one event, two descriptions"
 - `notes/broken-born-theory.md` §7 items 3–4 — the identity, "our maximum is their minimum", the trigger, the 93.8% figure; V₀ fixed by Ω_DE
 - `notes/broken-born-theory.md` §3 — the potential V₀[1 + cos(τ/f)]

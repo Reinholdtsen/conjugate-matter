@@ -12,6 +12,7 @@ sources:
   - "notes/ufd-endpoint.md 'Sharpened input numbers'"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md ref [13]"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "notes/broken-born-program-v1.md §7"
   - "notes/broken-born-program-v1.md §10"
 ---
@@ -48,7 +49,7 @@ If the bosons also attract one another through a self-interaction, a Bose star h
 
 ### A word with two meanings
 
-In these notes a "soliton" is a Bose-star core, as in the fuzzy-dark-matter literature. It is not the [topological soliton](/wiki/symmetry-breaking/topological-defects#two-meanings-of-soliton-and-the-name-knots) of the program's retired dark-matter candidate, for which see [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary).
+In these notes a "soliton" is a Bose-star core, as in the fuzzy-dark-matter literature. It is not the [topological soliton](/wiki/symmetry-breaking/topological-defects#two-meanings-of-soliton-and-the-name-knots) of the program's third dark-matter candidate, P.R.'s conjecture of [magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles), or of [#14's model of it](/wiki/dark-matter/candidates/soliton-candidate/obituary), which failed.
 
 ## How the program uses it
 
@@ -89,7 +90,7 @@ Added by the wiki from model memory (†):
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §9, ref [13] — "LPT-style [13†]"; coefficients [O]; the reference
+- `papers/broken-born-checkpoint-v2.md` §9, ref [13] — "LPT-style [13†]"; coefficients [O]; the reference; §12 — the third candidate, and the failure of #14's model of it
 - `notes/wave-island.md` 'Setup', 'The rate' — the wave-kinetic rate, the mechanism, the gated rate, the gravitational channel, the calibration to-do
 - `notes/stream-stability.md` 'Consequences for the predictions table', 'Next chunk (#3)' — Levkov–Panin–Tkachev as the known anchor; power flowing into narrow-momentum streams; anchoring the coefficients
 - `notes/ufd-endpoint.md` 'Sharpened input numbers' — the t^{1/2} growth slowdown; no timescale refuge in Segue 1

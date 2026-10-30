@@ -21,11 +21,12 @@ sources:
   - "review/v3-worklog.md 'Verified references for v3'"
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §11.4"
   - "HANDOFF.md §6"
   - "review/wiki-build-flags.md item 33"
 ---
 
-*Benchmark-conditional arithmetic is the set of numbers that #14 v3 computed at its benchmark monopole mass of 3×10¹³ GeV and that remain correct as arithmetic, although the benchmark itself is withdrawn. At that mass, monopoles making up all the [dark matter](/wiki/dark-matter) would be spaced about 420 m apart near the Sun; they would scatter off one another so weakly, [σ_T/M](/wiki/dark-matter/halo-astrophysics/transfer-cross-section#the-soliton-candidates-σ_tm) ~ 10⁻²⁶ cm²/g, that they would behave as collisionless cold dark matter; and if they carried magnetic charge under our own electromagnetism, their flux would exceed the Parker bound by 7.5 orders of magnitude. That last, counterfactual number is why the [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) has to be separate from ours. The [round-3](/wiki/method/review/round-3) referee recomputed each value from independently chosen constants and confirmed it.*
+*Benchmark-conditional arithmetic is the set of numbers that #14 v3 computed at its benchmark monopole mass of 3×10¹³ GeV and that remain correct as arithmetic, although the benchmark itself is withdrawn. At that mass, monopoles making up all the [dark matter](/wiki/dark-matter) would be spaced about 420 m apart near the Sun; they would scatter off one another so weakly, [σ_T/M](/wiki/dark-matter/halo-astrophysics/transfer-cross-section#σ_tm-of-14s-model) ~ 10⁻²⁶ cm²/g, that they would behave as collisionless cold dark matter; and if they carried magnetic charge under our own electromagnetism, their flux would exceed the Parker bound by 7.5 orders of magnitude. That last, counterfactual number is why the [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) has to be separate from ours. The [round-3](/wiki/method/review/round-3) referee recomputed each value from independently chosen constants and confirmed it.*
 
 **Status:** Record — "The benchmark-conditional arithmetic: flux, densities, σ_T/M, W′ overclosure" survives v3 (round-3 adjudication, 'What survives v3'), and the referee marked each value "CONFIRMED" (audit notes, Step 2). #14 §6 lists "the counterfactual flux numbers and cross-section of Sec. 4" as derived. Apart from the W′ overclosure, which has [its own page](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) and is gated, these values are not in [the current gate](/wiki/method/verification/the-gate): v3's own checks of them were retired with the paper.
 
@@ -87,7 +88,7 @@ Verdict: "CONFIRMED (factor-2 convention)". #14's 8π is twice the standard 4π;
 
 ### What follows, and the caveat
 
-The candidate would have been collisionless cold dark matter. Dwarf-galaxy cores could then not come from dark-matter self-interaction ([dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies)), which #14 made exclusion condition 5: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5).
+#14's monopoles would have been collisionless cold dark matter. Dwarf-galaxy cores could then not come from dark-matter self-interaction ([dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies)), which #14 made exclusion condition 5: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5).
 
 The referee qualified "collisionless" (Step 4(c) item 6). A medium of long-range charges oscillates collectively at its plasma frequency ω_p, and collective instabilities can act on timescales of order 1/ω_p, independently of two-body collisions [T]. The referee's estimates of 1/ω_p for the monopoles (`step4.out`):
 
@@ -105,7 +106,7 @@ In round 1 the referee had misread this quantity: "σ_T/M misread as σ_T (off ~
 
 ### Why it was computed
 
-The candidate's monopoles carry magnetic charge under the hidden U(1)_d only. #14 §4 computed what would follow if they were instead magnetic under our electromagnetism:
+#14's monopoles carry magnetic charge under the hidden U(1)_d only. #14 §4 computed what would follow if they were instead magnetic under our electromagnetism:
 
 > Not monopoles of our U(1). If these objects carried magnetic charge under our electromagnetism, they would be classic monopoles and excluded. The flux at dark-matter density would be F = n v/4 pi ~ 3e-8 /cm^2/s/sr. That exceeds the Parker bound (~1e-15 for M <~ 1e17 GeV) [20] by 7.5 orders of magnitude, the MACRO limit for m >~ 1e10 GeV (2.8e-16) [21] by eight, and the extended Parker bound 1e-16 (M/1e17 GeV) [22] by twelve. Sector separation is therefore mandatory. Sec. 2(c) shows it is not undone by kinetic mixing while U(1)_d is unbroken.
 
@@ -133,7 +134,7 @@ The first line confirms #14's 7.5, 8 and 12 orders. The second uses eq. (95.8) o
 
 Two facts keep these monopoles from being monopoles of our electromagnetism. The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) says that "gauge forces do not cross polarizations", and since v2.1 it has been taken strictly, allowing no kinetic mixing beyond what gravity induces ([#11](/wiki/history/documents/checkpoint) §4; [round-3 Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)). And even with some mixing, an unbroken hidden U(1) gives the monopoles no visible magnetic flux: the worklog's finding L1, from Hiramatsu et al., that kinetic mixing "does not induce the QED magnetic flux in the U(1) symmetric phase", where QED is quantum electrodynamics ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)).
 
-The flux numbers therefore enter v3 only as the reason for separation. Worklog L1: "Parker and MACRO stay in v3 only as the reason sector separation is needed: they show what would happen if these objects were monopoles of our U(1)." #14 made a real flux exclusion condition 2: "Any confirmed magnetic-monopole flux of our U(1) at dark-matter abundance." The program's own monopole prediction is [row 8](/wiki/predictions/monopole-null).
+The flux numbers therefore enter v3 only as the reason for separation. Worklog L1: "Parker and MACRO stay in v3 only as the reason sector separation is needed: they show what would happen if these objects were monopoles of our U(1)." #14 made a real flux exclusion condition 2: "Any confirmed magnetic-monopole flux of our U(1) at dark-matter abundance." The program's own monopole prediction is [row 8](/wiki/predictions/monopole-null). Since v2.3 #11 applies the counterfactual to the shared-photon form of P.R.'s magnetic-mirror conjecture, in which the momentum-polarized analogs carry magnetic charge of our photon: "Localized in position at dark-matter density, such objects would exceed the Parker bound at #14's benchmark masses (#14 v2 and v3 §4; not gated)", so that form needs P4 restated and something to hide them (§11.4; [shared photon](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon)).
 
 ## Status of the numbers
 
@@ -145,7 +146,7 @@ The flux numbers therefore enter v3 only as the reason for separation. Worklog L
 | Counterfactual flux | ~3e-8 cm⁻² s⁻¹ sr⁻¹ | 3.18e-8 | confirmed |
 | Excess over Parker, MACRO, extended Parker | 7.5, 8, 12 orders | 7.50, 8.06, 12.03 | confirmed |
 
-The adjudication's 'What survives v3' keeps "The benchmark-conditional arithmetic: flux, densities, σ_T/M, W′ overclosure". When v3 was drafted, each of these numbers was a gated check in the predecessor script `knot_numbers.py`, last in history at 96f58da ("Every number it quotes is a gated check", worklog 'v3 as drafted'). That script was replaced by `verify/soliton_obituary.py`, which checks the corrected record and, among these, only the W′ overclosure; its docstring claims wider coverage (flag 33 in `review/wiki-build-flags.md`). The adjudication on the replacement: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything" ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script); [round-3 decisions](/wiki/method/review/round-3/decisions)). The arithmetic stands on the referee's recomputation and the benchmark stays withdrawn ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+The adjudication's 'What survives v3' keeps "The benchmark-conditional arithmetic: flux, densities, σ_T/M, W′ overclosure". When v3 was drafted, each of these numbers was a gated check in the predecessor script `knot_numbers.py`, last in history at 96f58da ("Every number it quotes is a gated check", worklog 'v3 as drafted'). That script was replaced by `verify/soliton_obituary.py`, which checks the corrected record and, among these, only the W′ overclosure; its docstring claims wider coverage (flag 33 in `review/wiki-build-flags.md`). The adjudication on the replacement: "This retires the checks of a withdrawn paper. It does not loosen the gate: the gate verifies what current documents claim, and v3 no longer claims anything" ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script); [round-3 decisions](/wiki/method/review/round-3/decisions)). The arithmetic stands on the referee's recomputation and the benchmark stays withdrawn ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ## Sources
 
@@ -154,6 +155,6 @@ The adjudication's 'What survives v3' keeps "The benchmark-conditional arithmeti
 - `review/round3/referee/step2a.out` — the density, cross-section and flux lines quoted; `review/round3/referee/step4.out` — the plasma frequencies
 - `notes/knot-dark-matter-standalone.md` §3 — the benchmark, densities and spacing; §4 — σ_T/M and the counterfactual flux; §5 — exclusion conditions 2 and 5; §6 — listed as derived
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1, L1) — the benchmark decision, the MACRO row, the flux as the reason for separation; 'Round-2 pending list' (R3) — the extended Parker bound and charge scaling; 'Verified references for v3' — how to cite the Parker value; 'v3 as drafted (2026-10-19)' — the predecessor gate
-- `papers/broken-born-checkpoint-v2.md` §4 — P4 taken strictly
+- `papers/broken-born-checkpoint-v2.md` §4 — P4 taken strictly; §11.4 — the counterfactual applied to the shared-photon form
 - `HANDOFF.md` §6 — v2's numbers and the round-1 and round-2 referee errors
 - `review/wiki-build-flags.md` item 33 — the gate script's claimed coverage against what it checks

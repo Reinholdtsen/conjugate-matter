@@ -25,7 +25,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md 'References'"
 ---
 
-*Topological dark matter is the established proposal that [dark matter](/wiki/dark-matter) consists of [topological defects](/wiki/symmetry-breaking/topological-defects), such as [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), left behind when a symmetry of a hidden sector breaks in the early universe. The defects are stable because their field configuration cannot unwind, and how many survive is set by how many form at the transition and how many then annihilate in pairs. Murayama and Shu found that such defects could be the dark matter at masses of 1–10 PeV, noting that Kibble's simple count underestimates how many form; Liveoak, Maharana and Wells showed in 2026 that hidden monopoles overclose the universe if the symmetry breaks above about 100 PeV, unless a later epoch [dilutes them](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t). This low-scale scenario is what remains of the program's retired soliton candidate once its abundance is counted correctly. Nothing in it depends on [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), so the program claims compatibility with it and nothing more.*
+*Topological dark matter is the established proposal that [dark matter](/wiki/dark-matter) consists of [topological defects](/wiki/symmetry-breaking/topological-defects), such as [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), left behind when a symmetry of a hidden sector breaks in the early universe. The defects are stable because their field configuration cannot unwind, and how many survive is set by how many form at the transition and how many then annihilate in pairs. Murayama and Shu found that such defects could be the dark matter at masses of 1–10 PeV, noting that Kibble's simple count underestimates how many form; Liveoak, Maharana and Wells showed in 2026 that hidden monopoles overclose the universe if the symmetry breaks above about 100 PeV, unless a later epoch [dilutes them](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t). This low-scale scenario is what remains of #14's soliton model, which treated the monopoles with ordinary kinematics, once its abundance is counted correctly. Nothing in it depends on [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), so the program claims compatibility with it and nothing more.*
 
 **Status:** Established — literature, live-searched [28S, 29S] ([#11](/wiki/history/documents/checkpoint) §12) and checked at the level of the abstracts in [round 3](/wiki/method/review/round-3) ([rulings 3 and 10](/wiki/method/review/round-3/rulings)). The program's relation to it: "The framework is merely compatible with known PeV-scale topological dark matter (prior art)" (`CLAUDE.md`). Claiming the scenario as the program's own was rejected as misattribution ([round-3 Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired), route (a)). The general physics below is [T], written from general knowledge.
 
@@ -65,7 +65,7 @@ The referee applied these to #14 v3's parameters and found the benchmark overpro
 
 ## The scenario as the program states it
 
-#11 §12, in the obituary of the soliton candidate:
+#11 §12, in its account of #14's failed model:
 
 > Hidden-sector monopoles avoid overclosing the universe only for symmetry-breaking scales ≲ 100 PeV, or with a period of early matter domination [29S].
 >
@@ -75,7 +75,7 @@ Read with the formation and annihilation physics above: at low symmetry-breaking
 
 ## Strong-coupling annihilation is a solved case
 
-#14 had treated the annihilation of its monopoles as open. Its acceptance criterion 3 asked for "the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma" ([freeze-out of defects](/wiki/dark-matter/candidates/thermal-freeze-out#other-freeze-outs-in-the-record)), because the monopoles' mutual coupling is strong, α_m ≈ 34 ([the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)). The referee found that this is the ordinary case: "Acceptance criterion 3 is not open: the "strong-coupling" regime alpha_m = 34 is exactly the Dirac-monopole case of Preskill 1979 (h = 2 pi/e); its modern hidden-sector version (LMW 2026) excludes v >~ 100 PeV for hidden monopoles" (Step 4(a) item 3; LMW is Liveoak–Maharana–Wells). The reason is [Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization): any monopole whose magnetic charge is the minimal one relative to a weak electric charge is strongly coupled, so Preskill's monopoles were already in this regime. Ruling 10, upheld at the level of the abstracts: "Annihilation at α_m ≈ 34 is Preskill's Dirac case, already done for hidden sectors". [The handoff](/wiki/history/documents/handoff)'s chat-only "√N floor" addressed the same annihilation question; round-3 Decision 3 dropped it because its premise, Kibble as a ceiling, is inverted (ruling 3) and no candidate was left for it to serve ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
+#14 had treated the annihilation of its monopoles as open. Its acceptance criterion 3 asked for "the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma" ([freeze-out of defects](/wiki/dark-matter/candidates/thermal-freeze-out#other-freeze-outs-in-the-record)), because the monopoles' mutual coupling is strong, α_m ≈ 34 ([the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)). The referee found that this is the ordinary case: "Acceptance criterion 3 is not open: the "strong-coupling" regime alpha_m = 34 is exactly the Dirac-monopole case of Preskill 1979 (h = 2 pi/e); its modern hidden-sector version (LMW 2026) excludes v >~ 100 PeV for hidden monopoles" (Step 4(a) item 3; LMW is Liveoak–Maharana–Wells). The reason is [Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization): any monopole whose magnetic charge is the minimal one relative to a weak electric charge is strongly coupled, so Preskill's monopoles were already in this regime. Ruling 10, upheld at the level of the abstracts: "Annihilation at α_m ≈ 34 is Preskill's Dirac case, already done for hidden sectors". [The handoff](/wiki/history/documents/handoff)'s chat-only "√N floor" addressed the same annihilation question; round-3 Decision 3 dropped it because its premise, Kibble as a ceiling, is inverted (ruling 3) and, with #14's model retired, it had "no candidate left to serve" ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)).
 
 ## Other prior art
 
@@ -87,7 +87,7 @@ The referee listed two further papers on the same model, both uncited by #14 (St
 
 The referee concluded that #14's proposal is "the standard hidden 't Hooft-Polyakov-monopole scenario (Baek-Ko-Park 2013; Khoze-Ro 2014; Murayama-Shu 2009; LMW 2026) with one coupling choice (alpha_d = alpha), and it stands or falls on that literature, independently of Born reciprocity" (Step 4(d)), and that the only salvage is "a different model (v <~ 1e8 GeV, or explicit dilution), which already exists in the literature" (Step 5). The adjudication's verdict sets out the same two routes: "a superheavy monopole that needs a named dilution mechanism, or a model at v ≲ 100 PeV that already exists in the literature."
 
-Round-3 Decision 2 rejected adopting the low-scale model: "Route (a), v ≲ 100 PeV, works, but it is Murayama–Shu's and Liveoak–Maharana–Wells's model. Nothing in it depends on Born reciprocity (the referee and the pre-registration agree), so claiming it would add no testable content and would misattribute it." The candidate was retired (route (c)), and "The surviving version is noted as prior art (route a)" ([round-3 decisions](/wiki/method/review/round-3/decisions)). #11 §12's verdict: "The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it." This is the round-3 instance of [the 'framework does no work' critique](/wiki/program/framework-does-no-work).
+Round-3 Decision 2 rejected adopting the low-scale model: "Route (a), v ≲ 100 PeV, works, but it is Murayama–Shu's and Liveoak–Maharana–Wells's model. Nothing in it depends on Born reciprocity (the referee and the pre-registration agree), so claiming it would add no testable content and would misattribute it." #14's model was retired (route (c)), and "The surviving version is noted as prior art (route a)" ([round-3 decisions](/wiki/method/review/round-3/decisions)); since 2026-10-29 the decision covers #14's model alone. #11 §12's verdict, as v2.4 words it: "#14's model fails as a program-native proposal: with ordinary kinematics it is either overproduced or the prior-art PeV-scale scenario, to which the framework adds nothing testable." From v2.1 to v2.3 it read: "The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it." The candidate #14 modeled, monopoles localized in momentum, was never modeled with that kinematics and is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). This is the round-3 instance of [the 'framework does no work' critique](/wiki/program/framework-does-no-work).
 
 ## What was checked
 
@@ -95,14 +95,15 @@ The two works #11 cites carry [S]: they were found by live search, not recalled 
 
 ## Used by
 
-- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the scenario the corrected candidate reduces to, and the verdict "merely compatible".
+- [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the scenario the corrected model reduces to, and the verdict "merely compatible".
+- [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles) — the scenario #14's model of the candidate reduces to, with ordinary kinematics.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — the production and annihilation estimates the referee took from this literature.
 - [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — the floor, supported by Murayama–Shu.
 - [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) — the same hidden-sector model, already published.
 - [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — strong-coupling annihilation "already done for hidden sectors".
-- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — why the loophole has no candidate.
+- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — the reduction of #14's model, which left the loophole untested.
 - [The 'framework does no work' critique](/wiki/program/framework-does-no-work) — the round-3 instance of the critique.
-- [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — the "merely compatible" remark on the retired candidacy.
+- [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — the "merely compatible" remark on #14's model.
 - [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 2's route (a), noted as prior art.
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — rulings 3 and 10, and the uncited prior art.
 
@@ -128,8 +129,8 @@ From #14's reference list, which carries no marks; the round-3 referee found tha
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — "merely compatible"
-- `papers/broken-born-checkpoint-v2.md` §12 — the scenario and the [28S, 29S] tags; refs [28]–[29] — the citations
-- `review/round3-adjudication.md` 'Verdict' — the two routes; 'Rulings' 3 and 10 — the literature readings; 'Decisions' 2 — routes (a) and (c); 'Decisions' 3 — the √N floor dropped
+- `papers/broken-born-checkpoint-v2.md` §12 — the scenario and the [28S, 29S] tags, the verdict on #14's model and the candidate as P.R.'s conjecture (v2.4); refs [28]–[29] — the citations
+- `review/round3-adjudication.md` 'Verdict' — the two routes; 'Rulings' 3 and 10 — the literature readings; 'Decisions' 2 — routes (a) and (c), narrowed to #14's model on 2026-10-29; 'Decisions' 3 — the √N floor dropped
 - `review/round3/referee/audit-notes.md` Step 1 — Preskill's abstract; Steps 2 and 4(a) — the Liveoak–Maharana–Wells equations and acceptance criterion 3; Step 4(c) — the quoted abstracts and the uncited prior art; Step 4(d) and Step 5 — the referee's conclusions
 - `review/v3-worklog.md` 'Round-2 pending list' — Hiramatsu et al. (R6)
 - `notes/knot-dark-matter-standalone.md` §3 — the classic relic analysis; §6 — acceptance criterion 3; 'References' — [12], [19]

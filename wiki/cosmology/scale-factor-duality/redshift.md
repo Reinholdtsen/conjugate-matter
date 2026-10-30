@@ -156,7 +156,7 @@ The technical documents state no result about redshift itself. They use z as a c
 f₀ = 1.65×10⁻⁵ Hz × (f*/H*) × (T*/100 GeV) × (g*/100)^{1/6}
 ```
 
-Here f\*/H\* is the emitted peak frequency in units of the Hubble rate at the transition, and g\* is the number of relativistic degrees of freedom. The retired [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) predicted a band of such waves if its hidden transition was first order (`notes/knot-dark-matter-standalone.md` §4). [The gate](/wiki/method/verification/the-gate) checks the band's upper end, 3.2×10⁷ Hz after round-3 ruling 5, which `verify/soliton_obituary.py` reproduces as `3.17e+07`. The band died with the candidate ([the gravitational-wave band](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history#the-gravitational-wave-band-died-with-the-candidate)).
+Here f\*/H\* is the emitted peak frequency in units of the Hubble rate at the transition, and g\* is the number of relativistic degrees of freedom. #14's [model of the soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) predicted a band of such waves if its hidden transition was first order (`notes/knot-dark-matter-standalone.md` §4). [The gate](/wiki/method/verification/the-gate) checks the band's upper end, 3.2×10⁷ Hz after round-3 ruling 5, which `verify/soliton_obituary.py` reproduces as `3.17e+07`. The band died with the model ([the gravitational-wave band](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history#the-gravitational-wave-band-died-with-14s-model)).
 
 **Decoupling dates in round 3.** The round-3 referee dated by redshift the end of the coupling between the withdrawn manuscript's hidden fermion ψ and its hidden photons: "psi kinetically coupled to the gamma' bath until z = 2.7e3 (30 MeV), 7.0e4 (0.3 GeV), 2.2e6 (3 GeV), 6.9e7 (30 GeV) for Delta N = 0.286 (step4.out)", the masses in parentheses being ψ's, and "For sub-GeV psi this approaches recombination" (`review/round3/referee/audit-notes.md` Step 4(c) item 5; [dark acoustic oscillations](/wiki/method/review/round-3/rulings#dark-acoustic-oscillations)). Recombination is the epoch at which electrons and nuclei formed neutral atoms and the cosmic microwave background was released, at the redshift z\* of [last scattering](/wiki/cosmology/early-universe/cosmic-microwave-background#last-scattering). The script takes the hidden photons' temperature at redshift z as today's value times 1 + z, and the expansion rate as the H(z) above (`review/round3/referee/step4.py`, section 4).
 
@@ -174,7 +174,7 @@ The popular article #12 connects the two in plain language:
 
 ## Scope
 
-- **No check of the relation.** No `verify/` script tests 1 + z = a₀/a_e or p ∝ 1/a; they are textbook results [T]. The gate uses redshift twice: in the gravitational-wave formula above, checked through a figure of the retired candidate, and in `verify/phase_space_diameter.py`, which runs the radiation's phase-space rectangle back in time, its extent in position growing as a and its extent in momentum falling as 1/a, and checks the arithmetic of the conserved-count factors above.
+- **No check of the relation.** No `verify/` script tests 1 + z = a₀/a_e or p ∝ 1/a; they are textbook results [T]. The gate uses redshift twice: in the gravitational-wave formula above, checked through a figure of #14's failed model, and in `verify/phase_space_diameter.py`, which runs the radiation's phase-space rectangle back in time, its extent in position growing as a and its extent in momentum falling as 1/a, and checks the arithmetic of the conserved-count factors above.
 - **Crossing redshifts.** No program document computes where the program's own corridor crosses −1. The figures in flag 43 come from the flag's executed checks, kept outside the gate in `review/wiki-build-checks/corridor/`, and from Table 5 of the DR2 paper, which one auditor fetched by live search [S].
 - **The momentum reading.** #12's plain-language connection between redshift and a·ã = 1 is read by the wiki as a gloss; of the technical documents, only the phase-space-diameter note draws the connection, as the one-cell form of the diameter relation (above).
 
@@ -197,7 +197,7 @@ None of these is cited in the program's documents; they are given here from memo
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — the phantom phase DR2 favours above z ≃ 0.4.
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the corridor's crossing redshift against DR2's (flag 43).
 - [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the record of the finding and its crossing redshift.
-- [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the gravitational-wave band of the retired candidate, redshifted to today.
+- [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the gravitational-wave band of #14's model, redshifted to today.
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings#dark-acoustic-oscillations) — the redshifts at which the hidden fermion decouples.
 
 ## Sources
@@ -213,5 +213,5 @@ None of these is cited in the program's documents; they are given here from memo
 - `verify/soliton_obituary.py` 'Dark radiation (ruling 5)' — the same formula in the gate's check of the band's upper end
 - `papers/phase-space-diameter.md` §3 — Liouville's theorem in an expanding universe [S], the conserved area of a fixed comoving region, photon number since annihilation and entropy since reheating, and a·ã = 1 as the one-cell statement that general relativity already satisfies
 - `verify/phase_space_diameter.py` 'The conserved area (note §3)', 'Where the radiation rectangle is square, lambda = l_P (note §6)' — the arithmetic of the annihilation factors, and the rectangle run back in time
-- `notes/knot-dark-matter-standalone.md` §4 — the withdrawn candidate's band, conditional on a first-order hidden transition (withdrawn)
+- `notes/knot-dark-matter-standalone.md` §4 — the band of #14's model, conditional on a first-order hidden transition (withdrawn manuscript)
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — the redshift read as a contracting momentum spectrum (popular article; explanation only)

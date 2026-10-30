@@ -2,9 +2,11 @@
 title: "The collaboration: roles, attribution and conventions"
 weight: 20
 status: method
-description: "Paul (conjecture, direction, veto) and Claude (derivations, counterexamples, verification, drafting), the attribution line, the calibration Paul relies on, decisions and their delegation, the working pattern, and the prose register."
+description: "Paul (conjecture, direction, veto) and Claude (derivations, counterexamples, verification, drafting), the attribution line, the calibration Paul relies on, decisions and their delegation, his narrowing of a delegated decision and his rule on deaths (2026-10-29), the working pattern, and the prose register."
 sources:
   - "CLAUDE.md 'Working with Paul'"
+  - "CLAUDE.md 'Method (HANDOFF §5)'"
+  - "CLAUDE.md 'Since the handoff'"
   - "CLAUDE.md preamble"
   - "HANDOFF.md §1"
   - "HANDOFF.md §7"
@@ -21,19 +23,19 @@ sources:
   - "review/v3-worklog.md 'Findings neither referee raised', 'New open items', 'Next chunks'"
   - "notes/toy-lagrangian.md 'Next (Claude's call, under Paul's delegation)'"
   - "review/wiki-build-flags.md preamble"
-  - "review/wiki-build-flags.md items 55, 59, 60, 61, 62"
+  - "review/wiki-build-flags.md items 55, 59, 60, 61, 62, 63"
   - "papers/broken-born-checkpoint-v2.md §11.4"
 ---
 
 *The Comatter program is the work of two parties: Paul (P.R.), an independent developer, and Claude, an AI model made by Anthropic. Paul supplies conjectures and direction and holds a veto; Claude supplies derivations, counterexamples, verification and drafting, and the papers carry an attribution line that records this split. Paul cannot independently verify most of the technical physics, so the provenance tags, the machine checks and the review forecasts written down in advance are his means of telling sound results from confabulation. The same conventions fix how decisions are taken and delegated, how work is divided into chunks that a new session can resume, and how the science is written.*
 
-**Status:** Method, in force — untagged — root `CLAUDE.md` ('Working with Paul'); `HANDOFF.md` §1 and §7.
+**Status:** Method, in force — untagged — root `CLAUDE.md` ('Working with Paul', and for deaths 'Method' since 2026-10-29); `HANDOFF.md` §1 and §7.
 
 ## The two roles
 
 The root `CLAUDE.md` states the division: "Paul — conjecture, direction, veto. Claude — derivations, counterexamples, drafting, verification." `HANDOFF.md` §1 gives the same list and adds: "Attribution in all papers follows this split." [Checkpoint #11](/wiki/history/documents/checkpoint) describes itself as "produced in dialogue between a human (intuition, direction, veto power) and an AI (derivation, counterexamples, drafting)" (§2).
 
-**Conjecture and direction.** The program began from Paul's suppositions, and #11 keeps them on record with what became of each: Appendix A, "Audit of founding suppositions (P.R., with fates)", lists eleven, from "Symmetrize QM around conjugate variables" (QM being quantum mechanics), now the [hard core](/wiki/program/hard-core), to "Matter clumps in momentum space", now "dead as dynamics" ([Founding suppositions and their fates](/wiki/program/founding-suppositions); [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)). One fate quotes him directly: [monopoles in the conjugate space](/wiki/electric-magnetic-duality/conjugate-monopoles) survive as ontology, "alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero")" (Appendix A item 5).
+**Conjecture and direction.** The program began from Paul's suppositions, and #11 keeps them on record with what became of each: Appendix A, "Audit of founding suppositions (P.R., with fates)", lists eleven, from "Symmetrize QM around conjugate variables" (QM being quantum mechanics), now the [hard core](/wiki/program/hard-core), to "Matter clumps in momentum space", now "dead as dynamics" ([Founding suppositions and their fates](/wiki/program/founding-suppositions); [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)). One fate quotes him directly: [monopoles in the conjugate space](/wiki/electric-magnetic-duality/conjugate-monopoles) survive as ontology, "alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero")" (Appendix A item 5). Since v2.4 Appendix A calls item 4, "Dark matter is conjugate matter", "P.R.'s core conjecture", and records the explanation half of item 5 and item 9 as his open conjectures [O] ([below](#decisions-and-the-veto)).
 
 **Derivations, counterexamples, verification and drafting.** Claude does the calculations, writes the documents and the `verify/` scripts, and adjudicates the [blind reviews](/wiki/method/review); the adjudications are written in Claude's first person ("My arbitration", "I agree", `review/round3-adjudication.md`). The referees of rounds 3 and 4 were fresh subagents of the same model family as the author, a limitation the pre-registrations state: "It does not remove correlated blind spots" (`review/round3-preregistration.md`; [the blind-review protocol](/wiki/method/review/review-protocol)).
 
@@ -59,17 +61,18 @@ Each element of the calibration has its page and its record:
 - **Tags.** Every claim says where it came from ([provenance tags](/wiki/method/provenance-tags)), and #11 ranks its claims in [tiers](/wiki/method/claim-tiers), with a stated prior of ~50–80% per claim for its new structural physics (#11 §2).
 - **Machine checks.** Asserted numbers are computed by scripts in `verify/`, which [the gate](/wiki/method/verification/the-gate) runs before any work counts as finished ([the iron rule](/wiki/method/verification/iron-rule)).
 - **Pre-registration.** Before each blind review the expected verdict is committed in advance. The record across four rounds: "Verdicts: 2/2 (rounds 1–2), miss (round 3), hit (round 4)" (`review/round4-adjudication.md`; [pre-registration](/wiki/method/review/pre-registration)).
-- **Negative results.** A dead claim gets an obituary of its own and stays dead ([negative results and dead claims](/wiki/method/negative-results)).
+- **Negative results.** A failed calculation or a contrary datum is stated in full where the claim is discussed, and a dead claim gets an obituary of its own. Since 2026-10-29 a claim is dead only when theory and data kill it and Paul explicitly concurs ([negative results and dead claims](/wiki/method/negative-results)).
 
 ## Decisions and the veto
 
-The record shows three ways a decision is taken.
+The record shows four ways a decision is taken.
 
 - **Paul decides.** During the revision of [the soliton manuscript #14](/wiki/dark-matter/candidates/soliton-candidate) the worklog records "Decided (Paul, 2026-10-19):" twice: [moving the monopole benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction#superseded-the-point-not-a-window-of-the-v3-worklog) to M ≈ 3×10¹³ GeV, and adopting [a reading of which coupling sets the soliton mass](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling#superseded-f2-which-coupling-sets-the-soliton-mass) (`review/v3-worklog.md`, items F1 and F2). On 2026-10-29 he withdrew the second, that "S-duality is no longer what fixes α_d", as "probably confusion on my part", while F2's finding, that #14 v2 used both a weak and a strong value of the dual coupling, stands (flag 60 in `review/wiki-build-flags.md`). #11 v2.3 §11.4 records his [magnetic-mirror conjecture](/wiki/electric-magnetic-duality/magnetic-identification) [O], that each electrically charged x-polarized particle has a magnetically charged p-polarized analog, and calls the identification the decision had set aside, the momentum-polarized sector as the S-dual image of the electric sector, a related identification of #14 v2. The worklog also records a problem he raised: "fix #13's two cones and settle which construction governs (raised by Paul, 2026-10-19)" ([Open: the two dual cones](/wiki/conjugate-relativity/two-cones-inconsistency)).
 - **Paul delegates.** After review round 3: "Paul delegated these on 2026-10-19 ("You make the decisions for me and give rational"). Claude made them. Paul keeps the veto." (`review/round3-adjudication.md`, 'Decisions'; [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions)). #11's footer records the v2.1 amendments as "decisions delegated by P. R. to Claude". The toy-model worklog marks its route choices the same way, "Route decision for S4–S5 (Claude, under Paul's delegation)" and "Next (Claude's call, under Paul's delegation)" (`notes/toy-lagrangian.md`).
-- **Paul rules.** Suspected errors in the source documents found while building this wiki are quoted faithfully, not corrected; "each needs Paul's ruling" (`review/wiki-build-flags.md`). He deferred the ruling on flag 55 on 2026-10-28, and on 2026-10-29 accepted flags 59 and 60, while flag 61 was applied under his instruction to update the repository with the discussion's findings; flag 62, raised the same day, awaits his ruling.
+- **Paul narrows what he delegated.** On 2026-10-29 he narrowed Decision 2, which had retired the soliton candidate: "**Narrowed by Paul (2026-10-29):** "Don't kill them off unless theory and data kill them off and you ask me explicitly that I concur." This decision covers #14's model, which used ordinary kinematics. The candidate #14 modeled, conjugate monopoles localized in momentum, was never tested and is P.R.'s open conjecture again (#11 v2.4 §12). #14's model stays recorded dead until Paul answers the concurrence question put to him on 2026-10-29." (`review/round3-adjudication.md`, 'Decisions'). The narrowing exercises the veto the delegation reserved to him (the wiki's reading; the record calls it a narrowing). The same direction returned two more founding ideas recorded dead without his concurrence, the monopole explanation of the null result and conjugate collapse powering our expansion, to open conjectures in #11 v2.4, and it made his explicit concurrence a condition of every death: "A claim is dead only when theory and data kill it and Paul explicitly concurs", and he is asked "for each death, separately" (root `CLAUDE.md`, 'Method'; [the three restorations](/wiki/method/negative-results#restored-on-2026-10-29); [round-3 decisions and lessons](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired)).
+- **Paul rules.** Suspected errors in the source documents found while building this wiki are quoted faithfully, not corrected; "each needs Paul's ruling" (`review/wiki-build-flags.md`). He deferred the ruling on flag 55 on 2026-10-28, and on 2026-10-29 accepted flags 59 and 60, while flag 61 was applied under his instruction to update the repository with the discussion's findings; later the same day he ruled on flag 62, raised that day, "option B, by Paul's direction", so that the monopole explanation is open as his conjecture. Flag 63, raised the same day by both reviewers of the restoration, awaits his ruling: #11 v2.4's prediction rows 7 and 11 still name two dark-sector candidates where §12 counts three, and the rows stay unchanged until he rules.
 
-The working instruction behind the delegation is "Make the call and recommend; don't ask questions Paul can't answer." (root `CLAUDE.md`).
+The working instruction behind the delegation is "Make the call and recommend; don't ask questions Paul can't answer." (root `CLAUDE.md`). A death is the exception since 2026-10-29: whether a claim is dead is a question put to Paul, one death at a time, and "Do not hide the killing in a massive change" (root `CLAUDE.md`, 'Method'). On 2026-10-29 his concurrence was asked "on deaths that theory and data support but he has not concurred in", and "Until he answers, these deaths stand as recorded" (root `CLAUDE.md`, 'Since the handoff').
 
 ## Working pattern
 
@@ -87,14 +90,14 @@ The program "was developed with Claude on claude.ai in September–October 2026 
 
 ## Sources
 
-- Root `CLAUDE.md` 'Working with Paul' — roles, attribution line, Paul's background, calibration, working pattern, prose register; preamble — where the work was done
+- Root `CLAUDE.md` 'Working with Paul' — roles, attribution line, Paul's background, calibration, working pattern, prose register; 'Method (HANDOFF §5)' — the rule on deaths of 2026-10-29; 'Since the handoff' — the entry of 2026-10-29, later the same day, and the concurrence asked; preamble — where the work was done
 - `HANDOFF.md` §1, §7 — participants, the explicit correction of how Paul is described, the calibration request, the register and its reasons; §3 — the register note on #10; §6 — why the project moved to Claude Code; preamble — the claude.ai memory store
-- `papers/broken-born-checkpoint-v2.md` §2, Appendix A and footer — the dialogue, the founding suppositions credited to P.R., the provenance line, the delegated v2.1 decisions
+- `papers/broken-born-checkpoint-v2.md` §2, Appendix A and footer — the dialogue, the founding suppositions credited to P.R. with items 4, 5 and 9 as v2.4 states them, the provenance line, the delegated v2.1 decisions
 - `notes/broken-born-program-v1.md` §11 — the v1 provenance note
-- `review/round3-adjudication.md` 'Decisions' — the delegation and the veto
+- `review/round3-adjudication.md` 'Decisions' — the delegation and the veto, and Decision 2 narrowed by Paul on 2026-10-29
 - `review/round3-preregistration.md` — the same-model-family limitation
 - `review/round4-adjudication.md` 'Pre-registration scored' — the verdict record across four rounds
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1, F2), 'New open items', 'Next chunks' — Paul's decisions of 2026-10-19, the withdrawal of the F2 decision on 2026-10-29 with the finding that stands, and the problem he raised
 - `papers/broken-born-checkpoint-v2.md` §11.4 — the withdrawal recorded, P.R.'s magnetic-mirror conjecture [O], and #14 v2's related identification
 - `notes/toy-lagrangian.md` — route decisions under delegation
-- `review/wiki-build-flags.md` preamble — flags awaiting Paul's ruling; items 55, 59, 60 and 61 — the deferral of 2026-10-28, the two flags Paul accepted on 2026-10-29 and the one applied under his instruction; item 62 — pending
+- `review/wiki-build-flags.md` preamble — flags awaiting Paul's ruling; items 55, 59, 60 and 61 — the deferral of 2026-10-28, the two flags Paul accepted on 2026-10-29 and the one applied under his instruction; item 62 — ruled on 2026-10-29, option B, by his direction; item 63 — rows 7 and 11, raised by both reviewers of the restoration and awaiting his ruling

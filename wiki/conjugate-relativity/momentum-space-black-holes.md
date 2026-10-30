@@ -21,7 +21,7 @@ sources:
 
 *Momentum-space black holes are a conjecture from the program's original claude.ai conversation. Read in the momentum description, the program's mirror description in which momentum plays the part of position, a black hole's horizon would be the surface at which hovering in place requires the [maximum force](/wiki/conjugate-relativity/maximum-force) of conjugate special relativity; and there may be mirror objects, regions trapped in momentum rather than in space, which the [handoff document](/wiki/history/documents/handoff) calls velocity traps. The handoff records the idea among the results that exist only in the chat, at conjecture tier, together with "dual Hawking quanta" that would be huge in position space. The [popular article #12](/wiki/history/documents/popular-articles) repeats part of it and adds that such a mirror object would look like compact dark matter. No document derives any of it, it appears in neither the [checkpoint #11](/wiki/history/documents/checkpoint) nor the paper on conjugate special relativity [#13](/wiki/conjugate-relativity), and it is not one of the program's [dark-matter candidates](/wiki/dark-matter/candidates). Its status is conjecture (chat-only).*
 
-**Status:** Conjecture (chat-only), partly repeated in the popular article #12 — "Conjecture tier" in `HANDOFF.md` §4, which is not a house tag — no derivation in any artifact, no `verify/` script, not on the work queue. Listed in [Conjectures: chat-only and popsci-only claims](/wiki/status/conjectures).
+**Status:** Conjecture (chat-only), partly repeated in the popular article #12 — "Conjecture tier" in `HANDOFF.md` §4, which is not a house tag — no derivation in any artifact, no `verify/` script, not on the work queue. Listed in [Conjectures: P.R.'s, the record's, chat-only and popsci-only claims](/wiki/status/conjectures).
 
 ## What the handoff records
 
@@ -63,13 +63,13 @@ In the wiki's reading, the mirror object corresponds to the handoff's "velocity 
 
 > "Such an object would be opaque in the momentum description and transparent in ours — undetectable by light, evident only through its gravity, and therefore indistinguishable, to our instruments, from compact dark matter."
 
-The program's dark-matter candidates are the two in #11 §12, χ particles and the X-condensate ([dark-sector candidates](/wiki/dark-matter/candidates); [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles); [the X-condensate](/wiki/dark-matter/candidates/x-condensate)). Momentum-space black holes are not among them, and no document estimates their abundance, their formation or their gravitational signatures.
+The program's dark-matter candidates are the three in #11 §12: χ particles, the X-condensate and, restored in v2.4, P.R.'s conjecture of conjugate monopoles localized in momentum ([dark-sector candidates](/wiki/dark-matter/candidates); [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles); [the X-condensate](/wiki/dark-matter/candidates/x-condensate); [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Momentum-space black holes are not among them, and no document estimates their abundance, their formation or their gravitational signatures.
 
 ## Standing
 
 - No artifact derives any part of the conjecture, and no `verify/` script checks it.
 - It is not on the work queue. The handoff's queue (`HANDOFF.md` §8) held two chat-only results, the √N-floor estimate (item 3, since dropped) and an optional note on the phase-space diameter relation (item 7). The diameter note is now done (`papers/phase-space-diameter.md` v1.1; root `CLAUDE.md`, 'Since the handoff'): it finds the relation to be standard physics that cannot test the program, and it withdraws the claim of a rectangle square "exactly at the bounce" ([the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)). The current queue holds no chat-only result.
-- It depends on #13's maximum force, which no review round has examined and which #11 v2.3 does not mention. The arithmetic of c⁴/G, 1.21 × 10⁴⁴ N, is now computed by `verify/phase_space_diameter.py` (diameter note §8.1; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)); the identification of the Born length with the Planck length that gives the value is untagged in #13 ([the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)).
+- It depends on #13's maximum force, which no review round has examined and which #11 v2.4 does not mention. The arithmetic of c⁴/G, 1.21 × 10⁴⁴ N, is now computed by `verify/phase_space_diameter.py` (diameter note §8.1; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script)); the identification of the Born length with the Planck length that gives the value is untagged in #13 ([the maximum force c̃ = c⁴/G](/wiki/conjugate-relativity/maximum-force)).
 - The other chat-only items of `HANDOFF.md` §4 are on their own pages; the nearest in subject is [two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results).
 
 ## Sources
@@ -77,7 +77,7 @@ The program's dark-matter candidates are the two in #11 §12, χ particles and t
 - `HANDOFF.md` §4 — the only record of the conjecture, verbatim; §8 for the queue's chat-only items.
 - `popsci/universes-other-half.md` 'A second speed of light' — the horizon reading, the mirror object and the compact-dark-matter claim (not a status source).
 - `papers/conjugate-special-relativity.md` §1 — the maximum force c̃ = c⁴/G, the literature's c⁴/4G and c⁵/4G, and the open factor of 4; §2 for black-hole mergers as the arena; §7 for the open list.
-- `papers/broken-born-checkpoint-v2.md` §12 — the two dark-matter candidates.
+- `papers/broken-born-checkpoint-v2.md` §12 — the three dark-matter candidates, the third restored in v2.4 as P.R.'s conjecture.
 - `CLAUDE.md` 'Since the handoff' — the current queue; the diameter note done.
 - `papers/phase-space-diameter.md` §8.1 — c⁴/G = 1.21 × 10⁴⁴ N at λ = l_P [V]; §9 — the diameter relation's status and the withdrawn square.
 - `verify/phase_space_diameter.py` — the computation of c⁴/G.

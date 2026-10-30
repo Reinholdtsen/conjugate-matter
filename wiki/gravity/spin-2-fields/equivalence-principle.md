@@ -176,7 +176,7 @@ The program's documents cite no source for the equivalence principle. Added by t
 - [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee) — the gravitational side of cluster collisions.
 - [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null) — dark matter that reaches ordinary matter through gravity alone.
 - [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — conjugate-sector objects gravitate.
-- [Founding suppositions and their fates](/wiki/program/founding-suppositions) — supposition 4, dark matter as conjugate matter that "propagates on g".
+- [Founding suppositions and their fates](/wiki/program/founding-suppositions) — supposition 4, dark matter as conjugate matter, in its χ form one that "propagates on g".
 - [Dual stress T̃](/wiki/dark-matter/conjugate-matter/dual-stress) — the universal coupling through stress-energy, beside which X's coupling through dual stress is set.
 - [Dual inertia: free fall as rest](/wiki/conjugate-relativity/dual-inertia) — free fall and Rindler frames as the dual-inertial class.
 - [The equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) — #13's reading of the principle.

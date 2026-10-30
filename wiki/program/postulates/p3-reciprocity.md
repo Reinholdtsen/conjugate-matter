@@ -88,7 +88,7 @@ The withdrawn manuscript #14 stated the distinction the program has to meet:
 
 > We note at the outset a distinction the proposal must eventually discharge: as usually encountered, rho is a unitary equivalence between representations of the canonical commutation relations, not a Noether symmetry of a specified action. The framework's claim is that rho is a genuine symmetry of an underlying action, spontaneously broken; the emergent structure eta below is the proposed order parameter, and the exhibition of a toy action realizing this is stated in Sec. 6 as the proposal's first acceptance criterion. (#14 §1)
 
-The framing sentence is the standard reading, not a claim of #14's [dead dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary). P3 is the program's version of "the framework's claim". A symmetry of an action is an operation on the fields that leaves the action S unchanged, S[ρ·fields] = S[fields], so that it maps solutions of the field equations to solutions [T]; the referees call it a "Noether symmetry", after Noether's theorem, which attaches a conserved current to each continuous symmetry of an action [T]. Only such a symmetry can be [spontaneously broken](/wiki/symmetry-breaking/spontaneous-symmetry-breaking): the laws keep it, and the ground state does not [T]. #14 §6 listed "that rho is a genuine, spontaneously broken symmetry" among its conjectural claims.
+The framing sentence is the standard reading, not a claim of #14's [failed dark-matter model](/wiki/dark-matter/candidates/soliton-candidate/obituary). P3 is the program's version of "the framework's claim". A symmetry of an action is an operation on the fields that leaves the action S unchanged, S[ρ·fields] = S[fields], so that it maps solutions of the field equations to solutions [T]; the referees call it a "Noether symmetry", after Noether's theorem, which attaches a conserved current to each continuous symmetry of an action [T]. Only such a symmetry can be [spontaneously broken](/wiki/symmetry-breaking/spontaneous-symmetry-breaking): the laws keep it, and the ground state does not [T]. #14 §6 listed "that rho is a genuine, spontaneously broken symmetry" among its conjectural claims.
 
 ## The referees' demand
 
@@ -158,7 +158,7 @@ The separate ℤ₂ has a consequence that v1 of the toy-model note did not stat
 - `notes/broken-born-theory.md` §1–§2 — the v0.1 statement as a ℤ₄, how ρ acts on ω, η and H, and the ℤ₄ → ℤ₂ pattern
 - `notes/broken-born-program-v1.md` §2 — the v1 statement
 - `notes/geometric-core.md` §B — the sign flip of η read as the broken symmetry moving the order parameter
-- `notes/knot-dark-matter-standalone.md` §1 — the unitary-equivalence distinction (withdrawn manuscript; the framing statement is the standard reading, not a claim of the dead candidate); §6 — acceptance criterion 1 and the conjectural status of the symmetry
+- `notes/knot-dark-matter-standalone.md` §1 — the unitary-equivalence distinction (withdrawn manuscript; the framing statement is the standard reading, not a claim of #14's failed model); §6 — acceptance criterion 1 and the conjectural status of the symmetry
 - `HANDOFF.md` §2, §6 — the referees' demand and the electric-sublattice clause
 - `review/round3-adjudication.md` 'Decisions' 4 — why the toy action came next
 - `notes/toy-lagrangian.md` 'Success criteria' — the referees' wording and criterion S1; 'Predictions' and 'Chunk 1 results' — S1 by construction

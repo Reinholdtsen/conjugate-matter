@@ -13,11 +13,12 @@ sources:
   - "notes/broken-born-theory.md §10"
   - "notes/broken-born-theory.md 'Addendum (v0.2)'"
   - "notes/broken-born-program-v1.md §9"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
 *Fornax friction suppression was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that dark matter in the cores of dwarf galaxies condenses into a superfluid-like state in which dynamical friction, the drag that makes a massive body sink toward the centre of a galaxy, is suppressed. It would have explained why the globular star clusters of the Fornax dwarf galaxy have not sunk to its centre, the Fornax timing problem, and it was row 4 of the notebook's [prediction table](/wiki/predictions/table-history). The condensed cores came from the same velocity-space condensation as the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping, so when [the clumping problem](/wiki/history/main-problems) killed that picture the row was withdrawn with it, permanently.*
 
-**Status:** Dead — withdrawn on the particle island in `notes/stream-stability.md` and on both islands in `notes/ufd-endpoint.md` ("The Fornax mechanism goes with them"); [#11](/wiki/history/documents/checkpoint) §13 lists "Fornax friction suppression (obituary §9)" under "Withdrawn with cause". Untagged in the sources. Killed with the founding image by the clumping problem, whose summary is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — withdrawn on the particle island in `notes/stream-stability.md` and on both islands in `notes/ufd-endpoint.md` ("The Fornax mechanism goes with them"); [#11](/wiki/history/documents/checkpoint) §13 lists "Fornax friction suppression (obituary §9)" under "Withdrawn with cause". Untagged in the sources. Killed with the founding image by the clumping problem, whose summary is [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff'). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -71,7 +72,7 @@ Nothing of the row. The Fornax timing problem stays an astrophysical question to
 ## In the later tables
 
 - #9 §9: "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)."
-- #11 §13: "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); superheavy-soliton dark matter (obituary §12)." The last item is [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary).
+- #11 §13: "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)." The last item is [#14's model](/wiki/dark-matter/candidates/soliton-candidate/obituary), which until v2.3 read "superheavy-soliton dark matter (obituary §12)".
 
 In #9 and #11, row 4 is [thawing dark energy](/wiki/predictions/dark-energy-drift), so this wiki calls the notebook's row "old row 4" ([history of the predictions table](/wiki/predictions/table-history)). Its companion is [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity).
 
@@ -89,3 +90,4 @@ Added by the wiki from model memory (†):
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the classical-dwarf ratio and the attractive endpoint
 - `notes/broken-born-theory.md` §9 — the row as written; §5.2 — the condensed-core mechanism; §10 — the parameter count; 'Addendum (v0.2)' — the strike
 - `notes/broken-born-program-v1.md` §9 — the withdrawal in v1's renumbered table
+- `CLAUDE.md` 'Since the handoff' — Paul's concurrence in the death asked on 2026-10-29

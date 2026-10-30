@@ -78,7 +78,7 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 
 ## Scope
 
-- **Collective dynamics only.** The theorem concerns the collective behaviour of many particles or of a wave field. "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+- **Collective dynamics only.** The theorem concerns the collective behaviour of many particles or of a wave field. "The clumping loophole — topological momentum-space localization of individual objects — remains untested; its candidate is P.R.'s conjecture of conjugate monopoles" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole); [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). From v2.1 to v2.3 the sentence ended "but has no candidate".
 - **The level of the estimates.** The particle leg rests on a mean-field criterion bracketed by two limits. The wave legs rest on a condensation rate whose coefficients are "heuristic at O(1)–O(10) level" and await calibration against Levkov–Panin–Tkachev numerics (#3, header; [wave kinetics](/wiki/dark-matter/wave-dark-matter/wave-kinetics)); #11 §9 tags them "coefficients [O]". The notes argue that the verdicts survive these uncertainties: the particle side is "Robust to every dropped O(1)" (#2), and in Segue 1 "There is no timescale refuge" even after allowing for the slower growth seen in Levkov–Panin–Tkachev-type kinetics (#4, 'Sharpened input numbers').
 - **A contact-range interaction.** The theorem concerns the program's own interaction, which acts on contact. It says that velocity clumping is required nowhere, not that clumping cannot happen. A long-range attraction among χ gated in relative velocity is a different model, which the clumping problem never tested; the momentum-gravity note of 2026-10-28 (computed, not reviewed) finds that any clumping it produced would be "decorative" "in the net theorem's own word" (`notes/velocity-gated-gravity.md` §§4, 7; [what the obituary covers](/wiki/dark-matter/momentum-clumping/founding-image#what-the-obituary-covers); [Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction)).
 - **The gate's mechanism.** Flag 55 in `review/wiki-build-flags.md` proposes that the gate's mechanism is not derived ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The note behind it: "The velocity-clumping obituary is unaffected. If anything it is strengthened: a completion whose only velocity dependence is a knee in σ_T(v) leaves the forward amplitude, which drives collective behaviour, ungated" (`notes/gate-mechanism.md` §5).
@@ -86,12 +86,12 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 
 ## Later use
 
-[The round-3 adjudication](/wiki/method/review/round-3/decisions) cited the clumping obituary as a precedent for retiring [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate) (`review/round3-adjudication.md`, 'Decisions').
+[The round-3 adjudication](/wiki/method/review/round-3/decisions) cited the clumping obituary as a precedent for retiring the soliton candidate, a decision Paul narrowed on 2026-10-29 to [#14's model](/wiki/dark-matter/candidates/soliton-candidate) (`review/round3-adjudication.md`, 'Decisions').
 
 ## Record
 
 - #4 first stated the theorem and closed the clumping problem: "Verdict: Scenario A falsified; the clumping problem closed."
-- The lab notebook's addendum v0.2 summarizes it: "**Net:** velocity-space clumping is nowhere a mandatory prediction of BBT." It adds that "open problems 3 and 5 close (5 via misalignment production on the wave island)"; #3 limits the relic-abundance closure to the wave island, and #11 §12 keeps the ratio of dark to ordinary matter open for both candidates.
+- The lab notebook's addendum v0.2 summarizes it: "**Net:** velocity-space clumping is nowhere a mandatory prediction of BBT." It adds that "open problems 3 and 5 close (5 via misalignment production on the wave island)"; #3 limits the relic-abundance closure to the wave island, and #11 §12 keeps the ratio of dark to ordinary matter open for all three candidates.
 - #9 §7 lists it as the third of "Three results [D]", in the form "forbidden (particles), fatal (wave, committed coupling), decorative (wave, free coupling)".
 - #11 §9 (iii) carries it into the current checkpoint without a separate tag.
 
@@ -103,7 +103,7 @@ The mass split is the classicality theorem's: collective behaviour exists only w
 - `notes/wave-island.md` 'What pins g? Two scenarios' — Scenarios A and B and the degeneration flag; 'Standing results after Chunks A+B' — the interim standing
 - `notes/broken-born-program-v1.md` §7 — the [D] tag on the three clumping results
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's "Net" summary
-- `review/round3-adjudication.md` 'Decisions' — the clumping obituary as precedent
+- `review/round3-adjudication.md` 'Decisions' — the clumping obituary as precedent; Paul's narrowing of Decision 2 to #14's model
 - `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure" since the second data release
 - `review/wiki-build-flags.md` items 19, 27 — the regime of the classicality corollary; the sign of the dark-energy potential, with its addendum; items 16 (addendum), 55, 58 — the shortfall now gated, the gate's mechanism, #2's narrow-gate criterion; all awaiting a ruling
 - `notes/velocity-gated-gravity.md` §4 — what the obituary covers; §7 — the long-range variant "decorative"

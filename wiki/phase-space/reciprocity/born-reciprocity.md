@@ -164,7 +164,8 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - [The equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) and [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) — #13's reading of ρ in relativity.
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — the same matrix generating S-duality.
 - [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion) — the residual symmetry ρ² protects the linear term.
-- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling), [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) and [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — dead claims that invoked ρ.
+- [Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) and [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — dead claims that invoked ρ.
+- [Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — P.R.'s open conjecture, recorded dead until 2026-10-29; the first ground given against it is that the duality relating magnetic to electric charge is electric–magnetic duality, not ρ.
 
 ## Sources
 

@@ -184,7 +184,7 @@ The first two entries involve Λ.
 - **Dual stiff ↦ Λ.** A stiff fluid, w̃ = +1, is what a uniform field becomes when its energy is all kinetic [T]. Its energy grows as a³, at the same rate as our volume, so the density it contributes here is constant, as a cosmological constant's is ([it does not thin](#it-does-not-thin)). The notebook's table lists "Kinetic/stiff energy (w̃ = +1)" as appearing as a "Cosmological constant (w = −1)" (#1 §6).
 - **Dual Λ ↦ stiff.** A cosmological constant on the conjugate side, w̃ = −1, has energy falling as a⁻³ and contributes a density falling as a⁻⁶: a stiff fluid on our side, which matters only at early times.
 
-From the first entry the notebook concluded that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6), and it then identified dark energy with τ's potential energy (#1 §7). No document derives the second from the first ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)).
+From the first entry the notebook concluded that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6), and it then identified dark energy with τ's potential energy (#1 §7). No document derives the second from the first ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)). Since #11 v2.4 the first entry is also the route of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration [O], and §10 records its question: "Whether the contracting conjugate universe is kinetic-dominated, and how this route relates to τ's potential, are open" ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 
 ### Cosmological constants in the bimetric potential
 
@@ -220,6 +220,7 @@ Einstein added the term to his field equations to permit a static universe, and 
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — the bound's limiting value is Λ's, and its kill condition sets aside artifacts of an assumed ΛCDM background.
 - [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — dual stiff ↦ Λ, dual Λ ↦ stiff.
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — conjugate kinetic energy acting as a cosmological constant.
+- [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — dual stiff ↦ Λ as the conjecture's route, open since #11 v2.4.
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — the wedge sector contributes zero cosmological constant.
 - [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the "Λ = 0" identity against the partially massless point at Λ ≠ 0.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — a negative vacuum energy and the anti-de Sitter sequence.
@@ -228,7 +229,7 @@ Einstein added the term to his field equations to permit a static universe, and 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 rows 4–5 — the standard expectations "w ≡ −1" and "Eternal de Sitter", the requirements and the kill conditions
-- `papers/broken-born-checkpoint-v2.md` §10 — τ in place of Λ, the dictionary's "Dual stiff ↦ Λ; dual Λ ↦ stiff", the fits and the anti-de Sitter transition, DR2's crossing, the turnaround as the conjugate bounce, the wedge sector competing with τ; refs [19], [21] — the fits and DESI DR2 Results II (live-searched)
+- `papers/broken-born-checkpoint-v2.md` §10 — τ in place of Λ, the dictionary's "Dual stiff ↦ Λ; dual Λ ↦ stiff", since v2.4 the route of founding supposition 9 [O] and its open question, the fits and the anti-de Sitter transition, DR2's crossing, the turnaround as the conjugate bounce, the wedge sector competing with τ; refs [19], [21] — the fits and DESI DR2 Results II (live-searched)
 - `papers/broken-born-checkpoint-v2.md` §7.3 — "the wedge sector contributes zero cosmological constant" and the identity's scope; ref [22] (live-searched); §7.4 — the partially massless point "at Λ ≠ 0"
 - `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure ahead of DR3"
 - `HANDOFF.md` §2 — "robust constant w = −1 kills the τ sector"; §3 — "V(1) = 2T ⇒ Λ_wedge = 0"

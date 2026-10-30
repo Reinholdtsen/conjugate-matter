@@ -113,7 +113,7 @@ The checkpoint counts the identification in several places:
 - [founding supposition 11](/wiki/program/founding-suppositions): "the polarization identification as the program-native addition" to the established [magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family) (#11 App. A item 11);
 - [the handoff](/wiki/history/documents/handoff), under "Alive": "Charge-lattice identification: DSZ pairing is symplectic; duality frame choice = Lagrangian polarization, same [[0,1],[−1,0]] generator as Born rotation and S-duality" (`HANDOFF.md` §2).
 
-The section first appeared in the checkpoint's v2.0; the handoff lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3). The v2.1 and v2.2 change lists do not mention §11, although §11.1 records the v2.1 retirement of the soliton candidacy. The v2.3 change list (2026-10-29) does: it restates both grounds of §11.1, the first of which, wrong duality, "is contested only by §11.4's shared-photon form, which needs P4 restated", and adds §11.4, P.R.'s magnetic-mirror conjecture [O].
+The section first appeared in the checkpoint's v2.0; the handoff lists "charge-lattice §11" among v2.0's additions (`HANDOFF.md` §3). The v2.1 and v2.2 change lists do not mention §11, although from v2.1 to v2.3 §11.1 recorded the retirement of the soliton candidacy. The v2.3 change list (2026-10-29) does: it restates both grounds of §11.1, the first of which, wrong duality, "is contested only by §11.4's shared-photon form, which needs P4 restated", and adds §11.4, P.R.'s magnetic-mirror conjecture [O]. The v2.4 change list, later the same day, records that the explanation of the monopole null result "is open (§11, App. A item 5; flag 62, ruled)" and that conjugate monopoles abundant in momentum space are "a third dark-matter candidate again (§12)", P.R.'s open conjectures ([Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation); [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## The critiques
 
@@ -133,7 +133,7 @@ Whether the phase-space and charge-space polarizations are components of one enl
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.3 — the identification [D — structural; math T] and the recurring matrix; §11.4 — P.R.'s magnetic-mirror conjecture, what §11.3's conjecture would give [O]; header — the v2.3 change list; §1 — the technical abstract; §4 — P5; §6 — Z → −Z⁻¹ and its fixed point; §15 — the assessment; App. A item 11 — the program-native addition; ref [17]†.
+- `papers/broken-born-checkpoint-v2.md` §11.3 — the identification [D — structural; math T] and the recurring matrix; §11.4 — P.R.'s magnetic-mirror conjecture, what §11.3's conjecture would give [O]; header — the v2.3 and v2.4 change lists; §1 — the technical abstract; §4 — P5; §6 — Z → −Z⁻¹ and its fixed point; §15 — the assessment; App. A item 11 — the program-native addition; ref [17]†.
 - `papers/reciprocity-toy-models.md` §1 — ω and ρ as the matrix [[0, 1], [−1, 0]] in d = 1.
 - `verify/toy_coset.py` 'Anchors', 'S2: vacua' — ρ as the quarter turn and its action Z → −1/Z.
 - `HANDOFF.md` §2 — the identification listed as alive; §3 — §11 added in v2.0; §6 — round 2's "matrix coincidence ≠ physical identity".

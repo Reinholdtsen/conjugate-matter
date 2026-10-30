@@ -4,6 +4,7 @@ weight: 40
 status: dead
 description: "−μ[Tr(K K_ref)]² pinned model I's polarization in the frozen-H reduction, but with H dynamical it falls to −8.9 × 10⁶ μ along a boost family and its intended vacuum is a saddle; round 4's findings F1–F2, kept as the counterexample."
 sources:
+  - "CLAUDE.md 'Since the handoff'"
   - "papers/reciprocity-toy-models.md §4"
   - "papers/reciprocity-toy-models.md v1 (commit d9a06ac) §4, §6"
   - "review/round4-adjudication.md 'Verdict'"
@@ -33,7 +34,7 @@ sources:
 
 *The naive ρ-preserving potential was the term −μ[Tr(K K_ref)]², added to [model I](/wiki/symmetry-breaking/toy-models/coset-model) so that its circle of vacua would reduce to two and the breaking of [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) could survive in two dimensions. It is symmetric under ρ and gives the two intended vacua in the frozen-H reduction, where the metric H is held at 1 and K stays on its circle of angles. Once H is allowed to vary it is unbounded below: along a family of boosted configurations the compatibility term stays at zero while the potential falls without limit, and the intended vacuum is a saddle. The worklog's first pass of [criterion S4](/wiki/symmetry-breaking/toy-models/success-criteria) and the first version of the toy-model note rested on it. The round-4 referee found the defect, the adjudication upheld it, and the potential survives only as the counterexample that the [bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential) answers.*
 
-**Status:** Dead as a stabilizing potential; kept as the counterexample — untagged in the sources — killed by round-4 findings F1 and F2, both upheld ([review round 4](/wiki/method/review/round-4)); the runaway and the saddle are checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead as a stabilizing potential; kept as the counterexample — untagged in the sources — killed by round-4 findings F1 and F2, both upheld ([review round 4](/wiki/method/review/round-4)); the runaway and the saddle are checked in `verify/toy_coset.py` ([the toy-model scripts](/wiki/method/verification/toy-model-scripts)). Listed in [the graveyard](/wiki/status/graveyard). Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff').
 
 ## What was claimed
 
@@ -129,6 +130,7 @@ Where any ρ-preserving potential comes from is [open](/wiki/symmetry-breaking/r
 
 ## Sources
 
+- `CLAUDE.md` 'Since the handoff' (2026-10-29) — Paul's concurrence asked; the death stands as recorded until he answers.
 - `review/round4-adjudication.md` 'Verdict', 'Rulings' F1–F2, 'Pre-registration scored', 'Lessons' — the upheld findings, the runaway values, the adjudicator's frozen-H check, the scoring and the reduced-model lesson
 - `review/round4/adjudicator/arb.out` — the adjudicator's runaway values and Hessian eigenvalues
 - `review/round4/referee/audit-notes.md` Step 2(a), Step 2(c), Step 3, Step 4 — the referee's derivation of F1–F2, the residual symmetry, point C3 and the single weakest link

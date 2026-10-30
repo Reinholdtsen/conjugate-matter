@@ -73,7 +73,7 @@ The lab notebook's table (#1 §6), with its right-hand column renamed. The noteb
 
 Each entry follows from E ∝ a^{3w̃}:
 
-- **Dual stiff ↦ Λ.** A stiff fluid thins fastest in its own frame, as ã⁻⁶, so as ã shrinks its density grows; the dual comoving volume shrinks at the same time, and its energy E grows as a³. Spread over our volume, which also grows as a³, the effective density stays constant: a cosmological constant. A uniform scalar field whose energy is all kinetic is a stiff fluid [T], which is why the notebook labels this row "Kinetic/stiff energy".
+- **Dual stiff ↦ Λ.** A stiff fluid thins fastest in its own frame, as ã⁻⁶, so as ã shrinks its density grows; the dual comoving volume shrinks at the same time, and its energy E grows as a³. Spread over our volume, which also grows as a³, the effective density stays constant: a cosmological constant. A uniform scalar field whose energy is all kinetic is a stiff fluid [T], which is why the notebook labels this row "Kinetic/stiff energy". Since #11 v2.4 this entry is the route by which P.R.'s founding supposition 9 stays open: "a conjugate universe whose contents are kinetic-dominated as it contracts would act on ours as a cosmological constant" (§10) [O] ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 - **Dual Λ ↦ stiff.** A constant dual density held in a shrinking dual volume gives an energy falling as a⁻³, and an effective density falling as a⁻⁶: a stiff fluid on our side, which matters only at early times.
 - **Dual curvature ↦ dark radiation.** Curvature acts like a fluid with w = −1/3, so on our side it acts like radiation, w = +1/3. Extra radiation that is not photons or known neutrinos is called dark radiation, and it is measured by the shift ΔN_eff in the effective number of neutrino species N_eff ([the radiation era](/wiki/cosmology/early-universe/radiation-era)) [T]. A closed space has curvature energy of negative sign [T], so a closed dual space appears as negative dark radiation, "closed dual space ⇒ *negative* ΔN_eff" (#1 §6). Whether the dual space is closed is a separate question from whether our space is: in the record's geometry the momentum fibre is flat, k̃ = 0, whatever our curvature, so a closed universe does not supply a closed dual space, and the entry needs a postulate of a curved, compact momentum space that no document states (flag 48 in `review/wiki-build-flags.md`; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#shape-the-momentum-fibre-stays-flat-dv)).
 - **Dust ↦ dust.** Dust has w̃ = 0, so its energy E is constant: a fixed amount of matter. Spread over our volume, it thins as a⁻³, like ordinary matter.
@@ -100,7 +100,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 **How the heuristic arises** (the wiki's reading; no document writes the step out). Identifying densities across frames means setting ρ_eff = ρ̃, omitting the factor (ã/a)³ of steps 2 and 3. Then ρ_eff ∝ ã^{−3(1+w̃)} = a^{3(1+w̃)}, and matching this to a^{−3(1+w_eff)} gives w_eff = −2 − w̃. For dual dust, w̃ = 0, the heuristic gives w = −2.
 
-**What it led to.** Collapsing conjugate matter, read through the heuristic, acted on our expansion like dark energy with w = −2. That was the basis of the founding idea that the conjugate universe's collapse drives our acceleration. The idea died twice: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2). See [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion).
+**What it led to.** Collapsing conjugate matter, read through the heuristic, acted on our expansion like dark energy with w = −2. That was the first version of P.R.'s founding idea that the conjugate universe's collapse drives our acceleration, and it failed, since w = −2 is falsified; under the derived rule dual dust maps to dust, and that version failed too. The handoff recorded the two failures as the idea's two deaths: "first version gave w = −2 (falsified); corrected dictionary removed the mechanism (dual dust ↦ dust)" (`HANDOFF.md` §2), and #11 called it "dead twice" until v2.3. Since #11 v2.4 the idea is P.R.'s open conjecture [O], through the derived rule's first entry, dual stiff ↦ Λ, and "The two failed versions stay recorded dead until P.R. answers the concurrence question put to him on 2026-10-29" (§10, App. A item 9). See [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion).
 
 **What the documents call the cause.** #1 §6 names the "volume Jacobian"; #9 §8 attributes the change to the handling of the Lagrange multiplier (the lapse); #11 §10 names "the constraint's Jacobian". The result is the same in all three, and #11's wording is the current one.
 
@@ -108,7 +108,7 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 - **A forced correction.** #11 §15 counts the dictionary among the hard core's two "forced corrections (P2′; the w-dictionary)", the other being [P2′](/wiki/program/postulates/p2-prime). See [the hard core](/wiki/program/hard-core) and [assessment](/wiki/program/assessment).
 - **Synchronized, not causal.** Founding supposition 8, "Synchronized, not causal; Fourier/holography", is "**alive** (the dictionary)" (#11 App. A item 8). Because ã = 1/a holds at every moment, the dictionary is a translation between two descriptions of one state, not a force one universe exerts on the other. See [the conjugate universe](/wiki/program/conjugate-universe) and [founding suppositions and their fates](/wiki/program/founding-suppositions).
-- **A motivation for dark energy.** From the first row of the table the notebook concludes that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6). The program then identifies dark energy with the potential energy of the field τ ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)), and no document derives one from the other: [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link).
+- **A motivation for dark energy.** From the first row of the table the notebook concludes that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6). The program then identifies dark energy with the potential energy of the field τ ([τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence)), and no document derives one from the other: [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link). #11 v2.4 cites the same remark for the route of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration, and lists how that route relates to τ's potential as open (§10; [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 
 ## Scope and caveats
 
@@ -118,19 +118,20 @@ The development discussion on claude.ai used a different rule, w_eff = −2 − 
 
 ## History
 
-- **Chat era.** The heuristic −2 − w̃ and the collapse-powered acceleration it supported; both appear in the documents only as superseded or dead.
+- **Chat era.** The heuristic −2 − w̃ and the first version of the collapse-powered acceleration it supported. The heuristic is superseded, and that version failed (w = −2 is falsified).
 - **Lab notebook, v0.1** (#1 §0, §6): the corrected rule, its table and the dark-energy motivation.
 - **#9 §8**: "With one shared lapse, a dual-frame fluid contributes w_eff = −w̃", tagged "[D — corrected en route]".
 - **`HANDOFF.md` §2**: "duality dictionary w_eff = −w̃ (corrected from an earlier wrong −2−w̃)".
 - **#11 §10** is the current statement; §15 counts it among the forced corrections.
 - **The closed-universe note (2026-10-27)**, §4 and §7: the flat momentum fibre and the underived dual term (flags 48 and 49). Not reviewed.
+- **#11 v2.4 (2026-10-29)**, §10: founding supposition 9 is P.R.'s open conjecture, through the entry dual stiff ↦ Λ; its two failed versions, the heuristic's w = −2 and dual dust, stay recorded dead until he answers the concurrence question put to him on 2026-10-29.
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §10 — the current statement, its tag and the summary of the table
 - `papers/broken-born-checkpoint-v2.md` §13 row 10 — the test of the dual gravity term
-- `papers/broken-born-checkpoint-v2.md` §15, App. A items 8 and 9 — the forced correction; founding suppositions 8 and 9
-- `HANDOFF.md` §2 — the corrected dictionary and the two deaths of the collapse idea
+- `papers/broken-born-checkpoint-v2.md` §15, App. A items 8 and 9 — the forced correction; founding suppositions 8 and 9, the second open since v2.4 through dual stiff ↦ Λ (also §10)
+- `HANDOFF.md` §2 — the corrected dictionary and the two failed versions of the collapse idea, recorded there as its deaths
 - `notes/broken-born-theory.md` §6 — the derivation, the table, the superseded heuristic, the dual gravity term and the kinetic-energy remark
 - `notes/broken-born-theory.md` §0 — the correction announced at the head of the notebook
 - `notes/broken-born-theory.md` §4, §9 row 10 — the minisuperspace scope of the ghost accounting; the v0.1 form of row 10

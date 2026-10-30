@@ -2,7 +2,7 @@
 title: "The Witten effect"
 weight: 25
 status: established
-description: "A magnetic monopole in a gauge theory with vacuum angle θ carries an electric charge shifted by θ/2π of the unit charge per unit of magnetic charge (Witten 1979†): the θ term and Gauss's law, when θ is physical, charge conjugation and parity, the dyon lattice and the shift T of SL(2, ℤ), and the visible charge round-3 ruling 9 gave the soliton candidate's hidden monopoles, a channel strict P4 closes."
+description: "A magnetic monopole in a gauge theory with vacuum angle θ carries an electric charge shifted by θ/2π of the unit charge per unit of magnetic charge (Witten 1979†): the θ term and Gauss's law, when θ is physical, charge conjugation and parity, the dyon lattice and the shift T of SL(2, ℤ), and the visible charge round-3 ruling 9 gave the hidden monopoles of #14's soliton model, a channel strict P4 closes."
 provenance: [T]
 sources:
   - "review/round3-adjudication.md 'Rulings' 9"
@@ -24,9 +24,9 @@ sources:
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*The Witten effect is the electric charge that a [magnetic monopole](/wiki/electric-magnetic-duality/monopoles) carries in a gauge theory with a nonzero vacuum angle θ, the coefficient of a term in the Lagrangian proportional to the product E·B of the electric and magnetic fields. In such a theory a monopole's electric charge is not a whole multiple of the unit of charge e: it is shifted by θ/2π of e for each unit of magnetic charge, so the monopole is a [dyon](/wiki/electric-magnetic-duality/monopoles/dirac-quantization#dyons-and-the-dsz-pairing-t), a particle carrying both kinds of charge. Edward Witten derived the result in 1979. Increasing θ by 2π gives back the same set of charges with the dyons relabelled, which is the shift T of the [duality group SL(2, ℤ)](/wiki/electric-magnetic-duality/modular-group). The effect entered the program once, through the [retired soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary). The round-3 review accepted, without re-checking it, that a hidden vacuum angle together with [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) between the hidden photon and ours would give the candidate's hidden monopoles a small electric charge under our photon, contradicting the manuscript's statement that the decisive constraints act on its hidden fermion, not on the dark matter itself. Strict sector separation, the program's reading of postulate [P4](/wiki/program/postulates/p4-polarized-matter), closes that channel.*
+*The Witten effect is the electric charge that a [magnetic monopole](/wiki/electric-magnetic-duality/monopoles) carries in a gauge theory with a nonzero vacuum angle θ, the coefficient of a term in the Lagrangian proportional to the product E·B of the electric and magnetic fields. In such a theory a monopole's electric charge is not a whole multiple of the unit of charge e: it is shifted by θ/2π of e for each unit of magnetic charge, so the monopole is a [dyon](/wiki/electric-magnetic-duality/monopoles/dirac-quantization#dyons-and-the-dsz-pairing-t), a particle carrying both kinds of charge. Edward Witten derived the result in 1979. Increasing θ by 2π gives back the same set of charges with the dyons relabelled, which is the shift T of the [duality group SL(2, ℤ)](/wiki/electric-magnetic-duality/modular-group). The effect entered the program once, through [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary), which failed. The round-3 review accepted, without re-checking it, that a hidden vacuum angle together with [kinetic mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) between the hidden photon and ours would give the model's hidden monopoles a small electric charge under our photon, contradicting the manuscript's statement that the decisive constraints act on its hidden fermion, not on the dark matter itself. Strict sector separation, the program's reading of postulate [P4](/wiki/program/postulates/p4-polarized-matter), closes that channel.*
 
-**Status:** Established — [T] — literature (Witten 1979 †), explained here from general knowledge; no `verify/` script checks it. Its one use in the program was on the soliton candidate's monopoles, where [ruling 9](/wiki/method/review/round-3/rulings#ruling-9-the-witten-effect) of the [round-3 review](/wiki/method/review/round-3) was "Accepted, not re-checked"; the charges quoted for it come from the referee's own script and its output (`review/round3/referee/step4b.out`), which the gate does not run. The candidate is retired, and strict sector separation is in force (root `CLAUDE.md`, 'Since the handoff'). References the wiki adds from memory are marked †.
+**Status:** Established — [T] — literature (Witten 1979 †), explained here from general knowledge; no `verify/` script checks it. Its one use in the program was on the monopoles of #14's soliton model, where [ruling 9](/wiki/method/review/round-3/rulings#ruling-9-the-witten-effect) of the [round-3 review](/wiki/method/review/round-3) was "Accepted, not re-checked"; the charges quoted for it come from the referee's own script and its output (`review/round3/referee/step4b.out`), which the gate does not run. #14's model failed, and strict sector separation is in force (root `CLAUDE.md`, 'Since the handoff'). References the wiki adds from memory are marked †.
 
 ## The θ term [T]
 
@@ -126,11 +126,11 @@ A hidden sector with an unbroken U(1) of its own has its own photon and can have
 
 Here χ is the referee's symbol for the kinetic mixing ε, as in Brümmer and Jaeckel's χ = v/M (Step 1), and is unrelated to the program's conjugate matter χ ([notation](/wiki/notation)); q_vis is the monopole's electric charge under our photon. In this wiki's reading, the formula is the product of the two effects above: the hidden Witten charge θ_d/2π, in hidden units, and the factor χ by which mixing passes a hidden electric charge to our photon. The adjudication cites eq. 3.19 "per the referee" and does not mention eq. 2.7 (ruling 9).
 
-## The soliton candidate's monopoles
+## The monopoles of #14's model
 
 ### The channel #14 named
 
-The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) proposed superheavy 't Hooft–Polyakov monopoles of a hidden gauge group SU(2)_d, broken to U(1)_d, as the dark matter ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). U(1)_d stayed unbroken, so the hidden photon was massless. The hidden W′± carried charge g_d, a doublet fermion ψ carried ±g_d/2, and the monopoles carried magnetic charge g_m = 4π/g_d, "the Dirac minimum relative to psi's charge g_d/2" (#14 §2; [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). For the mixing, v3 gave "epsilon ~ 1e-7 to 1e-6" from a Planck-suppressed operator (#14 §2(b)), an estimate round 3 found unsupported ([Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
+The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) proposed superheavy 't Hooft–Polyakov monopoles of a hidden gauge group SU(2)_d, broken to U(1)_d, as the dark matter ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). U(1)_d stayed unbroken, so the hidden photon was massless. The hidden W′± carried charge g_d, a doublet fermion ψ carried ±g_d/2, and the monopoles carried magnetic charge g_m = 4π/g_d, "the Dirac minimum relative to psi's charge g_d/2" (#14 §2; [Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). For the mixing, v3 gave "epsilon ~ 1e-7 to 1e-6" from a Planck-suppressed operator (#14 §2(b)), an estimate round 3 found unsupported ([Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
 
 The v3 worklog had found from the literature that mixing gives the hidden monopoles no magnetic flux of ours, and it listed what leaks instead (`review/v3-worklog.md`, item L1):
 
@@ -167,7 +167,7 @@ The adjudication ruled on the finding as ruling 9 (`review/round3-adjudication.m
 | --- | --- | --- |
 | With mixing and a physical hidden θ, the monopoles carry visible electric charge ~ εθ/2π · e (Witten effect) | Accepted, not re-checked | Brümmer–Jaeckel–Khoze eq. 3.19, per the referee. This contradicts v3's "constraints act on ψ, not the dark matter" whenever ε ≠ 0. |
 
-The statement the ruling contradicts, #14's "The decisive constraints therefore act on psi, not on the dark matter itself", is registered as dead in [the graveyard](/wiki/status/graveyard#parts-of-the-soliton-candidate), with the candidate's [obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary#the-other-rulings): whenever ε ≠ 0, the dark matter itself carries a visible charge. The Witten effect itself was not in question; the ruling concerns its consequence in #14's sector.
+The statement the ruling contradicts, #14's "The decisive constraints therefore act on psi, not on the dark matter itself", is registered as dead in [the graveyard](/wiki/status/graveyard#parts-of-14s-soliton-model), with the [obituary of #14's model](/wiki/dark-matter/candidates/soliton-candidate/obituary#the-other-rulings): whenever ε ≠ 0, the dark matter itself carries a visible charge. The Witten effect itself was not in question; the ruling concerns its consequence in #14's sector.
 
 ### Closed by strict sector separation
 
@@ -175,13 +175,13 @@ Decision 1 of the same adjudication took the program's postulate P4 strictly ([D
 
 > **Kinetic mixing: strict sector separation.** ε ≲ 10⁻¹³ from gravity alone, and zero if hidden charge conjugation is a gauged symmetry.
 
-Among its reasons, it "closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector." #11 v2.1 wrote the strict reading into P4 (§4): "no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S]" ([strict sector separation](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing#strict-sector-separation)). Decision 2 retired the soliton candidate the same day ([Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired)), so the channel no longer bears on a live candidate. The [project instructions](/wiki/history/documents/project-instructions) record that "Strict sector separation (P4 at face value) is in force." Under strict P4 neither of the program's remaining dark-matter candidates couples to the Standard Model, which is [row 7, a permanent null in direct detection](/wiki/predictions/direct-detection-null).
+Among its reasons, it "closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector." #11 v2.1 wrote the strict reading into P4 (§4): "no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S]" ([strict sector separation](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing#strict-sector-separation)). Decision 2 retired the soliton candidate the same day ([Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired)); on 2026-10-29 Paul narrowed that decision to #14's model, whose failure stands, so the channel bears on a failed model. The [project instructions](/wiki/history/documents/project-instructions) record that "Strict sector separation (P4 at face value) is in force." Under P4 as written, taken strictly, none of the program's dark-matter candidates couples to the Standard Model, which is the basis of [row 7, a permanent null in direct detection](/wiki/predictions/direct-detection-null).
 
 ## What the record leaves open
 
 - **Accepted, not re-checked.** Ruling 9 rests on the referee's reading of Brümmer–Jaeckel–Khoze: the adjudication cites eq. 3.19 "per the referee" and accepted the finding without re-checking it. A finding accepted this way rests on the referee alone ([the protocol's limits](/wiki/method/review/review-protocol#limits)).
 - **Outside the gate.** The charges come from `review/round3/referee/step4b.py`, which `scripts/check.sh` does not run, and no `verify/` script reproduces them.
-- **The residual mixing.** Decision 1 closes the channel by bounding ε. The mixing is zero only if hidden charge conjugation is exact (#11) or gauged (Decision 1), and whether #11's ε ≲ 10⁻¹³ is a ceiling or a floor is unresolved ([how to read the bound and the zero](/wiki/program/postulates/p4-polarized-matter#how-to-read-the-bound-and-the-zero)). No document evaluates the monopoles' visible charge at that level. After Decision 2 retired the candidate, no document returns to the channel.
+- **The residual mixing.** Decision 1 closes the channel by bounding ε. The mixing is zero only if hidden charge conjugation is exact (#11) or gauged (Decision 1), and whether #11's ε ≲ 10⁻¹³ is a ceiling or a floor is unresolved ([how to read the bound and the zero](/wiki/program/postulates/p4-polarized-matter#how-to-read-the-bound-and-the-zero)). No document evaluates the monopoles' visible charge at that level. After Decision 2, no document returns to the channel.
 
 ## References
 
@@ -196,12 +196,12 @@ Added by the wiki from model memory (†):
 
 ## Used by
 
-- [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) — leakage channel (ii): with ε ≠ 0 and a hidden θ, the soliton candidate's monopoles carry a visible charge.
+- [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) — leakage channel (ii): with ε ≠ 0 and a hidden θ, the monopoles of #14's model carry a visible charge.
 - [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — the monopoles' Witten-effect charge, one of the three channels Decision 1 closed.
 - [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null) — the same three channels, closed by strict P4.
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — ruling 9.
 - [Round-3 decisions and lessons](/wiki/method/review/round-3/decisions) — Decision 1 and the channels it closes.
-- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — ruling 9 among the rulings on the hidden sector.
+- [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — ruling 9 among the rulings on the hidden sector.
 - [Obituary: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) — the mixing whose range sets the referee's charges.
 - [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — the channels Decision 1 closed, ψ's millicharge among them.
 - [The graveyard: dead claims](/wiki/status/graveyard) — #14's statement that the decisive constraints act on ψ, not on the dark matter.
@@ -210,7 +210,7 @@ Added by the wiki from model memory (†):
 
 ## Sources
 
-- `review/round3-adjudication.md` 'Rulings' 9 — the finding, "Accepted, not re-checked", and its evidence; 'Decisions' 1 — strict sector separation and the three channels it closes; 'Decisions' 2 — the candidate retired
+- `review/round3-adjudication.md` 'Rulings' 9 — the finding, "Accepted, not re-checked", and its evidence; 'Decisions' 1 — strict sector separation and the three channels it closes; 'Decisions' 2 — the candidate retired on 2026-10-19, and the decision narrowed to #14's model by Paul on 2026-10-29
 - `review/round3/referee/audit-notes.md` Step 1 — reference [14] against its abstract; Step 4(a) item 7 — the hidden θ, the formula, the size of the charge and the contradiction with exclusion condition 1; Step 4(b) — magnetic mixing and eq. 2.7; Step 4(c) item 8 — "monopoles are hidden dyons"
 - `review/round3/referee/step4b.py` part (3) — the formula as coded; `review/round3/referee/step4b.out` — the charges; `review/round3/referee/step2a.out` — (g_d/2)/e = 1.000
 - `notes/knot-dark-matter-standalone.md` §2 — the hidden sector, the mixing estimate and leakage channel (ii); §5 — exclusion condition 1; ref [14] (withdrawn manuscript)

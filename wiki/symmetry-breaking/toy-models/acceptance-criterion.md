@@ -2,11 +2,12 @@
 title: "Acceptance criterion 1: the toy Lagrangian (OP11)"
 weight: 10
 status: alive
-description: "The referees' standing demand for an action in which ρ is a genuine Noether symmetry, spontaneously broken, with η as order parameter; met in their wording by model I with a bounded potential; what remains open, the superseded first verdict, and the unaddressed electric-sublattice clause, which #11 v2.3 lists first among what the magnetic-mirror conjecture needs."
+description: "The referees' standing demand for an action in which ρ is a genuine Noether symmetry, spontaneously broken, with η as order parameter; met in their wording by model I with a bounded potential; what remains open, the superseded first verdict, and the unaddressed electric-sublattice clause, which #11 has listed since v2.3 first among what the magnetic-mirror conjecture needs."
 sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §11.4"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "CLAUDE.md 'Since the handoff'"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §4"
@@ -99,7 +100,7 @@ All four are registered at [open problems](/wiki/status/open-problems). The queu
 
 ## The electric-sublattice clause
 
-Two older wordings of the criterion ask more of η. The handoff: "η the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2). #14: η "selecting both the position polarization and the hidden sector's electric description" (§6). The clause ties the order parameter to the program's identification of electric–magnetic duality frames with phase-space polarizations ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). The worklog's statement of the referees' wording, its criteria S0–S5 and #11 §14 item 11 omit the clause, and #11 declares the criterion met. The root `CLAUDE.md` wording, "done to the referees' wording", governs ([source conflicts](/wiki/history/documents/source-conflicts#status-changes-since-the-handoff)). Nothing in the record addresses the clause. Until 2026-10-29 no current document listed it as open; since then #11 v2.3 §11.4 lists it first among what P.R.'s magnetic-mirror conjecture needs, in either form: "a mechanism by which one order parameter makes both choices (the electric-sublattice clause of acceptance criterion 1, never attempted; the toy models of §14 item 11 contain no gauge field)". The root `CLAUDE.md` lists it among the open items of the monopole discussion, not queued ([Open: the electric-sublattice clause](/wiki/electric-magnetic-duality/unified-modular-structure#open-the-electric-sublattice-clause); [what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
+Two older wordings of the criterion ask more of η. The handoff: "η the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2). #14: η "selecting both the position polarization and the hidden sector's electric description" (§6). The clause ties the order parameter to the program's identification of electric–magnetic duality frames with phase-space polarizations ([the symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice)). The worklog's statement of the referees' wording, its criteria S0–S5 and #11 §14 item 11 omit the clause, and #11 declares the criterion met. The root `CLAUDE.md` wording, "done to the referees' wording", governs ([source conflicts](/wiki/history/documents/source-conflicts#status-changes-since-the-handoff)). Nothing in the record addresses the clause. Until 2026-10-29 no current document listed it as open; since then #11 §11.4 (v2.3) lists it first among what P.R.'s magnetic-mirror conjecture needs, in either form: "a mechanism by which one order parameter makes both choices (the electric-sublattice clause of acceptance criterion 1, never attempted; the toy models of §14 item 11 contain no gauge field)". The root `CLAUDE.md` lists it among the open items of the monopole discussion, not queued ([Open: the electric-sublattice clause](/wiki/electric-magnetic-duality/unified-modular-structure#open-the-electric-sublattice-clause); [what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 
 ## Superseded: the worklog's first verdict
 
@@ -111,13 +112,14 @@ Two older wordings of the criterion ask more of η. The handoff: "η the order p
 
 ## #14's other criteria
 
-#14 §6 listed two more criteria: "(2) either a gauged hidden charge conjugation, or a demonstration that the millicharged psi window survives existing constraints" and "(3) the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma". Both served the superheavy soliton candidate, which round 3 retired and which stays dead ([obituary: the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Criterion 1 outlived the manuscript that stated it: round 3 made it "acceptance criterion 1 for anything the program proposes" (Decision 4), since it tests the program's [hard core](/wiki/program/hard-core) rather than any one candidate.
+#14 §6 listed two more criteria: "(2) either a gauged hidden charge conjugation, or a demonstration that the millicharged psi window survives existing constraints" and "(3) the strong-coupling relic freeze-out calculation of Sec. 3, in the hidden plasma". Both served #14's superheavy-soliton model, which failed in round 3 ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Criterion 1 outlived the manuscript that stated it: round 3 made it "acceptance criterion 1 for anything the program proposes" (Decision 4), since it tests the program's [hard core](/wiki/program/hard-core) rather than any one candidate.
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the current verdict and its open parts [O]
 - `papers/broken-born-checkpoint-v2.md` §4 — the P2′ refinement: the potential's rigid pair of axes, the twisted element
 - `papers/broken-born-checkpoint-v2.md` §11.4 — the electric-sublattice clause, "never attempted", listed first among what the magnetic-mirror conjecture needs [O]
+- `papers/broken-born-checkpoint-v2.md` §12 — #14's model failed; the candidate it modeled, P.R.'s open conjecture (v2.4)
 - `CLAUDE.md` 'Since the handoff' — "done to the referees' wording"; the open ends, including the real-model lead; the optional round 6; the clause among the open items of the monopole discussion
 - `papers/reciprocity-toy-models.md` §2, §4, §5, §6 — model I's symmetry, vacua and order parameter; the bounded potential and the Monte Carlo; the Yukawa analogy; "Not shown"
 - `review/round3-adjudication.md` 'Decisions' 4 — why the toy Lagrangian came next

@@ -11,11 +11,13 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §13 rows 1–3"
   - "papers/broken-born-checkpoint-v2.md §14 items 4–5"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "notes/stream-stability.md 'Setup'"
   - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
   - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "notes/knot-dark-matter-standalone.md §4"
+  - "notes/knot-dark-matter-standalone.md §1"
   - "review/round3/referee/audit-notes.md Step 2"
   - "review/round3/referee/step2a.out"
   - "review/round3-adjudication.md 'What survives v3'"
@@ -25,7 +27,7 @@ sources:
 
 *The transfer cross-section σ_T measures how strongly particles scatter off one another by counting each collision according to how much forward momentum it removes: σ_T = ∫(1 − cos θ) dσ, where θ is the angle through which the collision turns the particles' relative motion. A grazing collision, which barely bends their paths, counts for almost nothing, and a head-on rebound counts most. For dark matter that scatters off itself, σ_T, rather than the plain count of collisions, is the standard measure of how fast scattering moves momentum and heat through a halo. Because the motions of stars and gas reveal the mass density of dark matter but not the mass of its particles, observations constrain σ_T per unit mass, σ_T/m, quoted in cm²/g. How σ_T changes with the speed of a collision depends on the force: it stays constant for a short-range contact force, and it falls steeply with speed for a long-range force, whose scattering is concentrated at small angles. This page covers the established quantity. The Comatter program writes its law for dark matter's self-scattering in it: [the gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) bends down at a knee near a gate velocity v\*, with isotropic scattering below it, and the first three rows of [the predictions table](/wiki/predictions) concern that scattering.*
 
-**Status:** Established — [T] — standard scattering theory and halo astrophysics, written here from general knowledge, with the literature it names marked † (Chapman and Cowling †; Tulin, Yu and Zurek 2013 †; Tulin and Yu 2018 †; Kaplinghat, Tulin and Yu 2016 †; Kahlhoefer et al. 2014 †); the program's documents use σ_T without citing a source for it. No `verify/` script computes a transfer cross-section. Executed checks that are not part of `scripts/check.sh` cover the σ_T/M of the withdrawn [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), recomputed by the [round-3](/wiki/method/review/round-3) referee (`review/round3/referee/step2a.out`), and, in [the audit of the wiki-build flags](/wiki/status/open-problems#pending-rulings) (`review/wiki-build-checks/audit/flag17_recompute.out`), the lab notebook's v0.1 values above the gate and the speed independence, at the benchmark masses, of the Born σ_T without a gate.
+**Status:** Established — [T] — standard scattering theory and halo astrophysics, written here from general knowledge, with the literature it names marked † (Chapman and Cowling †; Tulin, Yu and Zurek 2013 †; Tulin and Yu 2018 †; Kaplinghat, Tulin and Yu 2016 †; Kahlhoefer et al. 2014 †); the program's documents use σ_T without citing a source for it. No `verify/` script computes a transfer cross-section. Executed checks that are not part of `scripts/check.sh` cover the σ_T/M of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary), which failed, recomputed by the [round-3](/wiki/method/review/round-3) referee (`review/round3/referee/step2a.out`), and, in [the audit of the wiki-build flags](/wiki/status/open-problems#pending-rulings) (`review/wiki-build-checks/audit/flag17_recompute.out`), the lab notebook's v0.1 values above the gate and the speed independence, at the benchmark masses, of the Born σ_T without a gate.
 
 ## The definition [T]
 
@@ -71,7 +73,7 @@ so observations constrain the cross-section per unit mass, σ_T/m, and not σ_T 
 
 The rate is what changes a halo of [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM): collisions carry heat into the colder center and turn a central cusp of density into a core, which needs only about one scattering per particle over the halo's age ([what self-scattering does to a halo](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter#what-self-scattering-does-to-a-halo-t)). [Calc note #2](/wiki/history/documents/clumping-notes) contrasts that requirement with the one for collective effects: "scattering fits only need Γt ∼ 1 over Gyr, which is ~30 orders cheaper" (`notes/stream-stability.md`, 'Numbers at the scattering benchmark').
 
-Reading a cross-section per unit mass as a bare cross-section is a large error. [The handoff](/wiki/history/documents/handoff) lists among the errors of the program's first blind-review referee "σ_T/M misread as σ_T (off ~10⁴³)" (`HANDOFF.md` §6), M being the mass of the [withdrawn soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) ([the measured referee failure mode](/wiki/method/review/referee-failure-mode)).
+Reading a cross-section per unit mass as a bare cross-section is a large error. [The handoff](/wiki/history/documents/handoff) lists among the errors of the program's first blind-review referee "σ_T/M misread as σ_T (off ~10⁴³)" (`HANDOFF.md` §6), M being the monopole mass of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) ([the measured referee failure mode](/wiki/method/review/referee-failure-mode)).
 
 ### Averaged over speeds
 
@@ -115,7 +117,7 @@ A cross-section large enough to make cores in slow dwarf galaxies would, if it k
 
 ### The gated law σ_T(v)
 
-[Conjugate matter χ](/wiki/dark-matter/conjugate-matter), whose particles are one of the program's two remaining dark-matter candidates ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)), scatters off itself through the amplitude
+[Conjugate matter χ](/wiki/dark-matter/conjugate-matter), whose particles are one of the program's three dark-matter candidates ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)), scatters off itself through the amplitude
 
 ```text
 M(k, q) = 4πα̃ m_χ / (q² + m_φ²) · F(k²/μ²)        (#11 §8)
@@ -149,13 +151,13 @@ The notebook's v0.1 values above the gate, "σ_T/m (300 km/s) ≈ 6×10⁻² cm�
 
 The law is a two-body cross-section, and it applies while χ is a gas of classical particles, on [the particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem#the-particle-island). For χ light enough to act as a classical wave, calc note #2 found that "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)" ('Consequences for the predictions table'). On [the wave island](/wiki/dark-matter/momentum-clumping/wave-island) the role of σ_T passes to [the gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate), which calc note #3 calls "the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/wave-island.md`, 'What pins g? Two scenarios'). The re-derivation is answered only for the knee's tail ([Open: rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 
-### The soliton candidate's σ_T/M
+### σ_T/M of #14's model
 
 The [withdrawn soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 estimated the self-scattering of its superheavy monopoles as a Coulomb-type σ_T, the long-range case above (#14 §4):
 
 > Self-interaction. Monopole-monopole scattering through the hidden photon is Rutherford-like at alpha_m ~ 34 but suppressed by the mass: sigma_T/M ~ 8 pi alpha_m^2 ln(Lambda)/((M/2)^2 M v^4) ~ 1e-26 cm^2/g at v ~ 1e-3 c and M = 3e13 GeV, for ln(Lambda) = 10-30. That is some twenty-six orders below astrophysical sensitivity. The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback.
 
-M/2 is the reduced mass of two monopoles, so σ_T/M falls as the cube of the mass. The round-3 referee recomputed the value as "0.95e-26 - 2.9e-26 (manuscript formula)", found that the "standard 4 pi a^2 lnL/(mu^2 v^4) gives half", counted "~25.7 orders below 1 cm^2/g", and confirmed it up to a "factor-2 convention" (`review/round3/referee/audit-notes.md`, Step 2). The round-3 adjudication keeps "The benchmark-conditional arithmetic: flux, densities, σ_T/M, W′ overclosure" among what survives the withdrawn paper ('What survives v3'). The candidate itself was retired on other grounds ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary); [benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic#the-cross-section)).
+M/2 is the reduced mass of two monopoles, so σ_T/M falls as the cube of the mass. The round-3 referee recomputed the value as "0.95e-26 - 2.9e-26 (manuscript formula)", found that the "standard 4 pi a^2 lnL/(mu^2 v^4) gives half", counted "~25.7 orders below 1 cm^2/g", and confirmed it up to a "factor-2 convention" (`review/round3/referee/audit-notes.md`, Step 2). The round-3 adjudication keeps "The benchmark-conditional arithmetic: flux, densities, σ_T/M, W′ overclosure" among what survives the withdrawn paper ('What survives v3'). #14's model failed on other grounds ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary); [benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic#the-cross-section)). The candidate it modeled, monopoles localized in momentum, is P.R.'s conjecture since v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). The σ_T/M above rests on #14's ordinary kinematics (#14 §1), and no source estimates the self-scattering of the candidate as conjectured.
 
 ## References
 
@@ -180,15 +182,15 @@ The program's documents cite no source for the transfer cross-section. Added by 
 - [The χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) — its distinctive handles are stated in σ_T.
 - [The gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model) — its coupling g written through σ₀.
 - [The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) — the wave-island analog, where σ_T is not the observable.
-- [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic) — the withdrawn monopoles' σ_T/M ~ 10⁻²⁶ cm²/g.
+- [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic) — the σ_T/M ~ 10⁻²⁶ cm²/g of #14's monopoles.
 
 ## Sources
 
 - `notes/broken-born-theory.md` §5.1 — "the momentum-transfer cross-section", the v0.1 law and its heavy mediator, Yukawa SIDM's v⁻⁴ fall with a Coulomb log, the transport remark, the 150–400 km/s band, the dwarf-core value and the v0.1 values above the gate; §9 — the v0.1 row 1; 'Addendum (v0.4)' — the cliff weakened to a knee
-- `papers/broken-born-checkpoint-v2.md` §8 — the amplitude, its tag, the gated σ_T(v) and the benchmark mass; §13 rows 1–3 — the rows on self-scattering; §14 items 4–5 — the open gate shape and the dual-stress enhancement
+- `papers/broken-born-checkpoint-v2.md` §8 — the amplitude, its tag, the gated σ_T(v) and the benchmark mass; §13 rows 1–3 — the rows on self-scattering; §14 items 4–5 — the open gate shape and the dual-stress enhancement; §12 — the three candidates, and the failure of #14's model
 - `notes/stream-stability.md` 'Setup' — g written through σ₀; 'Numbers at the scattering benchmark' — Γt ∼ 1 and the coupling determined by the dwarf-core fit; 'Consequences for the predictions table' — two-body Born scattering not the observable on the wave island
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the dwarf and cluster dispersions; Γ_self as the analog of SIDM heat transport
-- `notes/knot-dark-matter-standalone.md` §4 — the soliton candidate's σ_T/M
+- `notes/knot-dark-matter-standalone.md` §4 — the σ_T/M of #14's monopoles; §1 — its ordinary kinematics
 - `review/round3/referee/audit-notes.md` Step 2 and `review/round3/referee/step2a.out` — the recomputed σ_T/M and the standard Coulomb formula
 - `review/round3-adjudication.md` 'What survives v3' — the benchmark-conditional arithmetic survives
 - `review/wiki-build-checks/audit/flag17_recompute.out` sections 3 and 5 — the Born σ_T without a gate is flat in speed at the benchmark; the v0.1 values above the gate recomputed (an audit check, not part of `scripts/check.sh`)

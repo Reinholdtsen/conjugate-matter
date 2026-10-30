@@ -123,7 +123,7 @@ None of these is cited in the program's documents; they are given here from memo
 
 - [The cosmological constraint a·ã = 1](/wiki/cosmology/scale-factor-duality/cosmological-constraint) — the second scale factor and its reciprocal relation to ours.
 - [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — the shared lapse, the Hamiltonian constraint and ρ ∝ a^{−3(1+w)}.
-- [Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — dust decelerates the expansion.
+- [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — dust decelerates the expansion, which ended its dust version; the stiff fluid as a field's kinetic energy carries its remaining route.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — a halt and reversal of a(t), read through a·ã = 1.
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — kinetic versus potential energy of a scalar field.
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the a⁻⁶ term in the Friedmann equation.

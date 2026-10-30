@@ -11,6 +11,7 @@ sources:
   - "notes/wave-island.md 'Standing results'"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §14 item 10"
   - "papers/broken-born-checkpoint-v2.md ref [13]"
@@ -44,7 +45,7 @@ When the [occupation number](/wiki/dark-matter/wave-dark-matter/occupation-numbe
 
 > Wave island: m ≲ 0.1 meV, per-mode occupation N_occ = ρ/(m⁴σ³) ≫ 1. The halo is an incoherent classical field; relaxation proceeds by wave kinetics — the Boltzmann collision integral with Bose enhancement, rate Γ ~ n σ_scat v × N_occ.
 
-Here n is the number density, σ_scat a scattering cross-section and v a relative speed: n σ_scat v is the ordinary collision rate of a particle gas, and N_occ is the Bose factor. Scatterings that conserve both the number of quanta and their energy move quanta toward the lowest-energy states, and the field condenses there into a coherent core [T] ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)). The note continues: "This is the mechanism LPT established for gravity (Bose condensation of virialized wave DM into solitons); here the gated contact attraction adds a channel", where DM is dark matter and a "soliton" is a Bose-star core, not the [topological soliton](/wiki/symmetry-breaking/topological-defects#two-meanings-of-soliton-and-the-name-knots) of [the retired candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary). The reference is the checkpoint's [13]†, Levkov, Panin and Tkachev's papers on gravitational Bose–Einstein condensation in the kinetic regime (2018) and on collapsing Bose stars (2017).
+Here n is the number density, σ_scat a scattering cross-section and v a relative speed: n σ_scat v is the ordinary collision rate of a particle gas, and N_occ is the Bose factor. Scatterings that conserve both the number of quanta and their energy move quanta toward the lowest-energy states, and the field condenses there into a coherent core [T] ([wave kinetics and Bose-star formation](/wiki/dark-matter/wave-dark-matter/wave-kinetics)). The note continues: "This is the mechanism LPT established for gravity (Bose condensation of virialized wave DM into solitons); here the gated contact attraction adds a channel", where DM is dark matter and a "soliton" is a Bose-star core, not the [topological soliton](/wiki/symmetry-breaking/topological-defects#two-meanings-of-soliton-and-the-name-knots) of the third dark-matter candidate, P.R.'s conjecture of [magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles), or of [#14's failed model of it](/wiki/dark-matter/candidates/soliton-candidate/obituary). The reference is the checkpoint's [13]†, Levkov, Panin and Tkachev's papers on gravitational Bose–Einstein condensation in the kinetic regime (2018) and on collapsing Bose stars (2017).
 
 ## The ingredients
 
@@ -153,7 +154,7 @@ Rows 1 and 2 of the predictions table are [the self-interaction knee](/wiki/pred
 ## Sources
 
 - `notes/wave-island.md` 'Setup', 'The rate [D, heuristic coefficients]' — the mechanism, the conventions, the rate, both corollaries, the calibration flag in the header; 'What pins g? Two scenarios' — the core and stream thresholds; 'Standing results after Chunks A+B' — the summary
-- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement, its tags and the reference [13]†; §8 — the open tail; §13 row 3 — the island discriminant; §14 item 10 — the literature battery
+- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement, its tags and the reference [13]†; §8 — the open tail; §12 — the third candidate, P.R.'s conjecture, and #14's failed model of it; §13 row 3 — the island discriminant; §14 item 10 — the literature battery
 - `notes/stream-stability.md` 'Setup' — the coupling g and the gate; 'Limit 1 (broad gate)' — the retired "γ vs Ω" framing; 'Limit 2 (narrow gate)' — the co-mover density n_gate; 'Consequences for the predictions table' — the wave island, the (v\*/σ)³ estimate and the rows 1–2 to-do; 'Next chunk (#3)' — the task and the anchoring instruction
 - `notes/ufd-endpoint.md` 'Sharpened input numbers' — the t^{1/2} slowdown allowed for in the test of Scenario A
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 statement; §10 item 8 — the calibration as an open literature verification

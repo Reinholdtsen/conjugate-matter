@@ -171,7 +171,7 @@ Round 1's referee "insinuated the compatibility theorem might be false (it is ma
 
 Round 3 found the prior art. Under "Uncited claims / prior art that should be cited" the referee wrote: "The compatibility theorem is the known 'Born geometry' structure of Freidel-Leigh-Minic: 1502.08005 (JHEP 06 (2015) 006), p.11", and quoted the passage that defines Born geometries (audit notes, Step 1). The adjudication: "Unless a comparison shows otherwise, the checkpoint's '[D] derived here' tag on it should become [T] with that citation." Decision 4 then scheduled the cleanup: "check the Freidel–Leigh–Minic prior art and re-tag the compatibility theorem if confirmed".
 
-#11 v2.1 (2026-10-19) made the change: "*Attribution (v2.1):* v2.0 presented this as derived here. It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root `CLAUDE.md` records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". #11 §15 counts the re-attribution among the program's degeneration risks, "the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the §12 soliton obituary and the §5 re-attribution of the compatibility theorem".
+#11 v2.1 (2026-10-19) made the change: "*Attribution (v2.1):* v2.0 presented this as derived here. It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root `CLAUDE.md` records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". #11 §15 counts the re-attribution among the program's degeneration risks, "the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the failure of #14's soliton model (§12) and the §5 re-attribution of the compatibility theorem". Until v2.4 the middle item read "the §12 soliton obituary".
 
 The older documents keep their old tags. #11 and the root `CLAUDE.md` govern, so the statement is [T] and the block proof and machine check are [V] ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
@@ -207,7 +207,7 @@ The reference: #11 [26][S] L. Freidel, R. G. Leigh, D. Minic, "Metastring theory
 - [Conjugate monopoles as ontology](/wiki/electric-magnetic-duality/conjugate-monopoles) — on the vacuum slice, universal coupling to H includes coupling to g.
 - [Two causal cones](/wiki/conjugate-relativity/two-causal-cones) — #13 builds its two light cones on H = diag(g, g⁻¹) (see flag 30 in `review/wiki-build-flags.md`).
 - [Two gravitational charges and the conjugate field equations (chat-only)](/wiki/gravity/momentum-graviton/chat-only-results) — corollary 3 as the documented counterpart of the slaved layer.
-- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the one framework result the withdrawn manuscript cited, re-derived by the round-3 referee.
+- [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the one framework result the withdrawn manuscript cited, re-derived by the round-3 referee.
 
 ## Sources
 

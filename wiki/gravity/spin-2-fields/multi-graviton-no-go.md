@@ -89,7 +89,7 @@ The checkpoint's plain-language passage for §7 states the theorem as "two inter
 
 ### In the withdrawn manuscript and the popular articles
 
-The withdrawn soliton manuscript #14 states the exclusion in its §1: "a massless X coupled to gravity is excluded by the multi-graviton no-go [2]". The round-3 audit checked that reference and found that it supports this statement, with the caveats above. #14 was withdrawn after round 3 for its dark-matter abundance arithmetic, not for this statement ([obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+The withdrawn soliton manuscript #14 states the exclusion in its §1: "a massless X coupled to gravity is excluded by the multi-graviton no-go [2]". The round-3 audit checked that reference and found that it supports this statement, with the caveats above. #14 was withdrawn after round 3 for its dark-matter abundance arithmetic, not for this statement ([obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 The [popular articles](/wiki/history/documents/popular-articles) give the same sentence: #10 ("physics has a theorem for that: two interacting massless gravities are mathematically inconsistent") and #12 ("a theorem of field theory, proved in 2000, establishes that two interacting massless gravities are mathematically inconsistent"). The popular articles are not a source for status.
 

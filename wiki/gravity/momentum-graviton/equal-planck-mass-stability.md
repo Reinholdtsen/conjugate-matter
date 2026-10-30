@@ -15,6 +15,7 @@ sources:
   - "review/round3/referee/audit-notes.md 'Step 1 - Citations'"
   - "notes/beta-coefficients.md §3"
   - "HANDOFF.md §6"
+  - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "CLAUDE.md 'Since the handoff'"
   - "papers/phase-space-diameter.md §8.2"
@@ -95,8 +96,8 @@ So the instability literature is not uniformly negative even for light spin-2 fi
 
 - **The finding.** The second blind review of #14 counted among its valid findings the "bimetric cosmological-branch instability severity (mass hierarchy may evade — the analyses assume light second metric; early universe remains open; cite properly)" (`HANDOFF.md` §6; [review rounds 1 and 2](/wiki/method/review/rounds-one-and-two)).
 - **The worklog.** Item R7 of the round-2 pending list, marked "ready, with a tension", with the decision "v3: state this as an open consistency item, not as evaded." When v3 was drafted, "The bimetric instability at equal Planck masses is added to item 7" of its exclusion conditions ('v3 as drafted (2026-10-19)').
-- **The manuscript.** #14 v3 states it in §1, lists it in §5 item 7 and §6. #14 was withdrawn on 2026-10-19 after failing round-3 review for its abundance arithmetic, and its soliton candidate is retired ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Round 3 ruled on R7 only through the citation point of ruling 12.
-- **Its standing now.** The question concerns X, which stands ([The momentum graviton X](/wiki/gravity/momentum-graviton)), not the retired candidate. #11 §14 does not list it, it is not on the current queue in the root `CLAUDE.md`, and no later document closes it, so the wiki keeps it as an open item. The closed-universe note (2026-10-27) finds the early-universe gradient instability above.
+- **The manuscript.** #14 v3 states it in §1, lists it in §5 item 7 and §6. #14 was withdrawn on 2026-10-19 after its model failed round-3 review on its abundance arithmetic ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture again since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Round 3 ruled on R7 only through the citation point of ruling 12.
+- **Its standing now.** The question concerns X, which stands ([The momentum graviton X](/wiki/gravity/momentum-graviton)), not #14's failed model. #11 §14 does not list it, it is not on the current queue in the root `CLAUDE.md`, and no later document closes it, so the wiki keeps it as an open item. The closed-universe note (2026-10-27) finds the early-universe gradient instability above.
 
 ## Sources
 
@@ -106,7 +107,7 @@ So the instability literature is not uniformly negative even for light spin-2 fi
 - `review/round3/referee/audit-notes.md` 'Step 1 - Citations' — what references [4], [5] and [6] support
 - `notes/beta-coefficients.md` §3 — equal effective Planck masses forced by reciprocity
 - `HANDOFF.md` §6 — the round-2 finding the item answers
-- `papers/broken-born-checkpoint-v2.md` §14 — the current list of open problems, which does not include the item
+- `papers/broken-born-checkpoint-v2.md` §12 — #14's model failed; the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture (v2.4); §14 — the current list of open problems, which does not include the item
 - `CLAUDE.md` 'Since the handoff' — the current queue
 - `papers/phase-space-diameter.md` §8.2 — the early-universe instability of bimetric cosmologies, among the caveats of the bound on X's range [T][O]
 - `notes/closed-universe.md` §6 — the dressed Higuchi bound, the gradient instability above about 1.3 TeV and 1 − y today; §9 — the open calculations; computed, not reviewed

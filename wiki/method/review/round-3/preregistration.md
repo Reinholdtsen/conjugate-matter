@@ -48,7 +48,7 @@ The forecast was the step the v3 worklog had planned after cutting the new versi
 
 The file fixes three things before the forecast itself.
 
-- **The manuscript.** #14 v3, "as of commit 5dbaa82", then in `papers/` and now `notes/knot-dark-matter-standalone.md`, withdrawn. It proposed that dark matter consists of "superheavy 't Hooft-Polyakov monopoles of a hidden SU(2) gauge sector broken to U(1)", with a benchmark mass of 3×10¹³ GeV ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)).
+- **The manuscript.** #14 v3, "as of commit 5dbaa82", then in `papers/` and now `notes/knot-dark-matter-standalone.md`, withdrawn. It proposed that dark matter consists of "superheavy 't Hooft-Polyakov monopoles of a hidden SU(2) gauge sector broken to U(1)", with a benchmark mass of 3×10¹³ GeV ([#14's soliton model (failed)](/wiki/dark-matter/candidates/soliton-candidate)).
 - **The auditor.** "A fresh subagent with shell, Python (numpy/sympy/scipy) and web search. It gets only a copy of the manuscript and the protocol below, with no repo, worklog or handoff context."
 - **The limitation**, "stated up front": "the auditor is the same model family as the author. It removes the arithmetic failure mode of rounds 1–2, which had no code execution. It does not remove correlated blind spots." The failure mode is the one the handoff had measured: referees without code made confident order-of-magnitude errors in their own arithmetic ([the measured referee failure mode](/wiki/method/review/referee-failure-mode)).
 

@@ -2,7 +2,7 @@
 title: "Obituary: the √N topological floor (chat-only)"
 weight: 70
 status: dead
-description: "A chat-only bound on the relic abundance between a 'Kibble ceiling' and a √N net-charge floor, dropped because its premise is inverted and no candidate is left; the strong-coupling annihilation question it addressed."
+description: "A chat-only bound on the relic abundance between a 'Kibble ceiling' and a √N net-charge floor, dropped because its premise is inverted and, with #14's model retired, no candidate was left for it; the strong-coupling annihilation question it addressed."
 sources:
   - "review/round3-adjudication.md 'Decisions' 3"
   - "review/round3-adjudication.md 'Decisions' 2"
@@ -25,9 +25,9 @@ sources:
   - "review/wiki-build-flags.md item 21"
 ---
 
-*The √N topological floor was an argument, made only in the claude.ai chat that preceded this repository, about how many of the soliton candidate's monopoles could survive annihilation in the early universe. A monopole and an antimonopole that meet can annihilate, and at the hidden sector's strong magnetic coupling, about 34, that annihilation might have been fast enough to deplete them. The floor argument held that the Kibble mechanism leaves a net topological charge that annihilation cannot remove, so the surviving abundance would lie between a Kibble "ceiling" and that floor. It was never written into any document. In round 3 the referee showed that Kibble's count is a minimum, not a ceiling, and that annihilation at this coupling has already been worked out for hidden sectors; with the soliton candidate retired, the planned calculation was dropped.*
+*The √N topological floor was an argument, made only in the claude.ai chat that preceded this repository, about how many of the monopoles of #14's soliton model could survive annihilation in the early universe. A monopole and an antimonopole that meet can annihilate, and at the hidden sector's strong magnetic coupling, about 34, that annihilation might have been fast enough to deplete them. The floor argument held that the Kibble mechanism leaves a net topological charge that annihilation cannot remove, so the surviving abundance would lie between a Kibble "ceiling" and that floor. It was never written into any document. In round 3 the referee showed that Kibble's count is a minimum, not a ceiling, and that annihilation at this coupling has already been worked out for hidden sectors; with #14's model retired, the planned calculation was dropped.*
 
-**Status:** Dead (chat-only) — dropped by round-3 Decision 3: "Its premise, Kibble as a ceiling, is inverted (ruling 3)." "Under decision 2 it has no candidate left to serve." The [project instructions](/wiki/history/documents/project-instructions) record the same: "HANDOFF §8 queue item 3 is dropped." The argument was never written up and never machine-checked; no number belongs to it. Home: [the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate); the decision is in [round-3 decisions](/wiki/method/review/round-3/decisions) and the rulings behind it in [round-3 verdict and rulings](/wiki/method/review/round-3/rulings); listed in [the graveyard](/wiki/status/graveyard) and among [conjectures](/wiki/status/conjectures).
+**Status:** Dead (chat-only), Paul's concurrence asked 2026-10-29; until he answers, the death stands as recorded (root `CLAUDE.md`, 'Since the handoff') — dropped by round-3 Decision 3: "Its premise, Kibble as a ceiling, is inverted (ruling 3)." "Under decision 2 it has no candidate left to serve." The [project instructions](/wiki/history/documents/project-instructions) record the same: "HANDOFF §8 queue item 3 is dropped." The argument was never written up and never machine-checked; no number belongs to it. Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); the decision is in [round-3 decisions](/wiki/method/review/round-3/decisions) and the rulings behind it in [round-3 verdict and rulings](/wiki/method/review/round-3/rulings); listed in [the graveyard](/wiki/status/graveyard) and among [conjectures](/wiki/status/conjectures).
 
 ## What was claimed
 
@@ -35,7 +35,7 @@ sources:
 
 A monopole and an antimonopole carry opposite topological charge, and when they meet they can annihilate into lighter particles [T]. After a phase transition has formed monopoles, annihilation is the only process that lowers their number, so a relic calculation follows how fast the pairs find each other as the universe cools ([relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance)). For superheavy monopoles in our own plasma the classic analysis, Preskill 1979 (#14's [19]), found annihilation too slow to matter, which is why grand-unification monopoles would be overproduced: [the monopole problem](/wiki/electric-magnetic-duality/monopoles/monopole-problem) [T].
 
-The soliton candidate's monopoles were ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) of a hidden gauge sector ([the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)), and their mutual magnetic coupling is strong: α_m = 1/α_W′, the inverse of the sector's weak electric coupling, by [Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) (#14 §2). Under the manuscript's hypothesis H it is "1/(4 alpha) ~ 34" ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)). The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) (v3, §3) named what this changes:
+The monopoles of #14's model were ['t Hooft–Polyakov monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) of a hidden gauge sector ([the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)), and their mutual magnetic coupling is strong: α_m = 1/α_W′, the inverse of the sector's weak electric coupling, by [Dirac quantization](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) (#14 §2). Under the manuscript's hypothesis H it is "1/(4 alpha) ~ 34" ([Obituary: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling)). The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) (v3, §3) named what this changes:
 
 > The classic relic analysis [19] found monopole-antimonopole annihilation inefficient for superheavy monopoles in our plasma. Here annihilation runs through the hidden plasma (psi and hidden photons) at alpha_m ~ 34, where Sommerfeld enhancement and rapid bound-state formation may matter. Whether the Kibble abundance survives requires a dedicated strong-coupling freeze-out calculation in that plasma, not performed here (acceptance criterion 3). Inflation must precede the hidden transition, and v must lie below the reheating temperature.
 
@@ -84,7 +84,7 @@ Ruling 3, upheld: "Kibble is a floor, not a ceiling; Kibble–Zurek or bubble co
 
 The physics behind the ruling is standard [T]. At a symmetry-breaking transition the direction the field picks in its vacuum manifold is uncorrelated beyond some correlation length, and causality keeps that length below the horizon. Where uncorrelated domains meet, a defect is trapped with a probability of order one, so a transition forms at least about one defect per horizon volume. Real transitions have correlation lengths well below the horizon, and a first-order transition forms defects where its bubbles meet, so both add to Kibble's count. The referee's own figure for bubble counting, for the first-order transitions #14 contemplated, is "p ~ 104 (beta/H)^3 = 1e2-1e8" (Step 4(a) item 2), against v3's "p = 1 as the upper end".
 
-With Kibble's count a minimum, the window had no upper edge. The candidate's problem became the opposite of the one the floor was meant to answer: not too few monopoles after annihilation, but too many, which annihilation cannot remove ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
+With Kibble's count a minimum, the window had no upper edge. The model's problem became the opposite of the one the floor was meant to answer: not too few monopoles after annihilation, but too many, which annihilation cannot remove ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)).
 
 ### The annihilation case was already worked out
 
@@ -92,15 +92,17 @@ Ruling 10, "**Upheld** (abstract level)": "Annihilation at α_m ≈ 34 is Preski
 
 ### No candidate left
 
-Decision 2 retired the soliton candidate as a program-native proposal ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Decision 3 followed:
+Decision 2 retired the soliton candidate as a program-native proposal ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Decision 3 followed:
 
 > **HANDOFF §8 queue item 3 (the "√N floor"): dropped.**
 > - Its premise, Kibble as a ceiling, is inverted (ruling 3).
 > - Under decision 2 it has no candidate left to serve.
 
+On 2026-10-29 Paul narrowed Decision 2 to #14's model, whose monopoles the floor concerned. The candidate #14 modeled, monopoles localized in momentum, returned in #11 v2.4 as P.R.'s open conjecture; it was never modeled, and no document applies the floor to it ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+
 ## What survives
 
-Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with the candidate. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–6 ([open problems](/wiki/status/open-problems)).
+Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with #14's model. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–6 ([open problems](/wiki/status/open-problems)).
 
 The other results of the handoff's chat-only list (§4) have their own pages: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the two gravitational charges and the equation comparison on [the momentum graviton's chat-only results](/wiki/gravity/momentum-graviton/chat-only-results). The diameter relation has since been written up and tested in the phase-space-diameter note (`papers/phase-space-diameter.md`, v1.1): its corrected form is an identity of blackbody statistics [D][V], standard physics that cannot test the program, and its claim that the universe's position–momentum rectangle is square "exactly at the bounce" is withdrawn [D][V] ([Obituary: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). The others are still chat-only and are registered in [conjectures](/wiki/status/conjectures).
 
@@ -114,9 +116,9 @@ The other results of the handoff's chat-only list (§4) have their own pages: [t
 
 ## Sources
 
-- `review/round3-adjudication.md` 'Decisions' 3 — dropped; 'Decisions' 2 — the candidate retired; 'Rulings' 3 and 10 — the inverted premise and the solved annihilation case
+- `review/round3-adjudication.md` 'Decisions' 3 — dropped; 'Decisions' 2 — the candidate retired, narrowed to #14's model on 2026-10-29; 'Rulings' 3 and 10 — the inverted premise and the solved annihilation case
 - `CLAUDE.md` 'Since the handoff' — "HANDOFF §8 queue item 3 is dropped"
-- `papers/broken-born-checkpoint-v2.md` §12 — the p = 1 and p ≈ 0.023 normalizations
+- `papers/broken-born-checkpoint-v2.md` §12 — the p = 1 and p ≈ 0.023 normalizations; the candidate as P.R.'s conjecture since v2.4
 - `papers/phase-space-diameter.md` §3 — the diameter relation as an identity of blackbody statistics that cannot test the program; §6 — the withdrawal of "square exactly at the bounce"
 - `HANDOFF.md` §2 — the idea, as open item 2; §4 — its chat-only status; §8 — queue item 3
 - `review/round3/referee/audit-notes.md` Step 2 — the bracket of p judged; Step 4(a) items 2 and 3 — bubble counting, the relic integration, and "Acceptance criterion 3 is not open"

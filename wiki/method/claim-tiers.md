@@ -34,7 +34,7 @@ sources:
 
 The seven tests are T1–T7 of `verify/battery.py`, which [the gate](/wiki/method/verification/the-gate) runs before any work counts as finished. Its current output includes "T4 parity: 66.58 vs 63.72 as quoted" (on where these two figures are printed, see flag 36 in `review/wiki-build-flags.md`), the linearized potential's limit against the Fierz–Pauli form for the test matrix, "T5 V(1) - 2T = [0,0,0]", and "T7 p4 outside span of e_n (rms residual nonzero)  [rms=3.2853]". The tests and what each establishes are on [The verification battery T1–T7](/wiki/method/verification/battery).
 
-#11 §2 defines Tier 1 by this battery. Later machine-checked items, the numbers of the soliton obituary (§12, `verify/soliton_obituary.py`; [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) and the toy-model results (§4, the [toy-model scripts](/wiki/method/verification/toy-model-scripts)), carry [V], but §2 does not place them in Tier 1; it counts the §12 obituary among the most reliable Tier-3 items (below).
+#11 §2 defines Tier 1 by this battery. Later machine-checked items, the numbers of #14's failed model (§12, `verify/soliton_obituary.py`; [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)) and the toy-model results (§4, the [toy-model scripts](/wiki/method/verification/toy-model-scripts)), carry [V], but §2 does not place them in Tier 1; it counts the failure of #14's model in §12 among the most reliable Tier-3 items (below).
 
 ### What Tier 1 does not cover
 
@@ -54,7 +54,7 @@ In the wiki's reading, Tier 3 is the program's own structural argument wherever 
 
 ### Negative results: the most reliable Tier-3 items
 
-"Negative results (§9, §7.1, and the §12 obituary) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). In the wiki's reading of "incentive gradient": a program looking for support for its own ideas is more likely to err toward a positive result than toward a negative one, so a calculation that came out against the program's interest is less likely to reflect that error. The three are [the death of momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), the exclusions of massless and ungauged X in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and [the soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12). The rule that follows is on [Negative results and dead claims](/wiki/method/negative-results).
+"Negative results (§9, §7.1, and the failure of #14's model in §12) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). In the wiki's reading of "incentive gradient": a program looking for support for its own ideas is more likely to err toward a positive result than toward a negative one, so a calculation that came out against the program's interest is less likely to reflect that error. The three are [the death of momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), the exclusions of massless and ungauged X in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and the failure of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12), which §2 called "the §12 obituary" until the amendment of 2026-10-29 (1c80d01). The rule that follows is on [Negative results and dead claims](/wiki/method/negative-results).
 
 ## The selection-versus-derivation bias
 

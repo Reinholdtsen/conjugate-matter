@@ -23,11 +23,12 @@ sources:
   - "notes/broken-born-program-v1.md §7"
   - "notes/broken-born-program-v1.md §10"
   - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
+  - "CLAUDE.md 'Since the handoff'"
 ---
 
 *Scenario A was the assumption that, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated attraction that condenses wave-like dark matter is also what gives ordinary dwarf galaxies their smooth, constant-density cores. Fitting those cores fixes the strength of the coupling, and with the coupling fixed, condensation is forced to happen, across the whole halo, in the ultra-faint dwarf galaxies, the faintest, densest and oldest galaxies known. Because the attraction makes a condensate collapse whenever it passes a critical mass, throwing off fast waves that escape the galaxy, these galaxies would by now have lost much of their dark matter. Instead they are among the most dark-matter-dominated systems observed: Segue 1 holds a dense, intact halo around stars about 13 billion years old. A much lighter mass, which would avoid the collapse, is excluded by other observations, and no other change of parameters rescues the scenario. Scenario A is dead.*
 
-**Status:** Dead. "Scenario A is falsified by the existence of ultra-faint dwarfs" (`notes/ufd-endpoint.md`, [calc note #4](/wiki/history/documents/clumping-notes)); [checkpoint #11](/wiki/history/documents/checkpoint) §9 (ii), tagged [D + T], records its endpoint as "falsified by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Not machine-checked: no `verify/` script covers a number of calc note #3 or #4; the gate checks only calc note #2's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)), and the Segue 1 inputs carry no reference in any source document. Listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead. "Scenario A is falsified by the existence of ultra-faint dwarfs" (`notes/ufd-endpoint.md`, [calc note #4](/wiki/history/documents/clumping-notes)); [checkpoint #11](/wiki/history/documents/checkpoint) §9 (ii), tagged [D + T], records its endpoint as "falsified by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Not machine-checked: no `verify/` script covers a number of calc note #3 or #4; the gate checks only calc note #2's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)), and the Segue 1 inputs carry no reference in any source document. Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff'). Listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -183,3 +184,4 @@ The calculation that killed it is the third of [the clumping calc notes](/wiki/h
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's record of the kill
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 record, with the Dalal–Kravtsov figure; §10 item 8 — the exact bound as an open verification
 - `verify/velocity_gated_gravity.py` section D — calc note #2's shortfall ratios, the only clumping numbers the gate checks
+- `CLAUDE.md` 'Since the handoff' — Paul's concurrence in the death asked on 2026-10-29

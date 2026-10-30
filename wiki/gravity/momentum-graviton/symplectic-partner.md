@@ -110,7 +110,7 @@ If η and ω are both held fixed, neither partner survives. This is corollary 2 
 
 ## Standing
 
-#11's assessment counts the program's output, and this observation comes first: "The program has produced one observation that stands regardless of its fate (the symplectic partner of the graviton is another graviton — why string theory's doubling works and Born's stalled), one identity awaiting a novelty verdict, one new experimental question (the knee-shape discriminant), one structural unification (polarization of phase space and of charge space as one move), and a two-way question about dark matter's nature with named discriminators" (§15; [Assessment: a live research program](/wiki/program/assessment)). The assessment gives no separate argument for why this item stands regardless of the program's fate.
+#11's assessment counts the program's output, and this observation comes first: "The program has produced one observation that stands regardless of its fate (the symplectic partner of the graviton is another graviton — why string theory's doubling works and Born's stalled), one identity awaiting a novelty verdict, one new experimental question (the knee-shape discriminant), one structural unification (polarization of phase space and of charge space as one move), and a three-way question about dark matter's nature with named discriminators" (§15; [Assessment: a live research program](/wiki/program/assessment)). The assessment gives no separate argument for why this item stands regardless of the program's fate.
 
 ## Superseded: the v1 count of two standalone results
 

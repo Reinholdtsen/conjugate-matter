@@ -2,7 +2,7 @@
 title: "Round-3 decisions and lessons"
 weight: 30
 status: record
-description: "Decision 1 strict sector separation, Decision 2 the soliton candidate retired (routes a, b and c), Decision 3 the √N floor dropped, Decision 4 the toy Lagrangian next; their execution the same day; and the two lessons, the blindness leak and independent anchors."
+description: "Decision 1 strict sector separation, Decision 2 the soliton candidate retired (routes a, b and c), narrowed by Paul on 2026-10-29 to #14's model, Decision 3 the √N floor dropped, Decision 4 the toy Lagrangian next; their execution the same day; and the two lessons, the blindness leak and independent anchors."
 sources:
   - "review/round3-adjudication.md 'Decisions'"
   - "review/round3-adjudication.md 'Lessons (now in CLAUDE.md)'"
@@ -27,15 +27,15 @@ sources:
   - "review/wiki-build-flags.md item 33"
 ---
 
-*The round-3 decisions are the four choices that set the Comatter program's course after its third blind review failed the [soliton dark-matter manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary), recorded at the end of `review/round3-adjudication.md` together with the round's two lessons. Paul delegated the decisions on 2026-10-19, Claude made them, and Paul keeps the veto. Decision 1 took at face value the postulate that gauge forces do not cross between the two polarizations of matter, so that the hidden and visible photons mix no more than gravity makes them. Decision 2 retired the soliton candidate rather than keep it alive with a free [dilution factor](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t) or claim a published model as the program's own. Decision 3 dropped a queued calculation whose premise the review had inverted, and Decision 4 made the toy Lagrangian the next task, after a cleanup of the checkpoint. The lessons were to keep a review's forecast out of the commit subject, and to check numbers against anchors that do not come from the paper being checked.*
+*The round-3 decisions are the four choices that set the Comatter program's course after its third blind review failed the [soliton dark-matter manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary), recorded at the end of `review/round3-adjudication.md` together with the round's two lessons. Paul delegated the decisions on 2026-10-19, Claude made them, and Paul keeps the veto. Decision 1 took at face value the postulate that gauge forces do not cross between the two polarizations of matter, so that the hidden and visible photons mix no more than gravity makes them. Decision 2 retired the soliton candidate rather than keep it alive with a free [dilution factor](/wiki/cosmology/early-universe/relic-yield-and-dilution#entropy-dilution-t) or claim a published model as the program's own; on 2026-10-29 Paul narrowed it to #14's model, and the candidate that model was built for, [monopoles of the conjugate sector localized in momentum](/wiki/dark-matter/candidates/momentum-space-monopoles), is his open conjecture again. Decision 3 dropped a queued calculation whose premise the review had inverted, and Decision 4 made the toy Lagrangian the next task, after a cleanup of the checkpoint. The lessons were to keep a review's forecast out of the commit subject, and to check numbers against anchors that do not come from the paper being checked.*
 
-**Status:** Record — untagged; the decisions are in force. Each is carried out in a current document: Decision 1 in postulate P4 (#11 §4), Decision 2 in the obituary of #11 §12, Decision 3 in the root `CLAUDE.md` queue, and Decision 4 in #11 v2.1 and the toy-model note (#11 §14 item 11), which [review round 4](/wiki/method/review/round-4) examined. Both lessons are rules in the root `CLAUDE.md`, 'Method'.
+**Status:** Record — untagged; the decisions are in force, Decision 2 as Paul narrowed it on 2026-10-29. Each is carried out in a current document: Decision 1 in postulate P4 (#11 §4), Decision 2 in #11 §12's record of #14's failed model, Decision 3 in the root `CLAUDE.md` queue, and Decision 4 in #11 v2.1 and the toy-model note (#11 §14 item 11), which [review round 4](/wiki/method/review/round-4) examined. Both lessons are rules in the root `CLAUDE.md`, 'Method'.
 
 ## How the decisions were made
 
 The round left decisions open for Paul. The v3 worklog closed by naming the main one: "This worklog is closed. The next step is Paul's decision on the soliton candidate." The adjudication records how it was settled: "Paul delegated these on 2026-10-19 ("You make the decisions for me and give rational"). Claude made them. Paul keeps the veto."
 
-The delegation crosses the program's usual division of labour. The root `CLAUDE.md` gives the roles as "Paul — conjecture, direction, veto. Claude — derivations, counterexamples, drafting, verification", so direction is normally Paul's ([the collaboration](/wiki/method/collaboration#decisions-and-the-veto)). Paul's request asked for the reasoning with the decisions, and each decision states its reasons, which he can read before using the veto. The root `CLAUDE.md`'s working instruction points the same way: "Make the call and recommend; don't ask questions Paul can't answer." #11's footer marks the amendments that followed as "decisions delegated by P. R. to Claude; record in `review/round3-adjudication.md`", and the root `CLAUDE.md` points to the same place: "Reasons are in the adjudication's "Decisions" section."
+The delegation crosses the program's usual division of labour. The root `CLAUDE.md` gives the roles as "Paul — conjecture, direction, veto. Claude — derivations, counterexamples, drafting, verification", so direction is normally Paul's ([the collaboration](/wiki/method/collaboration#decisions-and-the-veto)). Paul's request asked for the reasoning with the decisions, and each decision states its reasons, which he can read before using the veto. The root `CLAUDE.md`'s working instruction points the same way: "Make the call and recommend; don't ask questions Paul can't answer." #11's footer marks the amendments that followed as "decisions delegated by P. R. to Claude; record in `review/round3-adjudication.md`", and the root `CLAUDE.md` points to the same place: "Reasons for the queue are in the round-3 adjudication's "Decisions" section." Until 2026-10-26 it read "Reasons are in the adjudication's "Decisions" section."
 
 ## Decision 1: strict sector separation
 
@@ -71,7 +71,7 @@ Checkpoint v2.0 had offered [three answers](/wiki/dark-matter/candidates) to the
 
 > Route (b) restores the mass only by adding a free dilution factor of at least 10³–10⁴ (ruling 2), probably far more (ruling 3). The mass would then no longer be a prediction, and the program does not trade falsifiability for survival.
 
-The factor of 10³–10⁴ is the overproduction at minimum production, 2.1×10³–1.2×10⁴ at the benchmark of 3×10¹³ GeV; "far more" refers to realistic production, which only adds monopoles ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)). A dilution factor chosen to fit would make the mass an output of the fit; the page on Lakatos's methodology reads such a factor as an ad hoc adjustment (the wiki's reading; [the declined rescue](/wiki/method/lakatosian-methodology#the-declined-rescue-of-the-soliton-candidate)).
+The factor of 10³–10⁴ is the overproduction at minimum production, 2.1×10³–1.2×10⁴ at the benchmark of 3×10¹³ GeV; "far more" refers to realistic production, which only adds monopoles ([overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction)). A dilution factor chosen to fit would make the mass an output of the fit; the page on Lakatos's methodology reads such a factor as an ad hoc adjustment (the wiki's reading; [the declined rescue](/wiki/method/lakatosian-methodology#the-declined-rescue-of-14s-model)).
 
 **Route (a), the low-scale model: noted as prior art, not claimed.**
 
@@ -81,7 +81,17 @@ The pre-registration had predicted the referee would say "the dark-matter propos
 
 **Route (c), retirement: chosen.** "The program's precedent is the clumping obituary: a dead claim is reported prominently and stays dead." The precedent is the death of momentum clumping, the program's founding image, in the clumping calculations ([Obituary: velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image); [negative results and dead claims](/wiki/method/negative-results)).
 
-The consequence: "the trilemma becomes two program-native candidates (gated χ particles; the X-condensate), plus the remark that the framework is compatible with known PeV-scale topological dark matter" ([χ particles](/wiki/dark-matter/candidates/chi-particles); [the X-condensate](/wiki/dark-matter/candidates/x-condensate)). #11 §12 records the verdict: "Retired as a program-native candidate. The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it." The root `CLAUDE.md`: "The superheavy soliton candidate in HANDOFF §2 is **dead** as a program-native proposal. The framework is merely compatible with known PeV-scale topological dark matter (prior art)." The candidate's obituary is [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary), and it is listed in [the graveyard](/wiki/status/graveyard).
+The consequence: "the trilemma becomes two program-native candidates (gated χ particles; the X-condensate), plus the remark that the framework is compatible with known PeV-scale topological dark matter" ([χ particles](/wiki/dark-matter/candidates/chi-particles); [the X-condensate](/wiki/dark-matter/candidates/x-condensate)); since #11 v2.4 the candidates are three again ([below](#narrowed-by-paul-2026-10-29)). From v2.1 to v2.3 #11 §12 recorded the verdict as "Retired as a program-native candidate. The framework is compatible with the prior-art PeV-scale scenario and adds nothing testable to it." The root `CLAUDE.md`: "The superheavy soliton candidate in HANDOFF §2 is **dead** as a program-native proposal. The framework is merely compatible with known PeV-scale topological dark matter (prior art)." The obituary, narrowed to #14's model since 2026-10-29 (below), is [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary), and it is listed in [the graveyard](/wiki/status/graveyard).
+
+### Narrowed by Paul (2026-10-29)
+
+Paul used the veto he had kept over the delegated decisions to narrow this one (the wiki's reading; the record calls it a narrowing). The adjudication now adds to Decision 2:
+
+> **Narrowed by Paul (2026-10-29):** "Don't kill them off unless theory and data kill them off and you ask me explicitly that I concur." This decision covers #14's model, which used ordinary kinematics. The candidate #14 modeled, conjugate monopoles localized in momentum, was never tested and is P.R.'s open conjecture again (#11 v2.4 §12). #14's model stays recorded dead until Paul answers the concurrence question put to him on 2026-10-29.
+
+#11 v2.4 §12 records the verdict on the model: "#14's model fails as a program-native proposal: with ordinary kinematics it is either overproduced or the prior-art PeV-scale scenario, to which the framework adds nothing testable. Its retirement was a decision P.R. delegated (round-3 Decision 2); the model stays recorded dead until he answers the concurrence question put to him on 2026-10-29. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture (table above; v2.4)." The root `CLAUDE.md` narrows its own bullet the same way: "(Narrowed 2026-10-29: this covers #14's model, which used ordinary kinematics; the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture, #11 v2.4 §12.)"
+
+What the decision weighed stands: route (b)'s free dilution factor stays rejected, route (a) stays prior art, and the reasons above concern #14's model, superheavy solitons of a hidden gauge sector moving in ordinary space. The precedent route (c) cited, that "a dead claim is reported prominently and stays dead", is the rule the root `CLAUDE.md` replaced the same day: "A claim is dead only when theory and data kill it and Paul explicitly concurs" ([negative results and dead claims](/wiki/method/negative-results); [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## Decision 3: the √N floor dropped
 
@@ -91,7 +101,7 @@ The handoff's queue had a calculation waiting for the candidate, item 3: "√N-f
 > - Its premise, Kibble as a ceiling, is inverted (ruling 3).
 > - Under decision 2 it has no candidate left to serve.
 
-Ruling 3 had established that one monopole per Hubble volume is the least a transition produces, so the Kibble count the argument treated as a ceiling is a floor. Ruling 10 bears on the same item: the strong-coupling annihilation the estimate was to address is, in the ruling's words, "Preskill's Dirac case, already done for hidden sectors". The root `CLAUDE.md`: "HANDOFF §8 queue item 3 is dropped." ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor))
+Ruling 3 had established that one monopole per Hubble volume is the least a transition produces, so the Kibble count the argument treated as a ceiling is a floor. Ruling 10 bears on the same item: the strong-coupling annihilation the estimate was to address is, in the ruling's words, "Preskill's Dirac case, already done for hidden sectors". The root `CLAUDE.md`: "HANDOFF §8 queue item 3 is dropped." ([Obituary: the √N topological floor](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor)) The narrowing of Decision 2 left Decision 3 as it was; the √N floor's recorded death stands, with Paul's concurrence asked on 2026-10-29.
 
 ## Decision 4: the toy Lagrangian next
 
@@ -146,17 +156,17 @@ The rule in the root `CLAUDE.md`: "A verification check confirms arithmetic, not
 | Decision | Recorded in | The root `CLAUDE.md` |
 | --- | --- | --- |
 | 1, strict sector separation | #11 §4, P4 | "Strict sector separation (P4 at face value) is in force." |
-| 2, the soliton candidate retired | #11 §12 | "**dead** as a program-native proposal" |
+| 2, the soliton candidate retired; narrowed by Paul on 2026-10-29 to #14's model | #11 §12, where since v2.4 #14's model "failed" and the candidate it modeled is P.R.'s open conjecture | "**dead** as a program-native proposal", with "(Narrowed 2026-10-29: this covers #14's model, which used ordinary kinematics; …)" |
 | 3, the √N floor dropped | the queue | "HANDOFF §8 queue item 3 is dropped." |
 | 4, the toy Lagrangian next | #11 §14 item 11; `papers/reciprocity-toy-models.md` | "done to the referees' wording" |
 
-The queue now runs, in the root `CLAUDE.md`'s order, through the remaining handoff items 5–7 and an optional round-5 review of the toy note ([open problems and the queue](/wiki/status/open-problems)).
+The queue now runs, in the root `CLAUDE.md`'s order, through the remaining handoff items 5–6 and an optional round-6 review of the toy note; until 2026-10-26 it ran through items 5–7 and an optional round-5 review ([open problems and the queue](/wiki/status/open-problems)).
 
 ## Sources
 
-- `review/round3-adjudication.md` 'Decisions' — the delegation, Decisions 1–4 with their reasons, routes (a)–(c) and the same-day execution; 'Lessons (now in CLAUDE.md)' — the two lessons; 'Verdict' — the two routes; 'Rulings' — rulings 2, 3, 7, 9, 10, 11 and 13 as the decisions cite them
-- `CLAUDE.md` 'Since the handoff (2026-10-19)' — the decisions in force and the queue; 'Method (HANDOFF §5)' — both lessons as rules; 'Working with Paul' — the roles and "Make the call and recommend"
-- `papers/broken-born-checkpoint-v2.md` header — the v2.1 changes; §2 — the caution added in v2.1; §4 — P4 strict; §12 — the obituary and verdict; §14 item 11 — the toy Lagrangian; footer — "decisions delegated by P. R. to Claude"
+- `review/round3-adjudication.md` 'Decisions' — the delegation, Decisions 1–4 with their reasons, routes (a)–(c), Decision 2's note "Narrowed by Paul (2026-10-29)" and the same-day execution; 'Lessons (now in CLAUDE.md)' — the two lessons; 'Verdict' — the two routes; 'Rulings' — rulings 2, 3, 7, 9, 10, 11 and 13 as the decisions cite them
+- `CLAUDE.md` 'Since the handoff (2026-10-19)' — the decisions in force, the narrowing of 2026-10-29 and the queue; 'Method (HANDOFF §5)' — both lessons as rules, and the rule on deaths of 2026-10-29; 'Working with Paul' — the roles and "Make the call and recommend"
+- `papers/broken-born-checkpoint-v2.md` header — the v2.1 changes; §2 — the caution added in v2.1; §4 — P4 strict; §12 — the obituary and verdict, as v2.1 to v2.3 and v2.4 state them; §14 item 11 — the toy Lagrangian; footer — "decisions delegated by P. R. to Claude"
 - `review/round3/referee/audit-notes.md` Step 1 — the referee's reading of Gherghetta et al.'s 10⁻¹³ as a floor
 - `review/v3-worklog.md` 'Round 3 outcome (2026-10-19)' — the decision left to Paul
 - `HANDOFF.md` §2 — open item 2, the √N floor; §8 — queue items 3 and 4

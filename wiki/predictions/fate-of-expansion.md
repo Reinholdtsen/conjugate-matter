@@ -136,7 +136,7 @@ No observation bears on the turnaround directly. The cited fits prefer a future 
 
 #11's audit of Paul's founding suppositions records item 7, "Our expansion reverses at their bounce", as "**alive, corrected**: one event, two descriptions; live at DESI DR3" (#11 App. A item 7). The correction is the identity: the supposition as worded has two linked events, and the constraint makes them one. "Live at DESI DR3" refers to the proxy, row 4 ([founding suppositions](/wiki/program/founding-suppositions#7-our-expansion-reverses-at-their-bounce)).
 
-The row is distinct from a dead neighbour. Founding supposition 9, "Their collapse is our acceleration", is "**dead twice**" (#11 App. A item 9): the conjugate side's collapse does not power our expansion ([Obituary: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)). Row 5 claims only that our future turnaround and the conjugate bounce are one event.
+The row is distinct from a neighbouring conjecture. Founding supposition 9, "Their collapse is our acceleration", is "**open**, P.R.'s conjecture [O] (v2.4)" (#11 App. A item 9): two versions failed, and the corrected dictionary's dual stiff ↦ Λ leaves a route, by which a conjugate universe whose contents are kinetic-dominated as it contracts would act on ours as a cosmological constant (§10; [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)). Until v2.4 its fate was "**dead twice**". It concerns our present acceleration; row 5 claims only that our future turnaround and the conjugate bounce are one event.
 
 ## Superseded: "after V(τ) < 0"
 

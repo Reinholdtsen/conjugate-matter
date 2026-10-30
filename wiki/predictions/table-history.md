@@ -7,7 +7,9 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md §14 item 9"
   - "papers/broken-born-checkpoint-v2.md header"
+  - "CLAUDE.md 'Since the handoff'"
   - "papers/broken-born-checkpoint-v2.md §7.5"
   - "notes/broken-born-program-v1.md §9"
   - "notes/broken-born-program-v1.md §11"
@@ -30,10 +32,11 @@ sources:
   - "notes/closed-universe.md §4"
   - "notes/closed-universe.md §7"
   - "review/wiki-build-flags.md item 55"
+  - "review/wiki-build-flags.md item 63"
   - "notes/gate-mechanism.md §5"
 ---
 
-*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Comatter program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the clumping calculation [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and the retired [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
+*The predictions table is the program's list of observations that could kill it: for each observable it gives what standard physics expects, what the Comatter program requires, and the result that would end the claim. The table has appeared in three documents: ten rows in [the lab notebook](/wiki/history/documents/lab-notebook) (#1 §9, v0.1), ten in the first consolidated paper (#9 §9, v1) and eleven in [the current checkpoint](/wiki/history/documents/checkpoint) (#11 §13). Between them, two rows were withdrawn when the clumping calculation [killed velocity clumping](/wiki/dark-matter/momentum-clumping/founding-image), a diagnostic row took their place, the lead row softened from an exponential cliff to a knee, a graviton row and a dark-sector row were added, and #14's [soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) of the third dark-matter candidate joined the list of withdrawn predictions. This page records those changes so that a row number in an older document can be read correctly.*
 
 **Status:** Record — the tables themselves carry no [provenance tags](/wiki/method/provenance-tags) — #11 §13 is the current table; the tables of #1 §9 and #9 §9 are superseded and kept as the audit trail, and #11's own v2.0 table survives only in the repository's history.
 
@@ -91,7 +94,7 @@ v2.0 also shortened the wording and dropped four details that v1 had carried: ro
 
 ## The checkpoint, v2.1: after round 3
 
-The [round-3](/wiki/method/review/round-3) review retired the third candidate, superheavy [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), and found DESI's second data release against the dark-energy row. #11 v2.1 (2026-10-19, commit e1c1f67) changed five entries of the table:
+In the [round-3](/wiki/method/review/round-3) review #14's model of the third candidate, superheavy [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), failed, and the review found DESI's second data release against the dark-energy row. v2.1 retired the candidate; v2.4 narrows the retirement to #14's model (below). #11 v2.1 (2026-10-19, commit e1c1f67) changed five entries of the table:
 
 | Row | v2.0 | v2.1 |
 | --- | --- | --- |
@@ -101,9 +104,15 @@ The [round-3](/wiki/method/review/round-3) review retired the third candidate, s
 | 11, requirement | "Particles / condensate / knots separable via rows 1–3 + compact-object lensing + coherence signatures" | "Particles vs condensate, separable via rows 1–3 + coherence signatures" |
 | Withdrawn | two items | adds "superheavy-soliton dark matter (obituary §12)" |
 
-DR2 is Data Release 2. The DR2 clause puts the dark-energy sector under real pressure ([row 4](/wiki/predictions/dark-energy-drift); root `CLAUDE.md`, 'Since the handoff'). The soliton candidate's obituary is [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary). "P4 strict" refers to strict sector separation under [postulate P4](/wiki/program/postulates/p4-polarized-matter). #11 v2.2 (2026-10-20) and v2.3 (2026-10-29) left §13 unchanged.
+DR2 is Data Release 2. The DR2 clause puts the dark-energy sector under real pressure ([row 4](/wiki/predictions/dark-energy-drift); root `CLAUDE.md`, 'Since the handoff'). The obituary of #14's model is [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary). "P4 strict" refers to strict sector separation under [postulate P4](/wiki/program/postulates/p4-polarized-matter). #11 v2.2 (2026-10-20) and v2.3 (2026-10-29) left §13 unchanged.
 
-The current list of withdrawn predictions (#11 §13): "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); superheavy-soliton dark matter (obituary §12)."
+v2.1's list of withdrawn predictions: "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); superheavy-soliton dark matter (obituary §12)."
+
+## The checkpoint, v2.4: the third candidate restored
+
+#11 v2.4 (2026-10-29) left the eleven rows unchanged and reworded one item of the withdrawn list, from "superheavy-soliton dark matter (obituary §12)" to "#14's superheavy-soliton model (§12)". On Paul's direction that a claim is dead only when theory and data kill it and he concurs, the candidate #14 modeled, conjugate monopoles localized in momentum, is a third dark-matter candidate again, as P.R.'s conjecture; #14 used ordinary kinematics and never tested it, and its model's failure stands (#11 §12; [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Open problem 9 now reads "Discriminating the three dark-sector candidates (§12) [O]" (#11 §14), while two rows still name two candidates: row 7's requirement reads "both dark-sector candidates SM-decoupled", and row 11's "Particles vs condensate" ([row 7](/wiki/predictions/direct-detection-null), [row 11](/wiki/predictions/dark-sector-microstructure)). Flag 63 in `review/wiki-build-flags.md`, raised by both reviewers of the restoration, proposes wording for a v2.4.1 that covers the third candidate in both rows; the ruling is pending, and the rows are unchanged until Paul rules.
+
+The current list of withdrawn predictions (#11 §13): "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)." Paul's concurrence in these recorded deaths was asked on 2026-10-29; until he answers, they stand as recorded (root `CLAUDE.md`, 'Since the handoff').
 
 ## Exposure and novelty over time
 
@@ -137,7 +146,7 @@ The clumping calc notes and #1 §9 use v0.1's numbers, in which row 3 is granula
 | Photon dispersion | 9 | 9 | [9](/wiki/predictions/photon-dispersion) |
 | Early universe | 10 | 10 | [10](/wiki/predictions/early-universe-step) |
 | Dark-sector microstructure | none | none | [11](/wiki/predictions/dark-sector-microstructure) |
-| Superheavy-soliton dark matter | none | none | withdrawn in v2.1 ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)) |
+| #14's superheavy-soliton model | none | none | withdrawn in v2.1, as "superheavy-soliton dark matter" ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)) |
 
 ## Superseded: the parameter count
 
@@ -153,7 +162,7 @@ The lab notebook paired its table with a count of two parameters per sector agai
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the two remaining candidates; §7.5 — five βₙ to two parameters; header — the v2.1, v2.2 and v2.3 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
+- `papers/broken-born-checkpoint-v2.md` §13 — the current eleven-row table and the withdrawn list; §15 — the exposure rows and the rows not previously posed; §12 — the three candidates since v2.4 and #14's failed model; §14 item 9 — the three candidates to discriminate; §7.5 — five βₙ to two parameters; header — the v2.1, v2.2, v2.3 and v2.4 change notes. #11 v2.0's table is quoted from the repository's history (commit 8d588f6, the imported text; commit e1c1f67, the v2.1 amendment).
 - `notes/broken-born-program-v1.md` §9 — v1's ten rows and its withdrawn list; §11 — its exposure rows and novel predictions; §0 — "two free parameters per sector"
 - `notes/broken-born-theory.md` §9, §10, §12 — v0.1's ten rows, its flagships, its parameter table and summary
 - `notes/broken-born-theory.md` 'Addendum (v0.2, after the clumping notes)', 'Addendum (v0.4)', 'Addendum (v0.6)' — the withdrawal of rows 3–4 and the island-discriminant row; the cliff-to-knee amendment; the spectrum behind the graviton row
@@ -161,6 +170,6 @@ The lab notebook paired its table with a count of two parameters per sector agai
 - `notes/x-classification.md` §4 — the downgrade from cliff to knee
 - `notes/beta-coefficients.md` §3 — the five-to-two reduction of the βₙ that postdates the v0.1 count
 - `HANDOFF.md` §2 — the dark-sector trilemma
-- `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked; item 27 — the sign of the potential, which bears on row 5's dropped "after V(τ) < 0", with its addendum; items 46, 48 and 49 — the over-constraint moved to Ω_k, the closed dual curvature and the underived dual term; item 55 — the gate's mechanism not derived, awaiting a ruling
+- `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked; item 27 — the sign of the potential, which bears on row 5's dropped "after V(τ) < 0", with its addendum; items 46, 48 and 49 — the over-constraint moved to Ω_k, the closed dual curvature and the underived dual term; item 55 — the gate's mechanism not derived, awaiting a ruling; item 63 — rows 7 and 11 still name two candidates, with the wording proposed for a v2.4.1, pending
 - `notes/gate-mechanism.md` §5 — rows 1–3 among the text that depends on the mechanism's tag
 - `notes/closed-universe.md` §2 — the closed turnaround and the over-constraint; §4 — the flat momentum fibre; §7 — the dual Einstein–Hilbert term

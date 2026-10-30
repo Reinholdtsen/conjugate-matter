@@ -162,7 +162,7 @@ The worklog's chunk 3 states what this means for the program: "In 3+1, the progr
 - **The origin of the potential.** [Open: the origin of the ρ-preserving potential](/wiki/symmetry-breaking/rho-preserving-potential); "a derivation of the ρ-preserving potential" is an open end in the root `CLAUDE.md`.
 - **The sign of the potential.** V₀[1 + cos(τ/f)] is never negative for V₀ > 0, yet the turnaround needs V < 0; no document reconciles the two ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). The flag's addendum finds the turnaround with V ≥ 0 in a closed universe, and the data in the program's model class disfavour closure at about 2σ.
 - **Mixing with the absorbed modes.** [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing).
-- **Kinetic or potential energy.** The lab notebook motivates near-constant dark energy as kinetic energy in the dual frame and then implements it as τ's potential energy; no document derives the link ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)).
+- **Kinetic or potential energy.** The lab notebook motivates near-constant dark energy as kinetic energy in the dual frame and then implements it as τ's potential energy; no document derives the link ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)). Since v2.4, #11 §10 lists how the dual-frame route "relates to τ's potential" as an open question of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration [O] ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 - **τ's lightness** among the ten moduli of Λ(d) at d = 4 is a postulate [P] (#1 §2), and the fate of the other nine is open ([Open: field content of the broken vacuum](/wiki/phase-space/modular-field/field-content)).
 
 ## History
@@ -191,7 +191,7 @@ So rigidity of ω alone does not tilt the circle; the potential's periodicity [D
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §10 — the identification and its tag, the fits, the "Under pressure (v2.1)" paragraph, the toy-model support and its limit
+- `papers/broken-born-checkpoint-v2.md` §10 — the identification and its tag, the fits, the "Under pressure (v2.1)" paragraph, the toy-model support and its limit; since v2.4, founding supposition 9 [O] and its open question on τ's potential
 - `CLAUDE.md` 'Since the handoff' — "under real pressure ahead of DR3"; the derivation of the ρ-preserving potential as an open end
 - `papers/broken-born-checkpoint-v2.md` §4 — P2′ and its v2.2 refinement; §6 — τ as the Maslov phase of the Shilov boundary; §7.3 — the wedge sector's zero vacuum energy and its scope; §7.5 — τ un-eaten; §13 rows 4–5 — the tests; §15 — the degeneration risk
 - `papers/reciprocity-toy-models.md` §2, §4, §6 — the compact Goldstone angle, the bounded potential V_b at H = 1, "Motivation, not result"

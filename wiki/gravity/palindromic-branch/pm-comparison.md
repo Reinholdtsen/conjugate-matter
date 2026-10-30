@@ -100,7 +100,7 @@ The [S] marks mean that all three works were retrieved by live search during the
 
 ## Place in the queue
 
-- The handoff ranked the comparison fifth in its next-actions queue (HANDOFF §8 item 5), after cutting and re-auditing the soliton manuscript, whose candidate has since died ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)), the [√N-floor freeze-out estimate](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) and the [toy Lagrangian](/wiki/symmetry-breaking/toy-models).
+- The handoff ranked the comparison fifth in its next-actions queue (HANDOFF §8 item 5), after cutting and re-auditing the soliton manuscript, whose model has since failed ([obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)), the [√N-floor freeze-out estimate](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) and the [toy Lagrangian](/wiki/symmetry-breaking/toy-models).
 - Since the handoff, items 1, 2, 4 and 7 of that queue have been done and item 3 dropped; item 7 was [the phase-space-diameter note](/wiki/cosmology/scale-factor-duality/phase-space-diameter). Root `CLAUDE.md`, "Since the handoff": "HANDOFF §8 queue item 3 is dropped. The current queue, in order: 1. HANDOFF §8 items 5–6: the partially-massless comparison and the † literature battery (Born 1938 and 1949 were retrieved for the diameter note; see its §4). 2. Optional: a round-6 review of the toy note, but only before any external use."
 - The comparison is therefore the first-named task of the first queue item, beside [the † literature battery](/wiki/method/literature-battery) ([open problems and the queue](/wiki/status/open-problems)). No calculation, note or script for it exists in the repository.
 

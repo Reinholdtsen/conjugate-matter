@@ -12,6 +12,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "review/round3-adjudication.md 'Decisions'"
+  - "CLAUDE.md 'Since the handoff'"
   - "notes/broken-born-theory.md §5.2"
   - "notes/broken-born-theory.md §5.1"
   - "notes/broken-born-theory.md §9"
@@ -39,9 +40,9 @@ sources:
   - "notes/gate-mechanism.md §5"
 ---
 
-*Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The clumping calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics and stays dead.*
+*Velocity clumping was the program's founding picture of dark matter: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The clumping calculation tested it and found it impossible for particle dark matter, fatal where it would be mandatory for wave dark matter, and merely optional elsewhere. The claim is dead as dynamics, and Paul's concurrence in its death was asked on 2026-10-29.*
 
-**Status:** Dead — killed by [the clumping problem](/wiki/history/main-problems): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([#11](/wiki/history/documents/checkpoint) §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and [the handoff](/wiki/history/documents/handoff) lists it among its dead claims, to be kept dead (`HANDOFF.md` §2). Since 2026-10-28 `verify/velocity_gated_gravity.py` (section D) reproduces calc note #2's two shortfall ratios in the gate; #11 §9's tag stays [D] until Paul rules, and no script covers the other clumping numbers (flag 16 in `review/wiki-build-flags.md`, addendum; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The obituary covers the program's contact-range interaction; a long-range attraction gated in relative velocity is a different model ([what the obituary covers](#what-the-obituary-covers)). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
+**Status:** Dead — killed by [the clumping problem](/wiki/history/main-problems): [D] on the particle island and [D + T] on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([#11](/wiki/history/documents/checkpoint) §9). Founding supposition 3, "Matter clumps in momentum space", is "dead as dynamics" (#11 App. A item 3; [founding suppositions](/wiki/program/founding-suppositions)), and [the handoff](/wiki/history/documents/handoff) lists it among its dead claims, to be kept dead (`HANDOFF.md` §2). Paul's concurrence in the death was asked on 2026-10-29; until he answers, it stands as recorded (root `CLAUDE.md`, 'Since the handoff'). Since 2026-10-28 `verify/velocity_gated_gravity.py` (section D) reproduces calc note #2's two shortfall ratios in the gate; #11 §9's tag stays [D] until Paul rules, and no script covers the other clumping numbers (flag 16 in `review/wiki-build-flags.md`, addendum; [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The obituary covers the program's contact-range interaction; a long-range attraction gated in relative velocity is a different model ([what the obituary covers](#what-the-obituary-covers)). Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [the graveyard](/wiki/status/graveyard).
 
 ## What was claimed
 
@@ -129,9 +130,9 @@ Calc note #2's threshold for narrow gates is itself flagged: its form overstates
 
 - **[The island discriminant](/wiki/predictions/island-discriminant)**, now row 3 of [the predictions table](/wiki/predictions). The sharpness of the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) in the self-interaction cross-section would tell particle dark matter from wave dark matter. #11 §13 lists it as "(not previously posed)".
 - **[Relic abundance by misalignment](/wiki/dark-matter/momentum-clumping/wave-island/misalignment-relic)** on the wave island, which removes the notebook's relic-abundance problem there.
-- **The loophole.** The clumping problem tested collective dynamics only. #11 App. A item 3 records: "**loophole**: topological p-localization of individual solitons untested, and its candidate is retired (§12)". The candidate was the superheavy soliton, whose [obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) is in the candidates section; the loophole now "remains untested, but has no candidate" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+- **The loophole.** The clumping problem tested collective dynamics only. #11 App. A item 3 records: "**loophole**: topological p-localization of individual solitons untested; its candidate, p-localized conjugate monopoles, is P.R.'s open conjecture (§12; v2.4)". The loophole "remains untested; its candidate is P.R.'s conjecture of conjugate monopoles" (#11 §12; [the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole); [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). #14's model of that candidate, superheavy solitons described with ordinary kinematics, failed, and its [obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary) is in the candidates section; from v2.1 to v2.3 App. A item 3 read "its candidate is retired (§12)".
 
-[The round-3 adjudication](/wiki/method/review/round-3/decisions) cites this obituary as a precedent for retiring the soliton candidate (`review/round3-adjudication.md`, 'Decisions').
+[The round-3 adjudication](/wiki/method/review/round-3/decisions) cites this obituary as a precedent for retiring the soliton candidate, a decision Paul narrowed on 2026-10-29 to #14's model (`review/round3-adjudication.md`, 'Decisions').
 
 ## Where the records differ
 
@@ -142,7 +143,8 @@ Calc note #2's threshold for narrow gates is itself flagged: its form overstates
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §9 — the obituary, its tags and the salvage; App. A item 3 — founding supposition 3, "dead as dynamics", and the loophole; §12 — the loophole's current wording; §1 — "most cherished consequence"; §2 — negative results as the most reliable Tier-3 items; §8 — the gate in plain language; §13 — the island discriminant as row 3
-- `review/round3-adjudication.md` 'Decisions' — the clumping obituary as precedent
+- `review/round3-adjudication.md` 'Decisions' — the clumping obituary as precedent; Paul's narrowing of Decision 2 to #14's model
+- `CLAUDE.md` 'Since the handoff' — Paul's concurrence in the death asked on 2026-10-29
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark', 'Corollary (the classicality theorem)' — the particle-island test
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the wave-island scenarios
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the falsification and the permanent withdrawal of rows 3–4

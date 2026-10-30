@@ -26,9 +26,9 @@ sources:
   - "review/wiki-build-flags.md item 49"
 ---
 
-*A first-order phase transition in the early universe proceeds by bubbles of the new phase forming, growing and colliding, much as water boils, and the collisions and the sound waves they leave in the plasma produce gravitational waves that arrive today from every direction as a random background. The waves' characteristic frequency is set at the transition by its temperature and duration and has been stretched by the expansion ever since, so a transition at a higher temperature leaves a higher frequency today. A related background, the primordial one, comes from [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), and its spectrum records how fast the universe expanded at each early epoch. The program met this physics in two places: the hidden-sector transition of its [retired soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), whose signal would have lain far above the frequencies of current detectors, and an early idea, since [dropped](/wiki/predictions/early-universe-step), that its conjugate gravity sector would leave a step in the primordial gravitational-wave background.*
+*A first-order phase transition in the early universe proceeds by bubbles of the new phase forming, growing and colliding, much as water boils, and the collisions and the sound waves they leave in the plasma produce gravitational waves that arrive today from every direction as a random background. The waves' characteristic frequency is set at the transition by its temperature and duration and has been stretched by the expansion ever since, so a transition at a higher temperature leaves a higher frequency today. A related background, the primordial one, comes from [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), and its spectrum records how fast the universe expanded at each early epoch. The program met this physics in two places: the hidden-sector transition of #14's [model of its soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), which failed, whose signal would have lain far above the frequencies of current detectors, and an early idea, since [dropped](/wiki/predictions/early-universe-step), that its conjugate gravity sector would leave a step in the primordial gravitational-wave background.*
 
-**Status:** Established — [T] — textbook physics, written here from general knowledge; references the wiki adds are from model memory (†). The retired candidate's frequency band was recomputed by the referee of [review round 3](/wiki/method/review/round-3), and its corrected upper end, 3.2×10⁷ Hz, is a [V] check in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)); the band itself died with the candidate. The program's own spectral step was dropped and is not machine-checked.
+**Status:** Established — [T] — textbook physics, written here from general knowledge; references the wiki adds are from model memory (†). The frequency band of #14's model was recomputed by the referee of [review round 3](/wiki/method/review/round-3), and its corrected upper end, 3.2×10⁷ Hz, is a [V] check in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)); the band itself died with the model. The program's own spectral step was dropped and is not machine-checked.
 
 ## First-order transitions [T]
 
@@ -93,13 +93,13 @@ This is the sense of the spectral step in the [lab notebook](/wiki/history/docum
 
 ## Where the program met it
 
-### The retired candidate's hidden transition
+### The hidden transition of #14's model
 
 The withdrawn manuscript [#14](/wiki/dark-matter/candidates/soliton-candidate) placed its superheavy [monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole) in a [hidden SU(2) sector broken to U(1)](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) at a scale v, "v ~ (0.8-1.4)e12 GeV" at its benchmark (#14 §3). If that symmetry breaking were first order, it would leave a background (#14 §4):
 
 > If the hidden transition is first order, it sources a stochastic gravitational-wave background with a present-day peak frequency of ~1e5 to 1e7 Hz for f\*/H\* = 1-100. That is above the LIGO band, in the unconstrained ultra-high-frequency window targeted by proposed detectors.
 
-LIGO is the Laser Interferometer Gravitational-Wave Observatory, a ground-based detector. The candidate, and with it this band, is dead ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the numbers below are kept as the record of the soliton episode.
+LIGO is the Laser Interferometer Gravitational-Wave Observatory, a ground-based detector. #14's model failed, and this band died with it ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the numbers below are kept as the model's record.
 
 **The referee's recomputation.** The round-3 referee evaluated the formula above at T\* = v for the two ends of v3's range of v, 8.09×10¹¹ and 1.45×10¹² GeV, at f\*/H\* = 1 and 100, and at g\* = 106.75 and 122.75, the visible count without and with the hidden sector's 16 effective degrees of freedom added (`step2a.py`). The output runs from "f0 = 1.35e+05 Hz" to "f0 = 2.47e+07 Hz" (`step2a.out`), and the audit table records the band "1.35e5 - 2.47e7 Hz" against v3's "1e5 - 1e7 Hz" as "CONFIRMED" (`review/round3/referee/audit-notes.md`, Step 2).
 
@@ -110,7 +110,7 @@ LIGO is the Laser Interferometer Gravitational-Wave Observatory, a ground-based 
 PASS  knock-on: GW upper end 3.2e7 Hz at the withdrawn benchmark  [3.17e+07]
 ```
 
-The two upper ends, 2.47×10⁷ and 3.2×10⁷ Hz, differ in the transition temperature: the referee used T\* = v, and the script, which reproduces the adjudication's figure, T\* = v/ξ. They also differ slightly in g\*: the referee's 2.47×10⁷ is at g\* = 122.75, and at g\* = 106.75 the same T\* and f\*/H\* give "f0 = 2.41e+07 Hz" (`step2a.out`). The adjudication's value governs. The division by ξ has a plain reading (the wiki's): the hidden transition happens when the hidden plasma is at about v, and a hidden sector colder by ξ reaches that temperature when the visible plasma, which carries most of the energy and sets the redshift, is at v/ξ. The referee used the same relation for the reheating temperature the candidate needed ([inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution)).
+The two upper ends, 2.47×10⁷ and 3.2×10⁷ Hz, differ in the transition temperature: the referee used T\* = v, and the script, which reproduces the adjudication's figure, T\* = v/ξ. They also differ slightly in g\*: the referee's 2.47×10⁷ is at g\* = 122.75, and at g\* = 106.75 the same T\* and f\*/H\* give "f0 = 2.41e+07 Hz" (`step2a.out`). The adjudication's value governs. The division by ξ has a plain reading (the wiki's): the hidden transition happens when the hidden plasma is at about v, and a hidden sector colder by ξ reaches that temperature when the visible plasma, which carries most of the energy and sets the redshift, is at v/ξ. The referee used the same relation for the reheating temperature #14's model needed ([inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution)).
 
 **The amplitude.** #14 noted that the signal is suppressed by the hidden sector's small share of the energy density at ξ < 0.77 (quoted above). #14 gave no amplitude, and the round-3 record contains none.
 
@@ -150,7 +150,7 @@ The † entries are from model memory and unverified; none is cited in the progr
 - `review/round3/referee/audit-notes.md` Step 2 — the recomputed band, confirmed; Step 4(a) item 2 — bubble counting against v3's p = 1
 - `review/round3/referee/step2a.py`, `review/round3/referee/step2a.out` — the referee's peak-frequency inputs and outputs
 - `review/round3/referee/step4.py`, `review/round3/referee/step4.out` — p ~ 104 (β/H)³ for a first-order transition
-- `notes/knot-dark-matter-standalone.md` §3, §4 — the withdrawn candidate's p bracket, band, amplitude remark and crossover remark (withdrawn)
+- `notes/knot-dark-matter-standalone.md` §3, §4 — the p bracket, band, amplitude remark and crossover remark of #14's model (withdrawn manuscript)
 - `notes/broken-born-theory.md` §6, §9 row 10, §10 — the spectral step [D], the lab notebook's row 10 and its parameter table
 - `notes/broken-born-program-v1.md` §8, §9 row 10 — the step dropped in v1
 - `papers/broken-born-checkpoint-v2.md` §13 row 10 — the current row, without it

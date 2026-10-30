@@ -2,18 +2,20 @@
 title: "Open: dual kinetic energy versus τ's potential"
 weight: 60
 status: open
-description: "The lab notebook motivates near-constant dark energy as kinetic energy in the dual frame (w̃ = +1 ↦ w = −1) but implements it as τ's potential energy; no document derives the link."
+description: "The lab notebook motivates near-constant dark energy as kinetic energy in the dual frame (w̃ = +1 ↦ w = −1) but implements it as τ's potential energy; no document derives the link, and since #11 v2.4 it is open as part of P.R.'s conjecture that conjugate collapse powers our expansion."
 sources:
   - "notes/broken-born-theory.md §6"
   - "notes/broken-born-theory.md §7"
   - "notes/broken-born-theory.md §3"
   - "papers/broken-born-checkpoint-v2.md §10"
+  - "papers/broken-born-checkpoint-v2.md App. A item 9"
+  - "CLAUDE.md 'Since the handoff'"
   - "notes/broken-born-program-v1.md §8"
 ---
 
-*This open problem is a gap between two explanations of dark energy that stand side by side in the program's [lab notebook](/wiki/history/documents/lab-notebook). The first comes from the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary): kinetic energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) acts on our expansion like a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#dual-kinetic-energy-acts-as-a-λ), so the notebook names it the natural source of a near-constant dark energy. The second is the explanation the program uses: dark energy is the potential energy of the field τ ([hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)), held near the top of its potential. No document derives the second from the first, so the step from the motivation to the identification of dark energy with τ is asserted rather than derived.*
+*This open problem is a gap between two explanations of dark energy that stand side by side in the program's [lab notebook](/wiki/history/documents/lab-notebook). The first comes from the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary): kinetic energy in the conjugate, momentum-space description of the universe ([the conjugate universe](/wiki/program/conjugate-universe)) acts on our expansion like a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant#dual-kinetic-energy-acts-as-a-λ), so the notebook names it the natural source of a near-constant dark energy. The second is the explanation the program uses: dark energy is the potential energy of the field τ ([hilltop quintessence](/wiki/cosmology/dark-energy/tau-quintessence)), held near the top of its potential. No document derives the second from the first, so the step from the motivation to the identification of dark energy with τ is asserted rather than derived. Since 2026-10-29 the checkpoint lists the same question as open, as part of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration, whose one remaining route is the dual-frame kinetic energy.*
 
-**Status:** Open — untagged; not among [#11](/wiki/history/documents/checkpoint) §14's open problems — the gap was found by reading #1 §6 and §7 side by side when the sources were inventoried for this wiki, and no document addresses it. Listed on [open problems](/wiki/status/open-problems). It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence).
+**Status:** Open — [O] since [#11](/wiki/history/documents/checkpoint) v2.4, inside §10's paragraph on founding supposition 9; not among #11 §14's open problems — the gap was found by reading #1 §6 and §7 side by side when the sources were inventoried for this wiki, and since v2.4 #11 §10 lists "how this route relates to τ's potential" as open; no document resolves it. Listed on [open problems](/wiki/status/open-problems). It qualifies [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) and [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion).
 
 ## The question
 
@@ -52,13 +54,15 @@ Either explanation alone gives a near-constant dark energy. What is missing is t
 
 ## In the current documents
 
-- **#11 §10** keeps both ingredients as separate statements, "Dual stiff ↦ Λ" in the dictionary and "τ is hilltop quintessence on the Maslov circle" under dark energy, and does not connect them.
-- **#9 §8** does the same: "Dual stiff ↦ Λ" in the dictionary bullet and "τ is hilltop quintessence on the Maslov circle" in the dark-energy bullet.
-- Neither the root `CLAUDE.md` queue nor #11 §14 lists the gap. It came to light when the lab notebook's sections were read side by side for this wiki, and it is recorded on [conflicts between sources](/wiki/history/documents/source-conflicts) as unresolved.
+- **#11 §10** keeps both ingredients as separate statements, "Dual stiff ↦ Λ" in the dictionary and "τ is hilltop quintessence on the Maslov circle" under dark energy. Since v2.4 a paragraph between them names the question without answering it: "**Founding supposition 9 [O] (P.R.; v2.4).** [...] The corrected dictionary keeps a route: dual stiff ↦ Λ, so a conjugate universe whose contents are kinetic-dominated as it contracts would act on ours as a cosmological constant, and the lab notebook already names "kinetic energy in the dual frame" as "the natural source of a near-constant dark energy" (#1 §6). Whether the contracting conjugate universe is kinetic-dominated, and how this route relates to τ's potential, are open." ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
+- **#9 §8** keeps the two statements apart: "Dual stiff ↦ Λ" in the dictionary bullet and "τ is hilltop quintessence on the Maslov circle" in the dark-energy bullet.
+- **The root `CLAUDE.md`** lists, among the open items recorded on 2026-10-29 and not queued, "for App. A item 9: whether the contracting conjugate universe is kinetic-dominated, and how dual stiff ↦ Λ relates to τ's potential" ('Since the handoff'). #11 §14 does not list the gap. It first came to light when the lab notebook's sections were read side by side for this wiki, and it is recorded on [conflicts between sources](/wiki/history/documents/source-conflicts) as unresolved.
 
 ## What depends on it
 
 On the wiki's reading of the documents, none of the program's derived results depends on the motivation: τ's identification as the Maslov phase ([τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase)), the [no-phantom bound](/wiki/cosmology/dark-energy/no-phantom-bound) and the [over-constraint](/wiki/cosmology/dark-energy/over-constraint) all start from τ's potential, not from the dual-frame kinetic energy. The gap concerns why dark energy should be τ at all, the explanatory link between the dictionary and the dark-energy sector.
+
+One conjecture does depend on it. P.R.'s founding supposition 9, "Their collapse is our acceleration", is open since #11 v2.4 only through the dual-frame kinetic energy: its two versions failed, and what keeps it open is the dictionary's entry dual stiff ↦ Λ (#11 §10, App. A item 9; [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 
 ## Related open problems
 
@@ -70,5 +74,6 @@ On the wiki's reading of the documents, none of the program's derived results de
 - `notes/broken-born-theory.md` §6 — the dictionary table and the kinetic-energy motivation, with τ named as the candidate
 - `notes/broken-born-theory.md` §7 — τ as hilltop quintessence
 - `notes/broken-born-theory.md` §3 — the potential V₀[1 + cos(τ/f)]
-- `papers/broken-born-checkpoint-v2.md` §10 — both statements, unconnected
+- `papers/broken-born-checkpoint-v2.md` §10 — both statements, and since v2.4 the paragraph on founding supposition 9 that lists their relation as open; App. A item 9 — the supposition's fate, open
+- `CLAUDE.md` 'Since the handoff' — the same question among the open items of 2026-10-29, not queued
 - `notes/broken-born-program-v1.md` §8 — the same two statements in v1, unconnected

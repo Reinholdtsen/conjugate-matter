@@ -51,7 +51,7 @@ The pre-registration was scored a miss: "Three survive (p; the ψ window; ξ), p
 - **ξ**, an input value: "Using N_eff,SM = 3.044, the 95% bound is ΔN_eff < 0.286" (ruling 5; SM is the Standard Model; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 - **The ε coefficient**, an assumed coupling: the "O(1) coefficient at the Planck scale" for the [kinetic-mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) operator "is unsupported" (ruling 7; [the dimension-5 operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
 
-No arithmetic slip survived. The consequence was still fatal to the candidate ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+No arithmetic slip survived. The consequence was still fatal to #14's model ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ### The failure mode moved
 

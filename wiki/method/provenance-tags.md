@@ -2,7 +2,7 @@
 title: "Provenance tags and citation marks"
 weight: 30
 status: method
-description: "[D] derived, [T] literature, [P] postulate, [O] open, [V] machine-verified; † recalled from memory and [S] live-searched; how they combine, how a tag changes, the variants in other documents, and how the system grew from v0.1 to v2.3."
+description: "[D] derived, [T] literature, [P] postulate, [O] open, [V] machine-verified; † recalled from memory and [S] live-searched; how they combine, how a tag changes, the variants in other documents, and how the system grew from v0.1 to v2.4."
 sources:
   - "papers/broken-born-checkpoint-v2.md header"
   - "papers/broken-born-checkpoint-v2.md 'References'"
@@ -27,7 +27,7 @@ sources:
   - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
 ---
 
-*Provenance tags are the bracketed labels that the program's papers attach to every claim to say where it comes from: [D] derived in the program, [T] taken from the established literature, [P] postulated, [O] open, or [V] checked by machine. Citations carry a second mark: [S] if the reference was retrieved by a live search during the project, † if it was recalled from the model's memory and still has to be checked against the source. The tags let a reader who cannot check the physics see what kind of support each statement has, and they change only when the support changes. The wiki copies them exactly as the sources attach them and never upgrades one.*
+*Provenance tags are the bracketed labels that the program's papers attach to every claim to say where it comes from: [D] derived in the program, [T] taken from the established literature, [P] postulated, [O] open, or [V] checked by machine. Citations carry a second mark: [S] if the reference was retrieved by a live search during the project, † if it was recalled from the model's memory and still has to be checked against the source. The tags let a reader who cannot check the physics see what kind of support each statement has, and they change when the support changes, or, as in #11 v2.4, when a claim recorded dead is reopened. The wiki copies them exactly as the sources attach them and never upgrades one.*
 
 **Status:** Method, in force — the tags define themselves — current form in #11's header and root `CLAUDE.md` ('Method'); checking every † reference is the open [literature battery](/wiki/method/literature-battery).
 
@@ -45,7 +45,7 @@ sources:
 | [T] | established literature | strongly coupled monopoles in a weakly coupled hidden sector, "by Dirac quantization [T]" (§12) |
 | [P] | postulate | the [postulates P1–P5](/wiki/program/postulates) (§4) |
 | [O] | open | the twelve items of §14 ([open problems](/wiki/status/open-problems)) |
-| [V] | machine-verified | the [soliton obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)'s numbers, "gated in `verify/soliton_obituary.py`" (§12) |
+| [V] | machine-verified | the numbers of [#14's failed soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary), "gated in `verify/soliton_obituary.py`" (§12) |
 | [S] | reference retrieved by live search | [26S], Freidel–Leigh–Minic's [metastring paper](/wiki/phase-space/reciprocity/broken-born-duality) |
 | † | reference cited from model memory | [8†], [the multi-graviton no-go](/wiki/gravity/spin-2-fields/multi-graviton-no-go) |
 
@@ -63,11 +63,12 @@ Tags record where a claim comes from; how far it can be trusted is a separate gr
 
 ## How a tag changes
 
-A tag changes when the support for a claim changes, and the record shows three kinds of change.
+A tag changes when the support for a claim changes, and the record shows three kinds of such change, and since 2026-10-29 a fourth that follows a change of rule.
 
 - **[D] to [T][V]: a derivation found in the literature.** #11 v2.0 presented the compatibility theorem as derived. Review round 3 identified it as essentially a [Born-geometry](/wiki/phase-space/born-geometry) result of Freidel, Leigh and Minic, and the adjudication concluded: "Unless a comparison shows otherwise, the checkpoint's "[D] derived here" tag on it should become [T] with that citation." (`review/round3-adjudication.md`). v2.1 re-tagged it [T][V]: "The block proof and the machine check are this program's." (#11 §5). Nothing in the mathematics changed. The toy-model worklog drew the lesson for later work, making a prior-art search its first [success criterion](/wiki/symmetry-breaking/toy-models/success-criteria): "Each element of the toy is either new or cited. (Lesson of the compatibility theorem, which turned out to be Freidel–Leigh–Minic's.)" (`notes/toy-lagrangian.md`, 'Success criteria', S0).
 - **† to [S]: a memory citation checked.** In #11 v2.0 reference [21], the second data release of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI), was marked †. v2.1 retrieved it and changed the mark: "References [21] upgraded to [S]; [26]-[29] added, all INSPIRE-checked" (repository history, commit e1c1f67). The remaining † references are the [literature battery](/wiki/method/literature-battery).
 - **A flag to a mark.** The v1 paper tagged the [quintessence](/wiki/cosmology/dark-energy/quintessence) fits it cited "[T — refresh citations before publication]" (#9 §8); #11 cites the same works as [19][S] and [20][S].
+- **A recorded death to [O]: a claim reopened.** #11 v2.4 tags as open [O], P.R.'s conjectures, three founding ideas it had recorded dead or retired without his concurrence, under his rule that a claim is dead only when theory and data kill it and he concurs (root `CLAUDE.md`, 'Method'): "Founding supposition 9 [O] (P.R.; v2.4)" (§10), the explanation of the monopole null result, "open [O], P.R.'s conjecture" (§11.1), and the third dark-matter candidate, whose stability is "topological charge [O]" (§12). The evidence against each is stated beside it ([negative results and dead claims](/wiki/method/negative-results#restored-on-2026-10-29)).
 
 ## Variants in other documents
 
@@ -80,7 +81,7 @@ A tag changes when the support for a claim changes, and the record shows three k
 
 - **v0.1, the lab notebook.** #1 §0, "Epistemic scope": "[P] postulate — assumed, with motivation"; "[D] derived — follows from the postulates by calculation shown or sketched here"; "[T] theorem — established in the literature, cited"; "[O] open — not yet derived or decided". It also uses mixed forms such as "[D, schematic]", "[O, sketched]" and "[P/O]", and states its scope: the document is "not a UV-complete quantum gravity". See [The lab notebook (#1) and its addenda](/wiki/history/documents/lab-notebook).
 - **v1.0.** The v1 paper (#9 header): "[D] derived here, [T] established literature, [P] postulate, [O] open", with qualified forms such as "[D — rigorous]", "[T — verify figure]" and "[O — direction, deliberately unopened]". Its provenance note asks that "All citations flagged [T — verify] should be checked against sources before any submission." (#9 §11).
-- **v2.0 to v2.3.** Checkpoint #11 added [V], the citation marks [S] and †, and the claim tiers. The handoff summarizes v2.0 as having "25 references flagged † (memory — verify) vs [S] (live-searched)" (`HANDOFF.md` §3). v2.1 changed the compatibility theorem's tag and reference [21]'s mark, and added references [26]–[29] marked [S]. See [The checkpoint: #9 to #11 v2.3](/wiki/history/documents/checkpoint).
+- **v2.0 to v2.4.** Checkpoint #11 added [V], the citation marks [S] and †, and the claim tiers. The handoff summarizes v2.0 as having "25 references flagged † (memory — verify) vs [S] (live-searched)" (`HANDOFF.md` §3). v2.1 changed the compatibility theorem's tag and reference [21]'s mark, and added references [26]–[29] marked [S]; v2.4 tagged [O] the three ideas it reopened. See [The checkpoint: #9 to #11 v2.4](/wiki/history/documents/checkpoint).
 
 ## In the wiki
 
@@ -88,7 +89,7 @@ Each page copies its sources' tags exactly and never upgrades one; an explanatio
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` header and 'References' preamble — the current definitions; §2 — the reason and the v2.1 caution; §5 — the re-tagged compatibility theorem; §10, §11.3, §12 — qualified forms
+- `papers/broken-born-checkpoint-v2.md` header and 'References' preamble — the current definitions; §2 — the reason and the v2.1 caution; §5 — the re-tagged compatibility theorem; §10, §11.3, §12 — qualified forms; §10, §11.1, §12 — the [O] of the three ideas v2.4 reopened
 - Root `CLAUDE.md` 'Method' and `HANDOFF.md` §5 — the rule "Tag every claim"
 - `review/round3-adjudication.md` 'Rulings' — the re-tagging recommendation
 - Repository history, commit e1c1f67 — reference [21] upgraded to [S], [26]–[29] added

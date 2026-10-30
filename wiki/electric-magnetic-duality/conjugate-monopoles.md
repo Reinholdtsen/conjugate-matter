@@ -2,45 +2,54 @@
 title: "Conjugate monopoles as ontology"
 weight: 60
 status: alive
-description: "The surviving half of the split claim: if conjugate-sector monopoles exist they gravitate, so 'true but irrelevant' is empty; their dark-matter candidacy is retired."
+description: "The ontology half of founding supposition 5: if conjugate-sector monopoles exist they gravitate, so 'true but irrelevant' is empty. Since #11 v2.4, P.R. conjectures that they are abundant in momentum space and their dark-matter candidacy is open; #14's model of the candidate failed."
 provenance: [D]
 sources:
   - "papers/broken-born-checkpoint-v2.md §11.1"
   - "papers/broken-born-checkpoint-v2.md App. A item 5"
   - "papers/broken-born-checkpoint-v2.md App. A item 3"
+  - "papers/broken-born-checkpoint-v2.md App. A item 4"
   - "papers/broken-born-checkpoint-v2.md §11 (italic opening)"
   - "papers/broken-born-checkpoint-v2.md §11.4"
   - "papers/broken-born-checkpoint-v2.md §4"
   - "papers/broken-born-checkpoint-v2.md §5"
   - "papers/broken-born-checkpoint-v2.md §8"
+  - "papers/broken-born-checkpoint-v2.md §9 (italic opening)"
   - "papers/broken-born-checkpoint-v2.md §12"
   - "papers/broken-born-checkpoint-v2.md §13"
   - "papers/broken-born-checkpoint-v2.md §14 item 8"
   - "papers/broken-born-checkpoint-v2.md ref [16]"
-  - "HANDOFF.md §2"
   - "CLAUDE.md 'Since the handoff'"
+  - "HANDOFF.md §2"
   - "review/wiki-build-flags.md flag 62"
   - "review/round3-adjudication.md 'Decisions' 1"
   - "review/round3-adjudication.md 'Decisions' 2"
+  - "notes/knot-dark-matter-standalone.md §1"
 ---
 
-*Conjugate monopoles are hypothetical [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), or other [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), belonging to the program's momentum-polarized matter sector rather than to ours. [The checkpoint](/wiki/history/documents/checkpoint) keeps one statement about them: if they exist, they gravitate, because every kind of matter in the program couples to the same geometry, so their existence could not be without consequence. Their use as the [dark matter](/wiki/dark-matter) itself, the superheavy [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), was retired on 2026-10-19 after its abundance arithmetic failed review. What remains is a statement about what such objects would do, not a claim that they exist.*
+*Conjugate monopoles are hypothetical [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), or other [topological solitons](/wiki/symmetry-breaking/topological-defects#topological-and-non-topological-solitons-t), belonging to the program's momentum-polarized matter sector rather than to ours. [The checkpoint](/wiki/history/documents/checkpoint) keeps one statement about them as alive: if they exist, they gravitate, because every kind of matter in the program couples to the same geometry, so their existence could not be without consequence. Since v2.4 (2026-10-29) it adds P.R.'s conjecture that they are abundant in momentum space, and lists them again as a candidate for the [dark matter](/wiki/dark-matter), held in momentum by topology. That conjecture is open and has [its own page](/wiki/dark-matter/candidates/momentum-space-monopoles). The one model built of them, the withdrawn manuscript #14's superheavy monopoles of a hidden gauge sector, used ordinary kinematics and failed review on 2026-10-19 ([its obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)); it never treated them as localized in momentum. The statement on this page is about what such objects would do, not a claim that they exist.*
 
-**Status:** Alive — [D] — #11 §11.1 calls the ontology "alive and consequence-bearing". It is an argument from postulate [P4](/wiki/program/postulates/p4-polarized-matter), with no calculation or script behind it. The dark-matter candidacy it fed is retired (#11 §12).
+**Status:** Alive — [D] — #11 §11.1 calls the ontology "alive and consequence-bearing". It is an argument from postulate [P4](/wiki/program/postulates/p4-polarized-matter), with no calculation or script behind it. P.R.'s conjecture that such monopoles are abundant in momentum space, and their candidacy as the dark matter, are open [O] (#11 §11.1, §12; v2.4; [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). #14's model of the candidate failed (#11 §12).
 
 ## The statement
 
-[#11](/wiki/history/documents/checkpoint) §11.1, "The monopole audit, revised [D]", after killing the explanatory half of [founding supposition 5](/wiki/program/founding-suppositions):
+[#11](/wiki/history/documents/checkpoint) §11.1, "The monopole audit, revised [D]", after recording the explanatory half of [founding supposition 5](/wiki/program/founding-suppositions) as P.R.'s open conjecture:
 
-> As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; "true but irrelevant" is the empty set (a correction supplied by P.R.). Their candidacy as the dark matter itself is retired in v2.1 (§12).
+> As ontology: alive and consequence-bearing — by P4, conjugate-sector solitons gravitate; "true but irrelevant" is the empty set (a correction supplied by P.R.); P.R. conjectures that they are abundant in momentum space. Their candidacy as the dark matter is open (§12): #14's model of it failed in v2.1, and the candidate itself was never modeled.
 
-The italic opening of §11 gives the same point in plain words: "The claim splits in two, and its second half stands: if such objects exist, they gravitate, like everything else." The founding-supposition audit records the split: "as explanation, dead (wrong duality, which only §11.4's shared-photon form contests, and that form needs P4 restated; the null result is expected under several standard histories, so it lends no support — v2.3, flag 59); as ontology, alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero"); the knot candidate it fed is retired (§12)" (#11 App. A item 5; [founding suppositions and their fates](/wiki/program/founding-suppositions); [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)). Until v2.3 the explanation's parenthesis read "(wrong duality; inflation suffices)". Since v2.3 the item adds: "Its ontology half, joined with item 11, is P.R.'s magnetic-mirror conjecture (§11.4) [O]; whether the conjecture's shared-photon form would reopen the explanation is P.R.'s ruling (flag 62)" ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)). Flag 62 is pending.
+The italic opening of §11 gives the same point in plain words: "Its second half stands too: if such objects exist, they gravitate, like everything else, and P.R. conjectures that they are abundant in momentum space (§12)." The founding-supposition audit records both halves (#11 App. A item 5; [founding suppositions and their fates](/wiki/program/founding-suppositions)):
+
+> Monopoles live in conjugate space, explaining non-detection — **open in both halves** (v2.4): as explanation, P.R.'s conjecture [O] under §11.4's shared-photon form, which neither ground kills (wrong duality is contested by that form, which needs P4 restated; the null result is expected under several standard histories, so it lends no support either way — flags 59, 62); as ontology, alive and consequence-bearing (P.R.'s "true-but-irrelevant is measure zero"), with P.R.'s conjecture that such monopoles are abundant in momentum space (§12); #14's model of the candidate it fed failed (§12). Its ontology half, joined with item 11, is P.R.'s magnetic-mirror conjecture (§11.4) [O].
+
+In the ontology half, the statement that such objects gravitate is "alive and consequence-bearing", and what is open is the conjecture attached to it, that they are abundant in momentum space. The explanatory half has its own page ([Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)), and so does the joined conjecture ([Conjecture: the momentum sector as the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification)).
+
+From v2.0 to v2.3 the item read "**split**", with the explanation dead; from v2.1 it added that "the knot candidate it fed is retired (§12)", and §11.1 that "Their candidacy as the dark matter itself is retired in v2.1 (§12)". On 2026-10-29 flag 62 in `review/wiki-build-flags.md` was ruled, option B, which made the explanation open, and Paul narrowed the candidate's retirement to #14's model ([the candidacy and #14's model](/wiki/electric-magnetic-duality/conjugate-monopoles#the-candidacy-and-14s-model)).
 
 ## What the objects would be
 
 A topological soliton is a particle-like configuration of fields that wraps the space of a theory's vacuum states and cannot be smoothly unwrapped, so it is stable without any conserved charge put in by hand [T]. A magnetic monopole of an SU(2) gauge theory broken to U(1) is the standard example ([the 't Hooft–Polyakov monopole](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)). "Conjugate-sector solitons" are such objects made of the p-polarized matter fields χ rather than of ours.
 
-The checkpoint does not specify the gauge structure of the p-polarized sector, so it does not say which solitons it has. The one concrete proposal was [#14](/wiki/dark-matter/candidates/soliton-candidate)'s hidden SU(2) broken to U(1), which is dead as a program claim ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). The ontology on this page is conditional: if the sector has such objects, the statement applies to them.
+#11 v2.4 §12 describes the conjectured dark-matter objects as "magnetically charged topological solitons of the p-polarized sector, localized in momentum (§11, §11.4)", stable by "topological charge [O]". The checkpoint does not specify the gauge structure of the p-polarized sector, so it does not say which solitons it has. The one concrete proposal was [#14](/wiki/dark-matter/candidates/soliton-candidate)'s hidden SU(2) broken to U(1), recorded dead as a program claim ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)); Paul's concurrence in that death was asked on 2026-10-29. #14 described its hidden sector with ordinary kinematics: "Throughout, the hidden sector is described by ordinary relativistic quantum field theory" (#14 §1). The ontology on this page is conditional: if the sector has such objects, the statement applies to them.
 
 ## Why they would gravitate
 
@@ -52,7 +61,7 @@ H is the positive [generalized metric](/wiki/phase-space/born-geometry/born-stru
 
 The last clause of P4 fixes what they would not do. Since v2.1, P4 is taken strictly: "no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S]" (#11 §4; round-3 Decision 1, [round-3 decisions](/wiki/method/review/round-3/decisions); [kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)). A conjugate monopole would carry no charge under our photon and would not interact with our matter through any gauge force. Gravity is the coupling the postulates guarantee.
 
-That inference holds under P4 as written. P.R.'s magnetic-mirror conjecture (#11 §11.4 [O]) has two forms. In the [separate-photon form](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon) the momentum-polarized sector's analogs are magnetic under that sector's own gauge field, which is consistent with P4 and leaves the inference unchanged. In the [shared-photon form](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon) they would carry magnetic charge of our photon, and "P4 as written excludes this form ("gauge forces do not cross polarizations", in the program since #1), so it needs P4 restated" (§11.4); in that form the inference would not hold.
+That inference holds under P4 as written. P.R.'s magnetic-mirror conjecture (#11 §11.4 [O]) has two forms. In the [separate-photon form](/wiki/electric-magnetic-duality/magnetic-identification#separate-photon) the momentum-polarized sector's analogs are magnetic under that sector's own gauge field, which is consistent with P4 and leaves the inference unchanged. In the [shared-photon form](/wiki/electric-magnetic-duality/magnetic-identification#shared-photon) they would carry magnetic charge of our photon, and "P4 as written excludes this form ("gauge forces do not cross polarizations", in the program since #1), so it needs P4 restated" (§11.4); in that form the inference would not hold. The shared-photon form is the setting of the open explanation of the monopole null result (§11.4).
 
 ## "True but irrelevant" is empty
 
@@ -64,16 +73,27 @@ A hypothesis is true but irrelevant when the objects it posits exist and have no
 
 #11 does not list the consequences beyond gravitation. The statement is a constraint on what the sector's objects can be, not a prediction of a signal.
 
-## The candidacy, retired
+## Conjecture: abundant in momentum space
 
-The ontology once had a specific candidate attached.
+Since v2.4, P.R. conjectures that conjugate monopoles are abundant in momentum space, and "Their candidacy as the dark matter is open (§12)" (#11 §11.1). #11 §12 lists them as the third dark-matter candidate, beside the χ particles and a condensate of the [momentum graviton](/wiki/gravity/momentum-graviton):
+
+| Candidate | Origin | Stability | Distinctive handle |
+| --- | --- | --- | --- |
+| **Conjugate monopoles** (P.R.'s conjecture; v2.4) | magnetically charged topological solitons of the p-polarized sector, localized in momentum (§11, §11.4) | topological charge [O] | untested: p-localization open (§14 item 8); #14's model, with ordinary kinematics, failed (below) |
+
+The candidacy is open [O], and no calculation tests it. Its home is [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles), among the [dark-matter candidates](/wiki/dark-matter/candidates). Two of the three candidates are then conjugate matter, the χ particles and these monopoles: App. A item 4 records "Dark matter is conjugate matter" as "**alive**, P.R.'s core conjecture: as χ particles (x-clumping, gated self-force) or, since v2.4, as conjugate monopoles localized in momentum, two of the three candidates of §12".
+
+## The candidacy and #14's model
+
+The ontology has had a dark-matter candidate attached since v2.0.
 
 - **v2.0** listed "topological solitons of a p-local gauge sector (§11) as a third candidate, stable by topological charge", and claimed they "slip through the clumping loophole (§9), since topology, not collective dynamics, would localize them in momentum" (#11 §12, 'What was claimed').
-- **The handoff** tied the surviving half of the split to that candidate: "As ontology they're alive (the soliton candidate)", and named as its "Current best DM candidate: superheavy (~10¹³–10¹⁷ GeV) topological solitons (π₂ monopole-class) of a separate, strongly coupled dual gauge sector" (`HANDOFF.md` §2; DM is dark matter; [the handoff](/wiki/history/documents/handoff)).
-- **Round 3** found the candidate's abundance misnormalized, and on 2026-10-19 it was retired as a program-native proposal (round-3 Decision 2; [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #11 §11.1 now reads: "Their candidacy as the dark matter itself is retired in v2.1 (§12)."
-- **What stands** is the root `CLAUDE.md`'s summary: "The framework is merely compatible with known PeV-scale topological dark matter (prior art)" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)).
+- **The handoff** tied the ontology half, then the surviving half of the split, to that candidate: "As ontology they're alive (the soliton candidate)", and named as its "Current best DM candidate: superheavy (~10¹³–10¹⁷ GeV) topological solitons (π₂ monopole-class) of a separate, strongly coupled dual gauge sector" (`HANDOFF.md` §2; DM is dark matter; [the handoff](/wiki/history/documents/handoff)).
+- **#14's model.** The candidate was developed into the standalone manuscript #14: superheavy 't Hooft–Polyakov monopoles of a hidden SU(2) → U(1) sector, described with ordinary kinematics throughout (#11 §12; #14 §1). Round 3 of blind review, with code execution, found its abundance estimate misnormalized, and the model failed: with ordinary kinematics "it is either overproduced or the prior-art PeV-scale scenario, to which the framework adds nothing testable" (#11 §12, 'Verdict'; [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). On 2026-10-19 the candidate was retired as a program-native proposal, a decision Paul had delegated (round-3 Decision 2), and from v2.1 to v2.3 §11.1 read "Their candidacy as the dark matter itself is retired in v2.1 (§12)".
+- **v2.4** (2026-10-29). Paul narrowed Decision 2: "This decision covers #14's model, which used ordinary kinematics. The candidate #14 modeled, conjugate monopoles localized in momentum, was never tested and is P.R.'s open conjecture again (#11 v2.4 §12). #14's model stays recorded dead until Paul answers the concurrence question put to him on 2026-10-29" (`review/round3-adjudication.md`, 'Decisions' 2; [round-3 decisions](/wiki/method/review/round-3/decisions)). #11 §12's verdict ends: "Its retirement was a decision P.R. delegated (round-3 Decision 2); the model stays recorded dead until he answers the concurrence question put to him on 2026-10-29. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture (table above; v2.4)."
+- **What stands of #14's model** is the root `CLAUDE.md`'s summary: "The framework is merely compatible with known PeV-scale topological dark matter (prior art)" ([topological dark matter in the literature](/wiki/dark-matter/candidates/soliton-candidate/prior-art)). Since 2026-10-29 the same bullet adds: "this covers #14's model, which used ordinary kinematics; the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture, #11 v2.4 §12".
 
-The handoff's coupling of the ontology to the candidate is resolved by precedence: the ontology is alive in #11 §11.1, and the candidacy is retired ([conflicts between sources](/wiki/history/documents/source-conflicts)). The two remaining dark-matter candidates are χ particles and a condensate of the [momentum graviton](/wiki/gravity/momentum-graviton) (#11 §12).
+The handoff's superheavy candidate is #14's model, and the handoff's §2 soliton candidate is superseded. In #11 v2.4 the ontology is alive and the candidacy is open ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
 ## The laboratory shadow [T]
 
@@ -85,21 +105,22 @@ Reference [16]†: S.-Y. Xu et al., "Discovery of a Weyl fermion semimetal," Sci
 
 ## Localization in momentum space
 
-The founding image of the program was dark matter that [clumps in momentum space](/wiki/dark-matter/momentum-clumping), and it died: collective momentum-space clumping is "nowhere mandatory" (#11 §9; [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). One logical gap was left for single topological objects, whose localization would come from topology rather than from collective dynamics. #11 §12 lists it among the survivors of the soliton obituary: "The clumping loophole — topological momentum-space localization of individual objects — remains untested, but has no candidate" ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)). App. A item 3 agrees: "topological p-localization of individual solitons untested, and its candidate is retired (§12)".
+The founding image of the program was dark matter that [clumps in momentum space](/wiki/dark-matter/momentum-clumping), and it is recorded dead: collective momentum-space clumping is "nowhere mandatory" (#11 §9; [Obituary: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)). Paul's concurrence in that death was asked on 2026-10-29. One logical gap was left for single topological objects, whose localization would come from topology rather than from collective dynamics, and since v2.4 it has a candidate again. §9's plain-language passage ends with "one loophole for individual knots, whose candidate, conjugate monopoles localized in momentum, is P.R.'s open conjecture (§12)". #11 §12 lists the loophole among what survives #14's model: "The clumping loophole — topological momentum-space localization of individual objects — remains untested; its candidate is P.R.'s conjecture of conjugate monopoles (table above)" ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)). App. A item 3 agrees: "topological p-localization of individual solitons untested; its candidate, p-localized conjugate monopoles, is P.R.'s open conjecture (§12; v2.4)". From v2.1 to v2.3 the loophole was recorded without one: "remains untested, but has no candidate" (§12), and "its candidate is retired" (App. A item 3).
 
-#11 §14 item 8 words it differently. In v2.1 and v2.2 its parenthesis read "The soliton-spectrum and p-localization items are closed by the §12 obituary"; since v2.3 it reads "(v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; §11.4's shared-photon form needs p-localization again.)" The checkpoint does not reconcile "closed" with "untested" ([open problem 8](/wiki/electric-magnetic-duality/unified-modular-structure)). The shared-photon form needs something to hide its analogs from detectors and from [the Parker bound](/wiki/electric-magnetic-duality/monopoles/monopole-searches#the-parker-bound-t): p-localization, with the spread in position in the objects' field profile rather than their quantum state, or binding into magnetically neutral composites. Neither has been computed (§11.4).
+#11 §14 item 8 reopens p-localization: "(v2.1 closed the soliton-spectrum and p-localization items with the §12 obituary; v2.4 reopens both, since the third candidate of §12 and §11.4's shared-photon form need p-localization: "p-local solitons are p-localized" [O].)" In v2.1 and v2.2 its parenthesis read "The soliton-spectrum and p-localization items are closed by the §12 obituary", which the checkpoint did not reconcile with §12's "untested"; since v2.4 both call the item open ([open problem 8](/wiki/electric-magnetic-duality/unified-modular-structure)). The kinematics of momentum-polarized matter has never been modeled, since #14 assumed ordinary kinematics (root `CLAUDE.md`, "Open from the monopole discussion"). The shared-photon form needs something to hide its analogs from detectors and from [the Parker bound](/wiki/electric-magnetic-duality/monopoles/monopole-searches#the-parker-bound-t): p-localization, with the spread in position in the objects' field profile rather than their quantum state, or binding into magnetically neutral composites. Neither has been computed (§11.4).
 
 ## What the statement does not claim
 
-- It does not claim that conjugate monopoles exist.
-- It does not make them the dark matter; that candidacy is retired.
-- It does not explain why no monopole of our sector has been found; that explanation is dead.
-- It does not give them any coupling to our matter other than gravity.
+- It does not claim that conjugate monopoles exist. That they are abundant in momentum space is P.R.'s conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+- It does not make them the dark matter; that candidacy is open, part of the same conjecture.
+- It does not explain why no monopole of our sector has been found; that explanation is P.R.'s open conjecture, in the setting of the shared-photon form ([Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation)).
+- It does not give them any coupling to our matter other than gravity, under P4 as written.
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §11.1 — the statement [D], the retired candidacy and the laboratory shadow; §11 italic opening; §11.4 — the magnetic-mirror conjecture and its two forms [O]; App. A items 3 and 5 — the loophole and the split with "measure zero"; §4 — P4, strict; §5 — H = diag(g, g⁻¹); §8 — χ propagates on g; §12 — the candidate as claimed in v2.0, its retirement and the loophole; §13 — row 8; §14 item 8 — "closed", and since v2.3 the shared-photon form's need for p-localization; ref [16]†.
-- `CLAUDE.md` 'Since the handoff' — the soliton candidate dead; the framework merely compatible with prior art.
-- `review/wiki-build-flags.md` flag 62 — whether the shared-photon form would reopen the dead explanation, pending.
-- `review/round3-adjudication.md` 'Decisions' 1, 2 — strict sector separation; the candidate retired.
+- `papers/broken-born-checkpoint-v2.md` §11.1 — the statement [D], P.R.'s conjecture that they are abundant in momentum space, the open candidacy (v2.4) and the laboratory shadow; §11 italic opening; §11.4 — the magnetic-mirror conjecture and its two forms [O]; App. A item 5 — "open in both halves", with "measure zero"; App. A item 3 — the loophole and its candidate; App. A item 4 — dark matter as conjugate matter, two of the three candidates; §4 — P4, strict; §5 — H = diag(g, g⁻¹); §8 — χ propagates on g; §9 italic opening — the loophole's candidate; §12 — the third candidate as claimed in v2.0 and in the v2.4 table, #14's model and its verdict, and the loophole; §13 — row 8; §14 item 8 — p-localization closed in v2.1 and reopened in v2.4; ref [16]†.
+- `CLAUDE.md` 'Since the handoff' — #14's model dead as a program-native proposal, narrowed on 2026-10-29 to the model; the entries of 2026-10-29; "Open from the monopole discussion".
+- `review/wiki-build-flags.md` flag 62 — ruled 2026-10-29, option B: the explanation open.
+- `review/round3-adjudication.md` 'Decisions' 1, 2 — strict sector separation; the candidate retired on 2026-10-19, and the decision narrowed to #14's model by Paul on 2026-10-29.
+- `notes/knot-dark-matter-standalone.md` §1 — ordinary kinematics (withdrawn manuscript).
 - `HANDOFF.md` §2 — the earlier tie to the soliton candidate (superseded).

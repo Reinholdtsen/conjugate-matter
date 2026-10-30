@@ -116,7 +116,7 @@ In this wiki's reading, an ungauged X is an X whose kinetic term lacks the dual-
 - **The v1 paper, #9** (superseded as reference; [the checkpoint](/wiki/history/documents/checkpoint) covers #9 to #11): "a signature obstruction" in its technical abstract's "chain of structural theorems" (§0), and "Ungauged: excluded by Lorentz signature (wrong-sign mixed components)" (§5 item 2).
 - **Checkpoint #11**: "a signature obstruction" in the technical abstract's "chain of structural results" (§1), and "ungauged X by Lorentz signature" (§7.1).
 - **The handoff**: its inventory describes #6 with "massless/ungauged excluded" (`HANDOFF.md` §3, artifact 6); its summary of the scientific state names the massless exclusion and not this one (§2).
-- **The withdrawn soliton manuscript, #14 §1**: gives the no-go step and the Higgs step, not this one ([the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate)).
+- **The withdrawn soliton manuscript, #14 §1**: gives the no-go step and the Higgs step, not this one ([#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate)).
 
 ### The count of structural tests
 

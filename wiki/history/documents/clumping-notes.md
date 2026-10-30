@@ -89,7 +89,7 @@ The unreconciled points are listed on [conflicts between sources](/wiki/history/
 - **The coefficient c.** #3's calibration against Levkov–Panin–Tkachev numerics was "a flagged to-do"; #9 §10 lists "LPT coefficient calibration" and #11 §9 writes "coefficients [O]" ([calibration of c](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-calibration-of-the-coefficient-c)).
 - **Rows 1 and 2 in wave language.** #2: "Rows 1–2 must be re-derived in wave language" ([rows 1 and 2 in wave language](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-rows-1-and-2-in-wave-language)).
 - **The exact light-mass bound**, which #4 asks to be verified before publication.
-- **The topological loophole**, not raised in the notes: #11 §9 and the handoff leave untouched the localization in momentum of individual topological objects, which no candidate now serves ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
+- **The topological loophole**, not raised in the notes: #11 §9 and the handoff leave untouched the localization in momentum of individual topological objects, whose candidate since #11 v2.4 is P.R.'s conjecture of [conjugate monopoles localized in momentum](/wiki/dark-matter/candidates/momentum-space-monopoles), untested ([Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole)).
 
 ## Sources
 

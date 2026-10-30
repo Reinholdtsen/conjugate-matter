@@ -29,7 +29,7 @@ sources:
   - "HANDOFF.md §2"
 ---
 
-*The Kibble mechanism, proposed by Tom Kibble in 1976, is the standard account of how [topological defects](/wiki/symmetry-breaking/topological-defects) such as [monopoles](/wiki/electric-magnetic-duality/monopoles), strings and domain walls form when the early universe cools through a symmetry-breaking transition. Regions farther apart than the horizon, the distance light has travelled since the Big Bang, have had no contact, so the field settles into unrelated vacuum states in different regions, and defects are left where those regions meet. This gives at least about one defect per horizon volume, and that count is a minimum: slow transitions (Kibble–Zurek dynamics) and first-order transitions, which proceed by bubbles, make more. In the program the count decided the fate of the soliton dark-matter candidate, whose manuscript had normalized it too low and treated it as an upper end; that error and its correction are recorded with the candidate.*
+*The Kibble mechanism, proposed by Tom Kibble in 1976, is the standard account of how [topological defects](/wiki/symmetry-breaking/topological-defects) such as [monopoles](/wiki/electric-magnetic-duality/monopoles), strings and domain walls form when the early universe cools through a symmetry-breaking transition. Regions farther apart than the horizon, the distance light has travelled since the Big Bang, have had no contact, so the field settles into unrelated vacuum states in different regions, and defects are left where those regions meet. This gives at least about one defect per horizon volume, and that count is a minimum: slow transitions (Kibble–Zurek dynamics) and first-order transitions, which proceed by bubbles, make more. In the program the count decided the fate of the withdrawn manuscript #14's model of a soliton dark-matter candidate, which had normalized it too low and treated it as an upper end; that error and its correction are recorded with #14's model.*
 
 **Status:** Established — [T] — literature: the mechanism (Kibble 1976, reference [18] of the withdrawn [#14](/wiki/dark-matter/candidates/soliton-candidate)), the one-per-horizon normalization (Gangui, astro-ph/0110285, which the round-3 referee cited and [the gate](/wiki/method/verification/the-gate) uses as an anchor), and the floor, which the [checkpoint](/wiki/history/documents/checkpoint) supports with Murayama–Shu [28S]. [Round 3](/wiki/method/review/round-3) upheld the floor as [ruling 3](/wiki/method/review/round-3/rulings); the adjudicator did not re-run the referee's Kibble–Zurek integration. The program's own evaluation of the normalization, p ≈ 104 [V] (#11 §12), and #14's error belong to [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); the value is gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The explanations below are standard physics written from general knowledge [T]; references added from memory are marked †.
 
@@ -87,7 +87,7 @@ What happens after formation is a separate question. Monopoles and antimonopoles
 
 ## How the program uses it
 
-The Kibble count was the abundance estimate of the retired soliton candidate, and the error in it decided the candidate's fate. The full record is on [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) and [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); this section summarizes it, and ends with the production question that the program's own order parameter raises.
+The Kibble count was the abundance estimate of #14's soliton model, and the error in it decided the model's fate. The full record is on [Obituary: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) and [overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction); this section summarizes it, and ends with the production question that the program's own order parameter raises.
 
 ### #14's normalization and direction
 
@@ -157,12 +157,12 @@ Added by the wiki from model memory (†):
 - [Obituary: the √N topological floor (chat-only)](/wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor) — dropped because its premise, Kibble as a ceiling, is inverted.
 - [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script) — the one-per-Hubble-volume anchor.
 - [Independent anchors](/wiki/method/verification/independent-anchors) — v3's circular Kibble anchor and its replacement.
-- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the abundance estimate whose error decided the candidate's fate.
+- [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — the abundance estimate whose error decided the model's fate.
 - [Benchmark-conditional arithmetic](/wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic) — a pure Kibble abundance closes at a single mass.
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the transition at which the monopoles were to be made.
-- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — the retired candidate's abundance followed from the Kibble estimate.
-- [Obituary: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — at least about one monopole per causally connected region.
-- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the production of superheavy monopoles at a unification transition, which inflation, one of the standard histories under which the row's null is expected, would dilute (#11 v2.3 §11.1).
+- [Open: the topological loophole](/wiki/dark-matter/momentum-clumping/topological-loophole) — #14's model of the loophole's candidate took its abundance from the Kibble estimate.
+- [Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — at least about one monopole per causally connected region, which inflation dilutes in one of the standard histories set against the explanation.
+- [Row 8: no monopoles of our sector](/wiki/predictions/monopole-null) — the production of superheavy monopoles at a unification transition, which inflation, one of the standard histories under which the row's null is expected, would dilute (#11 §11.1, since v2.3).
 - [Open: point defects of the polarization (OP12)](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12) — whether a transition that selected the polarization produced point defects and τ-strings, and whether they would pose a monopole problem of the program's own, is not computed.
 
 ## Sources

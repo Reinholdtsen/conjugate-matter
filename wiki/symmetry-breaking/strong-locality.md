@@ -7,6 +7,8 @@ provenance: [O]
 sources:
   - "CLAUDE.md 'Since the handoff'"
   - "papers/broken-born-checkpoint-v2.md §4"
+  - "papers/broken-born-checkpoint-v2.md §12"
+  - "papers/broken-born-checkpoint-v2.md App. A item 4"
   - "papers/broken-born-checkpoint-v2.md §14 item 11"
   - "papers/reciprocity-toy-models.md §2"
   - "papers/reciprocity-toy-models.md §5"
@@ -22,7 +24,7 @@ sources:
   - "verify/toy_s5.py"
 ---
 
-*This open problem asks whether anything forces matter to be local in position, rather than leaving that as an input. In the coset toy model the vacuum's order parameter fixes a pair of candidate directions in the position–momentum plane and marks one of them as position, and a suitable coupling makes matter local in whichever direction is marked; but nothing in the model requires matter to use that coupling. Without such a link, the line a matter field lives on and the sign of the order parameter are two independent choices. In the toy the link is supplied by postulate P4, which places ordinary matter in the position-polarized representation and its mirror image in the momentum-polarized one. The toy therefore explains locality in position only as part of a package that includes a momentum-local mirror sector, the program's dark-matter candidate, and does not derive it. The toy-model worklog notes that the question is also open in the literature.*
+*This open problem asks whether anything forces matter to be local in position, rather than leaving that as an input. In the coset toy model the vacuum's order parameter fixes a pair of candidate directions in the position–momentum plane and marks one of them as position, and a suitable coupling makes matter local in whichever direction is marked; but nothing in the model requires matter to use that coupling. Without such a link, the line a matter field lives on and the sign of the order parameter are two independent choices. In the toy the link is supplied by postulate P4, which places ordinary matter in the position-polarized representation and its mirror image in the momentum-polarized one. The toy therefore explains locality in position only as part of a package that includes a momentum-local mirror sector, the conjugate matter that the program proposes as dark matter, and does not derive it. The toy-model worklog notes that the question is also open in the literature.*
 
 **Status:** Open — [O] ([#11](/wiki/history/documents/checkpoint) §14 item 11: "locality of matter beyond the weak (Yukawa-like) form, which in the toy reduces to P4") — named among the toy work's open ends in the root `CLAUDE.md` ("the strong form of matter locality"); the worklog adds that it is "also open in the literature". Listed at [Open problems and the queue](/wiki/status/open-problems).
 
@@ -75,7 +77,7 @@ The worklog names what supplies the lock:
 
 [P4](/wiki/program/postulates/p4-polarized-matter) is a postulate [P]: "Matter comes in x-polarized (Standard Model) and p-polarized (χ) representations; both couple universally to H; gauge forces do not cross polarizations." (#11 §4). P4 posits both species: ordinary matter, local in x, and its ρ-image χ, local in p. #11 §14 item 11 states the result in one clause: locality beyond the weak form "in the toy reduces to P4".
 
-What the package contains is the subject of [conjugate matter and the velocity gate](/wiki/dark-matter/conjugate-matter): χ is the program's proposal for [dark matter](/wiki/dark-matter), and [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) is one of its two remaining dark-sector candidates. In the toy, then, the account of why forces fade with distance and the existence of a momentum-local mirror sector rest on the same postulate.
+What the package contains is the subject of [conjugate matter and the velocity gate](/wiki/dark-matter/conjugate-matter): χ is the program's proposal for [dark matter](/wiki/dark-matter), and [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) is one of its three dark-sector candidates, and one of the two that are conjugate matter (#11 §12, App. A item 4). In the toy, then, the account of why forces fade with distance and the existence of a momentum-local mirror sector rest on the same postulate.
 
 ## Routes tried, and the literature
 
@@ -104,7 +106,7 @@ The current work queue in the root `CLAUDE.md` (the `HANDOFF.md` §8 items 5–6
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — "the strong form of matter locality" among the toy work's open ends; the current queue
-- `papers/broken-born-checkpoint-v2.md` §14 item 11 — still open [O]: locality beyond the weak form, which in the toy reduces to P4; §4 — P4
+- `papers/broken-born-checkpoint-v2.md` §14 item 11 — still open [O]: locality beyond the weak form, which in the toy reduces to P4; §4 — P4; §12, App. A item 4 — the three candidates, two of them conjugate matter (v2.4)
 - `papers/reciprocity-toy-models.md` §5 — the coupling, "Nothing here forces that coupling", the d > 1 family; §6 — "Not shown": a mechanism forcing the coupling, anything beyond d = 1; §2 — ρ sends K to −K; Abstract — the complex model's restoration
 - `notes/toy-lagrangian.md` 'Chunk 4' — parts B and C, the S5 conclusion (i)–(ii), the P4 lock and the section-selection literature [S]; 'Success criteria', 'Predictions', 'Assessment against the predictions' — the wording of S5, the forecasts and their scores, the round-3 critique "only partly answered"; 'Chunk 1 results' — Langmann–Szabo on locality; 'Chunk 3 results' — the plan for S5
 - `review/round4-adjudication.md` 'Rulings' F3 — the K-odd coupling that makes the breaking physical, "for example P4-type matter through I_K"

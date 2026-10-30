@@ -2,7 +2,7 @@
 title: "A hidden sector at its own temperature"
 weight: 12
 status: established
-description: "A sector that exchanges no energy with ours keeps its own temperature: the ratio ξ set at reheating, separate entropy conservation and the late ratio T_h/T_ν, dark radiation growing as ξ⁴, freeze-out on the hidden clock, the reheating a colder sector needs and the portals that erase the difference; in the record, the retired soliton candidate's ξ < 0.77, corrected to ξ < 0.760 [V]."
+description: "A sector that exchanges no energy with ours keeps its own temperature: the ratio ξ set at reheating, separate entropy conservation and the late ratio T_h/T_ν, dark radiation growing as ξ⁴, freeze-out on the hidden clock, the reheating a colder sector needs and the portals that erase the difference; in the record, the ξ < 0.77 of #14's failed soliton model, corrected to ξ < 0.760 [V]."
 provenance: [T]
 sources:
   - "notes/knot-dark-matter-standalone.md §3"
@@ -34,9 +34,9 @@ sources:
   - "review/wiki-build-flags.md item 48"
 ---
 
-*A hidden sector at its own temperature is a collection of particles and forces that takes no part in the strong, weak or electromagnetic interactions of ordinary matter and, because nothing lets it exchange energy with our plasma, keeps a temperature T_h of its own, which can differ from ours. The ratio of the two temperatures, written ξ, is set when the universe is reheated after [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), or when the two sectors last exchanged energy; afterwards it changes only when the heavy particles of one sector annihilate and their entropy heats the light particles of that sector alone. The ratio fixes how much extra radiation the hidden sector adds in the [radiation era](/wiki/cosmology/early-universe/radiation-era), an excess that grows as ξ⁴ and that [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis) and [the cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background) measure. It also fixes when, by our clock, the hidden particles freeze out, and it lasts only while no coupling between the sectors, such as a Higgs portal or kinetic mixing, brings the two plasmas into contact. The program met this physics in the review of its [soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), whose [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) contained a massless hidden photon: the withdrawn manuscript #14 required ξ < 0.77, and [round 3](/wiki/method/review/round-3) corrected the bound to ξ < 0.760. The candidate is dead, and these numbers are kept as its record.*
+*A hidden sector at its own temperature is a collection of particles and forces that takes no part in the strong, weak or electromagnetic interactions of ordinary matter and, because nothing lets it exchange energy with our plasma, keeps a temperature T_h of its own, which can differ from ours. The ratio of the two temperatures, written ξ, is set when the universe is reheated after [inflation](/wiki/cosmology/early-universe/inflation-and-dilution), or when the two sectors last exchanged energy; afterwards it changes only when the heavy particles of one sector annihilate and their entropy heats the light particles of that sector alone. The ratio fixes how much extra radiation the hidden sector adds in the [radiation era](/wiki/cosmology/early-universe/radiation-era), an excess that grows as ξ⁴ and that [nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis) and [the cosmic microwave background](/wiki/cosmology/early-universe/cosmic-microwave-background) measure. It also fixes when, by our clock, the hidden particles freeze out, and it lasts only while no coupling between the sectors, such as a Higgs portal or kinetic mixing, brings the two plasmas into contact. The program met this physics in the review of #14's [model of its soliton dark-matter candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary), whose [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) contained a massless hidden photon: the withdrawn manuscript #14 required ξ < 0.77, and [round 3](/wiki/method/review/round-3) corrected the bound to ξ < 0.760. #14's model failed, and these numbers are kept as its record.*
 
-**Status:** Established — [T] — standard early-universe physics, written here from general knowledge; references the wiki adds are from model memory (†). The program used it only in the record of the retired soliton candidate. There the dark-radiation bound ΔN_eff < 0.286 and the temperature-ratio bound ξ < 0.760 are [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The round-3 referee's other figures on this page come from executed code in `review/round3/referee/` and are not gated, and the adjudication accepted ruling 6's lower bound on a hidden fermion's mass without re-checking it.
+**Status:** Established — [T] — standard early-universe physics, written here from general knowledge; references the wiki adds are from model memory (†). The program used it only in the record of #14's failed soliton model. There the dark-radiation bound ΔN_eff < 0.286 and the temperature-ratio bound ξ < 0.760 are [V], gated in `verify/soliton_obituary.py` ([the soliton-obituary script](/wiki/method/verification/soliton-obituary-script)). The round-3 referee's other figures on this page come from executed code in `review/round3/referee/` and are not gated, and the adjudication accepted ruling 6's lower bound on a hidden fermion's mass without re-checking it.
 
 ## What a hidden sector is [T]
 
@@ -47,7 +47,7 @@ A hidden sector is a set of particles and forces that carries none of the charge
 
 A hidden sector has a temperature of its own when its internal interactions are fast enough to hold it in thermal equilibrium, which the rest of this page assumes [T]. Particles that were produced and never scattered afterwards would keep whatever momentum distribution their production gave them, and no single temperature would describe them.
 
-The wiki meets two hidden sectors. The program's own is its [conjugate matter](/wiki/dark-matter/conjugate-matter): postulate [P4](/wiki/program/postulates/p4-polarized-matter) places it in the momentum polarization and states that "gauge forces do not cross polarizations" (#11 §4), and the [lab notebook](/wiki/history/documents/lab-notebook) calls it a "gravitationally-only-connected sector" (#1 §5.3). The other is the particle content that the withdrawn soliton manuscript #14 assumed: a hidden SU(2)_d gauge force broken to U(1)_d, with a massless hidden photon, which #14 identified with the momentum-polarized half of the program's matter and which died as a program proposal with that candidate ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). Every use of a hidden temperature in the program's record concerns the second.
+The wiki meets two hidden sectors. The program's own is its [conjugate matter](/wiki/dark-matter/conjugate-matter): postulate [P4](/wiki/program/postulates/p4-polarized-matter) places it in the momentum polarization and states that "gauge forces do not cross polarizations" (#11 §4), and the [lab notebook](/wiki/history/documents/lab-notebook) calls it a "gravitationally-only-connected sector" (#1 §5.3). The other is the particle content that the withdrawn soliton manuscript #14 assumed: a hidden SU(2)_d gauge force broken to U(1)_d, with a massless hidden photon, which #14 identified with the momentum-polarized half of the program's matter and which died as a program proposal with #14's model ([Obituary: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). Every use of a hidden temperature in the program's record concerns the second.
 
 ## How the two temperatures evolve [T]
 
@@ -151,7 +151,7 @@ A colder start also puts a condition on the reheating temperature. A process in 
 
 T_RH is the reheating temperature, and the two values are those `review/round3/referee/step4c.out` prints for the two ends of v3's range of v at ξ = 0.76. Isocurvature here means, in the wiki's reading, a ratio of hidden to visible radiation that varies from place to place, as a separate reheating field that fluctuated during inflation would leave it ([isocurvature](/wiki/cosmology/early-universe/inflation-and-dilution#isocurvature)); the referee did not compute it.
 
-The same conversion sets the [redshift](/wiki/cosmology/scale-factor-duality/redshift#temperatures-and-frequencies-in-the-early-universe) of gravitational waves from a hidden transition. Their frequency today grows in proportion to the visible temperature at the transition, and a hidden transition at v happens when the visible plasma is at v/ξ. Ruling 5 carried the corrected ξ into #14's gravitational-wave band, and the gate checks the new upper end at the withdrawn benchmark; the script's label abbreviates gravitational waves ([the retired candidate's hidden transition](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#the-retired-candidates-hidden-transition)):
+The same conversion sets the [redshift](/wiki/cosmology/scale-factor-duality/redshift#temperatures-and-frequencies-in-the-early-universe) of gravitational waves from a hidden transition. Their frequency today grows in proportion to the visible temperature at the transition, and a hidden transition at v happens when the visible plasma is at v/ξ. Ruling 5 carried the corrected ξ into #14's gravitational-wave band, and the gate checks the new upper end at the withdrawn benchmark; the script's label abbreviates gravitational waves ([the hidden transition of #14's model](/wiki/cosmology/early-universe/phase-transition-gravitational-waves#the-hidden-transition-of-14s-model)):
 
 ```text
 PASS  knock-on: GW upper end 3.2e7 Hz at the withdrawn benchmark  [3.17e+07]
@@ -168,9 +168,9 @@ The referee named two portals for #14's sector, and the adjudication took both a
 
 ## How the program uses it
 
-### The retired soliton candidate
+### #14's soliton model
 
-The [soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) proposed that dark matter is superheavy monopoles of #14's hidden SU(2)_d sector. The unbroken U(1)_d of that sector, "(iii) an unbroken U(1)_d" among #14's requirements (§6), leaves a massless hidden photon, and the photon made the hidden temperature a constraint. #14 §4:
+#14's [model of the soliton candidate](/wiki/dark-matter/candidates/soliton-candidate/obituary) proposed that dark matter is superheavy monopoles of a hidden SU(2)_d sector. The unbroken U(1)_d of that sector, "(iii) an unbroken U(1)_d" among #14's requirements (§6), leaves a massless hidden photon, and the photon made the hidden temperature a constraint. #14 §4:
 
 > Dark radiation. The hidden photon is radiation. Suppose the two sectors shared a temperature above v. The hidden sector - the SU(2)_d gauge fields, the adjoint scalar and one psi doublet - then contributes Delta N_eff ~ 0.86 after its heavy states disappear. That is excluded by Planck 2018 (N_eff = 2.99 +- 0.34 at 95%) [23]. The proposal therefore requires the hidden sector to have been reheated to xi < 0.77 of our temperature, an assumption about reheating that the framework does not fix.
 
@@ -184,7 +184,7 @@ Round 3 found the following.
 - **Freeze-out during nucleosynthesis.** Ruling 6, in [freeze-out on the hidden clock](#freeze-out-on-the-hidden-clock-t) above.
 - **Reheating and portals.** The referee's reheating requirements and the Higgs portal, which the adjudication's to-do list carries as "The reheating mechanism for ξ" and "The Higgs portal", and the millicharge channel closed by Decision 1, in the two sections above.
 
-The candidate is dead ([Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary)), and the numbers above are its record. [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) holds the full account, including #14's choice to treat the hidden sector with ordinary relativistic quantum field theory.
+#14's model failed ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)), and the numbers above are its record. The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) holds the full account, including #14's choice to treat the hidden sector with ordinary relativistic quantum field theory.
 
 ### The conjugate sector
 
@@ -194,9 +194,9 @@ The lab notebook's sketch of polarization-genesis, tagged [O, sketched], sets th
 
 ## What is open
 
-Nothing on this page is an open problem of the program: the physics is standard, and its only applications in the record belong to a dead candidate. What was left unchecked is recorded as such.
+Nothing on this page is an open problem of the program: the physics is standard, and its only applications in the record belong to #14's failed model. What was left unchecked is recorded as such.
 
-- **Accepted without re-checking.** The adjudication took the referee's list of omitted constraints "as a to-do; not individually re-checked", including "The reheating mechanism for ξ", "The Higgs portal" and "Re-thermalization by ψ at ε ~ 1e-7–1e-6". Decision 1 closed the third, and Decision 2 then retired the candidate the list was written against ([what became of the list](/wiki/method/review/round-3/rulings#what-became-of-the-list)).
+- **Accepted without re-checking.** The adjudication took the referee's list of omitted constraints "as a to-do; not individually re-checked", including "The reheating mechanism for ξ", "The Higgs portal" and "Re-thermalization by ψ at ε ~ 1e-7–1e-6". Decision 1 closed the third, and Decision 2, which Paul narrowed on 2026-10-29 to #14's model, then retired the model the list was written against ([what became of the list](/wiki/method/review/round-3/rulings#what-became-of-the-list)).
 - **Not computed.** The dark-radiation isocurvature of a separately reheated hidden sector, "(conditional; not computed)" (Step 4(c) item 9).
 - **Not gated.** Ruling 6's lower bound on ψ's mass rests on the referee's script, was "Accepted, not re-checked", and is not checked by `verify/soliton_obituary.py` (flag 33 in `review/wiki-build-flags.md`).
 - **The conjugate sector.** No document addresses the temperature of the program's own conjugate sector (above).
@@ -221,12 +221,12 @@ The † entries are unverified.
 
 ## Used by
 
-- [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the soliton candidate's dark radiation, the bound ξ < 0.760 and its inconsistent application.
+- [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the dark radiation of #14's model, the bound ξ < 0.760 and its inconsistent application.
 - [Obituary: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window) — ψ's relic at the hidden temperature, and its freeze-out timed against nucleosynthesis.
 - [W′ overclosure: the minimal sector is excluded](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure) — the exclusion recomputed at ξ = 0.76.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — the closing mass shifted by ξ^(3/4).
 - [Kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) — re-thermalization through a millicharged ψ.
-- [Obituary: superheavy conjugate solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary) — requirement (ii), the colder hidden sector.
+- [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — requirement (ii), the colder hidden sector.
 - [Round-3 verdict, rulings and citation audit](/wiki/method/review/round-3/rulings) — rulings 5 and 6, the Higgs portal and the reheating mechanism.
 - [The soliton-obituary script](/wiki/method/verification/soliton-obituary-script) — the gated bounds ΔN_eff < 0.286 and ξ < 0.760.
 - [Thermal freeze-out](/wiki/dark-matter/candidates/thermal-freeze-out) and [relic abundance mechanisms](/wiki/dark-matter/candidates/relic-abundance) — freeze-out in a sector at its own temperature.

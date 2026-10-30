@@ -138,7 +138,7 @@ Before round 3 the documents read DESI's results as confirmation of the drift. T
 
 ## Popsci-only: "constant is impossible"
 
-The destination article #12 states the requirement more strongly than the record: "Decreasing is required; phantom is impossible; constant is impossible", and of the next data releases, "The framework survives only the first outcome" ('Dark energy as the orientation of the split'). In #11's row a constant −1 kills only the τ sector, and #10 agrees ("Constant kills the theory's heart. Phantom kills it outright."). The popular articles are never a source for a claim's status ([Conjectures: chat-only and popsci-only claims](/wiki/status/conjectures)).
+The destination article #12 states the requirement more strongly than the record: "Decreasing is required; phantom is impossible; constant is impossible", and of the next data releases, "The framework survives only the first outcome" ('Dark energy as the orientation of the split'). In #11's row a constant −1 kills only the τ sector, and #10 agrees ("Constant kills the theory's heart. Phantom kills it outright."). The popular articles are never a source for a claim's status ([Conjectures: P.R.'s, the record's, chat-only and popsci-only claims](/wiki/status/conjectures)).
 
 ## History of the row
 
