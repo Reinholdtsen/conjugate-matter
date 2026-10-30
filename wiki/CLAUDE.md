@@ -65,7 +65,7 @@ what is known and what is claimed read as a sequence.
 | `phase-space/` | Born reciprocity, Born geometry and its theorems, the modular field |
 | `symmetry-breaking/` | the mechanism of the hard core: order parameter, Goldstone angle, ρ-preserving potential, matter locality, the two toy models |
 | `gravity/` | spin-2 theory (massless and massive) and the field-equation results on the momentum graviton X |
-| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), the momentum-clumping obituary (the clumping problem), the candidates and the retired soliton candidate |
+| `dark-matter/` | halo and wave-dark-matter physics, the gated conjugate sector (the gate problem), the momentum-clumping obituary (the clumping problem), the three candidates (among them P.R.'s conjecture of monopoles abundant in momentum space) and #14's failed soliton model |
 | `cosmology/` | scale-factor duality, dark energy, early-universe physics |
 | `electric-magnetic-duality/` | monopoles, dualities, charge lattices, the polarization identification |
 | `conjugate-relativity/` | #13: the kinematics of the momentum polarization |
@@ -82,6 +82,7 @@ what is known and what is claimed read as a sequence.
 | `dead` | "Obituary: …" |
 | `open` | "Open: … (OPn)", where OPn is #11 §14's item number when it has one |
 | `superseded` | "… (superseded)" |
+| `conjecture` (P.R.'s or the record's) | "Conjecture: …" |
 | chat-only conjectures | "… (chat-only)" |
 | popsci-only claims | "… (popsci-only)" |
 | prediction pages | "Row n: …" |
@@ -189,7 +190,7 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
   | `alive` | a program claim that currently stands |
   | `conjecture` | not derived; includes the chat-only results of `HANDOFF.md` §4 |
   | `open` | an open problem |
-  | `dead` | killed, and stays dead |
+  | `dead` | killed by theory and data, with Paul's explicit concurrence; deaths recorded before 2026-10-29 stand until he answers |
   | `superseded` | replaced by a corrected version |
   | `method` | how the program works |
   | `record` | history, reviews, documents |
@@ -316,8 +317,10 @@ HTML, that every page was built, and that every heading got the ID this gate com
 - **A source document changes.** Find the dependent pages with
   `grep -rl 'papers/broken-born-checkpoint-v2.md' wiki/` (frontmatter sources), update
   them, and update the status registers.
-- **A claim dies.** Set `status: dead` and rewrite the page as an obituary. Add it to the
-  graveyard register, and fix every page that relied on it.
+- **A claim dies.** Only when theory and data kill it and Paul explicitly concurs, asked for that
+  death alone and recorded with the date; the death is its own change, never part of a larger one
+  (root `CLAUDE.md`, 'Method'). Then set `status: dead`, rewrite the page as an obituary, add it to
+  the graveyard register, and fix every page that relied on it.
 - **A new topic.** Place it by the taxonomy rules, link it from its parent's map and from
   every page that mentions it, and run the gate.
 - **The executive summary.** `wiki/summary.md` condenses the status registers, #11 §13–§15 and the

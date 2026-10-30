@@ -572,8 +572,26 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
    §11.4's shared-photon form (§11.1, App. A item 5). The options set out before the ruling were (A)
    keep it dead, with the shared-photon form carrying its own account of the null result as a
    consequence to be tested, and (B) reclassify it as open, conditional on that form and a restated P4.
+63. **#11 v2.4's prediction rows 7 and 11 still name two dark-sector candidates (low; #11 §13 rows 7
+    and 11; raised by both reviewers of the restoration, 2026-10-29).** Since v2.4, §12 and §14 item 9
+    count three candidates. Row 7 requires "**Permanent null** (both dark-sector candidates
+    SM-decoupled; P4 strict)"; v2.0 read "(all three trilemma candidates SM-decoupled)". The restored
+    third candidate is decoupled in its separate-photon form. In its shared-photon form, which needs P4
+    restated, it carries magnetic charge of our photon, so the row's null would rest on the analogs
+    being spread in position (flag 60). Row 11 reads "Particles vs condensate, separable via rows 1–3 +
+    coherence signatures"; v2.0 read "Particles / condensate / knots separable via rows 1–3 +
+    compact-object lensing + coherence signatures". Proposed wording, for a v2.4.1:
+    - row 7: "**Permanent null** (all dark-sector candidates SM-decoupled under P4 strict; for the third
+      candidate's shared-photon form, a null of position-space searches, flag 60)";
+    - row 11: "Particles vs condensate vs conjugate monopoles, the third untested; separable via rows
+      1–3 + coherence signatures".
+
+    These are prediction rows, so they wait for Paul's ruling.
+   **Audit (2026-10-29): raised by both reviewers of the restoration; v2.0's wording checked at git
+   8d588f6; not otherwise audited.**
+   **Ruling: pending.**
 
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
 flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`, and flags 55–58,
 whose arithmetic is in `verify/gate_mechanism.py` and `verify/velocity_gated_gravity.py`. Flag 61's
-homotopy is in `verify/closed_universe.py` (section F); flags 59, 60 and 62 involve no new arithmetic.
+homotopy is in `verify/closed_universe.py` (section F); flags 59, 60, 62 and 63 involve no new arithmetic.

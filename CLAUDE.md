@@ -129,9 +129,16 @@ only as a task needs them.
     polarization can leave strings of τ and, where the order parameter ranges over the whole manifold, point
     defects of the program's own order parameter (flag 61; #11 §14 item 12). `verify/closed_universe.py`
     section F now gates the homotopy.
-- 2026-10-29, later the same day: Paul's direction on deaths (see 'Method'): "I think you prematurely killed
-  off the most interesting parts of the comatter conjecture". #11 is now v2.4, and three of his founding ideas
-  are open conjectures again [O]. None was killed by theory and data in general, and he concurred in none of
+
+  (Overtaken later the same day: flag 62 ruled option B; #11 is v2.4; the explanation is open, P.R.'s
+  conjecture. See the next entry.)
+- 2026-10-29, later the same day: Paul's direction on deaths (see 'Method'). His words in full: "I think you
+  prematurely killed off the most interesting parts of the comatter conjecture: that dark matter is conjugate
+  (momentum) matter; and that magnetic monopoles exist in abundance in momentum space. Yes, I know
+  electric/magnetic and space/momentum are different dualities. Also, conjugate gravitational collapse drives
+  positional expansion acceleration. Don't kill them off unless theory and data kill them off and you ask me
+  explicitly that I concur. Do not hide the killing in a massive change." #11 is now v2.4, and three of his
+  founding ideas are open conjectures again [O]. None was killed by theory and data in general, and he concurred in none of
   the deaths:
   - dark matter is conjugate (momentum) matter: alive throughout (App. A item 4). Its momentum-localized form
     returns with the next item;

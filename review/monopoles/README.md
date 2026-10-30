@@ -42,8 +42,9 @@ The sweep was not pre-registered: it collected the record and tested no predicti
   π₂(Λ(4)) = ℤ₂, so selecting the polarization can leave point defects where the order parameter ranges over
   the whole manifold (for d = 4 and a global U(4)). Section F of `verify/closed_universe.py` gates the maps
   behind π₁ and π₃; π₂ follows by exactness. The defects' fate is #11 §14 item 12.
-- **Flag 62**, pending: whether the conjecture's shared-photon form would reopen the dead explanation of the
-  null result. The update's source reviewer raised it.
+- **Flag 62**, ruled 2026-10-29, option B, by Paul's direction: the explanation of the null result is open,
+  P.R.'s conjecture, in the setting of the shared-photon form (#11 v2.4 §11.1, App. A item 5). The update's source
+  reviewer raised it.
 
 The update itself was reviewed by three adversarial agents (fidelity, consistency, sources). The source
 reviewer found, among other things, that §11.2's strong coupling is not a history under which the null result
