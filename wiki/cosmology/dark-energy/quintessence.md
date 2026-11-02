@@ -119,13 +119,13 @@ The earlier documents cite the first two as [T]: #1 §7 tags them [T], and #9 §
 - [Fifth-force safety of τ](/wiki/cosmology/dark-energy/tau-fifth-force) — the shift symmetry of an axion-like field.
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — ρ + p = φ̇² ≥ 0 for a canonical scalar.
 - [The dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) — in a thawing model the field's initial velocity is not a separate parameter.
-- [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — recollapse needs negative vacuum energy.
-- [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — recollapse once the vacuum energy is negative.
+- [Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign) — recollapse in a flat or open universe needs negative vacuum energy.
+- [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — recollapse once the vacuum energy is negative, or with positive energy in a closed universe.
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — hilltop quintessence as the explanation the program implements.
 - [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) — the equation of state w(z) that the release fits.
 - [τ as the Maslov phase of the boundary](/wiki/phase-space/modular-field/maslov-phase) — τ's periodic potential, compared with quintessence in general.
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the equation of state and the thawing class that row 4 tests.
-- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — recollapse when the vacuum energy turns negative.
+- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — recollapse when the vacuum energy turns negative, or with positive energy in a closed universe.
 - [A closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) — recollapse of a closed universe with oscillating quintessence.
 
 ## Sources

@@ -134,5 +134,5 @@ The program's documents cite no source for the Fierz–Pauli term, the Boulware�
 - `HANDOFF.md` §2, §5 — the failure marked ✓; "66.58 vs 63.72 at seed 0".
 - `notes/beta-coefficients.md` §3 — the Fierz–Pauli mass combination after the palindrome.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)', 'Addendum (v0.5)' — the two exclusions; the tuning test's verdict as first recorded.
-- `review/wiki-build-flags.md` item 4 — the suspected missing −h² in #7's expansion of S; item 5 — M_X versus M_X²; item 36 — where the figures 66.58 and 63.72 are printed. All await Paul's ruling.
+- `review/wiki-build-flags.md` item 4 — the suspected missing −h² in #7's expansion of S; item 5 — M_X versus M_X²; item 36 — where the figures 66.58 and 63.72 are printed; all pending.
 - `review/wiki-build-checks/s_expansion.py` and `review/wiki-build-checks/s_expansion.out` — the expansion of S checked to second order.

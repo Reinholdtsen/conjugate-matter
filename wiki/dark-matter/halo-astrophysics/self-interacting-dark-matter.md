@@ -99,7 +99,7 @@ The program fixes its coupling from dwarf cores: "Fitting dwarf-scale cores want
 
 ### The wave-island analog
 
-On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ is a classical wave field, two-body scattering is no longer the observable, and the role of SIDM heat transport passes to [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate): Γ_self "*is* the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/wave-island.md`, 'What pins g? Two scenarios'). [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which made that channel the core-maker, is contradicted by the ultra-faint dwarfs; recorded dead before 2026-10-29, it is under review, not dead (#11 §9, 'Status (v2.5)').
+On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ is a classical wave field, two-body scattering is no longer the observable, and the role of SIDM heat transport passes to [the gated condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate): Γ_self "*is* the analog of SIDM heat transport (kinetic relaxation redistributes energy through the halo)" (`notes/wave-island.md`, 'What pins g? Two scenarios'). [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), which made that channel the core-maker, is contradicted by the ultra-faint dwarfs, and it is under review (#11 §9).
 
 ## References
 
@@ -127,7 +127,7 @@ The program's documents cite no source for SIDM, the transfer cross-section or t
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §8, §13 rows 1–2 — the gated amplitude; χ as Bullet-Cluster-safe; the knee; the standard expectations for rows 1 and 2; §9 'Status (v2.5)' — Scenario A under review, not dead
+- `papers/broken-born-checkpoint-v2.md` §8, §13 rows 1–2 — the gated amplitude; χ as Bullet-Cluster-safe; the knee; the standard expectations for rows 1 and 2; §9 — Scenario A under review
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark', 'Consequences for the predictions table' — scattering fits need Γt ∼ 1; the coupling determined by the dwarf-core fit; cliff-shaped SIDM on the particle island
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the wave-island rate as the analog of SIDM heat transport; the environment dispersions
 - `notes/ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — elastic relaxation keeps the mass; the gravothermal self-limit

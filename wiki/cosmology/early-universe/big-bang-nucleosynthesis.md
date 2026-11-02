@@ -137,7 +137,7 @@ m_psi=30 MeV: hidden freeze-out T_h ~ m/20 = 1.5 MeV at T_vis ~ 2.12 MeV (BBN D-
 
 For 1, 3 and 10 MeV the hidden freeze-out falls between the two markers of nucleosynthesis; for 30 MeV it falls before them. The referee (`review/round3/referee/audit-notes.md`, Step 4(a) item 8): "hidden freeze-out T_h ~ m/20 occurs at T_vis ~ 0.08 MeV for m_psi = 1 MeV, 0.24 MeV for 3 MeV, 0.71 MeV for 10 MeV (step4.out) - i.e. during BBN. Needs m_psi >~ 20-30 MeV. (Moot: excluded anyway, below.)" [Ruling 6](/wiki/method/review/round-3/rulings#rulings-5-and-6-the-colder-hidden-sector-and-nucleosynthesis), "Accepted, not re-checked", records the finding as "MeV-scale ψ freezes out during BBN", with the evidence "T_f ~ m/20, so the lower mass bound should be ≳ 20–30 MeV."
 
-The finding is that the lower edge did not meet v3's own condition, that ψ finish annihilating before nucleosynthesis. No document computes what a later annihilation of ψ would have done to the light elements. The window was recorded dead before 2026-10-29 without Paul's concurrence and is under his review, not dead (root `CLAUDE.md`, 'Since the handoff'); its upper edge failed independently, on a miscount of states and a bracketed cross-section (ruling 4; [Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The model it served failed too ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate that model was built for is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+The finding is that the lower edge did not meet v3's own condition, that ψ finish annihilating before nucleosynthesis. No document computes what a later annihilation of ψ would have done to the light elements. The window is under review; its upper edge failed independently, on a miscount of states and a bracketed cross-section (ruling 4; [Under review: the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window)). The model it served, built with ordinary kinematics, failed on its recomputed abundance ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ### Nucleosynthesis limits on a millicharged ψ
 
@@ -149,7 +149,7 @@ The v3 worklog, in which ψ was first added, noted that light hidden fermions wo
 
 ### Dilution before nucleosynthesis
 
-Round 3 found the monopoles of #14's model overproduced, and the literature it cited has hidden monopoles overclose the universe at high breaking scales "unless diluted, e.g. by early matter domination" (ruling 3, from the abstract of Liveoak, Maharana and Wells). Any such dilution would have had to end before nucleosynthesis [T] ([the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#conditions)). [Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired) rejected that route: with a free dilution factor, "The mass would then no longer be a prediction".
+Round 3 found the monopoles of #14's model overproduced, and the literature it cited has hidden monopoles overclose the universe at high breaking scales "unless diluted, e.g. by early matter domination" (ruling 3, from the abstract of Liveoak, Maharana and Wells). Any such dilution would have had to end before nucleosynthesis [T] ([the relic yield Y = n/s and entropy dilution](/wiki/cosmology/early-universe/relic-yield-and-dilution#conditions)). [Decision 2](/wiki/method/review/round-3/decisions#decision-2-14s-model-retired) rejected that route: with a free dilution factor, "The mass would then no longer be a prediction".
 
 ## Standard references
 
@@ -184,4 +184,4 @@ None of the † entries is cited in the program's documents for nucleosynthesis;
 - `notes/knot-dark-matter-standalone.md` §3 — ψ "above the MeV scale, so that psi has annihilated before nucleosynthesis" (withdrawn manuscript)
 - `review/wiki-build-flags.md` item 32 — CMB-S4's status, unchecked
 - `notes/closed-universe.md` §4, §7; `review/wiki-build-flags.md` items 48 and 49 — a closed universe leaves the momentum fibre flat, and the dual Einstein–Hilbert term behind the a⁻⁶ step is not derived
-- `CLAUDE.md` 'Since the handoff' — Paul's answers of 2026-10-29, under which the ψ relic window is under review, not dead
+- `CLAUDE.md` 'Since the handoff' — the ψ relic window under review

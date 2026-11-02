@@ -24,7 +24,7 @@ sources:
 
 *Born reciprocity exchanges position and momentum, and in flat space the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries it out exactly, turning a waveform into its spectrum and back. On a closed space, finite in extent like the surface of a sphere, the two descriptions stop matching as wholes: position is still continuous, but momentum becomes discrete, as a waveform on a ring has a line spectrum, so no exact map exchanges them. The exchange still holds for any wave packet much smaller than the universe, with a relative error of order the square of the packet's size over the curvature radius. The closed-universe note of 2026-10-27 adds two results of geometry. On the phase space of a closed universe, only the program's position-like polarization fits together consistently across the whole space, so the mirror polarization has no global form if the program requires that fit. And a closed position space times a closed momentum space cannot be a phase space; one compact phase space that treats position and momentum symmetrically does exist, but it needs a momentum scale far above the Planck energy.*
 
-**Status:** Alive — computed, not reviewed — [D][V] for the failure of the global exchange, the local accuracy and the compact phase spaces; [D][V] for integrability, from the note's critic alone and not independently verified, as the note marks it; Gr̃(2,5) [S][V], a construction of the critic alone (one agent); the prior art [S], found by a verifier. Every number is recomputed in section E of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)). The note's results were checked by independent verifiers and a completeness critic and have not been reviewed (`notes/closed-universe.md` header). The scope note on #11 §3 is flag 47 in `review/wiki-build-flags.md`, which awaits Paul's ruling.
+**Status:** Alive — computed, not reviewed — [D][V] for the failure of the global exchange, the local accuracy and the compact phase spaces; [D][V] for integrability, from the note's critic alone and not independently verified, as the note marks it; Gr̃(2,5) [S][V], a construction of the critic alone (one agent); the prior art [S], found by a verifier. Every number is recomputed in section E of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)). The note's results were checked by independent verifiers and a completeness critic and have not been reviewed (`notes/closed-universe.md` header). The scope note on #11 §3 is flag 47 in `review/wiki-build-flags.md` (pending).
 
 ## The setting
 
@@ -96,11 +96,11 @@ Found by a verifier of the investigation (§5):
 
 ## Sources
 
-- `notes/closed-universe.md` §5 — the global and local exchange, the integrability result and its consequences, the compact phase spaces, the momentum radius needed and the prior art; §2 — Born 1938's momentum hypersphere; §1 — the reading of "closed"; §9 — the ±K_ref splitting, open; §10 — the corrected torus-like claim; §4 — the symmetric reading's verdict and its bracketed note of 2026-10-30
-- `CLAUDE.md` 'Since the handoff' — the symmetric reading, found on 2026-10-30 and under review
+- `notes/closed-universe.md` §5 — the global and local exchange, the integrability result and its consequences, the compact phase spaces, the momentum radius needed and the prior art; §2 — Born 1938's momentum hypersphere; §1 — the reading of "closed"; §9 — the ±K_ref splitting, open; §10 — the corrected torus-like claim; §4 — the symmetric reading's verdict
+- `CLAUDE.md` 'Since the handoff' — the symmetric reading, under review
 - `verify/closed_universe.py` section E — E2 (the grain), E3 (the local accuracy), E4 (integrability on T\*S³ and T³, and (L/R₀)²), E5 (the product obstruction, Gr̃(2,5), √(R₀ l_P) and the bounds on κc); the anchors — the S³ spectrum
 - `review/closed-universe/README.md` — the investigation's analyses, verifiers and critic
-- `review/wiki-build-flags.md` item 47 — the scope of #11 §3's sentence, with its audit; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 47 — the scope of #11 §3's sentence, with its audit (pending)
 - `papers/broken-born-checkpoint-v2.md` §3 — "the Fourier transform implements it unitarily"
 - `papers/phase-space-diameter.md` §8.1, §8.2 — the maximum force and X's range, the two tests that exclude √(R₀ l_P)
 - `notes/broken-born-theory.md` §2 — the section condition

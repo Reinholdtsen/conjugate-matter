@@ -55,7 +55,7 @@ In the wiki's reading, Tier 3 is the program's own structural argument wherever 
 
 ### Negative results: the most reliable Tier-3 items
 
-"Negative results (§9, §7.1, and the failure of #14's model in §12) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). In the wiki's reading of "incentive gradient": a program looking for support for its own ideas is more likely to err toward a positive result than toward a negative one, so a calculation that came out against the program's interest is less likely to reflect that error. The three are the tests of [momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), whose results stand while the founding image they tested has been P.R.'s open conjecture since v2.5, the exclusions of massless and ungauged X in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and the failure of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12), which §2 called "the §12 obituary" until the amendment of 2026-10-29 (1c80d01). The rule that follows is on [Negative results and dead claims](/wiki/method/negative-results).
+"Negative results (§9, §7.1, and the failure of #14's model in §12) are the most reliable Tier-3 items, since the program's incentive gradient ran against them." (#11 §2). In the wiki's reading of "incentive gradient": a program looking for support for its own ideas is more likely to err toward a positive result than toward a negative one, so a calculation that came out against the program's interest is less likely to reflect that error. The three are the tests of [momentum clumping](/wiki/dark-matter/momentum-clumping) (§9), whose results stand while the founding image they tested is P.R.'s open conjecture, the exclusions of massless and ungauged X in [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain) (§7.1), and the failure of [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) (§12). How negative results are reported is on [Negative results and dead claims](/wiki/method/negative-results).
 
 ## The selection-versus-derivation bias
 
@@ -72,7 +72,7 @@ After the [palindrome](/wiki/gravity/palindromic-branch/palindrome) identity of 
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §9 — the tests of momentum clumping and, since v2.5, the founding image as P.R.'s open conjecture; §3 — the v2.2 credit to Freidel, Leigh and Minic; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
+- `papers/broken-born-checkpoint-v2.md` §2 — the three tiers, the ranking of negative results, the v2.1 caution; §9 — the tests of momentum clumping and the founding image as P.R.'s open conjecture; §3 — the v2.2 credit to Freidel, Leigh and Minic; §7.1–§7.4 — the forcing chain, the tuning test, the identity and the novelty downgrade; §14 item 1 — "class selected, not derived"; §15 — the standing caution
 - `verify/battery.py` (output in the gate) — Tier 1's seven tests
 - `review/round3-adjudication.md` 'Pre-registration scored' and `review/round4-adjudication.md` 'Rulings' F2 — the two ways a checked script missed the physics
 - `notes/tuning-test.md` §3, §5 and `notes/x-classification.md` §3 — the frame tier as a selected class; "unique known"

@@ -55,7 +55,7 @@ Rulings F1 and F2, both upheld (`review/round4-adjudication.md`):
 - **F1.** "The §4 potential −μ[Tr(K K_ref)]² is unbounded below in model I". The adjudicator's check: "along H = SᵀS, K = S⁻¹K₀S (S a boost), the λ-term is ~0 while V_μ = −4, −56.6, −2983, −8.9×10⁶ at t = 0, 1, 2, 4." Moving H and K together along a boost keeps the compatibility term at zero while the potential falls without limit.
 - **F2.** "So (1, K_ref) is a saddle, and the Monte Carlo simulates a frozen-H reduction, not model I". The Hessian with H free "has a negative eigenvalue at λ = 1, 10, 100 (−6.47, −4.40, −4.04 in my coordinates)."
 
-The adjudicator's comment: "I should have caught F1 myself: I checked the potential only at frozen H." The rulings stand as results. The naive potential, recorded dead after the round, has been under review since 2026-10-29 and is not dead until Paul reviews it. See [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) and [Review round 4](/wiki/method/review/round-4).
+The adjudicator's comment: "I should have caught F1 myself: I checked the potential only at frozen H." The rulings stand as results. See [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential) and [Review round 4](/wiki/method/review/round-4).
 
 ### What the pre-registration expected
 
@@ -63,7 +63,7 @@ The round-4 pre-registration had named the right place: "in 1+1, the "spontaneou
 
 ## The repair, checked with all fields free
 
-Revision 1 of the note: "Use the bounded potential. Show it is stable with H dynamical (local minimum up to the exact residual squeeze)." The note v2, §4: "The normalized form V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK) is bounded, −μ ≤ V_b ≤ 0 by Cauchy–Schwarz, since Tr K_refᵀK_ref = 2", and "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236." See [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
+Revision 1 of the note: "Use the bounded potential. Show it is stable with H dynamical (local minimum up to the exact residual squeeze)." Version 2 of the note, §4: "The normalized form V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK) is bounded, −μ ≤ V_b ≤ 0 by Cauchy–Schwarz, since Tr K_refᵀK_ref = 2", and "With H dynamical, (1, K_ref) is a stable minimum: Hessian eigenvalues 0, 0.764, 2, 5.236." See [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential).
 
 `verify/toy_coset.py` checks the repair under the heading "The bounded rho-preserving potential, with H dynamical (round-4 repair)":
 
@@ -91,7 +91,7 @@ See [the frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/froz
 
 ## The zero mode: where the sources disagree
 
-The stable minimum keeps one zero eigenvalue, along the line H = diag(y, 1/y), K = K_ref. The adjudication called it "the residual diagonal squeeze, which is an exact symmetry" (F2), and revision 1 speaks of "the exact residual squeeze". The note v2 says instead: "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref." The gate checks only that the line is flat (`V = -1 all along it`), which both statements agree on.
+The stable minimum keeps one zero eigenvalue, along the line H = diag(y, 1/y), K = K_ref. The adjudication called it "the residual diagonal squeeze, which is an exact symmetry" (F2), and revision 1 speaks of "the exact residual squeeze". Version 2 of the note says instead: "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref." The gate checks only that the line is flat (`V = -1 all along it`), which both statements agree on.
 
 The wiki build applied the rule's question, whether a property seen on a slice holds off it, to this disagreement. Its executed check, `review/wiki-build-checks/squeeze_check.py`, applies the squeeze to a general K and prints, besides the general formula for the change:
 
@@ -101,7 +101,7 @@ numeric example (a=2, K=[[1/2,1],[3/4,-1/2]]): V_b change = 320/1683
 on the line K = K_ref: 0
 ```
 
-The squeeze leaves the λ-term unchanged and V_b unchanged on the line K = K_ref, but changes V_b off it, so the flat direction is not a symmetry of the potential. Flag 12 in `review/wiki-build-flags.md` records this and calls the note's statement the accurate one. In the wiki's precedence the note (rank 2) also outranks the adjudication (rank 3), so the wiki follows the note; the adjudication's wording stands in the record unamended, pending Paul's ruling on the flag.
+The squeeze leaves the λ-term unchanged and V_b unchanged on the line K = K_ref, but changes V_b off it, so the flat direction is not a symmetry of the potential. Flag 12 in `review/wiki-build-flags.md` records this and calls the note's statement the accurate one. In the wiki's precedence the note (rank 2) also outranks the adjudication (rank 3), so the wiki follows the note; the adjudication's wording stands in the record unamended (flag 12, pending).
 
 ## What the rule leaves open
 
@@ -117,4 +117,4 @@ The rule was satisfied for the classical vacuum, not for the simulation: the Mon
 - `notes/toy-lagrangian.md` 'Chunk 3 results (2026-10-19): S4, quantum stability' — the potential as first studied at H = 1
 - `verify/toy_coset.py` — the gated saddle, the stable minimum, the flat line; `verify/toy_s4.py` — the reduction stated in the script
 - `review/wiki-build-flags.md` item 12 and `review/wiki-build-checks/squeeze_check.py` with its `.out` — the zero mode is not a symmetry
-- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — the rule's last sentence read with only H held fixed, and the audit's verdict; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — the rule's last sentence read with only H held fixed, and the audit's verdict (pending)

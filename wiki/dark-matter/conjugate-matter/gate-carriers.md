@@ -2,13 +2,15 @@
 title: "What could carry a relative-velocity gate"
 weight: 35
 status: alive
-description: "No field of finite spin can carry a force that switches off above a relative speed like 120 km/s: exchange gives a polynomial in the relative Lorentz factor that grows with speed on the scale c; a tower of every spin needs cancellations of 10^5421169; a medium gates velocity through the medium, not relative velocity; a continuous-spin particle has the right shape but a threshold that falls with distance."
+description: "Two notes of 2026-10-28, not reviewed, find that no field of finite spin can carry a force that switches off above a relative speed like 120 km/s: exchange gives a polynomial in the relative Lorentz factor that grows with speed on the scale c; a tower of every spin needs cancellations of 10^5421169; a medium gates velocity through the medium, not relative velocity; a continuous-spin particle has the right shape but a threshold that falls with distance."
 provenance: [D, V, T]
 sources:
   - "notes/velocity-gated-gravity.md §9"
   - "notes/velocity-gated-gravity.md §5"
   - "notes/gate-mechanism.md §2"
+  - "notes/gate-mechanism.md §3"
   - "notes/gate-mechanism.md §4"
+  - "notes/gate-mechanism.md §5"
   - "verify/velocity_gated_gravity.py 'I. Carriers'"
   - "verify/gate_mechanism.py 'G. Run 3's theory verifier'"
   - "verify/gate_mechanism.py 'A. Anchors (independent of both derivations)'"
@@ -16,7 +18,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §8"
 ---
 
-*A force carried by a field depends on how fast the two bodies move relative to each other only in a limited way. When the field has a definite spin, the dependence is a polynomial in the bodies' relative velocity that grows with speed, and its natural scale is the speed of light. The program's dark-matter gate, and the long-range attraction P.R. asked about, both need the opposite: an interaction that switches off once the relative speed passes about 120 km/s. A working note of 2026-10-28 asks whether any field could carry such a gate. No single spin can. Fields of every spin together could build one only through cancellations between enormous terms. A medium can switch a force off with speed, but then the force depends on each body's motion through the medium, not on the bodies' relative velocity. One known exotic framework, a massless particle with infinitely many helicities, gives a correction with the right shape, but its threshold velocity falls with distance, so it does not give a fixed gate.*
+*A force carried by a field depends on how fast the two bodies move relative to each other only in a limited way. When the field has a definite spin, the dependence is a polynomial in the bodies' relative velocity that grows with speed, and its natural scale is the speed of light. The program's dark-matter gate, and P.R.'s long-range attraction, both need the opposite: an interaction that switches off once the relative speed passes about 120 km/s. A working note of 2026-10-28, not reviewed, asks whether any field could carry such a gate. It finds that no single spin can. Fields of every spin together could build one only through cancellations between enormous terms. A medium can switch a force off with speed, but then the force depends on each body's motion through the medium, not on the bodies' relative velocity. One known exotic framework, a massless particle with infinitely many helicities, gives a correction with the right shape, but its threshold velocity falls with distance, so it does not give a fixed gate.*
 
 **Status:** Alive — computed, not reviewed — as `notes/velocity-gated-gravity.md` §9 tags its parts: finite spin [D][V; two derivations]; the no-go theorems [T][S]; the spin tower [D][V; one derivation]; the medium [D][V; one derivation]; continuous spin [T][S, read twice: by the run-3 theory verifier and by the drafting session, whose fetch is in the session transcript, not the record; numbers D]. The numbers are recomputed in section I of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)) and, for the spin-2 case and the medium, in section G of `verify/gate_mechanism.py` ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script)). The note has not been through a blind review round.
 
@@ -78,7 +80,7 @@ The gate-mechanism note finds the same for a preferred frame in the program's ow
   L_int ≈ (g²/4πr)[1 − (ρ²r²/32)(|v_ij| − v_ij·r̂)² + …]
   ```
 
-  The correction depends only on the relative velocity, and vanishes for co-moving bodies and for motion along the line joining them: "the shape of Paul's question".
+  The correction depends only on the relative velocity, and vanishes for co-moving bodies and for motion along the line joining them: the shape of P.R.'s model.
 - But it matters when ρvr ~ ħc, so its threshold velocity falls with distance; it is not a fixed v\*. A 120 km/s threshold at 1 kpc needs ρ = 1.6×10⁻²³ eV, and one ten times smaller at 10 kpc (check I4).
 - It is worked out only for a scalar current. No gravitational (tensor) version exists, and the record has no such field.
 
@@ -86,13 +88,13 @@ The investigation's run-3 pre-registration missed this framework (`notes/velocit
 
 ## What follows
 
-- **For the record's contact gate:** tree-level exchange of the X of #11 §7 is excluded as its mechanism, and both derivations of the gate-mechanism note conclude that no local carrier of finite spin delivers the gate (`notes/gate-mechanism.md` §3). Flag 55 awaits Paul's ruling.
-- **For the long-range conjecture:** no field of the record, and no field of finite spin, carries it; the conjecture is tested as a hypothesis in its own right ([Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction)).
+- **For the record's contact gate:** the gate-mechanism note excludes tree-level exchange of the X of #11 §7 as its mechanism [D][V], and both of its derivations conclude that no local carrier of finite spin delivers the gate (`notes/gate-mechanism.md` §§3, 5; flag 55, pending).
+- **For the long-range conjecture:** the note finds that no field of the record, and no field of finite spin, carries it; the conjecture is tested as a hypothesis in its own right ([Conjecture: a long-range velocity-gated attraction among χ](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction)).
 
 ## Sources
 
 - `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) §9 — finite spin, the no-go theorems, the tower, the medium and continuous spin; §5 — no carrier in the record; §11 — the run-3 pre-registration's miss
-- `notes/gate-mechanism.md` (2026-10-28, not reviewed) §2 — the record's X, the exact form needing every spin; §3 — no local carrier of finite spin; §4 — a preferred frame
+- `notes/gate-mechanism.md` (2026-10-28, not reviewed) §2 — the record's X, the exact form needing every spin; §3 — no local carrier of finite spin; §4 — a preferred frame; §5 — tree-level exchange of X excluded as the mechanism
 - `verify/velocity_gated_gravity.py` section I — the spin-J residues, the spin needed, the tower and continuous spin ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script))
 - `verify/gate_mechanism.py` section G — the spin-2 residue, T3 (loops) and T6 (the medium); the anchors — the Legendre and addition-theorem identities ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script))
 - `review/momentum-gravity/README.md` — the investigation's runs

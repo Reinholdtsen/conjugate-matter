@@ -15,11 +15,12 @@ sources:
   - "popsci/universes-other-half.md 'A second speed of light'"
   - "review/wiki-build-flags.md item 56"
   - "notes/velocity-gated-gravity.md §2"
+  - "verify/velocity_gated_gravity.py 'B. X between ordinary bodies'"
 ---
 
-*Dual inertia is [#13](/wiki/conjugate-relativity)'s account of rest and uniform motion in the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the mirror description in which momentum plays the part that position plays for ordinary matter. An ordinary inertial body keeps its velocity constant. In #13's dual kinematics the rate of motion through momentum space, dp/dt, is a force, and it takes the place of velocity, so the dual-inertial motions are those of constant force: zero force, which in [general relativity](/wiki/gravity/spin-2-fields/general-relativity) is free fall, and a constant nonzero force, which is a uniformly accelerated (Rindler) frame. In #13's words, "An astronaut coasting in orbit is, to the momentum polarization, at rest." The identification of dual-inertial frames with free fall is on #13's list of fixed results; the dual second law built on it is marked conjecture-tier, the dual first law carries no tag, and their formalization waits on dynamics that have not been written. Like the rest of #13, the material is unreviewed and unchecked by script, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
+*Dual inertia is [#13](/wiki/conjugate-relativity)'s account of rest and uniform motion in the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the mirror description in which momentum plays the part that position plays for ordinary matter. An ordinary inertial body keeps its velocity constant. In #13's dual kinematics the rate of motion through momentum space, dp/dt, is a force, and it takes the place of velocity, so the dual-inertial motions are those of constant force: zero force, which in [general relativity](/wiki/gravity/spin-2-fields/general-relativity) is free fall, and a constant nonzero force, which is a uniformly accelerated (Rindler) frame. In #13's words, "An astronaut coasting in orbit is, to the momentum polarization, at rest." The identification of dual-inertial frames with free fall is on #13's list of fixed results; the dual second law built on it is marked conjecture-tier, the dual first law carries no tag, and their formalization waits on dynamics that have not been written. Like #13's other derivations, the material is unreviewed and unchecked by script, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention it.*
 
-**Status:** Alive, unreviewed — the dual-inertial = free-fall identification is in #13 §7's fixed [D] list (it is untagged in §5); the dual second law is "conjecture-tier", #13's own label and not one of the house tags, and the dual first law is untagged. The [D] is #13's own: no review round has covered #13, no `verify/` script checks it, and [#11](/wiki/history/documents/checkpoint) (v2.5) does not mention it.
+**Status:** Alive, unreviewed — the dual-inertial = free-fall identification is in #13 §7's fixed [D] list (it is untagged in §5); the dual second law is "conjecture-tier", #13's own label and not one of the house tags, and the dual first law is untagged. The [D] is #13's own: no review round has covered #13, no `verify/` script checks it, and [#11](/wiki/history/documents/checkpoint) does not mention it.
 
 ## Background: inertia, free fall and Rindler frames [T]
 
@@ -53,7 +54,7 @@ The fourth row comes from #13 §2: "A dual boost of parameter F carries the forc
 
 The identification "force-free motion — our free fall" uses the general-relativistic reading of free fall, in which no force acts on a falling body. In the Newtonian reading the falling body's momentum changes, at a rate set by its weight [T]. #13 does not discuss the choice; its §6 states that "the massless graviton" is shared by both polarizations, "so both polarizations fall identically" ([the equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle)).
 
-The identification has a consequence #13 does not draw: two bodies falling freely toward each other are both at dual rest, so their dual-kinematic correction is zero. #13 §2 nevertheless says a black-hole merger "operates at F ~ c̃ by construction", using the force between the holes. Flag 56 in `review/wiki-build-flags.md` (rated low; raised by 1 agent, upheld by the momentum-gravity investigation's final critic) records the two answers: for the Sun and Earth, (1/2)(F/c̃)² = 4.3×10⁻⁴⁴ under §2's reading and 0 under §5's, "both are negligible, but the paper gives two answers" (`notes/velocity-gated-gravity.md` §2; [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies#two-other-readings-of-momentum-gravity); [Open: merger-band corrections](/wiki/conjugate-relativity/force-boosts#open-merger-band-corrections)). It awaits Paul's ruling.
+The identification has a consequence #13 does not draw: two bodies falling freely toward each other are both at dual rest, so their dual-kinematic correction is zero. #13 §2 nevertheless says a black-hole merger "operates at F ~ c̃ by construction", using the force between the holes. Flag 56 in `review/wiki-build-flags.md` (pending; rated low; raised by 1 agent, upheld by the momentum-gravity investigation's final critic) records the two answers: for the Sun and Earth, (1/2)(F/c̃)² = 4.3×10⁻⁴⁴ under §2's reading and 0 under §5's, "both are negligible, but the paper gives two answers" (`notes/velocity-gated-gravity.md` §2; check B2 of [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script), which prints γ̃ − 1 = 4.28×10⁻⁴⁴; [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies#two-other-readings-of-momentum-gravity); [Open: merger-band corrections](/wiki/conjugate-relativity/force-boosts#open-merger-band-corrections)).
 
 ### Which time
 
@@ -72,7 +73,7 @@ The rate dp/dt is taken with respect to a time t that both polarizations share. 
 - **The second law.** In Newton's second law mass measures resistance to a change of velocity. The dual law gives that role to λ_χ, the invariant extent that #13 §4 assigns to conjugate quanta ([the invariant-length shell](/wiki/conjugate-relativity/invariant-length-shell)), as the resistance to a change of force. #13 writes no equation for it.
 - **The tier.** "Conjecture-tier" is not one of the program's tags ([provenance tags and citation marks](/wiki/method/provenance-tags)); the tag is attached to the second law, and its text says why the law is not derived: "the full dual dynamics awaits the formalization of §6". §6's open item is the four-dimensional Born map, "a required step before the dual dynamics (their Maxwell, their field theory) can be written". The dual laws are not on §7's fixed list.
 
-The register of conjectures lists the dual second law among the conjecture-tier statements inside the record ([conjectures: chat-only and popsci-only claims](/wiki/status/conjectures)).
+The register of conjectures lists the dual second law among the conjecture-tier statements inside the record ([conjectures](/wiki/status/conjectures)).
 
 ## What follows
 
@@ -84,11 +85,11 @@ The popular article #12 ("A second speed of light") states the identification as
 
 ## Basis of the status
 
-`HANDOFF.md` §2 lists "dual inertial frames = free fall ⇒ equivalence principle as the dual relativity principle" among the alive results, without the ✓ it uses for machine-verified items. #13 has not been revised in substance since its import on 2026-10-19 and has not been through a review round, and #11 (v2.5) does not mention it ([conjugate special relativity](/wiki/conjugate-relativity)).
+`HANDOFF.md` §2 lists "dual inertial frames = free fall ⇒ equivalence principle as the dual relativity principle" among the alive results, without the ✓ it uses for machine-verified items. #13 has not been revised in substance since its import on 2026-10-19 and has not been through a review round, and #11 does not mention it ([conjugate special relativity](/wiki/conjugate-relativity)).
 
 ## Sources
 
 - `papers/conjugate-special-relativity.md` §5 — the dual-inertial class, the astronaut, the dual first and second laws; §1 for the dual cone; §2 for the force boost to a uniformly forced frame; §4 for λ_χ; §6 for the shared time, the shared graviton and the open four-dimensional map; §7 for the fixed list.
 - `HANDOFF.md` §2 — the alive listing.
 - `popsci/universes-other-half.md` 'A second speed of light' — the popular statement (not a status source).
-- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low), awaiting Paul's ruling; `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth
+- `review/wiki-build-flags.md` item 56 — #13 §2 against §5 on gravitating pairs (low, pending); `notes/velocity-gated-gravity.md` §2 — the two answers for the Sun and Earth; `verify/velocity_gated_gravity.py` section B, check B2 — γ̃ − 1 = 4.28×10⁻⁴⁴

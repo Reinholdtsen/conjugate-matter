@@ -2,7 +2,7 @@
 title: "A closed Comatter universe"
 weight: 110
 status: alive
-description: "What spatial closure, k = +1, implies for the program: nothing derives it, but with V₀[1 + cos(τ/f)] ≥ 0 the turnaround of row 5 needs it, and the data disfavour it at about 2σ in the program's model class; position space has only lower bounds on its largest size, momentum space stays flat and only becomes discrete, and a compact momentum space would be a new postulate, whose symmetric reading has been under review since 2026-10-29."
+description: "What spatial closure, k = +1, implies for the program: nothing derives it, but with V₀[1 + cos(τ/f)] ≥ 0 the turnaround of row 5 needs it, and the data disfavour it at about 2σ in the program's model class; position space has only lower bounds on its largest size, momentum space stays flat and only becomes discrete, and a compact momentum space would be a new postulate, whose symmetric reading is under review."
 provenance: [D, V]
 sources:
   - "notes/closed-universe.md §1"
@@ -20,6 +20,7 @@ sources:
   - "verify/closed_universe.py 'F. Topology of the polarization manifold'"
   - "review/closed-universe/README.md"
   - "review/closed-universe/preregistration.md"
+  - "review/closed-universe/verdicts/critic.json ruling (a)"
   - "review/wiki-build-flags.md items 27 (addendum), 43, 46, 48, 49, 50, 54"
   - "review/wiki-build-flags.md item 61"
   - "review/round5-adjudication.md 'Rulings' R11"
@@ -32,11 +33,11 @@ sources:
 
 *A closed universe is one whose space is finite in volume and curved like the surface of a sphere, one dimension up: the spatial curvature is positive, k = +1, and a traveller going straight ahead would in principle return to the start. The closed-universe note of 2026-10-27 works out what closure would mean for the Comatter program. Nothing in the program derives closure, but the program's dark-energy potential never goes negative, and with such a potential only a closed universe stops expanding and falls back; the turnaround that the program identifies with the [conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) therefore needs a closed universe. Current data, fitted with the program's own class of dark-energy models, disfavour closure at about two standard deviations. If the universe is closed, the data set only a minimum on its largest size, not a maximum. Momentum space does not close with it: the allowed momenta become discrete, as a string of fixed length holds only certain wavelengths, and their spacing is finest at the turnaround.*
 
-**Status:** Alive — computed, not reviewed. The note's results carry [D][V], its data [S], its prior art [T] and [S]; every number is recomputed by `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), and the note states that its results were checked by independent verifiers and a completeness critic and have not been through a blind review round (`notes/closed-universe.md` header). The reading of Paul's question is an assumption the note states. The note bears on flags 27 (addendum), 43, 46, 48, 49, 50 and 54 in `review/wiki-build-flags.md`, which await Paul's ruling, and on flag 61, applied on 2026-10-29, which added the polarization's point defects and gated the maps behind its homotopy groups. One item on the page has another status: the note's symmetric reading of a compact momentum space, which it recorded dead unless postulated, has been under review since Paul's answers of 2026-10-29, not dead ([below](#under-review-the-symmetric-reading-dv)).
+**Status:** Alive — computed, not reviewed. The note's results carry [D][V], its data [S], its prior art [T] and [S]; every number is recomputed by `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), and the note states that its results were checked by independent verifiers and a completeness critic and have not been through a blind review round (`notes/closed-universe.md` header). The note's reading of its question is an assumption it states. The note bears on flags 27 (addendum), 43, 46, 48, 49, 50 and 54 in `review/wiki-build-flags.md`, all pending, and on flag 61, applied, which added the polarization's point defects and gated the maps behind its homotopy groups. One item on the page has another status: the note's symmetric reading of a compact momentum space is under review ([below](#under-review-the-symmetric-reading-dv)).
 
 ## The question and the reading
 
-Paul asked on 2026-10-27: "Presumably a comatter universe is closed. Work out the cosmological consequences wrt generalized general relativity. How small does momentum space get? How big does position space get? Anything else of interest." (note §1).
+The note starts from P.R.'s supposition that a Comatter universe is closed, and asks for its cosmological consequences with respect to generalized general relativity: how small momentum space gets, how big position space gets, and anything else of interest (note §1).
 
 The note reads the question as follows, and marks the reading as an assumption (§1):
 
@@ -164,16 +165,16 @@ Read through [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) with 
 
 ## Under review: the symmetric reading [D][V]
 
-The symmetric reading of a compact momentum space sets the curvature of momentum space equal to ours, k̃ = k (below). It has been under review since Paul's answers of 2026-10-29, not dead. On 2026-10-27 the note recorded it dead unless postulated, without his concurrence, which his rule of 2026-10-29 requires for a death. That day he answered "Restore all pending" for every death recorded before then that he did not answer separately, and the answer covers this one. The list of twelve claims under review was taken from [the wiki's graveyard](/wiki/status/graveyard), which never held the reading, and so it missed the reading; the omission was found on 2026-10-30, after the answers (root `CLAUDE.md`, 'Since the handoff'). The register lists it after the twelve ([claims under review](/wiki/status/under-review#the-closed-universe)). Its evidence, below, is unchanged; only its status is new.
+The evidence below weighs against the reading, and its final status awaits review.
 
 A compact momentum space would be a new postulate (§4). Its symmetric reading sets the dual curvature equal to ours, k̃ = k, with vM̃² = M_P², M̃ being the dual Planck mass of the [lab notebook's dual gravity term](/wiki/cosmology/scale-factor-duality/duality-dictionary#the-dual-gravity-term). Both the a⁻⁶ term and the dual curvature are then fixed by a single self-dual radius R_sd. At |Ω_k| = 10⁻² (§4):
 
 - [Big Bang nucleosynthesis](/wiki/cosmology/early-universe/big-bang-nucleosynthesis) (BBN) requires R_sd ≤ 1.568×10¹⁷ m, and N_eff, the effective number of neutrino species, requires R_sd ≤ 3.029×10²⁵ m;
 - the observed momentum range sets a minimum on R_sd; the 6.8 TeV protons of the Large Hadron Collider (LHC), together with N_eff and BBN, then need λ ≤ 1.278×10⁻⁶ m;
-- adding standard slow-roll inflation needs λ ≤ 1.986×10⁻⁴⁹ m;
+- adding standard slow-roll inflation needs λ ≤ 1.986×10⁻⁴⁹ m, 14 orders below the Planck length, which flag 48 states as "never together with standard inflation": for any λ ≥ l_P the a⁻⁶ term is in control at CMB horizon exit, and whether slow roll can run there is open [O] (the critic's ruling (a), `review/closed-universe/verdicts/critic.json`);
 - for λ = √(l_P c/H₀) the window is empty.
 
-The reading also contradicts the record's k̃ = 0, and it rests on the underived dual Einstein–Hilbert term (below). The verdict in the record is the one the note gave on 2026-10-27: "It is dead unless Paul adds a compact momentum space deliberately." A bracketed status note of 2026-10-30 follows it: "under Paul's rule of 2026-10-29 this verdict needs his concurrence, which he has not given. His answer that day for every other death recorded before it, 'Restore all pending', covers this one, which the list of twelve missed: the reading is under his review, not dead (root `CLAUDE.md`, 'Since the handoff')." (§4). No program document ever asserted the symmetric reading; the record keeps k̃ as an optional knob of row 10 (flag 48, audit), so the reading has no page of its own, and the registers link this section.
+The reading also contradicts the record's k̃ = 0, and it rests on the underived dual Einstein–Hilbert term (below). The note's verdict: the reading stands only if a compact momentum space is added deliberately (§4). No program document ever asserted the symmetric reading; the record keeps k̃ as an optional knob of row 10 (flag 48, audit), so the reading has no page of its own, and the registers link this section ([claims under review](/wiki/status/under-review#the-closed-universe)).
 
 ## The dual frame: what closure fixes and what it does not
 
@@ -186,7 +187,7 @@ The reading also contradicts the record's k̃ = 0, and it rests on the underived
 - the a⁻⁶ term is below 10⁻¹⁹⁸ of the total after inflation, for |Ω_k| ≤ 10⁻²; at k̃ = 0 it is the only dual term;
 - an inflationary throat has c/H_inf = 2.67×10⁵ l_P, so ã ≤ 3.75×10⁻⁶ there; the self-dual point a = ã is never reached after inflation begins.
 
-**The radius–mass pairing [D][V].** Pairing the radius R with the total mass M = ρ·2π²R³/c² gives G·M/c² = (3π/4)R at H = 0, and the aspect ratio at a turnaround spans 4/(3π) to 8/3 across conventions. This is the closed Friedmann equation at H = 0, with ħ cancelling. The note adds: "The case against 'square exactly at the bounce' (`papers/phase-space-diameter.md` §6) stands. That claim has been under Paul's review since 2026-10-29, not dead (note v1.2)." (§7; [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce); [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)).
+**The radius–mass pairing [D][V].** Pairing the radius R with the total mass M = ρ·2π²R³/c² gives G·M/c² = (3π/4)R at H = 0, and the aspect ratio at a turnaround spans 4/(3π) to 8/3 across conventions. This is the closed Friedmann equation at H = 0, with ħ cancelling. The note adds: "The case against 'square exactly at the bounce' (`papers/phase-space-diameter.md` §6) stands." (§7; [Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce); [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter)).
 
 ## Light, horizons and counts
 
@@ -212,7 +213,7 @@ The note's §9 lists [O]:
 1. **Derive the dual Einstein–Hilbert term from S_H.** Every bound on the dual frame, including #11 §10's a⁻⁶ step and row 10, currently tests a postulate (flag 49).
 2. **Fit the program's model properly.** V₀[1 + cos(τ/f)] plus Ω_K against full CMB, baryon-acoustic-oscillation and supernova likelihoods, with the Cobaya and CAMB codes. It decides the premise: the background fit above has no supernovae.
 3. **The remaining calculations:** inflation and the bimetric sector together (G_eff = 2G_N during inflation, two light gravitons); the energy splitting between the ±K_ref polarizations that closure induces; perturbations, and X's L = 2 modes, through the recollapse.
-4. **Defects of the polarization** (added 2026-10-29, flag 61). If a transition in the early universe selected the polarization, the ℤ₂ point defects and the τ-strings above could form at it; the gravity-sector analysis lists their fate as open. Whether such a transition happened, what it left, and whether the point defects would pose a monopole problem of the program's own are not computed. They are defects of the program's own order parameter, unlike conjugate-sector solitons, whose existence depends on gauge content the record does not specify. Since v2.3 #11 has listed the question as §14 item 12 ([Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
+4. **Defects of the polarization** (flag 61). If a transition in the early universe selected the polarization, the ℤ₂ point defects and the τ-strings above could form at it; the gravity-sector analysis lists their fate as open. Whether such a transition happened, what it left, and whether the point defects would pose a monopole problem of the program's own are not computed. They are defects of the program's own order parameter, unlike conjugate-sector solitons, whose existence depends on gauge content the record does not specify. #11 lists the question as §14 item 12 ([Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12)).
 
 The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 2019 as a lead, as "Open from the closed-universe note, not queued", and the fourth among those "Open from the monopole discussion, not queued". All four are on [open problems and the queue](/wiki/status/open-problems).
 
@@ -220,7 +221,7 @@ The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 20
 
 **Method** (§1; `review/closed-universe/README.md`). A pre-registration was sealed before any agent was dispatched (`review/closed-universe/preregistration.md`, SHA-256 5b1fb233…). Five analyses followed (observations, dynamics, gravity sector, minisuperspace, momentum space), each with two verifiers working from the extracted claims only, and a critic ruled on the tensions between them. Tally: 469 claim checks, 403 confirmed, 48 corrected, 2 refuted, 16 not reached. The analyses, verdicts and scripts are in `review/closed-universe/`.
 
-**Refuted along the way** (§10). Two intermediate claims of the analysts were refuted before the note was written; neither was ever a claim of the record, so neither has an obituary page:
+**Refuted along the way** (§10). Two intermediate claims of the analysts were refuted before the note was written; neither was ever a claim of the record, so neither has a page of its own:
 
 - that light from the big bang never circles the universe in six histories: the grid had sampled only two independent phases of τ's oscillation, and with eight phases every history completes the circuit in some phase; the point is moot once inflation is included;
 - that the Fischler–Susskind bound fails at a ≈ 4×10⁻¹⁷ during the collapse: the estimate assumed a horizon of 1 radian, while the horizon reaches the antipode at the turnaround.
@@ -231,11 +232,11 @@ The root `CLAUDE.md` lists the first two, and Artigas, Mielczarek and Rovelli 20
 
 ## Sources
 
-- `notes/closed-universe.md` §1 — the question, the reading [assumption], the method and the conventions; §2 — closure underived, the turnaround needing k = +1, size and timing, the conditions, the prior art, the over-constraint and the data; §3 — the bounds on the largest size, the representative history and the throat; §4 — the three readings of momentum space and the symmetric reading, with the note's verdict and its bracketed note of 2026-10-30 that the reading is under Paul's review; §7 — the dual frame and the radius–mass pairing, with "The case against … stands" and the square at the bounce under Paul's review since 2026-10-29; §8 — light, horizons and counts, and the topology of the polarization (the textures [D], π₁ and π₃ [T][V], π₂ [T], and the caveats d = 4 and a global U(4)); §9 — what is open, item 4 the polarization's defects; §10 — the record and the pre-registration scored
+- `notes/closed-universe.md` §1 — the question, the reading [assumption], the method and the conventions; §2 — closure underived, the turnaround needing k = +1, size and timing, the conditions, the prior art, the over-constraint and the data; §3 — the bounds on the largest size, the representative history and the throat; §4 — the three readings of momentum space and the symmetric reading, with the note's verdict; §7 — the dual frame and the radius–mass pairing, with "The case against … stands"; §8 — light, horizons and counts, and the topology of the polarization (the textures [D], π₁ and π₃ [T][V], π₂ [T], and the caveats d = 4 and a global U(4)); §9 — what is open, item 4 the polarization's defects; §10 — the record and the pre-registration scored
 - `verify/closed_universe.py` — every number above: the anchors (the S³ spectrum, the dodecahedral mode, the published curvature values, the fit's calibration), section B (the τ histories, size and timing, the contrasts, light), section C (the bounds given closure and the corridor fit), section E (the fibre, the grain, the symmetric reading, the throat, the dual terms, the radius–mass pairing, the photon count) and section F (the maps behind the homotopy of Λ(4), and the two texture classes, argued)
-- `review/closed-universe/README.md` — how the investigation ran, its tally and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/preregistration.md` — the sealed forecast
-- `review/wiki-build-flags.md` items 27 (addendum), 43, 46, 48, 49, 50 and 54 — the flags this page bears on, with their audits; awaiting Paul's ruling; item 61 — the polarization's point defects and τ-strings, applied on 2026-10-29
+- `review/closed-universe/README.md` — how the investigation ran, its tally and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/preregistration.md` — the sealed forecast; `review/closed-universe/verdicts/critic.json` ruling (a) — the symmetric reading with standard inflation
+- `review/wiki-build-flags.md` items 27 (addendum), 43, 46, 48, 49, 50 and 54 — the flags this page bears on, with their audits, all pending; item 61 — the polarization's point defects and τ-strings
 - `papers/broken-born-checkpoint-v2.md` §14 item 12 — the homotopy groups behind the polarization's defects [T], with the maps gated in section F, and their fate [O]
 - `review/round5-adjudication.md` 'Rulings' R11 and `papers/phase-space-diameter.md` §6 — a closed universe can turn around without negative energy
 - `papers/broken-born-checkpoint-v2.md` §10, §13 row 5 — "eventually goes negative" and the row the turnaround tests
-- `CLAUDE.md` 'Since the handoff' — the note's results and its open items, not queued; the polarization's defects among the monopole discussion's open items (2026-10-29); in the entry on Paul's answers, the symmetric reading, found on 2026-10-30 and under review because his answer covers it
+- `CLAUDE.md` 'Since the handoff' — the note's results and its open items, not queued; the polarization's defects among the monopole discussion's open items; the symmetric reading, under review

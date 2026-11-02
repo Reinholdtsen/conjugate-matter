@@ -16,8 +16,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §14 item 10"
   - "papers/broken-born-checkpoint-v2.md ref [13]"
   - "notes/stream-stability.md 'Setup'"
-  - "notes/stream-stability.md 'Limit 1 (broad gate)'"
-  - "notes/stream-stability.md 'Limit 2 (narrow gate)'"
+  - "notes/stream-stability.md 'Limit 1 — broad gate'"
+  - "notes/stream-stability.md 'Limit 2 — narrow gate'"
   - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/stream-stability.md 'Next chunk (3b)'"
   - "notes/ufd-endpoint.md 'Sharpened input numbers'"
@@ -37,7 +37,7 @@ sources:
 
 [The clumping problem](/wiki/history/main-problems) asked whether conjugate matter χ, attracting itself only between particles of nearly equal velocity ([the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate)), breaks a halo into velocity streams. For classical particles the answer was no: [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion) fails by 10²⁸–10³¹, and [the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem) showed that the coupling needed for collective behavior is reached only at masses where χ is a wave. On that branch, `notes/stream-stability.md` wrote, "the collective sector is reborn in field language. The halo is an incoherent wave field; the gated attraction drives condensation in k-space — power flowing into narrow-momentum streams — which is the original 'clumps in momentum space' intuition in its natural habitat" ('Consequences for the predictions table').
 
-In the Fourier picture the halo is a superposition of waves of many momenta with random relative phases; its state is described by how much power each momentum carries. Condensation in k-space means that this spectrum narrows: power collects in a small range of momenta, and a narrow spectrum is a long, coherent waveform. Γ_self is the rate, per unit time, at which the gated attraction drives that narrowing. Calc note #2 named the quantity still to be computed, Γ_cond(m, g, v\*; ρ, σ), and set the task: "Boltzmann collision integral for the field with Bose enhancement and the momentum gate", "compared to orbital stirring Ω per environment" ('Next chunk (#3)'). Calc note #3 computed it under the name Γ_self.
+In the Fourier picture the halo is a superposition of waves of many momenta with random relative phases; its state is described by how much power each momentum carries. Condensation in k-space means that this spectrum narrows: power collects in a small range of momenta, and a narrow spectrum is a long, coherent waveform. Γ_self is the rate, per unit time, at which the gated attraction drives that narrowing. Calc note #2 named the quantity still to be computed, Γ_cond(m, g, v\*; ρ, σ), and set the task: "Boltzmann collision integral for the field with Bose enhancement and the momentum gate", "compared to orbital stirring Ω per environment" ('Next chunk (3b)'). Calc note #3 computed it under the name Γ_self.
 
 ## Background: wave kinetics with Bose enhancement [T]
 
@@ -65,7 +65,7 @@ A halo region is described by its mass density ρ and its velocity dispersion σ
 
 ### Three substitutions
 
-Calc note #3 obtains the rate from the generic estimate by three choices ('The rate'): "With peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³), scatterer density restricted to the gate, and relative velocities min(σ, v\*)". The peak occupation is the occupation at the maximum of the velocity distribution. The note's 'Setup' writes the occupation without the factor (2π)^{3/2}, and the note does not reconcile the two forms ([occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number)). "Scatterer density restricted to the gate" counts only the partners that can interact: in a halo wider than the gate, a given wave meets only the fraction of the halo moving within about v\* of it. Chunk A wrote the density of these co-movers, for its narrow-gate limit, as n_gate ≈ n(v\*/σ)³/(2π)^{3/2}, "(co-movers only)" ('Limit 2 (narrow gate)').
+Calc note #3 obtains the rate from the generic estimate by three choices ('The rate'): "With peak occupation N_occ ≈ (2π)^{3/2}ρ/(m⁴σ³), scatterer density restricted to the gate, and relative velocities min(σ, v\*)". The peak occupation is the occupation at the maximum of the velocity distribution. The note's 'Setup' writes the occupation without the factor (2π)^{3/2}, and the note does not reconcile the two forms ([occupation number](/wiki/dark-matter/wave-dark-matter/occupation-number)). "Scatterer density restricted to the gate" counts only the partners that can interact: in a halo wider than the gate, a given wave meets only the fraction of the halo moving within about v\* of it. Chunk A wrote the density of these co-movers, for its narrow-gate limit, as n_gate ≈ n(v\*/σ)³/(2π)^{3/2}, "(co-movers only)" ('Limit 2 — narrow gate').
 
 ### Word collisions
 
@@ -86,7 +86,7 @@ The rate grows as the square of the coupling and the square of the density, and 
 The formula has two regimes, according to whether the halo's dispersion is smaller or larger than the gate (#3): "Gate-open (σ ≲ v\*): Γ ≈ c g²ρ²/(m³σ²). Gate-narrow: suppressed by (v\*/σ)⁴ — a power law, not an exponential."
 
 - **Gate open.** When σ ≲ v\*, min(σ, v\*) = σ and most pairs in the halo are inside the gate; the rate is the full Bose-enhanced rate c g²ρ²/(m³σ²).
-- **Gate narrow.** When σ > v\*, min(σ, v\*) = v\*, and the rate is the gate-open value multiplied by (v\*/σ)⁴. Calc note #2 assigned the regimes by environment: the broad gate is the "dwarf regime", the narrow gate the "MW/cluster regime", where MW is the Milky Way ('Limit 1 (broad gate)', 'Limit 2 (narrow gate)').
+- **Gate narrow.** When σ > v\*, min(σ, v\*) = v\*, and the rate is the gate-open value multiplied by (v\*/σ)⁴. Calc note #2 assigned the regimes by environment: the broad gate is the "dwarf regime", the narrow gate the "MW/cluster regime", where MW is the Milky Way ('Limit 1 — broad gate', 'Limit 2 — narrow gate').
 
 ### Where the powers come from
 
@@ -104,7 +104,7 @@ Calc note #3 draws two corollaries "before any numbers". The first:
 
 If the self-interaction of dark matter switches off sharply above the gate, χ is a particle ([the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles)); if it fades as a power law, χ is a wave. #11 §9 lists it as salvage from the clumping problem ("knee shape: sharp cutoff ⇒ particle χ; (v\*/σ)⁴ ⇒ wave χ"), and it is [row 3 of the predictions table](/wiki/predictions/island-discriminant), a diagnostic rather than a kill condition: "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave" (#11 §13).
 
-Two caveats belong to the row and are discussed there. The particle side, e^{−v²/v\*²}, is the tail of a Gaussian gate, while #11 §8 now treats the tail as open: "tail (Gaussian vs rational) diagnoses the vertex completion" ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)). And the two laws are written in different variables, the relative velocity v of a collision on the particle side and the halo's dispersion σ on the wave side.
+Two caveats belong to the row and are discussed there. The particle side, e^{−v²/v\*²}, is the tail of a Gaussian gate, while #11 §8 treats the tail as open: "tail (Gaussian vs rational) diagnoses the vertex completion" ([Open: the gate shape](/wiki/dark-matter/conjugate-matter/gate-shape)). And the two laws are written in different variables, the relative velocity v of a collision on the particle side and the halo's dispersion σ on the wave side.
 
 ## Corollary 2: the gravity floor
 
@@ -118,12 +118,12 @@ The note does not write the step; on the wiki's reading, both rates carry the sa
 
 A stream that forms in velocity space does not persist automatically. Stars and dark matter in a halo move on orbits whose periods differ, and that differential motion shears any structure in velocity space and mixes it away (phase mixing) on the dynamical time t_dyn, the time an orbit takes to cross the system, of order 1/√(Gρ) with G Newton's constant [T]. The stirring rate is Ω = 1/t_dyn.
 
-The race has a history. [The lab notebook](/wiki/history/documents/lab-notebook) listed as its third open problem the "Stream-instability growth rate γ vs. orbital phase-mixing: determines whether Prediction 3's granularity survives in Milky-Way-like halos" (#1 §11; Prediction 3 is [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity)). Calc note #2 found that for classical particles the race never starts: "There is no race with orbital stirring below threshold — the flocking never starts. The earlier 'γ vs Ω' framing presumed growth exists; it exists only above this line." ('Limit 1 (broad gate)'; [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)). On the wave island condensation does run at the rate Γ_self, and calc note #3 poses the race again with Γ_self in place of γ. It distinguishes two thresholds ('What pins g? Two scenarios'):
+The race has a history. [The lab notebook](/wiki/history/documents/lab-notebook) listed as its third open problem the "Stream-instability growth rate γ vs. orbital phase-mixing: determines whether Prediction 3's granularity survives in Milky-Way-like halos" (#1 §11; Prediction 3 is [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity)). Calc note #2 found that for classical particles the race never starts: "There is no race with orbital stirring below threshold — the flocking never starts. The earlier 'γ vs Ω' framing presumed growth exists; it exists only above this line." ('Limit 1 — broad gate'; [the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)). On the wave island condensation does run at the rate Γ_self, and calc note #3 poses the race again with Γ_self in place of γ. It distinguishes two thresholds ('What pins g? Two scenarios'):
 
 - Making [dwarf-galaxy cores](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), by analogy with [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) (SIDM), needs about one relaxation over the age of the halo: "Γ_self(dwarf) · t_age = κ ~ 1".
 - Streams need condensation faster than stirring: "Streams need the much harder Γ_self ≳ Ω = 1/t_dyn."
 
-The second condition is harder than the first by the ratio t_age/t_dyn. What fixes the coupling is calc note #3's next question, "What pins g?", and it answers with two scenarios: [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), in which the gated channel makes the cores and the coupling is fixed (under review since 2026-10-29), and [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), in which the coupling is free (alive, quarantined).
+The second condition is harder than the first by the ratio t_age/t_dyn. What fixes the coupling is calc note #3's next question, "What pins g?", and it answers with two scenarios: [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), in which the gated channel makes the cores and the coupling is fixed (under review), and [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b), in which the coupling is free (alive, quarantined).
 
 Calc note #4, testing Scenario A, also allows for the slowdown of Bose-star growth seen in LPT-type kinetics, "t^{1/2} growth, factor ~10²–10³ in effective rate" ('Sharpened input numbers').
 
@@ -141,7 +141,7 @@ Before the rate was computed, calc note #2 estimated the wave-island suppression
 
 ## Open: calibration of the coefficient c
 
-The coefficient c = O(5–15) is a heuristic estimate. Calc note #2 had asked for the check before the rate was computed: "Anchor scalings against LPT before trusting coefficients" ('Next chunk (#3)'). Calc note #3's header records it as undone: "Coefficients heuristic at O(1)–O(10) level; calibration against Levkov–Panin–Tkachev (LPT) numerics is a flagged to-do." Program v1 lists it among its open literature verifications: "Literature verifications: symmetric-bimetric Λ = 0; LPT coefficient calibration; Dalal–Kravtsov exact bound [O]" (#9 §10 item 8).
+The coefficient c = O(5–15) is a heuristic estimate. Calc note #2 had asked for the check before the rate was computed: "Anchor scalings against LPT before trusting coefficients" ('Next chunk (3b)'). Calc note #3's header records it as undone: "Coefficients heuristic at O(1)–O(10) level; calibration against Levkov–Panin–Tkachev (LPT) numerics is a flagged to-do." Program v1 lists it among its open literature verifications: "Literature verifications: symmetric-bimetric Λ = 0; LPT coefficient calibration; Dalal–Kravtsov exact bound [O]" (#9 §10 item 8).
 
 Checkpoint #11 marks the coefficients "[O]" in §9 but does not itemize the calibration in its [open problems](/wiki/status/open-problems), §14. Its item 10, "Literature battery completion; every † reference source-checked [O]" (OP10), covers checking the reference [13]† against the source, which is a different task from fitting c to the simulations ([the † literature battery](/wiki/method/literature-battery)). The calibration is recorded among the notes' open items on [open problems](/wiki/status/open-problems).
 
@@ -149,13 +149,13 @@ The coefficient enters the two scenarios differently, as their formulas show. In
 
 ## Open: rows 1 and 2 in wave language
 
-Rows 1 and 2 of the predictions table are [the self-interaction knee](/wiki/predictions/self-interaction-knee) and [isotropic scattering below the gate](/wiki/predictions/scattering-isotropy). Both were derived for particles, from two-body scattering. Calc note #2: "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)." ('Consequences for the predictions table'.) calc note #3's suppression law supplies the wave-island form of the knee's tail, which is corollary 1 above. No document restates the isotropy of row 2 for a wave halo, and #11 §14 does not itemize the task.
+Rows 1 and 2 of the predictions table are [the self-interaction knee](/wiki/predictions/self-interaction-knee) and [isotropic scattering below the gate](/wiki/predictions/scattering-isotropy). Both were derived for particles, from two-body scattering. Calc note #2: "Rows 1–2 must be re-derived in wave language (two-body Born scattering is no longer the right observable)." ('Consequences for the predictions table'.) Calc note #3's suppression law supplies the wave-island form of the knee's tail, which is corollary 1 above. No document restates the isotropy of row 2 for a wave halo, and #11 §14 does not itemize the task.
 
 ## Sources
 
 - `notes/wave-island.md` 'Setup', 'The rate [D, heuristic coefficients]' — the mechanism, the conventions, the rate, both corollaries, the calibration flag in the header; 'What pins g? Two scenarios' — the core and stream thresholds; 'Standing results after Chunks A+B' — the summary
-- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement, its tags and the reference [13]†; 'Status (v2.5)' — Scenario A under review, not dead; §8 — the open tail; §12 — the third candidate, P.R.'s conjecture, and #14's failed model of it; §13 row 3 — the island discriminant; §14 item 10 — the literature battery
-- `notes/stream-stability.md` 'Setup' — the coupling g and the gate; 'Limit 1 (broad gate)' — the retired "γ vs Ω" framing; 'Limit 2 (narrow gate)' — the co-mover density n_gate; 'Consequences for the predictions table' — the wave island, the (v\*/σ)³ estimate and the rows 1–2 to-do; 'Next chunk (#3)' — the task and the anchoring instruction
+- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement, its tags and the reference [13]†; §9 — Scenario A under review; §8 — the open tail; §12 — the third candidate, P.R.'s conjecture, and #14's failed model of it; §13 row 3 — the island discriminant; §14 item 10 — the literature battery
+- `notes/stream-stability.md` 'Setup' — the coupling g and the gate; 'Limit 1 — broad gate' — the superseded "γ vs Ω" framing; 'Limit 2 — narrow gate' — the co-mover density n_gate; 'Consequences for the predictions table' — the wave island, the (v\*/σ)³ estimate and the rows 1–2 to-do; 'Next chunk (3b)' — the task and the anchoring instruction
 - `notes/ufd-endpoint.md` 'Sharpened input numbers' — the t^{1/2} slowdown allowed for in the test of Scenario A
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 statement; §10 item 8 — the calibration as an open literature verification
 - `notes/broken-born-theory.md` §11 item 3 — the original growth-rate problem; 'Addendum (v0.2)' — the notebook's record of the rate

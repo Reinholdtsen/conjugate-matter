@@ -57,7 +57,7 @@ A candidate potential therefore has two checks to pass: its quadratic part must 
 
 > 2. **Linearized spectrum of the quadratic invariant.** With Y = 1 + h, X = x: S = 2h + x² + O(3), A = [h, x] + O(3). Any potential of the class Tr({J,I}²)-with-positive-norm gives, at quadratic order, m²Tr(h²) — a graviton mass **without** the −(Tr h)² companion. That violates Fierz–Pauli already at linear order: Boulware–Deser ghost, immediately.
 
-S begins at first order with 2h, so its square begins at second order with 4h², and Tr(S²) is 4Tr(h²) to that order. That is the limit #11 §2 records: "Tr(S²)/ε² → 4Tr(h²) to six digits, visibly ≠ the Fierz–Pauli form". The result has a Tr(h²) term and no (Tr h)² term, a ratio other than the Fierz–Pauli one. The mass is a mass for h, the fluctuation of the ordinary metric; a quadratic mass for X comes from the second invariant below. A suspected slip in #7's expansion of S is recorded for a ruling in `review/wiki-build-flags.md` item 4, which notes that the quadratic-order test is unaffected; this page quotes #7 as written.
+S begins at first order with 2h, so its square begins at second order with 4h², and Tr(S²) is 4Tr(h²) to that order. That is the limit #11 §2 records: "Tr(S²)/ε² → 4Tr(h²) to six digits, visibly ≠ the Fierz–Pauli form". The result has a Tr(h²) term and no (Tr h)² term, a ratio other than the Fierz–Pauli one. The mass is a mass for h, the fluctuation of the ordinary metric; a quadratic mass for X comes from the second invariant below. A suspected slip in #7's expansion of S is flag 4 in `review/wiki-build-flags.md`, which notes that the quadratic-order test is unaffected; this page quotes #7 as written.
 
 ### The machine check: battery test T4
 
@@ -146,5 +146,5 @@ Before the test, calc note #6 had set out what a failure would mean: "Fail ⇒ t
 - `notes/broken-born-theory.md` 'Addendum (v0.5)' — the notebook's account.
 - `notes/broken-born-program-v1.md` §5 — the v1 statement.
 - `popsci/angle-of-the-mirror.md` 'The method is the message' — the popular description of the battery.
-- `review/wiki-build-flags.md` item 4 — the suspected slip in #7's expansion of S; item 14 — which square root's eigenvalues give Tr(g²); item 36 — where the figures 66.58 and 63.72 are printed. All await Paul's ruling.
+- `review/wiki-build-flags.md` item 4 — the suspected slip in #7's expansion of S; item 14 — which square root's eigenvalues give Tr(g²); item 36 — where the figures 66.58 and 63.72 are printed. All pending.
 - `review/wiki-build-checks/sqrt_eig_check.py` and `review/wiki-build-checks/sqrt_eig_check.out` — p₄ of the eigenvalues of √(g⁻¹f) and of √(f⁻¹g) against Tr(g⁻²) and Tr(g²) in the vacuum frame.

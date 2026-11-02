@@ -17,6 +17,7 @@ sources:
   - "verify/velocity_gated_gravity.py 'G. The low-v* corner'"
   - "verify/velocity_gated_gravity.py 'H. Cores'"
   - "review/momentum-gravity/README.md"
+  - "review/momentum-gravity/run2/analyses/clumping.json C18"
   - "notes/gate-mechanism.md §3"
   - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §9"
@@ -24,9 +25,9 @@ sources:
   - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
 ---
 
-*This is a model of dark matter that the program's record does not contain: dark-matter particles χ attract each other at long range, like gravity, but only when they move at similar velocities. P.R. proposed it on 2026-10-26, asking whether the obituary of the program's founding picture, a halo breaking up into streams of particles that share a velocity, was premature; since 2026-10-29 that picture has been his open conjecture again. A note of 2026-10-28 tests the model on its own terms. Nothing in the program supplies a field that could carry such a force. In an expanding universe the force switches off between particles a few megaparsecs apart, on the scales that the Lyman-α forest of distant quasar spectra measures, and the forest allows a force of at most six to eighteen percent of gravity, while making velocity-selected lumps needs more than gravity's full strength. At any strength the force could not make the cores of dwarf galaxies, the job the program introduced its gate for, so its strength would be a free number the program cannot predict. Only gates much narrower than the program's, below about 30 km/s, remain partly unexplored.*
+*This is a model of dark matter that the program's record does not contain: dark-matter particles χ attract each other at long range, like gravity, but only when they move at similar velocities. It is P.R.'s model, separate from the program's founding picture of a halo breaking up into streams of particles that share a velocity, which is also his conjecture. A note of 2026-10-28 tests the model on its own terms. Nothing in the program supplies a field that could carry such a force. In an expanding universe the force switches off between particles a few megaparsecs apart, on the scales that the Lyman-α forest of distant quasar spectra measures, and the forest allows a force of at most six to eighteen percent of gravity, while making velocity-selected lumps needs more than gravity's full strength. At any strength the force could not make the cores of dwarf galaxies, the job the program introduced its gate for, so its strength would be a free number the program cannot predict. Only gates much narrower than the program's, below about 30 km/s, remain partly unexplored.*
 
-**Status:** Conjecture, outside the record, and decorative where tested — P.R.'s model, which "the record does not contain, which the clumping problem never tested", with no carrier in the record (`notes/velocity-gated-gravity.md` §§1, 5). The note (2026-10-28; computed, each analysis checked by two independent verifiers, a critic and a final critic; not reviewed) tags its results [D], [D][V] and [D; derived twice independently] with observational inputs [S], as given below; the narrow-gate N-body runs and the corrected proxies each rest on one agent, one statistic of the runs is not adjudicated, and two findings of the runs were noticed only while the record was ported into `verify/` (§8). Every number except the N-body runs is recomputed in sections E–H of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)); the N-body record is in `review/momentum-gravity/scripts/corner/`. It does not change the results of the founding image's tests, which cover the program's own contact-range interaction, one that acts only over microscopic distances ([the scope of the tests](/wiki/dark-matter/momentum-clumping/founding-image#the-scope-of-the-tests)); the founding image is a separate conjecture of P.R.'s, open since #11 v2.5. Listed in [conjectures](/wiki/status/conjectures).
+**Status:** Conjecture, outside the record, and decorative where tested — P.R.'s model, which "the record does not contain, which the clumping problem never tested", with no carrier in the record (`notes/velocity-gated-gravity.md` §§1, 5). The note (2026-10-28; computed, each analysis checked by two independent verifiers, a critic and a final critic; not reviewed) tags its results [D], [D][V] and [D; derived twice independently] with observational inputs [S], as given below; the narrow-gate N-body runs and the corrected proxies each rest on one agent, one statistic of the runs is not adjudicated, and two findings of the runs were noticed only while the record was ported into `verify/` (§8). Every number except the N-body runs is recomputed in sections E–H of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)); the N-body record is in `review/momentum-gravity/scripts/corner/`. It does not change the results of the founding image's tests, which cover the program's own contact-range interaction, one that acts only over microscopic distances ([the scope of the tests](/wiki/dark-matter/momentum-clumping/founding-image#the-scope-of-the-tests)); the founding image is a separate conjecture of P.R.'s (#11 §9). Listed in [conjectures](/wiki/status/conjectures).
 
 ## The model
 
@@ -40,14 +41,15 @@ acting among χ only and added to gravity, with W the gate, v\* its width and ε
 
 - **What it amplifies.** In mean field it is a Jeans-type amplifier of spatial clumping among co-moving particles ([the Jeans instability](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)). Gravity and the gated term both scale as 1/k² with the wavenumber k, so the gate rescales the Jeans wavenumber by the top eigenvalue Λ of an operator on velocity space.
 - **What it does not make.** Streams spread through space, the founding image's structures, are exactly neutral in mean-field dynamics in a homogeneous medium (k = 0). In a cored halo the harmonic potential interconverts velocity and position structure, and above threshold the gate-only velocity-dipole modes (m = ±1) grow. The modes the gate adds are spatial lumps carried by a velocity-selected population of width about √(σv\*), with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion).
+- **In the literature.** The investigation's clumping analysis reports: "Two searches found no prior study of a long-range attraction gated in relative velocity; that is a null search result, not proof of absence" (`review/momentum-gravity/run2/analyses/clumping.json`, claim C18, [S]).
 
 ## No carrier in the record
 
 [D][V] (§5).
 
 - X, the program's only long-range candidate beyond gravity, is massive: λ_X < 37.7 μm at u = 1, unscreened ([the laboratory bound on X's range](/wiki/gravity/momentum-graviton/range-bound); [X between ordinary bodies](/wiki/gravity/momentum-graviton/ordinary-bodies)). #11 §8's m_φ, the mass of the carrier of the momentum transfer in the program's amplitude, is a free scale with no field behind it.
-- Gating χ's own gravity is outside the record by postulate: "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8). It is observationally untested. Lensing and dynamical masses both see χ through ungated gravity, and χ re-virialized in a weaker force stays bound (one agent). An earlier ruling in the investigation that observation excludes it is withdrawn (§11).
-- Whether any local field could carry such a force is taken up on [what could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers): no field of finite spin can, and the one exotic framework with the right shape has a threshold that depends on distance (§9). Whether the program's own contact gate can come from X at all is the subject of flag 55 ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The gate-mechanism note adds that, in a model with the gate inserted by hand around a separate potential, a fiber-overlap gate is not tied to contact range; what makes the record's gate contact-range is X's mass (one derivation; `notes/gate-mechanism.md` §3).
+- Gating χ's own gravity is outside the record by postulate: "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" (#11 §8). It is observationally untested. Lensing and dynamical masses both see χ through ungated gravity, and χ re-virialized in a weaker force stays bound (one agent). The note withdraws the statement "gated χ–χ gravity is excluded by observation" (§11).
+- Whether any local field could carry such a force is taken up on [what could carry a relative-velocity gate](/wiki/dark-matter/conjugate-matter/gate-carriers): the note finds that no field of finite spin can, and that the one exotic framework with the right shape has a threshold that depends on distance (§9). Whether the program's own contact gate can come from X at all is the subject of flag 55 ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)). The gate-mechanism note adds that, in a model with the gate inserted by hand around a separate potential, a fiber-overlap gate is not tied to contact range; what makes the record's gate contact-range is X's mass (one derivation; `notes/gate-mechanism.md` §3).
 
 ## Three readings of a velocity-dependent potential
 
@@ -150,13 +152,13 @@ From the note's §10 [O]:
 - whether the Hamiltonian reading is the right classical limit for a long-range gate;
 - the observational status of gated χ–χ gravity: χ against stars in streams or merging clusters;
 - how the Sagittarius asymmetry weights the orbit, and the status of the 10% level;
-- whether "premature" rests on a particular observation (§4).
+- whether a particular observation of velocity structure bears on the founding image (§4).
 
 On the last, the note records that cold dark matter already contains about 10¹⁴ fine-grained streams near the Sun (Vogelsberger and White), while the founding image predicted about ten broad ones, so only streams of that kind would test it [T][S] (§4). All of these are on [open problems and the queue](/wiki/status/open-problems).
 
 ## Corrections along the way
 
-The note lists what was refuted or corrected before its answer went to Paul (§11). Those that bear on this model:
+The note lists what was refuted or corrected during the investigation (§11). Those that bear on this model:
 
 - **Refuted:** that every ε > 0 raises the Lyman-α power and deepens the eBOSS tension. It holds only for the force at fixed velocity; in the record's reading the power falls.
 - **Refuted:** that the full-shape limit β < 0.0048 maps onto ε. It does not transfer (one agent's reading of the sources, §6).
@@ -169,10 +171,10 @@ The run-3 pre-registration predicted a Lyman-α bound of 0.1–0.5, anchored on 
 
 ## Sources
 
-- `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) §1 — the question, the readings and ε; §5 — the model, no carrier, the three readings; §6 — Hubble-flow gating, the Lyman-α forest, the Sagittarius stream; §7 — the thresholds and the cores; §8 — the corner: N-body, proxies, what was not computed; §10 — what is open; §11 — refuted, corrected and withdrawn, and the pre-registrations scored; §4 — fine-grained streams and the scope of the obituary
+- `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) §1 — the question, the readings and ε; §5 — the model, no carrier, the three readings; §6 — Hubble-flow gating, the Lyman-α forest, the Sagittarius stream; §7 — the thresholds and the cores; §8 — the corner: N-body, proxies, what was not computed; §10 — what is open; §11 — refuted, corrected and withdrawn, and the pre-registrations scored; §4 — fine-grained streams and the scope of the clumping tests
 - `verify/velocity_gated_gravity.py` — section E, the long-range χ-only attraction; F, the clumping thresholds; G, the low-v\* corner, including the checks of the N-body record; H, the cores ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script))
-- `review/momentum-gravity/README.md` — the runs, the corner agent and the final critic; `review/momentum-gravity/scripts/corner/` holds the N-body logs, diagnostics and injection test
+- `review/momentum-gravity/README.md` — the runs, the corner agent and the final critic; `review/momentum-gravity/scripts/corner/` holds the N-body logs, diagnostics and injection test; `review/momentum-gravity/run2/analyses/clumping.json` claim C18 — the null literature search
 - `notes/gate-mechanism.md` §3 — the range of a fiber gate (one derivation)
-- `papers/broken-born-checkpoint-v2.md` §8 — "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" and the free scale m_φ; §9 — the net theorem's "decorative", and 'Status (v2.5)': the founding image as P.R.'s open conjecture
+- `papers/broken-born-checkpoint-v2.md` §8 — "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" and the free scale m_φ; §9 — the net theorem's "decorative", and the founding image as P.R.'s open conjecture
 - `notes/broken-born-theory.md` §5.2 — the energy ε(p; f) and the anomalous velocity, the record's reading
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark' — the contact-range test this model is set against

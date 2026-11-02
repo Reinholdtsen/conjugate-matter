@@ -11,6 +11,7 @@ sources:
   - "review/round3-adjudication.md header"
   - "review/round3-adjudication.md 'Pre-registration scored'"
   - "review/round4-adjudication.md header"
+  - "review/round5-adjudication.md header"
   - "review/v3-worklog.md 'v3 as drafted (2026-10-19)'"
   - "scripts/check.sh"
   - "wiki/CLAUDE.md 'The wiki is derivative'"
@@ -56,11 +57,11 @@ The same section gives the rule's practical consequence for the project: "Claude
 
 ### The scripts and the gate
 
-Every number a current document asserts is meant to have a check in a script in `verify/`: the [Tier-1](/wiki/method/claim-tiers#tier-1-explicit-algebra) algebra of [#11](/wiki/history/documents/checkpoint) in [the battery](/wiki/method/verification/battery), the soliton obituary's numbers in [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script), and the [toy-model note](/wiki/symmetry-breaking/toy-models)'s results in [the toy-model scripts](/wiki/method/verification/toy-model-scripts). `scripts/check.sh` runs them all and fails if any check fails. Each check prints its measured value, which is the "printed output" the rule asks for.
+Every number a current document asserts is meant to have a check in a script in `verify/`: the [Tier-1](/wiki/method/claim-tiers#tier-1-explicit-algebra) algebra of [#11](/wiki/history/documents/checkpoint) in [the battery](/wiki/method/verification/battery), the numbers #11 gives for [#14's failed model](/wiki/dark-matter/candidates/soliton-candidate/obituary) in [the soliton-obituary script](/wiki/method/verification/soliton-obituary-script), the [toy-model note](/wiki/symmetry-breaking/toy-models)'s results in [the toy-model scripts](/wiki/method/verification/toy-model-scripts), and the numbers of the later notes in [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script), [the closed-universe script](/wiki/method/verification/closed-universe-script), [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script) and [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script). `scripts/check.sh` runs all ten scripts and fails if any check fails. Each check prints its measured value, which is the "printed output" the rule asks for.
 
 ### Referees and adjudicators
 
-Since the move, the referees have executed code as well. Round 3: "Every one of its 16 numerical findings rests on executed code"; round 4: "All 9 of its numerical and algebraic indictments rest on executed code" (adjudication headers). The adjudicator answers in the same way, with arbitration scripts kept beside the rulings (`review/round3/adjudicator/round3_arb.py`, `review/round4/adjudicator/arb.py`, `review/round4/adjudicator/ctrl.py`).
+Since the move, the referees have executed code as well. Round 3: "Every one of its 16 numerical findings rests on executed code"; round 4: "All 9 of its numerical and algebraic indictments rest on executed code"; round 5: "Every numerical indictment rests on executed code" (adjudication headers). The adjudicator answers in the same way, with arbitration scripts kept beside the rulings (`review/round3/adjudicator/round3_arb.py`, `review/round4/adjudicator/arb.py`, `review/round4/adjudicator/ctrl.py`, `review/round5/adjudicator/arb.py`).
 
 ### Drafting
 
@@ -77,13 +78,13 @@ The wiki build is the rule's latest application. When its verifiers suspected an
 π/e²  = 34.259   (= 1/(4 alpha))
 ```
 
-Flag 28 in `review/wiki-build-flags.md` reads it as: "The number 34 is right; the formula written beside it is not." The pages quote the source as written and point to the flag; the scripts are evidence for Paul's ruling and are not part of the gate.
+Flag 28 in `review/wiki-build-flags.md` reads it as: "The number 34 is right; the formula written beside it is not." The pages quote the source as written and point to the flag; the scripts are evidence for the flag and are not part of the gate.
 
 ## Where it stops
 
 - **Arithmetic, not physics.** Round 3 found a wrong physical input in a manuscript every number of which had been computed by a gated script: "The failure mode has moved. In rounds 1–2 it was the referee's unaided arithmetic. In round 3 it is that **the author's verification checks the author's model**: a wrong physics input passes a gate that tests only arithmetic." (`review/round3-adjudication.md`, 'Pre-registration scored'). See [Verification checks arithmetic, not the model](/wiki/method/verification/arithmetic-not-model) and [Independent anchors](/wiki/method/verification/independent-anchors).
 - **Statistics.** A simulation's number can be computed exactly and still be a fluctuation; round 4 added the [error-bar rule](/wiki/method/verification/monte-carlo-error-bars).
-- **Numbers without a script.** Not every number in the record has one. `HANDOFF.md` §2 marks the clumping figure "criterion fails by 10²⁸–10³¹" with ✓, and until 2026-10-28 no script in `verify/` computed it (flag 16). Section D of `verify/velocity_gated_gravity.py` now reproduces #2's two ratios; flag 16's addendum: "The ✓ is now backed by a script; #11 §9's tag [D] is unchanged until Paul rules" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The rest of the clumping problem, including the classicality numbers, the wave-island rate and the ultra-faint-dwarf endpoint, has no script. The gate page lists the other gaps ([what is not gated](/wiki/method/verification/the-gate#what-is-not-gated)).
+- **Numbers without a script.** Not every number in the record has one. `HANDOFF.md` §2 marks the clumping figure "criterion fails by 10²⁸–10³¹" with ✓, and until 2026-10-28 no script in `verify/` computed it (flag 16). Section D of `verify/velocity_gated_gravity.py` now reproduces #2's two ratios; flag 16's addendum: "The ✓ is now backed by a script"; #11 §9's tag is [D] ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). The rest of the clumping problem, including the classicality numbers, the wave-island rate and the ultra-faint-dwarf endpoint, has no script. The gate page lists the other gaps ([what is not gated](/wiki/method/verification/the-gate#what-is-not-gated)).
 - **"Kept in `verify/`."** The adjudicators' arbitration scripts are kept in `review/`, beside the rulings, and the gate does not run them; their corrected results are carried into `verify/` instead. The root `CLAUDE.md`'s layout and the header of `scripts/check.sh` say that arbitration scripts go in `verify/` (flag 38 in `review/wiki-build-flags.md`).
 
 ## Sources
@@ -91,7 +92,8 @@ Flag 28 in `review/wiki-build-flags.md` reads it as: "The number 34 is right; th
 - Root `CLAUDE.md` 'Method' — the rule as now stated
 - `HANDOFF.md` §5 — the rule at the handoff; §6 — rounds 1 and 2, the referees' errors, the measured failure mode, the move to Claude Code
 - `review/round3-preregistration.md` — the rounds without code execution
-- `review/round3-adjudication.md` header and 'Pre-registration scored'; `review/round4-adjudication.md` header — referees' findings resting on executed code; the moved failure mode
+- `review/round3-adjudication.md` header and 'Pre-registration scored'; `review/round4-adjudication.md` and `review/round5-adjudication.md` headers — referees' findings resting on executed code; the moved failure mode
+- `review/round3/adjudicator/round3_arb.py`, `review/round4/adjudicator/arb.py`, `review/round4/adjudicator/ctrl.py`, `review/round5/adjudicator/arb.py` — the arbitration scripts kept beside the rulings
 - `review/v3-worklog.md` 'v3 as drafted (2026-10-19)' — the two figures corrected before the text was written
 - `scripts/check.sh` — the gate that runs the scripts
 - `wiki/CLAUDE.md` 'The wiki is derivative' — the rule applied to the wiki

@@ -108,7 +108,7 @@ The literature results above are four-dimensional: Grosse and Wulkenhaar's eq. 1
 
 ## How the program uses it
 
-The worklog's route decision, made by Claude under Paul's delegation ([the collaboration](/wiki/method/collaboration)), tried this model first: "It is the one place where the toy could be both new and non-trivial: an interacting, renormalizable field whose own vacuum might select x or p, with no K put in by hand." ('Chunk 1 results'). Model II takes the two-dimensional self-dual model, writes it on the matrix base, computes the duality there, and asks whether the vacua break it. For complex fields they do, classically, and quantization restores the symmetry; for real fields the duality is only a covariance, and one loop prefers the vacuum that is sharper in position. The section index, [Model II: the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), maps the results.
+The worklog's route decision tried this model first: "It is the one place where the toy could be both new and non-trivial: an interacting, renormalizable field whose own vacuum might select x or p, with no K put in by hand." ('Chunk 1 results'). Model II takes the two-dimensional self-dual model, writes it on the matrix base, computes the duality there, and asks whether the vacua break it. For complex fields they do, classically, and quantization restores the symmetry; for real fields the duality is only a covariance, and one loop prefers the vacuum that is sharper in position. The section index, [Model II: the self-dual Grosse–Wulkenhaar model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar), maps the results.
 
 ## Standard references
 

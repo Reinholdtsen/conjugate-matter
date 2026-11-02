@@ -10,7 +10,7 @@ sources:
   - "notes/wave-island.md 'Setup'"
   - "notes/ufd-endpoint.md 'The data'"
   - "notes/ufd-endpoint.md 'Verdict and closure'"
-  - "notes/stream-stability.md 'Limit 1 (broad gate)'"
+  - "notes/stream-stability.md 'Limit 1 — broad gate'"
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md §9"
   - "notes/broken-born-program-v1.md §7"
@@ -26,7 +26,7 @@ sources:
 
 ## The scenario
 
-[The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) depends on the gated coupling g, and calc note #3, the second of [the clumping calc notes](/wiki/history/documents/clumping-notes), asked what fixes it ('What pins g? Two scenarios'). Scenario A answered that the gated channel makes the cores of classical dwarf galaxies, which fixes g; the ultra-faint dwarfs contradict it, and it has been under review, not dead, since 2026-10-29 (#11 §9). Scenario B is the other answer:
+[The gated condensation rate Γ_self](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) depends on the gated coupling g, and calc note #3, the second of [the clumping calc notes](/wiki/history/documents/clumping-notes), asked what fixes it ('What pins g? Two scenarios'). Scenario A answered that the gated channel makes the cores of classical dwarf galaxies, which fixes g; the ultra-faint dwarfs contradict it, and it is under review (#11 §9). Scenario B is the other answer:
 
 > Scenario B — cores come from elsewhere (fuzzy-end quantum pressure at m ~ 10⁻²² eV, or baryonic feedback), leaving g free.
 
@@ -40,7 +40,7 @@ Calc note #3 expresses the free coupling through a dimensionless parameter:
 
 > Writing X ≡ gn/(mσ²) (the Chunk-A mean-field parameter, with X < 1 required so halos aren't modulationally unstable), the stream condition Γ_self ≥ Ω becomes X ≥ √(Ωσ²/(c m v\*⁴)).
 
-Here n is the number density of χ, m its mass and σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion); X is unrelated to [the momentum graviton](/wiki/gravity/momentum-graviton) of the same letter. The numerator gn is the mean-field interaction energy of a particle, the ε_int of Chunk A ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), the attraction exerted on it by its neighbors; the denominator mσ² is its kinetic energy; X compares the two. It is the quantity in Chunk A's broad-gate threshold, "g n/(m σ²) ≥ 1" (`notes/stream-stability.md`, 'Limit 1 (broad gate)'; [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)). Above that threshold the uniform halo itself is unstable.
+Here n is the number density of χ, m its mass and σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion); X is unrelated to [the momentum graviton](/wiki/gravity/momentum-graviton) of the same letter. The numerator gn is the mean-field interaction energy of a particle, the ε_int of Chunk A ([the gated Vlasov model](/wiki/dark-matter/momentum-clumping/gated-vlasov-model)), the attraction exerted on it by its neighbors; the denominator mσ² is its kinetic energy; X compares the two. It is the quantity in Chunk A's broad-gate threshold, "g n/(m σ²) ≥ 1" (`notes/stream-stability.md`, 'Limit 1 — broad gate'; [the mean-field criterion](/wiki/dark-matter/momentum-clumping/instability-criterion)). Above that threshold the uniform halo itself is unstable.
 
 ### Why X stays below 1
 
@@ -67,7 +67,7 @@ In Imre Lakatos's account of research programmes ([Lakatos's methodology of rese
 
 > In Lakatos terms from the earlier discussion: on this branch the granularity prediction is no longer a novel requirement of the program, only an option — a degeneration flag.
 
-"The granularity prediction" is [the lab notebook](/wiki/history/documents/lab-notebook)'s old row 3, [velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity), since withdrawn and now under review; the "earlier discussion" is not identified in the note. The checkpoints carry the flag into their self-assessments:
+"The granularity prediction" is [the lab notebook](/wiki/history/documents/lab-notebook)'s old row 3, [velocity-space granularity in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity), withdrawn and under review; the "earlier discussion" is not identified in the note. The checkpoints carry the flag into their self-assessments:
 
 - [Program v1](/wiki/history/documents/checkpoint) (#9 §11): "Degeneration risks — the wave-island collective sector is tunable (flagged, quarantined); the gate's tail shape is not yet forced."
 - Checkpoint #11 §15: "Degeneration risks: tunable wave-island collective sector (quarantined); gate tail not yet forced", followed by the novelty demotion of §7.4, [the failure of #14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary), the re-attribution of [the compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) and [the phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing) in the second data release of the Dark Energy Spectroscopic Instrument, against §10's [w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound).
@@ -80,14 +80,14 @@ Calc note #4, after finding Scenario A contradicted by the ultra-faint dwarfs, c
 
 > Nowhere in the viable parameter space of BBT is velocity-space clumping a mandatory phenomenon. It is forbidden for classical-particle χ, fatal where it would have been mandatory (Scenario A), and merely optional elsewhere (Scenario B, ten tunable orders of magnitude — a degeneration flag, not a prediction).
 
-BBT is Broken-Born theory, the program's earlier name. Scenario B is the "decorative (free wave)" leg of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), in #11 §9's words. It also defines what is left of the wave island: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings." calc note #4's robustness check makes the boundary between the scenarios explicit: a core normalization "κ < 1 is by definition Scenario B" ('The data'), that is, any coupling too weak to make the cores falls under Scenario B.
+BBT is Broken-Born theory, the program's earlier name. Scenario B is the "decorative (free wave)" leg of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem), in #11 §9's words. It also defines what is left of the wave island: "The surviving wave island is roughly 3×10⁻¹⁹ eV ≲ m ≲ 10⁻⁴ eV with Scenario-B couplings." Calc note #4's robustness check makes the boundary between the scenarios explicit: a core normalization "κ < 1 is by definition Scenario B" ('The data'), that is, any coupling too weak to make the cores falls under Scenario B.
 
 The later summaries state the verdict in the same terms:
 
 - The lab notebook's addendum v0.2 (#1): "With the coupling left free, streams are tunable across ~10 orders — optional, never required."
 - Program v1 (#9 §7 item 2): "With the coupling left free instead, streams are merely tunable across ~10 orders — optional, never required."
 - Checkpoint #11 §9 (ii): "With coupling free, streams are tunable across ~10 orders: optional, never required."
-- [The handoff](/wiki/history/documents/handoff) of 2026-10-19 (`HANDOFF.md` §2) lists [momentum clumping](/wiki/dark-matter/momentum-clumping/founding-image) as dead: "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact), tunable elsewhere." The list now opens with the note "Overtaken, 2026-10-29: none of the four below is dead now", and since #11 v2.5 the founding image has been P.R.'s open conjecture again (§9).
+- [The handoff](/wiki/history/documents/handoff) of 2026-10-19 (`HANDOFF.md` §2), in its list of failed claims, describes [momentum clumping](/wiki/dark-matter/momentum-clumping/founding-image) as "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact), tunable elsewhere." The founding image is P.R.'s open conjecture (#11 §9).
 
 ## An unresolved conflict: the fuzzy-end option
 
@@ -97,9 +97,9 @@ Scenario B's first named source of cores, "fuzzy-end quantum pressure at m ~ 10�
 
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the scenario, the stream condition, the window and the Lakatos reading; 'The rate [D, heuristic coefficients]' — the rate; 'Setup' — the island's upper edge
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — Scenario B in the net verdict and the surviving range; 'The data' — κ < 1 as Scenario B
-- `notes/stream-stability.md` 'Limit 1 (broad gate)' — the mean-field threshold that defines X
-- `papers/broken-born-checkpoint-v2.md` §15 — the quarantine among the degeneration risks; §9 (ii), (iii) — the current statement and the net theorem; 'Status (v2.5)' — the founding image as P.R.'s open conjecture, Scenario A under review
+- `notes/stream-stability.md` 'Limit 1 — broad gate' — the mean-field threshold that defines X
+- `papers/broken-born-checkpoint-v2.md` §15 — the quarantine among the degeneration risks; §9 (ii), (iii) — the current statement and the net theorem; §9 — the founding image as P.R.'s open conjecture, Scenario A under review
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 statement; §11 — the v1 degeneration risks
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's record
-- `HANDOFF.md` §2 — the handoff's dead list, and its note "Overtaken, 2026-10-29"
+- `HANDOFF.md` §2 — the handoff's list of failed claims
 - `verify/velocity_gated_gravity.py` section D — calc note #2's shortfall ratios, the only clumping numbers the gate checks

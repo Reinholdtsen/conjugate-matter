@@ -2,7 +2,7 @@
 title: "Quantum restoration in the complex model"
 weight: 60
 status: alive
-description: "Every condensate phase is an exact flat direction and the condensate is a localized lump with no volume factor, so ⟨Δ⟩ = 0 and the classical breaking does not survive; the tadpole grows with the truncation (ln N or 2 ln N, unreconciled), and the exact-solution check is not done."
+description: "Every condensate phase is an exact flat direction and the condensate is a localized lump with no volume factor, so ⟨Δ⟩ = 0 and the classical breaking does not survive; the tadpole grows logarithmically with the truncation (ln N or 2 ln N, a difference of normalization in flag 11's audit), and the exact-solution check is not done."
 provenance: [D]
 sources:
   - "papers/reciprocity-toy-models.md §4"
@@ -92,12 +92,12 @@ The pre-registration had named this argument the first runner-up weakest link: "
 
 ### The coefficient: ln N or 2 ln N
 
-The sources disagree on the coefficient, and no document reconciles them:
+The documents write the coefficient differently, and none of them compares the two:
 
 - **ln N**: version 2 of the note ("grows as ln N (it is a harmonic sum)"), the worklog ("the restoration argument restated, with the ln N tadpole", 'Write-up and review') and the gate, which sums one series, Σ_{k<N} 1/(k+1), with G₀ₖ = 1/(k+1).
 - **2 ln N**: the referee and the adjudication (F6, "the 2 ln N mass renormalization"; revision 4), from T₀(N) = Σ_k (G₀ₖ + Gₖ₀), a sum of two series.
 
-Version 2 is the higher-ranked statement, and both readings agree that the growth is logarithmic and that the conclusion stands (flag 11 in `review/wiki-build-flags.md`; [source conflicts](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)). The flag's audit found the difference to be one of normalization: the level-0 tadpole holds two equal harmonic sums, Σ_k G₀ₖ and Σ_k Gₖ₀, so their total grows as 2 ln N and either one as ln N. It rated the flag as depending on a convention, not as an error.
+Version 2 is the higher-ranked statement, and both readings agree that the growth is logarithmic and that the conclusion stands (flag 11 in `review/wiki-build-flags.md`; [source conflicts](/wiki/history/documents/source-conflicts#gravity-and-symmetry-breaking)). The flag's audit found the difference to be one of normalization: the level-0 tadpole holds two equal harmonic sums, Σ_k G₀ₖ and Σ_k Gₖ₀, so their total grows as 2 ln N and either one as ln N, and "the averaged vertex is ≈ 4 ln N", that vertex being the referee's "2 sum_k (G_0k + G_k0)", twice the total. It rated the flag as depending on a convention, not as an error.
 
 ## Caveat 2: a potential on β is argued against, not proven
 
@@ -107,7 +107,7 @@ The question is what happens if the circle is tilted by a potential that leaves 
 
 ## What it means for the route
 
-Model II was tried first because its own vacuum might select position or momentum "with no K put in by hand" (worklog, 'Chunk 1 results'). The complex model does select classically and loses the selection under quantization; the real model is not duality-symmetric, and its selection at one loop is explicit ([Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead)). The S4 result therefore came from the fallback named in chunk 1, "Discrete reduction by a τ-type potential" in model I. Its first form, the [naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), was found unbounded below in round 4 and is now under review; its repair, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), orders in the [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction). The note's abstract states the general lesson for model II: "In complex model II the breaking does not survive quantization: every condensate phase is an exact flat direction, and the condensate is a localized lump with no volume factor." See also [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
+Model II was tried first because its own vacuum might select position or momentum "with no K put in by hand" (worklog, 'Chunk 1 results'). The complex model does select classically and loses the selection under quantization; the real model is not duality-symmetric, and its selection at one loop is explicit ([Open: the real model's one-loop preference](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/real-model-lead)). The S4 result therefore came from the fallback named in chunk 1, "Discrete reduction by a τ-type potential" in model I. Its first form, the [naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), was found unbounded below in round 4 and is under review; its repair, [the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential), orders in the [frozen-H reduction](/wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction). The note's abstract states the general lesson for model II: "In complex model II the breaking does not survive quantization: every condensate phase is an exact flat direction, and the condensate is a localized lump with no volume factor." See also [the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle) and [mandatory breaking](/wiki/symmetry-breaking/mandatory-breaking).
 
 ## Open: the comparison with the exact solution
 
@@ -131,4 +131,4 @@ Model II was tried first because its own vacuum might select position or momentu
 - `review/round4/referee/audit-notes.md` Step 1, Step 2(c), Step 3 — the Langmann–Szabo–Zarembo paper; "stronger than stated", the logical gap, the 2 ln N tadpole; the strongest reasons for the conclusion
 - `review/round4/referee/out_model2_quantum.txt` — the referee's tadpole sums and the N = 10 phase-invariance check
 - `notes/toy-lagrangian.md` 'Chunk 3 results', 'Assessment against the predictions', 'Write-up and review' — the original argument [D], its superseded "only massive levels" step and the argued tunnelling step; the S4 scorecard; the ln N restatement
-- `review/wiki-build-flags.md` item 11 — the tadpole's coefficient, a matter of normalization in the audit's finding; item 41 — the restoration listed as shown by executed code; item 42 — the revision recorded as applied that v2 did not carry out; all await Paul's ruling
+- `review/wiki-build-flags.md` item 11 — the tadpole's coefficient, a matter of normalization in the audit's finding; item 41 — the restoration listed as shown by executed code; item 42 — the revision recorded as applied that version 2 did not carry out; all pending

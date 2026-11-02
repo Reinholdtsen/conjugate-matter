@@ -74,13 +74,13 @@ Charge conjugation C reverses the sign of a U(1) gauge field [T]. The mixing ter
 
 Gravity couples to both sectors, so it is the one interaction that P4 cannot switch off; the paper finds that it generates mixing only at a high loop order, and only if hidden charge conjugation is broken. The referee's verdict: "SUPPORTS both parts" (Step 1). In Step 4(b) it added a caveat: "the manuscript does not say whether hidden C is broken in its SU(2)+adjoint+doublet sector."
 
-#11 adopts the result in P4 (§4):
+#11 adopts the result in P4, taken strictly [P] (§4):
 
-> [P; taken strictly since v2.1: no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S].]
+> no kinetic mixing between the sectors beyond what gravity induces, which vanishes if hidden charge conjugation is exact and otherwise first appears at six loops, ε ≲ 10⁻¹³ [27S].
 
 ### An unresolved reading: ceiling or floor
 
-The referee notes that Gherghetta et al. present 10⁻¹³ as a floor (the referee's capitals), "minimum kinetic mixing in any theory with hidden gauge interactions and charge symmetry breaking", which is "consistent with "<~" only in the sense "up to"" (Step 1). #11's "ε ≲ 10⁻¹³" stands as written; the reading is flagged and not resolved ([conflicts between sources](/wiki/history/documents/source-conflicts)).
+The referee notes that Gherghetta et al. present 10⁻¹³ as a floor (the referee's capitals), "minimum kinetic mixing in any theory with hidden gauge interactions and charge symmetry breaking", which is "consistent with "<~" only in the sense "up to"" (Step 1). #11's "ε ≲ 10⁻¹³" stands as written; the reading is unresolved in the record ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
 ## (b) Gauged, not global
 
@@ -135,7 +135,7 @@ Round-3 Decision 1 (2026-10-19), in full:
 >    - The alternative rested on an unsupported coefficient. The dimension-5 "O(1) at the Planck scale" estimate (ruling 7) has no source. The sources generate that operator only from bi-charged states, which P4 forbids.
 >    - It costs nothing and closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector.
 
-The [project instructions](/wiki/history/documents/project-instructions) record it among the changes since the handoff: "Strict sector separation (P4 at face value) is in force." It is a decision about the postulate, not a derivation: whether sector separation is stable against quantum corrections was never computed, and [the handoff](/wiki/history/documents/handoff)'s open item 3, "UV stability of sector separation / kinetic mixing (incl. the disputed gravity-induced mixing channel — see §6)" (§2), was settled by taking P4 strictly ([round-3 decisions](/wiki/method/review/round-3/decisions)). Under strict P4 neither of the two dark-matter candidates that row 7 names couples to the Standard Model, which is [row 7, a permanent null in direct detection](/wiki/predictions/direct-detection-null). The third candidate, P.R.'s conjugate monopoles, restored in #11 v2.4, would carry magnetic charge of our photon only in the shared-photon form of his magnetic-mirror conjecture, which needs P4 restated (#11 §11.4; [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Flag 63 in `review/wiki-build-flags.md`, pending Paul's ruling, proposes row-7 wording that covers all three candidates.
+The [project instructions](/wiki/history/documents/project-instructions) record it among the changes since the handoff: "Strict sector separation (P4 at face value) is in force." It is a decision about the postulate, not a derivation: whether sector separation is stable against quantum corrections was never computed, and [the handoff](/wiki/history/documents/handoff)'s open item 3, "UV stability of sector separation / kinetic mixing (incl. the disputed gravity-induced mixing channel — see §6)" (§2), was settled by taking P4 strictly ([round-3 decisions](/wiki/method/review/round-3/decisions)). Under strict P4 neither of the two dark-matter candidates that row 7 names couples to the Standard Model, which is [row 7, a permanent null in direct detection](/wiki/predictions/direct-detection-null). The third candidate, P.R.'s conjugate monopoles, would carry magnetic charge of our photon only in the shared-photon form of his magnetic-mirror conjecture, which needs P4 restated (#11 §11.4; [Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)). Flag 63 in `review/wiki-build-flags.md`, pending, proposes row-7 wording that covers all three candidates.
 
 ## History
 
@@ -144,7 +144,7 @@ The [project instructions](/wiki/history/documents/project-instructions) record 
 3. **The v3 worklog** resolved it from the literature (R4): "The referee is right that it exists, and it is negligible", and planned v3's wording: "absent if dark C is a gauged symmetry; otherwise ε ~ ⟨Φ⟩/M (≈ 10⁻⁸–10⁻⁷) from dimension 5 and ≲ 10⁻¹³ from pure gravity". L1 added point (c).
 4. **v3** (§2) stated points (a)–(c) as above, with the dimension-5 estimate at "epsilon ~ 1e-7 to 1e-6".
 5. **Round 3** supported (a) and (c), found the dimension-5 coefficient unsupported (ruling 7) and the Witten-effect charge a contradiction (ruling 9) ([round-3 verdict and rulings](/wiki/method/review/round-3/rulings)).
-6. **Decision 1** and #11 v2.1: P4 taken strictly, with Gherghetta et al. as [27S].
+6. **Decision 1** and #11: P4 taken strictly, with Gherghetta et al. as [27S].
 
 ## Standard references
 
@@ -162,7 +162,7 @@ The [project instructions](/wiki/history/documents/project-instructions) record 
 
 ## Used by
 
-- [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — the literature behind the strict reading since v2.1.
+- [P4: polarized matter and strict sector separation](/wiki/program/postulates/p4-polarized-matter) — the literature behind the strict reading.
 - [Row 7: a permanent null in direct detection](/wiki/predictions/direct-detection-null) — under strict P4, no coupling to the Standard Model for the dark-sector candidates; the row still names two of the three (flag 63).
 - [Under review: Planck-suppressed adjoint mixing](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator) — the dimension-5 alternative that strict P4 replaced.
 - [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — "dark by sector separation".
@@ -186,4 +186,4 @@ The [project instructions](/wiki/history/documents/project-instructions) record 
 - `review/v3-worklog.md` 'Round-2 pending list' (R4) and 'Findings neither referee raised' (L1) — the literature as read for v3
 - `notes/knot-dark-matter-standalone.md` §2 — sector separation and points (a), (b) and (c); §4 — the unevaluated millicharge bounds; §5 — exclusion condition 1; refs [9]–[14]
 - `HANDOFF.md` §2 — open item 3; §6 — rounds 1 and 2 on kinetic mixing
-- `review/wiki-build-flags.md` flag 63 — row 7 still names two dark-sector candidates, pending Paul's ruling
+- `review/wiki-build-flags.md` flag 63, pending — row 7 still names two dark-sector candidates

@@ -20,6 +20,7 @@ sources:
   - "review/wiki-build-flags.md item 7"
   - "review/wiki-build-flags.md item 5"
   - "review/wiki-build-flags.md item 20"
+  - "papers/phase-space-diameter.md §8.2"
 ---
 
 *Bigravity dark matter is the proposal, from the literature on bimetric gravity, that [dark matter](/wiki/dark-matter) is the [massive spin-2](/wiki/gravity/spin-2-fields) particle of a theory with two interacting metrics. In [ghost-free](/wiki/gravity/spin-2-fields/ghosts) bimetric gravity the two metrics combine into a massless graviton, which carries ordinary gravity, and a massive spin-2 field; Babichev and collaborators proposed in 2016 that this heavy field makes up the dark matter. The program's [momentum graviton X](/wiki/gravity/momentum-graviton) is a massive spin-2 field of the same bimetric kind, so this literature is the lineage of the program's [X-condensate candidate](/wiki/dark-matter/candidates/x-condensate). The program cites it only for that lineage, from model memory, and has not yet checked the source.*
@@ -36,7 +37,7 @@ Bimetric gravity has two dynamical metrics, g and f, each with its own [Einstein
 
 #11 states the uniqueness this way: "The unique consistent structure for massive spin-2 is Fierz–Pauli/dRGT/Hassan–Rosen [9†, 10†, 11†]" (#11 §7.1). [Calc note #6](/wiki/history/documents/field-equation-notes) had written "Massive spin-2 coupled to gravity has exactly one known consistent structure" (#6 §3). The difference in wording, unique versus the one known, is recorded in `review/wiki-build-flags.md` item 7; this page quotes both as written.
 
-Around backgrounds in which the two metrics are proportional, the fluctuations of g and f combine into two mass eigenstates [T]: one massless spin-2 field, which acts as the graviton of ordinary gravity, and one massive spin-2 field with five polarizations. How much of each eigenstate lies along g, and therefore how strongly ordinary matter feels each, is set by the ratio of the two Planck masses [T]. When the second metric's Planck mass is much smaller than the first, the massless eigenstate lies mostly along g, the massive one mostly along f, and the massive eigenstate couples to ordinary matter only weakly [T]. This is the general structure; the parameter choices of the dark-matter proposals are not reported in any program document.
+Around backgrounds in which the two metrics are proportional, the fluctuations of g and f combine into two mass eigenstates [T]: one massless spin-2 field, which acts as the graviton of ordinary gravity, and one massive spin-2 field with five polarizations. How much of each eigenstate lies along g, and therefore how strongly ordinary matter feels each, is set by the ratio of the two Planck masses, M_f/M_g, and the ratio u of the two backgrounds, f̄ = u²ḡ [T]: the massive field's strength relative to gravity is α = (4/3)(M_f u/M_g)² (phase-space-diameter note §8.2, citing Lüben, Mörtsell and Schmidt-May 2020 [S]; [a massive spin-2 mediator](/wiki/gravity/spin-2-fields/yukawa-forces#a-massive-spin-2-mediator)). When the second metric's Planck mass is much smaller than the first, the massless eigenstate lies mostly along g, the massive one mostly along f, and the massive eigenstate couples to ordinary matter only weakly [T]. This is the general structure; the parameter choices of the dark-matter proposals are not reported in any program document.
 
 ## A coherent oscillation as dark matter [T]
 
@@ -50,7 +51,7 @@ The citation, as #11 gives it:
 
 - [23]† E. Babichev, L. Marzola, M. Raidal, A. Schmidt-May, F. Urban, H. Veermäe, M. von Strauss, "Bigravitational origin of dark matter," Phys. Rev. D 94, 084055 (2016), arXiv:1607.03497.
 
-Flag 20 in `review/wiki-build-flags.md` records a suspected error in this entry, which a verifier of the wiki build found by live search: the title and journal, "Bigravitational origin of dark matter" in Phys. Rev. D 94, 084055, belong to arXiv:1604.08564, while arXiv:1607.03497 is the companion paper "Heavy spin-2 Dark Matter", listed below among the wiki's additions. The flag awaits Paul's ruling and is recorded for the † battery (OP10). The wiki quotes #11 as written.
+Flag 20 in `review/wiki-build-flags.md` records a suspected error in this entry, which a verifier of the wiki build found by live search: the title and journal, "Bigravitational origin of dark matter" in Phys. Rev. D 94, 084055, belong to arXiv:1604.08564, while arXiv:1607.03497 is the companion paper "Heavy spin-2 Dark Matter", listed below among the wiki's additions. The flag is pending and is recorded for the † battery (OP10). The wiki quotes #11 as written.
 
 #11's legend for the mark: "† = cited from model memory — verify before external use". Checking every † reference against its source is #11 §14 item 10, "Literature battery completion; every † reference source-checked [O]" ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)). No document reports what the paper contains beyond its title, so this page does not summarize its production mechanism, its mass range or its parameter choices. Earlier documents name the idea without a reference (#6 §4, [the lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.4, #9 §10); the register entry is on [references](/wiki/references).
 
@@ -93,6 +94,7 @@ Added by the wiki from model memory (†), not cited by any program document:
 - `papers/broken-born-checkpoint-v2.md` §12 — "bigravity-DM lineage [23†]"; ref [23] — the citation and the legend for †; §7.1 — X forced massive, the uniqueness statement; §7.5 — the two parameters; §14 item 10 — the literature battery
 - `notes/x-classification.md` §3 — "exactly one known consistent structure"; §4 — "cf. bigravity dark matter"; §5 — the X-condensate listed as open
 - `notes/beta-coefficients.md` §3 — equal effective Planck masses, safety by range
+- `papers/phase-space-diameter.md` §8.2 — the massive field's strength, with the ratio of the two backgrounds
 - `notes/geometric-core.md` §C — X as Re Z
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — "bigravity-DM-style"
 - `notes/broken-born-program-v1.md` §10 — open problem 7 of #9

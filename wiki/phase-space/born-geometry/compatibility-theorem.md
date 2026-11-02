@@ -38,7 +38,7 @@ sources:
 
 *The compatibility theorem is a statement of linear algebra about metrics on phase space: if [the symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω and the neutral metric η are both held fixed in their standard forms, the only positive metrics H compatible with both are block-diagonal, H = diag(g, g⁻¹), with the momentum block equal to the inverse of the position block. "Compatible" means that H fits each structure in the way [Born geometry](/wiki/phase-space/born-geometry/born-structures) requires, (η⁻¹H)² = 1 and (ω⁻¹H)² = −1. The statement is [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality)'s; the short block proof and its machine check are the program's, and an independent reviewer re-derived it in [round 3](/wiki/method/review/round-3) and found that one step of the proof is not needed. Its use in the program is that it forced a change of postulates: with both structures fixed, the program reduces to [general relativity](/wiki/gravity/spin-2-fields/general-relativity) plus one dark-matter model, so the program replaced its postulate [P2](/wiki/program/postulates/original-p2) with [P2′](/wiki/program/postulates/p2-prime) and let η vary.*
 
-**Status:** Established — literature [T] (Freidel–Leigh–Minic, #11 ref. [26S, §2.1]), with the program's block proof machine-checked [V] (battery test T1; [the battery](/wiki/method/verification/battery)) — re-derived independently in round 3 by symbolic algebra, a Gröbner basis and numerical families; re-attributed from "derived here" to the literature in #11 v2.1.
+**Status:** Established — literature [T] (Freidel–Leigh–Minic, #11 ref. [26S, §2.1]), with the program's block proof machine-checked [V] (battery test T1; [the battery](/wiki/method/verification/battery)) — re-derived independently in round 3 by symbolic algebra, a Gröbner basis and numerical families.
 
 ## Statement
 
@@ -159,9 +159,9 @@ The adjudication agreed: "**The compatibility theorem is verified** (sympy, incl
 
 ## Attribution history
 
-Until round 3 the program treated the theorem as its own result:
+The documents written before round 3 treat the theorem as the program's own result:
 
-- calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the [notebook](/wiki/history/documents/lab-notebook)'s v0.3 addendum reports that the [the field-equation problem](/wiki/history/main-problems) groundwork "produced a rigorous compatibility theorem";
+- calc note #5 heads its section "The compatibility theorem [D — rigorous]", and the [notebook](/wiki/history/documents/lab-notebook)'s v0.3 addendum reports that the [field-equation problem](/wiki/history/main-problems) groundwork "produced a rigorous compatibility theorem";
 - the v1 program paper tags it "Compatibility theorem [D]" (#9 §3);
 - [#13](/wiki/conjugate-relativity) builds on it with the tag "[D — compatibility theorem]" (#13 §1; see flag 30 in `review/wiki-build-flags.md`);
 - the withdrawn #14 lists it under "Derived within the framework or by standard methods" as "the compatibility theorem (elementary; machine-verified numerically in both directions)" (#14 §6);
@@ -171,7 +171,7 @@ Round 1's referee "insinuated the compatibility theorem might be false (it is ma
 
 Round 3 found the prior art. Under "Uncited claims / prior art that should be cited" the referee wrote: "The compatibility theorem is the known 'Born geometry' structure of Freidel-Leigh-Minic: 1502.08005 (JHEP 06 (2015) 006), p.11", and quoted the passage that defines Born geometries (audit notes, Step 1). The adjudication: "Unless a comparison shows otherwise, the checkpoint's '[D] derived here' tag on it should become [T] with that citation." Decision 4 then scheduled the cleanup: "check the Freidel–Leigh–Minic prior art and re-tag the compatibility theorem if confirmed".
 
-#11 v2.1 (2026-10-19) made the change: "*Attribution (v2.1):* v2.0 presented this as derived here. It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root `CLAUDE.md` records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". #11 §15 counts the re-attribution among the program's degeneration risks, "the novelty demotion of §7.4 as a standing caution, joined in v2.1 by the failure of #14's soliton model (§12) and the §5 re-attribution of the compatibility theorem". Until v2.4 the middle item read "the §12 soliton obituary".
+#11 §5 tags the statement [T][V] and credits it: "It is the Born-geometry compatibility statement of Freidel, Leigh and Minic: writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]. The block proof and the machine check are this program's." The root `CLAUDE.md` records "compatibility theorem re-tagged [T] (Freidel–Leigh–Minic)". #11 §15 counts the re-attribution among the program's degeneration risks: "the novelty demotion of §7.4 as a standing caution", joined by "the failure of #14's soliton model (§12) and the §5 re-attribution of the compatibility theorem".
 
 The older documents keep their old tags. #11 and the root `CLAUDE.md` govern, so the statement is [T] and the block proof and machine check are [V] ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 

@@ -10,8 +10,11 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §15"
   - "papers/broken-born-checkpoint-v2.md ref [22]"
   - "papers/phase-space-diameter.md §4"
+  - "papers/phase-space-diameter.md §5"
   - "papers/phase-space-diameter.md §7"
   - "papers/phase-space-diameter.md §8.1"
+  - "papers/phase-space-diameter.md §8.2"
+  - "papers/phase-space-diameter.md §8.6"
   - "papers/phase-space-diameter.md 'References'"
   - "verify/phase_space_diameter.py 'Extent, resolution and the published answers (note §4)'"
   - "verify/phase_space_diameter.py 'The self-dual box (note §7)'"
@@ -127,7 +130,7 @@ The phase-space-diameter note writes the observed constant through the self-dual
 Λ = 3 l_P² / λ⁴,        λ/l_P = 3.2×10³⁰ = √(L_Λ/l_P)
 ```
 
-[D][V], which is Berglund, Hübsch and Minic's λ_cc = l_P²/l_Λ⁴ up to the factor 3 they drop [S]. The problem, Λl_P² ~ 10⁻¹²², becomes the hierarchy λ/l_P = 3.2×10³⁰; `verify/phase_space_diameter.py` prints log₁₀(Λl_P²) = −121.5 against log₁₀(λ/l_P) = 30.5. The note's verdict: "This takes the fourth root of the problem and explains nothing while λ is defined through Λ. It would predict Λ only if λ were fixed by other physics." (§7; version 1.0 had said "halves the exponent", corrected by round-5 ruling R7.) With the Born length at the Planck length instead, as [the program's paper on conjugate special relativity](/wiki/conjugate-relativity) sets it, the cosmic box has the aspect ratio "A = L/l_P = 8.5×10⁶⁰ for the Hubble radius, and the cosmological-constant problem is the size of that number squared" (§8.1). The note excludes the self-dual length as the program's own Born length, and the claim that the length is a program scale, recorded dead before 2026-10-29, is under review ([Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary)); the record derives neither λ nor the momentum graviton's mass from the program's dynamics, which the note sets as the condition for a prediction (§5, §8.2, §8.6; [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box)).
+[D][V], which is Berglund, Hübsch and Minic's λ_cc = l_P²/l_Λ⁴ up to the factor 3 they drop [S]. The problem, Λl_P² ~ 10⁻¹²², becomes the hierarchy λ/l_P = 3.2×10³⁰; `verify/phase_space_diameter.py` prints log₁₀(Λl_P²) = −121.5 against log₁₀(λ/l_P) = 30.5. The note's verdict: "This takes the fourth root of the problem and explains nothing while λ is defined through Λ. It would predict Λ only if λ were fixed by other physics." (§7; round-5 ruling R7 finds a fourth root, not a halving of the exponent.) With the Born length at the Planck length instead, as [the program's paper on conjugate special relativity](/wiki/conjugate-relativity) sets it, the cosmic box has the aspect ratio "A = L/l_P = 8.5×10⁶⁰ for the Hubble radius, and the cosmological-constant problem is the size of that number squared" (§8.1). The note excludes the self-dual length as the program's own Born length, and the claim that the length is a program scale is under review ([Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary)); the record derives neither λ nor the momentum graviton's mass from the program's dynamics, which the note sets as the condition for a prediction (§5, §8.2, §8.6; [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box)).
 
 ### Reading the popular articles
 
@@ -163,7 +166,7 @@ The checkpoint replaced these with a narrower statement. The cancellation concer
 - `papers/broken-born-checkpoint-v2.md` §7.3, ref [22] — the identity's scope, "the 'old' cosmological-constant problem", and the citation, marked [S].
 - `papers/broken-born-checkpoint-v2.md` §7.4, §15 — the novelty downgrade; "one identity awaiting a novelty verdict".
 - `papers/phase-space-diameter.md` §4 — the Cohen–Kaplan–Nelson bound, its quotations and its saturation entropy
-- `papers/phase-space-diameter.md` §7 — the bound's energy as that of the length √(l_P L), its conventions, the Friedmann identity 0.535, holographic dark energy (Hsu, Li), the dual-spacetime dark energy of Hur et al., Λ = 3l_P²/λ⁴ and the fourth root; §8.1 — the problem as the square of the box's aspect ratio at the Planck length; 'References' — the citations, marked [S]
+- `papers/phase-space-diameter.md` §7 — the bound's energy as that of the length √(l_P L), its conventions, the Friedmann identity 0.535, holographic dark energy (Hsu, Li), the dual-spacetime dark energy of Hur et al., Λ = 3l_P²/λ⁴ and the fourth root; §8.1 — the problem as the square of the box's aspect ratio at the Planck length; §5 — the action singles out no Born length; §8.2 — M_X with "no value in the record"; §8.6 — a prediction only if the program derived λ or M_X; 'References' — the citations, marked [S]
 - `verify/phase_space_diameter.py` — sections "Extent, resolution and the published answers (note §4)" and "The self-dual box (note §7)": 4.19 meV, −2.378, the conventions, 0.535, −121.5 and 30.5
 - `review/round5-adjudication.md` 'Rulings' R7, R9 — the fourth root in place of "halves the exponent"; the conventions spelled out
 - `HANDOFF.md` §8 item 5 — the no-protecting-symmetry statement in the queued comparison.
@@ -173,4 +176,4 @@ The checkpoint replaced these with a narrower statement. The cancellation concer
 - `notes/broken-born-program-v1.md` §5, §11 — v1's "cosmological-constant cancellation for free" (superseded by #11).
 - `popsci/universes-other-half.md` 'The second geometry, and why it has never been seen' — the hundred-and-twenty-orders figure (a popular article, never a status source).
 - `popsci/angle-of-the-mirror.md` 'What refused to die' — the cancellation framed through the cosmological constant (a popular article).
-- `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, and #11 §7.3's "by symmetry" marked for checking; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 6 — "by symmetry rather than tuning" recorded as an overstatement, and #11 §7.3's "by symmetry" marked for checking (pending).

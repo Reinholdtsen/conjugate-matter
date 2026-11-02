@@ -2,7 +2,7 @@
 title: "The measured referee failure mode"
 weight: 40
 status: record
-description: "Rounds 1–2: referees strong on structure and literature and unreliable on unaided arithmetic (three confident order-of-magnitude indictments, none surviving); rounds 3–4: with code-executing referees, the failures were the author's model inputs and reduced checks."
+description: "Rounds 1–2: referees strong on structure and literature and unreliable on unaided arithmetic (three confident order-of-magnitude indictments, none surviving); rounds 3–5: with code-executing referees, the failures were the author's: model inputs, reduced checks and a parameter dropped from a cited formula."
 sources:
   - "HANDOFF.md §6"
   - "HANDOFF.md §5"
@@ -13,14 +13,16 @@ sources:
   - "review/round4-preregistration.md"
   - "review/round4-adjudication.md 'Rulings', 'Lessons (into CLAUDE.md)'"
   - "review/round4/referee/audit-notes.md Step 2(d)"
+  - "review/round5-preregistration.md"
+  - "review/round5-adjudication.md header, 'Rulings', 'Pre-registration scored', 'Lessons (into CLAUDE.md)'"
   - "papers/broken-born-checkpoint-v2.md §2"
   - "CLAUDE.md 'Method (HANDOFF §5)'"
   - "review/skeptic-review-console.html"
 ---
 
-*The measured referee failure mode is the program's record of where its blind reviews have gone wrong, and on which side. In rounds 1 and 2 the referees, which could search the web but not run code, were reliable on structure, literature and logic and unreliable on arithmetic: their three confident order-of-magnitude indictments were all their own unit errors, and none survived. That finding made the iron rule load-bearing and was the main reason the project moved to Claude Code, where a referee can execute code. In round 3 the failure moved to the author's side: the author's scripts had checked the arithmetic of a model with a wrong physics input, so a check that tests only arithmetic passed it. Round 4's decisive defect was again on the author's side, in a check run on a reduced model.*
+*The measured referee failure mode is the program's record of where its blind reviews have gone wrong, and on which side. In rounds 1 and 2 the referees, which could search the web but not run code, were reliable on structure, literature and logic and unreliable on arithmetic: their three confident order-of-magnitude indictments were all their own unit errors, and none survived. That finding made the iron rule load-bearing and was the main reason the project moved to Claude Code, where a referee can execute code. In round 3 the failure moved to the author's side: the author's scripts had checked the arithmetic of a model with a wrong physics input, so a check that tests only arithmetic passed it. Round 4's decisive defect was again on the author's side, in a check run on a reduced model, and so was round 5's major finding, a parameter dropped from a cited formula.*
 
-**Status:** Record — untagged. The round-1–2 form is `HANDOFF.md` §6. The round-3 form, from `review/round3-adjudication.md` 'Pre-registration scored', is the current lesson: "The failure mode has moved." The [iron rule](/wiki/method/verification/iron-rule) that the first produced stays in force (root `CLAUDE.md`, 'Method'). Round 4's two lessons (`review/round4-adjudication.md`) are further instances on the author's side.
+**Status:** Record — untagged. The round-1–2 form is `HANDOFF.md` §6. The round-3 form, from `review/round3-adjudication.md` 'Pre-registration scored', is the current lesson: "The failure mode has moved." The [iron rule](/wiki/method/verification/iron-rule) that the first produced stays in force (root `CLAUDE.md`, 'Method'). The two lessons of round 4 (`review/round4-adjudication.md`) and the two of round 5 (`review/round5-adjudication.md`) are further instances on the author's side.
 
 ## What was measured
 
@@ -47,7 +49,7 @@ Round 2's quantitative claims held up only in part when the worklog for v3 check
 
 **Referees that execute code.** The move to Claude Code made it possible to give the referee a shell and Python. Step 2 of the [blind-review protocol](/wiki/method/review/review-protocol) re-checks every number "in Python from independently chosen constants". The round-3 pre-registration states what this does and does not change: "It removes the arithmetic failure mode of rounds 1–2, which had no code execution. It does not remove correlated blind spots."
 
-**The effect.** In round 3, "Every one of its 16 numerical findings rests on executed code"; in round 4, "All 9 of its numerical and algebraic indictments rest on executed code." Where round 3's referee and adjudicator computed the same quantity separately, they agreed closely: on [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), "We agree to within ×1.6, and v3's 0.1–0.3 TeV was wrong" (ruling 4). The one round-3 finding that was overturned was a reading error, not an arithmetic one: the referee had missed a footnote in a cited paper (ruling 8). In round 4 the referee caught one arithmetic error of its own by running code: a first attempt at the matter-coupling integral gave 23.27, which it traced to its own normalization and recorded as "not a manuscript error" (`review/round4/referee/audit-notes.md`, Step 2(d)). No round-4 finding was overturned.
+**The effect.** In round 3, "Every one of its 16 numerical findings rests on executed code"; in round 4, "All 9 of its numerical and algebraic indictments rest on executed code"; in round 5, "Every numerical indictment rests on executed code." Where round 3's referee and adjudicator computed the same quantity separately, they agreed closely: on [the ψ relic window](/wiki/dark-matter/candidates/soliton-candidate/psi-relic-window), "We agree to within ×1.6, and v3's 0.1–0.3 TeV was wrong" (ruling 4). The one round-3 finding that was overturned was a reading error, not an arithmetic one: the referee had missed a footnote in a cited paper (ruling 8). In round 4 the referee caught one arithmetic error of its own by running code: a first attempt at the matter-coupling integral gave 23.27, which it traced to its own normalization and recorded as "not a manuscript error" (`review/round4/referee/audit-notes.md`, Step 2(d)). No round-4 finding was overturned. In round 5 the one part not upheld was referee A's value of the background ratio, set from a·ã = 1: "The record's second frame is the polarization frame, not the slaved momentum block g̃ = g⁻¹ that carries ã, so that value does not follow." (ruling R1).
 
 ## Round 3: the failure moves to the author's side
 
@@ -80,10 +82,12 @@ Each became a rule in root `CLAUDE.md`: [the reduced-model stability rule](/wiki
 
 Once the referee could run code, the errors that survived were on the author's side. In the wiki's reading, each was a check that passed for a reason other than the claim being right.
 
+Round 5, with two referees using shell, Python and web, falls on the same side. What survived was the author's: a parameter dropped from a cited formula (ruling R1) and five minor numerical findings, "four of them in conventions listed" in the forecast. Its two rules are on [its page](/wiki/method/review/round-5#the-lessons).
+
 ## What it does not cover
 
-- **Correlated blind spots.** The referees of rounds 3 and 4 are "the same model family as the author". Code execution removes the arithmetic failure mode, and "It does not remove correlated blind spots." (round-3 pre-registration).
-- **Severity.** The calibration record shows the author locating the weakest link better but still underestimating it: "Weakest-link location has improved. Severity is still underestimated." (`review/round4-adjudication.md`; [pre-registration](/wiki/method/review/pre-registration)).
+- **Correlated blind spots.** The referees of rounds 3 to 5 are "the same model family as the author". Code execution removes the arithmetic failure mode, and "It does not remove correlated blind spots." (round-3 pre-registration).
+- **Severity.** The calibration record shows the author locating the weakest link better but still underestimating it: "Weakest-link location has improved. Severity is still underestimated." (`review/round4-adjudication.md`; [pre-registration](/wiki/method/review/pre-registration)). Round 5's adjudication: "Weakest-link location: hit in rounds 4 and 5." and "Still underestimated: the number of small errors in a long text, and the extent of prior art."
 - **Whether the physics is right.** #11 §2: "What no machine can check is whether the algebra is attached to the right physics; that verdict belongs to expert readers and, ultimately, to data."
 
 ## Sources
@@ -95,6 +99,7 @@ Once the referee could run code, the errors that survived were on the author's s
 - `review/round3-adjudication.md` 'Rulings' (1, 4, 8, 13), 'Pre-registration scored', 'Lessons (now in CLAUDE.md)' — the shift to the author's side and the anchor lesson
 - `review/round4-preregistration.md`, `review/round4-adjudication.md` 'Rulings' (F1, the Monte Carlo control), 'Lessons (into CLAUDE.md)' — round 4's author-side findings and rules
 - `review/round4/referee/audit-notes.md` Step 2(d) — the referee's own normalization error, caught by its code
+- `review/round5-preregistration.md` — the same model family; `review/round5-adjudication.md` header, 'Rulings' (R1), 'Pre-registration scored', 'Lessons (into CLAUDE.md)' — round 5's executed code, what survived and the calibration across rounds
 - `papers/broken-born-checkpoint-v2.md` §2 — "a verification script confirms arithmetic, not the model it encodes"; the limit of machine checks
 - `CLAUDE.md` 'Method (HANDOFF §5)' — the rules as now in force
 - `review/skeptic-review-console.html` — #14 v2's density inputs as the round-2 referee received them

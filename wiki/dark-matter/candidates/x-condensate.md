@@ -2,7 +2,7 @@
 title: "The X-condensate candidate"
 weight: 40
 status: alive
-description: "A coherent oscillation of the massive momentum graviton, protected by its mass, that would unify dark matter with the geometry; from a door deliberately left closed to one of three candidates."
+description: "A coherent oscillation of the massive momentum graviton, protected by its mass, that would unify dark matter with the geometry; one of #11's three dark-matter candidates."
 provenance: [D, O]
 sources:
   - "papers/broken-born-checkpoint-v2.md §12"
@@ -27,7 +27,7 @@ sources:
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
-*The X-condensate candidate is the proposal that [dark matter](/wiki/dark-matter) is a coherent, spatially uniform oscillation of X, the program's [momentum graviton](/wiki/gravity/momentum-graviton): the massive spin-2 field that the broken [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) adds to gravity. If it holds, dark matter and the hidden half of the geometry are one field rather than two separate things. The idea was logged during the work on [the field-equation problem](/wiki/history/main-problems) as a direction deliberately left unopened, became one of three dark-matter candidates in version 2.0 of the checkpoint, was one of two from version 2.1 to 2.3, after [#14's model of the third](/wiki/dark-matter/candidates/soliton-candidate/obituary) failed, and since version 2.4 has been one of three again, the third being P.R.'s conjecture of [magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles). The record holds its profile and its history, not a calculation; like [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles), its abundance is unexplained.*
+*The X-condensate candidate is the proposal that [dark matter](/wiki/dark-matter) is a coherent, spatially uniform oscillation of X, the program's [momentum graviton](/wiki/gravity/momentum-graviton): the massive spin-2 field that the broken [reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) adds to gravity. If it holds, dark matter and the hidden half of the geometry are one field rather than two separate things. The idea was logged during the work on [the field-equation problem](/wiki/history/main-problems) as a direction deliberately left unopened. It is one of the checkpoint's three dark-matter candidates, with [the χ-particle candidate](/wiki/dark-matter/candidates/chi-particles) and P.R.'s conjecture of [magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles). The record holds its profile and its history, not a calculation; like the χ-particle candidate, its abundance is unexplained.*
 
 **Status:** Alive — one of three candidates; #11 §12 tags the table of candidates "[D — framework; each candidate O]". The field it is made of is derived ([D + T], #11 §7.1); that the dark matter is made of it is open. Its lineage, [bigravity dark matter](/wiki/dark-matter/candidates/bigravity-dark-matter), is cited from model memory [23†]; flag 20 in `review/wiki-build-flags.md` suspects that #11's entry for it pairs one paper's title with another's arXiv number. Nothing on this page is machine-checked.
 
@@ -39,7 +39,7 @@ sources:
 |---|---|---|---|
 | **X-condensate** | oscillating massive spin-2 (bigravity-DM lineage [23†]) | m_X-protected | unifies dark sector with geometry; coherent-field signatures; knee shape wave-like |
 
-DM there is dark matter. The tag "[D — framework; each candidate O]" says that the framework producing the candidates is derived and each candidate is open. The other rows are [χ particles](/wiki/dark-matter/candidates/chi-particles) and, restored in v2.4, P.R.'s [conjugate monopoles](/wiki/dark-matter/candidates/momentum-space-monopoles), and "The 5.4 : 1 abundance question (polarization-genesis) applies to all three" (#11 §12). Those two are conjugate matter, P.R.'s core conjecture (#11 App. A item 4); the X-condensate is the one candidate made of the geometry instead.
+DM there is dark matter. The tag "[D — framework; each candidate O]" says that the framework producing the candidates is derived and each candidate is open. The other rows are [χ particles](/wiki/dark-matter/candidates/chi-particles) and P.R.'s [conjugate monopoles](/wiki/dark-matter/candidates/momentum-space-monopoles), and "The 5.4 : 1 abundance question (polarization-genesis) applies to all three" (#11 §12). Those two are conjugate matter, P.R.'s core conjecture (#11 App. A item 4); the X-condensate is the one candidate made of the geometry instead.
 
 ## What X is
 
@@ -71,8 +71,8 @@ The stability entry, "m_X-protected", is likewise stated without an argument. No
 
 ## Its tests
 
-- **[Row 7](/wiki/predictions/direct-detection-null): a permanent null.** "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)", killed by "Any confirmed non-gravitational DM–SM coupling" (#11 §13). The row has said "both" since v2.1, unchanged in v2.4 although §12 again lists three candidates; flag 63 in `review/wiki-build-flags.md`, pending Paul's ruling, proposes wording that counts all three. X does couple to ordinary matter, at gravitational strength and with a range cut off at 1/M_X (#11 §7.5); the null concerns couplings other than gravity.
-- **[Row 11](/wiki/predictions/dark-sector-microstructure): particles or condensate.** "Particles vs condensate, separable via rows 1–3 + coherence signatures", marked "Diagnostic" (#11 §13); flag 63 proposes adding the conjugate monopoles to the row. How to make the separation is open: "Discriminating the three dark-sector candidates (§12) [O]" (#11 §14 item 9, as v2.4 words it; from v2.1 to v2.3 it read "the two remaining dark-sector candidates").
+- **[Row 7](/wiki/predictions/direct-detection-null): a permanent null.** "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)", killed by "Any confirmed non-gravitational DM–SM coupling" (#11 §13). The row says "both" although §12 lists three candidates; flag 63 in `review/wiki-build-flags.md`, pending, proposes wording that counts all three. X does couple to ordinary matter, at gravitational strength and with a range cut off at 1/M_X (#11 §7.5); the null concerns couplings other than gravity.
+- **[Row 11](/wiki/predictions/dark-sector-microstructure): particles or condensate.** "Particles vs condensate, separable via rows 1–3 + coherence signatures", marked "Diagnostic" (#11 §13); flag 63 proposes adding the conjugate monopoles to the row. How to make the separation is open: "Discriminating the three dark-sector candidates (§12) [O]" (#11 §14 item 9).
 
 ## What is open
 
@@ -90,21 +90,20 @@ The word "condensate" appears twice in the dark-matter record. On the wave islan
 - **A door left closed (calc note #6).** "A new door, deliberately left closed today: homogeneous oscillations of a massive spin-2 X are themselves a dark-matter candidate (cf. bigravity dark matter). BBT may not need χ as a separate field — X-condensate dark matter would unify the geometric sector with the dark sector. Logged as an open direction, not pursued. [O]" (#6 §4). #6 §5 lists "X-condensate dark matter (§4)" among what is "Also now open".
 - **[The lab notebook](/wiki/history/documents/lab-notebook).** Addendum v0.4 records "A new open direction: massive-X condensate as the dark matter itself (bigravity-DM-style), potentially unifying the dark sector with the geometry."
 - **#9.** Open problem 7: "X-condensate as the dark matter itself (bigravity-DM-style), potentially eliminating χ and unifying the dark sector with the geometry [O — direction, deliberately unopened]" (#9 §10). Its row 7 already covers it: "χ (or X-condensate) has no non-gravitational SM coupling" (#9 §9).
-- **#11 v2.0 and the handoff.** The candidate became one row of a three-way choice with χ particles and [superheavy solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary). [The handoff](/wiki/history/documents/handoff), `HANDOFF.md` §2, lists "Dark-sector trilemma discrimination: particles vs X-condensate vs solitons" as open item 8.
-- **#11 v2.1.** After [round 3](/wiki/method/review/round-3), #14's model of the third candidate failed and was retired on 2026-10-19, and "the trilemma becomes two program-native candidates (gated χ particles; the X-condensate)" (`review/round3-adjudication.md`, [Decision 2](/wiki/method/review/round-3/decisions#decision-2-the-soliton-candidate-retired); [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
-- **#11 v2.4 (2026-10-29).** Paul narrowed Decision 2 to #14's model, and the candidate it modeled, conjugate monopoles localized in momentum, returned as P.R.'s conjecture, making the X-condensate one of three candidates again ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
-- **The popular articles.** Both predate the 2026-10-19 retirement and describe the three-way question. #10 lists "a condensate of the twin-graviton field itself" ('Corollaries and daydreams'); #12 writes "a condensate of the massive geometric field itself, in which case dark matter and the hidden geometry are one substance" ('Dark matter as the other polarization'). Neither is a source for the candidate's status ([the popular articles](/wiki/history/documents/popular-articles)).
+- **The first version of #11, and the handoff.** The candidate became one row of a three-way choice with χ particles and [superheavy solitons](/wiki/dark-matter/candidates/soliton-candidate/obituary). [The handoff](/wiki/history/documents/handoff), `HANDOFF.md` §2, lists "Dark-sector trilemma discrimination: particles vs X-condensate vs solitons" as open item 8.
+- **#14's model of the third candidate.** #14's model, built with ordinary kinematics, failed on its recomputed abundance in [round 3](/wiki/method/review/round-3) (`review/round3-adjudication.md`, [Decision 2](/wiki/method/review/round-3/decisions#decision-2-14s-model-retired); [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). #14's model did not treat localization in momentum, so the candidate itself has not been tested: conjugate monopoles localized in momentum are P.R.'s open conjecture, and #11 §12 lists them with χ particles and the X-condensate as the three candidates ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+- **The popular articles.** Both predate the failure of #14's model (2026-10-19) and describe the three-way question. #10 lists "a condensate of the twin-graviton field itself" ('Corollaries and daydreams'); #12 writes "a condensate of the massive geometric field itself, in which case dark matter and the hidden geometry are one substance" ('Dark matter as the other polarization'). Neither is a source for the candidate's status ([the popular articles](/wiki/history/documents/popular-articles)).
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §12 — the candidate profile and its tag; §7.1 — X forced massive; §7.5 — mass, parity and couplings; §9 — the wave-island tail; §13 — rows 3, 7 and 11; §14 item 9 — discriminating the candidates, three since v2.4; App. A item 4 — the two candidates that are conjugate matter
+- `papers/broken-born-checkpoint-v2.md` §12 — the candidate profile and its tag; §7.1 — X forced massive; §7.5 — mass, parity and couplings; §9 — the wave-island tail; §13 — rows 3, 7 and 11; §14 item 9 — discriminating the three candidates; App. A item 4 — the two candidates that are conjugate matter
 - `notes/x-classification.md` §4 — the door "deliberately left closed"; §5 — listed as open
 - `notes/geometric-core.md` §C — X as Re Z, "the local wobble of the emergent polarization"
 - `notes/beta-coefficients.md` §3 — m_FP², equal Planck masses, safety by range
 - `notes/broken-born-theory.md` 'Addendum (v0.4)' — the open direction
 - `notes/broken-born-program-v1.md` §10 — open problem 7 of #9; §9 — row 7 of #9
 - `HANDOFF.md` §2 — open item 8, the trilemma (superseded)
-- `review/round3-adjudication.md` 'Decisions' 2 — three candidates become two, narrowed by Paul on 2026-10-29 to #14's model
+- `review/round3-adjudication.md` 'Decisions' 2 — covers #14's model, which used ordinary kinematics
 - `review/v3-worklog.md` 'Round-2 pending list' — R7, stability at equal Planck masses
-- `review/wiki-build-flags.md` item 5 — M_X versus m_FP²; item 20 — the title and arXiv number of reference [23]; item 63 — rows 7 and 11 still name two candidates, pending Paul's ruling
+- `review/wiki-build-flags.md` item 5 — M_X versus m_FP²; item 20 — the title and arXiv number of reference [23]; item 63 — rows 7 and 11 name two candidates, pending
 - `popsci/angle-of-the-mirror.md` 'Corollaries and daydreams'; `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the three-way framing

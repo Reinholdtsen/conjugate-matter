@@ -17,6 +17,8 @@ sources:
   - "notes/broken-born-program-v1.md §5"
   - "notes/knot-dark-matter-standalone.md §1"
   - "HANDOFF.md §2"
+  - "review/wiki-build-flags.md items 44, 55"
+  - "notes/gate-mechanism.md §2"
 ---
 
 *Dual diffeomorphisms are the local form of the [momentum graviton](/wiki/gravity/momentum-graviton)'s [shift symmetry](/wiki/gravity/momentum-graviton/shift-symmetry): instead of adding the same constant matrix to X everywhere, X may be shifted by the symmetrized derivative of a vector field λ_μ(x) that varies from point to point, δX_μν = ∂₍μλ_ν₎. In linearized [general relativity](/wiki/gravity/spin-2-fields/general-relativity), the small ripple of the metric has exactly this kind of redundancy under small changes of coordinates, and that redundancy is what makes it a massless spin-2 field, the graviton. X is a symmetric tensor with the same redundancy, so it is a second graviton-like gauge field. A theorem excludes a second massless graviton that interacts with the first, and this identification, together with the [ghost](/wiki/gravity/spin-2-fields/ghosts) that a symmetric tensor without the gauge symmetry carries, is what forces X to become massive. The step is derived from the structure of the doubled geometry and rests on standard linearized gravity [D + T]; no document writes an action for X in which the symmetry can be checked, and no script checks it.*
@@ -72,7 +74,7 @@ So X carries "a *second copy of linearized diffeomorphisms*" (#6 §2): the same 
 Calc note #6 §2 continues: "Two consistency facts then close the door on the massless option":
 
 - "Without the gauge invariance, no ghost-free two-derivative kinetic term for a Lorentz-covariant symmetric tensor exists (mixed time–space components enter with the wrong sign under any invariant contraction; this is why the Fierz–Pauli structure and its accidental gauge symmetry exist at all). [T — standard]" Read literally, "the gauge invariance" overstates: a smaller gauge symmetry also suffices (flag 44 in `review/wiki-build-flags.md`, not yet audited).
-- "With the gauge invariance, X is a second **massless** spin-2 — and massless multi-graviton cross-interactions are inconsistent (Boulanger–Damour–Gualtieri–Henneaux). X must couple (to g through the Siegel structure, to χ through the gate), so decoupling is not available. [T]"
+- "With the gauge invariance, X is a second **massless** spin-2 — and massless multi-graviton cross-interactions are inconsistent (Boulanger–Damour–Gualtieri–Henneaux). X must couple (to g through the Siegel structure, to χ through the gate), so decoupling is not available. [T]" On the coupling "to χ through the gate", see flag 55 in `review/wiki-build-flags.md`, pending, which finds the gate's mechanism not derived ([exchanging X cannot produce the gate](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 "**Therefore X must be massive.**" The first fact is [the signature obstruction](/wiki/gravity/spin-2-fields/signature-obstruction), the second the multi-graviton no-go theorem. The assembled argument, with what each fact assumes, is [why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain).
 
@@ -103,3 +105,4 @@ The mass comes from the vacuum. #6 §3: "The vacuum ⟨Z⟩ = i·g sits at X = 0
 - `notes/broken-born-program-v1.md` §5 — the v1 statement.
 - `notes/knot-dark-matter-standalone.md` §1 — the withdrawn manuscript's compressed version.
 - `HANDOFF.md` §2 — the handoff's summary.
+- `notes/gate-mechanism.md` §2 and `review/wiki-build-flags.md` items 44, 55 — "the gauge invariance", read literally (not yet audited); exchanging #11 §7's X cannot produce the gate (pending).

@@ -22,11 +22,16 @@ sources:
   - "review/wiki-build-flags.md items 11, 14, 16, 28"
   - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
   - "review/wiki-build-flags.md item 16"
+  - "verify/phase_space_diameter.py"
+  - "verify/closed_universe.py"
+  - "verify/velocity_gated_gravity.py"
+  - "verify/gate_mechanism.py"
+  - "review/round5-adjudication.md 'Rulings' R12"
 ---
 
-*An anchor is a check that a verification script must pass against something known independently of the paper being checked, such as a textbook identity or a published value, before its own numbers are trusted. A check that only reproduces the paper's own figure is circular: if the paper's formula is wrong, the check repeats the error and passes. Review round 3 found such a case in the soliton manuscript, whose script anchored the monopole count to the previous draft's own figure and computed [the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) too small by a factor of about 4.6×10³ without failing. The rule has been in the program's method since, and three of the current scripts open with anchor checks taken from textbooks or from the cited literature.*
+*An anchor is a check that a verification script must pass against something known independently of the paper being checked, such as a textbook identity or a published value, before its own numbers are trusted. A check that only reproduces the paper's own figure is circular: if the paper's formula is wrong, the check repeats the error and passes. Review round 3 found such a case in the soliton manuscript, whose script anchored the monopole count to the previous draft's own figure and computed [the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) too small by a factor of about 4.6×10³ without failing. The rule has been in the program's method since, and seven of the ten current scripts open with anchor checks taken from textbooks or from the cited literature.*
 
-**Status:** Method, in force (round-3 lesson 2, now in root `CLAUDE.md`) — untagged — applied in `verify/soliton_obituary.py`, `verify/toy_coset.py` and `verify/toy_gw.py`, which print their anchor checks first, and in identity checks in `verify/toy_s5.py`.
+**Status:** Method, in force (round-3 lesson 2, now in root `CLAUDE.md`) — untagged — applied in `verify/soliton_obituary.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/phase_space_diameter.py`, `verify/closed_universe.py`, `verify/velocity_gated_gravity.py` and `verify/gate_mechanism.py`, which print their anchor checks first, and in identity checks in `verify/toy_s5.py`.
 
 ## The rule
 
@@ -85,6 +90,17 @@ The first two are lesson 2's replacements. The [Friedmann](/wiki/cosmology/scale
 
 See [the toy-model scripts](/wiki/method/verification/toy-model-scripts).
 
+### The four later scripts
+
+Each docstring says "Anchors come first", independent of the document the script checks. The full lists are on the scripts' pages.
+
+- **`verify/phase_space_diameter.py`** prints nine anchor checks first: CODATA 2018's Planck units, the Particle Data Group's photon and entropy densities and dark-energy scale, a Bose integral evaluated two ways and a published comoving horizon. The two published limits of Lee et al. 2020, which the docstring also counts, sit in the last block, beside the bound they protect. Round-5 ruling R12 notes that they come from the column of the exclusion table the bound does not use: "Both columns come from the same table, so the anchor checks the transcription and the method" ([the anchors](/wiki/method/verification/phase-space-diameter-script#the-anchors)).
+- **`verify/closed_universe.py`** prints 22: units and densities, the exact closed solutions its integrator must reproduce, the pendulum average, the spectrum of the three-sphere, a published mode of the dodecahedral space, published curvature values, Lee et al.'s ranges and a fit calibrated against two published results. Two literature anchors sit inside its section D, and section F has two winding-number anchors of its own ([the anchors](/wiki/method/verification/closed-universe-script#the-anchors)).
+- **`verify/velocity_gated_gravity.py`** prints 14: CODATA 2018 constants, the Einstein–Infeld–Hoffmann and Darwin Lagrangians, textbook spin-2 numerators, Planck 2018's age and matter–radiation equality, exact growing modes, the closed form of the gate's Fourier kernel, Lee et al.'s ranges, Mercury's perihelion advance and the Plummer sphere's free-fall time ([the anchors](/wiki/method/verification/velocity-gated-gravity-script#the-anchors)).
+- **`verify/gate_mechanism.py`** prints 12: CODATA 2018 constants, the on-shell identity, the Fierz–Pauli numerator with its helicity sum, Legendre and Chebyshev identities and the zero-range s-wave ([the anchors](/wiki/method/verification/gate-mechanism-script#the-anchors)).
+
+The last three docstrings call everything after the anchors a regression check, which reproduces the work's own numbers and is not independent of them.
+
 ### The battery
 
 `verify/battery.py` has no anchors. Its tests are algebraic identities evaluated on random matrices, which do not depend on any figure in the papers, and exact integer arithmetic ([the verification battery](/wiki/method/verification/battery)).
@@ -96,7 +112,7 @@ The checks labelled "quoted:" in the toy scripts, and the "parity" checks of the
 ## How the rule has been applied since
 
 - **Round 4.** The [pre-registration](/wiki/method/review/pre-registration#round-4) gave as a reason the verdict would not be C: "every number was computed by gated code with independent anchors". The one numerical indictment that survived was "the MC control values, a statistical problem" (MC is Monte Carlo); "Every normalization and sign I listed was confirmed" (`review/round4-adjudication.md`, 'Pre-registration scored'). An anchor tests a formula, not the statistics of a simulation, and the error-bar rule came out of that round ([the Monte Carlo error-bar rule](/wiki/method/verification/monte-carlo-error-bars)).
-- **The wiki build.** The verifiers of the wiki's depth pass wrote executed checks for every suspected source error that rests on arithmetic, kept in `review/wiki-build-checks/`. Several test a document's statement against a textbook identity rather than against the document's own figures: `dirac_coupling_check.py` derives the [magnetic coupling](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) from α = e²/4π and prints `4π/e² = 137.036   (= 1/alpha)` against #11 §11.2's "4π/e² ≈ 34" (flag 28), and `sqrt_eig_check.py` prints `Newton p4 identity: True` beside the trace it tests (flag 14). Others reproduce a note's figures from its own inputs, such as `stream_stability_check.py` for the [clumping shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) (flag 16). Since 2026-10-28 its arithmetic has been in the gate, as section D of `verify/velocity_gated_gravity.py`, whose docstring calls everything after its anchors a regression check: "it reproduces the investigation's own numbers and is not independent of them" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)); flag 16's addendum records the move, and the flag awaits Paul's ruling. The README sets the condition for moving any of them into the gate: "A ruling that accepts a flag should move the relevant check into `verify/`, with an anchor independent of the paper."
+- **The wiki build.** The verifiers of the wiki's depth pass wrote executed checks for every suspected source error that rests on arithmetic, kept in `review/wiki-build-checks/`. Several test a document's statement against a textbook identity rather than against the document's own figures: `dirac_coupling_check.py` derives the [magnetic coupling](/wiki/electric-magnetic-duality/monopoles/dirac-quantization) from α = e²/4π and prints `4π/e² = 137.036   (= 1/alpha)` against #11 §11.2's "4π/e² ≈ 34" (flag 28), and `sqrt_eig_check.py` prints `Newton p4 identity: True` beside the trace it tests (flag 14). Others reproduce a note's figures from its own inputs, such as `stream_stability_check.py` for the [clumping shortfall](/wiki/dark-matter/momentum-clumping/instability-criterion) (flag 16). Since 2026-10-28 its arithmetic has been in the gate, as section D of `verify/velocity_gated_gravity.py`, whose docstring calls everything after its anchors a regression check: "it reproduces the investigation's own numbers and is not independent of them" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)); flag 16's addendum records the move, and the flag is pending. The README sets the condition for moving any of them into the gate: "A ruling that accepts a flag should move the relevant check into `verify/`, with an anchor independent of the paper."
 
 ## Sources
 
@@ -106,6 +122,7 @@ The checks labelled "quoted:" in the toy scripts, and the "parity" checks of the
 - `review/v3-worklog.md` 'New open items (to compute before v3 states anything about them)' (O1, O2) — the predecessor's sound anchors; 'Findings neither referee raised' (F1) — the p = 1 closure at 3×10¹³ GeV and the move of the benchmark there
 - `verify/soliton_obituary.py` — the current anchors
 - `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s5.py`, `verify/toy_s4.py` — the toy-model anchors, identity checks and phase expectations
+- `verify/phase_space_diameter.py`, `verify/closed_universe.py`, `verify/velocity_gated_gravity.py`, `verify/gate_mechanism.py` — the later scripts' docstrings and anchor blocks; `review/round5-adjudication.md` 'Rulings' R12 — the column the table's anchor checks
 - `verify/battery.py` — the parity checks, which are reproductions
 - `review/round4-preregistration.md` 'Predictions' and `review/round4-adjudication.md` 'Pre-registration scored' — the rule in round 4
 - `review/wiki-build-checks/README.md`, `dirac_coupling_check.out`, `sqrt_eig_check.out`; `review/wiki-build-flags.md` items 11, 14, 16, 28 — the wiki build's checks and the condition for promoting them

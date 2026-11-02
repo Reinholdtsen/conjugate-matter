@@ -23,7 +23,7 @@ sources:
 
 *The program's [momentum graviton X](/wiki/gravity/momentum-graviton) is the massive spin-2 field of a two-metric theory: beside the ordinary spacetime metric g there is a second metric f, and X is the combination of their fluctuations that carries mass. The closed-universe note of 2026-10-27 asks what happens to f if the universe is closed. If f is a dynamical field with the same Planck mass as g, which is what the program's reciprocity requires, then f must be closed with the same curvature, it stays almost exactly aligned with g, and the expansion passes smoothly through its turnaround. In the early universe the second metric makes gravity up to twice as strong as today, a step that the checkpoint does not mention, and a known instability of two-metric cosmologies operates above temperatures of about 1.3 TeV, in energy units. If instead f were a fixed background, a closed expanding universe would be impossible, but that reading contradicts the record's equal Planck masses.*
 
-**Status:** Alive — computed, not reviewed — [D][V], with the uniqueness of the closed reference metric [T] (Comelli, Crisostomi, Nesti and Pilo 2012) — every derivation and number is recomputed in section D of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), two of them against published results; the note's results were checked by independent verifiers and a completeness critic and have not been reviewed (`notes/closed-universe.md` header). It bears on flags 5, 51, 52 and 53 in `review/wiki-build-flags.md`, which await Paul's ruling.
+**Status:** Alive — computed, not reviewed — [D][V], with the uniqueness of the closed reference metric [T] (Comelli, Crisostomi, Nesti and Pilo 2012) — every derivation and number is recomputed in section D of `verify/closed_universe.py` ([the closed-universe script](/wiki/method/verification/closed-universe-script)), two of them against published results; the note's results were checked by independent verifiers and a completeness critic and have not been reviewed (`notes/closed-universe.md` header). It bears on flags 5, 51, 52 and 53 in `review/wiki-build-flags.md`, all pending.
 
 ## The setting
 
@@ -66,7 +66,7 @@ For H ≫ M_X, G_eff = 2G_N: gravity acts twice as strongly as in the late unive
 
 ### The Higuchi bound holds through the dressed mass
 
-A massive spin-2 field on an expanding background must satisfy the Higuchi bound, m² ≥ 2H² in de Sitter space, or its helicity-0 mode is a ghost [T] ([the Higuchi bound](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound)). The withdrawn manuscript #14 and its worklog called the bound "trivially satisfied by a heavy X". The note finds that the conclusion holds and the reasoning does not (§6; flag 53): with a fixed mass the argument fails once 2(H² + k/a²) exceeds M_X², at TeV temperatures for the smallest M_X and during inflation unless M_X > √2·H_inf (flag 53). The bound holds through the dressed mass on the branch:
+A massive spin-2 field on an expanding background must satisfy the Higuchi bound, m² ≥ 2H² in de Sitter space, or its helicity-0 mode is a ghost [T] ([the Higuchi bound](/wiki/gravity/spin-2-fields/bimetric-cosmology#the-higuchi-bound)). The withdrawn manuscript #14 says the bound "is satisfied trivially by the heavy field" (§1), and its worklog "trivially satisfied by a heavy X" (R7). The note finds that the conclusion holds and the reasoning does not (§6; flag 53): with a fixed mass the argument fails once 2(H² + k/a²) exceeds M_X², at TeV temperatures for the smallest M_X and during inflation unless M_X > √2·H_inf (flag 53). The bound holds through the dressed mass on the branch:
 
 ```text
 m_FP²(y) − 2(H² + k/a²) = −yρ_y/(3M_g²) > 0
@@ -105,7 +105,7 @@ Both are on [open problems and the queue](/wiki/status/open-problems). The open 
 
 - `notes/closed-universe.md` §6 — the branch and its k-independence, f closed with the same k, the exact relation, 1 − y today, M_X², the broken vacua and β₁ > 0, the regular turnaround, G_eff = 2G_N and its halfway point, the dressed Higuchi bound, the gradient instability, and f frozen; §2 — y in (0, 1] on the β₁ > 0 branch; §8 — the L = 2 modes; §9 — what is open; §10 — the pre-registration scored
 - `verify/closed_universe.py` section D — D1 (the y-equation, with von Strauss et al. 2012 as anchor), D2 and D3 (the exact relation and leading order), D4 (M_X²), D5 (the broken vacua), D6 (G_eff, the halfway point, Könnig 2015's eigenfrequency and the crossover), D7 (SO(4)-invariant tensors), D8 (the frozen reference), D9 (the turnaround toy); the anchors — the interpolation that gives the smallest M_X
-- `review/wiki-build-flags.md` items 5, 51, 52 and 53 — M_X², β₁ > 0, the omitted G_eff step and the Higuchi reasoning, with their audits; awaiting Paul's ruling
+- `review/wiki-build-flags.md` items 5, 51, 52 and 53 — M_X², β₁ > 0, the omitted G_eff step and the Higuchi reasoning, with their audits (all pending)
 - `notes/beta-coefficients.md` §3 — equal effective Planck masses
 - `papers/phase-space-diameter.md` §8.2 and `review/round5-adjudication.md` 'Rulings' R1 — the aligned vacuum, the smallest M_X, and the open definition of E₀[J]
 - `papers/broken-born-checkpoint-v2.md` §7 — the gravity sector and "M_X ∝ 2(β₁+β₂)"; §10 — the guarantee that the wedge sector does not compete with τ

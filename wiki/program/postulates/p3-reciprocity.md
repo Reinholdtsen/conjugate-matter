@@ -74,7 +74,7 @@ The lab notebook checked the action of R on the three structures in their standa
 - At the standard forms ρ preserves ω, H and I, so a law written in terms of these structures can be invariant under ρ.
 - ρ reverses η. A state that carries a definite η is therefore not invariant: ρ maps it to the state with −η. Under [P2′](/wiki/program/postulates/p2-prime) η is the vacuum's order parameter, and this sign flip is "the broken symmetry moving the order parameter" (#5 §B; [the order parameter](/wiki/symmetry-breaking/order-parameter)).
 
-The lab notebook also noted that "ρ²: (x,p) → (−x,−p) preserves *all three* structures" and wrote the breaking pattern as ℤ₄ → ℤ₂ = {1, ρ²} [D] (#1 §2). That discrete pattern assumed the rigid η of [the original P2](/wiki/program/postulates/original-p2); since v2.2 the polarization has been a continuous angle ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
+The lab notebook also noted that "ρ²: (x,p) → (−x,−p) preserves *all three* structures" and wrote the breaking pattern as ℤ₄ → ℤ₂ = {1, ρ²} [D] (#1 §2). That discrete pattern assumed the rigid η of [the original P2](/wiki/program/postulates/original-p2); under P2′ the polarization is a continuous angle ([the polarization as a Goldstone angle](/wiki/symmetry-breaking/goldstone-angle)).
 
 ### On the modular field
 
@@ -96,7 +96,7 @@ The blind referees of rounds 1 and 2 turned the distinction into a test. Round 1
 
 > **S1 — symmetry of an action.** An explicit action S[fields] on which ρ acts as a symmetry: S is invariant, not merely related to its image by a unitary equivalence. Invariance is verified symbolically. ('Success criteria')
 
-After [round 3](/wiki/method/review/round-3) the toy became the program's next task, because "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes" (`review/round3-adjudication.md`, 'Decisions' 4; [the 'framework does no work' critique](/wiki/program/framework-does-no-work)). One clause of the original demand is not addressed: the handoff's version asks for η "the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2), and #14's criterion 1 asks for η to select "the hidden sector's electric description" (#14 §6). The worklog's criteria and #11 §14 item 11 omit the clause ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion); [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). Since v2.3, #11 §11.4 has listed it first among what stays open for P.R.'s magnetic-mirror conjecture, as "a mechanism by which one order parameter makes both choices" ([what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
+After [round 3](/wiki/method/review/round-3) the toy became the program's next task, because "Every referee across three rounds converges on 'the framework does no work'. The toy action is the only item that can change that, and it is acceptance criterion 1 for anything the program proposes" (`review/round3-adjudication.md`, 'Decisions' 4; [the 'framework does no work' critique](/wiki/program/framework-does-no-work)). One clause of the original demand is not addressed: the handoff's version asks for η "the order parameter also selecting the electric sublattice" (`HANDOFF.md` §2), and #14's criterion 1 asks for η to select "the hidden sector's electric description" (#14 §6). The worklog's criteria and #11 §14 item 11 omit the clause ([acceptance criterion 1](/wiki/symmetry-breaking/toy-models/acceptance-criterion); [success criteria S0–S5](/wiki/symmetry-breaking/toy-models/success-criteria)). #11 §11.4 lists it first among what stays open for P.R.'s magnetic-mirror conjecture, as "a mechanism by which one order parameter makes both choices" ([what the conjecture needs](/wiki/electric-magnetic-duality/magnetic-identification#what-it-needs)).
 
 ## A realization: the coset toy model
 
@@ -134,7 +134,7 @@ The realization is a consistency check, not a test of P3. It is in d = 1 and 1+1
 
 ## What a symmetric action leaves open: the twisted element
 
-The separate ℤ₂ has a consequence that v1 of the toy-model note did not state. "The twisted element ρ∘(K → −K) maps (1, K₀) to itself. So within the full symmetry group, the vacuum keeps an element that acts on H exactly as ρ does. Breaking ρ is physical only once a coupling odd in K is present" (toy note §2). The round-4 referee raised it, and ruling F3 upheld it: "Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K" (`review/round4-adjudication.md`). An action invariant under ρ is therefore not enough for the breaking of ρ to have physical content: matter must also couple to the sign of K, which is the role of [P4](/wiki/program/postulates/p4-polarized-matter). See [the twisted element](/wiki/symmetry-breaking/twisted-element).
+The separate ℤ₂ has a consequence that the first version of the toy-model note did not state. "The twisted element ρ∘(K → −K) maps (1, K₀) to itself. So within the full symmetry group, the vacuum keeps an element that acts on H exactly as ρ does. Breaking ρ is physical only once a coupling odd in K is present" (toy note §2). The round-4 referee raised it, and ruling F3 upheld it: "Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K" (`review/round4-adjudication.md`). An action invariant under ρ is therefore not enough for the breaking of ρ to have physical content: matter must also couple to the sign of K, which is the role of [P4](/wiki/program/postulates/p4-polarized-matter). See [the twisted element](/wiki/symmetry-breaking/twisted-element).
 
 ## Where the program uses P3
 
@@ -150,7 +150,7 @@ The separate ℤ₂ has a consequence that v1 of the toy-model note did not stat
 - **v1 and the checkpoint**: P3 stated through I = ω⁻¹H (#9 §2; #11 §4).
 - **The soliton manuscript #14**: the unitary-equivalence distinction stated, and a toy action named as acceptance criterion 1 (#14 §1, §6).
 - **2026-10-19**: the coset toy model meets criterion S1, checked in the gate (worklog 'Chunk 1 results').
-- **2026-10-20**: after round 4 (verdict B), v2 of the toy-model note states the twisted element, and #11 v2.2 records the criterion as met in the referees' wording ([review round 4](/wiki/method/review/round-4)).
+- **2026-10-20**: after round 4 (verdict B), version 2 of the toy-model note states the twisted element, and #11 v2.2 records the criterion as met in the referees' wording ([review round 4](/wiki/method/review/round-4)).
 
 ## Sources
 
@@ -165,5 +165,5 @@ The separate ℤ₂ has a consequence that v1 of the toy-model note did not stat
 - `papers/reciprocity-toy-models.md` §1–§2 — model I's fields, action, symmetries and twisted element; §6 — what is not shown
 - `review/round4-adjudication.md` 'Rulings' F3 — the twisted element
 - `verify/toy_coset.py` S1 — the symbolic invariance checks
-- `review/wiki-build-flags.md` item 39 — the two actions of ρ on the spin-2 sector and the parities they give, with its audit verdict; awaiting Paul's ruling
-- `review/wiki-build-flags.md` item 47 and `notes/closed-universe.md` §5 — the scope of "implements it unitarily" once closure is adopted; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 39 — the two actions of ρ on the spin-2 sector and the parities they give, with its audit verdict; pending
+- `review/wiki-build-flags.md` item 47 and `notes/closed-universe.md` §5 — the scope of "implements it unitarily" once closure is adopted; pending

@@ -52,7 +52,7 @@ The notebook's §10 tabulates parameters against phenomena for each sector ([the
 | --- | --- | --- |
 | Dark energy | f, τᵢ (2; V₀ fixed by Ω_DE) | w₀, wₐ, t_turn (3) |
 
-The same table gives the conjugate-matter sector two parameters for five or more phenomena. That row predates the [clumping calculations](/wiki/dark-matter/momentum-clumping) of [calc notes #2–#4](/wiki/history/documents/clumping-notes) (#11 §9), which withdrew old rows 3 and 4, the rows behind two of its phenomena: the stream granularity scale ([Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity)) and friction suppression ([Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction)), both under review since 2026-10-29. The [founding image](/wiki/dark-matter/momentum-clumping/founding-image) the calculations tested has been P.R.'s open conjecture since #11 v2.5. The parameter-table row is not carried into #11, which has no full parameter table. Only the dark-energy row survives as a stated over-constraint.
+The same table gives the conjugate-matter sector two parameters for five or more phenomena. That row predates the [clumping calculations](/wiki/dark-matter/momentum-clumping) of [calc notes #2–#4](/wiki/history/documents/clumping-notes) (#11 §9), which withdrew old rows 3 and 4, the rows behind two of its phenomena: the stream granularity scale ([Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity)) and friction suppression ([Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction)), both under review. The [founding image](/wiki/dark-matter/momentum-clumping/founding-image) the calculations tested is P.R.'s open conjecture. The parameter-table row is not carried into #11, which has no full parameter table. Only the dark-energy row survives as a stated over-constraint.
 
 ## In the assessment
 
@@ -65,7 +65,7 @@ The three observables are not equally accessible.
 - **w₀ and wₐ** are the near-term observables of [row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift), measured from distances by surveys such as the Dark Energy Spectroscopic Instrument (DESI) ([DESI baryon acoustic oscillations](/wiki/cosmology/dark-energy/desi)). On the count above, those two measurements fix f and τᵢ.
 - **t_turn** belongs to [row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion), whose kill column reads "(Long horizon; near-term test is row 4)" (#11 §13). The over-constraint therefore has no near-term test of its own.
 
-The third leg also rests on a point the sources leave unresolved. A turnaround needs the vacuum energy to become negative: "Once τ rolls past V = 0, the effective vacuum energy is negative, expansion halts, and slow contraction begins" (#1 §7 item 3). But V₀[1 + cos(τ/f)] is never negative when V₀ > 0, and no document reconciles the two statements ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). Until that conflict is settled, t_turn is not defined for the potential as written in the flat universe #11's cosmology assumes; in a closed universe it is (next section).
+The third leg also rests on a point the sources leave unresolved. In a flat universe a turnaround needs the vacuum energy to become negative: "Once τ rolls past V = 0, the effective vacuum energy is negative, expansion halts, and slow contraction begins" (#1 §7 item 3). But V₀[1 + cos(τ/f)] is never negative when V₀ > 0, and no document reconciles the two statements ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign); flag 27 in `review/wiki-build-flags.md`). Until that conflict is settled, t_turn is not defined for the potential as written in the flat universe #11's cosmology assumes; in a closed universe it is (next section).
 
 The near-term legs are also under pressure. The second DESI data release favours a w(z) that crosses below −1 at [redshifts](/wiki/cosmology/scale-factor-duality/redshift) above about 0.4, which τ cannot produce ([DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)); per the root `CLAUDE.md`, "The dark-energy sector is under real pressure ahead of DR3", DR3 being DESI's Data Release 3.
 
@@ -79,25 +79,25 @@ t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^(−3/2)/H₀
 
 with Ω_d τ's dust-like density referred to today and Ω_k the curvature density parameter, negative for a closed universe. At fixed (w₀, wₐ), t_turn ∝ |Ω_k|^{−3/2}, so Ω_k is a third input beside (f, τᵢ). The script checks the scaling from two histories with the same (w₀, wₐ) at |Ω_k| = 10⁻³ and 10⁻⁴, which give a logarithmic slope of −1.5 ([the closed-universe script](/wiki/method/verification/closed-universe-script)).
 
-Flag 46 states the consequence: Ω_k can be measured, so "the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing", a wording one of its two auditors added. "But the data bound t_turn only from below (t_turn > 5×10⁵ Gyr given closure), so the turnaround time can never test the count." The note's bound at 95% given closure is t_turn > 6.015×10⁵ Gyr for the second data release of the Dark Energy Spectroscopic Instrument with the cosmic microwave background, and the curvature data themselves disfavour closure at about 2σ in the program's model class (§2, §3; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#what-the-data-say)). In this wiki's reading the count therefore keeps two near-term legs, w₀ and wₐ, and a third that the data cannot reach.
+Flag 46 states the consequence: Ω_k can be measured, so "the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing", a wording one of its two auditors added. "But the data bound t_turn only from below (t_turn > 5×10⁵ Gyr given closure), so the turnaround time can never test the count." The note's bounds at 95% given closure are t_turn > 6.015×10⁵ Gyr for the second data release of the Dark Energy Spectroscopic Instrument with the cosmic microwave background and t_turn > 5.441×10⁵ Gyr for its fit of the corridor with free curvature, and the curvature data themselves disfavour closure at about 2σ in the program's model class (§2, §3; [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#what-the-data-say)). In this wiki's reading the count therefore keeps two near-term legs, w₀ and wₐ, and a third that the data cannot reach.
 
 ## History
 
 - **v0.1 (#1 §7 item 4; §10).** The count is stated [D] and tabulated.
 - **v1 (#9 §8; §11).** The count with its premise, "V₀ fixed by Ω_DE", and the over-constraint among the progressive signs.
-- **#11 (§10; §15).** Unchanged in every version from v2.0 to v2.5.
+- **#11 (§10; §15).** Unchanged in every version.
 - **The closed-universe note (2026-10-27, §2).** In a closed universe Ω_k is a third input, and the data bound t_turn only from below (flag 46). Not reviewed.
 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §10 — the current statement
 - `papers/broken-born-checkpoint-v2.md` §15 — the over-constraint as a progressive sign
-- `papers/broken-born-checkpoint-v2.md` §13 rows 4–5 — the near-term and long-horizon tests; the list of withdrawn predictions, with old rows 3 and 4 "under P.R.'s review, not dead (v2.5)"
-- `papers/broken-born-checkpoint-v2.md` §9 — the clumping calculations, and 'Status (v2.5)': matter clumping in momentum space as P.R.'s open conjecture
+- `papers/broken-born-checkpoint-v2.md` §13 rows 4–5 — the near-term and long-horizon tests; the list of withdrawn predictions, with old rows 3 and 4 under review
+- `papers/broken-born-checkpoint-v2.md` §9 — the clumping calculations, and matter clumping in momentum space as P.R.'s open conjecture
 - `notes/broken-born-theory.md` §3 — the action and potential; §7 item 4 — the derivation and its tag; item 3 — the turnaround needs negative vacuum energy
 - `notes/broken-born-theory.md` §10 — the per-sector parameter count
 - `notes/broken-born-program-v1.md` §8 — "V₀ fixed by Ω_DE, two remaining parameters (f, τᵢ) for three observables"; §11 — "one over-constraint in the DE sector"
 - `CLAUDE.md` 'Since the handoff' — "under real pressure ahead of DR3"
 - `notes/closed-universe.md` §2, §3 — t_turn in a closed universe, Ω_k as a third input, the lower bounds; computed, not reviewed
 - `verify/closed_universe.py` section B — the over-constraint pair and the slope −1.5
-- `review/wiki-build-flags.md` items 27 (addendum) and 46 — the closed turnaround and the moved over-constraint; awaiting Paul's ruling
+- `review/wiki-build-flags.md` items 27 (addendum) and 46 — the closed turnaround and the moved over-constraint; pending

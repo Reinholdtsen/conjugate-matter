@@ -6,7 +6,7 @@ description: "Collisionless kinetic theory: the Vlasov equation, linear response
 provenance: [T]
 sources:
   - "notes/stream-stability.md 'Setup'"
-  - "notes/stream-stability.md 'Limit 1 (broad gate)'"
+  - "notes/stream-stability.md 'Limit 1 — broad gate'"
   - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
   - "notes/broken-born-theory.md §5.2"
 ---

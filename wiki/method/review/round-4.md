@@ -2,11 +2,12 @@
 title: "Review round 4"
 weight: 70
 status: record
-description: "The blind review of the toy-model note on 2026-10-19/20: the forecast and its score; the referee's citation audit, re-derivations and Monte Carlo; findings F1–F6 and the other rulings; the six revisions applied in v2, where v2 departs from them, and the two lessons."
+description: "The blind review of the toy-model note on 2026-10-19/20: the forecast and its score; the referee's citation audit, re-derivations and Monte Carlo; findings F1–F6 and the other rulings; the six revisions applied in version 2, where version 2 departs from them, and the two lessons."
 sources:
   - "review/round4-adjudication.md"
   - "review/round4-preregistration.md"
   - "review/round4/referee/audit-notes.md Step 1–Step 4"
+  - "review/round4/referee/out_model2_quantum.txt"
   - "review/round4/adjudicator/arb.out"
   - "review/round4/adjudicator/ctrl.out"
   - "papers/reciprocity-toy-models.md Abstract"
@@ -28,7 +29,7 @@ sources:
 
 *Review round 4 was the blind review of the toy-model note, `papers/reciprocity-toy-models.md`, which builds two explicit field theories in which Born reciprocity is a symmetry of the action and asks whether the lowest-energy state breaks it. A fresh referee that could execute code reproduced the note's algebra and most of its numerics, but found that the note's one claim of quantum symmetry breaking rested on a potential that is unbounded below once the field H is allowed to vary. It graded the note B, flawed but salvageable, and the author agreed; the pre-registered forecast had also been B, though it had placed the weakest link correctly and underestimated how serious it was. Every revision was accepted; version 2 of the note applied them on 2026-10-20, with three departures, and the round added two rules to the project's method.*
 
-**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (toy note v2 and #11 v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A further review of the note, which would be round 6 because round 5 went to the phase-space-diameter note, is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
+**Status:** Record — untagged. The record is `review/round4-adjudication.md`, with the referee's notes, scripts and outputs in `review/round4/referee/` and the arbitration in `review/round4/adjudicator/`. The revisions were applied in commit 6606734 (version 2 of the note and #11 v2.2), with the departures listed under [the revisions and version 2](#the-revisions-and-version-2). A further review of the note, which would be round 6 because round 5 went to the phase-space-diameter note, is optional, "but only before any external use" (root `CLAUDE.md`, 'Since the handoff').
 
 ## The manuscript under review
 
@@ -111,7 +112,7 @@ The repair came from the referee. Dividing by 2 Tr KᵀK, a measure of the size 
 V_b = −μ[Tr(K K_ref)]² / (2 Tr KᵀK)
 ```
 
-The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." The wiki recorded the naive potential as dead; since Paul's answers of 2026-10-29 it has been under review, not dead ([Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), listed in [claims under review](/wiki/status/under-review)). The rulings stand as results ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
+The referee sampled it at 141227 points of the hyperboloid and found it between −0.99999913 and −1.26e-05 (in units of μ), and ρ-invariant. With H dynamical, the adjudicator's Hessian at (1, K₀) has eigenvalues [0, 0.764, 2, 5.236], and along the runaway family V_b now rises from −1 to −0.5. The ruling: "**This is the repair.** I should have caught F1 myself: I checked the potential only at frozen H." The naive potential is under review ([Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential), listed in [claims under review](/wiki/status/under-review)). The rulings stand as results ([the bounded potential V_b](/wiki/symmetry-breaking/toy-models/coset-model/bounded-potential)).
 
 **The zero mode: a conflict between the sources.** The adjudication's F2 ruling calls the zero eigenvalue "the residual diagonal squeeze, which is an exact symmetry". Version 2 of the note says "It is not symmetry-protected, because V_b breaks the squeeze away from K = ±K_ref" (§4). Version 2 ranks higher, and the wiki follows it; a symbolic check made during the wiki build found V_b not squeeze-invariant off K = ±K_ref (flag 12 in `review/wiki-build-flags.md`).
 
@@ -121,7 +122,7 @@ The referee sampled it at 141227 points of the hyperboloid and found it between 
 
 The action of model I is invariant under Sp(2,ℝ) and, separately, under the flip K → −K. The referee showed that the combination ρ∘(K → −K) leaves the vacuum (1, K₀) unchanged; the adjudicator's script confirms it ("fixed: True"). Without matter, saying that ρ is broken or that K → −K is broken is then "a labelling choice", in the referee's words. The ruling, "**Upheld**": "Breaking ρ means something physically only once a coupling odd in K breaks the K → −K symmetry, for example P4-type matter through I_K. This sharpens the S5 conclusion rather than contradicting it." ([the twisted element ρ∘(K → −K)](/wiki/symmetry-breaking/twisted-element); [P4](/wiki/program/postulates/p4-polarized-matter)).
 
-Version 2 states the caveat in its abstract and §2. Its §5 then says "**I is odd in K**, so it breaks the K → −K symmetry". Flag 2 in `review/wiki-build-flags.md` notes that I ≥ 0, so the two values show only that I is not invariant under K → −K; the requirement as the adjudication words it is unaffected.
+Version 2 states the caveat in its abstract and §2. Its §5 then says "**I is odd in K**, so it breaks the K → −K symmetry". Flag 2 in `review/wiki-build-flags.md` notes that I ≥ 0, so the two values show only that I is not invariant under K → −K; the requirement as the adjudication words it is unaffected, though the flag's audit adds that F3, "citing I_K as its example of a K-odd coupling, shares the slip".
 
 ### F4: the real model's one-loop preference
 
@@ -139,12 +140,12 @@ The note's matter coupling is a functional of a state's [Wigner function](/wiki/
 
 For complex model II the note had argued that the classical breaking does not survive quantization, and that "Increasing the truncation adds only massive levels." The referee (Step 2(c)): that sentence "omits mass renormalisation". At one loop the level-0 tadpole grows with the truncation N, so "At fixed bare mu^2 the low-level condensate is destroyed at large N; mu^2 must be renormalised with N." It "Does not change the no-SSB conclusion", the conclusion that there is no [spontaneous symmetry breaking](/wiki/symmetry-breaking/spontaneous-symmetry-breaking). The ruling, "**Accepted, not re-checked**": "2D φ⁴ needs mass renormalization. The no-breaking conclusion is unaffected; the argument must be restated." The referee also found the restoration "stronger than stated": the action is invariant under independent diagonal unitaries, so every condensate phase is an exact flat direction at any truncation ([quantum restoration in the complex model](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration)).
 
-The sources disagree on the coefficient of the growth, and none reconciles them (flag 11 in `review/wiki-build-flags.md`):
+The documents write the coefficient of the growth differently, and none of them compares the two:
 
-- **2 ln N**: the referee, from the sum 2 Σ_k (G_0k + G_k0), with "T_0(N) - 2 ln N -> -0.8455 (N=10^5)"; and the adjudication, whose revision 4 asks for "the 2 ln N mass renormalization".
+- **2 ln N**: the referee, whose T₀(N) = Σ_k (G₀ₖ + Gₖ₀) gives "T_0(N) - 2 ln N -> -0.8455 (N=10^5)" (audit notes, Step 2(c); `review/round4/referee/out_model2_quantum.txt`); and the adjudication, whose revision 4 asks for "the 2 ln N mass renormalization".
 - **ln N**: version 2, "The level-0 tadpole grows as ln N (it is a harmonic sum)" (§4); the toy worklog ("the ln N tadpole"); and the gate, which checks a single harmonic series, "sum_{k<N} 1/(k+1) - ln N -> Euler's gamma" (`verify/toy_gw.py`).
 
-Both agree that the growth is logarithmic and that the conclusion stands ([the coefficient: ln N or 2 ln N](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#the-coefficient-ln-n-or-2-ln-n)).
+The audit of flag 11 in `review/wiki-build-flags.md` separates them: "The level-0 tadpole holds two equal harmonic sums (row, column): Σ_k(G0k+Gk0) ≈ 2 ln N is the referee's T₀; one sum ≈ ln N is the note's; the averaged vertex is ≈ 4 ln N. Normalization only." The averaged vertex is the referee's "2 sum_k (G_0k + G_k0)", twice T₀, which its notes set beside the 2 ln N (Step 2(c)). Both readings agree that the growth is logarithmic and that the conclusion stands ([the coefficient: ln N or 2 ln N](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration#the-coefficient-ln-n-or-2-ln-n)).
 
 ### The Monte Carlo control and start conditions
 
@@ -209,9 +210,9 @@ Version 2 departs from the list in three places:
 
 - the zero mode, "not symmetry-protected" where the adjudication said "exact" (flag 12);
 - the tadpole, ln N where the adjudication said 2 ln N (flag 11);
-- the Langmann–Szabo–Zarembo comparison, of which v2 says: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4).
+- the Langmann–Szabo–Zarembo comparison, of which version 2 says: "The exact solution of the related model [8] is the natural independent check. We have not carried it out." (§4).
 
-In the third, a requested step was not taken: revision 4 asked for the comparison, and v2 did not make it. The adjudication's heading nevertheless reads "all accepted; applied", and the worklog lists "v2 applies every accepted revision" (flag 42 in `review/wiki-build-flags.md`, confirmed by the flags' audit).
+In the third, a requested step was not taken: revision 4 asked for the comparison, and version 2 did not make it. The adjudication's heading nevertheless reads "all accepted; applied", and the worklog lists "v2 applies every accepted revision" (flag 42 in `review/wiki-build-flags.md`, confirmed by the flags' audit).
 
 The toy worklog records the outcome and the decision on a further round: "No round 5 for now. v2 fixes and narrows claims rather than adding new ones; the real-model lead is labelled as a lead." (`notes/toy-lagrangian.md`, 'Write-up and review'). #11 v2.2 §14 item 11 records the criterion as "Met in the referees' wording by the coset model of (H, K) with a bounded ρ-preserving potential", ending "Round-4 blind review: verdict B; v2 applies the accepted revisions."
 
@@ -234,19 +235,20 @@ The record of the round is `review/round4-preregistration.md`, `review/round4-ad
 - **Whether ρ's SO(2) breaks** in the coupled model, raised by the Mermin–Wagner ruling.
 - **The Langmann–Szabo–Zarembo comparison**, asked for by revision 4 and not carried out (flag 42).
 - **A round-6 review** of the note, optional, "but only before any external use" (root `CLAUDE.md`; [round 5](/wiki/method/review/round-5) reviewed the phase-space-diameter note).
-- **The naive potential**: under review, not dead, until Paul reviews it with Claude ([claims under review](/wiki/status/under-review)).
+- **[The naive potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential)**: under review ([claims under review](/wiki/status/under-review)).
 
 ## Sources
 
 - `review/round4-adjudication.md` — the verdict, rulings F1–F6 and the rest, the scoring, the lessons and the revisions
 - `review/round4-preregistration.md` — the forecast and the neutral commit subject
 - `review/round4/referee/audit-notes.md` Step 1–Step 4 — the citation audit, omitted prior work, confirmations, findings, conceptual audit and verdict
+- `review/round4/referee/out_model2_quantum.txt` — the referee's T₀(N)
 - `review/round4/adjudicator/arb.out`, `review/round4/adjudicator/ctrl.out` — the arbitration numbers
 - `papers/reciprocity-toy-models.md` Abstract, §3, §4, §5, §6 — version 2: the zero mode, the ln N tadpole, the F4 truncations, the Monte Carlo method and values, the uncompleted comparison, "odd in K"
 - `papers/broken-born-checkpoint-v2.md` §14 item 11 — the criterion met in the referees' wording; the round's outcome
 - `notes/toy-lagrangian.md` 'Write-up and review (2026-10-19/20)' — the revisions as applied; no round 5 for now
 - `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s4.py`, `verify/toy_s5.py` — the gated checks of the findings
-- `CLAUDE.md` 'Since the handoff (2026-10-19)', 'Method (HANDOFF §5)' — the open ends, round 6 optional, the two lessons, and the naive potential among the claims under review since 2026-10-29
+- `CLAUDE.md` 'Since the handoff (2026-10-19)', 'Method (HANDOFF §5)' — the open ends, round 6 optional, the two lessons, and the naive potential among the claims under review
 - `review/round3-adjudication.md` 'Decisions' (4) — why the toy Lagrangian came next
 - `HANDOFF.md` §8 item 4 — the toy Lagrangian as the gate to verdict A
-- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13, 38, 42 — suspected source errors bearing on this round, among them where the arbitration scripts belong (38) and the revision recorded as applied that v2 did not carry out (42)
+- `review/wiki-build-flags.md` items 2, 10, 11, 12, 13, 38, 42 — suspected source errors bearing on this round, among them where the arbitration scripts belong (38) and the revision recorded as applied that version 2 did not carry out (42)

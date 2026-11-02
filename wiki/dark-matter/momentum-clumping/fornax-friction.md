@@ -2,7 +2,7 @@
 title: "Under review: Fornax friction suppression (old row 4)"
 weight: 90
 status: under-review
-description: "Suppressed dynamical friction in condensed cores, which would have let Fornax's globular clusters stay put; withdrawn with the condensed cores that carried it, and under review since 2026-10-29."
+description: "Suppressed dynamical friction in condensed cores, which would have let Fornax's globular clusters stay put; withdrawn with the condensed cores that carried it, and under review."
 sources:
   - "CLAUDE.md 'Since the handoff'"
   - "notes/ufd-endpoint.md 'Verdict and closure'"
@@ -17,9 +17,9 @@ sources:
   - "notes/broken-born-program-v1.md §9"
 ---
 
-*Fornax friction suppression was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that dark matter in the cores of dwarf galaxies condenses into a superfluid-like state in which dynamical friction, the drag that makes a massive body sink toward the centre of a galaxy, is suppressed. It would have explained why the globular star clusters of the Fornax dwarf galaxy have not sunk to its centre, the Fornax timing problem, and it was row 4 of the notebook's [prediction table](/wiki/predictions/table-history). The condensed cores came from the same velocity-space condensation as the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping, so when the tests of [the clumping problem](/wiki/history/main-problems) went against that picture, the row was withdrawn, "permanently" in calc note #4's words. Recorded dead before 2026-10-29, the row is now under review, not dead, until Paul reviews it with Claude; the founding image itself is his open conjecture again.*
+*Fornax friction suppression was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that dark matter in the cores of dwarf galaxies condenses into a superfluid-like state in which dynamical friction, the drag that makes a massive body sink toward the centre of a galaxy, is suppressed. It would have explained why the globular star clusters of the Fornax dwarf galaxy have not sunk to its centre, the Fornax timing problem, and it was row 4 of the notebook's [prediction table](/wiki/predictions/table-history). The condensed cores came from the same velocity-space condensation as the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping, so when the tests of [the clumping problem](/wiki/history/main-problems) went against that picture, the row was withdrawn, "permanently" in calc note #4's words. The founding image itself is P.R.'s open conjecture.*
 
-**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). Withdrawn on the particle island in `notes/stream-stability.md` and on both islands in `notes/ufd-endpoint.md` ("The Fornax mechanism goes with them"); [#11](/wiki/history/documents/checkpoint) v2.5 §13 lists "Fornax friction suppression (§9)" as "Withdrawn and under P.R.'s review, not dead (v2.5)". Untagged in the sources. It was withdrawn on the results of the clumping problem, which tested the founding image, now P.R.'s open conjecture (#11 §9); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) summarizes those results. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [claims under review](/wiki/status/under-review).
+**Status:** Under review — the evidence below weighs against it, and its final status awaits review. Withdrawn on the particle island in `notes/stream-stability.md` and on both islands in `notes/ufd-endpoint.md` ("The Fornax mechanism goes with them"); [#11](/wiki/history/documents/checkpoint) §13 lists "Fornax friction suppression (§9)" among the rows withdrawn and under review. Untagged in the sources. It was withdrawn on the results of the clumping problem, which tested the founding image, P.R.'s open conjecture (#11 §9); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) summarizes those results. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [claims under review](/wiki/status/under-review).
 
 ## What was claimed
 
@@ -60,7 +60,7 @@ For dark-matter particles of MeV to GeV mass, [the mean-field criterion](/wiki/d
 
 ### Wave island: no placid condensate
 
-Collective behaviour survives only for wave-like dark matter, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)). There, under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), condensation is mandatory only in ultra-faint dwarfs; for a "Classical dwarf core" #3's table gives a ratio of [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) to orbital stirring of "~10⁻²", so condensation loses to stirring there. The notes do not apply this row to Fornax by name. Where condensation is mandatory, the endpoint is not a stable superfluid core: "Because the interaction is **attractive**, the endpoint is not a placid stream: a growing condensate with attractive self-interaction has a critical mass … above which it collapses (bosenova)" (#3; [attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates)). #4 follows the collapses to a drain of the galaxy's dark matter, which observation excludes (Scenario A has been under review since 2026-10-29). Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) the coupling is free and condensation is optional, so it can carry no prediction.
+Collective behaviour survives only for wave-like dark matter, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)). There, under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), condensation is mandatory only in ultra-faint dwarfs; for a "Classical dwarf core" #3's table gives a ratio of [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) to orbital stirring of "~10⁻²", so condensation loses to stirring there. The notes do not apply this row to Fornax by name. Where condensation is mandatory, the endpoint is not a stable superfluid core: "Because the interaction is **attractive**, the endpoint is not a placid stream: a growing condensate with attractive self-interaction has a critical mass … above which it collapses (bosenova)" (#3; [attractive condensates](/wiki/dark-matter/wave-dark-matter/attractive-condensates)). #4 follows the collapses to a drain of the galaxy's dark matter, which observation excludes (Scenario A is under review). Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) the coupling is free and condensation is optional, so it can carry no prediction.
 
 ### The withdrawal
 
@@ -68,12 +68,12 @@ Collective behaviour survives only for wave-like dark matter, on the [wave islan
 
 ## What stands
 
-The row remains withdrawn and is under review. While it is withdrawn, the Fornax timing problem is an astrophysical question to which the program offers no answer. On the particle island, the program's dwarf-galaxy cores come from gated scattering, as in [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter): the scattering benchmark is a fit of the cross-section to dwarf cores, and the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) of that cross-section is [row 1](/wiki/predictions/self-interaction-knee) of the current table. Whether a cored halo produced that way changes dynamical friction is not addressed in the sources.
+The row is withdrawn and is under review. While it is withdrawn, the Fornax timing problem is an astrophysical question to which the program offers no answer. On the particle island, the program's dwarf-galaxy cores come from gated scattering, as in [self-interacting dark matter](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter): the scattering benchmark is a fit of the cross-section to dwarf cores, and the [knee](/wiki/dark-matter/conjugate-matter/scattering-law) of that cross-section is [row 1](/wiki/predictions/self-interaction-knee) of the current table. Whether a cored halo produced that way changes dynamical friction is not addressed in the sources.
 
 ## In the later tables
 
-- #9 §9: "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)."
-- #11 §13, since v2.5: "Withdrawn with cause: #14's superheavy-soliton model (§12; dead, with P.R.'s concurrence of 2026-10-29). Withdrawn and under P.R.'s review, not dead (v2.5): velocity-space granularity in halos; Fornax friction suppression (§9)." The first item is [#14's model](/wiki/dark-matter/candidates/soliton-candidate/obituary). Until v2.4 the line read "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)", and until v2.3 its last item read "superheavy-soliton dark matter (obituary §12)".
+- #9 §9 lists the row, with velocity-space granularity in halos, as "Withdrawn with cause, permanently" (rows 3–4 of earlier versions; the cause is in #9 §7).
+- #11 §13 lists the same two rows as withdrawn and under review. Its one withdrawal with cause is [#14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary).
 
 In #9 and #11, row 4 is [thawing dark energy](/wiki/predictions/dark-energy-drift), so this wiki calls the notebook's row "old row 4" ([history of the predictions table](/wiki/predictions/table-history)). Its companion is [old row 3](/wiki/dark-matter/momentum-clumping/velocity-granularity).
 
@@ -85,9 +85,9 @@ Added by the wiki from model memory (†):
 
 ## Sources
 
-- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — "Restore all pending": Fornax friction suppression is under review, not dead, until he reviews it
+- `CLAUDE.md` 'Since the handoff' — Fornax friction suppression under review
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the withdrawal, "permanently withdrawn" in its words: "The Fornax mechanism goes with them"
-- `papers/broken-born-checkpoint-v2.md` §13 — "Withdrawn and under P.R.'s review, not dead (v2.5)", and "Withdrawn with cause" until v2.4; §9 — the founding image as P.R.'s open conjecture ('Status (v2.5)')
+- `papers/broken-born-checkpoint-v2.md` §13 — the row, withdrawn and under review; §9 — the founding image as P.R.'s open conjecture
 - `notes/stream-stability.md` 'Consequences for the predictions table' — withdrawal on the particle island
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the classical-dwarf ratio and the attractive endpoint
 - `notes/broken-born-theory.md` §9 — the row as written; §5.2 — the condensed-core mechanism; §10 — the parameter count; 'Addendum (v0.2)' — the strike

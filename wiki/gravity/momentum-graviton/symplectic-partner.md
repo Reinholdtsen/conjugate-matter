@@ -143,4 +143,4 @@ The first popular article puts a date on the asymmetry: "(As a side effect, this
 - `notes/broken-born-program-v1.md` §5, §11 — the v1 statement and its "two results" count.
 - `HANDOFF.md` §3 — the inventory entry for calc note #6.
 - `popsci/angle-of-the-mirror.md` 'What refused to die' — the popular article's "forty-year asymmetry".
-- `review/wiki-build-flags.md` item 15 — #6 §2's "η antisymmetric-pairing vs ω", which reads as calling η antisymmetric; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 15 — #6 §2's "η antisymmetric-pairing vs ω", which reads as calling η antisymmetric (pending).

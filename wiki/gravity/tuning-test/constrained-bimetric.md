@@ -28,6 +28,8 @@ sources:
   - "notes/knot-dark-matter-standalone.md §1"
   - "HANDOFF.md §2"
   - "review/wiki-build-flags.md item 8"
+  - "notes/closed-universe.md §6"
+  - "review/round5-adjudication.md 'Rulings' R1"
 ---
 
 *Constrained bimetric gravity is the picture of the program's gravity that [the tuning test](/wiki/gravity/tuning-test) leaves. [Hassan–Rosen bimetric gravity](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) is a [ghost-free](/wiki/gravity/spin-2-fields/ghosts) theory of two interacting metrics, each with its own dynamics. In the program's version the second frame is not a free field: it is the polarization frame, built from the [polarization J](/wiki/symmetry-breaking/order-parameter), and J ranges only over the compact space [Λ(d)](/wiki/phase-space/modular-field/lagrangian-grassmannian) of splittings of phase space into position and momentum, which is ten-dimensional at d = 4. [Calc note #7](/wiki/history/documents/field-equation-notes) calls the result a predictive truncation of bimetric theory, with fewer free functions. In it the massless combination of the two spin-2 fields is the ordinary graviton, the massive one is the [momentum graviton X](/wiki/gravity/momentum-graviton), and the light direction of the compact space is the [dark-energy field τ](/wiki/phase-space/modular-field/maslov-phase). [Reciprocity](/wiki/phase-space/reciprocity/born-reciprocity) then restricts the potential to its [palindromic branch](/wiki/gravity/palindromic-branch), and with the condition for a flat vacuum two free parameters remain. The picture is a structural derivation; the standard bimetric facts it uses come from the literature, and nothing in it is machine-checked.*
@@ -92,7 +94,7 @@ dRGT is de Rham–Gabadadze–Tolley ([dRGT massive gravity](/wiki/gravity/spin-
 ## Scope and what is open
 
 - **Structural, not computed.** The picture is [D — structural] and the bimetric facts [T]; no [battery](/wiki/method/verification/battery) test covers it. #11 cites the bimetric literature from model memory, pending the literature check ([Open: the † literature battery (OP10)](/wiki/method/literature-battery)).
-- **The second frame is selected.** The frame-tier potential that defines the coupling was selected by minimality and consistency, not derived from the geometric action ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)). No document writes E₀[J] out explicitly.
+- **The second frame is selected.** The frame-tier potential that defines the coupling was selected by minimality and consistency, not derived from the geometric action ([Open: deriving the wedge sector from S_H (OP1)](/wiki/gravity/tuning-test/wedge-reduction)). No document writes E₀[J] out explicitly. Whether it is a frozen background is unsettled as well: the record never defines it "beyond 'the polarization frame' on compact moduli", and the closed-universe note, which takes f as dynamical at equal Planck masses, finds that a frozen f contradicts them, while round-5 ruling R1 holds the question open (`notes/closed-universe.md` §6; [if f were frozen](/wiki/gravity/momentum-graviton/closed-universe#if-f-were-frozen-dv)).
 - **Euclidean skeleton.** The field-equation results are derived for a positive-definite metric ([Open: Lorentzian dressing (OP3)](/wiki/phase-space/born-geometry/lorentzian-dressing)).
 - **τ and the eaten modes.** Residual mixing of τ with the modes X absorbs is open problem 6, "τ–Stückelberg mixing matrix [O]" (#11 §14; [Open: τ–Stückelberg mixing (OP6)](/wiki/gravity/momentum-graviton/tau-stuckelberg-mixing)).
 - **[Equal Planck masses](/wiki/gravity/spin-2-fields/planck-units#equal-planck-masses-in-the-bimetric-sector).** The symmetry that fixes the branch also forces "equal effective Planck masses" for the two metrics (#8 §3). The standalone manuscript #14, since withdrawn for unrelated reasons ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)), lists "the stability of a heavy spin-2 field at equal Planck masses" as "an open consistency condition" (#14 §1). #11 §14 does not list it ([Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability)).
@@ -116,4 +118,5 @@ dRGT is de Rham–Gabadadze–Tolley ([dRGT massive gravity](/wiki/gravity/spin-
 - `notes/broken-born-program-v1.md` §5 — the v1 statement with Λ(4).
 - `notes/knot-dark-matter-standalone.md` §1 — stability at equal Planck masses as an open condition.
 - `HANDOFF.md` §2 — the handoff's one-screen statement.
-- `review/wiki-build-flags.md` item 8 — "five-function" for five constant coefficients; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 8 — "five-function" for five constant coefficients; pending.
+- `notes/closed-universe.md` §6 and `review/round5-adjudication.md` 'Rulings' R1 — f taken as dynamical, a frozen f against the record's equal Planck masses, and E₀[J] left undefined.

@@ -116,4 +116,4 @@ Added by the wiki from model memory (†):
 - `notes/tuning-test.md` §1, §2, §3 — the test; linearity in the eₙ and the metric-tier failures; the frame tier, "dRGT structure inherited rather than tuned"; what a pass does not deliver.
 - `notes/beta-coefficients.md` §1, §5 — the potential in the program's notation; the class selected, not derived.
 - `notes/broken-born-theory.md` 'Addendum (v0.4)', 'Addendum (v0.5)' — the reduction to one tuning computation; the verdict as first recorded.
-- `review/wiki-build-flags.md` items 7, 14 — item 7: "the unique consistent structure" without the "known" of #6 §3; item 14: which square root's eigenvalues give Tr(g²); awaiting Paul's ruling.
+- `review/wiki-build-flags.md` items 7, 14 — item 7: "the unique consistent structure" without the "known" of #6 §3; item 14: which square root's eigenvalues give Tr(g²); both pending.

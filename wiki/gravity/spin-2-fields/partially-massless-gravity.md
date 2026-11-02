@@ -81,7 +81,7 @@ The reference, as the checkpoint lists it:
 
 - [24][S] Partially massless bimetric gravity and its exchange-symmetric parameter point, arXiv:1609.09515.
 
-The checkpoint gives this descriptive title and no authors (see flag 9 in `review/wiki-build-flags.md`), and the [handoff](/wiki/history/documents/handoff) cites the arXiv number without a mark (HANDOFF §2, §8). The wiki does not supply the authors.
+The checkpoint gives this descriptive title and no authors (see flag 9 in `review/wiki-build-flags.md`), and the [handoff](/wiki/history/documents/handoff) cites the arXiv number without a mark (HANDOFF §2, §8). The flag's audit names the paper: Apolo, Hassan and Lundkvist, "Gauge and global symmetries of the candidate partially massless bimetric gravity," Phys. Rev. D 94, 124055 (2016). It checked the record and the abstract's subject, not that the paper contains what #11 §7.4 cites it for ([the comparison](/wiki/gravity/palindromic-branch/pm-comparison)).
 
 ## Inside the palindromic branch
 
@@ -103,7 +103,7 @@ The program's vacuum-energy identity selects its own point of the branch. "Note 
 
 The literature check that found this point downgraded the identity's novelty. The handoff's one-screen state records that the partially massless bimetric point "(arXiv:1609.09515) is g↔f symmetric and sits inside the palindromic branch; Hossenfelder arXiv:0807.2838 has a different exchange-symmetric cancellation. Detailed comparison still to do." (HANDOFF §2). The checkpoint downgraded the novelty claim "from 'likely standalone result' to 'requires detailed comparison with the PM and exchange-symmetric literature'" (#11 §7.4). Hossenfelder's theory, reference [25S] of the checkpoint, cancels vacuum energy by a different mechanism, "where twin-sector source terms cancel identically"; the program's identity "is sector-internal (no twin matter required) and, to our current knowledge, distinct" (#11 §7.4).
 
-The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed comparison of the palindromic branch with partially-massless bimetric [24S]; is reciprocity the origin of the PM symmetry? Convention-careful check of the vacuum-energy identity against [24S, 25S] — the queued novelty audit [O]" (#11 §14). The handoff's queue named three comparisons: "arXiv:1609.09515 / 0807.2838 / the Schmidt-May–von Strauss review's no-protecting-symmetry statement" (HANDOFF §8 item 5); the third belongs to [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem). Since the handoff the comparison has been part of item 1 of the current queue (`CLAUDE.md`, "Since the handoff"). It has its own page, [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison), and is listed with the program's [open problems](/wiki/status/open-problems).
+The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed comparison of the palindromic branch with partially-massless bimetric [24S]; is reciprocity the origin of the PM symmetry? Convention-careful check of the vacuum-energy identity against [24S, 25S] — the queued novelty audit [O]" (#11 §14). The handoff's queue named three comparisons: "arXiv:1609.09515 / 0807.2838 / the Schmidt-May–von Strauss review's no-protecting-symmetry statement" (HANDOFF §8 item 5); the third belongs to [the cosmological-constant problem](/wiki/gravity/spin-2-fields/cosmological-constant-problem). The comparison is part of item 1 of the current queue (`CLAUDE.md`, "Since the handoff"). It has its own page, [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison), and is listed with the program's [open problems](/wiki/status/open-problems).
 
 ## Standard references
 
@@ -129,5 +129,5 @@ The comparison is open problem 2 of the checkpoint: "**PM-adjacency:** detailed 
 - `review/round3/referee/audit-notes.md` Step 1 — Higuchi's abstract and the conversion with Λ = 3H².
 - `notes/x-classification.md` §3 — the five polarizations of a massive spin-2 field.
 - `notes/beta-coefficients.md` §1, §3 — the palindromic constraint; equal effective Planck masses forced by reciprocity.
-- `review/wiki-build-flags.md` item 9 — reference [24][S], with no authors and a title that may be descriptive; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 9 — reference [24][S], with no authors and a descriptive title; the audit names the paper (pending).
 - `notes/closed-universe.md` §6; `review/wiki-build-flags.md` item 53 — the Higuchi bound through the dressed mass

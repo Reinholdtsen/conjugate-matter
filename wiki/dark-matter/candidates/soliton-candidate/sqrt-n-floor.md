@@ -2,7 +2,7 @@
 title: "Under review: the √N topological floor (chat-only)"
 weight: 70
 status: under-review
-description: "A chat-only bound on the relic abundance between a 'Kibble ceiling' and a √N net-charge floor, dropped because its premise is inverted and, with #14's model retired, no candidate was left for it; the strong-coupling annihilation question it addressed."
+description: "A chat-only bound on the relic abundance between a 'Kibble ceiling' and a √N net-charge floor, whose queued calculation was dropped because its premise is inverted and, with #14's model retired, no candidate was left for it; the strong-coupling annihilation question it addressed."
 sources:
   - "review/round3-adjudication.md 'Decisions' 3"
   - "review/round3-adjudication.md 'Decisions' 2"
@@ -26,9 +26,9 @@ sources:
   - "review/wiki-build-flags.md item 21"
 ---
 
-*The √N topological floor was an argument, made only in the claude.ai chat that preceded this repository, about how many of the monopoles of #14's soliton model could survive annihilation in the early universe. A monopole and an antimonopole that meet can annihilate, and at the strong magnetic coupling of the model's [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [about 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling), that annihilation might have been fast enough to deplete them. The floor argument held that the Kibble mechanism leaves a net topological charge that annihilation cannot remove, so the surviving abundance would lie between a Kibble "ceiling" and that floor. It was never written into any document. In round 3 the referee showed that Kibble's count is a minimum, not a ceiling, and that annihilation at this coupling has already been worked out for hidden sectors; with #14's model retired, the planned calculation was dropped. The argument was recorded dead, and it has been under review since 2026-10-29.*
+*The √N topological floor was an argument, made only in the claude.ai chat that preceded this repository, about how many of the monopoles of #14's soliton model could survive annihilation in the early universe. A monopole and an antimonopole that meet can annihilate, and at the strong magnetic coupling of the model's [hidden sector](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector), [about 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling), that annihilation might have been fast enough to deplete them. The floor argument held that the Kibble mechanism leaves a net topological charge that annihilation cannot remove, so the surviving abundance would lie between a Kibble "ceiling" and that floor. It was never written up: only [the handoff](/wiki/history/documents/handoff) records it, without a formula. In round 3 the referee showed that Kibble's count is a minimum, not a ceiling, and that annihilation at this coupling has already been worked out for hidden sectors; with #14's model retired, the planned calculation was dropped.*
 
-**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). Chat-only. It was dropped by round-3 Decision 3: "Its premise, Kibble as a ceiling, is inverted (ruling 3)." "Under decision 2 it has no candidate left to serve." The [project instructions](/wiki/history/documents/project-instructions) record the same: "HANDOFF §8 queue item 3 is dropped." The argument was never written up and never machine-checked; no number belongs to it. Home: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); the decision is in [round-3 decisions](/wiki/method/review/round-3/decisions) and the rulings behind it in [round-3 verdict and rulings](/wiki/method/review/round-3/rulings); listed in [claims under review](/wiki/status/under-review) and among [conjectures](/wiki/status/conjectures).
+**Status:** Under review — the evidence below weighs against it, and its final status awaits review. Chat-only. Round-3 Decision 3 dropped the calculation queued for it: "Its premise, Kibble as a ceiling, is inverted (ruling 3)." "Under decision 2 it has no candidate left to serve" (the candidate meant is #14's model, which Decision 2 covers). The [project instructions](/wiki/history/documents/project-instructions) record the same: "HANDOFF §8 queue item 3 is dropped." The argument was never written up and never machine-checked; no number belongs to it. Home section: [#14's soliton model](/wiki/dark-matter/candidates/soliton-candidate); the decision is in [round-3 decisions](/wiki/method/review/round-3/decisions) and the rulings behind it in [round-3 verdict and rulings](/wiki/method/review/round-3/rulings); listed in [claims under review](/wiki/status/under-review) and among [conjectures](/wiki/status/conjectures).
 
 ## What was claimed
 
@@ -63,7 +63,7 @@ The handoff's ranked queue made the estimate its third item, after cutting v3 of
 
 > **√N-floor freeze-out estimate** (open item #2) — resolves "Sommerfeld probably fatal" into a number; Preskill-style kinetic calculation; decides whether the soliton candidate's abundance window exists.
 
-v3, written next, kept the strong-coupling question as acceptance criterion 3 and exclusion condition 4, but neither it nor any other document contains the floor argument, and no document records the calculation.
+v3, written next, kept the strong-coupling question as acceptance criterion 3 and exclusion condition 4, but neither it nor any later document sets out the floor argument, and no document records the calculation.
 
 ## How it was tested
 
@@ -93,19 +93,19 @@ Ruling 10, "**Upheld** (abstract level)": "Annihilation at α_m ≈ 34 is Preski
 
 ### No candidate left
 
-Decision 2 retired the soliton candidate as a program-native proposal ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Decision 3 followed:
+Decision 2 retired #14's model as a program-native proposal ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). Decision 3 followed:
 
 > **HANDOFF §8 queue item 3 (the "√N floor"): dropped.**
 > - Its premise, Kibble as a ceiling, is inverted (ruling 3).
 > - Under decision 2 it has no candidate left to serve.
 
-On 2026-10-29 Paul narrowed Decision 2 to #14's model, whose monopoles the floor concerned. The candidate #14 modeled, monopoles localized in momentum, returned in #11 v2.4 as P.R.'s open conjecture; it was never modeled, and no document applies the floor to it ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+The candidate meant is #14's model, which Decision 2 covers: it used ordinary kinematics, and the floor concerned its monopoles. The candidate itself, conjugate monopoles localized in momentum, is P.R.'s open conjecture; it was never modeled, and no document applies the floor to it ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## What stands
 
-Nothing of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with #14's model. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–6 ([open problems](/wiki/status/open-problems)).
+No source lists anything of the floor among the survivors of v3, and none tests or refutes its own step, that annihilation cannot remove net topological charge: Decision 3 dropped the queued estimate for its inverted premise and for want of a candidate, without a calculation of the floor. The strong-coupling annihilation it was meant to bound has already been treated in the literature (Preskill 1979; Liveoak–Maharana–Wells 2026), and in the program's record the question lapsed with #14's model. The handoff's open item 2 and queue item 3 are superseded; the current queue is the one in the project instructions' 'Since the handoff' section, which opens with the handoff's items 5–6 ([open problems](/wiki/status/open-problems)).
 
-The other results of the handoff's chat-only list (§4) have their own pages: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the two gravitational charges and the equation comparison on [the momentum graviton's chat-only results](/wiki/gravity/momentum-graviton/chat-only-results). The diameter relation has since been written up and tested in the phase-space-diameter note (`papers/phase-space-diameter.md`, v1.2): its corrected form is an identity of blackbody statistics [D][V], standard physics that cannot test the program, and its claim that the universe's position–momentum rectangle is square "exactly at the bounce" is withdrawn [D][V], "under P.R.'s review since 2026-10-29 (not dead)" (§9) ([Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). The others are still chat-only and are registered in [conjectures](/wiki/status/conjectures).
+The other results of the handoff's chat-only list (§4) have their own pages: [the phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter), [momentum-space black holes](/wiki/conjugate-relativity/momentum-space-black-holes), and the two gravitational charges and the equation comparison on [the momentum graviton's chat-only results](/wiki/gravity/momentum-graviton/chat-only-results). The diameter relation has been written up and tested in the phase-space-diameter note (`papers/phase-space-diameter.md`): its corrected form is an identity of blackbody statistics [D][V], standard physics that cannot test the program, and its claim that the universe's position–momentum rectangle is square "exactly at the bounce" is withdrawn [D][V] and under review (§9) ([Under review: the square rectangle at the bounce](/wiki/cosmology/scale-factor-duality/square-at-the-bounce)). The others are still chat-only and are registered in [conjectures](/wiki/status/conjectures).
 
 ## Record
 
@@ -117,10 +117,10 @@ The other results of the handoff's chat-only list (§4) have their own pages: [t
 
 ## Sources
 
-- `review/round3-adjudication.md` 'Decisions' 3 — dropped; 'Decisions' 2 — the candidate retired, narrowed to #14's model on 2026-10-29; 'Rulings' 3 and 10 — the inverted premise and the solved annihilation case
-- `CLAUDE.md` 'Since the handoff' — "HANDOFF §8 queue item 3 is dropped"; Paul's answers to the concurrence questions (2026-10-29) — under review, not dead, until he reviews it
-- `papers/broken-born-checkpoint-v2.md` §12 — the p = 1 and p ≈ 0.023 normalizations; the candidate as P.R.'s conjecture since v2.4
-- `papers/phase-space-diameter.md` §3 — the diameter relation as an identity of blackbody statistics that cannot test the program; §6 — the withdrawal of "square exactly at the bounce", under Paul's review since 2026-10-29 (v1.2); §9 — the summary table
+- `review/round3-adjudication.md` 'Decisions' 3 — dropped; 'Decisions' 2 — the retirement, which covers #14's model; 'Rulings' 3 and 10 — the inverted premise and the solved annihilation case
+- `CLAUDE.md` 'Since the handoff' — "HANDOFF §8 queue item 3 is dropped"; the √N floor under review
+- `papers/broken-born-checkpoint-v2.md` §12 — the p = 1 and p ≈ 0.023 normalizations; the candidate as P.R.'s conjecture
+- `papers/phase-space-diameter.md` §3 — the diameter relation as an identity of blackbody statistics that cannot test the program; §6 — the withdrawal of "square exactly at the bounce", under review; §9 — the summary table
 - `HANDOFF.md` §2 — the idea, as open item 2; §4 — its chat-only status; §8 — queue item 3
 - `review/round3/referee/audit-notes.md` Step 2 — the bracket of p judged; Step 4(a) items 2 and 3 — bubble counting, the relic integration, and "Acceptance criterion 3 is not open"
 - `review/v3-worklog.md` 'Findings neither referee raised' (F1) — Preskill's bound, to be recomputed for a hidden sector

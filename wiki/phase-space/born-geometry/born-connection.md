@@ -74,7 +74,7 @@ Under [P2′](/wiki/program/postulates/p2-prime) only ω and H are fundamental. 
 
 > (5) connection uniqueness for the (ω, H)-only structure ([Freidel–Rudolph–Svoboda] proved it for the full triple; the para-Hermitian literature — Svoboda, Marotta–Szabo — is the nearest neighbor).
 
-The question bears on the computation #5 §D posed, which is phrased in terms of "the generalized curvature scalar of (ω, H_Z)", a curvature for exactly the (ω, H) structure. The item is not carried into #11 §14 and no later document reports work on it. This wiki keeps it open [O] ([open problems](/wiki/status/open-problems)). The para-Hermitian literature it points to is described on [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures).
+The question bears on the computation #5 §D posed, which is phrased in terms of "the generalized curvature scalar of (ω, H_Z)", a curvature for exactly the (ω, H) structure. The item is not carried into #11 §14 and no later document reports work on it. It is open [O] ([open problems](/wiki/status/open-problems)). The para-Hermitian literature it points to is described on [the structures ω, η, H](/wiki/phase-space/born-geometry/born-structures).
 
 ## Used by
 

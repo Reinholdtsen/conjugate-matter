@@ -31,9 +31,9 @@ below gives their paths.
   - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
   - `velocity-gated-gravity.md` — the momentum-gravity note (2026-10-28): whether the velocity-clumping obituary is premature, and whether momentum gravity is a relative-velocity perturbation of gravity. Computed and verified by independent agents; not reviewed. Its record is `review/momentum-gravity/`.
   - `gate-mechanism.md` — whether exchanging X produces #11 §8's dark-matter gate (2026-10-28). Two derivations, the second blind; not reviewed. Its record is `review/momentum-gravity/`; its result is flag 55.
-- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`.
+- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`.
 - [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); arbitration and audit scripts go here.
-- [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page and must be updated in the same change whenever a claim dies, a flag is ruled on, a note or review round lands, or data bear on a prediction row (`wiki/CLAUDE.md`, "Keeping it current").
+- [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page, at most 800 words, and must be updated in the same change whenever what it says changes (`wiki/CLAUDE.md`, "Keeping it current").
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
 Read order for a fresh session: #11 → HANDOFF §6 →
@@ -171,6 +171,13 @@ only as a task needs them.
     symmetric reading of a compact momentum space (k̃ = k, §4), recorded on 2026-10-27 as "dead unless Paul adds a
     compact momentum space deliberately". The list of twelve was taken from the wiki's graveyard, which never held
     it. His answer for every other death recorded before 2026-10-29 covers it, so it is under review too.
+- 2026-11-01: the wiki's voice (Paul, 2026-10-30: "This argument between you and me has no place in this wiki."). No claim's
+  status changed. The record is `review/wiki-cleanup/`. Its results:
+  - pages state what a claim is, what supports it, what weighs against it and where it stands now, and not how a status came
+    about (`wiki/CLAUDE.md`, Voice). The rule on deaths under 'Method' stands: it governs how a status changes, and pages do not narrate it;
+  - `wiki/summary.md` is one page; "Is anything new?" leads with Paul's conjectures, and it lists no dead claims or claims under review;
+  - `scripts/check-wiki.py` gained the checks `status`, `voice` and `summary`;
+  - the source documents keep their wording, including #11's header, §9, §10, §12, §13 and App. A, which still narrate this.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the

@@ -10,7 +10,6 @@ sources:
   - "notes/ufd-endpoint.md 'The attractive endpoint'"
   - "notes/ufd-endpoint.md 'The data'"
   - "notes/ufd-endpoint.md 'Verdict and closure'"
-  - "notes/ufd-endpoint.md 'Status note'"
   - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "notes/wave-island.md 'The rate'"
   - "notes/wave-island.md 'Standing results'"
@@ -24,12 +23,13 @@ sources:
   - "notes/broken-born-program-v1.md §7"
   - "notes/broken-born-program-v1.md §10"
   - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
+  - "review/momentum-gravity/scripts/corner/obs_corner.py part D"
   - "CLAUDE.md 'Since the handoff'"
 ---
 
-*Scenario A was the assumption that, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated attraction that condenses wave-like dark matter is also what gives ordinary dwarf galaxies their smooth, constant-density cores. Fitting those cores fixes the strength of the coupling, and with the coupling fixed, condensation is forced to happen, across the whole halo, in the ultra-faint dwarf galaxies, the faintest, densest and oldest galaxies known. Because the attraction makes a condensate collapse whenever it passes a critical mass, throwing off fast waves that escape the galaxy, these galaxies would by now have lost much of their dark matter. Instead they are among the most dark-matter-dominated systems observed: Segue 1 holds a dense, intact halo around stars about 13 billion years old. A much lighter mass, which would avoid the collapse, is excluded by other observations, and no other change of parameters rescues the scenario. Recorded dead before 2026-10-29, Scenario A is now under review, not dead, until Paul reviews it with Claude.*
+*Scenario A is the assumption that, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), the gated attraction that condenses wave-like dark matter is also what gives ordinary dwarf galaxies their smooth, constant-density cores. Fitting those cores fixes the strength of the coupling, and with the coupling fixed, condensation is forced to happen, across the whole halo, in the ultra-faint dwarf galaxies, the faintest, densest and oldest galaxies known. Because the attraction makes a condensate collapse whenever it passes a critical mass, throwing off fast waves that escape the galaxy, these galaxies would by now have lost much of their dark matter. Instead they are among the most dark-matter-dominated systems observed: Segue 1 holds a dense, intact halo around stars about 13 billion years old. A much lighter mass, which would avoid the collapse, is excluded by other observations, and no other change of parameters rescues the scenario.*
 
-**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). [Checkpoint #11](/wiki/history/documents/checkpoint) v2.5 §9: "Scenario A, the committed-wave case of (ii), is under review, not dead, until P.R. reviews it." The evidence stands as recorded. Calc note #4's verdict was "Scenario A is falsified by the existence of ultra-faint dwarfs" (`notes/ufd-endpoint.md`, [calc note #4](/wiki/history/documents/clumping-notes)), and #11 §9 (ii), tagged [D + T], records its endpoint as "falsified by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Not machine-checked: no `verify/` script covers a number of calc note #3 or #4; the gate checks only calc note #2's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)), and the Segue 1 inputs carry no reference in any source document. Listed in [claims under review](/wiki/status/under-review).
+**Status:** Under review — the evidence below weighs against it, and its final status awaits review. [Calc note #4](/wiki/history/documents/clumping-notes)'s verdict is "Scenario A is falsified by the existence of ultra-faint dwarfs" (`notes/ufd-endpoint.md`). In [checkpoint #11](/wiki/history/documents/checkpoint) §9, Scenario A is the committed-wave case of result (ii), tagged [D + T], which records its endpoint as "falsified by observed UFD density and longevity", where UFD stands for ultra-faint dwarf. Not machine-checked: no `verify/` script covers a number of calc note #3 or #4; the gate checks only calc note #2's shortfall ratios, in section D of `verify/velocity_gated_gravity.py` ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)), and calc note #4 gives no reference for its Segue 1 inputs. Home section: [the wave island](/wiki/dark-matter/momentum-clumping/wave-island); listed in [claims under review](/wiki/status/under-review).
 
 ## What was claimed
 
@@ -73,19 +73,19 @@ Calc note #3 drew the consequence for the ultra-faint dwarfs at once:
 
 > Because the interaction is attractive, the endpoint is not a placid stream: a growing condensate with attractive self-interaction has a critical mass, M_crit ≈ 3.6 M_P/(m√g) [T: dilute-boson-star bound, Chavanis-type], above which it collapses (bosenova). The surviving descendant of old rows 3–4 is therefore a sharply localized prediction: anomalous central objects, density spikes, or disruption signatures in ultra-faint dwarfs, absent in classical dwarfs and the MW.
 
-MW is the Milky Way. Old rows 3 and 4 are the withdrawn predictions of [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction). The note left the endpoint to the next calculation: "Quantifying the endpoint (soliton growth rate vs. M_crit; survival constraints from observed UFDs) is Chunk 3c." For a while, then, Scenario A was the one place in the program where velocity-space condensation was a mandatory prediction ('Standing results after Chunks A+B': "except Scenario A's mandatory UFD signature").
+MW is the Milky Way. Old rows 3 and 4 are the withdrawn predictions of [velocity-space granularity](/wiki/dark-matter/momentum-clumping/velocity-granularity) and [Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction). The note left the endpoint to the next calculation: "Quantifying the endpoint (soliton growth rate vs. M_crit; survival constraints from observed UFDs) is Chunk 3c." In calc note #3, then, Scenario A is the one place in the program where velocity-space condensation is a mandatory prediction ('Standing results after Chunks A+B': "except Scenario A's mandatory UFD signature").
 
 ## How it was tested
 
-Calc note #4 (`notes/ufd-endpoint.md`, calc note #4) set the test ('The question'): "Chunk 3b left Scenario A (gated channel = the core-maker) with one mandatory prediction: halo-wide condensation in ultra-faint dwarfs (UFDs), R ≡ Γ_self·t_dyn ≫ 1. This chunk follows that condensation to its endpoint and tests it against real UFDs."
+Calc note #4 (`notes/ufd-endpoint.md`) set the test ('The question'): "Chunk 3b left Scenario A (gated channel = the core-maker) with one mandatory prediction: halo-wide condensation in ultra-faint dwarfs (UFDs), R ≡ Γ_self·t_dyn ≫ 1. This chunk follows that condensation to its endpoint and tests it against real UFDs."
 
 ### Segue 1 and the condensation time
 
 Segue 1 is an ultra-faint dwarf satellite of the Milky Way [T]. Calc note #4 takes its numbers as the test case ('Sharpened input numbers'):
 
-> Segue 1: M(< 38 pc) ≈ 6×10⁵ M_⊙ ⇒ mean core density ρ ≈ 100 GeV/cm³ (not the conservative 20 used in #3), σ ≈ 3.7 km/s, t_dyn ≈ 10 Myr.
+> Segue 1: M(< 38 pc) ≈ 6×10⁵ M_⊙ ⇒ mean core density ρ ≈ 100 GeV/cm³ (not the conservative 20 used in 3b), σ ≈ 3.7 km/s, t_dyn ≈ 10 Myr.
 
-Here M(< 38 pc) is the mass within 38 parsecs of the center and M_⊙ the mass of the Sun. Rerunning calc note #3's ratio "with the dwarf-core normalization (κ = 1)":
+Here M(< 38 pc) is the mass within 38 parsecs of the center and M_⊙ the mass of the Sun, and 3b is calc note #3. Rerunning calc note #3's ratio "with the dwarf-core normalization (κ = 1)":
 
 ```text
 R_Segue1 = κ (t_dyn/t_age) (ρ/ρ_d)² (σ_d/σ)² ≈ 10⁻³ · 10⁴ · 66 ≈ 660
@@ -145,25 +145,23 @@ Calc note #4 checks the remaining freedom:
 - **A wider gate** (larger v\*) changes nothing; R stays as computed.
 - **A smaller core normalization**, κ < 1, means that the gated channel does not make the cores. That is no longer Scenario A but [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b).
 
-## The verdict in the record
+## The finding
 
-Calc note #4's verdict ('Verdict and closure of the clumping problem'): "Scenario A is falsified by the existence of ultra-faint dwarfs." The header of the note: "Status: complete. Verdict: Scenario A falsified; the clumping problem closed." Below the header the note now carries a status note, the same in calc notes #2 and #3: "Status note, 2026-10-29: none of the deaths that calc notes #2–#4 record has Paul's concurrence, which his rule of that day requires. The founding image, matter clumping in momentum space, is his open conjecture again (#11 v2.5 §9). Old rows 3 and 4 and Scenario A are under his review, not dead, until he reviews them with Claude. The calculations stand as results (root `CLAUDE.md`, 'Since the handoff')."
+Calc note #4's verdict ('Verdict and closure of the clumping problem'): "Scenario A is falsified by the existence of ultra-faint dwarfs." The header of the note: "Status: complete. Verdict: Scenario A falsified; the clumping problem closed."
 
 The verdict is carried in every later summary:
 
 - [The lab notebook](/wiki/history/documents/lab-notebook)'s addendum v0.2 (#1): "If the gated channel also makes dwarf cores, condensation is mandatory only in ultra-faint dwarfs, where the attractive endpoint (bosenova cycling above M_crit≈3.6M_P/(m√g)) drains their dark matter — falsified by the observed density and longevity of Segue 1-class systems."
 - [Program v1](/wiki/history/documents/checkpoint) (#9 §7 item 2): "Observed UFDs are the densest, oldest, most DM-dominated systems known: falsified. The light-mass escape is independently excluded (UFD heating bounds ≈ 3×10⁻¹⁹ eV, Dalal & Kravtsov 2022 [T — verify figure]; Lyman-α)."
 - Checkpoint #11 §9 (ii), [D + T]: condensation is mandatory only in ultra-faint dwarfs, "whose attractive endpoint cycles above M_crit ≈ 2.9×10⁻³⁰(m/eV)^{−7/4} M_⊙ [14†] and drains the halo — falsified by observed UFD density and longevity".
-- [The handoff](/wiki/history/documents/handoff) of 2026-10-19 (`HANDOFF.md` §2), among its dead claims: clumping was "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact)". Its inventory (§3, row 4) summarizes calc note #4 as "Segue 1 endpoint; bosenova drain; Scenario A falsified". The dead list now opens with a note: "Overtaken, 2026-10-29: none of the four below is dead now."
+- [The handoff](/wiki/history/documents/handoff) of 2026-10-19 (`HANDOFF.md` §2), in its list of failed claims: clumping was "fatal where mandatory on the wave island (ultra-faint dwarfs would be drained; Segue 1 intact)". Its inventory (§3, row 4) summarizes calc note #4 as "Segue 1 endpoint; bosenova drain; Scenario A falsified".
 
-The calculation behind the verdict is the third of [the clumping calc notes](/wiki/history/documents/clumping-notes).
+The calculation behind the verdict is the third of [the clumping calc notes](/wiki/history/documents/clumping-notes). #11 §9 adds that "Results (i)–(iii) stand as results", and lists Scenario A as under review.
 
-**Under review since 2026-10-29.** From calc note #4 until 2026-10-29 the record carried Scenario A as dead, and the wiki listed it in [the graveyard](/wiki/status/graveyard). On 2026-10-29 Paul answered the concurrence questions on the deaths recorded before that date; for every one he had not contested, Scenario A among them, his answer was "Restore all pending": each is under review, not dead, until he reviews it with Claude (root `CLAUDE.md`, 'Since the handoff'). #11 v2.5 §9 records it so, beside results (i)–(iii), which "stand as results". The founding image that Scenario A tested on the wave island is P.R.'s open conjecture again ([Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
+## What rests on it
 
-## What went with it
-
-- **Old rows 3 and 4.** Calc note #4: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." Calc note #3's "surviving descendant" of those rows, the localized ultra-faint-dwarf signature, was withdrawn with Scenario A. #11 v2.5 §13 lists the rows as "Withdrawn and under P.R.'s review, not dead (v2.5): velocity-space granularity in halos; Fornax friction suppression (§9)"; until v2.4 it read "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9)" ([Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity), [Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction)).
-- **The last mandatory form of clumping.** With Scenario A contradicted by the ultra-faint dwarfs, [velocity-space clumping](/wiki/dark-matter/momentum-clumping) is nowhere a required phenomenon. Scenario A is the "fatal (committed wave)" case of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). Until 2026-10-29 its recorded death completed the obituary of [the founding image](/wiki/dark-matter/momentum-clumping/founding-image), which is now P.R.'s open conjecture.
+- **Old rows 3 and 4.** Calc note #4: "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands. The Fornax mechanism goes with them." Calc note #3's "surviving descendant" of those rows, the localized ultra-faint-dwarf signature, is Scenario A's own prediction, "Scenario A's mandatory UFD signature" ('Standing results after Chunks A+B'); calc note #4 follows it to its endpoint and finds that endpoint contradicted by the observed ultra-faint dwarfs ('The data'). #11 §13 lists both rows, velocity-space granularity in halos and Fornax friction suppression (§9), as withdrawn and under review ([Under review: velocity-space granularity in halos (old row 3)](/wiki/dark-matter/momentum-clumping/velocity-granularity), [Under review: Fornax friction suppression (old row 4)](/wiki/dark-matter/momentum-clumping/fornax-friction)).
+- **The last mandatory form of clumping.** With Scenario A contradicted by the ultra-faint dwarfs, [velocity-space clumping](/wiki/dark-matter/momentum-clumping) is nowhere a required phenomenon. Scenario A is the "fatal (committed wave)" case of [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem). The founding image that Scenario A tested on the wave island is P.R.'s open conjecture ([Conjecture: velocity clumping, the founding image](/wiki/dark-matter/momentum-clumping/founding-image)).
 
 ## What stands
 
@@ -174,17 +172,18 @@ The calculation behind the verdict is the third of [the clumping calc notes](/wi
 ## What is unchecked
 
 - No `verify/` script covers the environment table, the Segue 1 ratio, the condensation time or the critical-mass normalization ([the iron rule](/wiki/method/verification/iron-rule)).
-- The Segue 1 inputs and the environment table's inputs carry no reference in any source document; they need a source check before any external use.
+- The calc notes give no reference for the Segue 1 inputs or the environment table's inputs; they need a source check before any external use. The momentum-gravity investigation's scripts cite Simon et al. 2011 [S] for their own Segue 1 values (`review/momentum-gravity/scripts/corner/obs_corner.py`; [Segue 1, the test case](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies#segue-1-the-test-case)).
 - The coefficient 3.6 and the convention for g in M_crit have not been checked against the cited paper. The normalization 2.9×10⁻³⁰ also rests on the core fit, which runs through the rate's coefficient c ([the open calibration](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate#open-calibration-of-the-coefficient-c)); calc note #4 does not state the value of c it used.
 - The references [13]†, [14]† and [15]† are cited from model memory and await [the † literature battery](/wiki/method/literature-battery) (#11 §14 item 10, OP10). Program v1 lists the "Dalal–Kravtsov exact bound" among its open literature verifications (#9 §10 item 8), and #11 dropped the figure ≈ 3×10⁻¹⁹ eV that the notes and v1 quote.
 
 ## Sources
 
-- `notes/ufd-endpoint.md` 'The question', 'Sharpened input numbers', 'The attractive endpoint: criticality and the drain', 'The data', 'Verdict and closure of the clumping problem' — the test, the Segue 1 numbers, the critical mass, both branches, the robustness checks and the verdict; 'Status note, 2026-10-29', which calc notes #2 and #3 share — none of the deaths the notes record has Paul's concurrence, and the calculations stand as results
+- `notes/ufd-endpoint.md` 'The question', 'Sharpened input numbers', 'The attractive endpoint: criticality and the drain', 'The data', 'Verdict and closure of the clumping problem' — the test, the Segue 1 numbers, the critical mass, both branches, the robustness checks and the verdict
 - `notes/wave-island.md` 'What pins g? Two scenarios' — Scenario A, R_X, the environment table, Verdict A and the first endpoint; 'The rate [D, heuristic coefficients]' — the rate; 'Standing results after Chunks A+B' — the mandatory signature
-- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — "Restore all pending": Scenario A is under review, not dead, until he reviews it
-- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement and its tags; 'Status (v2.5)' — under review, not dead, with results (i)–(iii) standing; §13 — the withdrawn rows, under review since v2.5; §14 item 10 — the literature battery; references [13]†, [14]†, [15]†
-- `HANDOFF.md` §2 — the handoff's dead list, and its note "Overtaken, 2026-10-29"; §3 row 4 — the inventory description of calc note #4
+- `CLAUDE.md` 'Since the handoff' — Scenario A under review
+- `papers/broken-born-checkpoint-v2.md` §9 (ii) — the current statement and its tags; §9 — Scenario A under review, with results (i)–(iii) standing; §13 — the withdrawn rows, under review; §14 item 10 — the literature battery; references [13]†, [14]†, [15]†
+- `HANDOFF.md` §2 — the handoff's list of failed claims; §3 row 4 — the inventory description of calc note #4
 - `notes/broken-born-theory.md` 'Addendum (v0.2)' — the notebook's record of the verdict
 - `notes/broken-born-program-v1.md` §7 item 2 — the v1 record, with the Dalal–Kravtsov figure; §10 item 8 — the exact bound as an open verification
 - `verify/velocity_gated_gravity.py` section D — calc note #2's shortfall ratios, the only clumping numbers the gate checks
+- `review/momentum-gravity/scripts/corner/obs_corner.py` part D — Simon et al. 2011 [S] for that investigation's Segue 1 values, outside the calc notes

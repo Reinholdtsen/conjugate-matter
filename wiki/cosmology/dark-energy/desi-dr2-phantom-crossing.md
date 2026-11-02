@@ -25,7 +25,7 @@ sources:
 
 *DESI DR2's phantom crossing is the finding, reported in 2025 from the second data release (Data Release 2, DR2) of the [Dark Energy Spectroscopic Instrument](/wiki/cosmology/dark-energy/desi) (DESI), that the dark-energy equation of state favoured by the data lies above −1 at low [redshift](/wiki/cosmology/scale-factor-duality/redshift) and crosses below −1, into the [phantom regime](/wiki/cosmology/dark-energy/phantom-divide), at redshifts above about 0.4, in every combination of datasets analysed. The program [requires dark energy never to be phantom](/wiki/cosmology/dark-energy/no-phantom-bound), so its requirement stands against the direct reading of these data, and its dark-energy sector is under real pressure. The sector survives on two stated points: fits without a phantom phase remain compatible at about two standard deviations, and the equation of state is inferred from distance measurements rather than observed. The third data release is the decisive test.*
 
-**Status:** Record — the measurement is cited [21S] in [checkpoint #11](/wiki/history/documents/checkpoint) §10, "Under pressure (v2.1)" — raised by the [round-3](/wiki/method/review/round-3) referee, accepted as ruling 11 and written into #11 v2.1; per the root `CLAUDE.md` the dark-energy sector is "under real pressure ahead of DR3", DESI's Data Release 3.
+**Status:** Record — the measurement is cited [21S] in [checkpoint #11](/wiki/history/documents/checkpoint) §10, "Under pressure (v2.1)" — raised by the [round-3](/wiki/method/review/round-3) referee and accepted as ruling 11; per the root `CLAUDE.md` the dark-energy sector is "under real pressure ahead of DR3", DESI's Data Release 3.
 
 ## What DESI reported
 
@@ -62,12 +62,12 @@ In this wiki's reading, both points concern whether the data meet the kill condi
 
 The finding entered the program through the review of a different manuscript.
 
-- **The claim reviewed.** The [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 v3, since withdrawn, said in passing: "The parent framework's cosmological sector separately predicts thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). Its exclusion condition 6 read: "Robust dark-energy measurement of constant w = -1 or intrinsic w < -1 (kills the parent framework's cosmological sector)" (§5).
+- **The claim reviewed.** The withdrawn [soliton manuscript](/wiki/dark-matter/candidates/soliton-candidate/obituary) #14 v3 said in passing: "The parent framework's cosmological sector separately predicts thawing, never-phantom dark energy, currently consistent with hints of weakening dark energy in recent baryon-acoustic-oscillation data" (§4). Its exclusion condition 6 read: "Robust dark-energy measurement of constant w = -1 or intrinsic w < -1 (kills the parent framework's cosmological sector)" (§5).
 - **The referee.** The [round-3](/wiki/method/review/round-3) referee, a [blind subagent](/wiki/method/review/review-protocol) with web access, listed the sentence as uncited (`review/round3/referee/audit-notes.md` Step 1) and added a "Dark-energy aside" (Step 4(c) item 11). It quoted DR2, "the favored w(z) shows a phase of w > -1 at low redshifts and a phantom crossing to w < -1 above redshifts z ~ 0.4", and concluded: "'Never-phantom ... consistent with hints' is at best partially true; the DESI-preferred solution is phantom-crossing, which exclusion condition 6 says would kill the framework."
 - **The ruling.** The adjudication's table records the finding as ruling 11, "DESI DR2's best fit crosses into phantom (w < −1) above z ≈ 0.4", rules it **Accepted**, and gives as evidence: "The parent framework's 'never phantom' needs the checkpoint's own nuance: non-phantom fits remain compatible at ~2σ." ([round-3 rulings](/wiki/method/review/round-3/rulings)).
-- **The decision.** Decision 4 scheduled a cleanup before further work, including: "give §10 the DESI DR2 phantom-crossing nuance (ruling 11)" ([round-3 decisions](/wiki/method/review/round-3/decisions)). Paul delegated the round-3 decisions to Claude on 2026-10-19 and keeps the veto (`review/round3-adjudication.md`, 'Decisions').
-- **The amendment.** #11 v2.1, dated 2026-10-19, records the change in its header: "§10 records DESI DR2's phantom crossing". It added the "Under pressure (v2.1)" paragraph to §10, the clause "DR2 already favors a crossing above z ≈ 0.4 (§10)" to row 4 of §13, and the crossing to the degeneration risks of §15. The commit that made v2.1 (e1c1f67) also re-marked reference [21] from † to [S] and gave its full title.
-- **The project instructions.** The root `CLAUDE.md` lists the change among the events since the handoff ([CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
+- **The decision.** Decision 4 scheduled a cleanup before further work, including: "give §10 the DESI DR2 phantom-crossing nuance (ruling 11)" ([round-3 decisions](/wiki/method/review/round-3/decisions)).
+- **The amendment.** #11 §10 states the finding in its "Under pressure (v2.1)" paragraph; row 4 of §13 carries the clause "DR2 already favors a crossing above z ≈ 0.4 (§10)", and §15 lists the crossing among the degeneration risks.
+- **The project instructions.** The root `CLAUDE.md` lists the finding in 'Since the handoff' ([CLAUDE.md and the README](/wiki/history/documents/project-instructions)).
 
 ## Where it stands
 
@@ -77,13 +77,13 @@ The root `CLAUDE.md`, which ranks first among the sources, states the position p
 
 ## An unreconciled sentence in #11 §10
 
-#11 §10 opens, like every section of the checkpoint, with an italic plain-language passage. That passage still ends: "The sky is voting now: DESI's hints of weakening dark energy are exactly the required drift." The same sentence stood in v2.0, and the v2.1 amendment added the "Under pressure" paragraph below it without changing it.
+#11 §10 opens, like every section of the checkpoint, with an italic plain-language passage, which ends: "The sky is voting now: DESI's hints of weakening dark energy are exactly the required drift." The "Under pressure" paragraph stands below it in the same section.
 
 Within #11 the two passages disagree: the italic one reads the data as the required drift, the technical one as a phantom crossing that stands against the bound. #11 does not reconcile them, and no later document edits the italic passage. This wiki takes the sector's status from the root `CLAUDE.md`, which ranks above #11, and from #11's technical paragraph, both of which say "under pressure"; it records the italic sentence as an unresolved inconsistency inside #11 ([conflicts between sources](/wiki/history/documents/source-conflicts)).
 
 ## Data Release 3: three outcomes
 
-The [handoff](/wiki/history/documents/handoff) names the next release as the program's external clock: "DESI DR3 (three-year data, expected late 2026). Kill conditions: robust constant w = −1 kills the τ sector; robust intrinsic w < −1 kills the framework outright; continued thawing drift keeps it alive (shared with other dynamical-DE models)" (`HANDOFF.md` §2), DE being dark energy. The "three-year" label is listed as a suspected slip in the source (`review/wiki-build-flags.md` item 26); the wiki quotes it as written. #11's row 4 states the first two kill conditions as "kills τ-sector" and "kills outright" ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift)).
+The [handoff](/wiki/history/documents/handoff) names the next release as the program's external clock: "DESI DR3 (three-year data, expected late 2026). Kill conditions: robust constant w = −1 kills the τ sector; robust intrinsic w < −1 kills the framework outright; continued thawing drift keeps it alive (shared with other dynamical-DE models)" (`HANDOFF.md` §2), DE being dark energy. The "three-year" label is listed as a suspected slip in the source (`review/wiki-build-flags.md` item 26), and the date is the handoff's own and unverified ([the data releases](/wiki/cosmology/dark-energy/desi#the-data-releases)); the wiki quotes both as written. #11's row 4 states the first two kill conditions as "kills τ-sector" and "kills outright" ([row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift)).
 
 | Outcome of Data Release 3 | Consequence (HANDOFF §2) |
 | --- | --- |
@@ -114,7 +114,7 @@ What the earlier readings described, weakening dark energy at low redshift, is s
 ## Sources
 
 - `CLAUDE.md` 'Since the handoff' — the current status: "under real pressure ahead of DR3"
-- `papers/broken-born-checkpoint-v2.md` §10 — the "Under pressure (v2.1)" paragraph quoting DESI DR2, and the italic passage; header — the v2.1 change note
+- `papers/broken-born-checkpoint-v2.md` §10 — the "Under pressure (v2.1)" paragraph quoting DESI DR2, and the italic passage
 - `papers/broken-born-checkpoint-v2.md` ref [21] — DESI DR2 Results II (live-searched)
 - `papers/broken-born-checkpoint-v2.md` §13 row 4 — the kill conditions and the DR2 clause
 - `papers/broken-born-checkpoint-v2.md` §15 — "already leans against"; the degeneration risk

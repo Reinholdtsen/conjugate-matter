@@ -2,13 +2,13 @@
 title: "The palindromic branch"
 weight: 40
 status: hub
-description: "What reciprocity does to the bimetric potential: it forces βₙ = β₄₋ₙ, and a flat aligned vacuum then forces the wedge sector's vacuum energy to vanish — an identity whose novelty is under audit."
+description: "What reciprocity does to the bimetric potential: it forces βₙ = β₄₋ₙ, and a flat aligned vacuum then forces the wedge sector's vacuum energy to vanish — an identity whose novelty audit is queued."
 bookCollapseSection: true
 ---
 
 *The palindromic branch is the family of [Hassan–Rosen](/wiki/gravity/spin-2-fields/hassan-rosen-bimetric) bimetric potentials whose five coefficients read the same forwards and backwards, βₙ = β₄₋ₙ. The program arrives there because [Born reciprocity](/wiki/phase-space/reciprocity/born-reciprocity), on the broken vacuum, acts as an exchange of the potential's two frames, and a potential invariant under that exchange must be palindromic. Inside the branch a four-line algebraic identity shows that a flat aligned vacuum gives the spin-2 interaction sector zero vacuum energy. Both results stand as program derivations. Whether the identity is new is open: the branch also contains the known [partially massless point](/wiki/gravity/spin-2-fields/partially-massless-gravity), and a different cancellation of vacuum energy by exchange symmetry is already in the literature.*
 
-**Stands:** [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) [D], [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) [D][V] · **Superseded:** folded sections on [the ad hoc branch given a reason to exist](/wiki/gravity/palindromic-branch/palindrome#superseded-an-ad-hoc-branch-given-a-reason-to-exist) and [the standalone-result claim](/wiki/gravity/palindromic-branch/pm-comparison#superseded-the-standalone-result-claim) · **Died:** nothing yet · **Open:** [the partially massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison)
+**Stands:** [the palindrome βₙ = β₄₋ₙ](/wiki/gravity/palindromic-branch/palindrome) [D], [the vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) [D][V] · **Open:** [the partially massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) · **Superseded:** folded sections on [the ad hoc branch given a reason to exist](/wiki/gravity/palindromic-branch/palindrome#superseded-an-ad-hoc-branch-given-a-reason-to-exist) and [the standalone-result claim](/wiki/gravity/palindromic-branch/pm-comparison#superseded-the-standalone-result-claim)
 
 ## Map
 

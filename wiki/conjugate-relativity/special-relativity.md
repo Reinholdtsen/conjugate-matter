@@ -13,11 +13,13 @@ sources:
   - "papers/conjugate-special-relativity.md §6"
   - "papers/conjugate-special-relativity.md §7"
   - "review/wiki-build-flags.md item 30"
+  - "verify/phase_space_diameter.py"
+  - "verify/velocity_gated_gravity.py 'B. X between ordinary bodies'"
 ---
 
 *Special relativity is Einstein's 1905 theory of how measurements of length and time compare between observers moving at constant velocity relative to one another, built on one speed that all of them measure alike, the speed of light c. Its machinery (boosts, the light cone, the relativity of simultaneity, time dilation, length contraction and the mass shell) is textbook physics. The program uses it as a template: the paper [#13](/wiki/conjugate-relativity) copies each piece into the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), the program's mirror description in which momentum plays the role of position, with force in place of velocity and a [maximum force c̃](/wiki/conjugate-relativity/maximum-force) in place of c. This page states the template and lists the copies; #13 tags most of its copies as derived, but no review round or script has checked them, and the [checkpoint #11](/wiki/history/documents/checkpoint) does not mention them.*
 
-**Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a [blind review](/wiki/method/review) round, no `verify/` script checks any of its formulas or numbers, and #11 (v2.5) does not mention it.
+**Status:** Established — [T] — textbook physics, written here from general knowledge; #13 cites no source for it, and the references below are added from model memory (†). #13's transcriptions carry the tags #13 itself assigns ([D — structural], [D], or none); #13 has never been through a [blind review](/wiki/method/review) round, no `verify/` script checks its derivations, gated checks evaluate only its maximum force c̃ and its dual Lorentz factor γ̃, for other notes ([the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script); [the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script), check B2), and #11 does not mention it.
 
 ## Two postulates [T]
 
@@ -139,7 +141,7 @@ Writing spacetime as one time direction and three space directions is the 3+1 sp
 | inertial frames | dual-inertial frames: free fall and Rindler frames | §5 | on §7's fixed [D] list |
 | the principle of relativity | [the equivalence principle](/wiki/conjugate-relativity/equivalence-principle) | §5 | [D — structural] |
 
-The template is established; the transcriptions are not. #13 states each one without intermediate steps beyond the substitution, and §7 lists the kinematic structure as "fixed [D]". No blind review round has examined #13, no `verify/` script reproduces any of its formulas or numbers ([the iron rule](/wiki/method/verification/iron-rule)), and #11 (v2.5) does not mention the maximum force or the dual kinematics. The section's status, alive and unreviewed, rests on `HANDOFF.md` §2 and on `CLAUDE.md`'s listing of #13 as a current reference ([Conjugate special relativity](/wiki/conjugate-relativity)).
+The template is established; the transcriptions are not. #13 states each one without intermediate steps beyond the substitution, and §7 lists the kinematic structure as "fixed [D]". No blind review round has examined #13, no `verify/` script checks its derivations, gated checks evaluate only its maximum force c̃ and its dual Lorentz factor γ̃, for other notes ([the iron rule](/wiki/method/verification/iron-rule)), and #11 does not mention the maximum force or the dual kinematics. The section's status, alive and unreviewed, rests on `HANDOFF.md` §2 and on `CLAUDE.md`'s listing of #13 as a current reference ([Conjugate special relativity](/wiki/conjugate-relativity)).
 
 ## References
 
@@ -168,3 +170,5 @@ The template is established; the transcriptions are not. #13 states each one wit
 - `papers/conjugate-special-relativity.md` §1–§6 — the transcriptions named above: the two cones (§1); boosts, composition, simultaneity and the Galilean limit (§2); force dilation and momentum-spread contraction (§3); the mass shell and E = λc̃ (§4); the dual first law and Rindler frames (§5); the 3+1 presentation and the dual null cone E = c|p| (§6).
 - `papers/conjugate-special-relativity.md` §7 — the fixed [D] list, the numerical anchors and the open items.
 - `review/wiki-build-flags.md` item 30 — #13 §1's tag [D — compatibility theorem] on the block form from which it reads cones that the theorem's positive-definite g cannot have; a question of tagging convention in the flags' audit.
+- `verify/phase_space_diameter.py` — the arithmetic of c⁴/G, computed for the phase-space-diameter note.
+- `verify/velocity_gated_gravity.py` section B, check B2 — γ̃ − 1 for the Sun and Earth, computed for the velocity-gated-gravity note.

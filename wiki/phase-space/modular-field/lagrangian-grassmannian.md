@@ -131,7 +131,7 @@ The program's documents cite none of these; they tag the facts [T] or "[standard
 - `papers/broken-born-checkpoint-v2.md` §6 — Λ(d) as the Shilov boundary [T].
 - `papers/broken-born-checkpoint-v2.md` §4, §7, §10, §14 item 11 — P2′ with the real structure J; Λ(4) as the physical case; Λ(1) as τ's circle in the coset model; η = ωK in the toy-model item.
 - `papers/broken-born-checkpoint-v2.md` §14 item 12 — the polarization's defects, π₁ = ℤ and π₂ = ℤ₂ [T] with the maps behind them gated, their production open [O].
-- `notes/closed-universe.md` §8 — π₁, π₂ and π₃ of Λ(4) with their tags, the textures on S³ [D], and the light-circle caveat; `verify/closed_universe.py` section F — checks F1–F4; `review/wiki-build-flags.md` flag 61 — how the groups reached the record.
+- `notes/closed-universe.md` §8 — π₁, π₂ and π₃ of Λ(4) with their tags, the textures on S³ [D], and the light-circle caveat; `verify/closed_universe.py` section F — checks F1–F4; `review/wiki-build-flags.md` flag 61 — the three groups, the open fate of the defects and the analysis's caveat on the light circle.
 - `notes/geometric-core.md` §B–§D — the discrete polarizations under strict P2; {J} ≅ U(d)/O(d) = Λ(d) under P2′; the boundary fact "[standard]"; the ten σ-modes.
 - `notes/tuning-test.md` §4 — the ten compact moduli carried by J.
 - `notes/x-classification.md` §3 — the Λ(d) moduli are not the eaten modes.

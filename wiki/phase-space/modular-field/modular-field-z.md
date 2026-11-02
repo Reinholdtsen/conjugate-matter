@@ -15,6 +15,7 @@ sources:
   - "notes/tuning-test.md §2"
   - "notes/beta-coefficients.md §4"
   - "papers/broken-born-checkpoint-v2.md §7"
+  - "papers/broken-born-checkpoint-v2.md §8"
   - "papers/broken-born-checkpoint-v2.md §14"
   - "notes/broken-born-program-v1.md §4"
   - "notes/broken-born-theory.md 'Addendum (v0.3, overnight): axiom correction and the modular core'"
@@ -76,7 +77,7 @@ The algebra behind the words: away from the slice, H_Z has off-diagonal blocks X
 
 [The tuning test](/wiki/gravity/tuning-test) later made the misalignment explicit. It measures the mismatch between the vacuum polarization J₀ and I[Z] = ω⁻¹H_Z by their anticommutator, {J₀, I[Z]} = [[S, A], [A, S]], with S = Y + XY⁻¹X − Y⁻¹ and A = [X, Y⁻¹] (#7 §2; battery test T3), and "The compatible locus is X = 0 *and* Y = Y⁻¹" (on that locus, see flag 3 in `review/wiki-build-flags.md`). The energy cost of that misalignment is what gives X its mass ([the misalignment potential](/wiki/gravity/tuning-test/misalignment-potential)).
 
-Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [conjugate-matter](/wiki/dark-matter/conjugate-matter) particles produces the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of the dark-matter sector (§E; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging X as #11 §7 builds it cannot produce the gate: every on-shell vertex depends only on the momentum transfer, and the section condition makes X depend on position only (§§2–3). Flag 55 in `review/wiki-build-flags.md` proposes [P] for the gate and μ and [O] for the mechanism, pending Paul's ruling; #11 is unchanged ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
+Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [conjugate-matter](/wiki/dark-matter/conjugate-matter) particles produces the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) of the dark-matter sector (§E; [the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism)). `notes/gate-mechanism.md` (2026-10-28; two derivations, the second blind; not reviewed) finds that exchanging X as #11 §7 builds it cannot produce the gate: every on-shell vertex depends only on the momentum transfer, and the section condition makes X depend on position only (§§2–3). Flag 55 in `review/wiki-build-flags.md`, pending, proposes [P] for the gate and μ and [O] for the mechanism; #11 §8 tags the mechanism [D] and the shape [O] ([the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)).
 
 ### Step 5: one field for the geometric program [D — structural]
 
@@ -89,7 +90,7 @@ Calc note #5 also calls Re Z the "gate mediator": exchange of X between two [con
 | the circle \|Z\| = 1 | [scale-factor duality](/wiki/cosmology/scale-factor-duality), the constraint a·ã = 1 (queried in flag 23 of `review/wiki-build-flags.md`) | [modular inversion](/wiki/phase-space/modular-field/modular-inversion); [the cosmological constraint](/wiki/cosmology/scale-factor-duality/cosmological-constraint) |
 | the phase of Z's boundary value | the dark-energy field τ | [τ as the Maslov phase](/wiki/phase-space/modular-field/maslov-phase) |
 
-The note's closing summary counts "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among that night's results (§F). The identification of the |Z| = 1 circle with a·ã = 1 is queried in flag 23 of `review/wiki-build-flags.md`. The unification is tagged structural: it says where each part sits in one parametrization, and the dynamics of each part are worked out separately, on the pages the table links.
+The note's closing summary counts "the modular unification (reciprocity = Z → −Z⁻¹, cosmological duality = |Z| = 1)" among its results (§F). The identification of the |Z| = 1 circle with a·ã = 1 is queried in flag 23 of `review/wiki-build-flags.md`. The unification is tagged structural: it says where each part sits in one parametrization, and the dynamics of each part are worked out separately, on the pages the table links.
 
 ## What X became
 
@@ -128,11 +129,11 @@ Calc note #5 also defined the direct route (§D): "expand the generalized curvat
 - `notes/x-classification.md` §1, §2, §3 — the shift symmetry; the dual diffeomorphisms; the vacuum ⟨Z⟩ = i·g at X = 0, the Higgs mechanism and the positive-H caveat.
 - `notes/tuning-test.md` §2 — {J₀, I[Z]} = [[S, A], [A, S]] and the compatible locus.
 - `notes/beta-coefficients.md` §4 — "X = Re Z, the reciprocity-odd partner of the metric".
-- `papers/broken-born-checkpoint-v2.md` §7, §14 — the chain that makes X massive; open item 1.
+- `papers/broken-born-checkpoint-v2.md` §7, §8, §14 — the chain that makes X massive; the tags on the gate's mechanism and shape; open item 1.
 - `notes/broken-born-program-v1.md` §4 — the same identifications in #9.
 - `notes/broken-born-theory.md` v0.3 addendum, §2, §3, §11 — the introduction of Z with P2′; fields on a Lagrangian leaf; the v0.1 metric split; the field-equation problem.
 - `verify/battery.py` T2 — the parametrization identities at one sampled point.
 - `review/round3/referee/audit-notes.md` Step 3 — X ≠ 0 breaks η-compatibility numerically; the auditor's caution.
 - `HANDOFF.md` §2 — the handoff's one-screen state, with the check mark on the parametrization identities.
-- `review/wiki-build-flags.md` items 3, 23 — the query on #7's compatible locus; the query on the identification of |Z| = 1 with a·ã = 1, with its executed check `review/wiki-build-checks/self_dual_locus.py`; item 55 — the gate's mechanism not derived, awaiting a ruling.
+- `review/wiki-build-flags.md` items 3, 23 — the query on #7's compatible locus; the query on the identification of |Z| = 1 with a·ã = 1, with its executed check `review/wiki-build-checks/self_dual_locus.py`; item 55 — the gate's mechanism not derived, pending.
 - `notes/gate-mechanism.md` §2, §3 — exchanging X gives no gate; X depends on position only under the section condition.

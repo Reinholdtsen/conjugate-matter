@@ -264,7 +264,7 @@ OK — S5 (weak form) and the section-condition structure check out.
 
 Parts A and B print their checks in the same form; the full output is in a run of `scripts/check.sh`.
 
-What it does not check: the closing line says "weak form". The script evaluates I for one test state at the two vacua ±K_ref; it shows that such a coupling produces locality, not that anything forces matter to couple this way ("Nothing here forces that coupling", note §5; [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)). Its section B treats d = 1; for d > 1 the note cites "a continuous family of sections". Two wording issues sit next to it: part C's header still says "built from K", where the note v2 says the coupling is built from (H, K) (flag 10), and the note's "I is odd in K" overstates what the values 0.4070 and 0.3600 show, which is that I is not invariant under K → −K (flag 2).
+What it does not check: the closing line says "weak form". The script evaluates I for one test state at the two vacua ±K_ref; it shows that such a coupling produces locality, not that anything forces matter to couple this way ("Nothing here forces that coupling", note §5; [Open: forced locality and the P4 lock](/wiki/symmetry-breaking/strong-locality)). Its section B treats d = 1; for d > 1 the note cites "a continuous family of sections". Two wording issues sit next to it: part C's header still says "built from K", where version 2 of the note says the coupling is built from (H, K) (flag 10), and the note's "I is odd in K" overstates what the values 0.4070 and 0.3600 show, which is that I is not invariant under K → −K (flag 2).
 
 ## Lessons from writing them
 

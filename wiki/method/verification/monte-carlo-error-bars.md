@@ -13,6 +13,8 @@ sources:
   - "review/round4/referee/audit-notes.md"
   - "review/round4-preregistration.md 'Predictions'"
   - "verify/toy_s4.py"
+  - "verify/velocity_gated_gravity.py E7"
+  - "review/momentum-gravity/scripts/verify-critic-numbers/u1_c3_gate_average.py"
   - "papers/reciprocity-toy-models.md §4"
   - "notes/toy-lagrangian.md 'Chunk 3 results (2026-10-19): S4, quantum stability'"
   - "review/wiki-build-flags.md item 13"
@@ -20,7 +22,7 @@ sources:
 
 *The Monte Carlo error-bar rule says that a number produced by a random simulation must come with an error bar estimated from several independent runs. A simulation started from a fixed random seed gives the same output every time it is run, which makes the number reproducible but says nothing about how far it lies from the average the simulation is estimating. Review round 4 found the case that prompted the rule: the high-temperature control values in the [toy-model note](/wiki/symmetry-breaking/toy-models) came from single fixed-seed runs without error bars, and the smallest lattice's value was a short-run fluctuation. The lattice script now reports means and standard errors over four independent seeds, and its checks use those error bars.*
 
-**Status:** Method, in force (round-4 lesson 2, now in root `CLAUDE.md`) — untagged — applied in `verify/toy_s4.py`, the program's only Monte Carlo.
+**Status:** Method, in force (round-4 lesson 2, now in root `CLAUDE.md`) — untagged — applied in `verify/toy_s4.py`, the program's lattice Monte Carlo, and in check E7 of `verify/velocity_gated_gravity.py`.
 
 ## The rule
 
@@ -68,7 +70,7 @@ The pre-registration had predicted "at most one surviving numerical indictment",
 
 ## The practice now
 
-Revision 1 of the note asked for "start conditions, equilibration checks, and error bars from independent seeds; rerun the control". The note v2, §4: "Checkerboard Metropolis, cold start (φ = 0), L = 16, 32, 64. Means ± standard errors over four independent seeds."
+Revision 1 of the note asked for "start conditions, equilibration checks, and error bars from independent seeds; rerun the control". Version 2 of the note, §4: "Checkerboard Metropolis, cold start (φ = 0), L = 16, 32, 64. Means ± standard errors over four independent seeds."
 
 `verify/toy_s4.py` implements it. Its docstring: "All runs use a cold start (phi = 0). Error bars: standard error over 4 independent seeds." Each of the four runs discards 1500 sweeps and measures over 4000, and the standard error is the sample standard deviation over √4. Two of its checks use the error bars as the measure of agreement:
 
@@ -101,7 +103,7 @@ PASS  no true order: the U(1) magnetization falls with size by more than 3 sigma
 
 ## Which values to cite
 
-Four sets of control values exist: the worklog's fixed-seed "0.078 → 0.033 → 0.014", the referee's, the adjudicator's long runs (0.0653 / 0.0325 / 0.0164), and the note v2's four-seed means (0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004). The note v2 governs, and its values are the ones the gate reproduces. The adjudicator's long runs differ from them at L = 32 and 64; the sources do not reconcile the two sets. The note's "⟨|m|⟩ = 0.954 ± 0.0001 at every size" is printed by the script as `+- 0.0000` at L = 64; flag 13 in `review/wiki-build-flags.md` reads the note's figure as a conservative bound rather than the printed value.
+Four sets of control values exist: the worklog's fixed-seed "0.078 → 0.033 → 0.014", the referee's, the adjudicator's long runs (0.0653 / 0.0325 / 0.0164), and the four-seed means of version 2 of the note (0.0653 ± 0.0043, 0.0338 ± 0.0013, 0.0155 ± 0.0004). Version 2 governs, and its values are the ones the gate reproduces. The adjudicator's long runs differ from them at L = 32 and 64; the sources do not reconcile the two sets. The note's "⟨|m|⟩ = 0.954 ± 0.0001 at every size" is printed by the script as `+- 0.0000` at L = 64; flag 13 in `review/wiki-build-flags.md` reads the note's figure as a conservative bound rather than the printed value.
 
 ## What the error bars do not cover
 
@@ -110,7 +112,7 @@ Four sets of control values exist: the worklog's fixed-seed "0.078 → 0.033 →
 
 ## Applied since
 
-The rule has had one application, the rerun of `verify/toy_s4.py` for the note v2. The program has run no other Monte Carlo since. None of the wiki build's executed checks in `review/wiki-build-checks/` is a simulation; its one Monte Carlo item, flag 13, compares the note's quoted error bar with the script's printed output.
+The gate holds two applications of the rule. The first is the rerun of `verify/toy_s4.py` for version 2 of the note. The second is check E7 of `verify/velocity_gated_gravity.py`, which sets a gate average's closed form, 0.06136, against a Monte Carlo of 20 independent runs of 2×10⁵ pairs, 0.06143 ± 0.00008. Its "(record)" line finds that a value in the momentum-gravity record, 0.06150 ± 0.00004, sits 3.3 standard deviations from the closed form on its own 10-run error bar but 2.2 on the exact variance: "its error bar came out low, the closed form stands" ([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script)). That investigation's own scripts, outside the gate, also run Monte Carlo averages with independent seeds (`review/momentum-gravity/scripts/verify-critic-numbers/u1_c3_gate_average.py`, among others). None of the wiki build's executed checks in `review/wiki-build-checks/` is a simulation; its one Monte Carlo item, flag 13, compares the note's quoted error bar with the script's printed output.
 
 ## Sources
 
@@ -120,6 +122,7 @@ The rule has had one application, the rerun of `verify/toy_s4.py` for the note v
 - `review/round4/referee/audit-notes.md` — the referee's independent simulation, its error bars, the hot-start trapping
 - `review/round4-preregistration.md` 'Predictions' — the expected indictment
 - `verify/toy_s4.py` — cold starts, four seeds, standard errors, the checks that use them
+- `verify/velocity_gated_gravity.py` check E7 — the gate average against 20 independent runs, and the record's value; `review/momentum-gravity/scripts/verify-critic-numbers/u1_c3_gate_average.py` — a Monte Carlo of that investigation, outside the gate
 - `papers/reciprocity-toy-models.md` §4 — the method and the table as now stated
 - `notes/toy-lagrangian.md` 'Chunk 3 results (2026-10-19): S4, quantum stability' — the superseded single-seed values
 - `review/wiki-build-flags.md` item 13 — the quoted error bar at L = 64

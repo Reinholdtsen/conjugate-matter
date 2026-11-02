@@ -36,12 +36,13 @@ It is written for three readers:
   `verify/` output, and the page names that source. Nothing is computed, rounded or
   converted by eye (the iron rule). A number the sources do not contain does not appear.
 - **Dead means killed by theory and data, with Paul's explicit concurrence** (root `CLAUDE.md`,
-  'Method', 2026-10-29). Dead claims are reported prominently, on their own pages. A claim whose
-  death Paul has not concurred in, and has contested, is recorded as open or as his conjecture,
-  with the evidence against it stated in full. A failed model or version of an idea is not the
-  death of the idea. Of the deaths recorded before 2026-10-29, Paul concurred only in #14's model;
-  the others he has not contested are `under-review`, not dead, until he reviews each. The wiki
-  never declares a death on its own reading.
+  'Method', 2026-10-29). This rule governs how a status may change. It is a working rule for
+  Claude, and pages do not narrate it (see "State the claim, not the discussion" under Voice). A
+  dead claim has its own page. A claim whose death Paul has not concurred in is recorded as open,
+  as his conjecture or as `under-review`, with the evidence against it stated in full. A failed
+  model or version of an idea is not the death of the idea. Of the deaths recorded before
+  2026-10-29, Paul concurred only in #14's model; the others he has not contested are
+  `under-review` until he reviews each. The wiki never declares a death on its own reading.
 - **Tags carry over exactly.** The tags are [D] derived here, [T] literature,
   [P] postulate, [O] open and [V] machine-verified. Citations are marked † (from model
   memory, unverified) or [S] (live-searched). A page never upgrades a tag. Explanations
@@ -71,7 +72,7 @@ what is known and what is claimed read as a sequence.
 | `electric-magnetic-duality/` | monopoles, dualities, charge lattices, the polarization identification |
 | `conjugate-relativity/` | #13: the kinematics of the momentum polarization |
 | `predictions/` | one test page per row of #11 §13, plus the table's history |
-| `status/` | registers: graveyard (first), alive, open problems and the queue, conjectures, superseded, under review |
+| `status/` | registers: alive, open problems and the queue, conjectures, superseded, under review, graveyard (last) |
 | `method/` | Lakatos, the collaboration, provenance, verification (one page per script family), blind review |
 | `history/` | timeline, the three main problems, the documents and the conflicts between them |
 | `summary`, `glossary`, `notation`, `references` | single register pages; `summary` (weight 5, first in the menu) is the executive summary, the program's standing on one page |
@@ -95,11 +96,10 @@ them.
 **Section indexes** run in this order:
 
 1. the italic definition;
-2. a status strip ("Stands: … · Died: … · Open: …", each item linked). Add "Under review:"
-   (right after "Open:"), "Superseded:" and "Conjectures:" slots when the section holds such
-   pages. A section holding only
-   literature, method or record pages replaces the strip with one line that says so and
-   links the status registers;
+2. a status strip, in the order "Stands: … · Conjectures: … · Open: … · Under review: … ·
+   Superseded: … · Died: …", omitting a slot with nothing in it. Each item is a link and at most
+   a clause. A section holding only literature, method or record pages replaces the strip with
+   one line that says so and links the status registers;
 3. the `## Map`, in weight order;
 4. `## Boundaries`.
 
@@ -122,8 +122,8 @@ documents) have status `record`.
 
 - Every obituary links the claim's home section, the calculation or ruling that killed it,
   and `/wiki/status/graveyard`.
-- Every "Under review:" page links the claim's home section, the calculation or ruling that
-  recorded it dead, and `/wiki/status/under-review`.
+- Every "Under review:" page links the claim's home section, the calculation or ruling behind the
+  evidence against it, and `/wiki/status/under-review`.
 - Each prediction row links its derivation pages, and each derivation links its row.
 - Every "Open:" page links `/wiki/status/open-problems` and the claim it qualifies.
 - Every established-physics page ends with a short "Used by" list of the program pages
@@ -196,8 +196,8 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
   | `alive` | a program claim that currently stands |
   | `conjecture` | not derived; includes the chat-only results of `HANDOFF.md` §4 |
   | `open` | an open problem |
-  | `dead` | killed by theory and data, with Paul's explicit concurrence |
-  | `under-review` | recorded dead before 2026-10-29 without Paul's concurrence; not dead until he reviews it, with the evidence against it stated in full |
+  | `dead` | killed by theory and data, with Paul's explicit concurrence (the page says what killed it, and does not mention the concurrence) |
+  | `under-review` | the calculations or data weigh against the claim, and its final status awaits Paul's review; the page states the evidence in full |
   | `superseded` | replaced by a corrected version |
   | `method` | how the program works |
   | `record` | history, reviews, documents |
@@ -211,11 +211,8 @@ machine check [V] (`verify/battery.py`, test T1) are this program's.
   Order the sections by the questions a cold reader asks: what is it, what is it made of,
   how does it work, what follows, what is open, where it comes from. A dead claim's page
   is an obituary: what was claimed, how it was tested, why it failed, what survives. A page
-  under review keeps the structure and the evidence it had as an obituary, stated as results.
-  Its title, its status words and its verdict headings change ("Why it failed" becomes "The
-  evidence against it", "What survives" becomes "What stands", "The verdict" becomes "The verdict
-  in the record", "What it brought down" becomes "What went with it"), and the earlier verdict is
-  told as history.
+  under review states the claim, how it was tested, "The evidence against it" and "What stands",
+  as results, and gives no account of any earlier verdict.
 - **Sources**: end every page with a `## Sources` list of repo paths (as inline code) and
   sections, most authoritative first. The gate checks that every inline-code repo path
   exists.
@@ -245,6 +242,17 @@ Rules on wording:
   belong in the wiki's voice. Where a source says such things (#11 §9 and §15, #10), quote it
   only on the page that reports that document's self-assessment, attributed and without
   endorsement.
+- **State the claim, not the discussion.** A page says what a claim is, what supports it, what
+  weighs against it and where it stands now. It does not say how the status came about, who ruled
+  on it, or how the record's wording changed (Paul, 2026-10-30: "This argument between you and me
+  has no place in this wiki."). So: no concurrence, rulings, directions, answers or quotations of
+  Paul's messages; no "recorded dead", "not dead", "restored", "open again", "until v2.3 it read";
+  no version tags on citations (#11 §9, not #11 v2.5 §9) outside `history/`, `predictions/table-history`
+  and `method/review/`, which may give dated, neutral document history; and no working instructions
+  to Claude. Flags are pointers ("flag 55", "flag 55, pending"). The evidence against a claim stays in
+  full. A person is named P.R., and "Paul (P.R.)" appears only on `_index` and `method/collaboration`.
+  One neutral sentence on `method/collaboration` and `method/negative-results` states the rule: "A
+  claim is recorded as dead only when theory and data kill it and P.R. agrees." The gate checks the wording.
 - **Analogies.** Wave and Fourier analogies work. Position and momentum relate as a
   waveform and its spectrum, and this is literal, since the Fourier transform implements
   ρ. Ball-rolling metaphors do not work, and neither do debt, payment, ledger or bookkeeping
@@ -309,8 +317,9 @@ spells out new acronyms, or reports them to be added.
 ## The gate
 
 `scripts/check-wiki.py` runs inside `scripts/check.sh` and checks links, anchors, markup
-in headings, section maps, source paths, frontmatter, the italic opening, the status line,
-fences and acronyms. Run it on the files you touched with
+in headings, section maps, source paths, frontmatter, the italic opening, the status line, a
+page's title, status line and register against its status, the wording of "State the claim, not
+the discussion", the summary's length and links, fences and acronyms. Run it on the files you touched with
 `.venv/bin/python scripts/check-wiki.py wiki/x/y.md`; links still resolve wiki-wide.
 `scripts/check.sh` must pass before work is called finished. Do not weaken a check to
 make it pass.
@@ -330,20 +339,23 @@ HTML, that every page was built, and that every heading got the ID this gate com
   `grep -rl 'papers/broken-born-checkpoint-v2.md' wiki/` (frontmatter sources), update
   them, and update the status registers.
 - **A claim dies.** Only when theory and data kill it and Paul explicitly concurs, asked for that
-  death alone and recorded with the date; the death is its own change, never part of a larger one
-  (root `CLAUDE.md`, 'Method'). Then set `status: dead`, rewrite the page as an obituary, add it to
-  the graveyard register, and fix every page that relied on it.
+  death alone and recorded with the date in the source document; the death is its own change, never
+  part of a larger one (root `CLAUDE.md`, 'Method'). Then set `status: dead`, rewrite the page as an
+  obituary, add it to the graveyard register, and fix every page that relied on it. The page says
+  what killed the claim, not who agreed.
 - **Paul reviews a claim under review.** His answer and its date go into the source document
-  first (#11, or the note that holds the claim), then onto the page. If he concurs in the death,
-  the page becomes an obituary and moves from `/wiki/status/under-review` to the graveyard, in a
-  change that holds that death alone. If he does not, the page becomes open or his conjecture, with
-  the evidence against it stated in full. Update the summary in the same change.
+  first (#11, or the note that holds the claim). The page then takes its new status and states it
+  without telling the answer. If he concurs in the death, the page becomes an obituary and moves from
+  `/wiki/status/under-review` to the graveyard, in a change that holds that death alone. If he does
+  not, the page becomes open or his conjecture, with the evidence against it stated in full. Update
+  the summary in the same change if its statements are affected.
 - **A new topic.** Place it by the taxonomy rules, link it from its parent's map and from
   every page that mentions it, and run the gate.
-- **The executive summary.** `wiki/summary.md` condenses the status registers, #11 §13–§15 and the
-  latest notes onto one page, so it goes stale whenever any of them changes. When a claim dies, a flag
-  is ruled on, a note or review round lands, or data bear on a prediction row, update the summary in
-  the same change, with its "current to" date in the description, the opening and the status line.
+- **The executive summary.** `wiki/summary.md` condenses the program's standing onto one page, at most
+  800 words before its Sources (the gate checks this). "Is anything new?" leads with P.R.'s conjectures.
+  It lists no dead claims and no claims under review; those are in the registers, which it links. When a
+  claim's status, a flag or a data point changes what it says, update it in the same change, with its
+  "current to" date in the status line.
 - **A flag is ruled on.** `review/wiki-build-flags.md` lists suspected errors in the source
   documents found while the wiki was built, each with its audit verdict; pages quoting a
   flagged statement point to its number (`grep -rn 'flag N' wiki/`). When Paul rules, correct

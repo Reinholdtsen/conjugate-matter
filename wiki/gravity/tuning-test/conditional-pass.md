@@ -117,4 +117,4 @@ Before the test, #6 §5 made the pass the threshold: "Pass ⇒ the geometric cor
 - `notes/broken-born-program-v1.md` §5, §10, §11 — "[D — both branches computed]"; the v1 open items; "theory" awaiting items 1–2 and the four-step list.
 - `HANDOFF.md` §1, §2 — four consecutive tests; the handoff's summary of the verdict.
 - `verify/battery.py` T3, T4, T7 — the machine checks of the metric half.
-- `review/wiki-build-flags.md` item 7 — "the unique consistent structure" without the "known" that #6 §3 and #7 §5 keep; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 7 — "the unique consistent structure" without the "known" that #6 §3 and #7 §5 keep; pending.

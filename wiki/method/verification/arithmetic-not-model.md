@@ -18,9 +18,9 @@ sources:
   - "review/wiki-build-flags.md items 3, 4, 11, 14, 33, 57"
 ---
 
-*A verification script confirms that a calculation was carried out correctly for the inputs and formulas written into it; it cannot tell whether those inputs and formulas are the right physics. The program learned this from its soliton dark-matter manuscript: every number in it was computed and checked by a gated script, yet one formula, the normalization of how many monopoles the early universe forms, was wrong, and only an independent review caught it. Checkpoint #11 has carried the caution since version 2.1, the rule on independent anchors is the repair, and every script page in this section states what its checks leave to the derivation.*
+*A verification script confirms that a calculation was carried out correctly for the inputs and formulas written into it; it cannot tell whether those inputs and formulas are the right physics. The program learned this from its soliton dark-matter manuscript: every number in it was computed and checked by a gated script, yet one formula, the normalization of how many monopoles the early universe forms, was wrong, and only an independent review caught it. Checkpoint #11 carries the caution, the rule on independent anchors is the repair, and every script page in this section states what its checks leave to the derivation.*
 
-**Status:** Method, in force since #11 v2.1 — untagged — #11 §2 and root `CLAUDE.md` ('Method'); round-3 ruling 13, "Upheld in substance".
+**Status:** Method, in force — untagged — #11 §2 and root `CLAUDE.md` ('Method'); round-3 ruling 13, "Upheld in substance".
 
 ## The principle
 
@@ -51,7 +51,7 @@ The pre-registration was scored a miss: "Three survive (p; the ψ window; ξ), p
 - **ξ**, an input value: "Using N_eff,SM = 3.044, the 95% bound is ΔN_eff < 0.286" (ruling 5; SM is the Standard Model; [the hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history)).
 - **The ε coefficient**, an assumed coupling: the "O(1) coefficient at the Planck scale" for the [kinetic-mixing](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing) operator "is unsupported" (ruling 7; [the dimension-5 operator](/wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator)).
 
-No arithmetic slip survived. The consequence was still fatal to #14's model, dead with Paul's concurrence of 2026-10-29 ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
+No arithmetic slip survived. The consequence was still fatal to #14's model ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)).
 
 ### The failure mode moved
 
@@ -73,7 +73,7 @@ The pages for the scripts in [the gate](/wiki/method/verification/the-gate) each
 - **The soliton-obituary script.** Its docstring says it checks "every number" of the round-3 record; its checks cover the obituary's [V] numbers and the adjudicator's own figures, not the referee's or the literature's (flag 33 in `review/wiki-build-flags.md`).
 - **The phase-space-diameter script.** Its Vainshtein-radius check passes, but the formula it encodes, Enander and Mörtsell's eq. 43, "assumes one mode mass m₁ = 0. In the program's palindromic vacuum that would make X massless"; under eq. 41, one of the formulas that apply, the check's rounding would fail, while the conclusion that laboratory masses are unscreened holds (flag 57, found by the momentum-gravity investigation; [the phase-space-diameter script](/wiki/method/verification/phase-space-diameter-script#flag-57-the-vainshtein-formula)).
 
-These flags are suspected errors in the source documents, quoted faithfully on the pages that carry the statements and awaiting Paul's ruling (`review/wiki-build-flags.md`).
+These flags are suspected errors in the source documents, quoted faithfully on the pages that carry the statements, and they are pending (`review/wiki-build-flags.md`).
 
 ## Sources
 

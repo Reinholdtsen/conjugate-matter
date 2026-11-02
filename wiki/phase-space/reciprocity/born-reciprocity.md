@@ -40,7 +40,7 @@ sources:
 
 *Born reciprocity is the map ρ: (x, p) → (p, −x), which exchanges position and momentum, with one sign change, as a quarter-turn of phase space. The rules of quantum kinematics are unchanged by it, and the [Fourier transform](/wiki/phase-space/reciprocity/fourier-transform) carries it out on wavefunctions. Max Born proposed in 1938 and 1949 that a fundamental theory should respect it. In 1938 he gave momentum space a radius of its own, as Einstein's closed universe has a radius in position, and fixed it at a particle scale; in 1949 he split ℏ into a length and a momentum. The program's paper #13 describes his hope as a physics with a fundamental mass and a [fundamental length](/wiki/phase-space/reciprocity/born-length#borns-fundamental-length) on equal footing. Observed dynamics does not respect it — interactions are local in position — and the program's starting assumption, [its hard core](/wiki/program/hard-core), is that ρ is an exact symmetry of the laws that the vacuum breaks.*
 
-**Status:** Established — literature [T]; [#11](/wiki/history/documents/checkpoint) cites Born from model memory [1†, 2†]. The [round-3 citation audit](/wiki/method/review/round-3/rulings) confirmed both references' metadata but did not read the primary text ("partially verified (primary text not read)", capitals lowered here). The phase-space-diameter note (`papers/phase-space-diameter.md`) has since retrieved and read both papers [S] (§4); checking what #11 and #13 say of them against that text remains part of [the † literature battery](/wiki/method/literature-battery). The program's uses of ρ (its action on the geometry and [the modular field](/wiki/phase-space/modular-field/modular-field-z)) carry their own tags, given below.
+**Status:** Established — literature [T]; [#11](/wiki/history/documents/checkpoint) cites Born from model memory [1†, 2†]. The [round-3 citation audit](/wiki/method/review/round-3/rulings) confirmed both references' metadata but did not read the primary text ("partially verified (primary text not read)", capitals lowered here). The phase-space-diameter note (`papers/phase-space-diameter.md`) retrieved and read both papers [S] (§4); checking what #11 and #13 say of them against that text remains part of [the † literature battery](/wiki/method/literature-battery). The program's uses of ρ (its action on the geometry and [the modular field](/wiki/phase-space/modular-field/modular-field-z)) carry their own tags, given below.
 
 ## The map
 
@@ -160,16 +160,16 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - [The invariant-length shell and Planck closure](/wiki/conjugate-relativity/invariant-length-shell) — #13's version of Born's fundamental length.
 - [The Born length λ](/wiki/phase-space/reciprocity/born-length) — the reference length every statement of ρ needs; Born's own was a particle scale.
 - [The phase-space diameter relation](/wiki/cosmology/scale-factor-duality/phase-space-diameter) and [the self-dual cosmic box](/wiki/cosmology/scale-factor-duality/self-dual-cosmic-box) — ρ keeps a rectangle's area and inverts its aspect ratio; the box from the Planck length to the horizon is self-dual for one Born length.
-- [Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary) — that Born length, excluded in the program's two uses of it.
+- [Under review: the self-dual length as a program scale](/wiki/cosmology/scale-factor-duality/self-dual-length-obituary) — that Born length, which the phase-space-diameter note excludes in the program's two uses of it.
 - [The equivalence principle as dual relativity](/wiki/conjugate-relativity/equivalence-principle) and [Open: the four-dimensional Born map](/wiki/conjugate-relativity/four-dimensional-born-map) — #13's reading of ρ in relativity.
 - [The symplectic charge lattice](/wiki/electric-magnetic-duality/symplectic-charge-lattice) — the same matrix generating S-duality.
 - [Row 9: no linear photon dispersion](/wiki/predictions/photon-dispersion) — the residual symmetry ρ² protects the linear term.
-- [Under review: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) and [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — claims that invoked ρ, the first under review since 2026-10-29, the second dead with Paul's concurrence.
-- [Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — P.R.'s open conjecture, recorded dead until 2026-10-29; the first ground given against it is that the duality relating magnetic to electric charge is electric–magnetic duality, not ρ.
+- [Under review: the coupling α_d ≈ 34](/wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling) and [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary) — claims that invoked ρ: the coupling is under review, and #14's model, built with ordinary kinematics, failed on its recomputed abundance.
+- [Conjecture: conjugate monopoles explain the null result](/wiki/electric-magnetic-duality/monopole-explanation) — P.R.'s open conjecture [O]; the first ground given against it is that the duality relating magnetic to electric charge is electric–magnetic duality, not ρ.
 
 ## Sources
 
-- `CLAUDE.md` 'Since the handoff' — the † literature battery in the current queue, with Born 1938 and 1949 retrieved; Paul's answers of 2026-10-29: #14's model dead with his concurrence, α_d ≈ 34 via our photon and the self-dual length as a program scale under review.
+- `CLAUDE.md` 'Since the handoff' — the † literature battery in the current queue, with Born 1938 and 1949 retrieved; #14's model dead; α_d ≈ 34 via our photon and the self-dual length as a program scale under review.
 - `papers/broken-born-checkpoint-v2.md` §3 — the symmetry of quantum kinematics; the program's reading of it.
 - `papers/broken-born-checkpoint-v2.md` refs [1]–[2] — Born 1938 and 1949, both †.
 - `papers/broken-born-checkpoint-v2.md` §4, §6, §10, §11 — P3 and the v2.2 refinement; ρ acting as Z → −Z⁻¹; ρ inside a continuous U(1) in the toys; the same matrix in S-duality.
@@ -186,4 +186,4 @@ In [model II](/wiki/symmetry-breaking/toy-models/grosse-wulkenhaar) of the toy m
 - `notes/knot-dark-matter-standalone.md` §1 — ρ as a unitary equivalence of representations (withdrawn paper).
 - `popsci/universes-other-half.md` "Two descriptions of one thing" — "one sign adjustment" (popular article; never a status source).
 - `notes/closed-universe.md` §2, §5 — Born 1938 read the other way; the global exchange on a closed space and the compact phase spaces; computed, not reviewed
-- `review/wiki-build-flags.md` item 47 — the scope of #11 §3's "implements it unitarily" once closure is adopted; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 47 — the scope of #11 §3's "implements it unitarily" once closure is adopted (pending)

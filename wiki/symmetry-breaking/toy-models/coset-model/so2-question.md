@@ -73,7 +73,7 @@ The sources give no method for settling the question and no expectation for its 
 ## Sources
 
 - `papers/reciprocity-toy-models.md` §1, §4, §6 — the theorem and its exception, the restricted statement, the open question and the "Not shown" list
-- `papers/reciprocity-toy-models.md` v1 (commit d9a06ac) §1, §4 — the unrestricted statement, now superseded
+- `papers/reciprocity-toy-models.md` v1 (commit d9a06ac) §1, §4 — the unrestricted statement, superseded
 - `review/round4-adjudication.md` 'Rulings' ("Mermin–Wagner vs [11]"), 'Revisions' 1 — upheld (literature); the required restriction
 - `review/round4/referee/audit-notes.md` Step 1, Step 3 — the hyperbolic-model citation and its non-application in v1; conceptual point C2
 - `notes/toy-lagrangian.md` 'Success criteria', 'Predictions', 'Chunk 1 results', 'Chunk 2 results', 'Chunk 3 results', 'Assessment against the predictions' — criterion S4, the forecast, the framing as "the open question", the U(1) stabilizer, and the non-amenability verdict

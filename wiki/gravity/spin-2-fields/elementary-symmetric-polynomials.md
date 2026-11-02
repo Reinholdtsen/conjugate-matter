@@ -183,4 +183,4 @@ The checkpoint states the metric-tier failure as "nonlinear structure Tr(g²) + 
 - `notes/tuning-test.md` §2 — linearity of the ghost-free family; p₄ as a nonlinear polynomial in the eₙ; the Euclidean skeleton.
 - `notes/x-classification.md` §3 — a generic potential reintroduces the Boulware–Deser ghost.
 - `HANDOFF.md` §5, Appendix A — the descriptions of T6 and T7 and their expected output.
-- `review/wiki-build-flags.md` item 14 — which square root's eigenvalues give Tr(g²); awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 14 — which square root's eigenvalues give Tr(g²) (pending).

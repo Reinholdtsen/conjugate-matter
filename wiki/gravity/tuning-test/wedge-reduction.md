@@ -96,4 +96,4 @@ The handoff's ranked queue of next actions did not include the item (`HANDOFF.md
 - `notes/knot-dark-matter-standalone.md` §1 — the caveat as stated in the withdrawn manuscript.
 - `HANDOFF.md` §2 — open item 5; §8 — the ranked queue at the handoff.
 - `CLAUDE.md` 'Since the handoff' — the current queue.
-- `review/wiki-build-flags.md` item 7 — "the unique consistent structure" without the "known" of #6 §3; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 7 — "the unique consistent structure" without the "known" of #6 §3; pending.

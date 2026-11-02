@@ -2,7 +2,7 @@
 title: "The cosmological constant Λ"
 weight: 3
 status: established
-description: "Λ in Einstein's equations as a constant energy density of empty space with w = −1 exactly: the dark energy of ΛCDM, the acceleration and empty de Sitter future it implies, anti-de Sitter for negative Λ, the standard expectation of rows 4 and 5, and the program's uses — τ in its place, dual kinetic energy acting as a Λ, the bimetric potential's constant terms, and the negative effective Λ the turnaround needs."
+description: "Λ in Einstein's equations as a constant energy density of empty space with w = −1 exactly: the dark energy of ΛCDM, the acceleration and empty de Sitter future it implies, anti-de Sitter for negative Λ, the standard expectation of rows 4 and 5, and the program's uses — τ in its place, dual kinetic energy acting as a Λ, the bimetric potential's constant terms, and the negative effective Λ the documents' turnaround needs."
 provenance: [T]
 sources:
   - "papers/broken-born-checkpoint-v2.md §13 rows 4–5"
@@ -155,7 +155,7 @@ The standard expectation sits at the edge of the requirement. The bound w ≥ �
 | --- | --- | --- | --- |
 | Fate of expansion | Eternal de Sitter | Turnaround = conjugate bounce | (Long horizon; near-term test is row 4) |
 
-With a positive Λ the expansion approaches de Sitter space and never stops ([above](#toward-de-sitter-space)). The program's requirement replaces that future with a turnaround, which needs a negative vacuum energy ([a negative effective Λ](#a-negative-effective-λ-the-turnaround), below; [row 5](/wiki/predictions/fate-of-expansion)).
+With a positive Λ the expansion approaches de Sitter space and never stops ([above](#toward-de-sitter-space)). The program's requirement replaces that future with a turnaround, which in a flat universe needs a negative vacuum energy ([a negative effective Λ](#a-negative-effective-λ-the-turnaround), below; [row 5](/wiki/predictions/fate-of-expansion)).
 
 Neither standard expectation has changed since the lab notebook's predictions table, where they are rows 5 and 6 (#1 §9), and the v1 paper's, where they are rows 4 and 5 (#9 §9) ([the history of the predictions table](/wiki/predictions/table-history)).
 
@@ -184,7 +184,7 @@ The first two entries involve Λ.
 - **Dual stiff ↦ Λ.** A stiff fluid, w̃ = +1, is what a uniform field becomes when its energy is all kinetic [T]. Its energy grows as a³, at the same rate as our volume, so the density it contributes here is constant, as a cosmological constant's is ([it does not thin](#it-does-not-thin)). The notebook's table lists "Kinetic/stiff energy (w̃ = +1)" as appearing as a "Cosmological constant (w = −1)" (#1 §6).
 - **Dual Λ ↦ stiff.** A cosmological constant on the conjugate side, w̃ = −1, has energy falling as a⁻³ and contributes a density falling as a⁻⁶: a stiff fluid on our side, which matters only at early times.
 
-From the first entry the notebook concluded that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6), and it then identified dark energy with τ's potential energy (#1 §7). No document derives the second from the first ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)). Since #11 v2.4 the first entry has also been the route of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration [O]. #11 §10 records its question: "Whether the contracting conjugate universe is kinetic-dominated, and how this route relates to τ's potential, are open" ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
+From the first entry the notebook concluded that "the natural source of a near-constant dark energy is **kinetic energy in the dual frame**" (#1 §6), and it then identified dark energy with τ's potential energy (#1 §7). No document derives the second from the first ([Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link)). The first entry is also the route of P.R.'s conjecture that the conjugate universe's collapse drives our acceleration [O]. #11 §10 records its question: "Whether the contracting conjugate universe is kinetic-dominated, and how this route relates to τ's potential, are open" ([Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion)).
 
 ### Cosmological constants in the bimetric potential
 
@@ -198,7 +198,7 @@ The documents name the result after Λ: "V(1) = 2T ⇒ Λ_wedge = 0" (`HANDOFF.m
 
 The program's alternative to eternal de Sitter is a turnaround. In the lab notebook, once τ's potential energy is below zero, "the effective vacuum energy is negative, expansion halts, and slow contraction begins" (#1 §7 item 3): τ's potential would act as a negative effective Λ, and the universe would follow the anti-de Sitter sequence described [above](#a-negative-λ-turnaround-and-collapse-t). Through the constraint a·ã = 1 the program reads the turnaround as the conjugate universe's bounce: "The turnaround is the conjugate bounce by constraint identity" (#11 §10; [the turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce)).
 
-The premise is in doubt. The documents write τ's potential as V₀[1 + cos(τ/f)], which is never negative when V₀ > 0, so as written it never supplies a negative effective Λ. Flag 27 in `review/wiki-build-flags.md` records the conflict: "Either the potential carries a negative offset not written down, or the turnaround needs another mechanism." It awaits Paul's ruling. Until then the turnaround, its reading as the conjugate bounce, and the turnaround time counted in [the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) rest on an unresolved point ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). The flag's addendum (2026-10-27) finds the other mechanism in a closed universe: there τ passes its minimum and oscillates, acting as dust, and the curvature reverses the expansion with V ≥ 0 throughout, so no negative effective Λ is needed, while a flat or open universe never turns around. The addendum concludes that #11 §10's "eventually goes negative" and the handoff's "eventual negative V ⇒ turnaround" name the wrong cause ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-turnaround-needs-k--1-dv)).
+The premise is in doubt. The documents write τ's potential as V₀[1 + cos(τ/f)], which is never negative when V₀ > 0, so as written it never supplies a negative effective Λ. Flag 27 in `review/wiki-build-flags.md`, pending, records the conflict: "Either the potential carries a negative offset not written down, or the turnaround needs another mechanism." The turnaround, its reading as the conjugate bounce, and the turnaround time counted in [the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) rest on an unresolved point ([Open: the sign of V(τ) and the turnaround](/wiki/cosmology/dark-energy/potential-sign)). The flag's addendum (2026-10-27) finds the other mechanism in a closed universe: there τ passes its minimum and oscillates, acting as dust, and the curvature reverses the expansion with V ≥ 0 throughout, so no negative effective Λ is needed, while a flat or open universe never turns around. The addendum concludes that #11 §10's "eventually goes negative" and the handoff's "eventual negative V ⇒ turnaround" name the wrong cause ([a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe#the-turnaround-needs-k--1-dv)).
 
 ## History and references [T]
 
@@ -215,12 +215,12 @@ Einstein added the term to his field equations to permit a static universe, and 
 ## Used by
 
 - [Row 4: thawing dark energy, never phantom](/wiki/predictions/dark-energy-drift) — the standard expectation w ≡ −1 and the kill condition "DR3+ constant −1".
-- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — the standard expectation "Eternal de Sitter" and the negative effective Λ the turnaround needs.
+- [Row 5: the fate of the expansion](/wiki/predictions/fate-of-expansion) — the standard expectation "Eternal de Sitter" and the negative effective Λ the documents' turnaround needs.
 - [τ: hilltop quintessence on the Maslov circle](/wiki/cosmology/dark-energy/tau-quintessence) — the observed dark energy assigned to τ in place of Λ; near its hilltop τ acts almost as a cosmological constant.
 - [The no-phantom bound w ≥ −1](/wiki/cosmology/dark-energy/no-phantom-bound) — the bound's limiting value is Λ's, and its kill condition sets aside artifacts of an assumed ΛCDM background.
 - [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — dual stiff ↦ Λ, dual Λ ↦ stiff.
 - [Open: dual kinetic energy versus τ's potential](/wiki/cosmology/scale-factor-duality/dual-kinetic-link) — conjugate kinetic energy acting as a cosmological constant.
-- [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — dual stiff ↦ Λ as the conjecture's route, open since #11 v2.4.
+- [Conjecture: conjugate collapse powers our expansion](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion) — dual stiff ↦ Λ as the conjecture's route.
 - [The vacuum-energy identity V(1) = 2T](/wiki/gravity/palindromic-branch/vacuum-energy-identity) — the wedge sector contributes zero cosmological constant.
 - [Open: the partially-massless comparison (OP2)](/wiki/gravity/palindromic-branch/pm-comparison) — the "Λ = 0" identity against the partially massless point at Λ ≠ 0.
 - [The turnaround as the conjugate bounce](/wiki/cosmology/scale-factor-duality/conjugate-bounce) — a negative vacuum energy and the anti-de Sitter sequence.
@@ -229,7 +229,7 @@ Einstein added the term to his field equations to permit a static universe, and 
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §13 rows 4–5 — the standard expectations "w ≡ −1" and "Eternal de Sitter", the requirements and the kill conditions
-- `papers/broken-born-checkpoint-v2.md` §10 — τ in place of Λ, the dictionary's "Dual stiff ↦ Λ; dual Λ ↦ stiff", since v2.4 the route of founding supposition 9 [O] and its open question, the fits and the anti-de Sitter transition, DR2's crossing, the turnaround as the conjugate bounce, the wedge sector competing with τ; refs [19], [21] — the fits and DESI DR2 Results II (live-searched)
+- `papers/broken-born-checkpoint-v2.md` §10 — τ in place of Λ, the dictionary's "Dual stiff ↦ Λ; dual Λ ↦ stiff", the route of founding supposition 9 [O] and its open question, the fits and the anti-de Sitter transition, DR2's crossing, the turnaround as the conjugate bounce, the wedge sector competing with τ; refs [19], [21] — the fits and DESI DR2 Results II (live-searched)
 - `papers/broken-born-checkpoint-v2.md` §7.3 — "the wedge sector contributes zero cosmological constant" and the identity's scope; ref [22] (live-searched); §7.4 — the partially massless point "at Λ ≠ 0"
 - `CLAUDE.md` 'Since the handoff' — the dark-energy sector "under real pressure ahead of DR3"
 - `HANDOFF.md` §2 — "robust constant w = −1 kills the τ sector"; §3 — "V(1) = 2T ⇒ Λ_wedge = 0"

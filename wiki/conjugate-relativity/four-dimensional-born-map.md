@@ -24,7 +24,7 @@ sources:
 
 *The four-dimensional Born map is the version of [Born's reciprocity transformation](/wiki/phase-space/reciprocity/born-reciprocity) that exchanges time with energy as well as position with momentum. [#13](/wiki/conjugate-relativity), the paper on the special relativity of the [momentum polarization](/wiki/phase-space/reciprocity/lagrangian-polarizations), names it as the fully covariant construction in which its kinematics belongs, and it has not been built. #13 itself works in a 3+1 presentation, in which space and momentum trade places while time is shared by both polarizations. The map is also a prerequisite for the dual dynamics, the field equations of the momentum polarization ("their Maxwell, their field theory"), which do not exist: only the dual kinematics has been written, and the [dual second law](/wiki/conjugate-relativity/dual-inertia#conjecture-the-dual-second-law) that #13 sketches is marked conjecture-tier until it is. Both items are open in #13 §7, and neither is on the [checkpoint #11](/wiki/history/documents/checkpoint)'s [list of open problems](/wiki/status/open-problems) or on the current queue.*
 
-**Status:** Open — [O] — #13 §6 and §7; nothing computed, no `verify/` script; not in #11 §14 or the current queue in `CLAUDE.md`. #13 is unreviewed and not mentioned in [#11](/wiki/history/documents/checkpoint) (v2.5). Listed in [Open problems and the queue](/wiki/status/open-problems).
+**Status:** Open — [O] — #13 §6 and §7; nothing computed, no `verify/` script; not in #11 §14 or the current queue in `CLAUDE.md`. #13 is unreviewed and not mentioned in [#11](/wiki/history/documents/checkpoint). Listed in [Open problems and the queue](/wiki/status/open-problems).
 
 ## The open items
 

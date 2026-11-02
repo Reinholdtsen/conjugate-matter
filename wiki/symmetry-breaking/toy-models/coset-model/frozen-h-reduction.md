@@ -61,7 +61,7 @@ Model I's Lagrangian is Euclidean. The Euclidean action of a field theory in 1+1
 
 The first version of the note made the reduction without naming it: "At H = 1 the polarization field is φ, with XY stiffness (f_K²/2)(∂φ)²." (v1 §4, commit d9a06ac). With the potential it used then, H frozen was the only setting in which the intended vacua exist. Round-4 finding F2, upheld: "So (1, K_ref) is a saddle, and the Monte Carlo simulates a frozen-H reduction, not model I" (`review/round4-adjudication.md`). The referee: "The 'two vacua K=+-K_ref' exist only if H is frozen at 1, which the manuscript asserts ('At H = 1 the polarization field is phi') but does not justify; H is a dynamical hyperbolic sigma field." (Step 2(a)). The failure is recorded at [Under review: the naive ρ-preserving potential](/wiki/symmetry-breaking/toy-models/coset-model/naive-potential).
 
-Revision 1 required: "Present the Monte Carlo as the frozen-H reduction, explicitly." Version 2 says "H is not simulated" (§4), and the script's docstring now reads: "This is the frozen-H reduction of the coset toy (H = 1 held fixed); the unreduced model's stability with the bounded potential V_b is checked in toy_coset.py." (`verify/toy_s4.py`; capitals lowered here). The second half of that sentence is the check that the [reduced-model stability rule](/wiki/method/verification/reduced-model-stability) now demands: with V_b the unreduced vacuum is a stable minimum with H dynamical (`verify/toy_coset.py`). The simulation itself still covers only the angle.
+Revision 1 required: "Present the Monte Carlo as the frozen-H reduction, explicitly." Version 2 says "H is not simulated" (§4), and the script's docstring reads: "This is the frozen-H reduction of the coset toy (H = 1 held fixed); the unreduced model's stability with the bounded potential V_b is checked in toy_coset.py." (`verify/toy_s4.py`; capitals lowered here). The second half of that sentence is the check that the [reduced-model stability rule](/wiki/method/verification/reduced-model-stability) demands: with V_b the unreduced vacuum is a stable minimum with H dynamical (`verify/toy_coset.py`). The simulation itself still covers only the angle.
 
 ## What it establishes
 
@@ -102,12 +102,12 @@ Round-4 lesson 1: "When numerics run on a reduced model (some fields frozen), ch
 
 - `papers/reciprocity-toy-models.md` §4, §6 — the reduction as simulated; "Shown" and "Not shown"; "We did not measure critical exponents"
 - `papers/reciprocity-toy-models.md` v1 (commit d9a06ac) §4, §6 — the unstated reduction and the superseded "Ising-class" claim
-- `papers/broken-born-checkpoint-v2.md` §4, §14 item 11 — P2′'s price; the result as the checkpoint records it, and the open simulation [O]
+- `papers/broken-born-checkpoint-v2.md` §4, §14 item 11 — the rigid pair of axes P2′ needs; the result as the checkpoint records it, and the open simulation [O]
 - `review/round4-adjudication.md` 'Rulings' F2, 'Revisions' 1, 'Lessons', 'Pre-registration scored' — the frozen-H finding, the required reframing, the rule and the scored weakest link
 - `review/round4-preregistration.md` 'Predictions' — the predicted weakest link
 - `review/round4/referee/audit-notes.md` Step 2(a), Step 2(c), Step 3 — the stiffness check, the universality-class point, point C3 and the reading of how spontaneous the breaking is
 - `verify/toy_s4.py` — the reduction as coded, and its docstring
 - `verify/toy_coset.py` — the unreduced model's stability with V_b
-- `notes/toy-lagrangian.md` 'Success criteria', 'Chunk 3 results', 'Assessment against the predictions' — criterion S4; the reduction as first made; the Ising-class wording and the price of the potential
+- `notes/toy-lagrangian.md` 'Success criteria', 'Chunk 3 results', 'Assessment against the predictions' — criterion S4; the reduction as first made; the Ising-class wording and the rigid pair of axes the potential needs
 - `CLAUDE.md` 'Method', 'Since the handoff' — the reduced-model rule; the open simulation
-- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — "bounded only at frozen H" with only H held fixed, and the audit's verdict; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 40 and `review/wiki-build-checks/frozen_h_naive.py` — "bounded only at frozen H" with only H held fixed, and the audit's verdict (pending)

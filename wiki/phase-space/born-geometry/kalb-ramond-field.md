@@ -103,7 +103,7 @@ Three standard properties [T]:
 
 DFT there is double field theory. "Stiffer" means that the generalized metric has fewer free components: double field theory's carries g and B, and with ω and η both rigid only g remains ([the corollaries](/wiki/phase-space/born-geometry/compatibility-corollaries#corollary-2-no-kalbramond-analog)).
 
-#11 §5 lists "no Kalb–Ramond analog" among the theorem's corollaries and, since version 2.1, has credited the theorem to [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality): "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." There G is the metric and B the Kalb–Ramond field. The round-3 referee located the passage in their metastring paper, arXiv:1502.08005, p. 11, and quoted it (audit notes, Step 1):
+#11 §5 lists "no Kalb–Ramond analog" among the theorem's corollaries and credits the theorem to [Freidel, Leigh and Minic](/wiki/phase-space/reciprocity/broken-born-duality): "writing the η-compatible H in terms of (G, B), H is related to ω through a complex structure exactly when B vanishes [26S, §2.1]." There G is the metric and B the Kalb–Ramond field. The round-3 referee located the passage in their metastring paper, arXiv:1502.08005, p. 11, and quoted it (audit notes, Step 1):
 
 ```text
 "If, in addition, we assume that B vanishes we have that I is a complex
@@ -179,7 +179,7 @@ In order of writing:
 - **The [lab notebook](/wiki/history/documents/lab-notebook)**, v0.4 addendum: X's local gauge structure makes it "a *second graviton* — which is the structural reason η-doubling (string theory's B-field) is easy and ω-doubling is hard".
 - **The v1 paper #9**, §3: "no Kalb–Ramond analog"; §5 item 2: "Contrast DFT, whose partner is the antisymmetric B-field — a 2-form, spin-harmless".
 - **The round-3 audit**, Step 1: the passage of Freidel, Leigh and Minic on vanishing B; Step 3: family (c), the generalized metrics with a B-field.
-- **Checkpoint #11**, §5: "no Kalb–Ramond analog" and, since v2.1, the attribution to Freidel, Leigh and Minic in terms of (G, B); §7.1: the contrast with "DFT's antisymmetric B-field".
+- **Checkpoint #11**, §5: "no Kalb–Ramond analog" and the attribution to Freidel, Leigh and Minic in terms of (G, B); §7.1: the contrast with "DFT's antisymmetric B-field".
 
 ## References
 

@@ -228,7 +228,7 @@ The referee's item 10 named prior work that #14 did not cite: "Baek, Ko & Park J
 
 ### What became of the list
 
-Decision 1, strict sector separation, names the three channels it closes: it "closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector" ([Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)). Decision 2 then retired the candidate the list had been written against, #14's model in Paul's narrowing of 2026-10-29, and the same day he concurred that the model is dead. No later document returns to the list, which stands as the adjudication wrote it.
+Decision 1, strict sector separation, names the three channels it closes: it "closes three failure channels at once: ψ millicharge, the monopoles' Witten-effect charge (ruling 9), and re-thermalization of the hidden sector" ([Decision 1](/wiki/method/review/round-3/decisions#decision-1-strict-sector-separation)). Decision 2 then retired #14's model, which the list had been written against. No later document returns to the list, which stands as the adjudication wrote it.
 
 ## The citation audit
 
@@ -285,7 +285,7 @@ The adjudication's list:
 - "The kinetic-mixing literature points (a) and (c)": mixing from gravity alone, and no visible magnetic flux while U(1)_d is unbroken ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing));
 - "The statement that the minimal adjoint-only sector is excluded."
 
-#11 §12 gives its own list of survivors, which overlaps this one; the two are compared on [the obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary#what-survives). #14's model is dead, with Paul's concurrence of 2026-10-29 ([the graveyard](/wiki/status/graveyard)). The pieces of it recorded dead after the round, among them the Kibble normalization, the ψ relic window, Planck-suppressed adjoint mixing and the √N floor, have been under review since that day and are not dead until he reviews them ([claims under review](/wiki/status/under-review)). The candidate it modeled, conjugate monopoles localized in momentum, has been P.R.'s open conjecture since #11 v2.4 ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+#11 §12 gives its own list of survivors, which overlaps this one; the two are compared on [the obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary#what-survives). #14's model is listed in [the graveyard](/wiki/status/graveyard). Pieces of it that the round weighed against, among them the Kibble normalization, the ψ relic window, Planck-suppressed adjoint mixing and, through its premise, the √N floor, are under review ([claims under review](/wiki/status/under-review)). The candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture; #14's model did not treat localization in momentum, so the candidate itself has not been tested ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## Sources
 

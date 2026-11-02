@@ -105,7 +105,7 @@ What it puts in by hand is K_ref up to sign: an unordered pair of axes. The refe
 ## Sources
 
 - `papers/reciprocity-toy-models.md` §4, §6 — the definition, bound, symmetries, Hessian, zero mode, vacuum manifold and H = 1 form, quoted above; the underived potential listed as not shown
-- `papers/broken-born-checkpoint-v2.md` §4, §10, §14 item 11 — P2′'s price, the boundedness requirement [D][V], and the criterion met with V_b
+- `papers/broken-born-checkpoint-v2.md` §4, §10, §14 item 11 — the rigid pair of axes P2′ needs, the boundedness requirement [D][V], and the criterion met with V_b
 - `verify/toy_coset.py` — the gated bound, invariances, stability, zero-mode and boost checks, and the Cauchy–Schwarz comment
 - `verify/toy_s4.py` — the lattice energy as V_b at H = 1
 - `review/round4-adjudication.md` 'Rulings' F2, 'Revisions' 1 — "This is the repair"; the boost-family summary; the adjudicator's reading of the zero mode
@@ -113,4 +113,4 @@ What it puts in by hand is K_ref up to sign: an unordered pair of axes. The refe
 - `review/round4/referee/audit-notes.md` Step 3 — the referee's proposal and its caveat about the residual boosts; the axis pair fixed by hand
 - `review/round4/referee/out_fix_potential.txt`, `review/round4/referee/ref_fix_potential.py` — the referee's sampled bounds, invariance and closed form on the runaway family
 - `CLAUDE.md` 'Since the handoff' — the derivation listed as an open end; 'Method' — "bounded only at frozen H"
-- `review/wiki-build-flags.md` item 40 — the naive form with only H held at 1, and the audit's verdict on "bounded only at frozen H"; awaiting Paul's ruling
+- `review/wiki-build-flags.md` item 40 — the naive form with only H held at 1, and the audit's verdict on "bounded only at frozen H" (pending)

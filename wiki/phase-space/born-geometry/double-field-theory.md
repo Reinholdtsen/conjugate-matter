@@ -70,7 +70,7 @@ The literature gives three routes (toy-model note §1; worklog chunk 4, "all cit
 - **Derived from string consistency.** Betz, Blumenhagen, Lüst and Rennecke derive it "from modular invariance plus amplitude poles" (worklog); the round-4 referee confirmed the derivation from conformal field theory, "factorization of Virasoro-Shapiro amplitude".
 - **Derived from worldsheet locality** in Freidel, Leigh and Minic's metastring paper, arXiv:1502.08005 §6 (worklog).
 
-None of the derivations picks out one section. The toy-model note (v2, §1): "Those derivations leave the section undetermined within a family — a pair for d = 1, a continuous family for d > 1." Betz et al. find "w = 0 for M = 1 and p = 0 for M = −1" (worklog), where M is an O(d) matrix.
+None of the derivations picks out one section. Version 2 of the toy-model note (§1): "Those derivations leave the section undetermined within a family — a pair for d = 1, a continuous family for d > 1." Betz et al. find "w = 0 for M = 1 and p = 0 for M = −1" (worklog), where M is an O(d) matrix.
 
 The wording has a correction history. The worklog first wrote "Every derivation selects only the pair {L, L̃}". The round-4 referee judged the claim overstated, and the adjudication upheld the finding "'Every derivation selects the pair' holds only for d = 1", with the evidence "For d > 1, Betz–Blumenhagen–Lüst–Rennecke's M ∈ O(d) gives a continuous family of sections." Version 2 of the note restricts the pair to d = 1 ([review round 4](/wiki/method/review/round-4)).
 

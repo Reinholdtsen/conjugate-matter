@@ -92,7 +92,7 @@ The Fourier pair sets a trade-off: a signal cannot be both short in time and nar
 
 In phase space the corresponding cell has area h per position–momentum pair (Weyl's law), and radiation at occupation number of order one holds about one quantum per cell (§3). The note's plain-language account of extent and resolution: "A waveform of duration T can be resolved in frequency only to about 1/T, and a waveform sampled at intervals τ has a spectrum that reaches only to about 1/τ; the number of independent samples is the same in both descriptions" (§4).
 
-**The cosmic version, now documented.** `HANDOFF.md` §4 ([the handoff document](/wiki/history/documents/handoff)) lists, among results that existed only in the old chat, a "Phase-space diameter relation: D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem)", which it calls "Conjecture-tier; candidate for a future note". The note is now written (`papers/phase-space-diameter.md`; root `CLAUDE.md`, 'Since the handoff'). Expansion stretches every light wave by the same factor and narrows its spectrum by that factor, so the radiation filling a fixed comoving region keeps the area of its patch of phase space [T]. For blackbody radiation filling a sphere, with D_x the diameter and D_p twice the mean photon momentum, the relation is an identity of blackbody statistics [D][V]:
+**The cosmic version.** `HANDOFF.md` §4 ([the handoff document](/wiki/history/documents/handoff)) lists, among results that existed only in the old chat, a "Phase-space diameter relation: D_x · D_p = h · N^(1/3) per dimension (cosmic time–bandwidth theorem)", which it calls "Conjecture-tier; candidate for a future note". That note is `papers/phase-space-diameter.md` (root `CLAUDE.md`, 'Since the handoff'). Expansion stretches every light wave by the same factor and narrows its spectrum by that factor, so the radiation filling a fixed comoving region keeps the area of its patch of phase space [T]. For blackbody radiation filling a sphere, with D_x the diameter and D_p twice the mean photon momentum, the relation is an identity of blackbody statistics [D][V]:
 
 ```text
 D_x · D_p = κ · h · N_γ^(1/3),     κ = 1.708
@@ -148,7 +148,7 @@ The first three are cited by the phase-space-diameter note, which retrieved them
 
 - `CLAUDE.md` 'Since the handoff' — the phase-space-diameter note done; the chat relation as standard physics that cannot test the program.
 - `papers/broken-born-checkpoint-v2.md` §3 — the Fourier transform implements ρ unitarily [1†, 2†].
-- `notes/closed-universe.md` §5 and `review/wiki-build-flags.md` item 47 — the global exchange fails on a closed space and the local one holds to (2/3)(σ/R)²; the scope the sentence needs once closure is adopted, awaiting Paul's ruling.
+- `notes/closed-universe.md` §5 and `review/wiki-build-flags.md` item 47 — the global exchange fails on a closed space and the local one holds to (2/3)(σ/R)²; the scope the sentence needs once closure is adopted (pending).
 - `papers/phase-space-diameter.md` §1, §3, §4 — the cosmic time–bandwidth relation as an identity of blackbody statistics [D][V]; Shannon, Slepian and Gabor [S]; the waveform's resolution and sampling; §5 — the transform on Gaussian packets as Z → −1/Z [T][V]; References — the three signal-analysis papers.
 - `verify/phase_space_diameter.py` — κ = 1.708, N_γ = 1.43 × 10⁸⁹, the area 8.9 × 10²⁹ h, and the numerical transform of one Gaussian packet.
 - `papers/broken-born-checkpoint-v2.md` Appendix A — supposition 2, one state with two descriptions.

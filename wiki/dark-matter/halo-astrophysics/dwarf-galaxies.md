@@ -2,7 +2,7 @@
 title: "Dwarf galaxies: cores and ultra-faint dwarfs"
 weight: 20
 status: established
-description: "The cusp–core problem and baryonic feedback in classical dwarfs; ultra-faint dwarfs as the densest, most dark-matter-dominated systems, with Segue 1's inputs as the program used them (uncited, to be source-checked)."
+description: "The cusp–core problem and baryonic feedback in classical dwarfs; ultra-faint dwarfs as the densest, most dark-matter-dominated systems, with Segue 1's inputs as the calc notes used them (uncited there, to be source-checked)."
 provenance: [T]
 sources:
   - "notes/ufd-endpoint.md 'Sharpened input numbers'"
@@ -19,11 +19,12 @@ sources:
   - "notes/knot-dark-matter-standalone.md §4"
   - "notes/knot-dark-matter-standalone.md §5"
   - "review/round3/referee/audit-notes.md Step 2"
+  - "review/momentum-gravity/scripts/corner/obs_corner.py part D"
 ---
 
-*Dwarf galaxies are small, faint galaxies, many of them satellites of the Milky Way, whose mass is mostly dark matter. In many of the brighter, classical dwarfs the dark matter's central density is flatter than collisionless cold dark matter (CDM) predicts — the cusp–core problem — which a self-interaction of the dark matter, the wave nature of very light dark matter, or the gravitational stirring caused by gas that supernovae blow out of the center can explain. The ultra-faint dwarfs (UFDs) are fainter still, and they are the densest, oldest and most dark-matter-dominated systems known. In the Comatter program, the classical dwarfs fix the strength of [conjugate matter](/wiki/dark-matter/conjugate-matter)'s self-scattering, and the ultra-faint dwarfs, Segue 1 among them, contradict the prediction of [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), one branch of the momentum-clumping test; Scenario A has been under review since 2026-10-29.*
+*Dwarf galaxies are small, faint galaxies, many of them satellites of the Milky Way, whose mass is mostly dark matter. In many of the brighter, classical dwarfs the dark matter's central density is flatter than collisionless cold dark matter (CDM) predicts — the cusp–core problem — which a self-interaction of the dark matter, the wave nature of very light dark matter, or the gravitational stirring caused by gas that supernovae blow out of the center can explain. The ultra-faint dwarfs (UFDs) are fainter still, and they are the densest, oldest and most dark-matter-dominated systems known. In the Comatter program, the classical dwarfs fix the strength of [conjugate matter](/wiki/dark-matter/conjugate-matter)'s self-scattering, and the ultra-faint dwarfs, Segue 1 among them, contradict the prediction of [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), one branch of the momentum-clumping test; Scenario A is under review.*
 
-**Status:** Established observational background — [T] — the Segue 1 numbers below are the program's own inputs, stated without a citation in any source and not checked by a `verify/` script; they are to be source-checked before external use.
+**Status:** Established observational background — [T] — the Segue 1 numbers below are the program's own inputs, stated without a citation in the calc notes and not checked by a `verify/` script; they are to be source-checked before external use.
 
 ## What dwarf galaxies are [T]
 
@@ -59,9 +60,9 @@ Each of the program's dark-matter options needs the dwarf cores to come from som
 | χ particles ([particle island](/wiki/dark-matter/momentum-clumping/classicality-theorem)) | alive | gated self-scattering, at the core-fitting value above ([χ particles](/wiki/dark-matter/candidates/chi-particles)) |
 | Wave χ, [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a) | under review | the gated condensation channel, as "the core-maker" (calc note #3) |
 | Wave χ, [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b) | alive, quarantined | "fuzzy-end quantum pressure at m ∼ 10⁻²² eV, or baryonic feedback" (calc note #3) |
-| #14's superheavy solitons ([failed](/wiki/dark-matter/candidates/soliton-candidate/obituary)) | dead | baryonic feedback, since #14 found its monopoles "effectively collisionless cold dark matter" (#14 §4) |
+| #14's superheavy-soliton model ([failed](/wiki/dark-matter/candidates/soliton-candidate/obituary)) | dead | baryonic feedback, since #14 found its monopoles "effectively collisionless cold dark matter" (#14 §4) |
 
-Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that calc note #4 later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The soliton manuscript #14, now withdrawn, estimated the [monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)' self-interaction at [σ_T/M](/wiki/dark-matter/halo-astrophysics/transfer-cross-section#σ_tm-of-14s-model) ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The [round-3](/wiki/method/review/round-3) referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). #14's model failed for other reasons ([its obituary](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate it modeled, monopoles localized in momentum, has been P.R.'s conjecture since v2.4, and no source says where it would get dwarf cores ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
+Two entries need comment. Scenario B's fuzzy option lies below the lower edge of the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) that calc note #4 later set, 3×10⁻¹⁹ eV; neither note addresses the difference ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)). The withdrawn soliton manuscript #14 estimated the [monopoles](/wiki/electric-magnetic-duality/monopoles/thooft-polyakov-monopole)' self-interaction at [σ_T/M](/wiki/dark-matter/halo-astrophysics/transfer-cross-section#σ_tm-of-14s-model) ∼ 10⁻²⁶ cm²/g and concluded: "The candidate is effectively collisionless cold dark matter, so observed dwarf-galaxy cores must be attributed to baryonic feedback" (`notes/knot-dark-matter-standalone.md` §4). It listed the opposite finding among its exclusion conditions: "Demonstration that dwarf cores require dark-sector self-interaction (this candidate cannot supply it)" (§5). The [round-3](/wiki/method/review/round-3) referee's audit reproduced the self-interaction estimate, up to a factor-2 convention (`review/round3/referee/audit-notes.md`, Step 2). #14's model failed for other reasons ([Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)); the candidate it modeled, conjugate monopoles localized in momentum, is P.R.'s open conjecture, and no source says where it would get dwarf cores ([Conjecture: magnetic monopoles abundant in momentum space](/wiki/dark-matter/candidates/momentum-space-monopoles)).
 
 ## Ultra-faint dwarfs [T]
 
@@ -73,9 +74,9 @@ Those properties make them sensitive tests of dark-matter physics. Their potenti
 
 Calc note #4 chose Segue 1 as the test system and gave its inputs ('Sharpened input numbers'):
 
-> Segue 1: M(< 38 pc) ≈ 6×10⁵ M_⊙ ⇒ mean core density ρ ≈ 100 GeV/cm³ (not the conservative 20 used in #3), σ ≈ 3.7 km/s, t_dyn ≈ 10 Myr.
+> Segue 1: M(< 38 pc) ≈ 6×10⁵ M_⊙ ⇒ mean core density ρ ≈ 100 GeV/cm³ (not the conservative 20 used in 3b), σ ≈ 3.7 km/s, t_dyn ≈ 10 Myr.
 
-and its character ('The data'): "Segue 1 has M/L ~ 10³ and a ~13 Gyr stellar population sitting in an intact, *dense* halo". No source cites a measurement for any of these numbers, and no `verify/` script checks them.
+with 3b being calc note #3, and its character ('The data'): "Segue 1 has M/L ~ 10³ and a ~13 Gyr stellar population sitting in an intact, *dense* halo". The calc notes cite no measurement for any of these numbers, and no `verify/` script checks them. The momentum-gravity investigation's scripts do cite one, for a separate estimate, the heating of Segue 1's stars by early clumps ([observational proxies](/wiki/dark-matter/momentum-clumping/long-range-gated-attraction#observational-proxies)): `review/momentum-gravity/scripts/corner/obs_corner.py` takes σ = 3.7 km/s, with its own mass and half-light radius, from Simon et al. 2011 [S], "via search summary".
 
 With these inputs, calc note #4 reruns calc note #3's ratio of [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) to orbital stirring, normalized to the dwarf cores (κ = 1):
 
@@ -87,7 +88,7 @@ where ρ_d and σ_d are the classical dwarf core's values. The condensation time
 
 ## What the ultra-faint dwarfs show
 
-Under Scenario A, condensation would be mandatory in ultra-faint dwarfs, and the condensate of an [attractive self-interaction](/wiki/dark-matter/wave-dark-matter/attractive-condensates) would cycle through collapses that eject dark matter faster than the escape velocity. Calc note #4's prediction for that branch: "UFDs today should be low-density, inflated, or gone." Segue 1's dense, intact halo and old stars contradict it: "Branch (i) predicts the opposite of what is observed" ('The data'), and "Scenario A is falsified by the existence of ultra-faint dwarfs" ('Verdict and closure of the clumping problem'). The checkpoint records it as "**falsified** by observed UFD density and longevity" (#11 §9), and the lab notebook's addendum v0.2 as "falsified by the observed density and longevity of Segue 1-class systems". Its page is [Under review: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a). Recorded dead until 2026-10-29, the scenario is now under review, not dead, until Paul reviews it (#11 §9, 'Status (v2.5)'); it is listed in [claims under review](/wiki/status/under-review).
+Under Scenario A, condensation would be mandatory in ultra-faint dwarfs, and the condensate of an [attractive self-interaction](/wiki/dark-matter/wave-dark-matter/attractive-condensates) would cycle through collapses that eject dark matter faster than the escape velocity. Calc note #4's prediction for that branch: "UFDs today should be low-density, inflated, or gone." Segue 1's dense, intact halo and old stars contradict it: "Branch (i) predicts the opposite of what is observed" ('The data'), and "Scenario A is falsified by the existence of ultra-faint dwarfs" ('Verdict and closure of the clumping problem'). The checkpoint records it as "**falsified** by observed UFD density and longevity" (#11 §9), and the lab notebook's addendum v0.2 as "falsified by the observed density and longevity of Segue 1-class systems". Scenario A is under review (#11 §9): its page is [Under review: Scenario A and the ultra-faint-dwarf endpoint](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a), listed in [claims under review](/wiki/status/under-review).
 
 ## Superseded: calc note #3's ultra-faint-dwarf row
 
@@ -95,7 +96,7 @@ Calc note #3's environment table first entered the ultra-faint dwarfs as "Ultra-
 
 ## References
 
-The program's documents cite no source for the cusp–core problem, baryonic feedback, the ultra-faint dwarfs or Segue 1. Added by the wiki from model memory (†):
+The program's papers and notes cite no source for the cusp–core problem, baryonic feedback or Segue 1's data, and for the ultra-faint dwarfs only the checkpoint's [15]† ([bounds on fuzzy dark matter](/wiki/dark-matter/wave-dark-matter/fuzzy-dark-matter-bounds)); the momentum-gravity investigation's scripts cite Simon et al. 2011, below, as [S]. Added by the wiki from model memory (†):
 
 - B. Moore, Nature (1994)†; R. A. Flores, J. R. Primack, Astrophys. J. Lett. (1994)†: the cusp–core problem in dwarf rotation curves.
 - J. F. Navarro, C. S. Frenk, S. D. M. White, "A universal density profile from hierarchical clustering," Astrophys. J. (1997)†: the cuspy profile of simulated halos.
@@ -117,10 +118,11 @@ The program's documents cite no source for the cusp–core problem, baryonic fee
 
 ## Sources
 
-- `papers/broken-born-checkpoint-v2.md` §8, §9 — the benchmark mass; Segue 1's rate ratio and condensation time; the checkpoint's statement of the falsification; 'Status (v2.5)' — Scenario A under review, not dead; §12 — #14's model failed, and the candidate it modeled is P.R.'s conjecture
+- `papers/broken-born-checkpoint-v2.md` §8, §9 — the benchmark mass; Segue 1's rate ratio and condensation time; the checkpoint's statement of the falsification; Scenario A under review; §12 — #14's model failed, and the candidate it modeled is P.R.'s conjecture
 - `notes/ufd-endpoint.md` 'Sharpened input numbers', 'The data', 'The attractive endpoint: criticality and the drain', 'Verdict and closure of the clumping problem' — Segue 1's inputs and ratio, the ultra-faint dwarfs' escape velocity and core mass, the falsification
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the classical-dwarf and superseded ultra-faint environment rows; Scenario A's normalization; Scenario B's other origins of cores
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark' — the coupling determined by the dwarf-core fit; the dwarf core as a test environment
 - `notes/broken-born-theory.md` §5.1, 'Addendum (v0.2, after the clumping notes): resolution of open problem 3' — the dwarf-core value of σ₀/m; the falsification as the lab notebook records it
 - `notes/knot-dark-matter-standalone.md` §4, §5 — the withdrawn soliton manuscript: cores from baryonic feedback; exclusion condition 5
 - `review/round3/referee/audit-notes.md` Step 2 — the self-interaction estimate reproduced up to a factor-2 convention
+- `review/momentum-gravity/scripts/corner/obs_corner.py` part D — Simon et al. 2011 [S] for that investigation's Segue 1 values

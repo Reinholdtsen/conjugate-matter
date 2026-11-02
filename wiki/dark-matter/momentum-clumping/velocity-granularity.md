@@ -2,7 +2,7 @@
 title: "Under review: velocity-space granularity in halos (old row 3)"
 weight: 80
 status: under-review
-description: "The lab notebook's flagship discriminant — O(10) macro-streams of width ~v* perturbing cold stellar streams — withdrawn on both islands, 'permanently' in calc note #4's words, and under review since 2026-10-29."
+description: "The lab notebook's flagship discriminant — O(10) macro-streams of width ~v* perturbing cold stellar streams — withdrawn on both islands, 'permanently' in calc note #4's words, and under review."
 sources:
   - "CLAUDE.md 'Since the handoff'"
   - "notes/ufd-endpoint.md 'Verdict and closure'"
@@ -11,7 +11,6 @@ sources:
   - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
   - "notes/wave-island.md 'Standing results'"
-  - "notes/wave-island.md 'Status note'"
   - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "notes/broken-born-theory.md §9"
   - "notes/broken-born-theory.md §5.2"
@@ -22,9 +21,9 @@ sources:
   - "notes/broken-born-program-v1.md §9"
 ---
 
-*Velocity-space granularity was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that the dark matter of a relaxed galaxy halo, such as the Milky Way's, is split into of order ten broad streams, each with its own velocity and coherent over kiloparsec distances, and that their gravity leaves correlated ripples along thin streams of stars. It was row 3 of the notebook's [prediction table](/wiki/predictions/table-history) and one of its three flagship discriminants. It rested on the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping. The calculations of [the clumping problem](/wiki/history/main-problems) used the program's contact-range interaction, which acts only over microscopic distances. They found clumping ruled out for particle dark matter ("forbidden (particles)", in [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)'s words) and never mandatory for wave dark matter, so the row was withdrawn on both islands, the two mass ranges in which dark matter behaves as particles or as a wave. Recorded dead before 2026-10-29, the row is now under review, not dead, until Paul reviews it with Claude; the founding image itself is his open conjecture again. The current table's row 3 is a different prediction, [the island discriminant](/wiki/predictions/island-discriminant).*
+*Velocity-space granularity was the [lab notebook](/wiki/history/documents/lab-notebook)'s prediction that the dark matter of a relaxed galaxy halo, such as the Milky Way's, is split into of order ten broad streams, each with its own velocity and coherent over kiloparsec distances, and that their gravity leaves correlated ripples along thin streams of stars. It was row 3 of the notebook's [prediction table](/wiki/predictions/table-history) and one of its three flagship discriminants. It rested on the [founding image](/wiki/dark-matter/momentum-clumping/founding-image) of velocity clumping. The calculations of [the clumping problem](/wiki/history/main-problems) used the program's contact-range interaction, which acts only over microscopic distances. They found that the criterion for clumping fails for particle dark matter ("forbidden (particles)", in [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem)'s words) and that clumping is never mandatory for wave dark matter, so the row was withdrawn on both islands, the two mass ranges in which dark matter behaves as particles or as a wave. The founding image itself is P.R.'s open conjecture. The current table's row 3 is a different prediction, [the island discriminant](/wiki/predictions/island-discriminant).*
 
-**Status:** Under review — recorded dead before 2026-10-29 without Paul's concurrence. On 2026-10-29 he chose to review it with Claude, and until he does, it is not dead (root `CLAUDE.md`, 'Since the handoff'). "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`; row 4 is [Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction)); [#11](/wiki/history/documents/checkpoint) v2.5 §13 lists "velocity-space granularity in halos" as "Withdrawn and under P.R.'s review, not dead (v2.5)". Untagged in the sources. It was withdrawn on the results of the clumping problem, which tested the founding image, now P.R.'s open conjecture (#11 §9); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) summarizes those results. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [claims under review](/wiki/status/under-review).
+**Status:** Under review — the evidence below weighs against it, and its final status awaits review. "Rows 3 and 4 of the predictions table are permanently withdrawn, on both islands" (`notes/ufd-endpoint.md`; row 4 is [Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction)); [#11](/wiki/history/documents/checkpoint) §13 lists "velocity-space granularity in halos" among the rows withdrawn and under review. Untagged in the sources. It was withdrawn on the results of the clumping problem, which tested the founding image, P.R.'s open conjecture (#11 §9); [the net theorem](/wiki/dark-matter/momentum-clumping/net-theorem) summarizes those results. Home section: [momentum clumping](/wiki/dark-matter/momentum-clumping); listed in [claims under review](/wiki/status/under-review).
 
 ## What was claimed
 
@@ -72,10 +71,10 @@ For dark-matter particles of MeV to GeV mass, [the mean-field criterion](/wiki/d
 
 Collective behaviour survives only for very light, wave-like dark matter, on the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) ([the classicality theorem](/wiki/dark-matter/momentum-clumping/classicality-theorem)). There #3 asked whether the gated [condensation rate](/wiki/dark-matter/momentum-clumping/wave-island/condensation-rate) beats orbital stirring in each environment.
 
-- **Under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)**, where the coupling is fixed by dwarf cores, streams lose in Milky-Way-like halos. #3's table gives the ratio of condensation rate to stirring rate R_X as "~10⁻²" in the Milky Way's inner 1 kpc and "~4×10⁻⁵" at the solar circle, and its verdict is "streams lose everywhere by 10²–10⁴ — *except ultra-faint dwarfs*". The granularity the row predicted, in the Milky Way, does not form. #3 kept a "surviving descendant of old rows 3–4", a signature confined to [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), and #4 showed that this endpoint drains those galaxies of dark matter, which observation excludes (Scenario A has been under review since 2026-10-29).
+- **Under [Scenario A](/wiki/dark-matter/momentum-clumping/wave-island/scenario-a)**, where the coupling is fixed by dwarf cores, streams lose in Milky-Way-like halos. #3's table gives the ratio of condensation rate to stirring rate R_X as "~10⁻²" in the Milky Way's inner 1 kpc and "~4×10⁻⁵" at the solar circle, and its verdict is "streams lose everywhere by 10²–10⁴ — *except ultra-faint dwarfs*". The granularity the row predicted, in the Milky Way, does not form. #3 kept a "surviving descendant of old rows 3–4", a signature confined to [ultra-faint dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), and #4 showed that this endpoint drains those galaxies of dark matter, which observation excludes (Scenario A is under review).
 - **Under [Scenario B](/wiki/dark-matter/momentum-clumping/wave-island/scenario-b)**, where the coupling is free, streams are possible across a window ten orders of magnitude wide but are not required: "streams are *tunable*, not mandatory". #3: "on this branch the granularity prediction is no longer a novel *requirement* of the program, only an option — a degeneration flag."
 
-#3's interim standing: "Row 3 as written (Gaia/GD-1 granularity in MW-like halos) is dead on both islands as a *mandatory* signature." (MW: Milky Way.)
+#3's interim standing: row 3 as written, the Gaia/GD-1 granularity in Milky-Way-like halos, fails on both islands as a *mandatory* signature.
 
 ### The withdrawal
 
@@ -83,23 +82,23 @@ Collective behaviour survives only for very light, wave-like dark matter, on the
 
 ## What stands
 
-The row remains withdrawn as a prediction and is under review. Under Scenario B, velocity granularity in a halo remains allowed at a tunable strength, which #11 §15 counts among the program's [degeneration risks](/wiki/method/lakatosian-methodology), not among its predictions. Stellar-stream gaps remain a standard probe of dark-matter substructure, with no program-specific signal attached ([halo-substructure probes](/wiki/dark-matter/halo-astrophysics/halo-substructure)).
+The row is withdrawn as a prediction and is under review. Under Scenario B, velocity granularity in a halo remains allowed at a tunable strength, which #11 §15 counts among the program's [degeneration risks](/wiki/method/lakatosian-methodology), not among its predictions. Stellar-stream gaps remain a standard probe of dark-matter substructure, with no program-specific signal attached ([halo-substructure probes](/wiki/dark-matter/halo-astrophysics/halo-substructure)).
 
 The row's number went to a new prediction. The notebook's addendum: "A new row replaces them: **cliff-sharpness island discriminant**". In #9 and #11, row 3 is [the island discriminant](/wiki/predictions/island-discriminant), which the checkpoint lists as "(not previously posed)" (#11 §13). It is part of the clumping problem's salvage (#11 §9).
 
 ## In the later tables
 
-- #9 §9: "Withdrawn with cause, permanently: velocity-space granularity in halos; Fornax friction suppression (rows 3–4 of earlier versions; obituary in §7)."
-- #11 §13, since v2.5: "Withdrawn with cause: #14's superheavy-soliton model (§12; dead, with P.R.'s concurrence of 2026-10-29). Withdrawn and under P.R.'s review, not dead (v2.5): velocity-space granularity in halos; Fornax friction suppression (§9)." The first item is [#14's model](/wiki/dark-matter/candidates/soliton-candidate/obituary). Until v2.4 the line read "Withdrawn with cause: velocity-space granularity in halos; Fornax friction suppression (obituary §9); #14's superheavy-soliton model (§12)", and until v2.3 its last item read "superheavy-soliton dark matter (obituary §12)".
+- #9 §9 lists the row, with Fornax friction suppression, as "Withdrawn with cause, permanently" (rows 3–4 of earlier versions; the cause is in #9 §7).
+- #11 §13 lists the same two rows as withdrawn and under review. Its one withdrawal with cause is [#14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary).
 
 The calc notes #2–#4 number the rows as the notebook does. Since #9 and #11 reuse the numbers for other rows, this wiki calls the notebook's row "old row 3" ([history of the predictions table](/wiki/predictions/table-history)). Its companion is [old row 4, Fornax friction suppression](/wiki/dark-matter/momentum-clumping/fornax-friction).
 
 ## Sources
 
-- `CLAUDE.md` 'Since the handoff' (2026-10-29, Paul's answers to the concurrence questions) — "Restore all pending": velocity-space granularity in halos is under review, not dead, until he reviews it
+- `CLAUDE.md` 'Since the handoff' — velocity-space granularity in halos under review
 - `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the withdrawal, "permanently withdrawn" in its words
-- `papers/broken-born-checkpoint-v2.md` §13 — "Withdrawn and under P.R.'s review, not dead (v2.5)", "Withdrawn with cause" until v2.4, and the new row 3; §9 — the tests and the salvage, and the founding image as P.R.'s open conjecture ('Status (v2.5)')
+- `papers/broken-born-checkpoint-v2.md` §13 — the row, withdrawn and under review, and the new row 3; §9 — the tests and the salvage, and the founding image as P.R.'s open conjecture
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark', 'Consequences for the predictions table' — the shortfall and the withdrawal on the particle island
-- `notes/wave-island.md` 'What pins g? Two scenarios' — the environment table, the descendant and the degeneration flag; 'Standing results after Chunks A+B' — the note's verdict that row 3 "is dead on both islands as a *mandatory* signature"; 'Status note, 2026-10-29' — under Paul's review, not dead
+- `notes/wave-island.md` 'What pins g? Two scenarios' — the environment table, the descendant and the degeneration flag; 'Standing results after Chunks A+B' — the note's interim standing on row 3
 - `notes/broken-born-theory.md` §9 — the row as written and its flagship status; §5.2 — its basis; §10 — the parameter count; §11 item 3 — the open problem; §12 — the summary; 'Addendum (v0.2)' — the strike and the replacement row
 - `notes/broken-born-program-v1.md` §9 — the withdrawal in v1's renumbered table

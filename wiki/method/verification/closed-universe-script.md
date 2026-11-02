@@ -2,7 +2,7 @@
 title: "The closed-universe script"
 weight: 110
 status: method
-description: "verify/closed_universe.py recomputes every number of the closed-universe note in one self-contained file: anchors independent of the investigation (CODATA Planck units, a PDG density, exact closed solutions, elliptic averages, the S³ spectrum, a dodecahedral mode, published curvature values, torsion-balance ranges, a calibrated fit), then regression checks in five blocks — τ histories, data bounds, the bimetric sector, momentum space and, since 2026-10-29, the polarization manifold's homotopy with two winding-number anchors of its own — and what it does not recompute: the 96-history grid, more than one crunch phase, the two curvature reductions it takes as input."
+description: "verify/closed_universe.py recomputes every number of the closed-universe note in one self-contained file: anchors independent of the investigation (CODATA Planck units, a PDG density, exact closed solutions, elliptic averages, the S³ spectrum, a dodecahedral mode, published curvature values, torsion-balance ranges, a calibrated fit), then regression checks in five blocks — τ histories, data bounds, the bimetric sector, momentum space and the polarization manifold's homotopy with two winding-number anchors of its own — and what it does not recompute: the 96-history grid, more than one crunch phase, the two curvature reductions it takes as input."
 provenance: [D, V]
 sources:
   - "verify/closed_universe.py"
@@ -28,7 +28,7 @@ sources:
 
 ## What it checks, and for what
 
-The note is `notes/closed-universe.md`, of 2026-10-27, which answers Paul's question of that day on a closed universe. Its results are on three pages: [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) (the premise, the turnaround, the data, how big position space and how small momentum space get, the dual frame, light and counts), [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) (the bimetric sector) and [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity). The topology that section F checks is also on [Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12), #11 §14 item 12. The numbers the note computes carry [V] or [D][V], and this script is the machine check behind the [V]; the published figures it quotes carry [S].
+The note is `notes/closed-universe.md`, of 2026-10-27, which answers P.R.'s question of that day on a closed universe. Its results are on three pages: [a closed Comatter universe](/wiki/cosmology/scale-factor-duality/closed-universe) (the premise, the turnaround, the data, how big position space and how small momentum space get, the dual frame, light and counts), [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe) (the bimetric sector) and [reciprocity on a closed space](/wiki/phase-space/reciprocity/closed-space-reciprocity). The topology that section F checks is also on [Open: point defects of the polarization](/wiki/symmetry-breaking/topological-defects#open-point-defects-of-the-polarization-op12), #11 §14 item 12. The numbers the note computes carry [V] or [D][V], and this script is the machine check behind the [V]; the published figures it quotes carry [S].
 
 The docstring states the scope, the anchors and the inputs:
 
@@ -85,7 +85,7 @@ The block runs four histories in full, from the big bang through the turnaround 
 
 - the representative history: a_max = 1726, t_turn = 1.24×10⁶ Gyr, R₀ = 140.7 Gpc, R_max = 2.43×10⁵ Gpc = 7.49×10³⁰ m, and 1.58 mK at the turnaround;
 - the grid's ranges, R_max from 4.54×10³ to 1.91×10¹⁰ Gpc and t_turn from about 2.3×10⁴ to 9.8×10¹⁰ Gyr, from the two extremes;
-- every history has V₀ > 0 and turns around; a_max = (Ω_m + Ω_d)/|Ω_k|, t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^{−3/2}/H₀ and t_crunch = 2t_turn; the crunch is kinetic, w → 1; τ's first minimum lies in a = 1.34–18.9 over the grid; |⟨w⟩| ≤ 1.1×10⁻⁷ at the turnaround; Ω_d/Ω_DE,0 ≥ 1.0149;
+- every history has V₀ > 0 and turns around; a_max = (Ω_m + Ω_d)/|Ω_k|, t_turn = (π/2)(Ω_m + Ω_d)|Ω_k|^{−3/2}/H₀ and t_crunch = 2t_turn; the crunch is kinetic, w → 1; τ's first minimum lies in a = 1.34–18.9 over the grid (the four histories run here give 1.34–18.5, the note's range); |⟨w⟩| ≤ 1.1×10⁻⁷ at the turnaround; Ω_d/Ω_DE,0 ≥ 1.0149;
 - the contrasts: τ frozen at the hilltop never turns around, with H/H₀ tending to √Ω_Λ, and sympy shows that with V ≥ 0, H² > 0 whenever k ≤ 0 (flag 27 addendum);
 - the over-constraint: at fixed (w₀, wₐ), d ln t_turn/d ln|Ω_k| = −1.5 from the pair at 10⁻³ and 10⁻⁴ (flag 46; [the over-constraint](/wiki/cosmology/dark-energy/over-constraint));
 - light: the conformal time from today to the turnaround is π + c√|Ω_k|, and sympy confirms that a closed de Sitter phase adds π/2 from its throat.
@@ -300,9 +300,9 @@ An earlier run the same day, made when section F was first described here, print
 ## Sources
 
 - `verify/closed_universe.py` — the docstring with its scope, anchors and inputs; the integrator and its three forms; every check and label; the typed-in tables and values; the trims named in the docstring and the code ("one oscillation phase at the crunch"; the reduced √−g R terms); its output — the 92 checks of the run of 2026-10-27 and the 100 of the run of 2026-10-29 recorded above; section F's docstring sentence, comments and labels
-- `notes/closed-universe.md` header — "Every number is recomputed in `verify/closed_universe.py`" and the note's status; §1–§8 — the numbers the script reproduces, §8 the topology and its tags (π₁ and π₃ [T][V], π₂ [T], the texture count [D]); §9 item 4 — the defects' fate, open; §10 — the refuted claim about light travel and the phases of τ's oscillation; §4's bracketed note of 2026-10-30, which records the symmetric reading as under Paul's review
+- `notes/closed-universe.md` header — "Every number is recomputed in `verify/closed_universe.py`" and the note's status; §1–§8 — the numbers the script reproduces, §8 the topology and its tags (π₁ and π₃ [T][V], π₂ [T], the texture count [D]); §9 item 4 — the defects' fate, open; §10 — the refuted claim about light travel and the phases of τ's oscillation; §4 — the symmetric reading, under review
 - `review/closed-universe/README.md` — the investigation's record and the 96 histories of `review/closed-universe/grid.csv`; `review/closed-universe/critic/d_light_travel.out` — the critic's light-travel ranges; `review/closed-universe/analyses/gravity-sector.json` — claims C35–C38, which section F checks
 - `scripts/check.sh` — the script's place in the gate
-- `CLAUDE.md` 'Layout' — the script listed as "the closed-universe note"; 'Method (HANDOFF §5)' — the anchor rule; 'Since the handoff' (2026-10-29) — section F gates the homotopy; (2026-10-30) the symmetric reading, under review
+- `CLAUDE.md` 'Layout' — the script listed as "the closed-universe note"; 'Method (HANDOFF §5)' — the anchor rule; 'Since the handoff' — section F gates the homotopy; the symmetric reading, under review
 - `review/wiki-build-flags.md` items 27 (addendum) and 45–54 — "Arithmetic is checked in `verify/closed_universe.py`"; item 61 — the point defects, the ungated script, and section F as its fix
 - `papers/broken-born-checkpoint-v2.md` §14 item 12 — the polarization's defects, the open problem the section's groups bear on, "with the maps behind them gated" and the caveats d = 4 and a global U(4)

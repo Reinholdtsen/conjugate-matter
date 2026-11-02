@@ -19,6 +19,12 @@ Checks, in order of severity:
                or two files serve at one URL (a.md and a/_index.md)
   gist         the body does not open with an italic plain-language passage
   statusline   a page that is not a section index has no **Status:** line
+  status       a page's title pattern or status line disagrees with its status,
+               or the page is missing from the register of that status
+  voice        wording that tells how a claim's status came about instead of the
+               claim (wiki/CLAUDE.md, Voice, "State the claim, not the discussion")
+  summary      wiki/summary.md passes its length limit, links a dead or under-review
+               page, or leaves out P.R.'s conjectures
   star         an unescaped starred symbol such as v* or M*, whose asterisk can
                close an emphasis span (an italic opening ends early); write v\*
   h1           the body contains an `# H1` (hugo-book renders the title as h1)
@@ -61,6 +67,61 @@ STATUSES = {
     "established", "alive", "conjecture", "open", "dead", "under-review",
     "superseded", "method", "record", "hub",
 }
+
+# A status shows in the title, opens the status line and has a register (wiki/CLAUDE.md, The tree).
+TITLE_OF_STATUS = {
+    "dead": r"^Obituary: ",
+    "under-review": r"^Under review: ",
+    "open": r"^(?:Open: |Row \d+: )",
+    "superseded": r"\(superseded\)$",
+    "conjecture": r"^Conjecture: |\((?:chat|popsci)-only\)$",
+}
+WORD_OF_STATUS = {
+    "dead": "Dead", "under-review": "Under review", "open": "Open", "superseded": "Superseded",
+    "conjecture": "Conjecture", "alive": "Alive", "established": "Established",
+    "method": "Method", "record": "Record",
+}
+REGISTER_OF_STATUS = {
+    "dead": "/wiki/status/graveyard",
+    "under-review": "/wiki/status/under-review",
+    "open": "/wiki/status/open-problems",
+    "superseded": "/wiki/status/superseded",
+    "conjecture": "/wiki/status/conjectures",
+    "alive": "/wiki/status/alive",
+}
+
+# Wording that tells how a claim's status came about instead of the claim. Pages state what a
+# claim is, what supports it, what weighs against it and where it stands now. These phrases
+# have no place on a page, quoted or not.
+DISCUSSION_RE = re.compile(
+    r"\bconcur(?:s|red|ring|rence)?\b|Restore all pending|confusion on my part|prematurely|"
+    r"[Rr]ecorded dead|\bnot dead\b|\bnot deaths?\b|Don't kill|\bkeep dead\b|"
+    r"\buntil (?:he|Paul|P\.R\.) (?:reviews|rules|answers)|"
+    r"(?:Paul|P\.R\.)'s (?:rule|direction|answers?|rulings?|review)\b|"
+    r"\bhis (?:direction|rule|answers?|ruling|review)\b|"
+    r"(?:awaits?|awaiting|pending|until|before) Paul\b|under (?:his|Paul's|P\.R\.'s) review|"
+    r"review(?:s|ed)?(?: it| them| each)? with Claude|[Nn]arrowed by Paul|"
+    r"Paul (?:narrowed|withdrew|directed|answered|accepted|ruled|deferred|chose|did not|does not)"
+)
+# A person is named P.R. Two pages introduce "Paul (P.R.)". Titles of source sections and of the
+# checkpoint's page are cited as they stand.
+PAUL_RE = re.compile(r"\bPaul\b(?! Dirac)")
+PAUL_PAGES = {"_index.md", "method/collaboration.md"}
+CITED_TITLES = ("Working with Paul", "Recommendations to Paul", "The checkpoint: #9 to #11 v2.5")
+# The checkpoint's current versions as a tag on a citation; a citation is "#11 §9". Earlier
+# versions may label a physics correction, and pages of document history may date things.
+VERSION_RE = re.compile(r"#11,? \(?v2\.[345]\b|\(v2\.[345]\)|\b(?:[Ss]ince|[Uu]ntil) (?:#11 )?v2\.[345]\b")
+HISTORY_PAGES = ("history/", "predictions/table-history.md", "method/review/", "status/superseded.md")
+
+SUMMARY_MAX_WORDS = 800
+SUMMARY_CONJECTURES = (
+    "/wiki/dark-matter/conjugate-matter",
+    "/wiki/dark-matter/candidates/momentum-space-monopoles",
+    "/wiki/electric-magnetic-duality/monopole-explanation",
+    "/wiki/electric-magnetic-duality/magnetic-identification",
+    "/wiki/cosmology/scale-factor-duality/collapse-powered-expansion",
+    "/wiki/dark-matter/momentum-clumping/founding-image",
+)
 
 FENCE_RE = re.compile(r"^(\s*)(`{3,}|~{3,})(.*)$")
 # An ATX heading, as CommonMark reads it: up to three spaces, one to six #, then a
@@ -529,6 +590,53 @@ def main(argv):
         if not is_index and not any(line.lstrip().startswith("**Status:**") for _, line in clean):
             err("statusline", f, 1, "page has no `**Status:**` line")
 
+        # --- status: title, status line, register -----------------------
+        title = fm.get("title")
+        pattern = TITLE_OF_STATUS.get(status)
+        if pattern and isinstance(title, str) and not re.search(pattern, title):
+            err("status", f, 1, f"status {status} needs a title matching {pattern!r}, got {title!r}")
+        word = WORD_OF_STATUS.get(status)
+        if word and not is_index:
+            line = next((s.lstrip() for _, s in clean if s.lstrip().startswith("**Status:**")), None)
+            if line and not line.removeprefix("**Status:**").lstrip().startswith(word):
+                err("status", f, 1, f"status {status}: the **Status:** line must open with {word!r}")
+        register = REGISTER_OF_STATUS.get(status)
+        if register and page_url(f) != register and register in pages:
+            if page_url(f) not in outbound[pages[register]["path"]]:
+                err("status", f, 1, f"status {status}: not linked from its register {register}")
+
+        # --- voice --------------------------------------------------------
+        rel = f.relative_to(WIKI).as_posix()
+        desc = fm.get("description")
+        for lineno, line in ([(1, desc)] if isinstance(desc, str) else []) + clean:
+            seen = prose(line)
+            for cited in CITED_TITLES:
+                seen = seen.replace(cited, " ")
+            m = DISCUSSION_RE.search(seen)
+            if m:
+                err("voice", f, lineno, f"{m.group(0)!r} tells how a status came about; state the claim and where it stands")
+            if rel not in PAUL_PAGES and PAUL_RE.search(seen):
+                err("voice", f, lineno, "a person is named P.R. outside _index and method/collaboration")
+            if not rel.startswith(HISTORY_PAGES):
+                m = VERSION_RE.search(seen)
+                if m:
+                    err("voice", f, lineno, f"{m.group(0)!r}: no version tag on a citation outside the history pages")
+
+        # --- the executive summary ------------------------------------------
+        if f == WIKI / "summary.md":
+            lines = [line for _, line in clean]
+            cut = next((i for i, line in enumerate(lines) if line.startswith("## Sources")), len(lines))
+            words = sum(len(prose(line).split()) for line in lines[:cut])
+            if words > SUMMARY_MAX_WORDS:
+                err("summary", f, 1, f"{words} words before Sources; the limit is {SUMMARY_MAX_WORDS}")
+            for url in sorted(outbound[f]):
+                target = pages.get(url)
+                if target and parsed[target["path"]][0].get("status") in ("dead", "under-review"):
+                    err("summary", f, 1, f"links {url}: the summary lists no dead claims and no claims under review")
+            for url in SUMMARY_CONJECTURES:
+                if url not in outbound[f]:
+                    err("summary", f, 1, f"does not link P.R.'s conjecture {url}")
+
         for lineno, info in fences:
             if not info:
                 err("fence", f, lineno, "fenced code block has no language (use `text` for formulas)")
@@ -600,7 +708,7 @@ def main(argv):
                 f"{acro!r} is never spelled out beside a use on this page (expected {expansion!r}) or linked")
 
     order = ["link", "anchor", "heading", "map", "source", "frontmatter", "weight", "section",
-             "gist", "statusline", "star", "h1", "fence", "acronym"]
+             "gist", "statusline", "status", "voice", "summary", "star", "h1", "fence", "acronym"]
     errors.sort(key=lambda e: (order.index(e[0]), str(e[1]), e[2]))
     for kind, path, lineno, msg in errors:
         print(f"{path}:{lineno}: {kind}: {msg}")

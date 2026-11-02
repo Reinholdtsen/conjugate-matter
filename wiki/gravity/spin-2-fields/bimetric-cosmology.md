@@ -72,7 +72,7 @@ m² ≥ 2H²
 
 For smaller positive masses the field's helicity-0 polarization has negative norm, a ghost [T]. #14 cites the bound as its reference [6], A. Higuchi, Nucl. Phys. B 282, 397 (1987). The audit read it from Higuchi's abstract, "M^2 cannot be between 0 and 2/3 x (cosmological constant)", converted it with "Lambda = 3H^2" to "m^2 >= 2H^2", and found that the reference supports the statement (audit notes, Step 1). At the edge, m² = 2H², a gauge symmetry removes the helicity-0 polarization and the field is [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity).
 
-For a heavy field the bound is no constraint: it "is satisfied trivially by the heavy field" (#14 §1), "trivially satisfied by a heavy X" (R7).
+The record treats the bound as no constraint for a heavy field: it "is satisfied trivially by the heavy field" (#14 §1), "trivially satisfied by a heavy X" (R7).
 
 The closed-universe note of 2026-10-27 finds that the conclusion holds and the reasoning does not (flag 53 in `review/wiki-build-flags.md`; computed, not reviewed). With a fixed mass the argument fails once 2(H² + k/a²) > M_X², at TeV temperatures for the smallest M_X allowed by the laboratory bound, and during inflation unless M_X > √2·H_inf. On the program's branch the bound holds through the dressed mass, m_FP²(y) − 2(H² + k/a²) = −yρ_y/(3M_g²) > 0, y being the ratio of the two metrics' scale factors. The live problem in that regime is a different one: Könnig's scalar gradient instability for w > −1/2, above about 1.3 TeV, which equal Planck masses do not escape (`notes/closed-universe.md` §6; [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe#the-early-universe-dv)).
 
@@ -86,7 +86,7 @@ The question assumes that X is heavy, as #14 and the worklog do. The [checkpoint
 
 The closed-universe note gives that early regime its first program numbers (`notes/closed-universe.md` §6) [D][V]. On the branch with both metrics dynamical, the effective strength of gravity is G_eff = 2G_N for H ≫ M_X, with the halfway point at T ≈ 1.55–1.58 TeV for the smallest M_X; #11 §10, which says that "§7.3 guarantees the wedge sector contributes nothing that competes with τ", omits this step, and the guarantee itself comes from the exact (1 − y)⁴/y relation on the branch rather than from §7.3's aligned-point identity alone (flag 52). The branch needs β₁ > 0, a condition no document of the record states (flag 51). And Könnig's scalar gradient instability operates above about 1.3 TeV, returns in a recollapse, and is not escaped at equal Planck masses. The numbers are checked in section D of `verify/closed_universe.py`; the results are on [the momentum graviton in a closed universe](/wiki/gravity/momentum-graviton/closed-universe).
 
-The item appears only in #14 and the worklog; #11 §14 does not list it. The wiki keeps it as an open item on its own page, [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability). #14 itself was withdrawn after round 3 because its Kibble estimate of the monopole relic abundance had been normalized too low ([Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). That error does not bear on this item: the question concerns X, which stands.
+The item appears only in #14 and the worklog; #11 §14 does not list it. It is an open item on its own page, [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability). #14 itself was withdrawn after round 3, which found its Kibble estimate of the monopole relic abundance normalized too low ([Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization); [Obituary: #14's superheavy-soliton model](/wiki/dark-matter/candidates/soliton-candidate/obituary)). That finding does not bear on this item: the question concerns X, which stands.
 
 ## How the item entered the record
 
@@ -111,7 +111,7 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 
 ## Sources
 
-- `notes/knot-dark-matter-standalone.md` §1, §5, §6, refs [4]–[6] — the literature summary, the open consistency condition, the exclusion condition and the conjectural status; the citations (manuscript withdrawn for an unrelated error: its Kibble estimate of the relic abundance had been normalized too low).
+- `notes/knot-dark-matter-standalone.md` §1, §5, §6, refs [4]–[6] — the literature summary, the open consistency condition, the exclusion condition and the conjectural status; the citations (manuscript withdrawn after round 3 found its Kibble estimate of the relic abundance normalized too low, which does not bear on these statements).
 - `review/v3-worklog.md` 'Round-2 pending list', item R7 — the three limits on the heavy-spin-2 result, the tension with equal Planck masses, De Felice et al.
 - `review/v3-worklog.md` 'Verified references for v3', 'v3 as drafted (2026-10-19)' — the new references; the addition to exclusion item 7.
 - `review/round3/referee/audit-notes.md` Step 1 — the checks of #14's references [4], [5] and [6].
@@ -121,7 +121,7 @@ The item appears only in #14 and the worklog; #11 §14 does not list it. The wik
 - `papers/broken-born-checkpoint-v2.md` §7.5, §14 — no value for X's mass; the open problems, which do not list this item.
 - `papers/phase-space-diameter.md` §8.2 — the conditional lower bound M_X c² > 5.2 meV in the aligned vacuum [D][V][S] and the early-universe caveat [T][O]; §6 — (M_X/H₀)² ≈ 10⁶¹ at the bound; §9 — the bound tagged [V][S]; 'References' — Lüben, Mörtsell and Schmidt-May 2020 [S].
 - `verify/phase_space_diameter.py` 'Where the radiation rectangle is square, lambda = l_P (note §6)', 'Consequences (note §8)' — (M_X/H₀)² = 1.3×10⁶¹ at M_X c² = 5.2 meV; the bound [V].
-- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` item 5 — M_X versus M_X² in #11 §7.5 (pending).
 - `notes/closed-universe.md` §6 — the dressed Higuchi bound, G_eff = 2G_N early, β₁ > 0 and the gradient instability; computed, not reviewed.
 - `verify/closed_universe.py` section D — D3 to D6, the branch, the halfway point and Könnig 2015's eigenfrequency.
-- `review/wiki-build-flags.md` items 51, 52 and 53 — β₁ > 0, the omitted step in G_eff, and the reasoning behind "trivially satisfied"; awaiting Paul's ruling.
+- `review/wiki-build-flags.md` items 51, 52 and 53 — β₁ > 0, the omitted step in G_eff, and the reasoning behind "trivially satisfied"; all pending.

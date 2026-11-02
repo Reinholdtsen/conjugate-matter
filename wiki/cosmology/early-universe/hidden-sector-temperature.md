@@ -48,7 +48,7 @@ A hidden sector is a set of particles and forces that carries none of the charge
 
 A hidden sector has a temperature of its own when its internal interactions are fast enough to hold it in thermal equilibrium, which the rest of this page assumes [T]. Particles that were produced and never scattered afterwards would keep whatever momentum distribution their production gave them, and no single temperature would describe them.
 
-The wiki meets two hidden sectors. The program's own is its [conjugate matter](/wiki/dark-matter/conjugate-matter): postulate [P4](/wiki/program/postulates/p4-polarized-matter) places it in the momentum polarization and states that "gauge forces do not cross polarizations" (#11 §4), and the [lab notebook](/wiki/history/documents/lab-notebook) calls it a "gravitationally-only-connected sector" (#1 §5.3). The other is the particle content that the withdrawn soliton manuscript #14 assumed: a hidden SU(2)_d gauge force broken to U(1)_d, with a massless hidden photon, which #14 identified with the momentum-polarized half of the program's matter. As a program proposal it was recorded dead along with #14's model, but without Paul's concurrence in its own death, and it has been under his review, not dead, since 2026-10-29 (root `CLAUDE.md`, 'Since the handoff'; [Under review: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). Every use of a hidden temperature in the program's record concerns the second.
+The wiki meets two hidden sectors. The program's own is its [conjugate matter](/wiki/dark-matter/conjugate-matter): postulate [P4](/wiki/program/postulates/p4-polarized-matter) places it in the momentum polarization and states that "gauge forces do not cross polarizations" (#11 §4), and the [lab notebook](/wiki/history/documents/lab-notebook) calls it a "gravitationally-only-connected sector" (#1 §5.3). The other is the particle content that the withdrawn soliton manuscript #14 assumed: a hidden SU(2)_d gauge force broken to U(1)_d, with a massless hidden photon, which #14 identified with the momentum-polarized half of the program's matter. As a program proposal it is under review ([Under review: the hidden SU(2) → U(1) proposal](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector)). Every use of a hidden temperature in the program's record concerns the second.
 
 ## How the two temperatures evolve [T]
 
@@ -197,7 +197,7 @@ The lab notebook's sketch of polarization-genesis, tagged [O, sketched], sets th
 
 Nothing on this page is an open problem of the program: the physics is standard, and its only applications in the record belong to #14's failed model. What was left unchecked is recorded as such.
 
-- **Accepted without re-checking.** The adjudication took the referee's list of omitted constraints "as a to-do; not individually re-checked", including "The reheating mechanism for ξ", "The Higgs portal" and "Re-thermalization by ψ at ε ~ 1e-7–1e-6". Decision 1 closed the third, and Decision 2, which Paul narrowed on 2026-10-29 to #14's model, then retired the model the list was written against ([what became of the list](/wiki/method/review/round-3/rulings#what-became-of-the-list)).
+- **Accepted without re-checking.** The adjudication took the referee's list of omitted constraints "as a to-do; not individually re-checked", including "The reheating mechanism for ξ", "The Higgs portal" and "Re-thermalization by ψ at ε ~ 1e-7–1e-6". Decision 1 closed the third, and Decision 2 then retired #14's model, which the list was written against ([what became of the list](/wiki/method/review/round-3/rulings#what-became-of-the-list)).
 - **Not computed.** The dark-radiation isocurvature of a separately reheated hidden sector, "(conditional; not computed)" (Step 4(c) item 9).
 - **Not gated.** Ruling 6's lower bound on ψ's mass rests on the referee's script, was "Accepted, not re-checked", and is not checked by `verify/soliton_obituary.py` (flag 33 in `review/wiki-build-flags.md`).
 - **The conjugate sector.** No document addresses the temperature of the program's own conjugate sector (above).
@@ -244,8 +244,8 @@ The † entries are unverified.
 - `review/round3/referee/step2a.py` 'Delta N_eff' and `review/round3/referee/step2a.out` 'dark radiation' — the degrees-of-freedom count, the late ratio, ΔN_eff at ξ = 1 and the bound on ξ; the frequency table at g\* = 106.75 and 122.75
 - `review/round3/referee/step2c_psi.py` — the entropy ratio R that fixes the hidden temperature in the relic integration
 - `review/round3/referee/step4.out` item 7 — ψ's hidden freeze-out in visible temperatures; `review/round3/referee/step4c.out` — the visible reheating temperatures
-- `papers/broken-born-checkpoint-v2.md` §4 — P4, taken strictly since v2.1
+- `papers/broken-born-checkpoint-v2.md` §4 — P4, taken strictly
 - `notes/broken-born-theory.md` §5.3 — the conjugate sector as "gravitationally-only-connected", and the argument against its thermal freeze-out; §8 — polarization-genesis at reheating [O, sketched]
 - `review/wiki-build-flags.md` item 22 — #14's symmetric N_eff interval; item 33 — ruling 6's figure outside the gate
 - `notes/closed-universe.md` §4; `review/wiki-build-flags.md` item 48 — a closed universe leaves the momentum fibre flat
-- `CLAUDE.md` 'Since the handoff' — Paul's answers of 2026-10-29, under which the hidden SU(2) → U(1) sector is under review, not dead
+- `CLAUDE.md` 'Since the handoff' — the hidden SU(2) → U(1) sector under review

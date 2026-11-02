@@ -1,0 +1,1671 @@
+{
+ "batches_returned": 41,
+ "failed": [],
+ "pages_checked": 286,
+ "tally": {
+  "evidence-lost": 36,
+  "distortion-or-addition": 44,
+  "residual-narrative": 88,
+  "prose-damage": 59,
+  "other": 16
+ },
+ "fixes": [
+  {
+   "file": "wiki/conjugate-relativity/maximum-force-conjectures.md",
+   "category": "evidence-lost",
+   "note": "HEAD said no verify/ script checks #13's numbers. The rewrite changed this to 'derivations' plus a separate sentence that one script computes c⁴/G, which dropped the fact that #13's other numbers are unscripted. Grep of verify/ confirms Planck closure, ~10¹² N and 10⁻⁶⁵ have no check. The sentence now reads 'no verify/ script checks its derivations or its numbers, apart from the arithmetic of c⁴/G'."
+  },
+  {
+   "file": "wiki/conjugate-relativity/maximum-force-conjectures.md",
+   "category": "distortion-or-addition",
+   "note": "The rewrite's new statement about the script named no source and linked no script page, unlike sibling pages. The sentence now links /wiki/method/verification/phase-space-diameter-script, and verify/phase_space_diameter.py is added to frontmatter sources and to ## Sources with the siblings' wording. No status, title, weight or provenance changed."
+  },
+  {
+   "file": "wiki/conjugate-relativity/maximum-force.md",
+   "category": "residual-narrative",
+   "note": "Step 4 of the identification said the script 'now computes it'; 'now' removed."
+  },
+  {
+   "file": "wiki/conjugate-relativity/maximum-force.md",
+   "category": "residual-narrative",
+   "note": "Standing said 'with its arithmetic now scripted and its Born length still an untagged choice'; 'now' and 'still' removed, physics unchanged."
+  },
+  {
+   "file": "wiki/conjugate-relativity/special-relativity.md",
+   "category": "distortion-or-addition",
+   "note": "The status line narrowed HEAD's 'any of its formulas or numbers' to 'its kinematics or its numbers', and the transcription section dropped 'any of'. Both now read 'any of its formulas or numbers apart from the arithmetic of c⁴/G'. The exception itself is correct: verify/phase_space_diameter.py line 332 gates c⁴/G."
+  },
+  {
+   "file": "wiki/conjugate-relativity/momentum-space-black-holes.md",
+   "category": "residual-narrative",
+   "note": "'(item 3, since dropped; under review)' told the queue's history and left 'under review' with no subject. It now reads '(item 3, dropped from the current queue; the estimate is under review)'."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/_index.md",
+   "category": "residual-narrative",
+   "note": "Removed 'now' from the description ('DESI DR2 now leans against') and 'and #11 v2.1' from the map entry for the DESI DR2 page. That entry still says the finding entered through the round-3 review."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/desi-dr2-phantom-crossing.md",
+   "category": "residual-narrative",
+   "note": "Status line: cut 'written into #11 v2.1'; the referee, ruling 11 and the literal label 'Under pressure (v2.1)' stay. 'since withdrawn' became 'The withdrawn soliton manuscript #14 v3'."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/desi-dr2-phantom-crossing.md",
+   "category": "residual-narrative",
+   "note": "The amendment bullet told what v2.1 changed: date, header quote, commit e1c1f67 and the † to [S] re-marking. It now says in the present tense where #11 carries the finding (§10, §13 row 4 clause, §15 risks). No physics is lost; [21][S] stays on the page, and the version history is on history/documents/checkpoint, the timeline, provenance-tags and references. Dropped the Sources clause 'header — the v2.1 change note', which pointed at the removed text."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/desi-dr2-phantom-crossing.md",
+   "category": "residual-narrative",
+   "note": "'An unreconciled sentence in #11 §10': cut 'The same sentence stood in v2.0, and the v2.1 amendment added … without changing it' and 'still'. Added 'The \"Under pressure\" paragraph stands below it in the same section', so 'the two passages' keeps its referent. history/documents/checkpoint holds the wording history."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/desi-dr2-phantom-crossing.md",
+   "category": "prose-damage",
+   "note": "With the amendment bullet rewritten, 'lists the change among the events since the handoff' had no antecedent. It now reads 'lists the finding in 'Since the handoff''."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/tau-fifth-force.md",
+   "category": "residual-narrative",
+   "note": "The page was unchanged from HEAD and still said 'Since v2.2 #11 has said that the breaking of reciprocity…'. It now says '#11 says that…'. The bullet label 'The v2.2 matter coupling' stays, because the version is the subject, and the quotation still matches #11 §4 exactly."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/tau-quintessence.md",
+   "category": "residual-narrative",
+   "note": "'Where the potential comes from is now an open problem': 'now' marked a change of status, so I removed it. The physics of the replaced account stays in the folded Superseded section."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/tau-quintessence.md",
+   "category": "residual-narrative",
+   "note": "'the italic passage of #11 §10, which still calls DESI's hints…': 'still' told the sentence's wording history, the same point the rewrite cut elsewhere on this page, so I removed it. The quotation and the pointer to the unreconciled sentence stay."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/thawing-and-freezing.md",
+   "category": "prose-damage",
+   "note": "The rewrite's 'Where the corridor lies relative to DR2's crossing is pending' misparsed: the location is computed and audited, and only the flag is unresolved. It now reads 'Flag 43, on where the corridor lies relative to DR2's crossing, is pending'."
+  },
+  {
+   "file": "wiki/cosmology/early-universe/relic-yield-and-dilution.md",
+   "category": "evidence-lost",
+   "note": "The rewrite cut the old wording of the ground and with it the page's [T] on dilution by inflation. Restored the tag on 'inflation after a unification transition among them [T]', as #11 §11.1 tags that statement."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/closed-universe.md",
+   "category": "evidence-lost",
+   "note": "The status line lost the fact that flag 61 is applied, which separates it from the pending flags, and what it did. It also read badly ('on flag 61, on the…'). Now: 'flag 61, applied, which added the polarization's point defects and gated the maps behind its homotopy groups' (HEAD's wording, without the date)."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md",
+   "category": "distortion-or-addition",
+   "note": "Moving the failed versions and the route up in the status line made 'Nothing derives it' read as 'nothing derives dual stiff ↦ Λ', which the same sentence tags [D]. Changed to 'Nothing derives the conjecture'."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/conjugate-bounce.md",
+   "category": "residual-narrative",
+   "note": "'a claim now under review' used 'now' to mark a status change. The word was at HEAD and the rewrite missed it. Removed 'now'."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/duality-dictionary.md",
+   "category": "prose-damage",
+   "note": "Dual stiff ↦ Λ bullet (line 76): the rewrite cut 'Since #11 v2.4', leaving a bare '(§10)' after a sentence about the notebook, so it read as #1 §10; now '(#11 §10)'."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/duality-dictionary.md",
+   "category": "prose-damage",
+   "note": "'What it led to' (line 103): the rewrite cut every mention of #11 from the sentence, leaving '(§10, App. A item 9)' straight after `HANDOFF.md` §2, so it read as the handoff's; now '(#11 §10, App. A item 9)'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/_index.md",
+   "category": "evidence-lost",
+   "note": "The [O] on #11 §14 item 9 survived only in the deleted paragraph's quotation. Restored it in Boundaries: 'Telling the candidates apart is #11 §14 item 9 [O]'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md",
+   "category": "distortion-or-addition",
+   "note": "The rewriter's 'In the separate-photon form S does carry the dual coupling, so the burden stands' was new reasoning that no source states. Replaced with the record: the sector's coupling is the S-image of ours (§11.4), and the root CLAUDE.md lists the burden among that form's open items ('Open from the monopole discussion'). Added that item to the Sources line."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+   "category": "distortion-or-addition",
+   "note": "'Two other central ideas of P.R.'s': 'central' is not in the record. Changed to 'founding ideas', which is #11's word; items 4 and 9 are founding suppositions."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+   "category": "distortion-or-addition",
+   "note": "The OP8 bullet's 'soliton spectrum and p-localization, which the third candidate ... need' attached the need to both items. §14 item 8 says they need p-localization only. Reworded to say so."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/_index.md",
+   "category": "distortion-or-addition",
+   "note": "'two items raised by the model' misstated their origin: they are worklog items R7 and O3, the second an inconsistency inside #13. Changed to 'raised in work on the model'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/chi-particles.md",
+   "category": "residual-narrative",
+   "note": "HEADING RENAMED. Old: 'What the candidate no longer claims'. New: 'What the candidate does not claim'. New anchor: #what-the-candidate-does-not-claim. A grep of wiki/ found no inbound links to the old anchor."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/_index.md",
+   "category": "residual-narrative",
+   "note": "The map's 'what it no longer claims' became 'what it does not claim', matching the renamed heading on chi-particles."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md",
+   "category": "residual-narrative",
+   "note": "'a number that no longer has a role there' became 'a number with no role there'. The physics, 'without H, nothing in #14 fixes α_d', is unchanged."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+   "category": "residual-narrative",
+   "note": "'What it needs' quoted #11 §11.4's 'open since v2.0'. Split the quotation around that clause, keeping every other word verbatim and the [O] tag."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/_index.md",
+   "category": "prose-damage",
+   "note": "'Round-3 Decision 2 covers this model alone' had lost its gloss with the deleted sentence, so the reader was never told what the decision did. Now 'retired this model alone as a program-native proposal', from the decision's own text and scope."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+   "category": "prose-damage",
+   "note": "Same bare 'Round-3 Decision 2 covers this model', whose gloss went with the deleted 'Its standing over time' bullet. Now 'retired this model, which used ordinary kinematics, as a program-native proposal'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+   "category": "prose-damage",
+   "note": "Broken syntax in the founding supposition 5 bullet: 'lists \"...\" (App. A item 5), \"open in both halves\"' now reads '(App. A item 5) as \"open in both halves\"'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/_index.md",
+   "category": "prose-damage",
+   "note": "F2 was glossed only in a removed clause, 'the worklog's decision F2'. Now 'The worklog's F2 reframing, whose finding stands'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md",
+   "category": "prose-damage",
+   "note": "The status line's bare 'F2's finding stands' came before any gloss of F2. Now 'The v3 worklog's finding F2 stands (below; flag 60 ...)', with a link to the F2 section."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/_index.md",
+   "category": "other",
+   "note": "No edit: the rewriter's concern checked. 'Dark-sector trilemma discrimination' is on handoff.md, table-history.md, x-condensate.md, dark-sector-microstructure.md and obituary.md. Decision 2's 'the trilemma becomes two program-native candidates' is on decisions.md, obituary.md and dark-sector-microstructure.md. The handoff's 'Current best DM candidate' is at obituary.md line 208, among other pages. 'No ruling addresses it by itself' for H agrees with the root CLAUDE.md and with round-3 rulings 1-13, none of which names H."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/benchmark-arithmetic.md",
+   "category": "other",
+   "note": "No edit: the rewriter changed the description to 'which is why #14 made sector separation mandatory'. Kept, because #14 §4 says it and the unattributed form read against the shared-photon form. relic-abundance.md and bigravity-dark-matter.md also needed no repair. After the repairs, invariants.py exits 0 with no NEW NUMBERS, and check-wiki.py reports 326 pages, no problems. Nothing committed."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/obituary.md",
+   "category": "evidence-lost",
+   "note": "Deleting the clumping-precedent paragraph also removed two statements: #11 §9's results stand, and the founding image is P.R.'s open conjecture [O] (with its page link). Restored as one neutral sentence ending the 'third candidate' paragraph, and added the matching §9 pointer in Sources."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/obituary.md",
+   "category": "distortion-or-addition",
+   "note": "'The Kibble-consistent mass and the ψ window were both overturned' was an unattributed verdict that included an under-review claim. Now 'Round 3 overturned both...', which reports what the review found."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/obituary.md",
+   "category": "residual-narrative",
+   "note": "'candidacy ... is open, since #14's model of it failed' read as status history and as a false cause. Restored #11 §11.1's form: 'open (§12): #14's model of it failed, and \"the candidate itself was never modeled\"'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/obituary.md",
+   "category": "prose-damage",
+   "note": "F2 was glossed locally only in the removed sentence, leaving a bare 'F2's finding'. Now 'The worklog's finding F2, that ...'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor.md",
+   "category": "distortion-or-addition",
+   "note": "'What stands: Nothing of the floor.' was the wiki's own verdict on an under-review claim, on a page that says the floor itself was never tested. Replaced with the sourced 'No source lists anything of the floor among the survivors of v3', matching the ψ-window page. Checked against #11 §12 and the adjudication's 'What survives v3'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor.md",
+   "category": "residual-narrative",
+   "note": "Removed 'since' from 'has since been written up', which marked a change of status."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor.md",
+   "category": "prose-damage",
+   "note": "'The candidate #14 modeled ... it was never modeled' contradicted itself. Now 'The candidate itself, monopoles localized in momentum, ...', following #11 §11.1."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/prior-art.md",
+   "category": "distortion-or-addition",
+   "note": "'was never modeled with that kinematics' grammatically pointed at the ordinary kinematics #14 did use, which misstates the source. Replaced with the brief's canonical wording: '#14's model did not treat localization in momentum, so the candidate itself, conjugate monopoles localized in momentum, has not been tested and is P.R.'s open conjecture'."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing.md",
+   "category": "residual-narrative",
+   "note": "Removed the version tag in the History list: '#11 v2.1: P4 taken strictly' is now '#11: P4 taken strictly', as the rewrite had already done elsewhere on this page and on the W′ page. Decision 1's date stays on the page."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/psi-relic-window.md",
+   "category": "prose-damage",
+   "note": "After the rewrite, 'What stands' said 'found the window wrong' and 'what round 3 found wrong' in consecutive sentences. Second sentence now reads 'The withdrawal banner of #14 says the same:', and the quotation is unchanged."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/benchmark.md",
+   "category": "residual-narrative",
+   "note": "Status line: 'Since 2026-10-28 some benchmark numbers have had a verify/ script, with the tag unchanged' told the status history. Now 'Some benchmark numbers have a verify/ script, and the tag is [D]'; script sections and numbers untouched."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/benchmark.md",
+   "category": "residual-narrative",
+   "note": "Ruling chatter the rewrite missed: 'is recorded for a ruling in review/wiki-build-flags.md item 17'. Now 'is recorded in review/wiki-build-flags.md item 17, pending'."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/benchmark.md",
+   "category": "residual-narrative",
+   "note": "Removed 'now' marking a change of standing in three places: 'now an open question' (opening), 'are now recomputed' (caveats), 'is now disputed' (strength section)."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/gate-mechanism.md",
+   "category": "residual-narrative",
+   "note": "'is recorded for a ruling in review/wiki-build-flags.md item 17' became 'is recorded in review/wiki-build-flags.md item 17, pending'."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/scattering-law.md",
+   "category": "residual-narrative",
+   "note": "'is recorded for a ruling in review/wiki-build-flags.md item 17' became 'is recorded in review/wiki-build-flags.md item 17, pending'."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/scattering-law.md",
+   "category": "residual-narrative",
+   "note": "'§5 now lists the question as open [O]' became '§5 lists the question as open [O]', matching the same sentence on gate-shape.md."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/scattering-law.md",
+   "category": "residual-narrative",
+   "note": "'has since been withdrawn and is under review' became 'is withdrawn and under review', which is #11 §13's present standing with no status history."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/candidates/x-condensate.md",
+   "category": "residual-narrative",
+   "note": "Version tag on a citation outside the history pages: '**#11 v2.0 and the handoff.**' became '**The first version of #11, and the handoff.**'. The date-bound fact (three-way choice with solitons) stays true without the tag."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/gate-carriers.md",
+   "category": "distortion-or-addition",
+   "note": "The rewrite turned the source's 'the shape of Paul's question' into 'the shape P.R.'s model calls for', which credits the model with requiring the correction's vanishing along the line of centres. Now 'the shape of P.R.'s model', the source's claim (notes/velocity-gated-gravity.md §9)."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/candidates/thermal-freeze-out.md",
+   "category": "distortion-or-addition",
+   "note": "Opening stated an under-review claim as flatly refuted: the ψ window 'was wrong at both edges'. Now 'was found wrong at both edges', the review's finding, as psi-relic-window.md words it. Unchanged from HEAD, but it misdescribed the claim's standing."
+  },
+  {
+   "file": "wiki/dark-matter/halo-astrophysics/dwarf-galaxies.md",
+   "category": "evidence-lost",
+   "note": "The rewrite cut the sentence giving Scenario A's standing and its pointer (#11 §9) from 'What the ultra-faint dwarfs show', leaving 'Its page is…', where 'Its' read as the lab notebook's addendum. Now: 'Scenario A is under review (#11 §9): its page is […]'."
+  },
+  {
+   "file": "wiki/dark-matter/halo-astrophysics/dwarf-galaxies.md",
+   "category": "distortion-or-addition",
+   "note": "The block quote of calc note #4 read 'used in #3' where notes/ufd-endpoint.md has 'used in 3b' (already wrong at HEAD; the batch-10 rewriter reported it). Restored the exact wording and glossed it 'with 3b being calc note #3', as scenario-a.md does."
+  },
+  {
+   "file": "wiki/dark-matter/halo-astrophysics/halo-substructure.md",
+   "category": "other",
+   "note": "The rewriter's new citation of #9 §7 ('with the calculations in its §7', confirmed against that section) was in the body and Sources but not the frontmatter. Added 'notes/broken-born-program-v1.md §7' to frontmatter sources."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/topological-loophole.md",
+   "category": "distortion-or-addition",
+   "note": "'The candidate' said #11 §12 lists the third candidate as \"topological solitons of a p-local gauge sector (§11)\", but that is what §12 reports v2.0 listed; its current table row is conjugate monopoles. Reworded to \"a third that version 2.0 of the checkpoint introduced as\" those words."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/topological-loophole.md",
+   "category": "prose-damage",
+   "note": "\"Round-3 Decision 2\" had lost its only gloss when the retirement sentence was cut, so the page no longer said what the decision was. Linked it to the decision's section and glossed it with the source's phrase \"retired as a program-native proposal\" (review/round3-adjudication.md, Decision 2)."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/fornax-friction.md",
+   "category": "evidence-lost",
+   "note": "The #9 §9 bullet dropped the source's pointer to where the cause is given (\"obituary in §7\"). Restored neutrally as \"the cause is in #9 §7\"."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/velocity-granularity.md",
+   "category": "evidence-lost",
+   "note": "The same #9 §9 bullet lost the same pointer. Restored as \"the cause is in #9 §7\"."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/founding-image.md",
+   "category": "prose-damage",
+   "note": "After the new sentence \"the results hold for the program as written\", the list lead-in \"The results:\" read as the tests' results, not the note's. Changed to \"Its results:\"."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/founding-image.md",
+   "category": "prose-damage",
+   "note": "\"The gate-mechanism note of the same date\" had lost its nearby antecedent after the dated narration was cut. Changed to \"also of 2026-10-28\", a date already on the page and the one the root CLAUDE.md gives for that note."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/gated-vlasov-model.md",
+   "category": "residual-narrative",
+   "note": "Ruling chatter left over from HEAD: \"is recorded for a ruling in ... item 17\" now reads \"is recorded in ... item 17\". The Sources list already marks the flag pending."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/gated-vlasov-model.md",
+   "category": "residual-narrative",
+   "note": "\"now withdrawn and under review\" used \"now\" to mark a status change. Changed to \"withdrawn and under review\"."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/wave-island/condensation-rate.md",
+   "category": "residual-narrative",
+   "note": "\"#11 §8 now treats the tail as open\" used \"now\" to mark a change of status, left over from HEAD. Deleted \"now\"; the physics and the #11 §8 quotation are unchanged."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/wave-island/scenario-b.md",
+   "category": "prose-damage",
+   "note": "The rewrite turned \"lists momentum clumping as dead:\" into \"in its list of failed claims, has momentum clumping \"fatal where mandatory…\"\", which reads badly. Changed to \"describes momentum clumping as \"fatal where mandatory…\"\". The quotation still matches HANDOFF.md §2 exactly."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/conjugate-monopoles.md",
+   "category": "evidence-lost",
+   "note": "The Decision 2 sentence said only that it 'covers this model', and the HEAD text that the retirement was as a program-native proposal was gone, so a reader could not tell what the decision did. Now: 'Round-3 Decision 2, which covers this model, retired it as a program-native proposal' (matches the adjudication and #11 §12), with no account of who decided."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/magnetic-identification.md",
+   "category": "evidence-lost",
+   "note": "Removing 'F2's decision is withdrawn' left the worklog's conditional 'If F2 is adopted...' hanging, with its consequence for the supersymmetry burden lost. Restored as physics: in the separate-photon form the sector's coupling is the S-image of ours (§11.4), and the root CLAUDE.md lists the burden among that form's open items."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/magnetic-mirror-family.md",
+   "category": "distortion-or-addition",
+   "note": "'Which the round-1 reviewer found inconsistent' dropped the handoff's 'valid' and softened evidence against α_d ≈ 34 via our photon. Now: 'an objection the handoff calls valid'; the fragment quoted from HANDOFF.md §2 is unchanged."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/conjugate-monopoles.md",
+   "category": "residual-narrative",
+   "note": "The §11.1 blockquote still quoted the version note 'failed in v2.1'. Cut the quote at 'is open (§12).' and kept the physics in prose: §11.1 adds that #14's model failed and the candidate itself was never modeled. Changed 'the same point' to 'the ontology' so the next sentence still refers correctly."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/magnetic-identification.md",
+   "category": "residual-narrative",
+   "note": "'Between the sectors, now withdrawn' used 'now' for a status change and attached 'withdrawn' to the mixing. Now: '#14 v2, a withdrawn manuscript, made a related consistency check for small kinetic mixing between the sectors'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/magnetic-identification.md",
+   "category": "prose-damage",
+   "note": "The status line's 'neither option computed' had no antecedent, because the options were never named there and could be read as P4 and hiding. It now names localization in momentum and binding into magnetically neutral composites, and says neither has been computed. Split the sentence and changed 'behind it' to 'behind the conjecture'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/monopoles/witten-effect.md",
+   "category": "evidence-lost",
+   "note": "The rewrite's 'Decision 2 ... covers #14's model' dropped what the decision did, which left 'After Decision 2, no document returns to the channel' unexplained. It now reads 'retired #14's model, which used ordinary kinematics, as a program-native proposal' (round-3 'Decisions' 2), and the Sources line matches."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/monopoles/monopole-problem.md",
+   "category": "distortion-or-addition",
+   "note": "In 'That shows the explanation to be unnecessary, not false, and it holds only if a unification transition...', 'it' could be read as the explanation, but flag 59 attaches that condition to the inflation ground. Changed to 'the argument holds only if'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+   "category": "prose-damage",
+   "note": "Cutting 'restored' left 'the dark-matter candidate', which is ambiguous among #11 §12's three candidates and comes before the page introduces this one. Changed to 'the monopole dark-matter candidate'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+   "category": "other",
+   "note": "No edit: confirmed the rewriter's reported cuts as status or wording history, with the physics kept. These are flag 62's options A and B (the condition on the shared-photon form and a restated P4 stays), the older wordings of the grounds, and HANDOFF §2 as a source. 'added in v2.0' stays as provenance for 'No earlier version of the audit is in the repository'."
+  },
+  {
+   "file": "wiki/glossary.md",
+   "category": "residual-narrative",
+   "note": "Phase-space-diameter note entry: 'in version 1.2 the §6 claim ... is under review' put a version tag on a status. Now 'its §6 claim \"square exactly at the bounce\" is under review'; the v1.2 record stays on wiki/method/review/round-5.md."
+  },
+  {
+   "file": "wiki/glossary.md",
+   "category": "residual-narrative",
+   "note": "Chat-only entry: 'was one until the phase-space-diameter note derived it' told a status change. Now 'is recorded as one in `HANDOFF.md` §4, and the phase-space-diameter note derives it', which keeps both facts."
+  },
+  {
+   "file": "wiki/glossary.md",
+   "category": "residual-narrative",
+   "note": "Queue entry: cut 'once part of the first item', which was the queue's wording history. It now reads 'The phase-space-diameter note is done.'"
+  },
+  {
+   "file": "wiki/glossary.md",
+   "category": "prose-damage",
+   "note": "Decisions (round 3) entry: the rewrite's semicolons left the fragment '(4); together with two lessons for the method'. Moved that clause to the head of the list; no content changed."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+   "category": "prose-damage",
+   "note": "'Both sections call the item open' dangled after the sentence naming item 8 was cut. It now reads '§12 and §14 item 8 both call the item open', which I checked against #11's §12 table and §14 item 8."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+   "category": "prose-damage",
+   "note": "'The null result' was glossed only by the removed flag-62 sentence ('the monopole explanation'). The first mention in the 'Not queued' bullet now reads 'the monopole null result'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+   "category": "residual-narrative",
+   "note": "With the withdrawn-decision story gone, '#14 stays withdrawn (§12)' still implied a status question. It now reads '#14 is withdrawn (§12)'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/s-duality.md",
+   "category": "residual-narrative",
+   "note": "Same repair in the 'The checkpoint today' bullet: '#14 stays withdrawn' now reads '#14 is withdrawn'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/s-duality.md",
+   "category": "evidence-lost",
+   "note": "The 'Used by' line had dropped why #14 v3 set the conjecture aside (HEAD: 'set aside under F2's decision'). I restored it neutrally as 'which #14 v3 set aside under F2's reading'."
+  },
+  {
+   "file": "wiki/gravity/momentum-graviton/equal-planck-mass-stability.md",
+   "category": "distortion-or-addition",
+   "note": "The rewriter's status line, 'computes the early-universe part ... no calculation or verify/ script addresses the rest', overstated the note: its §9 leaves inflation with the bimetric sector and perturbations through the recollapse open. It now states what §6 finds: in the early universe the Higuchi bound holds and a gradient instability operates [D][V], computed, not reviewed. It then says 'there is no other calculation and no other verify/ script', which keeps HEAD's caveat. A search of verify/ found no other script treating this stability question."
+  },
+  {
+   "file": "wiki/gravity/momentum-graviton/equal-planck-mass-stability.md",
+   "category": "prose-damage",
+   "note": "The opening's added sentence ended 'in its early-universe part', an ambiguous pronoun that carried the same overstatement. It now reads 'in the early universe'."
+  },
+  {
+   "file": "wiki/electric-magnetic-duality/symplectic-charge-lattice.md",
+   "category": "other",
+   "note": "The body now cites flag 62 directly, where HEAD had it only inside a quotation, but the page's sources did not list it. I added it to the frontmatter sources and to the Sources list."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/pm-comparison.md",
+   "category": "residual-narrative",
+   "note": "'What prompted it' opened with a version tag on a citation, '#11 v2.0 added the downgrade ... that version's additions' (the rewriter's flagged judgment call). Reworded with no version, 'The comparison comes from a downgrade of the identity's novelty claim in #11 ... among #11's additions'; the HANDOFF §3 row 11 pointer and its quotation stay."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/pm-comparison.md",
+   "category": "residual-narrative",
+   "note": "Sources: 'the v2.0 inventory row' changed to 'the inventory row for #11'."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/pm-comparison.md",
+   "category": "prose-damage",
+   "note": "The inserted canonical clause made the queue sentence misread as the model having 'failed on its recomputed abundance, the √N-floor freeze-out estimate and the toy Lagrangian'. Moved the clause to its own sentence after the list; the obituary link and all wording are kept."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/vacuum-energy-identity.md",
+   "category": "residual-narrative",
+   "note": "Status line, 'The novelty claim was downgraded in #11 §7.4' changed to the present tense, 'is downgraded'."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/vacuum-energy-identity.md",
+   "category": "residual-narrative",
+   "note": "'#11 §15 now counts' changed to '#11 §15 counts': 'now' marked a change of standing, and this passage is not in a folded Superseded section."
+  },
+  {
+   "file": "wiki/gravity/spin-2-fields/cosmological-constant-problem.md",
+   "category": "residual-narrative",
+   "note": "Parenthetical 'version 1.0 had said \"halves the exponent\", corrected by round-5 ruling R7' (the rewriter's flagged judgment call) was wording history with a version tag. Now '(§7; round-5 ruling R7 finds a fourth root, not a halving of the exponent.)', which keeps the arithmetic correction and what checked it (review/round5-adjudication.md R7)."
+  },
+  {
+   "file": "wiki/gravity/spin-2-fields/bimetric-cosmology.md",
+   "category": "distortion-or-addition",
+   "note": "Body and Sources flatly called the under-review Kibble normalization an error ('because ... had been normalized too low', 'That error', 'an unrelated error'). Now attributed as the finding of round 3 (ruling 1 upheld it): 'withdrawn after round 3, which found ... normalized too low', 'That finding'. The statement that it does not bear on this item stays. This wording was already at HEAD; the rewrite left it."
+  },
+  {
+   "file": "wiki/gravity/spin-2-fields/_index.md",
+   "category": "other",
+   "note": "Linked '#14's failed soliton model' to its obituary, as wiki/CLAUDE.md requires for every mention of the dead model. No wording changed. This mention was already at HEAD without the link."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/ghosts.md",
+   "category": "residual-narrative",
+   "note": "'Model I: the de Sitter target of K' had a version tag on a citation where the version is not the subject ('Version 2 of the toy-model note places K on a curved target'); now 'The toy-model note places K…'. The quotation still matches the note's §2."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/partially-massless-gravity.md",
+   "category": "residual-narrative",
+   "note": "Temporal marker left at HEAD ('Since the handoff the comparison has been part of item 1 of the current queue'); now 'The comparison is part of item 1 of the current queue', which root CLAUDE.md's queue supports. The source-section name 'Since the handoff' stays in the citation."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/planck-units.md",
+   "category": "residual-narrative",
+   "note": "Temporal marker left at HEAD ('which has since written the relation up and tested it'); now 'which writes the relation up and tests it', matching the note's own header. No physics changed."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "category": "evidence-lost",
+   "note": "v2.4 §11 bullet: the rewrite dropped the tag change, so 'except that' was no longer exhaustive and an [O] was lost; restored that the [O] after \"contests this ground\" is gone (checked 2112cae against current §11.1)."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "category": "evidence-lost",
+   "note": "Item 62: restored flag 62's finding in neutral wording, that v2.3 does not say the shared-photon form would account for the null result."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "category": "distortion-or-addition",
+   "note": "v2.5 §9 bullet: a list of changes had become a summary of the passage that said 'tested three ways' but gave only the particle and free-coupling results, omitting the failure against the faintest dwarfs; added #11 §9's wave-side sentence as an exact quotation."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "category": "prose-damage",
+   "note": "v2.5 section opened 'That night', whose antecedent was in removed text; now 'On the night of 2026-10-29'."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "category": "prose-damage",
+   "note": "'raised item 63 the same day' had lost its antecedent with the removed ruling sentence; now 'on 2026-10-29', the date in flag 63."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "category": "prose-damage",
+   "note": "§11.4 bullet: F2 was introduced only by the removed sentence; now 'The finding F2 in #14 v3's worklog (`review/v3-worklog.md`)'."
+  },
+  {
+   "file": "wiki/gravity/tuning-test/geometric-action.md",
+   "category": "prose-damage",
+   "note": "'lists it as open' read as the v0.1 origin that the previous sentence says has not survived; now 'lists the origin as open', checked against #5 §F item 3."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "evidence-lost",
+   "note": "The rewrite dropped the citation 'Freidel, Kowalski-Glikman, Leigh and Minic 2023, among others', so the 'Cited on' entry in wiki/references.md naming this page had become false, contrary to the rewriter's report. Restored in the diameter-note entry."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "evidence-lost",
+   "note": "Restored 'a·ã = 1' as the relation's one-cell form in the diameter-note entry; it was silently dropped from a bullet otherwise kept in paraphrase."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "evidence-lost",
+   "note": "The Monopoles entry had reduced the physics to names. Restored in neutral paraphrase: the magnetic-mirror conjecture (#11 §11.4 [O], flag 60); the shared-photon form's conflict with P4; the Parker bound at #14's benchmark masses (not gated); π₁(Λ(4)) = ℤ and π₂(Λ(4)) = ℤ₂ for d = 4 and a global U(4); strings of τ and point defects (flag 61; #11 §14 item 12). Flags 60 and 61 went back into the frontmatter sources and the Sources list."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "evidence-lost",
+   "note": "The conjectures entry named collapse-powered expansion and the founding image with no evidence against them. Restored the two failed versions (w = −2, excluded by data; dual dust, which maps to dust), the route dual stiff ↦ Λ, Appendix A items 9 and 3, and the evidence of #11 §9. Also restored the glosses of hypothesis H (third way #14 fixed α_d ≈ 34) and the symmetric reading (k̃ = k)."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "evidence-lost",
+   "note": "In the #14 entry, restored that #14 went to v3, and added the canonical statement that #14's model did not treat localization in momentum, so the candidate itself has not been tested (at HEAD: 'never tested it')."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "distortion-or-addition",
+   "note": "The rewriter's 'these notes, neither reviewed' covers three notes (closed-universe plus two momentum-gravity notes); changed to 'none of them reviewed'."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "category": "distortion-or-addition",
+   "note": "The queue paragraph said the † battery was what 'Born 1938 and 1949 were retrieved' for; the root file says they were retrieved for the diameter note. Split into a separate clause matching the source."
+  },
+  {
+   "file": "wiki/history/documents/handoff.md",
+   "category": "distortion-or-addition",
+   "note": "The rewritten list promises each claim 'with where it stands now', but 'Rows withdrawn permanently.' had no current standing. Added that the withdrawn rows on velocity-space granularity and Fornax friction are under review (#11 §13), with links, in the frontmatter sources and the Sources list. The wiki already states this on lab-notebook, so it is no new claim; it is a judgement call, since HEAD did not say it in this bullet."
+  },
+  {
+   "file": "wiki/history/documents/handoff.md",
+   "category": "prose-damage",
+   "note": "'§7 records P.R.'s background, an independent developer…' made the background a developer; changed to 'background as an independent developer'."
+  },
+  {
+   "file": "wiki/history/documents/lab-notebook.md",
+   "category": "residual-narrative",
+   "note": "Sources line 'v0.1's [P] proposed again, pending' still carried 'again'; changed to 'v0.1's tag [P] proposed for the gate and μ, pending'."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "category": "evidence-lost",
+   "note": "Row 1c80d01 had dropped that the commit also changed the round-3 adjudication's note on Decision 2 (its message and stat show this). It now says the commit aligns the wording of #11 v2.4, without a change of version, and of that note with the root CLAUDE.md."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "category": "evidence-lost",
+   "note": "'What the record does not date' had lost one undated event of 2026-10-29. Restored neutrally as P.R.'s statement of his core conjectures, beside the review that raised flag 63. The answers it was listed with stay out, as dispute narrative."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "category": "distortion-or-addition",
+   "note": "First row under version 2.5 said the root CLAUDE.md 'records' the standings at 'time not recorded', but commits d501d6d and 4f1b4ca date that recording. Reworded to 'Where the claims stand under #11 v2.5, as the root CLAUDE.md records them', so the time cell no longer contradicts the later rows."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "category": "residual-narrative",
+   "note": "Row 17:55 said 'two sub-claims, now under review', with 'now' marking a status change. Cut the clause: the link titles give the status, and the 2026-10-29 row lists both claims."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "category": "prose-damage",
+   "note": "The momentum-gravity question said the tests 'settle the matter', ambiguous right after 'dark matter'. Now 'are conclusive', which keeps the note's own reading (§1: asked whether the burial was premature)."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "category": "prose-damage",
+   "note": "Opening's 2026-10-30 sentence misparsed with 'corrected, without a change of version, a thirteenth claim…'. Removed the commas around the phrase."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/history/documents/source-conflicts.md",
+   "category": "distortion-or-addition",
+   "note": "Entry on the version of #11 said the root CLAUDE.md's \"dated entries\" name the version, but the \"#11 is now v2.1\" and \"#11 v2.2 §14 item 11\" bullets carry no date. Now \"Its entries\"."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/history/documents/source-conflicts.md",
+   "category": "distortion-or-addition",
+   "note": "Flag 63 entry gained \"not otherwise audited\", which was not on this page at HEAD. It is true of the flags file but breaks \"add nothing\", so I removed it. The fact stays in the open-problems register, and the entry now matches checkpoint.md's wording."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/history/documents/source-conflicts.md",
+   "category": "prose-damage",
+   "note": "Entry on the ✓ said \"#11 §9 tags it [D]\" and then, after the rewrite, \"#11 §9's tag is [D], and #11 governs the tag\". Cut the repeat, leaving \"#11 governs the tag.\" No fact lost."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/history/documents/source-conflicts.md",
+   "category": "prose-damage",
+   "note": "Sources still cited #11 \"§14 items 8 and 9\", but item 8 was used only by the deleted loophole entry. Now \"§14 item 9\"."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "evidence-lost",
+   "note": "The Decision 2 sentence had lost the point that the candidate #14 modeled has not been tested and is P.R.'s open conjecture. Restored in the brief's wording, citing #11 §12, and added §12 to the frontmatter and Sources."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "evidence-lost",
+   "note": "The physics of the F2 decision was gone: the page no longer said what the reading was. Restored as 'in which S-duality does not fix the dual coupling α_d', checked against the worklog's F2 and #11 §11.4, without the withdrawal story."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "residual-narrative",
+   "note": "'since superseded' told a status change. Now 'That reading is superseded; F2's finding ... stands', which matches the folded heading on the alpha-d-coupling page. This answers the rewriter's question about 'superseded'; see unresolved."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "prose-damage",
+   "note": "'the explanation half of item 5 and item 9' had been glossed only in a removed sentence. Named both, in HEAD's words, with links: the monopole explanation of the null result, and conjugate collapse powering our expansion."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "prose-damage",
+   "note": "'flag 55, on the gate's tag' was ambiguous because 'the gate' on this page means the verification gate. Now 'the tag of the dark-matter gate', in the body and in Sources."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "prose-damage",
+   "note": "Split a sentence that had two semicolons, so that Decision 2's scope stands as its own sentence."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "distortion-or-addition",
+   "note": "'Some of #11's own passages break the rule' was stronger than HEAD's 'predate the rule or break it'. Restored; the phrase is neutral."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "category": "distortion-or-addition",
+   "note": "'#11 carries the line' was weaker than HEAD's 'is the one that carries the line', with no narrative reason for the change. Restored."
+  },
+  {
+   "file": "wiki/method/negative-results.md",
+   "category": "evidence-lost",
+   "note": "The square-at-the-bounce item had lost the diameter note's 'its results stand' (v1.2 header). Restored as 'The note's results stand, and the claim is under review', with the header added to Sources."
+  },
+  {
+   "file": "wiki/method/negative-results.md",
+   "category": "residual-narrative",
+   "note": "'checks the numbers of the obituary' is stale wording under the brief. Now 'of #14's failed model', as on claim-tiers; the script name is unchanged."
+  },
+  {
+   "file": "wiki/method/negative-results.md",
+   "category": "residual-narrative",
+   "note": "Sources said 'item 59 — the restated grounds', which is wording history. Now 'the two grounds against the monopole explanation'."
+  },
+  {
+   "file": "wiki/method/provenance-tags.md",
+   "category": "residual-narrative",
+   "note": "'the results against them carry the tags they had' implied a status history. Now 'carry their sources' tags'."
+  },
+  {
+   "file": "wiki/method/review/_index.md",
+   "category": "distortion-or-addition",
+   "note": "'The claims the reviews weighed against are under review' was an unsupported universal: the same paragraph says round 5 refuted a side claim that is not under review, and #14's model is in the graveyard. Now 'Other claims the reviews weighed against are under review'."
+  },
+  {
+   "file": "wiki/method/review/_index.md",
+   "category": "prose-damage",
+   "note": "The renamed anchor left 'hypothesis H, which ... is under review with it ([hypothesis H](...))', repeating the term. The link now sits on the first mention and the parenthesis is gone."
+  },
+  {
+   "file": "wiki/method/review/round-3/decisions.md",
+   "category": "evidence-lost",
+   "note": "The status line had dropped the scope from a sentence mixing narration with content, leaving 'the decisions are in force', which could read as the candidate's retirement being in force. Now 'the decisions are in force, Decision 2 for #14's model'."
+  },
+  {
+   "file": "wiki/method/review/round-3/decisions.md",
+   "category": "prose-damage",
+   "note": "In 'The decision's scope', 'superheavy solitons of a hidden gauge sector, which used ordinary kinematics' attached 'which' to the sector. Reordered to 'Decision 2 covers #14's model, which used ordinary kinematics: superheavy solitons of a hidden gauge sector.'"
+  },
+  {
+   "file": "wiki/method/review/round-5.md",
+   "category": "distortion-or-addition",
+   "note": "Opening and status line said the withdrawn claim was under review 'with its results unchanged', so 'its' pointed at the claim, while the note's header applies it to the §6 section. Now 'with the note's results on it unchanged'."
+  },
+  {
+   "file": "wiki/method/review/round-5.md",
+   "category": "distortion-or-addition",
+   "note": "Version 1.2 section: 'Its results stand' followed 'lists the claim as withdrawn and under review', which read as the claim's results standing. Now 'The section's results stand', matching the v1.2 change line."
+  },
+  {
+   "file": "wiki/method/review/round-5.md",
+   "category": "residual-narrative",
+   "note": "Version 1.2 section: 'is now headed \"Under review: ...\"' used 'now' to mark a status-label change. Now 'is headed ... in version 1.2'."
+  },
+  {
+   "file": "wiki/method/review/round-5.md",
+   "category": "prose-damage",
+   "note": "Splitting referee A's sentence left 'the section's 'What survives'' with no section named. Now '§6's 'What survives''; the quoted words are unchanged and exact against the referee's notes."
+  },
+  {
+   "file": "wiki/method/review/rounds-one-and-two.md",
+   "category": "distortion-or-addition",
+   "note": "'The coupling is under review' came right after v2's reciprocity-as-S restatement, which belongs to P.R.'s open conjecture, not to the under-review claim; the same ambiguity was at HEAD. Now 'The coupling in its first form, via our photon, is under review', per root CLAUDE.md and the α_d page."
+  },
+  {
+   "file": "wiki/method/verification/iron-rule.md",
+   "category": "distortion-or-addition",
+   "note": "'the numbers of #14's failed model' read as the manuscript's own numbers, which the predecessor script checked, in a sentence about what current documents assert; now 'the numbers #11 gives for #14's failed model'."
+  },
+  {
+   "file": "wiki/method/verification/the-gate.md",
+   "category": "prose-damage",
+   "note": "After the rewrite the 'check mark' bullet stated #11 §9's [D] twice; removed the closing clause. The tag stays in the bullet's first clause ('#11 §9 tags it [D]'), so nothing is lost."
+  },
+  {
+   "file": "wiki/method/verification/phase-space-diameter-script.md",
+   "category": "other",
+   "note": "'The note lists the correction ... (§11)' pointed at the diameter note, which has no §11; the list is in `notes/velocity-gated-gravity.md` §11, and the page now names it. Already wrong at HEAD, not caused by the rewrite."
+  },
+  {
+   "file": "wiki/notation.md",
+   "category": "prose-damage",
+   "note": "Frontmatter description read \"The symbols ..., grouped by subject, with its meaning\", where \"its\" has no singular antecedent; now \"each with its meaning\". The slip predates the rewrite. The rewrite's nine changed lines were each checked against HEAD and the sources and needed no repair."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/born-structures.md",
+   "category": "residual-narrative",
+   "note": "The rewriter left this page untouched. Changed 'Since #11 v2.2 the polarization has been a Goldstone angle instead' to 'In #11 the polarization is a Goldstone angle instead'; the §4 quotation and its [D][V] tags are unchanged."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/compatibility-theorem.md",
+   "category": "residual-narrative",
+   "note": "Status line: removed the clause 're-attributed from \"derived here\" to the literature in #11 v2.1'. The older documents' tags are still stated in 'Attribution history'."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/compatibility-theorem.md",
+   "category": "residual-narrative",
+   "note": "Changed 'Until round 3 the program treated the theorem as its own result' to 'The documents written before round 3 treat the theorem as the program's own result'; the list of documents and their tags is unchanged."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/compatibility-theorem.md",
+   "category": "residual-narrative",
+   "note": "Replaced '#11 v2.1 (2026-10-19) made the change' and the quoted version note 'Attribution (v2.1): v2.0 presented this as derived here' with '#11 §5 tags the statement [T][V] and credits it:', cutting the quote at the physics. Split the §15 quote around 'in v2.1', as wiki/program/assessment.md does. Both quotes checked exact against #11; the dated history remains on wiki/history/documents/checkpoint.md and source-conflicts.md."
+  },
+  {
+   "file": "wiki/method/verification/velocity-gated-gravity-script.md",
+   "category": "residual-narrative",
+   "note": "Sources: changed 'the clumping check mark now backed by block D' to 'backed by block D'. The flag 16 addendum's own 'now', inside its exact quotation, stays."
+  },
+  {
+   "file": "wiki/method/verification/velocity-gated-gravity-script.md",
+   "category": "distortion-or-addition",
+   "note": "The rewriter changed 'Nine of its lines read the record' to 'Seven' without reporting it. No edit: Seven is correct. The recorded output has 7 '(record...)' labels in block G and 2 in block E, so HEAD's nine counted the whole script; 7 plus the 11 recomputing lines gives block G's 18 checks."
+  },
+  {
+   "file": "wiki/method/verification/velocity-gated-gravity-script.md",
+   "category": "other",
+   "note": "Error already at HEAD: 'its last two paragraphs, on two reduced ports and on what is not recomputed, are quoted' miscounts, because both topics share one docstring paragraph and the last paragraph is the runtime. Now 'its paragraph on two reduced ports and on what is not recomputed is quoted'."
+  },
+  {
+   "file": "wiki/method/verification/velocity-gated-gravity-script.md",
+   "category": "other",
+   "note": "The rewriter's reported concern is settled, no edit. Compared with the script ignoring whitespace, the docstring quote is exact apart from the two marked [...] and the stated omission of the command. The 2 'obituary' hits are the literal label 'D. The obituary's scope', which SPECIAL.md allows."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/field-content.md",
+   "category": "residual-narrative",
+   "note": "\"That route is now disputed\": \"now\" marked a change in the route's standing, and the rewrite left it. Changed to \"That route is disputed\"; the gate-mechanism finding and its calibration are untouched."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/modular-inversion.md",
+   "category": "residual-narrative",
+   "note": "\"Both flags are pending, and the wiki does not rule on them\" kept leftover ruling chatter from the HEAD sentence. Cut to \"Both flags are pending.\"; the adjudication's quoted finding on flags 23 and 24 stays."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/modular-field-z.md",
+   "category": "other",
+   "note": "The rewrite replaced \"#11 is unchanged\" with \"#11 §8 tags the mechanism [D] and the shape [O]\". This is correct against #11 §8's \"[D — mechanism; shape [O]]\" and follows the brief's pattern, but §8 was not listed as a source. Added §8 to frontmatter `sources` and to the `## Sources` line; title, weight, status and provenance unchanged."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-length.md",
+   "category": "distortion-or-addition",
+   "note": "The description called an under-review claim 'the excluded self-dual length', unattributed. It now reads 'the self-dual length of about 50 μm that the phase-space-diameter note excludes', matching the body."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-length.md",
+   "category": "residual-narrative",
+   "note": "'Since the phase-space-diameter note, verify/phase_space_diameter.py has computed the value' became a present-tense statement that the note's script computes it. The PASS line, §8.1 and [V] are kept."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-length.md",
+   "category": "prose-damage",
+   "note": "The rewriter's 'In the note's verdict that reading stands only if…' misparsed as 'verdict that…'. Added a comma after 'verdict'. The meaning matches notes/closed-universe.md §4 and the home page's wording."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-reciprocity.md",
+   "category": "residual-narrative",
+   "note": "Status line: 'has since retrieved and read both papers' became 'retrieved and read both papers'. [S] and §4 are kept."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-reciprocity.md",
+   "category": "distortion-or-addition",
+   "note": "Used-by entry for the under-review self-dual length said 'excluded in the program's two uses of it', unattributed. It now says the phase-space-diameter note excludes it in those two uses."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+   "category": "residual-narrative",
+   "note": "Removed 'now' from 'the toy note now says only'. The d = 1 restriction and the quotation are kept."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+   "category": "residual-narrative",
+   "note": "'The toy note's v2 cites it' became 'The toy note cites it'. Smolin is ref. [4] in papers/reciprocity-toy-models.md."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+   "category": "residual-narrative",
+   "note": "'#11 v2.1 re-tagged the theorem [T][V] and credited them (§5)' became '#11 §5 tags the theorem [T][V] and credits them', checked against #11 §5 and matching compatibility-theorem.md. The T1 pointer is kept."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+   "category": "residual-narrative",
+   "note": "Dropped '(v2.2, 2026-10-20)' from the item label, and '#11 v2.2 added the attribution to §3' became '#11 §3 gives the attribution'. The dated version history remains on wiki/history/documents/checkpoint.md and the timeline."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/fourier-transform.md",
+   "category": "residual-narrative",
+   "note": "'The cosmic version, now documented' became 'The cosmic version', and 'The note is now written (…)' became 'That note is papers/phase-space-diameter.md (…)'. The HANDOFF quotation and the root CLAUDE.md pointer are kept."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/lagrangian-polarizations.md",
+   "category": "residual-narrative",
+   "note": "'Since v2.2 the choice has been a continuous angle' became 'In #11's v2.2 refinement the choice is a continuous angle'. The version stays because it is the source's own label for the refinement (#11 §4). This clears the invariants script's since_until_version hit."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/symplectic-form.md",
+   "category": "residual-narrative",
+   "note": "'the toy note's v2, which ranks above the adjudication' became 'the toy note, which ranks above the adjudication'. The physics correction, flag 12 and conflict entry C28 are kept."
+  },
+  {
+   "file": "wiki/predictions/_index.md",
+   "category": "prose-damage",
+   "note": "Row 1's map item read \"(rows 1–3 depend on its tag; pending)\", leaving \"pending\" attached to nothing; changed to \"flag 55, pending, which proposes ... (rows 1–3 depend on its tag)\"."
+  },
+  {
+   "file": "wiki/predictions/dark-sector-microstructure.md",
+   "category": "other",
+   "note": "No edit: the rewriter changed v2.0's \"hidden gauge sector\" to \"p-local gauge sector\" without reporting it; v2.0's table (commit 8d588f6) and #11 §12 both say p-local, so the new word stands."
+  },
+  {
+   "file": "wiki/predictions/direct-detection-null.md",
+   "category": "other",
+   "note": "No edit: the P4 code block keeps \"taken strictly since v2.1\" because it is an exact quotation of #11 §4, and wiki/program/postulates/p4-polarized-matter.md quotes it the same way."
+  },
+  {
+   "file": "wiki/predictions/early-universe-step.md",
+   "category": "other",
+   "note": "No edit, settling the rewriter's concern: \"pending\" for flags 48 and 49 stands; the flags file has no Ruling line for either, and both are listed under 'Pending rulings' in wiki/status/open-problems.md."
+  },
+  {
+   "file": "wiki/predictions/self-interaction-knee.md",
+   "category": "distortion-or-addition",
+   "note": "Status line said \"#11 §8's tag is [D]\", but §8's tag is \"[D — mechanism; shape [O]]\". It now reads \"[O] for the mechanism, which #11 §8 tags [D]\"."
+  },
+  {
+   "file": "wiki/predictions/table-history.md",
+   "category": "evidence-lost",
+   "note": "The paraphrase of v2.5's withdrawn list dropped \"with cause\" from #14's entry, though the source's list reads \"Withdrawn with cause\". It now reads \"withdrawn with cause and dead\"."
+  },
+  {
+   "file": "wiki/predictions/table-history.md",
+   "category": "prose-damage",
+   "note": "Deleting the sentence's status clause left a bare \"([v2.5](#...))\" after \"claims under review\", which read as a version tag on a wiki register. It now reads \"and [#11 v2.5](#the-checkpoint-v25-the-withdrawn-list-divided) lists them as under review\"."
+  },
+  {
+   "file": "wiki/predictions/table-history.md",
+   "category": "residual-narrative",
+   "note": "\"That derivation is now disputed\" became \"That derivation is disputed\"; the note's date and flag 55 (pending) stay."
+  },
+  {
+   "file": "wiki/program/assessment.md",
+   "category": "residual-narrative",
+   "note": "\"and is now tagged [T][V]\" became \"and is tagged [T][V]\". \"Presented in v2.0 as derived here\" stays, because it is the content of the §5 demotion that §15 lists as a risk."
+  },
+  {
+   "file": "wiki/program/assessment.md",
+   "category": "prose-damage",
+   "note": "The new \"Later results\" bullet used \"the gate\" and \"μ\" with no gloss anywhere on this page. It now links the velocity gate, says it acts on dark matter's self-interaction, and writes \"its momentum width μ\" (#11 §8). No new claim."
+  },
+  {
+   "file": "wiki/program/conjugate-universe.md",
+   "category": "prose-damage",
+   "note": "\"They are failed versions\" followed a lab-notebook quotation once its lead-in was removed, so \"They\" was ambiguous. It now reads \"Both are failed versions of an open conjecture (#11 §10)\"."
+  },
+  {
+   "file": "wiki/program/assessment.md",
+   "category": "other",
+   "note": "No edit. NEW NUMBERS ['28', '55'] are justified: SPECIAL.md asks \"## Later results\" to cover flag 55, and 28 is the date of notes/gate-mechanism.md. Round 5's verdict, the note's calibration and closure at about 2σ (one agent's fit, no supernovae, not reviewed) were checked against review/round5-adjudication.md, flag 55 and notes/closed-universe.md §2."
+  },
+  {
+   "file": "wiki/predictions/table-history.md",
+   "category": "other",
+   "note": "No edit. Quotations of the v2.1 and v2.4 withdrawn lists keep their \"obituary\" wording and are verbatim against commits e1c1f67 and 9060088; BRIEF.md allows this as dated document history. Every quotation on a changed line in the six pages was checked with work/wiki-cleanup/verify-32/quotes.py and the misses read by hand; those misses are older versions, nested quotes, LaTeX transcription or frontmatter paths."
+  },
+  {
+   "file": "wiki/program/postulates/p4-polarized-matter.md",
+   "category": "evidence-lost",
+   "note": "\"Decision 2, of the same day, covers #14's model\" no longer said what the decision did. Now \"retired #14's model\", matching review/round3-adjudication.md Decision 2 and wiki/method/review/round-3/decisions.md."
+  },
+  {
+   "file": "wiki/program/founding-suppositions.md",
+   "category": "evidence-lost",
+   "note": "Item 5's \"Round-3 Decision 2 covers #14's model\" had lost that the decision was a retirement, which HEAD stated. Now \"The retirement in round-3 Decision 2 covers #14's model, which used ordinary kinematics\"."
+  },
+  {
+   "file": "wiki/program/postulates/nontriviality-theorem.md",
+   "category": "residual-narrative",
+   "note": "Version tag on a citation: \"#11 v2.2 states the refinement beside the theorem\" is now \"#11 states ...\". The bullet's label \"The v2.2 refinement\" stays."
+  },
+  {
+   "file": "wiki/program/postulates/original-p2.md",
+   "category": "residual-narrative",
+   "note": "Version tag on a citation: \"#11 v2.2 replaces the discrete picture\" is now \"#11 replaces the discrete picture\"."
+  },
+  {
+   "file": "wiki/program/postulates/original-p2.md",
+   "category": "other",
+   "note": "Inaccuracy already at HEAD, not the rewriter's: \"The body of the lab notebook was never edited\" is false, since c12da1b changed wording in that body. Now \"never brought up to date\", as wiki/history/documents/lab-notebook.md says."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "distortion-or-addition",
+   "note": "Modular S sub-bullet: 'the worklog's finding F2 showed that it was not needed for a strong monopole coupling' presented the reading adopted by the withdrawn F2 decision as a standing finding, which weighed too hard against the separate-photon form. What stands is the weak/strong inconsistency (#11 §11.4; root CLAUDE.md, 'arithmetic finding'). Now '#14 v3 set it aside under the reading the worklog's F2 proposed', as s-duality.md and magnetic-identification.md word it."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "residual-narrative",
+   "note": "Status line: removed 'now' from 'now carry the tags' and 'now derived', which marked a change of status."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "residual-narrative",
+   "note": "Chat-only intro: 'is no longer chat-only' and 'now has the status' became 'is written up' (matching the item's own 'Status: written up') and 'has the status'."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "residual-narrative",
+   "note": "Popsci-only transparency entry: 'a check now withdrawn' became 'a check withdrawn with the manuscript'."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "residual-narrative",
+   "note": "Mirror entry: '#14 stays withdrawn' became 'is withdrawn', and 'stays popsci-only' became 'is popsci-only'. With the F2 and flag 60 story cut, 'stays' had nothing left to contrast with."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "prose-damage",
+   "note": "Founding-image entry: 'Its loophole' followed a sentence about the velocity-gated-gravity note, so it read as the note's loophole. Now 'The image's loophole' (App. A item 3)."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "prose-damage",
+   "note": "The square: 'its results stand' was left over from the cut v1.2 quotation and could read as the withdrawn claim's results. In the note, 'its' means §6's, so it now reads '§6's results stand'."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "prose-damage",
+   "note": "Monopole entry: 'the candidate v2.0 proposed' lost its gloss when the version narrative in the opening was cut. Now 'the candidate #11's version 2.0 proposed', which the §12 quotation 'that v2.0 claimed' needs. The source is §12's 'Version 2.0 proposed the third'."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "category": "prose-damage",
+   "note": "The new first bullet moved the page's first flag mention to 'flag 55', unglossed. Now 'flag 55 in `review/wiki-build-flags.md`, pending', the wiki's usual pointer."
+  },
+  {
+   "file": "wiki/status/alive.md",
+   "category": "residual-narrative",
+   "note": "Mean-field criterion row: 'have been reproduced ... section D since 2026-10-28' became 'are reproduced ... section D'. The check, the ✓ and the flag 16 addendum pointer are all kept."
+  },
+  {
+   "file": "wiki/status/_index.md",
+   "category": "prose-damage",
+   "note": "Conjectures map entry: 'that dark matter is [conjugate matter], [velocity clumping...], [magnetic monopoles...]' was not parallel. Now 'dark matter as [conjugate matter], ...', matching the register's description line."
+  },
+  {
+   "file": "wiki/status/graveyard.md",
+   "category": "evidence-lost",
+   "note": "Status line had dropped that round 3 was a blind review (from the deleted 'How a death is recorded'). It now reads 'the verdict of blind review round 3 and its Decision 2'."
+  },
+  {
+   "file": "wiki/status/graveyard.md",
+   "category": "evidence-lost",
+   "note": "Restored the calibration that no ruling addressed hypothesis H by itself. Root CLAUDE.md and alpha-d-coupling#hypothesis-h both support it."
+  },
+  {
+   "file": "wiki/status/graveyard.md",
+   "category": "prose-damage",
+   "note": "'Parts of #14's soliton model' repeated the six-pieces sentence of the section above almost word for word. It now says how they relate: the six pieces are not among the items below, they are under review. The deep link stays."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "evidence-lost",
+   "note": "Review queue had reduced collapse-powered expansion to 'with its two failed versions'. Restored w = −2 (the data exclude it), dual dust (the corrected dictionary maps it to dust) and the remaining route, dual stiff ↦ Λ (#11 §10)."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "evidence-lost",
+   "note": "Restored the evidence against the founding image that the deleted section carried: as collective dynamics it fails for particle dark matter by theory and, in Scenario A, against Segue 1's data (#11 §9; App. A item 3)."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "evidence-lost",
+   "note": "Queue item 13 had lost the note's verdict on the symmetric reading. Added in the SPECIAL.md paraphrase: it stands only if a compact momentum space is added deliberately (notes/closed-universe.md §4)."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "evidence-lost",
+   "note": "Particle-χ relic bullet had lost, with 'History of the register', that the problem closes only on the wave island, by misalignment production (#1 addendum v0.2). Restored with a link, and addendum v0.2 is back in Sources."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "distortion-or-addition",
+   "note": "Flag 37 attached '(confirmed)' to a statement the audit never checked. The verdict now stays on the README's wording, and the open-conjecture point is attributed to the flags file's later note."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "distortion-or-addition",
+   "note": "Flag 59 attributed 'inflationary dilution already accounts for absence [T]' to #11 §11.1, whose current text no longer has it, then gave §11.1 a second wording. It now reads 'as the flag quotes it', and 'a fact §11.1 did not use' became 'a fact that ground did not use', since §11.1 now uses it."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "distortion-or-addition",
+   "note": "Flag 59's sentence attributed to #11 §11.1 said 'lends the program no support'; §11.1 says 'lends the explanation no support'. Corrected to match the cited source."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "distortion-or-addition",
+   "note": "Handoff queue item 3 said flatly the √N floor has 'no candidate left to serve', which reads against the third candidate being an open conjecture. Attributed to its ground as Decision 3 words it: 'under Decision 2 it has no candidate left to serve'."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "residual-narrative",
+   "note": "Replaced a version tag on a citation in the leads section: 'Version 1.1 of the note also cites Hur et al. 2025' became 'The note also cites…'. The citation is still in the note's §7."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "prose-damage",
+   "note": "Bullet head 'The question itself' dangled once 'Paul's question' was cut from the section intro. It is now 'The founding image: whether a particular observation of velocity structure bears on it'."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "prose-damage",
+   "note": "'F2' lost its only gloss when 'in the v3 worklog' was cut. Added the citation (review/v3-worklog.md, 'Findings neither referee raised') beside F2's finding, and F2 to the worklog line in Sources."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "prose-damage",
+   "note": "'The update's source reviewer' lost its antecedent when 'instruction to update the repository' was cut. Flag 59 now says 'the source reviewer of the update that wrote the discussion's findings into the repository'."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "prose-damage",
+   "note": "Flag 60's bare 'the sentence' pointed at nothing after 'the page's' was cut. It is now 'the premise', which matches the flag's list of premises and the clause that follows."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "category": "prose-damage",
+   "note": "Flag 16's bare 'the ✓' had lost its context when its quotation marks were removed. It is now 'the handoff's ✓'."
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "evidence-lost",
+   "note": "F2 entry: the rewrite dropped that #14's model needed the coupling and that no ruling addresses H by itself. Restored both, replacing its new phrase 'which the reading served': 'which needed the coupling and failed in round 3 ... H was part of that model, and no ruling addresses it by itself.'"
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "evidence-lost",
+   "note": "Handoff's 'current best' entry: the scope 'as a program-native proposal' (root CLAUDE.md, #11 §12, Decision 2) was gone. Restored: 'failed as a program-native proposal on its recomputed abundance'."
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "distortion-or-addition",
+   "note": "#11 §14 item 8: the source reopens both the soliton-spectrum and p-localization items, and the rewrite's 'open:' read as p-localization only. Changed to 'both open:'."
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "distortion-or-addition",
+   "note": "README entry: flag 37's note concerns the monopole clause, but the rewrite applied it to the whole tagline. Changed to 'The tagline's monopole clause states ...'."
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "prose-damage",
+   "note": "§14 item 8 pointer said the closure is 'in the body of' open-problems, but that page now holds only the current form. Changed to '(the current form in the body of ...)', matching the monopole entry above it."
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "residual-narrative",
+   "note": "Compatibility-theorem entry: 'since #11 v2.1 the statement has been credited' became 'the statement is credited'; the old form keeps its #11 v2.0 label as the subject."
+  },
+  {
+   "file": "wiki/status/superseded.md",
+   "category": "prose-damage",
+   "note": "Sources line: 'founding supposition 9 through dual stiff ↦ Λ' had lost its sense when 'open' was cut. Now 'founding supposition 9, open through dual stiff ↦ Λ'."
+  },
+  {
+   "file": "wiki/symmetry-breaking/goldstone-angle.md",
+   "category": "residual-narrative",
+   "note": "The page had no rewrite changes, but its italic opening kept a version-tagged citation, 'recorded in #11 v2.2'. Now 'recorded in #11'; the literal source label 'Toy-model support (v2.2)' stays in the status line, body and Sources."
+  },
+  {
+   "file": "wiki/symmetry-breaking/topological-defects.md",
+   "category": "distortion-or-addition",
+   "note": "The rewrite gives \"stable by topological charge\" as the candidate's present description, but #11 §12's table tags that stability [O]. Added [O] to \"P.R.'s open conjecture\" in that sentence, a tag the page's status line already carries. The rewriter's three flagged wordings hold: the §12 fragments are exact, closed_universe.py is in scripts/check.sh, and the cut #11 wordings held no physics."
+  },
+  {
+   "file": "wiki/symmetry-breaking/topological-defects.md",
+   "category": "prose-damage",
+   "note": "The subject became the singular \"candidate ... It is\", which left \"#14 modeled them\" without an antecedent. Changed to \"modeled it\"."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/_index.md",
+   "category": "residual-narrative",
+   "note": "\"version 2 no longer carries that subtitle\" changed to \"does not carry\"."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/acceptance-criterion.md",
+   "category": "residual-narrative",
+   "note": "\"The soliton manuscript, now withdrawn, listed it\" marked a status change with \"now\". Changed to \"The withdrawn soliton manuscript listed it\"."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/acceptance-criterion.md",
+   "category": "residual-narrative",
+   "note": "Removed the version tag from \"#11 §14 item 11 in version 2.2\"; #11's current item 11 has the quoted wording."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo.md",
+   "category": "residual-narrative",
+   "note": "The History list's \"**#11 v2.2** (amended 2026-10-20) records\" became \"**#11** records\", removing a version tag and date from a citation outside the history pages. The bullet's content stays."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/so2-question.md",
+   "category": "residual-narrative",
+   "note": "Sources: \"the unrestricted statement, now superseded\" changed to \"superseded\". The rewrite had not touched this page."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/frozen-h-reduction.md",
+   "category": "residual-narrative",
+   "note": "Dropped \"now\" from \"the script's docstring now reads\" and \"the rule now demands\", which told a wording change. Kept \"The simulation itself still covers only the angle\" as a caveat."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration.md",
+   "category": "residual-narrative",
+   "note": "'is now under review' on the naive potential marked a change of status; now 'is under review'."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/success-criteria.md",
+   "category": "residual-narrative",
+   "note": "'now under review (below)' after the scorecard marked a change of status; now 'which is under review (below)'. The '(below)' still points to the S4 bullet."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/success-criteria.md",
+   "category": "residual-narrative",
+   "note": "S4 bullet: 'unbounded below once H is dynamical and now under review' became 'which is unbounded below once H is dynamical and is under review', because dropping 'now' alone would let 'under review' read as applying to H."
+  }
+ ],
+ "unresolved": [
+  {
+   "file": "wiki/status/alive.md",
+   "note": "Outside this batch. Line 88 says conjugate special relativity 'rests on #13 alone', while the hub now says its pages rest 'mainly' on #13. I kept the rewrite's 'mainly', because maximum-force.md also rests on papers/phase-space-diameter.md. The two can be read together (standing versus page content), but the consistency audit should settle the wording."
+  },
+  {
+   "file": "wiki/conjugate-relativity/_index.md",
+   "note": "Kept but goes beyond removing narration: the rewrite changed HEAD's 'nothing machine-verified' and 'none of #13's numbers reproduced' to 'no script checks its derivations; one script computes c⁴/G'. Checked against verify/phase_space_diameter.py line 332 and against status/alive.md, whose wording it matches. HEAD's statement contradicted maximum-force.md, so I did not restore it. wiki/method/verification/the-gate.md, outside this batch, still says verify/ holds no script for #13's numbers (already reported by the rewriter)."
+  },
+  {
+   "file": "wiki/conjugate-relativity/force-boosts.md",
+   "note": "Left as is: this page and dual-inertia.md quote flag 56's 4.3×10⁻⁴⁴ for the Sun and Earth without linking verify/velocity_gated_gravity.py check B2, which computes that number (4.28e-44). 'No verify/ script checks the formulas' still holds, because B2 evaluates γ̃ − 1 at one force and does not check the formula. Adding the citation is a linking-plan question for a later pass, as the rewriter also noted."
+  },
+  {
+   "file": "wiki/conjugate-relativity/force-dilation.md",
+   "note": "Left as is: the page quotes #13 §3's 'Below 10⁴³ newtons the effect is utterly negligible', though the rewriter computed γ̃ − 1 = 0.0034 at 10⁴³ N. I did not recompute this. It is a looseness in #13 that no flag covers, and it is P.R.'s call whether to raise one."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/desi-dr2-phantom-crossing.md",
+   "note": "I kept the section 'How it entered the record' (referee, ruling 11, Decision 4, amendment, project instructions). It records what checked the finding and is the round-3 review's trail, not the dispute, and the hub and the CPL page point to it. Read strictly, the one rule ('how the status came about') could shrink it further. That is a judgement for the orchestrator."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/over-constraint.md",
+   "note": "I kept the existing '## History' section. It lists which document states the count (v0.1, v1, #11, the closed-universe note), with no status story and no reference to the dispute. Its bullet '#11 (§10; §15). Unchanged in every version.' is mild wording history."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/potential-sign.md",
+   "note": "The description and opening say the turnaround 'needs V < 0' / 'requires the potential to become negative'. Flag 27's addendum says a closed universe turns around with V ≥ 0 and calls 'eventually goes negative' the wrong cause. The page itself reports the addendum. The wording is unchanged physics from HEAD, so I left it for the consistency audit; the rewriter suggested attributing the clause to the documents' account."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/potential-sign.md",
+   "note": "τ's first minimum is a = 1.34–18.5, copied from notes/closed-universe.md. verify/closed_universe.py gives 1.34–18.9 and closed-universe-script.md copies that. The rewriter already reported this and each page matches its own source, so I changed nothing. The two upper ends remain visible to a reader comparing pages."
+  },
+  {
+   "file": "wiki/conjugate-relativity/special-relativity.md",
+   "note": "'No script checks any of #13's formulas apart from c⁴/G' holds only if applying a formula is not checking it: verify/velocity_gated_gravity.py B2 evaluates #13's γ̃ − 1 for the Sun and Earth. It applies the formula to a case outside #13's anchors and does not test it, so I kept the wording. two-causal-cones.md and two-cones-inconsistency.md make the same claim about the kinematics and the cones."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/_index.md",
+   "note": "The rewriter replaced 'No verify/ script tests the cosmology' with 'No verify/ script tests these claims; verify/closed_universe.py checks the separate arithmetic…'. I kept it as supported: #11 §10 says of the toy-model support 'None of this tests the cosmology', and the script's section B is closed-universe arithmetic. The tau-quintessence.md status line, outside this batch, still says 'no verify/ script tests the cosmology', and wiki/method/verification/the-gate.md still says verify/ holds no script for #13's numbers (the rewriter reported it unfixed); the consistency audit should align them."
+  },
+  {
+   "file": "wiki/cosmology/early-universe/_index.md",
+   "note": "The inflation item in the map names 'the second ground' and says 'neither ground refutes it', but never states the first ground. This wording was already at HEAD. I left it because the BRIEF says to add nothing and the linked monopole-explanation page gives both grounds. 'Neither ground refutes it' checks against #11 §11 ('neither point refutes it') and §11.1. Whoever owns the section index can decide whether the map should state the first ground."
+  },
+  {
+   "file": "wiki/method/review/round-3/decisions.md",
+   "note": "Outside my batch. The heading 'Decision 2: the soliton candidate retired' still reads as if the candidate is retired, and big-bang-nucleosynthesis.md in this batch links its anchor. The rewrite reported this and did not fix it. Renaming the heading would need the inbound-link pass."
+  },
+  {
+   "file": "wiki/cosmology/dark-energy/desi-dr2-phantom-crossing.md",
+   "note": "Outside my batch. Line 80 still gives wording history: 'That passage still ends…' and 'The same sentence stood in v2.0, and the v2.1 amendment added the \"Under pressure\" paragraph below it without changing it'. Its batch's verifier should check this."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/conjugate-bounce.md",
+   "note": "Left as is, for the orchestrator to judge: the existing '## History' section is unchanged from HEAD. It lists how the bounce statement evolved across documents, including 'The row drops \"after V(τ) < 0\"' and 'version 1.1 (2026-10-26)'. There is no dispute or ruling in it, and the row change bears on the V(τ) conflict, so I treated it as physics. A strict reading of 'wording history of the record' could cut it."
+  },
+  {
+   "file": "wiki/cosmology/early-universe/phase-transition-gravitational-waves.md",
+   "note": "Page is unchanged from HEAD and I made no edits. Its opening says 'an early idea, since dropped' about the spectral step, and the band 'died with the model'. I kept both: the first records a change to a prediction with no status dispute, and the brief allows 'died' for #14's model's own outputs. Flagged because 'since' is on the watch list."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/dual-kinetic-link.md",
+   "note": "Line 70, 'Whether τ's potential can become negative, as the far-future turnaround needs', is unqualified, but flag 27's addendum finds a closed universe turns around with V ≥ 0, as other pages in this batch say. The wording is at HEAD, not from the rewrite, so I left it for the consistency audit."
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md",
+   "note": "#11 contradicts itself on p-localization: §11.4 says 'open since v2.0', while §14 item 8 says 'v2.1 closed the soliton-spectrum and p-localization items ...; v2.4 reopens both'. This is a source matter for a flag. No page in this batch now quotes either clause, and momentum-space-monopoles.md gives only the [O]."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/chi-particles.md",
+   "note": "'The field χ' calls χ 'local in momentum', while later sections say χ particles cluster in position ('x-clumping', App. A item 4). The first concerns the polarization and the second where the mass clusters, but no source states that, so I added nothing."
+  },
+  {
+   "file": "wiki/dark-matter/_index.md",
+   "note": "The strip lists the gate mechanism under Stands (page status alive, as #11 §8 tags it), while the same index reports that a note finds exchanging X cannot produce the gate (flag 55, pending). The status was left alone, as the invariants require. For the consistency audit."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+   "note": "The table reproduces #11 §12's third row without '; v2.4' in its label, as the brief's rule on version tags asks. It is not in quotation marks, but it is not a verbatim copy of the row. Left as is."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/chi-particles.md",
+   "note": "'P4 is taken strictly from v2.1 (round-3 Decision 1)' stays in the History section as a physics refinement whose version is the subject. invariants.py lists it for review, so someone should confirm that reading."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/dimension-five-operator.md",
+   "note": "The heading '## The verdict in the record' is kept: the section holds Decision 1 and the adjudication's scoring, and scenario-a.md uses the same heading for a calculation's finding. wiki/CLAUDE.md says an under-review page gives no account of an earlier verdict, so whether both should be renamed is a call for the fix-up pass. No inbound links to the anchor on either page."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/hidden-sector.md",
+   "note": "Judgment call, left as is: 'a mass window that round 3 overturned' (unchanged from HEAD) describes an under-review claim. It is attributed to round 3 and matches ruling 4 and the withdrawal banner ('are wrong'). The final pass may prefer softer wording."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing.md",
+   "note": "Judgment call, left as is: this page and w-prime-overclosure.md keep a '## History' section, and sqrt-n-floor.md keeps '## Record'. These are dated chronologies outside the history pages, unchanged as headings from HEAD. They record review and document events and physics, with no dispute or status reversal, and the brief says to keep headings that do not narrate the dispute. If they should go, that is a wider decision than this batch."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/candidates/thermal-freeze-out.md",
+   "note": "The P4 link target #the-strict-reading-since-v21 depends on the heading 'The strict reading (since v2.1)' on wiki/program/postulates/p4-polarized-matter.md, outside this batch. It resolves today, but that heading carries a version tag; if the page's owner renames it, this link must follow."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/candidates/thermal-freeze-out.md",
+   "note": "The quotation of Decision 3, 'Under decision 2 it has no candidate left to serve', is exact (review/round3-adjudication.md) and I left it. Decision 2 now covers only #14's model and #11 §12 lists conjugate monopoles as a third candidate, so a reader could over-read it. A gloss would be new wording, so this is for the consistency audit or Paul."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/scattering-law.md",
+   "note": "The opening's 'once the gate's mechanism was found' is unchanged from HEAD, as are gate-mechanism.md's 'before the mechanism was found' and gate-shape.md's 'Before the gate's mechanism was derived'. They echo #8's 'mechanism found' but state as fact what flag 55 disputes. Each page's status line carries the dispute, so I left them as physics history."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/benchmark.md",
+   "note": "The Superseded section keeps 'which is now [Open: the gate shape (OP4)]' and 'predictions that the checkpoint no longer makes'. I left both because BRIEF.md keeps Superseded sections as they are; they contrast v0.1 with later physics, not a ruling."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/dark-matter/conjugate-matter/benchmark.md",
+   "note": "'Pending' for flags 17 and 19 is inferred: their entries in review/wiki-build-flags.md have no 'Ruling:' line, and the file header says each flag needs a ruling. Flags 55 and 63 carry explicit entries (deferred, pending)."
+  },
+  {
+   "file": "wiki/dark-matter/halo-astrophysics/transfer-cross-section.md",
+   "note": "Decision needed on the edit the rewriter flagged 'REVIEW THIS EDIT'; I kept it. The status line now says verify/gate_mechanism.py and verify/velocity_gated_gravity.py compute transfer cross-sections, with both scripts added to the sources. Read in the code: gate_mechanism C19 (section D, σ₀/m = 32.01 cm²/g at 70 MeV, m = 71.5 MeV for 30 cm²/g) and C10 (section E, σ_T tails); velocity_gated_gravity H1 and H2 (section H, σ_T/m). A grep of verify/ found no other script computing a σ_T. HEAD's 'No verify/ script computes a transfer cross-section' is false, so I did not restore it. No new numbers, but it adds a claim and citations, which stretches the brief's 'Add nothing'. If that rule is read strictly, this edit should move to the consistency pass."
+  },
+  {
+   "file": "wiki/dark-matter/halo-astrophysics/_index.md",
+   "note": "Decision needed on a second rewriter correction; I kept it. HEAD's 'no verify/ script covers any number in this section' became: no script checks the section's literature or observational inputs, while gate_mechanism.py recomputes the benchmark mass (C19) and velocity_gated_gravity.py reproduces calc note #2's two shortfall ratios (section D, 3.9e-28 and 2.9e-31). HEAD's sentence contradicted velocity-dispersion.md. Same 'Add nothing' question as transfer-cross-section.md."
+  },
+  {
+   "file": "wiki/dark-matter/halo-astrophysics/dwarf-galaxies.md",
+   "note": "Not changed; the rewriter marked this NEEDS A DECISION and I confirmed the facts. Universal 'uncited' statements are too strong against the record: dwarf-galaxies.md lines 26 and 78, _index.md lines 11, 17 and 23, velocity-dispersion.md lines 31, 33, 132 and 198, and scenario-a.md outside this batch. review/momentum-gravity/scripts/corner/obs_corner.py line 25 gives '[S: Simon et al. 2011, arXiv:1007.4198, via search summary]' for sigma_* = 3.7 km/s, M(<r_1/2) = 5.8e5 Msun, R_1/2 = 29 pc; vsatellites.py line 12 gives σ = 3.7 km/s, and verify/velocity_gated_gravity.py G4 names the paper. The statements hold for the calc notes and #11 only. References on this page mark that paper † while the record has [S]. The same record gives classical dSph dispersions of 6.6–11.7 km/s (Walker et al. 2009 Table 1 [S]), and no page in this batch sets them against the notes' uncited 30 km/s. Fixing this needs new citations and an edit outside the batch."
+  },
+  {
+   "file": "wiki/dark-matter/conjugate-matter/velocity-gate.md",
+   "note": "Not changed; already at HEAD, so not a rewrite fault. The status line says 'no verify/ script covers either' (mechanism, shape), while the body tags the gate-mechanism note's result [D][V], which verify/gate_mechanism.py checks. Read as 'no script confirms the derived mechanism or the shape' it holds, but it looks inconsistent. The page also never links /wiki/method/verification/gate-mechanism-script, which the linking plan asks for. Adding that is a new citation, so I left it for the consistency pass."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/wave-island/scenario-a.md",
+   "note": "Line 162 says calc note #3's \"surviving descendant\" signature \"was withdrawn with Scenario A\". The sources withdraw only rows 3 and 4 (calc note #4; #11 §13), and no source says this of the signature or of Scenario A, so a reader could take Scenario A itself as withdrawn when its standing is under review. The wording is at HEAD, not from the rewrite, and wiki/dark-matter/momentum-clumping/net-theorem.md:68 (outside this batch) says the same. I left both alone so the consistency audit can word them together, for example as velocity-granularity.md:74 does."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/wave-island/condensation-rate.md",
+   "note": "This page and scenario-b.md cite 'Limit 1 (broad gate)' and, on this page, 'Limit 2 (narrow gate)' as sections of notes/stream-stability.md. The real headings are \"Limit 1 — broad gate (…; dwarf regime)\" and \"Limit 2 — narrow gate (…; MW/cluster regime)\", so the citations are paraphrases, though they identify the section unambiguously. They are at HEAD in frontmatter and body. I left them because other pages may cite the same form; I did not check beyond this batch. The audit could normalize them in one pass, as the rewrite did for 'Next chunk (3b)'."
+  },
+  {
+   "file": "wiki/glossary.md",
+   "note": "Insertions kept, reported because 'Add nothing' could be read against them. (1) '(flag 55)' on the Cliff and Momentum fiber entries: flag 55 lists statements of this kind, and the linked pages scattering-law.md and momentum-fibers.md already point to it at those claims. (2) 'That dark matter is conjugate matter is P.R.'s core conjecture (#11 App. A item 4)' on Conjugate matter: App. A item 4 says this, and also calls it 'alive', which fits the Founding suppositions count of eight alive and three open. Remove either if a strict reading is wanted."
+  },
+  {
+   "file": "wiki/glossary.md",
+   "note": "Stale at HEAD, not caused by the rewrite, and left for the consistency audit: the ✓ entry says flag 16 notes a ✓ 'with no script behind it', but flag 16's addendum of 2026-10-28 says `verify/velocity_gated_gravity.py` section D now backs that ✓."
+  },
+  {
+   "file": "wiki/glossary.md",
+   "note": "Also at HEAD and left for the consistency audit: the Reciprocity parity entry cites flag 39, but neither the frontmatter sources nor the Sources list of flag items names item 39."
+  },
+  {
+   "file": "papers/broken-born-checkpoint-v2.md",
+   "note": "#11 contradicts itself on p-localization's history: §11.4 says 'open since v2.0', while §14 item 8 says v2.1 closed it and v2.4 reopened it. Item 8 also still says 'the §12 obituary'. No physics turns on this, and unified-modular-structure.md now quotes neither clause, so the rewriter's split quotation is acceptable (the pieces are verbatim). The source needs a flag or a ruling; I did not settle it."
+  },
+  {
+   "file": "wiki/gravity/momentum-graviton/_index.md",
+   "note": "The rewriter changed the Boundaries line from 'the velocity gate that X exchange produces' to 'that #11 derives from X exchange', a consistency fix beyond removing narrative. I kept it: it matches #11 §8's [D — mechanism] tag and the wording of wiki/summary.md. The line carries no flag 55 caveat; that evidence is on the linked gate pages. Paul or the consistency audit may want to confirm this choice."
+  },
+  {
+   "file": "wiki/gravity/momentum-graviton/equal-planck-mass-stability.md",
+   "note": "The rewriter also changed this page beyond removing narrative, because HEAD's opening ('has not been checked') and status line ('no calculation and no verify/ script') contradicted the page's own [D][V] section. I kept the correction in the wording reported above, and the opening's 'is open' is the worklog's own wording. No new fact enters the page, but this is a physics-record change in what was meant to be a narrative clean-up, so it should be reviewed."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md",
+   "note": "'#14 stays withdrawn' remains on other pages outside this batch, some of them quoting #11: this page, and possibly status/superseded.md, status/conjectures.md, method/review/rounds-one-and-two.md, method/review/skeptic-console.md and soliton-candidate/benchmark-arithmetic.md, where the phrase's context was not read. My two pages now say 'is withdrawn', so the wording varies across the wiki. The fix-up pass can decide whether to make it uniform."
+  },
+  {
+   "file": "wiki/method/review/round-5.md",
+   "note": "Outside this batch, so not edited. Line 125 quotes ruling R1 as \"so v1.1 says so rather than ruling the identification out\". review/round5-adjudication.md at HEAD reads \"so v1.1 states that relation as open rather than ruling out referee A's identification on that ground\", and git log -S on review/ finds the \"says so\" wording in no commit. The rewriter corrected the same inexact quote in wiki/gravity/momentum-graviton/range-bound.md; round-5.md still needs that repair from whoever holds its batch."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/pm-comparison.md",
+   "note": "The rewriter changed 'The record identifies' to '#11 and the handoff identify' without reporting it. I kept the change: flag 9's audit names arXiv:1609.09515 as Apolo, Hassan and Lundkvist, so the old sentence was too broad. This page does not state that identification, and neither did HEAD, so I added nothing, yet wiki/status/open-problems.md line 267 links here for it. wiki/references.md line 385 (outside this batch) still says 'The record identifies the paper only by its number', which the audit contradicts."
+  },
+  {
+   "file": "wiki/gravity/spin-2-fields/bimetric-cosmology.md",
+   "note": "wiki/cosmology/dark-energy/de-sitter-space.md line 178 (outside this batch) has the same Sources wording I changed here, 'manuscript withdrawn for an unrelated error', and wiki/gravity/spin-2-fields/planck-units.md line 186 says 'failed for a separate error'. The fix-up pass should decide whether to align them."
+  },
+  {
+   "file": "wiki/gravity/palindromic-branch/vacuum-energy-identity.md",
+   "note": "Judgment left standing: 'Names and history' (the result's names across documents and its novelty change), bimetric-cosmology.md 'How the item entered the record', and pm-comparison.md 'Place in the queue' all tell how the record developed. I kept them because none tells the dispute, the brief deletes only headings that narrate it, and they carry check and provenance evidence. A stricter reading of the one rule could trim them."
+  },
+  {
+   "file": "wiki/gravity/spin-2-fields/cosmological-constant-problem.md",
+   "note": "Judgment left standing: I kept 'round-5 ruling R9 asked for that assumption to be stated' as a pointer to what checked the result (R9 is upheld in review/round5-adjudication.md; it has no version tag and is not part of the status dispute). wiki/cosmology/scale-factor-duality/self-dual-cosmic-box.md line 135 uses the same wording."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/ghosts.md",
+   "note": "'Version 2 of the toy-model note' remains on pages outside this batch (at least sigma-models.md, action-and-symmetries.md, bounded-potential.md, so2-question.md), so ghosts.md now differs from them. A later pass should treat them uniformly. I did not edit them."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/partially-massless-gravity.md",
+   "note": "Rewriter inconsistency 80, present at HEAD and not changed: the page calls [24S]'s title 'descriptive' (lines 84, 111) and 'may be descriptive' (line 132, paraphrasing flag 9's first sentence). hassan-rosen-bimetric.md also says 'may be'. Flag 9's audit says descriptive. This is for the consistency audit."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/hassan-rosen-bimetric.md",
+   "note": "Rewriter inconsistency 83, present at HEAD and not changed: 'The spectrum' says matter feels both modes 'in proportions set by the two Planck masses', without the background ratio that planck-units.md and yukawa-forces.md carry in α = (4/3)(M_f u/M_g)². A fix would change a physics statement, so it is left for the consistency audit."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/signature-obstruction.md",
+   "note": "Rewriter inconsistency 84, present at HEAD and not changed: the page quotes #6 §2's 'to χ through the gate' with no flag 55 pointer, while multi-graviton-no-go.md attaches one to the same coupling. Adding a pointer would add content in this pass."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/planck-units.md",
+   "note": "Rewriter inconsistency 85, present at HEAD and not changed: 'about 50 μm, with L a cosmological length', while the note and the under-review page give 47–84 μm. The range would be a new number on this page."
+  },
+  {
+   "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/gravity/spin-2-fields/partially-massless-gravity.md",
+   "note": "Judgement call, also on hassan-rosen-bimetric.md: I kept 'downgraded the identity's novelty' and the §7.4 quotation. It is #11's own statement about prior art, involves no dispute, and the novelty caveat is evidence. A strict reading of 'what a claim used to be recorded as' could disagree."
+  },
+  {
+   "file": "wiki/gravity/tuning-test/constrained-bimetric.md",
+   "note": "Judgement call, also on frame-tier.md and wedge-reduction.md: 'manuscript #14, since withdrawn' is unchanged from HEAD. I left it as document chronology with no dispute or reversal; the task's list of words to check includes 'since', so the consistency pass may prefer to drop that word."
+  },
+  {
+   "file": "wiki/history/documents/checkpoint.md",
+   "note": "Judgement call: quotations of #11 keep their version marks ('(v2.4)', '(v2.5)', 'since v2.4'), as the rewriter reported. BRIEF says not to quote #11's 'version notes', and I read that as its dispute-bearing change lists, because this is a history page and dated version history is allowed. Left as is."
+  },
+  {
+   "file": "wiki/history/documents/clumping-notes.md",
+   "note": "Settled, surfaced because it changes a statement of what checks a result and goes beyond the brief: the opening's HEAD wording 'no script in the gate checks their numbers' became 'only #2's shortfall ratios are checked by a script in the gate'. HEAD contradicted its own status line. The new wording matches flag 16's addendum and section D of verify/velocity_gated_gravity.py, so I kept it."
+  },
+  {
+   "file": "wiki/history/documents/project-instructions.md",
+   "note": "Judgement call, not restored here: F2's finding, round 2's supersymmetry burden, the 1/(4α) or 1/α convention (flag 28), the monopole discussion's open list, the names of the twelve claims under review, and the R15 timing of Hur et al. 2025. SPECIAL.md ordered the shrink. I grepped each topic and read the open list and the convention text. F2, the burden and the convention are on magnetic-identification and alpha-d-coupling, the open list item by item on status/open-problems ('Open from the monopole discussion'), and the citation with R15 on method/review/round-5. The register status/under-review was not opened for the twelve names; the timeline row lists them. Task criterion A read literally ('gone from the page') would want these back too."
+  },
+  {
+   "file": "wiki/history/timeline.md",
+   "note": "Outside this batch. Its 2026-10-29 row on the dated status notes links project-instructions for the root file's remark on the handoff's list, which that page no longer describes. The link still reaches a page about the file, so it is not broken. Adjust in the fix-up pass if wanted."
+  },
+  {
+   "file": "wiki/method/collaboration.md",
+   "note": "F2's decision is called 'superseded', but #11 §11.4 and the worklog say 'withdrawn'. I kept 'superseded' because it matches the folded heading and the brief bars telling the withdrawal. Related, outside this batch: wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md gives the reason as 'served #14's model, which failed in round 3, so it is superseded'. I did not find that reason in #11 §11.4 or the worklog's F2 entry, the two sources I read for it, so that page's verifier should check it."
+  },
+  {
+   "file": "wiki/method/negative-results.md",
+   "note": "Decision 3's quotation 'it has no candidate left to serve' comes right after the statement that the candidate #14 modeled is P.R.'s open conjecture, which a reader may see as a tension. The quotation is exact and unchanged from HEAD, and it reads as the round-3 decision's own reasoning, so I left it. Whether to add a scope note is a question for the consistency audit."
+  },
+  {
+   "file": "wiki/method/review/round-5.md",
+   "note": "Outside this batch. Its table, introduced as 'The adjudication's table', relabels Runner-up 1 from 'the obituary' to 'the withdrawal in §6' with no marking; review/round5-adjudication.md line 93 still says 'the obituary'. wiki/method/review/pre-registration.md marks the same change ('quoted as written, with the first runner-up named by its subject'), so round-5.md needs the same note or the verifier of that batch should settle it."
+  },
+  {
+   "file": "wiki/method/review/round-3/decisions.md",
+   "note": "Left as an exact quotation of Decision 4: 'so the current reference stops asserting what round 3 killed: amend checkpoint #11 with the soliton obituary (§11–§15) ...' (review/round3-adjudication.md). I read it as referring to #14's model, the one dead claim, so it is allowed, but it does use 'killed' and 'obituary' inside a quote. Paraphrase it if the final pass wants those words gone from quotations."
+  },
+  {
+   "file": "wiki/method/review/round-3/decisions.md",
+   "note": "Source inconsistency, not fixable in the wiki: #11's v2.4 change note calls conjugate monopoles 'the v2.0 candidate that #14 never modeled', while #11 §12's verdict says 'The candidate it modeled'. The batch's pages follow §12 and the BRIEF's canonical wording, adding that #14's model did not treat localization in momentum."
+  },
+  {
+   "file": "wiki/method/verification/independent-anchors.md",
+   "note": "Stale at HEAD, left for the consistency audit: the opening says 'three of the current scripts open with anchor checks', and 'The anchors in the gate now' covers only the soliton, toy and battery scripts. phase_space_diameter.py, closed_universe.py, velocity_gated_gravity.py and gate_mechanism.py also print anchor blocks. Fixing it changes a count and adds content, so it is outside this repair."
+  },
+  {
+   "file": "wiki/method/verification/iron-rule.md",
+   "note": "Stale at HEAD, left for the consistency audit: the list after 'Every number a current document asserts...' names the battery, soliton and toy scripts, then says check.sh 'runs them all'. It omits the four later scripts."
+  },
+  {
+   "file": "wiki/method/verification/the-gate.md",
+   "note": "Judgement call, kept: dated wording about when a check entered the gate ('Since 2026-10-28', 'since 2026-10-29, section F'; also 'until 2026-10-28' and 'gated since 2026-10-28' in iron-rule.md, 'Since 2026-10-28' in independent-anchors.md). It records what checks a result, not a claim's status or the dispute, and other pages such as method/negative-results use the same form. Overrule if these should go too."
+  },
+  {
+   "file": "wiki/method/verification/independent-anchors.md",
+   "note": "Judgement call, kept: the exact README quotation 'A ruling that accepts a flag should move the relevant check into `verify/`, with an anchor independent of the paper.' It states the condition for promoting a check and names no person or dispute, but it does contain the word 'ruling'."
+  },
+  {
+   "file": "wiki/notation.md",
+   "note": "Line 52 says the pending-rulings section \"lists the items still open\". That section actually lists all 63 flags and states that flags 1-58 and 63 await a ruling, so the wording is loose: true of the open flags, but it does not say the section also holds the resolved flags 59-62. Left as written because the finished wiki/_index.md line 46 uses the same wording (\"lists those still open\") and is outside this batch. If it is tightened, change both pages together."
+  },
+  {
+   "file": "wiki/notation.md",
+   "note": "Judgement calls, kept and open to overruling; a later word search will hit them. Line 233 \"since #1's v0.4 addendum\" is a physical identification of μ, and the notebook has a section \"Addendum (v0.4)\". #14 v2 and v3 labels (lines 291, 294, 356, 404, 434, 450) mark where a symbol or value appears, so the version is the subject. Line 412 \"round-3 ruling 12, accepted as minor\" is a review-round finding; the text does not say who accepted it, and I did not open review/round3-adjudication.md to confirm. Line 385 \"were withdrawn and are under review\" describes the older predictions table."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/compatibility-theorem.md",
+   "note": "Judgement call: I kept '## Attribution history', including the adjudication quote and 'Decision 4 then scheduled the cleanup'. Read strictly, the one rule excludes an account of how the [T] tag came about. I kept it because it records prior art rather than the dispute, BRIEF.md keeps headings that do not narrate the dispute, and wiki/status/superseded.md line 79 points to this page's body for the superseded attribution."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/compatibility-corollaries.md",
+   "note": "Outside my batch, not edited: the status line still says 'a theorem that #11 v2.1 credits'. wiki/phase-space/reciprocity/lagrangian-polarizations.md line 50 still says 'Since v2.2 the choice has been a continuous angle'. Both are the wording I repaired here, so the fix-up pass may want them to match."
+  },
+  {
+   "file": "verify/velocity_gated_gravity.py",
+   "note": "Outside my batch, not edited: the docstring still holds the quoted question ('I think the obituary is premature') and the printed label 'D. The obituary's scope'. The page's recorded output and heading reproduce the label until the source changes. STATE.md keeps verify/ out of this clean-up."
+  },
+  {
+   "file": "wiki/cosmology/scale-factor-duality/square-at-the-bounce.md",
+   "note": "Outside this batch, not edited. Line 109 has the same sentence cut from modular-inversion.md: \"Both flags are pending, and the wiki does not rule on them.\" Its verifier or the fix-up pass should decide whether to cut it too, so the two pages match."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/maslov-phase.md",
+   "note": "Left as is: the page's own `## History` section says \"v2.2 adds the toy-model support to §10\". I read this as the allowed case where the version is the subject of a technical addition, not a tag on a citation or status history, but the page is not under wiki/history/. Confirm if the rule should be stricter for `## History` sections on ordinary pages."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/modular-inversion.md",
+   "note": "Left as is, same judgement: the `## History` bullet \"The phase-space-diameter note (v1.1, 2026-10-26)\" is a dated document entry about physics, unchanged from HEAD. The sibling under-review page keeps the same form (\"The note, version 1.0 (2026-10-26)\")."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/modular-inversion.md",
+   "note": "Left as is: the Sources line ends \"the claim's withdrawal, under review\". It can be read as the withdrawal being under review, when the withdrawn claim is what is under review. It mirrors the note's §9 row (\"withdrawn\", then under review) and the body links the Under review page, so I treated it as working prose."
+  },
+  {
+   "file": "wiki/phase-space/modular-field/modular-field-z.md",
+   "note": "Left as is, not caused by the rewrite: \"among that night's results (§F)\" in Step 5 comes before the page's only gloss, \"an overnight working note\", in `## History`. The phrase traces to calc note #5's \"Status after tonight\" and is unchanged from HEAD. It is a small dangling reference, not status narrative."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-length.md",
+   "note": "Kept, flagged for visibility. The rewriter replaced HEAD's 'The term occurs in no other document of the program' with 'Among the program's papers and notes the term occurs only in #13, the phase-space-diameter note with its worklog, and the closed-universe note'. This is a new statement, not narrative removal. HEAD's sentence was false and contradicted the page itself. A case-insensitive grep of papers/, notes/, popsci/ and HANDOFF.md confirms the new list (the closed-universe note has only the form 'Born-length bounds'). The term also appears in the root CLAUDE.md, review/ and verify/, outside the sentence's scope."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/born-length.md",
+   "note": "Judgement call. The heading '### The self-dual length, excluded' stays, because the brief keeps headings unless they narrate the dispute, and nothing links to its anchor. The claim is under review, and the section attributes the exclusion to the note and says so. wiki/gravity/momentum-graviton/range-bound.md has a parallel heading. Rename both together if unattributed 'excluded' is unwanted in headings."
+  },
+  {
+   "file": "wiki/phase-space/reciprocity/broken-born-duality.md",
+   "note": "Judgement call. The section '## How the credit entered the program' stays, with its version tags removed. It tells how attribution reached the record, but it involves no dispute, no status change and no ruling on a claim, and it carries what the referees and the prior-art search found. Item 2 keeps '(round 3, 2026-10-19)' as a review event. 'The adjudication ruled' on the same page stays too: it is round 4's finding on a literature point, cited to that document's 'Rulings' section."
+  },
+  {
+   "file": "wiki/phase-space/born-geometry/compatibility-corollaries.md",
+   "note": "Outside this batch, not edited. Its status line (line 30) still has the version-tagged citation '#11 v2.1 credits'. Pointer for whichever pass covers that page."
+  },
+  {
+   "file": "wiki/predictions/_index.md",
+   "note": "The heading \"### Withdrawn with cause\" covers all three items, but #11 §13 applies \"with cause\" only to #14's model and calls the two clumping rows withdrawn and under review. The heading stays because the brief keeps headings that do not narrate the dispute, and the text under it and the status strip keep the distinction. P.R. may want it reworded; nothing links to its anchor."
+  },
+  {
+   "file": "wiki/predictions/scattering-isotropy.md",
+   "note": "Not a rewrite defect, and left as it is. The 'History' section says row 2 did not change 'when the gate's mechanism was derived', in the wiki's own voice and with no qualifier. The sentence is identical at HEAD. The same page says the mechanism is 'not derived, according to flag 55, pending' (step 1), and self-interaction-knee.md qualifies the same statement with that pointer. Flag 55 is pending and #11 §8 keeps [D — mechanism; shape [O]], so the sentence follows the higher-precedence source. Adding the pointer falls outside this clean-up's 'add nothing' rule. Whoever settles flag 55, or a later pass, should word it."
+  },
+  {
+   "file": "wiki/program/_index.md",
+   "note": "The strip's Conjectures slot lists P.R.'s page-level conjectures but not founding supposition 4, \"dark matter is conjugate matter\". #11 App. A item 4 calls it alive and P.R.'s core conjecture, and wiki/summary.md leads with it; SPECIAL.md has wiki/status/conjectures.md open with it. It was absent at HEAD too, and its page is not status conjecture, so I did not add it under \"add nothing\". This is for the consistency pass to decide."
+  },
+  {
+   "file": "wiki/program/postulates/p4-polarized-matter.md",
+   "note": "Heading \"### The strict reading (since v2.1)\" still says \"since\". Left as is: it does not narrate the dispute, and wiki/predictions/direct-detection-null.md and wiki/dark-matter/candidates/thermal-freeze-out.md, both outside this batch, link to #the-strict-reading-since-v21. A rename belongs to the anchor fix-up pass if wanted."
+  },
+  {
+   "file": "wiki/program/postulates/p4-polarized-matter.md",
+   "note": "Rewriter's concern on the dropped delegation of Decision 1: checked, no repair. The page keeps \"a decision, not a derivation\" and links wiki/method/review/round-3/decisions.md, whose 'How the decisions were made' says P.R. delegated, Claude decided and P.R. keeps the veto. A reader of P4 alone no longer learns who made the decision, which is what the brief asks for but does bear on how far to trust strict P4."
+  },
+  {
+   "file": "wiki/program/hard-core.md",
+   "note": "Other versioned wording kept as chronology of physics or attribution, where the version is the subject: this page's 'History of the statement' and popsci note (v2.1, v2.2), wiki/program/framework-does-no-work.md (\"re-tagged it [T] in v2.1\", \"now withdrawn\"), wiki/program/postulates/p3-reciprocity.md 'History' (\"#11 v2.2 records\") and wiki/program/postulates/p4-polarized-matter.md 'How the record reached it' (\"#11 v2.1 wrote it into P4\"). None tells the dispute. Read strictly, wiki/CLAUDE.md's rule against version tags outside the history pages could cover them, so this is a judgement call. The rewriter's other hard-core concern is settled: wiki/history/documents/popular-articles.md keeps #12's edits and c12da1b."
+  },
+  {
+   "file": "wiki/references.md",
+   "note": "Judgement call, left as is. DESI DR2's Marks line keeps 'Version 2.0 listed it as \"[21]† ...\"' and 'the v2.1 commit records \"References [21] upgraded to [S]\"' (commits 008c3ee, e1c1f67). This is version history outside the history pages, but it is neutral, records where a source document's mark came from, and SPECIAL.md says to keep every mark. If a stricter page is wanted, cut that clause and the matching part of the 'Repository history' Sources line, which also drops 008c3ee."
+  },
+  {
+   "file": "wiki/references.md",
+   "note": "The rewriter's report is wrong on one point: it says Gabor's †-to-[S] history stays, but that clause was cut. I left it cut, because it only told how a wiki page's wording changed, and wiki/phase-space/reciprocity/fourier-transform.md does give [S] (lines 91, 125). Frieman's matching clause stays because its Checks line, on flag 54's clause about the wiki, depends on it."
+  },
+  {
+   "file": "wiki/references.md",
+   "note": "The rewrite added one Sources line: notes/closed-universe.md, verify/closed_universe.py, flags 45, 50, 53, 54. Kept: the frontmatter at HEAD lists the same paths and flags, the body cites them, and it adds no claim."
+  },
+  {
+   "file": "wiki/references.md",
+   "note": "Not from this rewrite (also at HEAD), so not edited. Line 385 says 'The record identifies the paper only by its number', and lines 385 and 980 keep flag 9's 'may be a description'. The flag's audit line in review/wiki-build-flags.md names the paper (Apolo, Hassan, Lundkvist, PRD 94, 124055 (2016)) and calls the title descriptive. Adding that would add a citation in a no-additions pass, so it is left for the consistency pass; the rewrite's inconsistency list already holds the [24S] disagreement as unfixed."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/alpha-d-coupling.md",
+   "note": "Outside this batch, so not edited. Line 81, 'Why it was set aside', still says 'The worklog's finding F2 showed that the S-duality reading was not needed to obtain a strong monopole coupling'. The wording was already at HEAD and the rewrite copied it into the conjectures register. s-duality.md and magnetic-identification.md instead separate F2's finding from the reading it proposed, and the root CLAUDE.md says only the arithmetic finding stands. The consistency pass should decide whether to align this page."
+  },
+  {
+   "file": "wiki/dark-matter/momentum-clumping/founding-image.md",
+   "note": "Outside this batch, so not edited. Its status line still says 'Since 2026-10-28 `verify/velocity_gated_gravity.py` (section D) has reproduced...', the same marker repaired on wiki/status/alive.md."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "note": "The new first bullet says χ's gravity 'agrees with the data but does not tell it apart from other dark matter'. The only source I found is wiki/summary.md's 'Agrees, without telling it apart'; #11 §8 supports only 'falls and bends light' and 'Bullet-Cluster-safe', and my search of the source documents was not exhaustive. Kept because the summary is finished and the task forbids editing it, but on this evidence the clause is the summary's reading, not a sourced result."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "note": "Kept the exact quotation of round-3 Decision 3, 'Under decision 2 it has no candidate left to serve'. It means #14's model, which the entry says, but read beside the open third candidate it can mislead. The same quote or a close paraphrase is on at least five other pages (sqrt-n-floor.md, monopole-problem.md, open-problems.md, round-3/decisions.md, project-instructions.md), so any change should be made wiki-wide, not here."
+  },
+  {
+   "file": "wiki/status/conjectures.md",
+   "note": "Not a defect: invariants.py still prints NEW NUMBERS ['55']. It is the flag pointer the new first bullet needs, and review/wiki-build-flags.md item 55 supports it (ruling deferred, so pending). invariants.py exits 0 on the batch and scripts/check-wiki.py reports no problems. Nothing is committed."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "note": "Out of batch, wording inconsistency only. wiki/history/documents/checkpoint.md, handoff.md and timeline.md say 'lends the program no support' (the wording of the flags file, the monopole README and root CLAUDE.md), while #11 §11.1 says 'lends the explanation no support'. This page now follows #11. Whether those three pages should follow is for the consistency pass; I did not edit them."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "note": "Judgment call, kept as the rewriter left it. Flag 63's 'where v2.0 read…', 'v2.0's wording checked at git 8d588f6' and 'both reviewers of #11's version 2.4' look like version history, but they are the flag's evidence and calibration, so they stay."
+  },
+  {
+   "file": "wiki/status/open-problems.md",
+   "note": "'History of the register' is deleted as SPECIAL.md directs. I checked its contents by grep rather than sentence by sentence. Most of its lab-notebook, calc-note residue, program-v1 and handoff facts appear on other pages (the lab notebook, field-equation notes, main-problems, handoff, superseded, x-condensate). No grep hit for #9's 'theory waited on its items 1–2', or for the flags file's 'begun on 2026-10-21' and 'grew to 42', though the timeline link now in Pending rulings covers the file's growth. The only physics not otherwise on this page, the misalignment closure, is restored here."
+  },
+  {
+   "file": "wiki/symmetry-breaking/_index.md",
+   "note": "Left 'qualified in v2.2', 'the qualifications v2.2 added' and 'the v2.2 finding' as technical refinements labelled by version, the BRIEF's 'The v2.2 refinement' exemption. mandatory-breaking.md has the heading 'Qualifications from the toy models (v2.2)'. This is a judgement call; the fix-up pass could reword them if version labels should go here too."
+  },
+  {
+   "file": "wiki/status/under-review.md",
+   "note": "No edits. Two wordings left as judgement calls: 'the third dark-matter candidate of #11 v2.0', because #11 §12 itself dates the candidate to v2.0 and the graveyard and obituary word it the same way; and 'It was retired with #14's model by round-3 Decision 2', which invariants.py lists under 'retired' but matches Decision 2's heading and anchor and hidden-sector.md. The rewriter's deleted anchor #the-rule-and-pauls-answer has no inbound links left."
+  },
+  {
+   "file": "wiki/symmetry-breaking/rho-preserving-potential.md",
+   "note": "Judgement call, not a defect. Line 148, 'Round 4 and #11 v2.2 (2026-10-19/20)', keeps a version tag outside the history pages. I kept it because the list is a dated physics chronology and the version is the subject (BRIEF, 'What stays'). wiki/symmetry-breaking/order-parameter.md line 132, '#11 v2.2 replaces the discrete picture', is the same case inside a folded Superseded section. Eight other pages outside the history pages also use '#11 v2.2', so removing the tag should be one wiki-wide decision in the consistency pass, not a batch edit."
+  },
+  {
+   "file": "wiki/symmetry-breaking/spontaneous-symmetry-breaking.md",
+   "note": "Left as is. Line 80, 'The toy models meet both parts of this:', introduces three bullets, and the third (on dimension) is an addition, not one of the two parts. The page is identical to HEAD, so this is not rewrite damage, and I left it under 'do not restyle working prose'."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/naive-potential.md",
+   "note": "Left the headings \"## The ruling\" (round 4's grade of the note, not a ruling on status) and \"## What went with it\", plus \"The lattice numbers did not fall with it\". The brief keeps headings that do not narrate the dispute, and scenario-a.md keeps the second heading too. They still sit close to wiki/CLAUDE.md's \"no account of any earlier verdict\" and imply the potential fell, so the consistency pass may want to rename them across pages."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/dynamical-h-monte-carlo.md",
+   "note": "Left the \"## History\" section, which is at HEAD on this non-history page, because its bullets are neutral document and physics chronology and the brief keeps such headings. Sibling pages (vacua.md, action-and-symmetries.md, real-model-lead.md) keep one as well. Whether these sections fit the rule that dated history belongs on history pages is a wiki-wide decision."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/bounded-potential.md",
+   "note": "Left \"version 2\" of the toy-model note here and across the toy pages, because the pages turn on v1-against-v2 physics corrections and the version is the subject. Also left the quote #11 §10 \"Toy-model support (v2.2) [D][V]\", a literal label in #11. This is a judgement against the literal checklist item on version tags."
+  },
+  {
+   "file": "wiki/dark-matter/candidates/soliton-candidate/sqrt-n-floor.md",
+   "note": "Outside this batch, not edited. Its status line still says \"It was dropped by round-3 Decision 3\" and quotes \"Under decision 2 it has no candidate left to serve\". The topological-defects rewrite cut the same \"dropped\" wording and kept only the inverted premise, so that page's verifier should compare the two."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/coset-model/action-and-symmetries.md",
+   "note": "Line 111 has the same 'now under review' on the naive potential. It is outside this batch, so I did not edit it; its batch should drop 'now'."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/success-criteria.md",
+   "note": "Judgement call, left as is: the S0 gloss 'had been treated as the program's own result until a literature check credited it to Freidel, Leigh and Minic' contains the listed word 'until'. It explains the quoted S0 lesson and records a prior-art correction, not a status dispute, and it agrees with the compatibility-theorem page. A stricter reading would reword it."
+  },
+  {
+   "file": "wiki/symmetry-breaking/toy-models/grosse-wulkenhaar/quantum-restoration.md",
+   "note": "Still open from the rewrite (fixed: false): the page quotes the referee's 'i.e. 2 sum_k (G_0k + G_k0)' beside T₀ = Σ_k (G₀ₖ + Gₖ₀), and it omits flag 11's audit line that the averaged vertex is ≈ 4 ln N. The quotes and T₀ are faithful and the line was not on the page at HEAD, so I did not add it. The rewrite's suggested fix is to round-4.md and conflict C29, outside this batch, and I did not re-run its numerical check."
+  }
+ ]
+}
