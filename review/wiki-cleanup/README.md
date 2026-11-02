@@ -30,7 +30,8 @@ The subagents used about 35 million tokens, and the verification pass hit the ac
 
 ## Choices the record cannot settle
 
-Each is P.R.'s. No page decides them, and pages state both sides where they matter.
+Each is P.R.'s. No page decides them, and pages state both sides where they matter. The first three were put to P.R. on
+2026-11-02, and he kept them open.
 
 - **"Kills outright" (row 4).** Does a robust intrinsic w < −1 kill the τ sector (#1 §7 item 1, #14 §5) or the whole framework
   (`HANDOFF.md` §2)? #11 §13 leaves the scope open.

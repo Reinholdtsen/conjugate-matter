@@ -221,6 +221,14 @@ only as a task needs them.
     left the gate);
   - the dual coupling's convention, 1/(4α) or 1/α (`review/v3-worklog.md` R2; the formula in #11 §11.2 is flag 28);
   - whether a transition produced the polarization's point defects and τ-strings, and their fate (#11 §14 item 12).
+- Open from the wiki clean-up, not queued (`review/wiki-cleanup/README.md` lists every choice only Paul can make and the
+  conflicts in the sources that no flag covers). Three were put to him on 2026-11-02, and he kept them open ("Keep those
+  questions open"):
+  - "kills outright" (#11 §13 row 4): does a robust intrinsic w < −1 kill the τ sector (#1 §7 item 1, #14 §5) or the
+    whole framework (`HANDOFF.md` §2)?
+  - "the empty set" (#11 §11.1) or "measure zero" (App. A item 5), both attributed to him, for conjugate monopoles that
+    exist and have no effect;
+  - χ and the X-condensate have wiki status `alive`, while #11 §12 tags each candidate [O].
 
 ## The gate
 
