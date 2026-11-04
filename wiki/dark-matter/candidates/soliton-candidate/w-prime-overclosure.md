@@ -21,6 +21,7 @@ sources:
   - "notes/knot-dark-matter-standalone.md §2"
   - "notes/knot-dark-matter-standalone.md §3"
   - "notes/knot-dark-matter-standalone.md §6"
+  - "notes/literature-check.md §4"
 ---
 
 *W′ overclosure is the result that the simplest version of [the hidden sector of #14's soliton model](/wiki/dark-matter/candidates/soliton-candidate/hidden-sector) — SU(2)_d broken to U(1)_d by an adjoint Higgs field and nothing else — is excluded by its own heavy charged gauge bosons, the W′±. With no lighter particle carrying hidden charge, the W′± cannot decay. The hot hidden plasma in which the monopoles form also fills the universe with W′±, and after they stop annihilating, their density would exceed the observed [dark matter](/wiki/dark-matter) 10¹⁶ to 10¹⁷ times. #14 v3 therefore added a light hidden fermion ψ for the W′± to decay into. The calculation was done at the withdrawn benchmark mass, but the statement that the minimal sector is excluded survived the failure of #14's model and is machine-checked.*
@@ -111,6 +112,10 @@ It also changed which charge the coupling hypothesis H refers to. The worklog's 
 - **Equal or colder temperatures.** The exclusion holds at ξ = 1 and at ξ = 0.76.
 - **Ordinary kinematics.** Like all of #14, the calculation treats the hidden sector with "ordinary relativistic quantum field theory" (§1).
 
+## In the literature
+
+The same exclusion is published, reached independently and earlier. Brümmer, Ferrante, Fischer and Frigerio, in a paper posted to arXiv in September 2025, before #14 v3's calculation, and published in 2026, find for the minimal 't Hooft–Polyakov model of a dark sector that the stable charged vector boson always outnumbers the monopoles, so "dark monopoles cannot constitute a sizeable fraction of dark matter" [S]. It concerns #14's model and the minimal sector, not conjugate monopoles localized in momentum ([the literature check](/wiki/method/literature-check); flag 68, pending).
+
 ## History
 
 1. **Worklog item O1**, headed "dark W′± fate: fatal to the minimal model, not to the candidate", computed in the predecessor script `knot_numbers.py`. Its anchor then was "100 GeV with σv = 2.2×10⁻²⁶ cm³/s gives Ω h² = 0.108". At that stage (F1 and F2 are the worklog's findings on the mass window and on which coupling sets the monopole mass; F2's finding stands, #11 §11.4 and flag 60), "Under F1 and F2, m_W′ = α M\*/f = 1.2–2.2×10¹¹ GeV", and the relic was "0.8–15×10¹⁶ × the observed density, bracketing the annihilation coefficient κ = 1–10 and f = 1–1.787". These stage numbers were never reconciled with #14's; the current record cites #11, the adjudication and the gate ([conflicts between sources](/wiki/history/documents/source-conflicts)).
@@ -129,3 +134,4 @@ It also changed which charge the coupling hypothesis H refers to. The worklog's 
 - `review/v3-worklog.md` 'New open items' (O1) — how it was found and what the fix brought; 'Findings neither referee raised' (F2) — which coupling sets the monopole mass; 'v3 as drafted (2026-10-19)' — the corrected figure and which charge H matches
 - `review/wiki-build-flags.md` item 60 — F2's finding
 - `notes/knot-dark-matter-standalone.md` §1 — ordinary kinematics; §2 — the sector; §3 — the argument, the masses and the fix; §6 — requirement (i)
+- `notes/literature-check.md` §4 — the same exclusion reached independently; `review/wiki-build-flags.md` item 68

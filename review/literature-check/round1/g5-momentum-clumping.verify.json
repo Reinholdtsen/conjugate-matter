@@ -1,0 +1,523 @@
+{
+ "group": "g5-momentum-clumping",
+ "verdicts": [
+  {
+   "id": "0901.1106",
+   "conjecture": "C6",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "4/4 FOUND (rerun)",
+   "reason": "Confirmed, for one form of C6 only. In a homogeneous universe the state is (a0†)^N|0>, every axion in the k = 0 mode, so 'dark matter condenses into one momentum state through its own gravitational interaction' is a fair reading, and the notebook itself calls halo condensation 'momentum-space clumping, realized' (#1 §5.2). What is distinctive in the founding image is absent: no attraction gated in relative velocity, no instability of a classical Maxwellian, one condensate rather than a few streams of width ~v*. The condensation comes from Bose statistics with gravitational relaxation and needs N_occ >> 1, the regime of the record's classicality theorem. The full text never writes 'momentum space', 'momentum-space' or 'velocity space' (grep, 0 matches). Its long-range coherence is disputed (1412.5930). It is not the earliest statement of this form: Riotto and Tkachev 2000 (new finding) have a Bose condensate forming in dwarf-galaxy cores."
+  },
+  {
+   "id": "1507.01019",
+   "conjecture": "C6",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "3/3 FOUND (rerun)",
+   "reason": "Confirmed, for the notebook's condensed-core sub-claim: superfluid (Bose-condensed) cores in galaxies, and a normal or mixed phase in clusters 'due to the higher velocity dispersion', which matches #1 §5.2's 'below a critical velocity dispersion the core of a halo condenses' and 'superfluid-like cores'. The mechanism differs (strong self-interaction and Bose degeneracy, not a velocity-gated attraction), and it makes one condensate, not streams. The paper's other velocity criterion (Landau's: infall velocity against the phonon sound speed) concerns dissipation in mergers, not a gate on a force, so it adds nothing for C7. Riotto and Tkachev 2000 state the condensed-core form fifteen years earlier."
+  },
+  {
+   "id": "1412.5930",
+   "conjecture": "C6",
+   "claimed_relation": "evidence-against",
+   "verified_relation": "evidence-against",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed, within its scope. It argues that condensation driven by attractive interactions gives localized clumps with short-range correlation, against the gravity-driven, spatially coherent condensate of Sikivie and Yang, the published form closest to C6. It does not treat a velocity gate. Its logic agrees with the record's own result for a long-range gated attraction, whose added modes are 'spatial lumps carried by a velocity-selected population' (velocity-gated-gravity note §5), so it bears on attraction-driven momentum clumping in general, not only on gravity."
+  },
+  {
+   "id": "1804.05857",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Gravitational condensation in virialized halos ends in Bose stars, lumps localized in position. The record already cites it as the method of the wave-island rate (#11 §9 (ii), 'LPT-style')."
+  },
+  {
+   "id": "cond-mat/0005001",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Les Houches 1999 lecture notes, a Springer book chapter (Crossref: doi:10.1007/3-540-45338-5_2). A secondary source for the textbook reading of Bose-Einstein condensation as condensation in momentum space. It shows that the phrase is not distinctive; it is not prior art for the founding image."
+  },
+  {
+   "id": "0709.0776",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "3/3 FOUND (rerun)",
+   "reason": "Confirmed, and it is the closest paper for C6's mechanism. Its Hamiltonian H = (p^2 + b^2 r^2)/2m - alpha(1/r + b/p) is reciprocity-invariant: the 1/p term is the Born dual of Newton's 1/r, and the harmonic term the dual of the kinetic energy. Summed over a galaxy's masses with <Omega/|v - v'|>, it is #1 §5.2's mean field int U(p - p') f(p') d^3p' with an attractive U proportional to 1/|v - v'|, acting through r-dot as the anomalous velocity does. It makes no clumping claim. The searcher's summary says the term 'flattens rotation curves'; the authors write that the fit is 'far from convincing' and that 'Born's idea will probably be found wanting' (both FOUND)."
+  },
+  {
+   "id": "0912.1517",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. Eqs. (65)-(66) give a momentum-space Laplace equation for one point source, solved by a logarithmic potential in momentum, which the authors call a realization of Born's idea. It treats no distribution of matter and makes no clumping or dark-matter claim."
+  },
+  {
+   "id": "recid:1657135",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "reject",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Rejected as irrelevant to C6. The paper reads matter and vacuum energy as momentum-space curvature and links a horizon to a curvature singularity of momentum space. It has no distribution of matter in momentum space, no interaction between particles in momentum and no clumping. Its subject is App. A item 10's (momentum space has its own gravity), which is not one of the conjectures checked here; with C6 it shares words only. Metadata: INSPIRE gives 2017, Crossref 2018 (vol. 15); the citation's 2018 is right."
+  },
+  {
+   "id": "nucl-th/0212090",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed, and the sign the searcher left unchecked is attractive. Table 1 lists C_l = -11.70 and C_u = -103.40 (MDI), negative in all five parametrizations, with Lambda = 1.0 p_f(0) for MDI. Eq. (10) is then an attraction between nucleons at the same position, gated in relative momentum by 1/(1 + (p - p')^2/Lambda^2): the mean-field form of the record's own contact-range gated interaction (#11 §8), standard in nuclear transport since Gale, Bertsch and Das Gupta, Phys. Rev. C 35, 1666 (1987), the paper's ref. [1] (checked). No fragmentation in momentum is claimed."
+  },
+  {
+   "id": "0806.2182",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. Venue checked on Crossref (Kinetic and Related Models 1, 415 (2008)). Interaction-driven velocity concentration: dissipative alignment, weighted by distance in position, toward one flock. A closer mechanism relative is Ben-Naim, Krapivsky and Redner 2003 (new finding): an interaction gated in the difference of the variable fragments a uniform distribution into several discrete clusters."
+  },
+  {
+   "id": "1801.06571",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Venue checked on Crossref (Phys. Rev. B 97, 165101 (2018)). An interaction-driven instability of a momentum distribution, in the Landau functional that has the form of #1 §5.2's eps(p; f). It deforms a Fermi surface; nothing fragments."
+  },
+  {
+   "id": "1607.08621",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. A BCS dark-matter halo exists as a model, matching the notebook's analogy by name; the attraction is a torsion-induced contact interaction, and the outcome is a superfluid halo, not streams."
+  },
+  {
+   "id": "quant-ph/0407100",
+   "conjecture": "C6",
+   "claimed_relation": "evidence-against",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Downgraded to related. The cited passages state textbook BCS: pairs of opposite momenta, with the attraction restricted to a shell. If the gate is on relative momentum (#11 §8's k), that contradicts the notebook's sentence 'a momentum-gated attraction is precisely the pairing interaction'. But it weighs against an analogy offered for C6, not against the claim that matter clumps in momentum space, so it is not evidence against the conjecture. The paper is a numerical-method paper; BCS 1957 or a textbook would be the better source. Metadata: the citation matches the journal version (Crossref: 'Numerical Simulation Solution of the BCS Pairing Problem', four authors); the arXiv version is titled 'Exact Numerical Solution ...' and lists a fifth author."
+  },
+  {
+   "id": "astro-ph/9504052",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Discrete velocity peaks come from cold infall: a prior statement of the observable, not of the mechanism. The summary's side claim about Erken et al. 2012 checks: 'In the non-linear regime CDM produces discrete flows' (1111.1157, FOUND)."
+  },
+  {
+   "id": "0812.2033",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. A useful caveat: a test by 'about ten broad streams' (velocity-gated-gravity note §4) would also be met by ordinary outer halos."
+  },
+  {
+   "id": "1002.3162",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Already in the record (velocity-gated-gravity note §4; run-2 claim C18)."
+  },
+  {
+   "id": "1002.0291",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Already in the record (run-2 clumping analysis)."
+  },
+  {
+   "id": "cond-mat/0502499",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. Venue checked on Crossref (Phys. Rev. Lett. 95, 263901 (2005)). Classical waves condense in wavenumber space with a defocusing (repulsive) interaction: the regime the classicality theorem leaves open."
+  },
+  {
+   "id": "1610.08297",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed, as a shared consequence (the Fornax globular-cluster timing problem), not a statement of clumping."
+  },
+  {
+   "id": "1905.09297",
+   "conjecture": "C6",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed, as a shared consequence (suppressed dynamical friction in condensed cores). The paper itself finds a small non-zero friction for subsonic perturbers, from the Jeans-like tachyonic mass of sound waves."
+  },
+  {
+   "id": "2503.06160",
+   "conjecture": "C6",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. 'Momentum-space gravity' here names the quantum geometry of electron bands."
+  },
+  {
+   "id": "2602.23822",
+   "conjecture": "C6",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. 'Velocity space clumping' of halo stars, used as a way to detect subhaloes; arXiv preprint only."
+  },
+  {
+   "id": "0709.0776",
+   "conjecture": "C7",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "5/5 FOUND (rerun)",
+   "reason": "Downgraded to related; still the closest paper found for C7. The Omega/|v - v'| term does not depend on position, so it adds nothing to p-dot: eq. (4) puts it in r-dot = p(1/m + b alpha/p^3) only, while p-dot = -r(b^2/m + alpha/r^3). The record treats this structure separately and finds that 'A potential in momentum differences exerts no force' (velocity-gated-gravity note §2). C7 is a different physical claim: a 1/r force among dark-matter particles, multiplied by a gate W(|v - v'|/v*), which pulls co-moving particles together in space (note §5). The two share a theme: an interaction of unlimited range, strongest at small relative velocity, applied to galaxies, with a remark on the Hubble flow. They do not share the physics: Delbourgo and Lashmar have no attraction in position, no gate width (a power law singular at zero relative velocity), and a term acting among all masses as a replacement for dark matter. The authors call their fit 'far from convincing' (FOUND). The record's null search (run-2 claim C18) does not cite it (checked)."
+  },
+  {
+   "id": "2303.04816",
+   "conjecture": "C7",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. Already in the record (velocity-gated-gravity note §9)."
+  },
+  {
+   "id": "2503.03817",
+   "conjecture": "C7",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. The full text has no 'static', 'Newtonian' or 'two-body' (grep); it computes only gravitational-wave time delays. So the update stands: a linearized tensor (continuous-spin gravity) formalism now exists, but no two-body force has been computed in it, against note §9's 'No gravitational (tensor) version exists'."
+  },
+  {
+   "id": "2402.08557",
+   "conjecture": "C7",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "3/3 FOUND (rerun)",
+   "reason": "Confirmed. Venue checked on Crossref (Phys. Rev. B 109, 165129 (2024)). An interaction of unlimited range in position and local in momentum, in a lattice-electron model. The only attractive Hatsugai-Kohmoto papers found concern superconductivity (arXiv: 2 hits), and none applies the structure to dark matter or gravity (INSPIRE full text: 2 unrelated hits)."
+  },
+  {
+   "id": "1011.6374",
+   "conjecture": "C7",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Collisional, velocity-dependent self-interaction: the family of the record's contact gate."
+  },
+  {
+   "id": "2007.00667",
+   "conjecture": "C7",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (rerun)",
+   "reason": "Confirmed. Already in the record's run-2 claim C18 (checked)."
+  },
+  {
+   "id": "2510.00098",
+   "conjecture": "C7",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. Supports the note's §6 reading that the BOSS bound on scalar dark forces comes from background effects that the gated model lacks."
+  },
+  {
+   "id": "astro-ph/0606566",
+   "conjecture": "C7",
+   "claimed_relation": "evidence-against",
+   "verified_relation": "evidence-against",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. A bound on an extra long-range attraction among dark matter; for a gated force it applies at the satellite's relative speed. The record already applies it (velocity-gated-gravity note §6)."
+  },
+  {
+   "id": "1909.06986",
+   "conjecture": "C7",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (rerun)",
+   "reason": "Confirmed. 'Velocity gates' are experimental cuts selecting particle pairs in femtoscopy."
+  }
+ ],
+ "new_findings": [
+  {
+   "conjecture": "C6",
+   "id": "astro-ph/0003388",
+   "citation": "A. Riotto, I. Tkachev, \"What if dark matter is bosonic and self-interacting?\", Phys. Lett. B 484, 177 (2000), doi:10.1016/S0370-2693(00)00660-2, arXiv:astro-ph/0003388",
+   "relation": "partial",
+   "summary": "Self-interacting bosonic dark matter is put forward as a cure for cuspy cores and too many dwarf galaxies. In a virialized clump the phase-space density exceeds unity, so scattering is Bose-enhanced and the clump Bose-condenses. For v_e = 100 km/s, which the authors say approximately corresponds to dwarf-galaxy cores, the relaxation time is shorter than the age of the Universe above a stated coupling, and 'the Bose condensate in the center of gravitational well should form'. The paper then derives the core density that the condensate's self-annihilation allows. This is the notebook's 'below a critical velocity dispersion the core of a halo condenses' (#1 §5.2), in 2000.",
+   "difference": "It states the same form of C6 as Sikivie and Yang 2009 and Berezhiani and Khoury 2015, and states it earlier. The condensation comes from contact self-interaction and Bose statistics, not from an attraction gated in relative velocity. The result is one condensate in the core, not several velocity streams, and it needs degenerate bosons (the record's classicality theorem). The paper speaks of a condensate in the centre of the well, never of momentum space: reading it as momentum-space clumping is the notebook's identification, the same reading that makes Sikivie-Yang and Berezhiani-Khoury partial. Its relaxation rate (Bose-enhanced scattering in a virialized clump, after Tkachev 1991 and Semikoz-Tkachev 1995) is the kind of rate the record's wave island uses (#11 §9 (ii), 'Bose-enhanced, LPT-style'), without the gate. Its ref. [14], Tkachev, Phys. Lett. B 261, 289 (1991), was not retrieved (†).",
+   "quotes": [
+    {
+     "text": "One scenario which may be free of these problems invokes a self-interacting Bose-field.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "However, with time the Bose-condensation will occur",
+     "where": "full text, section 'Condensation'",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "This will happen even with very small values of the self-coupling since the scattering is Bose-enhanced if the phase-space density of particles is larger than unity",
+     "where": "full text, section 'Condensation'",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "which approximately corresponds to the parameters of the cores of dwarf galaxies",
+     "where": "full text, section 'Condensation', before eq. (8)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "If this condition is satisfied, the Bose condensate in the center of gravitational well should form",
+     "where": "full text, section 'Condensation', after eq. (8)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "cond-mat/0212313",
+   "citation": "E. Ben-Naim, P. L. Krapivsky, S. Redner, \"Bifurcations and patterns in compromise processes\", Physica D 183, 190 (2003), doi:10.1016/s0167-2789(03)00171-4, arXiv:cond-mat/0212313",
+   "relation": "related",
+   "summary": "Agents carry a continuous variable. A pair interacts only when its two values lie within a fixed range, and both then take the average. A uniform initial distribution is unstable, with an instability that propagates in from the boundary in the continuum version and a 'negative diffusion instability' in the discrete one. It ends as a finite set of isolated, non-interacting clusters, equally spaced, with the spacing set by the interaction range. The authors relate the averaging step to one-dimensional inelastic collisions. This is the structure #1 §5.2 claims for dark matter: an interaction that acts only between near-equal values of a variable fragments a smooth distribution of that variable into discrete clusters, with widths and spacings set by the gate.",
+   "difference": "This is not matter, gravity or dark matter: the variable is an opinion, and the dynamics is a dissipative averaging, not a Hamiltonian attraction. Read as velocities, the averaging step is a totally inelastic collision allowed only below a threshold relative velocity. The record's tests cover the Hamiltonian cases. Streams spread through space are 'exactly neutral in mean-field dynamics in a homogeneous medium' (velocity-gated-gravity note §5), and elastic gated collisions 'still maximize entropy' (calc note #2, quoted on the founding-image wiki page). The compromise mechanism escapes both by dissipating energy. It is closer to the founding image's fragmentation into a few discrete streams than flocking (Ha-Tadmor), which ends in a single flock. No anticipation of C6 as a physical claim.",
+   "quotes": [
+    {
+     "text": "When the opinions of two agents are sufficiently close, they both acquire the average of their initial opinions; otherwise, they do not interact.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API)"
+    },
+    {
+     "text": "the system condenses into a finite set of equally-spaced opinion clusters",
+     "where": "full text, §I Introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "This behavior results from an instability that propagates from the boundary toward the center",
+     "where": "full text, §II The Continuum Version",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Therefore, minute details of the initial conditions are magnified, ultimately resulting in isolated clusters.",
+     "where": "full text, §III.2.3 Negative Diffusion Instability",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Closely related averaging processes naturally arise in diverse systems, including one-dimensional inelastic collisions",
+     "where": "full text, §I Introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "scoop_searches": [
+  {
+   "database": "INSPIRE citations of",
+   "query": "0709.0776",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-space instability\" and fulltext \"dark matter\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space instability\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dual space\" and fulltext \"dark matter\" and (fulltext \"clump\" or fulltext \"clumps\" or fulltext \"clustering\") and fulltext \"Born reciprocity\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"gravitational instability\" and fulltext \"momentum space\" and fulltext \"reciprocity\" and fulltext \"dark matter\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dual matter\" and fulltext \"dark matter\" and fulltext \"momentum space\"",
+   "hits": "10 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dual sector\" and fulltext \"dark matter\" and fulltext \"velocity space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "ti:\"bifurcations and patterns in compromise processes\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"bounded confidence\" AND abs:velocity AND (abs:flocking OR abs:alignment)",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Cucker-Smale\" AND (abs:\"velocity-dependent communication\" OR abs:\"relative velocity\" OR abs:\"velocity difference\") AND abs:cluster",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-dependent long-range force\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"fifth force\" and fulltext \"dark matter\" and fulltext \"depends on the relative velocity\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"attraction\" and fulltext \"same velocity\" and fulltext \"dark matter\" and fulltext \"long-range\" and fulltext \"streams\"",
+   "hits": "18 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"velocity-dependent\" AND abs:\"gravitational constant\" AND (abs:galaxies OR abs:\"rotation curves\" OR abs:\"dark matter\")",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"momentum space\" AND abs:\"self-organization\" AND abs:\"long-range\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"attractive\" AND abs:\"Hatsugai-Kohmoto\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "gravitational attraction depends on relative velocity of the two bodies, stronger for co-moving bodies, explains galaxy rotation curves without dark matter",
+   "hits": "10 results; none states the mechanism (gravitomagnetism critique, MOG, STVG, baryon-distribution models)"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark matter halo phase transition in velocity space: smooth velocity distribution breaks into discrete streams by an interaction between particles of similar velocity",
+   "hits": "9 results; none states the mechanism (CDM phase-space structure, tidal streams, Zemp et al., Helmi et al.)"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"instability in momentum space\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"unstable in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Riotto and a Tkachev and t bosonic",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"Kepler problem\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Sin and t \"Bose liquid\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Born reciprocity\" AND (abs:clustering OR abs:instability OR abs:\"structure formation\" OR abs:\"phase transition\")",
+   "hits": "0 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "Born reciprocity gravitational attraction momentum space reciprocal potential galaxies",
+   "hits": "Crossref: 10 items for: Born reciprocity gravitational attraction momentum space reciprocal potential galaxies"
+  },
+  {
+   "database": "Crossref",
+   "query": "Jeans instability in velocity space self-gravitating streams formation interaction between particles of similar velocity",
+   "hits": "Crossref: 10 items for: Jeans instability in velocity space self-gravitating streams formation interaction between parti"
+  },
+  {
+   "database": "INSPIRE references of",
+   "query": "0709.0776",
+   "hits": "15 references"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Jarvis and a Morgan and t reciprocity",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Hatsugai-Kohmoto\" and (fulltext \"dark matter\" or fulltext \"gravitational\")",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"infinite-range\" and fulltext \"local in momentum\" and (fulltext \"dark matter\" or fulltext \"gravity\")",
+   "hits": "6 hits"
+  }
+ ],
+ "not_found_assessment": [
+  {
+   "conjecture": "C6",
+   "holds": true,
+   "reason": "Holds for the founding image itself, with two qualifications. (1) Its condensed-core form was published before the searcher's earliest partial: Riotto and Tkachev 2000 have Bose condensation in dwarf-galaxy cores. Bosonic dark-matter halos go back further: Sin, Phys. Rev. D 50, 3650 (1994), on the halo as a Bose liquid (abstract read), and Tkachev 1986 and 1991 (†, not read). Every published form is one Bose condensate, not a few velocity streams from a gated attraction. (2) The clause 'velocity concentration by an interaction only in flocking models' is incomplete. Fragmentation of a uniform distribution into several discrete, equally spaced clusters by an interaction gated in the difference of the variable is established in compromise (bounded-confidence) dynamics (Ben-Naim, Krapivsky and Redner 2003), a dissipative, non-Hamiltonian setting; for velocities it amounts to inelastic collisions below a threshold. My own searches (velocity- and momentum-space instability, instability in or unstable in momentum space, gravitational instability with momentum space and reciprocity, dual matter and dual sector with momentum or velocity space, Born reciprocity with clustering or instability, a web search for a velocity-space phase transition of halos, Crossref on velocity-space Jeans instability) found no statement of the Jeans problem with x and v exchanged, nor of conjugate or dual matter clumping in momentum space. The dual-sector dark-matter papers named by the searcher (Freidel-Kowalski-Glikman-Leigh-Minic 2021, Minic 2020, Berglund-Hübsch-Minic 2022, Hübsch-Minic 2026) contain no clumping, clustering or localization in a dual or momentum space (grep of full texts)."
+  },
+  {
+   "conjecture": "C7",
+   "holds": true,
+   "reason": "Holds, but the closest paper should be labelled related, not partial. Delbourgo and Lashmar's Omega/|v - v'| term depends only on relative velocity and exerts no force in position (their eq. 4; velocity-gated-gravity note §2). C7's defining feature, a 1/r attraction among dark matter switched by relative velocity, appears nowhere. My own searches (velocity-dependent long-range force; fifth force depending on relative velocity with dark matter; attraction at the same velocity with streams and long range; velocity-dependent gravitational constant for galaxies; interactions local in momentum and of infinite range applied to dark matter or gravity; attractive Hatsugai-Kohmoto; a web search for gravity depending on relative velocity among co-moving bodies; the citation graph of Delbourgo-Lashmar both ways, including Jarvis-Morgan 2005, which has no 1/p term) found nothing closer. A velocity criterion in superfluid dark matter (Berezhiani-Khoury: infall velocity against sound speed) concerns dissipation relative to the medium, a preferred-frame effect the note's §9 already covers, not a gate on a force between two bodies."
+  }
+ ],
+ "notes": "Verification of g5 (C6, C7). Read first: the two wiki pages, #11 §8-§9 and App. A, #1 §5.1-§5.2, and notes/velocity-gated-gravity.md §1, §2, §4, §5, §9, §10; the record's run-2 claim C18 was checked by grep. Not read: STATE.md, other groups' folders, round2/. Metadata: all 30 identifiers resolve, and titles, authors, years and venues match (the non-INSPIRE ones checked on Crossref). Quotes: the searcher's 56 quotes all FOUND on rerun, none loose; 15 further quotes of mine all FOUND (71 checks, 0 NOT FOUND; verify-quotes.tsv). Changed labels: (a) Delbourgo-Lashmar for C7, partial -> related. The term exerts no force in position, and the record classes such momentum-difference potentials apart from C7's gated 1/r force; it remains the closest paper for C7, and the closest for C6's mechanism. Both summaries also overstate the paper: the authors call their rotation-curve fit 'far from convincing'. (b) Xu et al. (BCS), evidence-against -> related: textbook BCS contradicts the notebook's BCS analogy, not C6. (c) Castro 2018, related -> reject: momentum-space curvature, not matter clumping in momentum space. Resolved open points: Das et al.'s momentum-gated term is attractive (all C negative in Table 1); Kundu-Schuster-Toro compute no two-body potential; Sikivie-Yang never write 'momentum space'; Erken et al. do say CDM produces discrete flows; C18 cites Lasenby and not Delbourgo-Lashmar. New: Riotto-Tkachev 2000 (partial, C6), the earliest checked statement of the condensed-core form; Ben-Naim, Krapivsky and Redner 2003 (related, C6), the fragmentation mechanism in a dissipative setting. Closest, as verified. C6 founding image (streams from a velocity-gated attraction): nothing states it. Its condensed-core form is published since at least 2000 (Riotto-Tkachev; Sikivie-Yang 2009; Berezhiani-Khoury 2015), always as one Bose condensate. Mechanism: Delbourgo-Lashmar 2007 (related). Fragmentation into discrete clusters: Ben-Naim, Krapivsky and Redner 2003 (related, dissipative). C7: Delbourgo-Lashmar 2007 (related). Leads not pursued: Sin, PRD 50, 3650 (1994; abstract read, no full text, no condensation claim in the abstract); Tkachev, Phys. Lett. B 261, 289 (1991) and Semikoz-Tkachev, PRL 74, 3093 (1995) (†, not retrieved). Working notes: work/literature-check/g5-momentum-clumping/verify-notes.md; logs verify-queries.tsv and verify-quotes.tsv."
+}

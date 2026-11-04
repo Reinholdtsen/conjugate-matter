@@ -1,0 +1,3 @@
+arXiv: 1 hits for: ti:"Exponential localization of Wannier functions in insulators"  (showing 1)
+ 1. [2006] Christian Brouder; Gianluca Panati; Matteo Calandra et al. (5) — Exponential localization of Wannier functions in insulators  | arXiv:cond-mat/0606726 [cond-mat.mtrl-sci] | Physical Review Letters 98 (01/2007) 046402
+    The exponential localization of Wannier functions in two or three dimensions is proven for all insulators that display time-reversal symmetry, settling a long-standing conjecture. Our proof relies on the equivalence between the existence of analytic quasi-Bloch functions and the nullity of the Chern numbers (or of the Hall current) for the system under consideration. The same equivalence implies that Chern insulators…

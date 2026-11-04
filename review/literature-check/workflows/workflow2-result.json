@@ -1,0 +1,1730 @@
+{
+  "summary": "Read every paper the systematic citation screen flagged that no searcher assessed; verify any strong match",
+  "agentCount": 7,
+  "logs": [
+    "4 of 4 reading lists done"
+  ],
+  "result": {
+    "readers": [
+      {
+        "reader": "r1-dark-matter",
+        "read": {
+          "reader": "r1-dark-matter",
+          "items": [
+            {
+              "recid": "1358474",
+              "verdict": "not-relevant",
+              "reason": "Dark-matter candidates are 16 scalars of a Cl(3,1)-valued field; no conjugate matter (abstract only; no free text)."
+            },
+            {
+              "recid": "671623",
+              "verdict": "finding",
+              "reason": "Born-reciprocal phase-space model fits a rotation curve without dark matter: same theme, rival account (related)."
+            },
+            {
+              "recid": "1796841",
+              "verdict": "finding",
+              "reason": "Proposes metaparticles of the metastring as dark-matter quanta; no dual-sector identification (related)."
+            },
+            {
+              "recid": "1413079",
+              "verdict": "finding",
+              "reason": "Discussion: MDM quanta could be non-local quanta of FLM's reformulations; one-sentence pointer (related)."
+            },
+            {
+              "recid": "2704811",
+              "verdict": "not-relevant",
+              "reason": "Axion dark matter in a two-patch, deformed-Poisson-bracket cosmology; ordinary candidate (abstract; MDPI blocked)."
+            },
+            {
+              "recid": "2648248",
+              "verdict": "not-relevant",
+              "reason": "WIMP/FIMP relic density in a two-patch cosmology; cites metastring only for Poisson-bracket deformations."
+            },
+            {
+              "recid": "1119918",
+              "verdict": "not-relevant",
+              "reason": "Abstract clause: two-times phase-space physics may help explain dark matter; 2011 preprint has none; text paywalled."
+            },
+            {
+              "recid": "1703403",
+              "verdict": "not-relevant",
+              "reason": "Twistor quantization; dark matter only in a passing citation of Castro Perelman 2019."
+            },
+            {
+              "recid": "1840422",
+              "verdict": "not-relevant",
+              "reason": "Pseudo-complex GR review about dark energy near masses; dark matter only in references."
+            },
+            {
+              "recid": "1826326",
+              "verdict": "not-relevant",
+              "reason": "Biconformal Yang-Mills sources; dark matter only in a reference title (Hazboun-Wheeler 2014)."
+            },
+            {
+              "recid": "2808256",
+              "verdict": "not-relevant",
+              "reason": "Extended-relativity review; dark matter as open question and a minimal-acceleration (MOND-like) hint."
+            },
+            {
+              "recid": "3071212",
+              "verdict": "not-relevant",
+              "reason": "Kaluza-Klein dispersion relation; dark matter only as motivation and a complex-scalar aside."
+            },
+            {
+              "recid": "3123635",
+              "verdict": "not-relevant",
+              "reason": "Metaparticle black-hole remnants; its 'effective cold dark matter' is the mimetic-gravity column; pointer to FKLM 2021."
+            },
+            {
+              "recid": "1607235",
+              "verdict": "not-relevant",
+              "reason": "Sp(4,R) gravity; asks whether augmenton fields might replace dark energy and dark matter."
+            },
+            {
+              "recid": "1707041",
+              "verdict": "not-relevant",
+              "reason": "LQG rainbow-like black-hole metric; dark matter mentioned only in passing."
+            },
+            {
+              "recid": "1424240",
+              "verdict": "not-relevant",
+              "reason": "Minimal length and gauge invariance; dark matter only in reference titles."
+            },
+            {
+              "recid": "2909423",
+              "verdict": "not-relevant",
+              "reason": "Quadratic gravity; states it is not concerned with dark matter."
+            },
+            {
+              "recid": "1095226",
+              "verdict": "not-relevant",
+              "reason": "Minimal-length review; dark matter only in one reference title."
+            },
+            {
+              "recid": "2164109",
+              "verdict": "not-relevant",
+              "reason": "GUP and curved momentum space thesis; dark matter only in reference titles."
+            },
+            {
+              "recid": "1590023",
+              "verdict": "not-relevant",
+              "reason": "Compact field-space phase space gives a late-time dust term possibly acting as dark matter; not momentum-side matter."
+            },
+            {
+              "recid": "724045",
+              "verdict": "finding",
+              "reason": "One sentence: momentum-energy coordinates of quantum-spacetime events may contribute to dark matter (related)."
+            },
+            {
+              "recid": "2901446",
+              "verdict": "not-relevant",
+              "reason": "kappa-Minkowski decoherence of neutrinos; dark matter only in references."
+            },
+            {
+              "recid": "2740764",
+              "verdict": "not-relevant",
+              "reason": "Lorentz covariance of quantum mechanics; dark matter only as introductory motivation."
+            },
+            {
+              "recid": "1934108",
+              "verdict": "not-relevant",
+              "reason": "UV non-local gravity and bounces; abstract has no dark-matter content; thesis PDF returned 403."
+            },
+            {
+              "recid": "1973174",
+              "verdict": "not-relevant",
+              "reason": "Quasi-metaparticles in strange metals; dark matter only as a pointer to FKLM 2021."
+            },
+            {
+              "recid": "2032186",
+              "verdict": "finding",
+              "reason": "Says each observed field's dual could be dark matter, in Born geometry; hedged, cites Minic 2020 (partial)."
+            },
+            {
+              "recid": "1485687",
+              "verdict": "not-relevant",
+              "reason": "Atomic-gas analog of gauge fields; 'dark' means optically dark states; no dark matter."
+            },
+            {
+              "recid": "1490024",
+              "verdict": "not-relevant",
+              "reason": "Quantum-gravity principles; MOND from a quantum equivalence principle replaces dark matter in rotation curves."
+            },
+            {
+              "recid": "1267197",
+              "verdict": "not-relevant",
+              "reason": "Galois-field quantum theory; dark matter only as an open question and a pointer."
+            },
+            {
+              "recid": "1668132",
+              "verdict": "not-relevant",
+              "reason": "NCG Pati-Salam leptoquarks; dark matter only in a reference title."
+            },
+            {
+              "recid": "2729212",
+              "verdict": "not-relevant",
+              "reason": "QG phenomenology white paper; dark-matter mentions concern refractive index, D-particle foam, PBHs."
+            },
+            {
+              "recid": "1319188",
+              "verdict": "not-relevant",
+              "reason": "Superconnection SM/LRSM; singlet-scalar dark matter only via references."
+            },
+            {
+              "recid": "1863665",
+              "verdict": "not-relevant",
+              "reason": "Strong-coupling dualities thesis; dark matter only as an F-theory application aside."
+            },
+            {
+              "recid": "1624081",
+              "verdict": "not-relevant",
+              "reason": "RG topology and hierarchy problem; dark matter named only as a future application."
+            },
+            {
+              "recid": "1644421",
+              "verdict": "not-relevant",
+              "reason": "Noncommutative hypersurface-deformation algebroid; dark matter only in a reference title."
+            },
+            {
+              "recid": "2162187",
+              "verdict": "not-relevant",
+              "reason": "Minisuperspace symmetries thesis; PBH mass window and a negative-mass aside only (PDF read)."
+            },
+            {
+              "recid": "1827611",
+              "verdict": "not-relevant",
+              "reason": "Current algebra and generalised geometry thesis; dark matter only in a CMS reference title (PDF read)."
+            },
+            {
+              "recid": "1852838",
+              "verdict": "not-relevant",
+              "reason": "Two-patch cosmology with energy drain; dark matter only as LambdaCDM background and future work."
+            }
+          ],
+          "findings": [
+            {
+              "conjecture": "C1",
+              "id": "2202.06890",
+              "citation": "P. Berglund, L. Freidel, T. Hübsch, J. Kowalski-Glikman, R. G. Leigh, D. Mattingly, D. Minic, \"Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation\", arXiv:2202.06890 (2022); Snowmass 2021 contribution (INSPIRE conference C21-07-11); arXiv preprint only, no journal in INSPIRE",
+              "relation": "partial",
+              "summary": "A Snowmass 2021 white paper co-signed by the originators of Born geometry (Freidel, Leigh), Kowalski-Glikman and the metastring school (Berglund, Hübsch, Minic). In the setting of Born geometry and modular spacetime it states that the metaparticles are quanta of fields in the modular representation and that each observed quantum field has a 'dual' which could be associated with dark-matter degrees of freedom, citing Minic 2020 (arXiv:2003.00318) for it; it adds that dark matter, dark energy and visible matter are naturally correlated in this description.",
+              "difference": "It states C1's central identification, dark matter as the duals of the observed fields, but in one hedged clause that defers to Minic 2020. It does not say that the dual fields are organized in momentum space or gravitate like ours. It has no spontaneous breaking or polarization order parameter, no velocity gate and no monopoles. Its dark sector is correlated with visible matter (the MDM correlation of refs. [45, 46]), against strict P4's gravity-only coupling and permanent direct-detection null. Framework: metastring theory, intrinsically non-commutative, T-duality covariant. Workflow 1 already holds the school's fuller and earlier statements (Minic Feb 2020; Berglund-Hübsch-Minic 2020; 2202.05104) and labels them 'anticipates'. This paper's weight is that Freidel, Leigh and Kowalski-Glikman co-sign the identification. It is labeled partial here because its own statement is weaker; harmonize with workflow 1 if needed.",
+              "quotes": [
+                {
+                  "text": "The metaparticles can be viewed as quanta of quantum fields in the modular representation. Such fields are inherently bi-local and non-commutative, and each observed quantum field has a “dual”, which could be associated with dark matter degrees of freedom",
+                  "where": "main text, paragraph on metastring theory and metaparticles (no section headings); the clause cites [11] = Minic, arXiv:2003.00318",
+                  "check": "lit.py quote: FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)"
+                },
+                {
+                  "text": "The geometry of such a causal non-local quantum spacetime is called Born geometry",
+                  "where": "main text, the preceding paragraph on modular spacetime",
+                  "check": "lit.py quote: FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)"
+                },
+                {
+                  "text": "Dark matter, dark energy and visible matter are naturally correlated in this description",
+                  "where": "main text, same paragraph, parenthetical citing [45, 46] (Ho-Minic-Ng 2010; Edmonds et al. MDM review 2017)",
+                  "check": "lit.py quote: FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C1",
+              "id": "2005.08927",
+              "citation": "D. Edmonds, D. Minic, T. Takeuchi, \"Dark Matter, Dark Energy and Fundamental Acceleration\", Int. J. Mod. Phys. D 29, 2043030 (2020), doi:10.1142/S0218271820430300; arXiv:2005.08927 (journal; Gravity Research Foundation 2020 essay, honorable mention)",
+              "relation": "related",
+              "summary": "From the baryonic Tully-Fisher and Faber-Jackson relations, which share one acceleration scale a0 ≈ cH0/2π across galaxies and clusters, the essay infers that dark-matter quanta are inherently non-local. It proposes as candidates metaparticles, the particle limit of the intrinsically non-commutative, Born-reciprocal metastring theory (ref. [50] is the Freidel-Leigh-Minic corpus, including 'Born reciprocity in string theory'), through which dark matter would be correlated with baryons by a fundamental length tied to dark energy.",
+              "difference": "It proposes metaparticles, quanta of the Born-reciprocal metastring, as dark matter, but never identifies dark matter as the dual or momentum-side counterpart of visible matter. The full text contains no 'dual', 'Born', 'reciprocity' or 'momentum'. It has no polarization, no mirror sector, no gate and no monopoles. Its dark matter knows about the baryons through a0, a non-gravitational correlation against strict P4. Dated May 2020, between Minic's Feb 2020 statement that dark matter is the dual Standard Model (cited as [52]) and Berglund-Hübsch-Minic's Oct 2020 paper.",
+              "quotes": [
+                {
+                  "text": "The dark-matter quanta are therefore inherently non-local. A possible candidate for such quanta are metaparticles, which are found in the long-distance limit of an intrinsically non-commutative formulation of quantum gravity/string theory",
+                  "where": "essay text, paragraph on what type of quanta dark matter must be (before the acknowledgments); cites [50] = Freidel-Leigh-Minic papers 2014-2019",
+                  "check": "lit.py quote: FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)"
+                },
+                {
+                  "text": "In this context, dark matter is correlated to the visible baryonic matter via a fundamental length scale that can be related to dark energy",
+                  "where": "same paragraph; cites [51] Berglund-Hübsch-Minic 2019 and [52] Minic arXiv:2003.00318",
+                  "check": "lit.py quote: FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)"
+                }
+              ],
+              "confidence": "high"
+            },
+            {
+              "conjecture": "C1",
+              "id": "1601.00662",
+              "citation": "D. Edmonds, D. Farrah, C. M. Ho, D. Minic, Y. J. Ng, T. Takeuchi, \"Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?\", Int. J. Mod. Phys. A 32, 1750108 (2017), doi:10.1142/S0217751X17501081; arXiv:1601.00662 (journal)",
+              "relation": "related",
+              "summary": "The paper fits the Modified Dark Matter (MDM) mass profile, which depends on the cosmological constant, to 13 galaxy clusters. Its discussion section says the MDM quanta should be found in quantum gravity, and that such unusual non-local quanta could be found in the Freidel-Leigh-Minic reformulations of quantum gravity and string theory (2013-2015), i.e. Born-reciprocal metastring theory.",
+              "difference": "A one-sentence pointer: it places dark-matter quanta in the FLM framework as a possibility but does not say what they are there, and in particular not that they are the dual of visible matter. MDM dark matter knows about Λ and the baryons, unlike P4's gravity-only χ. It has no polarization, no gate and no monopoles. Its interest is dating: on this list it is the earliest pointer from the metastring school to dark matter (Jan 2016), four years before the school identifies dark matter with the dual sector. Earlier MDM papers were not checked for the same pointer.",
+              "quotes": [
+                {
+                  "text": "The deeper nature of such quanta should be found in the context of quantum gravity. For example, such unusual non-local quanta could be found in recent reformulations of quantum gravity and string theory",
+                  "where": "Section 4, Discussion (the sentence continues with citations of Freidel, Leigh & Minic 2013, 2014, 2015)",
+                  "check": "lit.py quote: FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)"
+                },
+                {
+                  "text": "We discuss the possibility that the cold dark matter mass profiles contain information on the cosmological constant",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND: 1601.00662 — searched abstract"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C1",
+              "id": "gr-qc/0507090",
+              "citation": "L. M. Tomilchik, V. V. Kudryashov, \"Conformally flat metric, position-dependent mass and cold dark matter\", in Proceedings of the 7th International School-Seminar 'Actual Problems of Microworld Physics' (Gomel, 2003), vol. 2, pp. 24-42 (INSPIRE conference C03-07-28.5); arXiv:gr-qc/0507090 (2005) (conference proceedings)",
+              "relation": "related",
+              "summary": "The authors combine the Minkowski and momentum-space intervals by Born's reciprocity principle, dS² = ds² + dp²/κ0², postulate a maximal force F0 = c⁴/G, and build a particle Lagrangian that is 'reciprocally symmetric in the sense of M. Born'. With it they reproduce a typical spiral-galaxy rotation curve without dark matter. They conclude that dark matter is an artifact of using an inadequate geometry of the eight-dimensional extended phase space.",
+              "difference": "It reaches the opposite conclusion within the same theme: Born-reciprocal phase-space geometry removes the need for dark matter instead of supplying it as conjugate matter. There is no second matter sector, no polarization, no gate and no monopoles. It offers a fit to one model rotation curve, not a result or bound against C1, so it is not evidence-against. On this list it is the earliest such claim (2003 school, arXiv 2005), earlier than Delbourgo-Lashmar 2007, which workflow 1 holds as related.",
+              "quotes": [
+                {
+                  "text": "We ventured to suggest that the dark matter is a peculiar factor resultant from the use of inadequate geometry of the eight-dimensional manifold, representing an extended phase space, and hence the use of inadequate kinematics.",
+                  "where": "Section 5, Concluding Remarks",
+                  "check": "lit.py quote: FOUND: gr-qc/0507090 — searched full text (https://arxiv.org/html/gr-qc/0507090)"
+                },
+                {
+                  "text": "the model is reciprocally symmetric in the sense of M. Born",
+                  "where": "Section 3, Classical Dynamics of a Particle with the Position-Dependent Mass (list of requirements on the Lagrangian)",
+                  "check": "lit.py quote: FOUND: gr-qc/0507090 — searched full text (https://arxiv.org/html/gr-qc/0507090)"
+                },
+                {
+                  "text": "It is shown that by this model the peculiar form of the corresponding rotation curve is as a whole reproduced without recourse to the dark matter concept.",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND: gr-qc/0507090 — searched abstract"
+                }
+              ],
+              "confidence": "high"
+            },
+            {
+              "conjecture": "C1",
+              "id": "gr-qc/0608086",
+              "citation": "D. R. Finkelstein, \"Homotopy approach to quantum gravity\", Int. J. Theor. Phys. 47, 534 (2008), doi:10.1007/s10773-007-9479-y; arXiv:gr-qc/0608086 (journal)",
+              "relation": "related",
+              "summary": "In a finite-dimensional quantum spacetime whose events (Vilela or Baugh space) carry momentum-energy coordinates as well as space-time ones, mixed by the invariance group, Finkelstein argues that space-time points are an abstraction whose momentum coordinates were suppressed. He adds that these momentum-energy variables will contribute to the vacuum stress tensor, and possibly to dark matter and the cosmological constant.",
+              "difference": "It is a one-sentence speculation about vacuum contributions of the momentum coordinates of quantum-spacetime events, not a matter sector. It has no mirror-polarized counterpart of ordinary matter, no particles organized in momentum, no symmetry breaking and no calculation. It shares only C1's theme: dark matter might come from the momentum half of a kinematics that mixes position and momentum.",
+              "quotes": [
+                {
+                  "text": "Quantum events like those of Vilela space or Baugh space have, in each admissible frame, not only space-time coordinates but also momentum-energy and other coordinates, mixed by the invariance group.",
+                  "where": "Section 3.2, Renunciation of absolute space-time",
+                  "check": "lit.py quote: FOUND: gr-qc/0608086 — searched full text (https://arxiv.org/html/gr-qc/0608086)"
+                },
+                {
+                  "text": "Quantum events are merely reclaiming the energy-momentum variables that were abstracted from them millennia ago.",
+                  "where": "Section 3.2",
+                  "check": "lit.py quote: FOUND: gr-qc/0608086 — searched full text (https://arxiv.org/html/gr-qc/0608086)"
+                },
+                {
+                  "text": "they will inevitably contribute to the vacuum stress tensor, and possibly to dark matter and the cosmological constant",
+                  "where": "Section 3.2 (the sentence opens 'These energy-momentum variables may have zero vacuum expectation values, but')",
+                  "check": "lit.py quote: FOUND: gr-qc/0608086 — searched full text (https://arxiv.org/html/gr-qc/0608086)"
+                }
+              ],
+              "confidence": "medium"
+            }
+          ],
+          "notes": "Read all 38 flagged papers: every abstract (lit.py show); the full text of the 33 with arXiv ids (regex 'dark[ -]matter|dark sector|dark particle|dark energ', then targeted greps for dual|metaparticle|Born|reciproc|momentum); the PDFs of the Sartini (2211.04909, no HTML) and Osten theses; and Castro 2012's preprint, viXra 1108.0045v1, whose text has no 'dark' at all (the published abstract adds only a clause). Abstract only: Castro 2015 (no free copy); Maldonado-Méndez 2023 Universe (MDPI 403; same model as 2304.00620, read in full); Maheshwari thesis (PDF 403). Verdicts: 5 findings, 33 not-relevant, 0 unavailable. All 13 reported quotes FOUND by lit.py quote (quote_verdicts.json). Closest paper to C1 on this list: 2202.06890 (partial), which says each observed field's dual could be dark matter, co-signed by Freidel, Leigh and Kowalski-Glikman. It is weaker than the metastring school's statements that workflow 1 labels 'anticipates' (Minic Feb 2020 and later), so the label may need harmonizing. No paper on the list states the spontaneously broken polarization, the momentum-space organization of dark matter, the gravity-only coupling (strict P4), the velocity gate or the monopole form. Nothing bears on the X-condensate: Maldonado-Méndez's 'bi-metric' universe has two scale factors coupled by a deformed Poisson bracket, not a massive spin-2 field. Asides outside C1, for the orchestrator: (1) Tomilchik-Kudryashov (gr-qc/0507090; 2003 proceedings, arXiv July 2005) advance a maximal force F0 = c^4/G, motivated by Born's reciprocal line element; abstract quote 'The hypothesis that there exists a maximal force with the numerical value equal to the inverse Einstein's gravitation constant is advanced.' checked FOUND. This predates Low 2006, which the record names as prior art for #13's maximum force. (2) Mielczarek-Trześniewski 2017 (1704.01934): a compact (spherical) field-space phase space gives a late-time negative cosmological constant that may lead to recollapse. That bears on the closed-universe note's lead (Artigas, Mielczarek, Rovelli 2019), not on C1-C7. Working notes, call log and extracted texts: work/literature-check/round2/r1-dark-matter/."
+        },
+        "verify": {
+          "verdicts": [
+            {
+              "id": "2202.06890",
+              "conjecture": "C1",
+              "claimed_relation": "partial",
+              "verified_relation": "partial",
+              "metadata_ok": true,
+              "quotes_ok": "3/3 FOUND, exact matches in the full text (lit.py quote, run by the verifier)",
+              "reason": "Confirmed as partial. Metadata: INSPIRE (recid 2032186) and the arXiv API agree on the title, the seven authors (INSPIRE and the paper spell 'Hubsch') and the year. arXiv posted it on 14 Feb 2022, one version, with the comment 'Contribution to Snowmass 2021' and no journal-ref. INSPIRE lists it as a conference paper under C21-07-11, which INSPIRE's conference record names 'Snowmass 2021' (Seattle, 17-26 July 2022). It has no DOI, and Crossref finds no journal version, so it is an arXiv preprint only. Quotes: lit.py quote finds all three verbatim in the full text (exact matches). Reading: I read the whole text (about 21k characters). The dark-matter statement is one clause in the 'Observations:' paragraph: fields in the modular representation are bi-local and non-commutative, 'and each observed quantum field has a \"dual\", which could be associated with dark matter degrees of freedom [11]'. Here 'dual' means the Born/T-dual partner; it is not a word collision. Reference [11] (Minic, arXiv:2003.00318) writes a dark-matter Lagrangian L~_dm(A~) for the duals A~ of the Standard Model fields on the dual coordinates x~, whose metric 'encodes ... the transverse energy-momentum space geometry'. It calls the Standard Model's dual the 'dark matter sector', in a passage on Born reciprocity between spacetime and energy-momentum space. Why not related: the paper does state C1's central identification, dark matter as the dual counterpart of each observed field, in a Born-geometry setting, so it does more than share a theme. Why not anticipates: the clause is hedged ('could be associated') and defers to [11]. The paper never says where the duals live (it uses 'momentum' only in the relative-locality paragraph), that they gravitate like ours, or how they couple. Greps find no 'spontan', 'polari', 'monopol' or 'detect', and 'gate' occurs only inside 'investigated'. Correction to the reader's difference text: the 'natural correlation' is cited to the modified-dark-matter (MDM) papers [45, 46]. In those papers the halo profile depends on the baryons through a critical acceleration set by Lambda, in a model 'inspired by gravitational thermodynamics' (1709.04388 abstract). Neither paper proposes a non-gravitational coupling between dark matter and baryons (1709.04388 full text: 0 matches for 'non-gravitational'). [46] also says its quanta's non-locality 'may explain why, so far, dark matter detection experiments have failed to detect dark matter particles'. So the correlation sets this paper apart from the program's chi, whose halos come from ordinary gravity plus the gate. But it is not evidence against strict P4's gravity-only coupling or against row 7's null, and the paper says nothing about detection. The non-gravitational coupling between visible and dual matter that workflow 1 notes comes from other papers of the school (BHM 2020 section 4; 2212.06086), not from this one. Minor: the paper has run-in headings. Quotes 1 and 3 are in 'Observations:' and quote 2 is in 'Theoretical foundations:', so the 'where' field's 'no section headings' should be fixed. Minic is also one of the originators of Born geometry (Freidel, Leigh and Minic 2014)."
+            }
+          ],
+          "notes": "One finding verified, label confirmed: arXiv:2202.06890 is partial for C1. Duplicate: workflow 1's C1 verifier already holds this paper as a new finding, labeled partial (g1-conjugate-matter/verify.json, new_findings). The reader's note that it is 'not in g1's findings' is wrong: the reader checked the searcher's list, not the verifier's new findings. Merge the two entries rather than counting the paper twice; the labels agree, and this round adds the full-text reading, the venue check and the correction below. Comparison with workflow 1's labels: workflow 1 labels 2202.05104, another one-sentence Snowmass restatement that relies on its references, as anticipates. That paper is unhedged ('dark matter should be viewed as a dual SM') and says where the duals live ('the dual spacetime'); this one is hedged and says neither. So the split between partial and anticipates is consistent, though the margin is small. Do not raise this paper to anticipates; if one standard is wanted for single sentences that rely on references, lower 2202.05104 instead. Correction to carry: the reader's difference text calls the paper's correlation of dark matter with visible matter 'against strict P4's gravity-only coupling and permanent direct-detection null'. That overreads refs [45, 46]. Their correlation is MDM's link between the halo and the baryons through a critical acceleration tied to Lambda, from gravitational thermodynamics, with no non-gravitational coupling, and [46] offers non-locality as a reason for the detection null. This paper adds nothing to priority: Minic (arXiv, Feb 2020) and BHM (Oct 2020) are earlier and fuller. Its weight is that Freidel, Leigh and Kowalski-Glikman co-signed the association in Feb 2022. Output: /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/round2/r1-dark-matter.verify.json. Evidence and working files: /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/round2/r1-dark-matter-verify/."
+        }
+      },
+      {
+        "reader": "r2-monopoles-duality",
+        "read": {
+          "reader": "r2-monopoles-duality",
+          "items": [
+            {
+              "recid": "2787067",
+              "verdict": "not-relevant",
+              "reason": "Effective monopole-like force in position space from su(2) noncommutativity (curved momentum space); no magnetic charges, momentum-space objects or duality."
+            },
+            {
+              "recid": "2029246",
+              "verdict": "not-relevant",
+              "reason": "KK- and H-monopoles are string five-brane geometries related by T-duality; no momentum-space monopoles, dark matter or electric-magnetic duality."
+            },
+            {
+              "recid": "1909256",
+              "verdict": "not-relevant",
+              "reason": "Thesis: higher Kaluza-Klein monopole is the NS5-brane; polarization choice is T-duality frame. No momentum-space magnetic matter or S-duality (PDF read)."
+            },
+            {
+              "recid": "1770969",
+              "verdict": "not-relevant",
+              "reason": "Higher Kaluza-Klein (Gross-Perry) monopole identified with the NS5-brane in position space; no momentum-space monopoles, dark matter or S-duality (PDF read)."
+            },
+            {
+              "recid": "1744428",
+              "verdict": "not-relevant",
+              "reason": "Electric charge in a position-space monopole distribution; the doubled configuration space is auxiliary. Nothing on momentum-space monopoles or dark matter."
+            },
+            {
+              "recid": "1841580",
+              "verdict": "not-relevant",
+              "reason": "Magnetic monopole only in a citation of Jackiw's dilatation symmetry; paper is on the scale anomaly in planar noncommutative quantum mechanics."
+            },
+            {
+              "recid": "2688607",
+              "verdict": "not-relevant",
+              "reason": "Born reciprocity in symplectic groupoids with curved and compact momentum spaces; monopoles only in two remarks and reference titles; no e-m duality."
+            },
+            {
+              "recid": "1424240",
+              "verdict": "not-relevant",
+              "reason": "Monopole field on a sphere used as a stereographic device for a minimal-length algebra; Born reciprocity only as motivation."
+            },
+            {
+              "recid": "1763839",
+              "verdict": "not-relevant",
+              "reason": "'Magnetic monopole' occurs only in a reference title (Moody-Shapere-Wilczek); paper concerns geometric phase in noncommutative quantum mechanics."
+            },
+            {
+              "recid": "1735464",
+              "verdict": "not-relevant",
+              "reason": "Dirac monopole mentioned only as an analogy in the outlook; a quantum-geometry reinterpretation of the Schroedinger equation (PDF read)."
+            },
+            {
+              "recid": "1934108",
+              "verdict": "not-relevant",
+              "reason": "Thesis on UV non-local gravity; 'no magnetic monopole' is only an assumption in a charged-source calculation (INSPIRE PDF read)."
+            },
+            {
+              "recid": "1863665",
+              "verdict": "not-relevant",
+              "reason": "Standard SL(2,Z) duality and dyons on position-space interfaces; Born geometry only in a separate T-duality chapter; no position-momentum link."
+            },
+            {
+              "recid": "3159322",
+              "verdict": "not-relevant",
+              "reason": "Wu-Yang monopole construction cited as an analogy for holomorphic sections in Calabi-Yau algebraic geometry; no physics of monopoles."
+            },
+            {
+              "recid": "2871069",
+              "verdict": "not-relevant",
+              "reason": "Wu-Yang monopole construction cited as an analogy for smoothing Calabi-Yau hypersurfaces; no physics of monopoles or duality."
+            },
+            {
+              "recid": "1827611",
+              "verdict": "not-relevant",
+              "reason": "Thesis: 'magnetically charged' NS5-type backgrounds break the Jacobi identity; lists Fourier and electromagnetic dualities separately, unrelated (INSPIRE PDF read)."
+            },
+            {
+              "recid": "2678511",
+              "verdict": "not-relevant",
+              "reason": "Flag is a regex artifact ('its duality' between position and momentum, Yang model); no electric-magnetic duality or monopoles."
+            },
+            {
+              "recid": "1347260",
+              "verdict": "not-relevant",
+              "reason": "Flag is a regex artifact ('Born's duality'); triality in cubic matrix models; no electric-magnetic duality or monopoles."
+            },
+            {
+              "recid": "1675281",
+              "verdict": "not-relevant",
+              "reason": "Topological S-duality of A/B-models (g_A = 1/g_B) in generalized geometry; no magnetic charges, no position-momentum identification."
+            },
+            {
+              "recid": "1394574",
+              "verdict": "not-relevant",
+              "reason": "'Electric-magnetic duality' only in a reference title (Harikumar 2010); paper on spectral dimension in kappa-deformed space."
+            },
+            {
+              "recid": "1731583",
+              "verdict": "not-relevant",
+              "reason": "Electric-magnetic duality and monopoles only in introductory history and references; lectures on non-abelian and Poisson-Lie T-duality."
+            },
+            {
+              "recid": "1754000",
+              "verdict": "finding",
+              "reason": "States canonical transformations of phase space play the role of electric-magnetic duality transformations; formal analogy, not the magnetic mirror (C4 related)."
+            }
+          ],
+          "findings": [
+            {
+              "conjecture": "C4",
+              "id": "1909.06240",
+              "citation": "Gabriel Lopes Cardoso and Thomas Mohaupt, \"Special geometry, Hessian structures and applications\", Phys. Rept. 855 (2020) 1; arXiv:1909.06240 (journal; review article)",
+              "relation": "related",
+              "summary": "A review of N=2 special geometry. Its §4 reformulates point-particle Lagrangians (a theorem of Cardoso, de Wit and Mahapatra 2013, arXiv:1206.0577, not read) so that the canonical coordinates (phi^i, pi_i) are twice the real parts of a symplectic vector (x^i, F_i), and says that canonical transformations on phase space, the Sp(2n,R) maps that include (phi, pi) -> (pi, -phi), play the role electric-magnetic duality transformations play in Maxwell-type theories; invariance under them is 'often called duality invariance'. Its §5 calls the split of the special real coordinates into x^I = Re X^I and y_I = Re F_I, the electric and magnetic components, 'the choice of a polarization'. This is, in print, the formal correspondence behind #11 §11.3: Born's rho and S-duality generated by the same matrix, and a duality frame as a Lagrangian polarization.",
+              "difference": "The correspondence is formal: it rewrites one particle's mechanics in special-geometry language, with the phase-space variables standing in for electric and magnetic components. It assigns no physical electric or magnetic charge to the position or the momentum polarization, puts no magnetic matter in momentum space, has no vacuum that makes both choices, and holds for any symplectic pairing, which is round 2's objection ('matrix coincidence is not physical identity') rather than support for the conjecture's physics. Useful as a checked source for the [T] half of #11 §11.3, which cites 17-dagger for the polarization language.",
+              "quotes": [
+                {
+                  "text": "In this context, canonical transformations on phase space play a similar role to electric-magnetic duality transformations in Maxwell-type theories.",
+                  "where": "§4 (Electric-magnetic duality), opening paragraph, before §4.1",
+                  "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+                },
+                {
+                  "text": "such that the canonical coordinates (\\phi^{i},\\pi_{i}) coincide with (twice) the real part of (x^{i},F_{i})",
+                  "where": "§4.1 (Point-particle models and F-functions), statement of the theorem of ref. [33]",
+                  "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+                },
+                {
+                  "text": "this subset describes a symmetry of the system. This invariance is often called duality invariance.",
+                  "where": "§4.1, after eq. (160), on Sp(2n,R) canonical transformations",
+                  "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+                },
+                {
+                  "text": "and the splitting of the q^{a} into x^{I} and y_{I} corresponds to the choice of a polarization, that is, a splitting of the symplectic vector space",
+                  "where": "§5.1 (Affine special Kaehler geometry), after eq. (233)",
+                  "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+                },
+                {
+                  "text": "where x^{I}=\\mbox{Re}(X^{I}) and y^{I}=\\mbox{Re}(F_{I})",
+                  "where": "§5.1.3, after eq. (285): the special real coordinates are the real parts of the electric and magnetic components",
+                  "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+                }
+              ],
+              "confidence": "medium"
+            }
+          ],
+          "notes": "21 flagged papers, conjectures C2, C3, C4: 20 not relevant, 1 finding (Lopes Cardoso and Mohaupt, Phys. Rept. 855 (2020) 1, C4, related). None bears on C2 or C3: every 'monopole' on the list is a position-space object (Kaluza-Klein, H- and DFT monopoles, NS5-type backgrounds, monopole distributions, effective monopole-like forces), a mathematical analogy (Wu-Yang, stereographic device, Dirac quantization) or a reference title; none treats monopoles localized in momentum, as dark matter, or the null result of monopole searches. Method: lit.py show for all 21 abstracts; lit.py text with three grep sets (monopole terms; e-m duality terms; dark matter and Born reciprocity) for the 16 arXiv papers with HTML, each hit read in context; the 3 arXiv papers without HTML (1905.06754, 1912.07089, 2108.10297) and the 2 theses without arXiv (recid 1934108, 1827611; INSPIRE fulltext PDFs) were downloaded with WebFetch and their text extracted with pdfminer, each PDF in its own folder. Notes, grep outputs and extracted texts are in work/literature-check/round2/r2-monopoles-duality/. Screen artifact: the C4 abstract regex 's.duality' matches any word ending in s before 'duality'; two of the three C4 abstract flags here came from it (Meljanac-Mignemi 2023 'its duality'; Smolin 2015 'Born's duality'). Leads outside C2-C4, not findings: Smolin 2015 (arXiv:1503.01424) obtains Born duality X -> P, P -> -X as a remnant of an SO(1,2) symmetry of a cubic matrix model and says relativistic particles and strings follow from 'breaking that basic triality ... to a duality' by choice of compactification (quotes checked FOUND), which bears on the program's hard core (broken reciprocity), not on C1-C7; Kupriyanov, Sharapov and Szabo 2023 (arXiv:2308.07406) build Born reciprocity into symplectic groupoids and obtain a compact momentum space S^3 ('a remarkable duality between the noncommutativity of spacetime and the curvature of momentum space', FOUND), which bears on the closed-universe note's compact momentum space; Alfonsi's thesis (arXiv:2108.10297, PDF) says 'The choice of polarisation in quantisation then becomes the choice of duality frame' for T-duality in DFT, a parallel to P5's polarization language that FLM already have. The primary source of the Lopes Cardoso-Mohaupt correspondence, Cardoso, de Wit and Mahapatra 2013 (arXiv:1206.0577), was not read. The nonassociative R-flux line (Bakas-Lust, Lust-Malek-Szabo, Szabo) and Harvey-Jensen's KK monopole localized in winding space, which some listed papers cite, were assessed by workflow 1 (g2, g3) and are not repeated."
+        },
+        "verify": null
+      },
+      {
+        "reader": "r3-dark-energy",
+        "read": {
+          "reader": "r3-dark-energy",
+          "items": [
+            {
+              "recid": "2967413",
+              "verdict": "not-relevant",
+              "reason": "Negative cosmological constant of a BTZ/AdS3 background; curved momentum space renormalizes the black-hole mass. No dark energy or acceleration."
+            },
+            {
+              "recid": "1789711",
+              "verdict": "finding",
+              "reason": "Born-reciprocal phase-space gravity gives late-time de Sitter and a small Λ; no conjugate collapse. Related; abstract only."
+            },
+            {
+              "recid": "1744437",
+              "verdict": "not-relevant",
+              "reason": "Λ is only the curvature parameter of κ-deformed (A)dS kinematics and momentum spaces; no cosmic dynamics."
+            },
+            {
+              "recid": "1510471",
+              "verdict": "not-relevant",
+              "reason": "Compact field-value phase space shifts a scalar field's zero-point energy; no cosmology, dark energy or conjugate universe."
+            },
+            {
+              "recid": "1415743",
+              "verdict": "not-relevant",
+              "reason": "Same nonlinear field space theory: a vacuum-energy shift, whose cosmological-constant consequences it leaves undone."
+            },
+            {
+              "recid": "1402205",
+              "verdict": "not-relevant",
+              "reason": "pc-GR gray stars: dark energy halts ordinary stellar collapse. A word collision, recorded once under 1202.6561."
+            },
+            {
+              "recid": "1303626",
+              "verdict": "not-relevant",
+              "reason": "pc-GR gray stars: dark energy halts ordinary stellar collapse. A word collision, recorded once under 1202.6561."
+            },
+            {
+              "recid": "1091066",
+              "verdict": "finding",
+              "reason": "pc-GR: dark energy gathers around masses and halts stellar collapse. Recorded as the collision for the pc-GR family."
+            },
+            {
+              "recid": "870803",
+              "verdict": "not-relevant",
+              "reason": "Vacuum-energy value from noncommutative-phase-space corrections to an oscillator's zero-point energy; no conjugate universe or acceleration."
+            },
+            {
+              "recid": "1268217",
+              "verdict": "not-relevant",
+              "reason": "pc-GR review: dark energy around masses prevents collapse. A word collision, recorded under 1202.6561."
+            },
+            {
+              "recid": "643561",
+              "verdict": "not-relevant",
+              "reason": "A closed momentum space with maximal momentum makes vacuum energy finite; no cosmic acceleration or contraction."
+            },
+            {
+              "recid": "3137722",
+              "verdict": "not-relevant",
+              "reason": "Kinematic invariant linking the de Sitter radius and the Planck length; no dynamics, dark-energy source or contraction."
+            },
+            {
+              "recid": "1337486",
+              "verdict": "not-relevant",
+              "reason": "Representations of the Snyder–de Sitter algebra; Λ is a fixed kinematic scale."
+            },
+            {
+              "recid": "789406",
+              "verdict": "not-relevant",
+              "reason": "'Cosmological constant' is the world-line reparametrization constant; the collision is recorded under 0706.3736."
+            },
+            {
+              "recid": "753956",
+              "verdict": "finding",
+              "reason": "'World-line cosmological constant' in reciprocal relativity: same words for a different thing (collision)."
+            },
+            {
+              "recid": "2778134",
+              "verdict": "finding",
+              "reason": "Journal version of 2305.12593: vacuum energy from phase-space volume (FKGLM). Related; no conjugate dynamics."
+            },
+            {
+              "recid": "2662459",
+              "verdict": "finding",
+              "reason": "Vacuum energy as momentum-space volume; the dual dimension shrinks in an expansion limit, a decoupling limit only. Related."
+            },
+            {
+              "recid": "2609897",
+              "verdict": "finding",
+              "reason": "Vacuum energy bounded by momentum-space size, which UV/IR ties to the universe's size; static. Related."
+            },
+            {
+              "recid": "1356974",
+              "verdict": "not-relevant",
+              "reason": "'Phase space' is the thermodynamic phase space; de Sitter emerges from thermodynamic fluctuations."
+            },
+            {
+              "recid": "2669772",
+              "verdict": "not-relevant",
+              "reason": "dS/CFT thesis; positive Λ is background only. Abstract read; no arXiv."
+            },
+            {
+              "recid": "2647298",
+              "verdict": "finding",
+              "reason": "Essay version of FKGLM 2022: Λ is small because the universe is large. Related."
+            },
+            {
+              "recid": "1736529",
+              "verdict": "finding",
+              "reason": "Curvature of the canonically conjugate dual space gives our Λ; static, no collapse. Partial."
+            },
+            {
+              "recid": "1487060",
+              "verdict": "not-relevant",
+              "reason": "pc-GR neutron stars; dark energy halts collapse; the pc-Robertson–Walker model only mentioned. PoS PDF read."
+            },
+            {
+              "recid": "1840422",
+              "verdict": "finding",
+              "reason": "pc-Robertson–Walker model: velocity-like partner scale factor shrinks as a_R⁻⁴, not linked to the acceleration. Related."
+            },
+            {
+              "recid": "3159191",
+              "verdict": "not-relevant",
+              "reason": "Quantum-deformed stress tensor; dark energy only as a speculative outlook and in reference titles."
+            },
+            {
+              "recid": "2808256",
+              "verdict": "not-relevant",
+              "reason": "Extended-relativity review; dark energy only as an open problem and a minimal-acceleration/maximal-length aside."
+            },
+            {
+              "recid": "3071212",
+              "verdict": "not-relevant",
+              "reason": "Kaluza–Klein dispersion relation; dark energy only in the motivation and one passing remark."
+            },
+            {
+              "recid": "1607235",
+              "verdict": "not-relevant",
+              "reason": "Sp(4,R) gravitation; dark energy only as an outlook. A lead for broken reciprocity, not for C5."
+            },
+            {
+              "recid": "1424240",
+              "verdict": "not-relevant",
+              "reason": "Minimal length and gauge invariance; dark energy only in reference titles."
+            },
+            {
+              "recid": "1707041",
+              "verdict": "not-relevant",
+              "reason": "Rainbow-like black-hole interior; dark energy mentioned once in passing."
+            },
+            {
+              "recid": "2909423",
+              "verdict": "not-relevant",
+              "reason": "Quadratic gravity and Starobinsky inflation; Λ is a free parameter and dark energy is set aside."
+            },
+            {
+              "recid": "2164109",
+              "verdict": "not-relevant",
+              "reason": "GUP/EUP and curved momentum space; dark energy only in reference titles."
+            },
+            {
+              "recid": "1785947",
+              "verdict": "not-relevant",
+              "reason": "A compact gravitational phase space makes a Λ-dominated universe recollapse; no conjugate source of acceleration."
+            },
+            {
+              "recid": "1590023",
+              "verdict": "not-relevant",
+              "reason": "Compact phase space of a quintessence/inflaton field causes late recollapse; no conjugate universe."
+            },
+            {
+              "recid": "3169277",
+              "verdict": "not-relevant",
+              "reason": "Born-reciprocal tensor network for UV/IR mixing; dark energy only in a scale-coincidence remark."
+            },
+            {
+              "recid": "2740764",
+              "verdict": "not-relevant",
+              "reason": "Lorentz covariance of quantum mechanics; dark energy only in the motivation."
+            },
+            {
+              "recid": "1934108",
+              "verdict": "not-relevant",
+              "reason": "UV non-local gravity and bounces; dark energy only in the standard introduction. Thesis PDF text read."
+            },
+            {
+              "recid": "2032186",
+              "verdict": "finding",
+              "reason": "Restates BHM 2019: a dual geometry leads to dark energy in observed spacetime. Partial."
+            },
+            {
+              "recid": "1267197",
+              "verdict": "not-relevant",
+              "reason": "Galois-field quantum theory; dark energy only as motivation and outlook."
+            },
+            {
+              "recid": "1490024",
+              "verdict": "not-relevant",
+              "reason": "Principles for quantum gravity and MOND; dark energy only in a footnote."
+            },
+            {
+              "recid": "1721746",
+              "verdict": "finding",
+              "reason": "Proposes that integrating out dual/'momentum' string modes yields de Sitter; static, a proposal. Partial."
+            },
+            {
+              "recid": "2729212",
+              "verdict": "not-relevant",
+              "reason": "Quantum-gravity phenomenology roadmap; dark energy only as cosmological input for time-delay tests."
+            },
+            {
+              "recid": "1863665",
+              "verdict": "not-relevant",
+              "reason": "F-theory and T-duality thesis; dark energy only in reference titles."
+            },
+            {
+              "recid": "1950268",
+              "verdict": "not-relevant",
+              "reason": "Random flow of time; dark energy only in a reference title. PDF read."
+            },
+            {
+              "recid": "2162187",
+              "verdict": "not-relevant",
+              "reason": "Thesis on minisuperspace symmetries; dark energy only in a reference title. PDF read."
+            },
+            {
+              "recid": "1680671",
+              "verdict": "not-relevant",
+              "reason": "Teleparallel double field theory; dark energy only in reference titles."
+            },
+            {
+              "recid": "1852838",
+              "verdict": "not-relevant",
+              "reason": "Two position-space patches exchange energy via deformed momentum brackets; the Λ emulation is Falomir et al. 2017's."
+            }
+          ],
+          "findings": [
+            {
+              "conjecture": "C5",
+              "id": "1905.09463",
+              "citation": "P. Berglund, T. Hübsch, D. Minić, \"Dark energy and quantum gravity\" (arXiv title \"On Dark Energy and Quantum Gravity\"), Int. J. Mod. Phys. D 28 (2019) 1944018, arXiv:1905.09463 (journal; Gravity Research Foundation essay)",
+              "relation": "partial",
+              "summary": "In the doubled, non-commutative (metastring, Born-geometric) phase-space formulation of string theory, the dual coordinates x̃, the difference of left- and right-movers, span what the authors call 'the canonically conjugate dual space'. Integrating the doubled action −∫√−g(x)√−g̃(x̃)[R(x) + R̃(x̃)] (Tseytlin's form) over x̃ makes the size of the dual space set Newton's constant, and its curvature set a positive cosmological constant in the observed spacetime: the dual space's curvature 'provides for the dark energy'. The paper argues that non-commutativity stabilizes Λ, through the Grosse–Wulkenhaar solvability of non-commutative Φ⁴. It makes the same claim as the authors' Phys. Lett. B 798 (2019) 134950 (arXiv:1905.08269), which the C5 search group labeled partial. The record already quotes the same claim from BHM 2023 (arXiv:2212.06086) in papers/phase-space-diameter.md §4, for the self-dual length, and does not compare it with C5.",
+              "difference": "The attribution is static. Our Λ is the x̃-integrated curvature term of the dual space, not the contents of a contracting conjugate universe. Nothing contracts or collapses, and there is no a·ã = 1 dynamics, no dual-frame fluid and no w_eff = −w̃ dictionary. The two treatments assign the dual Einstein–Hilbert term differently: here it gives Λ, while #11 §10 makes the dual Einstein term an a⁻⁶ step in G_eff and maps dual curvature to negative dark radiation. That step is itself not derived (flag 49), and BHM's x̃-integration bears on it. BHM's dual space is the metastring's T-dual x̃ space, canonically conjugate to x; it is not the momentum-space description of one state selected by a spontaneously broken polarization.",
+              "quotes": [
+                {
+                  "text": "the curvature of the canonically conjugate dual space provides for the dark energy inducing a positive cosmological constant in the observed spacetime, whereas the size of the above dual space is the gravitational constant in the same observed de Sitter spacetime",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "Essentially, the curvature of the dual space is the cosmological constant in the observed spacetime, and the size of the dual space is the gravitational constant in the same observed spacetime.",
+                  "where": "full text, concluding paragraph",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1905.09463))"
+                },
+                {
+                  "text": "the canonically conjugate dual space, spanned by the difference of the left- and right-movers",
+                  "where": "full text, setup of the doubled formulation",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1905.09463))"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C5",
+              "id": "1902.08617",
+              "citation": "P. Berglund, T. Hübsch, D. Minić, \"On Stringy de Sitter Spacetimes\", JHEP 12 (2019) 166, arXiv:1902.08617 (journal)",
+              "relation": "partial",
+              "summary": "The paper's main content is a family of 3+1-dimensional de Sitter solutions in F-theory with an anisotropic axion-dilaton background. Its synopsis proposes that integrating over the 'dual/\"momentum\" string degrees of freedom' of the phase-space (metastring) formulation will naturally produce an effective de Sitter background, through an induced anisotropic dilaton profile whose anisotropy carries the positive cosmological constant. The authors present this as a proposal with 'some evidence ... but not a detailed proof'. It is the earliest of the three 2019 Berglund–Hübsch–Minić statements that our positive Λ comes from the dual sector (arXiv, February 2019).",
+              "difference": "It is a proposal, not a derivation, and it is static: the positive Λ comes from integrating out dual degrees of freedom, not from a contracting or collapsing conjugate universe. There is no a·ã = 1, no dual-frame fluid and no w_eff = −w̃. The de Sitter of the paper's actual solution comes from an anisotropic axion-dilaton profile in F-theory.",
+              "quotes": [
+                {
+                  "text": "In that formulation, we can integrate over such dual/“momentum” string degrees of freedom in order to generate an effective spacetime description.",
+                  "where": "full text, section 1 (Introduction, Results and Synopsis), 'The Main Point'",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1902.08617))"
+                },
+                {
+                  "text": "Our proposal (for which we have some evidence from our solution, but not a detailed proof, as discussed in what follows) is that this procedure will naturally lead to an effective de Sitter background",
+                  "where": "full text, section 1, 'The Main Point'",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1902.08617))"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "2202.06890",
+              "citation": "P. Berglund, L. Freidel, T. Hübsch, J. Kowalski-Glikman, R. G. Leigh, D. Mattingly, D. Minic, \"Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation\", arXiv:2202.06890 (2022); Snowmass 2021 contribution, arXiv preprint only",
+              "relation": "partial",
+              "summary": "This white paper restates the Berglund–Hübsch–Minić claim in one sentence, citing BHM 2019 (Phys. Lett. B 798 134950; Int. J. Mod. Phys. D 28 1944018). To leading order in the minimal length one gets a dual geometry, 'which in the observed spacetime leads to \"dark energy\", modeled as a positive cosmological constant'. Its co-authors include Freidel, Leigh and Kowalski-Glikman. The dark-matter reader records its C1 clause (each observed field's dual as dark matter) separately.",
+              "difference": "It is a citation summary of BHM 2019 and adds nothing new for C5. The same differences apply: a static dual geometry gives a positive Λ, with no contraction, collapse, a·ã = 1 or w_eff = −w̃.",
+              "quotes": [
+                {
+                  "text": "Similarly, in the gravitational setting one gets, to leading order in the minimal length, a dual geometry, which in the observed spacetime leads to “dark energy”, modeled as a positive cosmological constant",
+                  "where": "full text, introduction",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2202.06890))"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "2212.00901",
+              "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"Vacuum energy density and gravitational entropy\", Phys. Rev. D 107 (2023) 126016, arXiv:2212.00901 (2022) (journal)",
+              "relation": "related",
+              "summary": "The paper rewrites the regularized vacuum energy as a sum over elementary phase-space cells (modular regularization). It bounds the vacuum energy density by the size of the regulated momentum space, which UV/IR mixing at fixed cell number N ties inversely to the size of spacetime. Equating N with the entropy of the de Sitter horizon gives ρ ≲ ħ/(ℓ²ℓ_P²), consistent with the observed value: 'the smallness of the vacuum energy is tied to the large size of the Universe'. The record cites this paper and the companion essay in papers/phase-space-diameter.md §4, for the self-dual length and the inverse relation of the cutoffs, not for C5.",
+              "difference": "This is a counting argument for the size of a constant vacuum energy, not a dynamical source of acceleration. Its 'momentum space' is the momentum range of vacuum fluctuations (the cutoff), not a conjugate description of the universe with its own scale factor and contents. Nothing contracts or collapses, and there is no dual-frame fluid and no w_eff = −w̃. The only shared theme is that dark energy is set on the momentum-space side, and that this side is small because the universe is large. The C5 search group read FKGLM 2022/2023 and judged them not relevant to C5; this reader records them as related, with low confidence.",
+              "quotes": [
+                {
+                  "text": "Essentially, the smallness of the vacuum energy is tied to the large size of the Universe.",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "Heuristically one can say that the holographic bound on entropy precludes the size of momentum space (and thus effectively its cutoff) being as large as EFT assumes.",
+                  "where": "full text, introduction",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2212.00901))"
+                },
+                {
+                  "text": "Having tied the vacuum energy density to the size of the cosmological horizon, this problem may be resolved as well.",
+                  "where": "full text, discussion",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2212.00901))"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "2303.17495",
+              "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"On the inevitable lightness of vacuum\", Int. J. Mod. Phys. D 32 (2023) 2342004, arXiv:2303.17495 (journal; essay)",
+              "relation": "related",
+              "summary": "This is the essay version of FKGLM 2022, and the record already cites it with that paper (papers/phase-space-diameter.md §4). The regularized vacuum energy density scales as the volume of energy–momentum space. A UV–IR regularization combined with the holographic entropy bound makes the cosmological constant small 'because the universe is filled with a large number of degrees of freedom'.",
+              "difference": "The same as for FKGLM 2022: the size of a constant vacuum energy is fixed by counting phase-space cells. There is no conjugate universe, no contraction or collapse, and no dictionary.",
+              "quotes": [
+                {
+                  "text": "It follows that the universe is large, and the cosmological constant is naturally small, because the universe is filled with a large number of degrees of freedom.",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "the regularized vacuum energy density scales as the volume of energy-momentum space",
+                  "where": "full text",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2303.17495))"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "2305.12593",
+              "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", arXiv:2305.12593 (2023), conference talk (BASIC 2023); published as Bulg. J. Phys. 51 (2024) 060",
+              "relation": "related",
+              "summary": "The talk summarizes the FKGLM account: the vacuum energy density is the volume of energy–momentum space, bounded through the Bekenstein bound by 1/(l²l_P²), which gives the see-saw length √(l l_P). It also states that the modular cell can be rescaled as x → a x, p → a⁻¹ p, and that in the limit of large expansion a → ∞ 'the dual dimension shrinks to zero and one recovers the usual spacetime'. That is a kinematic analogue of founding supposition 6 (a·ã = 1), used here for the decoupling limit to ordinary spacetime.",
+              "difference": "The same as for FKGLM 2022. The shrinking dual dimension is a decoupling limit of the modular cell, not the contraction of a conjugate universe in time, and it is tied neither to the acceleration nor to dark energy.",
+              "quotes": [
+                {
+                  "text": "a new understanding of the cosmological constant problem, which essentially relies on a phase-space-like computation of the vacuum energy",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "the dual dimension shrinks to zero and one recovers the usual spacetime",
+                  "where": "full text, section on modular spacetime",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2305.12593))"
+                },
+                {
+                  "text": "the size of the volume of the energy-momentum space is",
+                  "where": "full text, section on modular spacetime",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2305.12593))"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "recid:2778134",
+              "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", Bulg. J. Phys. 51 (2024) 060, doi:10.55318/bgjp.2024.51.1.060 (journal; write-up of a conference talk; arXiv version 2305.12593)",
+              "relation": "related",
+              "summary": "This is the journal version of arXiv:2305.12593, with the same abstract: a phase-space-like computation of the vacuum energy (FKGLM) together with the Bekenstein bound. Only the abstract was read here; the passages are quoted under 2305.12593.",
+              "difference": "The same as for 2305.12593: the size of a constant vacuum energy comes from phase-space counting, with no conjugate universe, contraction or collapse.",
+              "quotes": [
+                {
+                  "text": "This talk summarizes a new understanding of the cosmological constant problem, which essentially relies on a phase-space-like computation of the vacuum energy",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "recid:1789711",
+              "citation": "C. Castro Perelman, \"Born's Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant\", Annals Phys. 416 (2020) 168143, doi:10.1016/j.aop.2020.168143 (journal; not on arXiv)",
+              "relation": "related",
+              "summary": "The paper treats gravity on the curved phase space (the cotangent bundle, in Finsler geometry) of Born's reciprocal relativity. A scalar-gravity model has exact solutions in which the base spacetime and the internal momentum space are both (anti-)de Sitter, and the abstract says they 'capture the very early inflationary and very-late-time de Sitter phases'. Regularizing the 8-dimensional phase-space action gives a tiny effective cosmological constant, which the field equations correlate with a tiny four-dimensional Λ. Only the abstract was read. The paper is not on arXiv, its full text is paywalled, and WebSearch found no free copy.",
+              "difference": "The abstract alone shows the late-time de Sitter phase and the small Λ coming from solutions and a regularization of phase-space gravity. It indicates no contracting momentum-space universe acting on ours, no dual-frame fluid and no w_eff = −w̃. Momentum space is the fibre of the cotangent bundle with a fixed (A)dS curvature, not a conjugate description of the universe's state. The full text might qualify this.",
+              "quotes": [
+                {
+                  "text": "The curved base spacetime manifold and internal momentum space both turn out to be (Anti) de Sitter type.",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "The most salient feature is that the solutions capture the very early inflationary and very-late-time de Sitter phases of the Universe.",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "A regularization of the 8-dim phase space action leads naturally to an extremely small effective cosmological constant",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "2101.04152",
+              "citation": "P. O. Hess, \"Observable consequences of pseudo-complex General Relativity\", arXiv:2101.04152 (2021), arXiv preprint (no journal found in INSPIRE or Crossref)",
+              "relation": "related",
+              "summary": "Pseudo-complex general relativity (pc-GR) starts from Born's point that quantum mechanics treats coordinates and momenta on an equal footing. It extends the coordinates to X = x + I y, with y_μ = A l u_μ, a minimal length times the four-velocity (the Born–Caianiello velocity-space part). In the pc-Robertson–Walker model (§4.5) the scale factor becomes a = a_R + I a_I, and to leading order a_I = l ȧ_R(0)/a_R⁴: the velocity-like partner shrinks as our scale factor grows ('it continues to be even smaller for larger times'). The paper ties the growth of a_I toward the Big Bang to 'a dominance of the dark energy' there. It obtains today's acceleration from a dark-energy density Λ a_R^{3(β−1)}, which for β = 1 is a cosmological constant.",
+              "difference": "The two elements of C5 appear in one model but are not linked as C5 links them. The shrinking partner a_I is not the source of the late acceleration, which comes from the dark-energy density Λ a_R^{3(β−1)} (constant for β = 1), and its influence runs the other way: large a_I goes with dark-energy dominance near the Big Bang. Its law is a_I ∝ a_R⁻⁴, not a·ã = 1, and there is no conjugate matter, no collapse and no w_eff = −w̃. The pseudo-imaginary part is velocity space in Caianiello's sense, not a spontaneously selected polarization.",
+              "quotes": [
+                {
+                  "text": "M. Born approached a conceptional problem, namely that in Quantum Mechanics coordinates and momenta are treated on an equal footing, while in GR coordinates are predominant.",
+                  "where": "full text, section 1 (Introduction)",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+                },
+                {
+                  "text": "variables can be identified, for the case of a flat space, by",
+                  "where": "full text, section 4 (general properties of the y-components)",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+                },
+                {
+                  "text": "which is extremely small, and it continues to be even smaller for larger times",
+                  "where": "full text, section 4.5 (Cosmology: The Robertson-Walker Model)",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+                },
+                {
+                  "text": "explodes and becomes infinite very near to the big bang, implying a dominance of the dark energy",
+                  "where": "full text, section 4.5",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+                },
+                {
+                  "text": "after which the acceleration becomes positive, as observed today",
+                  "where": "full text, section 4.5",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C5",
+              "id": "1202.6561",
+              "citation": "G. Caspar, T. Schönenbach, P. O. Hess, M. Schäfer, W. Greiner, \"Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions\", Int. J. Mod. Phys. E 21 (2012) 1250015, arXiv:1202.6561 (journal)",
+              "relation": "collision",
+              "summary": "In pc-GR, a theory with Born–Caianiello-motivated pseudo-complex coordinates whose length element the paper says 'is equal to the one used by M. Born', the modified variational principle adds a term 'interpreted as dark energy'. That term accumulates around a central mass and halts gravitational collapse, so a 'gray star' forms instead of a black hole. Four other pc-GR papers on this reading list use the same wording: recid 1268217 (Int. J. Mod. Phys. D 19, 2010), 1303626 (2013 chapter), 1402205 (Springer Proc. Phys. 170, 2016), whose abstract reads 'a collapsing mass increasingly accumulates dark energy until the collapse is stopped', and 1487060 (PoS FFP14 036). A search for 'collapse', 'dark energy' and 'Born' meets them.",
+              "difference": "Only the words coincide. The collapse is ordinary stellar collapse in position space, and the dark energy resists it. Nothing concerns a conjugate universe or the cosmic acceleration.",
+              "quotes": [
+                {
+                  "text": "It is shown, that the pc-GR introduces automatically terms into the system which can be interpreted as dark energy.",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "The energy accumulates around a central mass and halts the collapse of a big star.",
+                  "where": "full text, section 1 (Introduction)",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1202.6561))"
+                },
+                {
+                  "text": "is equal to the one used by M. Born and related theories",
+                  "where": "full text, section 2",
+                  "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1202.6561))"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C5",
+              "id": "0706.3736",
+              "citation": "J. Govaerts, P. D. Jarvis, S. O. Morgan, S. G. Low, \"World-line quantisation of a reciprocally invariant system\", J. Phys. A 40 (2007) 12095, arXiv:0706.3736 (journal)",
+              "relation": "collision",
+              "summary": "In Low's reciprocal relativity (quaplectic group), 'cosmological constant' is the world-line cosmological constant, the constant in the reparametrization constraint of a particle action. The constraint identifies it with a fixed value of the quaplectic Casimir. The sequel, Jarvis and Morgan, J. Phys. A 41 (2008) 465203 (arXiv:0806.4794, recid 789406, also on this list), uses the term the same way. A search for 'reciprocal relativity' with 'cosmological constant' meets both.",
+              "difference": "Only the words coincide. The world-line cosmological constant has nothing to do with the cosmic expansion, dark energy or a conjugate universe.",
+              "quotes": [
+                {
+                  "text": "Imposition of the first class constraint, the generator of local time reparametrisations, on physical states enforces identification of the world-line cosmological constant with a fixed value of the quadratic Casimir of the quaplectic symmetry group",
+                  "where": "abstract",
+                  "check": "lit.py quote: FOUND (abstract)"
+                }
+              ],
+              "confidence": "medium"
+            }
+          ],
+          "notes": "47 flagged papers, conjecture C5: 11 findings, 36 not relevant, 0 unavailable. No paper states C5. None has a conjugate (momentum-space or dual) universe whose contraction or collapse drives our accelerated expansion, and none uses a dual-frame fluid or a w_eff = −w̃ dictionary. The closest on this list is the Berglund–Hübsch–Minić line (1905.09463 partial, medium; 1902.08617 and the Snowmass restatement 2202.06890 partial, low): the x̃-integrated curvature of the 'canonically conjugate dual space' is our Λ. That is static, with no collapse, and it assigns the dual Einstein–Hilbert term differently from #11 §10, which bears on flag 49. The record already quotes BHM 2023's version of the claim (papers/phase-space-diameter.md §4, for the self-dual length) without comparing it with C5. Related, low: the FKGLM vacuum-energy line (2212.00901, 2303.17495, 2305.12593, recid 2778134; the C5 search group judged FKGLM not relevant, a deliberate disagreement); Castro Perelman 2020 (abstract only); Hess 2021 pc-Robertson–Walker model (velocity-like partner scale factor a_I ∝ a_R⁻⁴, not linked to the acceleration). Collisions: pc-GR 'collapse ... dark energy' (gray stars; one entry, 1202.6561, for the family of five) and the world-line 'cosmological constant' of reciprocal relativity (0706.3736; sequel 0806.4794). Method: lit.py show for all 47; lit.py text with three greps (dark energy/acceleration; contract|collaps|shrink; dual/conjugate/momentum-space universe terms) on the 38 arXiv ids, each cosmology hit read in context. PDFs: 2110.11343, 2211.04909 and PoS FFP14 036 fetched with WebFetch and read with a stdlib-only extractor, each in its own folder. The Maheshwari thesis was read from the r2 reader's extracted text. Abstract only: recid 1789711, 1402205, 1303626, 1268217, 870803, 2669772, 2778134. All 27 reported quotes FOUND by lit.py quote, and each finding passes recheck.py's identifier, title, author and year checks (scripts/recheck_out.py). Leads outside C5, not findings: Toller 2017 (1706.07470), a spontaneously broken 'augmented Lorentz covariance' (Born reciprocity its first example) with Goldstone fields proposed to replace dark energy and dark matter, a lead for the hard core and τ; Moffat 2004 (gr-qc/0401117), Einstein-type field equations for a momentum-space metric, a lead for founding supposition 10; Artigas, Crowe, Mielczarek 2020 (2003.08129), a compact phase space making a Λ universe recollapse, a follow-up to the closed-universe lead Artigas–Mielczarek–Rovelli 2019; 2202.06890's C1 clause, already recorded by the dark-matter reader. Notes, greps, extracted texts and the quote checks are in work/literature-check/round2/r3-dark-energy/."
+        },
+        "verify": {
+          "verdicts": [
+            {
+              "id": "1905.09463",
+              "conjecture": "C5",
+              "claimed_relation": "partial",
+              "verified_relation": "related",
+              "metadata_ok": true,
+              "quotes_ok": "3/3 FOUND (lit.py quote, rerun by the verifier): Q1 in the abstract, Q2 in the concluding paragraph, Q3 in footnote 4 (not the main-text setup the finding names).",
+              "reason": "Downgraded to related. Metadata: INSPIRE and Crossref give 'Dark energy and quantum gravity', Berglund, Hübsch, Minić, Int. J. Mod. Phys. D 28 (2019) 1944018, doi:10.1142/S0218271819440188. The arXiv title is 'On Dark Energy and Quantum Gravity'; the arXiv journal-ref field's article number '1902003' is wrong, and the DOI gives 1944018. The full text says the essay 'received an honorable mention in the Gravity Research Foundation 2019' competition. Venue: journal. Reading (whole text, 23k characters): to lowest order the doubled action is S_d = -∫√-g(x)√-g̃(x̃)[R(x) + R̃(x̃)], which the authors credit to Tseytlin 1991 ('a result which first was obtained almost three decades ago'). In that commutative limit the x̃-integration gives G_N from the dual space's size and Λ > 0 from its curvature. The summary is accurate, except that the Grosse–Wulkenhaar step is weaker than 'argues that non-commutativity stabilizes Λ': the text offers 'an encouraging indication' that holds 'in this highly simplified, conformal degree limit', where non-commutativity 'can afford' a stable Λ. Why not partial: C5 claims that the conjugate universe's contraction (collapse) drives our acceleration, through contents that are kinetic-dominated as it contracts (dual stiff ↦ Λ under w_eff = −w̃). The essay attributes our Λ statically, to the x̃-integrated curvature of a dual space whose size fixes G. Nothing in its full text contracts, collapses, shrinks or depends on time, and it has no dual-frame fluid. The mechanism is neither one of C5's forms nor a close variant: #11 §10 maps dual curvature to negative dark radiation and the dual Einstein term to an a⁻⁶ step in G_eff, so BHM's assignment is a rival dictionary entry. It bears on flag 49, not on C5's route. What the essay shares with C5 is the theme: dark energy sourced by the canonically conjugate (T-dual, momentum-like) space of a Born-geometric formulation. Consistency: the finding cites the C5 search group's 'partial' for the twin paper arXiv:1905.08269, which makes the same claim in the same sentence on the dual space's size and curvature. It omits that workflow 1's C5 verifier downgraded that label to related on this ground (g4-collapse-acceleration/verify.json), and the two essays should carry one label. The finding's statements about the record are correct: papers/phase-space-diameter.md §4 (line 87) and the wiki page self-dual-cosmic-box quote BHM 2023's version of the claim for the self-dual length, and no file outside work/ compares BHM with C5."
+            },
+            {
+              "id": "1902.08617",
+              "conjecture": "C5",
+              "claimed_relation": "partial",
+              "verified_relation": "related",
+              "metadata_ok": true,
+              "quotes_ok": "2/2 FOUND (lit.py quote, rerun by the verifier). The location is wrong: 'The Main Point' is a run-in paragraph at the end of Section 2 (The Iterative Deformation Models), after '4 Dimensions', not in Section 1.",
+              "reason": "Downgraded to related. Metadata: INSPIRE and Crossref agree on 'On Stringy de Sitter Spacetimes', Berglund, Hübsch, Minić, JHEP 12 (2019) 166, doi:10.1007/JHEP12(2019)166, posted to arXiv in February 2019. Venue: journal. Reading: the paper's Λ > 0 comes from the anisotropy ω of an F-theory axion-dilaton background (its eq. 8, Λ_b ∝ ω² − ω²_GCB). The dual sector enters only through a proposal, 'for which we have some evidence from our solution, but not a detailed proof': integrating over the dual/'momentum' string degrees of freedom would induce that anisotropic dilaton profile, and 'the degree of anisotropy captures a positive cosmological constant of our solution'. The paper identifies no property of the dual space with our dark energy. Of the doubled target space it says only that the two factors 'may well have different —and presumably complementary— metric properties, the study of which we defer for now'. The identification of the dual space's curvature with Λ comes three months later, in arXiv:1905.08269 and 1905.09463, and those are themselves related for C5 (static, with no contraction or collapse). Nothing in this paper contracts or collapses either. 'Dual/momentum' is a genuine match, not a word collision: Section 3 ties the left-minus-right modes to the 'canonically conjugate/dual Schrödinger center-of-mass operators' and to the need 'to (re)incorporate the “momentum” space' into the target space. The paper shares C5's theme at one remove and states no central part of the conjecture. The finding's 'earliest of the three 2019 BHM statements' is right by date. BHM themselves credit the doubled action behind the later statements to Tseytlin (INSPIRE 1990; Phys. Rev. Lett. 66 (1991) 545)."
+            },
+            {
+              "id": "2202.06890",
+              "conjecture": "C5",
+              "claimed_relation": "partial",
+              "verified_relation": "related",
+              "metadata_ok": true,
+              "quotes_ok": "1/1 FOUND (lit.py quote, rerun by the verifier), in the 'Observations:' paragraph. Its references [43] and [44] are BHM, Phys. Lett. B 798 (2019) 134950 and Int. J. Mod. Phys. D 28 (2019) 1944018, as the finding says.",
+              "reason": "Downgraded to related. Metadata: INSPIRE (recid 2032186) and the arXiv API agree on the title, the seven authors and the year (arXiv v1, 14 Feb 2022; the paper's header reads 'Snowmass 2022'). INSPIRE lists it as a conference paper with no journal or DOI, the arXiv API shows no journal-ref, and Crossref finds no journal version, so it is an arXiv preprint only, as the finding says. The C1 verifier (round2/r1-dark-matter.verify.json) reached the same venue. Reading: the C5-relevant text is one sentence. Citing BHM 2019, it restates that 'to leading order in the minimal length' one gets 'a dual geometry, which in the observed spacetime leads to “dark energy”, modeled as a positive cosmological constant'. This is static, with no contraction, collapse, a·ã = 1 or w_eff = −w̃. A restatement cannot stand closer to C5 than the BHM papers it summarizes, and those are related. The finding's own 'difference' already says that it adds nothing for C5. Its C1 clause (each observed field's dual as dark matter) is a separate matter, which the dark-matter verifier confirmed as partial for C1."
+            }
+          ],
+          "notes": "Verifier for round2/r3-dark-energy (C5). Read BRIEF.md, the C5 wiki page (wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md), and #11 §10 and App. A item 9 first. Identifiers: all three resolve (lit.py show, with Crossref for the two DOIs, and the arXiv API for titles and journal-refs); titles, authors, years and venues match the citations. Quotes: the reader's 6 are all FOUND, and the 10 further quotes the reasons rely on are all FOUND (round2/r3-dark-energy-verify/quotes.out and quotes-verifier.out). Full texts read: 1905.09463 whole, 2202.06890 whole, and in 1902.08617 Sections 1–4 as they bear on the dual sector. Verdicts: all three are downgraded from partial to related. Rule applied, reached independently and the same as workflow 1's C5 verifier (g4-collapse-acceleration/verify.json, which downgraded the twin 1905.08269, Hur et al. 2025 and Bolognesi on this ground): for C5, partial needs a dual or conjugate description and an explicit link between its contraction or collapse and accelerated expansion; dark energy from the dual side alone is related. Upward check: no BHM text has a contracting dual. Full-text greps of 1905.09463, 1905.08269, 1902.08617, 2202.06890, 2010.15610 and 2212.06086 (the 377k-character 2023 review) find no contraction, collapse, shrinking or time dependence of the dual space. In 2010.15610, 'dark energy is generated by the dynamical geometry of the dual spacetime' means that the dual metric is dynamical, not that it contracts. Errors in the findings: (1) the 1905.09463 entry supports its label with the C5 search group's 'partial' for 1905.08269 and omits that the C5 verifier downgraded it; (2) the 1902.08617 quotes sit in Section 2, not Section 1; (3) the third 1905.09463 quote is in footnote 4; (4) 'argues that non-commutativity stabilizes Λ' overstates a hedged 'encouraging indication' in a conformal-metric simplification. Merge: the three entries and workflow 1's 1905.08269 are one claim and should be one entry for the BHM line, all related: 1905.08269 primary, 1905.09463 its essay twin, 1902.08617 its proposal precursor, 2202.06890 a restatement. For how the program states what is new: 'related' does not mean the attribution has no prior art. That our dark energy comes from the dual (canonically conjugate) space of a doubled, Born-geometric formulation is published in the BHM 2019 papers and restated in 2020, 2022 and 2023, with Tseytlin 1990/91 as the precursor that BHM credit for the doubled action. Tseytlin's abstract concerns the Λ-independence of S/V, not dual curvature as Λ, so that reading may be BHM's own. A novelty statement for C5 should name this lineage and claim only the collapse route (a contracting conjugate universe with kinetic-dominated contents, dual stiff ↦ Λ). Flag 49 pointer: BHM's x̃-integration of a factorized doubled action assigns the dual Einstein–Hilbert term to Λ, while #11 §10 assigns the dual Einstein term to an a⁻⁶ step in G_eff. The setups differ (an independent dual metric g̃(x̃) integrated out, against a dual description tied by a·ã = 1), so this bears on flag 49 but does not decide it. Output written to work/literature-check/round2/r3-dark-energy.verify.json (generator: round2/r3-dark-energy-verify/make_verify.py)."
+        }
+      },
+      {
+        "reader": "r4-triage",
+        "read": {
+          "reader": "r4-triage",
+          "items": [
+            {
+              "recid": "2826029",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Quantum-conditioned curvatures in Finsler–Hamilton geometry; no clumping, velocity structure or dark matter."
+            },
+            {
+              "recid": "2647891",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. pc-GR minimal length near black-hole horizons; 'accumulation of mass' concerns small black holes."
+            },
+            {
+              "recid": "2064400",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. pc-GR minimal length near small black holes; full text: local dark energy, maximal acceleration only."
+            },
+            {
+              "recid": "1810209",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Relativistic spin systems, DBI k-essence; full-text hits are condensed matter, BEC, a generic dark-energy remark."
+            },
+            {
+              "recid": "1708468",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Generalized algebra with three fundamental constants and quantum measurement; nothing on C5–C7."
+            },
+            {
+              "recid": "1625396",
+              "verdict": "finding",
+              "reason": "Born–Kothari condensation: fermions condense at the highest momentum, from Born reciprocity; C6 related, theme only."
+            },
+            {
+              "recid": "1515614",
+              "verdict": "finding",
+              "reason": "Born–Kothari condensation as a consequence of Born's reciprocity; ideal Fermi gas, no dark matter or attraction; C6 related."
+            },
+            {
+              "recid": "1402202",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Strong-field tests of pc-GR (redshift, orbital frequency, ISCO)."
+            },
+            {
+              "recid": "1091066",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. pc-GR repulsive 'dark energy' near masses prevents stellar collapse; local, no cosmic acceleration (C5 checked)."
+            },
+            {
+              "recid": "263891",
+              "verdict": "not-relevant",
+              "reason": "'Four-velocity space' in a maximal-proper-acceleration phase-space bundle; no clumping or velocity-gated force."
+            },
+            {
+              "recid": "2837618",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. κ-Minkowski decoherence of relic neutrinos; Born reciprocity only via curved momentum space."
+            },
+            {
+              "recid": "1861365",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'conjugated'. Twistorial DSR Hopf algebras; Λ appears only as a geometric parameter."
+            },
+            {
+              "recid": "1844365",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'Bose-Einstein condensates', named only as an application area of time-operator quantization."
+            },
+            {
+              "recid": "1731275",
+              "verdict": "not-relevant",
+              "reason": "Compact minisuperspace phase space makes de Sitter recollapse; no conjugate sector drives acceleration; already a closed-universe lead."
+            },
+            {
+              "recid": "1652949",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Thesis on Snyder geometry: orbits, path integrals, Snyder–de Sitter algebra."
+            },
+            {
+              "recid": "656632",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Quaplectic-group Casimir field equations; full PDF text has nothing on C5–C7."
+            },
+            {
+              "recid": "539125",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'conjugated momenta'. DFR quantum-spacetime particle model; nothing on C5–C7."
+            },
+            {
+              "recid": "143502",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Relativistic bilocal oscillator model of mesons."
+            },
+            {
+              "recid": "8932",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Higher-derivative field equations and convergence."
+            },
+            {
+              "recid": "3215102",
+              "verdict": "finding",
+              "reason": "Flag from 'investigated'; nothing on C6/C7. Restates the dual-spacetime origin of dark energy (C5) and the dual matter sector (C1)."
+            },
+            {
+              "recid": "1794369",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Poisson–Lie T-duality of the SU(2) principal chiral model."
+            },
+            {
+              "recid": "1723310",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. T-dualities and Born geometries of the principal chiral model."
+            },
+            {
+              "recid": "2706939",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Bianchi I string cosmology in f(R) gravity; no velocity structure or conjugate sector."
+            },
+            {
+              "recid": "1704175",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Hopf-algebroid quantum phase spaces with spin; full text has none of the subject terms."
+            },
+            {
+              "recid": "1746191",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Thesis on quantum-spacetime symmetries, dimensional flow and GRB in-vacuo dispersion."
+            },
+            {
+              "recid": "1665704",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Doubled geometry of the rigid rotator; nothing on C5–C7."
+            },
+            {
+              "recid": "1119918",
+              "verdict": "not-relevant",
+              "reason": "Flag from 'investigated'. Curved phase-space gravity; one-line remark that two-times physics may explain dark matter (C1 theme)."
+            },
+            {
+              "recid": "2943925",
+              "verdict": "not-relevant",
+              "reason": "Maximal proper force and acceleration of a quantum particle; unrelated to cosmic acceleration."
+            },
+            {
+              "recid": "2032179",
+              "verdict": "not-relevant",
+              "reason": "Maximal acceleration in DFR non-commutative spacetime; no cosmology."
+            },
+            {
+              "recid": "1863738",
+              "verdict": "not-relevant",
+              "reason": "Maximal acceleration and reciprocity motivate nonlocal infinite-derivative gravity; no dark energy or cosmic acceleration."
+            },
+            {
+              "recid": "1812235",
+              "verdict": "not-relevant",
+              "reason": "Review; its cosmic acceleration is CCGG torsion/quadratic-curvature gravity ('canonical' = Hamiltonian formalism), not Born momentum space."
+            },
+            {
+              "recid": "1753282",
+              "verdict": "not-relevant",
+              "reason": "Vacuum fluctuations near a Kerr black hole treated as dark energy; local, no cosmic acceleration."
+            },
+            {
+              "recid": "1734187",
+              "verdict": "not-relevant",
+              "reason": "pc-GR dark-energy fluid accumulating near large masses; EHT predictions; full text has no cosmology."
+            },
+            {
+              "recid": "1616548",
+              "verdict": "not-relevant",
+              "reason": "pc-GR status; dark energy as vacuum fluctuations near masses (QPOs, accretion discs)."
+            },
+            {
+              "recid": "1358474",
+              "verdict": "not-relevant",
+              "reason": "Clifford-gravity cosmology; dark energy/matter candidates from 16 Cl(3,1) scalars; no conjugate or momentum-space sector."
+            },
+            {
+              "recid": "1233586",
+              "verdict": "not-relevant",
+              "reason": "Extended relativity with a maximal acceleration of clocks; unrelated to cosmic acceleration."
+            },
+            {
+              "recid": "1080690",
+              "verdict": "not-relevant",
+              "reason": "Cl(3,2) gauge gravity cancelling a large cosmological constant; no conjugate sector or collapse."
+            },
+            {
+              "recid": "882262",
+              "verdict": "not-relevant",
+              "reason": "Accelerated particles as conformal coherent states, vacuum radiation; one generic vacuum-energy remark."
+            },
+            {
+              "recid": "859877",
+              "verdict": "not-relevant",
+              "reason": "Born reciprocity adapted to conformal relativity; maximal acceleration; no cosmology."
+            },
+            {
+              "recid": "660789",
+              "verdict": "not-relevant",
+              "reason": "Particle dynamics with maximal acceleration; unrelated to cosmic acceleration."
+            },
+            {
+              "recid": "634307",
+              "verdict": "not-relevant",
+              "reason": "Geometries of maximal acceleration; unrelated to cosmic acceleration."
+            },
+            {
+              "recid": "601536",
+              "verdict": "not-relevant",
+              "reason": "Maximal-acceleration relativity in phase space; passing remark on a Λ-dominated model; no conjugate collapse."
+            },
+            {
+              "recid": "589953",
+              "verdict": "not-relevant",
+              "reason": "Born–Infeld kinematics, maximal acceleration and the Thomas precession."
+            },
+            {
+              "recid": "583888",
+              "verdict": "not-relevant",
+              "reason": "Born–Infeld kinematics with maximal acceleration; no cosmology."
+            },
+            {
+              "recid": "263890",
+              "verdict": "not-relevant",
+              "reason": "No abstract or text found; title and Brandt's identically titled paper (recid:263891) concern maximal particle acceleration."
+            },
+            {
+              "recid": "2905801",
+              "verdict": "not-relevant",
+              "reason": "Quantum batteries; flag from 'accelerating the charging processes'."
+            },
+            {
+              "recid": "2781257",
+              "verdict": "not-relevant",
+              "reason": "Field-mode vacuum instability in accelerating FLRW as dark energy; no conjugate universe; Born 1949 cited incidentally."
+            },
+            {
+              "recid": "2728901",
+              "verdict": "not-relevant",
+              "reason": "Bound on the acceleration of quantum evolution in projective Hilbert space; 'cosmic jerk' only as terminology."
+            },
+            {
+              "recid": "2823040",
+              "verdict": "not-relevant",
+              "reason": "DKP oscillator with the Snyder–de Sitter algebra; Λ only as an algebra constant."
+            },
+            {
+              "recid": "2033566",
+              "verdict": "not-relevant",
+              "reason": "pc-GR overview; dark energy accumulating near a central mass; no cosmic-acceleration mechanism."
+            },
+            {
+              "recid": "1726779",
+              "verdict": "not-relevant",
+              "reason": "pc-GR review: phenomenological dark-energy fluid near masses, parametrized Robertson–Walker model; no conjugate universe or collapse."
+            },
+            {
+              "recid": "1682833",
+              "verdict": "not-relevant",
+              "reason": "'Accelerated fields' defined in momentum space; Unruh/Hawking-like radiation, entropic gravity; observer acceleration only."
+            },
+            {
+              "recid": "1670030",
+              "verdict": "not-relevant",
+              "reason": "Unruh effect from momentum-space 'accelerated fields'; observer acceleration only."
+            },
+            {
+              "recid": "1479402",
+              "verdict": "not-relevant",
+              "reason": "Gauge gravity on the cotangent bundle (Born's reciprocal relativity); 'accelerated frames' only; no cosmology or clumping."
+            },
+            {
+              "recid": "782528",
+              "verdict": "not-relevant",
+              "reason": "Born-reciprocal Hermitian gravity: cosmology bounces, positive Λ forbidden; nothing on the momentum side driving acceleration."
+            },
+            {
+              "recid": "671623",
+              "verdict": "not-relevant",
+              "reason": "Maximal acceleration, position-dependent mass; rotation curves without dark matter; not a velocity-gated force."
+            },
+            {
+              "recid": "11426",
+              "verdict": "not-relevant",
+              "reason": "No abstract; title and citing pc-GR reviews identify the maximal-proper-acceleration proposal, unrelated to cosmic acceleration."
+            },
+            {
+              "recid": "1965494",
+              "verdict": "finding",
+              "reason": "Review restates two Minic-group claims: dual geometry gives our dark energy (C5); duals as dark matter (C1)."
+            },
+            {
+              "recid": "1796841",
+              "verdict": "not-relevant",
+              "reason": "MOND-like acceleration scale a0; metaparticle dark-matter remark (C1 theme); nothing on conjugate-driven acceleration."
+            },
+            {
+              "recid": "1697320",
+              "verdict": "not-relevant",
+              "reason": "Static wormhole in closed de Sitter; Λ problem via UV/IR entanglement; 'dual' means holographic CFT duals."
+            },
+            {
+              "recid": "1413079",
+              "verdict": "not-relevant",
+              "reason": "Modified Dark Matter: cluster profiles depend on Λ via gravitational thermodynamics; no dual sector, no velocity clumping."
+            },
+            {
+              "recid": "1915715",
+              "verdict": "not-relevant",
+              "reason": "de Sitter from AdS bubbles and stringy cosmic branes; metastring cited for zero modes only; Λ not from dual spacetime."
+            },
+            {
+              "recid": "2874208",
+              "verdict": "not-relevant",
+              "reason": "Entropy bounds and holographic dark energy; FLM/FKGLM cited only for UV-IR mixing; no conjugate sector."
+            },
+            {
+              "recid": "1649979",
+              "verdict": "finding",
+              "reason": "Second metric sector, coupled via noncommuting momenta, acts on our Friedmann equation as dark energy; C5 related."
+            },
+            {
+              "recid": "2030718",
+              "verdict": "not-relevant",
+              "reason": "Infinite-statistics dark energy with UV/IR cutoffs, w ≤ −1; no dual spacetime; successor Hur et al. 2025 is g4's."
+            }
+          ],
+          "findings": [
+            {
+              "conjecture": "C5",
+              "id": "2111.05659",
+              "citation": "A. Addazi, J. Alvarez-Muniz, R. Alves Batista, G. Amelino-Camelia et al. (162 authors), \"Quantum gravity phenomenology at the dawn of the multi-messenger era—A review\", Prog. Part. Nucl. Phys. 125 (2022) 103948, arXiv:2111.05659 (journal)",
+              "relation": "partial",
+              "summary": "The closing summary of the review's section 2 lists, among the observable hallmarks of Born geometry and metastring theory, \"a 'dual' geometry, leading to dark energy in the observed spacetime, modelled as a positive cosmological constant\", citing Berglund–Hübsch–Minić 2019 (PLB 798; IJMPD 28). A restatement of the claim g4 rated partial for C5 (BHM 2019: the curvature of the canonically conjugate dual space induces our dark energy), placed in a widely cited review.",
+              "difference": "Same gap as its sources: our dark energy is the static curvature of the dual (canonically conjugate) spacetime, modelled as a positive Λ; no collapse or contraction of the dual side, no a·ã = 1 and no w_eff = −w̃ dictionary. One summary sentence without derivation: it adds circulation, not independent prior art beyond BHM 2019. If the collapse is read as the conjecture's core, the label would be 'related'.",
+              "quotes": [
+                {
+                  "text": "a “dual” geometry, leading to dark energy in the observed spacetime, modelled as a positive cosmological constant",
+                  "where": "§2.3.4 'The scale of quantum gravity effects', closing summary of §2; cites [490, 491] = BHM, PLB 798 (2019) and IJMPD 28 (2019)",
+                  "check": "lit.py quote: FOUND (full text)"
+                },
+                {
+                  "text": "Modular spacetime implements covariant relative, or observer-dependent, locality, and it is tied to the concept of Born geometry",
+                  "where": "§2.2.2 'Modified kinematic symmetries', paragraph on modular spacetime",
+                  "check": "lit.py quote: FOUND (full text)"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C1",
+              "id": "2111.05659",
+              "citation": "A. Addazi, J. Alvarez-Muniz, R. Alves Batista, G. Amelino-Camelia et al. (162 authors), \"Quantum gravity phenomenology at the dawn of the multi-messenger era—A review\", Prog. Part. Nucl. Phys. 125 (2022) 103948, arXiv:2111.05659 (journal)",
+              "relation": "partial",
+              "summary": "Outside this list's named conjectures (C5–C7); reported because a reader of C1 is likely to meet it here. The review states that metastring theory's modular spacetime predicts \"dual matter and dual gravity sectors\", and lists the metaparticles' “duals” as \"associated with dark matter degrees of freedom\", citing Minic 2020 (arXiv:2003.00318).",
+              "difference": "A one-line association, not the claim that dark matter is the same matter in the other polarization, gravitating like ours; restates Minic 2020, which g1 rated 'anticipates'. Adds circulation, not independent prior art.",
+              "quotes": [
+                {
+                  "text": "The generic predictions of this non-commutative spacetime, are the existence of dual matter and dual gravity sectors",
+                  "where": "§2.2.2 'Modified kinematic symmetries', paragraph on modular spacetime",
+                  "check": "lit.py quote: FOUND (full text)"
+                },
+                {
+                  "text": "their “duals”, associated with dark matter degrees of freedom",
+                  "where": "§2.3.4, closing summary of §2; cites [408] = D. Minic, arXiv:2003.00318",
+                  "check": "lit.py quote: FOUND (full text)"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C5",
+              "id": "2610.19522",
+              "citation": "T. Hübsch, D. Minic, \"Nambu's Dynamics, Strings and Gravitized Quantum Theory\", arXiv:2610.19522 (2026); arXiv preprint only",
+              "relation": "partial",
+              "summary": "The newest statement (October 2026) of the Minic group's dark-energy claim: \"curvature of dual spacetime can lead to a dynamical origin of dark energy\", citing BHM 2019 (PLB 798), BHM 2021 (LHEP 186) and Hur et al. 2025 (JCAP 11, 054), and the observed vacuum-energy scale \"dynamically associated (from the metastring point of view) with the geometry of dual spacetime\". Same claim g4 rated partial in BHM 2019 and Hur et al. 2025.",
+              "difference": "Hedged ('can lead to') and not developed here. Dark energy from the dual spacetime's curvature, not from the collapse of a contracting conjugate universe; no a·ã = 1, no w_eff = −w̃ dictionary, no stiff content. Adds no independent prior art beyond its cited sources; shows the claim is current.",
+              "quotes": [
+                {
+                  "text": "Similarly, curvature of dual spacetime can lead to a dynamical origin of dark energy",
+                  "where": "§5 'Conclusion: String Theory as Gravitized Quantum Theory'; cites [130, 70, 131] = BHM 2019, BHM 2021 (LHEP), Hur et al. 2025",
+                  "check": "lit.py quote: FOUND (full text)"
+                },
+                {
+                  "text": "the observed scale of vacuum (dark) energy, dynamically associated (from the metastring point of view) with the geometry of dual spacetime",
+                  "where": "§4.3 'The Metastring, Nambu's Dynamics and Intrinsic Triple Interference'",
+                  "check": "lit.py quote: FOUND (full text)"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C1",
+              "id": "2610.19522",
+              "citation": "T. Hübsch, D. Minic, \"Nambu's Dynamics, Strings and Gravitized Quantum Theory\", arXiv:2610.19522 (2026); arXiv preprint only",
+              "relation": "anticipates",
+              "summary": "Outside this list's named conjectures (C5–C7). States that for each field φ_λ(x, x̃) there is a dual field which, after integration over the dual spacetime label, \"is a candidate for the invisible matter sector (dual to the observed, visible, Standard Model sector)\", and that the classical spacetime label x of canonical QFT represents \"a choice of (classical spacetime) polarization in modular (quantum) spacetime\". A restatement, citing Minic 2020 and BHM 2021 (LHEP), of the claim g1 rated 'anticipates' in those papers and in Hübsch–Minic 2026 (arXiv:2604.19418).",
+              "difference": "Metastring framework: the dark sector is made of dual fields that do not commute with the visible fields, rather than the same fields in the mirror polarization; hedged as a 'candidate'; no velocity gate, monopoles or kinematics of momentum-polarized matter. Its polarization language is close to the program's (#11 §3–§4). Not independent of the group's earlier statements.",
+              "quotes": [
+                {
+                  "text": "it is a candidate for the invisible matter sector (dual to the observed, visible, Standard Model sector)",
+                  "where": "§3.2 'Metastrings and Modular Spacetime'; cites [27, 70] = Minic 2020, BHM 2021 (LHEP)",
+                  "check": "lit.py quote: FOUND (full text)"
+                },
+                {
+                  "text": "Note also that classical spacetime label x of canonical QFT represent a choice of (classical spacetime) polarization in modular (quantum) spacetime",
+                  "where": "§3.2 'Metastrings and Modular Spacetime'",
+                  "check": "lit.py quote: FOUND (full text)"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C5",
+              "id": "1801.07575",
+              "citation": "H. Falomir, J. Gamboa, P. Gondolo, F. Méndez, \"Magnetic Seed and Cosmology as Quantum Hall Effect\", Phys. Lett. B 785 (2018) 399, arXiv:1801.07575 (journal)",
+              "relation": "related",
+              "summary": "Two metric sectors with scale factors a(t) and b(t) whose minisuperspace momenta do not commute ([π₁, π₂] = εθ), an interaction read as \"a relic of a causal primordial connection between sectors\". The coupling terms in each sector's Friedmann equations \"can be considered as sources of dark energy\"; for Λ₂ = 0 the component is a generalized Chaplygin gas. A second sector's dynamics acting on our expansion as dark energy is C5's theme. Companion of Falomir et al. 2017 (arXiv:1707.04670), which g4 rated related.",
+              "difference": "The second sector is a separate spacetime region ('patch'), not the conjugate (momentum-space) description of our universe; the coupling is a noncommutative deformation of the scale factors' momenta, not Born reciprocity; nothing says the other sector contracts or collapses; no a·ã = 1, no w_eff = −w̃ dictionary, no Λ from dual kinetic energy.",
+              "quotes": [
+                {
+                  "text": "the right hand sides of (11)-(12) can be considered as sources of dark energy",
+                  "where": "text after Eqs. (11)–(14)",
+                  "check": "lit.py quote: FOUND (full text)"
+                },
+                {
+                  "text": "This interaction can be considered as a relic of a causal primordial connection between sectors in a very early epoch of the Universe",
+                  "where": "introduction",
+                  "check": "lit.py quote: FOUND (full text)"
+                },
+                {
+                  "text": "the dark energy so described turns out to be a generalized Chaplygin gas",
+                  "where": "after Eq. (15)",
+                  "check": "lit.py quote: FOUND (full text)"
+                }
+              ],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C6",
+              "id": "recid:1515614",
+              "citation": "A. Ghosh, D. S. Ray, \"Born-Kothari condensation in an ideal Fermi gas\", Phys. Rev. A 95 (2017) 022129, doi:10.1103/PhysRevA.95.022129 (journal; not on arXiv)",
+              "relation": "related",
+              "summary": "Re-examines Kothari and Nath's 1943 'condensation' in Fermi–Dirac statistics, which the abstract calls a natural consequence of Born's reciprocity principle (Born 1938), and gives it a symmetry-breaking order parameter as condensation-like coherence in an ideal Fermi gas. With the companion review (recid:1625396), a Born-reciprocity-derived concentration of matter at the top of a bounded momentum space.",
+              "difference": "A quantum-statistical effect of an ideal gas with a maximum momentum: no interaction, attraction, gravity or instability, no dark matter, no streams of particles sharing a velocity. C6 is collective clumping of dark matter in velocity space by a velocity-gated attraction, the Jeans problem with x and v exchanged. Shared only: matter concentrating in momentum space, derived from Born reciprocity. Verdict rests on the abstract; the paywalled full text was not read.",
+              "quotes": [
+                {
+                  "text": "which appears as a natural consequence of Born's reciprocity principle",
+                  "where": "abstract (INSPIRE)",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "it is possible to associate an intrinsic notion of symmetry breaking and the thermodynamic",
+                  "where": "abstract (INSPIRE)",
+                  "check": "lit.py quote: FOUND (abstract)"
+                }
+              ],
+              "confidence": "low"
+            },
+            {
+              "conjecture": "C6",
+              "id": "recid:1625396",
+              "citation": "A. Ghosh, \"Born-Kothari Condensation for Fermions\", Entropy 19 (2017) 479, doi:10.3390/e19090479 (journal mini-review; not on arXiv)",
+              "relation": "related",
+              "summary": "Mini-review of the same work (recid:1515614): for fermions the condensed phase is single-occupancy dense modes at the highest energy state, and the highest momentum of individual fermions, prerequisite for the condensation, is fixed by the problem's natural length and energy scales. This locates Born–Kothari condensation in momentum space, at its upper bound.",
+              "difference": "As for recid:1515614: an ideal-gas statistical effect at a momentum cutoff, with no dark matter, attraction, instability or velocity streams. Verdict rests on the INSPIRE abstract; the MDPI and DOAJ pages returned HTTP 403 to WebFetch.",
+              "quotes": [
+                {
+                  "text": "for fermions, due to Pauli exclusion principle, the condensed phase occurs only in the form of a single occupancy dense modes at the highest energy state",
+                  "where": "abstract (INSPIRE)",
+                  "check": "lit.py quote: FOUND (abstract)"
+                },
+                {
+                  "text": "the highest momentum (energy) for individual fermions, prerequisite for the condensation process, can be specified in terms of the natural length and energy scales of the problem",
+                  "where": "abstract (INSPIRE)",
+                  "check": "lit.py quote: FOUND (abstract)"
+                }
+              ],
+              "confidence": "low"
+            }
+          ],
+          "notes": "All 65 records got a verdict: 5 'finding' (7 finding entries), 60 'not-relevant', 0 'unavailable'. No record states C5, C6 or C7. Most flags are regex artifacts: 22 of the 27 C6/C7 flags come from 'gated' inside 'investigated', 'conjugated' or 'variegated'; most C5 flags are maximal (proper) acceleration of particles (Caianiello's line), Unruh-type 'accelerated fields', or pc-GR's 'dark energy', a phenomenological fluid that accumulates near masses. The Addazi et al. review was flagged only for 'accelerators' and holds the strongest statement on the list. Findings: (1) two restatements of the Minic group's claims, the Addazi et al. 2022 review (PPNP, 619 citations) and Hübsch–Minic 2026: the dual spacetime's curvature or geometry gives our dark energy (C5 partial, as g4 rated BHM 2019 and Hur et al. 2025; no collapse, contraction or dictionary) and dual fields as the dark sector (C1, outside this list's named conjectures; g1 rated the sources 'anticipates'). They add circulation, not independent prior art. (2) Falomir et al. 2018, C5 related: a second metric sector coupled through noncommuting momenta acts on our Friedmann equation as dark energy, like its 2017 companion. (3) Born–Kothari condensation (Ghosh–Ray 2017; Ghosh 2017), C6 related at low confidence: Born-reciprocity-derived concentration of an ideal Fermi gas at the highest momentum states, with no dark matter, attraction or instability; judged on the INSPIRE abstracts (publisher pages returned 403). Closest not-relevant calls: BHM 2021 (2109.01122) does not attribute Λ to the dual spacetime; Jejjala–Kavic–Minic–Takeuchi 2022 has no dual spacetime; Mantz–Prokopec 2008 (Hermitian gravity) forbids a positive Λ and drives nothing from the momentum side; Artigas–Mielczarek–Rovelli 2019 is minisuperspace recollapse, already the closed-universe note's lead; Hess 2020's 'canonical' acceleration is CCGG gravity. Two records have no abstract anywhere (Brandt 1988, recid:263890; Caianiello 1981, recid:11426); both were judged on their titles plus a companion abstract or citing papers' descriptions, all about maximal particle acceleration. Low 2004 (math-ph/0404077) was read from its PDF. No new leads: Castro Perelman 2020 (recid:1789711), met in a reference list, is on reader r3's list. Working files: work/literature-check/round2/r4-triage/ (notes.md, queries.tsv, flag-terms.txt, term-counts.txt, show/, text/, download-low2004/)."
+        },
+        "verify": {
+          "verdicts": [
+            {
+              "id": "2111.05659",
+              "conjecture": "C5",
+              "claimed_relation": "partial",
+              "verified_relation": "partial",
+              "metadata_ok": true,
+              "quotes_ok": "2/2 FOUND (lit.py quote, full text arxiv.org/html/2111.05659). Locations confirmed by offset: quote 1 closes §2.3.4, just before §3; quote 2 is in §2.2.2.3 'Non-commutative spacetimes', inside §2.2.2. One more passage checked: 'each observed quantum field has a “dual”, which could be associated with dark matter, and, in the gravitational sector, dark energy, as well as axion degrees of freedom', FOUND (§2.2.2.5).",
+              "reason": "Confirmed as partial: a citation restatement of BHM 2019, at the boundary with related. Metadata: INSPIRE (recid 1965494) and Crossref agree on the title, the 162 authors (D. Minic among them) and Prog. Part. Nucl. Phys. 125 (2022) 103948 (arXiv 2021). In the bibliography, [490] is BHM, PLB 798 (2019) 134950 and [491] is BHM, IJMPD 28 (2019) 1944018, as stated. The review's own words are item (iii) of the closing list of §2 and a hedged clause in §2.2.2.5 ('in the gravitational sector, dark energy'). The dual is that of Born geometry and metastring theory (§2.2.2.2), which the cited BHM 2019 calls 'the canonically conjugate dual space'. What it shares with C5 is the conjecture's 'where': our positive Λ is induced from the conjugate (dual) side. That is a central part, not just a shared theme. What it lacks is the conjecture's 'how'. Nothing is said about collapse or contraction of the dual side, a·ã = 1, w_eff = −w̃ or stiff dual contents; a full-text search for 'dual' within 300 characters of contract|collaps|shrink|scale factor finds one unrelated hit (a black-hole binary). I read BHM 2019 for this check. It is a static see-saw construction: Λ comes from the dual space's curvature term after integrating over x̃, or from Tseytlin's intensive action. The program's dictionary gives dual curvature and the dual Einstein term other effects (negative dark radiation; an a⁻⁶ step in G_eff, #11 §10, the second not derived, flag 49), so the two frameworks assign the dual side's curvature different effects. If collapse is read as C5's core, the label would be related, as the reader says. The review adds circulation (619 INSPIRE citations), not prior art independent of BHM 2019. 2202.06890 has a near-verbatim sentence."
+            },
+            {
+              "id": "2111.05659",
+              "conjecture": "C1",
+              "claimed_relation": "partial",
+              "verified_relation": "partial",
+              "metadata_ok": true,
+              "quotes_ok": "2/2 FOUND (lit.py quote, full text). Locations confirmed by offset: quote 1 in §2.2.2.3 (inside §2.2.2); quote 2 at the end of §2.3.4. The review's closest sentence, which the reader did not quote, was also checked: 'each observed quantum field has a “dual”, which could be associated with dark matter, and, in the gravitational sector, dark energy, as well as axion degrees of freedom', FOUND (§2.2.2.5 'Phenomenological implications').",
+              "reason": "Confirmed as partial. Of the two quoted sentences, the first ('dual matter and dual gravity sectors', §2.2.2.3) does not mention dark matter. The second ('(ii) their “duals”, associated with dark matter degrees of freedom [408]', closing list of §2) concerns the duals of metaparticles, 'bi-local, non-commutative field quanta in the modular representation'. [408] is D. Minic, arXiv:2003.00318, as stated. The reader missed the review's closest sentence, in §2.2.2.5 'Phenomenological implications', item 'Dark Matter and axion-like backgrounds': 'each observed quantum field has a “dual”, which could be associated with dark matter' (FOUND). It states C1's central identification, the dual counterpart of each observed field as dark matter, in a Born-geometry setting, so the paper does more than share a theme. It is not anticipates: the clause is hedged ('could be associated'), it is a review's summary resting on [408] and the BHM papers, and it never says where the duals live, that they gravitate like ours, or how they couple. 2202.06890 has the same clause almost verbatim, and round 2's r1 verifier rated it partial for these reasons, so the two labels agree. 'Dual gravity sector' is not a difference from the program, which has its own momentum-space gravity (X, #11 App. A item 10), though that is not part of C1. The review adds circulation, not prior art: priority for C1 is Minic 2020 (g1 verifier: anticipates), and Minic is one of the review's authors."
+            },
+            {
+              "id": "2610.19522",
+              "conjecture": "C5",
+              "claimed_relation": "partial",
+              "verified_relation": "partial",
+              "metadata_ok": true,
+              "quotes_ok": "2/2 FOUND (lit.py quote, full text arxiv.org/html/2610.19522). Locations confirmed by offset: quote 1 in §5, quote 2 in §4.3. More passages checked, all FOUND: §5 'The theory has both spacetime and its dual, and thus the features required for addressing the question of quantum measurement, as well as the physics of the dual spacetime associated with dark matter and dark energy'; §3.2, ω 'is encoded in the canonical commutator between x^a and x̃_a (or the canonical commutator between q and p in quantum theory)' (checked in the paper's LaTeX form).",
+              "reason": "Confirmed as partial, on the same grounds as the review, and as a restatement by two of BHM's three authors. Metadata: INSPIRE (recid 3215102) and the arXiv API agree on the title and authors; v1 was posted 2026-10-14 with the comment '31 pages, one figure (diagram)'. There is no journal-ref and no DOI, so it is an arXiv preprint only. [130], [70] and [131] are BHM PLB 798 (2019), BHM LHEP 2021 186 (arXiv:2010.15610) and Hur et al. JCAP 11 (2025) 054 (arXiv:2503.20854), as stated. §3.2 makes the dual spacetime canonically conjugate to ours (ω is the canonical commutator of x and x̃, 'or ... q and p in quantum theory'), so 'dual' means C5's 'conjugate' more explicitly here than in the review. The claim itself is hedged ('can lead to') and not developed: dark energy comes from the curvature or geometry of the dual spacetime, and 'dynamical' points to Hur et al. 2025, where Λ/G_N evolves with the x̃-spacetime. A full-text search for contract|shrink|collaps|scale factor|expansion|acceler finds five hits, none about the dual spacetime, and a search for Tseytlin|intensive|inverse|see-saw finds only an unrelated seesaw of particle mass scales. So the paper states C5's 'where' (our dark energy sourced on the conjugate side) and not its 'how' (collapse; a·ã = 1; w_eff = −w̃; stiff contents). It shows the claim is current in October 2026. It adds no prior art independent of BHM 2019 and Hur et al. 2025."
+            },
+            {
+              "id": "2610.19522",
+              "conjecture": "C1",
+              "claimed_relation": "anticipates",
+              "verified_relation": "anticipates",
+              "metadata_ok": true,
+              "quotes_ok": "2/2 FOUND (lit.py quote, full text). Both in §3.2, confirmed by offset. More passages checked, all FOUND: §5 'It also has the potential to describe the dual (invisible) matter sector, given the existence of dual fields that do not commute with standard local quantum fields of the Standard Model'; §3.2 'For weak gravity, this metric reduces to the spacetime metric (where spacetime can be viewed as a specific polarization in modular spacetime)'; §3.2 'The polarization (or locality) metric η encodes the distinction between spacetime-like and dual-spacetime-like aspects of phase space' (checked in the paper's LaTeX form).",
+              "reason": "Confirmed as anticipates, as a restatement. This agrees with the g1 verifier's labels for the two sources the passage cites, [27] Minic 2020 (arXiv:2003.00318) and [70] BHM 2021 (arXiv:2010.15610), and for Hübsch–Minic 2026 (arXiv:2604.19418), all anticipates. §3.2 gives each field φ_λ(x, x̃) a dual field φ̃_λ(x, x̃) that does not commute with it; integrated over the dual spacetime label, 'it is a candidate for the invisible matter sector (dual to the observed, visible, Standard Model sector)'. §5 repeats it. Unlike the review and 2202.06890 (both partial), this paper supplies the frame that makes 'dual' mean C1's mirror polarization. Spacetime 'can be viewed as a specific polarization in modular spacetime'. η is 'the polarization (or locality) metric', which separates the spacetime-like from the dual-spacetime-like aspects of phase space. ω is the canonical commutator of x and x̃, 'or ... q and p in quantum theory'. That is C1's identification in substance: each Standard Model field has a partner in the conjugate polarization, and that sector is the dark-matter candidate. The program calls χ a candidate too (#11 §12), so the hedge does not lower the label. The reader's differences are accurate. The dual fields do not commute with the visible ones ([x, x̃] = iλ²), a metastring feature that strict P4 lacks. The paper does not say that the dual sector gravitates like ours, though its source Minic 2020 does. It has no velocity gate, no monopoles and no momentum-space kinematics. It is not independent: priority for C1 is Minic 2020."
+            }
+          ],
+          "notes": "I verified all four findings and confirmed every label: the review (2111.05659) is partial for C5 and partial for C1; Hübsch–Minic 2026 (2610.19522) is partial for C5 and anticipates for C1. All metadata are correct and all eight quotes are FOUND by lit.py quote, at the locations stated (I checked each by offset). None of the four adds independent prior art. They restate the Minic group's earlier work: Minic is one of the review's 162 authors, and Hübsch and Minic are two of the three BHM authors.\n\nThree points for whoever compiles the answer:\n\n1. **The C1 finding on the review misses its closest sentence.** In §2.2.2.5 the review says: 'each observed quantum field has a “dual”, which could be associated with dark matter, and, in the gravitational sector, dark energy, as well as axion degrees of freedom' (FOUND). This is almost the same clause as in 2202.06890, which the r1 verifier rated partial. The review's label therefore stays partial.\n\n2. **BHM 2019 has an inverse-volume step the record does not mention.** The C5 difference texts say the sources have no a·ã = 1. That holds for these two papers. But I read BHM 2019 (1905.08269), and it adapts Tseytlin 1991: it integrates out x̃ and relates the dual spacetime volume to ours as Ṽ ~ V⁻¹, then says 'we directly relate the intensive action (7) to the cosmological constant' (both FOUND).\n   - This is a static inverse relation between whole 4-volumes inside the action, not a scale factor contracting in time.\n   - Λ comes from the dual curvature term or the intensive action, not from what the dual side contains, and nothing collapses. So BHM 2019 stays partial for C5.\n   - It is still the closest thing in that paper to the inverse scaling C5's route uses (a·ã = 1). The g4 difference text for BHM 2019 ('no contraction, collapse, a·ã = 1 dynamics') should mention it.\n   - Neither paper checked here repeats the step.\n\n3. **The two C5 labels depend on BHM 2019's.** Both sit at the partial/related boundary and follow BHM 2019's partial; if BHM 2019 is re-rated, they should change with it. There is no g4 verify.json, so BHM 2019's partial for C5 rests only on the g4 searcher, the r3 reader and this check.\n\nFiles are in /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/round2:\n- r4-triage.verify.json\n- r4-triage-verify/checks.tsv (every command and its result)"
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Read"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Verify"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "read:r1-dark-matter",
+      "phaseIndex": 1,
+      "phaseTitle": "Read",
+      "agentId": "a58bd443aafa0f5f0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793665849972,
+      "queuedAt": 1793665849932,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "r1-dark-matter",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines the conjectures C1-C7, the tools, the quoting standard and the relation labels. Your task is narrower than a search. A systematic screen collected every INSPIRE paper that cites the anchors of the Born-reciprocity lineage (Born 1938 and 1949, Freidel-Leigh-Minic 2013-2016, Born geometry, metaparticles, Low, Bolognesi) and flagged those whose ti…",
+      "promptFramed": true,
+      "lastProgressAt": 1793666841017,
+      "tokens": 270651,
+      "toolCalls": 88,
+      "durationMs": 991043,
+      "resultPreview": "{\"reader\":\"r1-dark-matter\",\"items\":[{\"recid\":\"1358474\",\"verdict\":\"not-relevant\",\"reason\":\"Dark-matter candidates are 16 scalars of a Cl(3,1)-valued field; no conjugate matter (abstract only; no free text).\"},{\"recid\":\"671623\",\"verdict\":\"finding\",\"reason\":\"Born-reciprocal phase-space model fits a rotation curve without dark matter: same theme, rival account (related).\"},{\"recid\":\"1796841\",\"verdict\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "read:r2-monopoles-duality",
+      "phaseIndex": 1,
+      "phaseTitle": "Read",
+      "agentId": "ac074d4c110b43afc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793665849973,
+      "queuedAt": 1793665849933,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "r2-monopoles-duality",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines the conjectures C1-C7, the tools, the quoting standard and the relation labels. Your task is narrower than a search. A systematic screen collected every INSPIRE paper that cites the anchors of the Born-reciprocity lineage (Born 1938 and 1949, Freidel-Leigh-Minic 2013-2016, Born geometry, metaparticles, Low, Bolognesi) and flagged those whose ti…",
+      "promptFramed": true,
+      "lastProgressAt": 1793666645342,
+      "tokens": 263371,
+      "toolCalls": 85,
+      "durationMs": 794649,
+      "resultPreview": "{\"reader\":\"r2-monopoles-duality\",\"items\":[{\"recid\":\"2787067\",\"verdict\":\"not-relevant\",\"reason\":\"Effective monopole-like force in position space from su(2) noncommutativity (curved momentum space); no magnetic charges, momentum-space objects or duality.\"},{\"recid\":\"2029246\",\"verdict\":\"not-relevant\",\"reason\":\"KK- and H-monopoles are string five-brane geometries related by T-duality; no momentum-spac…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "read:r3-dark-energy",
+      "phaseIndex": 1,
+      "phaseTitle": "Read",
+      "agentId": "aeeeb4abf2cc45350",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793665849973,
+      "queuedAt": 1793665849933,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "r3-dark-energy",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines the conjectures C1-C7, the tools, the quoting standard and the relation labels. Your task is narrower than a search. A systematic screen collected every INSPIRE paper that cites the anchors of the Born-reciprocity lineage (Born 1938 and 1949, Freidel-Leigh-Minic 2013-2016, Born geometry, metaparticles, Low, Bolognesi) and flagged those whose ti…",
+      "promptFramed": true,
+      "lastProgressAt": 1793667373254,
+      "tokens": 369675,
+      "toolCalls": 120,
+      "durationMs": 1522560,
+      "resultPreview": "{\"reader\":\"r3-dark-energy\",\"items\":[{\"recid\":\"2967413\",\"verdict\":\"not-relevant\",\"reason\":\"Negative cosmological constant of a BTZ/AdS3 background; curved momentum space renormalizes the black-hole mass. No dark energy or acceleration.\"},{\"recid\":\"1789711\",\"verdict\":\"finding\",\"reason\":\"Born-reciprocal phase-space gravity gives late-time de Sitter and a small Λ; no conjugate collapse. Related; abstr…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "read:r4-triage",
+      "phaseIndex": 1,
+      "phaseTitle": "Read",
+      "agentId": "a34fff45c12c3a301",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793665849973,
+      "queuedAt": 1793665849933,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "r4-triage",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines the conjectures C1-C7, the tools, the quoting standard and the relation labels. Your task is narrower than a search. A systematic screen collected every INSPIRE paper that cites the anchors of the Born-reciprocity lineage (Born 1938 and 1949, Freidel-Leigh-Minic 2013-2016, Born geometry, metaparticles, Low, Bolognesi) and flagged those whose ti…",
+      "promptFramed": true,
+      "lastProgressAt": 1793667089236,
+      "tokens": 351855,
+      "toolCalls": 85,
+      "durationMs": 1238541,
+      "resultPreview": "{\"reader\":\"r4-triage\",\"items\":[{\"recid\":\"2826029\",\"verdict\":\"not-relevant\",\"reason\":\"Flag from 'investigated'. Quantum-conditioned curvatures in Finsler–Hamilton geometry; no clumping, velocity structure or dark matter.\"},{\"recid\":\"2647891\",\"verdict\":\"not-relevant\",\"reason\":\"Flag from 'investigated'. pc-GR minimal length near black-hole horizons; 'accumulation of mass' concerns small black holes.\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "verify:r1-dark-matter",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a8f724ecde868a9cf",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793666843718,
+      "queuedAt": 1793666843698,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "One finding verified, label confirmed: arXiv:2202.06890 is …",
+      "promptPreview": "Read work/literature-check/BRIEF.md first. You are an independent, adversarial verifier. A reader labeled the findings below as \"partial\" or \"anticipates\" for one of P.R.'s conjectures. Test each one, in both directions: resolve the identifier (lit.py show or lit.py doi) and confirm title, authors and year; run lit.py quote on every quote; read the abstract and the passages the claim rests on; and…",
+      "promptFramed": true,
+      "lastProgressAt": 1793667178100,
+      "tokens": 162313,
+      "toolCalls": 37,
+      "durationMs": 334382,
+      "resultPreview": "{\"verdicts\":[{\"id\":\"2202.06890\",\"conjecture\":\"C1\",\"claimed_relation\":\"partial\",\"verified_relation\":\"partial\",\"metadata_ok\":true,\"quotes_ok\":\"3/3 FOUND, exact matches in the full text (lit.py quote, run by the verifier)\",\"reason\":\"Confirmed as partial. Metadata: INSPIRE (recid 2032186) and the arXiv API agree on the title, the seven authors (INSPIRE and the paper spell 'Hubsch') and the year. arXiv…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "verify:r4-triage",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a8e4022c3b3595447",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793667091475,
+      "queuedAt": 1793667091473,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I verified all four findings and confirmed every label: the…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first. You are an independent, adversarial verifier. A reader labeled the findings below as \"partial\" or \"anticipates\" for one of P.R.'s conjectures. Test each one, in both directions: resolve the identifier (lit.py show or lit.py doi) and confirm title, authors and year; run lit.py quote on every quote; read the abstract and the passages the claim rests on; and…",
+      "promptFramed": true,
+      "lastProgressAt": 1793667809421,
+      "tokens": 220693,
+      "toolCalls": 47,
+      "durationMs": 717946,
+      "resultPreview": "{\"verdicts\":[{\"id\":\"2111.05659\",\"conjecture\":\"C5\",\"claimed_relation\":\"partial\",\"verified_relation\":\"partial\",\"metadata_ok\":true,\"quotes_ok\":\"2/2 FOUND (lit.py quote, full text arxiv.org/html/2111.05659). Locations confirmed by offset: quote 1 closes §2.3.4, just before §3; quote 2 is in §2.2.2.3 'Non-commutative spacetimes', inside §2.2.2. One more passage checked: 'each observed quantum field has…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "verify:r3-dark-energy",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "ac72cbdf37dc5a939",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793667375396,
+      "queuedAt": 1793667375393,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Verifier for round2/r3-dark-energy (C5). Read BRIEF.md, the…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first. You are an independent, adversarial verifier. A reader labeled the findings below as \"partial\" or \"anticipates\" for one of P.R.'s conjectures. Test each one, in both directions: resolve the identifier (lit.py show or lit.py doi) and confirm title, authors and year; run lit.py quote on every quote; read the abstract and the passages the claim rests on; and…",
+      "promptFramed": true,
+      "lastProgressAt": 1793667980809,
+      "tokens": 184126,
+      "toolCalls": 44,
+      "durationMs": 605413,
+      "resultPreview": "{\"verdicts\":[{\"id\":\"1905.09463\",\"conjecture\":\"C5\",\"claimed_relation\":\"partial\",\"verified_relation\":\"related\",\"metadata_ok\":true,\"quotes_ok\":\"3/3 FOUND (lit.py quote, rerun by the verifier): Q1 in the abstract, Q2 in the concluding paragraph, Q3 in footnote 4 (not the main-text setup the finding names).\",\"reason\":\"Downgraded to related. Metadata: INSPIRE and Crossref give 'Dark energy and quantum g…"
+    }
+  ],
+  "totalTokens": 1822684,
+  "totalToolCalls": 506
+}

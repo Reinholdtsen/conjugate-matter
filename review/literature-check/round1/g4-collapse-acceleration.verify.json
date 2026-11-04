@@ -1,0 +1,574 @@
+{
+ "group": "g4-collapse-acceleration",
+ "verdicts": [
+  {
+   "id": "doi:10.22323/1.335.0047",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "4/4 FOUND in the verifier's own copy (PDF via WebFetch, pypdf extraction; lit.py cannot reach PoS)",
+   "reason": "Confirmed partial. The proceedings state the configuration: the dark side, whose scale factor is the inverse of ours, contracts as ours expands, and after a postulated permutation its source term drives our recent acceleration without a cosmological constant (a(t') ~ t'^2). Not 'anticipates': (1) the conjugate is the inverse metric of a flat-background theory, a time-reversed twin with its own matter, not the momentum-space description; (2) the paper says the dark-side term dominates 'resulting from a(t) << ã(t)', i.e. because of the postulated permutation, and for cold matter the dark-side source ã^4 ρ̃ scales as ã, so it weakens as the dark side contracts (verifier's script dg_exponents.py, step 4): the contraction does not power the acceleration, and dark-side mass is felt on our side as negative mass; (3) the outcome is a power law, not Λ. The paper also mentions 'Another scenario leading to an exponential acceleration' (found in the verifier's extraction). Crossref metadata match (author given there as Frédéric Henry Couannier)."
+  },
+  {
+   "id": "gr-qc/0507065",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "4/4 FOUND",
+   "reason": "Downgraded to related. The paper's cosmological equation (its eq. 4) is source-free ('No source enters our cosmological equation except at the crossing time'), the scale factor is 'completely independent of the matter and radiation content in the two universes', and the claimed t^2 acceleration is the a >> 1 branch (eq. 7), where the term from our own metric (factor 3A, A = a^2) dominates the conjugate's (factor 3/A). The conjugate universe is neither said to contract nor shown to drive the acceleration, so no central part of C5 is stated; the paper shares the setting (a time-reversal-conjugate universe with inverse scale factor; acceleration without Λ). The 2006 review (gr-qc/0610079) moves the accelerated phase to the regime where the conjugate side dominates; that is the Dark Gravity statement that bears on C5."
+  },
+  {
+   "id": "gr-qc/0610079",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "4/4 FOUND; 4 further passages checked by the verifier, all FOUND",
+   "reason": "Confirmed partial: the strongest Dark Gravity statement and the closest paper found for the founding image. In cold eras 'there is a dominant source term determined by the content of the side with greater scale factor'; for a << 1 the review's eq. (24) is (1/a)'' = const, so the conjugate scale factor ã = 1/a goes as t^2 with conformal time t -> 0-: in its own cosmic time ã ~ |T|^(2/3), a dust universe collapsing to a crunch, while ours accelerates as a ~ t'^2 (verifier's script, steps 1-3). Read kinematically this is 'their collapse is our acceleration' with dual dust, the version the program's corrected dictionary maps to dust. DG gets acceleration because its two sides share conformal time, which gives w + w̃ = -2/3 (w_eff = -2/3 for dual dust; step 8); the same inversion with a shared cosmic time gives the heuristic w = -2 (step 6). In the hot case a radiation-like contracting conjugate side gives our exponential (de Sitter) expansion ('The 1/t and t radiative eras solutions respectively translate into e^{t} and t^{1/2} evolutions', found; step 8), the route's structure with radiation in place of stiff matter; the review ties that phase to an inflation-like epoch. Not 'anticipates': the conjugate is the inverse metric, a time-reversed twin, not the momentum-space description; the review narrates the driver as the dominance of the conjugate side's matter, felt on our side as negative mass, not as collapse; making the accelerated phase late needs a postulated exchange of scale-factor regimes with reversal of the time arrow; the result is a power law. A reader could argue 'anticipates' for the founding image read as a kinematic identity, not for the record's route. Cross-group (C1): the review calls its dark matter 'just normal matter but on the conjugate side of our universe' (found)."
+  },
+  {
+   "id": "1307.0159",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "3/3 FOUND",
+   "reason": "Confirmed partial (medium). 'The contraction of x̃ inflates x', with the dual scale factor a2 = 1/a: a primordial form of the conjecture's core link between a contracting dual and our acceleration. The verifier tested a downgrade, because the same contraction also accompanies the later deceleration (x inflates until t = 1/sqrt 2 while x̃ passes from accelerated to decelerated contraction at t = -1/sqrt 2; the acceleration is set by the dilaton-potential solution), and rejected it: in the record's route the conjugate also contracts throughout and its contents set the sign. Differences as the searcher states: DFT dual (winding) coordinates, which the authors read as extra dimensions by analogy with Levin's kinetic inflation; inflation, not the present acceleration; no matter content or dictionary."
+  },
+  {
+   "id": "hep-th/0207130",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "6/6 FOUND (one loose: LaTeX bar)",
+   "reason": "Confirmed partial. Inflation in the S-frame is gravitational collapse in the E-frame, with kinetic-dominated (stiff) dilaton contents on the collapsing side: a primordial, conformal-frame form of 'collapse in one description is accelerated expansion in the other'. The dictionary claim checks: eq. (2.32) maps a_i -> 1/a_i with rhobar = rho prod a_i preserved and pbar -> -pbar, 'reflecting' gamma -> -gamma where p = gamma rho; ref. [600] is G. Veneziano, Phys. Lett. B265, 287 (1991) (reference list read); for d = 3 this is the program's corrected dictionary w_eff = -w̃ with E = ρ̃ ã^3 carried across (verifier's script, step 7), so dual stiff -> gamma = -1. The identification itself first appears in Gasperini-Veneziano 1993 (new finding)."
+  },
+  {
+   "id": "hep-th/9806230",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "partial",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed partial (medium): the same E-frame collapse / S-frame inflation identification as Gasperini-Veneziano, applied to local collapse of a generic string vacuum (each collapsing region a baby universe). For C5 it adds nothing beyond GV 1993/2003."
+  },
+  {
+   "id": "1207.5514",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "4/4 FOUND",
+   "reason": "Downgraded to related. C5's defining element, the contraction or collapse of the conjugate universe as the source of our acceleration, is absent: the dual universe is an FRW universe in energy that grows as ours grows in time. The effective Λ is a term in dark matter's stress tensor produced by the dual action: a positive momentum-space 0-0 kinetic term becomes, after the Fourier inversion, a negative contribution to the potential. That kinetic-potential exchange echoes the route's 'dual stiff -> Λ' in words, but it acts on a field's equation of motion, not on a dual-frame fluid carried by a·ã = 1. The paper shares C5's theme (present acceleration sourced by the momentum-space sector of a Born-reciprocal theory) and remains the closest paper inside Born reciprocity."
+  },
+  {
+   "id": "1506.02187",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "4/4 FOUND",
+   "reason": "Downgraded to related, as for the 2012 paper. Full-text search: 'contract' 0 matches, 'shrink' 0 matches; the dual universe 'has a specular behaviour', ã(e) ~ e^(1/2) then e^(2/3). arXiv preprint only."
+  },
+  {
+   "id": "1905.08269",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND",
+   "reason": "Downgraded to related. Our Λ is the curvature of the canonically conjugate dual space: a static attribution with no contraction, collapse or dynamics of a conjugate universe, so it shares C5's theme only. The mechanism also differs from the program's own assignment, in which dual curvature maps to negative dark radiation, not Λ (#11 §10)."
+  },
+  {
+   "id": "2503.20854",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "3/3 FOUND",
+   "reason": "Downgraded to related. Dark energy from the curvature of the dual spacetime, evolving with it. Closest element: the UV/IR relation E_IR Ẽ_UV = mu with E_IR = E0/a makes the dual UV cutoff grow as a (a dual short-distance scale shrinking as 1/a, formally like a·ã = 1). But nothing in the paper contracts or collapses (full text: 'contract' and 'shrink' 0 matches; the one 'collapses' refers to the x-universe as a -> 0), and the mechanism, vacuum energy of dual quanta between running cutoffs, can give w < -1."
+  },
+  {
+   "id": "2511.20907",
+   "conjecture": "C5",
+   "claimed_relation": "partial",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND",
+   "reason": "Downgraded to related (low): a uniform density projected from a stationary momentum-energy background is identified with dark energy by its properties; no cosmological dynamics, acceleration, contraction or collapse. Theme only."
+  },
+  {
+   "id": "doi:10.1016/0370-2693(91)90055-U",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (abstract)",
+   "reason": "Confirmed related. Gasperini-Veneziano 2003 cite this paper as ref. [600] both for eq. (2.32) and for the 'reflection' of the equation of state (reference list read). Full text not read."
+  },
+  {
+   "id": "gr-qc/0307111",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND",
+   "reason": "Confirmed related. The phantom duality preserves rho and maps gamma -> -gamma with gamma = 1 + w, i.e. w -> -2 - w: the program's superseded heuristic. With a shared cosmic time the inverse of a collapsing dust universe, ã ~ (tc - t)^(2/3), is a ~ (tc - t)^(-2/3), w = -2 (verifier's script, step 6): the first failed version of C5 is this duality composed with time reversal. No claim that a dual collapse drives our acceleration."
+  },
+  {
+   "id": "hep-th/0307128",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related (same map as Chimento-Lazkoz; dust <-> p = -2 rho quoted). The two published 'gamma -> -gamma' maps differ: here gamma = 1 + w and rho is preserved (the heuristic); in Gasperini-Veneziano eq. (2.32) gamma = w and rhobar = rho a^3 is preserved (the corrected dictionary). The correction recorded in #1 §6 ('without the constraint's volume Jacobian') is exactly the difference between these two published dualities."
+  },
+  {
+   "id": "1502.06497",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND",
+   "reason": "Confirmed related. The conformal-time inversion w + w̃ = -2/3 is the dictionary Dark Gravity realizes dynamically: with a shared conformal time and a = 1/ã, w = -2/3 - w̃ (verifier's script, step 8), so dual radiation -> de Sitter and dual dust -> w = -2/3, as in DG. A third published dictionary beside the phantom duality (the heuristic) and scale-factor duality with sources (the corrected one)."
+  },
+  {
+   "id": "gr-qc/9411041",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND (one loose)",
+   "reason": "Confirmed related. Levin states the core link ('the expansion of the 3-volume is accelerated by the contraction of the n-volume', driven by kinetic energy), the mechanism of C5's route, but the contracting space is a set of extra dimensions of the same spacetime, not a dual or conjugate description, and the epoch is inflation."
+  },
+  {
+   "id": "hep-th/9109048",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related: winding (dual) matter accelerates contraction of the dual size; no claim about our acceleration."
+  },
+  {
+   "id": "0812.4182",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND; 2 further passages checked by the verifier, FOUND",
+   "reason": "Confirmed related, with the summary corrected: the paper ties the visible acceleration to the contraction phases of the extra dimensions ('acceleration in the visible dimensions correlates with contraction of the extra dimensions'; strong acceleration needs them to 'contract rapidly'), for the present epoch, fitted to supernovae and disfavoured against Λ. It is the closest present-epoch case found of contraction of another space accompanying our acceleration, but the space is a set of compact extra dimensions held near the self-dual radius by a string gas, not a conjugate description."
+  },
+  {
+   "id": "hep-th/0312009",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND; 1 further passage FOUND",
+   "reason": "Confirmed related; it bears on the route's open question. In contraction 'the anisotropy and curvature terms in the Einstein equations grow rapidly and become dominant if w<1' (found), and shear scales like a stiff fluid, so a generic contracting conjugate universe with w̃ < 1 contents becomes shear-dominated (Kasner): stiff-like in scaling but anisotropic. The dictionary is derived for isotropic fluids only, so whether shear would map to Λ is not established. Not evidence against: contraction tends toward a stiff-scaling state."
+  },
+  {
+   "id": "doi:10.1007/s10509-014-2106-5",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": false,
+   "quotes_ok": "1/1 FOUND (INSPIRE abstract)",
+   "reason": "Confirmed related; metadata corrected: Crossref gives Astrophys. Space Sci. 354(2), 611-615 (December 2014); INSPIRE's '2106' is not the page. Title, authors, year match. The partner species decelerates (the abstract does not say it contracts) and the driver is dominant negative mass. Full text not read."
+  },
+  {
+   "id": "doi:10.1016/0370-2693(88)90770-8",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related: a partner universe cancels Λ; no acceleration from it."
+  },
+  {
+   "id": "1707.04670",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related."
+  },
+  {
+   "id": "2406.04392",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related (low)."
+  },
+  {
+   "id": "doi:10.1103/PhysRevLett.66.545",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related (dual coordinates and the value of Λ; INSPIRE dates the preprint 1990, the journal 1991)."
+  },
+  {
+   "id": "2302.07878",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND",
+   "reason": "Confirmed related: the scaling argument parallels the route (energy per comoving volume growing as a^3 gives a constant density, w = -1), but the collapse is stellar collapse inside our universe and the cosmological coupling it rests on is disputed."
+  },
+  {
+   "id": "2202.00641",
+   "conjecture": "C5",
+   "claimed_relation": "related",
+   "verified_relation": "related",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed related."
+  },
+  {
+   "id": "1807.06209",
+   "conjecture": "C5",
+   "claimed_relation": "evidence-against",
+   "verified_relation": "evidence-against",
+   "metadata_ok": true,
+   "quotes_ok": "2/2 FOUND",
+   "reason": "Confirmed, for the failed w = -2 version only: with w_a fixed to 0, w0 = -1.028 +- 0.031 (68%, Planck TT,TE,EE+lowE+lensing+SNe+BAO), eq. (48), read in the full text. It does not bear on the route, which gives w = -1."
+  },
+  {
+   "id": "gr-qc/0506108",
+   "conjecture": "C5",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND (loose: math)",
+   "reason": "Confirmed collision: wave-function collapse."
+  },
+  {
+   "id": "1604.04183",
+   "conjecture": "C5",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed collision: non-unitary (collapse-type) quantum mechanics in unimodular gravity."
+  },
+  {
+   "id": "0805.2973",
+   "conjecture": "C5",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed collision: transplanckian scattering analysed in momentum space."
+  },
+  {
+   "id": "2503.20267",
+   "conjecture": "C5",
+   "claimed_relation": "collision",
+   "verified_relation": "collision",
+   "metadata_ok": true,
+   "quotes_ok": "1/1 FOUND",
+   "reason": "Confirmed collision: analogue 'dual universe' of phonons in a spinor condensate."
+  }
+ ],
+ "new_findings": [
+  {
+   "conjecture": "C5",
+   "id": "2207.02835",
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"Bouncing and collapsing universes dual to late-time cosmological models\", Eur. Phys. J. C 84 (2024) 318, arXiv:2207.02835 (2022)",
+   "relation": "partial",
+   "summary": "Uses the Jordan frame-Einstein frame correspondence to give the present, dark-energy-driven universe a dual description. An Einstein-frame ΛCDM universe always corresponds to a bouncing Brans-Dicke universe in the Jordan frame; quintessence plus matter always corresponds to a Jordan frame with a turnaround, a bounce or a collapse, decided by the evolution of the quintessence equation of state. The authors conclude that 'the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe' and speak of 'collapsing descriptions of the current accelerating universe'. It is the closest present-epoch statement found of #11's 'Their collapse is our acceleration' read as an identity between two descriptions of one universe (App. A item 8, 'synchronized, not causal'). It also bears on App. A item 7: thawing quintessence is dual to a Jordan-frame turnaround.",
+   "difference": "The dual description is a conformal (Jordan) frame of a scalar-tensor theory, related by a conformal factor set by the Brans-Dicke scalar, not the momentum-space description related by a·ã = 1. Dark energy (Λ or quintessence) is assumed in the Einstein frame and the Jordan-frame collapse re-describes it; the paper does not derive the acceleration from the collapse or from any conjugate contents, so C5's explanatory direction is absent. The turnaround 'can be tuned anywhere' with the Brans-Dicke parameter, so the collapse is not tied to the onset of acceleration, and for ΛCDM the dual is a bounce. No dictionary of the type w_eff = -w̃.",
+   "quotes": [
+    {
+     "text": "Therefore,the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "The effective bouncing and collapsing descriptions of the current accelerating universe may have interesting implications for the evolutions of perturbations and quantum fluctuations in the cosmological background.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "quintessence models of dark energy with non-relativistic matter component are shown to be always dual to a Brans-Dicke Jordan frame with a turn-around, i.e., a bounce or a collapse.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "The point of the Jordan frame turn-around for all the cases can be tuned anywhere by choosing an appropriate Brans-Dicke parameter.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "These results indicate that the effect of dark energy can alternatively be realized as collapse of space in a conformally connected universe, at least classically.",
+     "where": "full text, section 8 'Summary and discussion'",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2105.10521",
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"f(R) dual theories of quintessence: expansion-collapse duality\", JCAP 12 (2021) 016, arXiv:2105.10521",
+   "relation": "partial",
+   "summary": "The first paper of the expansion-collapse duality line. It reconstructs f(R) Jordan-frame duals of quintessence-dominated Einstein-frame cosmologies and finds that, for a class of viable quintessence models, the Jordan-frame universe grows to a maximum size and then collapses while the physical (Einstein-frame) universe keeps expanding: a present-epoch expansion-collapse duality.",
+   "difference": "As for the 2024 paper: conformal frames of f(R) (scalar-tensor) gravity, not position and momentum; dark energy is assumed (quintessence) and the Jordan-frame collapse is a re-description, not a source; no inverse scale factor and no dictionary.",
+   "quotes": [
+    {
+     "text": "We show that for certain class of viable quintessence models, the Jordan frame universe grows to a maximum finite size, after which it begins to collapse back.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "Thus, there is a possibility that in the late time limit where the Einstein frame universe continues to expand, the Jordan frame universe collapses.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "hep-th/9309023",
+   "citation": "M. Gasperini, G. Veneziano, \"Inflation, deflation, and frame independence in string cosmology\", Mod. Phys. Lett. A 8 (1993) 3701, arXiv:hep-th/9309023",
+   "relation": "partial",
+   "summary": "The origin of the pre-big-bang identification that the searcher found in Gasperini-Veneziano 2003 and Buonanno-Damour-Veneziano 1999. String-frame inflationary solutions suggested by scale-factor duality are accelerated contraction ('deflation') in the Einstein frame, and the virtues of inflation have 'physically equivalent counterparts in the deflationary (Einstein-frame) picture'. One process, two descriptions: accelerated contraction in one is accelerated expansion in the other.",
+   "difference": "Conformal (Weyl) frames related by the dilaton, not position and momentum with a·ã = 1; primordial inflation, not the present acceleration; the contraction is our own universe's Einstein-frame metric, with no conjugate matter and no dictionary; superinflation, not Λ.",
+   "quotes": [
+    {
+     "text": "The inflationary scenarios suggested by the duality properties of string cosmology in the Brans-Dicke (or String) frame are shown to correspond to accelerated contraction (deflation) when Weyl-transformed to the Einstein frame.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "We point out that the basic virtues of inflation (solving the flatness and horizon problems, amplifying vacuum fluctuations, etc.) have physically equivalent counterparts in the deflationary (Einstein-frame) picture.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:1122452",
+   "citation": "C. Castro, \"Born's reciprocal gravity in curved phase-spaces and the cosmological constant\", Found. Phys. 42 (2012) 1031, doi:10.1007/s10701-012-9645-9 (not on arXiv)",
+   "relation": "related",
+   "summary": "Born-reciprocal gravity on the 8-dimensional cotangent bundle (curved phase space, Finsler nonlinear connection). A Kaluza-Klein-like construction yields the observed value of the cosmological constant, and the abstract links the geometry of momentum space to that value when momentum space is strongly curved and its size P is of order 1/R_Hubble.",
+   "difference": "Λ from the curvature and small size of momentum space: a static relation, with no contraction or collapse of a conjugate universe, no dynamics producing acceleration and no dictionary. Shares C5's theme (dark energy from the momentum side of a Born-reciprocal theory), like Berglund-Hübsch-Minić. The size P ~ 1/R_Hubble resembles the inverse scaling of a·ã = 1 but is not stated as a contraction. Full text not read (publisher); judged on the abstract.",
+   "quotes": [
+    {
+     "text": "It is found that the geometry of the momentum space can be linked to the observed value of the cosmological constant when the curvature in",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "space is very large, namely the small size of P is of the order of",
+     "where": "abstract (INSPIRE; continues '( 1/R_Hubble )')",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:1789711",
+   "citation": "C. Castro Perelman, \"Born's Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant\", Ann. Phys. 416 (2020) 168143, doi:10.1016/j.aop.2020.168143 (not on arXiv)",
+   "relation": "related",
+   "summary": "Scalar-gravity solutions on the cotangent bundle in which the base spacetime and the internal momentum space are both (anti-)de Sitter; the solutions capture the early inflationary and very-late-time de Sitter phases, and regularizing the 8-dimensional phase-space action gives an extremely small effective cosmological constant.",
+   "difference": "Late-time de Sitter and a small Λ from phase-space geometry; no contraction or collapse of a conjugate universe, no a·ã = 1 and no dictionary. Theme only. Full text not read.",
+   "quotes": [
+    {
+     "text": "The curved base spacetime manifold and internal momentum space both turn out to be (Anti) de Sitter type. The most salient feature is that the solutions capture the very early inflationary and very-late-time de Sitter phases of the Universe.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "A regularization of the 8-dim phase space action leads naturally to an extremely small effective cosmological constant",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "1903.12521",
+   "citation": "A. Triantafyllopoulos, P. C. Stavrinos, \"Weak field equations and generalized FRW cosmology on the tangent Lorentz bundle\", Class. Quantum Grav. 35 (2018) 085011, arXiv:1903.12521",
+   "relation": "related",
+   "summary": "Generalized Friedmann equations on the tangent bundle, in which the curvature S of the velocity-space (vertical) part of the metric enters like a cosmological constant, so the accelerated expansion is attributed to the extra geometry.",
+   "difference": "The velocity (fibre) space's curvature acts as Λ; the fibre is not a contracting conjugate universe, and no collapse or inverse scale factor appears. Velocity space on the tangent bundle, not momentum space under Born reciprocity. Theme only.",
+   "quotes": [
+    {
+     "text": "In this model the accelerated expansion of the universe can be attributed to the geometry itself.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "S -curvature is a dynamical anisotropic cosmological parameter which emerges from the additional degrees of freedom of the geometrical structure and plays the role of an effective cosmological constant",
+     "where": "full text, section V.1 'Field equations'",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "astro-ph/0607626",
+   "citation": "S. Räsänen, \"Accelerated expansion from structure formation\", JCAP 11 (2006) 003, arXiv:astro-ph/0607626",
+   "relation": "related",
+   "summary": "Backreaction: in an inhomogeneous dust universe the volume-averaged expansion rate can accelerate as overdense regions collapse and underdense regions take over the volume. A reader looking for 'gravitational collapse drives accelerating expansion' meets this line first.",
+   "difference": "The collapse is of structures in our own position space and the acceleration is of the spatial average; no conjugate description, no inverse scale factor, no dictionary. The same causal words with a different mechanism.",
+   "quotes": [
+    {
+     "text": "We demonstrate with an analytical toy model how gravitational collapse can lead to acceleration.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.20944/preprints202410.1720.v1",
+   "citation": "I. Escudero, \"The Origin of the Accelerated Expansion of the Universe from a Gravitational Collapse in Higher Dimensions\", Preprints.org 202410.1720 (2024); non-reviewed preprint",
+   "relation": "related",
+   "summary": "Proposes that a black hole collapsing in a higher-dimensional space generates our universe, whose accelerated expansion follows from that collapse, and claims agreement with supernova and CMB data. Resolves the searcher's first unverified lead (author and abstract from Crossref).",
+   "difference": "Collapse of a black hole in a higher-dimensional parent space (the black-hole-universe family, with Gaztañaga 2022), not of a conjugate description of our universe; no Born reciprocity, inverse scale factor or dictionary. Full text not read (preprints.org returned 403 to the searcher); judged on the Crossref abstract.",
+   "quotes": [
+    {
+     "text": "We suggest that this collapse causes a rupture in the fabric of spacetime, generating a new universe whose accelerated expansion is a direct consequence of this process.",
+     "where": "abstract (Crossref)",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "scoop_searches": [
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Castro, Carlos and (t reciprocal or t Born or t \"phase space\" or t \"phase spaces\") and (abstracts.value:\"dark energy\" or abstracts.value:\"cosmological constant\" or abstracts.value:\"vacuum energy\" or abstracts.value:accelerat*)",
+   "hits": "11 (Castro 2012 Found. Phys., 2020 Ann. Phys. reported; 2019 Can. J. Phys. a C1 lead)"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Rasanen and (t \"accelerated expansion\" or t \"structure formation\") and (abstracts.value:collapse or abstracts.value:collapsing)",
+   "hits": "2 (astro-ph/0607626 reported)"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Wetterich and (t \"without expansion\" or t \"variable gravity\" or t \"shrinking\" or t \"universe shrinks\")",
+   "hits": "3 (Universe without expansion read: no acceleration passage, 'accelerat' 0 matches; not listed)"
+  },
+  {
+   "database": "INSPIRE full text",
+   "query": "fulltext \"momentum space\" and (fulltext \"inverse of the scale factor\" or fulltext \"inversely proportional to the scale factor\") and fulltext \"dark energy\" and (fulltext \"reciprocity\" or fulltext \"phase space\") and (fulltext \"contract\" or fulltext \"collapse\")",
+   "hits": "13 (theses and reviews; none relevant)"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:universe AND (abs:contracting OR abs:collapse OR abs:collapsing OR abs:contraction) AND (abs:\"accelerated expansion\" OR abs:\"dark energy\" OR abs:\"accelerating expansion\")",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "(abs:\"dual universe\" OR abs:\"reciprocal universe\" OR abs:\"inverse universe\" OR abs:\"conjugate universe\" OR abs:\"shadow universe\") AND (abs:accelerat* OR abs:\"dark energy\" OR abs:\"cosmological constant\")",
+   "hits": "4 (2207.02835 Mukherjee-Jassal-Lochan reported)"
+  },
+  {
+   "database": "INSPIRE full text and title/abstract",
+   "query": "fulltext \"expansion-collapse duality\" or t \"expansion-collapse duality\" or abstracts.value:\"expansion-collapse duality\"",
+   "hits": "10 (the Mukherjee-Jassal-Lochan line, 2021-2026; 2105.10521 and 2207.02835 reported)"
+  },
+  {
+   "database": "INSPIRE citation graph (forward)",
+   "query": "cites 2207.02835; cites 2105.10521",
+   "hits": "6; 4 (no further statement of the claim)"
+  },
+  {
+   "database": "INSPIRE citation graph (backward)",
+   "query": "refs 2207.02835",
+   "hits": "74 references (Bahamonde et al. 2017, Wetterich 2013/2014, Mukherjee et al. 2021 checked)"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "abstracts.value:\"Jordan frame\" and abstracts.value:\"Einstein frame\" and (abstracts.value:contracting or abstracts.value:collapsing or abstracts.value:contraction or abstracts.value:collapse) and (abstracts.value:\"dark energy\" or abstracts.value:\"late-time acceleration\" or abstracts.value:\"accelerated expansion\" or abstracts.value:\"cosmic acceleration\") and de < 2021",
+   "hits": "1 (not relevant): the late-time frame duality starts with Mukherjee et al. 2021"
+  },
+  {
+   "database": "INSPIRE citation graph (backward)",
+   "query": "refs hep-th/0207130 (Gasperini-Veneziano 2003 reference list), then show hep-th/9309023 hep-th/9703150",
+   "hits": "ref. [600] = Veneziano PLB 265 (1991) 287; GV 1993 reported; Veneziano 1997 full text has 0 matches for 'collaps' (searcher's lead fails)"
+  },
+  {
+   "database": "Crossref",
+   "query": "reciprocal relativity phase space dark energy accelerating universe momentum space contraction",
+   "hits": "20 (none relevant)"
+  },
+  {
+   "database": "Crossref",
+   "query": "collapse of the dual universe accelerated expansion inverse scale factor",
+   "hits": "20 (Escudero, Preprints.org 202410.1720: resolves the searcher's lead; reported)"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"momentum space\" universe \"contracts\" OR \"collapses\" \"as our universe expands\" dark energy reciprocity",
+   "hits": "~9 results, none on target"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark energy explained as collapse of a dual universe related by Fourier transform or inverse scale factor \"dual universe\" \"collapsing\" accelerating expansion paper",
+   "hits": "~9 results: Mukherjee et al. EPJC 2024 (independently confirms), Bolognesi 2015; the rest non-scholarly"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Stavrinos and (t \"tangent bundle\" or t \"tangent Lorentz bundle\" or t \"Finsler\" or t \"Lorentz bundle\") and (abstracts.value:\"dark energy\" or abstracts.value:\"accelerat*\" or abstracts.value:\"scale factor\")",
+   "hits": "3 (Finsler-Randers papers; not C5)"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "(abstracts.value:\"tangent bundle\" or abstracts.value:\"cotangent bundle\" or abstracts.value:\"Lorentz tangent bundle\") and abstracts.value:cosmolog* and (abstracts.value:\"fiber\" or abstracts.value:\"fibre\" or abstracts.value:\"internal space\" or abstracts.value:\"velocity space\" or abstracts.value:\"momentum space\") and (abstracts.value:\"scale factor\" or abstracts.value:\"dark energy\" or abstracts.value:accelerat*)",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Triantafyllopoulos; then t \"tangent Lorentz bundle\" or t \"Lorentz tangent bundle\" and (t cosmolog* or t FRW or t Friedmann)",
+   "hits": "78; 1 (1903.12521 reported)"
+  },
+  {
+   "database": "INSPIRE full text",
+   "query": "fulltext \"Born reciprocity\" and (fulltext \"contracting universe\" or fulltext \"collapsing universe\" or fulltext \"contraction of the universe\") and (fulltext \"accelerated expansion\" or fulltext \"dark energy\")",
+   "hits": "3 (none relevant)"
+  },
+  {
+   "database": "arXiv full text (lit.py text)",
+   "query": "text 1506.02187 --grep specular|contract|late.time|shrink; text 2503.20854 --grep contract|shrink|collaps; text 0812.4182 --grep contract",
+   "hits": "Bolognesi 2015: contract 0, shrink 0; Hur et al.: contract 0, shrink 0, collaps 1 (x-universe as a -> 0); Ferrer et al.: 4 (acceleration correlates with contraction of the extra dimensions)"
+  }
+ ],
+ "not_found_assessment": [
+  {
+   "conjecture": "C5",
+   "holds": true,
+   "reason": "Holds in C5's own terms: the verifier's 20 searches found no paper in which the momentum-space (Born-reciprocal) description of our universe, with a·ã = 1, contracts and its collapse drives our present acceleration. Two corrections to the statement's supporting sentence. (a) The link between collapse in a dual description and accelerated expansion is not confined to primordial inflation: Mukherjee, Jassal and Lochan (JCAP 2021; EPJC 2024) state, for the present epoch, that the dark-energy-driven expansion is equivalently a collapse of a conformally connected (Jordan-frame) universe, though as a re-description of assumed dark energy, not as its source. (b) Read kinematically, Dark Gravity's accelerated regime is the inverse of a collapsing dust conjugate universe (radiation-like in the hot case), so it holds the founding image in a different framework. Bolognesi 2012/2015, Berglund-Hübsch-Minić 2019, Hur et al. 2025 and Ran 2026, with Castro 2012/2020 and Triantafyllopoulos-Stavrinos 2018, place dark energy on the dual or momentum side without any contraction; they are related, not partial."
+  },
+  {
+   "conjecture": "C5",
+   "holds": true,
+   "reason": "Holds for the entry itself: no paper found applies 'dual stiff -> Λ' to late-time dark energy. The entry is scale-factor duality with sources (Veneziano 1991; Gasperini-Veneziano 2003 eq. 2.32), now checked algebraically to equal the program's corrected dictionary for d = 3 (verifier's script, step 7). Qualification: the route's structure (a contracting conjugate universe of suitable contents acts on ours as a cosmological constant) appears in Dark Gravity under its conformal-time dictionary (w + w̃ = -2/3), where the suitable content is radiation, not stiff matter: a radiation-like contracting conjugate side gives our de Sitter expansion. The review ties that phase to an inflation-like epoch, and the 2018 proceedings mention 'another scenario leading to an exponential acceleration' without detail."
+  }
+ ],
+ "notes": "Verifier for g4-collapse-acceleration (C5). Read BRIEF.md, the C5 wiki page, #11 §10 and App. A, and #1 §6-7 first. Step 1: all 31 identifiers resolved; titles, authors and years match, except that Petit-d'Agostini is Astrophys. Space Sci. 354(2) 611-615 (Crossref), not page 2106. Step 2: all 63 searcher quotes re-checked: 59 FOUND by lit.py (3 loose, from math markup); the 4 PoS EDSU2018 quotes FOUND in the verifier's own copy (PDF downloaded with WebFetch, text extracted with pypdf), not the searcher's. Step 3, relations: 5 of the 11 partials confirmed (Dark Gravity PoS 2018 and review, Wu-Yang 2014, Gasperini-Veneziano 2003, Buonanno-Damour-Veneziano 1999); 6 downgraded to related (Dark Gravity 2005: source-free and matter-independent, and its t^2 branch is where our own term dominates; Bolognesi 2012 and 2015, Berglund-Hübsch-Minić 2019, Hur et al. 2025, Ran 2026: dark energy from the dual or momentum side with no contraction or collapse, C5's defining element). Rule applied: partial needs a dual or conjugate description and an explicit link between its contraction or collapse and accelerated expansion; dark energy from the dual side alone is related. All related, evidence-against and collision labels confirmed; summaries corrected for Ferrer et al. (acceleration correlates with contraction of the extra dimensions) and Erickson et al. (shear dominates a contraction with w < 1). Main finding the searcher missed: the expansion-collapse duality of Mukherjee, Jassal and Lochan (JCAP 12 (2021) 016; EPJC 84 (2024) 318): 'the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe'. It is the closest present-epoch statement of 'their collapse is our acceleration' as an identity of descriptions, but the dual is a Jordan frame and the dark energy is assumed. The searcher's INSPIRE query used the exact phrase 'dual universe'; the abstract says 'dual universes'. Also new: Gasperini-Veneziano 1993 (origin of the inflation/deflation frame identification), Castro 2012/2020 and Triantafyllopoulos-Stavrinos 2018 (Λ from momentum- or velocity-space geometry; related), Räsänen 2006 (collapse-driven backreaction acceleration; related), Escudero 2024 (resolves the searcher's lead; related). Veneziano 1997 has no 'collaps' in its full text, so that searcher lead fails. Dictionaries (executed: verifier/scripts/dg_exponents.py, output dg_exponents.out). Three published inversion dictionaries match three ways of identifying the two sides: (1) density preserved, shared cosmic time: the phantom duality (Chimento-Lazkoz 2003; Dabrowski et al. 2003), w -> -2 - w, the program's superseded heuristic; inverting a collapsing dust universe gives w = -2. (2) Energy per comoving volume preserved: scale-factor duality with sources (Veneziano 1991; GV 2003 eq. 2.32), w -> -w, identical to the program's corrected dictionary; dual stiff -> Λ. (3) Shared conformal time: Camara da Silva-Lima-Sotkov 2015, w + w̃ = -2/3, realized dynamically by Dark Gravity: dual dust -> a ~ t'^2, dual radiation -> de Sitter. Under (3) the dust version of the founding image works, so Dark Gravity is the paper to name first in any novelty statement for C5. Cross-group leads: C1 - the Dark Gravity review calls its dark matter 'just normal matter but on the conjugate side of our universe' (gr-qc/0610079, quote FOUND); Castro Perelman, Can. J. Phys. 97 (2019) 198 (dark matter as an effect of Born's reciprocal relativity; abstract only). Neighbour of C5, App. A item 7: Mukherjee et al. 2024 map thawing quintessence to a Jordan-frame turnaround (bounce or collapse). Files: verifier/verify-queries.log (every lit.py call), verifier/quote-checks.json, verifier/scripts/dg_exponents.py and dg_exponents.out, verifier/pos-edsu2018-047.txt, verifier/scripts/build_verify.py (this output)."
+}

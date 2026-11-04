@@ -1,0 +1,136 @@
+{
+ "reader": "r2-monopoles-duality",
+ "conjectures": [
+  "C2",
+  "C3",
+  "C4"
+ ],
+ "items": [
+  {
+   "recid": 2787067,
+   "arxiv": "",
+   "line": "[2024] Kupriyanov, Vladislav; Kurkov, Maxim; Sharapov, Alexey — Classical mechanics in noncommutative spaces: confinement and more  | arXiv:2405.09348 recid:2787067 cites:8",
+   "flag": "C2/C3 monopoles (abstract)"
+  },
+  {
+   "recid": 2029246,
+   "arxiv": "",
+   "line": "[2022] Kimura, Tetsuji; Sasaki, Shin; Shiozawa, Kenta — Hyperkähler, bi-hypercomplex, generalized hyperkähler structures and T-duality  | arXiv:2202.03016 recid:2029246 cites:9",
+   "flag": "C2/C3 monopoles (abstract)"
+  },
+  {
+   "recid": 1909256,
+   "arxiv": "",
+   "line": "[2021] Alfonsi, Luigi — Extended Field Theories as higher Kaluza-Klein theories  | arXiv:2108.10297 recid:1909256 cites:4",
+   "flag": "C2/C3 monopoles (abstract)"
+  },
+  {
+   "recid": 1770969,
+   "arxiv": "",
+   "line": "[2019] Alfonsi, Luigi — Global Double Field Theory is Higher Kaluza‐Klein Theory  | arXiv:1912.07089 recid:1770969 cites:21",
+   "flag": "C2/C3 monopoles (abstract)"
+  },
+  {
+   "recid": 1744428,
+   "arxiv": "",
+   "line": "[2019] Marmo, G.; Scardapane, Emanuela; Stern, A. et al. (5) — Lagrangian formulation for electric charge in a magnetic monopole distribution  | arXiv:1907.07808 recid:1744428 cites:4",
+   "flag": "C2/C3 monopoles (abstract)"
+  },
+  {
+   "recid": 1841580,
+   "arxiv": "2101.07076",
+   "line": "[2021] Nandi, Partha; Sahu, Sankarshan; Pal, Sayan Kumar — A note on broken dilatation symmetry in planar noncommutative theory  | arXiv:2101.07076 recid:1841580 cites:6",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 2688607,
+   "arxiv": "2308.07406",
+   "line": "[2023] Kupriyanov, Vladislav G.; Sharapov, Alexey A.; Szabo, Richard J. — Symplectic groupoids and Poisson electrodynamics  | arXiv:2308.07406 recid:2688607 cites:13",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 1424240,
+   "arxiv": "1602.07752",
+   "line": "[2016] Chang, Lay Nam; Minic, Djordje; Roman, Ahmed et al. (5) — On the Physics of the Minimal Length: The Question of Gauge Invariance  | arXiv:1602.07752 recid:1424240 cites:12",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 1763839,
+   "arxiv": "1911.03196",
+   "line": "[2019] Biswas, Saptarshi; Nandi, Partha; Chakraborty, Biswajit — Emergence of a geometric phase shift in planar noncommutative quantum mechanics  | arXiv:1911.03196 recid:1763839 cites:21",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 1735464,
+   "arxiv": "1905.06754",
+   "line": "[2019] Navin, Robert L. — The Schrödinger Equation Describes a Particular Quantum Geometry  | arXiv:1905.06754 recid:1735464 cites:0",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 1934108,
+   "arxiv": "",
+   "line": "[2021] Maheshwari, Shubham — Aspects of Ultraviolet Non-local Gravity  | arXiv:— recid:1934108 cites:0",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 1863665,
+   "arxiv": "2105.07067",
+   "line": "[2021] Rochais, Thomas B. — Geometric Approaches To Quantum Fields And Strings At Strong Couplings  | arXiv:2105.07067 recid:1863665 cites:1",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 3159322,
+   "arxiv": "2605.24724",
+   "line": "[2026] Hübsch, Tristan — Beyond Algebraic Solutions to Stringy Spacetime  | arXiv:2605.24724 recid:3159322 cites:1",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 2871069,
+   "arxiv": "2501.11684",
+   "line": "[2025] Hübsch, Tristan — Ricci-Flat Mirror Hypersurfaces in Spaces of General Type  | arXiv:2501.11684 recid:2871069 cites:1",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 1827611,
+   "arxiv": "",
+   "line": "[2020] Osten, David — Current algebra, generalised geometry and integrable models in string theory  | arXiv:— recid:1827611 cites:0",
+   "flag": "C2/C3 (full text)"
+  },
+  {
+   "recid": 2678511,
+   "arxiv": "",
+   "line": "[2023] Meljanac, S.; Mignemi, S. — Realizations of the Yang–Poisson model on canonical phase space  | arXiv:2307.09828 recid:2678511 cites:7",
+   "flag": "C4 magnetic duality (abstract)"
+  },
+  {
+   "recid": 1347260,
+   "arxiv": "",
+   "line": "[2015] Smolin, Lee — Extending dualities to trialities deepens the foundations of dynamics  | arXiv:1503.01424 recid:1347260 cites:3",
+   "flag": "C4 magnetic duality (abstract)"
+  },
+  {
+   "recid": 1675281,
+   "arxiv": "",
+   "line": "[2018] Kökényesi, Zoltán; Sinkovics, Annamária; Szabo, Richard J. — Double Field Theory for the A/B‐Models and Topological S‐Duality in Generalized Geometry  | arXiv:1805.11485 recid:1675281 cites:15",
+   "flag": "C4 magnetic duality (abstract)"
+  },
+  {
+   "recid": 1394574,
+   "arxiv": "1509.06892",
+   "line": "[2015] Anjana, V. — Diffusion in kappa deformed space and Spectral Dimension  | arXiv:1509.06892 recid:1394574 cites:0",
+   "flag": "C4 (full text)"
+  },
+  {
+   "recid": 1731583,
+   "arxiv": "1904.11561",
+   "line": "[2019] Thompson, Daniel C. — An Introduction to Generalised Dualities and their Applications to Holography and Integrability  | arXiv:1904.11561 recid:1731583 cites:41",
+   "flag": "C4 (full text)"
+  },
+  {
+   "recid": 1754000,
+   "arxiv": "1909.06240",
+   "line": "[2019] Lopes Cardoso, Gabriel; Mohaupt, Thomas — Special geometry, Hessian structures and applications  | arXiv:1909.06240 recid:1754000 cites:17",
+   "flag": "C4 (full text)"
+  }
+ ]
+}

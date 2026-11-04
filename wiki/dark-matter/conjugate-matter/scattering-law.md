@@ -117,7 +117,7 @@ v1 (#9 §9) already reads "Knee at v\* ~ 10² km/s; tail shape = vertex diagnost
 
 The checkpoint's predictions table (#11 §13) has three rows on this law:
 
-- **Row 1, the knee.** "σ_T(v) across halo masses": requirement "Knee at v\* ~ 10² km/s; zero cluster signal (particle χ)"; killed by "Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band". #11 §15 lists row 1, with rows 4 and 7, as the program's near-term falsification exposure. See [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee).
+- **Row 1, the knee.** "σ_T(v) across halo masses": requirement "Knee at v\* ~ 10² km/s; zero cluster signal (particle χ)"; killed by "Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band"; two published fits mildly prefer a nonzero cross-section at cluster speeds, short of that kill condition (flag 69 in `review/wiki-build-flags.md`, pending). #11 §15 lists row 1, with rows 4 and 7, as the program's near-term falsification exposure. See [Row 1: the knee in σ_T(v)](/wiki/predictions/self-interaction-knee).
 - **Row 2, isotropy [D].** "Scattering anisotropy": standard expectation "Forward-peaked (light mediators)"; requirement "Isotropic below the gate"; killed by "Morphology demanding forward peaking". See [Row 2: isotropic scattering below the gate](/wiki/predictions/scattering-isotropy).
 - **Row 3, the island discriminant.** "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave", a diagnostic that selects between particle and wave χ rather than a kill condition. See [Row 3: the island discriminant](/wiki/predictions/island-discriminant).
 

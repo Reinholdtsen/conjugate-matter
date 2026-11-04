@@ -1,0 +1,156 @@
+{
+ "queries_run": [
+  {
+   "conjecture": "C6",
+   "database": "OpenAlex title_and_abstract (lit.py openalex --size 200): REFUSED, HTTP 429 (lit.py's six attempts, 61 s); free daily budget for this IP used up until 2026-11-04 00:00 UTC; Q02-Q26 therefore not sent",
+   "query": "\"dark matter\" \"velocity alignment\"",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C7",
+   "database": "arXiv API (lit.py arxiv); round-1 g5 query that never ran",
+   "query": "abs:Weber AND abs:gravitational AND (abs:\"velocity-dependent\" OR abs:\"velocity dependent\") AND (abs:galaxies OR abs:\"dark matter\" OR abs:\"rotation curves\")",
+   "hits": 0,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C7",
+   "database": "arXiv API (lit.py arxiv); control showing the zero above is not a parsing failure",
+   "query": "abs:Weber AND abs:gravitational",
+   "hits": 59,
+   "new_records_screened": 48,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C2",
+   "database": "arXiv API (lit.py arxiv); round-1 g2 title lookup (a collision), resolved in round 1 by INSPIRE and Crossref",
+   "query": "ti:\"Exponential localization of Wannier functions in insulators\"",
+   "hits": 1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C1",
+   "database": "Semantic Scholar public API, no key: REFUSED, HTTP 429; S2-S4 therefore not sent",
+   "query": "dark matter as matter localized in momentum space Born reciprocity",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "OpenAlex single-work lookup (charged $0; its headers show the budget: remaining 0 of 0.1 USD, reset in 11441 s)",
+   "query": "works/W3153563614 (Khademi 2009)",
+   "hits": 1,
+   "new_records_screened": 1,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "Handle server API (hdl.handle.net)",
+   "query": "20.500.12415/6128",
+   "hits": 1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "Maltepe University repository: landing page, OAI-PMH GetRecord, DSpace REST pid/find, PDF bitstream 371.pdf: HTTP 403 (nginx) each",
+   "query": "handle 20.500.12415/6128",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "Wayback Machine availability API and CDX index",
+   "query": "openaccess.maltepe.edu.tr URLs containing 12415/6128 (item pages, bitstreams); and 12415/2255",
+   "hits": 2,
+   "new_records_screened": 1,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "OpenAIRE search API (no key)",
+   "query": "title=Why magnetic monopoles are not seen",
+   "hits": 1,
+   "new_records_screened": 1,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "CORE API v3 (HTTP 429) and core.ac.uk search (bot check)",
+   "query": "\"Why magnetic monopoles are not seen\"",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "BASE web search (JavaScript proof-of-work page, no results served)",
+   "query": "\"Why magnetic monopoles are not seen\"",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "Google Books API (HTTP 429, daily quota)",
+   "query": "isbn:9786052124154",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "Semantic Scholar title match (HTTP 429)",
+   "query": "Why magnetic monopoles are not seen",
+   "hits": -1,
+   "new_records_screened": 0,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "WebSearch (extended)",
+   "query": "\"Why magnetic monopoles are not seen\" Khademi \"International Conference of Mathematical Sciences\" 2009",
+   "hits": 9,
+   "new_records_screened": 9,
+   "read_in_full": 0
+  },
+  {
+   "conjecture": "C3",
+   "database": "WebSearch (standard) and WebFetch of maltepe.edu.tr/icms/en/proceedings",
+   "query": "\"International Conference of Mathematical Sciences\" 2009 Maltepe University proceedings abstracts pdf ISBN 9786052124154",
+   "hits": 10,
+   "new_records_screened": 10,
+   "read_in_full": 0
+  }
+ ],
+ "findings": [
+  {
+   "conjecture": "C3",
+   "id": "hdl:20.500.12415/6128",
+   "citation": "S. Khademi, \"Why magnetic monopoles are not seen?\", International Conference of Mathematical Sciences (Maltepe Üniversitesi, 2009), pp. 365-366, ISBN 9786052124154; Maltepe University open-access repository, hdl:20.500.12415/6128 (now 20.500.12415/2255 in OpenAIRE), CC0; OpenAlex W3153563614 (conference proceedings: a two-page contribution; OpenAIRE marks it nonPeerReviewed)",
+   "relation": "related",
+   "summary": "Explains the non-detection of magnetic monopoles by quantum uncertainty in phase space. The abstract: Maxwell's dual symmetry predicts monopoles, which have not been detected, and Dirac obtained charge quantization from them; the paper shows that 'the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles'. Read from the repository's own item page as archived by the Wayback Machine (2021-05-10) and from OpenAIRE's harvest of the repository (2026-08-19). The two-page text (371.pdf) could not be retrieved.",
+   "difference": "Same question as C3 (why monopoles are not seen) and the same kind of agent, position-momentum (phase-space) quantum uncertainty, which C3's own statement uses (an object compact in momentum is spread in position by about hbar/Delta p). The abstract does not say where the monopoles live: no momentum space, conjugate or p-polarized sector, Born reciprocity, dark matter or abundance, and no claim that position-space searches miss objects compact in momentum. Only the two-page text can show whether its argument is C3's mechanism (which would make it partial) or another use of phase-space uncertainty, and it is still unread. Inference, not read: its 'phase space quantum mechanics' is probably the Kirkwood phase-space picture of Khademi and Nasiri 2008 (J. Phys. Conf. Ser. 128, 012016; C4 related in findings.json), which obtains charge quantization without monopoles. The repository lists Khademi alone; round 3's Zanjan faculty listing gives S. Khademi and S. Nasiri for a talk of the same title at the Multiphysics conference, Lille, December 2009 (not checked). It is the closest item to C3 the check has found.",
+   "quotes": [
+    {
+     "text": "In this paper I show the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles.",
+     "where": "abstract",
+     "check": "FOUND with lit.py's norm() (round5/scripts/qlocal.py) in two copies: the repository's item page as archived by the Wayback Machine (capture 20210510055659, round5/khademi/wayback/item-20210510.html) and the OpenAIRE record harvested from the repository (round5/khademi/agg4.body); lit.py quote cannot reach either (no DOI or arXiv id; the repository answers HTTP 403)"
+    },
+    {
+     "text": "Dual symmetry of Maxwell’s equations predicts the existence of magnetic monopoles which are not detected until now.",
+     "where": "abstract",
+     "check": "FOUND with lit.py's norm() (round5/scripts/qlocal.py) in two copies: the repository's item page as archived by the Wayback Machine (capture 20210510055659, round5/khademi/wayback/item-20210510.html) and the OpenAIRE record harvested from the repository (round5/khademi/agg4.body); lit.py quote cannot reach either (no DOI or arXiv id; the repository answers HTTP 403)"
+    }
+   ]
+  }
+ ],
+ "khademi_2009": "Abstract read; full text still unreadable. The handle server API resolves hdl 20.500.12415/6128 to openaccess.maltepe.edu.tr/handle/20.500.12415/6128; the repository answers a plain nginx 403 to the landing page, OAI-PMH GetRecord, the DSpace REST API and the PDF bitstream, as on 2026-11-02 (not worked around). The Wayback Machine holds the repository's own item page (DSpace 6.2, capture 2021-05-10, HTTP 200), and OpenAIRE's API returns the same record harvested from the repository (collected 2026-08-19, now under handle 20.500.12415/2255 after a renumbering). Both give the abstract and the metadata: conference object, 'Why magnetic monopoles are not seen?', Siamak Khademi alone, source 'International Conference of Mathematical Sciences', publisher Maltepe Üniversitesi, 2009, pp. 365-366, ISBN 9786052124154, CC0, full text 371.pdf (97.93 KB); OpenAIRE marks it nonPeerReviewed. Abstract, verbatim (FOUND with lit.py's norm() in both copies): 'Dual symmetry of Maxwell’s equations predicts the existence of magnetic monopoles which are not detected until now. As an important consequence of this prediction, the quantization of electric charge is obtained by P.A.M. Dirac. In this paper I show the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles.' The PDF was never archived (CDX: no bitstream URL). The other routes failed: OpenAlex W3153563614 has one location (the repository), no abstract, closed; CORE gave API 429 and a web bot check; BASE served a JavaScript proof-of-work page; Google Books gave 429 for the ISBN; Semantic Scholar's title match gave 429; two web searches and Maltepe's ICMS proceedings page found no copy and no 2009 volume. Label for C3: related, conservatively. It explains the same null result by phase-space quantum uncertainty, but the abstract does not place the monopoles in momentum space, so C3's 'not found' stands on the abstract. The two-page text could raise the item to partial, and it is still unread.",
+ "notes": "OPENALEX HAD NOT RESET. The task's premise did not hold: round 3 used up the free daily budget at about 01:04 UTC on 2026-11-03, and it renews at 00:00 UTC on 2026-11-04 (16:00 PST on 2026-11-03). At 20:49 UTC a free single-work lookup returned x-ratelimit-remaining-usd 0 of 0.1 and x-ratelimit-reset 11441 s. Q01 was sent once through lit.py at 20:52 UTC and refused (OpenAlex error 429). Per the instruction, the OpenAlex part stopped there: 25 of the 26 collected OpenAlex queries (Q02-Q26) were never sent. Semantic Scholar refused the first of its four queries (429), and the other three were not sent. COLLECTED: 26 OpenAlex, 4 Semantic Scholar and 2 arXiv queries, each with its conjecture and source, are in work/literature-check/round5/not-run-queries.json. Where round 3 recorded only a topic (five C5 topics; three lineage phrase sweeps; the C7 velocity-dependent-gravity set), the query string is round 5's formulation and is marked 'formulated'. Round 3's notes name six re-run queries outside its JSON query lists (Q08-Q13). Five recorded errors need no rerun: two round-1 arXiv queries ran later in round 1 (10 and 16 hits), Crossref cp01-cp03 ran at once in round 3, the curl probe is not a search, and one lineage phrase is contained in Q22. RAN: arXiv A1 (C7) gave 0 hits; a broader control gave 59 hits, 50 screened by title, nothing new bearing on C7. A2 returned Brouder et al. 2007, already in the record. Two web-search hits screened for C3 add nothing: Sidharth 2001 is already in the record, and Kováčik-Prešnajder 2018 (1804.10679) reformulates quantum mechanics with monopoles and does not address their non-detection. NEW FINDINGS: one, Khademi 2009 for C3 (related), above. No collisions worth listing; no evidence-against. FOR THE RECORD (not edited here): notes/literature-check.md §4 says OpenAlex holds the item's title and no abstract and that C3's 'not found' stands until it is read. The abstract is now read and does not state C3, so 'not found' stands on the abstract, with the full text unread. The note's reference list should take the full citation (title with '?', ICMS 2009, pp. 365-366, ISBN), and §4's list of other accounts of the null result could add it. TO FINISH AFTER 00:00 UTC: python3 work/literature-check/round5/scripts/run_openalex.py. It checks the budget with a free lookup and sends nothing at zero; otherwise it sends Q01-Q26 once each through lit.py, stops at the first 429, and screens each answer against findings.json and known.json (out/<ID>.screen.tsv); --dry-run lists the commands. SIDE EFFECT: lit.py wrote new arXiv API entries and lock timestamps into work/literature-check/cache/; the gate does not read that cache. Nothing else outside work/literature-check/round5/ was edited. Working notes: work/literature-check/round5/notes.md; every request sent: work/literature-check/round5/queries.tsv."
+}

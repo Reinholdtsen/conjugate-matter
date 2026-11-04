@@ -1,0 +1,13 @@
+[
+ {"database": "WebSearch (standard)", "query": "Castro Perelman \"Is dark matter and black hole cosmology an effect of Born's reciprocal relativity theory\" pdf", "hits": "10 results; no free full text (redi.cedia.edu.ec record, restricted)"},
+ {"database": "WebSearch (extended)", "query": "dark matter is matter localized in momentum space instead of position space Born reciprocity hypothesis", "hits": "10 results; only Delbourgo-Lashmar 2007, Bolognesi 2015, Castro Perelman 2019, Minic 2020, Edmonds-Minic-Takeuchi 2021 relevant"},
+ {"database": "WebSearch (extended)", "query": "\"dark matter\" \"momentum space\" mirror universe matter organized in momentum rather than position viXra OR preprint", "hits": "10 results; mirror-world dark matter only, nothing on momentum-organized matter"},
+ {"database": "WebSearch (extended)", "query": "\"conjugate dark matter\" OR \"reciprocal dark matter\" OR \"momentum-space dark matter\" hypothesis phase space duality", "hits": "9 results; Suleiman (reciprocal matter/dark-matter duality, low-profile venue), Al-Fadhli 2021, BHM 2022; none states C1"},
+ {"database": "WebSearch (standard)", "query": "\"Dark Matter from Dual-Manifold Coupling\" Sheng Ran", "hits": "10 results; report not found"},
+ {"database": "WebSearch (standard)", "query": "Freidel Leigh Minic \"Manifest non-locality in quantum mechanics, quantum field theory and quantum gravity\" dark matter metaparticles", "hits": "10 results; chapter text not found; Minic's Miami 2020 talk abstract (Dec 2020)"},
+ {"database": "WebFetch", "query": "https://iopscience.iop.org/article/10.1088/1742-6596/804/1/012032/pdf (FLM 2017, J. Phys. Conf. Ser. 804 012032)", "hits": "PDF retrieved; text extracted with pypdf; one sentence on dark matter"},
+ {"database": "WebFetch", "query": "https://arxiv.org/abs/2003.00318 and https://arxiv.org/abs/1605.04361 (comments fields)", "hits": "venues: 10th Mathematical Physics Meeting, Belgrade; Gravity Research Foundation 2016 honorable mention"},
+ {"database": "WebFetch", "query": "https://www.worldscientific.com/doi/10.1142/S0217751X19410045 (FLM 2019, IJMPA 34 1941004)", "hits": "HTTP 403; not retrieved"},
+ {"database": "WebFetch", "query": "https://www.mdpi.com/2673-9984/2/1/61 (Al-Fadhli 2021); https://doi.org/10.55277/researchhub.unu7fof1.2 (Sheng Ran 2025)", "hits": "HTTP 403 and 404; Al-Fadhli read via INSPIRE abstract instead (not relevant); Sheng Ran not retrieved"},
+ {"database": "WebFetch", "query": "https://physics.as.miami.edu/_assets/pdf/miami-2020-conference-mdjordje.pdf", "hits": "Minic talk abstract, Miami 2020 (December 2020): later than arXiv:2003.00318"}
+]

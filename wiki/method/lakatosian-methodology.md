@@ -15,6 +15,9 @@ sources:
   - "review/round3-adjudication.md 'Decisions'"
   - "HANDOFF.md §1"
   - "CLAUDE.md preamble"
+  - "notes/literature-check.md §2–§6"
+  - "notes/literature-check.md §9"
+  - "review/wiki-build-flags.md items 64, 66, 67"
 ---
 
 *Lakatos's methodology of scientific research programmes is an account, from the philosophy of science, of how a body of scientific work is judged over time rather than one hypothesis at a time. A programme keeps a hard core of assumptions fixed and surrounds it with auxiliary hypotheses that are revised when predictions fail. It counts as progressive while its revisions lead to new predictions, some of which are then confirmed, and as degenerating while its revisions only absorb failures after the fact. The Comatter program describes its own status in these terms, "a Lakatosian research program, not a theory", and [checkpoint #11](/wiki/history/documents/checkpoint) closes with an assessment sorted into hard core, progressive signs, degeneration risks and falsification exposure.*
@@ -75,7 +78,7 @@ In Lakatos's terms (the wiki's reading [T]), every item #11 lists as progressive
 
 ### Novelty and its demotion
 
-Novelty carries the weight in Lakatos's grading, and the program's record shows two claims losing it. A literature search placed the vacuum-energy identity of §7.3 next to known work, and #11 downgraded it "from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature,"" (#11 §7.4, PM being [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity); [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). [Review round 3](/wiki/method/review/round-3) identified the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) as a result of Freidel, Leigh and Minic, and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks.
+Novelty carries the weight in Lakatos's grading, and the program's record shows claims losing it. A literature search placed the vacuum-energy identity of §7.3 next to known work, and #11 downgraded it "from "likely standalone result" to "requires detailed comparison with the PM and exchange-symmetric literature,"" (#11 §7.4, PM being [partially massless](/wiki/gravity/spin-2-fields/partially-massless-gravity); [the vacuum-energy identity](/wiki/gravity/palindromic-branch/vacuum-energy-identity)). [Review round 3](/wiki/method/review/round-3) identified the [compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) as a result of Freidel, Leigh and Minic, and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks. The [literature check](/wiki/method/literature-check) of 2026-11-02 found more prior art. P.R.'s identification of dark matter with conjugate matter is published in its core, by Minic and coauthors since 2020, and three more of his conjectures are published in part. #11 §10's corrected dictionary, one of the two corrections that §15 says sharpened the hard core, is as a map of fluid variables the scale-factor duality of string cosmology with sources; and §11.3's bridge between electric–magnetic duality and Born reciprocity, on which the unification that §15 counts among the program's products rests, is a published remark. The dictionary's derivation from a·ã = 1 is the program's, and the unification conjecture itself was not found (flags 64, 66 and 67 in `review/wiki-build-flags.md`, pending). Prior art changes no claim's status.
 
 ### Degeneration flags in the calc notes
 
@@ -129,3 +132,4 @@ Added by the wiki from model memory (†); no program document cites them.
 - `notes/wave-island.md` 'What pins g?' and `notes/ufd-endpoint.md` 'Verdict and closure of the clumping problem' — the degeneration flag on the wave island
 - `notes/broken-born-program-v1.md` §11 — the v1 assessment (superseded by #11 §15)
 - `HANDOFF.md` §1 and root `CLAUDE.md` (preamble) — "a Lakatosian research program, not a theory"
+- `notes/literature-check.md` §2–§6, §9 and `review/wiki-build-flags.md` items 64, 66, 67 — the identification published since 2020, three conjectures published in part, the corrected dictionary as scale-factor duality, §11.3's bridge as a published remark; no status changed; the flags pending

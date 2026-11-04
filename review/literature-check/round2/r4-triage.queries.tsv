@@ -1,0 +1,31 @@
+database	query or action	hits / result
+INSPIRE	lit.py show recid:N for the 65 listed records (outputs in show/)	65 records; 63 with abstracts (263890 and 11426 have none)
+arXiv HTML	lit.py text ID for the 41 records with an arXiv id (outputs cached in ../../cache/text/, headings in text/*.head)	40 full texts; math-ph/0404077 has no HTML
+arXiv PDF	WebFetch https://arxiv.org/pdf/math-ph/0404077, saved PDF copied to download-low2004/, text extracted with pypdf (python3 -P g4 pdf2txt.py)	71 pages, 161341 characters
+local	count_terms.py over the 40 cached texts (term-counts.txt)	per-paper counts of 9 term groups
+arXiv HTML	lit.py text 2610.19522 --grep 'dark energy|cosmological constant' 'dark matter' 'dual (space|spacetime|sector|degrees)'	13 / 3 / 10 matches
+arXiv HTML	lit.py text 2109.01122 --grep 'dark energy|cosmological constant' 'dual|reciproc|Born|metastring|conjugate' 'contract|collaps|accelerat'; then '\[..7[1-3]' and 'modular|non-commutativ|phase space|T-dual'	13 / 6 / 3; metastring refs cited only for closed-string zero modes
+arXiv HTML	lit.py text 2202.05266 --grep 'dual|reciproc|Born|metastring|modular|momentum space|phase space' 'contract|collaps|stiff|kinetic' 'w_eff|phantom|equation of state'	1 (inside "individually") / 1 / 24
+arXiv HTML	lit.py text 1801.07575 --grep 'dark energy|cosmological constant' 'bimetric|two universes|scale factors|contract|collaps|shrink' 'Born|reciproc|noncommutat|momenta'; then 'patch|causal|interacting sectors|two metrics'	13 / 6 / 2; 8
+arXiv HTML	lit.py text 0804.0213 --grep 'dark energy|cosmological constant' 'dark matter' 'contract|collaps|bounce' 'accelerat'	14 / 3 / 17 / 4
+arXiv HTML	lit.py text 1904.11338 --grep 'dark energy|cosmological constant|accelerat' 'collaps|contract' 'Born|reciproc|momentum'	13 / 4 / 18
+arXiv HTML	lit.py text 1903.10879 --grep 'cosmolog|universe' 'Born|reciproc|Caianiello|maximal acceleration|pseudo-imaginary|velocit'; then 'interpreted as an energy-momentum|vacuum fluctuation|phenomenolog|ansatz|...'	17 / 9; 12
+arXiv HTML	lit.py text 1202.6561, 1812.08440, 2202.08225, 2204.03509 --grep 'cosmolog|accelerat.. expansion|expansion of the universe' 'Born|reciproc|momentum|Caianiello'	2/18, 1/17, 1/15, 2/30
+arXiv HTML	lit.py text 2005.08927, 1601.00662, 1810.03432 --grep '\bdual|reciproc|metastring|modular|Born geometry|momentum space|phase space|T-dual' 'collaps|contract|velocity space|clump'	0/2, 0/4, 7 (holographic duals)/0
+arXiv HTML	lit.py text 2111.05659 --grep 'Born reciprocity|reciprocity|metastring|modular spacetime|Born geometry|dual spacetime'; 'dual matter|dual gravity|...'; clump/condensat/velocity-space tallies	22; 4; clump 0, condensat 25 (BEC, ghost condensation), velocity space 3 (Finsler)
+arXiv HTML	lit.py text on 9 papers (2404.17075 2008.01729 2501.18144 2410.03808 2104.14306 hep-th/0211053 2311.18470 1012.4758 1804.00744) --grep 'dark energy|cosmological constant|vacuum energy|accelerat.. expansion' (text/batch1.grep)	generic mentions only
+arXiv HTML	lit.py text on 9 papers (1807.06451 1804.09177 2105.08167 2102.01042 hep-th/0012209 2005.02069 1903.01243 2410.03808 2008.01729) --grep 'velocity[ -]space|momentum[ -]space|relative velocit|clump|condensat|collaps' (text/batch2.grep)	momentum-space field definitions, BEC mentions, algebra limits
+arXiv HTML	lit.py text gr-qc/0507090 --grep 'velocit' 'dark matter'	7 / 8
+arXiv HTML	lit.py text hep-th/0312016, 1012.4758 --grep 'clump|condensat'	1 ("condensated in the inequalities") / 1 (condensed-matter analogy)
+arXiv HTML	lit.py text 2404.17075 --grep '\bBorn\b|reciproc'; 2005.08927 --grep 'nature of dark matter|quantum gravity|infinite statistics|dark matter quanta'	4 (Born 1949 cited for reciprocity-invariant Hamiltonians); 4 (metaparticles as a dark-matter candidate)
+arXiv HTML	lit.py text 2501.18144 --grep 'Freidel|metastring|modular|\bBorn\b|reciproc|self-dual'	3 (FLM 2016, FKGLM 2023 cited for UV-IR mixing)
+arXiv API	all:"Born-Kothari" OR (au:Ghosh_Arnab AND abs:condensation AND abs:Fermi)	0
+INSPIRE	t "Born-Kothari" or abstracts.value:"Born-Kothari"	2 (recid:1625396, recid:1515614)
+WebSearch (standard)	"Born-Kothari condensation" fermions Born reciprocity highest momentum	10 results; only the Entropy review on topic (paraphrase, not quotable)
+WebFetch	https://www.mdpi.com/1099-4300/19/9/479 ; .../479/htm ; https://doaj.org/article/e768b3f85e8d4c19829a2949fa636d54	403, 403, 403
+Crossref	lit.py doi 10.1007/BF02745135 10.1007/BF00690077	metadata only, no abstracts
+INSPIRE	a Struckmeier and (t "dark energy" or t cosmolog or t "cosmological constant") --sort mostcited	7
+INSPIRE	lit.py refs recid:1812235 (filtered for Struckmeier|Vasak|canonical|cosmolog|dark energy)	15 lines; CCGG cosmology is Vasak-Kirsch-Struckmeier 2019
+INSPIRE	lit.py show 1910.01088	CCGG dark energy from torsion and a quadratic Riemann-Cartan term
+local	grep of */search.json, round2/*.json, screen*.json for Castro Perelman 2020 (recid:1789711)	on round2/r3-dark-energy.json; not mine
+lit.py quote	16 quotes: recid:1515614 x2, recid:1625396 x2, 2111.05659 x4, 2610.19522 x4, 1801.07575 x4	all FOUND (abstract for the two recids and one 1801.07575 quote; full text otherwise)

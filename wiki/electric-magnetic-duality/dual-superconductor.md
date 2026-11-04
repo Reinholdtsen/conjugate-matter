@@ -53,7 +53,7 @@ The cleanest realization is in a supersymmetric theory. In N = 2 super Yang–Mi
 
 The dual superconductor is one of the three established results that #11 lists against P.R.'s founding supposition 11, a magnetic counterpart for every electrically charged particle:
 
-- **The fate of the supposition** (#11 App. A item 11): "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition" ([the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [founding suppositions and their fates](/wiki/program/founding-suppositions)).
+- **The fate of the supposition** (#11 App. A item 11): "A full magnetic mirror-family, quarks included — alive as established physics (Montonen–Olive, Seiberg, dual superconductor), absorbed as §11 with the polarization identification as the program-native addition" (flag 67 in `review/wiki-build-flags.md`, pending; [the magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family); [founding suppositions and their fates](/wiki/program/founding-suppositions)).
 - **The vocabulary.** Magnetic counterparts of quarks appear in Seiberg's dualities: "magnetic quarks" is "standard vocabulary via Seiberg duality [18†]" (#11 §11.2).
 - **How #11 describes the idea's standing.** The italic opening of §11 calls the mirror-family, magnetic quarks included, "the leading candidate for the mechanism that confines quarks". The technical record calls the dual superconductor "the leading mechanism for why free quarks are never seen", tagged [T].
 

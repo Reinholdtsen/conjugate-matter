@@ -1,0 +1,1410 @@
+{
+ "group": "g3-magnetic-mirror",
+ "findings": [
+  {
+   "id": "arXiv:2111.14205",
+   "citation": "P. Berglund, T. Hübsch, D. Minic, 'Mirror Symmetry, Born Geometry and String Theory', conference paper, Nankai Symposium on Mathematical Dialogues (online, August 2021), arXiv:2111.14205 (INSPIRE lists no journal). The same passage is repeated in their review 'On de Sitter Spacetime and String Theory', Int. J. Mod. Phys. D 32 (2023) 2330002, arXiv:2212.06086.",
+   "relation": "partial",
+   "summary": "In a metastring (Born-geometry) reading of the heterotic string, the second E8 comes from the dual coordinates x~ and the first from the ordinary ones. The authors say the Born-geometry pairing eta makes the second E8's roots 'reciprocal' to the first's, which 'identifies' it as the Langlands dual, 'i.e., the electro-magnetic dual'. They call the x~-dependent gauge fields 'dark' and correlate the visible E8 fields with the 'dark' E8~ fields. This is the reciprocity structure making the gauge group of the dual (dark) sector the electric-magnetic dual of ours: a gauge-group-level form of the separate-photon form's core. It is the only paper found that joins Born geometry, a dual/dark sector and electric-magnetic duality.",
+   "difference": "It is about gauge groups, not matter: it does not say the dual sector's particles carry the magnetic counterparts of our electric charges. E8 is its own Langlands dual, and the authors say the two are 'physically indistinguishable', so the identification has no physical consequence here. The dual sector is the T-dual coordinate space x~ of the metastring, not a spontaneously selected momentum polarization of matter. There is no photon, no coupling relation (the S-image of alpha), no shared-photon form and no monopoles. Their dark-matter proposal (Berglund, Hübsch, Minic, LHEP 2021 186, arXiv:2010.15610: dark matter 'comes from the degrees of freedom dual to the visible matter') has no electromagnetic or magnetic content (full-text grep: 0 hits). None of the 10 citing papers, nearly all by the same authors, develops the claim.",
+   "confidence": "medium",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "This implies that the roots of \\widetilde{E}_{8} are \\eta -canonically reciprocal to those of E_{8} — which identifies \\widetilde{E}_{8} as the Langlands dual, E^{\\vee}_{8} [18], i.e., the electro-magnetic dual",
+     "where": "full text, list of implications of the metastring structure, item 2",
+     "check": "lit.py quote: FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "text": "and they are physically indistinguishable",
+     "where": "full text, item 2 (continues: \"Being simply laced, E8^vee ~ E8\")",
+     "check": "lit.py quote: FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "text": "These originally bi-local fields then give rise to both an E_{8} -gauge field plus the dual (“dark”) field valued in the same E_{8} algebra.",
+     "where": "full text, item 3(b)",
+     "check": "lit.py quote: FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "text": "additionally links the two copies of E_{8} as each other’s Langlands dual",
+     "where": "full text, paragraph after item 4",
+     "check": "lit.py quote: FOUND: 2111.14205 — searched full text (https://arxiv.org/html/2111.14205)"
+    },
+    {
+     "text": "i.e., the electro-magnetic dual",
+     "where": "arXiv:2212.06086 (IJMPD review), section 6, item 2",
+     "check": "lit.py quote: FOUND: 2212.06086 — searched full text (https://arxiv.org/html/2212.06086)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2302.03526",
+   "citation": "J. Govaerts, 'Magnetic monopoles with no strings attached: a portal to the dark side of dual electrodynamics', Eur. Phys. J. C 83 (2023) 158, arXiv:2302.03526.",
+   "relation": "partial",
+   "summary": "In SO(2)-dual electrodynamics written with doubled potentials, an action principle for point charges gives a generalised Lorentz force. Under it, electrically and magnetically charged matter are electromagnetically 'dark' to each other except through one new coupling. The conclusions ask whether this gives a dark-matter candidate: 'a dark parallel world of purely magnetically charged matter' that interacts 'ever so weakly' with 'the purely electrically charged matter of our visible Universe' while contributing to the energy-momentum tensor. As a question, this states the magnetic half of (dual) electromagnetism as a dark, gravitating mirror of our electric matter: the core of C4's shared-photon form.",
+   "difference": "There is no position-momentum structure: the magnetic world is dark because of the form of the action-derived Lorentz force, not because it is localized in momentum. There is no Born reciprocity, no polarization, and no claim that each electrically charged particle has a magnetic analog. It is posed as a question, with no model of the magnetic matter's spectrum, abundance or Parker-bound status. The darkness rests on a Lorentz force that departs from the usual dual-invariant one. Citing papers (7) do not develop the dark-matter question beyond Vento 2025 (next entry).",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Could SO(2) dual electrodymamics provide yet another candidate for dark matter, with a dark parallel world of purely magnetically charged matter that would interact electromagnetically ever so weakly with the purely electrically charged matter of our visible Universe",
+     "where": "full text, Conclusions (\"electrodymamics\" sic)",
+     "check": "lit.py quote: FOUND: 2302.03526 — searched full text (https://arxiv.org/html/2302.03526)"
+    },
+    {
+     "text": "how to possibly access experimentally its “dark” dual magnetic sector through the use of the purely electric sector which makes up our visible world",
+     "where": "full text, Introduction (outline)",
+     "check": "lit.py quote: FOUND: 2302.03526 — searched full text (https://arxiv.org/html/2302.03526)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2507.06697",
+   "citation": "V. Vento, 'Dark monopoles', arXiv:2507.06697 (preprint, revised January 2026; INSPIRE lists no journal). Extended to the electroweak theory in J. García-Moreno, V. Vento, arXiv:2610.02083 (preprint).",
+   "relation": "partial",
+   "summary": "A two-photon (Cabibbo-Ferrari type) QED: the ordinary photon couples only to electric charge and an 'extraordinary' photon only to magnetic charge. The monopole and the extraordinary photon form the dark sector, with the monopoles taken to be the dark matter; the electron and the ordinary photon form the visible sector. Kinetic mixing turns electrons and monopoles into dyons, and a Schwinger condition ties the dark magnetic coupling g to e. The model is offered against the background of the monopole null result. This is C4's separate-photon form (magnetic analogs under their own photon, with a coupling Dirac-tied to ours) without the momentum polarization.",
+   "difference": "There is no position-momentum or reciprocity structure: the dark sector is an ordinary position-space sector. Ordinary matter is simplified to electrons and dark matter to one monopole species, not a full mirror family. The portal is kinetic mixing, which the program's strict P4 excludes. Nothing selects the electric frame by a vacuum event. Preprint only.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "we generalize QED to a two photon theory where the extraordinary photon and the monopole belong to the dark sector, and the ordinary photon and the electron to the non-dark sector",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 2507.06697 — searched abstract"
+    },
+    {
+     "text": "We depart from Cabibbo and Ferrari in that we will ascribe the monopoles to dark matter.",
+     "where": "full text, section 2 (Dark photons)",
+     "check": "lit.py quote: FOUND: 2507.06697 — searched full text (https://arxiv.org/html/2507.06697)"
+    },
+    {
+     "text": "For simplicity we will consider ordinary matter to be made just of electrons and dark matter just of monopoles.",
+     "where": "full text, section 2",
+     "check": "lit.py quote: FOUND: 2507.06697 — searched full text (https://arxiv.org/html/2507.06697)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/0008052",
+   "citation": "G. W. Gibbons, C. A. R. Herdeiro, 'Born-Infeld theory and stringy causality', Phys. Rev. D 63 (2001) 064006, arXiv:hep-th/0008052.",
+   "relation": "partial",
+   "summary": "The introduction says electric-magnetic duality is 'a special case of Born-Reciprocity', a rotation in phase space, with B and D = dL/dE as the canonically conjugate pair. It adds that Born reciprocity in string theory gives T-duality (citing Veneziano 1986), and that, after Hull and Townsend, T and S are both contained in U-duality. This is the bridge behind C4 (#11 §11.3: S-duality and Born's rho are one rotation; T and S inside U), stated as a remark in 2000.",
+   "difference": "It is a remark about the field phase space of nonlinear electrodynamics (the conjugate pair B, D), not about charges, the coupling tau -> -1/tau, or Lagrangian sublattices of the charge lattice. There is no matter sector, no magnetic analog, no momentum polarization of matter and no vacuum selection. #11 §11.3 tags the identification [D - structural; math T] and the U-duality analogy [T] without citing it.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "In fact electric-magnetic duality is a special case of Born-Reciprocity [10], a transformation which acts as a rotation in phase space",
+     "where": "full text, section 1 (Introduction); [10] = Born 1949",
+     "check": "lit.py quote: FOUND: hep-th/0008052 — searched full text (https://arxiv.org/html/hep-th/0008052)"
+    },
+    {
+     "text": "In non-linear electrodynamics, the phase space variables might be considered to be",
+     "where": "full text, section 1 (continues: \"B and D = dL/dE, which are canonically conjugate variables\")",
+     "check": "lit.py quote: FOUND: hep-th/0008052 — searched full text (https://arxiv.org/html/hep-th/0008052)"
+    },
+    {
+     "text": "Born reciprocity applied to string theory gives rise to T-duality [34]. According to Hull and Townsend [7] T and S duality are included in the more general U-duality symmetry.",
+     "where": "full text, section 1; [34] = Veneziano 1986, [7] = Hull-Townsend 1995",
+     "check": "lit.py quote: FOUND: hep-th/0008052 — searched full text (https://arxiv.org/html/hep-th/0008052)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2504.01467",
+   "citation": "J. G. Russo, P. K. Townsend, 'Causal chiral 2-form electrodynamics', JHEP 07 (2025) 048, arXiv:2504.01467.",
+   "relation": "partial",
+   "summary": "A concluding remark: the U(1) duality group of 4D self-dual nonlinear electrodynamics breaks to Z2 in the quantum theory, and 'this Z2 symmetry is an example of Born-reciprocity', citing Born 1938 and Freidel-Leigh-Minic 2014. It makes the same identification of electric-magnetic duality with Born's reciprocity as Gibbons-Herdeiro, by one of the authors of U-duality.",
+   "difference": "A one-sentence remark about the duality of the Maxwell field. It says nothing about charges, matter sectors, magnetic analogs or a momentum polarization.",
+   "confidence": "medium",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "this Z_{2} symmetry is an example of Born-reciprocity [31], which has more recently been argued to be an important feature of string theory",
+     "where": "full text, Conclusions; [31] = Born 1938, [32] = FLM 2014",
+     "check": "lit.py quote: FOUND: 2504.01467 — searched full text (https://arxiv.org/html/2504.01467)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2206.02638",
+   "citation": "E. Guendelman, D. Singleton, 'Momentum Gauge Fields and Non-Commutative Space-Time', Symmetry 15 (2023) 126, arXiv:2206.02638.",
+   "relation": "partial",
+   "summary": "The paper applies the gauge principle to x = i hbar d/dp, which introduces a momentum-space gauge field C(p) with its own coupling g. The authors call this 'a dynamical version of Born's reciprocity theory' and say Born reciprocity 'would imply that for every ordinary gauge field there should be a corresponding momentum gauge field'. They ask whether g and e satisfy 'something like the Dirac quantization condition' between electric and magnetic charge, or are exchanged by Born reciprocity (e <-> g), and leave the question open. In the program's terms a gauge field local in momentum is the natural gauge field of a p-polarized sector. So this states the gauge structure of the separate-photon form, with the electric-magnetic coupling relation raised as a question.",
+   "difference": "The momentum gauge field couples to the position operator of ordinary particles. There is no separate p-polarized matter sector and no magnetically charged particle, and the Dirac-type relation is a question, not a claim. There is no dark matter. In the follow-ups, Guendelman-Wagner (CQG 40 (2023) 135007) has no magnetic content, and Copinger-Morales (PRD 108 (2023) 065013) make the momentum-space charges electric.",
+   "confidence": "low",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "which would imply that for every ordinary gauge field there should be a corresponding momentum gauge field",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND: 2206.02638 — searched full text (https://arxiv.org/html/2206.02638)"
+    },
+    {
+     "text": "One can ask if there is some deeper connection or condition between the standard coupling e and momentum coupling g , perhaps something like the Dirac quantization condition [10] between electric and magnetic charge.",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND: 2206.02638 — searched full text (https://arxiv.org/html/2206.02638)"
+    },
+    {
+     "text": "We leave this question for future work.",
+     "where": "full text, section I (after \"via Born reciprocity require the couplings to be exchangeable i.e. e<->g\")",
+     "check": "lit.py quote: FOUND: 2206.02638 — searched full text (https://arxiv.org/html/2206.02638)"
+    }
+   ]
+  },
+  {
+   "id": "recid:352759",
+   "citation": "F. C. Adams, M. Fatuzzo, K. Freese, G. Tarle, R. Watkins, M. S. Turner, 'Extension of the Parker bound on the flux of magnetic monopoles', Phys. Rev. Lett. 70 (1993) 2511.",
+   "relation": "evidence-against",
+   "summary": "Survival and growth of a small galactic seed field bounds the flux of monopoles of our photon by 10^-16 (m/10^17 GeV) cm^-2 s^-1 sr^-1. This 'rules out the possibility that monopoles much lighter than 10^17 GeV/c^2 can provide the closure density'. It weighs against the shared-photon form if the analogs are localized in position and make up a large share of the dark matter.",
+   "difference": "It applies to ordinary, position-localized monopoles moving through galactic fields. #11 §11.4 already states the conflict (through #14's Parker comparison, not gated) and asks for p-localization or binding to hide the analogs. The bound says nothing about objects whose field profile is spread in position. Screening (Carneiro 2026, below) is a published third way such bounds are evaded.",
+   "confidence": "medium",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "This new limit rules out the possibility that monopoles much lighter than",
+     "where": "abstract (continues: \"10^17 GeV/c2 can provide the closure density of the Universe\")",
+     "check": "lit.py quote: FOUND: recid:352759 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1307.7080",
+   "citation": "L. Freidel, R. G. Leigh, D. Minic, 'Born Reciprocity in String Theory and the Nature of Spacetime', Phys. Lett. B 730 (2014) 302, arXiv:1307.7080 (the record's reference [3]).",
+   "relation": "related",
+   "summary": "In FLM's Born-reciprocal phase-space string, the 2d electrostatic picture of vertex-operator correlators 'generalizes to 2d electromagnetism with electric and magnetic charges (dyons)' once vertices carry both momentum p and dual momentum p-bar. The 'Dirac-Schwinger-Zwanziger quantization of the dyon charges is equivalent to satisfying the diffeomorphism constraint'. Ordinary momenta play the electric charges and dual (Born-reciprocal) momenta the magnetic ones, and the DSZ pairing is the string's level matching.",
+   "difference": "It is a worldsheet (2d Coulomb-gas) analogy, not spacetime gauge charges of a matter sector. The record cites the paper only for Born geometry. It shows #11 §11.3's DSZ pairing inside a Born-reciprocal theory, with the dual polarization carrying the magnetic charge, but makes no claim about dark or conjugate matter. None of the 134 citing abstracts mentions magnetic charge, monopoles, dyons or S-duality.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "now generalizes to 2d electromagnetism with electric and magnetic charges (dyons), if we allow vertices with both",
+     "where": "full text",
+     "check": "lit.py quote: FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    },
+    {
+     "text": "The corresponding Dirac-Schwinger-Zwanziger quantization of the dyon charges is equivalent to satisfying the diffeomorphism constraint in the presence of these operators",
+     "where": "full text",
+     "check": "lit.py quote: FOUND: 1307.7080 — searched full text (https://arxiv.org/html/1307.7080)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/9501022",
+   "citation": "J. A. Harvey, G. W. Moore, A. Strominger, 'Reducing S duality to T duality', Phys. Rev. D 52 (1995) 7161, arXiv:hep-th/9501022.",
+   "relation": "related",
+   "summary": "For N=4 Yang-Mills on a two-torus, the S-duality predictions for the infrared conformal field theory follow from its T-duality: Montonen-Olive duality 'reduces to' the momentum-winding duality. Electric flux corresponds to momentum states and magnetic flux to winding states (T composed with a Z2). In a precise setting S-duality is a momentum-winding (polarization) exchange, which is stronger than a shared matrix.",
+   "difference": "One theory and a dual description of it: there is no second matter sector and no Born-reciprocity language. 'Momentum' is momentum on the internal torus.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Consequently, Montonen-Olive duality between electric and magnetic states reduces to the standard two-dimensional duality between momentum and winding states.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/9501022 — searched abstract"
+    },
+    {
+     "text": "The interchange of electric and magnetic charges effected by S-duality is essentially the familiar interchange of momentum and winding modes effected by T-duality.",
+     "where": "full text, section 1",
+     "check": "not reachable by lit.py (no HTML; abstract only: NOT FOUND there); checked against the arXiv PDF text, downloaded with WebFetch and extracted locally (checked by WebFetch only)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/0604151",
+   "citation": "A. Kapustin, E. Witten, 'Electric-Magnetic Duality And The Geometric Langlands Program', Commun. Num. Theor. Phys. 1 (2007) 1, arXiv:hep-th/0604151.",
+   "relation": "related",
+   "summary": "'Electric-magnetic duality in four dimensions reduces in two dimensions to T-duality of the sigma-model', a T-duality 'understood mathematically as a Fourier-Mukai transform'; the duality exchanges conserved momenta and windings of strings. Electric-magnetic duality becomes a Fourier-type exchange of conjugate variables.",
+   "difference": "As for Harvey-Moore-Strominger: one theory compactified on a Riemann surface. There is no matter sector, no momentum polarization of matter and no Born reciprocity.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Electric-magnetic duality in four dimensions reduces in two dimensions to T-duality of the sigma-model.",
+     "where": "full text, section 1",
+     "check": "not reachable by lit.py (no HTML; abstract only: NOT FOUND there); checked against the arXiv PDF text, downloaded with WebFetch and extracted locally (checked by WebFetch only)"
+    },
+    {
+     "text": "The T-duality of MH, understood mathematically as a Fourier-Mukai transform",
+     "where": "full text, section 1",
+     "check": "not reachable by lit.py (no HTML; abstract only: NOT FOUND there); checked against the arXiv PDF text, downloaded with WebFetch and extracted locally (checked by WebFetch only)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/9508021",
+   "citation": "Y. Lozano, 'S duality in gauge theories as a canonical transformation', Phys. Lett. B 364 (1995) 19, arXiv:hep-th/9508021.",
+   "relation": "related",
+   "summary": "S-duality of four-dimensional gauge theories is formulated as a canonical transformation in the phase space of the theory, giving tau~ = -1/tau. Electric-magnetic duality is a phase-space (conjugate-variable) transformation, as Born's rho is.",
+   "difference": "It acts in the field phase space and makes no matter or polarization claim.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We show that S-duality in four dimensional non-supersymmetric gauge theories can be formulated as a canonical transformation in the phase space of the theory.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/9508021 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1311.7069",
+   "citation": "D. Galakhov, A. Mironov, A. Morozov, 'S-Duality and Modular Transformation as a non-perturbative deformation of the ordinary pq-duality', JHEP 06 (2014) 050, arXiv:1311.7069; also 'S-duality as a beta-deformed Fourier transform', JHEP 08 (2012) 067, arXiv:1205.4998.",
+   "relation": "related",
+   "summary": "In the AGT setting, S-duality of 4d supersymmetric gauge theories is perturbatively an ordinary Fourier transform, traced to [P,Q] = -i hbar. So S-duality is the p-q (Born-type) exchange deformed non-perturbatively.",
+   "difference": "Conformal blocks and Nekrasov functions; there is no matter sector or polarization of spacetime matter.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "is no more than an ordinary Fourier transform at the perturbative level",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1311.7069 — searched abstract"
+    },
+    {
+     "text": "In the simplest case, its lifting to the level of Nekrasov functions is just the Fourier transform",
+     "where": "abstract of arXiv:1205.4998",
+     "check": "lit.py quote: FOUND: 1205.4998 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/0605198",
+   "citation": "D. S. Freed, G. W. Moore, G. Segal, 'The Uncertainty of Fluxes', Commun. Math. Phys. 271 (2007) 247, arXiv:hep-th/0605198.",
+   "relation": "related",
+   "summary": "In quantum Maxwell theory on a curved 3-manifold, electric and magnetic fluxes cannot be measured simultaneously (torsion). So electric and magnetic flux form a conjugate, x-p-like pair, which is the operator content behind 'choosing an electric frame is choosing a polarization'.",
+   "difference": "A statement about flux observables of one theory, not about matter sectors or Born reciprocity.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "we observe that magnetic and electric fluxes cannot be simultaneously measured",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/0605198 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1706.07811",
+   "citation": "A. Riello, 'Self-dual phase space for (3+1)-dimensional lattice Yang-Mills theory', Phys. Rev. D 97 (2018) 025003, arXiv:1706.07811.",
+   "relation": "related",
+   "summary": "In a self-dual deformation of the lattice Yang-Mills phase space, where electric and magnetic fluxes are both group-valued, the author notes that electric-magnetic symmetry and Born reciprocity 'mirror each other in a mutual interplay'.",
+   "difference": "Field phase space on a lattice. The magnetic flux sits with the configuration variable (holonomy) and the electric flux with the momentum, the opposite of C4's assignment read naively (electric with position, magnetic with momentum). There is no matter claim.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "three notions of symmetry and duality mirror each other in a mutual interplay: the symmetry between the Yang–Mills electric and magnetic fields, the symplecto-geometric symmetry between position and momentum space (Born reciprocity",
+     "where": "full text, section on (3+1) dimensions",
+     "check": "lit.py quote: FOUND: 1706.07811 — searched full text (https://arxiv.org/html/1706.07811)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/9410167",
+   "citation": "C. M. Hull, P. K. Townsend, 'Unity of superstring dualities', Nucl. Phys. B 438 (1995) 109, arXiv:hep-th/9410167.",
+   "relation": "related",
+   "summary": "The U-duality group E7(Z) contains both the T-duality group O(6,6;Z) and the S-duality group SL(2;Z). This is the model #11 §11.3 invokes for 'one enlarged modular structure' ([T] in the record, uncited).",
+   "difference": "Dualities of one string theory; there is no conjugate matter sector. In it T maps electric momentum states to electric winding states, and S maps electric to magnetic objects; they act on different parts of the 56 charges.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "which contains both the T-duality group O(6, 6; ℔) and the S-duality group SL(2; ℔)",
+     "where": "abstract (INSPIRE renders Z as \"℔\")",
+     "check": "lit.py quote: FOUND: hep-th/9410167 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/9506011",
+   "citation": "E. P. Verlinde, 'Global aspects of electric-magnetic duality', Nucl. Phys. B 455 (1995) 211, arXiv:hep-th/9506011.",
+   "relation": "related",
+   "summary": "Maps the classical partition sum of Maxwell theory onto a 2d toroidal model. Electric-magnetic duality becomes modular invariance of the toroidal model, and conversely O(d,d) (T-) duality becomes invariance of Maxwell theory under the 4d mapping class group: S and T exchange roles.",
+   "difference": "A statement about partition functions of free U(1) theory; there is no matter sector or momentum polarization.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "This map relates electric-magnetic duality to modular invariance of the toroidal model",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/9506011 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:0908.3034",
+   "citation": "S. Bolognesi, 'On the Possibility of a Trans-Planckian Duality', Class. Quant. Grav. 26 (2009) 225001, arXiv:0908.3034.",
+   "relation": "related",
+   "summary": "Proposes a duality exchanging spacetime with energy-momentum space, explicitly meant as gravity's analog of electric-magnetic (strong-weak) duality. It asks whether the observed space/momentum asymmetry reflects 'the asymmetric conditions in which we live'. This is the same analogy as #11 §11.3, drawn from the other side.",
+   "difference": "Gravity only: there is no charge lattice, no magnetic charge and no matter sector carrying magnetic analogs. In the follow-up (arXiv:1506.02187) the momentum-manifold gauge field is 'not meant to be the electromagnetic gauge interaction'.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "The scope of this paper is to define something analogous to electro-magnetic, or strong-weak, duality for the gravitational field.",
+     "where": "full text, Introduction",
+     "check": "lit.py quote: FOUND: 0908.3034 — searched full text (https://arxiv.org/html/0908.3034)"
+    },
+    {
+     "text": "which exchanges a manifold of events (space-time), with a manifold of momenta (energy-momentum)",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 0908.3034 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1903.05673",
+   "citation": "R. J. Szabo, 'An Introduction to Nonassociative Physics', PoS CORFU2018 (2019) 100, arXiv:1903.05673 (conference proceedings).",
+   "relation": "related",
+   "summary": "Applies Born reciprocity, (x,p) -> (p,-x) of order 4, to electric charges moving in magnetic-charge backgrounds. This maps them to closed strings in non-geometric R-flux backgrounds, where the nonassociativity sits among the positions instead of the momenta. A second application maps M-theory R-flux to a non-geometric Kaluza-Klein monopole.",
+   "difference": "It maps a background of magnetic charge in position space to a flux (the R-flux) over momentum space: magnetic goes to a momentum-space magnetic-type object, not electric to magnetic. There is no second matter sector and no dark matter. Of the Born-reciprocity literature found, this applies rho to monopoles most explicitly, and it bears more directly on C2-C3.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We apply Born reciprocity to map this system to the phase space of closed strings propagating in R-flux backgrounds of string theory",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1903.05673 — searched abstract"
+    },
+    {
+     "text": "we invoke Born reciprocity, which interchanges the roles of local position and momentum coordinates through the mapping",
+     "where": "full text, section 3.1",
+     "check": "lit.py quote: FOUND: 1903.05673 — searched full text (https://arxiv.org/html/1903.05673)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1705.09639",
+   "citation": "D. Lüst, E. Malek, R. J. Szabo, 'Non-geometric Kaluza-Klein monopoles and magnetic duals of M-theory R-flux backgrounds', JHEP 10 (2017) 144, arXiv:1705.09639.",
+   "relation": "related",
+   "summary": "Defines the 'magnetic dual' of the M-theory R-flux algebra by interchanging position and momentum through a canonical transformation of order four (Born's rho). The R-flux gerbe over momentum space becomes the smeared magnetic-monopole gerbe over position space, realised as a delocalised, non-geometric Kaluza-Klein monopole.",
+   "difference": "Same pattern as Szabo 2019: the position-momentum exchange relates a momentum-space flux to a position-space magnetic charge, not electric charges to magnetic ones; these are backgrounds probed by branes, not a matter sector.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We call this the magnetic dual algebra and define it by interchanging the roles of position and momentum coordinates in the 3-bracket on the eight-dimensional phase space.",
+     "where": "full text, section 2.2",
+     "check": "lit.py quote: FOUND: 1705.09639 — searched full text (https://arxiv.org/html/1705.09639)"
+    },
+    {
+     "text": "the gerbe over momentum space, the R -flux, becomes a gerbe over position space, the smeared magnetic monopole",
+     "where": "full text, section 1",
+     "check": "lit.py quote: FOUND: 1705.09639 — searched full text (https://arxiv.org/html/1705.09639)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1309.3172",
+   "citation": "I. Bakas, D. Lüst, '3-Cocycles, Non-Associative Star-Products and the Magnetic Paradigm of R-Flux String Vacua', JHEP 01 (2014) 171, arXiv:1309.3172.",
+   "relation": "related",
+   "summary": "The 'magnetic paradigm': the R-flux string model is the analogue, with coordinates and momenta exchanged, of a point charge in a uniform distribution of magnetic charge.",
+   "difference": "As above: a background analogy, with magnetic charge in position space corresponding to flux over momentum space; it makes no matter-sector claim.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "The magnetic field analogue of the R-flux string model is provided by a constant uniform distribution of magnetic charge in space",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1309.3172 — searched abstract"
+    },
+    {
+     "text": "The structure of the commutators is the same, though the role of coordinates and momenta is exchanged, compared to the non-geometric flux vacua of closed string theory.",
+     "where": "full text, section 1",
+     "check": "lit.py quote: FOUND: 1309.3172 — searched full text (https://arxiv.org/html/1309.3172)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/0310167",
+   "citation": "A. Bérard, H. Mohrbach, 'Monopole and Berry phase in momentum space in noncommutative quantum mechanics', Phys. Rev. D 69 (2004) 127701, arXiv:hep-th/0310167.",
+   "relation": "related",
+   "summary": "The noncommutativity field theta(p) must be 'a dual Dirac monopole in momentum space'. Under the x <-> p duality, theta is 'a dual of a magnetic field' and its charge q_theta 'a dual of an electric charge'. The paper links this to the momentum-space Berry monopole of the anomalous Hall effect.",
+   "difference": "Born's x <-> p maps electric charge to a dual electric charge and magnetic field to a dual magnetic field, keeping electric with electric and magnetic with magnetic. It is a background field of noncommutative quantum mechanics, not magnetically charged matter.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We find consequently that this field must be obligatorily a dual Dirac monopole in momentum space.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/0310167 — searched abstract"
+    },
+    {
+     "text": "Then one can see the \\theta field like a dual of a magnetic field and q_{\\theta} like a dual of an electric charge.",
+     "where": "full text, after Eq. (2)",
+     "check": "lit.py quote: FOUND: hep-th/0310167 — searched full text (https://arxiv.org/html/hep-th/0310167)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2211.14165",
+   "citation": "P. Copinger, P. Morales, 'Emergent spacetime from a Berry-inspired dynamical gauge field coupled to electromagnetism', Phys. Rev. D 108 (2023) 065013, arXiv:2211.14165.",
+   "relation": "related",
+   "summary": "A local Abelian 'momentum gauge' field coupled to electromagnetism. Momentum space then carries electric charges of the momentum gauge field as well as Berry-phase monopoles, and the coupled Coulomb fields in configuration and momentum space give an emergent Newtonian gravity.",
+   "difference": "The momentum-space charges are electric under the momentum gauge field, the opposite of C4's assignment. There is no matter sector and no magnetic analog of our charges.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Whereas monopoles (magnetic charges) are understood in momentum space from Berry’s phase, locality makes possible electric charges in momentum space.",
+     "where": "full text, Introduction",
+     "check": "lit.py quote: FOUND: 2211.14165 — searched full text (https://arxiv.org/html/2211.14165)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1506.02187",
+   "citation": "S. Bolognesi, 'Born Reciprocity and Cosmic Accelerations', arXiv:1506.02187 (preprint).",
+   "relation": "related",
+   "summary": "A Born-reciprocal ('trans-Planckian') model with independent metrics and U(1) gauge fields on the position and momentum manifolds, and a matter field identified with dark matter.",
+   "difference": "The momentum-manifold gauge field is explicitly not electromagnetism: a universal 'graviphoton'. There is no magnetic charge. Its dark-matter and acceleration claims bear on C1 and C5, not C4.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "It is not meant to be the electromagnetic gauge interaction, but instead something that couples universally to all matter fields with the same charge",
+     "where": "full text, section 2",
+     "check": "lit.py quote: FOUND: 1506.02187 — searched full text (https://arxiv.org/html/1506.02187)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1808.09459",
+   "citation": "J. Terning, C. B. Verhaaren, 'Dark Monopoles and SL(2,Z) Duality', JHEP 12 (2018) 123, arXiv:1808.09459.",
+   "relation": "related",
+   "summary": "Kinetic mixing between two Abelian gauge theories, each with electric and magnetic charges. When one photon is massive, particles of one sector get parametrically small couplings to the other's photon, and the surviving duality is the diagonal SL(2,Z). This bears on how C4's separate-photon form would relate to its shared-photon form: the electric/magnetic assignment of a hidden sector becomes physical relative to ours only through mixing.",
+   "difference": "There is no position-momentum structure and no full mirror family; strict P4 forbids the mixing.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "including the failure of Dirac charge quantization as particles from one sector obtain parametrically small couplings to the photon of the other",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1808.09459 — searched abstract"
+    },
+    {
+     "text": "which is the diagonal subgroup of the dualities of the two un-mixed gauge theories",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1808.09459 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1906.00014",
+   "citation": "J. Terning, C. B. Verhaaren, 'Detecting Dark Matter with Aharonov-Bohm', JHEP 12 (2019) 152, arXiv:1906.00014.",
+   "relation": "related",
+   "summary": "Dark-U(1) monopoles acquire small magnetic couplings to our photon through kinetic mixing (below the dark photon mass), are bound by dark flux tubes, and could be seen by Aharonov-Bohm phases. This is dark matter carrying a small magnetic charge of our photon.",
+   "difference": "The charges are small, confined and in position space. There is no mirror family and no momentum polarization.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Magnetic monopoles of the dark $U(1)_D$ can obtain small magnetic couplings to our photon through this kinetic mixing.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1906.00014 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:0902.3615",
+   "citation": "F. Brümmer, J. Jaeckel, 'Minicharges and Magnetic Monopoles', Phys. Lett. B 675 (2009) 360, arXiv:0902.3615.",
+   "relation": "related",
+   "summary": "With kinetic mixing between our U(1) and a hidden U(1), angular-momentum quantization allows only certain combinations of ordinary and hidden monopole charge. This constrains any scheme in which a hidden sector's magnetic charges are related to ours.",
+   "difference": "Constrains charge assignments; it does not propose a magnetic mirror.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We find that angular momentum quantization allows only certain combinations of ordinary and hidden monopole charge.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 0902.3615 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2109.12771",
+   "citation": "T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, 'Gauge kinetic mixing and dark topological defects', JHEP 12 (2021) 122, arXiv:2109.12771.",
+   "relation": "related",
+   "summary": "With a massless dark photon kinetically mixed with ours, a dark monopole induces no QED magnetic flux. So a separate-photon sector does not become a shared-photon one through mixing alone; with a massive dark photon ('bead' configurations) a pseudo-monopole flux appears.",
+   "difference": "A statement about hidden-sector defects; there is no mirror family and no momentum polarization.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "The dark monopole, on the other hand, does not induce the QED magnetic flux in the U(1) symmetric phase, even in the presence of the kinetic mixing.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 2109.12771 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2105.05769",
+   "citation": "M. L. Graesser, I. M. Shoemaker, N. Tapia Arellano, 'Milli-magnetic monopole dark matter and the survival of galactic magnetic fields', JHEP 03 (2022) 105, arXiv:2105.05769.",
+   "relation": "related",
+   "summary": "Monopoles of a broken dark U(1) appear in our sector as confined milli-magnetically charged objects. As dark matter they are bounded by halo ellipticity and by an extended Parker bound.",
+   "difference": "The charges are small, not Dirac charges of our photon, and there is no mirror family or momentum polarization. Its Parker-type analysis is the kind the shared-photon form must pass.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "will appear in our sector as confined milli-magnetically charged objects under ordinary electromagnetism",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 2105.05769 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1705.01107",
+   "citation": "A. Hook, J. Huang, 'Bounding millimagnetically charged particles with magnetars', Phys. Rev. D 96 (2017) 055010, arXiv:1705.01107.",
+   "relation": "related",
+   "summary": "Milli-magnetic charges arise generically with kinetic mixing. Schwinger pair production at magnetars bounds them below 10^-18 over a wide mass range.",
+   "difference": "It bounds small magnetic charges of light particles; it does not test full-strength analogs or a momentum polarization.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Milli-magnetically charged particles generically appear in scenarios with kinetic mixing.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1705.01107 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1805.09649",
+   "citation": "J. Scott, T. J. Evans, D. Singleton, V. Dzhunushaliev, V. Folomeev, 'Dirac and non-Dirac conditions in the two-potential theory of magnetic charge', Eur. Phys. J. C 78 (2018) 382, arXiv:1805.09649.",
+   "relation": "related",
+   "summary": "In the Cabibbo-Ferrari two-potential theory, if only one kind of charged field is present a duality rotation removes either the electric or the magnetic charge. This bears on the separate-photon form: a sector whose particles are only magnetic under its own photon is, by that photon's duality, equivalent to one with electric charges at the dual coupling. 'Magnetic' is physical only relative to another charge of the same photon, or through mixing with ours.",
+   "difference": "A general point about two-potential theories, not a proposal of a mirror sector.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "With only one field one can always use a duality rotation to rotate away either the electric or magnetic charge, and thus decouple either the associated electric or magnetic photon.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1805.09649 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/9701044",
+   "citation": "D. Singleton, 'Magnetic charge as a \"hidden\" gauge symmetry', Int. J. Theor. Phys. 34 (1995) 37, arXiv:hep-th/9701044.",
+   "relation": "related",
+   "summary": "A two-potential theory with a second 'magnetic' photon, made massive by a Higgs mechanism so that magnetic charge and its symmetry are hidden at low energy. This is an early way of hiding the magnetic half of electromagnetism.",
+   "difference": "The magnetic half is hidden by a mass gap, not placed in a conjugate polarization, and nothing is said about dark matter.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "This problem is dealt with by using the Higgs mechanism to give a mass to one of the gauge bosons while the other remains massless.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/9701044 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2609.25324",
+   "citation": "S. Carneiro, 'Dual symmetry breaking and magnetic charge screening', arXiv:2609.25324 (preprint).",
+   "relation": "related",
+   "summary": "In dual electrodynamics with electric and magnetic Higgs fields, a vacuum in which only the magnetic scalar condenses screens magnetic charge but not electric charge. A vacuum thus picks the electric description, and the screened monopole is offered as a dark-sector candidate whose long-range signature, and hence the usual Parker-type bounds, are removed. This bears on the 'one vacuum event selects the electric sublattice' clause and is a third way, besides p-localization and binding, of hiding magnetic charges of our photon.",
+   "difference": "The vacuum selects the duality frame only, not a phase-space polarization of matter. It has no position-momentum structure and no mirror family. Preprint.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "The broken phase contains a natural dark sector candidate: the screened monopole.",
+     "where": "full text, section IX",
+     "check": "lit.py quote: FOUND: 2609.25324 — searched full text (https://arxiv.org/html/2609.25324)"
+    },
+    {
+     "text": "Conventional bounds on monopoles often rely on long-range acceleration by galactic or primordial magnetic fields",
+     "where": "full text, section IX",
+     "check": "lit.py quote: FOUND: 2609.25324 — searched full text (https://arxiv.org/html/2609.25324)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/0507204",
+   "citation": "J. A. Harvey, S. Jensen, 'Worldsheet instanton corrections to the Kaluza-Klein monopole', JHEP 10 (2005) 028, arXiv:hep-th/0507204; see also S. Jensen, JHEP 07 (2011) 088, arXiv:1106.1174.",
+   "relation": "related",
+   "summary": "The Kaluza-Klein monopole, a magnetic object and the T-dual of the NS5-brane, is localized in winding space, the coordinate dual to position under T-duality, and is probed only by strings with winding charge. This is a published case of a magnetic object hidden from position-space probes by localization in a dual coordinate, the kind of hiding the shared-photon form needs.",
+   "difference": "T-duality maps a magnetic object (NS5) to a magnetic object (KK monopole), not electric to magnetic. The magnetic charge is under the Kaluza-Klein gauge field, not our photon. It bears more directly on C2-C3.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "These corrections can be understood as a localization in winding space which could be probed by strings with winding charge around the circle.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/0507204 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-ph/9509271",
+   "citation": "T. Vachaspati, 'An Attempt to construct the Standard Model with monopoles', Phys. Rev. Lett. 76 (1996) 188, arXiv:hep-ph/9509271; H. Liu, T. Vachaspati, 'SU(5) monopoles and the dual standard model', Phys. Rev. D 56 (1997) 1300, arXiv:hep-th/9604138.",
+   "relation": "related",
+   "summary": "A model whose stable monopoles have magnetic charges identical to the electric charges of leptons and quarks, with colored monopoles confined. The SU(5) monopole spectrum reproduces one Standard Model family, 'a starting point for constructing the dual standard model'. This is a concrete magnetic mirror-family (founding supposition 11).",
+   "difference": "The aim is a dual description of the Standard Model particles themselves (to identify the monopoles with hadrons and leptons after dualizing), not a second physical sector. Everything is in position space. #11 §11.2 absorbs supposition 11 as established physics without citing these.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We construct a model in which stable magnetic monopoles have magnetic charges that are identical to the electric charges on leptons and quarks",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-ph/9509271 — searched abstract"
+    },
+    {
+     "text": "Assuming that this model can be suitably dualized, we would like to identify the confined monopole clusters with the hadrons and the unconfined monopoles with the leptons.",
+     "where": "full text",
+     "check": "lit.py quote: FOUND: hep-ph/9509271 — searched full text (https://arxiv.org/html/hep-ph/9509271)"
+    },
+    {
+     "text": "The spectrum of monopoles is found to correspond to the spectrum of one family of standard model fermions and hence, is a starting point for constructing the dual standard model.",
+     "where": "abstract of arXiv:hep-th/9604138",
+     "check": "lit.py quote: FOUND: hep-th/9604138 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "recid:100841",
+   "citation": "E. Recami, R. Mignani, 'Magnetic Monopoles and Tachyons in Special Relativity', Phys. Lett. B 62 (1976) 41; see also E. Recami, 'Superluminal motions? A bird-eye view of the experimental situation', Found. Phys. 31 (2001) 1119, arXiv:physics/0101108.",
+   "relation": "related",
+   "summary": "In 'extended' special relativity, the superluminal transformations map subluminal electric charges to superluminal objects that behave as magnetic monopoles. This has the shape of C4 (a kinematic exchange pairs each electric charge with a magnetic analog in a second class of particles) under a different exchange: subluminal with superluminal, not position with momentum.",
+   "difference": "The partners are tachyons, not momentum-polarized matter; there is no Born reciprocity, no dark matter and no duality frame. Only the 1976 abstract and the 2001 summary sentence were read.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "explicitly predicts existence of super-luminal (tachyon) monopoles",
+     "where": "abstract (PLB 62 41)",
+     "check": "lit.py quote: FOUND: recid:100841 — searched abstract"
+    },
+    {
+     "text": "a Superluminal electric charge is expected to behave as a magnetic monopole",
+     "where": "full text of arXiv:physics/0101108, Introduction",
+     "check": "lit.py quote: FOUND: physics/0101108 — searched full text (https://arxiv.org/html/physics/0101108)"
+    }
+   ]
+  },
+  {
+   "id": "recid:121372",
+   "citation": "C. Montonen, D. Olive, 'Magnetic Monopoles as Gauge Particles?', Phys. Lett. B 72 (1977) 117 (the record's [18]).",
+   "relation": "related",
+   "summary": "Conjectures that the quantized 't Hooft-Polyakov monopoles form a gauge triplet with the photon in a theory like the original one 'but with magnetic replacing electric charge'. This is the established full magnetic spectrum, which #11 §11.2 absorbs as supposition 11 [T].",
+   "difference": "The magnetic spectrum is a dual description within the same theory and the same space, not a second sector in a conjugate polarization. Confirms the record's [T] reading.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "form a gauge triplet with the photon, corresponding to a Lagrangian similar to the original Georgi-Glashow one, but with magnetic replacing electric charge",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: recid:121372 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:hep-th/9411149",
+   "citation": "N. Seiberg, 'Electric-magnetic duality in supersymmetric non-Abelian gauge theories', Nucl. Phys. B 435 (1995) 129, arXiv:hep-th/9411149 (the record's [18]).",
+   "relation": "related",
+   "summary": "Two different gauge theories with the same long-distance physics, in which the quarks and gluons of one are the magnetic monopoles of the other ('magnetic quarks'). This is established; it is part of supposition 11 as #11 §11.2 records.",
+   "difference": "A dual description of one physical system, not a second matter sector; no momentum polarization.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "The quarks and gluons of one theory can be interpreted as solitons (non-Abelian magnetic monopoles) of the elementary fields of the other theory.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: hep-th/9411149 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:cond-mat/0310232",
+   "citation": "Z. Fang, N. Nagaosa, K. S. Takahashi et al., 'The anomalous Hall effect and magnetic monopoles in momentum space', Science 302 (2003) 92, arXiv:cond-mat/0310232.",
+   "relation": "collision",
+   "summary": "'Magnetic monopoles in momentum space' are singularities of Berry curvature in a crystal's band structure, seen in the anomalous Hall effect of SrRuO3. The abstract contrasts them with monopoles not found in real space.",
+   "difference": "Berry flux of electronic bands, not magnetic charge of a gauge field carried by matter. #11 §11.1 already calls the Weyl-semimetal version 'right geometry, different flux'.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "we show that the magnetic monopole can appear in the crystal-momentum space of solids in the accessible low energy region",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: cond-mat/0310232 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1207.0747",
+   "citation": "M. A. Stephanov, Y. Yin, 'Chiral Kinetic Theory', Phys. Rev. Lett. 109 (2012) 162001, arXiv:1207.0747.",
+   "relation": "collision",
+   "summary": "Every massless chiral particle carries a Berry monopole at the origin of momentum space, which produces the chiral magnetic and vortical effects. In words it is close to 'each charged particle has a magnetic analog in momentum space'.",
+   "difference": "Berry curvature of the particle's own wavefunction, not a magnetically charged partner particle.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We show that the Berry monopole which appears at the origin of the momentum space due to level crossing is responsible for the chiral magnetic and vortical effects.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1207.0747 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2308.00612",
+   "citation": "Y. Pan, R. Yin, 'Constructing Berry-Maxwell equations with Lorentz invariance and Gauss's law of Weyl monopoles in four-dimensional energy-momentum space', Phys. Rev. B 110 (2024) 075139, arXiv:2308.00612.",
+   "relation": "collision",
+   "summary": "A 'reciprocal electromagnetic field' of Berry curvatures in 4D energy-momentum space, with Weyl points as its magnetic monopoles. Born reciprocity x -> p, p -> -x is said to map Maxwell's (E, B) to the Berry fields (Upsilon, Omega), with electric-magnetic self-duality on each side.",
+   "difference": "Band-structure Berry curvature, not gauge charges of matter. Even in this construction Born's rho maps electric to electric-like and magnetic to magnetic-like, not electric to magnetic.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "We present the construction of a reciprocal electromagnetic field by extending the Berry curvatures into four-dimensional (4D) energy-momentum space.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 2308.00612 — searched abstract"
+    },
+    {
+     "text": "The duality between Maxwell and Born-Maxwell equations is represented as: (𝐸, 𝐵) ↔ (Υ, Ω) and the corresponding Born reciprocity",
+     "where": "full text (PDF), discussion after Table 1",
+     "check": "not reachable by lit.py (no HTML; abstract only: NOT FOUND there); checked against the arXiv PDF text, downloaded with WebFetch and extracted locally (checked by WebFetch only)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:physics/0401083",
+   "citation": "F. W. Hehl, Y. N. Obukhov, 'Electric/magnetic reciprocity in premetric electrodynamics with and without magnetic charge, and the complex electromagnetic field', Phys. Lett. A 323 (2004) 169, arXiv:physics/0401083.",
+   "relation": "collision",
+   "summary": "'Reciprocity' here is the name for electric/magnetic duality in premetric electrodynamics, used to extend the axioms to magnetic charge.",
+   "difference": "Not Born's position-momentum reciprocity. A reader searching 'reciprocity' with 'magnetic charge' meets this.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Electric/magnetic reciprocity constitutes a guiding principle for this undertaking.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: physics/0401083 — searched abstract"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:1403.1308",
+   "citation": "S. Liu, M. B. Sinclair, T. S. Mahony et al., 'Optical magnetic mirrors without metals', Optica 1 (2014) 250, arXiv:1403.1308.",
+   "relation": "collision",
+   "summary": "In optics a 'magnetic mirror' is a (meta)surface that reflects through the optical magnetic field, so that the reflected electric field keeps its phase.",
+   "difference": "A reflector, unrelated to magnetic charge or conjugate matter.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "A far less common route to achieve high reflectivity exploits strong interactions between the material and the optical magnetic field to produce a magnetic mirror which does not reverse the phase of the reflected electric field",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1403.1308 — searched abstract (arXiv API)"
+    }
+   ]
+  },
+  {
+   "id": "arXiv:2607.26479",
+   "citation": "L. Einkemmer, M. Guerra, Q. Li et al., 'Kinetic Optimization of Magnetic Mirror Confinement: Beyond Classical Loss-Cone Theory', arXiv:2607.26479 (preprint). Classic reference: R. F. Post, 'The magnetic mirror approach to fusion', Nucl. Fusion 27 (1987) 1579 (Crossref metadata only).",
+   "relation": "collision",
+   "summary": "In plasma physics a 'magnetic mirror' is an open-ended field configuration that confines charged particles. It is the dominant meaning of the phrase in INSPIRE titles, alongside KATRIN's spectrometer, cosmic-ray mirroring and 5D 'magnetic mirror stars' (Bronnikov et al. 2025).",
+   "difference": "Confinement geometry, unrelated to magnetic charge or conjugate matter.",
+   "confidence": "high",
+   "conjecture": "C4",
+   "quotes": [
+    {
+     "text": "Magnetic mirrors are among the conceptually simplest plasma confinement configurations and remain promising candidates for thermonuclear fusion.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 2607.26479 — searched abstract (arXiv API)"
+    }
+   ]
+  }
+ ],
+ "closest": [
+  {
+   "conjecture": "C4",
+   "id": "arXiv:2111.14205",
+   "why": "Closest to the whole conjecture: the only paper found that uses the reciprocity structure of Born geometry (the metastring's eta pairing) to make the gauge group of the dual-coordinate, 'dark' sector the electric-magnetic (Langlands) dual of the visible one. It differs as follows. It concerns gauge groups, not magnetically charged matter. For E8 the authors call the two 'physically indistinguishable'. The dual sector is the T-dual coordinate space x~, not a spontaneously selected momentum polarization. There is no photon, no coupling relation, no shared-photon form and no monopole."
+  },
+  {
+   "conjecture": "C4",
+   "id": "arXiv:2507.06697",
+   "why": "Closest to the separate-photon form. The dark matter is monopoles magnetic under their own 'extraordinary' photon, ordinary matter is electrons under ours, and a Schwinger condition ties the couplings. It differs in having no position-momentum or reciprocity structure, a single electron-monopole pair instead of a mirror family, and kinetic mixing, which strict P4 forbids. Preprint."
+  },
+  {
+   "conjecture": "C4",
+   "id": "arXiv:2302.03526",
+   "why": "Closest to the shared-photon form. It asks whether 'a dark parallel world of purely magnetically charged matter', magnetic under (dual) electromagnetism and gravitating, could be the dark matter. It differs in that its darkness comes from the action-derived Lorentz force, not from localization in momentum; it has no Born reciprocity and no per-particle mirror, and is posed as a question."
+  },
+  {
+   "conjecture": "C4",
+   "id": "arXiv:hep-th/0008052",
+   "why": "Closest to the bridge behind C4 (#11 §11.3): 'electric-magnetic duality is a special case of Born-Reciprocity', Born reciprocity in strings gives T-duality, and T and S sit inside U-duality. It differs in being a remark about the field phase space (B, D) that makes no claim about charges, couplings or a matter sector."
+  }
+ ],
+ "not_found": [
+  {
+   "conjecture": "C4",
+   "statement": "A matter sector related to ours by a position-momentum exchange (Born reciprocity, Fourier transform, T-duality, dual spacetime, phase-space polarization), whose particles are the magnetically charged counterparts of our electrically charged particles: the magnetic mirror as stated in #11 §11.4.",
+   "searches": "INSPIRE full text: 'Born reciprocity' with 'magnetic monopole' (9), 'S-duality' (12), 'electric-magnetic duality' (10), 'magnetic charge' (6), 'Dirac quantization' (4), 'Montonen-Olive' (0); metastring / metaparticle / modular spacetime / Born geometry with magnetic charge or monopole (11) and with electromagnetic duality (8); 'magnetically charged' with 'dual spacetime' (15); 'magnetic counterpart' with momentum space and dual space / reciprocity / phase space (14); 'conjugate matter' with magnetic (14); 'dual coordinates' with 'magnetic monopoles' and 'dark matter' (7); 'magnetic mirror' with dark matter / hidden sector and monopole (14); 'mirror world' with magnetic and electric charges and dual (5). INSPIRE abstracts: 'Born reciprocity' / 'reciprocity principle' sweep (45, filtered); 'dark sector' with S-dual / magnetic dual (0); mirror with 'magnetic monopole' (0) and with 'magnetic charge' (5); 'magnetic dark matter' (6, all dipole dark matter). arXiv API: 'Born reciprocity' with magnetic / electromagnetic duality (2); 'electric-magnetic duality' or 'electromagnetic duality' with 'position and momentum' (0, 0); 'momentum space' with 'magnetic monopole' and 'dark matter' (0); 'phase space duality' with magnetic (1); 'dual electrodynamics' with dark (2); 'magnetic monopoles' with 'mirror world' (2). Citation sweeps, abstracts filtered for magnetic / S-dual / monopole / dyon / Langlands: citers of FLM 2013 (134): 0; of FLM 2015 (110): 0; of Born 1949 (204): none relating reciprocity to magnetic charge. Citation graphs of Berglund-Hübsch-Minic 2021, Guendelman-Singleton 2022, Govaerts 2023 and Vento 2025, forward and backward. Crossref (2 queries) and WebSearch (3) found nothing beyond these. Closest: Berglund-Hübsch-Minic 2021 (gauge groups only)."
+  },
+  {
+   "conjecture": "C4",
+   "statement": "Shared-photon form: magnetic charges of our own photon carried by matter localized in momentum (in the field profile), so that the magnetic half of electromagnetism lives in the conjugate polarization and is hidden from position-space searches and the Parker bound.",
+   "searches": "As above, plus arXiv 'momentum space' with 'magnetic monopole' and 'dark matter' (0); INSPIRE 'magnetically charged matter' with 'dark matter' (7: Govaerts 2023, axion electromagnetodynamics, magnetic black holes); 'magnetic sector' with 'dark sector', 'electric sector' and monopole (4); Parker-bound papers (12); monopole dark matter titles (31). The magnetic half of electromagnetism as a dark sector appears, without momentum localization, in Govaerts 2023 and Vento 2025. Hiding by screening appears in Carneiro 2026, and magnetic objects localized in a T-dual coordinate (KK monopole in winding space) in Harvey-Jensen 2005, but not for our photon's charges in a momentum polarization."
+  },
+  {
+   "conjecture": "C4",
+   "statement": "One vacuum event (one order parameter) selecting both the position polarization of phase space and the electric sublattice of the charge lattice (#11 §11.3-§11.4, the electric-sublattice clause).",
+   "searches": "INSPIRE full text 'reciprocity' with 'Lagrangian subspace', 'electric-magnetic duality' and polarization (2: Berglund-Hübsch-Minic review, a lecture volume); Born reciprocity with S-duality and electromagnetic duality (above); 'dual symmetry breaking' via the Govaerts citation graph. Nearest: Carneiro 2026, a vacuum that breaks the electric-magnetic dual symmetry and screens magnetic charge (no phase-space polarization); Bolognesi 2009, the space/momentum asymmetry as a property of 'the asymmetric conditions in which we live' (gravity only, no charge lattice)."
+  },
+  {
+   "conjecture": "C4",
+   "statement": "A conjugate or dark sector whose gauge coupling is fixed at the S-dual of ours (alpha_d = 1/(4 alpha) or 1/alpha) by a reciprocity map.",
+   "searches": "INSPIRE full text 'S-dual of QED' / 'magnetic QED' with dark (5, none relevant); abstracts S-duality with hidden / mirror / twin sector or dark photon (2, none relevant); dark photon with monopoles (10). Nearest: Vento 2025 (Schwinger condition e g / sqrt(1-eps^2) = n ties the dark magnetic coupling to e, no reciprocity); Guendelman-Singleton 2022 (asks whether the momentum gauge coupling g and e obey a Dirac-like condition or are exchanged by Born reciprocity)."
+  },
+  {
+   "conjecture": "C4",
+   "statement": "Born's own reciprocity papers relating reciprocity to magnetic charge or to an electric-magnetic exchange.",
+   "searches": "Born 1949 (Rev. Mod. Phys. 21, 463), read from the APS PDF (scanned; text layer extracted locally): section VII 'The electromagnetic field' treats Green's modified Coulomb potential and finite self-energy, with no magnetic charge and no electric-magnetic exchange. Born 1938 (Proc. R. Soc. A 165, 291) could not be retrieved (HTTP 403)."
+  }
+ ],
+ "queries": [
+  {
+   "database": "INSPIRE",
+   "query": "t \"magnetic mirror\" --size 10",
+   "hits": "22"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"magnetic monopole\" --size 25",
+   "hits": "9"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"S-duality\" --size 25",
+   "hits": "12"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"electric-magnetic duality\" --size 25",
+   "hits": "10"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"magnetic paradigm\" or abstracts.value:\"magnetic paradigm\" --size 10",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"R-flux\" and abstracts.value:\"magnetic monopole\" --size 20",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"momentum space\" and abstracts.value:\"magnetic charge\" and (abstracts.value:\"phase space\" or abstracts.value:\"reciprocity\" or abstracts.value:\"duality\") --size 25",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"mirror\" and abstracts.value:\"magnetic monopole\" and (abstracts.value:\"mirror world\" or abstracts.value:\"mirror matter\" or abstracts.value:\"mirror sector\" or abstracts.value:\"mirror particles\") --size 25",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"mirror world\" and fulltext \"magnetic charges\" and fulltext \"electric charges\" and fulltext \"dual\" --size 25",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"magnetically charged dark matter\" or abstracts.value:\"magnetic dark matter\" or t \"magnetic dark matter\" --size 25",
+   "hits": "6"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Terning and a Verhaaren --size 25",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"millimagnetic\" or abstracts.value:\"milli-magnetic\" or abstracts.value:\"minimagnetic\" or abstracts.value:\"millimagnetically\" --size 25",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"minicharges and magnetic monopoles\" or (a Brummer and a Jaeckel) --size 10",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"dark sector\" and (abstracts.value:\"S-dual\" or abstracts.value:\"electric-magnetic dual\" or abstracts.value:\"electromagnetic dual\" or abstracts.value:\"magnetic dual\") --size 25",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic copy\" and (fulltext \"standard model\" or fulltext \"dark matter\") --size 25",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic mirror\" and (fulltext \"dark matter\" or fulltext \"hidden sector\") and fulltext \"monopole\" --size 25",
+   "hits": "14"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"magnetic photon\" or t \"magnetic photon\" --size 30 --sort mostcited",
+   "hits": "49"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"position-momentum duality\" and (fulltext \"electric-magnetic duality\" or fulltext \"electromagnetic duality\" or fulltext \"S-duality\") --size 30",
+   "hits": "13"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"reciprocity\" and fulltext \"electric-magnetic duality\" and fulltext \"momentum space\" and fulltext \"magnetic charge\" --size 30",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"S-duality\" and abstracts.value:\"canonical transformation\" --size 30 --sort mostcited",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"duality\" and abstracts.value:\"Fourier transform\" and (abstracts.value:\"electric-magnetic\" or abstracts.value:\"S-duality\" or abstracts.value:\"electromagnetic duality\") --size 30 --sort mostcited",
+   "hits": "10"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"reducing S duality to T duality\" or t \"S-duality from T-duality\" or t \"S duality from T duality\" --size 10",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(fulltext \"metastring\" or fulltext \"metaparticle\" or fulltext \"modular spacetime\" or fulltext \"Born geometry\") and (fulltext \"magnetic charge\" or fulltext \"magnetic monopole\") --size 40",
+   "hits": "11"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(fulltext \"metastring\" or fulltext \"metaparticle\" or fulltext \"Born geometry\") and (fulltext \"electromagnetic duality\" or fulltext \"electric-magnetic duality\") --size 40",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "2111.14205 --size 30",
+   "hits": "10"
+  },
+  {
+   "database": "INSPIRE references (backward)",
+   "query": "2111.14205",
+   "hits": "20"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"uncertainty of fluxes\" or t \"Heisenberg groups and noncommutative fluxes\" --size 5",
+   "hits": "2"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"Berry curvature\" AND abs:duality AND abs:\"magnetic field\" AND abs:\"momentum space\" AND abs:\"real space\" --size 20",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"magnetic monopole in momentum space\" OR abs:\"magnetic monopoles in momentum space\" OR ti:\"monopoles in momentum space\" --size 25",
+   "hits": "8"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"Berry curvature\" AND abs:\"magnetic field in momentum space\" --size 15",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic field in momentum space\" and fulltext \"duality\" and fulltext \"real space\" --size 20 --sort mostcited",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"chiral kinetic theory\" and abstracts.value:\"monopole\" --size 10 --sort mostcited",
+   "hits": "1"
+  },
+  {
+   "database": "Crossref",
+   "query": "The magnetic mirror approach to fusion Post --size 5",
+   "hits": "5"
+  },
+  {
+   "database": "Crossref",
+   "query": "Optical magnetic mirrors Schwanecke Zheludev --size 5",
+   "hits": "5"
+  },
+  {
+   "database": "Crossref",
+   "query": "Optical magnetic mirrors without metals --size 5",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"Born reciprocity\" or t \"Born reciprocity\" or abstracts.value:\"reciprocity principle\" or abstracts.value:\"Born\\x27s reciprocity\" --size 250 --abstracts",
+   "hits": "45"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"magnetic charge\" --size 30",
+   "hits": "6"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"Dirac quantization\" --size 30",
+   "hits": "4"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"reciprocity\" and fulltext \"Lagrangian subspace\" and fulltext \"electric-magnetic duality\" and fulltext \"polarization\" --size 30",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "2206.02638 --size 30",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE references (backward)",
+   "query": "2206.02638",
+   "hits": "22"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"momentum gauge\" or abstracts.value:\"momentum gauge field\" or abstracts.value:\"momentum gauge fields\" or abstracts.value:\"momentum space gauge field\" --size 30",
+   "hits": "13"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"dark matter\" and (abstracts.value:\"electric-magnetic duality\" or abstracts.value:\"electromagnetic duality\" or abstracts.value:\"S-duality\") --size 40 --sort mostcited",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Recami or a Mignani) and (t monopole or t magnetic or abstracts.value:\"magnetic monopole\" or abstracts.value:\"magnetic charge\") --size 20 --sort mostcited",
+   "hits": "30"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"superluminal\" and fulltext \"magnetic monopoles\" and fulltext \"tachyons\" and a Recami --size 20",
+   "hits": "3"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"Born reciprocity\" AND (abs:magnetic OR abs:\"electromagnetic duality\" OR abs:\"electric-magnetic\") --size 30",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"mirror\" and abstracts.value:\"magnetic charge\" --size 30 --sort mostcited",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t dyonic and abstracts.value:\"dark matter\" --size 20 --sort mostcited",
+   "hits": "6"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t monopole and (t \"dark matter\" or t \"dark monopole\" or t \"dark monopoles\") --size 40 --sort mostcited",
+   "hits": "31"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "2302.03526 --size 20",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "2507.06697 --size 20",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Govaerts, Jan and (t reciprocal or t reciprocity or t dual or t magnetic) --size 30",
+   "hits": "5"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"electric-magnetic duality\" AND abs:\"position and momentum\" --size 30",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetically charged matter\" and fulltext \"dark matter\" --size 30",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic sector\" and fulltext \"dark sector\" and fulltext \"electric sector\" and fulltext \"monopole\" --size 30",
+   "hits": "4"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"electromagnetic duality\" AND abs:\"position and momentum\" --size 30",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Bolognesi, S and (t \"trans-Planckian\" or t reciprocity) --size 10",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Parker bound\" or (abstracts.value:\"Parker bound\" and abstracts.value:\"dark matter\") --size 30 --sort mostcited",
+   "hits": "12"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"S-dual of QED\" or fulltext \"magnetic QED\" and fulltext \"dark\" --size 25",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"unwinding strings and T-duality\" or t \"branes are waves and monopoles\" or t \"KK-monopole/NS5-brane in doubled geometry\" or (abstracts.value:\"winding space\" and abstracts.value:\"monopole\") --size 20 --sort mostcited",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE references (backward)",
+   "query": "2302.03526",
+   "hits": "18"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(fulltext \"Cabibbo-Ferrari\" or fulltext \"two-potential\" or fulltext \"Zwanziger formalism\") and (fulltext \"Born reciprocity\" or fulltext \"phase space duality\" or fulltext \"momentum space gauge\") --size 25",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic charges\" and fulltext \"momentum space\" and fulltext \"electric charges\" and fulltext \"position space\" and fulltext \"reciprocity\" --size 25",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic counterpart\" and fulltext \"momentum space\" and (fulltext \"dual space\" or fulltext \"reciprocity\" or fulltext \"phase space\") --size 25",
+   "hits": "14"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic partners\" and fulltext \"dark sector\" --size 25",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetically charged\" and fulltext \"dual spacetime\" --size 25",
+   "hits": "15"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Berard and a Mohrbach) and (t monopole or abstracts.value:\"momentum space\") --size 15 --sort mostcited",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Vachaspati and (t monopole or t monopoles) and (t \"standard model\" or t \"dual\") --size 20 --sort mostcited",
+   "hits": "3"
+  },
+  {
+   "database": "Crossref",
+   "query": "Born reciprocity magnetic monopole momentum space duality --size 15",
+   "hits": "15"
+  },
+  {
+   "database": "Crossref",
+   "query": "dark matter magnetically charged mirror sector electric magnetic duality --size 15",
+   "hits": "15"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Laperashvili and (t mirror or abstracts.value:\"mirror world\")  --size 25 --sort mostcited",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Jarvis, P.D. and (t reciprocal or t reciprocity or t \"Born\") --size 15",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "1307.7080 --size 200 --abstracts",
+   "hits": "134"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "1502.08005 --size 200 --abstracts",
+   "hits": "110"
+  },
+  {
+   "database": "INSPIRE citations (forward)",
+   "query": "recid:2012497 --size 250 --abstracts",
+   "hits": "204"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"special case of Born reciprocity\" or fulltext \"special case of Born-reciprocity\" or (fulltext \"Born reciprocity\" and fulltext \"Born-Infeld\" and fulltext \"electric-magnetic duality\") --size 25",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(fulltext \"Born\\x27s reciprocity\" or fulltext \"reciprocity principle\" or fulltext \"Born-reciprocity\") and (fulltext \"electric-magnetic duality\" or fulltext \"duality rotation\" or fulltext \"S-duality\") --size 30",
+   "hits": "23"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"Montonen-Olive\" --size 30",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"magnetic monopoles as gauge particles\" or t \"electric-magnetic duality in supersymmetric non-abelian gauge theories\" or (a Sen, Ashoke and t \"dyon-monopole bound states\") --size 10",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a t Hooft, G and t \"new confinement phases\") or (a Mandelstam and t \"vortices and quark confinement\") --size 5",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"S-duality\" and (abstracts.value:\"hidden sector\" or abstracts.value:\"mirror sector\" or abstracts.value:\"twin sector\" or abstracts.value:\"dark photon\") --size 30 --sort mostcited",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"dark photon\" and (abstracts.value:\"magnetic monopole\" or abstracts.value:\"magnetic charge\" or abstracts.value:\"monopoles\") --size 40 --sort mostcited",
+   "hits": "10"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"phase space duality\" AND abs:magnetic --size 20",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:\"magnetic monopole\" AND abs:\"dark matter\" --size 20",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"dual electrodynamics\" AND abs:\"dark\" --size 20",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:531400 and fulltext \"reciprocity\" --size 30",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:2012497 and (fulltext \"electric-magnetic duality\" or fulltext \"magnetic monopole\" or fulltext \"magnetic charge\") --size 30",
+   "hits": "9"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"magnetic monopoles\" AND abs:\"mirror world\" --size 20",
+   "hits": "2"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"reciprocal space\" AND abs:\"magnetic monopole\" AND abs:duality --size 20",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Low, Stephen G. and (t reciprocal or t quaplectic or t \"canonically relativistic\") --size 15",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(refersto:recid:392079 or refersto:recid:715112) and fulltext \"Born reciprocity\" --size 20",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(refersto:recid:1691961 or refersto:recid:819453 or refersto:recid:813863 or refersto:recid:1597996) and (fulltext \"momentum space\" and (fulltext \"reciprocity\" or fulltext \"phase space\")) --size 20",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"conjugate matter\" and (fulltext \"magnetic\" or fulltext \"monopole\") --size 20",
+   "hits": "14"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"metaparticle\" and (fulltext \"magnetic charge\" or fulltext \"magnetic monopole\" or fulltext \"electric-magnetic\") --size 20",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dual coordinates\" and fulltext \"magnetic monopoles\" and fulltext \"dark matter\" --size 20",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"strong/weak coupling duality from the dual string\" or t \"four-dimensional string/string/string triality\" --size 5",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"helicity\" and (fulltext \"electric-magnetic duality\" or fulltext \"duality symmetry\") and (fulltext \"monopole in momentum space\" or fulltext \"Berry monopole\") --size 25",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"helicity\" and fulltext \"duality\" and fulltext \"momentum space\" and fulltext \"Berry curvature\" and fulltext \"photon\" and fulltext \"monopole\" --size 25 --sort mostcited",
+   "hits": "19"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark matter \"magnetically charged\" counterpart of ordinary matter \"momentum space\" Born reciprocity electric magnetic duality",
+   "hits": "10 links"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "\"Optical magnetic mirrors without metals\" Optica 2014 abstract magnetic mirror reflection in phase electric field",
+   "hits": "10 links"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"mirror world\" OR \"mirror matter\" particles carry magnetic charge instead of electric charge dark matter monopoles parity",
+   "hits": "9 links"
+  }
+ ],
+ "unverified_leads": [
+  {
+   "lead": "M. Born, 'A suggestion for unifying quantum theory and relativity', Proc. R. Soc. Lond. A 165 (1938) 291: whether it mentions electromagnetism or magnetic charge.",
+   "why_unverified": "Publisher returned HTTP 403; no other copy reached."
+  },
+  {
+   "lead": "J. Schwinger, 'A magnetic model of matter', Science 165 (1969) 757 † (dyons as constituents of hadrons; a magnetic model of ordinary matter).",
+   "why_unverified": "Recalled from model memory; not retrieved or read."
+  },
+  {
+   "lead": "A. Salam, Phys. Lett. 22 (1966) 683 (two-photon theory with a magnetic photon); N. Cabibbo, E. Ferrari, Nuovo Cim. 23 (1962) 1147; D. Zwanziger, local two-potential QFT of electric and magnetic charges (INSPIRE recid:63044).",
+   "why_unverified": "Metadata only, from the reference lists of Vento 2025 and Govaerts 2023; texts not read. They are the foundations of the two-potential (separate magnetic photon) formalism that Vento builds on."
+  },
+  {
+   "lead": "E. Recami, R. Mignani, Riv. Nuovo Cim. 4 (1974) 209, and E. Recami (ed.), Tachyons, Monopoles, and Related Topics (North-Holland, 1978): the full treatment of superluminal electric charges as magnetic monopoles.",
+   "why_unverified": "Cited in Recami 2001; not retrieved."
+  },
+  {
+   "lead": "L. P. Kadanoff, A. C. Brown 1979, and the Coulomb-gas literature: momentum (electric) and winding (magnetic) charges of the compact boson, T-duality exchanging them †.",
+   "why_unverified": "Recalled from memory; Ginsparg's lectures (hep-th/9108028, read) do not use the electric/magnetic terms. FLM 2013 (verified) states the analogy."
+  },
+  {
+   "lead": "Calkin 1965 and Deser-Teitelboim 1976 † (duality rotation as a canonical symmetry of Maxwell theory, generated by helicity); the chain helicity = duality generator = Berry-monopole charge in momentum space.",
+   "why_unverified": "Recalled from memory; an INSPIRE full-text search for an explicit statement of the chain returned 0 (and 19 loosely related hits not read)."
+  },
+  {
+   "lead": "V. A. Mitsou, 'Magnetic monopoles: from Dirac to the Large Hadron Collider', arXiv:2605.02869 (2026 review, cites Vento 2025): may survey other dark-monopole and magnetic-dark-sector proposals.",
+   "why_unverified": "Found in the citation graph; not read."
+  }
+ ],
+ "notes": "No paper found anticipates C4. Its two halves have separate prior art, and the combination (the magnetic counterparts of our electric particles placed in the momentum polarization) was not found.\n(1) The bridge behind C4, #11 §11.3, is published as a remark. Gibbons and Herdeiro (PRD 2001) wrote that 'electric-magnetic duality is a special case of Born-Reciprocity', that Born reciprocity in strings gives T-duality, and that T and S sit inside U-duality. Russo and Townsend (JHEP 2025) repeat it. Technically, S-duality reduces to T-duality (Harvey-Moore-Strominger 1995; Kapustin-Witten 2006), is a canonical transformation (Lozano 1995), or is perturbatively a Fourier transform (Galakhov-Mironov-Morozov). The record tags the identification [D - structural; math T] and cites none of these, so §11.3 should credit them.\n(2) The magnetic half of electromagnetism as a dark sector is published without any momentum structure. Vento 2025 is the separate-photon form (dark-matter monopoles under their own photon, preprint), and Govaerts (EPJC 2023) asks the shared-photon-like question (a dark parallel world of magnetically charged matter).\n(3) Berglund, Hübsch and Minic (2021; IJMPD 2023) are the only ones found to join Born geometry, a dual/'dark' sector and electric-magnetic (Langlands) duality, at the level of gauge groups and with no physical consequence for E8.\n(4) A finding against the conjecture's intuition. Wherever Born's rho is applied to electromagnetism in the literature (Szabo 2019; Lüst-Malek-Szabo 2017; Bakas-Lüst 2013; Bérard-Mohrbach 2004; Pan-Yin 2024; Copinger-Morales 2023), it keeps electric with electric(-like) and magnetic with magnetic(-like): a magnetic charge in position space maps to a magnetic-type object over momentum space (R-flux, a dual monopole, a Berry monopole). It does not map electric charge to magnetic charge. Only the T-duality / worldsheet reading puts the dual momentum with the magnetic charge (Harvey-Moore-Strominger; FLM 2013's 2d dyon picture, which is in the record's own reference [3]). Riello 2017 has the opposite assignment in field phase space.\n(5) Scott et al. 2018 and Terning-Verhaaren 2018 show that a separate sector whose particles are only magnetic under its own photon is, by that photon's duality, an electric sector at the dual coupling. 'Magnetic' becomes physical only relative to ours, through mixing or shared charges, which strict P4 excludes. This sharpens what the separate-photon form can claim.\nCross-group notes. Vento 2025 and Govaerts 2023 also bear on C1 (dark matter as a mirror sector) and C3 (the null result). Harvey-Jensen 2005 (KK monopole localized in winding space), Szabo 2019 and Lüst-Malek-Szabo 2017 (R-flux as momentum-space magnetic charge) bear on C2-C3. Brümmer, Ferrante, Fischer, Frigerio 2025 (PRD 113 (2026) L091701, arXiv:2509.21924: the stable W' of a minimal dark 't Hooft-Polyakov sector always outweighs the monopoles) is published support for #11 §12's W'-overclosure finding and bears on C2. Berglund-Hübsch-Minic 2020 (LHEP 2021 186: dark matter from the degrees of freedom dual to visible matter) and Bolognesi 2009/2015 bear on C1, C5 and the program's core. 'Magnetic dark matter' in HEP usually means dark matter with a magnetic dipole moment (Del Nobile et al., JCAP 08 (2012) 010, arXiv:1203.6652), another collision.\nMethod: 98 logged lit.py queries (INSPIRE title/abstract and full text, citation graph forward and backward, arXiv API, Crossref), 3 WebSearch queries, WebFetch for PDFs that lit.py cannot reach (Pan-Yin, Harvey-Moore-Strominger, Kapustin-Witten, Ginsparg, Born 1949), with text extracted locally (work/literature-check/g3-magnetic-mirror/pdf/). Every quote was re-checked by lit.py quote when this file was built (verdicts in 'check'). Working notes: work/literature-check/g3-magnetic-mirror/notes.md; query log: queries.log."
+}

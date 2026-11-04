@@ -1,0 +1,102 @@
+{
+  "conjectures": [
+    {
+      "conjecture": "C2",
+      "verdict": "related only",
+      "closest": [
+        {
+          "id": "1903.05673",
+          "why": "Closest mechanism, by Born reciprocity itself (with Lüst, Malek and Szabo 2017, 1705.09639, and Bakas and Lüst 2014, 1309.3172): (x,p) → (p,−x) maps electric charges moving through a distribution of magnetic charge onto closed strings in R-flux, a 3-form on momentum space whose cocycle 'resides in momentum space' (Bakas–Lüst). The momentum-space image of magnetic charge is a background flux acting on probes, not magnetically charged objects: no solitons, no abundance, no dark matter."
+        },
+        {
+          "id": "hep-th/0310167",
+          "why": "Closest single object: in noncommutative quantum mechanics the position-noncommutativity field must be 'a dual Dirac monopole in momentum space', Θ(p) = g_θ p/(4πp³), obtained from the position–momentum duality of the commutators. It is a vacuum field with its singularity at p = 0, realized as Berry curvature; not matter, not magnetic charge of any gauge field of ours, not dark matter."
+        },
+        {
+          "id": "hep-th/0507204",
+          "why": "Closest soliton (with Jensen 2011, 1106.1174): the Kaluza–Klein monopole, a topologically stable magnetically charged object, is localized by worldsheet instantons in the T-dual winding coordinate, a localization only winding-string probes resolve. The dual coordinate is winding on a compact circle, not momentum under broken Born reciprocity; the charge is Kaluza–Klein, not electromagnetic; no abundance or dark-matter claim."
+        },
+        {
+          "id": "2302.03526",
+          "why": "Closest physical claim: asks whether 'a dark parallel world of purely magnetically charged matter', interacting electromagnetically 'ever so weakly' with our electric matter yet gravitating, could be the dark matter. Posed as a question; the darkness comes from the force law of two-potential dual electrodynamics; no momentum space, polarization or solitons."
+        },
+        {
+          "id": "0905.1720",
+          "why": "Monopole dark matter itself (Murayama and Shu 2010, cited by the record; also Evslin and Gudnason 2012, 1202.0560, galaxy-sized hidden monopoles): 't Hooft–Polyakov monopoles of a hidden sector as dark matter, with ordinary kinematics in position space. This is the prior art #14's model reduced to; it lacks the conjecture's defining localization in momentum."
+        }
+      ],
+      "new_in_conjecture": "That magnetically charged topological solitons of a momentum-polarized matter sector exist, held localized in momentum rather than in position by their topology, and are abundant enough to be the dark matter. No work found places magnetically charged objects, or a population of them, in momentum space as matter, or localizes a soliton in momentum by its own topology. The published 'monopoles in momentum space' are background fields or band-structure Berry curvature, and published monopole dark matter lives in position space with ordinary kinematics.",
+      "published_parts": "Monopoles as dark matter are published in position-space forms since at least Murayama and Shu 2010 (hidden-sector 't Hooft–Polyakov monopoles, which the record cites), including galaxy-sized ones (Evslin and Gudnason 2012, preprint) and Govaerts's 2023 question whether a gravitating dark world of purely magnetically charged matter could be the dark matter. Magnetic sources in momentum space are published only as fields acting on probes: a dual Dirac monopole field Θ(p) at p = 0 in noncommutative quantum mechanics (Bérard and Mohrbach 2004), and the R-flux, the Born-reciprocal image of a magnetic-charge distribution, on momentum space (Bakas and Lüst 2014; Lüst, Malek and Szabo 2017; Szabo 2018, 2019). A magnetically charged soliton localized in a dual coordinate is known in string theory: the Kaluza–Klein monopole, localized in winding space by worldsheet instantons (Harvey and Jensen 2005; Jensen 2011).",
+      "label_disputes": [
+        {
+          "id": "2509.21924",
+          "current": "evidence-against",
+          "proposed": "related",
+          "reason": "It weighs only against a minimal adjoint-only SU(2) → U(1) dark sector with an ordinary thermal history and ordinary kinematics: #14's model, dead with P.R.'s concurrence, and a sector #11 §12 already excludes by its own W′ overclosure result. C2 fixes neither the gauge content nor ordinary kinematics, and the same authors' 2607.29492 makes non-minimal thermal monopole dark matter viable. Cite it as independent published support for #11 §12's W′ result, not as evidence against the conjecture."
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "conjecture": "C3",
+      "verdict": "related only",
+      "closest": [
+        {
+          "id": "2507.06697",
+          "why": "Closest explanatory claim (arXiv preprint only): its abstract notes that no signature has been detected and that 'Many mechanisms have been proposed to explain this lack of success', then places the monopole and an 'extraordinary' photon in the dark sector; at zero mixing 'The monopole remains completely in the dark sector' and does not couple to visible photons. The hiding is a separate gauge field in position space, the separate-photon shape that #11 §11.4 says leaves the absence of our own monopoles unexplained; no localization in momentum, no Born reciprocity."
+        },
+        {
+          "id": "2302.03526",
+          "why": "Electric and magnetic matter are mutually 'dark' for electromagnetic interactions in two-potential SO(2) dual electrodynamics, which 'requires an earnest reassessment' of the experiments searching for monopoles. The hiding is by force law, not by localization, and the paper does not offer it as the explanation of the null result."
+        },
+        {
+          "id": "recid:2173188",
+          "why": "Closest shape: monopoles placed in a further dimension of an extended space-time (a second time dimension acting near the Planck length), so that they 'do not violate current experimental evidence'. Another space, not momentum space; no dark matter."
+        },
+        {
+          "id": "cond-mat/0606726",
+          "why": "Closest mechanism (with Lin and Hsiao 2022, 2102.04470): a nonzero momentum-space topological charge, the net Berry-monopole flux, forbids exponentially localized Wannier functions, so topology in momentum forces spread in position. Band electrons, not monopoles; the spread is of quantum states, which #11 §11.4 notes does not hide an object from detectors."
+        },
+        {
+          "id": "hep-th/0507204",
+          "why": "A monopole localized in a dual (winding) coordinate that only dual probes resolve; ordinary probes still see the object and its charge, smeared, so it is not hidden from them, and the paper does not concern monopole searches."
+        }
+      ],
+      "new_in_conjecture": "That monopoles escape detection because they are compact in momentum (conjugate) space, so that searches built for objects localized in position cannot register them; in the record's setting these are magnetic charges of our own photon carried by momentum-polarized matter (#11 §11.4's shared-photon form). No work found explains the null result by localization in momentum, or invokes Born reciprocity for it. One title remains unread: Khademi and Nasiri's 2009 talk 'Why magnetic monopoles are not seen?' (the repository returns HTTP 403 and no abstract exists); the same authors' 2008 paper derives charge quantization from phase-space gauge symmetry without monopoles, which suggests, as inference only, that the talk argues monopoles are unnecessary rather than hidden in momentum.",
+      "published_parts": "Accounts of the null result that keep monopoles but put them beyond our searches are published in several forms: a dark sector with its own photon (Vento 2025, preprint), mutual electromagnetic darkness of magnetic and electric matter with a call to reassess the searches (Govaerts 2023), a second time dimension (Elsborg and Kohn 2022), another space-time (Ellis 2022, preprint), confinement or binding (Kursunoglu 1974; Sidharth 2003; Epele et al. 2008) and sub-Dirac charges (Bojowald et al. 2018); cosmological histories that remove them are standard since 1980 (Langacker and Pi; Linde). That a topological charge in momentum space prevents localization in position is established for band electrons (Brouder et al. 2007; Lin and Hsiao 2022), and a monopole localized in a dual coordinate that only dual probes resolve is known in string theory (Harvey and Jensen 2005). None of these places monopoles in momentum space or ties such hiding to monopole searches.",
+      "label_disputes": [],
+      "confidence": "medium"
+    },
+    {
+      "conjecture": "C7",
+      "verdict": "related only",
+      "closest": [
+        {
+          "id": "0709.0776",
+          "why": "Closest in lineage and purpose: Born reciprocity applied to Newton's 1/r adds a term GmMΩ/|v − v′|, averaged over all other masses and their relative speeds in a galaxy and offered in place of dark matter; the authors note the term fades for galaxies receding in the Hubble flow. The term does not depend on distance and in their equations of motion changes how velocity follows from momentum, not the force; it acts on all matter, has no gate width and makes no clumping claim, and the authors call their rotation-curve fit 'far from convincing'. Related: the searcher's partial was rightly lowered by the verifier."
+        },
+        {
+          "id": "2303.04816",
+          "why": "Closest field-theory mechanism: for matter coupled to a continuous-spin field the pair potential is (g²/4πr)[1 − (ρ²r²/32)(|vᵢ − vⱼ| − (vᵢ − vⱼ)·r̂)² + …], unchanged for co-moving particles and for motion along the line joining them, and modified for transverse relative motion at ρvr ~ 1. A threshold that falls with distance, not a fixed v*; scalar, not gravity; dark matter mentioned only as a speculative application. Already cited by the record (momentum-gravity note §9)."
+        },
+        {
+          "id": "astro-ph/0606566",
+          "why": "Closest on the dark-matter side: a long-range attraction acting on dark matter only, bounded by the near-equal Sagittarius streams to acceleration differences below about 10%. Ungated; the record maps it to ε ≲ 0.2–2.5 at v* = 120 km/s."
+        },
+        {
+          "id": "2402.08557",
+          "why": "The structure of a momentum gate on an interaction of unlimited range: the Hatsugai–Kohmoto interaction is diagonal in momentum and its strength 'does not depend on the distance between the interacting particles'. Lattice electrons, repulsive in its standard form, constant rather than 1/r."
+        },
+        {
+          "id": "1011.6374",
+          "why": "Dark-matter self-interaction strong at low relative velocity and off at high velocity, the knee #11 §8 gives χ, from a Yukawa potential; short-range and collisional, not a long-range attraction."
+        }
+      ],
+      "new_in_conjecture": "A 1/r attraction that acts only among dark-matter particles and only when their relative velocity is below a fixed width v*, so that particles moving together attract and others do not, proposed as a route to clumping by velocity. No work found combines the three elements: a long-range force, confinement to dark matter, and a gate in relative velocity at a fixed scale. The evidence against it rests mostly on the record's own calculations (the Lyman-α forest; dwarf cores); Kesden and Kamionkowski 2006 is the one published bound that applies, and only weakly.",
+      "published_parts": "A long-range attraction acting on dark matter only, without a velocity gate, is an established hypothesis with published tests, for example the Sagittarius-stream bound of Kesden and Kamionkowski 2006, the structure-growth analysis of Costa et al. (JCAP 2026) and the BOSS full-shape limits the record cites. Dark-matter self-interaction that is strong at low relative velocity and weak at high velocity is published in collisional, short-range form since at least Loeb and Weiner 2011. Velocity dependence of a long-range interaction appears in the Born-reciprocity lineage (Delbourgo and Lashmar 2008: a term proportional to 1/|v − v′| among all masses, in place of dark matter, fading in the Hubble flow) and in continuous-spin field theory (Schuster, Toro and Zhou 2023: a correction that vanishes for co-moving particles, with a threshold that falls with distance).",
+      "label_disputes": [],
+      "confidence": "high"
+    }
+  ],
+  "notes": "Judge for C2, C3 and C7, restarted after the reboot (this judge's folder was empty). Read: the brief; panel/C2.json, C3.json, C7.json; the group and round-3 records behind them; #11 §§3-4, 8-12, 14 and App. A; the three wiki pages; notes/velocity-gated-gravity.md. Re-read with lit.py the passages that decide the labels; reading log in work/literature-check/panel/c2-c3-c7/reading-log.txt. Result: no upgrade survives. Nothing in the evidence states any of the three conjectures, a central part of one, or a close variant, so all three stay 'related only'. One downgrade: Brümmer et al., arXiv:2509.21924, for C2, from evidence-against to related (it reaches only #14's model). Checks and corrections: (1) Goldhaber's Physics Today letter (C3) was re-read by WebFetch and both quotes are confirmed. The letter itself says that a spread magnetic charge needs new objects at lower scales, so only the extension to a kiloparsec spread is inference. The item stays evidence-against but is weak: it raises the cost of one hiding option of the shared-photon form without refuting it, and it does not touch binding into neutral composites. (2) Kobayashi-Perri (C2) is evidence-against only below about 1e18 GeV; its conclusions call monopoles that cluster with the Galaxy 'a valid candidate of dark matter'. Zhang et al. disfavour 1e16-1e20 GeV from the Andromeda Parker bound. So the published case against position-localized monopoles of our photon as the dark matter is agreed below 1e18 GeV and contested between the two papers above it. All four C2 evidence-against items assume ordinary kinematics; none tests localization in momentum. (3) Delbourgo-Lashmar (C7): the panel summary's 'bodies moving at similar velocities interact most strongly' is a gloss on 1/|v - v'|, not the authors' words. Their term changes the velocity-momentum relation, not the force. Related is upheld. (4) The Khademi-Nasiri talk (C3) is still unreachable: HTTP 403, and OpenAlex W3153563614 has no abstract. It is the one open item before C3's not-found is final. Round 3's OpenAlex queries on explanations of the null result (oa07-1..4) were never run after the rate limit. Hence medium confidence for C3. (5) An inference, recorded as a lead: the nearest published formal content to C2 is the field of one magnetic-type source at p = 0 in momentum space acting on probes (Bérard-Mohrbach's Theta(p), which makes positions noncommuting), and of a uniform magnetic-charge density on momentum space (the R-flux of Bakas-Lüst and Szabo, which makes positions nonassociative). Neither treats the sources as matter. (6) Evslin-Gudnason's galaxy-sized hidden monopoles are the one monopole-dark-matter model with field profiles spread over kiloparsecs, the spread #11 §11.4's hiding option names. Their magnetic charge belongs to a hidden U(1), so they say nothing about hiding magnetic charge of our photon."
+}

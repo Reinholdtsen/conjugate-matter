@@ -1,0 +1,949 @@
+{
+ "sweep": "oa-c1-c6-c7",
+ "findings": [
+  {
+   "conjecture": "C1",
+   "id": "doi:10.55277/researchhub.unu7fof1.1",
+   "citation": "Sheng Ran (Washington University in St. Louis), \"Dark Matter from Dual-Manifold Coupling\", ResearchHub preprint, v1 24 Dec 2025 (doi:10.55277/researchhub.unu7fof1.1), v2 26 Dec 2025 (doi:10.55277/researchhub.unu7fof1.2); PDF dated 15 Dec 2025. Non-reviewed (ResearchHub preprint). Both ResearchHub pages now return 404; the v1 abstract was recovered from a Wayback Machine snapshot (20251226051003) and the PDF from ResearchHub's file storage (saved in round3/oa-c1-c6-c7/dl/ran2025/). Companion to Ran, arXiv:2511.20907, Phys. Rev. A 113, 042203 (2026), which is on the known list as C5 partial.",
+   "relation": "partial",
+   "summary": "Builds on Ran's dual-manifold framework, in which one quantum state has two conjugate dynamical descriptions, on space-time M_xt and on the Fourier-conjugate momentum-energy manifold M_kE. A 'non-boundary' coupling (analytic continuation k -> k_r + i kappa) projects M_kE modes onto space-time as evanescent, non-propagating states with density rho(r) = rho0/(r + 1/kappa0)^2, cored and then falling as 1/r^2, which gives flat rotation curves. The paper identifies this projection with dark matter: it sources gravity and emits no far-field electromagnetic radiation. This is the round-1 lead g1 could not retrieve.",
+   "difference": "Shares C1's central idea: dark matter comes from the conjugate (momentum-energy) side of the description and gravitates in ours. The mechanism differs. The paper says dark matter is 'not a new particle species' but an evanescent projection produced by coupling two descriptions of one state. It has no matter species organized or localized in momentum, no spontaneously broken Born reciprocity or polarization order parameter, no x- and p-polarized sectors with strict P4, no gated self-interaction and no monopoles. Its halo profile follows from a chosen spectral weight A(kappa). Non-reviewed and removed from its host; INSPIRE lists no citations of the companion arXiv paper. Labelled partial (a close variant) under the brief's venue rule because it does state dark matter as the conjugate sector's appearance in space-time; a verifier may prefer related.",
+   "quotes": [
+    {
+     "text": "A recently proposed framework enlarges the Hilbert space of quantum theory by allowing a single quantum state to admit two conjugate dynamical descriptions—one on the familiar space–time manifold and one on a complementary momentum–energy manifold",
+     "where": "abstract (PDF p. 1; same text in the archived ResearchHub page)",
+     "check": "lit.py cannot reach it (no arXiv record; Crossref has no abstract; WebFetch gets HTTP 404 from ResearchHub and refuses web.archive.org). FOUND in the PDF text (fetched with curl from storage.prod.researchhub.com, extracted with pypdf) by scripts/qlocal.py, which applies lit.py's norm()"
+    },
+    {
+     "text": "Here we show that dark matter arises naturally as a structural consequence of the coupling between these two dynamical sectors.",
+     "where": "abstract (PDF p. 1)",
+     "check": "lit.py cannot reach it (no arXiv record; Crossref has no abstract; WebFetch gets HTTP 404 from ResearchHub and refuses web.archive.org). FOUND in the PDF text (fetched with curl from storage.prod.researchhub.com, extracted with pypdf) by scripts/qlocal.py, which applies lit.py's norm(); also FOUND in the Wayback snapshot HTML (dl/ran2025/wayback.html)"
+    },
+    {
+     "text": "The resulting configuration possesses defining properties of dark matter: it carries finite energy density and sources gravity, yet it remains non-propagating and produces no long-range electromagnetic radiation.",
+     "where": "abstract (PDF p. 1)",
+     "check": "lit.py cannot reach it (no arXiv record; Crossref has no abstract; WebFetch gets HTTP 404 from ResearchHub and refuses web.archive.org). FOUND in the PDF text (fetched with curl from storage.prod.researchhub.com, extracted with pypdf) by scripts/qlocal.py, which applies lit.py's norm()"
+    },
+    {
+     "text": "Dark matter in the dual-manifold theory is not a new particle species, nor does it require altering gravitational laws; instead, it arises as an evanescent projection of a single quantum state across two dynamically conjugate manifolds.",
+     "where": "V. Concluding remarks (PDF p. 5)",
+     "check": "lit.py cannot reach it (no arXiv record; Crossref has no abstract; WebFetch gets HTTP 404 from ResearchHub and refuses web.archive.org). FOUND in the PDF text (fetched with curl from storage.prod.researchhub.com, extracted with pypdf) by scripts/qlocal.py, which applies lit.py's norm()"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C1",
+   "id": "doi:10.5281/zenodo.20094504",
+   "citation": "A. K. Sharma (independent researcher), \"The Conjugate Universe in the Symmetric Existence Framework\" (subtitle \"Memory, Dark Sector, and Non-Local Structure\"), Zenodo preprint, 10 May 2026, doi:10.5281/zenodo.20094504 (PDF SEF_CU_Paper_v2.pdf in record 20094505); one of dozens of 'Symmetric Existence Framework' versions on Zenodo. Non-reviewed.",
+   "relation": "collision",
+   "summary": "In the author's framework the 'Conjugate Universe' is the non-observable complement of the physical universe, required by a conservation law; its gravitational field is said to appear to us as dark matter, and its matter has no Standard Model gauge couplings, interacting with ours only gravitationally.",
+   "difference": "'Conjugate' means complement, not the Fourier or phase-space conjugate: the PDF never mentions momentum, phase space, Fourier or velocity (grep: 0 matches each). The dark-matter claim is the generic hidden-twin-sector one (gravity-only coupling, as in strict P4), not matter organized in momentum. Listed because a reader searching 'conjugate universe' with 'dark matter' meets it first (OpenAlex: 22 works with the phrase, most of them this author's).",
+   "quotes": [
+    {
+     "text": "The CU gravitational field manifests as dark matter in the PU.",
+     "where": "Zenodo record description (also the OpenAlex abstract)",
+     "check": "checked by WebFetch (zenodo.org/records/20094504) and FOUND in the cached OpenAlex abstract with lit.py's norm(); lit.py quote cannot reach DataCite DOIs"
+    },
+    {
+     "text": "is the non-observable complement of the Physical Universe (PU)",
+     "where": "Zenodo record description",
+     "check": "checked by WebFetch (zenodo.org/records/20094504) and FOUND in the cached OpenAlex abstract"
+    },
+    {
+     "text": "CU matter carries no Standard Model gauge couplings and interacts with PU matter only gravitationally",
+     "where": "PDF §5.2.4 'Dark Matter Null Results'",
+     "check": "FOUND in the PDF text (curl from Zenodo, pypdf) by scripts/qlocal.py (lit.py norm())"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C7",
+   "id": "gr-qc/9708047",
+   "citation": "F. Bunchaft, S. Carneiro, \"Weber-like interactions and energy conservation\", Found. Phys. Lett. 10, 393 (1997), doi:10.1007/BF02764109, arXiv:gr-qc/9708047 (journal)",
+   "relation": "related",
+   "summary": "Studies velocity-dependent central forces of Weber type, k(r^/r)(1 - mu rdot^2 + gamma r rddot) as written in the abstract, as laws of gravitation: they conserve energy only if gamma = 2 mu, and a gravitational theory built on them cannot be conservative while also giving both Mercury's perihelion precession and light deflection. Reported as the representative of the Weber-type and relational-mechanics line the task names.",
+   "difference": "The Weber-type law is the classical precedent for a long-range attraction whose strength depends on the bodies' relative motion: for mu > 0 the factor (1 - mu rdot^2) is largest at zero relative radial velocity. But the velocity scale is c (mu of order 1/c^2, fixed by solar-system tests); only the radial component enters; it acts between all bodies; and it is not tied to dark matter or to clumping. C7's gate acts only among dark-matter particles, with width v* of order 100 km/s. The record's own O(v^2/c^2) analysis of spin-2 exchange (notes/velocity-gated-gravity.md §2) covers this regime. The paper's no-go weighs on Weber-like gravity in general, not on a chi-only gate.",
+   "quotes": [
+    {
+     "text": "(such as Weber force), here called Weber-like forces, are examined from the point of view of energy conservation and it is proved that they are conservative if and only if",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "As a consequence, it is shown that gravitational theories employing Weber-like forces cannot be conservative and also yield both the precession of the perihelion of Mercury as well as the gravitational deflection of light.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C7",
+   "id": "doi:10.5281/zenodo.21232068",
+   "citation": "V. Laletin (Te/Tc Project, with D. Kuzmin), \"Mercury and Galaxies from One Formula\" (PDF title \"Gravity as a Statistical Effect of Planck-Packet Capture: Unified Explanation of Mercury's Perihelion Precession and Galactic Rotation Curves\"), Zenodo preprint v1.0, 7 July 2026, doi:10.5281/zenodo.21232068 (concept) / 10.5281/zenodo.21232069. Non-reviewed.",
+   "relation": "related",
+   "summary": "Proposes that gravity arises from statistical capture of Planck-scale 'packets' with a capture probability that depends on the relative velocity of the two bodies, and fits a(r) = -GM/r^2 - 3G^2M^2/(c^2 r^4) - k sqrt(GM)/r to Mercury's perihelion and six SPARC rotation curves without dark matter.",
+   "difference": "It states only that attraction depends on relative velocity, never in which direction or at what scale, and the law it fits contains no velocity at all (the k sqrt(GM)/r term is MOND-like; the author notes that a microscopic derivation of k is missing). It acts between all masses as an alternative to dark matter, not among dark-matter particles, and has no gate and no clumping. Reported because it is the only non-reviewed work found that ties a relative-velocity dependence of gravitational attraction to galaxies.",
+   "quotes": [
+    {
+     "text": "The capture probability depends on the relative velocity between the test particle and the source, leading to corrections to the",
+     "where": "§1 (PDF)",
+     "check": "FOUND in the PDF text (curl from Zenodo, pypdf) by scripts/qlocal.py (lit.py norm()); the record page was also read by WebFetch"
+    },
+    {
+     "text": "The third term arises from the velocity-dependence of the capture process and dominates at large distances.",
+     "where": "§2 'Model' (PDF)",
+     "check": "FOUND by scripts/qlocal.py (exact with the PDF's spaced hyphen; loose with a plain hyphen)"
+    },
+    {
+     "text": "A microscopic derivation of \\( k \\) from capture statistics is still missing",
+     "where": "'Limitations' (PDF)",
+     "check": "FOUND by scripts/qlocal.py (lit.py norm())"
+    }
+   ],
+   "confidence": "low"
+  }
+ ],
+ "queries": [
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"momentum space\"",
+   "hits": "70 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"Born reciprocity\"",
+   "hits": "4 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"reciprocal relativity\"",
+   "hits": "7 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"momentum space\" dual",
+   "hits": "5 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"conjugate\" \"momentum space\"",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"velocity space\" mirror",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"reciprocal space\"",
+   "hits": "5 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"phase space\" \"dual\"",
+   "hits": "47 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"position and momentum\"",
+   "hits": "9 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"Fourier\" \"dual\"",
+   "hits": "16 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"conjugate universe\"",
+   "hits": "22 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"momentum universe\"",
+   "hits": "5 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"cotangent bundle\"",
+   "hits": "3 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"tangent bundle\"",
+   "hits": "20 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"velocity space\" \"matter\"",
+   "hits": "112 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dark matter\" \"localized in momentum space\"",
+   "hits": "8 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dark matter is matter in momentum space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"matter in momentum space\" \"dark matter\"",
+   "hits": "2 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dark matter\" \"lives in momentum space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dark matter\" \"Born reciprocity\"",
+   "hits": "41 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dark matter\" \"conjugate matter\"",
+   "hits": "9 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dark matter\" \"momentum-space matter\"",
+   "hits": "1 works"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://www.mdpi.com/2218-1997/9/3/144 (Castro Perelman 2023, Universe 9 144)",
+   "hits": "HTTP 403"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "Castro Perelman \"Born's Reciprocal Relativity, Algebraic Extensions of the Yang and Quaplectic Algebra\" dark matter momentum space",
+   "hits": "10 results; no text linking the paper to dark matter; an INSPIRE file link"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Algebraic Extensions of the Yang and Quaplectic Algebra\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"other half\"",
+   "hits": "32 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"hidden half\" \"phase space\"",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"k-space\"",
+   "hits": "39 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"dual particles\"",
+   "hits": "4 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"momentum representation\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"velocity space\" \"dual\"",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"mirror\" \"velocity space\" universe",
+   "hits": "1 works"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"dark matter\" \"exists in momentum space\" OR \"lives in momentum space\" OR \"localized in momentum space\" hypothesis",
+   "hits": "10 results; none states C1; Cohen astro-ph/0304029 (already resolved in round 1: not C1); Zenodo 19386338 \"Here are some speculations about dark matter\" (to read)"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://zenodo.org/records/19386338 (Zhang 2026, \"Here are some speculations about dark matter\")",
+   "hits": "read: dark-matter medium for light and gravitational waves; no momentum/velocity/reciprocal space; not C1"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark matter is ordinary matter in momentum space Fourier dual of our universe hypothesis viXra OR ResearchGate OR Zenodo",
+   "hits": "10 results; none states C1 (Cohen astro-ph/0304029 again; ResearchGate super-fine fluid; Medium post; octonion DM)"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "Larson \"Reciprocal System\" \"dark matter\" \"cosmic sector\" inverse matter time-space",
+   "hits": "10 results; Larson cosmic sector (space-time inverse, speeds above c; \"cosmic matter ... as abundantly as ordinary matter\"), advocacy sources; none links it to dark matter; Hehl-Mashhoon \"reciprocal kernel\" (collision)"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"Reciprocal System\" Larson \"dark matter\" explained \"cosmic matter\" OR \"cosmic sector\" Nehru OR Peret OR Vijaya",
+   "hits": "10 results; proponent pages only; RS explains redshift \"without dark matter\"; no identification of cosmic matter with dark matter"
+  },
+  {
+   "database": "WebSearch (standard), allowed_domains reciprocalsystem.org",
+   "query": "reciprocalsystem.org \"dark matter\" cosmic sector",
+   "hits": "10 results; no reciprocalsystem.org page mentions dark matter; cosmic sector = \"unobserved half of the universe\", \"inverse matter\""
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"clumping in velocity space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"velocity space clumping\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"clumps in velocity space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"condensation in velocity space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"condensation in momentum space\"",
+   "hits": "10 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"Jeans instability\" \"velocity space\"",
+   "hits": "2 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"Jeans instability\" \"momentum space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"instability in velocity space\" gravitational",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"clumping in velocity space\"",
+   "hits": "34 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"clumping in momentum space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"clumps in momentum space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"condensation in velocity space\"",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"Jeans instability in velocity space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"velocity space\" \"dark matter\" \"condense\"",
+   "hits": "146 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" flocking",
+   "hits": "4 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" murmuration",
+   "hits": "6 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "flocking \"self-gravitating\"",
+   "hits": "2 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"velocity alignment\"",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"velocity space\" \"self-gravitating\" streams instability",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND \"momentum space\"",
+   "hits": "167 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dark matter\" \"discrete velocity streams\"",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND \"momentum space\" AND (conjugate OR reciprocal OR mirror OR dual OR polarization)",
+   "hits": "44 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND \"Born reciprocity\"",
+   "hits": "4 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"conjugate matter\"",
+   "hits": "50 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"matter in momentum space\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "Semantic Scholar",
+   "query": "dark matter as matter localized in momentum space Born reciprocity",
+   "hits": "error 429"
+  },
+  {
+   "database": "doi",
+   "query": "10.1142/S0218271815500364",
+   "hits": "== doi:10.1142/S0218271815500364 (Crossref)"
+  },
+  {
+   "database": "Crossref",
+   "query": "Assis On Mach principle Foundations of Physics Letters 1989",
+   "hits": "5 items"
+  },
+  {
+   "database": "doi",
+   "query": "10.1007/bf00690297",
+   "hits": "== doi:10.1007/bf00690297 (Crossref)"
+  },
+  {
+   "database": "Crossref",
+   "query": "Weber gravitational force galaxies rotation curves dark matter",
+   "hits": "15 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "Weber-type gravity velocity dependent force flat rotation curves",
+   "hits": "15 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "relational mechanics Weber gravitation dark matter galaxies",
+   "hits": "15 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "velocity-dependent gravitational force relative velocity galaxies dark matter",
+   "hits": "15 items"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "Weber-type gravitational force galaxy rotation curves without dark matter relative velocity dependent Newton law",
+   "hits": "9 results; no Weber-type gravity paper (1/r force, gravitational diffusion, Moffat NGT, Cooperstock-Tieu, gravitomagnetism critiques)"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t Weber and (t gravitation or t gravitational or t gravity)",
+   "hits": "21 hits"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"Weber\" AND (gravitation OR gravitational) AND (\"rotation curves\" OR \"dark matter\")",
+   "hits": "109 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"relational mechanics\" AND (\"dark matter\" OR galaxies OR \"rotation curves\")",
+   "hits": "123 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"velocity-dependent\" AND (gravity OR gravitational) AND (\"relative velocity\") AND (\"dark matter\" OR galaxies)",
+   "hits": "2 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "doi:\"10.5281/zenodo.21232068\" OR titles.title:\"Mercury and Galaxies from One Formula\"",
+   "hits": "2 works"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://zenodo.org/records/21232068 (Laletin 2026, \"Mercury and Galaxies from One Formula\")",
+   "hits": "record read: v1.0, 2026-07-07, PDF attached; description does not give the direction of the velocity dependence"
+  },
+  {
+   "database": "curl (Zenodo file)",
+   "query": "https://zenodo.org/records/21232069/files/Mercury and Galaxies from One Formula, Te_Tc, Moscow July, 2026.pdf",
+   "hits": "PDF downloaded to dl/laletin2026; text extracted with pypdf"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "Assis \"Weber's law\" gravitation \"relational mechanics\" galaxies OR \"dark matter\" OR \"rotation curves\" Weber-type force velocity",
+   "hits": "9 results; no Weber-gravity treatment of galaxies found; gravito-electromagnetic dipole (2303.01386), Schmutzer"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "\"Weber-like\" OR \"Weber-type\" gravitational potential \"dark matter\" velocity-dependent galaxies paper",
+   "hits": "10 results; J. Qassim Univ. Science review (2022) of a Weber-type force for flat rotation curves (Arbab); Blas-Ivanov-Sibiryakov 1209.0464 (round 1)"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://jnsm.qu.edu.sa/index.php/jnm/article/view/2327 (Qassim review)",
+   "hits": "ECONNREFUSED"
+  },
+  {
+   "database": "Crossref",
+   "query": "Review of Modified Gravity: Gravitational force without dark matter",
+   "hits": "5 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "Arbab generalized Newton law of gravitation velocity dependent force flat rotation curve",
+   "hits": "10 items"
+  },
+  {
+   "database": "doi",
+   "query": "10.1007/s10509-014-2152-z",
+   "hits": "== doi:10.1007/s10509-014-2152-z (Crossref)"
+  },
+  {
+   "database": "doi",
+   "query": "10.1007/s10509-009-0145-0",
+   "hits": "== doi:10.1007/s10509-009-0145-0 (Crossref)"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Arbab, Arbab I. and (t \"Newton\" or t \"rotation curve\")",
+   "hits": "2 hits"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"Dual-Manifold\" OR \"dual manifold\" AND \"dark matter\"",
+   "hits": "32 works"
+  },
+  {
+   "database": "doi",
+   "query": "10.55277/researchhub.unu7fof1.2",
+   "hits": "== doi:10.55277/researchhub.unu7fof1.2 (Crossref)"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "Sheng Ran \"Dark Matter from Dual-Manifold Coupling\" researchhub momentum-energy manifold",
+   "hits": "9 results; report not found"
+  },
+  {
+   "database": "Crossref API (curl)",
+   "query": "works/10.55277/researchhub.unu7fof1.2 (resource link)",
+   "hits": "see notes"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://www.researchhub.com/paper/10607286/dark-matter-from-dual-manifold-coupling (Crossref resource link)",
+   "hits": "HTTP 404"
+  },
+  {
+   "database": "Crossref API (curl)",
+   "query": "query.author=Sheng Ran, filter prefix:10.55277 (ResearchHub)",
+   "hits": "see output in notes"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://www.researchhub.com/paper/10604451/dark-matter-from-dual-manifold-coupling (v1 resource link)",
+   "hits": "HTTP 404 (both versions gone)"
+  },
+  {
+   "database": "arXiv",
+   "query": "au:\"Ran, Sheng\" OR (au:Ran AND au:Sheng AND (abs:\"dark matter\" OR abs:duality OR abs:\"momentum-energy\"))",
+   "hits": "87 hits"
+  },
+  {
+   "database": "lit.py text",
+   "query": "2511.20907 --grep dark",
+   "hits": "5 matches, all dark energy (M_kE background projects as dark energy); no dark matter; known label (C5 partial) stands"
+  },
+  {
+   "database": "Wayback Machine (availability + CDX API)",
+   "query": "researchhub.com/paper/10607286 and 10604451 (Sheng Ran report)",
+   "hits": "see notes"
+  },
+  {
+   "database": "WebFetch",
+   "query": "http://web.archive.org/web/20251226051003/https://www.researchhub.com/paper/10604451/... ",
+   "hits": "tool refuses web.archive.org"
+  },
+  {
+   "database": "curl (Wayback raw snapshot id_)",
+   "query": "web.archive.org/web/20251226051003id_/https://www.researchhub.com/paper/10604451/dark-matter-from-dual-manifold-coupling",
+   "hits": "saved to dl/ran2025/wayback.html"
+  },
+  {
+   "database": "Wayback snapshot parse (scripts/htmltext.py + regex)",
+   "query": "dl/ran2025/wayback.html, Next.js chunk 36",
+   "hits": "abstract of Sheng Ran, Dark Matter from Dual-Manifold Coupling, v1 2025-12-24, retrieved"
+  },
+  {
+   "database": "curl (ResearchHub storage PDF)",
+   "query": "storage.prod.researchhub.com/.../2_Dark_matter_as_evanescent_wave.pdf",
+   "hits": "HTTP 200, 251545 bytes, saved to dl/ran2025/paper.pdf"
+  },
+  {
+   "database": "INSPIRE citations of",
+   "query": "2511.20907",
+   "hits": "0 hits"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"momentum-energy manifold\" OR \"momentum–energy manifold\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "Zenodo API",
+   "query": "\"dark matter\" AND \"momentum space\" AND (conjugate OR reciprocal OR dual OR mirror)",
+   "hits": "3 records"
+  },
+  {
+   "database": "Zenodo API",
+   "query": "\"dark matter\" AND (\"velocity space\" OR \"momentum space\") AND (clump OR clumping OR clumps OR condensation OR condense)",
+   "hits": "3 records"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"Jeans instability\" \"velocity space\" OR \"momentum space\" roles of position and velocity exchanged self-gravitating streams fragmentation",
+   "hits": "9 results; none exchanges x and v in a Jeans analysis (stream fragmentation in position, Toomre Q, kinetic Jeans in BEC DM)"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark matter \"condenses in momentum space\" OR \"condensation in momentum space\" OR \"clumps in momentum space\" galaxy halo hypothesis",
+   "hits": "9 results; no source uses the phrases for dark matter; Berezhiani-Khoury (known), condensate fragmentation in position"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "gravitational attraction stronger between bodies moving with similar velocities, weaker at large relative velocity, velocity-dependent gravity hypothesis",
+   "hits": "9 results; no source states attraction peaking at similar velocities; leads: Weber-type relative-velocity models 0808.3798, mutual velocity measurement attraction 1903.09065, physics/9902035 (F0 sqrt(1-v^2/c^2)), Heaviside 0911.0715"
+  },
+  {
+   "database": "lit.py text",
+   "query": "0808.3798 --grep gravit",
+   "hits": "Devasia 2008: gravitational force with slip terms s(beta), beta=|v_rel|/c; planetary precession; scale c; no DM; not C7"
+  },
+  {
+   "database": "lit.py text",
+   "query": "1903.09065 --grep relative velocity|dark matter|...",
+   "hits": "Hahn-Fine: attraction from velocity diffusion under mutual measurement of relative velocity; reproduces Newton; no gate, no DM; not C7"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"força de Weber\" OR \"lei de Weber\" gravitação \"matéria escura\" OR \"curvas de rotação\" galáxias",
+   "hits": "10 results; none applies a Weber force to gravitation or galaxies"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:Weber AND (abs:gravitation OR abs:gravitational) AND (abs:\"velocity-dependent\" OR abs:\"relative velocity\" OR abs:Mach)",
+   "hits": "4 hits"
+  },
+  {
+   "database": "doi",
+   "query": "10.1007/978-94-011-0405-0_4",
+   "hits": "== doi:10.1007/978-94-011-0405-0_4 (Crossref)"
+  },
+  {
+   "database": "Crossref",
+   "query": "Ghosh velocity dependent inertial induction",
+   "hits": "12 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Ghosh, Amitabha and (t inertia or t \"inertial induction\" or t Mach)",
+   "hits": "1 hits"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://link.springer.com/article/10.1007/BF02846690 (Ghosh 1984 Pramana)",
+   "hits": "redirect to Springer login; not read"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"bounded confidence\" AND abs:velocity AND (abs:flocking OR abs:alignment OR abs:\"Cucker-Smale\")",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Cucker-Smale\" AND (abs:\"multi-cluster\" OR abs:\"velocity clusters\" OR abs:\"clustering\") AND abs:velocity",
+   "hits": "5 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "dark matter momentum space conjugate matter",
+   "hits": "20 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "dark matter reciprocal space Born reciprocity hypothesis",
+   "hits": "20 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "dark matter phase space duality position momentum symmetry",
+   "hits": "20 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "dark matter Fourier dual universe momentum space",
+   "hits": "20 items"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"is dark matter\" \"momentum space\" OR \"velocity space\" matter that clumps in momentum rather than position mirror universe speculation",
+   "hits": "10 results; nothing on momentum-space clumping or momentum-organized mirror matter"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t tachyon and t \"dark matter\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Carmeli and (t \"dark matter\" or abstracts.value:\"dark matter\")",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE (note)",
+   "query": "Carmeli 1996 astro-ph/9607142 and Behar-Carmeli 1999 read from abstracts",
+   "hits": "Tully-Fisher from an expansion in 1/c and 1/T; dark matter as property of space-time; not C1"
+  },
+  {
+   "database": "WebSearch (extended), allowed vixra.org",
+   "query": "vixra \"dark matter\" \"momentum space\" conjugate OR reciprocal OR \"Born reciprocity\" OR \"phase space\" mirror matter",
+   "hits": "9 results; no viXra paper on momentum-space dark matter; lead: Raitio viXra 2010.0178 (phase space, Born reciprocity, dark matter keywords)"
+  },
+  {
+   "database": "curl (viXra PDF)",
+   "query": "https://vixra.org/pdf/2010.0178v4.pdf (Raitio)",
+   "hits": "downloaded; text extracted"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND (\"same velocity\" OR \"similar velocities\" OR \"similar velocity\") AND (attract OR attraction)",
+   "hits": "5 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"velocity-dependent\" AND attraction AND \"dark matter\" AND (\"long-range\" OR \"long range\")",
+   "hits": "2 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND (flock OR flocking OR flocks OR murmuration) AND velocity",
+   "hits": "19 works"
+  },
+  {
+   "database": "Zenodo API (record)",
+   "query": "records/20094504 (Sharma, Conjugate Universe)",
+   "hits": "file list"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://zenodo.org/records/20094504 (Sharma 2026, The Conjugate Universe in the SEF)",
+   "hits": "read: CU = \"non-observable complement of the Physical Universe\"; \"The CU gravitational field manifests as dark matter in the PU\"; PDF SEF_CU_Paper_v2.pdf"
+  },
+  {
+   "database": "curl (Zenodo file)",
+   "query": "records/20094505/files/SEF_CU_Paper_v2.pdf",
+   "hits": "downloaded; grep momentum/phase space/Fourier/velocity"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "dark matter \"murmuration\" OR \"flocking\" analogy particles moving together same velocity streams halo essay",
+   "hits": "10 results; no flocking/murmuration analogy for dark matter; CDM velocity streams (Helmi-White-Springel astro-ph/0110546; Vogelsberger-White known)"
+  },
+  {
+   "database": "lit.py quote",
+   "query": "astro-ph/0110546 (WebSearch-attributed quote \"a significant fraction of detector events ...\")",
+   "hits": "NOT FOUND; dropped (role covered by known Zemp 2009, Vogelsberger-White 2011)"
+  },
+  {
+   "database": "Crossref",
+   "query": "gravitational constant depends on relative velocity of the bodies",
+   "hits": "15 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "velocity dependent gravitational interaction between galaxies relative velocity attraction weaker",
+   "hits": "15 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "attraction between particles with similar velocities long range force kinetic theory",
+   "hits": "15 items"
+  },
+  {
+   "database": "doi",
+   "query": "10.33774/coe-2026-sj8d9-v2",
+   "hits": "== doi:10.33774/coe-2026-sj8d9-v2 (Crossref)"
+  },
+  {
+   "database": "doi",
+   "query": "10.33774/coe-2021-763ds",
+   "hits": "== doi:10.33774/coe-2021-763ds (Crossref)"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "Minic talk slides \"dark matter\" \"dual\" metaparticles \"Born geometry\" OR \"modular spacetime\" pirsa OR indico OR seminar",
+   "hits": "9 results; Minic slide deck dragovich80.matf.bg.ac.rs/slides/minic.pdf (\"dual particles as fuzzy dark matter\"; basis of Hübsch-Minic 2026, known: anticipates); circulation only"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"other half of phase space\" OR \"missing half of phase space\" OR \"hidden half of phase space\" dark matter momentum",
+   "hits": "9 results; no such usage for dark matter (radial velocity distribution \"other half\", 1206.5306)"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"Born reciprocity\" OR \"Born's reciprocity\" OR \"reciprocal relativity\"",
+   "hits": "57 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "doi:\"10.25959/23211086\" OR doi:\"10.25959/23235812\" OR doi:\"10.5281/zenodo.18227477\"",
+   "hits": "3 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"Such Stelzer\" AND \"dark matter\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "Morgan (U. Tasmania) theses 10.25959/23211086, 23235812; Such Stelzer zenodo 18227477 (descriptions)",
+   "hits": "Born reciprocity theses and curved-momentum-space framework; no dark matter"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Dark Gravitational Field on Riemannian and Sasaki Spacetime\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "ti:\"Dark Gravitational Field\" AND au:Stavrinos",
+   "hits": "1 hits"
+  },
+  {
+   "database": "lit.py text",
+   "query": "2101.00657 --grep velocit|fiber|tangent bundle",
+   "hits": "Stavrinos-Savvopoulos: tangent bundle gives dark gravity more degrees of freedom; dark matter not identified with velocity-fibre matter; not C1"
+  },
+  {
+   "database": "doi",
+   "query": "10.11648/j.ajmp.20251403.11",
+   "hits": "== doi:10.11648/j.ajmp.20251403.11 (Crossref)"
+  },
+  {
+   "database": "Crossref + lit.py text",
+   "query": "Hernández 2025 AJMP abstract; Gallego Torromé 2610.12510 --grep dark matter",
+   "hits": "neither states C1 (Gallego Torromé: dark matter only in a reference to Castro 2018)"
+  },
+  {
+   "database": "DataCite",
+   "query": "(\"Born reciprocity\" OR \"Born's reciprocity\" OR \"reciprocal relativity\") AND (galaxy OR galaxies OR \"rotation curve\" OR \"rotation curves\")",
+   "hits": "0 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"Delbourgo\" AND (reciprocity OR \"1/r potential\")",
+   "hits": "2 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND (\"Fourier space\" OR \"frequency domain\" OR \"spectral domain\" OR \"k-space\" OR \"reciprocal space\") AND (dual OR mirror OR conjugate OR reciprocal)",
+   "hits": "73 works"
+  },
+  {
+   "database": "DataCite",
+   "query": "\"dark matter\" AND (\"Fourier space\" OR \"frequency domain\" OR \"spectral domain\" OR \"k-space\" OR \"reciprocal space\") AND (dual OR mirror OR conjugate OR reciprocal)",
+   "hits": "all non-reviewed noise (Zenodo theories of everything); none states C1"
+  },
+  {
+   "database": "DataCite",
+   "query": "doi:\"10.5281/zenodo.18065382\"",
+   "hits": "1 works"
+  },
+  {
+   "database": "Semantic Scholar",
+   "query": "dark matter conjugate sector phase space duality position momentum",
+   "hits": "stopped: unauthenticated rate limit (429 on the previous query)"
+  },
+  {
+   "database": "curl (OpenAlex probe)",
+   "query": "api.openalex.org/works?search=dark matter&per-page=1",
+   "hits": "HTTP 429: free daily budget for the shared IP used up; resets at midnight UTC (retry-after 82517 s)"
+  },
+  {
+   "database": "lit.py show",
+   "query": "1105.1709 (Borodikhin); 0808.3798; 1903.09065; physics/9902035; recid:1346134; recid:837084 (Arbab); gr-qc/9708047; astro-ph/0110546",
+   "hits": "metadata and abstracts read"
+  },
+  {
+   "database": "DataCite",
+   "query": "doi:\"10.5281/zenodo.18065382\" (Hartshorn 2025, Cosmic Murmurations)",
+   "hits": "murmurations = elliptic-curve murmurations (number theory); dark matter as \"arithmetic shock waves\"; word collision only, not reported"
+  }
+ ],
+ "not_found": [
+  {
+   "conjecture": "C1",
+   "statement": "Outside arXiv and INSPIRE, no source other than Sheng Ran's removed ResearchHub preprint states that dark matter is the matter of momentum space, the conjugate or reciprocal sector, the dual half of phase space, or a mirror copy organized in velocity. Searched: OpenAlex titles, abstracts and full texts (until its budget ran out), DataCite (Zenodo, figshare, OSF, ResearchGate DOIs), the Zenodo API, Crossref, WebSearch (including viXra and Reciprocal System sites), Wayback, and the tangent-bundle, Carmeli, tachyon and Castro Perelman lines. The 2025-26 Zenodo/figshare flood of unified theories pairs dark matter with momentum-space, reciprocity or 'conjugate' wording without stating C1. Larson's Reciprocal System calls its 'cosmic sector' of 'inverse matter' the unobserved half of the universe but never identifies it with dark matter."
+  },
+  {
+   "conjecture": "C6",
+   "statement": "No source found, in any venue searched, in which dark matter clumps or condenses in velocity or momentum space through a collective instability, a Jeans analysis is run with position and velocity exchanged, or dark matter flocks by velocity. OpenAlex title/abstract phrase searches for 'clumping in velocity space', 'velocity space clumping', 'clumps in velocity space', 'condensation in velocity space' and 'Jeans instability' + 'momentum space' returned 0. Full-text hits are stellar moving groups, cluster substructure and cold-dark-matter fine-grained streams. 'Murmuration' hits are unrelated (elliptic-curve murmurations). DataCite and Zenodo hits are non-reviewed unified theories. The closest material remains what the known list holds (Sikivie-Yang, Berezhiani-Khoury, Zemp et al., Vogelsberger-White, Ghosh's Born-Kothari condensation)."
+  },
+  {
+   "conjecture": "C7",
+   "statement": "No source found that states a long-range attraction among dark-matter particles acting only, or most strongly, between particles of similar velocity. The velocity-dependent gravity literature outside arXiv works at the velocity scale c or with absolute velocities, acts between all masses, and is offered as an alternative to dark matter or for perihelion precession. This covers Weber-like laws, Gerber-type fits (Gribkov), Arbab's generalized Newton law, Ghosh's inertial induction, Devasia's relative-velocity Weber model, Laletin's capture model and Hahn-Fine's measurement-induced attraction. None gates an attraction to small relative velocity at a scale like v* ~ 120 km/s, and none restricts it to dark matter. No Weber-type gravity paper applied to galaxy rotation curves was found (English and Portuguese searches). The closest remains Delbourgo-Lashmar 2008 (known: partial)."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "lead": "A. Ghosh, velocity-dependent inertial induction: 'Velocity dependent inertial induction: An extension of Mach's principle', Pramana (1984), doi:10.1007/bf02846690; and 'Determination of True Velocity Dispersion and the Dark Matter Problem in Clusters of Galaxies', in Plasma Astrophysics and Cosmology (Springer, 1995), doi:10.1007/978-94-011-0405-0_4. A relational-mechanics force between bodies that depends on their relative velocity, applied to cluster dark matter.",
+   "why_unverified": "Found through Crossref, which has no abstracts. The Springer pages redirect to a login, so the form and sign of the velocity dependence were not read."
+  },
+  {
+   "lead": "A. K. T. Assis, 'On Mach's principle', Found. Phys. Lett. 2, 301 (1989), doi:10.1007/bf00690297 (Weber-type gravitational force); and Assis, Relational Mechanics (Apeiron, 1999) †.",
+   "why_unverified": "Crossref has no abstract; round 1 found only a scanned PDF; the book is cited from memory (†) and was not retrieved."
+  },
+  {
+   "lead": "'Review of Modified Gravity: Gravitational force without dark matter', Journal of Qassim University for Science (2022), jnsm.qu.edu.sa article 2327: reviews A. I. Arbab's velocity-dependent law for flat rotation curves alongside Weber's gravitational force.",
+   "why_unverified": "The site refused connection (ECONNREFUSED); known only from a WebSearch summary. Arbab's own papers (Astrophys. Space Sci. 325, 37 (2010); 355, 343 (2015)) were read from INSPIRE abstracts: a gravitomagnetic Lorentz-force analogue between all masses, no gate."
+  },
+  {
+   "lead": "Sheng Ran, 'Dark Matter from Dual-Manifold Coupling', v2 (doi:10.55277/researchhub.unu7fof1.2, 26 Dec 2025).",
+   "why_unverified": "The page returns 404 and has no Wayback snapshot; only v1 (archived abstract, stored PDF) was read. Whether v2 differs is unknown."
+  }
+ ],
+ "notes": "Coverage. OpenAlex answered 46 queries (C1 and C6 phrase searches in titles, abstracts and full texts) before, at about 01:04 UTC on 2026-11-03, it began answering HTTP 429: 'Insufficient budget ... the free daily budget shared by everyone on your network's IP address ... is used up ($0 remaining; resets at midnight UTC)'. The other round-3 sweeps share this IP and budget. Getting a key would require sending the user's email to OpenAlex, which was not done. The C7 OpenAlex set (Weber, relational mechanics, velocity-dependent gravity) therefore ran on DataCite, which indexes Zenodo, figshare, OSF and ResearchGate DOIs, and on the Zenodo search API, Crossref, INSPIRE, arXiv and WebSearch. Semantic Scholar's unauthenticated pool also returned 429. Three planned OpenAlex queries did not run: 'dark matter' + 'velocity alignment'; 'velocity space' + 'self-gravitating' streams instability; 'dark matter' + 'discrete velocity streams'. A rerun after the reset would close that gap. Non-reviewed flood: in 2025-26 Zenodo and figshare carry hundreds of AI-assisted 'theories of everything' that pair dark matter with momentum space, reciprocity, 'conjugate universe', Weber forces or 'murmurations'. I screened them by DataCite and OpenAlex descriptions and read the few whose wording came close. Only Sharma's 'Conjugate Universe' is reported, as a collision a reader will meet. Quote checks for non-arXiv items: lit.py quote cannot reach DataCite DOIs, ResearchHub or Zenodo PDFs. I downloaded the texts with curl into round3/oa-c1-c6-c7/dl/<name>/, extracted them with pypdf (python3 -I), and checked quotes with scripts/qlocal.py, which applies lit.py's norm() and loose(); verdicts are in quotes.tsv. Known-list reading: Ran's arXiv paper 2511.20907 (known: C5 partial) mentions only dark energy (lit.py text --grep dark: 5 matches, all dark energy), so its label stands; the C1 claim is in the separate ResearchHub preprint reported here. Read and not reported: Castro Perelman 2023 (Universe 9, 144; 'dark matter' appears only as a possible source of phase-space noncommutativity); Castro Perelman 2026 (IJGMMP; one sentence on 'dark matter problem', the known 2019 line); Stavrinos-Savvopoulos 2020 (Universe; tangent-bundle 'dark gravity'); Herrmann 2019/2022 (EPJC; tangent-bundle gauge theory with dark-matter candidates); Bray 2013; Carmeli 1996 and Behar-Carmeli 1999; Hill 2020 (Math. Mech. Solids); Chung-Krasnoholovets 2013; Otto 2020 (JMP); Raitio viXra 2010.0178; Larson's Reciprocal System; Hägglund 2026 (Zenodo, Weber force in x x v phase space); Guiot 2015 and Borodikhin 2011 (round-1 leads, no gate); Arbab 2010/2015; Devasia 2008 (Z. Naturforsch. 64a, 327); Hahn-Fine 2019 (AIP Conf. Proc. 2362); Gribkov 2021/2026 (Cambridge Open Engage); S. O. Morgan's U. Tasmania theses on Born reciprocity; a Minic slide deck (Belgrade) that repeats Hübsch-Minic 2026 (known: anticipates). Details in round3/oa-c1-c6-c7/notes.md."
+}

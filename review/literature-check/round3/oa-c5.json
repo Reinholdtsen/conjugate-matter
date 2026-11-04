@@ -1,0 +1,747 @@
+{
+ "sweep": "oa-c5",
+ "findings": [
+  {
+   "conjecture": "C5",
+   "id": "2207.02835",
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"Bouncing and collapsing universes dual to late-time cosmological models\", Eur. Phys. J. C 84 (2024) 318, doi:10.1140/epjc/s10052-024-12673-1, arXiv:2207.02835 (journal)",
+   "relation": "partial",
+   "summary": "Uses the Einstein-frame/Jordan-frame (conformal) correspondence of scalar-tensor gravity to give the dark-energy-driven late universe a dual description: a ΛCDM Einstein frame always maps to a bouncing Brans-Dicke Jordan frame, and quintessence plus matter to a Jordan-frame turnaround, a bounce or a collapse. The abstract concludes that the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe. Two passages beyond the abstract bear on C5's route. Sec. 6 runs the map the other way: a de Sitter Jordan frame (Brans-Dicke parameter -4/3), which mimics the dark-energy-dominated era, has as its Einstein-frame dual a stiff fluid (w = 1, zero potential, a purely kinetic scalar) that contracts toward a crunch. That is the pairing of #11 §10's 'dual stiff ↦ Λ' with the stiff side contracting, realized in another duality. Sec. 5.2's thawing example uses the hilltop potential Λ⁴(1 + cos(φ/f)), the functional form of #11's τ potential V₀[1 + cos(τ/f)], and arranges the Jordan-frame collapse at the current era, which bears on the open question of how the route relates to τ's potential.",
+   "difference": "The dual description is a conformal (Weyl) rescaling of the same spacetime in a scalar-tensor theory, fixed by the Brans-Dicke field, not the momentum-space description of Born reciprocity, and no relation like a·ã = 1 holds (in sec. 6 the Einstein-frame scale factor goes as (1 - const·t̃)^(1/3) while the Jordan one grows exponentially, eq. 47). Dark energy (Λ, quintessence or the Brans-Dicke field) is put in by hand in one frame; the collapse in the other is a re-description ('equivalently', 'alternatively'), not its source, so C5's 'drives' is absent, though #11 App. A item 8 reads its own duality as synchronized, not causal. The turnaround point is tunable through the Brans-Dicke parameter, and for ΛCDM the dual is a bounce, not a collapse. The stiff/de Sitter pairing of sec. 6 is one exact solution (ω_BD = -4/3, U = 0), not a dictionary w_eff = -w̃. Not anticipation: the conjecture's partner is the momentum-space (conjugate) description, and here it is a conformal frame. The g4 verifier reported this paper (g4-collapse-acceleration/verify.json, new_findings; it read the abstract and secs. 3 and 8); it is not in round3/known.json. Sec. 6 and the sec. 5.2 hilltop example are not in that entry.",
+   "quotes": [
+    {
+     "text": "Therefore,the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "In this section, we briefly discuss an example where a de Sitter expansion in the Jordan frame maps to a contracting Einstein frame.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "In this case, the Jordan frame universe mimics the late-time dark energy-dominated era of the",
+     "where": "sec. 6 (continues 'ΛCDM model')",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "the effect of dark energy is produced by the Brans-Dicke field instead of the cosmological constant.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "the Einstein frame scalar field describes a stiff fluid with equation of state parameter",
+     "where": "sec. 6 (continues 'w_φ = 1 (from eq. 11)')",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "Therefore, as the Jordan frame expands exponentially, the corresponding Einstein frame contracts.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "Therefore, the de Sitter expansion in the Jordan frame can alternatively be seen in the Einstein frame as a collapsing universe, heading towards a big crunch-like singularity.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "As an example, we consider the ‘hilltop’ quintessence potential",
+     "where": "sec. 5.2 (eq. 43)",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "thus leading to a collapse in the Jordan frame at the current era",
+     "where": "sec. 5.2",
+     "check": "lit.py quote: FOUND (full text)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2105.10521",
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"f(R) dual theories of quintessence: expansion-collapse duality\", JCAP 12 (2021) 016, doi:10.1088/1475-7516/2021/12/016, arXiv:2105.10521 (journal)",
+   "relation": "partial",
+   "summary": "The first paper of the expansion-collapse duality line. It reconstructs the f(R) Jordan-frame duals of quintessence-driven Einstein-frame cosmologies and finds, for a class of viable quintessence models, that the Jordan-frame universe grows to a maximum size and then collapses while the physical (Einstein-frame) universe keeps expanding; it derives the condition for this duality for time-varying equations of state with matter present.",
+   "difference": "Conformal frames of f(R) gravity, not Born reciprocity or momentum space; the dark energy is assumed (quintessence) and the dual collapse is a mapping at the level of the field equations, not a source; no inverse scale factor, no dictionary; this paper does not yet say that the collapse is the effect of dark energy (the 2024 paper does). Also in the g4 verifier's new_findings; not in known.json.",
+   "quotes": [
+    {
+     "text": "We show that for certain class of viable quintessence models, the Jordan frame universe grows to a maximum finite size, after which it begins to collapse back.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "Thus, there is a possibility that in the late time limit where the Einstein frame universe continues to expand, the Jordan frame universe collapses.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "This mapping between an expanding geometry and a collapsing geometry at the field equation level may have interesting potential implications on the growth of perturbations therein at late times.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.1142/9789811269776_0074",
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"Condition for expansion-collapse duality between Einstein and Jordan frames\", in The Sixteenth Marcel Grossmann Meeting (World Scientific, 2023), p. 958, doi:10.1142/9789811269776_0074, INSPIRE recid:2627610 (conference proceedings; not on arXiv)",
+   "relation": "partial",
+   "summary": "Proceedings statement of the line: depending on the Jordan-frame action (equivalently the Einstein-frame quintessence potential), the Einstein frame can expand while the Jordan frame collapses; a general condition is derived for time-dependent equations of state and other components, and the duality is said to give an effective description of a collapsing universe in terms of an expanding one.",
+   "difference": "Same framework and limits as the JCAP 2021 paper (conformal frames, dark energy assumed, re-description not source, no momentum space or a·ã = 1). Listed because it is a non-arXiv venue of the line.",
+   "quotes": [
+    {
+     "text": "it is possible that while the Einstein frame expands, the Jordan frame collapses",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "Such expansion-collapse duality between these conformally connected frames can lead to an effective description of a collapsing universe in terms of an expanding one",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2305.19106",
+   "citation": "D. Mukherjee, H. S. Sahota, \"Einstein and Jordan frame correspondence in quantum cosmology: expansion-collapse duality\", Eur. Phys. J. C 83 (2023) 803, doi:10.1140/epjc/s10052-023-11934-9, arXiv:2305.19106 (journal)",
+   "relation": "related",
+   "summary": "Wheeler-DeWitt quantization of both frames of the expansion-collapse duality, for an always-expanding Einstein-frame universe whose Jordan-frame dual contracts forever; the conformal map is found to hold for expectation values, and quantum fluctuations grow in both frames. The introduction notes that dark-energy-driven late-time models can be realized in conformal frames with contrasting evolutions.",
+   "difference": "About the quantum consistency of the frame duality, not the source of our acceleration; conformal frames, not momentum space. The configuration (one description expands forever while its dual contracts forever) is the closest in this line to the permanent inverse behaviour of a·ã = 1, but no inverse relation is stated.",
+   "quotes": [
+    {
+     "text": "an always expanding Einstein frame universe can have a dual Jordan frame description that is contracting forever",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "It is also possible to realize the dark energy-driven standard late-time cosmological models in conformal frames with contrasting cosmological evolutions.",
+     "where": "introduction",
+     "check": "lit.py quote: FOUND (full text)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2412.04644",
+   "citation": "J.-P. Petit, F. Margnat, H. Zejli, \"A bimetric cosmological model based on Andreï Sakharov's twin universe approach\", Eur. Phys. J. C 84 (2024) 1226, arXiv:2412.04644 (journal). On round3/known.json for C1 (related) only; this is a C5 reading.",
+   "relation": "related",
+   "summary": "Janus model: two FLRW sheets carrying positive and negative masses, tied by the conservation law ρc²a³ + ρ̄c̄²ā³ = E (eq. 96). In the exact dust solution (eqs. 98a, 98b) a²ä = -(4πG/c²)E and ā²(d²ā/dx⁰²) = +(4πG/c̄²)E, so when the negative-mass (twin) content dominates, E < 0, our scale factor accelerates while the twin sheet's decelerates. The paper takes this as its explanation of the acceleration of cosmic expansion, with negative masses replacing dark energy.",
+   "difference": "The twin sheet decelerates; the text does not say it contracts. This settles the round-1 unverified lead on Petit-d'Agostini 2014 (whose abstract says only 'decelerates') for the 2024 restatement. The partner is a PT-conjugate negative-mass sheet with its own metric, not a momentum-space description; our acceleration comes from the negative energy of the twin's matter, not from its collapse; no inverse scale factor. Same family as Petit-d'Agostini 2014 (related on the known list).",
+   "quotes": [
+    {
+     "text": "The evolution of the positive species will correspond to an acceleration if the energy E of the system is negative.",
+     "where": "sec. 10, after eq. (98b)",
+     "check": "lit.py quote: FOUND (full text)"
+    },
+    {
+     "text": "This provides a physical interpretation of the acceleration of the cosmic expansion ([12, 17]), which then follows from the fact that the energy content is predominantly negative.",
+     "where": "sec. 10",
+     "check": "lit.py quote: FOUND (full text)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2603.03385",
+   "citation": "M. Gogberashvili, T. Tsiskaridze, \"Dark Energy from Entanglements with Mirror Universe\", Physics 8 (2026) 29 (MDPI), doi:10.3390/physics8010029, arXiv:2603.03385 (journal)",
+   "relation": "related",
+   "summary": "Pair-universe framework: the universe emerges with a time-reversed (PT) mirror partner evolving with the opposite direction of time. Vacuum energies of the two sectors cancel under a global zero-energy condition, and the observed dark energy is proposed to be an entanglement energy between our universe and its mirror counterpart, fixed as an integration constant by boundary conditions at the cosmological event horizon.",
+   "difference": "The partner universe is the source of our dark energy, which C5 shares, but through entanglement and boundary conditions, not through contraction or collapse; the mirror is related by x^ν → -x^ν (PT), not by Born reciprocity; no dual scale-factor dynamics.",
+   "quotes": [
+    {
+     "text": "We propose that the observed dark energy does not originate from vacuum fluctuations but instead arises as an effective entanglement energy between the visible universe and its mirror counterpart",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "motivated by the idea that a quantum universe may emerge from nothing as an entangled pair of universes evolving with opposite directions of time",
+     "where": "sec. 1",
+     "check": "lit.py quote: FOUND (full text)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "gr-qc/0405055",
+   "citation": "J. E. Lidsey, \"Triality between inflation, cyclic and phantom cosmologies\", Phys. Rev. D 70 (2004) 041302, doi:10.1103/PhysRevD.70.041302, arXiv:gr-qc/0405055 (journal)",
+   "relation": "related",
+   "summary": "Any flat, isotropic universe in accelerated expansion driven by a self-interacting scalar field is related by a duality (interchanging scale factor and Hubble parameter as functions of the field) to a contracting, decelerating cosmology; inverting the scale factor with H fixed twins the decelerating universe with a phantom one.",
+   "difference": "A map between solutions, framed for inflation, cyclic (contracting) and phantom cosmologies; no partner universe acting on ours and no dark-energy mechanism. Its a → 1/a twinning is the phantom duality of the program's superseded heuristic dictionary (w → -2 - w; Chimento-Lazkoz and Dąbrowski et al. are on the known list), not the corrected w_eff = -w̃. Listed as the family's general statement that accelerated expansion and contraction are dual descriptions; the g4 searcher left out Cai et al. 2007 and Chimento-Pavón 2006 of the same family.",
+   "quotes": [
+    {
+     "text": "It is shown that any spatially flat and isotropic universe undergoing accelerated expansion driven by a self-interacting scalar field can be directly related to a contracting, decelerating cosmology.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "The decelerating universe can be twinned with a cosmology sourced by a phantom scalar field by inverting the scale factor and leaving the Hubble parameter invariant.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.1142/9789819839926_0093",
+   "citation": "F. Henry-Couannier, \"Dark Gravity confronted with Supernovae, Baryonic Oscillations and the Cosmic Microwave Background\", in The Seventeenth Marcel Grossmann Meeting (World Scientific, 2026), doi:10.1142/9789819839926_0093 (conference proceedings; no arXiv version found)",
+   "relation": "related",
+   "summary": "The latest proceedings of the Dark Gravity line already on the known list (gr-qc/0507065, gr-qc/0610079, PoS EDSU2018): matter and radiation of the theory's dark sector, once their gravity dominates ours, produce a constant-acceleration law a ∝ t², and a sudden transition from a ∝ t^(2/3) to a ∝ t² is fitted to supernova, BAO, CMB, stellar-age and H0 data with two free parameters.",
+   "difference": "Judged on the abstract only (World Scientific page 403 to WebFetch; no preprint found). The abstract attributes our acceleration to the dark sector's gravity but does not mention the dark side's contraction, which PoS EDSU2018 states (partial on the known list); hence related here. Dark Gravity's dark side is a time-reversed, inverse-metric sector, not a momentum-space description, and the accelerated law is a ∝ t², not Λ. Shows the line is still being published.",
+   "quotes": [
+    {
+     "text": "Matter and radiation fields from its dark sector, as soon as their gravity dominates over our side fields gravity, produce a constant acceleration law of the scale factor.",
+     "where": "abstract",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); publisher page 403 to WebFetch"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.3390/ecu2023-14102",
+   "citation": "M. B. Al-Fadhli, \"Entangled Dual Universe\", Phys. Sci. Forum 7 (2023) 56, 2nd Electronic Conference on Universe (MDPI), doi:10.3390/ecu2023-14102 (conference proceedings). Earlier versions: \"On Spacetime Duality and Bounce Cosmology of a Dual Universe\", Preprints.org 202005.0250 v4-v10 (2020-2021; non-reviewed), and an ECU 2021 proceedings paper (mdpi.com/2673-9984/2/1/61, 403 to WebFetch)",
+   "relation": "related",
+   "summary": "A brane-world wavefunction of the universe whose positive and negative solutions are read as matter and antimatter 'sides' of the universe. After a decelerating phase of about 10 Gyr comes an accelerating phase 'in reverse directions', during which the two sides free-fall towards each other under gravitational acceleration; the mechanism is offered as a replacement for dark matter and dark energy.",
+   "difference": "The partner is an antimatter side of the same universe separated in a bulk, not a momentum-space description; the acceleration goes with the two sides falling toward each other, not with the contraction or collapse of one of them; no inverse scale factor and no stiff ↦ Λ. Proceedings abstract and non-reviewed preprints.",
+   "quotes": [
+    {
+     "text": "This study reports a quantum mechanism that could potentially replace the concept of dark matter/energy by taking into account the primordial curvature while generating the present-day spatial flatness.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    },
+    {
+     "text": "During the second phase, both Universe sides are free-falling towards each other under gravitational acceleration.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.4236/jhepgc.2024.101005",
+   "citation": "T. M. El-Sherbini, \"A Model for a Dual Universe\", Journal of High Energy Physics, Gravitation and Cosmology 10(1) (2024) 52-66, doi:10.4236/jhepgc.2024.101005 (journal, Scientific Research Publishing). Companion review: \"The Dual Universe\", Journal of Laser Science and Applications (2024), doi:10.21608/jlsa.2024.366661",
+   "relation": "related",
+   "summary": "An antimatter counterpart universe begun with ours; its opposite rotation produces anti-gravitational waves that give the space around galaxies a negative-like curvature, pushing galaxies apart and leading to the accelerated expansion of our universe, offered as insight into dark energy. Resolves the round-1 unverified lead 'El-Sherbini, The Dual Universe'.",
+   "difference": "No contraction or collapse of the dual universe; the mechanism is repulsion from its rotation; an antimatter twin in the same space-time, not a momentum-space description.",
+   "quotes": [
+    {
+     "text": "This negative curvature pushes the galaxies outward, away from each other, leading to the accelerated expansion of our universe.",
+     "where": "abstract",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); final clause also checked by WebFetch (scirp.org paperid=130419)"
+    },
+    {
+     "text": "A model for a dual universe is proposed, based on the assumption that simultaneously with our universe an anti-matter counterpart was initiated immediately following the Big Bang.",
+     "where": "abstract",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.2174/1874381101104010054",
+   "citation": "Leong Ying, \"Dark Energy is Stellar Nuclear Fusion Replicated in a Mirrored Universe\", The Open Astronomy Journal 4 (2011) 54-56, doi:10.2174/1874381101104010054 (journal, Bentham Open); earlier as \"Nuclear Fusion Drives Present-Day Accelerated Cosmic Expansion\", AIP Conf. Proc. (2010), doi:10.1063/1.3498625",
+   "relation": "related",
+   "summary": "A twin (mirror) universe of reversed, negative polarity on the opposite face of a two-dimensional membrane duplicates our processes; stellar nuclear fusion, replicated there, supplies the negative-energy pressure (dark energy) that drives our present acceleration.",
+   "difference": "The mirror universe shares our stretching, so it expands with ours; no contraction or collapse; the driver is fusion, not gravitational collapse; not a momentum-space description.",
+   "quotes": [
+    {
+     "text": "From a Twin Universe perspective, it is proposed that stellar nuclear fusion can account for the negative-energy pressure (Dark Energy) that drives our present-day accelerated cosmic expansion.",
+     "where": "abstract",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); excerpts also checked by WebFetch (benthamopenarchives TOAAJ-4-54)"
+    },
+    {
+     "text": "In the mirror twinned universe all processes are duplicated but with reverse negative polarity.",
+     "where": "abstract",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); also checked by WebFetch"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.5281/zenodo.14786788",
+   "citation": "J. P. Stolt, \"The Paradoxical Infinity Model: A Dual-Universe Framework for Dark Matter, Dark Energy, and Time Asymmetry\", Zenodo preprint (1 Feb 2025), doi:10.5281/zenodo.14786788 (non-reviewed)",
+   "relation": "related",
+   "summary": "Two interacting universes: A expanding with forward time flow, B contracting with reverse time flow, exchanging gravitational and entropic effects, offered as potential explanations of dark matter, dark energy and the arrow of time.",
+   "difference": "The record states the configuration (a contracting partner universe, gravitationally coupled to our expanding one, invoked for dark energy) but not that B's contraction drives A's acceleration, and its description gives no mechanism; the three-page PDF has no extractable text layer and was not read. A time-reversed twin, not a momentum-space description. Non-reviewed, so not above related.",
+   "quotes": [
+    {
+     "text": "two interacting universes: Universe A, expanding with forward time flow, and Universe B, contracting with reverse time flow.",
+     "where": "Zenodo description",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); also in the Zenodo API record; description checked by WebFetch"
+    },
+    {
+     "text": "These universes exchange gravitational and entropic effects, offering potential explanations for cosmological phenomena such as dark matter, dark energy, and the arrow of time.",
+     "where": "Zenodo description",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); checked by WebFetch (zenodo.org/records/14786788)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.5281/zenodo.23589138",
+   "citation": "H. Alshareif, \"The Breathing Twin Universes (Interconnected Expansion-Contraction and the Single Knock as Inter-Universal Contact)\", Zenodo preprint v1.0 (23 Oct 2026), doi:10.5281/zenodo.23589138 (non-reviewed)",
+   "relation": "related",
+   "summary": "Our universe A and a twin B in 'breathing exchange': expansion of A causes contraction of B and vice versa, with total energy zero; dark energy is 'structural tension' from the pressure of B expanding into our membrane.",
+   "difference": "The causal arrow runs from our expansion to their contraction, and dark energy is attributed to B's expansion pressure, not to its collapse; no physical model (the record cites contemplation and reanalysed LIGO events). Non-reviewed.",
+   "quotes": [
+    {
+     "text": "Expansion of A causes contraction of B and vice versa, total energy zero: E_A + C_B = 0, E_B + C_A = 0.",
+     "where": "Zenodo description",
+     "check": "OpenAlex single-work abstract (first clause): FOUND; full sentence checked by WebFetch (zenodo.org/records/23589138)"
+    },
+    {
+     "text": "The observed dark energy (68%) is structural tension from that pressure.",
+     "where": "Zenodo description",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); checked by WebFetch"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "doi:10.4236/jmp.2023.1413099",
+   "citation": "H. Shibata, N. Ogata, \"Apparent Accelerated Expansion of the Three-Dimensional Spherical Universe Observed during Its Contraction Phase\", Journal of Modern Physics 14(13) (2023) 1693-1702, doi:10.4236/jmp.2023.1413099 (journal, Scientific Research Publishing)",
+   "relation": "collision",
+   "summary": "Claims that the observations read as accelerated expansion can be reproduced by an accelerated contraction of our own S³ universe, through a proper-time effect on redshifts.",
+   "difference": "Same words ('contraction', 'accelerated expansion'), different thing: our own universe contracting and the acceleration only apparent; no partner, dual or conjugate universe.",
+   "quotes": [
+    {
+     "text": "the same observations as the present universe can also be found by the accelerated contraction of the universe",
+     "where": "abstract",
+     "check": "OpenAlex single-work abstract (oawork.py): FOUND; lit.py quote: NOT FOUND (no text available to the tool); checked by WebFetch (scirp.org paperid=129766)"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "queries": [
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dual universe\" contracting accelerated expansion",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dual universe\"",
+   "hits": "126 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"dual universe\" AND (\"dark energy\" OR acceleration OR accelerating OR expansion OR cosmological)",
+   "hits": "53 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"mirror universe\" AND (\"dark energy\" OR \"accelerated expansion\" OR \"accelerating expansion\" OR \"cosmic acceleration\" OR \"cosmological constant\")",
+   "hits": "17 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"twin universe\" OR \"twin universes\") AND (\"dark energy\" OR \"accelerated expansion\" OR \"accelerating\" OR \"cosmological constant\" OR contracting OR contraction)",
+   "hits": "18 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"conjugate universe\" OR \"conjugate universes\" OR \"conjugate cosmology\"",
+   "hits": "25 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"antiuniverse\" OR \"anti-universe\" OR \"anti universe\") AND (\"dark energy\" OR \"accelerated expansion\" OR acceleration OR contracting OR collapse)",
+   "hits": "37 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"parallel universe\" OR \"shadow universe\" OR \"hidden universe\" OR \"sister universe\" OR \"partner universe\" OR \"companion universe\") AND (\"dark energy\" OR \"accelerated expansion\") AND (contracting OR contraction OR collapse OR collapsing)",
+   "hits": "10 works"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "t \"Bouncing and collapsing universes dual to late-time cosmological models\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Mukherjee, Dipayan and a Lochan",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE citation graph (backward)",
+   "query": "refs 2207.02835",
+   "hits": "74 references"
+  },
+  {
+   "database": "INSPIRE citation graph (forward)",
+   "query": "cites 2207.02835",
+   "hits": "6 hits"
+  },
+  {
+   "database": "INSPIRE citation graph (forward)",
+   "query": "cites 2105.10521",
+   "hits": "4 hits"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"momentum space\" AND universe AND (\"dark energy\" OR \"accelerated expansion\" OR \"cosmological constant\" OR \"cosmic acceleration\") AND (contracting OR contraction OR collapse OR collapsing OR shrinking OR shrinks)",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"Born reciprocity\" OR \"reciprocity principle\" OR \"reciprocal relativity\" OR \"Born reciprocal\") AND (cosmology OR cosmological OR universe OR \"dark energy\")",
+   "hits": "24 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"scale factor duality\" OR \"scale-factor duality\") AND (\"dark energy\" OR \"accelerated expansion\" OR \"accelerating\" OR \"cosmological constant\" OR \"late time\" OR \"late-time\")",
+   "hits": "13 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"stiff matter\" OR \"stiff fluid\" OR \"kinetic dominated\" OR \"kinetic-dominated\" OR \"kination\") AND (\"cosmological constant\" OR \"dark energy\") AND (dual OR duality OR mirror OR conjugate OR reciprocal)",
+   "hits": "4 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"inverse scale factor\" OR \"reciprocal scale factor\" OR \"inverted scale factor\" OR \"dual scale factor\") AND (universe OR cosmology OR cosmological)",
+   "hits": "23 works"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "\"expansion-collapse duality\" OR \"expansion collapse duality\" OR \"contraction-expansion duality\" OR \"expanding-contracting duality\" OR \"duality between expanding and contracting\"",
+   "hits": "6 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"their collapse is our\"",
+   "hits": "5095 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"collapse of the dual universe\" OR \"contraction of the dual universe\" OR \"dual universe contracts\" OR \"dual universe collapses\" OR \"collapsing dual universe\" OR \"contracting dual universe\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"mirror universe contracts\" OR \"mirror universe collapses\" OR \"contracting mirror universe\" OR \"collapsing mirror universe\" OR \"twin universe contracts\" OR \"contracting twin universe\"",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"momentum space contracts\" OR \"momentum space shrinks\" OR \"contraction of momentum space\" OR \"momentum universe\" OR \"universe in momentum space\"",
+   "hits": "40 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"conjugate universe contracts\" OR \"conjugate universe collapses\" OR \"collapse of the conjugate universe\" OR \"contracting conjugate universe\" OR \"reciprocal universe contracts\" OR \"contraction of the reciprocal\"",
+   "hits": "168 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"expansion-collapse duality\"",
+   "hits": "13 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"conformally connected universe\"",
+   "hits": "3 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"dual universe\" AND \"dark energy\" AND (contracting OR contracts OR collapsing OR collapses)",
+   "hits": "33 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"mirror universe\" AND (contracting OR contracts OR collapsing) AND (\"accelerated expansion\" OR \"dark energy\")",
+   "hits": "73 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"conjugate universe\"",
+   "hits": "30 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"Born reciprocity\" AND \"scale factor\" AND (\"dark energy\" OR \"cosmological constant\")",
+   "hits": "18 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "(\"stiff matter\" OR \"stiff fluid\") AND (\"scale factor duality\" OR \"scale-factor duality\") AND (\"cosmological constant\" OR \"dark energy\")",
+   "hits": "9 works"
+  },
+  {
+   "database": "OpenAlex (fulltext)",
+   "query": "\"collapse of space\" AND \"dark energy\"",
+   "hits": "422 works"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Henry-Couannier",
+   "hits": "250 hits"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"black hole universe\" OR \"parent universe\" OR \"mother universe\" OR \"progenitor universe\") AND (\"dark energy\" OR \"accelerated expansion\" OR \"accelerating expansion\") AND (collapse OR collapsing OR contraction)",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "OpenAlex (title_and_abstract)",
+   "query": "(\"negative mass\" OR \"negative energy\") AND (universe OR universes) AND (contracting OR contracts OR contraction) AND (\"accelerated expansion\" OR \"dark energy\")",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "Semantic Scholar API",
+   "query": "dual universe contracting drives accelerated expansion dark energy",
+   "hits": "S2: error {\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+  },
+  {
+   "database": "Zenodo API",
+   "query": "(\"dual universe\" OR \"mirror universe\" OR \"twin universe\" OR \"conjugate universe\" OR \"momentum space universe\") AND (contracting OR contracts OR contraction OR collapse OR collapsing) AND (\"dark energy\" OR \"accelerated expansion\" OR \"cosmic acceleration\")",
+   "hits": "Zenodo: 32 records, showing 25 (first call rejected by the API: page size above 25)"
+  },
+  {
+   "database": "INSPIRE full text",
+   "query": "fulltext \"expansion-collapse duality\"",
+   "hits": "9 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "contracting dual universe drives accelerated expansion dark energy",
+   "hits": "25 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "mirror universe contraction accelerated expansion of our universe",
+   "hits": "25 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "momentum space universe contracts dark energy reciprocity",
+   "hits": "25 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "stiff matter dual cosmological constant scale factor inversion",
+   "hits": "25 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "expanding universe dual to collapsing universe dark energy",
+   "hits": "25 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "two universes one expanding one contracting dark energy",
+   "hits": "25 items"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "t \"Large-scale small-scale duality and the cosmological constant\" or (a Darabi and t duality and t \"cosmological constant\")",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Gogberashvili and (t mirror or t \"pair universe\" or t \"time-reversed\" or t \"two-time\" or abstracts.value:\"time-reversed\" or abstracts.value:\"mirror universe\" or abstracts.value:\"pair-universe\")",
+   "hits": "7 hits"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "t \"Triality between inflation, cyclic and phantom cosmologies\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "HAL API",
+   "query": "(\"univers jumeau\" OR \"univers miroir\" OR \"univers conjugué\" OR \"univers dual\" OR \"twin universe\" OR \"mirror universe\" OR \"dual universe\" OR \"conjugate universe\") AND (\"énergie noire\" OR \"dark energy\" OR accélération OR acceleration)",
+   "hits": "HAL: 4 records, showing 4"
+  },
+  {
+   "database": "HAL API",
+   "query": "(contraction OR contracting OR \"en contraction\" OR collapse) AND (\"dark energy\" OR \"énergie noire\" OR \"accelerated expansion\" OR \"expansion accélérée\") AND (dual OR duality OR dualité OR \"negative mass\" OR \"masse négative\" OR Janus)",
+   "hits": "HAL: 2 records, showing 2"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "t \"Duality invariance of cosmological perturbation spectra\" or t \"duality of the cosmic perturbation spectrum\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "Zenodo API",
+   "query": "metadata.description:(\"momentum space\" AND (contracting OR contracts OR collapse) AND (\"dark energy\" OR \"accelerated expansion\"))",
+   "hits": "Zenodo: 3 records, showing 3"
+  },
+  {
+   "database": "Zenodo API",
+   "query": "metadata.description:((\"other universe\" OR \"second universe\" OR \"partner universe\" OR \"twin universe\" OR \"mirror universe\" OR \"dual universe\" OR \"conjugate universe\") AND (contracting OR contracts OR collapsing OR collapses) AND (\"dark energy\" OR \"accelerated expansion\" OR \"accelerating expansion\"))",
+   "hits": "Zenodo: 1 records, showing 1"
+  },
+  {
+   "database": "Crossref",
+   "query": "Advances in Dark Energy Research Bolognesi Born reciprocity cosmic accelerations",
+   "hits": "8 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "Apparent Accelerated Expansion of the Three-Dimensional Spherical Universe Observed during Its Contraction Phase",
+   "hits": "2 items"
+  },
+  {
+   "database": "INSPIRE title/abstract/author",
+   "query": "a Deruelle and a Sasaki and t conformal",
+   "hits": "2 hits"
+  },
+  {
+   "database": "WebSearch standard",
+   "query": "\"their collapse is our acceleration\"",
+   "hits": "0 physics hits (accelerationism/collapsology essays only)"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "dual universe contracting while our universe expands, its contraction drives the accelerated expansion (dark energy)",
+   "hits": "9 links: Hur et al. 2503.20854 (known), gr-qc/0505096 (Chimento-Pavon, checked by g4), gr-qc/0609039 (Cai et al. quintom duality, checked by g4); none states C5"
+  },
+  {
+   "database": "WebFetch",
+   "query": "zenodo.org PDF of record 14786788 (Stolt)",
+   "hits": "binary; pypdf (local venv) extracts no text (fonts without ToUnicode); PDF unread"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "stiff fluid contracting universe conformally dual to de Sitter expansion dark energy",
+   "hits": "2207.02835 (found), 1502.06497 (known), others not relevant"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "viXra OR ResearchGate \"dual universe\" contracting \"dark energy\" our expansion accelerates because the other universe collapses",
+   "hits": "Al-Fadhli (MDPI PSF 2021), Chung (arXiv, viXra 1209.0053), viXra 1505.0224, Cai et al. 2007, Chimento-Pavon, Gogberashvili 2026; none states C5"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://www.mdpi.com/2673-9984/2/1/61 (Al-Fadhli PSF 2021)",
+   "hits": "403"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "universe described in momentum space (Fourier dual) contracts as position-space universe expands; gravitational collapse in momentum space explains dark energy",
+   "hits": "2207.02835, 2105.10521, gr-qc/0506108 (known collision), 1803.04267; no momentum-space statement"
+  },
+  {
+   "database": "WebSearch standard",
+   "query": "Henry-Couannier \"Dark Gravity\" conjugate universe contracting MG17 proceedings pdf",
+   "hits": "PoS EDSU2018 (known), astro-ph/0509092 (withdrawn), astro-ph/0509093, gr-qc/0610079 (known); MG17 text not found"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://www.worldscientific.com/doi/10.1142/9789819839926_0093 (MG17)",
+   "hits": "403"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "Larson Reciprocal System \"cosmic sector\" ... dark energy accelerating expansion",
+   "hits": "proponent sites only; nothing on dark energy; not relevant"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "\"stiff matter\" dual to \"cosmological constant\" under scale factor inversion a -> 1/a duality cosmology",
+   "hits": "1604.08032, 1502.06497 (known strand); no stiff -> Lambda statement"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "\"dark energy\" explained as contraction of hidden or internal space \"shrinking\" partner universe ... duality",
+   "hits": "Chung dual-universe arXiv papers (hidden universe contracts only after dark energy ends), Hur et al. (known); nothing"
+  },
+  {
+   "database": "WebSearch extended",
+   "query": "thesis dissertation \"Born reciprocity\" OR \"reciprocal relativity\" cosmology \"dark energy\" momentum space scale factor",
+   "hits": "Bolognesi 1506.02187 / 1207.5514 (known); no thesis found"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://arxiv.org/abs/1506.02187v3",
+   "hits": "comments: \"v3: book chapter of \"Advances in Dark Energy Research\"\" (venue note for a known paper)"
+  },
+  {
+   "database": "WebFetch",
+   "query": "doi.org/10.4236/jhepgc.2024.101005 -> scirp paperid=130419",
+   "hits": "El-Sherbini, JHEPGC 10(1) 52-66 (2024); quote fragment confirmed"
+  },
+  {
+   "database": "WebFetch",
+   "query": "doi.org/10.2174/1874381101104010054 -> benthamopenarchives TOAAJ-4-54",
+   "hits": "Leong Ying, Open Astron. J. 4, 54-56 (2011); mirror universe not contracting"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://zenodo.org/records/14786788",
+   "hits": "Stolt 2025 description confirmed; no statement that B's contraction drives A's acceleration"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://zenodo.org/records/23589138",
+   "hits": "Alshareif 2026-10-23 description confirmed; dark energy attributed to B's expansion pressure"
+  },
+  {
+   "database": "WebFetch",
+   "query": "doi.org/10.4236/jmp.2023.1413099 -> scirp paperid=129766",
+   "hits": "Shibata-Ogata, JMP 14(13) 1693-1702 (2023); quote confirmed"
+  },
+  {
+   "database": "OpenAlex (budget)",
+   "query": "(not run) parent/black-hole-universe collapse + dark energy; negative-mass partner contracting; Janus/Sakharov; isodual; Reciprocal System; time-reversed universe + dark energy; extra-dimension contraction + late acceleration",
+   "hits": "not run: OpenAlex daily budget for this IP exhausted (429) after 25 searches; Janus covered by HAL and INSPIRE full text, Reciprocal System by WebSearch"
+  }
+ ],
+ "not_found": [
+  {
+   "conjecture": "C5",
+   "statement": "C5 in its own terms, in venues outside INSPIRE and arXiv as well as inside them: no work found states that the momentum-space (Born-reciprocal, conjugate-polarization) description of our universe, with a·ã = 1, contracts as ours expands and that its gravitational collapse drives our present accelerated expansion. Searched here: 25 OpenAlex searches over titles, abstracts and full texts (dual, mirror, twin, conjugate, anti-, parallel/shadow/partner universe; momentum-space universe; Born reciprocity; scale-factor duality; stiff/kinetic-dominated + Λ + duality; inverse scale factor; expansion-collapse duality; full-text phrases such as 'collapse of the dual universe', 'momentum space contracts', 'conjugate universe'), 8 Crossref searches (6 thematic, 2 lookups), 3 Zenodo searches (one further call rejected for page size) and 2 HAL searches, 10 WebSearch queries (8 extended), with the INSPIRE citation graph around the closest find. The closest statement anywhere is Mukherjee-Jassal-Lochan (EPJC 2024): dark energy is 'equivalently' the collapse of a conformally connected (Jordan-frame) universe, a different duality with dark energy assumed. Outside the journals, the configuration 'a contracting partner universe tied to our dark energy' appears only in non-reviewed Zenodo deposits (Stolt 2025; Alshareif 2026), without a mechanism and, in Alshareif, with the opposite causal arrow."
+  },
+  {
+   "conjecture": "C5",
+   "statement": "The route the record keeps, dual stiff ↦ Λ applied to late-time dark energy in a Born-reciprocal or momentum-space setting: not found. The pairing itself (a contracting, purely kinetic stiff-fluid description dual to a de Sitter, dark-energy-like description) appears as one exact solution in Mukherjee-Jassal-Lochan 2024 sec. 6, in Einstein/Jordan conformal frames of Brans-Dicke gravity (ω_BD = -4/3), not as a dictionary entry and not as the source of acceleration. No non-arXiv source was found that applies stiff ↦ Λ to dark energy (OpenAlex stiff/kination + Λ + dual/duality: 4 irrelevant hits; full text stiff + scale-factor duality + Λ/dark energy: 9 hits, whose abstracts do not apply it (string and teleparallel cosmology, bounces, theses on pre-big-bang and T-duality; full texts not read); Crossref and WebSearch extended: none)."
+  },
+  {
+   "conjecture": "C5",
+   "statement": "The wording 'their collapse is our acceleration' (or 'conjugate gravitational collapse drives positional expansion acceleration'): no occurrence found (WebSearch exact phrase: essays on accelerationism only; OpenAlex full-text phrase search drops the stopwords and cannot test it)."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "lead": "Al-Fadhli, ECU 2021 proceedings version (mdpi.com/2673-9984/2/1/61, 'On Spacetime Duality and Bounce Cosmology of a Dual Universe'): a WebSearch summary attributes to it the sentence that matter and antimatter free-falling towards each other could cause the current accelerating expansion.",
+   "why_unverified": "MDPI returned 403 to WebFetch; only the search summary was seen. The 2023 proceedings abstract (listed) states the free fall but not that wording."
+  },
+  {
+   "lead": "Stolt 2025 (Zenodo 14786788): whether the paper's text says Universe B's contraction drives A's acceleration or dark energy.",
+   "why_unverified": "The three-page PDF has no text layer (pypdf extracts nothing; WebFetch sees binary); only the record description was read."
+  },
+  {
+   "lead": "Henry-Couannier, MG17 proceedings (doi:10.1142/9789819839926_0093) full text: whether it restates the dark side's contraction as PoS EDSU2018 does.",
+   "why_unverified": "World Scientific returned 403; no preprint found; abstract only (OpenAlex)."
+  },
+  {
+   "lead": "The OpenAlex queries this sweep could not run (budget exhausted): parent/black-hole-universe collapse + dark energy, negative-mass partner contracting, isodual (Santilli) cosmology, time-reversed universe + dark energy, extra-dimension contraction + late acceleration (Kaluza-Klein; many papers in non-arXiv journals).",
+   "why_unverified": "OpenAlex 429: free daily budget for this IP exhausted; resets at midnight UTC. An API key would need Paul's email sent to OpenAlex, which was not done."
+  },
+  {
+   "lead": "Gogberashvili-Tsiskaridze 2026, refs. [4-6]: earlier pair-universe papers in which a universe emerges from nothing as an entangled pair with opposite directions of time.",
+   "why_unverified": "Not followed; the 2026 paper's own mechanism is entanglement energy, not collapse."
+  },
+  {
+   "lead": "† Boyle, Steinhardt, Turok 2004, duality of the cosmic perturbation spectrum (de Sitter expansion versus w ≫ 1 contraction), a round-1 dagger lead. Wands 1999 (gr-qc/9809062, perturbation-spectrum duality, de Sitter versus dust collapse) was resolved here and is not C5.",
+   "why_unverified": "An INSPIRE title query did not return Boyle-Steinhardt-Turok; not pursued further."
+  }
+ ],
+ "notes": "Sweep oa-c5, conjecture C5 only. Read first: BRIEF.md, the C5 wiki page, #11 §10 and App. A item 9, the g4 notes, search.json and verify.json, and round2/r3-dark-energy.out.json. Coverage: OpenAlex (25 searches: titles, abstracts and full texts) until its free daily budget for this IP ran out (429, shared with the other agents; resets at midnight UTC); then OpenAlex single-work lookups (free), Crossref, Zenodo and HAL APIs, Semantic Scholar (429 at once), WebSearch (10, eight extended), WebFetch, and lit.py INSPIRE/arXiv for following up. Result: no anticipation. The one substantial new strand is the Einstein/Jordan-frame expansion-collapse duality of Mukherjee, Jassal and Lochan (JCAP 2021; MG16 proceedings 2023; EPJC 2024; with Sahota, EPJC 2023). Its EPJC 2024 paper says dark energy is 'equivalently' the collapse of a conformally connected universe, and its sec. 6 pairs a contracting stiff-fluid frame with a de Sitter (dark-energy-era) frame, the same pairing as the route's dual stiff ↦ Λ, but in a conformal-frame duality with dark energy assumed. Sec. 5.2 uses the hilltop potential Λ⁴(1 + cos(φ/f)), the form of the program's τ potential, and puts the dual collapse at the present era. The g4 verifier had already reported 2207.02835 and 2105.10521 (verify.json new_findings, from the abstracts and secs. 3 and 8 of the 2024 paper), but round3/known.json omits all of the verifier's new findings (also hep-th/9309023, recid:1122452, 1903.12521, astro-ph/0607626, doi:10.20944/preprints202410.1720.v1); whoever merges should add them. Janus (Petit et al. EPJC 2024, on the known list for C1): for C5 it is related; the twin sheet decelerates while ours accelerates (eqs. 98a,b), and no contraction is stated, which settles the round-1 lead on Petit-d'Agostini 2014. Non-reviewed and low-visibility venues (Zenodo, Preprints.org, MDPI proceedings, SCIRP and Bentham journals) contain mirror/twin/dual-universe accounts of dark energy (Al-Fadhli, El-Sherbini, Leong Ying, Stolt, Alshareif); none states C5, two (Stolt 2025, Alshareif Oct 2026) have a contracting partner but no collapse-to-acceleration mechanism; all are labelled related, per the brief's rule for non-reviewed work. Venue note on a known paper: Bolognesi 1506.02187, listed as 'arXiv preprint only', has the arXiv v3 comment 'book chapter of \"Advances in Dark Energy Research\"' (WebFetch of the abs page; publisher not confirmed, no Crossref record). Cross-group lead for C1: Hu and Wu, Prespacetime Journal (2014), 'Quantum Theory for a Dual Universe Comprised of Spacetime & Momentumenergy Space', a consciousness-based model (OpenAlex abstract only). Checked and not listed: see round3/oa-c5/notes.md. Every quote above was checked: lit.py for arXiv/INSPIRE texts; for works the tool cannot reach, the OpenAlex single-work abstract plus WebFetch of the landing page where it loaded (SCIRP, Bentham, Zenodo); MDPI and World Scientific returned 403. No number here was computed; all are quoted. Working files: round3/oa-c5/ (queries.log has every call; out/ and downloads/ hold the raw results)."
+}

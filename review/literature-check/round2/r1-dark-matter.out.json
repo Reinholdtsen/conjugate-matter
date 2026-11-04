@@ -1,0 +1,318 @@
+{
+ "reader": "r1-dark-matter",
+ "items": [
+  {
+   "recid": "1358474",
+   "verdict": "not-relevant",
+   "reason": "Dark-matter candidates are 16 scalars of a Cl(3,1)-valued field; no conjugate matter (abstract only; no free text)."
+  },
+  {
+   "recid": "671623",
+   "verdict": "finding",
+   "reason": "Born-reciprocal phase-space model fits a rotation curve without dark matter: same theme, rival account (related)."
+  },
+  {
+   "recid": "1796841",
+   "verdict": "finding",
+   "reason": "Proposes metaparticles of the metastring as dark-matter quanta; no dual-sector identification (related)."
+  },
+  {
+   "recid": "1413079",
+   "verdict": "finding",
+   "reason": "Discussion: MDM quanta could be non-local quanta of FLM's reformulations; one-sentence pointer (related)."
+  },
+  {
+   "recid": "2704811",
+   "verdict": "not-relevant",
+   "reason": "Axion dark matter in a two-patch, deformed-Poisson-bracket cosmology; ordinary candidate (abstract; MDPI blocked)."
+  },
+  {
+   "recid": "2648248",
+   "verdict": "not-relevant",
+   "reason": "WIMP/FIMP relic density in a two-patch cosmology; cites metastring only for Poisson-bracket deformations."
+  },
+  {
+   "recid": "1119918",
+   "verdict": "not-relevant",
+   "reason": "Abstract clause: two-times phase-space physics may help explain dark matter; 2011 preprint has none; text paywalled."
+  },
+  {
+   "recid": "1703403",
+   "verdict": "not-relevant",
+   "reason": "Twistor quantization; dark matter only in a passing citation of Castro Perelman 2019."
+  },
+  {
+   "recid": "1840422",
+   "verdict": "not-relevant",
+   "reason": "Pseudo-complex GR review about dark energy near masses; dark matter only in references."
+  },
+  {
+   "recid": "1826326",
+   "verdict": "not-relevant",
+   "reason": "Biconformal Yang-Mills sources; dark matter only in a reference title (Hazboun-Wheeler 2014)."
+  },
+  {
+   "recid": "2808256",
+   "verdict": "not-relevant",
+   "reason": "Extended-relativity review; dark matter as open question and a minimal-acceleration (MOND-like) hint."
+  },
+  {
+   "recid": "3071212",
+   "verdict": "not-relevant",
+   "reason": "Kaluza-Klein dispersion relation; dark matter only as motivation and a complex-scalar aside."
+  },
+  {
+   "recid": "3123635",
+   "verdict": "not-relevant",
+   "reason": "Metaparticle black-hole remnants; its 'effective cold dark matter' is the mimetic-gravity column; pointer to FKLM 2021."
+  },
+  {
+   "recid": "1607235",
+   "verdict": "not-relevant",
+   "reason": "Sp(4,R) gravity; asks whether augmenton fields might replace dark energy and dark matter."
+  },
+  {
+   "recid": "1707041",
+   "verdict": "not-relevant",
+   "reason": "LQG rainbow-like black-hole metric; dark matter mentioned only in passing."
+  },
+  {
+   "recid": "1424240",
+   "verdict": "not-relevant",
+   "reason": "Minimal length and gauge invariance; dark matter only in reference titles."
+  },
+  {
+   "recid": "2909423",
+   "verdict": "not-relevant",
+   "reason": "Quadratic gravity; states it is not concerned with dark matter."
+  },
+  {
+   "recid": "1095226",
+   "verdict": "not-relevant",
+   "reason": "Minimal-length review; dark matter only in one reference title."
+  },
+  {
+   "recid": "2164109",
+   "verdict": "not-relevant",
+   "reason": "GUP and curved momentum space thesis; dark matter only in reference titles."
+  },
+  {
+   "recid": "1590023",
+   "verdict": "not-relevant",
+   "reason": "Compact field-space phase space gives a late-time dust term possibly acting as dark matter; not momentum-side matter."
+  },
+  {
+   "recid": "724045",
+   "verdict": "finding",
+   "reason": "One sentence: momentum-energy coordinates of quantum-spacetime events may contribute to dark matter (related)."
+  },
+  {
+   "recid": "2901446",
+   "verdict": "not-relevant",
+   "reason": "kappa-Minkowski decoherence of neutrinos; dark matter only in references."
+  },
+  {
+   "recid": "2740764",
+   "verdict": "not-relevant",
+   "reason": "Lorentz covariance of quantum mechanics; dark matter only as introductory motivation."
+  },
+  {
+   "recid": "1934108",
+   "verdict": "not-relevant",
+   "reason": "UV non-local gravity and bounces; abstract has no dark-matter content; thesis PDF returned 403."
+  },
+  {
+   "recid": "1973174",
+   "verdict": "not-relevant",
+   "reason": "Quasi-metaparticles in strange metals; dark matter only as a pointer to FKLM 2021."
+  },
+  {
+   "recid": "2032186",
+   "verdict": "finding",
+   "reason": "Says each observed field's dual could be dark matter, in Born geometry; hedged, cites Minic 2020 (partial)."
+  },
+  {
+   "recid": "1485687",
+   "verdict": "not-relevant",
+   "reason": "Atomic-gas analog of gauge fields; 'dark' means optically dark states; no dark matter."
+  },
+  {
+   "recid": "1490024",
+   "verdict": "not-relevant",
+   "reason": "Quantum-gravity principles; MOND from a quantum equivalence principle replaces dark matter in rotation curves."
+  },
+  {
+   "recid": "1267197",
+   "verdict": "not-relevant",
+   "reason": "Galois-field quantum theory; dark matter only as an open question and a pointer."
+  },
+  {
+   "recid": "1668132",
+   "verdict": "not-relevant",
+   "reason": "NCG Pati-Salam leptoquarks; dark matter only in a reference title."
+  },
+  {
+   "recid": "2729212",
+   "verdict": "not-relevant",
+   "reason": "QG phenomenology white paper; dark-matter mentions concern refractive index, D-particle foam, PBHs."
+  },
+  {
+   "recid": "1319188",
+   "verdict": "not-relevant",
+   "reason": "Superconnection SM/LRSM; singlet-scalar dark matter only via references."
+  },
+  {
+   "recid": "1863665",
+   "verdict": "not-relevant",
+   "reason": "Strong-coupling dualities thesis; dark matter only as an F-theory application aside."
+  },
+  {
+   "recid": "1624081",
+   "verdict": "not-relevant",
+   "reason": "RG topology and hierarchy problem; dark matter named only as a future application."
+  },
+  {
+   "recid": "1644421",
+   "verdict": "not-relevant",
+   "reason": "Noncommutative hypersurface-deformation algebroid; dark matter only in a reference title."
+  },
+  {
+   "recid": "2162187",
+   "verdict": "not-relevant",
+   "reason": "Minisuperspace symmetries thesis; PBH mass window and a negative-mass aside only (PDF read)."
+  },
+  {
+   "recid": "1827611",
+   "verdict": "not-relevant",
+   "reason": "Current algebra and generalised geometry thesis; dark matter only in a CMS reference title (PDF read)."
+  },
+  {
+   "recid": "1852838",
+   "verdict": "not-relevant",
+   "reason": "Two-patch cosmology with energy drain; dark matter only as LambdaCDM background and future work."
+  }
+ ],
+ "findings": [
+  {
+   "conjecture": "C1",
+   "id": "2202.06890",
+   "citation": "P. Berglund, L. Freidel, T. Hübsch, J. Kowalski-Glikman, R. G. Leigh, D. Mattingly, D. Minic, \"Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation\", arXiv:2202.06890 (2022); Snowmass 2021 contribution (INSPIRE conference C21-07-11); arXiv preprint only, no journal in INSPIRE",
+   "relation": "partial",
+   "summary": "A Snowmass 2021 white paper co-signed by the originators of Born geometry (Freidel, Leigh), Kowalski-Glikman and the metastring school (Berglund, Hübsch, Minic). In the setting of Born geometry and modular spacetime it states that the metaparticles are quanta of fields in the modular representation and that each observed quantum field has a 'dual' which could be associated with dark-matter degrees of freedom, citing Minic 2020 (arXiv:2003.00318) for it; it adds that dark matter, dark energy and visible matter are naturally correlated in this description.",
+   "difference": "It states C1's central identification, dark matter as the duals of the observed fields, but in one hedged clause that defers to Minic 2020. It does not say that the dual fields are organized in momentum space or gravitate like ours. It has no spontaneous breaking or polarization order parameter, no velocity gate and no monopoles. Its dark sector is correlated with visible matter (the MDM correlation of refs. [45, 46]), against strict P4's gravity-only coupling and permanent direct-detection null. Framework: metastring theory, intrinsically non-commutative, T-duality covariant. Workflow 1 already holds the school's fuller and earlier statements (Minic Feb 2020; Berglund-Hübsch-Minic 2020; 2202.05104) and labels them 'anticipates'. This paper's weight is that Freidel, Leigh and Kowalski-Glikman co-sign the identification. It is labeled partial here because its own statement is weaker; harmonize with workflow 1 if needed.",
+   "quotes": [
+    {
+     "text": "The metaparticles can be viewed as quanta of quantum fields in the modular representation. Such fields are inherently bi-local and non-commutative, and each observed quantum field has a “dual”, which could be associated with dark matter degrees of freedom",
+     "where": "main text, paragraph on metastring theory and metaparticles (no section headings); the clause cites [11] = Minic, arXiv:2003.00318",
+     "check": "lit.py quote: FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)"
+    },
+    {
+     "text": "The geometry of such a causal non-local quantum spacetime is called Born geometry",
+     "where": "main text, the preceding paragraph on modular spacetime",
+     "check": "lit.py quote: FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)"
+    },
+    {
+     "text": "Dark matter, dark energy and visible matter are naturally correlated in this description",
+     "where": "main text, same paragraph, parenthetical citing [45, 46] (Ho-Minic-Ng 2010; Edmonds et al. MDM review 2017)",
+     "check": "lit.py quote: FOUND: 2202.06890 — searched full text (https://arxiv.org/html/2202.06890)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C1",
+   "id": "2005.08927",
+   "citation": "D. Edmonds, D. Minic, T. Takeuchi, \"Dark Matter, Dark Energy and Fundamental Acceleration\", Int. J. Mod. Phys. D 29, 2043030 (2020), doi:10.1142/S0218271820430300; arXiv:2005.08927 (journal; Gravity Research Foundation 2020 essay, honorable mention)",
+   "relation": "related",
+   "summary": "From the baryonic Tully-Fisher and Faber-Jackson relations, which share one acceleration scale a0 ≈ cH0/2π across galaxies and clusters, the essay infers that dark-matter quanta are inherently non-local. It proposes as candidates metaparticles, the particle limit of the intrinsically non-commutative, Born-reciprocal metastring theory (ref. [50] is the Freidel-Leigh-Minic corpus, including 'Born reciprocity in string theory'), through which dark matter would be correlated with baryons by a fundamental length tied to dark energy.",
+   "difference": "It proposes metaparticles, quanta of the Born-reciprocal metastring, as dark matter, but never identifies dark matter as the dual or momentum-side counterpart of visible matter. The full text contains no 'dual', 'Born', 'reciprocity' or 'momentum'. It has no polarization, no mirror sector, no gate and no monopoles. Its dark matter knows about the baryons through a0, a non-gravitational correlation against strict P4. Dated May 2020, between Minic's Feb 2020 statement that dark matter is the dual Standard Model (cited as [52]) and Berglund-Hübsch-Minic's Oct 2020 paper.",
+   "quotes": [
+    {
+     "text": "The dark-matter quanta are therefore inherently non-local. A possible candidate for such quanta are metaparticles, which are found in the long-distance limit of an intrinsically non-commutative formulation of quantum gravity/string theory",
+     "where": "essay text, paragraph on what type of quanta dark matter must be (before the acknowledgments); cites [50] = Freidel-Leigh-Minic papers 2014-2019",
+     "check": "lit.py quote: FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)"
+    },
+    {
+     "text": "In this context, dark matter is correlated to the visible baryonic matter via a fundamental length scale that can be related to dark energy",
+     "where": "same paragraph; cites [51] Berglund-Hübsch-Minic 2019 and [52] Minic arXiv:2003.00318",
+     "check": "lit.py quote: FOUND: 2005.08927 — searched full text (https://arxiv.org/html/2005.08927)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C1",
+   "id": "1601.00662",
+   "citation": "D. Edmonds, D. Farrah, C. M. Ho, D. Minic, Y. J. Ng, T. Takeuchi, \"Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?\", Int. J. Mod. Phys. A 32, 1750108 (2017), doi:10.1142/S0217751X17501081; arXiv:1601.00662 (journal)",
+   "relation": "related",
+   "summary": "The paper fits the Modified Dark Matter (MDM) mass profile, which depends on the cosmological constant, to 13 galaxy clusters. Its discussion section says the MDM quanta should be found in quantum gravity, and that such unusual non-local quanta could be found in the Freidel-Leigh-Minic reformulations of quantum gravity and string theory (2013-2015), i.e. Born-reciprocal metastring theory.",
+   "difference": "A one-sentence pointer: it places dark-matter quanta in the FLM framework as a possibility but does not say what they are there, and in particular not that they are the dual of visible matter. MDM dark matter knows about Λ and the baryons, unlike P4's gravity-only χ. It has no polarization, no gate and no monopoles. Its interest is dating: on this list it is the earliest pointer from the metastring school to dark matter (Jan 2016), four years before the school identifies dark matter with the dual sector. Earlier MDM papers were not checked for the same pointer.",
+   "quotes": [
+    {
+     "text": "The deeper nature of such quanta should be found in the context of quantum gravity. For example, such unusual non-local quanta could be found in recent reformulations of quantum gravity and string theory",
+     "where": "Section 4, Discussion (the sentence continues with citations of Freidel, Leigh & Minic 2013, 2014, 2015)",
+     "check": "lit.py quote: FOUND: 1601.00662 — searched full text (https://arxiv.org/html/1601.00662)"
+    },
+    {
+     "text": "We discuss the possibility that the cold dark matter mass profiles contain information on the cosmological constant",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: 1601.00662 — searched abstract"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C1",
+   "id": "gr-qc/0507090",
+   "citation": "L. M. Tomilchik, V. V. Kudryashov, \"Conformally flat metric, position-dependent mass and cold dark matter\", in Proceedings of the 7th International School-Seminar 'Actual Problems of Microworld Physics' (Gomel, 2003), vol. 2, pp. 24-42 (INSPIRE conference C03-07-28.5); arXiv:gr-qc/0507090 (2005) (conference proceedings)",
+   "relation": "related",
+   "summary": "The authors combine the Minkowski and momentum-space intervals by Born's reciprocity principle, dS² = ds² + dp²/κ0², postulate a maximal force F0 = c⁴/G, and build a particle Lagrangian that is 'reciprocally symmetric in the sense of M. Born'. With it they reproduce a typical spiral-galaxy rotation curve without dark matter. They conclude that dark matter is an artifact of using an inadequate geometry of the eight-dimensional extended phase space.",
+   "difference": "It reaches the opposite conclusion within the same theme: Born-reciprocal phase-space geometry removes the need for dark matter instead of supplying it as conjugate matter. There is no second matter sector, no polarization, no gate and no monopoles. It offers a fit to one model rotation curve, not a result or bound against C1, so it is not evidence-against. On this list it is the earliest such claim (2003 school, arXiv 2005), earlier than Delbourgo-Lashmar 2007, which workflow 1 holds as related.",
+   "quotes": [
+    {
+     "text": "We ventured to suggest that the dark matter is a peculiar factor resultant from the use of inadequate geometry of the eight-dimensional manifold, representing an extended phase space, and hence the use of inadequate kinematics.",
+     "where": "Section 5, Concluding Remarks",
+     "check": "lit.py quote: FOUND: gr-qc/0507090 — searched full text (https://arxiv.org/html/gr-qc/0507090)"
+    },
+    {
+     "text": "the model is reciprocally symmetric in the sense of M. Born",
+     "where": "Section 3, Classical Dynamics of a Particle with the Position-Dependent Mass (list of requirements on the Lagrangian)",
+     "check": "lit.py quote: FOUND: gr-qc/0507090 — searched full text (https://arxiv.org/html/gr-qc/0507090)"
+    },
+    {
+     "text": "It is shown that by this model the peculiar form of the corresponding rotation curve is as a whole reproduced without recourse to the dark matter concept.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND: gr-qc/0507090 — searched abstract"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C1",
+   "id": "gr-qc/0608086",
+   "citation": "D. R. Finkelstein, \"Homotopy approach to quantum gravity\", Int. J. Theor. Phys. 47, 534 (2008), doi:10.1007/s10773-007-9479-y; arXiv:gr-qc/0608086 (journal)",
+   "relation": "related",
+   "summary": "In a finite-dimensional quantum spacetime whose events (Vilela or Baugh space) carry momentum-energy coordinates as well as space-time ones, mixed by the invariance group, Finkelstein argues that space-time points are an abstraction whose momentum coordinates were suppressed. He adds that these momentum-energy variables will contribute to the vacuum stress tensor, and possibly to dark matter and the cosmological constant.",
+   "difference": "It is a one-sentence speculation about vacuum contributions of the momentum coordinates of quantum-spacetime events, not a matter sector. It has no mirror-polarized counterpart of ordinary matter, no particles organized in momentum, no symmetry breaking and no calculation. It shares only C1's theme: dark matter might come from the momentum half of a kinematics that mixes position and momentum.",
+   "quotes": [
+    {
+     "text": "Quantum events like those of Vilela space or Baugh space have, in each admissible frame, not only space-time coordinates but also momentum-energy and other coordinates, mixed by the invariance group.",
+     "where": "Section 3.2, Renunciation of absolute space-time",
+     "check": "lit.py quote: FOUND: gr-qc/0608086 — searched full text (https://arxiv.org/html/gr-qc/0608086)"
+    },
+    {
+     "text": "Quantum events are merely reclaiming the energy-momentum variables that were abstracted from them millennia ago.",
+     "where": "Section 3.2",
+     "check": "lit.py quote: FOUND: gr-qc/0608086 — searched full text (https://arxiv.org/html/gr-qc/0608086)"
+    },
+    {
+     "text": "they will inevitably contribute to the vacuum stress tensor, and possibly to dark matter and the cosmological constant",
+     "where": "Section 3.2 (the sentence opens 'These energy-momentum variables may have zero vacuum expectation values, but')",
+     "check": "lit.py quote: FOUND: gr-qc/0608086 — searched full text (https://arxiv.org/html/gr-qc/0608086)"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "notes": "Read all 38 flagged papers: every abstract (lit.py show); the full text of the 33 with arXiv ids (regex 'dark[ -]matter|dark sector|dark particle|dark energ', then targeted greps for dual|metaparticle|Born|reciproc|momentum); the PDFs of the Sartini (2211.04909, no HTML) and Osten theses; and Castro 2012's preprint, viXra 1108.0045v1, whose text has no 'dark' at all (the published abstract adds only a clause). Abstract only: Castro 2015 (no free copy); Maldonado-Méndez 2023 Universe (MDPI 403; same model as 2304.00620, read in full); Maheshwari thesis (PDF 403). Verdicts: 5 findings, 33 not-relevant, 0 unavailable. All 13 reported quotes FOUND by lit.py quote (quote_verdicts.json). Closest paper to C1 on this list: 2202.06890 (partial), which says each observed field's dual could be dark matter, co-signed by Freidel, Leigh and Kowalski-Glikman. It is weaker than the metastring school's statements that workflow 1 labels 'anticipates' (Minic Feb 2020 and later), so the label may need harmonizing. No paper on the list states the spontaneously broken polarization, the momentum-space organization of dark matter, the gravity-only coupling (strict P4), the velocity gate or the monopole form. Nothing bears on the X-condensate: Maldonado-Méndez's 'bi-metric' universe has two scale factors coupled by a deformed Poisson bracket, not a massive spin-2 field. Asides outside C1, for the orchestrator: (1) Tomilchik-Kudryashov (gr-qc/0507090; 2003 proceedings, arXiv July 2005) advance a maximal force F0 = c^4/G, motivated by Born's reciprocal line element; abstract quote 'The hypothesis that there exists a maximal force with the numerical value equal to the inverse Einstein's gravitation constant is advanced.' checked FOUND. This predates Low 2006, which the record names as prior art for #13's maximum force. (2) Mielczarek-Trześniewski 2017 (1704.01934): a compact (spherical) field-space phase space gives a late-time negative cosmological constant that may lead to recollapse. That bears on the closed-universe note's lead (Artigas, Mielczarek, Rovelli 2019), not on C1-C7. Working notes, call log and extracted texts: work/literature-check/round2/r1-dark-matter/."
+}

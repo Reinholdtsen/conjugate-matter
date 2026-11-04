@@ -1,0 +1,2012 @@
+{
+ "note": "papers already found and assessed; report only papers not on this list (or a substantially different reading of one on it, with reasons)",
+ "papers": [
+  {
+   "id": "0706.3736",
+   "citation": "J. Govaerts, P. D. Jarvis, S. O. Morgan, S. G. Low, \"World-line quantisation of a reciprocally invariant system\", J. Phys. A 40 (2007) 12095, arXiv:0706.3736 (j",
+   "relations": {
+    "C5": "collision"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "0708.4205",
+   "citation": "V. G. Kadyshevsky, M. D. Mateev, V. N. Rodionov, A. S. Sorin, \"Towards a maximal mass model\", arXiv:0708.4205 (2007; arXiv preprint, no journal reference in INS",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "0709.0776",
+   "citation": "R. Delbourgo, D. Lashmar, \"Born reciprocity and the 1/r potential\", Found. Phys. 38, 995 (2008), doi:10.1007/s10701-008-9247-8; arXiv:0709.0776 (journal)",
+   "relations": {
+    "C1": "related",
+    "C6": "related",
+    "C7": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:search",
+    "g5-momentum-clumping:search",
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "0805.2973",
+   "citation": "G. Veneziano, J. Wosiek, \"Exploring an S-matrix for gravitational collapse. II. A Momentum space analysis\", JHEP 09 (2008) 024, arXiv:0805.2973",
+   "relations": {
+    "C5": "collision"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "0806.2182",
+   "citation": "S.-Y. Ha, E. Tadmor, \"From particle to kinetic and hydrodynamic descriptions of flocking\", Kinetic and Related Models 1, 415 (2008), doi:10.3934/krm.2008.1.415,",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "0807.2838",
+   "citation": "S. Hossenfelder, \"A bi-metric theory with exchange symmetry\", Phys. Rev. D 78, 044015 (2008); arXiv:0807.2838 (journal; cited by the record as [25S] for vacuum ",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "0812.2033",
+   "citation": "M. Zemp, J. Diemand, M. Kuhlen, P. Madau, B. Moore, D. Potter, J. Stadel, L. Widrow, \"The Graininess of Dark Matter Haloes\", Mon. Not. R. Astron. Soc. 394, 641 ",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "0812.4182",
+   "citation": "F. Ferrer, T. Multamäki, S. Räsänen, \"Fitting oscillating string gas cosmology to supernova data\", JHEP 04 (2009) 006, arXiv:0812.4182",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "0901.1106",
+   "citation": "P. Sikivie, Q. Yang, \"Bose-Einstein Condensation of Dark Matter Axions\", Phys. Rev. Lett. 103, 111301 (2009), arXiv:0901.1106",
+   "relations": {
+    "C6": "partial"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "0902.3615",
+   "citation": "F. Brümmer, J. Jaeckel, 'Minicharges and Magnetic Monopoles', Phys. Lett. B 675 (2009) 360, arXiv:0902.3615.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "0907.2021",
+   "citation": "D. Xiao, M.-C. Chang, Q. Niu, \"Berry Phase Effects on Electronic Properties\", Rev. Mod. Phys. 82, 1959 (2010)",
+   "relations": {
+    "C3": "collision"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "0908.3034",
+   "citation": "S. Bolognesi, 'On the Possibility of a Trans-Planckian Duality', Class. Quant. Grav. 26 (2009) 225001, arXiv:0908.3034.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "0912.1517",
+   "citation": "J. G. Burgers, C. L. M. Mantz, T. Prokopec, \"The Newtonian Limit of Hermitian Gravity\", Gen. Rel. Grav. 45, 155 (2013), arXiv:0912.1517",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1002.0291",
+   "citation": "P.-H. Chavanis, \"Dynamical stability of infinite homogeneous self-gravitating systems: application of the Nyquist method\", Eur. Phys. J. B 85, 229 (2012), arXiv",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1002.3162",
+   "citation": "M. Vogelsberger, S. D. M. White, \"Streams and caustics: the fine-grained structure of LCDM haloes\", Mon. Not. R. Astron. Soc. 413, 1419 (2011), arXiv:1002.3162",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1005.3537",
+   "citation": "C. M. Ho, D. Minic, Y. J. Ng, \"Cold Dark Matter with MOND Scaling\", Phys. Lett. B 693, 567 (2010); arXiv:1005.3537 (journal)",
+   "relations": {
+    "C1": "collision"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1011.6374",
+   "citation": "A. Loeb, N. Weiner, \"Cores in Dwarf Galaxies from Dark Matter with a Yukawa Potential\", Phys. Rev. Lett. 106, 171302 (2011), arXiv:1011.6374",
+   "relations": {
+    "C7": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1106.1174",
+   "citation": "S. Jensen, \"The KK-Monopole/NS5-Brane in Doubled Geometry\", JHEP 07 (2011) 088",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1110.6906",
+   "citation": "L. Martina, \"Dynamics in the magnetic/dual magnetic monopole\", conference paper, arXiv:1110.6906 (2011) (proceedings venue not given in INSPIRE)",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1111.4627",
+   "citation": "G. E. Volovik, \"Topology of quantum vacuum\", in Analogue Gravity Phenomenology, Lecture Notes in Physics 870, 343 (2013), arXiv:1111.4627",
+   "relations": {
+    "C2": "collision"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1202.0560",
+   "citation": "J. Evslin, S. B. Gudnason, \"Dwarf Galaxy Sized Monopoles as Dark Matter?\", arXiv:1202.0560 (2012), arXiv preprint only",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1202.6561",
+   "citation": "G. Caspar, T. Schönenbach, P. O. Hess, M. Schäfer, W. Greiner, \"Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions\", Int. J",
+   "relations": {
+    "C5": "collision"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "1207.0747",
+   "citation": "M. A. Stephanov, Y. Yin, \"Chiral Kinetic Theory\", Phys. Rev. Lett. 109, 162001 (2012)",
+   "relations": {
+    "C2": "collision",
+    "C4": "collision"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1207.5514",
+   "citation": "S. Bolognesi, \"A cosmology of a trans-Planckian theory and dark energy\", Int. J. Mod. Phys. D 23, 1450046 (2014), doi:10.1142/S0218271814500461; arXiv:1207.5514",
+   "relations": {
+    "C1": "related",
+    "C5": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:search",
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1305.6972",
+   "citation": "J. S. Hazboun, J. T. Wheeler, \"Time and dark matter from the conformal symmetries of Euclidean space\", Class. Quantum Grav. 31, 215001 (2014); arXiv:1305.6972 (",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1307.0159",
+   "citation": "H. Wu, H. Yang, \"Double Field Theory Inspired Cosmology\", JCAP 07 (2014) 024, arXiv:1307.0159",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1307.7080",
+   "citation": "L. Freidel, R. G. Leigh, D. Minic, \"Born Reciprocity in String Theory and the Nature of Spacetime\", Phys. Lett. B 730, 302 (2014); arXiv:1307.7080 (journal; cit",
+   "relations": {
+    "C1": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1309.3172",
+   "citation": "I. Bakas, D. Lust, \"3-Cocycles, Non-Associative Star-Products and the Magnetic Paradigm of R-Flux String Vacua\", JHEP 01 (2014) 171",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1311.7069",
+   "citation": "D. Galakhov, A. Mironov, A. Morozov, 'S-Duality and Modular Transformation as a non-perturbative deformation of the ordinary pq-duality', JHEP 06 (2014) 050, ar",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1312.7040",
+   "citation": "K. Aoki, K. Maeda, \"Cosmology in ghost-free bigravity theory with twin matter fluids: The origin of dark matter\", Phys. Rev. D 89, 064051 (2014), doi:10.1103/Ph",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1401.3965",
+   "citation": "R. Foot, \"Mirror dark matter: Cosmology, galaxy structure and direct detection\", Int. J. Mod. Phys. A 29, 1430013 (2014), doi:10.1142/S0217751X14300130; arXiv:1",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1403.1308",
+   "citation": "S. Liu, M. B. Sinclair, T. S. Mahony et al., 'Optical magnetic mirrors without metals', Optica 1 (2014) 250, arXiv:1403.1308.",
+   "relations": {
+    "C4": "collision"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1412.5930",
+   "citation": "A. H. Guth, M. P. Hertzberg, C. Prescod-Weinstein, \"Do Dark Matter Axions Form a Condensate with Long-Range Correlation?\", Phys. Rev. D 92, 103513 (2015), arXiv",
+   "relations": {
+    "C6": "evidence-against"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1502.06497",
+   "citation": "U. Camara da Silva, A. A. Lima, G. M. Sotkov, \"Scale Factor Self-Dual Cosmological Models\", JHEP 07 (2015) 017, arXiv:1502.06497",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1506.02187",
+   "citation": "S. Bolognesi, \"Born Reciprocity and Cosmic Accelerations\", arXiv:1506.02187 (2015; arXiv preprint only)",
+   "relations": {
+    "C1": "related",
+    "C4": "related",
+    "C5": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:search",
+    "g3-magnetic-mirror:search",
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1507.01019",
+   "citation": "L. Berezhiani, J. Khoury, \"Theory of dark matter superfluidity\", Phys. Rev. D 92, 103510 (2015), arXiv:1507.01019",
+   "relations": {
+    "C6": "partial"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1508.03339",
+   "citation": "M. Kaplinghat, S. Tulin, H.-B. Yu, \"Dark Matter Halos as Particle Colliders: Unified Solution to Small-Scale Structure Puzzles from Dwarfs to Clusters\", Phys. R",
+   "relations": {
+    "C1": "evidence-against"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1601.00662",
+   "citation": "D. Edmonds, D. Farrah, C. M. Ho, D. Minic, Y. J. Ng, T. Takeuchi, \"Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmologic",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "round2/r1-dark-matter.out.json"
+   ]
+  },
+  {
+   "id": "1603.00433",
+   "citation": "H. Falomir, J. Gamboa, F. Mendez, \"Non-Abelian Monopoles as the Origin of Dark Matter\", Mod. Phys. Lett. A 31, 1650136 (2016)",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1604.04183",
+   "citation": "T. Josset, A. Perez, D. Sudarsky, \"Dark Energy from Violation of Energy Conservation\", Phys. Rev. Lett. 118 (2017) 021102, arXiv:1604.04183",
+   "relations": {
+    "C5": "collision"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1605.04361",
+   "citation": "L. N. Chang, D. Minic, C. Sun, T. Takeuchi, \"Observable Effects of Quantum Gravity\", arXiv:1605.04361 (2016; arXiv preprint only; Gravity Research Foundation 20",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1606.09307",
+   "citation": "S. M. Ko, J.-H. Park, M. Suh, \"The rotation curve of a point particle in stringy gravity\", JCAP 06 (2017) 002; arXiv:1606.09307 (journal)",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1607.08621",
+   "citation": "S. Alexander, S. Cormack, \"Gravitationally bound BCS state as dark matter\", JCAP 04 (2017) 005, arXiv:1607.08621",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1610.08297",
+   "citation": "L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, \"Ultralight scalars as cosmological dark matter\", Phys. Rev. D 95, 043541 (2017), arXiv:1610.08297",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1705.01107",
+   "citation": "A. Hook, J. Huang, 'Bounding millimagnetically charged particles with magnetars', Phys. Rev. D 96 (2017) 055010, arXiv:1705.01107.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1705.09639",
+   "citation": "D. Lust, E. Malek, R. J. Szabo, \"Non-geometric Kaluza-Klein monopoles and magnetic duals of M-theory R-flux backgrounds\", JHEP 10 (2017) 144",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1706.07811",
+   "citation": "A. Riello, 'Self-dual phase space for (3+1)-dimensional lattice Yang-Mills theory', Phys. Rev. D 97 (2018) 025003, arXiv:1706.07811.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1707.04670",
+   "citation": "H. Falomir, J. Gamboa, F. Méndez, P. Gondolo, \"Inflation without Inflaton: A Model for Dark Energy\", Phys. Rev. D 96 (2017) 083534, arXiv:1707.04670",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1708.04253",
+   "citation": "L. Marzola, M. Raidal, F. R. Urban, \"Oscillating Spin-2 Dark Matter\", Phys. Rev. D 97, 024010 (2018), doi:10.1103/PhysRevD.97.024010; arXiv:1708.04253 (journal)",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1709.04388",
+   "citation": "D. Edmonds, D. Farrah, D. Minic, Y. J. Ng, T. Takeuchi, \"Modified Dark Matter: Relating Dark Energy, Dark Matter and Baryonic Matter\", Int. J. Mod. Phys. D 27, ",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "1801.06571",
+   "citation": "Y.-M. Wu, A. Klein, A. V. Chubukov, \"The Conditions for l=1 Pomeranchuk Instability in a Fermi Liquid\", Phys. Rev. B 97, 165101 (2018), arXiv:1801.06571",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1801.07575",
+   "citation": "H. Falomir, J. Gamboa, P. Gondolo, F. Méndez, \"Magnetic Seed and Cosmology as Quantum Hall Effect\", Phys. Lett. B 785 (2018) 399, arXiv:1801.07575 (journal)",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "round2/r4-triage.out.json"
+   ]
+  },
+  {
+   "id": "1803.08861",
+   "citation": "R. J. Szabo, \"Higher Quantum Geometry and Non-Geometric String Theory\", PoS CORFU2017, 151 (2018) (conference proceedings), arXiv:1803.08861",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1804.05857",
+   "citation": "D. G. Levkov, A. G. Panin, I. I. Tkachev, \"Gravitational Bose-Einstein condensation in the kinetic regime\", Phys. Rev. Lett. 121, 151301 (2018), arXiv:1804.0585",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1805.09649",
+   "citation": "J. Scott, T. J. Evans, D. Singleton, V. Dzhunushaliev, V. Folomeev, 'Dirac and non-Dirac conditions in the two-potential theory of magnetic charge', Eur. Phys. ",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1807.06209",
+   "citation": "Planck Collaboration (N. Aghanim et al.), \"Planck 2018 results. VI. Cosmological parameters\", Astron. Astrophys. 641 (2020) A6, arXiv:1807.06209",
+   "relations": {
+    "C5": "evidence-against"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1808.09459",
+   "citation": "J. Terning, C. B. Verhaaren, 'Dark Monopoles and SL(2,Z) Duality', JHEP 12 (2018) 123, arXiv:1808.09459.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1810.04709",
+   "citation": "X. Chu, C. Garcia-Cely, H. Murayama, \"Velocity Dependence from Resonant Self-Interacting Dark Matter\", Phys. Rev. Lett. 122, 071103 (2019), doi:10.1103/PhysRevL",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:verify"
+   ]
+  },
+  {
+   "id": "1810.06540",
+   "citation": "M. Bojowald, S. Brahma, U. Buyukcam, J. Guglielmon, M. van Kuppeveld, \"Small Magnetic Charges and Monopoles in Nonassociative Quantum Mechanics\", Phys. Rev. Let",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1901.02341",
+   "citation": "V. V. Burdyuzha, \"Magnetic Monopoles and Dark Matter\", J. Exp. Theor. Phys. 127, 638 (2018)",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "1902.08617",
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"On Stringy de Sitter Spacetimes\", JHEP 12 (2019) 166, arXiv:1902.08617 (journal)",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "1903.05673",
+   "citation": "R. J. Szabo, \"An Introduction to Nonassociative Physics\", PoS CORFU2018, 100 (2019) (conference proceedings), arXiv:1903.05673",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1905.08269",
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"Dark Energy and String Theory\", Phys. Lett. B 798 (2019) 134950, arXiv:1905.08269",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "1905.09297",
+   "citation": "L. Berezhiani, B. Elder, J. Khoury, \"Dynamical Friction in Superfluids\", JCAP 10 (2019) 074, arXiv:1905.09297",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "1905.09463",
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"Dark energy and quantum gravity\" (arXiv title \"On Dark Energy and Quantum Gravity\"), Int. J. Mod. Phys. D 28 (2019) 1944018, ",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "1906.00014",
+   "citation": "J. Terning, C. B. Verhaaren, 'Detecting Dark Matter with Aharonov-Bohm', JHEP 12 (2019) 152, arXiv:1906.00014.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "1909.06240",
+   "citation": "Gabriel Lopes Cardoso and Thomas Mohaupt, \"Special geometry, Hessian structures and applications\", Phys. Rept. 855 (2020) 1; arXiv:1909.06240 (journal; review a",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "round2/r2-monopoles-duality.out.json"
+   ]
+  },
+  {
+   "id": "1909.06986",
+   "citation": "T.-T. Wang, Y.-G. Ma, Z.-Q. Zhang, \"Effects of Ptot gates and velocity gates on light-particle momentum correlation in intermediate-energy heavy-ion collisions\"",
+   "relations": {
+    "C7": "collision"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2003.00318",
+   "citation": "D. Minic, \"From quantum foundations of quantum field theory, string theory and quantum gravity to dark matter and dark energy\", talk at the 10th Mathematical Ph",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2005.08927",
+   "citation": "D. Edmonds, D. Minic, T. Takeuchi, \"Dark Matter, Dark Energy and Fundamental Acceleration\", Int. J. Mod. Phys. D 29, 2043030 (2020), doi:10.1142/S02182718204303",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "round2/r1-dark-matter.out.json"
+   ]
+  },
+  {
+   "id": "2006.12515",
+   "citation": "L. Sagunski, S. Gad-Nasr, B. Colquhoun, A. Robertson, S. Tulin, \"Velocity-dependent Self-interacting Dark Matter from Groups and Clusters of Galaxies\", JCAP 01 ",
+   "relations": {
+    "C1": "evidence-against"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2007.00667",
+   "citation": "R. Lasenby, \"Long range dark matter self-interactions and plasma instabilities\", JCAP 11 (2020) 034, arXiv:2007.00667",
+   "relations": {
+    "C7": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2010.15610",
+   "citation": "P. Berglund, T. Hübsch, D. Minic, \"String Theory, the Dark Sector, and the Hierarchy Problem\", LHEP 2021, 186 (2021), doi:10.31526/lhep.2021.186; arXiv:2010.156",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2011.08852",
+   "citation": "V. Jejjala, M. J. Kavic, D. Minic, C.-H. Tze, \"Dynamical dark energy and infinite statistics\", Int. J. Mod. Phys. A 37, 2242001 (2022), doi:10.1142/S0217751X224",
+   "relations": {
+    "C1": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2011.10327",
+   "citation": "V. Vento, \"Primordial monopolium as dark matter\", Eur. Phys. J. C 81, 229 (2021)",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2101.04152",
+   "citation": "P. O. Hess, \"Observable consequences of pseudo-complex General Relativity\", arXiv:2101.04152 (2021), arXiv preprint (no journal found in INSPIRE or Crossref)",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "2102.04470",
+   "citation": "Y.-P. Lin, W.-H. Hsiao, \"Band geometry from position-momentum duality at topological band crossings\", Phys. Rev. B 105, 075127 (2022)",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2104.00802",
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"Quantum gravity phenomenology in the infrared\", Int. J. Mod. Phys. D 30, 2141002 (2021), doi:10.1142/S0",
+   "relations": {
+    "C1": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2105.05769",
+   "citation": "M. L. Graesser, I. M. Shoemaker, N. Tapia Arellano, \"Milli-magnetic monopole dark matter and the survival of galactic magnetic fields\", JHEP 03 (2022) 105",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2106.11933",
+   "citation": "B. Acharya et al. (MoEDAL), \"Search for magnetic monopoles produced via the Schwinger mechanism\", Nature 602, 63 (2022)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2109.12763",
+   "citation": "D. Edmonds, D. Minic, T. Takeuchi, \"On quantum gravity and quantum gravity phenomenology\", Proc. 16th Marcel Grossmann Meeting (World Scientific, 2023) p. 4126,",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2109.12771",
+   "citation": "T. Hiramatsu, M. Ibe, M. Suzuki, S. Yamaguchi, 'Gauge kinetic mixing and dark topological defects', JHEP 12 (2021) 122, arXiv:2109.12771.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2111.05659",
+   "citation": "A. Addazi, J. Alvarez-Muniz, R. Alves Batista, G. Amelino-Camelia et al. (162 authors), \"Quantum gravity phenomenology at the dawn of the multi-messenger era—A ",
+   "relations": {
+    "C5": "partial",
+    "C1": "partial"
+   },
+   "sources": [
+    "round2/r4-triage.out.json",
+    "round2/r4-triage.out.json"
+   ]
+  },
+  {
+   "id": "2111.14205",
+   "citation": "P. Berglund, T. Hübsch, D. Minic, 'Mirror Symmetry, Born Geometry and String Theory', conference paper, Nankai Symposium on Mathematical Dialogues (online, Augu",
+   "relations": {
+    "C4": "partial"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2202.00641",
+   "citation": "E. Gaztañaga, \"The Cosmological Constant as Event Horizon\", Symmetry 14 (2022) 300, arXiv:2202.00641",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "2202.05104",
+   "citation": "P. Berglund, D.-C. Dai, D. Edmonds, Y.-H. He, T. Hübsch, V. Jejjala, M. J. Kavic, D. Minic, S. Powers, J. H. Simonetti, D. Stojkovic, T. Takeuchi, \"Quantum Grav",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2202.06890",
+   "citation": "P. Berglund, L. Freidel, T. Hübsch, J. Kowalski-Glikman, R. G. Leigh, D. Mattingly, D. Minic, \"Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing",
+   "relations": {
+    "C1": "partial",
+    "C5": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:verify",
+    "round2/r1-dark-matter.out.json",
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "2203.03272",
+   "citation": "T. Kimura, S. Sasaki, K. Shiozawa, \"Complex structures, T-duality and worldsheet instantons in Born sigma models\", JHEP 06 (2022) 119",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2206.02638",
+   "citation": "E. Guendelman, D. Singleton, \"Momentum Gauge Fields and Non-Commutative Space-Time\", Symmetry 15, 126 (2023)",
+   "relations": {
+    "C2": "related",
+    "C4": "partial"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2207.04916",
+   "citation": "R. J. Ellis, \"I: Evidence for Phenomena, including Magnetic Monopoles, Beyond 4-D Space-Time and Theory Thereof\", arXiv:2207.04916 (2022), arXiv preprint only (",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2208.09043",
+   "citation": "L. Bratek, J. Jalocha, \"On the Issue of Magnetic Monopoles in the Prospect of UHE Photon Searches\", Universe 8, 422 (2022)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2211.14165",
+   "citation": "P. Copinger, P. Morales, \"Emergent spacetime from a Berry-inspired dynamical gauge field coupled to electromagnetism\", Phys. Rev. D 108, 065013 (2023)",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2212.00901",
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"Vacuum energy density and gravitational entropy\", Phys. Rev. D 107 (2023) 126016, arXiv:2212.00901 (202",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "2212.06086",
+   "citation": "P. Berglund, T. Hübsch, D. Minic, \"On de Sitter spacetime and string theory\", Int. J. Mod. Phys. D 32, 2330002 (2023), doi:10.1142/S0218271823300021; arXiv:2212",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2302.03526",
+   "citation": "J. Govaerts, \"Magnetic monopoles with no strings attached: a portal to the dark side of dual electrodynamics\", Eur. Phys. J. C 83, 158 (2023)",
+   "relations": {
+    "C2": "related",
+    "C3": "related",
+    "C4": "partial"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2302.07878",
+   "citation": "D. Farrah, K. S. Croker, G. Tarlé, V. Faraoni et al., \"Observational Evidence for Cosmological Coupling of Black Holes and its Implications for an Astrophysical",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "2303.04816",
+   "citation": "P. Schuster, N. Toro, K. Zhou, \"Interactions of Particles with 'Continuous Spin' Fields\", JHEP 04 (2023) 010, arXiv:2303.04816",
+   "relations": {
+    "C7": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2303.17495",
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"On the inevitable lightness of vacuum\", Int. J. Mod. Phys. D 32 (2023) 2342004, arXiv:2303.17495 (journ",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "2305.12593",
+   "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", Bulg. J. Phys. 51, 060 (2024), doi:10.55318/bgjp.2024.51.1.060;",
+   "relations": {
+    "C1": "anticipates",
+    "C5": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:verify",
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "2307.07553",
+   "citation": "T. Kobayashi, D. Perri, \"Parker bounds on monopoles with arbitrary charge from galactic and primordial magnetic fields\", Phys. Rev. D 108, 083005 (2023)",
+   "relations": {
+    "C2": "evidence-against"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2307.16712",
+   "citation": "P. Berglund, T. Hübsch, D. Minic, \"String Theory Bounds on the Cosmological Constant, the Higgs Mass, and the Quark and Lepton Masses\", Symmetry 15, 1660 (2023)",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2308.00612",
+   "citation": "Y. Pan, R. Yin, 'Constructing Berry-Maxwell equations with Lorentz invariance and Gauss's law of Weyl monopoles in four-dimensional energy-momentum space', Phys",
+   "relations": {
+    "C4": "collision"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2402.08557",
+   "citation": "J. Skolimowski, \"Real-space analysis of Hatsugai-Kohmoto interaction\", Phys. Rev. B 109, 165129 (2024), arXiv:2402.08557",
+   "relations": {
+    "C7": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2404.04926",
+   "citation": "C. Zhang, S.-H. Zhang, B. Fu, J.-F. Zhang, X. Zhang, \"On the cosmological abundance of magnetic monopoles\", JHEP 08 (2024) 220",
+   "relations": {
+    "C2": "evidence-against"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2406.04392",
+   "citation": "N. Kumar, \"On the Accelerated Expansion of the Universe\", Grav. Cosmol. 30 (2024) 85, arXiv:2406.04392",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "2407.06207",
+   "citation": "T. Hübsch, D. Minic, \"Quantum Gravity as Gravitized Quantum Theory\", arXiv:2407.06207 (2024; arXiv preprint, no journal reference in INSPIRE)",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2409.04552",
+   "citation": "O. Gould, I. Ostrovskiy, A. Upreti, \"Next frontiers for magnetic monopole searches\", Phys. Rev. D 111, 102004 (2025)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2412.04644",
+   "citation": "J.-P. Petit, F. Margnat, H. Zejli, \"A bimetric cosmological model based on Andreï Sakharov's twin universe approach\", Eur. Phys. J. C 84, 1226 (2024); arXiv:241",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2412.13400",
+   "citation": "V. I. Tselyaev, \"Dual relativity and its cosmological consequences\", Phys. Rev. D 111, 104045 (2025); arXiv:2412.13400 (journal)",
+   "relations": {
+    "C1": "collision"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2503.03817",
+   "citation": "S. Kundu, P. Schuster, N. Toro, \"First look at continuous spin gravity: Time delay signatures\", Phys. Rev. D 113, 076017 (2026), arXiv:2503.03817",
+   "relations": {
+    "C7": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2503.06160",
+   "citation": "M. Mehraeen, \"Quantum Response Theory and Momentum-Space Gravity\", Phys. Rev. Lett. 135, 156302 (2025), arXiv:2503.06160",
+   "relations": {
+    "C6": "collision"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2503.20267",
+   "citation": "J. Wang, Y. Xue, L. Chen, R. Zhang, \"Dual Phonon Universe in a Spinor Bose Gas\", arXiv:2503.20267 (2025); arXiv preprint only",
+   "relations": {
+    "C5": "collision"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "2503.20854",
+   "citation": "S. Hur, V. Jejjala, M. J. Kavic, D. Minic, T. Takeuchi, \"Dynamical dark energy, dual spacetime, and DESI\", JCAP 11 (2025) 054, arXiv:2503.20854",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "2504.01467",
+   "citation": "J. G. Russo, P. K. Townsend, 'Causal chiral 2-form electrodynamics', JHEP 07 (2025) 048, arXiv:2504.01467.",
+   "relations": {
+    "C4": "partial"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2507.06697",
+   "citation": "V. Vento, \"Dark monopoles\", arXiv:2507.06697 (2025, v3 2026), arXiv preprint only",
+   "relations": {
+    "C3": "related",
+    "C4": "partial"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2509.21924",
+   "citation": "F. Brummer, G. Ferrante, T. Fischer, M. Frigerio, \"No room for minimal monopole dark matter\", Phys. Rev. D 113, L091701 (2026)",
+   "relations": {
+    "C2": "evidence-against"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2509.23726",
+   "citation": "D. Perri, \"Noninflationary solution to the monopole problem\", Phys. Rev. D 113, 023547 (2026)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2510.00098",
+   "citation": "M. Costa, C. Creque-Sarbinowski, O. Simon, Z. J. Weiner, \"Dark forces suppress structure growth\", JCAP 06 (2026) 055, arXiv:2510.00098",
+   "relations": {
+    "C7": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2511.20907",
+   "citation": "S. Ran, \"Restoring a missing duality in quantum mechanics\", Phys. Rev. A 113 (2026) 042203, arXiv:2511.20907",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "2602.23822",
+   "citation": "H. Yang, S. D. M. White, L. Gao, \"The capture of halo material by orbiting subhaloes\", arXiv:2602.23822 (2026), arXiv preprint only",
+   "relations": {
+    "C6": "collision"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "2604.19418",
+   "citation": "T. Hübsch, D. Minic, \"Quantum Spacetime, Quantum Gravity and Gravitized Quantum Theory\", arXiv:2604.19418 (2026; conference paper, proceedings not identified)",
+   "relations": {
+    "C1": "anticipates"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "2607.26479",
+   "citation": "L. Einkemmer, M. Guerra, Q. Li et al., 'Kinetic Optimization of Magnetic Mirror Confinement: Beyond Classical Loss-Cone Theory', arXiv:2607.26479 (preprint). Cl",
+   "relations": {
+    "C4": "collision"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2607.29492",
+   "citation": "F. Brummer, G. Ferrante, T. Fischer, M. Frigerio, \"The price for monopole dark matter\", arXiv:2607.29492 (2026), arXiv preprint only",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "2609.25324",
+   "citation": "S. Carneiro, \"Dual symmetry breaking and magnetic charge screening\", arXiv:2609.25324 (2026), arXiv preprint only",
+   "relations": {
+    "C3": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "2610.19522",
+   "citation": "T. Hübsch, D. Minic, \"Nambu's Dynamics, Strings and Gravitized Quantum Theory\", arXiv:2610.19522 (2026); arXiv preprint only",
+   "relations": {
+    "C5": "partial",
+    "C1": "anticipates"
+   },
+   "sources": [
+    "round2/r4-triage.out.json",
+    "round2/r4-triage.out.json"
+   ]
+  },
+  {
+   "id": "astro-ph/0606566",
+   "citation": "M. Kesden, M. Kamionkowski, \"Galilean Equivalence for Galactic Dark Matter\", Phys. Rev. Lett. 97, 131303 (2006), arXiv:astro-ph/0606566",
+   "relations": {
+    "C7": "evidence-against"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "astro-ph/9504052",
+   "citation": "P. Sikivie, I. I. Tkachev, Y. Wang, \"The Velocity peaks in the cold dark matter spectrum on earth\", Phys. Rev. Lett. 75, 2911 (1995), arXiv:astro-ph/9504052",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "astro-ph/9909321",
+   "citation": "W. Huang, X. Huang, \"Dark Matter, Mass Scales Sequence, and Superstructure in the Universe (with extension and summary)\", arXiv:astro-ph/9909321 (1999; arXiv pr",
+   "relations": {
+    "C1": "collision"
+   },
+   "sources": [
+    "g1-conjugate-matter:verify"
+   ]
+  },
+  {
+   "id": "cond-mat/0005001",
+   "citation": "D. M. Stamper-Kurn, W. Ketterle, \"Spinor condensates and light scattering from Bose-Einstein condensates\", in Coherent atomic matter waves, Les Houches Summer S",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "cond-mat/0310232",
+   "citation": "Z. Fang, N. Nagaosa, K. S. Takahashi, A. Asamitsu, R. Mathieu, T. Ogasawara, H. Yamada, M. Kawasaki, Y. Tokura, K. Terakura, \"The Anomalous Hall Effect and Magn",
+   "relations": {
+    "C2": "collision",
+    "C3": "collision",
+    "C4": "collision"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "cond-mat/0502499",
+   "citation": "C. Connaughton, C. Josserand, A. Picozzi, Y. Pomeau, S. Rica, \"Condensation of classical nonlinear waves\", Phys. Rev. Lett. 95, 263901 (2005), arXiv:cond-mat/05",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "cond-mat/0606726",
+   "citation": "C. Brouder, G. Panati, M. Calandra, C. Mourougane, N. Marzari, \"Exponential localization of Wannier functions in insulators\", Phys. Rev. Lett. 98, 046402 (2007)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "doi:10.1007/s10509-014-2106-5",
+   "citation": "J.-P. Petit, G. d'Agostini, \"Negative mass hypothesis in cosmology and the nature of dark energy\", Astrophys. Space Sci. 354 (2014) (INSPIRE gives the page as 2",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "doi:10.1016/0370-2693(88)90770-8",
+   "citation": "A. D. Linde, \"The Universe Multiplication and the Cosmological Constant Problem\", Phys. Lett. B 200 (1988) 272",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "doi:10.1016/0370-2693(91)90055-U",
+   "citation": "G. Veneziano, \"Scale factor duality for classical and quantum strings\", Phys. Lett. B 265 (1991) 287",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "doi:10.1088/1742-6596/804/1/012032",
+   "citation": "L. Freidel, R. G. Leigh, D. Minic, \"Modular Spacetime and Metastring Theory\", J. Phys. Conf. Ser. 804, 012032 (2017) (conference proceedings; not on arXiv; INSP",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "doi:10.1103/PhysRevLett.42.407",
+   "citation": "S. Tremaine, J. E. Gunn, \"Dynamical Role of Light Neutral Leptons in Cosmology\", Phys. Rev. Lett. 42, 407 (1979) (journal)",
+   "relations": {
+    "C1": "collision"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "doi:10.1103/PhysRevLett.66.545",
+   "citation": "A. A. Tseytlin, \"Duality symmetric string theory and the cosmological constant problem\", Phys. Rev. Lett. 66 (1991) 545",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "doi:10.1139/cjp-2018-0097",
+   "citation": "C. Castro Perelman, \"Is dark matter and black hole cosmology an effect of Born's reciprocal relativity theory?\", Can. J. Phys. 97, 198 (2019) (journal; not on a",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "doi:10.20944/preprints202511.1401.v1",
+   "citation": "R. W. Kuhne, \"Quantum Field Theory of Dirac Magnetic Monopoles and Their Interpretation as Cold Dark Matter WIMPs\", Preprints.org (2025), non-reviewed",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "doi:10.22323/1.335.0047",
+   "citation": "F. Henry-Couannier, \"The dark side of gravity and the acceleration of the universe\", 2nd World Summit: Exploring the Dark Side of the Universe (EDSU2018), PoS(E",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "gr-qc/0307111",
+   "citation": "L. P. Chimento, R. Lazkoz, \"On the link between phantom and standard cosmologies\", Phys. Rev. Lett. 91 (2003) 211301, arXiv:gr-qc/0307111",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "gr-qc/0506108",
+   "citation": "A. S. Majumdar, D. Home, \"Dark energy from quantum wave function collapse of dark matter\", Phys. Lett. B 679 (2009) 167, arXiv:gr-qc/0506108",
+   "relations": {
+    "C5": "collision"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "gr-qc/0507065",
+   "citation": "F. Henry-Couannier, A. Tilquin, A. Ealet, A. Bonissent, D. Fouchez, C. Tao, \"Negative energies and a constantly accelerating flat universe\", arXiv:gr-qc/0507065",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "gr-qc/0507090",
+   "citation": "L. M. Tomilchik, V. V. Kudryashov, \"Conformally flat metric, position-dependent mass and cold dark matter\", in Proceedings of the 7th International School-Semin",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "round2/r1-dark-matter.out.json"
+   ]
+  },
+  {
+   "id": "gr-qc/0608086",
+   "citation": "D. R. Finkelstein, \"Homotopy approach to quantum gravity\", Int. J. Theor. Phys. 47, 534 (2008), doi:10.1007/s10773-007-9479-y; arXiv:gr-qc/0608086 (journal)",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "round2/r1-dark-matter.out.json"
+   ]
+  },
+  {
+   "id": "gr-qc/0610079",
+   "citation": "F. Henry-Couannier, \"The Dark Side of Gravity\", Global J. Sci. Front. Res. A 13, 1 (2013); arXiv:gr-qc/0610079 (journal)",
+   "relations": {
+    "C1": "collision",
+    "C5": "partial"
+   },
+   "sources": [
+    "g1-conjugate-matter:search",
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "gr-qc/9411041",
+   "citation": "J. J. Levin, \"Inflation from extra dimensions\", Phys. Lett. B 343 (1995) 69, arXiv:gr-qc/9411041",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "hep-ex/0207020",
+   "citation": "M. Ambrosio et al. (MACRO), \"Final results of magnetic monopole searches with the MACRO experiment\", Eur. Phys. J. C 25, 511 (2002)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "hep-ph/0111381",
+   "citation": "R. N. Mohapatra, S. Nussinov, V. L. Teplitz, \"Mirror matter as self-interacting dark matter\", Phys. Rev. D 66, 063002 (2002), doi:10.1103/PhysRevD.66.063002; ar",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "hep-ph/0312335",
+   "citation": "Z. Berezhiani, \"Mirror world and its cosmological consequences\", Int. J. Mod. Phys. A 19, 3775 (2004), doi:10.1142/S0217751X04020075; arXiv:hep-ph/0312335 (jour",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "hep-ph/0403248",
+   "citation": "D. Stojkovic, K. Freese, \"A Black hole solution to the cosmological monopole problem\", Phys. Lett. B 606, 251 (2005)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "hep-ph/0701133",
+   "citation": "L. N. Epele, H. Fanchiotti, C. A. Garcia Canal, V. Vento, \"Monopolium: The key to monopoles\", Eur. Phys. J. C 56, 87 (2008)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "hep-ph/9507230",
+   "citation": "G. R. Dvali, A. Melfo, G. Senjanovic, \"Is There a monopole problem?\", Phys. Rev. Lett. 75, 4559 (1995)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "hep-ph/9509271",
+   "citation": "T. Vachaspati, 'An Attempt to construct the Standard Model with monopoles', Phys. Rev. Lett. 76 (1996) 188, arXiv:hep-ph/9509271; H. Liu, T. Vachaspati, 'SU(5) ",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-ph/9710301",
+   "citation": "G. R. Dvali, H. Liu, T. Vachaspati, \"Sweeping away the monopole problem\", Phys. Rev. Lett. 80, 2281 (1998)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "hep-th/0008052",
+   "citation": "G. W. Gibbons, C. A. R. Herdeiro, 'Born-Infeld theory and stringy causality', Phys. Rev. D 63 (2001) 064006, arXiv:hep-th/0008052.",
+   "relations": {
+    "C4": "partial"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/0207130",
+   "citation": "M. Gasperini, G. Veneziano, \"The pre-big bang scenario in string cosmology\", Phys. Rept. 373 (2003) 1, arXiv:hep-th/0207130",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "hep-th/0307128",
+   "citation": "M. P. Dąbrowski, T. Stachowiak, M. Szydłowski, \"Phantom cosmologies\", Phys. Rev. D 68 (2003) 103519, arXiv:hep-th/0307128",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "hep-th/0310167",
+   "citation": "A. Berard, H. Mohrbach, \"Monopole and Berry phase in momentum space in noncommutative quantum mechanics\", Phys. Rev. D 69, 127701 (2004)",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/0312009",
+   "citation": "J. K. Erickson, D. H. Wesley, P. J. Steinhardt, N. Turok, \"Kasner and mixmaster behavior in universes with equation of state w >= 1\", Phys. Rev. D 69 (2004) 063",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "hep-th/0412080",
+   "citation": "D. V. Ahluwalia, D. Grumiller, \"Spin half fermions with mass dimension one: Theory, phenomenology, and dark matter\", JCAP 07 (2005) 012; arXiv:hep-th/0412080 (j",
+   "relations": {
+    "C1": "collision"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "hep-th/0507199",
+   "citation": "T. Biswas, R. Brandenberger, A. Mazumdar, S. Watson, \"Current acceleration from dilaton and stringy cold dark matter\", Phys. Rev. D 74, 063501 (2006); arXiv:hep",
+   "relations": {
+    "C1": "related"
+   },
+   "sources": [
+    "g1-conjugate-matter:search"
+   ]
+  },
+  {
+   "id": "hep-th/0507204",
+   "citation": "J. A. Harvey, S. Jensen, \"Worldsheet instanton corrections to the Kaluza-Klein monopole\", JHEP 10 (2005) 028",
+   "relations": {
+    "C2": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/0604151",
+   "citation": "A. Kapustin, E. Witten, 'Electric-Magnetic Duality And The Geometric Langlands Program', Commun. Num. Theor. Phys. 1 (2007) 1, arXiv:hep-th/0604151.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/0605198",
+   "citation": "D. S. Freed, G. W. Moore, G. Segal, 'The Uncertainty of Fluxes', Commun. Math. Phys. 271 (2007) 247, arXiv:hep-th/0605198.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9109048",
+   "citation": "A. A. Tseytlin, C. Vafa, \"Elements of string cosmology\", Nucl. Phys. B 372 (1992) 443, arXiv:hep-th/9109048",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "hep-th/9410167",
+   "citation": "C. M. Hull, P. K. Townsend, 'Unity of superstring dualities', Nucl. Phys. B 438 (1995) 109, arXiv:hep-th/9410167.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9411149",
+   "citation": "N. Seiberg, 'Electric-magnetic duality in supersymmetric non-Abelian gauge theories', Nucl. Phys. B 435 (1995) 129, arXiv:hep-th/9411149 (the record's [18]).",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9501022",
+   "citation": "J. A. Harvey, G. W. Moore, A. Strominger, 'Reducing S duality to T duality', Phys. Rev. D 52 (1995) 7161, arXiv:hep-th/9501022.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9506011",
+   "citation": "E. P. Verlinde, 'Global aspects of electric-magnetic duality', Nucl. Phys. B 455 (1995) 211, arXiv:hep-th/9506011.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9508021",
+   "citation": "Y. Lozano, 'S duality in gauge theories as a canonical transformation', Phys. Lett. B 364 (1995) 19, arXiv:hep-th/9508021.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9701044",
+   "citation": "D. Singleton, 'Magnetic charge as a \"hidden\" gauge symmetry', Int. J. Theor. Phys. 34 (1995) 37, arXiv:hep-th/9701044.",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "hep-th/9708086",
+   "citation": "R. Gregory, J. A. Harvey, G. W. Moore, \"Unwinding strings and T-duality of Kaluza-Klein and H-monopoles\", Adv. Theor. Math. Phys. 1, 283 (1997)",
+   "relations": {
+    "C2": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "hep-th/9806230",
+   "citation": "A. Buonanno, T. Damour, G. Veneziano, \"Pre-big bang bubbles from the gravitational instability of generic string vacua\", Nucl. Phys. B 543 (1999) 275, arXiv:hep",
+   "relations": {
+    "C5": "partial"
+   },
+   "sources": [
+    "g4-collapse-acceleration:search"
+   ]
+  },
+  {
+   "id": "nucl-th/0212090",
+   "citation": "C. B. Das, S. Das Gupta, C. Gale, B.-A. Li, \"Momentum dependence of symmetry potential in asymmetric nuclear matter for transport model calculations\", Phys. Rev",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "physics/0101014",
+   "citation": "B. G. Sidharth, \"The Elusive monopole\", Nuovo Cim. B 118, 35 (2003)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "physics/0401083",
+   "citation": "F. W. Hehl, Y. N. Obukhov, 'Electric/magnetic reciprocity in premetric electrodynamics with and without magnetic charge, and the complex electromagnetic field',",
+   "relations": {
+    "C4": "collision"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "quant-ph/0407100",
+   "citation": "F. Xu, A. M. Wang, X. D. Yang, H. You, \"Numerical Simulation Solution of the BCS Pairing Problem\", Commun. Theor. Phys. 44, 171 (2005), doi:10.1088/6102/44/1/17",
+   "relations": {
+    "C6": "evidence-against"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "recid:100841",
+   "citation": "E. Recami, R. Mignani, \"Magnetic Monopoles and Tachyons in Special Relativity\", Phys. Lett. B 62, 41 (1976)",
+   "relations": {
+    "C3": "related",
+    "C4": "related"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "recid:121372",
+   "citation": "C. Montonen, D. Olive, 'Magnetic Monopoles as Gauge Particles?', Phys. Lett. B 72 (1977) 117 (the record's [18]).",
+   "relations": {
+    "C4": "related"
+   },
+   "sources": [
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "recid:12199",
+   "citation": "M. S. Turner, E. N. Parker, T. J. Bogdan, \"Magnetic Monopoles and the Survival of Galactic Magnetic Fields\", Phys. Rev. D 26, 1296 (1982)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:13934",
+   "citation": "E. Corrigan, P. Goddard, \"Construction of Instanton and Monopole Solutions and Reciprocity\", Ann. Phys. 154, 253 (1984)",
+   "relations": {
+    "C2": "collision"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:1515614",
+   "citation": "A. Ghosh, D. S. Ray, \"Born-Kothari condensation in an ideal Fermi gas\", Phys. Rev. A 95 (2017) 022129, doi:10.1103/PhysRevA.95.022129 (journal; not on arXiv)",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "round2/r4-triage.out.json"
+   ]
+  },
+  {
+   "id": "recid:154780",
+   "citation": "A. D. Linde, \"Confinement of Monopoles at High Temperatures: A Solution of the Primordial Monopole Problem\", Phys. Lett. B 96, 293 (1980)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:1625396",
+   "citation": "A. Ghosh, \"Born-Kothari Condensation for Fermions\", Entropy 19 (2017) 479, doi:10.3390/e19090479 (journal mini-review; not on arXiv)",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "round2/r4-triage.out.json"
+   ]
+  },
+  {
+   "id": "recid:1657135",
+   "citation": "C. Castro, \"Maximal proper force, black hole horizons and matter as curvature in momentum space\", Int. J. Geom. Meth. Mod. Phys. 15, 1850035 (2018), doi:10.1142",
+   "relations": {
+    "C6": "related"
+   },
+   "sources": [
+    "g5-momentum-clumping:search"
+   ]
+  },
+  {
+   "id": "recid:1789711",
+   "citation": "C. Castro Perelman, \"Born's Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant\", Annals Phys. 416 (2020) 168143, d",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "recid:2173188",
+   "citation": "J. Elsborg, C. Kohn, \"Magnetic monopoles in two time dimensions\", Int. J. Mod. Phys. A 37, 2250141 (2022)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:2778134",
+   "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", Bulg. J. Phys. 51 (2024) 060, doi:10.55318/bgjp.2024.51.1.060 (",
+   "relations": {
+    "C5": "related"
+   },
+   "sources": [
+    "round2/r3-dark-energy.out.json"
+   ]
+  },
+  {
+   "id": "recid:310169",
+   "citation": "E. Comay, \"Charges, monopoles and unit systems\", Acta Phys. Polon. B 21, 171 (1990)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:3177356",
+   "citation": "T. Tanii, N. Yamanaka, \"Unobservability of magnetic monopole\", non-reviewed: INSPIRE recid 3177356 (no journal); a Zenodo record dated June 2026 (zenodo.org/rec",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:339909",
+   "citation": "S. Hioki, S. Kitahara, S. Ohno, T. Suzuki, Y. Matsubara, O. Miyamura, \"Monopole distribution in momentum space in SU(2) lattice gauge theory\", Phys. Lett. B 285",
+   "relations": {
+    "C2": "collision"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  },
+  {
+   "id": "recid:352759",
+   "citation": "F. C. Adams, M. Fatuzzo, K. Freese, G. Tarle, R. Watkins, M. S. Turner, \"Extension of the Parker bound on the flux of magnetic monopoles\", Phys. Rev. Lett. 70, ",
+   "relations": {
+    "C2": "evidence-against",
+    "C4": "evidence-against"
+   },
+   "sources": [
+    "g2-monopoles:search",
+    "g3-magnetic-mirror:search"
+   ]
+  },
+  {
+   "id": "recid:9098",
+   "citation": "P. Langacker, S.-Y. Pi, \"Magnetic Monopoles in Grand Unified Theories\", Phys. Rev. Lett. 45, 1 (1980)",
+   "relations": {
+    "C3": "related"
+   },
+   "sources": [
+    "g2-monopoles:search"
+   ]
+  }
+ ]
+}

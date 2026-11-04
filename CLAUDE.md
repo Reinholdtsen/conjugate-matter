@@ -31,8 +31,9 @@ below gives their paths.
   - `closed-universe.md` — the closed-universe note (2026-10-27): what k = +1 implies for the program, and how big position space and how small momentum space get. Computed and verified by independent agents; not reviewed. Its record is `review/closed-universe/`.
   - `velocity-gated-gravity.md` — the momentum-gravity note (2026-10-28): whether the velocity-clumping obituary is premature, and whether momentum gravity is a relative-velocity perturbation of gravity. Computed and verified by independent agents; not reviewed. Its record is `review/momentum-gravity/`.
   - `gate-mechanism.md` — whether exchanging X produces #11 §8's dark-matter gate (2026-10-28). Two derivations, the second blind; not reviewed. Its record is `review/momentum-gravity/`; its result is flag 55.
-- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`.
-- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); arbitration and audit scripts go here.
+  - `literature-check.md` — the literature check of P.R.'s conjectures (2026-11-02): which of seven are already published. Searched and verified by independent agents; not reviewed. Its record is `review/literature-check/`; its results for #11 are flags 64–69.
+- [review/](review/) — #15 `skeptic-review-console.html`; referee reports and adjudications go here. The monopole sweep's record (2026-10-29) is `review/monopoles/`; the wiki clean-up's (2026-11-01), with the source conflicts no flag covers, is `review/wiki-cleanup/`; the literature check's (2026-11-02) is `review/literature-check/`.
+- [verify/](verify/) — `battery.py` (HANDOFF Appendix A); `soliton_obituary.py` (the round-3 record); `toy_*.py` (the toy note); `phase_space_diameter.py` (the diameter note); `closed_universe.py` (the closed-universe note); `velocity_gated_gravity.py` and `gate_mechanism.py` (the momentum-gravity notes); `literature_check.py` (the literature-check note: its quotations, citations, verdicts and main counts against its record, and in section G the algebra behind flag 66); arbitration and audit scripts go here.
 - [wiki/](wiki/) — the program's wiki: one page per topic, explaining and indexing everything above, with each page's status and sources in its frontmatter. It is derivative: when it and a document disagree, the document wins. Its conventions are in `wiki/CLAUDE.md`. Its executive summary, `wiki/summary.md` (first in the site menu), gives the program's standing on one page, at most 800 words, and must be updated in the same change whenever what it says changes (`wiki/CLAUDE.md`, "Keeping it current").
 - [site/](site/) — the Hugo site (hugo-book theme) that publishes `wiki/` to Cloudflare Workers static assets. It mounts `../wiki` as its content and holds no copy of it. Paul deploys it by hand: `npx wrangler login` once per machine, then `npm run deploy` in `site/`, which runs the site's gate first. It serves at https://comatter.science/. Building, checking, previewing, deploying and adding a domain are in `site/CLAUDE.md`.
 
@@ -178,6 +179,34 @@ only as a task needs them.
   - `wiki/summary.md` is one page; "Is anything new?" leads with Paul's conjectures, and it lists no dead claims or claims under review;
   - `scripts/check-wiki.py` gained the checks `status`, `voice` and `summary`;
   - the source documents keep their wording, including #11's header, §9, §10, §12, §13 and App. A, which still narrate this.
+- 2026-11-02: the literature check of P.R.'s conjectures (Paul: "Do a literature check of my conjectures";
+  `notes/literature-check.md`, written up 2026-11-03; 31 agents in four workflows, not reviewed). No claim's status
+  changed: prior art kills nothing and confirms nothing. Its results:
+  - dark matter is conjugate matter (App. A item 4) is published in its core. Minic and coauthors have identified dark
+    matter with the degrees of freedom dual to visible matter in Born-reciprocal (metastring) string theory since 2020
+    (Minic 2020; Berglund, Hübsch and Minić 2021; restated to April 2026, and in October 2026, after the program's first
+    statement of it in September 2026). Their dual sector is correlated with ours.
+    The program's couples by gravity alone (P4 strict, row 7; not in §11.4's shared-photon form, which needs P4
+    restated, flag 63), with the polarization selected by the vacuum, and
+    neither its χ form nor its monopole form was found in the literature;
+  - the magnetic mirror (§11.4), conjugate collapse and our acceleration (App. A item 9) and clumping in momentum
+    space (App. A item 3) are partly anticipated: magnetic dark sectors without the momentum placement; a contracting
+    partner universe, and collapse in one frame as acceleration in another; Bose condensation of dark matter;
+  - monopoles abundant in momentum space, their explanation of the null result and the long-range velocity-gated
+    attraction were not found. The closest account of the null result, Khademi 2009, is read only in its abstract
+    (the repository refuses access): it puts the non-visibility of monopoles down to uncertainty in phase-space
+    quantum mechanics, without saying where they are; two judges labeled it related, and its full text could raise
+    the verdict. OpenAlex queries planned for round 3 did not run once its free quota ran out; a rerun on 2026-11-03
+    found the quota not yet renewed (`review/literature-check/round5/not-run-queries.json`);
+  - flags 64–69 in `review/wiki-build-flags.md`, pending: prior art #11 does not cite (64 for App. A item 4, 65 for
+    §11.4, §10 and App. A items 3 and 9); §10's dictionary is, as a map of fluid variables, scale-factor duality with sources (66); §11.3's bridge is a
+    published remark (67); Brümmer et al. (arXiv 2025, before #14 v3; Phys. Rev. D 2026) published §12's exclusion of the minimal
+    hidden sector first, independently (68);
+    two fits mildly prefer a nonzero cross-section at cluster speeds, against row 1's "zero cluster signal" (69);
+  - `verify/literature_check.py` checks the note's quotations, citations, verdicts and main counts against
+    `review/literature-check/`, and in section G the algebra behind flag 66; two reviews of the write-up,
+    a check of the edits merged by hand and a last sweep (2026-11-03; `review/literature-check/workflows/workflow5-result.json`,
+    `workflow7-result.json` to `workflow9-result.json`) changed no verdict.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the
@@ -210,14 +239,16 @@ only as a task needs them.
   - for the restored candidate and the explanation: p-localization, and the kinematics of momentum-polarized
     matter, never modeled (#14 §1 assumed ordinary kinematics);
   - for App. A item 9: whether the contracting conjugate universe is kinetic-dominated, and how dual stiff ↦ Λ
-    relates to τ's potential;
+    relates to τ's potential; in contraction anisotropy grows like a stiff fluid and dominates contents with w < 1,
+    while the dictionary is derived for isotropic fluids (Erickson et al. 2004; `notes/literature-check.md` §6);
   - a mechanism by which one order parameter selects both the position polarization and the electric sublattice
     (acceptance criterion 1's clause, never attempted);
   - for the separate-photon form, which coupling of the p-sector is the S-image of ours, elementary or magnetic
     (F2's finding), and round 2's supersymmetry-exactness burden, which returns with the withdrawal of F2's decision;
   - for the shared-photon form, p-localization in the field profile and the momentum width that would hide the
     analogs from detectors, from the Parker bound and from the plasma before recombination, or their binding
-    into magnetically neutral composites. The Parker comparison at general mass is not gated (`knot_numbers.py`
+    into magnetically neutral composites, or screening (Carneiro 2026; `notes/literature-check.md` §5). The Parker
+    comparison at general mass is not gated (`knot_numbers.py`
     left the gate);
   - the dual coupling's convention, 1/(4α) or 1/α (`review/v3-worklog.md` R2; the formula in #11 §11.2 is flag 28);
   - whether a transition produced the polarization's point defects and τ-strings, and their fate (#11 §14 item 12).
@@ -229,6 +260,22 @@ only as a task needs them.
   - "the empty set" (#11 §11.1) or "measure zero" (App. A item 5), both attributed to him, for conjugate monopoles that
     exist and have no effect;
   - χ and the X-condensate have wiki status `alive`, while #11 §12 tags each candidate [O].
+- Open from the literature check, not queued (`notes/literature-check.md` §2–§3, §9–§10):
+  - Paul's rulings on flags 64–69;
+  - which reading of C1, C4, C5 and C6 is his conjecture, on which their verdicts rest (note §2): whether strict P4,
+    ordinary momentum at ħ, or interaction or localization in momentum belong to C1 (if so, partly anticipated);
+    whether C4 is the momentum placement alone (if so, related only); whether the partner's identity is framework
+    for C5 (if so, arguably anticipated for its founding sentence, though never for the kept route); whether C6 is only the founding image of several velocity
+    flocks (if so, related only);
+  - the full text of Khademi 2009, "Why magnetic monopoles are not seen?" (handle 20.500.12415/6128), two pages that
+    could change the explanation's verdict (a CORE download link of unknown content, core.ac.uk/download/287420038.pdf,
+    met a bot check and is unread); the 26 OpenAlex and four Semantic Scholar queries in
+    `review/literature-check/round5/not-run-queries.json`, to run once the quota renews (00:00 UTC); literature not
+    in English, not searched; Castro Perelman's output, read in part;
+  - not assessed: Bordes, Chan and Tsou 2018 and Mathur and Sharatchandra 1991 (C4); Szabo 2017, arXiv:1709.10080
+    (C2, C3); Comay 1985 (C3, behind a sign-in); the backreaction literature (C5);
+  - whether observation can tell the program's dark sector from the Minic school's dual sector, which is correlated
+    with ours.
 
 ## The gate
 

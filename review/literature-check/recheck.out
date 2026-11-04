@@ -1,0 +1,289 @@
+ok   all                    C1  anticipates      2109.12763                   quotes 3/3
+ok   all                    C1  anticipates      2003.00318                   quotes 8/8
+ok   all                    C1  anticipates      2305.12593                   quotes 1/1
+FAIL all                    C1  anticipates      2202.05104                   quotes 1/1  | year: record has ['2022'], citation has ['2021']
+ok   all                    C1  anticipates      2212.06086                   quotes 3/3
+ok   all                    C1  anticipates      2307.16712                   quotes 2/2
+ok   all                    C1  anticipates      2010.15610                   quotes 8/8
+ok   all                    C1  anticipates      2610.19522                   quotes 2/2
+ok   all                    C1  anticipates      2407.06207                   quotes 2/2
+ok   all                    C1  anticipates      2604.19418                   quotes 2/2
+ok   all                    C1  partial          2111.05659                   quotes 2/2
+ok   all                    C1  partial          2202.06890                   quotes 5/5
+ok   all                    C1  partial          2011.08852                   quotes 1/1
+ok   all                    C1  related          doi:10.1139/cjp-2018-0097    quotes 1/1
+ok   all                    C1  related          1601.00662                   quotes 2/2
+FAIL all                    C1  related          1709.04388                   quotes 2/2  | year: record has ['2017'], citation has ['2018']
+ok   all                    C1  related          2005.08927                   quotes 2/2
+ok   all                    C1  related          gr-qc/0608086                quotes 3/3
+ok   all                    C1  related          1802.03228                   quotes 2/2
+ok   all                    C1  related          1305.6972                    quotes 2/2
+ok   all                    C1  related          recid:392350                 quotes 1/1
+ok   all                    C1  related          2412.04644                   quotes 1/1
+ok   all                    C1  related          1312.7040                    quotes 1/1
+ok   all                    C1  related          2104.00802                   quotes 3/3
+FAIL all                    C1  related          1307.7080                    quotes 1/2  | ; space-time is a choice of polarization… NOT FOUND
+ok   all                    C1  related          doi:10.1088/1742-6596/804/1/ quotes 0/1 (+1 WebFetch-only)
+FAIL all                    C1  related          gr-qc/0507090                quotes 3/3  | year: record has ['2004'], citation has ['2003', '2005']
+ok   all                    C1  related          1708.04253                   quotes 1/1
+ok   all                    C1  related          1605.04361                   quotes 2/2
+ok   all                    C1  related          2205.02787                   quotes 3/3
+ok   all                    C1  related          0709.0776                    quotes 1/1
+ok   all                    C1  related          1401.3965                    quotes 2/2
+ok   all                    C1  related          hep-ph/0111381               quotes 1/1
+ok   all                    C1  related          1207.5514                    quotes 3/3
+ok   all                    C1  related          1506.02187                   quotes 2/2
+ok   all                    C1  related          0807.2838                    quotes 1/1
+ok   all                    C1  related          1606.09307                   quotes 1/1
+ok   all                    C1  related          doi:10.55277/researchhub.unu quotes 0/4 (+4 WebFetch-only)
+ok   all                    C1  related          hep-th/0507199               quotes 1/1
+ok   all                    C1  related          0708.4205                    quotes 2/2
+ok   all                    C1  related          recid:1708693                quotes 2/2
+ok   all                    C1  related          recid:1729689                quotes 2/2
+ok   all                    C1  related          1810.04709                   quotes 2/2
+ok   all                    C1  related          hep-ph/0312335               quotes 3/3
+ok   all                    C1  evidence-against 2006.12515                   quotes 2/2
+ok   all                    C1  evidence-against 1508.03339                   quotes 2/2
+FAIL all                    C1  collision        doi:10.5281/zenodo.20094504  quotes 0/3 (+2 WebFetch-only)  | identifier does not resolve; CU matter carries no Standard Model gauge couplings and inte… NOT FOUND
+ok   all                    C1  collision        1005.3537                    quotes 1/1
+ok   all                    C1  collision        hep-th/0412080               quotes 2/2
+ok   all                    C1  collision        gr-qc/0610079                quotes 2/2
+ok   all                    C1  collision        doi:10.1103/PhysRevLett.42.4 quotes 1/1
+ok   all                    C1  collision        2412.13400                   quotes 1/1
+ok   all                    C1  collision        astro-ph/9909321             quotes 1/1
+ok   all                    C2  related          hep-th/0310167               quotes 2/2
+ok   all                    C2  related          1705.09639                   quotes 2/2
+ok   all                    C2  related          2206.02638                   quotes 3/3
+ok   all                    C2  related          2607.29492                   quotes 1/1
+ok   all                    C2  related          1603.00433                   quotes 1/1
+ok   all                    C2  related          1309.3172                    quotes 2/2
+ok   all                    C2  related          hep-th/0507204               quotes 1/1
+ok   all                    C2  related          1202.0560                    quotes 1/1
+ok   all                    C2  related          2302.03526                   quotes 1/1
+ok   all                    C2  related          1110.6906                    quotes 1/1
+ok   all                    C2  related          2105.05769                   quotes 1/1
+ok   all                    C2  related          2211.14165                   quotes 1/1
+ok   all                    C2  related          hep-th/9708086               quotes 1/1
+ok   all                    C2  related          1903.05673                   quotes 3/3
+ok   all                    C2  related          1803.08861                   quotes 1/1
+FAIL all                    C2  related          doi:10.20944/preprints202511 quotes 0/1  | identifier does not resolve; I point out that these bound states could be the major compo… NOT FOUND
+ok   all                    C2  related          1106.1174                    quotes 1/1
+ok   all                    C2  related          2203.03272                   quotes 1/1
+ok   all                    C2  related          1901.02341                   quotes 1/1
+ok   all                    C2  related          2011.10327                   quotes 2/2
+ok   all                    C2  related          2308.00612                   quotes 2/2
+ok   all                    C2  related          2102.04470                   quotes 2/2
+ok   all                    C2  evidence-against 2404.04926                   quotes 2/2
+ok   all                    C2  evidence-against 2509.21924                   quotes 1/1
+ok   all                    C2  evidence-against recid:352759                 quotes 1/1
+ok   all                    C2  evidence-against 2307.07553                   quotes 2/2
+ok   all                    C2  collision        recid:13934                  quotes 1/1
+ok   all                    C2  collision        1111.4627                    quotes 1/1
+ok   all                    C2  collision        1207.0747                    quotes 1/1
+ok   all                    C2  collision        cond-mat/0405634             quotes 4/4
+ok   all                    C2  collision        recid:339909                 quotes 1/1
+ok   all                    C2  collision        0806.2587                    quotes 5/5
+ok   all                    C2  collision        2405.09348                   quotes 3/3
+ok   all                    C2  collision        cond-mat/0310232             quotes 1/1
+ok   all                    C3  related          recid:154780                 quotes 1/1
+ok   all                    C3  related          recid:75874                  quotes 2/2
+ok   all                    C3  related          2106.11933                   quotes 1/1
+ok   all                    C3  related          physics/0101014              quotes 1/1
+ok   all                    C3  related          recid:93713                  quotes 2/2
+ok   all                    C3  related          cond-mat/0606726             quotes 1/1
+ok   all                    C3  related          2509.23726                   quotes 1/1
+ok   all                    C3  related          hep-ph/0403248               quotes 1/1
+ok   all                    C3  related          recid:310169                 quotes 1/1
+ok   all                    C3  related          recid:100841                 quotes 1/1
+ok   all                    C3  related          hep-ph/9507230               quotes 1/1
+ok   all                    C3  related          hep-ph/9710301               quotes 1/1
+ok   all                    C3  related          recid:2173188                quotes 1/1
+ok   all                    C3  related          2302.03526                   quotes 1/1
+FAIL all                    C3  related          doi:10.20944/preprints202509 quotes 0/2  | identifier does not resolve; energy considerations preclude magnetic monopoles from becom… NOT FOUND, The other five universes explain the 5:1 ratio of dark matte… NOT FOUND
+ok   all                    C3  related          2208.09043                   quotes 1/1
+ok   all                    C3  related          hep-ph/0701133               quotes 1/1
+ok   all                    C3  related          hep-ex/0207020               quotes 1/1
+ok   all                    C3  related          1810.06540                   quotes 1/1
+ok   all                    C3  related          recid:12199                  quotes 1/1
+ok   all                    C3  related          2409.04552                   quotes 1/1
+ok   all                    C3  related          recid:9098                   quotes 1/1
+ok   all                    C3  related          2207.04916                   quotes 1/1
+ok   all                    C3  related          2609.25324                   quotes 3/3
+ok   all                    C3  related          recid:3177356                quotes 2/2
+ok   all                    C3  related          2507.06697                   quotes 2/2
+ok   all                    C3  evidence-against doi:10.1063/PT.3.3571        quotes 0/2 (+2 WebFetch-only)
+ok   all                    C3  collision        0907.2021                    quotes 2/2
+ok   all                    C3  collision        1008.0269                    quotes 1/1
+ok   all                    C3  collision        cond-mat/0310232             quotes 2/2
+ok   all                    C4  partial          2610.02083                   quotes 3/3
+ok   all                    C4  partial          2302.03526                   quotes 2/2
+FAIL all                    C4  partial          2507.06697                   quotes 3/3  | year: record has ['2025'], citation has ['2026']
+ok   all                    C4  related          hep-th/0310167               quotes 2/2
+ok   all                    C4  related          1705.01107                   quotes 1/1
+ok   all                    C4  related          hep-th/0604151               quotes 0/2 (+2 WebFetch-only)
+ok   all                    C4  related          1706.07811                   quotes 1/1
+FAIL all                    C4  related          doi:10.5281/zenodo.20137133  quotes 0/2 (+2 WebFetch-only)  | identifier does not resolve
+ok   all                    C4  related          1404.0409                    quotes 5/5
+ok   all                    C4  related          hep-th/9410167               quotes 1/1
+ok   all                    C4  related          recid:121372                 quotes 1/1
+ok   all                    C4  related          1807.09606                   quotes 2/2
+FAIL all                    C4  related          1311.7069                    quotes 1/2  | ; In the simplest case, its lifting to the level of Nekrasov f… NOT FOUND
+ok   all                    C4  related          1705.09639                   quotes 2/2
+ok   all                    C4  related          hep-th/0605198               quotes 1/1
+ok   all                    C4  related          hep-th/9701044               quotes 1/1
+ok   all                    C4  related          2206.02638                   quotes 3/3
+ok   all                    C4  related          hep-th/9506011               quotes 1/1
+FAIL all                    C4  related          recid:100841                 quotes 1/2  | ; a Superluminal electric charge is expected to behave as a ma… NOT FOUND
+ok   all                    C4  related          0902.3615                    quotes 1/1
+ok   all                    C4  related          hep-th/0008052               quotes 3/3
+ok   all                    C4  related          1909.06240                   quotes 5/5
+ok   all                    C4  related          1309.3172                    quotes 2/2
+ok   all                    C4  related          hep-th/9501022               quotes 1/2 (+1 WebFetch-only)
+ok   all                    C4  related          hep-th/0507204               quotes 1/1
+ok   all                    C4  related          2504.01467                   quotes 1/1
+ok   all                    C4  related          hep-th/0304042               quotes 5/5
+ok   all                    C4  related          1805.09649                   quotes 1/1
+ok   all                    C4  related          1808.09459                   quotes 2/2
+ok   all                    C4  related          1906.00014                   quotes 1/1
+ok   all                    C4  related          1307.7080                    quotes 2/2
+ok   all                    C4  related          hep-th/9903154               quotes 2/2
+ok   all                    C4  related          recid:2012496                quotes 2/2
+ok   all                    C4  related          recid:2012439                quotes 1/1
+ok   all                    C4  related          1511.02200                   quotes 1/1
+ok   all                    C4  related          2105.05769                   quotes 1/1
+ok   all                    C4  related          hep-th/9411149               quotes 1/1
+ok   all                    C4  related          2111.14205                   quotes 5/5
+ok   all                    C4  related          2211.14165                   quotes 1/1
+ok   all                    C4  related          doi:10.15406/paij.2018.02.00 quotes 0/2 (+2 WebFetch-only)
+ok   all                    C4  related          1903.05673                   quotes 2/2
+FAIL all                    C4  related          1506.02187                   quotes 1/1  | year: record has ['2015'], citation has none
+ok   all                    C4  related          0908.3034                    quotes 2/2
+FAIL all                    C4  related          2609.25324                   quotes 2/2  | year: record has ['2026'], citation has none
+ok   all                    C4  related          2509.15866                   quotes 2/2
+FAIL all                    C4  related          doi:10.1088/1742-6596/128/1/ quotes 0/2  | ; It is shown that, the assumption of the general global gauge… NOT FOUND, We obtain this result without assuming the concept of the ma… NOT FOUND
+ok   all                    C4  related          2109.12771                   quotes 1/1
+FAIL all                    C4  related          hep-ph/9509271               quotes 2/3  | ; The spectrum of monopoles is found to correspond to the spec… NOT FOUND
+ok   all                    C4  related          doi:10.1088/1742-6596/1251/1 quotes 2/2
+ok   all                    C4  related          hep-th/9508021               quotes 1/1
+ok   all                    C4  evidence-against recid:352759                 quotes 1/1
+ok   all                    C4  collision        physics/0401083              quotes 1/1
+ok   all                    C4  collision        1403.6041                    quotes 2/2
+FAIL all                    C4  collision        2607.26479                   quotes 1/1  | year: record has ['2026'], citation has ['1987']
+ok   all                    C4  collision        1207.0747                    quotes 1/1
+ok   all                    C4  collision        1403.1308                    quotes 1/1
+FAIL all                    C4  collision        0811.1303                    quotes 2/3  | ; the response to an electric charge that mimics an induced mi… NOT FOUND
+ok   all                    C4  collision        2308.00612                   quotes 1/2 (+1 WebFetch-only)
+ok   all                    C4  collision        cond-mat/0310232             quotes 1/1
+ok   all                    C5  partial          hep-th/9806230               quotes 1/1
+ok   all                    C5  partial          2207.02835                   quotes 14/14
+ok   all                    C5  partial          gr-qc/0610079                quotes 4/4
+ok   all                    C5  partial          doi:10.22323/1.335.0047      quotes 0/4 (+4 WebFetch-only)
+ok   all                    C5  partial          1307.0159                    quotes 3/3
+ok   all                    C5  partial          hep-th/9309023               quotes 2/2
+ok   all                    C5  partial          hep-th/0207130               quotes 6/6
+ok   all                    C5  related          doi:10.1103/PhysRevLett.66.5 quotes 1/1
+ok   all                    C5  related          hep-th/9109048               quotes 1/1
+ok   all                    C5  related          2111.05659                   quotes 2/2
+ok   all                    C5  related          doi:10.1016/0370-2693(88)907 quotes 1/1
+ok   all                    C5  related          1903.12521                   quotes 2/2
+ok   all                    C5  related          recid:1789711                quotes 5/5
+ok   all                    C5  related          recid:1122452                quotes 2/2
+ok   all                    C5  related          2504.08062                   quotes 3/3
+ok   all                    C5  related          2302.07878                   quotes 2/2
+ok   all                    C5  related          recid:2778134                quotes 1/1
+ok   all                    C5  related          2305.12593                   quotes 3/3
+ok   all                    C5  related          doi:10.1142/9789811269776_00 quotes 2/2
+ok   all                    C5  related          2105.10521                   quotes 5/5
+ok   all                    C5  related          2305.19106                   quotes 2/2
+ok   all                    C5  related          2202.00641                   quotes 1/1
+ok   all                    C5  related          2312.15552                   quotes 2/2
+ok   all                    C5  related          0812.4182                    quotes 1/1
+ok   all                    C5  related          doi:10.1142/9789819839926_00 quotes 0/1 (+1 WebFetch-only)
+ok   all                    C5  related          gr-qc/0507065                quotes 4/4
+ok   all                    C5  related          2601.22910                   quotes 2/2
+ok   all                    C5  related          doi:10.1016/0370-2693(91)900 quotes 1/1
+FAIL all                    C5  related          doi:10.5281/zenodo.23589138  quotes 0/2 (+2 WebFetch-only)  | identifier does not resolve
+ok   all                    C5  related          1707.04670                   quotes 1/1
+ok   all                    C5  related          1801.07575                   quotes 3/3
+FAIL all                    C5  related          doi:10.20944/preprints202410 quotes 0/1  | identifier does not resolve; We suggest that this collapse causes a rupture in the fabric… NOT FOUND
+ok   all                    C5  related          gr-qc/0405055                quotes 2/2
+ok   all                    C5  related          gr-qc/9411041                quotes 2/2
+ok   all                    C5  related          hep-th/0312009               quotes 2/2
+ok   all                    C5  related          recid:1415348                quotes 1/1
+FAIL all                    C5  related          doi:10.5281/zenodo.14786788  quotes 0/2 (+2 WebFetch-only)  | identifier does not resolve
+ok   all                    C5  related          1305.6972                    quotes 4/4
+ok   all                    C5  related          gr-qc/0401117                quotes 3/3
+ok   all                    C5  related          2412.04644                   quotes 2/2
+ok   all                    C5  related          recid:1285852                quotes 1/1
+ok   all                    C5  related          doi:10.1007/s10509-014-2106- quotes 1/1
+ok   all                    C5  related          2303.17495                   quotes 2/2
+ok   all                    C5  related          2212.00901                   quotes 3/3
+ok   all                    C5  related          recid:2836372                quotes 2/2
+ok   all                    C5  related          gr-qc/0307111                quotes 2/2
+ok   all                    C5  related          doi:10.2174/1874381101104010 quotes 0/2 (+2 WebFetch-only)
+ok   all                    C5  related          doi:10.3390/ecu2023-14102    quotes 2/2
+ok   all                    C5  related          astro-ph/0111259             quotes 2/2
+ok   all                    C5  related          2603.03385                   quotes 2/2
+ok   all                    C5  related          hep-th/0307128               quotes 1/1
+ok   all                    C5  related          2406.04392                   quotes 1/1
+ok   all                    C5  related          2202.06890                   quotes 1/1
+ok   all                    C5  related          1905.08269                   quotes 2/2
+ok   all                    C5  related          1905.09463                   quotes 3/3
+ok   all                    C5  related          1902.08617                   quotes 2/2
+ok   all                    C5  related          2101.04152                   quotes 5/5
+ok   all                    C5  related          1001.5208                    quotes 3/3
+ok   all                    C5  related          recid:2697605                quotes 1/1
+ok   all                    C5  related          1207.5514                    quotes 4/4
+ok   all                    C5  related          1506.02187                   quotes 4/4
+ok   all                    C5  related          2503.20854                   quotes 3/3
+ok   all                    C5  related          2511.20907                   quotes 2/2
+ok   all                    C5  related          astro-ph/0607626             quotes 2/2
+ok   all                    C5  related          2610.19522                   quotes 2/2
+FAIL all                    C5  related          doi:10.4236/jhepgc.2024.1010 quotes 0/2 (+1 WebFetch-only)  | ; A model for a dual universe is proposed, based on the assump… NOT FOUND
+ok   all                    C5  related          1502.06497                   quotes 2/2
+ok   all                    C5  evidence-against 1807.06209                   quotes 2/2
+ok   all                    C5  collision        gr-qc/0506108                quotes 1/1
+ok   all                    C5  collision        1202.6561                    quotes 3/3
+ok   all                    C5  collision        0805.2973                    quotes 1/1
+ok   all                    C5  collision        doi:10.4236/jmp.2023.1413099 quotes 0/1 (+1 WebFetch-only)
+ok   all                    C5  collision        0706.3736                    quotes 1/1
+ok   all                    C5  collision        2503.20267                   quotes 1/1
+ok   all                    C5  collision        1604.04183                   quotes 1/1
+ok   all                    C6  partial          astro-ph/0003388             quotes 5/5
+ok   all                    C6  partial          1507.01019                   quotes 3/3
+ok   all                    C6  partial          0901.1106                    quotes 4/4
+ok   all                    C6  related          recid:1625396                quotes 2/2
+ok   all                    C6  related          recid:1515614                quotes 2/2
+ok   all                    C6  related          nucl-th/0212090              quotes 2/2
+ok   all                    C6  related          cond-mat/0502499             quotes 2/2
+ok   all                    C6  related          1804.05857                   quotes 1/1
+ok   all                    C6  related          cond-mat/0005001             quotes 1/1
+ok   all                    C6  related          cond-mat/0212313             quotes 5/5
+FAIL all                    C6  related          quant-ph/0407100             quotes 2/2  | year: record has ['2004'], citation has ['2005']
+ok   all                    C6  related          0912.1517                    quotes 2/2
+ok   all                    C6  related          1905.09297                   quotes 1/1
+ok   all                    C6  related          1610.08297                   quotes 1/1
+ok   all                    C6  related          1002.3162                    quotes 1/1
+ok   all                    C6  related          0812.2033                    quotes 2/2
+ok   all                    C6  related          astro-ph/9504052             quotes 1/1
+ok   all                    C6  related          1002.0291                    quotes 1/1
+ok   all                    C6  related          0709.0776                    quotes 3/3
+ok   all                    C6  related          1607.08621                   quotes 2/2
+ok   all                    C6  related          0806.2182                    quotes 2/2
+ok   all                    C6  related          1801.06571                   quotes 1/1
+ok   all                    C6  evidence-against 1412.5930                    quotes 2/2
+ok   all                    C6  collision        2602.23822                   quotes 1/1
+ok   all                    C6  collision        2503.06160                   quotes 1/1
+ok   all                    C7  related          1011.6374                    quotes 1/1
+ok   all                    C7  related          gr-qc/9708047                quotes 2/2
+ok   all                    C7  related          2402.08557                   quotes 3/3
+ok   all                    C7  related          2510.00098                   quotes 1/1
+ok   all                    C7  related          2303.04816                   quotes 2/2
+ok   all                    C7  related          0709.0776                    quotes 5/5
+ok   all                    C7  related          2007.00667                   quotes 2/2
+ok   all                    C7  related          2503.03817                   quotes 2/2
+FAIL all                    C7  related          doi:10.5281/zenodo.21232068  quotes 0/3 (+1 WebFetch-only)  | identifier does not resolve; The third term arises from the velocity-dependence of the ca… NOT FOUND, A microscopic derivation of \( k \) from capture statistics … NOT FOUND
+ok   all                    C7  evidence-against astro-ph/0606566             quotes 1/1
+ok   all                    C7  collision        1909.06986                   quotes 1/1
+
+287 findings re-checked, 264 clean, 23 with problems; written to /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/recheck.json

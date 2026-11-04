@@ -593,7 +593,158 @@ who checked each. Arithmetic is checked in `verify/gate_mechanism.py` (55) and
    8d588f6; not otherwise audited.**
    **Ruling: pending.**
 
+## Found by the literature check (2026-11-02)
+
+*Raised by the literature check of Paul's conjectures (`notes/literature-check.md`). Each points to published
+work #11 does not cite, or cites for something else. None changes a claim's status. `verify/literature_check.py`
+finds every quotation below again by code; the citations follow the note's reference list, which the same script
+checks against INSPIRE, arXiv, Crossref and OpenAlex records. The findings, verdicts and panel are in
+`review/literature-check/`.*
+
+64. **Dark matter as the dual of visible matter is published, and #11 cites none of it (medium; #11 App. A item 4,
+    §8, §12).** Minic and coauthors identify dark matter with the degrees of freedom dual to visible matter in
+    Born-reciprocal (metastring) string theory. Minic 2020 (arXiv:2003.00318): "metaparticle quanta (the zero modes
+    of the metastring) as the natural quanta of dark matter in this approach". Berglund, Hübsch and Minić, LHEP 2021,
+    186 (arXiv:2010.15610): "dark matter, on the other hand, comes from the degrees of freedom dual to the visible
+    matter". Seven more papers of the same school restate it (note §3); the last, posted on 14 October 2026, is later than P.R.'s
+    first written statement (the lab notebook, September 2026) and is not prior art. In their
+    foundations the dual coordinates are the canonical conjugate of x (Freidel, Leigh and Minic, Phys. Lett. B
+    730, 302 (2014): "so we will refer to Y as coordinates in momentum space"). Their dual sector is correlated
+    with ours; #11's couples by
+    gravity alone under strict P4 (row 7), except in §11.4's shared-photon form, the setting of App. A item 5's
+    explanation, whose conjugate monopoles would carry magnetic charge of our photon and which needs P4 restated
+    (flag 63); and its polarization is selected spontaneously (P5). Copies of ordinary matter coupled to ours mainly
+    or only by gravity are published without reciprocity (mirror and twin matter); joined to the identification they
+    were not found. Neither of #11 §12's forms,
+    χ with a velocity gate or conjugate monopoles localized in momentum, was found in the literature. The record already cites
+    Berglund, Hübsch and Minic 2023 [S] for another result (`papers/phase-space-diameter.md` §7); that paper's §6.5
+    states the identification. Suggested: cite the 2020 and 2021 papers [S] at App. A item 4 and §12, with the
+    difference; the conjecture keeps its status.
+   **Audit (2026-11-02): anticipated by the pre-registered rule.** Found by the round-1 searcher for conjugate
+   matter and confirmed by its verifier; three panel judges, one asked to argue for novelty, agree (confidence high,
+   high and medium). The medium, and a dissent the judge asked to argue for novelty kept on record, rest on readings
+   of C1 under which the verdict would be partly anticipated (note §2).
+   **Ruling: pending.**
+65. **Partial prior art for the magnetic mirror, for conjugate collapse and for clumping in momentum space is
+    uncited (low; #11 §11.4, §10, App. A items 3 and 9).**
+    - §11.4: dark sectors of magnetically charged matter, without the momentum placement. Govaerts, Eur. Phys. J. C
+      83, 158 (2023) (arXiv:2302.03526), "a dark parallel world of purely magnetically charged matter", the magnetic
+      half of one dual electrodynamics written with two gauge potentials; and monopoles with a photon of their own,
+      Vento 2025 (arXiv:2507.06697) and García-Moreno and Vento 2026 (arXiv:2610.02083). Beside the two ways §11.4
+      names to hide the shared-photon form's analogs, p-localization and binding, a preprint proposes a third:
+      screening by a magnetic condensate (Carneiro, arXiv:2609.25324, 2026).
+    - §10 and App. A item 9: Henry-Couannier's Dark Gravity, whose dark side, with the inverse of our scale factor,
+      contracts as ours expands and drives our recent acceleration (Global J. Sci. Front. Res. A 13 (2013),
+      arXiv:gr-qc/0610079; PoS EDSU2018 047); inflation in one frame as gravitational collapse in another (Gasperini
+      and Veneziano 1993, 2003); and for present dark energy Mukherjee, Jassal and Lochan, Eur. Phys. J. C 84, 318
+      (2024): "the effect of dark energy can equivalently be seen as collapse of space in a conformally connected
+      universe". For §10's statement that the data exclude the heuristic version's w = −2, which cites nothing:
+      Planck 2018, Astron. Astrophys. 641, A6 (2020) (arXiv:1807.06209), w₀ = −1.028 ± 0.031 with wₐ fixed at 0.
+    - For clumping in momentum space (App. A item 3): Bose condensation of dark matter, from at least Riotto and
+      Tkachev 2000. The closest form found is Sikivie and Yang, Phys. Rev. Lett. 103, 111301 (2009)
+      (arXiv:0901.1106), axions that Bose-condense through their own gravity into one state. #11 already lists
+      Levkov, Panin and Tkachev 2018 as [13]†, for the wave island's condensation rate (§9).
+    Suggested: cite them [S] where each conjecture is stated, with what each lacks (note §5–§7), and at §11.4's
+    separate-photon form Scott et al., Eur. Phys. J. C 78, 382 (2018) (arXiv:1805.09649): with one kind of charge,
+    which is called magnetic is a convention, so unless the p-sector also holds electric charges the form's content is
+    its coupling.
+   **Audit (2026-11-02): partly anticipated, by the pre-registered rule;** each verdict rests on findings confirmed
+   by a second agent, and the panel judge for each agrees (confidence high for C4 and C5, medium for C6). Each of the three verdicts rests on
+   a reading of the conjecture its judge states (note §2): if C4 is the momentum placement alone, or C6 only the
+   founding image of several velocity flocks, the verdict is related only, and the C4 judge's high confidence is in
+   the published facts, the label resting on that reading; for C5, a reader who counts the partner's identity as
+   framework could take Dark Gravity to anticipate the founding sentence, though never the kept route, a reading the
+   judge does not adopt; the round-1 verifier for C5 finds it arguable only for the founding sentence read as a
+   kinematic identity, since in Dark Gravity the conjugate side's contraction does not power the acceleration. For C6,
+   Riotto and Tkachev 2000 carries its finder's label alone, confirmed by the C6 judge on a second reading; the
+   round-1 verifier confirmed Sikivie and Yang 2009 as partial; and the C6 judge raised Levkov, Panin and Tkachev
+   2018 from related to partial, as the same form as Riotto and Tkachev's and a close variant of the wave island's.
+   **Ruling: pending.**
+66. **§10's corrected dictionary is, as a map of fluid variables, scale-factor duality with sources (low; #11 §10,
+    "Dictionary [D — corrected en route]"; §15, "the w-dictionary").** As a map of fluid variables, w_eff = −w̃ is the duality of string cosmology
+    that sends each scale factor aᵢ → 1/aᵢ and p̄ → −p̄ at fixed ρ̄ (Gasperini and Veneziano, Phys. Rept. 373, 1
+    (2003), §2.2, eq. 2.32: "The above equations with sources are invariant under time reflection and under the
+    duality transformation"), which they credit to Veneziano, Phys. Lett. B 265, 287 (1991); the map holds the shifted dilaton φ̄ fixed. For three spatial
+    dimensions the algebra of two agents, the round-1 verifier for C5 and the panel judge for C5, each in an executed
+    script, gives #11's w_eff = −w̃ (`review/literature-check/checks/`), and section G of `verify/literature_check.py`
+    repeats the judge's checks in the gate. The derivation from a·ã = 1 with
+    one shared lapse is the program's, and so is its use. The duality maps one solution of string-frame dilaton
+    gravity to another, a pairing that "has no analogue in the context of the Einstein cosmology, where there is no
+    dilaton, and the duality symmetry cannot be implemented" (§2.2); entering the conjugate's energy as a source in
+    our Einstein-gravity constraint, so that dual stiff acts as Λ, is the program's step. Suggested: keep [D] for the
+    derivation and add [T][S] for the map; §15's
+    "twice sharpened by forced corrections (P2′; the w-dictionary)" can name it as a known relation recovered,
+    and the superseded −2 − w̃ as the phantom duality (Chimento and Lazkoz, Phys. Rev. Lett. 91, 211301 (2003);
+    Dąbrowski, Stachowiak and Szydłowski, Phys. Rev. D 68, 103519 (2003)): the correction moved between two
+    published maps, and a third, at shared conformal time, makes radiation the content that acts as Λ (note §6).
+   **Audit (2026-11-02): found by the round-1 searcher for collapse and acceleration; its verifier read the review's
+   §2.2 and reference list and did the algebra; the panel judge for C5 repeated it and found the map right and its
+   role the program's own: within the duality the partner of a stiff source is not de Sitter
+   (`review/literature-check/panel/c5.out.json`).**
+   **Ruling: pending.**
+67. **§11.3's bridge between the two dualities is a published remark (low; #11 §11.3; §15, "one structural
+    unification").** #11 §11.3: S-duality is generated "by the same [[0,1],[−1,0]] rotation as Born's ρ and our
+    Z → −Z⁻¹: the third appearance of one matrix in this program". Gibbons and Herdeiro, Phys. Rev. D 63, 064006
+    (2001) (arXiv:hep-th/0008052): "electric-magnetic duality is a special case of Born-Reciprocity", "a
+    transformation which acts as a rotation in phase space", the phase space of the electromagnetic field, with B
+    and D as the conjugate pair. Russo and Townsend, JHEP 07 (2025) 048: the Z₂ that
+    remains of the duality group of self-dual nonlinear electrodynamics "is an example of Born-reciprocity". The
+    conjecture itself, one enlarged modular structure in which one vacuum event selects both polarizations, was not
+    found. Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod.
+    Phys. D 32, 2330002 (2023), which `papers/phase-space-diameter.md` cites) make the heterotic string's two E8
+    factors each other's Langlands, electric–magnetic, duals through the Born-geometry pairing, both with visible
+    fields and each with a dark dual in the same algebra, for gauge groups only: in the round-1 verifier's reading
+    prior art for §11.3's identification, not for §11.4's mirror, and in the panel judge's the closest published
+    form of #14 v2's S-dual identification (§11.4); Freidel, Leigh and Minic, Phys. Lett. B 730, 302 (2014), the
+    first paper of #11's [3]†, equate the
+    Dirac–Schwinger–Zwanziger pairing of worldsheet dyons, which carry momentum and dual momentum, with the
+    diffeomorphism constraint; and Lozano, Phys. Lett. B 364, 19 (1995), Harvey, Moore and Strominger, Phys. Rev. D
+    52, 7161 (1995), Kapustin and Witten, Commun. Num. Theor. Phys. 1, 1 (2007), and Galakhov, Mironov and Morozov,
+    JHEP 06 (2014) 050, cast S-duality as a canonical transformation, as T-duality or as a Fourier transform, which
+    bears on round 2's objection that a shared matrix is not a shared physics (§11.4). Suggested: cite them [S] in
+    §11.3, with Hull and Townsend, Nucl. Phys. B 438, 109 (1995), for its uncited [T] on U-duality and Lopes Cardoso
+    and Mohaupt, Phys. Rept. 855, 1 (2020) (one agent's label), for its uncited 'in the literature's own words', and
+    say in §15 ("one structural unification") and App. A item 11 ("the program-native addition") which
+    parts of the identification are published.
+   **Audit (2026-11-02): related to the magnetic mirror.** Found by the round-1 searcher for the magnetic mirror,
+   who labeled both remarks partial; its verifier found every quotation and lowered both to related, since they
+   state the mechanism and not the conjecture, and named Gibbons and Herdeiro as a citation §11.3 lacks. The panel
+   judge for C4 lists Gibbons and Herdeiro among the closest work, and the further works as reaching parts of §15's
+   unification.
+   **Ruling: pending.**
+68. **§12's exclusion of the minimal hidden sector was published first, independently (low; #11 §12: "The minimal
+    adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms").** Brümmer, Ferrante, Fischer and
+    Frigerio, Phys. Rev. D 113, L091701 (2026) (arXiv:2509.21924, posted 2025-09-26, before #14 v3 of 2026-10-19),
+    find for the minimal 't Hooft–Polyakov model that
+    the stable charged vector boson always outnumbers the monopoles: "dark monopoles cannot constitute a sizeable
+    fraction of dark matter". #11 excludes the same sector by the same particle, its stable W′±. Suggested: cite it
+    [S] beside the [V] exclusion. It concerns #14's model and the minimal sector, not the candidate localized in
+    momentum; the same authors' arXiv:2607.29492 (2026) makes non-minimal thermal monopole dark matter viable.
+   **Audit (2026-11-02): found by the round-1 searcher for monopoles, who labeled it evidence against; its verifier
+   kept that label, scoped to #14's model, and the panel judge for C2 relabeled it related, since it reaches only
+   #14's model.**
+   **Ruling: pending.**
+69. **Row 1's "zero cluster signal" meets two fits (low; #11 §13 row 1).** Kaplinghat, Tulin and Yu, Phys. Rev.
+    Lett. 116, 041302 (2016): "Our results prefer a mildly velocity-dependent cross section", from about 2 cm²/g on
+    galaxy scales to about 0.1 cm²/g on cluster scales. Sagunski et al., JCAP 01 (2021) 024: "For both groups and
+    clusters, our results show a mild preference for a nonzero cross section compared with cold collisionless dark
+    matter.", with 0.19 ± 0.09 cm²/g in clusters and an upper limit of 0.35 cm²/g at 95% confidence. Both favour a
+    nonzero value at cluster speeds, where row 1 gives particle χ none, and the first also a cross-section that falls
+    with velocity, as the knee does, which the second finds consistent with its data (0.5 ± 0.2 cm²/g in groups).
+    #11 §8 leaves the gate's tail open, Gaussian or rational; a rational tail would soften the conflict (note §3),
+    and whether it could match the fits was not assessed. Neither fit is the "Robust self-interaction at v ≫ v*"
+    that kills the row. Suggested: state both in §13 as
+    the current data for row 1, and add to the row's standard expectation resonant self-interaction (Chu,
+    Garcia-Cely and Murayama, Phys. Rev. Lett. 122, 071103 (2019); labeled related by one agent), which also gives a dwarf-strong, cluster-weak
+    cross-section. The wiki's transfer-cross-section page already cites the first, for its method.
+   **Audit (2026-11-02): found by the round-1 searcher for conjugate matter and confirmed by its verifier, as
+   evidence against the χ form; numbers copied from the abstracts.**
+   **Ruling: pending.**
+
 The executed checks referred to above are in `review/wiki-build-checks/` with their outputs, except
 flags 27 (addendum) and 45–54, whose arithmetic is in `verify/closed_universe.py`, and flags 55–58,
 whose arithmetic is in `verify/gate_mechanism.py` and `verify/velocity_gated_gravity.py`. Flag 61's
 homotopy is in `verify/closed_universe.py` (section F); flags 59, 60, 62 and 63 involve no new arithmetic.
+Flags 64, 65 and 67–69 involve none either; flag 66's algebra is in `verify/literature_check.py` (section G), which
+also finds the quotations of flags 64–69 and checks the note's reference list, which their citations follow; it does
+not read the flags' citations themselves.

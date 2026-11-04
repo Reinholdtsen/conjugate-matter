@@ -1,0 +1,149 @@
+{
+ "reader": "r2-monopoles-duality",
+ "items": [
+  {
+   "recid": "2787067",
+   "verdict": "not-relevant",
+   "reason": "Effective monopole-like force in position space from su(2) noncommutativity (curved momentum space); no magnetic charges, momentum-space objects or duality."
+  },
+  {
+   "recid": "2029246",
+   "verdict": "not-relevant",
+   "reason": "KK- and H-monopoles are string five-brane geometries related by T-duality; no momentum-space monopoles, dark matter or electric-magnetic duality."
+  },
+  {
+   "recid": "1909256",
+   "verdict": "not-relevant",
+   "reason": "Thesis: higher Kaluza-Klein monopole is the NS5-brane; polarization choice is T-duality frame. No momentum-space magnetic matter or S-duality (PDF read)."
+  },
+  {
+   "recid": "1770969",
+   "verdict": "not-relevant",
+   "reason": "Higher Kaluza-Klein (Gross-Perry) monopole identified with the NS5-brane in position space; no momentum-space monopoles, dark matter or S-duality (PDF read)."
+  },
+  {
+   "recid": "1744428",
+   "verdict": "not-relevant",
+   "reason": "Electric charge in a position-space monopole distribution; the doubled configuration space is auxiliary. Nothing on momentum-space monopoles or dark matter."
+  },
+  {
+   "recid": "1841580",
+   "verdict": "not-relevant",
+   "reason": "Magnetic monopole only in a citation of Jackiw's dilatation symmetry; paper is on the scale anomaly in planar noncommutative quantum mechanics."
+  },
+  {
+   "recid": "2688607",
+   "verdict": "not-relevant",
+   "reason": "Born reciprocity in symplectic groupoids with curved and compact momentum spaces; monopoles only in two remarks and reference titles; no e-m duality."
+  },
+  {
+   "recid": "1424240",
+   "verdict": "not-relevant",
+   "reason": "Monopole field on a sphere used as a stereographic device for a minimal-length algebra; Born reciprocity only as motivation."
+  },
+  {
+   "recid": "1763839",
+   "verdict": "not-relevant",
+   "reason": "'Magnetic monopole' occurs only in a reference title (Moody-Shapere-Wilczek); paper concerns geometric phase in noncommutative quantum mechanics."
+  },
+  {
+   "recid": "1735464",
+   "verdict": "not-relevant",
+   "reason": "Dirac monopole mentioned only as an analogy in the outlook; a quantum-geometry reinterpretation of the Schroedinger equation (PDF read)."
+  },
+  {
+   "recid": "1934108",
+   "verdict": "not-relevant",
+   "reason": "Thesis on UV non-local gravity; 'no magnetic monopole' is only an assumption in a charged-source calculation (INSPIRE PDF read)."
+  },
+  {
+   "recid": "1863665",
+   "verdict": "not-relevant",
+   "reason": "Standard SL(2,Z) duality and dyons on position-space interfaces; Born geometry only in a separate T-duality chapter; no position-momentum link."
+  },
+  {
+   "recid": "3159322",
+   "verdict": "not-relevant",
+   "reason": "Wu-Yang monopole construction cited as an analogy for holomorphic sections in Calabi-Yau algebraic geometry; no physics of monopoles."
+  },
+  {
+   "recid": "2871069",
+   "verdict": "not-relevant",
+   "reason": "Wu-Yang monopole construction cited as an analogy for smoothing Calabi-Yau hypersurfaces; no physics of monopoles or duality."
+  },
+  {
+   "recid": "1827611",
+   "verdict": "not-relevant",
+   "reason": "Thesis: 'magnetically charged' NS5-type backgrounds break the Jacobi identity; lists Fourier and electromagnetic dualities separately, unrelated (INSPIRE PDF read)."
+  },
+  {
+   "recid": "2678511",
+   "verdict": "not-relevant",
+   "reason": "Flag is a regex artifact ('its duality' between position and momentum, Yang model); no electric-magnetic duality or monopoles."
+  },
+  {
+   "recid": "1347260",
+   "verdict": "not-relevant",
+   "reason": "Flag is a regex artifact ('Born's duality'); triality in cubic matrix models; no electric-magnetic duality or monopoles."
+  },
+  {
+   "recid": "1675281",
+   "verdict": "not-relevant",
+   "reason": "Topological S-duality of A/B-models (g_A = 1/g_B) in generalized geometry; no magnetic charges, no position-momentum identification."
+  },
+  {
+   "recid": "1394574",
+   "verdict": "not-relevant",
+   "reason": "'Electric-magnetic duality' only in a reference title (Harikumar 2010); paper on spectral dimension in kappa-deformed space."
+  },
+  {
+   "recid": "1731583",
+   "verdict": "not-relevant",
+   "reason": "Electric-magnetic duality and monopoles only in introductory history and references; lectures on non-abelian and Poisson-Lie T-duality."
+  },
+  {
+   "recid": "1754000",
+   "verdict": "finding",
+   "reason": "States canonical transformations of phase space play the role of electric-magnetic duality transformations; formal analogy, not the magnetic mirror (C4 related)."
+  }
+ ],
+ "findings": [
+  {
+   "conjecture": "C4",
+   "id": "1909.06240",
+   "citation": "Gabriel Lopes Cardoso and Thomas Mohaupt, \"Special geometry, Hessian structures and applications\", Phys. Rept. 855 (2020) 1; arXiv:1909.06240 (journal; review article)",
+   "relation": "related",
+   "summary": "A review of N=2 special geometry. Its §4 reformulates point-particle Lagrangians (a theorem of Cardoso, de Wit and Mahapatra 2013, arXiv:1206.0577, not read) so that the canonical coordinates (phi^i, pi_i) are twice the real parts of a symplectic vector (x^i, F_i), and says that canonical transformations on phase space, the Sp(2n,R) maps that include (phi, pi) -> (pi, -phi), play the role electric-magnetic duality transformations play in Maxwell-type theories; invariance under them is 'often called duality invariance'. Its §5 calls the split of the special real coordinates into x^I = Re X^I and y_I = Re F_I, the electric and magnetic components, 'the choice of a polarization'. This is, in print, the formal correspondence behind #11 §11.3: Born's rho and S-duality generated by the same matrix, and a duality frame as a Lagrangian polarization.",
+   "difference": "The correspondence is formal: it rewrites one particle's mechanics in special-geometry language, with the phase-space variables standing in for electric and magnetic components. It assigns no physical electric or magnetic charge to the position or the momentum polarization, puts no magnetic matter in momentum space, has no vacuum that makes both choices, and holds for any symplectic pairing, which is round 2's objection ('matrix coincidence is not physical identity') rather than support for the conjecture's physics. Useful as a checked source for the [T] half of #11 §11.3, which cites 17-dagger for the polarization language.",
+   "quotes": [
+    {
+     "text": "In this context, canonical transformations on phase space play a similar role to electric-magnetic duality transformations in Maxwell-type theories.",
+     "where": "§4 (Electric-magnetic duality), opening paragraph, before §4.1",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+    },
+    {
+     "text": "such that the canonical coordinates (\\phi^{i},\\pi_{i}) coincide with (twice) the real part of (x^{i},F_{i})",
+     "where": "§4.1 (Point-particle models and F-functions), statement of the theorem of ref. [33]",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+    },
+    {
+     "text": "this subset describes a symmetry of the system. This invariance is often called duality invariance.",
+     "where": "§4.1, after eq. (160), on Sp(2n,R) canonical transformations",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+    },
+    {
+     "text": "and the splitting of the q^{a} into x^{I} and y_{I} corresponds to the choice of a polarization, that is, a splitting of the symplectic vector space",
+     "where": "§5.1 (Affine special Kaehler geometry), after eq. (233)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+    },
+    {
+     "text": "where x^{I}=\\mbox{Re}(X^{I}) and y^{I}=\\mbox{Re}(F_{I})",
+     "where": "§5.1.3, after eq. (285): the special real coordinates are the real parts of the electric and magnetic components",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html/1909.06240)"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "notes": "21 flagged papers, conjectures C2, C3, C4: 20 not relevant, 1 finding (Lopes Cardoso and Mohaupt, Phys. Rept. 855 (2020) 1, C4, related). None bears on C2 or C3: every 'monopole' on the list is a position-space object (Kaluza-Klein, H- and DFT monopoles, NS5-type backgrounds, monopole distributions, effective monopole-like forces), a mathematical analogy (Wu-Yang, stereographic device, Dirac quantization) or a reference title; none treats monopoles localized in momentum, as dark matter, or the null result of monopole searches. Method: lit.py show for all 21 abstracts; lit.py text with three grep sets (monopole terms; e-m duality terms; dark matter and Born reciprocity) for the 16 arXiv papers with HTML, each hit read in context; the 3 arXiv papers without HTML (1905.06754, 1912.07089, 2108.10297) and the 2 theses without arXiv (recid 1934108, 1827611; INSPIRE fulltext PDFs) were downloaded with WebFetch and their text extracted with pdfminer, each PDF in its own folder. Notes, grep outputs and extracted texts are in work/literature-check/round2/r2-monopoles-duality/. Screen artifact: the C4 abstract regex 's.duality' matches any word ending in s before 'duality'; two of the three C4 abstract flags here came from it (Meljanac-Mignemi 2023 'its duality'; Smolin 2015 'Born's duality'). Leads outside C2-C4, not findings: Smolin 2015 (arXiv:1503.01424) obtains Born duality X -> P, P -> -X as a remnant of an SO(1,2) symmetry of a cubic matrix model and says relativistic particles and strings follow from 'breaking that basic triality ... to a duality' by choice of compactification (quotes checked FOUND), which bears on the program's hard core (broken reciprocity), not on C1-C7; Kupriyanov, Sharapov and Szabo 2023 (arXiv:2308.07406) build Born reciprocity into symplectic groupoids and obtain a compact momentum space S^3 ('a remarkable duality between the noncommutativity of spacetime and the curvature of momentum space', FOUND), which bears on the closed-universe note's compact momentum space; Alfonsi's thesis (arXiv:2108.10297, PDF) says 'The choice of polarisation in quantisation then becomes the choice of duality frame' for T-duality in DFT, a parallel to P5's polarization language that FLM already have. The primary source of the Lopes Cardoso-Mohaupt correspondence, Cardoso, de Wit and Mahapatra 2013 (arXiv:1206.0577), was not read. The nonassociative R-flux line (Bakas-Lust, Lust-Malek-Szabo, Szabo) and Harvey-Jensen's KK monopole localized in winding space, which some listed papers cite, were assessed by workflow 1 (g2, g3) and are not repeated."
+}

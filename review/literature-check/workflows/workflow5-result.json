@@ -1,0 +1,1716 @@
+{
+ "agentCount": 7,
+ "totalTokens": 2403812,
+ "verifications": [
+  {
+   "results": [
+    {
+     "finding": "F1",
+     "verdict": "confirmed",
+     "evidence": "notes/velocity-gated-gravity.md §6 (lines 218-222) maps the Kesden-Kamionkowski limit to ε ≲ O(1), 0.2–2.5 at v* = 120 km/s. It records the 10% level as stated without a confidence level and disputed by Keselman, Nusser and Peebles, and says the bound never beats the Lyman-α forest. verify/velocity_gated_gravity.py gates this in check E7. The finding's own difference field and the g5 verifier both say the record already applies the bound, and judge c2-c3-c7 writes 'the record maps it to ε ≲ 0.2–2.5'. The wiki copy at line 175 contradicts line 88 of the same page; that fix is listed under W2.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "C7's attraction acts among χ only; how the bound applies to a\n  gated force was not computed.",
+       "proposed": "C7's attraction acts among χ only and is gated, so the bound\n  applies at the satellite's relative speed. The momentum-gravity note maps it to ε ≲ O(1), 0.2–2.5 at v* = 120 km/s,\n  depending on how the gate is averaged over the orbit and on the reading, and records that the 10% level is stated\n  without a confidence level and disputed by Keselman, Nusser and Peebles; the bound never beats the Lyman-α forest\n  in the record's reading (`notes/velocity-gated-gravity.md` §6)."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "`notes/velocity-gated-gravity.md` §5;",
+       "proposed": "`notes/velocity-gated-gravity.md` §5, §6;"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F8",
+     "verdict": "confirmed",
+     "evidence": "Mukherjee et al. §6, read with lit.py: the de Sitter Jordan frame 'mimics the late-time dark energy-dominated era', the Einstein-frame scalar 'describes a stiff fluid' (w = 1), and 'as the Jordan frame expands exponentially, the corresponding Einstein frame contracts'. Gasperini-Veneziano 2003 §3.3: the Einstein-frame massless scalar 'can easily lead to gravitational collapse'. Judge c5 calls Mukherjee's pairing 'a de Sitter/contracting-stiff pairing that is the route's', and also writes 'The kept route is found nowhere: ... through w_eff = −w̃ in Einstein gravity'. Inside the duality a stiff source's partner is a power law, so reading it as Λ is the program's own step. Kinetic contents do not distinguish the program.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "- These are two frames of one universe, the same structure as the program's two descriptions. The program's version\n  is the momentum description, and the kept route's contents are kinetic-dominated (dual stiff ↦ Λ).",
+       "proposed": "- These are two frames of one universe, the same structure as the program's two descriptions, and the collapsing\n  side's content is kinetic in both: a massless scalar in Gasperini and Veneziano's Einstein frame (2003, §3.3), and\n  in Mukherjee, Jassal and Lochan's §6 a stiff fluid in a contracting Einstein frame, paired with a de Sitter Jordan\n  frame that mimics the dark-energy era. That is the pairing of the kept route (dual stiff ↦ Λ), as one exact\n  solution of Brans–Dicke gravity at a chosen value of its parameter, with separate clocks, not as a dictionary.\n- Not found: the partner as the momentum description of our own universe, contracting throughout our expansion by\n  a·ã = 1, and with it the kept route as #11 §10 derives it: with one shared lapse a dual-frame fluid contributes\n  w_eff = −w̃, so the conjugate energy enters our own Friedmann equation, and a contracting conjugate universe with\n  kinetic-dominated contents would act on ours as a cosmological constant (the panel judge for C5)."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F16",
+     "verdict": "confirmed",
+     "evidence": "Zhang et al. (full text, read with lit.py): 'The Andromeda Parker bound nevertheless also disfavors the scenario in which such ultraheavy magnetic monopoles constitute all or the majority of dark matter'; the abstract calls larger masses 'disfavored'. Kobayashi-Perri's conclusions: Dirac-charge monopoles must be heavier than 10^18 GeV to cluster, and 'Such monopoles can thus make up the entire dark matter'. Judge c2-c3-c7, note (2): the case is 'agreed below 1e18 GeV and contested between the two papers above it'. The note places the two papers side by side without saying they disagree. wiki momentum-space-monopoles.md:108 gives only Kobayashi-Perri's room above 10^18 GeV, so a second edit carries the fix there.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "can thus make up the entire dark matter.\" None of these bounds applies to objects localized in momentum, which no\npaper models.",
+       "proposed": "can thus make up the entire dark matter.\" Above 10¹⁸ GeV the two papers disagree: Kobayashi and Perri allow\nmonopoles that cluster with our Galaxy to be all of the dark matter, while Zhang et al., from the Andromeda Parker\nbound, disfavour heavy monopoles as all or most of it. The case against monopoles of Dirac charge localized in\nposition as the dark matter is agreed below about 10¹⁸ GeV and contested above it (the panel judge for C2, C3 and\nC7). None of these bounds applies to objects localized in momentum, which no paper models."
+      },
+      {
+       "file": "wiki/dark-matter/candidates/momentum-space-monopoles.md",
+       "current": "The Parker-type bounds on monopoles as the dark matter concern monopoles localized in position, and they leave room for monopoles heavier than 10¹⁸ GeV that cluster with the Galaxy (Kobayashi and Perri 2023 [S]); none applies to objects localized in momentum.",
+       "proposed": "The Parker-type bounds on monopoles as the dark matter concern monopoles localized in position, and above 10¹⁸ GeV they disagree: Kobayashi and Perri 2023 leave room for monopoles of that mass that cluster with the Galaxy, while Zhang et al. 2024 disfavour heavy monopoles as all or most of the dark matter, from the magnetic field of the Andromeda galaxy [S]. None applies to objects localized in momentum."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F18 (Delbourgo-Lashmar attribution part)",
+     "verdict": "partly",
+     "evidence": "Right: line 319 credits 'the judge' with 'not the force' and sets this against 'the finder's reading'. The C6 judge does read the term as 'an attraction proportional to 1/|v - v'| among all masses'. Wrong: the g5 verifier was not the first. The g5 searcher wrote it before the verifier ran: work/literature-check/g5-momentum-clumping/notes.md says 'changes the velocity-momentum relation (anomalous velocity), not pdot' (16:24), and both its C6 and C7 summaries in round1/g5-momentum-clumping.search.json (16:29) say 'changes how velocity follows from momentum ..., not the force'. The verifier (16:54) used this to lower partial to related, and judge c2-c3-c7 upheld related.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "In the finder's reading, summed over a galaxy's masses it acts like an\n  attraction falling as 1/|v − v′|. The judge found that the term changes the relation between velocity and momentum,\n  not the force, and it acts on all masses.",
+       "proposed": "Summed over a galaxy's masses and their relative speeds, it\n  goes as 1/|v − v′|, and the finder and the panel judge for C6 read it as an attraction. It does not depend on\n  position, so in their equations of motion (eq. 4) it changes the relation between velocity and momentum, not the\n  force: the finder noted this, its verifier lowered the finding from partial to related on that ground, and the\n  panel judge for C7 upheld related. It acts on all masses."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F20 (Guth et al. wording part)",
+     "verdict": "confirmed",
+     "evidence": "The heading 'Against the gravity-driven route' introduces a quotation that concedes 'a Bose-Einstein condensate is formed'. The abstract assigns 'localized Bose clumps (stars or solitons)' to attractive interactions. The finding limits the paper to 'the gravity-driven route to a condensate that is localized in momentum and spread through space'. Judge c6 calls it 'evidence against the Sikivie-Yang form', 'scoped to the Sikivie-Yang form', and says it 'does not test the founding image'. The same section lists Levkov-Panin-Tkachev's gravitational condensation as partial prior art. The wiki (founding-image.md:153) already words this correctly, so only the note needs the fix.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "**Against the gravity-driven route** [S]. Guth, Hertzberg and Prescod-Weinstein 2015: \"we conclude that while a\nBose-Einstein condensate is formed, the claim of long-range correlation is unjustified\".",
+       "proposed": "**Against the form of Sikivie and Yang** [S]. Guth, Hertzberg and Prescod-Weinstein 2015: \"we conclude that while a\nBose-Einstein condensate is formed, the claim of long-range correlation is unjustified\". Under attractive\ninteractions, gravity among them, the condensate forms clumps localized in position, not one momentum state spread\nthrough space. The paper treats no attraction acting in velocity, so it does not test the founding image."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W1",
+     "verdict": "partly",
+     "evidence": "Right: the clause is not among the note's not-found items (the §2 table and the §6 italic). As worded, it describes something published: Mukherjee et al. §6 pairs a contracting stiff-fluid frame with a de Sitter frame that mimics the dark-energy era (checked in source; judge c5: 'the pairing of C5's route'). Overstated: W1's Gasperini-Veneziano 'quotation' is the g4 finding's paraphrase, not their words. γ → −γ gives p = −ρ only as a map of fluid variables, since a stiff source's dual is a power law (judge c5). Judge c5 also records 'The kept route is found nowhere: ... through w_eff = −w̃ in Einstein gravity'. So the clause should be narrowed after the F8 note edit, not deleted.",
+     "edits": [
+      {
+       "file": "wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md",
+       "current": "Not found: the collapsing partner as the momentum description of our own universe, and the route that remains, kinetic-dominated contents acting as a cosmological constant (flag 65, pending).",
+       "proposed": "The same paper pairs, as one exact solution, a contracting description whose content is all kinetic energy, a stiff fluid, with an exponentially expanding one that mimics the era of dark energy: the pairing of the route that remains [S]. Not found: the collapsing partner as the momentum description of our own universe, and with it the route that remains as the program derives it, through the corrected dictionary, in which the conjugate side's energy enters our own Friedmann equation (flag 65, pending)."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W2",
+     "verdict": "confirmed",
+     "evidence": "long-range-gated-attraction.md:175 says that how the Kesden-Kamionkowski bound 'applies to a force gated in relative velocity has not been computed'. Line 88 of the same page gives 'ε ≲ O(1): 0.2–2.5 at v* = 120 km/s' from notes/velocity-gated-gravity.md §6, which verify/velocity_gated_gravity.py gates in check E7. The sentence copies the note's §8 (F1). The fix points to the page's own Sagittarius section, uses only numbers already on the page, and carries that section's tag [D; S].",
+     "edits": [
+      {
+       "file": "wiki/dark-matter/momentum-clumping/long-range-gated-attraction.md",
+       "current": "; how that bound applies to a force gated in relative velocity has not been computed.",
+       "proposed": ". Applied to the gated force, the limit gives ε ≲ O(1), 0.2–2.5 at v\\* = 120 km/s, and never beats the Lyman-α forest in the record's reading [D; S] ([the Sagittarius stream](#the-sagittarius-stream))."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W16 (Henry-Couannier part)",
+     "verdict": "confirmed",
+     "evidence": "The note's §6 qualifies the 2018 proceedings: 'read by the finder and its verifier through a web fetch; the proceedings exist only as a PDF, which the code checks cannot read' (recheck.out: quotes 0/4, +4 WebFetch-only). It also places the drive 'after a permutation of the two sides' regimes'. collapse-powered-expansion.md:91 drops both qualifiers and credits the drive to Dark Gravity (2006–2018) as a whole, where the note places it in the 2018 proceedings. The paragraph's only [S] follows the Mukherjee quotation, while the note marks the Henry-Couannier subsection [S].",
+     "edits": [
+      {
+       "file": "wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md",
+       "current": "A partner universe that contracts while ours expands and drives our acceleration is published in Henry-Couannier's Dark Gravity (2006–2018), whose dark side has the inverse of our scale factor.",
+       "proposed": "Henry-Couannier's Dark Gravity (2006–2018) pairs our universe with a conjugate one whose scale factor is the inverse of ours; in his 2018 proceedings the conjugate side contracts as ours expands and, after a permutation of the two sides' regimes, drives our recent acceleration without a cosmological constant [S] (read through a web fetch; the proceedings exist only as a PDF, which the code checks cannot read)."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W16 (Delbourgo-Lashmar part)",
+     "verdict": "partly",
+     "evidence": "Right: long-range-gated-attraction.md:175 omits the velocity dependence that makes Delbourgo-Lashmar the nearest work. The note has it: 1/|v − v′| in §8, and 'depends on velocity differences' in the italic. Beyond the note: 'GmMΩ' does not appear in the note, and judge c2-c3-c7 calls 'bodies moving at similar velocities interact most strongly' 'a gloss on 1/|v - v'|, not the authors' words' (the paper writes ⟨GmM(1/r + Ω/v)⟩ averaged over relative speeds). So the fix adds only the note's 1/|v − v′|, what it means, and that the term does not depend on position.",
+     "edits": [
+      {
+       "file": "wiki/dark-matter/momentum-clumping/long-range-gated-attraction.md",
+       "current": "add a momentum-space partner of Newton's term; the term changes the relation between velocity and momentum rather than the force, and it acts on all masses [S].",
+       "proposed": "add a momentum-space partner of Newton's term, which summed over a galaxy's masses goes as 1/|v − v′|, growing as the relative velocity of two bodies falls; the term does not depend on position, so it changes the relation between velocity and momentum rather than the force, and it acts on all masses [S]."
+      }
+     ],
+     "needs_decision": ""
+    }
+   ],
+   "notes": "The eleven edits have non-overlapping excerpts, and each matches exactly once in the current files. I applied all of them together to a copy of the repository, then ran both gates on the copy. verify/literature_check.py passed (69 quoted passages, all found) and scripts/check-wiki.py passed (328 pages, no problems). No edit adds a quotation the gate cannot find, and the wiki edits add no number their sources lack. Dependencies: W1's wiki edit rests on F8's note edit, and F1's wiki half is W2's edit. The second F16 edit carries the fix to wiki/dark-matter/candidates/momentum-space-monopoles.md:108, which no W finding flagged; that page repeats the one-sided Kobayashi-Perri statement. None of these fixes needs a decision from P.R. Flag 65 already suggests citing Mukherjee et al. at §10. Scratch files are in /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/verify/f1-f8-f16-f18-f20-w1-w2-w16/: edits.py, edits.json, and the baseline and final gate outputs. The repository copies were deleted, and the repository itself was not edited."
+  },
+  {
+   "results": [
+    {
+     "finding": "F2",
+     "verdict": "confirmed",
+     "evidence": "Note :68-70 calls a gravity-only dark sector and the vacuum's polarization new. Line :74 and §3's 'What differs (not found in the literature)' list the coupling as not found, and the note never mentions mirror matter. findings.json has C1 'related', verified: Foot 1401.3965 ('predominantly via gravity'), Hossenfelder 0807.2838 ('only interact gravitationally'), Aoki–Maeda 1312.7040, Berezhiani, Mohapatra et al. c1-advocate: 'new only as a combination'. c1-scope: mirror/twin matter and FLM 2015's preferred polarization 'are published; their combination with the identification is not'; a permanent null is 'generic'. #11 §3 credits the preferred polarization to FLM [26S]. wiki/method/literature-check.md:45 makes the claim even more strongly. The edits pass both gates on a copy.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "found. What the check found new is mostly the program's setting: the vacuum choosing a polarization, a dark sector\ncoupled to ours by gravity alone, and objects localized in momentum.*",
+       "proposed": "found. What the check found new is mostly the program's setting joined to the identification: a vacuum that selects a\npolarization, and a dark sector coupled to ours by gravity alone. Copies of ordinary matter coupled to ours mainly or\nonly by gravity (mirror and twin matter) and a preferred polarization that breaks Born duality are each published;\ntheir combination with the identification is not. Objects localized in momentum were not found.*"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "| the gravity-only, never-detected sector; the χ form with a velocity gate; the monopole form |",
+       "proposed": "| the identification joined to a gravity-only, never-detected sector (mirror and twin matter couple by gravity without reciprocity); the χ form with a velocity gate; the monopole form |"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "**What differs** (not found in the literature).",
+       "proposed": "**What differs** (not found joined to the identification)."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "In the program, P4 is strict and #11 §13 row 7 requires a\n  \"Permanent null\" in direct detection.",
+       "proposed": "In the program, P4 is strict and #11 §13 row 7 requires a\n  \"Permanent null\" in direct detection. Coupling by gravity alone is published without reciprocity: copies of ordinary\n  matter coupled to ours mainly or only by gravity, as mirror matter and as twin matter on a second metric (C1's related\n  findings in `findings.json`), and for dark matter coupled by gravity alone a permanent null is generic (the scope\n  judge). What was not found is that coupling joined to the identification."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- The vacuum. #11's polarization is selected spontaneously (P5). The check found no such mechanism in the school's",
+       "proposed": "- The vacuum. #11's polarization is selected spontaneously (P5). #11 §3 credits the preferred polarization that breaks\n  Born duality to Freidel, Leigh and Minic ([26S]) and counts as its own addition only the spontaneous reading, with η\n  as the order parameter. The check found no such mechanism in the school's"
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "| a sector coupled to ours by gravity alone; the χ form with a velocity gate; the monopole form |",
+       "proposed": "| the identification joined to a sector coupled to ours by gravity alone (mirror and twin matter couple by gravity, without reciprocity); the χ form with a velocity gate; the monopole form |"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F7",
+     "verdict": "confirmed",
+     "evidence": "c1-advocate: 'DISSENT KEPT ON RECORD. If organized around momentum is read as a dynamical clause ... the verdict is partly anticipated.' c1-content: 'Confidence is medium because a reader who counts strict P4 and ordinary momentum at ħ as part of C1's substance would call the published claim a close variant (partly anticipated).' c4: the alternative reading 'would make the verdict related only, with Berglund-Hübsch-Minic 2021 closest ... the label rests on that one reading'. c6: 'If P.R. restricts C6 to the founding image of several velocity flocks, the verdict becomes related only.' The note's §2 reports only the confidence levels, and §3, §5 and §7 never state these hinges. Flag 64's audit gives 'high, high and medium' without the reason.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "judges rated their confidence high for C1 (two of three judges; the third, medium), C2, C4, C5 and C7, and medium\nfor C3 and C6.",
+       "proposed": "judges rated their confidence high for C1 (two of three judges; the third, medium), C2, C4, C5 and C7, and medium\nfor C3 and C6.\n\nThree verdicts rest on a reading of the conjecture that the judges state. C1: counting strict P4 and ordinary momentum\nat ħ as part of its substance (the content judge's reason for medium confidence), or reading its gloss *organized\naround momentum* as a clause about dynamics, dark matter that interacts or is localized in momentum (a dissent the\njudge asked to argue for novelty kept on record), makes the published claim a close variant and the verdict partly\nanticipated. C4: the verdict counts the magnetic dark sectors of §5 as close variants of the separate-photon form; if\nthe placement in momentum alone is the conjecture, it is related only, the closest work then being a 2021 conference\npaper of Berglund, Hübsch and Minic that identifies a dark gauge sector on the dual coordinates as the electromagnetic\ndual of the visible one, for gauge groups only (`findings.json`, C4). C6: the verdict counts Bose condensation of dark\nmatter, the record's condensed form, as a form of C6; restricted to the founding image of several velocity flocks, it\nis related only."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "The content judge drew the distinction above between the foundations and the\n  metaparticle.",
+       "proposed": "The content judge drew the distinction above between the foundations and the\n  metaparticle, and rated its confidence medium because, if strict P4 and ordinary momentum at ħ belong to C1's\n  substance, the published claim is a close variant (§2)."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "Putting the magnetic analogs in the momentum polarization,\none for each charged particle of ours, was not found.*",
+       "proposed": "Putting the magnetic analogs in the momentum polarization,\none for each charged particle of ours, was not found. If that placement alone is the conjecture, the verdict is related\nonly (§2).*"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "velocity because similar velocities attract. That was not found.*",
+       "proposed": "velocity because similar velocities attract. That was not found. The verdict counts condensation as a form of the\nconjecture; restricted to the flocks, it would be related only (§2).*"
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "agree (confidence high,\n   high and medium).",
+       "proposed": "agree (confidence high,\n   high and medium). The medium, and a dissent the judge asked to argue for novelty kept on record, rest on readings\n   of C1 under which the verdict would be partly anticipated (note §2)."
+      }
+     ],
+     "needs_decision": "Which reading of C1, C4 and C6 counts as the conjecture is P.R.'s call. The C6 judge puts it that way: 'If P.R. restricts C6 to the founding image...'. The edits only disclose the hinges and change no verdict."
+    },
+    {
+     "finding": "F14",
+     "verdict": "confirmed",
+     "evidence": "Note :115-120 quotes 'Hübsch and Minic, October 2026' among the restatements and counts it in 'Nine papers state it'. Flag 64 (flags:609) says 'the latest in October 2026', and CLAUDE.md:187 'restated to October 2026'. sources.json dates 2610.19522 to 2026-10-14, and #1's header reads 'Version 0.1, September 2026'. c1-scope: it is later than P.R.'s September 2026 notebook; 'Do not list it as prior to his first statement.' c1-content: 'posted in October 2026 ... so it is not prior art. 2604.19418 (April 2026) is prior.' The note says 'Prior art says who said something first', yet it nowhere dates the program's statement or adds a caveat for this paper. The other eight anticipating papers (2020 to April 2026) are prior.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "Minic, October 2026, §3.2). Nine papers state it (§2's table).",
+       "proposed": "Minic, October 2026, §3.2). Nine papers state it (§2's table). The last, posted on 14 October 2026, is later than\n  P.R.'s first written statement of the conjecture (the lab notebook, v0.1, September 2026), so it is a restatement and\n  not prior art; the eight before it are prior."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "Seven more papers of the same school restate it, the latest in October 2026 (note §3).",
+       "proposed": "Seven more papers of the same school restate it (note §3); the last, posted on 14 October 2026, is later than P.R.'s\n    first written statement (the lab notebook, September 2026) and is not prior art."
+      },
+      {
+       "file": "CLAUDE.md",
+       "current": "(Minic 2020; Berglund, Hübsch and Minić 2021; restated to October 2026)",
+       "proposed": "(Minic 2020; Berglund, Hübsch and Minić 2021; restated to April 2026, and in October 2026, after the program's first\n    statement of it in September 2026)"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W8",
+     "verdict": "partly",
+     "evidence": "Summary :32 says 'the two on monopoles not at all'. C2 and C3 are 'related only', which the note calls 'not found' and limits to 'not found by these searches' (§10); C3's rests on an unread item (§4). 'Not at all' reads like the rule's 'nothing relevant'. Summary :34's 'Published since 2020 by Minic and coauthors' has no subject and follows both forms, which the note's table lists as not found. Both defects hold. W8's replacement, however, says 'the gravity-only sector ... were not found', and the record contradicts that: gravity-only mirror and twin matter are C1 'related', verified (F2). By check-wiki.py's count the summary is exactly 800 words. The edits below keep the word count unchanged and pass the gate on a copy.",
+     "edits": [
+      {
+       "file": "wiki/summary.md",
+       "current": "finds the first published in its core, three in part and the two on monopoles not at all.",
+       "proposed": "finds the first published in its core and three in part; the two on monopoles were not found."
+      },
+      {
+       "file": "wiki/summary.md",
+       "current": "with a velocity-gated self-force or as the monopoles below; each candidate is open [O]. Published since 2020 by Minic and coauthors, with a dark sector correlated with ours, not gravity-only.",
+       "proposed": "with a velocity-gated self-force or the monopoles below, each open [O]. Its core is published (Minic and coauthors, 2020), their sector correlated with ours, not gravity-only; neither form was found."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W11",
+     "verdict": "confirmed",
+     "evidence": "conjectures.md:71 links C1 to /wiki/dark-matter/conjugate-matter. That is a hub page with sections Map and Boundaries, unchanged in the diff, and no 'In the literature' section; grep finds such sections only on the pages of C2–C7. C1's literature is a run-in bullet in founding-suppositions.md §4 (:93), so conjectures.md:77 and the timeline's 2026-11-03 row are false for C1. wiki/method/literature-check.md:55 says the same thing; its C1 link reaches the audit entry, where the literature is a paragraph, not a section. The edits pass check-wiki.py on a copy, and the anchor is one conjectures.md already uses.",
+     "edits": [
+      {
+       "file": "wiki/status/conjectures.md",
+       "current": "Each conjecture's page has a section \"In the literature\", and none of their statuses changes.",
+       "proposed": "Each conjecture's page has a section \"In the literature\", except the first, whose literature is in [its audit entry](/wiki/program/founding-suppositions#4-dark-matter-is-conjugate-matter); none of their statuses changes."
+      },
+      {
+       "file": "wiki/history/timeline.md",
+       "current": "and a section \"In the literature\" on the page of each conjecture |",
+       "proposed": "and a section \"In the literature\" on the page of each conjecture but the first, whose literature is in [its audit entry](/wiki/program/founding-suppositions#4-dark-matter-is-conjugate-matter) |"
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "Each conjecture's page has a section \"In the literature\" with the details.",
+       "proposed": "The page of each conjecture linked above gives the details under \"In the literature\": a section, or for the first a paragraph of its audit entry."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W16 (founding-suppositions part)",
+     "verdict": "confirmed",
+     "evidence": "founding-suppositions.md:93 states without qualification that the school's 'dual coordinates are the momentum side of phase space'. Note §3: in the metaparticle, the model their dark-matter statements rest on, x̃ is a string-scale coordinate of a doubled phase space beside an ordinary momentum; 'The identification matches C1 in their foundations; their model doubles phase space where the program polarizes one.' The content judge ('Structurally yes, literally no') gave ordinary momentum at ħ as part of its reason for medium confidence. wiki/method/literature-check.md:53 carries the qualifier; this bullet omits it. The edit uses the wording of the note and of that page, adds no number or tag, and passes check-wiki.py on a copy.",
+     "edits": [
+      {
+       "file": "wiki/program/founding-suppositions.md",
+       "current": "in a Born-reciprocal formulation of string theory, where the dual coordinates are the momentum side of phase space (Minic 2020; Berglund, Hübsch and Minić 2021 [S]).",
+       "proposed": "in a Born-reciprocal formulation of string theory (Minic 2020; Berglund, Hübsch and Minić 2021 [S]). In the foundations of their work the dual coordinates are the momentum side of phase space; in the model their dark-matter statements rest on, the dual coordinate belongs to a doubled phase space at the string scale, beside an ordinary momentum, so their model doubles phase space where the program polarizes one."
+      }
+     ],
+     "needs_decision": ""
+    }
+   ],
+   "notes": "I edited no file in the repository. I applied all 20 edits to a scratch copy at /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/verify/v-f2-f7-f14-w8-w11-w16/repo. The edits are in edits.json in that folder and the script that applies them is apply_edits.py. Results on the copy:\n- Each 'current' excerpt matches exactly once.\n- scripts/check-wiki.py passes (328 pages).\n- verify/literature_check.py passes.\n- wiki/summary.md stays at 800 words by the gate's own count (the script is count_summary.py in the same folder).\n- I did not run the full scripts/check.sh on the copy, because the copy has no .venv. No other script reads the edited files.\n\nThe edits add no quotation from the literature and no reference line, so quotes.json and sources.json need no change. The gate checks double-quoted spans of three or more words and reference lines.\n\nHow the edits interact with other findings:\n- W8's own replacement text would bring back F2's error, so I give a different one.\n- F7's first edit adds a paragraph after the §2 confidence sentence; fixes for F3, F4 or F12 may touch the same paragraph.\n- F7's sentence on C4 names Berglund, Hübsch and Minic's 2021 conference paper (arXiv:2111.14205). If F9's fix adds it to the references, it needs a sources.json snapshot from tools/make_sources.py, or section D fails.\n\nOn F2, the polarization half of the finding is narrower than the gravity-only half. The note's 'the vacuum choosing a polarization' is the spontaneous reading, which #11 §3 claims as the program's addition. The check never searched for it, and the toy paper's abstract (papers/reciprocity-toy-models.md) says spontaneous breaking 'has been stated before'. These two sources already disagreed before this write-up, and my edit follows #11 §3 without settling it.\n\nTwo things outside the assigned findings:\n1. García-Moreno and Vento (arXiv:2610.02083, 1 October 2026) are listed in C4's closest work and in flag 65. The C4 judge says it 'appeared at about the same time as the program's statement', so the F14 caveat may apply. C4's verdict does not change, because it rests on Govaerts 2023 and Vento 2025.\n2. W11 could also be fixed by adding an 'In the literature' section to the C1 hub page. The text edits are the smaller change."
+  },
+  {
+   "results": [
+    {
+     "finding": "F3: 'The panel changed six labels' (note :97, README :30-31) and 'The panel labeled both partial' (:125); only five changes applied, 2202.06890 kept partial against c1-content's anticipates",
+     "verdict": "partly",
+     "evidence": "Panel disputes (panel/*.out.json): c1-advocate 2202.05104 anticipates→partial; c1-content 2202.06890 partial→anticipates; one each from c2-c3-c7, c4, c5 and c6. 2202.06890's verified label was already partial (r1-dark-matter verifier) and stays partial, so panel_changes.py finds 6 panel-basis entries but only 5 changed labels. Right: 'six' (note :97, README :30) and 'The panel labeled both partial' (:125) are wrong. The gate's 'labels the panel changed' check counts panel-basis entries, so it passed 6. Wrong: 'the one judge who addressed it'. c1-advocate ('A hedged association (partial)') and c1-scope ('Hedged (partial)') both list 2202.06890 among the closest works, so keeping partial agrees with two of the three C1 judges and with its verifier.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "The panel changed six labels and no verdict. Its",
+       "proposed": "The panel changed no verdict. It proposed six label changes, and five were applied; the sixth, the content judge's anticipates for Berglund, Freidel et al. 2022, was not: the paper keeps its verifier's partial, which the other two judges for C1 also gave it, and is treated like Berglund et al. 2022 (§3). The panel's"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "  theory.\" The panel labeled both partial, because neither says on its own pages that the dual is the momentum side.",
+       "proposed": "  theory.\" Both are labeled partial, because neither says on its own pages that the dual is the momentum side. The\n  label of Berglund et al. 2022 is the panel's: the judge asked to argue for novelty lowered it from anticipates. That\n  of Berglund, Freidel et al. 2022 is its verifier's, which two judges shared; the content judge proposed anticipates."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/verify/literature_check.py",
+       "current": "\"panel_changes\": 6,",
+       "proposed": "\"panel_changes\": 5,"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/verify/literature_check.py",
+       "current": "    changed = sum(1 for f in findings if f[\"basis\"].startswith(\"panel:\"))\n",
+       "proposed": "    def before_panel(f):\n        live = [v[0] for v in f[\"verified\"] if v[0] != \"reject\"]\n        return min(live or [label for label, _ in f[\"labels\"]], key=lambda r: RANK[r])\n    changed = sum(1 for f in findings if f[\"basis\"].startswith(\"panel:\") and before_panel(f) != f[\"relation\"])\n"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/verification/literature-check-script.md",
+       "current": "the six labels the verdict panel changed",
+       "proposed": "the five labels the verdict panel changed"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F4: 'a second agent checked every finding that carries a verdict' (:4-5), 'each finding' (:17); the four 'judged by their finder alone' (:95-97) and Goldhaber 'read by one agent' (:205-206) were reread by panel judges",
+     "verdict": "confirmed",
+     "evidence": "counts.py: 79 of 287 findings have no verifier verdict (64 related, 11 collision, 2 partial, 1 anticipates, 1 evidence-against). Of the 36 labeled anticipates, partial or evidence-against, exactly the note's four have none. So the header (:4-5) contradicts §2, and :17 'each finding' is false; §1 itself says the later rounds verified only the strong matches. A panel judge reread each of the four and kept its label: c1-advocate ('single-agent label stands') and c1-scope on 2305.12593; c5 on Gasperini-Veneziano 1993 ('which I confirm'); c6 on Riotto-Tkachev ('confirmed on a second reading'). c2-c3-c7 re-read Goldhaber 'by WebFetch and both quotes are confirmed', so 'read by one agent' (:205) is wrong.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "in four workflows searched the physics literature for seven of Paul's conjectures, a second agent checked every\nfinding that carries a verdict, and a panel of seven judges reread the evidence for each verdict. Every quotation",
+       "proposed": "in four workflows searched the physics literature for seven of Paul's conjectures, a second agent checked all but\nfour of the findings that carry a verdict, and a panel of seven judges reread the evidence for each verdict, those\nfour included. Every quotation"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "four rounds, a second agent checked each finding, and code found every quotation again in its source. A conjecture",
+       "proposed": "four rounds, a second agent checked all but four of the findings that place a paper close to a conjecture or\nagainst it, a panel reread those four, and code found every quotation in this note again in its source. A conjecture"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "Four findings that carry a verdict were\njudged by their finder alone",
+       "proposed": "Four findings that carry a verdict had no\nverifier and were labeled by their finder alone"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "Riotto and Tkachev 2000 for C6); no verdict depends on them.",
+       "proposed": "Riotto and Tkachev 2000 for C6); a panel judge reread each and kept its label, and no verdict depends on them."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "  cannot be spread out, since fractions of it would violate the quantization condition. The letter was read by one\n  agent through a web fetch and not checked by code. It bears on hiding by spreading in position; how it bears on",
+       "proposed": "  cannot be spread out, since fractions of it would violate the quantization condition. The letter was read through a\n  web fetch by the agent that found it and again by a panel judge, who confirmed both quotations; code could not\n  check it. It bears on hiding by spreading in position; how it bears on"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/verification/literature-check-script.md",
+       "current": "the findings that carry a verdict on one agent's judgment must be the four the note names",
+       "proposed": "the findings that carry a verdict without a verifier's check must be the four the note names"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F5: :61-64 claims every quotation in a verdict-carrying finding was found by code and every identifier resolved; :360 'Two quotations'",
+     "verdict": "confirmed",
+     "evidence": "counts.py over recheck.json and findings.json: the 36 findings labeled anticipates, partial or evidence-against hold 109 quotations. Code found 103; 6 were found only by WebFetch: 4 from Henry-Couannier, PoS EDSU2018 047 (C5 partial, a PoS PDF) and 2 from Goldhaber 2017 (C3 evidence-against, a physicstoday.aip.org page, so 'only in PDFs' is also wrong for it). 8 of 287 identifiers did not resolve: 7 related and 1 collision, none among those 36. recheck.out flags 23 findings: 8 citation years, 7 resolved findings with an unfound quotation, 8 unresolved. If 'carries a verdict' meant the top relation, five more quotations, in related findings for C2, C3 and C7, were never found. Hence the proposed definition.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "- Every quotation in a finding that carries a verdict was found again in the source's abstract or full text by\n  code (`review/literature-check/recheck.out`), and every identifier was resolved and its title, first author and\n  year compared with the citation. The references below are built from INSPIRE, Crossref or arXiv metadata",
+       "proposed": "- Every quotation in a finding that carries a verdict (one labeled anticipates, partial or evidence-against) was\n  found again in the source's abstract or full text by code (`review/literature-check/recheck.out`), except six\n  from two sources the code could not read, which agents read through a web fetch (Henry-Couannier 2018, four;\n  Goldhaber 2017, two; §10). Every identifier was looked up and, where it resolved, its title, first author and\n  year compared with the citation; eight of the 287 did not resolve, none of them in a finding that carries a\n  verdict. In all the code check flagged 23 of the 287 findings, for an unresolved identifier, a quotation not\n  found or a citation year missing or different from the record's. The references below are built from INSPIRE,\n  Crossref or arXiv metadata"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "- Two quotations exist only in PDFs and were read through a web fetch (Henry-Couannier 2018; Goldhaber 2017). The note\n  paraphrases them and names how they were read.",
+       "proposed": "- Six quotations in two findings that carry a verdict come from sources the code checks could not read, a PDF\n  (Henry-Couannier 2018, four) and a letter on the Physics Today website (Goldhaber 2017, two); agents read them\n  through a web fetch. The note paraphrases them and names how they were read."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/review/literature-check/README.md",
+       "current": " `tools/recheck.py` resolved every identifier, compared\n   its title, first author and year with the citation, and found every quotation in a finding that carries a\n   verdict again in the source's abstract or full text (`recheck.json`, `recheck.out`).",
+       "proposed": "\n   `tools/recheck.py` looked up every identifier and compared the title, first author and year of each that resolved\n   with the citation (eight of 287 did not resolve, none in a finding that carries a verdict). It found every\n   quotation in a finding that carries a verdict again in the source's abstract or full text, except six from two\n   sources it could not read (Henry-Couannier 2018 and Goldhaber 2017), which agents read through a web fetch. It\n   flagged 23 of the 287 findings (`recheck.json`, `recheck.out`)."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/verify/literature_check.py",
+       "current": "\"prereg_hits\": 4}",
+       "proposed": "\"prereg_hits\": 4, \"unresolved\": 8, \"webfetch_only\": 6, \"recheck_problems\": 23}"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/verify/literature_check.py",
+       "current": "     label changes, and the agents and tokens the workflow tool reported.",
+       "proposed": "     label changes, the code check's unresolved identifiers, flagged findings and quotations read only by web\n     fetch, and the agents and tokens the workflow tool reported."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/verify/literature_check.py",
+       "current": "    agents = tokens = 0\n",
+       "proposed": "    recheck = load(\"recheck.json\")\n    carries = {(f[\"conjecture\"], i.lower()) for f in findings\n               if f[\"relation\"] in (\"anticipates\", \"partial\", \"evidence-against\") for i in f[\"ids\"]}\n\n    def carries_verdict(r):\n        return (r[\"conjecture\"], re.sub(r\"^arxiv:\", \"\", r[\"id\"], flags=re.I).lower()) in carries\n    missed = [(r[\"id\"], q) for r in recheck if carries_verdict(r) for q in r[\"quotes\"]\n              if not q[\"verdict\"].startswith(\"FOUND\")]\n    web = [i for i, q in missed if \"webfetch\" in q[\"agent_check\"].lower()]\n    check(\"quotations in findings that carry a verdict, read only by web fetch\",\n          len(missed) == len(web) == EXPECT[\"webfetch_only\"], f\"{len(web)} from {sorted(set(web))}\")\n    unresolved = [r for r in recheck if not r.get(\"resolved\")]\n    check(\"identifiers that did not resolve, none in a finding that carries a verdict\",\n          len(unresolved) == EXPECT[\"unresolved\"] and not any(carries_verdict(r) for r in unresolved),\n          f\"{len(unresolved)}\")\n    flagged = sum(1 for r in recheck if not r[\"ok\"])\n    check(\"findings the code check flagged\", flagged == EXPECT[\"recheck_problems\"], f\"{flagged} of {len(recheck)}\")\n    agents = tokens = 0\n"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/verification/literature-check-script.md",
+       "current": ", and the agents and tokens the workflow tool reported.",
+       "proposed": ", the code check's unresolved identifiers, flagged findings and quotations read only by web fetch, and the agents and tokens the workflow tool reported."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/literature-check.md",
+       "current": "- Two passages exist only in PDF files, which the code checks cannot read; the note paraphrases them.",
+       "proposed": "- The passages of two sources, Henry-Couannier 2018 and Goldhaber 2017, were read only through a web fetch, since the code checks cannot read them; the note paraphrases them."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/verification/literature-check-script.md",
+       "current": "Two passages exist only in PDF files, which the code cannot read, and the note paraphrases them instead of quoting.",
+       "proposed": "The passages of two sources, Henry-Couannier 2018 and Goldhaber 2017, were read only through a web fetch, since the code cannot read them, and the note paraphrases them instead of quoting."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F6: 'written before any search ran' (:60, :373); the pre-registration says before any search agent was launched, after scouting",
+     "verdict": "confirmed",
+     "evidence": "preregistration.md: 'Written 2026-11-02 by the main session, before any search agent was launched' and 'Disclosure: written after scouting. Testing the search tools surfaced three papers whose abstracts I read'. Searches therefore ran before it was written, so 'before any search ran' (note :60, :373) is false. The same phrase is copied into wiki/method/literature-check.md:39 and wiki/method/verification/literature-check-script.md:28. README:39-40 states it correctly.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "The rule was fixed in the pre-registration before any search ran.",
+       "proposed": "The rule was fixed in the pre-registration before any search agent was launched."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "**Pre-registration, scored** (`review/literature-check/preregistration.md`, written before any search ran and kept",
+       "proposed": "**Pre-registration, scored** (`review/literature-check/preregistration.md`, written before any search agent was\nlaunched, after a test of the search tools had shown three papers, which it discloses, and kept"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/literature-check.md",
+       "current": "a rule written down before any search ran, together with the expected verdicts",
+       "proposed": "a rule written down before the search agents were launched, together with the expected verdicts"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/verification/literature-check-script.md",
+       "current": "The verdicts predicted before any search ran are scored",
+       "proposed": "The verdicts predicted before the search agents were launched are scored"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F17: §1 (:56-58) omits consolidate.py rule 4 (harmonization), which lowered two verified C5 partials to related",
+     "verdict": "confirmed",
+     "evidence": "consolidate.py rule 4 (HARMONIZE) lowers (C5, 2111.05659) and (C5, 2610.19522) to related as restatements of Berglund-Hübsch-Minić 2019. In findings.json both have basis 'harmonized' and a verifier verdict 'partial' (r4-triage). Note §1 (:56-57) and README (:29-31) list only rules 1-3 and the panel. The rule changes §2's C5 row (without it: partial 8, related 59) but not the verdict. The README edit below also fixes F3's 'six', because the two excerpts would overlap.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "- A verifier's label replaces the finder's; where verifiers disagreed the weaker label was kept; the panel's\n  changes apply last (`review/literature-check/tools/consolidate.py`). The result is 287 findings",
+       "proposed": "- A verifier's label replaces the finder's; where verifiers disagreed the weaker label was kept; a restatement is\n  labeled no closer than the paper it restates, which lowered two findings for C5 from a verifier's partial to\n  related (Addazi et al. 2022 and Hübsch and Minic, October 2026, which restate Berglund, Hübsch and Minić 2019);\n  the panel's changes apply last (`review/literature-check/tools/consolidate.py`). The result is 287 findings"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/review/literature-check/README.md",
+       "current": "and the panel's six\n   label changes apply last (`findings.json`, 287 findings).",
+       "proposed": "a restatement is\n   labeled no closer than its source (two findings for C5, lowered from partial to related), and the panel's label\n   changes apply last: five of the six it proposed. The content judge's anticipates for 2202.06890 was not\n   applied; the paper keeps its verifier's partial, which two other judges also gave it (`findings.json`, 287\n   findings)."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F19: cross-references: note Sources cites diameter note §8.2; CLAUDE.md points to note §9-§10 for the observation question; README 'three abstracts'; header 'the status #11 gives it' though C7 is not in #11",
+     "verdict": "confirmed",
+     "evidence": "(1) The diameter note cites BHM 2023 [S] in §4 (line 87) and §7 (lines 194, 196). Its §8.2 is the X-range bound and does not cite it, and the note's own §3 says §7. (2) The note's §9-§10 do not contain 'whether observation can tell...'; the coupling difference is in §3, 'What differs'. (3) preregistration.md lists Castro Perelman 2019 as 'title only' (the README sentence is on line 40, not 41). (4) #11 does not state C7 (no grep hit for relative velocity, long-range or gated attraction); the note's §9 says 'C7 stays his conjecture outside the record'.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "`papers/phase-space-diameter.md`\n  §8.2.",
+       "proposed": "`papers/phase-space-diameter.md`\n  §4, §7."
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/CLAUDE.md",
+       "current": "- Open from the literature check, not queued (`notes/literature-check.md` §9–§10):",
+       "proposed": "- Open from the literature check, not queued (`notes/literature-check.md` §3, §9–§10):"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/review/literature-check/README.md",
+       "current": "folder an agent used until the check was done. It discloses the three abstracts read while testing the tools. Its",
+       "proposed": "folder an agent used until the check was done. It discloses the three papers seen while testing the tools, two by\ntheir abstracts and one by its title. Its"
+      },
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/notes/literature-check.md",
+       "current": "`review/literature-check/`. Finding prior art changes no claim's status: each conjecture keeps the status #11 gives\nit. Six suspected omissions in #11 are proposed to Paul as flags 64–69 in `review/wiki-build-flags.md`; #11 is",
+       "proposed": "`review/literature-check/`. Finding prior art changes no claim's status: each conjecture keeps its status, the one\n#11 gives C1–C6 and, for C7, that of P.R.'s conjecture outside the record (§9). Six suspected omissions in #11 are\nproposed to Paul as flags 64–69 in `review/wiki-build-flags.md`; #11 is"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W6: wiki/method/literature-check.md:14 'a second agent checked each finding'",
+     "verdict": "confirmed",
+     "evidence": "The page's italic repeats the note's: 79 of 287 findings have no verifier verdict (counts.py). The note's §2 names four findings that carry a verdict and were judged without a verifier, and its §1 says rounds 2-3 'verifiers checked the strong matches'. A panel judge reread each of those four. The proposed wording avoids 'carry a verdict', which the wiki page does not define and which is ambiguous (9 of the 80 findings at their conjecture's top relation have one agent's label). It also limits 'every quotation' to the note's own quotations, all 54 of which quotes.json records as found by code.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/literature-check.md",
+       "current": "Agents searched in four rounds, a second agent checked each finding, and code found every quotation again in its source.",
+       "proposed": "Agents searched in four rounds, a second agent checked all but four of the findings that place a paper close to a conjecture or against it, a panel of judges reread those four with the rest of the evidence, and code found every quotation in the note again in its source."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W14: wiki/method/literature-check.md:16 adds a [V] the note does not carry, attached to 'verdicts'",
+     "verdict": "confirmed",
+     "evidence": "The note carries no [V], [D], [T] or [P] tag (grep: only [O] at :334, besides [S]). wiki/CLAUDE.md: 'Tags carry over exactly... A page never upgrades a tag.' The other script pages justify [V] by their note's own [V] tags; this one cannot. verify/literature_check.py's docstring says 'It does not test the agents' judgments of how close a paper comes to a conjecture', so a [V] beside 'verdicts' overstates. The machine check itself is real, and the proposed text keeps it, untagged. The wiki gate passes with the edit.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/wiki/method/literature-check.md",
+       "current": "and its quotations, citations, verdicts and counts are machine-checked against the stored record [V] by [the literature-check script](/wiki/method/verification/literature-check-script).",
+       "proposed": "and [the literature-check script](/wiki/method/verification/literature-check-script) checks its quotations, citations, verdicts and counts against the stored record on every run of the gate; it does not test the agents' judgments behind the verdicts."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W15: literature-check-script.md:35 'The wrong coauthor is the error one agent made during the check' is not in the README or the note",
+     "verdict": "partly",
+     "evidence": "Right: neither the README (:55-56) nor the note names the planted coauthor, and the test left no file (work/literature-check/writeup/gatetest is gone), so the wiki sentence has no source. But the sentence is true. The main session's 'Plant five errors' command (transcript ffa896d4-bb41-4d95-8eb7-c38982df6f8d.jsonl) replaced 'T. Takeuchi' with 'C.-H. Tze' in the 2011.08852 reference. That is the g1 searcher's error: findings.json's citation for 2011.08852 names C.-H. Tze, and c1-scope corrected it. So the fix is to record it in the README, which the page cites, and keep the wiki sentence.",
+     "edits": [
+      {
+       "file": "/home/paul/git/reinholdtsen/conjugate-matter/review/literature-check/README.md",
+       "current": "- A test of the gate script (2026-11-03): run against copies of the note with five planted errors (a changed\n  quotation, a wrong coauthor, a wrong verdict, a wrong count of findings, a wrong year), it failed on each.",
+       "proposed": "- A test of the gate script (2026-11-03): run against copies of the note with five planted errors (a changed\n  quotation; a wrong coauthor, C.-H. Tze for T. Takeuchi in Jejjala et al. 2022, arXiv:2011.08852, the error the\n  round-1 searcher for conjugate matter had made; a wrong verdict; a wrong count of findings; a wrong year), it\n  failed on each."
+      }
+     ],
+     "needs_decision": ""
+    }
+   ],
+   "notes": "I only read the record and changed no repository file; git status matches the start. My scratch folder is /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/verify/f3-f4-f5-f6-f17-f19-w6-w14-w15/.\n\nCode for F4 and F5 (counts.py, output in counts.out):\n- Single-agent means a finding with an empty 'verified' list. There are 79 of 287: related 64, collision 11, partial 2, anticipates 1, evidence-against 1.\n- 'Carries a verdict' was read as relation in {anticipates, partial, evidence-against}, which is the gate's own definition. That gives 36 findings, 4 of them single-agent: the note's four. Read instead as the findings at their conjecture's top relation, it gives 80 findings, 9 single-agent.\n- recheck.json rows are matched to findings by (conjecture, id with 'arXiv:' stripped). A quotation counts as found by code when its verdict starts with FOUND. It counts as web fetch only when it was not found and agent_check contains 'webfetch'.\n- Results for the 36: 109 quotations, 103 found by code, 6 by web fetch only (4 from doi:10.22323/1.335.0047, 2 from doi:10.1063/PT.3.3571).\n- Results for all 287: 565 quotations, 519 found by code, 31 by web fetch only, 15 never found.\n- Unresolved identifiers: 8 (5 zenodo, 3 preprints.org). Their labels are 7 related (C2, C3, C4, three for C5, C7) and 1 collision (C1).\n- recheck.out flags 23 findings: 8 citation years, 7 with an unfound quotation, 5 unresolved with unfound quotations, 3 unresolved only.\n- panel_changes.py finds that 5 of the 6 panel entries change a label. It also lists the 2 harmonized C5 findings.\n- find_planted.py read the main session's transcript to settle W15.\n\nTesting:\n- edits.py (and edits.json) holds all 33 edits. apply_and_test.py first checks that each excerpt occurs exactly once in its repository file.\n- It then applies all edits to a temporary copy and runs the edited gate script on it: exit 0, 400 PASS, 0 FAIL. scripts/check-wiki.py also passes: wiki OK, 328 pages.\n- No two excerpts overlap, so the edits can be applied in any order.\n- The copy is deleted after each run because it held the pre-registration. Pass --keep to inspect it.\n\nAfter applying:\n- Rebuild the recorded output on literature-check-script.md with work/literature-check/writeup/rebuild_output.py. The PASS count goes from 397 to 400, and section B from 7 to 10.\n- Lines 104-106 of the note get long after the F3 and F4 edits; rewrap them if wanted.\n- If the round-5 reruns add findings, rerun counts.py and update the note's numbers and the new EXPECT values (unresolved 8, webfetch_only 6, recheck_problems 23). The new checks fail if they drift.\n- F17's README edit also carries F3's README fix.\n\nOutside my assignment:\n- 2202.06890 is also a Snowmass contribution, but the note calls only 2202.05104 'a Snowmass paper'. My edits name the two papers by their authors instead.\n- Both quotations of Khademi and Nasiri 2008 (doi:10.1088/1742-6596/128/1/012016), which note §4 paraphrases, were NOT FOUND by code.\n- literature-check-script.md's frontmatter 'provenance: [V]' has the same problem as W14.\n- F5's error likely came from STATE.md's 'every quote ... FOUND': recheck.py marks quotations read only by web fetch as ok."
+  },
+  {
+   "results": [
+    {
+     "finding": "F9: note §5 and flag 67 omit Berglund, Hübsch and Minic 2021 (arXiv:2111.14205) and the further works the C4 judge lists (FLM 2014's dyon pairing, Lozano 1995, Harvey-Moore-Strominger 1995, Kapustin-Witten 2007); flag 67 cites only two remarks.",
+     "verdict": "confirmed",
+     "evidence": "panel/c4.out.json lists 2111.14205 among C4's closest: 'the only work found with the program's conjugate-coordinate structure', 'the closest published form of #14 v2's S-dual image identification'. Its notes add FLM 2014's DSZ dyon pairing, Lozano 1995, Harvey-Moore-Strominger 1995, Galakhov-Mironov-Morozov 2014 and Kapustin-Witten 2007 as reaching parts of §15's unification and bearing on round 2's 'matrix coincidence' objection. All are verified 'related' findings, and the g3 verifier also names BHM beside Gibbons-Herdeiro. The note, flag 67, CLAUDE.md and the README mention none of them. lit.py: the E8 'electro-magnetic dual' passage is in 2111.14205 and repeated in 2212.06086 §6, which the record already cites. F9 leaves out only Galakhov-Mironov-Morozov.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "fine-structure constant, from reciprocity (Born 1940). #11 §11.3 draws the bridge as its own observation, \"the third\nappearance of one matrix in this program\", and §15 counts the unification among the program's products (flag 67).\n",
+       "proposed": "fine-structure constant, from reciprocity (Born 1940). Further published work reaches parts of the bridge:\n- Berglund, Hübsch and Minic 2021 read the heterotic string's second E8, built on the dual coordinates x̃, as the\n  Langlands dual of the first, which they gloss as its electric–magnetic dual, and call the x̃-dependent gauge fields\n  dark. The claim concerns gauge groups only, with no charged matter, magnetic charges or couplings, and E8 is its\n  own Langlands dual, so the two are \"physically indistinguishable\". It is the only work found with the program's\n  conjugate-coordinate structure, and the closest published form of #14 v2's identification of the\n  momentum-polarized sector as \"the S-dual image of the electric sector\" (#11 §11.4). Their 2023 review, which the\n  record cites for another result (§3), repeats the passage.\n- Freidel, Leigh and Minic 2014, #11's [3]†: once vertex operators carry both momentum and dual momentum, the\n  worldsheet's electrostatic picture becomes one of electric and magnetic charges, dyons, and the\n  Dirac–Schwinger–Zwanziger quantization of their charges is the diffeomorphism constraint.\n- S-duality as a canonical transformation of a gauge theory's phase space (Lozano 1995), as the momentum–winding\n  T-duality (Harvey, Moore and Strominger 1995; Kapustin and Witten 2007), and, perturbatively, as a Fourier\n  transform (Galakhov, Mironov and Morozov 2014).\n\nThe panel judge for C4 reads these works as reaching parts of the unification #11 §15 counts among the program's\nproducts, and as bearing on round 2's objection that a shared matrix is not a shared physics (#11 §11.4). #11 §11.3\ndraws the bridge as its own observation, \"the third appearance of one matrix in this program\" (flag 67).\n"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- P. Berglund, T. Hübsch, D. Minic, \"String Theory, the Dark Sector, and the Hierarchy Problem\", LHEP 2021, 186 (2021), arXiv:2010.15610\n",
+       "proposed": "- P. Berglund, T. Hübsch, D. Minic, \"String Theory, the Dark Sector, and the Hierarchy Problem\", LHEP 2021, 186 (2021), arXiv:2010.15610\n- P. Berglund, T. Hübsch, D. Minic, \"Mirror Symmetry, Born Geometry and String Theory\" (2021), arXiv:2111.14205\n"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- J. García-Moreno, V. Vento, \"Electron and monopole properties in a dark matter model\" (2026), arXiv:2610.02083\n",
+       "proposed": "- D. Galakhov, A. Mironov, A. Morozov, \"S-Duality and Modular Transformation as a non-perturbative deformation of the ordinary pq-duality\", JHEP 06, 050 (2014), arXiv:1311.7069\n- J. García-Moreno, V. Vento, \"Electron and monopole properties in a dark matter model\" (2026), arXiv:2610.02083\n"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- J. A. Harvey, S. Jensen, \"Worldsheet instanton corrections to the Kaluza-Klein monopole\", JHEP 10, 028 (2005), arXiv:hep-th/0507204\n",
+       "proposed": "- J. A. Harvey, S. Jensen, \"Worldsheet instanton corrections to the Kaluza-Klein monopole\", JHEP 10, 028 (2005), arXiv:hep-th/0507204\n- J. A. Harvey, G. W. Moore, A. Strominger, \"Reducing S duality to T duality\", Phys. Rev. D 52, 7161 (1995), arXiv:hep-th/9501022\n"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- M. Kesden, M. Kamionkowski, \"Galilean Equivalence for Galactic Dark Matter\"",
+       "proposed": "- A. Kapustin, E. Witten, \"Electric-Magnetic Duality And The Geometric Langlands Program\", Commun. Num. Theor. Phys. 1, 1 (2007), arXiv:hep-th/0604151\n- M. Kesden, M. Kamionkowski, \"Galilean Equivalence for Galactic Dark Matter\""
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- D. Lüst, E. Malek, R. J. Szabo, \"Non-geometric Kaluza-Klein monopoles",
+       "proposed": "- Y. Lozano, \"S duality in gauge theories as a canonical transformation\", Phys. Lett. B 364, 19 (1995), arXiv:hep-th/9508021\n- D. Lüst, E. Malek, R. J. Szabo, \"Non-geometric Kaluza-Klein monopoles"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+       "current": "\"an example of Born-reciprocity\" [S]. The conjecture itself,",
+       "proposed": "\"an example of Born-reciprocity\" [S]. Berglund, Hübsch and Minic 2021 read the gauge group built on the dual coordinates as the electric–magnetic dual of the visible one, for gauge groups only, the two being \"physically indistinguishable\"; Freidel, Leigh and Minic 2014, #11's [3]†, tie the Dirac–Schwinger–Zwanziger pairing of worldsheet dyons, which carry momentum and dual momentum, to the diffeomorphism constraint; and other work casts S-duality as a canonical transformation, as T-duality or as a Fourier transform (Lozano 1995; Harvey, Moore and Strominger 1995; Kapustin and Witten 2007; Galakhov, Mironov and Morozov 2014) [S]. The conjecture itself,"
+      },
+      {
+       "file": "wiki/references.md",
+       "current": "J. G. Russo, P. K. Townsend, JHEP 07, 048 (2025), arXiv:2504.01467; M. Born,",
+       "proposed": "J. G. Russo, P. K. Townsend, JHEP 07, 048 (2025), arXiv:2504.01467; P. Berglund, T. Hübsch, D. Minic, arXiv:2111.14205 (2021); Y. Lozano, Phys. Lett. B 364, 19 (1995), arXiv:hep-th/9508021; J. A. Harvey, G. W. Moore, A. Strominger, Phys. Rev. D 52, 7161 (1995), arXiv:hep-th/9501022; A. Kapustin, E. Witten, Commun. Num. Theor. Phys. 1, 1 (2007), arXiv:hep-th/0604151; D. Galakhov, A. Mironov, A. Morozov, JHEP 06, 050 (2014), arXiv:1311.7069; M. Born,"
+      },
+      {
+       "file": "wiki/references.md",
+       "current": "  - Cited for: dark sectors of magnetically charged matter; electric–magnetic duality as a case of Born reciprocity, as a remark; the magnetic family (note §5; flags 65, 67).",
+       "proposed": "  - Cited for: dark sectors of magnetically charged matter; electric–magnetic duality as a case of Born reciprocity, as a remark, and S-duality as a canonical transformation, T-duality or Fourier transform; the magnetic family (note §5; flags 65, 67)."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "    found. Suggested: cite both [S] in §11.3.\n",
+       "proposed": "    found. Related published work: Berglund, Hübsch and Minic (arXiv:2111.14205, 2021; repeated in Int. J. Mod.\n    Phys. D 32, 2330002 (2023), which `papers/phase-space-diameter.md` cites) read the gauge group built on the dual\n    coordinates x̃ as the Langlands, electric–magnetic, dual of the visible one, for gauge groups only, the closest\n    published form of #14 v2's S-dual identification (§11.4); Freidel, Leigh and Minic 2014, #11's [3]†, equate the\n    Dirac–Schwinger–Zwanziger pairing of worldsheet dyons, which carry momentum and dual momentum, with the\n    diffeomorphism constraint; and Lozano, Phys. Lett. B 364, 19 (1995), Harvey, Moore and Strominger, Phys. Rev. D\n    52, 7161 (1995), Kapustin and Witten, Commun. Num. Theor. Phys. 1, 1 (2007), and Galakhov, Mironov and Morozov,\n    JHEP 06 (2014) 050, cast S-duality as a canonical transformation, as T-duality or as a Fourier transform, which\n    bears on round 2's objection that a shared matrix is not a shared physics (§11.4). Suggested: cite them [S] in\n    §11.3, and say in §15 (\"one structural unification\") and App. A item 11 (\"the program-native addition\") which\n    parts of the identification are published.\n"
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "   **Audit (2026-11-02): related to the magnetic mirror, found by the round-1 searcher and confirmed by its\n   verifier.**",
+       "proposed": "   **Audit (2026-11-02): related to the magnetic mirror, found by the round-1 searcher and confirmed by its\n   verifier; the panel judge for C4 lists the further works as reaching parts of §15's unification.**"
+      }
+     ],
+     "needs_decision": "Whether #11 §11.3 cites these works, and whether §15's 'one structural unification' and App. A item 11's 'program-native addition' change, is P.R.'s ruling on flag 67. The edits only add evidence and a suggestion to the pending flag. The five new references need sources.json snapshots (see notes)."
+    },
+    {
+     "finding": "F10: Khademi 2009's search-engine summary (phase-space uncertainty) is omitted and the item is paired with the 2008 paper only by the panel's inference; the OpenAlex queries the quota blocked (oa07-1..4, the C4 counterpart query, three C6/C7 queries) and the rerun appear neither in §10 nor in CLAUDE.md's open list; 'stands until' should be 'is provisional until'.",
+     "verdict": "confirmed",
+     "evidence": "round1/g2-monopoles.verify.json, C3 assessment: 'A search engine's summary says it invokes uncertainty in phase-space quantum mechanics, the one lead that might bear on C3's mechanism; it should be obtained before the statement is called final.' The note omits this. The 2008 paper's bearing on the talk is the C3 judge's 'inference only'. round3/oa-c2-c3-c4.json lists unrun queries oa07-1..4 plus C2/C4 ones, including '(magnetic counterpart|partner|analog) AND (every|each) AND charged particle'. oa-c1-c6-c7.json: three did not run, 'A rerun after the reset would close that gap'. oa-c5 and lineages also have unrun queries. Judge c2-c3-c7, note (4): '...never run after the rate limit. Hence medium confidence for C3.' Note §10 and CLAUDE.md omit all of this.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "  University's open-access repository, which refuses access from here; OpenAlex holds its title and no abstract.\n  Khademi and Nasiri's 2008 paper obtains electric-charge quantization from a gauge symmetry in phase space, without\n  monopoles. C3's \"not found\" stands until the 2009 item is read.",
+       "proposed": "  University's open-access repository, which refuses access from here; OpenAlex holds its title and no abstract. A\n  search engine's summary, seen by the round-1 verifier and not checked, says it invokes uncertainty in phase-space\n  quantum mechanics, which might bear on C3's mechanism. Khademi and Nasiri's 2008 paper obtains electric-charge\n  quantization from a gauge symmetry in phase space, without monopoles; that the 2009 item argues the same way is\n  the panel judge's inference. C3's \"not found\" is provisional until the 2009 item is read."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- OpenAlex's free daily quota ran out during round 3, so the sweeps finished on Crossref, DataCite, Zenodo, HAL and\n  the web. No API key was requested.",
+       "proposed": "- OpenAlex's free daily quota ran out during round 3, so the sweeps finished on Crossref, DataCite, Zenodo, HAL and\n  the web, and the OpenAlex queries planned after that point did not run: among them four on explanations of the\n  null result (C3), others on monopoles in momentum space, on electric–magnetic duality with position and momentum\n  and on a magnetic counterpart for each charged particle (C2, C4), three on velocity alignment and velocity streams\n  (C6, C7), and some for C5 and the older lineages (`review/literature-check/round3/`). The panel judge for C3 rated\n  its confidence medium for this reason and for the unread Khademi item. No API key was requested; the queries can\n  be run again once the quota resets."
+      },
+      {
+       "file": "CLAUDE.md",
+       "current": "One item for the explanation is unread (Khademi 2009, in a repository that refuses\n    access);",
+       "proposed": "One item for the explanation is unread (Khademi 2009, in a repository that refuses\n    access), and OpenAlex queries planned for round 3 did not run once its quota ran out;"
+      },
+      {
+       "file": "CLAUDE.md",
+       "current": "  - Khademi 2009, \"Why magnetic monopoles are not seen\" (handle 20.500.12415/6128), unread; literature not in English,\n    not searched; Castro Perelman's output, read in part;",
+       "proposed": "  - Khademi 2009, \"Why magnetic monopoles are not seen\" (handle 20.500.12415/6128), unread; the OpenAlex queries that\n    its quota stopped in round 3, among them four on explanations of the monopole null result, not run\n    (`review/literature-check/round3/`); literature not in English, not searched; Castro Perelman's output, read in\n    part;"
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "- OpenAlex's free daily quota ran out during round 3, so the sweeps finished on the other indexes and the web.",
+       "proposed": "- OpenAlex's free daily quota ran out during round 3, so the sweeps finished on the other indexes and the web, and the OpenAlex queries planned after that point did not run, among them four on explanations of the monopole null result."
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "- One item bearing on C3 is unread: Khademi 2009, \"Why magnetic monopoles are not seen\", held in a repository that refuses access.",
+       "proposed": "- One item bearing on C3 is unread: Khademi 2009, \"Why magnetic monopoles are not seen\", held in a repository that refuses access, so C3's verdict is provisional until it is read."
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "Khademi 2009, \"Why magnetic monopoles are not seen\"; literature not in English; and the output of Carlos Castro Perelman, read in part.",
+       "proposed": "Khademi 2009, \"Why magnetic monopoles are not seen\"; the OpenAlex queries that its quota stopped in round 3, among them four on explanations of the monopole null result; literature not in English; and the output of Carlos Castro Perelman, read in part."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F11: note :179 calls Bérard and Mohrbach 2004 'A collision, not the conjecture', but findings.json labels it related (verified) for C2 and C4 and the C2 judge calls it the closest single object.",
+     "verdict": "confirmed",
+     "evidence": "findings.json: hep-th/0310167 is 'related', basis 'verified', for C2 (g2 verifier) and C4 (g3 verifier). No agent labeled it collision. panel/c2-c3-c7.out.json, C2 closest: 'Closest single object: ... a dual Dirac monopole in momentum space ... a vacuum field with its singularity at p = 0, realized as Berry curvature; not matter'. Note §1 defines collision as 'the same words with another meaning', so 'A collision, not the conjecture' contradicts the record's label. The wiki does not repeat the error.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "  \"right geometry, different flux\". A collision, not the conjecture.",
+       "proposed": "  \"right geometry, different flux\". Related, not the conjecture: the panel judge for C2 calls it the closest single\n  object found, a field of the vacuum with its singularity at p = 0 that acts on probes, not magnetically charged\n  matter."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F15: the note's table lists Barut 1972 as 'a superselection rule', but the abstract says there is no superselection rule; the hiding comes from the ±g superposition, which the body states correctly.",
+     "verdict": "confirmed",
+     "evidence": "sources.json recid:75874, Barut's abstract: '(b) in a chiral invariant and parity invariant theory there is no superselection rule for magnetic charges, (c) the states which are superpositions of positive and negative magnetic charges ... cannot be split in electromagnetic interactions by energy measurements.' The hiding comes from the ±g superposition, which the absence of a superselection rule allows; the rule appears only in the title. Note §4 states this correctly. The same slip is copied into wiki/method/literature-check.md:47 and wiki/references.md:956, so the fix covers all three.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "other hiding places: a second time dimension, neutral cores, a superselection rule, a dark sector",
+       "proposed": "other hiding places: a second time dimension, neutral cores, superpositions of +g and −g, a dark sector"
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "other accounts of the null result: a second time dimension, neutral cores, a superselection rule, a dark sector",
+       "proposed": "other accounts of the null result: a second time dimension, neutral cores, superpositions of +g and −g, a dark sector"
+      },
+      {
+       "file": "wiki/references.md",
+       "current": "in a neutral core, in a superselection rule or in a dark sector",
+       "proposed": "in a neutral core, in superpositions of +g and −g or in a dark sector"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F20 (Govaerts wording part): note :226 gives Govaerts's magnetic matter 'a photon of its own', but his paper uses two potentials of one dual electrodynamics.",
+     "verdict": "confirmed",
+     "evidence": "lit.py 2302.03526: Govaerts builds the field strengths from 'two independent 4-vector fields A_μ and C_μ, namely a doubled set of 4-vector gauge potentials' inside one SO(2) dual electrodynamics, and names no second photon. The g3 verifier calls it 'a close variant of the shared-photon form' ('shared-photon-like', with Vento 'separate-photon-like'). The C4 judge: 'In wording it is the shared-photon form ... In physics it is closer to the separate-photon form' (his force law, eq. 69). So 'a photon of its own' fits Vento, not Govaerts. The same wording appears in flag 65, wiki/method/literature-check.md:48 and magnetic-identification.md:96.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "- Each is a dark sector of magnetically charged matter with a photon of its own, the separate-photon form of #11\n  §11.4 without its placement in momentum, and none pairs each charged particle of ours with an analog.",
+       "proposed": "- Vento's dark sector, extended by García-Moreno and Vento, is magnetically charged matter with a photon of its own,\n  the separate-photon form of #11 §11.4 without its placement in momentum. Govaerts's is the magnetic half of one\n  dual electrodynamics, written with two gauge potentials: the shared-photon form in its wording, though under the\n  force law he derives from his action electric charges feel only the fields of electric charges and magnetic\n  charges only those of magnetic charges, unless one new coupling opens a portal between the two, so the panel\n  judge for C4 finds it closer in physics to the separate-photon form. None places the magnetic matter in momentum,\n  and none pairs each charged particle of ours with an analog."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "    - §11.4: dark sectors of magnetically charged matter with a photon of their own, without the momentum\n      placement. Govaerts, Eur. Phys. J. C 83, 158 (2023) (arXiv:2302.03526), \"a dark parallel world of purely\n      magnetically charged matter\"; Vento 2025 (arXiv:2507.06697); García-Moreno and Vento 2026 (arXiv:2610.02083).",
+       "proposed": "    - §11.4: dark sectors of magnetically charged matter, without the momentum placement. Govaerts, Eur. Phys. J. C\n      83, 158 (2023) (arXiv:2302.03526), \"a dark parallel world of purely magnetically charged matter\", the magnetic\n      half of one dual electrodynamics written with two gauge potentials; and monopoles with a photon of their own,\n      Vento 2025 (arXiv:2507.06697) and García-Moreno and Vento 2026 (arXiv:2610.02083)."
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "| C4 | partly anticipated | magnetic dark sectors with a photon of their own (Govaerts 2023; Vento 2025; García-Moreno and Vento 2026) |",
+       "proposed": "| C4 | partly anticipated | magnetic dark sectors: the magnetic half of one dual electrodynamics (Govaerts 2023); monopoles with a photon of their own (Vento 2025; García-Moreno and Vento 2026) |"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/magnetic-identification.md",
+       "current": "Dark sectors of magnetically charged matter with a photon of their own are published: Govaerts 2023 asks whether dual electrodynamics gives \"a dark parallel world of purely magnetically charged matter\", and Vento 2025 and García-Moreno and Vento 2026 make monopoles and a second photon the dark sector [S]. None places the magnetic matter in the momentum polarization or pairs each charged particle of ours with an analog, so each is the [separate-photon form](#separate-photon) without its placement (flag 65, pending).",
+       "proposed": "Dark sectors of magnetically charged matter are published: Govaerts 2023 asks whether dual electrodynamics, written with two gauge potentials, gives \"a dark parallel world of purely magnetically charged matter\", and Vento 2025 and García-Moreno and Vento 2026 make monopoles and a second photon the dark sector [S]. None places the magnetic matter in the momentum polarization or pairs each charged particle of ours with an analog. Vento's sector is the [separate-photon form](#separate-photon) without its placement. Govaerts's is the magnetic half of one dual electrodynamics, the [shared-photon form](#shared-photon) in wording, but under the force law he derives, electric charges feel only the fields of electric charges and magnetic charges only those of magnetic charges, unless one new coupling opens a portal between the two, which in physics is closer to the separate-photon form (flag 65, pending)."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W7: monopole-explanation.md:147 'No paper explains ... and none invokes Born reciprocity for it' (second clause not in the note, which keeps C3's not-found open until Khademi 2009 is read); 'reached through a weak portal': 'weak' has no source.",
+     "verdict": "partly",
+     "evidence": "Right that the note never says 'none invokes Born reciprocity'. That clause is the C3 judge's ('No work found ... or invokes Born reciprocity for it') and includes 'found'. The page's only listed source for the section is note §4, which keeps C3's not-found open until Khademi 2009 is read. Wrong that 'weak' has no source: Govaerts's conclusion says the magnetic world 'would interact electromagnetically ever so weakly' with ours, his abstract calls the new coupling 'a channel, or portal', and both quotations are in findings.json. Only the note lacks them. The fix keeps the wiki to the note.",
+     "edits": [
+      {
+       "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+       "current": "No paper explains the absence of magnetic monopoles by localization in momentum, and none invokes Born reciprocity for it ([the literature check](/wiki/method/literature-check): related only).",
+       "proposed": "No paper found explains the absence of magnetic monopoles by localization in momentum ([the literature check](/wiki/method/literature-check): related only); one item, below, is unread, so the result is provisional."
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+       "current": "and a dark magnetic sector reached through a weak portal (Govaerts 2023) [S].",
+       "proposed": "and a dark magnetic sector, which Govaerts 2023 asks how to reach experimentally through the electric sector of the visible world [S]."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W16 (Goldhaber part): monopole-explanation.md:147 omits that Goldhaber 2017 was read by one agent and not checked.",
+     "verdict": "partly",
+     "evidence": "Right that the wiki drops the note's qualifier ('read by one agent through a web fetch and not checked by code'). But that qualifier is itself inexact: panel/c2-c3-c7.out.json note (1) says the judge re-read the letter by WebFetch, confirmed both quotations and kept it as weak evidence against. Beyond the finding, the note and the wiki both overstate the letter. My WebFetch of physicstoday.aip.org reads: 'Thus in either of those theories [QED, the standard model] the monopole charge cannot be spread out'; the radius should be 'at least an order of magnitude bigger than the Compton wavelength'; and there must be new objects at lower scales 'to account for the fact that the magnetic charge is spread out'.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "- Against spreading a monopole's charge: Goldhaber 2017 (a letter in Physics Today) argues that a monopole's charge\n  cannot be spread out, since fractions of it would violate the quantization condition. The letter was read by one\n  agent through a web fetch and not checked by code. It bears on hiding by spreading in position; how it bears on\n  localization in momentum is not computed.",
+       "proposed": "- Against spreading a monopole's charge: Goldhaber 2017 (a letter in Physics Today) argues that in quantum\n  electrodynamics and the Standard Model a monopole's charge cannot be spread out, since fractions of it would\n  violate the quantization condition, and that by field energy a monopole's radius should be at least an order of\n  magnitude above its Compton wavelength, so that finding a monopole, whose charge is then spread, would imply new\n  objects at lower energy scales. The letter was read through web fetches, by the agent that found it and by the\n  panel judge for C3, and not checked by code. It bears on hiding by spreading in position; the judge keeps it as\n  weak evidence against, which raises the cost of that option without refuting it and does not touch binding into\n  neutral composites. How it bears on localization in momentum is not computed."
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+       "current": "A 2017 letter by Goldhaber argues that a monopole's charge cannot be spread out, since fractions of it would violate the quantization condition; it concerns spreading in position, and its bearing on localization in momentum has not been worked out.",
+       "proposed": "A 2017 letter by Goldhaber argues that in quantum electrodynamics and the Standard Model a monopole's charge cannot be spread out, since fractions of it would violate the quantization condition, and that a monopole's radius should be at least an order of magnitude above its Compton wavelength, so that finding one would imply new objects at lower energy scales; the letter was read through web fetches and not checked by code [S]. It concerns spreading in position, as weak evidence against that way of hiding the objects, and its bearing on localization in momentum has not been worked out."
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "Closing remark of the wiki review: the C3 bullet keeps the ground 'electric-magnetic, not position-momentum' while the check found Gibbons and Herdeiro 2001, 'electric-magnetic duality is a special case of Born-Reciprocity'; the note does not connect them, so the wiki cannot; it may deserve a flag.",
+     "verdict": "partly",
+     "evidence": "lit.py hep-th/0008052: 'electric-magnetic duality is a special case of Born-Reciprocity [10], a transformation which acts as a rotation in phase space ... In non-linear electrodynamics, the phase space variables might be considered to be B and D'. That is the field's phase space, not the x and p of matter. So the remark supports §11.3's shared rotation and does not contest §11.1's ground ('not x↔p'). Flag 59, ruled 2026-10-29, already records that the ground assumes the two dualities independent. But note §5's italic and the OP8 page call it 'Born's position–momentum reciprocity', which on the wiki's face contradicts the summary's C3 ground. Scope wording fixes this; no new flag is needed.",
+     "edits": [
+      {
+       "file": "notes/literature-check.md",
+       "current": "position–momentum reciprocity is published as a remark.",
+       "proposed": "reciprocity, as a rotation in the phase space of the electromagnetic field, is published as a remark."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "\"a transformation which acts as a rotation in phase space\". Russo and Townsend 2025 remark\n",
+       "proposed": "\"a transformation which acts as a rotation in phase space\". The phase space they name is\nthe electromagnetic field's, with B and D = ∂L/∂E as the conjugate pair, not the position and momentum of matter.\nThe remark supports §11.3's observation that the two dualities share one rotation; it does not show that ρ, acting\non position and momentum, exchanges electric and magnetic charge, which §11.1's first ground denies. Russo and\nTownsend 2025 remark\n"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+       "current": " One item is unread: Khademi 2009, \"Why magnetic monopoles are not seen\", held in a repository that refuses access.",
+       "proposed": " Gibbons and Herdeiro 2001 call electric–magnetic duality a special case of Born reciprocity, a rotation in the phase space of the electromagnetic field, whose conjugate pair is B and D; the remark does not show that the reciprocity of position and momentum exchanges electric and magnetic charge, which is what the first ground denies [S] (flag 67, pending). One item is unread: Khademi 2009, \"Why magnetic monopoles are not seen\", held in a repository that refuses access."
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+       "current": "  - \"notes/literature-check.md §4\"\n---",
+       "proposed": "  - \"notes/literature-check.md §4\"\n  - \"notes/literature-check.md §5\"\n  - \"review/wiki-build-flags.md flag 67\"\n---"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/monopole-explanation.md",
+       "current": "- `notes/literature-check.md` §4 — other published accounts of the null result, and the unread item",
+       "proposed": "- `notes/literature-check.md` §4 — other published accounts of the null result, Goldhaber's letter and the unread item; §5 — Gibbons and Herdeiro's remark and the phase space it concerns\n- `review/wiki-build-flags.md` flag 67 — the published bridge between the two dualities, pending"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+       "current": "The bridge the conjecture builds on, that electric–magnetic duality belongs to Born's position–momentum reciprocity, is a published remark.",
+       "proposed": "The bridge the conjecture builds on, that electric–magnetic duality is a case of Born reciprocity, is a published remark, made for the phase space of the electromagnetic field, whose conjugate pair is B and D, not for the position and momentum of matter."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "    transformation which acts as a rotation in phase space\". Russo and Townsend, JHEP 07 (2025) 048: the Z₂ that\n",
+       "proposed": "    transformation which acts as a rotation in phase space\", the phase space of the electromagnetic field, with B\n    and D as the conjugate pair. Russo and Townsend, JHEP 07 (2025) 048: the Z₂ that\n"
+      }
+     ],
+     "needs_decision": "Whether #11 §11.1 should cite Gibbons and Herdeiro beside its first ground, through flag 67 or a new flag, is P.R.'s decision. This check recommends no new flag: the remark concerns the field's phase space, and the ground's relation to §11.3 is flag 59, already ruled."
+    }
+   ],
+   "notes": "I edited no file in the repository. The scratch folder is /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/verify/agent-F9-F10-F11-F15-F20-W7-W16/. It holds edits.py (all 37 edits), grouped-edits.json (the same edits grouped as above), notes.md (the evidence), rebuild_and_test.sh, the gate outputs, and sources.with-new.json.\n\nTesting:\n- Each `current` string occurs exactly once in its file. No two overlap, so the edits apply in any order.\n- rebuild_and_test.sh applies all 37 to a scratch mirror (since deleted). verify/literature_check.py and scripts/check-wiki.py both pass there.\n- They pass only once review/literature-check/sources.json has snapshots for 2111.14205, hep-th/9508021, hep-th/9501022, hep-th/0604151 and 1311.7069. Make them with review/literature-check/tools/make_sources.py and those keys; the mirror's output is sources.with-new.json. Without them, section D fails.\n- No new quotation of three or more words comes from the literature, so quotes.json needs no change.\n- Site `npm run check` was not run.\n\nOverlaps with other verifiers:\n- The W16 note edit rewrites the Goldhaber bullet that F4 also targets. Its 'read by one agent' is wrong: the C3 judge re-read the letter.\n- F10's §10 edit sits next to F5's bullet on the PDF-only quotations.\n- STATE.md says workflow 5 is rerunning the blocked OpenAlex queries into round5/. If that finishes, the F10 edits to §10, CLAUDE.md and the wiki should report the rerun's outcome instead of the gap.\n\nBeyond the findings:\n- The note and the wiki overstate Goldhaber's letter. It is limited to QED and the Standard Model, and it holds that a real monopole's charge is spread, which needs new objects at lower scales. The W16 edits fix this.\n- The BHM 2023 review the record already cites [S] repeats the E8 passage.\n- Optional: the C4 row of the note's table could add BHM 2021, which the judge lists among the closest works."
+  },
+  {
+   "results": [
+    {
+     "finding": "F12",
+     "verdict": "partly",
+     "evidence": "Right on two counts. panel/c6.out.json rates confidence medium (C4 and C5 high), so flag 65's '(confidence high)' is wrong for its C6 bullet. 'The closest work' for Levkov, Panin and Tkachev contradicts the record: the g5 searcher, its verifier and the C6 judge all name Sikivie and Yang 2009 the closest form ('the published form closest to clumping in speed rather than space'); searcher and verifier labeled LPT related. Overstated: the judge's notes say the raise was 'for consistency with Riotto-Tkachev', but the dispute reason also calls LPT a close variant of the record's wave-island form. Also: flag 65's title, note §9, CLAUDE.md:196-197 and two wiki lists omit App. A item 3.",
+     "edits": [
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "65. **Partial prior art for the magnetic mirror and for conjugate collapse is uncited (low; #11 §11.4, §10, App. A\n    item 9).**",
+       "proposed": "65. **Partial prior art for the magnetic mirror, for conjugate collapse and for clumping in momentum space is\n    uncited (low; #11 §11.4, §10, App. A items 3 and 9).**"
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "    - For clumping in momentum space (App. A item 3), #11 already lists the closest work, Levkov, Panin and Tkachev\n      2018, as [13]†; Bose condensation of dark matter goes back at least to Riotto and Tkachev 2000.",
+       "proposed": "    - For clumping in momentum space (App. A item 3): Bose condensation of dark matter, from at least Riotto and\n      Tkachev 2000. The closest form found is Sikivie and Yang, Phys. Rev. Lett. 103, 111301 (2009)\n      (arXiv:0901.1106), axions that Bose-condense through their own gravity into one state. #11 already lists\n      Levkov, Panin and Tkachev 2018 as [13]†, for the wave island's condensation rate (§9)."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "   by a second agent, and the panel judge for each agrees (confidence high).",
+       "proposed": "   by a second agent, and the panel judge for each agrees (confidence high for C4 and C5, medium for C6). For C6,\n   Riotto and Tkachev 2000 carries its finder's label alone, confirmed by the C6 judge on a second reading; the\n   round-1 verifier confirmed Sikivie and Yang 2009 as partial; and the C6 judge raised Levkov, Panin and Tkachev\n   2018 from related to partial, as the same form as Riotto and Tkachev's and a close variant of the wave island's."
+      },
+      {
+       "file": "CLAUDE.md",
+       "current": "65 for\n    §11.4, §10 and App. A item 9);",
+       "proposed": "65 for\n    §11.4, §10 and App. A items 3 and 9);"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- 65: partial prior art for C4 and C5 is uncited in #11 §11.4, §10 and App. A item 9.",
+       "proposed": "- 65: partial prior art for C4, C5 and C6 is uncited in #11 §11.4, §10 and App. A items 3 and 9."
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "- **Flag 65:** the partial prior art for C4 and C5 is uncited in #11 §11.4, §10 and App. A item 9.",
+       "proposed": "- **Flag 65:** the partial prior art for C4, C5 and C6 is uncited in #11 §11.4, §10 and App. A items 3 and 9."
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "(dark sectors of magnetically charged matter) and for conjugate collapse (a contracting partner universe; collapse in one frame as acceleration in another) is uncited in #11 §11.4, §10 and App. A item 9 ([the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification#in-the-literature); [conjugate collapse](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion#in-the-literature)).",
+       "proposed": "(dark sectors of magnetically charged matter), for conjugate collapse (a contracting partner universe; collapse in one frame as acceleration in another) and for clumping in momentum space (Bose condensation of dark matter) is uncited in #11 §11.4, §10 and App. A items 3 and 9 ([the magnetic mirror](/wiki/electric-magnetic-duality/magnetic-identification#in-the-literature); [conjugate collapse](/wiki/cosmology/scale-factor-duality/collapse-powered-expansion#in-the-literature); [the founding image](/wiki/dark-matter/momentum-clumping/founding-image#in-the-literature))."
+      },
+      {
+       "file": "wiki/dark-matter/momentum-clumping/founding-image.md",
+       "current": "the last of which #11 §9 cites for the [wave island](/wiki/dark-matter/momentum-clumping/wave-island).",
+       "proposed": "the last of which #11 §9 cites for the [wave island](/wiki/dark-matter/momentum-clumping/wave-island) (flag 65, pending)."
+      },
+      {
+       "file": "wiki/dark-matter/momentum-clumping/founding-image.md",
+       "current": "- `notes/literature-check.md` §7 — condensation of dark matter in momentum and the opinion-dynamics analog",
+       "proposed": "- `notes/literature-check.md` §7 — condensation of dark matter in momentum and the opinion-dynamics analog; `review/wiki-build-flags.md` item 65"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F13",
+     "verdict": "confirmed",
+     "evidence": "Flag 66's title, note §9 (line 340), CLAUDE.md:197 and README:48 drop 'as a map of fluid variables', which the flag body and note §6 keep. In hep-th/0207130 §2.2 (cached full text), eq. 2.32 is a_i→1/a_i, shifted dilaton fixed, ρ̄ fixed, p̄→−p̄, and the same section says the pairing 'has no analogue in the context of the Einstein cosmology, where there is no dilaton, and the duality symmetry cannot be implemented'. panel/c5.out.json: 'right about the map, and wrong if read as a statement about its role'; inside the duality a stiff source's partner is a power law, not de Sitter. The new quotation must enter quotes.json (planned_quotes.tsv, then make_quotes.py), or verify/literature_check.py fails sections C and F.",
+     "edits": [
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "66. **§10's corrected dictionary is scale-factor duality with sources (low; #11 §10, \"Dictionary [D — corrected en\n    route]\"; §15, \"the w-dictionary\").**",
+       "proposed": "66. **§10's corrected dictionary is, as a map of fluid variables, scale-factor duality with sources (low; #11 §10,\n    \"Dictionary [D — corrected en route]\"; §15, \"the w-dictionary\").**"
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "which they credit to Veneziano, Phys. Lett. B 265, 287 (1991).",
+       "proposed": "which they credit to Veneziano, Phys. Lett. B 265, 287 (1991); the map holds the shifted dilaton φ̄ fixed."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "    one shared lapse is the program's. Suggested: keep [D] for the derivation and add [T][S] for the map; §15's",
+       "proposed": "    one shared lapse is the program's, and so is its use. The duality maps one solution of string-frame dilaton\n    gravity to another, a pairing that \"has no analogue in the context of the Einstein cosmology, where there is no\n    dilaton, and the duality symmetry cannot be implemented\" (§2.2); entering the conjugate's energy as a source in\n    our Einstein-gravity constraint, so that dual stiff acts as Λ, is the program's step. Suggested: keep [D] for the\n    derivation and add [T][S] for the map; §15's"
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "   §2.2 and reference list and did the algebra; the panel judge repeated it.**",
+       "proposed": "   §2.2 and reference list and did the algebra; the panel judge for C5 repeated it and found the map right and its\n   role the program's own: within the duality the partner of a stiff source is not de Sitter\n   (`review/literature-check/panel/c5.out.json`).**"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "(their eq. 2.32). The transformation sends each",
+       "proposed": "(their eq. 2.32). The transformation, which holds the shifted dilaton φ̄ fixed, sends each"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "program adds is its derivation, from a·ã = 1 with one shared lapse (#11 §10).",
+       "proposed": "program adds is its derivation, from a·ã = 1 with one shared lapse (#11 §10), and its use. Scale-factor duality maps\none solution of string-frame dilaton gravity to another, a pairing that \"has no analogue in the context of the\nEinstein cosmology, where there is no dilaton, and the duality symmetry cannot be implemented\" (§2.2); within it\nthe partner of a stiff source is not de Sitter (the panel judge for C5). Entering the conjugate's energy as a source\nin our Einstein-gravity constraint, so that dual stiff acts as Λ, is the program's step."
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- 66: §10's dictionary is scale-factor duality with sources.",
+       "proposed": "- 66: §10's dictionary is, as a map of fluid variables, scale-factor duality with sources; its use in Einstein\n  gravity is the program's."
+      },
+      {
+       "file": "CLAUDE.md",
+       "current": "§10's dictionary is scale-factor duality with sources (66)",
+       "proposed": "§10's dictionary is, as a map of fluid variables, scale-factor duality with sources (66)"
+      },
+      {
+       "file": "review/literature-check/README.md",
+       "current": "the dictionary of §10 as scale-factor duality, §11.3's bridge as",
+       "proposed": "the dictionary of §10 as scale-factor duality with sources (as a map of fluid variables), §11.3's bridge as"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "F18 (flag 67 and flag 68 audit parts)",
+     "verdict": "partly",
+     "evidence": "Flag 67: right. round1/g3-magnetic-mirror.search.json labels Gibbons–Herdeiro and Russo–Townsend partial; g3-magnetic-mirror.verify.json finds the quotations (3/3, 1/1 FOUND) and 'Downgraded' both to related, adding that §11.3 should cite Gibbons–Herdeiro, so 'confirmed by its verifier' misstates it. Flag 68: right only that the searcher labeled 2509.21924 evidence-against first; its verifier kept that label ('Kept, with scope'; verified_relation evidence-against), so the audit's 'its verifier labeled it evidence against' is incomplete, not false. The C2 judge then relabeled it related. wiki/status/open-problems.md:331 repeats flag 67's attribution.",
+     "edits": [
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "   **Audit (2026-11-02): related to the magnetic mirror, found by the round-1 searcher and confirmed by its\n   verifier.**",
+       "proposed": "   **Audit (2026-11-02): related to the magnetic mirror.** Found by the round-1 searcher for the magnetic mirror,\n   who labeled both remarks partial; its verifier found every quotation and downgraded both to related, since they\n   state the mechanism and not the conjecture, and named Gibbons and Herdeiro as a citation §11.3 lacks. The panel\n   judge for C4 lists Gibbons and Herdeiro among the closest work, as publishing the bridge behind §11.3."
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "   **Audit (2026-11-02): found by the round-1 searcher for monopoles; its verifier labeled it evidence against, and\n   the panel judge for C2 relabeled it related, since it reaches only #14's model.**",
+       "proposed": "   **Audit (2026-11-02): found by the round-1 searcher for monopoles, who labeled it evidence against; its verifier\n   kept that label, scoped to #14's model, and the panel judge for C2 relabeled it related, since it reaches only\n   #14's model.**"
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "- **Flag 67** (low; found by a searcher and confirmed by its verifier):",
+       "proposed": "- **Flag 67** (low; found by a searcher; its verifier found the quotations and labeled both remarks related):"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W9",
+     "verdict": "confirmed",
+     "evidence": "wiki/CLAUDE.md, 'A flag is ruled on': pages quoting a flagged statement point to its number. None of the named pages contains flag 66, 67 or 69. symplectic-charge-lattice.md:110 claims the identification as the program's contribution and :115 quotes §15's 'one structural unification' (flag 67's title); assessment.md:49/52/122, hard-core.md:37/121 and alive.md:96/224/244 quote 'the w-dictionary', '[D — corrected en route]' or §11.3's tag. chi-particles.md:91-96 and bullet-cluster.md:82-84 state no cluster scattering without the two fits findings.json labels evidence-against for the χ form (Method: a contrary datum is stated where the claim is discussed). More pages share the gap (notes).",
+     "edits": [
+      {
+       "file": "wiki/electric-magnetic-duality/symplectic-charge-lattice.md",
+       "current": "with no dynamics behind it: no Lagrangian in the repository relates the two choices.",
+       "proposed": "with no dynamics behind it: no Lagrangian in the repository relates the two choices. The bridge between the two dualities is a published remark: \"electric-magnetic duality is a special case of Born-Reciprocity\", \"a transformation which acts as a rotation in phase space\" (Gibbons and Herdeiro 2001 [S]). One vacuum event that selects both polarizations was not found ([one enlarged modular structure](/wiki/electric-magnetic-duality/unified-modular-structure#in-the-literature); flag 67, pending)."
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/symplectic-charge-lattice.md",
+       "current": "(#11 §15; [the program's self-assessment](/wiki/program/assessment));",
+       "proposed": "(#11 §15; [the program's self-assessment](/wiki/program/assessment); flag 67, pending);"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/symplectic-charge-lattice.md",
+       "current": "  - \"review/wiki-build-flags.md flag 62\"\n",
+       "proposed": "  - \"review/wiki-build-flags.md flag 62\"\n  - \"review/wiki-build-flags.md flag 67\"\n  - \"notes/literature-check.md §5\"\n"
+      },
+      {
+       "file": "wiki/electric-magnetic-duality/symplectic-charge-lattice.md",
+       "current": "- `review/wiki-build-flags.md` flag 60 — #12's identification as the conjecture's shared-photon form; flag 62 — the explanation of the null result open, in that form's setting.",
+       "proposed": "- `review/wiki-build-flags.md` flag 60 — #12's identification as the conjecture's shared-photon form; flag 62 — the explanation of the null result open, in that form's setting.\n- `notes/literature-check.md` §5; `review/wiki-build-flags.md` flag 67 — the bridge between the two dualities as a published remark; pending."
+      },
+      {
+       "file": "wiki/program/assessment.md",
+       "current": "(#11 §10; [the duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary)).",
+       "proposed": "(#11 §10; [the duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary)). As a map of fluid variables, the derived rule is the scale-factor duality of string cosmology with sources; its derivation from a·ã = 1 is the program's (flag 66, pending)."
+      },
+      {
+       "file": "wiki/program/assessment.md",
+       "current": "row 3, the charge-lattice identification, and [the dark-sector candidates]",
+       "proposed": "row 3, the charge-lattice identification, whose bridge between the two dualities is a published remark (flag 67, pending), and [the dark-sector candidates]"
+      },
+      {
+       "file": "wiki/program/assessment.md",
+       "current": "  - \"review/wiki-build-flags.md item 63\"\n",
+       "proposed": "  - \"review/wiki-build-flags.md item 63\"\n  - \"notes/literature-check.md §5\"\n  - \"notes/literature-check.md §6\"\n  - \"review/wiki-build-flags.md items 66, 67\"\n"
+      },
+      {
+       "file": "wiki/program/assessment.md",
+       "current": "- `review/wiki-build-flags.md` item 63 — rows 7 and 11 worded for two candidates; pending",
+       "proposed": "- `review/wiki-build-flags.md` item 63 — rows 7 and 11 worded for two candidates; pending\n- `notes/literature-check.md` §5, §6; `review/wiki-build-flags.md` items 66, 67 — the w-dictionary as scale-factor duality with sources, as a map of fluid variables, and the bridge between the two dualities as a published remark; pending"
+      },
+      {
+       "file": "wiki/program/hard-core.md",
+       "current": "#11 §15 finds it \"intact, twice sharpened by forced corrections (P2′; the w-dictionary)\".",
+       "proposed": "#11 §15 finds it \"intact, twice sharpened by forced corrections (P2′; the w-dictionary)\"; the w-dictionary is, as a map of fluid variables, the scale-factor duality of string cosmology with sources (flag 66, pending)."
+      },
+      {
+       "file": "wiki/program/hard-core.md",
+       "current": "(#11 §10); the lab notebook had recorded",
+       "proposed": "(#11 §10), which as a map of fluid variables is the scale-factor duality of string cosmology with sources (flag 66, pending); the lab notebook had recorded"
+      },
+      {
+       "file": "wiki/program/hard-core.md",
+       "current": "  - \"popsci/universes-other-half.md 'What one assumption purchases'\"\n",
+       "proposed": "  - \"popsci/universes-other-half.md 'What one assumption purchases'\"\n  - \"notes/literature-check.md §6\"\n  - \"review/wiki-build-flags.md item 66\"\n"
+      },
+      {
+       "file": "wiki/program/hard-core.md",
+       "current": "- `popsci/universes-other-half.md` 'What one assumption purchases' — the \"single assumption\" framing (popular article; not a status source)",
+       "proposed": "- `popsci/universes-other-half.md` 'What one assumption purchases' — the \"single assumption\" framing (popular article; not a status source)\n- `notes/literature-check.md` §6; `review/wiki-build-flags.md` item 66 — the w-dictionary as scale-factor duality with sources, as a map of fluid variables; pending"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "a postulate; #11 §15 records it as intact after two forced corrections (P2′; the w-dictionary);",
+       "proposed": "a postulate; #11 §15 records it as intact after two forced corrections (P2′; the w-dictionary), the second of which is, as a map of fluid variables, the scale-factor duality of string cosmology with sources (flag 66, pending);"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "an executed check outside the gate reproduces the rule and the heuristic (flag 23) |",
+       "proposed": "an executed check outside the gate reproduces the rule and the heuristic (flag 23); as a map of fluid variables the rule is the scale-factor duality of string cosmology with sources (flag 66, pending) |"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "the phase-space side of the shared matrix is gated for d = 1 in `verify/toy_coset.py` |",
+       "proposed": "the phase-space side of the shared matrix is gated for d = 1 in `verify/toy_coset.py`; that electric–magnetic duality is a case of Born reciprocity is a published remark (flag 67, pending) |"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "  - \"review/wiki-build-flags.md item 63\"\n",
+       "proposed": "  - \"review/wiki-build-flags.md item 63\"\n  - \"review/wiki-build-flags.md items 66, 67\"\n  - \"notes/literature-check.md §5\"\n  - \"notes/literature-check.md §6\"\n"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "`review/wiki-build-flags.md` items 16 (addendum), 55, 56 and 58",
+       "proposed": "`review/wiki-build-flags.md` items 16 (addendum), 55, 56 and 58\n- `notes/literature-check.md` §5, §6; `review/wiki-build-flags.md` items 66, 67 — the dictionary as scale-factor duality with sources, as a map of fluid variables, and the bridge between the two dualities as a published remark; pending"
+      },
+      {
+       "file": "wiki/dark-matter/candidates/chi-particles.md",
+       "current": "strong scattering in dwarf galaxies, where velocities are low, and none in clusters, where they are high.",
+       "proposed": "strong scattering in dwarf galaxies, where velocities are low, and none in clusters, where they are high. Two published fits bear on row 1 at cluster speeds: Kaplinghat, Tulin and Yu 2016, fitting halos from dwarfs to clusters, prefer a cross-section falling from about 2 cm²/g on galaxy scales to about 0.1 cm²/g on cluster scales, and Sagunski et al. 2021 find 0.19 ± 0.09 cm²/g in clusters, a mild preference over cold collisionless dark matter [S]. Both favour a cross-section that falls with velocity, as the knee does, and a nonzero value at cluster speeds, where particle χ has none; neither is the robust self-interaction at v ≫ v\\* that kills the row ([the data situation](/wiki/predictions/self-interaction-knee#the-data-situation); flag 69, pending)."
+      },
+      {
+       "file": "wiki/dark-matter/candidates/chi-particles.md",
+       "current": "  - \"verify/gate_mechanism.py section D\"\n",
+       "proposed": "  - \"verify/gate_mechanism.py section D\"\n  - \"notes/literature-check.md §3\"\n  - \"review/wiki-build-flags.md item 69\"\n"
+      },
+      {
+       "file": "wiki/dark-matter/candidates/chi-particles.md",
+       "current": "the whole script reruns the note's arithmetic and algebra ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script))",
+       "proposed": "the whole script reruns the note's arithmetic and algebra ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script))\n- `notes/literature-check.md` §3; `review/wiki-build-flags.md` item 69 — two fits of the self-interaction at cluster speeds, with their numbers; pending"
+      },
+      {
+       "file": "wiki/dark-matter/halo-astrophysics/bullet-cluster.md",
+       "current": "a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)).",
+       "proposed": "a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). Two published fits mildly prefer a nonzero cross-section at cluster speeds: about 0.1 cm²/g on cluster scales (Kaplinghat, Tulin and Yu 2016) and 0.19 ± 0.09 cm²/g in clusters, with an upper limit of 0.35 cm²/g at 95% confidence (Sagunski et al. 2021) [S]. Neither is the robust self-interaction that kills the row ([the data situation](/wiki/predictions/self-interaction-knee#the-data-situation); flag 69, pending)."
+      },
+      {
+       "file": "wiki/dark-matter/halo-astrophysics/bullet-cluster.md",
+       "current": "  - \"popsci/universes-other-half.md 'Dark matter as the other polarization'\"\n---",
+       "proposed": "  - \"popsci/universes-other-half.md 'Dark matter as the other polarization'\"\n  - \"notes/literature-check.md §3\"\n  - \"review/wiki-build-flags.md item 69\"\n---"
+      },
+      {
+       "file": "wiki/dark-matter/halo-astrophysics/bullet-cluster.md",
+       "current": "- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular account (not a status source)",
+       "proposed": "- `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular account (not a status source)\n- `notes/literature-check.md` §3; `review/wiki-build-flags.md` item 69 — two fits that mildly prefer a nonzero cross-section at cluster speeds; pending"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W13",
+     "verdict": "confirmed",
+     "evidence": "cosmological-constraint.md:105 says 'the documents use the name without comparing the two'. The note's §6 (a document, current for its scope per wiki/CLAUDE.md) and flag 66 now compare the program's dictionary with string cosmology's scale-factor duality with sources, quote Veneziano 1991's 'duality-related solutions', and assign the derivation from a·ã = 1 to the program. The same line still marks Veneziano 1991 †, which the note's references now cite [S] from a metadata snapshot. The two-solutions-versus-one-state contrast is still not in the note (the C5 judge states it in panel/c5.out.json), so the edit keeps 'the wiki's reading'.",
+     "edits": [
+      {
+       "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+       "current": "together with a shift of the dilaton field (Veneziano 1991 †; Tseytlin 1991 †).",
+       "proposed": "together with a shift of the dilaton field (Veneziano 1991 [S]; Tseytlin 1991 †)."
+      },
+      {
+       "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+       "current": "(the wiki's reading of the difference; the documents use the name without comparing the two).",
+       "proposed": "(the wiki's reading of the difference). As a map of fluid variables, string cosmology's duality with sources, under which each scale factor goes to its inverse and the pressure changes sign at fixed ρ̄, the energy density times the volume, is the program's [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary#in-the-literature) w_eff = −w̃ (Gasperini and Veneziano 2003, §2.2 [S]); for three spatial dimensions one verifier's algebra shows it, and no script checks it. The derivation from a·ã = 1 with one shared lapse is the program's (flag 66, pending)."
+      },
+      {
+       "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+       "current": "  - \"review/wiki-build-flags.md items 27 (addendum), 49\"\n",
+       "proposed": "  - \"review/wiki-build-flags.md items 27 (addendum), 49\"\n  - \"notes/literature-check.md §6\"\n  - \"review/wiki-build-flags.md item 66\"\n"
+      },
+      {
+       "file": "wiki/cosmology/scale-factor-duality/cosmological-constraint.md",
+       "current": "the turnaround in a closed universe, and the underived dual term with its physical combinations",
+       "proposed": "the turnaround in a closed universe, and the underived dual term with its physical combinations\n- `notes/literature-check.md` §6; `review/wiki-build-flags.md` item 66 — string cosmology's scale-factor duality with sources compared with the dictionary, as a map of fluid variables; Veneziano 1991 retrieved; pending"
+      }
+     ],
+     "needs_decision": ""
+    },
+    {
+     "finding": "W17",
+     "verdict": "confirmed",
+     "evidence": "sources.json: arXiv:2509.21924 earliest_date 2025-09-26. #14 v3's W′ result is worklog item O1 of 2026-10-19 (review/v3-worklog.md, first commit 678e48a that day). No record cited the paper before the check, so 'independently' holds (C2 judge: 'independent published support'), but 'Brümmer ... 2026 reach the same exclusion independently' hides that the result was public earlier. hidden-sector.md:97 quotes the flagged §12 sentence verbatim and alive.md:215 states the exclusion; neither has flag 68. The same wording is in flag 68's title, note §9, CLAUDE.md:198, wiki literature-check.md:65 and open-problems.md:332, which the edits also fix.",
+     "edits": [
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "68. **§12's exclusion of the minimal hidden sector is reached independently (low; #11 §12: \"The minimal\n",
+       "proposed": "68. **§12's exclusion of the minimal hidden sector was published first, independently (low; #11 §12: \"The minimal\n"
+      },
+      {
+       "file": "review/wiki-build-flags.md",
+       "current": "    Frigerio, Phys. Rev. D 113, L091701 (2026) (arXiv:2509.21924), find for the minimal 't Hooft–Polyakov model that",
+       "proposed": "    Frigerio, Phys. Rev. D 113, L091701 (2026) (arXiv:2509.21924, posted 2025-09-26, before #14 v3 of 2026-10-19),\n    find for the minimal 't Hooft–Polyakov model that"
+      },
+      {
+       "file": "notes/literature-check.md",
+       "current": "- 68: §12's exclusion of the minimal hidden sector is reached independently by Brümmer et al. 2026.",
+       "proposed": "- 68: §12's exclusion of the minimal hidden sector was published first, independently, by Brümmer et al. (arXiv\n  2025, before #14 v3; Phys. Rev. D 2026)."
+      },
+      {
+       "file": "CLAUDE.md",
+       "current": "Brümmer et al. 2026 reach §12's exclusion of the minimal hidden sector independently (68);",
+       "proposed": "Brümmer et al. (arXiv 2025, before #14 v3; Phys. Rev. D 2026) published §12's exclusion of the minimal\n    hidden sector first, independently (68);"
+      },
+      {
+       "file": "wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure.md",
+       "current": "Brümmer, Ferrante, Fischer and Frigerio 2026 reach the same exclusion independently for the minimal 't Hooft–Polyakov model of a dark sector: the stable charged vector boson always outnumbers the monopoles, so",
+       "proposed": "The same exclusion is published, reached independently and earlier. Brümmer, Ferrante, Fischer and Frigerio, in a paper posted to arXiv in September 2025, before #14 v3's calculation, and published in 2026, find for the minimal 't Hooft–Polyakov model of a dark sector that the stable charged vector boson always outnumbers the monopoles, so"
+      },
+      {
+       "file": "wiki/method/literature-check.md",
+       "current": "is reached independently by Brümmer, Ferrante, Fischer and Frigerio 2026.",
+       "proposed": "was published first, independently, by Brümmer, Ferrante, Fischer and Frigerio (arXiv 2025, before #14 v3; Phys. Rev. D 2026)."
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "#11 §12's exclusion of the minimal hidden sector is reached independently by Brümmer, Ferrante, Fischer and Frigerio 2026 (",
+       "proposed": "#11 §12's exclusion of the minimal hidden sector was published first, independently, by Brümmer, Ferrante, Fischer and Frigerio (arXiv 2025, before #14 v3; Phys. Rev. D 2026) ("
+      },
+      {
+       "file": "wiki/dark-matter/candidates/soliton-candidate/hidden-sector.md",
+       "current": "See [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure).",
+       "proposed": "The same exclusion is published for the minimal 't Hooft–Polyakov model, in a paper posted before #14 v3's calculation: \"dark monopoles cannot constitute a sizeable fraction of dark matter\" (Brümmer, Ferrante, Fischer and Frigerio 2026 [S]; flag 68, pending). See [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure#in-the-literature)."
+      },
+      {
+       "file": "wiki/dark-matter/candidates/soliton-candidate/hidden-sector.md",
+       "current": "  - \"HANDOFF.md §6\"\n---",
+       "proposed": "  - \"HANDOFF.md §6\"\n  - \"notes/literature-check.md §4\"\n  - \"review/wiki-build-flags.md item 68\"\n---"
+      },
+      {
+       "file": "wiki/dark-matter/candidates/soliton-candidate/hidden-sector.md",
+       "current": "- `HANDOFF.md` §6 — round 2's request for an explicit group",
+       "proposed": "- `HANDOFF.md` §6 — round 2's request for an explicit group\n- `notes/literature-check.md` §4; `review/wiki-build-flags.md` item 68 — the minimal sector's exclusion, published by Brümmer et al.; pending"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "| gated in `verify/soliton_obituary.py`; conditional on the withdrawn benchmark |",
+       "proposed": "| gated in `verify/soliton_obituary.py`; conditional on the withdrawn benchmark; the same exclusion is published for the minimal model (Brümmer, Ferrante, Fischer and Frigerio 2026 [S]; flag 68, pending) |"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "  - \"verify/soliton_obituary.py\"\n",
+       "proposed": "  - \"verify/soliton_obituary.py\"\n  - \"notes/literature-check.md §4\"\n  - \"review/wiki-build-flags.md item 68\"\n"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "— ruling 2, Decision 1, and the soliton results that survive.",
+       "proposed": "— ruling 2, Decision 1, and the soliton results that survive.\n- `notes/literature-check.md` §4; `review/wiki-build-flags.md` item 68 — the minimal sector's exclusion, published by Brümmer et al.; pending"
+      }
+     ],
+     "needs_decision": ""
+    }
+   ],
+   "notes": "I read: flags 64-69, the note, CLAUDE.md and README; panel/c4, c5, c6 and c2-c3-c7 .out.json; round1 g2, g3 and g5 search and verify files; findings.json; sources.json; the cached full text of Gasperini and Veneziano 2003 (§2.2, eq. 2.32 and the \"no analogue\" remark both sit in §2.2); review/v3-worklog.md; and every wiki page cited. I made no change in the repository; git status matches the starting snapshot.\n\nHow the edits were checked. All 61 edits are in work/literature-check/verify/v-f12-f13-f18-w9-w13-w17/edits.py, which is the machine-checked copy. Run `python3 edits.py json` there to get exact strings if a transcription above differs.\n- `edits.py check` confirms each `current` excerpt occurs exactly once in the real file, and no excerpt contains a combining character.\n- Edits within one file do not overlap, so they can be applied in any order.\n- I applied all 61 to a mirror copy (mirror/). `scripts/check-wiki.py` passes on it (328 pages).\n- `verify/literature_check.py` fails on exactly two checks (sections C and F) until quotes.json holds the new Gasperini and Veneziano quotation. To add it, append `hep-th/0207130<TAB>has no analogue in the context of the Einstein cosmology, where there is no dilaton, and the duality symmetry cannot be implemented` to work/literature-check/writeup/planned_quotes.tsv, then run work/literature-check/tools/make_quotes.py. The cached text's hash equals the stored hash for this paper. add_quote.py simulates this step in the mirror, and with it the script passes.\n\nEdits that go beyond the letter of a finding:\n- F12 also corrects flag 65's title and its copies in CLAUDE.md, note §9, wiki literature-check.md:62 and open-problems.md:329. All of these leave out App. A item 3, though the flag carries a C6 bullet. It also adds flag 65 to founding-image.md.\n- F18 also corrects open-problems.md:331.\n- W17 also corrects flag 68's wording in the note, CLAUDE.md and two wiki lists.\n\nThe same missing flag pointers occur on pages W9 did not name. I did not edit these:\n- Flag 66: lakatosian-methodology.md:64, nontriviality-theorem.md:109, conjugate-universe.md:70, collapse-powered-expansion.md:56, early-universe-step.md:34 and :93, scale-factor-duality/_index.md:23.\n- Flag 67: s-duality.md:85, modular-group.md:128, modular-inversion.md:127, born-reciprocity.md:132, symplectic-form.md:112, dirac-quantization.md:89, magnetic-mirror-family.md:104, founding-suppositions.md:135, assessment.md:94, electric-magnetic-duality/_index.md:24.\n- Flag 69: alive.md:266, predictions/_index.md:48, transfer-cross-section.md:142, dark-sector-microstructure.md:70, scattering-law.md:120.\n\nBearing on findings assigned to others:\n- W1 and F8: the C5 judge wrote \"The kept route is found nowhere: a contracting conjugate universe with kinetic-dominated contents that acts on ours as a cosmological constant through w_eff = −w̃ in Einstein gravity.\" So W1's claim that the record contradicts the wiki's \"not found\" for this route looks wrong when the route is read as a statement in Einstein gravity. My F13 edit to the note states that step as the program's own. The W1 and F8 fixes should agree with it.\n- The note's reference list includes Brümmer et al., arXiv:2607.29492, posted 2026-07-31. It describes thermal monopole dark matter made viable by a light stable dark fermion. The note's body never cites it. It predates the light fermion ψ that #14 v3 added, so it bears on hidden-sector.md. Whether it should become a flag is P.R.'s decision."
+  },
+  {
+   "results": [
+    {
+     "finding": "W3",
+     "verdict": "confirmed",
+     "evidence": "open-problems.md line 5 (description) says 'the 63 numbered flags'; the italic (62) says 'The register ends with the 63 numbered flags' and 'Flags 1–58 and 63 await a ruling'; the Status line (64) opens 'current to 2026-11-03 and to flag 69' but ends 'the flags are the 63 items ... items 1–58 and 63 await a ruling'. review/wiki-build-flags.md now holds items 64–69, each 'Ruling: pending', and the same page's Pending rulings paragraph (249) already says 69 flags and 'flags 1–58 and 63–69 await a ruling'. The italic's list of who raised flags also omits the literature check.",
+     "edits": [
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "of the two momentum-gravity notes and of the monopole discussion, the claims under review, and the 63 numbered flags",
+       "proposed": "of the two momentum-gravity notes, of the monopole discussion and of the literature check, the claims under review, and the 69 numbered flags"
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "The register ends with the 63 numbered flags, suspected errors in the source documents and one question about a claim's status, recorded while this wiki was built, by the investigations of 2026-10-27 to 2026-10-29 and by the two reviewers of #11's version 2.4.",
+       "proposed": "The register ends with the 69 numbered flags, suspected errors in the source documents and one question about a claim's status, recorded while this wiki was built, by the investigations of 2026-10-27 to 2026-10-29, by the two reviewers of #11's version 2.4 and by the literature check of 2026-11-02."
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "where #11 counts three. Flags 1–58 and 63 await a ruling.*",
+       "proposed": "where #11 counts three. Flags 64–69, from the literature check, point to published work #11 does not cite, or cites for something else. Flags 1–58 and 63–69 await a ruling.*"
+      },
+      {
+       "file": "wiki/status/open-problems.md",
+       "current": "and the flags are the 63 items of `review/wiki-build-flags.md`, each with its audit verdict where it has one: items 1–58 and 63 await a ruling,",
+       "proposed": "and the flags are the 69 items of `review/wiki-build-flags.md`, each with its audit verdict where it has one: items 1–58 and 63–69 await a ruling,"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "W4",
+     "verdict": "confirmed",
+     "evidence": "scripts/check.sh runs eleven scripts, ending with verify/literature_check.py, and the root CLAUDE.md Layout now names it, so the-gate.md:57 'it now names all ten' is stale. Only closed_universe.py, velocity_gated_gravity.py and gate_mechanism.py print elapsed times (time.time()); literature_check.py prints none, so 'the three latest scripts' (61) now names the wrong three. literature_check.py opens with section A (verdicts), no anchors: seven of eleven. alive.md:62 'the ten scripts in verify/'; since the eleventh checks no claim of that register, the edit says so instead of listing it. alive.md's 'current to 2026-10-30' is left to whoever applies W9 there.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "it now names all ten. The list in the script is the fact.",
+       "proposed": "it now names all eleven. The list in the script is the fact."
+      },
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "apart from the elapsed times the three latest scripts print.",
+       "proposed": "apart from the elapsed times that `verify/closed_universe.py`, `verify/velocity_gated_gravity.py` and `verify/gate_mechanism.py` print."
+      },
+      {
+       "file": "wiki/method/verification/independent-anchors.md",
+       "current": "seven of the ten current scripts open with anchor checks",
+       "proposed": "seven of the eleven current scripts open with anchor checks"
+      },
+      {
+       "file": "wiki/status/alive.md",
+       "current": "machine checks are the ten scripts in `verify/`, run by the gate `scripts/check.sh`, and a line with no script",
+       "proposed": "machine checks are ten of the eleven scripts in `verify/`, run by the gate `scripts/check.sh` (the eleventh, `verify/literature_check.py`, checks the literature-check note against its record, not a claim), and a line with no script"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "W5",
+     "verdict": "partly",
+     "evidence": "Right: literature_check.py opens notes/literature-check.md, compares the verdicts and counts in its two tables, finds every double-quoted passage and checks the references, and reads flags 64–69 (section F); README: five planted errors each made it fail. So the-gate.md:52 'do not read the documents' is false for it, and the italic's 'the arithmetic of the models ... and the form of the wiki' omits what line 141 calls 'a literature search rather than a calculation'. Not shown: the 'Two kinds of check' list covers it. Quotations and citations checked against stored abstracts and metadata snapshots are checks against something independent of the documents; recomputed verdicts compared with the note's tables are reproductions.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "The scripts hold their own copies of the figures they compare against and do not read the documents, so an edit to a document's figure does not trip them.",
+       "proposed": "Ten of the scripts hold their own copies of the figures they compare against and do not read the documents, so an edit to a document's figure does not trip them. The eleventh, `verify/literature_check.py`, reads `notes/literature-check.md` and flags 64–69 of `review/wiki-build-flags.md`: an edit to a verdict or a count in the note's two tables, to a quotation in the note or in those flags, or to the authors, title, year, volume or page of one of the note's references trips it, while it holds the counts the note states in its prose as copies, like the other scripts ([the literature-check script](/wiki/method/verification/literature-check-script))."
+      },
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "What the gate tests is the arithmetic of the models the scripts encode and the form of the wiki;",
+       "proposed": "What the gate tests is the arithmetic of the models the scripts encode, whether the literature-check note reports its stored record, and the form of the wiki;"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "W10",
+     "verdict": "confirmed",
+     "evidence": "lakatosian-methodology.md:78 'the program's record shows two claims losing it' names only the §7.3 identity and the compatibility theorem. The note finds C1's identification published (§3, anticipated), C4–C6 partly anticipated, §10's corrected dictionary, one of the two corrections §15 says sharpened the hard core, to be scale-factor duality as a map of fluid variables (flag 66), and §11.3's bridge, behind the unification §15 counts among the program's products, a published remark (flag 67). One support is weak: flag 68 is no loss of novelty, since it concerns the exclusion of #14's minimal sector. The count was already short before the check: the diameter note moved the self-dual length to prior art.",
+     "edits": [
+      {
+       "file": "wiki/method/lakatosian-methodology.md",
+       "current": "Novelty carries the weight in Lakatos's grading, and the program's record shows two claims losing it.",
+       "proposed": "Novelty carries the weight in Lakatos's grading, and the program's record shows claims losing it."
+      },
+      {
+       "file": "wiki/method/lakatosian-methodology.md",
+       "current": "and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks.",
+       "proposed": "and v2.1 re-tagged it [T][V]. #11 §15 lists both under degeneration risks. The [literature check](/wiki/method/literature-check) of 2026-11-02 found more prior art. P.R.'s identification of dark matter with conjugate matter is published in its core, by Minic and coauthors since 2020, and three more of his conjectures are published in part. #11 §10's corrected dictionary, one of the two corrections that §15 says sharpened the hard core, is as a map of fluid variables the scale-factor duality of string cosmology with sources; and §11.3's bridge between electric–magnetic duality and Born reciprocity, on which the unification that §15 counts among the program's products rests, is a published remark. The dictionary's derivation from a·ã = 1 is the program's, and the unification conjecture itself was not found (flags 64, 66 and 67 in `review/wiki-build-flags.md`, pending). Prior art changes no claim's status."
+      },
+      {
+       "file": "wiki/method/lakatosian-methodology.md",
+       "current": "  - \"CLAUDE.md preamble\"",
+       "proposed": "  - \"CLAUDE.md preamble\"\n  - \"notes/literature-check.md §2–§6\"\n  - \"notes/literature-check.md §9\"\n  - \"review/wiki-build-flags.md items 64, 66, 67\""
+      },
+      {
+       "file": "wiki/method/lakatosian-methodology.md",
+       "current": "- `HANDOFF.md` §1 and root `CLAUDE.md` (preamble) — \"a Lakatosian research program, not a theory\"",
+       "proposed": "- `HANDOFF.md` §1 and root `CLAUDE.md` (preamble) — \"a Lakatosian research program, not a theory\"\n- `notes/literature-check.md` §2–§6, §9 and `review/wiki-build-flags.md` items 64, 66, 67 — the identification published since 2020, three conjectures published in part, the corrected dictionary as scale-factor duality, §11.3's bridge as a published remark; no status changed; the flags pending"
+      }
+     ],
+     "needs_decision": "None for the wiki edit, which only reports the note. Whether #11 §15 should list these among its degeneration risks is a change to #11 and waits on P.R.'s rulings on flags 64, 66 and 67."
+    },
+    {
+     "finding": "W12",
+     "verdict": "confirmed",
+     "evidence": "wiki/CLAUDE.md, the source of the order, and history/documents/_index.md now put notes/literature-check.md in rank 6, but status/_index.md:35 and source-conflicts.md:64 still list only the closed-universe and momentum-gravity notes. project-instructions.md: its notes/ bullet (64) ends 'on a closed universe and on momentum gravity'; its review/ bullet (65) names only review/monopoles/ (review/wiki-cleanup/ was already missing; the edit adds both); its 'Since the handoff' list has no entry for 2026-11-02 (nor for 2026-11-01); its gate paragraph (98) links every script page except the literature-check script.",
+     "edits": [
+      {
+       "file": "wiki/status/_index.md",
+       "current": "the closed-universe note (`notes/closed-universe.md`, 2026-10-27) and the two momentum-gravity notes (`notes/velocity-gated-gravity.md`, `notes/gate-mechanism.md`, 2026-10-28), none of them reviewed, are current for theirs;",
+       "proposed": "the closed-universe note (`notes/closed-universe.md`, 2026-10-27), the two momentum-gravity notes (`notes/velocity-gated-gravity.md`, `notes/gate-mechanism.md`, 2026-10-28) and the literature-check note (`notes/literature-check.md`, 2026-11-02), none of them reviewed, are current for theirs;"
+      },
+      {
+       "file": "wiki/history/documents/source-conflicts.md",
+       "current": "[the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)), #1 and #9 are superseded as reference, and #14 is withdrawn",
+       "proposed": "[the gate mechanism](/wiki/dark-matter/conjugate-matter/gate-mechanism#exchanging-x-cannot-produce-the-gate)), the literature-check note `notes/literature-check.md` (2026-11-02, not reviewed) is current for its scope, which of P.R.'s conjectures are already published ([the literature check of P.R.'s conjectures](/wiki/method/literature-check)), #1 and #9 are superseded as reference, and #14 is withdrawn"
+      },
+      {
+       "file": "wiki/history/documents/project-instructions.md",
+       "current": "and the later notes on a closed universe and on momentum gravity.",
+       "proposed": "and the later notes on a closed universe, on momentum gravity and on [the literature check of P.R.'s conjectures](/wiki/method/literature-check)."
+      },
+      {
+       "file": "wiki/history/documents/project-instructions.md",
+       "current": "and the record of the monopole sweep, `review/monopoles/`.",
+       "proposed": "and the records of the monopole sweep, `review/monopoles/`, of the wiki clean-up, `review/wiki-cleanup/`, and of the literature check, `review/literature-check/`."
+      },
+      {
+       "file": "wiki/history/documents/project-instructions.md",
+       "current": "- **The queue**, below. Its reasons are in the round-3 adjudication's 'Decisions' section",
+       "proposed": "- **The literature check.** An entry of 2026-11-02 records a search of the published literature for seven of P.R.'s conjectures (`notes/literature-check.md`, not reviewed); no claim's status changed. That dark matter is conjugate matter is published in its core, by Minic and coauthors since 2020, with a dual sector correlated with ours, where the program's couples to ours by gravity alone; the magnetic mirror, conjugate collapse and clumping in momentum space are published in part; monopoles abundant in momentum space, their explanation of the null result and the long-range velocity-gated attraction were not found. The entry lists flags 64–69, pending, and `verify/literature_check.py`, which checks the note against its record. See [the literature check of P.R.'s conjectures](/wiki/method/literature-check) and [open problems and the queue](/wiki/status/open-problems#open-from-the-literature-check).\n- **The queue**, below. Its reasons are in the round-3 adjudication's 'Decisions' section"
+      },
+      {
+       "file": "wiki/history/documents/project-instructions.md",
+       "current": "[the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script) and [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script).",
+       "proposed": "[the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script), [the gate-mechanism script](/wiki/method/verification/gate-mechanism-script) and [the literature-check script](/wiki/method/verification/literature-check-script)."
+      },
+      {
+       "file": "wiki/history/documents/project-instructions.md",
+       "current": "  - \"review/monopoles/README.md\"",
+       "proposed": "  - \"review/monopoles/README.md\"\n  - \"notes/literature-check.md header\"\n  - \"review/literature-check/README.md\""
+      },
+      {
+       "file": "wiki/history/documents/project-instructions.md",
+       "current": "- `review/monopoles/README.md` — the sweep behind the entry on monopoles",
+       "proposed": "- `review/monopoles/README.md` — the sweep behind the entry on monopoles\n- `notes/literature-check.md` header and `review/literature-check/README.md` — the literature check behind the entry of 2026-11-02, and its record"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "W18",
+     "verdict": "confirmed",
+     "evidence": "git diff of wiki/summary.md: the write-up changed 'The dark-energy sector is under real pressure.' to '... under pressure.'. Root CLAUDE.md: 'under real pressure ahead of DR3'; alive.md:62 quotes it. The cut has nothing to do with the literature check and softens a negative statement. The summary is at exactly 800 words by scripts/check-wiki.py's own count (its prose() and strip_code()), so restoring 'real' needs a word removed elsewhere; the edit trades 'in particular' for 'specifically' and keeps 800. The same trims also dropped 'flawed but salvageable' after grade B and 'unassessed by any expert' (the latter covered by 'No human expert has reviewed it'). Restoring the first costs three more words.",
+     "edits": [
+      {
+       "file": "wiki/summary.md",
+       "current": "The dark-energy sector is under pressure.",
+       "proposed": "The dark-energy sector is under real pressure."
+      },
+      {
+       "file": "wiki/summary.md",
+       "current": "No observation in the record favours the program in particular.",
+       "proposed": "No observation in the record favours the program specifically."
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "W19",
+     "verdict": "partly",
+     "evidence": "The sentence is literally true: no repository source places a measurement in the band. Sagunski et al.'s groups sit at mean scattering velocity ≈1150 km/s and clusters ≈1900 km/s (paper's full text, read with lit.py), outside 150–400 km/s, and the note gives no velocities for Kaplinghat, Tulin and Yu's galaxy-scale fits. But the page gives Sagunski's result 'in groups and clusters' while line 97 quotes #1 §5.1's band '(large spirals, small groups)', so a reader can take the group result as an in-band measurement. The suggested wording holds on either reading. Do not add the 1150 km/s figure, which neither the note nor another repository source contains.",
+     "edits": [
+      {
+       "file": "wiki/predictions/self-interaction-knee.md",
+       "current": "No source records a measurement that tests the knee in the 150–400 km/s band.",
+       "proposed": "No source sets a measurement in the 150–400 km/s band against the knee."
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "W20",
+     "verdict": "confirmed",
+     "evidence": "pre-registration.md has sections for the closed-universe and momentum-gravity investigations, none for the literature check, though literature-check.md links it for the rule and the expected verdicts. Its pre-registration scored 4 of 7, 'All three misses underestimate the prior art', both overall predictions held. literature-battery.md 'Progress so far' omits note §9's metadata match for [3]†, [13]† (first paper) and [18]†; [13] is not otherwise recorded there. The timeline's description and italic end with monopoles and 2026-10-30 (the italic also omits the 2026-10-30 to 11-01 clean-up), and its status line still says 'Current to 2026-11-01' above rows dated 2026-11-02 and 2026-11-03.",
+     "edits": [
+      {
+       "file": "wiki/method/review/pre-registration.md",
+       "current": "The SHA-256 hashes of the three files as committed are in `review/momentum-gravity/README.md`. No review round followed; neither note has been reviewed.",
+       "proposed": "The SHA-256 hashes of the three files as committed are in `review/momentum-gravity/README.md`. No review round followed; neither note has been reviewed.\n\n### The literature check (not a review round)\n\nThe same practice was applied on 2026-11-02 to [the literature check](/wiki/method/literature-check) of P.R.'s conjectures. The expected verdict for each of the seven conjectures, with probabilities, two overall predictions, the weakest link of the check and the scoring rule were written \"before any search agent was launched\" and kept outside every folder an agent used until the check was done (`review/literature-check/preregistration.md`; `review/literature-check/README.md`). The file discloses that it was \"written after scouting\": testing the search tools had surfaced three papers, and \"The priors below were formed partly before and partly after seeing them.\" Its scoring, appended after the verdict panel (`notes/literature-check.md` §11):\n\n- right: four of the seven verdicts, those for the two monopole conjectures, for conjugate collapse and for the long-range gated attraction;\n- missed: dark matter as conjugate matter, predicted partly anticipated and found anticipated, and the magnetic mirror and velocity clumping, predicted related only and found partly anticipated; \"All three misses underestimate the prior art\";\n- both overall predictions held: that dark matter as conjugate matter or conjugate collapse would be at least partly anticipated, and that the two monopole conjectures would meet phrase collisions but no proposal of monopoles in momentum space;\n- the weakest link named, recall in venues the tools could not reach, \"is where the residual risk sits\".\n\nNo review round followed; the note has not been reviewed."
+      },
+      {
+       "file": "wiki/method/review/pre-registration.md",
+       "current": "  - \"notes/closed-universe.md §10\"",
+       "proposed": "  - \"notes/closed-universe.md §10\"\n  - \"review/literature-check/preregistration.md\"\n  - \"review/literature-check/README.md\"\n  - \"notes/literature-check.md §11\""
+      },
+      {
+       "file": "wiki/method/review/pre-registration.md",
+       "current": "the momentum-gravity investigation's three pre-registrations, the run-2 blindness failure, and the scores",
+       "proposed": "the momentum-gravity investigation's three pre-registrations, the run-2 blindness failure, and the scores\n- `review/literature-check/preregistration.md`, `review/literature-check/README.md` and `notes/literature-check.md` §11 — the literature check's forecast, its disclosure, its storage outside the agents' folders and its scoring"
+      },
+      {
+       "file": "wiki/method/literature-battery.md",
+       "current": "- **A lead for #13.** The diameter note's literature sweep found Low 2006",
+       "proposed": "- **Metadata checked by the literature check.** The [literature check](/wiki/method/literature-check) of 2026-11-02 found that the bibliographic data of #11's [3]† (both papers), [13]† (its first paper, Levkov, Panin and Tkachev 2018) and [18]† (Montonen and Olive) match INSPIRE; whether they support what #11 cites them for was not checked (`notes/literature-check.md` §9). Reference [3] and Montonen–Olive had already been checked through other manuscripts (above).\n- **A lead for #13.** The diameter note's literature sweep found Low 2006"
+      },
+      {
+       "file": "wiki/method/literature-battery.md",
+       "current": "  - \"papers/broken-born-checkpoint-v2.md §3\"",
+       "proposed": "  - \"papers/broken-born-checkpoint-v2.md §3\"\n  - \"notes/literature-check.md §9\""
+      },
+      {
+       "file": "wiki/method/literature-battery.md",
+       "current": "- `notes/closed-universe.md` §5; `review/wiki-build-flags.md` item 47 — the scope of \"the Fourier transform implements it unitarily\" on a closed space",
+       "proposed": "- `notes/closed-universe.md` §5; `review/wiki-build-flags.md` item 47 — the scope of \"the Fourier transform implements it unitarily\" on a closed space\n- `notes/literature-check.md` §9 — the metadata of [3]†, [13]† and [18]† against INSPIRE"
+      },
+      {
+       "file": "wiki/history/timeline.md",
+       "current": "and the investigations of the phase-space diameter, a closed universe, momentum gravity and monopoles.\"",
+       "proposed": "and the investigations of the phase-space diameter, a closed universe, momentum gravity and monopoles, and the literature check of P.R.'s conjectures.\""
+      },
+      {
+       "file": "wiki/history/timeline.md",
+       "current": "and the wiki, whose update had begun on 2026-10-29, was brought into line.*",
+       "proposed": "and the wiki, whose update had begun on 2026-10-29, was brought into line. On 2026-11-02 a [literature check](/wiki/method/literature-check) of seven of P.R.'s conjectures found one published in its core, three in part and three not found; its write-up the next day added a gate script and six further flags.*"
+      },
+      {
+       "file": "wiki/history/timeline.md",
+       "current": "**Status:** Record — untagged. Current to 2026-11-01:",
+       "proposed": "**Status:** Record — untagged. Current to 2026-11-03:"
+      },
+      {
+       "file": "wiki/history/timeline.md",
+       "current": "listed on 2026-10-30 (6989941). The rows of the monopole discussion were written before their commit.",
+       "proposed": "listed on 2026-10-30 (6989941), and the literature check of 2026-11-02 with its write-up of 2026-11-03. The rows of the monopole discussion and of the literature check were written before their commits."
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X1",
+     "verdict": "confirmed",
+     "evidence": "Count of scripts. the-gate.md:5, description: 'The definition of done: ten verify/ scripts and the wiki check'. The write-up changed the italic (44) and lines 59 and 65 to eleven, and scripts/check.sh lists eleven.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "description: \"The definition of done: ten verify/ scripts and the wiki check,",
+       "proposed": "description: \"The definition of done: eleven verify/ scripts and the wiki check,"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X2",
+     "verdict": "confirmed",
+     "evidence": "Count of scripts. the-gate.md:89: 'The four later scripts back the [V] tags of their notes', while line 155 of the same page now says 'The run predates the five later scripts'. The fifth, verify/literature_check.py, backs no tag: notes/literature-check.md carries no [V], [D] or [T] tag at all (grep).",
+     "edits": [
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "The four later scripts back the [V] tags of their notes:",
+       "proposed": "Four of the five later scripts back the [V] tags of their notes:"
+      },
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "the velocity-gated-gravity note \"except the N-body runs of §8, whose record is kept\".",
+       "proposed": "the velocity-gated-gravity note \"except the N-body runs of §8, whose record is kept\". The fifth, `verify/literature_check.py`, backs no tag: the literature-check note carries none, and the script checks that the note reports its stored record."
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X3",
+     "verdict": "confirmed",
+     "evidence": "Count of scripts, low. the-gate.md Sources: 'notes/velocity-gated-gravity.md header and notes/gate-mechanism.md header — what the two latest scripts recompute' and 'scripts/check.sh as of 2026-10-28 for the last two scripts'. The latest script is now verify/literature_check.py, added to scripts/check.sh in the working tree with the write-up of 2026-11-03.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "— what the two latest scripts recompute;",
+       "proposed": "— what the two momentum-gravity scripts recompute;"
+      },
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "`scripts/check.sh` as of 2026-10-28 for the last two scripts",
+       "proposed": "`scripts/check.sh` as of 2026-10-28 for the two momentum-gravity scripts, and as of 2026-11-03 for `verify/literature_check.py`"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X4",
+     "verdict": "confirmed",
+     "evidence": "What the gate checks. the-gate.md's italic promises a list of what each check leaves out, and 'What is not gated' covers the two earlier investigations' own scripts, but nothing of the literature check. Its docstring: 'It does not test the agents' judgments of how close a paper comes to a conjecture'; full texts are not stored, and scripts/check.sh runs it without --online; review/literature-check/README.md: 'Nothing else here runs in the gate' (consolidate.py, recheck.py, screen.py, lit.py and the rest).",
+     "edits": [
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script#what-it-does-not-recompute)).\n\n## The wiki check",
+       "proposed": "([the velocity-gated-gravity script](/wiki/method/verification/velocity-gated-gravity-script#what-it-does-not-recompute)).\n- **The literature check's judgments.** `verify/literature_check.py` takes the agents' labels as given; its docstring: \"It does not test the agents' judgments of how close a paper comes to a conjecture; the verifiers and the panel tested those.\" Full texts are not stored, so offline it compares a quotation from a full text with the excerpt kept when code found it; the option `--online`, which fetches every source again, is not part of the gate. The check's own tools, among them `review/literature-check/tools/consolidate.py` and `review/literature-check/tools/recheck.py`, do not run in the gate: \"Nothing else here runs in the gate\" (`review/literature-check/README.md`; [the literature-check script](/wiki/method/verification/literature-check-script#what-a-pass-means)).\n\n## The wiki check"
+      },
+      {
+       "file": "wiki/method/verification/the-gate.md",
+       "current": "  - \"HANDOFF.md §2\"\n---",
+       "proposed": "  - \"HANDOFF.md §2\"\n  - \"review/literature-check/README.md\"\n---"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X5",
+     "verdict": "confirmed",
+     "evidence": "Script coverage, low. independent-anchors.md 'The anchors in the gate now' covers the soliton script, the toy scripts, 'The four later scripts' and the battery, and the verification index says the page 'lists the anchors each current script uses'. verify/literature_check.py, which has no anchors (it starts with section A, the verdicts), is not mentioned. No page links #the-four-later-scripts, so that heading can stay.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/independent-anchors.md",
+       "current": "and exact integer arithmetic ([the verification battery](/wiki/method/verification/battery)).",
+       "proposed": "and exact integer arithmetic ([the verification battery](/wiki/method/verification/battery)).\n\n### The literature-check script\n\n`verify/literature_check.py` has no anchors either. It recomputes no physics: it checks the literature-check note against the record the check left, finding each quotation again in a stored abstract or excerpt and each citation in a metadata snapshot from INSPIRE, arXiv, Crossref or OpenAlex ([the literature-check script](/wiki/method/verification/literature-check-script))."
+      },
+      {
+       "file": "wiki/method/verification/independent-anchors.md",
+       "current": "  - \"verify/battery.py\"",
+       "proposed": "  - \"verify/battery.py\"\n  - \"verify/literature_check.py\""
+      },
+      {
+       "file": "wiki/method/verification/independent-anchors.md",
+       "current": "- `verify/battery.py` — the parity checks, which are reproductions",
+       "proposed": "- `verify/battery.py` — the parity checks, which are reproductions\n- `verify/literature_check.py` — a script without anchors, which checks a note against its stored record"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X6",
+     "verdict": "confirmed",
+     "evidence": "Statements that a check confirms arithmetic. verification/_index.md italic: verification 'means recomputing the numbers that the documents assert' and 'A passing script shows that the arithmetic is right for the model it encodes'; glossary.md:303, 'Machine-checked': 'A machine check confirms the arithmetic of the model the script encodes'. verify/literature_check.py encodes no model; its docstring: a pass 'confirms that the note matches its record and the record its stored sources'. Related, not edited: wiki/_index.md:44 and provenance-tags.md:62 define [V] as reproduced arithmetic, which conflicts with literature-check.md:16's [V] on quotations (W14); removing that [V] resolves it.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/_index.md",
+       "current": "A passing script shows that the arithmetic is right for the model it encodes, not that the model describes nature.*",
+       "proposed": "A passing script shows that the arithmetic is right for the model it encodes, not that the model describes nature. One script checks a literature search instead: it confirms that the literature-check note reports its stored record, not the agents' judgments behind it.*"
+      },
+      {
+       "file": "wiki/glossary.md",
+       "current": "A machine check confirms the arithmetic of the model the script encodes, not that the model is the right physics.",
+       "proposed": "A machine check confirms the arithmetic of the model the script encodes, not that the model is the right physics; `verify/literature_check.py`, which encodes no model, confirms that the literature-check note reports its stored record."
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X7",
+     "verdict": "confirmed",
+     "evidence": "Count of flags. history/documents/checkpoint.md, 'What the wiki flags', lists the flags raised on #11 by the build, the closed-universe note, the momentum-gravity notes and the monopole discussion, through item 63. Grep finds no mention of items 64–69 or of the literature check, though all six concern #11: App. A items 4 and 9, §8, §10, §11.3, §11.4, §12 and §13 row 1 (review/wiki-build-flags.md).",
+     "edits": [
+      {
+       "file": "wiki/history/documents/checkpoint.md",
+       "current": "The flag proposes wording for both rows and is pending ([above](#inconsistencies-inside-11)).",
+       "proposed": "The flag proposes wording for both rows and is pending ([above](#inconsistencies-inside-11)).\n\nThe literature check of 2026-11-02 ([the literature check of P.R.'s conjectures](/wiki/method/literature-check); searched and verified by independent agents, not reviewed) added items 64–69 on #11, each pointing to published work #11 does not cite, or cites for something else, and all pending: item 64, the identification of dark matter with the dual of visible matter, published by Minic and coauthors since 2020 and uncited at App. A item 4, §8 and §12; item 65, partial prior art for §11.4, §10 and App. A item 9; item 66, §10's corrected dictionary, which as a map of fluid variables is the scale-factor duality of string cosmology with sources; item 67, §11.3's bridge between the two dualities, a published remark; item 68, §12's exclusion of the minimal hidden sector, reached independently by Brümmer, Ferrante, Fischer and Frigerio 2026; and item 69, row 1's \"zero cluster signal (particle χ)\", beside two fits that mildly prefer a nonzero cross-section at cluster speeds."
+      },
+      {
+       "file": "wiki/history/documents/checkpoint.md",
+       "current": "  - \"review/wiki-build-flags.md items 59, 60, 61, 62, 63\"",
+       "proposed": "  - \"review/wiki-build-flags.md items 59, 60, 61, 62, 63\"\n  - \"review/wiki-build-flags.md items 64–69\"\n  - \"notes/literature-check.md §9\""
+      },
+      {
+       "file": "wiki/history/documents/checkpoint.md",
+       "current": "`notes/closed-universe.md` §8–§9 and `verify/closed_universe.py` section F — the polarization's defects and their gated homotopy",
+       "proposed": "`notes/closed-universe.md` §8–§9 and `verify/closed_universe.py` section F — the polarization's defects and their gated homotopy\n- `review/wiki-build-flags.md` items 64–69 and `notes/literature-check.md` §9 — the literature check's flags on #11, pending"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X8",
+     "verdict": "confirmed",
+     "evidence": "Novelty. scale-factor-duality/_index.md: 'The next five pages are the program's own.' Note §6 finds published counterparts for two of them. The dictionary is, 'as a map of fluid variables', the scale-factor duality of string cosmology with sources (flag 66; the dictionary page's new 'In the literature' section says so). A contracting partner universe that drives our acceleration is published (Henry-Couannier; flag 65). The program keeps the derivation from a·ã = 1 and the partner as the momentum description of our own universe.",
+     "edits": [
+      {
+       "file": "wiki/cosmology/scale-factor-duality/_index.md",
+       "current": "and restated in the [checkpoint](/wiki/history/documents/checkpoint) (#11 §10); none of the derivations is machine-checked.",
+       "proposed": "and restated in the [checkpoint](/wiki/history/documents/checkpoint) (#11 §10); none of the derivations is machine-checked. The published literature holds parts of two of them: the dictionary, as a map of fluid variables, is the scale-factor duality of string cosmology with sources, and a contracting partner universe that drives our acceleration is published, though not as the momentum description of our own universe (flags 65 and 66 in `review/wiki-build-flags.md`, pending; [the literature check](/wiki/method/literature-check))."
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X9",
+     "verdict": "partly",
+     "evidence": "Novelty, low. dirac-quantization.md:113 quotes #11 §11.3's 'the same [[0,1],[−1,0]] rotation as Born's ρ' and adds, in the wiki's voice, 'These are program claims'. Note §5: Gibbons and Herdeiro 2001, 'electric-magnetic duality is a special case of Born-Reciprocity', 'a transformation which acts as a rotation in phase space'; #11 'draws the bridge as its own observation' (flag 67). 'Program claims' can be read as 'claims #11 makes', which stays true, so the statement is incomplete, not false. The page has no flag-67 pointer, and W9 does not list it.",
+     "edits": [
+      {
+       "file": "wiki/electric-magnetic-duality/monopoles/dirac-quantization.md",
+       "current": "[Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure). #14 §2 used the same reading",
+       "proposed": "[Open: one modular structure for both polarizations (OP8)](/wiki/electric-magnetic-duality/unified-modular-structure); that electric–magnetic duality is a case of Born reciprocity, a rotation in phase space, is also a published remark (flag 67 in `review/wiki-build-flags.md`, pending). #14 §2 used the same reading"
+      }
+     ],
+     "needs_decision": "none"
+    },
+    {
+     "finding": "X10",
+     "verdict": "partly",
+     "evidence": "What the gate checks, low. verification/_index.md, Boundaries: suspected errors 'with their executed checks, are recorded in review/wiki-build-flags.md and review/wiki-build-checks/, outside the gate'. Section F of verify/literature_check.py now checks every quotation of flags 64–69 in the gate, as the flags file's closing paragraph and notation.md:391 say. The sentence was already partly false before the check, since the arithmetic of flags 27 (addendum), 45–58 and 61 is in verify/.",
+     "edits": [
+      {
+       "file": "wiki/method/verification/_index.md",
+       "current": "are recorded in `review/wiki-build-flags.md` and `review/wiki-build-checks/`, outside the gate;",
+       "proposed": "are recorded in `review/wiki-build-flags.md` and `review/wiki-build-checks/`, outside the gate, except the arithmetic of flags 27 (addendum), 45–58 and 61, which is in `verify/`, and the quotations of flags 64–69, which `verify/literature_check.py` checks;"
+      }
+     ],
+     "needs_decision": "none"
+    }
+   ],
+   "notes": "I edited no repository file. Scratch files are in /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/verify/wiki-v2/: edits.py and edits.json (all 53 proposed edits), results.json, apply_edits.py, summary_words.py, and sandbox/, a copy of the repository without .git, .venv and work.\n\nHow the edits were tested:\n- Each 'current' excerpt occurs exactly once in its repository file.\n- All 53 edits were applied to sandbox/ in one pass.\n- scripts/check-wiki.py on the copy printed \"wiki OK — 328 pages, no problems\". The live repository also passes, as does verify/literature_check.py.\n- wiki/summary.md counts exactly 800 words by the gate's own functions, both now and with W18's edit (it was 792 at HEAD). Any addition there, including W8's, has to be offset by cuts.\n\nThings outside my assignment that bear on it:\n1. Flag-67 pointers (W9's kind). Pages quoting #11 §11.3's \"the same [[0,1],[−1,0]] rotation\"/\"third appearance of one matrix\" have none: phase-space/reciprocity/born-reciprocity.md:132, phase-space/reciprocity/symplectic-form.md:112, phase-space/modular-field/modular-inversion.md:127, electric-magnetic-duality/s-duality.md:45 and :85, electric-magnetic-duality/modular-group.md:128, electric-magnetic-duality/monopoles/witten-effect.md:109, electric-magnetic-duality/_index.md:24. W9 lists only symplectic-charge-lattice, assessment, hard-core and alive.\n2. F6 in the wiki. method/literature-check.md:39 (\"a rule written down before any search ran\") and method/verification/literature-check-script.md:28 (\"The verdicts predicted before any search ran\") repeat the note's wording. The pre-registration says \"before any search agent was launched\" and discloses scouting; my W20 section uses the record's words, so those two lines will disagree with it until F6 is fixed.\n3. Dates and omissions I left alone:\n   - The timeline italic also leaves out the clean-up of 2026-10-30 to 11-01.\n   - alive.md's status line still says \"current to 2026-10-30\".\n   - project-instructions.md has no 'Since the handoff' bullet for the 2026-11-01 wiki-voice entry either. My W12 edit adds review/wiki-cleanup/ to the review/ bullet, because the root CLAUDE.md names it in the same line.\n4. W19: the group velocity (about 1150 km/s) comes from the paper's arXiv HTML, read through lit.py's cache. It is evidence only and should not go into the wiki.\n5. W5: the edit says the script holds the note's prose counts (287, 498, 143, 31 agents, 11.2M tokens, six label changes, 4 of 7) as its own copies in EXPECT. An edit to those numbers in the note's prose would therefore not trip it. That matters if anyone takes the planted-error test to mean all of the note's figures are gated."
+  }
+ ],
+ "rerun": {
+  "queries_run": [
+   {
+    "conjecture": "C6",
+    "database": "OpenAlex title_and_abstract (lit.py openalex --size 200): REFUSED, HTTP 429 (lit.py's six attempts, 61 s); free daily budget for this IP used up until 2026-11-04 00:00 UTC; Q02-Q26 therefore not sent",
+    "query": "\"dark matter\" \"velocity alignment\"",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C7",
+    "database": "arXiv API (lit.py arxiv); round-1 g5 query that never ran",
+    "query": "abs:Weber AND abs:gravitational AND (abs:\"velocity-dependent\" OR abs:\"velocity dependent\") AND (abs:galaxies OR abs:\"dark matter\" OR abs:\"rotation curves\")",
+    "hits": 0,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C7",
+    "database": "arXiv API (lit.py arxiv); control showing the zero above is not a parsing failure",
+    "query": "abs:Weber AND abs:gravitational",
+    "hits": 59,
+    "new_records_screened": 48,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C2",
+    "database": "arXiv API (lit.py arxiv); round-1 g2 title lookup (a collision), resolved in round 1 by INSPIRE and Crossref",
+    "query": "ti:\"Exponential localization of Wannier functions in insulators\"",
+    "hits": 1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C1",
+    "database": "Semantic Scholar public API, no key: REFUSED, HTTP 429; S2-S4 therefore not sent",
+    "query": "dark matter as matter localized in momentum space Born reciprocity",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "OpenAlex single-work lookup (charged $0; its headers show the budget: remaining 0 of 0.1 USD, reset in 11441 s)",
+    "query": "works/W3153563614 (Khademi 2009)",
+    "hits": 1,
+    "new_records_screened": 1,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "Handle server API (hdl.handle.net)",
+    "query": "20.500.12415/6128",
+    "hits": 1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "Maltepe University repository: landing page, OAI-PMH GetRecord, DSpace REST pid/find, PDF bitstream 371.pdf: HTTP 403 (nginx) each",
+    "query": "handle 20.500.12415/6128",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "Wayback Machine availability API and CDX index",
+    "query": "openaccess.maltepe.edu.tr URLs containing 12415/6128 (item pages, bitstreams); and 12415/2255",
+    "hits": 2,
+    "new_records_screened": 1,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "OpenAIRE search API (no key)",
+    "query": "title=Why magnetic monopoles are not seen",
+    "hits": 1,
+    "new_records_screened": 1,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "CORE API v3 (HTTP 429) and core.ac.uk search (bot check)",
+    "query": "\"Why magnetic monopoles are not seen\"",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "BASE web search (JavaScript proof-of-work page, no results served)",
+    "query": "\"Why magnetic monopoles are not seen\"",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "Google Books API (HTTP 429, daily quota)",
+    "query": "isbn:9786052124154",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "Semantic Scholar title match (HTTP 429)",
+    "query": "Why magnetic monopoles are not seen",
+    "hits": -1,
+    "new_records_screened": 0,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "WebSearch (extended)",
+    "query": "\"Why magnetic monopoles are not seen\" Khademi \"International Conference of Mathematical Sciences\" 2009",
+    "hits": 9,
+    "new_records_screened": 9,
+    "read_in_full": 0
+   },
+   {
+    "conjecture": "C3",
+    "database": "WebSearch (standard) and WebFetch of maltepe.edu.tr/icms/en/proceedings",
+    "query": "\"International Conference of Mathematical Sciences\" 2009 Maltepe University proceedings abstracts pdf ISBN 9786052124154",
+    "hits": 10,
+    "new_records_screened": 10,
+    "read_in_full": 0
+   }
+  ],
+  "findings": [
+   {
+    "conjecture": "C3",
+    "id": "hdl:20.500.12415/6128",
+    "citation": "S. Khademi, \"Why magnetic monopoles are not seen?\", International Conference of Mathematical Sciences (Maltepe Üniversitesi, 2009), pp. 365-366, ISBN 9786052124154; Maltepe University open-access repository, hdl:20.500.12415/6128 (now 20.500.12415/2255 in OpenAIRE), CC0; OpenAlex W3153563614 (conference proceedings: a two-page contribution; OpenAIRE marks it nonPeerReviewed)",
+    "relation": "related",
+    "summary": "Explains the non-detection of magnetic monopoles by quantum uncertainty in phase space. The abstract: Maxwell's dual symmetry predicts monopoles, which have not been detected, and Dirac obtained charge quantization from them; the paper shows that 'the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles'. Read from the repository's own item page as archived by the Wayback Machine (2021-05-10) and from OpenAIRE's harvest of the repository (2026-08-19). The two-page text (371.pdf) could not be retrieved.",
+    "difference": "Same question as C3 (why monopoles are not seen) and the same kind of agent, position-momentum (phase-space) quantum uncertainty, which C3's own statement uses (an object compact in momentum is spread in position by about hbar/Delta p). The abstract does not say where the monopoles live: no momentum space, conjugate or p-polarized sector, Born reciprocity, dark matter or abundance, and no claim that position-space searches miss objects compact in momentum. Only the two-page text can show whether its argument is C3's mechanism (which would make it partial) or another use of phase-space uncertainty, and it is still unread. Inference, not read: its 'phase space quantum mechanics' is probably the Kirkwood phase-space picture of Khademi and Nasiri 2008 (J. Phys. Conf. Ser. 128, 012016; C4 related in findings.json), which obtains charge quantization without monopoles. The repository lists Khademi alone; round 3's Zanjan faculty listing gives S. Khademi and S. Nasiri for a talk of the same title at the Multiphysics conference, Lille, December 2009 (not checked). It is the closest item to C3 the check has found.",
+    "quotes": [
+     {
+      "text": "In this paper I show the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles.",
+      "where": "abstract",
+      "check": "FOUND with lit.py's norm() (round5/scripts/qlocal.py) in two copies: the repository's item page as archived by the Wayback Machine (capture 20210510055659, round5/khademi/wayback/item-20210510.html) and the OpenAIRE record harvested from the repository (round5/khademi/agg4.body); lit.py quote cannot reach either (no DOI or arXiv id; the repository answers HTTP 403)"
+     },
+     {
+      "text": "Dual symmetry of Maxwell’s equations predicts the existence of magnetic monopoles which are not detected until now.",
+      "where": "abstract",
+      "check": "FOUND with lit.py's norm() (round5/scripts/qlocal.py) in two copies: the repository's item page as archived by the Wayback Machine (capture 20210510055659, round5/khademi/wayback/item-20210510.html) and the OpenAIRE record harvested from the repository (round5/khademi/agg4.body); lit.py quote cannot reach either (no DOI or arXiv id; the repository answers HTTP 403)"
+     }
+    ]
+   }
+  ],
+  "khademi_2009": "Abstract read; full text still unreadable. The handle server API resolves hdl 20.500.12415/6128 to openaccess.maltepe.edu.tr/handle/20.500.12415/6128; the repository answers a plain nginx 403 to the landing page, OAI-PMH GetRecord, the DSpace REST API and the PDF bitstream, as on 2026-11-02 (not worked around). The Wayback Machine holds the repository's own item page (DSpace 6.2, capture 2021-05-10, HTTP 200), and OpenAIRE's API returns the same record harvested from the repository (collected 2026-08-19, now under handle 20.500.12415/2255 after a renumbering). Both give the abstract and the metadata: conference object, 'Why magnetic monopoles are not seen?', Siamak Khademi alone, source 'International Conference of Mathematical Sciences', publisher Maltepe Üniversitesi, 2009, pp. 365-366, ISBN 9786052124154, CC0, full text 371.pdf (97.93 KB); OpenAIRE marks it nonPeerReviewed. Abstract, verbatim (FOUND with lit.py's norm() in both copies): 'Dual symmetry of Maxwell’s equations predicts the existence of magnetic monopoles which are not detected until now. As an important consequence of this prediction, the quantization of electric charge is obtained by P.A.M. Dirac. In this paper I show the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles.' The PDF was never archived (CDX: no bitstream URL). The other routes failed: OpenAlex W3153563614 has one location (the repository), no abstract, closed; CORE gave API 429 and a web bot check; BASE served a JavaScript proof-of-work page; Google Books gave 429 for the ISBN; Semantic Scholar's title match gave 429; two web searches and Maltepe's ICMS proceedings page found no copy and no 2009 volume. Label for C3: related, conservatively. It explains the same null result by phase-space quantum uncertainty, but the abstract does not place the monopoles in momentum space, so C3's 'not found' stands on the abstract. The two-page text could raise the item to partial, and it is still unread.",
+  "notes": "OPENALEX HAD NOT RESET. The task's premise did not hold: round 3 used up the free daily budget at about 01:04 UTC on 2026-11-03, and it renews at 00:00 UTC on 2026-11-04 (16:00 PST on 2026-11-03). At 20:49 UTC a free single-work lookup returned x-ratelimit-remaining-usd 0 of 0.1 and x-ratelimit-reset 11441 s. Q01 was sent once through lit.py at 20:52 UTC and refused (OpenAlex error 429). Per the instruction, the OpenAlex part stopped there: 25 of the 26 collected OpenAlex queries (Q02-Q26) were never sent. Semantic Scholar refused the first of its four queries (429), and the other three were not sent. COLLECTED: 26 OpenAlex, 4 Semantic Scholar and 2 arXiv queries, each with its conjecture and source, are in work/literature-check/round5/not-run-queries.json. Where round 3 recorded only a topic (five C5 topics; three lineage phrase sweeps; the C7 velocity-dependent-gravity set), the query string is round 5's formulation and is marked 'formulated'. Round 3's notes name six re-run queries outside its JSON query lists (Q08-Q13). Five recorded errors need no rerun: two round-1 arXiv queries ran later in round 1 (10 and 16 hits), Crossref cp01-cp03 ran at once in round 3, the curl probe is not a search, and one lineage phrase is contained in Q22. RAN: arXiv A1 (C7) gave 0 hits; a broader control gave 59 hits, 50 screened by title, nothing new bearing on C7. A2 returned Brouder et al. 2007, already in the record. Two web-search hits screened for C3 add nothing: Sidharth 2001 is already in the record, and Kováčik-Prešnajder 2018 (1804.10679) reformulates quantum mechanics with monopoles and does not address their non-detection. NEW FINDINGS: one, Khademi 2009 for C3 (related), above. No collisions worth listing; no evidence-against. FOR THE RECORD (not edited here): notes/literature-check.md §4 says OpenAlex holds the item's title and no abstract and that C3's 'not found' stands until it is read. The abstract is now read and does not state C3, so 'not found' stands on the abstract, with the full text unread. The note's reference list should take the full citation (title with '?', ICMS 2009, pp. 365-366, ISBN), and §4's list of other accounts of the null result could add it. TO FINISH AFTER 00:00 UTC: python3 work/literature-check/round5/scripts/run_openalex.py. It checks the budget with a free lookup and sends nothing at zero; otherwise it sends Q01-Q26 once each through lit.py, stops at the first 429, and screens each answer against findings.json and known.json (out/<ID>.screen.tsv); --dry-run lists the commands. SIDE EFFECT: lit.py wrote new arXiv API entries and lock timestamps into work/literature-check/cache/; the gate does not read that cache. Nothing else outside work/literature-check/round5/ was edited. Working notes: work/literature-check/round5/notes.md; every request sent: work/literature-check/round5/queries.tsv."
+ },
+ "checks": []
+}

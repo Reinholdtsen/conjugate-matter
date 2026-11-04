@@ -1,0 +1,1 @@
+arXiv: 0 hits for: abs:Weber AND abs:gravitational AND (abs:"velocity-dependent" OR abs:"velocity dependent") AND (abs:galaxies OR abs:"dark matter" OR abs:"rotation curves")  (showing 0)

@@ -1,0 +1,499 @@
+{
+ "reader": "r3-dark-energy",
+ "items": [
+  {
+   "recid": "2967413",
+   "verdict": "not-relevant",
+   "reason": "Negative cosmological constant of a BTZ/AdS3 background; curved momentum space renormalizes the black-hole mass. No dark energy or acceleration."
+  },
+  {
+   "recid": "1789711",
+   "verdict": "finding",
+   "reason": "Born-reciprocal phase-space gravity gives late-time de Sitter and a small Λ; no conjugate collapse. Related; abstract only."
+  },
+  {
+   "recid": "1744437",
+   "verdict": "not-relevant",
+   "reason": "Λ is only the curvature parameter of κ-deformed (A)dS kinematics and momentum spaces; no cosmic dynamics."
+  },
+  {
+   "recid": "1510471",
+   "verdict": "not-relevant",
+   "reason": "Compact field-value phase space shifts a scalar field's zero-point energy; no cosmology, dark energy or conjugate universe."
+  },
+  {
+   "recid": "1415743",
+   "verdict": "not-relevant",
+   "reason": "Same nonlinear field space theory: a vacuum-energy shift, whose cosmological-constant consequences it leaves undone."
+  },
+  {
+   "recid": "1402205",
+   "verdict": "not-relevant",
+   "reason": "pc-GR gray stars: dark energy halts ordinary stellar collapse. A word collision, recorded once under 1202.6561."
+  },
+  {
+   "recid": "1303626",
+   "verdict": "not-relevant",
+   "reason": "pc-GR gray stars: dark energy halts ordinary stellar collapse. A word collision, recorded once under 1202.6561."
+  },
+  {
+   "recid": "1091066",
+   "verdict": "finding",
+   "reason": "pc-GR: dark energy gathers around masses and halts stellar collapse. Recorded as the collision for the pc-GR family."
+  },
+  {
+   "recid": "870803",
+   "verdict": "not-relevant",
+   "reason": "Vacuum-energy value from noncommutative-phase-space corrections to an oscillator's zero-point energy; no conjugate universe or acceleration."
+  },
+  {
+   "recid": "1268217",
+   "verdict": "not-relevant",
+   "reason": "pc-GR review: dark energy around masses prevents collapse. A word collision, recorded under 1202.6561."
+  },
+  {
+   "recid": "643561",
+   "verdict": "not-relevant",
+   "reason": "A closed momentum space with maximal momentum makes vacuum energy finite; no cosmic acceleration or contraction."
+  },
+  {
+   "recid": "3137722",
+   "verdict": "not-relevant",
+   "reason": "Kinematic invariant linking the de Sitter radius and the Planck length; no dynamics, dark-energy source or contraction."
+  },
+  {
+   "recid": "1337486",
+   "verdict": "not-relevant",
+   "reason": "Representations of the Snyder–de Sitter algebra; Λ is a fixed kinematic scale."
+  },
+  {
+   "recid": "789406",
+   "verdict": "not-relevant",
+   "reason": "'Cosmological constant' is the world-line reparametrization constant; the collision is recorded under 0706.3736."
+  },
+  {
+   "recid": "753956",
+   "verdict": "finding",
+   "reason": "'World-line cosmological constant' in reciprocal relativity: same words for a different thing (collision)."
+  },
+  {
+   "recid": "2778134",
+   "verdict": "finding",
+   "reason": "Journal version of 2305.12593: vacuum energy from phase-space volume (FKGLM). Related; no conjugate dynamics."
+  },
+  {
+   "recid": "2662459",
+   "verdict": "finding",
+   "reason": "Vacuum energy as momentum-space volume; the dual dimension shrinks in an expansion limit, a decoupling limit only. Related."
+  },
+  {
+   "recid": "2609897",
+   "verdict": "finding",
+   "reason": "Vacuum energy bounded by momentum-space size, which UV/IR ties to the universe's size; static. Related."
+  },
+  {
+   "recid": "1356974",
+   "verdict": "not-relevant",
+   "reason": "'Phase space' is the thermodynamic phase space; de Sitter emerges from thermodynamic fluctuations."
+  },
+  {
+   "recid": "2669772",
+   "verdict": "not-relevant",
+   "reason": "dS/CFT thesis; positive Λ is background only. Abstract read; no arXiv."
+  },
+  {
+   "recid": "2647298",
+   "verdict": "finding",
+   "reason": "Essay version of FKGLM 2022: Λ is small because the universe is large. Related."
+  },
+  {
+   "recid": "1736529",
+   "verdict": "finding",
+   "reason": "Curvature of the canonically conjugate dual space gives our Λ; static, no collapse. Partial."
+  },
+  {
+   "recid": "1487060",
+   "verdict": "not-relevant",
+   "reason": "pc-GR neutron stars; dark energy halts collapse; the pc-Robertson–Walker model only mentioned. PoS PDF read."
+  },
+  {
+   "recid": "1840422",
+   "verdict": "finding",
+   "reason": "pc-Robertson–Walker model: velocity-like partner scale factor shrinks as a_R⁻⁴, not linked to the acceleration. Related."
+  },
+  {
+   "recid": "3159191",
+   "verdict": "not-relevant",
+   "reason": "Quantum-deformed stress tensor; dark energy only as a speculative outlook and in reference titles."
+  },
+  {
+   "recid": "2808256",
+   "verdict": "not-relevant",
+   "reason": "Extended-relativity review; dark energy only as an open problem and a minimal-acceleration/maximal-length aside."
+  },
+  {
+   "recid": "3071212",
+   "verdict": "not-relevant",
+   "reason": "Kaluza–Klein dispersion relation; dark energy only in the motivation and one passing remark."
+  },
+  {
+   "recid": "1607235",
+   "verdict": "not-relevant",
+   "reason": "Sp(4,R) gravitation; dark energy only as an outlook. A lead for broken reciprocity, not for C5."
+  },
+  {
+   "recid": "1424240",
+   "verdict": "not-relevant",
+   "reason": "Minimal length and gauge invariance; dark energy only in reference titles."
+  },
+  {
+   "recid": "1707041",
+   "verdict": "not-relevant",
+   "reason": "Rainbow-like black-hole interior; dark energy mentioned once in passing."
+  },
+  {
+   "recid": "2909423",
+   "verdict": "not-relevant",
+   "reason": "Quadratic gravity and Starobinsky inflation; Λ is a free parameter and dark energy is set aside."
+  },
+  {
+   "recid": "2164109",
+   "verdict": "not-relevant",
+   "reason": "GUP/EUP and curved momentum space; dark energy only in reference titles."
+  },
+  {
+   "recid": "1785947",
+   "verdict": "not-relevant",
+   "reason": "A compact gravitational phase space makes a Λ-dominated universe recollapse; no conjugate source of acceleration."
+  },
+  {
+   "recid": "1590023",
+   "verdict": "not-relevant",
+   "reason": "Compact phase space of a quintessence/inflaton field causes late recollapse; no conjugate universe."
+  },
+  {
+   "recid": "3169277",
+   "verdict": "not-relevant",
+   "reason": "Born-reciprocal tensor network for UV/IR mixing; dark energy only in a scale-coincidence remark."
+  },
+  {
+   "recid": "2740764",
+   "verdict": "not-relevant",
+   "reason": "Lorentz covariance of quantum mechanics; dark energy only in the motivation."
+  },
+  {
+   "recid": "1934108",
+   "verdict": "not-relevant",
+   "reason": "UV non-local gravity and bounces; dark energy only in the standard introduction. Thesis PDF text read."
+  },
+  {
+   "recid": "2032186",
+   "verdict": "finding",
+   "reason": "Restates BHM 2019: a dual geometry leads to dark energy in observed spacetime. Partial."
+  },
+  {
+   "recid": "1267197",
+   "verdict": "not-relevant",
+   "reason": "Galois-field quantum theory; dark energy only as motivation and outlook."
+  },
+  {
+   "recid": "1490024",
+   "verdict": "not-relevant",
+   "reason": "Principles for quantum gravity and MOND; dark energy only in a footnote."
+  },
+  {
+   "recid": "1721746",
+   "verdict": "finding",
+   "reason": "Proposes that integrating out dual/'momentum' string modes yields de Sitter; static, a proposal. Partial."
+  },
+  {
+   "recid": "2729212",
+   "verdict": "not-relevant",
+   "reason": "Quantum-gravity phenomenology roadmap; dark energy only as cosmological input for time-delay tests."
+  },
+  {
+   "recid": "1863665",
+   "verdict": "not-relevant",
+   "reason": "F-theory and T-duality thesis; dark energy only in reference titles."
+  },
+  {
+   "recid": "1950268",
+   "verdict": "not-relevant",
+   "reason": "Random flow of time; dark energy only in a reference title. PDF read."
+  },
+  {
+   "recid": "2162187",
+   "verdict": "not-relevant",
+   "reason": "Thesis on minisuperspace symmetries; dark energy only in a reference title. PDF read."
+  },
+  {
+   "recid": "1680671",
+   "verdict": "not-relevant",
+   "reason": "Teleparallel double field theory; dark energy only in reference titles."
+  },
+  {
+   "recid": "1852838",
+   "verdict": "not-relevant",
+   "reason": "Two position-space patches exchange energy via deformed momentum brackets; the Λ emulation is Falomir et al. 2017's."
+  }
+ ],
+ "findings": [
+  {
+   "conjecture": "C5",
+   "id": "1905.09463",
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"Dark energy and quantum gravity\" (arXiv title \"On Dark Energy and Quantum Gravity\"), Int. J. Mod. Phys. D 28 (2019) 1944018, arXiv:1905.09463 (journal; Gravity Research Foundation essay)",
+   "relation": "partial",
+   "summary": "In the doubled, non-commutative (metastring, Born-geometric) phase-space formulation of string theory, the dual coordinates x̃, the difference of left- and right-movers, span what the authors call 'the canonically conjugate dual space'. Integrating the doubled action −∫√−g(x)√−g̃(x̃)[R(x) + R̃(x̃)] (Tseytlin's form) over x̃ makes the size of the dual space set Newton's constant, and its curvature set a positive cosmological constant in the observed spacetime: the dual space's curvature 'provides for the dark energy'. The paper argues that non-commutativity stabilizes Λ, through the Grosse–Wulkenhaar solvability of non-commutative Φ⁴. It makes the same claim as the authors' Phys. Lett. B 798 (2019) 134950 (arXiv:1905.08269), which the C5 search group labeled partial. The record already quotes the same claim from BHM 2023 (arXiv:2212.06086) in papers/phase-space-diameter.md §4, for the self-dual length, and does not compare it with C5.",
+   "difference": "The attribution is static. Our Λ is the x̃-integrated curvature term of the dual space, not the contents of a contracting conjugate universe. Nothing contracts or collapses, and there is no a·ã = 1 dynamics, no dual-frame fluid and no w_eff = −w̃ dictionary. The two treatments assign the dual Einstein–Hilbert term differently: here it gives Λ, while #11 §10 makes the dual Einstein term an a⁻⁶ step in G_eff and maps dual curvature to negative dark radiation. That step is itself not derived (flag 49), and BHM's x̃-integration bears on it. BHM's dual space is the metastring's T-dual x̃ space, canonically conjugate to x; it is not the momentum-space description of one state selected by a spontaneously broken polarization.",
+   "quotes": [
+    {
+     "text": "the curvature of the canonically conjugate dual space provides for the dark energy inducing a positive cosmological constant in the observed spacetime, whereas the size of the above dual space is the gravitational constant in the same observed de Sitter spacetime",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Essentially, the curvature of the dual space is the cosmological constant in the observed spacetime, and the size of the dual space is the gravitational constant in the same observed spacetime.",
+     "where": "full text, concluding paragraph",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1905.09463))"
+    },
+    {
+     "text": "the canonically conjugate dual space, spanned by the difference of the left- and right-movers",
+     "where": "full text, setup of the doubled formulation",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1905.09463))"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "1902.08617",
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"On Stringy de Sitter Spacetimes\", JHEP 12 (2019) 166, arXiv:1902.08617 (journal)",
+   "relation": "partial",
+   "summary": "The paper's main content is a family of 3+1-dimensional de Sitter solutions in F-theory with an anisotropic axion-dilaton background. Its synopsis proposes that integrating over the 'dual/\"momentum\" string degrees of freedom' of the phase-space (metastring) formulation will naturally produce an effective de Sitter background, through an induced anisotropic dilaton profile whose anisotropy carries the positive cosmological constant. The authors present this as a proposal with 'some evidence ... but not a detailed proof'. It is the earliest of the three 2019 Berglund–Hübsch–Minić statements that our positive Λ comes from the dual sector (arXiv, February 2019).",
+   "difference": "It is a proposal, not a derivation, and it is static: the positive Λ comes from integrating out dual degrees of freedom, not from a contracting or collapsing conjugate universe. There is no a·ã = 1, no dual-frame fluid and no w_eff = −w̃. The de Sitter of the paper's actual solution comes from an anisotropic axion-dilaton profile in F-theory.",
+   "quotes": [
+    {
+     "text": "In that formulation, we can integrate over such dual/“momentum” string degrees of freedom in order to generate an effective spacetime description.",
+     "where": "full text, section 1 (Introduction, Results and Synopsis), 'The Main Point'",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1902.08617))"
+    },
+    {
+     "text": "Our proposal (for which we have some evidence from our solution, but not a detailed proof, as discussed in what follows) is that this procedure will naturally lead to an effective de Sitter background",
+     "where": "full text, section 1, 'The Main Point'",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1902.08617))"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2202.06890",
+   "citation": "P. Berglund, L. Freidel, T. Hübsch, J. Kowalski-Glikman, R. G. Leigh, D. Mattingly, D. Minic, \"Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation\", arXiv:2202.06890 (2022); Snowmass 2021 contribution, arXiv preprint only",
+   "relation": "partial",
+   "summary": "This white paper restates the Berglund–Hübsch–Minić claim in one sentence, citing BHM 2019 (Phys. Lett. B 798 134950; Int. J. Mod. Phys. D 28 1944018). To leading order in the minimal length one gets a dual geometry, 'which in the observed spacetime leads to \"dark energy\", modeled as a positive cosmological constant'. Its co-authors include Freidel, Leigh and Kowalski-Glikman. The dark-matter reader records its C1 clause (each observed field's dual as dark matter) separately.",
+   "difference": "It is a citation summary of BHM 2019 and adds nothing new for C5. The same differences apply: a static dual geometry gives a positive Λ, with no contraction, collapse, a·ã = 1 or w_eff = −w̃.",
+   "quotes": [
+    {
+     "text": "Similarly, in the gravitational setting one gets, to leading order in the minimal length, a dual geometry, which in the observed spacetime leads to “dark energy”, modeled as a positive cosmological constant",
+     "where": "full text, introduction",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2202.06890))"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2212.00901",
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"Vacuum energy density and gravitational entropy\", Phys. Rev. D 107 (2023) 126016, arXiv:2212.00901 (2022) (journal)",
+   "relation": "related",
+   "summary": "The paper rewrites the regularized vacuum energy as a sum over elementary phase-space cells (modular regularization). It bounds the vacuum energy density by the size of the regulated momentum space, which UV/IR mixing at fixed cell number N ties inversely to the size of spacetime. Equating N with the entropy of the de Sitter horizon gives ρ ≲ ħ/(ℓ²ℓ_P²), consistent with the observed value: 'the smallness of the vacuum energy is tied to the large size of the Universe'. The record cites this paper and the companion essay in papers/phase-space-diameter.md §4, for the self-dual length and the inverse relation of the cutoffs, not for C5.",
+   "difference": "This is a counting argument for the size of a constant vacuum energy, not a dynamical source of acceleration. Its 'momentum space' is the momentum range of vacuum fluctuations (the cutoff), not a conjugate description of the universe with its own scale factor and contents. Nothing contracts or collapses, and there is no dual-frame fluid and no w_eff = −w̃. The only shared theme is that dark energy is set on the momentum-space side, and that this side is small because the universe is large. The C5 search group read FKGLM 2022/2023 and judged them not relevant to C5; this reader records them as related, with low confidence.",
+   "quotes": [
+    {
+     "text": "Essentially, the smallness of the vacuum energy is tied to the large size of the Universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Heuristically one can say that the holographic bound on entropy precludes the size of momentum space (and thus effectively its cutoff) being as large as EFT assumes.",
+     "where": "full text, introduction",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2212.00901))"
+    },
+    {
+     "text": "Having tied the vacuum energy density to the size of the cosmological horizon, this problem may be resolved as well.",
+     "where": "full text, discussion",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2212.00901))"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2303.17495",
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"On the inevitable lightness of vacuum\", Int. J. Mod. Phys. D 32 (2023) 2342004, arXiv:2303.17495 (journal; essay)",
+   "relation": "related",
+   "summary": "This is the essay version of FKGLM 2022, and the record already cites it with that paper (papers/phase-space-diameter.md §4). The regularized vacuum energy density scales as the volume of energy–momentum space. A UV–IR regularization combined with the holographic entropy bound makes the cosmological constant small 'because the universe is filled with a large number of degrees of freedom'.",
+   "difference": "The same as for FKGLM 2022: the size of a constant vacuum energy is fixed by counting phase-space cells. There is no conjugate universe, no contraction or collapse, and no dictionary.",
+   "quotes": [
+    {
+     "text": "It follows that the universe is large, and the cosmological constant is naturally small, because the universe is filled with a large number of degrees of freedom.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "the regularized vacuum energy density scales as the volume of energy-momentum space",
+     "where": "full text",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2303.17495))"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2305.12593",
+   "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", arXiv:2305.12593 (2023), conference talk (BASIC 2023); published as Bulg. J. Phys. 51 (2024) 060",
+   "relation": "related",
+   "summary": "The talk summarizes the FKGLM account: the vacuum energy density is the volume of energy–momentum space, bounded through the Bekenstein bound by 1/(l²l_P²), which gives the see-saw length √(l l_P). It also states that the modular cell can be rescaled as x → a x, p → a⁻¹ p, and that in the limit of large expansion a → ∞ 'the dual dimension shrinks to zero and one recovers the usual spacetime'. That is a kinematic analogue of founding supposition 6 (a·ã = 1), used here for the decoupling limit to ordinary spacetime.",
+   "difference": "The same as for FKGLM 2022. The shrinking dual dimension is a decoupling limit of the modular cell, not the contraction of a conjugate universe in time, and it is tied neither to the acceleration nor to dark energy.",
+   "quotes": [
+    {
+     "text": "a new understanding of the cosmological constant problem, which essentially relies on a phase-space-like computation of the vacuum energy",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "the dual dimension shrinks to zero and one recovers the usual spacetime",
+     "where": "full text, section on modular spacetime",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2305.12593))"
+    },
+    {
+     "text": "the size of the volume of the energy-momentum space is",
+     "where": "full text, section on modular spacetime",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2305.12593))"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:2778134",
+   "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", Bulg. J. Phys. 51 (2024) 060, doi:10.55318/bgjp.2024.51.1.060 (journal; write-up of a conference talk; arXiv version 2305.12593)",
+   "relation": "related",
+   "summary": "This is the journal version of arXiv:2305.12593, with the same abstract: a phase-space-like computation of the vacuum energy (FKGLM) together with the Bekenstein bound. Only the abstract was read here; the passages are quoted under 2305.12593.",
+   "difference": "The same as for 2305.12593: the size of a constant vacuum energy comes from phase-space counting, with no conjugate universe, contraction or collapse.",
+   "quotes": [
+    {
+     "text": "This talk summarizes a new understanding of the cosmological constant problem, which essentially relies on a phase-space-like computation of the vacuum energy",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:1789711",
+   "citation": "C. Castro Perelman, \"Born's Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant\", Annals Phys. 416 (2020) 168143, doi:10.1016/j.aop.2020.168143 (journal; not on arXiv)",
+   "relation": "related",
+   "summary": "The paper treats gravity on the curved phase space (the cotangent bundle, in Finsler geometry) of Born's reciprocal relativity. A scalar-gravity model has exact solutions in which the base spacetime and the internal momentum space are both (anti-)de Sitter, and the abstract says they 'capture the very early inflationary and very-late-time de Sitter phases'. Regularizing the 8-dimensional phase-space action gives a tiny effective cosmological constant, which the field equations correlate with a tiny four-dimensional Λ. Only the abstract was read. The paper is not on arXiv, its full text is paywalled, and WebSearch found no free copy.",
+   "difference": "The abstract alone shows the late-time de Sitter phase and the small Λ coming from solutions and a regularization of phase-space gravity. It indicates no contracting momentum-space universe acting on ours, no dual-frame fluid and no w_eff = −w̃. Momentum space is the fibre of the cotangent bundle with a fixed (A)dS curvature, not a conjugate description of the universe's state. The full text might qualify this.",
+   "quotes": [
+    {
+     "text": "The curved base spacetime manifold and internal momentum space both turn out to be (Anti) de Sitter type.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "The most salient feature is that the solutions capture the very early inflationary and very-late-time de Sitter phases of the Universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "A regularization of the 8-dim phase space action leads naturally to an extremely small effective cosmological constant",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2101.04152",
+   "citation": "P. O. Hess, \"Observable consequences of pseudo-complex General Relativity\", arXiv:2101.04152 (2021), arXiv preprint (no journal found in INSPIRE or Crossref)",
+   "relation": "related",
+   "summary": "Pseudo-complex general relativity (pc-GR) starts from Born's point that quantum mechanics treats coordinates and momenta on an equal footing. It extends the coordinates to X = x + I y, with y_μ = A l u_μ, a minimal length times the four-velocity (the Born–Caianiello velocity-space part). In the pc-Robertson–Walker model (§4.5) the scale factor becomes a = a_R + I a_I, and to leading order a_I = l ȧ_R(0)/a_R⁴: the velocity-like partner shrinks as our scale factor grows ('it continues to be even smaller for larger times'). The paper ties the growth of a_I toward the Big Bang to 'a dominance of the dark energy' there. It obtains today's acceleration from a dark-energy density Λ a_R^{3(β−1)}, which for β = 1 is a cosmological constant.",
+   "difference": "The two elements of C5 appear in one model but are not linked as C5 links them. The shrinking partner a_I is not the source of the late acceleration, which comes from the dark-energy density Λ a_R^{3(β−1)} (constant for β = 1), and its influence runs the other way: large a_I goes with dark-energy dominance near the Big Bang. Its law is a_I ∝ a_R⁻⁴, not a·ã = 1, and there is no conjugate matter, no collapse and no w_eff = −w̃. The pseudo-imaginary part is velocity space in Caianiello's sense, not a spontaneously selected polarization.",
+   "quotes": [
+    {
+     "text": "M. Born approached a conceptional problem, namely that in Quantum Mechanics coordinates and momenta are treated on an equal footing, while in GR coordinates are predominant.",
+     "where": "full text, section 1 (Introduction)",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+    },
+    {
+     "text": "variables can be identified, for the case of a flat space, by",
+     "where": "full text, section 4 (general properties of the y-components)",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+    },
+    {
+     "text": "which is extremely small, and it continues to be even smaller for larger times",
+     "where": "full text, section 4.5 (Cosmology: The Robertson-Walker Model)",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+    },
+    {
+     "text": "explodes and becomes infinite very near to the big bang, implying a dominance of the dark energy",
+     "where": "full text, section 4.5",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+    },
+    {
+     "text": "after which the acceleration becomes positive, as observed today",
+     "where": "full text, section 4.5",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/2101.04152))"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "1202.6561",
+   "citation": "G. Caspar, T. Schönenbach, P. O. Hess, M. Schäfer, W. Greiner, \"Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions\", Int. J. Mod. Phys. E 21 (2012) 1250015, arXiv:1202.6561 (journal)",
+   "relation": "collision",
+   "summary": "In pc-GR, a theory with Born–Caianiello-motivated pseudo-complex coordinates whose length element the paper says 'is equal to the one used by M. Born', the modified variational principle adds a term 'interpreted as dark energy'. That term accumulates around a central mass and halts gravitational collapse, so a 'gray star' forms instead of a black hole. Four other pc-GR papers on this reading list use the same wording: recid 1268217 (Int. J. Mod. Phys. D 19, 2010), 1303626 (2013 chapter), 1402205 (Springer Proc. Phys. 170, 2016), whose abstract reads 'a collapsing mass increasingly accumulates dark energy until the collapse is stopped', and 1487060 (PoS FFP14 036). A search for 'collapse', 'dark energy' and 'Born' meets them.",
+   "difference": "Only the words coincide. The collapse is ordinary stellar collapse in position space, and the dark energy resists it. Nothing concerns a conjugate universe or the cosmic acceleration.",
+   "quotes": [
+    {
+     "text": "It is shown, that the pc-GR introduces automatically terms into the system which can be interpreted as dark energy.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "The energy accumulates around a central mass and halts the collapse of a big star.",
+     "where": "full text, section 1 (Introduction)",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1202.6561))"
+    },
+    {
+     "text": "is equal to the one used by M. Born and related theories",
+     "where": "full text, section 2",
+     "check": "lit.py quote: FOUND (full text (https://arxiv.org/html/1202.6561))"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "0706.3736",
+   "citation": "J. Govaerts, P. D. Jarvis, S. O. Morgan, S. G. Low, \"World-line quantisation of a reciprocally invariant system\", J. Phys. A 40 (2007) 12095, arXiv:0706.3736 (journal)",
+   "relation": "collision",
+   "summary": "In Low's reciprocal relativity (quaplectic group), 'cosmological constant' is the world-line cosmological constant, the constant in the reparametrization constraint of a particle action. The constraint identifies it with a fixed value of the quaplectic Casimir. The sequel, Jarvis and Morgan, J. Phys. A 41 (2008) 465203 (arXiv:0806.4794, recid 789406, also on this list), uses the term the same way. A search for 'reciprocal relativity' with 'cosmological constant' meets both.",
+   "difference": "Only the words coincide. The world-line cosmological constant has nothing to do with the cosmic expansion, dark energy or a conjugate universe.",
+   "quotes": [
+    {
+     "text": "Imposition of the first class constraint, the generator of local time reparametrisations, on physical states enforces identification of the world-line cosmological constant with a fixed value of the quadratic Casimir of the quaplectic symmetry group",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "notes": "47 flagged papers, conjecture C5: 11 findings, 36 not relevant, 0 unavailable. No paper states C5. None has a conjugate (momentum-space or dual) universe whose contraction or collapse drives our accelerated expansion, and none uses a dual-frame fluid or a w_eff = −w̃ dictionary. The closest on this list is the Berglund–Hübsch–Minić line (1905.09463 partial, medium; 1902.08617 and the Snowmass restatement 2202.06890 partial, low): the x̃-integrated curvature of the 'canonically conjugate dual space' is our Λ. That is static, with no collapse, and it assigns the dual Einstein–Hilbert term differently from #11 §10, which bears on flag 49. The record already quotes BHM 2023's version of the claim (papers/phase-space-diameter.md §4, for the self-dual length) without comparing it with C5. Related, low: the FKGLM vacuum-energy line (2212.00901, 2303.17495, 2305.12593, recid 2778134; the C5 search group judged FKGLM not relevant, a deliberate disagreement); Castro Perelman 2020 (abstract only); Hess 2021 pc-Robertson–Walker model (velocity-like partner scale factor a_I ∝ a_R⁻⁴, not linked to the acceleration). Collisions: pc-GR 'collapse ... dark energy' (gray stars; one entry, 1202.6561, for the family of five) and the world-line 'cosmological constant' of reciprocal relativity (0706.3736; sequel 0806.4794). Method: lit.py show for all 47; lit.py text with three greps (dark energy/acceleration; contract|collaps|shrink; dual/conjugate/momentum-space universe terms) on the 38 arXiv ids, each cosmology hit read in context. PDFs: 2110.11343, 2211.04909 and PoS FFP14 036 fetched with WebFetch and read with a stdlib-only extractor, each in its own folder. The Maheshwari thesis was read from the r2 reader's extracted text. Abstract only: recid 1789711, 1402205, 1303626, 1268217, 870803, 2669772, 2778134. All 27 reported quotes FOUND by lit.py quote, and each finding passes recheck.py's identifier, title, author and year checks (scripts/recheck_out.py). Leads outside C5, not findings: Toller 2017 (1706.07470), a spontaneously broken 'augmented Lorentz covariance' (Born reciprocity its first example) with Goldstone fields proposed to replace dark energy and dark matter, a lead for the hard core and τ; Moffat 2004 (gr-qc/0401117), Einstein-type field equations for a momentum-space metric, a lead for founding supposition 10; Artigas, Crowe, Mielczarek 2020 (2003.08129), a compact phase space making a Λ universe recollapse, a follow-up to the closed-universe lead Artigas–Mielczarek–Rovelli 2019; 2202.06890's C1 clause, already recorded by the dark-matter reader. Notes, greps, extracted texts and the quote checks are in work/literature-check/round2/r3-dark-energy/."
+}

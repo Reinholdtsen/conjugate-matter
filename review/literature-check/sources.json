@@ -1,0 +1,2013 @@
+{
+ "0709.0776": {
+  "key": "0709.0776",
+  "source": "INSPIRE",
+  "recid": 760026,
+  "api_url": "https://inspirehep.net/api/literature/760026",
+  "retrieved": "2026-11-02",
+  "title": "Born reciprocity and the 1/r potential",
+  "authors": [
+   "Delbourgo, Robert",
+   "Lashmar, Darrel"
+  ],
+  "earliest_date": "2007-09",
+  "journal": "Found. Phys. 38 995 (2008)",
+  "dois": [
+   "10.1007/s10701-008-9247-8"
+  ],
+  "arxiv": "0709.0776",
+  "abstract": "Many structures in nature are invariant under the transformation (p,r)->(br,-p/b), where b is some scale factor. Born's reciprocity hypothesis affirms that this invariance extends to the entire Hamiltonian and equations of motion. We investigate this idea for atomic physics and galactic motion, where one is basically dealing with a 1/r potential and the observations are very accurate, so as to determine the scale $b = m\\Omega$. We find that an $\\Omega \\sim 1.5\\times 10^{-15}$ Hz has essentially no effect on atomic physics but might possibly offer an explanation for galactic rotation, without invoking dark matter."
+ },
+ "0812.2033": {
+  "key": "0812.2033",
+  "source": "INSPIRE",
+  "recid": 804941,
+  "api_url": "https://inspirehep.net/api/literature/804941",
+  "retrieved": "2026-11-02",
+  "title": "The Graininess of Dark Matter Haloes",
+  "authors": [
+   "Zemp, Marcel",
+   "Diemand, Jurg",
+   "Kuhlen, Michael",
+   "Madau, Piero",
+   "Moore, Ben",
+   "Potter, Doug",
+   "Stadel, Joachim",
+   "Widrow, Lawrence"
+  ],
+  "earliest_date": "2008-12",
+  "journal": "Mon. Not. Roy. Astron. Soc. 394 641 (2009)",
+  "dois": [
+   "10.1111/j.1365-2966.2008.14361.x"
+  ],
+  "arxiv": "0812.2033",
+  "abstract": "We use the recently completed one billion particle Via Lactea II LambdaCDM simulation to investigate local properties like density, mean velocity, velocity dispersion, anisotropy, orientation and shape of the velocity dispersion ellipsoid, as well as structure in velocity space of dark matter haloes. We show that at the same radial distance from the halo centre, these properties can deviate by orders of magnitude from the canonical, spherically averaged values, a variation that can only be partly explained by triaxiality and the presence of subhaloes. The mass density appears smooth in the central relaxed regions but spans four orders of magnitude in the outskirts, both because of the presence of subhaloes as well as of underdense regions and holes in the matter distribution. In the inner regions the local velocity dispersion ellipsoid is aligned with the shape ellipsoid of the halo. This is not true in the outer parts where the orientation becomes more isotropic. The clumpy structure in local velocity space of the outer halo can not be well described by a smooth multivariate normal distribution. Via Lactea II also shows the presence of cold streams made visible by their high 6D phase space density. Generally, the structure of dark matter haloes shows a high degree of graininess in phase space that cannot be described by a smooth distribution function."
+ },
+ "0901.1106": {
+  "key": "0901.1106",
+  "source": "INSPIRE",
+  "recid": 810596,
+  "api_url": "https://inspirehep.net/api/literature/810596",
+  "retrieved": "2026-11-02",
+  "title": "Bose-Einstein Condensation of Dark Matter Axions",
+  "authors": [
+   "Sikivie, P.",
+   "Yang, Q."
+  ],
+  "earliest_date": "2009-01",
+  "journal": "Phys. Rev. Lett. 103 111301 (2009)",
+  "dois": [
+   "10.1103/PhysRevLett.103.111301"
+  ],
+  "arxiv": "0901.1106",
+  "abstract": "We show that cold dark matter axions thermalize and form a Bose-Einstein condensate. We obtain the axion state in a homogeneous and isotropic universe, and derive the equations governing small axion perturbations. Because they form a BEC, axions differ from ordinary cold dark matter in the non-linear regime of structure formation and upon entering the horizon. Axion BEC provides a mechanism for the production of net overall rotation in dark matter halos, and for the alignment of cosmic microwave anisotropy multipoles."
+ },
+ "0905.1720": {
+  "key": "0905.1720",
+  "source": "INSPIRE",
+  "recid": 820017,
+  "api_url": "https://inspirehep.net/api/literature/820017",
+  "retrieved": "2026-11-03",
+  "title": "Topological Dark Matter",
+  "authors": [
+   "Murayama, Hitoshi",
+   "Shu, Jing"
+  ],
+  "earliest_date": "2009-05",
+  "journal": "Phys. Lett. B 686 162 (2010)",
+  "dois": [
+   "10.1016/j.physletb.2010.02.037"
+  ],
+  "arxiv": "0905.1720",
+  "abstract": "Kibble mechanism drastically underestimates the production of topological defects, as confirmed recently in atomic and condensed matter systems. If non-thermally produced, they can be cosmological dark matter of mass 1-10 PeV. If thermalized, skyrmion of mass 1-10 TeV is also a viable dark matter candidate, whose decay may explain $e^\\pm$ spectra in cosmic rays recently measured by PAMELA, FERMI, and HESS. Models that produce magnetic monopoles below the inflation scale, such as Pati-Salam unification, are excluded."
+ },
+ "1202.0560": {
+  "key": "1202.0560",
+  "source": "INSPIRE",
+  "recid": 1087382,
+  "api_url": "https://inspirehep.net/api/literature/1087382",
+  "retrieved": "2026-11-02",
+  "title": "Dwarf Galaxy Sized Monopoles as Dark Matter?",
+  "authors": [
+   "Evslin, Jarah",
+   "Gudnason, Sven Bjarke"
+  ],
+  "earliest_date": "2012-02",
+  "journal": "",
+  "dois": [],
+  "arxiv": "1202.0560",
+  "abstract": "We propose a model of dark matter: galaxy-sized 't Hooft-Polyakov magnetic monopoles in a new, extraordinarily weakly coupled SU(2) gauge sector with an adjoint Higgs field and two flavors of fundamental fermions. We fit the parameters by asserting that the dark matter halos of the lightest dwarf spheroidal (dSph) galaxies consist of a single charge Q=1 monopole. Lensing and wide binary bounds are then easily satisfied and the monopoles form in time to help with CMB fluctuations. In this model dSph and low surface brightness (LSB) halos automatically have (1) A minimum mass - Dirac quantization solves the missing satellite problem, (2) A constant density core (r<r_1), (3) An intermediate regime (r_1<r<r_2) with density proportional to 1/r^2. The model predicts that (A) r_1 is proportional to the stellar rotational/dispersion velocities at r_1<r<r_2, (B) r_2 is reasonably Q independent and so dSph halos extend at least ten times farther than their half-light and tidal radii, (C) The minimal stellar dispersion is 1/sqrt{2} times the next-smallest allowed value. A serious potential problem with our proposal is that non-BPS monopoles are repulsive. The Jackiw-Rebbi mechanism yields four species of monopoles, and we assume that, for some choice of Yukawa couplings, one species is light and serves only to screen the repulsive interactions of another."
+ },
+ "1207.5514": {
+  "key": "1207.5514",
+  "source": "INSPIRE",
+  "recid": 1123613,
+  "api_url": "https://inspirehep.net/api/literature/1123613",
+  "retrieved": "2026-11-02",
+  "title": "A cosmology of a trans-Planckian theory and dark energy",
+  "authors": [
+   "Bolognesi, Stefano"
+  ],
+  "earliest_date": "2012-07",
+  "journal": "Int. J. Mod. Phys. D 23 1450046 (2014)",
+  "dois": [
+   "10.1142/S0218271814500461"
+  ],
+  "arxiv": "1207.5514",
+  "abstract": "We investigate a model based on a generalised version of the Fourier transform for curved space-time manifolds. This model is possible if the metric has an asymptotic flat region which allows a duality to be implement between coordinates and momenta, hence, the models's name, trans-Planckian. The theory and the action are based on the postulate of the absolute egalitarian relation between coordinates $x$ and momenta $p$. We show how to implement this construction in a cosmological setting, on a Friedman-Robertson-Walker metric background, where the asymptotic time infinity plays the role of the required asymptotic flat region. We discuss the effect of gravity, and, in particular, of the Hubble expansion of the universe scale factor on the Fourier map. The dual inflationary stage is responsible for making the dual sector of the action inaccessible at ordinary low energies. We propose a scenario in which an effective positive cosmological constant is caused by how the dual sector of the theory affects the equation of state for matter particles."
+ },
+ "1307.0159": {
+  "key": "1307.0159",
+  "source": "INSPIRE",
+  "recid": 1240660,
+  "api_url": "https://inspirehep.net/api/literature/1240660",
+  "retrieved": "2026-11-02",
+  "title": "Double Field Theory Inspired Cosmology",
+  "authors": [
+   "Wu, Houwen",
+   "Yang, Haitang"
+  ],
+  "earliest_date": "2013-06-29",
+  "journal": "JCAP 07 024 (2014)",
+  "dois": [
+   "10.1088/1475-7516/2014/07/024"
+  ],
+  "arxiv": "1307.0159",
+  "abstract": "Double field theory proposes a generalized spacetime action possessing manifest T-duality on the level of component fields. We calculate the cosmological solutions of double field theory with vanishing Kalb-Ramond field. It turns out that double field theory provides a more consistent way to construct cosmological solutions than the standard string cosmology. We construct solutions for vanishing and non-vanishing symmetry preserving dilaton potentials. The solutions assemble the pre- and post-big bang evolutions in one single line element. This novel feature provides a natural way for the theory to contain extra dimensions. Our results show a smooth evolution from an anisotropic early stage to an isotropic phase without any special initial conditions in contrast to previous models. In addition, we demonstrate that the contraction of the dual space automatically leads to both an inflation phase and a decelerated expansion of the ordinary space during different evolution stages."
+ },
+ "1307.7080": {
+  "key": "1307.7080",
+  "source": "INSPIRE",
+  "recid": 1244697,
+  "api_url": "https://inspirehep.net/api/literature/1244697",
+  "retrieved": "2026-11-02",
+  "title": "Born Reciprocity in String Theory and the Nature of Spacetime",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2013-07-26",
+  "journal": "Phys. Lett. B 730 302 (2014)",
+  "dois": [
+   "10.1016/j.physletb.2014.01.067"
+  ],
+  "arxiv": "1307.7080",
+  "abstract": "After many years, the deep nature of spacetime in string theory remains an enigma. In this letter we incorporate the concept of Born reciprocity in order to provide a new point of view on string theory in which spacetime is a derived dynamical concept. This viewpoint may be thought of as a dynamical chiral phase space formulation of string theory, in which Born reciprocity is implemented as a choice of a Lagrangian submanifold of the phase space, and amounts to a generalization of T-duality. In this approach the fundamental symmetry of string theory contains phase space diffeomorphism invariance and the underlying string geometry should be understood in terms of dynamical bi-Lagrangian manifolds and an apparently new geometric structure, somewhat reminiscent of para-quaternionic geometry, which we call Born geometry."
+ },
+ "1311.7069": {
+  "key": "1311.7069",
+  "source": "INSPIRE",
+  "recid": 1266469,
+  "api_url": "https://inspirehep.net/api/literature/1266469",
+  "retrieved": "2026-11-02",
+  "title": "S-Duality and Modular Transformation as a non-perturbative deformation of the ordinary pq-duality",
+  "authors": [
+   "Galakhov, D.",
+   "Mironov, A.",
+   "Morozov, A."
+  ],
+  "earliest_date": "2013-11-27",
+  "journal": "JHEP 06 050 (2014)",
+  "dois": [
+   "10.1007/JHEP06(2014)050"
+  ],
+  "arxiv": "1311.7069",
+  "abstract": "A recent claim that the S-duality between 4d SUSY gauge theories, which is AGT related to the modular transformations of 2d conformal blocks, is no more than an ordinary Fourier transform at the perturbative level, is further traced down to the commutation relation [P,Q]=-i\\hbar between the check-operator monodromies of the exponential resolvent operator in the underlying Dotsenko-Fateev matrix models and beta-ensembles. To this end, we treat the conformal blocks as eigenfunctions of the monodromy check operators, what is especially simple in the case of one-point toric block. The kernel of the modular transformation is then defined as the intertwiner of the two monodromies, and can be obtained straightforwardly, even when the eigenfunction interpretation of the blocks themselves is technically tedious. In this way, we provide an elementary derivation of the old expression for the modular kernel for the one-point toric conformal block."
+ },
+ "1405.3949": {
+  "key": "1405.3949",
+  "source": "INSPIRE",
+  "recid": 1296246,
+  "api_url": "https://inspirehep.net/api/literature/1296246",
+  "retrieved": "2026-11-02",
+  "title": "Quantum Gravity, Dynamical Phase Space and String Theory",
+  "authors": [
+   "Freidel, Laurent",
+   "Leigh, Robert G.",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2014-05-15",
+  "journal": "Int. J. Mod. Phys. D 23 1442006 (2014)",
+  "dois": [
+   "10.1142/S0218271814420061",
+   "10.1142/S0218271814420061"
+  ],
+  "arxiv": "1405.3949",
+  "abstract": "In a natural extension of the relativity principle we argue that a quantum theory of gravity involves two fundamental scales associated with both dynamical space-time as well as dynamical momentum space. This view of quantum gravity is explicitly realized in a new formulation of string theory which involves dynamical phase space and in which space-time is a derived concept. This formulation naturally unifies symplectic geometry of Hamiltonian dynamics, complex geometry of quantum theory and real geometry of general relativity. The space-time and momentum space dynamics, and thus dynamical phase space, is governed by a new version of the Renormalization Group."
+ },
+ "1412.5930": {
+  "key": "1412.5930",
+  "source": "INSPIRE",
+  "recid": 1334899,
+  "api_url": "https://inspirehep.net/api/literature/1334899",
+  "retrieved": "2026-11-02",
+  "title": "Do Dark Matter Axions Form a Condensate with Long-Range Correlation?",
+  "authors": [
+   "Guth, Alan H.",
+   "Hertzberg, Mark P.",
+   "Prescod-Weinstein, C."
+  ],
+  "earliest_date": "2014-12-18",
+  "journal": "Phys. Rev. D 92 103513 (2015)",
+  "dois": [
+   "10.1103/PhysRevD.92.103513"
+  ],
+  "arxiv": "1412.5930",
+  "abstract": "Recently there has been significant interest in the claim that dark matter axions gravitationally thermalize and form a Bose-Einstein condensate with cosmologically long-range correlation. This has potential consequences for galactic scale observations. Here we critically examine this claim. We point out that there is an essential difference between the thermalization and formation of a condensate due to repulsive interactions, which can indeed drive long-range order, and that due to attractive interactions, which can lead to localized Bose clumps (stars or solitons) that only exhibit short range correlation. While the difference between repulsion and attraction is not present in the standard collisional Boltzmann equation, we argue that it is essential to the field theory dynamics, and we explain why the latter analysis is appropriate for a condensate. Since the axion is primarily governed by attractive interactions -- gravitation and scalar-scalar contact interactions -- we conclude that while a Bose-Einstein condensate is formed, the claim of long-range correlation is unjustified."
+ },
+ "1502.06497": {
+  "key": "1502.06497",
+  "source": "INSPIRE",
+  "recid": 1345817,
+  "api_url": "https://inspirehep.net/api/literature/1345817",
+  "retrieved": "2026-11-02",
+  "title": "Scale Factor Self-Dual Cosmological Models",
+  "authors": [
+   "Camara da Silva, U.",
+   "Lima, A.A.",
+   "Sotkov, G.M."
+  ],
+  "earliest_date": "2015-02-23",
+  "journal": "JHEP 07 017 (2015)",
+  "dois": [
+   "10.1007/JHEP07(2015)017",
+   "10.1007/JHEP07(2015)017"
+  ],
+  "arxiv": "1502.06497",
+  "abstract": "We implement a conformal time scale factor duality for Friedmann-Robertson-Walker cosmological models, which is consistent with the weak energy condition. The requirement for self-duality determines the equations of state for a broad class of barotropic fluids. We study the example of a universe filled with two interacting fluids, presenting an accelerated and a decelerated period, with manifest UV/IR duality. The associated self-dual scalar field interaction turns out to coincide with the \"radiation-like\" modified Chaplygin gas models. We present an equivalent realization of them as gauged K\\\"ahler sigma models (minimally coupled to gravity) with very specific and interrelated K\\\"ahler- and super-potentials. Their applications in the description of hilltop inflation and also as quintessence models for the late universe are discussed."
+ },
+ "1506.02187": {
+  "key": "1506.02187",
+  "source": "INSPIRE",
+  "recid": 1375010,
+  "api_url": "https://inspirehep.net/api/literature/1375010",
+  "retrieved": "2026-11-02",
+  "title": "Born Reciprocity and Cosmic Accelerations",
+  "authors": [
+   "Bolognesi, S."
+  ],
+  "earliest_date": "2015-06-06",
+  "journal": "",
+  "dois": [],
+  "arxiv": "1506.02187",
+  "abstract": "The trans-Planckian theory is a model that realizes concretely the Born reciprocity idea, which is the postulate of absolute equivalence between coordinate $x$ and momenta $p$. This model is intrinsically global, and thus it is naturally implemented in a cosmological setting. Cosmology and Born reciprocity are made for each other. Inflation provides the essential mechanism to suppress the terms coming from the dual part of the action. The trans-Planckian theory provides an explanation for the present acceleration of the universe scale factor. This is possible just considering a simple model that contains gravity, one gauge field plus one matter field (to be identified with dark matter), together with the reciprocity principle."
+ },
+ "1507.01019": {
+  "key": "1507.01019",
+  "source": "INSPIRE",
+  "recid": 1381485,
+  "api_url": "https://inspirehep.net/api/literature/1381485",
+  "retrieved": "2026-11-02",
+  "title": "Theory of dark matter superfluidity",
+  "authors": [
+   "Berezhiani, Lasha",
+   "Khoury, Justin"
+  ],
+  "earliest_date": "2015-07-03",
+  "journal": "Phys. Rev. D 92 103510 (2015)",
+  "dois": [
+   "10.1103/PhysRevD.92.103510"
+  ],
+  "arxiv": "1507.01019",
+  "abstract": "We propose a novel theory of dark matter (DM) superfluidity that matches the successes of the LambdaCDM model on cosmological scales while simultaneously reproducing the MOdified Newtonian Dynamics (MOND) phenomenology on galactic scales. The DM and MOND components have a common origin, representing different phases of a single underlying substance. DM consists of axion-like particles with mass of order eV and strong self-interactions. The condensate has a polytropic equation of state P~rho^3 giving rise to a superfluid core within galaxies. Instead of behaving as individual collisionless particles, the DM superfluid is more aptly described as collective excitations. Superfluid phonons, in particular, are assumed to be governed by a MOND-like effective action and mediate a MONDian acceleration between baryonic matter particles. Our framework naturally distinguishes between galaxies (where MOND is successful) and galaxy clusters (where MOND is not): due to the higher velocity dispersion in clusters, and correspondingly higher temperature, the DM in clusters is either in a mixture of superfluid and normal phase, or fully in the normal phase. The rich and well-studied physics of superfluidity leads to a number of observational signatures: array of low-density vortices in galaxies, merger dynamics that depend on the infall velocity vs phonon sound speed; distinct mass peaks in bullet-like cluster mergers, corresponding to superfluid and normal components; interference patters in super-critical mergers. Remarkably, the superfluid phonon effective theory is strikingly similar to that of the unitary Fermi gas, which has attracted much excitement in the cold atom community in recent years. The critical temperature for DM superfluidity is of order mK, comparable to known cold atom Bose-Einstein condensates."
+ },
+ "1508.03339": {
+  "key": "1508.03339",
+  "source": "INSPIRE",
+  "recid": 1387984,
+  "api_url": "https://inspirehep.net/api/literature/1387984",
+  "retrieved": "2026-11-02",
+  "title": "Dark Matter Halos as Particle Colliders: Unified Solution to Small-Scale Structure Puzzles from Dwarfs to Clusters",
+  "authors": [
+   "Kaplinghat, Manoj",
+   "Tulin, Sean",
+   "Yu, Hai-Bo"
+  ],
+  "earliest_date": "2015-08-13",
+  "journal": "Phys. Rev. Lett. 116 041302 (2016)",
+  "dois": [
+   "10.1103/PhysRevLett.116.041302"
+  ],
+  "arxiv": "1508.03339",
+  "abstract": "Astrophysical observations spanning dwarf galaxies to galaxy clusters indicate that dark matter (DM) halos are less dense in their central regions compared to expectations from collisionless DM N-body simulations. Using detailed fits to DM halos of galaxies and clusters, we show that self-interacting DM (SIDM) may provide a consistent solution to the DM deficit problem across all scales, even though individual systems exhibit a wide diversity in halo properties. Since the characteristic velocity of DM particles varies across these systems, we are able to measure the self-interaction cross section as a function of kinetic energy and thereby deduce the SIDM particle physics model parameters. Our results prefer a mildly velocity-dependent cross section, from $\\sigma/m \\simeq 2\\; {\\rm cm^2/g}$ on galaxy scales to $\\sigma/m \\simeq 0.1\\; {\\rm cm^2/g}$ on cluster scales, consistent with the upper limits from merging clusters. Our results dramatically improve the constraints on SIDM models and may allow the masses of both DM and dark mediator particles to be measured even if the dark sector is completely hidden from the Standard Model, which we illustrate for the dark photon model."
+ },
+ "1610.08297": {
+  "key": "1610.08297",
+  "source": "INSPIRE",
+  "recid": 1494555,
+  "api_url": "https://inspirehep.net/api/literature/1494555",
+  "retrieved": "2026-11-02",
+  "title": "Ultralight scalars as cosmological dark matter",
+  "authors": [
+   "Hui, Lam",
+   "Ostriker, Jeremiah P.",
+   "Tremaine, Scott",
+   "Witten, Edward"
+  ],
+  "earliest_date": "2016-10-26",
+  "journal": "Phys. Rev. D 95 043541 (2017)",
+  "dois": [
+   "10.1103/PhysRevD.95.043541"
+  ],
+  "arxiv": "1610.08297",
+  "abstract": "An intriguing alternative to cold dark matter (CDM) is that the dark matter is a light ( $m \\sim 10^{-22}$ eV) boson having a de Broglie wavelength $\\lambda \\sim 1$ kpc, often called fuzzy dark matter (FDM). We describe the arguments from particle physics that motivate FDM, review previous work on its astrophysical signatures, and analyze several unexplored aspects of its behavior. In particular, (i) FDM halos smaller than about $10^7 (m/10^{-22} {\\rm eV})^{-3/2} M_\\odot$ do not form. (ii) FDM halos are comprised of a core that is a stationary, minimum-energy configuration called a \"soliton\", surrounded by an envelope that resembles a CDM halo. (iii) The transition between soliton and envelope is determined by a relaxation process analogous to two-body relaxation in gravitating systems, which proceeds as if the halo were composed of particles with mass $\\sim \\rho\\lambda^3$ where $\\rho$ is the halo density. (iv) Relaxation may have substantial effects on the stellar disk and bulge in the inner parts of disk galaxies. (v) Relaxation can produce FDM disks but an FDM disk in the solar neighborhood must have a half-thickness of at least $300 (m/10^{-22} {\\rm eV})^{-2/3}$ pc. (vi) Solitonic FDM sub-halos evaporate by tunneling through the tidal radius and this limits the minimum sub-halo mass inside 30 kpc of the Milky Way to roughly $10^8 (m/10^{-22} {\\rm eV})^{-3/2} M_\\odot$. (vii) If the dark matter in the Fornax dwarf galaxy is composed of CDM, most of the globular clusters observed in that galaxy should have long ago spiraled to its center, and this problem is resolved if the dark matter is FDM."
+ },
+ "1705.09639": {
+  "key": "1705.09639",
+  "source": "INSPIRE",
+  "recid": 1601405,
+  "api_url": "https://inspirehep.net/api/literature/1601405",
+  "retrieved": "2026-11-02",
+  "title": "Non-geometric Kaluza-Klein monopoles and magnetic duals of M-theory R-flux backgrounds",
+  "authors": [
+   "Lust, Dieter",
+   "Malek, Emanuel",
+   "Szabo, Richard J."
+  ],
+  "earliest_date": "2017-05-26",
+  "journal": "JHEP 10 144 (2017)",
+  "dois": [
+   "10.1007/JHEP10(2017)144",
+   "10.1007/JHEP10(2017)144"
+  ],
+  "arxiv": "1705.09639",
+  "abstract": "We introduce a magnetic analogue of the seven-dimensional nonassociative octonionic R-flux algebra that describes the phase space of M2-branes in four-dimensional locally non-geometric M-theory backgrounds. We show that these two algebras are related by a Spin(7) automorphism of the 3-algebra that provides a covariant description of the eight-dimensional M-theory phase space. We argue that this algebra also underlies the phase space of electrons probing a smeared magnetic monopole in quantum gravity by showing that upon appropriate contractions, the algebra reduces to the noncommutative algebra of a spin foam model of three-dimensional quantum gravity, or to the nonassociative algebra of electrons in a background of uniform magnetic charge. We realise this set-up in M-theory as M-waves probing a delocalised Kaluza-Klein monopole, and show that this system also has a seven-dimensional phase space. We suggest that the smeared Kaluza-Klein monopole is non-geometric because it cannot be described by a local metric. This is the magnetic analogue of the local non-geometry of the R-flux background and arises because the smeared Kaluza-Klein monopole is described by a U(1)-gerbe rather than a U(1)-fibration."
+ },
+ "1804.05857": {
+  "key": "1804.05857",
+  "source": "INSPIRE",
+  "recid": 1668139,
+  "api_url": "https://inspirehep.net/api/literature/1668139",
+  "retrieved": "2026-11-02",
+  "title": "Gravitational Bose-Einstein condensation in the kinetic regime",
+  "authors": [
+   "Levkov, D.G.",
+   "Panin, A.G.",
+   "Tkachev, I.I."
+  ],
+  "earliest_date": "2018-04-16",
+  "journal": "Phys. Rev. Lett. 121 151301 (2018)",
+  "dois": [
+   "10.1103/PhysRevLett.121.151301",
+   "10.1103/PhysRevLett.121.151301"
+  ],
+  "arxiv": "1804.05857",
+  "abstract": "We study Bose-Einstein condensation and formation of Bose stars in the virialized dark matter halos/miniclusters by universal gravitational interactions. We prove that this phenomenon does occur and it is described by kinetic equation. We give expression for the condensation time. Our results suggest that Bose stars may form kinetically in the mainstream dark matter models such as invisible QCD axions and Fuzzy Dark Matter."
+ },
+ "1805.09649": {
+  "key": "1805.09649",
+  "source": "INSPIRE",
+  "recid": 1674203,
+  "api_url": "https://inspirehep.net/api/literature/1674203",
+  "retrieved": "2026-11-02",
+  "title": "Dirac and non-Dirac conditions in the two-potential theory of magnetic charge",
+  "authors": [
+   "Scott, John",
+   "Evans, Timothy J.",
+   "Singleton, Douglas",
+   "Dzhunushaliev, Vladimir",
+   "Folomeev, Vladimir"
+  ],
+  "earliest_date": "2018-05-17",
+  "journal": "Eur. Phys. J. C 78 382 (2018)",
+  "dois": [
+   "10.1140/epjc/s10052-018-5867-0",
+   "10.1140/epjc/s10052-018-5867-0"
+  ],
+  "arxiv": "1805.09649",
+  "abstract": "We investigate the Cabbibo-Ferrari, two potential approach to magnetic charge coupled to two different complex scalar fields, $\\Phi_1$ and $\\Phi_2$, each having different electric and magnetic charges. The scalar field, $\\Phi_1$, is assumed to have a spontaneous symmetry breaking self interaction potential which gives a mass to the \"magnetic\" gauge potential and \"magnetic\" photon, while the other \"electric\" gauge potential and \"electric\" photon remain massless. The magnetic photon is hidden until one reaches energies of the order of the magnetic photon rest mass. The second scalar field, $\\Phi _2$, is required in order to make the theory non-trivial. With only one field one can always use a duality rotation to rotate away either the electric or magnetic charge, and thus decouple either the associated electric or magnetic photon. In analyzing this system of two scalar fields in the Cabbibo-Ferrari approach we perform several duality and gauge transformations, which require introducing non-Dirac conditions on the initial electric and magnetic charges. We also find that due to the symmetry breaking the usual Dirac condition is altered to include the mass of the magnetic photon. We discuss the implications of these various conditions on the charges."
+ },
+ "1807.06209": {
+  "key": "1807.06209",
+  "source": "INSPIRE",
+  "recid": 1682902,
+  "api_url": "https://inspirehep.net/api/literature/1682902",
+  "retrieved": "2026-11-02",
+  "title": "Planck 2018 results. VI. Cosmological parameters",
+  "authors": [
+   "Aghanim, N.",
+   "Akrami, Y.",
+   "Ashdown, M.",
+   "Aumont, J.",
+   "Baccigalupi, C.",
+   "Ballardini, M.",
+   "Banday, A.J.",
+   "Barreiro, R.B.",
+   "Bartolo, N.",
+   "Basak, S.",
+   "Battye, R.",
+   "Benabed, K.",
+   "Bernard, J.-P.",
+   "Bersanelli, M.",
+   "Bielewicz, P.",
+   "Bock, J.J.",
+   "Bond, J.R.",
+   "Borrill, J.",
+   "Bouchet, F.R.",
+   "Boulanger, F.",
+   "Bucher, M.",
+   "Burigana, C.",
+   "Butler, R.C.",
+   "Calabrese, E.",
+   "Cardoso, J.-F.",
+   "Carron, J.",
+   "Challinor, A.",
+   "Chiang, H.C.",
+   "Chluba, J.",
+   "Colombo, L.P.L.",
+   "Combet, C.",
+   "Contreras, D.",
+   "Crill, B.P.",
+   "Cuttaia, F.",
+   "de Bernardis, P.",
+   "de Zotti, G.",
+   "Delabrouille, J.",
+   "Delouis, J.-M.",
+   "Di Valentino, E.",
+   "Diego, J.M.",
+   "Doré, O.",
+   "Douspis, M.",
+   "Ducout, A.",
+   "Dupac, X.",
+   "Dusini, S.",
+   "Efstathiou, G.",
+   "Elsner, F.",
+   "Enßlin, T.A.",
+   "Eriksen, H.K.",
+   "Fantaye, Y.",
+   "Farhang, M.",
+   "Fergusson, J.",
+   "Fernandez-Cobos, R.",
+   "Finelli, F.",
+   "Forastieri, F.",
+   "Frailis, M.",
+   "Fraisse, A.A.",
+   "Franceschi, E.",
+   "Frolov, A.",
+   "Galeotta, S.",
+   "Galli, S.",
+   "Ganga, K.",
+   "Génova-Santos, R.T.",
+   "Gerbino, M.",
+   "Ghosh, T.",
+   "González-Nuevo, J.",
+   "Górski, K.M.",
+   "Gratton, S.",
+   "Gruppuso, A.",
+   "Gudmundsson, J.E.",
+   "Hamann, J.",
+   "Handley, W.",
+   "Hansen, F.K.",
+   "Herranz, D.",
+   "Hildebrandt, S.R.",
+   "Hivon, E.",
+   "Huang, Z.",
+   "Jaffe, A.H.",
+   "Jones, W.C.",
+   "Karakci, A.",
+   "Keihänen, E.",
+   "Keskitalo, R.",
+   "Kiiveri, K.",
+   "Kim, J.",
+   "Kisner, T.S.",
+   "Knox, L.",
+   "Krachmalnicoff, N.",
+   "Kunz, M.",
+   "Kurki-Suonio, H.",
+   "Lagache, G.",
+   "Lamarre, J.-M.",
+   "Lasenby, A.",
+   "Lattanzi, M.",
+   "Lawrence, C.R.",
+   "Le Jeune, M.",
+   "Lemos, P.",
+   "Lesgourgues, J.",
+   "Levrier, F.",
+   "Lewis, A.",
+   "Liguori, M.",
+   "Lilje, P.B.",
+   "Lilley, M.",
+   "Lindholm, V.",
+   "López-Caniego, M.",
+   "Lubin, P.M.",
+   "Ma, Y.-Z.",
+   "Macías-Pérez, J.F.",
+   "Maggio, G.",
+   "Maino, D.",
+   "Mandolesi, N.",
+   "Mangilli, A.",
+   "Marcos-Caballero, A.",
+   "Maris, M.",
+   "Martin, P.G.",
+   "Martinelli, M.",
+   "Martínez-González, E.",
+   "Matarrese, S.",
+   "Mauri, N.",
+   "McEwen, J.D.",
+   "Meinhold, P.R.",
+   "Melchiorri, A.",
+   "Mennella, A.",
+   "Migliaccio, M.",
+   "Millea, M.",
+   "Mitra, S.",
+   "Miville-Deschênes, M.-A.",
+   "Molinari, D.",
+   "Montier, L.",
+   "Morgante, G.",
+   "Moss, A.",
+   "Natoli, P.",
+   "Nørgaard-Nielsen, H.U.",
+   "Pagano, L.",
+   "Paoletti, D.",
+   "Partridge, B.",
+   "Patanchon, G.",
+   "Peiris, H.V.",
+   "Perrotta, F.",
+   "Pettorino, V.",
+   "Piacentini, F.",
+   "Polastri, L.",
+   "Polenta, G.",
+   "Puget, J.-L.",
+   "Rachen, J.P.",
+   "Reinecke, M.",
+   "Remazeilles, M.",
+   "Renzi, A.",
+   "Rocha, G.",
+   "Rosset, C.",
+   "Roudier, G.",
+   "Rubiño-Martín, J.A.",
+   "Ruiz-Granados, B.",
+   "Salvati, L.",
+   "Sandri, M.",
+   "Savelainen, M.",
+   "Scott, D.",
+   "Shellard, E.P.S.",
+   "Sirignano, C.",
+   "Sirri, G.",
+   "Spencer, L.D.",
+   "Sunyaev, R.",
+   "Suur-Uski, A.-S.",
+   "Tauber, J.A.",
+   "Tavagnacco, D.",
+   "Tenti, M.",
+   "Toffolatti, L.",
+   "Tomasi, M.",
+   "Trombetti, T.",
+   "Valenziano, L.",
+   "Valiviita, J.",
+   "Van Tent, B.",
+   "Vibert, L.",
+   "Vielva, P.",
+   "Villa, F.",
+   "Vittorio, N.",
+   "Wandelt, B.D.",
+   "Wehus, I.K.",
+   "White, M.",
+   "White, S.D.M.",
+   "Zacchei, A.",
+   "Zonca, A."
+  ],
+  "earliest_date": "2018-07-17",
+  "journal": "Astron. Astrophys. 641 A6 (2020); Astron. Astrophys. 652 C4 (2021)",
+  "dois": [
+   "10.1051/0004-6361/201833910",
+   "10.1051/0004-6361/201833910e"
+  ],
+  "arxiv": "1807.06209",
+  "abstract": "We present cosmological parameter results from the final full-mission Planck measurements of the CMB anisotropies. We find good consistency with the standard spatially-flat 6-parameter $\\Lambda$CDM cosmology having a power-law spectrum of adiabatic scalar perturbations (denoted \"base $\\Lambda$CDM\" in this paper), from polarization, temperature, and lensing, separately and in combination. A combined analysis gives dark matter density $\\Omega_c h^2 = 0.120\\pm 0.001$, baryon density $\\Omega_b h^2 = 0.0224\\pm 0.0001$, scalar spectral index $n_s = 0.965\\pm 0.004$, and optical depth $\\tau = 0.054\\pm 0.007$ (in this abstract we quote $68\\,\\%$ confidence regions on measured parameters and $95\\,\\%$ on upper limits). The angular acoustic scale is measured to $0.03\\,\\%$ precision, with $100\\theta_*=1.0411\\pm 0.0003$. These results are only weakly dependent on the cosmological model and remain stable, with somewhat increased errors, in many commonly considered extensions. Assuming the base-$\\Lambda$CDM cosmology, the inferred late-Universe parameters are: Hubble constant $H_0 = (67.4\\pm 0.5)$km/s/Mpc; matter density parameter $\\Omega_m = 0.315\\pm 0.007$; and matter fluctuation amplitude $\\sigma_8 = 0.811\\pm 0.006$. We find no compelling evidence for extensions to the base-$\\Lambda$CDM model. Combining with BAO we constrain the effective extra relativistic degrees of freedom to be $N_{\\rm eff} = 2.99\\pm 0.17$, and the neutrino mass is tightly constrained to $\\sum m_\\nu< 0.12$eV. The CMB spectra continue to prefer higher lensing amplitudes than predicted in base -$\\Lambda$CDM at over $2\\,\\sigma$, which pulls some parameters that affect the lensing amplitude away from the base-$\\Lambda$CDM model; however, this is not supported by the lensing reconstruction or (in models that also change the background geometry) BAO data. (Abridged)"
+ },
+ "1810.04709": {
+  "key": "1810.04709",
+  "source": "INSPIRE",
+  "recid": 1698010,
+  "api_url": "https://inspirehep.net/api/literature/1698010",
+  "retrieved": "2026-11-02",
+  "title": "Velocity Dependence from Resonant Self-Interacting Dark Matter",
+  "authors": [
+   "Chu, Xiaoyong",
+   "Garcia-Cely, Camilo",
+   "Murayama, Hitoshi"
+  ],
+  "earliest_date": "2018-10-10",
+  "journal": "Phys. Rev. Lett. 122 071103 (2019)",
+  "dois": [
+   "10.1103/PhysRevLett.122.071103",
+   "10.1103/PhysRevLett.122.071103"
+  ],
+  "arxiv": "1810.04709",
+  "abstract": "The dark matter density distribution in small-scale astrophysical objects may indicate that dark matter is self-interacting, while observations from clusters of galaxies suggest that the corresponding cross section depends on the velocity. Using a model-independent approach, we show that resonant self-interacting dark matter (RSIDM) can naturally explain such a behavior. In contrast to what is often assumed, this does not require a light mediator. We present explicit realizations of this mechanism and discuss the corresponding astrophysical constraints."
+ },
+ "1903.05673": {
+  "key": "1903.05673",
+  "source": "INSPIRE",
+  "recid": 1724945,
+  "api_url": "https://inspirehep.net/api/literature/1724945",
+  "retrieved": "2026-11-02",
+  "title": "An Introduction to Nonassociative Physics",
+  "authors": [
+   "Szabo, Richard J."
+  ],
+  "earliest_date": "2019-03-13",
+  "journal": "PoS CORFU2018 100 (2019)",
+  "dois": [
+   "10.22323/1.347.0100"
+  ],
+  "arxiv": "1903.05673",
+  "abstract": "We give a pedagogical introduction to the nonassociative structures arising from recent developments in quantum mechanics with magnetic monopoles, in string theory and M-theory with non-geometric fluxes, and in M-theory with non-geometric Kaluza-Klein monopoles. After a brief overview of the main historical appearences of nonassociativity in quantum mechanics, string theory and M-theory, we provide a detailed account of the classical and quantum dynamics of electric charges in the backgrounds of various distributions of magnetic charge. We apply Born reciprocity to map this system to the phase space of closed strings propagating in R-flux backgrounds of string theory, and then describe the lift to the phase space of M2-branes in R-flux backgrounds of M-theory. Applying Born reciprocity maps this M-theory configuration to the phase space of M-waves probing a non-geometric Kaluza-Klein monopole background. These four perspective systems are unified by a covariant 3-algebra structure on the M-theory phase space."
+ },
+ "1905.08269": {
+  "key": "1905.08269",
+  "source": "INSPIRE",
+  "recid": 1735798,
+  "api_url": "https://inspirehep.net/api/literature/1735798",
+  "retrieved": "2026-11-02",
+  "title": "Dark Energy and String Theory",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minić, Djordje"
+  ],
+  "earliest_date": "2019-05-20",
+  "journal": "Phys. Lett. B 798 134950 (2019)",
+  "dois": [
+   "10.1016/j.physletb.2019.134950"
+  ],
+  "arxiv": "1905.08269",
+  "abstract": "A radiatively stable de Sitter spacetime is constructed by considering an intrinsically non-commutative and generalized-geometric formulation of string theory, which is related to a family of F-theory models endowed with non-trivial anisotropic axion-dilaton backgrounds. In particular, the curvature of the canonically conjugate dual space provides for a positive cosmological constant to leading order, that satisfies a radiatively stable see-saw-like formula, which in turn induces the dark energy in the observed spacetime. We also comment on the non-commutative phase of the non-perturbative formulations of string theory/quantum gravity implied by this approach."
+ },
+ "1905.09297": {
+  "key": "1905.09297",
+  "source": "INSPIRE",
+  "recid": 1736516,
+  "api_url": "https://inspirehep.net/api/literature/1736516",
+  "retrieved": "2026-11-02",
+  "title": "Dynamical Friction in Superfluids",
+  "authors": [
+   "Berezhiani, Lasha",
+   "Elder, Benjamin",
+   "Khoury, Justin"
+  ],
+  "earliest_date": "2019-05-22",
+  "journal": "JCAP 10 074 (2019)",
+  "dois": [
+   "10.1088/1475-7516/2019/10/074",
+   "10.1088/1475-7516/2019/10/074"
+  ],
+  "arxiv": "1905.09297",
+  "abstract": "We compute the dynamical friction on a small perturber moving through an inviscid fluid, i.e., a superfluid. Crucially, we account for the tachyonic gravitational mass for sound waves, reminiscent of the Jeans instability of the fluid, which results in non-zero dynamical friction even for subsonic velocities. Moreover, we illustrate that the standard leading order effective theory in the derivative expansion is in general inadequate for analysing supersonic processes. We show this in two ways: (i) with a fluid treatment, where we solve the linearized hydrodynamical equations coupled to Newtonian gravity; and (ii) with a quasiparticle description, where we study the energy dissipation of a moving perturber due to phonon radiation. Ordinarily a subsonic perturber moving through a superfluid is kinematically prohibited from losing energy, however the Jeans instability modifies the dispersion relation of the fluid which can result in a small but non-vanishing dynamical friction force. We also analyse the soft phonon bremsstrahlung by a subsonic perturber scattered off an external field."
+ },
+ "1909.06240": {
+  "key": "1909.06240",
+  "source": "INSPIRE",
+  "recid": 1754000,
+  "api_url": "https://inspirehep.net/api/literature/1754000",
+  "retrieved": "2026-11-02",
+  "title": "Special geometry, Hessian structures and applications",
+  "authors": [
+   "Lopes Cardoso, Gabriel",
+   "Mohaupt, Thomas"
+  ],
+  "earliest_date": "2019-09-13",
+  "journal": "Phys. Rept. 855 1 (2020)",
+  "dois": [
+   "10.1016/j.physrep.2020.02.002"
+  ],
+  "arxiv": "1909.06240",
+  "abstract": "The target space geometry of abelian vector multiplets in ${\\cal N}= 2$ theories in four and five space-time dimensions is called special geometry. It can be elegantly formulated in terms of Hessian geometry. In this review, we introduce Hessian geometry, focussing on aspects that are relevant for the special geometries of four- and five-dimensional vector multiplets. We formulate ${\\cal N}= 2$ theories in terms of Hessian structures and give various concrete applications of Hessian geometry, ranging from static BPS black holes in four and five space-time dimensions to topological string theory, emphasizing the role of the Hesse potential. We also discuss the r-map and c-map which relate the special geometries of vector multiplets to each other and to hypermultiplet geometries. By including time-like dimensional reductions, we obtain theories in Euclidean signature, where the scalar target spaces carry para-complex versions of special geometry."
+ },
+ "2003.00318": {
+  "key": "2003.00318",
+  "source": "INSPIRE",
+  "recid": 1783243,
+  "api_url": "https://inspirehep.net/api/literature/1783243",
+  "retrieved": "2026-11-02",
+  "title": "From quantum foundations of quantum field theory, string theory and quantum gravity todark matter and dark energy",
+  "authors": [
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2020-02-29",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2003.00318",
+  "abstract": "We review our recent work on quantum foundations of quantum mechanics, quantum field theory and quantum gravity (formulated as metastring theory) and various implications for the problems of dark matter and dark energy. The first point concerns the new understanding of quantum theory via the concept of quantum (modular) spacetime endowed with manifest non-locality that is consistent with causality. This view implies the consistency of the fundamental length and Lorentz symmetry, based on the principle of relative (observer dependent) locality. The geometry of such quantum spacetime is encoded in the new concept of Born geometry. This in turn leads to a novel understanding of quantum field theory in a manifestly bi-local representation endowed with metaparticle quanta. A fully dynamical quantum spacetime, with a dynamical Born geometry, leads to quantum gravity (a quantum theory of dynamical geometry of quantum non-locality) in the guise of metastring theory. This generic formulation of string theory implies a radiatively stable positive cosmological constant (viewed as a curvature of the dual spacetime) as a model of dark energy in the observed classical spacetime, as well as metaparticle quanta (the zero modes of the metastring) as the natural quanta of dark matter in this approach."
+ },
+ "2006.12515": {
+  "key": "2006.12515",
+  "source": "INSPIRE",
+  "recid": 1802545,
+  "api_url": "https://inspirehep.net/api/literature/1802545",
+  "retrieved": "2026-11-02",
+  "title": "Velocity-dependent Self-interacting Dark Matter from Groups and Clusters of Galaxies",
+  "authors": [
+   "Sagunski, Laura",
+   "Gad-Nasr, Sophia",
+   "Colquhoun, Brian",
+   "Robertson, Andrew",
+   "Tulin, Sean"
+  ],
+  "earliest_date": "2020-06-22",
+  "journal": "JCAP 01 024 (2021)",
+  "dois": [
+   "10.1088/1475-7516/2021/01/024"
+  ],
+  "arxiv": "2006.12515",
+  "abstract": "We probe the self-interactions of dark matter using observational data of relaxed galaxy groups and clusters. Our analysis uses the Jeans formalism and considers a wider range of systematic effects than in previous work, including adiabatic contraction and stellar anisotropy, to robustly constrain the self-interaction cross section. For both groups and clusters, our results show a mild preference for a nonzero cross section compared with cold collisionless dark matter. Our groups result, $\\sigma/m=0.5\\pm0.2~\\mathrm{cm}^2/\\mathrm{g}$, places the first constraint on self-interacting dark matter (SIDM) at an intermediate scale between galaxies and massive clusters. Our clusters result is $\\sigma/m=0.19\\pm0.09~\\mathrm{cm}^2/\\mathrm{g}$, with an upper limit of $\\sigma / m < 0.35~\\mathrm{cm}^2/\\mathrm{g}$ (95% CL). Thus, our results disfavor a velocity-independent cross section of order $1~\\mathrm{cm}^2/\\mathrm{g}$ or larger needed to address small scale structure problems in galaxies, but are consistent with a velocity-dependent cross section that decreases with increasing scattering velocity. Comparing the cross sections with and without the effect of adiabatic contraction, we find that adiabatic contraction produces slightly larger values for our data sample, but they are consistent at the $1\\sigma$ level. Finally, to validate our approach, we apply our Jeans analysis to a sample of mock data generated from SIDM-plus-baryons simulations with $\\sigma/m = 1~\\mathrm{cm}^2/\\mathrm{g}$. This is the first test of the Jeans model at the level of stellar and lensing observables directly measured from simulations. We find our analysis gives a robust determination of the cross section, as well as consistently inferring the true baryon and dark matter density profiles."
+ },
+ "2010.15610": {
+  "key": "2010.15610",
+  "source": "INSPIRE",
+  "recid": 1826817,
+  "api_url": "https://inspirehep.net/api/literature/1826817",
+  "retrieved": "2026-11-02",
+  "title": "String Theory, the Dark Sector, and the Hierarchy Problem",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2020-10-29",
+  "journal": "LHEP 2021 186 (2021)",
+  "dois": [
+   "10.31526/lhep.2021.186",
+   "10.31526/lhep.2021.186"
+  ],
+  "arxiv": "2010.15610",
+  "abstract": "We discuss dark energy, dark matter and the hierarchy problem in the context of a general non-commutative formulation of string theory. In this framework dark energy is generated by the dynamical geometry of the dual spacetime while dark matter, on the other hand, comes from the degrees of freedom dual to the visible matter. This formulation of string theory is sensitive both to the IR and UV scales and the Higgs scale is radiatively stable by being a geometric mean of radiatively stable UV and IR scales. We also comment on various phenomenological signatures of this novel approach to dark energy, dark matter and the hierarchy problem. We find that this new view on the hierarchy problem is realized in a toy model based on a non-holomorphic deformation of the stringy cosmic string. Finally, we discuss a proposal for a new non-perturbative formulation of string theory, which sheds light on M theory and F theory, as well as on supersymmetry and holography."
+ },
+ "2011.08852": {
+  "key": "2011.08852",
+  "source": "INSPIRE",
+  "recid": 1831039,
+  "api_url": "https://inspirehep.net/api/literature/1831039",
+  "retrieved": "2026-11-02",
+  "title": "Dynamical dark energy and infinite statistics",
+  "authors": [
+   "Jejjala, Vishnu",
+   "Kavic, Michael J.",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2020-11-17",
+  "journal": "Int. J. Mod. Phys. A 37 2242001 (2022)",
+  "dois": [
+   "10.1142/S0217751X22420015"
+  ],
+  "arxiv": "2011.08852",
+  "abstract": "In the $\\Lambda$CDM model, dark energy is viewed as a constant vacuum energy density, the cosmological constant in the Einstein--Hilbert action. This assumption can be relaxed in various models that introduce a dynamical dark energy. In this letter, we argue that the mixing between infrared and ultraviolet degrees of freedom in quantum gravity lead to infinite statistics, the unique statistics consistent with Lorentz invariance in the presence of non-locality, and yield a fine structure for dark energy. Introducing IR and UV cutoffs into the quantum gravity action, we deduce the form of $\\Lambda$ as a function of redshift and translate this to the behavior of the Hubble parameter."
+ },
+ "2109.12763": {
+  "key": "2109.12763",
+  "source": "INSPIRE",
+  "recid": 1929084,
+  "api_url": "https://inspirehep.net/api/literature/1929084",
+  "retrieved": "2026-11-02",
+  "title": "On quantum gravity and quantum gravity phenomenology",
+  "authors": [
+   "Edmonds, Douglas",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2021-09-26",
+  "journal": "",
+  "dois": [
+   "10.1142/9789811269776_0344"
+  ],
+  "arxiv": "2109.12763",
+  "abstract": "This article summarizes a new approach to quantum gravity based on the concepts of modular spacetime, Born geometry, and metastring theory and their applications to quantum gravity phenomenology. In particular, we discuss a new understanding of dark matter in terms of metaparticles (zero modes of the metastring) and its relation to dark energy (the curvature of dual spacetime) in view of the actual astronomical observations."
+ },
+ "2111.05659": {
+  "key": "2111.05659",
+  "source": "INSPIRE",
+  "recid": 1965494,
+  "api_url": "https://inspirehep.net/api/literature/1965494",
+  "retrieved": "2026-11-02",
+  "title": "Quantum gravity phenomenology at the dawn of the multi-messenger era—A review",
+  "authors": [
+   "Addazi, A.",
+   "Alvarez-Muniz, J.",
+   "Alves Batista, R.",
+   "Amelino-Camelia, G.",
+   "Antonelli, V.",
+   "Arzano, M.",
+   "Asorey, M.",
+   "Atteia, J.-L.",
+   "Bahamonde, S.",
+   "Bajardi, F.",
+   "Ballesteros, A.",
+   "Baret, B.",
+   "Barreiros, D.M.",
+   "Basilakos, S.",
+   "Benisty, D.",
+   "Birnholtz, O.",
+   "Blanco-Pillado, J.J.",
+   "Blas, D.",
+   "Bolmont, J.",
+   "Boncioli, D.",
+   "Bosso, P.",
+   "Calcagni, G.",
+   "Capozziello, S.",
+   "Carmona, J.M.",
+   "Cerci, S.",
+   "Chernyakova, M.",
+   "Clesse, S.",
+   "Coelho, J.A.B.",
+   "Colak, S.M.",
+   "Cortes, J.L.",
+   "Das, S.",
+   "D'Esposito, V.",
+   "Demirci, M.",
+   "Di Luca, M.G.",
+   "di Matteo, A.",
+   "Dimitrijevic, D.",
+   "Djordjevic, G.",
+   "Dominis Prester, D.",
+   "Eichhorn, A.",
+   "Ellis, J.",
+   "Escamilla-Rivera, C.",
+   "Fabiano, G.",
+   "Franchino-Viñas, S.A.",
+   "Frassino, A.M.",
+   "Frattulillo, D.",
+   "Funk, S.",
+   "Fuster, A.",
+   "Gamboa, J.",
+   "Gent, A.",
+   "Gergely, L.Á.",
+   "Giammarchi, M.",
+   "Giesel, K.",
+   "Glicenstein, J.-F.",
+   "Gracia-Bondía, J.",
+   "Gracia-Ruiz, R.",
+   "Gubitosi, G.",
+   "Guendelman, E.I.",
+   "Gutierrez-Sagredo, I.",
+   "Haegel, L.",
+   "Heefer, S.",
+   "Held, A.",
+   "Herranz, F.J.",
+   "Hinderer, T.",
+   "Illana, J.I.",
+   "Ioannisian, A.",
+   "Jetzer, P.",
+   "Joaquim, F.R.",
+   "Kampert, K.-H.",
+   "Karasu Uysal, A.",
+   "Katori, T.",
+   "Kazarian, N.",
+   "Kerszberg, D.",
+   "Kowalski-Glikman, J.",
+   "Kuroyanagi, S.",
+   "Lämmerzahl, C.",
+   "Levi Said, J.",
+   "Liberati, S.",
+   "Lim, E.",
+   "Lobo, I.P.",
+   "López-Moya, M.",
+   "Luciano, G.G.",
+   "Manganaro, M.",
+   "Marcianò, A.",
+   "Martín-Moruno, P.",
+   "Martinez, Manel",
+   "Martinez, Mario",
+   "Martínez-Huerta, H.",
+   "Martínez-Miravé, P.",
+   "Masip, M.",
+   "Mattingly, D.",
+   "Mavromatos, N.",
+   "Mazumdar, A.",
+   "Méndez, F.",
+   "Mercati, F.",
+   "Micanovic, S.",
+   "Mielczarek, J.",
+   "Miller, A.L.",
+   "Milosevic, M.",
+   "Minic, D.",
+   "Miramonti, L.",
+   "Mitsou, V.A.",
+   "Moniz, P.",
+   "Mukherjee, S.",
+   "Nardini, G.",
+   "Navas, S.",
+   "Niechciol, M.",
+   "Nielsen, A.B.",
+   "Obers, N.A.",
+   "Oikonomou, F.",
+   "Oriti, D.",
+   "Paganini, C.F.",
+   "Palomares-Ruiz, S.",
+   "Pasechnik, R.",
+   "Pasic, V.",
+   "Pérez de los Heros, C.",
+   "Pfeifer, C.",
+   "Pieroni, M.P.",
+   "Piran, T.",
+   "Platania, A.",
+   "Rastgoo, S.",
+   "Relancio, J.J.",
+   "Reyes, M.A.",
+   "Ricciardone, A.",
+   "Risse, M.",
+   "Rodriguez Frias, M.D.",
+   "Rosati, G.",
+   "Rubiera-Garcia, D.",
+   "Sahlmann, H.",
+   "Sakellariadou, M.",
+   "Salamida, F.",
+   "Saridakis, E.N.",
+   "Satunin, P.",
+   "Schiffer, M.",
+   "Schüssler, F.",
+   "Sigl, G.",
+   "Sitarek, J.",
+   "Solà Peracaula, J.",
+   "Sopuerta, C.F.",
+   "Sotiriou, T.P.",
+   "Spurio, M.",
+   "Staicova, D.",
+   "Stergioulas, N.",
+   "Stoica, S.",
+   "Strišković, J.",
+   "Stuttard, T.",
+   "Sunar Cerci, D.",
+   "Tavakoli, Y.",
+   "Ternes, C.A.",
+   "Terzić, T.",
+   "Thiemann, T.",
+   "Tinyakov, P.",
+   "Torri, M.D.C.",
+   "Tórtola, M.",
+   "Trimarelli, C.",
+   "Trześniewski, T.",
+   "Tureanu, A.",
+   "Urban, F.R.",
+   "Vagenas, E.C.",
+   "Vernieri, D.",
+   "Vitagliano, V.",
+   "Wallet, J.-C.",
+   "Zornoza, J.D."
+  ],
+  "earliest_date": "2021-11-10",
+  "journal": "Prog. Part. Nucl. Phys. 125 103948 (2022)",
+  "dois": [
+   "10.1016/j.ppnp.2022.103948",
+   "10.1016/j.ppnp.2022.103948"
+  ],
+  "arxiv": "2111.05659",
+  "abstract": "The exploration of the universe has recently entered a new era thanks to the multi-messenger paradigm, characterized by a continuous increase in the quantity and quality of experimental data that is obtained by the detection of the various cosmic messengers (photons, neutrinos, cosmic rays and gravitational waves) from numerous origins. They give us information about their sources in the universe and the properties of the intergalactic medium. Moreover, multi-messenger astronomy opens up the possibility to search for phenomenological signatures of quantum gravity. On the one hand, the most energetic events allow us to test our physical theories at energy regimes which are not directly accessible in accelerators; on the other hand, tiny effects in the propagation of very high energy particles could be amplified by cosmological distances. After decades of merely theoretical investigations, the possibility of obtaining phenomenological indications of Planck-scale effects is a revolutionary step in the quest for a quantum theory of gravity, but it requires cooperation between different communities of physicists (both theoretical and experimental). This review is aimed at promoting this cooperation by giving a state-of-the art account of the interdisciplinary expertise that is needed in the effective search of quantum gravity footprints in the production, propagation and detection of cosmic messengers."
+ },
+ "2111.14205": {
+  "key": "2111.14205",
+  "source": "INSPIRE",
+  "recid": 1978953,
+  "api_url": "https://inspirehep.net/api/literature/1978953",
+  "retrieved": "2026-11-02",
+  "title": "Mirror Symmetry, Born Geometry and String Theory",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2021-11-28",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2111.14205",
+  "abstract": "All known string theory models may be obtained as partial fermionization, projection and background Ansätze from the original, purely bosonic string theory. The latter theory in turn has been recently shown to describe a chirally and non-commutatively doubled and manifestly T-dual target spacetime. We show herein that this, so-called metastring theory automatically includes mirror symmetry."
+ },
+ "2202.05104": {
+  "key": "2202.05104",
+  "source": "INSPIRE",
+  "recid": 2030712,
+  "api_url": "https://inspirehep.net/api/literature/2030712",
+  "retrieved": "2026-11-02",
+  "title": "Quantum Gravity and Phenomenology: Dark Matter, Dark Energy, Vacuum Selection, Emergent Spacetime, and Wormholes",
+  "authors": [
+   "Berglund, Per",
+   "Dai, De-Chang",
+   "Edmonds, Douglas",
+   "He, Yang-Hui",
+   "Hubsch, Tristan",
+   "Jejjala, Vishnu",
+   "Kavic, Michael J.",
+   "Minic, Djordje",
+   "Powers, Samuel",
+   "Simonetti, John H.",
+   "Stojkovic, Dejan",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2022-02-10",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2202.05104",
+  "abstract": "We discuss the relevance of quantum gravity to the frontier questions in high energy phenomenology: the problems of dark matter, dark energy, and vacuum selection as well as the problems of emergent spacetime and wormholes. Dark matter and dark energy phenomenology, and the problem of vacuum selection are discussed within the context of string theory as a model of quantum gravity. Emergent spacetime and wormholes are discussed in a more general context of effective theories of quantum gravity."
+ },
+ "2202.06890": {
+  "key": "2202.06890",
+  "source": "INSPIRE",
+  "recid": 2032186,
+  "api_url": "https://inspirehep.net/api/literature/2032186",
+  "retrieved": "2026-11-02",
+  "title": "Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation",
+  "authors": [
+   "Berglund, Per",
+   "Freidel, Laurent",
+   "Hubsch, Tristan",
+   "Kowalski-Glikman, Jerzy",
+   "Leigh, Robert G.",
+   "Mattingly, David",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2022-02-14",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2202.06890",
+  "abstract": "We discuss the possible appearance of several rather exotic phenomena in quantum gravity, including UV/IR mixing, novel modifications of infrared phenomenology that extend effective field theory approaches, and the relaxation of the usual notions of locality. We discuss the relevance of such concepts in quantum gravity for quantum information science, cosmology and general quantum gravity phenomenology."
+ },
+ "2207.02835": {
+  "key": "2207.02835",
+  "source": "INSPIRE",
+  "recid": 2106511,
+  "api_url": "https://inspirehep.net/api/literature/2106511",
+  "retrieved": "2026-11-02",
+  "title": "Bouncing and collapsing universes dual to late-time cosmological models",
+  "authors": [
+   "Mukherjee, Dipayan",
+   "Jassal, H.K.",
+   "Lochan, Kinjalk"
+  ],
+  "earliest_date": "2022-07-06",
+  "journal": "Eur. Phys. J. C 84 318 (2024); Eur. Phys. J. C 84 318 (2024)",
+  "dois": [
+   "10.1140/epjc/s10052-024-12673-1",
+   "10.1140/epjc/s10052-024-12673-1"
+  ],
+  "arxiv": "2207.02835",
+  "abstract": "We use the Jordan frame-Einstein frame correspondence to explore dual universes with contrasting cosmological evolutions. We study the mapping between Einstein and Jordan frames where the Einstein frame universe describes the late-time evolution of the physical universe, which is driven by dark energy and non-relativistic matter. The Brans-Dicke theory of gravity is considered to be the dual scalar-tensor theory in the Jordan frame. We show that an Einstein frame universe, with cosmological evolution of the $\\Lambda$CDM model, always corresponds to a bouncing Jordan frame universe governed by a Brans-Dicke theory. On the other hand, quintessence models of dark energy with non-relativistic matter component are shown to be always dual to a Brans-Dicke Jordan frame with a turn-around, i.e., a bounce or a collapse. The evolution of the equation of state of the quintessence field determines whether the turn-around is a bounce or a collapse. The point of the Jordan frame turn-around for all the cases can be tuned anywhere by choosing an appropriate Brans-Dicke parameter. This essentially leads to alternative descriptions of the late-time evolution of the physical universe, in terms of bouncing or collapsing Brans-Dicke universes in the Jordan frame. Therefore,the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe. We further study the stability of such conformal maps against linear perturbations. The effective bouncing and collapsing descriptions of the current accelerating universe may have interesting implications for the evolutions of perturbations and quantum fluctuations in the cosmological background."
+ },
+ "2212.06086": {
+  "key": "2212.06086",
+  "source": "INSPIRE",
+  "recid": 2613377,
+  "api_url": "https://inspirehep.net/api/literature/2613377",
+  "retrieved": "2026-11-02",
+  "title": "On de Sitter Spacetime and String Theory",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2022-12-12",
+  "journal": "Int. J. Mod. Phys. D 32 2330002 (2023)",
+  "dois": [
+   "10.1142/S0218271823300021"
+  ],
+  "arxiv": "2212.06086",
+  "abstract": "We review various aspects of de Sitter spacetime in string theory: its status as an effective field theory spacetime solution, its relation to the vacuum energy problem in string theory, its (global) holographic definition in terms of two entangled and non-canonical conformal field theories, as well as a realization of a realistic de Sitter universe endowed with the observed visible matter and the necessary dark sector in order to reproduce the realistic cosmological structure. In particular, based on the new insight regarding the cosmological constant problem in string theory, we argue that in a doubled, T-duality-symmetric, phase-space-like and non-commutative generalized-geometric formulation, string theory can naturally lead to a small and positive cosmological constant that is radiatively stable and technically natural. Such a formulation is fundamentally based on a quantum spacetime, but in an effective spacetime description of this general formulation of string theory, the curvature of the dual spacetime is the cosmological constant of the observed spacetime, while the size of the dual spacetime is the gravitational constant of the same observed spacetime. Also, the three scales associated with intrinsic non-commutativity of string theory, the cosmological constant scale and the Planck scale, as well as the Higgs scale, can be arranged to satisfy various seesaw-like formulae. Along the way, we show that these new features of string theory can be implemented in a particular deformation of cosmic-string-like models."
+ },
+ "2302.03526": {
+  "key": "2302.03526",
+  "source": "INSPIRE",
+  "recid": 2630205,
+  "api_url": "https://inspirehep.net/api/literature/2630205",
+  "retrieved": "2026-11-02",
+  "title": "Magnetic monopoles with no strings attached: a portal to the dark side of dual electrodynamics",
+  "authors": [
+   "Govaerts, Jan"
+  ],
+  "earliest_date": "2023-02-07",
+  "journal": "Eur. Phys. J. C 83 158 (2023); Eur. Phys. J. C 83 158 (2023)",
+  "dois": [
+   "10.1140/epjc/s10052-023-11302-7",
+   "10.1140/epjc/s10052-023-11302-7"
+  ],
+  "arxiv": "2302.03526",
+  "abstract": "It has long been known that in the absence of electric charges and currents, Maxwell's electromagnetism in 4 dimensional vacuum Minkowski space-time is invariant under SO(2) dual transformations that mix its electric and magnetic fields. Extending this symmetry to include the coupling to electrically charged matter, requires a dual coupling to magnetically charged matter as well, leading to Maxwell equations for SO(2) dual electrodynamics. Based on a doubled ensemble of SO(2) dual 4-vector gauge potentials which does away with the need of Dirac string singularities for magnetic monopoles, a local Lagrangian action principle for SO(2) dual electromagnetism is known, which manifestly displays all the required space-time and internal symmetries, and reduces to the experimentally well established Maxwell electrodynamics in the absence of magnetic charges and currents. Applying the same considerations for the matter action of electrically and magnetically charged point particles, a unique SO(2) dual generalised Lorentz force is identified for SO(2) dual electrodynamics, truly different from the usual SO(2) dual invariant choice motivated by simplicity, but yet made arbitrarily and which does not derive from some action principle. This generalised Lorentz force involves a single real and new coupling constant of unknown value, without the requirement of a Dirac-Schwinger-Zwanziger quantisation condition for electric and magnetic charges of dyons. A physical consequence for SO(2) dual electrodynamics of this coupling constant if nonvanishing, is to open a channel, or portal between the otherwise mutually totally ``dark'' sectors of electric and magnetic charges for electromagnetic interactions."
+ },
+ "2305.12593": {
+  "key": "2305.12593",
+  "source": "INSPIRE",
+  "recid": 2662459,
+  "api_url": "https://inspirehep.net/api/literature/2662459",
+  "retrieved": "2026-11-02",
+  "title": "The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles",
+  "authors": [
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2023-05-21",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2305.12593",
+  "abstract": "This talk summarizes a new understanding of the cosmological constant problem, which essentially relies on a phase-space-like computation of the vacuum energy, both in the realm of quantum field theory coupled to gravity, and in the realm of a consistent formulation of a quantum theory of gravity and matter, such as string theory, combined with central properties of gravitational entropy as captured by the Bekenstein bound. This new understanding of the vacuum in a quantum theory of gravity and matter sheds light on the Higgs mass as well as the masses of quarks and leptons."
+ },
+ "2307.07553": {
+  "key": "2307.07553",
+  "source": "INSPIRE",
+  "recid": 2677658,
+  "api_url": "https://inspirehep.net/api/literature/2677658",
+  "retrieved": "2026-11-02",
+  "title": "Parker bounds on monopoles with arbitrary charge from galactic and primordial magnetic fields",
+  "authors": [
+   "Kobayashi, Takeshi",
+   "Perri, Daniele"
+  ],
+  "earliest_date": "2023-07-14",
+  "journal": "Phys. Rev. D 108 083005 (2023)",
+  "dois": [
+   "10.1103/PhysRevD.108.083005",
+   "10.1103/PhysRevD.108.083005"
+  ],
+  "arxiv": "2307.07553",
+  "abstract": "We present a comprehensive study of Parker-type bounds on magnetic monopoles with arbitrary magnetic charge, including minicharged monopoles and magnetic black holes. We derive the bounds based on the survival of galactic magnetic fields, seed magnetic fields, as well as primordial magnetic fields. We find that monopoles with different magnetic charges are best constrained by different astrophysical systems: while monopoles with a Dirac charge are tightly constrained by seed galactic magnetic fields, minicharged monopoles are strongly constrained by primordial magnetic fields, and magnetic black holes by the density of dark matter. We also assess the viability of the various types of monopoles as dark matter, by studying whether they can cluster with galaxies hosting magnetic fields."
+ },
+ "2307.16712": {
+  "key": "2307.16712",
+  "source": "INSPIRE",
+  "recid": 2683693,
+  "api_url": "https://inspirehep.net/api/literature/2683693",
+  "retrieved": "2026-11-02",
+  "title": "String Theory Bounds on the Cosmological Constant, the Higgs Mass, and the Quark and Lepton Masses †",
+  "authors": [
+   "Berglund, Per",
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2023-07-31",
+  "journal": "Symmetry 15 1660 (2023)",
+  "dois": [
+   "10.3390/sym15091660",
+   "10.3390/sym15091660"
+  ],
+  "arxiv": "2307.16712",
+  "abstract": "We elaborate on the new understanding of the cosmological constant and the gauge hierarchy problems in the context of string theory in its metastring formulation, based on the concepts of modular spacetime and Born geometry. The interplay of phase space (and Born geometry), the Bekenstein bound, the mixing between ultraviolet (UV) and infrared (IR) physics and modular invariance in string theory is emphasized. This new viewpoint is fundamentally rooted in quantum contextuality and not in statistical observer bias (anthropic principle). We also discuss the extension of this point of view to the problem of masses of quarks and leptons and their respective mixing matrices."
+ },
+ "2404.04926": {
+  "key": "2404.04926",
+  "source": "INSPIRE",
+  "recid": 2775086,
+  "api_url": "https://inspirehep.net/api/literature/2775086",
+  "retrieved": "2026-11-02",
+  "title": "On the cosmological abundance of magnetic monopoles",
+  "authors": [
+   "Zhang, Chen",
+   "Zhang, Shi-Hao",
+   "Fu, Bowen",
+   "Zhang, Jing-Fei",
+   "Zhang, Xin"
+  ],
+  "earliest_date": "2024-04-07",
+  "journal": "JHEP 08 220 (2024); JHEP 08 220 (2024)",
+  "dois": [
+   "10.1007/JHEP08(2024)220",
+   "10.1007/JHEP08(2024)220"
+  ],
+  "arxiv": "2404.04926",
+  "abstract": "We demonstrate that Debye shielding cannot be employed to constrain the cosmological abundance of magnetic monopoles, contrary to what is stated in the previous literature. Current model-independent bounds on the monopole abundance are then revisited for unit Dirac magnetic charge. We find that the Andromeda Parker bound can be employed to set an upper limit on the monopole flux at the level of $F_M\\lesssim 5.3\\times 10^{-19}\\,\\text{cm}^{-2}\\text{s}^{-1}\\text{sr}^{-1}$ for a monopole mass $10^{13}\\,\\text{GeV}/c^2\\lesssim m\\lesssim 10^{16}\\,\\text{GeV}/c^2$, which is more stringent than the MACRO direct search limit by two orders of magnitude. This translates into stringent constraints on the monopole density parameter $\\Omega_M$ at the level of $10^{-7}-10^{-4}$ depending on the mass. For larger monopole masses the scenarios in which magnetic monopoles account for all or the majority of dark matter are disfavored."
+ },
+ "2407.06207": {
+  "key": "2407.06207",
+  "source": "INSPIRE",
+  "recid": 2806130,
+  "api_url": "https://inspirehep.net/api/literature/2806130",
+  "retrieved": "2026-11-02",
+  "title": "Quantum Gravity as Gravitized Quantum Theory",
+  "authors": [
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2024-07-02",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2407.06207",
+  "abstract": "Starting from a new understanding of the vacuum energy problem based on the combination of the phase space regularization and the holographic bound, we argue that quantum gravity should be understood as gravitized quantum theory, that is, quantum theory wherein the geometry and topology of the state-space if fully dynamical, in analogy with the dynamical nature of spacetime in Einstein's general relativity. Apart from the vacuum energy problem viewed as a quantum gravity problem, we discuss the \"smoking gun\" experiments involving higher order quantum interference, as well as experimental probes of the statistics of spacetime quanta. Finally, we address the conundrum of the intricately patterned spectrum of masses of elementary particles as well as their mixing angles, as another telltale problem of quantum gravity viewed as gravitized quantum theory."
+ },
+ "2503.20854": {
+  "key": "2503.20854",
+  "source": "INSPIRE",
+  "recid": 2904985,
+  "api_url": "https://inspirehep.net/api/literature/2904985",
+  "retrieved": "2026-11-02",
+  "title": "Dynamical dark energy, dual spacetime, and DESI",
+  "authors": [
+   "Hur, Sunhaeng",
+   "Jejjala, Vishnu",
+   "Kavic, Michael J.",
+   "Minic, Djordje",
+   "Takeuchi, Tatsu"
+  ],
+  "earliest_date": "2025-03-26",
+  "journal": "JCAP 11 054 (2025)",
+  "dois": [
+   "10.1088/1475-7516/2025/11/054"
+  ],
+  "arxiv": "2503.20854",
+  "abstract": "In this paper we discuss possible consequences of a manifestly non-commutative and $T$-duality covariant formulation of string theory on dark energy, when the correspondence between short distance (UV) and long distance (IR) physics is taken into account. We demonstrate that the dark energy is dynamical, \\textit{i.e.}, time-dependent, and we compute the allowed values of $w_0$ and $w_a$, given by $w(a) = w_0+w_a(1-a)$, which compare favorably to the most recent observations by DESI. From this point of view, the latest results from DESI might point to a fundamentally new understanding of quantum spacetime in the context of quantum gravity."
+ },
+ "2504.01467": {
+  "key": "2504.01467",
+  "source": "INSPIRE",
+  "recid": 2907225,
+  "api_url": "https://inspirehep.net/api/literature/2907225",
+  "retrieved": "2026-11-02",
+  "title": "Causal chiral 2-form electrodynamics",
+  "authors": [
+   "Russo, Jorge G.",
+   "Townsend, Paul K."
+  ],
+  "earliest_date": "2025-04-02",
+  "journal": "JHEP 07 048 (2025)",
+  "dois": [
+   "10.1007/JHEP07(2025)048"
+  ],
+  "arxiv": "2504.01467",
+  "abstract": "Generic nonlinear theories of chiral 2-form electrodynamics allow superluminal propagation in some stationary homogeneous backgrounds and are therefore acausal. We find a simple parameterisation of the Hamiltonian for causal theories, and we use it to show that the stress-energy tensor satisfies both the Dominant and Strong energy conditions. We also revisit the Perry-Schwarz formulation, clarifying aspects of it and of its relation to the Hamiltonian formulation."
+ },
+ "2507.06697": {
+  "key": "2507.06697",
+  "source": "INSPIRE",
+  "recid": 2944104,
+  "api_url": "https://inspirehep.net/api/literature/2944104",
+  "retrieved": "2026-11-02",
+  "title": "Dark monopoles",
+  "authors": [
+   "Vento, Vicente"
+  ],
+  "earliest_date": "2025-07-09",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2507.06697",
+  "abstract": "Monopoles have been a subject of much theoretical and experimental research since they were proposed to symmetrize Maxwell's equations. However, no experimental signature of their existence has been detected. Many mechanisms have been proposed to explain this lack of success. In here we generalize QED to a two photon theory where the extraordinary photon and the monopole belong to the dark sector, and the ordinary photon and the electron to the non-dark sector. A mixing interaction transforms both electron and monopole into dyons generating experimental consequences for indirect and direct monopole detection which we analyze."
+ },
+ "2509.21924": {
+  "key": "2509.21924",
+  "source": "INSPIRE",
+  "recid": 2973946,
+  "api_url": "https://inspirehep.net/api/literature/2973946",
+  "retrieved": "2026-11-02",
+  "title": "No room for minimal monopole dark matter",
+  "authors": [
+   "Brümmer, Felix",
+   "Ferrante, Giacomo",
+   "Fischer, Théodore",
+   "Frigerio, Michele"
+  ],
+  "earliest_date": "2025-09-26",
+  "journal": "Phys. Rev. D 113 L091701 (2026)",
+  "dois": [
+   "10.1103/bttg-zfr3",
+   "10.1103/bttg-zfr3"
+  ],
+  "arxiv": "2509.21924",
+  "abstract": "The magnetic monopole of a dark sector has been advocated as an appealing dark matter candidate. We revisit the computation of the monopole abundance $Ω_M$, generated by a thermal phase transition in the minimal 't Hooft-Polyakov model. We explore the three regimes where the phase transition is second order, weakly first order, or supercooled, identifying the parameter space regions where $Ω_M$ can match the observed dark matter abundance. However, the dark sector necessarily contains a stable electrically-charged particle, namely a massive vector boson, with a calculable abundance $Ω_{W'}$. We show that, under minimal assumptions, $Ω_{W'}$ is always far larger than $Ω_M$: dark monopoles cannot constitute a sizeable fraction of dark matter."
+ },
+ "2604.19418": {
+  "key": "2604.19418",
+  "source": "INSPIRE",
+  "recid": 3147521,
+  "api_url": "https://inspirehep.net/api/literature/3147521",
+  "retrieved": "2026-11-02",
+  "title": "Quantum Spacetime, Quantum Gravity and Gravitized Quantum Theory",
+  "authors": [
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2026-04-21",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2604.19418",
+  "abstract": "General relativity is a background-independent theory of a dynamical classical spacetime geometry. Quantum theory is formulated in a classical spacetime, as an intrinsically probabilistic, contextual theory of non-classical, interfering probabilities, with a fixed Born rule for computing those probabilities. We argue that the quantum nature of spacetime, which includes a non-commutative dual companion to the (observed) classical spacetime, is the reason behind an intrinsically probabilistic and contextual nature of quantum theory, with the fixed Born rule. In quantum gravity, we claim, quantum theory is gravitized into a background-independent structure with dynamical and contextual quantum probabilities. This proposal implies intrinsic triple and higher-order interference in the context of massive quantum probes, which sheds light on string theory and the observed vacuum energy as well as the masses of elementary particles."
+ },
+ "2607.29492": {
+  "key": "2607.29492",
+  "source": "INSPIRE",
+  "recid": 3185296,
+  "api_url": "https://inspirehep.net/api/literature/3185296",
+  "retrieved": "2026-11-02",
+  "title": "The price for monopole dark matter",
+  "authors": [
+   "Brümmer, Felix",
+   "Ferrante, Giacomo",
+   "Fischer, Théodore",
+   "Frigerio, Michele"
+  ],
+  "earliest_date": "2026-07-31",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2607.29492",
+  "abstract": "We construct an explicit model where dark matter consists of 't Hooft-Polyakov monopoles. The dark sector is in thermal contact with the Standard Model, and dark monopoles are created by a thermal phase transition in the early Universe. Generically, the abundance of monopoles is negligible with respect to that of stable dark elementary particles. We show how to avoid this by taking the lightest stable particle, a dark fermion, sufficiently light for its abundance to be suppressed, yet heavy enough to satisfy constraints on dark radiation. In this specific window of parameters, dark matter is composed of monopoles with a mass of about $10^8$ GeV or larger, depending on the nature of the phase transition. This candidate lies beyond the reach of present, conventional dark-matter detection experiments. However, the model necessarily predicts dark radiation, with $ΔN_{\\rm eff}$ close to present-day bounds. In addition, if the dark phase transition is strongly first order, we find that the corresponding gravitational wave spectrum lies close to the region probed by future interferometers."
+ },
+ "2609.25324": {
+  "key": "2609.25324",
+  "source": "INSPIRE",
+  "recid": 3206046,
+  "api_url": "https://inspirehep.net/api/literature/3206046",
+  "retrieved": "2026-11-02",
+  "title": "Dual symmetry breaking and magnetic charge screening",
+  "authors": [
+   "Carneiro, Saulo"
+  ],
+  "earliest_date": "2026-09-21",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2609.25324",
+  "abstract": "We extend a Lagrangian formulation of dual electrodynamics by introducing electric and magnetic Higgs scalar fields. The scalars couple to Mandelstam nonlocal potentials which enter the electric and magnetic sectors. We consider the vacuum in which only the magnetic scalar has a nonzero expectation value. The generalised Maxwell equations remain local even though the scalar couplings are nonlocal. In this phase the local electric potential keeps a massless pole while the magnetic sector acquires a mass. The electric interaction is therefore Coulombian at large distances while the pole-pole and charge-pole interactions become short ranged. The magnetic charge is then screened in the sense of the Swieca theorem while the electric charge is not. The Dirac condition is inherited from the symmetric phase as a quantisation rule for the microscopic electric and magnetic couplings. We also comment on screened monopoles as possible dark sector degrees of freedom."
+ },
+ "2610.02083": {
+  "key": "2610.02083",
+  "source": "INSPIRE",
+  "recid": 3210647,
+  "api_url": "https://inspirehep.net/api/literature/3210647",
+  "retrieved": "2026-11-02",
+  "title": "Electron and monopole properties in a dark matter model",
+  "authors": [
+   "García-Moreno, Jacob",
+   "Vento, Vicente"
+  ],
+  "earliest_date": "2026-10-01",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2610.02083",
+  "abstract": "Monopoles have been a subject of much theoretical and experimental research since they were proposed to symmetrize Maxwell's equations. No experimental signature of their existence has been detected. A model generalizing QED with dark massless photons and dark monopoles was proposed not long ago. In this model, by introducing a mixing interaction between the two sectors, leptons and monopoles are transformed into into dyons. This particular behavior of the electrons determines a new path to study the physics of monopoles. Here we generalize the Electroweak theory in the same way by incorporating a dark sector with massive photons and monopoles, and analyze experimental consequences for electrons in both models. The mass of the dark photon plays an important role regarding observability."
+ },
+ "2610.19522": {
+  "key": "2610.19522",
+  "source": "INSPIRE",
+  "recid": 3215102,
+  "api_url": "https://inspirehep.net/api/literature/3215102",
+  "retrieved": "2026-11-02",
+  "title": "Nambu's Dynamics, Strings and Gravitized Quantum Theory",
+  "authors": [
+   "Hübsch, Tristan",
+   "Minic, Djordje"
+  ],
+  "earliest_date": "2026-10-14",
+  "journal": "",
+  "dois": [],
+  "arxiv": "2610.19522",
+  "abstract": "In this article we present a new view on string theory that is rooted in quantum foundations extended to the domain of quantum gravity in the form of gravitized quantum theory, in which the canonical probability measure captured by the Born rule of quantum theory, turns out to be dynamical and contextual. We claim that this gravitization of quantum theory is the essence of string theory. String theory, according to this view, originates in foundations of quantum theory and Nambu's dynamics, which features in the non-perturbative definition of string theory in terms of a T-duality covariant and non-commutative formulation, called the metastring. Nambu's dynamics and the associated cubic and hypercubic objects also appear as the natural language for exploring the new observables and phenomena implied by a dynamical Born rule, including triple and higher order quantum interference, that can be investigated in experiments involving massive quantum probes, and that are also needed for direct empirical tests of the Born rule, a cornerstone of quantum theory."
+ },
+ "astro-ph/0003388": {
+  "key": "astro-ph/0003388",
+  "source": "INSPIRE",
+  "recid": 525388,
+  "api_url": "https://inspirehep.net/api/literature/525388",
+  "retrieved": "2026-11-02",
+  "title": "What if dark matter is bosonic and selfinteracting?",
+  "authors": [
+   "Riotto, Antonio",
+   "Tkachev, Igor"
+  ],
+  "earliest_date": "2000-03",
+  "journal": "Phys. Lett. B 484 177 (2000)",
+  "dois": [
+   "10.1016/S0370-2693(00)00660-2"
+  ],
+  "arxiv": "astro-ph/0003388",
+  "abstract": "Recently the problem of singular galactic cores and over-abundant formation of dwarf galaxies, inherent to the standard cold dark matter model, had attracted a great deal of attention. One scenario which may be free of these problems invokes a self-interacting Bose-field. We find the limiting core density in this model due to the self-annihilation of the scalar field into its own relativistic quanta. The limiting density may correspond to the observable one if there is only one dark matter component. Alternatively, there may be more than one dark matter species and the annihilation of one species may be very efficient with subsequent expansion of the other, thus avoiding the problem of singular cores."
+ },
+ "astro-ph/0606566": {
+  "key": "astro-ph/0606566",
+  "source": "INSPIRE",
+  "recid": 719867,
+  "api_url": "https://inspirehep.net/api/literature/719867",
+  "retrieved": "2026-11-02",
+  "title": "Galilean Equivalence for Galactic Dark Matter",
+  "authors": [
+   "Kesden, Michael",
+   "Kamionkowski, Marc"
+  ],
+  "earliest_date": "2006-06",
+  "journal": "Phys. Rev. Lett. 97 131303 (2006)",
+  "dois": [
+   "10.1103/PhysRevLett.97.131303"
+  ],
+  "arxiv": "astro-ph/0606566",
+  "abstract": "Satellite galaxies are tidally disrupted as they orbit the Milky Way. If dark matter (DM) experiences a stronger self-attraction than baryons, stars will preferentially gain rather than lose energy during tidal disruption leading to an enhancement in the trailing compared to the leading tidal stream. The Sgr dwarf galaxy is seen to have roughly equal streams, challenging models in which DM and baryons accelerate differently by more than 10%. Future observations and a better understanding of DM distribution should allow detection of equivalence violation at the percent level."
+ },
+ "astro-ph/9504052": {
+  "key": "astro-ph/9504052",
+  "source": "INSPIRE",
+  "recid": 394303,
+  "api_url": "https://inspirehep.net/api/literature/394303",
+  "retrieved": "2026-11-02",
+  "title": "The Velocity peaks in the cold dark matter spectrum on earth",
+  "authors": [
+   "Sikivie, Pierre",
+   "Tkachev, I.I.",
+   "Wang, Yun"
+  ],
+  "earliest_date": "1995-04",
+  "journal": "Phys. Rev. Lett. 75 2911 (1995)",
+  "dois": [
+   "10.1103/PhysRevLett.75.2911"
+  ],
+  "arxiv": "astro-ph/9504052",
+  "abstract": "The cold dark matter spectrum on earth is expected to have peaks in velocity space. We obtain estimates for the sizes and locations of these peaks. To this end we have generalized the secondary infall model of galactic halo formation to include angular momentum of the dark matter particles. This new model is still spherically symmetric and it has self-similar solutions. Our results are relevant to direct dark matter search experiments."
+ },
+ "cond-mat/0212313": {
+  "key": "cond-mat/0212313",
+  "source": "arXiv API",
+  "api_url": "https://export.arxiv.org/api/query?id_list=cond-mat/0212313",
+  "retrieved": "2026-11-02",
+  "title": "Bifurcations and Patterns in Compromise Processes",
+  "authors": [
+   "E. Ben-Naim",
+   "P. L. Krapivsky",
+   "S. Redner"
+  ],
+  "earliest_date": "2002",
+  "journal": "Physica D 183, 190 (2003)",
+  "dois": [
+   "10.1016/S0167-2789(03)00171-4"
+  ],
+  "arxiv": "cond-mat/0212313",
+  "abstract": "We study an opinion dynamics model in which agents reach compromise via pairwise interactions. When the opinions of two agents are sufficiently close, they both acquire the average of their initial opinions; otherwise, they do not interact. Generically, the system reaches a steady state with a finite number of isolated, noninteracting opinion clusters (``parties''). As the initial opinion range increases, the number of such parties undergoes a periodic sequence of bifurcations. Both major and minor parties emerge, and these are organized in alternating pattern. This behavior is illuminated by considering discrete opinion states."
+ },
+ "doi:10.1016/0370-2693(91)90055-U": {
+  "key": "doi:10.1016/0370-2693(91)90055-U",
+  "source": "INSPIRE",
+  "recid": 316514,
+  "api_url": "https://inspirehep.net/api/literature/316514",
+  "retrieved": "2026-11-02",
+  "title": "Scale factor duality for classical and quantum strings",
+  "authors": [
+   "Veneziano, G."
+  ],
+  "earliest_date": "1991-04",
+  "journal": "Phys. Lett. B 265 287 (1991)",
+  "dois": [
+   "10.1016/0370-2693(91)90055-U"
+  ],
+  "arxiv": "",
+  "abstract": "Duality under inversion of the cosmological scale factor is discussed both for the classical motion of strings in cosmological backgrounds and for genus zero, low energy effective actions. The string-modified, Einstein-Friedman equations are then shown to possess physically-inequivalent, duality-related solutions which generically describe the “decay” of an initial, perturbative, flat D =10 superstring vacuum towards a more intersting strong-coupling state through an appealing pre-big-bang cosmological scenario."
+ },
+ "doi:10.1063/PT.3.3571": {
+  "key": "doi:10.1063/PT.3.3571",
+  "source": "Crossref",
+  "api_url": "https://api.crossref.org/works/10.1063/PT.3.3571",
+  "retrieved": "2026-11-02",
+  "title": "Magnetic monopole search, past and present",
+  "authors": [
+   "Alfred Scharff Goldhaber"
+  ],
+  "earliest_date": "2017",
+  "journal": "Physics Today 70 12-13 (2017)",
+  "dois": [
+   "10.1063/PT.3.3571"
+  ],
+  "arxiv": "",
+  "abstract": ""
+ },
+ "doi:10.1088/1742-6596/128/1/012016": {
+  "key": "doi:10.1088/1742-6596/128/1/012016",
+  "source": "Crossref",
+  "api_url": "https://api.crossref.org/works/10.1088/1742-6596/128/1/012016",
+  "retrieved": "2026-11-02",
+  "title": "Generalized gauge transformations in phase space picture of quantum mechanics: Kirkwood representation",
+  "authors": [
+   "S Khademi",
+   "S Nasiri"
+  ],
+  "earliest_date": "2008",
+  "journal": "Journal of Physics: Conference Series 128 012016 (2008)",
+  "dois": [
+   "10.1088/1742-6596/128/1/012016"
+  ],
+  "arxiv": "",
+  "abstract": ""
+ },
+ "doi:10.22323/1.335.0047": {
+  "key": "doi:10.22323/1.335.0047",
+  "source": "INSPIRE",
+  "recid": 1709019,
+  "api_url": "https://inspirehep.net/api/literature/1709019",
+  "retrieved": "2026-11-02",
+  "title": "The Dark Side of Gravity and the Acceleration of the Universe",
+  "authors": [
+   "Henry-Couannier, Frédéric"
+  ],
+  "earliest_date": null,
+  "journal": "PoS EDSU2018 047 (2018)",
+  "dois": [
+   "10.22323/1.335.0047"
+  ],
+  "arxiv": "",
+  "abstract": "The Dark Gravity theory allows to understand the observed recent acceleration of the universe in a very original way which was presented at the \"2nd world submit on exploring the dark side of the universe\" along with one of the main predictions of the theory : the avoidance of a true Black Hole Horizon. A complete, regularly updated, review of the theory and full references can be found in [1]."
+ },
+ "gr-qc/0307111": {
+  "key": "gr-qc/0307111",
+  "source": "INSPIRE",
+  "recid": 624209,
+  "api_url": "https://inspirehep.net/api/literature/624209",
+  "retrieved": "2026-11-02",
+  "title": "On the link between phantom and standard cosmologies",
+  "authors": [
+   "Chimento, Luis P.",
+   "Lazkoz, Ruth"
+  ],
+  "earliest_date": "2003-07",
+  "journal": "Phys. Rev. Lett. 91 211301 (2003)",
+  "dois": [
+   "10.1103/PhysRevLett.91.211301"
+  ],
+  "arxiv": "gr-qc/0307111",
+  "abstract": "We illustrate how form-invariance transformations can be used for constructing phantom cosmologies from standard scalar field universes. First, we discuss how to relate two flat Friedmann-Robertson-Walker cosmologies with different barotropic indexes $\\gamma$ and $\\bar \\gamma$. Then, we consider the particular case $\\bar \\gamma=-\\gamma$, and we show that if the matter content is interpreted in terms of self-interacting scalar fields, then the corresponding transformation provides the link between a standard and a phantom cosmology. After that, we illustrate the method by considering models with exponential potentials. Finally, we also show that the mentioned duality persists even if the typical braneworld modifications to the Friedmann equation are considered."
+ },
+ "gr-qc/0608086": {
+  "key": "gr-qc/0608086",
+  "source": "INSPIRE",
+  "recid": 724045,
+  "api_url": "https://inspirehep.net/api/literature/724045",
+  "retrieved": "2026-11-02",
+  "title": "Homotopy approach to quantum gravity",
+  "authors": [
+   "Finkelstein, David Ritz"
+  ],
+  "earliest_date": "2006-08",
+  "journal": "Int. J. Theor. Phys. 47 534 (2008)",
+  "dois": [
+   "10.1007/s10773-007-9479-y"
+  ],
+  "arxiv": "gr-qc/0608086",
+  "abstract": "I construct a finite-dimensional quantum theory from general relativity by a homotopy method. Its quantum history is made up of at least two levels of fermionic elements. Its unitary group has the diffeomorphism group as singular limit. Its gravitational metrical form is the algebraic square. Its spinors are multivectors."
+ },
+ "gr-qc/0610079": {
+  "key": "gr-qc/0610079",
+  "source": "INSPIRE",
+  "recid": 729092,
+  "api_url": "https://inspirehep.net/api/literature/729092",
+  "retrieved": "2026-11-02",
+  "title": "The Dark Side of Gravity",
+  "authors": [
+   "Henry-Couannier, Frederic"
+  ],
+  "earliest_date": "2006-10",
+  "journal": "Global J. Sci. Front. Res. A 13 1 (2013)",
+  "dois": [],
+  "arxiv": "gr-qc/0610079",
+  "abstract": "Adopting a non geometrical point of view, we are led to an alternative theory of the order two and symetric gravitational tensor field of GR. The field is no more interpreted as the metric of our space-time. The true metric is globally Minkowskian and describes a flat manifold, a context which justifies a genuine rehabilitation of the global discrete space-time symetries involved in the structure of the Lorentz group along with their 'problematic' representations: the negative energy and tachyonic ones."
+ },
+ "gr-qc/9708047": {
+  "key": "gr-qc/9708047",
+  "source": "INSPIRE",
+  "recid": 447437,
+  "api_url": "https://inspirehep.net/api/literature/447437",
+  "retrieved": "2026-11-02",
+  "title": "Weber - like interactions and energy conservation",
+  "authors": [
+   "Bunchaft, F.",
+   "Carneiro, S."
+  ],
+  "earliest_date": "1997-08",
+  "journal": "Found. Phys. Lett. 10 393 (1997)",
+  "dois": [
+   "10.1007/BF02764109"
+  ],
+  "arxiv": "gr-qc/9708047",
+  "abstract": "Velocity dependent forces varying as $k(\\hat{r}/r)(1 - \\mu \\dot{r}^2 + \\gamma r \\ddot{r})$ (such as Weber force), here called Weber-like forces, are examined from the point of view of energy conservation and it is proved that they are conservative if and only if $\\gamma=2\\mu$. As a consequence, it is shown that gravitational theories employing Weber-like forces cannot be conservative and also yield both the precession of the perihelion of Mercury as well as the gravitational deflection of light."
+ },
+ "hep-ph/9507230": {
+  "key": "hep-ph/9507230",
+  "source": "INSPIRE",
+  "recid": 396979,
+  "api_url": "https://inspirehep.net/api/literature/396979",
+  "retrieved": "2026-11-02",
+  "title": "Is There a monopole problem?",
+  "authors": [
+   "Dvali, G.R.",
+   "Melfo, Alejandra",
+   "Senjanovic, Goran"
+  ],
+  "earliest_date": "1995-07",
+  "journal": "Phys. Rev. Lett. 75 4559 (1995)",
+  "dois": [
+   "10.1103/PhysRevLett.75.4559"
+  ],
+  "arxiv": "hep-ph/9507230",
+  "abstract": "We investigate the high temperature behavior of SU(5) in its minimal version. We show that there exists a range of parameters of the Higgs potential for which the symmetry remains broken at high temperature, thus avoiding the phase transition that gives rise to the overproduction of monopoles . We also show that in such scenario the thermal production of monopoles can be suppressed in a wide range of parameters, keeping their number density below the cosmological limits."
+ },
+ "hep-ph/9509271": {
+  "key": "hep-ph/9509271",
+  "source": "INSPIRE",
+  "recid": 399338,
+  "api_url": "https://inspirehep.net/api/literature/399338",
+  "retrieved": "2026-11-02",
+  "title": "An Attempt to construct the Standard Model with monopoles",
+  "authors": [
+   "Vachaspati, Tanmay"
+  ],
+  "earliest_date": "1995-09",
+  "journal": "Phys. Rev. Lett. 76 188 (1996)",
+  "dois": [
+   "10.1103/PhysRevLett.76.188"
+  ],
+  "arxiv": "hep-ph/9509271",
+  "abstract": "We construct a model in which stable magnetic monopoles have magnetic charges that are identical to the electric charges on leptons and quarks and the colored monopoles are confined by strings in color singlets."
+ },
+ "hep-ph/9710301": {
+  "key": "hep-ph/9710301",
+  "source": "INSPIRE",
+  "recid": 449555,
+  "api_url": "https://inspirehep.net/api/literature/449555",
+  "retrieved": "2026-11-02",
+  "title": "Sweeping away the monopole problem",
+  "authors": [
+   "Dvali, G.R.",
+   "Liu, Hong",
+   "Vachaspati, Tanmay"
+  ],
+  "earliest_date": "1997-10",
+  "journal": "Phys. Rev. Lett. 80 2281 (1998)",
+  "dois": [
+   "10.1103/PhysRevLett.80.2281"
+  ],
+  "arxiv": "hep-ph/9710301",
+  "abstract": "We propose a new solution to the cosmological monopole problem in which domain walls sweep away the magnetic monopoles and subsequently decay. The solution does not require extensive fine tuning or model building - it works for the prototype SU(5) Grand Unification model. More generally, it shows that defect interactions can lead to ``defect erasure'' in phase transitions and that this can be relevant to early universe physics."
+ },
+ "hep-th/0008052": {
+  "key": "hep-th/0008052",
+  "source": "INSPIRE",
+  "recid": 531400,
+  "api_url": "https://inspirehep.net/api/literature/531400",
+  "retrieved": "2026-11-02",
+  "title": "Born-Infeld theory and stringy causality",
+  "authors": [
+   "Gibbons, G.W.",
+   "Herdeiro, C.A.R."
+  ],
+  "earliest_date": "2000-08",
+  "journal": "Phys. Rev. D 63 064006 (2001)",
+  "dois": [
+   "10.1103/PhysRevD.63.064006"
+  ],
+  "arxiv": "hep-th/0008052",
+  "abstract": "Fluctuations around a non-trivial solution of Born-Infeld theory have a limiting speed given not by the Einstein metric but the Boillat metric. The Boillat metric is S-duality invariant and conformal to the open string metric. It also governs the propagation of scalars and spinors in Born-Infeld theory. We discuss the potential clash between causality determined by the closed string and open string light cones and find that the latter never lie outside the former. Both cones touch along the principal null directions of the background Born-Infeld field. We consider black hole solutions in situations in which the distinction between bulk and brane is not sharp such as space filling branes and find that the location of the event horizon and the thermodynamic properties do not depend on whether one uses the closed or open string metric. Analogous statements hold in the more general context of non-linear electrodynamics or effective quantum-corrected metrics. We show how Born-Infeld action to second order might be obtained from higher-curvature gravity in Kaluza-Klein theory. Finally we point out some intriguing analogies with Einstein-Schr\\\"odinger theory."
+ },
+ "hep-th/0207130": {
+  "key": "hep-th/0207130",
+  "source": "INSPIRE",
+  "recid": 590562,
+  "api_url": "https://inspirehep.net/api/literature/590562",
+  "retrieved": "2026-11-02",
+  "title": "The Pre - big bang scenario in string cosmology",
+  "authors": [
+   "Gasperini, M.",
+   "Veneziano, G."
+  ],
+  "earliest_date": "2002-07",
+  "journal": "Phys. Rept. 373 1 (2003)",
+  "dois": [
+   "10.1016/S0370-1573(02)00389-7"
+  ],
+  "arxiv": "hep-th/0207130",
+  "abstract": "We review physical motivations, phenomenological consequences, and open problems of the so-called pre-big bang scenario in superstring cosmology."
+ },
+ "hep-th/0307128": {
+  "key": "hep-th/0307128",
+  "source": "INSPIRE",
+  "recid": 623339,
+  "api_url": "https://inspirehep.net/api/literature/623339",
+  "retrieved": "2026-11-02",
+  "title": "Phantom cosmologies",
+  "authors": [
+   "Dabrowski, Mariusz P.",
+   "Stachowiak, Tomasz",
+   "Szydlowski, Marek"
+  ],
+  "earliest_date": "2003-07",
+  "journal": "Phys. Rev. D 68 103519 (2003)",
+  "dois": [
+   "10.1103/PhysRevD.68.103519"
+  ],
+  "arxiv": "hep-th/0307128",
+  "abstract": "We discuss a class of phantom ($p < - \\varrho$) cosmological models. Except for phantom we admit various forms of standard types of matter and discuss the problem of singularities for these cosmologies. The singularities are different from those of standard matter cosmology since they appear for infinite values of the scale factor. We also find an interesting relation between the phantom models and standard matter models which is like the duality symmetry of string cosmology."
+ },
+ "hep-th/0310167": {
+  "key": "hep-th/0310167",
+  "source": "INSPIRE",
+  "recid": 630889,
+  "api_url": "https://inspirehep.net/api/literature/630889",
+  "retrieved": "2026-11-02",
+  "title": "monopole and Berry phase in momentum space in noncommutative quantum mechanics",
+  "authors": [
+   "Berard, Alain",
+   "Mohrbach, Herve"
+  ],
+  "earliest_date": "2003-10",
+  "journal": "Phys. Rev. D 69 127701 (2004)",
+  "dois": [
+   "10.1103/PhysRevD.69.127701"
+  ],
+  "arxiv": "hep-th/0310167",
+  "abstract": "To build genuine generators of the rotations group in noncommutative quantum mechanics, we show that it is necessary to extend the noncommutative parameter $\\theta $ to a field operator, which one proves to be only momentum dependent. We find consequently that this field must be obligatorily a dual Dirac monopole in momentum space. Recent experiments in the context of the anomalous Hall effect provide for a monopole in the crystal momentum space. We suggest a connection between the noncommutative field and the Berry curvature in momentum space which is at the origine of the anomalous Hall effect."
+ },
+ "hep-th/0312009": {
+  "key": "hep-th/0312009",
+  "source": "INSPIRE",
+  "recid": 634300,
+  "api_url": "https://inspirehep.net/api/literature/634300",
+  "retrieved": "2026-11-02",
+  "title": "Kasner and mixmaster behavior in universes with equation of state w >= 1",
+  "authors": [
+   "Erickson, Joel K.",
+   "Wesley, Daniel H.",
+   "Steinhardt, Paul J.",
+   "Turok, Neil"
+  ],
+  "earliest_date": "2003-12",
+  "journal": "Phys. Rev. D 69 063514 (2004)",
+  "dois": [
+   "10.1103/PhysRevD.69.063514"
+  ],
+  "arxiv": "hep-th/0312009",
+  "abstract": "We consider cosmological models with a scalar field with equation of state $w\\ge 1$ that contract towards a big crunch singularity, as in recent cyclic and ekpyrotic scenarios. We show that chaotic mixmaster oscillations due to anisotropy and curvature are suppressed, and the contraction is described by a homogeneous and isotropic Friedmann equation if $w>1$. We generalize the results to theories where the scalar field couples to p-forms and show that there exists a finite value of $w$, depending on the p-forms, such that chaotic oscillations are suppressed. We show that $Z_2$ orbifold compactification also contributes to suppressing chaotic behavior. In particular, chaos is avoided in contracting heterotic M-theory models if $w>1$ at the crunch."
+ },
+ "hep-th/0507204": {
+  "key": "hep-th/0507204",
+  "source": "INSPIRE",
+  "recid": 687962,
+  "api_url": "https://inspirehep.net/api/literature/687962",
+  "retrieved": "2026-11-02",
+  "title": "Worldsheet instanton corrections to the Kaluza-Klein monopole",
+  "authors": [
+   "Harvey, Jeffrey A.",
+   "Jensen, Steuard"
+  ],
+  "earliest_date": "2005-07",
+  "journal": "JHEP 10 028 (2005)",
+  "dois": [
+   "10.1088/1126-6708/2005/10/028"
+  ],
+  "arxiv": "hep-th/0507204",
+  "abstract": "The Kaluza-Klein monopole is a well known object in both gravity and string theory, related by T-duality to a smeared NS5-brane which retains the isometry around the duality circle. As the true NS5-brane solution is localized at a point on the circle, duality implies that the Kaluza-Klein monopole should show some corresponding behavior. In this paper, we express the Kaluza-Klein monopole as a gauged linear sigma model in two dimensions and show that worldsheet instantons give corrections to its geometry. These corrections can be understood as a localization in winding space which could be probed by strings with winding charge around the circle."
+ },
+ "hep-th/0604151": {
+  "key": "hep-th/0604151",
+  "source": "INSPIRE",
+  "recid": 715112,
+  "api_url": "https://inspirehep.net/api/literature/715112",
+  "retrieved": "2026-11-02",
+  "title": "Electric-Magnetic Duality And The Geometric Langlands Program",
+  "authors": [
+   "Kapustin, Anton",
+   "Witten, Edward"
+  ],
+  "earliest_date": "2006-04",
+  "journal": "Commun. Num. Theor. Phys. 1 1 (2007)",
+  "dois": [
+   "10.4310/CNTP.2007.v1.n1.a1"
+  ],
+  "arxiv": "hep-th/0604151",
+  "abstract": "The geometric Langlands program can be described in a natural way by compactifying on a Riemann surface C a twisted version of N=4 super Yang-Mills theory in four dimensions. The key ingredients are electric-magnetic duality of gauge theory, mirror symmetry of sigma-models, branes, Wilson and 't Hooft operators, and topological field theory. Seemingly esoteric notions of the geometric Langlands program, such as Hecke eigensheaves and D-modules, arise naturally from the physics."
+ },
+ "hep-th/9309023": {
+  "key": "hep-th/9309023",
+  "source": "INSPIRE",
+  "recid": 357891,
+  "api_url": "https://inspirehep.net/api/literature/357891",
+  "retrieved": "2026-11-02",
+  "title": "Inflation, deflation, and frame independence in string cosmology",
+  "authors": [
+   "Gasperini, M.",
+   "Veneziano, G."
+  ],
+  "earliest_date": "1993-07",
+  "journal": "Mod. Phys. Lett. A 8 3701 (1993)",
+  "dois": [
+   "10.1142/S0217732393003433"
+  ],
+  "arxiv": "hep-th/9309023",
+  "abstract": "The inflationary scenarios suggested by the duality properties of string cosmology in the Brans-Dicke (or String) frame are shown to correspond to accelerated contraction (deflation) when Weyl-transformed to the Einstein frame. We point out that the basic virtues of inflation (solving the flatness and horizon problems, amplifying vacuum fluctuations, etc.) have physically equivalent counterparts in the deflationary (Einstein-frame) picture. This could be the answer to some objections recently raised to superstring cosmology."
+ },
+ "hep-th/9410167": {
+  "key": "hep-th/9410167",
+  "source": "INSPIRE",
+  "recid": 378794,
+  "api_url": "https://inspirehep.net/api/literature/378794",
+  "retrieved": "2026-11-02",
+  "title": "Unity of superstring dualities",
+  "authors": [
+   "Hull, C.M.",
+   "Townsend, P.K."
+  ],
+  "earliest_date": "1994-10",
+  "journal": "Nucl. Phys. B 438 109 (1995)",
+  "dois": [
+   "10.1016/0550-3213(94)00559-W"
+  ],
+  "arxiv": "hep-th/9410167",
+  "abstract": "The effective action for type II string theory compactified on a six-torus is N = 8 supergravity, which is known to have an E7 duality symmetry. We show that this is broken by quantum effects to a discrete subgroup, E7(℔), which contains both the T-duality group O(6, 6; ℔) and the S-duality group SL(2; ℔). We present evidence for the conjecture that E7(℔) is an exact ‘U-duality’ symmetry of type II string theory. This conjecture requires certain extreme black hole states to be identified with massive modes of the fundamental string. The gauge bosons from the Ramond–Ramond sector couple not to string excitations but to solitons. We discuss similar issues in the context of toroidal string compactifications to other dimensions, compactifications of the type II string on K3 × T2 and compactifications of 11-dimensional supermembrane theory."
+ },
+ "hep-th/9501022": {
+  "key": "hep-th/9501022",
+  "source": "INSPIRE",
+  "recid": 392079,
+  "api_url": "https://inspirehep.net/api/literature/392079",
+  "retrieved": "2026-11-02",
+  "title": "Reducing S duality to T duality",
+  "authors": [
+   "Harvey, Jeffrey A.",
+   "Moore, Gregory W.",
+   "Strominger, Andrew"
+  ],
+  "earliest_date": "1995-01",
+  "journal": "Phys. Rev. D 52 7161 (1995)",
+  "dois": [
+   "10.1103/PhysRevD.52.7161"
+  ],
+  "arxiv": "hep-th/9501022",
+  "abstract": "The infrared limit of $D=4,~~N=4$ Yang-Mills theory with compact gauge group $G$ compactified on a two-torus is governed by an effective superconformal field theory. We conjecture that this is a certain orbifold involving the maximal torus of $G$. Yang-Mills $S$-duality makes predictions for all correlators of this effective conformal field theory. These predictions are shown to be implied by the standard $T$-duality of the conformal field theory. Consequently, Montonen-Olive duality between electric and magnetic states reduces to the standard two-dimensional duality between momentum and winding states."
+ },
+ "hep-th/9508021": {
+  "key": "hep-th/9508021",
+  "source": "INSPIRE",
+  "recid": 397977,
+  "api_url": "https://inspirehep.net/api/literature/397977",
+  "retrieved": "2026-11-02",
+  "title": "S duality in gauge theories as a canonical transformation",
+  "authors": [
+   "Lozano, Y."
+  ],
+  "earliest_date": "1995-08",
+  "journal": "Phys. Lett. B 364 19 (1995)",
+  "dois": [
+   "10.1016/0370-2693(95)01081-1"
+  ],
+  "arxiv": "hep-th/9508021",
+  "abstract": "We show that S-duality in four dimensional non-supersymmetric gauge theories can be formulated as a canonical transformation in the phase space of the theory. It is shown that in phase space the modular anomaly emerges as the result of integrating out the momenta degrees of freedom. In the case of non-abelian gauge theories the canonical transformation yields also a dual theory with ${\\tilde \\tau}=-1/\\tau$, $\\tau=\\frac{\\theta}{2\\pi}+ \\frac{4\\pi i}{g~2}$, and gauge group the dual of the original one. The generalization to $d$ dimensional abelian gauge theories of $p$-forms is also considered."
+ },
+ "hep-th/9806230": {
+  "key": "hep-th/9806230",
+  "source": "INSPIRE",
+  "recid": 472503,
+  "api_url": "https://inspirehep.net/api/literature/472503",
+  "retrieved": "2026-11-02",
+  "title": "Pre - big bang bubbles from the gravitational instability of generic string vacua",
+  "authors": [
+   "Buonanno, A.",
+   "Damour, T.",
+   "Veneziano, G."
+  ],
+  "earliest_date": "1998-06",
+  "journal": "Nucl. Phys. B 543 275 (1999)",
+  "dois": [
+   "10.1016/S0550-3213(98)00805-0"
+  ],
+  "arxiv": "hep-th/9806230",
+  "abstract": "We formulate the basic postulate of pre-big bang cosmology as one of ``asymptotic past triviality'', by which we mean that the initial state is a generic perturbative solution of the tree-level low-energy effective action. Such a past-trivial ``string vacuum'' is made of an arbitrary ensemble of incoming gravitational and dilatonic waves, and is generically prone to gravitational instability, leading to the possible formation of many black holes hiding singular space-like hypersurfaces. Each such singular space-like hypersurface of gravitational collapse becomes, in the string-frame metric, the usual big-bang t=0 hypersurface, i.e. the place of birth of a baby Friedmann universe after a period of dilaton-driven inflation. Specializing to the spherically-symmetric case, we review and reinterpret previous work on the subject, and propose a simple, scale-invariant criterion for collapse/inflation in terms of asymptotic data at past null infinity. Those data should determine whether, when, and where collapse/inflation occurs, and, when it does, fix its characteristics, including anisotropies on the big bang hypersurface whose imprint could have survived till now. Using Bayesian probability concepts, we finally attempt to answer some fine-tuning objections recently moved to the pre-big bang scenario."
+ },
+ "openalex:W3153563614": {
+  "key": "openalex:W3153563614",
+  "source": "OpenAlex",
+  "api_url": "https://api.openalex.org/works/W3153563614",
+  "retrieved": "2026-11-03",
+  "title": "Why magnetic monopoles are not seen?",
+  "authors": [
+   "Siamak Khademi"
+  ],
+  "earliest_date": "2009-01-01",
+  "journal": "",
+  "dois": [],
+  "arxiv": "",
+  "abstract": "Dual symmetry of Maxwell’s equations predicts the existence of magnetic monopoles which are not detected until now. As an important consequence of this prediction, the quantization of electric charge is obtained by P.A.M. Dirac. In this paper I show the uncertainty in the phase space quantum mechanics could be the responsible of the non-visibility of magnetic monopoles.",
+  "landing_page": "https://openaccess.maltepe.edu.tr/xmlui/handle/20.500.12415/6128",
+  "venue": "International Conference of Mathematical Sciences (Maltepe Üniversitesi, 2009), pp. 365-366, ISBN 9786052124154",
+  "license": "CC0 1.0 (item record, DC.rights; OpenAIRE instance license 'CC 0'); OpenAIRE marks it nonPeerReviewed",
+  "abstract_source": "OpenAIRE search API record oai:openaccess.maltepe.edu.tr:20.500.12415/2255 (harvested 2026-08-19) and the Wayback Machine capture https://web.archive.org/web/20210510055659id_/http://openaccess.maltepe.edu.tr/xmlui/handle/20.500.12415/6128; found by code in both by two independent judges, 2026-11-03",
+  "full_text": "not retrieved: the repository answers HTTP 403, the Wayback Machine never captured the PDF (371.pdf), and CORE, BASE and Google Books refused automated requests"
+ },
+ "recid:121372": {
+  "key": "recid:121372",
+  "source": "INSPIRE",
+  "recid": 121372,
+  "api_url": "https://inspirehep.net/api/literature/121372",
+  "retrieved": "2026-11-02",
+  "title": "Magnetic Monopoles as Gauge Particles?",
+  "authors": [
+   "Montonen, C.",
+   "Olive, David I."
+  ],
+  "earliest_date": "1977-09",
+  "journal": "Phys. Lett. B 72 117 (1977)",
+  "dois": [
+   "10.1016/0370-2693(77)90076-4"
+  ],
+  "arxiv": "",
+  "abstract": "We present evidence for the following conjecture: when quantized, the magnetic monopole soliton solutions constructed by 't Hooft and Polyakov, as modified by Prasad, Sommerfield and Bogomolny, form a gauge triplet with the photon, corresponding to a Lagrangian similar to the original Georgi-Glashow one, but with magnetic replacing electric charge."
+ },
+ "recid:2012496": {
+  "key": "recid:2012496",
+  "source": "INSPIRE",
+  "recid": 2012496,
+  "api_url": "https://inspirehep.net/api/literature/2012496",
+  "retrieved": "2026-11-02",
+  "title": "XXI.—Reciprocity and the Number 137. Part I.",
+  "authors": [
+   "Born, Max"
+  ],
+  "earliest_date": null,
+  "journal": "Proc. Roy. Soc. Edinburgh 59 219 (1940)",
+  "dois": [
+   "10.1017/s037016460001230x"
+  ],
+  "arxiv": "",
+  "abstract": "Professor A. Landé has kindly sent me a manuscript of a paper in which he develops some most important ideas on the meaning and the value of the number 137. His work is founded on the principle of reciprocity which I recently suggested (Born, 1938). Landé adds to this principle a new assumption about the wave functions, representing an electron, and he finds a linear integral equation for these containing a parameter the value of which may be expected to be 137. It is Landé's great merit to have shown that the reciprocity principle leads to a condition for the Planck constant ћ (the value of which in natural units, c = 1, e = 1, is 137), and to have discovered the root of the peculiar order of magnitude of the number. But some difficulties which I encountered led me to reconsider the problem."
+ },
+ "recid:2173188": {
+  "key": "recid:2173188",
+  "source": "INSPIRE",
+  "recid": 2173188,
+  "api_url": "https://inspirehep.net/api/literature/2173188",
+  "retrieved": "2026-11-02",
+  "title": "Magnetic monopoles in two time dimensions",
+  "authors": [
+   "Elsborg, J.",
+   "Köhn, C."
+  ],
+  "earliest_date": null,
+  "journal": "Int. J. Mod. Phys. A 37 2250141 (2022)",
+  "dois": [
+   "10.1142/S0217751X2250141X"
+  ],
+  "arxiv": "",
+  "abstract": "The observation of magnetic monopoles would lead to a symmetrization of Maxwell’s equations and provide explanations of fundamental properties such as the quantization of electric charge. Yet, in four dimensions, the covariant electromagnetic field tensor yields an action whose resulting field equations establish the absence of a magnetic charge. We here study the existence of magnetic monopoles in an extended space–time with a second time dimension, and construct the higher-dimensional gauge potential. This motivates the use of the Kalb–Ramond field, upon which a Kaluza–Klein-like reduction is performed under the assumption that the two time dimensions have no co-dependency. The resulting 5D electrodynamics contains a generalized version of Maxwell’s equations which contain magnetic charge densities whose source potential obeys a five-dimensional wave equation. As a second time dimension only acts on small length scales in the order of the Planck length, we provide a theory with symmetrized Maxwell’s equations including magnetic monopoles which do not violate current experimental evidence. We finally discuss the subsequent quantization of the electric charge as well as the weak interaction, equivalent to the violation of time reversal."
+ },
+ "recid:352759": {
+  "key": "recid:352759",
+  "source": "INSPIRE",
+  "recid": 352759,
+  "api_url": "https://inspirehep.net/api/literature/352759",
+  "retrieved": "2026-11-02",
+  "title": "Extension of the Parker bound on the flux of magnetic monopoles",
+  "authors": [
+   "Adams, Fred C.",
+   "Fatuzzo, Marco",
+   "Freese, Katherine",
+   "Tarle, Gregory",
+   "Watkins, Richard",
+   "Turner, Michael S."
+  ],
+  "earliest_date": "1993-02",
+  "journal": "Phys. Rev. Lett. 70 2511 (1993)",
+  "dois": [
+   "10.1103/PhysRevLett.70.2511"
+  ],
+  "arxiv": "",
+  "abstract": "An extension of the Parker bound on the flux scrF of magnetic monopoles leads to a stronger bound than obtained previously. The survival and growth of a small galactic seed field requires scrF≤10−16(m/1017 GeV) cm−2 s−1 sr−1. This new limit rules out the possibility that monopoles much lighter than 1017 GeV/c2 can provide the closure density of the Universe."
+ },
+ "recid:75874": {
+  "key": "recid:75874",
+  "source": "INSPIRE",
+  "recid": 75874,
+  "api_url": "https://inspirehep.net/api/literature/75874",
+  "retrieved": "2026-11-02",
+  "title": "Superselection rule for magnetic charges and the search for magnetic monopoles",
+  "authors": [
+   "Barut, A.O."
+  ],
+  "earliest_date": "1972",
+  "journal": "Phys. Lett. B 38 97 (1972)",
+  "dois": [
+   "10.1016/0370-2693(72)90749-6"
+  ],
+  "arxiv": "",
+  "abstract": "We show that (a) one can construct a quantum mechanics of particles with electric and pseudoscalar magnetic charges in which parity and time reversal are conserved, (b) in a chiral invariant and parity invariant theory there is no superselection rule for magnetic charges, (c) the states which are superpositions of positive and negative magnetic charges, ∣ g 〉 ± ∣ - g 〉, in which the expectation value of the magnetic charge vanishes, cannot be split in electromagnetic interactions by energy measurements. The hypothesis that magnetic charges occur in the superpositions ∣ + g 〉 ± ∣ - g 〉 can possibly be tested."
+ },
+ "recid:9098": {
+  "key": "recid:9098",
+  "source": "INSPIRE",
+  "recid": 9098,
+  "api_url": "https://inspirehep.net/api/literature/9098",
+  "retrieved": "2026-11-02",
+  "title": "Magnetic Monopoles in Grand Unified Theories",
+  "authors": [
+   "Langacker, Paul",
+   "Pi, So-Young"
+  ],
+  "earliest_date": "1980-04",
+  "journal": "Phys. Rev. Lett. 45 1 (1980)",
+  "dois": [
+   "10.1103/PhysRevLett.45.1"
+  ],
+  "arxiv": "",
+  "abstract": "It is suggested that the magnetic monopoles predicted by grand unified theories would not be produced in significant numbers if electromagnetic gauge invariance is spontaneously broken when the temperature T is greater than Tc≳1 TeV. A model possessing this behavior is displayed and the cosmological implications are discussed."
+ },
+ "recid:93713": {
+  "key": "recid:93713",
+  "source": "INSPIRE",
+  "recid": 93713,
+  "api_url": "https://inspirehep.net/api/literature/93713",
+  "retrieved": "2026-11-02",
+  "title": "Gravitation and Magnetic Charge",
+  "authors": [
+   "Kursunoglu, B."
+  ],
+  "earliest_date": "1974",
+  "journal": "Phys. Rev. D 9 2723 (1974); Phys. Rev. D 12 1850 (1975)",
+  "dois": [
+   "10.1103/PhysRevD.9.2723",
+   "10.1103/PhysRevD.12.1850"
+  ],
+  "arxiv": "",
+  "abstract": "Based on the static spherically symmetric solutions of the generalized theory of gravitation it is found that electric and magnetic charges are two fundamental constants of integration and that the corresponding electric, magnetic, and gravitational fields are regular everywhere only if the magnetic charge g≠0(∼1018e). The magnetic charge g assumes an infinite spectrum of values and is an invertible function of mass. For magnetic charge g=0, the solutions reduce to the Nordström solution of general relativity in the limit of large r. The theory leads to elementary particles of finite self-energy [Δ(±E)=mc2−(2g0)2l0] and binding energy. The structure of an elementary particle which is due to the existence of finite ±g consists of a magnetically neutral core of matter containing a distribution of magnetic charge density in stratified layers of sharply decreasing magnitude and alternating signs so that magnetic monopoles associated with a long-range field do not exist. As a consequence of the general covariance of the theory the surfaces of zero magnetic charge density in the particle core have an indeterminacy. These facts lead to a mass spectrum for elementary particles. In addition to charged electric and magnetic currents, the theory yields an electrically neutral current and the corresponding fields. The neutral current and the corresponding neutral field are the classical counterparts of the vacuum polarization in quantum electrodynamics. For every positive-energy solution there exists also a negative-energy solution with the corresponding electric charge. For g=0, the volume integral of the neutral current density diverges. The asymmetry of Maxwell's equations with regard to the absence of a magnetic current can be understood because the neutral and charged magnetic currents and the neutral part of the electric current are localized in the core of the elementary particle. Furthermore, the theory yields two lengths of the dimensions of 10−25 and 10−15 cm which could serve to differentiate between leptonic and hadronic processes. The presence of negative-energy solutions along with positive-energy solutions points to a large-scale symmetry with respect to a distribution of matter and antimatter in the universe."
+ }
+}

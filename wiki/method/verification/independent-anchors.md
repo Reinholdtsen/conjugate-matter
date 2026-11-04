@@ -16,6 +16,7 @@ sources:
   - "verify/toy_s4.py"
   - "verify/toy_s5.py"
   - "verify/battery.py"
+  - "verify/literature_check.py"
   - "review/v3-worklog.md 'New open items (to compute before v3 states anything about them)'"
   - "review/v3-worklog.md 'Findings neither referee raised'"
   - "review/wiki-build-checks/README.md"
@@ -29,7 +30,7 @@ sources:
   - "review/round5-adjudication.md 'Rulings' R12"
 ---
 
-*An anchor is a check that a verification script must pass against something known independently of the paper being checked, such as a textbook identity or a published value, before its own numbers are trusted. A check that only reproduces the paper's own figure is circular: if the paper's formula is wrong, the check repeats the error and passes. Review round 3 found such a case in the soliton manuscript, whose script anchored the monopole count to the previous draft's own figure and computed [the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) too small by a factor of about 4.6×10³ without failing. The rule has been in the program's method since, and seven of the ten current scripts open with anchor checks taken from textbooks or from the cited literature.*
+*An anchor is a check that a verification script must pass against something known independently of the paper being checked, such as a textbook identity or a published value, before its own numbers are trusted. A check that only reproduces the paper's own figure is circular: if the paper's formula is wrong, the check repeats the error and passes. Review round 3 found such a case in the soliton manuscript, whose script anchored the monopole count to the previous draft's own figure and computed [the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) too small by a factor of about 4.6×10³ without failing. The rule has been in the program's method since, and seven of the eleven current scripts open with anchor checks taken from textbooks or from the cited literature.*
 
 **Status:** Method, in force (round-3 lesson 2, now in root `CLAUDE.md`) — untagged — applied in `verify/soliton_obituary.py`, `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/phase_space_diameter.py`, `verify/closed_universe.py`, `verify/velocity_gated_gravity.py` and `verify/gate_mechanism.py`, which print their anchor checks first, and in identity checks in `verify/toy_s5.py`.
 
@@ -105,6 +106,10 @@ The last three docstrings call everything after the anchors a regression check, 
 
 `verify/battery.py` has no anchors. Its tests are algebraic identities evaluated on random matrices, which do not depend on any figure in the papers, and exact integer arithmetic ([the verification battery](/wiki/method/verification/battery)).
 
+### The literature-check script
+
+`verify/literature_check.py` has no anchors in its sections A–F, which recompute no physics: they check the literature-check note against the record the check left, finding each quotation again in a stored abstract or excerpt and each citation in a metadata snapshot from INSPIRE, arXiv, Crossref or OpenAlex ([the literature-check script](/wiki/method/verification/literature-check-script)). Its section G, the algebra behind flag 66, is anchored in published equations, not in the program's results: Gasperini and Veneziano's [scale-factor duality](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-name-scale-factor-duality-t) with sources (2003, §2.2), the Friedmann equation of Einstein gravity with the inversions of the scale factor published for it, and a solution of Brans–Dicke gravity, a theory in which a scalar field sets the strength of gravity, by Mukherjee, Jassal and Lochan (2024, §6) ([section G](/wiki/method/verification/literature-check-script#section-g-the-algebra-behind-flag-66)).
+
 ## Reproductions are not anchors
 
 The checks labelled "quoted:" in the toy scripts, and the "parity" checks of the battery, compare the output with the figures the documents print. The battery's docstring states their purpose: "a parity failure means this environment no longer reproduces the numbers the papers cite." Such checks show that the documents print what the code computes and that the environment still reproduces it. They are reproductions by design. The soliton-obituary script's ruling checks are of the same kind (for example `p = 104.31 with M_Pl`), and that is acceptable there because the anchors above them test the code from outside.
@@ -124,6 +129,7 @@ The checks labelled "quoted:" in the toy scripts, and the "parity" checks of the
 - `verify/toy_coset.py`, `verify/toy_gw.py`, `verify/toy_s5.py`, `verify/toy_s4.py` — the toy-model anchors, identity checks and phase expectations
 - `verify/phase_space_diameter.py`, `verify/closed_universe.py`, `verify/velocity_gated_gravity.py`, `verify/gate_mechanism.py` — the later scripts' docstrings and anchor blocks; `review/round5-adjudication.md` 'Rulings' R12 — the column the table's anchor checks
 - `verify/battery.py` — the parity checks, which are reproductions
+- `verify/literature_check.py` — sections A–F, without anchors, check a note against its stored record; section G is anchored in published equations
 - `review/round4-preregistration.md` 'Predictions' and `review/round4-adjudication.md` 'Pre-registration scored' — the rule in round 4
 - `review/wiki-build-checks/README.md`, `dirac_coupling_check.out`, `sqrt_eig_check.out`; `review/wiki-build-flags.md` items 11, 14, 16, 28 — the wiki build's checks and the condition for promoting them
 - Git history: knot_numbers.py at commits 5dbaa82 (the circular anchor) and 96f58da (the repaired docstring)

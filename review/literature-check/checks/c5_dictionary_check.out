@@ -1,0 +1,23 @@
+A. program rule (#1 sec. 6)
+   rho_eff = C*at(t)**(3 - 3*wt) ; p_eff/rho_eff from our continuity equation = -wt
+B. GV eq. (2.32) applied to the conjugate solution, d = 3
+   (2.31) holds on the conjugate side: True
+   (2.31) holds after the map: True
+   rho_GV - rho_eff = 0 ; p_GV - p_eff = 0
+C. GV string-frame power laws (2.33)-(2.38), d = 3
+   non-flat solution: {alpha: -(-2 + 2/(3*gamma**2 + 1))/(3*gamma), beta: 2/(3*gamma**2 + 1)}
+   residuals (2.27), (2.28), (2.29): 0 0 0
+   alpha(-gamma) + alpha(gamma) = 0 ; beta(-gamma) - beta(gamma) = 0
+   stiff gamma = 1: a ~ t^ 1/2 ; its SFD partner gamma = -1: a ~ t^ -1/2 (power law with running dilaton beta = 1/2 ; not de Sitter)
+D. Einstein gravity, 8 pi G = 1, single fluid w, a = t^q, q = 2/(3(1+w))
+   image of a Friedmann solution under the map: H~^2 - rho~/3 = -4*(t**(1/(w + 1)) - 1)*(t**(1/(w + 1)) + 1)*(t**(2/(w + 1)) + 1)/(9*t**2*(w + 1)**2) (zero only where a = 1: not a solution of Einstein gravity)
+   same cosmic time, a -> 1/a between single-fluid solutions: wbar = -w - 2 (phantom duality, w -> -2 - w)
+   same conformal time (a ~ eta^(2/(1+3w))): wbar = -w - 2/3 (w + wbar = -2/3)
+E. MJL 2024 sec. 6: Brans-Dicke w_BD = -4/3, U = 0
+   d ln at~ / d ln a = -1/2 (the program has -1)
+   eq. (47) form: H~ = -1/(3*t_c - 3*ttilde) ; rho~ a~^6 = 1/3 (constant: stiff, w = 1, contracting)
+F. which conjugate content acts on ours as Lambda (w = -1)
+   E carried (program; GV SFD with sources)                                 dual w~ = 1 ; dual dust -> 0 ; dual stiff -> -1
+   densities identified, shared cosmic time (heuristic; phantom duality)    dual w~ = -1 ; dual dust -> -2 ; dual stiff -> -3
+   shared conformal time (Camara da Silva et al.; Dark Gravity)             dual w~ = 1/3 ; dual dust -> -2/3 ; dual stiff -> -5/3
+all checks passed

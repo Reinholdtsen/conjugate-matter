@@ -1,0 +1,511 @@
+{
+ "agentCount": 2,
+ "totalTokens": 886655,
+ "review": {
+  "findings": [
+   {
+    "id": "FS-01",
+    "file": "notes/literature-check.md",
+    "severity": "medium",
+    "problem": "Item 9 (§11, 'A check of the merges') says 'the gate now finds in the note's prose each count it recomputes'. That is not true. Section B looks for one phrase per count. The counts section A recomputes (C1's nine anticipating papers, C3's 30 findings, the four single-agent findings) are compared only with the two tables, never with the prose that restates them. Two texts from workflow 8 make the same overclaim: the-gate.md says an edit to 'one of the counts the note states in its prose and the script recomputes from the record' trips the gate, and literature-check-script.md says 'a count changed in the note alone fails the check'.",
+    "evidence": "Tested on copies of the note through verify/literature_check.py's own functions, with only NOTE redirected and the real note excluded from section C's documents (work/literature-check/verify-custom/final-sweep/harness2.py). Copy 1 changes 'Nine papers state it in substance' to Eight, 'none of the other 30 findings for C3' to 31, the header's 'all but four' to five, 'the eight before it' to seven, and 'six label changes' to seven: exit 0, 532 PASS, 0 FAIL. Copy 2 changes §11 Scale's '31 agents' to 32, §11 Files' 'the 287 merged findings' to 288, and §2's 'Four findings that carry a verdict had no verifier' to Five: again 532/0. Code: section_b's `stated` list (lines 210-223) holds one phrase per count. '31 agents in four workflows' matches only the header, and 'The result is 287 findings' only §1. Section A compares counts with the tables only (lines 136-147). The second review's total, 71, is recomputed but stated nowhere in the note. The edits narrow the claims. The other fix would be to add the prose restatements to section B's list. With all proposed edits applied to a mirror, verify/literature_check.py gives 532 PASS and check-wiki.py passes (328 pages).",
+    "quote": "the gate now finds in the note's prose each count it recomputes",
+    "edits": [
+     {
+      "file": "notes/literature-check.md",
+      "current": "Sitter universe has the partner's source; the gate now finds in the note's prose each count it recomputes; and §2\nnow gives the round-1 verifier's qualification of the one reading that would raise a verdict. No verdict changed.",
+      "proposed": "Sitter universe has the partner's source; the gate now finds the counts that section B recomputes in the note's\nprose, as the note states them and at one place each; and §2 now gives the round-1 verifier's qualification of the\none reading that would raise a verdict. No verdict changed."
+     },
+     {
+      "file": "wiki/method/verification/the-gate.md",
+      "current": "or to one of the counts the note states in its prose and the script recomputes from the record, since it finds each of those in the note too; the note's other counts, among them the queries that did not run, are not checked",
+      "proposed": "or to one of the counts that section B of the script recomputes from the record, in the one phrase of the note's prose in which the script looks for each; the same count stated elsewhere in the note, and the note's other counts, among them the queries that did not run, are not checked"
+     },
+     {
+      "file": "wiki/method/verification/literature-check-script.md",
+      "current": "Each count is recomputed from the record and must also appear in the note's prose as the note states it, so that a count changed in the note alone fails the check.",
+      "proposed": "Each count is recomputed from the record and must also appear in the note's prose as the note states it, at one place each, so that a count changed there alone fails the check; a count the note states a second time, as it does the 31 agents and the 287 findings, is not checked at the second place."
+     }
+    ]
+   },
+   {
+    "id": "FS-02",
+    "file": "wiki/method/literature-check.md",
+    "severity": "medium",
+    "problem": "Workflow 8's F1 added the round-1 C5 verifier's qualification to note §2 and flag 65's audit. That qualification bears on the one reading that would raise a verdict. The two wiki pages that state this reading still give only the judge's side: 'a reading its judge does not adopt' on the literature-check page, and 'a reading the panel judge ... states and does not adopt' in the C5 page's 'In the literature'. Neither page says that the verifier finds an anticipation arguable only for the founding sentence read kinematically. Nor do they say the reason: in Dark Gravity the conjugate side's contraction does not power the acceleration. Workflow 8's note-flags reviewer named these two lines in its notes, but no wiki finding proposed an edit, and none was applied. P.R. is asked to choose this reading (root CLAUDE.md, 'Open from the literature check').",
+    "evidence": "Note §2 lines 132-137; flag 65 audit, flags lines 655-658. round1/g4-collapse-acceleration.verify.json, verdict on gr-qc/0610079: 'A reader could argue anticipates for the founding image read as a kinematic identity, not for the record's route'. checks/dg_exponents.out step 4: 'dark-side source ~ 1/a = at~^1 with at~ = 1/a: falls as the dark side contracts'. workflow8-result.json note-flags notes: 'The same omission as F1 is on wiki/method/literature-check.md:55 and wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md:91.' Both edits pass check-wiki.py on a mirror.",
+    "quote": "if that identity is counted as framework, Henry-Couannier's contracting partner could be called an anticipation of the conjecture's founding sentence, though never of the route that remains, a reading its judge does not adopt.",
+    "edits": [
+     {
+      "file": "wiki/method/literature-check.md",
+      "current": "though never of the route that remains, a reading its judge does not adopt.",
+      "proposed": "though never of the route that remains, a reading its judge does not adopt; the round-1 verifier for C5 finds it arguable only for the founding sentence read as a statement about how the two scale factors move, since in Dark Gravity the contraction of the conjugate side does not power our acceleration."
+     },
+     {
+      "file": "wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md",
+      "current": "a reading the panel judge for this conjecture states and does not adopt, since Dark Gravity differs in physical claim.",
+      "proposed": "a reading the panel judge for this conjecture states and does not adopt, since Dark Gravity differs in physical claim. The verifier of the check's first round for this conjecture finds the reading arguable only for the founding sentence read as a statement about how the two scale factors move: Henry-Couannier describes the driver as the dominance of the conjugate side's matter, not as its collapse, and that side's source term weakens as the side contracts, so the contraction does not power our acceleration (`notes/literature-check.md` §2)."
+     }
+    ]
+   },
+   {
+    "id": "FS-03",
+    "file": "wiki/history/timeline.md",
+    "severity": "low",
+    "problem": "Item 13, the new sentence in the 2026-11-03 row, repeats the defect W18 fixed one sentence earlier. In 'Four further agents, each followed by one that tries to refute its findings, ..., refute nothing', the four reviewers become the agents that refute nothing. It also states without scope that 'no de Sitter universe has the partner of a stiff source'. That partner's source has p = −ρ, which in Einstein gravity is exactly the source of de Sitter. Section G shows the result only within Gasperini and Veneziano's string-frame equations, as the note ('within it'), the docstring ('within it') and the script page ('their field equations') all say. Separately, the page's status line still lists only 'the write-up's two reviews and round 5' among the 2026-11-03 events it is current to.",
+    "evidence": "timeline.md line 101 (status line) and line 453 (row). verify/literature_check.py docstring lines 26-28 and check lines 435-445 (GV eqs. 2.27-2.29). Note line 464 ('within it the partner of a stiff source is not de Sitter'). workflow8 W18 fixed the same construction in the row's first sentence. Both edits pass check-wiki.py on a mirror.",
+    "quote": "Four further agents, each followed by one that tries to refute its findings, check the edits merged by hand and the new section G, refute nothing, and their corrections are applied; among them, section G now also shows that no de Sitter universe has the partner of a stiff source",
+    "edits": [
+     {
+      "file": "wiki/history/timeline.md",
+      "current": "Four further agents, each followed by one that tries to refute its findings, check the edits merged by hand and the new section G, refute nothing, and their corrections are applied; among them, section G now also shows that no de Sitter universe has the partner of a stiff source",
+      "proposed": "Four further agents, each followed by one that tries to refute its findings and refutes none, check the edits merged by hand and the new section G, and their corrections are applied; among them, section G now also shows that within scale-factor duality no de Sitter universe has the partner of a stiff source"
+     },
+     {
+      "file": "wiki/history/timeline.md",
+      "current": "the write-up's two reviews and round 5, all of 2026-11-03.",
+      "proposed": "the write-up's two reviews, round 5 and the check of the edits merged by hand, all of 2026-11-03."
+     }
+    ]
+   },
+   {
+    "id": "FS-04",
+    "file": "wiki/cosmology/scale-factor-duality/_index.md",
+    "severity": "low",
+    "problem": "The section map still says of the program's five scale-factor pages that 'none of the derivations is machine-checked'. Since section G, the gate checks the dictionary's derivation: w_eff = −w̃, from E = ρ̃ã³ entering our constraint as E/a³, through our own continuity equation. The dictionary page's status line, alive.md and conjugate-universe.md already say so. W3 fixed the sibling pages but not this sentence. It is the 'no script near the duality dictionary' pattern.",
+    "evidence": "verify/literature_check.py lines 395-405, the check 'the program's rule gives w_eff = -w~ through our continuity equation'. duality-dictionary.md line 31: 'section G of the literature-check script checks its algebra in the gate'. conjugate-universe.md line 29. alive.md line 231. The edit passes check-wiki.py on a mirror.",
+    "quote": "none of the derivations is machine-checked.",
+    "edits": [
+     {
+      "file": "wiki/cosmology/scale-factor-duality/_index.md",
+      "current": "none of the derivations is machine-checked.",
+      "proposed": "none of the derivations is machine-checked except the dictionary's algebra, which section G of [the literature-check script](/wiki/method/verification/literature-check-script#section-g-the-algebra-behind-flag-66) checks in the gate."
+     }
+    ]
+   },
+   {
+    "id": "FS-05",
+    "file": "wiki/predictions/self-interaction-knee.md",
+    "severity": "low",
+    "problem": "Note §3 and flag 69 were changed from 'where particle χ has none' to 'where row 1 gives particle χ none', because #11 §8 leaves the gate's tail open and a rational tail leaves a remainder. Two wiki pages still assert the old wording as fact. One is self-interaction-knee.md, in the same paragraph that now says a rational tail would soften the conflict. The other is chi-particles.md.",
+    "evidence": "Note line 231 and flags line 732. round8-custom.json's flag-69 item: was 'where particle χ has none', now 'where row 1 gives particle χ none'. self-interaction-knee.md line 103; chi-particles.md line 98. gate-shape.md line 89: 'a rational tail leaves a power-law remainder'. Both edits pass check-wiki.py on a mirror.",
+    "quote": "Both favour a nonzero value at cluster speeds, where particle χ has none,",
+    "edits": [
+     {
+      "file": "wiki/predictions/self-interaction-knee.md",
+      "current": "Both favour a nonzero value at cluster speeds, where particle χ has none,",
+      "proposed": "Both favour a nonzero value at cluster speeds, where row 1 gives particle χ none,"
+     },
+     {
+      "file": "wiki/dark-matter/candidates/chi-particles.md",
+      "current": "Both favour a nonzero value at cluster speeds, where particle χ has none,",
+      "proposed": "Both favour a nonzero value at cluster speeds, where row 1 gives particle χ none,"
+     }
+    ]
+   },
+   {
+    "id": "FS-06",
+    "file": "review/literature-check/README.md",
+    "severity": "low",
+    "problem": "The README's account of the pre-registration score adds the note's reading caveat only in the direction that favours the forecast: 'under the other readings the judges state each would have been a hit'. It leaves out note §11's 'and C5's hit a miss'. It also says 'both overall predictions held' without the note's caveat that C3's hit and the second overall prediction stay provisional until Khademi 2009 is read. W5 fixed the same omission on the wiki's pre-registration page; the README still has it.",
+    "evidence": "README lines 50-53; note §11 lines 608-612; workflow8 W5 (confirmed). The edit keeps README lines within 118 characters.",
+    "quote": "each would have been a hit (note §2, §11); both overall predictions held.",
+    "edits": [
+     {
+      "file": "review/literature-check/README.md",
+      "current": "each would have been a hit (note §2, §11); both overall predictions held.",
+      "proposed": "each would have been a hit, and C5's hit a miss (note §2, §11); both overall predictions held. C3's hit, like its\nverdict and the second overall prediction, is provisional until Khademi 2009's full text is read (note §4, §11)."
+     }
+    ]
+   },
+   {
+    "id": "FS-07",
+    "file": "notes/literature-check.md",
+    "severity": "low",
+    "problem": "§11 now has a third paragraph, 'A check of the merges'. Its opening italic still describes only 'how agents reviewed this write-up twice' (COH-04's wording, written before that paragraph existed). The Scale paragraph says 'the two reviews of this write-up and round 5 (below) came after and are not counted', but workflow 8 also came after and is not counted.",
+    "evidence": "Note lines 598-603 and 646-652. workflow8-result.json: agentCount 8, totalTokens 3,184,137. These are outside the 31 agents and 11.2 million tokens, which section B recomputes from workflows 1-4 only. With both edits applied, verify/literature_check.py gives 532 PASS; the phrase '11.2 million tokens' is untouched; lines stay within 118 characters.",
+    "quote": "agents reviewed this write-up twice.*",
+    "edits": [
+     {
+      "file": "notes/literature-check.md",
+      "current": "how the expected verdicts written down beforehand scored, and how\nagents reviewed this write-up twice.*",
+      "proposed": "how the expected verdicts written down beforehand scored, and how\nagents reviewed this write-up twice and then checked the corrections merged by hand.*"
+     },
+     {
+      "file": "notes/literature-check.md",
+      "current": "the two reviews of this write-up and round 5 (below) came\nafter and are not counted.",
+      "proposed": "the two reviews of this write-up, round 5 and the check of\nthe merges (below) came after and are not counted."
+     }
+    ]
+   },
+   {
+    "id": "FS-08",
+    "file": "CLAUDE.md",
+    "severity": "low",
+    "problem": "The root CLAUDE.md entry of 2026-11-02 ends 'two reviews of the write-up (2026-11-03; workflow5-result.json, workflow7-result.json) changed no verdict'. It does not name the check of the merges (workflow8-result.json), which the note, the README and the timeline now record. The wiki's account of that entry (project-instructions.md) repeats the omission. A cold session reads CLAUDE.md first.",
+    "evidence": "CLAUDE.md lines 206-209; project-instructions.md line 89; note §11 and the README's bullet 'A check of the merges'. The new CLAUDE.md lines stay within 118 characters. The wiki edit passes check-wiki.py on a mirror.",
+    "quote": "two reviews of the write-up (2026-11-03; `review/literature-check/workflows/workflow5-result.json`, `workflow7-result.json`) changed no verdict.",
+    "edits": [
+     {
+      "file": "CLAUDE.md",
+      "current": "two reviews of the write-up\n    (2026-11-03; `review/literature-check/workflows/workflow5-result.json`, `workflow7-result.json`) changed no\n    verdict.",
+      "proposed": "two reviews of the write-up\n    and a check of the edits merged by hand (2026-11-03; `review/literature-check/workflows/workflow5-result.json`,\n    `workflow7-result.json`, `workflow8-result.json`) changed no verdict."
+     },
+     {
+      "file": "wiki/history/documents/project-instructions.md",
+      "current": "two reviews of the write-up changed no verdict.",
+      "proposed": "two reviews of the write-up and a check of the edits merged by hand changed no verdict."
+     }
+    ]
+   },
+   {
+    "id": "FS-09",
+    "file": "wiki/method/review/pre-registration.md",
+    "severity": "low",
+    "problem": "The literature-check subsection ends 'No review round followed; the note has not been reviewed.' But agents reviewed the note twice and then checked the merged edits (note §11). What it has not had is a blind review round, which is how the note's header and the wiki's literature-check page put it. On the page about forecasting reviews, the flat 'has not been reviewed' contradicts the record.",
+    "evidence": "pre-registration.md line 160. The same sentence also appears at line 139, about the closed-universe note, so the edit's current text includes the preceding line. Note header line 3 ('not through a blind review round (agents reviewed the write-up, §11)'); wiki/method/literature-check.md line 16. The 'not reviewed' convention of CLAUDE.md and the document registers is left as is. The edit passes check-wiki.py on a mirror.",
+    "quote": "No review round followed; the note has not been reviewed.",
+    "edits": [
+     {
+      "file": "wiki/method/review/pre-registration.md",
+      "current": "\"is where the residual risk sits\".\n\nNo review round followed; the note has not been reviewed.",
+      "proposed": "\"is where the residual risk sits\".\n\nNo review round followed: the note has not been through a blind review round, though agents reviewed its write-up (`notes/literature-check.md` §11)."
+     }
+    ]
+   },
+   {
+    "id": "FS-10",
+    "file": "wiki/status/open-problems.md",
+    "severity": "low",
+    "problem": "Two register statements on which flags have checks in verify/ predate section G. open-problems.md says the flags file 'records that verify/literature_check.py ... checks their quotations'. notation.md's 'Flags 1–69' entry lists the flags whose checks are in verify/ and leaves out flag 66. The flags file's closing paragraph now says 'flag 66's algebra is in verify/literature_check.py (section G)', and verification/_index.md line 37 was updated to match.",
+    "evidence": "review/wiki-build-flags.md lines 748-750; open-problems.md line 251; notation.md line 391; verification/_index.md line 37. Both edits pass check-wiki.py on a mirror.",
+    "quote": "and the quotations of flags 64–69 are checked by `verify/literature_check.py`.",
+    "edits": [
+     {
+      "file": "wiki/status/open-problems.md",
+      "current": "checks their quotations ([the literature-check script](/wiki/method/verification/literature-check-script)), and marks their rulings pending.",
+      "proposed": "checks their quotations and, in its section G, the algebra of flag 66 ([the literature-check script](/wiki/method/verification/literature-check-script)), and marks their rulings pending."
+     },
+     {
+      "file": "wiki/notation.md",
+      "current": "and the quotations of flags 64–69 are checked by `verify/literature_check.py`.",
+      "proposed": "and `verify/literature_check.py` checks the quotations of flags 64–69 and, in its section G, the algebra of flag 66."
+     }
+    ]
+   },
+   {
+    "id": "FS-11",
+    "file": "wiki/method/verification/the-gate.md",
+    "severity": "low",
+    "problem": "Three summaries of what verify/literature_check.py does were not updated for section G or for the check of the merges. (1) The verification index's italic: 'One script checks a literature search instead: it confirms that the literature-check note reports its stored record'. (2) the-gate.md's account of which scripts back tags: 'the script checks that the note reports its stored record'. (3) the-gate.md's dated history, which ends with section G's addition. It does not say that section B now finds counts in the prose, or that section G now shows the general de Sitter result.",
+    "evidence": "verification/_index.md line 9 (its own line 30 names section G); the-gate.md lines 90 and 143; verify/literature_check.py docstring lines 10-14 and 23-34. The history edit scopes the de Sitter result to scale-factor duality (see FS-03). All three edits pass check-wiki.py on a mirror.",
+    "quote": "The fifth, `verify/literature_check.py`, backs no tag: the literature-check note carries no [V] tag, and the script checks that the note reports its stored record.",
+    "edits": [
+     {
+      "file": "wiki/method/verification/_index.md",
+      "current": "One script checks a literature search instead: it confirms that the literature-check note reports its stored record, not the agents' judgments behind it.",
+      "proposed": "One script checks a literature search instead: it confirms that the literature-check note reports its stored record, not the agents' judgments behind it, and in one section the algebra behind flag 66."
+     },
+     {
+      "file": "wiki/method/verification/the-gate.md",
+      "current": "The fifth, `verify/literature_check.py`, backs no tag: the literature-check note carries no [V] tag, and the script checks that the note reports its stored record.",
+      "proposed": "The fifth, `verify/literature_check.py`, backs no tag: the literature-check note carries no [V] tag, and the script checks that the note reports its stored record and, in section G, the algebra behind flag 66, the duality dictionary, which #11 tags [D — corrected en route]."
+     },
+     {
+      "file": "wiki/method/verification/the-gate.md",
+      "current": "it gained section G, the algebra behind flag 66, which two agents of the check had computed outside the gate.",
+      "proposed": "it gained section G, the algebra behind flag 66, which two agents of the check had computed outside the gate. After the check of the edits merged by hand that followed, section B also finds in the note's prose the counts it recomputes, as the note states them, and section G also shows that within scale-factor duality the partner of a stiff source is not de Sitter, whatever the sign of its energy density."
+     }
+    ]
+   },
+   {
+    "id": "FS-12",
+    "file": "review/literature-check/README.md",
+    "severity": "low",
+    "problem": "Item 11 (README, Files): the workflows/ entry lists the results the workflow tool returned as 'workflow5-result.json to workflow8-result.json'. But workflows/ also holds workflow1-result.json to workflow4-result.json, the check's own four results, which the README's Scale paragraph and section B cite. All eight files carry agentCount and totalTokens.",
+    "evidence": "review/literature-check/workflows/ holds workflow1-result.json to workflow8-result.json. agentCount/totalTokens: 10/4,617,454; 7/1,822,684; 7/2,616,235; 7/2,107,543; 7/2,403,812; 2/399,372; 6/2,982,104; 8/3,184,137. The hand edit changed only 7 to 8; the omission of 1-4 predates it.",
+    "quote": "(`workflow5-result.json` to `workflow8-result.json` with their workflows' agent and token counts).",
+    "edits": [
+     {
+      "file": "review/literature-check/README.md",
+      "current": "and the results the workflow tool returned\n  (`workflow5-result.json` to `workflow8-result.json` with their workflows' agent and token counts).",
+      "proposed": "and the results the workflow tool returned\n  (`workflow1-result.json` to `workflow8-result.json`, each with its workflow's agent and token counts)."
+     }
+    ]
+   },
+   {
+    "id": "FS-13",
+    "file": "wiki/method/literature-check.md",
+    "severity": "low",
+    "problem": "Freidel, Leigh and Minic published two papers in 2014, both cited by #11 as [3]†. COH-08 made the note, flag 64 and flag 67 specify the Phys. Lett. B paper. Two wiki pages still cite 'Freidel, Leigh and Minic 2014' without saying which: the literature-check page's quotation 'coordinates in momentum space', and the unified-modular-structure page's passage on dyons.",
+    "evidence": "quotes.json gives id 1307.7080 (Phys. Lett. B 730, 302) for both FLM 2014 quotations. Note lines 183 and 375; flags lines 611-612 and 698-699; references.md line 161 lists both 2014 papers. Both edits pass check-wiki.py on a mirror.",
+    "quote": "Freidel, Leigh and Minic 2014 call them \"coordinates in momentum space\" [S]",
+    "edits": [
+     {
+      "file": "wiki/method/literature-check.md",
+      "current": "Freidel, Leigh and Minic 2014 call them",
+      "proposed": "Freidel, Leigh and Minic 2014 (Phys. Lett. B) call them"
+     },
+     {
+      "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+      "current": "Freidel, Leigh and Minic 2014, #11's [3]†, tie",
+      "proposed": "Freidel, Leigh and Minic 2014 (Phys. Lett. B), the first paper of #11's [3]†, tie"
+     }
+    ]
+   },
+   {
+    "id": "FS-14",
+    "file": "wiki/glossary.md",
+    "severity": "low",
+    "problem": "The literature-check edits made 'the scale-factor duality of string cosmology with sources' a recurring phrase (flag 66) on the dictionary, constraint, conjugate-collapse, hard-core, assessment, provenance-tags, Lakatos and literature-check pages. But the glossary defines scale-factor duality only as the program's a·ã = 1, and its 'Duality' collision entry does not list the string-cosmology sense. A reader who looks the term up finds a meaning that does not fit those pages.",
+    "evidence": "glossary.md lines 185 and 425. cosmological-constraint.md, section 'The name: scale-factor duality [T]' (lines 105-107): 'a solution with scale factor a(t) maps to another solution with 1/a(t), together with a shift of the dilaton field'. Note §6, 'The dictionary'; flag 66. The edit adds no number. It passes check-wiki.py on a mirror; the anchor is the one other pages already use.",
+    "quote": "The program's reciprocal relation a·ã = 1 between our scale factor and the conjugate one",
+    "edits": [
+     {
+      "file": "wiki/glossary.md",
+      "current": "it makes the far-future halt of our expansion the conjugate universe's bounce. See [Scale-factor duality](/wiki/cosmology/scale-factor-duality).",
+      "proposed": "it makes the far-future halt of our expansion the conjugate universe's bounce. In string cosmology the same name means a symmetry of the low-energy string equations, which carry a dilaton, that maps a solution with scale factor a to another with 1/a; with sources it reverses each fluid's equation of state, and as a map of fluid variables it is the program's duality dictionary (flag 66, pending). See [Scale-factor duality](/wiki/cosmology/scale-factor-duality) and [the name in string cosmology](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-name-scale-factor-duality-t)."
+     }
+    ]
+   }
+  ],
+  "notes": "I edited no repository file. Of the 16 hand-written texts, 13 hold up against the record; items 9, 11 and 13 have defects (FS-01, FS-12, FS-03). The sweep found 11 more stale or inconsistent statements. Two findings are medium (FS-01, FS-02); the rest are low. Every proposed edit's current text occurs exactly once, and with all edits applied both gates still pass.\n\nPart 1, the 16 texts, read in place:\n- Item 1 (§6 italic): agrees with §2, the §6 body and the C5 judge in panel/c5.out.json ('could call it anticipated for the founding sentence, but never for the kept route').\n- Item 2 (knee paragraph): matches panel/c1-advocate.out.json ('which a rational gate tail (#11 §8) would soften'), findings.json 1810.04709 (related, found by the round-1 C1 verifier alone), the round-1 C1 verifier ('its origin and tail shape are what remain unpublished') and flag 69's suggestion.\n- Item 3 (stiff-partner bullet): matches section G lines 417–445 and Gasperini–Veneziano eqs. 2.27–2.29 and 2.35–2.37, read with lit.py. The stiff power law and its partner have negative energy density (−1/2 at γ = ±1). With constant H, φ̄' must be 3H or −H, so eq. 2.29 has no solution.\n- Items 4–5 (flag 69): the numbers are in the stored abstracts, including 0.5 ± 0.2 cm²/g in groups. The Chu label matches findings.json.\n- Items 6–7: match the C5 judge.\n- Item 8: correct within Gasperini–Veneziano's equations. 'Section G of the gate' is loose wording, but clear in context.\n- Items 10 and 12: workflow 8 had 8 agents (4 lenses, each followed by a skeptic); workflows 5–7 had 7, 2 and 6.\n- Items 14–16: EXPECT review3 = (47, 43, 4, 0), and the phrase the gate looks for is in section B's list.\n\nWorkflow 8: 47 findings, 43 confirmed and 4 in part, none refuted. All 107 of its edits are in today's files, verbatim or merged by hand. I checked the 17 that are not verbatim one by one.\n\nGates as the files stand:\n- verify/literature_check.py: exit 0, 532 PASS (A 22, B 30, C 113, D 328, E 1, F 22, G 16). This matches the script page's recorded output line for line.\n- scripts/check-wiki.py: 328 pages, no problems.\n- wiki/summary.md: 800 words by the gate's own count, exactly at the limit, and still true against the note. I propose no summary edit.\n\nHow I tested: all 25 edits were applied together to a mirror of the repository. The pre-registration files were replaced by empty placeholders and site/CLAUDE.md was added. check-wiki.py passed and the summary stayed at 800 words. The edited note was run through verify/literature_check.py from the real repository with only the note's path redirected: 532 PASS. The mirror and the note copies are deleted.\n\nGrep sweep with nothing further to report:\n- old PASS counts 426, 515, 530 and 529: none left;\n- 'eleven scripts': consistent with scripts/check.sh;\n- 'four rounds': fixed;\n- 'is published' for the program's two forms: none;\n- 'three verdicts': only in flag 65's audit, which is correct for C4–C6;\n- 'one verifier': on the collapse page, about anisotropy, which is correct;\n- 'a ∝ t^(−1/2)': on the script page and in the docstring, both with the sign caveat;\n- 'founding image' used for C5: none;\n- 'reran': none relevant;\n- 'gravity alone': every literature-check page carries the shared-photon caveat or describes what was not found.\n\nNot raised:\n- 'not reviewed' in CLAUDE.md, wiki/CLAUDE.md and the document registers: the repository convention.\n- Pages that name a verify script without linking its page: registers (glossary, notation) or about other scripts.\n- The conjugate-matter section index: it links C1's audit entry, which carries the literature.\n\nFS-01 could instead be fixed by adding the prose restatements to section B's list of phrases.\n\nScratch files are in /home/paul/git/reinholdtsen/conjugate-matter/work/literature-check/verify-custom/final-sweep/. edits.json holds all 25 edits; harness2.py and apply.py are the test scripts."
+ },
+ "verdicts": {
+  "results": [
+   {
+    "id": "FS-01",
+    "verdict": "confirmed",
+    "evidence": "Reproduced. I ran mutated copies of the note through verify/literature_check.py's own functions, with only NOTE redirected and the real note excluded from section C's documents (scratch: work/literature-check/verify-custom/skeptic-final-sweep/harness.py, mutate.py; copies deleted).\n\n(1) Prose restatements of section A's counts: 'Nine papers' to Eight, 'other 30 findings for C3' to 31, the header's 'all but four of the findings that carry a verdict' to five, 'Four findings that carry a verdict had no' to Five, 'the eight before it' to seven. Result: exit 0, 532 PASS.\n(2) Section B's counts at a second place: §11's '31 agents, about' to 32, 'the 287 merged findings' to 288, 'six label changes' to seven. Result: exit 0, 532 PASS.\n(3) The header's '31 agents in four workflows' to 32: 531 PASS, 1 FAIL. So the check works only at the one phrase per count in section B's `stated` list (lines 210-220).\n\nSection A (lines 136-147) compares counts with the tables only. Three texts therefore overclaim:\n- note §11: 'the gate now finds in the note's prose each count it recomputes';\n- the-gate.md: 'one of the counts the note states in its prose and the script recomputes ... since it finds each of those in the note too'. 'Nine papers' and §11's '31 agents' are such counts, and both pass when changed;\n- literature-check-script.md: 'a count changed in the note alone fails the check'.\n\nRevisions to the verifier's edits:\n- The-gate wording does not name section B, because B also looks for the pre-registration score, which section E recomputes. It names the unchecked restatements of the tables' counts.\n- The script page names §11's 31 agents, a number in the note.\n\nWith all my edits applied to a mirror, verify/literature_check.py gives 532 PASS and check-wiki.py passes (328 pages).",
+    "edits": [
+     {
+      "file": "notes/literature-check.md",
+      "current": "Sitter universe has the partner's source; the gate now finds in the note's prose each count it recomputes; and §2\nnow gives the round-1 verifier's qualification of the one reading that would raise a verdict. No verdict changed.",
+      "proposed": "Sitter universe has the partner's source; the gate now finds the counts that section B recomputes in the note's\nprose, at the one place where it looks for each; and §2 now gives the round-1 verifier's qualification of the\none reading that would raise a verdict. No verdict changed."
+     },
+     {
+      "file": "wiki/method/verification/the-gate.md",
+      "current": "or to one of the counts the note states in its prose and the script recomputes from the record, since it finds each of those in the note too; the note's other counts, among them the queries that did not run, are not checked",
+      "proposed": "or to one of the counts the script recomputes from the record and looks for in the note's prose, at the one place where it looks for each; the note's other statements of these counts and of the tables' counts, and its other counts, among them the queries that did not run, are not checked"
+     },
+     {
+      "file": "wiki/method/verification/literature-check-script.md",
+      "current": "Each count is recomputed from the record and must also appear in the note's prose as the note states it, so that a count changed in the note alone fails the check.",
+      "proposed": "Each count is recomputed from the record and must also appear in the note's prose as the note states it, in one phrase for each, so that a count changed in that phrase alone fails the check; where the note states the same count again elsewhere, as it does the 31 agents in §11, the script does not check the second statement."
+     }
+    ]
+   },
+   {
+    "id": "FS-02",
+    "verdict": "confirmed",
+    "evidence": "The record:\n- round1/g4-collapse-acceleration.verify.json: \"A reader could argue 'anticipates' for the founding image read as a kinematic identity, not for the record's route\".\n- On the PoS paper, the same file: the dark-side source \"weakens as the dark side contracts (verifier's script dg_exponents.py, step 4): the contraction does not power the acceleration\".\n- checks/dg_exponents.out step 4 agrees: \"dark-side source ~ 1/a = at~^1 ... falls as the dark side contracts\".\n\nWorkflow 8 confirmed F1 for this same omission and applied it to note §2 (lines 133-137) and flag 65 (lines 656-658). Its note-flags reviewer named wiki/method/literature-check.md:55 and collapse-powered-expansion.md:91 in its notes, but no wiki edit followed. Both pages still give only the judge's side. open-problems.md's readings item (line 216) sends P.R. to the literature-check page to choose this reading.\n\nRevisions to the verifier's edits:\n- 'an anticipation' replaces 'it', whose antecedent was ambiguous.\n- On the collapse page, the unglossed 'source term' (voice test 3) becomes 'contribution to the equations of our expansion'.\n- The weakening is attributed to the verifier's calculation, as the note does.\n\nBoth edits pass check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "wiki/method/literature-check.md",
+      "current": "though never of the route that remains, a reading its judge does not adopt.",
+      "proposed": "though never of the route that remains, a reading its judge does not adopt; the round-1 verifier for C5 finds an anticipation arguable only for the founding sentence read as a statement about how the two scale factors move, since in Dark Gravity the contraction of the conjugate side does not power our acceleration."
+     },
+     {
+      "file": "wiki/cosmology/scale-factor-duality/collapse-powered-expansion.md",
+      "current": "a reading the panel judge for this conjecture states and does not adopt, since Dark Gravity differs in physical claim.",
+      "proposed": "a reading the panel judge for this conjecture states and does not adopt, since Dark Gravity differs in physical claim. The literature check's first-round verifier for this conjecture finds an anticipation arguable only for the founding sentence read as a statement about how the two scale factors move: Henry-Couannier describes the driver as the dominance of the conjugate side's matter, not as its collapse, and in the verifier's calculation that side's contribution to the equations of our expansion weakens as the side contracts, so the contraction does not power our acceleration (`notes/literature-check.md` §2)."
+     }
+    ]
+   },
+   {
+    "id": "FS-03",
+    "verdict": "confirmed",
+    "evidence": "Grammar. timeline.md line 453 reads 'Four further agents, each followed by one that tries to refute its findings, check ..., refute nothing'. The reviewers are the subject of 'refute nothing'. W18 (workflow 8, confirmed) fixed the same construction in this row's first sentence.\n\nScope. 'no de Sitter universe has the partner of a stiff source' is false in Einstein gravity, where p = −ρ with positive density is exactly de Sitter's source. It also reads against the kept route, dual stiff ↦ Λ in our Friedmann equation. Section G proves it only within Gasperini and Veneziano's eqs. 2.27-2.29 (verify/literature_check.py lines 435-445). The docstring says 'within it', note §6 line 464 says 'within it', and the script page says 'their field equations'.\n\nAddition. The note's own §11 paragraph (lines 650-651) has the same unscoped clause; its only context is 'in the string frame', which qualifies the power laws. I added an edit for it whose current ends at 'no de', so it does not overlap FS-01's edit.\n\nStatus line. Timeline line 101 lists the two reviews and round 5 but not the check of the merges, though that row now exists.\n\nAll three edits pass both gates on a mirror (532 PASS; 328 pages).",
+    "edits": [
+     {
+      "file": "wiki/history/timeline.md",
+      "current": "Four further agents, each followed by one that tries to refute its findings, check the edits merged by hand and the new section G, refute nothing, and their corrections are applied; among them, section G now also shows that no de Sitter universe has the partner of a stiff source",
+      "proposed": "Four further agents, each followed by one that tries to refute its findings and refutes none, check the edits merged by hand and the new section G, and their corrections are applied; among them, section G now also shows that within scale-factor duality no de Sitter universe has the partner of a stiff source"
+     },
+     {
+      "file": "wiki/history/timeline.md",
+      "current": "the write-up's two reviews and round 5, all of 2026-11-03.",
+      "proposed": "the write-up's two reviews, round 5 and the check of the edits merged by hand, all of 2026-11-03."
+     },
+     {
+      "file": "notes/literature-check.md",
+      "current": "in the string frame, so section G now also shows that no de",
+      "proposed": "in the string frame, so section G now also shows that within scale-factor duality no de"
+     }
+    ]
+   },
+   {
+    "id": "FS-04",
+    "verdict": "confirmed",
+    "evidence": "scale-factor-duality/_index.md line 19 says of the five program pages that 'none of the derivations is machine-checked'.\n\nSection G now checks 'the program's rule gives w_eff = -w~ through our continuity equation' and 'the duality map gives the program's density and pressure' (verify/literature_check.py lines 395-415). Other pages already say so:\n- duality-dictionary.md lines 31 and 119;\n- conjugate-universe.md line 29;\n- alive.md lines 85-86 and 231;\n- cosmological-constraint.md (W3).\nOnly this map sentence was missed.\n\nThe anchor resolves. The edit passes check-wiki.py on a mirror and adds the script-page link the linking plan asks for.",
+    "edits": [
+     {
+      "file": "wiki/cosmology/scale-factor-duality/_index.md",
+      "current": "none of the derivations is machine-checked.",
+      "proposed": "none of the derivations is machine-checked except the dictionary's algebra, which section G of [the literature-check script](/wiki/method/verification/literature-check-script#section-g-the-algebra-behind-flag-66) checks in the gate."
+     }
+    ]
+   },
+   {
+    "id": "FS-05",
+    "verdict": "confirmed",
+    "evidence": "Note line 231 and flag 69 (wiki-build-flags.md line 732) now say 'where row 1 gives particle χ none' (round8-custom item 4).\n\nself-interaction-knee.md line 103 and chi-particles.md line 98 still state 'where particle χ has none' as fact. On the knee page this sits in the same paragraph that says #11 §8 leaves the tail open, Gaussian or rational, and that a rational tail would soften the conflict. gate-shape.md says a rational tail leaves a remainder.\n\nA grep finds no other page with the old wording. Both edits pass check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "wiki/predictions/self-interaction-knee.md",
+      "current": "Both favour a nonzero value at cluster speeds, where particle χ has none,",
+      "proposed": "Both favour a nonzero value at cluster speeds, where row 1 gives particle χ none,"
+     },
+     {
+      "file": "wiki/dark-matter/candidates/chi-particles.md",
+      "current": "Both favour a nonzero value at cluster speeds, where particle χ has none,",
+      "proposed": "Both favour a nonzero value at cluster speeds, where row 1 gives particle χ none,"
+     }
+    ]
+   },
+   {
+    "id": "FS-06",
+    "verdict": "confirmed",
+    "evidence": "README lines 50-53 say 'under the other readings the judges state each would have been a hit (note §2, §11); both overall predictions held'.\n\nNote §11 (lines 608-614) has two caveats the README leaves out:\n- 'and C5's hit a miss';\n- C3's hit, like its verdict and the second overall prediction, is provisional until Khademi 2009's full text is read.\n\npreregistration.md's own scoring of 2026-11-02 carries neither caveat. But the README already brings in the note's reading caveat, so it gives only the half that favours the forecast. W5 (workflow 8, confirmed) fixed the same omission on the wiki's pre-registration and literature-check pages.\n\nThe new lines are at most 118 characters.",
+    "edits": [
+     {
+      "file": "review/literature-check/README.md",
+      "current": "each would have been a hit (note §2, §11); both overall predictions held.",
+      "proposed": "each would have been a hit, and C5's hit a miss (note §2, §11); both overall predictions held. C3's hit, like its\nverdict and the second overall prediction, is provisional until Khademi 2009's full text is read (note §4, §11)."
+     }
+    ]
+   },
+   {
+    "id": "FS-07",
+    "verdict": "confirmed",
+    "evidence": "The §11 italic (lines 598-599), 'how agents reviewed this write-up twice', predates the paragraph 'A check of the merges' (lines 646-652). COH-04 (workflow 8, confirmed) fixed this same kind of omission in this italic.\n\nThe Scale paragraph (lines 601-603) names 'the two reviews of this write-up and round 5' as later work that is not counted. Workflow 8 (8 agents, 3,184,137 tokens) also came after. Section B counts only workflows 1-4 toward the 31 agents and 11.2 million tokens (lines 184-191).\n\nRevision: the italic now uses the paragraph's own words, 'the edits written or merged by hand'.\n\nThe gate phrase '11.2 million tokens' is untouched. With the edits the gate gives 532 PASS.",
+    "edits": [
+     {
+      "file": "notes/literature-check.md",
+      "current": "how the expected verdicts written down beforehand scored, and how\nagents reviewed this write-up twice.*",
+      "proposed": "how the expected verdicts written down beforehand scored, and how\nagents reviewed this write-up twice and then checked the edits written or merged by hand.*"
+     },
+     {
+      "file": "notes/literature-check.md",
+      "current": "the two reviews of this write-up and round 5 (below) came\nafter and are not counted.",
+      "proposed": "the two reviews of this write-up, round 5 and the check of\nthe merges (below) came after and are not counted."
+     }
+    ]
+   },
+   {
+    "id": "FS-08",
+    "verdict": "confirmed",
+    "evidence": "Root CLAUDE.md lines 206-209 name only workflow5-result.json and workflow7-result.json as the reviews that changed no verdict. The check of the merges (workflow8-result.json) is recorded in note §11 (lines 646-652), README lines 103-106 and the timeline. It also changed no verdict.\n\nproject-instructions.md line 89 restates this CLAUDE.md entry, so it needs the matching change. The task names 'two reviews' without the check of the merges as a pattern to fix.\n\nThe new CLAUDE.md lines are at most 118 characters. The wiki edit passes check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "CLAUDE.md",
+      "current": "two reviews of the write-up\n    (2026-11-03; `review/literature-check/workflows/workflow5-result.json`, `workflow7-result.json`) changed no\n    verdict.",
+      "proposed": "two reviews of the write-up\n    and a check of the edits merged by hand (2026-11-03; `review/literature-check/workflows/workflow5-result.json`,\n    `workflow7-result.json`, `workflow8-result.json`) changed no verdict."
+     },
+     {
+      "file": "wiki/history/documents/project-instructions.md",
+      "current": "two reviews of the write-up changed no verdict.",
+      "proposed": "two reviews of the write-up and a check of the edits merged by hand changed no verdict."
+     }
+    ]
+   },
+   {
+    "id": "FS-09",
+    "verdict": "partly",
+    "evidence": "Not wrong under the convention. 'Not reviewed' is the repository's wording for 'no blind review round':\n- wiki/CLAUDE.md's source list;\n- the registers checkpoint.md, source-conflicts.md, documents/_index.md and project-instructions.md;\n- this page itself, in the same sentence for the closed-universe note (line 139) and the momentum-gravity notes.\nLC-14 (workflow 7) kept that convention in CLAUDE.md and wiki/CLAUDE.md.\n\nWhy it still needs a change. For this note the flat 'the note has not been reviewed' contradicts the note's own §11 ('The review of this write-up', 'The second review'). That is the contradiction LC-14 removed from the note's header, and method/literature-check.md line 16 already says 'not through a blind review round'.\n\nThe edit keeps the convention's meaning and states it. The current includes the preceding line because the sentence also occurs at line 139. It passes check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "wiki/method/review/pre-registration.md",
+      "current": "\"is where the residual risk sits\".\n\nNo review round followed; the note has not been reviewed.",
+      "proposed": "\"is where the residual risk sits\".\n\nNo review round followed: the note has not been through a blind review round, though agents reviewed its write-up (`notes/literature-check.md` §11)."
+     }
+    ]
+   },
+   {
+    "id": "FS-10",
+    "verdict": "confirmed",
+    "evidence": "The flags file's closing paragraph (wiki-build-flags.md lines 745-750) says: 'Flags 64, 65 and 67–69 involve none either; flag 66's algebra is in verify/literature_check.py (section G), which also finds the quotations of flags 64–69'.\n\nnotation.md line 391 puts the executed checks of flags 1-69 in review/wiki-build-checks/, except those of flags 27, 45-58 and 61. That implies flag 66's check is there, but the folder holds nothing for flags 64-69 (I listed it).\n\nopen-problems.md line 251 says the file records only the quotation check. verification/_index.md line 37 was already updated.\n\nRevision: the notation edit now mirrors the flags file in full, both which flags involve no new arithmetic and where flag 66's algebra is. Both edits pass check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "wiki/status/open-problems.md",
+      "current": "checks their quotations ([the literature-check script](/wiki/method/verification/literature-check-script)), and marks their rulings pending.",
+      "proposed": "checks their quotations and, in its section G, the algebra of flag 66 ([the literature-check script](/wiki/method/verification/literature-check-script)), and marks their rulings pending."
+     },
+     {
+      "file": "wiki/notation.md",
+      "current": "flags 59, 60, 62 and 63 involve no new arithmetic, and the quotations of flags 64–69 are checked by `verify/literature_check.py`.",
+      "proposed": "flags 59, 60, 62–65 and 67–69 involve no new arithmetic; flag 66's algebra is in `verify/literature_check.py` (section G), which also checks the quotations of flags 64–69."
+     }
+    ]
+   },
+   {
+    "id": "FS-11",
+    "verdict": "confirmed",
+    "evidence": "verification/_index.md line 9 (the italic) says one script checks a literature search 'instead' of a model's arithmetic. Section G is such arithmetic. The same page's line 30 and glossary.md line 303 ('in its sections A–F, which encode no model ... and in its section G the algebra behind flag 66') were updated; the italic was not.\n\nthe-gate.md line 90 leaves out G. The point it makes about tags still holds: #11 tags the dictionary [D — corrected en route] (duality-dictionary.md line 31).\n\nthe-gate.md's history (line 143) ends with G's addition. Workflow 8 then added section B's prose phrases (COH-01) and G's general no-de-Sitter check (G1).\n\nRevisions:\n- In the italic, 'not the agents' judgments behind it, and in one section ...' could parse as part of what is not confirmed, so a semicolon now splits it.\n- The history sentence is scoped as in FS-03 and avoids FS-01's overclaim ('at one place each').\n\nAll three edits pass check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "wiki/method/verification/_index.md",
+      "current": "One script checks a literature search instead: it confirms that the literature-check note reports its stored record, not the agents' judgments behind it.",
+      "proposed": "One script checks a literature search instead: it confirms that the literature-check note reports its stored record, not the agents' judgments behind it; one section of it checks the algebra behind flag 66, on the program's duality dictionary."
+     },
+     {
+      "file": "wiki/method/verification/the-gate.md",
+      "current": "The fifth, `verify/literature_check.py`, backs no tag: the literature-check note carries no [V] tag, and the script checks that the note reports its stored record.",
+      "proposed": "The fifth, `verify/literature_check.py`, backs no tag: the literature-check note carries no [V] tag, and the script checks that the note reports its stored record and, in section G, the algebra behind flag 66, the duality dictionary, which #11 tags [D — corrected en route]."
+     },
+     {
+      "file": "wiki/method/verification/the-gate.md",
+      "current": "it gained section G, the algebra behind flag 66, which two agents of the check had computed outside the gate.",
+      "proposed": "it gained section G, the algebra behind flag 66, which two agents of the check had computed outside the gate. After the check of the edits merged by hand that followed, section B also looks for the counts it recomputes in the note's prose, at one place each, and section G also shows that within scale-factor duality no de Sitter universe has a source with p = −ρ, the partner of a stiff source, whatever the sign of its energy density."
+     }
+    ]
+   },
+   {
+    "id": "FS-12",
+    "verdict": "confirmed",
+    "evidence": "review/literature-check/workflows/ holds workflow1-result.json to workflow8-result.json. All eight carry agentCount and totalTokens: 10/4,617,454; 7/1,822,684; 7/2,616,235; 7/2,107,543; 7/2,403,812; 2/399,372; 6/2,982,104; 8/3,184,137.\n\nThe README's Scale paragraph (lines 41-42) and section B (lines 185-191) use files 1-4. The Files entry (lines 130-132) lists only 5-8 as the results the workflow tool returned. The hand edit carried that omission over and only changed 7 to 8.",
+    "edits": [
+     {
+      "file": "review/literature-check/README.md",
+      "current": "and the results the workflow tool returned\n  (`workflow5-result.json` to `workflow8-result.json` with their workflows' agent and token counts).",
+      "proposed": "and the results the workflow tool returned\n  (`workflow1-result.json` to `workflow8-result.json`, each with its workflow's agent and token counts)."
+     }
+    ]
+   },
+   {
+    "id": "FS-13",
+    "verdict": "confirmed",
+    "evidence": "#11's [3]† (papers/broken-born-checkpoint-v2.md line 247) lists both 2014 papers, Phys. Lett. B first.\n\nWhich paper holds what:\n- quotes.json files 'coordinates in momentum space' under 1307.7080;\n- lit.py text finds the Dirac-Schwinger-Zwanziger dyon passage in 1307.7080 (1 match) and none in 1405.3949.\n\nCOH-08 (workflow 8, confirmed) disambiguated the note (lines 183 and 375) and flags 64 and 67. wiki/method/literature-check.md line 53 and unified-modular-structure.md line 114 still say 'Freidel, Leigh and Minic 2014'. The second also says '#11's [3]†', which is two papers.\n\nBoth edits pass check-wiki.py on a mirror.",
+    "edits": [
+     {
+      "file": "wiki/method/literature-check.md",
+      "current": "Freidel, Leigh and Minic 2014 call them",
+      "proposed": "Freidel, Leigh and Minic 2014 (Phys. Lett. B) call them"
+     },
+     {
+      "file": "wiki/electric-magnetic-duality/unified-modular-structure.md",
+      "current": "Freidel, Leigh and Minic 2014, #11's [3]†, tie",
+      "proposed": "Freidel, Leigh and Minic 2014 (Phys. Lett. B), the first paper of #11's [3]†, tie"
+     }
+    ]
+   },
+   {
+    "id": "FS-14",
+    "verdict": "confirmed",
+    "evidence": "The gap. glossary.md line 425 gives only the program's sense of scale-factor duality. Line 51 says words with more than one meaning are marked Collision and listed in the Collisions section, and the Collisions section (lines 530-561) gives scale-factor duality no second sense. Flag 66's phrase 'the scale-factor duality of string cosmology with sources' now appears unglossed on hard-core.md, alive.md, lakatosian-methodology.md, founding-suppositions.md, early-universe-step.md, cosmological-constant.md, checkpoint.md and others (grep). The string-cosmology sense is defined only in cosmological-constraint.md, 'The name: scale-factor duality [T]' (Veneziano 1991 [S]).\n\nRevisions to the verifier's edit:\n- 'reverses each fluid's equation of state' becomes 'changes the sign of each fluid's equation of state, w → −w', as duality-dictionary.md line 124 and note §6 put it.\n- The homogeneous universe and the shifted dilaton are taken from the name section.\n- The entry is marked Collision and added to the Collisions list.\n\nNo new numbers. check-wiki.py passes on a mirror (328 pages).",
+    "edits": [
+     {
+      "file": "wiki/glossary.md",
+      "current": "- **Scale-factor duality.** The program's reciprocal relation a·ã = 1 between our scale factor and the conjugate one, which on the vacuum slice is the map g → g⁻¹; it makes the far-future halt of our expansion the conjugate universe's bounce. See [Scale-factor duality](/wiki/cosmology/scale-factor-duality).",
+      "proposed": "- **Scale-factor duality.** *Collision.* The program's reciprocal relation a·ã = 1 between our scale factor and the conjugate one, which on the vacuum slice is the map g → g⁻¹; it makes the far-future halt of our expansion the conjugate universe's bounce. In string cosmology the name means a symmetry of the low-energy string equations for a homogeneous universe, which include a scalar field, the dilaton: a solution with scale factor a maps to another with 1/a and a shifted dilaton. With sources it changes the sign of each fluid's equation of state, w → −w, and as a map of fluid variables it is the program's duality dictionary (flag 66, pending). See [Scale-factor duality](/wiki/cosmology/scale-factor-duality) and [the name in string cosmology](/wiki/cosmology/scale-factor-duality/cosmological-constraint#the-name-scale-factor-duality-t)."
+     },
+     {
+      "file": "wiki/glossary.md",
+      "current": "- **self-dual** — Z = i and the circle |Z| = 1,",
+      "proposed": "- **scale-factor duality** — the program's a·ã = 1 between our scale factor and the conjugate one, or string cosmology's symmetry between solutions with scale factors a and 1/a;\n- **self-dual** — Z = i and the circle |Z| = 1,"
+     }
+    ]
+   }
+  ]
+ }
+}

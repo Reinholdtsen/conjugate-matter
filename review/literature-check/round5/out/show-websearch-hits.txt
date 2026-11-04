@@ -1,0 +1,17 @@
+== physics/0101014
+title:    The Elusive monopole
+authors:  Sidharth, B.G.
+year:     2001   type: article
+journal:  Nuovo Cim.B 118 35 (2003)
+doi:      —
+arXiv:    physics/0101014   recid: 551854   cites: 4
+abstract: In this brief note, we argue that the elusive magnetic monopole arises due to the strong magnetic effects arising from the non commutative space time structure at small scales. This would also explain why the monopole has eluded detection even after seventy years.
+
+== 1804.10679
+title:    Magnetic Monopoles in (Noncommutative) Quantum Mechanics
+authors:  Kováčik, Samuel; Prešnajder, Peter
+year:     2018   type: conference paper
+journal:  PoS CORFU2017 139 (2018); PoS CORFU2017 139 (2018)
+doi:      10.22323/1.318.0139, 10.22323/1.318.0139
+arXiv:    1804.10679   recid: 1671014   cites: 0
+abstract: We utilize the close relation between the complex space $\textbf{C}^2$ and the real space $\textbf{R}^3$ to reformulate quantum mechanics in a manner which allows to, either or both, describe magnetic monopoles and quantize the underlying space, obtaining (noncommutative) quantum mechanics (with magnetic monopoles).

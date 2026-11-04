@@ -1,0 +1,102 @@
+time	database	query	hits
+start	INSPIRE	t "magnetic mirror" --size 10	22
+15:48	INSPIRE	fulltext "Born reciprocity" and fulltext "magnetic monopole" --size 25	9
+15:48	INSPIRE	fulltext "Born reciprocity" and fulltext "S-duality" --size 25	12
+15:48	INSPIRE	fulltext "Born reciprocity" and fulltext "electric-magnetic duality" --size 25	10
+15:48	INSPIRE	t "magnetic paradigm" or abstracts.value:"magnetic paradigm" --size 10	2
+15:48	INSPIRE	abstracts.value:"R-flux" and abstracts.value:"magnetic monopole" --size 20	2
+15:48	INSPIRE	abstracts.value:"momentum space" and abstracts.value:"magnetic charge" and (abstracts.value:"phase space" or abstracts.value:"reciprocity" or abstracts.value:"duality") --size 25	0
+15:50	INSPIRE	abstracts.value:"mirror" and abstracts.value:"magnetic monopole" and (abstracts.value:"mirror world" or abstracts.value:"mirror matter" or abstracts.value:"mirror sector" or abstracts.value:"mirror particles") --size 25	0
+15:50	INSPIRE	fulltext "mirror world" and fulltext "magnetic charges" and fulltext "electric charges" and fulltext "dual" --size 25	5
+15:50	INSPIRE	abstracts.value:"magnetically charged dark matter" or abstracts.value:"magnetic dark matter" or t "magnetic dark matter" --size 25	6
+15:51	INSPIRE	a Terning and a Verhaaren --size 25	7
+15:51	INSPIRE	abstracts.value:"millimagnetic" or abstracts.value:"milli-magnetic" or abstracts.value:"minimagnetic" or abstracts.value:"millimagnetically" --size 25	3
+15:51	INSPIRE	t "minicharges and magnetic monopoles" or (a Brummer and a Jaeckel) --size 10	2
+15:51	INSPIRE	abstracts.value:"dark sector" and (abstracts.value:"S-dual" or abstracts.value:"electric-magnetic dual" or abstracts.value:"electromagnetic dual" or abstracts.value:"magnetic dual") --size 25	0
+15:51	INSPIRE	fulltext "magnetic copy" and (fulltext "standard model" or fulltext "dark matter") --size 25	1
+15:51	INSPIRE	fulltext "magnetic mirror" and (fulltext "dark matter" or fulltext "hidden sector") and fulltext "monopole" --size 25	14
+15:51	INSPIRE	abstracts.value:"magnetic photon" or t "magnetic photon" --size 30 --sort mostcited	49
+15:52	INSPIRE	fulltext "position-momentum duality" and (fulltext "electric-magnetic duality" or fulltext "electromagnetic duality" or fulltext "S-duality") --size 30	13
+15:52	INSPIRE	fulltext "reciprocity" and fulltext "electric-magnetic duality" and fulltext "momentum space" and fulltext "magnetic charge" --size 30	5
+15:52	INSPIRE	abstracts.value:"S-duality" and abstracts.value:"canonical transformation" --size 30 --sort mostcited	5
+15:52	INSPIRE	abstracts.value:"duality" and abstracts.value:"Fourier transform" and (abstracts.value:"electric-magnetic" or abstracts.value:"S-duality" or abstracts.value:"electromagnetic duality") --size 30 --sort mostcited	10
+15:52	INSPIRE	t "reducing S duality to T duality" or t "S-duality from T-duality" or t "S duality from T duality" --size 10	1
+15:54	INSPIRE	(fulltext "metastring" or fulltext "metaparticle" or fulltext "modular spacetime" or fulltext "Born geometry") and (fulltext "magnetic charge" or fulltext "magnetic monopole") --size 40	11
+15:54	INSPIRE	(fulltext "metastring" or fulltext "metaparticle" or fulltext "Born geometry") and (fulltext "electromagnetic duality" or fulltext "electric-magnetic duality") --size 40	8
+15:54	INSPIRE citations (forward)	2111.14205 --size 30	10
+15:54	INSPIRE references (backward)	2111.14205 	20
+15:56	INSPIRE	t "uncertainty of fluxes" or t "Heisenberg groups and noncommutative fluxes" --size 5	2
+15:57	arXiv API	abs:"Berry curvature" AND abs:duality AND abs:"magnetic field" AND abs:"momentum space" AND abs:"real space" --size 20	0
+15:57	arXiv API	abs:"magnetic monopole in momentum space" OR abs:"magnetic monopoles in momentum space" OR ti:"monopoles in momentum space" --size 25	8
+15:57	arXiv API	abs:"Berry curvature" AND abs:"magnetic field in momentum space" --size 15	1
+15:57	INSPIRE	fulltext "magnetic field in momentum space" and fulltext "duality" and fulltext "real space" --size 20 --sort mostcited	5
+15:58	INSPIRE	t "chiral kinetic theory" and abstracts.value:"monopole" --size 10 --sort mostcited	1
+15:58	Crossref	The magnetic mirror approach to fusion Post --size 5	5
+15:58	Crossref	Optical magnetic mirrors Schwanecke Zheludev --size 5	5
+15:58	Crossref	Optical magnetic mirrors without metals --size 5	5
+15:59	INSPIRE	abstracts.value:"Born reciprocity" or t "Born reciprocity" or abstracts.value:"reciprocity principle" or abstracts.value:"Born\x27s reciprocity" --size 250 --abstracts	45
+16:00	INSPIRE	fulltext "Born reciprocity" and fulltext "magnetic charge" --size 30	6
+16:00	INSPIRE	fulltext "Born reciprocity" and fulltext "Dirac quantization" --size 30	4
+16:00	INSPIRE	fulltext "reciprocity" and fulltext "Lagrangian subspace" and fulltext "electric-magnetic duality" and fulltext "polarization" --size 30	2
+16:00	INSPIRE citations (forward)	2206.02638 --size 30	8
+16:00	INSPIRE references (backward)	2206.02638 	22
+16:00	INSPIRE	t "momentum gauge" or abstracts.value:"momentum gauge field" or abstracts.value:"momentum gauge fields" or abstracts.value:"momentum space gauge field" --size 30	13
+16:04	INSPIRE	abstracts.value:"dark matter" and (abstracts.value:"electric-magnetic duality" or abstracts.value:"electromagnetic duality" or abstracts.value:"S-duality") --size 40 --sort mostcited	5
+16:04	INSPIRE	(a Recami or a Mignani) and (t monopole or t magnetic or abstracts.value:"magnetic monopole" or abstracts.value:"magnetic charge") --size 20 --sort mostcited	30
+16:04	INSPIRE	fulltext "superluminal" and fulltext "magnetic monopoles" and fulltext "tachyons" and a Recami --size 20	3
+16:05	arXiv API	abs:"Born reciprocity" AND (abs:magnetic OR abs:"electromagnetic duality" OR abs:"electric-magnetic") --size 30	2
+16:05	INSPIRE	abstracts.value:"mirror" and abstracts.value:"magnetic charge" --size 30 --sort mostcited	5
+16:05	INSPIRE	t dyonic and abstracts.value:"dark matter" --size 20 --sort mostcited	6
+16:05	INSPIRE	t monopole and (t "dark matter" or t "dark monopole" or t "dark monopoles") --size 40 --sort mostcited	31
+16:06	INSPIRE citations (forward)	2302.03526 --size 20	7
+16:06	INSPIRE citations (forward)	2507.06697 --size 20	3
+16:06	INSPIRE	a Govaerts, Jan and (t reciprocal or t reciprocity or t dual or t magnetic) --size 30	5
+16:07	arXiv API	abs:"electric-magnetic duality" AND abs:"position and momentum" --size 30	0
+16:07	INSPIRE	fulltext "magnetically charged matter" and fulltext "dark matter" --size 30	7
+16:07	INSPIRE	fulltext "magnetic sector" and fulltext "dark sector" and fulltext "electric sector" and fulltext "monopole" --size 30	4
+16:07	arXiv API	abs:"electromagnetic duality" AND abs:"position and momentum" --size 30	0
+16:08	INSPIRE	a Bolognesi, S and (t "trans-Planckian" or t reciprocity) --size 10	3
+16:08	INSPIRE	t "Parker bound" or (abstracts.value:"Parker bound" and abstracts.value:"dark matter") --size 30 --sort mostcited	12
+16:09	INSPIRE	fulltext "S-dual of QED" or fulltext "magnetic QED" and fulltext "dark" --size 25	5
+16:09	INSPIRE	t "unwinding strings and T-duality" or t "branes are waves and monopoles" or t "KK-monopole/NS5-brane in doubled geometry" or (abstracts.value:"winding space" and abstracts.value:"monopole") --size 20 --sort mostcited	5
+16:11	INSPIRE references (backward)	2302.03526 	18
+16:11	INSPIRE	(fulltext "Cabibbo-Ferrari" or fulltext "two-potential" or fulltext "Zwanziger formalism") and (fulltext "Born reciprocity" or fulltext "phase space duality" or fulltext "momentum space gauge") --size 25	1
+16:11	INSPIRE	fulltext "magnetic charges" and fulltext "momentum space" and fulltext "electric charges" and fulltext "position space" and fulltext "reciprocity" --size 25	2
+16:12	INSPIRE	fulltext "magnetic counterpart" and fulltext "momentum space" and (fulltext "dual space" or fulltext "reciprocity" or fulltext "phase space") --size 25	14
+16:12	INSPIRE	fulltext "magnetic partners" and fulltext "dark sector" --size 25	0
+16:12	INSPIRE	fulltext "magnetically charged" and fulltext "dual spacetime" --size 25	15
+16:13	INSPIRE	(a Berard and a Mohrbach) and (t monopole or abstracts.value:"momentum space") --size 15 --sort mostcited	8
+16:14	INSPIRE	a Vachaspati and (t monopole or t monopoles) and (t "standard model" or t "dual") --size 20 --sort mostcited	3
+16:14	Crossref	Born reciprocity magnetic monopole momentum space duality --size 15	15
+16:14	Crossref	dark matter magnetically charged mirror sector electric magnetic duality --size 15	15
+16:14	INSPIRE	a Laperashvili and (t mirror or abstracts.value:"mirror world")  --size 25 --sort mostcited	7
+16:14	INSPIRE	a Jarvis, P.D. and (t reciprocal or t reciprocity or t "Born") --size 15	3
+16:15	INSPIRE citations (forward)	1307.7080 --size 200 --abstracts	134
+16:15	INSPIRE citations (forward)	1502.08005 --size 200 --abstracts	110
+16:15	INSPIRE citations (forward)	recid:2012497 --size 250 --abstracts	204
+16:16	INSPIRE	fulltext "special case of Born reciprocity" or fulltext "special case of Born-reciprocity" or (fulltext "Born reciprocity" and fulltext "Born-Infeld" and fulltext "electric-magnetic duality") --size 25	2
+16:16	INSPIRE	(fulltext "Born\x27s reciprocity" or fulltext "reciprocity principle" or fulltext "Born-reciprocity") and (fulltext "electric-magnetic duality" or fulltext "duality rotation" or fulltext "S-duality") --size 30	23
+16:16	INSPIRE	fulltext "Born reciprocity" and fulltext "Montonen-Olive" --size 30	0
+16:17	INSPIRE	t "magnetic monopoles as gauge particles" or t "electric-magnetic duality in supersymmetric non-abelian gauge theories" or (a Sen, Ashoke and t "dyon-monopole bound states") --size 10	2
+16:17	INSPIRE	(a t Hooft, G and t "new confinement phases") or (a Mandelstam and t "vortices and quark confinement") --size 5	3
+16:17	INSPIRE	abstracts.value:"S-duality" and (abstracts.value:"hidden sector" or abstracts.value:"mirror sector" or abstracts.value:"twin sector" or abstracts.value:"dark photon") --size 30 --sort mostcited	2
+16:17	INSPIRE	abstracts.value:"dark photon" and (abstracts.value:"magnetic monopole" or abstracts.value:"magnetic charge" or abstracts.value:"monopoles") --size 40 --sort mostcited	10
+16:18	arXiv API	abs:"phase space duality" AND abs:magnetic --size 20	1
+16:18	arXiv API	abs:"momentum space" AND abs:"magnetic monopole" AND abs:"dark matter" --size 20	0
+16:18	arXiv API	abs:"dual electrodynamics" AND abs:"dark" --size 20	2
+16:18	INSPIRE	refersto:recid:531400 and fulltext "reciprocity" --size 30	1
+16:18	INSPIRE	refersto:recid:2012497 and (fulltext "electric-magnetic duality" or fulltext "magnetic monopole" or fulltext "magnetic charge") --size 30	9
+16:18	arXiv API	abs:"magnetic monopoles" AND abs:"mirror world" --size 20	2
+16:18	arXiv API	abs:"reciprocal space" AND abs:"magnetic monopole" AND abs:duality --size 20	0
+16:18	INSPIRE	a Low, Stephen G. and (t reciprocal or t quaplectic or t "canonically relativistic") --size 15	3
+16:20	INSPIRE	(refersto:recid:392079 or refersto:recid:715112) and fulltext "Born reciprocity" --size 20	2
+16:20	INSPIRE	(refersto:recid:1691961 or refersto:recid:819453 or refersto:recid:813863 or refersto:recid:1597996) and (fulltext "momentum space" and (fulltext "reciprocity" or fulltext "phase space")) --size 20	5
+16:20	INSPIRE	fulltext "conjugate matter" and (fulltext "magnetic" or fulltext "monopole") --size 20	14
+16:20	INSPIRE	fulltext "metaparticle" and (fulltext "magnetic charge" or fulltext "magnetic monopole" or fulltext "electric-magnetic") --size 20	1
+16:20	INSPIRE	fulltext "dual coordinates" and fulltext "magnetic monopoles" and fulltext "dark matter" --size 20	7
+16:21	INSPIRE	t "strong/weak coupling duality from the dual string" or t "four-dimensional string/string/string triality" --size 5	2
+16:23	INSPIRE	fulltext "helicity" and (fulltext "electric-magnetic duality" or fulltext "duality symmetry") and (fulltext "monopole in momentum space" or fulltext "Berry monopole") --size 25	0
+16:23	INSPIRE	fulltext "helicity" and fulltext "duality" and fulltext "momentum space" and fulltext "Berry curvature" and fulltext "photon" and fulltext "monopole" --size 25 --sort mostcited	19
+16:08	WebSearch (extended)	dark matter "magnetically charged" counterpart of ordinary matter "momentum space" Born reciprocity electric magnetic duality	10 links
+15:59	WebSearch (standard)	"Optical magnetic mirrors without metals" Optica 2014 abstract magnetic mirror reflection in phase electric field	10 links
+16:13	WebSearch (extended)	"mirror world" OR "mirror matter" particles carry magnetic charge instead of electric charge dark matter monopoles parity	9 links

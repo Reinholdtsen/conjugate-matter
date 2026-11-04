@@ -19,6 +19,8 @@ sources:
   - "notes/wave-island.md 'The rate'"
   - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
+  - "notes/literature-check.md §3"
+  - "review/wiki-build-flags.md item 69"
 ---
 
 *The Bullet Cluster is a pair of galaxy clusters seen shortly after the smaller one passed through the larger. A cluster has three components: its galaxies; hot, thin gas between them, which emits X-rays and outweighs the stars; and dark matter, which outweighs both. In the collision the two gas clouds struck each other and were slowed, while the galaxies passed through. The total mass, mapped by the way the clusters' gravity bends light from more distant galaxies, moved on with the galaxies and not with the gas. The observation is widely cited as direct evidence that most of a cluster's mass is a separate, nearly collisionless dark matter, and it limits how strongly dark matter can [scatter off itself](/wiki/dark-matter/halo-astrophysics/self-interacting-dark-matter) at the speeds of cluster collisions. The Comatter program calls its [conjugate matter](/wiki/dark-matter/conjugate-matter) "Bullet-Cluster-safe": it gravitates and bends light as ordinary matter does, and its self-interaction is switched off at cluster speeds by [the velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate). The program's documents quote no number for the limit and do not compare the gate with it.*
@@ -81,7 +83,7 @@ The program's postulate [P4](/wiki/program/postulates/p4-polarized-matter) [P] r
 | --- | --- | --- |
 | σ_T(v) across halo masses | Knee at v\* ~ 10² km/s; zero cluster signal (particle χ) | Robust self-interaction at v ≫ v\*; knee excluded in the 150–400 km/s band |
 
-A merging cluster such as this one is therefore a place where particle χ must show no self-scattering, and a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). The program's notes model a galaxy cluster with [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-values-in-the-programs-notes) 1000 km/s, against 30 km/s for the core of a classical dwarf galaxy (`notes/wave-island.md`, 'What pins g? Two scenarios').
+A merging cluster such as this one is therefore a place where particle χ must show no self-scattering, and a robust self-interaction measured at cluster speeds would kill the row ([zero cluster signal, for particles](/wiki/predictions/self-interaction-knee#zero-cluster-signal-for-particles)). Two published fits mildly prefer a nonzero cross-section at cluster speeds: about 0.1 cm²/g on cluster scales (Kaplinghat, Tulin and Yu 2016) and 0.19 ± 0.09 cm²/g in clusters, with an upper limit of 0.35 cm²/g at 95% confidence (Sagunski et al. 2021) [S]. Neither is the robust self-interaction that kills the row ([the data situation](/wiki/predictions/self-interaction-knee#the-data-situation); flag 69, pending). The program's notes model a galaxy cluster with [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-values-in-the-programs-notes) 1000 km/s, against 30 km/s for the core of a classical dwarf galaxy (`notes/wave-island.md`, 'What pins g? Two scenarios').
 
 How much self-interaction remains above the knee depends on the gate's tail, which is open:
 
@@ -129,3 +131,4 @@ The program's documents cite no source for the Bullet Cluster. Added by the wiki
 - `notes/x-classification.md` §4 — rational, power-law-tailed gates
 - `notes/wave-island.md` 'The rate' — the island discriminant; 'What pins g? Two scenarios' — the cluster and dwarf environments
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the popular account (not a status source)
+- `notes/literature-check.md` §3; `review/wiki-build-flags.md` item 69 — two fits that mildly prefer a nonzero cross-section at cluster speeds; pending

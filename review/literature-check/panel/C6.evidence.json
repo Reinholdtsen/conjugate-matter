@@ -1,0 +1,346 @@
+{
+ "conjecture": "C6",
+ "strong_findings": [
+  {
+   "ids": [
+    "astro-ph/0003388"
+   ],
+   "citation": "A. Riotto, I. Tkachev, \"What if dark matter is bosonic and self-interacting?\", Phys. Lett. B 484, 177 (2000), doi:10.1016/S0370-2693(00)00660-2, arXiv:astro-ph/0003388",
+   "relation": "partial",
+   "basis": "single-agent label",
+   "summary": "Self-interacting bosonic dark matter is put forward as a cure for cuspy cores and too many dwarf galaxies. In a virialized clump the phase-space density exceeds unity, so scattering is Bose-enhanced and the clump Bose-condenses. For v_e = 100 km/s, which the authors say approximately corresponds to dwarf-galaxy cores, the relaxation time is shorter than the age of the Universe above a stated coupling, and 'the Bose condensate in the center of gravitational well should form'. The paper then derives the core density that the condensate's self-annihilation allows. This is the notebook's 'below a critical velocity dispersion the core of a halo condenses' (#1 §5.2), in 2000.",
+   "difference": "It states the same form of C6 as Sikivie and Yang 2009 and Berezhiani and Khoury 2015, and states it earlier. The condensation comes from contact self-interaction and Bose statistics, not from an attraction gated in relative velocity. The result is one condensate in the core, not several velocity streams, and it needs degenerate bosons (the record's classicality theorem). The paper speaks of a condensate in the centre of the well, never of momentum space: reading it as momentum-space clumping is the notebook's identification, the same reading that makes Sikivie-Yang and Berezhiani-Khoury partial. Its relaxation rate (Bose-enhanced scattering in a virialized clump, after Tkachev 1991 and Semikoz-Tkachev 1995) is the kind of rate the record's wave island uses (#11 §9 (ii), 'Bose-enhanced, LPT-style'), without the gate. Its ref. [14], Tkachev, Phys. Lett. B 261, 289 (1991), was not retrieved (†).",
+   "quotes": [
+    {
+     "text": "One scenario which may be free of these problems invokes a self-interacting Bose-field.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "astro-ph/0003388"
+    },
+    {
+     "text": "However, with time the Bose-condensation will occur",
+     "where": "full text, section 'Condensation'",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "astro-ph/0003388"
+    },
+    {
+     "text": "This will happen even with very small values of the self-coupling since the scattering is Bose-enhanced if the phase-space density of particles is larger than unity",
+     "where": "full text, section 'Condensation'",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "astro-ph/0003388"
+    },
+    {
+     "text": "which approximately corresponds to the parameters of the cores of dwarf galaxies",
+     "where": "full text, section 'Condensation', before eq. (8)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "astro-ph/0003388"
+    },
+    {
+     "text": "If this condition is satisfied, the Bose condensate in the center of gravitational well should form",
+     "where": "full text, section 'Condensation', after eq. (8)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "astro-ph/0003388"
+    }
+   ],
+   "verified": []
+  },
+  {
+   "ids": [
+    "1507.01019"
+   ],
+   "citation": "L. Berezhiani, J. Khoury, \"Theory of dark matter superfluidity\", Phys. Rev. D 92, 103510 (2015), arXiv:1507.01019",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "Dark matter made of eV-mass axion-like particles with strong self-interactions condenses into a superfluid core inside galaxies, where the velocity dispersion (and so the temperature) is low; in clusters, where the dispersion is higher, it is partly or wholly in the normal phase. In the condensed phase the dark matter behaves as collective excitations rather than individual collisionless particles. This is the notebook's form of C6, 'below a critical velocity dispersion the core of a halo condenses', with 'superfluid-like cores in dwarfs' (#1 §5.2), and the same split between galaxies and clusters as the program's knee.",
+   "difference": "The condensate is a Bose–Einstein superfluid produced by strong contact self-interactions and Bose degeneracy, not by an attraction gated in relative velocity; there is one condensate, not several velocity streams; the aim is MOND phenomenology through phonons coupled to baryons; nothing is conjugate or momentum-polarized. Citation graph: forward citations filtered for 'momentum space' or 'velocity space' with 'condens' gave one unrelated thesis; the references are the BEC-halo lineage (Sin, Ji–Sin, Böhmer–Harko, Sikivie–Yang, Guth–Hertzberg–Prescod-Weinstein).",
+   "quotes": [
+    {
+     "text": "The condensate has a polytropic equation of state P~rho^3 giving rise to a superfluid core within galaxies.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "1507.01019"
+    },
+    {
+     "text": "due to the higher velocity dispersion in clusters, and correspondingly higher temperature, the DM in clusters is either in a mixture of superfluid and normal phase, or fully in the normal phase",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "1507.01019"
+    },
+    {
+     "text": "Instead of behaving as individual collisionless particles, the DM superfluid is more aptly described as collective excitations.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "1507.01019"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g5-momentum-clumping:verifier",
+     "Confirmed, for the notebook's condensed-core sub-claim: superfluid (Bose-condensed) cores in galaxies, and a normal or mixed phase in clusters 'due to the higher velocity dispersion', which matches #1 §5.2's 'below a critical velocity dispersion the core of a halo condenses' and 'superfluid-like cores'. The mechanism differs (strong self-interaction and Bose degeneracy, not a velocity-gated attrac"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "0901.1106"
+   ],
+   "citation": "P. Sikivie, Q. Yang, \"Bose-Einstein Condensation of Dark Matter Axions\", Phys. Rev. Lett. 103, 111301 (2009), arXiv:0901.1106",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "Argues that cold dark-matter axions are driven by their own gravitational interaction to thermalize and Bose-condense: (almost) all axions go into one quantum state, with condensate patches about the size of the horizon, so the axions collect in one state while staying spread through space. In a homogeneous universe that state is the lowest momentum mode, which is condensation in momentum space in Einstein's sense. Continued rethermalization puts infalling axions into the lowest-energy state at fixed angular momentum (net rotation), which the authors use to explain caustic rings; the full treatment is Erken, Sikivie, Tam and Yang, Phys. Rev. D 85, 063520 (2012), arXiv:1111.1157. It is the closest published statement that dark matter collects collectively in momentum space through its own attraction.",
+   "difference": "Ordinary gravity plus Bose degeneracy drives the condensation; there is no attraction gated in relative velocity, no conjugate (p-polarized) sector and no Born reciprocity. The outcome is one condensate in the lowest-energy state, not a smooth Maxwellian fragmenting into a few discrete streams at different mean velocities. It holds only for highly degenerate bosons, the same requirement the record's classicality theorem reaches (#11 §9 (i)). The paper does not use the words 'momentum space'; equating Bose condensation with momentum-space clumping is the textbook reading and the notebook's own ('below a critical velocity dispersion the core of a halo condenses — momentum-space clumping, realized', #1 §5.2). Its long-range coherence is disputed by Guth, Hertzberg and Prescod-Weinstein 2015 (evidence-against below). Citation graph: the 562 citing papers filtered for 'momentum space', 'velocity space', 'discrete flows' and 'condensation in momentum space' contain no statement of velocity-space fragmentation; the 35 references are the axion and BEC-halo lineage (Sin 1992/94, Böhmer–Harko 2007, Semikoz–Tkachev 1995).",
+   "quotes": [
+    {
+     "text": "We show that cold dark matter axions thermalize and form a Bose-Einstein condensate.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "0901.1106"
+    },
+    {
+     "text": "Axion BEC means that (almost) all axions go to one state.",
+     "where": "full text, main body (rethermalization paragraph)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "0901.1106"
+    },
+    {
+     "text": "Thus gravitational interactions cause the axions to thermalize and form a BEC",
+     "where": "full text, main body (thermalization rate)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "0901.1106"
+    },
+    {
+     "text": "We expect overlapping condensate patches with typical size of order the horizon.",
+     "where": "full text, main body (causality paragraph)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)",
+     "id": "0901.1106"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g5-momentum-clumping:verifier",
+     "Confirmed, for one form of C6 only. In a homogeneous universe the state is (a0†)^N|0>, every axion in the k = 0 mode, so 'dark matter condenses into one momentum state through its own gravitational interaction' is a fair reading, and the notebook itself calls halo condensation 'momentum-space clumping, realized' (#1 §5.2). What is distinctive in the founding image is absent: no attraction gated in"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "1412.5930"
+   ],
+   "citation": "A. H. Guth, M. P. Hertzberg, C. Prescod-Weinstein, \"Do Dark Matter Axions Form a Condensate with Long-Range Correlation?\", Phys. Rev. D 92, 103513 (2015), arXiv:1412.5930",
+   "relation": "evidence-against",
+   "basis": "verified",
+   "summary": "Examines the Sikivie–Yang claim and argues that thermalization through attractive interactions (gravity, attractive self-coupling) produces localized Bose clumps (stars, solitons) with only short-range correlation; only repulsive interactions drive long-range order. A condensate forms, but it is not coherent over cosmological distances.",
+   "difference": "Weighs against the gravity-driven route to a condensate that is localized in momentum and spread through space, the published form closest to C6. It concerns attraction in position; it does not treat an attraction gated in velocity, whose Born-dual reading would localize in momentum rather than position, so it is not a test of the record's gated model.",
+   "quotes": [
+    {
+     "text": "there is an essential difference between the thermalization and formation of a condensate due to repulsive interactions, which can indeed drive long-range order, and that due to attractive interactions, which can lead to localized Bose clumps (stars or solitons) that only exhibit short range correlation",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "1412.5930"
+    },
+    {
+     "text": "we conclude that while a Bose-Einstein condensate is formed, the claim of long-range correlation is unjustified",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "1412.5930"
+    }
+   ],
+   "verified": [
+    [
+     "evidence-against",
+     "g5-momentum-clumping:verifier",
+     "Confirmed, within its scope. It argues that condensation driven by attractive interactions gives localized clumps with short-range correlation, against the gravity-driven, spatially coherent condensate of Sikivie and Yang, the published form closest to C6. It does not treat a velocity gate. Its logic agrees with the record's own result for a long-range gated attraction, whose added modes are 'spat"
+    ]
+   ]
+  }
+ ],
+ "related": [
+  {
+   "ids": [
+    "recid:1625396"
+   ],
+   "citation": "A. Ghosh, \"Born-Kothari Condensation for Fermions\", Entropy 19 (2017) 479, doi:10.3390/e19090479 (journal mini-review; not on arXiv)",
+   "summary": "Mini-review of the same work (recid:1515614): for fermions the condensed phase is single-occupancy dense modes at the highest energy state, and the highest momentum of individual fermions, prerequisite for the condensation, is fixed by the problem's natural length and energy scales. This locates Born–Kothari condensation in momentum space, at its upper bound.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "recid:1515614"
+   ],
+   "citation": "A. Ghosh, D. S. Ray, \"Born-Kothari condensation in an ideal Fermi gas\", Phys. Rev. A 95 (2017) 022129, doi:10.1103/PhysRevA.95.022129 (journal; not on arXiv)",
+   "summary": "Re-examines Kothari and Nath's 1943 'condensation' in Fermi–Dirac statistics, which the abstract calls a natural consequence of Born's reciprocity principle (Born 1938), and gives it a symmetry-breaking order parameter as condensation-like coherence in an ideal Fermi gas. With the companion review (recid:1625396), a Born-reciprocity-derived concentration of matter at the top of a bounded momentum ",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "nucl-th/0212090"
+   ],
+   "citation": "C. B. Das, S. Das Gupta, C. Gale, B.-A. Li, \"Momentum dependence of symmetry potential in asymmetric nuclear matter for transport model calculations\", Phys. Rev. C 67, 034611 (2003), arXiv:nucl-th/0212090",
+   "summary": "Transport (BUU) models of heavy-ion collisions use a momentum-dependent mean field whose interaction term is ∫∫ f(r,p) f(r,p′)/(1 + (p − p′)²/Λ²) d³p d³p′ (eq. 10), with Λ a range in momentum; it is a simpler stand-in for the Gogny force, whose momentum dependence is two Gaussians in (k − k′). The single-particle potential (eq. 12) contains ∫ d³p′ f(r,p′)/(1 + (p − p′)²/Λ²), a potential set by the",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "cond-mat/0502499"
+   ],
+   "citation": "C. Connaughton, C. Josserand, A. Picozzi, Y. Pomeau, S. Rica, \"Condensation of classical nonlinear waves\", Phys. Rev. Lett. 95, 263901 (2005), arXiv:cond-mat/0502499",
+   "summary": "Classical nonlinear waves (the defocusing nonlinear Schrödinger equation) condense into a large-scale coherent structure below a critical energy density in three dimensions, a classical counterpart of Bose–Einstein condensation, described by wave-turbulence theory.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1804.05857"
+   ],
+   "citation": "D. G. Levkov, A. G. Panin, I. I. Tkachev, \"Gravitational Bose-Einstein condensation in the kinetic regime\", Phys. Rev. Lett. 121, 151301 (2018), arXiv:1804.05857",
+   "summary": "Shows with kinetic theory and simulations that light bosonic dark matter in virialized halos and miniclusters Bose-condenses through gravity alone, ending in Bose stars, and gives the condensation time. The record cites it as the method behind its wave-island rate (#11 §9 (ii), 'LPT-style').",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "cond-mat/0005001"
+   ],
+   "citation": "D. M. Stamper-Kurn, W. Ketterle, \"Spinor condensates and light scattering from Bose-Einstein condensates\", in Coherent atomic matter waves, Les Houches Summer School Session LXXII (1999), Springer (2001), doi:10.1007/3-5",
+   "summary": "States the standard reading of Bose–Einstein condensation as a condensation in momentum space, attributing it to Einstein: in Bragg spectroscopy a trapped condensate stands out from the thermal cloud more sharply in momentum than in position.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "cond-mat/0212313"
+   ],
+   "citation": "E. Ben-Naim, P. L. Krapivsky, S. Redner, \"Bifurcations and patterns in compromise processes\", Physica D 183, 190 (2003), doi:10.1016/s0167-2789(03)00171-4, arXiv:cond-mat/0212313",
+   "summary": "Agents carry a continuous variable. A pair interacts only when its two values lie within a fixed range, and both then take the average. A uniform initial distribution is unstable, with an instability that propagates in from the boundary in the continuum version and a 'negative diffusion instability' in the discrete one. It ends as a finite set of isolated, non-interacting clusters, equally spaced,",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "quant-ph/0407100"
+   ],
+   "citation": "F. Xu, A. M. Wang, X. D. Yang, H. You, \"Numerical Simulation Solution of the BCS Pairing Problem\", Commun. Theor. Phys. 44, 171 (2005), doi:10.1088/6102/44/1/171, arXiv:quant-ph/0407100",
+   "summary": "Restates standard BCS theory: the reduced interaction pairs electrons of equal energy and opposite momenta and spins, (k↑, −k↓), and the attraction acts only within a shell of energies near the Fermi surface.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "0912.1517"
+   ],
+   "citation": "J. G. Burgers, C. L. M. Mantz, T. Prokopec, \"The Newtonian Limit of Hermitian Gravity\", Gen. Rel. Grav. 45, 155 (2013), arXiv:0912.1517",
+   "summary": "In Hermitian gravity, a Born-reciprocal extension of general relativity to a complex manifold of space-time and momentum-energy (Mantz and Prokopec 2008), the field of a point mass integrated over positions obeys a momentum-space Laplace equation, ∇ₚ²φₚ ∝ M δ²(p) (eqs. 65–66), solved by a logarithmic potential in momentum: a Newtonian potential in momentum space, which the authors present as a rea",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1905.09297"
+   ],
+   "citation": "L. Berezhiani, B. Elder, J. Khoury, \"Dynamical Friction in Superfluids\", JCAP 10 (2019) 074, arXiv:1905.09297",
+   "summary": "Computes dynamical friction on a perturber moving through a superfluid: a subsonic perturber ordinarily cannot lose energy, and the Jeans-like tachyonic mass of sound waves gives only a small nonzero friction.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1610.08297"
+   ],
+   "citation": "L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, \"Ultralight scalars as cosmological dark matter\", Phys. Rev. D 95, 043541 (2017), arXiv:1610.08297",
+   "summary": "Among the consequences of fuzzy (wave) dark matter: with cold dark matter most globular clusters in the Fornax dwarf should have spiralled to its centre, and fuzzy dark matter resolves this.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1002.3162"
+   ],
+   "citation": "M. Vogelsberger, S. D. M. White, \"Streams and caustics: the fine-grained structure of LCDM haloes\", Mon. Not. R. Astron. Soc. 413, 1419 (2011), arXiv:1002.3162",
+   "summary": "Follows fine-grained phase-space streams in the Aquarius haloes: about 10¹⁴ streams pass through a point 8 kpc from the centre, and the local velocity distribution should be very smooth, the most massive fine-grained stream contributing about 0.1% of the signal.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "0812.2033"
+   ],
+   "citation": "M. Zemp, J. Diemand, M. Kuhlen, P. Madau, B. Moore, D. Potter, J. Stadel, L. Widrow, \"The Graininess of Dark Matter Haloes\", Mon. Not. R. Astron. Soc. 394, 641 (2009), arXiv:0812.2033",
+   "summary": "In the Via Lactea II ΛCDM simulation the local dark-matter velocity distribution grows clumpier with radius; at 400 kpc it consists of a little more than a dozen clumps in velocity space and no smooth component, which the authors attribute to large-scale streams from tidally disrupted subhaloes.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "astro-ph/9504052"
+   ],
+   "citation": "P. Sikivie, I. I. Tkachev, Y. Wang, \"The Velocity peaks in the cold dark matter spectrum on earth\", Phys. Rev. Lett. 75, 2911 (1995), arXiv:astro-ph/9504052",
+   "summary": "Generalizes the secondary-infall model of halo formation and predicts that the cold dark matter velocity distribution at the Earth has discrete peaks: halo dark matter arrives in a set of discrete flows with distinct velocities. Natarajan and Sikivie, Phys. Rev. D 72, 083513 (2005), argue the discrete flows are robust; Erken et al. 2012 state that in the non-linear regime cold dark matter produces",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1002.0291"
+   ],
+   "citation": "P.-H. Chavanis, \"Dynamical stability of infinite homogeneous self-gravitating systems: application of the Nyquist method\", Eur. Phys. J. B 85, 229 (2012), arXiv:1002.0291",
+   "summary": "Nyquist analysis of the Vlasov–Poisson (Jeans) problem: for any symmetric single-humped velocity distribution the onset of instability is the same as for the corresponding barotropic gas; two-stream instabilities need double-humped distributions.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "0709.0776"
+   ],
+   "citation": "R. Delbourgo, D. Lashmar, \"Born reciprocity and the 1/r potential\", Found. Phys. 38, 995 (2008), arXiv:0709.0776",
+   "summary": "Applies Born reciprocity to the 1/r potential: the Hamiltonian H = (p² + b²r²)/2m − α(1/r + b/p) gives the Coulomb or Newton attraction a reciprocal partner −αb/p, an attraction in momentum space. In a galaxy the pair interaction becomes GmM(1/r + Ω/|v − v′|), averaged over all other masses and their relative speeds; with Ω ≈ 1.5×10⁻¹⁵ Hz the extra term flattens rotation curves without dark matter",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1607.08621"
+   ],
+   "citation": "S. Alexander, S. Cormack, \"Gravitationally bound BCS state as dark matter\", JCAP 04 (2017) 005, arXiv:1607.08621",
+   "summary": "Fermionic dark matter with an attractive interaction (torsion-induced) undergoes a BCS transition; self-consistent superfluid halos are solved together with gravity, and dwarf-sized halos need a particle mass of about 200 eV.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "0806.2182"
+   ],
+   "citation": "S.-Y. Ha, E. Tadmor, \"From particle to kinetic and hydrodynamic descriptions of flocking\", Kinetic and Related Models 1, 415 (2008), doi:10.3934/krm.2008.1.415, arXiv:0806.2182",
+   "summary": "Kinetic (Vlasov-type) theory of the Cucker–Smale flocking model: each particle aligns its velocity with the others', weighted by a kernel in their spatial distance, and the velocity distribution concentrates onto one common bulk velocity ('flocking').",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1801.06571"
+   ],
+   "citation": "Y.-M. Wu, A. Klein, A. V. Chubukov, \"The Conditions for l=1 Pomeranchuk Instability in a Fermi Liquid\", Phys. Rev. B 97, 165101 (2018), arXiv:1801.06571",
+   "summary": "Pomeranchuk instability of a Fermi liquid: when a Landau parameter F_l reaches −1, the interaction among quasiparticles near the Fermi surface makes the momentum distribution unstable to deformation; the paper studies when conservation laws block the l = 1 channels.",
+   "basis": "verified"
+  }
+ ],
+ "collisions": [
+  {
+   "ids": [
+    "2602.23822"
+   ],
+   "citation": "H. Yang, S. D. M. White, L. Gao, \"The capture of halo material by orbiting subhaloes\", arXiv:2602.23822 (2026), arXiv preprint only"
+  },
+  {
+   "ids": [
+    "2503.06160"
+   ],
+   "citation": "M. Mehraeen, \"Quantum Response Theory and Momentum-Space Gravity\", Phys. Rev. Lett. 135, 156302 (2025), arXiv:2503.06160"
+  }
+ ],
+ "not_found_statements": [
+  {
+   "from": "g5-momentum-clumping/search.json",
+   "statement": "No paper found that states that dark matter (or any matter) clumps collectively in momentum space by the Jeans mechanism with position and velocity exchanged: that an attraction acting between particles of similar velocity makes a smooth Maxwellian fragment into a few discrete velocity streams spread through space; nor any paper proposing that dark matter is matter of the conjugate (momentum) polarization that clumps in momentum space as ordinary matter clumps in position space. Momentum-space condensation of dark matter appears in print only as Bose–Einstein condensation or superfluidity (one state, degenerate bosons: Sikivie–Yang, Berezhiani–Khoury, Levkov et al.); discrete velocity flows only from cold infall or accretion (Sikivie et al., Zemp et al.); velocity concentration by an interaction only in flocking models (Ha–Tadmor); and a Born-reciprocal momentum-space attraction only without a clumping claim (Delbourgo–Lashmar, Burgers–Mantz–Prokopec)."
+  },
+  {
+   "from": "round3/oa-c1-c6-c7.json",
+   "statement": "No source found, in any venue searched, in which dark matter clumps or condenses in velocity or momentum space through a collective instability, a Jeans analysis is run with position and velocity exchanged, or dark matter flocks by velocity. OpenAlex title/abstract phrase searches for 'clumping in velocity space', 'velocity space clumping', 'clumps in velocity space', 'condensation in velocity space' and 'Jeans instability' + 'momentum space' returned 0. Full-text hits are stellar moving groups, cluster substructure and cold-dark-matter fine-grained streams. 'Murmuration' hits are unrelated (elliptic-curve murmurations). DataCite and Zenodo hits are non-reviewed unified theories. The closest material remains what the known list holds (Sikivie-Yang, Berezhiani-Khoury, Zemp et al., Vogelsberger-White, Ghosh's Born-Kothari condensation)."
+  },
+  {
+   "from": "round3/lineages.json",
+   "statement": "No lineage paper proposes that matter clumps in momentum or velocity space through its own collective attraction. The lineages treat momentum space as curved geometry (Born, Kadyshevsky, Moffat, Wheeler), a velocity fibre (Finsler, tangent-bundle, Caianiello), or a source of velocity-dependent gravity (kinetic gas), never as a space in which matter gathers into clumps."
+  },
+  {
+   "from": "g5-momentum-clumping/verify.json (verifier)",
+   "holds": true,
+   "statement": "Holds for the founding image itself, with two qualifications. (1) Its condensed-core form was published before the searcher's earliest partial: Riotto and Tkachev 2000 have Bose condensation in dwarf-galaxy cores. Bosonic dark-matter halos go back further: Sin, Phys. Rev. D 50, 3650 (1994), on the halo as a Bose liquid (abstract read), and Tkachev 1986 and 1991 (†, not read). Every published form is one Bose condensate, not a few velocity streams from a gated attraction. (2) The clause 'velocity concentration by an interaction only in flocking models' is incomplete. Fragmentation of a uniform distribution into several discrete, equally spaced clusters by an interaction gated in the difference of the variable is established in compromise (bounded-confidence) dynamics (Ben-Naim, Krapivsky and Redner 2003), a dissipative, non-Hamiltonian setting; for velocities it amounts to inelastic collisions below a threshold. My own searches (velocity- and momentum-space instability, instability in or unstable in momentum space, gravitational instability with momentum space and reciprocity, dual matter and dual sector with momentum or velocity space, Born reciprocity with clustering or instability, a web search for a velocity-space phase transition of halos, Crossref on velocity-space Jeans instability) found no statement of the Jeans problem with x and v exchanged, nor of conjugate or dual matter clumping in momentum space. The dual-sector dark-matter papers named by the searcher (Freidel-Kowalski-Glikman-Leigh-Minic 2021, Minic 2020, Berglund-Hübsch-Minic 2022, Hübsch-Minic 2026) contain no clumping, clustering or localization in a dual or momentum space (grep of full texts)."
+  }
+ ]
+}

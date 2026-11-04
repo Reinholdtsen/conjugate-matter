@@ -23,6 +23,8 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §12"
   - "verify/soliton_obituary.py"
   - "HANDOFF.md §6"
+  - "notes/literature-check.md §4"
+  - "review/wiki-build-flags.md item 68"
 ---
 
 *The hidden SU(2) → U(1) proposal was the particle content the soliton manuscript #14 assumed for its dark sector: a hidden copy of a simple gauge force, SU(2)_d, whose Higgs field breaks it down to a single unbroken U(1)_d. The breaking leaves heavy charged W′± bosons, a massless hidden photon, and 't Hooft–Polyakov monopoles that are stable for topological reasons, which were the dark matter in #14's model. A light hidden fermion ψ was added because without it the W′± would overclose the universe. #14 identified this sector with the [momentum-polarized half](/wiki/dark-matter/conjugate-matter) of the program's matter, but nothing numerical in the proposal depended on that identification. As a model it is a standard hidden-sector monopole scenario already in the literature; as the program's own proposal it failed with #14's model.*
@@ -94,7 +96,7 @@ The sector was not refuted. Its physics is the standard physics above, and its m
 
 ## What stands
 
-- **The exclusion of the minimal sector.** [#11](/wiki/history/documents/checkpoint) §12: "The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V]." The adjudication lists the same: "The statement that the minimal adjoint-only sector is excluded." See [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure).
+- **The exclusion of the minimal sector.** [#11](/wiki/history/documents/checkpoint) §12: "The minimal adjoint-only SU(2) → U(1) hidden sector is excluded on its own terms: its stable W′± overclose the universe by 10¹⁶–10¹⁷ at the v3 benchmark [V]." The adjudication lists the same: "The statement that the minimal adjoint-only sector is excluded." The same exclusion is published for the minimal 't Hooft–Polyakov model, in a paper posted before #14 v3's calculation: "dark monopoles cannot constitute a sizeable fraction of dark matter" (Brümmer, Ferrante, Fischer and Frigerio 2026 [S]; flag 68, pending). See [W′ overclosure](/wiki/dark-matter/candidates/soliton-candidate/w-prime-overclosure#in-the-literature).
 - **The Dirac relation.** "A weakly coupled hidden sector always has strongly coupled monopoles, by Dirac quantization [T]" (#11 §12).
 - **The mixing literature.** "The kinetic-mixing literature points (a) and (c)" (adjudication, 'What survives v3'): mixing induced by gravity alone is tiny or absent, and while U(1)_d is unbroken a hidden monopole induces no visible magnetic flux ([kinetic mixing between sectors](/wiki/dark-matter/candidates/soliton-candidate/kinetic-mixing)).
 - **The monopole physics.** 't Hooft–Polyakov monopoles, their topology and their mass formula are established ([magnetic monopoles](/wiki/electric-magnetic-duality/monopoles)).
@@ -111,3 +113,4 @@ The sector was not refuted. Its physics is the standard physics above, and its m
 - `notes/knot-dark-matter-standalone.md` §1 — the ordinary kinematics; §2 — the sector, the mirror-Standard-Model argument, sector separation; §3 — the monopoles and the minimal model's failure; §6 — "Conjectural" and the requirements
 - `review/skeptic-review-console.html` — v2's unnamed group
 - `HANDOFF.md` §6 — round 2's request for an explicit group
+- `notes/literature-check.md` §4; `review/wiki-build-flags.md` item 68 — the minimal sector's exclusion, published by Brümmer et al.; pending

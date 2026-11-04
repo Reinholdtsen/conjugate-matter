@@ -1,0 +1,236 @@
+{
+ "reader": "r1-dark-matter",
+ "conjectures": [
+  "C1"
+ ],
+ "items": [
+  {
+   "recid": 1358474,
+   "arxiv": "",
+   "line": "[2015] Castro, Carlos — A Clifford-gravity-based cosmology, dark matter and dark energy  | arXiv:— recid:1358474 cites:1",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 671623,
+   "arxiv": "",
+   "line": "[2004] Tomilchik, Lev M.; Kudryashov, Vladimir V. — Conformally flat metric, position-dependent mass and cold dark matter  | arXiv:gr-qc/0507090 recid:671623 cites:3",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 1796841,
+   "arxiv": "",
+   "line": "[2020] Edmonds, Douglas; Minic, Djordje; Takeuchi, Tatsu — Dark Matter, Dark Energy and Fundamental Acceleration  | arXiv:2005.08927 recid:1796841 cites:6",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 1413079,
+   "arxiv": "",
+   "line": "[2016] Edmonds, Doug; Farrah, Duncan; Ho, Chi man et al. (6) — Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?  | arXiv:1601.00662 recid:1413079 cites:23",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 2704811,
+   "arxiv": "",
+   "line": "[2023] Maldonado, Carlos; Méndez, Fernando — Axionic Dark Matter in a Bi-Metric Universe  | arXiv:— recid:2704811 cites:2",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 2648248,
+   "arxiv": "",
+   "line": "[2023] Maldonado, Carlos; Mendez, Fernando — Dark matter in a bi-metric universe  | arXiv:2304.00620 recid:2648248 cites:4",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 1119918,
+   "arxiv": "",
+   "line": "[2012] Castro, Carlos — Gravity in curved phase-spaces, Finsler geometry and two-times physics  | arXiv:— recid:1119918 cites:7",
+   "flag": "C1 dark matter (abstract)"
+  },
+  {
+   "recid": 1703403,
+   "arxiv": "1811.05226",
+   "line": "[2018] Calixto, Manuel — Massive conformal particles with non-Abelian charges from free U(2N,2N)-twistor dynamics: quantization and coherent states  | arXiv:1811.05226 recid:1703403 cites:0",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1840422,
+   "arxiv": "2101.04152",
+   "line": "[2021] Hess, Peter Otto — Observable consequences of pseudo-complex General Relativity  | arXiv:2101.04152 recid:1840422 cites:0",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1826326,
+   "arxiv": "2010.13001",
+   "line": "[2020] Muhwezi, Davis W.; Wheeler, James T. — Yang-Mills sources in biconformal gravity  | arXiv:2010.13001 recid:1826326 cites:1",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2808256,
+   "arxiv": "2407.11150",
+   "line": "[2024] Hernández, Juan Francisco González — Extended Relativity: Beyond  | arXiv:2407.11150 recid:2808256 cites:0",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 3071212,
+   "arxiv": "2510.16631",
+   "line": "[2025] Horváth, Anna; Wojnar, Aneta; Barnaföldi, Gergely Gábor — The effects of strong gravity on the dispersion relation of massive particles in the Kaluza-Klein theory  | arXiv:2510.16631 recid:3071212 cites:1",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 3123635,
+   "arxiv": "2602.21407",
+   "line": "[2026] Chouha, Paul-Robert — Metastrings, Metaparticles and Black Hole Thermodynamics: On the Road Towards a Non-singular Black Hole Remnant  | arXiv:2602.21407 recid:3123635 cites:1",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1607235,
+   "arxiv": "1706.07470",
+   "line": "[2017] Toller, M. — A Theory of Gravitation Covariant under $Sp(4, \\mathbf{R})$}  | arXiv:1706.07470 recid:1607235 cites:2",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1707041,
+   "arxiv": "1812.02136",
+   "line": "[2018] Lobo, Iarley P.; Ronco, Michele — Rainbow-like Black Hole metric from Loop Quantum Gravity  | arXiv:1812.02136 recid:1707041 cites:14",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1424240,
+   "arxiv": "1602.07752",
+   "line": "[2016] Chang, Lay Nam; Minic, Djordje; Roman, Ahmed et al. (5) — On the Physics of the Minimal Length: The Question of Gauge Invariance  | arXiv:1602.07752 recid:1424240 cites:12",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2909423,
+   "arxiv": "2504.05900",
+   "line": "[2025] Buoninfante, Luca — Strict renormalizability as a paradigm for fundamental physics  | arXiv:2504.05900 recid:2909423 cites:13",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1095226,
+   "arxiv": "1203.6191",
+   "line": "[2012] Hossenfelder, Sabine — Minimal Length Scale Scenarios for Quantum Gravity  | arXiv:1203.6191 recid:1095226 cites:827",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2164109,
+   "arxiv": "2210.05281",
+   "line": "[2022] Wagner, Fabian — Modified uncertainty relations from classical and quantum gravity  | arXiv:2210.05281 recid:2164109 cites:2",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1590023,
+   "arxiv": "1704.01934",
+   "line": "[2017] Mielczarek, Jakub; Trześniewski, Tomasz — Nonlinear Field Space Cosmology  | arXiv:1704.01934 recid:1590023 cites:7",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 724045,
+   "arxiv": "gr-qc/0608086",
+   "line": "[2006] Finkelstein, David Ritz — Homotopy approach to quantum gravity  | arXiv:gr-qc/0608086 recid:724045 cites:6",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2901446,
+   "arxiv": "2503.13061",
+   "line": "[2025] Nandi, Partha; Bhattacharyya, Tiasha; Majumdar, A.S. et al. (5) — Decoherence from quantum spacetime noise: An open-system framework with application to neutrino oscillations  | arXiv:2503.13061 recid:2901446 cites:13",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2740764,
+   "arxiv": "2312.15750",
+   "line": "[2023] Nandi, Partha; Scholtz, Frederik G. — The hidden Lorentz covariance of quantum mechanics  | arXiv:2312.15750 recid:2740764 cites:18",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1934108,
+   "arxiv": "",
+   "line": "[2021] Maheshwari, Shubham — Aspects of Ultraviolet Non-local Gravity  | arXiv:— recid:1934108 cites:0",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1973174,
+   "arxiv": "2111.10479",
+   "line": "[2021] Barnes, Edwin; Heremans, J.J.; Minic, Djordje — Non-Fermi liquids, strange metals and quasi-metaparticles  | arXiv:2111.10479 recid:1973174 cites:3",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2032186,
+   "arxiv": "2202.06890",
+   "line": "[2022] Berglund, Per; Freidel, Laurent; Hubsch, Tristan et al. (7) — Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation  | arXiv:2202.06890 recid:2032186 cites:21",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1485687,
+   "arxiv": "1609.02163",
+   "line": "[2016] Zhao, Jianshi; Price, Craig; Liu, Qi et al. (5) — Dynamical Gauge Effects and Holographic Scaling of Non-Equilibrium Motion in a Disordered and Dissipative Atomic Gas  | arXiv:1609.02163 recid:1485687 cites:1",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1490024,
+   "arxiv": "1610.01968",
+   "line": "[2016] Smolin, Lee — Four principles for quantum gravity  | arXiv:1610.01968 recid:1490024 cites:17",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1267197,
+   "arxiv": "1312.0645",
+   "line": "[2013] Chang, Lay Nam; Lewis, Zachary; Minic, Djordje et al. (4) — Quantum Systems based upon Galois Fields: from Sub-quantum to Super-quantum Correlations  | arXiv:1312.0645 recid:1267197 cites:11",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1668132,
+   "arxiv": "1804.05844",
+   "line": "[2018] Aydemir, Ufuk; Minic, Djordje; Sun, Chen et al. (4) — $B$-decay anomalies and scalar leptoquarks in unified Pati-Salam models from noncommutative geometry  | arXiv:1804.05844 recid:1668132 cites:39",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2729212,
+   "arxiv": "2312.00409",
+   "line": "[2023] Alves Batista, R.; Amelino-Camelia, G.; Boncioli, D. et al. (104) — White paper and roadmap for quantum gravity phenomenology in the multi-messenger era  | arXiv:2312.00409 recid:2729212 cites:117",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1319188,
+   "arxiv": "1409.7574",
+   "line": "[2014] Aydemir, Ufuk; Minic, Djordje; Sun, Chen et al. (4) — Higgs mass, superconnections, and the TeV-scale left-right symmetric model  | arXiv:1409.7574 recid:1319188 cites:28",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1863665,
+   "arxiv": "2105.07067",
+   "line": "[2021] Rochais, Thomas B. — Geometric Approaches To Quantum Fields And Strings At Strong Couplings  | arXiv:2105.07067 recid:1863665 cites:1",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1624081,
+   "arxiv": "1709.10359",
+   "line": "[2017] Patrascu, Andrei T. — Global aspects of the renormalization group and the hierarchy problem  | arXiv:1709.10359 recid:1624081 cites:3",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1644421,
+   "arxiv": "1712.07413",
+   "line": "[2017] Bojowald, Martin; Brahma, Suddhasattwa; Buyukcam, Umut et al. (4) — Extending general covariance: Moyal-type noncommutative manifolds  | arXiv:1712.07413 recid:1644421 cites:13",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 2162187,
+   "arxiv": "2211.04909",
+   "line": "[2022] Sartini, Francesco — Hidden Symmetries in Gravity : Black holes and other minisuperspaces  | arXiv:2211.04909 recid:2162187 cites:3",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1827611,
+   "arxiv": "",
+   "line": "[2020] Osten, David — Current algebra, generalised geometry and integrable models in string theory  | arXiv:— recid:1827611 cites:0",
+   "flag": "C1 (full text)"
+  },
+  {
+   "recid": 1852838,
+   "arxiv": "2103.11235",
+   "line": "[2021] Maldonado, Carlos; Mendez, Fernando — Bimetric universe with matter  | arXiv:2103.11235 recid:1852838 cites:7",
+   "flag": "C1 (full text)"
+  }
+ ]
+}

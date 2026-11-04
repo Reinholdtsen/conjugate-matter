@@ -1,0 +1,290 @@
+{
+ "reader": "r3-dark-energy",
+ "conjectures": [
+  "C5"
+ ],
+ "items": [
+  {
+   "recid": 2967413,
+   "arxiv": "",
+   "line": "[2025] Nandi, Partha; Roy, Mainak; Horoto, Langa et al. (5) — Quantum-gravitational backreaction in the BTZ background from curved momentum space  | arXiv:2509.05713 recid:2967413 cites:2",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1789711,
+   "arxiv": "",
+   "line": "[2020] Castro Perelman, Carlos — Born’s Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant  | arXiv:— recid:1789711 cites:17",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1744437,
+   "arxiv": "",
+   "line": "[2019] Gutierrez-Sagredo, Ivan; Ballesteros, Angel; Gubitosi, Giulia et al. (4) — Quantum groups, non-commutative Lorentzian spacetimes and curved momentum spaces  | arXiv:1907.07979 recid:1744437 cites:8",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1510471,
+   "arxiv": "",
+   "line": "[2017] Trześniewski, Tomasz — Nonlinear Field Space Theory and Quantum Gravity  | arXiv:1701.06865 recid:1510471 cites:4",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1415743,
+   "arxiv": "",
+   "line": "[2016] Mielczarek, Jakub; Trześniewski, Tomasz — The Nonlinear Field Space Theory  | arXiv:1601.04515 recid:1415743 cites:12",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1402205,
+   "arxiv": "",
+   "line": "[2016] Greiner, Walter; Hess, Peter O.; Schäfer, Mirko et al. (5) — There are No Black Holes—Pseudo-Complex General Relativity  | arXiv:— recid:1402205 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1303626,
+   "arxiv": "",
+   "line": "[2013] Hess, Peter O.; Greiner, W.; Schönenbach, T. et al. (4) — Black Holes or Gray Stars? That’s the Question: Pseudo-Complex General Relativity  | arXiv:— recid:1303626 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1091066,
+   "arxiv": "",
+   "line": "[2012] Caspar, Gunther; Schonenbach, Thomas; Hess, Peter Otto et al. (5) — Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions  | arXiv:1202.6561 recid:1091066 cites:25",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 870803,
+   "arxiv": "",
+   "line": "[2010] Castro, Carlos — On Nonlinear Quantum Mechanics, Noncommutative Phase Spaces, Fractal-Scale Calculus and Vacuum Energy  | arXiv:— recid:870803 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1268217,
+   "arxiv": "",
+   "line": "[2010] Hess, P.O.; Maghlaoui, L.; Greiner, W. — There are no black holes - pseudo-complex general relativity: Review and some predictions  | arXiv:— recid:1268217 cites:6",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 643561,
+   "arxiv": "",
+   "line": "[2004] Moffat, J.W. — Quantum gravity momentum representation and maximum energy  | arXiv:gr-qc/0401117 recid:643561 cites:12",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 3137722,
+   "arxiv": "",
+   "line": "[2026] Randriantsoa, Philippe Manjakasoa; Ranaivoson, Ravo Tokiniaina; Andriambololona, Raoelina et al. (6) — Geometric structure of the relativistic quantum phase space  | arXiv:2603.28836 recid:3137722 cites:2",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1337486,
+   "arxiv": "",
+   "line": "[2015] Mignemi, Salvatore; Štrajn, Rina — Quantum mechanics on a curved Snyder space  | arXiv:1501.01447 recid:1337486 cites:31",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 789406,
+   "arxiv": "",
+   "line": "[2008] Jarvis, Peter D.; Morgan, S.O. — Constraint quantisation of a worldline system invariant under reciprocal relativity. II  | arXiv:0806.4794 recid:789406 cites:4",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 753956,
+   "arxiv": "",
+   "line": "[2007] Govaerts, Jan; Jarvis, Peter D.; Morgan, Stuart O. et al. (4) — World-line quantisation of a reciprocally invariant system  | arXiv:0706.3736 recid:753956 cites:13",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 2778134,
+   "arxiv": "",
+   "line": "[2024] Minic, Djordje — The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles  | arXiv:— recid:2778134 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 2662459,
+   "arxiv": "",
+   "line": "[2023] Minic, Djordje — The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles  | arXiv:2305.12593 recid:2662459 cites:3",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 2609897,
+   "arxiv": "",
+   "line": "[2022] Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G. et al. (4) — Vacuum energy density and gravitational entropy  | arXiv:2212.00901 recid:2609897 cites:29",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1356974,
+   "arxiv": "",
+   "line": "[2015] Bravetti, A.; Lopez-Monsalvo, C.S.; Quevedo, H. — Maximally Symmetric Spacetimes emerging from thermodynamic fluctuations  | arXiv:1503.08358 recid:1356974 cites:2",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 2669772,
+   "arxiv": "",
+   "line": "[2023] Gibson, Natalie — Exploration of the de Sitter/Conformal Field Theory Correspondence  | arXiv:— recid:2669772 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 2647298,
+   "arxiv": "",
+   "line": "[2023] Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G. et al. (4) — On the inevitable lightness of vacuum  | arXiv:2303.17495 recid:2647298 cites:12",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1736529,
+   "arxiv": "",
+   "line": "[2019] Berglund, Per; Hubsch, Tristan; Minic, Djordje — Dark energy and quantum gravity  | arXiv:1905.09463 recid:1736529 cites:16",
+   "flag": "C5 acceleration / dark energy (abstract, narrowed)"
+  },
+  {
+   "recid": 1487060,
+   "arxiv": "",
+   "line": "[2014] Greiner, Walter — There are no black holes: Pseudo-Complex General Relativity From Einstein to Zweistein  | arXiv:— recid:1487060 cites:0",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1840422,
+   "arxiv": "2101.04152",
+   "line": "[2021] Hess, Peter Otto — Observable consequences of pseudo-complex General Relativity  | arXiv:2101.04152 recid:1840422 cites:0",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 3159191,
+   "arxiv": "2605.24282",
+   "line": "[2026] Tawfik, A.; Allehabi, Saleh O.; Alshehri, A.A. et al. (5) — Stress-energy tensor for modified general relativity with quantum-deformed metric in Riemann spacetime  | arXiv:2605.24282 recid:3159191 cites:1",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2808256,
+   "arxiv": "2407.11150",
+   "line": "[2024] Hernández, Juan Francisco González — Extended Relativity: Beyond  | arXiv:2407.11150 recid:2808256 cites:0",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 3071212,
+   "arxiv": "2510.16631",
+   "line": "[2025] Horváth, Anna; Wojnar, Aneta; Barnaföldi, Gergely Gábor — The effects of strong gravity on the dispersion relation of massive particles in the Kaluza-Klein theory  | arXiv:2510.16631 recid:3071212 cites:1",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1607235,
+   "arxiv": "1706.07470",
+   "line": "[2017] Toller, M. — A Theory of Gravitation Covariant under $Sp(4, \\mathbf{R})$}  | arXiv:1706.07470 recid:1607235 cites:2",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1424240,
+   "arxiv": "1602.07752",
+   "line": "[2016] Chang, Lay Nam; Minic, Djordje; Roman, Ahmed et al. (5) — On the Physics of the Minimal Length: The Question of Gauge Invariance  | arXiv:1602.07752 recid:1424240 cites:12",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1707041,
+   "arxiv": "1812.02136",
+   "line": "[2018] Lobo, Iarley P.; Ronco, Michele — Rainbow-like Black Hole metric from Loop Quantum Gravity  | arXiv:1812.02136 recid:1707041 cites:14",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2909423,
+   "arxiv": "2504.05900",
+   "line": "[2025] Buoninfante, Luca — Strict renormalizability as a paradigm for fundamental physics  | arXiv:2504.05900 recid:2909423 cites:13",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2164109,
+   "arxiv": "2210.05281",
+   "line": "[2022] Wagner, Fabian — Modified uncertainty relations from classical and quantum gravity  | arXiv:2210.05281 recid:2164109 cites:2",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1785947,
+   "arxiv": "2003.08129",
+   "line": "[2020] Artigas, Danilo; Crowe, Sean; Mielczarek, Jakub — Quantum fluctuations of the compact phase space cosmology  | arXiv:2003.08129 recid:1785947 cites:3",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1590023,
+   "arxiv": "1704.01934",
+   "line": "[2017] Mielczarek, Jakub; Trześniewski, Tomasz — Nonlinear Field Space Cosmology  | arXiv:1704.01934 recid:1590023 cites:7",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 3169277,
+   "arxiv": "2606.17147",
+   "line": "[2026] Abel, Steven — When renormalisation remembers: UV/IR mixing as an entanglement bridge  | arXiv:2606.17147 recid:3169277 cites:0",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2740764,
+   "arxiv": "2312.15750",
+   "line": "[2023] Nandi, Partha; Scholtz, Frederik G. — The hidden Lorentz covariance of quantum mechanics  | arXiv:2312.15750 recid:2740764 cites:18",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1934108,
+   "arxiv": "",
+   "line": "[2021] Maheshwari, Shubham — Aspects of Ultraviolet Non-local Gravity  | arXiv:— recid:1934108 cites:0",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2032186,
+   "arxiv": "2202.06890",
+   "line": "[2022] Berglund, Per; Freidel, Laurent; Hubsch, Tristan et al. (7) — Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation  | arXiv:2202.06890 recid:2032186 cites:21",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1267197,
+   "arxiv": "1312.0645",
+   "line": "[2013] Chang, Lay Nam; Lewis, Zachary; Minic, Djordje et al. (4) — Quantum Systems based upon Galois Fields: from Sub-quantum to Super-quantum Correlations  | arXiv:1312.0645 recid:1267197 cites:11",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1490024,
+   "arxiv": "1610.01968",
+   "line": "[2016] Smolin, Lee — Four principles for quantum gravity  | arXiv:1610.01968 recid:1490024 cites:17",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1721746,
+   "arxiv": "1902.08617",
+   "line": "[2019] Berglund, Per; Hübsch, Tristan; Minic, Djordje — On Stringy de Sitter Spacetimes  | arXiv:1902.08617 recid:1721746 cites:22",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2729212,
+   "arxiv": "2312.00409",
+   "line": "[2023] Alves Batista, R.; Amelino-Camelia, G.; Boncioli, D. et al. (104) — White paper and roadmap for quantum gravity phenomenology in the multi-messenger era  | arXiv:2312.00409 recid:2729212 cites:117",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1863665,
+   "arxiv": "2105.07067",
+   "line": "[2021] Rochais, Thomas B. — Geometric Approaches To Quantum Fields And Strings At Strong Couplings  | arXiv:2105.07067 recid:1863665 cites:1",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1950268,
+   "arxiv": "2110.11343",
+   "line": "[2021] Rozonoer, L.I. — Spontaneous decoherence as a result of randomness in the flow of time  | arXiv:2110.11343 recid:1950268 cites:0",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 2162187,
+   "arxiv": "2211.04909",
+   "line": "[2022] Sartini, Francesco — Hidden Symmetries in Gravity : Black holes and other minisuperspaces  | arXiv:2211.04909 recid:2162187 cites:3",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1680671,
+   "arxiv": "1807.01144",
+   "line": "[2018] Penas, Victor A. — Deformed Weitzenböck Connections and Double Field Theory  | arXiv:1807.01144 recid:1680671 cites:8",
+   "flag": "C5 (full text)"
+  },
+  {
+   "recid": 1852838,
+   "arxiv": "2103.11235",
+   "line": "[2021] Maldonado, Carlos; Mendez, Fernando — Bimetric universe with matter  | arXiv:2103.11235 recid:1852838 cites:7",
+   "flag": "C5 (full text)"
+  }
+ ]
+}

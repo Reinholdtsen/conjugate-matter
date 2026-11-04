@@ -1,0 +1,54 @@
+{
+ "conjectures": [
+  {
+   "conjecture": "C6",
+   "verdict": "partly anticipated",
+   "closest": [
+    {
+     "id": "0901.1106",
+     "why": "Sikivie and Yang, PRL 103, 111301 (2009). Dark-matter axions thermalize through their own gravity and Bose-condense: 'all cold axions go to a single state', the k = 0 mode in a homogeneous universe, in condensate patches of horizon size. Dark matter is then gathered in momentum and spread through space, the published form closest to 'clumping in speed rather than space'. It differs in having one condensate made by Bose statistics, no flocks, no attraction acting in velocity and no conjugate sector. It never writes 'momentum space', and 1412.5930 disputes its long-range coherence."
+    },
+    {
+     "id": "1507.01019",
+     "why": "Berezhiani and Khoury, PRD 92, 103510 (2015). Dark matter is superfluid in galaxies and mixed or normal in clusters 'due to the higher velocity dispersion in clusters', with T_c fixed by equipartition at a critical velocity. This is the notebook's condensed-core sentence nearly word for word ('below a critical velocity dispersion the core of a halo condenses', 'superfluid-like cores in dwarfs', #1 §5.2). The driver differs: strong contact self-interaction and Bose degeneracy. It has one condensate and aims at MOND phenomenology through phonons."
+    },
+    {
+     "id": "astro-ph/0003388",
+     "why": "Riotto and Tkachev, PLB 484, 177 (2000), the earliest checked statement of the condensed form. Virialized dwarf-galaxy cores, where 'there will be many streams of particles, each with different vector of velocity', Bose-condense through Bose-enhanced self-scattering. Condensation is 'the average momentum of the distribution of the parent particles going to zero', and the condensate sits at rest in the centre of the well: one clump in momentum, not several flocks."
+    },
+    {
+     "id": "1804.05857",
+     "why": "Levkov, Panin and Tkachev, PRL 121, 151301 (2018). Virialized halos Bose-condense through gravity alone into a Bose star at their centre, in a time proportional to m v^6/(G^2 n^2 Lambda). The record's wave island takes its rate from this paper and adds a gated channel (#11 §9 (ii), ref. [13]; notes/wave-island.md)."
+    },
+    {
+     "id": "1412.5930",
+     "why": "Guth, Hertzberg and Prescod-Weinstein, PRD 92, 103513 (2015), evidence against the Sikivie-Yang form. Under attractive interactions, gravity among them, the condensate's ground state has wavenumber near the Jeans scale, not k = 0, and forms 'localized Bose clumps (stars or solitons)', localized in position rather than in momentum. It treats no attraction acting in velocity, so it does not test the founding image."
+    },
+    {
+     "id": "0709.0776",
+     "why": "Delbourgo and Lashmar, Found. Phys. 38, 995 (2008), the closest mechanism. A Born-reciprocal partner of Newton's 1/r, an attraction proportional to 1/|v - v'| among all masses, is offered for rotation curves without dark matter. It claims no clumping in velocity, and the authors call their fit 'far from convincing'."
+    },
+    {
+     "id": "cond-mat/0212313",
+     "why": "Ben-Naim, Krapivsky and Redner, Physica D 183, 190 (2003), the closest fragmentation structure. A uniform distribution breaks into discrete, equally spaced clusters under an interaction that acts only between near-equal values. The variable is an opinion and the dynamics are dissipative averaging, not matter, gravity or velocity."
+    },
+    {
+     "id": "astro-ph/9504052",
+     "why": "Sikivie, Tkachev and Wang, PRL 75, 2911 (1995). Halo dark matter reaches Earth in discrete flows of distinct velocity, the observable the image's streams would give. The flows come from cold infall, from matter never spread in velocity, not from clumping."
+    }
+   ],
+   "new_in_conjecture": "No work found states the founding image. In it, dark matter that is matter of the conjugate polarization clumps in velocity by its own collective dynamics, as ordinary matter clumps in position: a smooth velocity distribution breaks up, under an attraction between particles of similar velocity, into several flocks at different velocities, each spread through space. Every published form is one condensate in the lowest-energy state, made by Bose statistics with gravity or contact scattering as the relaxing agent, and limited to degenerate bosons; under gravity alone the condensate localizes in position (Guth, Hertzberg and Prescod-Weinstein 2015; Levkov, Panin and Tkachev 2018). Discrete velocity flows in halos appear in print only from cold infall (Sikivie, Tkachev and Wang 1995), and an attraction in relative velocity only without a clumping claim (Delbourgo and Lashmar 2008).",
+   "published_parts": "Dark matter gathered into a single low-momentum state, Bose-Einstein condensation, is published. The standard reading calls it condensation in momentum space, after Einstein (Stamper-Kurn and Ketterle), and the lab notebook calls it 'momentum-space clumping, realized' (#1 §5.2). Riotto and Tkachev (2000) have dwarf-galaxy cores Bose-condense; Sikivie and Yang (2009) have axions condense through their own gravity into one state spread over horizon-size patches; Berezhiani and Khoury (2015) have dark matter superfluid in galaxies and mixed or normal in clusters because of their higher velocity dispersion; Levkov, Panin and Tkachev (2018) give the gravitational condensation rate that the record's wave island adapts. The consequences the notebook drew from the condensed form, superfluid-like cores and suppressed dynamical friction with Fornax's globular clusters, are published for superfluid and fuzzy dark matter (Berezhiani, Elder and Khoury 2019; Hui, Ostriker, Tremaine and Witten 2017).",
+   "label_disputes": [
+    {
+     "id": "1804.05857",
+     "current": "related",
+     "proposed": "partial",
+     "reason": "It states the same form as Riotto and Tkachev 2000, which the panel keeps as partial: dark matter in a virialized halo Bose-condenses at the centre ('until the Bose star appears in its center'), here through its own gravity alone. Its condensation time, proportional to m v^6/(G^2 n^2 Lambda) (eq. 4), means that within a given age only halos below a critical velocity dispersion condense; that is my reading of the formula, not their words. The ground given for related, that Bose stars are localized in position, applies equally to Riotto and Tkachev's 'Bose condensate in the center of gravitational well' and to the notebook's form, which is about a halo's core. The record's wave-island form of C6 is this process with a channel added ('This is the mechanism LPT established for gravity ...; here the gated contact attraction adds a channel', notes/wave-island.md), so the paper states a close variant of that form. Its homogeneous-box result, a Bose star rather than a k = 0 condensate, also agrees with 1412.5930 against the Sikivie-Yang form."
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "notes": "Judge for C6. Read: BRIEF.md; panel/C6.json; the g5 searcher's and verifier's notes and verify.json; #11 §1, §3-§4, §8, §9, App. A and refs [13]-[15]; the founding-image wiki page; #1 §5.1-§5.3 and Addendum v0.2; notes/wave-island.md; notes/velocity-gated-gravity.md §2 and §5. I read the cited passages of eight full texts and four abstracts; 20 quote checks gave 20 FOUND (panel/c6/quote-checks.txt; working notes in panel/c6/notes.txt). No new searches.\n\nThe question put to this judge: Bose condensation of dark matter is a form of C6, not only its theme. Three anchors support this. First, the standard reading of BEC is condensation in momentum space, and the brief's gloss of C6 is close to the textbook contrast between BEC and gas-liquid condensation. Second, #1 §5.2 calls halo-core condensation 'momentum-space clumping, realized'. Third, the record's own wave-island form of C6 is LPT's kinetic Bose condensation with a gated channel added (notes/wave-island.md line 9). It is not the image itself, which has several flocks from an attraction acting in velocity.\n\nHinge (inference about scope, not record): the verdict counts the record's condensed form as part of C6. If P.R. restricts C6 to the founding image of several velocity flocks, the verdict becomes related only. Nothing found states that image, so the novelty statement stands either way. For the same reason the bare phrase 'matter clumps in momentum space' should not be presented as new, since it describes BEC.\n\nLabels:\n- One dispute: Levkov-Panin-Tkachev, related -> partial, for consistency with Riotto-Tkachev.\n- Riotto-Tkachev's partial, a single-agent label, is confirmed on a second reading. Their starting point is the virialized halo's many velocity streams, which relax into one condensate at rest.\n- The single-agent related labels (the Born-Kothari pair; Ben-Naim et al.) are confirmed.\n- Alexander-Cormack stays related. It solves at T = 0 (quote checked). The maximum T_c it estimates, about 1 mK, is below the about 10 mK it cites for a dwarf, so at face value dwarfs are above T_c. BCS condenses pairs, not particle momenta.\n- Guth et al. stays evidence-against, scoped to the Sikivie-Yang form. It does not touch the condensed-core form or C6's own velocity-local mechanism. Whether its reasoning carries over by Born duality is inference, and the record's §2 (a potential in momentum differences exerts no force) suggests it does not simply.\n- The other related labels and both collisions stand.\n\nUnverified leads (†, model memory, not retrieved):\n- Einstein 1925 and London 1938 for 'condensation in momentum space';\n- Kothari and Nath 1943;\n- Tkachev 1991 and Semikoz-Tkachev 1995, which may date the condensed form before 2000;\n- plasma kinetic theory's phase-space 'clumps' and 'holes' (Dupree 1972; Berk, Breizman and co-workers), a likely collision."
+}

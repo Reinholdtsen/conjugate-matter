@@ -1,0 +1,1233 @@
+{
+ "anchors": {
+  "Born 1938": {
+   "recid": 2011515,
+   "anchor": "[1938] Born, Max — A suggestion for unifying quantum theory and relativity  | arXiv:— recid:2011515 cites:166",
+   "citing": 166
+  },
+  "Born 1949": {
+   "recid": 2012497,
+   "anchor": "[1949] Born, Max — Reciprocity Theory of Elementary Particles  | arXiv:— recid:2012497 cites:204",
+   "citing": 204
+  },
+  "FLM 2013 Born reciprocity in string theory": {
+   "recid": 1244697,
+   "anchor": "[2013] Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Born Reciprocity in String Theory and the Nature of Spacetime  | arXiv:1307.7080 recid:1244697 cites:134",
+   "citing": 134
+  },
+  "FLM 2014 dynamical phase space": {
+   "recid": 1296246,
+   "anchor": "[2014] Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Quantum Gravity, Dynamical Phase Space and String Theory  | arXiv:1405.3949 recid:1296246 cites:93",
+   "citing": 93
+  },
+  "FLM 2015 metastring": {
+   "recid": 1346867,
+   "anchor": "[2015] Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Metastring Theory and Modular Space-time  | arXiv:1502.08005 recid:1346867 cites:110",
+   "citing": 110
+  },
+  "FLM 2016 quantum spaces are modular": {
+   "recid": 1467445,
+   "anchor": "[2016] Freidel, Laurent; Leigh, Robert G.; Minic, Djordje — Quantum Spaces are Modular  | arXiv:1606.01829 recid:1467445 cites:71",
+   "citing": 71
+  },
+  "FRS 2017 generalised kinematics / Born geometry": {
+   "recid": 1606347,
+   "anchor": "[2017] Freidel, Laurent; Rudolph, Felix J.; Svoboda, David — Generalised Kinematics for Double Field Theory  | arXiv:1706.07089 recid:1606347 cites:65",
+   "citing": 65
+  },
+  "FKGLM theory of metaparticles": {
+   "recid": 1711677,
+   "anchor": "[2018] Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G. et al. (4) — Theory of metaparticles  | arXiv:1812.10821 recid:1711677 cites:43",
+   "citing": 43
+  },
+  "Low reciprocal relativity": {
+   "recid": 691397,
+   "anchor": "[2005] Low, Stephen G. — Reciprocal relativity of noninertial frames and the quaplectic group  | arXiv:math-ph/0506031 recid:691397 cites:18",
+   "citing": 18
+  },
+  "Bolognesi trans-Planckian 2012": {
+   "recid": 1123613,
+   "anchor": "[2012] Bolognesi, Stefano — A cosmology of a trans-Planckian theory and dark energy  | arXiv:1207.5514 recid:1123613 cites:1",
+   "citing": 1
+  }
+ },
+ "distinct_citing": 498,
+ "fulltext_counts": {
+  "Born 1938": {
+   "C1 dark matter": 17,
+   "C2/C3 monopoles": 6,
+   "C5 acceleration / dark energy": 20
+  },
+  "Born 1949": {
+   "C1 dark matter": 24,
+   "C2/C3 monopoles": 6,
+   "C5 acceleration / dark energy": 29
+  },
+  "FLM 2013 Born reciprocity in string theory": {
+   "C1 dark matter": 32,
+   "C2/C3 monopoles": 2,
+   "C5 acceleration / dark energy": 30
+  },
+  "FLM 2014 dynamical phase space": {
+   "C1 dark matter": 26,
+   "C2/C3 monopoles": 2,
+   "C5 acceleration / dark energy": 26
+  },
+  "FLM 2015 metastring": {
+   "C1 dark matter": 28,
+   "C2/C3 monopoles": 4,
+   "C5 acceleration / dark energy": 26
+  },
+  "FLM 2016 quantum spaces are modular": {
+   "C1 dark matter": 26,
+   "C2/C3 monopoles": 0,
+   "C5 acceleration / dark energy": 29
+  },
+  "FRS 2017 generalised kinematics / Born geometry": {
+   "C1 dark matter": 3,
+   "C2/C3 monopoles": 4,
+   "C5 acceleration / dark energy": 3
+  },
+  "FKGLM theory of metaparticles": {
+   "C1 dark matter": 21,
+   "C2/C3 monopoles": 0,
+   "C5 acceleration / dark energy": 20
+  },
+  "Low reciprocal relativity": {
+   "C1 dark matter": 1,
+   "C2/C3 monopoles": 0,
+   "C5 acceleration / dark energy": 2
+  },
+  "Bolognesi trans-Planckian 2012": {
+   "C1 dark matter": 1,
+   "C2/C3 monopoles": 0,
+   "C5 acceleration / dark energy": 1
+  }
+ },
+ "flagged": {
+  "C1 dark matter": [
+   {
+    "recid": 2613377,
+    "line": "[2022] Berglund, Per; Hübsch, Tristan; Minic, Djordje — On de Sitter Spacetime and String Theory  | arXiv:2212.06086 recid:2613377 cites:34",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FRS 2017 generalised kinematics / Born geometry",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1783243,
+    "line": "[2020] Minic, Djordje — From quantum foundations of quantum field theory, string theory and quantum gravity todark matter and dark energy  | arXiv:2003.00318 recid:1783243 cites:16",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FRS 2017 generalised kinematics / Born geometry",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1358474,
+    "line": "[2015] Castro, Carlos — A Clifford-gravity-based cosmology, dark matter and dark energy  | arXiv:— recid:1358474 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 1236181,
+    "line": "[2013] Hazboun, Jeffrey S; Wheeler, James T — Time and dark matter from the conformal symmetries of Euclidean space  | arXiv:1305.6972 recid:1236181 cites:10",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1929084,
+    "line": "[2021] Edmonds, Douglas; Minic, Djordje; Takeuchi, Tatsu — On quantum gravity and quantum gravity phenomenology  | arXiv:2109.12763 recid:1929084 cites:0",
+    "anchors": [
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1375010,
+    "line": "[2015] Bolognesi, S. — Born Reciprocity and Cosmic Accelerations  | arXiv:1506.02187 recid:1375010 cites:0",
+    "anchors": [
+     "Born 1949",
+     "FLM 2014 dynamical phase space",
+     "Bolognesi trans-Planckian 2012"
+    ]
+   },
+   {
+    "recid": 760026,
+    "line": "[2007] Delbourgo, Robert; Lashmar, Darrel — Born reciprocity and the 1/r potential  | arXiv:0709.0776 recid:760026 cites:5",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 671623,
+    "line": "[2004] Tomilchik, Lev M.; Kudryashov, Vladimir V. — Conformally flat metric, position-dependent mass and cold dark matter  | arXiv:gr-qc/0507090 recid:671623 cites:3",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2030712,
+    "line": "[2022] Berglund, Per; Dai, De-Chang; Edmonds, Douglas et al. (12) — Quantum Gravity and Phenomenology: Dark Matter, Dark Energy, Vacuum Selection, Emergent Spacetime, and Wormholes  | arXiv:2202.05104 recid:2030712 cites:2",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1855996,
+    "line": "[2021] Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G. et al. (4) — Quantum gravity phenomenology in the infrared  | arXiv:2104.00802 recid:1855996 cites:33",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1826817,
+    "line": "[2020] Berglund, Per; Hübsch, Tristan; Minic, Djordje — String Theory, the Dark Sector, and the Hierarchy Problem  | arXiv:2010.15610 recid:1826817 cites:23",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1796841,
+    "line": "[2020] Edmonds, Douglas; Minic, Djordje; Takeuchi, Tatsu — Dark Matter, Dark Energy and Fundamental Acceleration  | arXiv:2005.08927 recid:1796841 cites:6",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1623190,
+    "line": "[2017] Edmonds, Douglas; Farrah, Duncan; Minic, Djordje et al. (5) — Modified Dark Matter: Relating Dark Energy, Dark Matter and Baryonic Matter  | arXiv:1709.04388 recid:1623190 cites:29",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1413079,
+    "line": "[2016] Edmonds, Doug; Farrah, Duncan; Ho, Chi man et al. (6) — Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?  | arXiv:1601.00662 recid:1413079 cites:23",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 2704811,
+    "line": "[2023] Maldonado, Carlos; Méndez, Fernando — Axionic Dark Matter in a Bi-Metric Universe  | arXiv:— recid:2704811 cites:2",
+    "anchors": [
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2648248,
+    "line": "[2023] Maldonado, Carlos; Mendez, Fernando — Dark matter in a bi-metric universe  | arXiv:2304.00620 recid:2648248 cites:4",
+    "anchors": [
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1119918,
+    "line": "[2012] Castro, Carlos — Gravity in curved phase-spaces, Finsler geometry and two-times physics  | arXiv:— recid:1119918 cites:7",
+    "anchors": [
+     "Low reciprocal relativity"
+    ]
+   }
+  ],
+  "C2/C3 monopoles": [
+   {
+    "recid": 2787067,
+    "line": "[2024] Kupriyanov, Vladislav; Kurkov, Maxim; Sharapov, Alexey — Classical mechanics in noncommutative spaces: confinement and more  | arXiv:2405.09348 recid:2787067 cites:8",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2684320,
+    "line": "[2023] Pan, Yiming; Yin, Ruoyu — Constructing Berry-Maxwell equations with Lorentz invariance and Gauss's law of Weyl monopoles in four-dimensional energy-momentum space  | arXiv:2308.00612 recid:2684320 cites:0",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 2029246,
+    "line": "[2022] Kimura, Tetsuji; Sasaki, Shin; Shiozawa, Kenta — Hyperkähler, bi-hypercomplex, generalized hyperkähler structures and T-duality  | arXiv:2202.03016 recid:2029246 cites:9",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 1663966,
+    "line": "[2018] Szabo, Richard J. — Higher Quantum Geometry and Non-Geometric String Theory  | arXiv:1803.08861 recid:1663966 cites:26",
+    "anchors": [
+     "FLM 2015 metastring",
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 1909256,
+    "line": "[2021] Alfonsi, Luigi — Extended Field Theories as higher Kaluza-Klein theories  | arXiv:2108.10297 recid:1909256 cites:4",
+    "anchors": [
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 1770969,
+    "line": "[2019] Alfonsi, Luigi — Global Double Field Theory is Higher Kaluza‐Klein Theory  | arXiv:1912.07089 recid:1770969 cites:21",
+    "anchors": [
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 1744428,
+    "line": "[2019] Marmo, G.; Scardapane, Emanuela; Stern, A. et al. (5) — Lagrangian formulation for electric charge in a magnetic monopole distribution  | arXiv:1907.07808 recid:1744428 cites:4",
+    "anchors": [
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   }
+  ],
+  "C4 magnetic duality": [
+   {
+    "recid": 2678511,
+    "line": "[2023] Meljanac, S.; Mignemi, S. — Realizations of the Yang–Poisson model on canonical phase space  | arXiv:2307.09828 recid:2678511 cites:7",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 531400,
+    "line": "[2000] Gibbons, G.W.; Herdeiro, C.A.R. — Born-Infeld theory and stringy causality  | arXiv:hep-th/0008052 recid:531400 cites:182",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1347260,
+    "line": "[2015] Smolin, Lee — Extending dualities to trialities deepens the foundations of dynamics  | arXiv:1503.01424 recid:1347260 cites:3",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 1675281,
+    "line": "[2018] Kökényesi, Zoltán; Sinkovics, Annamária; Szabo, Richard J. — Double Field Theory for the A/B‐Models and Topological S‐Duality in Generalized Geometry  | arXiv:1805.11485 recid:1675281 cites:15",
+    "anchors": [
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   }
+  ],
+  "C5 acceleration / dark energy": [
+   {
+    "recid": 2967413,
+    "line": "[2025] Nandi, Partha; Roy, Mainak; Horoto, Langa et al. (5) — Quantum-gravitational backreaction in the BTZ background from curved momentum space  | arXiv:2509.05713 recid:2967413 cites:2",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 2943925,
+    "line": "[2024] Tawfik, A.; Alshehri, A. — Quantum geometric approach: Nature and characteristics of emerged quantum-conditioned spacetime curvatures on three-sphere  | arXiv:— recid:2943925 cites:5",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory"
+    ]
+   },
+   {
+    "recid": 2613377,
+    "line": "[2022] Berglund, Per; Hübsch, Tristan; Minic, Djordje — On de Sitter Spacetime and String Theory  | arXiv:2212.06086 recid:2613377 cites:34",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FRS 2017 generalised kinematics / Born geometry",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2032179,
+    "line": "[2022] Harikumar, E.; Panja, Suman Kumar; Rajagopal, Vishnu — Maximal acceleration in a Lorentz invariant non-commutative space-time  | arXiv:2202.06591 recid:2032179 cites:5",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1863738,
+    "line": "[2021] Buoninfante, Luca — Maximal acceleration, reciprocity & nonlocality  | arXiv:2105.08167 recid:1863738 cites:7",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory"
+    ]
+   },
+   {
+    "recid": 1812235,
+    "line": "[2020] Hess, P.O. — Alternatives to Einstein’s General Relativity Theory  | arXiv:— recid:1812235 cites:30",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1789711,
+    "line": "[2020] Castro Perelman, Carlos — Born’s Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant  | arXiv:— recid:1789711 cites:17",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1783243,
+    "line": "[2020] Minic, Djordje — From quantum foundations of quantum field theory, string theory and quantum gravity todark matter and dark energy  | arXiv:2003.00318 recid:1783243 cites:16",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FRS 2017 generalised kinematics / Born geometry",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1753282,
+    "line": "[2019] Hess, Peter O.; López-Moreno, Enrique — Kerr Black Holes within a Modified Theory of Gravity  | arXiv:— recid:1753282 cites:14",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1744437,
+    "line": "[2019] Gutierrez-Sagredo, Ivan; Ballesteros, Angel; Gubitosi, Giulia et al. (4) — Quantum groups, non-commutative Lorentzian spacetimes and curved momentum spaces  | arXiv:1907.07979 recid:1744437 cites:8",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1734187,
+    "line": "[2019] Hess, P.O.; Boller, Th; Müller, A. et al. (4) — Predictions of the pseudo-complex theory of Gravity for EHT observations – II: theory and predictions  | arXiv:1812.08440 recid:1734187 cites:5",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1616548,
+    "line": "[2017] Hess, Peter O. — Pseudo-Complex General Relativity  | arXiv:— recid:1616548 cites:1",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1510471,
+    "line": "[2017] Trześniewski, Tomasz — Nonlinear Field Space Theory and Quantum Gravity  | arXiv:1701.06865 recid:1510471 cites:4",
+    "anchors": [
+     "Born 1938",
+     "FLM 2014 dynamical phase space"
+    ]
+   },
+   {
+    "recid": 1415743,
+    "line": "[2016] Mielczarek, Jakub; Trześniewski, Tomasz — The Nonlinear Field Space Theory  | arXiv:1601.04515 recid:1415743 cites:12",
+    "anchors": [
+     "Born 1938",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 1402205,
+    "line": "[2016] Greiner, Walter; Hess, Peter O.; Schäfer, Mirko et al. (5) — There are No Black Holes—Pseudo-Complex General Relativity  | arXiv:— recid:1402205 cites:0",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1358474,
+    "line": "[2015] Castro, Carlos — A Clifford-gravity-based cosmology, dark matter and dark energy  | arXiv:— recid:1358474 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 1236181,
+    "line": "[2013] Hazboun, Jeffrey S; Wheeler, James T — Time and dark matter from the conformal symmetries of Euclidean space  | arXiv:1305.6972 recid:1236181 cites:10",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1233586,
+    "line": "[2013] Friedman, Yaakov — Extending the relativity of time  | arXiv:— recid:1233586 cites:3",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1303626,
+    "line": "[2013] Hess, Peter O.; Greiner, W.; Schönenbach, T. et al. (4) — Black Holes or Gray Stars? That’s the Question: Pseudo-Complex General Relativity  | arXiv:— recid:1303626 cites:0",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1123613,
+    "line": "[2012] Bolognesi, Stefano — A cosmology of a trans-Planckian theory and dark energy  | arXiv:1207.5514 recid:1123613 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 1091066,
+    "line": "[2012] Caspar, Gunther; Schonenbach, Thomas; Hess, Peter Otto et al. (5) — Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions  | arXiv:1202.6561 recid:1091066 cites:25",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1080690,
+    "line": "[2011] Castro, Carlos — Generalized gravity in Clifford spaces, vacuum energy and grand unification  | arXiv:— recid:1080690 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 882262,
+    "line": "[2010] Calixto, M.; Perez-Romero, E.; Aldaya, V. — Coherent States of Accelerated Relativistic Quantum Particles, Vacuum Radiation and the Spontaneous Breakdown of the Conformal SU(2,2) Symmetry  | arXiv:1012.4758 recid:882262 cites:3",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 870803,
+    "line": "[2010] Castro, Carlos — On Nonlinear Quantum Mechanics, Noncommutative Phase Spaces, Fractal-Scale Calculus and Vacuum Energy  | arXiv:— recid:870803 cites:0",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 859877,
+    "line": "[2010] Calixto, M.; Perez-Romero, E. — Conformal Spinning Quantum Particles in Complex Minkowski Space as Constrained Nonlinear Sigma Models in U(2,2) and Born's Reciprocity  | arXiv:1006.5958 recid:859877 cites:7",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1268217,
+    "line": "[2010] Hess, P.O.; Maghlaoui, L.; Greiner, W. — There are no black holes - pseudo-complex general relativity: Review and some predictions  | arXiv:— recid:1268217 cites:6",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 660789,
+    "line": "[2004] Toller, M. — Lagrangian and presymplectic particle dynamics with maximal acceleration  | arXiv:hep-th/0409317 recid:660789 cites:5",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 643561,
+    "line": "[2004] Moffat, J.W. — Quantum gravity momentum representation and maximum energy  | arXiv:gr-qc/0401117 recid:643561 cites:12",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 634307,
+    "line": "[2003] Toller, M. — Geometries of maximal acceleration  | arXiv:hep-th/0312016 recid:634307 cites:19",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 601536,
+    "line": "[2002] Castro, Carlos — On maximal acceleration, strings and the group of minimal Planck area relativity theory  | arXiv:hep-th/0211053 recid:601536 cites:5",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 589953,
+    "line": "[2002] Schuller, Frederic P. — Born-Infeld kinematics and correction to the Thomas precession  | arXiv:hep-th/0207047 recid:589953 cites:25",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 583888,
+    "line": "[2002] Schuller, Frederic P. — Born-Infeld kinematics  | arXiv:hep-th/0203079 recid:583888 cites:50",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 263890,
+    "line": "[1988] Brandt, Howard E. — MAXIMAL PROPER ACCELERATION AND THE STRUCTURE OF SPACE-TIME  | arXiv:— recid:263890 cites:0",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 263891,
+    "line": "[1988] Brandt, Howard E. — Maximal Proper Acceleration and the Structure of Space-time  | arXiv:— recid:263891 cites:73",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 3137722,
+    "line": "[2026] Randriantsoa, Philippe Manjakasoa; Ranaivoson, Ravo Tokiniaina; Andriambololona, Raoelina et al. (6) — Geometric structure of the relativistic quantum phase space  | arXiv:2603.28836 recid:3137722 cites:2",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2905801,
+    "line": "[2025] Zhao, Hua-Wei; Xie, Yong; Huang, Xinyao et al. (4) — Enhanced charging in multibattery systems by nonreciprocity  | arXiv:2503.22187 recid:2905801 cites:5",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2781257,
+    "line": "[2024] Broadbridge, Philip; Becirevic, Sarah; Hoxley, David — Non-Particulate Quantum States of the Electromagnetic Field in Expanding Space-Time  | arXiv:2404.17075 recid:2781257 cites:0",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2728901,
+    "line": "[2023] Alsing, Paul M.; Cafaro, Carlo — Upper limit on the acceleration of a quantum evolution in projective Hilbert space  | arXiv:2311.18470 recid:2728901 cites:9",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2823040,
+    "line": "[2023] Chargui, Yassine; Dhahbi, Anis — The vector DKP oscillator in the plane with a magnetic field and the Snyder–de Sitter algebra  | arXiv:— recid:2823040 cites:1",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2033566,
+    "line": "[2022] Hess, Peter O. — Why pseudo-complex General Relativity? and Applications  | arXiv:2202.08225 recid:2033566 cites:1",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1929084,
+    "line": "[2021] Edmonds, Douglas; Minic, Djordje; Takeuchi, Tatsu — On quantum gravity and quantum gravity phenomenology  | arXiv:2109.12763 recid:1929084 cites:0",
+    "anchors": [
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1726779,
+    "line": "[2019] Hess, Peter O. — Review on the Pseudocomplex General Relativity and Dark Energy  | arXiv:1903.10879 recid:1726779 cites:3",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1682833,
+    "line": "[2018] Kiosses, Vasileios I. — On the nature of quantum gravity  | arXiv:1807.06451 recid:1682833 cites:0",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1670030,
+    "line": "[2018] Céleri, Lucas Chibebe; Kiosses, Vasileios I. — Unruh effect as a result of quantization of spacetime  | arXiv:1804.09177 recid:1670030 cites:4",
+    "anchors": [
+     "Born 1949",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1657135,
+    "line": "[2017] Castro, Carlos — Maximal proper force, black hole horizons and matter as curvature in momentum space  | arXiv:— recid:1657135 cites:1",
+    "anchors": [
+     "Born 1949",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 1479402,
+    "line": "[2016] Castro, Carlos — A gauge theory of gravity in curved phase-spaces  | arXiv:— recid:1479402 cites:2",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1375010,
+    "line": "[2015] Bolognesi, S. — Born Reciprocity and Cosmic Accelerations  | arXiv:1506.02187 recid:1375010 cites:0",
+    "anchors": [
+     "Born 1949",
+     "FLM 2014 dynamical phase space",
+     "Bolognesi trans-Planckian 2012"
+    ]
+   },
+   {
+    "recid": 1337486,
+    "line": "[2015] Mignemi, Salvatore; Štrajn, Rina — Quantum mechanics on a curved Snyder space  | arXiv:1501.01447 recid:1337486 cites:31",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 839251,
+    "line": "[2012] Burgers, Jeroen G.; Mantz, Christiaan L.M.; Prokopec, Tomislav — The Newtonian Limit of Hermitian Gravity  | arXiv:0912.1517 recid:839251 cites:1",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 789406,
+    "line": "[2008] Jarvis, Peter D.; Morgan, S.O. — Constraint quantisation of a worldline system invariant under reciprocal relativity. II  | arXiv:0806.4794 recid:789406 cites:4",
+    "anchors": [
+     "Born 1949",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 782528,
+    "line": "[2008] Mantz, Christiaan; Prokopec, Tomislav — Hermitian Gravity and Cosmology  | arXiv:0804.0213 recid:782528 cites:31",
+    "anchors": [
+     "Born 1949",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 753956,
+    "line": "[2007] Govaerts, Jan; Jarvis, Peter D.; Morgan, Stuart O. et al. (4) — World-line quantisation of a reciprocally invariant system  | arXiv:0706.3736 recid:753956 cites:13",
+    "anchors": [
+     "Born 1949",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 671623,
+    "line": "[2004] Tomilchik, Lev M.; Kudryashov, Vladimir V. — Conformally flat metric, position-dependent mass and cold dark matter  | arXiv:gr-qc/0507090 recid:671623 cites:3",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 11426,
+    "line": "[1981] Caianiello, E.R. — IS THERE A MAXIMAL ACCELERATION?  | arXiv:— recid:11426 cites:198",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 3147521,
+    "line": "[2026] Hübsch, Tristan; Minic, Djordje — Quantum Spacetime, Quantum Gravity and Gravitized Quantum Theory  | arXiv:2604.19418 recid:3147521 cites:2",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2904985,
+    "line": "[2025] Hur, Sunhaeng; Jejjala, Vishnu; Kavic, Michael J. et al. (5) — Dynamical dark energy, dual spacetime, and DESI  | arXiv:2503.20854 recid:2904985 cites:12",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2806130,
+    "line": "[2024] Hübsch, Tristan; Minic, Djordje — Quantum Gravity as Gravitized Quantum Theory  | arXiv:2407.06207 recid:2806130 cites:9",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2778134,
+    "line": "[2024] Minic, Djordje — The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles  | arXiv:— recid:2778134 cites:0",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2683693,
+    "line": "[2023] Berglund, Per; Hübsch, Tristan; Minic, Djordje — String Theory Bounds on the Cosmological Constant, the Higgs Mass, and the Quark and Lepton Masses †  | arXiv:2307.16712 recid:2683693 cites:8",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2662459,
+    "line": "[2023] Minic, Djordje — The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles  | arXiv:2305.12593 recid:2662459 cites:3",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2609897,
+    "line": "[2022] Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G. et al. (4) — Vacuum energy density and gravitational entropy  | arXiv:2212.00901 recid:2609897 cites:29",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 2030712,
+    "line": "[2022] Berglund, Per; Dai, De-Chang; Edmonds, Douglas et al. (12) — Quantum Gravity and Phenomenology: Dark Matter, Dark Energy, Vacuum Selection, Emergent Spacetime, and Wormholes  | arXiv:2202.05104 recid:2030712 cites:2",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1965494,
+    "line": "[2021] Addazi, A.; Alvarez-Muniz, J.; Alves Batista, R. et al. (162) — Quantum gravity phenomenology at the dawn of the multi-messenger era—A review  | arXiv:2111.05659 recid:1965494 cites:619",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1831039,
+    "line": "[2020] Jejjala, Vishnu; Kavic, Michael J.; Minic, Djordje et al. (4) — Dynamical dark energy and infinite statistics  | arXiv:2011.08852 recid:1831039 cites:8",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1826817,
+    "line": "[2020] Berglund, Per; Hübsch, Tristan; Minic, Djordje — String Theory, the Dark Sector, and the Hierarchy Problem  | arXiv:2010.15610 recid:1826817 cites:23",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1796841,
+    "line": "[2020] Edmonds, Douglas; Minic, Djordje; Takeuchi, Tatsu — Dark Matter, Dark Energy and Fundamental Acceleration  | arXiv:2005.08927 recid:1796841 cites:6",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1735798,
+    "line": "[2019] Berglund, Per; Hübsch, Tristan; Minić, Djordje — Dark Energy and String Theory  | arXiv:1905.08269 recid:1735798 cites:29",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1697320,
+    "line": "[2018] Dai, De-Chang; Minic, Djordje; Stojkovic, Dejan — New wormhole solution in de Sitter space  | arXiv:1810.03432 recid:1697320 cites:43",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1623190,
+    "line": "[2017] Edmonds, Douglas; Farrah, Duncan; Minic, Djordje et al. (5) — Modified Dark Matter: Relating Dark Energy, Dark Matter and Baryonic Matter  | arXiv:1709.04388 recid:1623190 cites:29",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1413079,
+    "line": "[2016] Edmonds, Doug; Farrah, Duncan; Ho, Chi man et al. (6) — Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?  | arXiv:1601.00662 recid:1413079 cites:23",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 1356974,
+    "line": "[2015] Bravetti, A.; Lopez-Monsalvo, C.S.; Quevedo, H. — Maximally Symmetric Spacetimes emerging from thermodynamic fluctuations  | arXiv:1503.08358 recid:1356974 cites:2",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory"
+    ]
+   },
+   {
+    "recid": 2669772,
+    "line": "[2023] Gibson, Natalie — Exploration of the de Sitter/Conformal Field Theory Correspondence  | arXiv:— recid:2669772 cites:0",
+    "anchors": [
+     "FLM 2015 metastring",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1915715,
+    "line": "[2021] Berglund, Per; Hübsch, Tristan; Minic, Djordje — Stringy Bubbles Solve de Sitter Troubles  | arXiv:2109.01122 recid:1915715 cites:14",
+    "anchors": [
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 2874208,
+    "line": "[2025] Manoharan, Manosh T. — Entropy bounds and holographic dark energy: Conflicts and consensus  | arXiv:2501.18144 recid:2874208 cites:6",
+    "anchors": [
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 2647298,
+    "line": "[2023] Freidel, Laurent; Kowalski-Glikman, Jerzy; Leigh, Robert G. et al. (4) — On the inevitable lightness of vacuum  | arXiv:2303.17495 recid:2647298 cites:12",
+    "anchors": [
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1736529,
+    "line": "[2019] Berglund, Per; Hubsch, Tristan; Minic, Djordje — Dark energy and quantum gravity  | arXiv:1905.09463 recid:1736529 cites:16",
+    "anchors": [
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1649979,
+    "line": "[2018] Falomir, H.; Gamboa, J.; Gondolo, P. et al. (4) — Magnetic Seed and Cosmology as Quantum Hall Effect  | arXiv:1801.07575 recid:1649979 cites:9",
+    "anchors": [
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 1610283,
+    "line": "[2017] Falomir, H.; Gamboa, J.; Méndez, F. et al. (4) — Inflation without Inflaton: A Model for Dark Energy  | arXiv:1707.04670 recid:1610283 cites:11",
+    "anchors": [
+     "FLM 2016 quantum spaces are modular"
+    ]
+   },
+   {
+    "recid": 2030718,
+    "line": "[2022] Jejjala, Vishnu; Kavic, Michael; Minic, Djordje et al. (4) — First Principles Phenomenology of $H_0$  | arXiv:2202.05266 recid:2030718 cites:3",
+    "anchors": [
+     "FKGLM theory of metaparticles"
+    ]
+   }
+  ],
+  "C6/C7 clumping / velocity": [
+   {
+    "recid": 2826029,
+    "line": "[2024] Nasser Tawfik, Abdel; Pasqua, Antonio; Waqas, Muhammad et al. (5) — Quantum geometric perspective on the origin of quantum-conditioned curvatures  | arXiv:— recid:2826029 cites:15",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 2647891,
+    "line": "[2023] Maghlaoui, Leila; Hess, Peter O. — The pseudo-complex General Relativity and effects of a minimal length on the structure of black holes  | arXiv:— recid:2647891 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 2064400,
+    "line": "[2022] Maghlaoui, Leila; Hess, Peter O. — Consequences of a minimal length in a pseudo-complex extension of general relativity  | arXiv:2204.03509 recid:2064400 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1810209,
+    "line": "[2020] Artigas, Danilo; Bilski, Jakub; Crowe, Sean et al. (5) — General-relativistic spin system  | arXiv:2008.01729 recid:1810209 cites:2",
+    "anchors": [
+     "Born 1938",
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 1708468,
+    "line": "[2018] Khruschov, V.V. — Using Fundamental Physical Constants to Determine the Properties of Quantum Particles  | arXiv:— recid:1708468 cites:0",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 1625396,
+    "line": "[2017] Ghosh, Arnab — Born-Kothari Condensation for Fermions  | arXiv:— recid:1625396 cites:1",
+    "anchors": [
+     "Born 1938",
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "Low reciprocal relativity"
+    ]
+   },
+   {
+    "recid": 1515614,
+    "line": "[2017] Ghosh, Arnab; Ray, Deb Shankar — Born-Kothari condensation in an ideal Fermi gas  | arXiv:— recid:1515614 cites:2",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1402202,
+    "line": "[2016] Schönenbach, Thomas; Caspar, Gunther; Hess, Peter O. et al. (7) — Experimental Tests of Pseudo-Complex General Relativity  | arXiv:— recid:1402202 cites:0",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1091066,
+    "line": "[2012] Caspar, Gunther; Schonenbach, Thomas; Hess, Peter Otto et al. (5) — Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions  | arXiv:1202.6561 recid:1091066 cites:25",
+    "anchors": [
+     "Born 1938",
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 263891,
+    "line": "[1988] Brandt, Howard E. — Maximal Proper Acceleration and the Structure of Space-time  | arXiv:— recid:263891 cites:73",
+    "anchors": [
+     "Born 1938"
+    ]
+   },
+   {
+    "recid": 2837618,
+    "line": "[2024] Nandi, Partha; Bhattacharyya, Tiasha — Unearthing Neutrino Decoherence from Quantum Spacetime: An Open Quantum Systems Perspective  | arXiv:2410.03808 recid:2837618 cites:1",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 1861365,
+    "line": "[2021] Lukierski, Jerzy — Palatial Twistors from Quantum Inhomogeneous Conformal Symmetries and Twistorial DSR Algebras  | arXiv:2104.14306 recid:1861365 cites:1",
+    "anchors": [
+     "Born 1949",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1844365,
+    "line": "[2021] Bauer, M.; Aguillón, C.A. — Second quantization of time and energy in Relativistic Quantum Mechanics  | arXiv:2102.01042 recid:1844365 cites:1",
+    "anchors": [
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory"
+    ]
+   },
+   {
+    "recid": 1731275,
+    "line": "[2019] Artigas, Danilo; Mielczarek, Jakub; Rovelli, Carlo — A minisuperspace model of compact phase space gravity  | arXiv:1904.11338 recid:1731275 cites:4",
+    "anchors": [
+     "Born 1949",
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space"
+    ]
+   },
+   {
+    "recid": 1652949,
+    "line": "[2017] Strajn, Rina — Aspects of Snyder geometry  | arXiv:— recid:1652949 cites:0",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 656632,
+    "line": "[2004] Low, Stephen G. — Canonically relativistic quantum mechanics: Casimir field equations of the quaplectic group  | arXiv:math-ph/0404077 recid:656632 cites:2",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 539125,
+    "line": "[2000] Naudts, Jan; Kuna, Maciej — Model of a quantum particle in space-time  | arXiv:hep-th/0012209 recid:539125 cites:4",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 143502,
+    "line": "[1979] Takabayasi, T. — Relativistic Mechanics of Confined Particles as Extended Model of Hadrons: The Bilocal Case  | arXiv:— recid:143502 cites:73",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 8932,
+    "line": "[1950] Pais, A.; Uhlenbeck, G.E. — On Field theories with nonlocalized action  | arXiv:— recid:8932 cites:729",
+    "anchors": [
+     "Born 1949"
+    ]
+   },
+   {
+    "recid": 3215102,
+    "line": "[2026] Hübsch, Tristan; Minic, Djordje — Nambu's Dynamics, Strings and Gravitized Quantum Theory  | arXiv:2610.19522 recid:3215102 cites:0",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FLM 2014 dynamical phase space",
+     "FLM 2015 metastring",
+     "FLM 2016 quantum spaces are modular",
+     "FKGLM theory of metaparticles"
+    ]
+   },
+   {
+    "recid": 1794369,
+    "line": "[2020] Bascone, Francesco; Pezzella, Franco — Principal Chiral Model without and with WZ term: Symmetries and Poisson-Lie T-Duality  | arXiv:2005.02069 recid:1794369 cites:8",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory"
+    ]
+   },
+   {
+    "recid": 1723310,
+    "line": "[2019] Marotta, Vincenzo E.; Pezzella, Franco; Vitale, Patrizia — T-Dualities and Doubled Geometry of the Principal Chiral Model  | arXiv:1903.01243 recid:1723310 cites:16",
+    "anchors": [
+     "FLM 2013 Born reciprocity in string theory",
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 2706939,
+    "line": "[2023] Pawar, Kalpana; Dabre, A.K.; Makode, Pallavi — Plane Symmetric String Cosmological Model with Zero Mass Scalar Field in f (R) Gravity  | arXiv:— recid:2706939 cites:2",
+    "anchors": [
+     "FLM 2014 dynamical phase space"
+    ]
+   },
+   {
+    "recid": 1704175,
+    "line": "[2018] Lukierski, Jerzy; Meljanac, Stjepan; Woronowicz, Mariusz — Quantum twist-deformed $D = 4$ phase spaces with spin sector and Hopf algebroid structures  | arXiv:1811.07365 recid:1704175 cites:10",
+    "anchors": [
+     "FLM 2015 metastring",
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 1746191,
+    "line": "[2018] Ronco, Michele — Quantum Space-Time: theory and phenomenology  | arXiv:— recid:1746191 cites:0",
+    "anchors": [
+     "FLM 2015 metastring"
+    ]
+   },
+   {
+    "recid": 1665704,
+    "line": "[2018] Marotta, Vincenzo Emilio; Pezzella, Franco; Vitale, Patrizia — Doubling, T-Duality and Generalized Geometry: a Simple Model  | arXiv:1804.00744 recid:1665704 cites:27",
+    "anchors": [
+     "FRS 2017 generalised kinematics / Born geometry"
+    ]
+   },
+   {
+    "recid": 1119918,
+    "line": "[2012] Castro, Carlos — Gravity in curved phase-spaces, Finsler geometry and two-times physics  | arXiv:— recid:1119918 cites:7",
+    "anchors": [
+     "Low reciprocal relativity"
+    ]
+   }
+  ]
+ }
+}

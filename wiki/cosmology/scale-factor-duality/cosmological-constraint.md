@@ -29,6 +29,8 @@ sources:
   - "notes/closed-universe.md §2"
   - "notes/closed-universe.md §7"
   - "review/wiki-build-flags.md items 27 (addendum), 49"
+  - "notes/literature-check.md §6"
+  - "review/wiki-build-flags.md item 66"
 ---
 
 *The cosmological constraint is the relation a·ã = 1 between the scale factor a of our universe and the scale factor ã of its momentum-space description, the [conjugate universe](/wiki/program/conjugate-universe): as our universe expands, its momentum-space description contracts by exactly the same factor. It follows from the program's postulate that the [symplectic form](/wiki/phase-space/reciprocity/symplectic-form) ω, the structure that fixes the size of a cell of phase space and with it the value of Planck's constant, is rigid. A comoving cell therefore keeps its phase-space volume while position-space distances grow, which forces momentum-space distances to shrink; in signal terms, stretching a waveform compresses its spectrum. The relation is derived [D], and it turned one of the program's [founding suppositions](/wiki/program/founding-suppositions), that the conjugate universe shrinks as ours expands, into a theorem.*
@@ -102,7 +104,7 @@ It sets this beside the record: "The program's checkpoint identifies a·ã = 1 w
 
 ## The name: scale-factor duality [T]
 
-In string cosmology, scale-factor duality is a symmetry of the low-energy string equations for a homogeneous universe: a solution with scale factor a(t) maps to another solution with 1/a(t), together with a shift of the dilaton field (Veneziano 1991 †; Tseytlin 1991 †). It relates two different solutions. The program uses the name for the X = 0 form of modular inversion, g → g⁻¹ (#11 §6): if the metric is the unit metric scaled by a², its inverse is scaled by a⁻². The constraint a·ã = 1, by contrast, pairs the two scale factors of one state in its two descriptions (the wiki's reading of the difference; the documents use the name without comparing the two).
+In string cosmology, scale-factor duality is a symmetry of the low-energy string equations for a homogeneous universe: a solution with scale factor a(t) maps to another solution with 1/a(t), together with a shift of the dilaton field (Veneziano 1991 [S]; Tseytlin 1991 †). It relates two different solutions. The program uses the name for the X = 0 form of modular inversion, g → g⁻¹ (#11 §6): if the metric is the unit metric scaled by a², its inverse is scaled by a⁻². The constraint a·ã = 1, by contrast, pairs the two scale factors of one state in its two descriptions (the wiki's reading of the difference). As a map of fluid variables, string cosmology's duality with sources, under which each scale factor goes to its inverse and the pressure changes sign at fixed ρ̄, the energy density times the volume, is the program's [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary#in-the-literature) w_eff = −w̃ (Gasperini and Veneziano 2003, §2.2 [S]); for three spatial dimensions two agents of the literature check showed it in executed scripts, and section G of [the literature-check script](/wiki/method/verification/literature-check-script#section-g-the-algebra-behind-flag-66) checks it in the gate. The derivation from a·ã = 1 with one shared lapse is the program's (flag 66, pending).
 
 ## What follows
 
@@ -150,3 +152,4 @@ In string cosmology, scale-factor duality is a symmetry of the low-energy string
 - `review/wiki-build-flags.md` items 23, 25 — the |Z| = 1 identification (pending) and the §7 pointer slip
 - `popsci/universes-other-half.md` 'Dark energy as the orientation of the split' — the redshift gloss (popular article; explanation only)
 - `notes/closed-universe.md` §2, §7; `review/wiki-build-flags.md` item 27's addendum and item 49 — the turnaround in a closed universe, and the underived dual term with its physical combinations
+- `notes/literature-check.md` §6; `review/wiki-build-flags.md` item 66 — string cosmology's scale-factor duality with sources compared with the dictionary, as a map of fluid variables; Veneziano 1991 retrieved; pending

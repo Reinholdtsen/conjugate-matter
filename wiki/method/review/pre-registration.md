@@ -31,6 +31,9 @@ sources:
   - "review/closed-universe/preregistration.md"
   - "review/closed-universe/README.md"
   - "notes/closed-universe.md §10"
+  - "review/literature-check/preregistration.md"
+  - "review/literature-check/README.md"
+  - "notes/literature-check.md §11"
 ---
 
 *Pre-registration is the practice of writing down the verdict a blind review is expected to return and the weakest point the referee is expected to find, and fixing that forecast before the referee is dispatched: in rounds 3 and 4 by committing it to the repository, in round 5 by keeping it outside the repository and recording its hash. Because the forecast is fixed in advance it cannot be adjusted to the outcome, and scoring it afterwards measures how well the author judges the author's own work. The record so far: the verdict was forecast correctly in rounds 1 and 2, missed in round 3 and forecast correctly in rounds 4 and 5; the location of the weakest link was forecast correctly in rounds 4 and 5, while the severity of the defect there in round 4, and the number of small errors and the extent of prior art in round 5, were underestimated. Since round 3 the forecast has been kept out of the commit subject, because a referee subagent sees recent commit subjects.*
@@ -145,6 +148,17 @@ The investigation of P.R.'s question whether momentum gravity looks like a pertu
 
 The SHA-256 hashes of the three files as committed are in `review/momentum-gravity/README.md`. No review round followed; neither note has been reviewed.
 
+### The literature check (not a review round)
+
+The same practice was applied on 2026-11-02 to [the literature check](/wiki/method/literature-check) of P.R.'s conjectures. The expected verdict for each of the seven conjectures, with probabilities, two overall predictions, the weakest link of the check and the scoring rule were written "before any search agent was launched" and kept outside every folder an agent used until the check was done (`review/literature-check/preregistration.md`; `review/literature-check/README.md`). The file discloses that it was "written after scouting": testing the search tools had surfaced three papers, and "The priors below were formed partly before and partly after seeing them." Its scoring, appended after the verdict panel (`notes/literature-check.md` §11):
+
+- right: four of the seven verdicts, those for the two monopole conjectures, for conjugate collapse and for the long-range gated attraction; the hit for the explanation of the null result, like its verdict and the second overall prediction, is provisional until the full text of Khademi 2009 is read;
+- missed: dark matter as conjugate matter, predicted partly anticipated and found anticipated, and the magnetic mirror and velocity clumping, predicted related only and found partly anticipated; "All three misses underestimate the prior art". The three misses are three of the four verdicts that rest on a reading of the conjecture: under the other readings the judges state, each would have been a hit, and the hit for conjugate collapse a miss. For velocity clumping the prediction named the condensation literature itself and labeled it related, where the panel counts condensation as a form of the conjecture ([what it found](/wiki/method/literature-check#what-it-found));
+- both overall predictions held: that dark matter as conjugate matter or conjugate collapse would be at least partly anticipated, and that the two monopole conjectures would meet phrase collisions but no proposal of monopoles in momentum space;
+- the weakest link named, recall in venues the tools could not reach, "is where the residual risk sits".
+
+No review round followed: the note has not been through a blind review round, though agents reviewed its write-up (`notes/literature-check.md` §11).
+
 ### Across rounds
 
 The round-5 adjudication sums up the record:
@@ -195,3 +209,4 @@ Round 5's forecast was not committed before the review. The pre-registration say
 - `review/wiki-build-flags.md` item 35 — the round-3 file's pointer to `HANDOFF.md` §6 for the 2-for-2 record (pending)
 - `review/closed-universe/preregistration.md`, `review/closed-universe/README.md` and `notes/closed-universe.md` §10 — the closed-universe investigation's sealed forecast, its hash and its scoring
 - `review/momentum-gravity/README.md`, `review/momentum-gravity/preregistration-run2.md`, `review/momentum-gravity/preregistration-run3.md`, `review/momentum-gravity/preregistration-run4.md`, `notes/velocity-gated-gravity.md` §11 and `notes/gate-mechanism.md` §6 — the momentum-gravity investigation's three pre-registrations, the run-2 blindness failure, and the scores
+- `review/literature-check/preregistration.md`, `review/literature-check/README.md` and `notes/literature-check.md` §11 — the literature check's forecast, its disclosure, its storage outside the agents' folders and its scoring

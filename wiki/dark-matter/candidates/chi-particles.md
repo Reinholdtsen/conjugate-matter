@@ -34,6 +34,8 @@ sources:
   - "notes/gate-mechanism.md §5"
   - "notes/gate-mechanism.md §6"
   - "verify/gate_mechanism.py section D"
+  - "notes/literature-check.md §3"
+  - "review/wiki-build-flags.md item 69"
 ---
 
 *The χ-particle candidate is the proposal that [dark matter](/wiki/dark-matter) consists of particles of [conjugate matter χ](/wiki/dark-matter/conjugate-matter): matter in the momentum-polarized representation, the mirror image of ordinary, position-polarized matter. χ gravitates exactly like ordinary matter, so it falls, orbits and bends light like standard cold dark matter, but no gauge force of ordinary matter acts on it. Its own self-interaction works only between particles with nearly equal velocities — the [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) — which predicts strong self-scattering in slow [dwarf galaxies](/wiki/dark-matter/halo-astrophysics/dwarf-galaxies), none in fast galaxy clusters, and a knee in between. It is one of the program's three [dark-matter candidates](/wiki/dark-matter/candidates), and one of the two forms of P.R.'s core conjecture that dark matter is conjugate matter; its stability is assumed rather than derived, and its abundance is unexplained.*
@@ -93,7 +95,7 @@ Each entry in the table's last column is a row of #11 §13, [the predictions tab
 | [3](/wiki/predictions/island-discriminant), island discriminant | "Knee tail: sharp ⇒ particle; (v\*/σ)⁴ ⇒ wave" | "Diagnostic — selects the branch (particle vs wave χ)" |
 | [7](/wiki/predictions/direct-detection-null), direct detection and colliders | "**Permanent null** (both dark-sector candidates SM-decoupled; P4 strict)" | "Any confirmed non-gravitational DM–SM coupling" |
 
-DM is dark matter. Row 7's basis names two candidates, while §12 lists three (flag 63 in `review/wiki-build-flags.md`, pending, proposes wording that counts all three). Rows 1 and 2 are the gate seen in halo dynamics: strong scattering in dwarf galaxies, where velocities are low, and none in clusters, where they are high. Row 7 follows from strict P4: with no gauge force crossing polarizations, a detector built of ordinary matter can register χ only through gravity. #11 §15 counts rows 1 and 7 among the program's near-term falsification exposure.
+DM is dark matter. Row 7's basis names two candidates, while §12 lists three (flag 63 in `review/wiki-build-flags.md`, pending, proposes wording that counts all three). Rows 1 and 2 are the gate seen in halo dynamics: strong scattering in dwarf galaxies, where velocities are low, and none in clusters, where they are high. Two published fits bear on row 1 at cluster speeds: Kaplinghat, Tulin and Yu 2016, fitting halos from dwarfs to clusters, prefer a cross-section falling from about 2 cm²/g on galaxy scales to about 0.1 cm²/g on cluster scales, and Sagunski et al. 2021 find 0.19 ± 0.09 cm²/g in clusters, a mild preference over cold collisionless dark matter [S]. Both favour a nonzero value at cluster speeds, where row 1 gives particle χ none, and the first also a cross-section that falls with velocity, as the knee does, which the second finds consistent with its data; neither is the robust self-interaction at v ≫ v\* that kills the row ([the data situation](/wiki/predictions/self-interaction-knee#the-data-situation); flag 69, pending). Row 7 follows from strict P4: with no gauge force crossing polarizations, a detector built of ordinary matter can register χ only through gravity. #11 §15 counts rows 1 and 7 among the program's near-term falsification exposure.
 
 ## Particle χ and wave χ
 
@@ -131,3 +133,4 @@ The two regimes give different knees. For particle χ the tail is the gate's own
 - `review/wiki-build-flags.md` item 17 — the suspected √2 in μ between the two gate conventions; item 19 — the regime of the classicality bound; item 55 — the gate's mechanism not derived, pending; item 63 — rows 7 and 11 name two candidates, pending
 - `notes/gate-mechanism.md` §2 — exchanging X gives no gate; §5 — the proposed tags; the gate not refuted; §6 — what the script tests
 - `verify/gate_mechanism.py` section D — the benchmark's σ₀/m; the whole script reruns the note's arithmetic and algebra ([the gate-mechanism script](/wiki/method/verification/gate-mechanism-script))
+- `notes/literature-check.md` §3; `review/wiki-build-flags.md` item 69 — two fits of the self-interaction at cluster speeds, with their numbers; pending

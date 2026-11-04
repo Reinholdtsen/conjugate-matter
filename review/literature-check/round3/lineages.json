@@ -1,0 +1,940 @@
+{
+ "sweep": "Lineage sweep (round 3), C1-C7. Lineages followed, each by author and topic searches and its INSPIRE citation graph: Kadyshevsky's geometric approach (de Sitter momentum space, fundamental mass; Rodionov, Ibadov, Mir-Kasimov), Wheeler-Hazboun biconformal gravity, Caianiello's quantum geometry and maximal acceleration (Brandt, Tomilchik, Castro, Hess-Greiner pseudo-complex GR), Yukawa and Takabayasi bilocal fields, Born's later reciprocity papers and school (Fuchs, Green, Cheng, Rodriguez, Lande), Weber-Assis velocity-dependent gravity and Ghosh's inertial induction, Petit's Janus cosmology and the Bondi negative-mass line, Moffat's momentum-representation gravity, and further lineages that treat position and momentum (or velocity) symmetrically: Snyder-Yang, Majid's quantum Born reciprocity, Bars' 2T physics, Pavšič's phase-space Clifford QFT, Kim-Noz, EUP/GUP, tangent/cotangent-bundle and Finsler gravity (Stavrinos, Vacaru, Herrmann, Pfeifer-Voicu kinetic gas), and Carmeli's space-velocity cosmology. Databases: INSPIRE (author, title, abstract and full-text searches; refersto citation screens of the anchors filtered by subject terms; references of the closest paper), arXiv API, Crossref, OpenAlex (12 queries, 11 distinct, before its anonymous daily budget ran out), WebSearch and WebFetch, and two PDFs read directly (Assis's book; Ibadov-Murodov on INSPIRE). Result: 17 papers not on the known list (5 C1, 1 C2, 11 C5) plus one additional C5 reading of a listed paper (1305.6972); all 'related' except one collision. No lineage paper anticipates or partially states any of C1-C7. The closest to C5's shape is Manfredi, Rouet and Miller 2026 (clustering of a negative-mass population drives acceleration); the closest to C1 are the Kadyshevsky-Rodionov exotic fermions from a curved momentum space.",
+ "findings": [
+  {
+   "conjecture": "C1",
+   "id": "recid:1729689",
+   "citation": "V. N. Rodionov, A. M. Mandel, G. A. Kravtsova, \"Restriction of the Fermion Mass Spectrum in PT-Symmetric Systems and its Implications for Studying Dark Matter\", Theor. Math. Phys. 198, 412 (2019), doi:10.1134/S0040577919030061 (journal; not on arXiv). The same claim first appeared in Rodionov and Mandel, arXiv:1708.08394 (2017; arXiv preprint only).",
+   "relation": "related",
+   "summary": "Kadyshevsky lineage (de Sitter momentum space of radius M, the 'fundamental mass'). Rodionov's school recasts Kadyshevsky's geometric model as a non-Hermitian Dirac theory with a gamma5 mass term and a maximal mass M, and conjectures that the 'exotic' fermions present in both versions are constituents of dark matter. It continues the known Kadyshevsky, Mateev, Rodionov and Sorin 2007 (0708.4205, C1 related), where the exotic fermion field comes from a second factorization of the de Sitter momentum-space wave operator and its quanta are conjectured to be dark matter. The titles of the 26 and 24 INSPIRE citers of 0708.4205 and hep-ph/0512332, and an abstract filter on the citers of the older Kadyshevsky papers, show no other dark-matter proposal.",
+   "difference": "The exotic fermions are a new fermion species whose polarization and mass properties are fixed by the curvature of momentum space; they are not ordinary matter in the mirror polarization, are not organized or localized in momentum, and carry no velocity gate or momentum clumping. The same authors state that such particles violate the weak equivalence principle (Russ. Phys. J. 2018, separate entry), the opposite of C1's chi, which gravitates exactly like ordinary matter.",
+   "quotes": [
+    {
+     "text": "Exotic particles appear in both these theories. A detailed consideration of the properties of these particles allows conjecturing that they are possible candidates in the structure of dark matter.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "A consistent approach to this problem requires the constraint m ≤ M, where M bounds the entire fermion mass spectrum.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C1",
+   "id": "recid:1708693",
+   "citation": "V. N. Rodionov, A. M. Mandel, \"Violation of the Equivalence Principle in Non-Hermitian Fermion Theory\", Russ. Phys. J. 61, 1376 (2018), doi:10.1007/s11182-018-1545-9 (journal; not on arXiv)",
+   "relation": "related",
+   "summary": "Same school as the previous entry. A gamma5 extension of the Dirac mass term breaks the weak equivalence principle; the condition m2/m1 = m1/2M <= 1 preserves it for Standard Model fermions to high accuracy, and the same condition yields a new class of solutions whose properties make them dark-matter candidates. A companion conference paper (Rodionov, Kravtsova, Mandel 2019, doi:10.1142/9789811202339_0072, INSPIRE recid:1738434) states an inertial-gravitational 'paradox' for the exotic particles.",
+   "difference": "Dark matter is a new solution class of a modified Dirac equation tied to a maximal mass, not conjugate (momentum-polarized) ordinary matter. The inertial-gravitational mass split ascribed to the exotic particles weighs against identifying C1's chi with them, since chi falls exactly like ordinary matter.",
+   "quotes": [
+    {
+     "text": "a new class of solutions of the modified Dirac equation arises that describes particles whose properties make them obvious candidates for dark matter",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "such procedure inevitably leads to violation of the weak equivalence principle, i.e., causes an inequality of gravitational and inert fermion masses",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C1",
+   "id": "recid:392350",
+   "citation": "J.-P. Petit, \"Twin universes cosmology\", Astrophys. Space Sci. 226, 273 (1995), doi:10.1007/BF00627375 (journal)",
+   "relation": "related",
+   "summary": "Janus / twin-universe lineage (Sakharov, Petit). The early journal statement of the lineage's replacement for dark matter: lensing effects ascribed to dark matter could come from the gravitational action of the 'antipodal matter' of a twin sector. It is the root of the known Petit, Margnat and Zejli 2024 (2412.04644, C1 related).",
+   "difference": "The twin matter has negative mass (it repels ours) and sits on a second metric, not in the momentum polarization; it replaces dark matter rather than being a dark species that gravitates like ours; no velocity gate and no momentum localization.",
+   "quotes": [
+    {
+     "text": "A theory of inverse gravitational lensing is developed, in which the observed effects could be due mainly to the action of surrounding ‘antipodal matter’. This is an alternative to the explanation based on dark matter existence.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C1",
+   "id": "2205.02787",
+   "citation": "M. Pavšič, \"A new perspective on quantum field theory revealing possible existence of another kind of fermions forming dark matter\", Int. J. Geom. Meth. Mod. Phys. 19, 2250184 (2022), doi:10.1142/S0219887822501845; arXiv:2205.02787 (journal)",
+   "relation": "related",
+   "summary": "Pavšič works in the reciprocity lineage (his Phys. Lett. B 680 (2009) 526, arXiv:0907.2773, studies the reciprocally invariant system of Low and of Govaerts et al.). Here quantum fields are generators of orthogonal or symplectic Clifford algebras built on phase-space basis vectors; doubling the creation and annihilation operators gives a second copy of leptons and quarks that does not couple to our U(1)xSU(2) gauge fields and is identified with dark matter.",
+   "difference": "The dark copy is separated by its gauge couplings (a doubling through an extra imaginary unit), not by polarization; it is not organized or localized in momentum and has no velocity gate. It resembles P4 (gauge forces do not cross sectors) but involves no broken reciprocity.",
+   "quotes": [
+    {
+     "text": "are expected to be invisible to ordinary particles, and thus form dark matter",
+     "where": "conclusion",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "For us it is thus “dark matter”.",
+     "where": "section on the doubled Dirac field",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Next, we bring into the description the phase space basis vectors that can be either symplectic or orthogonal",
+     "where": "introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C1",
+   "id": "1802.03228",
+   "citation": "J. Herrmann, \"Extension of the standard model of electroweak interaction and Dark Matter in the tangent bundle geometry\", Eur. Phys. J. C 79, 779 (2019), doi:10.1140/epjc/s10052-019-7260-z; arXiv:1802.03228 (2018; arXiv title 'Electroweak interaction beyond the Standard Model and Dark Matter in the Tangent Bundle Quantum Field Theory') (journal)",
+   "relation": "related",
+   "summary": "Tangent-bundle lineage (spacetime plus its velocity fibre). Internal symmetries come from transformations of tangent vectors along the fibre at a fixed point; the connection coefficients give the Standard Model gauge fields and extra particles, among them dark-matter candidates with zero isospin and hypercharge but a nonzero charge of the fibre group E^c(2). Follow-ups: EPJC 82, 947 (2022), arXiv:2207.14557; arXiv:2610.35778 (2026).",
+   "difference": "Dark matter is a set of new gauge-sector particles labelled by a fibre-symmetry charge; nothing is localized in or organized around momentum, and there is no mirror polarization or velocity gate.",
+   "quotes": [
+    {
+     "text": "The connection coefficients deliver the SM gauge potentials but also hypothetical gauge bosons and other hypothetical particles as well as candidate Dark Matter particles are predicted.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "symmetries arising from transformations of tangent vectors along the fiber axis at a fixed space-time point",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2405.09348",
+   "citation": "V. Kupriyanov, M. Kurkov, A. Sharapov, \"Classical mechanics in noncommutative spaces: confinement and more\", Eur. Phys. J. C 84, 1068 (2024), doi:10.1140/epjc/s10052-024-13372-7; arXiv:2405.09348 (journal)",
+   "relation": "collision",
+   "summary": "Curved-momentum-space lineage (Snyder, Kadyshevsky, Lie-group momentum spaces), found among the citers of Kadyshevsky's papers. For su(2) noncommutativity the momentum space is a curved Lie group, and the leading correction to Kepler motion acts like the force of a magnetic monopole at the origin, with a strength proportional to the particle's mass.",
+   "difference": "The 'monopole' is an effective, geometric force in position space produced by the curvature of momentum space; no magnetically charged object exists, nothing is localized in momentum, and nothing bears on dark matter or on monopole searches. Compare the known Berard and Mohrbach 2004 (hep-th/0310167).",
+   "quotes": [
+    {
+     "text": "This looks like a force exerted on the charge by a magnetic monopole located at the origin.",
+     "where": "section 4 (su(2) Kepler problem)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "A nontrivial point is that the magnitude of this additional force is proportional to the mass of the charged particle.",
+     "where": "section 4",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "We show that the curvature of the momentum space may lead to rather unexpected physical phenomena",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "1305.6972",
+   "citation": "J. S. Hazboun, J. T. Wheeler, \"Time and dark matter from the conformal symmetries of Euclidean space\", Class. Quantum Grav. 31, 215001 (2014); arXiv:1305.6972 (2013) (journal)",
+   "relation": "related",
+   "summary": "Listed in known.json as C1 related; this is an additional C5 reading of the same paper, from the Wheeler-Hazboun biconformal lineage. In biconformal space (an 8-dimensional phase space from the conformal group) the configuration and momentum Lagrangian submanifolds are both Lorentzian; their curvatures are coupled so that the difference of their Einstein tensors is fixed while curvature can be moved between them (either may be made flat). On the configuration side the leftover geometric terms act as a cosmological constant plus a cosmological dust, offered as dark energy and dark matter. Hazboun's PhD dissertation (Utah State University, 2014, doi:10.26076/cec1-e114; abstract read by WebFetch only) and Lovelady and Wheeler, Phys. Rev. D 93 (2016) 085002, report the interpretation; the 10 INSPIRE citers (titles, and full texts for Wheeler's group) add no momentum-space dark-sector claim.",
+   "difference": "A geometric identity of a homogeneous solution: nothing contracts, the momentum submanifold has no scale-factor dynamics, and the cosmological constant is produced neither by collapse nor by kinetic content on the momentum side. It shares C5's theme that the momentum half of the geometry sets our cosmological terms, not its mechanism.",
+   "quotes": [
+    {
+     "text": "This coupling between the momentum and configuration space curvatures adds a sort of complementarity that goes beyond the suggestion by Born",
+     "where": "section 7.3",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "the curvature moves between momentum and configuration space but this difference remains unchanged",
+     "where": "section 7.3",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "We may even make one or the other Lagrangian submanifold flat.",
+     "where": "section 7.3",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Finally, we examine the curvature of these Lorentzian connections and find both a cosmological constant and cosmological “dust”.",
+     "where": "section 5 (opening)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "gr-qc/0401117",
+   "citation": "J. W. Moffat, \"Quantum gravity momentum representation and maximum energy\", Int. J. Geom. Meth. Mod. Phys. 13, 1650005 (2016; INSPIRE gives 2015); arXiv:gr-qc/0401117 (2004) (journal)",
+   "relation": "related",
+   "summary": "Moffat's momentum-representation gravity. Following Born, a momentum-space metric and curvature obey p-space Einstein equations with a p-space cosmological constant and a source read as the density of spacetime curvature per p-space volume; flat spacetime gives flat p-space, and a closed p-space gives a maximum momentum and a finite vacuum energy density. Its citers include the known Bolognesi 2012 and 2015 papers.",
+   "difference": "No conjugate scale factor, no contraction and no acceleration of our expansion: the momentum geometry regularizes the vacuum energy (an ultraviolet cutoff) rather than sourcing late-time acceleration.",
+   "quotes": [
+    {
+     "text": "The absence of spacetime curvature produces a flat p-space geometry. This suggests that the existence of a curved spacetime manifold is associated with a curvature of the momentum p-space.",
+     "where": "conclusions",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "are the p-space equivalents of the x-space cosmological constant and matter action, respectively",
+     "where": "section 3",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "The vacuum energy density and the self-energy of a charged particle are shown to be finite",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "1001.5208",
+   "citation": "P. O. Hess, L. Maghlaoui, W. Greiner, \"The Robertson-Walker Metric in a Pseudo-Complex General Relativity\", Int. J. Mod. Phys. E 19, 1315 (2010); arXiv:1001.5208 (journal)",
+   "relation": "related",
+   "summary": "Hess-Greiner pseudo-complex GR, in the Caianiello maximal-acceleration lineage: coordinates X = x + I l u with u a four-velocity, so the line element is dx.dx + l^2 du.du. In a pseudo-complex Robertson-Walker metric an extra energy-momentum contribution acts as dark energy whose density may change with the radius of the universe; for a power-law index beta > 1/3 it accelerates the expansion. Known entries of this lineage: 1202.6561 (C5 collision), 2101.04152 (C5 related).",
+   "difference": "The dark-energy term is a phenomenological addition from the theory's extended variational principle (the functions xi), not the contraction or kinetic content of a conjugate universe; the velocity coordinates enter only through Caianiello's line element.",
+   "quotes": [
+    {
+     "text": "A contribution to the energy-momentum tensor arises, which corresponds to a dark energy and may change with the radius of the universe, i.e., time.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Others [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] introduced a maximal acceleration, related to a minimal length parameter in the theory",
+     "where": "introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "where in the last step we simply substituted",
+     "where": "section 2, line element eq. (19) in coordinates and four-velocities",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:2697605",
+   "citation": "R. M. Ibadov, S. N. Murodov, \"The fundamental equation of the field theory in De Sitter pulse space\", Phys. Sci. Tech. 6, 33 (2019), doi:10.26577/phst-2019-1-p4 (journal of al-Farabi Kazakh National University; not on arXiv)",
+   "relation": "related",
+   "summary": "Kadyshevsky lineage ('pulse space' = momentum space; Ibadov was Kadyshevsky's co-author). With a de Sitter momentum space the field equation is posed as a Cauchy problem in the fifth coordinate, so each field has doubled data in ordinary spacetime, phi(x) and an auxiliary chi(x) = -(1/M) dPhi/dx5; the authors suggest chi as a candidate 'phantom field' for the accelerated expansion. The passage (page 5) was read in the PDF hosted on INSPIRE (inspirehep.net/files/ac646f4b7b7552cd58f94abf035675da, text extracted with pypdf).",
+   "difference": "A one-sentence suggestion with no cosmological model. chi is an auxiliary partner field produced by the curvature of momentum space, not a conjugate universe, and a phantom field (w < -1) is not C5's route, in which kinetic-dominated conjugate content acts as w = -1.",
+   "quotes": [
+    {
+     "text": "One of these functions,probably to consider as the candidate on “the Phantom field” responsible for expansion of the Universewith acceleration.",
+     "where": "abstract (INSPIRE; spacing as in the record)",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:1415348",
+   "citation": "J. P. Petit, G. D'Agostini, \"Cosmological bimetric model with interacting positive and negative masses and two different speeds of light, in agreement with the observed acceleration of the Universe\", Mod. Phys. Lett. A 29, 1450182 (2014), doi:10.1142/S021773231450182X (journal)",
+   "relation": "related",
+   "summary": "Janus bimetric model: a positive-mass and a negative-mass species, each with its own metric and speed of light; the asymmetry of the model makes the positive species (ours) accelerate while the negative one slows down. Companion of the known Petit and d'Agostini 2014 Astrophys. Space Sci. paper (C5 related).",
+   "difference": "The other sector is negative-mass matter on a second metric, not the momentum-space description of our universe; our acceleration comes from its dominant repulsive gravity, not from its collapse; the two scale factors are not inverses of each other.",
+   "quotes": [
+    {
+     "text": "As shown earlier, the asymmetry of the model explains the acceleration of the positive species, while the negative one slows down.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:1285852",
+   "citation": "J.-P. Petit, G. d'Agostini, \"An alternative model, explaining the VLS, created by the gravitational interaction of two matter populations, one composed of positive mass and the other of negative mass\", J. Phys. Conf. Ser. 490, 012096 (2014), doi:10.1088/1742-6596/490/1/012096 (conference proceedings)",
+   "relation": "related",
+   "summary": "Same lineage: if the negative-mass population is much denser it first forms clusters by gravitational instability, and positive matter is pushed into the space between them, forming the very large structure. Together with the previous entry, the Janus lineage has both halves of C5's image, the twin sector's gravitational collapse and our sector's acceleration, but states them separately.",
+   "difference": "The twin sector's collapse is said to shape our large-scale structure, not to drive our expansion; no Janus paper found links the collapse to the acceleration.",
+   "quotes": [
+    {
+     "text": "If the mass density of the negative material is much larger, it first forms clusters by gravitational instability.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2601.22910",
+   "citation": "G. Manfredi, J.-L. Rouet, B. Miller, \"The Bondi universe: Can negative mass drive the cosmological expansion?\", Phys. Dark Univ. 54, 102493 (2026), doi:10.1016/j.dark.2026.102493; arXiv:2601.22910 (journal)",
+   "relation": "related",
+   "summary": "Negative-mass (Bondi) lineage, reached through the Janus papers (it cites Petit and d'Agostini 2014). With equal amounts of positive and negative Bondi masses, mixed configurations are unstable (Vlasov-Poisson analysis); one-dimensional N-body runs show a ballistic phase, a random-walk acceleration from Bondi encounters, and then uniform acceleration set off by the formation of stable positive/negative pairs, so the acceleration comes from the nonlinear gravitational dynamics of the mixed population, without dark energy. Of the lineages swept, this is the closest statement of the shape of C5: gravitational clustering of a second population produces the acceleration.",
+   "difference": "The second population is negative mass sharing our space, not a momentum-polarized sector or a conjugate description; the acceleration is the runaway of positive/negative pairs, not the duality map of a contracting conjugate universe with kinetic-dominated content; the simulations are one-dimensional.",
+   "quotes": [
+    {
+     "text": "an intermediate random-walk acceleration driven by sporadic Bondi encounters, and finally a uniformly accelerating phase triggered by the formation of stable positive/negative mass pairs",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "These results suggest that cosmic acceleration may arise from the nonlinear dynamics of a gravitationally neutral mixed-mass universe, without invoking dark energy or a cosmological constant.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "astro-ph/0607626",
+   "citation": "S. Räsänen (INSPIRE: Rasanen), \"Accelerated expansion from structure formation\", JCAP 11 (2006) 003, doi:10.1088/1475-7516/2006/11/003; arXiv:astro-ph/0607626 (journal)",
+   "relation": "related",
+   "summary": "Backreaction lineage, met in the references of the previous entry and outside the position-momentum lineages assigned to this sweep. Using the exact averaging equations for dust, an analytical toy model shows how gravitational collapse can make the averaged expansion accelerate. Its sentence is the closest published wording found to 'their collapse is our acceleration'. Later work of the same kind: Lapi et al., arXiv:2310.06028 and arXiv:2502.05823 (acceleration emerging from structure formation).",
+   "difference": "The collapsing matter is our own, in position space, and the acceleration is that of a volume average; there is no conjugate universe, no duality map and no kinetic-dominated dual content. The paper itself says more quantitative work is needed for a detailed comparison with data.",
+   "quotes": [
+    {
+     "text": "We demonstrate with an analytical toy model how gravitational collapse can lead to acceleration.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2504.08062",
+   "citation": "C. Pfeifer, N. Voicu, A. Friedl-Szász, E. Popovici-Popescu, \"From kinetic gases to an exponentially expanding universe — the Finsler-Friedmann equation\", JCAP 10 (2025) 050, doi:10.1088/1475-7516/2025/10/050; arXiv:2504.08062 (journal)",
+   "relation": "related",
+   "summary": "Finsler kinetic-gas lineage (gravity on the position-velocity tangent bundle). Gravity is coupled to the whole one-particle distribution of matter in position and velocity, not only to its second moment; the higher velocity moments contribute, and a Finslerian vacuum solution already gives exponential expansion without a cosmological constant. Earlier: Hohmann, Pfeifer and Voicu, \"The kinetic gas universe\", Eur. Phys. J. C 80, 809 (2020), arXiv:2005.13561, which conjectures that the velocity distribution could account for dark energy.",
+   "difference": "Closest in theme to C5's route (velocity-side, kinetic content acting as a cosmological constant), but the velocity distribution is that of our own matter coupled to a Finsler geometry; no conjugate universe, no contraction, no a·ã = 1 map.",
+   "quotes": [
+    {
+     "text": "This standard procedure raises the question why the other moments of the 1PDF (which are needed to fully characterize the kinematical properties of the gas) do not contribute to the gravitational field and what could be their relevance in addressing the dark energy problem?",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Using the canonical coupling of the entire 1PDF to Finsler spacetime geometry via the Finsler gravity equation, we show that these higher moments contribute non-trivially.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "We find that already a Finslerian vacuum solution naturally permits an exponential expanding universe, without the need for a cosmological constant or any additional quantities.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C5",
+   "id": "2312.15552",
+   "citation": "E. Kapsabelis, E. N. Saridakis, P. C. Stavrinos, \"Finsler–Randers–Sasaki gravity and cosmology\", Eur. Phys. J. C 84, 538 (2024); arXiv:2312.15552 (2023) (journal)",
+   "relation": "related",
+   "summary": "Tangent-bundle (Stavrinos) lineage: on a Lorentz tangent bundle the horizontal (position) and vertical (velocity) spaces each get generalized Friedmann equations, with the matter fluid moving in both, and the extra geometric terms form an effective dark-energy sector (quintessence, phantom or crossing). Earlier, Triantafyllopoulos and Stavrinos, Class. Quantum Grav. 35, 085011 (2018), arXiv:1903.12521, attribute the accelerated expansion to the geometry, with the velocity-space dynamics contributing decisively.",
+   "difference": "The velocity space is a fibre over our spacetime with no scale factor of its own that contracts; the dark energy is a generic effect of the extra geometry, not the collapse or kinetic domination of a conjugate universe.",
+   "quotes": [
+    {
+     "text": "Applying these modified field equations at a cosmological setup we extract the generalized Friedmann equations for the horizontal and vertical space, showing that we obtain an effective dark energy sector arising from the richer underlying structure of the tangent bundle.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "while u^{\\mu} and y^{\\alpha} are the velocities of the fluid in the horizontal and vertical space respectively",
+     "where": "section III",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "recid:2836372",
+   "citation": "L. M. Tomilchik, \"Reciprocal invariant, maximum tension principle, and the Lorentz complex group as the symmetry of gravitational interaction.\", Dokl. Nats. Akad. Nauk Belarusi 60, 41 (2016) (journal; not on arXiv)",
+   "relation": "related",
+   "summary": "Tomilchik (Born-reciprocity and maximal-acceleration lineage; co-author of the known gr-qc/0507090) proposes a quasi-Newtonian, reciprocally invariant Hamiltonian dynamics of gravitating masses obeying a maximum-tension principle; at the mass of the universe it reproduces a cyclic cosmology with upper and lower limits on energy density and expansion rate.",
+   "difference": "Reciprocity is a symmetry of one Hamiltonian; there is no conjugate sector, no contracting dual universe and no account of the present acceleration (Tomilchik's other papers, e.g. Nonlin. Phenom. Complex Syst. 16, 99 (2013), read the dark-energy effect as an observer's non-inertiality).",
+   "quotes": [
+    {
+     "text": "The quasi-Newtonian model of the reciprocal invariant Hamiltonian dynamics of gravitating masses, which obeys the Gibson maximum tension principle, is proposed.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "In the limiting case of the Universe mass the model reproduces the cyclic variant of traditional cosmology.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C5",
+   "id": "astro-ph/0111259",
+   "citation": "M. Carmeli, \"Accelerating universe, cosmological constant and dark energy\", arXiv:astro-ph/0111259 (2001; arXiv preprint, no journal reference in INSPIRE)",
+   "relation": "related",
+   "summary": "Carmeli's cosmological relativity, a lineage that makes velocity a coordinate of the cosmological manifold (space-velocity, later space-time-velocity): of the three expansions its field equations allow, only the accelerating one is possible, with no cosmological constant and no pressure. The same programme derives the Tully-Fisher law without halo dark matter (Int. J. Theor. Phys. 37, 2621 (1998), arXiv:astro-ph/9607142).",
+   "difference": "Carmeli's velocity is the Hubble-flow velocity used as a coordinate, not particle momentum; there is no conjugate matter and no contracting dual universe.",
+   "quotes": [
+    {
+     "text": "We present a space-velocity theory of gravitation in a 4-dimensional curved space. The solutions of the field equations yield 3 possibilities for the universe expansion but only the accelerating one is possible.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "The velocity v is used here in the sense of cosmology, as in Hubble’s law, and is usually not the time-derivative of the distance.",
+     "where": "section 2",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "low"
+  }
+ ],
+ "queries": [
+  {
+   "database": "INSPIRE",
+   "query": "(a Kadyshevsky, V.G. or a Rodionov, V.N. or a Mateev, M.D.) and (abstracts.value:\"dark matter\" or t \"dark matter\" or t exotic or abstracts.value:exotic) --size 40 --sort mostrecent",
+   "hits": "11 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Kadyshevsky, V.G. --size 100 --sort mostcited",
+   "hits": "86 hits"
+  },
+  {
+   "database": "INSPIRE (citations, forward)",
+   "query": "0708.4205 --size 40",
+   "hits": "26 hits"
+  },
+  {
+   "database": "INSPIRE (citations, forward)",
+   "query": "hep-ph/0512332 --size 40",
+   "hits": "24 hits"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"de Sitter momentum space\" \"dark matter\" --field title_and_abstract --size 20",
+   "hits": "3 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"curved momentum space\" \"dark matter\" --field title_and_abstract --size 25",
+   "hits": "0 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"de Sitter momentum space\" \"dark matter\" --field title_and_abstract --size 3 --abstracts",
+   "hits": "3 works"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t biconformal or abstracts.value:biconformal --size 80 --sort mostrecent",
+   "hits": "25 hits"
+  },
+  {
+   "database": "INSPIRE (citations, forward)",
+   "query": "1305.6972 --size 20",
+   "hits": "10 hits"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "biconformal --field title_and_abstract --size 50",
+   "hits": "53 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "Understanding Λ with the Aid of Biconformal Gravity --field title --size 3 --abstracts",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "biconformal \"dark matter\" --field title_and_abstract --size 20 --abstracts",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "Conformal Gravity and Time Hazboun --field title_and_abstract --size 3 --abstracts",
+   "hits": "0 works"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"maximal acceleration\" or abstracts.value:\"maximal acceleration\") and (abstracts.value:\"dark matter\" or abstracts.value:\"dark energy\" or abstracts.value:cosmolog* or t cosmolog*) --size 60 --sort mostcited",
+   "hits": "12 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Caianiello, E.R. --size 60 --sort mostcited",
+   "hits": "70 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(refersto:recid:11426 or refersto:recid:283424 or refersto:recid:287230 or refersto:recid:220729) and (abstracts.value:\"dark matter\" or abstracts.value:\"dark energy\" or abstracts.value:\"accelerat* expansion\" or t cosmolog* or abstracts.value:\"rotation curves\" or abstracts.value:galax*) --size 60 --sort mostcited",
+   "hits": "24 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Born, Max or a Born, M.) and (t reciprocity or t reciprocal or t \"unifying quantum theory\" or t \"elementary particles\" or t \"rest masses\" or t \"rest-masses\") --size 40 --sort mostcited",
+   "hits": "13 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Fuchs, K. or a Green, H.S.) and (t reciprocity or t reciprocal) --size 30",
+   "hits": "6 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t bilocal or t bi-local or t \"nonlocal field\" or t \"non-local field\") and (t reciprocity or abstracts.value:reciprocity or abstracts.value:\"Born\") --size 40 --sort mostcited",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t bilocal or t bi-local or abstracts.value:bilocal or abstracts.value:bi-local) and (abstracts.value:\"dark matter\" or t \"dark matter\") --size 30 --sort mostcited",
+   "hits": "14 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Yukawa, H. and (t \"non-local\" or t nonlocal or t \"elementary domain\" or t \"structure and mass spectrum\") --size 20 --sort mostcited",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Takabayasi and (t bilocal or t \"bi-local\" or t \"extended model\" or t \"confined particles\") --size 20 --sort mostcited",
+   "hits": "8 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(refersto:recid:26319 or refersto:recid:26321 or refersto:recid:26322 or refersto:recid:26320 or refersto:recid:143502 or refersto:recid:98318) and (abstracts.value:reciprocity or abstracts.value:\"dark matter\" or abstracts.value:cosmolog* or abstracts.value:\"momentum space\" or abstracts.value:\"phase space\") --size 60 --sort mostcited",
+   "hits": "32 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Kim, Y.S. or a Noz, M.E.) and (t reciprocity or abstracts.value:reciprocity or abstracts.value:\"Born\") --size 20 --sort mostcited",
+   "hits": "1 hits"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"Weber\" gravitational force \"dark matter\" --field title_and_abstract --size 40",
+   "hits": "54 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"Weber-type\" gravitation --field title_and_abstract --size 30",
+   "hits": "43 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"Webers law\" gravitation galaxies --field title_and_abstract --size 20",
+   "hits": "1 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"relational mechanics\" \"dark matter\" --field title_and_abstract --size 20",
+   "hits": "1 works"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "doi:10.1142/S0218271815500364",
+   "hits": "0 hits"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"inertial induction\" --field title_and_abstract --size 30",
+   "hits": "26 works"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "Assis Weber law gravitation Mach --size 25",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Assis, A.K.T. --size 60 --sort mostcited",
+   "hits": "7 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "Assis On Mach principle Weber gravitation Foundations of Physics Letters --size 8",
+   "hits": "8 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Petit, Jean-Pierre or a Petit, J.P. or a dAgostini, G.) and (t Janus or t \"twin\" or t \"negative mass\" or t bimetric or t \"enantiomorphic\" or abstracts.value:Janus) --size 50 --sort mostrecent",
+   "hits": "11 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Moffat, J.W. and (t momentum or abstracts.value:\"momentum space\" or abstracts.value:\"momentum representation\" or t \"phase space\" or t reciprocity) --size 40 --sort mostcited",
+   "hits": "9 hits"
+  },
+  {
+   "database": "INSPIRE (citations, forward)",
+   "query": "gr-qc/0401117 --size 15",
+   "hits": "12 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Vacaru, S. and (abstracts.value:\"dark matter\" or abstracts.value:\"dark energy\") and (abstracts.value:cotangent or abstracts.value:\"phase space\" or abstracts.value:\"phase spaces\" or abstracts.value:momentum or abstracts.value:Hamilton) --size 40 --sort mostrecent",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Vacaru or a Bubuianu) and (t \"dark matter\" or t \"dark energy\") and (t Finsler or t Hamilton or t \"phase space\" or t \"dispersion\" or t cotangent or abstracts.value:\"cotangent\") --size 40 --sort mostrecent",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"tangent bundle\" or t \"cotangent bundle\" or t \"vector bundle\" or t \"phase space\" or t \"phase-space\") and (t \"dark energy\" or t \"dark matter\" or t \"dark gravitational\" or t cosmolog*) --size 50 --sort mostcited",
+   "hits": "219 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"tangent bundle\" or t \"cotangent bundle\" or t \"vector bundle\" or abstracts.value:\"cotangent bundle\") and (abstracts.value:\"dark energy\" or abstracts.value:\"dark matter\") --size 40 --sort mostcited",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Bars, Itzhak and (abstracts.value:\"dark matter\" or t \"dark matter\" or abstracts.value:\"dark energy\" or t cosmolog*) --size 30 --sort mostcited",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Pavsic, M. and (abstracts.value:\"dark matter\" or abstracts.value:\"mirror\" or abstracts.value:\"phase space\" or abstracts.value:reciprocity) --size 40 --sort mostcited",
+   "hits": "10 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Bars, Itzhak and (t \"2T\" or t \"two-time\" or t \"two time\") and fulltext \"dark matter\" --size 20 --sort mostcited",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"extended uncertainty\" or abstracts.value:\"extended uncertainty principle\") and (abstracts.value:\"dark matter\" or abstracts.value:\"rotation curves\" or abstracts.value:MOND) --size 30 --sort mostcited",
+   "hits": "5 hits"
+  },
+  {
+   "database": "OpenAlex",
+   "query": "\"Born reciprocity\" --field title_and_abstract --size 100",
+   "hits": "OpenAlex error 429"
+  },
+  {
+   "database": "Crossref",
+   "query": "Weber gravitational force relative velocity dark matter galaxies --size 20",
+   "hits": "20 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "velocity-dependent gravitational interaction galaxies without dark matter Weber Mach --size 20",
+   "hits": "20 items"
+  },
+  {
+   "database": "arXiv API",
+   "query": "ti:Weber AND (ti:gravity OR ti:gravitational OR ti:gravitation) --size 40",
+   "hits": "6 hits"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"Weber\" AND abs:\"Mach\" AND (abs:gravitation OR abs:gravitational OR abs:inertia) --size 30",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Tomilchik, L.M. --size 40 --sort mostrecent",
+   "hits": "30 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Brandt, Howard E. and (t acceleration or t \"tangent bundle\" or t \"phase space\") --size 30 --sort mostcited",
+   "hits": "23 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"maximal acceleration\" or t \"maximal proper acceleration\" or t \"maximum acceleration\") and (t \"dark\" or abstracts.value:\"dark matter\" or abstracts.value:\"dark energy\") --size 30",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Castro, Carlos or a Castro Perelman, Carlos) and (abstracts.value:\"dark matter\" or abstracts.value:\"dark energy\" or t dark) and (abstracts.value:reciproc* or abstracts.value:\"phase space\" or abstracts.value:\"phase-space\" or abstracts.value:Born or abstracts.value:\"momentum space\") --size 40 --sort mostrecent",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE (citations, forward)",
+   "query": "recid:1723954 --size 20",
+   "hits": "8 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Majid, S. and (abstracts.value:reciprocity or abstracts.value:\"observable-state\" or abstracts.value:\"self-duality\" or abstracts.value:cogravity or abstracts.value:\"co-gravity\" or t \"Planck scale\") --size 30 --sort mostcited",
+   "hits": "10 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(refersto:recid:129448 or refersto:recid:196644 or refersto:recid:201427 or refersto:recid:202968 or refersto:recid:120880 or refersto:recid:93602 or refersto:recid:474327) and (abstracts.value:\"dark matter\" or abstracts.value:monopole or abstracts.value:\"magnetic charge\" or abstracts.value:\"dark energy\" or abstracts.value:cosmolog* or abstracts.value:\"mirror\") --size 50 --sort mostcited",
+   "hits": "14 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"quantized space-time\" and a Snyder --size 3",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"On quantized space-time\" and a Yang, C.N. --size 3",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Golfand and t momentum --size 5",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(refersto:recid:4034 or refersto:recid:42950 or refersto:recid:42454) and (abstracts.value:\"dark matter\" or t \"dark matter\") --size 60 --sort mostcited",
+   "hits": "22 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"tangent Lorentz bundle\" or (t \"tangent bundle\" and (t cosmology or t FRW or t \"dark energy\")) --size 20 --sort mostcited --abstracts",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Modified Newtons gravity in Finsler space\" --size 3 --abstracts",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t Finsler or t Finslerian or t \"Hamilton geometry\" or t \"Hamilton space\") and (t \"dark matter\" or abstracts.value:\"dark matter\") --size 40 --sort mostcited",
+   "hits": "13 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"triply special relativity\" or (abstracts.value:\"momentum space\" and abstracts.value:\"cosmological constant\" and abstracts.value:\"duality\" and (abstracts.value:\"Born\" or abstracts.value:reciprocity)) --size 30 --sort mostcited",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Carmeli, M. and (t cosmolog* or t \"dark matter\" or t \"accelerat*\" or t \"space-velocity\" or abstracts.value:\"velocity\") --size 40 --sort mostcited",
+   "hits": "30 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Ibadov, R.M. --size 40 --sort mostrecent",
+   "hits": "16 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"kinetic gas\" or t \"kinetic gases\") and (a Pfeifer or a Hohmann or a Voicu) --size 20 --sort mostcited --abstracts",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE (citations, forward)",
+   "query": "2005.13561 --size 30",
+   "hits": "28 hits"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:\"de Sitter\" AND (abs:\"dark matter\" OR abs:\"dark energy\" OR abs:\"phantom\") --size 25",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"maximal acceleration\" AND (abs:\"dark matter\" OR abs:\"dark energy\" OR abs:\"rotation curves\") --size 20",
+   "hits": "4 hits"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"tangent bundle\" AND (abs:\"dark matter\" OR abs:\"dark energy\") --size 25",
+   "hits": "7 hits"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"kinetic gas\" AND abs:\"Finsler\" AND abs:\"dark\" --size 10",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t \"pseudo-complex\" or t pseudocomplex or t \"hyperbolic complex\" or t \"para-complex\" or t paracomplex) and (abstracts.value:monopole or abstracts.value:\"magnetic charge\" or abstracts.value:\"electric-magnetic\" or abstracts.value:\"dark matter\") --size 20 --sort mostcited",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(abstracts.value:\"maximal acceleration\" or abstracts.value:\"reciprocal relativity\" or abstracts.value:\"Born reciprocity\") and (abstracts.value:monopole or abstracts.value:\"magnetic charge\") --size 20",
+   "hits": "1 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "Janus cosmological model negative mass Petit --size 20",
+   "hits": "20 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "exotic fermions maximal mass dark matter Rodionov --size 10",
+   "hits": "10 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Bondi universe\" and a Manfredi --size 3 --abstracts",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:3113321 --size 10",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Manfredi, Giovanni and (t \"negative mass\" or abstracts.value:\"negative mass\") --size 20",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE (references, backward)",
+   "query": "2601.22910",
+   "hits": "48 references"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"accelerated expansion from structure formation\" --size 5 --abstracts",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"exotic fermions\" and fulltext \"de Sitter momentum space\" --size 20 --sort mostcited",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"biconformal\" and fulltext \"dark matter\" --size 20 --sort mostcited",
+   "hits": "8 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"maximal acceleration\" and fulltext \"dark matter\" and fulltext \"phase space\" --size 25 --sort mostcited",
+   "hits": "34 hits"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://doi.org/10.26076/cec1-e114 (Hazboun dissertation DOI)",
+   "hits": "302 redirect to digitalcommons.usu.edu/etd/3856"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://digitalcommons.usu.edu/etd/3856",
+   "hits": "Hazboun, \"Conformal Gravity and Time\", PhD dissertation, Utah State Univ., 2014; abstract paraphrased by tool; mentions dark matter and dark energy; no momentum/phase space in abstract"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1938.0060 (Born 1938)",
+   "hits": "HTTP 403; Born 1938 already read for papers/phase-space-diameter.md §4"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://www.nature.com/articles/164281b0 (Born, Cheng, Green 1949)",
+   "hits": "redirect to login; INSPIRE first paragraph only"
+  },
+  {
+   "database": "WebFetch",
+   "query": "https://link.springer.com/article/10.1007/BF00690297 (Assis 1989)",
+   "hits": "redirect to login"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "Kadyshevsky Mateev Mir-Kasimov \"charge quantization\" de Sitter momentum space 1975",
+   "hits": "OSTI records only (JINR-E2-8892, 1975); no abstract or text"
+  },
+  {
+   "database": "OpenAlex (lit.py)",
+   "query": "\"Born reciprocity\" (title_and_abstract), and all later OpenAlex queries",
+   "hits": "HTTP 429: anonymous daily budget for this IP used up (resets 00:00 UTC); no API key requested (would need the user's e-mail). OpenAlex unavailable for the rest of the sweep; 12 OpenAlex queries (11 distinct) ran before the cut-off (queries.log)"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "Assis \"Relational Mechanics and Implementation of Mach's Principle with Weber's Gravitational Force\" pdf",
+   "hits": "author PDF at ifi.unicamp.br/~assis (Apeiron, Montreal 2014, 542 pp.)"
+  },
+  {
+   "database": "curl + pypdf",
+   "query": "https://www.ifi.unicamp.br/~assis/Relational-Mechanics-Mach-Weber.pdf -> dl/assis/",
+   "hits": "564 pages extracted; Weber gravitational force eq. (25.15), sec. 25.3; dark matter discussed only as alternative (sec. 12.6.3); no velocity gate, no DM self-interaction"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"Weber\" gravitational force velocity-dependent \"rotation curves\" OR \"dark matter\" Assis OR Ragusa OR Fukai paper",
+   "hits": "nothing linking a Weber-type force to dark matter or rotation curves"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "Ibadov Murodov \"fundamental equation of the field theory in De Sitter pulse space\" Physical Sciences and Technology 2019",
+   "hits": "PDF on INSPIRE files (inspirehep.net/files/ac646f4b7b7552cd58f94abf035675da); Phys. Sci. Tech. 6 (2019) 33-39, Samarkand State Univ."
+  },
+  {
+   "database": "curl + pypdf",
+   "query": "https://inspirehep.net/files/ac646f4b7b7552cd58f94abf035675da -> dl/ibadov/",
+   "hits": "7 pages; doubled Cauchy data chi(x) = -(1/M) dPhi/dx5; \"Maybe, in future chi(x) ... will be interpreted as a candidate on the 'Phantom field', responsible for acceleration of expansion the Universe\" (page 5)"
+  }
+ ],
+ "not_found": [
+  {
+   "conjecture": "C1",
+   "statement": "No paper in the lineages swept (Kadyshevsky; Wheeler-Hazboun; Caianiello and pseudo-complex GR; Yukawa-Takabayasi bilocal fields; Born, Fuchs, Green, Cheng, Rodriguez; Weber-Assis; Petit-Janus and Bondi negative mass; Moffat; Tomilchik; Castro; Pavšič; Bars 2T physics; Majid; Snyder-Yang; tangent/cotangent-bundle and Finsler gravity; Carmeli) states that dark matter is ordinary matter in the momentum (mirror) polarization, organized around momentum and gravitating like ours. Their dark-matter proposals are exotic fermions from a curved momentum space (Kadyshevsky, Rodionov), geometric dust (Hazboun-Wheeler, known), negative-mass twin matter (Petit), a gauge-invisible doubled fermion copy (Pavšič), fibre-symmetry charges (Herrmann), the dilaton or right-handed neutrinos (Bars), an effect of accelerating frames (Castro, known), standard candidates inside pseudo-complex GR (Hadjimichef, Volkmer), or velocity-dependent geometry replacing dark matter (Finsler: Chang and Li; Carmeli)."
+  },
+  {
+   "conjecture": "C2",
+   "statement": "No lineage paper proposes magnetically charged solitons localized in momentum space, or an abundant population of them as dark matter. Monopole language appears only as an effective geometric force produced by a curved momentum space (Kupriyanov, Kurkov, Sharapov 2024, collision). Citers of the Kadyshevsky anchors filtered for 'monopole' or 'magnetic charge' return nothing else; Tomilchik's monopole papers (1975-1996), by their titles, concern P-invariance and dyon spectra, not momentum space."
+  },
+  {
+   "conjecture": "C3",
+   "statement": "No lineage paper explains the null result of monopole searches by localization in momentum space. Unverified lead only: Kadyshevsky, Mateev and Mir-Kasimov 1975, 'Solution of the charge quantization problem' (bibliographic record only)."
+  },
+  {
+   "conjecture": "C4",
+   "statement": "No lineage paper pairs each electrically charged position-polarized particle with a magnetically charged momentum-polarized analog, or ties S-duality to Born's rotation. Born's school wrote a 'Reciprocity theory of electrodynamics' (Born, Cheng, Green, Nature 164, 281 (1949)); only its first paragraph was reachable, and it concerns divergences."
+  },
+  {
+   "conjecture": "C5",
+   "statement": "No lineage paper states that the gravitational collapse or contraction of a momentum-space (conjugate) description of our universe drives our accelerating expansion, or that stiff (kinetic-dominated) content of such a description acts on ours as a cosmological constant. Nearest analogs: a second matter population's clustering or repulsion (Manfredi, Rouet, Miller 2026; Petit and d'Agostini 2014), collapse of our own structures (Räsänen 2006, outside the assigned lineages), and dark-energy terms from momentum- or velocity-space geometry (Hazboun-Wheeler, Moffat, pseudo-complex GR, Ibadov-Murodov, kinetic-gas Finsler gravity, tangent-bundle cosmology, Carmeli)."
+  },
+  {
+   "conjecture": "C6",
+   "statement": "No lineage paper proposes that matter clumps in momentum or velocity space through its own collective attraction. The lineages treat momentum space as curved geometry (Born, Kadyshevsky, Moffat, Wheeler), a velocity fibre (Finsler, tangent-bundle, Caianiello), or a source of velocity-dependent gravity (kinetic gas), never as a space in which matter gathers into clumps."
+  },
+  {
+   "conjecture": "C7",
+   "statement": "No lineage paper proposes a long-range attraction among dark-matter particles that acts only at small relative velocity. The velocity-dependent gravity of the Weber-Assis lineage weakens the attraction with relative radial speed on the scale of c and acts on all bodies (Assis, Relational Mechanics, Apeiron 2014, eq. 25.15, read in the author's PDF); the record already cites this lineage (notes/velocity-gated-gravity.md §3, Tisserand 1872). Ghosh's velocity-dependent inertial induction is applied, by its titles, to redshifts, solar-system anomalies and flat rotation curves; its abstracts were not reachable (unverified leads)."
+  }
+ ],
+ "unverified_leads": [
+  {
+   "lead": "V. G. Kadyshevsky, M. D. Mateev, R. M. Mir-Kasimov, 'Solution of the charge quantization problem', JINR report E2-8892 (1975) (INSPIRE recid:99471, conference paper, no abstract). The title suggests charge quantization obtained from the de Sitter momentum-space programme, which would bear on C3/C4.",
+   "why_unverified": "Only bibliographic records (INSPIRE, OSTI) were found; no abstract or text is reachable, so its content is unknown."
+  },
+  {
+   "lead": "A. D. Donkov, R. M. Ibadov, V. G. Kadyshevsky, M. D. Mateev, M. V. Chizhov, 'Fundamental mass and extraordinary fermion matter' (1984, in Russian, conference; INSPIRE recid:211554). Probably the exotic-fermion 'matter' of the Kadyshevsky lineage (C1 related).",
+   "why_unverified": "No abstract or text available."
+  },
+  {
+   "lead": "V. I. Strazhev, L. M. Tomilchik, 'New aspects of the magnetic monopole problem' (1977, conference; INSPIRE recid:127991). Tomilchik also worked on Born reciprocity and maximal acceleration, so a link between the two in his work would bear on C3/C4.",
+   "why_unverified": "No abstract or text available; nothing found links his monopole and reciprocity papers."
+  },
+  {
+   "lead": "J. S. Hazboun, 'Conformal Gravity and Time', PhD dissertation, Utah State University (2014), doi:10.26076/cec1-e114: biconformal gravity discussed 'in the context of dark matter' (C1, same claim as the known 1305.6972).",
+   "why_unverified": "Checked by WebFetch only; the tool paraphrased the abstract and truncated the one quotable sentence, and the dissertation text was not read."
+  },
+  {
+   "lead": "S. Ragusa, 'Gravitation with a modified Weber force', Found. Phys. Lett. (1992), doi:10.1007/BF00665939 (Weber-Assis lineage; possible velocity-dependent gravity with a modified velocity scale, C7).",
+   "why_unverified": "Crossref has no abstract; the publisher page requires login."
+  },
+  {
+   "lead": "A. Ghosh, 'Velocity dependent inertial induction: an extension of Mach's principle', Pramana (1984), doi:10.1007/BF02846690; Ghosh, Rai, Gupta, Astrophys. Space Sci. (1988), doi:10.1007/BF00641910 (flat rotation curves); N. Namba, Physics Essays (2002), doi:10.4006/1.3025517 (C7, velocity-dependent gravitational force).",
+   "why_unverified": "Crossref has no abstracts and the publisher pages were not fetched; only titles and OpenAlex listings were seen, so the relation to C7 is unassessed."
+  },
+  {
+   "lead": "W. Mittelman, 'Understanding Λ with the Aid of Biconformal Gravity', Prespacetime Journal (2023) (non-reviewed venue; C5 theme).",
+   "why_unverified": "Only a truncated OpenAlex abstract was seen; OpenAlex then became unavailable."
+  },
+  {
+   "lead": "OpenAlex phrase sweeps planned but not run: \"Born reciprocity\", \"reciprocal relativity\", \"maximal acceleration\" with dark matter or dark energy, \"momentum space\" with cosmology, Assis and Weber.",
+   "why_unverified": "The anonymous OpenAlex daily budget for this IP was exhausted after 12 queries (HTTP 429, reset at 00:00 UTC); no API key was requested, since that needs the user's e-mail address."
+  }
+ ],
+ "notes": "Working notes: work/literature-check/round3/lineages/notes.md; query logs: queries.log (lit.py, via q.sh) and web_queries.tsv; downloads under dl/ (Assis book, Ibadov-Murodov PDF), extraction script scripts/pdf2txt.py. Every quote was checked with lit.py quote (FOUND, abstract or arxiv.org/html full text). Differing reading of a listed paper: 1305.6972 (Hazboun-Wheeler), listed as C1 related, also bears on C5 (related): the coupled curvatures of the configuration and momentum submanifolds leave a cosmological constant and dust in our Einstein tensor. Listed 0708.4205 (Kadyshevsky et al.) keeps its C1 'related': its exotic fermions are a new species, and the follow-ups ascribe to them an inertial-gravitational mass split. The Weber-type velocity-dependent gravity relevant to C7 is already in the record (notes/velocity-gated-gravity.md §3, Tisserand 1872; review/momentum-gravity cites Bunchaft and Carneiro, gr-qc/9708047), so it is not reported as a new finding. The backreaction entry (Räsänen 2006) lies outside the position-momentum lineages; it surfaced in the references of Manfredi et al. 2026 and is reported because its sentence is the nearest wording to C5's slogan; a dedicated C5 sweep should cover the backreaction literature (Buchert, Wiltshire, Lapi et al.). Checked and not relevant: Kozlov-Volovich 2006; Khruschov 2009; Buoninfante 2021; Thompson 2026; Majid (cogravity, Lambda as momentum noncommutativity, no dark sector); Bars (dilaton DM); Brandt; EUP-MOND papers; pseudo-complex-GR dark-matter stars; Castro 2012 and 2019-2024 (incremental on the known Castro entry); Boroojerdian 2020 (super tangent bundle, arXiv only); Sakuma et al. 2020; Liang 2024. OpenAlex became unavailable mid-sweep, so non-arXiv coverage relies on INSPIRE (which indexes the Russian, Belarusian and Kazakh journals of the Kadyshevsky and Tomilchik lineages), Crossref and WebSearch."
+}

@@ -1,0 +1,131 @@
+{
+ "conjecture": "C7",
+ "strong_findings": [
+  {
+   "ids": [
+    "astro-ph/0606566"
+   ],
+   "citation": "M. Kesden, M. Kamionkowski, \"Galilean Equivalence for Galactic Dark Matter\", Phys. Rev. Lett. 97, 131303 (2006), arXiv:astro-ph/0606566",
+   "relation": "evidence-against",
+   "basis": "verified",
+   "summary": "If dark matter feels a stronger self-attraction than baryons, stars gain energy preferentially during tidal disruption and the trailing tidal stream is enhanced; the roughly equal streams of the Sagittarius dwarf challenge differences in acceleration above about 10%.",
+   "difference": "A bound on an extra long-range attraction among dark matter only, not gated in velocity. For a gated force it applies at the satellite's relative speed; the momentum-gravity note (§6) maps it to ε ≲ O(1) (0.2–2.5) at v* = 120 km/s and finds it weaker than the Lyman-α forest. The record already uses it; listed here because its result weighs against the conjecture's required strength (ε > 1).",
+   "quotes": [
+    {
+     "text": "The Sgr dwarf galaxy is seen to have roughly equal streams, challenging models in which DM and baryons accelerate differently by more than 10%.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)",
+     "id": "astro-ph/0606566"
+    }
+   ],
+   "verified": [
+    [
+     "evidence-against",
+     "g5-momentum-clumping:verifier",
+     "Confirmed. A bound on an extra long-range attraction among dark matter; for a gated force it applies at the satellite's relative speed. The record already applies it (velocity-gated-gravity note §6)."
+    ]
+   ]
+  }
+ ],
+ "related": [
+  {
+   "ids": [
+    "1011.6374"
+   ],
+   "citation": "A. Loeb, N. Weiner, \"Cores in Dwarf Galaxies from Dark Matter with a Yukawa Potential\", Phys. Rev. Lett. 106, 171302 (2011), arXiv:1011.6374",
+   "summary": "Dark matter interacting through a Yukawa potential has a velocity-dependent cross-section that makes cores in dwarf galaxies while leaving systems with much larger velocity dispersion, such as clusters, unaffected.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "gr-qc/9708047"
+   ],
+   "citation": "F. Bunchaft, S. Carneiro, \"Weber-like interactions and energy conservation\", Found. Phys. Lett. 10, 393 (1997), doi:10.1007/BF02764109, arXiv:gr-qc/9708047 (journal)",
+   "summary": "Studies velocity-dependent central forces of Weber type, k(r^/r)(1 - mu rdot^2 + gamma r rddot) as written in the abstract, as laws of gravitation: they conserve energy only if gamma = 2 mu, and a gravitational theory built on them cannot be conservative while also giving both Mercury's perihelion precession and light deflection. Reported as the representative of the Weber-type and relational-mech",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2402.08557"
+   ],
+   "citation": "J. Skolimowski, \"Real-space analysis of Hatsugai-Kohmoto interaction\", Phys. Rev. B 109, 165129 (2024), arXiv:2402.08557",
+   "summary": "The Hatsugai–Kohmoto interaction is diagonal in momentum space, which makes it exactly solvable there; in real space it has infinite range, its strength not depending on the distance between the interacting particles.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2510.00098"
+   ],
+   "citation": "M. Costa, C. Creque-Sarbinowski, O. Simon, Z. J. Weiner, \"Dark forces suppress structure growth\", JCAP 06 (2026) 055, arXiv:2510.00098",
+   "summary": "Minimal models of scalar-mediated attractive forces between dark-matter particles do not enhance the growth of unbiased tracers: the faster growth of the density contrast is cancelled by faster dilution of the background dark-matter density, and CMB-compatible versions suppress structure growth.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2303.04816"
+   ],
+   "citation": "P. Schuster, N. Toro, K. Zhou, \"Interactions of Particles with 'Continuous Spin' Fields\", JHEP 04 (2023) 010, arXiv:2303.04816",
+   "summary": "For matter coupled to a scalar-like continuous-spin field, the leading velocity-dependent pair potential is L_int = (g²/4πr)[1 − (ρ²r²/32)(|vᵢ − vⱼ| − (vᵢ − vⱼ)·r̂)² + …] (eq. 129): a long-range interaction whose correction depends only on the relative velocity, vanishes for co-moving particles and for motion along the line joining them, and matters when ρvr ~ 1.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "0709.0776"
+   ],
+   "citation": "R. Delbourgo, D. Lashmar, \"Born reciprocity and the 1/r potential\", Found. Phys. 38, 995 (2008), arXiv:0709.0776",
+   "summary": "Writing Newtonian gravity in Born-reciprocal form, H = (p² + b²r²)/2m − α(1/r + b/p) with α = GMm, the interaction between two masses becomes GmM(1/r + Ω/|v − v′|): beside the 1/r term there is a reciprocal term that does not depend on separation and grows as the relative velocity falls, so bodies moving at similar velocities interact most strongly. Summed over a galaxy's masses and their relative",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2007.00667"
+   ],
+   "citation": "R. Lasenby, \"Long range dark matter self-interactions and plasma instabilities\", JCAP 11 (2020) 034, arXiv:2007.00667",
+   "summary": "Dark matter interacting through a light vector mediator has a long-range self-interaction; coherent effects make small perturbations grow exponentially, as plasma instabilities do, at couplings far below the particle-by-particle limits. For velocity distributions with a single peak (such as an anisotropic Maxwellian) only magnetic instabilities exist.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2503.03817"
+   ],
+   "citation": "S. Kundu, P. Schuster, N. Toro, \"First look at continuous spin gravity: Time delay signatures\", Phys. Rev. D 113, 076017 (2026), arXiv:2503.03817",
+   "summary": "First linearized formalism coupling spinless matter to gravity mediated by continuous-spin gravitons (spin scale ρ_g); it computes only the time-delay signatures of gravitational waves in an interferometer, at leading order in Newton's constant.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "doi:10.5281/zenodo.21232068"
+   ],
+   "citation": "V. Laletin (Te/Tc Project, with D. Kuzmin), \"Mercury and Galaxies from One Formula\" (PDF title \"Gravity as a Statistical Effect of Planck-Packet Capture: Unified Explanation of Mercury's Perihelion Precession and Galacti",
+   "summary": "Proposes that gravity arises from statistical capture of Planck-scale 'packets' with a capture probability that depends on the relative velocity of the two bodies, and fits a(r) = -GM/r^2 - 3G^2M^2/(c^2 r^4) - k sqrt(GM)/r to Mercury's perihelion and six SPARC rotation curves without dark matter.",
+   "basis": "single-agent label"
+  }
+ ],
+ "collisions": [
+  {
+   "ids": [
+    "1909.06986"
+   ],
+   "citation": "T.-T. Wang, Y.-G. Ma, Z.-Q. Zhang, \"Effects of Ptot gates and velocity gates on light-particle momentum correlation in intermediate-energy heavy-ion collisions\", Phys. Rev. C 99, 054626 (2019), arXiv:"
+  }
+ ],
+ "not_found_statements": [
+  {
+   "from": "g5-momentum-clumping/search.json",
+   "statement": "No paper found that proposes a long-range (1/r, gravity-like) attraction among dark-matter particles that acts only between particles moving at similar velocities, i.e. a relative-velocity gate W(|v − v′|/v*) on a gravity-like force, whether as dark-matter physics or as a modification of gravity. The closest are Delbourgo–Lashmar's Born-reciprocal term GmMΩ/|v − v′| among all masses (partial), the velocity-dependent correction of continuous-spin forces (Schuster–Toro–Zhou; scalar, threshold falling with distance), the Hatsugai–Kohmoto momentum-local interaction of infinite range (lattice electrons), and velocity-dependent self-interactions, which are collisional. This confirms and extends the record's earlier null search (review/momentum-gravity/run2/analyses/clumping.json, C18), which had missed Delbourgo–Lashmar."
+  },
+  {
+   "from": "round3/oa-c1-c6-c7.json",
+   "statement": "No source found that states a long-range attraction among dark-matter particles acting only, or most strongly, between particles of similar velocity. The velocity-dependent gravity literature outside arXiv works at the velocity scale c or with absolute velocities, acts between all masses, and is offered as an alternative to dark matter or for perihelion precession. This covers Weber-like laws, Gerber-type fits (Gribkov), Arbab's generalized Newton law, Ghosh's inertial induction, Devasia's relative-velocity Weber model, Laletin's capture model and Hahn-Fine's measurement-induced attraction. None gates an attraction to small relative velocity at a scale like v* ~ 120 km/s, and none restricts it to dark matter. No Weber-type gravity paper applied to galaxy rotation curves was found (English and Portuguese searches). The closest remains Delbourgo-Lashmar 2008 (known: partial)."
+  },
+  {
+   "from": "round3/lineages.json",
+   "statement": "No lineage paper proposes a long-range attraction among dark-matter particles that acts only at small relative velocity. The velocity-dependent gravity of the Weber-Assis lineage weakens the attraction with relative radial speed on the scale of c and acts on all bodies (Assis, Relational Mechanics, Apeiron 2014, eq. 25.15, read in the author's PDF); the record already cites this lineage (notes/velocity-gated-gravity.md §3, Tisserand 1872). Ghosh's velocity-dependent inertial induction is applied, by its titles, to redshifts, solar-system anomalies and flat rotation curves; its abstracts were not reachable (unverified leads)."
+  },
+  {
+   "from": "g5-momentum-clumping/verify.json (verifier)",
+   "holds": true,
+   "statement": "Holds, but the closest paper should be labelled related, not partial. Delbourgo and Lashmar's Omega/|v - v'| term depends only on relative velocity and exerts no force in position (their eq. 4; velocity-gated-gravity note §2). C7's defining feature, a 1/r attraction among dark matter switched by relative velocity, appears nowhere. My own searches (velocity-dependent long-range force; fifth force depending on relative velocity with dark matter; attraction at the same velocity with streams and long range; velocity-dependent gravitational constant for galaxies; interactions local in momentum and of infinite range applied to dark matter or gravity; attractive Hatsugai-Kohmoto; a web search for gravity depending on relative velocity among co-moving bodies; the citation graph of Delbourgo-Lashmar both ways, including Jarvis-Morgan 2005, which has no 1/p term) found nothing closer. A velocity criterion in superfluid dark matter (Berezhiani-Khoury: infall velocity against sound speed) concerns dissipation relative to the medium, a preferred-frame effect the note's §9 already covers, not a gate on a force between two bodies."
+  }
+ ]
+}

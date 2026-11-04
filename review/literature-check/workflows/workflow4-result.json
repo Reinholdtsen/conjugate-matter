@@ -1,0 +1,572 @@
+{
+  "summary": "A panel of independent judges tests the per-conjecture verdicts of the literature check on the verified evidence",
+  "agentCount": 7,
+  "logs": [],
+  "result": {
+    "judges": [
+      {
+        "key": "c1-content",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C1",
+              "verdict": "anticipated",
+              "closest": [
+                {
+                  "id": "2010.15610",
+                  "why": "Berglund, Hübsch and Minic, LHEP 2021 (arXiv October 2020), the first refereed statement. The abstract says dark matter 'comes from the degrees of freedom dual to the visible matter'. §3 says 'the A fields denote the usual Standard Model fields, and the Ã are their duals', and eq. (8) puts L_m and L̃_dm on one √−g(x). It calls the dual space 'canonically conjugate'. It differs from C1 by building in visible–dual mixing at order λ⁸/L¹⁰, a fermion seesaw, a dual photon 'correlated to the visible photon' and 'correlated events in the accelerators'. It has no gate and no monopoles."
+                },
+                {
+                  "id": "2003.00318",
+                  "why": "Minic, Belgrade proceedings 2020 (talk September 2019, arXiv February 2020), the earliest written statement. Eqs. (49)–(50) give 'visible and dual (dark) matter in the observed spacetime', and §7 ties 'Standard Model and its dual, describing the dark matter sector' to Born reciprocity in 'spacetime and energy momentum space'. The dark fields couple to the metaparticle's dual momentum p̃. Its dark matter is entangled with visible matter, 'should be detectable', and is identified with modified dark matter."
+                },
+                {
+                  "id": "2407.06207",
+                  "why": "Hübsch and Minic 2024 (arXiv only). Its polarization language is closest to C1's: 'classical spacetime label x … a choice of (classical spacetime) polarization in modular (quantum) spacetime', with the dual fields as 'fuzzy' dark matter that does not commute with visible fields. It also shows that the dual is not ordinary momentum: 'dual spacetime x̃, [x,x̃]=iλ², and dual momentum space p̃ … (Also, [x,p]=iħ=[x̃,p̃])'."
+                },
+                {
+                  "id": "2212.06086",
+                  "why": "Berglund, Hübsch and Minic, refereed review (IJMPD 2023). It calls metastring theory an implementation of 'Born reciprocity (the fundamental reciprocity between spacetime and energy-momentum space)'. Each observed particle 'should have a dual particle', and the duals are 'good candidates for dark matter that is correlated to the observed, visible matter'. The record already cites this paper for another purpose."
+                },
+                {
+                  "id": "1307.7080",
+                  "why": "Freidel, Leigh and Minic, PLB 2014. It says nothing about dark matter, but it is why the school's 'dual' means C1's 'conjugate': the dual coordinates are 'coordinates in momentum space', and T-duality is 'cast essentially as a Fourier transform' (also 1405.3949: the momentum-space picture is 'the choice of a dual Lagrangian submanifold')."
+                }
+              ],
+              "new_in_conjecture": "The published version puts the dark sector on the dual coordinate x̃ of a doubled, string-scale phase space ([x,x̃] = iλ², beside an ordinary momentum p with [x,p] = iħ). It also couples that sector to ours by construction, so it predicts the non-gravitational dark-matter–Standard-Model coupling that would kill C1 (#11 §13 row 7). C1 places dark matter in the momentum polarization of ordinary quantum kinematics (one phase space, conjugate at ħ), coupled to us by gravity alone with a permanent direct-detection null (strict P4), and attributes our x-polarization to spontaneous breaking. C1's two forms carry the physical content that 'organized around momentum' has in it, and no paper found states either: χ particles whose self-interaction is gated in relative velocity (a knee at v*, the island discriminant), and topological monopoles localized in momentum (C2). In the school's effective theory the dual fields are ordinary local fields on spacetime, with no interaction that is local in momentum.",
+              "published_parts": "That dark matter is the Born-reciprocal counterpart of ordinary matter is published by Minic and collaborators. Every Standard Model field has a dual, the duals are the dark matter, and once the dual coordinate is integrated out both sectors sit on one spacetime metric. The claim first appears in Minic's Belgrade proceedings (talk September 2019, arXiv:2003.00318, February 2020), which motivates 'Standard Model and its dual' by Born reciprocity between spacetime and energy-momentum space. The first refereed statement is Berglund, Hübsch and Minic, LHEP 2021 (arXiv:2010.15610). The school restated it through 2026, once in a Snowmass white paper co-signed by Freidel, Kowalski-Glikman and Leigh (arXiv:2202.06890, February 2022). The founders' own reading of the dual coordinate as momentum space (Freidel, Leigh and Minic 2014) makes their 'dual' C1's 'conjugate'. The older mirror-matter literature has the shape of a copy of ordinary matter coupled mainly through gravity (the panel's Foot 2014 and Berezhiani 2004 reviews), but without reciprocity.",
+              "label_disputes": [
+                {
+                  "id": "2202.06890",
+                  "current": "partial",
+                  "proposed": "anticipates",
+                  "reason": "'each observed quantum field has a “dual”, which could be associated with dark matter degrees of freedom' (quote checked) makes the same claim as 2202.05104 ('dark matter should be viewed as a dual SM') and 2212.06086, which both carry 'anticipates'. Its hedge matches the anchor paper's own ('could be interpreted as dark matter Lagrangian'). It is a restatement citing Minic 2020 and gives no independent priority, but it records that Freidel, Kowalski-Glikman and Leigh co-signed the identification by February 2022."
+                }
+              ],
+              "confidence": "medium"
+            }
+          ],
+          "notes": "Physical-content lens. I read #11 §1, §3–§5, §7.1, §8, §10, §11.4, §12, §13 and App. A items 3–5; the wiki pages for C1, P4, founding supposition 4 and broken Born duality; the notebook's P4 and gate (#1 §1, §3); and popsci #12's 'gravitational influence, and nothing else'. In full text I read the cited school passages (2003.00318 §2.2, §4.1, §4.3, §5, §7; 2010.15610 §1–§5; 2407.06207 §3.3; 2212.06086), FLM 1307.7080 and 1405.3949 for the meaning of x̃, and three related papers (Pavšič 2205.02787, FKLM 2104.00802, and the Sheng Ran entry). Every quote above was checked FOUND with lit.py quote; the list is in work/literature-check/panel/c1-content/notes.md. Output also written to work/literature-check/panel/c1-content.out.json.\n\n(1) Is the school's x̃ the momentum side of phase space? Structurally yes, literally no. Freidel, Leigh and Minic read the dual Lagrangian as momentum space and T-duality as a Fourier transform. Berglund, Hübsch and Minic call (x/λ, x̃/λ) 'phase-space' operators with x̃ 'the canonically conjugate dual space'. The program's Born geometry is theirs, and #11 §3 already credits their (x, x̃) polarization as prior art for its own (x, p) polarization, so consistency requires reading their dual sector as the counterpart of conjugate matter. But in the metaparticle behind every dark-matter statement, x̃ is a string-scale coordinate ([x,x̃] = iλ²) next to the ordinary momentum p ([x,p] = iħ = [x̃,p̃]), 'a doubling of the usual phase space coordinates', and the dark fields couple to the dual momentum p̃.\n\n(2) Is 'the dual SM is the dark matter' the same claim as C1? It is the same identification: each visible field has a reciprocity dual, the duals are the dark matter, and at zeroth order in λ both sit on one metric (2010.15610 eq. 8). The physics differs: (a) the dual is a string-scale coordinate, not ordinary momentum; (b) the coupling: the school's sector is correlated with ours by design (mixing terms, seesaw, DM as 'sources' for visible matter, a dual photon correlated with ours, accelerator correlations, MDM's a₀ ~ cH₀, 'should be detectable'), while C1 shares only gravity and predicts a permanent null; (c) the school's dark matter is a full dual SM of fuzzy, non-local metaparticles, ordinary local fields on x after integrating out x̃, while C1's χ clusters in position with a velocity-gated self-interaction, or forms momentum-localized monopoles; (d) the school treats the polarization as a choice, C1 as spontaneous breaking.\n\nRuling: anticipated. C1 as P.R. states it ('dark matter is conjugate (momentum) matter'; the brief's 'mirror-polarized counterpart … gravitating like ours') is the identification. The school states it in substance, and (a)–(d) are differences of framework and model, which the brief allows when named. Confidence is medium because a reader who counts strict P4 and ordinary momentum at ħ as part of C1's substance would call the published claim a close variant (partly anticipated). Calling the identification new would be the missed-prior-art failure: it is published with equations, in the Born-geometry framework the program itself borrows.\n\nPriority rests on 2003.00318 and 2010.15610; the other 'anticipates' items are restatements with no independent weight. 2610.19522 was posted in October 2026, at the same time as the program's record, so it is not prior art. 2604.19418 (April 2026) is prior. Kept: all 'anticipates' labels; 2111.05659 and 2011.08852 as partial; the two evidence-against items (mild, bearing only on particle χ's 'zero cluster signal', not on the identification); and every related label checked. Pavšič's dark copy comes from an extra quaternionic unit, not the momentum half. Sheng Ran's dark matter is 'not a new particle species'. FKLM 2021 hedges its class II remnants between dark energy and dark matter."
+        }
+      },
+      {
+        "key": "c1-scope",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C1",
+              "verdict": "anticipated",
+              "closest": [
+                {
+                  "id": "2010.15610",
+                  "why": "First journal statement: Berglund, Hübsch, Minic, LHEP 2021, 186 (arXiv 29 Oct 2020). The abstract says dark matter 'comes from the degrees of freedom dual to the visible matter'; the text proposes that 'the dual sector ... should be interpreted as the dark matter sector', with x̃ spanning 'the canonically conjugate dual space' ([x, x̃] = 2πiλ²) and the dual-matter Lagrangian beside ours on √−g(x). Same identification. The sectors are 'mixed/correlated' (a correlation that 'becomes invisible in effective field theory'), not coupled through gravity only."
+                },
+                {
+                  "id": "2003.00318",
+                  "why": "Earliest written statement found: Minic, proceedings of the 10th Mathematical Physics Meeting, Belgrade (2020), pp. 183–218, arXiv 29 Feb 2020, from a talk at the September 2019 meeting whose content is unknown. §5 writes the Standard Model Lagrangian and 'their duals (that could be interpreted as dark matter Lagrangian', both on g(x) after the x̃ integral. It says the dual quanta 'should be detectable through their particular metaparticle entanglement to visible matter', the opposite of C1's permanent null. Its conclusion asks whether Born reciprocity is 'a criterion for vacuum selection' that picks 'Standard Model and its dual, describing the dark matter sector'. That is a symmetric selection, not a broken one."
+                },
+                {
+                  "id": "2407.06207",
+                  "why": "Closest in polarization language: Hübsch and Minic 2024, arXiv preprint. The spacetime label x 'corresponds to a choice of (classical spacetime) polarization in modular (quantum) spacetime'. Dual fields φ̃, the backgrounds of the dual momentum p̃, are the 'dark matter' fields, 'fuzzy' because they do not commute with the visible ones. It restates 2003.00318 and 2010.15610 (arXiv:2610.19522, 14 Oct 2026, repeats it), with no spontaneous breaking, no gate and no monopoles."
+                },
+                {
+                  "id": "2202.06890",
+                  "why": "Snowmass contribution (arXiv 14 Feb 2022, preprint) co-signed by Freidel, Leigh and Kowalski-Glikman with Berglund, Hübsch, Mattingly and Minic: each quantum field has a 'dual', which 'could be associated with dark matter degrees of freedom'. Hedged (partial), it shows that the metastring circle beyond Minic's group had endorsed the association by February 2022."
+                },
+                {
+                  "id": "1502.08005",
+                  "why": "For the polarization part only: Freidel, Leigh, Minic, JHEP 06 (2015) 006, already #11's [26S]. 'if all probes agree on what we mean by space-time, then we have broken Born duality — there is a preferred choice of polarization, the space-time one.' The full text has no 'spontaneous' and no 'dark matter'. #11 §3 credits the idea to FLM and claims the spontaneous reading, with η as order parameter, as the program's own."
+                },
+                {
+                  "id": "1401.3965",
+                  "why": "For the coupling only: Foot's 2014 review (journal) of mirror dark matter, an exact copy of the Standard Model 'interacting with the known particles predominantly via gravity', citing Lee–Yang 1956 and Kobzarev–Okun–Pomeranchuk 1966. The mirror is space-time parity, and halos need kinetic mixing ε ~ 10⁻⁹, which predicts direct-detection signals; strict P4 allows ε ≲ 10⁻¹³ and predicts none. Bimetric versions: Hossenfelder 2008 (0807.2838), twin fields that 'only interact gravitationally' but repel; Aoki and Maeda 2014 (1312.7040), twin matter on the second metric of ghost-free bigravity as the dark-matter term."
+                },
+                {
+                  "id": "1508.03339",
+                  "why": "For the χ form's observable only: halo fits prefer a mildly velocity-dependent self-interaction, σ/m ≈ 2 cm²/g on galaxy scales falling to ≈ 0.1 cm²/g on cluster scales. With Sagunski et al. 2021 (2006.12515, clusters 0.19 ± 0.09 cm²/g), this weighs mildly against 'zero cluster signal'. With resonant SIDM (1810.04709), it shows that a dwarf-strong, cluster-weak knee has ordinary mechanisms. No paper gates a self-interaction by relative velocity through momentum-space locality."
+                }
+              ],
+              "new_in_conjecture": "The literature found does not state the identification inside spontaneously broken reciprocity: conjugate matter as the matter of the polarization our vacuum did not select, sealed off by P4 so that it couples to ours only through gravity (and X) and direct detection stays null for good. The metastring school's dual sector is instead correlated with visible matter and expected to be detectable. Neither of C1's two forms is published: no paper gates a dark-matter self-interaction by relative velocity through momentum-space locality (the knee alone has ordinary routes, Yukawa and resonant SIDM), and no paper proposes monopoles, or any dark matter, localized in momentum (C1 and C2 not-found statements). Separately, a gravity-coupled copy of ordinary matter (mirror and twin matter) and a preferred polarization that breaks Born duality (FLM 2015) are published; their combination with the identification is not.",
+              "published_parts": "The identification itself is published by D. Minic and collaborators in metastring theory: dark matter as the dual, Born-reciprocal counterpart of the Standard Model, one dual partner per particle, gravitating in our spacetime. It was first written in Minic's Belgrade proceedings (arXiv 29 Feb 2020, from a September 2019 talk of unknown content), first stated in a journal by Berglund, Hübsch and Minic (arXiv 29 Oct 2020; LHEP 2021, in the abstract), and restated by the same group in eight further papers to 14 Oct 2026. Freidel, Leigh and Kowalski-Glikman co-signed a hedged form in February 2022, and a 2022 Prog. Part. Nucl. Phys. review relays it. These statements precede P.R.'s first written statement (lab notebook v0.1, September 2026, unpublished) by 6.5–6.6 years, the journal one by 5.8–5.9 years. The record already cites one of the anticipating papers (Berglund–Hübsch–Minic, IJMPD 32, 2330002 (2023), arXiv:2212.06086) for its dual-spacetime cosmological constant, without comparing its dark-matter claim.",
+              "label_disputes": [],
+              "confidence": "high"
+            }
+          ],
+          "notes": "Lens: scope and chronology. Read: BRIEF.md; panel/C1.json in full, with results.json for the truncated related summaries; #11 §1, §3, §4, §8, §9, §12, §13 row 7, App. A item 4; the two wiki pages; notes/broken-born-theory.md (v0.1 header, §9 row 7); panel/C2.json (the monopole form). Passages I read myself with lit.py: 2003.00318 §5 and conclusion, 2010.15610, 1502.08005, 2407.06207 §3.2–3.3, 2305.12593, 2205.02787, gr-qc/0608086, 1401.3965; quotes re-checked for 0807.2838, 1312.7040, 1508.03339, 2006.12515. Dates are arXiv v1 dates from the tool's cache. The intervals were computed in panel/c1-scope/intervals.py; the reading log is panel/c1-scope/reading-log.txt. How 'anticipated' must be qualified. (1) Scope: it covers the identification only, P.R.'s 'dark matter is conjugate (momentum) matter'. Nothing in the evidence states the χ form's velocity gate, the monopole form, strict P4's gravity-only coupling with its permanent null, or the spontaneous-breaking reading. A record that says 'anticipated' should name the published part and the new parts together. (2) Physics: the school's dual sector is correlated with visible matter through non-gravitational (Berry-phase-like) terms and the acceleration scale of modified dark matter. Minic 2020 says its quanta 'should be detectable through their particular metaparticle entanglement to visible matter', the opposite of #11 §13 row 7. 'Anticipated' means the idea is published, not that the program's dark matter is the school's. (3) Source: all ten 'anticipates' findings come from one group (Minic with Berglund, Hübsch, Edmonds, Takeuchi and others) and restate one proposal. arXiv flags text overlap for 2109.12763 (with 2003.00318) and 2407.06207 (with 2307.16712). No statement independent of that group was found (not-found statements 3–5). Precursors, related only: Finkelstein (arXiv 2006, IJTP 2008), who says the momentum coordinates of events contribute 'possibly to dark matter'; Chang, Minic, Sun and Takeuchi 2016, non-local excitations extended in space and momentum; FLM 2017, an expectation only; Edmonds et al. 2017, metaparticles as quanta of modified dark matter. (4) Chronology: the earliest written statement is dated 29 Feb 2020 (conference proceedings). The Belgrade talk of September 2019 (INSPIRE cnum C19-09-09.8) has unknown content. FLM, IJMPA 34, 1941004 (2019), is not on arXiv and could not be read; its INSPIRE abstract mentions metaparticles but not dark matter. So the date is 'no later than 29 Feb 2020'. The first journal statement is LHEP 2021 (arXiv 29 Oct 2020). Hübsch–Minic arXiv:2610.19522 (14 Oct 2026) is later than P.R.'s September 2026 notebook, and earlier than his public wiki (serving at comatter.science by 22–26 Oct 2026) only by 8–12 days. Do not list it as prior to his first statement. (5) The g1 verifier's 'what C1 adds is ... not the null itself' (not-found statement 5) goes too far. The literature explains the null so far by non-locality (Chang et al. 2016; Minic 2020) but still expects a detection, through entanglement. A permanent null with a kill condition is not stated together with the identification. As a property of gravity-only dark matter in general it is generic: Hossenfelder 2008's twin fields 'only interact gravitationally'. (6) 'Organized around momentum' does not separate the two. After the reduction, the school's dual fields and C1's χ both live on the spacetime metric (χ is 'x-clumping', App. A item 4). Only the monopole form would localize dark matter in momentum, and no paper does. (7) Labels: none disputed. I checked the single-agent 'anticipates' on 2305.12593: the quote is FOUND, in a parenthetical citing BHM 2020 that is worded like 2212.06086's 'good candidates'. I agree with 'related' for Sheng Ran (dark matter 'is not a new particle species'; a removed, non-reviewed preprint of Dec 2025, after the school in any case), for Pavšič 2022 (a quaternionic doubling of the field, not the position–momentum polarization) and for FKLM 2021 (hedged between dark energy and dark matter). (8) Fixes to carry. 2011.08852's authors are Jejjala, Kavic, Minic and Takeuchi (INSPIRE), not C.-H. Tze. 2305.12593 is Bulg. J. Phys. 51, 060 (2024) per Crossref; INSPIRE lists it as a conference paper (BASIC 2023 proceedings). The summaries of 2610.19522 and 2111.05659 open with 'Outside this list's named conjectures (C5–C7)', a triage artifact: both are C1 findings."
+        }
+      },
+      {
+        "key": "c1-advocate",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C1",
+              "verdict": "anticipated",
+              "closest": [
+                {
+                  "id": "2010.15610",
+                  "why": "Closest refereed statement (Berglund, Hübsch, Minic, LHEP 2021; arXiv October 2020). The abstract says dark matter 'comes from the degrees of freedom dual to the visible matter'; 'the A fields denote the usual Standard Model fields' and the Ã their duals; the dual space is 'canonically conjugate' ([x, x̃] = 2πiλ²); the dual Lagrangian sits beside ours on √−g(x). Differs: metastring framework with intrinsic non-commutativity, not spontaneously broken exact reciprocity; the dual sector mixes with ours (a seesaw 'for every fermion-dual fermion pair', a dual photon and dual Z 'correlated' with ours, correlated accelerator events), against C1's gravity-only coupling; no gate, no momentum localization."
+                },
+                {
+                  "id": "2003.00318",
+                  "why": "Earliest written statement (Minic, Belgrade proceedings 2020; talk September 2019; arXiv 29 February 2020). Standard Model fields A have 'natural cousins' Ã in the dark-matter sector, both in the observed spacetime after integrating over x̃, and the conclusion derives 'Standard Model and its dual, describing the dark matter sector' from Born reciprocity between 'spacetime and energy momentum space'. Differs: the dark quanta 'should be detectable through their particular metaparticle entanglement to visible matter' and are identified with modified dark matter; no gate."
+                },
+                {
+                  "id": "2407.06207",
+                  "why": "Closest in the program's own terms (Hübsch, Minic 2024; arXiv only). In modular quantum mechanics x̃ ≡ p/ε with [x, x̃] = i; 'Classical spacetime label x of canonical QFT corresponds to a choice of (classical spacetime) polarization in modular (quantum) spacetime'; the dual fields φ̃, backgrounds of the dual momentum, 'represent dark matter'. Differs: the dark fields do not commute with the visible ones ('fuzzy'), are correlated with them, and the polarization is a choice, not a symmetry broken spontaneously with an order parameter."
+                },
+                {
+                  "id": "2212.06086",
+                  "why": "Refereed review (Berglund, Hübsch, Minic, IJMPD 2023) that the record already cites for dark energy. It presents metastring theory as an implementation of Born reciprocity between spacetime and energy-momentum space and says 'each observed (canonical) particle should have a dual particle, and such dual particles appear as good candidates for dark matter'. Same identification, same differences as the school's other papers."
+                },
+                {
+                  "id": "2202.06890",
+                  "why": "Snowmass 2021 white paper (arXiv 2022) co-signed by Freidel, Kowalski-Glikman and Leigh with Berglund, Hübsch, Mattingly and Minic: 'each observed quantum field has a dual, which could be associated with dark matter degrees of freedom'. A hedged association (partial), but the founders of the Born-geometry lineage the program builds on put their names to it."
+                },
+                {
+                  "id": "1401.3965",
+                  "why": "Related only (Foot's mirror-dark-matter review, IJMPA 2014, in the Lee–Yang and Kobzarev–Okun–Pomeranchuk line): dark matter as a copy of the Standard Model coupled to ours predominantly by gravity. It shows that the gravity-only decoupling C1 adds to the school's identification is itself old; only the combination is unpublished."
+                }
+              ],
+              "new_in_conjecture": "The literature found states neither of C1's forms: χ, dark matter whose own interaction is local in momentum, so that it acts only between particles of nearly the same velocity and leaves a knee in σ_T(v) whose tail separates particle from wave dark matter (the knee alone has ordinary mechanisms, resonant self-interaction among them), and the monopole form, objects localized in momentum (judged as C2). Nor does it state the program's setting: the dark sector as the matter of the opposite polarization of an exact Born reciprocity broken spontaneously by the vacuum, coupled to ours by gravity alone, with a permanent null in direct detection and at colliders as a kill condition. The metastring school expects the opposite, a dual sector mixed with ours (a seesaw for every fermion and its dual, correlated dual photons and Z bosons, correlated accelerator events); gravity-only copies of ordinary matter are themselves old (mirror matter), so this part is new only as a combination.",
+              "published_parts": "The identification is published, by the metastring school of Minic, Berglund and Hübsch: every Standard Model field has a dual field attached to the dual coordinates canonically conjugate to spacetime, and the dual Standard Model is the dark-matter sector, living and gravitating in our spacetime once the dual coordinates are integrated out. The earliest written statement is Minic's Belgrade proceedings (talk September 2019, arXiv 29 February 2020), which grounds the dual Standard Model in Born reciprocity between spacetime and energy-momentum space; the first refereed one is Berglund, Hübsch and Minic, LHEP 2021 (arXiv October 2020), restated in IJMPD 2023, Symmetry 2023, Bulg. J. Phys. 2024 and preprints through October 2026. Hübsch and Minic (2024, 2026) use the program's own terms: classical spacetime is a choice of polarization, and the dual fields are the dark matter. Freidel, Kowalski-Glikman and Leigh co-signed a hedged form in a 2022 Snowmass white paper.",
+              "label_disputes": [
+                {
+                  "id": "2202.05104",
+                  "current": "anticipates",
+                  "proposed": "partial",
+                  "reason": "On its own pages this Snowmass white paper says only that dark matter 'should be viewed as a dual SM, where dual refers to the dual spacetime that is found in such a general formulation of string theory'. Its full text has no match for Born, momentum space, phase space, conjugate or reciproc (grep of the arXiv HTML; the g1 verifier found the same). The conjugate, momentum-side meaning of 'dual' that makes the school's claim C1's comes only from its references (BHM 2020, Minic 2020). By the brief's test, the same physical claim and not just the same words, the paper alone states a central part. The verdict does not change: the papers it cites state the full identification."
+                }
+              ],
+              "confidence": "high"
+            }
+          ],
+          "notes": "Lens: advocacy for novelty, held to evidence. Read: panel/C1.json in full; #11 §1, §3, §4, §8, §9, §11.4, §12, §13, App. A; notes/broken-born-theory.md §1, §3; wiki/dark-matter/conjugate-matter/_index.md and candidates/chi-particles.md; in full or by passage Minic 2020 (§2, §5, conclusion), BHM 2021 (§1-§5), Hübsch-Minic 2024 §3.3 and 2026 §3.2, Minic 2024 (2305.12593), the Snowmass paper 2202.05104, Pavšič 2022, Sheng Ran's record, Hur et al. 2025. Sixteen quotes re-checked with lit.py quote, all FOUND. Working notes: work/literature-check/panel/c1-advocate/notes.md. Output also written to work/literature-check/panel/c1-advocate.out.json.\n\nTHE STRONGEST CASE THAT C1 IS NOT ANTICIPATED. (1) Coupling: the school's dual sector is mixed with ours by construction (λ²[[A,Ã]] and FF̃ terms, a seesaw mass matrix 'for every fermion-dual fermion pair', a dual photon and dual Z 'correlated' with ours, 'correlated events in the accelerators', dark quanta 'detectable through their particular metaparticle entanglement'). C1's χ form under strict P4 couples by gravity alone and lists 'any confirmed non-gravitational DM-SM coupling' as a kill condition (#11 §13 row 7): opposite predictions on the observable that identifies dark matter. (2) Organization: the record glosses conjugate matter as matter that 'interacts in momentum space' (#1 §3, the gate being its 'EFT-level content'), and the monopole form is localized in momentum; the school's dual fields are bi-local like the visible ones, live in spacetime after integration over x̃, and have no momentum-local dynamics. (3) Framework: exact reciprocity broken spontaneously, η the order parameter, the mirror vacuum equally lawful (P5), against reciprocity built in and the polarization a choice. (4) Object: the school's dark matter is fuzzy (it does not commute with visible fields) and tied to modified dark matter's correlation with baryons; χ is CDM-like in its gravity, with a gate.\n\nWHY THE CASE FAILS FOR THE IDENTIFICATION. (a) The duality is the same, not a shared word: the school's dual coordinates are the canonical conjugate of x ('x̃ ≡ p/ε, so [x,x̃]=i' in Hübsch-Minic 2024; 'p_ν are dual coordinates conjugate to x' in Minic 2024; BHM's 'canonically conjugate dual space'); spacetime is 'a choice of (classical spacetime) polarization'; Minic 2020 derives 'Standard Model and its dual, describing the dark matter sector' from Born reciprocity between spacetime and energy-momentum space. Every clause of C1's head (counterpart of ordinary matter, the same kind of matter, on the conjugate side of reciprocity, gravitating on our metric) is in those texts. (b) The coupling belongs to the framework, not to the identification: 'gauge forces do not cross polarizations' is postulate P4, taken strictly only since v2.1 (2026-10-19), and C1's own monopole form is not committed to it (§11.4's shared-photon form gives the analogs our photon's magnetic charge; row 7 names only χ and the X-condensate, flag 63). The school's mixing is, in its own words, 'invisible in effective field theory' and vanishes as λ→0 or L→∞, and strict P4 itself allows gravity-induced kinetic mixing ε ≲ 1e-13. A gravity-only copy of ordinary matter as dark matter is mirror matter (Kobzarev-Okun-Pomeranchuk 1966; Foot; Berezhiani), so decoupling added to the school's identification combines two published claims. (c) χ itself clusters in position on the spacetime metric ('x-clumping'), as the school's dual matter does; its only momentum organization is the gate, postulated [P] in #1 v0.1, mechanism not derived (flag 55, pending). That is the χ form's content, added to the identification, not implied by it. The brief and App. A item 4 list the gate and the monopoles as forms, and the label 'partial' is defined to cover 'one of its forms', so the general claim is the conjecture. (d) P.R.'s own wording (2026-10-29), 'dark matter is conjugate (momentum) matter', is the one-line identification the school published in 2020.\n\nDISSENT KEPT ON RECORD. If 'organized around momentum' is read as a dynamical clause of C1's head (dark matter that interacts, or is localized, in momentum), the school states only a central part and the verdict is 'partly anticipated'. I do not adopt that reading, for (c) and (d); it would change the label, not the facts.\n\nOTHER LABELS. The ten 'anticipates' papers (nine after my dispute) are one school restating one claim (Minic, Berglund, Hübsch, Edmonds, Takeuchi), so they are one priority, Minic 2020, not independent prior art. 2305.12593's single-agent label stands: its 'which' refers to the duals, and the paper says the dual coordinates are conjugate to x. The related labels for Sheng Ran (dark matter 'not a new particle species', an evanescent projection) and Pavšič (the field's (φ, Π) phase space; a gauge-separated copy) stand. The two evidence-against items (2006.12515, 1508.03339) are mild, about 2σ and model-dependent; they weigh on row 1's 'zero cluster signal (particle χ)', which a rational gate tail (#11 §8) would soften, and say nothing on the identification. Metadata: 2011.08852's authors are Jejjala, Kavic, Minic and Takeuchi, not C.-H. Tze, as the g1 verifier found; the panel citation still has Tze. Dates: the school's statements (2019/2020 onward) precede the program (September 2026) by about six and a half years. The record cites one of them (2212.06086) for dark energy and has not compared its dark-matter claim with C1."
+        }
+      },
+      {
+        "key": "c4",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C4",
+              "verdict": "partly anticipated",
+              "closest": [
+                {
+                  "id": "2507.06697",
+                  "why": "Vento, 'Dark monopoles' (arXiv July 2025, v3 Jan 2026; preprint only). Partial, confirmed on reading §2 and §7. Dark matter is monopoles coupled only to a second ('extraordinary') photon, and visible matter is electrons coupled only to ours: 'We depart from Cabibbo and Ferrari in that we will ascribe the monopoles to dark matter'; 'We assume the magnetic sector of the theory to be associated with a dark sector' (both FOUND). The magnetic coupling is tied to e by the Schwinger condition. This is a close variant of the separate-photon form, whose darkness likewise comes from a separate photon, with no position-momentum structure, one species ('for simplicity'), and a kinetic-mixing portal that strict P4 excludes. The abstract sets the model against the monopole null result."
+                },
+                {
+                  "id": "2302.03526",
+                  "why": "Govaerts, Eur. Phys. J. C 83 (2023) 158. Partial, as a question in the Conclusions: 'a dark parallel world of purely magnetically charged matter that would interact electromagnetically ever so weakly with the purely electrically charged matter of our visible Universe' (FOUND), contributing to the energy-momentum tensor. In wording it is the shared-photon form (the magnetic half of one dual electrodynamics). In physics it is closer to the separate-photon form: his action-derived force law (eq. 69) lets electric charges feel only the fields of electric charges, and magnetic charges only those of magnetic charges. It has no Dirac condition, no family and no momentum."
+                },
+                {
+                  "id": "2610.02083",
+                  "why": "García-Moreno and Vento (arXiv, 1 Oct 2026; preprint). Partial, for consistency with Vento 2025: it restates the same dark QED ('The new photon and the monopoles form the dark matter sector.', FOUND) and extends it to the electroweak theory with a massive dark photon. It adds nothing for C4 beyond Vento 2025 and appeared at about the same time as the program's statement."
+                },
+                {
+                  "id": "2111.14205",
+                  "why": "Berglund, Hübsch and Minic (conference paper, 2021). Related, but the only work found with the program's conjugate-coordinate structure. Born geometry's eta pairs the visible E8 (on x) with a second E8 whose x~-dependent fields are 'dark', which it 'identifies ... as the Langlands dual ... i.e., the electro-magnetic dual' (fragments FOUND; math symbols elided). The claim concerns gauge groups only: no charged matter, no magnetic charges, no couplings, and the authors call the two E8s 'physically indistinguishable'. The dual partner of each field lies in the same algebra, so the school's C1 papers ('each observed particle should have a dual particle') do not supply magnetic analogs. It is the closest published form of #14 v2's 'S-dual image' identification, which #11 §11.4 calls a related identification."
+                },
+                {
+                  "id": "hep-th/0008052",
+                  "why": "Gibbons and Herdeiro, Phys. Rev. D 63 (2001) 064006. Related to C4's matter claim, but it publishes the bridge behind §11.3: 'In fact electric-magnetic duality is a special case of Born-Reciprocity' (FOUND), with T-duality coming from Born reciprocity and T and S inside U-duality (Hull and Townsend), the analogy §11.3 draws."
+                },
+                {
+                  "id": "recid:352759",
+                  "why": "Adams, Fatuzzo, Freese, Tarle, Watkins and Turner, Phys. Rev. Lett. 70 (1993) 2511. Evidence against, confirmed but scoped. Monopoles of our photon 'much lighter than 10^17 GeV' cannot provide the closure density. This weighs against the shared-photon form only where the analogs act as position-localized monopoles at dark-matter density, which #11 §11.4 already concedes. It is silent on the separate-photon form and on objects spread in position."
+                },
+                {
+                  "id": "2609.25324",
+                  "why": "Carneiro (arXiv, Sept 2026; preprint). Related. A vacuum with a magnetic condensate keeps electric charge long-ranged and screens our photon's magnetic charge, and 'the screened monopole' is offered as a dark-sector candidate (FOUND). It is the nearest published case of a vacuum selecting the electric frame, and a third hiding route besides p-localization and binding. It has no phase-space half and no mirror pairing."
+                }
+              ],
+              "new_in_conjecture": "No work found puts magnetically charged counterparts of our electrically charged particles in a momentum-polarized or conjugate-coordinate sector. None pairs every charged particle with a dark magnetic analog either: the published dark magnetic sectors hold one species, and the published full magnetic families (Montonen-Olive 1977, Vachaspati 1996, Fryberger 2015-2018) are not dark sectors. Also unpublished: hiding our photon's magnetic charges by localization in momentum (the shared-photon form), a reciprocity map that fixes the dark sector's coupling at the S-image of ours, and one vacuum event that selects both the position polarization and the electric sublattice. My own inference, not in the record: under strict P4, a p-sector holding only magnetic charges of its own photon can be redescribed with electric ones (Scott et al. 2018), so the separate-photon form's new observable content is the coupling value that reciprocity would fix, F2's open choice.",
+              "published_parts": "The idea that dark matter is the magnetic counterpart of our electrically charged matter is published in two variants, neither with any position-momentum structure. Govaerts (Eur. Phys. J. C, 2023) asks whether 'a dark parallel world of purely magnetically charged matter' could be the dark matter. Vento (arXiv, 2025; extended with García-Moreno in October 2026) models dark matter as monopoles coupled only to their own photon, with the magnetic coupling tied to e. The full magnetic family itself is the established half #11 already credits (Montonen-Olive 1977; a dual Standard Model in Vachaspati 1996). The bridge behind §11.3 is in print too: electric-magnetic duality as a special case of Born reciprocity, with T and S inside U-duality (Gibbons and Herdeiro 2001). Berglund, Hübsch and Minic (2021) use Born geometry to identify a 'dark' gauge sector on the dual coordinates as the electromagnetic dual of the visible one, for gauge groups only.",
+              "label_disputes": [
+                {
+                  "id": "physics/0401083",
+                  "current": "collision",
+                  "proposed": "related",
+                  "reason": "Hehl and Obukhov's 'electric/magnetic reciprocity' is electric-magnetic duality with magnetic charge, set as an axiom of premetric electrodynamics: the same duality C4 uses. Only the word 'reciprocity' collides with Born's. It says nothing about C4, so it sits with the other duality papers labeled related, not among the word collisions."
+                }
+              ],
+              "confidence": "high"
+            }
+          ],
+          "notes": "Judge C4. I read BRIEF.md, panel/C4.json, #11 §1, §3-§4, §11-§12, §14, §15 and App. A, and the wiki pages magnetic-identification.md and magnetic-mirror-family.md. I read the full texts of Vento 2025, García-Moreno-Vento 2026, Govaerts 2023, Berglund-Hübsch-Minic 2021, Guendelman-Singleton 2023, Bolognesi 2009 and 2015, Carneiro 2026, the Freidel-Leigh-Minic 2014 dyon passage, Gibbons-Herdeiro 2001, Russo-Townsend 2025, Vasconcellos-Hadjimichef 2014 and Lüst-Malek-Szabo 2017. For Adams 1993, Terning-Verhaaren 2018 and 2019, Scott et al. 2018, Hiramatsu et al. 2021, Recami-Mignani 1976, Fryberger 2018, Sullivan-Fryberger 2015, Polchinski 2004, Born 1940, Krasnoholovets 2019 and Hehl-Obukhov 2004 I read the abstracts. Sizov 2018 and Kriger 2026 I read through WebFetch only. Every quote I rely on was re-checked with lit.py quote and FOUND; the Berglund-Hübsch-Minic quotes were checked as fragments because the text holds LaTeX. The task's question: works that put magnetically charged dark matter in an ordinary hidden sector state more than C4's established half. The established half (#11 §11.2, App. A item 11) is a magnetic counterpart for each electric particle inside one theory, heavy and bound. Govaerts and Vento move the magnetic charges into a separate dark sector that gravitates beside our electric one, which is the step C4 takes. They stop before the program's own step, the momentum polarization, so they are partial. Hidden-sector monopole dark matter whose hidden U(1) has its own electric charges (Murayama-Shu, Terning-Verhaaren, Graesser et al.) has no mirror pairing with our charges and stays related. The alternative reading treats only the momentum placement as C4; it would make the verdict 'related only', with Berglund-Hübsch-Minic 2021 closest. I reject it because the brief counts forms and close variants, and the separate-photon form's darkness comes from its separate photon, as in Vento, not from the polarization. Confidence is high that the published facts are as stated; the label rests on that one reading, stated here. All other labels hold. In particular, Berglund-Hübsch-Minic 2021 stays related (gauge groups only, the two E8s 'physically indistinguishable'), and I did not combine it with the school's C1 papers, since there the dual of each field lies in the same algebra. Vasconcellos-Hadjimichef 2014 stays related, but its panel summary's '(magnetic-type)' is not in the text: dark matter there couples to a second photon, and nothing is called magnetic. Kriger's monograph excludes monopoles and dark-matter particles; these are predictions of its own framework, not evidence. Not-found statements 1-5 hold on my reading. One finding bears on the record beyond C4. #11 §15 counts 'one structural unification (polarization of phase space and of charge space as one move)' among the program's products, and App. A item 11 calls the polarization identification the 'program-native addition'. Several published works reach parts of this. Gibbons-Herdeiro 2001 and Russo-Townsend 2025 call electric-magnetic duality a case of Born reciprocity, and Gibbons-Herdeiro use the U-duality analogy that §11.3 uses. Freidel-Leigh-Minic 2014 equate the Dirac-Schwinger-Zwanziger pairing of worldsheet dyons (momentum and dual momentum) with a Born-geometry constraint. Berglund-Hübsch-Minic 2021 derive an electromagnetic-dual pairing of gauge groups from eta. Lozano 1995, Harvey-Moore-Strominger 1995, Galakhov-Mironov-Morozov 2014 and Kapustin-Witten 2007 tie S-duality to canonical transformations, T-duality or Fourier transforms. That also bears on round 2's 'matrix coincidence' objection. What remains unpublished in §11.3 is one vacuum event selecting both polarizations. Notes: work/literature-check/panel/c4/notes.md; output: work/literature-check/panel/c4.out.json."
+        }
+      },
+      {
+        "key": "c5",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C5",
+              "verdict": "partly anticipated",
+              "closest": [
+                {
+                  "id": "doi:10.22323/1.335.0047",
+                  "why": "Closest configuration, for the present epoch (Henry-Couannier, Dark Gravity, PoS EDSU2018, 2018): the dark side, whose scale factor is 1/a, 'is in contraction' as ours expands, and after a postulated permutation of the scale factors 'the dark side source term have started to drive the evolution', giving a ∝ t′² with no cosmological constant. It differs in physics, not only in framework. The partner is the inverse metric of a flat-background theory, a time-reversed twin whose matter acts on our side as negative mass, not the momentum-space description of our universe. The late acceleration needs a discontinuous exchange of regimes, the law is a power law, and there is no kinetic route to Λ."
+                },
+                {
+                  "id": "gr-qc/0610079",
+                  "why": "The same theory's dynamics (review: 61 arXiv versions, 2006–2013; journal 2013). In cold eras 'there is a dominant source term determined by the content of the side with greater scale factor'. While a ≪ 1, the conjugate side is, in the shared time, a dust universe contracting to a crunch, and ours accelerates as t′². That is the dust version of 'their collapse is our acceleration'. It works there because the two sides share conformal time (w + w̃ = −2/3); the program's own dictionary maps dual dust to dust. The June 2010 version has the equations only; the explicit attribution and the late-time arrangement date from the 2013 version."
+                },
+                {
+                  "id": "2207.02835",
+                  "why": "Closest present-epoch statement of the identity (Mukherjee, Jassal and Lochan, arXiv 2022, Eur. Phys. J. C 2024): 'the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe'. Its §6 pairs a de Sitter Jordan frame that 'mimics the late-time dark energy-dominated era' with a contracting Einstein frame holding only a stiff fluid, which is the pairing of C5's route. But the partner is a Weyl-rescaled metric of Brans-Dicke gravity (in §6, ã ∝ a^(−1/2), with separate clocks), and dark energy is put in by hand. Whether the partner collapses during the acceleration is set by a free parameter: for ΛCDM the Jordan frame collapses in the matter era and expands after a tunable bounce."
+                },
+                {
+                  "id": "hep-th/0207130",
+                  "why": "The identity for primordial inflation, in Gasperini and Veneziano's 2003 review. It was first stated in Gasperini and Veneziano 1993 (hep-th/9309023), and the collapse framing comes from Buonanno, Damour and Veneziano 1999 (hep-th/9806230). 'Inflation in the S-frame, for instance, can be represented as gravitational collapse in the E-frame', where the content is a massless, stiff scalar that 'cannot give inflation ... Instead, it can easily lead to gravitational collapse'. Its §2.2 gives scale-factor duality with sources (Veneziano 1991), the same map of fluid variables as the program's dictionary. The setting is conformal frames, the acceleration is superinflation rather than Λ, and nothing is applied to dark energy."
+                },
+                {
+                  "id": "1506.02187",
+                  "why": "Closest paper inside Born reciprocity, though related only (Bolognesi 2015, with its 2012 precursor 1207.5514, published in IJMPD 2014). The momentum-space sector of a Born-reciprocal theory explains the present acceleration: a positive 0-0 kinetic term in momentum space inverts into a Λ-like term in our stress tensor. But the dual universe 'has a specular behaviour', growing with ours, and nothing contracts or collapses. The kinetic-to-potential exchange is a field-equation effect, not a dual-frame fluid carried across by a·ã = 1."
+                }
+              ],
+              "new_in_conjecture": "No work found makes the contracting partner the momentum-space (Born-reciprocal, conjugate-polarization) description of our own universe, with a·ã = 1 fixed by a constant ħ, and puts the source of our present acceleration in its collapse; the Born-reciprocity dark-energy proposals found (Bolognesi 2012 and 2015; Berglund, Hübsch and Minić 2019; Hur et al. 2025) contain no contraction. The kept route is found nowhere: a contracting conjugate universe with kinetic-dominated contents that acts on ours as a cosmological constant through w_eff = −w̃ in Einstein gravity. Its map of fluid variables is published as scale-factor duality with sources, but only as a symmetry of string-frame dilaton gravity, where the partner of a stiff source is a power law rather than de Sitter, so reading the carried energy as a source in our Einstein-frame constraint is the program's own step. In C5 the conjugate contracts throughout our expansion by a·ã = 1, whereas in the closest variants the coincidence of collapse and acceleration is a chosen parameter (Mukherjee et al.) or a postulated exchange of regimes (Dark Gravity).",
+              "published_parts": "The configuration of the founding sentence is in Henry-Couannier's Dark Gravity: a conjugate world with inverse scale factor contracts as ours expands, and its cold matter, once dominant, drives our present acceleration without a cosmological constant (equations by 2010, explicit statement in the 2013 review, 'the dark side of the universe is in contraction' in the 2018 proceedings), with a ∝ t′², a postulated exchange of regimes and negative effective mass. The identity that accelerated expansion in one description is gravitational collapse of kinetic (stiff) content in another description of the same universe is published for primordial inflation since Gasperini and Veneziano 1993 (then Buonanno, Damour and Veneziano 1999, and the 2003 review). For present dark energy, Mukherjee, Jassal and Lochan (arXiv 2022, Eur. Phys. J. C 2024) state it in conformal frames, with a de Sitter/contracting-stiff pairing that is the route's. The route's dictionary is, as a map of fluid variables, scale-factor duality with sources (Veneziano 1991; Gasperini and Veneziano 2003 eq. 2.32), and the superseded heuristic −2 − w̃ is the phantom duality (Chimento and Lazkoz 2003; Dąbrowski, Stachowiak and Szydłowski 2003).",
+              "label_disputes": [
+                {
+                  "id": "1307.0159",
+                  "current": "partial",
+                  "proposed": "related",
+                  "reason": "It shares C5's wording and the inverse scale factor, not its claim. (1) The authors read the dual coordinates as extra dimensions ('The visible pre-big bang dimensions contract to invisible extra dimensions'). They present the result as double field theory's automatic version of Levin's 'kinetic inflation purely driven by the contraction of extra dimensions', which the panel rates related; the dual space is not a description of our universe. (2) With a₂ = a⁻¹, the contraction of x̃ is identically the expansion of x, and the paper assigns it to both stages ('the contraction of x̃ makes x expanding in an decelerated pace'). So it states the analogue of App. A item 6, the conjugate shrinking as ours expands, not item 9's link of collapse to acceleration; the inflation comes from the dilaton-potential solution. (3) It is primordial, with no matter content, no collapse and no dictionary. The g4 verifier kept partial because the program's conjugate also contracts throughout. But then the program's claim rests on the contents, which this paper does not have."
+                }
+              ],
+              "confidence": "high"
+            }
+          ],
+          "notes": "Judge for C5, 2026-11-02. Evidence: panel/c5/notes-read-log.txt lists what was read. 16 further quotes were checked with lit.py quote, all FOUND (panel/c5/quote-checks.out). No new papers were searched for.\n\nRULE APPLIED. Partial needs two things: a second description of our universe (a conformal frame, or a face of one field), and a stated link between its collapse or contraction and accelerated expansion specifically. A paper shares only the shape when the link is absent, applies to expansion in general, or concerns something that is not a description of our universe (extra dimensions, a parent space, a second population, a different solution).\n\nLABELS, TESTED BOTH WAYS.\n- Partial, confirmed: Henry-Couannier's PoS 2018 and review (together the strongest, as the closest configuration); Mukherjee–Jassal–Lochan 2024; Gasperini–Veneziano 2003; Buonanno–Damour–Veneziano 1999; Gasperini–Veneziano 1993. The 1993 paper carries a single-agent label, which I confirm: it is the origin of the identification, S-frame superinflation as 'deflationary contraction' in the E-frame. The collapse and stiff framing come with BDV 1999 and the 2003 review.\n- No paper anticipates C5. Dark Gravity is the only candidate: it states the founding sentence's configuration and causal arrow almost word for word, in 'conjugate' vocabulary. But its partner is a time-reversed inverse-metric twin whose matter acts on us as negative mass; its late acceleration needs a postulated exchange of regimes with a reversed time arrow; its law is a ∝ t′²; and the program's dictionary sends its dust content to dust. These are differences of physical claim. A reader who counts the partner's identity as framework only could call it anticipated for the founding sentence, but never for the kept route.\n- Downgraded: Wu–Yang 2014 (see label_disputes).\n- Related, confirmed after testing upward:\n  - Bolognesi 2012 and 2015.\n  - Berglund–Hübsch–Minić 2019 and its restatements.\n  - Hur et al. 2025: the dual UV cutoff grows as a, but nothing contracts.\n  - Mukherjee–Jassal–Lochan JCAP 2021: its collapse begins where the quintessence reaches w = 1, a decelerating frame, and with the observed matter ratio 'the Jordan frame universe never collapses'. Also their MG16 proceedings and Mukherjee–Sahota 2023.\n  - Henry-Couannier et al. 2005: source-free, 'completely independent of the matter and radiation content'.\n  - Levin 1995 and Ferrer et al. 2009: extra dimensions.\n  - Escudero 2024 and Gaztañaga 2022: a parent collapse.\n  - Räsänen 2006: our own structures.\n  - Petit et al., Manfredi et al. and Falomir et al.: second populations or regions.\n  - Camara da Silva et al. 2015, Lidsey 2004, Chimento–Lazkoz 2003 and Dąbrowski et al. 2003: dualities between different solutions.\n- Stolt 2025 stays related on content: its description links no contraction to acceleration, and the PDF was not read. But its record gives the reason 'Non-reviewed, so not above related', which grades the venue, and the brief forbids that.\n- Evidence-against (Planck 2018) is confirmed for the failed w = −2 version only. Planck gives w0 = −1.028 ± 0.031, so w = −2 lies 31.4σ away and w = −1 lies 0.9σ away (panel/c5/planck_sigma.out).\n- Collisions confirmed.\n\nCORRECTIONS TO THE PANEL'S SUMMARIES.\n- Mukherjee–Jassal–Lochan 2024: drop 'which bears on the open question of how the route relates to τ's potential'. This is the oa-c5 verifier's correction, and I agree: Λ⁴(1 + cos(φ/f)) is the generic thawing form, the field sits on the expanding side, and nothing maps dual kinetic energy to Λ.\n- Mukherjee–Jassal–Lochan 2024, §6: its pairing is the route's pairing but not the dictionary's entry. At the same event ã ∝ a^(−1/2), the clocks are separate, and the de Sitter is the textbook ω_BD = −4/3 vacuum solution (check E).\n- Mukherjee–Jassal–Lochan 2024, abstract: its identity holds only for chosen parameters. 'For all the plots, the Jordan frame universe is seen to be collapsing at the early matter-dominated phase'; then it bounces and 'starts expanding with the Einstein frame'.\n- Dark Gravity review: 'not gravitational collapse' is too strong. In the shared time the conjugate side is a dust universe contracting to a crunch while its matter dominates (g4 dg_exponents steps 1–3; check D's conformal-time rule), though the review narrates it as source dominance.\n- Dark Gravity review, dating: the 1/t² solution driven by the cold-era source is in the June 2010 version (v55), with the conjugate term dominant for a ≪ 1 (my reading of its eq. 9). 'The side with greater scale factor' and the late-time exchange of regimes appear in the 2013 version (v61). The 2006 (v1) and 2008 (v30) versions have only a source-free acceleration claim.\n\nTHE VERIFIER'S NOTE that w_eff = −w̃ 'is scale-factor duality with sources'. It is right about the map, and wrong if read as a statement about its role.\n- Checks A–B (panel/c5/c5_dictionary_check.py and .out) are not circular. The program's rule takes our pressure from our own continuity equation; GV eq. (2.32) reflects the pressure; for any a(t) in d = 3 the two agree. So the map (a → 1/a, energy per comoving volume preserved, w → −w, hence stiff → p = −ρ) is Veneziano 1991 / GV 2003 eq. (2.32), and #11's [D] tag on the dictionary should credit it [T].\n- But scale-factor duality maps one solution of string-frame dilaton gravity to another, while the program enters the conjugate energy of one state into our Einstein-frame Hamiltonian constraint. GV write that the pairing 'has no analogue in the context of the Einstein cosmology, where there is no dilaton, and the duality symmetry cannot be implemented'. Check D confirms that the map takes no Friedmann solution to a Friedmann solution.\n- Inside the duality, the partner of a stiff source is a ∝ t^(−1/2) with a running dilaton (check C), not de Sitter. So 'dual stiff ↦ Λ' read as a cosmological constant is the program's own Einstein-frame step, which keeps [D].\n- The correction recorded in #1 §6 is exactly the difference between two published maps. The heuristic −2 − w̃ is the phantom duality (ρ preserved, shared cosmic time); the corrected −w̃ is the duality with sources (ρa³ preserved). A third choice, shared conformal time, gives w + w̃ = −2/3 (Camara da Silva et al.; Dark Gravity). Under the three choices, the content that acts on us as Λ is stiff, Λ itself, or radiation respectively (check F).\n\nNOT-FOUND STATEMENTS. They hold in C5's own terms, with the verifiers' two corrections: the present-epoch identity exists in conformal frames (Mukherjee et al. 2024), and the founding configuration exists in Dark Gravity."
+        }
+      },
+      {
+        "key": "c6",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C6",
+              "verdict": "partly anticipated",
+              "closest": [
+                {
+                  "id": "0901.1106",
+                  "why": "Sikivie and Yang, PRL 103, 111301 (2009). Dark-matter axions thermalize through their own gravity and Bose-condense: 'all cold axions go to a single state', the k = 0 mode in a homogeneous universe, in condensate patches of horizon size. Dark matter is then gathered in momentum and spread through space, the published form closest to 'clumping in speed rather than space'. It differs in having one condensate made by Bose statistics, no flocks, no attraction acting in velocity and no conjugate sector. It never writes 'momentum space', and 1412.5930 disputes its long-range coherence."
+                },
+                {
+                  "id": "1507.01019",
+                  "why": "Berezhiani and Khoury, PRD 92, 103510 (2015). Dark matter is superfluid in galaxies and mixed or normal in clusters 'due to the higher velocity dispersion in clusters', with T_c fixed by equipartition at a critical velocity. This is the notebook's condensed-core sentence nearly word for word ('below a critical velocity dispersion the core of a halo condenses', 'superfluid-like cores in dwarfs', #1 §5.2). The driver differs: strong contact self-interaction and Bose degeneracy. It has one condensate and aims at MOND phenomenology through phonons."
+                },
+                {
+                  "id": "astro-ph/0003388",
+                  "why": "Riotto and Tkachev, PLB 484, 177 (2000), the earliest checked statement of the condensed form. Virialized dwarf-galaxy cores, where 'there will be many streams of particles, each with different vector of velocity', Bose-condense through Bose-enhanced self-scattering. Condensation is 'the average momentum of the distribution of the parent particles going to zero', and the condensate sits at rest in the centre of the well: one clump in momentum, not several flocks."
+                },
+                {
+                  "id": "1804.05857",
+                  "why": "Levkov, Panin and Tkachev, PRL 121, 151301 (2018). Virialized halos Bose-condense through gravity alone into a Bose star at their centre, in a time proportional to m v^6/(G^2 n^2 Lambda). The record's wave island takes its rate from this paper and adds a gated channel (#11 §9 (ii), ref. [13]; notes/wave-island.md)."
+                },
+                {
+                  "id": "1412.5930",
+                  "why": "Guth, Hertzberg and Prescod-Weinstein, PRD 92, 103513 (2015), evidence against the Sikivie-Yang form. Under attractive interactions, gravity among them, the condensate's ground state has wavenumber near the Jeans scale, not k = 0, and forms 'localized Bose clumps (stars or solitons)', localized in position rather than in momentum. It treats no attraction acting in velocity, so it does not test the founding image."
+                },
+                {
+                  "id": "0709.0776",
+                  "why": "Delbourgo and Lashmar, Found. Phys. 38, 995 (2008), the closest mechanism. A Born-reciprocal partner of Newton's 1/r, an attraction proportional to 1/|v - v'| among all masses, is offered for rotation curves without dark matter. It claims no clumping in velocity, and the authors call their fit 'far from convincing'."
+                },
+                {
+                  "id": "cond-mat/0212313",
+                  "why": "Ben-Naim, Krapivsky and Redner, Physica D 183, 190 (2003), the closest fragmentation structure. A uniform distribution breaks into discrete, equally spaced clusters under an interaction that acts only between near-equal values. The variable is an opinion and the dynamics are dissipative averaging, not matter, gravity or velocity."
+                },
+                {
+                  "id": "astro-ph/9504052",
+                  "why": "Sikivie, Tkachev and Wang, PRL 75, 2911 (1995). Halo dark matter reaches Earth in discrete flows of distinct velocity, the observable the image's streams would give. The flows come from cold infall, from matter never spread in velocity, not from clumping."
+                }
+              ],
+              "new_in_conjecture": "No work found states the founding image. In it, dark matter that is matter of the conjugate polarization clumps in velocity by its own collective dynamics, as ordinary matter clumps in position: a smooth velocity distribution breaks up, under an attraction between particles of similar velocity, into several flocks at different velocities, each spread through space. Every published form is one condensate in the lowest-energy state, made by Bose statistics with gravity or contact scattering as the relaxing agent, and limited to degenerate bosons; under gravity alone the condensate localizes in position (Guth, Hertzberg and Prescod-Weinstein 2015; Levkov, Panin and Tkachev 2018). Discrete velocity flows in halos appear in print only from cold infall (Sikivie, Tkachev and Wang 1995), and an attraction in relative velocity only without a clumping claim (Delbourgo and Lashmar 2008).",
+              "published_parts": "Dark matter gathered into a single low-momentum state, Bose-Einstein condensation, is published. The standard reading calls it condensation in momentum space, after Einstein (Stamper-Kurn and Ketterle), and the lab notebook calls it 'momentum-space clumping, realized' (#1 §5.2). Riotto and Tkachev (2000) have dwarf-galaxy cores Bose-condense; Sikivie and Yang (2009) have axions condense through their own gravity into one state spread over horizon-size patches; Berezhiani and Khoury (2015) have dark matter superfluid in galaxies and mixed or normal in clusters because of their higher velocity dispersion; Levkov, Panin and Tkachev (2018) give the gravitational condensation rate that the record's wave island adapts. The consequences the notebook drew from the condensed form, superfluid-like cores and suppressed dynamical friction with Fornax's globular clusters, are published for superfluid and fuzzy dark matter (Berezhiani, Elder and Khoury 2019; Hui, Ostriker, Tremaine and Witten 2017).",
+              "label_disputes": [
+                {
+                  "id": "1804.05857",
+                  "current": "related",
+                  "proposed": "partial",
+                  "reason": "It states the same form as Riotto and Tkachev 2000, which the panel keeps as partial: dark matter in a virialized halo Bose-condenses at the centre ('until the Bose star appears in its center'), here through its own gravity alone. Its condensation time, proportional to m v^6/(G^2 n^2 Lambda) (eq. 4), means that within a given age only halos below a critical velocity dispersion condense; that is my reading of the formula, not their words. The ground given for related, that Bose stars are localized in position, applies equally to Riotto and Tkachev's 'Bose condensate in the center of gravitational well' and to the notebook's form, which is about a halo's core. The record's wave-island form of C6 is this process with a channel added ('This is the mechanism LPT established for gravity ...; here the gated contact attraction adds a channel', notes/wave-island.md), so the paper states a close variant of that form. Its homogeneous-box result, a Bose star rather than a k = 0 condensate, also agrees with 1412.5930 against the Sikivie-Yang form."
+                }
+              ],
+              "confidence": "medium"
+            }
+          ],
+          "notes": "Judge for C6. Read: BRIEF.md; panel/C6.json; the g5 searcher's and verifier's notes and verify.json; #11 §1, §3-§4, §8, §9, App. A and refs [13]-[15]; the founding-image wiki page; #1 §5.1-§5.3 and Addendum v0.2; notes/wave-island.md; notes/velocity-gated-gravity.md §2 and §5. I read the cited passages of eight full texts and four abstracts; 20 quote checks gave 20 FOUND (panel/c6/quote-checks.txt; working notes in panel/c6/notes.txt). No new searches.\n\nThe question put to this judge: Bose condensation of dark matter is a form of C6, not only its theme. Three anchors support this. First, the standard reading of BEC is condensation in momentum space, and the brief's gloss of C6 is close to the textbook contrast between BEC and gas-liquid condensation. Second, #1 §5.2 calls halo-core condensation 'momentum-space clumping, realized'. Third, the record's own wave-island form of C6 is LPT's kinetic Bose condensation with a gated channel added (notes/wave-island.md line 9). It is not the image itself, which has several flocks from an attraction acting in velocity.\n\nHinge (inference about scope, not record): the verdict counts the record's condensed form as part of C6. If P.R. restricts C6 to the founding image of several velocity flocks, the verdict becomes related only. Nothing found states that image, so the novelty statement stands either way. For the same reason the bare phrase 'matter clumps in momentum space' should not be presented as new, since it describes BEC.\n\nLabels:\n- One dispute: Levkov-Panin-Tkachev, related -> partial, for consistency with Riotto-Tkachev.\n- Riotto-Tkachev's partial, a single-agent label, is confirmed on a second reading. Their starting point is the virialized halo's many velocity streams, which relax into one condensate at rest.\n- The single-agent related labels (the Born-Kothari pair; Ben-Naim et al.) are confirmed.\n- Alexander-Cormack stays related. It solves at T = 0 (quote checked). The maximum T_c it estimates, about 1 mK, is below the about 10 mK it cites for a dwarf, so at face value dwarfs are above T_c. BCS condenses pairs, not particle momenta.\n- Guth et al. stays evidence-against, scoped to the Sikivie-Yang form. It does not touch the condensed-core form or C6's own velocity-local mechanism. Whether its reasoning carries over by Born duality is inference, and the record's §2 (a potential in momentum differences exerts no force) suggests it does not simply.\n- The other related labels and both collisions stand.\n\nUnverified leads (†, model memory, not retrieved):\n- Einstein 1925 and London 1938 for 'condensation in momentum space';\n- Kothari and Nath 1943;\n- Tkachev 1991 and Semikoz-Tkachev 1995, which may date the condensed form before 2000;\n- plasma kinetic theory's phase-space 'clumps' and 'holes' (Dupree 1972; Berk, Breizman and co-workers), a likely collision."
+        }
+      },
+      {
+        "key": "c2-c3-c7",
+        "result": {
+          "conjectures": [
+            {
+              "conjecture": "C2",
+              "verdict": "related only",
+              "closest": [
+                {
+                  "id": "1903.05673",
+                  "why": "Closest mechanism, by Born reciprocity itself (with Lüst, Malek and Szabo 2017, 1705.09639, and Bakas and Lüst 2014, 1309.3172): (x,p) → (p,−x) maps electric charges moving through a distribution of magnetic charge onto closed strings in R-flux, a 3-form on momentum space whose cocycle 'resides in momentum space' (Bakas–Lüst). The momentum-space image of magnetic charge is a background flux acting on probes, not magnetically charged objects: no solitons, no abundance, no dark matter."
+                },
+                {
+                  "id": "hep-th/0310167",
+                  "why": "Closest single object: in noncommutative quantum mechanics the position-noncommutativity field must be 'a dual Dirac monopole in momentum space', Θ(p) = g_θ p/(4πp³), obtained from the position–momentum duality of the commutators. It is a vacuum field with its singularity at p = 0, realized as Berry curvature; not matter, not magnetic charge of any gauge field of ours, not dark matter."
+                },
+                {
+                  "id": "hep-th/0507204",
+                  "why": "Closest soliton (with Jensen 2011, 1106.1174): the Kaluza–Klein monopole, a topologically stable magnetically charged object, is localized by worldsheet instantons in the T-dual winding coordinate, a localization only winding-string probes resolve. The dual coordinate is winding on a compact circle, not momentum under broken Born reciprocity; the charge is Kaluza–Klein, not electromagnetic; no abundance or dark-matter claim."
+                },
+                {
+                  "id": "2302.03526",
+                  "why": "Closest physical claim: asks whether 'a dark parallel world of purely magnetically charged matter', interacting electromagnetically 'ever so weakly' with our electric matter yet gravitating, could be the dark matter. Posed as a question; the darkness comes from the force law of two-potential dual electrodynamics; no momentum space, polarization or solitons."
+                },
+                {
+                  "id": "0905.1720",
+                  "why": "Monopole dark matter itself (Murayama and Shu 2010, cited by the record; also Evslin and Gudnason 2012, 1202.0560, galaxy-sized hidden monopoles): 't Hooft–Polyakov monopoles of a hidden sector as dark matter, with ordinary kinematics in position space. This is the prior art #14's model reduced to; it lacks the conjecture's defining localization in momentum."
+                }
+              ],
+              "new_in_conjecture": "That magnetically charged topological solitons of a momentum-polarized matter sector exist, held localized in momentum rather than in position by their topology, and are abundant enough to be the dark matter. No work found places magnetically charged objects, or a population of them, in momentum space as matter, or localizes a soliton in momentum by its own topology. The published 'monopoles in momentum space' are background fields or band-structure Berry curvature, and published monopole dark matter lives in position space with ordinary kinematics.",
+              "published_parts": "Monopoles as dark matter are published in position-space forms since at least Murayama and Shu 2010 (hidden-sector 't Hooft–Polyakov monopoles, which the record cites), including galaxy-sized ones (Evslin and Gudnason 2012, preprint) and Govaerts's 2023 question whether a gravitating dark world of purely magnetically charged matter could be the dark matter. Magnetic sources in momentum space are published only as fields acting on probes: a dual Dirac monopole field Θ(p) at p = 0 in noncommutative quantum mechanics (Bérard and Mohrbach 2004), and the R-flux, the Born-reciprocal image of a magnetic-charge distribution, on momentum space (Bakas and Lüst 2014; Lüst, Malek and Szabo 2017; Szabo 2018, 2019). A magnetically charged soliton localized in a dual coordinate is known in string theory: the Kaluza–Klein monopole, localized in winding space by worldsheet instantons (Harvey and Jensen 2005; Jensen 2011).",
+              "label_disputes": [
+                {
+                  "id": "2509.21924",
+                  "current": "evidence-against",
+                  "proposed": "related",
+                  "reason": "It weighs only against a minimal adjoint-only SU(2) → U(1) dark sector with an ordinary thermal history and ordinary kinematics: #14's model, dead with P.R.'s concurrence, and a sector #11 §12 already excludes by its own W′ overclosure result. C2 fixes neither the gauge content nor ordinary kinematics, and the same authors' 2607.29492 makes non-minimal thermal monopole dark matter viable. Cite it as independent published support for #11 §12's W′ result, not as evidence against the conjecture."
+                }
+              ],
+              "confidence": "high"
+            },
+            {
+              "conjecture": "C3",
+              "verdict": "related only",
+              "closest": [
+                {
+                  "id": "2507.06697",
+                  "why": "Closest explanatory claim (arXiv preprint only): its abstract notes that no signature has been detected and that 'Many mechanisms have been proposed to explain this lack of success', then places the monopole and an 'extraordinary' photon in the dark sector; at zero mixing 'The monopole remains completely in the dark sector' and does not couple to visible photons. The hiding is a separate gauge field in position space, the separate-photon shape that #11 §11.4 says leaves the absence of our own monopoles unexplained; no localization in momentum, no Born reciprocity."
+                },
+                {
+                  "id": "2302.03526",
+                  "why": "Electric and magnetic matter are mutually 'dark' for electromagnetic interactions in two-potential SO(2) dual electrodynamics, which 'requires an earnest reassessment' of the experiments searching for monopoles. The hiding is by force law, not by localization, and the paper does not offer it as the explanation of the null result."
+                },
+                {
+                  "id": "recid:2173188",
+                  "why": "Closest shape: monopoles placed in a further dimension of an extended space-time (a second time dimension acting near the Planck length), so that they 'do not violate current experimental evidence'. Another space, not momentum space; no dark matter."
+                },
+                {
+                  "id": "cond-mat/0606726",
+                  "why": "Closest mechanism (with Lin and Hsiao 2022, 2102.04470): a nonzero momentum-space topological charge, the net Berry-monopole flux, forbids exponentially localized Wannier functions, so topology in momentum forces spread in position. Band electrons, not monopoles; the spread is of quantum states, which #11 §11.4 notes does not hide an object from detectors."
+                },
+                {
+                  "id": "hep-th/0507204",
+                  "why": "A monopole localized in a dual (winding) coordinate that only dual probes resolve; ordinary probes still see the object and its charge, smeared, so it is not hidden from them, and the paper does not concern monopole searches."
+                }
+              ],
+              "new_in_conjecture": "That monopoles escape detection because they are compact in momentum (conjugate) space, so that searches built for objects localized in position cannot register them; in the record's setting these are magnetic charges of our own photon carried by momentum-polarized matter (#11 §11.4's shared-photon form). No work found explains the null result by localization in momentum, or invokes Born reciprocity for it. One title remains unread: Khademi and Nasiri's 2009 talk 'Why magnetic monopoles are not seen?' (the repository returns HTTP 403 and no abstract exists); the same authors' 2008 paper derives charge quantization from phase-space gauge symmetry without monopoles, which suggests, as inference only, that the talk argues monopoles are unnecessary rather than hidden in momentum.",
+              "published_parts": "Accounts of the null result that keep monopoles but put them beyond our searches are published in several forms: a dark sector with its own photon (Vento 2025, preprint), mutual electromagnetic darkness of magnetic and electric matter with a call to reassess the searches (Govaerts 2023), a second time dimension (Elsborg and Kohn 2022), another space-time (Ellis 2022, preprint), confinement or binding (Kursunoglu 1974; Sidharth 2003; Epele et al. 2008) and sub-Dirac charges (Bojowald et al. 2018); cosmological histories that remove them are standard since 1980 (Langacker and Pi; Linde). That a topological charge in momentum space prevents localization in position is established for band electrons (Brouder et al. 2007; Lin and Hsiao 2022), and a monopole localized in a dual coordinate that only dual probes resolve is known in string theory (Harvey and Jensen 2005). None of these places monopoles in momentum space or ties such hiding to monopole searches.",
+              "label_disputes": [],
+              "confidence": "medium"
+            },
+            {
+              "conjecture": "C7",
+              "verdict": "related only",
+              "closest": [
+                {
+                  "id": "0709.0776",
+                  "why": "Closest in lineage and purpose: Born reciprocity applied to Newton's 1/r adds a term GmMΩ/|v − v′|, averaged over all other masses and their relative speeds in a galaxy and offered in place of dark matter; the authors note the term fades for galaxies receding in the Hubble flow. The term does not depend on distance and in their equations of motion changes how velocity follows from momentum, not the force; it acts on all matter, has no gate width and makes no clumping claim, and the authors call their rotation-curve fit 'far from convincing'. Related: the searcher's partial was rightly lowered by the verifier."
+                },
+                {
+                  "id": "2303.04816",
+                  "why": "Closest field-theory mechanism: for matter coupled to a continuous-spin field the pair potential is (g²/4πr)[1 − (ρ²r²/32)(|vᵢ − vⱼ| − (vᵢ − vⱼ)·r̂)² + …], unchanged for co-moving particles and for motion along the line joining them, and modified for transverse relative motion at ρvr ~ 1. A threshold that falls with distance, not a fixed v*; scalar, not gravity; dark matter mentioned only as a speculative application. Already cited by the record (momentum-gravity note §9)."
+                },
+                {
+                  "id": "astro-ph/0606566",
+                  "why": "Closest on the dark-matter side: a long-range attraction acting on dark matter only, bounded by the near-equal Sagittarius streams to acceleration differences below about 10%. Ungated; the record maps it to ε ≲ 0.2–2.5 at v* = 120 km/s."
+                },
+                {
+                  "id": "2402.08557",
+                  "why": "The structure of a momentum gate on an interaction of unlimited range: the Hatsugai–Kohmoto interaction is diagonal in momentum and its strength 'does not depend on the distance between the interacting particles'. Lattice electrons, repulsive in its standard form, constant rather than 1/r."
+                },
+                {
+                  "id": "1011.6374",
+                  "why": "Dark-matter self-interaction strong at low relative velocity and off at high velocity, the knee #11 §8 gives χ, from a Yukawa potential; short-range and collisional, not a long-range attraction."
+                }
+              ],
+              "new_in_conjecture": "A 1/r attraction that acts only among dark-matter particles and only when their relative velocity is below a fixed width v*, so that particles moving together attract and others do not, proposed as a route to clumping by velocity. No work found combines the three elements: a long-range force, confinement to dark matter, and a gate in relative velocity at a fixed scale. The evidence against it rests mostly on the record's own calculations (the Lyman-α forest; dwarf cores); Kesden and Kamionkowski 2006 is the one published bound that applies, and only weakly.",
+              "published_parts": "A long-range attraction acting on dark matter only, without a velocity gate, is an established hypothesis with published tests, for example the Sagittarius-stream bound of Kesden and Kamionkowski 2006, the structure-growth analysis of Costa et al. (JCAP 2026) and the BOSS full-shape limits the record cites. Dark-matter self-interaction that is strong at low relative velocity and weak at high velocity is published in collisional, short-range form since at least Loeb and Weiner 2011. Velocity dependence of a long-range interaction appears in the Born-reciprocity lineage (Delbourgo and Lashmar 2008: a term proportional to 1/|v − v′| among all masses, in place of dark matter, fading in the Hubble flow) and in continuous-spin field theory (Schuster, Toro and Zhou 2023: a correction that vanishes for co-moving particles, with a threshold that falls with distance).",
+              "label_disputes": [],
+              "confidence": "high"
+            }
+          ],
+          "notes": "Judge for C2, C3 and C7, restarted after the reboot (this judge's folder was empty). Read: the brief; panel/C2.json, C3.json, C7.json; the group and round-3 records behind them; #11 §§3-4, 8-12, 14 and App. A; the three wiki pages; notes/velocity-gated-gravity.md. Re-read with lit.py the passages that decide the labels; reading log in work/literature-check/panel/c2-c3-c7/reading-log.txt; output also written to work/literature-check/panel/c2-c3-c7.out.json. Result: no upgrade survives. Nothing in the evidence states any of the three conjectures, a central part of one, or a close variant, so all three stay 'related only'. One downgrade: Brümmer et al., arXiv:2509.21924, for C2, from evidence-against to related (it reaches only #14's model). Checks and corrections: (1) Goldhaber's Physics Today letter (C3) was re-read by WebFetch and both quotes are confirmed. The letter itself says that a spread magnetic charge needs new objects at lower scales, so only the extension to a kiloparsec spread is inference. The item stays evidence-against but is weak: it raises the cost of one hiding option of the shared-photon form without refuting it, and it does not touch binding into neutral composites. (2) Kobayashi-Perri (C2) is evidence-against only below about 1e18 GeV; its conclusions call monopoles that cluster with the Galaxy 'a valid candidate of dark matter'. Zhang et al. disfavour 1e16-1e20 GeV from the Andromeda Parker bound. So the published case against position-localized monopoles of our photon as the dark matter is agreed below 1e18 GeV and contested between the two papers above it. All four C2 evidence-against items assume ordinary kinematics; none tests localization in momentum. (3) Delbourgo-Lashmar (C7): the panel summary's 'bodies moving at similar velocities interact most strongly' is a gloss on 1/|v - v'|, not the authors' words. Their term changes the velocity-momentum relation, not the force. Related is upheld. (4) The Khademi-Nasiri talk (C3) is still unreachable: HTTP 403, and OpenAlex W3153563614 has no abstract. It is the one open item before C3's not-found is final. Round 3's OpenAlex queries on explanations of the null result (oa07-1..4) were never run after the rate limit. Hence medium confidence for C3. (5) An inference, recorded as a lead: the nearest published formal content to C2 is the field of one magnetic-type source at p = 0 in momentum space acting on probes (Bérard-Mohrbach's Theta(p), which makes positions noncommuting), and of a uniform magnetic-charge density on momentum space (the R-flux of Bakas-Lüst and Szabo, which makes positions nonassociative). Neither treats the sources as matter. (6) Evslin-Gudnason's galaxy-sized hidden monopoles are the one monopole-dark-matter model with field profiles spread over kiloparsecs, the spread #11 §11.4's hiding option names. Their magnetic charge belongs to a hidden U(1), so they say nothing about hiding magnetic charge of our photon."
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Judge"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "judge:c1-content",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a466a55eed2d02582",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100612,
+      "queuedAt": 1793686100572,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Physical-content lens. I read #11 §1, §3–§5, §7.1, §8, §10,…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793687097360,
+      "tokens": 310876,
+      "toolCalls": 50,
+      "durationMs": 996747,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C1\",\"verdict\":\"anticipated\",\"closest\":[{\"id\":\"2010.15610\",\"why\":\"Berglund, Hübsch and Minic, LHEP 2021 (arXiv October 2020), the first refereed statement. The abstract says dark matter 'comes from the degrees of freedom dual to the visible matter'. §3 says 'the A fields denote the usual Standard Model fields, and the Ã are their duals', and eq. (8) puts L_m and L̃_dm…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "judge:c1-scope",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a5f62ec0dd9efbce1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100612,
+      "queuedAt": 1793686100572,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Lens: scope and chronology. Read: BRIEF.md; panel/C1.json i…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793686975819,
+      "tokens": 279462,
+      "toolCalls": 61,
+      "durationMs": 874058,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C1\",\"verdict\":\"anticipated\",\"closest\":[{\"id\":\"2010.15610\",\"why\":\"First journal statement: Berglund, Hübsch, Minic, LHEP 2021, 186 (arXiv 29 Oct 2020). The abstract says dark matter 'comes from the degrees of freedom dual to the visible matter'; the text proposes that 'the dual sector ... should be interpreted as the dark matter sector', with x̃ spanning 'the canonica…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "judge:c1-advocate",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a2204fa8ef9c16622",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100612,
+      "queuedAt": 1793686100572,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Lens: advocacy for novelty, held to evidence. Read: panel/C…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793686942559,
+      "tokens": 280114,
+      "toolCalls": 49,
+      "durationMs": 840797,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C1\",\"verdict\":\"anticipated\",\"closest\":[{\"id\":\"2010.15610\",\"why\":\"Closest refereed statement (Berglund, Hübsch, Minic, LHEP 2021; arXiv October 2020). The abstract says dark matter 'comes from the degrees of freedom dual to the visible matter'; 'the A fields denote the usual Standard Model fields' and the Ã their duals; the dual space is 'canonically conjugate' ([x, x…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "judge:c4",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "adb4d5ee12ff45710",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100612,
+      "queuedAt": 1793686100573,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Judge C4. I read BRIEF.md, panel/C4.json, #11 §1, §3-§4, §1…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793687364221,
+      "tokens": 293413,
+      "toolCalls": 52,
+      "durationMs": 1262458,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C4\",\"verdict\":\"partly anticipated\",\"closest\":[{\"id\":\"2507.06697\",\"why\":\"Vento, 'Dark monopoles' (arXiv July 2025, v3 Jan 2026; preprint only). Partial, confirmed on reading §2 and §7. Dark matter is monopoles coupled only to a second ('extraordinary') photon, and visible matter is electrons coupled only to ours: 'We depart from Cabibbo and Ferrari in that we will asc…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "judge:c5",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a09f9f5804c71a76d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100612,
+      "queuedAt": 1793686100573,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Judge for C5, 2026-11-02. Evidence: panel/c5/notes-read-log…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793687798660,
+      "tokens": 368818,
+      "toolCalls": 86,
+      "durationMs": 1696897,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C5\",\"verdict\":\"partly anticipated\",\"closest\":[{\"id\":\"doi:10.22323/1.335.0047\",\"why\":\"Closest configuration, for the present epoch (Henry-Couannier, Dark Gravity, PoS EDSU2018, 2018): the dark side, whose scale factor is 1/a, 'is in contraction' as ours expands, and after a postulated permutation of the scale factors 'the dark side source term have started to drive th…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "judge:c6",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a5c069ffc146956b2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100613,
+      "queuedAt": 1793686100574,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Judge for C6. Read: BRIEF.md; panel/C6.json; the g5 searche…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793687092665,
+      "tokens": 249383,
+      "toolCalls": 39,
+      "durationMs": 990901,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C6\",\"verdict\":\"partly anticipated\",\"closest\":[{\"id\":\"0901.1106\",\"why\":\"Sikivie and Yang, PRL 103, 111301 (2009). Dark-matter axions thermalize through their own gravity and Bose-condense: 'all cold axions go to a single state', the k = 0 mode in a homogeneous universe, in condensate patches of horizon size. Dark matter is then gathered in momentum and spread through …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "judge:c2-c3-c7",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a35922f4715f36b17",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1793686100613,
+      "queuedAt": 1793686100574,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Judge for C2, C3 and C7, restarted after the reboot (this j…",
+      "promptPreview": "Read work/literature-check/BRIEF.md first: it defines P.R.'s conjectures C1-C7 and the relation labels. Three rounds of search and verification produced the evidence in work/literature-check/panel/<conjecture>.json: \"strong_findings\" (anticipates, partial, evidence-against, with summaries, differences, verbatim quotes checked by code, and the verifiers' verdicts), \"related\" and \"collisions\" in bri…",
+      "promptFramed": true,
+      "lastProgressAt": 1793687295996,
+      "tokens": 325477,
+      "toolCalls": 59,
+      "durationMs": 1194232,
+      "resultPreview": "{\"conjectures\":[{\"conjecture\":\"C2\",\"verdict\":\"related only\",\"closest\":[{\"id\":\"1903.05673\",\"why\":\"Closest mechanism, by Born reciprocity itself (with Lüst, Malek and Szabo 2017, 1705.09639, and Bakas and Lüst 2014, 1309.3172): (x,p) → (p,−x) maps electric charges moving through a distribution of magnetic charge onto closed strings in R-flux, a 3-form on momentum space whose cocycle 'resides in mome…"
+    }
+  ],
+  "totalTokens": 2107543,
+  "totalToolCalls": 396
+}

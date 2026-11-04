@@ -39,6 +39,7 @@ sources:
   - "review/wiki-build-checks/stream_stability_check.out"
   - "verify/velocity_gated_gravity.py 'D. The obituary's scope'"
   - "notes/gate-mechanism.md §5"
+  - "notes/literature-check.md §7"
 ---
 
 *Velocity clumping is the program's founding picture of dark matter and P.R.'s conjecture: a smooth dark-matter halo would break up into a few streams, each made of particles moving with nearly the same velocity, so that dark matter clumps in velocity instead of in position. The [lab notebook](/wiki/history/documents/lab-notebook) described it as the [Jeans problem](/wiki/dark-matter/momentum-clumping/vlasov-stability), the gravitational instability that makes lumps in space, with the roles of position and velocity exchanged. The clumping calculation tested it as collective dynamics. For particle dark matter the attraction falls short of the threshold by 28 to 31 orders of magnitude. For wave dark matter, the one case in which clumping would be mandatory predicts that the faintest galaxies have lost their dark matter, and they are, in the checkpoint's words, "the most dark-matter-rich objects known". With the coupling left free, clumping is possible but never required. These results stand, and the image is P.R.'s open conjecture.*
@@ -147,6 +148,10 @@ Calc note #2's threshold for narrow gates is itself flagged: its form overstates
 - **The notebook's body.** The lab notebook's §5.2 and its prediction table were never edited and still read the instability and rows 3–4 as live; the addendum v0.2 strikes the rows ([the lab notebook](/wiki/history/documents/lab-notebook)). The tag "[D at mean-field level; O beyond]" on §5.2 asserted the instability; #2 found its threshold missed by 28–31 orders of magnitude.
 - **The plain-language passages** of #9 §7 and #11 §9 describe the image as "dark matter flocking by velocity" and round the shortfall to "a factor of a million trillion trillion" (#9) and "thirty orders of magnitude" (#11). The popular article #10 treats the tests as final, in 'The killing fields', rounding the shortfall to "a factor of ten to the thirtieth"; it is never a status source ([the popular articles](/wiki/history/documents/popular-articles)).
 
+## In the literature
+
+Partly anticipated ([the literature check](/wiki/method/literature-check)), a verdict that counts Bose condensation of dark matter as a form of the conjecture; restricted to the founding image of several velocity flocks, it would be related only. Dark matter collecting into a single momentum state, a Bose–Einstein condensate, is published: Riotto and Tkachev 2000, Sikivie and Yang 2009, Berezhiani and Khoury 2015, and Levkov, Panin and Tkachev 2018 [S], the last of which #11 cites as [13]† for the [wave island](/wiki/dark-matter/momentum-clumping/wave-island)'s condensation rate (§9; flag 65, pending). Guth, Hertzberg and Prescod-Weinstein 2015 find that a condensate forms but that attractive interactions do not give it long-range order [S]; the paper treats no attraction acting in velocity, so it does not test the founding image. The founding image was not found: a smooth spread of velocities breaking into several flocks because similar velocities attract. Its nearest published analog is in opinion dynamics, where agents that interact only when their opinions are close end in "a finite number of isolated, noninteracting opinion clusters" (Ben-Naim, Krapivsky and Redner 2003 [S]).
+
 ## Sources
 
 - `papers/broken-born-checkpoint-v2.md` §9 — the tests, their tags and the salvage, P.R.'s open conjecture, results (i)–(iii) standing, Scenario A under review; App. A item 3 — founding supposition 3, the evidence in one line, and the loophole; §15 — the assessment's plain-language passage; §12 — the loophole's wording; §1 — "most cherished consequence"; §8 — the gate in plain language; §13 — the island discriminant as row 3, and the withdrawn rows under review
@@ -163,3 +168,4 @@ Calc note #2's threshold for narrow gates is itself flagged: its form overstates
 - `verify/velocity_gated_gravity.py` section D — calc note #2's shortfall ratios in the gate
 - `notes/gate-mechanism.md` §5 — the tests' results unaffected by flag 55
 - `review/wiki-build-checks/stream_stability_check.py` and `review/wiki-build-checks/stream_stability_check.out` — the wiki build's recomputation of the shortfall (outside `verify/`)
+- `notes/literature-check.md` §7 — condensation of dark matter in momentum and the opinion-dynamics analog; `review/wiki-build-flags.md` item 65

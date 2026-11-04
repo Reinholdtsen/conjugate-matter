@@ -16,11 +16,13 @@ sources:
   - "notes/stream-stability.md 'Consequences for the predictions table'"
   - "notes/wave-island.md 'What pins g? Two scenarios'"
   - "notes/ufd-endpoint.md 'The attractive endpoint: criticality and the drain'"
+  - "notes/literature-check.md §3"
+  - "review/wiki-build-flags.md item 69"
 ---
 
 *Self-interacting dark matter (SIDM) is dark matter whose particles scatter off one another through a force of their own, in addition to gravity. The scattering carries heat from the outer parts of a halo into its colder center, which turns the steep central density peak predicted for collisionless cold dark matter (CDM) into a flat core. How strongly the particles scatter, and how that strength changes with their relative speed, is the observable that the Comatter program's [velocity gate](/wiki/dark-matter/conjugate-matter/velocity-gate) modifies. This page is the established background; the program's own law is [the gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law).*
 
-**Status:** Established — [T], explained here from general knowledge — literature; the program's sources cite no paper for it, and it enters the program as the standard expectation of prediction [rows 1](/wiki/predictions/self-interaction-knee) and [2](/wiki/predictions/scattering-isotropy).
+**Status:** Established — [T], explained here from general knowledge — literature; the program's sources cite for it only two fits of the cross-section across halo masses, set beside row 1 in the literature-check note (`notes/literature-check.md` §3; flag 69, pending), and it enters the program as the standard expectation of prediction [rows 1](/wiki/predictions/self-interaction-knee) and [2](/wiki/predictions/scattering-isotropy).
 
 ## What self-scattering does to a halo [T]
 
@@ -103,7 +105,7 @@ On the [wave island](/wiki/dark-matter/momentum-clumping/wave-island), where χ 
 
 ## References
 
-The program's documents cite no source for SIDM, the transfer cross-section or the Bullet Cluster. Added by the wiki from model memory (†):
+The program's documents cite no source for the transfer cross-section or the Bullet Cluster, and for SIDM only two fits across halo masses, Kaplinghat, Tulin and Yu 2016 and Sagunski et al. 2021, retrieved by live search [S] for the literature-check note (`notes/literature-check.md` §3; [row 1's data](/wiki/predictions/self-interaction-knee#the-data-situation)). Added by the wiki from model memory (†):
 
 - D. N. Spergel, P. J. Steinhardt, "Observational evidence for self-interacting cold dark matter," Phys. Rev. Lett. (2000)†: the proposal.
 - S. Tulin, H.-B. Yu, K. M. Zurek, "Beyond collisionless dark matter: particle physics dynamics for dark matter halo structure," Phys. Rev. D (2013)†: Yukawa scattering in the Born, resonant and classical regimes.
@@ -132,3 +134,4 @@ The program's documents cite no source for SIDM, the transfer cross-section or t
 - `notes/wave-island.md` 'What pins g? Two scenarios' — the wave-island rate as the analog of SIDM heat transport; the environment dispersions
 - `notes/ufd-endpoint.md` 'The attractive endpoint: criticality and the drain' — elastic relaxation keeps the mass; the gravothermal self-limit
 - `notes/broken-born-theory.md` §3, §4, §5.1, §9 — the x-local Yukawa as the μ → ∞ limit; Bullet Cluster lensing centroids; the v0.1 scattering law, Yukawa SIDM's v⁻⁴ fall with a Coulomb log, forward peaking, the discriminating band, the dwarf-core value, the Born-approximation caveat; v0.1 row 1
+- `notes/literature-check.md` §3; `review/wiki-build-flags.md` item 69 — two fits of the cross-section across halo masses, set beside row 1; pending

@@ -106,7 +106,7 @@ The "only if" half is the first subsection: with η fixed, the program reduces t
 - **P2 → P2′.** The theorem is why the program's second axiom changed. #5 §B: "P2 → P2′ is not optional." The replaced axiom is kept as [the original P2](/wiki/program/postulates/original-p2).
 - **The modular field.** The Siegel-domain geometry of #11 §6, with its momentum graviton and the dark-energy field on the domain's boundary, exists only under P2′: "With only ω rigid, H ranges over Sp(2d,ℝ)/U(d)" (#11 §6).
 - **The next computation.** The v0.3 addendum records that, with X restored, "Open problem 1 sharpens to a single decisive computation: the quadratic-order classification of X (healthy / auxiliary / ghost)". That computation found X to be a second graviton that must be massive ([why X must be massive](/wiki/gravity/momentum-graviton/forcing-chain)).
-- **The hard core.** #11 §15 lists the program's [hard core](/wiki/program/hard-core) as "spontaneously broken reciprocity, ω-only rigidity" and calls it "intact, twice sharpened by forced corrections (P2′; the w-dictionary)". P2′, which the theorem forced, is the first of those two sharpenings ([Lakatos's methodology](/wiki/method/lakatosian-methodology)).
+- **The hard core.** #11 §15 lists the program's [hard core](/wiki/program/hard-core) as "spontaneously broken reciprocity, ω-only rigidity" and calls it "intact, twice sharpened by forced corrections (P2′; the w-dictionary)". P2′, which the theorem forced, is the first of those two sharpenings ([Lakatos's methodology](/wiki/method/lakatosian-methodology)); the second, the w-dictionary, is as a map of fluid variables the scale-factor duality of string cosmology with sources (flag 66 in `review/wiki-build-flags.md`, pending).
 
 ## History
 

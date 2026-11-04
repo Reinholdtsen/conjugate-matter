@@ -1,0 +1,17 @@
+1. at~ = c*t**2/2 ; at~'' = c ; d(at~)/dt at t<0: c*t (< 0: contracting)
+2. T(t) = c*t**3/6
+   at~(|T|) = 6**(2/3)*S**(2/3)*c**(1/3)/2
+   d ln at~ / d ln|T| = 2/3 (2/3 = dust law; at~ -> 0 as |T| -> 0: a crunch)
+3. t'(t) = -2/(c*t)
+   a(t') = c*tp**2/2 ; d ln a / d ln t' = 2
+   a''(t') sign: 1
+4. dark-side source ~ 1/a = at~^1 with at~ = 1/a: falls as the dark side contracts
+5. program: stiff rho~ = a**6 ; E = a**3 ; rho_eff = E/a^3 = 1
+6. inverse of a collapsing dust universe, shared cosmic time: a ~ (tc-t)^-2/3, w = -2
+   (the program's heuristic dictionary for dual dust: w_eff = -2 - 0 = -2 )
+   Dark Gravity, shared conformal time: a ~ t'^2, w_eff = -2/3
+   heuristic check: H^2 / a^3 = 4/9 (constant up to the factor: H^2 proportional to rho_eff ~ a^3)
+7. GV rho' - program rho_eff = 0 ; GV w' = -wt (= -w~)
+8. hot regime: our H = (da/dt)/a^2 = k (constant: de Sitter, a ~ exp(k t'))
+   conjugate: T(t) = -k*t**2/2 ; at~(|T|) = sqrt(2)*sqrt(S2)*sqrt(k) ; exponent 1/2 (1/2: radiation-like contraction to a crunch)
+   shared conformal time, a = 1/at~: w = -wt - 2/3 ; w + w~ = -2/3 ; w~ = 1/3 -> -1 ; w~ = 0 -> -2/3 ; w~ = 1 -> -5/3

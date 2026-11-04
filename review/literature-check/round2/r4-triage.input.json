@@ -1,0 +1,400 @@
+{
+ "reader": "r4-triage",
+ "conjectures": [
+  "C5",
+  "C6",
+  "C7"
+ ],
+ "items": [
+  {
+   "recid": 2826029,
+   "arxiv": "",
+   "line": "[2024] Nasser Tawfik, Abdel; Pasqua, Antonio; Waqas, Muhammad et al. (5) — Quantum geometric perspective on the origin of quantum-conditioned curvatures  | arXiv:— recid:2826029 cites:15",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 2647891,
+   "arxiv": "",
+   "line": "[2023] Maghlaoui, Leila; Hess, Peter O. — The pseudo-complex General Relativity and effects of a minimal length on the structure of black holes  | arXiv:— recid:2647891 cites:1",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 2064400,
+   "arxiv": "",
+   "line": "[2022] Maghlaoui, Leila; Hess, Peter O. — Consequences of a minimal length in a pseudo-complex extension of general relativity  | arXiv:2204.03509 recid:2064400 cites:1",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1810209,
+   "arxiv": "",
+   "line": "[2020] Artigas, Danilo; Bilski, Jakub; Crowe, Sean et al. (5) — General-relativistic spin system  | arXiv:2008.01729 recid:1810209 cites:2",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1708468,
+   "arxiv": "",
+   "line": "[2018] Khruschov, V.V. — Using Fundamental Physical Constants to Determine the Properties of Quantum Particles  | arXiv:— recid:1708468 cites:0",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1625396,
+   "arxiv": "",
+   "line": "[2017] Ghosh, Arnab — Born-Kothari Condensation for Fermions  | arXiv:— recid:1625396 cites:1",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1515614,
+   "arxiv": "",
+   "line": "[2017] Ghosh, Arnab; Ray, Deb Shankar — Born-Kothari condensation in an ideal Fermi gas  | arXiv:— recid:1515614 cites:2",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1402202,
+   "arxiv": "",
+   "line": "[2016] Schönenbach, Thomas; Caspar, Gunther; Hess, Peter O. et al. (7) — Experimental Tests of Pseudo-Complex General Relativity  | arXiv:— recid:1402202 cites:0",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1091066,
+   "arxiv": "",
+   "line": "[2012] Caspar, Gunther; Schonenbach, Thomas; Hess, Peter Otto et al. (5) — Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions  | arXiv:1202.6561 recid:1091066 cites:25",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 263891,
+   "arxiv": "",
+   "line": "[1988] Brandt, Howard E. — Maximal Proper Acceleration and the Structure of Space-time  | arXiv:— recid:263891 cites:73",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 2837618,
+   "arxiv": "",
+   "line": "[2024] Nandi, Partha; Bhattacharyya, Tiasha — Unearthing Neutrino Decoherence from Quantum Spacetime: An Open Quantum Systems Perspective  | arXiv:2410.03808 recid:2837618 cites:1",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1861365,
+   "arxiv": "",
+   "line": "[2021] Lukierski, Jerzy — Palatial Twistors from Quantum Inhomogeneous Conformal Symmetries and Twistorial DSR Algebras  | arXiv:2104.14306 recid:1861365 cites:1",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1844365,
+   "arxiv": "",
+   "line": "[2021] Bauer, M.; Aguillón, C.A. — Second quantization of time and energy in Relativistic Quantum Mechanics  | arXiv:2102.01042 recid:1844365 cites:1",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1731275,
+   "arxiv": "",
+   "line": "[2019] Artigas, Danilo; Mielczarek, Jakub; Rovelli, Carlo — A minisuperspace model of compact phase space gravity  | arXiv:1904.11338 recid:1731275 cites:4",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1652949,
+   "arxiv": "",
+   "line": "[2017] Strajn, Rina — Aspects of Snyder geometry  | arXiv:— recid:1652949 cites:0",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 656632,
+   "arxiv": "",
+   "line": "[2004] Low, Stephen G. — Canonically relativistic quantum mechanics: Casimir field equations of the quaplectic group  | arXiv:math-ph/0404077 recid:656632 cites:2",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 539125,
+   "arxiv": "",
+   "line": "[2000] Naudts, Jan; Kuna, Maciej — Model of a quantum particle in space-time  | arXiv:hep-th/0012209 recid:539125 cites:4",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 143502,
+   "arxiv": "",
+   "line": "[1979] Takabayasi, T. — Relativistic Mechanics of Confined Particles as Extended Model of Hadrons: The Bilocal Case  | arXiv:— recid:143502 cites:73",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 8932,
+   "arxiv": "",
+   "line": "[1950] Pais, A.; Uhlenbeck, G.E. — On Field theories with nonlocalized action  | arXiv:— recid:8932 cites:729",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 3215102,
+   "arxiv": "",
+   "line": "[2026] Hübsch, Tristan; Minic, Djordje — Nambu's Dynamics, Strings and Gravitized Quantum Theory  | arXiv:2610.19522 recid:3215102 cites:0",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1794369,
+   "arxiv": "",
+   "line": "[2020] Bascone, Francesco; Pezzella, Franco — Principal Chiral Model without and with WZ term: Symmetries and Poisson-Lie T-Duality  | arXiv:2005.02069 recid:1794369 cites:8",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1723310,
+   "arxiv": "",
+   "line": "[2019] Marotta, Vincenzo E.; Pezzella, Franco; Vitale, Patrizia — T-Dualities and Doubled Geometry of the Principal Chiral Model  | arXiv:1903.01243 recid:1723310 cites:16",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 2706939,
+   "arxiv": "",
+   "line": "[2023] Pawar, Kalpana; Dabre, A.K.; Makode, Pallavi — Plane Symmetric String Cosmological Model with Zero Mass Scalar Field in f (R) Gravity  | arXiv:— recid:2706939 cites:2",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1704175,
+   "arxiv": "",
+   "line": "[2018] Lukierski, Jerzy; Meljanac, Stjepan; Woronowicz, Mariusz — Quantum twist-deformed $D = 4$ phase spaces with spin sector and Hopf algebroid structures  | arXiv:1811.07365 recid:1704175 cites:10",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1746191,
+   "arxiv": "",
+   "line": "[2018] Ronco, Michele — Quantum Space-Time: theory and phenomenology  | arXiv:— recid:1746191 cites:0",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1665704,
+   "arxiv": "",
+   "line": "[2018] Marotta, Vincenzo Emilio; Pezzella, Franco; Vitale, Patrizia — Doubling, T-Duality and Generalized Geometry: a Simple Model  | arXiv:1804.00744 recid:1665704 cites:27",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 1119918,
+   "arxiv": "",
+   "line": "[2012] Castro, Carlos — Gravity in curved phase-spaces, Finsler geometry and two-times physics  | arXiv:— recid:1119918 cites:7",
+   "flag": "C6/C7 clumping / velocity (abstract)"
+  },
+  {
+   "recid": 2943925,
+   "arxiv": "",
+   "line": "[2024] Tawfik, A.; Alshehri, A. — Quantum geometric approach: Nature and characteristics of emerged quantum-conditioned spacetime curvatures on three-sphere  | arXiv:— recid:2943925 cites:5",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2032179,
+   "arxiv": "",
+   "line": "[2022] Harikumar, E.; Panja, Suman Kumar; Rajagopal, Vishnu — Maximal acceleration in a Lorentz invariant non-commutative space-time  | arXiv:2202.06591 recid:2032179 cites:5",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1863738,
+   "arxiv": "",
+   "line": "[2021] Buoninfante, Luca — Maximal acceleration, reciprocity & nonlocality  | arXiv:2105.08167 recid:1863738 cites:7",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1812235,
+   "arxiv": "",
+   "line": "[2020] Hess, P.O. — Alternatives to Einstein’s General Relativity Theory  | arXiv:— recid:1812235 cites:30",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1753282,
+   "arxiv": "",
+   "line": "[2019] Hess, Peter O.; López-Moreno, Enrique — Kerr Black Holes within a Modified Theory of Gravity  | arXiv:— recid:1753282 cites:14",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1734187,
+   "arxiv": "",
+   "line": "[2019] Hess, P.O.; Boller, Th; Müller, A. et al. (4) — Predictions of the pseudo-complex theory of Gravity for EHT observations – II: theory and predictions  | arXiv:1812.08440 recid:1734187 cites:5",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1616548,
+   "arxiv": "",
+   "line": "[2017] Hess, Peter O. — Pseudo-Complex General Relativity  | arXiv:— recid:1616548 cites:1",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1358474,
+   "arxiv": "",
+   "line": "[2015] Castro, Carlos — A Clifford-gravity-based cosmology, dark matter and dark energy  | arXiv:— recid:1358474 cites:1",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1233586,
+   "arxiv": "",
+   "line": "[2013] Friedman, Yaakov — Extending the relativity of time  | arXiv:— recid:1233586 cites:3",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1080690,
+   "arxiv": "",
+   "line": "[2011] Castro, Carlos — Generalized gravity in Clifford spaces, vacuum energy and grand unification  | arXiv:— recid:1080690 cites:1",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 882262,
+   "arxiv": "",
+   "line": "[2010] Calixto, M.; Perez-Romero, E.; Aldaya, V. — Coherent States of Accelerated Relativistic Quantum Particles, Vacuum Radiation and the Spontaneous Breakdown of the Conformal SU(2,2) Symmetry  | arXiv:1012.4758 recid:882262 cit",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 859877,
+   "arxiv": "",
+   "line": "[2010] Calixto, M.; Perez-Romero, E. — Conformal Spinning Quantum Particles in Complex Minkowski Space as Constrained Nonlinear Sigma Models in U(2,2) and Born's Reciprocity  | arXiv:1006.5958 recid:859877 cites:7",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 660789,
+   "arxiv": "",
+   "line": "[2004] Toller, M. — Lagrangian and presymplectic particle dynamics with maximal acceleration  | arXiv:hep-th/0409317 recid:660789 cites:5",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 634307,
+   "arxiv": "",
+   "line": "[2003] Toller, M. — Geometries of maximal acceleration  | arXiv:hep-th/0312016 recid:634307 cites:19",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 601536,
+   "arxiv": "",
+   "line": "[2002] Castro, Carlos — On maximal acceleration, strings and the group of minimal Planck area relativity theory  | arXiv:hep-th/0211053 recid:601536 cites:5",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 589953,
+   "arxiv": "",
+   "line": "[2002] Schuller, Frederic P. — Born-Infeld kinematics and correction to the Thomas precession  | arXiv:hep-th/0207047 recid:589953 cites:25",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 583888,
+   "arxiv": "",
+   "line": "[2002] Schuller, Frederic P. — Born-Infeld kinematics  | arXiv:hep-th/0203079 recid:583888 cites:50",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 263890,
+   "arxiv": "",
+   "line": "[1988] Brandt, Howard E. — MAXIMAL PROPER ACCELERATION AND THE STRUCTURE OF SPACE-TIME  | arXiv:— recid:263890 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2905801,
+   "arxiv": "",
+   "line": "[2025] Zhao, Hua-Wei; Xie, Yong; Huang, Xinyao et al. (4) — Enhanced charging in multibattery systems by nonreciprocity  | arXiv:2503.22187 recid:2905801 cites:5",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2781257,
+   "arxiv": "",
+   "line": "[2024] Broadbridge, Philip; Becirevic, Sarah; Hoxley, David — Non-Particulate Quantum States of the Electromagnetic Field in Expanding Space-Time  | arXiv:2404.17075 recid:2781257 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2728901,
+   "arxiv": "",
+   "line": "[2023] Alsing, Paul M.; Cafaro, Carlo — Upper limit on the acceleration of a quantum evolution in projective Hilbert space  | arXiv:2311.18470 recid:2728901 cites:9",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2823040,
+   "arxiv": "",
+   "line": "[2023] Chargui, Yassine; Dhahbi, Anis — The vector DKP oscillator in the plane with a magnetic field and the Snyder–de Sitter algebra  | arXiv:— recid:2823040 cites:1",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2033566,
+   "arxiv": "",
+   "line": "[2022] Hess, Peter O. — Why pseudo-complex General Relativity? and Applications  | arXiv:2202.08225 recid:2033566 cites:1",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1726779,
+   "arxiv": "",
+   "line": "[2019] Hess, Peter O. — Review on the Pseudocomplex General Relativity and Dark Energy  | arXiv:1903.10879 recid:1726779 cites:3",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1682833,
+   "arxiv": "",
+   "line": "[2018] Kiosses, Vasileios I. — On the nature of quantum gravity  | arXiv:1807.06451 recid:1682833 cites:0",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1670030,
+   "arxiv": "",
+   "line": "[2018] Céleri, Lucas Chibebe; Kiosses, Vasileios I. — Unruh effect as a result of quantization of spacetime  | arXiv:1804.09177 recid:1670030 cites:4",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1479402,
+   "arxiv": "",
+   "line": "[2016] Castro, Carlos — A gauge theory of gravity in curved phase-spaces  | arXiv:— recid:1479402 cites:2",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 782528,
+   "arxiv": "",
+   "line": "[2008] Mantz, Christiaan; Prokopec, Tomislav — Hermitian Gravity and Cosmology  | arXiv:0804.0213 recid:782528 cites:31",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 671623,
+   "arxiv": "",
+   "line": "[2004] Tomilchik, Lev M.; Kudryashov, Vladimir V. — Conformally flat metric, position-dependent mass and cold dark matter  | arXiv:gr-qc/0507090 recid:671623 cites:3",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 11426,
+   "arxiv": "",
+   "line": "[1981] Caianiello, E.R. — IS THERE A MAXIMAL ACCELERATION?  | arXiv:— recid:11426 cites:198",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1965494,
+   "arxiv": "",
+   "line": "[2021] Addazi, A.; Alvarez-Muniz, J.; Alves Batista, R. et al. (162) — Quantum gravity phenomenology at the dawn of the multi-messenger era—A review  | arXiv:2111.05659 recid:1965494 cites:619",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1796841,
+   "arxiv": "",
+   "line": "[2020] Edmonds, Douglas; Minic, Djordje; Takeuchi, Tatsu — Dark Matter, Dark Energy and Fundamental Acceleration  | arXiv:2005.08927 recid:1796841 cites:6",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1697320,
+   "arxiv": "",
+   "line": "[2018] Dai, De-Chang; Minic, Djordje; Stojkovic, Dejan — New wormhole solution in de Sitter space  | arXiv:1810.03432 recid:1697320 cites:43",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1413079,
+   "arxiv": "",
+   "line": "[2016] Edmonds, Doug; Farrah, Duncan; Ho, Chi man et al. (6) — Testing Modified Dark Matter with Galaxy Clusters: Does Dark Matter know about the Cosmological Constant?  | arXiv:1601.00662 recid:1413079 cites:23",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1915715,
+   "arxiv": "",
+   "line": "[2021] Berglund, Per; Hübsch, Tristan; Minic, Djordje — Stringy Bubbles Solve de Sitter Troubles  | arXiv:2109.01122 recid:1915715 cites:14",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2874208,
+   "arxiv": "",
+   "line": "[2025] Manoharan, Manosh T. — Entropy bounds and holographic dark energy: Conflicts and consensus  | arXiv:2501.18144 recid:2874208 cites:6",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 1649979,
+   "arxiv": "",
+   "line": "[2018] Falomir, H.; Gamboa, J.; Gondolo, P. et al. (4) — Magnetic Seed and Cosmology as Quantum Hall Effect  | arXiv:1801.07575 recid:1649979 cites:9",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  },
+  {
+   "recid": 2030718,
+   "arxiv": "",
+   "line": "[2022] Jejjala, Vishnu; Kavic, Michael; Minic, Djordje et al. (4) — First Principles Phenomenology of $H_0$  | arXiv:2202.05266 recid:2030718 cites:3",
+   "flag": "C5 acceleration / dark energy (abstract, rest)"
+  }
+ ]
+}

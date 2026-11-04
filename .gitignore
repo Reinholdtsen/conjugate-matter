@@ -10,3 +10,6 @@ site/.wrangler/
 
 # Working files: briefings, sweep outputs, intermediate scripts (one subfolder per task; clear when landed)
 work/
+
+# The literature check's search tool caches fetched pages (copyrighted full texts) beside itself if run from the record
+review/literature-check/cache/

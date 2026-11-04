@@ -1,0 +1,279 @@
+{
+ "conjecture": "C3",
+ "strong_findings": [
+  {
+   "ids": [
+    "doi:10.1063/PT.3.3571"
+   ],
+   "citation": "A. S. Goldhaber, \"Magnetic monopole search, past and present\", Physics Today 70(6), 12 (June 2017), letter, doi:10.1063/PT.3.3571 (magazine letter)",
+   "relation": "evidence-against",
+   "basis": "single-agent label",
+   "summary": "Argues that in QED or the Standard Model a monopole's magnetic charge cannot be spread out, since fractions of it would violate Dirac's quantization condition, and that by field energy the monopole radius should be at least an order of magnitude above its Compton wavelength.",
+   "difference": "Bears only on the hiding option of the shared-photon form, in which the analogs' field profile is spread wider than detectors (#11 §11.4): for magnetic charge of our own photon the charge itself cannot be smeared. Inference, not in the letter: a wide profile would need structure beyond QED and the Standard Model, such as a non-Abelian core. Silent on momentum-polarized matter; a short letter, not a calculation.",
+   "quotes": [
+    {
+     "text": "the monopole charge cannot be spread out because little bits of magnetic charge would violate the quantization condition",
+     "where": "letter text",
+     "check": "checked by WebFetch only (physicstoday.aip.org; Crossref has no abstract)",
+     "id": "doi:10.1063/PT.3.3571"
+    },
+    {
+     "text": "the monopole radius should be at least an order of magnitude bigger than the Compton wavelength",
+     "where": "letter text",
+     "check": "checked by WebFetch only",
+     "id": "doi:10.1063/PT.3.3571"
+    }
+   ],
+   "verified": []
+  }
+ ],
+ "related": [
+  {
+   "ids": [
+    "recid:154780"
+   ],
+   "citation": "A. D. Linde, \"Confinement of Monopoles at High Temperatures: A Solution of the Primordial Monopole Problem\", Phys. Lett. B 96, 293 (1980)",
+   "summary": "Argues that GUT monopoles were confined at high temperature, solving the primordial monopole problem without inflation.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:75874"
+   ],
+   "citation": "A. O. Barut, \"Superselection rule for magnetic charges and the search for magnetic monopoles\", Phys. Lett. B 38, 97 (1972), doi:10.1016/0370-2693(72)90749-6 (journal; not on arXiv)",
+   "summary": "Proposes that magnetic charges may occur only in superpositions |g> +- |-g> whose expected magnetic charge vanishes, states that 'cannot be split in electromagnetic interactions by energy measurements'; offered, as the title says, with the search for monopoles in view, and as testable.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2106.11933"
+   ],
+   "citation": "B. Acharya et al. (MoEDAL), \"Search for magnetic monopoles produced via the Schwinger mechanism\", Nature 602, 63 (2022)",
+   "summary": "Schwinger production in Pb-Pb collisions; trapping detectors scanned with a SQUID magnetometer; first collider mass limit for finite-size monopoles.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "physics/0101014"
+   ],
+   "citation": "B. G. Sidharth, \"The Elusive monopole\", Nuovo Cim. B 118, 35 (2003)",
+   "summary": "Attributes the monopole to strong magnetic effects of a noncommutative spacetime at small scales, which would explain why it has eluded detection.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:93713"
+   ],
+   "citation": "B. Kursunoglu, \"Gravitation and Magnetic Charge\", Phys. Rev. D 9, 2723 (1974) (INSPIRE also lists Phys. Rev. D 12, 1850 (1975)), doi:10.1103/PhysRevD.9.2723 (journal; not on arXiv)",
+   "summary": "In Kursunoglu's generalized theory of gravitation every elementary particle has a magnetically neutral core holding magnetic charge in stratified layers of alternating sign, so that monopoles with a long-range field do not exist; the absence of magnetic currents from Maxwell's equations is attributed to their confinement in particle cores.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "cond-mat/0606726"
+   ],
+   "citation": "C. Brouder, G. Panati, M. Calandra, C. Mourougane, N. Marzari, \"Exponential localization of Wannier functions in insulators\", Phys. Rev. Lett. 98, 046402 (2007)",
+   "summary": "Proves that exponentially localized Wannier functions exist exactly when the Chern numbers vanish, so Chern insulators cannot have them: a nonzero momentum-space topological charge (net Berry-monopole flux) obstructs localization in position space.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2509.23726"
+   ],
+   "citation": "D. Perri, \"Noninflationary solution to the monopole problem\", Phys. Rev. D 113, 023547 (2026)",
+   "summary": "Breaking the Weyl conformal symmetry of the gauge kinetic sector before nucleosynthesis enhances monopole annihilation enough to avoid inflation, and predicts a residual flux of GUT monopoles near present sensitivity.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-ph/0403248"
+   ],
+   "citation": "D. Stojkovic, K. Freese, \"A Black hole solution to the cosmological monopole problem\", Phys. Lett. B 606, 251 (2005)",
+   "summary": "Primordial black holes accrete monopoles and evaporate, converting their energy density into radiation.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:310169"
+   ],
+   "citation": "E. Comay, \"Charges, monopoles and unit systems\", Acta Phys. Polon. B 21, 171 (1990)",
+   "summary": "Argues that fields measured by a charge and by a monopole are different physical entities, and links this to the persistent failure of monopole searches (see also Comay, 'Will magnetic monopoles be detected in our instruments?', Lett. Nuovo Cim. 43, 150 (1985), not read).",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:100841"
+   ],
+   "citation": "E. Recami, R. Mignani, \"Magnetic Monopoles and Tachyons in Special Relativity\", Phys. Lett. B 62, 41 (1976)",
+   "summary": "Extended special relativity predicts superluminal (tachyonic) monopoles with about 1/100 of the usual magnetic charge rather than subluminal ones, which bears on the searches.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-ph/9507230"
+   ],
+   "citation": "G. R. Dvali, A. Melfo, G. Senjanovic, \"Is There a monopole problem?\", Phys. Rev. Lett. 75, 4559 (1995)",
+   "summary": "In minimal SU(5) a range of Higgs parameters keeps the symmetry broken at high temperature, avoiding the monopole-producing transition. Flag 59's dagger citation, verified.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-ph/9710301"
+   ],
+   "citation": "G. R. Dvali, H. Liu, T. Vachaspati, \"Sweeping away the monopole problem\", Phys. Rev. Lett. 80, 2281 (1998)",
+   "summary": "Domain walls sweep away the monopoles and then decay. Flag 59's dagger citation, verified.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:2173188"
+   ],
+   "citation": "J. Elsborg, C. Kohn, \"Magnetic monopoles in two time dimensions\", Int. J. Mod. Phys. A 37, 2250141 (2022)",
+   "summary": "Places magnetic charge densities in a spacetime with a second time dimension acting only at Planck-length scales, giving symmetrized Maxwell equations whose monopoles do not conflict with the experimental null results.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2302.03526"
+   ],
+   "citation": "J. Govaerts, \"Magnetic monopoles with no strings attached: a portal to the dark side of dual electrodynamics\", Eur. Phys. J. C 83, 158 (2023)",
+   "summary": "In two-potential SO(2) dual electrodynamics, electric and magnetic charges do not interact electromagnetically unless a new coupling is nonzero, so magnetically charged matter would be 'dark' to electric matter; the paper asks whether a parallel world of purely magnetic matter could be the dark matter.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "doi:10.20944/preprints202509.1554."
+   ],
+   "citation": "J. Henderson, \"The Nature of Dark Matter and Cosmological Structure Derived from Generalized Time and Spacetime Duality\", Preprints.org (2025), doi:10.20944/preprints202509.1554.v1 (non-reviewed preprint)",
+   "summary": "A 'spacetime duality' and 'generalized time' cosmology: antimatter separates into a universe 'on the other side of the fabric of spacetime', five 'dark universes' coupled to ours only by gravity give the 5:1 ratio of dark to ordinary matter, and 'energy considerations preclude magnetic monopoles from becoming entrained in the flow of time in our universe'.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2208.09043"
+   ],
+   "citation": "L. Bratek, J. Jalocha, \"On the Issue of Magnetic Monopoles in the Prospect of UHE Photon Searches\", Universe 8, 422 (2022)",
+   "summary": "Reviews ultra-high-energy-photon signatures of monopoles and Staruszkiewicz's argument that Dirac monopoles might not exist as isolated particles.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-ph/0701133"
+   ],
+   "citation": "L. N. Epele, H. Fanchiotti, C. A. Garcia Canal, V. Vento, \"Monopolium: The key to monopoles\", Eur. Phys. J. C 56, 87 (2008)",
+   "summary": "Proposes that monopoles are not seen because they are dynamically confined in monopolium, a monopole-antimonopole bound state, and studies its detection at colliders.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-ex/0207020"
+   ],
+   "citation": "M. Ambrosio et al. (MACRO), \"Final results of magnetic monopole searches with the MACRO experiment\", Eur. Phys. J. C 25, 511 (2002)",
+   "summary": "Searches for GUT monopoles in the penetrating cosmic radiation with scintillators, streamer tubes and track detectors over 4x10^-5 < beta < 1, and sets a flux limit below the Parker bound.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1810.06540"
+   ],
+   "citation": "M. Bojowald, S. Brahma, U. Buyukcam, J. Guglielmon, M. van Kuppeveld, \"Small Magnetic Charges and Monopoles in Nonassociative Quantum Mechanics\", Phys. Rev. Lett. 121, 201602 (2018)",
+   "summary": "Nonassociative quantum mechanics may allow magnetic charges below Dirac's minimum; charges small enough to perturb hydrogen spectra only slightly could have escaped detection, and spectra bound them.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:12199"
+   ],
+   "citation": "M. S. Turner, E. N. Parker, T. J. Bogdan, \"Magnetic Monopoles and the Survival of Galactic Magnetic Fields\", Phys. Rev. D 26, 1296 (1982)",
+   "summary": "The Parker limit recomputed with the monopole's mass and velocity and the galactic field's strength, coherence length and regeneration time.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2409.04552"
+   ],
+   "citation": "O. Gould, I. Ostrovskiy, A. Upreti, \"Next frontiers for magnetic monopole searches\", Phys. Rev. D 111, 102004 (2025)",
+   "summary": "Survey of search strategies: collider searches have concentrated on point-like monopoles, composite ones being suppressed in parton collisions; proposes Schwinger-production, ore and ice-core searches.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:9098"
+   ],
+   "citation": "P. Langacker, S.-Y. Pi, \"Magnetic Monopoles in Grand Unified Theories\", Phys. Rev. Lett. 45, 1 (1980)",
+   "summary": "GUT monopoles are not produced in significant numbers if electromagnetism is spontaneously broken at high temperature. One of flag 59's dagger-cited histories, here verified.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2207.04916"
+   ],
+   "citation": "R. J. Ellis, \"I: Evidence for Phenomena, including Magnetic Monopoles, Beyond 4-D Space-Time and Theory Thereof\", arXiv:2207.04916 (2022), arXiv preprint only (non-mainstream)",
+   "summary": "Argues from low-energy experiments under intense illumination that Dirac monopoles exist but not in 4-D spacetime: in a 'mirror world' with reversed time of chronometric-invariant general relativity.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2609.25324"
+   ],
+   "citation": "S. Carneiro, \"Dual symmetry breaking and magnetic charge screening\", arXiv:2609.25324 (2026), arXiv preprint only",
+   "summary": "In a dual electrodynamics where only a magnetic Higgs field condenses, magnetic charge is screened while electric charge is not; the screened monopole is offered as a dark-sector candidate, and Parker-type bounds are said not to transfer when the magnetic interaction is screened.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:3177356"
+   ],
+   "citation": "T. Tanii, N. Yamanaka, \"Unobservability of magnetic monopole\", non-reviewed: INSPIRE recid 3177356 (no journal); a Zenodo record dated June 2026 (zenodo.org/records/20805793) was seen in WebSearch results only",
+   "summary": "Claims that monopoles and dyons always involve an unphysical gauge-field component and are therefore unobservable, removing the requirement that inflation follow the transition that makes them.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2507.06697"
+   ],
+   "citation": "V. Vento, \"Dark monopoles\", arXiv:2507.06697 (2025, v3 2026), arXiv preprint only",
+   "summary": "After noting the null result and the many mechanisms proposed for it, generalizes QED to two photons with the monopole and an 'extraordinary' photon in the dark sector; mixing turns electrons and monopoles into dyons and gives detection consequences.",
+   "basis": "verified"
+  }
+ ],
+ "collisions": [
+  {
+   "ids": [
+    "0907.2021"
+   ],
+   "citation": "D. Xiao, M.-C. Chang, Q. Niu, \"Berry Phase Effects on Electronic Properties\", Rev. Mod. Phys. 82, 1959 (2010)"
+  },
+  {
+   "ids": [
+    "1008.0269"
+   ],
+   "citation": "K. M. D. Hals, A. K. Nguyen, X. Waintal, A. Brataas, \"Effective Magnetic Monopoles and Universal Conductance Fluctuations\", Phys. Rev. Lett. 105, 207204 (2010), arXiv:1008.0269 (journal)"
+  },
+  {
+   "ids": [
+    "cond-mat/0310232"
+   ],
+   "citation": "Z. Fang et al., \"The Anomalous Hall Effect and Magnetic Monopoles in Momentum Space\", Science 302, 92 (2003)"
+  }
+ ],
+ "not_found_statements": [
+  {
+   "from": "g2-monopoles/search.json",
+   "statement": "No paper found that explains the null result of monopole searches by monopoles being compact in momentum (conjugate) space, so that searches made in position space miss them. Published accounts of the null result place monopoles in a hidden or dark gauge sector, an extra time dimension, another space-time, bound states, a screened magnetic phase, or a different kinematic class, or remove them cosmologically; none uses momentum space or Born reciprocity."
+  },
+  {
+   "from": "round3/oa-c2-c3-c4.json",
+   "statement": "No work explains the absence of observed monopoles by their being localized in momentum, or in a conjugate, reciprocal or dual space, rather than in position. The explanations found outside the known list use another time flow or universe (Henderson 2025, non-reviewed), a superposition of +-g with zero mean charge (Barut 1972), confinement inside every particle (Kursunoglu 1974), binding into monopole dimers (H. Liu 2026, Zenodo/Figshare, non-reviewed), or gravity forbidding monopoles (S. Maes 2020, OSF, non-reviewed). The one title that might state C3's argument, Khademi and Nasiri's 2009 talk 'Why magnetic monopoles are not seen?', could not be read (unverified leads)."
+  },
+  {
+   "from": "round3/lineages.json",
+   "statement": "No lineage paper explains the null result of monopole searches by localization in momentum space. Unverified lead only: Kadyshevsky, Mateev and Mir-Kasimov 1975, 'Solution of the charge quantization problem' (bibliographic record only)."
+  },
+  {
+   "from": "g2-monopoles/verify.json (verifier)",
+   "holds": true,
+   "statement": "Holds. Searches on conjugate space and universe, dual cosmologies, Born's own circle, gen-ph, Crossref and the web found other hiding places (a second time dimension, 'another space-time', hidden sectors, monopolium, magnetic screening, noncommutative spacetime, sub-Dirac charges, superluminal kinematics, unobservability) and cosmological histories, but none in momentum space and none using Born reciprocity. Two qualifiers. (1) Govaerts 2023 does link the mutual electromagnetic darkness of magnetic and electric matter to the need to reassess monopole searches; it is the nearest physical analogue, by force law, not localization. (2) One item is unread: S. Khademi, 'Why magnetic monopoles are not seen?' (2009 conference paper, Maltepe University open-access repository, HTTP 403). A search engine's summary says it invokes uncertainty in phase-space quantum mechanics, the one lead that might bear on C3's mechanism; it should be obtained before the statement is called final."
+  }
+ ]
+}

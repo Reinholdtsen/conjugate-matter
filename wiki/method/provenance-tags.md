@@ -43,7 +43,7 @@ sources:
 
 | Mark | Meaning | Example in #11 |
 | --- | --- | --- |
-| [D] | derived in this program | the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), "[D — corrected en route]" (§10) |
+| [D] | derived in this program | the corrected [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), "[D — corrected en route]" (§10); as a map of fluid variables it is the scale-factor duality of string cosmology with sources, and its derivation from a·ã = 1 is the program's (flag 66, pending) |
 | [T] | established literature | strongly coupled monopoles in a weakly coupled hidden sector, "by Dirac quantization [T]" (§12) |
 | [P] | postulate | the [postulates P1–P5](/wiki/program/postulates) (§4) |
 | [O] | open | the twelve items of §14 ([open problems](/wiki/status/open-problems)) |

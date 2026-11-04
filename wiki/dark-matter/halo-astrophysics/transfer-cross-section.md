@@ -27,6 +27,8 @@ sources:
   - "verify/gate_mechanism.py sections D, E"
   - "verify/velocity_gated_gravity.py section H"
   - "HANDOFF.md §6"
+  - "notes/literature-check.md §3"
+  - "review/wiki-build-flags.md item 69"
 ---
 
 *The transfer cross-section σ_T measures how strongly particles scatter off one another by counting each collision according to how much forward momentum it removes: σ_T = ∫(1 − cos θ) dσ, where θ is the angle through which the collision turns the particles' relative motion. A grazing collision, which barely bends their paths, counts for almost nothing, and a head-on rebound counts most. For dark matter that scatters off itself, σ_T, rather than the plain count of collisions, is the standard measure of how fast scattering moves momentum and heat through a halo. Because the motions of stars and gas reveal the mass density of dark matter but not the mass of its particles, observations constrain σ_T per unit mass, σ_T/m, quoted in cm²/g. How σ_T changes with the speed of a collision depends on the force: it stays constant for a short-range contact force, and it falls steeply with speed for a long-range force, whose scattering is concentrated at small angles. This page covers the established quantity. The Comatter program writes its law for dark matter's self-scattering in it: [the gated scattering law σ_T(v)](/wiki/dark-matter/conjugate-matter/scattering-law) bends down at a knee near a gate velocity v\*, with isotropic scattering below it, and the first three rows of [the predictions table](/wiki/predictions) concern that scattering.*
@@ -83,7 +85,7 @@ Reading a cross-section per unit mass as a bare cross-section is a large error. 
 
 Within a halo, pairs of particles meet at a spread of relative speeds set by the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion#the-spread-of-pair-speeds-t), so what the halo responds to is the rate averaged over that spread, ρ⟨σ_T v⟩/m. When σ_T depends on speed, a fit to one halo's structure measures this average, which is often reported as a cross-section at a speed characteristic of the halo [T].
 
-Halos of different mass have different internal speeds. The [clumping notes](/wiki/history/documents/clumping-notes) model a classical dwarf core with velocity dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/wave-island.md`, 'What pins g? Two scenarios'). A set of halos from dwarf galaxies to clusters therefore samples σ_T/m over a range of speeds, and fits of such sets have been used to infer σ_T/m as a function of the collision speed (Kaplinghat, Tulin and Yu 2016 †). On the wiki's reading, this is the sense of "across halo masses" in [row 1](/wiki/predictions/self-interaction-knee). No program document cites such a fit.
+Halos of different mass have different internal speeds. The [clumping notes](/wiki/history/documents/clumping-notes) model a classical dwarf core with velocity dispersion 30 km/s and a galaxy cluster with 1000 km/s (`notes/wave-island.md`, 'What pins g? Two scenarios'). A set of halos from dwarf galaxies to clusters therefore samples σ_T/m over a range of speeds, and fits of such sets have been used to infer σ_T/m as a function of the collision speed (Kaplinghat, Tulin and Yu 2016 †). On the wiki's reading, this is the sense of "across halo masses" in [row 1](/wiki/predictions/self-interaction-knee). The literature-check note cites this fit, with that of Sagunski et al. 2021, as bearing on row 1's "zero cluster signal (particle χ)" (`notes/literature-check.md` §3; flag 69 in `review/wiki-build-flags.md`, pending; [the data situation](/wiki/predictions/self-interaction-knee#the-data-situation)).
 
 ## Speed dependence [T]
 
@@ -202,3 +204,4 @@ The program's documents cite no source for the transfer cross-section. Added by 
 - `verify/gate_mechanism.py` section D — the contact Born benchmark; section E — the tails of σ_T for the fiber overlap and for a Yukawa force
 - `verify/velocity_gated_gravity.py` section H — σ_T/m for a gravitational-strength force between χ
 - `HANDOFF.md` §6 — the round-1 referee's misreading of σ_T/M as σ_T
+- `notes/literature-check.md` §3; `review/wiki-build-flags.md` item 69 — two fits across halo masses, set beside row 1's zero cluster signal; pending

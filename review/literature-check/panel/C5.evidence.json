@@ -1,0 +1,929 @@
+{
+ "conjecture": "C5",
+ "strong_findings": [
+  {
+   "ids": [
+    "hep-th/9806230"
+   ],
+   "citation": "A. Buonanno, T. Damour, G. Veneziano, \"Pre-big bang bubbles from the gravitational instability of generic string vacua\", Nucl. Phys. B 543 (1999) 275, arXiv:hep-th/9806230",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "States the pre-big-bang reading of inflation as gravitational collapse: a generic string vacuum of incoming gravitational and dilatonic waves collapses gravitationally (Einstein frame) into black holes, and each collapse hypersurface becomes, in the string-frame metric, a big bang preceded by dilaton-driven inflation; it gives a criterion for 'collapse/inflation' in terms of asymptotic data.",
+   "difference": "As for Gasperini-Veneziano 2003: conformal frames of one spacetime, not position/momentum descriptions; primordial inflation inside collapsing regions, not the present acceleration; no conjugate universe and no Λ.",
+   "quotes": [
+    {
+     "text": "Each such singular space-like hypersurface of gravitational collapse becomes, in the string-frame metric, the usual big-bang t=0 hypersurface, i.e. the place of birth of a baby Friedmann universe after a period of dilaton-driven inflation.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/9806230"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g4-collapse-acceleration:verifier",
+     "Confirmed partial (medium): the same E-frame collapse / S-frame inflation identification as Gasperini-Veneziano, applied to local collapse of a generic string vacuum (each collapsing region a baby universe). For C5 it adds nothing beyond GV 1993/2003."
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "2207.02835"
+   ],
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"Bouncing and collapsing universes dual to late-time cosmological models\", Eur. Phys. J. C 84 (2024) 318, arXiv:2207.02835 (2022)",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "Uses the Einstein-frame/Jordan-frame (conformal) correspondence of scalar-tensor gravity to give the dark-energy-driven late universe a dual description: a ΛCDM Einstein frame always maps to a bouncing Brans-Dicke Jordan frame, and quintessence plus matter to a Jordan-frame turnaround, a bounce or a collapse. The abstract concludes that the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe. Two passages beyond the abstract bear on C5's route. Sec. 6 runs the map the other way: a de Sitter Jordan frame (Brans-Dicke parameter -4/3), which mimics the dark-energy-dominated era, has as its Einstein-frame dual a stiff fluid (w = 1, zero potential, a purely kinetic scalar) that contracts toward a crunch. That is the pairing of #11 §10's 'dual stiff ↦ Λ' with the stiff side contracting, realized in another duality. Sec. 5.2's thawing example uses the hilltop potential Λ⁴(1 + cos(φ/f)), the functional form of #11's τ potential V₀[1 + cos(τ/f)], and arranges the Jordan-frame collapse at the current era, which bears on the open question of how the route relates to τ's potential.",
+   "difference": "The dual description is a conformal (Weyl) rescaling of the same spacetime in a scalar-tensor theory, fixed by the Brans-Dicke field, not the momentum-space description of Born reciprocity, and no relation like a·ã = 1 holds (in sec. 6 the Einstein-frame scale factor goes as (1 - const·t̃)^(1/3) while the Jordan one grows exponentially, eq. 47). Dark energy (Λ, quintessence or the Brans-Dicke field) is put in by hand in one frame; the collapse in the other is a re-description ('equivalently', 'alternatively'), not its source, so C5's 'drives' is absent, though #11 App. A item 8 reads its own duality as synchronized, not causal. The turnaround point is tunable through the Brans-Dicke parameter, and for ΛCDM the dual is a bounce, not a collapse. The stiff/de Sitter pairing of sec. 6 is one exact solution (ω_BD = -4/3, U = 0), not a dictionary w_eff = -w̃. Not anticipation: the conjecture's partner is the momentum-space (conjugate) description, and here it is a conformal frame. The g4 verifier reported this paper (g4-collapse-acceleration/verify.json, new_findings; it read the abstract and secs. 3 and 8); it is not in round3/known.json. Sec. 6 and the sec. 5.2 hilltop example are not in that entry.",
+   "quotes": [
+    {
+     "text": "Therefore,the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "2207.02835"
+    },
+    {
+     "text": "The effective bouncing and collapsing descriptions of the current accelerating universe may have interesting implications for the evolutions of perturbations and quantum fluctuations in the cosmological background.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "2207.02835"
+    },
+    {
+     "text": "quintessence models of dark energy with non-relativistic matter component are shown to be always dual to a Brans-Dicke Jordan frame with a turn-around, i.e., a bounce or a collapse.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "2207.02835"
+    },
+    {
+     "text": "The point of the Jordan frame turn-around for all the cases can be tuned anywhere by choosing an appropriate Brans-Dicke parameter.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "2207.02835"
+    },
+    {
+     "text": "These results indicate that the effect of dark energy can alternatively be realized as collapse of space in a conformally connected universe, at least classically.",
+     "where": "full text, section 8 'Summary and discussion'",
+     "check": "lit.py quote: FOUND",
+     "id": "2207.02835"
+    },
+    {
+     "text": "Therefore,the effect of dark energy can equivalently be seen as collapse of space in a conformally connected universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "2207.02835"
+    },
+    {
+     "text": "In this section, we briefly discuss an example where a de Sitter expansion in the Jordan frame maps to a contracting Einstein frame.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "In this case, the Jordan frame universe mimics the late-time dark energy-dominated era of the",
+     "where": "sec. 6 (continues 'ΛCDM model')",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "the effect of dark energy is produced by the Brans-Dicke field instead of the cosmological constant.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "the Einstein frame scalar field describes a stiff fluid with equation of state parameter",
+     "where": "sec. 6 (continues 'w_φ = 1 (from eq. 11)')",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "Therefore, as the Jordan frame expands exponentially, the corresponding Einstein frame contracts.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "Therefore, the de Sitter expansion in the Jordan frame can alternatively be seen in the Einstein frame as a collapsing universe, heading towards a big crunch-like singularity.",
+     "where": "sec. 6",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "As an example, we consider the ‘hilltop’ quintessence potential",
+     "where": "sec. 5.2 (eq. 43)",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    },
+    {
+     "text": "thus leading to a collapse in the Jordan frame at the current era",
+     "where": "sec. 5.2",
+     "check": "lit.py quote: FOUND (full text)",
+     "id": "2207.02835"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "oa-c5:verifier",
+     "Confirmed partial (high). Metadata: Crossref and INSPIRE agree: D. Mukherjee, H. K. Jassal, K. Lochan, Eur. Phys. J. C 84 (2024) 318 (issue 3, online 2024-03-26), doi:10.1140/epjc/s10052-024-12673-1; arXiv 2022, read as v4 (27 Mar 2024). Why partial: the abstract and sec. 8 state, for the present epoch, that 'the effect of dark energy can alternatively be realized as collapse of space in a conform"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "gr-qc/0610079"
+   ],
+   "citation": "F. Henry-Couannier, \"The Dark Side of Gravity\", Global J. Sci. Front. Res. A 13 (2013) 1; arXiv:gr-qc/0610079 (living review, versions from 2006)",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "The Dark Gravity review restores matter sources: in cold eras 'there is a dominant source term determined by the content of the side with greater scale factor'. When our scale factor is the smaller one (a << 1) our universe follows a ~ 1/t² in the background time, which 'translates into a t² evolution in standard comoving coordinates', an acceleration without dark energy, while the conjugate scale factor 1/a shrinks. To make this accelerated phase late rather than early, the review postulates that the two sides exchanged their scale-factor regimes at the transition redshift with a reversal of the time arrow.",
+   "difference": "As for the 2018 proceedings: inverse-metric, time-reversed partner world, not the momentum-space description; the driver is the dominance of the other side's cold matter (gravitating negatively on our side) after a regime exchange, not gravitational collapse and not dual kinetic energy acting as Λ; power law, not Λ.",
+   "quotes": [
+    {
+     "text": "Thus the Janus gravitational field, like the Janus god, has two faces",
+     "where": "full text, section 4 'Conjugate Worlds Gravitational Coupling'",
+     "check": "lit.py quote: FOUND",
+     "id": "gr-qc/0610079"
+    },
+    {
+     "text": "If one or both are evolving in a cold era, there is a dominant source term determined by the content of the side with greater scale factor.",
+     "where": "full text, section 13 'B=-A, the Cosmological Field'",
+     "check": "lit.py quote: FOUND",
+     "id": "gr-qc/0610079"
+    },
+    {
+     "text": "Not only our universe can be accelerated thanks to the 1/t^{2} solution (which translates into a t^{2} evolution in standard comoving coordinates) without any need for a cosmological constant or dark energy component",
+     "where": "full text, section 13",
+     "check": "lit.py quote: FOUND",
+     "id": "gr-qc/0610079"
+    },
+    {
+     "text": "The conjugate background is therefore obtained by time reversal.",
+     "where": "full text, section 13",
+     "check": "lit.py quote: FOUND",
+     "id": "gr-qc/0610079"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g4-collapse-acceleration:verifier",
+     "Confirmed partial: the strongest Dark Gravity statement and the closest paper found for the founding image. In cold eras 'there is a dominant source term determined by the content of the side with greater scale factor'; for a << 1 the review's eq. (24) is (1/a)'' = const, so the conjugate scale factor ã = 1/a goes as t^2 with conformal time t -> 0-: in its own cosmic time ã ~ |T|^(2/3), a dust uni"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "doi:10.22323/1.335.0047"
+   ],
+   "citation": "F. Henry-Couannier, \"The dark side of gravity and the acceleration of the universe\", 2nd World Summit: Exploring the Dark Side of the Universe (EDSU2018), PoS(EDSU2018)047 (2018); conference proceedings",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "Dark Gravity treats the metric g and its 'inverse' g̃ = η g⁻¹ η as two faces of one field (a 'Janus field'), each with its own matter. In the cosmological sector the two scale factors are inverses, ã(t) = 1/a(t), and the paper states that our side's expansion means the dark side is contracting. After a postulated discontinuous permutation of the two scale factors at the transition redshift, the dark side's source term dominates and drives our evolution, giving a constantly accelerated expansion a(t′) ~ t′² with no cosmological constant (the paper's single parameter replacing Λ is the transition redshift, predicted 0.78 against a measured 0.67 ± 0.1). Dark-side mass acts on our side as negative mass.",
+   "difference": "Closest configuration found, but not the same claim. The conjugate world is the inverse metric of a flat-background theory, related to ours by a global time-reversal/permutation symmetry, not the momentum-space (Born-reciprocal) description of our universe. The acceleration comes from the anti-gravitating action of the dark side's cold matter once a discontinuous scale-factor permutation has made its source term dominant, not from gravitational collapse of the conjugate universe and not from dual kinetic energy carried across as Λ by w_eff = −w̃; the dark side contracts throughout, including our decelerating era. The result is power-law acceleration a ~ t′², not a cosmological constant.",
+   "quotes": [
+    {
+     "text": "The expansion of our side implies that the dark side of the universe is in contraction.",
+     "where": "full text, section 2.2.1 'Continuous evolution and discontinuous permutation'",
+     "check": "checked by WebFetch only (PoS PDF fetched with WebFetch, text extracted locally with pypdf; lit.py cannot reach PoS)",
+     "id": "doi:10.22323/1.335.0047"
+    },
+    {
+     "text": "This permutation (at the green point depicted on figure 1) could produce the subsequent recent acceleration of the universe.",
+     "where": "full text, section 2.2.1",
+     "check": "checked by WebFetch only (PoS PDF fetched with WebFetch, text extracted locally with pypdf; lit.py cannot reach PoS)",
+     "id": "doi:10.22323/1.335.0047"
+    },
+    {
+     "text": "Then, following the transition, the dark side source term have started to drive the evolution",
+     "where": "full text, section 2.2.1",
+     "check": "checked by WebFetch only (PoS PDF fetched with WebFetch, text extracted locally with pypdf; lit.py cannot reach PoS)",
+     "id": "doi:10.22323/1.335.0047"
+    },
+    {
+     "text": "It also confirms that a positive mass M in the conjugate metric is seen as a negative mass -M from its gravitational effect felt on our side.",
+     "where": "full text, section 3 'Local gravity: the isotropic case about Minkowski'",
+     "check": "checked by WebFetch only (PoS PDF fetched with WebFetch, text extracted locally with pypdf; lit.py cannot reach PoS)",
+     "id": "doi:10.22323/1.335.0047"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g4-collapse-acceleration:verifier",
+     "Confirmed partial. The proceedings state the configuration: the dark side, whose scale factor is the inverse of ours, contracts as ours expands, and after a postulated permutation its source term drives our recent acceleration without a cosmological constant (a(t') ~ t'^2). Not 'anticipates': (1) the conjugate is the inverse metric of a flat-background theory, a time-reversed twin with its own mat"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "1307.0159"
+   ],
+   "citation": "H. Wu, H. Yang, \"Double Field Theory Inspired Cosmology\", JCAP 07 (2014) 024, arXiv:1307.0159",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "Cosmological solutions of double field theory, which doubles space into ordinary coordinates x and dual (T-dual) coordinates x̃. In the solution with an O(D,D)-invariant dilaton potential the dual scale factor is the inverse of the ordinary one, a₂ = a⁻¹, so the dual space contracts while ordinary space expands. The authors state that the contraction of the dual space causes the ordinary space first to inflate (accelerate) and later to expand at a decelerating rate. A later DFT paper (Y. Liu, Gen. Rel. Grav. 54 (2022) 18, arXiv:2112.15082) summarizes the result as 'the contraction of the conjugated space leads to both an inflation phase and a decelerated expansion of the ordinary space'.",
+   "difference": "Same causal wording as C5 (contraction of the dual space, with the inverse scale factor, accelerates our space), but for primordial inflation, not the present acceleration. The dual space is the winding (T-dual) coordinate space of double field theory, not the momentum-space polarization of a Born-reciprocal theory. The driver is dilaton dynamics with an exponential potential; no matter content, no collapse of a conjugate sector, no dictionary entry such as dual stiff → Λ. The same contraction also produces the later decelerated expansion, so in this paper contraction alone does not fix the sign of the acceleration; with a₂ = a⁻¹ the 'causes' is a kinematic identity of one solution.",
+   "quotes": [
+    {
+     "text": "we demonstrate that the contraction of the dual space automatically leads to both an inflation phase and a decelerated expansion of the ordinary space during different evolution stages",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "1307.0159"
+    },
+    {
+     "text": "where a_{1}\\left(t\\right)=a\\left(t\\right) and a_{2}\\left(t\\right)=a\\left(t\\right)^{-1}",
+     "where": "full text, section 4.2",
+     "check": "lit.py quote: FOUND",
+     "id": "1307.0159"
+    },
+    {
+     "text": "In the domain -\\infty<t<1/\\sqrt{2} , the contraction of \\tilde{x} inflates x",
+     "where": "full text, section 4.2",
+     "check": "lit.py quote: FOUND",
+     "id": "1307.0159"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g4-collapse-acceleration:verifier",
+     "Confirmed partial (medium). 'The contraction of x̃ inflates x', with the dual scale factor a2 = 1/a: a primordial form of the conjecture's core link between a contracting dual and our acceleration. The verifier tested a downgrade, because the same contraction also accompanies the later deceleration (x inflates until t = 1/sqrt 2 while x̃ passes from accelerated to decelerated contraction at t = -1"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "hep-th/9309023"
+   ],
+   "citation": "M. Gasperini, G. Veneziano, \"Inflation, deflation, and frame independence in string cosmology\", Mod. Phys. Lett. A 8 (1993) 3701, arXiv:hep-th/9309023",
+   "relation": "partial",
+   "basis": "single-agent label",
+   "summary": "The origin of the pre-big-bang identification that the searcher found in Gasperini-Veneziano 2003 and Buonanno-Damour-Veneziano 1999. String-frame inflationary solutions suggested by scale-factor duality are accelerated contraction ('deflation') in the Einstein frame, and the virtues of inflation have 'physically equivalent counterparts in the deflationary (Einstein-frame) picture'. One process, two descriptions: accelerated contraction in one is accelerated expansion in the other.",
+   "difference": "Conformal (Weyl) frames related by the dilaton, not position and momentum with a·ã = 1; primordial inflation, not the present acceleration; the contraction is our own universe's Einstein-frame metric, with no conjugate matter and no dictionary; superinflation, not Λ.",
+   "quotes": [
+    {
+     "text": "The inflationary scenarios suggested by the duality properties of string cosmology in the Brans-Dicke (or String) frame are shown to correspond to accelerated contraction (deflation) when Weyl-transformed to the Einstein frame.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/9309023"
+    },
+    {
+     "text": "We point out that the basic virtues of inflation (solving the flatness and horizon problems, amplifying vacuum fluctuations, etc.) have physically equivalent counterparts in the deflationary (Einstein-frame) picture.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/9309023"
+    }
+   ],
+   "verified": []
+  },
+  {
+   "ids": [
+    "hep-th/0207130"
+   ],
+   "citation": "M. Gasperini, G. Veneziano, \"The pre-big bang scenario in string cosmology\", Phys. Rept. 373 (2003) 1, arXiv:hep-th/0207130",
+   "relation": "partial",
+   "basis": "verified",
+   "summary": "In pre-big-bang cosmology one evolution is described in two conformal frames. A superinflationary (accelerating) expansion in the string frame is an accelerated contraction in the Einstein frame, where the dilaton is a massless scalar minimally coupled to gravity (kinetic-dominated, a stiff fluid) that cannot inflate but 'can easily lead to gravitational collapse'; section 3.3 is titled 'Pre-big bang inflation as gravitational collapse'. Section 2.2 also gives the scale-factor duality with sources, attributed to Veneziano 1991: a_i → a_i⁻¹ with the shifted density ρ̄ = ρ √−g preserved and the shifted pressure reversed, which 'reflects' the barotropic equation of state γ → −γ. This is the same map as the program's corrected dictionary w_eff = −w̃ (#11 section 10), which carries the energy per comoving volume across unchanged; under it a stiff fluid (γ = 1) goes to γ = −1.",
+   "difference": "The two descriptions are the string and Einstein conformal frames, related by the dilaton, not position and momentum related by Born reciprocity; the collapse is of our own universe as seen in the other frame, not of a conjugate one; the acceleration is primordial superinflation (growing H), not the present epoch and not a cosmological constant. The duality with sources is an exact symmetry of string-frame dilaton gravity, whereas the program derives w_eff = −w̃ in Einstein gravity from a·ã = 1 with one shared lapse; the paper never applies γ → −γ to dark energy. Read with C5's route, it states the same structure: a contracting, kinetic-dominated universe in one description is an accelerating universe in the other.",
+   "quotes": [
+    {
+     "text": "a superinflationary solution obtained in the S-frame becomes an accelerated contraction in the E-frame, and vice versa",
+     "where": "full text, section 1.3 'Pre-big bang inflation and conformal frames'",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/0207130"
+    },
+    {
+     "text": "Inflation in the S-frame, for instance, can be represented as gravitational collapse in the E-frame",
+     "where": "full text, section 2.5 'Frame-independence: Which is the right metric?'",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/0207130"
+    },
+    {
+     "text": "It is well known that such a form of matter cannot give inflation (since it has positive pressure). Instead, it can easily lead to gravitational collapse.",
+     "where": "full text, section 3.3 'Pre-big bang inflation as gravitational collapse'",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/0207130"
+    },
+    {
+     "text": "This highly non-trivial result strongly supports the idea that pre-big bang inflation in the S-frame is the counterpart of gravitational collapse in the E-frame",
+     "where": "full text, section 3.4",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/0207130"
+    },
+    {
+     "text": "The above equations with sources are invariant under time reflection and under the duality transformation",
+     "where": "full text, section 2.2 'Scale-factor duality without and with sources', before eq. (2.32)",
+     "check": "lit.py quote: FOUND",
+     "id": "hep-th/0207130"
+    },
+    {
+     "text": "which preserves \\overline{\\rho} but changes \\rho in a non-trivial way, and \"reflects\" the barotropic equation of state",
+     "where": "full text, section 2.2, after eq. (2.32)",
+     "check": "lit.py quote: FOUND (loose)",
+     "id": "hep-th/0207130"
+    }
+   ],
+   "verified": [
+    [
+     "partial",
+     "g4-collapse-acceleration:verifier",
+     "Confirmed partial. Inflation in the S-frame is gravitational collapse in the E-frame, with kinetic-dominated (stiff) dilaton contents on the collapsing side: a primordial, conformal-frame form of 'collapse in one description is accelerated expansion in the other'. The dictionary claim checks: eq. (2.32) maps a_i -> 1/a_i with rhobar = rho prod a_i preserved and pbar -> -pbar, 'reflecting' gamma ->"
+    ]
+   ]
+  },
+  {
+   "ids": [
+    "1807.06209"
+   ],
+   "citation": "Planck Collaboration (N. Aghanim et al.), \"Planck 2018 results. VI. Cosmological parameters\", Astron. Astrophys. 641 (2020) A6, arXiv:1807.06209",
+   "relation": "evidence-against",
+   "basis": "verified",
+   "summary": "With wₐ fixed to 0 (constant w), Planck combined with supernovae and BAO gives w₀ = −1.028 ± 0.031, consistent with a cosmological constant. This is a published measurement against the first, heuristic version of C5, which required dark energy with w = −2; the record states that 'the data exclude' w = −2 without citing a measurement (wiki page, #11 section 10).",
+   "difference": "Weighs only against the w = −2 version, which the record already treats as failed; it does not bear on the remaining route, which gives w = −1 if the conjugate contents are exactly stiff.",
+   "quotes": [
+    {
+     "text": "Also combining with Type Ia supernovae (SNe), the dark-energy equation of state parameter is measured to be w_{0}=-1.03\\pm 0.03 , consistent with a cosmological constant.",
+     "where": "abstract (as in the full text)",
+     "check": "lit.py quote: FOUND",
+     "id": "1807.06209"
+    },
+    {
+     "text": "Fixing the evolution parameter w_{a}=0 , we obtain the tight constraint",
+     "where": "full text, dark-energy section, before eq. (48) (w0 = -1.028 +- 0.031, Planck TT,TE,EE+lowE+lensing+SNe+BAO)",
+     "check": "lit.py quote: FOUND",
+     "id": "1807.06209"
+    }
+   ],
+   "verified": [
+    [
+     "evidence-against",
+     "g4-collapse-acceleration:verifier",
+     "Confirmed, for the failed w = -2 version only: with w_a fixed to 0, w0 = -1.028 +- 0.031 (68%, Planck TT,TE,EE+lowE+lensing+SNe+BAO), eq. (48), read in the full text. It does not bear on the route, which gives w = -1."
+    ]
+   ]
+  }
+ ],
+ "related": [
+  {
+   "ids": [
+    "doi:10.1103/PhysRevLett.66.545"
+   ],
+   "citation": "A. A. Tseytlin, \"Duality symmetric string theory and the cosmological constant problem\", Phys. Rev. Lett. 66 (1991) 545",
+   "summary": "Proposes an effective action S/V, motivated by a duality-symmetric closed string theory with independent coordinates x and their duals x̃, whose gravitational equation does not depend on the cosmological constant in S. Precursor of the Berglund-Hübsch-Minić dual-spacetime dark energy.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-th/9109048"
+   ],
+   "citation": "A. A. Tseytlin, C. Vafa, \"Elements of string cosmology\", Nucl. Phys. B 372 (1992) 443, arXiv:hep-th/9109048",
+   "summary": "Records the duality intuition of Brandenberger-Vafa string gas cosmology: what ordinary (momentum-mode) matter does for the size of the universe, dual (winding) matter does for the dual size, so winding modes accelerate contraction and oppose expansion.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2111.05659"
+   ],
+   "citation": "A. Addazi, J. Alvarez-Muniz, R. Alves Batista, G. Amelino-Camelia et al. (162 authors), \"Quantum gravity phenomenology at the dawn of the multi-messenger era—A review\", Prog. Part. Nucl. Phys. 125 (2022) 103948, arXiv:21",
+   "summary": "The closing summary of the review's section 2 lists, among the observable hallmarks of Born geometry and metastring theory, \"a 'dual' geometry, leading to dark energy in the observed spacetime, modelled as a positive cosmological constant\", citing Berglund–Hübsch–Minić 2019 (PLB 798; IJMPD 28). A restatement of the claim g4 rated partial for C5 (BHM 2019: the curvature of the canonically conjugate",
+   "basis": "harmonized: restates Berglund-Hübsch-Minić 2019 (dual-space curvature as Λ), whi"
+  },
+  {
+   "ids": [
+    "doi:10.1016/0370-2693(88)90770-8"
+   ],
+   "citation": "A. D. Linde, \"The Universe Multiplication and the Cosmological Constant Problem\", Phys. Lett. B 200 (1988) 272",
+   "summary": "Two globally interacting universes with positive- and negative-energy particles; the effective cosmological constant in each vanishes automatically.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1903.12521"
+   ],
+   "citation": "A. Triantafyllopoulos, P. C. Stavrinos, \"Weak field equations and generalized FRW cosmology on the tangent Lorentz bundle\", Class. Quantum Grav. 35 (2018) 085011, arXiv:1903.12521",
+   "summary": "Generalized Friedmann equations on the tangent bundle, in which the curvature S of the velocity-space (vertical) part of the metric enters like a cosmological constant, so the accelerated expansion is attributed to the extra geometry.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "recid:1789711"
+   ],
+   "citation": "C. Castro Perelman, \"Born's Reciprocal Relativity theory, curved phase space, Finsler geometry and the cosmological constant\", Ann. Phys. 416 (2020) 168143, doi:10.1016/j.aop.2020.168143 (not on arXiv)",
+   "summary": "The paper treats gravity on the curved phase space (the cotangent bundle, in Finsler geometry) of Born's reciprocal relativity. A scalar-gravity model has exact solutions in which the base spacetime and the internal momentum space are both (anti-)de Sitter, and the abstract says they 'capture the very early inflationary and very-late-time de Sitter phases'. Regularizing the 8-dimensional phase-spa",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "recid:1122452"
+   ],
+   "citation": "C. Castro, \"Born's reciprocal gravity in curved phase-spaces and the cosmological constant\", Found. Phys. 42 (2012) 1031, doi:10.1007/s10701-012-9645-9 (not on arXiv)",
+   "summary": "Born-reciprocal gravity on the 8-dimensional cotangent bundle (curved phase space, Finsler nonlinear connection). A Kaluza-Klein-like construction yields the observed value of the cosmological constant, and the abstract links the geometry of momentum space to that value when momentum space is strongly curved and its size P is of order 1/R_Hubble.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2504.08062"
+   ],
+   "citation": "C. Pfeifer, N. Voicu, A. Friedl-Szász, E. Popovici-Popescu, \"From kinetic gases to an exponentially expanding universe — the Finsler-Friedmann equation\", JCAP 10 (2025) 050, doi:10.1088/1475-7516/2025/10/050; arXiv:2504.",
+   "summary": "Finsler kinetic-gas lineage (gravity on the position-velocity tangent bundle). Gravity is coupled to the whole one-particle distribution of matter in position and velocity, not only to its second moment; the higher velocity moments contribute, and a Finslerian vacuum solution already gives exponential expansion without a cosmological constant. Earlier: Hohmann, Pfeifer and Voicu, \"The kinetic gas ",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2302.07878"
+   ],
+   "citation": "D. Farrah, K. S. Croker, G. Tarlé, V. Faraoni et al., \"Observational Evidence for Cosmological Coupling of Black Holes and its Implications for an Astrophysical Source of Dark Energy\", Astrophys. J. Lett. 944 (2023) L31,",
+   "summary": "Proposes that black holes formed by stellar collapse are the source of dark energy: if their gravitating mass grows with the scale factor (cosmological coupling), the black-hole population contributes a constant energy density, and the continuity equation then makes it vacuum energy. The scaling argument (energy per comoving volume growing so that density stays constant, hence w = −1) parallels th",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:2778134"
+   ],
+   "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", Bulg. J. Phys. 51 (2024) 060, doi:10.55318/bgjp.2024.51.1.060 (journal; write-up of a conference talk; arXiv version 2305.1",
+   "summary": "This is the journal version of arXiv:2305.12593, with the same abstract: a phase-space-like computation of the vacuum energy (FKGLM) together with the Bekenstein bound. Only the abstract was read here; the passages are quoted under 2305.12593.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2305.12593"
+   ],
+   "citation": "D. Minic, \"The Vacuum Energy Problem in Quantum Gravity and the Masses of Elementary Particles\", arXiv:2305.12593 (2023), conference talk (BASIC 2023); published as Bulg. J. Phys. 51 (2024) 060",
+   "summary": "The talk summarizes the FKGLM account: the vacuum energy density is the volume of energy–momentum space, bounded through the Bekenstein bound by 1/(l²l_P²), which gives the see-saw length √(l l_P). It also states that the modular cell can be rescaled as x → a x, p → a⁻¹ p, and that in the limit of large expansion a → ∞ 'the dual dimension shrinks to zero and one recovers the usual spacetime'. That",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "doi:10.1142/9789811269776_0074"
+   ],
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"Condition for expansion-collapse duality between Einstein and Jordan frames\", in The Sixteenth Marcel Grossmann Meeting (World Scientific, 2023), p. 958, doi:10.1142/9789811269776_",
+   "summary": "Proceedings statement of the line: depending on the Jordan-frame action (equivalently the Einstein-frame quintessence potential), the Einstein frame can expand while the Jordan frame collapses; a general condition is derived for time-dependent equations of state and other components, and the duality is said to give an effective description of a collapsing universe in terms of an expanding one.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2105.10521"
+   ],
+   "citation": "D. Mukherjee, H. K. Jassal, K. Lochan, \"f(R) dual theories of quintessence: expansion-collapse duality\", JCAP 12 (2021) 016, arXiv:2105.10521",
+   "summary": "The first paper of the expansion-collapse duality line. It reconstructs the f(R) Jordan-frame duals of quintessence-driven Einstein-frame cosmologies and finds, for a class of viable quintessence models, that the Jordan-frame universe grows to a maximum size and then collapses while the physical (Einstein-frame) universe keeps expanding; it derives the condition for this duality for time-varying e",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2305.19106"
+   ],
+   "citation": "D. Mukherjee, H. S. Sahota, \"Einstein and Jordan frame correspondence in quantum cosmology: expansion-collapse duality\", Eur. Phys. J. C 83 (2023) 803, doi:10.1140/epjc/s10052-023-11934-9, arXiv:2305.19106 (journal)",
+   "summary": "Wheeler-DeWitt quantization of both frames of the expansion-collapse duality, for an always-expanding Einstein-frame universe whose Jordan-frame dual contracts forever; the conformal map is found to hold for expectation values, and quantum fluctuations grow in both frames. The introduction notes that dark-energy-driven late-time models can be realized in conformal frames with contrasting evolution",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2202.00641"
+   ],
+   "citation": "E. Gaztañaga, \"The Cosmological Constant as Event Horizon\", Symmetry 14 (2022) 300, arXiv:2202.00641",
+   "summary": "Black Hole Universe: our universe expands inside its own Schwarzschild radius, possibly formed by the collapse of a free-falling cloud; the cosmological constant is read as the event horizon (a causal boundary term), so the observed acceleration needs no dark energy.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2312.15552"
+   ],
+   "citation": "E. Kapsabelis, E. N. Saridakis, P. C. Stavrinos, \"Finsler–Randers–Sasaki gravity and cosmology\", Eur. Phys. J. C 84, 538 (2024); arXiv:2312.15552 (2023) (journal)",
+   "summary": "Tangent-bundle (Stavrinos) lineage: on a Lorentz tangent bundle the horizontal (position) and vertical (velocity) spaces each get generalized Friedmann equations, with the matter fluid moving in both, and the extra geometric terms form an effective dark-energy sector (quintessence, phantom or crossing). Earlier, Triantafyllopoulos and Stavrinos, Class. Quantum Grav. 35, 085011 (2018), arXiv:1903.1",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "0812.4182"
+   ],
+   "citation": "F. Ferrer, T. Multamäki, S. Räsänen, \"Fitting oscillating string gas cosmology to supernova data\", JHEP 04 (2009) 006, arXiv:0812.4182",
+   "summary": "In string gas cosmology the extra dimensions, pushed by matter and pulled back by the string gas, can oscillate during the matter era, producing late-time acceleration of the visible dimensions; fitted to supernovae, it is acceptable but disfavoured against Λ.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "doi:10.1142/9789819839926_0093"
+   ],
+   "citation": "F. Henry-Couannier, \"Dark Gravity confronted with Supernovae, Baryonic Oscillations and the Cosmic Microwave Background\", in The Seventeenth Marcel Grossmann Meeting (World Scientific, 2026), doi:10.1142/9789819839926_00",
+   "summary": "The latest proceedings of the Dark Gravity line already on the known list (gr-qc/0507065, gr-qc/0610079, PoS EDSU2018): matter and radiation of the theory's dark sector, once their gravity dominates ours, produce a constant-acceleration law a ∝ t², and a sudden transition from a ∝ t^(2/3) to a ∝ t² is fitted to supernova, BAO, CMB, stellar-age and H0 data with two free parameters.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "gr-qc/0507065"
+   ],
+   "citation": "F. Henry-Couannier, A. Tilquin, A. Ealet, A. Bonissent, D. Fouchez, C. Tao, \"Negative energies and a constantly accelerating flat universe\", arXiv:gr-qc/0507065 (2005); arXiv preprint only",
+   "summary": "Earliest Dark Gravity cosmology found. Two time-reversal-conjugate metrics, with g̃_μν identified with g^μν in a privileged frame, give a pair of conjugate universes whose scale factors map as a → 1/a under t → −t. The coupled equation gives a ~ t² for our side, so 'our universe is accelerated without any need for a cosmological constant or dark energy component'; the model is fitted to the supern",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2601.22910"
+   ],
+   "citation": "G. Manfredi, J.-L. Rouet, B. Miller, \"The Bondi universe: Can negative mass drive the cosmological expansion?\", Phys. Dark Univ. 54, 102493 (2026), doi:10.1016/j.dark.2026.102493; arXiv:2601.22910 (journal)",
+   "summary": "Negative-mass (Bondi) lineage, reached through the Janus papers (it cites Petit and d'Agostini 2014). With equal amounts of positive and negative Bondi masses, mixed configurations are unstable (Vlasov-Poisson analysis); one-dimensional N-body runs show a ballistic phase, a random-walk acceleration from Bondi encounters, and then uniform acceleration set off by the formation of stable positive/neg",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "doi:10.1016/0370-2693(91)90055-U"
+   ],
+   "citation": "G. Veneziano, \"Scale factor duality for classical and quantum strings\", Phys. Lett. B 265 (1991) 287",
+   "summary": "Origin of scale-factor duality: the string-modified Friedmann equations have duality-related solutions under inversion of the scale factor. Gasperini-Veneziano 2003 attribute to this paper the duality with sources (their eq. 2.32, ref. [600]) that preserves the energy per comoving volume and reflects the equation of state, the same map as the program's corrected dictionary w_eff = −w̃.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "doi:10.5281/zenodo.23589138"
+   ],
+   "citation": "H. Alshareif, \"The Breathing Twin Universes (Interconnected Expansion-Contraction and the Single Knock as Inter-Universal Contact)\", Zenodo preprint v1.0 (23 Oct 2026), doi:10.5281/zenodo.23589138 (non-reviewed)",
+   "summary": "Our universe A and a twin B in 'breathing exchange': expansion of A causes contraction of B and vice versa, with total energy zero; dark energy is 'structural tension' from the pressure of B expanding into our membrane.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "1707.04670"
+   ],
+   "citation": "H. Falomir, J. Gamboa, F. Méndez, P. Gondolo, \"Inflation without Inflaton: A Model for Dark Energy\", Phys. Rev. D 96 (2017) 083534, arXiv:1707.04670",
+   "summary": "Two causally disconnected FLRW regions with scale factors a and b are coupled by a deformed Poisson bracket between their canonical momenta; the modified Friedmann equations acquire a source whose equation of state shows dark energy, with accelerating and decelerating regimes that can alternate.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1801.07575"
+   ],
+   "citation": "H. Falomir, J. Gamboa, P. Gondolo, F. Méndez, \"Magnetic Seed and Cosmology as Quantum Hall Effect\", Phys. Lett. B 785 (2018) 399, arXiv:1801.07575 (journal)",
+   "summary": "Two metric sectors with scale factors a(t) and b(t) whose minisuperspace momenta do not commute ([π₁, π₂] = εθ), an interaction read as \"a relic of a causal primordial connection between sectors\". The coupling terms in each sector's Friedmann equations \"can be considered as sources of dark energy\"; for Λ₂ = 0 the component is a generalized Chaplygin gas. A second sector's dynamics acting on our ex",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "doi:10.20944/preprints202410.1720."
+   ],
+   "citation": "I. Escudero, \"The Origin of the Accelerated Expansion of the Universe from a Gravitational Collapse in Higher Dimensions\", Preprints.org 202410.1720 (2024); non-reviewed preprint",
+   "summary": "Proposes that a black hole collapsing in a higher-dimensional space generates our universe, whose accelerated expansion follows from that collapse, and claims agreement with supernova and CMB data. Resolves the searcher's first unverified lead (author and abstract from Crossref).",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "gr-qc/0405055"
+   ],
+   "citation": "J. E. Lidsey, \"Triality between inflation, cyclic and phantom cosmologies\", Phys. Rev. D 70 (2004) 041302, doi:10.1103/PhysRevD.70.041302, arXiv:gr-qc/0405055 (journal)",
+   "summary": "Any flat, isotropic universe in accelerated expansion driven by a self-interacting scalar field is related by a duality (interchanging scale factor and Hubble parameter as functions of the field) to a contracting, decelerating cosmology; inverting the scale factor with H fixed twins the decelerating universe with a phantom one.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "gr-qc/9411041"
+   ],
+   "citation": "J. J. Levin, \"Inflation from extra dimensions\", Phys. Lett. B 343 (1995) 69, arXiv:gr-qc/9411041",
+   "summary": "In vacuum higher-dimensional cosmology the shear of n > 1 contracting extra dimensions inflates the three visible ones: 'the expansion of the 3-volume is accelerated by the contraction of the n-volume', equivalent after reduction to inflation powered by dilaton kinetic energy ('kinetic inflation').",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "hep-th/0312009"
+   ],
+   "citation": "J. K. Erickson, D. H. Wesley, P. J. Steinhardt, N. Turok, \"Kasner and mixmaster behavior in universes with equation of state w >= 1\", Phys. Rev. D 69 (2004) 063514, arXiv:hep-th/0312009",
+   "summary": "Bears on the open question #11 section 10 names, whether the contracting conjugate universe is kinetic-dominated: in a contracting universe a w = 1 (stiff, kinetic) component and anisotropy scale with the same power of the scale factor, so their ratio stays fixed; the contraction becomes homogeneous and isotropic (Friedmann) only for w > 1.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "recid:1415348"
+   ],
+   "citation": "J. P. Petit, G. D'Agostini, \"Cosmological bimetric model with interacting positive and negative masses and two different speeds of light, in agreement with the observed acceleration of the Universe\", Mod. Phys. Lett. A 2",
+   "summary": "Janus bimetric model: a positive-mass and a negative-mass species, each with its own metric and speed of light; the asymmetry of the model makes the positive species (ours) accelerate while the negative one slows down. Companion of the known Petit and d'Agostini 2014 Astrophys. Space Sci. paper (C5 related).",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "doi:10.5281/zenodo.14786788"
+   ],
+   "citation": "J. P. Stolt, \"The Paradoxical Infinity Model: A Dual-Universe Framework for Dark Matter, Dark Energy, and Time Asymmetry\", Zenodo preprint (1 Feb 2025), doi:10.5281/zenodo.14786788 (non-reviewed)",
+   "summary": "Two interacting universes: A expanding with forward time flow, B contracting with reverse time flow, exchanging gravitational and entropic effects, offered as potential explanations of dark matter, dark energy and the arrow of time.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "1305.6972"
+   ],
+   "citation": "J. S. Hazboun, J. T. Wheeler, \"Time and dark matter from the conformal symmetries of Euclidean space\", Class. Quantum Grav. 31, 215001 (2014); arXiv:1305.6972 (2013) (journal)",
+   "summary": "Listed in known.json as C1 related; this is an additional C5 reading of the same paper, from the Wheeler-Hazboun biconformal lineage. In biconformal space (an 8-dimensional phase space from the conformal group) the configuration and momentum Lagrangian submanifolds are both Lorentzian; their curvatures are coupled so that the difference of their Einstein tensors is fixed while curvature can be mov",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "gr-qc/0401117"
+   ],
+   "citation": "J. W. Moffat, \"Quantum gravity momentum representation and maximum energy\", Int. J. Geom. Meth. Mod. Phys. 13, 1650005 (2016; INSPIRE gives 2015); arXiv:gr-qc/0401117 (2004) (journal)",
+   "summary": "Moffat's momentum-representation gravity. Following Born, a momentum-space metric and curvature obey p-space Einstein equations with a p-space cosmological constant and a source read as the density of spacetime curvature per p-space volume; flat spacetime gives flat p-space, and a closed p-space gives a maximum momentum and a finite vacuum energy density. Its citers include the known Bolognesi 201",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2412.04644"
+   ],
+   "citation": "J.-P. Petit, F. Margnat, H. Zejli, \"A bimetric cosmological model based on Andreï Sakharov's twin universe approach\", Eur. Phys. J. C 84 (2024) 1226, arXiv:2412.04644 (journal). On round3/known.json for C1 (related) only",
+   "summary": "Janus model: two FLRW sheets carrying positive and negative masses, tied by the conservation law ρc²a³ + ρ̄c̄²ā³ = E (eq. 96). In the exact dust solution (eqs. 98a, 98b) a²ä = -(4πG/c²)E and ā²(d²ā/dx⁰²) = +(4πG/c̄²)E, so when the negative-mass (twin) content dominates, E < 0, our scale factor accelerates while the twin sheet's decelerates. The paper takes this as its explanation of the accelerati",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "recid:1285852"
+   ],
+   "citation": "J.-P. Petit, G. d'Agostini, \"An alternative model, explaining the VLS, created by the gravitational interaction of two matter populations, one composed of positive mass and the other of negative mass\", J. Phys. Conf. Ser",
+   "summary": "Same lineage: if the negative-mass population is much denser it first forms clusters by gravitational instability, and positive matter is pushed into the space between them, forming the very large structure. Together with the previous entry, the Janus lineage has both halves of C5's image, the twin sector's gravitational collapse and our sector's acceleration, but states them separately.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "doi:10.1007/s10509-014-2106-5"
+   ],
+   "citation": "J.-P. Petit, G. d'Agostini, \"Negative mass hypothesis in cosmology and the nature of dark energy\", Astrophys. Space Sci. 354 (2014) (INSPIRE gives the page as 2106), doi:10.1007/s10509-014-2106-5, INSPIRE recid 1330154",
+   "summary": "Janus cosmological model: two coupled metrics for positive- and negative-mass species; in the non-steady solution the positive species accelerates while the negative one decelerates, so dark energy is replaced by the action of (dominant) negative matter. Petit, Margnat, Zejli, EPJC 84 (2024) 1226 restate it: our acceleration follows if the system's energy is predominantly negative.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2303.17495"
+   ],
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"On the inevitable lightness of vacuum\", Int. J. Mod. Phys. D 32 (2023) 2342004, arXiv:2303.17495 (journal; essay)",
+   "summary": "This is the essay version of FKGLM 2022, and the record already cites it with that paper (papers/phase-space-diameter.md §4). The regularized vacuum energy density scales as the volume of energy–momentum space. A UV–IR regularization combined with the holographic entropy bound makes the cosmological constant small 'because the universe is filled with a large number of degrees of freedom'.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2212.00901"
+   ],
+   "citation": "L. Freidel, J. Kowalski-Glikman, R. G. Leigh, D. Minic, \"Vacuum energy density and gravitational entropy\", Phys. Rev. D 107 (2023) 126016, arXiv:2212.00901 (2022) (journal)",
+   "summary": "The paper rewrites the regularized vacuum energy as a sum over elementary phase-space cells (modular regularization). It bounds the vacuum energy density by the size of the regulated momentum space, which UV/IR mixing at fixed cell number N ties inversely to the size of spacetime. Equating N with the entropy of the de Sitter horizon gives ρ ≲ ħ/(ℓ²ℓ_P²), consistent with the observed value: 'the sm",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "recid:2836372"
+   ],
+   "citation": "L. M. Tomilchik, \"Reciprocal invariant, maximum tension principle, and the Lorentz complex group as the symmetry of gravitational interaction.\", Dokl. Nats. Akad. Nauk Belarusi 60, 41 (2016) (journal; not on arXiv)",
+   "summary": "Tomilchik (Born-reciprocity and maximal-acceleration lineage; co-author of the known gr-qc/0507090) proposes a quasi-Newtonian, reciprocally invariant Hamiltonian dynamics of gravitating masses obeying a maximum-tension principle; at the mass of the universe it reproduces a cyclic cosmology with upper and lower limits on energy density and expansion rate.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "gr-qc/0307111"
+   ],
+   "citation": "L. P. Chimento, R. Lazkoz, \"On the link between phantom and standard cosmologies\", Phys. Rev. Lett. 91 (2003) 211301, arXiv:gr-qc/0307111",
+   "summary": "The 'phantom symmetry' of flat FRW: ρ̄ = ρ, H̄ = −H (so ā ∝ 1/a) and γ̄ = −γ for p = (γ − 1)ρ, i.e. w → −2 − w. This is the program's heuristic dictionary w_eff = −2 − w̃, which identified densities across frames (#1 section 6), and under which dual dust gives w = −2, the first failed version of C5. The paper notes the duality is identical to the pre-big-bang one.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "doi:10.2174/1874381101104010054"
+   ],
+   "citation": "Leong Ying, \"Dark Energy is Stellar Nuclear Fusion Replicated in a Mirrored Universe\", The Open Astronomy Journal 4 (2011) 54-56, doi:10.2174/1874381101104010054 (journal, Bentham Open); earlier as \"Nuclear Fusion Drives",
+   "summary": "A twin (mirror) universe of reversed, negative polarity on the opposite face of a two-dimensional membrane duplicates our processes; stellar nuclear fusion, replicated there, supplies the negative-energy pressure (dark energy) that drives our present acceleration.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "doi:10.3390/ecu2023-14102"
+   ],
+   "citation": "M. B. Al-Fadhli, \"Entangled Dual Universe\", Phys. Sci. Forum 7 (2023) 56, 2nd Electronic Conference on Universe (MDPI), doi:10.3390/ecu2023-14102 (conference proceedings). Earlier versions: \"On Spacetime Duality and Boun",
+   "summary": "A brane-world wavefunction of the universe whose positive and negative solutions are read as matter and antimatter 'sides' of the universe. After a decelerating phase of about 10 Gyr comes an accelerating phase 'in reverse directions', during which the two sides free-fall towards each other under gravitational acceleration; the mechanism is offered as a replacement for dark matter and dark energy.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "astro-ph/0111259"
+   ],
+   "citation": "M. Carmeli, \"Accelerating universe, cosmological constant and dark energy\", arXiv:astro-ph/0111259 (2001; arXiv preprint, no journal reference in INSPIRE)",
+   "summary": "Carmeli's cosmological relativity, a lineage that makes velocity a coordinate of the cosmological manifold (space-velocity, later space-time-velocity): of the three expansions its field equations allow, only the accelerating one is possible, with no cosmological constant and no pressure. The same programme derives the Tully-Fisher law without halo dark matter (Int. J. Theor. Phys. 37, 2621 (1998),",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2603.03385"
+   ],
+   "citation": "M. Gogberashvili, T. Tsiskaridze, \"Dark Energy from Entanglements with Mirror Universe\", Physics 8 (2026) 29 (MDPI), doi:10.3390/physics8010029, arXiv:2603.03385 (journal)",
+   "summary": "Pair-universe framework: the universe emerges with a time-reversed (PT) mirror partner evolving with the opposite direction of time. Vacuum energies of the two sectors cancel under a global zero-energy condition, and the observed dark energy is proposed to be an entanglement energy between our universe and its mirror counterpart, fixed as an integration constant by boundary conditions at the cosmo",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "hep-th/0307128"
+   ],
+   "citation": "M. P. Dąbrowski, T. Stachowiak, M. Szydłowski, \"Phantom cosmologies\", Phys. Rev. D 68 (2003) 103519, arXiv:hep-th/0307128",
+   "summary": "Finds, independently of Chimento-Lazkoz, the duality a → 1/a with γ → −γ (w → −(w + 2)) between standard and phantom flat models, and lists the pairs: dust is dual to a phantom with p = −2ρ, stiff fluid to p = −3ρ. The dust entry is exactly the w = −2 that the program's heuristic dictionary produced for dual dust.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2406.04392"
+   ],
+   "citation": "N. Kumar, \"On the Accelerated Expansion of the Universe\", Grav. Cosmol. 30 (2024) 85, arXiv:2406.04392",
+   "summary": "Assuming the universe is created as an entangled universe-antiuniverse pair with opposite time flow, the quantum focusing conjecture is used to argue that both expand at an accelerating rate, without dark energy.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2202.06890"
+   ],
+   "citation": "P. Berglund, L. Freidel, T. Hübsch, J. Kowalski-Glikman, R. G. Leigh, D. Mattingly, D. Minic, \"Infrared Properties of Quantum Gravity: UV/IR Mixing, Gravitizing the Quantum -- Theory and Observation\", arXiv:2202.06890 (2",
+   "summary": "This white paper restates the Berglund–Hübsch–Minić claim in one sentence, citing BHM 2019 (Phys. Lett. B 798 134950; Int. J. Mod. Phys. D 28 1944018). To leading order in the minimal length one gets a dual geometry, 'which in the observed spacetime leads to \"dark energy\", modeled as a positive cosmological constant'. Its co-authors include Freidel, Leigh and Kowalski-Glikman. The dark-matter read",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1905.08269"
+   ],
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"Dark Energy and String Theory\", Phys. Lett. B 798 (2019) 134950, arXiv:1905.08269",
+   "summary": "In a doubled, non-commutative (metastring, Born-geometric) formulation of string theory with dual coordinates x̃, integrating the doubled action over x̃ makes the size of the dual space set Newton's constant and its curvature set our cosmological constant: the curvature of 'the canonically conjugate dual space' induces the observed dark energy. Follow-ups state the same (LHEP 2021 186, arXiv:2010.",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1905.09463"
+   ],
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"Dark energy and quantum gravity\" (arXiv title \"On Dark Energy and Quantum Gravity\"), Int. J. Mod. Phys. D 28 (2019) 1944018, arXiv:1905.09463 (journal; Gravity Research Foundation essay",
+   "summary": "In the doubled, non-commutative (metastring, Born-geometric) phase-space formulation of string theory, the dual coordinates x̃, the difference of left- and right-movers, span what the authors call 'the canonically conjugate dual space'. Integrating the doubled action −∫√−g(x)√−g̃(x̃)[R(x) + R̃(x̃)] (Tseytlin's form) over x̃ makes the size of the dual space set Newton's constant, and its curvature ",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1902.08617"
+   ],
+   "citation": "P. Berglund, T. Hübsch, D. Minić, \"On Stringy de Sitter Spacetimes\", JHEP 12 (2019) 166, arXiv:1902.08617 (journal)",
+   "summary": "The paper's main content is a family of 3+1-dimensional de Sitter solutions in F-theory with an anisotropic axion-dilaton background. Its synopsis proposes that integrating over the 'dual/\"momentum\" string degrees of freedom' of the phase-space (metastring) formulation will naturally produce an effective de Sitter background, through an induced anisotropic dilaton profile whose anisotropy carries ",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2101.04152"
+   ],
+   "citation": "P. O. Hess, \"Observable consequences of pseudo-complex General Relativity\", arXiv:2101.04152 (2021), arXiv preprint (no journal found in INSPIRE or Crossref)",
+   "summary": "Pseudo-complex general relativity (pc-GR) starts from Born's point that quantum mechanics treats coordinates and momenta on an equal footing. It extends the coordinates to X = x + I y, with y_μ = A l u_μ, a minimal length times the four-velocity (the Born–Caianiello velocity-space part). In the pc-Robertson–Walker model (§4.5) the scale factor becomes a = a_R + I a_I, and to leading order a_I = l ",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "1001.5208"
+   ],
+   "citation": "P. O. Hess, L. Maghlaoui, W. Greiner, \"The Robertson-Walker Metric in a Pseudo-Complex General Relativity\", Int. J. Mod. Phys. E 19, 1315 (2010); arXiv:1001.5208 (journal)",
+   "summary": "Hess-Greiner pseudo-complex GR, in the Caianiello maximal-acceleration lineage: coordinates X = x + I l u with u a four-velocity, so the line element is dx.dx + l^2 du.du. In a pseudo-complex Robertson-Walker metric an extra energy-momentum contribution acts as dark energy whose density may change with the radius of the universe; for a power-law index beta > 1/3 it accelerates the expansion. Known",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "recid:2697605"
+   ],
+   "citation": "R. M. Ibadov, S. N. Murodov, \"The fundamental equation of the field theory in De Sitter pulse space\", Phys. Sci. Tech. 6, 33 (2019), doi:10.26577/phst-2019-1-p4 (journal of al-Farabi Kazakh National University; not on ar",
+   "summary": "Kadyshevsky lineage ('pulse space' = momentum space; Ibadov was Kadyshevsky's co-author). With a de Sitter momentum space the field equation is posed as a Cauchy problem in the fifth coordinate, so each field has doubled data in ordinary spacetime, phi(x) and an auxiliary chi(x) = -(1/M) dPhi/dx5; the authors suggest chi as a candidate 'phantom field' for the accelerated expansion. The passage (pa",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "1207.5514"
+   ],
+   "citation": "S. Bolognesi, \"A cosmology of a trans-Planckian theory and dark energy\", Int. J. Mod. Phys. D 23 (2014) 1450046, arXiv:1207.5514",
+   "summary": "A theory built on Born reciprocity: the action is S + S̃, the second term written on a separate energy-momentum manifold with its own FRW-type 'dual universe' (scale factor ã(e) in the energy e), linked to spacetime by a generalized Fourier transform; x↔p duality sets the fundamental cosmological constant to zero. Inflation suppresses the dual sector until late times. When it re-emerges for cold d",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "1506.02187"
+   ],
+   "citation": "S. Bolognesi, \"Born Reciprocity and Cosmic Accelerations\", arXiv:1506.02187 (2015); arXiv preprint only",
+   "summary": "Restates the 2012 mechanism with simpler boundary conditions and adds inflation: Born reciprocity's dual (momentum-space) action, suppressed by inflation, re-emerges for dark matter at late times and its momentum-space 0–0 kinetic term acts as a negative mass-squared, giving an effective cosmological constant: 'The trans-Planckian theory provides an explanation for the present acceleration of the ",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2503.20854"
+   ],
+   "citation": "S. Hur, V. Jejjala, M. J. Kavic, D. Minic, T. Takeuchi, \"Dynamical dark energy, dual spacetime, and DESI\", JCAP 11 (2025) 054, arXiv:2503.20854",
+   "summary": "Dark energy 'stems from the curvature of the dual spacetime' of the metastring, and Λ/G_N 'will evolve together with the evolution of the x̃-spacetime'. The vacuum energy is an integral over dual energies between UV and IR cutoffs that depend on our scale factor a, using δx δx̃ ~ λ² to convert our volume to a dual one (so the dual cutoffs run inversely to ours, e.g. Ẽ_UV proportional to a); with i",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "2511.20907"
+   ],
+   "citation": "S. Ran, \"Restoring a missing duality in quantum mechanics\", Phys. Rev. A 113 (2026) 042203, arXiv:2511.20907",
+   "summary": "Gives the momentum-energy representation its own autonomous unitary evolution (Hilbert space H_xt + H_kE) and argues that a stationary, random-phase background of modes on the momentum-energy manifold, seen through the Fourier map, is a homogeneous, isotropic, constant energy density in spacetime, which the author identifies with the cosmological constant (dark energy).",
+   "basis": "verified"
+  },
+  {
+   "ids": [
+    "astro-ph/0607626"
+   ],
+   "citation": "S. Räsänen, \"Accelerated expansion from structure formation\", JCAP 11 (2006) 003, arXiv:astro-ph/0607626",
+   "summary": "Backreaction lineage, met in the references of the previous entry and outside the position-momentum lineages assigned to this sweep. Using the exact averaging equations for dust, an analytical toy model shows how gravitational collapse can make the averaged expansion accelerate. Its sentence is the closest published wording found to 'their collapse is our acceleration'. Later work of the same kind",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "2610.19522"
+   ],
+   "citation": "T. Hübsch, D. Minic, \"Nambu's Dynamics, Strings and Gravitized Quantum Theory\", arXiv:2610.19522 (2026); arXiv preprint only",
+   "summary": "The newest statement (October 2026) of the Minic group's dark-energy claim: \"curvature of dual spacetime can lead to a dynamical origin of dark energy\", citing BHM 2019 (PLB 798), BHM 2021 (LHEP 186) and Hur et al. 2025 (JCAP 11, 054), and the observed vacuum-energy scale \"dynamically associated (from the metastring point of view) with the geometry of dual spacetime\". Same claim g4 rated partial i",
+   "basis": "harmonized: same restatement of Berglund-Hübsch-Minić 2019 for C5; see 2111.0565"
+  },
+  {
+   "ids": [
+    "doi:10.4236/jhepgc.2024.101005"
+   ],
+   "citation": "T. M. El-Sherbini, \"A Model for a Dual Universe\", Journal of High Energy Physics, Gravitation and Cosmology 10(1) (2024) 52-66, doi:10.4236/jhepgc.2024.101005 (journal, Scientific Research Publishing). Companion review: ",
+   "summary": "An antimatter counterpart universe begun with ours; its opposite rotation produces anti-gravitational waves that give the space around galaxies a negative-like curvature, pushing galaxies apart and leading to the accelerated expansion of our universe, offered as insight into dark energy. Resolves the round-1 unverified lead 'El-Sherbini, The Dual Universe'.",
+   "basis": "single-agent label"
+  },
+  {
+   "ids": [
+    "1502.06497"
+   ],
+   "citation": "U. Camara da Silva, A. A. Lima, G. M. Sotkov, \"Scale Factor Self-Dual Cosmological Models\", JHEP 07 (2015) 017, arXiv:1502.06497",
+   "summary": "A conformal-time scale-factor duality in Einstein gravity, ã = c₀²/a with w + w̃ = −2/3, maps expanding solutions to contracting ones and every decelerating matter or radiation phase to an accelerating dark-energy phase of the dual model; de Sitter is dual to the radiation universe. Used as a UV/IR symmetry relating the late de Sitter stage to the radiation era.",
+   "basis": "verified"
+  }
+ ],
+ "collisions": [
+  {
+   "ids": [
+    "gr-qc/0506108"
+   ],
+   "citation": "A. S. Majumdar, D. Home, \"Dark energy from quantum wave function collapse of dark matter\", Phys. Lett. B 679 (2009) 167, arXiv:gr-qc/0506108"
+  },
+  {
+   "ids": [
+    "1202.6561"
+   ],
+   "citation": "G. Caspar, T. Schönenbach, P. O. Hess, M. Schäfer, W. Greiner, \"Pseudo-Complex General Relativity: Schwarzschild, Reissner-Nordström and Kerr Solutions\", Int. J. Mod. Phys. E 21 (2012) 1250015, arXiv:"
+  },
+  {
+   "ids": [
+    "0805.2973"
+   ],
+   "citation": "G. Veneziano, J. Wosiek, \"Exploring an S-matrix for gravitational collapse. II. A Momentum space analysis\", JHEP 09 (2008) 024, arXiv:0805.2973"
+  },
+  {
+   "ids": [
+    "doi:10.4236/jmp.2023.1413099"
+   ],
+   "citation": "H. Shibata, N. Ogata, \"Apparent Accelerated Expansion of the Three-Dimensional Spherical Universe Observed during Its Contraction Phase\", Journal of Modern Physics 14(13) (2023) 1693-1702, doi:10.4236"
+  },
+  {
+   "ids": [
+    "0706.3736"
+   ],
+   "citation": "J. Govaerts, P. D. Jarvis, S. O. Morgan, S. G. Low, \"World-line quantisation of a reciprocally invariant system\", J. Phys. A 40 (2007) 12095, arXiv:0706.3736 (journal)"
+  },
+  {
+   "ids": [
+    "2503.20267"
+   ],
+   "citation": "J. Wang, Y. Xue, L. Chen, R. Zhang, \"Dual Phonon Universe in a Spinor Bose Gas\", arXiv:2503.20267 (2025); arXiv preprint only"
+  },
+  {
+   "ids": [
+    "1604.04183"
+   ],
+   "citation": "T. Josset, A. Perez, D. Sudarsky, \"Dark Energy from Violation of Energy Conservation\", Phys. Rev. Lett. 118 (2017) 021102, arXiv:1604.04183"
+  }
+ ],
+ "not_found_statements": [
+  {
+   "from": "g4-collapse-acceleration/search.json",
+   "statement": "C5 in its own terms: the momentum-space (Born-reciprocal, conjugate-polarization) description of our universe, whose scale factor is the inverse of ours (a·ã = 1), contracts as ours expands, and its gravitational collapse is what drives our present accelerated expansion. No paper found states this. The configuration (inverse scale factor, contracting partner, partner drives present acceleration) appears only in Dark Gravity, with a different partner and mechanism; the causal phrase 'contraction of the dual space ... inflation' appears only for primordial inflation (Wu-Yang 2014); dark energy sourced on the momentum or dual side appears without any contraction (Bolognesi 2012/2015; Berglund-Hübsch-Minić 2019; Hur et al. 2025; Ran 2026)."
+  },
+  {
+   "from": "g4-collapse-acceleration/search.json",
+   "statement": "The route the record keeps: a stiff (kinetic-dominated) fluid in a dual, conjugate or contracting sector acting on our expansion as a cosmological constant (dual stiff → Λ) as an explanation of present dark energy. The map itself exists in the literature as scale-factor duality with sources (γ → −γ, Veneziano 1991 via Gasperini-Veneziano 2003 eq. 2.32), and pre-big-bang cosmology identifies a collapsing stiff Einstein-frame universe with string-frame inflation, but no paper found applies the stiff → Λ entry to late-time dark energy."
+  },
+  {
+   "from": "round3/oa-c5.json",
+   "statement": "C5 in its own terms, in venues outside INSPIRE and arXiv as well as inside them: no work found states that the momentum-space (Born-reciprocal, conjugate-polarization) description of our universe, with a·ã = 1, contracts as ours expands and that its gravitational collapse drives our present accelerated expansion. Searched here: 25 OpenAlex searches over titles, abstracts and full texts (dual, mirror, twin, conjugate, anti-, parallel/shadow/partner universe; momentum-space universe; Born reciprocity; scale-factor duality; stiff/kinetic-dominated + Λ + duality; inverse scale factor; expansion-collapse duality; full-text phrases such as 'collapse of the dual universe', 'momentum space contracts', 'conjugate universe'), 8 Crossref searches (6 thematic, 2 lookups), 3 Zenodo searches (one further call rejected for page size) and 2 HAL searches, 10 WebSearch queries (8 extended), with the INSPIRE citation graph around the closest find. The closest statement anywhere is Mukherjee-Jassal-Lochan (EPJC 2024): dark energy is 'equivalently' the collapse of a conformally connected (Jordan-frame) universe, a different duality with dark energy assumed. Outside the journals, the configuration 'a contracting partner universe tied to our dark energy' appears only in non-reviewed Zenodo deposits (Stolt 2025; Alshareif 2026), without a mechanism and, in Alshareif, with the opposite causal arrow."
+  },
+  {
+   "from": "round3/oa-c5.json",
+   "statement": "The route the record keeps, dual stiff ↦ Λ applied to late-time dark energy in a Born-reciprocal or momentum-space setting: not found. The pairing itself (a contracting, purely kinetic stiff-fluid description dual to a de Sitter, dark-energy-like description) appears as one exact solution in Mukherjee-Jassal-Lochan 2024 sec. 6, in Einstein/Jordan conformal frames of Brans-Dicke gravity (ω_BD = -4/3), not as a dictionary entry and not as the source of acceleration. No non-arXiv source was found that applies stiff ↦ Λ to dark energy (OpenAlex stiff/kination + Λ + dual/duality: 4 irrelevant hits; full text stiff + scale-factor duality + Λ/dark energy: 9 hits, whose abstracts do not apply it (string and teleparallel cosmology, bounces, theses on pre-big-bang and T-duality; full texts not read); Crossref and WebSearch extended: none)."
+  },
+  {
+   "from": "round3/oa-c5.json",
+   "statement": "The wording 'their collapse is our acceleration' (or 'conjugate gravitational collapse drives positional expansion acceleration'): no occurrence found (WebSearch exact phrase: essays on accelerationism only; OpenAlex full-text phrase search drops the stopwords and cannot test it)."
+  },
+  {
+   "from": "round3/lineages.json",
+   "statement": "No lineage paper states that the gravitational collapse or contraction of a momentum-space (conjugate) description of our universe drives our accelerating expansion, or that stiff (kinetic-dominated) content of such a description acts on ours as a cosmological constant. Nearest analogs: a second matter population's clustering or repulsion (Manfredi, Rouet, Miller 2026; Petit and d'Agostini 2014), collapse of our own structures (Räsänen 2006, outside the assigned lineages), and dark-energy terms from momentum- or velocity-space geometry (Hazboun-Wheeler, Moffat, pseudo-complex GR, Ibadov-Murodov, kinetic-gas Finsler gravity, tangent-bundle cosmology, Carmeli)."
+  },
+  {
+   "from": "g4-collapse-acceleration/verify.json (verifier)",
+   "holds": true,
+   "statement": "Holds in C5's own terms: the verifier's 20 searches found no paper in which the momentum-space (Born-reciprocal) description of our universe, with a·ã = 1, contracts and its collapse drives our present acceleration. Two corrections to the statement's supporting sentence. (a) The link between collapse in a dual description and accelerated expansion is not confined to primordial inflation: Mukherjee, Jassal and Lochan (JCAP 2021; EPJC 2024) state, for the present epoch, that the dark-energy-driven expansion is equivalently a collapse of a conformally connected (Jordan-frame) universe, though as a re-description of assumed dark energy, not as its source. (b) Read kinematically, Dark Gravity's accelerated regime is the inverse of a collapsing dust conjugate universe (radiation-like in the hot case), so it holds the founding image in a different framework. Bolognesi 2012/2015, Berglund-Hübsch-Minić 2019, Hur et al. 2025 and Ran 2026, with Castro 2012/2020 and Triantafyllopoulos-Stavrinos 2018, place dark energy on the dual or momentum side without any contraction; they are related, not partial."
+  },
+  {
+   "from": "g4-collapse-acceleration/verify.json (verifier)",
+   "holds": true,
+   "statement": "Holds for the entry itself: no paper found applies 'dual stiff -> Λ' to late-time dark energy. The entry is scale-factor duality with sources (Veneziano 1991; Gasperini-Veneziano 2003 eq. 2.32), now checked algebraically to equal the program's corrected dictionary for d = 3 (verifier's script, step 7). Qualification: the route's structure (a contracting conjugate universe of suitable contents acts on ours as a cosmological constant) appears in Dark Gravity under its conformal-time dictionary (w + w̃ = -2/3), where the suitable content is radiation, not stiff matter: a radiation-like contracting conjugate side gives our de Sitter expansion. The review ties that phase to an inflation-like epoch, and the 2018 proceedings mention 'another scenario leading to an exponential acceleration' without detail."
+  }
+ ]
+}

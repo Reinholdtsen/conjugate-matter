@@ -1,0 +1,51 @@
+arXiv: 59 hits for: abs:Weber AND abs:gravitational  (showing 50)
+ 1. [1997] F. Bunchaft; S. Carneiro — Weber-like interactions and energy conservation  | arXiv:gr-qc/9708047 [gr-qc] | Found.Phys.Lett.10:393-401,1997
+ 2. [2026] Soham Sen — Detecting gravitational waves by emission of photons from charged Weber bars  | arXiv:2604.04836 [gr-qc]
+ 3. [2026] Diego Henrique Carvalho dos Santos; José André Lourenço; Davi C. Rodrigues et al. (4) — Test-particle dynamics in a noncommutative deformation of Einstein-Rosen waves  | arXiv:2607.24654 [gr-qc]
+ 4. [2007] Asghar Qadir; M. Sharif — General Formula for the Momentum Imparted to Test Particles in Arbitrary Spacetimes  | arXiv:gr-qc/0701098 [gr-qc] | Phys.Lett.A167:331-334,1992
+ 5. [2020] Jan Harms; Filippo Ambrosino; Lorella Angelini et al. (54) — Lunar Gravitational-Wave Antenna  | arXiv:2010.13726 [gr-qc]
+ 6. [2023] Olivier Biquard; Tristan Ozuch — Instability of conformally Kähler, Einstein metrics  | arXiv:2310.10109 [math.DG]
+ 7. [2007] Robert H. Gowdy — Cylindrical Gravitational Waves in Expanding Universes: Explicit Pulse Solutions  | arXiv:0710.0897 [gr-qc]
+ 8. [2013] R. A. Lewis; G. Modanese — Comparison of metrics from retarded integrals and transverse traceless subgauge  | arXiv:1304.4209 [gr-qc] | Int. J. Mod. Phys. A 28 (2013) 1350093
+ 9. [2003] Y. N. Srivastava; A. Widom; G. Pizzella — Electronic Enhancements in the Detection of Gravitational Waves by Metallic Antennae  | arXiv:gr-qc/0302024 [gr-qc]
+10. [2015] Friedwardt Winterberg — Emission of Gravitational Waves from a Magnetohydrodynamic Dynamo  | arXiv:1503.03003 [physics.gen-ph]
+11. [2025] Ralf Schützhold — Stimulated emission or absorption of gravitons by light  | arXiv:2502.10221 [gr-qc]
+12. [1998] Feng Ma — Comment on ``Signal of Quark Deconfinement in the Timing Structure of Pulsar Spin-Down''  | arXiv:astro-ph/9807330 [astro-ph] | Phys.Rev.Lett. 81 (1998) 1983
+13. [2023] Asher Berlin; Diego Blas; Raffaele Tito D'Agnolo et al. (8) — MAGO$\,$2.0: Electromagnetic Cavities as Mechanical Bars for Gravitational Waves  | arXiv:2303.01518 [hep-ph]
+14. [2010] Odylio Denys Aguiar — The Past, Present and Future of the Resonant-Mass Gravitational Wave Detectors  | arXiv:1009.1138 [astro-ph.IM]
+15. [2013] K. Mehdizadeh; O. Jalili; M. V. Takook — Experimental structure of gravitational wave detection by bounded cold electronic plasma in a long pipe  | arXiv:1310.4002 [gr-qc] | International Journal of Theoretical Physics, October 2010, Volume 49, Issue 10, pp 2417-2424
+16. [2005] X. Q. Li; S. Q. Liu; X. Y. Tao — Nonlinear Interactions of Gravitational Wave with Matter in Magnetic-type Maxwell-Vlasov Description  | arXiv:physics/0511111 [physics.plasm-ph] | Ann.Phys.(Berlin)18,No.6, 436-453(2009)
+17. [2002] J. Alberto Lobo — The detection of Gravitational Waves  | arXiv:gr-qc/0202063 [gr-qc] | Lect.Notes Phys. 617 (2003) 210-241
+18. [2019] Nilamani Sahoo; Gargi Khurana; A R Harikrishnan et al. (5) — Interplay of substrate inclination and wettability on droplet impact dynamics  | arXiv:1902.07177 [physics.flu-dyn]
+19. [2005] V. P. Belavkin — Continuous Non-Demolition Observation, Quantum Filtering and Optimal Estimation  | arXiv:quant-ph/0509205 [quant-ph] | In: Quantum Aspects of Optical Communication. Lecture notes in Physics, 45 131-145, Springer, Berlin 1991
+20. [2008] Santosh Devasia — Relative-Velocity-Dependent Weber-type Models in Electromagnetism  | arXiv:0808.3798 [physics.gen-ph] | Z. Naturforsch. 64a (5-6), 327 -- 340, (2009)
+21. [2017] Takashi Mishima; Shinya Tomizawa — Construction and application of variations on the cylindrical gravitational waves of Weber, Wheeler, and Bonnor  | arXiv:1704.03251 [gr-qc] | Phys. Rev. D 96, 024023 (2017)
+22. [2009] Ibrar Hussain; F. M. Mahomed; Asghar Qadir — A Proposal for Determining the Energy Content of Gravitational Waves by Using Approximate Symmetries of Differential Equations  | arXiv:0903.0501 [gr-qc] | Phys.Rev.D79:125014,2009
+23. [2000] Adonai S. Sant'Anna; Clovis A. S. Maia — Axioms for Mach's mechanics  | arXiv:physics/0005041 [physics.class-ph]
+24. [2022] NA Inan; JJ Thompson; RY Chiao — Interaction of Gravitational Waves with Superconductors  | arXiv:2207.08062 [gr-qc] | Fortschritte der Physik, 2016
+25. [2024] Valerie Domcke; Sebastian A. R. Ellis; Nicholas L. Rodd — Magnets are Weber Bar Gravitational Wave Detectors  | arXiv:2408.01483 [hep-ph]
+26. [2017] Antoine Tilloy — Ghirardi-Rimini-Weber model with massive flashes  | arXiv:1709.03809 [quant-ph] | Phys. Rev. D 97, 021502 (2018)
+27. [2025] Jean Jules Defo; Victor Kamgang Kuetche — Cylindrical gravitational impulse wave  | arXiv:2506.10053 [gr-qc]
+28. [2012] KH Tsui; CE Navia — Homologous Gravitational Collapse in Lagrangian Coordinate: Planetary System in Protostar and Cavity in Pre-Supernova  | arXiv:1204.3079 [astro-ph.GA] | Astrophysics and Space Science (2014) 350: 265-274
+29. [2019] Alejandro Sevilla — The effect of viscous relaxation on the spatiotemporal stability of capillary jets  | arXiv:1912.01827 [physics.flu-dyn] | J. Fluid. Mech. 684, 204-226 (2011)
+30. [2026] Han Cao — Nonlinear Stability of Linearly Expanding Goldreich-Weber Solutions for the Navier-Stokes-Poisson System with Degenerate Viscosity Under Radial Perturbations  | arXiv:2607.28960 [math.AP]
+31. [2016] Mahir Hadzic; Juhi Jang — Nonlinear stability of expanding star solutions in the radially-symmetric mass-critical Euler-Poisson system  | arXiv:1605.08083 [math.AP]
+32. [2008] Richard A. Mould — Trans-Coordinate Physics  | arXiv:0812.1503 [quant-ph]
+33. [2014] Man Kam Kwong; Manwai Yuen — Periodic Solutions of 2D Isothermal Euler-Poisson Equations with Possible Applications to Spiral and Disk-like Galaxies  | arXiv:1408.0716 [math-ph] | Journal of Mathematical Analysis and Applications 420, 1854-1863
+34. [2018] Arpan Das; Shreyansh S. Dave; Oindrila Ganguly et al. (4) — Pulsars as Weber gravitational wave detectors  | arXiv:1804.00453 [astro-ph.HE] | Phys. Lett. B 791 (2019) 167-171
+35. [2020] Luisa Bonolis; Juan-Andres Leon — Gravitational-wave research as an emerging field in the Max Planck Society. The long roots of GEO600 and of the Albert Einstein Institute  | arXiv:2003.00941 [gr-qc]
+36. [2026] Valerie Domcke; Itay M. Bloch — Halbach Magnetic Weber Bars  | arXiv:2607.29388 [hep-ph]
+37. [2022] Inwook Kim — New Limits on Spontaneous Wave Function Collapse Models with the XENONnT Data  | arXiv:2209.15082 [quant-ph]
+38. [2000] U. Sperhake; K. R. P. Sjodin; J. A. Vickers — Dynamic Cosmic Strings II: Numerical evolution of excited Cosmic Strings  | arXiv:gr-qc/0003114 [gr-qc] | Phys.Rev. D63 (2001) 024012
+39. [2009] G. Modanese; T. Junker — Conditions for stimulated emission in anomalous gravity-superconductors interactions  | arXiv:0908.2747 [physics.gen-ph] | In "Classical and Quantum Gravity Research", Ed.s M.N. Christiansen and T.K. Rasmussen, 2008 Nova Science Publishers, pp. 245-269
+40. [2026] Sebastian A. R. Ellis; Orion Ning; Nicholas L. Rodd et al. (4) — Crowdsourcing Gravitational Waves from Superradiant Axions  | arXiv:2603.15734 [hep-ph] | Phys. Rev. D 114, 075027 (2026)
+41. [1999] M. T. Murphy; J. K. Webb; I. S. Heng — A method for detecting gravitational waves coincident with gamma ray bursts  | arXiv:astro-ph/9911071 [astro-ph] | Mon.Not.Roy.Astron.Soc. 316 (2000) 657
+42. [2019] Minati Biswal; Shreyansh S. Dave; Ajit M. Srivastava — Re-visiting gravitational wave events via pulsars  | arXiv:1909.04476 [astro-ph.HE] | Physical Letters B 811, (2020) 135887
+43. [2002] Ulrich Sperhake — Non-linear numerical Schemes in General Relativity  | arXiv:gr-qc/0201086 [gr-qc]
+44. [2023] Nicolò Piccione — A proposal for a new kind of spontaneous collapse model  | arXiv:2308.04415 [quant-ph] | Found. Phys. 54, 4 (2024)
+45. [2025] Nicolò Piccione — Diffusion Minimization via Optimal Smearing in Collapse and Hybrid Classical-Quantum Gravitational Models  | arXiv:2511.00644 [quant-ph] | Phys. Rev. A 113, 062211 (2026)
+46. [2026] Mingyang Li; Song Sun — Compact toric Einstein four-manifolds  | arXiv:2610.10425 [math.DG]
+47. [2025] Lei Zhang; Han Yan; Jinhai Zhang et al. (4) — Numerical simulation of lunar response to gravitational waves and its 3D topographic effect using the spectral-element method  | arXiv:2512.21667 [astro-ph.EP]
+48. [2008] Yi Cao; Yu-Qing Lou — Homologous Core Collapse in a Massive Star and Self-Similar Evolution of Rebound Shocks  | arXiv:0808.3523 [astro-ph]
+49. [2004] Lorenzo Iorio — On the possibility of testing the Brane-World scenario with orbital motions in the Solar System  | arXiv:gr-qc/0412025 [gr-qc] | JCAP0507:008,2005
+50. [2022] Luke F. L. Alventosa; Radu Cimpeanu; Daniel M. Harris — Inertio-capillary rebound of a droplet impacting a fluid bath  | arXiv:2209.13276 [physics.flu-dyn]

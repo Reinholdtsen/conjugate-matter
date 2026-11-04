@@ -23,6 +23,7 @@ sources:
   - "papers/broken-born-checkpoint-v2.md §9"
   - "notes/broken-born-theory.md §5.2"
   - "notes/stream-stability.md 'Numbers at the scattering benchmark'"
+  - "notes/literature-check.md §8"
 ---
 
 *This is a model of dark matter that the program's record does not contain: dark-matter particles χ attract each other at long range, like gravity, but only when they move at similar velocities. It is P.R.'s model, separate from the program's founding picture of a halo breaking up into streams of particles that share a velocity, which is also his conjecture. A note of 2026-10-28 tests the model on its own terms. Nothing in the program supplies a field that could carry such a force. In an expanding universe the force switches off between particles a few megaparsecs apart, on the scales that the Lyman-α forest of distant quasar spectra measures, and the forest allows a force of at most six to eighteen percent of gravity, while making velocity-selected lumps needs more than gravity's full strength. At any strength the force could not make the cores of dwarf galaxies, the job the program introduced its gate for, so its strength would be a free number the program cannot predict. Only gates much narrower than the program's, below about 30 km/s, remain partly unexplored.*
@@ -41,7 +42,7 @@ acting among χ only and added to gravity, with W the gate, v\* its width and ε
 
 - **What it amplifies.** In mean field it is a Jeans-type amplifier of spatial clumping among co-moving particles ([the Jeans instability](/wiki/dark-matter/momentum-clumping/vlasov-stability#the-static-threshold-and-the-jeans-instability)). Gravity and the gated term both scale as 1/k² with the wavenumber k, so the gate rescales the Jeans wavenumber by the top eigenvalue Λ of an operator on velocity space.
 - **What it does not make.** Streams spread through space, the founding image's structures, are exactly neutral in mean-field dynamics in a homogeneous medium (k = 0). In a cored halo the harmonic potential interconverts velocity and position structure, and above threshold the gate-only velocity-dipole modes (m = ±1) grow. The modes the gate adds are spatial lumps carried by a velocity-selected population of width about √(σv\*), with σ the halo's [velocity dispersion](/wiki/dark-matter/halo-astrophysics/velocity-dispersion).
-- **In the literature.** The investigation's clumping analysis reports: "Two searches found no prior study of a long-range attraction gated in relative velocity; that is a null search result, not proof of absence" (`review/momentum-gravity/run2/analyses/clumping.json`, claim C18, [S]).
+- **In the literature.** The investigation's clumping analysis reports: "Two searches found no prior study of a long-range attraction gated in relative velocity; that is a null search result, not proof of absence" (`review/momentum-gravity/run2/analyses/clumping.json`, claim C18, [S]). The literature check of 2026-11-02 found the same ([below](#in-the-literature)).
 
 ## No carrier in the record
 
@@ -169,6 +170,10 @@ The note lists what was refuted or corrected during the investigation (§11). Th
 
 The run-3 pre-registration predicted a Lyman-α bound of 0.1–0.5, anchored on the run-2 critic's 0.34, and got 0.057–0.106; predicted a Sagittarius bound of 1–3 and got 0.2–2.5; and predicted no robust exclusion in the corner, where ε ≈ 2 is excluded from 10 km/s up, and ε ≈ 3 at 5–30 km/s in one reading. It was right that the N-body would find no clumping, "and more strongly than predicted, none up to ε = 10" (§11; [pre-registration](/wiki/method/review/pre-registration)).
 
+## In the literature
+
+Not found ([the literature check](/wiki/method/literature-check): related only). The nearest published work is Delbourgo and Lashmar 2008, who apply Born reciprocity to the 1/r potential and add a momentum-space partner of Newton's term, which summed over a galaxy's masses goes as 1/|v − v′|, growing as the relative velocity of two bodies falls; the term does not depend on position, so it changes the relation between velocity and momentum rather than the force, and it acts on all masses [S]. Velocity-dependent forces of Weber's type have the speed of light as their velocity scale, not a gate (Bunchaft and Carneiro 1997 [S]). Kesden and Kamionkowski 2006 bound a force on dark matter alone with the tidal streams of the Sagittarius dwarf galaxy, challenging models in which dark matter and baryons "accelerate differently by more than 10%" [S]. Applied to the gated force, the limit gives ε ≲ O(1), 0.2–2.5 at v\* = 120 km/s, and never beats the Lyman-α forest in the record's reading [D; S] ([the Sagittarius stream](#the-sagittarius-stream)).
+
 ## Sources
 
 - `notes/velocity-gated-gravity.md` (2026-10-28, not reviewed) §1 — the question, the readings and ε; §5 — the model, no carrier, the three readings; §6 — Hubble-flow gating, the Lyman-α forest, the Sagittarius stream; §7 — the thresholds and the cores; §8 — the corner: N-body, proxies, what was not computed; §10 — what is open; §11 — refuted, corrected and withdrawn, and the pre-registrations scored; §4 — fine-grained streams and the scope of the clumping tests
@@ -178,3 +183,4 @@ The run-3 pre-registration predicted a Lyman-α bound of 0.1–0.5, anchored on 
 - `papers/broken-born-checkpoint-v2.md` §8 — "χ propagates on g (equivalence principle; Bullet-Cluster-safe)" and the free scale m_φ; §9 — the net theorem's "decorative", and the founding image as P.R.'s open conjecture
 - `notes/broken-born-theory.md` §5.2 — the energy ε(p; f) and the anomalous velocity, the record's reading
 - `notes/stream-stability.md` 'Numbers at the scattering benchmark' — the contact-range test this model is set against
+- `notes/literature-check.md` §8 — the nearest published work and a bound on forces acting on dark matter alone

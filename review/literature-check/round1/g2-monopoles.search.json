@@ -1,0 +1,1747 @@
+{
+ "group": "g2-monopoles",
+ "findings": [
+  {
+   "conjecture": "C2",
+   "id": "1903.05673",
+   "citation": "R. J. Szabo, \"An Introduction to Nonassociative Physics\", PoS CORFU2018, 100 (2019) (conference proceedings), arXiv:1903.05673",
+   "relation": "related",
+   "summary": "Treats electric charges moving in distributions of magnetic charge (a nonassociative phase space) and applies Born reciprocity, (x,p) -> (p,-x), to map that phase space onto the phase space of closed strings in R-flux backgrounds, where the twisting 3-form (the R-flux) lives on momentum space; a second application maps the M-theory version to M-waves probing a non-geometric Kaluza-Klein monopole. This is the closest published use of Born reciprocity on magnetic charge found.",
+   "difference": "The momentum-space object is a background flux, the image of a smooth or uniform magnetic charge density, not magnetically charged solitons; nothing is said to exist in momentum space as matter, to be abundant, to be dark matter, or to explain the null result. Born reciprocity is a map between two different systems, and the paper notes it is not a symmetry of the magnetic brackets; the program instead takes it as an exact, spontaneously broken symmetry.",
+   "quotes": [
+    {
+     "text": "We apply Born reciprocity to map this system to the phase space of closed strings propagating in R-flux backgrounds of string theory",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "In this case the twisting is by a 3-form on momentum space",
+     "where": "full text, section 3.1 (the R-flux model)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "and so is not a natural symmetry of the magnetic Poisson brackets",
+     "where": "full text, section 3.1",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1705.09639",
+   "citation": "D. Lust, E. Malek, R. J. Szabo, \"Non-geometric Kaluza-Klein monopoles and magnetic duals of M-theory R-flux backgrounds\", JHEP 10 (2017) 144",
+   "relation": "related",
+   "summary": "A Spin(7) automorphism of the M-theory phase-space 3-algebra exchanges the R-flux phase space with that of a magnetic monopole, a missing momentum coordinate for a missing position coordinate; the gerbe over momentum space (the R-flux) becomes a gerbe over position space (a smeared magnetic monopole). Realised as M-waves probing a delocalised Kaluza-Klein monopole.",
+   "difference": "A formal position-momentum correspondence between a momentum-space flux and a smeared position-space monopole background. No monopoles localized in momentum as particles or solitons, no abundance, no dark matter, no account of the null result.",
+   "quotes": [
+    {
+     "text": "Similarly, the gerbe over momentum space, the R-flux, becomes a gerbe over position space, the smeared magnetic monopole.",
+     "where": "full text, section 1 (introduction)",
+     "check": "lit.py quote: FOUND (full text) when typed with the HTML's rendering 'R -flux'; FOUND (loose) as typed here"
+    },
+    {
+     "text": "We argue that this algebra also underlies the phase space of electrons probing a smeared magnetic monopole in quantum gravity",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1309.3172",
+   "citation": "I. Bakas, D. Lust, \"3-Cocycles, Non-Associative Star-Products and the Magnetic Paradigm of R-Flux String Vacua\", JHEP 01 (2014) 171",
+   "relation": "related",
+   "summary": "Compares closed strings in constant R-flux with point charges in magnetic charge distributions: the magnetic analogue of the R-flux model is a uniform magnetic charge density, with non-associativity among momenta in the magnetic case and among coordinates in the string case, that is, with the roles of position and momentum exchanged.",
+   "difference": "Background charge distributions and fluxes, not momentum-localized monopoles; no dark matter, no abundance, no detection argument.",
+   "quotes": [
+    {
+     "text": "The magnetic field analogue of the R-flux string model is provided by a constant uniform distribution of magnetic charge in space",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Here, non-commutativity and non-associativity occurs in momentum space, whereas in the closed string flux models it arises among the coordinates.",
+     "where": "full text, section 5",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1803.08861",
+   "citation": "R. J. Szabo, \"Higher Quantum Geometry and Non-Geometric String Theory\", PoS CORFU2017, 151 (2018) (conference proceedings), arXiv:1803.08861",
+   "relation": "related",
+   "summary": "Writes the explicit map x -> -p, p -> x with the magnetic charge density mapped to the R-flux, so that the R-flux is the curvature of a gerbe over momentum space: the momentum-space image of a magnetic charge density.",
+   "difference": "Same as Szabo 2019: a duality map between backgrounds, not physical monopoles in momentum space; no dark matter or null-result claim.",
+   "quotes": [
+    {
+     "text": "In particular, the locally non-geometric flux R now appears as the curvature three-form of a two-form connection on a gerbe over momentum space",
+     "where": "full text, section 3",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "hep-th/0310167",
+   "citation": "A. Berard, H. Mohrbach, \"Monopole and Berry phase in momentum space in noncommutative quantum mechanics\", Phys. Rev. D 69, 127701 (2004)",
+   "relation": "related",
+   "summary": "In noncommutative quantum mechanics, requiring a genuine angular momentum forces the noncommutativity field to be a dual Dirac monopole in momentum space; the position-space field B(x) and the momentum-space field Theta(p) are dual under the exchange of position and momentum, and associativity requires Dirac quantization of the dual charge. The physical realization offered is the Berry curvature behind the anomalous Hall effect.",
+   "difference": "The momentum-space monopole is a background gauge field (a Berry-curvature source in a crystal or in the kinematics of spinning particles), not a population of magnetically charged objects; no dark matter, no abundance, no account of the null result.",
+   "quotes": [
+    {
+     "text": "We find consequently that this field must be obligatorily a dual Dirac monopole in momentum space.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "To restore associativity a Dirac’s quantization of the dual charges is necessary.",
+     "where": "full text, conclusion",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1110.6906",
+   "citation": "L. Martina, \"Dynamics in the magnetic/dual magnetic monopole\", conference paper, arXiv:1110.6906 (2011) (proceedings venue not given in INSPIRE)",
+   "relation": "related",
+   "summary": "Classical dynamics of a charged particle interacting at once with a magnetic monopole in position space and a dual monopole in momentum space (exotic Galilean / Souriau formalism).",
+   "difference": "Mechanics of a test particle in two background monopole fields; no solitons, no dark matter, no detection argument.",
+   "quotes": [
+    {
+     "text": "a charged particle simultaneously interacting with a magnetic monopole and a dual monopole in momenta space is considered",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2206.02638",
+   "citation": "E. Guendelman, D. Singleton, \"Momentum Gauge Fields and Non-Commutative Space-Time\", Symmetry 15, 126 (2023)",
+   "relation": "related",
+   "summary": "Builds a gauge principle on the momentum-space representation of position, calls it a dynamical version of Born reciprocity, and argues that reciprocity implies a momentum gauge field for every ordinary gauge field; constructs momentum-gauge analogs of plane waves, point charges and Landau levels, and suggests that Born reciprocity might relate the ordinary coupling e and the momentum coupling g, perhaps like Dirac's condition.",
+   "difference": "No monopoles in momentum space (the full text never uses the word), no topological solitons, no dark matter, no null-result claim. The partner gauge field is the nearest published analogue of the separate-photon form of #11 section 11.4 (C4's territory).",
+   "quotes": [
+    {
+     "text": "This extension of the gauge principle can be seen as a dynamical version of Born’s reciprocity theory which exchanges position and momentum.",
+     "where": "abstract as printed in the arXiv HTML (not in INSPIRE's shorter abstract)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "which would imply that for every ordinary gauge field there should be a corresponding momentum gauge field",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "One idea might be to take the option above where e and g have the same units and then via Born reciprocity require the couplings to be exchangeable",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2211.14165",
+   "citation": "P. Copinger, P. Morales, \"Emergent spacetime from a Berry-inspired dynamical gauge field coupled to electromagnetism\", Phys. Rev. D 108, 065013 (2023)",
+   "relation": "related",
+   "summary": "A local U(1) phase in momentum space coupled to electromagnetism in the phase-space worldline formalism; notes that monopoles in momentum space are understood from Berry's phase and adds electric charges in momentum space; coupled Coulomb solutions in configuration and momentum space give an emergent Newtonian gravity.",
+   "difference": "Momentum-space monopoles appear only as Berry-phase sources; no magnetically charged matter localized in momentum, no dark matter, no null-result claim.",
+   "quotes": [
+    {
+     "text": "Whereas monopoles (magnetic charges) are understood in momentum space from Berry’s phase, locality makes possible electric charges in momentum space.",
+     "where": "full text, introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "hep-th/9708086",
+   "citation": "R. Gregory, J. A. Harvey, G. W. Moore, \"Unwinding strings and T-duality of Kaluza-Klein and H-monopoles\", Adv. Theor. Math. Phys. 1, 283 (1997)",
+   "relation": "related",
+   "summary": "The Kaluza-Klein monopole and the H-monopole (smeared NS5-brane) are T-dual; winding strings unwind on the KK monopole, and stringy corrections to the KK monopole follow from T-duality. The origin of the idea that this soliton has structure in the dual (winding) coordinate.",
+   "difference": "String compactification on a circle; the dual coordinate is conjugate to winding, not the momentum of the program's Born reciprocity; no dark matter, no abundance, no statement about our monopoles or their non-detection.",
+   "quotes": [
+    {
+     "text": "A fundamental string with non-zero winding number can unwind in the presence of a Kaluza-Klein monopole.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "hep-th/0507204",
+   "citation": "J. A. Harvey, S. Jensen, \"Worldsheet instanton corrections to the Kaluza-Klein monopole\", JHEP 10 (2005) 028",
+   "relation": "related",
+   "summary": "Worldsheet instantons correct the Kaluza-Klein monopole geometry; the corrections are a localization in winding space, which strings with winding charge can probe. A topological soliton localized in a dual coordinate rather than in position, whose localization is resolved by dual (winding) probes; this parallels C2's object localized in momentum and C3's argument that position-space probes miss it.",
+   "difference": "Localization in the winding coordinate of a compact string dimension (T-duality), not in the momentum space of a spontaneously broken Born reciprocity; the object is a gravitational/string soliton, not a monopole of a gauge sector of matter; no dark matter, no abundance, no null-result claim.",
+   "quotes": [
+    {
+     "text": "These corrections can be understood as a localization in winding space which could be probed by strings with winding charge around the circle.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1106.1174",
+   "citation": "S. Jensen, \"The KK-Monopole/NS5-Brane in Doubled Geometry\", JHEP 07 (2011) 088",
+   "relation": "related",
+   "summary": "Constructs the T-dual KK-monopole/NS5-brane system in doubled geometry: the KK monopole must appear localized to winding strings, matching the NS5-brane's localization on the T-dual circle.",
+   "difference": "As Harvey and Jensen: localization in a dual coordinate of string theory; no momentum space proper, no dark matter, no detection argument.",
+   "quotes": [
+    {
+     "text": "it must appear 'localized' to winding strings to match the NS5-brane's localization on the T-dual circle",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2203.03272",
+   "citation": "T. Kimura, S. Sasaki, K. Shiozawa, \"Complex structures, T-duality and worldsheet instantons in Born sigma models\", JHEP 06 (2022) 119",
+   "relation": "related",
+   "summary": "In Born sigma models (the doubled, T-duality-covariant Born geometry of Freidel, Leigh and Minic), recalls that instantons in the KK-monopole geometry break the isometry of the winding space, so the geometry depends on the dual coordinates.",
+   "difference": "Connects Born geometry with monopoles localized in dual coordinates, but makes no claim about monopoles as matter localized in momentum, abundance, dark matter or detection.",
+   "quotes": [
+    {
+     "text": "It has been shown that instantons in the KK-monopole geometry breaks the isometry not along the KK direction, but of the winding space",
+     "where": "full text, introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2102.04470",
+   "citation": "Y.-P. Lin, W.-H. Hsiao, \"Band geometry from position-momentum duality at topological band crossings\", Phys. Rev. B 105, 075127 (2022)",
+   "relation": "related",
+   "summary": "Uses position-momentum duality to map band geometry with Berry monopoles in momentum space onto a free electron in a gauge field (a dual Landau-level problem); the Berry charges set quantized lower bounds on the spread of Wannier functions in position space.",
+   "difference": "Condensed matter: Berry monopoles of Bloch bands, not magnetic charges; no dark matter. It is an explicit position-momentum map of monopole problems, and it ties momentum-space monopole charge to a minimum spread in position.",
+   "quotes": [
+    {
+     "text": "Under this duality, the band geometry with Berry connection is dual to the free-electron motion under gauge field.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "While the spread manifest quantized lower bounds from the Berry charges",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2302.03526",
+   "citation": "J. Govaerts, \"Magnetic monopoles with no strings attached: a portal to the dark side of dual electrodynamics\", Eur. Phys. J. C 83, 158 (2023)",
+   "relation": "related",
+   "summary": "In SO(2) dual-invariant electrodynamics with two potentials, electric and magnetic charges form electromagnetically mutually dark sectors unless a new coupling opens a portal; the conclusion asks whether this gives a dark-matter candidate, a dark parallel world of purely magnetically charged matter that interacts only very weakly with our electric matter yet gravitates.",
+   "difference": "Closest physical claim found to 'magnetically charged matter as dark matter, invisible to electric probes'. It is posed as a question and says nothing about abundance; the invisibility comes from the force law of dual electrodynamics, not from localization in momentum; no polarization, no Born reciprocity, no topological solitons.",
+   "quotes": [
+    {
+     "text": "Could SO(2) dual electrodymamics provide yet another candidate for dark matter, with a dark parallel world of purely magnetically charged matter that would interact electromagnetically ever so weakly with the purely electrically charged matter of our visible Universe",
+     "where": "full text, concluding section (spelling 'electrodymamics' as in the source)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2011.10327",
+   "citation": "V. Vento, \"Primordial monopolium as dark matter\", Eur. Phys. J. C 81, 229 (2021)",
+   "relation": "related",
+   "summary": "A Kaluza-Klein monopole-antimonopole bound state (monopolium) is electromagnetically inert in free space, radiates undetectably in astrophysical fields, and is proposed as a primordial dark-matter constituent.",
+   "difference": "Monopoles as dark matter hidden by binding into neutral composites in position space (one of #11 section 11.4's hiding options), not by localization in momentum; Kaluza-Klein monopoles, no Born reciprocity.",
+   "quotes": [
+    {
+     "text": "The dipole in its lowest energy state, which we here call also monopolium, is electromagnetically inert in free space interacting only gravitationally.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "These findings suggest that Kaluza-Klein monopolium, if existent, would be a candidate for a primordial dark matter constituent.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1901.02341",
+   "citation": "V. V. Burdyuzha, \"Magnetic Monopoles and Dark Matter\", J. Exp. Theor. Phys. 127, 638 (2018)",
+   "relation": "related",
+   "summary": "Develops Schwinger's 'magnetic world' of the early Universe: relic magnetic atoms (bound monopole pairs) could contribute up to 18% of the dark-matter density.",
+   "difference": "Bound monopole pairs in position space, a partial dark-matter fraction; no momentum space, no polarization.",
+   "quotes": [
+    {
+     "text": "Relic magnetic atoms can contribute up to 18% to the dark matter density.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1202.0560",
+   "citation": "J. Evslin, S. B. Gudnason, \"Dwarf Galaxy Sized Monopoles as Dark Matter?\", arXiv:1202.0560 (2012), arXiv preprint only",
+   "relation": "related",
+   "summary": "Each dwarf-spheroidal dark-matter halo is a single galaxy-sized 't Hooft-Polyakov monopole of an extraordinarily weakly coupled hidden SU(2) sector.",
+   "difference": "The monopole's field profile is spread over a halo, the geometry #11 section 11.4's hiding condition asks for, but the sector is a hidden gauge theory with ordinary kinematics; nothing is framed in momentum space, and the objects are not monopoles of our photon.",
+   "quotes": [
+    {
+     "text": "We fit the parameters by asserting that the dark matter halos of the lightest dwarf spheroidal (dSph) galaxies consist of a single charge Q=1 monopole.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1603.00433",
+   "citation": "H. Falomir, J. Gamboa, F. Mendez, \"Non-Abelian Monopoles as the Origin of Dark Matter\", Mod. Phys. Lett. A 31, 1650136 (2016)",
+   "relation": "related",
+   "summary": "Dark matter may be partly a dilute gas of 't Hooft-Polyakov monopoles of a Georgi-Glashow sector coupled to electromagnetism by a dual kinetic-mixing term.",
+   "difference": "Ordinary kinematics in position space; the mixing term crosses sectors, which #11's strict P4 excludes; no momentum localization.",
+   "quotes": [
+    {
+     "text": "We suggest that dark matter may be partially constituted by a dilute 't Hooft-Polyakov monopoles gas.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "doi:10.20944/preprints202511.1401.v1",
+   "citation": "R. W. Kuhne, \"Quantum Field Theory of Dirac Magnetic Monopoles and Their Interpretation as Cold Dark Matter WIMPs\", Preprints.org (2025), non-reviewed",
+   "relation": "related",
+   "summary": "Proposes low-mass bound states of Dirac magnetic monopoles as the main component of cold dark matter (and, in a companion preprint, as the source of a PandaX-4T excess).",
+   "difference": "Dirac monopoles of our photon bound in position space; no momentum space; not peer reviewed.",
+   "quotes": [
+    {
+     "text": "I point out that these bound states could be the major component of cold dark matter.",
+     "where": "abstract (Crossref)",
+     "check": "lit.py quote: FOUND (abstract, Crossref)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2607.29492",
+   "citation": "F. Brummer, G. Ferrante, T. Fischer, M. Frigerio, \"The price for monopole dark matter\", arXiv:2607.29492 (2026), arXiv preprint only",
+   "relation": "related",
+   "summary": "An explicit thermal model in which 't Hooft-Polyakov monopoles of about 10^8 GeV or more are the dark matter, made viable by a light stable dark fermion and predicting dark radiation near present bounds.",
+   "difference": "Hidden-sector monopoles with ordinary kinematics; shows a viable route beyond minimal content; no momentum localization.",
+   "quotes": [
+    {
+     "text": "In this specific window of parameters, dark matter is composed of monopoles with a mass of about $10^8$ GeV or larger, depending on the nature of the phase transition.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2105.05769",
+   "citation": "M. L. Graesser, I. M. Shoemaker, N. Tapia Arellano, \"Milli-magnetic monopole dark matter and the survival of galactic magnetic fields\", JHEP 03 (2022) 105",
+   "relation": "related",
+   "summary": "Monopoles of a broken dark U(1) appear in our sector as confined milli-magnetically charged objects through kinetic mixing; halo-ellipticity and revised Parker-type bounds constrain them as dark matter.",
+   "difference": "Relies on kinetic mixing between sectors, excluded by #11's strict P4; position-space objects.",
+   "quotes": [
+    {
+     "text": "magnetic monopoles of a broken dark $U(1)$ will appear in our sector as confined milli-magnetically charged objects under ordinary electromagnetism",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2509.21924",
+   "citation": "F. Brummer, G. Ferrante, T. Fischer, M. Frigerio, \"No room for minimal monopole dark matter\", Phys. Rev. D 113, L091701 (2026)",
+   "relation": "evidence-against",
+   "summary": "In the minimal 't Hooft-Polyakov dark sector the stable massive vector bosons W' are always far more abundant than the monopoles, so dark monopoles cannot be a sizeable fraction of dark matter.",
+   "difference": "Applies to a hidden sector with minimal adjoint content and an ordinary thermal history: the separate-photon setting with #14-type kinematics. It is independent published support for the record's own survivor result (#11 section 12: the minimal adjoint-only SU(2) -> U(1) sector is excluded by its stable W'). It does not test monopoles localized in momentum, and a richer p-sector could evade it (compare Brummer et al. 2607.29492).",
+   "quotes": [
+    {
+     "text": "dark monopoles cannot constitute a sizeable fraction of dark matter",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2307.07553",
+   "citation": "T. Kobayashi, D. Perri, \"Parker bounds on monopoles with arbitrary charge from galactic and primordial magnetic fields\", Phys. Rev. D 108, 083005 (2023)",
+   "relation": "evidence-against",
+   "summary": "Parker-type bounds for any magnetic charge: monopoles with a Dirac charge must be heavier than about 10^18 GeV to cluster with the Galaxy; monopoles that do cluster are limited more by the dark-matter density than by the Parker bounds and can be all of the dark matter.",
+   "difference": "Weighs against the shared-photon form if the objects are localized in position: at #14's benchmark masses (~10^13 GeV) Dirac-charged monopoles of our photon could not be the Galaxy's dark matter. No paper analyzes whether such bounds apply to objects compact in momentum (field profiles spread in position).",
+   "quotes": [
+    {
+     "text": "While monopoles with a Dirac charge have to be heavier than 10^{18}\\,\\mathrm{GeV} to be able to cluster with our Galaxy, minicharged monopoles can cluster with much lighter masses.",
+     "where": "full text, conclusions",
+     "check": "lit.py quote: FOUND (full text) as written with the HTML's LaTeX; the plain form '10^18 GeV' returns NOT FOUND because of the markup"
+    },
+    {
+     "text": "For monopoles that can cluster with our Galaxy, the Parker bounds are generically less constraining than the bound from the dark matter density. Such monopoles can thus make up the entire dark matter.",
+     "where": "full text, conclusions",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "2404.04926",
+   "citation": "C. Zhang, S.-H. Zhang, B. Fu, J.-F. Zhang, X. Zhang, \"On the cosmological abundance of magnetic monopoles\", JHEP 08 (2024) 220",
+   "relation": "evidence-against",
+   "summary": "The Andromeda Parker bound limits the flux of unit-Dirac-charge monopoles of 10^13-10^16 GeV to about 5.3x10^-19 cm^-2 s^-1 sr^-1, so their density parameter is at most about 10^-7 to 10^-4; for larger masses monopoles making up all or most of the dark matter are disfavored.",
+   "difference": "Same caveat as Kobayashi and Perri: a bound on monopoles of our photon localized in position (shared-photon form without hiding); silent on objects compact in momentum.",
+   "quotes": [
+    {
+     "text": "We find that the Andromeda Parker bound can be employed to set an upper limit on the monopole flux",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "For larger monopole masses the scenarios in which magnetic monopoles account for all or the majority of dark matter are disfavored.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "recid:352759",
+   "citation": "F. C. Adams, M. Fatuzzo, K. Freese, G. Tarle, R. Watkins, M. S. Turner, \"Extension of the Parker bound on the flux of magnetic monopoles\", Phys. Rev. Lett. 70, 2511 (1993)",
+   "relation": "evidence-against",
+   "summary": "The survival and growth of a small galactic seed field bounds the monopole flux and rules out monopoles much lighter than 10^17 GeV as the closure density of the Universe.",
+   "difference": "Applies to monopoles of our photon localized in position; the record's 'would exceed the Parker bound at #14's benchmark masses' is of this kind. Not applicable to the separate-photon form; untested for momentum-compact objects.",
+   "quotes": [
+    {
+     "text": "This new limit rules out the possibility that monopoles much lighter than 10^17 GeV/c^2 can provide the closure density of the Universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract) for the leading clause 'This new limit rules out the possibility that monopoles much lighter than'; INSPIRE's abstract renders the mass as '1017 GeV/c2' (superscripts lost)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "cond-mat/0310232",
+   "citation": "Z. Fang, N. Nagaosa, K. S. Takahashi, A. Asamitsu, R. Mathieu, T. Ogasawara, H. Yamada, M. Kawasaki, Y. Tokura, K. Terakura, \"The Anomalous Hall Effect and Magnetic Monopoles in Momentum Space\", Science 302, 92 (2003)",
+   "relation": "collision",
+   "summary": "Reports evidence that the anomalous Hall effect of SrRuO3 comes from monopoles of the Berry curvature in crystal momentum space at 0.1-1 eV.",
+   "difference": "Same words, different object: Berry-curvature sources at band degeneracies, which exist only inside the crystal's ground state and carry no magnetic charge of any gauge field. This is the 'right geometry, different flux' of #11 section 11.1.",
+   "quotes": [
+    {
+     "text": "However, we show that the magnetic monopole can appear in the crystal-momentum space of solids in the accessible low energy region",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1111.4627",
+   "citation": "G. E. Volovik, \"Topology of quantum vacuum\", in Analogue Gravity Phenomenology, Lecture Notes in Physics 870, 343 (2013), arXiv:1111.4627",
+   "relation": "collision",
+   "summary": "Momentum-space topology of quantum vacua: a Fermi (Weyl) point is the momentum-space counterpart of a hedgehog and of a Dirac magnetic monopole, and the Standard Model vacuum is classed as topological matter of this kind.",
+   "difference": "Momentum-space 'monopoles' here are topological charges of the fermion spectrum (Berry phase), not magnetically charged matter; in this reading they are abundant in our own vacuum, as the Weyl points of every chiral species, which is a different claim from C2.",
+   "quotes": [
+    {
+     "text": "In terms of the Berry phase [36] the Fermi point represents the {\\bf p} -space counterpart of Dirac magnetic monopole with unobservable Dirac string",
+     "where": "full text, section 2.1 (Fig. 1 caption)",
+     "check": "lit.py quote: FOUND (full text) as written with the HTML's '{\\bf p} -space'; the plain form 'p-space' returns NOT FOUND because of the markup"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "1207.0747",
+   "citation": "M. A. Stephanov, Y. Yin, \"Chiral Kinetic Theory\", Phys. Rev. Lett. 109, 162001 (2012)",
+   "relation": "collision",
+   "summary": "The Berry monopole at the origin of a chiral massless particle's momentum space drives the chiral magnetic and vortical effects.",
+   "difference": "A high-energy use of 'monopole in momentum space': the Berry monopole of each chiral fermion's own momentum space, not magnetically charged matter or dark matter.",
+   "quotes": [
+    {
+     "text": "We show that the Berry monopole which appears at the origin of the momentum space due to level crossing is responsible for the chiral magnetic and vortical effects.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C2",
+   "id": "recid:339909",
+   "citation": "S. Hioki, S. Kitahara, S. Ohno, T. Suzuki, Y. Matsubara, O. Miyamura, \"Monopole distribution in momentum space in SU(2) lattice gauge theory\", Phys. Lett. B 285, 343 (1992)",
+   "relation": "collision",
+   "summary": "Studies the momentum-space (Fourier) distribution of maximally-abelian-gauge monopole currents in SU(2) lattice gauge theory, and its broadening in the deconfined phase (a companion proceedings is titled 'Monopole condensation in momentum space').",
+   "difference": "'Monopoles in momentum space' here means the Fourier spectrum of position-space color-magnetic monopole currents in the dual-superconductor picture of confinement; nothing is localized in momentum.",
+   "quotes": [
+    {
+     "text": "The monopole distribution in momentum space begins to broaden as the temperature increases in the deconfinement phase",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C2",
+   "id": "recid:13934",
+   "citation": "E. Corrigan, P. Goddard, \"Construction of Instanton and Monopole Solutions and Reciprocity\", Ann. Phys. 154, 253 (1984)",
+   "relation": "collision",
+   "summary": "The ADHM and Nahm constructions establish a 'reciprocity or duality' between self-dual gauge theories in four and zero dimensions, and in three and one dimensions (monopoles <-> Nahm data); see also E. Corrigan, 'Monopoles and reciprocity' (1986).",
+   "difference": "'Reciprocity' here is the Nahm/ADHM transform, a Fourier-like duality of solution spaces, not Born's position-momentum reciprocity; it places no monopoles in momentum space as matter.",
+   "quotes": [
+    {
+     "text": "These constructions are shown to establish a reciprocity or duality between self-dual theories in zero and four dimensions and in one and three dimensions, respectively.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "cond-mat/0310232",
+   "citation": "Z. Fang et al., \"The Anomalous Hall Effect and Magnetic Monopoles in Momentum Space\", Science 302, 92 (2003)",
+   "relation": "collision",
+   "summary": "Opens by contrasting the null result for magnetic monopoles in real space with monopoles that 'appear' in the crystal-momentum space of solids, and reports evidence for the latter in SrRuO3.",
+   "difference": "The juxtaposition reads like C3 but the momentum-space objects are Berry-curvature sources of a crystal, not magnetic charges; the paper attributes the real-space null result to the monopole's large mass, not to any momentum-space localization.",
+   "quotes": [
+    {
+     "text": "Efforts to find the magnetic monopole in real space have been made in cosmic rays and in accelerators, but up to now there is no firm evidence for its existence due to the very heavy mass",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "However, we show that the magnetic monopole can appear in the crystal-momentum space of solids in the accessible low energy region",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "0907.2021",
+   "citation": "D. Xiao, M.-C. Chang, Q. Niu, \"Berry Phase Effects on Electronic Properties\", Rev. Mod. Phys. 82, 1959 (2010)",
+   "relation": "collision",
+   "summary": "Standard review: degeneracy points act as monopole sources of Berry curvature in parameter or momentum space; it contrasts undetected real-world magnetic monopoles with the observed Chern-number quantization.",
+   "difference": "Same contrast in words, different physics; no claim that real monopoles are hidden in momentum space.",
+   "quotes": [
+    {
+     "text": "Interestingly, while the magnetic monopoles are yet to be detected in the real world, the topological Chern numbers have already found correspondence with the quantized Hall conductance plateaus",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Therefore the degeneracy points act as sources and drains of the Berry curvature flux.",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2302.03526",
+   "citation": "J. Govaerts, \"Magnetic monopoles with no strings attached: a portal to the dark side of dual electrodynamics\", Eur. Phys. J. C 83, 158 (2023)",
+   "relation": "related",
+   "summary": "In two-potential SO(2) dual electrodynamics, electric and magnetic charges do not interact electromagnetically unless a new coupling is nonzero, so magnetically charged matter would be 'dark' to electric matter; the paper asks whether a parallel world of purely magnetic matter could be the dark matter.",
+   "difference": "Closest found to C3's shared-photon setting (magnetic charges of a duality-symmetric electromagnetism that our probes do not see). The invisibility comes from the force law, not from localization in momentum, and the paper does not present it as the explanation of the search null result.",
+   "quotes": [
+    {
+     "text": "A physical consequence for SO(2) dual electrodynamics of this coupling constant if nonvanishing, is to open a channel, or portal between the otherwise mutually totally “dark” sectors of electric and magnetic charges for electromagnetic interactions.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2507.06697",
+   "citation": "V. Vento, \"Dark monopoles\", arXiv:2507.06697 (2025, v3 2026), arXiv preprint only",
+   "relation": "related",
+   "summary": "After noting the null result and the many mechanisms proposed for it, generalizes QED to two photons with the monopole and an 'extraordinary' photon in the dark sector; mixing turns electrons and monopoles into dyons and gives detection consequences.",
+   "difference": "Places monopoles in a hidden gauge sector (the separate-photon shape), not in momentum space; observability comes through mixing, which strict P4 excludes.",
+   "quotes": [
+    {
+     "text": "Many mechanisms have been proposed to explain this lack of success.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "In here we generalize QED to a two photon theory where the extraordinary photon and the monopole belong to the dark sector, and the ordinary photon and the electron to the non-dark sector.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "hep-ph/0701133",
+   "citation": "L. N. Epele, H. Fanchiotti, C. A. Garcia Canal, V. Vento, \"Monopolium: The key to monopoles\", Eur. Phys. J. C 56, 87 (2008)",
+   "relation": "related",
+   "summary": "Proposes that monopoles are not seen because they are dynamically confined in monopolium, a monopole-antimonopole bound state, and studies its detection at colliders.",
+   "difference": "An alternative account of the null result by binding into neutral composites, the second hiding option of #11 section 11.4; position space throughout.",
+   "quotes": [
+    {
+     "text": "A way out of this impasse could be that the monopoles are dynamically confined forming monopolium, a monopole- anti-monopole bound state.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2609.25324",
+   "citation": "S. Carneiro, \"Dual symmetry breaking and magnetic charge screening\", arXiv:2609.25324 (2026), arXiv preprint only",
+   "relation": "related",
+   "summary": "In a dual electrodynamics where only a magnetic Higgs field condenses, magnetic charge is screened while electric charge is not; the screened monopole is offered as a dark-sector candidate, and Parker-type bounds are said not to transfer when the magnetic interaction is screened.",
+   "difference": "A further 'present but unseen' mechanism for monopoles that could be dark matter (relevant to C2 too): screening of the long-range field, not localization in momentum.",
+   "quotes": [
+    {
+     "text": "The broken phase contains a natural dark sector candidate: the screened monopole.",
+     "where": "full text, section IX",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "It therefore provides another setting in which the absence of an observable long-range monopole field does not necessarily imply the absence of a microscopic magnetic charge.",
+     "where": "full text, conclusion",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Such bounds cannot be transferred without modification when the magnetic interaction is screened on scales shorter than those entering the bound.",
+     "where": "full text, section IX",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:2173188",
+   "citation": "J. Elsborg, C. Kohn, \"Magnetic monopoles in two time dimensions\", Int. J. Mod. Phys. A 37, 2250141 (2022)",
+   "relation": "related",
+   "summary": "Places magnetic charge densities in a spacetime with a second time dimension acting only at Planck-length scales, giving symmetrized Maxwell equations whose monopoles do not conflict with the experimental null results.",
+   "difference": "Same explanatory shape as C3 (monopoles exist in a further space our experiments do not reach), but the space is an extra time dimension, not the momentum space of a broken Born reciprocity; no dark matter.",
+   "quotes": [
+    {
+     "text": "As a second time dimension only acts on small length scales in the order of the Planck length, we provide a theory with symmetrized Maxwell’s equations including magnetic monopoles which do not violate current experimental evidence.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2207.04916",
+   "citation": "R. J. Ellis, \"I: Evidence for Phenomena, including Magnetic Monopoles, Beyond 4-D Space-Time and Theory Thereof\", arXiv:2207.04916 (2022), arXiv preprint only (non-mainstream)",
+   "relation": "related",
+   "summary": "Argues from low-energy experiments under intense illumination that Dirac monopoles exist but not in 4-D spacetime: in a 'mirror world' with reversed time of chronometric-invariant general relativity.",
+   "difference": "Monopoles in 'another space-time', not momentum space; rests on contested experiments; not reviewed.",
+   "quotes": [
+    {
+     "text": "We conclude that Dirac monopoles exist, however not in 4-D, but in another space-time.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:310169",
+   "citation": "E. Comay, \"Charges, monopoles and unit systems\", Acta Phys. Polon. B 21, 171 (1990)",
+   "relation": "related",
+   "summary": "Argues that fields measured by a charge and by a monopole are different physical entities, and links this to the persistent failure of monopole searches (see also Comay, 'Will magnetic monopoles be detected in our instruments?', Lett. Nuovo Cim. 43, 150 (1985), not read).",
+   "difference": "An instrument-level account of non-detection inside a modified charge-monopole theory; no momentum space.",
+   "quotes": [
+    {
+     "text": "This result is related to the persistent failure of the experimental quest for monopoles.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C3",
+   "id": "physics/0101014",
+   "citation": "B. G. Sidharth, \"The Elusive monopole\", Nuovo Cim. B 118, 35 (2003)",
+   "relation": "related",
+   "summary": "Attributes the monopole to strong magnetic effects of a noncommutative spacetime at small scales, which would explain why it has eluded detection.",
+   "difference": "Non-detection through small-scale noncommutativity of spacetime, not momentum-space localization; a short note.",
+   "quotes": [
+    {
+     "text": "This would also explain why the monopole has eluded detection even after seventy years.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:100841",
+   "citation": "E. Recami, R. Mignani, \"Magnetic Monopoles and Tachyons in Special Relativity\", Phys. Lett. B 62, 41 (1976)",
+   "relation": "related",
+   "summary": "Extended special relativity predicts superluminal (tachyonic) monopoles with about 1/100 of the usual magnetic charge rather than subluminal ones, which bears on the searches.",
+   "difference": "A different kinematic class (superluminal), not momentum localization; no dark matter.",
+   "quotes": [
+    {
+     "text": "explicitly predicts existence of super-luminal (tachyon) monopoles",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C3",
+   "id": "1810.06540",
+   "citation": "M. Bojowald, S. Brahma, U. Buyukcam, J. Guglielmon, M. van Kuppeveld, \"Small Magnetic Charges and Monopoles in Nonassociative Quantum Mechanics\", Phys. Rev. Lett. 121, 201602 (2018)",
+   "relation": "related",
+   "summary": "Nonassociative quantum mechanics may allow magnetic charges below Dirac's minimum; charges small enough to perturb hydrogen spectra only slightly could have escaped detection, and spectra bound them.",
+   "difference": "Escape by smallness of the charge, not by localization in momentum. With Bojowald et al., PRL 115, 220402 (2015), it is also the line in which smooth magnetic charge densities become testable, which is what a momentum-compact, position-spread magnetic charge would be (not analyzed by anyone).",
+   "quotes": [
+    {
+     "text": "If a weakly magnetically charged proton in a hydrogen atom perturbs the standard energy spectrum only slightly, magnetic charges could have escaped detection.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:3177356",
+   "citation": "T. Tanii, N. Yamanaka, \"Unobservability of magnetic monopole\", non-reviewed: INSPIRE recid 3177356 (no journal); a Zenodo record dated June 2026 (zenodo.org/records/20805793) was seen in WebSearch results only",
+   "relation": "related",
+   "summary": "Claims that monopoles and dyons always involve an unphysical gauge-field component and are therefore unobservable, removing the requirement that inflation follow the transition that makes them.",
+   "difference": "Non-detection as unobservability in principle, not localization in momentum; not peer reviewed.",
+   "quotes": [
+    {
+     "text": "We show that the magnetic monopole (and the dyon) is unphysical by proving that it always involves the unphysical gauge field component.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Our conclusion therefore removes this constraint, since they have no physical effect.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2208.09043",
+   "citation": "L. Bratek, J. Jalocha, \"On the Issue of Magnetic Monopoles in the Prospect of UHE Photon Searches\", Universe 8, 422 (2022)",
+   "relation": "related",
+   "summary": "Reviews ultra-high-energy-photon signatures of monopoles and Staruszkiewicz's argument that Dirac monopoles might not exist as isolated particles.",
+   "difference": "A theoretical reason for absence, not a hiding mechanism in momentum space.",
+   "quotes": [
+    {
+     "text": "There are also theoretical reasons why magnetic monopoles allowed by Dirac's theory might not be realized in nature in the form of isolated particles.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:9098",
+   "citation": "P. Langacker, S.-Y. Pi, \"Magnetic Monopoles in Grand Unified Theories\", Phys. Rev. Lett. 45, 1 (1980)",
+   "relation": "related",
+   "summary": "GUT monopoles are not produced in significant numbers if electromagnetism is spontaneously broken at high temperature. One of flag 59's dagger-cited histories, here verified.",
+   "difference": "A cosmological history that removes monopoles of our sector; no conjugate space.",
+   "quotes": [
+    {
+     "text": "It is suggested that the magnetic monopoles predicted by grand unified theories would not be produced in significant numbers if electromagnetic gauge invariance is spontaneously broken",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:154780",
+   "citation": "A. D. Linde, \"Confinement of Monopoles at High Temperatures: A Solution of the Primordial Monopole Problem\", Phys. Lett. B 96, 293 (1980)",
+   "relation": "related",
+   "summary": "Argues that GUT monopoles were confined at high temperature, solving the primordial monopole problem without inflation.",
+   "difference": "A standard history under which no monopoles are expected today; no conjugate space.",
+   "quotes": [
+    {
+     "text": "It is argued that magnetic monopoles, which should have been copiously produced in the early universe according to grand unified theories (GUTs), have been confined at temperatures",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "hep-ph/9507230",
+   "citation": "G. R. Dvali, A. Melfo, G. Senjanovic, \"Is There a monopole problem?\", Phys. Rev. Lett. 75, 4559 (1995)",
+   "relation": "related",
+   "summary": "In minimal SU(5) a range of Higgs parameters keeps the symmetry broken at high temperature, avoiding the monopole-producing transition. Flag 59's dagger citation, verified.",
+   "difference": "Symmetry non-restoration; no conjugate space.",
+   "quotes": [
+    {
+     "text": "there exists a range of parameters of the Higgs potential for which the symmetry remains broken at high temperature, thus avoiding the phase transition that gives rise to the overproduction of monopoles",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "hep-ph/9710301",
+   "citation": "G. R. Dvali, H. Liu, T. Vachaspati, \"Sweeping away the monopole problem\", Phys. Rev. Lett. 80, 2281 (1998)",
+   "relation": "related",
+   "summary": "Domain walls sweep away the monopoles and then decay. Flag 59's dagger citation, verified.",
+   "difference": "Defect erasure; no conjugate space.",
+   "quotes": [
+    {
+     "text": "We propose a new solution to the cosmological monopole problem in which domain walls sweep away the magnetic monopoles and subsequently decay.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "hep-ph/0403248",
+   "citation": "D. Stojkovic, K. Freese, \"A Black hole solution to the cosmological monopole problem\", Phys. Lett. B 606, 251 (2005)",
+   "relation": "related",
+   "summary": "Primordial black holes accrete monopoles and evaporate, converting their energy density into radiation.",
+   "difference": "A further history not listed in flag 59; no conjugate space.",
+   "quotes": [
+    {
+     "text": "Primordial black holes, produced in the early universe, can accrete magnetic monopoles before the relics dominate the energy density of the universe.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2509.23726",
+   "citation": "D. Perri, \"Noninflationary solution to the monopole problem\", Phys. Rev. D 113, 023547 (2026)",
+   "relation": "related",
+   "summary": "Breaking the Weyl conformal symmetry of the gauge kinetic sector before nucleosynthesis enhances monopole annihilation enough to avoid inflation, and predicts a residual flux of GUT monopoles near present sensitivity.",
+   "difference": "A recent non-inflationary history; no conjugate space.",
+   "quotes": [
+    {
+     "text": "This mechanism enhances monopole annihilation, thereby reducing their abundance to acceptable levels without requiring inflation.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "hep-ex/0207020",
+   "citation": "M. Ambrosio et al. (MACRO), \"Final results of magnetic monopole searches with the MACRO experiment\", Eur. Phys. J. C 25, 511 (2002)",
+   "relation": "related",
+   "summary": "Searches for GUT monopoles in the penetrating cosmic radiation with scintillators, streamer tubes and track detectors over 4x10^-5 < beta < 1, and sets a flux limit below the Parker bound.",
+   "difference": "Shows what C3 says searches assume: localized particles carrying magnetic charge of our photon that traverse the detector and ionize. The searches say nothing about objects compact in momentum.",
+   "quotes": [
+    {
+     "text": "We present the final results obtained by the MACRO experiment in the search for GUT magnetic monopoles in the penetrating cosmic radiation",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2106.11933",
+   "citation": "B. Acharya et al. (MoEDAL), \"Search for magnetic monopoles produced via the Schwinger mechanism\", Nature 602, 63 (2022)",
+   "relation": "related",
+   "summary": "Schwinger production in Pb-Pb collisions; trapping detectors scanned with a SQUID magnetometer; first collider mass limit for finite-size monopoles.",
+   "difference": "Detection by trapping a magnetic charge in matter and measuring its flux through a loop: a position-space method. No search considers monopoles spread in position or compact in momentum.",
+   "quotes": [
+    {
+     "text": "The MMTs were scanned for the presence of magnetic charge using a SQUID magnetometer.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "2409.04552",
+   "citation": "O. Gould, I. Ostrovskiy, A. Upreti, \"Next frontiers for magnetic monopole searches\", Phys. Rev. D 111, 102004 (2025)",
+   "relation": "related",
+   "summary": "Survey of search strategies: collider searches have concentrated on point-like monopoles, composite ones being suppressed in parton collisions; proposes Schwinger-production, ore and ice-core searches.",
+   "difference": "States the searches' localization assumption explicitly; does not consider momentum-space localization.",
+   "quotes": [
+    {
+     "text": "Additionally, the quoted searches concentrate on the production of point-like MMs.",
+     "where": "full text, section I",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:12199",
+   "citation": "M. S. Turner, E. N. Parker, T. J. Bogdan, \"Magnetic Monopoles and the Survival of Galactic Magnetic Fields\", Phys. Rev. D 26, 1296 (1982)",
+   "relation": "related",
+   "summary": "The Parker limit recomputed with the monopole's mass and velocity and the galactic field's strength, coherence length and regeneration time.",
+   "difference": "Makes explicit the assumption C3's hiding condition must evade: free magnetic charges accelerated coherently over the field's coherence length. An object whose field profile is wider than that length is not treated.",
+   "quotes": [
+    {
+     "text": "We derive flux limits which depend upon the monopole's mass and velocity, and the strength, coherence length, and regeneration time of the galactic magnetic field.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C3",
+   "id": "cond-mat/0606726",
+   "citation": "C. Brouder, G. Panati, M. Calandra, C. Mourougane, N. Marzari, \"Exponential localization of Wannier functions in insulators\", Phys. Rev. Lett. 98, 046402 (2007)",
+   "relation": "related",
+   "summary": "Proves that exponentially localized Wannier functions exist exactly when the Chern numbers vanish, so Chern insulators cannot have them: a nonzero momentum-space topological charge (net Berry-monopole flux) obstructs localization in position space.",
+   "difference": "An established theorem with the shape of C3's mechanism (topology in momentum space forces spread in position), but for Bloch-band states, not magnetic monopoles, and with no bearing on detection.",
+   "quotes": [
+    {
+     "text": "The same equivalence implies that Chern insulators cannot display exponentially localized Wannier functions.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API); also checked by WebFetch on arxiv.org/abs/cond-mat/0606726"
+    }
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "closest": [
+  {
+   "conjecture": "C2",
+   "id": "1903.05673",
+   "why": "Closest mechanism: Szabo applies Born reciprocity, (x,p) -> (p,-x), to electric charges in magnetic charge distributions and places the image of the magnetic charge density on momentum space, as the R-flux of string theory (with Lust-Malek-Szabo 2017 and Bakas-Lust 2014). It differs from C2 in every physical respect: a background flux, not magnetically charged solitons; no abundance, no dark matter, no localization of objects; Born reciprocity is a duality map between two systems and, the paper notes, not a symmetry of the magnetic brackets."
+  },
+  {
+   "conjecture": "C2",
+   "id": "2302.03526",
+   "why": "Closest physical claim: Govaerts asks whether a dark parallel world of purely magnetically charged matter, electromagnetically almost decoupled from our electric matter yet gravitating, could be the dark matter. It differs in having no momentum space, polarization or topological solitons; the darkness comes from the force law of two-potential dual electrodynamics, and the dark-matter idea is posed as a question."
+  },
+  {
+   "conjecture": "C2",
+   "id": "hep-th/0507204",
+   "why": "Closest object: a topological soliton (the Kaluza-Klein monopole) localized in a dual coordinate, winding space, a localization that strings with winding charge can probe. It differs in living in a compact string dimension under T-duality rather than in the momentum space of a broken Born reciprocity, and in carrying no dark-matter or abundance claim."
+  },
+  {
+   "conjecture": "C3",
+   "id": "2302.03526",
+   "why": "Closest to C3's shared-photon setting: magnetic charges of a duality-symmetric electromagnetism that are electromagnetically 'dark' to electric charges, raised as a dark-matter possibility. It differs in that the invisibility is a property of the force law, not of localization in momentum, and the paper does not offer it as the explanation of the search null result."
+  },
+  {
+   "conjecture": "C3",
+   "id": "recid:2173188",
+   "why": "Closest explanatory shape: Elsborg and Kohn put magnetic monopoles in a further space (a second time dimension acting at the Planck length) so that they do not conflict with the null results. It differs in the space (an extra time dimension, not momentum or conjugate space) and has no dark-matter content."
+  },
+  {
+   "conjecture": "C3",
+   "id": "cond-mat/0310232",
+   "why": "Closest wording: Fang et al. set the real-space null result beside monopoles in crystal momentum space. It is a collision: the momentum-space objects are Berry-curvature sources, and the paper blames the null result on the monopole mass."
+  }
+ ],
+ "not_found": [
+  {
+   "conjecture": "C2",
+   "statement": "No paper found that proposes magnetic monopoles (magnetically charged topological solitons) localized in momentum space as physical objects, as matter, or as dark matter, or that calls them abundant in momentum space; in any framework searched: Born reciprocity and reciprocal relativity, metastring and Born geometry, T-duality and doubled geometry, noncommutative and nonassociative phase spaces (R-flux), momentum gauge fields, Berry-curvature monopoles, hidden-sector and mirror monopoles.",
+   "searches": "INSPIRE full text and abstracts: 'monopoles in momentum space' (118 full-text hits, all Berry-curvature or lattice usage) alone and with 'dark matter' (3), 'Parker bound' (0), 'Born reciprocity' (9), 'metastring' (10), 'Born geometry' (18), 'modular spacetime' (5), 'metaparticle' (1), 'quaplectic' (0), 'reciprocal relativity' (0), 'winding space' (3 abstract, 7 full text), 'localized in the dual coordinate' (1), 'magnetic charge(s) in momentum space' (2), 'conjugate monopoles' (1), 'momentum monopole' (44, multipole usage), 'k-space/p-space monopole' (1), 'momentum-space localization' + monopole (0), 'localized in momentum space' + soliton/monopole (0 abstract), titles monopole + momentum/phase space/reciprocity/Snyder (15), titles dark matter + monopole (45, all position-space or hidden-sector). arXiv API: abs 'momentum space' AND monopole (123, condensed matter), with 'dark matter' (0), with cosmology (9), 'Born reciprocity' AND monopole (1), reciprocity AND 'magnetic monopole' (8), monopole AND 'phase space' AND 'dark matter' (1), with T-duality (1), with noncommutative (1), soliton AND 'momentum space' (1). Citation graph: forward from Berard-Mohrbach (60), Guendelman-Singleton (8), Guendelman-Wagner (8), Fang et al. filtered (3), Szabo/Lust-Malek-Szabo/Bakas-Lust filtered by dark matter (12 total), Harvey-Jensen and Gregory-Harvey-Moore filtered (12), Vento 2021 (17), Evslin-Gudnason (23), Epele et al. filtered (25), Govaerts 2023 (7); backward from Copinger-Morales (57) and Szabo 2019 (102). Crossref (3 queries) and WebSearch (8 queries). The monopole bibliographies of Giacomelli et al. (2000) and Balestra et al. (2011) and the reviews of Mavromatos-Mitsou (2020) and Mitsou (2026) were grepped: no momentum-space proposal beyond Fang et al.'s Berry monopoles."
+  },
+  {
+   "conjecture": "C2",
+   "statement": "No paper found in which a soliton is localized in momentum space by its own topology (the record's 'topological p-localization'); the nearest results are the opposite direction: momentum-space topology forcing spread in position (Brouder et al. 2007; Lin and Hsiao 2022), and localization in a T-dual winding coordinate (Harvey and Jensen 2005).",
+   "searches": "INSPIRE: t soliton + t 'momentum space' (0); 'topological soliton' + 'localized in momentum' full text (3, unrelated); 'topological defects in momentum space' + dark matter (1, philosophy text); arXiv: ti soliton AND ti 'momentum space' (1, BEC), abs 'solitons in momentum space' (0), 'momentum space solitons' (0), 'localized in momentum space' AND soliton (1, unrelated)."
+  },
+  {
+   "conjecture": "C3",
+   "statement": "No paper found that explains the null result of monopole searches by monopoles being compact in momentum (conjugate) space, so that searches made in position space miss them. Published accounts of the null result place monopoles in a hidden or dark gauge sector, an extra time dimension, another space-time, bound states, a screened magnetic phase, or a different kinematic class, or remove them cosmologically; none uses momentum space or Born reciprocity.",
+   "searches": "INSPIRE: titles 'monopole problem' (42), 'absence of magnetic monopoles' + 'momentum space' + reciprocity (1), 'non-observation of magnetic monopoles' + 'momentum space' (3), 'live in momentum space' + monopole (1), invisible/hidden monopoles (4), 'why magnetic monopoles ...' (3), mirror monopoles (11), parallel/shadow/mirror world + monopole (3), braneworld monopole problem (6), smeared/delocalized monopoles (1), monopolium titles (15), Comay, Recami-Mignani, Kohn author searches, Parker-bound titles (6), 'monopoles in momentum space' + 'Parker bound' (0). arXiv API: 'two time' AND 'magnetic monopoles' (0), monopoles AND 'dark matter' AND momentum (12, unrelated). Crossref: 'magnetic monopoles hidden in momentum space not detected' (15), 'Why magnetic monopoles are not seen' (8). WebSearch: four queries on momentum, conjugate or reciprocal space and non-detection (no match). Citation graph of Epele et al., Govaerts 2023 and Vento 2021."
+  }
+ ],
+ "queries": [
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"monopoles in momentum space\"",
+   "hits": "9"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopoles in momentum space\" and fulltext \"dark matter\"",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopole in momentum space\" and fulltext \"dark matter\"",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum space monopole\" and fulltext \"dark matter\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopoles in momentum space\"",
+   "hits": "118"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:monopole AND abs:\"dark matter\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:monopoles AND abs:\"dark matter\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:monopole",
+   "hits": "123"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum space\" and fulltext \"R-flux\" and fulltext \"magnetic monopole\"",
+   "hits": "22"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Mohrbach, H and a Berard, A",
+   "hits": "29"
+  },
+  {
+   "database": "INSPIRE (cites, forward)",
+   "query": "papers citing refersto:recid:630889 (Berard-Mohrbach 2004)",
+   "hits": "60"
+  },
+  {
+   "database": "INSPIRE (refs, backward)",
+   "query": "refs 2211.14165",
+   "hits": "57 references"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"momentum gauge\" or abstracts.value:\"momentum gauge field\" or abstracts.value:\"momentum gauge fields\"",
+   "hits": "13"
+  },
+  {
+   "database": "INSPIRE (cites, forward)",
+   "query": "papers citing refersto:recid:2091673 (Guendelman-Singleton 2023)",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE (cites, forward)",
+   "query": "papers citing refersto:recid:2129480 (Guendelman-Wagner 2023)",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"magnetic monopole\"",
+   "hits": "9"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"winding space\" and (abstracts.value:monopole or abstracts.value:monopoles)",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"localized in winding space\" or fulltext \"localised in winding space\"",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(fulltext \"localized in the dual coordinate\" or fulltext \"localised in the dual coordinate\" or fulltext \"localized in dual space\" or fulltext \"localized in the dual space\") and fulltext monopole",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Jensen, Steuard",
+   "hits": "311"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext metastring and fulltext monopole",
+   "hits": "10"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born geometry\" and fulltext \"monopole\"",
+   "hits": "18"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"dark matter\" and (t monopole or t monopoles)",
+   "hits": "45"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"localized in momentum space\" and (abstracts.value:soliton or abstracts.value:solitons or abstracts.value:monopole or abstracts.value:defect)",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"soliton\" and t \"momentum space\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "ti:soliton AND ti:\"momentum space\"",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"localized in momentum space\" AND abs:soliton",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum-space soliton\" OR abs:\"momentum space soliton\" OR abs:\"solitons in momentum space\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"solitons in momentum space\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space solitons\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"localized in momentum\"",
+   "hits": "213"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"monopole problem\"",
+   "hits": "42"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Langacker and a Pi and t monopoles",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopole problem\" and (fulltext \"extra dimension\" or fulltext \"bulk\") and fulltext \"brane\" and t monopole",
+   "hits": "6"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t mirror and (t monopole or t monopoles)) or abstracts.value:\"mirror monopoles\" or abstracts.value:\"mirror magnetic monopoles\"",
+   "hits": "11"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic monopoles\" and fulltext \"momentum space\" and fulltext \"dark matter\" and fulltext \"Born\"",
+   "hits": "132"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"localized in momentum space\" and fulltext \"magnetic monopole\"",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"live in momentum space\" and fulltext monopole",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopoles in momentum space\" and fulltext \"Parker bound\"",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:monopoles AND abs:\"dark matter\" AND abs:momentum",
+   "hits": "12"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Kohn, Christoph or a Köhn, Christoph and t monopole",
+   "hits": "14"
+  },
+  {
+   "database": "arXiv API",
+   "query": "au:Kohn AND ti:monopole",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"two time\" AND abs:\"magnetic monopoles\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"magnetic monopole searches\" and a MACRO",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Final results of magnetic monopole searches with the MACRO experiment\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Extension of the Parker bound\"",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"magnetic monopoles and the survival of galactic magnetic fields\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Magnetic monopoles revisited: Models and searches\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Kobayashi, Takeshi and a Perez-Gonzalez and t monopole",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Andromeda\" and t \"Parker\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Parker bound\" and t \"dark matter\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Parker bound\"",
+   "hits": "6"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Perri, Daniele",
+   "hits": "13"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"absence of magnetic monopoles\" and fulltext \"momentum space\" and fulltext \"reciprocity\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"non-observation of magnetic monopoles\" and fulltext \"momentum space\"",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Small magnetic charges and monopoles in non-associative quantum mechanics\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Jackiw and t \"3-cocycle\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Jackiw and t cocycle",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Bojowald and t \"magnetic charges\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t monopolium",
+   "hits": "15"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Dirac quantization in momentum space\" or fulltext \"quantization condition in momentum space\" or fulltext \"Dirac quantization condition in momentum space\"",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"dual monopole\" or abstracts.value:\"dual Dirac monopole\"",
+   "hits": "18"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t monopole or t monopoles) and (t \"momentum space\" or t \"phase space\" or t \"curved momentum\" or t Snyder or t reciprocal or t reciprocity)",
+   "hits": "15"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic monopoles\" and fulltext \"dark matter\" and fulltext \"dual spacetime\"",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopoles\" and fulltext \"dark matter\" and fulltext \"metastring\"",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:630320 and (fulltext \"dark matter\" or fulltext \"cosmolog\" or fulltext \"Born reciprocity\")",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext quaplectic and fulltext monopole",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"reciprocal relativity\" and fulltext \"magnetic monopole\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocal\" and fulltext monopoles",
+   "hits": "0"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"Born reciprocity\" AND abs:monopole",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"Born reciprocity\" AND abs:monopoles",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:reciprocity AND abs:\"magnetic monopole\"",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"conjugate monopoles\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum monopole\" or fulltext \"momentum monopoles\"",
+   "hits": "44"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1724945 and (fulltext \"dark matter\" or fulltext \"monopole problem\")",
+   "hits": "6"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1601405 and (fulltext \"dark matter\" or fulltext \"monopole problem\")",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1253885 and (fulltext \"dark matter\" or fulltext \"monopole problem\")",
+   "hits": "4"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1663966 and (fulltext \"dark matter\" or fulltext \"monopole problem\")",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1627662 and (fulltext \"dark matter\" or fulltext \"monopole problem\")",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:687962 and (fulltext \"dark matter\" or fulltext \"Born reciprocity\" or fulltext \"metastring\")",
+   "hits": "4"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:447293 and (fulltext \"dark matter\" or fulltext \"Born reciprocity\" or fulltext \"metastring\")",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE (cites, forward)",
+   "query": "papers citing refersto:recid:1831927 (Vento 2021)",
+   "hits": "17"
+  },
+  {
+   "database": "INSPIRE (cites, forward)",
+   "query": "papers citing refersto:recid:1087382 (Evslin-Gudnason 2012)",
+   "hits": "23"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Next frontiers for magnetic monopole searches\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Search for magnetic monopoles produced via the Schwinger mechanism\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"relativistic magnetic monopoles\" and a IceCube",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"relativistic magnetic monopoles\" and t IceCube",
+   "hits": "12"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"magnetic monopoles\" and cn IceCube",
+   "hits": "12"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(abstracts.value:\"smeared monopole\" or abstracts.value:\"smeared magnetic monopole\" or abstracts.value:\"delocalized monopole\" or abstracts.value:\"delocalised monopole\" or abstracts.value:\"delocalized monopoles\")",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"invisible monopoles\" or abstracts.value:\"invisible magnetic monopoles\" or abstracts.value:\"hidden magnetic monopoles\" or t \"hidden monopoles\"",
+   "hits": "4"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"why magnetic monopoles\" or abstracts.value:\"why monopoles have not\" or abstracts.value:\"why no magnetic monopoles\"",
+   "hits": "3"
+  },
+  {
+   "database": "arXiv API",
+   "query": "ti:\"Exponential localization of Wannier functions in insulators\"",
+   "hits": "arXiv API error 429 (rate limit); the paper was then found through Crossref and arxiv.org/abs"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Exponential localization of Wannier functions in insulators\"",
+   "hits": "0"
+  },
+  {
+   "database": "Crossref",
+   "query": "Exponential localization of Wannier functions in insulators Brouder Panati",
+   "hits": "5"
+  },
+  {
+   "database": "Crossref",
+   "query": "magnetic monopoles in momentum space dark matter",
+   "hits": "20"
+  },
+  {
+   "database": "Crossref",
+   "query": "Born reciprocity magnetic monopole momentum space duality",
+   "hits": "15"
+  },
+  {
+   "database": "Crossref",
+   "query": "magnetic monopoles hidden in momentum space not detected",
+   "hits": "15"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Comay and t monopoles",
+   "hits": "4"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(abstracts.value:monopole or abstracts.value:monopoles) and (abstracts.value:\"parallel universe\" or abstracts.value:\"shadow world\" or abstracts.value:\"mirror world\" or abstracts.value:\"hidden brane\" or abstracts.value:\"another brane\")",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"magnetic charges in momentum space\" or fulltext \"magnetic charge in momentum space\" or fulltext \"electric charges in momentum space\" or fulltext \"electric charge in momentum space\"",
+   "hits": "2"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:monopole AND abs:\"phase space\" AND abs:\"dark matter\"",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:monopole AND abs:\"T-duality\" AND abs:\"dark matter\"",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:monopoles AND abs:noncommutative AND abs:\"dark matter\"",
+   "hits": "1"
+  },
+  {
+   "database": "arXiv API",
+   "query": "abs:\"momentum space\" AND abs:monopole AND (abs:cosmology OR abs:cosmological OR abs:universe)",
+   "hits": "9"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(t monopole or t monopoles) and (abstracts.value:\"cotangent bundle\" or abstracts.value:\"phase-space\" or abstracts.value:\"phase space\") and (abstracts.value:\"momentum\" )",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "(a Recami or a Mignani) and (t monopole or t monopoles or t \"magnetic poles\")",
+   "hits": "27"
+  },
+  {
+   "database": "INSPIRE (refs, backward)",
+   "query": "refs 1903.05673",
+   "hits": "102 references"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext metaparticle and fulltext monopole",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"modular spacetime\" and fulltext \"monopole\"",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"monopoles\" and fulltext \"momentum space\" and fulltext \"dark sector\" and fulltext \"magnetic charge\"",
+   "hits": "22"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"winding space\" and fulltext \"dark matter\"",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dual coordinates\" and fulltext \"dark matter\" and fulltext monopole",
+   "hits": "13"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Langmann-Szabo\" and (fulltext monopole or fulltext soliton)",
+   "hits": "5"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"k-space monopole\" or abstracts.value:\"k-space monopoles\" or abstracts.value:\"p-space monopole\" or abstracts.value:\"monopoles in k-space\" or abstracts.value:\"monopole in k-space\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"reciprocal space\" and (abstracts.value:\"magnetic monopole\" or abstracts.value:\"magnetic monopoles\")",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space localization\" and fulltext monopole",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"topological soliton\" and fulltext \"localized in momentum\"",
+   "hits": "3"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dark matter\" and fulltext \"topological defects in momentum space\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Volovik, G.E. and abstracts.value:\"dark matter\"",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:742570 and (fulltext \"dark matter\" or fulltext \"momentum space\")",
+   "hits": "25"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1253885 and fulltext \"momentum space\" and fulltext \"magnetic monopole\" and not fulltext \"R-flux\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Why magnetic monopoles are not seen\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"elusive monopole\"",
+   "hits": "1"
+  },
+  {
+   "database": "Crossref",
+   "query": "Why magnetic monopoles are not seen",
+   "hits": "8"
+  },
+  {
+   "database": "INSPIRE (cites, forward)",
+   "query": "papers citing refersto:recid:2630205 (Govaerts 2023)",
+   "hits": "7"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Lagrangian polarization\" and fulltext \"magnetic monopole\" and fulltext \"dark matter\"",
+   "hits": "0"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum polarization\" and fulltext monopole",
+   "hits": "28"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born duality\" and fulltext monopole",
+   "hits": "2"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum gauge\" and fulltext \"monopole\"",
+   "hits": "28"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Singleton, Douglas and fulltext \"Born reciprocity\"",
+   "hits": "1"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Berry curvature, triangle anomalies\"",
+   "hits": "1"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "magnetic monopoles exist in momentum space dark matter hypothesis",
+   "hits": "10 results; no momentum-space monopole dark matter; hidden-sector monopoles, monopolium"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"momentum space\" monopoles \"why no magnetic monopole has been detected\" conjugate space",
+   "hits": "9 results; Fang et al. 2003, Ellis 2022 (another space-time); no momentum-space explanation"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "monopoles localized in momentum space rather than position space as dark matter candidate Born reciprocity",
+   "hits": "9 results; none combines the three"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"Born reciprocity\" \"magnetic monopoles\" \"dark matter\" momentum space conjugate",
+   "hits": "10 results; none combines them"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "Tanii Yamanaka \"Unobservability of magnetic monopole\"",
+   "hits": "10 results; Zenodo record (June 2026) and author PDF"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "\"velocity space\" OR \"momentum space\" magnetic monopoles dark matter halo localized in velocity",
+   "hits": "10 results; Evslin-Gudnason, no velocity- or momentum-space monopoles"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "\"conjugate space\" monopoles OR \"reciprocal space\" monopoles cosmology dark matter explanation of monopole non-detection",
+   "hits": "10 results; no match"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "viXra OR ResearchGate \"magnetic monopoles\" \"in momentum space\" \"dark matter\" hypothesis reciprocity Fourier dual",
+   "hits": "10 results; Govaerts 2023 and Kuhne preprints surfaced; no momentum-space proposal"
+  }
+ ],
+ "unverified_leads": [
+  {
+   "lead": "'Why magnetic monopoles are not seen?', Maltepe University open-access repository record (openaccess.maltepe.edu.tr, publication 393c7166-...), authors and venue unknown",
+   "why_unverified": "Found by WebSearch; the page returned HTTP 403 and neither INSPIRE nor Crossref has the title, so its argument could not be read."
+  },
+  {
+   "lead": "E. Comay, 'Will magnetic monopoles be detected in our instruments?', Lett. Nuovo Cim. 43, 150 (1985) (INSPIRE recid 219107)",
+   "why_unverified": "INSPIRE has no abstract and the Springer page needs authentication; the C3 label rests on Comay 1990 instead."
+  },
+  {
+   "lead": "Y. Pan, R. Yin, 'Constructing Berry-Maxwell equations with Lorentz invariance and Gauss's law of Weyl monopoles in four-dimensional energy-momentum space', Phys. Rev. B 110, 075139 (2024), arXiv:2308.00612: a 'reciprocal electromagnetic field' in energy-momentum space with Weyl monopoles as sources",
+   "why_unverified": "INSPIRE's full-text index matches 'Born reciprocity' and 'magnetic monopole' in it, but no HTML text exists (arxiv.org/html and ar5iv failed) and the PDF could not be parsed here, so whether it relates magnetic monopoles to momentum space through Born reciprocity is unread. Abstract read: Berry-curvature (Weyl) monopoles, a collision with C2."
+  },
+  {
+   "lead": "S. Gao, 'Monopoles' (2025), PhilSci-Archive 26138 (philosophy of physics)",
+   "why_unverified": "Seen only as a WebSearch result title; not read."
+  },
+  {
+   "lead": "P. Jarvis, 'From Born Reciprocity to Reciprocal Relativity: A Paradigm for Space-Time Physics', in Beyond Peaceful Coexistence (Imperial College Press, 2016), doi:10.1142/9781783268320_0010; E. E. H. Shin, 'Space-Time Theory of Elementary Particles. I. Born Reciprocity Principle', J. Math. Phys. 7 (1966), doi:10.1063/1.1704805",
+   "why_unverified": "Born-reciprocity works surfaced by Crossref; their text was not available, so the absence of monopole content is assumed from titles only."
+  },
+  {
+   "lead": "G. E. Volovik, The Universe in a Helium Droplet (Oxford University Press, 2003) †: momentum-space topology, Fermi points as momentum-space hedgehogs and the emergent Standard Model",
+   "why_unverified": "Cited from memory; not retrieved. Its content for this check is represented by Volovik, Lecture Notes in Physics 870 (2013), which was read."
+  },
+  {
+   "lead": "The original 'Andromeda Parker bound' paper on which Zhang et al. (JHEP 08 (2024) 220) build † (recalled as Bai, Lu and Orlofsky)",
+   "why_unverified": "Not retrieved; the evidence-against label rests on Zhang et al. and Kobayashi-Perri, which were read."
+  }
+ ],
+ "notes": "Verdict: neither C2 nor C3 was found in the literature. No paper places magnetic monopoles (magnetically charged topological solitons) in momentum space as matter, abundant or dark, and none explains the monopole null result by momentum-space localization. Nothing was labeled anticipates or partial. What exists, in order of closeness: (1) the nonassociative-phase-space line (Jackiw 1985 PRL 54 159; Bakas-Lust 2014; Lust-Malek-Szabo 2017; Szabo 2018, 2019) applies Born reciprocity explicitly to magnetic charge densities and puts their image, the string R-flux, on momentum space, but as a background, not objects; (2) dual Dirac monopoles in momentum space in noncommutative quantum mechanics (Berard-Mohrbach 2004) and momentum gauge fields as dynamical Born reciprocity (Guendelman-Singleton 2023; Copinger-Morales 2023), backgrounds again; (3) the Kaluza-Klein monopole localized in T-dual winding space, a localization that winding-string probes resolve (Gregory-Harvey-Moore 1997; Harvey-Jensen 2005; Jensen 2011), the nearest structural analogue of an object localized in a dual space and missed by ordinary probes; (4) Govaerts 2023 (EPJC), which asks whether a dark parallel world of purely magnetically charged matter, electromagnetically dark to our electric matter, could be the dark matter: the closest physical claim to C2 and C3 together, posed as a question and without momentum space. Monopole dark matter itself is prior art in many forms beyond what the record cites (Vento 2021 KK monopolium; Burdyuzha 2018; Evslin-Gudnason 2012 halo-sized monopoles; Falomir-Gamboa-Mendez 2016; Brummer et al. 2026, arXiv:2607.29492; Graesser et al. 2022; Kuhne 2025, non-reviewed). Accounts of the null result other than inflation are many: Langacker-Pi 1980, Linde 1980, Dvali-Melfo-Senjanovic 1995, Dvali-Liu-Vachaspati 1998, Stojkovic-Freese 2005, Perri 2026 (histories); Epele et al. 2008 (monopolium), Vento 2025 (dark sector), Carneiro 2026 (screening), Elsborg-Kohn 2022 (second time dimension), Ellis 2022 (another space-time, fringe), Comay 1990, Sidharth 2003, Recami-Mignani 1976, Bojowald et al. 2018, Tanii-Yamanaka 2026 (unobservability, non-reviewed). None uses momentum space. Evidence against, for the shared-photon form if the objects are localized in position: Dirac-charged monopoles must exceed about 10^18 GeV to cluster with the Galaxy (Kobayashi-Perri 2023); the Andromeda Parker bound gives Omega_M below about 1e-7 to 1e-4 for 1e13-1e16 GeV (Zhang et al. 2024), which covers #14's 3x10^13 GeV benchmark; Adams et al. 1993. No paper analyzes these bounds for objects compact in momentum; Carneiro 2026 notes they do not transfer when the magnetic field is screened, an analogous caveat. Against the separate-photon form with minimal content: Brummer et al. (PRD 113 L091701, 2026) publish independently the record's own W'-overclosure survivor result. Searches assume localized charges of our photon (MACRO 2002; MoEDAL 2022 SQUID trapping; Gould et al. 2025, 'point-like'); the Parker bound assumes acceleration over the galactic field's coherence length (Turner-Parker-Bogdan 1982). Record checks: flag 59's dagger citations Langacker-Pi (PRL 45, 1, 1980), Dvali-Melfo-Senjanovic (PRL 75, 4559, 1995) and Dvali-Liu-Vachaspati (PRL 80, 2281, 1998) were verified at INSPIRE with their abstracts. Collisions a reader will meet: 'monopoles in momentum space' for Berry curvature (Fang et al. 2003; Xiao-Chang-Niu 2010; Volovik 2013; Stephanov-Yin 2012; also Son-Yamamoto 2012, Bliokh, Horvathy, Weyl semimetals), 'monopole distribution/condensation in momentum space' in lattice QCD (Hioki et al. 1992), 'monopoles and reciprocity' for the Nahm/ADHM transform (Corrigan-Goddard 1984; Corrigan 1986), 'mirror monopole' for image charges at topological insulator surfaces (Qi et al. 2009) and 'momentum monopole' for multipole moments in general relativity. Leads for other groups: C4 - Govaerts 2023 (mutually dark electric and magnetic sectors), Fryberger 2018 (arXiv:1807.09606, a full spectrum of magnetically charged 'magneticons' with a magnetic photon), Vento 2025 and Garcia-Moreno-Vento 2026 (two-photon QED with dark monopoles), Singleton's massive magnetic photon (reviewed in Mavromatos-Mitsou 2020); C1/C5 - Tomilchik-Kudryashov 2004 (gr-qc/0507090: Born reciprocity, maximal force, dark matter as an artefact of phase-space geometry), Kan-Aoyama-Shiraishi 2022 (arXiv:2206.10796) on the Falomir-Gamboa-Mendez-Gondolo bicosmology with noncommutative momenta for two scale factors. Limits: INSPIRE full text covers arXiv papers only; condensed-matter coverage came from the arXiv API (one 429 rate-limit error, retried); Google Scholar was not used. Working notes, query log (queries.log) and this builder are in work/literature-check/g2-monopoles/."
+}

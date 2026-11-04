@@ -30,6 +30,8 @@ sources:
   - "verify/toy_coset.py 'Anchors', 'S2: vacua'"
   - "review/wiki-build-flags.md flag 60"
   - "review/wiki-build-flags.md flag 62"
+  - "review/wiki-build-flags.md flag 67"
+  - "notes/literature-check.md §5"
   - "popsci/universes-other-half.md 'Dark matter as the other polarization'"
 ---
 
@@ -107,12 +109,12 @@ The matrix squares to −1 in each setting [T]. On phase space ρ² sends (x, p)
 
 ## What kind of claim it is
 
-The tag [D — structural; math T] divides the claim. The mathematics is literature: the antisymmetric DSZ pairing, mutual locality, the duality group acting on charges and couplings. The program's contribution is the identification of the electric–magnetic frame choice with the phase-space polarization choice as the same operation, with no dynamics behind it: no Lagrangian in the repository relates the two choices.
+The tag [D — structural; math T] divides the claim. The mathematics is literature: the antisymmetric DSZ pairing, mutual locality, the duality group acting on charges and couplings. The program's contribution is the identification of the electric–magnetic frame choice with the phase-space polarization choice as the same operation, with no dynamics behind it: no Lagrangian in the repository relates the two choices. The bridge between the two dualities is a published remark: "electric-magnetic duality is a special case of Born-Reciprocity", "a transformation which acts as a rotation in phase space" (Gibbons and Herdeiro 2001 [S]). The phase space they name is the electromagnetic field's, whose conjugate pair is the magnetic field B and the electric displacement D, not the position and momentum of matter, so the remark does not show that ρ, acting on position and momentum, exchanges electric and magnetic charge (`notes/literature-check.md` §5). One vacuum event that selects both polarizations was not found ([one enlarged modular structure](/wiki/electric-magnetic-duality/unified-modular-structure#in-the-literature); flag 67, pending).
 
 The checkpoint counts the identification in several places:
 
 - the technical abstract: "The electric–magnetic charge lattice, with its Dirac–Schwinger–Zwanziger symplectic pairing [17†], furnishes a second arena in which the same polarization choice recurs" (#11 §1);
-- the assessment: "one structural unification (polarization of phase space and of charge space as one move)", and among the progressive signs "the §11.3 unification generating new questions" (#11 §15; [the program's self-assessment](/wiki/program/assessment));
+- the assessment: "one structural unification (polarization of phase space and of charge space as one move)", and among the progressive signs "the §11.3 unification generating new questions" (#11 §15; [the program's self-assessment](/wiki/program/assessment); flag 67, pending);
 - [founding supposition 11](/wiki/program/founding-suppositions): "the polarization identification as the program-native addition" to the established [magnetic mirror-family](/wiki/electric-magnetic-duality/magnetic-mirror-family) (#11 App. A item 11);
 - [the handoff](/wiki/history/documents/handoff), under "Alive": "Charge-lattice identification: DSZ pairing is symplectic; duality frame choice = Lagrangian polarization, same [[0,1],[−1,0]] generator as Born rotation and S-duality" (`HANDOFF.md` §2).
 
@@ -145,4 +147,5 @@ Whether the phase-space and charge-space polarizations are components of one enl
 - `review/round3/referee/audit-notes.md` Step 1, Step 4(d), Step 5 — the 2π versus 4π normalization and "interpretation"; the framework doing no work in #14; the order of the weakest links.
 - `review/round3-adjudication.md` 'Rulings' 12 — the normalization and Schwinger, accepted as minor.
 - `review/wiki-build-flags.md` flag 60 — #12's identification as the conjecture's shared-photon form; flag 62 — the explanation of the null result open, in that form's setting.
+- `notes/literature-check.md` §5; `review/wiki-build-flags.md` flag 67 — the bridge between the two dualities as a published remark; pending.
 - `popsci/universes-other-half.md` 'Dark matter as the other polarization' — the unification as "The framework's proposal" (not a status source).

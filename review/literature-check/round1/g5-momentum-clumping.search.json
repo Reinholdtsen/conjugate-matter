@@ -1,0 +1,1699 @@
+{
+ "group": "g5-momentum-clumping",
+ "findings": [
+  {
+   "conjecture": "C6",
+   "id": "0901.1106",
+   "citation": "P. Sikivie, Q. Yang, \"Bose-Einstein Condensation of Dark Matter Axions\", Phys. Rev. Lett. 103, 111301 (2009), arXiv:0901.1106",
+   "relation": "partial",
+   "summary": "Argues that cold dark-matter axions are driven by their own gravitational interaction to thermalize and Bose-condense: (almost) all axions go into one quantum state, with condensate patches about the size of the horizon, so the axions collect in one state while staying spread through space. In a homogeneous universe that state is the lowest momentum mode, which is condensation in momentum space in Einstein's sense. Continued rethermalization puts infalling axions into the lowest-energy state at fixed angular momentum (net rotation), which the authors use to explain caustic rings; the full treatment is Erken, Sikivie, Tam and Yang, Phys. Rev. D 85, 063520 (2012), arXiv:1111.1157. It is the closest published statement that dark matter collects collectively in momentum space through its own attraction.",
+   "difference": "Ordinary gravity plus Bose degeneracy drives the condensation; there is no attraction gated in relative velocity, no conjugate (p-polarized) sector and no Born reciprocity. The outcome is one condensate in the lowest-energy state, not a smooth Maxwellian fragmenting into a few discrete streams at different mean velocities. It holds only for highly degenerate bosons, the same requirement the record's classicality theorem reaches (#11 §9 (i)). The paper does not use the words 'momentum space'; equating Bose condensation with momentum-space clumping is the textbook reading and the notebook's own ('below a critical velocity dispersion the core of a halo condenses — momentum-space clumping, realized', #1 §5.2). Its long-range coherence is disputed by Guth, Hertzberg and Prescod-Weinstein 2015 (evidence-against below). Citation graph: the 562 citing papers filtered for 'momentum space', 'velocity space', 'discrete flows' and 'condensation in momentum space' contain no statement of velocity-space fragmentation; the 35 references are the axion and BEC-halo lineage (Sin 1992/94, Böhmer–Harko 2007, Semikoz–Tkachev 1995).",
+   "quotes": [
+    {
+     "text": "We show that cold dark matter axions thermalize and form a Bose-Einstein condensate.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Axion BEC means that (almost) all axions go to one state.",
+     "where": "full text, main body (rethermalization paragraph)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "Thus gravitational interactions cause the axions to thermalize and form a BEC",
+     "where": "full text, main body (thermalization rate)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "We expect overlapping condensate patches with typical size of order the horizon.",
+     "where": "full text, main body (causality paragraph)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1507.01019",
+   "citation": "L. Berezhiani, J. Khoury, \"Theory of dark matter superfluidity\", Phys. Rev. D 92, 103510 (2015), arXiv:1507.01019",
+   "relation": "partial",
+   "summary": "Dark matter made of eV-mass axion-like particles with strong self-interactions condenses into a superfluid core inside galaxies, where the velocity dispersion (and so the temperature) is low; in clusters, where the dispersion is higher, it is partly or wholly in the normal phase. In the condensed phase the dark matter behaves as collective excitations rather than individual collisionless particles. This is the notebook's form of C6, 'below a critical velocity dispersion the core of a halo condenses', with 'superfluid-like cores in dwarfs' (#1 §5.2), and the same split between galaxies and clusters as the program's knee.",
+   "difference": "The condensate is a Bose–Einstein superfluid produced by strong contact self-interactions and Bose degeneracy, not by an attraction gated in relative velocity; there is one condensate, not several velocity streams; the aim is MOND phenomenology through phonons coupled to baryons; nothing is conjugate or momentum-polarized. Citation graph: forward citations filtered for 'momentum space' or 'velocity space' with 'condens' gave one unrelated thesis; the references are the BEC-halo lineage (Sin, Ji–Sin, Böhmer–Harko, Sikivie–Yang, Guth–Hertzberg–Prescod-Weinstein).",
+   "quotes": [
+    {
+     "text": "The condensate has a polytropic equation of state P~rho^3 giving rise to a superfluid core within galaxies.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "due to the higher velocity dispersion in clusters, and correspondingly higher temperature, the DM in clusters is either in a mixture of superfluid and normal phase, or fully in the normal phase",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Instead of behaving as individual collisionless particles, the DM superfluid is more aptly described as collective excitations.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1412.5930",
+   "citation": "A. H. Guth, M. P. Hertzberg, C. Prescod-Weinstein, \"Do Dark Matter Axions Form a Condensate with Long-Range Correlation?\", Phys. Rev. D 92, 103513 (2015), arXiv:1412.5930",
+   "relation": "evidence-against",
+   "summary": "Examines the Sikivie–Yang claim and argues that thermalization through attractive interactions (gravity, attractive self-coupling) produces localized Bose clumps (stars, solitons) with only short-range correlation; only repulsive interactions drive long-range order. A condensate forms, but it is not coherent over cosmological distances.",
+   "difference": "Weighs against the gravity-driven route to a condensate that is localized in momentum and spread through space, the published form closest to C6. It concerns attraction in position; it does not treat an attraction gated in velocity, whose Born-dual reading would localize in momentum rather than position, so it is not a test of the record's gated model.",
+   "quotes": [
+    {
+     "text": "there is an essential difference between the thermalization and formation of a condensate due to repulsive interactions, which can indeed drive long-range order, and that due to attractive interactions, which can lead to localized Bose clumps (stars or solitons) that only exhibit short range correlation",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "we conclude that while a Bose-Einstein condensate is formed, the claim of long-range correlation is unjustified",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1804.05857",
+   "citation": "D. G. Levkov, A. G. Panin, I. I. Tkachev, \"Gravitational Bose-Einstein condensation in the kinetic regime\", Phys. Rev. Lett. 121, 151301 (2018), arXiv:1804.05857",
+   "relation": "related",
+   "summary": "Shows with kinetic theory and simulations that light bosonic dark matter in virialized halos and miniclusters Bose-condenses through gravity alone, ending in Bose stars, and gives the condensation time. The record cites it as the method behind its wave-island rate (#11 §9 (ii), 'LPT-style').",
+   "difference": "Collective condensation by an attractive self-interaction does happen for wave dark matter, but what forms is a lump localized in position (a Bose star), not streams spread through space and localized in velocity. No velocity gate, no conjugate sector.",
+   "quotes": [
+    {
+     "text": "We study Bose-Einstein condensation and formation of Bose stars in the virialized dark matter halos/miniclusters by universal gravitational interactions.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "cond-mat/0005001",
+   "citation": "D. M. Stamper-Kurn, W. Ketterle, \"Spinor condensates and light scattering from Bose-Einstein condensates\", in Coherent atomic matter waves, Les Houches Summer School Session LXXII (1999), Springer (2001), doi:10.1007/3-540-45338-5_2, arXiv:cond-mat/0005001 (book chapter, lecture notes)",
+   "relation": "related",
+   "summary": "States the standard reading of Bose–Einstein condensation as a condensation in momentum space, attributing it to Einstein: in Bragg spectroscopy a trapped condensate stands out from the thermal cloud more sharply in momentum than in position.",
+   "difference": "Matter collecting in momentum space is textbook physics for degenerate bosons. It needs quantum degeneracy (the record's classicality theorem reaches the same requirement) and no attraction in momentum space. Nothing about dark matter or conjugate matter. It means that what is distinctive in C6 is its mechanism and setting, not the phrase 'matter clumps in momentum space'. The original is London 1938 (not read; see unverified leads).",
+   "quotes": [
+    {
+     "text": "emphasizes the original description by Einstein of Bose–Einstein condensation as a condensation in momentum space",
+     "where": "full text, section on Bragg spectroscopy of trapped condensates",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "0709.0776",
+   "citation": "R. Delbourgo, D. Lashmar, \"Born reciprocity and the 1/r potential\", Found. Phys. 38, 995 (2008), arXiv:0709.0776",
+   "relation": "related",
+   "summary": "Applies Born reciprocity to the 1/r potential: the Hamiltonian H = (p² + b²r²)/2m − α(1/r + b/p) gives the Coulomb or Newton attraction a reciprocal partner −αb/p, an attraction in momentum space. In a galaxy the pair interaction becomes GmM(1/r + Ω/|v − v′|), averaged over all other masses and their relative speeds; with Ω ≈ 1.5×10⁻¹⁵ Hz the extra term flattens rotation curves without dark matter. The momentum term changes how velocity follows from momentum (ṙ = p(1/m + bα/p³)), not the force.",
+   "difference": "This is the Born-reciprocal 'gravity in momentum space' that C6's mechanism needs (#1 §5.2's mean field with an attractive U(p − p′); App. A item 10), used as a mean field over co-moving neighbours in a galaxy. The authors draw no conclusion about matter clumping in momentum space; they use the term in place of dark matter, for ordinary matter. No collective instability, no conjugate polarization, no gate width.",
+   "quotes": [
+    {
+     "text": "Born’s reciprocity hypothesis affirms that this invariance extends to the entire Hamiltonian and equations of motion",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "So we just need to sum over all other masses M and their relative speeds v to obtain an average value for",
+     "where": "full text, §4 Reciprocity and rotation of the galaxy",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "This means there is a cubic relation between momentum and speed, force and displacement.",
+     "where": "full text, §2 Classical motion",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "0912.1517",
+   "citation": "J. G. Burgers, C. L. M. Mantz, T. Prokopec, \"The Newtonian Limit of Hermitian Gravity\", Gen. Rel. Grav. 45, 155 (2013), arXiv:0912.1517",
+   "relation": "related",
+   "summary": "In Hermitian gravity, a Born-reciprocal extension of general relativity to a complex manifold of space-time and momentum-energy (Mantz and Prokopec 2008), the field of a point mass integrated over positions obeys a momentum-space Laplace equation, ∇ₚ²φₚ ∝ M δ²(p) (eqs. 65–66), solved by a logarithmic potential in momentum: a Newtonian potential in momentum space, which the authors present as a realization of Born's reciprocity.",
+   "difference": "Gravity acting in momentum space in a Born-reciprocal theory, for a single point source only: no matter distribution, no clumping, no dark matter. The authors also report that this version of the theory misses light deflection by 25%.",
+   "quotes": [
+    {
+     "text": "the Hermitian Gravity solutions exhibit a generalized reciprocity symmetry originally proposed by Born in the 1930s",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "one obtains the momentum space Laplace equation",
+     "where": "full text, section on the point-particle source (eq. 65)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "recid:1657135",
+   "citation": "C. Castro, \"Maximal proper force, black hole horizons and matter as curvature in momentum space\", Int. J. Geom. Meth. Mod. Phys. 15, 1850035 (2018), doi:10.1142/S0219887818500354 (not on arXiv)",
+   "relation": "related",
+   "summary": "Working with the geometry of the cotangent bundle (phase space) and a maximal proper force, relates the black-hole horizon radius to a singularity of momentum-space curvature, and suggests that matter stress-energy and vacuum energy may be read as curvature of momentum space.",
+   "difference": "Momentum-space geometry and momentum-space black holes, without dark matter or any clumping of matter in momentum; a geometric reinterpretation, not a dynamical claim.",
+   "quotes": [
+    {
+     "text": "A correspondence is found between the black hole horizon radius and a singularity in the curvature of momentum space.",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "the matter stress energy tensor and vacuum energy in the underlying space-time may admit an interpretation in terms of the curvature in momentum spaces",
+     "where": "abstract (INSPIRE)",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C6",
+   "id": "nucl-th/0212090",
+   "citation": "C. B. Das, S. Das Gupta, C. Gale, B.-A. Li, \"Momentum dependence of symmetry potential in asymmetric nuclear matter for transport model calculations\", Phys. Rev. C 67, 034611 (2003), arXiv:nucl-th/0212090",
+   "relation": "related",
+   "summary": "Transport (BUU) models of heavy-ion collisions use a momentum-dependent mean field whose interaction term is ∫∫ f(r,p) f(r,p′)/(1 + (p − p′)²/Λ²) d³p d³p′ (eq. 10), with Λ a range in momentum; it is a simpler stand-in for the Gogny force, whose momentum dependence is two Gaussians in (k − k′). The single-particle potential (eq. 12) contains ∫ d³p′ f(r,p′)/(1 + (p − p′)²/Λ²), a potential set by the momentum distribution of neighbours at the same position. The form goes back to Gale, Bertsch and Das Gupta, Phys. Rev. C 35, 1666 (1987).",
+   "difference": "This is the mathematical structure of #1 §5.2's ε(p; f) = p²/2m + ∫U(p − p′) f̄(p′) d³p′ with U of momentum range μ, where ∇ₚU enters the particle velocity, and it has been standard in nuclear transport since 1987. The signs of the coefficients were not checked here. It is used for nucleons, with no dark matter and no claim of fragmentation into velocity streams. The notebook calls the structure 'Berry-curvature transport'; the nuclear momentum-dependent mean field is a closer established analogue.",
+   "quotes": [
+    {
+     "text": "For transport model simulations of collisions between two nuclei which have $N/Z$ significantly different from unity one needs a one-body potential which is both isospin and momentum dependent.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "Given that the momentum dependence generated by the Gogny potential comes from two Gaussians, we proceed to find a simpler version for momentum dependent potential",
+     "where": "full text, before eq. (10)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "0806.2182",
+   "citation": "S.-Y. Ha, E. Tadmor, \"From particle to kinetic and hydrodynamic descriptions of flocking\", Kinetic and Related Models 1, 415 (2008), doi:10.3934/krm.2008.1.415, arXiv:0806.2182",
+   "relation": "related",
+   "summary": "Kinetic (Vlasov-type) theory of the Cucker–Smale flocking model: each particle aligns its velocity with the others', weighted by a kernel in their spatial distance, and the velocity distribution concentrates onto one common bulk velocity ('flocking').",
+   "difference": "Velocity concentration produced by an interaction is the defining result of flocking theory, the source of the founding image's vocabulary ('flocking', 'murmurations'). The alignment is dissipative rather than a Hamiltonian attraction, is weighted by distance in position rather than gated in velocity, and drives the whole system to one velocity rather than several streams. Not gravity, not dark matter.",
+   "quotes": [
+    {
+     "text": "We then derive a Vlasov-type kinetic model for the C-S particle model and prove it exhibits time-asymptotic flocking behavior for arbitrary compactly supported initial data.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API)"
+    },
+    {
+     "text": "as particles with increasingly highly correlated velocities flock towards particle-independent bulk velocity",
+     "where": "full text, §1 Introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1801.06571",
+   "citation": "Y.-M. Wu, A. Klein, A. V. Chubukov, \"The Conditions for l=1 Pomeranchuk Instability in a Fermi Liquid\", Phys. Rev. B 97, 165101 (2018), arXiv:1801.06571",
+   "relation": "related",
+   "summary": "Pomeranchuk instability of a Fermi liquid: when a Landau parameter F_l reaches −1, the interaction among quasiparticles near the Fermi surface makes the momentum distribution unstable to deformation; the paper studies when conservation laws block the l = 1 channels.",
+   "difference": "An established instability of a momentum distribution, driven by the interaction among quasiparticles, in quantum Fermi liquids. It deforms a Fermi surface; it does not fragment a distribution into streams, and it has nothing to do with dark matter.",
+   "quotes": [
+    {
+     "text": "The condition for a Pomeranchuk instability is set by",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API)"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1607.08621",
+   "citation": "S. Alexander, S. Cormack, \"Gravitationally bound BCS state as dark matter\", JCAP 04 (2017) 005, arXiv:1607.08621",
+   "relation": "related",
+   "summary": "Fermionic dark matter with an attractive interaction (torsion-induced) undergoes a BCS transition; self-consistent superfluid halos are solved together with gravity, and dwarf-sized halos need a particle mass of about 200 eV.",
+   "difference": "A BCS-paired dark-matter halo exists as a model, matching the notebook's BCS analogy, but the pairing interaction is a contact attraction, not one gated in relative velocity, and the result is a superfluid halo, not velocity streams.",
+   "quotes": [
+    {
+     "text": "We explore the possibility that fermionic dark matter undergoes a BCS transition to form a superfluid.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "This requires an attractive interaction between fermions and we describe a possible source of this interaction induced by torsion.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "quant-ph/0407100",
+   "citation": "F. Xu, A. M. Wang, X. D. Yang, H. You, \"Numerical Simulation Solution of the BCS Pairing Problem\", Commun. Theor. Phys. 44, 171 (2005), doi:10.1088/6102/44/1/171, arXiv:quant-ph/0407100",
+   "relation": "evidence-against",
+   "summary": "Restates standard BCS theory: the reduced interaction pairs electrons of equal energy and opposite momenta and spins, (k↑, −k↓), and the attraction acts only within a shell of energies near the Fermi surface.",
+   "difference": "The notebook says 'a momentum-gated attraction is precisely the pairing interaction' (#1 §5.2). In BCS the attraction is restricted to an energy shell and pairs opposite momenta (relative momentum near 2k_F, zero total momentum), whereas an attraction gated to small relative velocity acts on the opposite set of pairs. This weighs against the BCS analogy as stated ('exact in structure'), not against momentum-space clumping. Any BCS textbook gives the same; this paper is the one whose text was checked.",
+   "quotes": [
+    {
+     "text": "according to the Cooper pair situation where the paired electrons have equal energies but opposite momenta and spins",
+     "where": "full text, §2 (the BCS Hamiltonian)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "From BCS theory, the Cooper pair lies in the attraction area",
+     "where": "full text, section on the numerical estimate",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "astro-ph/9504052",
+   "citation": "P. Sikivie, I. I. Tkachev, Y. Wang, \"The Velocity peaks in the cold dark matter spectrum on earth\", Phys. Rev. Lett. 75, 2911 (1995), arXiv:astro-ph/9504052",
+   "relation": "related",
+   "summary": "Generalizes the secondary-infall model of halo formation and predicts that the cold dark matter velocity distribution at the Earth has discrete peaks: halo dark matter arrives in a set of discrete flows with distinct velocities. Natarajan and Sikivie, Phys. Rev. D 72, 083513 (2005), argue the discrete flows are robust; Erken et al. 2012 state that in the non-linear regime cold dark matter produces discrete flows.",
+   "difference": "The velocity structure is inherited from cold initial conditions (dark matter lies on a thin sheet in phase space that folds during infall), not produced by an instability of a smooth distribution under an attraction among co-moving particles. The flows are cold and narrow, not of width ~v*, and no new interaction is involved. It is a prior statement of the observable (dark matter in discrete velocity streams), not of the clumping mechanism.",
+   "quotes": [
+    {
+     "text": "The cold dark matter spectrum on earth is expected to have peaks in velocity space.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "0812.2033",
+   "citation": "M. Zemp, J. Diemand, M. Kuhlen, P. Madau, B. Moore, D. Potter, J. Stadel, L. Widrow, \"The Graininess of Dark Matter Haloes\", Mon. Not. R. Astron. Soc. 394, 641 (2009), arXiv:0812.2033",
+   "relation": "related",
+   "summary": "In the Via Lactea II ΛCDM simulation the local dark-matter velocity distribution grows clumpier with radius; at 400 kpc it consists of a little more than a dozen clumps in velocity space and no smooth component, which the authors attribute to large-scale streams from tidally disrupted subhaloes.",
+   "difference": "A structure like the founding image's 'O(10) macro-streams' (old row 3) appears in ordinary collisionless dark matter in outer halos, from accretion, with no new interaction. It bears on the test the momentum-gravity note proposes (§4: only about ten broad streams would test the image): such streams are expected in outer halos anyway, so a discriminating test would have to look at inner halos or at stream widths.",
+   "quotes": [
+    {
+     "text": "At 400 kpc, for example, there are only a bit more than a dozen clumps in velocity space and no smooth component at all.",
+     "where": "full text, section on the velocity-space structure",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "This is evidence that the outer part of the halo is built up from a collection of large scale streams from the tidal disruption of infalling subhaloes.",
+     "where": "full text, same section",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1002.3162",
+   "citation": "M. Vogelsberger, S. D. M. White, \"Streams and caustics: the fine-grained structure of LCDM haloes\", Mon. Not. R. Astron. Soc. 413, 1419 (2011), arXiv:1002.3162",
+   "relation": "related",
+   "summary": "Follows fine-grained phase-space streams in the Aquarius haloes: about 10¹⁴ streams pass through a point 8 kpc from the centre, and the local velocity distribution should be very smooth, the most massive fine-grained stream contributing about 0.1% of the signal.",
+   "difference": "Ordinary cold dark matter, no new interaction; already cited by the record (momentum-gravity note §4). It is the baseline the founding image would have to differ from near the Sun: a smooth local velocity distribution rather than a few broad streams.",
+   "quotes": [
+    {
+     "text": "the velocity distribution of dark matter particles should be very smooth with the most massive fine-grained stream contributing about 0.1% of the total signal",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1002.0291",
+   "citation": "P.-H. Chavanis, \"Dynamical stability of infinite homogeneous self-gravitating systems: application of the Nyquist method\", Eur. Phys. J. B 85, 229 (2012), arXiv:1002.0291",
+   "relation": "related",
+   "summary": "Nyquist analysis of the Vlasov–Poisson (Jeans) problem: for any symmetric single-humped velocity distribution the onset of instability is the same as for the corresponding barotropic gas; two-stream instabilities need double-humped distributions.",
+   "difference": "Under ordinary gravity a smooth single-humped distribution has no instability beyond Jeans that would create velocity streams. The record already cites it (momentum-gravity run 2) and computed the gated case itself; the paper does not treat an attraction gated in velocity.",
+   "quotes": [
+    {
+     "text": "We show that this result is true for any symmetric single-humped velocity distribution, not only for the Maxwellian.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "cond-mat/0502499",
+   "citation": "C. Connaughton, C. Josserand, A. Picozzi, Y. Pomeau, S. Rica, \"Condensation of classical nonlinear waves\", Phys. Rev. Lett. 95, 263901 (2005), arXiv:cond-mat/0502499",
+   "relation": "related",
+   "summary": "Classical nonlinear waves (the defocusing nonlinear Schrödinger equation) condense into a large-scale coherent structure below a critical energy density in three dimensions, a classical counterpart of Bose–Einstein condensation, described by wave-turbulence theory.",
+   "difference": "Condensation in wavenumber (momentum) space of classical waves, the regime that the record's classicality theorem allows for collective momentum-space behaviour (N_occ ≫ 1). Repulsive interaction, no gravity, no dark matter.",
+   "quotes": [
+    {
+     "text": "We study the formation of a large-scale coherent structure (a condensate) in classical wave equations",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API)"
+    },
+    {
+     "text": "in analogy with standard Bose-Einstein condensation in quantum systems",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1610.08297",
+   "citation": "L. Hui, J. P. Ostriker, S. Tremaine, E. Witten, \"Ultralight scalars as cosmological dark matter\", Phys. Rev. D 95, 043541 (2017), arXiv:1610.08297",
+   "relation": "related",
+   "summary": "Among the consequences of fuzzy (wave) dark matter: with cold dark matter most globular clusters in the Fornax dwarf should have spiralled to its centre, and fuzzy dark matter resolves this.",
+   "difference": "The consequence the notebook drew from velocity clumping ('the Fornax globular-cluster timing problem is a feature, not a bug', #1 §5.2; old row 4, under review) is published for wave dark matter, through cores and wave effects, without any clumping in velocity.",
+   "quotes": [
+    {
+     "text": "If the dark matter in the Fornax dwarf galaxy is composed of CDM, most of the globular clusters observed in that galaxy should have long ago spiraled to its center, and this problem is resolved if the dark matter is FDM.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "1905.09297",
+   "citation": "L. Berezhiani, B. Elder, J. Khoury, \"Dynamical Friction in Superfluids\", JCAP 10 (2019) 074, arXiv:1905.09297",
+   "relation": "related",
+   "summary": "Computes dynamical friction on a perturber moving through a superfluid: a subsonic perturber ordinarily cannot lose energy, and the Jeans-like tachyonic mass of sound waves gives only a small nonzero friction.",
+   "difference": "Suppressed dynamical friction in condensed cores, a consequence the notebook drew from velocity clumping, is published for superfluid dark matter, from superfluidity rather than from velocity streams.",
+   "quotes": [
+    {
+     "text": "Ordinarily a subsonic perturber moving through a superfluid is kinematically prohibited from losing energy",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C6",
+   "id": "2503.06160",
+   "citation": "M. Mehraeen, \"Quantum Response Theory and Momentum-Space Gravity\", Phys. Rev. Lett. 135, 156302 (2025), arXiv:2503.06160",
+   "relation": "collision",
+   "summary": "'Momentum-space gravity' here names the quantum geometry (Berry curvature, quantum metric) of electron bands in multiband solids, written in gravitational language, including Einstein-like field equations in momentum space.",
+   "difference": "Same words, different thing: band geometry in crystals, not an attraction among particles in momentum space. A reader searching 'momentum-space gravity' meets this literature first.",
+   "quotes": [
+    {
+     "text": "We present a quantum response approach to momentum-space gravity in dissipative multiband systems",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C6",
+   "id": "2602.23822",
+   "citation": "H. Yang, S. D. M. White, L. Gao, \"The capture of halo material by orbiting subhaloes\", arXiv:2602.23822 (2026), arXiv preprint only",
+   "relation": "collision",
+   "summary": "'Velocity space clumping' of halo stars is used for detecting subhaloes from stellar kinematics.",
+   "difference": "Same words, different thing: observational clustering of stellar velocities from accretion, not dark matter clumping in momentum space through an interaction.",
+   "quotes": [
+    {
+     "text": "Thus, initially starless subhaloes could not be detected through velocity space clumping of halo stars.",
+     "where": "full text, section on velocity-space detection",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C7",
+   "id": "0709.0776",
+   "citation": "R. Delbourgo, D. Lashmar, \"Born reciprocity and the 1/r potential\", Found. Phys. 38, 995 (2008), arXiv:0709.0776",
+   "relation": "partial",
+   "summary": "Writing Newtonian gravity in Born-reciprocal form, H = (p² + b²r²)/2m − α(1/r + b/p) with α = GMm, the interaction between two masses becomes GmM(1/r + Ω/|v − v′|): beside the 1/r term there is a reciprocal term that does not depend on separation and grows as the relative velocity falls, so bodies moving at similar velocities interact most strongly. Summed over a galaxy's masses and their relative speeds, the term flattens rotation curves without dark matter (Ω ≈ 1.5×10⁻¹⁵ Hz); the authors note that it weakens between galaxies receding in the Hubble flow. In the Hamiltonian the term changes how velocity follows from momentum (ṙ = p(1/m + bα/p³)), not the force.",
+   "difference": "A close variant in a different model: (i) it acts among all masses, as a replacement for dark matter, not among dark-matter particles only; (ii) it is an added term proportional to 1/|v − v′|, with no gate width v* and no dependence on distance, not a 1/r attraction multiplied by a gate W(|v − v′|/v*); (iii) it is non-relativistic and breaks Galilean invariance, which the authors list among their own criticisms; (iv) the authors make no claim about clumping. Its Hamiltonian behaviour is the record's 'Hamiltonian reading' (#1 §5.2; momentum-gravity note §2: 'A potential in momentum differences exerts no force'), and its Hubble remark parallels the note's Hubble-flow gating (§6). The record's null search (review/momentum-gravity/run2/analyses/clumping.json, C18) did not find it. Citation graph: 5 citing papers (Castro 2008, 2009, 2011; Pavsic 2009; Ghosh 2017), none develops the term; the 15 references (Born 1949, Jarvis–Morgan, Low, Govaerts et al., Milgrom) contain no earlier form of it.",
+   "quotes": [
+    {
+     "text": "We investigate this idea for atomic physics and galactic motion, where one is basically dealing with a 1/r potential",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "might possibly offer an explanation for galactic rotation, without invoking dark matter",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "So we just need to sum over all other masses M and their relative speeds v to obtain an average value for",
+     "where": "full text, §4 Reciprocity and rotation of the galaxy",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "And because galaxies are receding away from us at Hubble rates the relative velocity term",
+     "where": "full text, §5 Conclusions and criticisms",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "There may exist other choices for making V compatible with Born’s principle, but they are probably less natural than the proposal",
+     "where": "full text, §1, just before eq. (3)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C7",
+   "id": "2303.04816",
+   "citation": "P. Schuster, N. Toro, K. Zhou, \"Interactions of Particles with 'Continuous Spin' Fields\", JHEP 04 (2023) 010, arXiv:2303.04816",
+   "relation": "related",
+   "summary": "For matter coupled to a scalar-like continuous-spin field, the leading velocity-dependent pair potential is L_int = (g²/4πr)[1 − (ρ²r²/32)(|vᵢ − vⱼ| − (vᵢ − vⱼ)·r̂)² + …] (eq. 129): a long-range interaction whose correction depends only on the relative velocity, vanishes for co-moving particles and for motion along the line joining them, and matters when ρvr ~ 1.",
+   "difference": "Already cited by the record (momentum-gravity note §9). The velocity dependence weakens the interaction for transverse relative motion at large ρvr, so the threshold velocity falls with distance rather than being a fixed v*; scalar current, not gravity; no dark-matter application.",
+   "quotes": [
+    {
+     "text": "Thus, at leading nontrivial order, the velocity-dependent potential for a pair of matter particles is",
+     "where": "full text, §V.1, before eq. (129)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "For particles moving along a line, the new term has no effect, while for transverse motion it becomes important at long distances",
+     "where": "full text, §V.1, after eq. (129)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C7",
+   "id": "2503.03817",
+   "citation": "S. Kundu, P. Schuster, N. Toro, \"First look at continuous spin gravity: Time delay signatures\", Phys. Rev. D 113, 076017 (2026), arXiv:2503.03817",
+   "relation": "related",
+   "summary": "First linearized formalism coupling spinless matter to gravity mediated by continuous-spin gravitons (spin scale ρ_g); it computes only the time-delay signatures of gravitational waves in an interferometer, at leading order in Newton's constant.",
+   "difference": "No static or velocity-dependent two-body potential is computed, so there is not yet a gravitational counterpart of the scalar result above. It updates the momentum-gravity note's statement (§9) 'No gravitational (tensor) version exists': a linearized tensor version now exists, without the two-body force.",
+   "quotes": [
+    {
+     "text": "We develop a formalism for coupling spinless matter to continuous spin gravity at linearized level.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "and is limited to leading order in Newton’s gravitational constant",
+     "where": "full text, §I Introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C7",
+   "id": "2402.08557",
+   "citation": "J. Skolimowski, \"Real-space analysis of Hatsugai-Kohmoto interaction\", Phys. Rev. B 109, 165129 (2024), arXiv:2402.08557",
+   "relation": "related",
+   "summary": "The Hatsugai–Kohmoto interaction is diagonal in momentum space, which makes it exactly solvable there; in real space it has infinite range, its strength not depending on the distance between the interacting particles.",
+   "difference": "An interaction of unlimited range in position that is local in momentum (in the standard form of Hatsugai and Kohmoto, which was not read, it couples the two spin states of the same momentum): the structure of a momentum gate on a long-range interaction, in a solvable lattice-electron model. It is repulsive in the standard form, acts on electrons on a lattice, and is not a force law for dark matter.",
+   "quotes": [
+    {
+     "text": "it is exactly solvable in momentum space in any dimension",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract, arXiv API)"
+    },
+    {
+     "text": "The attractiveness of this model comes also from the fact that it becomes diagonal in momentum space",
+     "where": "full text, §1 Introduction",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    },
+    {
+     "text": "The strength of the interaction is controlled by U and does not depend on the distance between the interacting particles.",
+     "where": "full text, §2 (the model)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C7",
+   "id": "1011.6374",
+   "citation": "A. Loeb, N. Weiner, \"Cores in Dwarf Galaxies from Dark Matter with a Yukawa Potential\", Phys. Rev. Lett. 106, 171302 (2011), arXiv:1011.6374",
+   "relation": "related",
+   "summary": "Dark matter interacting through a Yukawa potential has a velocity-dependent cross-section that makes cores in dwarf galaxies while leaving systems with much larger velocity dispersion, such as clusters, unaffected.",
+   "difference": "A dark-matter self-interaction that is effective only at low relative velocity, but collisional (scattering), not a long-range mean-field attraction; the record's own contact gate (#11 §8) belongs to this family (velocity-dependent SIDM; see also Feng, Kaplinghat and Yu 2010, Tulin, Yu and Zurek 2013, Kaplinghat, Tulin and Yu 2016).",
+   "quotes": [
+    {
+     "text": "could naturally explain the recently observed cores in dwarf galaxies without affecting the dynamics of objects with a much larger velocity dispersion, such as clusters of galaxies",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C7",
+   "id": "2007.00667",
+   "citation": "R. Lasenby, \"Long range dark matter self-interactions and plasma instabilities\", JCAP 11 (2020) 034, arXiv:2007.00667",
+   "relation": "related",
+   "summary": "Dark matter interacting through a light vector mediator has a long-range self-interaction; coherent effects make small perturbations grow exponentially, as plasma instabilities do, at couplings far below the particle-by-particle limits. For velocity distributions with a single peak (such as an anisotropic Maxwellian) only magnetic instabilities exist.",
+   "difference": "Long-range forces among dark matter with collective velocity-space instabilities, but the force is a vector force (with its usual velocity dependence through magnetism), not gated by relative velocity. The single-peak statement agrees with the record's finding that a smooth distribution does not break into streams electrostatically (also Chavanis 2012). Already in the record's run-2 search (C18).",
+   "quotes": [
+    {
+     "text": "Coherent scattering effects through this force can lead to the exponential growth of small perturbations, in analogy to electromagnetic plasma instabilities.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    },
+    {
+     "text": "For velocity distributions without multiple peaks (such as an anisotropic Maxwellian distribution), only magnetic instabilities exist",
+     "where": "full text, §1 Introduction (summary of results)",
+     "check": "lit.py quote: FOUND (full text, arxiv.org/html)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "conjecture": "C7",
+   "id": "2510.00098",
+   "citation": "M. Costa, C. Creque-Sarbinowski, O. Simon, Z. J. Weiner, \"Dark forces suppress structure growth\", JCAP 06 (2026) 055, arXiv:2510.00098",
+   "relation": "related",
+   "summary": "Minimal models of scalar-mediated attractive forces between dark-matter particles do not enhance the growth of unbiased tracers: the faster growth of the density contrast is cancelled by faster dilution of the background dark-matter density, and CMB-compatible versions suppress structure growth.",
+   "difference": "A long-range attraction among dark matter only, but not velocity-gated; its main cosmological effects come through the background (faster dilution of the background dark-matter density), which the gated model lacks. This supports the momentum-gravity note's statement (§6) that the BOSS full-shape bound on scalar forces is set by the background modification and does not transfer to the gated model.",
+   "quotes": [
+    {
+     "text": "We show that minimal models of scalar-mediated forces between dark matter particles do not enhance the growth of unbiased tracers of structure",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C7",
+   "id": "astro-ph/0606566",
+   "citation": "M. Kesden, M. Kamionkowski, \"Galilean Equivalence for Galactic Dark Matter\", Phys. Rev. Lett. 97, 131303 (2006), arXiv:astro-ph/0606566",
+   "relation": "evidence-against",
+   "summary": "If dark matter feels a stronger self-attraction than baryons, stars gain energy preferentially during tidal disruption and the trailing tidal stream is enhanced; the roughly equal streams of the Sagittarius dwarf challenge differences in acceleration above about 10%.",
+   "difference": "A bound on an extra long-range attraction among dark matter only, not gated in velocity. For a gated force it applies at the satellite's relative speed; the momentum-gravity note (§6) maps it to ε ≲ O(1) (0.2–2.5) at v* = 120 km/s and finds it weaker than the Lyman-α forest. The record already uses it; listed here because its result weighs against the conjecture's required strength (ε > 1).",
+   "quotes": [
+    {
+     "text": "The Sgr dwarf galaxy is seen to have roughly equal streams, challenging models in which DM and baryons accelerate differently by more than 10%.",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "conjecture": "C7",
+   "id": "1909.06986",
+   "citation": "T.-T. Wang, Y.-G. Ma, Z.-Q. Zhang, \"Effects of Ptot gates and velocity gates on light-particle momentum correlation in intermediate-energy heavy-ion collisions\", Phys. Rev. C 99, 054626 (2019), arXiv:1909.06986",
+   "relation": "collision",
+   "summary": "'Velocity gates' and momentum gates are cuts on pair velocity or total pair momentum used to select particle pairs in femtoscopic correlation functions of heavy-ion collisions.",
+   "difference": "Same words, different thing: an experimental selection cut, not a force switched on by relative velocity. Most INSPIRE hits for 'velocity-gated' are of this kind.",
+   "quotes": [
+    {
+     "text": "The results indicate that momentum correlation functions gating with total pair momentum is stronger",
+     "where": "abstract",
+     "check": "lit.py quote: FOUND (abstract)"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "closest": [
+  {
+   "conjecture": "C6",
+   "id": "0901.1106",
+   "why": "Sikivie and Yang 2009 is the closest published statement that dark matter, through its own attraction, collects collectively in momentum space while staying spread through space (axions Bose-condense by gravity into one state, with horizon-size condensate patches). It differs in mechanism (ordinary gravity plus Bose degeneracy, no velocity gate, no conjugate sector, no Born reciprocity), in outcome (one condensate in the lowest-energy state, not a smooth Maxwellian fragmenting into a few discrete streams of width ~v*), in scope (degenerate bosons only, which the record's classicality theorem also requires), and it never says 'momentum space'. Its long-range coherence is disputed (Guth, Hertzberg and Prescod-Weinstein 2015). For the condensed-core form specifically, Berezhiani and Khoury 2015 (1507.01019) is as close."
+  },
+  {
+   "conjecture": "C6",
+   "id": "0709.0776",
+   "why": "For the founding image's mechanism, a Born-reciprocal attraction in momentum space acting as a mean field among co-moving masses (#1 §5.2), the closest paper is Delbourgo and Lashmar 2007: Born reciprocity gives Newtonian gravity a partner term GmMΩ/|v − v′|, averaged over a galaxy's relative speeds. It differs in that it acts among ordinary masses as a replacement for dark matter and draws no conclusion about clumping in momentum space."
+  },
+  {
+   "conjecture": "C7",
+   "id": "0709.0776",
+   "why": "Delbourgo and Lashmar 2007 write the pair interaction of two masses as GmM(1/r + Ω/|v − v′|): a Born-reciprocal term, independent of distance, strongest for bodies with similar velocities, applied to galaxy rotation, with a remark that it fades for galaxies receding in the Hubble flow. It differs from C7 in acting among all masses (as an alternative to dark matter) rather than among dark matter only; in being an added 1/|Δv| term with no gate width and no 1/r factor, rather than a 1/r attraction multiplied by a gate W(|v − v′|/v*); in being non-relativistic and not Galilean invariant; and in making no clumping claim. Its Hamiltonian form changes the velocity–momentum relation, as the record's Hamiltonian reading does."
+  }
+ ],
+ "not_found": [
+  {
+   "conjecture": "C6",
+   "statement": "No paper found that states that dark matter (or any matter) clumps collectively in momentum space by the Jeans mechanism with position and velocity exchanged: that an attraction acting between particles of similar velocity makes a smooth Maxwellian fragment into a few discrete velocity streams spread through space; nor any paper proposing that dark matter is matter of the conjugate (momentum) polarization that clumps in momentum space as ordinary matter clumps in position space. Momentum-space condensation of dark matter appears in print only as Bose–Einstein condensation or superfluidity (one state, degenerate bosons: Sikivie–Yang, Berezhiani–Khoury, Levkov et al.); discrete velocity flows only from cold infall or accretion (Sikivie et al., Zemp et al.); velocity concentration by an interaction only in flocking models (Ha–Tadmor); and a Born-reciprocal momentum-space attraction only without a clumping claim (Delbourgo–Lashmar, Burgers–Mantz–Prokopec).",
+   "searches": "INSPIRE full text: 'clumping/clump/clumps in momentum space' (0), 'momentum-space clumping' (0), 'clumping/clump/clustering in velocity space' (6/3/16, all stellar or galaxy kinematics), 'velocity-space clumping' (2), 'Jeans instability in momentum space' (0), 'Jeans instability in velocity space' (0), 'momentum-space Jeans' (0), 'Jeans problem' + 'momentum space' + 'exchanged' (0), 'roles of position and velocity' (0), 'dual Jeans' (1, unrelated), 'phase-space Jeans' (2), 'fragmentation in velocity space' (1), 'discrete velocity streams' (1), 'condensation in velocity space' (0), 'velocity-space condensation' (0), 'momentum-space condensate' + dark matter (0), 'condensation in momentum space' + dark matter (4), 'gravity in momentum space' (12), 'attraction in momentum space' (9), 'collapse in momentum space' (2), 'murmuration' + dark matter (1), 'flocking' + dark matter + velocity (20), 'Born reciprocity' + dark matter + momentum space (26), 'Jeans instability' + 'Born reciprocity' (0), 'localized in momentum space' + dark matter (+ reciprocity 0), 'conjugate matter' + momentum space (11), 'metaparticle', 'T-dual', 'Born geometry', 'doubled', 'mirror dark matter' combinations; INSPIRE titles/abstracts on Born reciprocity, reciprocal relativity, superfluid and BEC dark matter, Sikivie flows and caustics; citation graphs of Sikivie–Yang (forward, filtered; backward), Berezhiani–Khoury (forward, filtered; backward), Levkov et al. (forward, filtered), Delbourgo–Lashmar (both ways), Burgers–Mantz–Prokopec (both ways); arXiv API on momentum-space and velocity-space clumping, Jeans, Vlasov, Hatsugai–Kohmoto, Pomeranchuk, flocking, classical wave condensation; Crossref on clumping in velocity space and momentum-space attraction; WebSearch (extended) on dark-matter clumping in momentum space, momentum-space gravity and Born reciprocity, Jeans instability with position and momentum exchanged, dark matter localized in momentum space, dark matter flocking. All logged in search.json 'queries'."
+  },
+  {
+   "conjecture": "C7",
+   "statement": "No paper found that proposes a long-range (1/r, gravity-like) attraction among dark-matter particles that acts only between particles moving at similar velocities, i.e. a relative-velocity gate W(|v − v′|/v*) on a gravity-like force, whether as dark-matter physics or as a modification of gravity. The closest are Delbourgo–Lashmar's Born-reciprocal term GmMΩ/|v − v′| among all masses (partial), the velocity-dependent correction of continuous-spin forces (Schuster–Toro–Zhou; scalar, threshold falling with distance), the Hatsugai–Kohmoto momentum-local interaction of infinite range (lattice electrons), and velocity-dependent self-interactions, which are collisional. This confirms and extends the record's earlier null search (review/momentum-gravity/run2/analyses/clumping.json, C18), which had missed Delbourgo–Lashmar.",
+   "searches": "INSPIRE full text: 'velocity-gated' (8, femtoscopy), 'gated by relative velocity' (0), 'gated in relative velocity' (0), 'only at low relative velocity(ies)' (0/1), 'similar velocities' + dark matter + attract (4), 'relative velocity' + long-range + dark matter + gate (95, none relevant), 'only between particles' + 'same velocity' (1, unrelated), 'velocity-dependent potential' + dark matter + long-range + relative velocity (9), 'attract each other' + relative velocity + dark matter + long-range + velocity-dependent (5), 'velocity-dependent gravitational' + dark matter (4), 'gravitational constant' + 'depends on the relative velocity' (40, none relevant), 'Newtonian gravity in momentum space' (0), 'momentum-space potential' + Born reciprocity (1), 'reciprocal potential' (0), 'Born reciprocity' + 'rotation curve' (4); INSPIRE titles/abstracts: long-range dark-matter forces (14), velocity-dependent gravity (0), Weber gravity (0), velocity-dependent force laws in gravity (1), continuous spin (+ dark matter, + velocity); citation graphs of Delbourgo–Lashmar (both ways) and of Born 1949 filtered for dark matter + velocity and 1/p; arXiv API: relative velocity + long-range + dark matter (5), velocity-dependent + long-range + dark matter (6), attraction + similar velocities (0), Weber + gravitation + relative velocity (1, electromagnetism), velocity-dependent attraction + relative velocity + long-range (0); Crossref: Weber gravity and rotation curves, attraction between particles with similar velocities; WebSearch (extended, standard): long-range attraction gated by relative velocity in dark matter, Weber-type gravity and rotation curves. All logged in search.json 'queries'."
+  }
+ ],
+ "queries": [
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clumping in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clump in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clumps in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clustering in momentum space\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clumping in velocity space\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clump in velocity space\"",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clustering in velocity space\"",
+   "hits": "16 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-space clumping\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity space clumping\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space clumping\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum space clumping\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Jeans instability in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Jeans instability in velocity space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Jeans problem\" and fulltext \"momentum space\" and fulltext \"exchanged\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"condensation in momentum space\" and fulltext \"dark matter\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"condense in momentum space\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"condenses in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"localized in momentum space\" and fulltext \"dark matter\" and fulltext \"clump\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"attraction in momentum space\"",
+   "hits": "9 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"attractive in momentum space\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"gravity in momentum space\"",
+   "hits": "12 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"gravitational collapse in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"collapse in momentum space\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space Jeans\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"murmuration\" and fulltext \"dark matter\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"flocking\" and fulltext \"dark matter\" and fulltext \"velocity\"",
+   "hits": "20 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"similar velocities\" and fulltext \"dark matter\" and fulltext \"attract\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"relative velocity\" and fulltext \"long-range\" and fulltext \"dark matter\" and fulltext \"gate\"",
+   "hits": "95 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-gated\"",
+   "hits": "8 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"gated by relative velocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"gated in relative velocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"only at low relative velocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"only at low relative velocities\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"comoving particles\" and fulltext \"attract\" and fulltext \"dark matter\" and fulltext \"velocity-dependent\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"long-range\" and t \"dark matter\" and (t force or t forces or t interaction)",
+   "hits": "14 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity-dependent\" and t \"long-range\" and t \"dark matter\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity dependent\" and t \"gravitational\" and (t force or t potential or t interaction)",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"relative velocity\" and abstracts.value:\"dark matter\" and abstracts.value:\"long-range force\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity-dependent gravity\" or t \"velocity dependent gravity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity-dependent\" and t \"Newton\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Weber\" and (t gravity or t gravitational) and (t \"dark matter\" or t galaxies or t \"rotation curves\")",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity-dependent\" and t \"dark matter\" and t \"self-interaction\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"depends on the relative velocity\" and abstracts.value:\"gravitational\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t velocity-dependent and t \"dark matter\" (sort mostcited)",
+   "hits": "34 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity dependent\" and t \"dark matter\" (sort mostcited)",
+   "hits": "44 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Born reciprocity\" and (t \"dark matter\" or abstracts.value:\"dark matter\")",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"dark matter\" and fulltext \"momentum space\"",
+   "hits": "26 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"reciprocal relativity\" or t \"reciprocity theory\"",
+   "hits": "11 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"momentum space\" and t \"dark matter\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"curved momentum space\" and abstracts.value:\"dark matter\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"black hole in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"momentum space\" and t \"black hole\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE (citation graph, forward)",
+   "query": "cites 0709.0776",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE (citation graph, backward)",
+   "query": "refs 0709.0776",
+   "hits": "15 references"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Sikivie and t \"Bose-Einstein\"",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Sikivie and (t \"discrete flows\" or t \"caustic\" or t \"caustics\" or t \"velocity\")",
+   "hits": "21 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Bose-Einstein condensation\" and t \"dark matter\" and t \"axions\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Khoury and t superfluid and t \"dark matter\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"dynamical friction\" and (t superfluid or t \"fuzzy dark matter\" or t \"Bose\")",
+   "hits": "7 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"gravitationally bound BCS\" or (t BCS and t \"dark matter\")",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"dark matter superfluidity\"",
+   "hits": "9 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Schuster and a Toro and t \"continuous spin\"",
+   "hits": "10 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"continuous spin\" and (abstracts.value:\"dark matter\" or t \"dark matter\")",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"continuous spin\" and (abstracts.value:\"long-range\" or abstracts.value:\"velocity\")",
+   "hits": "5 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"velocity space\" AND abs:\"dark matter\" AND abs:instability",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"momentum space\" AND abs:\"dark matter\" AND (abs:clump OR abs:clumping OR abs:clustering OR abs:condensation)",
+   "hits": "8 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"relative velocity\" AND abs:\"long-range\" AND abs:\"dark matter\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"velocity-dependent\" AND abs:\"long-range\" AND abs:\"dark matter\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"attraction\" AND abs:\"similar velocities\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"clustering in velocity space\" OR abs:\"clumping in velocity space\" OR abs:\"condensation in velocity space\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Hatsugai-Kohmoto\" AND abs:\"momentum space\"",
+   "hits": "15 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "ti:\"Pomeranchuk instability\"",
+   "hits": "36 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Cucker-Smale\" AND abs:\"multi-cluster\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:flocking AND abs:\"velocity alignment\" AND abs:kinetic",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"roles of position and velocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"roles of position and momentum\" and fulltext \"Jeans\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dual Jeans\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Jeans instability\" and fulltext \"Born reciprocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"phase-space Jeans\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"fragmentation in velocity space\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"fragment in velocity space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"discrete velocity streams\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity streams\" and fulltext \"dark matter\" and fulltext \"instability\" and fulltext \"Maxwellian\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Weibel instability\" and fulltext \"dark matter\" and (fulltext \"dark photon\" or fulltext \"long-range\")",
+   "hits": "25 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"plasma instabilities\" and t \"dark matter\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"two-stream\" and (t \"dark matter\" or t gravitational or t \"self-gravitating\")",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"collisionless shocks\" and t \"dark matter\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Loeb and a Weiner and t \"Yukawa\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Feng and a Kaplinghat and a Yu and t \"halo shape\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Kaplinghat and a Tulin and a Yu and t \"particle colliders\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Tulin and a Yu and a Zurek and t \"resonant dark forces\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"condensation in momentum space\" and fulltext \"London\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "London 1938 On the Bose-Einstein condensation Physical Review",
+   "hits": "5 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Levkov and a Tkachev and t \"kinetic regime\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Guth and a Hertzberg and t \"condensate\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:810596 and fulltext \"momentum space\" and (fulltext \"velocity space\" or fulltext \"clump in momentum\")",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:810596 and fulltext \"condensation in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:810596 and (fulltext \"discrete flows\" or fulltext \"velocity peaks\") and fulltext \"momentum space\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1668139 and fulltext \"momentum space\" and fulltext \"velocity space\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark matter clumping in momentum space instead of position space velocity space instability",
+   "hits": "9 results; none on momentum-space clumping of DM"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"momentum space\" gravity Born reciprocity attraction between particles with similar momenta galaxies dark matter",
+   "hits": "10 results; closest Delbourgo-Lashmar 2007, Bolognesi 2015, Castro Perelman 2019"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Gale and a Bertsch and a Das Gupta and t \"momentum dependent\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Welke and a Das Gupta and t \"azimuthal\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"momentum-dependent interaction\" and t \"heavy-ion\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Das and a Das Gupta and a Gale and a Li and t \"momentum dependence of symmetry potential\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Zavala and a Afshordi and t \"phase space\"",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Vogelsberger and a White and t \"streams and caustics\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"debris flow\" and t \"dark matter\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "Weber gravitational force velocity dependent rotation curves galaxies",
+   "hits": "10 items"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "Weber-type gravitational force depends on relative velocity galaxy rotation curves without dark matter Assis",
+   "hits": "10 results; leads Borodikhin 1105.1709, IJMPD 2015 S0218271815500364, Assis 1989"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:Weber AND abs:gravitational AND (abs:\"velocity-dependent\" OR abs:\"velocity dependent\") AND (abs:galaxies OR abs:\"dark matter\" OR abs:\"rotation curves\")",
+   "hits": "arXiv API error 429"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Kesden and a Kamionkowski",
+   "hits": "7 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"condensation in velocity space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-space condensation\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space condensate\" and fulltext \"dark matter\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"phase-space clumping\" and fulltext \"dark matter\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"only between particles\" and fulltext \"same velocity\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-dependent potential\" and fulltext \"dark matter\" and fulltext \"long-range\" and fulltext \"relative velocity\"",
+   "hits": "9 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"attract each other\" and fulltext \"relative velocity\" and fulltext \"dark matter\" and fulltext \"long-range\" and fulltext \"velocity-dependent\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"Lorentz invariance\" and t \"dark matter\" and (a Blas or a Sibiryakov)",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Newtonian gravity in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"reciprocal potential\" and fulltext \"Born reciprocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space potential\" and fulltext \"Born reciprocity\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:2012497 and (fulltext \"dark matter\" and fulltext \"velocity\")",
+   "hits": "13 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:2012497 and fulltext \"1/p\"",
+   "hits": "45 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born reciprocity\" and fulltext \"rotation curve\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"reciprocity\" and fulltext \"galactic rotation\" and fulltext \"momentum space\"",
+   "hits": "9 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:839251",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE (citation graph, backward)",
+   "query": "refs 0912.1517",
+   "hits": "4 references"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"dynamical friction in superfluids\" or (a Berezhiani and t \"dynamical friction\")",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Hui and a Ostriker and a Tremaine and a Witten",
+   "hits": "1 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "Cucker Smale Emergent behavior in flocks",
+   "hits": "5 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "Ha Tadmor From particle to kinetic and hydrodynamic descriptions of flocking",
+   "hits": "3 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"phase-space condensation\" and fulltext \"dark matter\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"clumping in phase space\"",
+   "hits": "7 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"soliton in momentum space\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"localized in momentum space\" and fulltext \"soliton\" and fulltext \"dark matter\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity-dependent gravitational\" and fulltext \"dark matter\" and fulltext \"relative velocity\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"gravitational constant\" and fulltext \"depends on the relative velocity\"",
+   "hits": "40 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:Weber AND abs:gravitational AND abs:velocity AND (abs:galaxies OR abs:\"rotation curves\")",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"momentum space\" AND abs:\"Jeans instability\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"velocity space\" AND abs:\"self-gravitating\" AND abs:instability AND abs:streams",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Weber\" AND abs:\"gravitation\" AND abs:\"relative velocity\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"velocity-dependent\" AND abs:attraction AND abs:\"relative velocity\" AND abs:\"long-range\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"velocity space\" AND (abs:condensation OR abs:clumping OR abs:clustering) AND abs:\"long-range\" AND abs:interaction",
+   "hits": "1 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"momentum space\" AND abs:attractive AND abs:\"Vlasov\" AND abs:instability",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "ti:\"momentum-dependent\" AND abs:\"Vlasov\" AND abs:instability",
+   "hits": "0 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Born reciprocity\" AND (abs:galaxy OR abs:galactic OR abs:\"dark matter\")",
+   "hits": "2 hits"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "\"Jeans instability\" \"momentum space\" reciprocity dual position velocity exchanged",
+   "hits": "10 results; none states a Jeans instability with x and v exchanged"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "force between particles that acts only when they move at similar velocities, long-range attraction gated by relative velocity, dark matter",
+   "hits": "9 results; none on a relative-velocity gate; 2026 Perimeter long-range DM force study (to identify)"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"dark forces suppress structure growth\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"localized in momentum space\" and fulltext \"dark matter\" and fulltext \"reciprocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"localised in momentum space\" and fulltext \"dark matter\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"matter in momentum space\" and fulltext \"dark matter\" and fulltext \"gravit\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dark matter\" and fulltext \"clumps in velocity\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "ti:\"condensation of classical nonlinear waves\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"Pomeranchuk instability\" AND abs:\"Landau parameter\"",
+   "hits": "8 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "Assis On Mach principle Foundations of Physics Letters 1989 Weber",
+   "hits": "5 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:810596 and fulltext \"velocity space\" and fulltext \"streams\" and fulltext \"condensate\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:810596 and fulltext \"momentum space\" and fulltext \"condensate\" and fulltext \"halo\" and fulltext \"velocity dispersion\"",
+   "hits": "16 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "refersto:recid:1381485 and (fulltext \"momentum space\" or fulltext \"velocity space\") and fulltext \"condens\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE (citation graph, backward)",
+   "query": "refs 0901.1106",
+   "hits": "35 references"
+  },
+  {
+   "database": "INSPIRE (citation graph, backward)",
+   "query": "refs 1507.01019",
+   "hits": "155 references"
+  },
+  {
+   "database": "WebSearch (extended)",
+   "query": "dark matter is ordinary matter localized in momentum space rather than position space Fourier dual hypothesis",
+   "hits": "9 results; none states it (dual relativity 2412.13400 is a different idea)"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "\"dark matter\" flocking velocity \"murmuration\" OR \"flocks\" clumping in speed not space",
+   "hits": "10 results; no DM flocking model; CDM velocity-space clumpiness (Zemp et al. 2009; Helmi-White-Springel 2002); resonant SIDM caption (Kavli IPMU)"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum-space black hole\"",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"black holes in momentum space\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"curvature of momentum space\" and fulltext \"dark matter\"",
+   "hits": "6 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"dynamical momentum space\" and fulltext \"dark matter\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Delbourgo and (fulltext \"reciprocity\" or t reciprocity)",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Lashmar",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"phase-space holes and clumps\" or fulltext \"hole-clump\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "arXiv",
+   "query": "abs:\"hole-clump\" AND abs:\"phase space\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"velocity-dependent gravitational\"",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"Weber\" and abstracts.value:\"gravitation\" and abstracts.value:\"velocity\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"relative velocity\" and abstracts.value:\"gravitational force\" and abstracts.value:\"galaxies\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"velocity-dependent\" and (t force or t potential) and (t gravity or t gravitational or t Newtonian)",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"opposite momenta\" and fulltext \"Cooper pair\" and fulltext \"Debye\" and t \"BCS\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"velocity space\" and abstracts.value:\"dark matter\" and (abstracts.value:\"clumps\" or abstracts.value:\"clumping\")",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "abstracts.value:\"momentum space\" and abstracts.value:\"dark matter\" and abstracts.value:\"condensation\"",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t velocity and t space and t \"dark matter\" and (t clumps or t clumping or t condensation or t instability)",
+   "hits": "0 hits"
+  },
+  {
+   "database": "Crossref",
+   "query": "clumping in velocity space dark matter instability",
+   "hits": "10 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "gravitational attraction in momentum space Born reciprocity",
+   "hits": "10 items"
+  },
+  {
+   "database": "Crossref",
+   "query": "attraction between particles with similar velocities velocity-dependent force law",
+   "hits": "10 items"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "a Bulyzhenkov and t \"gravitational attraction\"",
+   "hits": "0 hits"
+  },
+  {
+   "database": "WebFetch",
+   "query": "Springer page for Bulyzhenkov 2018 doi:10.1007/s10509-018-3257-6",
+   "hits": "redirect to login; not read via publisher"
+  },
+  {
+   "database": "WebSearch (standard)",
+   "query": "Bulyzhenkov \"Gravitational attraction until relativistic equipartition ...\" abstract",
+   "hits": "10 results; arXiv 1803.10604; heat-energy and free fall; not relevant"
+  },
+  {
+   "database": "WebFetch",
+   "query": "Assis 1989 PDF (Unicamp)",
+   "hits": "scanned PDF, text not extractable; lead kept unverified"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t \"phase space\" and (t gravity or t gravitational) and abstracts.value:\"dark matter\"",
+   "hits": "15 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "t Finsler and t \"dark matter\"",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"cotangent bundle\" and fulltext \"dark matter\" and fulltext \"momentum space\" and fulltext \"clump\"",
+   "hits": "2 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"velocity space\" and fulltext \"dark matter\" and fulltext \"relative velocity\" and fulltext \"attraction\" and date > 2024",
+   "hits": "4 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"momentum space\" and fulltext \"dark matter\" and fulltext \"Born reciprocity\" and date > 2024",
+   "hits": "5 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"conjugate matter\" and fulltext \"momentum space\"",
+   "hits": "11 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"metaparticle\" and fulltext \"dark matter\" and (fulltext \"velocity space\" or fulltext \"clump\")",
+   "hits": "1 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"T-dual\" and fulltext \"dark matter\" and fulltext \"momentum space\" and fulltext \"clump\"",
+   "hits": "3 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"Born geometry\" and fulltext \"dark matter\" and fulltext \"velocity\"",
+   "hits": "9 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"doubled\" and fulltext \"dark matter\" and fulltext \"momentum space\" and fulltext \"clumping\"",
+   "hits": "10 hits"
+  },
+  {
+   "database": "INSPIRE",
+   "query": "fulltext \"mirror dark matter\" and fulltext \"velocity space\" and fulltext \"clump\"",
+   "hits": "4 hits"
+  }
+ ],
+ "unverified_leads": [
+  {
+   "lead": "† F. London, \"On the Bose-Einstein Condensation\", Phys. Rev. 54, 947 (1938), doi:10.1103/physrev.54.947: the usual source for describing Bose–Einstein condensation as condensation in momentum space.",
+   "why_unverified": "Crossref metadata only; the text (paywalled) was not read. The description is checked in Stamper-Kurn and Ketterle (cond-mat/0005001) instead."
+  },
+  {
+   "lead": "† A. K. T. Assis, \"On Mach's principle\", Found. Phys. Lett. 2, 301 (1989), doi:10.1007/bf00690297: a Weber-type gravitational force depending on relative distance, relative velocity and relative acceleration (relational mechanics); the historical family of universal velocity-dependent gravity (Tisserand 1872, cited in the momentum-gravity note §3; Schrödinger 1925).",
+   "why_unverified": "The PDF on the author's site is a scan whose text could not be extracted; the description comes from a web-search summary."
+  },
+  {
+   "lead": "† C. Gale, G. Bertsch, S. Das Gupta, \"Heavy-ion collision theory with momentum-dependent interactions\", Phys. Rev. C 35, 1666 (1987); G. M. Welke et al., Phys. Rev. C 38, 2101 (1988): the original momentum-dependent nuclear mean field.",
+   "why_unverified": "Not on arXiv; INSPIRE metadata only. The form is checked in Das et al. 2003 (nucl-th/0212090)."
+  },
+  {
+   "lead": "† Y. Hatsugai, M. Kohmoto, J. Phys. Soc. Jpn. 61, 2056 (1992): the original momentum-local, infinite-range interaction model.",
+   "why_unverified": "Not read; its properties are checked in Skolimowski 2024 (2402.08557)."
+  },
+  {
+   "lead": "† F. Cucker, S. Smale, \"Emergent Behavior in Flocks\", IEEE Trans. Autom. Control 52, 852 (2007), doi:10.1109/tac.2007.895842: the original flocking model.",
+   "why_unverified": "Crossref metadata only; text not read. Ha and Tadmor 2008 (0806.2182) used instead."
+  },
+  {
+   "lead": "† I. Ya. Pomeranchuk, Sov. Phys. JETP 8, 361 (1958): the original Fermi-liquid stability condition.",
+   "why_unverified": "Not retrieved; Wu, Klein and Chubukov 2018 used instead."
+  },
+  {
+   "lead": "† L. N. Cooper, Phys. Rev. 104, 1189 (1956); Bardeen, Cooper, Schrieffer, Phys. Rev. 108, 1175 (1957): pairing of opposite momenta.",
+   "why_unverified": "Not retrieved; the statement is checked in Xu et al. 2005 (quant-ph/0407100)."
+  },
+  {
+   "lead": "V. N. Borodikhin, \"Explanation of velocities distribution in the galaxies without the dark matter\", arXiv:1105.1709 (physics.gen-ph, no journal): a vector theory of gravitation with a 'cyclic field', said in a web-search summary to give attraction or repulsion depending on the relative direction of velocities.",
+   "why_unverified": "Not in INSPIRE; only the arXiv abstract page was read (WebFetch), which does not state the velocity dependence."
+  },
+  {
+   "lead": "Resonant self-interacting dark matter (Chu, Garcia-Cely and Murayama 2019, as described in a Kavli IPMU image caption: particles 'stick together for a moment at a special speed'): a self-interaction peaked at one relative velocity.",
+   "why_unverified": "Seen only as a caption in web-search results; the paper was not retrieved. Collisional, not a long-range force."
+  },
+  {
+   "lead": "Q. G. Bailey, D. Havert, \"Velocity-dependent inverse cubic force and solar system gravity tests\", arXiv:1706.10157 (2017): a universal velocity-dependent gravitational term bounded by solar-system tests.",
+   "why_unverified": "Title only (INSPIRE hit); abstract not read. Universal gates are already bounded in the momentum-gravity note §3."
+  },
+  {
+   "lead": "A. Helmi, S. D. M. White, V. Springel, \"The phase-space structure of a dark-matter halo: implications for dark-matter direct detection experiments\", arXiv:astro-ph/0201289 (2002): velocity-space clumpiness of halo dark matter from mergers.",
+   "why_unverified": "Seen in web-search results only; not read. Zemp et al. 2009 covers the same point and was read."
+  }
+ ],
+ "notes": "Group g5 (C6, C7). No paper anticipates either conjecture. C6: two partials. Sikivie–Yang 2009: dark matter Bose-condenses by its own gravity into one state, coherent over horizon-size patches. Berezhiani–Khoury 2015: halo cores condense into a superfluid below a critical velocity dispersion, clusters stay normal. Both are Bose condensation of degenerate bosons, which the record's classicality theorem also says collective momentum-space behaviour requires; neither has a velocity-gated attraction, velocity streams or a conjugate sector. Guth–Hertzberg–Prescod-Weinstein 2015 weighs against the gravity-driven form (attraction gives position-space clumps, not long-range order). Mechanism relatives worth knowing for how C6 is described: the notebook's mean field ε(p; f) with an attractive U(p − p′) of momentum range μ is the standard nuclear momentum-dependent mean field (Gale–Bertsch–Das Gupta 1987; Das et al. 2003), closer than the Berry-curvature analogy the notebook gives; Born-reciprocal gravity in momentum space exists (Delbourgo–Lashmar 2007; Burgers–Mantz–Prokopec 2012), without clumping; flocking theory (Ha–Tadmor 2008) is interaction-driven velocity concentration. The BCS analogy as stated ('a momentum-gated attraction is precisely the pairing interaction') conflicts with standard BCS, which pairs opposite momenta within an energy shell (evidence-against, scoped to the analogy). Observables: discrete velocity flows are published for CDM from cold infall (Sikivie et al. 1995). Zemp et al. 2009 find about a dozen velocity-space clumps at 400 kpc in ΛCDM, so a test by 'about ten broad streams' (momentum-gravity note §4) would need inner halos or stream widths. The consequences the notebook drew (Fornax GC timing, suppressed friction in condensed cores) are published for fuzzy and superfluid dark matter (Hui et al. 2017; Berezhiani–Elder–Khoury 2019). C7: one partial, Delbourgo–Lashmar 2007 (Found. Phys. 38, 995 (2008)): Born reciprocity adds GmMΩ/|v − v′| to Newtonian gravity among all masses, distance-independent, strongest at small relative velocity, used for rotation curves without dark matter, with a Hubble-flow remark. Its Hamiltonian form is the record's Hamiltonian reading. The record's null search (clumping.json C18) missed it. Record updates for C7: Kundu–Schuster–Toro 2025/26 is a linearized continuous-spin gravity, so the momentum-gravity note §9's 'No gravitational (tensor) version exists' is out of date, though no two-body velocity-dependent gravitational force has been computed. Costa et al. 2026 supports the note's statement that the BOSS bound on scalar dark forces comes from background effects the gated model lacks. Leads for other groups, not labelled here: Hübsch and Minic 2026 (arXiv:2604.19418) argue that dual particles of modular spacetime model fuzzy dark matter and that every Standard Model particle has a dual fuzzy counterpart (C1, C4); Minic 2020 (2003.00318) and Freidel–Kowalski-Glikman–Leigh–Minic 2021 (2104.00802) identify the dual sector with dark matter (C1); Castro Perelman, Can. J. Phys. 97, 198 (2019), reads dark matter as an effect of Born's reciprocal relativity (C1); Bolognesi 2012/2015 (1207.5514, 1506.02187) gets an effective cosmological constant from the dual sector of a Born-reciprocal cosmology (C5). Process: STATE.md and the other groups' folders were not read. The arXiv API returned 429 once (logged) and was retried later. Every reported quote was checked with lit.py quote (all FOUND); the verdicts are in work/literature-check/g5-momentum-clumping/quotes.tsv. Working notes are in notes.md; queries.tsv is the raw query log."
+}
