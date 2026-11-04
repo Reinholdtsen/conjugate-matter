@@ -62,7 +62,7 @@ The note's pre-registration had expected closure to be "natural for the program"
 **In a closed universe the turnaround happens with V ≥ 0 throughout** (§2):
 
 1. τ thaws from near the hilltop and passes its potential minimum, at a = 1.34–18.5 in the histories recomputed;
-2. it then oscillates about the minimum, and an oscillating field averages to the pressure-free behaviour of dust: |⟨w⟩| ≤ 1.1×10⁻⁷ at the turnaround;
+2. it then oscillates about the minimum, and an oscillating field averages to the pressure-free behaviour of dust: |⟨w⟩| ≤ 1.1×10⁻⁷ at the turnaround, where ⟨w⟩ is τ's [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state), its pressure divided by its energy density, averaged over an oscillation;
 3. curvature then reverses the expansion.
 
 With τ frozen at the hilltop there is no turnaround (§2). The flag's addendum of 2026-10-27 draws the consequence for the record: #11 §10's "eventually goes negative" and the handoff's "eventual negative V ⇒ turnaround" name the wrong cause, and [row 5](/wiki/predictions/fate-of-expansion), the identification of the turnaround with the conjugate bounce, exists only if k = +1 (flag 27 addendum; note §2). [Round 5](/wiki/method/review/round-5)'s ruling R11 had already noted that a closed universe can turn around without negative energy (`review/round5-adjudication.md`; `papers/phase-space-diameter.md` §6).
@@ -92,7 +92,7 @@ Recollapse of a closed universe with oscillating quintessence is published: Barr
 
 ### The over-constraint moves [D][V]
 
-The [dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) counts three observables, (w₀, wₐ, t_turn), against two parameters, (f, τᵢ). At fixed (w₀, wₐ), t_turn ∝ |Ω_k|^{−3/2}, so Ω_k is a third input (§2; flag 46). Ω_k is measurable, so the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing; but the data bound t_turn only from below (next section), so the turnaround time cannot test the count (§2).
+The [dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint) counts three observables, (w₀, wₐ, t_turn), against two parameters, (f, τᵢ). Here w₀ is the value today of dark energy's equation of state w, and wₐ measures how fast w has changed as the universe expanded (a negative wₐ means that w has been rising); they are the two numbers of the [CPL form](/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean). At fixed (w₀, wₐ), t_turn ∝ |Ω_k|^{−3/2}, so Ω_k is a third input (§2; flag 46). Ω_k is measurable, so the over-constraint moves to (f, τᵢ, Ω_k) rather than vanishing; but the data bound t_turn only from below (next section), so the turnaround time cannot test the count (§2).
 
 ## What the data say
 

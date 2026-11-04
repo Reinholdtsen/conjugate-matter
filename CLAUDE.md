@@ -207,6 +207,11 @@ only as a task needs them.
     `review/literature-check/`, and in section G the algebra behind flag 66; two reviews of the write-up,
     a check of the edits merged by hand and a last sweep (2026-11-03; `review/literature-check/workflows/workflow5-result.json`,
     `workflow7-result.json` to `workflow9-result.json`) changed no verdict.
+- 2026-11-03: symbols defined where they are used (Paul: "I keep seeing values of w and no definition of w"). No
+  claim's status changed. w (the equation of state, pressure divided by energy density), w₀, wₐ and z (redshift) are
+  defined in words beside their first use on every wiki page, and `scripts/check-wiki.py` gained the check `symbol`
+  (`wiki/CLAUDE.md`, 'Symbols'). #11 and the phase-space-diameter note gained notation items without a change of
+  version: #11's header and §10's technical record, the note's header and §7.
 - HANDOFF §8 queue item 3 is dropped. The current queue, in order:
   1. HANDOFF §8 items 5–6: the partially-massless comparison and the
      † literature battery (Born 1938 and 1949 were retrieved for the

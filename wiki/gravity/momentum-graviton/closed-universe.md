@@ -76,7 +76,7 @@ where m_FP(y) is the Fierz–Pauli mass at ratio y ([Fierz–Pauli theory](/wiki
 
 ### The gradient instability
 
-Könnig's scalar gradient instability for w > −1/2 operates above about 1.3 TeV (H ≈ 0.5 M_X). It returns in the recollapse, and equal Planck masses close the usual escape from it (§6). The script checks Könnig 2015's eigenfrequency on the program's branch, a published anchor, and finds the instability above T = 1.31–1.38 TeV for radiation or dust. This is the live problem of the early universe; it bears directly on [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), whose regime it is. The note's pre-registration had expected the Higuchi bound to be the difficulty; it is the gradient instability (§10).
+Könnig's scalar gradient instability for w > −1/2 (w is the [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) of the fluid that fills the universe, the ratio of its pressure to its energy density) operates above about 1.3 TeV (H ≈ 0.5 M_X). It returns in the recollapse, and equal Planck masses close the usual escape from it (§6). The script checks Könnig 2015's eigenfrequency on the program's branch, a published anchor, and finds the instability above T = 1.31–1.38 TeV for radiation or dust. This is the live problem of the early universe; it bears directly on [Open: stability at equal Planck masses](/wiki/gravity/momentum-graviton/equal-planck-mass-stability), whose regime it is. The note's pre-registration had expected the Higuchi bound to be the difficulty; it is the gradient instability (§10).
 
 ## If f were frozen [D][V]
 

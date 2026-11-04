@@ -132,7 +132,7 @@ The same practice was applied on 2026-10-27 to an investigation rather than a re
 
 - confirmed: P1 (a turnaround if and only if k = +1), P3 (size and timing, 8 of 8 matching histories), P9 (the radius–mass pairing), P10 (no over-constraint without Ω_k) and P11 (the Z₂ textures);
 - confirmed and strengthened: P7 (reciprocity breaks globally) and P8 (nothing observable from the finite volume);
-- P2, the data: the numbers confirmed, without the forecast anticipating that w₀wₐ+Ω_K is the wrong proxy; P4: mostly confirmed, having described the conjugate picture only as a lattice;
+- P2, the data: the numbers confirmed, without the forecast anticipating that w₀wₐ+Ω_K (dark energy's [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, its pressure divided by its energy density, in [the CPL form](/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean), with w₀ the value of w today and wₐ a measure of how fast w has changed as the universe expanded, and the curvature Ω_K left free) is the wrong proxy; P4: mostly confirmed, having described the conjugate picture only as a lattice;
 - partly wrong: P5, the pre-registered weakest link, since the normalization is a gauge choice and row 10's knob survives as a postulate; and P6, since the Higuchi bound holds during inflation and the gradient instability is the problem;
 - the expected overall answer called closure "natural for the program"; it is not, since nothing derives it.
 

@@ -139,7 +139,7 @@ The † entries are from model memory and unverified; none is cited in the progr
 - [The hidden sector's thermal history](/wiki/dark-matter/candidates/soliton-candidate/hidden-thermal-history) — the band a first-order hidden transition would leave, and its corrected upper end.
 - [Under review: the Kibble normalization](/wiki/dark-matter/candidates/soliton-candidate/kibble-normalization) — bubble counting in a first-order transition.
 - [Overproduction at the benchmark](/wiki/dark-matter/candidates/soliton-candidate/overproduction) — a first-order hidden transition would raise the monopole yield further.
-- [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — the lab notebook's spectral step in the primordial background, dropped in v1.
+- [The duality dictionary w_eff = −w̃](/wiki/cosmology/scale-factor-duality/duality-dictionary) — the lab notebook's spectral step in the primordial background, dropped in v1. Here w̃ is the ratio of pressure to energy density, or [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state), of a fluid in the [conjugate universe](/wiki/program/conjugate-universe), the momentum-space description of our universe; w_eff is the equation of state with which that fluid acts on our expansion.
 - [Row 10: an early step in G_eff](/wiki/predictions/early-universe-step) — the lab notebook's form of the row included the dropped spectral step.
 - [Inflation, reheating and entropy dilution](/wiki/cosmology/early-universe/inflation-and-dilution) — the primordial background from inflation.
 

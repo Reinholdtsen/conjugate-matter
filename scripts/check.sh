@@ -27,7 +27,7 @@ for script in verify/battery.py verify/soliton_obituary.py verify/toy_coset.py v
 done
 
 # The wiki: internal links, anchors, section maps, source paths, frontmatter,
-# page shape and acronyms. Hugo would render a dead link without complaint.
+# page shape, acronyms and symbols. Hugo would render a dead link without complaint.
 if ! "$py" scripts/check-wiki.py; then
   echo "scripts/check-wiki.py FAILED"
   status=1

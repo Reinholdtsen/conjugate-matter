@@ -62,7 +62,7 @@ acting among χ only and added to gravity, with W the gate, v\* its width and ε
 
 Two caveats travel with the record's reading:
 
-- [O]: whether the Hamiltonian reading is the right classical limit for a long-range gate. In it the kinematic and canonical velocity dispersions decouple, by up to 11.5× in the N-body runs below, and its linear theory loses meaning above ε ≈ 2.2 (2.24–2.29 at z = 50, 10 and 3), where the effective inverse inertia changes sign.
+- [O]: whether the Hamiltonian reading is the right classical limit for a long-range gate. In it the kinematic and canonical velocity dispersions decouple, by up to 11.5× in the N-body runs below, and its linear theory loses meaning above ε ≈ 2.2, where the effective inverse inertia changes sign (2.24–2.29 at [redshift](/wiki/cosmology/scale-factor-duality/redshift) z = 50, 10 and 3, z being the stretching of light by the expansion of the universe since the light was emitted; larger z means earlier).
 - In the Hamiltonian reading, gating on peculiar velocities alone is pathological (one agent; not rechecked). The gate is therefore taken on the full relative velocity, Hubble flow included.
 
 ## Hubble-flow gating

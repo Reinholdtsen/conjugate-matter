@@ -50,7 +50,7 @@ Not every row has a kill condition. Some are diagnostics, which assign dark matt
 
 ## v0.1: the lab notebook's ten rows
 
-#1 §9 had ten rows: σ_T(v) across halo masses, scattering anisotropy, [velocity-space structure in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity), [dynamical friction in dwarf cores](/wiki/dark-matter/momentum-clumping/fornax-friction), dark energy w(z), the fate of the expansion, direct detection and colliders, [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), photon dispersion and the early universe. Rows 1–4 belonged to [conjugate matter](/wiki/dark-matter/conjugate-matter), rows 5–6 to the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence), rows 7–9 were permanent nulls, and row 10 covered the dual gravitational sector in the early universe.
+#1 §9 had ten rows: σ_T(v) across halo masses, scattering anisotropy, [velocity-space structure in halos](/wiki/dark-matter/momentum-clumping/velocity-granularity), [dynamical friction in dwarf cores](/wiki/dark-matter/momentum-clumping/fornax-friction), dark energy w(z) (the [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w of dark energy, its pressure divided by its energy density, as a function of [redshift](/wiki/cosmology/scale-factor-duality/redshift) z, the stretching of light by the expansion of the universe since the light was emitted; larger z means earlier), the fate of the expansion, direct detection and colliders, [magnetic monopoles](/wiki/electric-magnetic-duality/monopoles), photon dispersion and the early universe. Rows 1–4 belonged to [conjugate matter](/wiki/dark-matter/conjugate-matter), rows 5–6 to the dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessence), rows 7–9 were permanent nulls, and row 10 covered the dual gravitational sector in the early universe.
 
 The notebook singled out three rows: "Rows 1, 3, and 7 are the flagship discriminants: no mainstream framework predicts an exponential scattering cliff, gravitationally-detectable macro-granularity of the local velocity distribution, *and* a guaranteed-null direct-detection program" (#1 §9). Its one-paragraph summary claimed "kill conditions in every row of §9" (#1 §12).
 
@@ -158,7 +158,7 @@ The clumping calc notes and #1 §9 use v0.1's numbers, in which row 3 is granula
 
 ## Superseded: the parameter count
 
-The lab notebook paired its table with a count of two parameters per sector against the phenomena each sector covers (#1 §10):
+The lab notebook paired its table with a count of two parameters per sector against the phenomena each sector covers (#1 §10); in its dark-energy row, w₀ is the value of w today and wₐ measures [how fast w has changed](/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean) as the universe expanded:
 
 | Sector | Parameters | Phenomena covered |
 |---|---|---|

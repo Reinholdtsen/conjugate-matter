@@ -59,7 +59,7 @@ so the expansion accelerates only if the pressure p is below −ρ/3. Ordinary m
 
 ## Fluids and how they thin [T]
 
-Cosmological content is modelled as a perfect fluid with energy density ρ and pressure p = wρ; the constant w is its equation of state. Energy conservation in an expanding universe, ρ̇ + 3H(ρ + p) = 0, then gives
+Cosmological content is modelled as a perfect fluid with energy density ρ and pressure p = wρ; the constant w, the ratio of its pressure to its energy density, is its [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state). Energy conservation in an expanding universe, ρ̇ + 3H(ρ + p) = 0, then gives
 
 ```text
 ρ ∝ a^{−3(1+w)}

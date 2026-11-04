@@ -82,7 +82,7 @@ If reciprocity fixes M̃ = M_P, the step has a place [D][V]. With a·ã = C, the
 
 ### Negative dark radiation from a closed dual space
 
-The second imprint comes from the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), which translates content of the dual frame into its effect on our expansion. The notebook's derivation (#1 §6, [D]): a fluid comoving in the dual frame with equation of state w̃ has density ρ̃ ∝ ã^{−3(1+w̃)} and energy E = ρ̃ã³ ∝ ã^{−3w̃} = a^{3w̃}; entering our expansion as ρ_eff = E/a³ ∝ a^{−3(1−w̃)}, it acts as a fluid with
+The second imprint comes from the [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary), which translates content of the dual frame into its effect on our expansion. The notebook's derivation (#1 §6, [D]): a fluid comoving in the dual frame with [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w̃, the ratio of its pressure to its energy density in that frame, has density ρ̃ ∝ ã^{−3(1+w̃)} and energy E = ρ̃ã³ ∝ ã^{−3w̃} = a^{3w̃}; entering our expansion as ρ_eff = E/a³ ∝ a^{−3(1−w̃)}, it acts as a fluid with
 
 ```text
 w_eff = −w̃

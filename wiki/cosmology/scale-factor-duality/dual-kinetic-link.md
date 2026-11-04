@@ -24,7 +24,7 @@ Is the dark-energy field τ, whose energy the program places in its potential in
 
 ## The first explanation: dual kinetic energy
 
-The [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) translates a fluid in the conjugate frame, with equation of state w̃, into one acting on our expansion with w_eff = −w̃ [D — corrected en route] (#11 §10; as a map of fluid variables, the scale-factor duality of string cosmology with sources, flag 66 in `review/wiki-build-flags.md`, pending). Its first entry is
+The [duality dictionary](/wiki/cosmology/scale-factor-duality/duality-dictionary) translates a fluid in the conjugate frame, with [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w̃, the ratio of its pressure to its energy density, into one acting on our expansion with w_eff = −w̃ [D — corrected en route] (#11 §10; as a map of fluid variables, the scale-factor duality of string cosmology with sources, flag 66 in `review/wiki-build-flags.md`, pending). Its first entry is
 
 | Dual-frame content | Acts on our expansion as |
 | --- | --- |

@@ -31,6 +31,8 @@ Checks, in order of severity:
   fence        a fenced code block declares no language
   acronym      an acronym is unregistered, or a page uses it without spelling it
                out beside a use or linking it (registry: scripts/wiki-acronyms.txt)
+  symbol       a page uses a symbol whose values the wiki states (w, w₀, wₐ, z)
+               without defining it in words beside its first use (SYMBOLS)
 
 Hugo does not validate internal links: it renders /wiki/does-not-exist without
 complaint. This script catches a dead link in the Markdown, before any build. The
@@ -152,6 +154,76 @@ REPO_PATH_RE = re.compile(
 # a definition: wide enough for "Foo Bar (FB)" and a parenthetical aside, too
 # narrow for the expansion to be in another paragraph.
 BIND_WINDOW = 180
+
+# Symbols whose values the pages state ("w ≥ −1", "z ≈ 0.4"). Each is defined in words within
+# BIND_WINDOW of its first use on every page (wiki/CLAUDE.md, Symbols): a reader arriving from a
+# search engine has read no other page, and a link alone defines nothing. For each symbol: what it
+# is; a pattern for a use in prose; patterns that must all match beside the first use; the pages
+# on which the letter stands for another quantity; and forms that mean this symbol on any page,
+# which fail on those pages, since two quantities there would share one letter. The glossary and
+# the notation page define each symbol in its own entry and are not checked.
+SYMBOL_REGISTERS = {"glossary.md", "notation.md"}
+SYMBOLS = {
+    "w": {
+        "means": "the equation of state, pressure divided by energy density",
+        # w alone and in w̃, w_eff, w(z), w₀, wₐ. The diameter note writes one wavelength as w,
+        # so h/w and "wavelength w" are not uses.
+        "use": re.compile(r"(?<![\w\\/])(?<!wavelength )w(?![A-Za-z0-9])"),
+        "define": [re.compile(
+            r"\bpressure\b(?:\W+\w+){0,2}?\W+(?:to|over|divided by|÷)\W+(?:\w+\W+){0,2}?energy density", re.I
+        )],
+        "elsewhere": {
+            "dark-matter/conjugate-matter/gate-mechanism.md": "a fiber weight",
+            "method/verification/gate-mechanism-script.md": "a fiber weight",
+            "phase-space/born-geometry/double-field-theory.md": "a closed string's winding",
+            "phase-space/modular-field/siegel-domain.md": "ω, as a script prints it",
+            "phase-space/reciprocity/lagrangian-polarizations.md": "ω, as a script prints it",
+            "phase-space/reciprocity/symplectic-form.md": "ω, as a script prints it",
+            "symmetry-breaking/section-condition.md": "a variable in a script's output",
+        },
+        "always": re.compile(
+            r"(?<![\w\\/])w(?:[₀ₐ]|̃|_eff|\([az]\)|\s*[=≥≤<>≈≃≡]\s*[−+-]\d+(?:\.\d+)?)|equation of state w\b"
+        ),
+    },
+    "w₀": {
+        "means": "the value of w today",
+        "use": re.compile(r"(?<![\w\\])w₀"),
+        "define": [re.compile(
+            r"\b(?:value|equation of state)\b[^.]{0,30}?\btoday\b|\btoday's\b|\bpresent(?:-day)? value\b|\bw today\b", re.I
+        )],
+    },
+    "wₐ": {
+        "means": "how fast w changes as the universe expands",
+        "use": re.compile(r"(?:(?<![\w\\])|(?<=w₀))wₐ"),
+        "define": [re.compile(
+            r"\brate of change\b|\bhow (?:fast |quickly )?(?:w|it) (?:has )?(?:chang|ris|fall|drift)\w*"
+            r"|\bw (?:has been |is |was )?(?:rising|falling|changing|drifting|rises|falls|changes|drifts)\b", re.I
+        )],
+    },
+    "z": {
+        "means": "redshift, the stretching of light by the expansion since it was emitted: larger z is earlier",
+        "use": re.compile(r"(?<![\w\\-])z(?![A-Za-z0-9])"),
+        "define": [
+            re.compile(r"\bredshift", re.I),
+            re.compile(r"\bearlier\b|\bago\b|\bstretch|\bexpanded\b|\bemitted\b|1/\(1 \+ z\)|\bcosmic time\b", re.I),
+        ],
+        "elsewhere": {
+            "electric-magnetic-duality/_index.md": "a point of the upper half-plane",
+            "electric-magnetic-duality/modular-group.md": "a point of the upper half-plane",
+            "phase-space/modular-field/modular-inversion.md": "a complex number",
+            "phase-space/modular-field/siegel-domain.md": "a complex number",
+            "phase-space/reciprocity/wigner-function.md": "a point of phase space",
+            "gravity/spin-2-fields/equivalence-principle.md": "a height",
+            "symmetry-breaking/inverse-higgs-constraints.md": "an axis in space",
+            "dark-matter/conjugate-matter/gate-mechanism.md": "a scattering variable",
+            "method/verification/gate-mechanism-script.md": "a variable of a check",
+        },
+        "always": re.compile(
+            r"(?<![\w\\|−-])(?<!Im )(?<!Re )z(?:_\w+|\\\*)?\s*[≈≃=<>]\s*[−-]?\d+(?:\.\d+)?"
+            r"|(?<=[wH]\()z′?\)|\b1 \+ z\b|\bredshifts? z\b"
+        ),
+    },
+}
 
 # Heading markup, as slugify strips it (code spans: code_spans()). A backslash
 # before markup makes it plain text. Raw HTML as goldmark recognizes it (an open
@@ -707,8 +779,42 @@ def main(argv):
             err("acronym", f, lineno,
                 f"{acro!r} is never spelled out beside a use on this page (expected {expansion!r}) or linked")
 
+        # --- symbols ------------------------------------------------------
+        if rel not in SYMBOL_REGISTERS:
+            parts, starts, pos = [], [], 0  # starts: (offset in text, line number) per line
+            for lineno, line in clean:
+                parts.append(prose(line))
+                starts.append((pos, lineno))
+                pos += len(parts[-1]) + 1
+            text = " ".join(parts)
+
+            def line_at(offset):
+                return max(start for start in starts if start[0] <= offset)[1]
+
+            for sym, spec in SYMBOLS.items():
+                other = spec.get("elsewhere", {}).get(rel)
+                if other:
+                    m = spec["always"].search(text)
+                    if m:
+                        err("symbol", f, line_at(m.start()),
+                            f"{m.group(0)!r} uses {sym} as {spec['means']}, but {sym} is {other} on this page "
+                            f"(SYMBOLS in scripts/check-wiki.py); give one of the two another symbol")
+                    continue
+                m = spec["use"].search(text)
+                if m is None:
+                    continue
+                near = text[max(0, m.start() - BIND_WINDOW) : m.end() + BIND_WINDOW]
+                if not all(d.search(near) for d in spec["define"]):
+                    err("symbol", f, line_at(m.start()),
+                        f"{sym} is first used here without a definition in words beside it ({spec['means']})")
+
+    for sym, spec in SYMBOLS.items():
+        for page in spec.get("elsewhere", {}):
+            if not (WIKI / page).exists():
+                err("symbol", WIKI / page, 1, f"SYMBOLS exempts this page from {sym}, but it does not exist")
+
     order = ["link", "anchor", "heading", "map", "source", "frontmatter", "weight", "section",
-             "gist", "statusline", "status", "voice", "summary", "star", "h1", "fence", "acronym"]
+             "gist", "statusline", "status", "voice", "summary", "star", "h1", "fence", "acronym", "symbol"]
     errors.sort(key=lambda e: (order.index(e[0]), str(e[1]), e[2]))
     for kind, path, lineno, msg in errors:
         print(f"{path}:{lineno}: {kind}: {msg}")

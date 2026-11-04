@@ -12,7 +12,7 @@ sources:
   - "popsci/universes-other-half.md 'Dark energy as the orientation of the split'"
 ---
 
-*The phantom divide is the value w = −1 of the dark-energy equation of state, the value a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant) has, and it separates two kinds of behaviour: above it, dark energy thins out as space expands; below it, in the regime called phantom, dark energy becomes denser as space expands. An ordinary scalar field cannot reach the phantom side, because the quantity that would have to become negative is the square of the field's rate of change. That fact is a case of the null energy condition, a standard requirement on physically reasonable matter. A measured w below −1 would therefore point to something unusual, such as a field with negative kinetic energy, several interacting fields or a change to gravity. The program's [dark-energy field](/wiki/cosmology/dark-energy/tau-quintessence) is an ordinary scalar, so a robust intrinsic w < −1 "kills outright", in the words of the program's predictions table.*
+*The phantom divide is the value w = −1 of the dark-energy [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) (the ratio of pressure to energy density), the value a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant) has, and it separates two kinds of behaviour: above it, dark energy thins out as space expands; below it, in the regime called phantom, dark energy becomes denser as space expands. An ordinary scalar field cannot reach the phantom side, because the quantity that would have to become negative is the square of the field's rate of change. That fact is a case of the null energy condition, a standard requirement on physically reasonable matter. A measured w below −1 would therefore point to something unusual, such as a field with negative kinetic energy, several interacting fields or a change to gravity. The program's [dark-energy field](/wiki/cosmology/dark-energy/tau-quintessence) is an ordinary scalar, so a robust intrinsic w < −1 "kills outright", in the words of the program's predictions table.*
 
 **Status:** Established — [T] — textbook physics, written here from general knowledge, with the literature it names marked †; the program's use of it is [D] in #1 §7 item 1 and is stated in [checkpoint #11](/wiki/history/documents/checkpoint) §10.
 
@@ -30,7 +30,7 @@ In an expanding universe (H > 0) with positive energy density, the sign of 1 + w
 - w = −1: ρ stays constant, the cosmological constant;
 - w < −1: ρ grows as space expands. This is the phantom regime (Caldwell †).
 
-For constant w the solution is ρ ∝ a^{−3(1+w)}, and a phantom exponent is positive. The value −1 is therefore a dividing line between dark energy that weakens and dark energy that strengthens, and a w(z) that passes through it is said to cross the phantom divide.
+For constant w the solution is ρ ∝ a^{−3(1+w)}, and a phantom exponent is positive. The value −1 is therefore a dividing line between dark energy that weakens and dark energy that strengthens, and a w(z) that passes through it is said to cross the phantom divide, where z is the [redshift](/wiki/cosmology/scale-factor-duality/redshift), the stretching of light by the expansion of the universe since the light was emitted (larger z means earlier).
 
 ## The null energy condition [T]
 
@@ -97,7 +97,7 @@ The program's dark-energy field [τ](/wiki/cosmology/dark-energy/tau-quintessenc
 
 The second data release (DR2) of the Dark Energy Spectroscopic Instrument (DESI) reports, in #11's quotation, "a phantom crossing to w < −1 above redshifts z ≃ 0.4" [21S] (#11 §10). At those [redshifts](/wiki/cosmology/scale-factor-duality/redshift) the data favour the side of the divide that the program excludes, and the program's dark-energy sector is under real pressure (root `CLAUDE.md`, 'Since the handoff'). The finding and the program's response are on [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing).
 
-The [round-3](/wiki/method/review/round-3) referee, who raised the point, also notes, quoting the release, that models respecting the null energy condition "can somewhat outperform" the cosmological-constant model, and adds that they are disfavoured relative to the w₀–wₐ fit ([the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization)) (`review/round3/referee/audit-notes.md` Step 4(c) item 11).
+The [round-3](/wiki/method/review/round-3) referee, who raised the point, also notes, quoting the release, that models respecting the null energy condition "can somewhat outperform" the cosmological-constant model, and adds that they are disfavoured relative to the w₀–wₐ fit ([the CPL parametrization](/wiki/cosmology/dark-energy/cpl-parametrization); w₀ is the value of w today, and wₐ measures how fast w has changed as the universe expanded) (`review/round3/referee/audit-notes.md` Step 4(c) item 11).
 
 ## Used by
 

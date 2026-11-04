@@ -40,7 +40,7 @@ GR is general relativity, SIDM [self-interacting dark matter](/wiki/dark-matter/
 
 Two terms need unpacking.
 
-- **"Content beyond GR + SIDM."** Under strict P2, #5 §B finds no dark-energy field τ, no momentum graviton X, and no geometric origin for the velocity gate of [conjugate matter](/wiki/dark-matter/conjugate-matter), and without them "the program has no content of its own". What remains is general relativity, dark energy as a constant with w ≡ −1, and one self-interacting dark-matter model whose gate is "unexplained" (Branch R, #5 §B).
+- **"Content beyond GR + SIDM."** Under strict P2, #5 §B finds no dark-energy field τ, no momentum graviton X, and no geometric origin for the velocity gate of [conjugate matter](/wiki/dark-matter/conjugate-matter), and without them "the program has no content of its own". What remains is general relativity, dark energy as a constant with w ≡ −1 (w is dark energy's [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state), its pressure divided by its energy density), and one self-interacting dark-matter model whose gate is "unexplained" (Branch R, #5 §B).
 - **"η is emergent."** The neutral metric η is not a background structure but a property of the vacuum state: the [order parameter](/wiki/symmetry-breaking/order-parameter) η = HJ of P2′, with the real structure J "chosen spontaneously" (#11 §4). The alternative, η fixed in advance alongside ω, is the [original P2](/wiki/program/postulates/original-p2), called "strict P2" in the record.
 
 ## The ingredients

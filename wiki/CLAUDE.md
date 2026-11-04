@@ -315,12 +315,41 @@ spells out new acronyms, or reports them to be added.
 - All-caps words in quotations ("NOT", "ONLY") fail the gate. Paraphrase them, or set
   them in lower case inside the quotation and say so.
 
+## Symbols
+
+Define in words, beside its first use on each page, every symbol whose values the wiki
+states. A link alone does not define it: a reader arriving from a search engine has read no
+other page, and the definition belongs where the value is read. The gate checks four symbols
+(`SYMBOLS` in `scripts/check-wiki.py`): within about 180 characters of the first use, the
+words of the definition must appear. Standard wordings, to fit to the sentence:
+
+- **w**: "dark energy's equation of state w, its pressure divided by its energy density", or for
+  any fluid, "w, the ratio of its pressure to its energy density". Where the first use compares
+  w with −1 and the page has not said what −1 is, add "−1, the value for a cosmological
+  constant". Define w̃ or w_eff for what it is, the same ratio for a fluid in the conjugate
+  frame or the value that fluid acts with in ours, when it comes first.
+- **w₀** and **wₐ**: "w₀, the value of w today, and wₐ, which measures how fast w has changed
+  as the universe expanded (a negative wₐ means that w has been rising)".
+- **z**: "redshift z, the stretching of light by the expansion of the universe since the light
+  was emitted; larger z means earlier".
+
+A quotation stays verbatim: define the symbol in the sentence that introduces it or in a
+short parenthesis after it. Link the concept on its first mention as well, as for any wiki
+concept: the equation of state
+(`/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state`), the CPL form
+(`/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean`), redshift
+(`/wiki/cosmology/scale-factor-duality/redshift`). Never drop or rename a symbol to pass the
+check. The glossary and the notation page define each symbol in its own entry and are not
+checked. Where a letter stands for another quantity on a page (z for a point of the upper
+half-plane, w for a fiber weight), `SYMBOLS` lists the page and the quantity; the gate fails
+if such a page also uses the letter in the wiki's sense.
+
 ## The gate
 
 `scripts/check-wiki.py` runs inside `scripts/check.sh` and checks links, anchors, markup
 in headings, section maps, source paths, frontmatter, the italic opening, the status line, a
 page's title, status line and register against its status, the wording of "State the claim, not
-the discussion", the summary's length and links, fences and acronyms. Run it on the files you touched with
+the discussion", the summary's length and links, fences, acronyms and symbols. Run it on the files you touched with
 `.venv/bin/python scripts/check-wiki.py wiki/x/y.md`; links still resolve wiki-wide.
 `scripts/check.sh` must pass before work is called finished. Do not weaken a check to
 make it pass.

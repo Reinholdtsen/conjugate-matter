@@ -85,7 +85,7 @@ The choices of J form a familiar manifold:
 
 ## Why the correction was forced
 
-[The original P2](/wiki/program/postulates/original-p2) held η fixed as well. [The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) [T][V] then allows only H = diag(g, g⁻¹), and the theory reduces to "GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (#5 §B, "Branch R"). [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) states the general point: the program has content beyond that "iff η is emergent". The lab notebook's v0.3 addendum records the change: "P2 is therefore replaced by P2′".
+[The original P2](/wiki/program/postulates/original-p2) held η fixed as well. [The compatibility theorem](/wiki/phase-space/born-geometry/compatibility-theorem) [T][V] then allows only H = diag(g, g⁻¹), and the theory reduces to "GR + one bespoke SIDM model, with w ≡ −1 and the gate unexplained" (#5 §B, "Branch R"), where w is dark energy's [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state), its pressure divided by its energy density, and −1 is the value for a [cosmological constant](/wiki/cosmology/dark-energy/cosmological-constant). [The nontriviality theorem](/wiki/program/postulates/nontriviality-theorem) states the general point: the program has content beyond that "iff η is emergent". The lab notebook's v0.3 addendum records the change: "P2 is therefore replaced by P2′".
 
 ## Precedent and credit
 

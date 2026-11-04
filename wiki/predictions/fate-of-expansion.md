@@ -102,7 +102,7 @@ Since cos(τ/f) ≥ −1, the bracket is never negative, so for V₀ > 0 the pot
 What rests on the point:
 
 - **This row**, and the identity above, which presuppose a turnaround.
-- **The third leg of the over-constraint.** #11 §10 counts "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint", with V₀ "fixed by Ω_DE" (#1 §7 item 4). For the potential as written in a flat universe, t_turn is not defined ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint#its-reach)).
+- **The third leg of the over-constraint.** #11 §10 counts "two parameters (f, τᵢ) for three observables (w₀, wₐ, t_turn) — one over-constraint" (w₀ is the value today of dark energy's [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, its pressure divided by its energy density, and wₐ measures [how fast w has changed](/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean) as the universe expanded), with V₀ "fixed by Ω_DE" (#1 §7 item 4). For the potential as written in a flat universe, t_turn is not defined ([the dark-energy over-constraint](/wiki/cosmology/dark-energy/over-constraint#its-reach)).
 - **Founding supposition 7**, below.
 
 ## The row needs a closed universe
@@ -131,7 +131,7 @@ The near-term test is indirect. The turnaround is the end point of τ's motion, 
 
 ## The data situation
 
-No observation bears on the turnaround directly. The cited fits prefer a future collapse only within models whose vacuum energy can be negative (flag 45). What bears on the row through its premise is the spatial curvature: with the potential as written the row needs a closed universe, and in the program's model class the data disfavour closure at about 2σ (above). The proxy, row 4, is under real pressure: DESI's Data Release 2 (DR2) favours a phantom crossing above z ≈ 0.4, "against the framework's strict w ≥ −1", and "The dark-energy sector is under real pressure ahead of DR3" (root `CLAUDE.md`, 'Since the handoff'; [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
+No observation bears on the turnaround directly. The cited fits prefer a future collapse only within models whose vacuum energy can be negative (flag 45). What bears on the row through its premise is the spatial curvature: with the potential as written the row needs a closed universe, and in the program's model class the data disfavour closure at about 2σ (above). The proxy, row 4, is under real pressure: DESI's Data Release 2 (DR2) favours a phantom crossing above [redshift](/wiki/cosmology/scale-factor-duality/redshift) z ≈ 0.4 (z measures the stretching of light by the expansion of the universe since the light was emitted; larger z means earlier), "against the framework's strict w ≥ −1", and "The dark-energy sector is under real pressure ahead of DR3" (root `CLAUDE.md`, 'Since the handoff'; [DESI DR2's phantom crossing](/wiki/cosmology/dark-energy/desi-dr2-phantom-crossing)).
 
 ## Founding supposition 7
 

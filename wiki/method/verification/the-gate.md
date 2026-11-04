@@ -36,6 +36,7 @@ sources:
   - "review/wiki-build-checks/README.md"
   - "review/wiki-build-flags.md items 16 (addendum), 33, 38, 61"
   - "wiki/CLAUDE.md 'The gate'"
+  - "wiki/CLAUDE.md 'Symbols'"
   - "site/CLAUDE.md 'The gate'"
   - "scripts/check-site.py"
   - "HANDOFF.md §2"
@@ -119,6 +120,7 @@ The gate covers less than the record contains. These are outside it:
 - **star** — an unescaped starred symbol such as v\*, whose asterisk can end an italic passage early;
 - **h1**, **fence** — no top-level heading, and a language on every code fence;
 - **acronym** — an acronym that is unregistered, or used without its expansion nearby or a link (registry: `scripts/wiki-acronyms.txt`).
+- **symbol** — a page that uses the [equation of state](/wiki/cosmology/dark-energy/quintessence#dark-energy-and-the-equation-of-state) w, pressure divided by energy density, its parameters w₀, [the value today](/wiki/cosmology/dark-energy/cpl-parametrization#what-w-and-wₐ-mean), and wₐ, how fast w changes as the universe expands, or the [redshift](/wiki/cosmology/scale-factor-duality/redshift) z, the stretching of light by the expansion (larger z is earlier), without the words of that definition within about 180 characters of its first use. A link does not count. The glossary and the notation page, whose entries define each symbol, are not checked, and the script lists the pages on which the letter stands for another quantity (`wiki/CLAUDE.md`, 'Symbols').
 
 Its reason for existing, from the docstring: "Hugo does not validate internal links: it renders /wiki/does-not-exist without complaint. This script catches a dead link in the Markdown, before any build." Two later checks belong to the gate of the site that publishes the wiki, `npm run check` in `site/` (`site/CLAUDE.md`): the build fails on a link to a missing page, and `scripts/check-site.py` checks the built pages, among other things that every heading got the anchor this script computes. Given file names, it reports only on those files while resolving links across the whole wiki; with `--stats` it also prints status counts and the pages with fewer than three inbound links from outside their parent's map.
 
@@ -141,6 +143,7 @@ The commit history records each change:
 - **2026-10-29.** Section F was added to `verify/closed_universe.py` for flag 61, porting the closed-universe investigation's homotopy script, which had run outside the repository and the gate; the list stays at ten scripts ([the closed-universe script](/wiki/method/verification/closed-universe-script#f-topology-of-the-polarization-manifold-8-checks)).
 - **2026-11-01.** The wiki check gained the status, voice and summary checks; the list of scripts is unchanged.
 - **2026-11-03.** `verify/literature_check.py` was added with the literature-check note, bringing the list to eleven. It checks a literature search rather than a calculation: the note's verdicts, counts, quotations and citations against the stored record. The same day, after the second review of the write-up, it gained section G, the algebra behind flag 66, which two agents of the check had computed outside the gate. After the check of the edits merged by hand that followed, section B also looks for the counts it recomputes in the note's prose, at one place each, and section G also shows that within scale-factor duality no de Sitter universe has a source with p = −ρ, the partner of a stiff source, whatever the sign of its energy density.
+- **2026-11-03, later.** The wiki check gained the symbol check, and pages, #11 and the phase-space-diameter note gained definitions of w, w₀, wₐ and z where they are first used; the list of scripts is unchanged.
 
 ## A recorded run
 
@@ -176,5 +179,6 @@ The output of each script is quoted on its page, in full except for parts A and 
 - `review/wiki-build-checks/README.md` and `review/wiki-build-flags.md` items 16 (with its addendum), 33, 38, 61 — the wiki build's checks, outside the gate; the clumping check mark and its later script; the soliton script's claimed coverage; the Layout's two scripts; the ungated homotopy script that section F ports
 - `HANDOFF.md` §2 — the ✓ on the clumping figure
 - `wiki/CLAUDE.md` 'The gate' — how the wiki check is run
+- `wiki/CLAUDE.md` 'Symbols' — the rule the symbol check enforces and its standard wordings
 - `site/CLAUDE.md` 'The gate' and `scripts/check-site.py` — the site's later checks
 - Git history: commits 008c3ee, 678e48a, d15cd4a, 5dbaa82, 96f58da, 5b6efaa, 0e0f51e, 56485d3, 17e1338, b970e9d, b41f199, 503d34d, 5540adc, 97934f2 and b80e1a4 — the growth of the script list and of the wiki check; `scripts/check.sh` as of 2026-10-28 for the two momentum-gravity scripts, and as of 2026-11-03 for `verify/literature_check.py`
