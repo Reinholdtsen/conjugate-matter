@@ -77,7 +77,8 @@ verdict and the second overall prediction, is provisional until Khademi 2009's f
   findings, and one listed further stale statements in the wiki (X1–X10): none was refuted, and of the 56 verdicts
   (some findings were judged in parts) 41 were confirmed and 15 confirmed in part. Their verdicts, evidence and proposed edits are in `workflows/workflow5-result.json`, and the
   edits were applied to the note, the flags, `CLAUDE.md`, this README and the wiki; the workflow script is
-  `workflows/litcheck-review-verify-wf_6aaa971f-b3e.js`.
+  `workflows/litcheck-review-verify-wf_6aaa971f-b3e.js`, and the two reviewers' reports it was given are
+  `workflows/workflow5-args.json`.
 - **Round 5** (`round5/`), run beside the verifiers, tried to rerun the queries that OpenAlex's quota had blocked in round 3.
   The quota had not renewed (it renews at 00:00 UTC); one query was refused, and the 26 OpenAlex queries, with four
   for Semantic Scholar, which also refused, are listed in `round5/not-run-queries.json`. Two arXiv queries ran and
